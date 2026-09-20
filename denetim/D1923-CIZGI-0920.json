@@ -1,0 +1,3813 @@
+{
+ "gorev": "D1923-CIZGI-0920",
+ "gun": "1923-10-29",
+ "betik": "denetim/ARAC-D1923-CIZGI-0920.py",
+ "on_olcum": {
+  "olculen": {
+   "toplam_kayit": 723,
+   "dosya_bazinda": {
+    "d_sinirlar.js": 34,
+    "d_sinirlar_afrika.js": 41,
+    "d_sinirlar_amerika.js": 79,
+    "d_sinirlar_asya.js": 133,
+    "d_sinirlar_avrupa_bati.js": 159,
+    "d_sinirlar_avrupa_orta.js": 205,
+    "d_sinirlar_komsu.js": 53,
+    "d_sinirlar_okyanusya.js": 6,
+    "d_sinirlar_ortadogu.js": 13
+   },
+   "aktif": 319,
+   "cizgili": 193,
+   "cizgisiz": 126,
+   "nokta": 17133
+  },
+  "beklenen_GLM": {
+   "aktif": 319,
+   "cizgili": 193,
+   "cizgisiz": 126,
+   "nokta": 17133
+  },
+  "tutar": {
+   "aktif": true,
+   "cizgili": true,
+   "cizgisiz": true,
+   "nokta": true
+  }
+ },
+ "cizgisiz_adet": 126,
+ "borc_mu_beyan_mi": {
+  "BORÇ (çizilebilirdi)": 100,
+  "BEYAN (hat yoktu — borç değil)": 26
+ },
+ "engel_sinifina_gore": {
+  "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 48,
+  "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 26,
+  "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 22,
+  "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 15,
+  "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 10,
+  "E3 · PARÇALI — bir kısmı çizilebilir, kalanı tartışmalı": 2,
+  "E8 · DEĞİŞMEDİ ama çizilmemiş — vekil kullanılabilir, iş yapılmamış": 2,
+  "E1 · antlaşma metni KOORDİNATLI — hemen çizilebilir": 1
+ },
+ "degisti_eksenine_gore": {
+  "değişti=EVET": 88,
+  "değişti=BİLİNMİYOR": 36,
+  "değişti=HAYIR": 2
+ },
+ "elde_hazir_malzeme": {
+  "kutusu_olan": 126,
+  "dayanaginda_IBS_olan": 70,
+  "dayanaginda_url_olan": 112
+ },
+ "cografi_kumeye_gore": {
+  "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)": 29,
+  "K1 · Güney Amerika iç sınırları": 19,
+  "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)": 18,
+  "K9 · Orta Doğu mandaları + Arabistan": 11,
+  "K7 · Çin çevresi (Çin Cumhuriyeti yakası)": 10,
+  "K8 · Hint alt kıtası + Himalaya": 10,
+  "K4 · Kuzey Amerika": 6,
+  "K3 · Orta Amerika + Karayip": 6,
+  "K10 · Batı Avrupa + sömürge adaları": 5,
+  "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)": 5,
+  "K3 · Orta Amerika + Karayip (kısmî)": 2,
+  "K2 · Guyanalar": 2,
+  "K9 · Orta Doğu mandaları + Arabistan (kısmî)": 2,
+  "K2 · Guyanalar (kısmî)": 1
+ },
+ "cografi_kume_x_engel": {
+  "K9 · Orta Doğu mandaları + Arabistan": {
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 8,
+   "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 1,
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 1,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 1
+  },
+  "K4 · Kuzey Amerika": {
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 2,
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 2,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 1,
+   "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 1
+  },
+  "K3 · Orta Amerika + Karayip (kısmî)": {
+   "E1 · antlaşma metni KOORDİNATLI — hemen çizilebilir": 1,
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 1
+  },
+  "K3 · Orta Amerika + Karayip": {
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 5,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 1
+  },
+  "K10 · Batı Avrupa + sömürge adaları": {
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 2,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 2,
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 1
+  },
+  "K1 · Güney Amerika iç sınırları": {
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 8,
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 4,
+   "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 2,
+   "E3 · PARÇALI — bir kısmı çizilebilir, kalanı tartışmalı": 2,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 2,
+   "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 1
+  },
+  "K2 · Guyanalar (kısmî)": {
+   "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 1
+  },
+  "K2 · Guyanalar": {
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 2
+  },
+  "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)": {
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 9,
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 3,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 3,
+   "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 2,
+   "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 1
+  },
+  "K7 · Çin çevresi (Çin Cumhuriyeti yakası)": {
+   "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 7,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 3
+  },
+  "K8 · Hint alt kıtası + Himalaya": {
+   "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir": 4,
+   "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN": 2,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 2,
+   "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 2
+  },
+  "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)": {
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 5
+  },
+  "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)": {
+   "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir": 19,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 6,
+   "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 2,
+   "E8 · DEĞİŞMEDİ ama çizilmemiş — vekil kullanılabilir, iş yapılmamış": 2
+  },
+  "K9 · Orta Doğu mandaları + Arabistan (kısmî)": {
+   "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok": 1,
+   "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)": 1
+  }
+ },
+ "cografi_kume_borc_beyan": {
+  "K9 · Orta Doğu mandaları + Arabistan": {
+   "borç": 10,
+   "beyan": 1
+  },
+  "K4 · Kuzey Amerika": {
+   "borç": 4,
+   "beyan": 2
+  },
+  "K3 · Orta Amerika + Karayip (kısmî)": {
+   "borç": 1,
+   "beyan": 1
+  },
+  "K3 · Orta Amerika + Karayip": {
+   "beyan": 5,
+   "borç": 1
+  },
+  "K10 · Batı Avrupa + sömürge adaları": {
+   "beyan": 2,
+   "borç": 3
+  },
+  "K1 · Güney Amerika iç sınırları": {
+   "beyan": 8,
+   "borç": 11
+  },
+  "K2 · Guyanalar (kısmî)": {
+   "borç": 1
+  },
+  "K2 · Guyanalar": {
+   "beyan": 2
+  },
+  "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)": {
+   "beyan": 3,
+   "borç": 15
+  },
+  "K7 · Çin çevresi (Çin Cumhuriyeti yakası)": {
+   "borç": 10
+  },
+  "K8 · Hint alt kıtası + Himalaya": {
+   "beyan": 2,
+   "borç": 8
+  },
+  "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)": {
+   "borç": 5
+  },
+  "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)": {
+   "borç": 29
+  },
+  "K9 · Orta Doğu mandaları + Arabistan (kısmî)": {
+   "borç": 2
+  }
+ },
+ "bolgeye_gore": {
+  "amerika": 37,
+  "avrupa_orta": 33,
+  "asya": 29,
+  "komsu": 13,
+  "avrupa_bati": 10,
+  "cekirdek": 3,
+  "ortadogu": 1
+ },
+ "taraf_ciftine_gore": {
+  "cin-cumhuriyeti × sovyet-rusya": 5,
+  "fransa-cumhuriyet × italya": 5,
+  "almanya × cekoslovakya": 4,
+  "kacar × tbmm-turkiye": 3,
+  "abd × meksika": 3,
+  "bolivya-cumhuriyeti × sili-cumhuriyeti": 3,
+  "ingiliz-hindistani × tibet-ganden-phodrang": 3,
+  "almanya × polonya": 3,
+  "polonya × sovyet-rusya": 3,
+  "finlandiya × sovyet-rusya": 3,
+  "abd × kanada": 2,
+  "brezilya-cumhuriyeti × uruguay-cumhuriyeti": 2,
+  "cammu-kesmir × cin-cumhuriyeti": 2,
+  "cin-cumhuriyeti × ingiliz-hindistani": 2,
+  "cin-cumhuriyeti × fransiz-cinhindi": 2,
+  "fransiz-cinhindi × siyam-chakri": 2,
+  "ingiliz-hindistani × siyam-chakri": 2,
+  "italya × yugoslavya": 2,
+  "avusturya-cumhuriyet × macaristan-naiplik": 2,
+  "polonya × romanya-kralligi": 2,
+  "cekoslovakya × polonya": 2,
+  "romanya-kralligi × yugoslavya": 2,
+  "arnavutluk-bagimsiz × yugoslavya": 2,
+  "kacar × sovyet-rusya": 2,
+  "kanada × newfoundland-dominyonu": 1,
+  "abd × panama-cumhuriyeti": 1,
+  "el-salvador-cumhuriyeti × guatemala": 1,
+  "guatemala × honduras-cumhuriyeti": 1,
+  "el-salvador-cumhuriyeti × honduras-cumhuriyeti": 1,
+  "honduras-cumhuriyeti × nikaragua-cumhuriyeti": 1,
+  "kosta-rika-cumhuriyeti × panama-cumhuriyeti": 1,
+  "kolombiya-cumhuriyeti × panama-cumhuriyeti": 1,
+  "dominik-cumhuriyeti × haiti": 1,
+  "fransa-cumhuriyet × hollanda": 1,
+  "kolombiya-cumhuriyeti × venezuela-cumhuriyeti": 1,
+  "brezilya-cumhuriyeti × kolombiya-cumhuriyeti": 1,
+  "kolombiya-cumhuriyeti × peru-cumhuriyeti": 1,
+  "ekvador-cumhuriyeti × kolombiya-cumhuriyeti": 1,
+  "ekvador-cumhuriyeti × peru-cumhuriyeti": 1,
+  "brezilya-cumhuriyeti × fransiz-guyanasi": 1,
+  "hollanda-guyanasi × ingiliz-guyanasi": 1,
+  "fransiz-guyanasi × hollanda-guyanasi": 1,
+  "bolivya-cumhuriyeti × brezilya-cumhuriyeti": 1,
+  "peru-cumhuriyeti × sili-cumhuriyeti": 1,
+  "bolivya-cumhuriyeti × paraguay-cumhuriyeti": 1,
+  "brezilya-cumhuriyeti × paraguay-cumhuriyeti": 1,
+  "arjantin-cumhuriyeti × paraguay-cumhuriyeti": 1,
+  "arjantin-cumhuriyeti × bolivya-cumhuriyeti": 1,
+  "arjantin-cumhuriyeti × sili-cumhuriyeti": 1,
+  "arjantin-cumhuriyeti × uruguay-cumhuriyeti": 1,
+  "arjantin-cumhuriyeti × brezilya-cumhuriyeti": 1,
+  "mogolistan × sovyet-rusya": 1,
+  "cin-cumhuriyeti × mogolistan": 1,
+  "cin-cumhuriyeti × meiji-japonya": 1,
+  "meiji-japonya × sovyet-rusya": 1,
+  "nepal × tibet-ganden-phodrang": 1,
+  "ingiliz-hindistani × nepal": 1,
+  "hollanda-dogu-hint × sarawak-brooke": 1,
+  "afganistan × sovyet-rusya": 1,
+  "afganistan × ingiliz-hindistani": 1,
+  "afganistan × cin-cumhuriyeti": 1,
+  "cin-cumhuriyeti × ingiltere": 1,
+  "belcika × luksemburg": 1,
+  "ispanya × portekiz": 1,
+  "ingiltere × ispanya": 1,
+  "almanya × danzig-serbest-sehri": 1,
+  "danzig-serbest-sehri × polonya": 1,
+  "almanya × litvanya": 1,
+  "almanya × saar-havzasi-mandasi": 1,
+  "litvanya × polonya": 1,
+  "letonya × polonya": 1,
+  "estonya × letonya": 1,
+  "estonya × sovyet-rusya": 1,
+  "letonya × sovyet-rusya": 1,
+  "cekoslovakya × romanya-kralligi": 1,
+  "yugoslavya × yunanistan": 1,
+  "bulgaristan-kralligi × romanya-kralligi": 1,
+  "afganistan × kacar": 1,
+  "ingiliz-hindistani × kacar": 1,
+  "irak-kralligi × kacar": 1,
+  "filistin-mandasi × suriye-lubnan-mandasi": 1,
+  "irak-kralligi × suriye-lubnan-mandasi": 1,
+  "irak-kralligi × urdun-emirligi": 1,
+  "irak-kralligi × suud-ucuncu": 1,
+  "irak-kralligi × kuveyt": 1,
+  "suriye-lubnan-mandasi × urdun-emirligi": 1,
+  "kuveyt × suud-ucuncu": 1
+ },
+ "liste": [
+  {
+   "id": "d1923-ar-bo",
+   "taraflar": [
+    "arjantin-cumhuriyeti",
+    "bolivya-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E3 · PARÇALI — bir kısmı çizilebilir, kalanı tartışmalı",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "9 Tem 1925 antlaşması (onay 11 Eki 1938); Pilcomayo 1941 protokolü",
+   "kutu_var": true,
+   "not": "PARÇALI: dağ, nehir ve 22. paralel kesimleri hukuken C; Pilcomayo kesimi tanımsız · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Arjantin–Bolivya Antlaşması + 1891 değişikliği (onay 10 Mar 1893)",
+    "IBS No. 162 Argentina–Bolivia"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-ar-br-DEGISTI-brasilera",
+   "taraflar": [
+    "arjantin-cumhuriyeti",
+    "brezilya-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken E — çizim yapılmadı",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "27 Ara 1927 sözleşmesi (onay 9 Tem 1941): hat ada ile sağ kıyı arasına",
+   "kutu_var": true,
+   "not": "1923'te hukuken E (1898 md. I talveg, 1901 işaretleri) ama bugünkü çizgi farklı · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 168 Argentina–Brazil"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-ar-cl",
+   "taraflar": [
+    "arjantin-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "IBS 101 yalnız Palena'yı (1966 kararı) anlatır; öteki kesimlerin bugünkü durumu ÖLÇÜLMEDİ",
+   "kutu_var": true,
+   "not": "hukuken C (seyrek direkler) · Palena–California 1966'da değişti · Laguna del Desierto (1994) ve buzul sahası kaynaksız · 1881 antlaşma günü BULUNAMADI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İngiliz hakem kararı",
+    "IBS No. 101 Argentina–Chile"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-ar-py-DEGISTI-pilcomayo",
+   "taraflar": [
+    "arjantin-cumhuriyeti",
+    "paraguay-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C / tanımsız",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "5 Tem 1939 tamamlayıcı antlaşma; bataklık kesimi 1 Haz 1945",
+   "kutu_var": true,
+   "not": "Pilcomayo: hukuken C (ağız–Salto Palmar, Horqueta–Esmeralda); Salto Palmar–Horqueta bataklığı TANIMSIZ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Hayes hakem kararı",
+    "IBS No. 166 Argentina–Paraguay"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-ar-uy",
+   "taraflar": [
+    "arjantin-cumhuriyeti",
+    "uruguay-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "7 Nis 1961 antlaşması (yürürlük 19 Oca 1966) · 19 Kas 1973 Río de la Plata",
+   "kutu_var": true,
+   "not": "Uruguay nehri: yürürlükte antlaşma YOK (1916 ada antlaşması onaylanmadı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 68 Argentina–Uruguay"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-bo-br",
+   "taraflar": [
+    "bolivya-cumhuriyeti",
+    "brezilya-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "parçalı E / C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E3 · PARÇALI — bir kısmı çizilebilir, kalanı tartışmalı",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "3 Eyl 1925 protokolleri; Natal Antlaşması 25 Ara 1928 (onay 27 Haz 1929)",
+   "kutu_var": true,
+   "not": "PARÇALI: 1914 haritalı kesimler E; Rapirran–Bahia · Cuatro Hermanos–Verde · Madeira adaları C ve 1928'de değişti. Kesim koordinatları elde yok ⇒ bütün çift YOK · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Petrópolis Antlaşması (onay 10 Mar 1904)",
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-bo-cl-DEGISTI-chipapa-olca",
+   "taraflar": [
+    "bolivya-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1938: Cerro Paroma üzerinden düz hat, Collaguasi demiryolu Şili'de",
+   "kutu_var": true,
+   "not": "hukuken C · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 67 Bolivia–Chile"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-bo-cl-DEGISTI-patalani-panantalla",
+   "taraflar": [
+    "bolivya-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1938: Irpa Pueblo · Sillajhuay · Armasaya üzerinden",
+   "kutu_var": true,
+   "not": "hukuken C · kutu TAHMİNİ; Panantalla GeoNames'te BULUNAMADI, kuzey sınır genişletildi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 67 Bolivia–Chile"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-bo-cl-tacna",
+   "taraflar": [
+    "bolivya-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Lima 1929 sonrası bu kesim Bolivya–PERU sınırı (Tacna Peru'ya döndü)",
+   "kutu_var": true,
+   "not": "Visviri–Santuario–Chipe: 1904 hattı, karşı taraf Şili idaresindeki Tacna · hukuken C · geometrinin 1929 sonrası aynı kaldığı ÖLÇÜLMEDİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Barış, Dostluk ve Ticaret Antlaşması (onay 10 Mar 1905)",
+    "IBS No. 65 Chile–Peru"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-bo-py-chaco",
+   "taraflar": [
+    "bolivya-cumhuriyeti",
+    "paraguay-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "Buenos Aires Antlaşması 21 Tem 1938 · hakem kararı 10 Eki 1938",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: Chaco Boreal · 1923 kale hattı BULUNAMADI · tartışmalı alan kutudan çok geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 165 Bolivia–Paraguay"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-br-py-DEGISTI-paraguay-nehri",
+   "taraflar": [
+    "brezilya-cumhuriyeti",
+    "paraguay-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "21 May 1927 tamamlayıcı antlaşma (onay 25 Kas 1929)",
+   "kutu_var": true,
+   "not": "Apa ağzı–Bahía Negra: antlaşmayla TANIMSIZ, batı kıyıyı Bolivya da istiyordu · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-br-uy-brasilera",
+   "taraflar": [
+    "brezilya-cumhuriyeti",
+    "uruguay-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1979'da hâlâ iki taraf iddiasında",
+   "kutu_var": true,
+   "not": "hukuken C, belirsiz (1851: ağızdaki adalar Brezilya'nın); Uruguay itirazı 1940 tarihli · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 170 Brazil–Uruguay"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-br-uy-invernada",
+   "taraflar": [
+    "brezilya-cumhuriyeti",
+    "uruguay-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1979'da da çözülmemişti; bugünkü durum ölçülmedi",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: Arroyo de la Invernada (Rincón de Artigas) · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 170 Brazil–Uruguay"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-cl-pe-tacna-arica",
+   "taraflar": [
+    "peru-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "FİİLİ (D adayı), koordinat yok",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Tarata 1 Eyl 1925 Peru'ya; Lima Antlaşması 3 Haz 1929 md. 2; işaretleme 1930",
+   "kutu_var": true,
+   "not": "FİİLİ: Şili idaresinin kuzey sınırı Sama nehri (Şili yorumu: Chaspaya kolu, Tarata dahil); koordinat yok · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Ancón Antlaşması (onay 28 Mar 1884)",
+    "Washington Protokolü",
+    "IBS No. 65 Chile–Peru"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-co-br-kuzey",
+   "taraflar": [
+    "brezilya-cumhuriyeti",
+    "kolombiya-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1928 antlaşması yetkisiyle 1930–36 düzeltmeleri (Taraira meridyeni, San José adası)",
+   "kutu_var": true,
+   "not": "hukuken C (işaretsiz) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Sınır, Transit ve İç Ulaşım Antlaşması",
+    "IBS No. 174 Brazil–Colombia"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-co-ec-DEGISTI-dogu",
+   "taraflar": [
+    "ekvador-cumhuriyeti",
+    "kolombiya-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1928 sonrası Peru toprağı; Kolombiya–Ekvador sınırı Güepí'de biter",
+   "kutu_var": true,
+   "not": "Putumayo–Napo–Ambiyacu: hukuken C, fiilen Peru iddiasında · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Muñoz Vernaza–Suárez Antlaşması",
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-co-pe",
+   "taraflar": [
+    "kolombiya-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "FİİLİ (D adayı), koordinat yok",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "Salomón–Lozano yürürlük 19 Mar 1928; Leticia teslimi 17 Ağu 1930",
+   "kutu_var": true,
+   "not": "FİİLİ: 1911 statükosu (Kolombiya La Pedrera'da, Peru Putumayo'da); çizimi BULUNAMADI · tartışmalı alan kutudan geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Bogotá statüko sözleşmesi",
+    "Salomón–Lozano Antlaşması (1923'te YÜRÜRLÜKTE DEĞİL)",
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-co-ve",
+   "taraflar": [
+    "kolombiya-cumhuriyeti",
+    "venezuela-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "parçalı E / tartışmalı",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "İsviçreli uzman kararları 30 Tem 1924; 1941 antlaşması (yalnız arama özeti)",
+   "kutu_var": true,
+   "not": "PARÇALI: tartışmasız kesimler (Goajira, Táchira) E; dört kesim uygulama bekliyordu. Kesimlerin koordinatı elde yok ⇒ bütün çift YOK · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İspanya Kraliçesi hakem kararı",
+    "İsviçre Federal Konseyi kararı",
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-ec-pe",
+   "taraflar": [
+    "ekvador-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "Rio Protokolü 29 Oca 1942",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: 1923'te hat yok · tartışmalı alan kutudan çok geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 172 Ecuador–Peru"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K1 · Güney Amerika iç sınırları"
+  },
+  {
+   "id": "d1923-be-lu",
+   "taraflar": [
+    "belcika",
+    "luksemburg"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1890-11-23 → 1923-10-29) hukukî sınıfı: E",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "değişiklik kaydı bulunamadı; kaynağın sessizliği kanıt sayılmadı (aynı sayfa FR–LU'nun belgeli düzeltmelerini de anmıyor)",
+   "kutu_var": true,
+   "not": "§1.8 · f lüksemburg künyesine hizalandı (hat 1843'ten) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 3,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Londra Antlaşması",
+    "Maastricht Sınır Sözleşmesi",
+    "ACT Lüksemburg — Limites d'État"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K10 · Batı Avrupa + sömürge adaları"
+  },
+  {
+   "id": "d1923-es-gib",
+   "taraflar": [
+    "ingiltere",
+    "ispanya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1909-01-01 → 1923-10-29) hukukî sınıfı: fiili (kıstak devredilmedi; İspanya çiti sınır saymıyor)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "çitin 1923'ten sonra kayıp kaymadığına dair kaynak yok",
+   "kutu_var": true,
+   "not": "§3.23 · f: çit '1908-1909' — gün yok, 1909-01-01 hassasiyeti YIL. Cebelitarık'ın ayrı künyesi yok; taraf ingiltere · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 3,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Utrecht Antlaşması",
+    "İspanya Dışişleri — Gibraltar",
+    "M. Peñalba-Sotorrío, The Conversation"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K10 · Batı Avrupa + sömürge adaları"
+  },
+  {
+   "id": "d1923-es-pt-guney",
+   "taraflar": [
+    "ispanya",
+    "portekiz"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1801-06-06 → 1923-10-29) hukukî sınıfı: fiili — 1923'te bu kesimde hukukî hat yoktu",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "1926-06-29 Lizbon sözleşmesi (onay 1927); tartışmalı alanlar (Contienda, Villanueva del Fresno, Valencia de Mombuey, Galiana) 1922-26'da bölündü",
+   "kutu_var": true,
+   "not": "§3.22 · Cuncos → Guadiana ağzı. f Badajoz Antlaşması 1801-06-06 · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Santos Sánchez, Boletín de la Asociación de Geógrafos Españoles 104 (2025)",
+    "Portekiz Dışişleri — 150 anos do Tratado de Limites"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K10 · Batı Avrupa + sömürge adaları"
+  },
+  {
+   "id": "d1923-fr-nl-saint-martin",
+   "taraflar": [
+    "fransa-cumhuriyet",
+    "hollanda"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "26 May 2023 sınır antlaşması (Ek A koordinatlı)",
+   "kutu_var": true,
+   "not": "Hat tanımsız (1648) · f Fransa künyesine çekildi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Concordia Antlaşması",
+    "Hollanda onay yasası gerekçesi (WGK015054)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K10 · Batı Avrupa + sömürge adaları"
+  },
+  {
+   "id": "d1923-hd-sw-DEGISTI-api-raja",
+   "taraflar": [
+    "hollanda-dogu-hint",
+    "sarawak-brooke"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "26 Mar 1928 Lahey Sözleşmesi: dereler/patikalar/düz çizgiler, 1:50.000 harita, 20 işaret",
+   "kutu_var": true,
+   "not": "Envanter §2.19 · kutu IBS'in Api 110°04'D ve Raja 109°56'D boylamlarıyla · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 45 Indonesia–Malaysia (Borneo)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K10 · Batı Avrupa + sömürge adaları"
+  },
+  {
+   "id": "d1923-gy-sr",
+   "taraflar": [
+    "hollanda-guyanasi",
+    "ingiliz-guyanasi"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1938'de hâlâ açık",
+   "kutu_var": true,
+   "not": "PARÇALI: Corentyne alt kesimi FİİLİ (1831'den beri zımni mutabakat, antlaşma yok); üst kesim (New River) TARTIŞMALI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K2 · Guyanalar"
+  },
+  {
+   "id": "d1923-sr-gf",
+   "taraflar": [
+    "fransiz-guyanasi",
+    "hollanda-guyanasi"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "Itany/Marouini anlaşmazlığı 1938'de açık; bugünkü durum ölçülmedi",
+   "kutu_var": true,
+   "not": "PARÇALI: Maroni+Awa C · Stoelman–Portal adaları E (1915) · Awa yukarısı TARTIŞMALI · Çar kararı 13/25 May 1891 (Jülyen/Gregoryen) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Çar III. Aleksandr hakem kararı",
+    "Paris Sözleşmesi (onay 16 Eyl 1916)",
+    "Ireland 1938"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K2 · Guyanalar"
+  },
+  {
+   "id": "d1923-br-gf",
+   "taraflar": [
+    "brezilya-cumhuriyeti",
+    "fransiz-guyanasi"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1956'ya kadar değişiklik yok; sonrası ölçülmedi. İşaretlemede ÇELİŞKİ: AFDI 'yapılmadı' ↔ Ireland 'kısmen'",
+   "kutu_var": true,
+   "not": "hukuken C (Oyapock talvegi + Tumuc-Humac su ayrımı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İsviçre Federal Konseyi kararı",
+    "AFDI 2 (1956) s. 255–256"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K2 · Guyanalar (kısmî)"
+  },
+  {
+   "id": "d1923-cr-pa",
+   "taraflar": [
+    "kosta-rika-cumhuriyeti",
+    "panama-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "San José Antlaşması 1 May 1941; işaretleme 1944",
+   "kutu_var": true,
+   "not": "TARTIŞMALI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: kosta-rika-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor)",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Loubet hakem kararı",
+    "White hakem kararı",
+    "IBS No. 156 Costa Rica–Panama"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip"
+  },
+  {
+   "id": "d1923-gt-hn",
+   "taraflar": [
+    "guatemala",
+    "honduras-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "23 Oca 1933 Özel Sınır Mahkemesi kararı; işaretleme 1933–36",
+   "kutu_var": true,
+   "not": "TARTIŞMALI (Honduras Motagua–Belize kıyısını istiyordu) · kutu bugünkü çizgi çevresi; tartışmalı alan daha geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: honduras-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor)",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 157 Guatemala–Honduras"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip"
+  },
+  {
+   "id": "d1923-gt-sv",
+   "taraflar": [
+    "el-salvador-cumhuriyeti",
+    "guatemala"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "FİİLİ (D adayı), koordinat yok",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "9 Nis 1938 antlaşması (onay 24 May 1938), işaretleme Eyl 1940",
+   "kutu_var": true,
+   "not": "FİİLİ: 1923'te belge yok; 1938 md. I(a) 'mevcut sınır'dan söz eder ama 1923 koordinatı yok · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: el-salvador-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor)",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 82 El Salvador–Guatemala"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip"
+  },
+  {
+   "id": "d1923-hn-ni-DEGISTI-dogu",
+   "taraflar": [
+    "honduras-cumhuriyeti",
+    "nikaragua-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "UAD 18 Kas 1960 · Sánchez Gavito kararı 5 Ağu 1961 (Teotecacinte düz hatları, Coco ağzı)",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: Nikaragua 1906 kararını reddetti · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: honduras-cumhuriyeti, nikaragua-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor)",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İspanya Kralı hakem kararı",
+    "IBS No. 36 Honduras–Nicaragua"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip"
+  },
+  {
+   "id": "d1923-hn-sv",
+   "taraflar": [
+    "el-salvador-cumhuriyeti",
+    "honduras-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "ÖLÇÜLEMEDİ — kaynak okunmadı",
+   "kutu_var": true,
+   "not": "Envanter d1923-hn-sv-1: ölçülemedi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: honduras-cumhuriyeti, el-salvador-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor)",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "bulunamadı — IBS yok, bu turda akademik kaynak okunmadı"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip"
+  },
+  {
+   "id": "d1923-ht-do",
+   "taraflar": [
+    "dominik-cumhuriyeti",
+    "haiti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "21 Oca 1929 antlaşması · 27 Şub 1935 · 9 Mar 1936 protokolü",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: etkili belge yok (1777 hattı belirsiz) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 5 Dominican Republic–Haiti",
+    "FRUS 1929 v.I d783"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip"
+  },
+  {
+   "id": "d1923-pa-co",
+   "taraflar": [
+    "kolombiya-cumhuriyeti",
+    "panama-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "1922-03-01'den sonra hukuken C (kaba)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1924 antlaşması aynı 1855 kanununa dayanır; 1936–38 işaretleme; kayma ölçülmedi",
+   "kutu_var": true,
+   "not": "1903–1922 Kolombiya Panama'yı tanımıyordu; 1 Mar 1922'den sonra hat KABA (C) ve işaretsiz; Panama antlaşmanın tarafı değil · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Thomson–Urrutia Antlaşması (onay 1 Mar 1922)",
+    "Kolombiya Kanunu (Panamá eyaleti sınırı)",
+    "IBS No. 62 Colombia–Panama"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip (kısmî)"
+  },
+  {
+   "id": "d1923-us-pa-kanal-bolgesi",
+   "taraflar": [
+    "abd",
+    "panama-cumhuriyeti"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken E (1914 sözleşmesi, koordinatlı) — çizim yapılmadı",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E1 · antlaşma metni KOORDİNATLI — hemen çizilebilir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Kanal Bölgesi 1 Eki 1979'da sona erdi — bugünkü haritada YOK",
+   "kutu_var": true,
+   "not": "Envanter d1923-us-pa-1 · 1914 metni KOORDİNATLI ⇒ çizilebilir; bu turda ÇİZİLMEDİ (borç) · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Hay–Bunau-Varilla Antlaşması",
+    "Sınır Sözleşmesi (onay 11 Şub 1915)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K3 · Orta Amerika + Karayip (kısmî)"
+  },
+  {
+   "id": "d1923-ca-nf-labrador",
+   "taraflar": [
+    "kanada",
+    "newfoundland-dominyonu"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "Privy Council 1 Mar 1927 kararı hattı çizdi",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: Kanada kıyıdan 1 millik şerit, Newfoundland Atlantik su ayrımını iddia ediyordu · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: newfoundland-dominyonu devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor)",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Privy Council, Labrador Boundary, [1927] UKPC 25"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K4 · Kuzey Amerika"
+  },
+  {
+   "id": "d1923-ca-us-DEGISTI-lake-of-the-woods",
+   "taraflar": [
+    "abd",
+    "kanada"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C (kusurlu tanım)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1925: Northwest Angle bitim noktası 49°23'04.49\"K 95°09'11.61\"B",
+   "kutu_var": true,
+   "not": "1923'te hat 5 noktada kendini kesiyordu (hukuken tanımlı ama kusurlu) · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "ABD–Britanya Antlaşması 24 Şub 1925"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K4 · Kuzey Amerika"
+  },
+  {
+   "id": "d1923-ca-us-alaska-guneydogu",
+   "taraflar": [
+    "abd",
+    "kanada"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "hat 1903 kararı + 1905 notaları; işaretleme yılı ve sonraki değişiklik BULUNAMADI",
+   "kutu_var": true,
+   "not": "Envanter d1923-ca-us-4 · hukuken C (işaretleme bilinmiyor) · degisti bilinmediği için çizilmedi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Alaska Sınır Mahkemesi kararı",
+    "Nota teatisi (komisyon raporunun kabulü)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K4 · Kuzey Amerika"
+  },
+  {
+   "id": "d1923-us-mx-DEGISTI-colorado",
+   "taraflar": [
+    "abd",
+    "meksika"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Colorado nehir kesimi; 1970 antlaşması",
+   "kutu_var": true,
+   "not": "hukuken C · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBWC — Treaties"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K4 · Kuzey Amerika"
+  },
+  {
+   "id": "d1923-us-mx-DEGISTI-rio-grande",
+   "taraflar": [
+    "abd",
+    "meksika"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": "hukuken C",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1933 El Paso–Juárez düzeltmesi (155 mil) · 1970 antlaşması 1.255 millik nehir kesimini yeniden kurdu",
+   "kutu_var": true,
+   "not": "hukuken C: hareketli nehir hattı (1884/1905 banco kuralları) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBWC — Treaties",
+    "Banco Sözleşmesi"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K4 · Kuzey Amerika"
+  },
+  {
+   "id": "d1923-us-mx-chamizal",
+   "taraflar": [
+    "abd",
+    "meksika"
+   ],
+   "bolge": "amerika",
+   "dosya": "d_sinirlar_amerika.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "29 Ağu 1963 sözleşmesiyle çözüldü",
+   "kutu_var": true,
+   "not": "TARTIŞMALI: ABD 1911 kararını reddetti · 1923 fiilî idare BULUNAMADI · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Chamizal hakem kararı"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K4 · Kuzey Amerika"
+  },
+  {
+   "id": "d1923-af-sscb-DEGISTI-amuderya",
+   "taraflar": [
+    "afganistan",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1946 protokolü talveg/orta hat kuralı; 1947–48'de 1.192 ada paylaştırıldı; Darkad adası 26 Şub 1926'da Afganistan'a",
+   "kutu_var": true,
+   "not": "Envanter §3.11 · sınıf C (nehir içi hat 1923'te tanımsız). ⚠️ Kuzey kıyının bir kısmı 1923'te hukuken BUHARA HALK SOVYET CUMHURİYETİ'dir (künye `buhara-halk-cumhuriyeti`); hangi kesim olduğu BULUNAMADI — atlas Termez'i `sovyet-rusya`ya yazıyor · f 1895-03-11 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutu",
+   "kesinlik_not": "",
+   "dayanak_adet": 6,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Granville–Gorçakov yazışması",
+    "Durand–Emir anlaşması No. XI",
+    "Sovyet–Afgan Antlaşması",
+    "D. Balland, 'Boundaries iii. Boundaries of Afghanistan', Encyclopaedia Iranica IV/4 s. 406–415",
+    "Aitchison, Treaties, Engagements and Sanads, c. XIII (1933)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-ee-su",
+   "taraflar": [
+    "estonya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1944-08-23 Petseri, 1944-11-24 Narva ötesi",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. f: onay teatisi 1920-03-30 (Estonya DB, arama özeti ◐). İşaretleme bitiş günü BULUNAMADI.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Tartu Barışı Estonya–RSFSC (LNTS 11:51-71)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-fi-su-guney",
+   "taraflar": [
+    "finlandiya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Karelya 1940 Moskova Barışı",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Karelya kıstağı (Sestra) ve Ladoga Karelyası.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS 74 Finlandiya–SSCB (ABD Dışişleri, 1967)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-fi-su-kuzey",
+   "taraflar": [
+    "finlandiya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Salla-Kuusamo 1940, Janiskoski 1947",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Salla kesimi. Kutu 68,98 K'de kesildi: üstünde D3-AVRUPA-BATI'nin FI-NO hatları var.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Tartu Barışı Finlandiya–RSFSC, onay tutanağı (LNTS 3:65-79)",
+    "IBS 74 Finlandiya–SSCB (ABD Dışişleri, 1967)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-fi-su-petsamo",
+   "taraflar": [
+    "finlandiya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Petsamo 1944'te SSCB'ye",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Petsamo koridorunun doğu kenarı (md. 4; Fin idaresi 1921-02-14'ten ◐). 28,9-30,85 D arası BATI'nın FI-NO hattı — kutu dışı.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Tartu Barışı Finlandiya–RSFSC, onay tutanağı (LNTS 3:65-79)",
+    "IBS 74 Finlandiya–SSCB (ABD Dışişleri, 1967)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-jp-sscb-BILINMIYOR-tumen",
+   "taraflar": [
+    "meiji-japonya",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1965'e kadar değişmedi; 1985/1990 SSCB–KDHC anlaşmaları OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.3 · sınıf C (tanımlayan antlaşma yok) · f 1888-08-20 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Pekin Ek Antlaşması",
+    "Seul Tumen Ticaret Nizamnamesi",
+    "IBS No. 59 Korea–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-lv-su",
+   "taraflar": [
+    "letonya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Abrene/Pıtalovo RSFSC'ye (1944 ◐)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. f: imza günü (yürürlük günü BULUNAMADI).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Letonya–RSFSC Barışı, Riga"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-pl-su-1",
+   "taraflar": [
+    "polonya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939/1945 (1945 Polonya-SSCB antl. OKUNMADI)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Dvina–Polesya kuzey kesimi.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Riga Antlaşması (LNTS 6:123-169) + Żurawski, Przegląd Historyczno-Wojskowy 2011"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-pl-su-2",
+   "taraflar": [
+    "polonya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939/1945",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Polesya kesimi.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Riga Antlaşması (LNTS 6:123-169) + Żurawski, Przegląd Historyczno-Wojskowy 2011"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-pl-su-3",
+   "taraflar": [
+    "polonya",
+    "sovyet-rusya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939/1945",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Volhynya-Zbruç kesimi (Zbruç ağzına kadar).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Riga Antlaşması (LNTS 6:123-169) + Żurawski, Przegląd Historyczno-Wojskowy 2011"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-cn-BILINMIYOR-batialtay",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "",
+   "kutu_var": true,
+   "not": "Altay'daki kısa kesim (Moğolistan üçlü noktası civarı) · f 1881-08-19 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "St. Petersburg (İli) Antlaşması",
+    "IBS No. 64 China–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-cn-BILINMIYOR-dogu",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1978'de Argun/Amur/Ussuri nehir içi hat ve adalar tanımsız, Mançuli ve Amur–Ussuri kavşağı tartışmalı; sonraki anlaşmalar okunmadı",
+   "kutu_var": true,
+   "not": "Envanter §2.1: Sungaça–Tumen kara kesimi 1923'te D (1861 20 direk); nehirler C; Mançuli · 64 köy · kavşak adaları FİİLİ. Uzakdoğu Cumhuriyeti (1920–22) için atlasta ayrı künye YOK — Sovyet tarafı baştan `sovyet-rusya` · f 1860-11-14 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da ",
+   "kesinlik_not": "",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Aigun Antlaşması",
+    "Pekin Ek Antlaşması",
+    "Bur Antlaşması + Abagatuy protokolü",
+    "IBS No. 64 China–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-cn-BILINMIYOR-kazak",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1978'e kadar değişiklik bildirilmemiş; bağımsızlık sonrası Kazakistan–Çin anlaşmaları OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.1: 1923'te D (Tekes–İli ~12 işaret; Jungar Alatau–Tarbagatay 1883/1893) · Horgos C · f 1893-12-20 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Tarbagatay (Çuguçak) Protokolü",
+    "St. Petersburg (İli) Antlaşması",
+    "IBS No. 64 China–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-cn-BILINMIYOR-kirgiz",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "Kırgızistan–Çin sonraki anlaşmaları OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.1: 1923'te D; protokol haritaları IBS'te yok · f 1884-05-22 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Tarbagatay (Çuguçak) Protokolü",
+    "Kaşgar protokolü",
+    "Novi-Margelan protokolü",
+    "IBS No. 64 China–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-cn-FIILI-pamir",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1978'de hâlâ tartışmalı; Tacikistan–Çin sonraki anlaşmaları OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.1 · sınıf FİİLİ: Kizil Jik Dawan güneyinde antlaşma yok · f 1895-03-11 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İngiliz–Rus Pamir anlaşması",
+    "IBS No. 64 China–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-ir-DEGISTI-aras-talis",
+   "taraflar": [
+    "kacar",
+    "sovyet-rusya"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "2 Ara 1954 Tahran anl. (Mugan · Dyman · Yedi Evlar ↔ Namin; Aras'ta talveg); 11 Nis 1957 işaret; 7 May 1970 baraj gölleri",
+   "kutu_var": true,
+   "not": "Envanter K6 · sınıf C (1828 metni var, yerinde işaret yok). f: 1921 Sovyet-İran antlaşması (sınır hükmü getirmedi). Kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Türkmençay Antlaşması",
+    "IBS No. 25 Iran–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-ir-DEGISTI-hazar-serahs",
+   "taraflar": [
+    "kacar",
+    "sovyet-rusya"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1954: Atrek deltası uzlaşma hattı, Serahs'ta küçük değişiklik; Firuze Sovyet'te kaldı",
+   "kutu_var": true,
+   "not": "Envanter K7 · sınıf C. Kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Ahal–Horasan Sözleşmesi",
+    "Tahran Sözleşmesi",
+    "Sovyet-İran Dostluk Antlaşması",
+    "IBS No. 25 Iran–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-sscb-mn-BILINMIYOR",
+   "taraflar": [
+    "mogolistan",
+    "sovyet-rusya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "Tuva 1944'te SSCB'ye katıldı; 1958 SSCB–Moğolistan antlaşması DOĞRULANMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.1/§3.5: 1923'te hukuken Rus–Çin hattı (Dış Moğolistan Çin metbuluğunda), fiilen Sovyet–Moğol. Kiahta doğusu D, batısı/Sayan C. ⚠️ Kutunun batı kesimi 1923'te TUVA–MOĞOLİSTAN hattıdır (fiilî, belge bulunamadı) — taraflar orada tannu-tuva/mogolistan; kesim yeri ÖLÇÜLMEDİ. Temmuz 1921 Sovyet destekli Moğol yönetimi (IBS 173; gün yok) hattı değiştirmedi · f 1727-10-12 → 1917-11-07 (taraf k",
+   "kesinlik_not": "",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Bur Antlaşması",
+    "Abagatuy protokolü",
+    "Bur protokolü",
+    "IBS No. 64 China–U.S.S.R."
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)"
+  },
+  {
+   "id": "d1923-al-yu-naum",
+   "taraflar": [
+    "arnavutluk-bagimsiz",
+    "yugoslavya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1925'te Yugoslavya'ya",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): C. 1922-12-06 Arnavutluk'a verildi; 29 Ekim 1923'te Yugoslavya revizyon istiyordu (UDAD Görüşü No. 9, 1924-09-04).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS 116 Arnavutluk–Yugoslavya (ABD Dışişleri, 1971)",
+    "UDAD Danışma Görüşü No. 9 (Saint-Naoum) — BM özeti"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-al-yu-vermos",
+   "taraflar": [
+    "arnavutluk-bagimsiz",
+    "yugoslavya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1925'te değişti (dipnot; kapsamı ÇELİŞKİLİ)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): C. ",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS 116 Arnavutluk–Yugoslavya (ABD Dışişleri, 1971)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-at-hu-olmod",
+   "taraflar": [
+    "avusturya-cumhuriyet",
+    "macaristan-naiplik"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E8 · DEĞİŞMEDİ ama çizilmemiş — vekil kullanılabilir, iş yapılmamış",
+   "borc_mu": true,
+   "degisti_deger": false,
+   "degisti_not": "aynı gerekçe",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Ólmod devri 1923 başı (🔴 birincil kaynak yok).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Grandits vd. (ed.), The Disputed Austro-Hungarian Border (Berghahn), giriş"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-at-hu-pinka",
+   "taraflar": [
+    "avusturya-cumhuriyet",
+    "macaristan-naiplik"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E8 · DEĞİŞMEDİ ama çizilmemiş — vekil kullanılabilir, iş yapılmamış",
+   "borc_mu": true,
+   "degisti_deger": false,
+   "degisti_not": "1923 hattı bugünkü; DEĞİŞME günü kaynaksız",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Pinka vadisi köyleri 1922-09 MC kararı (🟡), Szentpéterfa takası (🔴). 1923-10-29'da hat bugünküyle aynı olabilir ama başlangıç günü kaynaksız ⇒ çizilmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Grandits vd. (ed.), The Disputed Austro-Hungarian Border (Berghahn), giriş",
+    "Rubicon — 'From the Treaty of Trianon to the Boundary Stones'"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-bg-ro-DEGISTI-dobruca",
+   "taraflar": [
+    "bulgaristan-kralligi",
+    "romanya-kralligi"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Craiova 7 Eyl 1940 md. I: Güney Dobruca Bulgaristan'a; 1947 Paris teyit",
+   "kutu_var": true,
+   "not": "1923 hattı (Turtukaya üstü → Ekrene güneyi) METİN + 1:200.000 harita + köy listesiyle tarifli; yerinde işaretleme bitişi ÖLÇÜLEMEDİ ⇒ envanterde C (D adayı). Kutu Güney Dobruca'yı kaba kapsar · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Neuilly Antlaşması",
+    "Bükreş Antlaşması"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-cs-pl-1",
+   "taraflar": [
+    "cekoslovakya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1958 kesin tahdit/takaslar; Silezya-Tatra kesimi",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E (Javorina kesimi C). Cieszyn/Orava/Spiş: Büyükelçiler Konf. 1920-07-28. 🔴 JAVORİNA (20,14 D · 49,26 K) 29 Ekim 1923'te UDAD önündeydi (Görüş No. 8, 1923-12-06) — o kesim C/fiili.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "UDAD Danışma Görüşü No. 8 (Jaworzina) — BM özeti",
+    "Polonya–Çekoslovakya Anlaşması (forost)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-cs-pl-2",
+   "taraflar": [
+    "cekoslovakya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1945'te Rutenya SSCB'ye; bugün Ukrayna içi",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Rutenya–Galiçya Karpat sırtı.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "UDAD Danışma Görüşü No. 8 (Jaworzina) — BM özeti"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-cs-pl-ro-stoh",
+   "taraflar": [
+    "cekoslovakya",
+    "romanya-kralligi"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "Stoh üçlü noktası konumu BULUNAMADI",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. ÇS-RO / PL-RO geçişi — kesim belirsizliği.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS 43"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-cs-1",
+   "taraflar": [
+    "almanya",
+    "cekoslovakya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1981 DAC-ÇSSC 'tarihî oluşmuş sınır'; 1994 AFC-Çek antl. — 1923 hattıyla aynı DİYEN kaynak BULUNAMADI",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Bohemya-Bavyera batı kesimi (1914 hattı).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 81-86)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-cs-2",
+   "taraflar": [
+    "almanya",
+    "cekoslovakya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "aynı gerekçe (Bohemya-Saksonya)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Bohemya-Saksonya kuzey kesimi (1914 hattı).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 81-86)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-cs-3",
+   "taraflar": [
+    "almanya",
+    "cekoslovakya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "aynı gerekçe (Bohemya-Bavyera güney)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Üçlü nokta (AT-CS-DE) 13,84 D'ye kadar.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 81-86)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-cs-4",
+   "taraflar": [
+    "almanya",
+    "cekoslovakya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Prusya Silezyası kesimi 1945'ten sonra Çek-Polonya sınırı",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Silezya + Hlučín (md. 83); Haatsch 1923-01-24'te ÇS'ye.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 81-86)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-lt-memel",
+   "taraflar": [
+    "almanya",
+    "litvanya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "bugünkü Litvanya-Rusya (1997 antlaşması, OKUNMADI) hattının md. 28 ile aynılığı BULUNAMADI",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Hat Versay md. 28 + 1921-07-18 mektubu. 29 Ekim 1923'te Memel egemenliği Müttefiklerde, Litvanya'ya 'tahsisli' (Sözleşme 1924-05-08, yürürlük 1925-08-25).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "FRUS 1919 c. XIII notları (md. 99)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-pl-1",
+   "taraflar": [
+    "almanya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1945 Oder-Neisse; 1950 Görlitz, 1990 AFC-Polonya antlaşması",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Pomeranya-Poznan-Aşağı Silezya kesimi. Hat Versay md. 27(7) + komisyon; 1923 geometrisi açık veride YOK.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-pl-2",
+   "taraflar": [
+    "almanya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "sınır 1945'te ortadan kalktı (bugün Polonya içi)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Yukarı Silezya: MC Konseyi raporu 1921-10-12 → Büyükelçiler Konf. 1921-10-19/20 → Cenevre Sözleşmesi yürürlük 1922-06-03.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-de-pl-3",
+   "taraflar": [
+    "almanya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Doğu Prusya güney sınırı 1945'te ortadan kalktı",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Doğu Prusya–Polonya (Allenstein/Marienwerder plebisitleri 1920-07-11; Konf. 1920-08-12; hat 1922-12-19 kesin).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-dz-de",
+   "taraflar": [
+    "almanya",
+    "danzig-serbest-sehri"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939 ilhak; 1945'ten beri Polonya içi",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Danzig–Doğu Prusya (Vistül/Nogat, Frische Nehrung). Komisyon (md. 101) bitiş günü BULUNAMADI. 🔴 taraf kimliği devletler.js'te yok.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-dz-pl",
+   "taraflar": [
+    "danzig-serbest-sehri",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939 ilhak; 1945'ten beri Polonya içi",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Komisyon bitiş günü BULUNAMADI. 🔴 taraf kimliği devletler.js'te yok.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-ee-lv",
+   "taraflar": [
+    "estonya",
+    "letonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1920'ler-30'lar belgeleri + 1992 md. VII düzeltmeleri — büyüklüğü ÖLÇÜLMEDİ",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Hukuken D (Tallents hakem kararı). Bugünkü çizgi küçük farklarla vekil OLABİLİR — koordinatör kararı bekliyor.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Estonya Dışişleri — Estonya-Letonya ilişkileri kronolojisi",
+    "Letonya–Estonya Devlet Sınırının Yeniden Kurulması Antlaşması (Latvijas Vēstnesis)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-gr-shs-DEGISTI-gevgeli",
+   "taraflar": [
+    "yugoslavya",
+    "yunanistan"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "'Sechewo köyünün hemen kuzeyi' anlaşmazlığı; kesim 1927'de çözüldü",
+   "kutu_var": true,
+   "not": "kutu GeoNames Gevgelija çıpası etrafında TAHMİNİ (±5 km); taş 69'un koordinatı okunmadı · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 79 Greece–Yugoslavia"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-it-shs",
+   "taraflar": [
+    "italya",
+    "yugoslavya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1920-11-12 → 1923-10-29) hukukî sınıfı: su-bölümü kesimi (Jalovec–Triglav–Možic) E, kalanı C (karma komisyon 1921-26 işaretliyordu)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "hat neredeyse tamamen kalktı; yalnız Peč ucundan kısa bir kesim bugünkü İtalya–Slovenya sınırında (uzunluğu ölçülmedi)",
+   "kutu_var": true,
+   "not": "§3.6 · Peč (gn 6934913 Dreiländereck) → Castua. Fiume çevresi de bu kutuda (künye yok). f Rapallo imzası — yürürlük günü BULUNAMADI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Rapallo Antlaşması",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-it-shs-zara",
+   "taraflar": [
+    "italya",
+    "yugoslavya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1920-11-12 → 1923-10-29) hukukî sınıfı: C (demarkasyon tarihi bulunamadı)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Zara Yugoslavya'ya geçti, sınır kalktı",
+   "kutu_var": true,
+   "not": "§3.7 · Zara anklavı (Zadar gn 3186952). f Rapallo imzası · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Rapallo Antlaşması",
+    "Roma Anlaşması (Santa Margherita)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-pl-lt",
+   "taraflar": [
+    "litvanya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939'da ortadan kalktı; bugünkü Litvanya-Polonya hattı başka",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): D (fiilî, koordinatsız). Vilnius sorunu: Müttefik kararı var, Litvanya TANIMADI, ortak işaretleme yok.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Büyükelçiler Konferansı kararı (LNTS 15:261-265)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-pl-lv",
+   "taraflar": [
+    "letonya",
+    "polonya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1939'da ortadan kalktı",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): D (fiilî, koordinatsız). 1923'te yalnız ayırma hattı; sözleşme 1938-01-14. f: hat başlangıç günü BULUNAMADI — iki künyenin geç başlangıcı. Kutu bugünkü LT-LV doğu ucunu da örter (1923 LT-PL-LV üçlü noktası konumu BULUNAMADI).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Jēkabsons, Zeszyt Naukowy Muzeum Wojska 15 (2002)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-pl-ro-1940",
+   "taraflar": [
+    "polonya",
+    "romanya-kralligi"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1940 Kuzey Bukovina hattı buradan ayrılıyor — geçiş belirsizliği",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. ",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS 43 Romanya–SSCB (ABD Dışişleri, 1964)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-pl-ro-2",
+   "taraflar": [
+    "polonya",
+    "romanya-kralligi"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1940'tan beri Ukrayna içi",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Çeremoş–Dinyester kesimi (Zbruç ağzına kadar).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS 43 Romanya–SSCB (ABD Dışişleri, 1964)",
+    "Büyükelçiler Konferansı kararı (LNTS 15:261-265)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-ro-yu-banat",
+   "taraflar": [
+    "romanya-kralligi",
+    "yugoslavya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Belgrad Protokolü 1923-11-24 köy takası; üçlü nokta ~13 km GB'ye kaydı; üçlü nokta protokolü 1927-06-04",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): C. 29 Ekim 1923'te kesinleşmemişti (takas SONRA imzalandı).",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Belirli Sınırlara Dair Sèvres Antlaşması (UK Treaty Series 1921 No. 20)",
+    "Timár & Varga, e-Perimetron 17(3), 2022",
+    "IBS 47 Macaristan–Romanya (ABD Dışişleri, 1965)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-ro-yu-tuna",
+   "taraflar": [
+    "romanya-kralligi",
+    "yugoslavya"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "Tuna kesimi için 'değişmedi' diyen kaynak BULUNAMADI (Demir Kapı barajı nehri değiştirdi)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): C. ",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Belirli Sınırlara Dair Sèvres Antlaşması (UK Treaty Series 1921 No. 20)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-saar-de",
+   "taraflar": [
+    "almanya",
+    "saar-havzasi-mandasi"
+   ],
+   "bolge": "avrupa_orta",
+   "dosya": "d_sinirlar_avrupa_orta.js",
+   "sinif": "YOK",
+   "sinif_not": "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1935 plebisiti ile uluslararası sınır kalktı; bugünkü Saarland sınırı farklı (1946-47 genişlemesi DOĞRULANMADI)",
+   "kutu_var": true,
+   "not": "29 Ekim 1923 sınıfı (A–F kademesi): E. Saar–Fransa kesimi D3-AVRUPA-BATI'nin (M-4056). Kutu yalnız kuzey/doğu kenar. 🔴 taraf kimliği devletler.js'te yok.",
+   "kesinlik_not": "kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 45-50)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)"
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-cenis",
+   "taraflar": [
+    "fransa-cumhuriyet",
+    "italya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Mont Cenis platosu, 82,4 km² İtalya'dan Fransa'ya geçti",
+   "kutu_var": true,
+   "not": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)"
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-chaberton",
+   "taraflar": [
+    "fransa-cumhuriyet",
+    "italya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Chaberton, 17,1 km² İtalya'dan Fransa'ya geçti",
+   "kutu_var": true,
+   "not": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)"
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-pstbernard",
+   "taraflar": [
+    "fransa-cumhuriyet",
+    "italya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Petit-Saint-Bernard, 31 km² (+1948'de ~200 m kayma) İtalya'dan Fransa'ya geçti",
+   "kutu_var": true,
+   "not": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)"
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-tende",
+   "taraflar": [
+    "fransa-cumhuriyet",
+    "italya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Tende-Brigue + Tinée/Vésubie/Roya yukarı vadileri, 543,6 km² (ve 1930 Coni–Vintimille düzeltmesi) İtalya'dan Fransa'ya geçti",
+   "kutu_var": true,
+   "not": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)"
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-thabor",
+   "taraflar": [
+    "fransa-cumhuriyet",
+    "italya"
+   ],
+   "bolge": "avrupa_bati",
+   "dosya": "d_sinirlar_avrupa_bati.js",
+   "sinif": "YOK",
+   "sinif_not": "koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Mont Thabor + güneydoğusundaki küçük vadi (alan verilmemiş) İtalya'dan Fransa'ya geçti",
+   "kutu_var": true,
+   "not": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
+   "dayanak_adet": 4,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)"
+  },
+  {
+   "id": "d1923-af-cn-FIILI-vahan",
+   "taraflar": [
+    "afganistan",
+    "cin-cumhuriyeti"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "22 Kas 1963 Pekin antlaşması; 24 Mar 1965 Kabil protokolü",
+   "kutu_var": true,
+   "not": "Envanter §3.11 · sınıf FİİLİ; Çin 20. yy başında Pamir'in çoğunu talep ediyordu · f 1895-03-11 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 89 Afghanistan–China"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-ck-cn-FIILI-aksaicin",
+   "taraflar": [
+    "cammu-kesmir",
+    "cin-cumhuriyeti"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "",
+   "kutu_var": true,
+   "not": "Envanter §2.5/§3.6 · sınıf FİİLİ. Taraf Cammu-Keşmir (atlas 1923'te Leh'i bu kimliğe yazıyor); Aksai Çin'in doğusu Tibet'e değer. hukukî başlangıç YOK — f 1842 Ladakh–Tibet mektubu (künyeyle kırpılır) · f 1842-09-17 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugün",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Ladakh–Tibet mektubu",
+    "Macdonald hattı notası (İngiltere→Çin)",
+    "IBS No. 85 China–Pakistan"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-ck-cn-FIILI-karakurum",
+   "taraflar": [
+    "cammu-kesmir",
+    "cin-cumhuriyeti"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "2 Mar 1963 Pekin anlaşması md. II–III; 26 Mar 1965 protokolü (40 direk)",
+   "kutu_var": true,
+   "not": "Envanter §2.5 · sınıf FİİLİ. Hunza/Gilgit tarafı; hukukî başlangıç YOK — f 1899 Macdonald notası (künyeyle kırpılır) · f 1899-03-14 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Macdonald hattı notası",
+    "IBS No. 85 China–Pakistan"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-cn-fc-BILINMIYOR-laos",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "fransiz-cinhindi"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1964'e kadar değişmedi; 1991 Çin–Laos antlaşması OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.11 · 1923'te sınıf D. ⚠️ üçlü nokta enlemi IBS 34 ile IBS 38 arasında çelişkili (22°24' / 22°34') · f 1896-08-07 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Tamamlayıcı Sözleşme",
+    "IBS No. 34 China–Laos"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-cn-fc-BILINMIYOR-tonkin",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "fransiz-cinhindi"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1964'e kadar değişmedi; 30 Ara 1999 Çin–Vietnam kara sınırı antlaşması OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.10 · 1923'te sınıf D (en az 285 sütun) · f 1896-08-07 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Pekin Sözleşmesi (Fransa–Çin)",
+    "Tamamlayıcı Sözleşme",
+    "IBS No. 38 China–Viet-Nam"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-cn-mn-FIILI",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "mogolistan"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Dariganga 1924'te Moğolistan'a; 1932 işgali; 26 Ara 1962 antlaşması + 30 Haz 1964 protokolü (639 direk)",
+   "kutu_var": true,
+   "not": "Envanter §2.2 · sınıf FİİLİ: 1923'te hukuken Çin içi özerklik sınırı, fiilen iki yönetim arası · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Kiahta Üçlü Anlaşması",
+    "IBS No. 173 China–Mongolia"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-en-cn-BILINMIYOR-hongkong",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "ingiltere"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1962'ye kadar değişmedi; 1997 devri ve sonrası Sham Chun nehri düzenlemesi OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.9 · 1923'te sınıf D (kıyı + kazıklar). f: 1899 tespiti — GÜN ÇELİŞKİLİ (IBS 13 başlık 14 Mart, Ek I 19 Mart); Ek I metni esas alındı · f 1899-03-19 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Peking Konvansiyonu (Yeni Topraklar kirası)",
+    "IBS No. 13 China–Hong Kong"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-ih-cn-FIILI-kuzey",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "ingiliz-hindistani"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1960 md. V ve VII (Hpimaw–Gawlum–Kangfang Çin'e); protokol 13 Eki 1961",
+   "kutu_var": true,
+   "not": "Envanter §2.8 Kuzey-1/2/3 · sınıf FİİLİ. En kuzeyi McMahon (İngiltere–Tibet, Çin tanımadı) · f 1897-06-05 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 42 Burma–China"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-ih-cn-FIILI-wa",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "ingiliz-hindistani"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "18 Haz 1941 Chungking notaları; 1960 md. II (Panhung–Panlao Çin'e) ve md. III",
+   "kutu_var": true,
+   "not": "Envanter §2.8 Güney-2 · sınıf FİİLİ · f 1897-06-05 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 42 Burma–China"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-jp-cn-BILINMIYOR-yalu-tumen",
+   "taraflar": [
+    "cin-cumhuriyeti",
+    "meiji-japonya"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1962'de Paektu kesiminde ~600 mil² tartışma; sonraki ÇHC–KDHC antlaşması OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §2.4: Yalu C · Tumen C · Paektu FİİLİ. Kore ilhakı 1910 (IBS 17 OCR'ında imza 22 Ağu 1910; ilan günü okunamıyor) · f 1909-09-04 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Çin–Japon Tumen (Gando) Anlaşması",
+    "IBS No. 17 China–Korea"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K7 · Çin çevresi (Çin Cumhuriyeti yakası)"
+  },
+  {
+   "id": "d1923-af-ih-BILINMIYOR-durand",
+   "taraflar": [
+    "afganistan",
+    "ingiliz-hindistani"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "1932 Kunar kesimi işaretlendi; 26 Tem 1949 Afganistan anlaşmaları tek taraflı feshetti; Pakistan dönemi hattı OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §3.11 · 1923 sınıfları: Vahan–Dorah C · Dorah–Nawa C (Dokalim tartışmalı) · Mohmand FİİLİ · Hayber/Torham D (1919, 13 direk) · Kurram D (1894, 76 direk) · Veziristan D (1895) · Belucistan D (1895–96; Soru ötesi işaretsiz). Bölümlere ayrılmadı: bugünkü çizgi vekil değil · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da g",
+   "kesinlik_not": "",
+   "dayanak_adet": 5,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Durand anlaşması No. XII",
+    "Ravalpindi Antlaşması",
+    "Kabil Antlaşması",
+    "D. Balland, 'Boundaries iii. Boundaries of Afghanistan', Encyclopaedia Iranica IV/4 s. 406–415",
+    "Aitchison, Treaties, Engagements and Sanads, c. XIII (1933)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-ih-np-BILINMIYOR",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "nepal"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "21 Ara 1923 antlaşması (onay 8 Nis 1925) sınırı teyit etti; 1925 sonrası OKUNMADI",
+   "kutu_var": true,
+   "not": "Envanter §3.7 · 1923'te sınıf D (1860 kâgir direkler) — ama 1925 sonrası değişim ölçülmediği için bugünkü çizgi vekil OLAMAZ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 4,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Sugauli Antlaşması",
+    "Katmandu Antlaşması",
+    "Dhundwa tepeleri anlaşması",
+    "Aitchison, Treaties, Engagements and Sanads, c. II (1909)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-ih-tb-BILINMIYOR-sikkim",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "tibet-ganden-phodrang"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "1923 sonrası okunmadı",
+   "kutu_var": true,
+   "not": "Envanter §3.6 · 1923'te sınıf C. Taraf SİKKİM (İngiliz himayesi, 1890 md. II) — künyesi YOK, `ingiliz-hindistani` vekil (D-KUNYE'ye soruldu). f: 1890 sözleşmesinin onay günü · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Kalküta Sözleşmesi (İngiltere–Çin)",
+    "Lhasa Sözleşmesi"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-ih-tb-FIILI-batihimalaya",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "tibet-ganden-phodrang"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "",
+   "kutu_var": true,
+   "not": "Envanter §3.6 · Spiti/Kinnaur/Kumaon–Tibet · sınıf FİİLİ. 32,5°K güneyi — ayrım TAHMİNİ. f: Sugauli'nin yürürlüğü (Nepal md. 5 ile Kali'nin batısından vazgeçti; Kumaon'un İngiliz idaresine geçişi). Spiti'nin 1846 geçişi ARAŞTIRILMADI — o kesim 1846'ya kadar bu kayda ait değil · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gös",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Tibet ile sınır antlaşması bulunamadı",
+    "Sugauli (Segowlee) Antlaşması"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-ih-tb-FIILI-mcmahon",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "tibet-ganden-phodrang"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": null,
+   "degisti_not": "hat 1923'te yayımlanmış/işleyen bir sınır değildi; bugünkü çizgi (Arunaçal) tartışmalı",
+   "kutu_var": true,
+   "not": "Envanter §3.6 · sınıf FİİLİ. ⚠️ Nota günleri çelişkili (IBS 42: 01.02/25.03.1914 · ikincil: 24–25.03.1914) — çözülmedi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Simla Sözleşmesi",
+    "Aitchison, Treaties, Engagements and Sanads, c. XIV (1929)"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-np-tb-FIILI",
+   "taraflar": [
+    "nepal",
+    "tibet-ganden-phodrang"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "21 Mar 1960 anl. · 5 Eki 1961 ant. · 23 Oca 1963 protokol",
+   "kutu_var": true,
+   "not": "Envanter §2.6 · sınıf FİİLİ (tamamı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Nepal–Tibet barışı",
+    "IBS No. 50 China–Nepal"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-si-fc-DEGISTI-mekong-1",
+   "taraflar": [
+    "fransiz-cinhindi",
+    "siyam-chakri"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "25 Ağu 1926 Sözleşmesi: Siyam kıyısına en yakın kolun talvegi; bazı adalar Siyam'a",
+   "kutu_var": true,
+   "not": "Envanter §2.15: 1923 hattı Mekong'un SİYAM KIYISI, bütün adalar Laos'un. Mekong ayrımı NE 10m nehir çizgisine ≤~3 km yakınlıkla, kuzey kesim 20°10,5'K enlemiyle yapıldı (yaklaşık) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Fransız–Siyam Barış Antlaşması",
+    "IBS No. 20 Laos–Thailand"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-si-fc-DEGISTI-mekong-2",
+   "taraflar": [
+    "fransiz-cinhindi",
+    "siyam-chakri"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "25 Ağu 1926 Sözleşmesi: Siyam kıyısına en yakın kolun talvegi; bazı adalar Siyam'a",
+   "kutu_var": true,
+   "not": "Envanter §2.15: 1923 hattı Mekong'un SİYAM KIYISI, bütün adalar Laos'un. Mekong ayrımı NE 10m nehir çizgisine ≤~3 km yakınlıkla, kuzey kesim 20°10,5'K enlemiyle yapıldı (yaklaşık) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Fransız–Siyam Barış Antlaşması",
+    "IBS No. 20 Laos–Thailand"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-si-ih-DEGISTI-maesai",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "siyam-chakri"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "27 Ağu 1931 + 14 Mar 1932 notaları (1929 talvegi); 1 Eki + 10 Ara 1940 notaları (Nam Kok'a da talveg)",
+   "kutu_var": true,
+   "not": "Envanter §2.17 · kutu 20,25°K kuzeyi ve 99,75°D doğusu — TAHMİNİ. Burma tarafı Kengtung (atlas `san-devletleri`) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İngiliz–Siyam haritaları teatisi",
+    "IBS No. 63 Burma–Thailand"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-si-ih-DEGISTI-pakchan",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "siyam-chakri"
+   ],
+   "bolge": "asya",
+   "dosya": "d_sinirlar_asya.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1 Haz 1934 notaları (talveg; Klong Wan, Wang Tow Burma'ya · Had Lan Kwai, See Sok Siyam'a); 31 Mar/1 Nis 1937 teyit",
+   "kutu_var": true,
+   "not": "Envanter §2.17 · kutu 10,95°K güneyi — TAHMİNİ (Kra-Mathe kavşağının enlemi okunmadı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "İngiliz–Siyam Sözleşmesi",
+    "IBS No. 63 Burma–Thailand"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K8 · Hint alt kıtası + Himalaya"
+  },
+  {
+   "id": "d1923-fi-sy-DEGISTI",
+   "taraflar": [
+    "filistin-mandasi",
+    "suriye-lubnan-mandasi"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1949 mütareke hattı 1923 hattının biraz batısında (arama özeti); 1967'den beri Golan işgali",
+   "kutu_var": true,
+   "not": "Envanter L7 Suriye kesimi: 1923'te D (işaretli) ama bugünkü çizgi o hattı göstermez · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Paulet–Newcombe nihai komisyon raporu"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-iq-ir-DEGISTI-sattularap",
+   "taraflar": [
+    "irak-kralligi",
+    "kacar"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E5 · HAREKETLİ hat (nehir talveg/banco) — tarihli çizim gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "1913: sol kıyı (düşük su) sınırı; 1937 Abadan önünde talveg; 1975 tamamı talveg",
+   "kutu_var": true,
+   "not": "1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "İstanbul Protokolü (Türk-İran tahdidi)",
+    "IBS No. 164 Iran–Iraq"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-iq-jo-FIILI",
+   "taraflar": [
+    "irak-kralligi",
+    "urdun-emirligi"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": "FİİLİ, kaba/koordinatsız (hukukî hat yok)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E2 · 1923'te hukuken HAT YOK (tartışmalı/antlaşmasız) — çizilmemesi BEYAN",
+   "borc_mu": false,
+   "degisti_deger": true,
+   "degisti_not": "ilk anlaşma 31 Tem–16 Ağu 1932 mektupları",
+   "kutu_var": true,
+   "not": "Envanter L3 · sınıf FİİLİ: 1923'te hukukî hat YOK · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 98 Iraq–Jordan"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-iq-kw-DEGISTI",
+   "taraflar": [
+    "irak-kralligi",
+    "kuveyt"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "tarif aynı; fiziksel hat 1993 BM işaretlemesi (162 nokta)",
+   "kutu_var": true,
+   "not": "Envanter L5 · sınıf C. Irak–Kuveyt IBS'i BULUNAMADI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [
+    "Irak Yüksek Komiseri notası",
+    "İngiliz-Osmanlı taslak sözleşmesi"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-iq-necd-BILINMIYOR",
+   "taraflar": [
+    "irak-kralligi",
+    "suud-ucuncu"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "hat izi büyük ölçüde aynı (kolun özeti); Tarafsız Bölge sonradan bölündü (1975/1981 — doğrulanmadı)",
+   "kutu_var": true,
+   "not": "Envanter L4 · sınıf C (ayrıntılı metin, işaretsiz) + Tarafsız Bölge · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 3,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Muhammere Antlaşması",
+    "Ukayr Protokolü",
+    "IBS No. 111 Iraq–Saudi Arabia"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-iq-sy-DEGISTI",
+   "taraflar": [
+    "irak-kralligi",
+    "suriye-lubnan-mandasi"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "bugünkü hat Milletler Cemiyeti komisyonu raporu, Cenevre 10 Eyl 1932 (Sincar)",
+   "kutu_var": true,
+   "not": "Envanter L2 · sınıf C · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Fransız-İngiliz Sözleşmesi",
+    "IBS No. 100 Iraq–Syria"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-necid-kuveyt-tarafsiz-guney",
+   "taraflar": [
+    "kuveyt",
+    "suud-ucuncu"
+   ],
+   "bolge": "ortadogu",
+   "dosya": "d_sinirlar_ortadogu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Tarafsız Bölge 1969'da bölündü; güney hattı bugün Suudi Arabistan'ın İÇİNDE",
+   "kutu_var": true,
+   "not": "1922 metni güney hattını ADLI NOKTALARLA veriyor (eş-Şak → Ayn el-Abd → Ras Mişab'ın kuzeyi) ama Ayn el-Abd'in koordinatı BULUNAMADI (GeoNames'te yok) ⇒ bu kutuda D ÇİZİLMEZ. Kutu, Tarafsız Bölge'nin H güneyindeki yarısını kaplar.",
+   "kesinlik_not": "kutu GeoNames çıpalı (Vadi eş-Şak 27.976K/47.885D · Mînâ Ras Mişab 28.109K/48.625D · H) ama köşeleri TAHMİNİ",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Ukayr Protokolü"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-sy-jo-DEGISTI",
+   "taraflar": [
+    "suriye-lubnan-mandasi",
+    "urdun-emirligi"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "bugünkü hat Paris Protokolü 31 Eki 1931",
+   "kutu_var": true,
+   "not": "Envanter L8 · sınıf C. f: Şarkî Ürdün Emirliği künyesinin başı · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Fransız-İngiliz Sözleşmesi",
+    "IBS No. 94 Jordan–Syria"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-bacirge-1932-1937",
+   "taraflar": [
+    "kacar",
+    "tbmm-turkiye"
+   ],
+   "bolge": "cekirdek",
+   "dosya": "d_sinirlar.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "IBS 28 s.5-6: Bacirge (Nazlu Çayı kolları) 1932'de İran lehine; 1937 düzeltmesi güney ucun ~25 mil kuzeyinde (Tahran 26.5.1937)",
+   "kutu_var": true,
+   "not": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ.",
+   "kesinlik_not": "",
+   "dayanak_adet": 0,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-kotur-1932",
+   "taraflar": [
+    "kacar",
+    "tbmm-turkiye"
+   ],
+   "bolge": "cekirdek",
+   "dosya": "d_sinirlar.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "IBS 28 s.5-6: Kotur kesimi 1914'te İŞARETLENMEMİŞTİ (~40 mil) ve 1932'de İran lehine değişti",
+   "kutu_var": true,
+   "not": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ.",
+   "kesinlik_not": "",
+   "dayanak_adet": 0,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+   "taraflar": [
+    "kacar",
+    "tbmm-turkiye"
+   ],
+   "bolge": "cekirdek",
+   "dosya": "d_sinirlar.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E7 · DEĞİŞTİ — bugünkü çizgi vekil OLAMAZ, 1923 hattı arşivden gerekir",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "IBS 28 s.6: Küçük Ağrı'nın doğu yamacı 1932'de Türkiye lehine değişti (Tahran 23.1.1932 md.I)",
+   "kutu_var": true,
+   "not": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ.",
+   "kesinlik_not": "",
+   "dayanak_adet": 0,
+   "dayanak_ibs": false,
+   "dayanak_url_var": false,
+   "dayanak_adlari": [],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan"
+  },
+  {
+   "id": "d1923-ir-af-FIILI-orta",
+   "taraflar": [
+    "afganistan",
+    "kacar"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": "FİİLİ, kaba/koordinatsız (hukukî hat yok)",
+   "kategori": "D-YOK",
+   "engel_sinifi": "E4 · FİİLÎ statüko — hat hukukî değil idarî; kaynaktan tarif var, koordinat yok",
+   "borc_mu": true,
+   "degisti_deger": true,
+   "degisti_not": "Fahrettin Altay hakem heyeti Eki 1934–May 1935, karar 15 May 1935; direk 40–87",
+   "kutu_var": true,
+   "not": "Envanter I1-O · sınıf FİİLİ: 1923'te ~250 mil tanımsız ve işaretsiz (Haştadan ovası, Musa Abad) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 1,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "IBS No. 6 Afghanistan–Iran"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan (kısmî)"
+  },
+  {
+   "id": "d1923-ir-hind-BILINMIYOR",
+   "taraflar": [
+    "ingiliz-hindistani",
+    "kacar"
+   ],
+   "bolge": "komsu",
+   "dosya": "d_sinirlar_komsu.js",
+   "sinif": "YOK",
+   "sinif_not": null,
+   "kategori": "D-YOK",
+   "engel_sinifi": "E6 · DEĞİŞTİ Mİ BİLİNMİYOR — tek kaynak okunsa karara bağlanır (EN UCUZ)",
+   "borc_mu": true,
+   "degisti_deger": null,
+   "degisti_not": "6 Şub 1958 Tahran anl. hattı AYNI belgelerle yeniden tanımlayıp işaretledi (direk 1–256, son protokol 8 Ara 1959); toprak aktarımı IBS'te BULUNAMADI ⇒ 'değişmedi' diyen kaynak yok",
+   "kutu_var": true,
+   "not": "Envanter I2: direk 1–11 (Kuhak–Gorani) 1896'da işaretli = D; güney (1871) ve kuzey (direk 11 → Malik Siyah) C. Bugünkü çizgi vekil OLAMAZ çünkü degisti bilinmiyor · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi.",
+   "kesinlik_not": "",
+   "dayanak_adet": 2,
+   "dayanak_ibs": true,
+   "dayanak_url_var": true,
+   "dayanak_adlari": [
+    "Holdich zaptı (İran–Kalat)",
+    "IBS No. 167 Iran–Pakistan"
+   ],
+   "uzunluk_km": null,
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan (kısmî)"
+  }
+ ]
+}
