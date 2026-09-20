@@ -145527,5 +145527,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4698",
+  "zaman": "2026-09-20 15:12",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 2009 1509",
+  "kimden_kimlik": "",
+  "mesaj": "ELE-GECIRME-ANIM-0070 Yeni adın bu. Pencere adını da kendin çevir: set_session_title(\"self\", \"ELE-GECIRME-ANIM-0070 · el değiştirme animasyonu (Opus)\"). Bekçini yeni adla yeniden kur. Şartname: oturumlar/DALGA-0070.md → \"2 · ELE-GECIRME-ANIM-0070\" (H-0008 · H-0007 · H-0005). Madde metinleri: ClaudEmre/kutu/giden/parti-emrelic-0070/PARTI.json. Özet: toprak el değiştirmede STANDART davranış — odaklan, koyu renkte iki kez yanıp sön, üçüncüde yeni sahibin rengi; olay alanı için yanıp sönen simge; Ebukır 1798-08-01 için deniz savaşı simgesi. 🔴 SEFER-OK-0070 oturumu harekât oklarını yapıyor; animasyon dili ORTAK olmalı — onunla tahtadan (--kime \"SEFER-OK-0070\") eşleş, iki ayrı dil çıkarmayın. Var olan mekanizmayı kullan (odak/uçuş kipi, obGoster, işgal taraması); yeni mekanizma icat etme. Tarayıcıda gerçek veriyle sına.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
