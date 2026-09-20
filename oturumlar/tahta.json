@@ -145563,5 +145563,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4700",
+  "zaman": "2026-09-20 15:12",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 2009 1511",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-SIMGE-0070 Yeni adın bu. Pencere adını da kendin çevir: set_session_title(\"self\", \"EKOKUMA-SIMGE-0070 · ek okuma simgesi (Opus)\"). Bekçini yeni adla yeniden kur. Şartname: oturumlar/DALGA-0070.md → \"4 · EKOKUMA-SIMGE-0070\" (H-0001 · H-0009). Emre'nin tam metni: ClaudEmre/kutu/giden/parti-emrelic-0070/PARTI.json. Özet: ① ek okuma satırının başına kategori simgesi, üstüne gelince kategori adı ipucu, yanında maddenin başlığı; Campo Formio kartlarının kategori uyumu ölçülüp düzeltilecek (metni yeniden yazma). ② 1805-05-13 Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi için yeni ek okuma kartı (TDV mehmed-ali-pasa/misir + akademik; alıntı yalnız gerçekten açtığın gövdeden). Dosya: js/app.js'in yalnız ek okuma satırı çizimi + data/ekokuma_*.js. index.html'e sen bağlama, teslimde öner.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
