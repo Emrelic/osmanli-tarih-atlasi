@@ -1,0 +1,441 @@
+{
+ "gorev": "GLM-2 · MUKERRER-NOKTA",
+ "betik": "glm/mukerrer.py",
+ "tanimlar": {
+  "esik_ayni_benzer_ad_km": 3.0,
+  "esik_farkli_ad_km": 1.0,
+  "esik_semantigi": "resmi girdi.yakin_ciftler ile aynı: d < eşik",
+  "ad_norm": "denetim/ARAC-NORMAL-0903.py norm(); çekirdek = parantez-dışı bölüm",
+  "s_catisma": "aynı gün iki noktada iki FARKLI sahip (w.d) — yalnız s: pencereleri",
+  "dejure_catisma": "ikincil: s: + d:(OSMANLI) + v:(kid|k) pencereleri",
+  "oneri_kurallari": "AYRI-YER=karşılıklı ikiz+kaynak · MÜKERRER=norm eşit · İKİ-AD=BENZER · ölçülemedi=diğer"
+ },
+ "dogrulama": {
+  "benim_3km_alti_cift": 3,
+  "resmi_yakin_ciftler_3km": 3,
+  "tutar": true
+ },
+ "benzerlik_selftest": {
+  "vaka": [
+   {
+    "a": "Diyarbekir",
+    "b": "Diyarbakır",
+    "beklenen": "BENZER",
+    "olenen": "BENZER",
+    "kural": "levenshtein-norm<=2",
+    "gecti": true
+   },
+   {
+    "a": "Yenişehir (Bursa)",
+    "b": "Yenişehir (İznik)",
+    "beklenen": "BENZER",
+    "olenen": "BENZER",
+    "kural": "parantez-cekirdegi-esit",
+    "gecti": true
+   },
+   {
+    "a": "Yenişehir (Bursa)",
+    "b": "Yenişehir",
+    "beklenen": "BENZER",
+    "olenen": "BENZER",
+    "kural": "parantez-cekirdegi-esit",
+    "gecti": true
+   },
+   {
+    "a": "Budin",
+    "b": "Peşte",
+    "beklenen": "FARKLI",
+    "olenen": "FARKLI",
+    "kural": "—",
+    "gecti": true
+   },
+   {
+    "a": "Ankara",
+    "b": "Konya",
+    "beklenen": "FARKLI",
+    "olenen": "FARKLI",
+    "kural": "—",
+    "gecti": true
+   }
+  ],
+  "tamami_gecti": true
+ },
+ "ozet": {
+  "nokta": 3921,
+  "girdi_dosyasi": 87,
+  "taranan_cift_3km_alti": 3,
+  "kume1_ayni_benzer_ad_3km": 0,
+  "kume2_farkli_ad_1km": 0,
+  "kume1_ad_sinifi": {},
+  "kume1_oneri": {},
+  "kume2_oneri": {},
+  "kume1_s_catisma": {},
+  "kume1_dejure_catisma": {},
+  "kume2_s_catisma": {},
+  "kume2_dejure_catisma": {},
+  "kume1_dosya_iliskisi": {},
+  "kume2_dosya_iliskisi": {},
+  "ikiz_beyanli_nokta": 4
+ },
+ "kume1": [],
+ "kume2": [],
+ "kapsam_disi_yakin_ciftler": [
+  {
+   "a": {
+    "ad": "Anadolu Hisarı",
+    "dosya": "yerlesimler.js",
+    "tur": "kale",
+    "lat": 41.081,
+    "lon": 29.067,
+    "ikiz": "Rumeli Hisarı",
+    "kaynak_var": true
+   },
+   "b": {
+    "ad": "Rumeli Hisarı",
+    "dosya": "yerlesimler.js",
+    "tur": "kale",
+    "lat": 41.0879,
+    "lon": 29.0511,
+    "ikiz": "Anadolu Hisarı",
+    "kaynak_var": true
+   },
+   "mesafe_km": 1.539,
+   "ad_sinifi": "FARKLI",
+   "benzerlik_kurali": "—",
+   "ikiz_beyani": "karsilikli-kaynakli",
+   "kapsam_disi_sebebi": "farklı ad + 1.539 km: küme2 eşiği 1 km'nin üzerinde"
+  },
+  {
+   "a": {
+    "ad": "Budin",
+    "dosya": "yerlesimler.js",
+    "tur": "sehir",
+    "lat": 47.498,
+    "lon": 19.04,
+    "ikiz": "Peşte",
+    "kaynak_var": true
+   },
+   "b": {
+    "ad": "Peşte",
+    "dosya": "yerlesimler.js",
+    "tur": "sehir",
+    "lat": 47.494,
+    "lon": 19.06,
+    "ikiz": "Budin",
+    "kaynak_var": true
+   },
+   "mesafe_km": 1.569,
+   "ad_sinifi": "FARKLI",
+   "benzerlik_kurali": "—",
+   "ikiz_beyani": "karsilikli-kaynakli",
+   "kapsam_disi_sebebi": "farklı ad + 1.569 km: küme2 eşiği 1 km'nin üzerinde"
+  },
+  {
+   "a": {
+    "ad": "Dakar",
+    "dosya": "yerlesimler_afrika2.js",
+    "tur": "sehir",
+    "lat": 14.69,
+    "lon": -17.45,
+    "ikiz": null,
+    "kaynak_var": true
+   },
+   "b": {
+    "ad": "Gore (Gorée)",
+    "dosya": "yerlesimler_afrika2.js",
+    "tur": "sehir",
+    "lat": 14.675,
+    "lon": -17.4273,
+    "ikiz": null,
+    "kaynak_var": true
+   },
+   "mesafe_km": 2.96,
+   "ad_sinifi": "FARKLI",
+   "benzerlik_kurali": "—",
+   "ikiz_beyani": "yok",
+   "kapsam_disi_sebebi": "farklı ad + 2.960 km: küme2 eşiği 1 km'nin üzerinde"
+  }
+ ],
+ "ad_uzayi_baglami": {
+  "norm_esit_cift_toplam": 1,
+  "norm_esit_3km_alti": 0,
+  "norm_esit_min_mesafe_km": 9272.451,
+  "norm_esit_liste": [
+   {
+    "ad": "kudus",
+    "a": "Kudüs (yerlesimler.js)",
+    "b": "Kudus (yerlesimler_gdasya.js)",
+    "mesafe_km": 9272.451
+   }
+  ],
+  "cekirdek_esit_cift_toplam": 44,
+  "cekirdek_esit_3km_alti": 0,
+  "cekirdek_esit_min_mesafe_km": 80.5,
+  "cekirdek_esit_liste": [
+   {
+    "ad": "kordofan",
+    "a": "Kordofan (Ubeyyid) (yerlesimler.js)",
+    "b": "Kordofan (yerlesimler.js)",
+    "mesafe_km": 80.5
+   },
+   {
+    "ad": "ustyurt platosu",
+    "a": "Üstyurt platosu (batı) (yerlesimler.js)",
+    "b": "Üstyurt platosu (doğu) (yerlesimler.js)",
+    "mesafe_km": 243.94
+   },
+   {
+    "ad": "kazak bozkiri",
+    "a": "Kazak bozkırı (Turgay) (yerlesimler_sibirya.js)",
+    "b": "Kazak bozkırı (Sarısu) (yerlesimler_sibirya.js)",
+    "mesafe_km": 388.521
+   },
+   {
+    "ad": "yeni gine ic kesimi",
+    "a": "Yeni Gine İç Kesimi (Kuzey — Sepik Havzası) (yerlesimler_emilme.js)",
+    "b": "Yeni Gine İç Kesimi (Güney — Fly Nehri Bataklıkları) (yerlesimler_emilme.js)",
+    "mesafe_km": 448.09
+   },
+   {
+    "ad": "kazak bozkiri",
+    "a": "Kazak bozkırı (İşim) (yerlesimler_ek9.js)",
+    "b": "Kazak bozkırı (Turgay) (yerlesimler_sibirya.js)",
+    "mesafe_km": 450.985
+   },
+   {
+    "ad": "kazak bozkiri",
+    "a": "Kazak bozkırı (İşim) (yerlesimler_ek9.js)",
+    "b": "Kazak bozkırı (Sarısu) (yerlesimler_sibirya.js)",
+    "mesafe_km": 616.47
+   },
+   {
+    "ad": "yeni gine ic yaylalari",
+    "a": "Yeni Gine İç Yaylaları (Merkez — Mount Hagen) (yerlesimler_emilme.js)",
+    "b": "Yeni Gine İç Yaylaları (Batı — Baliem Vadisi) (yerlesimler_emilme.js)",
+    "mesafe_km": 618.511
+   },
+   {
+    "ad": "yenisehir",
+    "a": "Yenişehir (Bursa) (yerlesimler.js)",
+    "b": "Yenişehir (Larissa) (yerlesimler.js)",
+    "mesafe_km": 619.646
+   },
+   {
+    "ad": "charleston",
+    "a": "Charleston (Charles Town) (yerlesimler_amerika.js)",
+    "b": "Charleston (Batı Virjinya, Kanawha) (yerlesimler_kamerika.js)",
+    "mesafe_km": 638.426
+   },
+   {
+    "ad": "san miguel",
+    "a": "San Miguel (Aushiri) (yerlesimler_gamerika.js)",
+    "b": "San Miguel (Pachitea) (yerlesimler_gamerika.js)",
+    "mesafe_km": 771.479
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Kuzeybatı — Kimberley) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Kuzey — Arnhem Land) (yerlesimler_ek30.js)",
+    "mesafe_km": 896.48
+   },
+   {
+    "ad": "las vegas",
+    "a": "Las Vegas (Nevada, Mormon Kalesi) (yerlesimler_kamerika.js)",
+    "b": "Las Vegas (Yeni Meksika) (yerlesimler_kamerika.js)",
+    "mesafe_km": 896.755
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Orta — Arrernte bölgesi) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı) (yerlesimler_ek30.js)",
+    "mesafe_km": 992.827
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Kuzey — Arnhem Land) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Kuzeydoğu — Cape York) (yerlesimler_ek30.js)",
+    "mesafe_km": 1094.115
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Orta — Arrernte bölgesi) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Kuzeybatı — Kimberley) (yerlesimler_ek30.js)",
+    "mesafe_km": 1149.354
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Orta — Arrernte bölgesi) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Kuzey — Arnhem Land) (yerlesimler_ek30.js)",
+    "mesafe_km": 1191.801
+   },
+   {
+    "ad": "haydarabad",
+    "a": "Haydarâbâd (Sind) (yerlesimler_asya.js)",
+    "b": "Haydarâbâd (Dekken) (yerlesimler_asya.js)",
+    "mesafe_km": 1376.015
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Orta — Arrernte bölgesi) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Kuzeydoğu — Cape York) (yerlesimler_ek30.js)",
+    "mesafe_km": 1439.758
+   },
+   {
+    "ad": "tuzla",
+    "a": "Tuzla (Larnaka) (yerlesimler.js)",
+    "b": "Tuzla (Bosna) (yerlesimler_seyrek.js)",
+    "mesafe_km": 1669.195
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Kuzeybatı — Kimberley) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı) (yerlesimler_ek30.js)",
+    "mesafe_km": 1697.442
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Kuzeybatı — Kimberley) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Kuzeydoğu — Cape York) (yerlesimler_ek30.js)",
+    "mesafe_km": 1890.405
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Kuzey — Arnhem Land) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı) (yerlesimler_ek30.js)",
+    "mesafe_km": 2110.965
+   },
+   {
+    "ad": "avustralya ic kesimi",
+    "a": "Avustralya İç Kesimi (Kuzeydoğu — Cape York) (yerlesimler_ek30.js)",
+    "b": "Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı) (yerlesimler_ek30.js)",
+    "mesafe_km": 2406.034
+   },
+   {
+    "ad": "merida",
+    "a": "Mérida (yerlesimler_amerika.js)",
+    "b": "Mérida (Venezuela) (yerlesimler_amerika.js)",
+    "mesafe_km": 2414.098
+   },
+   {
+    "ad": "concepcion",
+    "a": "Concepción (Şili) (yerlesimler_amerika.js)",
+    "b": "Concepción (Chiquitos) (yerlesimler_gamerika.js)",
+    "mesafe_km": 2551.263
+   },
+   {
+    "ad": "mora",
+    "a": "Mora (Tripoliçe) (yerlesimler.js)",
+    "b": "Mora (yerlesimler_ek7.js)",
+    "mesafe_km": 2676.832
+   },
+   {
+    "ad": "trujillo",
+    "a": "Trujillo (Peru) (yerlesimler_amerika.js)",
+    "b": "Trujillo (Honduras) (yerlesimler_kamerika.js)",
+    "mesafe_km": 2783.315
+   },
+   {
+    "ad": "sire",
+    "a": "Sire (Syros) (yerlesimler.js)",
+    "b": "Şire (yerlesimler_afrika.js)",
+    "mesafe_km": 2922.634
+   },
+   {
+    "ad": "port royal",
+    "a": "Port Royal (Acadia) (yerlesimler_amerika.js)",
+    "b": "Port Royal (yerlesimler_amerika.js)",
+    "mesafe_km": 3172.525
+   },
+   {
+    "ad": "lagos",
+    "a": "Lagos (Algarve) (yerlesimler_avrupa.js)",
+    "b": "Lagos (Eko) (yerlesimler_afrika2.js)",
+    "mesafe_km": 3633.304
+   },
+   {
+    "ad": "new amsterdam",
+    "a": "New Amsterdam (New York) (yerlesimler_amerika.js)",
+    "b": "New Amsterdam (Berbice) (yerlesimler_amerika.js)",
+    "mesafe_km": 4189.447
+   },
+   {
+    "ad": "plymouth",
+    "a": "Plymouth (yerlesimler_avrupa.js)",
+    "b": "Plymouth (Massachusetts) (yerlesimler_amerika.js)",
+    "mesafe_km": 5213.614
+   },
+   {
+    "ad": "akra",
+    "a": "Akra (yerlesimler.js)",
+    "b": "Akra (Accra) (yerlesimler_afrika2.js)",
+    "mesafe_km": 5745.639
+   },
+   {
+    "ad": "gore",
+    "a": "Gore (yerlesimler_h2_afrika.js)",
+    "b": "Gore (Gorée) (yerlesimler_afrika2.js)",
+    "mesafe_km": 5824.444
+   },
+   {
+    "ad": "york",
+    "a": "York (yerlesimler_avrupa.js)",
+    "b": "York (Toronto) (yerlesimler_kamerika.js)",
+    "mesafe_km": 5854.346
+   },
+   {
+    "ad": "la paz",
+    "a": "La Paz (yerlesimler_amerika.js)",
+    "b": "La Paz (Baja California Sur) (yerlesimler_kamerika.js)",
+    "mesafe_km": 6511.438
+   },
+   {
+    "ad": "loreto",
+    "a": "Loreto (Baja California) (yerlesimler_amerika3.js)",
+    "b": "Loreto (Mojos) (yerlesimler_gamerika.js)",
+    "mesafe_km": 6915.443
+   },
+   {
+    "ad": "santa fe",
+    "a": "Santa Fe (yerlesimler_amerika.js)",
+    "b": "Santa Fe (Arjantin) (yerlesimler_amerika.js)",
+    "mesafe_km": 9027.168
+   },
+   {
+    "ad": "kudus",
+    "a": "Kudüs (yerlesimler.js)",
+    "b": "Kudus (yerlesimler_gdasya.js)",
+    "mesafe_km": 9272.451
+   },
+   {
+    "ad": "nain",
+    "a": "Nâin (yerlesimler.js)",
+    "b": "Nain (Labrador) (yerlesimler_kamerika.js)",
+    "mesafe_km": 9456.26
+   },
+   {
+    "ad": "tula",
+    "a": "Tula (yerlesimler.js)",
+    "b": "Tula (Tamaulipas) (yerlesimler_kamerika.js)",
+    "mesafe_km": 12443.407
+   },
+   {
+    "ad": "perth",
+    "a": "Perth (İskoçya) (yerlesimler_avrupa.js)",
+    "b": "Perth (yerlesimler_ek30.js)",
+    "mesafe_km": 16284.366
+   },
+   {
+    "ad": "roma",
+    "a": "Roma (yerlesimler.js)",
+    "b": "Roma (Queensland) (yerlesimler_okyanusya.js)",
+    "mesafe_km": 16858.274
+   },
+   {
+    "ad": "georgetown",
+    "a": "Georgetown (Stabroek) (yerlesimler_amerika.js)",
+    "b": "Georgetown (yerlesimler_okyanusya.js)",
+    "mesafe_km": 22514.986
+   }
+  ]
+ }
+}

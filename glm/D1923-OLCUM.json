@@ -1,0 +1,4221 @@
+{
+  "gorev": "GLM-1 · D1923-OLCUM",
+  "gun": "1923-10-29",
+  "betik": "glm/d1923.js",
+  "evren": {
+    "dosyalar": [
+      "d_sinirlar.js",
+      "d_sinirlar_afrika.js",
+      "d_sinirlar_amerika.js",
+      "d_sinirlar_asya.js",
+      "d_sinirlar_avrupa_bati.js",
+      "d_sinirlar_avrupa_orta.js",
+      "d_sinirlar_komsu.js",
+      "d_sinirlar_okyanusya.js",
+      "d_sinirlar_ortadogu.js"
+    ],
+    "toplam_kayit": 723,
+    "dosya_bazinda": {
+      "d_sinirlar.js": 34,
+      "d_sinirlar_afrika.js": 41,
+      "d_sinirlar_amerika.js": 79,
+      "d_sinirlar_asya.js": 133,
+      "d_sinirlar_avrupa_bati.js": 159,
+      "d_sinirlar_avrupa_orta.js": 205,
+      "d_sinirlar_komsu.js": 53,
+      "d_sinirlar_okyanusya.js": 6,
+      "d_sinirlar_ortadogu.js": 13
+    }
+  },
+  "on_olcum": {
+    "beklenen": {
+      "aktif": 319,
+      "cizgili": 193,
+      "cizgisiz": 126,
+      "nokta": 17133,
+      "ne": 185
+    },
+    "olculen": {
+      "aktif": 319,
+      "cizgili_hatvar": 193,
+      "cizgisiz_hatyok": 126,
+      "hat_var_ama_sinif_YOK": [
+        "d1923-tr-iq-fiili"
+      ],
+      "cizgisiz_sartname_tanimiyla": 127,
+      "nokta": 17133,
+      "ne_admin0_bugunku_sinir": 185,
+      "ne_diger": [
+        "d1923-jp-sscb-sahalin — antlaşma tarifi (50°K paraleli) × Natural Earth 10m kara kıyısı",
+        "d1923-ro-su — Natural Earth 10m nehirler — Dniester orta çizgisi (Zbruç ağzına en yakın tepeden: 1.8 km sapma)"
+      ],
+      "ne_toplam": 187
+    },
+    "tutar": {
+      "aktif": true,
+      "cizgili_193": true,
+      "cizgisiz_126": true,
+      "tam_bolunme": true,
+      "nokta_17133": true,
+      "ne_admin0_185": true
+    },
+    "not": "319 = çizgili(hat var) 193 + çizgisiz(hat yok) 126 — TAM BÖLÜNME. Loncadaki «kategori/sinif YOK ya da hat boş» tanımı bu ikiliye göre 127 verir: 1 kayıt (d1923-tr-iq-fiili) hem hat taşıyor hem sinif YOK — ön ölçümün 126'sı HAT YOK kümesidir; o kayıt çizgili 193'ün içinde sayılmış (hat bilgi amaçlı duruyor, çizilmiyor)."
+  },
+  "cizgisiz": {
+    "adet": 126,
+    "tanim": "aktif && hat YOK (319 − 193 = 126)",
+    "ayrica_hat_tasiyan_sinif_YOK": [
+      {
+        "id": "d1923-tr-iq-fiili",
+        "sinif": "YOK",
+        "not": "Şartname md.4: 1923'te hukuken belirlenmemiş parça D OLAMAZ ⇒ kategori 'fiili'"
+      }
+    ],
+    "sebep_sinifina_gore": {
+      "hat-yok": {
+        "adet": 38,
+        "idler": [
+          "d1923-ca-us-alaska-guneydogu",
+          "d1923-hn-sv",
+          "d1923-pa-co",
+          "d1923-br-gf",
+          "d1923-gy-sr",
+          "d1923-sr-gf",
+          "d1923-ar-cl",
+          "d1923-br-uy-invernada",
+          "d1923-br-uy-brasilera",
+          "d1923-sscb-cn-BILINMIYOR-dogu",
+          "d1923-sscb-cn-BILINMIYOR-batialtay",
+          "d1923-sscb-cn-BILINMIYOR-kazak",
+          "d1923-sscb-cn-BILINMIYOR-kirgiz",
+          "d1923-sscb-cn-FIILI-pamir",
+          "d1923-sscb-mn-BILINMIYOR",
+          "d1923-jp-cn-BILINMIYOR-yalu-tumen",
+          "d1923-jp-sscb-BILINMIYOR-tumen",
+          "d1923-ih-tb-FIILI-mcmahon",
+          "d1923-ih-tb-BILINMIYOR-sikkim",
+          "d1923-ih-tb-FIILI-batihimalaya",
+          "d1923-ck-cn-FIILI-aksaicin",
+          "d1923-ih-np-BILINMIYOR",
+          "d1923-cn-fc-BILINMIYOR-tonkin",
+          "d1923-cn-fc-BILINMIYOR-laos",
+          "d1923-af-ih-BILINMIYOR-durand",
+          "d1923-en-cn-BILINMIYOR-hongkong",
+          "d1923-be-lu",
+          "d1923-es-gib",
+          "d1923-de-lt-memel",
+          "d1923-de-cs-1",
+          "d1923-de-cs-2",
+          "d1923-de-cs-3",
+          "d1923-at-hu-pinka",
+          "d1923-at-hu-olmod",
+          "d1923-cs-pl-ro-stoh",
+          "d1923-ro-yu-tuna",
+          "d1923-ir-hind-BILINMIYOR",
+          "d1923-iq-necd-BILINMIYOR"
+        ]
+      },
+      "sonradan-değişti/koordinat-yok": {
+        "adet": 88,
+        "idler": [
+          "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+          "d1923-tr-ir-DEGISTI-kotur-1932",
+          "d1923-tr-ir-DEGISTI-bacirge-1932-1937",
+          "d1923-ca-us-DEGISTI-lake-of-the-woods",
+          "d1923-ca-nf-labrador",
+          "d1923-us-mx-DEGISTI-rio-grande",
+          "d1923-us-mx-DEGISTI-colorado",
+          "d1923-us-mx-chamizal",
+          "d1923-us-pa-kanal-bolgesi",
+          "d1923-gt-sv",
+          "d1923-gt-hn",
+          "d1923-hn-ni-DEGISTI-dogu",
+          "d1923-cr-pa",
+          "d1923-ht-do",
+          "d1923-fr-nl-saint-martin",
+          "d1923-co-ve",
+          "d1923-co-br-kuzey",
+          "d1923-co-pe",
+          "d1923-co-ec-DEGISTI-dogu",
+          "d1923-ec-pe",
+          "d1923-bo-br",
+          "d1923-bo-cl-tacna",
+          "d1923-bo-cl-DEGISTI-chipapa-olca",
+          "d1923-bo-cl-DEGISTI-patalani-panantalla",
+          "d1923-cl-pe-tacna-arica",
+          "d1923-bo-py-chaco",
+          "d1923-br-py-DEGISTI-paraguay-nehri",
+          "d1923-ar-py-DEGISTI-pilcomayo",
+          "d1923-ar-bo",
+          "d1923-ar-uy",
+          "d1923-ar-br-DEGISTI-brasilera",
+          "d1923-cn-mn-FIILI",
+          "d1923-ck-cn-FIILI-karakurum",
+          "d1923-np-tb-FIILI",
+          "d1923-ih-cn-FIILI-wa",
+          "d1923-ih-cn-FIILI-kuzey",
+          "d1923-si-fc-DEGISTI-mekong-1",
+          "d1923-si-fc-DEGISTI-mekong-2",
+          "d1923-si-ih-DEGISTI-maesai",
+          "d1923-si-ih-DEGISTI-pakchan",
+          "d1923-hd-sw-DEGISTI-api-raja",
+          "d1923-af-sscb-DEGISTI-amuderya",
+          "d1923-af-cn-FIILI-vahan",
+          "d1923-fr-it-DEGISTI-tende",
+          "d1923-fr-it-DEGISTI-chaberton",
+          "d1923-fr-it-DEGISTI-thabor",
+          "d1923-fr-it-DEGISTI-cenis",
+          "d1923-fr-it-DEGISTI-pstbernard",
+          "d1923-it-shs",
+          "d1923-it-shs-zara",
+          "d1923-es-pt-guney",
+          "d1923-de-pl-1",
+          "d1923-de-pl-2",
+          "d1923-de-pl-3",
+          "d1923-dz-de",
+          "d1923-dz-pl",
+          "d1923-de-cs-4",
+          "d1923-saar-de",
+          "d1923-pl-su-1",
+          "d1923-pl-su-2",
+          "d1923-pl-su-3",
+          "d1923-pl-lt",
+          "d1923-pl-lv",
+          "d1923-ee-lv",
+          "d1923-ee-su",
+          "d1923-lv-su",
+          "d1923-fi-su-kuzey",
+          "d1923-fi-su-petsamo",
+          "d1923-fi-su-guney",
+          "d1923-pl-ro-1940",
+          "d1923-pl-ro-2",
+          "d1923-cs-pl-1",
+          "d1923-cs-pl-2",
+          "d1923-ro-yu-banat",
+          "d1923-al-yu-naum",
+          "d1923-al-yu-vermos",
+          "d1923-gr-shs-DEGISTI-gevgeli",
+          "d1923-bg-ro-DEGISTI-dobruca",
+          "d1923-sscb-ir-DEGISTI-aras-talis",
+          "d1923-sscb-ir-DEGISTI-hazar-serahs",
+          "d1923-ir-af-FIILI-orta",
+          "d1923-iq-ir-DEGISTI-sattularap",
+          "d1923-fi-sy-DEGISTI",
+          "d1923-iq-sy-DEGISTI",
+          "d1923-iq-jo-FIILI",
+          "d1923-iq-kw-DEGISTI",
+          "d1923-sy-jo-DEGISTI",
+          "d1923-necid-kuveyt-tarafsiz-guney"
+        ]
+      }
+    },
+    "taraf_ciftine_gore": {
+      "abd × kanada": {
+        "adet": 2,
+        "idler": [
+          "d1923-ca-us-DEGISTI-lake-of-the-woods",
+          "d1923-ca-us-alaska-guneydogu"
+        ]
+      },
+      "abd × meksika": {
+        "adet": 3,
+        "idler": [
+          "d1923-us-mx-DEGISTI-rio-grande",
+          "d1923-us-mx-DEGISTI-colorado",
+          "d1923-us-mx-chamizal"
+        ]
+      },
+      "abd × panama-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-us-pa-kanal-bolgesi"
+        ]
+      },
+      "afganistan × cin-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-af-cn-FIILI-vahan"
+        ]
+      },
+      "afganistan × ingiliz-hindistani": {
+        "adet": 1,
+        "idler": [
+          "d1923-af-ih-BILINMIYOR-durand"
+        ]
+      },
+      "afganistan × kacar": {
+        "adet": 1,
+        "idler": [
+          "d1923-ir-af-FIILI-orta"
+        ]
+      },
+      "afganistan × sovyet-rusya": {
+        "adet": 1,
+        "idler": [
+          "d1923-af-sscb-DEGISTI-amuderya"
+        ]
+      },
+      "almanya × cekoslovakya": {
+        "adet": 4,
+        "idler": [
+          "d1923-de-cs-1",
+          "d1923-de-cs-2",
+          "d1923-de-cs-3",
+          "d1923-de-cs-4"
+        ]
+      },
+      "almanya × danzig-serbest-sehri": {
+        "adet": 1,
+        "idler": [
+          "d1923-dz-de"
+        ]
+      },
+      "almanya × litvanya": {
+        "adet": 1,
+        "idler": [
+          "d1923-de-lt-memel"
+        ]
+      },
+      "almanya × polonya": {
+        "adet": 3,
+        "idler": [
+          "d1923-de-pl-1",
+          "d1923-de-pl-2",
+          "d1923-de-pl-3"
+        ]
+      },
+      "almanya × saar-havzasi-mandasi": {
+        "adet": 1,
+        "idler": [
+          "d1923-saar-de"
+        ]
+      },
+      "arjantin-cumhuriyeti × bolivya-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ar-bo"
+        ]
+      },
+      "arjantin-cumhuriyeti × brezilya-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ar-br-DEGISTI-brasilera"
+        ]
+      },
+      "arjantin-cumhuriyeti × paraguay-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ar-py-DEGISTI-pilcomayo"
+        ]
+      },
+      "arjantin-cumhuriyeti × sili-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ar-cl"
+        ]
+      },
+      "arjantin-cumhuriyeti × uruguay-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ar-uy"
+        ]
+      },
+      "arnavutluk-bagimsiz × yugoslavya": {
+        "adet": 2,
+        "idler": [
+          "d1923-al-yu-naum",
+          "d1923-al-yu-vermos"
+        ]
+      },
+      "avusturya-cumhuriyet × macaristan-naiplik": {
+        "adet": 2,
+        "idler": [
+          "d1923-at-hu-pinka",
+          "d1923-at-hu-olmod"
+        ]
+      },
+      "belcika × luksemburg": {
+        "adet": 1,
+        "idler": [
+          "d1923-be-lu"
+        ]
+      },
+      "bolivya-cumhuriyeti × brezilya-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-bo-br"
+        ]
+      },
+      "bolivya-cumhuriyeti × paraguay-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-bo-py-chaco"
+        ]
+      },
+      "bolivya-cumhuriyeti × sili-cumhuriyeti": {
+        "adet": 3,
+        "idler": [
+          "d1923-bo-cl-tacna",
+          "d1923-bo-cl-DEGISTI-chipapa-olca",
+          "d1923-bo-cl-DEGISTI-patalani-panantalla"
+        ]
+      },
+      "brezilya-cumhuriyeti × fransiz-guyanasi": {
+        "adet": 1,
+        "idler": [
+          "d1923-br-gf"
+        ]
+      },
+      "brezilya-cumhuriyeti × kolombiya-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-co-br-kuzey"
+        ]
+      },
+      "brezilya-cumhuriyeti × paraguay-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-br-py-DEGISTI-paraguay-nehri"
+        ]
+      },
+      "brezilya-cumhuriyeti × uruguay-cumhuriyeti": {
+        "adet": 2,
+        "idler": [
+          "d1923-br-uy-invernada",
+          "d1923-br-uy-brasilera"
+        ]
+      },
+      "bulgaristan-kralligi × romanya-kralligi": {
+        "adet": 1,
+        "idler": [
+          "d1923-bg-ro-DEGISTI-dobruca"
+        ]
+      },
+      "cammu-kesmir × cin-cumhuriyeti": {
+        "adet": 2,
+        "idler": [
+          "d1923-ck-cn-FIILI-aksaicin",
+          "d1923-ck-cn-FIILI-karakurum"
+        ]
+      },
+      "cekoslovakya × polonya": {
+        "adet": 2,
+        "idler": [
+          "d1923-cs-pl-1",
+          "d1923-cs-pl-2"
+        ]
+      },
+      "cekoslovakya × romanya-kralligi": {
+        "adet": 1,
+        "idler": [
+          "d1923-cs-pl-ro-stoh"
+        ]
+      },
+      "cin-cumhuriyeti × fransiz-cinhindi": {
+        "adet": 2,
+        "idler": [
+          "d1923-cn-fc-BILINMIYOR-tonkin",
+          "d1923-cn-fc-BILINMIYOR-laos"
+        ]
+      },
+      "cin-cumhuriyeti × ingiliz-hindistani": {
+        "adet": 2,
+        "idler": [
+          "d1923-ih-cn-FIILI-wa",
+          "d1923-ih-cn-FIILI-kuzey"
+        ]
+      },
+      "cin-cumhuriyeti × ingiltere": {
+        "adet": 1,
+        "idler": [
+          "d1923-en-cn-BILINMIYOR-hongkong"
+        ]
+      },
+      "cin-cumhuriyeti × meiji-japonya": {
+        "adet": 1,
+        "idler": [
+          "d1923-jp-cn-BILINMIYOR-yalu-tumen"
+        ]
+      },
+      "cin-cumhuriyeti × mogolistan": {
+        "adet": 1,
+        "idler": [
+          "d1923-cn-mn-FIILI"
+        ]
+      },
+      "cin-cumhuriyeti × sovyet-rusya": {
+        "adet": 5,
+        "idler": [
+          "d1923-sscb-cn-BILINMIYOR-dogu",
+          "d1923-sscb-cn-BILINMIYOR-batialtay",
+          "d1923-sscb-cn-BILINMIYOR-kazak",
+          "d1923-sscb-cn-BILINMIYOR-kirgiz",
+          "d1923-sscb-cn-FIILI-pamir"
+        ]
+      },
+      "danzig-serbest-sehri × polonya": {
+        "adet": 1,
+        "idler": [
+          "d1923-dz-pl"
+        ]
+      },
+      "dominik-cumhuriyeti × haiti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ht-do"
+        ]
+      },
+      "ekvador-cumhuriyeti × kolombiya-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-co-ec-DEGISTI-dogu"
+        ]
+      },
+      "ekvador-cumhuriyeti × peru-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-ec-pe"
+        ]
+      },
+      "el-salvador-cumhuriyeti × guatemala": {
+        "adet": 1,
+        "idler": [
+          "d1923-gt-sv"
+        ]
+      },
+      "el-salvador-cumhuriyeti × honduras-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-hn-sv"
+        ]
+      },
+      "estonya × letonya": {
+        "adet": 1,
+        "idler": [
+          "d1923-ee-lv"
+        ]
+      },
+      "estonya × sovyet-rusya": {
+        "adet": 1,
+        "idler": [
+          "d1923-ee-su"
+        ]
+      },
+      "filistin-mandasi × suriye-lubnan-mandasi": {
+        "adet": 1,
+        "idler": [
+          "d1923-fi-sy-DEGISTI"
+        ]
+      },
+      "finlandiya × sovyet-rusya": {
+        "adet": 3,
+        "idler": [
+          "d1923-fi-su-kuzey",
+          "d1923-fi-su-petsamo",
+          "d1923-fi-su-guney"
+        ]
+      },
+      "fransa-cumhuriyet × hollanda": {
+        "adet": 1,
+        "idler": [
+          "d1923-fr-nl-saint-martin"
+        ]
+      },
+      "fransa-cumhuriyet × italya": {
+        "adet": 5,
+        "idler": [
+          "d1923-fr-it-DEGISTI-tende",
+          "d1923-fr-it-DEGISTI-chaberton",
+          "d1923-fr-it-DEGISTI-thabor",
+          "d1923-fr-it-DEGISTI-cenis",
+          "d1923-fr-it-DEGISTI-pstbernard"
+        ]
+      },
+      "fransiz-cinhindi × siyam-chakri": {
+        "adet": 2,
+        "idler": [
+          "d1923-si-fc-DEGISTI-mekong-1",
+          "d1923-si-fc-DEGISTI-mekong-2"
+        ]
+      },
+      "fransiz-guyanasi × hollanda-guyanasi": {
+        "adet": 1,
+        "idler": [
+          "d1923-sr-gf"
+        ]
+      },
+      "guatemala × honduras-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-gt-hn"
+        ]
+      },
+      "hollanda-dogu-hint × sarawak-brooke": {
+        "adet": 1,
+        "idler": [
+          "d1923-hd-sw-DEGISTI-api-raja"
+        ]
+      },
+      "hollanda-guyanasi × ingiliz-guyanasi": {
+        "adet": 1,
+        "idler": [
+          "d1923-gy-sr"
+        ]
+      },
+      "honduras-cumhuriyeti × nikaragua-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-hn-ni-DEGISTI-dogu"
+        ]
+      },
+      "ingiliz-hindistani × kacar": {
+        "adet": 1,
+        "idler": [
+          "d1923-ir-hind-BILINMIYOR"
+        ]
+      },
+      "ingiliz-hindistani × nepal": {
+        "adet": 1,
+        "idler": [
+          "d1923-ih-np-BILINMIYOR"
+        ]
+      },
+      "ingiliz-hindistani × siyam-chakri": {
+        "adet": 2,
+        "idler": [
+          "d1923-si-ih-DEGISTI-maesai",
+          "d1923-si-ih-DEGISTI-pakchan"
+        ]
+      },
+      "ingiliz-hindistani × tibet-ganden-phodrang": {
+        "adet": 3,
+        "idler": [
+          "d1923-ih-tb-FIILI-mcmahon",
+          "d1923-ih-tb-BILINMIYOR-sikkim",
+          "d1923-ih-tb-FIILI-batihimalaya"
+        ]
+      },
+      "ingiltere × ispanya": {
+        "adet": 1,
+        "idler": [
+          "d1923-es-gib"
+        ]
+      },
+      "irak-kralligi × kacar": {
+        "adet": 1,
+        "idler": [
+          "d1923-iq-ir-DEGISTI-sattularap"
+        ]
+      },
+      "irak-kralligi × kuveyt": {
+        "adet": 1,
+        "idler": [
+          "d1923-iq-kw-DEGISTI"
+        ]
+      },
+      "irak-kralligi × suriye-lubnan-mandasi": {
+        "adet": 1,
+        "idler": [
+          "d1923-iq-sy-DEGISTI"
+        ]
+      },
+      "irak-kralligi × suud-ucuncu": {
+        "adet": 1,
+        "idler": [
+          "d1923-iq-necd-BILINMIYOR"
+        ]
+      },
+      "irak-kralligi × urdun-emirligi": {
+        "adet": 1,
+        "idler": [
+          "d1923-iq-jo-FIILI"
+        ]
+      },
+      "ispanya × portekiz": {
+        "adet": 1,
+        "idler": [
+          "d1923-es-pt-guney"
+        ]
+      },
+      "italya × yugoslavya": {
+        "adet": 2,
+        "idler": [
+          "d1923-it-shs",
+          "d1923-it-shs-zara"
+        ]
+      },
+      "kacar × sovyet-rusya": {
+        "adet": 2,
+        "idler": [
+          "d1923-sscb-ir-DEGISTI-aras-talis",
+          "d1923-sscb-ir-DEGISTI-hazar-serahs"
+        ]
+      },
+      "kacar × tbmm-turkiye": {
+        "adet": 3,
+        "idler": [
+          "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+          "d1923-tr-ir-DEGISTI-kotur-1932",
+          "d1923-tr-ir-DEGISTI-bacirge-1932-1937"
+        ]
+      },
+      "kanada × newfoundland-dominyonu": {
+        "adet": 1,
+        "idler": [
+          "d1923-ca-nf-labrador"
+        ]
+      },
+      "kolombiya-cumhuriyeti × panama-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-pa-co"
+        ]
+      },
+      "kolombiya-cumhuriyeti × peru-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-co-pe"
+        ]
+      },
+      "kolombiya-cumhuriyeti × venezuela-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-co-ve"
+        ]
+      },
+      "kosta-rika-cumhuriyeti × panama-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-cr-pa"
+        ]
+      },
+      "kuveyt × suud-ucuncu": {
+        "adet": 1,
+        "idler": [
+          "d1923-necid-kuveyt-tarafsiz-guney"
+        ]
+      },
+      "letonya × polonya": {
+        "adet": 1,
+        "idler": [
+          "d1923-pl-lv"
+        ]
+      },
+      "letonya × sovyet-rusya": {
+        "adet": 1,
+        "idler": [
+          "d1923-lv-su"
+        ]
+      },
+      "litvanya × polonya": {
+        "adet": 1,
+        "idler": [
+          "d1923-pl-lt"
+        ]
+      },
+      "meiji-japonya × sovyet-rusya": {
+        "adet": 1,
+        "idler": [
+          "d1923-jp-sscb-BILINMIYOR-tumen"
+        ]
+      },
+      "mogolistan × sovyet-rusya": {
+        "adet": 1,
+        "idler": [
+          "d1923-sscb-mn-BILINMIYOR"
+        ]
+      },
+      "nepal × tibet-ganden-phodrang": {
+        "adet": 1,
+        "idler": [
+          "d1923-np-tb-FIILI"
+        ]
+      },
+      "peru-cumhuriyeti × sili-cumhuriyeti": {
+        "adet": 1,
+        "idler": [
+          "d1923-cl-pe-tacna-arica"
+        ]
+      },
+      "polonya × romanya-kralligi": {
+        "adet": 2,
+        "idler": [
+          "d1923-pl-ro-1940",
+          "d1923-pl-ro-2"
+        ]
+      },
+      "polonya × sovyet-rusya": {
+        "adet": 3,
+        "idler": [
+          "d1923-pl-su-1",
+          "d1923-pl-su-2",
+          "d1923-pl-su-3"
+        ]
+      },
+      "romanya-kralligi × yugoslavya": {
+        "adet": 2,
+        "idler": [
+          "d1923-ro-yu-banat",
+          "d1923-ro-yu-tuna"
+        ]
+      },
+      "suriye-lubnan-mandasi × urdun-emirligi": {
+        "adet": 1,
+        "idler": [
+          "d1923-sy-jo-DEGISTI"
+        ]
+      },
+      "yugoslavya × yunanistan": {
+        "adet": 1,
+        "idler": [
+          "d1923-gr-shs-DEGISTI-gevgeli"
+        ]
+      }
+    },
+    "bolgeye_gore": {
+      "amerika": {
+        "adet": 37,
+        "idler": [
+          "d1923-ca-us-DEGISTI-lake-of-the-woods",
+          "d1923-ca-us-alaska-guneydogu",
+          "d1923-ca-nf-labrador",
+          "d1923-us-mx-DEGISTI-rio-grande",
+          "d1923-us-mx-DEGISTI-colorado",
+          "d1923-us-mx-chamizal",
+          "d1923-us-pa-kanal-bolgesi",
+          "d1923-gt-sv",
+          "d1923-gt-hn",
+          "d1923-hn-sv",
+          "d1923-hn-ni-DEGISTI-dogu",
+          "d1923-cr-pa",
+          "d1923-pa-co",
+          "d1923-ht-do",
+          "d1923-fr-nl-saint-martin",
+          "d1923-co-ve",
+          "d1923-co-br-kuzey",
+          "d1923-co-pe",
+          "d1923-co-ec-DEGISTI-dogu",
+          "d1923-ec-pe",
+          "d1923-br-gf",
+          "d1923-gy-sr",
+          "d1923-sr-gf",
+          "d1923-bo-br",
+          "d1923-bo-cl-tacna",
+          "d1923-bo-cl-DEGISTI-chipapa-olca",
+          "d1923-bo-cl-DEGISTI-patalani-panantalla",
+          "d1923-cl-pe-tacna-arica",
+          "d1923-bo-py-chaco",
+          "d1923-br-py-DEGISTI-paraguay-nehri",
+          "d1923-ar-py-DEGISTI-pilcomayo",
+          "d1923-ar-bo",
+          "d1923-ar-cl",
+          "d1923-ar-uy",
+          "d1923-ar-br-DEGISTI-brasilera",
+          "d1923-br-uy-invernada",
+          "d1923-br-uy-brasilera"
+        ]
+      },
+      "asya": {
+        "adet": 29,
+        "idler": [
+          "d1923-sscb-cn-BILINMIYOR-dogu",
+          "d1923-sscb-cn-BILINMIYOR-batialtay",
+          "d1923-sscb-cn-BILINMIYOR-kazak",
+          "d1923-sscb-cn-BILINMIYOR-kirgiz",
+          "d1923-sscb-cn-FIILI-pamir",
+          "d1923-sscb-mn-BILINMIYOR",
+          "d1923-cn-mn-FIILI",
+          "d1923-jp-cn-BILINMIYOR-yalu-tumen",
+          "d1923-jp-sscb-BILINMIYOR-tumen",
+          "d1923-ih-tb-FIILI-mcmahon",
+          "d1923-ih-tb-BILINMIYOR-sikkim",
+          "d1923-ih-tb-FIILI-batihimalaya",
+          "d1923-ck-cn-FIILI-aksaicin",
+          "d1923-ck-cn-FIILI-karakurum",
+          "d1923-np-tb-FIILI",
+          "d1923-ih-np-BILINMIYOR",
+          "d1923-ih-cn-FIILI-wa",
+          "d1923-ih-cn-FIILI-kuzey",
+          "d1923-cn-fc-BILINMIYOR-tonkin",
+          "d1923-cn-fc-BILINMIYOR-laos",
+          "d1923-si-fc-DEGISTI-mekong-1",
+          "d1923-si-fc-DEGISTI-mekong-2",
+          "d1923-si-ih-DEGISTI-maesai",
+          "d1923-si-ih-DEGISTI-pakchan",
+          "d1923-hd-sw-DEGISTI-api-raja",
+          "d1923-af-sscb-DEGISTI-amuderya",
+          "d1923-af-ih-BILINMIYOR-durand",
+          "d1923-af-cn-FIILI-vahan",
+          "d1923-en-cn-BILINMIYOR-hongkong"
+        ]
+      },
+      "avrupa_bati": {
+        "adet": 10,
+        "idler": [
+          "d1923-be-lu",
+          "d1923-fr-it-DEGISTI-tende",
+          "d1923-fr-it-DEGISTI-chaberton",
+          "d1923-fr-it-DEGISTI-thabor",
+          "d1923-fr-it-DEGISTI-cenis",
+          "d1923-fr-it-DEGISTI-pstbernard",
+          "d1923-it-shs",
+          "d1923-it-shs-zara",
+          "d1923-es-pt-guney",
+          "d1923-es-gib"
+        ]
+      },
+      "avrupa_orta": {
+        "adet": 33,
+        "idler": [
+          "d1923-de-pl-1",
+          "d1923-de-pl-2",
+          "d1923-de-pl-3",
+          "d1923-dz-de",
+          "d1923-dz-pl",
+          "d1923-de-lt-memel",
+          "d1923-de-cs-1",
+          "d1923-de-cs-2",
+          "d1923-de-cs-3",
+          "d1923-de-cs-4",
+          "d1923-saar-de",
+          "d1923-pl-su-1",
+          "d1923-pl-su-2",
+          "d1923-pl-su-3",
+          "d1923-pl-lt",
+          "d1923-pl-lv",
+          "d1923-ee-lv",
+          "d1923-ee-su",
+          "d1923-lv-su",
+          "d1923-fi-su-kuzey",
+          "d1923-fi-su-petsamo",
+          "d1923-fi-su-guney",
+          "d1923-at-hu-pinka",
+          "d1923-at-hu-olmod",
+          "d1923-cs-pl-ro-stoh",
+          "d1923-pl-ro-1940",
+          "d1923-pl-ro-2",
+          "d1923-cs-pl-1",
+          "d1923-cs-pl-2",
+          "d1923-ro-yu-banat",
+          "d1923-ro-yu-tuna",
+          "d1923-al-yu-naum",
+          "d1923-al-yu-vermos"
+        ]
+      },
+      "cekirdek": {
+        "adet": 3,
+        "idler": [
+          "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+          "d1923-tr-ir-DEGISTI-kotur-1932",
+          "d1923-tr-ir-DEGISTI-bacirge-1932-1937"
+        ]
+      },
+      "komsu": {
+        "adet": 13,
+        "idler": [
+          "d1923-gr-shs-DEGISTI-gevgeli",
+          "d1923-bg-ro-DEGISTI-dobruca",
+          "d1923-sscb-ir-DEGISTI-aras-talis",
+          "d1923-sscb-ir-DEGISTI-hazar-serahs",
+          "d1923-ir-af-FIILI-orta",
+          "d1923-ir-hind-BILINMIYOR",
+          "d1923-iq-ir-DEGISTI-sattularap",
+          "d1923-fi-sy-DEGISTI",
+          "d1923-iq-sy-DEGISTI",
+          "d1923-iq-jo-FIILI",
+          "d1923-iq-necd-BILINMIYOR",
+          "d1923-iq-kw-DEGISTI",
+          "d1923-sy-jo-DEGISTI"
+        ]
+      },
+      "ortadogu": {
+        "adet": 1,
+        "idler": [
+          "d1923-necid-kuveyt-tarafsiz-guney"
+        ]
+      }
+    },
+    "liste": [
+      {
+        "id": "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+        "taraflar": [
+          "tbmm-turkiye",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar.js",
+        "bolge": "cekirdek",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ. · IBS 28 s.6: Küçük Ağrı'nın doğu yamacı 1932'de Türkiye lehine değişti (Tahran 23.1.1932 md.I)"
+      },
+      {
+        "id": "d1923-tr-ir-DEGISTI-kotur-1932",
+        "taraflar": [
+          "tbmm-turkiye",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar.js",
+        "bolge": "cekirdek",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ. · IBS 28 s.5-6: Kotur kesimi 1914'te İŞARETLENMEMİŞTİ (~40 mil) ve 1932'de İran lehine değişti"
+      },
+      {
+        "id": "d1923-tr-ir-DEGISTI-bacirge-1932-1937",
+        "taraflar": [
+          "tbmm-turkiye",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar.js",
+        "bolge": "cekirdek",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ. · IBS 28 s.5-6: Bacirge (Nazlu Çayı kolları) 1932'de İran lehine; 1937 düzeltmesi güney ucun ~25 mil kuzeyinde (Tahran 26.5.1937)"
+      },
+      {
+        "id": "d1923-ca-us-DEGISTI-lake-of-the-woods",
+        "taraflar": [
+          "kanada",
+          "abd"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923'te hat 5 noktada kendini kesiyordu (hukuken tanımlı ama kusurlu) · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C (kusurlu tanım) · 1925: Northwest Angle bitim noktası 49°23'04.49\"K 95°09'11.61\"B"
+      },
+      {
+        "id": "d1923-ca-us-alaska-guneydogu",
+        "taraflar": [
+          "kanada",
+          "abd"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter d1923-ca-us-4 · hukuken C (işaretleme bilinmiyor) · degisti bilinmediği için çizilmedi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · hat 1903 kararı + 1905 notaları; işaretleme yılı ve sonraki değişiklik BULUNAMADI"
+      },
+      {
+        "id": "d1923-ca-nf-labrador",
+        "taraflar": [
+          "kanada",
+          "newfoundland-dominyonu"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI: Kanada kıyıdan 1 millik şerit, Newfoundland Atlantik su ayrımını iddia ediyordu · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: newfoundland-dominyonu devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor) · Privy Council 1 Mar 1927 kararı hattı çizdi"
+      },
+      {
+        "id": "d1923-us-mx-DEGISTI-rio-grande",
+        "taraflar": [
+          "abd",
+          "meksika"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "hukuken C: hareketli nehir hattı (1884/1905 banco kuralları) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1933 El Paso–Juárez düzeltmesi (155 mil) · 1970 antlaşması 1.255 millik nehir kesimini yeniden kurdu"
+      },
+      {
+        "id": "d1923-us-mx-DEGISTI-colorado",
+        "taraflar": [
+          "abd",
+          "meksika"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "hukuken C · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · Colorado nehir kesimi; 1970 antlaşması"
+      },
+      {
+        "id": "d1923-us-mx-chamizal",
+        "taraflar": [
+          "abd",
+          "meksika"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI: ABD 1911 kararını reddetti · 1923 fiilî idare BULUNAMADI · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 29 Ağu 1963 sözleşmesiyle çözüldü"
+      },
+      {
+        "id": "d1923-us-pa-kanal-bolgesi",
+        "taraflar": [
+          "abd",
+          "panama-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter d1923-us-pa-1 · 1914 metni KOORDİNATLI ⇒ çizilebilir; bu turda ÇİZİLMEDİ (borç) · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken E (1914 sözleşmesi, koordinatlı) — çizim yapılmadı · Kanal Bölgesi 1 Eki 1979'da sona erdi — bugünkü haritada YOK"
+      },
+      {
+        "id": "d1923-gt-sv",
+        "taraflar": [
+          "guatemala",
+          "el-salvador-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "FİİLİ: 1923'te belge yok; 1938 md. I(a) 'mevcut sınır'dan söz eder ama 1923 koordinatı yok · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: el-salvador-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor) · FİİLİ (D adayı), koordinat yok · 9 Nis 1938 antlaşması (onay 24 May 1938), işaretleme Eyl 1940"
+      },
+      {
+        "id": "d1923-gt-hn",
+        "taraflar": [
+          "guatemala",
+          "honduras-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI (Honduras Motagua–Belize kıyısını istiyordu) · kutu bugünkü çizgi çevresi; tartışmalı alan daha geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: honduras-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor) · 23 Oca 1933 Özel Sınır Mahkemesi kararı; işaretleme 1933–36"
+      },
+      {
+        "id": "d1923-hn-sv",
+        "taraflar": [
+          "honduras-cumhuriyeti",
+          "el-salvador-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter d1923-hn-sv-1: ölçülemedi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: honduras-cumhuriyeti, el-salvador-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor) · ÖLÇÜLEMEDİ — kaynak okunmadı"
+      },
+      {
+        "id": "d1923-hn-ni-DEGISTI-dogu",
+        "taraflar": [
+          "honduras-cumhuriyeti",
+          "nikaragua-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI: Nikaragua 1906 kararını reddetti · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: honduras-cumhuriyeti, nikaragua-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor) · UAD 18 Kas 1960 · Sánchez Gavito kararı 5 Ağu 1961 (Teotecacinte düz hatları, Coco ağzı)"
+      },
+      {
+        "id": "d1923-cr-pa",
+        "taraflar": [
+          "kosta-rika-cumhuriyeti",
+          "panama-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · TASLAK KÜNYE: kosta-rika-cumhuriyeti devletler.js'te YOK (denetim/TASLAK-KUNYE-D-0916.json; UYGULA bekliyor) · San José Antlaşması 1 May 1941; işaretleme 1944"
+      },
+      {
+        "id": "d1923-pa-co",
+        "taraflar": [
+          "panama-cumhuriyeti",
+          "kolombiya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "1903–1922 Kolombiya Panama'yı tanımıyordu; 1 Mar 1922'den sonra hat KABA (C) ve işaretsiz; Panama antlaşmanın tarafı değil · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 1922-03-01'den sonra hukuken C (kaba) · 1924 antlaşması aynı 1855 kanununa dayanır; 1936–38 işaretleme; kayma ölçülmedi"
+      },
+      {
+        "id": "d1923-ht-do",
+        "taraflar": [
+          "haiti",
+          "dominik-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI: etkili belge yok (1777 hattı belirsiz) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 21 Oca 1929 antlaşması · 27 Şub 1935 · 9 Mar 1936 protokolü"
+      },
+      {
+        "id": "d1923-fr-nl-saint-martin",
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "hollanda"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Hat tanımsız (1648) · f Fransa künyesine çekildi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 26 May 2023 sınır antlaşması (Ek A koordinatlı)"
+      },
+      {
+        "id": "d1923-co-ve",
+        "taraflar": [
+          "kolombiya-cumhuriyeti",
+          "venezuela-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "PARÇALI: tartışmasız kesimler (Goajira, Táchira) E; dört kesim uygulama bekliyordu. Kesimlerin koordinatı elde yok ⇒ bütün çift YOK · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · parçalı E / tartışmalı · İsviçreli uzman kararları 30 Tem 1924; 1941 antlaşması (yalnız arama özeti)"
+      },
+      {
+        "id": "d1923-co-br-kuzey",
+        "taraflar": [
+          "kolombiya-cumhuriyeti",
+          "brezilya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "hukuken C (işaretsiz) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1928 antlaşması yetkisiyle 1930–36 düzeltmeleri (Taraira meridyeni, San José adası)"
+      },
+      {
+        "id": "d1923-co-pe",
+        "taraflar": [
+          "kolombiya-cumhuriyeti",
+          "peru-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "FİİLİ: 1911 statükosu (Kolombiya La Pedrera'da, Peru Putumayo'da); çizimi BULUNAMADI · tartışmalı alan kutudan geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · FİİLİ (D adayı), koordinat yok · Salomón–Lozano yürürlük 19 Mar 1928; Leticia teslimi 17 Ağu 1930"
+      },
+      {
+        "id": "d1923-co-ec-DEGISTI-dogu",
+        "taraflar": [
+          "kolombiya-cumhuriyeti",
+          "ekvador-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Putumayo–Napo–Ambiyacu: hukuken C, fiilen Peru iddiasında · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1928 sonrası Peru toprağı; Kolombiya–Ekvador sınırı Güepí'de biter"
+      },
+      {
+        "id": "d1923-ec-pe",
+        "taraflar": [
+          "ekvador-cumhuriyeti",
+          "peru-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI: 1923'te hat yok · tartışmalı alan kutudan çok geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · Rio Protokolü 29 Oca 1942"
+      },
+      {
+        "id": "d1923-br-gf",
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "fransiz-guyanasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "hukuken C (Oyapock talvegi + Tumuc-Humac su ayrımı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1956'ya kadar değişiklik yok; sonrası ölçülmedi. İşaretlemede ÇELİŞKİ: AFDI 'yapılmadı' ↔ Ireland 'kısmen'"
+      },
+      {
+        "id": "d1923-gy-sr",
+        "taraflar": [
+          "ingiliz-guyanasi",
+          "hollanda-guyanasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "PARÇALI: Corentyne alt kesimi FİİLİ (1831'den beri zımni mutabakat, antlaşma yok); üst kesim (New River) TARTIŞMALI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 1938'de hâlâ açık"
+      },
+      {
+        "id": "d1923-sr-gf",
+        "taraflar": [
+          "hollanda-guyanasi",
+          "fransiz-guyanasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "PARÇALI: Maroni+Awa C · Stoelman–Portal adaları E (1915) · Awa yukarısı TARTIŞMALI · Çar kararı 13/25 May 1891 (Jülyen/Gregoryen) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · Itany/Marouini anlaşmazlığı 1938'de açık; bugünkü durum ölçülmedi"
+      },
+      {
+        "id": "d1923-bo-br",
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "brezilya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "PARÇALI: 1914 haritalı kesimler E; Rapirran–Bahia · Cuatro Hermanos–Verde · Madeira adaları C ve 1928'de değişti. Kesim koordinatları elde yok ⇒ bütün çift YOK · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · parçalı E / C · 3 Eyl 1925 protokolleri; Natal Antlaşması 25 Ara 1928 (onay 27 Haz 1929)"
+      },
+      {
+        "id": "d1923-bo-cl-tacna",
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Visviri–Santuario–Chipe: 1904 hattı, karşı taraf Şili idaresindeki Tacna · hukuken C · geometrinin 1929 sonrası aynı kaldığı ÖLÇÜLMEDİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · Lima 1929 sonrası bu kesim Bolivya–PERU sınırı (Tacna Peru'ya döndü)"
+      },
+      {
+        "id": "d1923-bo-cl-DEGISTI-chipapa-olca",
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "hukuken C · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1938: Cerro Paroma üzerinden düz hat, Collaguasi demiryolu Şili'de"
+      },
+      {
+        "id": "d1923-bo-cl-DEGISTI-patalani-panantalla",
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "hukuken C · kutu TAHMİNİ; Panantalla GeoNames'te BULUNAMADI, kuzey sınır genişletildi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1938: Irpa Pueblo · Sillajhuay · Armasaya üzerinden"
+      },
+      {
+        "id": "d1923-cl-pe-tacna-arica",
+        "taraflar": [
+          "sili-cumhuriyeti",
+          "peru-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "FİİLİ: Şili idaresinin kuzey sınırı Sama nehri (Şili yorumu: Chaspaya kolu, Tarata dahil); koordinat yok · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · FİİLİ (D adayı), koordinat yok · Tarata 1 Eyl 1925 Peru'ya; Lima Antlaşması 3 Haz 1929 md. 2; işaretleme 1930"
+      },
+      {
+        "id": "d1923-bo-py-chaco",
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "paraguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "TARTIŞMALI: Chaco Boreal · 1923 kale hattı BULUNAMADI · tartışmalı alan kutudan çok geniş · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · Buenos Aires Antlaşması 21 Tem 1938 · hakem kararı 10 Eki 1938"
+      },
+      {
+        "id": "d1923-br-py-DEGISTI-paraguay-nehri",
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "paraguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Apa ağzı–Bahía Negra: antlaşmayla TANIMSIZ, batı kıyıyı Bolivya da istiyordu · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 21 May 1927 tamamlayıcı antlaşma (onay 25 Kas 1929)"
+      },
+      {
+        "id": "d1923-ar-py-DEGISTI-pilcomayo",
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "paraguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Pilcomayo: hukuken C (ağız–Salto Palmar, Horqueta–Esmeralda); Salto Palmar–Horqueta bataklığı TANIMSIZ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C / tanımsız · 5 Tem 1939 tamamlayıcı antlaşma; bataklık kesimi 1 Haz 1945"
+      },
+      {
+        "id": "d1923-ar-bo",
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "bolivya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "PARÇALI: dağ, nehir ve 22. paralel kesimleri hukuken C; Pilcomayo kesimi tanımsız · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 9 Tem 1925 antlaşması (onay 11 Eki 1938); Pilcomayo 1941 protokolü"
+      },
+      {
+        "id": "d1923-ar-cl",
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "hukuken C (seyrek direkler) · Palena–California 1966'da değişti · Laguna del Desierto (1994) ve buzul sahası kaynaksız · 1881 antlaşma günü BULUNAMADI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · IBS 101 yalnız Palena'yı (1966 kararı) anlatır; öteki kesimlerin bugünkü durumu ÖLÇÜLMEDİ"
+      },
+      {
+        "id": "d1923-ar-uy",
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "uruguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Uruguay nehri: yürürlükte antlaşma YOK (1916 ada antlaşması onaylanmadı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 7 Nis 1961 antlaşması (yürürlük 19 Oca 1966) · 19 Kas 1973 Río de la Plata"
+      },
+      {
+        "id": "d1923-ar-br-DEGISTI-brasilera",
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "brezilya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923'te hukuken E (1898 md. I talveg, 1901 işaretleri) ama bugünkü çizgi farklı · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken E — çizim yapılmadı · 27 Ara 1927 sözleşmesi (onay 9 Tem 1941): hat ada ile sağ kıyı arasına"
+      },
+      {
+        "id": "d1923-br-uy-invernada",
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "uruguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "TARTIŞMALI: Arroyo de la Invernada (Rincón de Artigas) · kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · 1979'da da çözülmemişti; bugünkü durum ölçülmedi"
+      },
+      {
+        "id": "d1923-br-uy-brasilera",
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "uruguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js",
+        "bolge": "amerika",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "hukuken C, belirsiz (1851: ağızdaki adalar Brezilya'nın); Uruguay itirazı 1940 tarihli · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Kutu bugünkü çizginin çevresidir (konum vekili), 1923 hattı DEĞİLDİR. · hukuken C · 1979'da hâlâ iki taraf iddiasında"
+      },
+      {
+        "id": "d1923-sscb-cn-BILINMIYOR-dogu",
+        "taraflar": [
+          "sovyet-rusya",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.1: Sungaça–Tumen kara kesimi 1923'te D (1861 20 direk); nehirler C; Mançuli · 64 köy · kavşak adaları FİİLİ. Uzakdoğu Cumhuriyeti (1920–22) için atlasta ayrı künye YOK — Sovyet tarafı baştan `sovyet-rusya` · f 1860-11-14 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1978'de Argun/Amur/Ussuri nehir içi hat ve adalar tanımsız, Mançuli ve Amur–Ussuri kavşağı tartışmalı; sonraki anlaşmalar okunmadı"
+      },
+      {
+        "id": "d1923-sscb-cn-BILINMIYOR-batialtay",
+        "taraflar": [
+          "sovyet-rusya",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Altay'daki kısa kesim (Moğolistan üçlü noktası civarı) · f 1881-08-19 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi."
+      },
+      {
+        "id": "d1923-sscb-cn-BILINMIYOR-kazak",
+        "taraflar": [
+          "sovyet-rusya",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.1: 1923'te D (Tekes–İli ~12 işaret; Jungar Alatau–Tarbagatay 1883/1893) · Horgos C · f 1893-12-20 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1978'e kadar değişiklik bildirilmemiş; bağımsızlık sonrası Kazakistan–Çin anlaşmaları OKUNMADI"
+      },
+      {
+        "id": "d1923-sscb-cn-BILINMIYOR-kirgiz",
+        "taraflar": [
+          "sovyet-rusya",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.1: 1923'te D; protokol haritaları IBS'te yok · f 1884-05-22 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · Kırgızistan–Çin sonraki anlaşmaları OKUNMADI"
+      },
+      {
+        "id": "d1923-sscb-cn-FIILI-pamir",
+        "taraflar": [
+          "sovyet-rusya",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.1 · sınıf FİİLİ: Kizil Jik Dawan güneyinde antlaşma yok · f 1895-03-11 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1978'de hâlâ tartışmalı; Tacikistan–Çin sonraki anlaşmaları OKUNMADI"
+      },
+      {
+        "id": "d1923-sscb-mn-BILINMIYOR",
+        "taraflar": [
+          "sovyet-rusya",
+          "mogolistan"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.1/§3.5: 1923'te hukuken Rus–Çin hattı (Dış Moğolistan Çin metbuluğunda), fiilen Sovyet–Moğol. Kiahta doğusu D, batısı/Sayan C. ⚠️ Kutunun batı kesimi 1923'te TUVA–MOĞOLİSTAN hattıdır (fiilî, belge bulunamadı) — taraflar orada tannu-tuva/mogolistan; kesim yeri ÖLÇÜLMEDİ. Temmuz 1921 Sovyet destekli Moğol yönetimi (IBS 173; gün yok) hattı değiştirmedi · f 1727-10-12 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · Tuva 1944'te SSCB'ye katıldı; 1958 SSCB–Moğolistan antlaşması DOĞRULANMADI"
+      },
+      {
+        "id": "d1923-cn-mn-FIILI",
+        "taraflar": [
+          "cin-cumhuriyeti",
+          "mogolistan"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.2 · sınıf FİİLİ: 1923'te hukuken Çin içi özerklik sınırı, fiilen iki yönetim arası · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · Dariganga 1924'te Moğolistan'a; 1932 işgali; 26 Ara 1962 antlaşması + 30 Haz 1964 protokolü (639 direk)"
+      },
+      {
+        "id": "d1923-jp-cn-BILINMIYOR-yalu-tumen",
+        "taraflar": [
+          "meiji-japonya",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.4: Yalu C · Tumen C · Paektu FİİLİ. Kore ilhakı 1910 (IBS 17 OCR'ında imza 22 Ağu 1910; ilan günü okunamıyor) · f 1909-09-04 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1962'de Paektu kesiminde ~600 mil² tartışma; sonraki ÇHC–KDHC antlaşması OKUNMADI"
+      },
+      {
+        "id": "d1923-jp-sscb-BILINMIYOR-tumen",
+        "taraflar": [
+          "meiji-japonya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.3 · sınıf C (tanımlayan antlaşma yok) · f 1888-08-20 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1965'e kadar değişmedi; 1985/1990 SSCB–KDHC anlaşmaları OKUNMADI"
+      },
+      {
+        "id": "d1923-ih-tb-FIILI-mcmahon",
+        "taraflar": [
+          "ingiliz-hindistani",
+          "tibet-ganden-phodrang"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §3.6 · sınıf FİİLİ. ⚠️ Nota günleri çelişkili (IBS 42: 01.02/25.03.1914 · ikincil: 24–25.03.1914) — çözülmedi · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · hat 1923'te yayımlanmış/işleyen bir sınır değildi; bugünkü çizgi (Arunaçal) tartışmalı"
+      },
+      {
+        "id": "d1923-ih-tb-BILINMIYOR-sikkim",
+        "taraflar": [
+          "ingiliz-hindistani",
+          "tibet-ganden-phodrang"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §3.6 · 1923'te sınıf C. Taraf SİKKİM (İngiliz himayesi, 1890 md. II) — künyesi YOK, `ingiliz-hindistani` vekil (D-KUNYE'ye soruldu). f: 1890 sözleşmesinin onay günü · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1923 sonrası okunmadı"
+      },
+      {
+        "id": "d1923-ih-tb-FIILI-batihimalaya",
+        "taraflar": [
+          "ingiliz-hindistani",
+          "tibet-ganden-phodrang"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §3.6 · Spiti/Kinnaur/Kumaon–Tibet · sınıf FİİLİ. 32,5°K güneyi — ayrım TAHMİNİ. f: Sugauli'nin yürürlüğü (Nepal md. 5 ile Kali'nin batısından vazgeçti; Kumaon'un İngiliz idaresine geçişi). Spiti'nin 1846 geçişi ARAŞTIRILMADI — o kesim 1846'ya kadar bu kayda ait değil · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi."
+      },
+      {
+        "id": "d1923-ck-cn-FIILI-aksaicin",
+        "taraflar": [
+          "cammu-kesmir",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.5/§3.6 · sınıf FİİLİ. Taraf Cammu-Keşmir (atlas 1923'te Leh'i bu kimliğe yazıyor); Aksai Çin'in doğusu Tibet'e değer. hukukî başlangıç YOK — f 1842 Ladakh–Tibet mektubu (künyeyle kırpılır) · f 1842-09-17 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi."
+      },
+      {
+        "id": "d1923-ck-cn-FIILI-karakurum",
+        "taraflar": [
+          "cammu-kesmir",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.5 · sınıf FİİLİ. Hunza/Gilgit tarafı; hukukî başlangıç YOK — f 1899 Macdonald notası (künyeyle kırpılır) · f 1899-03-14 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 2 Mar 1963 Pekin anlaşması md. II–III; 26 Mar 1965 protokolü (40 direk)"
+      },
+      {
+        "id": "d1923-np-tb-FIILI",
+        "taraflar": [
+          "nepal",
+          "tibet-ganden-phodrang"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.6 · sınıf FİİLİ (tamamı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 21 Mar 1960 anl. · 5 Eki 1961 ant. · 23 Oca 1963 protokol"
+      },
+      {
+        "id": "d1923-ih-np-BILINMIYOR",
+        "taraflar": [
+          "ingiliz-hindistani",
+          "nepal"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §3.7 · 1923'te sınıf D (1860 kâgir direkler) — ama 1925 sonrası değişim ölçülmediği için bugünkü çizgi vekil OLAMAZ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 21 Ara 1923 antlaşması (onay 8 Nis 1925) sınırı teyit etti; 1925 sonrası OKUNMADI"
+      },
+      {
+        "id": "d1923-ih-cn-FIILI-wa",
+        "taraflar": [
+          "ingiliz-hindistani",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.8 Güney-2 · sınıf FİİLİ · f 1897-06-05 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 18 Haz 1941 Chungking notaları; 1960 md. II (Panhung–Panlao Çin'e) ve md. III"
+      },
+      {
+        "id": "d1923-ih-cn-FIILI-kuzey",
+        "taraflar": [
+          "ingiliz-hindistani",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.8 Kuzey-1/2/3 · sınıf FİİLİ. En kuzeyi McMahon (İngiltere–Tibet, Çin tanımadı) · f 1897-06-05 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1960 md. V ve VII (Hpimaw–Gawlum–Kangfang Çin'e); protokol 13 Eki 1961"
+      },
+      {
+        "id": "d1923-cn-fc-BILINMIYOR-tonkin",
+        "taraflar": [
+          "cin-cumhuriyeti",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.10 · 1923'te sınıf D (en az 285 sütun) · f 1896-08-07 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1964'e kadar değişmedi; 30 Ara 1999 Çin–Vietnam kara sınırı antlaşması OKUNMADI"
+      },
+      {
+        "id": "d1923-cn-fc-BILINMIYOR-laos",
+        "taraflar": [
+          "cin-cumhuriyeti",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.11 · 1923'te sınıf D. ⚠️ üçlü nokta enlemi IBS 34 ile IBS 38 arasında çelişkili (22°24' / 22°34') · f 1896-08-07 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1964'e kadar değişmedi; 1991 Çin–Laos antlaşması OKUNMADI"
+      },
+      {
+        "id": "d1923-si-fc-DEGISTI-mekong-1",
+        "taraflar": [
+          "siyam-chakri",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.15: 1923 hattı Mekong'un SİYAM KIYISI, bütün adalar Laos'un. Mekong ayrımı NE 10m nehir çizgisine ≤~3 km yakınlıkla, kuzey kesim 20°10,5'K enlemiyle yapıldı (yaklaşık) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 25 Ağu 1926 Sözleşmesi: Siyam kıyısına en yakın kolun talvegi; bazı adalar Siyam'a"
+      },
+      {
+        "id": "d1923-si-fc-DEGISTI-mekong-2",
+        "taraflar": [
+          "siyam-chakri",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.15: 1923 hattı Mekong'un SİYAM KIYISI, bütün adalar Laos'un. Mekong ayrımı NE 10m nehir çizgisine ≤~3 km yakınlıkla, kuzey kesim 20°10,5'K enlemiyle yapıldı (yaklaşık) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 25 Ağu 1926 Sözleşmesi: Siyam kıyısına en yakın kolun talvegi; bazı adalar Siyam'a"
+      },
+      {
+        "id": "d1923-si-ih-DEGISTI-maesai",
+        "taraflar": [
+          "siyam-chakri",
+          "ingiliz-hindistani"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.17 · kutu 20,25°K kuzeyi ve 99,75°D doğusu — TAHMİNİ. Burma tarafı Kengtung (atlas `san-devletleri`) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 27 Ağu 1931 + 14 Mar 1932 notaları (1929 talvegi); 1 Eki + 10 Ara 1940 notaları (Nam Kok'a da talveg)"
+      },
+      {
+        "id": "d1923-si-ih-DEGISTI-pakchan",
+        "taraflar": [
+          "siyam-chakri",
+          "ingiliz-hindistani"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.17 · kutu 10,95°K güneyi — TAHMİNİ (Kra-Mathe kavşağının enlemi okunmadı) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1 Haz 1934 notaları (talveg; Klong Wan, Wang Tow Burma'ya · Had Lan Kwai, See Sok Siyam'a); 31 Mar/1 Nis 1937 teyit"
+      },
+      {
+        "id": "d1923-hd-sw-DEGISTI-api-raja",
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "sarawak-brooke"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §2.19 · kutu IBS'in Api 110°04'D ve Raja 109°56'D boylamlarıyla · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 26 Mar 1928 Lahey Sözleşmesi: dereler/patikalar/düz çizgiler, 1:50.000 harita, 20 işaret"
+      },
+      {
+        "id": "d1923-af-sscb-DEGISTI-amuderya",
+        "taraflar": [
+          "afganistan",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §3.11 · sınıf C (nehir içi hat 1923'te tanımsız). ⚠️ Kuzey kıyının bir kısmı 1923'te hukuken BUHARA HALK SOVYET CUMHURİYETİ'dir (künye `buhara-halk-cumhuriyeti`); hangi kesim olduğu BULUNAMADI — atlas Termez'i `sovyet-rusya`ya yazıyor · f 1895-03-11 → 1917-11-07 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1946 protokolü talveg/orta hat kuralı; 1947–48'de 1.192 ada paylaştırıldı; Darkad adası 26 Şub 1926'da Afganistan'a"
+      },
+      {
+        "id": "d1923-af-ih-BILINMIYOR-durand",
+        "taraflar": [
+          "afganistan",
+          "ingiliz-hindistani"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §3.11 · 1923 sınıfları: Vahan–Dorah C · Dorah–Nawa C (Dokalim tartışmalı) · Mohmand FİİLİ · Hayber/Torham D (1919, 13 direk) · Kurram D (1894, 76 direk) · Veziristan D (1895) · Belucistan D (1895–96; Soru ötesi işaretsiz). Bölümlere ayrılmadı: bugünkü çizgi vekil değil · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1932 Kunar kesimi işaretlendi; 26 Tem 1949 Afganistan anlaşmaları tek taraflı feshetti; Pakistan dönemi hattı OKUNMADI"
+      },
+      {
+        "id": "d1923-af-cn-FIILI-vahan",
+        "taraflar": [
+          "afganistan",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter §3.11 · sınıf FİİLİ; Çin 20. yy başında Pamir'in çoğunu talep ediyordu · f 1895-03-11 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 22 Kas 1963 Pekin antlaşması; 24 Mar 1965 Kabil protokolü"
+      },
+      {
+        "id": "d1923-en-cn-BILINMIYOR-hongkong",
+        "taraflar": [
+          "ingiltere",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js",
+        "bolge": "asya",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter §2.9 · 1923'te sınıf D (kıyı + kazıklar). f: 1899 tespiti — GÜN ÇELİŞKİLİ (IBS 13 başlık 14 Mart, Ek I 19 Mart); Ek I metni esas alındı · f 1899-03-19 → 1911-10-10 (taraf künyesi o tarihte başlıyor; hattın kendisi daha eski — öncesi G2/G3'ün işi) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1962'ye kadar değişmedi; 1997 devri ve sonrası Sham Chun nehri düzenlemesi OKUNMADI"
+      },
+      {
+        "id": "d1923-be-lu",
+        "taraflar": [
+          "belcika",
+          "luksemburg"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "§1.8 · f lüksemburg künyesine hizalandı (hat 1843'ten) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1890-11-23 → 1923-10-29) hukukî sınıfı: E · değişiklik kaydı bulunamadı; kaynağın sessizliği kanıt sayılmadı (aynı sayfa FR–LU'nun belgeli düzeltmelerini de anmıyor)"
+      },
+      {
+        "id": "d1923-fr-it-DEGISTI-tende",
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E · Tende-Brigue + Tinée/Vésubie/Roya yukarı vadileri, 543,6 km² (ve 1930 Coni–Vintimille düzeltmesi) İtalya'dan Fransa'ya geçti"
+      },
+      {
+        "id": "d1923-fr-it-DEGISTI-chaberton",
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E · Chaberton, 17,1 km² İtalya'dan Fransa'ya geçti"
+      },
+      {
+        "id": "d1923-fr-it-DEGISTI-thabor",
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E · Mont Thabor + güneydoğusundaki küçük vadi (alan verilmemiş) İtalya'dan Fransa'ya geçti"
+      },
+      {
+        "id": "d1923-fr-it-DEGISTI-cenis",
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E · Mont Cenis platosu, 82,4 km² İtalya'dan Fransa'ya geçti"
+      },
+      {
+        "id": "d1923-fr-it-DEGISTI-pstbernard",
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.1 · kutu çıpalar etrafında TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1861-03-17 → 1923-10-29) hukukî sınıfı: E · Petit-Saint-Bernard, 31 km² (+1948'de ~200 m kayma) İtalya'dan Fransa'ya geçti"
+      },
+      {
+        "id": "d1923-it-shs",
+        "taraflar": [
+          "italya",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.6 · Peč (gn 6934913 Dreiländereck) → Castua. Fiume çevresi de bu kutuda (künye yok). f Rapallo imzası — yürürlük günü BULUNAMADI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1920-11-12 → 1923-10-29) hukukî sınıfı: su-bölümü kesimi (Jalovec–Triglav–Možic) E, kalanı C (karma komisyon 1921-26 işaretliyordu) · hat neredeyse tamamen kalktı; yalnız Peč ucundan kısa bir kesim bugünkü İtalya–Slovenya sınırında (uzunluğu ölçülmedi)"
+      },
+      {
+        "id": "d1923-it-shs-zara",
+        "taraflar": [
+          "italya",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.7 · Zara anklavı (Zadar gn 3186952). f Rapallo imzası · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1920-11-12 → 1923-10-29) hukukî sınıfı: C (demarkasyon tarihi bulunamadı) · Zara Yugoslavya'ya geçti, sınır kalktı"
+      },
+      {
+        "id": "d1923-es-pt-guney",
+        "taraflar": [
+          "ispanya",
+          "portekiz"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "§3.22 · Cuncos → Guadiana ağzı. f Badajoz Antlaşması 1801-06-06 · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1801-06-06 → 1923-10-29) hukukî sınıfı: fiili — 1923'te bu kesimde hukukî hat yoktu · 1926-06-29 Lizbon sözleşmesi (onay 1927); tartışmalı alanlar (Contienda, Villanueva del Fresno, Valencia de Mombuey, Galiana) 1922-26'da bölündü"
+      },
+      {
+        "id": "d1923-es-gib",
+        "taraflar": [
+          "ispanya",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js",
+        "bolge": "avrupa_bati",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "§3.23 · f: çit '1908-1909' — gün yok, 1909-01-01 hassasiyeti YIL. Cebelitarık'ın ayrı künyesi yok; taraf ingiltere · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda E/D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı · koordinat yok; dönemin (1909-01-01 → 1923-10-29) hukukî sınıfı: fiili (kıstak devredilmedi; İspanya çiti sınır saymıyor) · çitin 1923'ten sonra kayıp kaymadığına dair kaynak yok"
+      },
+      {
+        "id": "d1923-de-pl-1",
+        "taraflar": [
+          "almanya",
+          "polonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Pomeranya-Poznan-Aşağı Silezya kesimi. Hat Versay md. 27(7) + komisyon; 1923 geometrisi açık veride YOK. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1945 Oder-Neisse; 1950 Görlitz, 1990 AFC-Polonya antlaşması"
+      },
+      {
+        "id": "d1923-de-pl-2",
+        "taraflar": [
+          "almanya",
+          "polonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Yukarı Silezya: MC Konseyi raporu 1921-10-12 → Büyükelçiler Konf. 1921-10-19/20 → Cenevre Sözleşmesi yürürlük 1922-06-03. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · sınır 1945'te ortadan kalktı (bugün Polonya içi)"
+      },
+      {
+        "id": "d1923-de-pl-3",
+        "taraflar": [
+          "almanya",
+          "polonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Doğu Prusya–Polonya (Allenstein/Marienwerder plebisitleri 1920-07-11; Konf. 1920-08-12; hat 1922-12-19 kesin). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Doğu Prusya güney sınırı 1945'te ortadan kalktı"
+      },
+      {
+        "id": "d1923-dz-de",
+        "taraflar": [
+          "danzig-serbest-sehri",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Danzig–Doğu Prusya (Vistül/Nogat, Frische Nehrung). Komisyon (md. 101) bitiş günü BULUNAMADI. 🔴 taraf kimliği devletler.js'te yok. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939 ilhak; 1945'ten beri Polonya içi"
+      },
+      {
+        "id": "d1923-dz-pl",
+        "taraflar": [
+          "danzig-serbest-sehri",
+          "polonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Komisyon bitiş günü BULUNAMADI. 🔴 taraf kimliği devletler.js'te yok. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939 ilhak; 1945'ten beri Polonya içi"
+      },
+      {
+        "id": "d1923-de-lt-memel",
+        "taraflar": [
+          "almanya",
+          "litvanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Hat Versay md. 28 + 1921-07-18 mektubu. 29 Ekim 1923'te Memel egemenliği Müttefiklerde, Litvanya'ya 'tahsisli' (Sözleşme 1924-05-08, yürürlük 1925-08-25). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · bugünkü Litvanya-Rusya (1997 antlaşması, OKUNMADI) hattının md. 28 ile aynılığı BULUNAMADI"
+      },
+      {
+        "id": "d1923-de-cs-1",
+        "taraflar": [
+          "almanya",
+          "cekoslovakya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Bohemya-Bavyera batı kesimi (1914 hattı). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1981 DAC-ÇSSC 'tarihî oluşmuş sınır'; 1994 AFC-Çek antl. — 1923 hattıyla aynı DİYEN kaynak BULUNAMADI"
+      },
+      {
+        "id": "d1923-de-cs-2",
+        "taraflar": [
+          "almanya",
+          "cekoslovakya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Bohemya-Saksonya kuzey kesimi (1914 hattı). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · aynı gerekçe (Bohemya-Saksonya)"
+      },
+      {
+        "id": "d1923-de-cs-3",
+        "taraflar": [
+          "almanya",
+          "cekoslovakya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Üçlü nokta (AT-CS-DE) 13,84 D'ye kadar. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · aynı gerekçe (Bohemya-Bavyera güney)"
+      },
+      {
+        "id": "d1923-de-cs-4",
+        "taraflar": [
+          "almanya",
+          "cekoslovakya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Silezya + Hlučín (md. 83); Haatsch 1923-01-24'te ÇS'ye. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Prusya Silezyası kesimi 1945'ten sonra Çek-Polonya sınırı"
+      },
+      {
+        "id": "d1923-saar-de",
+        "taraflar": [
+          "saar-havzasi-mandasi",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Saar–Fransa kesimi D3-AVRUPA-BATI'nin (M-4056). Kutu yalnız kuzey/doğu kenar. 🔴 taraf kimliği devletler.js'te yok. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1935 plebisiti ile uluslararası sınır kalktı; bugünkü Saarland sınırı farklı (1946-47 genişlemesi DOĞRULANMADI)"
+      },
+      {
+        "id": "d1923-pl-su-1",
+        "taraflar": [
+          "polonya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Dvina–Polesya kuzey kesimi. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939/1945 (1945 Polonya-SSCB antl. OKUNMADI)"
+      },
+      {
+        "id": "d1923-pl-su-2",
+        "taraflar": [
+          "polonya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Polesya kesimi. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939/1945"
+      },
+      {
+        "id": "d1923-pl-su-3",
+        "taraflar": [
+          "polonya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Volhynya-Zbruç kesimi (Zbruç ağzına kadar). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939/1945"
+      },
+      {
+        "id": "d1923-pl-lt",
+        "taraflar": [
+          "polonya",
+          "litvanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): D (fiilî, koordinatsız). Vilnius sorunu: Müttefik kararı var, Litvanya TANIMADI, ortak işaretleme yok. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939'da ortadan kalktı; bugünkü Litvanya-Polonya hattı başka"
+      },
+      {
+        "id": "d1923-pl-lv",
+        "taraflar": [
+          "polonya",
+          "letonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): D (fiilî, koordinatsız). 1923'te yalnız ayırma hattı; sözleşme 1938-01-14. f: hat başlangıç günü BULUNAMADI — iki künyenin geç başlangıcı. Kutu bugünkü LT-LV doğu ucunu da örter (1923 LT-PL-LV üçlü noktası konumu BULUNAMADI). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1939'da ortadan kalktı"
+      },
+      {
+        "id": "d1923-ee-lv",
+        "taraflar": [
+          "estonya",
+          "letonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Hukuken D (Tallents hakem kararı). Bugünkü çizgi küçük farklarla vekil OLABİLİR — koordinatör kararı bekliyor. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1920'ler-30'lar belgeleri + 1992 md. VII düzeltmeleri — büyüklüğü ÖLÇÜLMEDİ"
+      },
+      {
+        "id": "d1923-ee-su",
+        "taraflar": [
+          "estonya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. f: onay teatisi 1920-03-30 (Estonya DB, arama özeti ◐). İşaretleme bitiş günü BULUNAMADI. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1944-08-23 Petseri, 1944-11-24 Narva ötesi"
+      },
+      {
+        "id": "d1923-lv-su",
+        "taraflar": [
+          "letonya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. f: imza günü (yürürlük günü BULUNAMADI). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Abrene/Pıtalovo RSFSC'ye (1944 ◐)"
+      },
+      {
+        "id": "d1923-fi-su-kuzey",
+        "taraflar": [
+          "finlandiya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Salla kesimi. Kutu 68,98 K'de kesildi: üstünde D3-AVRUPA-BATI'nin FI-NO hatları var. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Salla-Kuusamo 1940, Janiskoski 1947"
+      },
+      {
+        "id": "d1923-fi-su-petsamo",
+        "taraflar": [
+          "finlandiya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Petsamo koridorunun doğu kenarı (md. 4; Fin idaresi 1921-02-14'ten ◐). 28,9-30,85 D arası BATI'nın FI-NO hattı — kutu dışı. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Petsamo 1944'te SSCB'ye"
+      },
+      {
+        "id": "d1923-fi-su-guney",
+        "taraflar": [
+          "finlandiya",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Karelya kıstağı (Sestra) ve Ladoga Karelyası. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Karelya 1940 Moskova Barışı"
+      },
+      {
+        "id": "d1923-at-hu-pinka",
+        "taraflar": [
+          "avusturya-cumhuriyet",
+          "macaristan-naiplik"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Pinka vadisi köyleri 1922-09 MC kararı (🟡), Szentpéterfa takası (🔴). 1923-10-29'da hat bugünküyle aynı olabilir ama başlangıç günü kaynaksız ⇒ çizilmedi. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1923 hattı bugünkü; DEĞİŞME günü kaynaksız"
+      },
+      {
+        "id": "d1923-at-hu-olmod",
+        "taraflar": [
+          "avusturya-cumhuriyet",
+          "macaristan-naiplik"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Ólmod devri 1923 başı (🔴 birincil kaynak yok). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · aynı gerekçe"
+      },
+      {
+        "id": "d1923-cs-pl-ro-stoh",
+        "taraflar": [
+          "cekoslovakya",
+          "romanya-kralligi"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. ÇS-RO / PL-RO geçişi — kesim belirsizliği. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Stoh üçlü noktası konumu BULUNAMADI"
+      },
+      {
+        "id": "d1923-pl-ro-1940",
+        "taraflar": [
+          "polonya",
+          "romanya-kralligi"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E.  · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1940 Kuzey Bukovina hattı buradan ayrılıyor — geçiş belirsizliği"
+      },
+      {
+        "id": "d1923-pl-ro-2",
+        "taraflar": [
+          "polonya",
+          "romanya-kralligi"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Çeremoş–Dinyester kesimi (Zbruç ağzına kadar). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1940'tan beri Ukrayna içi"
+      },
+      {
+        "id": "d1923-cs-pl-1",
+        "taraflar": [
+          "cekoslovakya",
+          "polonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E (Javorina kesimi C). Cieszyn/Orava/Spiş: Büyükelçiler Konf. 1920-07-28. 🔴 JAVORİNA (20,14 D · 49,26 K) 29 Ekim 1923'te UDAD önündeydi (Görüş No. 8, 1923-12-06) — o kesim C/fiili. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1958 kesin tahdit/takaslar; Silezya-Tatra kesimi"
+      },
+      {
+        "id": "d1923-cs-pl-2",
+        "taraflar": [
+          "cekoslovakya",
+          "polonya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): E. Rutenya–Galiçya Karpat sırtı. · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1945'te Rutenya SSCB'ye; bugün Ukrayna içi"
+      },
+      {
+        "id": "d1923-ro-yu-banat",
+        "taraflar": [
+          "romanya-kralligi",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): C. 29 Ekim 1923'te kesinleşmemişti (takas SONRA imzalandı). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Belgrad Protokolü 1923-11-24 köy takası; üçlü nokta ~13 km GB'ye kaydı; üçlü nokta protokolü 1927-06-04"
+      },
+      {
+        "id": "d1923-ro-yu-tuna",
+        "taraflar": [
+          "romanya-kralligi",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): C.  · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · Tuna kesimi için 'değişmedi' diyen kaynak BULUNAMADI (Demir Kapı barajı nehri değiştirdi)"
+      },
+      {
+        "id": "d1923-al-yu-naum",
+        "taraflar": [
+          "arnavutluk-bagimsiz",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): C. 1922-12-06 Arnavutluk'a verildi; 29 Ekim 1923'te Yugoslavya revizyon istiyordu (UDAD Görüşü No. 9, 1924-09-04). · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1925'te Yugoslavya'ya"
+      },
+      {
+        "id": "d1923-al-yu-vermos",
+        "taraflar": [
+          "arnavutluk-bagimsiz",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_avrupa_orta.js",
+        "bolge": "avrupa_orta",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "29 Ekim 1923 sınıfı (A–F kademesi): C.  · kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı · 1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …) · 1925'te değişti (dipnot; kapsamı ÇELİŞKİLİ)"
+      },
+      {
+        "id": "d1923-gr-shs-DEGISTI-gevgeli",
+        "taraflar": [
+          "yunanistan",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "kutu GeoNames Gevgelija çıpası etrafında TAHMİNİ (±5 km); taş 69'un koordinatı okunmadı · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 'Sechewo köyünün hemen kuzeyi' anlaşmazlığı; kesim 1927'de çözüldü"
+      },
+      {
+        "id": "d1923-bg-ro-DEGISTI-dobruca",
+        "taraflar": [
+          "bulgaristan-kralligi",
+          "romanya-kralligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923 hattı (Turtukaya üstü → Ekrene güneyi) METİN + 1:200.000 harita + köy listesiyle tarifli; yerinde işaretleme bitişi ÖLÇÜLEMEDİ ⇒ envanterde C (D adayı). Kutu Güney Dobruca'yı kaba kapsar · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · Craiova 7 Eyl 1940 md. I: Güney Dobruca Bulgaristan'a; 1947 Paris teyit"
+      },
+      {
+        "id": "d1923-sscb-ir-DEGISTI-aras-talis",
+        "taraflar": [
+          "sovyet-rusya",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter K6 · sınıf C (1828 metni var, yerinde işaret yok). f: 1921 Sovyet-İran antlaşması (sınır hükmü getirmedi). Kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 2 Ara 1954 Tahran anl. (Mugan · Dyman · Yedi Evlar ↔ Namin; Aras'ta talveg); 11 Nis 1957 işaret; 7 May 1970 baraj gölleri"
+      },
+      {
+        "id": "d1923-sscb-ir-DEGISTI-hazar-serahs",
+        "taraflar": [
+          "sovyet-rusya",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter K7 · sınıf C. Kutu TAHMİNİ · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1954: Atrek deltası uzlaşma hattı, Serahs'ta küçük değişiklik; Firuze Sovyet'te kaldı"
+      },
+      {
+        "id": "d1923-ir-af-FIILI-orta",
+        "taraflar": [
+          "kacar",
+          "afganistan"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter I1-O · sınıf FİİLİ: 1923'te ~250 mil tanımsız ve işaretsiz (Haştadan ovası, Musa Abad) · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · FİİLİ, kaba/koordinatsız (hukukî hat yok) · Fahrettin Altay hakem heyeti Eki 1934–May 1935, karar 15 May 1935; direk 40–87"
+      },
+      {
+        "id": "d1923-ir-hind-BILINMIYOR",
+        "taraflar": [
+          "kacar",
+          "ingiliz-hindistani"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter I2: direk 1–11 (Kuhak–Gorani) 1896'da işaretli = D; güney (1871) ve kuzey (direk 11 → Malik Siyah) C. Bugünkü çizgi vekil OLAMAZ çünkü degisti bilinmiyor · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 6 Şub 1958 Tahran anl. hattı AYNI belgelerle yeniden tanımlayıp işaretledi (direk 1–256, son protokol 8 Ara 1959); toprak aktarımı IBS'te BULUNAMADI ⇒ 'değişmedi' diyen kaynak yok"
+      },
+      {
+        "id": "d1923-iq-ir-DEGISTI-sattularap",
+        "taraflar": [
+          "irak-kralligi",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1913: sol kıyı (düşük su) sınırı; 1937 Abadan önünde talveg; 1975 tamamı talveg"
+      },
+      {
+        "id": "d1923-fi-sy-DEGISTI",
+        "taraflar": [
+          "filistin-mandasi",
+          "suriye-lubnan-mandasi"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter L7 Suriye kesimi: 1923'te D (işaretli) ama bugünkü çizgi o hattı göstermez · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · 1949 mütareke hattı 1923 hattının biraz batısında (arama özeti); 1967'den beri Golan işgali"
+      },
+      {
+        "id": "d1923-iq-sy-DEGISTI",
+        "taraflar": [
+          "irak-kralligi",
+          "suriye-lubnan-mandasi"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter L2 · sınıf C · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · bugünkü hat Milletler Cemiyeti komisyonu raporu, Cenevre 10 Eyl 1932 (Sincar)"
+      },
+      {
+        "id": "d1923-iq-jo-FIILI",
+        "taraflar": [
+          "irak-kralligi",
+          "urdun-emirligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter L3 · sınıf FİİLİ: 1923'te hukukî hat YOK · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · FİİLİ, kaba/koordinatsız (hukukî hat yok) · ilk anlaşma 31 Tem–16 Ağu 1932 mektupları"
+      },
+      {
+        "id": "d1923-iq-necd-BILINMIYOR",
+        "taraflar": [
+          "irak-kralligi",
+          "suud-ucuncu"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "hat-yok",
+        "sebep": "Envanter L4 · sınıf C (ayrıntılı metin, işaretsiz) + Tarafsız Bölge · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · hat izi büyük ölçüde aynı (kolun özeti); Tarafsız Bölge sonradan bölündü (1975/1981 — doğrulanmadı)"
+      },
+      {
+        "id": "d1923-iq-kw-DEGISTI",
+        "taraflar": [
+          "irak-kralligi",
+          "kuveyt"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter L5 · sınıf C. Irak–Kuveyt IBS'i BULUNAMADI · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · tarif aynı; fiziksel hat 1993 BM işaretlemesi (162 nokta)"
+      },
+      {
+        "id": "d1923-sy-jo-DEGISTI",
+        "taraflar": [
+          "suriye-lubnan-mandasi",
+          "urdun-emirligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js",
+        "bolge": "komsu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "Envanter L8 · sınıf C. f: Şarkî Ürdün Emirliği künyesinin başı · 1923 hattının koordinatı ELDE YOK ⇒ bu kutuda D ÇİZİLMEZ, A/B (ya da C) geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ ya da gösterdiği ölçülmedi. · bugünkü hat Paris Protokolü 31 Eki 1931"
+      },
+      {
+        "id": "d1923-necid-kuveyt-tarafsiz-guney",
+        "taraflar": [
+          "suud-ucuncu",
+          "kuveyt"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js",
+        "bolge": "ortadogu",
+        "kategori": "D-YOK",
+        "sinif": "YOK",
+        "sebep_sinifi": "sonradan-değişti/koordinat-yok",
+        "sebep": "1922 metni güney hattını ADLI NOKTALARLA veriyor (eş-Şak → Ayn el-Abd → Ras Mişab'ın kuzeyi) ama Ayn el-Abd'in koordinatı BULUNAMADI (GeoNames'te yok) ⇒ bu kutuda D ÇİZİLMEZ. Kutu, Tarafsız Bölge'nin H güneyindeki yarısını kaplar. · kutu GeoNames çıpalı (Vadi eş-Şak 27.976K/47.885D · Mînâ Ras Mişab 28.109K/48.625D · H) ama köşeleri TAHMİNİ · Tarafsız Bölge 1969'da bölündü; güney hattı bugün Suudi Arabistan'ın İÇİNDE"
+      }
+    ]
+  },
+  "kapsam": {
+    "tanim": "günde yaşayan devlet: künye f <= G <= t (pencere ucu GÜNÜ DAHİL — M-4656 düzeltmesi; ilk teslimdeki f <= G < t yanlıştı, 47 veriyordu)",
+    "gunde_devlet_sayisi": 134,
+    "fe_veya_t_eksik_kunye": 0,
+    "d_kaydinda_gecip_kunyesi_olmayan_taraf_idleri": [
+      "belcika-kongo",
+      "el-salvador-cumhuriyeti",
+      "fransiz-bati-afrika",
+      "fransiz-ekvator-afrikasi",
+      "ingiliz-altin-kiyisi",
+      "ingiliz-hondurasi",
+      "ingiliz-kuzey-rodezya",
+      "ingiliz-nyasaland",
+      "ingiliz-siyera-leon",
+      "newfoundland-dominyonu",
+      "osmanli",
+      "portekiz-angola",
+      "portekiz-gine"
+    ],
+    "hic_d_kaydi_olmayan_devletler": [
+      {
+        "id": "oniki-ada-italyan",
+        "ad": "İtalya'nın Oniki Ada İşgali"
+      },
+      {
+        "id": "umman",
+        "ad": "Umman (Ya'rubî / Bû Saîd) Sultanlığı"
+      },
+      {
+        "id": "hicaz-kralligi",
+        "ad": "Hicaz Krallığı (Şerif Hüseyin)"
+      },
+      {
+        "id": "habesistan",
+        "ad": "Habeşistan İmparatorluğu"
+      },
+      {
+        "id": "cimma-sultanligi",
+        "ad": "Cimma (Jimma) Sultanlığı"
+      },
+      {
+        "id": "somali",
+        "ad": "Somali Sultanlıkları"
+      },
+      {
+        "id": "senusi",
+        "ad": "Senûsî Tarikatı (Senûsiyye)"
+      },
+      {
+        "id": "bahreyn",
+        "ad": "Bahreyn (Âl Halîfe Şeyhliği)"
+      },
+      {
+        "id": "katar",
+        "ad": "Katar (Âl Sânî Şeyhliği)"
+      },
+      {
+        "id": "nguyen-hanedani",
+        "ad": "Nguyễn Hanedanı (Vietnam)"
+      },
+      {
+        "id": "kamboc-kralligi",
+        "ad": "Kamboçya Krallığı (Post-Angkor)"
+      },
+      {
+        "id": "brunei-sultanligi",
+        "ad": "Brunei Sultanlığı"
+      },
+      {
+        "id": "buganda",
+        "ad": "Buganda Krallığı"
+      },
+      {
+        "id": "umman-zengibar",
+        "ad": "Umman-Zengibar Sultanlığı"
+      },
+      {
+        "id": "tonga-kralligi",
+        "ad": "Tonga Krallığı"
+      },
+      {
+        "id": "yeni-zelanda",
+        "ad": "Yeni Zelanda (İngiliz Kolonisi/Dominyonu)"
+      },
+      {
+        "id": "racput",
+        "ad": "Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)"
+      },
+      {
+        "id": "surakarta",
+        "ad": "Surakarta Sunanlığı"
+      },
+      {
+        "id": "yogyakarta",
+        "ad": "Yogyakarta Sultanlığı"
+      },
+      {
+        "id": "manipur",
+        "ad": "Manipûr Krallığı"
+      },
+      {
+        "id": "travankur",
+        "ad": "Travankur Krallığı (Venâd)"
+      },
+      {
+        "id": "san-devletleri",
+        "ad": "Şan Beylikleri (Sawbwa'lıklar)"
+      },
+      {
+        "id": "cohor-sultanligi",
+        "ad": "Cohor (Johor) Sultanlığı"
+      },
+      {
+        "id": "tidore-sultanligi",
+        "ad": "Tidore Sultanlığı (Moluk)"
+      },
+      {
+        "id": "izlanda",
+        "ad": "İzlanda"
+      },
+      {
+        "id": "haydarabad-nizam",
+        "ad": "Haydarabad Nizamlığı (Âsafcâh Hanedanı)"
+      },
+      {
+        "id": "bahavelpur",
+        "ad": "Bahavelpur Emirliği (Dâvudpotralar)"
+      },
+      {
+        "id": "bharatpur-cat",
+        "ad": "Bharatpur Krallığı (Jat)"
+      },
+      {
+        "id": "bhopal",
+        "ad": "Bopal (Bhopal) Devleti"
+      },
+      {
+        "id": "cunagadh",
+        "ad": "Cunagadh (Junagadh) Nevablığı"
+      },
+      {
+        "id": "tannu-tuva",
+        "ad": "Tannu Tuva Halk Cumhuriyeti"
+      },
+      {
+        "id": "harezm-halk-cumhuriyeti",
+        "ad": "Harezm Halk Sovyet Cumhuriyeti"
+      },
+      {
+        "id": "buhara-halk-cumhuriyeti",
+        "ad": "Buhara Halk Sovyet Cumhuriyeti"
+      },
+      {
+        "id": "rif-cumhuriyeti",
+        "ad": "Rif Cumhuriyeti (Abdülkerim el-Hattâbî)"
+      },
+      {
+        "id": "agadez-sultanligi",
+        "ad": "Agadez (Aïr) Sultanlığı — Tuareg"
+      },
+      {
+        "id": "kesiri-sultanligi",
+        "ad": "Kesîrî Sultanlığı (Hadramut iç kesimi)"
+      },
+      {
+        "id": "kuayti-sultanligi",
+        "ad": "Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)"
+      },
+      {
+        "id": "meysur-racaligi",
+        "ad": "Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)"
+      },
+      {
+        "id": "gvalyar",
+        "ad": "Gvalyar Devleti (Sindiya Hanedanı)"
+      },
+      {
+        "id": "indor",
+        "ad": "İndor Devleti (Holkar Hanedanı)"
+      },
+      {
+        "id": "kolhapur",
+        "ad": "Kolhapur Devleti (Şivâcî'nin İkinci Kolu)"
+      },
+      {
+        "id": "baroda",
+        "ad": "Baroda Devleti (Gaikvad Hanedanı)"
+      }
+    ],
+    "o_gun_aktif_d_kaydi_olmayan_devletler": [
+      {
+        "id": "ingiliz-kuzey-amerika",
+        "ad": "İngiliz Kuzey Amerika (Kanada)"
+      },
+      {
+        "id": "guney-afrika-birligi",
+        "ad": "Güney Afrika Birliği"
+      }
+    ],
+    "bilinen_komsu_cifti_adedi": 295,
+    "ikisi_de_gunde_yasayan_ciftten_aktif_kaydi_olmayanlar": [
+      "abd × ingiliz-kuzey-amerika",
+      "belcika × ingiltere",
+      "danimarka × isvec",
+      "fransa-cumhuriyet × ingiliz-nijerya",
+      "fransa-cumhuriyet × liberya",
+      "guney-afrika-birligi × ingiliz-becuanaland",
+      "hollanda × ispanya",
+      "ingiltere × liberya",
+      "ingiltere × portekiz-mozambik",
+      "isvec × sovyet-rusya",
+      "norvec × sovyet-rusya"
+    ],
+    "komsuluk_devletler_haritadan": "ölçülemedi — devletler_harita.js 56 MB ham poligon havuzudur (window.DEVLET_PARCALAR); devlet→parça eşlemesi donemler.js ekleminde, dosyanın kendisinden komşuluk çıkarılamaz"
+  },
+  "hassasiyet": {
+    "kume": "çizgili (hat var, n=193)",
+    "kesinlik_km_bantlari_mustakil": {
+      "0–0,5": 2,
+      "0,5–1": 12,
+      "1–2": 103,
+      "2–5": 31,
+      "5–10": 10,
+      ">10": 5
+    },
+    "kesinlik_km_kumulatif": {
+      "≤0,5": 2,
+      "≤1": 14,
+      "≤2": 117,
+      "≤5": 148,
+      "≤10": 158,
+      ">10": 5
+    },
+    "deger_tasiyan": 163,
+    "kesinlik_km_yok": [
+      "d1923-ch-de-obersee",
+      "d1923-ch-at-bodensee",
+      "d1923-de-at",
+      "d1923-lt-lv",
+      "d1923-fi-su",
+      "d1923-ro-su",
+      "d1923-at-cs",
+      "d1923-at-cs-morava",
+      "d1923-at-hu-1",
+      "d1923-at-hu-2",
+      "d1923-at-hu-3",
+      "d1923-at-hu-4",
+      "d1922-at-hu-sopron",
+      "d1923-at-yu-stiriya",
+      "d1923-at-yu-karintiya",
+      "d1923-hu-cs-1",
+      "d1923-hu-cs-2",
+      "d1923-hu-cs-3",
+      "d1923-hu-cs-rutenya",
+      "d1923-hu-yu-slovenya",
+      "d1923-hu-yu-hirvatistan",
+      "d1923-hu-yu-sirbistan",
+      "d1923-hu-ro",
+      "d1923-cs-ro",
+      "d1923-pl-ro",
+      "d1923-al-yu-karadag-1",
+      "d1923-al-yu-karadag-2",
+      "d1923-al-yu-kosova",
+      "d1923-al-yu-makedonya-1",
+      "d1923-al-yu-makedonya-2"
+    ],
+    "medyan_kesinlik_km": 1.5,
+    "min_kesinlik_km": 0.5,
+    "max_kesinlik_km": 50,
+    "bir_km_den_kotu_sayi": 149,
+    "bir_km_den_kotu_liste": [
+      {
+        "id": "d1923-oky-yenigine-guney-avustralya",
+        "kesinlik_km": 50,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "avustralya"
+        ],
+        "dosya": "d_sinirlar_okyanusya.js"
+      },
+      {
+        "id": "d1923-sudan-libya",
+        "kesinlik_km": 20,
+        "taraflar": [
+          "italya",
+          "ingiliz-sudani"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-sudan-misir-kondominyum",
+        "kesinlik_km": 20,
+        "taraflar": [
+          "misir-kralligi",
+          "ingiliz-sudani"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-ruanda-tanganyika",
+        "kesinlik_km": 15,
+        "taraflar": [
+          "ruanda-urundi-mandasi",
+          "ingiliz-tanganika-mandasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-burundi-tanganyika",
+        "kesinlik_km": 15,
+        "taraflar": [
+          "ruanda-urundi-mandasi",
+          "ingiliz-tanganika-mandasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-tr-sy-bati",
+        "kesinlik_km": 10,
+        "taraflar": [
+          "tbmm-turkiye",
+          "suriye-lubnan-mandasi"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-angola-belcika-kongo",
+        "kesinlik_km": 10,
+        "taraflar": [
+          "portekiz-angola",
+          "belcika-kongo"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-angola-guneybati-afrika",
+        "kesinlik_km": 10,
+        "taraflar": [
+          "portekiz-angola",
+          "guneybati-afrika-mandasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-fransiz-gine-sierra-leone",
+        "kesinlik_km": 8,
+        "taraflar": [
+          "fransiz-bati-afrika",
+          "ingiliz-siyera-leon"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-cad-libya",
+        "kesinlik_km": 8,
+        "taraflar": [
+          "italya",
+          "fransiz-ekvator-afrikasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-altinkiyisi-fildisi-sahili",
+        "kesinlik_km": 6,
+        "taraflar": [
+          "fransiz-bati-afrika",
+          "ingiliz-altin-kiyisi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-kongo-fransiz-belcika",
+        "kesinlik_km": 6,
+        "taraflar": [
+          "belcika-kongo",
+          "fransiz-ekvator-afrikasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-orta-afrika-cumhuriyeti-belcika-kongo",
+        "kesinlik_km": 6,
+        "taraflar": [
+          "fransiz-ekvator-afrikasi",
+          "belcika-kongo"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-guneybati-afrika-kuzey-rodezya-caprivi-dogu",
+        "kesinlik_km": 6,
+        "taraflar": [
+          "guneybati-afrika-mandasi",
+          "ingiliz-kuzey-rodezya"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-cad-anglo-misir-sudani-darfur",
+        "kesinlik_km": 6,
+        "taraflar": [
+          "ingiliz-sudani",
+          "fransiz-ekvator-afrikasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-tr-iq-fiili",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "irak-kralligi"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-senegal-gambiya",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "ingiltere",
+          "fransiz-bati-afrika"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-nijerya-kamerun-milner-simon",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "fransiz-kamerun-mandasi",
+          "ingiliz-nijerya"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-kenya-tanganyika",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "ingiliz-kenya-kolonisi",
+          "ingiliz-tanganika-mandasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-becuanaland-guneybati-afrika-caprivi",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "ingiliz-becuanaland",
+          "guneybati-afrika-mandasi"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-hd-en-suayrimi-1",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-en-suayrimi-2",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-en-suayrimi-3",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-en-suayrimi-4",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-en-suayrimi-5",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-en-suayrimi-6",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-sw-suayrimi-1",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "sarawak-brooke"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-sw-suayrimi-2",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "sarawak-brooke"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-filistin-urdun",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "filistin-mandasi",
+          "urdun-emirligi"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      },
+      {
+        "id": "d1923-libya-cezayir-gadames",
+        "kesinlik_km": 5,
+        "taraflar": [
+          "italya",
+          "cezayir-fransiz"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      },
+      {
+        "id": "d1923-angola-kuzey-rodezya-barotseland",
+        "kesinlik_km": 4,
+        "taraflar": [
+          "portekiz-angola",
+          "ingiliz-kuzey-rodezya"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-malavi-mozambik",
+        "kesinlik_km": 4,
+        "taraflar": [
+          "portekiz-mozambik",
+          "ingiliz-nyasaland"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-guney-rodezya-mozambik",
+        "kesinlik_km": 4,
+        "taraflar": [
+          "portekiz-mozambik",
+          "ingiliz-guney-rodezya"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-fransiz-gine-portekiz-gine",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "fransiz-bati-afrika",
+          "portekiz-gine"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-liberya-sierra-leone",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "liberya",
+          "ingiliz-siyera-leon"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-liberya-fildisi-sahili",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "fransiz-bati-afrika",
+          "liberya"
+        ],
+        "dosya": "d_sinirlar_afrika.js"
+      },
+      {
+        "id": "d1923-si-fc-kara-1",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "siyam-chakri",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-si-fc-kara-2",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "siyam-chakri",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-si-fc-kambocya",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "siyam-chakri",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-si-ih-1",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "siyam-chakri",
+          "ingiliz-hindistani"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-si-ih-2",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "siyam-chakri",
+          "ingiliz-hindistani"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-si-ma",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "siyam-chakri",
+          "ingiliz-malaya"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-be-de",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "belcika",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-gr-al",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "yunanistan",
+          "arnavutluk-bagimsiz"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-necid-kuveyt-yay",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "kuveyt",
+          "suud-ucuncu"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      },
+      {
+        "id": "d1923-necid-kuveyt-tarafsiz-bati",
+        "kesinlik_km": 3,
+        "taraflar": [
+          "suud-ucuncu",
+          "kuveyt"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      },
+      {
+        "id": "d1923-tr-ir-1",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "tbmm-turkiye",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-ir-2",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "tbmm-turkiye",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-ir-3",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "tbmm-turkiye",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-sy-dogu",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "tbmm-turkiye",
+          "suriye-lubnan-mandasi"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-ve-br",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "venezuela-cumhuriyeti",
+          "brezilya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-gy",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "ingiliz-guyanasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-sr",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "hollanda-guyanasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ih-fc-mekong",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "ingiliz-hindistani",
+          "fransiz-cinhindi"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-nl-de",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "hollanda",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-lu-lorraine",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "luksemburg"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-dappes",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-savoy-1",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-savoy-2",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-alsas",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-leman",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-at-yerde-1",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "italya",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-at-yerde-2",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "italya",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-at-yerde-3",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "italya",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-gr-bg-meric",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "yunanistan",
+          "bulgaristan-kralligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-bg-ro-tuna",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "bulgaristan-kralligi",
+          "romanya-kralligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-ir-af-guney",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "kacar",
+          "afganistan"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-iq-ir",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "irak-kralligi",
+          "kacar"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-necid-kuveyt-bati",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "suud-ucuncu",
+          "kuveyt"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      },
+      {
+        "id": "d1923-libya-tunus",
+        "kesinlik_km": 2,
+        "taraflar": [
+          "italya",
+          "tunus-beyligi-fransiz"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      },
+      {
+        "id": "d1923-tr-bg",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "bulgaristan-kralligi"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-gr-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "yunanistan"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-gr-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "yunanistan"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-sscb-gurcistan",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-sscb-ermenistan",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-tr-sscb-nahcivan",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "tbmm-turkiye",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar.js"
+      },
+      {
+        "id": "d1923-ca-us-dogu",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "kanada",
+          "abd"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ca-us-prairie",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "kanada",
+          "abd"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ca-us-bati-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "kanada",
+          "abd"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ca-us-bati-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "kanada",
+          "abd"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-us-mx-kaliforniya",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "abd",
+          "meksika"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-us-mx-gadsden",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "abd",
+          "meksika"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-mx-gt",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "meksika",
+          "guatemala"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-mx-bh",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "meksika",
+          "ingiliz-hondurasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-gt-bh",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "guatemala",
+          "ingiliz-hondurasi"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-hn-ni-bati",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "honduras-cumhuriyeti",
+          "nikaragua-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ni-cr-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "nikaragua-cumhuriyeti",
+          "kosta-rika-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ni-cr-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "nikaragua-cumhuriyeti",
+          "kosta-rika-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-gy-ve",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "ingiliz-guyanasi",
+          "venezuela-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-pe-tabatinga-apaporis",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "peru-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-co-ec",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "kolombiya-cumhuriyeti",
+          "ekvador-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-pe",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "peru-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-bo-pe",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "peru-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-bo-cl-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-bo-cl-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-bo-cl-3",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "bolivya-cumhuriyeti",
+          "sili-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-py-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "paraguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-py-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "paraguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ar-py-nehirler",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "paraguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ar-br",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "arjantin-cumhuriyeti",
+          "brezilya-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-uy-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "uruguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-br-uy-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "brezilya-cumhuriyeti",
+          "uruguay-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_amerika.js"
+      },
+      {
+        "id": "d1923-ih-cn-guney1-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "ingiliz-hindistani",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-ih-cn-guney1-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "ingiliz-hindistani",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-ih-cn-guney3",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "ingiliz-hindistani",
+          "cin-cumhuriyeti"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-pt-orta",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "portekiz"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-hd-pt-oecussi",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "hollanda-dogu-hint",
+          "portekiz"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-af-sscb-bati",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "afganistan",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-af-sscb-pamir",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "afganistan",
+          "sovyet-rusya"
+        ],
+        "dosya": "d_sinirlar_asya.js"
+      },
+      {
+        "id": "d1923-fr-de",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-lu-de",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "luksemburg",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-be-nl-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "belcika",
+          "hollanda"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-be-nl-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "belcika",
+          "hollanda"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-be-fr",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "belcika",
+          "fransa-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-lu",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "luksemburg"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-ch-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-ch-de",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "isvicre",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-ch-at-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "isvicre",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-ch-at-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "isvicre",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-dk-de",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "danimarka",
+          "almanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-ie-gb",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "irlanda-serbest-devlet",
+          "ingiltere"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-no-se",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "norvec",
+          "isvec"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fi-no-bati",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "finlandiya",
+          "norvec"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fi-no-petsamo",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "finlandiya",
+          "norvec"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fi-se",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "finlandiya",
+          "isvec"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-it-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-it-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-it-3",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-it-4",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-it-5",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-it-6",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "italya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-ch",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "italya",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-ch-saintgermain",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "italya",
+          "isvicre"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-at-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "italya",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-it-at-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "italya",
+          "avusturya-cumhuriyet"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-es-bati",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "ispanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-fr-es-dogu",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "fransa-cumhuriyet",
+          "ispanya"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-es-pt-kuzey",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "ispanya",
+          "portekiz"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-es-pt-olivenza",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "ispanya",
+          "portekiz"
+        ],
+        "dosya": "d_sinirlar_avrupa_bati.js"
+      },
+      {
+        "id": "d1923-gr-shs-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "yunanistan",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-gr-shs-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "yunanistan",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-gr-bg-bati",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "yunanistan",
+          "bulgaristan-kralligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-gr-bg-dogu",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "yunanistan",
+          "bulgaristan-kralligi"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-bg-shs-1",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "bulgaristan-kralligi",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-bg-shs-2",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "bulgaristan-kralligi",
+          "yugoslavya"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-ir-af-kuzey",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "kacar",
+          "afganistan"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-fi-lb",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "filistin-mandasi",
+          "suriye-lubnan-mandasi"
+        ],
+        "dosya": "d_sinirlar_komsu.js"
+      },
+      {
+        "id": "d1923-filistin-misir",
+        "kesinlik_km": 1.5,
+        "taraflar": [
+          "misir-kralligi",
+          "filistin-mandasi"
+        ],
+        "dosya": "d_sinirlar_ortadogu.js"
+      }
+    ],
+    "geometri_kaynagi_dagilim_ozet": {
+      "NE 10m admin-0 (bugünkü sınır)": 185,
+      "antlaşma metninden (cetvel/meridyen/paralel)": 2,
+      "NE 10m (diğer — nehir vb.)": 2,
+      "IBS kökenli": 4
+    },
+    "geometri_kaynagi_dagilim_tam": {
+      "Natural Earth 10m admin-0 (bugünkü sınır) — kullanılabilirliği 'değişmedi' dayanağına bağlı": 11,
+      "Natural Earth 10m admin-0 (bugünkü sınır) — kullanılabilirliği 'değişmedi' dayanağına bağlı — FİİLÎ STATÜKONUN VEKİLİ (Emre kararı 14.9.2026)": 1,
+      "antlaşma metninden cetvel (2 nokta)": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır, D-GEOARAC) — kullanılabilirliği 'degisti' alanına bağlı VEKİL": 23,
+      "Natural Earth 10m admin-0 (bugünkü sınır, D-GEOARAC çıktısı) — kullanılabilirliği 'değişmedi' dayanağına bağlı": 119,
+      "antlaşma metni (141°B meridyeni) · uçlar NE 10m": 1,
+      "antlaşma tarifi (50°K paraleli) × Natural Earth 10m kara kıyısı": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) → veri-kaynak/d_bugunku_sinirlar.geojson (D-GEOARAC); tepe aralığı medyan 2,06 km": 24,
+      "Natural Earth 10m admin-0 (bugünkü sınır) → veri-kaynak/d_bugunku_sinirlar.geojson (D-GEOARAC); tepe aralığı medyan 2,06 km · kesim 480-805 km (uzunluktan)": 1,
+      "Natural Earth 10m nehirler — Dniester orta çizgisi (Zbruç ağzına en yakın tepeden: 1.8 km sapma)": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) → veri-kaynak/d_bugunku_sinirlar.geojson (D-GEOARAC); tepe aralığı medyan 2,06 km · kesim 0-165 km (uzunluktan)": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) → veri-kaynak/d_bugunku_sinirlar.geojson (D-GEOARAC); tepe aralığı medyan 2,06 km · kesim 192-212 km (uzunluktan)": 1,
+      "IBS No.160 (ABD Disisleri, 1977) + 1973 Avustralya-Endonezya Anlasmasi ek koordinatlari (B3, MM11-14, Fly kesisimleri) - 1923 hatti icin VEKIL, bkz. degisti": 1,
+      "IBS No.160 (ABD Disisleri, 1977) + 1973 Avustralya-Endonezya Anlasmasi ek koordinatlari (C1, MM1-10) - 1923 hatti icin VEKIL, bkz. degisti": 1,
+      "IBS 103 metninden düz hat (NE batı ucu → IBS nokta 2)": 1,
+      "hesap: 1913 md.5 yarım dairesi (40 mil) · nokta 2'den (IBS 103) NE kara maskesinin kıyısına": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) — kullanılabilirliği 'değişmedi' dayanağına bağlı — nokta 2 → H ara köşeleri; uçlar IBS 103": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) — kullanılabilirliği 'değişmedi' dayanağına bağlı — EGY ile İsrail+Gazze birleşik": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) — kullanılabilirliği 'değişmedi' dayanağına bağlı — JOR ile İsrail+Batı Şeria birleşik; en uzun parça": 1,
+      "Natural Earth 10m admin-0 (bugünkü sınır) — kullanılabilirliği 'değişmedi' dayanağına bağlı — kuzey uçtan taş 233'e kadar": 1
+    }
+  }
+}

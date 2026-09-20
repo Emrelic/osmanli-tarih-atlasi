@@ -1,0 +1,528 @@
+{
+ "gorev": "GLM-5 · KUNYESIZ-TARAF",
+ "betik": "glm/kunyesiz_taraf.py",
+ "kaynak_liste": "glm/D1923-OLCUM.json kapsam.d_kaydinda_gecip_kunyesi_olmayan_taraf_idleri",
+ "kunya_evreni": 665,
+ "gun": "1923-10-29",
+ "tanimlar": {
+  "aday": "harita: birebir > ad tam ifade > ad tüm anlamlı kelime (≥4 harf) > tek anahtar kelime (≥5 harf); norm düzleminde (ARAC-NORMAL-0903)",
+  "pencere_1923": "f <= 1923-10-29 <= t (pencere ucu GÜNÜ DAHİL — M-4656)",
+  "uydurma": "YOK — yalnız mevcut künyeler arasında aday; künye yazılmaz"
+ },
+ "taraf_iktibas": "D katmanı kullanım sayısı d_sinirlar*.js metninde \"<id>\" geçişidir (taraflar dizisi + olası not geçişleri)",
+ "tarflar": {
+  "belcika-kongo": {
+   "d_kullanim": 5,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 5
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "belcika": {
+     "ad": "Belçika Krallığı",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1830-10-04",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "el-salvador-cumhuriyeti": {
+   "d_kullanim": 2,
+   "d_dosyalar": {
+    "d_sinirlar_amerika.js": 2
+   },
+   "adaylar": {},
+   "kismi_bag": {},
+   "sonuc": "bulunamadı"
+  },
+  "fransiz-bati-afrika": {
+   "d_kullanim": 6,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 6
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "cezayir-fransiz": {
+     "ad": "Fransız Cezayir İşgali",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1830-07-05",
+     "t": "1962-07-05",
+     "pencere_1923_kapsiyor": true
+    },
+    "fransiz-cinhindi": {
+     "ad": "Fransız Çinhindi (Indochine française)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1859-02-17",
+     "t": "1954-07-21",
+     "pencere_1923_kapsiyor": true
+    },
+    "suriye-lubnan-mandasi": {
+     "ad": "Fransız Suriye-Lübnan Manda İdaresi",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "fransiz-guyanasi": {
+     "ad": "Fransız Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1817-01-01",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "fransiz-kamerun-mandasi": {
+     "ad": "Fransız Kamerunu (Fransız Mandası)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1922-07-20",
+     "t": "1960-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "fransiz-ekvator-afrikasi": {
+   "d_kullanim": 7,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 7
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "cezayir-fransiz": {
+     "ad": "Fransız Cezayir İşgali",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1830-07-05",
+     "t": "1962-07-05",
+     "pencere_1923_kapsiyor": true
+    },
+    "fransiz-cinhindi": {
+     "ad": "Fransız Çinhindi (Indochine française)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1859-02-17",
+     "t": "1954-07-21",
+     "pencere_1923_kapsiyor": true
+    },
+    "suriye-lubnan-mandasi": {
+     "ad": "Fransız Suriye-Lübnan Manda İdaresi",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "fransiz-guyanasi": {
+     "ad": "Fransız Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1817-01-01",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "fransiz-kamerun-mandasi": {
+     "ad": "Fransız Kamerunu (Fransız Mandası)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1922-07-20",
+     "t": "1960-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "ingiliz-altin-kiyisi": {
+   "d_kullanim": 2,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 2
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "ingiliz-hindistani": {
+     "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1757-06-23",
+     "t": "1947-08-15",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-malaya": {
+     "ad": "İngiliz Malaya",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1826-01-01",
+     "t": "1957-08-31",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-kuzey-amerika": {
+     "ad": "İngiliz Kuzey Amerika (Kanada)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1763-02-10",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "filistin-mandasi": {
+     "ad": "İngiliz Filistin Mandası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1948-05-14",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-guyanasi": {
+     "ad": "İngiliz Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1831-01-01",
+     "t": "1966-05-26",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-sudani": {
+     "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1899-01-19",
+     "t": "1956-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "ingiliz-hondurasi": {
+   "d_kullanim": 2,
+   "d_dosyalar": {
+    "d_sinirlar_amerika.js": 2
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "ingiliz-hindistani": {
+     "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1757-06-23",
+     "t": "1947-08-15",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-malaya": {
+     "ad": "İngiliz Malaya",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1826-01-01",
+     "t": "1957-08-31",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-kuzey-amerika": {
+     "ad": "İngiliz Kuzey Amerika (Kanada)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1763-02-10",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "filistin-mandasi": {
+     "ad": "İngiliz Filistin Mandası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1948-05-14",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-guyanasi": {
+     "ad": "İngiliz Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1831-01-01",
+     "t": "1966-05-26",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-sudani": {
+     "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1899-01-19",
+     "t": "1956-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "ingiliz-kuzey-rodezya": {
+   "d_kullanim": 8,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 8
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "ingiliz-hindistani": {
+     "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1757-06-23",
+     "t": "1947-08-15",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-malaya": {
+     "ad": "İngiliz Malaya",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1826-01-01",
+     "t": "1957-08-31",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-kuzey-amerika": {
+     "ad": "İngiliz Kuzey Amerika (Kanada)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1763-02-10",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "filistin-mandasi": {
+     "ad": "İngiliz Filistin Mandası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1948-05-14",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-guyanasi": {
+     "ad": "İngiliz Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1831-01-01",
+     "t": "1966-05-26",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-sudani": {
+     "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1899-01-19",
+     "t": "1956-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "ingiliz-nyasaland": {
+   "d_kullanim": 2,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 2
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "ingiliz-hindistani": {
+     "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1757-06-23",
+     "t": "1947-08-15",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-malaya": {
+     "ad": "İngiliz Malaya",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1826-01-01",
+     "t": "1957-08-31",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-kuzey-amerika": {
+     "ad": "İngiliz Kuzey Amerika (Kanada)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1763-02-10",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "filistin-mandasi": {
+     "ad": "İngiliz Filistin Mandası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1948-05-14",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-guyanasi": {
+     "ad": "İngiliz Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1831-01-01",
+     "t": "1966-05-26",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-sudani": {
+     "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1899-01-19",
+     "t": "1956-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "ingiliz-siyera-leon": {
+   "d_kullanim": 4,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 4
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "ingiliz-hindistani": {
+     "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1757-06-23",
+     "t": "1947-08-15",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-malaya": {
+     "ad": "İngiliz Malaya",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1826-01-01",
+     "t": "1957-08-31",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-kuzey-amerika": {
+     "ad": "İngiliz Kuzey Amerika (Kanada)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1763-02-10",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "filistin-mandasi": {
+     "ad": "İngiliz Filistin Mandası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1920-07-01",
+     "t": "1948-05-14",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-guyanasi": {
+     "ad": "İngiliz Guyanası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1831-01-01",
+     "t": "1966-05-26",
+     "pencere_1923_kapsiyor": true
+    },
+    "ingiliz-sudani": {
+     "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1899-01-19",
+     "t": "1956-01-01",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "newfoundland-dominyonu": {
+   "d_kullanim": 1,
+   "d_dosyalar": {
+    "d_sinirlar_amerika.js": 1
+   },
+   "adaylar": {},
+   "kismi_bag": {},
+   "sonuc": "bulunamadı"
+  },
+  "osmanli": {
+   "d_kullanim": 24,
+   "d_dosyalar": {
+    "d_sinirlar.js": 16,
+    "d_sinirlar_komsu.js": 3,
+    "d_sinirlar_ortadogu.js": 5
+   },
+   "adaylar": {
+    "misir-eyaleti": {
+     "ad": "Osmanlı Mısır Eyaleti",
+     "neden": "ad tam ifade içeriyor",
+     "f": "1517-04-13",
+     "t": "1805-07-03",
+     "pencere_1923_kapsiyor": false,
+     "harita": null,
+     "bolge": "misir-sudan"
+    },
+    "sirbistan-eyaleti": {
+     "ad": "Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)",
+     "neden": "ad tam ifade içeriyor",
+     "f": "1459-06-20",
+     "t": "1804-02-14",
+     "pencere_1923_kapsiyor": false,
+     "harita": null,
+     "bolge": "balkanlar"
+    }
+   },
+   "kismi_bag": {},
+   "sonuc": "aday: misir-eyaleti, sirbistan-eyaleti"
+  },
+  "portekiz-angola": {
+   "d_kullanim": 5,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 5
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "portekiz": {
+     "ad": "Portekiz Krallığı",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1139-07-25",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "portekiz-brezilyasi": {
+     "ad": "Portekiz Brezilyası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1549-01-01",
+     "t": "1822-09-07",
+     "pencere_1923_kapsiyor": false
+    },
+    "portekiz-mozambik": {
+     "ad": "Portekiz Mozambiği (Portekiz Doğu Afrikası)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1505-01-01",
+     "t": "1975-06-25",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  },
+  "portekiz-gine": {
+   "d_kullanim": 2,
+   "d_dosyalar": {
+    "d_sinirlar_afrika.js": 2
+   },
+   "adaylar": {},
+   "kismi_bag": {
+    "portekiz": {
+     "ad": "Portekiz Krallığı",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1139-07-25",
+     "t": "1923-10-29",
+     "pencere_1923_kapsiyor": true
+    },
+    "portekiz-brezilyasi": {
+     "ad": "Portekiz Brezilyası",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1549-01-01",
+     "t": "1822-09-07",
+     "pencere_1923_kapsiyor": false
+    },
+    "portekiz-mozambik": {
+     "ad": "Portekiz Mozambiği (Portekiz Doğu Afrikası)",
+     "neden": "ilk kelime eşit — ana devlet ya da kardeş koloni (aday DEĞİL)",
+     "f": "1505-01-01",
+     "t": "1975-06-25",
+     "pencere_1923_kapsiyor": true
+    }
+   },
+   "sonuc": "bulunamadı"
+  }
+ },
+ "abd_ikut_amerika_kanada": {
+  "abd": {
+   "kunya_var": true,
+   "ad": "Amerika Birleşik Devletleri",
+   "f": "1776-07-04",
+   "t": "1923-10-29",
+   "pencere_1923_kapsiyor": true,
+   "d_kullanim": 29,
+   "d_dosyalar": {
+    "d_sinirlar_amerika.js": 29
+   }
+  },
+  "ingiliz-kuzey-amerika": {
+   "kunya_var": true,
+   "ad": "İngiliz Kuzey Amerika (Kanada)",
+   "f": "1763-02-10",
+   "t": "1923-10-29",
+   "pencere_1923_kapsiyor": true,
+   "d_kullanim": 8,
+   "d_dosyalar": {
+    "d_sinirlar_amerika.js": 8
+   }
+  },
+  "kanada": {
+   "kunya_var": true,
+   "ad": "Kanada Dominyonu",
+   "f": "1867-07-01",
+   "t": "1923-10-29",
+   "pencere_1923_kapsiyor": true,
+   "d_kullanim": 9,
+   "d_dosyalar": {
+    "d_sinirlar_amerika.js": 9
+   }
+  }
+ },
+ "not_ikili": "M-4665(önceki GLM-1 ek): abd×ingiliz-kuzey-amerika sınırının D kaydı taraf adı 'kanada'dır — künye penceresi farkı çifti kayıtsız gösterebilir; hüküm koordinatörün"
+}
