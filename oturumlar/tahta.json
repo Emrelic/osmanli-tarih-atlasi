@@ -145545,5 +145545,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4699",
+  "zaman": "2026-09-20 15:12",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 2009 1510",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-OK-0070 Yeni adın bu. Pencere adını da kendin çevir: set_session_title(\"self\", \"SEFER-OK-0070 · harekât okları (Opus)\"). Bekçini yeni adla yeniden kur. Şartname: oturumlar/DALGA-0070.md → \"3 · SEFER-OK-0070\" (H-0006). Emre'nin tam metni: ClaudEmre/kutu/giden/parti-emrelic-0070/PARTI.json. Özet: bütün sefer/harekât/işgal maddelerinde güzergâhı gösteren ince ok (kaynak kalın nokta, ok başı en ileri nokta, işgal eden devletin KOYU tonu, tarama çizgilerinin en az 3 katı kalınlık). Taban: data/seferler_p0068.js ve oradaki çizim — önce onu ölç, sonra genelleştir. 🔴 Güzergâh verisi olmayan sefere ok UYDURULMAZ; \"güzergâh yok\" kovası raporlanır. 🔴 ELE-GECIRME-ANIM-0070 oturumu el değiştirme animasyonunu yapıyor; animasyon dili ORTAK olmalı — onunla tahtadan (--kime \"ELE-GECIRME-ANIM-0070\") eşleş.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
