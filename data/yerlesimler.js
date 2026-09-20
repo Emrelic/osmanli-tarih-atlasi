@@ -1187,7 +1187,7 @@ window.YERLESIMLER = [
 { ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"merini"},{f:"1471-08-28",t:"1662-01-30",d:"portekiz",enklav:true},{f:"1662-01-30",t:"1684-02-05",d:"ingiltere",enklav:true},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
 { ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1505-01-01",d:"merini"},{f:"1505-01-01",t:"1541-03-12",d:"portekiz",enklav:true},{f:"1541-03-12",t:"1659-01-01",d:"sadi",kaynak:"TDV sadiler/fas: '1541'de Agādîr'i ele geçirdi' (Sa'dî Muhammed eş-Şeyh — Vattâsî/merini DEĞİL) · gün: ISPRS Archives XLIV-M-1-2020, s. 1111: 'On 12 March 1541, the Saadians … defeated the Portuguese forces' · KRONO-2S-3 19 Eyl 2026"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
 // ---- KARADAĞ ----
-{ ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01", kasitli_bosluk:true,bos:"hata",
+{ ad:"Cetinje", kd:[{f:"1499-01-01",t:"1514-01-01",k:4,m:"İşkodra"},{f:"1697-01-01",t:"1923-10-29",k:0,m:null}], tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01", kasitli_bosluk:true,bos:"hata",
     s:[{f:"1697-01-01",t:"1918-11-26",d:"karadag"},{f:"1918-11-26",t:"1923-10-29",d:"yugoslavya"}], d:[{f:"1499-01-01",t:"1697-01-01"}],
     v:[{f:"1482-01-01",t:"1499-01-01",k:"Crnojeviç Zetası (Osmanlı tâbii)",statu:"vassal",kid:"zeta"}] },
 // ---- SAHİPSİZ BÖLGE NOKTALARI ----

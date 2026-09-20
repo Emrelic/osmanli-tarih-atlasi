@@ -98,6 +98,13 @@ daha geniş evrende sorar.
 - **3 — tarih × yerleşim × petek × bölge çelişmez** (henüz sağlanmıyor). Kusurun %93'ü `m:`
   alanının **zaman penceresi** eksikliği (`kd:` çözer); ~%1'i eksen kusuru ve `kd:` onu
   çözmez. `OSMANLI` ile `tâbi` çelişki SAYILMAZ.
+  🔴 **`kd:` yalnız BU ÖLÇÜMÜ değiştirir — motor `kd:`yi OKUMAZ.** Ölçüldü (20 Eylül 2026,
+  KD-ZAMAN-0920): `uret_petek.py`de `kd` geçen satır **0**; `kd_oku`/`kd_gun`u çağıran tek
+  dosya `denetle.py`. `m:` motorda yalnız `k12_merkez` ve BÖLGELER katmanındadır, motorun
+  kendi yorumu "toprak boyaması etkilenmiyor" der (`uret_petek.py:1051`). ⇒ Gövde
+  çakışması / üst üste binme `kd:` ile DÜŞMEZ ve koşu istemez; o kusur
+  `donemler.js` + `devletler_harita.js` gövdelerindedir. İki kusur sınıfı tek cümleyle
+  anılırsa bir oturum 40 dakikalık koşuyu boşa ister — bir kez tam bu oldu.
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`
