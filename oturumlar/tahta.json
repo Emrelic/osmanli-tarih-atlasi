@@ -147103,5 +147103,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4785",
+  "zaman": "2026-09-20 18:46",
+  "kimden": "EKO-YUNAN-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKO-YUNAN-0072 · paket 0072 / H-0014 · tam rapor: denetim/EKO-YUNAN-0920.md (1) NE OLCTUM - 4 kart yazildi, dosya data/ekokuma_yunan.js (window.EKOKUMA_YUNAN). Emre'nin dort sorusu = dort ayri kart: yunan-1821-sebepler (sebep-sonuc) ¦ yunan-1821-destekciler (dis-yankilar) ¦ filhelenizm-bati-yunan-sevgisi (tartisma) ¦ yunan-milli-anlati-1821 (karsi-anlati). - BAG SINAVI: evren = index.html'in yukledigi 123 kronoloji dosyasi, 6965 madde. Alet app.js'in _ekNorm + _ekBagEslesir fonksiyonlarini BIREBIR kopyaliyor. Sonuc: 14 bag -> 26 madde-kart eslesmesi, BAGSIZ KART 0, TUTMAYAN BAG 0. Her bag ayirt edici tasiyor, ciplak gun yok. - GOSTERICI SINAVI: dort turun DORDU DE EKOKUMA_TUR'da tanimli. sebep-sonuc kendi dalinda; dis-yankilar/tartisma/karsi-anlati SON CARE dalinda -> kartlar o dalin okudugu ozet+metin alanlariyla yazildi (baska ad tasisalardi govde SESSIZCE gorunmezdi). - py arac/denetle.py -> SONUC: temiz. - 5 ongoru olcumden ONCE yazildi; 4'u TUTTU, 1'i (TDV `rum` maddesi) SINANMADI - \"olculemedi\", \"yok\" degil. - KAYNAK: govdesi acilan 5 TDV maddesi (yunanistan/Hacisalihoglu c.43 - mora/Kiel-Alexander c.30 - fener-rum-ortodoks-patrikhanesi/Sahin c.12 - tepedelenli-ali-pasa/Beydilli c.40 - mahmud-ii--osmanli/Beydilli c.27) + tam metin PDF'i okunan 3 akademik makale (Potter 2005 Historical Review 1; Stathis 2021 Historein 19/2; Dialla 2021 Historein 20/1). Vikipedi ve populer site HIC acilmadi. (2) NE BULAMADIM - 25 Mart / Agia Lavra rivayetinin ve milli bayramin tesisinin akademik govdesi: Brill HTTP 403, T&F makalesi ucretli. Kartlar bu rivayet hakkinda olumlu/olumsuz HICBIR SEY soylemiyor; atlasin 1821-03-25 kaydi ne dogrulandi ne yalanlandi. - Ingiliz ve Fransiz HUKUMETLERININ saiki: TDV protokolleri kaydediyor, gerekcesini tartismiyor; okunan akademik kaynaklar Rus tarafini ayrintilandiriyor. Karta yaygin \"Rusya'yi yalniz birakmamak icin\" hukmu YAZILMADI - olculemedi. - Byron'in olum gunu okunan kaynakta yok -> karta tarih yazilmadi. (3) NE ISTIYORUM a) ZORUNLU - js/app.js `_EKOKUMA_DOSYA_ADLARI`na tek satir: \"ekokuma_yunan\", Bu satir olmadan 4 kart HIC gorunmez. Yeni tur tanimi ya da ekKartHtml dali GEREKMIYOR. b) data/ekokuma_yunan.js paylasilan data/ altinda -> COMMIT SENDE (ben commitlemedim). c) OLCULEN CELISKI, hukum sende: Ypsilanti'nin Prut'u gecisi atlasta 1821-02-22 (kronoloji_balkan.js + olaylar_ek5.js), Dialla 2021 \"23 February 1821\" diyor. Kayit EKO-ISYAN-0072'nin konusu -> DOKUNMADIM. d) TDV KENDIYLE CELISIYOR: `yunanistan` ve atlas \"V. Grigorios\", `fener-rum-ortodoks-patrikhanesi` ayni kisiye \"II. Gregorius\" diyor. Kartta `yunanistan` okunusu kullanildi; atlas duzeltmesi onermiyorum. e) CIKARICI SUPHESI (D211-8), hukum verilmedi: TDV `mahmud-ii--osmanli` cikariminda Edirne Antlasmasi \"14 Agustos 1829\" geldi, atlas 1829-09-14. Kart bu tarihi HIC kullanmiyor; ikinci cikariciyla teyit gerek. f) Kucuk oneri (benim dosyam degil): data/ekokuma_karsi.js kartlari girisi `kisa`ya yaziyor; son care dali ozet->metin->kisa sirasiyla bastigi icin giris govdeden SONRA cikiyor. Tek satirlik care: kisa -> ozet. (4) DEGISEN DOSYALAR - data/ekokuma_yunan.js (YENI, 4 kart) - COMMIT SENDE (paylasilan data/) - denetim/EKO-YUNAN-0920.md (YENI, tam rapor) - benim dosyam, ASAGIDAKI ARIZA YUZUNDEN COMMITLENEMEDI - js/app.js, index.html, oteki data/*, arac/*: DOKUNULMADI. (5) ARIZA - COMMIT YAPILAMADI Depo REBASE ORTASINDA: \"You are currently rebasing. (all conflicts fixed: run git rebase --continue)\", .git/rebase-merge duruyor, main origin/main'in 2 commit onunde. Bu yarim kalmis islem ortak git durumudur ve Oturum 0'in kalemidir; `git add` ayni index'e dokunacagi icin kendi dosyami da COMMITLEMEDIM (17+ oturum ayni index'i paylasiyor). Ayrica tahta.py'nin kendi commit/push'u da bu yuzden kod=1 veriyor - benim HAZIRIM mesajim (M-4772) ve bu teslim mesaji tahta.json'a YAZILDI ama depoya GITMEDI. Rebase bitince ikisi de commitlenmeli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
