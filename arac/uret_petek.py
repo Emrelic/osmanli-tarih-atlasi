@@ -3417,6 +3417,56 @@ for _k in _komp:
 print(f"  {_tasan} taşma kesildi, {_yalitilan} boşta kalan parça içerideki yerleşime verildi")
 print(f"  A1 tavanı ada kuralında: {_tavan_tuttu:,.1f} birim² HİÇ verilmedi · "
       f"{_tavan_kesti:,.1f} birim² kısmen kesildi")
+# ── Ⓑ BANTLARA DA AYNI ADA KURALI ────────────────────────────────────────
+# 🔴 NİÇİN BANDA DA UYGULANIR: `_BANT_HAM[b]` bir "eksik petek listesi"
+#    DEĞİL, o bütçedeki TAM ÖRTÜdür (her peteğin b bütçesiyle kesilmiş
+#    hâli). Ada kuralının iki adımı da bu örtü üzerinde AYNEN anlamlıdır:
+#    ① kendi kara parçasının dışına taşan pay kesilir ② boşta kalan pay
+#    parçanın İÇİNDEKİ en yakın yerleşime, onun tavanı kadarıyla verilir.
+# ⚠️ ②'nin "boşta kalan"ı bandın KENDİ örtüsüne göredir — tabanınkine göre
+#    değil. Taban örtüsüne göre hesaplasaydık bant, kendisinde olmayan bir
+#    boşluğu doldurmuş olurdu.
+# 📌 Ölçülen artık (bantlar bu aşamadan geçmezken): 3 petek, 805 km².
+#    Çöl tavanınınkinin (66.686 km²) yanında küçük, ama kural ikiye
+#    ayrılmasın diye kapatılıyor — 1.MURAT'ın hükmü de bu.
+if _BANT_HAM:
+    _bad_tasan = _bad_yalitilan = 0
+    for _bb in _BANT_HAM:
+        _BPD = _BANT_HAM[_bb]
+        for _k in _komp:
+            if _k.is_empty or _k.area < 1e-7:
+                continue
+            _ic = [int(i) for i in _pagac.query(_k) if _k.intersects(_ptl[int(i)])]
+            if not _ic:
+                continue
+            _icset = set(_ic)
+            for _j in [int(i) for i in range(len(_BPD)) if i not in _icset]:
+                _gj = _BPD[_j]
+                if _gj is None or _gj.is_empty or not _gj.intersects(_k):
+                    continue
+                _yeni = poligonal(_gj.difference(_k))
+                if not _yeni.equals(_gj):
+                    _BPD[_j] = _yeni
+                    _bad_tasan += 1
+            _dolu = unary_union([_BPD[i] for i in _ic
+                                 if _BPD[i] is not None]) if _ic else None
+            _bos = poligonal(_k.difference(_dolu)) if _dolu is not None else _k
+            if _bos.is_empty or _bos.area <= 1e-9:
+                continue
+            for _pp in (_bos.geoms if _bos.geom_type == "MultiPolygon" else [_bos]):
+                if _pp.is_empty:
+                    continue
+                _en = min(_ic, key=lambda i: _ptl[i].distance(_pp))
+                # Bandın kendi bütçesiyle kesilir — taban bütçesiyle DEĞİL.
+                _pay = (_yr_kes(_pp, _en, bant=_bb) if MOTOR_YURUYUS
+                        else _pp.intersection(TAVAN_DAIRE[_en]))
+                if _pay.is_empty or _pay.area <= 1e-12:
+                    continue
+                _onceki = _BPD[_en] if _BPD[_en] is not None else Polygon()
+                _BPD[_en] = poligonal(unary_union([_onceki, _pay]))
+                _bad_yalitilan += 1
+    print(f"  Ⓑ bant ada kuralı: {_bad_tasan} taşma kesildi, "
+          f"{_bad_yalitilan} boşta kalan pay verildi ({len(_BANT_HAM)} bütçe)")
 # 🔴 AŞAMA SONDASI — korunum ② bütün aralığı ölçüyor ama HANGİ aşama olduğunu
 # söylemiyordu; koşu 5'te "Ada kuralı mı devret mi" sorusu ELLE ayrıldı.
 # Bir daha ayrılmasın diye sonda buraya kondu. (📌 "Denetim var ≠ o soruyu
@@ -3957,6 +4007,45 @@ if COL is not None:
     print(f"  {_tv_n} petek kısaldı, toplam {_tv_alan:,.0f} km² sahipsizleşti"
           + (f" · {_tv_muaf} petek su koridoru muafiyetiyle KESİLMEDİ"
              if COL_MUAF_YERLESIM_BAZLI else ""))
+    # ── Ⓑ BANTLARA DA AYNI TAVAN ─────────────────────────────────────────
+    # 🔴 ÖLÇÜLDÜ, SONRA YAZILDI (`denetim/B-GORUNUM-0072-BANT.md` §5.4):
+    #    bant ham kesimi bu aşamadan geçmediğinde 10 günlük ufukta
+    #    **66.686 km² (%1,317)** fazla çöl taşıyordu. 5 ve 7 günde fark
+    #    %0,005 — ama kural bütçeye göre DEĞİŞMEMELİ: bant ile taban AYNI
+    #    boru hattından geçmezse "5-7 bandındaki toprak" ile "tabandaki
+    #    toprak" farklı kural görmüş olur ve bunu hiçbir denetim sormaz.
+    # ⚠️ AYNI İŞLEV, AYNI KAPILAR: `_col_kes_hesap` ve muafiyet sınavı
+    #    yukarıdaki döngüden birebir kopyalanmadı — aynı çağrılar kullanıldı.
+    #    Taban yoluna HİÇ dokunulmuyor (bu blok `_BANT_HAM` üzerinde çalışır)
+    #    ⇒ bant kapalıyken çıktı yapısal olarak değişmez.
+    if _BANT_HAM:
+        _btv_n, _btv_alan = 0, 0.0
+        for _bb in _BANT_HAM:
+            for _i in range(len(_BANT_HAM[_bb])):
+                _g = _BANT_HAM[_bb][_i]
+                if _g is None or _g.is_empty:
+                    continue
+                if not _colp.intersects(_g):
+                    continue
+                _y = YERLER[_i]
+                if COL_MUAF_YERLESIM_BAZLI and _SU_TAMPON is not None \
+                        and _SU_TAMPON.contains(Point(_y["lon"], _y["lat"])):
+                    continue
+                _ck = (_ONB.anahtar("col", _ONB_COL_TUZ, _onb_oz(_g),
+                                    f"{_y['lon']!r},{_y['lat']!r}")
+                       if _ONB.acik else None)
+                _cvar, _cv = _ONB.oku("col", _ck) if _ck else (False, None)
+                if not _cvar:
+                    _cv = _col_kes_hesap(_g, _y)
+                    if _ck:
+                        _ONB.yaz("col", _ck, _cv)
+                if _cv[0] in ("gec", "yok_etti"):
+                    continue
+                _BANT_HAM[_bb][_i] = _cv[1]
+                _btv_n += 1
+                _btv_alan += _cv[2]
+        print(f"  Ⓑ bant tavanı: {_btv_n} bant-petek kısaldı, "
+              f"{_btv_alan:,.0f} km² ({len(_BANT_HAM)} bütçe)")
     # ⚠️ Yerleşim bazlı muafiyet VERİYE bağlı bir güvence: muaf bir noktanın
     # erişimi ilkece sınırsız. Bugün azami 346 km ama yeni bir su kenarı çöl
     # noktası bunu sessizce büyütebilir. Bu yüzden HER KOŞUDA raporlanıyor.
