@@ -44,23 +44,23 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **3808** nokta, 77 girdi dosyası |
-| Kronoloji | **1300** madde · 1238 duygu etiketli · 1202 `yer_id` · 28 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 3808 yerleşim, 314 sahipsiz (beklenen 314) |
-| Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 5/5 — tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 520 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 1327 YABANCI kırılması · 104 AÇIK (tavan 121) · 364 KAPSAM DIŞI |
-| Değişmez 2i — işgal senkronu | ✓ 62 İŞGAL kırılması, 3 açık (tavan 3) |
-| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 12 (tavan 42) — bilinen borç |
+| Yerleşim (motorun okuduğu) | **3921** nokta, 87 girdi dosyası |
+| Kronoloji | **1688** madde · 1355 duygu etiketli · 1524 `yer_id` · 28 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 3921 yerleşim, 299 sahipsiz (beklenen 324) |
+| Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 6/6 — tam tarama |
+| Değişmez 2 — Osmanlı senkronu | ✓ 587 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 1418 YABANCI kırılması · 192 AÇIK (tavan 201) · 590 KAPSAM DIŞI · 149 YIL-TEMSİLÎ BORÇ |
+| Değişmez 2i — işgal senkronu | ✓ 125 İŞGAL kırılması, 1 açık (tavan 3) |
+| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 1 (tavan 42) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **627** künye · **579** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 77 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
-| Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 2 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
+| Devletler dizini | **677** künye · **602** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 87 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
+| Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 30 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
 | Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
-| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik veride kullanılıyor ama BOYANMIYOR · 🟡 39 sessiz borç (künye var, veride yok) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `__BOSLUK__` muaf* |
+| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **15** hiçbir yerde (gerçek sessiz borç) · ⚪ 38 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 13 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 9 sınır · 124 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r7487** · `a00592d` |
+| Yayın | **r9255** · `c14c7e5` |
 
 **Elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py` · `--yaz`
 (§1.5'i günceller). Güvenmeden önce koştur; bayat tabloyla kabul ölçütü kurulmaz.
