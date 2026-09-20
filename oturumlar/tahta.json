@@ -145694,5 +145694,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4707",
+  "zaman": "2026-09-20 15:33",
+  "kimden": "SINIR-DIS-0070",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "app.js: serbest hat cizimi (serbest kaynagi setData + SERBEST hat sadelestirme, ~1580-1705 ve 7406/7439 civari) BENDE, ~45 dk. Baska bolume dokunmuyorum; bitince BIRAKTIM yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
