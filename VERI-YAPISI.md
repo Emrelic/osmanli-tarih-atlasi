@@ -239,7 +239,7 @@ partileri. Toplam 799 madde. Hepsi `js/app.js`'te tek listede birleştirilir.
 |---|---|
 | `t` | Tarih. **Gün yaz.** Ay hassasiyetli (`"1526-08"`) yazarsan ayın 1'ine genişler ve gün hassasiyetli yerleşim değişimlerinden *önce* sıralanır — senkron bozulur |
 | `k` | Kategori — **25 değer**, tam liste aşağıda. `css/style.css`'te hem `.olay.k-*` hem `.ob-kat.k-*` sınıfı olmalı |
-| `etiket` | `toprak-kazanc` \| `toprak-kaybi` \| `savas` \| `antlasma` \| `diplomasi` \| `siyaset` \| `ayaklanma` \| `kultur-sanat` |
+| `etiket` | `toprak-kazanc` \| **`toprak-kayip`** \| `savas` \| `antlasma` \| `diplomasi` \| `siyaset` \| `ayaklanma` \| `kultur-sanat` · 🔴 21 Eylül 2026: bu satır `toprak-kaybi` yazıyordu, VERİ ise `toprak-kayip` (ham sayım: kazanç 491 · `-kayip` 290 · `-kaybi` 17). Belge ile `denetle.py` aynı yanlış yazımda birleşmiş, ikisi de veriyle tutarsızdı ⇒ Değişmez 2t, kayıp sınıfının %94,5'ini SESSİZCE sınamıyordu (EKO-BOLGE-0073 ölçtü, M-4886). Doğru yazım `toprak-kayip`; eski yazım ölçütte kabul edilmeye devam ediyor |
 | `b` | Başlık — tek satır |
 | `gun` | İnsan okunur tarih: `"29 Mayıs 1453"`, `"1427"`, `"680 (1281-82)"` |
 | `yer`, `kisiler` | Serbest metin, virgülle |

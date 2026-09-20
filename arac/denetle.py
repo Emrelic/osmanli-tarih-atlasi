@@ -1641,12 +1641,28 @@ def _madde_yeri_aniyor(baslik, adlar):
 # devrediyor; `etiket:` alanlarında `toprak-*` YOK. Yani ölçüt doğru, GİRDİSİ
 # eksik. Bu bir etiket borcudur ve içerik oturumunun işidir — ölçütü onlara
 # uydurmak (yani `k:`e geri dönmek) ittifak sınıfını geri getirirdi.
+# 🔴 21 Eylül 2026 — EKO-BOLGE-0073 KÖR NOKTA ÖLÇTÜ (M-4886): bu ölçüt
+# `toprak-kaybi` arıyordu, VERİ ise `toprak-kayip` yazıyor. Ham sayım:
+# `toprak-kazanc` 491 · `toprak-kayip` 290 · `toprak-kaybi` 17.
+# ⇒ Değişmez 2t, toprak KAYBI sınıfının 307 maddesinden yalnız 17'sini
+# sınıyordu; 290 madde (%94,5) ölçütün dışında, SESSİZCE. Kazanç tarafı sağlam.
+# Belge (VERI-YAPISI.md) ve denetim aynı yanlış yazımda birleşmişti — ikisi
+# birbiriyle tutarlı, VERİYLE tutarsız. "Denetim var ≠ o soruyu soruyor."
+#
+# DÜZELTME SIRASI: önce etki ÖLÇÜLDÜ, sonra ölçüt genişletildi — defterin var
+# olma sebebi bu. ÖLÇÜM (EKO-BOLGE, denetim/EKO-BOLGE-2T-YAZIM-0921.json,
+# aleti denetle.py'yi MODÜL olarak yükleyip girdileri main() ile birebir kurar):
+#     2t bugünkü ölçütle           =  1  (tavan 42)
+#     2t `toprak-kayip` eklenince  = 11  (tavan 42 — AŞILMIYOR)
+#     görünmeyen borç = 10 madde · kayıp×6 · antlaşma×2 · siyaset×1 · ?×1
+# Eski yazım (`toprak-kaybi`, 17 kayıt) KABUL EDİLMEYE DEVAM EDİYOR; veriyi tek
+# yazıma çekmek 290 kayda dokunmak demekti ve mükerrer riski taşıyordu.
 def _toprak_iddiasi(o):
     """Madde toprak değişimi İDDİA EDİYOR mu? — `etiket:`ten okunur."""
     e = o.get("etiket") or []
     if not isinstance(e, list):
         e = [x.strip() for x in str(e).split(",")]
-    return "toprak-kazanc" in e or "toprak-kaybi" in e
+    return "toprak-kazanc" in e or "toprak-kaybi" in e or "toprak-kayip" in e
 
 
 
@@ -2914,6 +2930,19 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI İŞGALİN İKİ TESLİM GÜNÜ" — 20 Eylül 2026, SEFER-OK-0070
+    # (NAPOLYON-MISIR-0070, koordinatör hükmü M-4735). `olaylar_misir1801.js`
+    # inince bir çift doğdu: aynı yıl + ortak başlık kalıbı
+    # ("…'nin Fransızlardan teslim alınması — …'nun kapitülasyonu").
+    # AYRI OLAYLAR ve ölçüsü var: iki ayrı şehir (Kahire · İskenderiye), iki
+    # ay arayla (27 Haziran · 31 Ağustos 1801), iki ayrı kumandanın imzası
+    # (Belliard · Menou) ve VERİDE İKİ AYRI `isg:` KIRILMASI — zaten o iki
+    # kırılmanın maddesiz kalması (Değişmez 2i 3/3) yüzünden yazıldılar.
+    # 📌 Kalıbın kendisi kusur değil: iki teslim aynı cümleyle anlatılır,
+    #    çünkü aynı cinsten olaylardır. Mükerrer avcısının sorduğu soru
+    #    ("aynı şeyi mi anlatıyor") burada HAYIR.
+    ("Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu",
+     "İskenderiye'nin Fransızlardan teslim alınması — Menou'nun kapitülasyonu"),
     # ⭐ "İŞGAL ile KURTULUŞ · AYNI İSYANIN İKİ ŞEHRİ" — 17 Eylül 2026, KOSU13-YAMA.
     # `olaylar_p0917dunya.js` inince iki çift doğdu (başlık kalıbı + aynı yıl):
     #   Bitlis 1916-03-01 Rus İŞGALİ  ↔  1916-08-08 işgalden KURTULUŞ (TDV bitlis:
