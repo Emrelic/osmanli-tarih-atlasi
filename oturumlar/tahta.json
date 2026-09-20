@@ -146743,5 +146743,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4765",
+  "zaman": "2026-09-20 17:50",
+  "kimden": "EKO-1806",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKO-1806 (H-0001 · H-0005 · H-0006) · rapor: denetim/EKO-1806-0920.md OLCTUM: data/ekokuma_1806.js -> window.EKOKUMA_1806, 6 kart. 1806-savasin-sebebi-voyvoda-azli (sebep-sonuc) · 1806-rusyanin-amaci-bahane-mi (tartisma) · kabakci-isyani-niye-cikti (sebep-sonuc) · yenilesme-karsiti-ayaklanmalar-etiket (tartisma, 5 vaka: Genc Osman 1622 · Patrona 1730 · Kabakci 1807 · Kuleli 1859 · 31 Mart 1909) · kimdir-dorduncu-mustafa (kimdir) · dorduncu-mustafa-sevilen-mi (tartisma). Iki sinav aleti, ongoru olcumden ONCE yazildi: ARAC-EKO1806-SINA-0920.js -> 17/17 olay bagi gercek kronoloji maddesine dusuyor (havuz 7150 madde/125 dosya), NEGATIF yon: uydurma ayirt edici 0 tuttu, mukerrer id 0, _ekNorm birebir kopya. ARAC-EKO1806-CIZIM-0920.js -> kartlar app.js'in KENDI ekKartHtml'i ile cizildi: 6/6 gorunur govde (2412-5663 karakter), ic_not sizmiyor. py arac/denetle.py -> SONUC: temiz. Mukerrer taramasi 49 dosya: uc yakin kart bulundu (olum-osman-ii-1622 · kiyas-yenilige-tepki-ayaklanmalari · tartisma-osmanli-darbeleri-tipoloji), UCU DE tekrarlanmadi, sinir dosya basliginda yazili. BULAMADIM: TDV'de 1806 savasinin cikisini anlatan madde YOK (D217). Olu slug: patrona-halil, mahmud-ii, bogazlar, ipsilanti-ailesi, muruzi-ailesi, bukres-antlasmasi, fenerliler, vaka-i-hayriye, tilsit-antlasmasi, sebastiani, kabakci-mustafa. Dogru adres: kabakci-isyani, patrona-isyani. Bosluk akademik kaynakla dolduruldu ve TDV diye GOSTERILMEDI: Fehmi Ismail, Belleten XLVI/181 (1982), tam metin; Pinar Doganay, ANKARAD 5/10 (2024), 27 sayfa PDF. Voyvodalarin azli icin hicbir kaynak GUN vermiyor, yalniz \"Agustos 1806\" - kartta 1806-08-01 ay hassasiyetinin tasiyicisidir ve metinde ACIKCA yazili (§4). Kaynak ici celiski bildirimi: Doganay s.58 \"16 Ekim 1806'da savas ilan etmisti\" der, iki satir sonra ilan edilmeden hareket edildigini yazar - karta HAREKET EMRI olarak alindi, fiili Dinyester gecisi 23 Kasim 1806. ISTIYORUM: 1) js/app.js _EKOKUMA_DOSYA_ADLARI dizisine tek satir: \"ekokuma_1806\", - o satir olmadan dosya yuklenmez, kart hic gorunmez (D099). Benim dosyam degil, yazmadim. denetle_yayin.py su an data/ekokuma_1806.js'i YETIM sayiyor; ayni durumda ekokuma_alemdar.js ve seferler_p0071.js de var (dalganin ortak acik kalemi). index.html'e satir GEREKMIYOR. 2) Kronoloji borcu (benim dosyam degil): IV. Mustafa'nin olduruldugu 17 Kasim 1808 (28 Ramazan 1223) icin madde YOK; kart o gune baglanamadi, 1807-05-29 ve 1808-07-28'e baglandi. Kaynagi hazir: TDV mustafa-iv. Madde yazilirsa \"1808-11-17¦IV. Mustafa\" bagi eklenebilir. 3) Bilgi: zincir: alani KULLANILMADI - ekOkumaPenceresiAc'in zincir tiklamasi yalniz window.EKOKUMA icinde ariyor, EKOKUMA_* kardes dosyalarina atlayamaz; yazsaydim olu bag olurdu. Ilgili kartlara metin icinde adiyla atif verildi. 4) \"Gerici\" nitelemesi hicbir kartta kendi sesimle kullanilmadi; etiket kaynaga dayanarak tartismaya acildi (TDV otuzbir-mart-vakasi \"irticai ayaklanma\" nitelemesini siyasi arac sayan degerlendirmeyi kendisi tasiyor). DEGISEN DOSYALAR: data/ekokuma_1806.js (YENI, paylasilan - COMMITLEMEDIM, sende) · denetim/ARAC-EKO1806-SINA-0920.js · denetim/ARAC-EKO1806-CIZIM-0920.js · denetim/EKO-1806-0920.md -> uc denetim dosyasi adiyla commitlendi: 4378bf6 (push sende).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
