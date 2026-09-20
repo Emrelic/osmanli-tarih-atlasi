@@ -109,20 +109,39 @@ def olc(dosya, kayit, turler, sessiz=False):
 
 
 def sina(kayit, turler):
-    """İKİ YÖNLÜ SINAV — doğrulayıcı bozuğu yakalıyor mu?"""
-    dogru = ("1826-06|Hayriyye", True)        # gerçek madde (AY hassasiyetli)
-    yanlis = [("1826-06-15|Hayriyye", False),  # gün TAM EŞİT değil → tutmamalı
-              ("1826-06|Nusretiye", False)]    # ayırt edici gövdede yok
+    """İKİ YÖNLÜ SINAV — doğrulayıcı bozuğu yakalıyor mu?
+
+    🔴 BEKLENEN DEĞER ELLE YAZILMAZ, VERİDEN TÜRETİLİR. İlk sürümde sınav
+       `1826-06|Hayriyye` tutar / `1826-06-15|Hayriyye` tutmaz diye SABİT
+       yazılmıştı; 21 Eylül'de madde güne çıkarılınca (EKO-ILGI-0073) sınav
+       kaldı — hâlbuki ölçen taraf DOĞRU çalışıyordu, bayatlayan şey
+       ÖNGÖRÜYDÜ (CLAUDE.md §11, "bayatlayan sayı" ailesi). Artık sınav
+       maddeyi bulur, gününü oradan okur ve üç şeyi sorar:
+         ① doğru gün + doğru ayırt edici  → TUTMALI
+         ② gün bir karakter bozulmuş      → TUTMAMALI (tam eşitlik sınavı)
+         ③ gövdede geçmeyen ayırt edici   → TUTMAMALI (alt dizi sınavı)
+    """
+    hedef = [(t, b) for (t, b, f) in kayit if "Hayriyye" in b and t.startswith("1826")]
+    if not hedef:
+        print("  🔴 SINAV KURULAMADI: 1826'da 'Hayriyye' geçen madde yok")
+        return False
+    gun, govde = hedef[0]
+    bozuk_gun = gun + "-01" if len(gun) == 7 else gun[:-1] + ("0" if gun[-1] != "0" else "1")
+    denemeler = [(gun + "|Hayriyye", True),
+                 (bozuk_gun + "|Hayriyye", False),
+                 (gun + "|Nusretiye", False)]
     gecti = True
-    for bag, beklenen in [dogru] + yanlis:
+    print("  (sınav maddesi: %s | %s)" % (gun, govde[:60]))
+    for bag, beklenen in denemeler:
         var = any(eslesir(bag, t, b) for (t, b, f) in kayit)
         ok = (var == beklenen)
         gecti = gecti and ok
         print("  %s  %-28s bekleniyor=%s ölçülen=%s"
               % ("✓" if ok else "🔴", bag, beklenen, var))
-    # normalleştirici: Türkçe büyük İ
-    n = ek_norm("İSYAN") == "isyan"
-    print("  %s  _ekNorm('İSYAN') == 'isyan' → %s" % ("✓" if n else "🔴", n))
+    # normalleştirici: Türkçe büyük İ (CLAUDE.md §4 — "İ".lower() iki kod noktası)
+    n = ek_norm("İSYAN") == "isyan" and ek_norm("Dir'iye") == ek_norm("Diriye")
+    print("  %s  _ekNorm Türkçe eşlemesi (İ→i, kesme atılıyor) → %s"
+          % ("✓" if n else "🔴", n))
     print("SINAV: %s" % ("GEÇTİ" if (gecti and n) else "🔴 KALDI"))
     return gecti and n
 
