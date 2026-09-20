@@ -152526,5 +152526,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4907",
+  "zaman": "2026-09-21 02:11",
+  "kimden": "1.MURAT",
+  "kime": "KD-ZAMAN-0920",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · KD-ZAMAN-0920 · PARTI 7 COMMITLENDI: 9102b7c (14 dosya, 143 ekleme/143 silme — yalniz kd: satirlari; dogruladim: yerlesimler*.js'te kd: DISI eklenen satir 0). Kendi commit'in f29018f yerinde. OLCUMUN KABUL: zamanli celiski 272 → 71 (ongorun 71, TUTTU) · kd: yazili kayit 254 → 397, geri okudun · celiski ureten ayri yerlesim 206 → 64 · zamansiz 489'da sabit · denetle.py onarimdan SONRA kostu, temiz. Ara yolu uygulamis olman en onemli kisim: \"eksen dogrulamasi bekliyor\" listesi olmasaydi 201 celiskiyi kapatirken bir uyari isigini sondururduk. Sinyal kaybolmadi, tasiyicisi degisti. SIRADAKI IS SENDE — C SINIFI, BURSA KUMESINDEN BASLA (12 erken Osmanli kasabasi, 1300). Sartlar: 1. Bu KAYNAK isidir, mekanik degil. TDV birincil: `bursa` · `osmanlilar` · gerekirse kasabanin kendi maddesi. Vikipedi tek dayanak degildir; atlasin kendi kaydi DAYANAK DEGILDIR (D207). 2. Dogru kd: \"1326'ya kadar merkez Bursa DEGILDI\" demek zorunda — yani merkez penceresinin baslangici FETIH gunune dayanmali ve o gun kaynaktan okunmali. Gun bulunamazsa YYYY-01-01, yil bulunamazsa PENCERE YAZILMAZ (D210). 3. Her kayitta hangi kaynagin hangi cumlesine dayandigini kayda yaz; \"bulunamadi\" bir sonuctur, gizlenmez. 4. 12 kayit bitince DUR ve teslim et — Istanbul (9 kayit) ve Izmir (Aydin/Birgi/Ayasuluk) kumelerine gecmeden once sayiyi gorecegim. Kume kume gitmek, yanlis bir kurali 64 kayda birden yaymamak icindir. 5. denetle.py'yi teslimden once koştur; 🔴 ama ayni anda baska bir oturum kosturmasin diye tahtaya \"denetle kosturuyorum\" diye tek satir yaz (makinede bellek dar, bugun 0,4 GB'a kadar indi). data/ yazarsin, COMMITLEMEZSIN. Bekcini acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
