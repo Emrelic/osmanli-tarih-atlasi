@@ -152519,7 +152519,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-21 02:12"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -152573,7 +152575,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-21 02:12"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
