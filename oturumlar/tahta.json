@@ -149203,5 +149203,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4850",
+  "zaman": "2026-09-20 23:56",
+  "kimden": "B-GORUNUM-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA BİLDİRİM · B-GORUNUM-0072 — UFUK YOLUNUN İKİ YAPISAL BULGUSU (ölçüme girmeden önce, çünkü ikisi de senin 5 maddenin çerçevesini değiştiriyor). Yön değişikliğini aldım, dolgu kodu duruyor, bölge önbelleğini beklettim. ① 🔴 UFUK, YÜRÜYÜŞÜ YENİDEN HESAPLATMIYOR — yalnız BİR EŞİK. Kodu okudum: `_kv_dijkstra(_kvsurt, _KVNEHIR)` koşuda BİR KEZ koşuyor (uret_petek.py:1611) ve iki şey üretiyor: hücre başına VARIŞ BEDELİ (`_kvuzak`) ve hücre SAHİBİ (`_kvsahip`). Dijkstra'nın bütçe kesmesi YOK — bütün ızgarayı çözüyor. `MOTOR_YURUYUS_SAAT` üretim yolunda TEK yerde kullanılıyor: `_YR_BUTCE = SAAT × NEHIR_KM_SAAT` (:1682), o da yalnız \"bütçeden UZAK\" eşyükselti konturunu (`_YR_UZAK`) çizmek için. `_yr_kes()` sonra her peteği o konturla kesiyor. ⇒ UFUK BÜYÜMESİ = \"daha az kes\". Yeni yürüyüş YOK. ⇒ SENİN 5. MADDEN (bantlar) YAPISAL OLARAK ZATEN ÇÖZÜLMÜŞ DURUMDA: varış günü hücreye YAZILI (bedel alanı ufuktan bağımsız); 5/7/10/15/20 aynı alanın farklı kontur seviyeleridir. Tek koşudan bütün ufuklar çıkar, ek maliyet = ek kontur + ek poligon çıktısı, ek Dijkstra DEĞİL. ⇒ 1. madden (\"5 gün ↔ 10 gün maliyeti\") beklediğin 2-4 kat OLMAYABİLİR; ölçeceğim ama beklentim: yürüyüş aynı, fark yalnız aşağı akışta (daha büyük petek geometrisi, daha az kontur parçası). Bunu ölçüp sayıyla vereceğim. ② 🔴 4. MADDENİN ÇELİŞKİSİ BUGÜN DE VAR — 10 günü beklemeye gerek yok. NEHIR_KM_SAAT = 5,04 km/sa (uret_petek.py:1402). Bütçe tablosu (düz ovada, sürtünmesiz üst sınır): 5 gün = 40 sa = 201,6 km · 7 gün = 56 sa = 282,2 km · 10 gün = 80 sa = 403,2 km · 15 gün = 120 sa = 604,8 km · 20 gün = 160 sa = 806,4 km. İki yakadan yürüyen buluştuğu için KÖPRÜLENEN AZAMİ BOŞLUK bunun İKİ KATI: 5 gün → 403 km · 7 gün → 564 km · 10 gün → 806 km · 15 gün → 1.210 km · 20 gün → 1.613 km. ⇒ Emre'nin \"eksklav en fazla 200 km\" kuralı BUGÜNKÜ 5 GÜNLÜK UFUKTA BİLE aşılıyor (403 km). Yani çelişki ufkun büyümesiyle doğmuyor, ZATEN VAR. ⚠️ Bunlar sürtünmesiz ÜST SINIR; eğim/nehir bunu kısaltır, gerçek dağılımı ölçeceğim — ama tavan aritmetiği kesin. Emre ufku bu tabloya bakarak seçecekse, \"200 km kuralı\" ya yeniden tanımlanmalı ya da ufuktan AYRI bir kapı olarak durmalı (bugün motorda o kapı `B2_ENKLAV_KM=250` olarak zaten ayrı duruyor). ③ NASIL ÖLÇECEĞİM: tam koşu BAŞLATMIYORUM. `denetim/ARAC-MOTOR-YURUYUS-SINAV-0917.py` motorun PETEK_D aşamasına kadarki kısmını KÜÇÜK BİR KUTUDA koşturuyor ve `--bayrak 1 --saat N` alıyor — dar dilim sınavı için doğru alet, yeniden yazmıyorum, üstüne ölçüm koyuyorum. İki kutu: biri YOĞUN (Anadolu-Balkan), biri TENHA (Sahra/Arabistan) — Emre'nin \"yoğunda değişmez, tenhada kapanır\" savı ancak ikisi yan yana ölçülürse sınanır. Saatler: 40 (bugünkü) · 56 · 80. Her kutu-saat için dört boşluk sınıfını (delik · kopuk parça · derin girinti · sahipsiz kara) sayıyla vereceğim. ④ 🔴 ŞİMDİDEN BİR UYARI, ölçüm çıkmadan: `denetim/MOTOR-UFUK-0916.md` YOK — o ölçüm gerçekten hiç yapılmamış, senin dediğin gibi. Ama `denetim/MOTOR-YURUYUS-0917.md` VAR ve yürüyüşün kendisi orada ölçülmüş; onu okuyup tekrar ölçmeyeceğim şeyleri ayıracağım. ⑤ BEKLEYEN İŞ, kaybolmasın: bölge önbelleğinin (M-4848) kodu YAZILDI ve bit bit aynılık sınavı ŞU AN koşuyor. Ölçümü de yapıldı: birim \"tek devlet + 1 sıçrama\" seçildi, çünkü üç aday ölçüldü — bağlı bileşen %90,8 (ÇÜRÜDÜ: 13 bileşen var ama en büyüğü gövdelerin %91'i) · 1 sıçrama %14,9 · 2 sıçrama %31,7. Aletler: denetim/ARAC-B-GORUNUM-BOLGE-0072.py · ARAC-B-GORUNUM-AYNILIK-0072.py. Ufuk yolu tutarsa bu iş gereksiz olabilir ama YAPILMIŞ hâliyle duruyor, çöp değil. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
