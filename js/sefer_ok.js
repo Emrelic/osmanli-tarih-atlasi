@@ -32,7 +32,14 @@
   var NOKTA = "sefer-anim-nokta";
   var TAVAN_MS = 2400, TABAN_MS = 900;
   var ESLESME_GUN = 15;       // maddenin günü ile okun penceresi arası tolerans
-  var ESLESME_KM = 400;       // okun ucu ile maddenin yeri arası tavan
+  // 🔴 400 → 150 km ve "ucu" → "güzergâhın tamamı" (ATIF ÖLÇÜMÜ,
+  // denetim/ARAC-SEFER-OK-ATIF-0070.js · Emre M-4714 §4 "TEK ANLATI").
+  // Ölçüldü: ucu esas alan eşleşme "Medine geri alındı" ↔ "Tosun Paşa'nın
+  // Hicaz seferi"ni 340 km diye uzak sayıyordu (oysa sefer Medine'den geçer),
+  // buna karşılık "II. Mahmud'un ölümü" ↔ "donanmanın İskenderiye'ye teslimi"
+  // gibi ALAKASIZ bir çifti 356 km ile kabul ediyordu. Güzergâha ölçülen
+  // mesafede 227 eşleşmenin 102'si ≤150 km, 98'i ≤50 km.
+  var ESLESME_KM = 150;
 
   var etkin = null;           // süren animasyonun durumu
   var kare = null;
@@ -74,18 +81,30 @@
     if (!window.harita || harita.getSource(KAYNAK)) return !!(window.harita && harita.getSource(KAYNAK));
     var bos = { type: "geojson", data: { type: "FeatureCollection", features: [] } };
     harita.addSource(KAYNAK, bos);
+    // 🔴 SIRA — Emre M-4714 §1: *"simgeler okun üstünde kalır (ok yazıyı
+    // örtmez)."* ELE-GECIRME-ANIM-0070 ölçtü (M-4718 §4a): animasyon katmanları
+    // ilk `symbol` katmanının ÜSTÜNDE kalıyordu, yani ilerleyen ok
+    // `antlasma-harita-etiket` yazısını örtebiliyordu. Durağan ok katmanları
+    // için app.js `_seferKatmanSirasi()` aynı kuralı uyguluyor; burada aynı
+    // hedef `beforeId` olarak veriliyor.
+    var oncesi = null;
+    try {
+      var kat = harita.getStyle().layers;
+      for (var i = 0; i < kat.length; i++)
+        if (kat[i].type === "symbol" && kat[i].id.indexOf("sefer") !== 0) { oncesi = kat[i].id; break; }
+    } catch (e) { /* stil hazır değil — sıra bir sonraki kurulumda düzelir */ }
     harita.addLayer({ id: CIZGI, type: "line", source: KAYNAK,
       filter: ["!=", ["geometry-type"], "Point"],
       layout: { "line-cap": "round", "line-join": "round" },
       paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
                "line-opacity": 0.95,
-               "line-width": ["coalesce", ["get", "kalinlik"], 9] } });
+               "line-width": ["coalesce", ["get", "kalinlik"], 9] } }, oncesi || undefined);
     harita.addLayer({ id: NOKTA, type: "circle", source: KAYNAK,
       filter: ["==", ["geometry-type"], "Point"],
       paint: { "circle-color": ["coalesce", ["get", "renk"], "#2b1006"],
                "circle-radius": ["*", ["coalesce", ["get", "kalinlik"], 9], 0.8],
                "circle-opacity": 0.95,
-               "circle-stroke-width": 1.4, "circle-stroke-color": "#fdf6e9" } });
+               "circle-stroke-width": 1.4, "circle-stroke-color": "#fdf6e9" } }, oncesi || undefined);
     return true;
   }
 
@@ -108,29 +127,32 @@
   //    DEĞİL (ölçüldü: 114 kaydın hiçbirinde madde referansı yok). Bu yüzden
   //    eşleşme İKİ ÖLÇÜTLE kuruluyor ve ikisi de ölçülebilir:
   //      ① zaman  — maddenin günü okun [fi,ti] penceresinde (±15 gün)
-  //      ② yer    — okun UCU maddenin yerine 400 km'den yakın
-  //    Yer çözülemiyorsa (madde `yer_id`siz) yalnız zaman ölçütü kalır ve
-  //    aday çoksa penceresi maddenin gününe EN YAKIN biten ok seçilir.
-  //    Uydurma yok: hiçbir aday yoksa faz false döner.
+  //      ② yer    — okun GÜZERGÂHI maddenin yerine 150 km'den yakın
+  //    🔴 YERİ ÇÖZÜLEMEYEN MADDEDE OK ÇİZİLMEZ (false döner). Eskiden yalnız
+  //    tarihle eşleşme yapılıyordu; ölçüldü (ATIF ÖLÇÜMÜ): 227 eşleşmenin
+  //    115'i yalnız tarihe dayanıyordu — yani okun o maddeyle ilgisi HİÇ
+  //    sınanmamıştı. Emre M-4714 §4: alakasız ok, oksuzluktan kötüdür.
+  //    Uydurma yok: hiçbir aday yoksa faz false döner, sahne "vurus"tan başlar.
   function okSec(o) {
     if (!window.seferler || !seferler.length) return null;
     var g = (o && o.gi !== undefined) ? o.gi : (o && o.t ? gunIdx(o.t) : null);
     if (g === null || g === undefined) return null;
     var kon = (typeof olayKonumu === "function") ? olayKonumu(o) : null;
+    if (!kon) return null;                           // yer yok → ok YOK
     var en = null, enPuan = Infinity;
     for (var i = 0; i < seferler.length; i++) {
       var m = seferler[i];
       if (!m.yol || m.yol.length < 2) continue;
       if (g < m.fi - ESLESME_GUN || g > m.ti + ESLESME_GUN) continue;
-      var uc = m.yol[m.yol.length - 1], puan;
-      if (kon) {
-        var km = kmArasi(kon.lat, kon.lon, uc[1], uc[0]);
-        if (km > ESLESME_KM) continue;
-        puan = km;                                   // yakınlık önceliği
-      } else {
-        puan = ESLESME_KM + Math.abs(g - m.ti);      // yer yoksa: bitişi en yakın ok
+      // Mesafe GÜZERGÂHIN TAMAMINA: okun ucu seferin en ileri noktasıdır,
+      // maddenin anlattığı yer güzergâhın ortasında olabilir.
+      var enYakin = Infinity;
+      for (var j = 0; j < m.yol.length; j++) {
+        var d = kmArasi(kon.lat, kon.lon, m.yol[j][1], m.yol[j][0]);
+        if (d < enYakin) enYakin = d;
       }
-      if (puan < enPuan) { enPuan = puan; en = m; }
+      if (enYakin > ESLESME_KM) continue;
+      if (enYakin < enPuan) { enPuan = enYakin; en = m; }
     }
     return en;
   }
