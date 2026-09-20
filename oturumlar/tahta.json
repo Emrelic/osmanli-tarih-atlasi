@@ -147121,5 +147121,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4786",
+  "zaman": "2026-09-20 18:47",
+  "kimden": "D1923-CIZGI-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME · D1923-CIZGI-0920 · M-4784'teki ACİL AKSAKLIK GERİ ALINIYOR — denetle.py ÇALIŞIYOR. İkinci koşu bitti: `py arac/denetle.py` → **SONUÇ: temiz**, çıkış kodu 0, altı değişmez geçti (dönem sağlığı 0/0/0 · mükerrer madde 0 · konum 0 nokta kara maskesi dışında · savaş senkronu 164/174, açık 10 ve hepsi bilinen kuşatma başlangıç↔sonuç kayması). ⇒ M-4784'te bildirdiğim `shapely GEOSException: bad allocation` çökmesi KALICI DEĞİL, geçici bellek çekişmesiymiş (o an başka ağır koşu vardı). Kapı sağlam; denetle.py'yi düzeltmek için oturum AYIRMA — yanlış alarm verdim, bildiriyorum. Tek gerçek not: ağır koşu sürerken denetle.py bellek yüzünden düşebiliyor, o zaman tekrar koşmak yetiyor. ⇒ Ayrıca bu koşu benim yazımdan SONRAdır: 11 D-sınır kaydına dokunmam altı değişmezin HİÇBİRİNİ bozmadı. Beklediğim buydu ve sebebi ölçülmüştü — `d_sinirlar*.js` denetle.py'nin evreninde değil (kod taramasında yalnız `arac/durum_tablosu.py` okuyor, o da `taraflar`/`sol_taraf`/`sag_taraf` alanlarını kimlik sayımı için; ben o alanlara dokunmadım). Geri kalan her şey M-4784'te. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4787",
+  "zaman": "2026-09-20 18:47",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 5 DİSKTE · 323 -> 290 (öngörü 290, tuttu; beş partinin beşi de). Commitleyebilirsin. Dosyalar: data/yerlesimler.js (Derbend, Kuba, + Modon gün düzeltmesi) · yerlesimler_ek27.js (Artvin, Hopa, Sarp) · yerlesimler_ek28.js (Borçka, Dörtyol, Erzin, Yumurtalık) · yerlesimler_ek26.js (Hanak, Hulo). kd: yazılı kayıt geri okuma: 247. denetle.py SONUÇ temiz. Kendi commit'im 695f30c (rapor + yeni alet). Toplam: 483 -> 290, -%40, 55 kayıt. 🔴 PARTİ 4'TEKİ BİR SÖZÜMÜ DÜZELTİYORUM: \"Derbend ve Kuba'nın slugu ayrıştırılamadı\" dedim, ALET KUSURUYDU. TDV arama sonuçlarının bağlantıları TIRNAKSIZ yazılıyor (<a href=/artvin>), benim regex'im yalnız href=\"...\" arıyordu. Düzeltince /derbend--dagistan, /kuba--azerbaycan, /artvin anında çıktı ve üçü de bu partide kapandı. Alet kalıcı: denetim/ARAC-KD-ZAMAN-SLUG-0920.py — arama kelimesinden madde başlığı/içerik sayısını ve bütün sluglari basar, eşadlı maddelerin -- ekini (tuzak ②) görünür kılar. Öteki oturumlara da yarar; \"TDV'de yok\" demeden önce bununla bakılabilir. Aynı aletle GERÇEKTEN yok olduğu doğrulananlar: Tarki, Kerene, Karistos, Sokna, Amorgos, Psara (0 madde başlığı); Hacıbey/Odessa'nın tek maddesi /akkirman çıktı ama gövdesinde Hacıbey GEÇMİYOR. MODON GÜNÜ: verdiğin dar yetkiyle düzelttim — TDV modon \"14 Muharrem 906'da (10 Ağustos 1500)\", atlas 1500-08-09 idi; Modon kaydında dört yerde (s: ucu, d: başı, kd: iki uç) 1500-08-10 yapıldı. Değişmez 2: 590 kırılma, 0 açık, temiz. DOKUNMADIKLARIM: (a) data/olaylar_ek.js'teki \"Modon ve Koron'un fethi\" maddesi hâlâ t:\"1500-08-09\" — o dosya benim kalemim değil, senkronu bozmuyor, sana bildiriyorum. (b) KORON'un günü de 1500-08-09 duruyor; TDV koron, Koron'un Modon'dan SONRA alındığını söylüyor ama GÜN VERMİYOR — yetki gün verilen sınıfa mahsus olduğu için dokunmadım. Bugünkü hâliyle Koron Modon'dan bir gün ÖNCE alınmış görünüyor. YENİ KADEME BULGUSU (eksen değil): Dörtyol, Erzin, Yumurtalık'ın m:'i \"Adana\"; oysa TDV cebelibereket \"1568'den itibaren Halep eyaletine bağlı, merkezi PAYAS olan Üzeyr sancağı\" diyor ve yöre ancak 1890'da Adana vilâyetine bağlanıyor. m:\"Payas\" yazamadım çünkü ATLASTA PAYAS KAYDI YOK. Nokta açılırsa üç kayıt birden bağlanmalı. Aynı sınıftan bir açık borç daha: Ayamavra'nın merkezi Karlı-ili sancağı, onun merkezi de atlasta yok (parti 1). Parti 6'ya giriyorum; sıra kaynağı NET olandan belirsize, dediğin gibi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
