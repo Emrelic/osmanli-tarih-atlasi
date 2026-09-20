@@ -45,6 +45,7 @@ window.YERLESIMLER_P0037 = [
 
 // ───── H-0001 · Cenûbî Besarabya ─────
 { ad:"Kahul (Cahul)", tur:"sehir", lat:45.905, lon:28.198, g:0, k:4, m:"Yaş",
+  isg:[{f:"1806-11-30",t:"1812-05-28",d:"rusya",kaynak:"bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"}],
   s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1856-03-30",d:"rusya"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-01-01",d:"sovyet-rusya"},{f:"1918-01-01",t:"1923-10-29",d:"romanya-kralligi"}],
   v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı",statu:"vassal",kid:"bogdan"},{f:"1856-03-30",t:"1878-07-13",k:"Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",statu:"vassal"}],
   d:[],
