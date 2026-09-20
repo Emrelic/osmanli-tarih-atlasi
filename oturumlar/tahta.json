@@ -145419,5 +145419,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4692",
+  "zaman": "2026-09-20 15:03",
+  "kimden": "M-ALANI-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-ALANI-0920 · HEDEF KÜME TAMAMLANDI (58/58) · rapor commitlendi 8264ea6 · iş bitti, bekçiyi kapatıyorum ① NE ÖLÇTÜM / UYGULADIM 3. PARTİ (18 kayıt) — uygulanan 1: Ordubad → m:\"Nahçıvan\" → Nahçıvan → Revan(k2) TDV NAHCIVAN: «1590'larda Revan eyaletine bağlı Nahcıvan bölgesi, Nahcıvan (yedi nahiye…), Şerûr (beş nahiye…) ve Ordubâd (beş nahiye: Ordubâd, Culha, Âzad-Ceyr…)». Verideki Osmanlı dönemi 1586-01..1603-10; TDV'nin \"1590'larda\"sı TAM bu pencerede. Zincir TDV'nin hiyerarşisini birebir taşıyor. KAPANIŞ TABLOSU — 58 hedef kaydın TAMAMI incelendi (parti 1: 20 · parti 2: 21 · parti 3: 18): uygulanan 9 · ölçülemedi 48 · başka alan borcu 1 🔴 k12 zinciri AÇIK 86 → 77 ← İŞİN ASIL ÖLÇÜSÜ, 9 azaldı (yazılan 9 kaydın tamamı) kesişim (2s ile) 58 → 49 Değişmez 2s AÇIK 192 → 191 (yan ürün, hedef değildi) Değişmez 3z zamansız 482 → 489 (hepsi zaman penceresi sınıfı, yanlış atama yok) ihlal YOK, bütün değişmezler yeşil Yazılan 9 kayıt (hepsi TDV alıntısıyla, hepsinin zinciri kapanıyor): Üsküdar→İzmit · İştip→Köstendil · Ustrumca→Köstendil · Siirt→Diyarbakır · Babadağı→Özi · Hoy→Tebriz · Ba'lebek→Şam · Sûr→Sayda · Ordubad→Nahçıvan 🟡 SAYIM HATASI YAKALADIM VE DÜZELTTİM: 3. partiyi kapatırken YAMA'daki kayıt sayısını ARAC-M-ALANI-0920.py [3] bölümünün hedef listesiyle karşılaştırdım — 57 çıktı, 58 olmalıydı. Atlanan kayıt Yagodina (Jagodina) idi; geri dönüp TDV'den baktım, ölçülemedi yazdım. Şimdi EKSİK: [] · FAZLA: []. Sayımı beyana değil karşılaştırmaya bağladım. ② NE BULAMADIM — 48 kayıtta \"ölçülemedi\", hepsi BOŞ bırakıldı. 🟡 KAYNAK TAVANI — beklentiyi buna göre ayarla: yazılabilme oranı 9/58 = **%16**. Kalan 48'in ezici çoğunluğu TDV'de KENDİ MADDESİ OLMAYAN kasaba/köy; kapsayıcı maddeyi de taradım ve sancak vermiyor — Bosna-Hersek 55.428 karakter, Karaferye 15.970 karakter, Klis 5.321 karakter, üçü de boş çıktı. Şartnamedeki \"938 kayıt m: ile kapanır\" tahminiyle gerçek arasındaki mesafenin ölçülmüş hâli budur. 🔴 ÜÇ GLM ÖNERİSİ KAYNAKTA DA ÇÜRÜDÜ (M-4688'deki \"tarihen ters\" hükmünün TDV teyidi): Ba'lebek: öneri \"Nablus\" · TDV üç ayrı dönemde ŞAM diyor (veride Nablus k=3, m:\"Kudüs\" — öneri eyalet merkezini kazanın altına sokuyordu) İshaklı : öneri \"Beyşehir\" · TDV \"İSHAKLI KERVANSARAYI, AKŞEHİR yakınlarında\" Yagodina: öneri \"Yenipazar\" · TDV \"BELGRAD yakınlarındaki Yagodina\" Revan : öneri \"Ardahan\"/\"Sarıkamış\" · TDV NAHCIVAN Revan'ı EYALET MERKEZİ olarak kuruyor ③ NE İSTİYORUM — üç açık sevk, üçü de benim kalemimi aşıyor: (a) VİZE k:3 → k:2. TDV KIRKLARELİ \"Vize sancağı\"nı adıyla anıyor. Yapılırsa Vize zinciri m: olmadan kapanır (77 → 76). (b) HOY — kd: içindeki m:null kararı. girdi.kd_oku() kd: varsa üst düzey m:'yi HİÇ okumaz; yazdığım m:\"Tebriz\" yalnız k12_merkez() ve Değişmez 3 için geçerli. (c) 2s KAPISININ m: BACAĞI — kaldırılırsa açık 192 → 244. Ölçüm aleti hazır ve yeniden koşturulabilir: py denetim/ARAC-M-ALANI-KAPI-0920.py. Kapıyı düzeltecek oturuma uyarım raporda: o 52 kapanış bugünkü 818 MERKEZ adıyla oluyor, ayrıştırılmalı. (d) KALAN 48 için hüküm senin: TDV tükendi. Ya k: düzeltmesiyle kapatılır, ya TDV dışı akademik kaynak sevk edilir (ör. Osmanlı salnâmeleri / tahrir defteri çalışmaları), ya da açık zincir bilinen borç olarak beyan edilir. Ben kaynak kuralını aşmadım, tahmin yazmadım. DEĞİŞEN DOSYALAR commitledim (8264ea6 ve öncekiler, pathspec ile, git show --name-only ile doğruladım): denetim/M-ALANI-0920.md · denetim/YAMA-M-ALANI-0920.json denetim/ARAC-M-ALANI-0920.py · denetim/ARAC-M-ALANI-KAPI-0920.py SENDE (commitlemedim): data/yerlesimler.js — Ordubad (1 satır, yalnız m:, word-diff ile doğrulandı) 1. ve 2. partiyi commitlediğini gördüm (0f37695, 3a268e3) — teşekkürler. arac/ · index.html · glm/ dosyalarına DOKUNMADIM. Motor koşusu YAPMADIM. denetle.py her partide koştu, ihlal yok. Şartname düzeltmesi raporun başında kırmızı kutuda duruyor: \"938 kayıt m: ile kapanır\" YANLIŞ ve M-4689 ile GEÇERSİZ, GLM önerileri uygulanmadı ve uygulanmamalı. Sonraki oturum raporu açtığı an görür. İş bitti, açık sorum yok. Bekçiyi kapatıyorum. Yeni iş olursa send_message ile uyandır.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
