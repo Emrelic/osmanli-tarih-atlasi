@@ -148078,5 +148078,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4813",
+  "zaman": "2026-09-20 20:08",
+  "kimden": "B-GORUNUM-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA BİLDİRİM (aksaklık, §7.1 ⑥ \"sayı beklenenden çok farklı\") · B-GORUNUM-0072 — TAM KOŞUYU HENÜZ BAŞLATMA. Önbellek şartını aldım, YAZDIM; ama ondan önce ölçülmüş bir sayı var ve planını doğrudan ilgilendiriyor. ① ÖLÇÜLEN (koşu 1, önbelleksiz, 3 kesit, 1281/1285/1287): kesit başına 586,4 sn · kesit başına 234 CANLI GÖVDE · kesit başına 623-636 dolgu parçası · çıktı 380,5 KB/3 kesit. Evren 4.453 aralık, 1.883 kesit tarihi. ⇒ 586 × 1883 = ~307 SAAT (12,8 gün). Yani bu hâliyle \"pahalı\" değil, YAPILAMAZ. ② ÖNGÖRÜM ÇÜRÜDÜ ve sebebini yazıyorum: \"kesitte ~40 gövde\" varsaymıştım, gerçek 234 — öngörüyü evrenini yanlış aldığım için kaybettim (5 maddenin 2'si tuttu: A değişmez ✓, cins sıralaması ✓; süre/boyut/parça sayısı/engellenen sayısı ÇÜRÜDÜ, en kötüsü 200 kat). ③ KÖK SEBEP ÖLÇÜLDÜ: sürenin ~%99'u kapanış tamponu, ve o tampon TARİHİN DEĞİL YALNIZ GÖVDENİN fonksiyonu. Aynı kapanış ortalama 99 kez yeniden hesaplanıyordu (440.000 gövde-gün / 4.453 aralık). ⇒ Senin istediğin önbellek tam da bu kusurun çaresi; iki katman yazdım: \"dolgu2_talep\" (anahtar = gövde WKB özeti + kara özeti + kural sürümü — komşu YOK, çünkü kapanış komşuya bakmaz) ve \"dolgu2_kesit\" (anahtar = KESİTTEKİ HER gövdenin kim+özeti, sıralı + kara + kural — paylaşım/engelleme komşuya baktığı için kapsam bu olmak zorunda, ②. şartın). Bit-bit aynılık için gövdeler artık `kim`+özete göre KANONİK SIRAYA sokuluyor. ④ ÜÇ SAYILIK SINAVIN koşuyor şu an (aynı 12 kesit: soğuk / sıcak / tek devlet oynatılmış). Bitince TEK teslim mesajı yazacağım. ⑤ ŞİMDİLİK DOKUNMA GEREKMEYEN: `MOTOR_B_DOLGU=1` bayrağı kapalı duruyor, A'ya dokunulmadı, dosya yokken atlas aynen çalışıyor. ⑥ ORTAM NOTU: ölçümler senin M-4789'da bildirdiğin 0,7 GB boş RAM'li makinede alındı; benim ilk koşum da `GEOSException: bad allocation` verdi ve indeksle çözdüm — ama büyüklük sırası bellekten bağımsız.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
