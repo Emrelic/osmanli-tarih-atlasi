@@ -1,0 +1,1570 @@
+{
+ "olcum": "OK-RENK-0072",
+ "tarih": "2026-09-20",
+ "ok": 117,
+ "renk_kaynagi_dagilimi": {
+  "elle-renk": 58,
+  "varsayilan": 51,
+  "taraf-dusman": 4,
+  "taraf-osmanli": 3,
+  "devlet": 1
+ },
+ "kural_bugun_kac_kayitta": 1,
+ "kullanilan_devletler": [
+  {
+   "id": "rusya",
+   "renk": "#4f7d4f",
+   "koyu_035": "#335133"
+  },
+  {
+   "id": "fransa-cumhuriyet",
+   "renk": "#00297c",
+   "koyu_035": "#001b51"
+  },
+  {
+   "id": "ingiltere",
+   "renk": "#7e3d8f",
+   "koyu_035": "#52285d"
+  }
+ ],
+ "okunurluk": [
+  {
+   "oran": 0.25,
+   "devlet": [
+    {
+     "id": "rusya",
+     "taban": "#4f7d4f",
+     "koyu": "#3b5e3b",
+     "kendi_dolgusu_uzerinde": 1.54,
+     "deniz_uzerinde": 4.62,
+     "kara_uzerinde": 5.55
+    },
+    {
+     "id": "fransa-cumhuriyet",
+     "taban": "#00297c",
+     "koyu": "#001f5d",
+     "kendi_dolgusu_uzerinde": 1.19,
+     "deniz_uzerinde": 9.73,
+     "kara_uzerinde": 11.68
+    },
+    {
+     "id": "ingiltere",
+     "taban": "#7e3d8f",
+     "koyu": "#5f2e6b",
+     "kendi_dolgusu_uzerinde": 1.41,
+     "deniz_uzerinde": 6.3,
+     "kara_uzerinde": 7.57
+    }
+   ],
+   "osmanli": {
+    "taban": "#8e0b22",
+    "koyu": "#6b081a",
+    "kendi_dolgusu_uzerinde": 1.33,
+    "deniz_uzerinde": 7.86,
+    "kara_uzerinde": 9.45
+   }
+  },
+  {
+   "oran": 0.35,
+   "devlet": [
+    {
+     "id": "rusya",
+     "taban": "#4f7d4f",
+     "koyu": "#335133",
+     "kendi_dolgusu_uzerinde": 1.85,
+     "deniz_uzerinde": 5.57,
+     "kara_uzerinde": 6.69
+    },
+    {
+     "id": "fransa-cumhuriyet",
+     "taban": "#00297c",
+     "koyu": "#001b51",
+     "kendi_dolgusu_uzerinde": 1.26,
+     "deniz_uzerinde": 10.32,
+     "kara_uzerinde": 12.4
+    },
+    {
+     "id": "ingiltere",
+     "taban": "#7e3d8f",
+     "koyu": "#52285d",
+     "kendi_dolgusu_uzerinde": 1.62,
+     "deniz_uzerinde": 7.23,
+     "kara_uzerinde": 8.69
+    }
+   ],
+   "osmanli": {
+    "taban": "#8e0b22",
+    "koyu": "#5c0716",
+    "kendi_dolgusu_uzerinde": 1.48,
+    "deniz_uzerinde": 8.8,
+    "kara_uzerinde": 10.57
+   }
+  },
+  {
+   "oran": 0.45,
+   "devlet": [
+    {
+     "id": "rusya",
+     "taban": "#4f7d4f",
+     "koyu": "#2b452b",
+     "kendi_dolgusu_uzerinde": 2.2,
+     "deniz_uzerinde": 6.62,
+     "kara_uzerinde": 7.95
+    },
+    {
+     "id": "fransa-cumhuriyet",
+     "taban": "#00297c",
+     "koyu": "#001744",
+     "kendi_dolgusu_uzerinde": 1.33,
+     "deniz_uzerinde": 10.92,
+     "kara_uzerinde": 13.12
+    },
+    {
+     "id": "ingiltere",
+     "taban": "#7e3d8f",
+     "koyu": "#45224f",
+     "kendi_dolgusu_uzerinde": 1.85,
+     "deniz_uzerinde": 8.26,
+     "kara_uzerinde": 9.92
+    }
+   ],
+   "osmanli": {
+    "taban": "#8e0b22",
+    "koyu": "#4e0613",
+    "kendi_dolgusu_uzerinde": 1.63,
+    "deniz_uzerinde": 9.69,
+    "kara_uzerinde": 11.64
+   }
+  }
+ ],
+ "sahipsiz_kayit": 51,
+ "sahipsiz": [
+  {
+   "ad": "Osmanlı'nın Çukurova seferi (1485) — Adana ve Tarsus'un alın",
+   "f": "1485-01-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Turahan Bey'in Mora seferi (1423) — Hexamilion'un yıkılışı",
+   "f": "1423-05-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Katalan Kumpanyası'nın Anadolu seferi (1303-1305)",
+   "f": "1303-09-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Pelekanon (Maltepe) seferi (1329)",
+   "f": "1329-05-15",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Kosova seferi (1389)",
+   "f": "1389-03-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Niğbolu seferi (1396)",
+   "f": "1396-07-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "II. Murad'ın İstanbul kuşatması (1422)",
+   "f": "1422-05-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "İstanbul seferi (1453)",
+   "f": "1453-02-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Belgrad kuşatması (1440)",
+   "f": "1440-04-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Otranto çıkarması (1480)",
+   "f": "1480-06-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Çaldıran seferi (1514)",
+   "f": "1514-03-20",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Yavuz'un Tebriz'e yürüyüşü (1514)",
+   "f": "1514-08-25",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Yavuz'un Tebriz'den Amasya'ya dönüşü (1514)",
+   "f": "1514-09-15",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Mısır seferi (1516-17)",
+   "f": "1516-06-05",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Rodos seferi (1522)",
+   "f": "1522-06-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Mohaç seferi (1526)",
+   "f": "1526-04-23",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Viyana seferi (1529)",
+   "f": "1529-05-10",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Irakeyn (Tebriz-Bağdat) seferi (1534-35)",
+   "f": "1534-06-11",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Preveze harekâtı (1538)",
+   "f": "1538-07-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Zigetvar seferi (1566)",
+   "f": "1566-05-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Kıbrıs harekâtı (1570)",
+   "f": "1570-05-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Abdülmelik'in Kasrülkebir yürüyüşü (1578)",
+   "f": "1578-06-24",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Özdemiroğlu'nun Tebriz seferi (1585)",
+   "f": "1585-06-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Eğri-Haçova seferi (1596)",
+   "f": "1596-06-20",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Hotin seferi (1621) — II. Osman",
+   "f": "1621-04-29",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Bağdat seferi (1638)",
+   "f": "1638-05-08",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Girit harekâtı (1645)",
+   "f": "1645-04-30",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Viyana seferi (1683)",
+   "f": "1683-04-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Prut seferi (1711)",
+   "f": "1711-05-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Varna seferi (1444)",
+   "f": "1444-09-20",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Otlukbeli seferi (1473)",
+   "f": "1473-04-11",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Kırım harekâtı (1475)",
+   "f": "1475-05-19",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Büyük Taarruz (1922)",
+   "f": "1922-08-26",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Tosun Paşa'nın Hicaz seferi (1811-13)",
+   "f": "1811-09-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Koca Sinan Paşa'nın Eflak seferi (1595)",
+   "f": "1595-07-18",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Sinan Paşa'nın Eflak'tan çekilişi — Yergöğü köprüsü (1595)",
+   "f": "1595-10-19",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Necid seferi (1816-18)",
+   "f": "1816-09-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Sudan seferi (1820-21)",
+   "f": "1820-07-20",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Mora çıkarması (1825)",
+   "f": "1825-02-24",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Suriye harekâtı (1831-32)",
+   "f": "1831-10-31",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Anadolu ilerleyişi (1832-33)",
+   "f": "1832-08-01",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Nizip seferi (1839)",
+   "f": "1839-04-21",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Müttefik donanma harekâtı (1840)",
+   "f": "1840-09-11",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Osmanlı donanmasının İskenderiye'ye teslimi (1839)",
+   "f": "1839-07-14",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Belgrad garnizonunun çekilmesi (1867)",
+   "f": "1867-04-18",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Abdülaziz'in Avrupa seyahati (1867)",
+   "f": "1867-06-21",
+   "kova": "SEFERLER"
+  },
+  {
+   "ad": "Alemdar Mustafa Paşa'nın İstanbul'a yürüyüşü (1808)",
+   "f": "1808-07-01",
+   "kova": "SEFERLER_OK103"
+  },
+  {
+   "ad": "Tosun Paşa'nın Hicaz seferi (1811-1813)",
+   "f": "1811-03-01",
+   "kova": "SEFERLER_OK103"
+  },
+  {
+   "ad": "Osmanlı donanmasının Mora'dan Çeşme'ye çekilişi (1770)",
+   "f": "1770-06-01",
+   "kova": "SEFERLER_OK103"
+  },
+  {
+   "ad": "Abdülaziz'in Avrupa seyahati (1867)",
+   "f": "1867-06-21",
+   "kova": "SEFERLER_P0037"
+  },
+  {
+   "ad": "Edirne Vak'ası — âsilerin İstanbul'dan Edirne'ye yürüyüşü (1",
+   "f": "1703-07-17",
+   "kova": "SEFERLER_P0071"
+  }
+ ],
+ "satirlar": [
+  {
+   "ad": "Nâdir Şah'ın Musul kuşatması (1743)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Nâdir Şah'ın Musul'dan çekilişi (1743)",
+   "kova": "SEFERLER",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Osmanlı'nın Çukurova seferi (1485) — Adana ve Tarsus'un",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Memlük ordusunun karşı taarruzu (1488-1490) — Ağaçayırı",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Turahan Bey'in Mora seferi (1423) — Hexamilion'un yıkıl",
+   "kova": "SEFERLER",
+   "tur": "akin",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Uzun Sefer (1443) — Niş-Sofya-İzladi seferi",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Varna Haçlı seferi (1444)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Timur'un İzmir seferi (1402)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#8a5a00",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#8a5a00"
+  },
+  {
+   "ad": "Timur'un Anadolu'dan çekilişi (1403)",
+   "kova": "SEFERLER",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#8a5a00",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#8a5a00"
+  },
+  {
+   "ad": "Timur'un Sivas seferi (1400)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#8a5a00",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#8a5a00"
+  },
+  {
+   "ad": "Niğbolu Haçlı seferi (1396)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Savoy Haçlı seferi (1366) — Gelibolu'nun kaybı",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1b7a3f",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1b7a3f"
+  },
+  {
+   "ad": "Katalan Kumpanyası'nın Anadolu seferi (1303-1305)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Pelekanon (Maltepe) seferi (1329)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Kosova seferi (1389)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Niğbolu seferi (1396)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Timur'un yürüyüşü (1402)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#8a5a00",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#8a5a00"
+  },
+  {
+   "ad": "II. Murad'ın İstanbul kuşatması (1422)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "İstanbul seferi (1453)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Belgrad kuşatması (1440)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Otranto çıkarması (1480)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Çaldıran seferi (1514)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Yavuz'un Tebriz'e yürüyüşü (1514)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Yavuz'un Tebriz'den Amasya'ya dönüşü (1514)",
+   "kova": "SEFERLER",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Mısır seferi (1516-17)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Rodos seferi (1522)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Mohaç seferi (1526)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Viyana seferi (1529)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Irakeyn (Tebriz-Bağdat) seferi (1534-35)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Preveze harekâtı (1538)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Zigetvar seferi (1566)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Kıbrıs harekâtı (1570)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Abdülmelik'in Kasrülkebir yürüyüşü (1578)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Sebastian'ın Fas seferi (1578) — Portekiz çıkarması",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Özdemiroğlu'nun Tebriz seferi (1585)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Eğri-Haçova seferi (1596)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Hotin seferi (1621) — II. Osman",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Bağdat seferi (1638)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Girit harekâtı (1645)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Viyana seferi (1683)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Prut seferi (1711)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Varna seferi (1444)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Otlukbeli seferi (1473)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Kırım harekâtı (1475)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Büyük Taarruz (1922)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Tosun Paşa'nın Hicaz seferi (1811-13)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Napolyon'un Suriye seferi — Akkâ'ya yürüyüş (1799)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Napolyon'un Akkâ'dan Kahire'ye çekilişi (1799)",
+   "kova": "SEFERLER",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Vehhâbîlerin Kerbelâ baskını (1801)",
+   "kova": "SEFERLER",
+   "tur": "akin",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": null,
+   "kaynak": "taraf-dusman",
+   "bugunku_renk": "#1b7a3f"
+  },
+  {
+   "ad": "Suûd'un Tâif ve Mekke harekâtı (1803)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": null,
+   "kaynak": "taraf-dusman",
+   "bugunku_renk": "#1b7a3f"
+  },
+  {
+   "ad": "Vehhâbîlerin Medine'yi kuşatıp işgali (1805)",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": null,
+   "kaynak": "taraf-dusman",
+   "bugunku_renk": "#1b7a3f"
+  },
+  {
+   "ad": "Vehhâbîlerin Mekke kuşatması ve şehrin teslimi (1805-06",
+   "kova": "SEFERLER",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": null,
+   "kaynak": "taraf-dusman",
+   "bugunku_renk": "#1b7a3f"
+  },
+  {
+   "ad": "Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": "#6b2d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#6b2d8a"
+  },
+  {
+   "ad": "Rus filosunun Baltık'tan Çeşme'ye yolu (1769-70)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Koca Sinan Paşa'nın Eflak seferi (1595)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Sinan Paşa'nın Eflak'tan çekilişi — Yergöğü köprüsü (15",
+   "kova": "SEFERLER",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "I. Petro'nun Prut seferi — Rus ordusunun Stănilești'ye ",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Münnich'in Hotin ve Yaş harekâtı (1739)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Golitsın'ın Hotin seferi — Podolya'dan Dinyester'e (176",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Elmpt kolunun Hotin'den Yaş'a yürüyüşü (1769)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Rumyantsev'in Prut boyunca Kartal'a (Kagul) ilerleyişi ",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Panin'in Bender'den Akkirman'a harekâtı (1770)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Potemkin ordusunun Olviopol'den Özi'ye yürüyüşü ve kuşa",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Potemkin'in Olviopol'den Bender'e harekâtı (1789)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Suvorov ve Coburg'un Fokşani'den Rimnik'e harekâtı (178",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Mihelson ordusunun Yaş'tan Bükreş'e ilerleyişi (1806)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Rus ordusunun Kişinev'den Zimniça'ya ilerleyişi (1877)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Necid seferi (1816-18)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Sudan seferi (1820-21)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Mora çıkarması (1825)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Suriye harekâtı (1831-32)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Anadolu ilerleyişi (1832-33)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Nizip seferi (1839)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Müttefik donanma harekâtı (1840)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "İkinci Sırp İsyanı (1815)",
+   "kova": "SEFERLER",
+   "tur": "isyan",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": "#6b2d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#6b2d8a"
+  },
+  {
+   "ad": "Eflak İsyanı — İpsilanti'nin Boğdan'a geçişi (1821)",
+   "kova": "SEFERLER",
+   "tur": "isyan",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": "#6b2d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#6b2d8a"
+  },
+  {
+   "ad": "Müttefik donanmasının Navarin'e gelişi (1827)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Rus donanmasının Büyükdere'ye gelişi (1833)",
+   "kova": "SEFERLER",
+   "tur": "deniz",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Osmanlı donanmasının İskenderiye'ye teslimi (1839)",
+   "kova": "SEFERLER",
+   "tur": "teslim",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Girit İsyanı'nın başlaması (1866)",
+   "kova": "SEFERLER",
+   "tur": "isyan",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": "#6b2d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#6b2d8a"
+  },
+  {
+   "ad": "Belgrad garnizonunun çekilmesi (1867)",
+   "kova": "SEFERLER",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Abdülaziz'in Avrupa seyahati (1867)",
+   "kova": "SEFERLER",
+   "tur": "seyahat",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Rus ordusunun Yeşilköy'e gelişi (1878)",
+   "kova": "SEFERLER",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Arnavutluk İsyanı (1910)",
+   "kova": "SEFERLER",
+   "tur": "isyan",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": "#6b2d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#6b2d8a"
+  },
+  {
+   "ad": "Savcı Bey isyanı (1373)",
+   "kova": "SEFERLER",
+   "tur": "isyan",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": "#6b2d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#6b2d8a"
+  },
+  {
+   "ad": "Napolyon'un Suriye seferi (1799) — Akkâ kuşatması",
+   "kova": "SEFERLER_OK103",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Napolyon'un Akkâ'dan çekilişi (1799)",
+   "kova": "SEFERLER_OK103",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Vehhâbîlerin Kerbelâ baskını (1801)",
+   "kova": "SEFERLER_OK103",
+   "tur": "akin",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Vehhâbîlerin Tâif ve Mekke seferi (1803)",
+   "kova": "SEFERLER_OK103",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Vehhâbîlerin Medine'yi alışı (1805)",
+   "kova": "SEFERLER_OK103",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Alemdar Mustafa Paşa'nın İstanbul'a yürüyüşü (1808)",
+   "kova": "SEFERLER_OK103",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Tosun Paşa'nın Hicaz seferi (1811-1813)",
+   "kova": "SEFERLER_OK103",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Osmanlı donanmasının Mora'dan Çeşme'ye çekilişi (1770)",
+   "kova": "SEFERLER_OK103",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Rus donanmasının takibi ve Çeşme baskını (1770)",
+   "kova": "SEFERLER_OK103",
+   "tur": "deniz",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#1f5fa8",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#1f5fa8"
+  },
+  {
+   "ad": "Abdülaziz'in Avrupa seyahati (1867)",
+   "kova": "SEFERLER_P0037",
+   "tur": "seyahat",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  },
+  {
+   "ad": "Münnich'in Kırım seferi — Çariçanka'dan Bahçesaray'a (1",
+   "kova": "SEFERLER_P0064",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Münnich'in Bahçesaray'dan Orkapı'ya dönüşü (1736)",
+   "kova": "SEFERLER_P0064",
+   "tur": "cekilme",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Rus kolunun İzyum'dan Azak'a yürüyüşü (1736)",
+   "kova": "SEFERLER_P0064",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Münnich'in Dinyeper'den Özi'ye yürüyüşü (1737)",
+   "kova": "SEFERLER_P0064",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Lacy'nin Arabat okundan Karasubazar'a seferi (1737)",
+   "kova": "SEFERLER_P0064",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Nâdir Şah'ın Kerkük ve Erbil üzerinden Musul'a yürüyüşü",
+   "kova": "SEFERLER_P0064",
+   "tur": "kusatma",
+   "devlet": null,
+   "taraf": "dusman",
+   "renk_alani": "#0d7d8a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#0d7d8a"
+  },
+  {
+   "ad": "Golitsın ordusunun Kiev'den Podolya'ya yürüyüşü (1769)",
+   "kova": "SEFERLER_P0065",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Panin ordusunun Yelisavetgrad'dan Yedisan bozkırı üzeri",
+   "kova": "SEFERLER_P0065",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Berg kolunun Moloçna'dan Orkapı önüne yürüyüşü (1770)",
+   "kova": "SEFERLER_P0065",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Dolgorukov ordusunun Orkapı'dan Kefe'ye yürüyüşü — Kırı",
+   "kova": "SEFERLER_P0065",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Şçerbatov kolunun Geniçesk'ten Arabat okuyla Arabat kal",
+   "kova": "SEFERLER_P0065",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Şçerbatov kolunun Arabat'tan Kerç, Yenikale ve Taman'a ",
+   "kova": "SEFERLER_P0065",
+   "tur": "sefer",
+   "devlet": "rusya",
+   "taraf": "dusman",
+   "renk_alani": "#276727",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#276727"
+  },
+  {
+   "ad": "Fransız filosunun Toulon'dan Malta üzerinden İskenderiy",
+   "kova": "SEFERLER_P0068",
+   "tur": "deniz",
+   "devlet": "fransa-cumhuriyet",
+   "taraf": "dusman",
+   "renk_alani": "#09095a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#09095a"
+  },
+  {
+   "ad": "Napolyon'un İskenderiye'den Kahire'ye yürüyüşü — Pirami",
+   "kova": "SEFERLER_P0068",
+   "tur": "sefer",
+   "devlet": "fransa-cumhuriyet",
+   "taraf": "dusman",
+   "renk_alani": "#09095a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#09095a"
+  },
+  {
+   "ad": "Napolyon'un İbrahim Bey'i Salihiye'ye kadar kovalaması ",
+   "kova": "SEFERLER_P0068",
+   "tur": "sefer",
+   "devlet": "fransa-cumhuriyet",
+   "taraf": "dusman",
+   "renk_alani": "#09095a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#09095a"
+  },
+  {
+   "ad": "Desaix'nin Yukarı Mısır seferi — Kahire'den Asvan'a (17",
+   "kova": "SEFERLER_P0068",
+   "tur": "sefer",
+   "devlet": "fransa-cumhuriyet",
+   "taraf": "dusman",
+   "renk_alani": "#09095a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#09095a"
+  },
+  {
+   "ad": "Akkâ kuşatması sırasında Fransız kollarının Nâsıra ve T",
+   "kova": "SEFERLER_P0068",
+   "tur": "sefer",
+   "devlet": "fransa-cumhuriyet",
+   "taraf": "dusman",
+   "renk_alani": "#09095a",
+   "kaynak": "elle-renk",
+   "bugunku_renk": "#09095a"
+  },
+  {
+   "ad": "Sadrazam Yûsuf Ziyâ Paşa ordusunun El-Ariş'ten Hanka'ya",
+   "kova": "SEFERLER_P0068",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "osmanli",
+   "renk_alani": null,
+   "kaynak": "taraf-osmanli",
+   "bugunku_renk": "#5c0716"
+  },
+  {
+   "ad": "Yûsuf Ziyâ Paşa'nın Hanka'dan Kahire'ye girişi — Fransı",
+   "kova": "SEFERLER_P0068",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "osmanli",
+   "renk_alani": null,
+   "kaynak": "taraf-osmanli",
+   "bugunku_renk": "#5c0716"
+  },
+  {
+   "ad": "İngiliz donanmasının Çanakkale'den İstanbul önlerine ge",
+   "kova": "SEFERLER_P0071",
+   "tur": "deniz",
+   "devlet": "ingiltere",
+   "taraf": "dusman",
+   "renk_alani": null,
+   "kaynak": "devlet",
+   "bugunku_renk": "#52285d"
+  },
+  {
+   "ad": "Hareket Ordusu'nun Selanik'ten İstanbul'a yürüyüşü (190",
+   "kova": "SEFERLER_P0071",
+   "tur": "sefer",
+   "devlet": null,
+   "taraf": "osmanli",
+   "renk_alani": null,
+   "kaynak": "taraf-osmanli",
+   "bugunku_renk": "#5c0716"
+  },
+  {
+   "ad": "Edirne Vak'ası — âsilerin İstanbul'dan Edirne'ye yürüyü",
+   "kova": "SEFERLER_P0071",
+   "tur": "isyan",
+   "devlet": null,
+   "taraf": null,
+   "renk_alani": null,
+   "kaynak": "varsayilan",
+   "bugunku_renk": "#2b1006"
+  }
+ ]
+}
