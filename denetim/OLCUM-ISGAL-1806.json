@@ -1,0 +1,1075 @@
+{
+ "kutu": {
+  "lat0": 43.0,
+  "lat1": 49.5,
+  "lon0": 20.0,
+  "lon1": 32.5
+ },
+ "pencere": [
+  "1805-01-01",
+  "1813-12-31"
+ ],
+ "yerlesim_sayisi": 80,
+ "kayit_sayisi": 58,
+ "kayitlar": [
+  {
+   "yer": "Hotin",
+   "lat": 48.51,
+   "lon": 26.492,
+   "kat": "isg",
+   "f": "1806-01-01",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "hotin — 1806 günü G5-RUS-1806-BOGDAN kararını bekliyor"
+  },
+  {
+   "yer": "Akkirman",
+   "lat": 46.1968,
+   "lon": 30.3431,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "akkirman"
+  },
+  {
+   "yer": "Bender",
+   "lat": 46.831,
+   "lon": 29.481,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Hotin, Bender, Akkirman ve Kili komutanları kaleleri savaşsız teslim etti"
+  },
+  {
+   "yer": "Kili",
+   "lat": 45.451,
+   "lon": 29.271,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "kili · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806)"
+  },
+  {
+   "yer": "Yaş",
+   "lat": 47.157,
+   "lon": 27.601,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan"
+  },
+  {
+   "yer": "Buzău",
+   "lat": 45.15,
+   "lon": 26.817,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Bükreş",
+   "lat": 44.427,
+   "lon": 26.103,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "eflak · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Kımpulung (Câmpulung)",
+   "lat": 45.269,
+   "lon": 25.045,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Piteşti",
+   "lat": 44.857,
+   "lon": 24.869,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Rimnik-i Sârat (Râmnicu Sărat)",
+   "lat": 45.383,
+   "lon": 27.056,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Tırgovişte",
+   "lat": 44.925,
+   "lon": 25.457,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "İsmail",
+   "lat": 45.351,
+   "lon": 28.836,
+   "kat": "isg",
+   "f": "1809-09-26",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "ESBE «Измаил, город» (14 Eylül 1809 J) · ESBE «Турецкие войны России»"
+  },
+  {
+   "yer": "İbrail",
+   "lat": 45.27,
+   "lon": 27.972,
+   "kat": "isg",
+   "f": "1809-12-02",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Silistre",
+   "lat": 44.117,
+   "lon": 27.26,
+   "kat": "isg",
+   "f": "1810-06-10",
+   "t": "1811-05-01",
+   "d": "rusya",
+   "kaynak": "ESBE «Силистрия» (29 May J 1810 teslim) · TDV silistre (1811 Mayısı surlar uçuruldu, Ruslar çekildi)"
+  },
+  {
+   "yer": "Rusçuk",
+   "lat": 43.856,
+   "lon": 25.971,
+   "kat": "isg",
+   "f": "1810-09-26",
+   "t": "1811-07-04",
+   "d": "rusya",
+   "kaynak": "ruscuk · ESBE «Турецкие войны России» (muharebe 22 Haz J = 4 Tem 1811 G) · t: ALT SINIR — Rusçuk muharebesi 4 Tem 1811 G; tahliye günü birincil kaynakta doğrulanamadı (27/28 Haz J = 9/10 Tem G okumaları metinden okunamadı). Eski t:1811-06-01 TDV 'Haziran' ay koduydu, muharebeden ÖNCEYE düşüyordu. KIRILMASIZ-9, 19 Eyl 2026, 1.MURAT M-4632 (B)."
+  },
+  {
+   "yer": "Yergöğü (Giurgiu)",
+   "lat": 43.904,
+   "lon": 25.97,
+   "kat": "isg",
+   "f": "1810-09-27",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "yergogu · ESBE «Турецкие войны России» (15 Eylül J) · Bükreş Antlaşması (iade ÇIKARIMLI)"
+  },
+  {
+   "yer": "Niğbolu",
+   "lat": 43.706,
+   "lon": 24.892,
+   "kat": "isg",
+   "f": "1810-10-01",
+   "t": "1811-04-01",
+   "d": "rusya",
+   "kaynak": "TDV nigbolu (Ekim 1810 · Nisan 1811) · ESBE-TV ('Никополь и Турно сдались без сопротивления', 9 Ekim J sonrası)"
+  },
+  {
+   "yer": "Szatmár (Satu Mare)",
+   "lat": 47.7892,
+   "lon": 22.8726,
+   "kat": "s",
+   "f": "1526-08-29",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Eperjes (Prešov)",
+   "lat": 48.999,
+   "lon": 21.236,
+   "kat": "s",
+   "f": "1685-10-15",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Kassa (Košice)",
+   "lat": 48.714,
+   "lon": 21.258,
+   "kat": "s",
+   "f": "1685-10-15",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Tokaj",
+   "lat": 48.117,
+   "lon": 21.409,
+   "kat": "s",
+   "f": "1685-10-15",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Ungvár (Uzhhorod)",
+   "lat": 48.6224,
+   "lon": 22.3023,
+   "kat": "s",
+   "f": "1685-10-15",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Solnok (Szolnok)",
+   "lat": 47.174,
+   "lon": 20.198,
+   "kat": "s",
+   "f": "1685-10-19",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Segedin (Szeged)",
+   "lat": 46.253,
+   "lon": 20.148,
+   "kat": "s",
+   "f": "1686-10-23",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Brassó (Braşov)",
+   "lat": 45.6427,
+   "lon": 25.5887,
+   "kat": "s",
+   "f": "1687-08-12",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Erdel (Kaloşvar)",
+   "lat": 46.77,
+   "lon": 23.591,
+   "kat": "s",
+   "f": "1687-08-12",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Erdel Belgradı (Gyulafehérvár)",
+   "lat": 46.0678,
+   "lon": 23.58,
+   "kat": "s",
+   "f": "1687-08-12",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Segesvár (Sighişoara)",
+   "lat": 46.2197,
+   "lon": 24.7925,
+   "kat": "s",
+   "f": "1687-08-12",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Eğri",
+   "lat": 47.902,
+   "lon": 20.377,
+   "kat": "s",
+   "f": "1687-12-17",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Munkács (Mukacheve)",
+   "lat": 48.4421,
+   "lon": 22.7185,
+   "kat": "s",
+   "f": "1688-01-17",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Debrecen",
+   "lat": 47.5316,
+   "lon": 21.6273,
+   "kat": "s",
+   "f": "1692-06-05",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Varad (Oradea)",
+   "lat": 47.053,
+   "lon": 21.941,
+   "kat": "s",
+   "f": "1692-06-05",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Yanova (Ineu)",
+   "lat": 46.426,
+   "lon": 21.741,
+   "kat": "s",
+   "f": "1693-01-01",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Gyula (Göle)",
+   "lat": 46.65,
+   "lon": 21.277,
+   "kat": "s",
+   "f": "1699-01-26",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Lugos (Lugoj)",
+   "lat": 45.688,
+   "lon": 21.903,
+   "kat": "s",
+   "f": "1716-01-01",
+   "t": "1918-01-01",
+   "d": "avusturya",
+   "kaynak": "TDV timisvar: '1552-1716 yılları arasında durumunu koruyan Tımışvar beylerbeyiliği' (eyaletin sonu, YIL; Lugos'un kendi günü yok) · t: 'Habsburg … hâkimiyeti I. Dünya Savaşı sonuna kadar (1918) sürdü' — YIL"
+  },
+  {
+   "yer": "Temeşvar",
+   "lat": 45.76,
+   "lon": 21.23,
+   "kat": "s",
+   "f": "1716-10-13",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Yelisavetgrad (Aziz Yelizaveta Kalesi)",
+   "lat": 48.51,
+   "lon": 32.26,
+   "kat": "s",
+   "f": "1754-01-01",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Yazlofça (Yazlovets)",
+   "lat": 48.951,
+   "lon": 25.435,
+   "kat": "s",
+   "f": "1772-08-05",
+   "t": "1918-11-11",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Suçava (Suceava)",
+   "lat": 47.633,
+   "lon": 26.25,
+   "kat": "s",
+   "f": "1775-05-07",
+   "t": "1918-11-28",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Çernovitz (Çernivtsi)",
+   "lat": 48.292,
+   "lon": 25.935,
+   "kat": "s",
+   "f": "1775-05-07",
+   "t": "1918-11-28",
+   "d": "avusturya",
+   "kaynak": null
+  },
+  {
+   "yer": "Özi",
+   "lat": 46.6247,
+   "lon": 31.5421,
+   "kat": "s",
+   "f": "1788-12-17",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Orsova (Eski Orsova)",
+   "lat": 44.72,
+   "lon": 22.4,
+   "kat": "s",
+   "f": "1790-04-16",
+   "t": "1918-01-01",
+   "d": "avusturya",
+   "kaynak": "TDV zistovi-antlasmasi: '16 Nisan’da eski Hırsova kış boyunca süren zorlu bir muhasaradan sonra Avusturya kuvvetlerinin eline geçti' + muâhede-i mahsûsa 'Çerna ve Eski Hırsova bölgesinin … terki' · B 0019/1796: Ziştovi'de Avusturya 'Orsova kivételével' fetihlerini geri verdi ⇒ GERİ VERİLMEDİ · t: TDV timisvar (1918) — YIL"
+  },
+  {
+   "yer": "Hacıbey (Odessa)",
+   "lat": 46.485,
+   "lon": 30.733,
+   "kat": "s",
+   "f": "1792-01-09",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Yedisan bozkırı",
+   "lat": 47.6,
+   "lon": 30.9,
+   "kat": "s",
+   "f": "1792-01-09",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Bar (Podolya)",
+   "lat": 49.074,
+   "lon": 27.674,
+   "kat": "s",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Braslav (Bratslav)",
+   "lat": 48.823,
+   "lon": 28.938,
+   "kat": "s",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Kamaniçe",
+   "lat": 48.674,
+   "lon": 26.574,
+   "kat": "s",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Meciboj (Mejibuji)",
+   "lat": 49.431,
+   "lon": 27.415,
+   "kat": "s",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Uman",
+   "lat": 48.7484,
+   "lon": 30.2219,
+   "kat": "s",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Vinnitsa (Vinnytsia)",
+   "lat": 49.232,
+   "lon": 28.469,
+   "kat": "s",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Akkirman",
+   "lat": 46.1968,
+   "lon": 30.3431,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Bender",
+   "lat": 46.831,
+   "lon": 29.481,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Hotin",
+   "lat": 48.51,
+   "lon": 26.492,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Kahul (Cahul)",
+   "lat": 45.905,
+   "lon": 28.198,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1856-03-30",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Kili",
+   "lat": 45.451,
+   "lon": 29.271,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Orhei",
+   "lat": 47.383,
+   "lon": 28.823,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "Soroka (Soroca)",
+   "lat": 48.158,
+   "lon": 28.299,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "d": "rusya",
+   "kaynak": null
+  },
+  {
+   "yer": "İsmail",
+   "lat": 45.351,
+   "lon": 28.836,
+   "kat": "s",
+   "f": "1812-05-28",
+   "t": "1856-03-30",
+   "d": "rusya",
+   "kaynak": null
+  }
+ ],
+ "kesitler": {
+  "1806-11-22": {
+   "etiket": "Dinyester geçilmeden bir gün önce",
+   "isgal_sayisi": 1,
+   "isgalli": [
+    "Hotin"
+   ],
+   "sahiplik": {
+    "OSMANLI": 28,
+    "avusturya": 23,
+    "tâbi:eflak": 11,
+    "rusya": 10,
+    "tâbi:bogdan": 7,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1806-11-23": {
+   "etiket": "Rus ordusu Dinyester'i geçti",
+   "isgal_sayisi": 1,
+   "isgalli": [
+    "Hotin"
+   ],
+   "sahiplik": {
+    "OSMANLI": 28,
+    "avusturya": 23,
+    "tâbi:eflak": 11,
+    "rusya": 10,
+    "tâbi:bogdan": 7,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1806-12-25": {
+   "etiket": "Miloradoviç Bükreş'te — Emre'nin görseli",
+   "isgal_sayisi": 11,
+   "isgalli": [
+    "Akkirman",
+    "Bender",
+    "Buzău",
+    "Bükreş",
+    "Hotin",
+    "Kili",
+    "Kımpulung (Câmpulung)",
+    "Piteşti",
+    "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Tırgovişte",
+    "Yaş"
+   ],
+   "sahiplik": {
+    "OSMANLI": 28,
+    "avusturya": 23,
+    "tâbi:eflak": 11,
+    "rusya": 10,
+    "tâbi:bogdan": 7,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1807-06-01": {
+   "etiket": "1807 seferi",
+   "isgal_sayisi": 11,
+   "isgalli": [
+    "Akkirman",
+    "Bender",
+    "Buzău",
+    "Bükreş",
+    "Hotin",
+    "Kili",
+    "Kımpulung (Câmpulung)",
+    "Piteşti",
+    "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Tırgovişte",
+    "Yaş"
+   ],
+   "sahiplik": {
+    "OSMANLI": 28,
+    "avusturya": 23,
+    "tâbi:eflak": 11,
+    "rusya": 10,
+    "tâbi:bogdan": 7,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1809-09-01": {
+   "etiket": "1809 seferi",
+   "isgal_sayisi": 11,
+   "isgalli": [
+    "Akkirman",
+    "Bender",
+    "Buzău",
+    "Bükreş",
+    "Hotin",
+    "Kili",
+    "Kımpulung (Câmpulung)",
+    "Piteşti",
+    "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Tırgovişte",
+    "Yaş"
+   ],
+   "sahiplik": {
+    "OSMANLI": 28,
+    "avusturya": 23,
+    "tâbi:eflak": 11,
+    "rusya": 10,
+    "tâbi:bogdan": 7,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1811-10-01": {
+   "etiket": "Ruscuk/Slobozia",
+   "isgal_sayisi": 14,
+   "isgalli": [
+    "Akkirman",
+    "Bender",
+    "Buzău",
+    "Bükreş",
+    "Hotin",
+    "Kili",
+    "Kımpulung (Câmpulung)",
+    "Piteşti",
+    "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Tırgovişte",
+    "Yaş",
+    "Yergöğü (Giurgiu)",
+    "İbrail",
+    "İsmail"
+   ],
+   "sahiplik": {
+    "OSMANLI": 28,
+    "avusturya": 23,
+    "tâbi:eflak": 11,
+    "rusya": 10,
+    "tâbi:bogdan": 7,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1812-05-28": {
+   "etiket": "Bükreş Antlaşması",
+   "isgal_sayisi": 14,
+   "isgalli": [
+    "Akkirman",
+    "Bender",
+    "Buzău",
+    "Bükreş",
+    "Hotin",
+    "Kili",
+    "Kımpulung (Câmpulung)",
+    "Piteşti",
+    "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Tırgovişte",
+    "Yaş",
+    "Yergöğü (Giurgiu)",
+    "İbrail",
+    "İsmail"
+   ],
+   "sahiplik": {
+    "OSMANLI": 23,
+    "avusturya": 23,
+    "rusya": 18,
+    "tâbi:eflak": 11,
+    "tâbi:bogdan": 4,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  },
+  "1812-06-01": {
+   "etiket": "antlaşmadan sonra",
+   "isgal_sayisi": 0,
+   "isgalli": [],
+   "sahiplik": {
+    "OSMANLI": 23,
+    "avusturya": 23,
+    "rusya": 18,
+    "tâbi:eflak": 11,
+    "tâbi:bogdan": 4,
+    "None": 1
+   },
+   "hicbiri": [
+    "Bolgrad (Bolhrad)"
+   ]
+  }
+ },
+ "tabi_1806_12_25": [
+  {
+   "yer": "Birlad (Bârlad)",
+   "lat": 46.23,
+   "lon": 27.667,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Buzău",
+   "lat": 45.15,
+   "lon": 26.817,
+   "tabi": "tâbi:eflak",
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
+  },
+  {
+   "yer": "Bükreş",
+   "lat": 44.427,
+   "lon": 26.103,
+   "tabi": "tâbi:eflak",
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "eflak · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
+  },
+  {
+   "yer": "Kahul (Cahul)",
+   "lat": 45.905,
+   "lon": 28.198,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Kalas (Galatz)",
+   "lat": 45.435,
+   "lon": 28.008,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Krayova (Craiova)",
+   "lat": 44.33,
+   "lon": 23.795,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Kımpulung (Câmpulung)",
+   "lat": 45.269,
+   "lon": 25.045,
+   "tabi": "tâbi:eflak",
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
+  },
+  {
+   "yer": "Orhei",
+   "lat": 47.383,
+   "lon": 28.823,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Piteşti",
+   "lat": 44.857,
+   "lon": 24.869,
+   "tabi": "tâbi:eflak",
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
+  },
+  {
+   "yer": "Rimnik (Râmnicu Vâlcea)",
+   "lat": 45.105,
+   "lon": 24.375,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Rimnik-i Sârat (Râmnicu Sărat)",
+   "lat": 45.383,
+   "lon": 27.056,
+   "tabi": "tâbi:eflak",
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
+  },
+  {
+   "yer": "Roman",
+   "lat": 46.925,
+   "lon": 26.93,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Slatina",
+   "lat": 44.427,
+   "lon": 24.371,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Soroka (Soroca)",
+   "lat": 48.158,
+   "lon": 28.299,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Turnu Severin",
+   "lat": 44.632,
+   "lon": 22.656,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Tırgovişte",
+   "lat": 44.925,
+   "lon": 25.457,
+   "tabi": "tâbi:eflak",
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
+  },
+  {
+   "yer": "Tırgu Jiu",
+   "lat": 45.035,
+   "lon": 23.275,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Yaş",
+   "lat": 47.157,
+   "lon": 27.601,
+   "tabi": "tâbi:bogdan",
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan"
+   }
+  }
+ ],
+ "KOPUK_1806_12_25": [
+  {
+   "yer": "Soroka (Soroca)",
+   "lat": 48.158,
+   "lon": 28.299,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Orhei",
+   "lat": 47.383,
+   "lon": 28.823,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Roman",
+   "lat": 46.925,
+   "lon": 26.93,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Birlad (Bârlad)",
+   "lat": 46.23,
+   "lon": 27.667,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Kahul (Cahul)",
+   "lat": 45.905,
+   "lon": 28.198,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Kalas (Galatz)",
+   "lat": 45.435,
+   "lon": 28.008,
+   "tabi": "tâbi:bogdan",
+   "isgal": null
+  },
+  {
+   "yer": "Rimnik (Râmnicu Vâlcea)",
+   "lat": 45.105,
+   "lon": 24.375,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Tırgu Jiu",
+   "lat": 45.035,
+   "lon": 23.275,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Turnu Severin",
+   "lat": 44.632,
+   "lon": 22.656,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Slatina",
+   "lat": 44.427,
+   "lon": 24.371,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  },
+  {
+   "yer": "Krayova (Craiova)",
+   "lat": 44.33,
+   "lon": 23.795,
+   "tabi": "tâbi:eflak",
+   "isgal": null
+  }
+ ],
+ "isgal_bloklari": {
+  "1806-12-25|1812-05-28|rusya": [
+   "Buzău",
+   "Bükreş",
+   "Kımpulung (Câmpulung)",
+   "Piteşti",
+   "Rimnik-i Sârat (Râmnicu Sărat)",
+   "Tırgovişte"
+  ],
+  "1806-11-30|1812-05-28|rusya": [
+   "Akkirman",
+   "Bender",
+   "Kili",
+   "Yaş"
+  ],
+  "1810-06-10|1811-05-01|rusya": [
+   "Silistre"
+  ],
+  "1810-10-01|1811-04-01|rusya": [
+   "Niğbolu"
+  ],
+  "1810-09-26|1811-07-04|rusya": [
+   "Rusçuk"
+  ],
+  "1809-12-02|1812-05-28|rusya": [
+   "İbrail"
+  ],
+  "1806-01-01|1812-05-28|rusya": [
+   "Hotin"
+  ],
+  "1809-09-26|1812-05-28|rusya": [
+   "İsmail"
+  ],
+  "1810-09-27|1812-05-28|rusya": [
+   "Yergöğü (Giurgiu)"
+  ]
+ }
+}

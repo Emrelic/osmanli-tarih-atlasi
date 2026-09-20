@@ -1,0 +1,2788 @@
+{
+ "kutu": {
+  "lat0": 39.5,
+  "lat1": 46.5,
+  "lon0": 35.0,
+  "lon1": 47.5
+ },
+ "esik_km": 160.0,
+ "nokta": 84,
+ "baslangic": "Batum",
+ "hedefler": [
+  "Anapa",
+  "Taman",
+  "Sohum"
+ ],
+ "kesitler": {
+  "1809-12-31": {
+   "osmanli_zincir_nokta": 56,
+   "hedefler": {
+    "Anapa": {
+     "yol": null,
+     "atlama": null
+    },
+    "Taman": {
+     "yol": null,
+     "sebep": "Taman o gün Osmanlı/tâbi DEĞİL (rusya)"
+    },
+    "Sohum": {
+     "yol": [
+      "Batum",
+      "Sohum"
+     ],
+     "atlama": 1
+    }
+   },
+   "tablo": {
+    "Sinop": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 42.027,
+     "lon": 35.151
+    },
+    "Samsun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.286,
+     "lon": 36.331
+    },
+    "Amasya": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.65,
+     "lon": 35.833
+    },
+    "Tokat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.314,
+     "lon": 36.554
+    },
+    "Sivas": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 37.015
+    },
+    "Trabzon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.005,
+     "lon": 39.723
+    },
+    "Giresun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.918,
+     "lon": 38.389
+    },
+    "Ordu (Bayramlı)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.976,
+     "lon": 37.848
+    },
+    "Ünye": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.128,
+     "lon": 37.283
+    },
+    "Rize": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.02,
+     "lon": 40.523
+    },
+    "Erzincan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 39.492
+    },
+    "Erzurum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.905,
+     "lon": 41.266
+    },
+    "Kars": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.602,
+     "lon": 43.095
+    },
+    "Ardahan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.111,
+     "lon": 42.702
+    },
+    "Kefe": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.032,
+     "lon": 35.382
+    },
+    "Kerç": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.356,
+     "lon": 36.467
+    },
+    "Taman": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2029,
+     "lon": 36.7172
+    },
+    "Anapa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.894,
+     "lon": 37.316
+    },
+    "Sohum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 43.001,
+     "lon": 41.023
+    },
+    "Soçi (Sâşe)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 43.585,
+     "lon": 39.723
+    },
+    "Tuapse": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.103,
+     "lon": 39.08
+    },
+    "Kuban (Yekaterinodar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.035,
+     "lon": 38.975
+    },
+    "Maykop (Çerkezya)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.609,
+     "lon": 40.101
+    },
+    "Kabartay (Nalçik)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.498,
+     "lon": 43.618
+    },
+    "Tarki (Tarku)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.98,
+     "lon": 47.5
+    },
+    "Terek deltası (Kızlar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.85,
+     "lon": 46.72
+    },
+    "Tiflis": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.716,
+     "lon": 44.783
+    },
+    "Zagem (Kaheti)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.7,
+     "lon": 45.78
+    },
+    "Revan": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.183,
+     "lon": 44.515
+    },
+    "Gence": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.683,
+     "lon": 46.36
+    },
+    "Ereş": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.74,
+     "lon": 47.31
+    },
+    "Batum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.6439,
+     "lon": 41.642
+    },
+    "Ahıska": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.643,
+     "lon": 42.986
+    },
+    "Kutaisi": {
+     "kimlik": "imereti",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.268,
+     "lon": 42.695
+    },
+    "Vladikavkaz": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.024,
+     "lon": 44.682
+    },
+    "Kalmuk bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 46.5,
+     "lon": 45.5
+    },
+    "Kemah": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.6,
+     "lon": 39.03
+    },
+    "Niksar": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.593,
+     "lon": 36.951
+    },
+    "Terme": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.207,
+     "lon": 36.976
+    },
+    "Çarşamba": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.199,
+     "lon": 36.727
+    },
+    "Merzifon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.876,
+     "lon": 35.463
+    },
+    "Ladik (Amasya)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.912,
+     "lon": 35.898
+    },
+    "Şeki (Nuha)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.1919,
+     "lon": 47.1706
+    },
+    "Berde (Karabağ)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.3747,
+     "lon": 47.1281
+    },
+    "Şuşa": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.7558,
+     "lon": 46.7492
+    },
+    "Eski Kırım (Solhat)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.0281,
+     "lon": 35.1078
+    },
+    "Şavşat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.245,
+     "lon": 42.36
+    },
+    "Posof": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.51,
+     "lon": 42.72
+    },
+    "Hanak": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.23,
+     "lon": 42.855
+    },
+    "Hulo (Acara)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.645,
+     "lon": 42.31
+    },
+    "Arpaçay (Akyaka)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.845,
+     "lon": 43.325
+    },
+    "Digor": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.375,
+     "lon": 43.41
+    },
+    "Iğdır": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.92,
+     "lon": 44.045
+    },
+    "Gümrü (Aleksandropol)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.789,
+     "lon": 43.847
+    },
+    "Eçmiyadzin": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.162,
+     "lon": 44.293
+    },
+    "Doğubayazıt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.548,
+     "lon": 44.084
+    },
+    "Artvin": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.183,
+     "lon": 41.822
+    },
+    "Hopa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.39,
+     "lon": 41.427
+    },
+    "Sarp": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.52,
+     "lon": 41.545
+    },
+    "Arhavi": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.354,
+     "lon": 41.316
+    },
+    "Borçka": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.339,
+     "lon": 41.677
+    },
+    "Sarıkamış": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.328,
+     "lon": 42.578
+    },
+    "Ahılkelek (Akhalkalaki)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.403,
+     "lon": 43.484
+    },
+    "Karahisâr-ı Şarkî (Şebinkarahisar)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2886,
+     "lon": 38.4247
+    },
+    "Kelkit": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.1281,
+     "lon": 39.4381
+    },
+    "Aşkale": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.9214,
+     "lon": 40.6939
+    },
+    "Şerur (Sharur)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.55,
+     "lon": 44.95
+    },
+    "Kuban Nogay bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2,
+     "lon": 41.0
+    },
+    "Stavropol–Kuma bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 44.85,
+     "lon": 42.6
+    },
+    "Kuban deltası bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.5,
+     "lon": 37.8
+    },
+    "Zazalo": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.62509,
+     "lon": 42.753
+    },
+    "Murvaneti": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56279,
+     "lon": 41.62598
+    },
+    "Ts’q’altbila": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.58278,
+     "lon": 42.86714
+    },
+    "Saylıca": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.33615,
+     "lon": 42.33915
+    },
+    "Makhalak’auri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56667,
+     "lon": 42.41667
+    },
+    "Norapat": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.14172,
+     "lon": 44.03332
+    },
+    "Beri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.91667,
+     "lon": 44.25
+    },
+    "Kliçatak (Suser)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.46393,
+     "lon": 43.73328
+    },
+    "Küçükperveli": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.67302,
+     "lon": 43.61322
+    },
+    "Yenikale": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.3521,
+     "lon": 36.6004
+    },
+    "Bayburt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2552,
+     "lon": 40.2249
+    },
+    "Mesudiye (Milas)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.4633,
+     "lon": 37.7728
+    },
+    "Gölköy (Habsamana)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.6878,
+     "lon": 37.6178
+    },
+    "Reşadiye (İskefsir)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.3919,
+     "lon": 37.3375
+    }
+   }
+  },
+  "1810-02-20": {
+   "osmanli_zincir_nokta": 56,
+   "hedefler": {
+    "Anapa": {
+     "yol": null,
+     "atlama": null
+    },
+    "Taman": {
+     "yol": null,
+     "sebep": "Taman o gün Osmanlı/tâbi DEĞİL (rusya)"
+    },
+    "Sohum": {
+     "yol": [
+      "Batum",
+      "Sohum"
+     ],
+     "atlama": 1
+    }
+   },
+   "tablo": {
+    "Sinop": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 42.027,
+     "lon": 35.151
+    },
+    "Samsun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.286,
+     "lon": 36.331
+    },
+    "Amasya": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.65,
+     "lon": 35.833
+    },
+    "Tokat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.314,
+     "lon": 36.554
+    },
+    "Sivas": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 37.015
+    },
+    "Trabzon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.005,
+     "lon": 39.723
+    },
+    "Giresun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.918,
+     "lon": 38.389
+    },
+    "Ordu (Bayramlı)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.976,
+     "lon": 37.848
+    },
+    "Ünye": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.128,
+     "lon": 37.283
+    },
+    "Rize": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.02,
+     "lon": 40.523
+    },
+    "Erzincan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 39.492
+    },
+    "Erzurum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.905,
+     "lon": 41.266
+    },
+    "Kars": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.602,
+     "lon": 43.095
+    },
+    "Ardahan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.111,
+     "lon": 42.702
+    },
+    "Kefe": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.032,
+     "lon": 35.382
+    },
+    "Kerç": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.356,
+     "lon": 36.467
+    },
+    "Taman": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2029,
+     "lon": 36.7172
+    },
+    "Anapa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.894,
+     "lon": 37.316
+    },
+    "Sohum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 43.001,
+     "lon": 41.023
+    },
+    "Soçi (Sâşe)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 43.585,
+     "lon": 39.723
+    },
+    "Tuapse": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.103,
+     "lon": 39.08
+    },
+    "Kuban (Yekaterinodar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.035,
+     "lon": 38.975
+    },
+    "Maykop (Çerkezya)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.609,
+     "lon": 40.101
+    },
+    "Kabartay (Nalçik)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.498,
+     "lon": 43.618
+    },
+    "Tarki (Tarku)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.98,
+     "lon": 47.5
+    },
+    "Terek deltası (Kızlar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.85,
+     "lon": 46.72
+    },
+    "Tiflis": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.716,
+     "lon": 44.783
+    },
+    "Zagem (Kaheti)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.7,
+     "lon": 45.78
+    },
+    "Revan": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.183,
+     "lon": 44.515
+    },
+    "Gence": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.683,
+     "lon": 46.36
+    },
+    "Ereş": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.74,
+     "lon": 47.31
+    },
+    "Batum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.6439,
+     "lon": 41.642
+    },
+    "Ahıska": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.643,
+     "lon": 42.986
+    },
+    "Kutaisi": {
+     "kimlik": "imereti",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.268,
+     "lon": 42.695
+    },
+    "Vladikavkaz": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.024,
+     "lon": 44.682
+    },
+    "Kalmuk bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 46.5,
+     "lon": 45.5
+    },
+    "Kemah": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.6,
+     "lon": 39.03
+    },
+    "Niksar": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.593,
+     "lon": 36.951
+    },
+    "Terme": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.207,
+     "lon": 36.976
+    },
+    "Çarşamba": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.199,
+     "lon": 36.727
+    },
+    "Merzifon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.876,
+     "lon": 35.463
+    },
+    "Ladik (Amasya)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.912,
+     "lon": 35.898
+    },
+    "Şeki (Nuha)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.1919,
+     "lon": 47.1706
+    },
+    "Berde (Karabağ)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.3747,
+     "lon": 47.1281
+    },
+    "Şuşa": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.7558,
+     "lon": 46.7492
+    },
+    "Eski Kırım (Solhat)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.0281,
+     "lon": 35.1078
+    },
+    "Şavşat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.245,
+     "lon": 42.36
+    },
+    "Posof": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.51,
+     "lon": 42.72
+    },
+    "Hanak": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.23,
+     "lon": 42.855
+    },
+    "Hulo (Acara)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.645,
+     "lon": 42.31
+    },
+    "Arpaçay (Akyaka)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.845,
+     "lon": 43.325
+    },
+    "Digor": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.375,
+     "lon": 43.41
+    },
+    "Iğdır": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.92,
+     "lon": 44.045
+    },
+    "Gümrü (Aleksandropol)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.789,
+     "lon": 43.847
+    },
+    "Eçmiyadzin": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.162,
+     "lon": 44.293
+    },
+    "Doğubayazıt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.548,
+     "lon": 44.084
+    },
+    "Artvin": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.183,
+     "lon": 41.822
+    },
+    "Hopa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.39,
+     "lon": 41.427
+    },
+    "Sarp": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.52,
+     "lon": 41.545
+    },
+    "Arhavi": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.354,
+     "lon": 41.316
+    },
+    "Borçka": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.339,
+     "lon": 41.677
+    },
+    "Sarıkamış": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.328,
+     "lon": 42.578
+    },
+    "Ahılkelek (Akhalkalaki)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.403,
+     "lon": 43.484
+    },
+    "Karahisâr-ı Şarkî (Şebinkarahisar)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2886,
+     "lon": 38.4247
+    },
+    "Kelkit": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.1281,
+     "lon": 39.4381
+    },
+    "Aşkale": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.9214,
+     "lon": 40.6939
+    },
+    "Şerur (Sharur)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.55,
+     "lon": 44.95
+    },
+    "Kuban Nogay bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2,
+     "lon": 41.0
+    },
+    "Stavropol–Kuma bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 44.85,
+     "lon": 42.6
+    },
+    "Kuban deltası bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.5,
+     "lon": 37.8
+    },
+    "Zazalo": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.62509,
+     "lon": 42.753
+    },
+    "Murvaneti": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56279,
+     "lon": 41.62598
+    },
+    "Ts’q’altbila": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.58278,
+     "lon": 42.86714
+    },
+    "Saylıca": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.33615,
+     "lon": 42.33915
+    },
+    "Makhalak’auri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56667,
+     "lon": 42.41667
+    },
+    "Norapat": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.14172,
+     "lon": 44.03332
+    },
+    "Beri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.91667,
+     "lon": 44.25
+    },
+    "Kliçatak (Suser)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.46393,
+     "lon": 43.73328
+    },
+    "Küçükperveli": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.67302,
+     "lon": 43.61322
+    },
+    "Yenikale": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.3521,
+     "lon": 36.6004
+    },
+    "Bayburt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2552,
+     "lon": 40.2249
+    },
+    "Mesudiye (Milas)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.4633,
+     "lon": 37.7728
+    },
+    "Gölköy (Habsamana)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.6878,
+     "lon": 37.6178
+    },
+    "Reşadiye (İskefsir)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.3919,
+     "lon": 37.3375
+    }
+   }
+  },
+  "1810-07-15": {
+   "osmanli_zincir_nokta": 55,
+   "hedefler": {
+    "Anapa": {
+     "yol": null,
+     "atlama": null
+    },
+    "Taman": {
+     "yol": null,
+     "sebep": "Taman o gün Osmanlı/tâbi DEĞİL (rusya)"
+    },
+    "Sohum": {
+     "yol": null,
+     "sebep": "Sohum o gün Osmanlı/tâbi DEĞİL (rusya)"
+    }
+   },
+   "tablo": {
+    "Sinop": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 42.027,
+     "lon": 35.151
+    },
+    "Samsun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.286,
+     "lon": 36.331
+    },
+    "Amasya": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.65,
+     "lon": 35.833
+    },
+    "Tokat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.314,
+     "lon": 36.554
+    },
+    "Sivas": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 37.015
+    },
+    "Trabzon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.005,
+     "lon": 39.723
+    },
+    "Giresun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.918,
+     "lon": 38.389
+    },
+    "Ordu (Bayramlı)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.976,
+     "lon": 37.848
+    },
+    "Ünye": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.128,
+     "lon": 37.283
+    },
+    "Rize": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.02,
+     "lon": 40.523
+    },
+    "Erzincan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 39.492
+    },
+    "Erzurum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.905,
+     "lon": 41.266
+    },
+    "Kars": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.602,
+     "lon": 43.095
+    },
+    "Ardahan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.111,
+     "lon": 42.702
+    },
+    "Kefe": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.032,
+     "lon": 35.382
+    },
+    "Kerç": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.356,
+     "lon": 36.467
+    },
+    "Taman": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2029,
+     "lon": 36.7172
+    },
+    "Anapa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.894,
+     "lon": 37.316
+    },
+    "Sohum": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.001,
+     "lon": 41.023
+    },
+    "Soçi (Sâşe)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 43.585,
+     "lon": 39.723
+    },
+    "Tuapse": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.103,
+     "lon": 39.08
+    },
+    "Kuban (Yekaterinodar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.035,
+     "lon": 38.975
+    },
+    "Maykop (Çerkezya)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.609,
+     "lon": 40.101
+    },
+    "Kabartay (Nalçik)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.498,
+     "lon": 43.618
+    },
+    "Tarki (Tarku)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.98,
+     "lon": 47.5
+    },
+    "Terek deltası (Kızlar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.85,
+     "lon": 46.72
+    },
+    "Tiflis": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.716,
+     "lon": 44.783
+    },
+    "Zagem (Kaheti)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.7,
+     "lon": 45.78
+    },
+    "Revan": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.183,
+     "lon": 44.515
+    },
+    "Gence": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.683,
+     "lon": 46.36
+    },
+    "Ereş": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.74,
+     "lon": 47.31
+    },
+    "Batum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.6439,
+     "lon": 41.642
+    },
+    "Ahıska": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.643,
+     "lon": 42.986
+    },
+    "Kutaisi": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.268,
+     "lon": 42.695
+    },
+    "Vladikavkaz": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.024,
+     "lon": 44.682
+    },
+    "Kalmuk bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 46.5,
+     "lon": 45.5
+    },
+    "Kemah": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.6,
+     "lon": 39.03
+    },
+    "Niksar": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.593,
+     "lon": 36.951
+    },
+    "Terme": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.207,
+     "lon": 36.976
+    },
+    "Çarşamba": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.199,
+     "lon": 36.727
+    },
+    "Merzifon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.876,
+     "lon": 35.463
+    },
+    "Ladik (Amasya)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.912,
+     "lon": 35.898
+    },
+    "Şeki (Nuha)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.1919,
+     "lon": 47.1706
+    },
+    "Berde (Karabağ)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.3747,
+     "lon": 47.1281
+    },
+    "Şuşa": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.7558,
+     "lon": 46.7492
+    },
+    "Eski Kırım (Solhat)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.0281,
+     "lon": 35.1078
+    },
+    "Şavşat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.245,
+     "lon": 42.36
+    },
+    "Posof": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.51,
+     "lon": 42.72
+    },
+    "Hanak": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.23,
+     "lon": 42.855
+    },
+    "Hulo (Acara)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.645,
+     "lon": 42.31
+    },
+    "Arpaçay (Akyaka)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.845,
+     "lon": 43.325
+    },
+    "Digor": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.375,
+     "lon": 43.41
+    },
+    "Iğdır": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.92,
+     "lon": 44.045
+    },
+    "Gümrü (Aleksandropol)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.789,
+     "lon": 43.847
+    },
+    "Eçmiyadzin": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.162,
+     "lon": 44.293
+    },
+    "Doğubayazıt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.548,
+     "lon": 44.084
+    },
+    "Artvin": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.183,
+     "lon": 41.822
+    },
+    "Hopa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.39,
+     "lon": 41.427
+    },
+    "Sarp": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.52,
+     "lon": 41.545
+    },
+    "Arhavi": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.354,
+     "lon": 41.316
+    },
+    "Borçka": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.339,
+     "lon": 41.677
+    },
+    "Sarıkamış": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.328,
+     "lon": 42.578
+    },
+    "Ahılkelek (Akhalkalaki)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.403,
+     "lon": 43.484
+    },
+    "Karahisâr-ı Şarkî (Şebinkarahisar)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2886,
+     "lon": 38.4247
+    },
+    "Kelkit": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.1281,
+     "lon": 39.4381
+    },
+    "Aşkale": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.9214,
+     "lon": 40.6939
+    },
+    "Şerur (Sharur)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.55,
+     "lon": 44.95
+    },
+    "Kuban Nogay bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2,
+     "lon": 41.0
+    },
+    "Stavropol–Kuma bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 44.85,
+     "lon": 42.6
+    },
+    "Kuban deltası bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.5,
+     "lon": 37.8
+    },
+    "Zazalo": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.62509,
+     "lon": 42.753
+    },
+    "Murvaneti": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56279,
+     "lon": 41.62598
+    },
+    "Ts’q’altbila": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.58278,
+     "lon": 42.86714
+    },
+    "Saylıca": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.33615,
+     "lon": 42.33915
+    },
+    "Makhalak’auri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56667,
+     "lon": 42.41667
+    },
+    "Norapat": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.14172,
+     "lon": 44.03332
+    },
+    "Beri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.91667,
+     "lon": 44.25
+    },
+    "Kliçatak (Suser)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.46393,
+     "lon": 43.73328
+    },
+    "Küçükperveli": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.67302,
+     "lon": 43.61322
+    },
+    "Yenikale": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.3521,
+     "lon": 36.6004
+    },
+    "Bayburt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2552,
+     "lon": 40.2249
+    },
+    "Mesudiye (Milas)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.4633,
+     "lon": 37.7728
+    },
+    "Gölköy (Habsamana)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.6878,
+     "lon": 37.6178
+    },
+    "Reşadiye (İskefsir)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.3919,
+     "lon": 37.3375
+    }
+   }
+  },
+  "1812-05-28": {
+   "osmanli_zincir_nokta": 55,
+   "hedefler": {
+    "Anapa": {
+     "yol": null,
+     "atlama": null
+    },
+    "Taman": {
+     "yol": null,
+     "sebep": "Taman o gün Osmanlı/tâbi DEĞİL (rusya)"
+    },
+    "Sohum": {
+     "yol": null,
+     "sebep": "Sohum o gün Osmanlı/tâbi DEĞİL (rusya)"
+    }
+   },
+   "tablo": {
+    "Sinop": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 42.027,
+     "lon": 35.151
+    },
+    "Samsun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.286,
+     "lon": 36.331
+    },
+    "Amasya": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.65,
+     "lon": 35.833
+    },
+    "Tokat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.314,
+     "lon": 36.554
+    },
+    "Sivas": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 37.015
+    },
+    "Trabzon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.005,
+     "lon": 39.723
+    },
+    "Giresun": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.918,
+     "lon": 38.389
+    },
+    "Ordu (Bayramlı)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.976,
+     "lon": 37.848
+    },
+    "Ünye": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.128,
+     "lon": 37.283
+    },
+    "Rize": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.02,
+     "lon": 40.523
+    },
+    "Erzincan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.75,
+     "lon": 39.492
+    },
+    "Erzurum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.905,
+     "lon": 41.266
+    },
+    "Kars": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.602,
+     "lon": 43.095
+    },
+    "Ardahan": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.111,
+     "lon": 42.702
+    },
+    "Kefe": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.032,
+     "lon": 35.382
+    },
+    "Kerç": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.356,
+     "lon": 36.467
+    },
+    "Taman": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2029,
+     "lon": 36.7172
+    },
+    "Anapa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.894,
+     "lon": 37.316
+    },
+    "Sohum": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.001,
+     "lon": 41.023
+    },
+    "Soçi (Sâşe)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 43.585,
+     "lon": 39.723
+    },
+    "Tuapse": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.103,
+     "lon": 39.08
+    },
+    "Kuban (Yekaterinodar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.035,
+     "lon": 38.975
+    },
+    "Maykop (Çerkezya)": {
+     "kimlik": "tâbi:cerkez",
+     "sinif": "v",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 44.609,
+     "lon": 40.101
+    },
+    "Kabartay (Nalçik)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.498,
+     "lon": 43.618
+    },
+    "Tarki (Tarku)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.98,
+     "lon": 47.5
+    },
+    "Terek deltası (Kızlar)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.85,
+     "lon": 46.72
+    },
+    "Tiflis": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.716,
+     "lon": 44.783
+    },
+    "Zagem (Kaheti)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.7,
+     "lon": 45.78
+    },
+    "Revan": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.183,
+     "lon": 44.515
+    },
+    "Gence": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.683,
+     "lon": 46.36
+    },
+    "Ereş": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.74,
+     "lon": 47.31
+    },
+    "Batum": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.6439,
+     "lon": 41.642
+    },
+    "Ahıska": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.643,
+     "lon": 42.986
+    },
+    "Kutaisi": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 42.268,
+     "lon": 42.695
+    },
+    "Vladikavkaz": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 43.024,
+     "lon": 44.682
+    },
+    "Kalmuk bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 46.5,
+     "lon": 45.5
+    },
+    "Kemah": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.6,
+     "lon": 39.03
+    },
+    "Niksar": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.593,
+     "lon": 36.951
+    },
+    "Terme": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.207,
+     "lon": 36.976
+    },
+    "Çarşamba": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.199,
+     "lon": 36.727
+    },
+    "Merzifon": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.876,
+     "lon": 35.463
+    },
+    "Ladik (Amasya)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.912,
+     "lon": 35.898
+    },
+    "Şeki (Nuha)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 41.1919,
+     "lon": 47.1706
+    },
+    "Berde (Karabağ)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.3747,
+     "lon": 47.1281
+    },
+    "Şuşa": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.7558,
+     "lon": 46.7492
+    },
+    "Eski Kırım (Solhat)": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.0281,
+     "lon": 35.1078
+    },
+    "Şavşat": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.245,
+     "lon": 42.36
+    },
+    "Posof": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.51,
+     "lon": 42.72
+    },
+    "Hanak": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.23,
+     "lon": 42.855
+    },
+    "Hulo (Acara)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.645,
+     "lon": 42.31
+    },
+    "Arpaçay (Akyaka)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.845,
+     "lon": 43.325
+    },
+    "Digor": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.375,
+     "lon": 43.41
+    },
+    "Iğdır": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.92,
+     "lon": 44.045
+    },
+    "Gümrü (Aleksandropol)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.789,
+     "lon": 43.847
+    },
+    "Eçmiyadzin": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.162,
+     "lon": 44.293
+    },
+    "Doğubayazıt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.548,
+     "lon": 44.084
+    },
+    "Artvin": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.183,
+     "lon": 41.822
+    },
+    "Hopa": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.39,
+     "lon": 41.427
+    },
+    "Sarp": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.52,
+     "lon": 41.545
+    },
+    "Arhavi": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.354,
+     "lon": 41.316
+    },
+    "Borçka": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.339,
+     "lon": 41.677
+    },
+    "Sarıkamış": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.328,
+     "lon": 42.578
+    },
+    "Ahılkelek (Akhalkalaki)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.403,
+     "lon": 43.484
+    },
+    "Karahisâr-ı Şarkî (Şebinkarahisar)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2886,
+     "lon": 38.4247
+    },
+    "Kelkit": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.1281,
+     "lon": 39.4381
+    },
+    "Aşkale": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.9214,
+     "lon": 40.6939
+    },
+    "Şerur (Sharur)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 39.55,
+     "lon": 44.95
+    },
+    "Kuban Nogay bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.2,
+     "lon": 41.0
+    },
+    "Stavropol–Kuma bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 44.85,
+     "lon": 42.6
+    },
+    "Kuban deltası bozkırı": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.5,
+     "lon": 37.8
+    },
+    "Zazalo": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.62509,
+     "lon": 42.753
+    },
+    "Murvaneti": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56279,
+     "lon": 41.62598
+    },
+    "Ts’q’altbila": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.58278,
+     "lon": 42.86714
+    },
+    "Saylıca": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.33615,
+     "lon": 42.33915
+    },
+    "Makhalak’auri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 41.56667,
+     "lon": 42.41667
+    },
+    "Norapat": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.14172,
+     "lon": 44.03332
+    },
+    "Beri": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 39.91667,
+     "lon": 44.25
+    },
+    "Kliçatak (Suser)": {
+     "kimlik": "kacar",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 40.46393,
+     "lon": 43.73328
+    },
+    "Küçükperveli": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.67302,
+     "lon": 43.61322
+    },
+    "Yenikale": {
+     "kimlik": "rusya",
+     "sinif": "s",
+     "isgal": null,
+     "osmanli": false,
+     "lat": 45.3521,
+     "lon": 36.6004
+    },
+    "Bayburt": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.2552,
+     "lon": 40.2249
+    },
+    "Mesudiye (Milas)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.4633,
+     "lon": 37.7728
+    },
+    "Gölköy (Habsamana)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.6878,
+     "lon": 37.6178
+    },
+    "Reşadiye (İskefsir)": {
+     "kimlik": "OSMANLI",
+     "sinif": "d",
+     "isgal": null,
+     "osmanli": true,
+     "lat": 40.3919,
+     "lon": 37.3375
+    }
+   }
+  }
+ }
+}

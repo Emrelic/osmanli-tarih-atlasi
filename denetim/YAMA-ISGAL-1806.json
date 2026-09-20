@@ -1,0 +1,72 @@
+{
+  "_": "ISGAL-1806 / H-0002 yama ÖNERİSİ — VERİYE YAZILMADI. Emre/1.MURAT onayı bekler.",
+  "oturum": "ISGAL-1806 (Opus 5)",
+  "tarih": "2026-09-20",
+  "hedef_dosya": "data/yerlesimler.js (11 kayıt) — Oturum 0'ın kalemi",
+  "olcum": "denetim/OLCUM-ISGAL-1806.json · alet denetim/ARAC-ISGAL-1806.py",
+  "ongoru": {
+    "aciklama": "Yama uygulanırsa BEKLENEN — ölçümden ÖNCE yazıldı (§11).",
+    "degismez_2i_kirilma": "130 -> 152 (11 kayıt × 2 uç)",
+    "degismez_2i_acik": "1 (DEĞİŞMEZ) — üç kırılma günü de kronolojide zaten var: 1806-11-23 (Dinyester geçişi, ±7 gün içinde 11-30'u kapsar) · 1806-12-25 (Miloradoviç Bükreş'te, birebir) · 1812-05-28 (Bükreş Antlaşması, birebir)",
+    "degismez_1": "3921/299 DEĞİŞMEZ — yeni nokta eklenmiyor, var olan kayıtlara isg: ekleniyor",
+    "1806-12-25_kesitinde_isgalli_nokta": "11 -> 17 (Eflak'ın 5 Oltenya noktası + Kalas hariç Boğdan'ın 5'i 11-30'da girer; kesit sayısı için alete bak)"
+  },
+  "A_TARIH_HATASI": [
+    {
+      "yer": "Hotin",
+      "alan": "isg[3].f",
+      "bugun": "1806-01-01",
+      "oneri": "1806-11-30",
+      "gerekce": "1806-01-01 savaştan 11 ay ÖNCE. Atlasın kendi kronolojisi savaşın başlangıcını 1806-11-23'e (Dinyester geçişi) koyuyor; kaydın kendi kaynak alanı da 'hotin — 1806 günü G5-RUS-1806-BOGDAN kararını bekliyor' diyor, yani açık borç olarak duruyordu.",
+      "kaynak": "TDV hotin: «Yaş Antlaşması ile (1792) Osmanlılar'a geri verilen Hotin son olarak 1806'da Ruslar'ın işgaline uğradı» — YIL hassasiyeti, gün YOK. ESBE «Хотин»: «Во время войны 1806—12 г. Мехмед-паша сдал Х. русским» — gün YOK. ESBE «Турецкие войны России»: «11 ноября русские войска начали переходить Днестр; коменданты крепостей Хотин, Бендеры, Акерман и Килия уступили их без боя» (11 Kasım J = 23 Kasım 1806 G).",
+      "gun_nereden": "gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806) — Bender ve Kili kayıtlarının BUGÜN taşıdığı devralmanın AYNISI; zincirleme devralma yok (kaynak Akkirman'ın kendi TDV günü).",
+      "secenek_B": "1806-11-23 (Dinyester geçişi günü). ESBE dört kaleyi geçişin hemen ardına koyuyor ama HOTİN'e ayrı gün vermiyor; 11-30'u seçmek üç kardeş kayıtla hizalı kalır.",
+      "guven": "üst sınır kesin (23 Kasım 1806'dan önce olamaz) · GÜN BULUNAMADI, devralma BEYANLI"
+    }
+  ],
+  "B_EKSIK_ISGAL_KAYDI": {
+    "_": "1806-12-25'te Eflak/Boğdan tâbii 18 noktanın 11'inde işgal kaydı YOK — haritadaki kopukluk budur. Nokta EKSİK DEĞİL (11'i de veride var), eksik olan `isg:` kaydıdır.",
+    "B1_1828de_TARALI_1806da_DEGIL": {
+      "_": "En kesin sınıf: AYNI nokta 1828-1834 Rus işgalinde taralı, 1806-1812'de değil. Coğrafî değil VERİ farkı.",
+      "kayitlar": [
+        {"yer": "Kalas (Galatz)", "oneri": {"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Roman", "oneri": {"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Birlad (Bârlad)", "oneri": {"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}}
+      ],
+      "kaynak_alani_onerisi": "bogdan · gün komşudan: Yaş (Boğdan başşehri, 1806-11-30) · ESBE «Турецкие войны России»: Mihelson'a «занять княжества Молдавию и Валахию» emri, 11 Kasım J'de Dinyester geçişi, kışlaklar «в княжествах»"
+    },
+    "B2_HIC_ISGAL_KAYDI_YOK_EFLAK_OLTENYA": {
+      "_": "Küçük Eflak (Oltenya) — beş noktanın HİÇBİRİNDE hiçbir tarihte isg: yok; haritanın batı yarısındaki büyük kırmızı boşluk budur.",
+      "kayitlar": [
+        {"yer": "Krayova (Craiova)", "oneri": {"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Slatina", "oneri": {"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Rimnik (Râmnicu Vâlcea)", "oneri": {"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Tırgu Jiu", "oneri": {"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Turnu Severin", "oneri": {"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}}
+      ],
+      "kaynak_alani_onerisi": "eflak · gün komşudan: Bükreş (1806-12-25) · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç) — Bükreş bloğunun BUGÜN taşıdığı devralmanın aynısı",
+      "uyari": "🔴 Oltenya'nın işgale GİRİŞ günü için ayrı kaynak BULUNAMADI (TDV'de Krayova maddesi yok — slug 302). Bükreş günü devralınıyor ve devralma kayda YAZILIYOR."
+    },
+    "B3_HIC_ISGAL_KAYDI_YOK_BOGDAN_PRUT_DOGUSU": {
+      "kayitlar": [
+        {"yer": "Orhei", "oneri": {"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Soroka (Soroca)", "oneri": {"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}},
+        {"yer": "Kahul (Cahul)", "oneri": {"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}}
+      ],
+      "kaynak_alani_onerisi": "bogdan · gün komşudan: Yaş (1806-11-30) · ESBE-TV (Memleketeyn'in işgali emri)",
+      "not": "Üçünün `s:` kaydı 1812-05-28'de rusya'ya geçiyor (Besarabya); 1806-1812 arası BOŞ duruyor."
+    }
+  },
+  "C_DOKUNULMADI_BULUNAMADI": [
+    {"yer": "İsmail", "durum": "DOĞRU — 1809-09-26. ESBE-TV: 1806'da İsmail paşası teslim olmadı, Meyendorf'un teşebbüsü başarısız oldu; 1807'de de alınamadı. Atlas bunu doğru gösteriyor."},
+    {"yer": "İbrail", "durum": "GÜN DOĞRU (1809-12-02) ama `kaynak` alanı BOŞ. Öneri: TDV ibrail alıntısı eklensin — «1809 Osmanlı-Rus Savaşı sırasında Kaminski kumandasındaki Rus kuvvetleri tarafından kuşatılıp topa tutuldu; yiyecek sıkıntısı yüzünden 2 Aralık'ta General Essen'e teslim edildi»."},
+    {"yer": "Yergöğü (Giurgiu)", "durum": "DOĞRU — TDV yergogu: «Yergöğü 27 Eylül 1810'da Ruslar'ın eline geçti». Veri 1810-09-27."},
+    {"yer": "Akkirman · Bender · Kili", "durum": "DOKUNULMADI — 1806-11-30, TDV akkirman günü + beyanlı devralma."},
+    {"yer": "1807 mütarekesi (12 Ağustos 1807 J)", "durum": "ÖLÇÜLDÜ, YAMA ÖNERİLMEDİ. ESBE-TV: mütareke Memleketeyn'in boşaltılmasını şart koşuyordu, tahliye BAŞLADI ama İmparator durdurdu. Atlas işgali kesintisiz gösteriyor; bu bir sadeleştirmedir, YANLIŞ olduğu ölçülmedi — karar Emre'nin."}
+  ],
+  "D_NOKTA_YOKLUGU": {
+    "_": "Yamanın KAPATAMAYACAĞI kopukluk sınıfı: iki voyvodalıkta veride HİÇ noktası olmayan büyük yerler. Bunlar için yama değil YENİ NOKTA gerekir (Oturum 0 kalemi, ayrı sevk).",
+    "eksik": ["Kişinev (Chişinău)", "Ploieşti", "Focşani", "Bacău", "Botoşani"],
+    "olcum": "Eflak+Boğdan tâbii toplam 18 nokta; 80 noktalık kutunun 23'ü Avusturya, 8'i Rusya tarafında."
+  }
+}
