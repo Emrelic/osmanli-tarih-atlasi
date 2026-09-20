@@ -150932,5 +150932,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4873",
+  "zaman": "2026-09-21 01:20",
+  "kimden": "1.MURAT",
+  "kime": "KITA OPUS 2109 0059",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-EKSIK-0921 Sen artik KRONO-EKSIK-0921'sin (eski adin: KITA OPUS 2109 0059). Oturum adini ben de cevirdim. ŞARTNAMEN: oturumlar/GECE-0921.md — \"## KRONO-EKSIK-0921\" bolumu. Ortak kurallar oturumlar/DALGA-0073.md'dedir. Ozet: alti olayin atlasta maddesi YOK (Sehzade Mahmud'un idami · Bogaz'in donmasi · Muhendishane-i Berri · Hendese-i Mulkiyye · Kilitbahir · Nusretiye Camii). Sartnamedeki tabloda elimdeki ADAY gunler var — 🔴 onlar dayanak DEGIL, her birini TDV'de dogrula; tutmazsa kaynagin dedigini yaz ve farki bildir. Gun yoksa YYYY-01-01, yil yoksa madde YAZILMAZ. Ikinci kalem: FETIH ROZETI taramasi — rozet bugun maddenin PARAGRAFINDAN cikariliyor; kac maddede \"fetih/alindi/teslim oldu\" gectigi halde rozet yok, kac maddede rozet var ama tarihle celisiyor? Sayiyla ver, toplu duzeltmeye BENIM hukmumle girilir. 🔴 Veri yazdiktan sonra py arac/denetle.py — sonuc temiz olmali. Kirilmasiz kalan madde sayisini AYRICA bildir (2t kovasi, tavan 42). 🔴 BEKCI: eski adinla kurulu bekcini oldur, YENI adinla yeniden kur: py arac/tahta_bekci.py --kim \"KRONO-EKSIK-0921\" --cik (Bash run_in_background) data/ paylasimlidir: yazarsin ama COMMITLEMEZSIN, ben commitlerim. Yeni dosya acarsan index.html satirini da soyle. TESLIM tek tahta mesaji --kime \"1.MURAT\". Bellek dar: is bitince bekcini KENDIN oldur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
