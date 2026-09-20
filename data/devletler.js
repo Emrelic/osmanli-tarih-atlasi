@@ -1266,7 +1266,8 @@ window.DEVLETLER = [
 },
 { id:"karadag", ad:"Karadağ (Montenegro)", tur:"prenslik", bolge:"balkanlar",
   f:"1516-01-01", t:"1918-11-26", baskent:"Cetinje", harita:"karadag",
-  ozet:"Dağlık coğrafyası sayesinde fiilen hiç tam boyun eğmeyen küçük prenslik; 1878'de bağımsızlığı tanındı, 1910'da krallığa dönüştü, I. Dünya Savaşı sonunda Sırbistan'la birleşerek ortadan kalktı.",
+  tabi:[{f:"1516-01-01", t:"1852-01-01", ust:"osmanli"}],
+  ozet:"Dağlık coğrafyası sayesinde fiilen hiç tam boyun eğmeyen küçük prenslik; 1878'de bağımsızlığı tanındı, 1910'da krallığa dönüştü, I. Dünya Savaşı sonunda Sırbistan'la birleşerek ortadan kalktı. `tabi:` 20 Eylül 2026'da eklendi (ENKLAV-0072'nin ölçümü, paket 0072 H-0005a): atlas 1697'den itibaren tam bağımsız yabancı devlet çiziyordu, oysa TDV `karadag` tâbilik bağının II. Danilo döneminde (1852-1860) koptuğunu, bağımsızlığın 1878 Berlin'e kadar tanınmadığını söylüyor — 155 yıllık ayrışma. Biçim `erdel`/`eflak`/`bogdan` emsali: kendi rengi + tâbi kaydı bir arada. Bitiş 1852-01-01 tâbiliğin koptuğu ARALIĞIN başıdır, gün değil eşik işaretidir.",
   kaynak:"karadag",
   kronoloji:[
     { t:"1516-01-01", tur:"kurulus", b:"Piskopos-prenslik (vladika) olarak örgütlendi, dağlık özerkliğini kurumsallaştırdı" },
