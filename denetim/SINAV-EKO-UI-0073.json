@@ -1,0 +1,175 @@
+{
+ "hazir": true,
+ "kategori_evreni": {
+  "ekokuma_tur": 14,
+  "akordeon_ek_tur": 4,
+  "toplam": 18,
+  "liste": [
+   {
+    "tur": "sebep-sonuc",
+    "etiket": "🔗 Sebep-Sonuç",
+    "ust": "SEBEP-SONUÇ"
+   },
+   {
+    "tur": "magazin",
+    "etiket": "🎭 Magazin",
+    "ust": "MAGAZİN"
+   },
+   {
+    "tur": "merak",
+    "etiket": "❓ Merak",
+    "ust": "MERAK"
+   },
+   {
+    "tur": "antlasma",
+    "etiket": "📜 Antlaşma hükümleri",
+    "ust": "ANTLAŞMA"
+   },
+   {
+    "tur": "tartisma",
+    "etiket": "💬 Tartışma",
+    "ust": "TARTIŞMA"
+   },
+   {
+    "tur": "teknik-bilimsel",
+    "etiket": "🔬 Teknik / Bilimsel",
+    "ust": "TEKNİK BİLİMSEL"
+   },
+   {
+    "tur": "kimdir",
+    "etiket": "🪪 Kimdir?",
+    "ust": "KİMDİR?"
+   },
+   {
+    "tur": "dis-yankilar",
+    "etiket": "🌐 Dış Yankılar",
+    "ust": "DIŞ YANKILAR"
+   },
+   {
+    "tur": "kahramanlik",
+    "etiket": "🛡️ Kahramanlık",
+    "ust": "KAHRAMANLIK"
+   },
+   {
+    "tur": "menkibeler",
+    "etiket": "📖 Menkıbe",
+    "ust": "MENKIBE"
+   },
+   {
+    "tur": "sok-haberler",
+    "etiket": "📰 Şok Haber",
+    "ust": "ŞOK HABER"
+   },
+   {
+    "tur": "edebiyat",
+    "etiket": "🖋️ Edebiyat",
+    "ust": "EDEBİYAT"
+   },
+   {
+    "tur": "savas-hikayesi",
+    "etiket": "⚔️ Savaşın Hikâyesi",
+    "ust": "SAVAŞ HİKÂYESİ"
+   },
+   {
+    "tur": "karsi-anlati",
+    "etiket": "🔄 Karşı Anlatı",
+    "ust": "KARŞI ANLATI"
+   },
+   {
+    "tur": "kv-kunye",
+    "etiket": "👤 Künye",
+    "ust": "KÜNYE"
+   },
+   {
+    "tur": "kv-nasil",
+    "etiket": "🗣️ Nasıl bilirdiniz",
+    "ust": "NASIL BİLİRDİNİZ"
+   },
+   {
+    "tur": "kv-magazin",
+    "etiket": "🎭 Magazin",
+    "ust": "MAGAZİN"
+   },
+   {
+    "tur": "kisi",
+    "etiket": "👤 Kişi",
+    "ust": "KİŞİ"
+   }
+  ]
+ },
+ "madde": {
+  "t": "1826-06-15",
+  "b": "Vak'a-i Hayriyye — Yeniçeri Ocağı kaldırıldı",
+  "satir": 0
+ },
+ "h0002_etiket": [],
+ "h0002_yukseklik": {
+  "oncesi": {
+   "satir": 0,
+   "en_az": null,
+   "en_cok": null,
+   "kutu_yuksekligi": 0
+  },
+  "sonrasi": {
+   "satir": 0,
+   "en_az": null,
+   "en_cok": null,
+   "kutu_yuksekligi": 0
+  },
+  "satir_buyumesi": null,
+  "kutu_buyumesi": 0
+ },
+ "h0002_tek_satir": {
+  "etiket_ust": 736,
+  "simge_ust": 744,
+  "baslik_ust": 738.5,
+  "etiket_simgenin_ustunde": true,
+  "baslik_etiketle_ayni_hizada_degil": false,
+  "baslik_simgeyle_ayni_satirda": true
+ },
+ "h0020_sagtik": {
+  "menu_acildi": true,
+  "dugmeler": [
+   "Başlığı kopyala",
+   "Maddeyi kopyala"
+  ],
+  "tarayici_menusu_kesildi": true,
+  "satir_turu": "sebep-sonuc",
+  "baslik_ekranda": "Orhan Gazi'den itibaren Rumeli'ye geçiş ",
+  "madde_uzunlugu": 973,
+  "madde_ilk_60": "TARTIŞMALI\nOrhan Gazi'den itibaren Rumeli'ye geçiş ve artan ",
+  "baslik_madde_farkli": true
+ },
+ "h0020_disarisi": [
+  {
+   "sec": "#harita",
+   "tarayici_menusu_kesildi": false,
+   "bizim_menu": false
+  },
+  {
+   "sec": "#zaman-cubugu",
+   "durum": "YOK"
+  },
+  {
+   "sec": "#olay-bilgi",
+   "tarayici_menusu_kesildi": true,
+   "bizim_menu": true
+  },
+  {
+   "sec": "body",
+   "tarayici_menusu_kesildi": false,
+   "bizim_menu": false
+  }
+ ],
+ "h0020_shift": {
+  "tarayici_menusu_kesildi": false,
+  "bizim_menu": false
+ },
+ "yakin_kare": {
+  "x": 892.765625,
+  "y": 713.015625,
+  "width": 471.234375,
+  "height": 268
+ },
+ "konsol_hata": null
+}
