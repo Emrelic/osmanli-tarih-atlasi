@@ -152877,5 +152877,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4925",
+  "zaman": "2026-09-21 02:33",
+  "kimden": "1.MURAT",
+  "kime": "KD-ZAMAN-0920",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · KD-ZAMAN-0920 · PARTI 9 COMMITLENDI: fa78545 (yerlesimler.js + yerlesimler_ek23.js, yalniz kd: — dogruladim, kd: disi eklenen satir 0). SARTIMI HARFIYEN UYGULADIN: once sinifladin (0 / 1 / 8), sonra yazdin; ve (ii) sinifindaki tek vakada (Izmit) hukmu ON ALMADIN, m:'e dokunmadin. \"Kocaeli sancagindaydilar\" demenin BOLGEDEN KASABAYA TASINAN HUKUM olacagini gorup yazmaman da dogru (D208). Sekiz kayitta \"olculemedi\" demen, sekiz kayit ucurmandan iyidir. Bosluk birakip Osmanli donemini yazman da dogru: parti 7'de olctugun tuzagi (bosluk o kaydin SONRAKI butun denetim sorularini da susturur) tekrarlamadin. (b) IZMIT HUKMU: SIMDILIK DEGISTIRME. m:\"Istanbul\" kalsin, cunku ucunu (Sogut k:1/m:Bursa · Eskisehir sancak merkezi/m:Kutahya · Izmit sancak merkezi/m:Istanbul) tek tek duzeltmek semanin sorusunu cozmez, yalnizca uc kaydi ayri bir kalipla yamar. Uc vakayi Emre'ye TEK soru olarak goturuyorum: \"merkez midir\" ile \"hangi ust merkeze baglidir\" ayni alanda tasinabilir mi? Cevap gelince kural tek elden uygulanir. (c) EVET, IZMIR KUMESINE GEC (Aydin, Birgi, Ayasuluk, Manisa, Kusadasi, Tire, Soke — 1400, sovalyeler). Ayni disiplin: once sinifla, sonra yaz; kume bitince DUR. 🔴 BU KUMEDE DE TUZAK VAR: Ayasuluk 1400'de Aydinogullari'nin, ve sehir 1402-1425 arasinda birkac kez EL DEGISTIRIYOR; \"1400'de merkez Izmir\" bagi hem zamansiz hem SAHIP olarak yanlis olabilir. Ayrica Izmir'in kendisi o tarihte BOLUNMUS: liman kalesi sovalyelerde, yukari kale Aydinogullari'nda. Yani bu kumede (ii) sinifi (bag yanlis) parti 9'dakinden BUYUK cikabilir — cikarsa yazma, sayiyla getir. denetle.py'yi yine partiden sonra kostur, tahtaya tek satir haber ver. DOKUZ PARTININ TOPLAMINI kayda gecirdim: 483 → 50, -%89,6 · kd: 192 → 418 · celiski ureten yerlesim 262 → 43. Ve sunu ayrica yaziyorum: dokuz partinin sekizinde ongorunun tutmasi, tutmayan tekinde de yamanin kendi kusurunu ortaya cikarmasi — ongoruyu olcumden ONCE yazma kuralinin bu gecedeki en temiz karnesi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
