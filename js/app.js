@@ -1978,8 +1978,15 @@ harita.on("load", function () {
     var h = HAREKET[tur];
     // Kenar payı gövdeyle BİRLİKTE inceldi (0073 H-0003): 5 px sabit pay,
     // 4.5 px'lik bir gövdenin etrafında ondan kalın bir krem şerit bırakıyordu.
+    // 🔴 KENARIN İŞLEVİ ARTTI, PAYI YENİDEN ÖLÇÜLDÜ (M-4838): gövde 9 px'ten
+    // 2,5–4,2 px'e indi; okun zeminden ayrışmasını artık neredeyse tamamen bu
+    // krem şerit sağlıyor. Pay SABİT 2.5 px tutuluyor (her yandan 1,25 px):
+    // gövdeyle orantılı yapılsaydı en ince türde (akın, sade: 2,55 px) kenar
+    // 1,3 px'e düşer ve görevini yapamazdı. Oran ölçüldü — kenar/gövde 1,6–2,0
+    // arasında; 0072'deki 9+5 px hâlinde bu oran 1,56 idi, yani kenarın göreli
+    // ağırlığı bilerek arttırıldı.
     var kenarBoya = { "line-color": "#fdf6e9", "line-opacity": 0.75,
-                      "line-width": h.kalinlik + 2.5 };
+                      "line-width": ["+", ["coalesce", ["get", "kalinlik"], h.kalinlik], 2.5] };
     if (h.desen) {
       // Desen birimi ÇİZGİ GENİŞLİĞİ olduğu için kenarın deseni, gövdenin
       // ekran ölçüsüne göre yeniden hesaplanır — yoksa kalın kenarda kesikler
@@ -2011,7 +2018,12 @@ harita.on("load", function () {
                      // altındaki sahiplik renginin okunmasını engelliyordu;
                      // 0.92 opaklık, kalınlık kuralını bozmadan altını sezdiriyor.
                      "line-opacity": 0.92,
-                     "line-width": h.kalinlik };
+                     // 🔴 GENİŞLİK ARTIK ÖZELLİKTEN OKUNUYOR (Emre M-4838):
+                     // aynı ok taralı alanda 2 kat, dışında 1,5 kat çizilsin
+                     // diye `seferGuncelle` oku KESİMLERE bölüyor ve her kesime
+                     // kendi `kalinlik`ını yazıyor. MapLibre'de `line-width`
+                     // çizgi boyunca değişemez — çözüm çizgiyi bölmekti.
+                     "line-width": ["coalesce", ["get", "kalinlik"], h.kalinlik] };
         if (h.desen) boya["line-dasharray"] = h.desen;
         return boya;
       })()
@@ -4463,16 +4475,22 @@ function _dsn(desen, eskiKalinlik, yeniKalinlik) {
 //   kalınlıktan bağımsız sağlıyor (ölçüm: denetim/OK-0072.md §1.3). Kenar da
 //   aynı oranda inceltildi (+5 px → +2.5 px), yoksa 4.5 px gövdenin etrafında
 //   9.5 px krem bir şerit kalır ve ok "krem bir yol" gibi görünürdü.
+// ⚠️ `kalinlik` ARTIK TABAN DEĞİL TÜRETİLMİŞ: gerçek genişlik okun o kesimi
+// taralı alanda mı geçiyor diye değişiyor (`seferKalinlik()`, aşağıda). Buradaki
+// `kalinlik` yalnız SADE (taralı olmayan) hâlin değeri — glif boyutu, ok ucu
+// kanadı ve katman varsayılanı onu okur. `oran` tür ayrımını taşır: sefer 1.00
+// taban, ötekiler 0073'teki tablodan türeyen oranlar (görsel ağırlık sırası
+// korunsun diye, yoksa her tür aynı kalınlığa düşerdi).
 var HAREKET = {
-  sefer:    { glif: "➤", desen: null,                       kalinlik: 4.5, ad: "sefer" },
-  cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 4.0), kalinlik: 4.0, ad: "geri çekilme" },
-  tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 4.0), kalinlik: 4.0, ad: "tahliye" },
-  akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 3.6), kalinlik: 3.6, ad: "akın" },
-  kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 4.25), kalinlik: 4.25, ad: "kuşatma" },
-  deniz:    { glif: "⚓", desen: [3.76, 2.12],               kalinlik: 4.25, ad: "deniz harekâtı" },
-  teslim:   { glif: "⇲", desen: _dsn([2, 3],     2.0, 3.75), kalinlik: 3.75, ad: "teslim / devir" },
-  seyahat:  { glif: "❖", desen: _dsn([1, 3],     1.6, 3.5), kalinlik: 3.5, ad: "seyahat" },
-  isyan:    { glif: "✹", desen: _dsn([0.5, 1.5], 2.0, 3.75), kalinlik: 3.75, ad: "isyan" }
+  sefer:    { glif: "➤", desen: null,                       oran: 1.00, kalinlik: 3.18, ad: "sefer" },
+  cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 4.0), oran: 0.89, kalinlik: 2.83, ad: "geri çekilme" },
+  tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 4.0), oran: 0.89, kalinlik: 2.83, ad: "tahliye" },
+  akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 3.6), oran: 0.80, kalinlik: 2.55, ad: "akın" },
+  kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 4.25), oran: 0.94, kalinlik: 3.00, ad: "kuşatma" },
+  deniz:    { glif: "⚓", desen: [3.76, 2.12],               oran: 0.94, kalinlik: 3.00, ad: "deniz harekâtı" },
+  teslim:   { glif: "⇲", desen: _dsn([2, 3],     2.0, 3.75), oran: 0.83, kalinlik: 2.64, ad: "teslim / devir" },
+  seyahat:  { glif: "❖", desen: _dsn([1, 3],     1.6, 3.5), oran: 0.78, kalinlik: 2.48, ad: "seyahat" },
+  isyan:    { glif: "✹", desen: _dsn([0.5, 1.5], 2.0, 3.75), oran: 0.83, kalinlik: 2.64, ad: "isyan" }
 };
 // Sonuç eksenі: aynı hareket kazançla da bozgunla da bitebilir.
 var SONUC_ROZET = { zafer: "▲", yenilgi: "▼", belirsiz: "" };
@@ -4778,6 +4796,90 @@ function seferKavisliYol(yol) {
 }
 window.seferKavisliYol = seferKavisliYol;
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🔴 GÖVDE KALINLIĞI TARAMADAN TÜRER — Emre, 20 Eylül 2026 (M-4838), aynen:
+//   *"eğer taralı alanda gidecek ise 2 kat olsun, taralı olmayan alanda ise
+//    1,5 kat olsun — yani şimdiki oranı yarı yarıya azaltalım."*
+// 0070 H-0006'nın "en az 3 kat"ı ARTIK GEÇERSİZ.
+//
+// TABAN SABİT DEĞİL, ÖLÇÜMDEN GELİYOR: `isgalDesenleriKur()` deseni K=8'lik bir
+// dokudan üretiyor; ince (nominal sahip) şeridi 3 px ve şerit ÇAPRAZ olduğu için
+// ekrandaki dik genişliği 3/√2 = 2.12 px. Desen `addImage` ile pixelRatio 1'de
+// ekleniyor, yani ŞERİT ZOOM'DAN BAĞIMSIZ — kademe değiştikçe oran kaymıyor
+// (ölçüldü: denetim/OK-0074.md). Tablo bu tek kaynaktan türüyor; kalınlıklar
+// artık elle yazılmıyor.
+var TARAMA_SERIT_PX = 3 / Math.SQRT2;      // isgalDesenleriKur: K=8, ince şerit 3 px, çapraz
+var OK_KAT = { tarali: 2.0, sade: 1.5 };   // Emre M-4838
+function seferKalinlik(tur, tarali) {
+  var h = HAREKET[tur] || HAREKET.sefer;
+  return +(TARAMA_SERIT_PX * (tarali ? OK_KAT.tarali : OK_KAT.sade) * (h.oran || 1)).toFixed(2);
+}
+
+// 🔴 OKU TARALI/SADE KESİMLERE BÖLME — koordinatörün saydığı üç yoldan (a).
+// (b) "büyük kısmın oranını tüm oka uygula" ucuzdu ama Emre'nin İKİ kuralını tek
+// okta karşılamıyordu; (c) iki katman zaten aynı kesişim hesabını gerektiriyor.
+// Bedeli: nokta-in-poligon testi. Ucuzlatıldı — her aktif işgal gövdesinin
+// KUTUSU (bbox) önce sınanıyor, nokta kutunun dışındaysa halka taranmıyor.
+// Kesimler kayda iliştiriliyor ve yalnız GÜN ya da aktif işgal kümesi değişince
+// yeniden hesaplanıyor (kare başına iş yok).
+function _isgalKutulari() {
+  var out = [];
+  for (var i = 0; i < ISGALLER.length; i++) {
+    var ig = ISGALLER[i];
+    if (ig.gi === undefined) ig.gi = gunIdx(ig.f);
+    if (ig.gs === undefined) ig.gs = gunIdx(ig.t);
+    if (suanki < ig.gi || suanki >= ig.gs) continue;
+    if (!ig._kutu) {
+      var x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+      (ig.parca || []).forEach(function (poli) {
+        (poli || []).forEach(function (halka) {
+          for (var k = 0; k < halka.length; k++) {
+            if (halka[k][0] < x0) x0 = halka[k][0];
+            if (halka[k][0] > x1) x1 = halka[k][0];
+            if (halka[k][1] < y0) y0 = halka[k][1];
+            if (halka[k][1] > y1) y1 = halka[k][1];
+          }
+        });
+      });
+      ig._kutu = [x0, y0, x1, y1];
+    }
+    out.push(ig);
+  }
+  return out;
+}
+function _taraliMi(p, kutular) {
+  for (var i = 0; i < kutular.length; i++) {
+    var ig = kutular[i], k = ig._kutu;
+    if (p[0] < k[0] || p[0] > k[2] || p[1] < k[1] || p[1] > k[3]) continue;
+    var parca = ig.parca || [];
+    for (var j = 0; j < parca.length; j++) {
+      var halkalar = parca[j] || [];
+      if (!halkalar.length) continue;
+      if (!noktaIcinde(p, halkalar[0])) continue;
+      var delikte = false;
+      for (var d = 1; d < halkalar.length; d++) if (noktaIcinde(p, halkalar[d])) { delikte = true; break; }
+      if (!delikte) return true;
+    }
+  }
+  return false;
+}
+// Ardışık aynı durumdaki noktalar bir kesim olur; kesimler UÇ UCA eklenir
+// (son nokta bir sonrakinin ilki), yoksa ok'ta görünür boşluk kalırdı.
+function _okKesimleri(yol, kutular) {
+  var kesimler = [], suan = _taraliMi(yol[0], kutular), birikim = [yol[0]];
+  for (var i = 1; i < yol.length; i++) {
+    var t = _taraliMi(yol[i], kutular);
+    birikim.push(yol[i]);
+    if (t !== suan && i < yol.length - 1) {
+      kesimler.push({ yol: birikim, tarali: suan });
+      birikim = [yol[i]];
+      suan = t;
+    }
+  }
+  if (birikim.length >= 2) kesimler.push({ yol: birikim, tarali: suan });
+  return kesimler;
+}
+
 // 🔴 OK UCU GEOMETRİSİ — H-0001 §3. Son parçanın yönünden iki kanat üretir;
 // kanat boyu okun KENDİ uzunluğunun oranıdır (zoom'dan bağımsız görsel oran) ve
 // uçlarda sınırlanır, yoksa kısa oklarda kanat okun kendisinden uzun olurdu.
@@ -4978,21 +5080,40 @@ function seferGuncelle(t) {
       // Kavisli hat bir kez hesaplanıp kayda iliştiriliyor (her güncellemede
       // yeniden eğri örneklemek kare başına iş olurdu — §2 motor kuralı).
       if (!m._kavisli) m._kavisli = seferKavisliYol(m.yol);
-      cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
-                      geometry: { type: "LineString", coordinates: m._kavisli } });
+      // 🔴 TARALI/SADE KESİMLER (Emre M-4838). Kesim hesabı GÜNE bağlı — aynı ok
+      // dün taralı olmayan bir topraktan, bugün işgal altındaki bir topraktan
+      // geçiyor olabilir. Bu yüzden önbellek anahtarı aktif işgal kümesidir.
+      var _igler = _isgalKutulari();
+      var _imza = _igler.map(function (x) { return x.id; }).join(",");
+      if (m._kesimImza !== _imza) {
+        m._kesimler = _okKesimleri(m._kavisli, _igler);
+        m._kesimImza = _imza;
+      }
+      m._kesimler.forEach(function (ks) {
+        cizgiler.push({ type: "Feature",
+                        properties: { renk: m.renk, tur: m.tur,
+                                      kalinlik: seferKalinlik(m.tur, ks.tarali) },
+                        geometry: { type: "LineString", coordinates: ks.yol } });
+      });
       // 🔴 OK UCU (H-0001 §3): gövdenin devamı olan iki kanat. Kavisli hattın
-      // SON parçasından türüyor ki ucun yönü gövdeyle aynı olsun.
+      // SON parçasından türüyor ki ucun yönü gövdeyle aynı olsun; kalınlığı da
+      // SON KESİMDEN geliyor (uç hedefte, hedef taralıysa uç da 2 kat olmalı) —
+      // tek kaynak, ayrı sayı yok.
       if (!m._ucu) m._ucu = _okUcuKanatlari(m._kavisli);
+      var _sonKesim = m._kesimler[m._kesimler.length - 1];
       if (m._ucu) cizgiler.push({ type: "Feature",
                       properties: { renk: m.renk, tur: m.tur, nokta: "uc",
-                                    kalinlik: (HAREKET[m.tur] || HAREKET.sefer).kalinlik },
+                                    kalinlik: seferKalinlik(m.tur, !!(_sonKesim && _sonKesim.tarali)) },
                       geometry: { type: "MultiLineString", coordinates: m._ucu } });
       // 🔴 ORDUNUN ÇIKIŞ NOKTASI (H-0006: "yuvarlak kalın bir nokta") — okun
       // yol[0]'ı. Ayrı kaynak açılmadı: çizgi katmanları Point'i, `sefer-kaynak`
       // katmanı LineString'i yok sayar.
       cizgiler.push({ type: "Feature",
                       properties: { renk: m.renk, tur: m.tur, nokta: "kaynak",
-                                    kalinlik: (HAREKET[m.tur] || HAREKET.sefer).kalinlik },
+                                    // kaynak noktası İLK kesimin kalınlığından
+                                    // türüyor — harekâtın çıktığı toprak taralı
+                                    // ise nokta da o ölçekte olmalı
+                                    kalinlik: seferKalinlik(m.tur, !!(m._kesimler[0] && m._kesimler[0].tarali)) },
                       geometry: { type: "Point", coordinates: m.yol[0] } });
       turler[m.tur] = (turler[m.tur] || 0) + 1;
       if (m.sonuc !== "belirsiz") sonuclar[m.sonuc] = 1;
@@ -10343,12 +10464,33 @@ function ekKartHtml(k) {
 // `html` zaten çizilmişse (akordeon gövdesi) onu kullanır, yoksa `ekKartHtml`
 // ile üretir; ikisinde de geçici bir DOM'a basıp `textContent` okunur — HTML
 // etiketleri olmadan, panoya yapıştırılabilir biçimde.
+// 🔴 DÜZELTİLDİ — EKO-UI-0073 (0073/H-0020 sınavı, 20 Eylül 2026).
+// ÖLÇÜLEN KUSUR: `textContent` blok sınırlarını YUTUYOR, "Maddeyi kopyala"
+// kelimeleri BİRBİRİNE YAPIŞTIRIYORDU. Sınav çıktısı (Vak'a-i Hayriyye, ilk
+// satır): `"tartışmalıOrhan Gazi'den itibaren Rumeli'ye geçiş…"` — kesinlik
+// rozetiyle başlık tek kelime olmuş. Kopyalanan metnin OKUNAMAMASI, H-0020'nin
+// istediği şeyin ("madde anlatısını kopyalasın") kendisini bozuyor.
+// ⇒ `innerText` kullanılıyor; o satır sonlarını RENDER'dan okur — ama BAĞLI
+//   OLMAYAN düğümde `innerText` `textContent`e düşer (aynı kusur), bu yüzden
+//   geçici kutu ekranın dışına EKLENİR, okunur, kaldırılır.
+//   `display:none` / `visibility:hidden` KULLANILMAZ: ikisinde de `innerText`
+//   yine ham metne düşer.
 function _ekIcerikMetni(kart, html) {
   var h = html != null ? html : (kart ? ekKartHtml(kart) : "");
   if (!h) return "";
   var gecici = document.createElement("div");
   gecici.innerHTML = h;
-  return (gecici.textContent || "").replace(/\n{3,}/g, "\n\n").trim();
+  gecici.style.cssText = "position:absolute;left:-99999px;top:0;width:520px;";
+  var metin = "";
+  try {
+    document.body.appendChild(gecici);
+    metin = gecici.innerText || gecici.textContent || "";
+  } catch (e) {
+    metin = gecici.textContent || "";
+  } finally {
+    if (gecici.parentNode) gecici.parentNode.removeChild(gecici);
+  }
+  return metin.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
 }
 
 var ekokumaPencere = document.getElementById("ekokuma-pencere");
