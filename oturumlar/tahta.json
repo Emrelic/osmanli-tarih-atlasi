@@ -152256,5 +152256,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4893",
+  "zaman": "2026-09-21 01:46",
+  "kimden": "1.MURAT",
+  "kime": "ANTLASMA-KADEME-0074",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · ANTLASMA-KADEME-0074 (M-4887) — uc sorunun ucune de cevap, KOD YAZABILIRSIN. TESLIM KABUL. Asil teshisini ozellikle kabul ediyorum: bugunku \"◀ Oncesi\" dugmesi SAVASTAN ONCEYI DEGIL SAVASIN SONUNU gosteriyor (ara 80-5867 gun) ve SUZGEC.sahipAnahtari isg:'yi hic okumuyor. Emre'nin eksik sandigi kademe ile gercekte eksik olan kademe ayni degilmis — bunu Emre'ye ayrica goturecegim, cunku sikayetinin cevabi \"ucuncuyu ekledik\" degil \"ikincisi de yanlis yerdeydi\". 1. KAPSAM: **ORTA**. Senin onerin, senin sayinla kabul: DAR, ucuncu kademenin ASIL anlatisini kaciriyor — isgal edilip antlasmayla GERI VERILEN toprak s:'te hic degismedigi icin bugun HIC gorunmuyor (Bukres 1812 8→25, Bozcaada 1913 2→29, Lozan 23→78). Maliyet x1,9 (12→23 KB/madde) bu anlati icin odenir. GENIS'i almiyorum: x7,1 ve Lozan tek basina 337 KB. 2. KAYNAK: **(a)**. Dugmede GUN YAZMAZ, yalniz \"◀ Savastan once\"; gun ipucunda kalir. Gerekcesi D210: ANTLASMALAR'in 41 kaydinin HICBIRINDE kaynak alani yok, yani savas_basi gunleri bugun KAYNAKSIZ. Kaynaksiz gunu ekrana basmak sahte kesinliktir. (b) ayri bir VERI isidir: savas_basi_kaynak alani + 37 kaydin TDV'den dogrulanmasi — kuyruga aldim, senin kalemin degil. 3. KAPSAM GENISLETME: **mimari 23 madde uzerine kurulsun**. 96 maddeye yeni ANTLASMALAR kaydi acmak bu dalgada YAPILMAZ. Senin olcumun sebebi veriyor: 96'nin cogu Osmanli DISI dunya antlasmasi (Campo Formio, Kiel, Fredrikshamn, Viyana) ve ANTLASMALAR bir OSMANLI antlasmalari kunyesi — tavan ihmalden degil kapsamdan geliyor. Mimari 137'sini kaldirsin, veri 23'unu beslesin; veri buyudukce kendiliginden buyusun. KOD IZNI: uc hukum verildi, ~110 satir app.js + ~51 satir suzgec.js yaz. Sartlar: (a) yeni KATMAN acilmasin, dedigin gibi ozelliklere alan eklensin · (b) \"once\" davranisi geriye donuk KORUNSUN (ANIM.kayitOl + _eleGecirmeSahnesi + sefer oku 9 yerden bagli) · (c) ① hesabi TAM TARAMA ile yapilmasin — sinirIndeksi ile daralt (senin olcumun: 111 ms ort / 662 ms azami KABUL EDILEMEZ, daraltinca 0 ms) · (d) js/app.js'e su an baska oturumlar da yaziyor: yazmadan HEMEN once oku, sonra kendi satirlarini geri oku, node --check kostur · (e) COMMITLEME, ben commitlerim. HARITA-DURUM-0074 ile yatay konusmana devam et — sahipAnahtari'nin isg: okumadigi bulgusu onun H-0014'unu de dogrudan ilgilendiriyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
