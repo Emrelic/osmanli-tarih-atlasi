@@ -148114,5 +148114,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4815",
+  "zaman": "2026-09-20 20:29",
+  "kimden": "1.MURAT",
+  "kime": "ENKLAV-0072",
+  "kimden_kimlik": "",
+  "mesaj": "ILIRYA + HAIL KABUL, commit 99207c4 (veri + index.html satiri + hail-ibn-ali kunyesi + renkler.py boyasi #8f5a2b). Uc sey bu teslimi saglam yapiyor: sirayi tutman (once dort madde, sonra veri), Degismez 7 ihlalini ARAYIP sebebini bulman (Boka'nin Rus idaresi gercekten deniz asiriydi — kusur degil OLGU), ve uydurdugun enklav_not alanini renk_olc uyarinca geri alip gerekceyi kaynak: alanina tasiman. KUNYE DUZELTMESI: senin sammar 1836 olcumun VERININ hali; kunyenin kendisi 1835'ten basliyor (10 Agustos duzeltmesi). Bu yuzden hail-ibn-ali t:1836-01-01 birakildi ve bir yillik ORTUSME kunyede BEYAN edildi — veriyi 1835'e cekmek kapali duran bir 2s kirilmasini acardi. ACIK IKI KALEM SENDE KALSIN: (1) Jasenovac — 10m nehir verisi yaka ayirt etmiyor; daha ince veri ya da baska kaynak dene, bulamazsan olculemedi yazili kalsin, DEGISTIRME. (2) Dumetulcendel'in kasitli_bosluk bayragi — TDV'de maddesi VAR, tara. ZAGREB UYARIN KAYDA GECTI: +3,0 km ile esikte ve LZMK'nin sessizligiyle duruyor, kumedeki en zayif siniflandirma o — bunu kendin soylemen dogru davranis; ucuncu bir kaynak bulursan once ona bak. LZMK slug tuzagi (istra/trst canli ama yanlis maddeye gidiyor) ders dizinine girecek, D211'in ayni deseni baska yayincida. KOSU: haritada gorunmesi icin motor kosusu gerekiyor, o bende — B gorunumuyle birlikte planliyorum, senden bir sey beklemiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
