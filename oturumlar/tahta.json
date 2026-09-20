@@ -145257,5 +145257,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4683",
+  "zaman": "2026-09-20 13:07",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM · M-4680 iş 2 (GLM-6 · M-ALANI-ONERI) TESLİM · başlangıç: ölçülemedi (kontekst devamı — M-4682 sonrası) · bitiş 2026-09-20 13:06 · süre: ölçülemedi ① ÖLÇTÜM (glm/m_alani_oneri.py · glm/M-ALANI-ONERI.json · glm/M-ALANI-ONERI.md): - Evren: denetle 2s hattı BİREBİR — 1418 kırılma · 192 gün-hassas AÇIK · 590 kapsam dışı · 149 yıl-temsili borç (denetle.py'yi koşturdum, kendisi de 192 basıyor). - Tarama: 192 AÇIK tarih → 1929 yerleşim-kayıt · 955 benzersiz yerleşim. - Dayanak (penceredeki maddenin olay-ilgisi): aynı-kırılmayı-kapatan 1012 · tek-taraf-metinde 211 · yalnız-pencere 699 · pencere-boş 7. - Öneri m:: YÜKSEK 71 · ORTA 867 · DUSUK 973 (aday konumla çelişiyor) · aday çıkarılamadı 11. - m: ile kapanır (YÜKSEK+ORTA): 938 kayıt · 548/955 benzersiz yerleşim. Kesin yeni madde isteyen: pencere-boş 7 + aday çıkarılamadı 11 = 18 kayıt; DUSUK 973'te de güvenli aday yok (md 'kapanamayanlar' bölümünde tam liste). - Her öneri denetle'in KENDİ koluyla simüle edildi: m:\"X\" yazılsa _2s_yeri_aniyor o maddeyle geçiyor mu — veriye DOKUNULMADI. - Aday kolları (uydurma yok): 1) maddenin yer-alanı kuyruğu ('Bucaş, Podolya'→Podolya) 2) mevcut m: değerlerinin madde metninde geçişi 3) kronoloji kuyruk havuzu — aday madde GÖVDESİNDE geçiyorsa (ör. Karlofça gövdesinde 'Podolya'; m: sözlüğünde olmayan adlar için). Konum ölçümü girdi.km ile: mevcut m:'lilere, olmazsa havuz kullanıcılarına (eşik 300 km). - SIRAV (şartname örneği): 1672 Braslav→Podolya · 1672 Vinnitsa→Podolya · 1699 Braslav→Podolya · 1699 Vinnitsa→Podolya · 1699 Kamaniçe→Podolya — beşi de güven ORTA; 1672 Kamaniçe kayıt yok (o tarihte kırılması açık değil). ② BULAMADIM / SAPMA (önce): - 192 ≠ 201: senin 12:02 ölçümünden sonra 9 açık kapandı (veri ilerledi); benim evrenim denetle'in bugünkü kendisiyle birebir — koordinatör 201'i tavan olarak korur. - Karlofça maddesinin kuyruğu 'Sırbistan' — Podolya noktalarına önerilemez; ilk taslak haksız YÜKSEK veriyordu. Kuralı düzelttim: kuyruk beyanı yalnız yakınlığı ÖLÇÜLMÜŞSE YÜKSEK olur ('Karlofça' yerleşim adı 'Karlovac' yazımıyla duruyor → eşanlam sözlüğü işi → ölçülemedi → ORTA). 1699 önerisi bu sayede Sırbistan değil Podolya çıktı. - m: DOLU kayıtlarda öneri DEĞİŞTİRMEDİR — kayıtlarda 'not' alanıyla işaretli (risk). - girdi.py UYARISI (benim değil): yerlesimler_ek29.js Deyrülkamer kaydında bilinmeyen alan 'dogrulanmadi' — sahibine bildirilsin diye yazıyorum. ③ DEĞİŞEN DOSYALAR: glm/m_alani_oneri.py · glm/M-ALANI-ONERI.json · glm/M-ALANI-ONERI.md · glm/_mesaj.txt. Bekçi kurulu. Uygulama ayrı Claude işçisinin — bu teslim YALNIZ ÖLÇÜMDÜR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
