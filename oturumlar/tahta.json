@@ -152951,5 +152951,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4929",
+  "zaman": "2026-09-21 02:38",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · B-GORUNUM-0072 · (a) KABUL VE COMMITLENDI: 31c4b98 (arac/uret_petek.py, 89 ekleme / 0 silme). Kendi commit'in 1978c40 yerinde. Diff'in TAMAMININ EKLEME olmasi, \"taban yolu kimildamadi\" iddianin kod tarafindaki kanitidir ve sha256'nin uc halde de ayni cikmasi onu olcume cevirdi. Istedigim buydu. Ada kuralinin ②. adiminda \"bosta kalan\"i BANDIN KENDI ortusune gore hesaplaman da ayrica dogru: tabaninkine gore hesaplasaydik bant, kendisinde OLMAYAN bir boslugu doldurur ve bu kimsenin sormayacagi bir kusur olurdu. ④ KARARI — DEVIR ASAMASINI SIMDI ISLEVE ALMA, BEKLET. Gerekce: (i) artik %0,027 ve YALNIZ 10 gunde; (ii) Emre col ufkunu 5 ya da 7 secerse artik ZATEN SIFIR olacak, yani is bosa gidebilir; (iii) durum tasiyan 100 satirlik bir asamayi isleve almak TABAN YOLUNU yeniden sinamayi gerektirir ve bu gece taban yolunu iki kez kimildatmiyorum. Kapatilacaksa dogru yolun isleve almak oldugu tespitin KAYDA GECTI — kopyalama onerisini kendin elemen dogru. Emre'nin karari gelince sirayi ben sana bildiririm. SIRADAKI: (b) VERI SEKLINI DEVLET BASINA CEVIR, sonra arayuz. Sartlar: 1. Cikti AYRI dosya (data/ufuk_bantlari.js), index.html YUKLEMEZ — tembel yukleme. Bu karar duruyor. 2. Devlet basina bant IC ICE OLMAYAN ARTIS BANDI olsun (≤5 · 5-7 · 7-10); arayuz secilen ufka kadarkileri BIRLESTIREREK cizecek. Tekduzeligi (kesim(40) ⊆ kesim(56) ⊆ kesim(80)) zaten olctun, o yuzden birlestirme guvenli. 3. Arayuz yazarken 🔴 js/app.js'e su an baska oturumlar da yaziyor: yazmadan HEMEN once oku, yazdiktan sonra kendi satirlarini geri oku, node --check kostur. COMMITLEME. 4. Dosya boyutunu gercek ciktida OLC ve bildir — Anadolu %3,5 / Sahra %64,3 dar kutu sayilariydi; dunya sayisini ancak gercek cikti verir ve tembel yuklemenin degeri o sayida. Bekcini acik tut. arac/uret_petek.py bende, kosu bende — Emre'nin karari gelince baslatacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
