@@ -110,17 +110,90 @@ kusur atlasta değil, gizli sekmede. Bu yüzden sınav headless Chrome'a taşın
 | **Güzergâhsız madde** (Bursa'nın fethi 1326) | `dondu:false` — **ok UYDURULMADI** ✓ |
 | Ortak sahne (`ANIM.sahnele` ile) | faz kayıtlı ✓ · ok fazı çizdi ✓ |
 
+### 2.4 🔴 KÖK SEBEP — oklar atlasta HİÇ GÖRÜNMÜYORDU
+
+Sınavın "ok ekranda çizildi mi" adımı önce şunu ölçtü: okun güzergâhı üzerindeki
+dört noktada `queryRenderedFeatures` = **0**. Teşhis aleti
+(`denetim/ARAC-SEFER-OK-TESHIS-0070.js`) hipotezleri tek tek yalanladı:
+
+| Hipotez | Ölçüm | Hüküm |
+|---|---|---|
+| kaynakta veri yok | 4 özellik (2 çizgi + 2 nokta) | ✗ |
+| kaynak ayarları (maxzoom/tolerance) | aynı ayarlı sınav kaynağı → render 1 | ✗ |
+| `line-dasharray` | 0.433 / 0.9 / 1.5 / desensiz → hepsi render 1 | ✗ |
+| katman filtresi | filtre kaldırıldı → yine 0 | ✗ |
+| boya (opaklık/desen) | çıplak boya → yine 0 | ✗ |
+| **katman görünürlüğü** | `sefer-cizgi-*` ve `sefer-kaynak` → **hepsi `"none"`** | ✓ |
+
+Sebep: `KATMAN_KUMESI`'nde `sefer-` kalıbı **"③ Yollar ve koridorlar"** kovasının
+içindeydi (`/^(koridor-|sefer-)/`) ve o kutu `index.html`de 11 Eylül 2026'da
+Emre'nin isteğiyle **varsayılan KAPALI** yapılmıştı. Koridor ağı kapatılırken
+harekât okları da kapandı — veri, çizim kodu, ok başı, lejant yerinde dururken
+**ok hiç ekrana düşmüyordu**. H-0006'nın "oklar koyalım" isteğinin bir kısmı
+aslında yazılmıştı; görünmüyordu.
+
+Düzeltme: okların kendi kovası (`harekat`, `/^sefer-/`, `yollar`dan ÖNCE —
+`katmanSinifla()` ilk eşleşmede döner) + `index.html`de ayrı kutu **③b Harekât
+okları, varsayılan açık**. Koridor bir ALTYAPI, ok bir ANLATI öğesidir; birini
+kapatmak ötekini kapatmamalı. Sınav sonrası: `render_sefer: 1`, görünürlük
+10/10 `visible`, ekran görüntüsü `denetim/SINAV-SEFER-OK-0070-okla.png`.
+
+📌 Ders (ölçüm doğru, çıkarım yanlış ailesi): ilk "ok ekranda yok" karşılaştırması
+`fark_var:false` demişti — ama kamera okun geçmediği kareye bakıyordu. Sınav,
+sınadığı şeyi ekrana sokmak zorundadır; kamera artık okun kendi sınır kutusuna
+oturtuluyor.
+
+### 2.5 ATIF — çizilen ok gerçekten o maddenin mi? (Emre M-4714 §4)
+
+`denetim/ARAC-SEFER-OK-ATIF-0070.js` · ham çıktı `OLCUM-SEFER-OK-ATIF-0070.json`.
+
+| Ölçüm | Uç mesafesiyle | **Güzergâh mesafesiyle** |
+|---|---|---|
+| Ok alan madde | 202 | 227 |
+| Yalnız TARİHLE eşleşen (yeri çözülemeyen) | 115 | 115 |
+| ≤150 km | 68 | **102** |
+| ≤50 km | 63 | 98 |
+
+İki değişiklik yapıldı (`js/sefer_ok.js` `okSec()`):
+1. Mesafe okun **ucuna** değil **güzergâhın tamamına** ölçülüyor. Uç, seferin en
+   ileri noktasıdır; madde güzergâhın ortasını anlatıyor olabilir ("Medine geri
+   alındı" ↔ Tosun Paşa'nın Hicaz seferi: uçla 340 km, güzergâhla 0 km).
+2. **Yeri çözülemeyen maddede ok çizilmez** (eskiden yalnız tarihle eşleşiyordu —
+   115 eşleşmenin okla ilgisi hiç sınanmamıştı). Tavan 400 → **150 km**.
+
+ELE-GECIRME-ANIM-0070'in bildirdiği atıf şüphesi (M-4718 §4b) **ölçüldü ve
+asılsız çıktı**: "Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi" (1803-04-30)
+maddesine seçilen ok **"Suûd'un Tâif ve Mekke harekâtı (1803)"** — mesafe 0 km,
+gün penceresi içinde. Ok o maddenin kendi harekâtıdır.
+
+### 2.6 Emre'nin M-4714 ölçütleri — sınav sonuçları
+
+| Ölçüt | Ölçüm |
+|---|---|
+| ① ok taramanın ÜSTÜNDE | `sefer-cizgi-*` 48–56 · `sefer-kaynak` 57 > `isgal-dolgu` 31 · `devir-dolgu` 29 |
+| ① yazı okun üstünde | ilk `symbol` katmanı 64 > 57 ✓ · `sefer-anim-*` de artık symbol'ün ALTINA ekleniyor (M-4718 §4a) |
+| ② ok ≥ 3× tarama | 9 px / 2.12 px = **4.24×** (zoom 5 ve 8.5'te aynı — ikisi de ekran px) |
+| ② tarama altta soluk, ok üstte dolu | işgal `fill-opacity` 0.85 · ok `line-opacity` 0.92 |
+| ③ fazlar sırayla | `ANIM.sahnele` → ok fazı → bitti → vuruş; ok fazı kısmi yol 2→15 nokta |
+| ④ TEK ANLATI · mükerrer tek çizim | 1867'de 2 aktif kayıt → **1 çizgi**, 1 ok başı (`_cizilen` anahtarı) |
+| ⑤ pasif kipte animasyon yok | sıralayıcıda (ELE-GECIRME-ANIM-0070, M-4718 §2) |
+| sınav: 3 madde × 2 zoom | ok+işgal (1538-08-29 Preveze × İspanya işgali) · yalnız ok (1867) · yalnız el değiştirme (1326 Bursa) · z5 · z8.5 — PNG'ler `denetim/SINAV-SEFER-OK-0070-*.png` |
+
 ---
 
 ## 3. YAPILAN İŞ
 
 | Dosya | Ne değişti |
 |---|---|
-| `js/app.js` (yalnız SEFER/HAREKET blokları) | `HAREKET` kalınlıkları 1.6–2.6 → 7–9 px + `_dsn()` desen telafisi · `sefer-kaynak` circle katmanı · `_seferRengiCoz()` tembel devlet rengi (koyu ton) · `_seferKatmanSirasi()` · `SEFER_ANIM_GIZLI` sözleşmesi |
+| `js/app.js` (yalnız SEFER/HAREKET blokları) | `HAREKET` kalınlıkları 1.6–2.6 → 7–9 px + `_dsn()` desen telafisi · `sefer-kaynak` circle katmanı · `_seferRengiCoz()` tembel devlet rengi (koyu ton) · `_seferKatmanSirasi()` · `SEFER_ANIM_GIZLI` sözleşmesi · mükerrer okun TEK çizimi · **`KATMAN_KUMESI`'ne `harekat` kovası** (§2.4) |
+| `index.html` (tek satır + yorum) | **③b Harekât okları** kutusu, varsayılan açık (§2.4). 🔴 PAYLAŞILAN DOSYA — commit edilmedi, koordinatörün onayına sunuldu |
 | `js/sefer_ok.js` **(YENİ)** | "ok" animasyon fazı. Ad alanı: `window.SEFER_OK_FAZ` (+ `ANIM.kayitOl("ok", …)` ile sıralayıcıya kaydolur) |
 | `denetim/ARAC-SEFER-OK-0070.js` **(YENİ)** | veri evreni ölçümü |
-| `denetim/ARAC-SEFER-OK-SINAV-0070.js` **(YENİ)** | headless tarayıcı sınavı |
-| `denetim/OLCUM-SEFER-OK-0070.json` **(YENİ)** | ham ölçüm + 1877 maddelik güzergâhsız kovası |
+| `denetim/ARAC-SEFER-OK-SINAV-0070.js` **(YENİ)** | headless tarayıcı sınavı (3 madde × 2 zoom, ekran görüntüsü) |
+| `denetim/ARAC-SEFER-OK-TESHIS-0070.js` **(YENİ)** | "ok neden çizilmiyor" hipotez ayıklayıcısı (§2.4) |
+| `denetim/ARAC-SEFER-OK-ATIF-0070.js` **(YENİ)** | madde↔ok atıf ölçümü (§2.5) |
+| `denetim/OLCUM-SEFER-OK-0070.json` · `OLCUM-SEFER-OK-ATIF-0070.json` **(YENİ)** | ham ölçümler + 1877 maddelik güzergâhsız kovası |
+| `denetim/SINAV-SEFER-OK-0070-*.png` **(YENİ)** | sınav ekran görüntüleri (ok+işgal · yalnız ok · yalnız el değiştirme · z5 · z8.5 · okla/oksuz) |
 
 **index.html'e BAĞLANMADI** (paylaşılan dosya — koordinatör ekler):
 `<script src="js/sefer_ok.js?v=rNNNN"></script>`

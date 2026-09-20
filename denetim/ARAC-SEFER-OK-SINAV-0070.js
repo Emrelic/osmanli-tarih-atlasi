@@ -149,6 +149,132 @@ function getJSON(yol) {
         if(((d&&d.features)||[]).length) gorulen.push('ok'); await b(100); if(gorulen.length>3) break; }
       return { madde: olay&&olay.b, kayitli, ok_fazi_cizdi: gorulen.length>0, sure_ms: Math.round(performance.now()-t0) };})()`);
 
+    // ⑥ M-4714 (Emre kuralı, 20 Eylül) — "ok taralı alanla karışmayacak,
+    // animasyon/simge/yazı birbirine girmeyecek". Ölçütleri teslimde SAYIYLA
+    // göstermek şart: üç madde × iki zoom + katman sırası + ekran görüntüsü.
+    sonuc.m4714 = { madde: [], zoom: [] };
+
+    // (a) ok + işgal aynı sahnede · (b) yalnız ok · (c) yalnız el değiştirme
+    // 🔴 (a)'nın GÜNÜ ELLE SEÇİLMİYOR, ÖLÇÜLÜYOR: ilk denemede 1798-07-20
+    // seçilmişti ve `isgal_poligon: 0` çıktı — Napolyon'un Mısır'ı işgal
+    // katmanında YOK (ayrı sevk: NAPOLYON-MISIR-0070). "Ok ile tarama aynı
+    // sahnede" sınavı, ikisinin gerçekten çakıştığı bir gün ister; o gün
+    // ISGALLER × seferler kesişiminden bulunuyor.
+    const kesisim = await js(`(()=>{
+      const ig=(window.ISGALLER||[]).map(g=>({f:gunIdx(g.f),t:gunIdx(g.t),ad:g.ad}));
+      for(const m of (window.seferler||[])){
+        for(const g of ig){
+          const a=Math.max(m.fi,g.f), b=Math.min(m.ti,g.t);
+          if(a<=b){ const gun=Math.floor((a+b)/2);
+            return { gun: (t=>t.y+'-'+String(t.a).padStart(2,'0')+'-'+String(t.g).padStart(2,'0'))(idxTarih(gun)), gi:gun, sefer:m.ad, isgal:g.ad,
+                     merkez:m.yol[Math.floor(m.yol.length/2)] }; }
+        }
+      }
+      return null;})()`);
+    const uclu = [
+      kesisim && kesisim.gi !== undefined
+        ? { ad: 'ok+isgal', gi: kesisim.gi, merkez: kesisim.merkez, zoom: 6.0, not: kesisim.sefer + ' × ' + kesisim.isgal }
+        : { ad: 'ok+isgal', gun: '1798-07-20', merkez: [30.3, 30.7], zoom: 7.2, not: 'kesisim BULUNAMADI' },
+      { ad: 'yalniz-ok', gun: '1867-07-01', merkez: [10.0, 46.0], zoom: 4.6 },
+      { ad: 'yalniz-el-degistirme', gun: '1326-04-06', merkez: [29.06, 40.18], zoom: 7.0 }
+    ];
+    for (const u of uclu) {
+      sonuc.m4714.madde.push(await js(`(async()=>{const b=ms=>new Promise(r=>setTimeout(r,ms));
+        const gi = ${u.gi !== undefined ? u.gi : `gunIdx('${u.gun}')`};
+        tarihAyarla(gi); harita.jumpTo({center:[${u.merkez[0]},${u.merkez[1]}],zoom:${u.zoom}}); await b(1800);
+        const sf=harita.getSource('seferler'); const d=sf.serialize?sf.serialize().data:sf._data;
+        const f=(d&&d.features)||[];
+        const ig=harita.getSource('isgal'); const gd=ig&&(ig.serialize?ig.serialize().data:ig._data);
+        const L=harita.getStyle().layers; const ix=id=>L.findIndex(l=>l.id===id);
+        const ilkSymbol=L.findIndex(l=>l.type==='symbol'&&l.id.indexOf('sefer')!==0);
+        // madde: tam o günde yoksa EN YAKIN madde (sahne yine de sınanmalı)
+        let olay=null, fark=Infinity;
+        for(const o of (window.olaylar||[])){ const d=Math.abs(o.gi-gi); if(d<fark){fark=d;olay=o;} }
+        return { ad:'${u.ad}', gun:(t=>t.y+'-'+String(t.a).padStart(2,'0')+'-'+String(t.g).padStart(2,'0'))(idxTarih(gi)), not:${JSON.stringify(u.not || '')},
+                 madde_gun_farki: fark, symbol_katman_sayisi: L.filter(l=>l.type==='symbol').length,
+                 ok_cizgi: f.filter(x=>x.geometry.type==='LineString').length,
+                 kaynak_nokta: f.filter(x=>x.properties.nokta==='kaynak').length,
+                 isgal_poligon: ((gd&&gd.features)||[]).length,
+                 ok_ustte_mi: Math.min(ix('sefer-cizgi-sefer'),ix('sefer-kaynak')) > Math.max(ix('isgal-dolgu'),ix('devir-dolgu')),
+                 yazi_okun_ustunde_mi: ilkSymbol < 0 ? null : ilkSymbol > ix('sefer-kaynak'),
+                 madde: olay?olay.b.slice(0,50):null,
+                 faz_ok_var_mi: olay?SEFER_OK_FAZ(olay,()=>{}):null };})()`));
+      // fazı hemen kapat ki sıradaki ölçüm temiz başlasın
+      await js(`(()=>{ Object.keys(window.SEFER_ANIM_GIZLI||{}).forEach(k=>delete SEFER_ANIM_GIZLI[k]); try{seferGuncelle(suanki);}catch(e){} return 1; })()`);
+      const ss = await gonder('Page.captureScreenshot', { format: 'png' });
+      if (ss.result && ss.result.data)
+        fs.writeFileSync(path.join(__dirname, 'SINAV-SEFER-OK-0070-' + u.ad + '.png'), Buffer.from(ss.result.data, 'base64'));
+    }
+
+    // iki zoom: ok kalınlığı ekran px'i olarak sabittir, tarama deseni de —
+    // oran zoomla değişmemeli (kural "en az 3 kat" her ölçekte geçerli)
+    for (const z of [5.0, 8.5]) {
+      sonuc.m4714.zoom.push(await js(`(async()=>{const b=ms=>new Promise(r=>setTimeout(r,ms));
+        tarihAyarla(gunIdx('1798-07-20')); harita.jumpTo({center:[30.3,30.7],zoom:${z}}); await b(1200);
+        return { zoom:${z}, gorunen_zoom: harita.getZoom(),
+                 ok_genislik: harita.getPaintProperty('sefer-cizgi-sefer','line-width'),
+                 ince_tarama_px: 3/Math.SQRT2, oran: +(harita.getPaintProperty('sefer-cizgi-sefer','line-width')/(3/Math.SQRT2)).toFixed(2),
+                 ok_opaklik: harita.getPaintProperty('sefer-cizgi-sefer','line-opacity'),
+                 isgal_opaklik: harita.getPaintProperty('isgal-dolgu','fill-opacity') };})()`));
+      const ss = await gonder('Page.captureScreenshot', { format: 'png' });
+      if (ss.result && ss.result.data)
+        fs.writeFileSync(path.join(__dirname, 'SINAV-SEFER-OK-0070-zoom' + String(z).replace('.', '_') + '.png'), Buffer.from(ss.result.data, 'base64'));
+    }
+
+    // ⑦ mükerrer kaydın TEK çizilmesi (M-4714 §4)
+    sonuc.mukerrer = await js(`(async()=>{const b=ms=>new Promise(r=>setTimeout(r,ms));
+      tarihAyarla(gunIdx('1867-07-01')); await b(1200);
+      const sf=harita.getSource('seferler'); const d=sf.serialize?sf.serialize().data:sf._data;
+      const f=((d&&d.features)||[]).filter(x=>x.geometry.type==='LineString');
+      const kayit=(window.seferler||[]).filter(m=>m._fiKirpik<=suanki&&suanki<m._tiKirpik);
+      const eller=(window.seferler||[]).filter(m=>/Abd(ü|u)laziz/i.test(m.ad||''));
+      return { aktif_kayit: kayit.length, cizilen_cizgi: f.length,
+               abdulaziz_kayit: eller.length,
+               abdulaziz_ekli: eller.filter(m=>m.ekli).length };})()`);
+
+    // ⑧ OK EKRANDA GERÇEKTEN ÇİZİLİYOR MU — katman sırası "çizilir" DEMEZ.
+    // Ölçüm: aynı sahnenin iki ekran görüntüsü (ok katmanları görünür / gizli).
+    // Tek değişken ok katmanıdır; PNG'ler BİREBİR aynıysa ok ekrana hiç
+    // düşmüyor demektir. (Piksel çözümlemesine gerek yok: fark VARSA çizim var.)
+    // 🔴 KAMERA OKUN KENDİ KUTUSUNA OTURTULUR: ilk denemede sabit merkez/zoom
+    // verilmişti ve iki görüntü aynı çıkmıştı — sebebi okun çizilmemesi DEĞİL,
+    // görünümün okun GEÇMEDİĞİ bir kareye bakmasıydı. Sınav, sınadığı şeyi
+    // ekrana sokmak zorundadır.
+    sonuc.ok_ekranda_kamera = await js(`(async()=>{const b=ms=>new Promise(r=>setTimeout(r,ms));
+      tarihAyarla(gunIdx('1798-07-20')); await b(600);
+      const m=(window.seferler||[]).find(x=>x.ekli&&x.tur==='sefer')||(window.seferler||[]).find(x=>x.ekli);
+      if(!m) return {durum:'EKRANDA OK YOK'};
+      let m1=[999,999], m2=[-999,-999];
+      m.yol.forEach(p=>{m1=[Math.min(m1[0],p[0]),Math.min(m1[1],p[1])];m2=[Math.max(m2[0],p[0]),Math.max(m2[1],p[1])];});
+      harita.fitBounds([m1,m2],{padding:80,duration:0}); await b(1800);
+      return { ok:m.ad, kutu:[m1,m2], zoom:+harita.getZoom().toFixed(2) };})()`);
+    const a1 = await gonder('Page.captureScreenshot', { format: 'png' });
+    await js(`(async()=>{const b=ms=>new Promise(r=>setTimeout(r,ms));
+      Object.keys(HAREKET).forEach(t=>harita.setLayoutProperty('sefer-cizgi-'+t,'visibility','none'));
+      harita.setLayoutProperty('sefer-kaynak','visibility','none'); await b(900); return 1;})()`);
+    const a2 = await gonder('Page.captureScreenshot', { format: 'png' });
+    await js(`(()=>{Object.keys(HAREKET).forEach(t=>harita.setLayoutProperty('sefer-cizgi-'+t,'visibility','visible'));
+      harita.setLayoutProperty('sefer-kaynak','visibility','visible'); return 1;})()`);
+    const d1 = a1.result && a1.result.data, d2 = a2.result && a2.result.data;
+    sonuc.ok_ekranda = { karsilastirildi: !!(d1 && d2), fark_var: !!(d1 && d2 && d1 !== d2),
+                         bayt_acik: d1 ? d1.length : null, bayt_kapali: d2 ? d2.length : null };
+    if (d1) fs.writeFileSync(path.join(__dirname, 'SINAV-SEFER-OK-0070-okla.png'), Buffer.from(d1, 'base64'));
+    if (d2) fs.writeFileSync(path.join(__dirname, 'SINAV-SEFER-OK-0070-oksuz.png'), Buffer.from(d2, 'base64'));
+
+    // ⑨ Okun kendi güzergâhı üzerinde render edilmiş mi (nokta nokta sorgu)
+    sonuc.ok_render = await js(`(()=>{
+      const m=(window.seferler||[]).find(x=>x.ekli&&x.tur==='sefer')||(window.seferler||[]).find(x=>x.ekli);
+      if(!m) return {durum:'ekranda ok yok'};
+      const kat=Object.keys(HAREKET).map(t=>'sefer-cizgi-'+t).filter(id=>harita.getLayer(id));
+      const orta=(a,b)=>[(a[0]+b[0])/2,(a[1]+b[1])/2];
+      const ornek=[m.yol[0], orta(m.yol[0],m.yol[1]), m.yol[Math.floor(m.yol.length/2)], m.yol[m.yol.length-1]];
+      return { ok:m.ad, gorunur: harita.getLayoutProperty('sefer-cizgi-'+m.tur,'visibility')||'visible',
+        noktalar: ornek.map(p=>{ const e=harita.project(p);
+          const f=harita.queryRenderedFeatures([[e.x-6,e.y-6],[e.x+6,e.y+6]],{layers:kat});
+          const fk=harita.queryRenderedFeatures([[e.x-10,e.y-10],[e.x+10,e.y+10]],{layers:['sefer-kaynak']});
+          return { lonlat:p, ekran:[Math.round(e.x),Math.round(e.y)], cizgi:f.length, kaynak_nokta:fk.length }; }),
+        tuval: [harita.getCanvas().width, harita.getCanvas().height] };})()`);
+
     sonuc.konsol_hata = await js(`(window.__hata||null)`);
   }
   console.log(JSON.stringify(sonuc, null, 1));
