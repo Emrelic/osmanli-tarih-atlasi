@@ -1,0 +1,375 @@
+{
+ "gorev": "GLM-7 · DUSUK-973 ayrıştırması (M-4685 iş 1)",
+ "betik": "glm/dusuk973.py",
+ "girdi": "glm/M-ALANI-ONERI.json (üretici: glm/m_alani_oneri.py — evren ve güven kuralı orada tanımlı; bu betik yalnız ölçülmüş çıktıyı sınıflar, yeniden üretmez)",
+ "tanimlar": {
+  "sinif_onceligi": "(a) öneri+dolup konum>300 → (b) öneri boş (b1 pencere-boş / b2 aday-çıkarılamadı) → (d) kalan; (c) kesişen boyut olarak ayrı raporlanır",
+  "duyarlilik": "E=300/500/800; konum_km ölçülmüş kayıtlar yeniden sınıflanır (km≤E→ORTA, km>E→DUSUK), km'sizler sabit; iki yön sayılır (D206)"
+ },
+ "ozet": {
+  "dusuk_toplam": 991,
+  "grup_kayit": {
+   "a-konum-celisiyor": 973,
+   "b1-pencere-bos": 7,
+   "b2-aday-cikarilamadi": 11,
+   "d-baska": 0
+  },
+  "grup_benzersiz": {
+   "a-konum-celisiyor": 502,
+   "b1-pencere-bos": 7,
+   "b2-aday-cikarilamadi": 11,
+   "d-baska": 0
+  }
+ },
+ "gruplar": {
+  "a-konum-celisiyor": {
+   "tanim": "aday bölge adı VAR (öneri_m dolu), konum ÖLÇÜLDÜ ve >300 km — beyan/çıkarım başka bölgeye ait olabilir",
+   "kayit": 973,
+   "benzersiz_yerlesim": 502,
+   "km": {
+    "adet": 973,
+    "min": 300.1,
+    "ortanca": 2457.3,
+    "max": 10762.6
+   },
+   "dayanak_dagilimi": {
+    "ayni-kirilmayi-kapatan": 421,
+    "yalniz-pencere": 550,
+    "tek-taraf-metinde": 2
+   },
+   "ornekler": [
+    {
+     "yerlesim": "Markovo",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10762.6,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Olyutorsk (Arhangelsk)",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10735.4,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Nijnekamçatsk",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10596.6,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Penjinsk ostrogu",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10529.4,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Verhnekamçatsk",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10435.9,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Bolşeretsk",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10359.6,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Tigil",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10262.5,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Gijiga",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10185.1,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Ostrovnoye (Anyuy panayırı)",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 10166.3,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    },
+    {
+     "yerlesim": "Nijnekolımsk",
+     "tarih": "1917-11-07",
+     "oneri_m": "Filistin",
+     "konum_km": 9939.3,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı",
+     "dosya": "yerlesimler_sibirya2.js"
+    }
+   ]
+  },
+  "b1-pencere-bos": {
+   "tanim": "aday YOK — ±30 gün penceresinde madde hiç yok (yeni madde ister)",
+   "kayit": 7,
+   "benzersiz_yerlesim": 7,
+   "ornekler": [
+    {
+     "yerlesim": "Tırhala",
+     "tarih": "1311-03-15",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "Yanya",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler.js"
+    },
+    {
+     "yerlesim": "Yenişehir (Larissa)",
+     "tarih": "1311-03-15",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "Yanya",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler.js"
+    },
+    {
+     "yerlesim": "Cenne (Djenné)",
+     "tarih": "1591-04-13",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler_e9353f.js"
+    },
+    {
+     "yerlesim": "Gao",
+     "tarih": "1591-04-13",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler_e9353f.js"
+    },
+    {
+     "yerlesim": "Timbuktu",
+     "tarih": "1591-04-13",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler.js"
+    },
+    {
+     "yerlesim": "Ouesso",
+     "tarih": "1880-10-03",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "İmpfondo",
+     "tarih": "1880-10-03",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "pencere-bos",
+     "dayanak_madde": "",
+     "dosya": "yerlesimler_afrika2.js"
+    }
+   ]
+  },
+  "b2-aday-cikarilamadi": {
+   "tanim": "aday YOK — pencerede madde var ama metninden bölge adı çıkarılamadı (ölçülemedi; yeni madde ister)",
+   "kayit": 11,
+   "benzersiz_yerlesim": 11,
+   "ornekler": [
+    {
+     "yerlesim": "Tanca",
+     "tarih": "1684-02-05",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "yalniz-pencere",
+     "dayanak_madde": "Kutsal İttifak kuruldu",
+     "dosya": "yerlesimler.js"
+    },
+    {
+     "yerlesim": "Lindi",
+     "tarih": "1698-12-13",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "yalniz-pencere",
+     "dayanak_madde": "Karlofça barış görüşmeleri başladı",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "Mikindani",
+     "tarih": "1698-12-13",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "yalniz-pencere",
+     "dayanak_madde": "Karlofça barış görüşmeleri başladı",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "Pangani",
+     "tarih": "1698-12-13",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "yalniz-pencere",
+     "dayanak_madde": "Karlofça barış görüşmeleri başladı",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "İsiolo",
+     "tarih": "1895-07-01",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Kenya'nın kuzeydoğu bölgesi (Garissa-Marsabit hattı) İngiliz",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "Sokoto",
+     "tarih": "1903-01-15",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "yalniz-pencere",
+     "dayanak_madde": "Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-B",
+     "dosya": "yerlesimler_e9353f.js"
+    },
+    {
+     "yerlesim": "Biltine",
+     "tarih": "1909-06-02",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "Fada (Ennedi)",
+     "tarih": "1909-06-02",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "Iriba",
+     "tarih": "1909-06-02",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",
+     "dosya": "yerlesimler_afrika2.js"
+    },
+    {
+     "yerlesim": "Ounianga",
+     "tarih": "1909-06-02",
+     "oneri_m": null,
+     "konum_km": null,
+     "m_simdi": "",
+     "dayanak_turu": "ayni-kirilmayi-kapatan",
+     "dayanak_madde": "Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",
+     "dosya": "yerlesimler_afrika2.js"
+    }
+   ]
+  },
+  "d-baska": {
+   "tanim": "(a)+(b) dışında kalan DUSUK — üretim kuralında böyle yol yok; 0 beklenir, ölçülür",
+   "kayit": 0,
+   "benzersiz_yerlesim": 0,
+   "ornekler": []
+  },
+  "_c-kesisen-boyut": {
+   "tanim": "(c) 'madde olayla ilgisiz' BAĞIMSIZ sebep DEĞİL — DUSUK'u yalnız (a) ve (b) yolları üretir; yalnız-pencere dayanaklı DUSUK sayısı KESİŞİM olarak raporlanır (çift sayım önlemi)",
+   "dusuk_toplam_dayanak_dagilimi": {
+    "pencere-bos": 7,
+    "ayni-kirilmayi-kapatan": 427,
+    "yalniz-pencere": 555,
+    "tek-taraf-metinde": 2
+   },
+   "a_icerisinde_yalniz_pencere": 550
+  }
+ },
+ "esik_duyarlilik": {
+  "E=300": {
+   "yukselen_DUSUK_ORTA": 0,
+   "dusen_ORTA_DUSUK": 0,
+   "net_ORTA": 938,
+   "net_DUSUK": 991,
+   "not": "YÜKSEK'ler km≤300 ölçülmüş ya da km'siz olduğundan E≥300'de YÜKSEK kalır (eşik yalnız km ÖLÇÜLMÜŞ kayıtları etkiler); öneri-yok kayıtlar (18) her eşikte DUSUK"
+  },
+  "E=500": {
+   "yukselen_DUSUK_ORTA": 39,
+   "dusen_ORTA_DUSUK": 0,
+   "net_ORTA": 977,
+   "net_DUSUK": 952,
+   "not": "YÜKSEK'ler km≤300 ölçülmüş ya da km'siz olduğundan E≥300'de YÜKSEK kalır (eşik yalnız km ÖLÇÜLMÜŞ kayıtları etkiler); öneri-yok kayıtlar (18) her eşikte DUSUK"
+  },
+  "E=800": {
+   "yukselen_DUSUK_ORTA": 112,
+   "dusen_ORTA_DUSUK": 0,
+   "net_ORTA": 1050,
+   "net_DUSUK": 879,
+   "not": "YÜKSEK'ler km≤300 ölçülmüş ya da km'siz olduğundan E≥300'de YÜKSEK kalır (eşik yalnız km ÖLÇÜLMÜŞ kayıtları etkiler); öneri-yok kayıtlar (18) her eşikte DUSUK"
+  }
+ },
+ "sinav": {
+  "karlofca_1699_sirbistan_dusuk_mu": {
+   "beklenti": "M-ALANI-ONERI'de 1699'da öneri Podolya çıktı; Sırbistan adayının kendisi kayıtların 'adaylar' dizisinde km'siz kalmıştı — DUSUK'a DÜŞMEMİŞ olması kural tutarlılığıdır (ölçülemedi ≠ çelişti)",
+   "bulunan": []
+  },
+  "esik_300_tutari": true,
+  "not": "E=300 mevcut eşik olduğundan yükselen/düşen 0 OLMALI — değilse yeniden sınıflama kuralım üretimle çelişir (iki yön sınavı)"
+ }
+}
