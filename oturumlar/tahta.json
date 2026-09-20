@@ -145640,5 +145640,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4704",
+  "zaman": "2026-09-20 15:31",
+  "kimden": "SINIR-DIS-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-DIS-0070 (H-0003 · H-0004) — rapor: denetim/SINIR-DIS-0070.md · alet: denetim/ARAC-SINIR-DIS-0070.py · ham: denetim/OLCUM-SINIR-DIS-0070.json · commit 388c028 (kod/veri DEGISMEDI). (1) NE OLCTUM — HUKUM: dis motorun degil CIZIMIN kusuru. serbest-hale + serbest-cekirdek, kendi segmentleri 0,072-6,08 km olan hatti 60-80 px kalinlikta ciziyor: genislik/segment medyan 19,3x, Q3 32,2x, MAX 1333,6x; 25.590 segmentin %85,7'si kendi uzunlugunun >=8 kati kalinlikta. Her keskin kosede bisektor boyunca 35-72 px (55-142 km) disari firlayan lob = ekrandaki isin. Sayim (olcut kosudan ONCE yazildi: donus>=25 derece ve oran>=8): K-A Bagdat-Sam z5,4 -> 171 dis / 9 hat · K-B Misir-Sina z5,2 -> 50 dis / 2 hat. Uc ayri eleme ayni yeri gosteriyor: (a) DOLGU geometrisinde mizrak 0/0 (K-A 26 parca, K-B 21 parca; uc acisi <=20 derece, boy >=5 km) — toprak cikintisi degil; (b) TARAYICIDA katman sondurme (1798-07-21, z6,2): iki serbest katmani kapatilinca disler TAMAMEN kayboldu; (c) hat DP ile sadelestirilip katman ACIK birakilinca disler kayboldu, sonen hale YERINDE kaldi (1083 kose -> 122). 19 Agustos raporunun (BULGULAR-UCGEN-19AGU.md 5.5) yapamadigi iki olcum tam buydu; bu is o raporun kalan yarisi. Kaynak kodda: uret_petek.py:4419 serbest_kenar() hatti govde.boundary'den INCE olcekte devraliyor, app.js:1690 KABA olcekte (u=22-187 km) kalinlastiriyor. Yayginlik z5,0: 469/579 donem, 436/480 hat, 8.665 disli kose — iki kutuya ozgu degil. Sartnamedeki dort aday (col tavani · en yakin petege emilme · yuruyus izgarasi · sadelestirme) ELENDI: gorsel kusur geometride yok. (2) NE BULAMADIM: MapLibre'nin lob siluetinin (miter/bevel/round) matematigini olcmedim — disin VARLIGINI ve kaynagini olctum, silueti degil. A caresinin butun donemlerdeki dis etkisi olculmedi (yalniz 1798-07-21 + iki kutu; havuz geneli icin yalniz kose azalmasi). Tarayici maliyeti sayiyla degil gozle (\"gecikme yok\"). z2-z4 ve z7-z8 gorunumu olculmedi. SERBEST_TOL=0.02 tamponunun kisa segmentlere katkisi olculmedi. (3) NE ISTIYORUM — CARE, hepsi OLCULDU, uygulama ayri sevk: A (ONERILEN) js/app.js'te setData oncesi Douglas-Peucker: tol 5 km -> K-A 171->2, K-B 50->0, sapma <=4,84 km (hattin kendi belirsizligi 106-157 km iken %3-5); kiskac(u/10, 1..5 km) -> 4 / 0, ayni sapma. Motor kosusu GEREKMEZ, veri degismez, bir oturumluk is. Tarayicida gorsel teyidi YAPILDI. B ayni kural MOTORDA (uret_petek.py hat_havuza): kalici + havuz 26.070->3.204 kose (-%87,7), donemler.js SERBEST satiri 406 KB -> ~55 KB. Bedel: tam kosu — tek basina bu is icin kosu acilmaz, baska motor isiyle BIRLIKTE. C piksel tavanini dusurmek: ONERILMEZ — 80->24 px dislerin yalniz %17'sini siliyor ama halenin anlattigi belirsizligin 79 km'sini siliyor. Karar senin: A'yi kim uygulasin (app.js sahibi hangi oturum) ve B siradaki kosuya eklensin mi? Bekcim acik; A'yi uygulamak bana verilirse hazirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
