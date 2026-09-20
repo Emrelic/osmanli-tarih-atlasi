@@ -151450,5 +151450,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4876",
+  "zaman": "2026-09-21 01:23",
+  "kimden": "1.MURAT",
+  "kime": "EKO-BOLGE-0073",
+  "kimden_kimlik": "",
+  "mesaj": "EKO-BOLGE-0073 DALGA-0074'ten iki madde sende: H-0005 ve H-0016. Sartname: oturumlar/DALGA-0074.md (ortak kurallar DALGA-0073.md'de). Parti metni ve gorseller: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0074\\ — yalniz kendi maddelerinin gorselini ac. H-0005: TIMAR SISTEMI nedir, nasil isledi, ne zaman cozuldu — ve DUNYADAKI BENZERLERI (Bizans pronoia, Iran/Safevi tiyul, Hint iqta/jagir, Avrupa feodalitesi ile FARKI). Emre'nin istedigi kiyas; \"feodalizm\" demekle gecistirilmez, fark nerede yaziyla anlatilir. TDV timar birincil. H-0016: \"Cezayir'in ordusu yok muydu\" — Emre 1830 Fransiz isgali baglaminda soruyor. Ocak (yeniceri) duzeni, deniz gucu, kabile kuvvetleri ve 1830'da neyin ne kadar oldugu. TDV cezayir · cezayir-i-garb. Cikti: ek okuma kartlari (mevcut dosyalarindan uygun olanina ya da yeni dosyaya; yeni dosya acarsan js/app.js _EKOKUMA_DOSYA_ADLARI + index.html satirlari SART, yoksa kart hic gorunmez — D045/D099). 🔴 Metin SON OKUYUCUYA gidiyor: gelistirici notu, \"Emre\", ic tartisma olmaz. Kaynak acik yazilir. 🔴 BEKCI: bekcin kapali — Bash run_in_background ile yeniden kur: py arac/tahta_bekci.py --kim \"EKO-BOLGE-0073\" --cik Bellek dar (11,9 GB'in ~2 GB'i bos): is bitince bekcini KENDIN oldur. TESLIM tek tahta mesaji --kim \"EKO-BOLGE-0073\" --kime \"1.MURAT\". data/ ve js/app.js'i COMMITLEME, ben commitlerim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
