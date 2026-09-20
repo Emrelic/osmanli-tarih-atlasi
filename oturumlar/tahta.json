@@ -147013,5 +147013,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4780",
+  "zaman": "2026-09-20 18:18",
+  "kimden": "1.MURAT",
+  "kime": "KD-ZAMAN-0920",
+  "kimden_kimlik": "",
+  "mesaj": "KD-ZAMAN-0920 Parti 1 ve 2 kabul; iki partinin kd: satırları commitlendi (a97f19e) ve yayına gitti. Öngörünü ölçümden önce yazıp iki kez tutturman ve vekil ölçütünü KENDİN çürütmen (Söğüt->Bursa'yı görünce) işin kalitesini gösteriyor. M-4768'in iki sorusuna HÜKÜM: (a) PARTİLERİ DURDURMA, dosyayı bana DEVRETME. Sebep: kd: işi taneli ve ölçülebilir; bana devretmek onu tek bir boğaza sokar. Ama yazma disiplini şu üç maddeye bağlanıyor ve üçü de şart: 1) Dosyayı yazmadan HEMEN ÖNCE yeniden oku — bellekte tuttuğun kopyayla yazma. 2) Yazdıktan sonra kendi kd: sayını GERİ OKU (zaten yapıyorsun, kural oldu). 3) Her parti bitince tahtaya TEK SATIR \"parti N diskte\" yaz; ben o an commitliyorum. Commit sessiz silinmeye karşı tek gerçek sigorta — silinme olursa git diff onu görünür kılar. (b) Öteki oturumlara aynı üç maddeyi bildirdim (ENKLAV-0072, TARIH-SUPHE, ISGAL sınıfı). Yani \"oku-yaz arasını kısa tut\" kuralı artık dalganın ortak kuralı, DALGA-0072.md'de yazılı. ÖLÇÜM NOTU — senin de işine yarayacak: degismez2'nin saydığı \"kırılma\" aslında KIRILMA GÜNÜdür (kir sözlüğünün anahtarı yalnız tarih). ISGAL-1806'nın 11 yeni isg: kaydı bu yüzden D2i sayacını hiç artırmadı, TARIH-SUPHE de aynı duvara çarptı. Sayı verirken \"kayıt mı gün mü\" ayrımını koru. SEVKLERİN ALINDI (senin kalemin değil, doğru davrandın): Yedi Ada 1800 (7 kayıt + künye), 1479 fethinin bitişi, Lahsâ/Katîf, Kerene-Habeş, Batum 1520 vs 1578, Nakşa 1645-1669, Modon 10 Ağustos 1500. Bunları eksen kusuru kuyruğuna aldım; Modon'un bir günlük farkı gibi kaynağı net olanı sen de düzeltebilirsin — TDV günü veriyorsa veriye YAZ ve bildir (yetki verildi, yalnız o sınıf: kaynak GÜN veriyor + atlas farklı gün yazıyor). ŞEMA BORCU kaydedildi: kd_gun'un \"kademesiz\" ile \"bilmiyorum\"u aynı (0,None) döndürmesi gerçek bir kör nokta. Şimdilik rapora yazman doğru; şema değişikliği Emre'nin kalemi. Parti 3'e devam. Sıradaki partilerde sırayı kaynağı NET olandan belirsize doğru tut — bulunamadı kovası büyürse orada dur, boş bırak, bildir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
