@@ -753,7 +753,69 @@ Değişmez 2 ✓ 590 kırılma 0 açık.
 | Eskişehir | 1288-01-01 | 1381-01-01 | 3 / Kütahya |
 | Karacahisar | 1288-01-01 | 1381-01-01 | 4 / Kütahya |
 
-### Yol boyunca çıkan iki soru (benim kalemim değil, bildiriyorum)
+---
+
+# PARTİ 9 — C SINIFI / İSTANBUL KÜMESİ (9 kayıt, 9 çelişki) · 21 Eylül 2026
+
+## 33. ÖNCE SINIFLANDIRMA (sevkin şartı), SONRA YAZIM
+
+1.MURAT M-4916: *"Bu kümede tuzak var: 1400'de İstanbul OSMANLI DEĞİL… Önce hangisi
+olduğunu ayır: (i) bağ doğru ama zamansız mı, (ii) bağ o tarihte yanlış mı. Sayıyla
+ayır, sonra yaz."*
+
+**Küme:** Akyazı · Anadolu Hisarı · Beykoz · Gebze · Hereke · Kandıra ·
+Pelekanon (Eskihisar) · Samandıra · İzmit — dokuzunun da `m:`i **İstanbul**,
+dokuzunun da çelişkisi **1400 kesitinde**, hepsi `OSMANLI / bizans`.
+
+### 33a. Dokuzunun ORTAK ve KESİN olanı
+TDV `istanbul`: "Mehmed **29 Mayıs 1453**'te İstanbul'u fethederek Bizans hâkimiyetine
+son verdi." ⇒ `m:"İstanbul"` penceresi **1453-05-29'dan önce BAŞLAYAMAZ**. Dokuz
+çelişkinin dokuzu da bu tek olgudan doğuyor.
+
+### 33b. Sınıflandırma — sayıyla
+| sınıf | kayıt | dayanak |
+|---|---|---|
+| (i) bağ 1453 SONRASI doğru, yalnız penceresi yok | **0 kesin** | hiçbir TDV maddesi bu kasabaların 1453 sonrası merkezini ADIYLA vermiyor |
+| (ii) bağ muhtemelen YANLIŞ (senin hükmünü ister) | **1** | **İzmit** — TDV `kocaeli`: "**Merkezi İzmit olan** ve adını bölgeyi…"; TDV `izmit`: "Çelebi Mehmed … **Bayezid Paşa'yı sancak beyi tayin ederek**…" ⇒ İzmit bir **sancak MERKEZİ**dir; bir sancak merkezinin `m:`inin İstanbul olması Eskişehir vakasının aynısı |
+| (iii) ÖLÇÜLEMEDİ | **8** | Akyazı, Anadolu Hisarı, Beykoz, Gebze, Hereke, Kandıra, Pelekanon, Samandıra — `/kocaeli` sancağın merkezini veriyor ama **bu kasabaları kazası olarak ANMIYOR**; `/gebze` aramasında şehir maddesi yok (yalnız üç yapı maddesi), `/beykoz` maddesi 2,6 KB'lık bir taslak |
+
+📌 **Ölçülemedi ≠ yanlış.** Sekizi için "Kocaeli sancağındaydılar" demek coğrafî
+olarak makul ama **bölgeden kasabaya taşınan hüküm** olur (`CLAUDE.md §4`), yazmadım.
+
+### 33c. Ne yazdım
+Dokuzuna da **A kalıbının aynısı**: `{1281-01-01 → kaydın kendi Osmanlı başlangıcı,
+k:0, m:null}` · **BOŞLUK** (kendi fethi → 1453-05-29 arası: merkez bulunamadı) ·
+`{1453-05-29 → 1923-10-29, k:<kaydın k:si>, m:"İstanbul"}`.
+İkinci pencere **bugünkü `m:`i AYNEN taşır**, yalnız zaman sınırı kazandırır — yani
+`m:` DEĞİŞTİRMİYORUM, (ii) hükmünü ÖN ALMIYORUM. İzmit'in penceresini de yazdım:
+yazmasaydım kaydın Osmanlı dönemi boşlukta kalır ve **sonraki bütün denetim soruları
+da susardı** (parti 7'de ölçülen tuzak).
+
+**ÖNGÖRÜ: 59 → 50 (−9).**
+
+## 34. PARTİ 9 SONUCU
+
+| Ölçü | Önce | Sonra | Öngörü |
+|---|---|---|---|
+| ZAMANLI çelişki | 59 | **50** | 50 ✓ **TUTTU** |
+| ZAMANSIZ çelişki | 489 | **489** | sabit ✓ |
+| `kd:` taşıyan kayıt | 409 | **418** | +9 ✓ |
+| çelişki üreten ayrı yerleşim | 52 | **43** | −9 ✓ |
+| **1400 kesitinde `m:İstanbul` çelişkisi** | 9 | **0** | — |
+
+`py arac/denetle.py` (21 Eylül, parti 9'dan sonra; tahtaya önce haber verildi):
+**SONUÇ temiz** · Değişmez 1 ✓ 299 sahipsiz · Değişmez 2 ✓ 590 kırılma 0 açık ·
+konum ✓ 0.
+
+### Dokuz partinin toplamı
+**483 → 50 · −433 çelişki (%89,6)** · `kd:` taşıyan kayıt 192 → **418** ·
+çelişki üreten ayrı yerleşim 262 → **43** · ZAMANSIZ (`m:`) 489'da hiç değişmedi.
+Dokuz partinin **sekizinde** öngörü ölçümden önce yazıldı ve tuttu; **birinde
+(parti 7) tutmadı** ve tutmaması yamanın kendi kusurunu ortaya çıkardı (§27-28).
+
+---
+
+### Parti 8'in yol boyunca çıkan iki sorusu (benim kalemim değil, bildiriyorum)
 1. **Söğüt'ün `k:`si 1** — yani "eyalet merkezi" kademesi — ama `m:"Bursa"`.
    `kd:`ye kaydın kendi değerini taşıdım (uydurmamak için), ama k:1 bir yerleşimin
    başka bir merkeze bağlı olması şemanın mantığıyla oturmuyor (`k12_merkez`
