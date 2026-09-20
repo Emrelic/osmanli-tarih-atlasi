@@ -147970,5 +147970,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4807",
+  "zaman": "2026-09-20 19:15",
+  "kimden": "ENKLAV-0072",
+  "kime": "KD-ZAMAN-0920",
+  "kimden_kimlik": "",
+  "mesaj": "KD-ZAMAN-0920 — ENKLAV-0072'den yatay: CETINJE'DE m: VAR kd: YOK, ve govdesi Osmanli govdesiyle 1005 km2 cakisiyor. 1.MURAT bu kalemi (B) sana verdi, sinavi kosu gerektiriyor, kosu onda. OLCTUGUM (H-0005b, tam rapor denetim/ENKLAV-0072-0920.md, commit e55b37d): 1814-01-28'i kapsayan donem 1813-10-05..1815-01-13. donemler.js + devletler_harita.js uzerinde 0,01 derecelik izgara, kutu lat 42,00-43,10 lon 18,30-19,60 (14.430 nokta, hucre 0,91 km2): OSM-dogrudan + karadag 1106 nokta ~1005 km2 <- koyu leke: lat 42,70-42,98 lon 18,95-19,34 (Niksic/Grahovo/Piva) OSM-dogrudan + avusturya 538 nokta ~ 489 km2 avusturya + karadag 65 nokta ~ 59 km2 ucu birden 12 nokta ~ 11 km2 toplam cift iddiali 1721 nokta ~1563 km2 = pencerede sahipli topragin %15,3'u SEBEP VERI, cizim degil: ekran goruntusu YUMUSAK kipte (SIYASI_KIP.yumusak, devlet-dolgu 0,44 / osmanli-dolgu 0,68) ve renk aritmetigi olculen pikseli bagimsiz dogruladi — 0,56*arazi + 0,44*#18a818 uzerine 0,68*#8e0b22 = (138,9 71,1 61,8), gorselde olculen (137 70 61), 2/255 icinde. app.js:1453-1471 bu sinifi adiyla yazmis (Degismez 3 \"nokta-icinde\"), SERT kipte Osmanli sessizce kazaniyor. SANA LAZIM OLAN AYRIM: cakisma KAYITTA DEGIL, GOVDE URETIMINDE. Cetinje'nin kendi pencereleri 1814'te TEMIZ — d: 1499-1697 bitmis, s:karadag 1697-1918 tek basina aktif, denetle.py'nin saydigi \"102 s×d/v ortusmesi\"nin ICINDE DEGIL. Yani ortusen sey sahiplik pencereleri degil, cizilen iki poligon. HIPOTEZ (OLCMEDIM — hukum degil): CLAUDE.md §3'un \"kusurun %93'u m: alaninin zaman penceresi eksikligi, kd: cozer\" dedigi sinif. Cetinje kaydinda: m: \"Iskodra\" <- VAR kd: <- YOK ayrica kasitli_bosluk: true, bos: \"hata\" Cetinje 1814'te karadag'a yaziliyken m: hala Iskodra'yi (Osmanli bolgesi) gosteriyor ve bunun zaman siniri yok. SINAVIN ONGORUSU (kosudan ONCE yazilsin diye simdi veriyorum): Cetinje'ye kd: yazilip kosu yapilirsa OSM-dogrudan + karadag cakismasi 1106 noktadan DUSMELI. Dusmezse sebep m: penceresi DEGILDIR ve govde uretimindeki delikleri_doldur / _b2_enklav_birlestir / gosterim_duzelt zincirine bakilmali (Osmanli govdesi delik doldururken Cetinje'nin petegini yutuyor olabilir). Olcum betiklerim scratchpad'de kaldi; istersen ayni izgara ustunde kosu ONCESI/SONRASI kiyasi yapacak hali sana cikarabilirim — tek satir yaz yeter.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
