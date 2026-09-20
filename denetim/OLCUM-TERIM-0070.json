@@ -1,0 +1,367 @@
+{
+ "kronoloji": {
+  "dosya": 124,
+  "madde": 7146,
+  "tur_sayimi": {
+   "(tur YOK)": 1547,
+   "savas": 929,
+   "antlasma": 531,
+   "hukumdar": 422,
+   "kurulus": 313,
+   "toprak-kazanc": 311,
+   "kultur": 293,
+   "toprak-kayip": 222,
+   "idari": 213,
+   "isyan": 208,
+   "siyaset": 198,
+   "bilim": 172,
+   "son": 164,
+   "diplomasi": 158,
+   "ekonomi": 154,
+   "din": 152,
+   "reform": 131,
+   "isgal": 103,
+   "mimari": 90,
+   "olum": 71,
+   "kriz": 67,
+   "ittifak": 66,
+   "sosyal": 66,
+   "bolunme": 65,
+   "kayip": 57,
+   "fetih": 53,
+   "diger": 45,
+   "kanun": 41,
+   "hanedan": 38,
+   "anayasa": 28,
+   "birlesme": 25,
+   "toprak": 24,
+   "yikilis": 23,
+   "vassal": 17,
+   "kesif": 16,
+   "salgin": 15,
+   "askeri": 13,
+   "sefer": 13,
+   "darbe": 11,
+   "felsefe": 8,
+   "kusatma": 6,
+   "ic-savas": 6,
+   "siyasi": 6,
+   "deniz": 6,
+   "felaket": 6,
+   "ic-karisiklik": 5,
+   "evlilik": 5,
+   "teknoloji": 4,
+   "hukuk": 4,
+   "sehircilik": 4,
+   "magazin": 4,
+   "tabiiyet": 3,
+   "ateskes": 2,
+   "kisi": 2,
+   "hikaye": 2,
+   "tartisma": 2,
+   "baskent": 1,
+   "dogum": 1,
+   "itaat": 1,
+   "sebep-sonuc": 1,
+   "sadrazam": 1,
+   "vefat": 1
+  },
+  "baslik_kalibi": {
+   "(kalıpsız)": 6120,
+   "harekat": 205,
+   "alinma": 198,
+   "fetih": 194,
+   "isgal": 176,
+   "zapt": 134,
+   "ilhak": 115,
+   "teslim": 24,
+   "istila": 23
+  },
+  "capraz_kalip_x_tur": {
+   "harekat": {
+    "savas": 73,
+    "(tur YOK)": 61,
+    "sefer": 9,
+    "ittifak": 8,
+    "toprak-kayip": 6,
+    "toprak-kazanc": 6
+   },
+   "zapt": {
+    "toprak-kazanc": 32,
+    "savas": 21,
+    "(tur YOK)": 19,
+    "toprak-kayip": 16,
+    "kurulus": 11,
+    "hukumdar": 8
+   },
+   "alinma": {
+    "(tur YOK)": 72,
+    "toprak-kazanc": 49,
+    "savas": 24,
+    "toprak-kayip": 12,
+    "fetih": 5,
+    "antlasma": 5
+   },
+   "fetih": {
+    "(tur YOK)": 101,
+    "toprak-kazanc": 44,
+    "savas": 10,
+    "fetih": 8,
+    "son": 5,
+    "toprak": 5
+   },
+   "ilhak": {
+    "(tur YOK)": 42,
+    "toprak-kazanc": 29,
+    "son": 11,
+    "savas": 6,
+    "toprak-kayip": 6,
+    "antlasma": 3
+   },
+   "isgal": {
+    "(tur YOK)": 72,
+    "isgal": 45,
+    "savas": 16,
+    "toprak-kayip": 16,
+    "toprak": 5,
+    "toprak-kazanc": 4
+   },
+   "istila": {
+    "savas": 15,
+    "isgal": 4,
+    "(tur YOK)": 2,
+    "kriz": 1,
+    "vassal": 1
+   },
+   "teslim": {
+    "idari": 5,
+    "toprak-kayip": 4,
+    "son": 3,
+    "savas": 3,
+    "(tur YOK)": 3,
+    "toprak-kazanc": 2
+   }
+  }
+ },
+ "isgal_penceresi": {
+  "yerlesim": 231,
+  "pencere": 316,
+  "kapali_pencere": 314,
+  "acik_pencere": 2,
+  "isgalci_devlet": 8,
+  "en_cok": {
+   "ingiltere": 116,
+   "fransa-cumhuriyet": 58,
+   "rusya": 56,
+   "yunanistan": 40,
+   "avusturya": 26,
+   "italya": 18,
+   "almanya": 1,
+   "ispanya": 1
+  },
+  "sure_gun": {
+   "min": 6,
+   "Q1": 1116,
+   "medyan": 3237,
+   "Q3": 11783,
+   "max": 15509
+  },
+  "sure_kovasi": {
+   "<1 yıl": 24,
+   "1-3 yıl": 47,
+   "3-5 yıl": 29,
+   "5-10 yıl": 75,
+   ">=10 yıl": 139
+  },
+  "kaynakli_pencere": 217
+ },
+ "sahiplik_donemi": {
+  "donem": 13159,
+  "kapali": 13146,
+  "acik": 13,
+  "sure_gun": {
+   "min": 15,
+   "Q1": 4121,
+   "medyan": 20573,
+   "Q3": 62969,
+   "max": 2948457
+  },
+  "sure_kovasi": {
+   "<1 yıl": 868,
+   "1-3 yıl": 512,
+   "3-5 yıl": 595,
+   "5-10 yıl": 1036,
+   ">=10 yıl": 10135
+  }
+ },
+ "terim_gosterim": {
+  "olcut": "yıl düzeyinde kesişim (KABA — gün düzeyi ölçülmedi)",
+  "isgal_kelimeli_madde": 176,
+  "o_yilda_haritada_isg_penceresi_VAR": 122,
+  "o_yilda_haritada_isg_penceresi_YOK": 54,
+  "isg_penceresi_olan_yil_sayisi": 88
+ },
+ "kategori_k": {
+  "css_sinifi": [
+   "antlasma",
+   "ayaklanma",
+   "bilim",
+   "darbe",
+   "diplomasi",
+   "ekonomi",
+   "evlilik",
+   "fetih",
+   "idari",
+   "isyan",
+   "ittifak",
+   "kanun",
+   "kayip",
+   "kesif",
+   "kultur",
+   "kurulus",
+   "kusatma",
+   "reform",
+   "sadrazam",
+   "savas",
+   "sefer",
+   "siyaset",
+   "taht",
+   "vassal"
+  ],
+  "k_degeri": 32,
+  "madde_k_yazili": 1530,
+  "css_karsiligi_VAR": 1415,
+  "css_karsiligi_YOK": 115,
+  "karsiliksiz_en_cok": {
+   "diger": 48,
+   "mimari": 27,
+   "kazanc": 16,
+   "sosyoloji": 13,
+   "spor": 5,
+   "isgal": 3,
+   "felsefe": 1,
+   "askeri": 1
+  },
+  "terim_ailesi_k": {
+   "fetih": 313,
+   "isgal": 3,
+   "ilhak": 0,
+   "istila": 0,
+   "kayip": 233,
+   "savas": 193,
+   "sefer": 13
+  },
+  "capraz_kalip_x_k": {
+   "fetih": {
+    "fetih": 92,
+    "kurulus": 2,
+    "savas": 2,
+    "siyaset": 1,
+    "kultur": 1
+   },
+   "harekat": {
+    "fetih": 22,
+    "savas": 19,
+    "sefer": 7,
+    "siyaset": 4,
+    "kayip": 3
+   },
+   "ilhak": {
+    "fetih": 34,
+    "kayip": 5,
+    "siyaset": 2,
+    "antlasma": 1
+   },
+   "alinma": {
+    "fetih": 50,
+    "savas": 9,
+    "antlasma": 4,
+    "kazanc": 3,
+    "kultur": 1
+   },
+   "isgal": {
+    "kayip": 50,
+    "savas": 11,
+    "siyaset": 4,
+    "isgal": 2,
+    "fetih": 2
+   },
+   "zapt": {
+    "fetih": 9,
+    "kayip": 8,
+    "savas": 1,
+    "siyaset": 1
+   },
+   "istila": {
+    "siyaset": 1,
+    "fetih": 1
+   },
+   "teslim": {
+    "fetih": 2,
+    "kayip": 1
+   }
+  }
+ },
+ "oneri_maliyeti": {
+  "olcut": "başlıkta ilk eşleşen terim kalıbı → hedef sınıf; bugünkü `k:` ile karşılaştırma",
+  "zaten_dogru": {
+   "fetih": 92,
+   "alinma": 50,
+   "ilhak": 34,
+   "zapt": 7,
+   "harekat": 7,
+   "isgal": 2,
+   "teslim": 2
+  },
+  "degisecek": {
+   "harekat": 8,
+   "isgal": 2
+  },
+  "bugunku_k_sessiz": {
+   "isgal": 64,
+   "harekat": 32,
+   "alinma": 17,
+   "zapt": 10,
+   "ilhak": 8,
+   "fetih": 8,
+   "istila": 1,
+   "teslim": 1
+  },
+  "toplam_zaten_dogru": 194,
+  "toplam_degisecek": 10,
+  "toplam_sessiz": 141
+ },
+ "kunye_turu": {
+  "gecici-isgal": 17,
+  "gecici-hukumet": 1,
+  "isyan": 69,
+  "kunye_toplam": 677
+ },
+ "esik_sinamasi": {
+  "1 yıl": {
+   "isgal_penceresi_ESIKTEN_KISA (geçici kalır)": 24,
+   "isgal_penceresi_ESIKTEN_UZUN (kalıcıya döner)": 290,
+   "sahiplik_donemi_ESIKTEN_KISA (işgale döner)": 868
+  },
+  "2 yıl": {
+   "isgal_penceresi_ESIKTEN_KISA (geçici kalır)": 51,
+   "isgal_penceresi_ESIKTEN_UZUN (kalıcıya döner)": 263,
+   "sahiplik_donemi_ESIKTEN_KISA (işgale döner)": 1090
+  },
+  "3 yıl": {
+   "isgal_penceresi_ESIKTEN_KISA (geçici kalır)": 71,
+   "isgal_penceresi_ESIKTEN_UZUN (kalıcıya döner)": 243,
+   "sahiplik_donemi_ESIKTEN_KISA (işgale döner)": 1380
+  },
+  "5 yıl": {
+   "isgal_penceresi_ESIKTEN_KISA (geçici kalır)": 100,
+   "isgal_penceresi_ESIKTEN_UZUN (kalıcıya döner)": 214,
+   "sahiplik_donemi_ESIKTEN_KISA (işgale döner)": 1975
+  },
+  "10 yıl": {
+   "isgal_penceresi_ESIKTEN_KISA (geçici kalır)": 175,
+   "isgal_penceresi_ESIKTEN_UZUN (kalıcıya döner)": 139,
+   "sahiplik_donemi_ESIKTEN_KISA (işgale döner)": 3011
+  }
+ }
+}
