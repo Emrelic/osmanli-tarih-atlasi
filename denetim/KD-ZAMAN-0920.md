@@ -186,3 +186,108 @@ Dönem sağlığı 0 sıfır-uzunluk / 0 ters / 0 çakışma, konum denetimi 0 �
 **Sıradaki parti için hazır liste** (bugün en çok çelişki üretenler, `kd:` yazılmamış):
 Kerene 6 · İstendil (Tinos) 5 · Ukayr 5 · Cübeyl 5 · Uyvar 4 · Malatya 3 · Modon 3 ·
 Anabolu 3 · Eğriboz 3 · Sakız 3 · Nakşa 3 · Andros 3 · Karpatos 3 · Anapa 3 · Sohum 3.
+
+---
+
+# PARTİ 2 — Ege/Mora adaları + Doğu serhaddi (12 kayıt, 39 çelişki)
+
+## 6. ÖNGÖRÜ (parti 2) — ölçümden ÖNCE yazıldı
+
+**Küme:** İstendil (Tinos) 5 · Uyvar 4 · Nakşa 3 · Eğriboz 3 · Modon 3 · Anabolu 3 ·
+Malatya 3 · Rakka 3 · Batum 3 · Ahıska 3 · Sohum 3 · Sakız 3 = **39 çelişki**.
+Hepsinin TDV'de DOĞRUDAN maddesi var (`istendil`, `sakiz`, `andros`, `karpatos` slugları
+ÖLÜ — 302; İstendil ve Sakız kapsayıcı `cezayir-i-bahr-i-sefid` maddesinden karşılandı).
+
+**Sınav anı:** `denetle.degismez3z` yeniden koşturulur, aynı evren.
+**ÖNGÖRÜ: 422 → 383 (−39).** Yazılan `kd:` pencerelerinin hiçbiri kesitlerde YENİ çelişki
+üretmemeli (yazılan her merkez, o kesitte kayıtla AYNI devlettedir — tek tek kontrol edildi):
+Nakşa/Eğriboz/Sakız→Gelibolu · Modon/Anabolu→Mora · Sohum→Batum · Malatya→Maraş,
+Rakka→Diyarbakır pencereleri 1600/1700/1800'de iki tarafı da OSMANLI bırakır.
+
+## 7. PARTİ 2 KAYNAKLARI VE YAZILAN `kd:`
+
+| Kayıt | TDV kaynağı (cümle) | Yazılan `kd:` özeti |
+|---|---|---|
+| **İstendil (Tinos)** | `cezayir-i-bahr-i-sefid`: "**Yalnız Tine adası 1715 yılına kadar alınamadı**" | 1715 öncesi + 1830 sonrası `k:0 m:null`; Osmanlı dönemi BOŞ (bağlılık cümlesi yok) |
+| **Nakşa** | `naksa`: "Nakşa ve civar adaları bir **sancak** haline getirilip Süleyman Bey ilk sancak beyi tayin edildi" · "(1617) yine **doğrudan Kaptanpaşa'ya bağlandı**"; `cezayir-i-bahr-i-sefid`: "Sakız, **Nakşa** ve Mehdiye … sâlyâneli" · "**Eyaletin merkezi Gelibolu'ydu**" | 1281→1537 `k:0 m:null` · 1566→1830 `k:2 m:"Gelibolu"`; 1537-1566 dukalık dönemi BOŞ |
+| **Eğriboz** | `egriboz`: "Venedikliler … **1470'e kadar**" · "Fetihten az sonra … **Eğriboz sancağı** kurulmuştu"; eyalet maddesi Eğriboz'u sancakları arasında sayar | 1470 öncesi `k:0 m:null` · 1470→1533 `k:2 m:null` · 1533→1829 `k:2 m:"Gelibolu"` · sonrası `k:0 m:null` |
+| **Modon** | `modon`: "(**10 Ağustos 1500**) … Osmanlı ordusu … Modon'u ele geçirdi" · "**Mora sancak beyi** Hadım (Atik) Ali Paşa, bir okul ve … iki hamam yaptırdı" | 1500 öncesi + Venedik arası (1686-1715) `k:0 m:null` · Osmanlı dönemleri `k:3 m:"Mora (Tripoliçe)"` |
+| **Anabolu** | `anabolu`: "**1389'da Venedikliler'in idaresi altına girdi**" · "**3 Ekim 1540** Osmanlı-Venedik antlaşması sonucu Osmanlılar'a bırakıldı. Ancak **Mora sancak beyi** Güzelce Kasım Paşa … teslim alabildi" | aynı kalıp |
+| **Uyvar** | `uyvar`: "Uyvar Osmanlı idaresine girince **aynı adlı eyaletin merkezi** haline getirildi" | 1663 öncesi + 1685 sonrası `k:0 m:null` · 1663→1685 **`k:1 m:null`** (eyalet merkezi) |
+| **Malatya** | `malatya`: "1517 tarihli … sancak listesinde … **Arap vilâyeti** içinde bir sancak" · "**1522'den itibaren Rûm-ı Hâdis** eyaletine" · "**1568**'den itibaren yeniden **Dulkadır**'a" · "bu tarihlerden XIX. yüzyıla kadar … **Maraş eyaleti** dahilinde" · "**1839-1845** arasında **Diyarbekir** eyaletine bağlı kazalar arasında" | 1281→1399 ve 1402→1516 `k:0 m:null` · 1588→1839 `k:2 m:"Maraş"` · 1839→1845 `k:3 m:"Diyarbakır"`; 1399-1402 (ilk Osmanlı dönemi) ve 1516-1588 (vilâyeti sık değişiyor) BOŞ |
+| **Rakka** | `rakka`: "Rakka **923'te (1517)** Osmanlı topraklarına katılarak **Diyarbekir eyaletine bağlı bir sancak merkezi** haline getirildi" · "**994'te (1586) eyalet merkezine dönüştürülen** şehir" | 1516 öncesi `k:0 m:null` · 1516→1586 `k:2 m:"Diyarbakır"` · 1586→1839 **`k:1 m:null`** |
+| **Batum** | `batum`: "Kanûnî … **ilk yılında Trabzon eyaletine bağlı bir sancak** olarak teşkilâtlandırıldı" · "**1568-1574** … **Erzurum**'un bir sancağı" · "**asrın sonlarında müstakil bir eyalet**" | YALNIZ 1281→1578 `k:0 m:null`; Osmanlı dönemi BOŞ — kaynak eksenle ÇELİŞİYOR (§7b-1) ve "asrın sonları" gün vermiyor |
+| **Ahıska** | `ahiska`: "Bu tarihten sonra Ahıska yeni kurulan **Çıldır eyaletinin merkezi** haline getirildi. Ancak Çıldır'ın savaşlarda harap olması üzerine **Ahıska eyalet oldu**" | 1578 öncesi `k:0 m:null` · 1578→1829 **`k:1 m:null`** |
+| **Sohum** | `sohum`: "**1578'de … Sohum eyaleti oluşturuldu**" · "**1580** … mülkî idaresi … kaldırılarak **Batum eyaletine bağlandı**" | 1578 öncesi `k:0 m:null` · 1578→1580 `k:1 m:null` · 1580→1810 `k:2 m:"Batum"` |
+| **Sakız** | `cezayir-i-bahr-i-sefid`: "**Sakız adası da 1566 yılında** Cenova Cumhuriyeti'ne bağlı idarenin elinden alınarak **eyalete bağlanmıştı**" · "Eyalet, **1876'da Sakız ve Rodos en önemli merkez** olmak üzere…" | 1566 öncesi `k:0 m:null` · 1566→1694 ve 1695→1876 `k:2 m:"Gelibolu"` · 1876→1923 `k:1 m:null`; 1694-1695 Venedik arası BOŞ |
+
+### 7b. PARTİ 2'NİN EKSEN BULGULARI — dokunulmadı
+
+1. 🔴 **Batum 1520 ↔ 1578:** TDV `batum` "Kanûnî Sultan Süleyman'ın padişahlığının **ilk
+   yılında** Trabzon eyaletine bağlı bir **sancak** olarak teşkilâtlandırıldı" (yani 1520) ve
+   "XV. yüzyılın sonlarında Osmanlılar tarafından alınan Batum" diyor; atlasta Batum
+   **1578-08-09**'a kadar `gurcistan`. **58 yıllık fark.** Bu yüzden Batum'un Osmanlı
+   dönemine `kd:` YAZMADIM — eksen kararı verilmeden kademe yazmak kusuru katlar.
+2. **Modon'un günü 1 gün kayık:** TDV "14 Muharrem 906'da (**10 Ağustos 1500**)"; atlas
+   `d:` **1500-08-09**. Ölçüme etkisi yok, ama `d:` ucu kaynaktan bir gün geride.
+3. **Nakşa Girit savaşında (1645-1669) Venedik kontrolüne girmiş** (TDV `naksa`); atlasta
+   `d:` 1566→1830 kesintisiz. Pencere bölünmesi gerekebilir.
+4. **Sakız'ın 1566 günü:** TDV yıl veriyor, atlas `d:` **1566-04-14** (gün). Gün kaynaksız.
+
+---
+
+# PARTİ 3 — Kiklad adaları (12 kayıt, 36 çelişki)
+
+## 8. ÖNGÖRÜ (parti 3) — ölçümden ÖNCE
+
+**Küme (hepsi 3'er çelişki):** Paros · Değirmenlik (Milos) · Kimolos · Murted (Kea) ·
+Termiye (Kythnos) · Koçbaba (Serifos) · Sifnos · Sire (Syros) · Mikonos · Nio (İos) ·
+Andros · Karpatos = **36 çelişki**. On birinin `m:`i `Rodos`, Andros'unki `İzmir`.
+Hepsinin çelişkisi 1300/1400/1500 kesitlerinde, yani **Osmanlı öncesinde** (`d:` 1566-04-15'te,
+Karpatos'ta 1537-10-01'de başlıyor).
+
+**ÖNGÖRÜ: 383 → 347 (−36).**
+
+## 9. PARTİ 3 KAYNAKLARI
+
+🟢 **Asıl bulgu — `derya-beyi` maddesi iki adayı SANCAK olarak adlandırıyor:**
+"Yönettikleri sancaklar ise Kıbrıs, Rodos, Sakız, Mora, **Andre**, Sığla, Midilli, İnebahtı,
+Dimyat, Reşîd, İskenderiye, **Değirmenlik**, Mezistre, Karlı-ili, Eğriboz, Baf ve Nakşa idi."
+(ayrıca: "Sâlyâneli sancaklardan olan Sakız, Nakşa ve Mehdiye'ye ise Girne, Baf, Magosa,
+**Değirmenlik**, Ayamavra, Selânik, Dimyat, İskenderiye ve Limni sancakları dahil edilerek…")
+⇒ **Değirmenlik (Milos)** ve **Andros (Andre)** Rodos'a/İzmir'e bağlı birer kaza değil,
+**kendileri sancaktır** → `k:2, m:null`.
+
+**Öteki on ada için Osmanlı dönemi BOŞ bırakıldı.** `naksa` maddesi "**Nakşa ve civar adaları**
+bir sancak haline getirilip…" diyor; bu bir GRUP hükmüdür, adayı adıyla anmaz. Gruptan adaya
+hüküm taşımak `CLAUDE.md §4`'ün yasakladığı desendir — `m:"Nakşa"` YAZILMADI, öneri olarak
+burada duruyor.
+📌 `para` slugu **TUZAK ②**: canlı ama madde **"para" (akçe)**; Paros'un maddesi orada DEĞİL.
+`mikonos` aramasında 0 sonuç.
+
+**Yazılan kalıp:** her kayıtta `{1281-01-01 → d: başlangıcı, k:0, m:null}` +
+`{Osmanlı sonu → 1923-10-29, k:0, m:null}`; Değirmenlik ve Andros'ta ayrıca
+`{1566-04-15 → 1830-02-03, k:2, m:null}`.
+
+## 10. PARTİ 3 SONUCU
+
+| Ölçü | Önce | Sonra | Öngörü |
+|---|---|---|---|
+| ZAMANLI çelişki | 383 | **347** | 347 ✓ **TUTTU** |
+| ZAMANSIZ çelişki | 489 | **489** | değişmemeli ✓ |
+| `kd:` taşıyan kayıt | 216 | **228** | +12 ✓ |
+| çelişki üreten ayrı yerleşim | 238 | **226** | −12 ✓ |
+
+`py arac/denetle.py`: **SONUÇ temiz**.
+
+### ÜÇ PARTİNİN TOPLAMI
+**483 → 347 · −136 çelişki (%28,2)** · 36 kayda `kd:` yazıldı (192 → 228) ·
+çelişen ayrı yerleşim 262 → 226 · ZAMANSIZ sayı 489'da sabit (m:'ye hiç dokunulmadı).
+Üç partinin üçünde de öngörü ölçümden önce yazıldı ve **üçü de birebir tuttu**.
+
+🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
+oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
+satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
+her partiden sonra 36 kaydın `kd:`si geri okundu ve hepsi yerinde. Ama dosyayı bellekte
+tutan bir oturum sonradan yazarsa bu `kd:`ler sessizce silinir — koordinatöre bildirildi
+(M-4768).
