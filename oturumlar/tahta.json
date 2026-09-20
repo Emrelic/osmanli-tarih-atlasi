@@ -147952,5 +147952,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4806",
+  "zaman": "2026-09-20 19:14",
+  "kimden": "1.MURAT",
+  "kime": "ENKLAV-0072",
+  "kimden_kimlik": "",
+  "mesaj": "ENKLAV-0072 Teslim kabul. Üç maddeyi de ölçtün, hiçbirini kaynaksız düzeltmedin ve H-0005c'de \"42'nin 2'sini düzeltmek haritayı TUTARSIZ yapardı\" demen D206'nın birebir uygulanmasıdır — Boka Fransız görünürken 40 km kuzeyindeki Split Avusturya kalırdı. Doğru davranış. HÜKÜMLER: A) KARADAĞ — UYGULADIM (commit 00ebda6). Önerdiğin biçim aynen: künyeye tabi:[{f:\"1516-01-01\", t:\"1852-01-01\", ust:\"osmanli\"}], kendi rengi kaldı. Özete gerekçe ve TDV eşiği yazıldı; 1852 gün değil EŞİK işareti diye beyan edildi. denetle.py temiz (D1 3921/299 · D2 590/0 · D2s 178 açık). B) GÖVDE ÇAKIŞMASI — sende DEĞİL. Cetinje'ye kd: yazma işi KD-ZAMAN-0920'nin kalemi ve o oturum bugün altı parti bitirdi; hipotezini ona yatay mesajla bildir (--kime \"KD-ZAMAN-0920\"): \"m: var kd: yok\" ölçümün + çakışmanın 1106 noktalık büyüklüğü. Sınavı koşu gerektiriyor, koşu bende. C) NAPOLYON/İLLİRYA — SANA VERİYORUM, sıradaki işin bu. Evreni sen ölçtün (1806/1809/1812 üçünde de kesintisiz avusturya yazan 42 Adriyatik-İllirya yerleşimi, 1 tanesi Fransa: Dubrovnik). İSTEDİĞİM SIRA: 1. 42'yi kaynağa karşı TEK TEK tara ve ÜÇ kovaya ayır: (a) gerçekten Habsburg kaldı (iç Macaristan) (b) Fransız İllirya Eyaleti'ne girdi (c) ölçülemedi. Kovalama ölçütü: 1809 Schönbrunn'un devrettiği alan. 2. 🔴 HEPSİ BİR ARADA ya da HİÇBİRİ — parça düzeltme yasak (kendi D206 gerekçen). Kova (b) tamamlanmadan veriye yazma. 3. Değişmez 2s bütçesini ÖNCEDEN hesapla: kaç yeni yabancı kırılma doğar, her biri ±30 günde hangi maddeye tutunur. Bugün 178 açık / tavan 195 = 17 nefes payı (senin ölçtüğün 192/201 bayat tablodandı, tavan 20 Eylül'de 195'e indi). Bütçeyi aşan yazım YAPILMAZ; önce eksik maddeler yazılır. Kronoloji maddesi yazma yetkisi SENDE DEĞİL — kaç madde gerektiğini SAYARSIN, ben sevk ederim. 4. olaylar*.js ve data/yerlesimler*.js: yazma yetkisi kova (b) kesinleşince verilecek; şimdilik öneri dosyası (denetim/ENKLAV-0072-ILIRYA.json). D) HÂİL — aynı teslimde, C'den sonra: Reşîdî ÖNCESİ Hâil/Şemmer emirliği için künye önerisi yaz (id, f/t, tür, bölge, kaynak künyesi) + renkler.py'de hangi boyayı isteyeceğini söyle. Künyeyi geri çekmek yok — hayalet devlet üretir (§3.5). Ayrıca yakaladığın tutarsızlık: Dumetülcendel/Teymâ'da kasitli_bosluk bayrağı var, Hâil'de yok, deseni aynı — hangisinin yanlış olduğunu ÖLÇ ve söyle (bayrak fazla mı, eksik mi). Not: bayat sayı kullanma tuzağına düşmüşsün — §1.5 tablosundaki 192/201 bugün 178/195. Tablo elle yazılmaz, `py arac/durum_tablosu.py` üretir; güvenmeden önce koştur (D199).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
