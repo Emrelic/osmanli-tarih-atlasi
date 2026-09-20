@@ -1,0 +1,482 @@
+{
+ "evren_madde": 1731,
+ "evren_yerlesim_adi": 3885,
+ "alani_olan_madde": 41,
+ "alanda_yazili_ad": 99,
+ "olu_ad_sayisi": 0,
+ "rozetsiz_madde": 579,
+ "rozetsiz_basligi_da_fiilli": 198,
+ "rozetsiz_kategori_dagilimi": {
+  "fetih": 233,
+  "kayip": 120,
+  "savas": 66,
+  "siyaset": 44,
+  "?": 42,
+  "antlasma": 17,
+  "kurulus": 9,
+  "isyan": 8,
+  "kazanc": 6,
+  "kusatma": 4,
+  "taht": 3,
+  "reform": 3,
+  "diger": 3,
+  "kultur": 3,
+  "idari": 3
+ },
+ "olu_adlar": [],
+ "alani_olan_maddeler": [
+  {
+   "t": "1541-08-29",
+   "b": "Budin'in ilhakı — Macaristan Osmanlı eyaleti",
+   "statu_dogrudan": [
+    "Budin",
+    "Peşte"
+   ]
+  },
+  {
+   "t": "1878-07-13",
+   "b": "Berlin Antlaşması",
+   "statu_vasal": [
+    "Eski Zağra (Stara Zagora)",
+    "Tatarpazarcığı",
+    "Filibe",
+    "Vidin",
+    "Tırnova",
+    "Varna",
+    "Şumnu",
+    "Silistre",
+    "Rusçuk"
+   ]
+  },
+  {
+   "t": "1463-06-01",
+   "b": "Bosna Krallığı'nın yıkılışı — Fâtih'in Bosna seferi",
+   "fethedilen": [
+    "Travnik"
+   ]
+  },
+  {
+   "t": "1830-11-08",
+   "b": "Sırbistan'a özerklik fermanı — irsî knezlik ve garnizon şartı",
+   "statu_vasal": [
+    "Kragujevac",
+    "Çaçak"
+   ]
+  },
+  {
+   "t": "1479-08-01",
+   "b": "İyon adalarının fethi — Tocco düklüğünün sonu: Ayamavra, Kefalonya, Zaklise, İthaki",
+   "fethedilen": [
+    "Ayamavra (Lefkada)",
+    "Kefalonya",
+    "İthaki",
+    "Zaklise (Zakynthos)"
+   ]
+  },
+  {
+   "t": "1482-01-01",
+   "b": "Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
+   "fethedilen": [
+    "Cetinje"
+   ],
+   "kaybedilen": [
+    "Zaklise (Zakynthos)"
+   ]
+  },
+  {
+   "t": "1484-07-15",
+   "b": "Kili Kalesi'nin fethi — Tuna ağzının kilidi",
+   "fethedilen": [
+    "Kili"
+   ],
+   "statu_dogrudan": [
+    "Kili"
+   ]
+  },
+  {
+   "t": "1484-08-04",
+   "b": "Akkirman'ın fethi — Dinyester ağzı ve Boğdan'ın Karadeniz kapısının kapanışı",
+   "fethedilen": [
+    "Akkirman"
+   ],
+   "statu_dogrudan": [
+    "Akkirman"
+   ]
+  },
+  {
+   "t": "1499-08-26",
+   "b": "İnebahtı'nın teslimi — Korint körfezinin ağzı Venedik'ten alınıyor",
+   "fethedilen": [
+    "İnebahtı"
+   ]
+  },
+  {
+   "t": "1713-06-24",
+   "b": "Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı",
+   "statu_dogrudan": [
+    "Hotin"
+   ]
+  },
+  {
+   "t": "1476-02-01",
+   "b": "Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik",
+   "kaybedilen": [
+    "Böğürdelen (Šabac)"
+   ]
+  },
+  {
+   "t": "1521-07-07",
+   "b": "Böğürdelen'in fethi — Kanûnî'nin aldığı ilk kale ve Belgrad kararının verildiği yer",
+   "fethedilen": [
+    "Böğürdelen (Šabac)"
+   ]
+  },
+  {
+   "t": "1788-04-24",
+   "b": "Böğürdelen'in ikinci Avusturya işgali — Sava cephesinin açılması",
+   "kaybedilen": [
+    "Böğürdelen (Šabac)"
+   ]
+  },
+  {
+   "t": "1806-01-26",
+   "b": "Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale",
+   "kaybedilen": [
+    "Böğürdelen (Šabac)"
+   ]
+  },
+  {
+   "t": "1457-01-01",
+   "b": "Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
+   "fethedilen": [
+    "Podgorica"
+   ]
+  },
+  {
+   "t": "1448-01-01",
+   "b": "Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması",
+   "fethedilen": [
+    "Saraybosna"
+   ]
+  },
+  {
+   "t": "1465-01-01",
+   "b": "Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
+   "fethedilen": [
+    "Foça (Foča)"
+   ]
+  },
+  {
+   "t": "1469-01-01",
+   "b": "Livno ve batı Bosna'nın kesin ilhakı — Venedik sınırının kurulması",
+   "fethedilen": [
+    "Livno (İhlevne)"
+   ]
+  },
+  {
+   "t": "1512-01-01",
+   "b": "Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırılması",
+   "fethedilen": [
+    "Srebrenik"
+   ]
+  },
+  {
+   "t": "1420-01-01",
+   "b": "Aşağı Tuna'nın kapanması — Yergöğü, Turnu, Orşova ve Dobruca'nın ilhakı",
+   "fethedilen": [
+    "Yergöğü (Giurgiu)"
+   ]
+  },
+  {
+   "t": "1805-07-03",
+   "b": "Bâbıâli oldubittiyi kabul etti: Mısır valiliği fermanı",
+   "statu_vasal": [
+    "Kahire",
+    "İskenderiye",
+    "Dimyat",
+    "Asyut",
+    "Asvan",
+    "İbrim",
+    "Süveyş",
+    "Sina güneyi",
+    "Reşîd (Rosetta)"
+   ]
+  },
+  {
+   "t": "1813-01-23",
+   "b": "Mekke geri alındı — hac yolu açıldı",
+   "statu_vasal": [
+    "Cidde"
+   ]
+  },
+  {
+   "t": "1825-02-24",
+   "b": "İbrâhim Paşa Modon'a çıktı",
+   "statu_vasal": [
+    "Modon"
+   ]
+  },
+  {
+   "t": "1830-11-01",
+   "b": "Girit'in idaresi Mehmed Ali'ye bırakıldı",
+   "statu_vasal": [
+    "Hanya",
+    "İsfakiye (Sfakia)",
+    "Sitiye (Sitia)"
+   ]
+  },
+  {
+   "t": "1841-02-25",
+   "b": "Mısır ordusu Suriye ve Çukurova'yı boşalttı",
+   "statu_dogrudan": [
+    "Hanya",
+    "İsfakiye (Sfakia)",
+    "Sitiye (Sitia)"
+   ]
+  },
+  {
+   "t": "1841-05-24",
+   "b": "Ferman: Mısır valiliği Kavalalı ailesine irsî bırakıldı",
+   "statu_dogrudan": [
+    "Cidde",
+    "Yenbu"
+   ]
+  },
+  {
+   "t": "1671-01-01",
+   "b": "Cezayir'de dayı idaresinin başlaması",
+   "statu_vasal": [
+    "Cezayir",
+    "Konstantin",
+    "Tilimsan",
+    "Annaba",
+    "Bicâye",
+    "Şerşel (Cherchell)",
+    "Medea (Titteri)",
+    "Setif",
+    "Biskra",
+    "Tuggurt"
+   ]
+  },
+  {
+   "t": "1538-09-01",
+   "b": "Boğdan Seferi ve Bucak (Bender) bölgesinin ilhakı",
+   "statu_dogrudan": [
+    "İbrail",
+    "Bender",
+    "İsmail"
+   ]
+  },
+  {
+   "t": "1658-08-27",
+   "b": "Yanova'nın (Ineu) fethi ve Erdel seferi",
+   "statu_dogrudan": [
+    "Yanova (Ineu)"
+   ]
+  },
+  {
+   "t": "1660-08-27",
+   "b": "Varad'ın (Oradea) fethi",
+   "statu_dogrudan": [
+    "Varad (Oradea)"
+   ]
+  },
+  {
+   "t": "1705-07-17",
+   "b": "Tunus'ta Hüseynî hanedanının kurulması",
+   "statu_vasal": [
+    "Tunus",
+    "Kayrevan",
+    "Gabes",
+    "Sfaks",
+    "Cerbe (Djerba)",
+    "Kerkene (Kerkennah)"
+   ]
+  },
+  {
+   "t": "1711-07-29",
+   "b": "Trablusgarp'ta Karamanlı hanedanının kurulması",
+   "statu_vasal": [
+    "Trablus",
+    "Misrata",
+    "Bingazi",
+    "Derne",
+    "Murzuk (Fizan)"
+   ]
+  },
+  {
+   "t": "1835-05-26",
+   "b": "Trablusgarp'ın doğrudan merkeze bağlanması — Karamanlı hanedanının sonu",
+   "statu_dogrudan": [
+    "Trablus",
+    "Misrata",
+    "Bingazi",
+    "Derne",
+    "Murzuk (Fizan)"
+   ]
+  },
+  {
+   "t": "1865-01-01",
+   "b": "Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması",
+   "statu_vasal": [
+    "Sevâkin",
+    "Masavva",
+    "Dahlak"
+   ]
+  },
+  {
+   "t": "1867-04-18",
+   "b": "Belgrad ve Sırbistan kalelerindeki son Osmanlı garnizonlarının çekilmesi",
+   "statu_vasal": [
+    "Semendire",
+    "Belgrad",
+    "Böğürdelen (Šabac)"
+   ]
+  },
+  {
+   "t": "1878-01-04",
+   "b": "Sofya'nın Rus kuvvetlerince işgali",
+   "statu_vasal": [
+    "Sofya"
+   ]
+  },
+  {
+   "t": "1538-08-03",
+   "b": "Aden'in zaptı ve Yemen sahilinin ilhakı",
+   "statu_dogrudan": [
+    "Aden"
+   ]
+  },
+  {
+   "t": "1537-10-01",
+   "b": "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması",
+   "statu_dogrudan": [
+    "Batnoz (Patmos)"
+   ]
+  },
+  {
+   "t": "1528-01-01",
+   "b": "Kuzey Bosna'nın ilhakı: Yayça ve Banaluka",
+   "fethedilen": [
+    "Yayça (Jajce)",
+    "Banaluka"
+   ]
+  },
+  {
+   "t": "1715-08-16",
+   "b": "Koron'un teslimi — Mora seferinin tamamlanması",
+   "fethedilen": [
+    "Ayamavra (Lefkada)"
+   ]
+  },
+  {
+   "t": "1499-01-01",
+   "b": "Karadağ'ın Osmanlı idaresine bağlanması — Cetinje",
+   "statu_dogrudan": [
+    "Cetinje"
+   ]
+  }
+ ],
+ "rozetsiz_ornek_20": [
+  {
+   "t": "1326-04-06",
+   "k": "fetih",
+   "b": "Bursa'nın fethi"
+  },
+  {
+   "t": "1331-03-02",
+   "k": "fetih",
+   "b": "İznik'in fethi"
+  },
+  {
+   "t": "1337-01-01",
+   "k": "fetih",
+   "b": "İzmit'in fethi"
+  },
+  {
+   "t": "1361-05-05",
+   "k": "fetih",
+   "b": "Edirne'nin fethi"
+  },
+  {
+   "t": "1453-05-29",
+   "k": "fetih",
+   "b": "İstanbul'un Fethi"
+  },
+  {
+   "t": "1461-08-15",
+   "k": "fetih",
+   "b": "Trabzon'un fethi"
+  },
+  {
+   "t": "1473-01-01",
+   "k": "fetih",
+   "b": "Silifke'nin kesin fethi — Karamanoğulları'nın son direnişinin kırılması"
+  },
+  {
+   "t": "1517-01-22",
+   "k": "fetih",
+   "b": "Ridaniye — Mısır'ın fethi ve hilâfet"
+  },
+  {
+   "t": "1521-08-29",
+   "k": "fetih",
+   "b": "Belgrad'ın fethi"
+  },
+  {
+   "t": "1522-12-21",
+   "k": "fetih",
+   "b": "Rodos'un fethi"
+  },
+  {
+   "t": "1534-12-04",
+   "k": "fetih",
+   "b": "Bağdat'ın fethi — Irakeyn Seferi"
+  },
+  {
+   "t": "1571-08",
+   "k": "fetih",
+   "b": "Kıbrıs'ın fethi"
+  },
+  {
+   "t": "1669-09-06",
+   "k": "fetih",
+   "b": "Girit'in fethi tamamlandı"
+  },
+  {
+   "t": "1692-01-01",
+   "k": "fetih",
+   "b": "Granbosa Kalesi'nin fethi — Girit'in Venedik'te kalan kayalık kalelerinden biri"
+  },
+  {
+   "t": "1715-01-01",
+   "k": "fetih",
+   "b": "Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin silinmesi"
+  },
+  {
+   "t": "1783-04-19",
+   "k": "kayip",
+   "b": "Kırım'ın Rusya'ya ilhakı"
+  },
+  {
+   "t": "1903-01-01",
+   "k": null,
+   "b": "Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi"
+  },
+  {
+   "t": "1899-04-09",
+   "k": null,
+   "b": "Bunyoro Kralı Kabalega esir alındı, krallık İngiliz Uganda Protektorası'na bağlandı"
+  },
+  {
+   "t": "1897-02-16",
+   "k": null,
+   "b": "İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi"
+  },
+  {
+   "t": "1853-07-28",
+   "k": null,
+   "b": "Ak-Meçit Kalesi Rus kuvvetlerince alındı — Hokand Hanlığı'nın Sirderya hattı çöktü"
+  }
+ ]
+}
