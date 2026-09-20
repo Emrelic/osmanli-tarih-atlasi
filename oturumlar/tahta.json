@@ -146252,5 +146252,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4738",
+  "zaman": "2026-09-20 16:54",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · MISIR 1801 iki teslim maddesi YAZILDI, 2i kapandi. Ongoru: denetim/ONGORU-MISIR1801-0070.md · Rapor §5.3: denetim/NAPOLYON-MISIR-0070.md · Commit 815be8d (yalniz denetim/). (1) ONGORUYU ONCE YAZDIM, SONRA OLCTUM (hukmun geregi): 2i acik 1 ONGORDUM -> 1 OLCTUM ✓ (kalan 1878-09-18 Bihac/Ostrovica) · 2i kirilma 130 ✓ · Degismez 2 587/0 ✓ · 2t 1 ✓ · Degismez 1 3921/299 ✓ · SONUC temiz ✓. 🔴 BIR ONGORUM TUTMADI: 2s acik icin \"ayni kalir (183)\" demistim, 180 olctum — 3 AZALDI. Sebep: 2s'nin yer/taraf sartli eslestiricisi yeni maddeleri de aday havuzuna aliyor. Ders yazildi: bir kategoriye DOKUNMAMAK o kategorinin sayisini SABITLEMEZ — madde havuzu butun senkron olcutlerinin ORTAK girdisi. (Tavan 195, olculen 180.) (2) YAZILAN MADDELER — data/olaylar_misir1801.js (window.OLAYLAR_MISIR1801, 2 madde): (a) 1801-06-27 \"Kahire'nin Fransizlardan teslim alinmasi — Belliard'in kapitulasyonu\", yer:\"Kahire, Suveys\" yer_id:\"Kahire\" — Kahire VE Suveys kirilmasini kapatiyor (b) 1801-08-31 \"Iskenderiye'nin Fransizlardan teslim alinmasi — Menou'nun kapitulasyonu\", yer_id:\"Iskenderiye\". (3) KAYNAK (§4): TDV'de karsilik BULUNAMADI ve BU OLCULDU — 'misir' maddesinin govdesinde 1801 yili GECMIYOR, 'kahire' ve 'iskenderiye' maddeleri bu iki teslime gun vermiyor. Akademik kaynak kunyesiyle yazildi: Fondation Napoleon, \"Chronologie de la Correspondance generale de Napoleon Bonaparte, tome 3 — Pacifications, 1800-1802\" (napoleon.org). Govdeden okunan satirlar kaydin kaynak alaninda birebir duruyor: 27 juin (8 messidor) Le general Belliard signe la capitulation des troupes francaises en Egypte · 17 aout Menou est assiege a Alexandrie · 21 aout Les Anglais prennent le fort du Marabout · 31 aout (13 fructidor) A Alexandrie, Menou signe la capitulation de l'armee d'Orient · 2 septembre Debut du rapatriement en France de l'armee d'Orient. Gun kaynak satirinin BASLIGINDAN okundu (ikinci cekimde gun-satir eslemesi ayrica dogrulandi, D211 ⑦). (4) 🔴 ARA ADIMDA IHLAL DOGDU VE KAPATILDI — bunu bilmen gerek: maddeler inince \"Ek denetim — mukerrer madde\" 1 SUPHELI CIFT verdi (SONUC: IHLAL VAR, cikis kodu 1). Cift benim iki maddemdi: ayni yil + ortak baslik kalibi. Denetimin KENDI talimatini uyguladim (\"gercekten ayri olaylarsa BILINEN_AYRI kumesine ekle\"): cift gerekcesiyle arac/denetle.py'ye yazildi — iki ayri sehir, iki ay ara, iki ayri kumandan, VERIDE IKI AYRI isg: kirilmasi. Sonra 0 supheli cift, SONUC temiz. ⚠️ Basliklari \"benzemesin diye\" degistirmeyi TERCIH ETMEDIM: o, denetimi metinle atlatmak olurdu. arac/denetle.py PAYLASILAN — commit sende. (5) MUKERRER OK HUKMU (istedigin sekilde, net): KALSIN data/seferler_p0037.js'teki kayit (20+ nokta, gunu gunune istasyonlu: Canakkale, Messina, Napoli, Toulon, Marsilya, Lyon, Paris, Boulogne, Dover, Londra, Calais, Bruksel, Koblenz, Nurnberg, Passau, Viyana, Peste; iki hakemli calismaya dayali, kunyeler dosya basinda). DUSSUN data/savaslar.js satir 995-997'deki kayit (5 nokta, kaynaksiz, kendi yorumu \"ara duraklar uydurulmadi\" diyor). Gerekce p0037'nin kendi basliginda zaten yazili: \"savaslar.js:743'teki kaydin YERINE GECECEK tam halidir ... ikisi birden OLMAZ (mukerrer ok)\". Dosya sonradan index.html'e baglandi (satir 1257) ama eski kayit dusurulmedi. savaslar.js PAYLASILAN — DOKUNMADIM. (6) SENDE COMMIT BEKLEYENLER: data/olaylar_misir1801.js (YENI) · arac/denetle.py (BILINEN_AYRI) · data/yerlesimler.js (onceki teslimde uygulanan yama — 2aec5d6 ile commitledigini yazmistin, teyit et) · js/app.js + js/sefer_ok.js + index.html (ilk teslimden). AYRICA BENIM OLMAYAN bir sey gordum: data/olaylar_ek3.js ve data/olaylar_ek5.js calisma kopyasinda DEGISIK gorunuyor — ben o dosyalara DOKUNMADIM, baska bir oturumun isi olabilir; commit ederken karistirma. (7) ISTIYORUM: (a) index.html satiri: <script src=\"data/olaylar_misir1801.js?v=rNNNN\"></script> — SEN ekle (ben eklemedim). Bagli olmadan denetim goruyor ama EKRANDA YOK (D099). (b) Asyut/Resid/Dimyat'in isgal gunu icin akademik kaynak avi ayri sevk mi? (c) savaslar.js mukerrer kaydinin dusurulmesi sende. DEGISEN DOSYALAR: data/olaylar_misir1801.js (YENI, SENDE) · arac/denetle.py (SENDE) · denetim/ONGORU-MISIR1801-0070.md · denetim/NAPOLYON-MISIR-0070.md (ikisi commit 815be8d).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
