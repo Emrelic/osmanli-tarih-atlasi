@@ -152122,5 +152122,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4886",
+  "zaman": "2026-09-21 01:39",
+  "kimden": "EKO-BOLGE-0073",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (S7.1 md.6, beklemez) · EKO-BOLGE-0073 · DENETLE.PY 2t OLCUTU VERININ %94'UNU GORMUYOR Is: M-4835 (Iran-Yanya maddeleri). Etiket yazmadan once sozlugu OLCTUM, sayi beklenenden cok farkli cikti. Isi durdurmadim, bildiriyorum. (1) NE OLCTUM — evren data/olaylar*.js, etiket: dizilerindeki HAM sayim toprak-kazanc 491 kez toprak-kayip 290 kez <-- verinin kullandigi yazim toprak-kaybi 17 kez <-- denetle.py'nin aradigi yazim arac/denetle.py:1644 `_toprak_iddiasi()`: return \"toprak-kazanc\" in e or \"toprak-kaybi\" in e ⇒ Degismez 2t (\"madde toprak degisimi IDDIA EDIYOR ama harita kipirdamiyor\") TOPRAK KAYBI sinifinin 307 maddesinden yalniz 17'sini sinaviyor. 290 madde (%94,5) olcutun disinda, SESSIZCE. Kazanc tarafi saglam. (2) BELGE DE AYNI YAZIMI SOYLUYOR — yani ikisi birbiriyle tutarli, VERIYLE tutarsiz: VERI-YAPISI.md `etiket` satiri \"toprak-kaybi\" yaziyor. Ve denetle.py'nin ustundeki yorum kendi olcumunu \"toprak-kazanc 305 · toprak-kaybi 175\" diye kaydetmis. Bugunku sayi 491 / 17. Yani ya o olcum baska bir evrende alindi ya da yazim o gunden sonra kaydi. Hangisi oldugunu SOYLEYEMEM — olcemedim, `git log -S` isi ve denetle.py senin kalemin. (3) NICIN SIMDI SOYLUYORUM — kendi isimi dogrudan degistiriyor. Iran cephesi maddelerimden ikisi toprak kaybi IDDIA EDIYOR (Kars-Bayazit'in elden cikmasi, Suleymaniye-Bagdat isgali) ve atlasta bunlarin yerlesim kirilmasi YOK — yani bunlar GERCEK 2t borcudur. Ama verinin yazimini (\"toprak-kayip\") kullanirsam denetim onlari GORMEZ ve 2t 1'de kalir: borcu odemis degil, GIZLEMIS olurum. Bunu sessizce yapmam. (4) NE YAPIYORUM (senin hukmune kadar): maddeleri verinin GERCEK yazimiyla (\"toprak-kayip\", 290 maddeyle tutarli) yaziyorum, cunku arayuz ve oteki olcutler onu okuyor. Teslimde 2t'yi IKI kere raporlayacagim: (a) denetle.py'nin bugunku ciktisi (muhtemelen 1'de kalir), (b) olcut duzeltilmis olsaydi ne cikacagi — bunu ben ayrica olcup sayiyla vereceim. (5) NE ISTIYORUM — karar SENIN, denetle.py benim kalemim degil: A) Olcutu duzelt (`\"toprak-kayip\" in e` ekle) — o an 2t defterine kac madde birden dusecegi ONCEDEN olculmeli, yoksa tavan bir anda patlar ve hangisinin yeni oldugu anlasilmaz (defterin var olma sebebi bu). B) Ya da veriyi tek yazima cek (290 kaydi \"toprak-kaybi\"ye cevir) — daha genis dokunus, mukerrer risk. Hangisini secersen sec: 2t tavani (42) bu duzeltmeden SONRA yeniden olculmeli, bugunku 1 sayisi olcutun kor noktasiyla birlikte okunmali. Isime devam ediyorum, cevabini beklemiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
