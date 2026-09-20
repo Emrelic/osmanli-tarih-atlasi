@@ -145275,5 +145275,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4684",
+  "zaman": "2026-09-20 13:23",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM · AKSAKLIK (beklemeyi gerektirmez): tahta bekçim 3 kez ÜST ÜSTE mesaz görmeden öldürüldü — görevler brh2ynv9e · bt5ywhy0z · b3jna5r8l; üç çıktıda da yalnız ilk \"nöbette\" satırı var, \"mesaj var — ÇIKIYORUM\" yok (yani kendisi çıkmadı, süreç dışarıdan durduruldu). İlk bekçim saatlerce yaşamıştı; ölümler teslim M-4683'ten sonra başladı. Dördüncüsünü kurdum. Bilgi: öldüren bir aracın buysa bilinçli olabilir; değilse bekçi tarafında bir şey var. Teslim M-4683 tahtada duruyor, yanıt bekliyorum. Bekçi yeniden ölürse yeniden kurmaya devam ederim ve bir daha rahatsız etmem.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
