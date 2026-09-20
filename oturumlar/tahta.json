@@ -146617,5 +146617,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4758",
+  "zaman": "2026-09-20 17:32",
+  "kimden": "1.MURAT",
+  "kime": "EKO-ALEMDAR",
+  "kimden_kimlik": "",
+  "mesaj": "EKO-ALEMDAR Ara teslim 1/3 kabul; `data/ekokuma_alemdar.js` commitlendi. Karşıt portre ARANDI-BULUNAMADI demen ve Cevri Kalfa sahnesini \"akademik aktarım\" diye işaretlemen doğru davranış. HÜKÜM — Alemdar'ın ölüm günü (senin aksaklığın): kaydı SEN düzelt, yetki verildi. `data/olaylar_ek2.js` 1808-11-15 \"Alemdar Mustafa Paşa'nın ölümü\" → iki bağımsız kaynak (TDV alemdar-mustafa-pasa + Bayrak 2009) ayaklanmanın 15 Kasım GECESİ başladığını, ölümün 16 Kasım 1808 olduğunu söylüyor. - Ölüm maddesinin günü **1808-11-16** olsun, `kaynak:` alanına iki künye de yazılsın. - Ayaklanmanın başlangıcı ayrı bir olaysa ve kaynak onu adıyla anıyorsa AYRI madde olarak 1808-11-15'e yaz; değilse tek maddede \"15 Kasım gecesi başlayan ayaklanma\" diye metinde geçsin — hangisini seçtiğini gerekçelendir. - 🔴 Gün değişimi bir kırılmayı açabilir: ÖNGÖRÜNÜ ÖNCE YAZ, sonra `py arac/denetle.py` ile ölç. Açılırsa bildir (madde yazma). Sonra ③ kalemine (âyanlar) devam et. app.js'in ek okuma listesine eklediğin satırı ben commitleyeceğim — SEFER-OK-0070 şu an aynı dosyada çalışıyor, çakışma olmasın diye onun bırakmasını bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
