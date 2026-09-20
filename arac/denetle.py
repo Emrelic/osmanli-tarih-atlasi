@@ -583,13 +583,40 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ TAVAN BURADAN AŞAĞI İNER: 201 gün-hassas açığın her biri "madde yaz"
 #   işidir (AMERIKA-KRONO-0920 ilk partiyi alıyor). Düşmüyorsa borç ödenmiyor
 #   demektir; YUKARI çıkıyorsa yeni sessiz devir yazılmıştır.
-BEKLENEN_ACIK_S = 201
+# ═══ 🔴 201 → 195, 20 EYLÜL 2026 — MERKEZ KOLU DARALDI ═══════════════════
+# Yukarıdaki 121 → 201 yükselişiyle AYNI cinsten bir düzeltme, ters yönde.
+# O gün ölçüt "yer ya da taraf anılıyor mu" diye sormaya başlamıştı; ama YER
+# kolunun `m:` bacağı `m:`yi BÖLGE sanıp merkez adını GÖVDEDE de arıyordu.
+# `m:` bölge değil, `VERI-YAPISI.md:120`ye göre k1/k2 MERKEZİNİN ADIdır
+# (ölçümü: `denetim/M-ALANI-0920.md` — 71 "YÜKSEK" öneriden 50'si hiçbir
+# yerleşimin adı bile değildi). Bacak daraltıldı: `_2s_merkez_aniyor`.
+#
+# ÖLÇÜLDÜ (`denetim/ARAC-DENETIM-KAPI-0920.py`, dört ölçüt aynı boru hattında):
+#     A bugünkü (başlık+yer+gövde)          191 açık
+#     B yalnız başlık ya da yer_id          198     ← 3 GERÇEK kapanışı bozar
+#     F yeni ölçüt (başlık+yer, korumalı)   195     ← seçilen
+#     D bacak tamamen kapalı                244
+# F ⊂ B: F'nin açtığı her tarihi B de açıyor, tersi değil. F yalnız 5 tarih
+# açıyor ve beşi de TESADÜF (merkez adı gövdede başka bağlamda geçiyor):
+#     1395-08-01 Beykoz · 1517-05-19 Benhâ+3 · 1543-08-10 Segedin
+#     1795-04-01 Cübeyl+2 ("Basra körfezi" tuzağı) · 1798-10-23 Butrint
+# İKİ YÖNLÜ SINAV (`ARAC-DENETIM-KAPI-0920.py --sina`, ikisi de GEÇTİ):
+#     ① 5 tesadüfî kapanış  → AÇILDI ✓
+#     ② 48 gerçek merkez kapanışı → 0'ı bozuldu ✓ (B'de 3'ü bozuluyordu)
+# ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
+#   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
+#   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
+BEKLENEN_ACIK_S = 195
 
 # 🟡 AYRI DEFTER — `YYYY-01-01` kırılmaları (bkz. yil_temsili_ayir).
 # İhlal DEĞİL: bunların çaresi madde yazmak değil GÜNÜ BULMAKTIR; ±30 günlük
 # pencere günü bilinmeyen bir kırılma için takvimsel kurgudur. Tavan aşılırsa
 # uyarı basar, çıkış kodunu DEĞİŞTİRMEZ.
-BEKLENEN_2S_YIL_BORC = 149
+# 🔴 149 → 151, 20 Eylül 2026: merkez kolu daralınca `YYYY-01-01` tarihli iki
+#   kırılma da kapalıdan bu deftere geçti. YENİ KIRILMA YAZILMADI — uyarının
+#   "yeni `YYYY-01-01` kırılması yazılmış olabilir" cümlesi burada YANILTIR;
+#   tavan bu yüzden güncellendi, yoksa sonraki oturum olmayan bir kaydı arar.
+BEKLENEN_2S_YIL_BORC = 151
 
 # ═══ `Degismez 2i` — ISGAL kirilmasinin maddesi var mi ═══════════════════
 # 🔴 VERI KRONOLOJI 3 (7 Agustos 2026) olctu ve IKI VAKAYLA dogruladi:
@@ -1374,10 +1401,16 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                                                 o.get("yer") or "",
                                                 o.get("d") or ""]))
             kayit_o["nrm_b"] = _2s_norm(o.get("b") or "")
+            # 🔴 `nrm_y` = BAŞLIK + `yer` — GÖVDE (`d`) YOK. Merkez (`m:`) kolu
+            #   yalnız bunu okur; sebebi `_2s_merkez_aniyor`da.
+            kayit_o["nrm_y"] = _2s_norm(" ".join([o.get("b") or "",
+                                                  o.get("yer") or ""]))
             kayit_o["yer_id"] = o.get("yer_id") or ""
         Y_KOK = {y["ad"]: _2s_norm(re.sub(r"\s*\(.*?\)", "", y["ad"] or "").strip())
                  for y in Y}
-        Y_BOLGE = {y["ad"]: _2s_norm(y.get("m") or "") for y in Y}
+        # (ham ad, norm ad) — ham'ı `yer_id` ile TAM EŞİTLİK için tutuyoruz.
+        Y_MERKEZ = {y["ad"]: (y.get("m") or "", _2s_norm(y.get("m") or ""))
+                    for y in Y}
     kir = {}
     for y in Y:
         donemler = []
@@ -1444,7 +1477,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                     for ad in sorted(adlar):
                         sah = {ad: kir[d]["sahip"].get(ad, {})}
                         uyan = [o for o in yakinlar
-                                if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_BOLGE)
+                                if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_MERKEZ)
                                 or _2s_tarafi_aniyor(o, sah)]
                         if uyan:
                             secim_havuz += uyan
@@ -1469,15 +1502,74 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
     return kir, acik
 
 
-def _2s_yeri_aniyor(o, adlar, Y_KOK, Y_BOLGE):
-    """(a) YER kolu: madde kırılmanın yerleşimlerinden birini anıyor mu?"""
+# Merkez adının HEMEN ARDINDAN gelirse referansı DEĞİŞTİREN coğrafî cins
+# isimleri (norm düzleminde: küçük harf, aksansız). "Basra körfezi" Basra
+# SANCAĞI DEĞİLDİR; "İç Cezayir" Cezayir şehri değildir. Ölçüldü: bu koruma
+# olmadan Cübeyl/Katîf/Ukayr 1795 kırılması "Kuveyt'te Sabah emirliği"
+# maddesine "Basra körfezi" kelimesiyle bağlanıp sessizce kapanıyordu.
+_2S_CINS = (r"(?:korfez|korfezi|denizi|deniz|dagi|daglari|ovasi|nehri|irmagi|"
+            r"bogazi|adasi|adalari|vadisi|havzasi|yaylasi|colu|kiyisi|yolu)")
+
+
+def _2s_merkez_aniyor(o, ham_m, nrm_m):
+    """(a2) MERKEZ kolu — `m:` alanı üzerinden.
+
+    🔴 20 Eylül 2026'da DARALTILDI ve sebebi ÖLÇÜLDÜ (`denetim/DENETIM-KAPI-0920.md`).
+    Eski hâl `m:`yi BÖLGE sanıp tam metinde (`nrm` = başlık+yer+GÖVDE) arıyordu.
+    Oysa `m:` bir bölge değil, `VERI-YAPISI.md:120`ye göre **k1/k2 MERKEZİNİN ADI**.
+    Bir merkez adının gövdede geçmesi, o merkeze bağlı HER yerleşimin o maddeyle
+    açıklandığı anlamına gelmez. Ölçülen vakalar:
+
+        Beykoz (m:İstanbul)   ← "Anadolu Hisarı'nın yapımı"        (Beykoz geçmiyor)
+        Segedin (m:Budin)     ← "Estergon ve İstolni Belgrad'ın fethi"
+        Butrint (m:Yanya)     ← "Preveze'nin Fransızlardan alınışı"
+        Benhâ + 3 (m:Kahire)  ← "İskenderiye'nin donanmayla teslim alınması"
+
+    Dördünde de madde kırılan yeri ANMIYOR; yalnız merkezin adı gövdede
+    geçiyor. Bu, `_2s_tarafi_aniyor`ın gevşek kolunun çürümesiyle AYNI kusur
+    (bkz. oradaki not: *"Tek tarafın gövdede teşhis sözü olarak geçmesi
+    SAYILMAZ"*) — aynı disiplin bir kol öteye uygulandı.
+
+    YENİ ÖLÇÜT — merkez adı, maddenin YER BİLDİRDİĞİ alanlarda geçmeli:
+      ① başlık ya da `yer` alanında (`nrm_y`), bileşik yer tuzağı hariç, VEYA
+      ② maddenin `yer_id`si doğrudan merkezin KENDİSİ.
+    ②'siz olmaz: Baf (m:Lefkoşa) ← "Kıbrıs'ın İngiliz idaresine bırakılması"
+    maddesinin `yer` metni "Kıbrıs", `yer_id`si "Lefkoşa" — GERÇEK kapanış,
+    yalnız ① ile kaybolurdu.
+
+    📌 Yalnız ① (başlık) ile yetinmek ÖLÇÜLDÜ ve ÜÇ GERÇEK kapanışı bozuyordu:
+    Berc Bû Areric 1838 · Cübeyl 1871 · Akīk 1885. Bu ölçüt onları korur.
+    """
+    if not nrm_m or len(nrm_m) < 3:
+        return False
+    if ham_m and o.get("yer_id") == ham_m:
+        return True
+    metin = o.get("nrm_y", "")
+    for esl in re.finditer(r"(?<![a-z0-9])" + re.escape(nrm_m) + r"(?![a-z0-9])",
+                           metin):
+        kuyruk = metin[esl.end():esl.end() + 24].lstrip()
+        if re.match(_2S_CINS + r"(?![a-z0-9])", kuyruk):
+            continue          # bileşik yer adı — referans merkez DEĞİL
+        return True
+    return False
+
+
+def _2s_yeri_aniyor(o, adlar, Y_KOK, Y_MERKEZ):
+    """(a) YER kolu: madde kırılmanın yerleşimlerinden birini anıyor mu?
+
+    ⚠️ İKİ AYRI KOL, İKİ AYRI GENİŞLİK — kasten:
+      · yerleşimin KENDİ adı tam metinde (`nrm`) aranır — gövdede geçmesi
+        güçlü delildir, çünkü kırılan yerin ta kendisidir;
+      · MERKEZİN adı yalnız `nrm_y`de aranır (`_2s_merkez_aniyor`), çünkü
+        merkez adı gövdede başka bağlamda kolayca geçer.
+    """
     if o.get("yer_id") and o["yer_id"] in adlar:
         return True
     for ad in adlar:
         if _2s_gecer(o["nrm"], Y_KOK.get(ad, "")):
             return True
-        bolge = Y_BOLGE.get(ad, "")
-        if bolge and _2s_gecer(o["nrm"], bolge):
+        ham_m, nrm_m = Y_MERKEZ.get(ad, ("", ""))
+        if _2s_merkez_aniyor(o, ham_m, nrm_m):
             return True
     return False
 
