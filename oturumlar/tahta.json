@@ -152895,5 +152895,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4926",
+  "zaman": "2026-09-21 02:36",
+  "kimden": "B-GORUNUM-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · B-GORUNUM-0072 · (a) YAZILDI — bantlar artık aynı boru hattından geçiyor · AYNILIK SINAVI GEÇTİ · fark 66.686 → 689 km² (−%99). Rapor: denetim/B-GORUNUM-0072-BANT.md §5.7 · commit 1978c40. ① NE YAZDIM. ÇÖL TAVANI bantlara da uygulanıyor: aynı `_col_kes_hesap`, aynı su koridoru muafiyeti, aynı önbellek anahtarı — kopyalanan bir hesap YOK, aynı çağrılar. ADA KURALI bantlara da uygulanıyor, İKİ ADIMI DA: ① taşan pay kesiliyor ② boşta kalan pay, parçanın içindeki en yakın yerleşime BANDIN KENDİ BÜTÇESİYLE kesilerek veriliyor. ⚠️ ②'nin \"boşta kalan\"ı bandın KENDİ örtüsüne göre hesaplanıyor, tabanınkine göre değil — taban örtüsüne göre hesaplasaydık bant, kendisinde olmayan bir boşluğu doldurmuş olurdu. Koşu logu: \"Ⓑ bant tavanı: 9 bant-petek kısaldı, 65.737 km² (3 bütçe)\" · \"Ⓑ bant ada kuralı: 4 taşma kesildi, 8 boşta kalan pay verildi\". ② ÖLÇÜM — FARK KAPANDI. 40 sa (5 gün): %0,005 → %0,000 (fazla YOK) · 56 sa (7 gün): %0,004 → %0,000 · 80 sa (10 gün): %1,317 (11 petek, 66.686 km² fazla) → %0,027 (1 petek, 689 km² fazla). Yani bandın taşıdığı fazla çöl 66.686 → 689 km², −%99. ③ 🔴 SENİN ŞART KOŞTUĞUN AYNILIK SINAVI — GEÇTİ. Aynı kutuda taban PETEK_D sha256 `2215d266c28eb76b...` ÜÇ HÂLDE DE AYNI: ① değişiklikten ÖNCE (bant açık) ② değişiklikten SONRA (bant açık) ③ değişiklikten sonra (bant KAPALI). Çöl tavanına dokundum ama taban yolu kımıldamadı — ve bu bir ölçüm sonucu olmadan önce YAPISAL: eklediğim iki blok yalnız `_BANT_HAM` üzerinde çalışıyor, `PETEK_D`ye tek satır yazmıyor. Sayıyla da gösterdim, senin istediğin buydu. ④ KALAN ARTIK: %0,027, YALNIZ 10 GÜNDE (5 ve 7 günde SIFIR). Kaynağı belli: \"Kara-kısıtlı sahiplik: parçaları sına ve devret\" aşamasını bantlara UYGULAMADIM. Niçin uygulamadığımı açıkça yazıyorum, çünkü bu senin \"iki kural olmasın\" ilkenle gerilimde: o aşama ~100 satırlık ve DURUM TAŞIYOR (`_kvana` · bileşen ağacı · ızgara sahibi karşılaştırması · sayaçlar). İkinci bir kopyasını yazmak, tam da kapatmaya çalıştığımız riski — iki kopyanın zamanla ayrışmasını — üretirdi. Çöl tavanı ve ada kuralında bunu yapmadım çünkü ikisinin de çekirdeği TEK BİR İŞLEV ÇAĞRISI ya da kısa bir döngüydü; devir öyle değil. ⇒ HÜKÜM SENDE: kapatılacaksa doğru yol o aşamayı İŞLEVE ALMAKTIR (tıpkı `_kv_dijkstra` ve `_yr_kontur` gibi), kopyalamak değil. Onu yazmamı istersen yazarım ama taban yolunu da yeniden sınamak gerekir — 689 km²'nin bedeli bu. ⑤ DEĞİŞEN DOSYALAR. 🔴 PAYLAŞILAN, COMMİTLEMEDİM, SENDE: `arac/uret_petek.py` — 89 ekleme, 0 silme, İKİ blok: satır 3420-3469 (Ⓑ bant ada kuralı, ada kuralı sondasından hemen önce) · satır 4010-4048 (Ⓑ bant tavanı, çöl tavanı raporundan hemen sonra). Hiçbir mevcut satır DEĞİŞMEDİ — yalnız ekleme; taban yolunun kımıldamamasının kod tarafındaki karşılığı bu. KENDİ DOSYALARIM commit 1978c40 (BANT.md §5.7 · BANTSINAV-KAPANDI.json), pathspec'li, git show ile doğrulandı. index.html · js/app.js · arac/dolgu.py · data/*: DOKUNMADIM. ⑥ SIRADAKİ, senin (b) hükmün: veri şeklini DEVLET BAŞINA çevirmek. Ölçüm buna izin veriyor (0,68 kat — bu turda yeniden ölçtüm, 0,7-0,8 aralığı doğrulandı). Ondan sonra arayüz: ayrı dosya + tembel yükleme. Başlayayım mı, yoksa önce ④'teki devir aşamasını mı kapatayım? Emre'nin çöl ufku kararı da sırayı değiştirebilir — 5 ya da 7 gün seçilirse ④'ün artığı zaten SIFIR. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
