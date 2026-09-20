@@ -117,4 +117,79 @@ window.OLAYLAR_2S0920 = [
   d:"İkinci Balkan Savaşı, Bulgaristan ile Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması'yla sona erdi. Birinci savaşta Bulgaristan'ın eline geçen Kavala, Drama ve Serez havzası bu antlaşmayla Yunanistan'a bırakıldı.",
   kaynak:"TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN" },
 
+// =====================================================================
+// 2. PARTİ — ANADOLU · KAFKASYA · ARABİSTAN-KÖRFEZ (11 madde)
+// Aynı B sınıfından (penceredeki hiçbir madde kırılmayı açıklamıyor).
+// =====================================================================
+
+// ── 1913 · Lahsa ─────────────────────────────────────────────────────
+{ t:"1913-07-08", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Lahsa",
+  b:"İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin sonu",
+  gun:"8 Temmuz 1913", yer:"Lahsa, Hüfûf, Katîf, Ukayr (Uceyr), Cübeyl",
+  kisiler:"Abdülazîz b. Suûd (İbn Suud)",
+  etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"Necid emîri Abdülazîz b. Suûd, Osmanlı garnizonunu çıkararak Lahsa bölgesini ele geçirdi ve merkezi Hüfûf'a yerleşti. Katîf ve Ukayr iskeleleriyle birlikte Körfez'in batı kıyısı Suud idaresine geçti; Osmanlı Devleti'nin bölgedeki elli yıllık idaresi sona erdi.",
+  kaynak:"TDV `lahsa` — AYNEN: \"merkezi Hüfûf'a yerleşti (8 Temmuz 1913)\" · hassasiyet: GÜN" },
+
+// ── 1914 · Basra ─────────────────────────────────────────────────────
+{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Basra",
+  b:"Şattülarap çıkarması — Basra'nın düşüşü ve Irak cephesinin açılması",
+  gun:"22 Kasım 1914",
+  yer:"Basra, Fâv, Kürne, Ammâre, Nâsıriye, Semâve, Kuveyt, Şattülarap",
+  kisiler:"İngiliz Hint seferî kuvveti", etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"I. Dünya Savaşı'nın açılışında Hindistan'dan gelen İngiliz seferî kuvveti Şattülarap ağzındaki Fâv'a çıktı ve kısa sürede Basra'yı aldı. Şehrin düşüşü, Irak cephesinin açılması ve Körfez'in kuzey ucunun İngiliz denetimine geçmesi demekti.",
+  kaynak:"TDV `basra` — AYNEN: \"Basra bu son vali zamanında 22 Kasım 1914'te İngilizler tarafından işgal edildi.\" · hassasiyet: GÜN · NOT: TDV bu cümlede Fâv ve Kürne'yi ANMAZ; onlar aynı harekâtın parçası olarak atlasın kırılma kümesinden alındı" },
+
+// ── 1918 · Gürcistan ─────────────────────────────────────────────────
+{ t:"1918-05-26", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Kutaisi",
+  b:"Gürcistan bağımsızlığını ilân etti — Transkafkasya Seymi dağıldı",
+  gun:"26 Mayıs 1918", yer:"Kutaisi, Tiflis, Gürcistan",
+  kisiler:"Gürcistan Millî Konseyi", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
+  d:"Brest-Litovsk sonrasında kurulan Transkafkasya Seymi'nden çıkan Gürcistan bağımsızlığını ilân etti ve Gürcistan Demokratik Cumhuriyeti kuruldu. Kutaisi ile birlikte batı Gürcistan bu yeni devletin idaresine geçti.",
+  kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN" },
+
+// ── 1918 · Azerbaycan ────────────────────────────────────────────────
+{ t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
+  b:"Azerbaycan Demokratik Cumhuriyeti ilân edildi",
+  gun:"28 Mayıs 1918", yer:"Gence, Bakü, Azerbaycan, Revan",
+  kisiler:"Azerbaycan Millî Şûrası", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
+  d:"Gürcistan'ın ayrılmasından iki gün sonra Azerbaycan Demokratik Cumhuriyeti ilân edildi; ilk merkez Gence oldu. Aynı gün Revan'da Ermenistan Cumhuriyeti de kuruldu ve Transkafkasya üç ayrı devlete bölündü.",
+  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · 🔴 Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI" },
+
+// ── 1918 · Halep ─────────────────────────────────────────────────────
+{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Halep",
+  b:"Halep'in Arap ve İngiliz kuvvetlerince işgali",
+  gun:"27 Ekim 1918", yer:"Halep", kisiler:"Arap kuvvetleri, İngiliz ordusu",
+  etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"Filistin cephesinin çökmesinin ardından kuzeye ilerleyen kuvvetler Halep'e girdi; şehir önce Arap, ardından İngiliz birliklerinin eline geçti. Mondros Mütarekesi'nden üç gün önce gerçekleşen bu işgal, Osmanlı Devleti'nin Suriye'deki dört asırlık idaresini fiilen bitirdi.",
+  kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
+
+// ── 1920 · Bakü ──────────────────────────────────────────────────────
+{ t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+  b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
+  gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
+  kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"Kızıl Ordu Azerbaycan'a girerek parlamento ve hükümeti feshetti; iki yıllık Azerbaycan Demokratik Cumhuriyeti sona erdi. Bakü'nün petrol havzası ile Gence böylece Sovyet idaresine geçti.",
+  kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN" },
+
+// ── 1920 · Meyselûn ──────────────────────────────────────────────────
+{ t:"1920-07-01", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+  b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
+  gun:"Temmuz 1920",
+  yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
+  kisiler:"Faysal b. Hüseyin, General Gouraud, Yûsuf el-Azme",
+  etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"Beyrut-Şam yolundaki Han Meyselûn'da Fransızlar Suriye kuvvetlerini ağır bir yenilgiye uğrattı ve Faysal'ın Şam'daki Arap Krallığı sona erdi. Fransa, San Remo'da kendisine verilen manda yetkisini fiilen kurdu; Halep'ten Şam'a, İskenderun'dan Deyrizor'a uzanan bölge Fransız manda yönetimine bağlandı.",
+  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · hassasiyet: AY (Temmuz 1920)",
+  ic_not_d:"HASSASİYET AY: TDV gün vermez, 'Temmuz 1920' der — tarih ayın hassasiyetinde yazıldı, atlas kırılmasının gününe (1920-07-24) ÇEKİLMEDİ (23 gün fark, pencere içinde). `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
+
+// ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
+{ t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
+  b:"Şarkî Ürdün Emirliği kuruldu — Abdullah b. Hüseyin emîrliğini ilân etti",
+  gun:"Şubat 1921", yer:"Amman, Kerak, Şarkî Ürdün",
+  kisiler:"Abdullah b. Hüseyin", etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Şerîf Hüseyin'in oğlu Abdullah, Maan üzerinden kuzeye gelerek Şarkî Ürdün emîrliğini ilân etti; İngiltere kısa süre sonra bu yönetimi manda çerçevesinde tanıdı. Amman emirliğin merkezi oldu ve Kerak dahil Ürdün yaylası bu yeni idareye bağlandı.",
+  kaynak:"TDV `urdun` — AYNEN: \"kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\" · hassasiyet: AY (Şubat 1921)",
+  ic_not_d:"HASSASİYET AY: TDV gün vermez; tarih ayın 1'ine yazıldı ve atlas kırılması da 1921-02-01'de duruyor. TDV kuruluş cümlesinde Amman ile Kerak'ı ANMAZ — bu adlar atlasın kırılma kümesinden." },
+
 ];
