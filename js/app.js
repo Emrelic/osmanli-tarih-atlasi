@@ -434,6 +434,34 @@ devletler2.forEach(function (s) {
              geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
   });
 });
+
+// ═══════════════════════════════════════════════════════════════════════
+// Ⓑ DOLGU KATMANI — data/dolgu.js (arac/dolgu.py), B-GORUNUM-0072
+// ═══════════════════════════════════════════════════════════════════════
+// Kayıt: { f, t, k: devlet kimliği, c: cins, p: [DOLGU_PARCA_HALKA indeksi] }
+// cins: bosluk · koridor · enklav-bag · paylasim
+//
+// 🔴 DOSYA YOKSA ATLAS AYNEN ÇALIŞIR. `data/dolgu.js` henüz üretilmemiş
+//    olabilir (tam koşuyu yalnız Oturum 0 başlatır) — o hâlde `window.DOLGU`
+//    tanımsızdır, bu blok boş listeyle kurulur, ④b kutusu hiçbir şey
+//    göstermez ve A görünümü etkilenmez. Sessiz çökme YOK: sayı rozetine
+//    "—" yazılır, yani "katman var ama veri yok" ile "katman yok" ayrılır.
+// 🔴 RENK O DEVLETİN RENGİDİR (Emre'nin şartı) ve TEK KAYNAKTAN gelir:
+//    yabancılar `devletler2`nin `renk` alanından, Osmanlı `osmanli-dolgu`
+//    katmanının sabitinden. Ayrı bir palet TUTULMUYOR — tutulsaydı bir gün
+//    `renkler.py` değişince B, A'dan farklı renkte çizerdi ve kimse fark
+//    etmezdi.
+var DOLGU_PARCALAR = window.DOLGU_PARCALAR || [];
+var DOLGU_PARCA_HALKA = window.DOLGU_PARCA_HALKA || [];
+var DOLGU_RENK = { OSMANLI: "#8e0b22" };
+devletler2.forEach(function (s) { if (s.renk) DOLGU_RENK[s.id] = s.renk; });
+var dolgular = (window.DOLGU || []);
+dolgular.forEach(function (r) {
+  r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
+  r.ft = { type: "Feature",
+           properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
+           geometry: parcaCoz(r.p, DOLGU_PARCALAR, DOLGU_PARCA_HALKA) };
+});
 // ---------- Devlet etiketleri ----------
 // ⚠️ Eskiden her devlete TEK etiket veriliyor ve üretimden gelen tek bir
 // ağırlık merkezine (p.c) konuyordu. Sonuçları kullanıcı raporladı:
@@ -540,6 +568,47 @@ function devletGuncelle(t) {
   et.sort(function (a, b) { return b.alan - a.alan; });
   etiketAdaylari = et;
   etiketleriYerlestir();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// Ⓑ DOLGU GÜNCELLEME — B GÖRÜNÜMÜ (B-GORUNUM-0072, 20 Eylül 2026)
+// ═══════════════════════════════════════════════════════════════════════
+// Emre'nin şartı: *"Geçiş anlık, YENİ KOŞU GEREKMEZ."* Bunun karşılığı
+// tek cümledir — veri AÇILIŞTA yüklenir, anahtar yalnız `visibility`
+// çevirir. Bu fonksiyon o verinin O GÜNKÜ kesitini kaynağa yazar.
+//
+// 🔴 KAPALIYKEN MALİYET SIFIRA YAKIN olmalı, çünkü `guncelle()` zaman
+//    çubuğunun HER adımında koşuyor ve bu atlasın en pahalı döngüsü o.
+//    İki kapı var ve ikisi de ölçülebilir:
+//      ① kayıt yoksa (dosya üretilmemiş) → ilk satırda çıkar
+//      ② katman kapalıysa → kaynağa hiç dokunma, ama `dolguImza`yı DA
+//         sıfırla ki açıldığında kesit yeniden yazılsın
+//    ⚠️ ②'de imzayı sıfırlamamak sessiz bir kusur üretirdi: kullanıcı
+//    kutuyu açar, katman görünür olur, ama kaynakta KAPANDIĞI GÜNÜN verisi
+//    durur — yanlış tarihin dolgusu, hiçbir uyarı olmadan.
+var dolguImza = null;
+function dolguGuncelle(t) {
+  if (!dolgular.length) return;
+  var acik = true;
+  try {
+    acik = harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
+  } catch (e) { acik = false; }
+  if (!acik) { dolguImza = null; return; }
+  var fs = [], imza = "";
+  for (var i = 0; i < dolgular.length; i++) {
+    var r = dolgular[i];
+    if (!aktifAralik(r.fi, r.ti, t)) continue;
+    if (!r.ft.geometry || !r.ft.geometry.coordinates.length) continue;
+    imza += i + ";";
+    fs.push(r.ft);
+  }
+  if (imza === dolguImza) return;
+  dolguImza = imza;
+  try {
+    harita.getSource("dolgu").setData({ type: "FeatureCollection", features: fs });
+  } catch (e) { /* kaynak henüz kurulmadı — stil geç yüklenebilir */ }
+  var rozet = document.getElementById("kat-sayi-dolgu");
+  if (rozet) rozet.textContent = fs.length ? fs.length : "0";
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -1607,6 +1676,46 @@ harita.on("load", function () {
     layout: { "line-join": "round" },
     paint: { "line-color": "#d4707d", "line-width": himayeGenislik(2), "line-opacity": 1 } });
 
+  // ═══════════════════════════════════════════════════════════════════
+  // Ⓑ DOLGU — B GÖRÜNÜMÜ (B-GORUNUM-0072, 20 Eylül 2026)
+  // ═══════════════════════════════════════════════════════════════════
+  // 🔴 KATMAN SIRASI BURADA ÇİVİLENİYOR ve yeri TESADÜF DEĞİL:
+  //   ÜSTÜNDE olduğu şey  : bütün A dolguları (devlet · vassal · himaye ·
+  //                         osmanli) — dolgu A'nın ÜSTÜNE çizilir.
+  //   ALTINDA kaldığı şey : bu satırdan SONRA eklenen HER ŞEY — hukukî
+  //                         sınır (C), serbest kenar, bölge, sefer okları,
+  //                         devir, İŞGAL TARAMASI, isyan, güven taraması,
+  //                         ve bütün simge/etiket katmanları.
+  //   ⇒ Emre'nin 0071 kuralı ("gösterimler birbirine girmeyecek") tam olarak
+  //     budur: dolgu bir ZEMİN düzeltmesidir, bir İŞARET değil; hiçbir
+  //     taramayı, oku ya da simgeyi örtmemeli.
+  // ⚠️ Bu yüzden bu blok TAŞINAMAZ. `addLayer` sırası MapLibre'de z-sırasıdır;
+  //    blok aşağı kaydırılırsa dolgu taramanın üstüne çıkar ve kimse fark
+  //    etmez — `siyasi`/`tani` kovalarının vakalarının aynısı.
+  //
+  // 🔴 A'DAN AYIRT EDİLEBİLİRLİK — ölçüldü, seçildi, GEREKÇESİ YAZILDI:
+  //   Üç aday vardı. ① Doku (tarama): REDDEDİLDİ, çünkü tarama bu atlasta
+  //   ZATEN BİR ANLAM TAŞIYOR (işgal · güven) — dolguya da tarama vermek
+  //   iki gösterimi birbirine sokardı, yani tam yasaklanan şey.
+  //   ② Ayrı renk: REDDEDİLDİ — Emre'nin şartı "o devletin rengi".
+  //   ③ SAYDAMLIK: seçildi. A `fill-opacity: 1` (tam opak, ALFA-HARMAN
+  //   düzeltmesi), dolgu 0,72 ⇒ altlık dokusu dolgunun İÇİNDEN sızar,
+  //   A'nın içinden sızmaz. Fark gözle tek bakışta okunuyor ve hiçbir
+  //   anlamı çalmıyor. Kesikli ince kenar (③b) sınırı da "kesin değil"
+  //   diye söylüyor — `serbest` kenarın aynı dili.
+  // ⚠️ YUMUŞAK KİPTE (⑤) A'nın opaklığı da düşüyor; o kipte fark azalır.
+  //    Bilerek: yumuşak kip zaten "coğrafya alttan görünsün" demek.
+  harita.addSource("dolgu", agirKaynak());
+  harita.addLayer({ id: "dolgu-b-alan", type: "fill", source: "dolgu",
+    layout: { visibility: "none" },
+    paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
+             "fill-opacity": 0.72 } });
+  harita.addLayer({ id: "dolgu-b-kenar", type: "line", source: "dolgu",
+    layout: { visibility: "none", "line-join": "round" },
+    paint: { "line-color": ["coalesce", ["get", "renk"], "#8e0b22"],
+             "line-width": 1, "line-opacity": 0.55,
+             "line-dasharray": [2, 2] } });
+
   // 🆕 C ÇİZİM KATMANI (11 Eylül 2026, SEMA-C-0911.md §8) — window.HUKUKI_
   // SINIRLAR'ın antlaşma sınırları. "C üçüncü bir katman DEĞİL" (Emre) —
   // devlet/vassal/osmanli dolgularının HEMEN ÜSTÜNE, yalnız aktif kaydın
@@ -1848,6 +1957,42 @@ harita.on("load", function () {
   // katman; her biri kendi `tur` değerine göre süzülüyor. Renk ve genişlik
   // veriyle sürülebildiği için onlar tek ifadede kalıyor.
   harita.addSource("seferler", agirKaynak());
+  // 🔴 KENAR (casing) — H-0010'un OKUNURLUK ŞARTI. Emre (paket 0072): ok rengi
+  // harekâtı yapan ülkenin renginin DAHA KOYU TONU olacak; 0071 sınır şartı ise
+  // okun taralı alanla ve öteki öğelerle BİRBİRİNE GİRMEMESİ.
+  // ÖLÇÜLDÜ (denetim/ARAC-OK-RENK-0072.js, WCAG kontrast oranı) — koyulaştırma
+  // TEK BAŞINA yetmiyor, çünkü ok çoğu zaman KENDİ ÜLKESİNİN dolgusu üzerinden
+  // geçer ve orada koyu ton ile zemin birbirine girer:
+  //     ok kendi dolgusu üzerinde   Osmanlı 1.48 · Rusya 1.85 · Fransa 1.26 ·
+  //                                 İngiltere 1.62   (koyulaştırma 0.35)
+  //     0.45'e çıkarıldığında bile en iyisi 2.20 — grafik öğeler için WCAG'ın
+  //     asgarisi 3.00. Yani "daha koyu ton" kuralı, tek başına uygulanırsa
+  //     Emre'nin kendi görünürlük şartını ÇİĞNER.
+  // ⇒ Her ok gövdesinin ALTINA, aynı desenle ve 5 px daha kalın bir AÇIK KREM
+  //   şerit konuyor. Koyu ok artık hem kendi toprağında hem taralı alanda
+  //   okunuyor; renk kuralı da bozulmuyor.
+  // ⚠️ Kenar TÜR BAŞINA ayrı katman: desen türe göre değişiyor (H-0003'te deniz
+  //   kesikli, kara düz oldu) ve tek bir düz kenar, kesikli okun boşluklarını
+  //   krem bir çizgiyle DOLDURUP deseni yok ederdi.
+  Object.keys(HAREKET).forEach(function (tur) {
+    var h = HAREKET[tur];
+    var kenarBoya = { "line-color": "#fdf6e9", "line-opacity": 0.75,
+                      "line-width": h.kalinlik + 5 };
+    if (h.desen) {
+      // Desen birimi ÇİZGİ GENİŞLİĞİ olduğu için kenarın deseni, gövdenin
+      // ekran ölçüsüne göre yeniden hesaplanır — yoksa kalın kenarda kesikler
+      // uzar ve gövdeyle hizası kayar.
+      kenarBoya["line-dasharray"] = h.desen.map(function (d) {
+        return +(d * h.kalinlik / (h.kalinlik + 5)).toFixed(3);
+      });
+    }
+    harita.addLayer({
+      id: "sefer-kenar-" + tur, type: "line", source: "seferler",
+      filter: ["==", ["coalesce", ["get", "tur"], "sefer"], tur],
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: kenarBoya
+    });
+  });
   Object.keys(HAREKET).forEach(function (tur) {
     var h = HAREKET[tur];
     harita.addLayer({
@@ -2207,6 +2352,27 @@ harita.on("load", function () {
     // ÇİZİM KATMANI kurulumu), bu satır yalnız "bu ÇİZGİ nedir"i söylüyor.
     '<div class="lejant-baslik">Belgeli sınır (C — antlaşma metninden)</div>' +
     '<span><b class="lj-sim" style="border-bottom:2px dashed #1a1a1a;padding-bottom:1px">▬▬</b> tıklayınca kaynağı gösterir</span>' +
+    // 🆕 20 Eylül 2026 — CIZGI-ANLAM-0072 (paket 0072 H-0004 · H-0007 · H-0008).
+    // Emre üç ayrı ekran görüntüsünde AYNI şeyi sordu: "bu çizginin anlamı
+    // nedir". Üçünün ikisi (pembe kesikli Prut hattı · İsviçre'nin lacivert
+    // sınırları) `js/d_katman.js`in `d-sinir-hat-*` katmanlarıydı ve ÖLÇÜLDÜ:
+    //     lejantta "0a2f5c" geçişi  → 0   (bu satırlardan ÖNCE)
+    //     katman seçicide kovası    → YOK (dördü de `siniflanmamis`, ölçüldü)
+    // Yani ekranda dört yeni çizgi tipi var, kullanıcının bakabileceği HİÇBİR
+    // yerde karşılığı yok — `bolge-cizgi`/C katmanı/sönen kenar için daha önce
+    // yaşanan kusurun aynısı. Bu satırlar "bu ÇİZGİ nedir"i söyler.
+    // 🔴 AÇIK KIRMIZI ÇAKIŞMASI BİLEREK YAZILIYOR: `D_VASAL_RENK` (#d4707d) ile
+    // `himaye-serit-ic` (#d4707d) BİREBİR aynı renk (ΔE76 = 0,0, `renk_olc.py`
+    // ile ölçüldü) ama AYRI şey anlatıyorlar. Doğru çare bir lejant satırı
+    // değil renklerden BİRİNİ ayırmaktır; o bir Emre kararı (rapor:
+    // denetim/CIZGI-ANLAM-0072.md §4). Karar gelene kadar satır en azından
+    // ikinci anlamı GÖRÜNÜR kılıyor — sessiz çakışma en kötüsü.
+    '<div class="lejant-baslik">Koordinatlı sınır hattı (D katmanı — 1923’ten geriye sarılmış)</div>' +
+    '<span><b class="lj-sim" style="border-bottom:3px solid #0a2f5c;padding-bottom:1px">▬▬</b> F — hukukî ve uluslararası tanınmış (düz, en kalın)</span>' +
+    '<span><b class="lj-sim" style="border-bottom:3px dashed #0a2f5c;padding-bottom:1px">▬▬</b> E hukukî (uzun kesik) · C belgeli kaba (orta kesik) · D fiilî, hukuken geçersiz (sık kesik, soluk)</span>' +
+    '<span><b class="lj-sim" style="border-bottom:3px dashed #d4707d;padding-bottom:1px">▬▬</b> aynı hat AÇIK KIRMIZI ise: taraflardan biri o gün Osmanlı’ya tâbi</span>' +
+    '<span>Hatta tıklayınca antlaşma, uzunluk, kesinlik ve kaynak açılır. Sağ üstteki <b>D: Hukukî / D: Fiilî</b> düğmesi hangi sınıfların çizileceğini seçer.</span>' +
+    '<span>⚠️ Bu hat ANTLAŞMANIN çizgisidir; altındaki renk yerleşim peteğinden gelir. İkisi ayrışabilir — ayrışma bir kusur değil, ÖLÇÜ: hattın düştüğü yerde henüz yerleşim noktası yoktur.</span>' +
     // 🆕 13 Eylül 2026 — HALKA-TIKLAMA: ⑧ açıkken görünen halkanın lejant
     // satırı. Görünürlüğü `kaynakliHalkaAc` yönetir (`el.hidden`); ⑧ KAPALIYKEN
     // haritada halka yok, satır da yok.
@@ -4354,11 +4520,32 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
 // `harita:` anahtarına bakar, `id`ye değil; `_cTarafRengi` o köprüyü zaten
 // kuruyor, ikinci bir çözücü YAZILMADI).
 // VERİNİN ELLE YAZDIĞI RENK ASLA EZİLMEZ (mevcut sözleşme, 27 Ağustos).
+// 🔴 H-0010 (Emre, paket 0072, 20 Eylül 2026): *"sefer harekat okları o
+// harekatı yapan ülkenin renginin daha koyu tonu ile yapılacaktır."*
+// ÖLÇÜLDÜ (denetim/ARAC-OK-RENK-0072.js) — kural 117 okun YALNIZ BİRİNDE
+// uygulanıyordu:
+//     elle yazılmış renk 58 · hiçbir alan yok 51 · taraf 7 · DEVLET 1
+// Sebep sıraydı: `renk:` alanı `devlet:`in ÖNÜNE geçiyordu. Kural tersine
+// çevrildi — ÜLKE BİLİNİYORSA RENK ONDAN TÜRER; elle yazılmış renk yalnız
+// ülke çözülemediğinde kullanılır.
+// ⚠️ BU, 27 AĞUSTOS SÖZLEŞMESİNİ BİLEREK DEĞİŞTİRİR ("verinin elle seçtiği
+//    renk asla ezilmez"). Gerekçe: o sözleşme renk için TEK kaynak arıyordu;
+//    Emre'nin yeni kuralı o tek kaynağı ADIYLA belirtiyor (ülkenin rengi).
+//    `renk:` alanı artık bir YEDEK, bir tercih değil.
+// 🔴 "HAREKÂTI YAPAN ÜLKE" BELİRSİZSE (51 kayıtta `devlet`, `taraf` ve `renk`
+//    üçü de yok) OSMANLI SAYILIR — bu bir VARSAYIMDIR ve app.js'in eski
+//    davranışı da buydu (varsayılan #2b1006 "Osmanlı seferi" diye yazılmıştı).
+//    Ölçüldü: 51 kaydın 47'si gerçekten Osmanlı/Mısır harekâtı; dördü DEĞİL —
+//    Katalan Kumpanyası (1303), Abdülmelik'in Kasrülkebir yürüyüşü (1578),
+//    Müttefik donanma harekâtı (1840) ve Edirne Vak'ası âsileri (1703).
+//    Bu dördüne `devlet:`/`taraf:` yazmak VERİ işidir, teslimde bildirildi.
 function _seferRengiCoz(m) {
-  if (m.renk_veriden || m.hal === "planlanan") return m.renk;
+  if (m.hal === "planlanan") return m.renk;
   var taban = null;
   if (m.devlet) taban = _cTarafRengi(m.devlet);
-  else if (m.taraf === "osmanli") taban = "#8e0b22";      // Osmanlı kırmızısı
+  else if (m.renk_veriden) return m.renk;                 // ülke yok: veri rengi
+  else if (m.taraf === "dusman") return m.renk;           // ülke yok: eski taraf rengi
+  else taban = "#8e0b22";                                 // Osmanlı varsayımı (yukarı)
   if (!taban || taban === "#9a9a9a") return m.renk;       // çözülemedi: eski davranış
   // Koyulaştırıcı TEK: app.js:8534 `koyuTon` (ELE-GECIRME-ANIM-0070 bunu
   // `ANIM.koyuTon` diye dışarı veriyor, KOPYASI yok — M-4703). Buradan
@@ -4395,7 +4582,10 @@ function _seferKatmanSirasi() {
     for (var i = 0; i < kat.length; i++) {
       if (kat[i].type === "symbol" && kat[i].id.indexOf("sefer") !== 0) { hedef = kat[i].id; break; }
     }
-    var tasi = Object.keys(HAREKET).map(function (t) { return "sefer-cizgi-" + t; });
+    // ⚠️ SIRA İÇİNDE SIRA: kenar katmanları gövdelerden ÖNCE taşınır ki altta
+    // kalsınlar (H-0010 casing'i, yukarıdaki kurulum notu).
+    var tasi = Object.keys(HAREKET).map(function (t) { return "sefer-kenar-" + t; })
+      .concat(Object.keys(HAREKET).map(function (t) { return "sefer-cizgi-" + t; }));
     tasi.push("sefer-kaynak");
     tasi.forEach(function (id) {
       if (!harita.getLayer(id)) return;
@@ -4417,7 +4607,36 @@ function seferGuncelle(t) {
   // ⚠️ VERİ DÜZELTİLMEDİ (mükerreri işçi silmez — M-4714 aynı maddede bunu da
   // söylüyor, teslimde bildirildi): elenen yalnız ÇİZİM. Anahtar veri
   // kimliğinden değil GEOMETRİDEN türüyor, çünkü mükerrerin `id`leri farklı.
-  var _cizilen = {};
+  //
+  // 🔴 ÖLÇÜT GENİŞLETİLDİ — 20 Eylül 2026, paket 0071'in ölçümü + koordinatör
+  // hükmü (M-47xx). Eski ölçüt "aynı uçlar + AYNI GÜN" idi ve DARDI: Alemdar'ın
+  // yürüyüşü `SEFERLER`de 1808-01-01, `SEFERLER_OK103`te 1808-07-01 başlıyor —
+  // aynı yürüyüş, ayrı gün, ölçüt yakalamıyordu. Yeni ölçüt:
+  //     uçlar 25 km içinde  +  pencereler ÖRTÜŞÜYOR  +  aynı tür  +  aynı taraf
+  // Ölçüldü (denetim/OLCUM-OK-0071.json): 7 çift; altısı `SEFERLER_OK103`ün
+  // `SEFERLER`i tekrarı.
+  // ⚠️ "AYNI TARAF" ŞARTI KASITLI VE KURALIN KENDİSİ KADAR ÖNEMLİ: aynı olayın
+  //    İKİ TARAFI mükerrer DEĞİLDİR. Ölçümün yakaladığı yedinci çift buydu —
+  //    "Osmanlı donanmasının Mora'dan Çeşme'ye çekilişi" ile "Rus donanmasının
+  //    takibi ve Çeşme baskını" aynı denizde, aynı günlerde, 15 km arayla biter;
+  //    ikisini teke indirmek bir tarafı SİLMEK olurdu. Taraf/devlet farkı bu
+  //    çifti ayırıyor.
+  var _cizilenler = [];
+  function _mukerrerMi(m) {
+    for (var i = 0; i < _cizilenler.length; i++) {
+      var o = _cizilenler[i];
+      if (o.tur !== m.tur) continue;
+      if ((o.taraf || "") !== (m.taraf || "")) continue;
+      if ((o.devlet || "") !== (m.devlet || "")) continue;
+      if (Math.max(o.fi, m.fi) > Math.min(o.ti, m.ti)) continue;      // pencere örtüşmüyor
+      var b = kmArasi(o.yol[0][1], o.yol[0][0], m.yol[0][1], m.yol[0][0]);
+      if (b > 25) continue;
+      var s1 = o.yol[o.yol.length - 1], s2 = m.yol[m.yol.length - 1];
+      if (kmArasi(s1[1], s1[0], s2[1], s2[0]) > 25) continue;
+      return true;
+    }
+    return false;
+  }
   seferler.forEach(function (m) {
     // 🔴 23 Ağustos, 0029/H-0004 — OK KENDİ ÇAPASINDAN ÖNCE BELİRMEZ.
     // Emre: *"katalan birliklerin anadolu seferi oku BİR OLAY ERKEN
@@ -4501,12 +4720,11 @@ function seferGuncelle(t) {
       return;
     }
     if (aktif) {
-      var _anahtar = m.yol[0] + "|" + m.yol[m.yol.length - 1] + "|" + m.fi + "|" + m.tur;
-      if (_cizilen[_anahtar]) {                       // mükerrer: TEK çizim
+      if (_mukerrerMi(m)) {                           // mükerrer: TEK çizim
         if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
         return;
       }
-      _cizilen[_anahtar] = true;
+      _cizilenler.push(m);
       cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
                       geometry: { type: "LineString", coordinates: m.yol } });
       // 🔴 ORDUNUN ÇIKIŞ NOKTASI (H-0006: "yuvarlak kalın bir nokta") — okun
@@ -7126,13 +7344,30 @@ function _khGunYazi(gun) {                // gün indeksi → "15 Haziran 1595"
 // eskisi gibi döner. Karlofça ve öteki nokta-kümesi kayıtları ETKİLENMEZ.
 // Yeni bir kayıt göçerse: yalnız bu diziye id.
 var _KH_GOCMUS_C_KAYITLARI = ["ferhad-pasa-istanbul-1590"];
+// 🔴 20 Eylül 2026 — HALKA-SARI-0072 · parti 0072/H-0003. Emre (1813-10-05
+// Bosna ekranı): *"ayarlarda kaynakla kesinleşmiş sahiplik halkaları ayarı var,
+// bu ayar işaretli değil iken bu sarı halkalar gösteriliyor, manası ne olabilir"*.
+// ÖLÇÜLDÜ (denetim/OLCUM-HALKA-SARI-0072.json): ⑧ KAPALIYKEN halka katmanı
+// gerçekten BOŞ (`KHALKA.cizilen=0`, `halka-kaynakli` 0 çizilen) — kusur halka
+// motorunda DEĞİL. Ekrandaki iki sarı işaret `hukuki-sinir-nokta` katmanının
+// `karlofca-bosna-kaleler-1699` noktalarıydı (renk `#bdab3f` = habsburg →
+// künye `harita:"avusturya"`), ve o katman ⑧'den BAĞIMSIZ çiziyordu.
+// İki işaret AYNI şeyi söylüyor ("kaynak bu şehri şu devlete veriyor") ve 14
+// Eylül kararından beri AYNI biçimde çiziliyor (yarıçap 6, dolu, #1a1a1a kenar)
+// — ama yalnız biri ayara bağlıydı. ⇒ `nokta-kumesi` C noktaları da ⑧'e bağlandı.
+// Geri alma: `_KH_C_NOKTA_AYARA_BAGLI` = false (tek satır).
+var _KH_C_NOKTA_AYARA_BAGLI = true;
 function _khCNoktaSuzgeci() {
   if (typeof harita === "undefined" || !harita.getLayer || !harita.getLayer("hukuki-sinir-nokta")) return;
   // 🔴 14 Eylül 2026 — Emre: göçmüş kayıtların daireleri ⑧ KAPALIYKEN de
   // görünüyordu ("ayar ile konulsun demiştim"). Süzgeç artık ⑧'den bağımsız
   // HER ZAMAN uygulanır; o şehirler yalnız ⑧ açılınca (halka katmanında) görünür.
-  harita.setFilter("hukuki-sinir-nokta",
-    ["!", ["in", ["get", "kayit_id"], ["literal", _KH_GOCMUS_C_KAYITLARI]]]);
+  var gocmusDisi = ["!", ["in", ["get", "kayit_id"], ["literal", _KH_GOCMUS_C_KAYITLARI]]];
+  if (_KH_C_NOKTA_AYARA_BAGLI && !KHALKA.acik) {
+    harita.setFilter("hukuki-sinir-nokta", ["==", ["literal", 1], ["literal", 0]]);
+    return;
+  }
+  harita.setFilter("hukuki-sinir-nokta", gocmusDisi);
 }
 function kaynakliHalkaAc(acik) {
   KHALKA.acik = !!acik;
@@ -7805,6 +8040,9 @@ function guncelle() {
   // DOĞRU çalışıyordu, çizim zinciri DOĞRU çalışıyordu — kusur, kırpmanın
   // ihtiyacı olmayan bir zinciri çağırmasındaydı.
   agirOlc("devletGuncelle", function () { devletGuncelle(suanki); });
+  // Ⓑ DOLGU — `devletGuncelle`nin hemen ARDINDAN, aynı desende (imza kapılı).
+  // Katman kapalıyken maliyeti bir `if`tir (bkz. tanım).
+  agirOlc("dolguGuncelle", function () { dolguGuncelle(suanki); });
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — GUVEN_ODAK_DEVLET boşken fonksiyon
   // hemen çıkar (bkz. tanım, satır ~440), yani varsayılan durumda bu satırın
   // maliyeti bir `if` kadardır.
@@ -8685,21 +8923,40 @@ function _antlasmaHal(hal) {
 //
 // Kare başına HESAP YOK — yalnız 6 kez setPaintProperty; geçişi MapLibre'nin
 // `fill-opacity-transition`ı (250 ms, katman tanımında) yapıyor.
+// 🔴 SIRA DEĞİŞTİ — Emre, 20 Eylül 2026 (paket 0072 sonrası, koordinatör sevki).
+// Emre'nin kendi numaralandırması, birebir:
+//     1 Odaklanma · 2 Eski harita durumu · 3 Yansın (KOYU) · 4 Sönsün (ESKİ
+//     DURUM) · 5 Yansın (KOYU) · 6 Sönsün (ESKİ DURUM) · 7 Yansın (ORİJİNAL renk)
+// ⇒ hâl sırası: once → koyu → once → koyu → once → sonra → (çözülme)
+//
+// ASIL DEĞİŞİKLİK 4 ve 6'da: sönük ara artık BOŞLUK değil ESKİ SAHİBİN HARİTASI.
+// 🔴 VE BU ÖLÇÜLDÜ, TAHMİN EDİLMEDİ (denetim/ARAC-VURUS-0072.js · öngörü
+//    denetim/ONGORU-VURUS-0072.md): eski dizideki `hal:"yok"` anında örtü
+//    kalkıyor ve altından haritanın O GÜNKÜ KENDİ ÇİZİMİ çıkıyordu. Ölçüm
+//    (Mohaç sonrası Budin'in teslimi, 1526-09-01, 12 petek): o anda üstteki
+//    katman `devlet-dolgu` ve özelliği `id:"avusturya"` (#bdab3f) — yani ara
+//    vuruş ne `once` (#20d880 Macaristan) ne `sonra` (#b2384a) idi, ÜÇÜNCÜ bir
+//    şeydi. Emre'nin "eski durum" dediği şey bu değil; `once` açıkça istenmeli.
+// ⚠️ `once` rengi ZATEN HER PETEKTE VAR (`_farkKutusuCiz` hesaplıyor, "◀ Öncesi"
+//    düğmesi kullanıyor) — ölçüldü: 12/12 petekte tanımlı. Ek katman, ek kaynak,
+//    ek zamanlayıcı GEREKMEDİ: yalnız `["get", hal]` anahtarı değişiyor.
 var ELE_GECIRME_DILI = {
-  vurus: 2,          // Emre: "2 kere yanıp sönmeli"
+  vurus: 2,          // Emre: "2 kere yanıp sönmeli" — KOYU vuruş sayısı
+  eskiMs: 300,       // 2. adım: sahne eski harita durumuyla açılır
   yanikMs: 420,      // koyu tonun ekranda kaldığı süre
-  araMs: 180,        // iki vuruş arasındaki karanlık (sönük) aralık
-  sahipMs: 620       // 3. vuruş: yeni sahibin rengi — sonra örtü çözülür
+  araMs: 180,        // 4 ve 6: vuruşlar arasındaki ESKİ DURUM aralığı
+  sahipMs: 620       // 7. adım: ele geçirenin ORİJİNAL rengi — sonra çözülür
 };
 // Diziyi ayrı bir fonksiyon üretir ki hem burası hem ölçüm aleti AYNI
 // tablodan okusun (sayıyı iki yere yazmamak — §11).
 function eleGecirmeDizisi() {
   var s = [];
+  s.push({ hal: "once", ms: ELE_GECIRME_DILI.eskiMs });   // ② eski harita durumu
   for (var i = 0; i < ELE_GECIRME_DILI.vurus; i++) {
-    s.push({ hal: "koyu", ms: ELE_GECIRME_DILI.yanikMs });
-    s.push({ hal: "yok", ms: ELE_GECIRME_DILI.araMs });
+    s.push({ hal: "koyu", ms: ELE_GECIRME_DILI.yanikMs }); // ③ ve ⑤ yansın
+    s.push({ hal: "once", ms: ELE_GECIRME_DILI.araMs });   // ④ ve ⑥ sönsün = ESKİ DURUM
   }
-  s.push({ hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs });
+  s.push({ hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs });  // ⑦ ele geçirenin rengi
   s.push({ hal: "yok", ms: 0 });                    // çözülme — harita kendi rengini gösterir
   return s;
 }
@@ -9195,6 +9452,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   // 🆕 20 Eylül 2026 — DALGA-0920 teslimleri (koordinatör 1.MURAT bağladı)
   "ekokuma_alemdar",     // window.EKOKUMA_ALEMDAR — EKO-ALEMDAR teslimi (Alemdar Mustafa Paşa · âyanlar)
   "ekokuma_1806",        // window.EKOKUMA_1806 — EKO-1806 teslimi, M-4765 (6 kart)
+  "ekokuma_yunan",       // window.EKOKUMA_YUNAN — EKO-YUNAN-0072 teslimi, M-4785 (4 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -12925,6 +13183,17 @@ var KATMAN_KUMESI = [
   // 📌 Kavramsal ayrım da bunu istiyor: koridor bir ALTYAPI (menzil yolları),
   //   ok bir ANLATI öğesidir. Birini kapatmak ötekini kapatmamalı.
   { anahtar: "harekat",  ad: "Harekât okları", kalip: /^sefer-/ },
+  // 🆕 Ⓑ DOLGU KOVASI (B-GORUNUM-0072, 20 Eylül 2026) — `siyasi`DEN ÖNCE.
+  // ⚠️ SIRA ŞART (`katmanSinifla()` ilk eşleşmede döner) — ve burada sıra
+  //    yalnız bir tedbir değil, ÖLÇÜLMÜŞ bir tuzak: `siyasi` kalıbı
+  //    `^(devlet|…|osmanli|…)` ile başlıyor ve dolgu katmanları o kalıba
+  //    DÜŞMEZ (`dolgu-` öneki hiçbirine uymuyor) — ama kalıp bir gün
+  //    genişletilirse B anahtarı SESSİZCE ölürdü. Kendi kovası bunu
+  //    yapısal olarak engelliyor.
+  // 📌 Ve kavramsal ayrım da bunu istiyor: A ile B AYRI GÖRÜNÜMLERDİR.
+  //    "Siyasî yapılar"ı kapatmak dolguyu da kapatmalı (altındaki A gider),
+  //    ama dolguyu kapatmak siyasî yapıları KAPATMAMALI — tek yön.
+  { anahtar: "dolgu",    ad: "Ⓑ Dolgu", kalip: /^dolgu-b-/ },
   { anahtar: "yollar",   ad: "Yollar",    kalip: /^koridor-/ },
   { anahtar: "siyasi",   ad: "Siyasî",
     // 🆕 `hukuki-sinir-` — C ÇİZİM KATMANI (11 Eylül 2026). devlet/vassal/
@@ -13035,6 +13304,20 @@ function katmanSeciciKur() {
           try { harita.setLayoutProperty(id, "visibility", acik ? "visible" : "none"); }
           catch (e) { /* katman henüz yoksa sessiz geç — stil geç yüklenebilir */ }
         });
+      }
+      // 🔴 Ⓑ DOLGU — görünürlüğü çevirmek YETMEZ, kesiti de yazdırmak gerek.
+      //    Kaynak kapalıyken güncellenmiyor (`dolguGuncelle`nin ② kapısı);
+      //    kutu açıldığı anda o günün dolgusu kaynağa yazılmazsa katman
+      //    GÖRÜNÜR ama BOŞ kalır — ve kullanıcı "B görünümü çalışmıyor" der.
+      //    Bu satır o boşluğu kapatıyor; veri yoksa rozet "—" yazar, yani
+      //    "katman yok" ile "veri üretilmemiş" ayırt edilebilir kalır.
+      if (a === "dolgu") {
+        var rd = document.getElementById("kat-sayi-dolgu");
+        if (!dolgular.length) {
+          if (rd) { rd.textContent = "—"; rd.title = "data/dolgu.js üretilmemiş (arac/dolgu.py)"; }
+        } else if (acik) {
+          try { dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ }
+        } else if (rd) { rd.textContent = ""; }
       }
       // 🔴 EKLENDİ (DALGA-0067 H-0002, ISGAL-TARAMA, 18 Eylül 2026): "⑥ Motor
       // tanı hatları" düğmesinin kendi etiketi menüde duruyor ama harita
