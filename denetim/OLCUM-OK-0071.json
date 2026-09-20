@@ -1,0 +1,757 @@
+{
+ "olcum": "OK-0071",
+ "tarih": "2026-09-20",
+ "ok": 114,
+ "madde": 1616,
+ "sehir_havuzu": 3771,
+ "mukerrer_cift": 7,
+ "mukerrer": [
+  {
+   "a": "Tosun Paşa'nın Hicaz seferi (1811-13)",
+   "a_kova": "SEFERLER",
+   "a_f": "1811-09-01",
+   "a_t": "1813-01-23",
+   "a_nokta": 4,
+   "b": "Tosun Paşa'nın Hicaz seferi (1811-1813)",
+   "b_kova": "SEFERLER_OK103",
+   "b_f": "1811-03-01",
+   "b_t": "1813-01-23",
+   "b_nokta": 5,
+   "bas_km": 0.8,
+   "uc_km": 0.3
+  },
+  {
+   "a": "Napolyon'un Suriye seferi — Akkâ'ya yürüyüş (1799)",
+   "a_kova": "SEFERLER",
+   "a_f": "1799-02-10",
+   "a_t": "1799-03-19",
+   "a_nokta": 6,
+   "b": "Napolyon'un Suriye seferi (1799) — Akkâ kuşatması",
+   "b_kova": "SEFERLER_OK103",
+   "b_f": "1799-02-18",
+   "b_t": "1799-03-19",
+   "b_nokta": 7,
+   "bas_km": 0.8,
+   "uc_km": 0.6
+  },
+  {
+   "a": "Napolyon'un Akkâ'dan Kahire'ye çekilişi (1799)",
+   "a_kova": "SEFERLER",
+   "a_f": "1799-05-20",
+   "a_t": "1799-06-14",
+   "a_nokta": 4,
+   "b": "Napolyon'un Akkâ'dan çekilişi (1799)",
+   "b_kova": "SEFERLER_OK103",
+   "b_f": "1799-05-20",
+   "b_t": "1799-06-14",
+   "b_nokta": 7,
+   "bas_km": 0.6,
+   "uc_km": 0.8
+  },
+  {
+   "a": "Vehhâbîlerin Kerbelâ baskını (1801)",
+   "a_kova": "SEFERLER",
+   "a_f": "1801-04-01",
+   "a_t": "1801-04-01",
+   "a_nokta": 2,
+   "b": "Vehhâbîlerin Kerbelâ baskını (1801)",
+   "b_kova": "SEFERLER_OK103",
+   "b_f": "1801-04-01",
+   "b_t": "1801-05-01",
+   "b_nokta": 2,
+   "bas_km": 0.5,
+   "uc_km": 2.5
+  },
+  {
+   "a": "Suûd'un Tâif ve Mekke harekâtı (1803)",
+   "a_kova": "SEFERLER",
+   "a_f": "1803-02-01",
+   "a_t": "1803-04-30",
+   "a_nokta": 3,
+   "b": "Vehhâbîlerin Tâif ve Mekke seferi (1803)",
+   "b_kova": "SEFERLER_OK103",
+   "b_f": "1803-02-01",
+   "b_t": "1803-04-30",
+   "b_nokta": 3,
+   "bas_km": 0.5,
+   "uc_km": 0.3
+  },
+  {
+   "a": "Abdülaziz'in Avrupa seyahati (1867)",
+   "a_kova": "SEFERLER",
+   "a_f": "1867-06-21",
+   "a_t": "1867-08-07",
+   "a_nokta": 5,
+   "b": "Abdülaziz'in Avrupa seyahati (1867)",
+   "b_kova": "SEFERLER_P0037",
+   "b_f": "1867-06-21",
+   "b_t": "1867-08-07",
+   "b_nokta": 27,
+   "bas_km": 0,
+   "uc_km": 0
+  },
+  {
+   "a": "Osmanlı donanmasının Mora'dan Çeşme'ye çekilişi (1770)",
+   "a_kova": "SEFERLER_OK103",
+   "a_f": "1770-06-01",
+   "a_t": "1770-07-05",
+   "a_nokta": 7,
+   "b": "Rus donanmasının takibi ve Çeşme baskını (1770)",
+   "b_kova": "SEFERLER_OK103",
+   "b_f": "1770-06-01",
+   "b_t": "1770-07-07",
+   "b_nokta": 8,
+   "bas_km": 0,
+   "uc_km": 15.3
+  }
+ ],
+ "ic_harekat_aday": 30,
+ "ic_harekat_oku_olan": 6,
+ "ic_harekat_oksuz": 24,
+ "ic_harekat_konumsuz": 1,
+ "ic_harekat_ornek": [
+  {
+   "t": "1798-07-01",
+   "k": "savas",
+   "b": "Napolyon'un Mısır'ı işgali",
+   "yer_id": "İskenderiye",
+   "konum": true,
+   "ok": "Fransız filosunun Toulon'dan Malta üzerinden İskenderiye'ye yolu (1798)"
+  },
+  {
+   "t": "1361-01-01",
+   "k": "fetih",
+   "b": "Dimetoka'nın alınışı — Meriç vadisinin açılması",
+   "yer_id": "Dimetoka",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1357-01-01",
+   "k": "fetih",
+   "b": "Süleyman Paşa döneminde Trakya ilerleyişi: Malkara, İpsala ve ",
+   "yer_id": "Malkara",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1909-04-13",
+   "k": "isyan",
+   "b": "31 Mart Vakası",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1381-04-01",
+   "k": "fetih",
+   "b": "Timur Herat'ı aldı: Kert hânedanının sonu ve Horasan'ın Timurl",
+   "yer_id": "Herat",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1386-01-01",
+   "k": "fetih",
+   "b": "Timur'un 'üç yıllık sefer'i: Azerbaycan ve Kuzey İran'ın alınm",
+   "yer_id": "Tebriz",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1345-01-01",
+   "k": "fetih",
+   "b": "Karesi Beyliği'nin ilhakı: Balıkesir, Bergama, Biga, Edremit v",
+   "yer_id": "Balıkesir",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1455-06-01",
+   "k": "fetih",
+   "b": "Kosova'nın fethi: Priştine ve Yenipazar'ın alınması",
+   "yer_id": "Priştine",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1466-06-01",
+   "k": "savas",
+   "b": "II. Arnavutluk seferi — Fatih'in İskender Bey üzerine bizzat y",
+   "yer_id": "Akçahisar (Kruja)",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1511-07-02",
+   "k": "isyan",
+   "b": "Şahkulu İsyanı — Teke yöresinden Sivas'a uzanan Kızılbaş ayakl",
+   "yer_id": "Sivas",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1532-08-05",
+   "k": "savas",
+   "b": "Alman Seferi ve Güns (Kőszeg) kuşatması",
+   "yer_id": null,
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1658-08-27",
+   "k": "fetih",
+   "b": "Yanova'nın (Ineu) fethi ve Erdel seferi",
+   "yer_id": "Yanova (Ineu)",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1872-04-01",
+   "k": "fetih",
+   "b": "San'a'nın alınışı: Yemen'de Osmanlı otoritesinin yeniden kurul",
+   "yer_id": "Sana",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1909-04-27",
+   "k": "siyaset",
+   "b": "Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Mehmed Reşad'ın ",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1528-01-01",
+   "k": "fetih",
+   "b": "Kuzey Bosna'nın ilhakı: Yayça ve Banaluka",
+   "yer_id": "Banaluka",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1570-07-23",
+   "k": "fetih",
+   "b": "Kıbrıs çıkarması: Limasol ve Baf'ın alınışı",
+   "yer_id": "Limasol",
+   "konum": true,
+   "ok": "Kıbrıs harekâtı (1570)"
+  },
+  {
+   "t": "1583-09-13",
+   "k": "fetih",
+   "b": "Revan'ın (Erivan) fethi ve kale inşası",
+   "yer_id": "Revan",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1588-09-01",
+   "k": "fetih",
+   "b": "Karabağ ve Gence'nin ilhakı",
+   "yer_id": "Gence",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1798-10-23",
+   "k": "fetih",
+   "b": "Preveze'nin Fransızlardan alınışı — Nikopolis Muharebesi",
+   "yer_id": "Preveze",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1703-07-17",
+   "k": "isyan",
+   "b": "Edirne Vak'ası'nın başlaması",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1808-07-19",
+   "k": "siyaset",
+   "b": "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": "Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü (1808)"
+  },
+  {
+   "t": "1595-08-23",
+   "k": "savas",
+   "b": "Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi",
+   "yer_id": null,
+   "konum": true,
+   "ok": "Koca Sinan Paşa'nın Eflak seferi (1595)"
+  },
+  {
+   "t": "1877-04-24",
+   "k": "savas",
+   "b": "Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
+   "yer_id": null,
+   "konum": true,
+   "ok": "Rus ordusunun Kişinev'den Zimniça'ya ilerleyişi (1877)"
+  },
+  {
+   "t": "1510-12-02",
+   "k": "savas",
+   "b": "Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alı",
+   "yer_id": "Merv (Mari)",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1569-01-01",
+   "k": "fetih",
+   "b": "Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin son",
+   "yer_id": "Tunus",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1520-09-04",
+   "k": "fetih",
+   "b": "Tepeaca'nın zaptı — Cortés'in Hüzünlü Gece'den sonraki ilk fet",
+   "yer_id": "Tepeaca",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1814-01-28",
+   "k": "siyaset",
+   "b": "Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzâr",
+   "yer_id": "Dubrovnik",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1788-07-01",
+   "k": "savas",
+   "b": "Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a gi",
+   "yer_id": null,
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1736-03-24",
+   "k": "savas",
+   "b": "Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen",
+   "yer_id": "Azak",
+   "konum": true,
+   "ok": "Rus kolunun İzyum'dan Azak'a yürüyüşü (1736)"
+  },
+  {
+   "t": "1792-05-04",
+   "k": "sadrazam",
+   "b": "Melek Mehmed Paşa'nın sadârete tayini — ıslahat kadrosunun kur",
+   "yer_id": null,
+   "konum": false,
+   "ok": null
+  }
+ ],
+ "anilan_ornekler": [
+  {
+   "ad": "Hareket Ordusu",
+   "madde": 3,
+   "ornek": [
+    {
+     "t": "1909-04-13",
+     "b": "31 Mart Vakası",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1909-04-27",
+     "b": "Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Mehmed Re",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1909-04-24",
+     "b": "Hareket Ordusu'nun İstanbul'a girişi",
+     "yer_id": "İstanbul"
+    }
+   ]
+  },
+  {
+   "ad": "Edirne Vak",
+   "madde": 3,
+   "ornek": [
+    {
+     "t": "1703-08-22",
+     "b": "Edirne Vakası — II. Mustafa'nın hal'i",
+     "yer_id": "Edirne"
+    },
+    {
+     "t": "1703-03-01",
+     "b": "Feyzullah Efendi'nin oğullarını üst görevlere getirmesi",
+     "yer_id": "Edirne"
+    },
+    {
+     "t": "1703-07-17",
+     "b": "Edirne Vak'ası'nın başlaması",
+     "yer_id": "İstanbul"
+    }
+   ]
+  },
+  {
+   "ad": "Alemdar",
+   "madde": 6,
+   "ornek": [
+    {
+     "t": "1808-10-07",
+     "b": "Sened-i İttifak",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1808-11-15",
+     "b": "Alemdar Mustafa Paşa'nın ölümü",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1808-07-19",
+     "b": "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi",
+     "yer_id": "İstanbul"
+    }
+   ]
+  },
+  {
+   "ad": "Kabakçı",
+   "madde": 3,
+   "ornek": [
+    {
+     "t": "1806-12-22",
+     "b": "Rusya ile savaşın başlaması (1806-1812 Osmanlı-Rus Sava",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1807-05-25",
+     "b": "Kabakçı Mustafa isyanı başladı",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1807-05-29",
+     "b": "III. Selim tahttan indirildi",
+     "yer_id": "İstanbul"
+    }
+   ]
+  },
+  {
+   "ad": "Patrona",
+   "madde": 7,
+   "ornek": [
+    {
+     "t": "1730-09-25",
+     "b": "Patrona Halil İsyanı",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1730-08-12",
+     "b": "Nâdir'in taarruzu: Tebriz, Nahçıvan, Hemedan, Kirmanşah",
+     "yer_id": "Hemedan"
+    },
+    {
+     "t": "1722-06-01",
+     "b": "Sâdâbâd Kasrı'nın yapımı",
+     "yer_id": "İstanbul"
+    }
+   ]
+  },
+  {
+   "ad": "31 Mart",
+   "madde": 6,
+   "ornek": [
+    {
+     "t": "1908-07-23",
+     "b": "II. Meşrutiyet'in ilanı",
+     "yer_id": "Manastır"
+    },
+    {
+     "t": "1909-04-13",
+     "b": "31 Mart Vakası",
+     "yer_id": "İstanbul"
+    },
+    {
+     "t": "1909-04-27",
+     "b": "Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Mehmed Re",
+     "yer_id": "İstanbul"
+    }
+   ]
+  }
+ ],
+ "ic_harekat_tamami": [
+  {
+   "t": "1798-07-01",
+   "k": "savas",
+   "b": "Napolyon'un Mısır'ı işgali",
+   "yer_id": "İskenderiye",
+   "konum": true,
+   "ok": "Fransız filosunun Toulon'dan Malta üzerinden İskenderiye'ye yolu (1798)"
+  },
+  {
+   "t": "1361-01-01",
+   "k": "fetih",
+   "b": "Dimetoka'nın alınışı — Meriç vadisinin açılması",
+   "yer_id": "Dimetoka",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1357-01-01",
+   "k": "fetih",
+   "b": "Süleyman Paşa döneminde Trakya ilerleyişi: Malkara, İpsala ve ",
+   "yer_id": "Malkara",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1909-04-13",
+   "k": "isyan",
+   "b": "31 Mart Vakası",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1381-04-01",
+   "k": "fetih",
+   "b": "Timur Herat'ı aldı: Kert hânedanının sonu ve Horasan'ın Timurl",
+   "yer_id": "Herat",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1386-01-01",
+   "k": "fetih",
+   "b": "Timur'un 'üç yıllık sefer'i: Azerbaycan ve Kuzey İran'ın alınm",
+   "yer_id": "Tebriz",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1345-01-01",
+   "k": "fetih",
+   "b": "Karesi Beyliği'nin ilhakı: Balıkesir, Bergama, Biga, Edremit v",
+   "yer_id": "Balıkesir",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1455-06-01",
+   "k": "fetih",
+   "b": "Kosova'nın fethi: Priştine ve Yenipazar'ın alınması",
+   "yer_id": "Priştine",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1466-06-01",
+   "k": "savas",
+   "b": "II. Arnavutluk seferi — Fatih'in İskender Bey üzerine bizzat y",
+   "yer_id": "Akçahisar (Kruja)",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1511-07-02",
+   "k": "isyan",
+   "b": "Şahkulu İsyanı — Teke yöresinden Sivas'a uzanan Kızılbaş ayakl",
+   "yer_id": "Sivas",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1532-08-05",
+   "k": "savas",
+   "b": "Alman Seferi ve Güns (Kőszeg) kuşatması",
+   "yer_id": null,
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1658-08-27",
+   "k": "fetih",
+   "b": "Yanova'nın (Ineu) fethi ve Erdel seferi",
+   "yer_id": "Yanova (Ineu)",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1872-04-01",
+   "k": "fetih",
+   "b": "San'a'nın alınışı: Yemen'de Osmanlı otoritesinin yeniden kurul",
+   "yer_id": "Sana",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1909-04-27",
+   "k": "siyaset",
+   "b": "Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Mehmed Reşad'ın ",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1528-01-01",
+   "k": "fetih",
+   "b": "Kuzey Bosna'nın ilhakı: Yayça ve Banaluka",
+   "yer_id": "Banaluka",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1570-07-23",
+   "k": "fetih",
+   "b": "Kıbrıs çıkarması: Limasol ve Baf'ın alınışı",
+   "yer_id": "Limasol",
+   "konum": true,
+   "ok": "Kıbrıs harekâtı (1570)"
+  },
+  {
+   "t": "1583-09-13",
+   "k": "fetih",
+   "b": "Revan'ın (Erivan) fethi ve kale inşası",
+   "yer_id": "Revan",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1588-09-01",
+   "k": "fetih",
+   "b": "Karabağ ve Gence'nin ilhakı",
+   "yer_id": "Gence",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1798-10-23",
+   "k": "fetih",
+   "b": "Preveze'nin Fransızlardan alınışı — Nikopolis Muharebesi",
+   "yer_id": "Preveze",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1703-07-17",
+   "k": "isyan",
+   "b": "Edirne Vak'ası'nın başlaması",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1808-07-19",
+   "k": "siyaset",
+   "b": "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi",
+   "yer_id": "İstanbul",
+   "konum": true,
+   "ok": "Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü (1808)"
+  },
+  {
+   "t": "1595-08-23",
+   "k": "savas",
+   "b": "Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi",
+   "yer_id": null,
+   "konum": true,
+   "ok": "Koca Sinan Paşa'nın Eflak seferi (1595)"
+  },
+  {
+   "t": "1877-04-24",
+   "k": "savas",
+   "b": "Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
+   "yer_id": null,
+   "konum": true,
+   "ok": "Rus ordusunun Kişinev'den Zimniça'ya ilerleyişi (1877)"
+  },
+  {
+   "t": "1510-12-02",
+   "k": "savas",
+   "b": "Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alı",
+   "yer_id": "Merv (Mari)",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1569-01-01",
+   "k": "fetih",
+   "b": "Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin son",
+   "yer_id": "Tunus",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1520-09-04",
+   "k": "fetih",
+   "b": "Tepeaca'nın zaptı — Cortés'in Hüzünlü Gece'den sonraki ilk fet",
+   "yer_id": "Tepeaca",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1814-01-28",
+   "k": "siyaset",
+   "b": "Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzâr",
+   "yer_id": "Dubrovnik",
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1788-07-01",
+   "k": "savas",
+   "b": "Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a gi",
+   "yer_id": null,
+   "konum": true,
+   "ok": null
+  },
+  {
+   "t": "1736-03-24",
+   "k": "savas",
+   "b": "Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen",
+   "yer_id": "Azak",
+   "konum": true,
+   "ok": "Rus kolunun İzyum'dan Azak'a yürüyüşü (1736)"
+  },
+  {
+   "t": "1792-05-04",
+   "k": "sadrazam",
+   "b": "Melek Mehmed Paşa'nın sadârete tayini — ıslahat kadrosunun kur",
+   "yer_id": null,
+   "konum": false,
+   "ok": null
+  }
+ ],
+ "olay_alani_gosterilemeyen": 94,
+ "yer_id_hic_yok": 94,
+ "yer_id_var_ama_havuzda_yok": 0,
+ "yer_id_var_ama_havuzda_yok_ornek": [],
+ "hedef_maddeler": [
+  {
+   "t": "1807-02-20",
+   "b": "İngiliz donanmasının İstanbul önlerine gelmesi (Duckworth ha",
+   "k": "savas",
+   "yer_id": "İstanbul",
+   "konum_cozuldu": true,
+   "ok": null,
+   "kova": "OLAYLAR_EK5"
+  },
+  {
+   "t": "1807-04-21",
+   "b": "Reşid (Rosetta) bozgunu — İngilizler püskürtüldü",
+   "k": "savas",
+   "yer_id": null,
+   "konum_cozuldu": true,
+   "ok": null,
+   "kova": "OLAYLAR_EK4"
+  },
+  {
+   "t": "1808-07-19",
+   "b": "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi",
+   "k": "siyaset",
+   "yer_id": "İstanbul",
+   "konum_cozuldu": true,
+   "ok": "Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü (1808)",
+   "kova": "OLAYLAR_EK7"
+  }
+ ]
+}
