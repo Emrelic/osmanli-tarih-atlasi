@@ -145239,5 +145239,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4682",
+  "zaman": "2026-09-20 12:21",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM · M-4666 (GLM-4b · SIKI kurtarma kipi) TESLİM · başlangıç 12:04:34 · bitiş 12:20:47 · süre: 16 dk ① ÖLÇTÜM (glm/sahte343.py · JSON: glm/SAHTE-343.json · md: glm/SAHTE-343.md): - Küme: dünkü 343 SAHTE (SAHTE-343-SNAPSHOT-0919.json) × BUGÜNKÜ evren (olaylar + bağlı 51 kuyruk dosyası, amerika_0920 dahil, 6840 madde). - SIKI sınıflar (343): KURTARILABILIR-SIKI 67 · TOPLU-OLAY 6 · YIL-TEMSILI 62 · GERCEK-EKSIK 208. - Aynı küme, GEVŞEK kural + bugünkü evren: 153/1/51/138 (karşıt kolon — kapatan da dahil). - FARK: dünkü 111 KURTARILABILIR'dan SIKI'da 76'sı DÜŞTÜ (35'i SIKI'da da kurtuldu). Düşen listesi md'de tam: tek-taraf-metinde sınıfı (Özbek Han 1320 · Kastilya-Aragon 1479 · Gustav Vasa 1523...). - Ek şart sayaçları (eşleşme adedi): ölçülemedi 343 · >500 km + bölge tutmaz 667. - Kapatan: kurtarma bulunan 67'den kapatan-uygun 1 · kapatan-hariç kurtaranı da olan 66. - SIRAV 1762-11-03 (M-4672 vakası): KURTARILABILIR-SIKI ✓ — kapatan 'Fontainebleau — Luizyana İspanya'ya bırakıldı' · test=başlık ('ispanya'+'ya' sonek toleransı) · ek şart 124 km. - Örnek doğrulama: 1917-03-15 (367 yerleşim) SIKI'da da kurtarıldı — 'II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi' · test=iki-taraf · 191 km. - GERCEK-EKSIK(SIKI) 208 grupları — kıta: Avrupa 55 · Afrika 49 · K.Amerika 26 · Asya 22 · G.Amerika 18 · Okyanusya 13 (+karma 22). Devlet çifti (tarih×çift, ilk): (yok)→ingiltere 24 · (yok)→rusya 12 · (yok)→abd 12 · (yok)→ingiliz-kuzey-amerika 10 · (yok)→fransa-cumhuriyet 8. m: 186/208 'yok' (koloni noktaları bölgesiz). ② BULAMADIM / SAPMA (M-4658 gereği önce): EVREN DEĞİŞTİ — denetle d6fe3f9 (2s YER/TARAF şartı) + olaylar_amerika_0920.js + 12 yeni künye. Tabanın DOGRULAMA'sı bugün: 1418/1418 ✓ · 13/13 ✓ · kapsam dışı 350 ≠ beklenen 353 → TUTAR:False (3 sahte kapanış amerika maddeleriyle gerçekten kapanmış). Bugünkü taban: kapalı 1055 · SAHTE 313 (dün 343) · 712/30/313. Dünkü teslim sayıları SNAPSHOT'larda korunuyor (SAHTE-343-SNAPSHOT-0919 · 2S-YER-TARAMA-SNAPSHOT-0919); glm/2S-YER-TARAMA.json/.md bugünkü evrenle yeniden yazıldı (importlib yan etkisi — koşumdan iki kez geçti, ikisi de aynı sayı). Mankup 1349 kalibrasyonu hâlâ SAHTE ✓. ③ DEĞİŞEN DOSYALAR: glm/sahte343.py (SIKI bölümü eklendi, eski gevşek kolon duruyor) · glm/SAHTE-343.json · glm/SAHTE-343.md · glm/2S-YER-TARAMA.json/.md (yan etki) · glm/_mesaj.txt. Hüküm (SIKI mı gevşek mi, 208'in yazım sevk mi) koordinatörün. Bekçiyi yeniden kurdum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
