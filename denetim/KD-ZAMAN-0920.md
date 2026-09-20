@@ -619,6 +619,83 @@ bekliyor" listesine alınır — sinyal kaybolmaz, ölçü düzelir.
 
 ---
 
+# PARTİ 7 — A SINIFI (143 kayıt, 201 çelişki) · 21 Eylül 2026
+
+## 26. HÜKÜM VE ÖNGÖRÜ
+
+1.MURAT M-4889: *"A sınıfı MEKANİK KAPATILSIN — ama SENİN önerdiğin ara yolla,
+onsuz değil."* C sınıfı bekleyecek (Bursa kümesinden başlayacak).
+
+**Kuru koşu ölçümü** (`py denetim/ARAC-KD-ZAMAN-A-SINIFI-0921.py`, yazmadan):
+- A sınıfı **143 kayıt / 201 çelişki** · C sınıfı 64 kayıt / 71 çelişki · A ∩ C = **0**
+- 143'ün **hiçbirinde `kd:` YOK** ⇒ hepsi düz EKLEME, birleştirme gerekmiyor
+- ilk Osmanlı dönemi **kaynaklı 59** · **KAYNAKSIZ 84** ⇒ ara yol listesine 84 kayıt
+- çapası bulunamayan: 0 (`Birecik` boşluklu `{ad:"…"` yazımıyla yazılmış; araç iki
+  yazımı da tanıyor)
+
+**Sınav anı:** yazımdan sonra `denetle.degismez3z` aynı evrende (3921 kayıt, 6 kesit).
+**ÖNGÖRÜ: 272 → 71 (−201)** · `kd:` taşıyan kayıt **254 → 397** · çelişki üreten ayrı
+yerleşim **207 → 64** · ZAMANSIZ (`m:`) **489'da sabit**.
+Yeni çelişki DOĞAMAZ: yazılan pencerelerin hepsi `m:null` (kd_gun `None` döndürür,
+denetim o kaydı atlar) ve pencereler C çelişkilerinin kesitlerini kapsamıyor
+(tanım gereği `g ≥ ilk Osmanlı başlangıcı`).
+
+## 27. 🔴 ÖNGÖRÜ TUTMADI — ve sebebi yamanın KENDİSİNDE çıktı
+
+**Ölçüm: 272 → 61.** Öngörü 71 demişti; **10 çelişki FAZLADAN** kalktı.
+"İyi haber" sayıp geçmedim, çünkü bu yamanın hükmün ŞARTINI çiğnediği anlamına
+geliyordu. Sebebi yamayı bellekte geri alıp yeniden ölçerek buldum:
+
+**Tek pencere yetmiyor.** `{1281-01-01 → ilk Osmanlı}` yazınca, ilk Osmanlı
+başlangıcından SONRAKİ her gün `kd:` **boşluğuna** düşüyor; `kd_gun` orada
+`(0, None)` döndürüyor ve denetim o kaydı **atlıyor**. Yani kaydın **C sınıfı**
+çelişkileri de sustu. Susanlar (10 çelişki / 7 kayıt — A ile C'de BİRDEN bulunan
+kayıtlar): Cübeyl 2 · Ukayr 2 · Selmâs (Dilman) 2 · Hacıbey (Odessa) 1 ·
+Karistos 1 · Çamlıca (Hidra) 1 · İzdin (Lamia) 1.
+
+📌 **Çıkarım yanlışı neredeydi:** "A ∩ C = 0" diye yazmıştım. Ölçmemiştim —
+143 + 64 = 207 toplamını, BAŞKA BİR KOŞUDAN (parti 6 sonrası, Cetinje'den önce)
+kalma "207 ayrı yerleşim" sayısıyla karşılaştırmıştım. Gerçek kesişim **7 kayıt**.
+İki ayrı koşunun sayısını yan yana koymak (`CLAUDE.md §11`: bayat sayı) bir
+kesişim ölçümünün yerini tutmuyor.
+
+## 28. ONARIM — ikinci pencere
+
+Her A kaydına ikinci pencere eklendi:
+`{ilk Osmanlı başlangıcı → 1923-10-29, k:<kaydın k:si>, m:<kaydın m:si>}`.
+Bu pencere **yeni bilgi taşımaz** — bugünkü `k:`/`m:` değerlerinin aynısıdır,
+yalnız zaman sınırı kazanmıştır. Böylece yama **SADECE fetih öncesi** çelişkiyi
+kaldırır; fetih sonrası sinyal **yerinde durur**.
+
+| Ölçü | taban | tek pencere (hatalı) | iki pencere (onarılmış) | öngörü |
+|---|---|---|---|---|
+| ZAMANLI çelişki | 272 | 61 ❌ | **71** | 71 ✓ |
+| çelişki üreten ayrı yerleşim | 206 | 57 | **64** | 64 ✓ |
+| `kd:` taşıyan kayıt | 254 | 397 | **397** | 397 ✓ |
+| ZAMANSIZ (`m:`) | 489 | 489 | **489** | sabit ✓ |
+
+`py arac/denetle.py` (21 Eylül, onarımdan sonra): **SONUÇ temiz** —
+Değişmez 1 ✓ 299 sahipsiz · Değişmez 2 ✓ 590 kırılma 0 açık.
+
+Araç (`denetim/ARAC-KD-ZAMAN-A-SINIFI-0921.py`) iki pencereli hâle getirildi ve
+niçin öyle olduğu kodun içine yazıldı — aynı tuzağa ikinci kez düşülmesin.
+
+## 29. ARA YOLUN ÇIKTISI — ve aletin kendi tuzağı
+
+`denetim/KD-ZAMAN-EKSEN-BEKLIYOR-0921.md`: ilk Osmanlı döneminin `kaynak:` alanı
+**olmayan 84 kayıt** (kaynaklı olan 59 kayıt da bilgi olarak listenin altında).
+Bu liste, mekanik `kd:` yüzünden susan "bu kaydın `d:` başlangıcı doğru mu?"
+sorusunun **yeni taşıyıcısıdır**.
+
+🔴 **Aletin kendi tuzağı — yaşandı ve düzeltildi:** araç A sınıfını ÇELİŞKİLERDEN
+türetiyor; yama uygulandıktan sonra o çelişkiler yok, dolayısıyla araç ikinci kez
+koşturulunca **84 satırlık listeyi BOŞ olarak üzerine yazdı.** Artık liste
+`denetim/KD-ZAMAN-A-SINIFI-0921.json` **kütüğünden** render ediliyor; ölçüm boş
+çıkarsa kütük korunuyor. *(Ders ailesi: "boş küme her öngörüyü doğrular" —
+burada boş küme bir BELGEYİ SİLDİ.)*
+
+---
+
 🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
 oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
 satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
