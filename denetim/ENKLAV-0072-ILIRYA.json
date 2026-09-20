@@ -68,7 +68,8 @@
       "Simontorna", "Kalocsa", "Kanije", "Peçuy", "Zigetvar", "Mohaç",
       "Baç (Bács)", "Ösek (Osijek)", "Varadin (Petrovaradin)"
     ],
-    "sava_kuzeyi_olcutle": ["Zagreb", "Varasd (Varaždin)"],
+    "sava_kuzeyi_olcutle": ["Zagreb", "Varasd (Varaždin)", "Jasenovaç (Jasenovac)"],
+    "_jasenovac": "Kova (c)'den BURAYA tasindi — LZMK `jasenovac` sol (kuzey) yaka diyor, ayrinti kova_c_olculemedi._jasenovac_KAPANDI. Bu UCUNUN ICINDE tek KAYNAKLI olan odur; Zagreb ve Varazd hala yalnizca olcut + kaynak sessizligiyle duruyor.",
     "_uyari": "Bu 11 kayit PER-YERLESIM kaynak tanikligiyla DEGIL, LZMK Vojna krajina'nin 'juzno od rijeke Save' olcutunun konuma uygulanmasiyla siniflandi. LZMK Zagreb maddesi Napolyon donemine HIC deginmiyor (olculdu)."
   },
 
@@ -119,9 +120,15 @@
 
   "kova_c_olculemedi": {
     "_hukum": "Kaynak bulunamadi — YAZILMAZ, ikinci tarama ister.",
+    "_jasenovac_KAPANDI": {
+      "_": "M-4815 (1) geregi ikinci pas yapildi ve SORU COZULDU — kayit kova (a)'ya tasindi, VERI DEGISMEDI (zaten kesintisiz avusturya yaziyordu, yani DOGRUYDU).",
+      "kaynak": "LZMK `jasenovac` — AYNEN: \"Leži na 94 m apsolutne visine, uz LIJEVU OBALU SAVE, nedaleko od utoka Une u Savu.\"",
+      "hukum": "Sol yaka = Sava'nin KUZEYI. Olcut (LZMK `vojna-krajina`: Ilirya'ya giren Habsburg topraklari Sava'nin GUNEYINDEKILER) tutmuyor ⇒ Jasenovac Habsburg KALDI. Kova (a).",
+      "ikinci_alet_BASARISIZ": "Capraz dogrulama denendi ve AYIRT EDEMEDI, bunu dogrulama saymiyorum: ne_10m_admin_0_countries ile 'bugun hangi ulke' olculdugunde Jasenovac, Sisak, Kostajnica, Gospic ve Zagreb'in BESI DE 'Croatia' cikti — oysa Kostajnica ve Gospic Sava'nin GUNEYINDE. Hirvatistan topraklari Sava'nin cok guneyine uzaniyor (Banovina, Kordun, Lika), yani 'Hirvatistan = kuzey yaka' varsayimim YANLISTI. Hukum TEK BASINA LZMK alintisina dayaniyor.",
+      "ilk_olcumle_tutarli": "Natural Earth 10m merkez hatti Jasenovac'i 0,0 km'de birakmisti — yani TAM kiyida; 10m cozunurluk o yakinlikta yaka ayirt edemez. LZMK cozdu."
+    },
     "kayitlar": [
-      { "ad": "Jasenovaç (Jasenovac)", "sebep": "Sava'nin TAM UZERINDE — Natural Earth 10m'de fark 0,0 km, yaka AYIRT EDILEMIYOR. LZMK maddesi de 1809-13'e deginmiyor. 'olculemedi' — DEGISTIRILMEDI." },
-      { "ad": "Udine", "sebep": "Friuli Ilirya'ya DEGIL Napolyon Italya Kralligi'na gitti; ilirske-pokrajine listesinde Goriska var, Udine YOK. Kendi maddesi taranmadi. Not: yerlesimler_avrupa.js = KUYRUK, 2s evreninde degil." }
+      { "ad": "Udine", "sebep": "Friuli Ilirya'ya DEGIL Napolyon Italya Kralligi'na gitti; ilirske-pokrajine listesinde Goriska var, Udine YOK. Kendi maddesi taranmadi. Not: yerlesimler_avrupa.js = KUYRUK, 2s evreninde degil. M-4815 (c): KAPSAM DISI, ayri kalem." }
     ]
   },
 
@@ -156,7 +163,12 @@
       "olculen": "Ayni deseni (ilk s: 1836-01-01 sammar) tasiyan 4 kayit: Hâil (bayrak YOK, bos:devletsiz) · Nefud çölü (bayrak YOK, ama v:misir-kavalali var, delik DEGIL) · Dûmetülcendel (bayrak VAR, bos:devletsiz) · Teymâ (bayrak VAR, bos:kabile). Bayrakli toplam kayit: 296.",
       "bayragin_islevi": "denetle.py:254 — 'degismez1() kasitli_bosluk alanini HIC OKUMUYOR (tasarim)' ve :264 — 'yeni bir delik kasitli_bosluk TASIMAZ'. Yani bayrak bir KAPI degil, BEYAN; okuyan tek alet arac/bosluk_haritasi.py:117.",
       "HUKUM": "Bayrak Hail'de EKSIK DEGIL — YOKLUGU DOGRU. Hail'in bosluğu kasitli degil, DOLDURULMAMIS: TDV 1820'de emiri adiyla veriyor. Bayragi eklemek gercek bir borcu 'kasitli' diye susturur — denetle.py:264'un tam tersi. Cozum bayrak degil, yukaridaki kunye.",
-      "ayri_kalem": "Dûmetülcendel'in (el-Cevf) bayragi AYRICA sorgulanmali: TDV'de DUMETULCENDEL maddesi VAR (Semmer aramasinda cikti) ve taranmadi. Teymâ'nin bos:'kabile' beyani savunulabilir."
+      "ayri_kalem_DUMETULCENDEL_KAPANDI": {
+        "_": "M-4815 (2) geregi TDV `dumetulcendel` TARANDI. SONUC: bayrak DOGRU, kaldirilmamali. VERI DEGISMEDI.",
+        "olculen": "Madde 1750-1850 araligi icin TARIHLI hicbir hukum vermiyor. Erken Islam tarihinden dogrudan \"Osmanli Devleti'nin son zamanlarinda Dumetulcendel'de otorite Vehhabiler'in eline gecti\" cumlesine atliyor — TARIHSIZ. Semmer Emiri Talal ve Ruvele seyhi Nuri b. Sa'lan icin de yalniz \"bir ara\" diyor, tarih YOK. (Talal'in emirligi zaten 1848-1868, penceremizin DISI.)",
+        "hukum": "Hail ile Dumetulcendel'in ASIMETRISI GERCEK VE DOGRU: Hail'de kaynak 1820'de emiri ADIYLA veriyor ⇒ bosluk kasitli DEGIL, dolduruldu, bayrak YOK. Dumetulcendel'de kaynak tarihli hukum VERMIYOR ⇒ bosluk gercekten kasitli, bayrak YERINDE. Iki kayit ayni desende gorunuyordu ama kaynak durumlari TERS.",
+        "teyma": "Teyma'nin bos:'kabile' beyani ayrica savunulabilir — taranmadi."
+      }
     }
   },
 
