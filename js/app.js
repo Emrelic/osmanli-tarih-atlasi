@@ -1976,14 +1976,16 @@ harita.on("load", function () {
   //   krem bir çizgiyle DOLDURUP deseni yok ederdi.
   Object.keys(HAREKET).forEach(function (tur) {
     var h = HAREKET[tur];
+    // Kenar payı gövdeyle BİRLİKTE inceldi (0073 H-0003): 5 px sabit pay,
+    // 4.5 px'lik bir gövdenin etrafında ondan kalın bir krem şerit bırakıyordu.
     var kenarBoya = { "line-color": "#fdf6e9", "line-opacity": 0.75,
-                      "line-width": h.kalinlik + 5 };
+                      "line-width": h.kalinlik + 2.5 };
     if (h.desen) {
       // Desen birimi ÇİZGİ GENİŞLİĞİ olduğu için kenarın deseni, gövdenin
       // ekran ölçüsüne göre yeniden hesaplanır — yoksa kalın kenarda kesikler
       // uzar ve gövdeyle hizası kayar.
       kenarBoya["line-dasharray"] = h.desen.map(function (d) {
-        return +(d * h.kalinlik / (h.kalinlik + 5)).toFixed(3);
+        return +(d * h.kalinlik / (h.kalinlik + 2.5)).toFixed(3);
       });
     }
     harita.addLayer({
@@ -2021,12 +2023,35 @@ harita.on("load", function () {
   // ÇIKIŞ noktası YOKTU: bir ok nereye vardığını söylüyor, nereden çıktığını
   // söylemiyordu. Aynı kaynağa `nokta:"kaynak"` özellikli Point feature'lar
   // basılıyor; çizgi katmanları Point'i, bu katman LineString'i yok sayar.
+  // 🔴 OK UCU — GEOMETRİK, Emre paket 0073 (H-0001 §3 · H-0003):
+  //   *"okun ucu görünmüyor; okun kaynağı gövdesi ve ucu olmalı"* ·
+  //   *"okun başını daha güzel ok gövdesine oturur şekilde ayarlayalım."*
+  // ÖLÇÜLDÜ: ok başı bugüne kadar YALNIZ bir DOM işaretiydi (maplibregl.Marker
+  // + `.sefer-ok` glifi, CSS'te SABİT 20 px). Yani ne symbol katmanı ne
+  // `line-pattern` — harita katmanı hiç yoktu ve glif gövdeden bağımsız
+  // büyüklükteydi. Gövde 9 px iken glif 20 px "oturuyor" gibi görünüyordu;
+  // gövde 4,5 px'e inince oran iyice bozulacaktı.
+  // ⇒ Ok ucu artık GEOMETRİ: son parçanın yönünden iki kanat çizgisi üretiliyor
+  //   (`seferGuncelle`), gövdeyle AYNI renkte ve kalınlıkta — yani gövdenin
+  //   devamı. Glif (tür göstergesi: ⚓ deniz, ⊗ kuşatma …) kalıyor ama
+  //   küçülüyor ve ucun gerisine kayıyor.
+  harita.addLayer({ id: "sefer-ucu-kenar", type: "line", source: "seferler",
+    filter: ["==", ["coalesce", ["get", "nokta"], ""], "uc"],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#fdf6e9", "line-opacity": 0.75,
+             "line-width": ["+", ["coalesce", ["get", "kalinlik"], 4.5], 2.5] } });
+  harita.addLayer({ id: "sefer-ucu", type: "line", source: "seferler",
+    filter: ["==", ["coalesce", ["get", "nokta"], ""], "uc"],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
+             "line-opacity": 0.95,
+             "line-width": ["coalesce", ["get", "kalinlik"], 4.5] } });
   harita.addLayer({ id: "sefer-kaynak", type: "circle", source: "seferler",
     filter: ["==", ["coalesce", ["get", "nokta"], ""], "kaynak"],
     paint: { "circle-color": ["coalesce", ["get", "renk"], "#2b1006"],
              // yarıçap gövdenin ~0.8 katı (9 px gövde ↔ 7 px yarıçap = 14 px
              // çap): "kalın yuvarlak" gövdeden belirgin biçimde iri olmalı.
-             "circle-radius": ["*", ["coalesce", ["get", "kalinlik"], 9], 0.8],
+             "circle-radius": ["*", ["coalesce", ["get", "kalinlik"], 4.5], 1.15],
              "circle-opacity": 0.95,
              "circle-stroke-width": 1.4, "circle-stroke-color": "#fdf6e9" } });
 
@@ -3569,25 +3594,75 @@ function sehirGuncelle(t) {
   for (var ki = 0; ki < yerlesenSehir.length; ki++) {
     kutular.push(yerlesenSehir[ki].ic.getBoundingClientRect());
   }
+  // ═══════════════════════════════════════════════════════════════════════
+  // 🔴 ETIKET-0073 — ÇAKIŞAN ETİKET ÖNCE AYNALANIR, SONRA ELENİR.
+  // Emre (H-0010, Riyad ↔ Dir'iye): "yazıları üst üste biniyor. Birini sağa
+  // yanaşık birini sola yanaşık yapalım … şehirlerden biri noktanın soluna,
+  // diğeri noktanın sağına yazılacak."
+  //
+  // ÖLÇÜLDÜ (denetim/ETIKET-0073-*): bu bir çift değil bir SINIF — 3921
+  // yerleşimde ≤15 km 153 çift (213 ayrı yerleşim), ≤10 km 69, ≤5 km 16,
+  // ≤3 km 3. Riyad ↔ Dir'iye 10,35 km.
+  //
+  // ⚠️ MapLibre'nin kendi çakışma çözücüsü (`text-variable-anchor` +
+  // `text-radial-offset`) BU KATMANDA YOK VE KULLANILAMAZ: şehir etiketleri
+  // symbol katmanı değil, DOM `maplibregl.Marker`ıdır (ölçüm: `text-anchor`
+  // geçen satır app.js'te 0). Symbol katmanına taşımak `.sehir`in altı CSS
+  // kuralını, emojilerini, fetih rozetini ve tıklama davranışını yeniden
+  // yazmak demek. Üstelik variable-anchor etiketi HER karede başka bir yöne
+  // koyabilir — Emre sabit bir düzen istiyor, kararsız bir düzen değil.
+  // ⇒ Kural DETERMİNİSTİK ve tek ölçütlü: **çiftin BATIDAKİ üyesi sola
+  // yaslanır** (boylam). Boylam her noktada tanımlı, eşitlik pratikte yok,
+  // ve iki etiketi birbirinden EN ÇOK uzaklaştıran yön budur — batıdaki
+  // zaten solda durur, adı da sola giderse aradaki boşluk açılır. Elenen
+  // kademe (`g`) ölçüt olamazdı: yakın çiftlerin çoğu g=0/g=0, yani berabere.
   var tutulan = [];
+  // Kutu kesişimi — tek yerde, çünkü aynalamayı sınamak için iki kez sorulur.
+  function _kesisir(a, b) {
+    return a.left < b.right && a.right > b.left &&
+           a.top < b.bottom && a.bottom > b.top;
+  }
+  function _carpisanIdx(r, liste) {
+    for (var q = 0; q < liste.length; q++) if (_kesisir(r, liste[q].r)) return q;
+    return -1;
+  }
   for (var ci = 0; ci < yerlesenSehir.length; ci++) {
     var r = kutular[ci];
+    var mm = yerlesenSehir[ci];
     // ⚠️ SIFIR KUTU SESSİZ BİR DELİK: `continue` eden işaret ne eleniyor ne de
     // sonrakileri engelliyor. Üç işaretin birden buraya düşmesi, gözlenen
     // tabloyu (dört çiftin dördü de Söğüt/Domaniç/Karacahisar) BİREBİR üretir.
     if (!r || !r.width) continue;   // henüz yerleşmemiş
-    var carpti = false;
-    for (var ti = 0; ti < tutulan.length; ti++) {
-      var o = tutulan[ti];
-      if (r.left < o.right && r.right > o.left &&
-          r.top < o.bottom && r.bottom > o.top) { carpti = true; break; }
-    }
-    if (carpti) {
-      var mm = yerlesenSehir[ci];
-      if (mm.ekli) { mm.mk.remove(); mm.ekli = false; }
+    var ck = _carpisanIdx(r, tutulan);
+    if (ck < 0) { tutulan.push({ r: r, m: mm }); continue; }
+
+    var o = tutulan[ck];
+    var kurtuldu = false;
+    if (mm.s.lon < o.m.s.lon) {
+      // Yeni gelen BATIDA — kural onu sola yaslar.
+      mm.ic.classList.add("sol");
+      var r2 = mm.ic.getBoundingClientRect();
+      if (r2.width && _carpisanIdx(r2, tutulan) < 0) { r = r2; kurtuldu = true; }
+      else mm.ic.classList.remove("sol");
     } else {
-      tutulan.push(r);
+      // Tutulan BATIDA — kural TUTULANI sola yaslar; yeri boşalınca yeni gelen
+      // kendi yerinde kalabilir. Tutulan zaten yerleşmiş olduğu için üç şart
+      // birden aranır: aynalanmış hâli ne öteki tutulanlarla, ne yeni gelenle
+      // çakışmayacak; yeni gelen de öteki tutulanlarla çakışmayacak. Biri bile
+      // tutmazsa aynalama GERİ ALINIR — yarım kurtarma, elemeden kötüdür.
+      o.m.ic.classList.add("sol");
+      var o2 = o.m.ic.getBoundingClientRect();
+      var digerleri = tutulan.slice();
+      digerleri.splice(ck, 1);
+      if (o2.width && _carpisanIdx(o2, digerleri) < 0 && !_kesisir(o2, r) &&
+          _carpisanIdx(r, digerleri) < 0) {
+        o.r = o2; kurtuldu = true;
+      } else {
+        o.m.ic.classList.remove("sol");
+      }
     }
+    if (kurtuldu) tutulan.push({ r: r, m: mm });
+    else if (mm.ekli) { mm.mk.remove(); mm.ekli = false; }
   }
 }
 
@@ -4282,16 +4357,30 @@ function _dsn(desen, eskiKalinlik, yeniKalinlik) {
 // istediği fark tipolojiyi bozmadan doğuyor: düz = kara yürüyüşü, uzun kesik =
 // deniz harekâtı, öteki desenler (çekilme, akın, kuşatma…) kendi anlamlarını
 // korur. Ekran ölçüsü: deniz kesiği ≈ 16 px çizgi / 9 px boşluk (8.5 px gövde).
+// 🔴 KALINLIK YARIYA — Emre, paket 0073 H-0003: *"sefer oklarının gövde
+// kalınlığını yarıya azaltalım."* Eski değerler 7.0–9.0 px idi (0070 H-0006'da
+// 1.6–2.6'dan yükseltilmişti), yenileri 3.5–4.5 px.
+// ⚠️ İKİ EMRE KURALI ÇAKIŞIYOR, BİLDİRİLDİ VE SON İSTEK UYGULANDI:
+//   0070 H-0006 — *"harekat oku taralı bölge gösterimindeki çizgilerden en az
+//                  3 katı kalın olmak zorundadır"* → ince tarama şeridi 2.12 px,
+//                  yani taban 6.36 px.
+//   0073 H-0003 — *"gövde kalınlığını yarıya azaltalım"* → 4.5 px.
+//   4.5 px, 2.12 px'in 2.12 katıdır; ESKİ KURALIN SAYISI ARTIK SAĞLANMIYOR.
+//   O kuralın AMACI (okun taramanın içinde kaybolmaması) ise korunuyor, çünkü
+//   0072'de eklenen AÇIK KREM KENAR okun her zemin üzerinde ayrışmasını
+//   kalınlıktan bağımsız sağlıyor (ölçüm: denetim/OK-0072.md §1.3). Kenar da
+//   aynı oranda inceltildi (+5 px → +2.5 px), yoksa 4.5 px gövdenin etrafında
+//   9.5 px krem bir şerit kalır ve ok "krem bir yol" gibi görünürdü.
 var HAREKET = {
-  sefer:    { glif: "➤", desen: null,                       kalinlik: 9.0, ad: "sefer" },
-  cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 8.0), kalinlik: 8.0, ad: "geri çekilme" },
-  tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 8.0), kalinlik: 8.0, ad: "tahliye" },
-  akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 7.2), kalinlik: 7.2, ad: "akın" },
-  kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 8.5), kalinlik: 8.5, ad: "kuşatma" },
-  deniz:    { glif: "⚓", desen: [1.88, 1.06],               kalinlik: 8.5, ad: "deniz harekâtı" },
-  teslim:   { glif: "⇲", desen: _dsn([2, 3],     2.0, 7.5), kalinlik: 7.5, ad: "teslim / devir" },
-  seyahat:  { glif: "❖", desen: _dsn([1, 3],     1.6, 7.0), kalinlik: 7.0, ad: "seyahat" },
-  isyan:    { glif: "✹", desen: _dsn([0.5, 1.5], 2.0, 7.5), kalinlik: 7.5, ad: "isyan" }
+  sefer:    { glif: "➤", desen: null,                       kalinlik: 4.5, ad: "sefer" },
+  cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 4.0), kalinlik: 4.0, ad: "geri çekilme" },
+  tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 4.0), kalinlik: 4.0, ad: "tahliye" },
+  akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 3.6), kalinlik: 3.6, ad: "akın" },
+  kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 4.25), kalinlik: 4.25, ad: "kuşatma" },
+  deniz:    { glif: "⚓", desen: [3.76, 2.12],               kalinlik: 4.25, ad: "deniz harekâtı" },
+  teslim:   { glif: "⇲", desen: _dsn([2, 3],     2.0, 3.75), kalinlik: 3.75, ad: "teslim / devir" },
+  seyahat:  { glif: "❖", desen: _dsn([1, 3],     1.6, 3.5), kalinlik: 3.5, ad: "seyahat" },
+  isyan:    { glif: "✹", desen: _dsn([0.5, 1.5], 2.0, 3.75), kalinlik: 3.75, ad: "isyan" }
 };
 // Sonuç eksenі: aynı hareket kazançla da bozgunla da bitebilir.
 var SONUC_ROZET = { zafer: "▲", yenilgi: "▼", belirsiz: "" };
@@ -4440,6 +4529,13 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
   var ic = document.createElement("div");
   ic.className = "sefer-ok tur-" + (s.tur || "sefer");
   ic.textContent = h.glif;
+  // 🔴 GLİF ARTIK GÖVDEYLE ORANTILI — Emre, 0073 H-0003: *"okun başını daha
+  // güzel ok gövdesine oturur şekilde güzelce ayarlayalım."* CSS'teki sabit
+  // 20 px (tür başına 14–20) gövde 9 px iken bile iriydi; 4,5 px'e inince
+  // orantısız kalırdı. Boyut tek kaynaktan (HAREKET.kalinlik) türüyor ve inline
+  // stil CSS sabitini eziyor. Ok ucunun KENDİSİ artık geometrik kanatlar
+  // (`sefer-ucu` katmanı); glif yalnız TÜRÜ söyleyen küçük bir işaret.
+  ic.style.fontSize = Math.round(h.kalinlik * 2.2) + "px";
   el.appendChild(ic);
   // Sonuç rozeti ok başının yanına, DÖNMEDEN konur — döndürülürse ▲/▼ anlamını
   // kaybeder. Nötr sonuçta hiç eklenmez ki kalabalık yapmasın.
@@ -4553,6 +4649,66 @@ function _seferRengiCoz(m) {
   return (typeof koyuTon === "function") ? koyuTon(taban, 0.35) : taban;
 }
 
+// 🔴 KAVİS — Emre, paket 0073 H-0001: *"bu oklar bu kadar uzun olacak ise hafif
+// kavisli olabilir."* Uzun düz hatlar (Rusçuk→Edirne, Kahire→Yenbu gibi iki
+// noktalı kayıtlar) haritada cetvel çizgisi gibi duruyordu.
+// YÖNTEM: her UZUN parça (>200 km) üç noktaya bölünür ve orta nokta hattın
+// dikine, uzunluğun %6'sı kadar kaydırılır (quadratic bezier örneklemesi).
+// ⚠️ VERİ DEĞİŞMİYOR — kavis yalnız ÇİZİMDE. Kaydın `yol`u kaynakta ne diyorsa
+//    odur; kavis bir görselleştirme, bir iddia değil. Bu yüzden kısa parçalara
+//    (<200 km, yani şehirden şehre gerçek istasyonlu hatlara) DOKUNULMAZ:
+//    oralarda yol zaten kaynağın verdiği noktalardan geçiyor ve eğriltmek
+//    güzergâhı SAPTIRIR.
+// 📌 Kaydırma yönü hep AYNI taraf (hattın soluna): rastgele seçilseydi aynı ok
+//    her yeniden çizimde başka türlü kıvrılır, kullanıcı hareketi sanırdı.
+var _KAVIS_ESIK_KM = 200, _KAVIS_ORAN = 0.06, _KAVIS_ADIM = 12;
+function seferKavisliYol(yol) {
+  if (!yol || yol.length < 2) return yol;
+  var out = [yol[0]];
+  for (var i = 1; i < yol.length; i++) {
+    var a = yol[i - 1], b = yol[i];
+    var km = kmArasi(a[1], a[0], b[1], b[0]);
+    if (km <= _KAVIS_ESIK_KM) { out.push(b); continue; }
+    // orta nokta, hattın dikine kaydırılmış (enlem düzeltmeli)
+    var ox = (a[0] + b[0]) / 2, oy = (a[1] + b[1]) / 2;
+    var dx = (b[0] - a[0]) * Math.cos(oy * Math.PI / 180), dy = b[1] - a[1];
+    var boy = Math.sqrt(dx * dx + dy * dy) || 1e-9;
+    var sap = boy * _KAVIS_ORAN;
+    var kx = ox + (-dy / boy) * sap / Math.max(0.2, Math.cos(oy * Math.PI / 180));
+    var ky = oy + (dx / boy) * sap;
+    for (var t = 1; t <= _KAVIS_ADIM; t++) {
+      var u = t / _KAVIS_ADIM, v = 1 - u;
+      out.push([v * v * a[0] + 2 * v * u * kx + u * u * b[0],
+                v * v * a[1] + 2 * v * u * ky + u * u * b[1]]);
+    }
+  }
+  return out;
+}
+window.seferKavisliYol = seferKavisliYol;
+
+// 🔴 OK UCU GEOMETRİSİ — H-0001 §3. Son parçanın yönünden iki kanat üretir;
+// kanat boyu okun KENDİ uzunluğunun oranıdır (zoom'dan bağımsız görsel oran) ve
+// uçlarda sınırlanır, yoksa kısa oklarda kanat okun kendisinden uzun olurdu.
+function _okUcuKanatlari(yol) {
+  if (!yol || yol.length < 2) return null;
+  var son = yol[yol.length - 1], onceki = yol[yol.length - 2];
+  var toplam = 0;
+  for (var i = 1; i < yol.length; i++) toplam += kmArasi(yol[i - 1][1], yol[i - 1][0], yol[i][1], yol[i][0]);
+  var boyKm = Math.max(18, Math.min(130, toplam * 0.06));
+  var enlemD = Math.cos(son[1] * Math.PI / 180) || 1e-6;
+  var dx = (son[0] - onceki[0]) * enlemD, dy = son[1] - onceki[1];
+  var n = Math.sqrt(dx * dx + dy * dy) || 1e-9;
+  dx /= n; dy /= n;
+  var derece = boyKm / 111.0;                       // km → derece (kabaca)
+  function kanat(aci) {
+    var c = Math.cos(aci), s = Math.sin(aci);
+    // geriye doğru döndürülmüş birim vektör
+    var gx = -(dx * c - dy * s), gy = -(dx * s + dy * c);
+    return [son, [son[0] + gx * derece / enlemD, son[1] + gy * derece]];
+  }
+  return [kanat(0.52), kanat(-0.52)];               // ±30°
+}
+
 // "ok" animasyon fazı sürerken o ok'un DURAĞAN çizimi gizlenir; yoksa ilerleyen
 // ok ile tam boy ok üst üste düşer. Sözleşme js/sefer_ok.js ile paylaşılıyor
 // (ELE-GECIRME-ANIM-0070 · M-4703: faz "ok" bende, sıralayıcı onda).
@@ -4586,6 +4742,8 @@ function _seferKatmanSirasi() {
     // kalsınlar (H-0010 casing'i, yukarıdaki kurulum notu).
     var tasi = Object.keys(HAREKET).map(function (t) { return "sefer-kenar-" + t; })
       .concat(Object.keys(HAREKET).map(function (t) { return "sefer-cizgi-" + t; }));
+    tasi.push("sefer-ucu-kenar");
+    tasi.push("sefer-ucu");
     tasi.push("sefer-kaynak");
     tasi.forEach(function (id) {
       if (!harita.getLayer(id)) return;
@@ -4725,8 +4883,18 @@ function seferGuncelle(t) {
         return;
       }
       _cizilenler.push(m);
+      // Kavisli hat bir kez hesaplanıp kayda iliştiriliyor (her güncellemede
+      // yeniden eğri örneklemek kare başına iş olurdu — §2 motor kuralı).
+      if (!m._kavisli) m._kavisli = seferKavisliYol(m.yol);
       cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
-                      geometry: { type: "LineString", coordinates: m.yol } });
+                      geometry: { type: "LineString", coordinates: m._kavisli } });
+      // 🔴 OK UCU (H-0001 §3): gövdenin devamı olan iki kanat. Kavisli hattın
+      // SON parçasından türüyor ki ucun yönü gövdeyle aynı olsun.
+      if (!m._ucu) m._ucu = _okUcuKanatlari(m._kavisli);
+      if (m._ucu) cizgiler.push({ type: "Feature",
+                      properties: { renk: m.renk, tur: m.tur, nokta: "uc",
+                                    kalinlik: (HAREKET[m.tur] || HAREKET.sefer).kalinlik },
+                      geometry: { type: "MultiLineString", coordinates: m._ucu } });
       // 🔴 ORDUNUN ÇIKIŞ NOKTASI (H-0006: "yuvarlak kalın bir nokta") — okun
       // yol[0]'ı. Ayrı kaynak açılmadı: çizgi katmanları Point'i, `sefer-kaynak`
       // katmanı LineString'i yok sayar.
@@ -9830,6 +9998,32 @@ function _ekEtiketiBol(et) {
   if (i < 0) return { simge: s, ad: s };
   return { simge: s.slice(0, i), ad: s.slice(i + 1).trim() };
 }
+// 🆕 20 Eylül 2026 — EKO-UI-0073 (paket 0073/H-0002, Emre): *"ek okuma
+// satırlarının başlıklarının olduğu satırların sol üst köşesine, simgenin
+// üstündeki bölgeye küçük puntolarla ilgili maddenin kategorisini yazalım …
+// küçük puntolarla ama BÜYÜK CAPS harfler ile … ikinci bir satır şeklinde
+// görünmesin … satır yüksekliğini fazla büyütmek zorunda kalmayalım."*
+// ⇒ Simge artık bir KOLONUN alt katı; üst katı bu yazı. Satır yüksekliğinin
+// karşılığı düşey iç boşluktan ve simge puntosundan alınıyor (css/style.css).
+//
+// 🔴 İKİNCİ KAYNAK AÇILMADI (yukarıdaki D045 notunun aynısı): yazı,
+// EKOKUMA_TUR / AKORDEON_EK_TUR etiketinin AD yarısından (`_ekEtiketiBol`)
+// türetilir — yeni bir tür eklenince kendiliğinden etiketiyle çıkar.
+// `_EK_UST_KISA` kategori ADI değil, o adın SATIRDAKİ kısaltmasıdır: yalnız
+// kolona sığmayan üç etiket için (ölçüm: 7px'te kolon 60px, "Antlaşma
+// hükümleri" 18 karakter). Kısaltmalar Emre'nin kendi yazdığı adlardır.
+//
+// 🔴 TÜRKÇE BÜYÜK HARF — CLAUDE.md D215: `"Nasıl bilirdiniz".toUpperCase()`
+// "NASIL BILIRDINIZ" verir (noktasız I). `toLocaleUpperCase("tr")` doğrusunu
+// ("NASIL BİLİRDİNİZ") verir; CSS `text-transform` bu ayrımı yapmaz.
+var _EK_UST_KISA = {
+  "antlasma":        "ANTLAŞMA",         // etiket: "Antlaşma hükümleri" (18)
+  "savas-hikayesi":  "SAVAŞ HİKÂYESİ",   // etiket: "Savaşın Hikâyesi" (16)
+  "teknik-bilimsel": "TEKNİK BİLİMSEL"   // etiket: "Teknik / Bilimsel" (17); Emre'nin yazdığı ad
+};
+function _ekKategoriUstYazi(tur, ad) {
+  return _EK_UST_KISA[tur] || String(ad == null ? tur : ad).toLocaleUpperCase("tr");
+}
 var _ekAkordeonAcik = -1;              // -1 = ana açıklama açık
 function ekAkordeonKur(kutu, satirlar) {
   var detay = document.getElementById("ob-detay");
@@ -9865,13 +10059,27 @@ function ekAkordeonKur(kutu, satirlar) {
     // okuma"), kartvizit/kişi satırlarında yalnız adı — o satırlar ek okuma
     // KARTI değil (AKORDEON_EK_TUR), "künye ek okuma" yanlış olurdu.
     var turAdi = bol.ad + (EKOKUMA_TUR[s.tur] ? " ek okuma" : "");
+    // EKO-UI-0073 (0073/H-0002): sol başta iki katlı KOLON — üstte kategori
+    // (küçük punto, BÜYÜK harf), altta simge. Satırın yazı alanı yine
+    // tamamen maddenin başlığına kalıyor.
+    var kol = document.createElement("span");
+    kol.className = "ek-ak-kol";
+    var ustYazi = _ekKategoriUstYazi(s.tur, bol.ad);
+    var e0 = document.createElement("span");
+    // Uzun etiket kolona 7px'te sığmıyor; tek kademe küçülür (bkz. css).
+    e0.className = "ek-ak-ustyazi" + (ustYazi.length > 11 ? " uzun" : "");
+    e0.textContent = ustYazi;
+    // Aynı ad simgenin `aria-label`ında zaten var — ekran okuyucu iki kez okumasın.
+    e0.setAttribute("aria-hidden", "true");
+    kol.appendChild(e0);
     var e1 = document.createElement("span");
     e1.className = "ek-ak-simge";
     e1.textContent = bol.simge;
     e1.title = turAdi;                        // yerli ipucu (gecikmeli, yedek)
     e1.setAttribute("data-ipucu", turAdi);    // CSS ipucu (anında) — css/style.css
     e1.setAttribute("aria-label", turAdi);    // simge tek başına okunmaz
-    btn.appendChild(e1);
+    kol.appendChild(e1);
+    btn.appendChild(kol);
     // 🔴 BAŞLIKSIZ KART SİMGEYLE YALNIZ KALMAZ. Ölçüm (20 Eylül 2026, bu
     // oturum): havuzdaki 554 kartın 197'sinde `soru`/`baslik`/`ad` YOK;
     // 168'ini `EKOBASLIK_ONERI` kurtarıyor, 29'unda o da yok. Eski satırda

@@ -183,7 +183,12 @@
     if (!katmanKur()) return false;
     if (etkin) bitir(null);                    // önceki sahne yarıda kaldıysa kapat
 
-    var k = kumulatif(m.yol);
+    // 🔴 KAVİSLİ HAT — 0073 H-0001. Durağan çizim `seferKavisliYol()` ile
+    // eğriltilmiş hattı gösteriyor; animasyon düz hattı izleseydi ok, kendi
+    // gövdesinin dışından yürürdü. Aynı fonksiyon, tek kaynak (app.js).
+    var yol = (typeof seferKavisliYol === "function")
+      ? (m._kavisli || (m._kavisli = seferKavisliYol(m.yol))) : m.yol;
+    var k = kumulatif(yol);
     var sr = sure(k.top);
     var kal = (window.HAREKET && HAREKET[m.tur] ? HAREKET[m.tur] : { kalinlik: 9 }).kalinlik;
     SEFER_ANIM_GIZLI[m.id] = true;
@@ -196,8 +201,9 @@
     ic.textContent = (window.HAREKET && HAREKET[m.tur] ? HAREKET[m.tur] : HAREKET.sefer).glif;
     ic.style.color = m.renk;
     el.appendChild(ic);
+    ic.style.fontSize = Math.round(kal * 2.2) + "px";   // 0073 H-0003: glif gövdeyle orantılı
     var mk = new maplibregl.Marker({ element: el, anchor: "center", rotation: 0 })
-               .setLngLat(m.yol[0]).addTo(harita);
+               .setLngLat(yol[0]).addTo(harita);
 
     etkin = { id: m.id, mk: mk };
     var bas = (window.performance && performance.now) ? performance.now() : Date.now();
@@ -208,7 +214,7 @@
       var p = Math.max(0, Math.min(1, gecen / sr));
       // yumuşak giriş-çıkış: ordu ne bir anda fırlar ne de sona sert çarpar
       var e = p < 0.5 ? 2 * p * p : -1 + (4 - 2 * p) * p;
-      var ky = kismiYol(m.yol, k, e);
+      var ky = kismiYol(yol, k, e);
       ciz(ky, m.renk, kal);
       var son = ky[ky.length - 1], onceki = ky[ky.length - 2] || ky[0];
       mk.setLngLat(son);
