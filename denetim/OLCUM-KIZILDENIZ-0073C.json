@@ -1,0 +1,1024 @@
+{
+ "gun": "1822-10-24",
+ "kutu": {
+  "lat0": 12.2,
+  "lat1": 14.94,
+  "lon0": 40.3,
+  "lon1": 41.98
+ },
+ "izgara_nokta": 126,
+ "motor_kara_icinde": 76,
+ "motor_kara_disinda": 50,
+ "en_yakin_200km_ustu": 0,
+ "azami_km": 188.6,
+ "ornekler": [
+  {
+   "lat": 12.2,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 85.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.2,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 106.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.2,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 106.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.2,
+   "lon": 40.9,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 91.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.2,
+   "lon": 41.1,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 79.5,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.2,
+   "lon": 41.3,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 72.0,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.2,
+   "lon": 41.5,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 70.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.2,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 75.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.2,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 86.4,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 81.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.4,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 103.2,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.4,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 122.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 40.9,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 109.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 41.1,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 99.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 41.3,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 93.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 41.5,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 92.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 96.8,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.4,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 105.3,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.6,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 83.8,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.6,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 105.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.6,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 126.4,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.6,
+   "lon": 40.9,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 129.0,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.6,
+   "lon": 41.1,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 120.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.6,
+   "lon": 41.3,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 115.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.6,
+   "lon": 41.5,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 115.0,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.6,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 118.3,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.6,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 101.3,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.8,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 91.7,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.8,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 111.4,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.8,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 131.7,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 12.8,
+   "lon": 40.9,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 149.1,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.8,
+   "lon": 41.1,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 142.0,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.8,
+   "lon": 41.3,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 137.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.8,
+   "lon": 41.5,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 135.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.8,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 114.6,
+   "sahip": "adal"
+  },
+  {
+   "lat": 12.8,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 93.4,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.0,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 103.8,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.0,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Alamata",
+   "km": 121.6,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.0,
+   "lon": 40.7,
+   "motor_kara": false,
+   "en_yakin": "Alamata",
+   "km": 140.4,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.0,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Alamata",
+   "km": 160.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.0,
+   "lon": 41.1,
+   "motor_kara": true,
+   "en_yakin": "Asâyita (Avsa)",
+   "km": 163.6,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.0,
+   "lon": 41.3,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 155.5,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.0,
+   "lon": 41.5,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 133.8,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.0,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 112.1,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.0,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 90.5,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.2,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Mekelle",
+   "km": 95.2,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.2,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Mekelle",
+   "km": 115.7,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.2,
+   "lon": 40.7,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 135.8,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.2,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 155.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.2,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 175.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.2,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 156.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.2,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 135.4,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.2,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 114.1,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.2,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 92.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.4,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 87.2,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.4,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 106.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.4,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 126.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.4,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 147.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.4,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 167.8,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.4,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 161.3,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.4,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 140.6,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.4,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 120.2,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.4,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 100.3,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.6,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 78.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.6,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 99.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.6,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 120.7,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.6,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 142.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.6,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 163.4,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.6,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 168.6,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.6,
+   "lon": 41.5,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 148.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.6,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 129.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.6,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 111.7,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.8,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 75.6,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.8,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 97.2,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.8,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 118.8,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.8,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 140.4,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.8,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 162.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 13.8,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 178.4,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.8,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 159.9,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.8,
+   "lon": 41.7,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 142.4,
+   "sahip": "adal"
+  },
+  {
+   "lat": 13.8,
+   "lon": 41.9,
+   "motor_kara": true,
+   "en_yakin": "Aseb",
+   "km": 126.1,
+   "sahip": "adal"
+  },
+  {
+   "lat": 14.0,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 79.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.0,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 99.9,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.0,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 121.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.0,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 142.3,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.0,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 163.6,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.0,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 185.0,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.0,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 173.1,
+   "sahip": "adal"
+  },
+  {
+   "lat": 14.0,
+   "lon": 41.7,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 157.1,
+   "sahip": "adal"
+  },
+  {
+   "lat": 14.0,
+   "lon": 41.9,
+   "motor_kara": false,
+   "en_yakin": "Aseb",
+   "km": 142.5,
+   "sahip": "adal"
+  },
+  {
+   "lat": 14.2,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 88.2,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.2,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Vukro",
+   "km": 107.3,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.2,
+   "lon": 40.7,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 127.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.2,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 147.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.2,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 168.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.2,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 188.6,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.2,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Hudeyde",
+   "km": 170.1,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.2,
+   "lon": 41.7,
+   "motor_kara": false,
+   "en_yakin": "Hudeyde",
+   "km": 150.5,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.2,
+   "lon": 41.9,
+   "motor_kara": false,
+   "en_yakin": "Hudeyde",
+   "km": 131.5,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.4,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Adigrat",
+   "km": 91.3,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.4,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Adigrat",
+   "km": 112.7,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.4,
+   "lon": 40.7,
+   "motor_kara": false,
+   "en_yakin": "Adigrat",
+   "km": 134.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.4,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Adigrat",
+   "km": 155.5,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.4,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Vukro",
+   "km": 175.4,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.4,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 174.2,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.4,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 157.7,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.4,
+   "lon": 41.7,
+   "motor_kara": false,
+   "en_yakin": "Hudeyde",
+   "km": 142.0,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.4,
+   "lon": 41.9,
+   "motor_kara": false,
+   "en_yakin": "Hudeyde",
+   "km": 121.7,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.6,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Adigrat",
+   "km": 97.1,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.6,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Zula",
+   "km": 114.7,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.6,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Zula",
+   "km": 131.6,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.6,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Dahlak",
+   "km": 146.4,
+   "sahip": "OSMANLI"
+  },
+  {
+   "lat": 14.6,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Dahlak",
+   "km": 159.4,
+   "sahip": "OSMANLI"
+  },
+  {
+   "lat": 14.6,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 161.6,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.6,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 143.7,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.6,
+   "lon": 41.7,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 126.8,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.6,
+   "lon": 41.9,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 111.6,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.8,
+   "lon": 40.3,
+   "motor_kara": true,
+   "en_yakin": "Zula",
+   "km": 83.9,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.8,
+   "lon": 40.5,
+   "motor_kara": true,
+   "en_yakin": "Zula",
+   "km": 101.3,
+   "sahip": "habesistan"
+  },
+  {
+   "lat": 14.8,
+   "lon": 40.7,
+   "motor_kara": true,
+   "en_yakin": "Dahlak",
+   "km": 116.1,
+   "sahip": "OSMANLI"
+  },
+  {
+   "lat": 14.8,
+   "lon": 40.9,
+   "motor_kara": false,
+   "en_yakin": "Dahlak",
+   "km": 128.5,
+   "sahip": "OSMANLI"
+  },
+  {
+   "lat": 14.8,
+   "lon": 41.1,
+   "motor_kara": false,
+   "en_yakin": "Dahlak",
+   "km": 143.1,
+   "sahip": "OSMANLI"
+  },
+  {
+   "lat": 14.8,
+   "lon": 41.3,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 151.2,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.8,
+   "lon": 41.5,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 131.9,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.8,
+   "lon": 41.7,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 113.4,
+   "sahip": "yemen"
+  },
+  {
+   "lat": 14.8,
+   "lon": 41.9,
+   "motor_kara": false,
+   "en_yakin": "Kemeran (Kamaran)",
+   "km": 96.0,
+   "sahip": "yemen"
+  }
+ ]
+}

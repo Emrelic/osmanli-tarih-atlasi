@@ -1,0 +1,820 @@
+{
+ "gun": "1822-10-24",
+ "evren_nokta": 3921,
+ "kutular": {
+  "K1_masavva_dahlak": {
+   "kutu": {
+    "lat0": 13.8,
+    "lat1": 17.75,
+    "lon0": 37.95,
+    "lon1": 42.14
+   },
+   "nokta_sayisi": 16,
+   "sahipsiz_sayisi": 0,
+   "hic_penceresi_yok": 0,
+   "bosluk_sinifi": "bosluk_yok",
+   "kayitlar": [
+    {
+     "ad": "Adi Kayh",
+     "lat": 14.845,
+     "lon": 39.377,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Adi Kuala",
+     "lat": 14.68,
+     "lon": 38.83,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Adigrat",
+     "lat": 14.277,
+     "lon": 39.462,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 1,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Adua",
+     "lat": 14.17,
+     "lon": 38.898,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 1,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Aksum",
+     "lat": 14.128,
+     "lon": 38.723,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 1,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Arkîko",
+     "lat": 15.548,
+     "lon": 39.449,
+     "sahip": "OSMANLI",
+     "alan": "d",
+     "pencere_sayisi": 4,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "memluk",
+       "f": "1281-01-01",
+       "t": "1517-04-13"
+      },
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1517-04-13",
+       "t": "1557-01-01"
+      },
+      {
+       "alan": "d",
+       "kimlik": "OSMANLI",
+       "f": "1557-01-01",
+       "t": "1885-02-05"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1885-02-05",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Asmara",
+     "lat": 15.339,
+     "lon": 38.932,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Dahlak",
+     "lat": 15.692,
+     "lon": 40.138,
+     "sahip": "OSMANLI",
+     "alan": "d",
+     "pencere_sayisi": 5,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "memluk",
+       "f": "1281-01-01",
+       "t": "1517-04-13"
+      },
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1517-04-13",
+       "t": "1557-01-01"
+      },
+      {
+       "alan": "d",
+       "kimlik": "OSMANLI",
+       "f": "1557-01-01",
+       "t": "1865-01-01"
+      },
+      {
+       "alan": "v",
+       "kimlik": "misir-kavalali",
+       "f": "1865-01-01",
+       "t": "1885-02-05"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1885-02-05",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Debârve",
+     "lat": 15.1,
+     "lon": 38.833,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Ferasan (Farasan)",
+     "lat": 16.73,
+     "lon": 42.009,
+     "sahip": "yemen",
+     "alan": "s",
+     "pencere_sayisi": 5,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "yemen",
+       "f": "1281-01-01",
+       "t": "1538-08-03"
+      },
+      {
+       "alan": "d",
+       "kimlik": "OSMANLI",
+       "f": "1538-08-03",
+       "t": "1635-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "yemen",
+       "f": "1635-01-01",
+       "t": "1849-05-01"
+      },
+      {
+       "alan": "d",
+       "kimlik": "OSMANLI",
+       "f": "1849-05-01",
+       "t": "1918-10-30"
+      },
+      {
+       "alan": "s",
+       "kimlik": "yemen",
+       "f": "1918-10-30",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Kerene",
+     "lat": 15.778,
+     "lon": 38.451,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 4,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1872-01-01"
+      },
+      {
+       "alan": "v",
+       "kimlik": "misir-kavalali",
+       "f": "1872-01-01",
+       "t": "1884-06-03"
+      },
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1884-06-03",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Masavva",
+     "lat": 15.6117,
+     "lon": 39.4723,
+     "sahip": "OSMANLI",
+     "alan": "d",
+     "pencere_sayisi": 5,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "memluk",
+       "f": "1281-01-01",
+       "t": "1517-04-13"
+      },
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1517-04-13",
+       "t": "1557-01-01"
+      },
+      {
+       "alan": "d",
+       "kimlik": "OSMANLI",
+       "f": "1557-01-01",
+       "t": "1865-01-01"
+      },
+      {
+       "alan": "v",
+       "kimlik": "misir-kavalali",
+       "f": "1865-01-01",
+       "t": "1885-02-05"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1885-02-05",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Nakfa",
+     "lat": 16.667,
+     "lon": 38.475,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Zula",
+     "lat": 15.283,
+     "lon": 39.7,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Ğındâ",
+     "lat": 15.5,
+     "lon": 39.0,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1889-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "italya",
+       "f": "1889-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Şire",
+     "lat": 14.103,
+     "lon": 38.283,
+     "sahip": "habesistan",
+     "alan": "s",
+     "pencere_sayisi": 1,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "habesistan",
+       "f": "1281-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    }
+   ]
+  },
+  "K2_afar_bosluk": {
+   "kutu": {
+    "lat0": 12.2,
+    "lat1": 14.94,
+    "lon0": 40.3,
+    "lon1": 41.98
+   },
+   "nokta_sayisi": 0,
+   "sahipsiz_sayisi": 0,
+   "hic_penceresi_yok": 0,
+   "bosluk_sinifi": "b_nokta_boslugu",
+   "kayitlar": []
+  },
+  "K3_zeyla": {
+   "kutu": {
+    "lat0": 9.77,
+    "lat1": 12.05,
+    "lon0": 42.11,
+    "lon1": 44.55
+   },
+   "nokta_sayisi": 8,
+   "sahipsiz_sayisi": 1,
+   "hic_penceresi_yok": 0,
+   "bosluk_sinifi": "a_veri_boslugu",
+   "kayitlar": [
+    {
+     "ad": "Cibûtî",
+     "lat": 11.588,
+     "lon": 43.145,
+     "sahip": null,
+     "alan": null,
+     "pencere_sayisi": 1,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "fransa-cumhuriyet",
+       "f": "1888-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Alî Sabîh",
+     "lat": 11.156,
+     "lon": 42.712,
+     "sahip": "adal",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1884-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "fransa-cumhuriyet",
+       "f": "1884-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Borama",
+     "lat": 9.936,
+     "lon": 43.183,
+     "sahip": "somali",
+     "alan": "s",
+     "pencere_sayisi": 3,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1577-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "somali",
+       "f": "1577-01-01",
+       "t": "1884-07-18"
+      },
+      {
+       "alan": "s",
+       "kimlik": "ingiltere",
+       "f": "1884-07-18",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Bulhar",
+     "lat": 10.401,
+     "lon": 44.458,
+     "sahip": "somali",
+     "alan": "s",
+     "pencere_sayisi": 3,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1577-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "somali",
+       "f": "1577-01-01",
+       "t": "1884-07-18"
+      },
+      {
+       "alan": "s",
+       "kimlik": "ingiltere",
+       "f": "1884-07-18",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Dikhil",
+     "lat": 11.104,
+     "lon": 42.37,
+     "sahip": "adal",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1884-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "fransa-cumhuriyet",
+       "f": "1884-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Obok",
+     "lat": 11.993,
+     "lon": 43.278,
+     "sahip": "adal",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1884-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "fransa-cumhuriyet",
+       "f": "1884-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Tacûra",
+     "lat": 11.788,
+     "lon": 42.882,
+     "sahip": "adal",
+     "alan": "s",
+     "pencere_sayisi": 2,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1884-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "fransa-cumhuriyet",
+       "f": "1884-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    },
+    {
+     "ad": "Zeyla",
+     "lat": 11.355,
+     "lon": 43.473,
+     "sahip": "OSMANLI",
+     "alan": "d",
+     "pencere_sayisi": 3,
+     "pencereler": [
+      {
+       "alan": "s",
+       "kimlik": "adal",
+       "f": "1281-01-01",
+       "t": "1559-01-01"
+      },
+      {
+       "alan": "d",
+       "kimlik": "OSMANLI",
+       "f": "1559-01-01",
+       "t": "1884-01-01"
+      },
+      {
+       "alan": "s",
+       "kimlik": "ingiltere",
+       "f": "1884-01-01",
+       "t": "1923-10-29"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "ad_taramasi": [
+  {
+   "ad": "Sevâkin",
+   "lat": 19.106,
+   "lon": 37.332,
+   "sahip": "OSMANLI",
+   "alan": "d",
+   "pencereler": [
+    {
+     "alan": "s",
+     "kimlik": "memluk",
+     "f": "1281-01-01",
+     "t": "1517-04-13"
+    },
+    {
+     "alan": "s",
+     "kimlik": "habesistan",
+     "f": "1517-04-13",
+     "t": "1557-01-01"
+    },
+    {
+     "alan": "d",
+     "kimlik": "OSMANLI",
+     "f": "1557-01-01",
+     "t": "1865-01-01"
+    },
+    {
+     "alan": "v",
+     "kimlik": "misir-kavalali",
+     "f": "1865-01-01",
+     "t": "1884-02-01"
+    },
+    {
+     "alan": "s",
+     "kimlik": "ingiltere",
+     "f": "1884-02-01",
+     "t": "1923-10-29"
+    }
+   ]
+  },
+  {
+   "ad": "Masavva",
+   "lat": 15.6117,
+   "lon": 39.4723,
+   "sahip": "OSMANLI",
+   "alan": "d",
+   "pencereler": [
+    {
+     "alan": "s",
+     "kimlik": "memluk",
+     "f": "1281-01-01",
+     "t": "1517-04-13"
+    },
+    {
+     "alan": "s",
+     "kimlik": "habesistan",
+     "f": "1517-04-13",
+     "t": "1557-01-01"
+    },
+    {
+     "alan": "d",
+     "kimlik": "OSMANLI",
+     "f": "1557-01-01",
+     "t": "1865-01-01"
+    },
+    {
+     "alan": "v",
+     "kimlik": "misir-kavalali",
+     "f": "1865-01-01",
+     "t": "1885-02-05"
+    },
+    {
+     "alan": "s",
+     "kimlik": "italya",
+     "f": "1885-02-05",
+     "t": "1923-10-29"
+    }
+   ]
+  },
+  {
+   "ad": "Zeyla",
+   "lat": 11.355,
+   "lon": 43.473,
+   "sahip": "OSMANLI",
+   "alan": "d",
+   "pencereler": [
+    {
+     "alan": "s",
+     "kimlik": "adal",
+     "f": "1281-01-01",
+     "t": "1559-01-01"
+    },
+    {
+     "alan": "d",
+     "kimlik": "OSMANLI",
+     "f": "1559-01-01",
+     "t": "1884-01-01"
+    },
+    {
+     "alan": "s",
+     "kimlik": "ingiltere",
+     "f": "1884-01-01",
+     "t": "1923-10-29"
+    }
+   ]
+  },
+  {
+   "ad": "Dahlak",
+   "lat": 15.692,
+   "lon": 40.138,
+   "sahip": "OSMANLI",
+   "alan": "d",
+   "pencereler": [
+    {
+     "alan": "s",
+     "kimlik": "memluk",
+     "f": "1281-01-01",
+     "t": "1517-04-13"
+    },
+    {
+     "alan": "s",
+     "kimlik": "habesistan",
+     "f": "1517-04-13",
+     "t": "1557-01-01"
+    },
+    {
+     "alan": "d",
+     "kimlik": "OSMANLI",
+     "f": "1557-01-01",
+     "t": "1865-01-01"
+    },
+    {
+     "alan": "v",
+     "kimlik": "misir-kavalali",
+     "f": "1865-01-01",
+     "t": "1885-02-05"
+    },
+    {
+     "alan": "s",
+     "kimlik": "italya",
+     "f": "1885-02-05",
+     "t": "1923-10-29"
+    }
+   ]
+  },
+  {
+   "ad": "Arkîko",
+   "lat": 15.548,
+   "lon": 39.449,
+   "sahip": "OSMANLI",
+   "alan": "d",
+   "pencereler": [
+    {
+     "alan": "s",
+     "kimlik": "memluk",
+     "f": "1281-01-01",
+     "t": "1517-04-13"
+    },
+    {
+     "alan": "s",
+     "kimlik": "habesistan",
+     "f": "1517-04-13",
+     "t": "1557-01-01"
+    },
+    {
+     "alan": "d",
+     "kimlik": "OSMANLI",
+     "f": "1557-01-01",
+     "t": "1885-02-05"
+    },
+    {
+     "alan": "s",
+     "kimlik": "italya",
+     "f": "1885-02-05",
+     "t": "1923-10-29"
+    }
+   ]
+  }
+ ]
+}
