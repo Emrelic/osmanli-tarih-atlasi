@@ -1,0 +1,571 @@
+{
+ "anadolu-40": {
+  "kutu": "26,34,50,44",
+  "bayrak": true,
+  "saat": 40.0,
+  "motor_sha_ilk12": "3b965bf68d18",
+  "sure_sn": 137.1,
+  "petek": 3921,
+  "kara_km2": 1626138,
+  "boyali_km2": 1612977,
+  "d_sahipsiz_kara_km2": 13161,
+  "butce_km": 201.6,
+  "kopruleneni_azami_km": 403.2,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 12,
+    "a_delik_sayi": 21,
+    "a_delik_km2": 60848,
+    "b_kopuk_parca": 86,
+    "b_kopuk_devlet": 9,
+    "c_koridor": 3,
+    "dolgu_parca": 10,
+    "dolgu_cins": {
+     "koridor": 3,
+     "bosluk": 6,
+     "paylasim": 1
+    },
+    "dolgu_sn": 4.6
+   },
+   "1683-06-15": {
+    "devlet": 6,
+    "a_delik_sayi": 19,
+    "a_delik_km2": 47148,
+    "b_kopuk_parca": 68,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 1,
+    "dolgu_parca": 8,
+    "dolgu_cins": {
+     "bosluk": 7,
+     "koridor": 1
+    },
+    "dolgu_sn": 3.3
+   },
+   "1800-06-15": {
+    "devlet": 5,
+    "a_delik_sayi": 16,
+    "a_delik_km2": 34112,
+    "b_kopuk_parca": 68,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 1,
+    "dolgu_parca": 7,
+    "dolgu_cins": {
+     "bosluk": 6,
+     "koridor": 1
+    },
+    "dolgu_sn": 2.5
+   }
+  }
+ },
+ "anadolu-bugun": {
+  "kutu": "26,34,50,44",
+  "bayrak": false,
+  "saat": 40.0,
+  "motor_sha_ilk12": "3b965bf68d18",
+  "sure_sn": 112.2,
+  "petek": 3921,
+  "kara_km2": 1626138,
+  "boyali_km2": 1621279,
+  "d_sahipsiz_kara_km2": 4858,
+  "butce_km": 201.6,
+  "kopruleneni_azami_km": 403.2,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 12,
+    "a_delik_sayi": 9,
+    "a_delik_km2": 47215,
+    "b_kopuk_parca": 65,
+    "b_kopuk_devlet": 6,
+    "c_koridor": 2,
+    "dolgu_parca": 8,
+    "dolgu_cins": {
+     "koridor": 2,
+     "bosluk": 6
+    },
+    "dolgu_sn": 2.8
+   },
+   "1683-06-15": {
+    "devlet": 6,
+    "a_delik_sayi": 10,
+    "a_delik_km2": 43761,
+    "b_kopuk_parca": 58,
+    "b_kopuk_devlet": 2,
+    "c_koridor": 0,
+    "dolgu_parca": 7,
+    "dolgu_cins": {
+     "bosluk": 7
+    },
+    "dolgu_sn": 2.3
+   },
+   "1800-06-15": {
+    "devlet": 5,
+    "a_delik_sayi": 9,
+    "a_delik_km2": 31849,
+    "b_kopuk_parca": 58,
+    "b_kopuk_devlet": 2,
+    "c_koridor": 0,
+    "dolgu_parca": 5,
+    "dolgu_cins": {
+     "bosluk": 5
+    },
+    "dolgu_sn": 1.5
+   }
+  }
+ },
+ "anadolu-56": {
+  "kutu": "26,34,50,44",
+  "bayrak": true,
+  "saat": 56.0,
+  "motor_sha_ilk12": "3b965bf68d18",
+  "sure_sn": 113.5,
+  "petek": 3921,
+  "kara_km2": 1626138,
+  "boyali_km2": 1626138,
+  "d_sahipsiz_kara_km2": 0,
+  "butce_km": 282.2,
+  "kopruleneni_azami_km": 564.5,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 12,
+    "a_delik_sayi": 19,
+    "a_delik_km2": 60652,
+    "b_kopuk_parca": 85,
+    "b_kopuk_devlet": 9,
+    "c_koridor": 3,
+    "dolgu_parca": 9,
+    "dolgu_cins": {
+     "koridor": 3,
+     "bosluk": 5,
+     "paylasim": 1
+    },
+    "dolgu_sn": 4.4
+   },
+   "1683-06-15": {
+    "devlet": 6,
+    "a_delik_sayi": 16,
+    "a_delik_km2": 46952,
+    "b_kopuk_parca": 67,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 1,
+    "dolgu_parca": 6,
+    "dolgu_cins": {
+     "bosluk": 5,
+     "koridor": 1
+    },
+    "dolgu_sn": 2.9
+   },
+   "1800-06-15": {
+    "devlet": 5,
+    "a_delik_sayi": 13,
+    "a_delik_km2": 33916,
+    "b_kopuk_parca": 67,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 0,
+    "dolgu_parca": 3,
+    "dolgu_cins": {
+     "bosluk": 3
+    },
+    "dolgu_sn": 1.9
+   }
+  }
+ },
+ "anadolu-80": {
+  "kutu": "26,34,50,44",
+  "bayrak": true,
+  "saat": 80.0,
+  "motor_sha_ilk12": "3b965bf68d18",
+  "sure_sn": 128.0,
+  "petek": 3921,
+  "kara_km2": 1626138,
+  "boyali_km2": 1626138,
+  "d_sahipsiz_kara_km2": 0,
+  "butce_km": 403.2,
+  "kopruleneni_azami_km": 806.4,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 12,
+    "a_delik_sayi": 19,
+    "a_delik_km2": 60652,
+    "b_kopuk_parca": 85,
+    "b_kopuk_devlet": 9,
+    "c_koridor": 3,
+    "dolgu_parca": 9,
+    "dolgu_cins": {
+     "koridor": 3,
+     "bosluk": 5,
+     "paylasim": 1
+    },
+    "dolgu_sn": 0.0
+   },
+   "1683-06-15": {
+    "devlet": 6,
+    "a_delik_sayi": 16,
+    "a_delik_km2": 46952,
+    "b_kopuk_parca": 67,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 1,
+    "dolgu_parca": 6,
+    "dolgu_cins": {
+     "bosluk": 5,
+     "koridor": 1
+    },
+    "dolgu_sn": 0.0
+   },
+   "1800-06-15": {
+    "devlet": 5,
+    "a_delik_sayi": 13,
+    "a_delik_km2": 33916,
+    "b_kopuk_parca": 67,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 0,
+    "dolgu_parca": 3,
+    "dolgu_cins": {
+     "bosluk": 3
+    },
+    "dolgu_sn": 0.0
+   }
+  }
+ },
+ "anadolu-120": {
+  "kutu": "26,34,50,44",
+  "bayrak": true,
+  "saat": 120.0,
+  "motor_sha_ilk12": "3b965bf68d18",
+  "sure_sn": 121.4,
+  "petek": 3921,
+  "kara_km2": 1626138,
+  "boyali_km2": 1626138,
+  "d_sahipsiz_kara_km2": 0,
+  "butce_km": 604.8,
+  "kopruleneni_azami_km": 1209.6,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 12,
+    "a_delik_sayi": 19,
+    "a_delik_km2": 60652,
+    "b_kopuk_parca": 85,
+    "b_kopuk_devlet": 9,
+    "c_koridor": 3,
+    "dolgu_parca": 9,
+    "dolgu_cins": {
+     "koridor": 3,
+     "bosluk": 5,
+     "paylasim": 1
+    },
+    "dolgu_sn": 0.0
+   },
+   "1683-06-15": {
+    "devlet": 6,
+    "a_delik_sayi": 16,
+    "a_delik_km2": 46952,
+    "b_kopuk_parca": 67,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 1,
+    "dolgu_parca": 6,
+    "dolgu_cins": {
+     "bosluk": 5,
+     "koridor": 1
+    },
+    "dolgu_sn": 0.0
+   },
+   "1800-06-15": {
+    "devlet": 5,
+    "a_delik_sayi": 13,
+    "a_delik_km2": 33916,
+    "b_kopuk_parca": 67,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 0,
+    "dolgu_parca": 3,
+    "dolgu_cins": {
+     "bosluk": 3
+    },
+    "dolgu_sn": 0.0
+   }
+  }
+ },
+ "sahra-bugun": {
+  "kutu": "10,14,36,34",
+  "bayrak": false,
+  "saat": 40.0,
+  "motor_sha_ilk12": "f5504ed2e3be",
+  "sure_sn": 108.6,
+  "petek": 3921,
+  "kara_km2": 5194279,
+  "boyali_km2": 4506870,
+  "d_sahipsiz_kara_km2": 687409,
+  "butce_km": 201.6,
+  "kopruleneni_azami_km": 403.2,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 10,
+    "a_delik_sayi": 11,
+    "a_delik_km2": 27224,
+    "b_kopuk_parca": 22,
+    "b_kopuk_devlet": 7,
+    "c_koridor": 1,
+    "dolgu_parca": 34,
+    "dolgu_cins": {
+     "bosluk": 33,
+     "koridor": 1
+    },
+    "dolgu_sn": 1.9
+   },
+   "1683-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 16,
+    "a_delik_km2": 29672,
+    "b_kopuk_parca": 18,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 3,
+    "dolgu_parca": 36,
+    "dolgu_cins": {
+     "bosluk": 33,
+     "koridor": 3
+    },
+    "dolgu_sn": 1.1
+   },
+   "1800-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 16,
+    "a_delik_km2": 29672,
+    "b_kopuk_parca": 18,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 3,
+    "dolgu_parca": 36,
+    "dolgu_cins": {
+     "bosluk": 33,
+     "koridor": 3
+    },
+    "dolgu_sn": 0.2
+   }
+  }
+ },
+ "sahra-40": {
+  "kutu": "10,14,36,34",
+  "bayrak": true,
+  "saat": 40.0,
+  "motor_sha_ilk12": "f5504ed2e3be",
+  "sure_sn": 106.0,
+  "petek": 3921,
+  "kara_km2": 5194279,
+  "boyali_km2": 4249919,
+  "d_sahipsiz_kara_km2": 944361,
+  "butce_km": 201.6,
+  "kopruleneni_azami_km": 403.2,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 10,
+    "a_delik_sayi": 10,
+    "a_delik_km2": 43976,
+    "b_kopuk_parca": 21,
+    "b_kopuk_devlet": 7,
+    "c_koridor": 2,
+    "dolgu_parca": 39,
+    "dolgu_cins": {
+     "bosluk": 37,
+     "koridor": 2
+    },
+    "dolgu_sn": 1.4
+   },
+   "1683-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 10,
+    "a_delik_km2": 43976,
+    "b_kopuk_parca": 16,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 3,
+    "dolgu_parca": 30,
+    "dolgu_cins": {
+     "bosluk": 27,
+     "koridor": 3
+    },
+    "dolgu_sn": 1.2
+   },
+   "1800-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 10,
+    "a_delik_km2": 43976,
+    "b_kopuk_parca": 16,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 3,
+    "dolgu_parca": 30,
+    "dolgu_cins": {
+     "bosluk": 27,
+     "koridor": 3
+    },
+    "dolgu_sn": 0.3
+   }
+  }
+ },
+ "sahra-56": {
+  "kutu": "10,14,36,34",
+  "bayrak": true,
+  "saat": 56.0,
+  "motor_sha_ilk12": "f5504ed2e3be",
+  "sure_sn": 101.7,
+  "petek": 3921,
+  "kara_km2": 5194279,
+  "boyali_km2": 4978085,
+  "d_sahipsiz_kara_km2": 216195,
+  "butce_km": 282.2,
+  "kopruleneni_azami_km": 564.5,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 10,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 20,
+    "b_kopuk_devlet": 7,
+    "c_koridor": 2,
+    "dolgu_parca": 36,
+    "dolgu_cins": {
+     "bosluk": 34,
+     "koridor": 2
+    },
+    "dolgu_sn": 1.3
+   },
+   "1683-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 8,
+    "a_delik_km2": 41633,
+    "b_kopuk_parca": 15,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 2,
+    "dolgu_parca": 27,
+    "dolgu_cins": {
+     "bosluk": 25,
+     "koridor": 2
+    },
+    "dolgu_sn": 1.1
+   },
+   "1800-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 8,
+    "a_delik_km2": 41633,
+    "b_kopuk_parca": 15,
+    "b_kopuk_devlet": 3,
+    "c_koridor": 2,
+    "dolgu_parca": 27,
+    "dolgu_cins": {
+     "bosluk": 25,
+     "koridor": 2
+    },
+    "dolgu_sn": 0.3
+   }
+  }
+ },
+ "sahra-80": {
+  "kutu": "10,14,36,34",
+  "bayrak": true,
+  "saat": 80.0,
+  "motor_sha_ilk12": "f5504ed2e3be",
+  "sure_sn": 109.1,
+  "petek": 3921,
+  "kara_km2": 5194279,
+  "boyali_km2": 5177848,
+  "d_sahipsiz_kara_km2": 16431,
+  "butce_km": 403.2,
+  "kopruleneni_azami_km": 806.4,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 10,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 18,
+    "b_kopuk_devlet": 6,
+    "c_koridor": 2,
+    "dolgu_parca": 35,
+    "dolgu_cins": {
+     "bosluk": 33,
+     "koridor": 2
+    },
+    "dolgu_sn": 1.9
+   },
+   "1683-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 13,
+    "b_kopuk_devlet": 2,
+    "c_koridor": 3,
+    "dolgu_parca": 28,
+    "dolgu_cins": {
+     "bosluk": 25,
+     "koridor": 3
+    },
+    "dolgu_sn": 1.2
+   },
+   "1800-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 13,
+    "b_kopuk_devlet": 2,
+    "c_koridor": 3,
+    "dolgu_parca": 28,
+    "dolgu_cins": {
+     "bosluk": 25,
+     "koridor": 3
+    },
+    "dolgu_sn": 0.3
+   }
+  }
+ },
+ "sahra-120": {
+  "kutu": "10,14,36,34",
+  "bayrak": true,
+  "saat": 120.0,
+  "motor_sha_ilk12": "f5504ed2e3be",
+  "sure_sn": 91.8,
+  "petek": 3921,
+  "kara_km2": 5194279,
+  "boyali_km2": 5194279,
+  "d_sahipsiz_kara_km2": 0,
+  "butce_km": 604.8,
+  "kopruleneni_azami_km": 1209.6,
+  "gun": {
+   "1520-06-15": {
+    "devlet": 10,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 17,
+    "b_kopuk_devlet": 5,
+    "c_koridor": 1,
+    "dolgu_parca": 34,
+    "dolgu_cins": {
+     "bosluk": 33,
+     "koridor": 1
+    },
+    "dolgu_sn": 1.2
+   },
+   "1683-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 12,
+    "b_kopuk_devlet": 1,
+    "c_koridor": 2,
+    "dolgu_parca": 26,
+    "dolgu_cins": {
+     "bosluk": 24,
+     "koridor": 2
+    },
+    "dolgu_sn": 1.2
+   },
+   "1800-06-15": {
+    "devlet": 8,
+    "a_delik_sayi": 7,
+    "a_delik_km2": 40851,
+    "b_kopuk_parca": 12,
+    "b_kopuk_devlet": 1,
+    "c_koridor": 2,
+    "dolgu_parca": 26,
+    "dolgu_cins": {
+     "bosluk": 24,
+     "koridor": 2
+    },
+    "dolgu_sn": 0.3
+   }
+  }
+ }
+}
