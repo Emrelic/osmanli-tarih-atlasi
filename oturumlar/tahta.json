@@ -146995,5 +146995,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4779",
+  "zaman": "2026-09-20 18:17",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · KD-ZAMAN-0920 · dört parti bitti · rapor: denetim/KD-ZAMAN-0920.md · commit 0b4ab72, ca092c0, 7068f7e ① ÖLÇTÜM Değişmez 3 zaman ayağı: ZAMANLI çelişki 483 -> 323, **-160 (%33,1)**. Parti parti: -61 (422), -39 (383), -36 (347), -24 (323). DÖRT PARTİNİN DÖRDÜNDE DE öngörüyü ölçümden ÖNCE yazdım ve DÖRDÜ DE BİREBİR TUTTU. kd: taşıyan kayıt 192 -> 236 (+44 kayıt; geri okudum, 236). Çelişen ayrı yerleşim 262 -> 218. ZAMANSIZ (m:) 489'da SABİT — m: alanına hiç dokunmadım, bu da yetki sınırının kanıtı. Her partide py arac/denetle.py tam koşu: SONUÇ temiz (dönem sağlığı 0/0/0, konum 0). SINIFLANDIRMA (sevkin 1. maddesi): A = bağ hiçbir kesitte geçerli değil 34 çelişki/9 çift · B = bağın penceresi var 449/253. ÜÇÜNCÜ SAYI (gerçek eksen kusuru) AYRIŞTIRILAMADI, \"ölçülemedi\": degismez3z'in saydığı her üçlüde y ile m tanım gereği farklı devlettedir, yani \"merkez o tarihte başkaydı\" ile \"sahiplik tarihi yanlış\" AYNI İMZAYI üretir. Denediğim vekil ölçüt 113 üçlü verdi ve ÇÜRÜDÜ (başında Söğüt->Bursa vardı); rapora hüküm olarak girmedi, yalnız \"denendi, çürüdü\" diye duruyor. ② BULAMADIM kd: YAZILMAYANLAR ve sebepleri (rapor §4c, §12b): Kerene (TDV'de 0 madde/0 içerik; habes-eyaleti \"bugünkü Eritre\" diyor ama kasabayı anmıyor) · Ukayr (yalnız ad olarak geçiyor) · Cübeyl (TUZAK ②: /cubeyl maddesi Lübnan'daki BYBLOS, bu kayıt Körfez'deki Cubeyl) · Hacıbey/Odessa (TDV'de yalnız besteci Üzeyir Hacıbeyli çıkıyor) · Tarki (kaydın kendi kaynak alanı \"slug ÖLÜ, dagistan maddesinde GEÇMİYOR\" diyor) · Hanak + 6 küçük ada (hiçbir madde adlarını anmıyor). 🔴 DERBEND ve KUBA: TDV'de maddeleri VAR (Derbend 3, Kuba 10 madde başlığı) ama SLUG AYRIŞTIRAMADIM — derbend, derbend--sehir, derbent, kuba, kuba--sehir hepsi 302; arama sayfasının sonuç bağlantıları JS ile geliyor, metin çıkarıcı okuyamıyor. ÖLÇÜLEMEDİ, \"yok\" DEĞİL. Alet borcu: aramadan madde slugu çıkaran bir çıkarıcı yok; olsaydı bu iki kayıt ve muhtemelen başkaları da açılırdı. ③ İSTİYORUM (a) EKSEN SEVKLERİ — benim kalemim değil, hiçbirine dokunmadım. Yedi Ada 1800 (7 kaydı birden: TDV \"Osmanlı ve Rusya himayesinde 1800'de kurulan Yedi Ada Cumhuriyeti\"; atlasta yedisi de fransa-cumhuriyet) · 1479 fethinin bitişi (TDV 1481, atlas Kefalonya/İthaki 1500) · Lahsâ/Katîf'in bağlanışı (TDV 1547, atlas 1550) · Kerene ↔ Habeş eyaleti · BATUM 1520 vs 1578 (58 yıl) · Nakşa'nın 1645-69 Venedik dönemi · Modon'un günü (TDV 10 Ağustos, atlas 09) · Kiklad adalarının fethi (TDV/Barbaros 1538, atlas d: 1566-04-15). (b) KARAR: devam edeyim mi? Kalan 323'ün üreticileri artık uzun kuyruk (en büyüğü 6, sonra 5-5, gerisi 3'er). Kolay kümeler bitti; verimli yol parti 3-4'te işe yarayan KAPSAYICI MADDE tekniği (tek eyalet/kurum maddesi bir düzine kaydı birden karşılıyor: cezayir-i-bahr-i-sefid, derya-beyi, cildir-eyaleti, barbaros-hayreddin-pasa). Sıradaki kapsayıcı adaylar: Kefe/Kırım sancakları, Trablusgarp eyaleti, Yemen eyaleti, Kamaniçe eyaleti. (c) ŞEMA BORCU: kd_gun, pencere BOŞLUĞU ile k:0/m:null penceresini aynı (0,None) döndürüyor — \"kademesiz\" ile \"bilmiyorum\" veride ayrışmıyor. Bu turda ayrımı yalnız rapora yazabildim; elle yazılan kd:'nin damgalanması borcuyla (VERI-YAPISI.md) aynı aileden. DEĞİŞEN DOSYALAR (yalnız kd: alanı; data/ COMMIT EDİLMEDİ, senin): data/yerlesimler.js (41 kayıt) · data/yerlesimler_ek26.js (2) · data/yerlesimler_epir.js (1) · data/yerlesimler_ek_adalar.js (1). KENDİ COMMIT'LERİM: 0b4ab72 (rapor + denetim/ARAC-KD-ZAMAN-SINIF-0920.py), ca092c0, 7068f7e. ⚠️ M-4768'deki uyarı sürüyor: yerlesimler.js'i başka oturumlar da yazıyor; her partiden sonra 44 kaydın kd:sini geri okudum, hepsi yerinde (236). Bekçim açık, emir bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
