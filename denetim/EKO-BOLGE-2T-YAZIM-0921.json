@@ -1,0 +1,30 @@
+{
+ "yazim_dagilimi": {
+  "toprak-kazanc": 491,
+  "toprak-kaybi": 17,
+  "toprak-kayip": 292
+ },
+ "olcut_bugun": 1,
+ "olcut_duzeltilmis": 11,
+ "gorunmeyen_borc": 10,
+ "tavan": 42,
+ "tavan_asilir_mi": false,
+ "yeni_tur_dagilimi": {
+  "kayip": 6,
+  "antlasma": 2,
+  "siyaset": 1,
+  "?": 1
+ },
+ "yeni_maddeler": [
+  "1381-10-01|Eretna Beyliği'nin sona ermesi ve Kadı Burhâneddin Devleti'nin kuruluşu",
+  "1541-10-01|Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor",
+  "1617-02-27|Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+  "1700-07-14|İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+  "1736-07-13|Azak'ın Ruslara düşüşü",
+  "1769-03-11|Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü",
+  "1830-08-09|Dayı Hüseyin'in sürgünü — Cezayir ocağının fiilen sonu",
+  "1883-11-05|Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi",
+  "1919-04-12|Kars'ın İngiliz işgali — Cenûb-ı Garbî Kafkas Hükûmeti dağıtıldı",
+  "1924-01-01|Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbekistan/Türkmenistan SSC'lerinin kuruluşu"
+ ]
+}
