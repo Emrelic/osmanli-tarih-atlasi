@@ -1,0 +1,792 @@
+{
+ "hazir": true,
+ "hazir_tur": 7,
+ "hazir_sn": 21,
+ "kip": {
+  "A_yamasiz": {
+   "riyad-diriye": {
+    "z6": {
+     "zoom": 6,
+     "sure_ms": 71.6,
+     "dom": 33,
+     "yazili_ekranda": 35,
+     "halka_dom": 12,
+     "halka_sade": 10,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 433,
+       "r": 446,
+       "t": 398.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 443,
+       "r": 456,
+       "t": 400.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 443,
+       "r": 484.1,
+       "t": 397
+      }
+     ]
+    },
+    "z8": {
+     "zoom": 8,
+     "sure_ms": 48.3,
+     "dom": 2,
+     "yazili_ekranda": 4,
+     "halka_dom": 5,
+     "halka_sade": 3,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 420,
+       "r": 433,
+       "t": 395.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 456,
+       "r": 469,
+       "t": 403.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 456,
+       "r": 497.1,
+       "t": 400
+      }
+     ]
+    },
+    "z10": {
+     "zoom": 8,
+     "sure_ms": 59.2,
+     "dom": 2,
+     "yazili_ekranda": 4,
+     "halka_dom": 5,
+     "halka_sade": 3,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 420,
+       "r": 433,
+       "t": 395.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 456,
+       "r": 469,
+       "t": 403.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 456,
+       "r": 497.1,
+       "t": 400
+      }
+     ]
+    }
+   },
+   "budin-peste": {
+    "z6": {
+     "zoom": 6,
+     "sure_ms": 104.5,
+     "dom": 86,
+     "yazili_ekranda": 87,
+     "halka_dom": 3,
+     "halka_sade": 2,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2030,
+       "r": 2115.7,
+       "t": 1575
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2032,
+       "r": 2077.1,
+       "t": 1572
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 438,
+       "r": 904.7,
+       "t": 396
+      }
+     ]
+    },
+    "z8": {
+     "zoom": 8,
+     "sure_ms": 60.3,
+     "dom": 14,
+     "yazili_ekranda": 16,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3043.7,
+       "t": 2263
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3003.1,
+       "t": 2255
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 436,
+       "r": 902.7,
+       "t": 394
+      }
+     ]
+    },
+    "z10": {
+     "zoom": 8,
+     "sure_ms": 60.7,
+     "dom": 14,
+     "yazili_ekranda": 16,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3043.7,
+       "t": 2263
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3003.1,
+       "t": 2255
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 436,
+       "r": 902.7,
+       "t": 394
+      }
+     ]
+    }
+   },
+   "hisarlar": {
+    "z6": {
+     "zoom": 6,
+     "sure_ms": 157.5,
+     "dom": 128,
+     "yazili_ekranda": 130,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 1738,
+       "r": 1823.7,
+       "t": 1603
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 1742,
+       "r": 1787.1,
+       "t": 1601
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": -310,
+       "r": -261,
+       "t": -357
+      },
+      {
+       "ad": "Rumeli Hisarı",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 437,
+       "r": 559.6,
+       "t": 396
+      }
+     ]
+    },
+    "z8": {
+     "zoom": 8,
+     "sure_ms": 64.8,
+     "dom": 34,
+     "yazili_ekranda": 36,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3121,
+       "r": 3206.7,
+       "t": 2888
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3125,
+       "r": 3170.1,
+       "t": 2878
+      },
+      {
+       "ad": "Rumeli Hisarı",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 433,
+       "r": 555.6,
+       "t": 395
+      }
+     ]
+    },
+    "z10": {
+     "zoom": 8,
+     "sure_ms": 69.1,
+     "dom": 34,
+     "yazili_ekranda": 36,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3121,
+       "r": 3206.7,
+       "t": 2888
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3125,
+       "r": 3170.1,
+       "t": 2878
+      },
+      {
+       "ad": "Rumeli Hisarı",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 433,
+       "r": 555.6,
+       "t": 395
+      }
+     ]
+    }
+   }
+  },
+  "B_yamali": {
+   "riyad-diriye": {
+    "z6": {
+     "zoom": 6,
+     "sure_ms": 176.9,
+     "dom": 36,
+     "yazili_ekranda": 38,
+     "halka_dom": 12,
+     "halka_sade": 10,
+     "sol": 5,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 433,
+       "r": 446,
+       "t": 398.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 443,
+       "r": 456,
+       "t": 400.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 443,
+       "r": 484.1,
+       "t": 397
+      },
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": false,
+       "sade": false,
+       "sol": true,
+       "l": 361.3,
+       "r": 443,
+       "t": 395
+      }
+     ]
+    },
+    "z8": {
+     "zoom": 8,
+     "sure_ms": 32.1,
+     "dom": 3,
+     "yazili_ekranda": 5,
+     "halka_dom": 5,
+     "halka_sade": 3,
+     "sol": 1,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 420,
+       "r": 433,
+       "t": 395.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 456,
+       "r": 469,
+       "t": 403.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 456,
+       "r": 497.1,
+       "t": 400
+      },
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": false,
+       "sade": false,
+       "sol": true,
+       "l": 348.3,
+       "r": 430,
+       "t": 392
+      }
+     ]
+    },
+    "z10": {
+     "zoom": 8,
+     "sure_ms": 32.2,
+     "dom": 3,
+     "yazili_ekranda": 5,
+     "halka_dom": 5,
+     "halka_sade": 3,
+     "sol": 1,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 420,
+       "r": 433,
+       "t": 395.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": true,
+       "sol": false,
+       "l": 456,
+       "r": 469,
+       "t": 403.5
+      },
+      {
+       "ad": "Riyad",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 456,
+       "r": 497.1,
+       "t": 400
+      },
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": false,
+       "sade": false,
+       "sol": true,
+       "l": 348.3,
+       "r": 430,
+       "t": 392
+      }
+     ]
+    }
+   },
+   "budin-peste": {
+    "z6": {
+     "zoom": 6,
+     "sure_ms": 308.2,
+     "dom": 89,
+     "yazili_ekranda": 90,
+     "halka_dom": 3,
+     "halka_sade": 2,
+     "sol": 11,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2030,
+       "r": 2115.7,
+       "t": 1575
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2032,
+       "r": 2077.1,
+       "t": 1572
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 438,
+       "r": 904.7,
+       "t": 396
+      }
+     ]
+    },
+    "z8": {
+     "zoom": 8,
+     "sure_ms": 68.5,
+     "dom": 14,
+     "yazili_ekranda": 16,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3043.7,
+       "t": 2263
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3003.1,
+       "t": 2255
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 436,
+       "r": 902.7,
+       "t": 394
+      }
+     ]
+    },
+    "z10": {
+     "zoom": 8,
+     "sure_ms": 69.3,
+     "dom": 14,
+     "yazili_ekranda": 16,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 0,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3043.7,
+       "t": 2263
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 2958,
+       "r": 3003.1,
+       "t": 2255
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 436,
+       "r": 902.7,
+       "t": 394
+      }
+     ]
+    }
+   },
+   "hisarlar": {
+    "z6": {
+     "zoom": 6,
+     "sure_ms": 411.6,
+     "dom": 130,
+     "yazili_ekranda": 132,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 8,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 1738,
+       "r": 1823.7,
+       "t": 1603
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 1742,
+       "r": 1787.1,
+       "t": 1601
+      },
+      {
+       "ad": "Budin",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": -310,
+       "r": -261,
+       "t": -357
+      },
+      {
+       "ad": "Rumeli Hisarı",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 437,
+       "r": 559.6,
+       "t": 396
+      }
+     ]
+    },
+    "z8": {
+     "zoom": 8,
+     "sure_ms": 158.2,
+     "dom": 42,
+     "yazili_ekranda": 44,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 12,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3121,
+       "r": 3206.7,
+       "t": 2888
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3125,
+       "r": 3170.1,
+       "t": 2878
+      },
+      {
+       "ad": "Rumeli Hisarı",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 433,
+       "r": 555.6,
+       "t": 395
+      }
+     ]
+    },
+    "z10": {
+     "zoom": 8,
+     "sure_ms": 182.1,
+     "dom": 42,
+     "yazili_ekranda": 44,
+     "halka_dom": 3,
+     "halka_sade": 1,
+     "sol": 12,
+     "cakisan_cift": 0,
+     "cakisanlar": [],
+     "hedefler": [
+      {
+       "ad": "Dir'iye (Necid)",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3121,
+       "r": 3206.7,
+       "t": 2888
+      },
+      {
+       "ad": "Riyad",
+       "halka": true,
+       "sade": false,
+       "sol": false,
+       "l": 3125,
+       "r": 3170.1,
+       "t": 2878
+      },
+      {
+       "ad": "Rumeli Hisarı",
+       "halka": false,
+       "sade": false,
+       "sol": false,
+       "l": 433,
+       "r": 555.6,
+       "t": 395
+      }
+     ]
+    }
+   }
+  }
+ },
+ "css_kural": {
+  "sayi": 2,
+  "ornek": ".sehir.sol { flex-direction: row-reverse; transform: translateX(-100%) translateX(10px); }"
+ }
+}

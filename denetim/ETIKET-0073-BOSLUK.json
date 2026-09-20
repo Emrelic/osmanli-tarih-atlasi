@@ -1,0 +1,652 @@
+{
+ "bos_kayit": 226,
+ "halka": 92,
+ "yakin_eslesme": 92,
+ "ayni_adli": 92,
+ "liste": [
+  {
+   "halka": "Abu Dabi",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Abu Dabi",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Acoma Pueblo (Sky City)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Acoma Pueblo (Sky City)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Akobo",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Akobo",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Albazin",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Albazin",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Anadır (Anadyrsk)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Anadır (Anadyrsk)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Asella",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Asella",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Aveyl",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Aveyl",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ayan",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ayan",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ağere Maryam",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ağere Maryam",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Barnaul",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Barnaul",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Bentiu",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Bentiu",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Berezov",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Berezov",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Biysk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Biysk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Blagoveşçensk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Blagoveşçensk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Boma",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Boma",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Bor",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Bor",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Bulun",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Bulun",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Buraydâ (Kasîm)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Buraydâ (Kasîm)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Dilla",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Dilla",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Dir'iye (Necid)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Dir'iye (Necid)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Doha (Katar)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Doha (Katar)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Dudinka",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Dudinka",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Dûmetülcendel (Cevf)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Dûmetülcendel (Cevf)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Fangak",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Fangak",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ginir",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ginir",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Goba",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Goba",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Habarovka",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Habarovka",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Hakodate",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Hakodate",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Hatanga",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Hatanga",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Hâil",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Hâil",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Jigansk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Jigansk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Kainsk (Baraba)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Kainsk (Baraba)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Kapoeta",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Kapoeta",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Kirensk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Kirensk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Kisangani (Stanleyville)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Kisangani (Stanleyville)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Kuznetsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Kuznetsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ler",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ler",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Madang",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Madang",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Manama (Bahreyn)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Manama (Bahreyn)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Mangazeya",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Mangazeya",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Matadi",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Matadi",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Matsumae",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Matsumae",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Mbanza-Kongo (São Salvador)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Mbanza-Kongo (São Salvador)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Mega",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Mega",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Mizan Teferi",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Mizan Teferi",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Moyale",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Moyale",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Mukalla",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Mukalla",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Musumba",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Musumba",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Negele Borana",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Negele Borana",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Nerçinsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Nerçinsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Nikolayevsk (Amur ağzı)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Nikolayevsk (Amur ağzı)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Nimule",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Nimule",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Nâsir",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Nâsir",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Obdorsk (Salehard)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Obdorsk (Salehard)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ohotsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ohotsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Olyokminsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Olyokminsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Omsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Omsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Oraibi (Hopi, Üçüncü Mesa)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Oraibi (Hopi, Üçüncü Mesa)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Pavlodar (Koryakov)",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Pavlodar (Koryakov)",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Pibor",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Pibor",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Port Moresby",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Port Moresby",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Rağa",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Rağa",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Riyad",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Riyad",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Rumbek",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Rumbek",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Semipalatinsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Semipalatinsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Soyo",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Soyo",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Surgut",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Surgut",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Taos Pueblo",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Taos Pueblo",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Tara",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Tara",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Tomsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Tomsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Tonc",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Tonc",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Torit",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Torit",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Turuhansk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Turuhansk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Udskoy ostrogu",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Udskoy ostrogu",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Uneyze",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Uneyze",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ust-Kamenogorsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ust-Kamenogorsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Ust-Yansk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Ust-Yansk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Vav",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Vav",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Verhoyansk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Verhoyansk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Vilyuysk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Vilyuysk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Vladivostok",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Vladivostok",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Yabelo",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Yabelo",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Yakutsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Yakutsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Yei",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Yei",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Yeniseysk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Yeniseysk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Yerbogaçen",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Yerbogaçen",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Zaşiversk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Zaşiversk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Zmeinogorsk",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Zmeinogorsk",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "İmperator limanı",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "İmperator limanı",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Şakrâ",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Şakrâ",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Şembe",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Şembe",
+   "km": 0.0,
+   "ayni_ad": true
+  },
+  {
+   "halka": "Finschhafen",
+   "cins": "devletsiz-yerlesim",
+   "yerlesim": "Finschhafen",
+   "km": 1.05,
+   "ayni_ad": true
+  }
+ ]
+}
