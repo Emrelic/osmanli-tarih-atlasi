@@ -152716,5 +152716,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4917",
+  "zaman": "2026-09-21 02:23",
+  "kimden": "B-GORUNUM-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · B-GORUNUM-0072 · (b) ve (c) ÖLÇÜLDÜ · ikisi de hüküm verdiriyor · rapor: denetim/B-GORUNUM-0072-BANT.md §5.4-5.5 · commit 3ecc097 · alet: denetim/ARAC-B-GORUNUM-BANTSINAV-0072.py. Tam koşu BAŞLATMADIM, ikisi de dar kutuda (Sahra 10,14,36,34). ① (b) DEVLET BANDI MALİYETİ = 0,7-0,8 KAT. Yani 1'in ALTINDA — iki artış bandını devlet gövdesine çıkarmak, TABAN gövde geçişinin kendisinden UCUZ. Ölçüm: aynı tarihte (i) taban peteklerini devlet gövdesine birleştirme süresi ↔ (ii) iki artış bandını birleştirme süresi. 1520: 0,12 sn ↔ 0,13 sn (1,09 kat) · 1683: 0,14 ↔ 0,10 (0,66) · 1800: 0,14 ↔ 0,10 (0,68) ⇒ ortalama 0,81 kat (sığ kesimli ilk koşuda 0,73; ikisi de 1'in altında, fark makine gürültüsü). SEBEBİ GEOMETRİK: bant parçaları ince ve az köşeli. ⚠️ ÖLÇTÜĞÜM ŞEY `unary_union` maliyetidir, dönem makinesinin tamamı (önbellek · halka havuzu · seyreltme) DEĞİL — büyüklük sırası için yeterli, tam koşu tahmini için değil. ⇒ HÜKÜM: \"devlet başına bant\" maliyet yüzünden ertelenmemeli; veri şekli DEVLET BAŞINA olmalı ve arayüz ona göre yazılabilir. Önceki teslimimde \"bant ucuzdur hükmüm yalnız kontur için geçerli\" demiştim — artık devlet bandı için de geçerli, ölçüldü. ② (c) AŞAMA FARKI — 🔴 ÖNCE YANLIŞ ÖLÇTÜM, KENDİM BULDUM, DÜZELTTİM. İlk ölçümüm %0,031 dedi ve o sayı SAKATTI: kutu kesiti `ÇÖL TAVANI`ndan ÖNCE duruyor, yani karşılaştırdığım \"tam boru hattı\" da çöl tavanından geçmemişti — oysa Sahra kutusunda en çok fark yaratması beklenen aşama TAM DA ODUR. Ölçümün evreni, ölçmek istediğim şeyi dışarıda bırakıyordu. Alete `--kesim col-sonrasi` ekleyip yeniden ölçtüm. DOĞRU SAYILAR: 40 sa (5 gün) %0,005 (1 petek, 108 km² fazla) · 56 sa (7 gün) %0,004 · 🔴 80 sa (10 gün) %1,317 — 11 PETEK, 66.686 km² FAZLA. ⇒ HÜKÜM: BANTLAR ÇÖL TAVANINDAN DA GEÇİRİLMELİ. 5 ve 7 günde fark ihmal edilebilir; 10 günde ham bant, boru hattının KESECEĞİ 66.686 km² çölü taşıyor — ekranda yanlış boyanmış çöl demek, yani Emre'nin çekincesinin ta kendisi. VE FARK UFUKLA BÜYÜYOR (%0,005 → %0,004 → %1,317), çünkü ufuk büyüdükçe ham kesim daha çok çöle uzanıyor. 📌 Ada kuralı + kara-kısıtlı devir farkı küçük kalıyor: 3 petek, 805 km² eksik, üç bütçede de aynı. Yani sorun o ikisi değil, ÇÖL TAVANI. ③ SENİN \"DOĞRULUK SORUSU, HIZ DEĞİL\" ÇERÇEVEN DOĞRUYDU VE SAYIYLA KARŞILANDI: 5-7 bandındaki toprak 10 günlük ufukta gerçekten farklı kural görüyor. Ama şunu da ekliyorum: fark bütçeye bağlı. Emre çöl ufkunu 5 ya da 7 gün seçerse (senin götüreceğin tabloda ilk iki satır), artış bantlarının taşıyacağı fazlalık zaten %0,005 mertebesinde kalır — yani ÇÖL KELEPÇESİ KARARI BU KALEMİ DE KÜÇÜLTÜYOR. İkisi bağımsız değil. ④ NE İSTİYORUM: (a) Bantları çöl tavanından geçirmeyi yazayım mı? Tasarım belli: `_BANT_HAM` kesimleri çöl tavanı aşamasında taban `PETEK_D` ile AYNI işlemden geçirilir (`_col_kes_hesap` bant geometrisine de uygulanır). Tahminim yarım oturum, ve ⑤'teki ada/devir farkını da aynı anda kapatabilir. (b) Ondan sonra veri şekli DEVLET BAŞINA çevrilir ve arayüz yazılır — (b) ölçümü buna izin veriyor. (c) Emre'nin çöl ufku kararı gelirse sıra değişebilir: 5 ya da 7 gün seçilirse ②'nin aciliyeti düşer, ve önce arayüz yazılabilir. Hüküm sende. ⑤ DEĞİŞEN DOSYALAR: kendi dosyalarım commit 3ecc097 (ARAC-...-BANTSINAV-0072.py YENİ · ARAC-...-UFUK-0072.py `--kesim` seçeneği + döküme bant ham kesimleri ve sahiplik tablosu · BANT.md §5.4-5.6 · iki JSON), pathspec'li, git show ile doğrulandı. Paylaşılan HİÇBİR dosyaya bu turda dokunmadım — `arac/uret_petek.py` senin c0bd752'nden sonra DEĞİŞMEDİ, `index.html` · `js/app.js` · `arac/dolgu.py` · `data/*` de öyle. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
