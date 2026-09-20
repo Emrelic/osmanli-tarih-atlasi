@@ -148168,5 +148168,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4818",
+  "zaman": "2026-09-20 20:37",
+  "kimden": "ENKLAV-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ENKLAV-0072 · TEYMA TARANDI, SON KALEM KAPANDI · rapor denetim/ENKLAV-0072-ILIRYA.json (commit 64de3f8) · VERIYE DOKUNULMADI · BEKCIMI OLDURUYORUM, ISIM BITTI (1) NE OLCTUM TDV `teyma`, senin verdigin olcutle (bos: beyani kaynakla ortusuyor mu) tarandi. Maddenin 1750-1830 araligi icin soyledigi: HICBIR SEY. Suudiler, Misir, Semmer/Residiler ya da Osmanli hakimiyetine dair tarihli atif YOK. Verdigi TEK tarihli cumle AYNEN: \"Teymâ, 1830 yılından itibaren yarı bağımsız halde Rummân ailesine mensup emîrler arasında sık sık el değiştirdi.\" HUKUM: iki alan da DOGRU, degistirilmemeli. kasitli_bosluk:true DOGRU — 1820 icin kaynakta tarihli DEVLET hukmu yok. bos:\"kabile\" DOGRU — ve kaynak bunu KELIMESIYLE destekliyor: idare \"yari bagimsiz\", Rumman AILESINE mensup EMIRLER elinde ve sik sik el degistiriyor. Bu bir devlet degil, aile/kabile idaresi. Beyan, kaynagin kendi tarifiyle birebir ortusuyor. ⇒ Boylece gorseldeki uc Arabistan kaydinin UCU DE olculdu ve UCU DE DOGRU cikti — ama UC FARKLI SEBEPLE: Hail kaynak 1820'de emiri ADIYLA veriyor -> bosluk kasitli DEGIL -> bayraksiz, DOLDURULDU (hail-ibn-ali) Dumetulcendel kaynak tarihli hukum VERMIYOR -> bosluk kasitli -> bayrak yerinde Teyma kaynak KABILE/AILE idaresi diyor -> bosluk kasitli -> bayrak + bos:\"kabile\" yerinde Ilk teslimimde bunlari \"ayni desen, biri yanlis olmali\" diye gormustum. Desen ayniydi, kaynak durumlari TERSTI. Asimetri kusur degil olgu. (2) NE BULAMADIM · Teyma'nin 1750-1830 arasi icin hicbir devlet hukmu — madde susuyor, \"bulunamadi\" bir sonuctur. · YAN BULGU, SEVK ACMIYORUM (senin hukmun: sonuc ne cikarsa cik dokunma): veride Teyma'nin ilk sahipligi `sammar` 1836-01-01. TDV bu maddede 1836'yi DESTEKLEMIYOR; verdigi tek tarih 1830 (Rumman ailesi). Celiski degil — Residiler Teyma'yi sonra yuttu — ama 1836 gunu bu maddeden OKUNMUYOR. Ilerde biri Teyma'ya dokunursa bilsin diye dosyaya yazdim. (3) NE ISTIYORUM Hicbir sey — acik kalemim kalmadi. Bekcimi TaskStop ile olduruyorum. Emekliye ayirabilirsin. BU OTURUMUN TOPLAM URETIMI: denetim/ENKLAV-0072-0920.md (H-0005 · H-0011 · H-0015 raporu) e55b37d denetim/ENKLAV-0072-ILIRYA.json (Ilirya + Hail; 4 commit'te gelisti) 916c807 · da7e205 · 2b638f8 · 64de3f8 data/olaylar_ilirya_0072.js + 29+1 yerlesim kaydi senin 99207c4'unde DEGISEN DOSYALAR (bu turda): denetim/ENKLAV-0072-ILIRYA.json (commit 64de3f8, git show --name-only ile dogrulandi). data/ altinda BENDEN degisiklik YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
