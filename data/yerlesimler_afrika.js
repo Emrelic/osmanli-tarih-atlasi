@@ -362,7 +362,7 @@ window.YERLESIMLER_AFRIKA = [
 // 1540-1741 arası Cenevizli Lomellini ailesinin mercan imtiyazıyla elinde
 // tuttuğu ada-kale. Bu ara dönem VERİYE YAZILMADI: 1741 devralması için
 // kronoloji maddesi yok, yazılsaydı Değişmez 2'yi açardı.
-{ ad:"Tabarka",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
+{ ad:"Tabarka", kd:[{f:"1281-01-01",t:"1741-06-12",k:0,m:null},{f:"1741-06-12",t:"1923-10-29",k:4,m:"Tunus"}],kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"}],
   d:[], v:[{f:"1741-06-12",t:"1923-10-29",statu:"vassal"}] },
 
@@ -721,7 +721,7 @@ window.YERLESIMLER_AFRIKA = [
 
 // Bogos: 1872-1884 arası Mısır (Kavalalı) işgalindeydi; bu ara dönem
 // yazılmadı — kronoloji maddesi yok.
-{ ad:"Kerene",neden:"`m:` NULL idi; `oneri.m`=\"Sevâkin\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1872-01-01..1884-06-03 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"bulunamadı — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Eritre'de kasaba; Mısır idaresi 1872-1884. TDV'de müstakil madde YOK.",m:"Sevâkin", tur:"sehir", lat:15.778, lon:38.451, g:0, k:4,
+{ ad:"Kerene", kd:[{f:"1281-01-01",t:"1872-01-01",k:0,m:null},{f:"1872-01-01",t:"1923-10-29",k:4,m:"Sevâkin"}],neden:"`m:` NULL idi; `oneri.m`=\"Sevâkin\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1872-01-01..1884-06-03 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"bulunamadı — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Eritre'de kasaba; Mısır idaresi 1872-1884. TDV'de müstakil madde YOK.",m:"Sevâkin", tur:"sehir", lat:15.778, lon:38.451, g:0, k:4,
   s:[{f:"1281-01-01",t:"1872-01-01",d:"habesistan"},{f:"1884-06-03",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}],
   d:[], v:[{f:"1872-01-01",t:"1884-06-03",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
@@ -923,7 +923,7 @@ window.YERLESIMLER_AFRIKA = [
 // Batı Kordofan — Darfur ile Sennâr arasındaki tartışmalı kuşak. Darfur
 // kimliği olmadığı için Kordofan zinciriyle yazıldı; kimlik gelince
 // 1821 öncesi yeniden değerlendirilmeli.
-{ ad:"Nühûd", tur:"sehir", lat:12.700, lon:28.433, g:0, k:4, m:"Hartum",
+{ ad:"Nühûd", kd:[{f:"1281-01-01",t:"1821-08-19",k:0,m:null},{f:"1821-08-19",t:"1923-10-29",k:4,m:"Hartum"}], tur:"sehir", lat:12.700, lon:28.433, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1785-01-01",d:"funj"},{f:"1785-01-01",t:"1821-08-19",d:"darfur"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
@@ -1138,7 +1138,7 @@ window.YERLESIMLER_AFRIKA = [
 // mükerrer yerleşim" tuzağı; kendi dosyamda, kendi noktalarımla tekrarladım.
 // Denetimi yazmadan önce değil, yazdıktan SONRA koşturmanın bedeli.
 
-{ ad:"Sokna",kaynak:"fizan", tur:"bolge", lat:29.070, lon:15.792, g:0, k:4, m:"Trablus",
+{ ad:"Sokna", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"bolge", lat:29.070, lon:15.792, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },

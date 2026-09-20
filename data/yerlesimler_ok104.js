@@ -115,7 +115,7 @@ window.YERLESIMLER_OK104 = [
 //    yani tek bir yeni kırılma günü doğurmuyor. Atlas Kruja'yı 1281-1478
 //    boyunca kesintisiz `arnavutluk` tutuyor; Kastriyota yurdu olan Mat'ı
 //    ondan ayrı modellemek için bir dayanağım yok.
-{ ad:"Mat (Mati)", tur:"sehir", lat:41.610, lon:20.009, g:0, k:4, m:"İşkodra",
+{ ad:"Mat (Mati)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:4,m:"İşkodra"}], tur:"sehir", lat:41.610, lon:20.009, g:0, k:4, m:"İşkodra",
   s:[{f:"1281-01-01",t:"1478-06-15",d:"arnavutluk"},
      {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
@@ -150,7 +150,7 @@ window.YERLESIMLER_OK104 = [
 //                   yer:"Akçahisar (Kruja), Drivasto, LEŞ".
 // ⚠️ `1393-05-01` külliyatta YOKTU (±30 günde 0 madde) — maddesi aynı turda
 //    `data/olaylar_ok104.js`e yazıldı. Nokta maddesiz inseydi `2s` açılırdı.
-{ ad:"Leş (Alessio)", tur:"liman", lat:41.783, lon:19.644, g:0, k:3, m:"İşkodra",
+{ ad:"Leş (Alessio)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:3,m:"İşkodra"}], tur:"liman", lat:41.783, lon:19.644, g:0, k:3, m:"İşkodra",
   s:[{f:"1281-01-01",t:"1356-01-01",d:"sirbistan-nemanjic"},{f:"1356-01-01",t:"1387-01-01",d:"zeta"},{f:"1387-01-01",t:"1393-05-01",d:"dukagin"},{f:"1393-05-01",t:"1478-06-15",d:"venedik"},{f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV les · TDV iskender-bey" },
@@ -211,7 +211,7 @@ window.YERLESIMLER_OK104 = [
 // TDV `zeydiyye`: "Yahyâ b. Hüseyin, ölümüne kadar (298/911) özellikle Kuzey
 // Yemen'de SA'DE MERKEZLİ Zeydî hâkimiyetini güçlendirdi." Madde Sa'de'yi
 // 14 kez anıyor; imamlığın çekirdek şehridir.
-{ ad:"Sa'de", tur:"sehir", lat:16.940, lon:43.764, g:0, k:3, m:"Sana",
+{ ad:"Sa'de", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:3,m:"Sana"}], tur:"sehir", lat:16.940, lon:43.764, g:0, k:3, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
      {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
@@ -225,7 +225,7 @@ window.YERLESIMLER_OK104 = [
 //    dayanağı TDV DEĞİL, standart akademik literatürdür.
 //    ⇒ Koordinatöre soru: bu kayıt kalsın mı, yoksa `bulunamadı` diye geri mi
 //      çekilsin? Ben yazdım ve ETİKETLEDİM; silme kararı senin.
-{ ad:"Şehâre", tur:"kale", lat:16.183, lon:43.723, g:0, k:4, m:"Sana",
+{ ad:"Şehâre", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:16.183, lon:43.723, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
      {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
@@ -234,7 +234,7 @@ window.YERLESIMLER_OK104 = [
 // ── KEVKEBÂN (Kawkaban) ───────────────────────────────────────────────────
 // ⚠️ Şehâre ile aynı kaynak durumu: TDV `kevkeban` ölü slug (HTTP 302),
 //    `zeydiyye` maddesinde adı geçmiyor. Aynı şart, aynı etiket.
-{ ad:"Kevkebân", tur:"kale", lat:15.503, lon:43.899, g:0, k:4, m:"Sana",
+{ ad:"Kevkebân", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:15.503, lon:43.899, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
      {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],

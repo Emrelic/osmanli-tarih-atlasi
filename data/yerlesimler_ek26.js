@@ -110,7 +110,7 @@ window.YERLESIMLER_EK26 = [
 //    değiştirilmedi — çünkü `1514-01-01` yazmak Çaldıran'dan (1514-08-23)
 //    ÖNCEYE düşerdi, yani daha kaba bir tarih DAHA YANLIŞ olurdu.
 // 📌 Bu düzeltme TARİHE DOKUNMAZ, yalnız DAYANAĞI doğru gösterir.
-{ ad:"Doğubayazıt",neden:"akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyor ve KORUNDU: TDV yılı (1514) doğruluyor, günü vermiyor. Gün külliyat içi devralmadır, kaynak DEĞİLDİR — açıkça damgalandı.",kaynak:"TDV `dogubayazit` — 1514 YILI kaynaklı: \"1514'te Yavuz Sultan Selim tarafından Osmanlı topraklarına katıldı\". GÜN kaynaksız: 1514-09-06 külliyat içi (Tebriz'e giriş günü, 19 kayıt paylaşıyor).", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
+{ ad:"Doğubayazıt", kd:[{f:"1281-01-01",t:"1514-09-06",k:0,m:null},{f:"1514-09-06",t:"1923-10-29",k:3,m:"Erzurum"}],neden:"akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyor ve KORUNDU: TDV yılı (1514) doğruluyor, günü vermiyor. Gün külliyat içi devralmadır, kaynak DEĞİLDİR — açıkça damgalandı.",kaynak:"TDV `dogubayazit` — 1514 YILI kaynaklı: \"1514'te Yavuz Sultan Selim tarafından Osmanlı topraklarına katıldı\". GÜN kaynaksız: 1514-09-06 külliyat içi (Tebriz'e giriş günü, 19 kayıt paylaşıyor).", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1514-09-06",t:"1920-04-23"}], v:[] },
 

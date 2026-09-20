@@ -123,7 +123,7 @@ window.YERLESIMLER_EK23 = [
 // Anakara Assos yarımadası 181 yıl boyunca Ceneviz boyanıyordu; Karesi
 // ilhakında (1345) Edremit ve Çanakkale Osmanlı olurken arada kalıyordu.
 // Tek başına ölçüldü: 1350-1440 arası **851 km²** (ceneviz→OSM 489 · bizans→OSM 362).
-{ ad:"Behramkale (Assos)", tur:"kale", lat:39.4897, lon:26.3376, g:0, k:4, m:"Bursa",
+{ ad:"Behramkale (Assos)", kd:[{f:"1281-01-01",t:"1345-01-01",k:0,m:null},{f:"1345-01-01",t:"1923-10-29",k:4,m:"Bursa"}], tur:"kale", lat:39.4897, lon:26.3376, g:0, k:4, m:"Bursa",
   s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },

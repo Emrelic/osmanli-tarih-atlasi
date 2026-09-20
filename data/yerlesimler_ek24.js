@@ -122,7 +122,7 @@ window.YERLESIMLER_EK24 = [
 //    bir milim bozulmuyor. `ek24`in kendi kabul ettiği yöntem: bkz. yukarıda
 //    "1368 KULLANILMADI: maddesi yok… kronolojide karşılığı olan güne çekildi,
 //    uydurulmadı". kaynak: bulunamadı — TDV bu taneciği kapsamıyor
-{ ad:"Elhova (Elhovo)", tur:"kasaba", lat:42.170, lon:26.573, g:0, k:3, m:"Edirne",
+{ ad:"Elhova (Elhovo)", kd:[{f:"1281-01-01",t:"1369-01-01",k:0,m:null},{f:"1369-01-01",t:"1923-10-29",k:3,m:"Edirne"}], tur:"kasaba", lat:42.170, lon:26.573, g:0, k:3, m:"Edirne",
   s:[{f:"1281-01-01",t:"1369-01-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1923-10-29",d:"bulgaristan-kralligi"}],
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize · Timurtaş Kızılcaağaç Yenicesi — YIL 1369, gün yok (§4)"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 

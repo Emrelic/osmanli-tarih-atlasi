@@ -135,7 +135,7 @@ window.YERLESIMLER_EK_ADALAR = [
 //   kopyalanmadı: 1825-1828 Mısır işgali Mora anakarasındaydı, adaya
 //   uzandığı ölçülmedi. Ölçülmeyeni yazmamak, yanlış yazmaktan iyidir.
 // KAYNAK: konuyu kapsayan en yakın CANLI TDV maddesi `mora` (200).
-{ ad:"Elafonisos (Cervi)", tur:"kasaba", lat:36.4936, lon:22.9756, g:0, k:4,
+{ ad:"Elafonisos (Cervi)", kd:[{f:"1281-01-01",t:"1460-05-29",k:0,m:null},{f:"1460-05-29",t:"1923-10-29",k:4,m:"Mora (Tripoliçe)"}], tur:"kasaba", lat:36.4936, lon:22.9756, g:0, k:4,
   m:"Mora (Tripoliçe)",
   kaynak:"mora — Elafonisos'un müstakil TDV maddesi YOK (slug 302); ada Mora'nın 400 m açığında ve Pasarofça'nın Venedik mülk listesinde geçmiyor. HÜKÜM ÇIKARIMDIR, ölçüm değildir; üç ayağı dosya başında açıkça yazılıdır.",
   s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},

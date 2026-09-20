@@ -35,7 +35,7 @@ window.YERLESIMLER_EK_BOSLUK = [
 // daha öncesinde Moğol istilâsı ve Karakoyunlu dönemi.
 // 🔴 GÜN SEÇİMİ: Mercidâbık 1516-08-24 ve o gün külliyatta ZATEN MADDELİ
 //    (ölçüldü: 1 madde) ⇒ Değişmez 2 açılmıyor, yeni gün yaratılmadı.
-{ad:"Birecik", tur:"sehir", lat:37.025, lon:37.977, g:1, k:3,
+{ad:"Birecik", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Urfa"}], tur:"sehir", lat:37.025, lon:37.977, g:1, k:3,
  m:"Urfa",
  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
  d:[{f:"1516-08-24",t:"1920-04-23"}],

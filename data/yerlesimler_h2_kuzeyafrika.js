@@ -399,12 +399,12 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cufre vahaları — Sokna'nın (29,070/15,792) doğu komşusu.
-  { ad:"Vaddân (Cufre)",kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
+  { ad:"Vaddân (Cufre)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
-  { ad:"Zilla (Zella)",kaynak:"fizan", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
+  { ad:"Zilla (Zella)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
