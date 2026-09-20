@@ -146450,5 +146450,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4749",
+  "zaman": "2026-09-20 17:14",
+  "kimden": "1.MURAT",
+  "kime": "HAZIR KITAS OPUS 2009 1712",
+  "kimden_kimlik": "",
+  "mesaj": "TARIH-SUPHE-0920 Yeni adın bu. Pencere adını da kendin çevir: set_session_title(\"self\", \"TARIH-SUPHE-0920 · veride üç tarih şüphesi (Opus)\"). Bekçini yeni adla yeniden kur (eskisini TaskStop). Görev: bugün üç işçinin ÖLÇÜP bildirdiği ama dokunmadığı üç tarih şüphesini kaynağa oturt. Her biri ayrı; sırayla git, her birinde önce ölç sonra karar ver. ① **1515 Dulkadir** (EKOKUMA-SIMGE-0070 bildirdi, `denetim/YER-GENISLETME-0920.md`): atlas Göksun/Gürün/Zamantı'yı 1515-06-13'te (Turnadağ) dulkadir'den çıkarıyor; TDV ilhakı Turnadağ'a DEĞİL Şehsuvaroğlu Ali Bey'in öldürülmesinden sonrasına bağlıyor (\"…Dulkadirli ülkesi Osmanlı topraklarına katılarak Maraş merkez olmak üzere bir eyalet…\"). Hangi gün doğru: savaşın günü mü, ilhakın günü mü? İkisi ayrı olaysa veri ikiye ayrılmalı mı? ② **1543 Segedin** (aynı rapor): TDV Osmanlı idaresini 1541-43 başına bağlıyor ve Estergon seferiyle bağ KURMUYOR; atlasın 1543-08-10 günü nereden geliyor, doğru mu? ③ **Bolayır + Maydos** (üç satır: 1354 · 1366 · 1376): TDV'de Bolayır maddesi YOK, Gelibolu gövdesi Bolayır'ı yalnız Süleyman Paşa türbesi vesilesiyle anıyor. Akademik kaynakla (Osmanlı'nın Rumeli'ye geçişi literatürü) bu üç tarihi ve yerlerin el değiştirmesini doğrula. YÖNTEM: TDV birincil, yoksa akademik künye; gün kaynaktan, yoksa ay/yıl hassasiyetine İN ve kayda açıkça yaz (sahte kesinlik yasak). Atlasın kendi kaydı dayanak DEĞİL. Değişiklik bir kırılmayı açabilir — ÖNGÖRÜNÜ ÖNCE YAZ, sonra `py arac/denetle.py` ile ölç; açılan kırılmanın maddesi yoksa yaz (kaynaklı) ya da bildir. Dosya: ilgili `data/yerlesimler*.js` ve `data/olaylar*.js` kayıtlarının yalnız tarih/kaynak alanları + `denetim/TARIH-SUPHE-0920.md`. data/ commit'i deneme, teslimde dosyaları tek tek say. Motor koşusu yok. Ekrana durum yazma. Teslim TEK mesaj.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
