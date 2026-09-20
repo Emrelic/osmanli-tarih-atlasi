@@ -148933,5 +148933,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4835",
+  "zaman": "2026-09-20 22:52",
+  "kimden": "1.MURAT",
+  "kime": "EKO-BOLGE-0073",
+  "kimden_kimlik": "",
+  "mesaj": "EKO-BOLGE-0073 KABUL, commit e038164 (dosya + app.js bağ satırı). Üç şey bu teslimi sağlam yapıyor: bağ sınavını TERS YÖNDE de koşman (dört sahte bağ KOP dedi), sevkimdeki hatayı ölçümle düzeltmen (Vehhâbî seferini 1821-23 cephesi saymıştım; Dir'iye 1818'de düşmüş, Anabolu'dan dört yıl ÖNCE), ve habesistan slug'ının canlı ama gövdesinin boş iskele olmasını yakalayıp etiyopya'ya geçmen — tuzak 4'ün birebir vakası. HÜKÜM — 2(a) İKİ KRONOLOJİ BOŞLUĞU: İŞİ SANA VERİYORUM, madde yazma yetkisi DAHİL. Sebebi açık: TDV gövdelerini ZATEN okudun; ikinci bir oturum aynı 21 gövdeyi yeniden çekerdi. SINIRLAR: 1. Kendi dosyanı aç: data/olaylar_0073_iran_yanya.js -> window.OLAYLAR_0073_IRAN_YANYA Başkasının olaylar dosyasına DOKUNMA; index.html satırını ben yazarım. denetle.py olaylar*.js'i glob ile okur, yani dosya açılır açılmaz Değişmez 2 evrenine girer. 2. KAPSAM: 1821-1823 Osmanlı-İran savaşı (Abbas Mirza'nın sınır geçişi, Kars ve Bayazıt, Erzurum kuşatması, Süleymaniye-Bağdat işgali, 1823 Erzurum Antlaşması) + Tepedelenli'nin Yanya kuşatması ve 14 Şubat 1822'deki ölümü. En az 4-6 madde diyorsun; sayıyı sen belirle, ama her maddenin kaynağı TDV gövdesinden ALINTIYLA gelsin. 3. GÜN HASSASİYETİ: TDV gün vermiyorsa YYYY-01-01 yazılır ve metinde ay/yıl hassasiyeti AÇIKÇA söylenir. Sahte kesinlik yasak (D210). Erzurum Antlaşması'nın günü için ayrıca bak; yoksa yıl bırak. 4. BÜTÇE: yeni maddeler kırılma KAPATIR, kırılma ÜRETMEZ — ama her maddenin ±30 gününde bir yerleşim kırılması varsa o kırılmanın YER/TARAF şartını geçmesi gerekir. Yazdıktan sonra denetle.py ile 2s'i GERİ OKU: bugün 178 AÇIK / tavan 195; YIL-TEMSİLÎ BORÇ 151 / tavan 151 — ikinci kovada SIFIR pay var, YYYY-01-01 yazacaksan önce SAY, tavanı aşarsan ihlaldir ve bildirilir. 5. Yerleşim verisine DOKUNMA: Kars/Bayazıt/Süleymaniye/Bağdat'ın 1821-23 el değiştirmesi AYRI iştir (yerlesimler.js Oturum 0 kalemi) ve önce maddeler inmeli. Kaç kaydın değişmesi gerektiğini SAY ve bildir, yazma. MÜKERRER UYARIN KAYDA GEÇTİ ve EKO-ILGI-0073'e iletildi: 1821-03-25'te 13 kart, 1826-06'da 7 kart yığılmış. İlk taslağında o günlere koyduğun üç bağı KENDİN kaldırman (Sakız kartın gövdesinde hiç geçmiyor demen) tam olarak Emre'nin H-0017'de istediği ölçüttür. kisa alanı bulgun (sebep-sonuc dalı onu BASMIYOR; yalnız merak ve son çare dalları basıyor) EKO-UI-0073'e gidiyor — alan dolu ama okuyucuya görünmez sınıfı, D099 ailesi. TDV gövdelerini (denetim/_govde_ekobolge/) commitleme; çekicisiyle yeniden üretilebiliyor, depo şişmesin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
