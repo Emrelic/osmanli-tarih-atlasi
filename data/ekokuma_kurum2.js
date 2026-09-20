@@ -50,7 +50,7 @@ window.EKOKUMA_KURUM2 = [
     +"■ TARİHSEL ÖNEMİ\n"
     +"TDV, kurumu Türk eğitim tarihinde 'modern anlamda ilk defa kurulan mektep' olarak nitelendiriyor; bugünkü Deniz Harp Okulu'nun temelini oluşturur.",
   kesinlik:"kesin",
-  olay:["1775-04-29|Mühendishâne-i Bahrî-i Hümâyun (Fransız arşiv tarihi)","1795-01-01|Mühendishâne-i Berrî-i Hümâyun ayrıldı"],
+  olay:["1775-04-29|Mühendishâne","1795-01-01|Mühendishâne-i Berrî-i Hümâyun ayrıldı"],
   kaynak:"TDV: muhendishane-i-bahri-i-humayun" },
 
 // ── H-0016 · Osmanlı vergi sistemi ──────────────────────────────────────────
@@ -71,7 +71,7 @@ window.EKOKUMA_KURUM2 = [
     +"■ ESHAM İLE BAĞI (1775)\n"
     +"Esham, bir vergi TÜRÜ değildi — mukātaa (vergi kaynağı) gelirinin hisselere bölünüp satıldığı bir BORÇLANMA yöntemiydi; Küçük Kaynarca'nın 7,5 milyon kuruşluk tazminat yükü karşısında 1775'te ihdas edildi (bk. data/olaylar_ek14.js, 1775-06-01). Yani devlet doğrudan vergiyi artırmak yerine, gelecekteki vergi/mukātaa gelirini bugünden nakde çevirdi — bu, klasik tekâlîf sisteminin dışında, ona EK bir mali araçtı.",
   kesinlik:"kesin",
-  olay:["1775-06-01|Esham sisteminin ihdası","1856-01-01|Islahat Fermanı (cizyenin kaldırılışı)"],
+  olay:["1775-06-01|Esham sisteminin ihdası","1856-02-18|Islahat Fermanı"],
   kaynak:"TDV: vergi · cizye" },
 
 // ============================================================================
@@ -114,7 +114,7 @@ window.EKOKUMA_KURUM2 = [
     +"■ İLGİNÇ AYRINTI — VERGİDEN DEĞİL YENİ BİR HAZİNEDEN\n"
     +"Reformun finansmanı mevcut tekâlif sistemine (bk. ayrı kart: Osmanlı vergi sistemi) ek yük bindirmek yerine AYRI bir hazine (İrâd-ı Cedîd) kurularak sağlandı — yani III. Selim, yeni orduyu eski vergi düzenine dokunmadan, kendi kendine yetecek bir mali yapı içinde finanse etmeye çalıştı.",
   kesinlik:"kesin",
-  olay:["1791-08-11|Şumnu kararı","1807-05-25|Kabakçı İsyanı başladı"],
+  olay:["1791-08-11|Kalas","1807-05-25|Kabakçı"],
   kaynak:"TDV: nizam-i-cedid" }
 
 ];

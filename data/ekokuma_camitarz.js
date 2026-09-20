@@ -53,7 +53,7 @@ window.EKOKUMA_CAMITARZ = [
       "Nusretiye Camii, klasik/Sinan döneminin sade geometrik dili ile Osmanlı barokunun (Nuruosmaniye) kavisli cephelerinin ötesine geçip Avrupa'nın 19. yüzyıl üslup repertuarını doğrudan camiye taşıyan bir dönemin örneğidir; aynı üslup anlayışı birkaç on yıl sonra bir saray yapısı olarak Dolmabahçe'de de sürecektir.",
     not: "Kart yalnız camiyi anlatır; Dolmabahçe Sarayı (aynı üslup dönemi, ama bir saray) ayrı bir kartta işlenmiştir, burada tekrarlanmadı.",
     kesinlik: "kesin",
-    olay: ["1826-06"],
+    olay: ["1826-06-15|Hayriyye"],
     kaynak: "TDV İslâm Ansiklopedisi, \"Nusretiye Camii\" — https://islamansiklopedisi.org.tr/nusretiye-camii",
   },
 ];

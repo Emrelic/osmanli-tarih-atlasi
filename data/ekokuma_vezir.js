@@ -168,7 +168,7 @@ window.EKOKUMA_VEZIR = [
   metin:"1522 dolayında doğdu, devşirme usulüyle saraya alındı ve orada yetişti; 1575-1580 arasında Yemen beylerbeyiliği yaptı, ardından yasa dışı servet biriktirdiği şüphesiyle Yedikule zindanına kapatıldı. Serbest kaldıktan sonra askerî alanda öne çıktı: 1596 Haçova Meydan Muharebesi'ne katıldı, 1585 Tebriz seferinde atıyla birlikte bir kuyuya düşmesiyle 'Kuyucu' lakabını kazandığı rivayet edilir. Aralık 1606'da vezîriâzam oldu ve Anadolu'yu kasıp kavuran Celâlî isyanlarını bastırmaya odaklandı: Canbolatoğlu Ali Paşa'yı 23-24 Ekim 1607'de Oruç Ovası'nda, Kalenderoğlu Mehmed'i 9 Ağustos 1608'de Alaçayır'da ağır yenilgiye uğrattı. TDV'nin verdiği rivayete göre bu tasfiyede 60-70 bin dolayında Celâlî ortadan kaldırıldı; öldürdüğü isyancıları derin kuyulara doldurduğu rivayeti de lakabının bir başka açıklamasıdır. Diplomaside Habsburglarla 1606 Zitvatorok Antlaşması'nı sonuçlandırdı ve mali istikrarı yeniden kurmaya çalıştı. Ağustos 1611'de, yaklaşık doksan yaşındayken, rakibi Nasuh Paşa tarafından zehirlendiği iddiasıyla öldü; İstanbul'daki külliyesi bugün de ayaktadır.",
   not:"TDV, hem 60-70 bin rakamını hem de 'kuyulara doldurma' ayrıntısını 'rivayet edilir' diye vermiş, olgu olarak sunmamıştır — bu atlas da aynı ihtiyatla aktarır.",
   kesinlik:"tartismali",
-  olay:["1607-10-23"],
+  olay:["1607-10-24|Canbolatoğlu"],
   kaynak:"TDV: kuyucu-murad-pasa" },
 
 // ── 14 · Köprülü Mehmed Paşa (H-0067) ───────────────────────────────────────

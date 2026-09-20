@@ -356,7 +356,7 @@ window.EKOKUMA_SAVAS = [
   "tartisma": "① Tarih: TDV `hacova-meydan-savasi` ilk çarpışmayı 25, asıl muharebeyi 26 Ekim 1596'ya koyarken TDV `cigalazade-sinan-pasa` savaşı '23-25 Ekim 1596' diye tarihliyor. ② Rivayet (TDV `mehmed-iii` aktarıyor): İbrâhim Paşa taraftarı tarihçi Hasanbeyzâde Ahmed ile ondan nakleden Solakzâde, Kâtib Çelebi ve Naîmâ, padişahın Eğri'den sonra İstanbul'a dönmek istediğini ve komutayı vezîriâzama bırakan bir yazı gönderdiğini, İbrâhim Paşa, Sâdeddin Efendi ve Gazanfer Ağa'nın onu kalmaya ikna ettiğini (24-25 Ekim) yazar; seferde bulunan öteki tarihçiler böyle bir olayı anmaz. ③ Kuvvet: müttefik ordusu için 50.000 ile 100.000 arasında geniş bir aralık veriliyor.",
   "kesinlik": "kesin",
   "olay": [
-    "1596-10",
+    "1596-10-26|Haçova",
     "1596-10-26|Haçova bozgunu",
     "1596-10-26|Kırım kuvvetleri",
     "1596-10-12",

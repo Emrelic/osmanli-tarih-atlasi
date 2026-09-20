@@ -99,7 +99,7 @@ window.EKOKUMA_ALEMDAR = [
   ic_not:"TARİH ÇELİŞKİSİ, KAPATILMADI: ayaklanmanın BAŞLANGICI için TDV kendi içinde üç gün veriyor — `alemdar-mustafa-pasa` \"15 Kasım 1808 gecesi başlayan\", `yeniceri` \"14 Kasım 1808'de başlayan büyük isyan\", `sekban-i-cedid` ise Bâbıâli baskınını doğrudan 16 Kasım'a koyuyor. ÖLÜM günü için ise üç madde de (+ Bayrak 2009) 16 Kasım'da birleşiyor; atlas kaydı bu yüzden 1808-11-16'ya çekildi, başlangıç günü hiçbir yere YAZILMADI. BULUNAMADI: II. Mahmud'un o gece ne yaptığına dair birinci elden bir tanıklık (Câbî Ömer Efendi, Şânîzâde, Georg Oğulukyan'ın rûznâmesi) bu oturumda açılamadı; üç okuma da ikincil künyelerin cümlelerinden çıkarıldı, padişahın niyetine dair KAYNAK CÜMLESİ yok — kart bu yüzden hüküm vermiyor." },
 
 { id:"ruslara-niye-direnilemedi-1806-1812", tur:"tartisma",
-  olay:["1810-07-01|Sohum","1810-09-26|Rusçuk"],
+  olay:["1810-07-11|Sohum","1810-09-26|Rusçuk"],
   zincir:["alemdar-vakasi-mahmudun-tavri","ayanlik-isyan-mi-ozerklik-mi"],
   baslik:"Osmanlı 1806-1812'de Ruslara niçin direnemedi — ordu mu, teknik mi, lojistik mi, iç kavga mı?",
   ozet:"1810 yazında Sohum, sonbaharında Rusçuk elden çıktı. \"Rus ordusu daha mı kalabalıktı, teknik olarak daha mı ileriydi?\" sorusunun tek cümlelik bir cevabı yok: açılan kaynaklar en az beş ayrı sebep gösteriyor ve bunlar birbirini besliyor. Kart hiçbirini tek sebep ilân etmiyor.",

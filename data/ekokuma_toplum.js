@@ -104,7 +104,7 @@ window.EKOKUMA_TOPLUM = [
   metin:"Mehter, Batı müziğini XIX. yüzyıl Avrupa'sında da etkilemiş bir ihraç ürünüydü ('Türk marşı' modası, Mozart ve Beethoven'ın mehter esinli eserleri) — ama kendi vatanında modernleşme dalgasının ilk kurbanlarından biri oldu; yerini alan Muzıka-yi Hümâyun'un ilk şefi bizzat Giuseppe Donizetti'ydi (besteci Gaetano Donizetti'nin ağabeyi).",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1826-06","1826-07-31"],
+  olay:["1826-06-15|Hayriyye","1826-07-31"],
   kaynak:"TDV: mehter" },
 
 // ═══ H-0054 — el sanatları/atölyecilik (yalnız matbaacılık) ════════════════
@@ -194,7 +194,10 @@ window.EKOKUMA_TOPLUM = [
   metin:"Fabrika 1925'te şapka kanunuyla fes üretiminin yasaklanmasına kadar faaliyetini sürdürdü. Osmanlı'nın bu tekil başarı öyküsü, tımar ve Avrupa feodalizmi arasındaki yapısal farkla birlikte okunmalı: neden bu tür girişimler tek tek devlet fabrikaları olarak kaldı, İngiltere'deki gibi özel sermayeli bir sanayi devrimine dönüşmedi — bu soru burada ayrıca işlenmedi.",
   kesinlik:"kesin",
   zincir:["timar-avrupa-feodalizm-farki"],
-  olay:["1826-06","1833-06-01"],
+  // EKO-ILGI-0073 (0073/H-0018, Emre: "feshane maddesinin de alakası pek yok"):
+  // Vak'a-i Hayriyye bağı kaldırıldı. Kart Feshâne'nin KURULUŞUNU anlatıyor —
+  // kendi maddesi 1833-06-01; 1826 yalnız fesin arka planıydı, kartın konusu değil.
+  olay:["1833-06-01"],
   kaynak:"TDV: feshane" },
 
 // ═══ H-0121 — esnaf ve zanaatkarlar ═════════════════════════════════════════

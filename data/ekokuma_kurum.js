@@ -59,7 +59,7 @@ window.EKOKUMA_KURUM = [
     +"■ SERDAR-I EKREM\n"
     +"Padişah bizzat sefere çıkmadığında orduya tam yetkiyle kumanda eden vezire verilen unvandır — çoğunlukla sadrazamın kendisiydi, ama başka bir vezire de verilebilirdi; yetkisi padişah adına savaş ve barış kararı almaya kadar uzanırdı.",
   kesinlik:"kesin",
-  olay:["1453-05-29|Çandarlı Halil","1425-01-01|Molla Fenârî"],
+  olay:["1453-06-01|Çandarlı Halil","1425-01-01|Molla Fenârî"],
   kaynak:"TDV: vezir · kazasker · defterdar · seyhulislam · kethuda" },
 
 // ── H-0032 · Osmanlı idari yapısı ve değişimi ───────────────────────────────
@@ -72,7 +72,12 @@ window.EKOKUMA_KURUM = [
     +"■ TAŞRA: EYALET VE SANCAK\n"
     +"Merkezin dışında idare eyalet (beylerbeylik) ve onun alt birimi sancak üzerine kuruluydu; her kademenin kendi kadısı, defterdarı ve askerî-idarî amiri vardı — merkezdeki bakanlık modelinin küçültülmüş bir kopyası gibi işlerdi. Klasik dönemde eyalet-sancak sistemi tımarlı sipahi düzenine bağlıydı; 17. yüzyıldan itibaren merkezi hazineye bağlı iltizam/malikâne usulleri öne çıktıkça bu bağ zayıfladı (bkz. ayrı kart: İltizam sistemi).",
   kesinlik:"kesin",
-  olay:["1826-06-15|Vaka-i Hayriye"],
+  // EKO-ILGI-0073 (0073/H-0018, Emre): bu kart Vak'a-i Hayriyye maddesinde
+  // görünüyordu ve Emre "alakası yok" dedi. İki kusur birden vardı:
+  // ① "1826-06-15" diye bir kronoloji günü YOK (madde 1826-06) — bağ ÖKSÜZDÜ,
+  // ② kartın konusu Divan-ı Hümayun → Bâbıâli geçişi, ocağın kaldırılışı değil.
+  // Kendi konusunun maddesine taşındı (OLAYLAR_EK14, 1451-06-01).
+  olay:["1451-06-01|Divan-ı Hümayun"],
   kaynak:"TDV: divan-i-humayun" },
 
 // ── H-0051 · Narh defterleri ─────────────────────────────────────────────────
@@ -236,7 +241,10 @@ window.EKOKUMA_KURUM = [
     +"Tarihçiliğin ötesinde en kalıcı mirası hukuk alanındadır: Mecelle'nin (Osmanlı medenî kanunu, İslam devletleri arasında bu türün ilk derlemesi) hazırlanmasına öncülük etti; Fransız hukukunun toptan alınmasına karşı çıkıp yerli fıkıh birikiminin güncel ihtiyaca uyarlanmasını savundu. Ayrıca Dîvân-ı Ahkâm-ı Adliyye (temyiz mahkemesi) ve Mekteb-i Hukuk (hukuk okulu) gibi modern adlî kurumları kurdu — Osmanlı hukuk altyapısını kökten yeniden şekillendirdi.\n\n"
     +"TDV'ye göre klasik ve modern Osmanlı tarihçiliği arasında bir köprü kurdu: geleneksel anlatı biçimini sistemli kaynak değerlendirmesi ve karşılaştırmalı analizle birleştirdi; eğitim reformları ve dil çalışmalarıyla da Türk fikir hayatını etkiledi.",
   kesinlik:"kesin",
-  olay:["1774-07-21|Küçük Kaynarca","1826-06-15|Vaka-i Hayriye"],
+  // EKO-ILGI-0073: "1826-06-15" diye bir kronoloji günü yok (madde 1826-06) —
+  // bağ öksüzdü, kart bu maddede HİÇ çıkmıyordu. Gün düzeltildi (ilgi doğru:
+  // Târîh-i Cevdet tam 1774-1826 arasını anlatır).
+  olay:["1774-07-21|Küçük Kaynarca","1826-06-15|Hayriyye"],
   kaynak:"TDV: cevdet-pasa" },
 
 // ── H-0093 · Cezayir'de dayı idaresi ────────────────────────────────────────

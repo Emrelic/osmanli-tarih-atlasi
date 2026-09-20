@@ -6,7 +6,10 @@
 // 17 Eylül 2026 · UYGULA-2: YAMA-0057-OLAY-2 (B8) — 13 bağsız kartın 6'sı için data/olaylar_p0057b.js'e
 // yazılan YENİ maddelerin bağları eklendi (son altı satır). 7 kart kaynağın tarih vermemesi yüzünden bağsız kaldı.
 window.EKOBAG_ONERI = {
-"teknik-osmanli-idari-yapi-degisimi": ["1826-06|Yeniçeri Ocağı"],
+// EKO-ILGI-0073 (0073/H-0018): bu ÖNERİ kaydın kendi `olay:`ını EZDİĞİ için kartı
+// Vak'a-i Hayriyye maddesinde tutan asıl sebep buydu. Kartın konusu Divan-ı Hümayun
+// → Bâbıâli geçişi; kendi maddesine taşındı (data/ekokuma_kurum.js de düzeltildi).
+"teknik-osmanli-idari-yapi-degisimi": ["1451-06-01|Divan-ı Hümayun"],
 "teknik-narh-defterleri": ["1640-06-01|narh defteri"],
 "teknik-osmanli-egitim-sistemi": ["1470-06-01|Sahn-ı Semân"],
 "teknik-osmanli-tabi-statu-listesi": ["1456-06-01|Boğdan'ın haraca bağlanışı", "1475-07-01|Kırım Hanlığı"],

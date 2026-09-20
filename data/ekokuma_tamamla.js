@@ -76,7 +76,13 @@ window.EKOKUMA_TAMAMLA = [
     +"■ SONU\n"
     +"Güreşçi tekkelerinin II. Mahmud'un 1826'daki reformlarıyla (Yeniçeri Ocağı'nın kaldırılışıyla aynı dalgada) kapandığı değerlendirilir.",
   kesinlik:"kesin",
-  olay:["1826-06","1826-07-31"],
+  // EKO-ILGI-0073 (0073/H-0018, Emre: "şu maddenin de hiç alakası yok"): kart
+  // Vak'a-i Hayriyye VE onun Rusya kronolojisindeki ikizine bağlıydı; ikisi de
+  // ocağın kaldırılışı, kartın konusu ise GÜREŞ. Kendi konusunun iki maddesi
+  // kronolojide ZATEN VARDI (OLAYLAR_EK14) — kart oraya taşındı, silinmedi.
+  // Tekkelerin 1826'da kapanışı metnin SONUNDA duruyor; bağ o cümleden değil
+  // kartın KONUSUNDAN kurulur (Emre'nin ölçütü).
+  olay:["1357-06-01|Kırkpınar","1504-01-01|Kırkpınar"],
   kaynak:"TDV: gures · TDV: kirkpinar · TDV: spor",
   ic_not:"EKO-TAMAMLA — DALGA-0052 H-0029 tamamlama (1/2, SPOR ekseni). EKO-TOPLUM'un kahve-kahvehane-yasagi/tutun-yasagi-kaldirilmasi kartları (data/ekokuma_toplum.js) AYNI maddenin kahve+tütün eksenini kapsıyordu; H-0029'un istediği 'spor müsabakaları (güreş/cirit/okçuluk)' kısmı EKO-TOPLUM'un kendi raporunda (denetim/EKO-TOPLUM-0916.md) açıkça 'ARAŞTIRILMADI' diye işaretliydi — bu kart onu kapatıyor. Cirit ve okçuluk için bu turda AYRI bir TDV taraması yapılamadı (zaman kısıtı) — 'spor' maddesinin gövdesi ağırlıkla güreşe odaklanıyor, kartta yalnız güreş yazıldı, cirit/okçuluk BULUNAMADI diye kaydediliyor. Kahvehane KÜLTÜRÜ (mekân olarak toplumsal işlevi) zaten kahve-kahvehane-yasagi kartının metninde var, burada TEKRARLANMADI. Tekke kapanış tarihi, mehter-yeniceriyle-birlikte-lagvi kartıyla (ekokuma_toplum.js) AYNI olaya (II. Mahmud'un 1826 reformu) bağlandı — TDV gures maddesi de kapanışı bu dalgaya bağlıyor, ayrı bir gün UYDURULMADI." },
 
