@@ -1,0 +1,1922 @@
+{
+ "adet_yerel": 261,
+ "adet_disari": 2,
+ "eksik": [
+  "data/dolgu.js"
+ ],
+ "damgasiz": [],
+ "toplam_ham_mb": 157.58,
+ "toplam_gzip_mb": 43.85,
+ "klasor": {
+  "data": {
+   "adet": 253,
+   "ham_mb": 156.64,
+   "gzip_mb": 43.51
+  },
+  "js": {
+   "adet": 7,
+   "ham_mb": 0.83,
+   "gzip_mb": 0.3
+  },
+  "css": {
+   "adet": 1,
+   "ham_mb": 0.11,
+   "gzip_mb": 0.04
+  }
+ },
+ "en_buyuk": [
+  {
+   "yol": "data/devletler_harita.js",
+   "ham_mb": 72.3,
+   "gzip_mb": 18.1
+  },
+  {
+   "yol": "data/donemler.js",
+   "ham_mb": 58.99,
+   "gzip_mb": 17.33
+  },
+  {
+   "yol": "data/altlik.js",
+   "ham_mb": 13.17,
+   "gzip_mb": 4.69
+  },
+  {
+   "yol": "data/devletler.js",
+   "ham_mb": 0.97,
+   "gzip_mb": 0.28
+  },
+  {
+   "yol": "js/app.js",
+   "ham_mb": 0.73,
+   "gzip_mb": 0.27
+  },
+  {
+   "yol": "data/yerlesimler.js",
+   "ham_mb": 0.55,
+   "gzip_mb": 0.13
+  },
+  {
+   "yol": "data/bolgeler.js",
+   "ham_mb": 0.47,
+   "gzip_mb": 0.15
+  },
+  {
+   "yol": "data/d_sinirlar_avrupa_orta.js",
+   "ham_mb": 0.41,
+   "gzip_mb": 0.06
+  },
+  {
+   "yol": "data/olaylar_ek5.js",
+   "ham_mb": 0.34,
+   "gzip_mb": 0.11
+  },
+  {
+   "yol": "data/sinir_sinif_dizini.js",
+   "ham_mb": 0.31,
+   "gzip_mb": 0.03
+  },
+  {
+   "yol": "data/d_sinirlar_avrupa_bati.js",
+   "ham_mb": 0.29,
+   "gzip_mb": 0.05
+  },
+  {
+   "yol": "data/d_sinirlar_asya.js",
+   "ham_mb": 0.24,
+   "gzip_mb": 0.05
+  }
+ ],
+ "disari": [
+  "https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css",
+  "https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"
+ ],
+ "dosyalar": [
+  {
+   "tur": "link",
+   "yol": "css/style.css",
+   "damga": true,
+   "ham": 114829,
+   "gzip": 38036
+  },
+  {
+   "tur": "script",
+   "yol": "data/padisahlar.js",
+   "damga": true,
+   "ham": 86323,
+   "gzip": 26825
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar.js",
+   "damga": true,
+   "ham": 68188,
+   "gzip": 23763
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek.js",
+   "damga": true,
+   "ham": 58731,
+   "gzip": 18631
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek2.js",
+   "damga": true,
+   "ham": 36831,
+   "gzip": 13102
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek3.js",
+   "damga": true,
+   "ham": 16994,
+   "gzip": 6364
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek4.js",
+   "damga": true,
+   "ham": 37858,
+   "gzip": 12260
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek5.js",
+   "damga": true,
+   "ham": 351732,
+   "gzip": 110159
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek6.js",
+   "damga": true,
+   "ham": 42089,
+   "gzip": 14314
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ilirya_0072.js",
+   "damga": true,
+   "ham": 10431,
+   "gzip": 4428
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek7.js",
+   "damga": true,
+   "ham": 106742,
+   "gzip": 31521
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_7a4170.js",
+   "damga": true,
+   "ham": 9402,
+   "gzip": 4145
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek8.js",
+   "damga": true,
+   "ham": 34928,
+   "gzip": 13204
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek9.js",
+   "damga": true,
+   "ham": 41080,
+   "gzip": 14004
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek10.js",
+   "damga": true,
+   "ham": 56367,
+   "gzip": 19529
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek11.js",
+   "damga": true,
+   "ham": 22162,
+   "gzip": 8550
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek12.js",
+   "damga": true,
+   "ham": 16750,
+   "gzip": 6591
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek13.js",
+   "damga": true,
+   "ham": 40655,
+   "gzip": 13700
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek14.js",
+   "damga": true,
+   "ham": 61456,
+   "gzip": 19361
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek15.js",
+   "damga": true,
+   "ham": 15909,
+   "gzip": 6199
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek16.js",
+   "damga": true,
+   "ham": 63929,
+   "gzip": 20446
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek17.js",
+   "damga": true,
+   "ham": 32904,
+   "gzip": 13149
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek18.js",
+   "damga": true,
+   "ham": 2026,
+   "gzip": 1170
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek20.js",
+   "damga": true,
+   "ham": 28915,
+   "gzip": 11101
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek21.js",
+   "damga": true,
+   "ham": 8265,
+   "gzip": 3662
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek22.js",
+   "damga": true,
+   "ham": 2891,
+   "gzip": 1579
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ek19.js",
+   "damga": true,
+   "ham": 2346,
+   "gzip": 1449
+  },
+  {
+   "tur": "script",
+   "yol": "data/devirler.js",
+   "damga": true,
+   "ham": 126786,
+   "gzip": 36163
+  },
+  {
+   "tur": "script",
+   "yol": "data/devletler.js",
+   "damga": true,
+   "ham": 1014852,
+   "gzip": 294500
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_habsburg.js",
+   "damga": true,
+   "ham": 85361,
+   "gzip": 25461
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_rusya.js",
+   "damga": true,
+   "ham": 103565,
+   "gzip": 29405
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_lehistan.js",
+   "damga": true,
+   "ham": 78205,
+   "gzip": 23096
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_venedik.js",
+   "damga": true,
+   "ham": 58820,
+   "gzip": 17485
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_iran.js",
+   "damga": true,
+   "ham": 69331,
+   "gzip": 21180
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_bizans.js",
+   "damga": true,
+   "ham": 52759,
+   "gzip": 16140
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_memluk.js",
+   "damga": true,
+   "ham": 107869,
+   "gzip": 34439
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_kirim.js",
+   "damga": true,
+   "ham": 51325,
+   "gzip": 14929
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_macaristan.js",
+   "damga": true,
+   "ham": 88102,
+   "gzip": 26295
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_ingiltere.js",
+   "damga": true,
+   "ham": 168825,
+   "gzip": 49240
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_fransa.js",
+   "damga": true,
+   "ham": 118702,
+   "gzip": 33808
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_almanya.js",
+   "damga": true,
+   "ham": 100029,
+   "gzip": 28447
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_turkiye.js",
+   "damga": true,
+   "ham": 11285,
+   "gzip": 3993
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_komsu.js",
+   "damga": true,
+   "ham": 23385,
+   "gzip": 7851
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_guney_g8.js",
+   "damga": true,
+   "ham": 68922,
+   "gzip": 14469
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_avrupa_orta.js",
+   "damga": true,
+   "ham": 67511,
+   "gzip": 16808
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_avrupa_bati.js",
+   "damga": true,
+   "ham": 50537,
+   "gzip": 14778
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_ortadogu.js",
+   "damga": true,
+   "ham": 12968,
+   "gzip": 4623
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_afrika.js",
+   "damga": true,
+   "ham": 16656,
+   "gzip": 5475
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_asya.js",
+   "damga": true,
+   "ham": 77687,
+   "gzip": 19032
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_amerika.js",
+   "damga": true,
+   "ham": 21079,
+   "gzip": 6666
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sinir_okyanusya.js",
+   "damga": true,
+   "ham": 5884,
+   "gzip": 2393
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_cok_1dunya_A.js",
+   "damga": true,
+   "ham": 88981,
+   "gzip": 13593
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_cok_1dunya_B.js",
+   "damga": true,
+   "ham": 73733,
+   "gzip": 13280
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_italya.js",
+   "damga": true,
+   "ham": 137688,
+   "gzip": 38358
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_ispanya.js",
+   "damga": true,
+   "ham": 104966,
+   "gzip": 30825
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_portekiz.js",
+   "damga": true,
+   "ham": 69102,
+   "gzip": 20938
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_cin.js",
+   "damga": true,
+   "ham": 82665,
+   "gzip": 22715
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_hindistan.js",
+   "damga": true,
+   "ham": 83988,
+   "gzip": 23950
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_akkoyunlu.js",
+   "damga": true,
+   "ham": 53830,
+   "gzip": 15572
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_karakoyunlu.js",
+   "damga": true,
+   "ham": 47731,
+   "gzip": 13693
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_altinorda.js",
+   "damga": true,
+   "ham": 41321,
+   "gzip": 13367
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_hollanda.js",
+   "damga": true,
+   "ham": 32759,
+   "gzip": 11283
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_isvec.js",
+   "damga": true,
+   "ham": 61349,
+   "gzip": 17937
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_japonya.js",
+   "damga": true,
+   "ham": 56207,
+   "gzip": 17978
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_misir.js",
+   "damga": true,
+   "ham": 89575,
+   "gzip": 26558
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_ozbek.js",
+   "damga": true,
+   "ham": 43014,
+   "gzip": 11139
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_timurlu.js",
+   "damga": true,
+   "ham": 24761,
+   "gzip": 8362
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_anadolu.js",
+   "damga": true,
+   "ham": 149246,
+   "gzip": 39583
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_arabistan.js",
+   "damga": true,
+   "ham": 46588,
+   "gzip": 13910
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_atina_dukaligi.js",
+   "damga": true,
+   "ham": 18900,
+   "gzip": 6313
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_balkan.js",
+   "damga": true,
+   "ham": 132397,
+   "gzip": 36747
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_dogu_afrika.js",
+   "damga": true,
+   "ham": 163837,
+   "gzip": 41158
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_guney_asya.js",
+   "damga": true,
+   "ham": 108464,
+   "gzip": 30055
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_gurcistan.js",
+   "damga": true,
+   "ham": 31385,
+   "gzip": 9783
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_iran_ardillari.js",
+   "damga": true,
+   "ham": 123719,
+   "gzip": 36088
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_italya_sehir.js",
+   "damga": true,
+   "ham": 131412,
+   "gzip": 39256
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_katalan.js",
+   "damga": true,
+   "ham": 7407,
+   "gzip": 2907
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_kuzeyafrika.js",
+   "damga": true,
+   "ham": 48688,
+   "gzip": 12747
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_2s_0918.js",
+   "damga": true,
+   "ham": 23334,
+   "gzip": 8485
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ortadogu_0919.js",
+   "damga": true,
+   "ham": 5320,
+   "gzip": 2505
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_2s_0919.js",
+   "damga": true,
+   "ham": 62897,
+   "gzip": 17372
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_amerika_0920.js",
+   "damga": true,
+   "ham": 32397,
+   "gzip": 9510
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_2s_0920.js",
+   "damga": true,
+   "ham": 21126,
+   "gzip": 6626
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_misir1801.js",
+   "damga": true,
+   "ham": 4666,
+   "gzip": 2142
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_senusi_0919.js",
+   "damga": true,
+   "ham": 6840,
+   "gzip": 3103
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_sessiz_borc_0919.js",
+   "damga": true,
+   "ham": 6501,
+   "gzip": 3136
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0069.js",
+   "damga": true,
+   "ham": 8583,
+   "gzip": 3267
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ebukir_0919.js",
+   "damga": true,
+   "ham": 2757,
+   "gzip": 1414
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_naksa_dukaligi.js",
+   "damga": true,
+   "ham": 17732,
+   "gzip": 5852
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_orta_asya.js",
+   "damga": true,
+   "ham": 141457,
+   "gzip": 42097
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_rodos_sovalyeleri.js",
+   "damga": true,
+   "ham": 70378,
+   "gzip": 21530
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_safevi.js",
+   "damga": true,
+   "ham": 54400,
+   "gzip": 17978
+  },
+  {
+   "tur": "script",
+   "yol": "data/kronoloji_sirbistan.js",
+   "damga": true,
+   "ham": 31896,
+   "gzip": 9975
+  },
+  {
+   "tur": "script",
+   "yol": "data/kisiler.js",
+   "damga": true,
+   "ham": 135641,
+   "gzip": 48853
+  },
+  {
+   "tur": "script",
+   "yol": "data/savaslar.js",
+   "damga": true,
+   "ham": 130439,
+   "gzip": 41740
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler.js",
+   "damga": true,
+   "ham": 575398,
+   "gzip": 133579
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_afrika.js",
+   "damga": true,
+   "ham": 124709,
+   "gzip": 22118
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_avrupa.js",
+   "damga": true,
+   "ham": 89407,
+   "gzip": 15269
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_asya.js",
+   "damga": true,
+   "ham": 223863,
+   "gzip": 52679
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek.js",
+   "damga": true,
+   "ham": 33466,
+   "gzip": 10871
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ortaasya2.js",
+   "damga": true,
+   "ham": 16258,
+   "gzip": 6347
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_kirim.js",
+   "damga": true,
+   "ham": 19006,
+   "gzip": 6004
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_seyrek.js",
+   "damga": true,
+   "ham": 25910,
+   "gzip": 10164
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek2.js",
+   "damga": true,
+   "ham": 13229,
+   "gzip": 5841
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek3.js",
+   "damga": true,
+   "ham": 14814,
+   "gzip": 6095
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek4.js",
+   "damga": true,
+   "ham": 17874,
+   "gzip": 7845
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek5.js",
+   "damga": true,
+   "ham": 5845,
+   "gzip": 2676
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek6.js",
+   "damga": true,
+   "ham": 8643,
+   "gzip": 3300
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek7.js",
+   "damga": true,
+   "ham": 35444,
+   "gzip": 5359
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek8.js",
+   "damga": true,
+   "ham": 35539,
+   "gzip": 9823
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek9.js",
+   "damga": true,
+   "ham": 12055,
+   "gzip": 4457
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek13.js",
+   "damga": true,
+   "ham": 25721,
+   "gzip": 9411
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek14.js",
+   "damga": true,
+   "ham": 11843,
+   "gzip": 4802
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek15.js",
+   "damga": true,
+   "ham": 8015,
+   "gzip": 2827
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek17.js",
+   "damga": true,
+   "ham": 15553,
+   "gzip": 5798
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek18.js",
+   "damga": true,
+   "ham": 11951,
+   "gzip": 4200
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek16.js",
+   "damga": true,
+   "ham": 6614,
+   "gzip": 2878
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek20.js",
+   "damga": true,
+   "ham": 8732,
+   "gzip": 3627
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek11.js",
+   "damga": true,
+   "ham": 5818,
+   "gzip": 2285
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek10.js",
+   "damga": true,
+   "ham": 7018,
+   "gzip": 2990
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek12.js",
+   "damga": true,
+   "ham": 7287,
+   "gzip": 3131
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek19.js",
+   "damga": true,
+   "ham": 11454,
+   "gzip": 4367
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek21.js",
+   "damga": true,
+   "ham": 9930,
+   "gzip": 3819
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek22.js",
+   "damga": true,
+   "ham": 8852,
+   "gzip": 3518
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_h2_afrika.js",
+   "damga": true,
+   "ham": 82447,
+   "gzip": 19749
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_h2_rusya.js",
+   "damga": true,
+   "ham": 38750,
+   "gzip": 7891
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_h2_kuzeyafrika.js",
+   "damga": true,
+   "ham": 33796,
+   "gzip": 8775
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_gdasya.js",
+   "damga": true,
+   "ham": 39868,
+   "gzip": 5918
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_kalite4.js",
+   "damga": true,
+   "ham": 6763,
+   "gzip": 2874
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_sibirya.js",
+   "damga": true,
+   "ham": 4862,
+   "gzip": 2147
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_emilme.js",
+   "damga": true,
+   "ham": 11580,
+   "gzip": 3721
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek23.js",
+   "damga": true,
+   "ham": 12582,
+   "gzip": 5385
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek24.js",
+   "damga": true,
+   "ham": 14948,
+   "gzip": 3782
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek25.js",
+   "damga": true,
+   "ham": 9843,
+   "gzip": 3022
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek26.js",
+   "damga": true,
+   "ham": 21997,
+   "gzip": 6633
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek27.js",
+   "damga": true,
+   "ham": 8069,
+   "gzip": 3624
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek28.js",
+   "damga": true,
+   "ham": 13868,
+   "gzip": 4916
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek29.js",
+   "damga": true,
+   "ham": 58193,
+   "gzip": 18674
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_epir.js",
+   "damga": true,
+   "ham": 26436,
+   "gzip": 10203
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_serhat.js",
+   "damga": true,
+   "ham": 6958,
+   "gzip": 3006
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0043a.js",
+   "damga": true,
+   "ham": 4522,
+   "gzip": 2190
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0043b.js",
+   "damga": true,
+   "ham": 3428,
+   "gzip": 1797
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0043kirim.js",
+   "damga": true,
+   "ham": 5146,
+   "gzip": 2276
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0044.js",
+   "damga": true,
+   "ham": 12415,
+   "gzip": 5038
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0047.js",
+   "damga": true,
+   "ham": 4272,
+   "gzip": 1980
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0048.js",
+   "damga": true,
+   "ham": 7891,
+   "gzip": 3508
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0049.js",
+   "damga": true,
+   "ham": 19024,
+   "gzip": 7200
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0050.js",
+   "damga": true,
+   "ham": 12648,
+   "gzip": 5236
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0051.js",
+   "damga": true,
+   "ham": 8192,
+   "gzip": 3462
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0052.js",
+   "damga": true,
+   "ham": 3265,
+   "gzip": 1615
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0053.js",
+   "damga": true,
+   "ham": 7356,
+   "gzip": 3048
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0055.js",
+   "damga": true,
+   "ham": 11870,
+   "gzip": 4547
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0056.js",
+   "damga": true,
+   "ham": 19547,
+   "gzip": 7007
+  },
+  {
+   "tur": "script",
+   "yol": "data/ittifaklar.js",
+   "damga": true,
+   "ham": 9221,
+   "gzip": 3759
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0057.js",
+   "damga": true,
+   "ham": 21976,
+   "gzip": 6821
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0058.js",
+   "damga": true,
+   "ham": 9907,
+   "gzip": 3835
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0059.js",
+   "damga": true,
+   "ham": 3705,
+   "gzip": 1779
+  },
+  {
+   "tur": "script",
+   "yol": "data/hukuki_sinirlar.js",
+   "damga": true,
+   "ham": 65154,
+   "gzip": 21813
+  },
+  {
+   "tur": "script",
+   "yol": "data/bos_alanlar.js",
+   "damga": true,
+   "ham": 56642,
+   "gzip": 17063
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_amerika.js",
+   "damga": true,
+   "ham": 85859,
+   "gzip": 23499
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek30.js",
+   "damga": true,
+   "ham": 13733,
+   "gzip": 5526
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek31.js",
+   "damga": true,
+   "ham": 14141,
+   "gzip": 5850
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_0ee15e.js",
+   "damga": true,
+   "ham": 12719,
+   "gzip": 5541
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_e9353f.js",
+   "damga": true,
+   "ham": 61137,
+   "gzip": 23174
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek_adalar.js",
+   "damga": true,
+   "ham": 15255,
+   "gzip": 6437
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek_bozkir.js",
+   "damga": true,
+   "ham": 18304,
+   "gzip": 7095
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek_ferhadpasa.js",
+   "damga": true,
+   "ham": 7073,
+   "gzip": 2792
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek_macaristan.js",
+   "damga": true,
+   "ham": 19716,
+   "gzip": 7456
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek_korfez.js",
+   "damga": true,
+   "ham": 6141,
+   "gzip": 2848
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ek_bosluk.js",
+   "damga": true,
+   "ham": 4545,
+   "gzip": 2219
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_serhat.js",
+   "damga": true,
+   "ham": 14644,
+   "gzip": 5902
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_kdmacar.js",
+   "damga": true,
+   "ham": 7691,
+   "gzip": 3458
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_sinir_dogu.js",
+   "damga": true,
+   "ham": 18220,
+   "gzip": 7374
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_sinir_guney.js",
+   "damga": true,
+   "ham": 18515,
+   "gzip": 3032
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_sinir_kuzey.js",
+   "damga": true,
+   "ham": 24125,
+   "gzip": 3600
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_8beb2b.js",
+   "damga": true,
+   "ham": 10399,
+   "gzip": 5052
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_4ff22b.js",
+   "damga": true,
+   "ham": 6747,
+   "gzip": 3267
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_amerika2.js",
+   "damga": true,
+   "ham": 5238,
+   "gzip": 2712
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_hindistan.js",
+   "damga": true,
+   "ham": 6822,
+   "gzip": 3271
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ok101.js",
+   "damga": true,
+   "ham": 8847,
+   "gzip": 3836
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ok104.js",
+   "damga": true,
+   "ham": 18159,
+   "gzip": 6801
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ok106.js",
+   "damga": true,
+   "ham": 26650,
+   "gzip": 9879
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ok109.js",
+   "damga": true,
+   "ham": 14916,
+   "gzip": 6029
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ok110.js",
+   "damga": true,
+   "ham": 6086,
+   "gzip": 2954
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ok107.js",
+   "damga": true,
+   "ham": 34662,
+   "gzip": 11432
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_amerika3.js",
+   "damga": true,
+   "ham": 22043,
+   "gzip": 7246
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ortaasya3.js",
+   "damga": true,
+   "ham": 30240,
+   "gzip": 9581
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_okyanusya.js",
+   "damga": true,
+   "ham": 62030,
+   "gzip": 12607
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_sibirya2.js",
+   "damga": true,
+   "ham": 35655,
+   "gzip": 6622
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_gamerika.js",
+   "damga": true,
+   "ham": 67223,
+   "gzip": 17454
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_kamerika.js",
+   "damga": true,
+   "ham": 124357,
+   "gzip": 19494
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_hint0912.js",
+   "damga": true,
+   "ham": 6072,
+   "gzip": 2902
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_p0043libya.js",
+   "damga": true,
+   "ham": 6998,
+   "gzip": 3198
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_p0037.js",
+   "damga": true,
+   "ham": 15096,
+   "gzip": 4556
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_anadolu_0914.js",
+   "damga": true,
+   "ham": 19297,
+   "gzip": 6410
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_ukrayna_0916.js",
+   "damga": true,
+   "ham": 4164,
+   "gzip": 1615
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_nokta_afrika_0917.js",
+   "damga": true,
+   "ham": 2785,
+   "gzip": 1576
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_nokta_amerika_0917.js",
+   "damga": true,
+   "ham": 16116,
+   "gzip": 5835
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_nokta_asya_0917.js",
+   "damga": true,
+   "ham": 62381,
+   "gzip": 23124
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_nokta_ortadogu_0917.js",
+   "damga": true,
+   "ham": 12303,
+   "gzip": 4150
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_nokta_sibirya_0917.js",
+   "damga": true,
+   "ham": 4842,
+   "gzip": 2334
+  },
+  {
+   "tur": "script",
+   "yol": "data/yerlesimler_afrika2.js",
+   "damga": true,
+   "ham": 107575,
+   "gzip": 14784
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ok107.js",
+   "damga": true,
+   "ham": 6256,
+   "gzip": 2877
+  },
+  {
+   "tur": "script",
+   "yol": "data/seferler_ok103.js",
+   "damga": true,
+   "ham": 15196,
+   "gzip": 5585
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ok109.js",
+   "damga": true,
+   "ham": 20972,
+   "gzip": 7355
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ok106.js",
+   "damga": true,
+   "ham": 13985,
+   "gzip": 5633
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_ok104.js",
+   "damga": true,
+   "ham": 3235,
+   "gzip": 1712
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0036.js",
+   "damga": true,
+   "ham": 5292,
+   "gzip": 2651
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_sk105.js",
+   "damga": true,
+   "ham": 3493,
+   "gzip": 1883
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_sh110.js",
+   "damga": true,
+   "ham": 2014,
+   "gzip": 1165
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_cukurova_0907.js",
+   "damga": true,
+   "ham": 6513,
+   "gzip": 2515
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0037.js",
+   "damga": true,
+   "ham": 2124,
+   "gzip": 1298
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0057b.js",
+   "damga": true,
+   "ham": 6655,
+   "gzip": 2924
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0060.js",
+   "damga": true,
+   "ham": 6374,
+   "gzip": 3030
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0063.js",
+   "damga": true,
+   "ham": 11474,
+   "gzip": 4855
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0917taraf.js",
+   "damga": true,
+   "ham": 6827,
+   "gzip": 2783
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0917kosu13.js",
+   "damga": true,
+   "ham": 21694,
+   "gzip": 7836
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0917dunya.js",
+   "damga": true,
+   "ham": 5411,
+   "gzip": 2002
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0068.js",
+   "damga": true,
+   "ham": 7743,
+   "gzip": 3397
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0067.js",
+   "damga": true,
+   "ham": 3736,
+   "gzip": 2016
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0068b.js",
+   "damga": true,
+   "ham": 25348,
+   "gzip": 8197
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_p0065.js",
+   "damga": true,
+   "ham": 4819,
+   "gzip": 2268
+  },
+  {
+   "tur": "script",
+   "yol": "data/olaylar_kamerika.js",
+   "damga": true,
+   "ham": 12082,
+   "gzip": 3810
+  },
+  {
+   "tur": "script",
+   "yol": "data/savaslar_ok104.js",
+   "damga": true,
+   "ham": 3430,
+   "gzip": 1861
+  },
+  {
+   "tur": "script",
+   "yol": "data/savas_kunye_1.js",
+   "damga": true,
+   "ham": 30457,
+   "gzip": 9673
+  },
+  {
+   "tur": "script",
+   "yol": "data/seferler_p0037.js",
+   "damga": true,
+   "ham": 5609,
+   "gzip": 2636
+  },
+  {
+   "tur": "script",
+   "yol": "data/seferler_p0064.js",
+   "damga": true,
+   "ham": 9825,
+   "gzip": 4538
+  },
+  {
+   "tur": "script",
+   "yol": "data/seferler_p0065.js",
+   "damga": true,
+   "ham": 14476,
+   "gzip": 6189
+  },
+  {
+   "tur": "script",
+   "yol": "data/seferler_p0068.js",
+   "damga": true,
+   "ham": 10923,
+   "gzip": 4797
+  },
+  {
+   "tur": "script",
+   "yol": "data/seferler_p0071.js",
+   "damga": true,
+   "ham": 6338,
+   "gzip": 3024
+  },
+  {
+   "tur": "script",
+   "yol": "data/bolgeler.js",
+   "damga": true,
+   "ham": 494040,
+   "gzip": 161498
+  },
+  {
+   "tur": "script",
+   "yol": "data/devletler_harita.js",
+   "damga": true,
+   "ham": 75814859,
+   "gzip": 18980266
+  },
+  {
+   "tur": "script",
+   "yol": "data/sehirler.js",
+   "damga": true,
+   "ham": 67475,
+   "gzip": 23772
+  },
+  {
+   "tur": "script",
+   "yol": "data/donemler.js",
+   "damga": true,
+   "ham": 61856990,
+   "gzip": 18170092
+  },
+  {
+   "tur": "script",
+   "yol": "data/altlik.js",
+   "damga": true,
+   "ham": 13810695,
+   "gzip": 4913603
+  },
+  {
+   "tur": "script",
+   "yol": "data/koridor.js",
+   "damga": true,
+   "ham": 31565,
+   "gzip": 3789
+  },
+  {
+   "tur": "script",
+   "yol": "data/koridor_halka2.js",
+   "damga": true,
+   "ham": 10013,
+   "gzip": 3441
+  },
+  {
+   "tur": "script",
+   "yol": "data/koridor_f5c9a5.js",
+   "damga": true,
+   "ham": 34652,
+   "gzip": 6128
+  },
+  {
+   "tur": "script",
+   "yol": "data/koridor_yama_f5c9a5.js",
+   "damga": true,
+   "ham": 10361,
+   "gzip": 3106
+  },
+  {
+   "tur": "script",
+   "yol": "data/koridor_yama_e9353f.js",
+   "damga": true,
+   "ham": 7874,
+   "gzip": 3902
+  },
+  {
+   "tur": "script",
+   "yol": "data/koridor_owtrad.js",
+   "damga": true,
+   "ham": 71617,
+   "gzip": 9311
+  },
+  {
+   "tur": "script",
+   "yol": "data/bekleyenler.js",
+   "damga": true,
+   "ham": 4806,
+   "gzip": 2270
+  },
+  {
+   "tur": "script",
+   "yol": "data/isyan_tarama.js",
+   "damga": true,
+   "ham": 23203,
+   "gzip": 8256
+  },
+  {
+   "tur": "script",
+   "yol": "js/suzgec.js",
+   "damga": true,
+   "ham": 45173,
+   "gzip": 16169
+  },
+  {
+   "tur": "script",
+   "yol": "js/zaman.js",
+   "damga": true,
+   "ham": 8252,
+   "gzip": 3970
+  },
+  {
+   "tur": "script",
+   "yol": "js/app.js",
+   "damga": true,
+   "ham": 767527,
+   "gzip": 278610
+  },
+  {
+   "tur": "script",
+   "yol": "data/sinir_sinif_dizini.js",
+   "damga": true,
+   "ham": 330244,
+   "gzip": 26771
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar.js",
+   "damga": true,
+   "ham": 72984,
+   "gzip": 14427
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_komsu.js",
+   "damga": true,
+   "ham": 103821,
+   "gzip": 21000
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_avrupa_bati.js",
+   "damga": true,
+   "ham": 301204,
+   "gzip": 56952
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_avrupa_orta.js",
+   "damga": true,
+   "ham": 433978,
+   "gzip": 65350
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_ortadogu.js",
+   "damga": true,
+   "ham": 32121,
+   "gzip": 8164
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_afrika.js",
+   "damga": true,
+   "ham": 210177,
+   "gzip": 58926
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_asya.js",
+   "damga": true,
+   "ham": 249697,
+   "gzip": 54728
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_amerika.js",
+   "damga": true,
+   "ham": 185127,
+   "gzip": 46454
+  },
+  {
+   "tur": "script",
+   "yol": "data/d_sinirlar_okyanusya.js",
+   "damga": true,
+   "ham": 12943,
+   "gzip": 4239
+  },
+  {
+   "tur": "script",
+   "yol": "data/antlasma_haritalari.js",
+   "damga": true,
+   "ham": 13759,
+   "gzip": 5554
+  },
+  {
+   "tur": "script",
+   "yol": "js/d_katman.js",
+   "damga": true,
+   "ham": 17416,
+   "gzip": 7047
+  },
+  {
+   "tur": "script",
+   "yol": "js/antlasma_harita.js",
+   "damga": true,
+   "ham": 13994,
+   "gzip": 5088
+  },
+  {
+   "tur": "script",
+   "yol": "js/anim_dili.js",
+   "damga": true,
+   "ham": 7454,
+   "gzip": 3215
+  },
+  {
+   "tur": "script",
+   "yol": "js/sefer_ok.js",
+   "damga": true,
+   "ham": 12015,
+   "gzip": 4999
+  }
+ ]
+}

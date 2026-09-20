@@ -1,0 +1,95 @@
+{
+ "yabanci_dp": {
+  "0,5 km": {
+   "ornek_oge": 2000,
+   "ham_mb": 1.98,
+   "yeni_mb": 1.7,
+   "kalan_yuzde": 85.6,
+   "dugum_ham": 127809,
+   "dugum_yeni": 109128,
+   "en_buyuk_sapma_km": 0.5
+  },
+  "1 km": {
+   "ornek_oge": 2000,
+   "ham_mb": 1.98,
+   "yeni_mb": 1.51,
+   "kalan_yuzde": 76.2,
+   "dugum_ham": 127809,
+   "dugum_yeni": 96950,
+   "en_buyuk_sapma_km": 1.0
+  },
+  "2 km": {
+   "ornek_oge": 2000,
+   "ham_mb": 1.98,
+   "yeni_mb": 1.33,
+   "kalan_yuzde": 67.3,
+   "dugum_ham": 127809,
+   "dugum_yeni": 85436,
+   "en_buyuk_sapma_km": 2.0
+  }
+ },
+ "yabanci_tekrar": {
+  "havuz_oge": 68647,
+  "benzersiz": 56789,
+  "tekrar_eden_oge": 11858,
+  "tekrardan_kurtarilacak_mb": 8.74
+ },
+ "altlik_katman": {
+  "kara": {
+   "mb": 10.28,
+   "halka": 7542,
+   "dugum": 390605
+  },
+  "gol": {
+   "mb": 0.6,
+   "halka": 880,
+   "dugum": 27836
+  },
+  "nehir": {
+   "mb": 1.65,
+   "halka": 2442,
+   "dugum": 71130
+  },
+  "dag_alan": {
+   "mb": 0.22,
+   "halka": 234,
+   "dugum": 9509
+  },
+  "nehir_motorun": {
+   "mb": 0.06,
+   "halka": 84,
+   "dugum": 2909
+  },
+  "sirt_motorun": {
+   "mb": 0.35,
+   "halka": 224,
+   "dugum": 9024
+  }
+ },
+ "altlik": {
+  "yalniz 3 ondalik": {
+   "ham_mb": 12.99,
+   "yeni_mb": 8.1,
+   "kalan_yuzde": 62.4,
+   "dugum_ham": 511013,
+   "dugum_yeni": 511013,
+   "en_buyuk_sapma_km": 0.0
+  },
+  "3 ondalik + DP 0,5 km": {
+   "ham_mb": 12.99,
+   "yeni_mb": 5.78,
+   "kalan_yuzde": 44.5,
+   "dugum_ham": 511013,
+   "dugum_yeni": 364761,
+   "en_buyuk_sapma_km": 0.5
+  },
+  "3 ondalik + DP 1 km": {
+   "ham_mb": 12.99,
+   "yeni_mb": 4.79,
+   "kalan_yuzde": 36.9,
+   "dugum_ham": 511013,
+   "dugum_yeni": 302058,
+   "en_buyuk_sapma_km": 1.0
+  }
+ }
+}

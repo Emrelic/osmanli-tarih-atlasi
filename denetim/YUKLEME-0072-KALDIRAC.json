@@ -1,0 +1,142 @@
+{
+ "OSMANLI": {
+  "dosya": "data/donemler.js",
+  "dosya_mb": 58.99,
+  "havuz_oge": 5650,
+  "havuz_mb": 57.56,
+  "havuz_yuzde": 97.6,
+  "donem_kayit": 579,
+  "donem_mb": 0.89,
+  "donem_sayisi": 579,
+  "yuzyil_payi": {
+   "13. yy": {
+    "mb": 0.0,
+    "yuzde": 0.0
+   },
+   "14. yy": {
+    "mb": 1.26,
+    "yuzde": 0.2
+   },
+   "15. yy": {
+    "mb": 12.53,
+    "yuzde": 2.2
+   },
+   "16. yy": {
+    "mb": 120.61,
+    "yuzde": 21.1
+   },
+   "17. yy": {
+    "mb": 163.48,
+    "yuzde": 28.7
+   },
+   "18. yy": {
+    "mb": 109.38,
+    "yuzde": 19.2
+   },
+   "19. yy": {
+    "mb": 122.7,
+    "yuzde": 21.5
+   },
+   "20. yy": {
+    "mb": 40.51,
+    "yuzde": 7.1
+   }
+  },
+  "tek_gun_en_buyuk": {
+   "donem": "1724-01-01..1724-08-11",
+   "mb": 2.534,
+   "havuzun_yuzdesi": 4.4
+  },
+  "dp": {
+   "0,5 km": {
+    "ornek_oge": 400,
+    "ham_mb": 4.13,
+    "yeni_mb": 2.42,
+    "kalan_yuzde": 58.8,
+    "dugum_ham": 275936,
+    "dugum_yeni": 162302,
+    "dugum_kalan_yuzde": 58.8,
+    "en_buyuk_sapma_km": 0.5
+   },
+   "1 km": {
+    "ornek_oge": 400,
+    "ham_mb": 4.13,
+    "yeni_mb": 1.65,
+    "kalan_yuzde": 40.1,
+    "dugum_ham": 275936,
+    "dugum_yeni": 110723,
+    "dugum_kalan_yuzde": 40.1,
+    "en_buyuk_sapma_km": 1.0
+   },
+   "2 km": {
+    "ornek_oge": 400,
+    "ham_mb": 4.13,
+    "yeni_mb": 1.0,
+    "kalan_yuzde": 24.4,
+    "dugum_ham": 275936,
+    "dugum_yeni": 67552,
+    "dugum_kalan_yuzde": 24.5,
+    "en_buyuk_sapma_km": 2.0
+   }
+  }
+ },
+ "YABANCI": {
+  "dosya": "data/devletler_harita.js",
+  "dosya_mb": 72.3,
+  "havuz_oge": 68647,
+  "havuz_mb": 69.89,
+  "havuz_yuzde": 96.7,
+  "donem_kayit": 581,
+  "donem_mb": 1.76
+ },
+ "basamak": {
+  "data/donemler.js": {
+   "ondalik_dagilim_yuzde": {
+    "1": 3.2,
+    "2": 9.9,
+    "3": 87.0
+   },
+   "ornek_koordinat": 1058179,
+   "ornek_mb": 8.0,
+   "3_ondalik_kalan_yuzde": 99.9,
+   "4_ondalik_kalan_yuzde": 99.9
+  },
+  "data/devletler_harita.js": {
+   "ondalik_dagilim_yuzde": {
+    "1": 4.9,
+    "2": 10.2,
+    "3": 84.9
+   },
+   "ornek_koordinat": 1068034,
+   "ornek_mb": 8.0,
+   "3_ondalik_kalan_yuzde": 99.9,
+   "4_ondalik_kalan_yuzde": 99.9
+  },
+  "data/altlik.js": {
+   "ondalik_dagilim_yuzde": {
+    "1": 0.2,
+    "2": 0.1,
+    "3": 6.6,
+    "4": 0.5,
+    "5": 5.5,
+    "6": 54.6,
+    "7": 0.0,
+    "8": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.2,
+    "13": 1.7,
+    "14": 19.1,
+    "15": 10.5,
+    "16": 1.0,
+    "17": 0.1,
+    "18": 0.0,
+    "19": 0.0
+   },
+   "ornek_koordinat": 606007,
+   "ornek_mb": 8.0,
+   "3_ondalik_kalan_yuzde": 60.1,
+   "4_ondalik_kalan_yuzde": 66.1
+  }
+ }
+}

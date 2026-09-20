@@ -1,0 +1,142 @@
+{
+ "ornek_gun": {
+  "1300-01-01": {
+   "osmanli_oge": 1,
+   "osmanli_mb": 0.0,
+   "osmanli_yuzde": 0.0,
+   "yabanci_oge": 3248,
+   "yabanci_mb": 3.22,
+   "yabanci_yuzde": 4.61,
+   "toplam_mb": 3.22,
+   "toplam_yuzde": 2.53
+  },
+  "1453-05-29": {
+   "osmanli_oge": 23,
+   "osmanli_mb": 0.11,
+   "osmanli_yuzde": 0.2,
+   "yabanci_oge": 3310,
+   "yabanci_mb": 3.55,
+   "yabanci_yuzde": 5.09,
+   "toplam_mb": 3.67,
+   "toplam_yuzde": 2.88
+  },
+  "1529-09-27": {
+   "osmanli_oge": 94,
+   "osmanli_mb": 0.75,
+   "osmanli_yuzde": 1.31,
+   "yabanci_oge": 3382,
+   "yabanci_mb": 3.41,
+   "yabanci_yuzde": 4.88,
+   "toplam_mb": 4.16,
+   "toplam_yuzde": 3.27
+  },
+  "1683-07-14": {
+   "osmanli_oge": 168,
+   "osmanli_mb": 1.73,
+   "osmanli_yuzde": 3.0,
+   "yabanci_oge": 3655,
+   "yabanci_mb": 3.88,
+   "yabanci_yuzde": 5.56,
+   "toplam_mb": 5.61,
+   "toplam_yuzde": 4.4
+  },
+  "1789-01-01": {
+   "osmanli_oge": 152,
+   "osmanli_mb": 1.67,
+   "osmanli_yuzde": 2.9,
+   "yabanci_oge": 3917,
+   "yabanci_mb": 3.91,
+   "yabanci_yuzde": 5.6,
+   "toplam_mb": 5.58,
+   "toplam_yuzde": 4.38
+  },
+  "1878-07-13": {
+   "osmanli_oge": 139,
+   "osmanli_mb": 1.56,
+   "osmanli_yuzde": 2.71,
+   "yabanci_oge": 4374,
+   "yabanci_mb": 5.29,
+   "yabanci_yuzde": 7.58,
+   "toplam_mb": 6.85,
+   "toplam_yuzde": 5.38
+  },
+  "1914-08-01": {
+   "osmanli_oge": 95,
+   "osmanli_mb": 0.81,
+   "osmanli_yuzde": 1.4,
+   "yabanci_oge": 4505,
+   "yabanci_mb": 4.71,
+   "yabanci_yuzde": 6.75,
+   "toplam_mb": 5.52,
+   "toplam_yuzde": 4.33
+  },
+  "1922-11-01": {
+   "osmanli_oge": 278,
+   "osmanli_mb": 1.52,
+   "osmanli_yuzde": 2.63,
+   "yabanci_oge": 4601,
+   "yabanci_mb": 4.44,
+   "yabanci_yuzde": 6.36,
+   "toplam_mb": 5.96,
+   "toplam_yuzde": 4.68
+  }
+ },
+ "dilim": {
+  "13. yy": {
+   "osmanli_mb": 0.68,
+   "yabanci_mb": 5.62,
+   "toplam_mb": 6.3,
+   "toplam_yuzde": 4.9
+  },
+  "14. yy": {
+   "osmanli_mb": 3.76,
+   "yabanci_mb": 6.37,
+   "toplam_mb": 10.13,
+   "toplam_yuzde": 8.0
+  },
+  "15. yy": {
+   "osmanli_mb": 11.04,
+   "yabanci_mb": 12.64,
+   "toplam_mb": 23.68,
+   "toplam_yuzde": 18.6
+  },
+  "16. yy": {
+   "osmanli_mb": 14.14,
+   "yabanci_mb": 13.73,
+   "toplam_mb": 27.87,
+   "toplam_yuzde": 21.9
+  },
+  "17. yy": {
+   "osmanli_mb": 13.4,
+   "yabanci_mb": 17.66,
+   "toplam_mb": 31.06,
+   "toplam_yuzde": 24.4
+  },
+  "18. yy": {
+   "osmanli_mb": 15.82,
+   "yabanci_mb": 34.52,
+   "toplam_mb": 50.34,
+   "toplam_yuzde": 39.5
+  },
+  "19. yy": {
+   "osmanli_mb": 10.93,
+   "yabanci_mb": 14.06,
+   "toplam_mb": 25.0,
+   "toplam_yuzde": 19.6
+  },
+  "20. yy": {
+   "osmanli_mb": 0.0,
+   "yabanci_mb": 0.0,
+   "toplam_mb": 0.0,
+   "toplam_yuzde": 0.0
+  }
+ },
+ "havuz": {
+  "osmanli_mb": 57.55,
+  "osmanli_oge": 5650,
+  "yabanci_mb": 69.83,
+  "yabanci_oge": 68647,
+  "toplam_mb": 127.38
+ },
+ "dilim_toplami_mb": 174.38
+}

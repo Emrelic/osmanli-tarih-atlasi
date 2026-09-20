@@ -1,0 +1,1831 @@
+{
+ "zaman": "2026-09-20T19:21:23.482Z",
+ "toplam_ayristirma_ms": 20835,
+ "toplam_bayt": 164329251,
+ "yigin": {
+  "yigin": 1124418235,
+  "toplam": 1169959707
+ },
+ "dosyalar": [
+  {
+   "yol": "data/padisahlar.js",
+   "bayt": 80335,
+   "getir": 92,
+   "ayristir": 9,
+   "yigin": 550493
+  },
+  {
+   "yol": "data/olaylar.js",
+   "bayt": 63288,
+   "getir": 214,
+   "ayristir": 3,
+   "yigin": 268607
+  },
+  {
+   "yol": "data/olaylar_ek.js",
+   "bayt": 55120,
+   "getir": 392,
+   "ayristir": 3,
+   "yigin": 226261
+  },
+  {
+   "yol": "data/olaylar_ek2.js",
+   "bayt": 34534,
+   "getir": 204,
+   "ayristir": 2,
+   "yigin": 134291
+  },
+  {
+   "yol": "data/olaylar_ek3.js",
+   "bayt": 15982,
+   "getir": 96,
+   "ayristir": 2,
+   "yigin": 67391
+  },
+  {
+   "yol": "data/olaylar_ek4.js",
+   "bayt": 35418,
+   "getir": 136,
+   "ayristir": 2,
+   "yigin": 138935
+  },
+  {
+   "yol": "data/olaylar_ek5.js",
+   "bayt": 326690,
+   "getir": 598,
+   "ayristir": 14,
+   "yigin": 1287963
+  },
+  {
+   "yol": "data/olaylar_ek6.js",
+   "bayt": 39039,
+   "getir": 939,
+   "ayristir": 2,
+   "yigin": 154709
+  },
+  {
+   "yol": "data/olaylar_ilirya_0072.js",
+   "bayt": 9655,
+   "getir": 821,
+   "ayristir": 1,
+   "yigin": 38916
+  },
+  {
+   "yol": "data/olaylar_ek7.js",
+   "bayt": 99277,
+   "getir": 569,
+   "ayristir": 5,
+   "yigin": 377501
+  },
+  {
+   "yol": "data/olaylar_7a4170.js",
+   "bayt": 8642,
+   "getir": 589,
+   "ayristir": 1,
+   "yigin": 31289
+  },
+  {
+   "yol": "data/olaylar_ek8.js",
+   "bayt": 32682,
+   "getir": 1023,
+   "ayristir": 2,
+   "yigin": 138939
+  },
+  {
+   "yol": "data/olaylar_ek9.js",
+   "bayt": 38123,
+   "getir": 1016,
+   "ayristir": 1,
+   "yigin": 128061
+  },
+  {
+   "yol": "data/olaylar_ek10.js",
+   "bayt": 52433,
+   "getir": 1483,
+   "ayristir": 2,
+   "yigin": 182835
+  },
+  {
+   "yol": "data/olaylar_ek11.js",
+   "bayt": 20568,
+   "getir": 1035,
+   "ayristir": 2,
+   "yigin": 79213
+  },
+  {
+   "yol": "data/olaylar_ek12.js",
+   "bayt": 15508,
+   "getir": 681,
+   "ayristir": 1,
+   "yigin": 59273
+  },
+  {
+   "yol": "data/olaylar_ek13.js",
+   "bayt": 37298,
+   "getir": 61,
+   "ayristir": 1,
+   "yigin": 127961
+  },
+  {
+   "yol": "data/olaylar_ek14.js",
+   "bayt": 57346,
+   "getir": 91,
+   "ayristir": 6,
+   "yigin": 224549
+  },
+  {
+   "yol": "data/olaylar_ek15.js",
+   "bayt": 14480,
+   "getir": 172,
+   "ayristir": 1,
+   "yigin": 65005
+  },
+  {
+   "yol": "data/olaylar_ek16.js",
+   "bayt": 59732,
+   "getir": 167,
+   "ayristir": 3,
+   "yigin": 237885
+  },
+  {
+   "yol": "data/olaylar_ek17.js",
+   "bayt": 30425,
+   "getir": 65,
+   "ayristir": 1,
+   "yigin": 122775
+  },
+  {
+   "yol": "data/olaylar_ek18.js",
+   "bayt": 1880,
+   "getir": 103,
+   "ayristir": 0,
+   "yigin": 12181
+  },
+  {
+   "yol": "data/olaylar_ek20.js",
+   "bayt": 26680,
+   "getir": 128,
+   "ayristir": 1,
+   "yigin": 92853
+  },
+  {
+   "yol": "data/olaylar_ek21.js",
+   "bayt": 7562,
+   "getir": 137,
+   "ayristir": 1,
+   "yigin": 31681
+  },
+  {
+   "yol": "data/olaylar_ek22.js",
+   "bayt": 2703,
+   "getir": 34,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_ek19.js",
+   "bayt": 2151,
+   "getir": 70,
+   "ayristir": 0,
+   "yigin": 28018
+  },
+  {
+   "yol": "data/devirler.js",
+   "bayt": 126704,
+   "getir": 95,
+   "ayristir": 12,
+   "yigin": 898375
+  },
+  {
+   "yol": "data/devletler.js",
+   "bayt": 954337,
+   "getir": 184,
+   "ayristir": 49,
+   "yigin": 3676873
+  },
+  {
+   "yol": "data/kronoloji_habsburg.js",
+   "bayt": 78190,
+   "getir": 52,
+   "ayristir": 4,
+   "yigin": 114297
+  },
+  {
+   "yol": "data/kronoloji_rusya.js",
+   "bayt": 97736,
+   "getir": 179,
+   "ayristir": 4,
+   "yigin": 356139
+  },
+  {
+   "yol": "data/kronoloji_lehistan.js",
+   "bayt": 72906,
+   "getir": 389,
+   "ayristir": 3,
+   "yigin": 266689
+  },
+  {
+   "yol": "data/kronoloji_venedik.js",
+   "bayt": 52954,
+   "getir": 417,
+   "ayristir": 2,
+   "yigin": 196671
+  },
+  {
+   "yol": "data/kronoloji_iran.js",
+   "bayt": 64539,
+   "getir": 194,
+   "ayristir": 2,
+   "yigin": 244415
+  },
+  {
+   "yol": "data/kronoloji_bizans.js",
+   "bayt": 48904,
+   "getir": 249,
+   "ayristir": 3,
+   "yigin": 178573
+  },
+  {
+   "yol": "data/kronoloji_memluk.js",
+   "bayt": 100072,
+   "getir": 293,
+   "ayristir": 4,
+   "yigin": 385537
+  },
+  {
+   "yol": "data/kronoloji_kirim.js",
+   "bayt": 48184,
+   "getir": 375,
+   "ayristir": 3,
+   "yigin": 178951
+  },
+  {
+   "yol": "data/kronoloji_macaristan.js",
+   "bayt": 79796,
+   "getir": 151,
+   "ayristir": 3,
+   "yigin": 292085
+  },
+  {
+   "yol": "data/kronoloji_ingiltere.js",
+   "bayt": 157326,
+   "getir": 80,
+   "ayristir": 6,
+   "yigin": 572899
+  },
+  {
+   "yol": "data/kronoloji_fransa.js",
+   "bayt": 110893,
+   "getir": 218,
+   "ayristir": 6,
+   "yigin": 407415
+  },
+  {
+   "yol": "data/kronoloji_almanya.js",
+   "bayt": 91965,
+   "getir": 178,
+   "ayristir": 4,
+   "yigin": 348533
+  },
+  {
+   "yol": "data/kronoloji_sinir_turkiye.js",
+   "bayt": 10593,
+   "getir": 63,
+   "ayristir": 1,
+   "yigin": 45417
+  },
+  {
+   "yol": "data/kronoloji_sinir_komsu.js",
+   "bayt": 21780,
+   "getir": 31,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/kronoloji_sinir_guney_g8.js",
+   "bayt": 65402,
+   "getir": 139,
+   "ayristir": 3,
+   "yigin": 322244
+  },
+  {
+   "yol": "data/kronoloji_sinir_avrupa_orta.js",
+   "bayt": 64075,
+   "getir": 220,
+   "ayristir": 3,
+   "yigin": 241053
+  },
+  {
+   "yol": "data/kronoloji_sinir_avrupa_bati.js",
+   "bayt": 47349,
+   "getir": 111,
+   "ayristir": 2,
+   "yigin": 177649
+  },
+  {
+   "yol": "data/kronoloji_sinir_ortadogu.js",
+   "bayt": 12175,
+   "getir": 72,
+   "ayristir": 1,
+   "yigin": 52187
+  },
+  {
+   "yol": "data/kronoloji_sinir_afrika.js",
+   "bayt": 15900,
+   "getir": 91,
+   "ayristir": 1,
+   "yigin": 63433
+  },
+  {
+   "yol": "data/kronoloji_sinir_asya.js",
+   "bayt": 73549,
+   "getir": 134,
+   "ayristir": 4,
+   "yigin": 272071
+  },
+  {
+   "yol": "data/kronoloji_sinir_amerika.js",
+   "bayt": 20047,
+   "getir": 91,
+   "ayristir": 1,
+   "yigin": 75609
+  },
+  {
+   "yol": "data/kronoloji_sinir_okyanusya.js",
+   "bayt": 5878,
+   "getir": 75,
+   "ayristir": 1,
+   "yigin": 24091
+  },
+  {
+   "yol": "data/kronoloji_cok_1dunya_A.js",
+   "bayt": 85882,
+   "getir": 81,
+   "ayristir": 3,
+   "yigin": 292393
+  },
+  {
+   "yol": "data/kronoloji_cok_1dunya_B.js",
+   "bayt": 71302,
+   "getir": 140,
+   "ayristir": 3,
+   "yigin": 253409
+  },
+  {
+   "yol": "data/kronoloji_italya.js",
+   "bayt": 127203,
+   "getir": 214,
+   "ayristir": 5,
+   "yigin": 464171
+  },
+  {
+   "yol": "data/kronoloji_ispanya.js",
+   "bayt": 96506,
+   "getir": 58,
+   "ayristir": 4,
+   "yigin": 353547
+  },
+  {
+   "yol": "data/kronoloji_portekiz.js",
+   "bayt": 62815,
+   "getir": 128,
+   "ayristir": 3,
+   "yigin": 238159
+  },
+  {
+   "yol": "data/kronoloji_cin.js",
+   "bayt": 77644,
+   "getir": 72,
+   "ayristir": 3,
+   "yigin": 274431
+  },
+  {
+   "yol": "data/kronoloji_hindistan.js",
+   "bayt": 78468,
+   "getir": 149,
+   "ayristir": 3,
+   "yigin": 282467
+  },
+  {
+   "yol": "data/kronoloji_akkoyunlu.js",
+   "bayt": 49410,
+   "getir": 126,
+   "ayristir": 2,
+   "yigin": 180027
+  },
+  {
+   "yol": "data/kronoloji_karakoyunlu.js",
+   "bayt": 43637,
+   "getir": 127,
+   "ayristir": 3,
+   "yigin": 158845
+  },
+  {
+   "yol": "data/kronoloji_altinorda.js",
+   "bayt": 38264,
+   "getir": 161,
+   "ayristir": 2,
+   "yigin": 145419
+  },
+  {
+   "yol": "data/kronoloji_hollanda.js",
+   "bayt": 30349,
+   "getir": 183,
+   "ayristir": 2,
+   "yigin": 115487
+  },
+  {
+   "yol": "data/kronoloji_isvec.js",
+   "bayt": 57873,
+   "getir": 181,
+   "ayristir": 3,
+   "yigin": 214277
+  },
+  {
+   "yol": "data/kronoloji_japonya.js",
+   "bayt": 52856,
+   "getir": 160,
+   "ayristir": 2,
+   "yigin": 190399
+  },
+  {
+   "yol": "data/kronoloji_misir.js",
+   "bayt": 82691,
+   "getir": 338,
+   "ayristir": 5,
+   "yigin": 320921
+  },
+  {
+   "yol": "data/kronoloji_ozbek.js",
+   "bayt": 40114,
+   "getir": 564,
+   "ayristir": 2,
+   "yigin": 148119
+  },
+  {
+   "yol": "data/kronoloji_timurlu.js",
+   "bayt": 21472,
+   "getir": 586,
+   "ayristir": 23,
+   "yigin": 80179
+  },
+  {
+   "yol": "data/kronoloji_anadolu.js",
+   "bayt": 139739,
+   "getir": 1095,
+   "ayristir": 17,
+   "yigin": 514029
+  },
+  {
+   "yol": "data/kronoloji_arabistan.js",
+   "bayt": 42920,
+   "getir": 1503,
+   "ayristir": 4,
+   "yigin": 158355
+  },
+  {
+   "yol": "data/kronoloji_atina_dukaligi.js",
+   "bayt": 17549,
+   "getir": 80,
+   "ayristir": 1,
+   "yigin": 70683
+  },
+  {
+   "yol": "data/kronoloji_balkan.js",
+   "bayt": 122192,
+   "getir": 1305,
+   "ayristir": 5,
+   "yigin": 463189
+  },
+  {
+   "yol": "data/kronoloji_dogu_afrika.js",
+   "bayt": 151282,
+   "getir": 299,
+   "ayristir": 6,
+   "yigin": 574227
+  },
+  {
+   "yol": "data/kronoloji_guney_asya.js",
+   "bayt": 98836,
+   "getir": 328,
+   "ayristir": 4,
+   "yigin": 368613
+  },
+  {
+   "yol": "data/kronoloji_gurcistan.js",
+   "bayt": 29379,
+   "getir": 726,
+   "ayristir": 4,
+   "yigin": 110721
+  },
+  {
+   "yol": "data/kronoloji_iran_ardillari.js",
+   "bayt": 111640,
+   "getir": 409,
+   "ayristir": 5,
+   "yigin": 401437
+  },
+  {
+   "yol": "data/kronoloji_italya_sehir.js",
+   "bayt": 123050,
+   "getir": 395,
+   "ayristir": 5,
+   "yigin": 456673
+  },
+  {
+   "yol": "data/kronoloji_katalan.js",
+   "bayt": 6723,
+   "getir": 248,
+   "ayristir": 1,
+   "yigin": 29461
+  },
+  {
+   "yol": "data/kronoloji_kuzeyafrika.js",
+   "bayt": 44135,
+   "getir": 186,
+   "ayristir": 2,
+   "yigin": 167901
+  },
+  {
+   "yol": "data/olaylar_2s_0918.js",
+   "bayt": 20551,
+   "getir": 216,
+   "ayristir": 1,
+   "yigin": 76361
+  },
+  {
+   "yol": "data/olaylar_ortadogu_0919.js",
+   "bayt": 4847,
+   "getir": 334,
+   "ayristir": 1,
+   "yigin": 23513
+  },
+  {
+   "yol": "data/olaylar_2s_0919.js",
+   "bayt": 51674,
+   "getir": 386,
+   "ayristir": 2,
+   "yigin": 192695
+  },
+  {
+   "yol": "data/olaylar_amerika_0920.js",
+   "bayt": 28359,
+   "getir": 236,
+   "ayristir": 1,
+   "yigin": 106050
+  },
+  {
+   "yol": "data/olaylar_2s_0920.js",
+   "bayt": 17990,
+   "getir": 336,
+   "ayristir": 1,
+   "yigin": -6113915
+  },
+  {
+   "yol": "data/olaylar_misir1801.js",
+   "bayt": 4334,
+   "getir": 533,
+   "ayristir": 1,
+   "yigin": 21135
+  },
+  {
+   "yol": "data/olaylar_senusi_0919.js",
+   "bayt": 6378,
+   "getir": 615,
+   "ayristir": 1,
+   "yigin": 29835
+  },
+  {
+   "yol": "data/olaylar_sessiz_borc_0919.js",
+   "bayt": 6146,
+   "getir": 199,
+   "ayristir": 0,
+   "yigin": 28155
+  },
+  {
+   "yol": "data/olaylar_p0069.js",
+   "bayt": 8096,
+   "getir": 211,
+   "ayristir": 1,
+   "yigin": 42191
+  },
+  {
+   "yol": "data/olaylar_ebukir_0919.js",
+   "bayt": 2589,
+   "getir": 125,
+   "ayristir": 0,
+   "yigin": 13532
+  },
+  {
+   "yol": "data/kronoloji_naksa_dukaligi.js",
+   "bayt": 16366,
+   "getir": 138,
+   "ayristir": 1,
+   "yigin": 65745
+  },
+  {
+   "yol": "data/kronoloji_orta_asya.js",
+   "bayt": 131577,
+   "getir": 139,
+   "ayristir": 5,
+   "yigin": 485373
+  },
+  {
+   "yol": "data/kronoloji_rodos_sovalyeleri.js",
+   "bayt": 65662,
+   "getir": 32,
+   "ayristir": 3,
+   "yigin": 0
+  },
+  {
+   "yol": "data/kronoloji_safevi.js",
+   "bayt": 50696,
+   "getir": 101,
+   "ayristir": 2,
+   "yigin": 429244
+  },
+  {
+   "yol": "data/kronoloji_sirbistan.js",
+   "bayt": 29292,
+   "getir": 417,
+   "ayristir": 2,
+   "yigin": 107343
+  },
+  {
+   "yol": "data/kisiler.js",
+   "bayt": 126664,
+   "getir": 340,
+   "ayristir": 5,
+   "yigin": 519091
+  },
+  {
+   "yol": "data/savaslar.js",
+   "bayt": 121859,
+   "getir": 216,
+   "ayristir": 7,
+   "yigin": 452145
+  },
+  {
+   "yol": "data/yerlesimler.js",
+   "bayt": 555475,
+   "getir": 1035,
+   "ayristir": 109,
+   "yigin": 2067309
+  },
+  {
+   "yol": "data/yerlesimler_afrika.js",
+   "bayt": 121182,
+   "getir": 243,
+   "ayristir": 7,
+   "yigin": 387133
+  },
+  {
+   "yol": "data/yerlesimler_avrupa.js",
+   "bayt": 85406,
+   "getir": 225,
+   "ayristir": 5,
+   "yigin": 291565
+  },
+  {
+   "yol": "data/yerlesimler_asya.js",
+   "bayt": 216954,
+   "getir": 246,
+   "ayristir": 14,
+   "yigin": 681397
+  },
+  {
+   "yol": "data/yerlesimler_ek.js",
+   "bayt": 30260,
+   "getir": 559,
+   "ayristir": 1,
+   "yigin": -1642469
+  },
+  {
+   "yol": "data/yerlesimler_ortaasya2.js",
+   "bayt": 15173,
+   "getir": 152,
+   "ayristir": 1,
+   "yigin": 41081
+  },
+  {
+   "yol": "data/yerlesimler_kirim.js",
+   "bayt": 17157,
+   "getir": 134,
+   "ayristir": 1,
+   "yigin": 52905
+  },
+  {
+   "yol": "data/yerlesimler_seyrek.js",
+   "bayt": 23280,
+   "getir": 223,
+   "ayristir": 1,
+   "yigin": 61309
+  },
+  {
+   "yol": "data/yerlesimler_ek2.js",
+   "bayt": 12138,
+   "getir": 147,
+   "ayristir": 1,
+   "yigin": 37007
+  },
+  {
+   "yol": "data/yerlesimler_ek3.js",
+   "bayt": 13595,
+   "getir": 186,
+   "ayristir": 1,
+   "yigin": 38517
+  },
+  {
+   "yol": "data/yerlesimler_ek4.js",
+   "bayt": 15988,
+   "getir": 174,
+   "ayristir": 1,
+   "yigin": 43435
+  },
+  {
+   "yol": "data/yerlesimler_ek5.js",
+   "bayt": 4979,
+   "getir": 193,
+   "ayristir": 0,
+   "yigin": 16093
+  },
+  {
+   "yol": "data/yerlesimler_ek6.js",
+   "bayt": 7717,
+   "getir": 411,
+   "ayristir": 1,
+   "yigin": 23473
+  },
+  {
+   "yol": "data/yerlesimler_ek7.js",
+   "bayt": 33086,
+   "getir": 379,
+   "ayristir": 2,
+   "yigin": 95491
+  },
+  {
+   "yol": "data/yerlesimler_ek8.js",
+   "bayt": 33028,
+   "getir": 240,
+   "ayristir": 2,
+   "yigin": 99739
+  },
+  {
+   "yol": "data/yerlesimler_ek9.js",
+   "bayt": 10880,
+   "getir": 399,
+   "ayristir": 1,
+   "yigin": 37511
+  },
+  {
+   "yol": "data/yerlesimler_ek13.js",
+   "bayt": 23251,
+   "getir": 160,
+   "ayristir": 1,
+   "yigin": 66419
+  },
+  {
+   "yol": "data/yerlesimler_ek14.js",
+   "bayt": 10705,
+   "getir": 240,
+   "ayristir": 1,
+   "yigin": 32555
+  },
+  {
+   "yol": "data/yerlesimler_ek15.js",
+   "bayt": 7199,
+   "getir": 1031,
+   "ayristir": 1,
+   "yigin": 25843
+  },
+  {
+   "yol": "data/yerlesimler_ek17.js",
+   "bayt": 14092,
+   "getir": 213,
+   "ayristir": 1,
+   "yigin": 44497
+  },
+  {
+   "yol": "data/yerlesimler_ek18.js",
+   "bayt": 10863,
+   "getir": 1330,
+   "ayristir": 1,
+   "yigin": 32695
+  },
+  {
+   "yol": "data/yerlesimler_ek16.js",
+   "bayt": 5805,
+   "getir": 446,
+   "ayristir": 1,
+   "yigin": 18803
+  },
+  {
+   "yol": "data/yerlesimler_ek20.js",
+   "bayt": 7607,
+   "getir": 16,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek11.js",
+   "bayt": 5138,
+   "getir": 71,
+   "ayristir": 1,
+   "yigin": 42860
+  },
+  {
+   "yol": "data/yerlesimler_ek10.js",
+   "bayt": 6207,
+   "getir": 131,
+   "ayristir": 0,
+   "yigin": 19803
+  },
+  {
+   "yol": "data/yerlesimler_ek12.js",
+   "bayt": 6303,
+   "getir": 73,
+   "ayristir": 1,
+   "yigin": 20487
+  },
+  {
+   "yol": "data/yerlesimler_ek19.js",
+   "bayt": 10232,
+   "getir": 79,
+   "ayristir": 1,
+   "yigin": 30337
+  },
+  {
+   "yol": "data/yerlesimler_ek21.js",
+   "bayt": 8784,
+   "getir": 37,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek22.js",
+   "bayt": 7717,
+   "getir": 100,
+   "ayristir": 1,
+   "yigin": 67576
+  },
+  {
+   "yol": "data/yerlesimler_h2_afrika.js",
+   "bayt": 78543,
+   "getir": 101,
+   "ayristir": 8,
+   "yigin": 261509
+  },
+  {
+   "yol": "data/yerlesimler_h2_rusya.js",
+   "bayt": 36956,
+   "getir": 56,
+   "ayristir": 3,
+   "yigin": 134185
+  },
+  {
+   "yol": "data/yerlesimler_h2_kuzeyafrika.js",
+   "bayt": 32475,
+   "getir": 79,
+   "ayristir": 2,
+   "yigin": 114555
+  },
+  {
+   "yol": "data/yerlesimler_gdasya.js",
+   "bayt": 39644,
+   "getir": 82,
+   "ayristir": 4,
+   "yigin": 156405
+  },
+  {
+   "yol": "data/yerlesimler_kalite4.js",
+   "bayt": 6433,
+   "getir": 89,
+   "ayristir": 1,
+   "yigin": 28613
+  },
+  {
+   "yol": "data/yerlesimler_sibirya.js",
+   "bayt": 4613,
+   "getir": 43,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_emilme.js",
+   "bayt": 11102,
+   "getir": 36,
+   "ayristir": 3,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek23.js",
+   "bayt": 11435,
+   "getir": 130,
+   "ayristir": 1,
+   "yigin": 73604
+  },
+  {
+   "yol": "data/yerlesimler_ek24.js",
+   "bayt": 14295,
+   "getir": 67,
+   "ayristir": 2,
+   "yigin": -648937
+  },
+  {
+   "yol": "data/yerlesimler_ek25.js",
+   "bayt": 9405,
+   "getir": 74,
+   "ayristir": 1,
+   "yigin": 40198
+  },
+  {
+   "yol": "data/yerlesimler_ek26.js",
+   "bayt": 20721,
+   "getir": 36,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek27.js",
+   "bayt": 7502,
+   "getir": 56,
+   "ayristir": 1,
+   "yigin": 99544
+  },
+  {
+   "yol": "data/yerlesimler_ek28.js",
+   "bayt": 12871,
+   "getir": 31,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek29.js",
+   "bayt": 54252,
+   "getir": 68,
+   "ayristir": 2,
+   "yigin": 219892
+  },
+  {
+   "yol": "data/yerlesimler_epir.js",
+   "bayt": 24546,
+   "getir": 52,
+   "ayristir": 1,
+   "yigin": 64225
+  },
+  {
+   "yol": "data/olaylar_serhat.js",
+   "bayt": 6046,
+   "getir": 78,
+   "ayristir": 1,
+   "yigin": 22365
+  },
+  {
+   "yol": "data/olaylar_p0043a.js",
+   "bayt": 3889,
+   "getir": 97,
+   "ayristir": 0,
+   "yigin": 15111
+  },
+  {
+   "yol": "data/olaylar_p0043b.js",
+   "bayt": 3171,
+   "getir": 16,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0043kirim.js",
+   "bayt": 4776,
+   "getir": 59,
+   "ayristir": 0,
+   "yigin": 35348
+  },
+  {
+   "yol": "data/olaylar_p0044.js",
+   "bayt": 10981,
+   "getir": 66,
+   "ayristir": 1,
+   "yigin": 45917
+  },
+  {
+   "yol": "data/olaylar_p0047.js",
+   "bayt": 3923,
+   "getir": 86,
+   "ayristir": 0,
+   "yigin": 18013
+  },
+  {
+   "yol": "data/olaylar_p0048.js",
+   "bayt": 7316,
+   "getir": 48,
+   "ayristir": 0,
+   "yigin": 29887
+  },
+  {
+   "yol": "data/olaylar_p0049.js",
+   "bayt": 17438,
+   "getir": 40,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0050.js",
+   "bayt": 11368,
+   "getir": 115,
+   "ayristir": 1,
+   "yigin": 118114
+  },
+  {
+   "yol": "data/olaylar_p0051.js",
+   "bayt": 7149,
+   "getir": 70,
+   "ayristir": 1,
+   "yigin": 33037
+  },
+  {
+   "yol": "data/olaylar_p0052.js",
+   "bayt": 2994,
+   "getir": 49,
+   "ayristir": 0,
+   "yigin": 14863
+  },
+  {
+   "yol": "data/olaylar_p0053.js",
+   "bayt": 6693,
+   "getir": 64,
+   "ayristir": 1,
+   "yigin": 30097
+  },
+  {
+   "yol": "data/olaylar_p0055.js",
+   "bayt": 10561,
+   "getir": 103,
+   "ayristir": 1,
+   "yigin": 44365
+  },
+  {
+   "yol": "data/olaylar_p0056.js",
+   "bayt": 16384,
+   "getir": 96,
+   "ayristir": 1,
+   "yigin": 69299
+  },
+  {
+   "yol": "data/ittifaklar.js",
+   "bayt": 8710,
+   "getir": 44,
+   "ayristir": 1,
+   "yigin": 39665
+  },
+  {
+   "yol": "data/olaylar_p0057.js",
+   "bayt": 20176,
+   "getir": 74,
+   "ayristir": 1,
+   "yigin": 78735
+  },
+  {
+   "yol": "data/olaylar_p0058.js",
+   "bayt": 9091,
+   "getir": 144,
+   "ayristir": 1,
+   "yigin": 39789
+  },
+  {
+   "yol": "data/olaylar_p0059.js",
+   "bayt": 3465,
+   "getir": 122,
+   "ayristir": 0,
+   "yigin": 16357
+  },
+  {
+   "yol": "data/hukuki_sinirlar.js",
+   "bayt": 61266,
+   "getir": 44,
+   "ayristir": 4,
+   "yigin": 250991
+  },
+  {
+   "yol": "data/bos_alanlar.js",
+   "bayt": 54107,
+   "getir": 53,
+   "ayristir": 4,
+   "yigin": 181816
+  },
+  {
+   "yol": "data/yerlesimler_amerika.js",
+   "bayt": 82989,
+   "getir": 48,
+   "ayristir": 4,
+   "yigin": 239969
+  },
+  {
+   "yol": "data/yerlesimler_ek30.js",
+   "bayt": 12992,
+   "getir": 38,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek31.js",
+   "bayt": 12739,
+   "getir": 29,
+   "ayristir": 1,
+   "yigin": 85100
+  },
+  {
+   "yol": "data/yerlesimler_0ee15e.js",
+   "bayt": 11809,
+   "getir": 15,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_e9353f.js",
+   "bayt": 56729,
+   "getir": 32,
+   "ayristir": 1,
+   "yigin": 182526
+  },
+  {
+   "yol": "data/yerlesimler_ek_adalar.js",
+   "bayt": 13427,
+   "getir": 29,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek_bozkir.js",
+   "bayt": 16355,
+   "getir": 19,
+   "ayristir": 1,
+   "yigin": 84414
+  },
+  {
+   "yol": "data/yerlesimler_ek_ferhadpasa.js",
+   "bayt": 6269,
+   "getir": 14,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ek_macaristan.js",
+   "bayt": 17833,
+   "getir": 29,
+   "ayristir": 1,
+   "yigin": 66614
+  },
+  {
+   "yol": "data/yerlesimler_ek_korfez.js",
+   "bayt": 5718,
+   "getir": 33,
+   "ayristir": 0,
+   "yigin": 20347
+  },
+  {
+   "yol": "data/yerlesimler_ek_bosluk.js",
+   "bayt": 3986,
+   "getir": 19,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_serhat.js",
+   "bayt": 12885,
+   "getir": 26,
+   "ayristir": 1,
+   "yigin": 52594
+  },
+  {
+   "yol": "data/yerlesimler_kdmacar.js",
+   "bayt": 6571,
+   "getir": 21,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_sinir_dogu.js",
+   "bayt": 16315,
+   "getir": 29,
+   "ayristir": 1,
+   "yigin": 89276
+  },
+  {
+   "yol": "data/yerlesimler_sinir_guney.js",
+   "bayt": 17411,
+   "getir": 22,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_sinir_kuzey.js",
+   "bayt": 22776,
+   "getir": 21,
+   "ayristir": 1,
+   "yigin": 162048
+  },
+  {
+   "yol": "data/yerlesimler_8beb2b.js",
+   "bayt": 9260,
+   "getir": 20,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_4ff22b.js",
+   "bayt": 6158,
+   "getir": 30,
+   "ayristir": 0,
+   "yigin": 46950
+  },
+  {
+   "yol": "data/yerlesimler_amerika2.js",
+   "bayt": 4898,
+   "getir": 22,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_hindistan.js",
+   "bayt": 6255,
+   "getir": 25,
+   "ayristir": 0,
+   "yigin": 35386
+  },
+  {
+   "yol": "data/yerlesimler_ok101.js",
+   "bayt": 7895,
+   "getir": 31,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ok104.js",
+   "bayt": 15309,
+   "getir": 20,
+   "ayristir": 1,
+   "yigin": 68594
+  },
+  {
+   "yol": "data/yerlesimler_ok106.js",
+   "bayt": 23834,
+   "getir": 14,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ok109.js",
+   "bayt": 12659,
+   "getir": 24,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ok110.js",
+   "bayt": 5362,
+   "getir": 24,
+   "ayristir": 1,
+   "yigin": 125031
+  },
+  {
+   "yol": "data/yerlesimler_ok107.js",
+   "bayt": 31733,
+   "getir": 23,
+   "ayristir": 2,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_amerika3.js",
+   "bayt": 20898,
+   "getir": 20,
+   "ayristir": 1,
+   "yigin": 163858
+  },
+  {
+   "yol": "data/yerlesimler_ortaasya3.js",
+   "bayt": 27910,
+   "getir": 20,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_okyanusya.js",
+   "bayt": 60041,
+   "getir": 31,
+   "ayristir": 3,
+   "yigin": 291692
+  },
+  {
+   "yol": "data/yerlesimler_sibirya2.js",
+   "bayt": 30458,
+   "getir": 30,
+   "ayristir": 2,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_gamerika.js",
+   "bayt": 65701,
+   "getir": 17,
+   "ayristir": 4,
+   "yigin": 359948
+  },
+  {
+   "yol": "data/yerlesimler_kamerika.js",
+   "bayt": 122203,
+   "getir": 31,
+   "ayristir": 8,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_hint0912.js",
+   "bayt": 5574,
+   "getir": 52,
+   "ayristir": 0,
+   "yigin": 474828
+  },
+  {
+   "yol": "data/yerlesimler_p0043libya.js",
+   "bayt": 5938,
+   "getir": 111,
+   "ayristir": 1,
+   "yigin": 21909
+  },
+  {
+   "yol": "data/yerlesimler_p0037.js",
+   "bayt": 14422,
+   "getir": 49,
+   "ayristir": 1,
+   "yigin": 55323
+  },
+  {
+   "yol": "data/yerlesimler_anadolu_0914.js",
+   "bayt": 17992,
+   "getir": 20,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_ukrayna_0916.js",
+   "bayt": 4059,
+   "getir": 47,
+   "ayristir": 1,
+   "yigin": 90440
+  },
+  {
+   "yol": "data/yerlesimler_nokta_afrika_0917.js",
+   "bayt": 2626,
+   "getir": 77,
+   "ayristir": 0,
+   "yigin": 14423
+  },
+  {
+   "yol": "data/yerlesimler_nokta_amerika_0917.js",
+   "bayt": 15877,
+   "getir": 55,
+   "ayristir": 1,
+   "yigin": 66571
+  },
+  {
+   "yol": "data/yerlesimler_nokta_asya_0917.js",
+   "bayt": 55543,
+   "getir": 35,
+   "ayristir": 2,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_nokta_ortadogu_0917.js",
+   "bayt": 11621,
+   "getir": 47,
+   "ayristir": 1,
+   "yigin": 271710
+  },
+  {
+   "yol": "data/yerlesimler_nokta_sibirya_0917.js",
+   "bayt": 4239,
+   "getir": 29,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/yerlesimler_afrika2.js",
+   "bayt": 105491,
+   "getir": 25,
+   "ayristir": 8,
+   "yigin": 402256
+  },
+  {
+   "yol": "data/olaylar_ok107.js",
+   "bayt": 5636,
+   "getir": 54,
+   "ayristir": 1,
+   "yigin": -1711885
+  },
+  {
+   "yol": "data/seferler_ok103.js",
+   "bayt": 12475,
+   "getir": 41,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_ok109.js",
+   "bayt": 18592,
+   "getir": 77,
+   "ayristir": 1,
+   "yigin": 65859
+  },
+  {
+   "yol": "data/olaylar_ok106.js",
+   "bayt": 12605,
+   "getir": 36,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_ok104.js",
+   "bayt": 2959,
+   "getir": 25,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0036.js",
+   "bayt": 4946,
+   "getir": 20,
+   "ayristir": 0,
+   "yigin": 35008
+  },
+  {
+   "yol": "data/olaylar_sk105.js",
+   "bayt": 3356,
+   "getir": 20,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_sh110.js",
+   "bayt": 1877,
+   "getir": 22,
+   "ayristir": 0,
+   "yigin": 21480
+  },
+  {
+   "yol": "data/olaylar_cukurova_0907.js",
+   "bayt": 6057,
+   "getir": 24,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0037.js",
+   "bayt": 1975,
+   "getir": 36,
+   "ayristir": 0,
+   "yigin": 37314
+  },
+  {
+   "yol": "data/olaylar_p0057b.js",
+   "bayt": 6159,
+   "getir": 19,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0060.js",
+   "bayt": 5792,
+   "getir": 20,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0063.js",
+   "bayt": 10554,
+   "getir": 16,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0917taraf.js",
+   "bayt": 6400,
+   "getir": 14,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0917kosu13.js",
+   "bayt": 20298,
+   "getir": 16,
+   "ayristir": 1,
+   "yigin": 151983
+  },
+  {
+   "yol": "data/olaylar_p0917dunya.js",
+   "bayt": 5145,
+   "getir": 27,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0068.js",
+   "bayt": 7211,
+   "getir": 18,
+   "ayristir": 0,
+   "yigin": 54276
+  },
+  {
+   "yol": "data/olaylar_p0067.js",
+   "bayt": 3471,
+   "getir": 10,
+   "ayristir": 0,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0068b.js",
+   "bayt": 23551,
+   "getir": 11,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_p0065.js",
+   "bayt": 3871,
+   "getir": 15,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/olaylar_kamerika.js",
+   "bayt": 11422,
+   "getir": 21,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/savaslar_ok104.js",
+   "bayt": 3186,
+   "getir": 26,
+   "ayristir": 0,
+   "yigin": 57742
+  },
+  {
+   "yol": "data/savas_kunye_1.js",
+   "bayt": 28647,
+   "getir": 26,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/seferler_p0037.js",
+   "bayt": 5270,
+   "getir": 16,
+   "ayristir": 0,
+   "yigin": 128042
+  },
+  {
+   "yol": "data/seferler_p0064.js",
+   "bayt": 8355,
+   "getir": 12,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/seferler_p0065.js",
+   "bayt": 11313,
+   "getir": 9,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/seferler_p0068.js",
+   "bayt": 10259,
+   "getir": 15,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/seferler_p0071.js",
+   "bayt": 5724,
+   "getir": 14,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/bolgeler.js",
+   "bayt": 493371,
+   "getir": 23,
+   "ayristir": 55,
+   "yigin": 3551332
+  },
+  {
+   "yol": "data/devletler_harita.js",
+   "bayt": 75813581,
+   "getir": 7524,
+   "ayristir": 11392,
+   "yigin": 537295189
+  },
+  {
+   "yol": "data/sehirler.js",
+   "bayt": 63341,
+   "getir": 541,
+   "ayristir": 14,
+   "yigin": 255114
+  },
+  {
+   "yol": "data/donemler.js",
+   "bayt": 61856942,
+   "getir": 2714,
+   "ayristir": 7214,
+   "yigin": 451569514
+  },
+  {
+   "yol": "data/altlik.js",
+   "bayt": 13810685,
+   "getir": 616,
+   "ayristir": 983,
+   "yigin": 71878855
+  },
+  {
+   "yol": "data/koridor.js",
+   "bayt": 31188,
+   "getir": 27,
+   "ayristir": 3,
+   "yigin": 0
+  },
+  {
+   "yol": "data/koridor_halka2.js",
+   "bayt": 9351,
+   "getir": 24,
+   "ayristir": 1,
+   "yigin": 138719
+  },
+  {
+   "yol": "data/koridor_f5c9a5.js",
+   "bayt": 32833,
+   "getir": 15,
+   "ayristir": 2,
+   "yigin": 0
+  },
+  {
+   "yol": "data/koridor_yama_f5c9a5.js",
+   "bayt": 9723,
+   "getir": 17,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "data/koridor_yama_e9353f.js",
+   "bayt": 6995,
+   "getir": 26,
+   "ayristir": 0,
+   "yigin": 162861
+  },
+  {
+   "yol": "data/koridor_owtrad.js",
+   "bayt": 70992,
+   "getir": 25,
+   "ayristir": 5,
+   "yigin": 0
+  },
+  {
+   "yol": "data/bekleyenler.js",
+   "bayt": 4480,
+   "getir": 92,
+   "ayristir": 1,
+   "yigin": 254636
+  },
+  {
+   "yol": "data/isyan_tarama.js",
+   "bayt": 21537,
+   "getir": 39,
+   "ayristir": 2,
+   "yigin": 93119
+  },
+  {
+   "yol": "js/suzgec.js",
+   "bayt": 41731,
+   "getir": 358,
+   "ayristir": 8,
+   "yigin": 119551
+  },
+  {
+   "yol": "js/zaman.js",
+   "bayt": 7748,
+   "getir": 213,
+   "ayristir": 1,
+   "yigin": 24021
+  },
+  {
+   "yol": "js/app.js",
+   "bayt": 723977,
+   "getir": 65,
+   "ayristir": 412,
+   "yigin": 25528705
+  },
+  {
+   "yol": "data/sinir_sinif_dizini.js",
+   "bayt": 320932,
+   "getir": 344,
+   "ayristir": 13,
+   "yigin": 924061
+  },
+  {
+   "yol": "data/d_sinirlar.js",
+   "bayt": 70636,
+   "getir": 101,
+   "ayristir": 5,
+   "yigin": 345417
+  },
+  {
+   "yol": "data/d_sinirlar_komsu.js",
+   "bayt": 99947,
+   "getir": 88,
+   "ayristir": 6,
+   "yigin": 457151
+  },
+  {
+   "yol": "data/d_sinirlar_avrupa_bati.js",
+   "bayt": 289255,
+   "getir": 29,
+   "ayristir": 16,
+   "yigin": 0
+  },
+  {
+   "yol": "data/d_sinirlar_avrupa_orta.js",
+   "bayt": 419135,
+   "getir": 47,
+   "ayristir": 20,
+   "yigin": 1639947
+  },
+  {
+   "yol": "data/d_sinirlar_ortadogu.js",
+   "bayt": 30697,
+   "getir": 12,
+   "ayristir": 2,
+   "yigin": 0
+  },
+  {
+   "yol": "data/d_sinirlar_afrika.js",
+   "bayt": 208098,
+   "getir": 127,
+   "ayristir": 16,
+   "yigin": 1391944
+  },
+  {
+   "yol": "data/d_sinirlar_asya.js",
+   "bayt": 238776,
+   "getir": 104,
+   "ayristir": 14,
+   "yigin": 1022375
+  },
+  {
+   "yol": "data/d_sinirlar_amerika.js",
+   "bayt": 180374,
+   "getir": 153,
+   "ayristir": 12,
+   "yigin": 862369
+  },
+  {
+   "yol": "data/d_sinirlar_okyanusya.js",
+   "bayt": 12939,
+   "getir": 77,
+   "ayristir": 1,
+   "yigin": 47451
+  },
+  {
+   "yol": "data/antlasma_haritalari.js",
+   "bayt": 12953,
+   "getir": 58,
+   "ayristir": 1,
+   "yigin": 58345
+  },
+  {
+   "yol": "js/d_katman.js",
+   "bayt": 16757,
+   "getir": 31,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "js/antlasma_harita.js",
+   "bayt": 13604,
+   "getir": 19,
+   "ayristir": 1,
+   "yigin": 83683
+  },
+  {
+   "yol": "js/anim_dili.js",
+   "bayt": 7152,
+   "getir": 39,
+   "ayristir": 1,
+   "yigin": 0
+  },
+  {
+   "yol": "js/sefer_ok.js",
+   "bayt": 11341,
+   "getir": 35,
+   "ayristir": 1,
+   "yigin": 56169
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "zaman": "2026-09-20T19:47:44.498Z",
+ "sinav": [
+  {
+   "bayt": 60354319,
+   "json": 3040,
+   "kaynak": 8964,
+   "json_yigin": 169333937,
+   "kaynak_yigin": 384037542,
+   "oge": 5650,
+   "esit": true,
+   "ad": "PARCALAR (Osmanli havuzu)",
+   "kazanc_yuzde": 66
+  },
+  {
+   "bayt": 73288766,
+   "json": 2843,
+   "kaynak": 10481,
+   "json_yigin": 199787948,
+   "kaynak_yigin": 454569316,
+   "oge": 68647,
+   "esit": true,
+   "ad": "DEVLET_PARCALAR (yabanci havuzu)",
+   "kazanc_yuzde": 73
+  }
+ ]
+}
