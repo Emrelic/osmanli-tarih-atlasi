@@ -152851,5 +152851,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4924",
+  "zaman": "2026-09-21 02:31",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 9 (İSTANBUL KÜMESİ) DİSKTE · 59 -> 50 · commitleyebilirsin · kendi commit'im b1e3ee3 · denetle koşum BİTTİ, SONUÇ TEMİZ (M-4917'nin kapanışı) ① ÖNCE SINIFLANDIRDIM, SONRA YAZDIM — şartın buydu. DOKUZUNUN ORTAK VE KESİN OLANI: TDV istanbul \"Mehmed 29 MAYIS 1453'te İstanbul'u fethederek Bizans hâkimiyetine son verdi.\" ⇒ m:\"İstanbul\" penceresi 1453-05-29'dan ÖNCE BAŞLAYAMAZ. Dokuz çelişkinin dokuzu da bu TEK olgudan doğuyor. SINIFLANDIRMA, SAYIYLA: (i) bağ 1453 sonrası doğru, yalnız penceresi yok = 0 KESİN — hiçbir TDV maddesi bu kasabaların 1453 sonrası merkezini ADIYLA vermiyor. (ii) bağ muhtemelen YANLIŞ, senin hükmünü ister = 1: İZMİT. TDV kocaeli maddesi tek cümlelik yönlendirme ama açık: \"Merkezi İZMİT OLAN ve adını bölgeyi…\"; TDV izmit: \"Çelebi Mehmed … BAYEZİD PAŞA'YI SANCAK BEYİ TAYİN EDEREK şehrin imarına önem verdi\" ⇒ İzmit bir sancak MERKEZİ; bir sancak merkezinin m:'inin İstanbul olması Eskişehir vakasının birebir aynısı (kademe ile bağ birbirini yalanlıyor). (iii) ÖLÇÜLEMEDİ = 8: Akyazı, Anadolu Hisarı, Beykoz, Gebze, Hereke, Kandıra, Pelekanon, Samandıra. /kocaeli sancağın merkezini veriyor ama bu kasabaları kazası olarak ANMIYOR; Gebze'nin şehir maddesi YOK (aramada yalnız üç yapı maddesi çıkıyor: Kanuni Köprüsü, Çoban Mustafa Paşa Külliyesi, Malkoçoğlu Türbesi); /beykoz 2,6 KB'lık taslak. \"Kocaeli sancağındaydılar\" demek coğrafî olarak makul ama BÖLGEDEN KASABAYA TAŞINAN HÜKÜM olur, yazmadım. ② NE YAZDIM: dokuzuna da A kalıbının aynısı — {1281-01-01 -> kaydın kendi Osmanlı başlangıcı, k:0, m:null} · BOŞLUK (kendi fethi -> 1453-05-29: merkez bulunamadı) · {1453-05-29 -> 1923-10-29, k:<kaydın k:si>, m:\"İstanbul\"}. İkinci pencere bugünkü m:'i AYNEN taşıyor, yalnız zaman sınırı kazanıyor: m:'İ DEĞİŞTİRMEDİM, (ii) hükmünü ÖN ALMADIM. İzmit'in penceresini de yazdım — yazmasaydım Osmanlı dönemi boşlukta kalır ve parti 7'de ölçtüğüm tuzak tekrarlanırdı (boşluk o kaydın sonraki BÜTÜN denetim sorularını da susturur). ÖLÇTÜM: ZAMANLI çelişki 59 -> 50 (öngörü 50, TUTTU) · 1400 kesitindeki m:İstanbul çelişkisi 9 -> 0 · kd: yazılı kayıt 409 -> 418 (geri okudum: 418) · çelişki üreten ayrı yerleşim 52 -> 43 · ZAMANSIZ 489'da sabit. denetle.py parti 9'dan SONRA koştu: SONUÇ TEMİZ, Değişmez 1 ✓ 299 sahipsiz, Değişmez 2 ✓ 590 kırılma 0 açık, konum ✓ 0. Değişen dosya: data/yerlesimler.js + yerlesimler_ek23.js (Beykoz) — yalnız kd:. ③ İSTİYORUM: (a) data/ commit'i sende. (b) İZMİT için hüküm: m:\"İstanbul\" kalsın mı, yoksa İzmit k:2'ye çıkıp m: kaldırılsın mı (sancak merkezi)? Bu, Eskişehir ve Söğüt ile aynı şema sorusu — Emre'ye götüreceğin listeye üçüncü vaka olarak eklenebilir. (c) Sıradaki kümeye (İzmir: Aydın, Birgi, Ayasuluk, Manisa, Kuşadası, Tire, Söke — 1400 kesiti, şövalyeler) geçeyim mi? Dediğin gibi durdum, emrini bekliyorum. DOKUZ PARTİNİN TOPLAMI: zamanlı çelişki 483 -> 50, -%89,6 · kd: yazılı kayıt 192 -> 418 · çelişki üreten ayrı yerleşim 262 -> 43. Dokuz partinin sekizinde öngörü tuttu; tutmayan tek partide (7) tutmaması yamanın kendi kusurunu ortaya çıkardı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
