@@ -1667,8 +1667,12 @@ if _KVNEHIR is not None and not os.environ.get("MOTOR_NEHIR_AB_KAPALI"):
     del _kvuzakN
 
 # ---------------- 🚶 YÜRÜYÜŞ: bütçe bölgesi ve ızgara sahipliği ----------------
-_YR_UZAK, _YR_IZGARA = [], []       # 40 saatten UZAK eşyükselti parçaları · ızgaranın KARAR verdiği bölge
+_YR_UZAK, _YR_IZGARA = [], []       # bütçeden UZAK eşyükselti parçaları · ızgaranın KARAR verdiği bölge
 _YR_UZAK_AGAC = _YR_IZGARA_AGAC = None
+# Ⓑ bant bütçesi → (poligonlar, ağaç). BURADA da tanımlı ki `MOTOR_YURUYUS`
+# kapalıyken `_yr_kes`/bant döngüsü NameError vermesin (ikisi de yalnız bayrak
+# açıkken çağrılıyor, ama "çağrılmıyor" bir savunma değil — ad var olsun).
+_YR_BANT_UZAK = {}
 _YR_SAHIP = None                    # ny×nx int32, Dijkstra sahibi (−1: karar yok)
 _YR_KARAR = None                    # ny×nx bool, ızgaranın karar verdiği hücre
 _YR_KORUMA = []                     # bütçe kesimi tohumun kendi yerini kesseydi → korunan adlar
@@ -1697,6 +1701,84 @@ if MOTOR_YURUYUS:
                           _np.minimum(_yr_F, _ndi.minimum_filter(_yr_F, size=3, mode="nearest")))
     _yr_F = _np.where(_YR_KARAR, _yr_F, 0.0).astype(_np.float32)
     _yr_F[~_np.isfinite(_yr_F)] = 0.0
+    # ═══════════════════════════════════════════════════════════════════
+    # 🏜 ÇÖL KELEPÇESİ — ufuk artık HÜCRE BAŞINA (B-GORUNUM-0072, 21 Eylül)
+    # ═══════════════════════════════════════════════════════════════════
+    # 16 Eylül kararı: *"Çöl/buz/yüksek plato hücrelerinde ufuk 5 günde kalır."*
+    # Bugüne kadar YAZILI DEĞİLDİ — `_YR_BUTCE` tek bir küresel sayıydı.
+    #
+    # 🔴 NİÇİN GEREKLİ, ÖLÇÜLDÜ (`denetim/B-GORUNUM-0072-BANT.md` §3):
+    #    Sahra kutusunda ufku 5→10 güne çıkarmak sahipsiz karayı
+    #    950.218 → 16.608 km²'ye indiriyor. Kelepçesiz 10 günlük ufuk o çölü
+    #    BOYAR. Kelepçe 5 günde tutulursa kazancın %98,2'si geri gider;
+    #    7 günde tutulursa %79,4'ü korunur. Hangisi olacağı EMRE'NİN kararı —
+    #    bu yüzden kelepçe SABİT değil PARAMETRE.
+    #
+    # 🔴 VARSAYILAN BUGÜNKÜ DAVRANIŞ, VE BU BİR TEMENNİ DEĞİL YAPISAL:
+    #    `MOTOR_COL_UFUK_SAAT` verilmezse aşağıdaki blok HİÇ ÇALIŞMAZ ve
+    #    kontur eskisi gibi SKALER `_YR_BUTCE` seviyesinden geçer. Alanı
+    #    normalleştirip 1.0'dan kontur almak "aynı sonucu vermeli"ydi ama
+    #    bölme kayan noktada birebir aynı olmaz; kapıyı tamamen atlamak
+    #    bit bit aynılığı SORMADAN garanti eder.
+    #    Sınavı: `denetim/ARAC-B-GORUNUM-KELEPCE-0072.py`.
+    _COL_UFUK_SAAT = float(os.environ.get("MOTOR_COL_UFUK_SAAT", "0") or "0")
+    _YR_KELEPCE = _COL_UFUK_SAAT > 0
+    _YR_ESIK = None          # None ⇒ skaler bütçe (bugünkü yol)
+    if _YR_KELEPCE:
+        _kel_t = time.time()
+        # ⚠️ ÇÖL BURADA İKİNCİ KEZ OKUNUYOR ve sebebi sıradan: motorun kendi
+        #    `COL`u bu satırdan ~2000 satır SONRA kuruluyor (çöl tavanı
+        #    aşaması) ve oraya taşımak `_SU_TAMPON`u da taşımak demek.
+        #    AYNI DOSYA, AYNI SÜZGEÇ (`FEATURECLA == "Desert"`) kullanılıyor;
+        #    biri değişirse öteki DE değişmeli — iki tanım ayrışırsa kelepçe
+        #    sessizce başka bir yerde çalışır.
+        _kel_parca = []
+        try:
+            _kel_gr = json.load(open(os.path.join(
+                BASEMAPS, "ne_10m_geography_regions_polys.geojson"),
+                encoding="utf-8"))
+            for _f in _kel_gr["features"]:
+                if (_f["properties"].get("FEATURECLA") or "") != "Desert":
+                    continue
+                _g = shape(_f["geometry"])
+                if not _g.envelope.intersects(BOLGE):
+                    continue
+                _g = _g.buffer(0).intersection(BOLGE)
+                if not _g.is_empty:
+                    _kel_parca.append(_g)
+        except Exception as _e:
+            print("  🔴 ÇÖL KELEPÇESİ: çöl verisi okunamadı, KELEPÇE YOK:", _e)
+            _YR_KELEPCE = False
+        if _YR_KELEPCE and not _kel_parca:
+            print("  🏜 ÇÖL KELEPÇESİ: bu pencerede çöl poligonu YOK — kelepçe "
+                  "etkisiz (bu bir hata değil, pencere kutusu küçük olabilir)")
+            _YR_KELEPCE = False
+        if _YR_KELEPCE:
+            _kel_tr = _Aff(KV_ADIM, 0.0, _kvx0, 0.0, -KV_ADIM,
+                           _kvy0 + _kvny * KV_ADIM)
+            # satır 0 = KUZEY (rasterize sözleşmesi) ⇒ sonra flipud ile
+            # ızgaranın kendi yönüne (satır 0 = GÜNEY) çevrilir.
+            _kel_R = _rfe.rasterize(((g, 1) for g in _kel_parca),
+                                    out_shape=(_kvny, _kvnx), transform=_kel_tr,
+                                    fill=0, dtype="uint8")
+            _kel_M = _np.flipud(_kel_R) > 0
+            _YR_ESIK = _np.full((_kvny, _kvnx), _YR_BUTCE, dtype=_np.float32)
+            _YR_ESIK[_kel_M] = _COL_UFUK_SAAT * NEHIR_KM_SAAT
+            print(f"  🏜 ÇÖL KELEPÇESİ AÇIK: çöl ufku {_COL_UFUK_SAAT:g} saat "
+                  f"({_COL_UFUK_SAAT * NEHIR_KM_SAAT:.1f} km) · genel ufuk "
+                  f"{YURUYUS_SAAT:g} saat ({_YR_BUTCE:.1f} km) · "
+                  f"{len(_kel_parca)} çöl poligonu · kelepçeli hücre "
+                  f"{int(_kel_M.sum()):,} / {_kel_M.size:,} "
+                  f"(%{100.0 * _kel_M.sum() / _kel_M.size:.1f}) · "
+                  f"{time.time() - _kel_t:.1f} sn")
+            # 🔴 KONTUR SEVİYESİ 1.0'A ÇEKİLİYOR: alan kendi eşiğine bölünür.
+            #    "Bedel > eşik" sorusu "bedel/eşik > 1" sorusuyla AYNIDIR ve
+            #    contourpy tek skaler seviye alır. Eşik sıfır olamaz (bütçe
+            #    her hâlde pozitif), bölme güvenli.
+            _yr_F = (_yr_F / _YR_ESIK).astype(_np.float32)
+            _YR_BUTCE_KONTUR = 1.0
+    if _YR_ESIK is None:
+        _YR_BUTCE_KONTUR = _YR_BUTCE
     _yr_km2 = ((KV_ADIM * 111.32) ** 2
                * _np.cos(_np.radians(_kvy0 + (_np.arange(_kvny) + 0.5) * KV_ADIM)))[:, None]
     print(f"  bütçe {_YR_BUTCE:.1f} km-eşdeğeri · erişilen kara "
@@ -1713,24 +1795,42 @@ if MOTOR_YURUYUS:
     _yr_pF = _np.pad(_yr_F, 1, mode="edge")
     _yr_ust = float(_yr_pF.max()) + 1.0
     _yr_T = int(round(YURUYUS_KARO / KV_ADIM))
-    for _j0 in range(0, _kvny + 1, _yr_T):
-        _j1 = min(_j0 + _yr_T, _kvny + 1)
-        for _i0 in range(0, _kvnx + 1, _yr_T):
-            _i1 = min(_i0 + _yr_T, _kvnx + 1)
-            _sub = _yr_pF[_j0:_j1 + 1, _i0:_i1 + 1]
-            if float(_sub.max()) <= _YR_BUTCE:
-                continue
-            _gen = _cp.contour_generator(_yr_px[_i0:_i1 + 1], _yr_py[_j0:_j1 + 1], _sub,
-                                         fill_type=_cp.FillType.OuterOffset)
-            _pl, _ol = _gen.filled(_YR_BUTCE, _yr_ust)
-            for _pts, _ofs in zip(_pl, _ol):
-                _hl = [_pts[_ofs[_k]:_ofs[_k + 1]] for _k in range(len(_ofs) - 1)]
-                _hl = [_h for _h in _hl if len(_h) >= 4]
-                if not _hl:
+
+    def _yr_kontur(seviye):
+        """Verilen seviyeden UZAK olan bölgenin poligonları.
+
+        🔴 DÖNGÜ İŞLEVE ALINDI ki AYNI KOD birden çok seviyede koşabilsin —
+        bant üretimi (≤5 · 5-7 · 7-10) tam olarak bunu istiyor. Kopyala-
+        yapıştır ikinci bir gövde yazmak daha kolaydı ve YANLIŞ olurdu:
+        iki kopya zamanla ayrışır, ayrıştıkları an bantlar taban kesimiyle
+        farklı kural uygular ve bunu hiçbir denetim sormaz.
+        (`_kv_dijkstra`nın işlev hâline getirilme gerekçesinin aynısı.)
+        """
+        _out = []
+        for _j0 in range(0, _kvny + 1, _yr_T):
+            _j1 = min(_j0 + _yr_T, _kvny + 1)
+            for _i0 in range(0, _kvnx + 1, _yr_T):
+                _i1 = min(_i0 + _yr_T, _kvnx + 1)
+                _sub = _yr_pF[_j0:_j1 + 1, _i0:_i1 + 1]
+                if float(_sub.max()) <= seviye:
                     continue
-                _pg = Polygon(_hl[0], _hl[1:]).buffer(0)
-                if not _pg.is_empty:
-                    _YR_UZAK.append(_pg)
+                _gen = _cp.contour_generator(_yr_px[_i0:_i1 + 1],
+                                             _yr_py[_j0:_j1 + 1], _sub,
+                                             fill_type=_cp.FillType.OuterOffset)
+                _pl, _ol = _gen.filled(seviye, _yr_ust)
+                for _pts, _ofs in zip(_pl, _ol):
+                    _hl = [_pts[_ofs[_k]:_ofs[_k + 1]] for _k in range(len(_ofs) - 1)]
+                    _hl = [_h for _h in _hl if len(_h) >= 4]
+                    if not _hl:
+                        continue
+                    _pg = Polygon(_hl[0], _hl[1:]).buffer(0)
+                    if not _pg.is_empty:
+                        _out.append(_pg)
+        return _out
+
+    # `_YR_BUTCE_KONTUR`: kelepçe kapalıyken `_YR_BUTCE`nin KENDİSİ
+    # (bugünkü yol, birebir), açıkken 1.0 (alan eşiğine bölündü).
+    _YR_UZAK.extend(_yr_kontur(_YR_BUTCE_KONTUR))
     # Karar bölgesi — raster (kıyı saçağı ve tohumsuz kara sınırı; ikisi de
     # kıyı kesimi ve A1 tavanı tarafından ayrıca çizilen yerler).
     _yr_Kf = _np.flipud(_YR_KARAR).astype(_np.uint8)          # satır 0 = KUZEY
@@ -1747,8 +1847,41 @@ if MOTOR_YURUYUS:
                     _YR_IZGARA.append(_pg)
     _YR_UZAK_AGAC = STRtree(_YR_UZAK)
     _YR_IZGARA_AGAC = STRtree(_YR_IZGARA)
-    print(f"  40 saatten uzak eşyükselti parçası {len(_YR_UZAK):,} · "
+    print(f"  {YURUYUS_SAAT:g} saatten uzak eşyükselti parçası {len(_YR_UZAK):,} · "
           f"karar bölgesi parçası {len(_YR_IZGARA):,}")
+    # ═══════════════════════════════════════════════════════════════════
+    # Ⓑ UFUK BANTLARI — Emre'nin kararı: üç bant 5 / 7 / 10 gün
+    # ═══════════════════════════════════════════════════════════════════
+    # 16 Eylül: *"Motor çıktısı devlet başına iç içe OLMAYAN ARTIŞ bantları
+    # verir; arayüz seçilen ufka kadarki bantları birleştirerek çizer."*
+    # ⇒ Bant, AYNI bedel alanının farklı kontur seviyesidir; yeni Dijkstra
+    #   GEREKMEZ (ölçüldü: bant başına 4 sn — kontur 3 sn + kesim 1 sn,
+    #   koşunun %2'si · `denetim/B-GORUNUM-0072-BANT.md` §1).
+    # 🔴 TEKDÜZELİK SINANDI, varsayılmadı: küçük bütçenin kesimi büyük
+    #    bütçenin kesiminin İÇİNDE kalmalı, yoksa bantlar örtüşür ve bir
+    #    toprak iki kez çizilir. İki kutuda ölçüldü — 0 petek, 0 km² ihlal
+    #    (`ARAC-B-GORUNUM-UFUK-0072.py` TEKDÜZELİK SINAVI).
+    # 🔴 VARSAYILAN KAPALI: `MOTOR_UFUK_BANT` verilmezse bu blok hiç
+    #    çalışmaz ve çıktı bugünküyle birebir aynı kalır.
+    _UFUK_BANT = [float(x) for x in
+                  (os.environ.get("MOTOR_UFUK_BANT") or "").replace(" ", "").split(",")
+                  if x]
+    _YR_BANT_UZAK = {}
+    if _UFUK_BANT:
+        _bt = time.time()
+        for _bs in sorted(set(_UFUK_BANT)):
+            if abs(_bs - YURUYUS_SAAT) < 1e-9:
+                _YR_BANT_UZAK[_bs] = (_YR_UZAK, _YR_UZAK_AGAC)   # taban: yeniden hesaplama
+                continue
+            # Kelepçe açıkken alan zaten normalleştirilmiş; bant seviyesi de
+            # AYNI ölçekte olmalı, yoksa bant başka bir eşikten geçer.
+            _sv = (_bs / YURUYUS_SAAT) if _YR_ESIK is not None else (_bs * NEHIR_KM_SAAT)
+            _pl = _yr_kontur(_sv)
+            _YR_BANT_UZAK[_bs] = (_pl, STRtree(_pl))
+        print(f"  Ⓑ ufuk bantları: {', '.join('%g sa' % b for b in sorted(_YR_BANT_UZAK))}"
+              f" · kontur parçaları "
+              f"{', '.join(str(len(_YR_BANT_UZAK[b][0])) for b in sorted(_YR_BANT_UZAK))}"
+              f" · {time.time() - _bt:.1f} sn")
     del _yr_u, _yr_F, _yr_pF, _yr_Kf, _yr_R, _yr_U
 
 
@@ -1873,6 +2006,16 @@ def _yr_epok_onar(olu):
     _hl = _ndi.binary_dilation(_Dm, _np.ones((5, 5), dtype=bool)) & ~_Dm
     _hl &= _YR_SAHIP[_r0:_r1, _c0:_c1] >= 0
     _hr, _hc = _np.nonzero(_hl)                       # satır-sütun sırası = artan
+    # ⚠️ ÇÖL KELEPÇESİ BU İKİ SATIRA UYGULANMIYOR ve bu BİLEREK yazıldı:
+    #    epok onarımı, ölen bir yerleşimin toprağını komşularına devretmek
+    #    için YEREL bir Dijkstra koşturur ve tavanı SKALER olmak zorunda
+    #    (`_yr_yerel_dijkstra` tek bir üst sınır alır). Kelepçe açıkken
+    #    burada GENEL ufuk kullanılır ⇒ devredilen toprak çölde genel ufka
+    #    kadar uzanabilir, oysa asıl kesim onu geri alır.
+    # 🔴 SONUÇ SESSİZ DEĞİL: kesim (`_yr_kes`) kelepçeli konturu uyguladığı
+    #    için fazlalık SONRADAN kesilir; yani kusur çıktıya değil YALNIZ ara
+    #    hesabın menziline bakar. Yine de tam doğrusu tavanın da hücre başına
+    #    olmasıdır — ölçülmedi, ayrı kalem olarak bildirildi.
     for k in ((_hr + _r0) * _nxx + (_hc + _c0)).tolist():
         d = _kvuzak[k]
         if d <= _YR_BUTCE:
@@ -1882,13 +2025,19 @@ def _yr_epok_onar(olu):
     return D, yeni
 
 
-def _yr_kes(geo, i):
-    """🚶 A1 tavanının yerine: `geo`dan 40 saatten uzak olanı çıkar; ızgaranın
+def _yr_kes(geo, i, bant=None):
+    """🚶 A1 tavanının yerine: `geo`dan bütçeden uzak olanı çıkar; ızgaranın
     karar vermediği payda ESKİ tavanı (TAVAN_DAIRE[i]) uygula. Tohumun kendi
-    yeri asla kesilmez (Değişmez 1) — keserse korunur ve ADIYLA sayılır."""
+    yeri asla kesilmez (Değişmez 1) — keserse korunur ve ADIYLA sayılır.
+
+    `bant`: verilirse o bütçenin kontur kümesiyle keser (ufuk bantları).
+    None ⇒ üretim bütçesi — bugünkü davranış, BİREBİR.
+    """
+    _uz, _ag = (_YR_BANT_UZAK[bant] if bant is not None and bant in _YR_BANT_UZAK
+                else (_YR_UZAK, _YR_UZAK_AGAC))
     kes = geo
-    for _q in _YR_UZAK_AGAC.query(geo):
-        kes = kes.difference(_YR_UZAK[int(_q)])
+    for _q in _ag.query(geo):
+        kes = kes.difference(_uz[int(_q)])
     if not kes.is_empty:
         dis = kes
         for _q in _YR_IZGARA_AGAC.query(kes):
@@ -3139,9 +3288,20 @@ asama("Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI")
 _TV_BAGLI = set()          # 🔴 SAYI DEĞİL KÜME — aşağıdaki nöbetçi kovayı ayırsın diye
 _tv_once = _tv_sonra = 0.0
 PETEK_D = []
+# Ⓑ BANT HAM KESİMLERİ — bant bütçesi başına, AYNI `kara_kesik` üzerinden.
+# Burada toplanıyor çünkü `kara_kesik` bu döngüden sonra YAŞAMIYOR; sonradan
+# yeniden kurmak aynı geometriyi ikinci kez üretmek olurdu ve iki üretim
+# ayrışabilirdi.
+_BANT_HAM = {b: [None] * len(PETEK_TAM) for b in _YR_BANT_UZAK} if MOTOR_YURUYUS else {}
 for i, g in enumerate(PETEK_TAM):
     kara_kesik = g.intersection(KARA)
     a0 = kara_kesik.area
+    if a0 > 0 and _BANT_HAM:
+        for _b in _BANT_HAM:
+            try:
+                _BANT_HAM[_b][i] = poligonal(_yr_kes(kara_kesik, i, bant=_b))
+            except Exception:
+                _BANT_HAM[_b][i] = None
     if a0 > 0:
         kes = (_yr_kes(kara_kesik, i) if MOTOR_YURUYUS
                else kara_kesik.intersection(TAVAN_DAIRE[i]))
@@ -6981,6 +7141,84 @@ girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
 open(_dyol, "w", encoding="utf-8").write(_dj)
 print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
       f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Ⓑ UFUK BANTLARI — AYRI DOSYA (B-GORUNUM-0072, 21 Eylül 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre'nin kararı: üç bant 5 / 7 / 10 gün. 1.MURAT'ın hükmü (M-4892):
+# *"AYRI DOSYA + TEMBEL YÜKLEME"* — ve gerekçesi ölçülmüş bir sayı:
+# bant eki dünyada kabaca +5 MB ile +87 MB (yoğun kutuda tabanın %3,5'i,
+# tenha kutuda %64,3'ü · `denetim/B-GORUNUM-0072-BANT.md` §2), site ise
+# bugün zaten 261 dosya / 157,6 MB ham indiriyor.
+# ⇒ `index.html` BU DOSYAYI YÜKLEMEZ; Ⓑ anahtarı açılınca `fetch` edilir.
+#
+# 🔴 BANT = ARTIŞ, iç içe DEĞİL: bant_b = kesim(b) − kesim(b−1).
+#    Tekdüzelik (kesim(b−1) ⊆ kesim(b)) VARSAYILMADI, ÖLÇÜLDÜ: iki kutuda
+#    0 petek / 0 km² ihlal.
+# ⚠️ AÇIKÇA BİLİNEN SINIR: taban bant (`<=`) PETEK_D'dir, yani kıyı kesimi
+#    SONRASI bütün aşamalardan (ada kuralı · kara-kısıtlı devir · çöl tavanı)
+#    geçmiştir. Artış bantları ise YALNIZ bütçe kesiminden geçer — o
+#    aşamalar bant alanına uygulanmaz. Farkın büyüklüğü ölçülmelidir
+#    (`denetim/ARAC-B-GORUNUM-BANTSINAV-0072.py`); ölçülmeden bantlar
+#    yayına alınmamalıdır.
+if _BANT_HAM and len(_BANT_HAM) > 1:
+    asama("Ⓑ ufuk bantları (ayrı dosya)")
+    _bt0 = time.time()
+    _bant_sirali = sorted(_BANT_HAM)
+    _bant_havuz, _bant_ix, _bant_parca, _bant_pix = [], {}, [], {}
+    _bant_kayit = []
+    for _bi, _bs in enumerate(_bant_sirali):
+        _onceki = _bant_sirali[_bi - 1] if _bi else None
+        _ad = ("<=%g" % (_bs / 8.0)) if _onceki is None else \
+              ("%g-%g" % (_onceki / 8.0, _bs / 8.0))
+        _ix_listesi, _alan = [], 0.0
+        for _i in range(len(PETEK_TAM)):
+            _g = PETEK_D[_i] if _onceki is None else _BANT_HAM[_bs][_i]
+            if _g is None or _g.is_empty:
+                _ix_listesi.append([])
+                continue
+            if _onceki is not None:
+                _o = _BANT_HAM[_onceki][_i]
+                if _o is not None and not _o.is_empty:
+                    try:
+                        _g = poligonal(_g.difference(_o))
+                    except Exception:
+                        _g = Polygon()
+            if _g.is_empty:
+                _ix_listesi.append([])
+                continue
+            _alan += _ham_km2(_g)
+            _ix_listesi.append(havuza(mp_koord(_g), _bant_havuz, _bant_ix,
+                                      _bant_parca, _bant_pix))
+        _bant_kayit.append({"ad": _ad, "saat": _bs, "gun": _bs / 8.0,
+                            "p": _ix_listesi})
+        print(f"  bant {_ad:>10} gün · {sum(1 for x in _ix_listesi if x):,} petek · "
+              f"{_alan:,.0f} km²")
+    _byol = os.path.join(KOK, "data", "ufuk_bantlari.js")
+    _bj = ("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+           "// Ⓑ UFUK BANTLARI — iç içe OLMAYAN artış bantları.\n"
+           "// ⚠️ index.html BU DOSYAYI YÜKLEMEZ: Ⓑ anahtarı açılınca fetch\n"
+           "//    edilir (ölçülen boyut gerekçesi: B-GORUNUM-0072-BANT.md §2).\n"
+           "// UFUK_BANT[k].p[i] → UFUK_BANT_PARCA havuzuna indeks dizisi;\n"
+           "// o da UFUK_BANT_PARCALAR (halka havuzu) indeksleri taşır —\n"
+           "// donemler.js ile AYNI şema, js/app.js parcaCoz birebir çözer.\n"
+           "// Sıra PETEKLER (donemler.js) ile AYNIDIR.\n")
+    _bj += ("window.UFUK_BANT_PARCALAR = "
+            + json.dumps(_bant_havuz, separators=(",", ":")) + ";\n")
+    _bj += ("window.UFUK_BANT_PARCA = "
+            + json.dumps(_bant_parca, separators=(",", ":")) + ";\n")
+    _bj += ("window.UFUK_BANT = "
+            + json.dumps(_bant_kayit, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    _bj += ("window.UFUK_BANT_IZI = "
+            + json.dumps({"taban_saat": YURUYUS_SAAT,
+                          "col_ufuk_saat": (_COL_UFUK_SAAT if MOTOR_YURUYUS else 0),
+                          "bant": _bant_sirali},
+                         separators=(",", ":"), sort_keys=True) + ";\n")
+    io.open(_byol, "w", encoding="utf-8").write(_bj)
+    print(f"  → data/ufuk_bantlari.js ({os.path.getsize(_byol) // 1024} KB, "
+          f"{len(_bant_havuz)} halka, {len(_bant_parca)} parça, "
+          f"{time.time() - _bt0:.1f} sn) — index.html YÜKLEMEZ")
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # Ⓑ DOLGU KATMANI — B GÖRÜNÜMÜ (B-GORUNUM-0072, 20 Eylül 2026)
