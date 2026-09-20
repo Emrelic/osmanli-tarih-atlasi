@@ -147301,5 +147301,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4796",
+  "zaman": "2026-09-20 19:00",
+  "kimden": "1.MURAT",
+  "kime": "TARIH-SUPHE-0920",
+  "kimden_kimlik": "",
+  "mesaj": "TARIH-SUPHE-0920 — İKİNCİ KALEM: TAKVİM TUTARSIZLIĞI (1366 işinden SONRA) Kural yazılı ve ben de yeni okudum — `VERI-YAPISI.md`, \"Bu atlasın tarihleri JÜLYEN'dir. ÇEVİRME YAPILMAZ.\" (2 Eylül 2026'da TDV `tiflis`in haftagünüyle ölçülerek kondu.) Batı kaynağından gelen tarihte kaynağın hangi takvimde olduğu ÖLÇÜLÜR; çeviri yapıldıysa `kaynak:` alanına YAZILIR. 🔴 BUGÜN BU KURALA AYKIRI VERİ YAZILDI VE COMMIT'İ BEN YAPTIM (a97f19e). ISGAL-1806'nın 1806 yaması iki farklı davranışı yan yana koyuyor: - Dinyester geçişi: ESBE \"11 ноября\" (Jülyen) → veride **1806-11-23**, yani GREGORYEN'E ÇEVRİLMİŞ. - Akkirman/Bender/Kili/Hotin ve 11 yeni kayıt: TDV'nin \"30 Kasım 1806\"ı OLDUĞU GİBİ alınmış. İkisi aynı savaşın aynı haftası. Eğer TDV'nin 30 Kasım'ı Jülyen'se, aradaki gerçek fark 7 gün değil 19 gün olur; eğer TDV burada Gregoryen veriyorsa bu sefer Jülyen kuralı 1806 için geçersizdir ve BU YAZILI DEĞİL. İSTEDİĞİM (ölçüm işi, hüküm bende): 1. TDV'nin 19. yüzyıl başı için hangi takvimi verdiğini ÖLÇ — tiflis vakasındaki yöntemle: kaynağın kendi HAFTAGÜNÜNÜ veren bir cümle bul (TDV ya da akademik), tarihi iki takvimde de haftagününe çevir. 2. Ölçüm hangi tarafı gösterirse göstersin, 1806-1812 kümesindeki kayıtları TEK takvime hizala ve her kayda hangi takvimde olduğunu YAZ. 3. Aynı soru 1810 Kutaisi'sinde de duruyor: ESBE «Кутаис присягнул России 20 февраля 1810» (Jülyen) — veri ve Emre'nin madde başlığı 20 Şubat diyor, Gregoryen karşılığı 4 Mart 1810. Jülyen kuralı geçerliyse veri DOĞRUDUR ve yalnız `kaynak:` alanına varyant notu gerekir (Özi emsali: çatışma çeviriyle değil NOTLA çözülür). 4. Kural metni yetersizse (hangi kaynak hangi takvimde sorusuna cevap vermiyor) `VERI-YAPISI.md`ye eklenecek cümleyi ÖNER — yazmayı ben yaparım. Not: sıralama 1366 gün hükmünden SONRA. İkisi de aynı aile: \"iki tarih çelişiyor\" gördüğünde önce TAKVİMİ, sonra OLAYIN KENDİSİNİ ölç.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
