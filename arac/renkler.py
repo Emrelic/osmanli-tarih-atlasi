@@ -915,6 +915,22 @@ BOYALAR = {
     #   en yakın engel ΔE 13,7 · altlıktan 27,1 (eski 5,1 → 5,3 KAT görünür)
     "papalik":    ("Papalık",                "#2a4b1e"),
     "italya":     ("İtalya",                 "#74a074"),
+    # 🔴 21 Eylül 2026 — GERÇEK HARİTA DELİĞİ kapatıldı. `italya-napolyon`
+    # künyesi vardı (D3-AVRUPA-BATI, EB1911 kaynaklı) ama ne `harita:` alanı
+    # ne de boyası vardı; ENKLAV-0072'nin İlirya yaması üç Adriyatik adasına
+    # (Krk · Cres · Rab) 1806-1809 için o kimliği yazınca ada üçü BOYASIZ
+    # kaldı. `durum_tablosu.py` bunu "1 kimlik haritada kullanılıyor ama
+    # BOYANMIYOR" diye ölçtü — kimlik veride kullanıldığı an sessiz borç
+    # olmaktan çıkıp DELİK oluyor.
+    # `harita:"italya"` YAZILMADI bilerek: birleşik İtalya'nın (1861) rengiyle
+    # boyamak, Napolyon'un yavru devletiyle arasında olmayan bir süreklilik
+    # iddia ederdi. Kendi rengi verildi.
+    # Üç ton ölçüldü, en uzağı seçildi (ölçüt: en yakın eşzamanlı komşuya ΔE):
+    #   #1d7a63 → rusya ΔE 9,36 (398 km) · #7a4fa8 → toskana ΔE 10,28 (279 km)
+    #   #3f8f8a → rusya ΔE 11,33 (398 km)  ← SEÇİLEN
+    # Üçünde de ihlal YOK (0 çakışma); bu yalnız "yakın ama değmeyen" listesi,
+    # ve çift Voronoi komşusu değil. Seçim en büyük payı bırakana yapıldı.
+    "italya-napolyon": ("İtalya Krallığı (Napolyon)", "#3f8f8a"),
     "sovalye":    ("St. Jean Şövalyeleri",   "#3c424b"),
     "bulgaristan":("Bulgaristan",            "#2d6c0c"),
     "sirbistan":  ("Sırbistan",              "#518790"),
