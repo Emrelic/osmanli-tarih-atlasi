@@ -1,0 +1,844 @@
+{
+ "rusya_hex": "#4f7d4f",
+ "esik": {
+  "DE_ALTLIK": 15.0,
+  "DE_KOMSU": 12.0
+ },
+ "①_opaklik": {
+  "renk_olc ALTLIK #e8dfc8 (js/app.js:1287 zemin dolgusu)": {
+   "0.44": {
+    "dE76": 20.77,
+    "dE94": 19.26,
+    "gorunen_hex": "#a5b493"
+   },
+   "0.50": {
+    "dE76": 23.68,
+    "dE94": 21.84,
+    "gorunen_hex": "#9cae8c"
+   },
+   "0.60": {
+    "dE76": 28.58,
+    "dE94": 26.14,
+    "gorunen_hex": "#8ca47f"
+   },
+   "0.70": {
+    "dE76": 33.52,
+    "dE94": 30.41,
+    "gorunen_hex": "#7d9a73"
+   },
+   "0.80": {
+    "dE76": 38.51,
+    "dE94": 34.66,
+    "gorunen_hex": "#6e9167"
+   }
+  },
+  "gorselde olculen acik kabartma #f2f1c1": {
+   "0.44": {
+    "dE76": 21.29,
+    "dE94": 20.52,
+    "gorunen_hex": "#aabe8f"
+   },
+   "0.50": {
+    "dE76": 24.27,
+    "dE94": 23.37,
+    "gorunen_hex": "#a0b788"
+   },
+   "0.60": {
+    "dE76": 29.27,
+    "dE94": 28.15,
+    "gorunen_hex": "#90ab7d"
+   },
+   "0.70": {
+    "dE76": 34.32,
+    "dE94": 32.95,
+    "gorunen_hex": "#80a071"
+   },
+   "0.80": {
+    "dE76": 39.42,
+    "dE94": 37.78,
+    "gorunen_hex": "#709466"
+   }
+  },
+  "gorselde olculen koyu kabartma #d6cf87": {
+   "0.44": {
+    "dE76": 18.29,
+    "dE94": 16.18,
+    "gorunen_hex": "#9bab6e"
+   },
+   "0.50": {
+    "dE76": 20.81,
+    "dE94": 18.43,
+    "gorunen_hex": "#92a66b"
+   },
+   "0.60": {
+    "dE76": 25.02,
+    "dE94": 22.19,
+    "gorunen_hex": "#859e65"
+   },
+   "0.70": {
+    "dE76": 29.23,
+    "dE94": 25.98,
+    "gorunen_hex": "#789660"
+   },
+   "0.80": {
+    "dE76": 33.44,
+    "dE94": 29.77,
+    "gorunen_hex": "#6a8d5a"
+   }
+  }
+ },
+ "②_zemine_ton": {
+  "%8 notr gri (#808080) ince ortu": {
+   "yeni_zemin": "#e9e8bc",
+   "dE76": 18.59,
+   "dE94": 17.55
+  },
+  "%15 notr gri": {
+   "yeni_zemin": "#e1e0b7",
+   "dE76": 16.49,
+   "dE94": 15.01
+  },
+  "%8 soguk gri-mavi (#7a8a99)": {
+   "yeni_zemin": "#e8e9be",
+   "dE76": 18.66,
+   "dE94": 17.64
+  },
+  "%15 soguk gri-mavi": {
+   "yeni_zemin": "#e0e2bb",
+   "dE76": 16.74,
+   "dE94": 15.19
+  },
+  "%8 sicak kahve (#8a7a5a)": {
+   "yeni_zemin": "#eae7b9",
+   "dE76": 18.58,
+   "dE94": 17.56
+  }
+ },
+ "③_komsuluk": {
+  "gercek_komsu": [
+   {
+    "kimlik": "hive",
+    "hex": "#00695c",
+    "ad": "Hîve Hanlığı (Harezm)",
+    "dE76": 12.88,
+    "dE94": 10.45
+   },
+   {
+    "kimlik": "joseon",
+    "hex": "#00695c",
+    "ad": "Joseon Hanedanı (Kore)",
+    "dE76": 12.88,
+    "dE94": 10.45
+   },
+   {
+    "kimlik": "romanya",
+    "hex": "#6c6912",
+    "ad": "Romanya",
+    "dE76": 13.44,
+    "dE94": 8.25
+   },
+   {
+    "kimlik": "kuzey-yuan",
+    "hex": "#306c78",
+    "ad": "Kuzey Yuan (Moğol Hanlığı)",
+    "dE76": 14.21,
+    "dE94": 9.72
+   },
+   {
+    "kimlik": "cungar",
+    "hex": "#3fb4a2",
+    "ad": "Cungar Hanlığı (Kalmuk)",
+    "dE76": 14.53,
+    "dE94": 12.02
+   },
+   {
+    "kimlik": "don-kazak",
+    "hex": "#4ac4aa",
+    "ad": "Don Kazak Ordası",
+    "dE76": 15.65,
+    "dE94": 13.21
+   },
+   {
+    "kimlik": "qing-hanedani",
+    "hex": "#636f03",
+    "ad": "Qing Hanedanı (Mançu)",
+    "dE76": 16.07,
+    "dE94": 8.1
+   },
+   {
+    "kimlik": "cin-cumhuriyeti",
+    "hex": "#bab75a",
+    "ad": "Çin Cumhuriyeti",
+    "dE76": 17.15,
+    "dE94": 13.23
+   },
+   {
+    "kimlik": "gurcistan-demokratik-cumhuriyeti",
+    "hex": "#90eab1",
+    "ad": "Gurcistan Demokratik Cumhuriyeti",
+    "dE76": 17.4,
+    "dE94": 16.54
+   },
+   {
+    "kimlik": "meiji-japonya",
+    "hex": "#1bb790",
+    "ad": "Meiji ve Sonrası Japonya İmparatorluğu",
+    "dE76": 17.85,
+    "dE94": 12.41
+   },
+   {
+    "kimlik": "sibir-hanligi",
+    "hex": "#b17e3f",
+    "ad": "Sibir Hanlığı",
+    "dE76": 18.19,
+    "dE94": 13.1
+   },
+   {
+    "kimlik": "avusturya",
+    "hex": "#bdab3f",
+    "ad": "Avusturya (Habsburg)",
+    "dE76": 20.27,
+    "dE94": 13.46
+   },
+   {
+    "kimlik": "imereti",
+    "hex": "#deea90",
+    "ad": "Imereti Kralligi",
+    "dE76": 21.09,
+    "dE94": 19.13
+   },
+   {
+    "kimlik": "kabartay",
+    "hex": "#0c5a84",
+    "ad": "Kabartay (Kabardey) Beylikleri",
+    "dE76": 22.3,
+    "dE94": 17.15
+   },
+   {
+    "kimlik": "isvec",
+    "hex": "#48eac3",
+    "ad": "İsveç",
+    "dE76": 22.35,
+    "dE94": 17.99
+   },
+   {
+    "kimlik": "kanada",
+    "hex": "#24d2c6",
+    "ad": "Kanada Dominyonu",
+    "dE76": 22.59,
+    "dE94": 17.3
+   },
+   {
+    "kimlik": "cerkez",
+    "hex": "#36cdd8",
+    "ad": "Çerkez Kabile Birlikleri (Batı)",
+    "dE76": 22.65,
+    "dE94": 18.44
+   },
+   {
+    "kimlik": "meksika",
+    "hex": "#28d898",
+    "ad": "Meksika",
+    "dE76": 22.72,
+    "dE94": 15.19
+   },
+   {
+    "kimlik": "astarhan",
+    "hex": "#4c1b1a",
+    "ad": "Astarhan Hanligi",
+    "dE76": 23.24,
+    "dE94": 19.43
+   },
+   {
+    "kimlik": "hokand",
+    "hex": "#b4603f",
+    "ad": "Hokand Hanlığı",
+    "dE76": 23.4,
+    "dE94": 17.21
+   },
+   {
+    "kimlik": "yupik",
+    "hex": "#24d278",
+    "ad": "Yupik",
+    "dE76": 24.15,
+    "dE94": 13.9
+   },
+   {
+    "kimlik": "avustralya",
+    "hex": "#f9b169",
+    "ad": "Avustralya Milletler Topluluğu",
+    "dE76": 24.93,
+    "dE94": 19.02
+   },
+   {
+    "kimlik": "kirim",
+    "hex": "#b45a1e",
+    "ad": "Kırım Hanlığı",
+    "dE76": 25.33,
+    "dE94": 16.81
+   },
+   {
+    "kimlik": "karadag",
+    "hex": "#18a818",
+    "ad": "Karadağ",
+    "dE76": 27.97,
+    "dE94": 9.88
+   },
+   {
+    "kimlik": "afganistan",
+    "hex": "#e4b1d5",
+    "ad": "Afganistan Emirliği",
+    "dE76": 28.09,
+    "dE94": 22.76
+   },
+   {
+    "kimlik": "ingiliz-kuzey-amerika",
+    "hex": "#00ade2",
+    "ad": "İngiliz Kuzey Amerikası",
+    "dE76": 29.14,
+    "dE94": 21.83
+   },
+   {
+    "kimlik": "rusya-gecici-hukumet",
+    "hex": "#12397e",
+    "ad": "Rusya Geçici Hükûmeti",
+    "dE76": 29.56,
+    "dE94": 23.36
+   },
+   {
+    "kimlik": "almanya",
+    "hex": "#78d028",
+    "ad": "Kutsal Roma / Almanya",
+    "dE76": 29.93,
+    "dE94": 14.25
+   },
+   {
+    "kimlik": "tlingit",
+    "hex": "#84d224",
+    "ad": "Tlingit",
+    "dE76": 30.91,
+    "dE94": 14.86
+   },
+   {
+    "kimlik": "safevi",
+    "hex": "#a56cab",
+    "ad": "Safevî İran",
+    "dE76": 31.06,
+    "dE94": 24.07
+   },
+   {
+    "kimlik": "sovyet-rusya",
+    "hex": "#00d9ff",
+    "ad": "Sovyet Rusya",
+    "dE76": 31.57,
+    "dE94": 23.1
+   },
+   {
+    "kimlik": "nogay",
+    "hex": "#f9a825",
+    "ad": "Nogay Ordası",
+    "dE76": 32.43,
+    "dE94": 18.72
+   },
+   {
+    "kimlik": "prusya",
+    "hex": "#2478d2",
+    "ad": "Prusya",
+    "dE76": 32.92,
+    "dE94": 25.64
+   },
+   {
+    "kimlik": "inuit",
+    "hex": "#24d236",
+    "ad": "İnuit",
+    "dE76": 33.46,
+    "dE94": 13.83
+   },
+   {
+    "kimlik": "mogulistan",
+    "hex": "#4254ae",
+    "ad": "Moğulistan (Doğu Çağatay Hanlığı)",
+    "dE76": 33.5,
+    "dE94": 26.13
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "hex": "#00297c",
+    "ad": "Fransa Cumhuriyeti",
+    "dE76": 33.81,
+    "dE94": 27.29
+   },
+   {
+    "kimlik": "hawaii-kralligi",
+    "hex": "#ffa5d6",
+    "ad": "Hawaii Krallığı",
+    "dE76": 33.87,
+    "dE94": 27.49
+   },
+   {
+    "kimlik": "hayda",
+    "hex": "#24d230",
+    "ad": "Hayda",
+    "dE76": 34.47,
+    "dE94": 13.88
+   },
+   {
+    "kimlik": "kazan",
+    "hex": "#ff6f4b",
+    "ad": "Kazan Hanlığı",
+    "dE76": 34.63,
+    "dE94": 22.38
+   },
+   {
+    "kimlik": "transkafkasya",
+    "hex": "#1cc81c",
+    "ad": "Transkafkasya (Federasyon)",
+    "dE76": 35.8,
+    "dE94": 13.01
+   },
+   {
+    "kimlik": "ingiltere",
+    "hex": "#7e3d8f",
+    "ad": "Britanya",
+    "dE76": 36.11,
+    "dE94": 28.3
+   },
+   {
+    "kimlik": "norvec",
+    "hex": "#e76690",
+    "ad": "Norveç",
+    "dE76": 36.18,
+    "dE94": 26.51
+   },
+   {
+    "kimlik": "kongre-polonyasi",
+    "hex": "#c82d1c",
+    "ad": "Kongre Polonyası",
+    "dE76": 37.61,
+    "dE94": 23.94
+   },
+   {
+    "kimlik": "cammu-kesmir",
+    "hex": "#e76090",
+    "ad": "Cammû ve Keşmir Prensliği",
+    "dE76": 37.7,
+    "dE94": 27.16
+   },
+   {
+    "kimlik": "danimarka",
+    "hex": "#b484e7",
+    "ad": "Danimarka-Norveç",
+    "dE76": 38.14,
+    "dE94": 29.92
+   },
+   {
+    "kimlik": "lehistan",
+    "hex": "#fc87c9",
+    "ad": "Lehistan-Litvanya",
+    "dE76": 38.49,
+    "dE94": 29.22
+   },
+   {
+    "kimlik": "yeni-ispanya",
+    "hex": "#2864d8",
+    "ad": "Yeni İspanya",
+    "dE76": 39.17,
+    "dE94": 29.49
+   },
+   {
+    "kimlik": "ingiliz-hindistani",
+    "hex": "#20d820",
+    "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+    "dE76": 39.21,
+    "dE94": 14.72
+   },
+   {
+    "kimlik": "turkmen",
+    "hex": "#20d820",
+    "ad": "Türkmen boyları",
+    "dE76": 39.21,
+    "dE94": 14.72
+   },
+   {
+    "kimlik": "zend",
+    "hex": "#691569",
+    "ad": "Zend Hanedanı (İran)",
+    "dE76": 39.6,
+    "dE94": 30.87
+   },
+   {
+    "kimlik": "napoli",
+    "hex": "#d23f78",
+    "ad": "Napoli / İki Sicilya",
+    "dE76": 40.62,
+    "dE94": 28.14
+   },
+   {
+    "kimlik": "dene",
+    "hex": "#2454d2",
+    "ad": "Dene (Atabask Halkları)",
+    "dE76": 41.96,
+    "dE94": 30.9
+   },
+   {
+    "kimlik": "zaporojye",
+    "hex": "#2048c8",
+    "ad": "Zaporojye Kazak Hetmanlığı",
+    "dE76": 42.84,
+    "dE94": 31.51
+   },
+   {
+    "kimlik": "mogolistan",
+    "hex": "#782088",
+    "ad": "Moğolistan (Bogd Hanlık)",
+    "dE76": 43.18,
+    "dE94": 31.9
+   },
+   {
+    "kimlik": "kazak-hanligi",
+    "hex": "#ad1457",
+    "ad": "Kazak Hanlığı",
+    "dE76": 43.82,
+    "dE94": 30.1
+   },
+   {
+    "kimlik": "afsar",
+    "hex": "#f488fc",
+    "ad": "Afşâr Devleti (Nâdir Şah)",
+    "dE76": 46.21,
+    "dE94": 32.98
+   },
+   {
+    "kimlik": "kacar",
+    "hex": "#c840a8",
+    "ad": "Kaçar Hanedanı (İran)",
+    "dE76": 46.28,
+    "dE94": 31.33
+   },
+   {
+    "kimlik": "buhara",
+    "hex": "#785ae7",
+    "ad": "Buhara Hanlığı",
+    "dE76": 46.68,
+    "dE94": 32.6
+   },
+   {
+    "kimlik": "nuu-cah-nulth",
+    "hex": "#d2247e",
+    "ad": "Nuu-chah-nulth (Mowachaht)",
+    "dE76": 48.74,
+    "dE94": 31.16
+   },
+   {
+    "kimlik": "yakub-beg",
+    "hex": "#7b1fa2",
+    "ad": "Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)",
+    "dE76": 48.92,
+    "dE94": 33.7
+   },
+   {
+    "kimlik": "romanya-kralligi",
+    "hex": "#2828d8",
+    "ad": "Romanya Krallığı",
+    "dE76": 55.9,
+    "dE94": 35.72
+   },
+   {
+    "kimlik": "tbmm-turkiye",
+    "hex": "#7e24d2",
+    "ad": "Türkiye Büyük Millet Meclisi Hükûmeti",
+    "dE76": 57.81,
+    "dE94": 35.47
+   },
+   {
+    "kimlik": "varsova-dukaligi",
+    "hex": "#831cc8",
+    "ad": "Varşova Büyük Dukalığı",
+    "dE76": 58.21,
+    "dE94": 35.61
+   },
+   {
+    "kimlik": "gurcistan",
+    "hex": "#e020b0",
+    "ad": "Gürcistan",
+    "dE76": 58.75,
+    "dE94": 33.92
+   },
+   {
+    "kimlik": "abd",
+    "hex": "#a828d8",
+    "ad": "Amerika Birleşik Devletleri",
+    "dE76": 59.91,
+    "dE94": 35.26
+   },
+   {
+    "kimlik": "edo-bakufu",
+    "hex": "#a828d8",
+    "ad": "Edo (Tokugawa) Şogunluğu",
+    "dE76": 59.91,
+    "dE94": 35.26
+   },
+   {
+    "kimlik": "litvanya-buyuk-dukalik",
+    "hex": "#1310ff",
+    "ad": "Litvanya Büyük Dukalığı",
+    "dE76": 72.07,
+    "dE94": 38.47
+   }
+  ],
+  "tum_palette_en_yakin": [
+   {
+    "kimlik": "bretanya",
+    "hex": "#36693f",
+    "dE76": 3.59
+   },
+   {
+    "kimlik": "magindanao-sultanligi",
+    "hex": "#426c30",
+    "dE76": 4.5
+   },
+   {
+    "kimlik": "hamid",
+    "hex": "#6f8448",
+    "dE76": 5.71
+   },
+   {
+    "kimlik": "italya",
+    "hex": "#74a074",
+    "dE76": 5.79
+   },
+   {
+    "kimlik": "lur-i-buzurg",
+    "hex": "#456627",
+    "dE76": 5.93
+   },
+   {
+    "kimlik": "toungoo",
+    "hex": "#545d2d",
+    "dE76": 7.62
+   }
+  ],
+  "nokta_evreni": 3921
+ },
+ "EK_zeminden_ayrismayan": {
+  "renk_olc ALTLIK #e8dfc8 (js/app.js:1287 zemin dolgusu)": {
+   "0.44": {
+    "kimlik_sayisi": 0,
+    "en_yakin_10": []
+   },
+   "0.60": {
+    "kimlik_sayisi": 0,
+    "en_yakin_10": []
+   },
+   "0.70": {
+    "kimlik_sayisi": 0,
+    "en_yakin_10": []
+   }
+  },
+  "gorselde olculen acik kabartma #f2f1c1": {
+   "0.44": {
+    "kimlik_sayisi": 15,
+    "en_yakin_10": [
+     [
+      9.74,
+      "imereti"
+     ],
+     [
+      10.73,
+      "luba"
+     ],
+     [
+      10.96,
+      "pagan"
+     ],
+     [
+      11.01,
+      "kaffa"
+     ],
+     [
+      11.63,
+      "karnatik"
+     ],
+     [
+      11.83,
+      "azerbaycan-demokratik-cumhuriyeti"
+     ],
+     [
+      11.95,
+      "ryazan"
+     ],
+     [
+      12.99,
+      "serbedariler"
+     ],
+     [
+      13.73,
+      "suleyman-celebi"
+     ],
+     [
+      13.88,
+      "kuba-hanligi"
+     ]
+    ]
+   },
+   "0.60": {
+    "kimlik_sayisi": 3,
+    "en_yakin_10": [
+     [
+      13.25,
+      "imereti"
+     ],
+     [
+      14.6,
+      "luba"
+     ],
+     [
+      14.91,
+      "pagan"
+     ]
+    ]
+   },
+   "0.70": {
+    "kimlik_sayisi": 0,
+    "en_yakin_10": []
+   }
+  },
+  "gorselde olculen koyu kabartma #d6cf87": {
+   "0.44": {
+    "kimlik_sayisi": 37,
+    "en_yakin_10": [
+     [
+      5.63,
+      "azerbaycan-demokratik-cumhuriyeti"
+     ],
+     [
+      5.98,
+      "imereti"
+     ],
+     [
+      6.24,
+      "pagan"
+     ],
+     [
+      6.38,
+      "cin-cumhuriyeti"
+     ],
+     [
+      7.51,
+      "kaffa"
+     ],
+     [
+      7.86,
+      "kuba-hanligi"
+     ],
+     [
+      8.06,
+      "ryazan"
+     ],
+     [
+      8.13,
+      "luba"
+     ],
+     [
+      8.31,
+      "finlandiya"
+     ],
+     [
+      8.71,
+      "guney-ming"
+     ]
+    ]
+   },
+   "0.60": {
+    "kimlik_sayisi": 21,
+    "en_yakin_10": [
+     [
+      7.69,
+      "azerbaycan-demokratik-cumhuriyeti"
+     ],
+     [
+      8.14,
+      "imereti"
+     ],
+     [
+      8.48,
+      "pagan"
+     ],
+     [
+      8.69,
+      "cin-cumhuriyeti"
+     ],
+     [
+      10.21,
+      "kaffa"
+     ],
+     [
+      10.8,
+      "kuba-hanligi"
+     ],
+     [
+      10.97,
+      "ryazan"
+     ],
+     [
+      11.06,
+      "luba"
+     ],
+     [
+      11.36,
+      "finlandiya"
+     ],
+     [
+      11.79,
+      "guney-ming"
+     ]
+    ]
+   },
+   "0.70": {
+    "kimlik_sayisi": 13,
+    "en_yakin_10": [
+     [
+      8.97,
+      "azerbaycan-demokratik-cumhuriyeti"
+     ],
+     [
+      9.48,
+      "imereti"
+     ],
+     [
+      9.88,
+      "pagan"
+     ],
+     [
+      10.13,
+      "cin-cumhuriyeti"
+     ],
+     [
+      11.9,
+      "kaffa"
+     ],
+     [
+      12.66,
+      "kuba-hanligi"
+     ],
+     [
+      12.78,
+      "ryazan"
+     ],
+     [
+      12.88,
+      "luba"
+     ],
+     [
+      13.28,
+      "finlandiya"
+     ],
+     [
+      13.69,
+      "guney-ming"
+     ]
+    ]
+   }
+  }
+ }
+}

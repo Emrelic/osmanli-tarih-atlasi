@@ -1,0 +1,443 @@
+{
+ "taban_dE76": 21.29,
+ "zemin": "#f2f1c1",
+ "rusya": "#4f7d4f",
+ "denemeler": [
+  {
+   "ad": "ton 300 derece",
+   "ortu": "#cc32cb",
+   "oran": 0.15,
+   "yeni_zemin": "#ecd4c2",
+   "dE76": 25.8,
+   "kazanc": 4.51
+  },
+  {
+   "ad": "ton 285 derece",
+   "ortu": "#a532cc",
+   "oran": 0.15,
+   "yeni_zemin": "#e6d4c3",
+   "dE76": 24.28,
+   "kazanc": 2.99
+  },
+  {
+   "ad": "ton 315 derece",
+   "ortu": "#cc32a5",
+   "oran": 0.15,
+   "yeni_zemin": "#ecd4bd",
+   "dE76": 24.11,
+   "kazanc": 2.82
+  },
+  {
+   "ad": "beyazla acma",
+   "ortu": "#ffffff",
+   "oran": 0.25,
+   "yeni_zemin": "#f5f4d0",
+   "dE76": 23.56,
+   "kazanc": 2.27
+  },
+  {
+   "ad": "ton 270 derece",
+   "ortu": "#7f32cc",
+   "oran": 0.15,
+   "yeni_zemin": "#e1d4c3",
+   "dE76": 22.87,
+   "kazanc": 1.58
+  },
+  {
+   "ad": "ton 330 derece",
+   "ortu": "#cc327f",
+   "oran": 0.15,
+   "yeni_zemin": "#ecd4b7",
+   "dE76": 22.7,
+   "kazanc": 1.41
+  },
+  {
+   "ad": "beyazla acma",
+   "ortu": "#ffffff",
+   "oran": 0.15,
+   "yeni_zemin": "#f4f3ca",
+   "dE76": 22.46,
+   "kazanc": 1.17
+  },
+  {
+   "ad": "beyazla acma",
+   "ortu": "#ffffff",
+   "oran": 0.08,
+   "yeni_zemin": "#f3f2c6",
+   "dE76": 21.84,
+   "kazanc": 0.55
+  },
+  {
+   "ad": "ton 300 derece",
+   "ortu": "#cc32cb",
+   "oran": 0.08,
+   "yeni_zemin": "#efe2c2",
+   "dE76": 21.81,
+   "kazanc": 0.52
+  },
+  {
+   "ad": "ton 345 derece",
+   "ortu": "#cc3259",
+   "oran": 0.15,
+   "yeni_zemin": "#ecd4b1",
+   "dE76": 21.63,
+   "kazanc": 0.34
+  },
+  {
+   "ad": "ton 255 derece",
+   "ortu": "#5932cc",
+   "oran": 0.15,
+   "yeni_zemin": "#dbd4c3",
+   "dE76": 21.61,
+   "kazanc": 0.32
+  },
+  {
+   "ad": "ton 315 derece",
+   "ortu": "#cc32a5",
+   "oran": 0.08,
+   "yeni_zemin": "#efe2bf",
+   "dE76": 21.22,
+   "kazanc": -0.07
+  },
+  {
+   "ad": "ton 285 derece",
+   "ortu": "#a532cc",
+   "oran": 0.08,
+   "yeni_zemin": "#ece2c2",
+   "dE76": 20.99,
+   "kazanc": -0.3
+  },
+  {
+   "ad": "ton 0 derece",
+   "ortu": "#cc3232",
+   "oran": 0.15,
+   "yeni_zemin": "#ecd4ac",
+   "dE76": 20.94,
+   "kazanc": -0.35
+  },
+  {
+   "ad": "ton 330 derece",
+   "ortu": "#cc327f",
+   "oran": 0.08,
+   "yeni_zemin": "#efe2bc",
+   "dE76": 20.73,
+   "kazanc": -0.56
+  },
+  {
+   "ad": "ton 60 derece",
+   "ortu": "#cbcc32",
+   "oran": 0.15,
+   "yeni_zemin": "#ecebac",
+   "dE76": 20.68,
+   "kazanc": -0.61
+  },
+  {
+   "ad": "ton 60 derece",
+   "ortu": "#cbcc32",
+   "oran": 0.08,
+   "yeni_zemin": "#efeeb6",
+   "dE76": 20.53,
+   "kazanc": -0.76
+  },
+  {
+   "ad": "ton 240 derece",
+   "ortu": "#3232cc",
+   "oran": 0.15,
+   "yeni_zemin": "#d5d4c3",
+   "dE76": 20.49,
+   "kazanc": -0.8
+  },
+  {
+   "ad": "ton 345 derece",
+   "ortu": "#cc3259",
+   "oran": 0.08,
+   "yeni_zemin": "#efe2b9",
+   "dE76": 20.36,
+   "kazanc": -0.93
+  },
+  {
+   "ad": "ton 270 derece",
+   "ortu": "#7f32cc",
+   "oran": 0.08,
+   "yeni_zemin": "#e9e2c2",
+   "dE76": 20.21,
+   "kazanc": -1.08
+  },
+  {
+   "ad": "ton 45 derece",
+   "ortu": "#cca532",
+   "oran": 0.08,
+   "yeni_zemin": "#efebb6",
+   "dE76": 20.12,
+   "kazanc": -1.17
+  },
+  {
+   "ad": "ton 0 derece",
+   "ortu": "#cc3232",
+   "oran": 0.08,
+   "yeni_zemin": "#efe2b6",
+   "dE76": 20.1,
+   "kazanc": -1.19
+  },
+  {
+   "ad": "ton 30 derece",
+   "ortu": "#cc7f32",
+   "oran": 0.08,
+   "yeni_zemin": "#efe8b6",
+   "dE76": 19.9,
+   "kazanc": -1.39
+  },
+  {
+   "ad": "ton 15 derece",
+   "ortu": "#cc5932",
+   "oran": 0.08,
+   "yeni_zemin": "#efe5b6",
+   "dE76": 19.89,
+   "kazanc": -1.4
+  },
+  {
+   "ad": "ton 75 derece",
+   "ortu": "#a5cc32",
+   "oran": 0.08,
+   "yeni_zemin": "#eceeb6",
+   "dE76": 19.89,
+   "kazanc": -1.4
+  },
+  {
+   "ad": "ton 15 derece",
+   "ortu": "#cc5932",
+   "oran": 0.15,
+   "yeni_zemin": "#ecdaac",
+   "dE76": 19.75,
+   "kazanc": -1.54
+  },
+  {
+   "ad": "ton 45 derece",
+   "ortu": "#cca532",
+   "oran": 0.15,
+   "yeni_zemin": "#ece6ac",
+   "dE76": 19.64,
+   "kazanc": -1.65
+  },
+  {
+   "ad": "ton 75 derece",
+   "ortu": "#a5cc32",
+   "oran": 0.15,
+   "yeni_zemin": "#e6ebac",
+   "dE76": 19.54,
+   "kazanc": -1.75
+  },
+  {
+   "ad": "ton 255 derece",
+   "ortu": "#5932cc",
+   "oran": 0.08,
+   "yeni_zemin": "#e6e2c2",
+   "dE76": 19.49,
+   "kazanc": -1.8
+  },
+  {
+   "ad": "ton 30 derece",
+   "ortu": "#cc7f32",
+   "oran": 0.15,
+   "yeni_zemin": "#ece0ac",
+   "dE76": 19.32,
+   "kazanc": -1.97
+  },
+  {
+   "ad": "ton 90 derece",
+   "ortu": "#7fcc32",
+   "oran": 0.08,
+   "yeni_zemin": "#e9eeb6",
+   "dE76": 19.3,
+   "kazanc": -1.99
+  },
+  {
+   "ad": "ton 240 derece",
+   "ortu": "#3232cc",
+   "oran": 0.08,
+   "yeni_zemin": "#e3e2c2",
+   "dE76": 18.79,
+   "kazanc": -2.5
+  },
+  {
+   "ad": "ton 105 derece",
+   "ortu": "#59cc32",
+   "oran": 0.08,
+   "yeni_zemin": "#e6eeb6",
+   "dE76": 18.78,
+   "kazanc": -2.51
+  },
+  {
+   "ad": "ton 90 derece",
+   "ortu": "#7fcc32",
+   "oran": 0.15,
+   "yeni_zemin": "#e1ebac",
+   "dE76": 18.62,
+   "kazanc": -2.67
+  },
+  {
+   "ad": "ton 225 derece",
+   "ortu": "#3259cc",
+   "oran": 0.15,
+   "yeni_zemin": "#d5dac3",
+   "dE76": 18.37,
+   "kazanc": -2.92
+  },
+  {
+   "ad": "ton 180 derece",
+   "ortu": "#32cbcc",
+   "oran": 0.08,
+   "yeni_zemin": "#e3eec2",
+   "dE76": 18.33,
+   "kazanc": -2.96
+  },
+  {
+   "ad": "ton 225 derece",
+   "ortu": "#3259cc",
+   "oran": 0.08,
+   "yeni_zemin": "#e3e5c2",
+   "dE76": 18.32,
+   "kazanc": -2.97
+  },
+  {
+   "ad": "ton 120 derece",
+   "ortu": "#32cc32",
+   "oran": 0.08,
+   "yeni_zemin": "#e3eeb6",
+   "dE76": 18.31,
+   "kazanc": -2.98
+  },
+  {
+   "ad": "ton 165 derece",
+   "ortu": "#32cca5",
+   "oran": 0.08,
+   "yeni_zemin": "#e3eebf",
+   "dE76": 18.12,
+   "kazanc": -3.17
+  },
+  {
+   "ad": "ton 135 derece",
+   "ortu": "#32cc59",
+   "oran": 0.08,
+   "yeni_zemin": "#e3eeb9",
+   "dE76": 18.11,
+   "kazanc": -3.18
+  },
+  {
+   "ad": "ton 195 derece",
+   "ortu": "#32a5cc",
+   "oran": 0.08,
+   "yeni_zemin": "#e3ebc2",
+   "dE76": 18.09,
+   "kazanc": -3.2
+  },
+  {
+   "ad": "ton 210 derece",
+   "ortu": "#327fcc",
+   "oran": 0.08,
+   "yeni_zemin": "#e3e8c2",
+   "dE76": 18.09,
+   "kazanc": -3.2
+  },
+  {
+   "ad": "ton 150 derece",
+   "ortu": "#32cc7f",
+   "oran": 0.08,
+   "yeni_zemin": "#e3eebc",
+   "dE76": 18.05,
+   "kazanc": -3.24
+  },
+  {
+   "ad": "ton 105 derece",
+   "ortu": "#59cc32",
+   "oran": 0.15,
+   "yeni_zemin": "#dbebac",
+   "dE76": 17.95,
+   "kazanc": -3.34
+  },
+  {
+   "ad": "ton 120 derece",
+   "ortu": "#32cc32",
+   "oran": 0.15,
+   "yeni_zemin": "#d5ebac",
+   "dE76": 17.54,
+   "kazanc": -3.75
+  },
+  {
+   "ad": "ton 210 derece",
+   "ortu": "#327fcc",
+   "oran": 0.15,
+   "yeni_zemin": "#d5e0c3",
+   "dE76": 16.98,
+   "kazanc": -4.31
+  },
+  {
+   "ad": "ton 180 derece",
+   "ortu": "#32cbcc",
+   "oran": 0.15,
+   "yeni_zemin": "#d5ebc3",
+   "dE76": 16.79,
+   "kazanc": -4.5
+  },
+  {
+   "ad": "ton 135 derece",
+   "ortu": "#32cc59",
+   "oran": 0.15,
+   "yeni_zemin": "#d5ebb1",
+   "dE76": 16.58,
+   "kazanc": -4.71
+  },
+  {
+   "ad": "ton 195 derece",
+   "ortu": "#32a5cc",
+   "oran": 0.15,
+   "yeni_zemin": "#d5e6c3",
+   "dE76": 16.44,
+   "kazanc": -4.85
+  },
+  {
+   "ad": "ton 165 derece",
+   "ortu": "#32cca5",
+   "oran": 0.15,
+   "yeni_zemin": "#d5ebbd",
+   "dE76": 16.2,
+   "kazanc": -5.09
+  },
+  {
+   "ad": "ton 150 derece",
+   "ortu": "#32cc7f",
+   "oran": 0.15,
+   "yeni_zemin": "#d5ebb7",
+   "dE76": 16.13,
+   "kazanc": -5.16
+  },
+  {
+   "ad": "siyahla koyultma",
+   "ortu": "#000000",
+   "oran": 0.08,
+   "yeni_zemin": "#dfdeb2",
+   "dE76": 15.43,
+   "kazanc": -5.86
+  },
+  {
+   "ad": "siyahla koyultma",
+   "ortu": "#000000",
+   "oran": 0.15,
+   "yeni_zemin": "#cecda4",
+   "dE76": 11.25,
+   "kazanc": -10.04
+  },
+  {
+   "ad": "siyahla koyultma",
+   "ortu": "#000000",
+   "oran": 0.25,
+   "yeni_zemin": "#b6b591",
+   "dE76": 9.94,
+   "kazanc": -11.35
+  }
+ ],
+ "palet_etkisi": {
+  "bugunku #f2f1c1": 15,
+  "en iyi aday #ecd4c2": 8
+ }
+}

@@ -298,3 +298,104 @@ taşıyor (H-0008). CLAUDE.md §6'nın sırası (dizin → yoğunluk → pencere
    kazanç sayıyla görünür. Taban bugün: **1850-01-01 → 2.430.774 km² / 379 çift**.
 4. **Yetki sorusu:** H-0008'in düzeltmesi motor kuralıdır (seyrek kimliğin
    gövde tavanı), veri değil. Benim kalemim değil; ölçüm aleti teslim edildi.
+
+
+---
+
+## 7. "AÇIK YEŞİL" — üç seçeneğin ÖLÇÜMÜ (M-4945 (c), 21 Eylül 03:45)
+
+Koordinatörün ek kalemi: üç seçeneği SAYIYLA ver, **kod yazma**. Yazılmadı —
+`js/app.js`e dokunulmadı. Ölçü birimi projenin kendi aleti: `arac/renk_olc.py`
+(`lab` · `dE` CIE76 · `dE94_asgari` · `ALTLIK` · `OPAKLIK` · `komsuluk`); formül
+elle yazılmadı. Aletler: `ARAC-HARITA-DURUM-0074-DELTAE.py` · `-ZEMINTON.py`.
+
+### ① Opaklık 0,44 → 0,60 → 0,70 — rusya ile BOŞ ZEMİN arasındaki ΔE
+
+| zemin | 0,44 | 0,50 | **0,60** | **0,70** | 0,80 |
+|---|---:|---:|---:|---:|---:|
+| `renk_olc` ALTLIK **#e8dfc8** (js/app.js:1287) | 20,77 | 23,68 | **28,58** | **33,52** | 38,51 |
+| görselde ölçülen AÇIK kabartma **#f2f1c1** | 21,29 | 24,27 | **29,27** | **34,32** | 39,42 |
+| görselde ölçülen KOYU kabartma **#d6cf87** | 18,29 | 20,81 | **25,02** | **29,23** | 33,44 |
+
+(ΔE76; ΔE94 değerleri JSON'da. Eşik `DE_ALTLIK = 15`.)
+**Kazanç:** 0,44 → 0,60 = **+7,98** · 0,44 → 0,70 = **+13,03** (açık kabartmada).
+Görünen renk 0,44'te `#aabe8f`, 0,60'ta `#90ab7d`, 0,70'te `#80a071`.
+
+### ② Boş zemine ince doku/ton — ⚠️ SEZGİ TERS ÇIKTI
+
+Önce akla gelen tonlar ayrımı **DÜŞÜRÜYOR** (soluk bej zemini gri/mavi/kahveyle
+boyamak onu rusya'nın sönük yeşiline YAKLAŞTIRIYOR):
+
+| örtü | yeni zemin | ΔE76 | kazanç |
+|---|---|---:|---:|
+| %8 nötr gri | #e9e8bc | 18,59 | **−2,70** |
+| %15 nötr gri | #e1e0b7 | 16,49 | **−4,80** |
+| %15 soğuk gri-mavi | #e0e2bb | 16,74 | **−4,55** |
+| **%15 siyahla koyultma** | #cecda4 | 11,25 | **−10,04** |
+| %25 siyahla koyultma | #b6b591 | 9,94 | **−11,35** |
+
+🔴 **"Boş araziyi gölgelendirelim" fikri ölçümde EN KÖTÜ seçenek.**
+
+24 ton açısı × iki oran tarandı; **kazandıran yön MOR/MAGENTA ve AÇMA**:
+
+| örtü | yeni zemin | ΔE76 | kazanç |
+|---|---|---:|---:|
+| **ton 300° (#cc32cb) %15** | **#ecd4c2** | **25,80** | **+4,51** |
+| ton 285° %15 | #e6d4c3 | 24,28 | +2,99 |
+| beyazla açma %25 | #f5f4d0 | 23,56 | +2,27 |
+
+Ve bu yön yalnız rusya'yı değil paleti toptan düzeltiyor: boş zeminden
+ayrışmayan kimlik sayısı **15 → 8**'e iniyor (opaklık 0,44 sabitken).
+
+⚠️ **Sınır:** ΔE yalnız RENGİ ölçer. Doku (desen) bir UZAY ipucudur; yukarıdaki
+sayılar dokunun yalnız renk ayağının üst sınırıdır.
+
+### ③ Rusya paletçe ayrışmalı mı — en yakın komşusu kim
+
+`renk_olc.komsuluk()` (gerçek Voronoi bitişikliği + gün düzeyinde dönem
+örtüşmesi): rusya'nın **67 gerçek komşusu** var.
+
+| komşu | hex | ΔE76 | ΔE94 |
+|---|---|---:|---:|
+| hive · joseon | #00695c | **12,88** | **10,45** |
+| romanya | #6c6912 | 13,44 | **8,25** |
+| kuzey-yuan | #306c78 | 14,21 | **9,72** |
+| cungar | #3fb4a2 | 14,53 | 12,02 |
+| qing-hanedani | #636f03 | 16,07 | **8,10** |
+
+Eşik `DE_KOMSU = 12`. **CIE76'ya göre hiçbiri ihlal değil** (en yakın 12,88),
+**CIE94'e göre dördü eşiğin ALTINDA** (8,10–10,45). D172'nin bıraktığı CIE76 ↔
+CIE94 ayrışması tam burada canlı.
+
+Komşuluktan bağımsız, bütün palette rusya'ya en yakın altı kimlik:
+`bretanya` #36693f **3,59** · `magindanao-sultanligi` #426c30 **4,50** ·
+`hamid` #6f8448 5,71 · `italya` #74a074 5,79 · `lur-i-buzurg` #456627 5,93 ·
+`toungoo` #545d2d 7,62. (Komşu olmadıkları için denetimde görünmüyorlar.)
+
+### 🔴 EK BULGU — ALETİN KÖR NOKTASI (sorulmamıştı, ölçüm gösterdi)
+
+`renk_olc.py` "ALTLIKTAN AYRIŞMAYAN: **0 kimlik**" diyor. Doğru — ama **DÜZ
+zemine** (#e8dfc8) karşı. Ekranda raster kabartma açıkken boş arazinin rengi o
+değil; Emre'nin görselinde ölçülen tonlar #f2f1c1 (açık) ve #d6cf87 (koyu):
+
+| zemin | 0,44 | 0,60 | 0,70 |
+|---|---:|---:|---:|
+| ALTLIK #e8dfc8 (aletin baktığı) | **0** kimlik | 0 | 0 |
+| gerçek AÇIK kabartma #f2f1c1 | **15** kimlik | 3 | **0** |
+| gerçek KOYU kabartma #d6cf87 | **37** kimlik | 21 | 13 |
+
+⇒ **Denetim temiz, çünkü sorduğu zemin ekrandaki zemin değil.** Emre'nin
+"sürekli başımıza belâ oluyor" dediği sınıf tam bu boşlukta yaşıyor.
+🔵 Öneri (kod yazmadım): `renk_olc.py` düz `ALTLIK` yerine kabartmanın TON
+ARALIĞINA karşı da ölçsün; ihlal sayısı en kötü tona göre raporlansın.
+
+### ÖNERİM (karar Emre'nin)
+
+**①'i seç: yumuşak kipte `devlet-dolgu` 0,44 → 0,60.** Gerekçe sayıyla:
+en büyük kazanç (+7,98 ΔE), ayrışmayan kimlik 15 → 3, tek satır değişiklik,
+yumuşak kipin amacını (coğrafya alttan sızsın) tamamen öldürmüyor.
+0,70 ise açık kabartmada ayrışmayanı **0**'a indiriyor ama sızıntıyı
+belirgin biçimde azaltır — yumuşak kipin kendi gerekçesiyle çelişme riski.
+②'yi **tek başına seçme**: doğru yönde (mor/açma) bile kazancı ①'in yarısından
+az, yanlış yönde (koyultma) ciddi kayıp. ③ ise ayrı bir iş: rusya'nın sorunu
+zeminden değil, CIE94'e göre dört komşudan ayrışmaması.
