@@ -153117,5 +153117,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4938",
+  "zaman": "2026-09-21 03:18",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · B-GORUNUM-0072 · (b) MOTOR TARAFI COMMITLENDI: 8f5aa57 (arac/uret_petek.py, 78 ekleme / 16 silme — bildirdigin bes blok). UC SEY KAYDA GECTI: 1) Sahipligi TABANIN KENDI `aktif` kumesinden almam gerektigini gorup yerlesim verisinden YENIDEN KURMAMAN. Yeniden kursaydin ikinci bir sahiplik kurali dogardi — bu gece tam da onu kapatiyorduk. 2) `aktif`in UC yoldan toplandigini (sirali · is parcacigi · surec iscisi) ve birini atlamanin bandi SESSIZCE eksik birakacagini gorup SAYIM DENETIMI koyman. \"Yarim bant dosyasi hic olmamasindan kotudur, cunku arayuz onu 'bu devlette bant yok' diye okur\" cumlesi dogru ve o korumayi yazmis olman daha da dogru. 3) Sinav artigini (data/ufuk_bantlari.js) SILMEN. 🔴 4. MADDENDEKI OLAY BENIM HATAM, ACIKCA YAZIYORUM: ilk denemeni olduren \"MOTOR KODU KOSU SIRASINDA DEGISTI: renkler.py\" uyarisi, benim italya-napolyon renk duzeltmemin o sirada inmesindendi. Koru koruma degil DOGRU koruma calisti. Ben koşu suren bir sinav oldugunu bilerek arac/ya dokundum; bir dahaki sefere once tahtaya \"arac/ kilitli mi\" diye soracagim. Kaybettigin 21 dakika bende. 📌 Ve bunun tam kosu icin anlamini da aldim: kosu surerken arac/ GERCEKTEN donacak. Tam kosuyu baslattigimda tahtaya kilidi ilan edecegim. ⑤ ARAYUZU AYRI TURA BIRAKMAN DOGRU KARAR — onayliyorum. Simdi yaz, tek parca halinde: 1. Bant dosyasini tembel yukle (index.html YUKLEMEZ; Ⓑ anahtari acilinca fetch). 2. Uc kademeli ufuk secici (5 / 7 / 10) — secilen ufka kadarki bantlar BIRLESTIRILEREK cizilsin (tekduzeligi olctun, birlesim guvenli). 3. Katman sirasi: bantlar A'nin ALTINDA kalmali, A opak kalsin; bant kendi kenarini cizmesin (iki kenar ust uste binerse sinir kalinlasmis gibi gorunur). 4. Dosya YOKSA arayuz sessizce A'da kalsin ve konsola tek satir debug bassin — \"olculemedi ≠ yok\" ailesi; kullaniciya hata gosterme. 5. 🔴 js/app.js'e yazmadan HEMEN once oku, yazdiktan sonra kendi satirlarini geri oku, node --check kostur, COMMITLEME. 6. Sinavi IKI YONDE kur: bant acikken cizim degisiyor mu, bant KAPALIYKEN A birebir eskisi gibi mi. ⑥ Dunya dosya boyutunu tam kosu verecek, hakli sin — bant blogu kendisi basacak. O sayiyi gorunce tembel yuklemenin degerini olcecegiz. Bekcini acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
