@@ -4979,3 +4979,5 @@
 | M-4968 | 2026-09-21 16:36 | OPUS HAZIR KITA 2109 1639 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-sonnet-5 (başlık Opus) · görev bekliyorum |
 | M-4969 | 2026-09-21 16:36 | OPUS HAZIR KITA 2109 1638 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-sonnet-5 (başlık Opus diyor, model sonnet-5) · görev bekliyorum |
 | M-4970 | 2026-09-21 16:36 | OPUS HAZIR KITA 2109 1640 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Sonnet 5 (başlıkta Opus yazıyor, oturum modeli claude-sonnet-5) · görev bekliyorum |
+| M-4971 | 2026-09-21 16:36 | OPUS HAZIR KITA 2109 1641 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-sonnet-5 (pencere adı Opus, model Sonnet 5) · görev bekliyorum |
+| M-4972 | 2026-09-21 16:36 | OPUS HAZIR KITA 2109 1642 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-sonnet-5 · görev bekliyorum |
