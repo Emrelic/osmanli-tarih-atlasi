@@ -153279,5 +153279,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4947",
+  "zaman": "2026-09-21 03:44",
+  "kimden": "HARITA-DURUM-0074",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · HARITA-DURUM-0074 · M-4945 (c) BITTI — \"ACIK YESIL\" UC SECENEK SAYIYLA. KOD YAZMADIM, js/app.js'e DOKUNMADIM. Rapor: denetim/HARITA-DURUM-0074-0921.md §7 · commit 9c5b263 · aletler denetim/ARAC-HARITA-DURUM-0074-DELTAE.py ve -ZEMINTON.py. Olcu birimi projenin KENDI aleti: arac/renk_olc.py (lab · dE CIE76 · dE94_asgari · ALTLIK · OPAKLIK · komsuluk) — formul elle yazilmadi. ① OPAKLIK 0,44 -> 0,60 -> 0,70 (rusya dolgusu ile BOS ZEMIN arasi dE76): zemin #e8dfc8 (renk_olc ALTLIK) : 20,77 -> 28,58 -> 33,52 zemin #f2f1c1 (gorselde olculen ACIK kabartma) : 21,29 -> 29,27 -> 34,32 zemin #d6cf87 (gorselde olculen KOYU kabartma) : 18,29 -> 25,02 -> 29,23 KAZANC: 0,44->0,60 = +7,98 · 0,44->0,70 = +13,03 (acik kabartmada). Gorunen renk 0,44'te #aabe8f, 0,60'ta #90ab7d, 0,70'te #80a071. ② ZEMINE DOKU/TON — 🔴 SEZGI TERS CIKTI. \"Bos araziyi gollendirelim/gri verelim\" ayrimI DUSURUYOR, cunku soluk beji rusya'nin sonuk yesiline YAKLASTIRIYOR: %8 notr gri -2,70 · %15 notr gri -4,80 · %15 soguk gri-mavi -4,55 · %15 SIYAHLA KOYULTMA -10,04 · %25 koyultma -11,35. 24 ton acisi x iki oran tarandi; KAZANDIRAN yon MOR/MAGENTA ve ACMA: %15 #cc32cb -> zemin #ecd4c2, dE76 25,80 (+4,51) · %25 beyazla acma +2,27. En iyi aday zeminden ayrismayan kimlik sayisini 15 -> 8'e indiriyor. SINIR: dE yalniz RENGI olcer; doku bir UZAY ipucudur, bu sayilar dokunun yalniz renk ayaginin ust sinindir. ③ PALET — rusya'nin 67 GERCEK komsusu var (renk_olc.komsuluk, Voronoi bitisikligi + gun ortusmesi). En yakinlar: hive/joseon #00695c dE76 12,88 (dE94 10,45) · romanya #6c6912 13,44 (dE94 8,25) · kuzey-yuan #306c78 14,21 (9,72) · cungar 14,53 (12,02) · qing-hanedani #636f03 16,07 (dE94 8,10). Esik DE_KOMSU=12: CIE76'ya gore IHLAL YOK, CIE94'e gore DORT komsu esigin ALTINDA — D172'nin biraktigi CIE76/CIE94 ayrismasi tam burada canli. Komsuluktan bagimsiz butun palette en yakin: bretanya #36693f 3,59 · magindanao 4,50 · hamid 5,71 · italya 5,79 · lur-i-buzurg 5,93 (komsu olmadiklari icin denetimde gorunmuyorlar). 🔴 SORULMAYAN AMA OLCUMUN GOSTERDIGI — ALETIN KOR NOKTASI: renk_olc.py \"ALTLIKTAN AYRISMAYAN: 0 kimlik\" diyor ve DOGRU — ama DUZ zemine (#e8dfc8) karsi. Raster kabartma acikken bos arazinin rengi o degil. Gercek kabartma tonlarina karsi esigin (dE<15) altinda kalan kimlik sayisi: #f2f1c1 -> 0,44'te 15 · 0,60'ta 3 · 0,70'te 0 ¦¦ #d6cf87 -> 0,44'te 37 · 0,60'ta 21 · 0,70'te 13. Yani DENETIM TEMIZ CUNKU SORDUGU ZEMIN EKRANDAKI ZEMIN DEGIL; Emre'nin \"surekli basimiza bela oluyor\" dedigi sinif tam bu bosluktadir. ONERI (kod yazmadim): renk_olc.py duz ALTLIK yerine kabartmanin TON ARALIGINA karsi da olcsun, ihlal en kotu tona gore raporlansin. ONERIM (karar Emre'nin): ①'i sec, yumusak kipte devlet-dolgu 0,44 -> 0,60. En buyuk kazanc (+7,98), ayrismayan kimlik 15 -> 3, tek satir, yumusak kipin amacini (cografya alttan sizsin) oldurmuyor. 0,70 acik kabartmada ayrismayani 0'a indiriyor ama sizintiyi belirgin azaltir — yumusak kipin kendi gerekcesiyle celisme riski. ②'yi TEK BASINA secme: dogru yonde bile kazanci ①'in yarisindan az, yanlis yonde ciddi kayip. ③ ayri bir is: rusya'nin sorunu zeminden degil, CIE94'e gore dort komsudan ayrismamasi. DEGISEN DOSYALAR: denetim/ARAC-HARITA-DURUM-0074-DELTAE.py · -ZEMINTON.py · HARITA-DURUM-0074-DELTAE.json · -ZEMINTON.json · HARITA-DURUM-0074-0921.md (§7 eklendi) — commit 9c5b263. Paylasilan hicbir dosyaya dokunmadim. Isim bitti; emekliye ayrilabilirim, bekciyi senin isaretinle kapatirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
