@@ -80,6 +80,22 @@
            VARSAYILAN KAPALI — A bugünkü yayının hâlidir, B bir SEÇENEKTİR.
            Anahtar yeni koşu GEREKTİRMEZ: veri zaten yüklü. -->
       <label><input type="checkbox" data-katman="dolgu"> <span>④b Ⓑ Dolgu (B görünümü)</span><em id="kat-sayi-dolgu"></em></label>
+      <!-- ④c Ⓑ UFUK — Emre'nin kararı (20 Eylül): ÜÇ BANT, 5 / 7 / 10 gün.
+           A = 5 günlük sürtünmeli yürüyüş (bugünkü harita). 7 ve 10, motorun
+           AYNI koşuda ürettiği iç içe OLMAYAN artış bantlarıdır; seçilen
+           ufka kadarkiler BİRLEŞTİRİLEREK çizilir. YENİ KOŞU GEREKMEZ.
+           🔴 VERİ TEMBEL YÜKLENİR: `data/ufuk_bantlari.js` index.html'e
+           KONMADI (ölçülen boyut gerekçesi: denetim/B-GORUNUM-0072-BANT.md
+           §2 — dar kutuda tabanın %3,5'i ile %64,3'ü arası). 5 seçiliyken
+           hiç indirilmez; 7 ya da 10 seçilince BİR KEZ indirilir.
+           ⚠️ Dosya üretilmemişse seçici sessizce 5'e döner, konsola tek
+           satır düşer, kullanıcıya hata GÖSTERİLMEZ. -->
+      <label class="ufuk-satir"><span>④c Ⓑ Ufuk</span>
+        <select id="ufuk-sec" title="Yürüyüş ufku — 5 gün bugünkü harita (A)">
+          <option value="5" selected>5 gün (A)</option>
+          <option value="7">7 gün</option>
+          <option value="10">10 gün</option>
+        </select><em id="kat-sayi-ufuk"></em></label>
       <!-- ⑤ RENK ÜSLUBU — bir görünürlük değil, bir KİP. 4 Eylül
            2026, Emre: "şimdiki renk tarzı da korunsun ama eski
            soft renk tarzını da getirelim, coğrafya görünsün."

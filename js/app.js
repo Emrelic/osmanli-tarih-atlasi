@@ -586,6 +586,124 @@ function devletGuncelle(t) {
 //    ⚠️ ②'de imzayı sıfırlamamak sessiz bir kusur üretirdi: kullanıcı
 //    kutuyu açar, katman görünür olur, ama kaynakta KAPANDIĞI GÜNÜN verisi
 //    durur — yanlış tarihin dolgusu, hiçbir uyarı olmadan.
+// ═══════════════════════════════════════════════════════════════════════
+// Ⓑ UFUK BANTLARI — tembel yükleme + üç kademeli seçici
+// ═══════════════════════════════════════════════════════════════════════
+// Emre: üç bant 5 / 7 / 10 gün. A = 5 gün, yani VARSAYILAN HÂL bugünkü
+// haritadır ve o hâlde bant verisi HİÇ İNDİRİLMEZ.
+//
+// 🔴 TEMBEL YÜKLEME, ve gerekçesi ölçülmüş bir sayı: bant eki dar kutuda
+//    tabanın %3,5'i (yoğun) ile %64,3'ü (tenha) arası; site bugün zaten
+//    261 dosya / 157,6 MB ham indiriyor. `index.html` bu dosyayı YÜKLEMEZ.
+// 🔴 DOSYA YOKSA SESSİZCE A'DA KALINIR: seçici 5'e döner, konsola TEK satır
+//    düşer, kullanıcıya hata GÖSTERİLMEZ. ("ölçülemedi ≠ yok" ailesi —
+//    bant üretilmemiş olabilir, bu bir arıza değil bir DURUMdur.)
+// ⚠️ `<script>` etiketiyle yükleniyor, `eval` ile DEĞİL: dosya zaten
+//    `window.UFUK_BANT = …` yazan klasik bir betik ve tarayıcı onu kendi
+//    ayrıştırıcısıyla okumalı.
+var ufukGun = 5;                 // seçili ufuk (gün) — 5 = A, bant çizilmez
+var ufukVeri = null;             // yüklenmiş bant kayıtları (yoksa null)
+var ufukYukleniyor = false;
+var ufukImza = null;
+
+function ufukSurum() {
+  // Sürüm damgasını kendi <script> etiketinden okur — elle sayı YAZILMAZ,
+  // surum_damgala.py her yayında app.js'in ?v=rNNNN'ini güncelliyor.
+  var k = document.querySelector('script[src*="app.js"]');
+  var m = (k && k.src || "").match(/[?&]v=(r\d+)/);
+  return m ? ("?v=" + m[1]) : "";
+}
+
+function ufukYukle(bitti) {
+  if (ufukVeri) { bitti(true); return; }
+  if (ufukYukleniyor) return;
+  ufukYukleniyor = true;
+  var s = document.createElement("script");
+  s.src = "data/ufuk_bantlari.js" + ufukSurum();
+  s.onload = function () {
+    ufukYukleniyor = false;
+    var B = window.UFUK_BANT || null;
+    if (!B || !B.length) {
+      console.debug("Ⓑ ufuk: dosya yüklendi ama bant YOK — A'da kalınıyor");
+      bitti(false);
+      return;
+    }
+    var HAV = window.UFUK_BANT_PARCALAR || [];
+    var PAR = window.UFUK_BANT_PARCA || [];
+    B.forEach(function (b) {
+      (b.dnm || []).forEach(function (r) {
+        r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
+        r.ft = { type: "Feature",
+                 properties: { renk: DOLGU_RENK[r.d] || "#8e0b22", kim: r.d },
+                 geometry: parcaCoz(r.g, HAV, PAR) };
+      });
+    });
+    ufukVeri = B;
+    console.debug("Ⓑ ufuk: " + B.length + " bant yüklendi (" +
+      B.map(function (b) { return b.ad + ":" + (b.dnm || []).length; }).join(" · ") + ")");
+    bitti(true);
+  };
+  s.onerror = function () {
+    ufukYukleniyor = false;
+    console.debug("Ⓑ ufuk: data/ufuk_bantlari.js YOK (üretilmemiş) — A'da kalınıyor");
+    bitti(false);
+  };
+  document.head.appendChild(s);
+}
+
+function ufukGuncelle(t) {
+  if (ufukGun <= 5 || !ufukVeri) return;
+  var fs = [], imza = ufukGun + "|";
+  for (var k = 0; k < ufukVeri.length; k++) {
+    var b = ufukVeri[k];
+    // 🔴 SEÇİLEN UFKA KADARKİLER BİRLEŞTİRİLEREK çizilir. Taban bandı
+    //    (<=5) A'nın kendisidir, onu ÇİZMEYİZ — zaten haritada. Yalnız
+    //    ARTIŞ bantları eklenir. Tekdüzelik ölçüldü (0 ihlal), yani
+    //    bantlar örtüşmez ve üst üste binme olmaz.
+    if (b.gun <= 5 || b.gun > ufukGun) continue;
+    var dnm = b.dnm || [];
+    for (var i = 0; i < dnm.length; i++) {
+      var r = dnm[i];
+      if (!aktifAralik(r.fi, r.ti, t)) continue;
+      if (!r.ft.geometry || !r.ft.geometry.coordinates.length) continue;
+      imza += k + ":" + i + ";";
+      fs.push(r.ft);
+    }
+  }
+  if (imza === ufukImza) return;
+  ufukImza = imza;
+  try {
+    harita.getSource("ufuk-bant").setData({ type: "FeatureCollection", features: fs });
+  } catch (e) { /* kaynak henüz kurulmadı */ }
+  var rozet = document.getElementById("kat-sayi-ufuk");
+  if (rozet) rozet.textContent = fs.length ? fs.length : "0";
+}
+
+function ufukSeciciKur() {
+  var sec = document.getElementById("ufuk-sec");
+  if (!sec) return;
+  sec.addEventListener("change", function () {
+    var istenen = parseInt(sec.value, 10) || 5;
+    function uygula(varMi) {
+      ufukGun = (varMi && istenen > 5) ? istenen : 5;
+      if (!varMi && istenen > 5) sec.value = "5";   // sessiz geri dönüş
+      try {
+        harita.setLayoutProperty("ufuk-bant-alan", "visibility",
+                                 ufukGun > 5 ? "visible" : "none");
+      } catch (e) { /* katman henüz yok */ }
+      ufukImza = null;                 // kapanınca/açılınca kesit yeniden yazılsın
+      if (ufukGun > 5) { try { ufukGuncelle(suanki); } catch (e) {} }
+      else {
+        try { harita.getSource("ufuk-bant").setData(bosVeri()); } catch (e) {}
+        var rz = document.getElementById("kat-sayi-ufuk");
+        if (rz) rz.textContent = "";
+      }
+    }
+    if (istenen <= 5) { uygula(true); return; }
+    ufukYukle(uygula);
+  });
+}
+
 var dolguImza = null;
 function dolguGuncelle(t) {
   if (!dolgular.length) return;
@@ -1519,6 +1637,27 @@ harita.on("load", function () {
   harita.addSource("devlet", agirKaynak());
   harita.addLayer({ id: "devlet-dolgu", type: "fill", source: "devlet",
     paint: { "fill-color": ["get", "renk"], "fill-opacity": 1 } });
+
+  // ═══════════════════════════════════════════════════════════════════
+  // Ⓑ UFUK BANTLARI — A'NIN ALTINDA (B-GORUNUM-0072, 21 Eylül 2026)
+  // ═══════════════════════════════════════════════════════════════════
+  // Emre'nin kararı: üç bant 5 / 7 / 10 gün. A = 5 gün (bugünkü harita);
+  // 7 ve 10 motorun AYNI koşuda ürettiği iç içe OLMAYAN artış bantlarıdır.
+  //
+  // 🔴 KATMAN SIRASI: bantlar A'nın ALTINDA. `beforeId` ile `devlet-dolgu`nun
+  //    ÖNÜNE konuyor — yani ekleniş sırası değil, AÇIKÇA yazılmış bir çıpa
+  //    belirliyor; araya yeni bir A katmanı girse bile bant altta kalır.
+  //    Gerekçe (1.MURAT, M-4938): A opak kalmalı, ve bant KENDİ KENARINI
+  //    ÇİZMEMELİ — iki kenar üst üste binerse sınır kalınlaşmış görünür.
+  //    Bu yüzden yalnız `fill` var, `line` YOK.
+  // 📌 Bant ile A zaten AYRIK (bant, A'nın ötesine düşen artıştır), yani
+  //    "altta" olmak bir çakışma çözümü değil, bir GÜVENCEdir: kılcal bir
+  //    örtüşme olursa A kazanır.
+  harita.addSource("ufuk-bant", agirKaynak());
+  harita.addLayer({ id: "ufuk-bant-alan", type: "fill", source: "ufuk-bant",
+    layout: { visibility: "none" },
+    paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
+             "fill-opacity": 1 } }, "devlet-dolgu");
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
   // 🔴 21 Ağustos — KUSUR ③, Emre (ekran görüntüsü): "odaklanan ülke belirgin
@@ -2301,6 +2440,7 @@ harita.on("load", function () {
   koridorKur();
   nehriUsteAl();
   katmanSeciciKur();
+  ufukSeciciKur();          // Ⓑ üç kademeli ufuk (5 / 7 / 10 gün)
 
   var lejant = document.createElement("div");
   lejant.className = "lejant";
@@ -8433,6 +8573,9 @@ function guncelle() {
   // Ⓑ DOLGU — `devletGuncelle`nin hemen ARDINDAN, aynı desende (imza kapılı).
   // Katman kapalıyken maliyeti bir `if`tir (bkz. tanım).
   agirOlc("dolguGuncelle", function () { dolguGuncelle(suanki); });
+  // Ⓑ UFUK BANTLARI — seçili ufuk 5 (A) iken maliyeti bir `if`tir
+  // (`ufukGuncelle` ilk satırda çıkar, veri de hiç indirilmemiştir).
+  agirOlc("ufukGuncelle", function () { ufukGuncelle(suanki); });
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — GUVEN_ODAK_DEVLET boşken fonksiyon
   // hemen çıkar (bkz. tanım, satır ~440), yani varsayılan durumda bu satırın
   // maliyeti bir `if` kadardır.
