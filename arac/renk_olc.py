@@ -52,6 +52,33 @@ from shapely.strtree import STRtree
 # ---- eşikler: bir yerde, adıyla
 DE_KOMSU   = 12.0     # komşu devletten ayrışma
 DE_ALTLIK  = 15.0     # altlıktan ayrışma (görünürlük)
+
+# ═══════════ KABARTMA TON ARALIĞI — HARITA-DURUM-0074, 21 Eylül 2026 ═══════════
+# 🔴 KÖR NOKTA: `DE_ALTLIK` ölçümü DÜZ zemine (`ALTLIK` #e8dfc8, js/app.js:1287
+#   "zemin" dolgusu) karşı yapılır ve "0 kimlik ayrışmıyor" der. Ama ekranda
+#   raster kabartma açıkken boş arazinin rengi O DEĞİLDİR.
+#   ⇒ Denetim temizdi çünkü SORDUĞU ZEMİN EKRANDAKİ ZEMİN DEĞİLDİ.
+#   (CLAUDE.md §11 "denetim var ≠ o soruyu soruyor" ailesi; deniz bloğunun kara
+#    tarafı — deniz 2026-08-12'de tam aynı sebeple eklenmişti.)
+#
+# 📌 DEĞERLER UYDURULMADI, ÖLÇÜLDÜ. Emre'nin 21 Eylül 2026 partisindeki
+#   (`parti-emrelic-0074`) `H-0007-1.png` ekran görüntüsünün BOYASIZ alanından
+#   piksel sayımıyla çıkarıldı (`denetim/ARAC-HARITA-DURUM-0074-PIKSEL.py` →
+#   `denetim/HARITA-DURUM-0074-PIKSEL.json`): o kutuda motorun HİÇ çizmediği
+#   107 hücre var (kara hücrelerinin %34,3'ü) ve orada görünen renk doğrudan
+#   kabartma altlığıdır. En sık iki küme aralığın uçlarını veriyor:
+#     #f2f1c1 (242,241,193) — açık / tepe tonu
+#     #d6cf87 (214,207,135) — koyu / gölge tonu
+#   Aynı görselden Rusya dolgusunun opaklığı üç kanaldan AYRI AYRI çözülüp
+#   0,466/0,466/0,438 bulundu ve `js/app.js:13472 SIYASI_KIP.yumusak`
+#   `devlet-dolgu: 0.44` ile örtüştü — ölçüm iki yönde doğrulandı.
+# ⚠️ Aralık bu İKİ UÇLA temsil edilir; ihlal EN KÖTÜ tona göre raporlanır.
+#   Kabartma rasteri değişirse bu sayılar BAYATLAR — yeniden ölçülmeli.
+KABARTMA_TON = {
+    "açık kabartma #f2f1c1": (242, 241, 193),
+    "koyu kabartma #d6cf87": (214, 207, 135),
+}
+
 TON_MERKEZ = 30.0     # kırmızı ailesinin merkezi (Osmanlı ailesi için)
 # 🔴 KUTU ELLE YAZILMAZ — BOLGE'den PAY ile türetilir (İş N bulgu N1).
 # Eski hâli `KUTU = box(-25, -5, 75, 72)` elle kopyaydı: Asya partisi
@@ -745,6 +772,31 @@ def cie94_karsilastir(k=None, esik=None):
     return yalniz76, yalniz94, ikisi_de, hicbiri, olculemedi
 
 
+def kabartma_ihlal():
+    """Her kabartma tonuna karşı `DE_ALTLIK` eşiğinin ALTINDA kalan kimlikler.
+    Döner: {ton_adı: [(ΔE, kimlik), …]} — her liste ΔE'ye göre sıralı.
+
+    🔴 ÇIKIŞ KODUNU ETKİLEMEZ. Gerekçe `deniz_ihlal()` ile aynı ve ondan
+    daha güçlü: bu ölçüm denetimi bugün "temiz"ten "ihlalli"ye çevirir
+    (ölçülen: açık tonda 15, koyu tonda 37 kimlik). Kapıyı sıkılaştırmak
+    AYRI BİR KARARDIR ve `SIYASI_KIP.yumusak`ın opaklık hükmüne bağlıdır
+    (0,44 → 0,60 önerisi Emre'de). Ölçüm ÖNCE RAPOR olarak gelir."""
+    out = {}
+    a_op = OPAKLIK["yabanci"]
+    for ad, zemin in KABARTMA_TON.items():
+        zlab = lab(zemin)
+        tek = []
+        for a in BOYALAR:
+            bind = tuple(a_op * c + (1 - a_op) * z
+                         for c, z in zip(h2r(BOYALAR[a][1]), zemin))
+            d = dE(lab(bind), zlab)
+            if d < DE_ALTLIK:
+                tek.append((d, a))
+        tek.sort()
+        out[ad] = tek
+    return out
+
+
 # ═══════════════ DENETİM ═══════════════
 def denetle():
     k, n = komsuluk()
@@ -777,6 +829,24 @@ def denetle():
         print(f"  {d:>6.1f}  {a:<24} {BOYALAR[a][1]}  {BOYALAR[a][0]}")
     if not gorunmez:
         print("  yok")
+
+    # HARITA-DURUM-0074, 21 Eylül 2026 — AYNI SORU, EKRANDAKİ ZEMİNE.
+    # Yukarıdaki sayı DÜZ zemine karşıdır ve KALDIRILMADI: iki satır yan yana
+    # basılır ki eski ölçümle kıyas kaybolmasın. Bkz. `KABARTMA_TON`.
+    _kab = kabartma_ihlal()
+    _enkotu = max(_kab, key=lambda t: len(_kab[t]))
+    print(f"  düz zemin (#{''.join('%02x' % c for c in ALTLIK)}): "
+          f"{len(gorunmez)} ihlal")
+    print(f"  kabartma EN KÖTÜ ton ({_enkotu}): {len(_kab[_enkotu])} ihlal"
+          f"  — ton başına: "
+          + " · ".join(f"{t}: {len(v)}" for t, v in _kab.items()))
+    print("  ⚠️ kabartma satırı ÇIKIŞ KODUNU ETKİLEMEZ (rapor)"
+          + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
+    if "--ayrinti" in sys.argv:
+        for t, v in _kab.items():
+            print(f"    — {t}")
+            for d, a in v:
+                print(f"      {d:>6.1f}  {a:<24} {BOYALAR[a][1]}  {BOYALAR[a][0]}")
 
     # RENK DENİZ, 2026-08-12 — CLAUDE.md §11: "denetim var ≠ o soruyu
     # soruyor". Gövdeler birbirine karşı yukarıda ölçülüyor; deniz bir
