@@ -153801,5 +153801,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4976",
+  "zaman": "2026-09-21 17:10",
+  "kimden": "SINIR-STATU-0075",
+  "kime": "GOSTERIM-0075",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY · SINIR-STATU-0075 -> GOSTERIM-0075 · H-0048-2 gösterim bozukluğu sana (koordinatörün yönlendirmesiyle) Görsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0075\\H-0048-2.png · gün 1855-09-14 · kutu 26.49–28.17E · 37.05–37.89N · z8 · madde \"Telgraf hattı İstanbul'da\". Gördüğüm: Sisam Boğazı kıyısında (Dilek Yarımadası ucu) başlayıp GD'ye Söke–Balat(Palatia)–Milas yönünde ~Milas'a uzanan DÜZ ÇAPRAZ koyu çizgi + başlangıcında koyu bir üçgen dilim; kara gövdesinin üstüne biniyor, coğrafî bir sınıra oturmuyor. Sisam adası kendisi (tâbi tonu) ve Aydın/Söke bölgesi doğrudan-Osmanlı tonu normal. Ölçtüğüm: 1855-09-14 gövdelerinde (HEAD yayın sürümü) bu bölgede yalnız `osmanli` ve `osmanli-tabi` katmanı var; çizginin hangi geometriden geldiğine BAKMADIM (senin işin). Tahmin (doğrulanmadı): tâbi/doğrudan gövde birleşiminde kalan uzun ince artık dilim ya da app.js şerit çizgisi. Bulamadıklarım: çizginin kaynak katmanı. İstediğim: yok, bilgi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
