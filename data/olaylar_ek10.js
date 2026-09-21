@@ -115,7 +115,8 @@ window.OLAYLAR_EK10 = [
   gun:"1482", yer:"Cetinje, Lovçen eteği, Karadağ", yer_id:"Cetinje",
   kisiler:"II. Bayezid, İvan Crnojeviç",
   d:"İşkodra'nın 1479'da Osmanlı'da kalmasıyla arka bahçesindeki Zeta dağlık bölgesi de imparatorluğun sınırları içine düştü. Bölgeyi elinde tutan Crnojeviç ailesi, Fâtih'in ölümünden sonra tahta çıkan II. Bayezid'in hükümdarlığını tanıyıp haraca bağlanarak iç işlerinde serbest kaldı; İvan Crnojeviç merkezini ovadan çekip Lovçen dağının eteğindeki Cetinje'ye taşıdı ve şehri kurdu. İki yıl sonra buraya yaptırdığı manastır bölgenin dinî merkezi oldu. Böylece Karadağ, haritada doğrudan Osmanlı toprağı olarak değil, açık tonda bir tâbi bölge olarak belirir. TDV'nin Karadağ maddesi hanedanı ve Cetinje piskoposluğunu anar, hâkimiyetin 1514'te İskender Bey (Crnojeviç soyundan, Osmanlı sarayında yetişmiş) eliyle ayrı bir sancağa dönüştüğünü yazar; 1482 yılı ise TDV'de geçmez, Karadağ tarih yazımının verdiği tarihtir. Coğrafyanın sertliği yüzünden buradaki idare hiçbir zaman ovalardaki gibi sıkı işlemedi.",
-  fethedilen:["Cetinje"], kaybedilen:["Zaklise (Zakynthos)"],
+  statu_vasal:["Cetinje"], kaybedilen:["Zaklise (Zakynthos)"],
+  ic_not_b:"🔴 SINIFLANDIRMA DÜZELTMESİ — 21 Eylül 2026, KRONO-EKSIK-0921, 1.MURAT hükmü M-4953(a). Bu ad `fethedilen:` alanındaydı ve haritada FETİH rengiyle rozet veriyordu; oysa maddenin kendi k: alanı zaten vassal, kendi anlatısı haraca bağlanarak iç işlerinde serbest kaldığını söylüyor ve yerleşim kaydında o gün başlayan kırılma v: (tâbilik) kovasında. Üç tanık da tâbilik diyordu, rozet fetih gösteriyordu — js/app.js:3343ün Yayça vakasıyla aynı sınıf. Kaybedilen alanına DOKUNULMADI.",
   kaynak:"karadag", duygu:["🎌"] },
 
 // ---------------------------------------------------------------------------
