@@ -153945,5 +153945,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4984",
+  "zaman": "2026-09-21 17:28",
+  "kimden": "1.MURAT",
+  "kime": "GMP-ACIKLIK-0921",
+  "kimden_kimlik": "",
+  "mesaj": "GMP-2 · 5 GÜNLÜK NÜFUZUN BIRAKTIĞI BOŞLUK — ve önce bir ALINDI 🔴 İLK İŞ, GÖREVDEN ÖNCE: bu mesajı okur okumaz tahtaya TEK satır yaz: py arac/tahta.py yaz --kim \"GMP-ACIKLIK-0921\" --kime \"1.MURAT\" --mesaj \"ALINDI M-<bu mesajın numarası> · saat <ss:dd> · bekçi: <ACIK ya da KAPALI>\" Bu turda ölçülen şey bekçi sürecinin çalışıp çalışmadığı; ALINDI o ölçümdür. ÖNCEKİ RAPORUN (M-4963 · denetim/GMP-ACIKLIK-0921.md): okundu, doğrulandı, KABUL. Aynı ölçümü bağımsız olarak ben de yaptım (denetim/ARAC-BTB-ACIKLIK-0921.py) ve yüzdelikler birebir tuttu: p50 80,1 · p95 247,6/247,7 · p99 336,3 · max 3548,7. Ve bir yerde benden İYİ ölçtün, kayda geçiyor: ben Trablus-Kano doğrusu üzerinde örnekleme yapıp 522 km bulmuştum; sen ±300 km'lik KORİDORA bakıp Ténéré'de 939 km'lik gerçek açıklığı buldun. Doğru olan seninki — en boş yer doğrunun üstünde olmak zorunda değil. Sibirya 961,4 ve Himalaya 386,3 sayıları da bu yüzden benimkilerin yerine geçti. Ayrıca `yerlesimler_ok102.js`nin canlı olmadığını ve ok101'deki üç kaydın ~0,1-0,7 km yakınına mükerrer düştüğünü tespit ettin — bu istenmemiş ama gerçek bir bulgudur, ayrıca ele alınacak. ═══ DURUM DEĞİŞTİ — yeni görev bundan doğuyor ═══ Eşik kararı verildi ama senin sunduğun üç adaydan biri değil: Emre kapıyı arazi sınıfından ÇIKARDI. Yeni kural tek cümle: *\"Bir yerleşimin boş toprağa nüfuzu HER YERDE en fazla 5 günlük sürtünmeli yürüyüştür.\"* Motorun ölçüsüyle: 5 gün = 40 saat × 5,04 km/sa = **201,6 km sürtünmeli bedel**. Düz arazide bu kuş uçuşu ~201,6 km'ye yakındır; dağda çok daha azına karşılık gelir (sürtünme = 1 + eğim çarpanı). GÖREV: bu kuralın haritada NE BIRAKACAĞINI koşudan ÖNCE ölç. Tam koşu sürüyor ve saatler alacak; senin ölçümün ona bir ÖNGÖRÜ olacak — öngörü ölçümden önce yazılır, bu projenin kuralı. A) Kaç km² kara, en yakın yerleşimden **201,6 km'den uzaktır**? Dünya toplamı + kıta/bölge kırılımı. Kara maskesi için Natural Earth'ün `veri-kaynak/` altındaki kara katmanını kullan; hangisini kullandığını ve kaç poligon okuduğunu YAZ. ⚠️ `veri-kaynak/motor_kara.geojson` KULLANMA — o motorun ÇIKTISIDIR, girdi değil. B) Aynı ölçümü üç eşikte tekrarla ve tabloya koy: 121 km (3 gün) · 201,6 km (5 gün) · 282 km (7 gün). Emre 5 günü seçti; tablo o seçimin komşularına göre ne kadar duyarlı olduğunu gösterecek. C) 201,6 km eşiğinde boş kalan alanın **en büyük 15 bağlantılı parçası**: her biri için yaklaşık alan (km²), merkez koordinatı ve hangi coğrafya olduğu (Sahra · Rub'ul Hâlî · Sibirya tundrası · Amazon · Avustralya iç çölleri · Grönland · vb.). Bu liste Emre'nin \"kum denizi, orman denizi, dağ denizi\" dediği yerlerin ölçülmüş hâli olacak. D) Tek paragraf: bu üç ölçüme göre 5 günlük kuralın en tartışmalı sonucu nerede çıkar — yani nerede \"boş kalması iyi oldu\" demek zor. Hüküm verme, yeri göster. KURALLAR: · HİÇBİR PROJE DOSYASINI DEĞİŞTİRME. Şu an tam koşu sürüyor: `data/` ve `arac/` DONMUŞ, okumak serbest, yazmak YASAK. · Yazacağın TEK dosya: `denetim/GMP-BOSLUK-0921.md` · Hesabı gözden yapma; betiği yaz, koştur, betiği raporun sonuna ekle. · Okunamayan dosya olursa \"okunamadı\" yaz ve SEBEBİNİ yaz. · Kuş uçuşu ile sürtünmeli bedel AYNI ŞEY DEĞİLDİR; hangisini ölçtüğünü her tabloda açıkça yaz. Sürtünmeliyi hesaplayamıyorsan kuş uçuşu ver ve bunun bir ALT SINIR olduğunu belirt — sürtünmeli bedel ondan küçük olamaz, yani gerçek boşluk senin bulduğundan GENİŞ olur. Teslim: TEK tahta mesajı — ① ne ölçtüm ② ne bulamadım ③ ne istiyorum. Sonra bekçiyi yeniden kur. — 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
