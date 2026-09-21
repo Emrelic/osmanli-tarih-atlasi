@@ -92,7 +92,21 @@ def _motor_kesiti(kutu, kesim="col"):
     if '".uretim-basladi"' not in src[i:j]:
         raise SystemExit("damga satiri taninmadi - alet guncellenmeli")
     src = src[:i] + "pass  # SINAV: .uretim-basladi YAZILMADI\n" + src[j:]
-    if kesim == "col-sonrasi":
+    if kesim == "bant-sonrasi":
+        # \ud83d\udd34 EN DERIN KESIM: bant CIKTISI motorun sonunda (donemler ve
+        #    yabanci govdelerden SONRA), cunku devlet bandi donem donem
+        #    birlestiriliyor. Bu kesim o asamayi da kosturur \u2014 pahalidir,
+        #    yalniz bant ciktisini ucttan uca sinamak icin.
+        # \u26a0\ufe0f Bu kesim data/ufuk_bantlari.js YAZAR (sinanmak istenen sey
+        #    odur). Baska data/ dosyasi yazilmasin diye kesim, dolgu
+        #    blogunun BASINDA durur.
+        # \u26a0\ufe0f CAPA `asama(...)` SATIRI DEGIL, ondan ONCEKI BASLIK YORUMU:
+        #    `asama` cagrisi `if MOTOR_B_DOLGU == "1":` blogunun ICINDE ve
+        #    oradan kesmek `if`i govdesiz birakip IndentationError veriyor
+        #    (olculdu). Kesim blogun BASINDAN yapilmali.
+        capa = ("# \u24b7 DOLGU KATMANI \u2014 B G\u00d6R\u00dcN\u00dcM\u00dc "
+                "(B-GORUNUM-0072, 20 Eyl\u00fcl 2026)\n")
+    elif kesim == "col-sonrasi":
         capa = 'asama("Motorun \u00e7izdi\u011fi kara (motor_kara.geojson)")\n'
     else:
         capa = "# ---------------- COL TAVANI ----------------\n".replace(
@@ -556,7 +570,8 @@ def main():
     p.add_argument("--ozet", action="store_true")
     p.add_argument("--bant", action="store_true")
     p.add_argument("--dokum", help="ic kullanim: tek butce kosar, PETEK_D'yi yazar")
-    p.add_argument("--kesim", default="col", choices=("col", "col-sonrasi"),
+    p.add_argument("--kesim", default="col",
+                   choices=("col", "col-sonrasi", "bant-sonrasi"),
                    help="motor metninin nerede kesilecegi (bkz. _motor_kesiti)")
     a = p.parse_args()
     if a.ozet:
