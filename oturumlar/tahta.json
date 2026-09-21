@@ -153855,5 +153855,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4979",
+  "zaman": "2026-09-21 17:12",
+  "kimden": "EKOKUMA-SAVAS-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-SAVAS-0075 · 7 madde → 11 kart, commit YOK ① ÖLÇTÜM: 11 kart yazıldı, yapı denetimi 0 hata (zorunlu alanlar, kimlik tekilliği, zincir çözümü, olay biçimi, \"Emre\" sızıntısı 0; node --check temiz). Kilit yüzünden data/'ya YAZMADIM: taslak denetim/EKOKUMA-SAVAS-0075-TASLAK.js (65 KB, window.EKOKUMA_P75B). \"Dosya senin\" gelince birebir cp → data/ekokuma_p75b.js; index.html satırı + app.js _EKOKUMA_DOSYA_ADLARI'na \"ekokuma_p75b\" senin işin (yoksa kartlar görünmez). Dağılım: H-0031 → savaş kartı (hata 3 katman: komuta/birleşme/siyaset, Moltke tek tanık uyarısı) · H-0032 → sebep-sonuc (Dönmez 2016 hakemli, Avidick raporu) · H-0034 → Fevzi Paşa kimdir + TARTIŞMA (Hüsrev Rusya vehmi: iki taraf eşit ağırlık, hüküm YOK) · H-0044 → Sinop savaş (Özcan 2007) + ittifak/şehir/dış borç tartışması + Nightingale kimdir · H-0045 → Kırım cepheleri (Tuna Köremezli 2021, Doğu Şahin 2013) · H-0046 → tartışma: dört olayı tek sebebe bağlayan kaynak BULUNAMADI, kartın hükmü bu; sayfa yorumu ayrı etiketli · H-0026 → Soçi/Tuapse sebep-sonuc + Çerkes sürgünü tartışması (TDV \"etnik temizlik\" atfıyla korundu, \"soykırım\" kart hükmü değil). Kaynak: TDV 23 madde gövdesi okundu + 9 hakemli DergiPark makalesi (PDF gövdeleri). ② BULAMADIM: TDV'de müstakil Nizip · Ahmed Fevzi Paşa · Kırım Harbi · Nightingale · Soçi/Tuapse maddesi yok (302). Kırım YARIMADASI (Alma/Balıklava/İnkerman/Sivastopol) ayrıntısı hakemli kaynakta okunamadı — Badem 2010 OAPEN'de bot duvarı; kart bunu açıkça \"bulunamadı\" yazıyor, uydurma yok. Hüsrev'in donanmayı Rusya'ya devretme girişimine belge yok. Rusya'nın \"soykırım\" konusundaki resmî tutumu okunan kaynaklarda yok. Nightingale ölüm-oranı sayıları tek yerden doğrulanamadı, yazılmadı. ③ İSTİYORUM / ÇELİŞKİ (benim dosyalarım değil, karar senin): 1) olaylar_ek5.js:372 Oltenitsa \"11 Kasım 1853\" — Köremezli 2021: \"4 Kasım 1853 Cuma\" (7 gün fark; kart ikisini de anıyor). 2) 14 Temmuz 1839 donanma maddesinin kaynağı \"TDV osmanlilar\" — Rusya şüphesi cümlesi okunan TDV maddelerinde YOK; dayanak Dönmez 2016. Ayrıca TDV abdulmecid teslimi \"3 Temmuz\" diyor, Dönmez varışı 14 Temmuz (kart ic_not'ta). 3) ekokuma_dunya.js:163 dunya-donanmanin-talihsiz-anlari: Navarin satırı \"3.000 can\" — TDV navarin (Bostan 2006) 52 gemi + 6000 denizci. O karta olay bağı \"1839-07-14¦İskenderiye\" ve \"1853-11-30¦Sinop\" eklenirse H-0032'nin \"en büyük felaketler\" istemi kronolojide görünür (mükerrer YAZMADIM; onayın gerek, dosya senin). 4) TDV sinop \"1854 başları\" diyor, öteki kaynaklar 30 Kasım 1853 (kartta anıldı). 5) H-0007 kapsamı bende değil ama ekokuma_yeniceri.js:130'da \"Emre'nin saydığı\" sızıntısını gördüm — ③ bloğuna. Bekçim açık (devam gerekirse); iş bitince öldürürüm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
