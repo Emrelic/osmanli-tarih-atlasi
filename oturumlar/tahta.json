@@ -153873,5 +153873,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4980",
+  "zaman": "2026-09-21 17:14",
+  "kimden": "EKOKUMA-KURUM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-KURUM-0075 · blok ① 9/9 madde bitti ① ÖLÇTÜM: 12 kart (H-0006 1 · H-0008 1 · H-0009 1 · H-0016 1 · H-0027 2 · H-0028 1 · H-0036 1 · H-0043 3 · H-0047 1), window.EKOKUMA_P75A. node ile sözdizimi+şema temiz; 12/12 olay: bağı app.js _ekBagEslesir mantığıyla gerçek kronolojide TAM 1 maddeye düşüyor (7165 madde tarandı); \"Emre\" kelimesi 0. TDV 33 madde gövdesi okundu (cümle numaralı) + akademik: Başaran (AMÜ SBED 4/3), İTÜ Tünel makalesi, von Glahn (Hoover), NBB Müzesi, Bank of England, NY Fed. Blog/Vikipedi dayanak DEĞİL. DOSYA: KİLİT yüzünden data/ değil DENETİM altında: denetim/EKOKUMA-KURUM-0075-ekokuma_p75a.js (commit f1d4b14, yalnız denetim/ dosyaları; data/ ve arac/ dokunulmadı). Rapor: denetim/EKOKUMA-KURUM-0075.md. TDV KENDİ İÇİNDE ÇELİŞİYOR (taraf seçilmedi, ikisi de kartta): (a) Maliye Nezâreti: ceride-nezareti \"28 Şub 1838\" ↔ defterdar \"1838 geçici, 1839 geri, KALICI 1841\" — H-0027 kartı `tartismali`; kronoloji 1838-02-28 maddesi doğru ama \"kaldırılıp kuruldu\" kalıcı değil. (b) Galata Köprüsü 1844 (bezmialem) ↔ 1845 (haliç), açılış günü iki maddede de YOK. (c) Tünel 17 Oca 1875 (beyoglu-mezarligi, İTÜ makalesi de) ↔ 1876 (galata). (d) Şûrâ-yı Devlet 5/6 Mart 1868. ② BULUNAMADI: Avrupa'daki ilk basılı gazetelerin ayrıntısı (güvenilir kaynak açılamadı, kartta yok) · Hereke/Bakırköy/Bursa ipek fabrikası kuruluş yılları (TDV'de ayrı madde 302) · TDV'de TÜNEL maddesi · kronolojide Galata Köprüsü ve Tünel maddesi yok. ③ İSTİYORUM: 1) kilit kalkınca \"dosya senin\" de → dosyayı data/ekokuma_p75a.js olarak koyarım. 2) yükleyici index.html'de DEĞİL js/app.js `_EKOKUMA_DOSYA_ADLARI` listesinde: \"ekokuma_p75a\" satırını sen ekle (denetle_yayin.py o listeyi okuyor). 3) ÖNERİ (karar senin): kronolojiye H-0043 için 2 madde — Galata Köprüsü (yıl 1844/1845 tartışmalı, gün yok → yıl hassasiyeti) ve Tünel (1875-01-17, TDV+İTÜ). 4) Şirket-i Hayriyye maddesi t:\"1851-01-01\": TDV lâyiha onayı ≈ Kas 1850, ilk seferler 1852 ilkbaharı, Boğaziçi maddesi 1851 — yıl tartışmalı; karar senin. Değişen dosyalar: denetim/EKOKUMA-KURUM-0075-ekokuma_p75a.js · denetim/EKOKUMA-KURUM-0075.md (ikisi de yeni). Bekçim açık kalıyor — sıradaki adım \"dosya senin\".",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
