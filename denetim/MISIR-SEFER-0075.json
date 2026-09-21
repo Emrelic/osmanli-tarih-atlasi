@@ -1,0 +1,340 @@
+{
+  "oturum": "MISIR-SEFER-0075",
+  "not_cumle_numaralari": "[N] atıfları bu oturumun cümle bölücüsüne göredir (TDV gövdesi ve PDF metinleri boşluk normalleştirilip cümlelere bölündü) — sayfa numarası DEĞİLDİR; alıntılar cümle olarak birebir aranabilir.",
+  "tarih": "2026-09-21",
+  "kilit": "data/ ve arac/ donmuş — hiçbir veri dosyasına yazılmadı; bu dosya yalnız öneridir, uygulama 'dosya senin' denince 1.MURAT'ta.",
+  "kaynak_kunyeleri": {
+    "TDV": "TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr) — gövdeleri bu oturumda HTTP 200 ile okundu; kullanılan maddeler: ibrahim-pasa-kavalali, kavalali-mehmed-ali-pasa, konya, kahramanmaras, gaziantep, sanliurfa, kilis, adana, tarsus, halep, gazze, hayfa, iskenderun, cebelibereket, icel, kucukaliogullari, karapinar, silifke, birecik, akka, suriye, misir. Ölü slug (302): kutahya-antlasmasi, konya-muharebesi, konya-savasi, belen-muharebesi, nizip-muharebesi, humus, han-yunus, hatay-eyaleti, halep-eyaleti, azez, cerablus, yumurtalik, erzin, dortyol, payas, kozan, ceyhan. TDV arama (madde BAŞLIĞI sayısı 0): Han Yunus, Yumurtalık, Beylan, Azez, Cerablus, Gülek, Kütahya Antlaşması, Nizip, Konya Meydan Muharebesi.",
+    "GENCER-2016": "Fatih Gencer, 'İbrahim Paşa'nın Anadolu'yu İstilası (1832-1833)', Uluslararası Sosyal Araştırmalar Dergisi 9/42 (Şubat 2016), s. 641-657. Tam metin PDF okundu (sosyalarastirmalar.com); BOA/HAT ve FO belge atıflı. Akademik, hakemli.",
+    "KUTLUOGLU-1997": "Muhammed Hanefi Kutluoğlu, '1833 Kütahya \"Antlaşma\"sının Yeni Bir Değerlendirmesi', Osmanlı Araştırmaları XVII (1997), s. 265-287. Tam metin PDF (İSAM, OCR'lı) okundu; OCR bozuk karakterler içerir, aktarılan cümleler okunaklı olanlardır. Akademik, hakemli.",
+    "UZUM-OZLU-2025": "İsmail Hakkı Üzüm — Zeynel Özlü, 'Kavalalılar Hakimiyeti Döneminde İbrahim Paşa'nın Ayıntab'daki Faaliyetleri', Gaziantep Üniversitesi Ayıntâb Araştırmaları Dergisi 8/1 (2025), s. 119-132, doi 10.71353/gunaad.1717482. Tam metin okundu. Akademik, hakemli.",
+    "BELLETEN-ANTALYA-2016": "'Mehmet Ali Paşa İsyanı'nın Antalya'ya Etkileri (1831-1833)', Belleten 80/289 (Aralık 2016), belleten.gov.tr/tam-metin/284/tur — yazar adı okunan özette çıkmadı: yazar BULUNAMADI. Yalnız Antalya bölümü okundu; başka yer için makalede yok.",
+    "ALTUNDAG-1945": "Şinasi Altundağ, Kavalalı Mehmet Ali Paşa İsyanı: Mısır Meselesi 1831-1841, I. Kısım, TTK 1945 (3. bs. 2021) — TTK sitesindeki PDF yalnız kapak+içindekiler (17 sayfa); GÖVDE OKUNAMADI. Yalnız içindekilerdeki tarihler kullanıldı (Halep'in Zaptı 15 Temmuz 1832 · Beylan 29 Temmuz 1832 · Konya 21 Aralık 1832). Sayfa atıfları (s.139) yalnız Üzüm-Özlü'nün dipnotundan aktarıldı — kitaptan doğrulanmadı."
+  },
+
+  "ozet": {
+    "H-0013": "Adana + Tarsus: ALINDI (Belen'den sonra, Ağustos 1832 başı; gün kaynakta yok). Kilis, Antep: fiilen Mısır hâkimiyetinde (akademik kaynak) — ama TDV ile çelişki var. Maraş: TDV 'on dokuz aya yakın' der, atlas 8,5 yıl gösteriyor. İskenderun/Erzin/Payas/Yumurtalık: doğrudan tanıklık BULUNAMADI, Kütahya kapsamında (dolaylı). Azez: BULUNAMADI.",
+    "H-0014": "Konya'ya GİRDİ (18 Kasım 1832, Gencer) — ama Urfa'yı ALMADI: kaynak elçi gelişi ve Kütahya sonrası sınır dışında bir birlik der; TDV Urfa'yı yalnız 1839'da 'kısa süre' anar. Atlas Urfa'yı 1832-08-15→1841 Mısır gösteriyor: KAYNAKSIZ. Konya/Urfa'nın kopuk (eksklav) görünmesi: atlasın kendi kaydından kaynaklanıyor (aşağıda ölçüm).",
+    "H-0015": "Mersin/Silifke (İçil): Gülek'in düşmesinden (13 Eylül 1832) sonra Mısır mütesellimi atandı, iskeleler Mısır denetimine girdi; Kütahya kararında yalnız Adana muhassıllığı var (İçel ve Alaiye talep edilmişti, kararda anılmıyor); İçil'deki Mısır mütesellimliği Anadolu tahliyesiyle (Haziran 1833) bitti. Ulukışla: Gülek'ten sonra yönelinen yer, dolaylı. Karapınar: BULUNAMADI. Birecik/Suruç/Cerablus: Urfa yoluyla alınmadı (Urfa alınmadığı için); Birecik Osmanlı tarafı olarak anılıyor. Erzin/İskenderun/Azez/Yumurtalık: H-0013'teki gibi.",
+    "H-0019": "Han Yûnus atlamış DEĞİL — noktanın Mısır dönemi kaydı yok, Gazze'nin var. Han Yûnus'a özel kaynak BULUNAMADI; Gazze'ye giden kara yolu üstünde ve Gazze'nin 25 km güneyinde. Kaynaklı tek hüküm Gazze'nin (Kasım 1831).",
+    "H-0025": "Kütahya düzenlemesi (3-6 Mayıs 1833): Şam ve Halep eyaletleri Mehmed Ali'ye, Adana muhassıllığı İbrahim'e. Urfa DAHİL DEĞİL (Kutluoğlu: Urfa, Maraş, Antep 'eyaletlerin sınırları dışında'). Maraş DAHİL DEĞİL. Antep: tartışmalı — Mısır 'Halep'e bağlı' iddiasıyla ilhak etti. Kilis, Halep DAHİL. Payas, İskenderun, Erzin, Dörtyol, Yumurtalık: Halep eyaleti / Adana muhassıllığı kapsamında (dolaylı).",
+    "H-0010": "Şema önerisi aşağıda ('h0010_sema'): YENİ ALAN GEREKMİYOR — `v:` içindeki mevcut `statu` alanına yeni değer `asi`; renk hattı 13 Eylül'de kurulmuş (`statu:\"gevsek\"` + `himaye:true` → #e8a2aa)."
+  },
+
+  "yerler": [
+    {
+      "yer": "Halep",
+      "madde": "H-0025",
+      "bugunku_kayit": "v: 1832-06-25 → 1841-02-25 (Mısır/İbrâhim Paşa, kid misir-kavalali). Kronoloji: 1832-06-25 'Halep ele geçirildi' gun:'Haziran 1832'.",
+      "kaynagin_dedigi": "TDV ibrahim-pasa-kavalali: 'Halep'i ele geçirdikten sonra (15 Temmuz)' ve Humus 8 Temmuz'dan SONRA. TTK içindekiler: 'Halep'in Zaptı (15 Temmuz 1832)'. Gencer 2016: Humus 9 Temmuz 1832; Halepliler kapıyı Hüseyin Paşa'ya kapattı, Halep direnmeden Mısır'a geçti. Kütahya: Halep eyaleti Mehmed Ali'ye tevcih (Kutluoğlu, Üzüm-Özlü). TDV halep: 'şehir 1840'a kadar Mehmed Ali Paşa'nın hâkimiyetinde kaldı'.",
+      "oneri": "v.f 1832-06-25 → 1832-07-15 (kronoloji maddesi t ve gun aynı anda: '15 Temmuz 1832'). Şu an Halep, Humus'tan (1832-07-08) ÖNCE sıralanıyor — Humus Halep'in güneyinde ve ondan sonra alınmış; sıra ters.",
+      "ters_yon": "Halep'i 20 gün geciktirmek Hama/Humus (Mısır, 06-15 ve 07-08) ile Halep arasında geçici bir Osmanlı boşluğu bırakır — DOĞRU olan bu (Halep 15 Temmuz'a kadar Osmanlı). Antep/Kilis/Payas 07-29 zaten sonra.",
+      "kaynak": "TDV ibrahim-pasa-kavalali (gövde okundu) · TTK-Altundağ içindekiler · GENCER-2016 [56],[93]",
+      "durum": "TDV ile atlas ÇELİŞİYOR; TDV esas"
+    },
+    {
+      "yer": "Adana",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "v: 1832-07-29 → 1841-02-25 (Mısır/İbrâhim Paşa)",
+      "kaynagin_dedigi": "ALINDI. Gencer 2016: Belen sonrası 'Mısır ordusu Adana'ya doğru ilerlemekteydi; Abbas Paşa komutasındaki birliklerin öncüleri Adana'ya ulaşınca Osmanlı ordusunda çözülmeler ... İbrahim Paşa Adana ve Tarsus'a kendi mütesellimlerini atayarak buraların yönetimini ele geçirmişti'; aynı bağlamda Hüseyin Paşa hazineyi 3 Ağustos'ta Konya'ya nakletmişti. GÜN VERİLMİYOR. TDV adana: '1833-1840 yıllarında ... İbrâhim Paşa'nın eline geçmiş, Londra Antlaşması ile 1841'de tekrar Osmanlı Devleti'ne bağlanmıştır' (bu, muhassıllık tevcihini tarihliyor — 3-6 Mayıs 1833 — fiilî alma 1832'dir; iki ayrı olay, çelişki değil). Kutluoğlu: Adana muhassıllık olarak 3 Mayıs 1833'te İbrahim'e tevcih edildi, 5-6 Mayıs fermanı; 14 Mayıs'ta 'Adana'nın kendisine terkedildiği' haberi.",
+      "oneri": "KORU (Adana Mısır'dadır). 1832-07-29 Belen'in GÜNÜdür, Adana'nın değil — kaynak yalnız 'Belen sonrası, Ağustos 1832 başı' der; kesinlik:{f:'ay'} + not. (Web arama özetindeki '31 Temmuz' Vikipedi tabanlıydı, akademik metinde bulunamadı — kullanılmadı.) Bitiş 1841-02-25: kaynak günü BULUNAMADI (TDV yıl verir; kavalali-mehmed-ali: 24 Mayıs 1841 irsî ferman farklı bir olay).",
+      "ters_yon": "Başlangıcı 1-5 gün oynatmak komşu Tarsus/Payas/Erzin ile senkronu bozmaz; asıl risk Mersin/Silifke (aşağıda) — Adana'ya yapışık Mısır 1841'e uzatılırsa İçel'e sızar, o yüzden Adana'nın komşuları ayrı ayrı ölçüldü.",
+      "kaynak": "GENCER-2016 · KUTLUOGLU-1997 s.~283-284 · TDV adana [111] · TDV ibrahim-pasa-kavalali",
+      "durum": "kayıt DOĞRU, gün kaynaksız"
+    },
+    {
+      "yer": "Tarsus",
+      "madde": "H-0013",
+      "bugunku_kayit": "v: 1832-07-29 → 1841-02-25",
+      "kaynagin_dedigi": "ALINDI — Adana ile birlikte (Gencer: 'Adana ve Tarsus'a kendi mütesellimlerini atayarak'). TDV tarsus: '1833-1840 yılları arasında Mısır Valisi Mehmed Ali Paşa ... işgaline uğradı'; kale 1833'te tahrip edildi. Gün YOK.",
+      "oneri": "KORU; Adana ile aynı not (gün Belen sonrası, kesinlik ay).",
+      "ters_yon": "Tarsus Gülek yolunun güney başı — Mısır kalması Tarsus–Ulukışla arasında (Pozantı/Gülek noktasız) kopukluğun sebebi Ulukışla kaydının yokluğu.",
+      "kaynak": "GENCER-2016 · TDV tarsus [70],[76]",
+      "durum": "kayıt DOĞRU, gün kaynaksız"
+    },
+    {
+      "yer": "Kilis",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "v: 1832-07-29 → 1841-02-25. kaynak alanı: 'Halep 15 Temmuz 1832, Belen 29 Temmuz 1832 (TDV) ... Bitiş külliyatın Halep günü'.",
+      "kaynagin_dedigi": "ALINDI (Halep eyaleti livâsı → Kütahya'da Halep Mısır'a). TDV kilis: 'Halep eyaletine bağlı livâlardan' ; 'Mısır kuvvetlerinin çekilmesinden sonra kışla harap olmuştur'. ⚠ TDV kilis [73] '1831'de ... İbrâhim Paşa tarafından işgal edilmiştir' der — 1831 Kasım'da ordu henüz Yafa'ya çıkıyordu (TDV ibrahim); Halep 15 Temmuz 1832'de düştü: TDV KENDİYLE ÇELİŞİYOR, yıl hatalı okunuyor (bildirildi, §4 tuzak ⑥). Gencer: Belen'den SONRA 'Kilis civarında bulunan Halep Valisi Mehmet Paşa'nın komutasındaki askerler isyan etmeye başlamışlardı', vali Malatya tarafına çekildi → Kilis 29 Temmuz'da değil, sonrasında.",
+      "oneri": "KORU; v.f 1832-07-29 alt sınırdır (Belen günü), kaynaklı Kilis günü BULUNAMADI → kesinlik:{f:'ay'} ve `kaynak:` metnine 'TDV kilis 1831 cümlesi hatalı okunur, kullanılmadı'.",
+      "ters_yon": "Kilis Mısır iken Azez/Cerablus Osmanlı görünürse Halep–Kilis arasında ada olur (Azez ölçümüne bak).",
+      "kaynak": "TDV kilis [52],[73],[75] · GENCER-2016 [126],[129] · Üzüm-Özlü 2025",
+      "durum": "kayıt DOĞRU, gün kaynaksız; TDV içi çelişki bildirildi"
+    },
+    {
+      "yer": "Antep",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "v: 1832-07-29 → 1841-02-25. Atlasın kaynak alanı: 'TDV gaziantep gövdesinde Mısır dönemi cümlesi BULUNAMADI (167 paragraf tarandı)'.",
+      "kaynagin_dedigi": "🔴 O 'bulunamadı' YANLIŞ: TDV gaziantep [115] 'Şehir, 1839 Haziranında kısa bir süre için Mısır Valisi Mehmed Ali Paşa kuvvetleri tarafından işgal edildi' cümlesi VAR (bir önceki çıkarıcı kaçırmış; §4 tuzak ⑦). AMA bu cümle 1832-39'u anlatmaz. Akademik kaynaklar: Üzüm-Özlü 2025: 'From 1832 until after the Battle of Nizip, Ayıntab remained under the rule of Kavalalı'; 'Ayıntab'ın Halep'e bağlı olduğu iddiasıyla Mısır tarafından ilhak edilmiştir (Altundağ s.139'a atıf)'; askerlik uygulaması 1835 belgeleri; Kütahya'da 'sınır kenti'. Kutluoğlu (s.~284-285): İbrahim 'bazı askeri birliklerini kendi uhdesine tevcih olunan eyaletlerin sınırları dışında bulunan Urfa, Maraş ve Antep'te bıraktı' → Antep hukuken düzenlemenin DIŞINDA. Poujoulat'a (Üzüm-Özlü dipnot 54): Mısır'dan önce Antep Maraş Paşalığı'na bağlıydı.",
+      "oneri": "KORU (fiilî Mısır hâkimiyeti iki akademik kaynakla destekli) ve `kaynak:` metnini düzelt: 'TDV gaziantep 1839 Haziran işgal cümlesi var; 1832-39 için Üzüm-Özlü 2025 · Kutluoğlu 1997'. Kaynak çatışması BİLDİRİLİR: TDV (yalnız 1839 kısa işgal) ↔ Üzüm-Özlü (1832'den). Öneri: kesinlik:{f:'ay'}; `k:` etiketine 'fiilî' eklenmesi 1.MURAT'ın kararı.",
+      "ters_yon": "Antep'i Osmanlı'ya çevirmek Kilis (Mısır) ile Birecik (Osmanlı) arasına sıkıştırır ve TDV'nin 'kısa süre' cümlesini tek kaynak yapar — akademik iki kaynağa aykırı; korumak daha az riskli.",
+      "kaynak": "TDV gaziantep [115] · UZUM-OZLU-2025 [58],[95],[230],[231] · KUTLUOGLU-1997 s.~284-285",
+      "durum": "TDV ↔ akademik ÇELİŞKİ; karar 1.MURAT"
+    },
+    {
+      "yer": "Maraş",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "v: 1832-07-29 → 1841-02-25 (8 yıl 7 ay)",
+      "kaynagin_dedigi": "TDV kahramanmaras [158]: 'Maraş 1833'te Kavalalı İbrâhim Paşa'nın işgaline uğradı ve on dokuz aya yakın onun idaresinde kaldı.' Kutluoğlu: Anadolu tahliyesi (Mayıs-Haziran 1833) sırasında İbrahim 'Urfa, Maraş ve Antep'te' birlik bıraktı; bunlar 'eyaletlerin sınırları dışı'. TDV kucukaliogullari [90]: Mustafa Bey 1834'te İbrahim'in ordusuna karşı koyamadı ve 'Maraş tarafına kaçtı' — Maraş 1834'te Mısır denetimi dışında bir sığınak. Üzüm-Özlü: Haziran 1839'da Ayıntablılar Maraş'a çekildi ve orada Mısır askerleriyle çarpıştı — Maraş 1839'da Osmanlı elinde.",
+      "oneri": "KAYIT KAYNAKLA UYUŞMUYOR: 1832-07-29 başlangıç yok (TDV 1833), 1841 bitiş yok (TDV ~19 ay). İki seçenek: (A) v dönemini 1833'ten başlayan ~19 aylık pencereye indir — f kesinlik:{f:'yil'}, t GÜN BULUNAMADI (türetilen sayı alıntıya yazılmaz); (B) Maraş'ı tamamen çıkar (hukuken Kütahya dışı, 1834'te Mısır dışı sığınak). Önerim (A) — TDV birincil ve tarihli bir cümle veriyor.",
+      "ters_yon": "Maraş'ı Osmanlı'ya çevirmek Antep (Mısır) ile Elbistan/Malatya (Osmanlı) arasında Maraş'ı ada bırakmaz (Maraş kuzeyde ve doğuda Osmanlı komşusuyla sürekli); 1832-33 arası Osmanlı gösterilmesi Belen sonrası harekâtın Maraş'a uzanmadığını doğru yansıtır.",
+      "kaynak": "TDV kahramanmaras [158] · TDV kucukaliogullari [89],[90] · KUTLUOGLU-1997 · UZUM-OZLU-2025 [320],[322]",
+      "durum": "atlas KAYNAKSIZ UZUN; karar 1.MURAT (A/B)"
+    },
+    {
+      "yer": "Urfa",
+      "madde": "H-0014 / H-0015 / H-0025",
+      "bugunku_kayit": "v: 1832-08-15 → 1841-02-25 (Mısır/İbrâhim Paşa). Urfa dosyası kaynak alanı yalnız 'TDV sanliurfa (200, içerik doğrudan okundu)' — Mısır dönemi için gün/dayanak yazılmamış.",
+      "kaynagin_dedigi": "ALINMADI (sürekli değil). TDV sanliurfa [147]: '1839'da Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın KISA SÜRE kontrolü altına giren Urfa' — tek tarihli cümle. Gencer [201]: 'Urfa'dan Diyarbakır'dan İbrahim Paşa'nın karargâhına elçiler geliyordu' (biat/elçi; fetih değil); Rumkale 'ele geçirilememişti' [97]. Kutluoğlu: Kütahya sonrası Urfa 'eyaletlerin sınırları dışında', orada bırakılan birlik var (Mayıs-Haziran 1833). Şanda 2024 (Urfa sancağı, Külliyat) Mısır dönemini ANMIYOR (bulunamadı). '1832-08-15'in dayanağı BULUNAMADI.",
+      "oneri": "v dönemini KALDIR (1832-08-15→1841 kaynaksız ve TDV ile ~8 yıl fark). 1839 'kısa süre' için gün/ay BULUNAMADI — pencere uydurulmaz (1839 içinde Nizip sonrası olması çıkarımdır, halka alınmaz). Gerekirse yalnız kronolojiye bilgi maddesi: '1839 — Urfa kısa süre Mısır kontrolüne girdi (TDV sanliurfa)', kırılmasız.",
+      "ters_yon": "Urfa Osmanlı'ya dönünce komşuları Birecik, Suruç, Rakka, Harran hep Osmanlı — eksklav çözülür, yeni sınır sorunu doğmaz. Tersi (Urfa Mısır kalırsa) Antep/Kilis Mısır ile arasında Birecik-Suruç Osmanlı şeridi yüzünden kopuk ada olur — H-0014 şikâyetinin kendisi.",
+      "kaynak": "TDV sanliurfa [147] · GENCER-2016 [97],[201] · KUTLUOGLU-1997 s.~284-285 · SANDA-2024 (Külliyat, dergipark 4064500 — Mısır dönemi yok)",
+      "durum": "atlas KAYNAKSIZ; KALDIRILMASI önerilir"
+    },
+    {
+      "yer": "Konya",
+      "madde": "H-0014",
+      "bugunku_kayit": "v: 1832-11-21 → 1833-06-30 (k:'Mısır ordusu (işgal)', kid YOK). Kronoloji: 1832-11-21 'Mısır ordusu Konya'ya girdi' gun:'Kasım 1832'; 1832-12-21 Konya Meydan Muharebesi.",
+      "kaynagin_dedigi": "GİRDİ. Gencer [377]: 'İbrahim Paşa 18 Kasım 1832'de Konya'ya girmişti' (BOA belge atıflı); [239] 'hiçbir direnişle karşılaşmadan Konya'yı ele geçirdiği'. TDV konya [189]: 'Konya'yı işgal etti (21 Aralık 1832)' — bu, MUHAREBE gününü işgal günü yerine koyar (TDV ibrahim-pasa-kavalali de 21 Aralık'ı yalnız savaşa bağlar; Konya'ya girişin gününü vermez). Bitiş: Gencer [656]-[659]: Mayıs başında geri çekilme, Mayıs sonunda Kayseri boşaltıldı, 'Haziran ayının ortalarına doğru Mısır kuvvetlerinin tamamı Gülek Boğazı'nı geçerek Anadolu'dan ayrılmış'. Kutluoğlu: Anadolu tahliyesi 'yaklaşık bir buçuk ayda tamamlandı'.",
+      "oneri": "v.f 1832-11-21 → 1832-11-18 (Gencer, BOA). TDV'nin 21 Aralık'ı muharebe günüdür; iki kaynak ayrı olayı tarihler — bildirildi, karar 1.MURAT (kaynak çelişkisi görünümü: TDV konya cümlesi 'işgal'). Bitiş 06-30: 'Haziran ortasından önce' üst sınırdır, KORUNABİLİR; kesinlik:{t:'ay'} eklenmesi önerilir. Kronoloji maddesi t 1832-11-21 → 1832-11-18 (Değişmez 2 senkronu için AYNI gün).",
+      "ters_yon": "18 Kasım–21 Aralık arası Konya Mısır'da görünür, Osmanlı ordusu (Reşid Paşa, 7 Aralık'ta Akşehir'de) Konya'nın kuzeyinde durur — doğru. Karaman/Kütahya günleri ayrı (aşağıda).",
+      "kaynak": "GENCER-2016 [239],[377],[656]-[659] · TDV konya [189] · TDV ibrahim-pasa-kavalali · KUTLUOGLU-1997 [585]",
+      "durum": "atlas 3 gün ERKEN (kaynak: 18 Kasım); TDV ile ayrı-olay çelişkisi bildirildi"
+    },
+    {
+      "yer": "Karaman",
+      "madde": "H-0014 / H-0015",
+      "bugunku_kayit": "v: 1832-11-21 → 1833-06-30 (Konya'nın günü devralınmış)",
+      "kaynagin_dedigi": "Gencer [404]-[405]: Konya Savaşı SONRASI 'muzaffer Mısır kuvvetleri dört bir koldan Anadolu'ya yayılmaya başlamıştı. Mısırlılar Karaman'a girdikten sonra Larende Müftüsü Hasip Efendi'nin çabalarıyla Bozkır, Aladağ, Hadım ve Belviran kazalarının tamamı Mısırlılara tabi olmuştu.' Yani Karaman Konya'nın 18 Kasım'ı değil, 21 Aralık SONRASI (gün yok). TDV karaman: Mısır dönemi cümlesi BULUNAMADI.",
+      "oneri": "v.f 1832-11-21 → Konya Savaşı sonrası: alt sınır 1832-12-21, gün BULUNAMADI → kesinlik:{f:'ay'}, f 1832-12-21; kaynak Gencer. (Komşu-günü devralma yasak: Konya'nın günü kendi kaynağına dayanıyor ama Gencer Karaman'ı açıkça SONRAYA koyar → devralma şartı tutmuyor.)",
+      "ters_yon": "Karaman'ı Aralık sonuna kaydırmak Konya–Karaman–Silifke hattında Konya (Mısır) ile Karaman (Osmanlı) arasında 33 günlük bir ada değil (komşu, Konya'nın petek sınırı içinde kalır); riski düşük.",
+      "kaynak": "GENCER-2016 [404],[405]",
+      "durum": "atlas ERKEN (gün)"
+    },
+    {
+      "yer": "Kütahya",
+      "madde": "H-0014 (sınır-dışı gözlem)",
+      "bugunku_kayit": "v: 1833-02-02 → 1833-06-30",
+      "kaynagin_dedigi": "TDV ibrahim-pasa-kavalali: 'Konya Muharebesi'nden hemen sonra Kütahya'ya kadar ilerleyen İbrâhim Paşa'; 3 Şubat 1833 tarihli mektup. Üzüm-Özlü [209]: 'Konya'dan hareketle hiçbir direniş ile karşılaşmadan kısa sürede Kütahya'yı ele geçirmiştir' — gün yok. Gencer: Kütahya'da müzakere (Mart-Mayıs 1833).",
+      "oneri": "Kütahya'ya varış günü BULUNAMADI (kaynaklar 'Şubat 1833' civarı der: 02-02 uydurma kesinliktir) → kesinlik:{f:'ay'}. Bitiş 1833-06-30 aynı tahliye notu.",
+      "ters_yon": "—",
+      "kaynak": "TDV ibrahim-pasa-kavalali · UZUM-OZLU-2025 [209] · GENCER-2016",
+      "durum": "gün kaynaksız"
+    },
+    {
+      "yer": "Mersin",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1671-01-01→1918-10-30, Osmanlı doğrudan)",
+      "kaynagin_dedigi": "Gencer [172]-[178]: 13 Eylül 1832'de Gülek Boğazı ele geçirildi; 'İbrahim Paşa bu muvaffakiyetten sonra Abdülhalimoğlu Mehmet'i İçil Sancağı'na mütesellim olarak atamış, böylece sahildeki bütün iskeleler de Mısırlıların denetimine girmişti.' Gencer [406]-[408]: Konya Savaşı sonrası İçil mütesellimi Mehmet Sadık Bey Ermenek'te savunmaya çalıştı, ahali desteği bulamayınca çekildi. Kutluoğlu [403],[432],[481]: Mehmed Ali Adana + İçel + Alaiye'yi istedi; Kütahya kararında yalnız ADANA muhassıllığı geçer ([548]-[553]); İçel ve Alaiye TALEP edilmişti ([236],[403]) ama kararda anılmaz, yalnız 'İçel ve Alaiye sancaklarından kesilmiş ve satın alınmış kerestenin nakli'ne izin verilir ([481]). İçel'in 'verilmediği' bu yüzden çıkarımdır, açık bir cümle DEĞİL. TDV mersin/icel: Mısır dönemi cümlesi BULUNAMADI.",
+      "oneri": "Mısır kaydı EKLE, KISA: f alt sınır 1832-09-13 (Gülek günü; mütesellim ataması sonrası, gün BULUNAMADI, kesinlik ay) → t Anadolu tahliyesi, Haziran 1833 ortası (Gencer, kesinlik ay). 1841'e uzatma kaynakla DESTEKLENMEZ (Kütahya kararında yalnız Adana var; İçel için Mısır idaresinin 1841'e kadar sürdüğünü söyleyen kaynak bulunamadı).",
+      "ters_yon": "Mersin'i 1841'e kadar Mısır bırakmak Tarsus (Mısır) ile Mersin arasını kapatır ama Kütahya kararında yalnız Adana'nın geçmesiyle çelişir; kısa pencere Tarsus–Adana grubuna 1833'e kadar bağlar, sonra Mersin Osmanlı olur ve Tarsus'un GÜNEYİNDE bir Osmanlı şeridi doğar — bu, kararda yalnız Adana'nın geçmesinin doğal sonucudur, hata değil.",
+      "kaynak": "GENCER-2016 [172]-[178],[406]-[408] · KUTLUOGLU-1997 [403],[432],[481]",
+      "durum": "eksik kayıt (koridor); pencere KISA"
+    },
+    {
+      "yer": "Silifke",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1473-01-01→1920-04-23)",
+      "kaynagin_dedigi": "İçil sancağının merkezi (TDV icel [4],[19]: Silifke merkezli güney kısım İç İl). Mersin ile aynı hüküm: Gencer [178] İçil mütesellimi, sahil iskeleleri Mısır denetiminde; Kütahya kararında İçel anılmaz (çıkarım); Fransa'nın da Adana, İçel, Silifke ve Alaiye'nin terkine razı olmayacağı yazıldı (Kutluoğlu [432], 29 Mart 1833).",
+      "oneri": "Mersin ile AYNI pencere (alt sınır 1832-09-13, üst ~Haziran 1833 ortası; kesinlik ay). Doğrudan 'Silifke'nin alındığı' cümlesi BULUNAMADI — yalnız İçil sancağının Mısır mütesellimi var; Silifke sancak merkezi olduğu için dolaylı.",
+      "ters_yon": "Silifke Mısır'da olunca Alanya/Anamur (d: Osmanlı) ile arasında Mısır şeridi biter — Alaiye de kararda anılmıyor; Anamur/Alanya Mısır mütesellimi kaynağı BULUNAMADI (Antalya makalesinde yalnız Antalya).",
+      "kaynak": "TDV icel [4],[19] · GENCER-2016 [178] · KUTLUOGLU-1997 [432]",
+      "durum": "eksik kayıt; dolaylı"
+    },
+    {
+      "yer": "Ulukışla",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1468-01-01→1920-04-23)",
+      "kaynagin_dedigi": "Gencer [218]: 'Gülek Boğazı'nı ele geçirdikten sonra Ulukışla'ya yöneldiği duyulduğu anda Osmanlı paşaları ve bölgedeki mütesellimler görev yerlerini bırakıp Konya'ya çekilmişlerdi'; [220] Ulukışla yakınındaki Maden-i Hümayun'u 'Ulukışlalı Ahmet' ele geçirdi; [180] paşalar Ereğli'ye ve Ulukışla'ya çekilmişti. 'Ulukışla ALINDI' cümlesi yok — yönelme + çekilen mütesellimler + maden.",
+      "oneri": "Kaynak DOLAYLI: 'yol üzerinde, mütesellimler kaçtı' — bayrak kuralı (örtülü/çıkarım halka almaz) için YETMEZ; v: kaydı için (petek) 1.MURAT'ın hükmü. Eklenirse pencere: f ≥ 1832-09-13, t ~1833-06 ortası (Mersin/Silifke ile aynı).",
+      "ters_yon": "Ulukışla Mısır'a eklenmezse Tarsus (Mısır) – Ulukışla (Osmanlı) – Karapınar/Karaman (Mısır) sırası: Konya–Adana koridoru KESİK kalır (H-0014 şikâyeti). Eklenirse Niğde (Osmanlı, Ulukışla'nın kuzeyi) komşu kalır — kaynak Niğde'nin alındığını söylemez; iki ucu ölçüldü, Niğde'ye dokunulmadı.",
+      "kaynak": "GENCER-2016 [180],[218],[220]",
+      "durum": "dolaylı; koridor kopukluğunun bir sebebi"
+    },
+    {
+      "yer": "Karapınar",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1468-01-01→1920-04-23)",
+      "kaynagin_dedigi": "BULUNAMADI. Gencer, Üzüm-Özlü, Kutluoğlu, TDV karapinar — hiçbirinde anılmıyor. Coğrafî not (kaynak değil): Konya–Ereğli–Gülek ana yolunun Konya ile Ereğli arasında olduğu bilinir; İbrahim'in Karapınar'dan geçtiğine dair tanıklık yok.",
+      "oneri": "Kaynaksız Mısır kaydı EKLENMEZ. Koridor kopukluğu için Karapınar + Ereğli (Konya) — ikisi de kaynaksız — yerine kaynaklı çare: Ereğli (Konya) noktası atlasta HİÇ YOK (ölçüldü: `Ereğli` adıyla yalnız Karadeniz Ereğli var), Pozantı/Gülek de noktasız → bu bölge en yakın peteğe emiliyor. Ölçülemedi: petek çıktısında koridorun kesik mi emilmiş mi görüldüğünü bu oturum ölçmedi (koşu kilitli).",
+      "ters_yon": "Karapınar'a kaynaksız Mısır yazmak koridoru KAĞIT ÜZERİNDE kapatır ama hatayı öbür yöne taşır: kaynağın söylemediği bir toprak devri.",
+      "kaynak": "bulunamadı (TDV karapinar; Gencer; Kutluoğlu; Üzüm-Özlü)",
+      "durum": "BULUNAMADI"
+    },
+    {
+      "yer": "Payas",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "v: 1832-07-29 → 1841-02-25",
+      "kaynagin_dedigi": "TDV cebelibereket [6]: 'Bölgede daha 1568 yılından itibaren Halep eyaletine bağlı, merkezi Payas olan Üzeyr sancağı bulunuyordu' → Kütahya'da Halep eyaleti Mısır'a verildi. TDV kucukaliogullari [89]-[90]: Payas çevresi âyanı Küçükalioğulları'ndan Mustafa Bey '1832-1840 yıllarında Kavalalı İbrâhim Paşa tarafını tutmayan Çukurova beylerindendi; 1834'te İbrâhim Paşa'nın onun üzerine gönderdiği orduya karşı koyamadı'. Bu, Payas çevresinin Mısır denetimini DOLAYLI doğrular. 1568 cümlesi 1833'teki bağlılığı ayrıca doğrulamaz (süreklilik varsayımı).",
+      "oneri": "KORU. Gün: Belen günü (07-29) alt sınır, kaynaklı Payas günü BULUNAMADI → kesinlik ay.",
+      "ters_yon": "Payas Mısır'da iken kuzeyde Osmaniye/Belen (Cebelibereket sancağı, aynı Halep eyaleti) atlasta nokta yok → en yakın peteğe emilir (ölçülmedi, koşu kilitli).",
+      "kaynak": "TDV cebelibereket [6],[9],[26],[27] · TDV kucukaliogullari [89],[90]",
+      "durum": "kayıt DOĞRU (dolaylı), gün kaynaksız"
+    },
+    {
+      "yer": "İskenderun",
+      "madde": "H-0013",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-08-24→1918-10-30)",
+      "kaynagin_dedigi": "TDV iskenderun [32]: 'İskenderun ... Halep şehrinin iskelesi haline geldi' (XVI-XVII. yy); Mısır dönemi cümlesi BULUNAMADI. Gencer [99]: Belen'de yenilen Osmanlı birlikleri 'İskenderun'a doğru kaçışmaya başlamışlardı'. Üzüm-Özlü [229] (Kutluoğlu s.284'e atıf): Kütahya sonrası 'Adana, Tarsus, Ayıntab, Kilis, Antakya bölgesi İbrahim Paşa'nın hakimiyetinde kalmış'. Halep–Antakya–İskenderun yolu Belen'den geçer (TDV iskenderun [4]).",
+      "oneri": "Mısır kaydı EKLENİR (Halep'in iskelesi, Halep eyaleti Mısır'da; Antakya bölgesi kapsamı) — alt sınır 1832-07-29, gün BULUNAMADI (kesinlik ay), bitiş Halep ile aynı. Doğrudan 'İskenderun alındı' cümlesi yok → dolaylı.",
+      "ters_yon": "İskenderun Osmanlı bırakılırsa Antakya (v var) ile Payas (v var) arasında Osmanlı ada — kaynağın kendi kapsamına (Antakya bölgesi) ters.",
+      "kaynak": "TDV iskenderun [4],[32] · GENCER-2016 [99] · UZUM-OZLU-2025 [229]",
+      "durum": "eksik kayıt; dolaylı"
+    },
+    {
+      "yer": "Erzin",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-08-24→1920-04-23; m: Adana)",
+      "kaynagin_dedigi": "BULUNAMADI (doğrudan). TDV'de madde yok (302); TDV arama başlık sayısı 0. Belen–Payas–Çukurova yolu üstünde ve Payas kazası/Adana çevresi (TDV cebelibereket [9],[27]: Payas ve Osmaniye kazaları; sonraki dönem). Gülek güneyi 'Çukurova toprakları' Mısır'da kaldı (Üzüm-Özlü [229], Kutluoğlu s.284).",
+      "oneri": "Kaynaklı tarih BULUNAMADI; kapsam dolaylı ('Çukurova' + Halep eyaleti Üzeyr sancağı). Eklenmesi 1.MURAT hükmü; eklenirse Payas ile aynı pencere.",
+      "ters_yon": "Erzin/Dörtyol Payas ile Adana arasında; Osmanlı kalırlarsa İskenderun körfezi kıyısında Payas (Mısır) – Erzin/Dörtyol (Osmanlı) – Adana (Mısır) arasında iki ada oluşur.",
+      "kaynak": "bulunamadı (doğrudan) · dolaylı: TDV cebelibereket · UZUM-OZLU-2025 [229]",
+      "durum": "BULUNAMADI (doğrudan)"
+    },
+    {
+      "yer": "Dörtyol",
+      "madde": "H-0025",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (m: Adana)",
+      "kaynagin_dedigi": "BULUNAMADI (doğrudan). TDV kucukaliogullari (madde tanımı): 'Hatay, Dörtyol ve Payas kesiminde ortaya çıkan âyan ailesi'; Mısır'a karşı 1834 çatışması Payas çevresinde (yukarıda).",
+      "oneri": "Erzin ile aynı.",
+      "ters_yon": "Erzin ile aynı.",
+      "kaynak": "TDV kucukaliogullari (tanım),[89],[90]",
+      "durum": "BULUNAMADI (doğrudan)"
+    },
+    {
+      "yer": "Yumurtalık",
+      "madde": "H-0013 / H-0025",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (m: Adana)",
+      "kaynagin_dedigi": "BULUNAMADI. TDV arama: 0 madde başlığı, 11 içerik eşleşmesi (hiçbiri Mısır dönemi çıkarılmadı). TDV cebelibereket [27]: sancağın eski merkezi Payas'ın 'Yumurtalık adıyla bir nahiyesi' (XIX. yy sonu bağlamı).",
+      "oneri": "Kaynaklı tarih yok; Payas nahiyesi/Adana sahili olarak dolaylı. Eklenmesi 1.MURAT hükmü.",
+      "ters_yon": "Yumurtalık Adana (Mısır) ile Payas (Mısır) arasında kıyıda; Osmanlı kalırsa küçük ada.",
+      "kaynak": "bulunamadı · TDV cebelibereket [27]",
+      "durum": "BULUNAMADI"
+    },
+    {
+      "yer": "Azez (A'zâz)",
+      "madde": "H-0013 / H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-08-24→1918-10-30; m: Halep)",
+      "kaynagin_dedigi": "BULUNAMADI. TDV'de madde yok, başlık araması 0; akademik kaynaklarda anılmıyor. Halep eyaleti Mısır'a verildi (Kutluoğlu, Üzüm-Özlü) — Azez'in o eyalette olduğunu gösteren kaynak da BULUNAMADI (TDV halep gövdesinde sancak listesi yok).",
+      "oneri": "Ölçülemedi; kaynaklı hüküm yok. Atlasın kendi `m:'Halep'` alanı dayanak sayılmaz (atlas referans değil).",
+      "ters_yon": "Azez Halep ile Kilis'in arasında; Osmanlı kalırsa Mısır'ın ortasında ada.",
+      "kaynak": "bulunamadı",
+      "durum": "BULUNAMADI"
+    },
+    {
+      "yer": "Cerablus",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-08-24→1918-10-30; m: Halep)",
+      "kaynagin_dedigi": "BULUNAMADI (TDV arama 1 içerik eşleşmesi, başlık 0). Urfa yoluyla alınıp alınmadığı: Urfa Mısır'a fiilen geçmediği için (yukarıda) o yol Mısır'ın yürüyüş güzergâhı değil.",
+      "oneri": "Kaynaksız; ekleme YOK.",
+      "ters_yon": "—",
+      "kaynak": "bulunamadı",
+      "durum": "BULUNAMADI"
+    },
+    {
+      "yer": "Suruç",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-08-24→1920-04-23)",
+      "kaynagin_dedigi": "BULUNAMADI. TDV arama: 'Suruç' başlığında ilgisiz madde (Nâciye b. Cündeb). Urfa sancağı ilçesi; Urfa fiilen Mısır'a geçmediği için Suruç da geçmemiş kabul edilir (dolaylı).",
+      "oneri": "KORU (Osmanlı).",
+      "ters_yon": "Urfa kaldırılınca Suruç–Urfa bütünlüğü korunur.",
+      "kaynak": "bulunamadı · dolaylı: TDV sanliurfa [147]",
+      "durum": "KORU"
+    },
+    {
+      "yer": "Birecik",
+      "madde": "H-0015",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-08-24→1920-04-23; m: Urfa)",
+      "kaynagin_dedigi": "Üzüm-Özlü 2025 [292],[299]: Mısır askerlerinden saklananlar 'Birecik ve Rumkale taraflarına gitmiştir', 'Birecik, Nizip ve Barak'; [279]'da 'Bireciğe duhûl' geçen bir belge anılıyor (içeriği okunmadı); [292]/[299] Birecik'i Mısır'dan kaçanların yöneldiği yer olarak veriyor → Birecik Mısır yönetimi dışında bir sığınak (çıkarım). Gencer [97]: Rumkale ele geçirilemedi. TDV birecik: Nizip'in Birecik yakınında olduğu ([67]); başka Mısır cümlesi BULUNAMADI.",
+      "oneri": "KORU (Osmanlı). Nizip 24 Haziran 1839 sonrasını ayrıca ölçen kaynak BULUNAMADI.",
+      "ters_yon": "Birecik Mısır'a yazılırsa Urfa'nın tersine kaynağa aykırı bir toprak devri olur.",
+      "kaynak": "UZUM-OZLU-2025 [279],[292],[299] · GENCER-2016 [97] · TDV birecik [67]",
+      "durum": "KORU"
+    },
+    {
+      "yer": "Han Yûnus",
+      "madde": "H-0019",
+      "bugunku_kayit": "Mısır dönemi kaydı YOK (d: 1516-12-21→1917-11-07, y:'savas'; m: Kudüs). Komşu Gazze v: 1831-10-31→1841-02-25; El-Arîş v: 1805-07-03→1914 (Kavalalı hanedanı).",
+      "kaynagin_dedigi": "Han Yûnus'a özel kaynak BULUNAMADI (TDV'de madde yok; başlık araması 0; Gencer/Üzüm-Özlü/Kutluoğlu'nda anılmıyor). Rota: TDV gazze [63]: 'İbrâhim Paşa'yı Gazze üzerine (Kasım 1831) ve oradan da Akkâ'ya yolladı'; TDV ibrahim: sefer 2 Kasım 1831'de başladı, 8 Kasım'da Yafa'ya çıkıldı. Han Yûnus Mısır sınırı (El-Arîş) ile Gazze arasında (Gazze'nin ~25 km güneyi) ana kara yolunda — bu coğrafî bilgidir, kaynak cümlesi değil.",
+      "oneri": "H-0019'un teşhisi DOĞRU: atlasta El-Arîş (Mısır) – Han Yûnus (Osmanlı d) – Gazze (Mısır) sıralaması ADA üretir. Çare: Han Yûnus'a Gazze'nin (düzeltilmiş) Mısır penceresi verilir — kaynak hükmü değil, sıra tutarlılığıdır; kayda 'Han Yûnus'a özel tanıklık bulunamadı; Gazze'nin sancağında ve Ariş–Gazze yolunda' yazılmalı (1.MURAT hükmü). Not: Gazze/Yafa günü ayrıca düzelir (ek bulgu 1).",
+      "ters_yon": "Han Yûnus Osmanlı kalırsa Mısır (Ariş) ile Mısır (Gazze) arasında ada; Mısır'a eklenirse Ariş–Han Yûnus–Gazze kesintisiz. İki uç ölçüldü; öbür yöne hata taşınmaz (Han Yûnus'un doğusu Negev/Sina çölü, noktasız).",
+      "kaynak": "bulunamadı (Han Yûnus) · TDV gazze [63] · TDV ibrahim-pasa-kavalali",
+      "durum": "BULUNAMADI (özel kaynak); teşhis doğru"
+    }
+  ],
+
+  "ek_bulgular": [
+    {
+      "no": 1,
+      "konu": "Gazze/Yafa 1831-10-31; Kudüs/Nablus/Hayfa 1831-11-08 — gün kaynaksız",
+      "kaynagin_dedigi": "TDV ibrahim-pasa-kavalali: ordu 2 Kasım 1831'de harekete geçti; 8 Kasım'da Yafa'ya çıktı, 'Hayfa, Kudüs ve Nablus'u da zaptedip' Akkâ'yı 26 Kasım'da kuşattı. TDV gazze: 'Gazze üzerine (Kasım 1831)'. TDV hayfa: Hayfa 1831'de alındı.",
+      "oneri": "1831-10-31 hareketten ÖNCEDİR (Gazze, Yafa) → Gazze 'Kasım 1831' (kesinlik ay), Yafa 1831-11-08 (TDV: çıkarma günü); Kudüs/Nablus/Hayfa 8-26 Kasım arası, GÜN BULUNAMADI (Yafa ile aynı günü alamazlar) → kesinlik ay. Kapsam dışıdır; tek satır olarak bildirilir."
+    },
+    {
+      "no": 2,
+      "konu": "Kayıtsız Anadolu yerleri: Antalya (Ocak-14 Mayıs 1833), Aydın/Saruhan/İzmir, Kayseri çevresi, Ermenek",
+      "kaynagin_dedigi": "Belleten 80/289: 11 Ocak 1833'te Antalya'ya İbrahim'in mütesellimi İsmail Ağa geldi, halk bağlılık bildirdi; 14 Mayıs 1833'te Teke Sancağı'na yeni mutasarrıf atanıp Osmanlı hâkimiyeti yeniden sağlandı (~4 ay). Gencer [655]: Aydın'a Memiş Paşazade Süleyman Bey mütesellim atandı; [657] Kayseri Mayıs sonunda boşaltıldı.",
+      "oneri": "Bu yerlerin hiçbirinde atlasta 1830-45 arası v: kaydı yok (ölçüldü: Antalya, Kayseri, Ermenek, Aydın, İzmir, Niğde, Akşehir, Ilgın, Karahisâr-ı Sâhib, Uşak → hepsi boş). 'Mütesellim gönderildi' ≠ toprak devri sayılıp sayılmayacağı 1.MURAT/Emre hükmü; ölçüt önerisi: mütesellim atamasıyla yönetim fiilen el değiştirmişse (Gencer 'yönetimini ele geçirmişti') v: eklenir."
+    },
+    {
+      "no": 3,
+      "konu": "Konya–Adana koridorunun kopukluğu — mekanik sebep (H-0014, H-0015)",
+      "olcum": "Bugünkü v: kayıtlarında 1832-12 ile 1833-05 arasında Mısır'a bağlı olanlar: Adana grubu (Adana, Tarsus, Halep, Antakya, Kilis, Antep, Maraş, Payas, Urfa…) ve Anadolu grubu (Konya, Karaman, Kütahya). Aralarında Mısır kaydı OLMAYAN yerler: Ulukışla, Karapınar, Mersin, Silifke; noktasız: Ereğli (Konya), Pozantı/Gülek, Osmaniye, Ceyhan, Kozan. Yani Konya-Karaman-Kütahya adası, Adana grubundan KOPUK; Urfa da Antep'ten Birecik-Suruç Osmanlı şeridiyle ayrı.",
+      "oneri": "Kopukluğun asıl kaynağı kayıt kusuru (Urfa fazla; Mersin/Silifke/Ulukışla eksik). Çare sırası: ① Urfa'yı kaldır (kaynaklı) ② İçil (Mersin, Silifke) kısa pencere ekle (kaynaklı) ③ Ulukışla dolaylı (1.MURAT hükmü) ④ Karapınar/Ereğli koridoru kaynaksız — kağıt üstünde kapatılmaz. Petek çıktısı bu oturumda ölçülmedi (koşu kilitli): 'gerçekte kopuk mu göründüğü' doğrulanmadı."
+    },
+    {
+      "no": 4,
+      "konu": "Halep, Humus, Kilis, Antep, Payas kayıtlarının `kaynak:` alanları bayat/yanlış",
+      "olcum": "Antep `kaynak:` 'gövdesinde Mısır dönemi cümlesi BULUNAMADI (167 paragraf tarandı)' — TDV gaziantep [115] cümlesi VAR (1839 Haziran kısa işgal). Kilis `kaynak:`'ı 'Halep 15 Temmuz 1832' diyor ama Halep'in kendi v.f'si 1832-06-25 — atlasın kendi içi tutarsız. Humus TDV: 8 Temmuz, Gencer: 9 Temmuz (bir günlük akademik fark, bildirildi).",
+      "oneri": "Düzeltme uygulama aşamasında `kaynak:` metinleri güncellenir."
+    },
+    {
+      "no": 5,
+      "konu": "Kronoloji: 1832-11-21 'Mısır ordusu Konya'ya girdi' ve 1832-06-25 'Halep ele geçirildi'",
+      "olcum": "İkisinin `gun:` alanı ay hassasiyetli ('Kasım 1832', 'Haziran 1832') ama `t:` gün taşıyor (21, 25) — CLAUDE.md §4 hassasiyet kuralı: gün uydurulmuş. Kaynaklı günler: 18 Kasım 1832 (Gencer) ve 15 Temmuz 1832 (TDV).",
+      "oneri": "İkisi de kaynaklı güne çekilir; v.f ile birlikte (Değişmez 2 senkronu)."
+    }
+  ],
+
+  "h0010_sema": {
+    "istek": "Bir valilik/voyvodalık/bağlı beylik isyan ettiğinde harita o bölgeyi Osmanlı kırmızısından bir tık açık renkle göstersin; Mısır ilerlemesi o renk üzerinden okunsun.",
+    "olcum_mevcut_altyapi": {
+      "1": "`v:` dönem alanları (arac/girdi.py BILINEN_DONEM_ALANLARI): d, enklav, f, himaye, k, kaynak, kesinlik, kid, statu, t, y. `isyan` da `asi` da bu sözlükte YOK.",
+      "2": "`statu` değerleri veride: vassal 450 · gevsek 22 · özerk 3. Arayüz STATU_YAZI'da: vassal, özerk, himaye, haraçgüzâr, ocaklık, voyvodalık, gevsek.",
+      "3": "Renk hattı HAZIR: `statu:\"gevsek\"` + `himaye:true` → motor d.h[].renk = HIMAYE_GEVSEK_RENK '#e8a2aa' ('iç dolgu vassal kırmızısından BİR TON AÇIK kırmızı', uret_petek.py ~6878-6881; app.js:296). Bu, Emre'nin 21 Eylül ifadesi 'vassal açık kırmızısı gibi'nin birebir karşılığı. `himaye:true` kayıt sayısı 40; `statu:\"gevsek\"` 22 (ölçüldü).",
+      "4": "Motor dönem aralığını yarı açık okur: `f <= a < t` (uret_petek.py himaye_gruplari) → bitişik iki dönem (t = sonrakinin f'si) çakışma DEĞİLDİR.",
+      "5": "Şu an Mısır dönemi kayıtları `v:[{k:'Mısır (İbrâhim Paşa)', statu:'vassal', kid:'misir-kavalali'}]` → kendi rengi (#20d820 yeşil, renkler.py:2043). Mısır'ın kendisi (Kahire, İskenderiye, El-Arîş): v: 1805-07-03→1914-12-18 'Kavalalı hanedanı' vassal — 1831-33 isyanı ayrı görünmüyor."
+    },
+    "sema_onerisi": {
+      "alan": "YENİ ALAN YOK. `v:` dönemine mevcut `statu` alanında YENİ DEĞER `asi`. (Ad çakışması ölçüldü: dönem sözlüğünde yok; `isyan` sözcüğü başka üç eksende kullanımda — kronoloji etiketi/türü, devlet tür:'isyan' — o yüzden `isyan:true` mantıksal alan adı YERİNE `statu:'asi'` seçildi. VERI-YAPISI'nın 'himaye için neden yeni üst alan değil' gerekçesi aynen geçerli.)",
+      "yazim": "v:[{f:'<Mısır'a geçiş günü>', t:'1833-05-06', k:'Mısır (İbrâhim Paşa)', statu:'asi', himaye:true, kid:'misir-kavalali'}]",
+      "kod_degisikligi_dokunulacak_yerler": [
+        "arac/girdi.py BILINEN_DONEM_ALANLARI['statu'] açıklamasına 'asi' (üç otorite: bu sözlük · VERI-YAPISI.md · js/app.js STATU_YAZI — VERI-YAPISI:135 uyarısı: üçünü birlikte güncelle, yoksa app.js sessizce simgesiz çizer)",
+        "arac/uret_petek.py himaye_gruplari: `if dn.get('statu') == 'gevsek'` → `in ('gevsek','asi')` (renk aynı hatta) — ya da `asi` için ayrı ton istenirse ayrı sabit",
+        "js/app.js STATU_YAZI: 'asi': 'isyan hâlinde (âsi)'",
+        "arac/denetle.py: kural — `asi` yalnız `himaye:true` ile, açık uçlu olamaz, bitişi kaynaklı"
+      ],
+      "alternatif_B": "`himaye:true`'yu isyanla birlikte yazmak `himaye` kavramını (Macaristan tipi iç dolgu + Osmanlı şeridi) kirletir. Temiz ama pahalı yol: motorda ayrı `d.a` katmanı (koşu gerektirir). Önerim A (mevcut hat) — B'ye ancak 1.MURAT rengi ölçtükten sonra geçilir."
+    },
+    "olcut_baslangic_bitis": {
+      "baslangic": "Her yerleşim için o yerin Mısır'a GEÇTİĞİ gün (mevcut v.f) — çünkü toprağın kırılma günü budur. Bâbıâli'nin hukukî 'âsi ilanı' TDV ibrahim-pasa-kavalali'de yalnız 'Mayıs 1832' (gün YOK); ay hassasiyetli bir tarihi kırılma günü yapmak gün uydurmak olur → yalnız kırılmasız bilgi maddesi olarak kronolojiye yazılır. Harekât başlangıcı: 2 Kasım 1831 (TDV).",
+      "bitis": "6 Mayıs 1833 — Kütahya fermanı (TDV: 3 Mayıs 1833 rıza, 6 Mayıs 1833 ferman bildirimi; Kutluoğlu: 3 Mayıs tayin, 5-6 Mayıs ferman; Gencer: 5 Mayıs 1833 anlaşma). Aynı yerlerde ardından `statu:'vassal'` (meşru tevcih: Şam+Halep eyaletleri Mehmed Ali'ye, Adana muhassıllığı İbrahim'e) 1841-02-25'e dek sürer. Anadolu işgal yerleri (Konya, Karaman, Kütahya, İçil, Antalya): 6 Mayıs'tan tahliyeye (Haziran 1833 ortası; Kutluoğlu ~1,5 ay) `vassal` + k:'Mısır ordusu (tahliye sürüyor)'.",
+      "ikinci_isyan_donemi": "25 Mayıs 1838 bağımsızlık niyeti bildirimi (TDV kavalali-mehmed-ali [76]), Nizip 24 Haziran 1839, Londra 15 Temmuz 1840 (10 gün mühlet), Beyrut çıkarması 10 Eylül 1840 (TDV ibrahim) — Bâbıâli'nin ikinci resmî âsi/azil hükmünün TARİHİ BULUNAMADI. İkinci `asi` dönemi kaynaklı hüküm bulunana kadar YAZILMAZ.",
+      "genel_ilke": "`asi` yalnız kaynakta Bâbıâli'nin resmî isyan hükmü (âsi ilanı/azil/fetva) olan ve hükmün kaldırıldığı tarihi bilinen aralıkta yazılır; açık uçlu `asi` ihlaldir."
+    },
+    "cakisma_olcumu": {
+      "isg": "ÇAKIŞMAZ. `isg:` yabancı devlet işgalidir (`d:` yabancı devlet kimliği; tarama deseni isgalDesenleriKur 83 kayıt). Mısır Osmanlı içi bir valilik; `isg:` KULLANILMAZ. Mevcut Konya/Kütahya/Karaman 'Mısır ordusu (işgal)' etiketi `k:` metnidir (`v:` içinde, kid'siz), `isg:` değil.",
+      "v": "`asi` `v:` içinde yaşar; `d`/`v` çakışırsa tâbi kazanır kuralı (VERI-YAPISI:152) değişmez. Aynı yerleşimde bitişik iki `v:` dönemi (asi t = vassal f) motorun yarı açık aralığında çakışma DEĞİL.",
+      "kid_ve_renk": "Şu an kid 'misir-kavalali' → yeşil #20d820 (kendi renk). `asi` + `himaye:true` altında iç dolgu #e8a2aa (açık kırmızı) olur, kid rengi altta kalır → Mısır'ın kendi rengi bu dönemde GÖRÜNMEZ. Bu, H-0029'la (Mısır idaresinin rengi, 1.MURAT'ta) AYNI düğüm — ikisi birlikte karara bağlanmalı.",
+      "degismez_2": "ÖLÇÜLEMEDİ: `asi` → `vassal` geçişi (aynı yerleşimde bitişik iki `v:` dönemi) Değişmez 2'de KIRILMA sayılır mı? `denetle.py` kırılma üretici işlevi (`kir_dv`) iki aramada bulunamadı. Sayılırsa 6 Mayıs 1833 için ±30 gün içinde kronoloji maddesi ŞART (mevcut: 1833-05-14 'Kütahya Sözleşmesi' gun:'Mayıs 1833' — 6 Mayıs'a 8 gün, tamam). 1.MURAT `denetle.py`de küçük sınamayla ölçsün.",
+      "mısır_eyaleti": "Kahire/İskenderiye/El-Arîş: v: 1805-07-03→1914-12-18 tek dönem. Mısır'ı da 'asi' göstermek için bu dönem üçe bölünür (1805→1831-11-02 vassal · 1831-11-02→1833-05-06 asi · sonrası vassal). Bu Emre'nin 'isyan eden bölge' ifadesinin ilk yarısı; 'Mısır ilerlemesi o renk üzerinden' ikinci yarısı. İkisinin de yapılıp yapılmayacağı 1.MURAT/Emre kararı; ölçüt aynı."
+    },
+    "ters_yon": "İsyan rengini Suriye'ye 1841'e kadar uzatmak (Kütahya'dan sonra da 'asi' göstermek) hatayı öbür yöne taşır: 6 Mayıs 1833'ten sonra Suriye/Adana Bâbıâli'nin kendi fermanıyla tevcih edilmiş yönetimdir — 'asi' değil. Öte yandan İsyanı 6 Mayıs'ta bitirip toprağı 'vassal' bırakmak Emre'nin 'Mısır ilerlemesini o renk üzerinden gösterelim' isteğinin İLK yarısını (Kasım 1831-Mayıs 1833) karşılar; 1833-1840 arası Mısır idaresi vassal tonunda kalır.",
+    "acik_sorular_1MURAT": [
+      "'asi' için #e8a2aa (gevsek ile aynı) mı, bir ton farklı mı? (dE eşiği 12; gevsek ile ayrışması ölçülmeli)",
+      "Mısır eyaletinin kendisi (Kahire vb.) de 'asi' dönemine bölünsün mü?",
+      "ikinci isyan dönemi için kaynaklı ilan tarihi bulunamadı: 1838-41 hiç 'asi' yazılmasın mı?"
+    ]
+  }
+}
