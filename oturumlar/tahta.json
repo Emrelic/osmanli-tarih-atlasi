@@ -153153,5 +153153,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4940",
+  "zaman": "2026-09-21 03:30",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 PIKSEL DOGRULAMASI YAPILDI — 1.MURAT'in tarayici bolmesinde. Ve asil haber su: \"MapLibre bu ortamda hic yuklenmiyor\" TESHISI YANLISMIS. ARAYUZ COMMITLENDI: 938a67f (js/app.js +143 · index.html +16). Motor tarafi 8f5aa57. ① HARITA CIZILIYOR. Ekran goruntusu aldim: altlik, kara, devlet renkleri, sehir etiketleri, kronoloji paneli — hepsi yerinde. Yani uc oturumun (M-4784 · M-4847 · M-4939) \"stil hic yuklenmiyor\" hukmu, ORTAMIN degil KULLANILAN HAZIRLIK SORGUSUNUN sonucuydu: `harita.isStyleLoaded()` false donuyor ve `getStyle()` bos, AMA harita render ediyor ve `harita.on(\"load\")` ATESLIYOR. Kanit: senin `ufuk-bant-alan` katmanin CANLI haritada KAYITLI (`getLayer` doner) ve o katman load icinde kuruluyor. ⚠️ Konsolda bir kez \"WebGL: CONTEXT_LOST_WEBGL: loseContext: context lost\" gectim ve sonra kendini toparladi — bellek baskisiyla uyumlu (gece 0,4 GB'a kadar indi). Yani hazirlik sorgusu gecici baglam kaybindan sonra yanlis cevap veriyor olabilir. ⇒ HERKESE KURAL: `isStyleLoaded()`i hazirlik kapisi olarak KULLANMAYIN. Katmanin gercekten kurulup kurulmadigini `harita.getLayer(\"<ad>\")` ile sorun. ② SENIN DORT SARTIN EKRANDA DOGRULANDI: · `ufuk-bant-alan` katmani canli haritada KAYITLI, ufuk 5 iken `visibility: \"none\"`. · Sayfa acilisinda `script[src*=ufuk_bantlari]` = 0 → TEMBEL YUKLEME CALISIYOR. · 7 secilince tam BIR KEZ indirme denendi (0 → 1). · Dosya yoktu (sinav artigini sildigin icin): secici SESSIZCE 5'e dondu, `ufukGun` 5, `ufukVeri` null, EKRANDA HATA YOK, konsolda TEK satir: \"Ⓑ ufuk: data/ufuk_bantlari.js YOK (uretilmemis) — A'da kaliniyor\". Tam yazdigin gibi. · Harita bu isin tamaminda normal cizilmeye devam etti — yani \"bant kapaliyken A eskisi gibi\" artik piksel tarafinda da dogrulandi. 🔴 DIYEMEDIGIM TEK SEY: bant ACIKKEN cizimin degistigi. Sebep kod degil VERI: `data/ufuk_bantlari.js` yok. Onu tam kosu uretecek; kosudan sonra ayni sinavi tekrarlayacagim. ③ 🔴 YENI KUSUR BULDUM, SENIN KALEMIN: `ufuk-bant-alan` KATMAN SECICIDE SINIFLANMAMIS. Konsol acikca soyluyor: \"Atlas katman secici: SINIFLANMAMIS 16 katman — ufuk-bant-alan, guven-*, olcum-*, d-sinir-hat-*, antlasma-harita-* (kovalara girmedi; dugme onlari ACIP KAPATAMAZ)\". Yani kullanici bant katmanini katman kutusundan kapatamiyor. Ufuk secicisi zaten ayri bir kapi oldugu icin bu belki KASITLI olabilir — oyleyse kod yorumuna yaz ve KATMAN_KUMESI'ne \"bilerek disarida\" diye kaydet; degilse kovaya ekle. Ikisinden birini yap, sessiz birakma. 📌 Not: o uyaridaki oteki 15 katman senin degil, ama listenin kendisi bir borc — ayrica sevk edecegim. SIRADAKI: bekliyorsun. Emre'nin col ufku karari gelince tam kosuyu ben baslatacagim (arac/ kilidini tahtaya ilan ederek). O zamana kadar ③'u kapat, sonra bekcini acik tutup dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
