@@ -153837,5 +153837,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4978",
+  "zaman": "2026-09-21 17:11",
+  "kimden": "MISIR-SEFER-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · MISIR-SEFER-0075 · 6 madde · rapor denetim/MISIR-SEFER-0075.json (24 yer + 5 ek bulgu + H-0010 şeması; data/ ve arac/ dokunulmadı) ① ÖLÇTÜM (kaynak: TDV + 3 hakemli makale tam metin: Gencer 2016 [Uluslararası Sosyal Araştırmalar 9/42], Kutluoğlu 1997 [Osmanlı Araştırmaları 17], Üzüm-Özlü 2025 [Ayıntâb Araştırmaları 8/1]): · Adana + Tarsus ALINDI (Belen sonrası Ağustos 1832 başı, gün yok). Atlasın 1832-07-29'u Belen'in günü. · Urfa ALINMADI: TDV yalnız \"1839'da kısa süre\" der; Gencer'de Urfa'dan yalnız elçi gelir, Rumkale alınamadı; Kutluoğlu: Urfa/Maraş/Antep Kütahya kapsamı DIŞI. Atlasın Urfa 1832-08-15→1841 kaydı KAYNAKSIZ → KALDIRILMASINI öneririm (komşuları hep Osmanlı, eksklav çözülür). · Maraş: TDV \"1833'te işgal, on dokuz aya yakın\" — atlas 8,5 yıl. Antep: TDV yalnız 1839 Haziran kısa işgal (atlasın \"cümle bulunamadı\" notu yanlış), Üzüm-Özlü 1832'den beri Mısır der → TDV↔akademik çelişki, kaydı KORU önerdim. · Konya'ya girişi 18 Kasım 1832 (Gencer, BOA atıflı) — atlas 21 Kasım; TDV'nin 21 Aralık'ı muharebe günü. Karaman Konya Savaşı SONRASI. Halep TDV: 15 Temmuz 1832, atlas 25 Haziran (Humus'tan önce sıralı). · Kütahya kararı (3-6 Mayıs 1833): Şam+Halep eyaletleri Mehmed Ali'ye, Adana muhassıllığı İbrahim'e. Kilis, Halep, Payas, İskenderun, Erzin, Dörtyol, Yumurtalık: kapsam içinde (dolaylı). · Mersin/Silifke (İçil): Gülek'in düşmesinden (13 Eylül 1832) sonra Mısır mütesellimi, iskeleler Mısır denetiminde, Haziran 1833'te bırakıldı → kısa Mısır kaydı EKSİK. Ulukışla dolaylı. · Koridor kopukluğu (H-0014/15): sebep kayıt kusuru — Urfa fazla; Mersin/Silifke/Ulukışla eksik; Ereğli-Konya/Pozantı/Gülek/Osmaniye/Ceyhan/Kozan noktasız (ölçüldü). · H-0010: YENİ ALAN GEREKMİYOR. `v:`in mevcut `statu` alanına yeni değer `asi`; renk hattı 13 Eylül'de zaten kurulu (`statu:\"gevsek\"`+`himaye:true` → #e8a2aa = Emre'nin \"vassal açık kırmızısı\"). Bitiş 6 Mayıs 1833 (Kütahya fermanı, üç kaynak); başlangıç = her yerin Mısır'a geçiş günü (âsi ilanı TDV'de yalnız \"Mayıs 1832\", gün uydurulmaz). isg: ile çakışmaz. Dokunulacak: girdi.py statu tanımı · uret_petek.py himaye_gruplari (1 satır) · app.js STATU_YAZI · denetle kuralı. · Ek: Gazze/Yafa 1831-10-31 harekâttan (2 Kasım) ÖNCE; Kudüs/Nablus/Hayfa Yafa ile aynı gün olamaz. Antalya (11 Ocak-14 Mayıs 1833 Mısır mütesellimi, Belleten 2016), Aydın, Kayseri atlasta boş. ② BULUNAMADI: Han Yûnus'a özel kaynak (teşhis doğru: El-Arîş↔Gazze arasında ada) · Karapınar · Azez · Cerablus · Yumurtalık/Erzin/Dörtyol'a doğrudan tanıklık · Altundağ 1945 gövdesi (PDF yalnız içindekiler) · Nizip sonrası (1839) tarihli hüküm · Bâbıâli'nin İKİNCİ âsi/azil ilanının tarihi · Belleten Antalya makalesinin yazarı. ③ İSTİYORUM (hüküm sende): (a) Urfa kaldırılsın mı? (b) Maraş: TDV'ye göre ~19 aylık pencere mi, kaldırma mı? (c) Konya 18 Kasım (Gencer) mi TDV çelişkisi yüzünden 21 Aralık mı? (d) Mersin/Silifke/Ulukışla/Han Yûnus/İskenderun eklensin mi (dolaylı olanlar)? (e) H-0010'da `asi` rengi #e8a2aa mı bir ton farklı mı, Mısır eyaleti de bölünsün mü, H-0029 ile birlikte mi karara bağlansın? (f) ÖLÇÜLEMEDİ: `asi`→`vassal` geçişi Değişmez 2'de kırılma sayılır mı (denetle.py'de kırılma üretici bulunamadı) — sen ölç. Değişen dosya: denetim/MISIR-SEFER-0075.json (yalnız bu). Kilit kalkınca uygulama için tahtadan \"dosya senin\" bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
