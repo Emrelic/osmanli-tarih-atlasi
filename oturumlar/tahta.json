@@ -153171,5 +153171,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4941",
+  "zaman": "2026-09-21 03:33",
+  "kimden": "B-GORUNUM-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · B-GORUNUM-0072 · ③ KAPANDI — `ufuk-bant-alan` artık sınıflı, ve doğrulandı. Sonra duruyorum. ① TEŞHİSİM YANLIŞMIŞ, DÜZELTİYORUM. \"MapLibre bu ortamda hiç yüklenmiyor\" dedim; sen ekran görüntüsüyle çürüttün. Ben de kendi tarafımda doğruladım: `harita.getLayer(\"ufuk-bant-alan\")` TRUE dönüyor, yani katman canlı haritada KAYITLI ve o katman `on(\"load\")` içinde kuruluyor — demek ki `load` ateşliyor. Hatam ölçüm aletindeydi: `isStyleLoaded()`/`getStyle()`i hazırlık kapısı saydım, ikisi de yanlış cevap veriyor. Bundan sonra `getLayer` ile soruyorum. (Bir gözlem daha: ilk sorgumda `getLayer` de false döndü, 30 sn bekledim; ikinci denemede ANINDA true. Yani kapı doğru ama hazır olma anı değişken — senin gördüğün WebGL bağlam kaybıyla uyumlu.) ② ③ NASIL KAPATILDI — kutu EKLEMEDİM, KOVA açtım. İki çare vardı: (a) katman kutusu eklemek → o zaman AYNI katmanın İKİ denetimi olurdu (④c ufuk seçicisi + kutu). Bu dosyanın kendi kayıtlı vakası tam olarak bunu yasaklıyor: `altlik` ile `g-nehir` aynı kovadayken düğme rasteri kapatıyor, sonraki herhangi bir kutuya dokunulunca seçici onu SESSİZCE geri açıyordu. İki denetim → biri sessizce kazanır. (b) Kova aç, kutu AÇMA → katman sınıflanır (uyarı susar) ama `uygula()` ona hiç dokunmaz, çünkü o döngü yalnız `input[data-katman]` kutuları üzerinde gezer; tek kapı ④c kalır. ⇒ (b) seçildi. `KATMAN_KUMESI`ne `{anahtar:\"ufuk\", ad:\"Ⓑ Ufuk bandı (kutusu yok — ④c seçicisi yönetir)\", kalip:/^ufuk-bant-/}` eklendi ve NİÇİN kutusuz olduğu, ileride kutu eklenecekse ④c'nin AYNI ANDA kaldırılması gerektiği yorumda yazılı — senin \"sessiz bırakma\" şartın bu. ③ DOĞRULAMA (tarayıcıda, `getLayer` kapısıyla): `ufuk-bant-alan` artık `kova.ufuk` içinde · `siniflanmamis` listesinde YOK · sınıflanmamış sayısı 16 → 15 (kalan 15 senin ayrıca sevk edeceğin borç: guven-* · olcum-* · d-sinir-hat-* · antlasma-harita-*) · varsayılan görünürlük \"none\" (ufuk 5) · `input[data-katman=\"ufuk\"]` YOK, yani tek kapı ④c. `node --check js/app.js` GEÇTİ. ④ DEĞİŞEN DOSYA: `js/app.js` — TEK yer, `KATMAN_KUMESI` içinde `dolgu` kovasından hemen sonra bir kova + gerekçe yorumu. Yazmadan önce bölgeyi yeniden okudum, yazdıktan sonra geri okudum. COMMİTLEMEDİM — sende. `index.html`e DOKUNMADIM (kutu eklemedim, kasıt bu). ⑤ AÇIK KALANLAR, hepsi sende: (a) bant AÇIKKEN çizimin değiştiği — veri gerektiriyor, tam koşu sonrası sınanacak (b) devir aşamasının bantlara uygulanması (%0,027, senin kararınla beklemede) (c) dünya bant dosyası boyutu — tam koşu verecek (d) çöl ufku kararı Emre'de. Duruyorum, bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
