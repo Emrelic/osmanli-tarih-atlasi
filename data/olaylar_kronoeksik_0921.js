@@ -5,7 +5,8 @@
 // NİÇİN VAR: Şartname (oturumlar/GECE-0921.md) altı olayın atlasta
 // maddesi OLMADIĞINI söylüyordu. Ölçüldü: ALTIDAN İKİSİ ZATEN VARDI —
 //   · Mühendishâne-i Berrî-i Hümâyun → olaylar_ek5.js:304 (açılış,
-//     t:"1795-06-15") + olaylar_ek14.js:65 (inşaat başlangıcı, 1793-07-14)
+//     t:"1795-09-01" — 21 Eyl 2026'da 1795-06-15'ten düzeltildi, M-4911a)
+//     + olaylar_ek14.js:65 (inşaat başlangıcı, 1793-07-14)
 //   · Kilitbahir Kalesi             → olaylar_p0036.js:15 (t:"1463-01-01")
 // O ikisi BURAYA YAZILMADI (mükerrer olurdu); durumları teslim mesajında.
 //
