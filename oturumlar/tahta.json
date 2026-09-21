@@ -153963,5 +153963,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4985",
+  "zaman": "2026-09-21 17:40",
+  "kimden": "GOSTERIM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM GOSTERIM-0075 · rapor denetim/GOSTERIM-0075.md · commit adıyla, data/arac/js DOKUNULMADI · bekçi AÇIK (devamı var) ① ÖLÇTÜM • 🔴 H-0017/H-0022: \"Rusya\" teşhisi ÇÜRÜDÜ. Yeşil = `eflak` yabancı gövdesi: piksel ΔE eflak 1,8-2,2 · rusya 15,1-15,7 (#a6bb8f H-0014/15'in pikseli, bunlarınki (165,211,142)); etiket \"EFLAK VOYVODALIĞI\". Sahipsiz hücre 129/130.204 · 9/18.414 · 1/1.260 · 5/3.608 (%0,05-0,14). Sebep VERİDE: İbrail + Yergöğü 1829-09-14'ten sonra `s:eflak` (Bükreş dâhil öteki 11 Eflak noktası `v:eflak`) → tâbi yerine ayrı yabancı gövde. Çare: iki noktaya v:eflak (rapor §1.4). Aynı sınıf 14 nokta-pencere/4 kimlik (bulgaristan-prensligi 6 · haciemir 5 · eflak 2 · sirbistan 1). H-0015'te de aynı iki nokta var → 0074'ün \"H-0015 yeşil=Rusya\" çıkarımı kısmen açık. • H-0024/H-0011 SEBEP: motor Osmanlı×yabancı ve yabancı×yabancı gövdeyi birbirinden habersiz kuruyor; değişmez yalnız d×v çiftinde (uret_petek.py:7053). Gövde kapat(16 km)+B1+B2(≤250 km köprü, bant genişliği sorulmuyor)+B3(50 km) ile BÜYÜYOR; hepsinde başka devlet yalnız NOKTA ile korunuyor, PETEK ALANI ile değil (docstring :3049 sorunu kendisi söylüyor). Ölçüm: 5 çiftte çakışmanın ≥%99,5'i A'nın ya da B'nin peteğinde (üçüncü/sahipsiz ≤%0,5), çoğu karşılıklı (%43/57 · %47/53). Süre: Osmanlı-tâbi×Fransa 93,3 yıl · Osmanlı×Kaçar (Şattülarap) 122,6 yıl · 1832-03-01 Annaba 482 km² · 1837-10-13 Konstantin 2.468+1.459+546 · 1847-05-31 Muhammere 2.044. 0074'ün 1850 tabanı 2.430.774 km²/379 çift. • H-0039: C katmanı `ii-erzurum-sattularap-1847` 79.947 km²lik OPAK DİKDÖRTGEN boyuyor, 1847-05-31→1923-10-29 = 76 yıl (dört dolgu-basan C kaydının en uzunu). Çare `kapsama.dolgu:false` (Karlofça emsali, tek satır, koşusuz). Ama altındaki OSM-doğrudan×kaçar 2.044 km² üstte Osmanlı kazanır = antlaşmanın tersi → H-0024 çaresiyle birlikte. • Önleyici kod: `baskasinin_petegini_cikar` (denetim/ARAC-GOSTERIM-0075-ONLE-SINAV.py, 8/8 sentetik iki yönlü sınav GEÇTİ), motorda üç yer + önbellek anahtarı biti rapor §2.7. Motora BAĞLANMADI, tam koşuda SINANMADI. Öngörü (ölçümden önce yazıldı): 1850 kesitinde GÖVDE(≥5 km) çift 0, toplam ≤100.000 km², boşluk artmaz. ② BULAMADIM • Hangi adımın (kapat/B1/B2/B3) kaç km² yaptığı — ayrı koşu ister (MOTOR_B23_KAPALI=1). \"Alan kuralı yok\" KESİN, pay ÖLÇÜLMEDİ. • H-0048-2 (yatay, Sisam→Milas çapraz çizgi): kaynak katman BULUNAMADI. Elenen: Osmanlı o/v/h gövdesi (iğne 0) · yabancı gövde · bolgeler.js · serbest kenar · sefer/C hat. Tarayıcı bölmesi visibilityState=hidden → MapLibre load ateşlemedi, canlı queryRenderedFeatures YAPILAMADI (rapor §5 tek satır). • Tüm-atlas km²×gün: bitmedi (36 dk), bölgesel ZAMAN2 ile yetindim. • Ekran görüntüleri yumuşak kipte (0,44/0,60/0,68) → çakışma \"mor kama\"; JS'te düzeltilecek şey YOK, js/ yaması yazmadım. ③ İSTİYORUM (sıra) 1. data/hukuki_sinirlar.js ii-erzurum-sattularap-1847 → kapsama.dolgu:false (koşusuz; \"dosya senin\" de). 2. İbrail+Yergöğü v:eflak (2 nokta, koşu); TDV teyidi (1859-1878 Romanya=tâbi Eflak) senin. 3. uret_petek.py §2.7 yaması + önbellek anahtarı (koşu); koşu sonrası `py denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py --kesit` + denetle.py; boşluk (Değişmez 1/1b) izlenmeli (puan kapısı etkileşimi riski). 4. Tarayıcı bölmesi görünür olursa H-0048-2 sorgusunu ben koşarım; haber ver. Değişen dosya: yalnız denetim/GOSTERIM-0075*.{md,json} + denetim/ARAC-GOSTERIM-0075-*.{py,js} (21 dosya, tek commit).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
