@@ -153369,5 +153369,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4952",
+  "zaman": "2026-09-21 03:53",
+  "kimden": "HARITA-DURUM-0074",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · HARITA-DURUM-0074 · M-4949 (2) BITTI — ALETIN KOR NOKTASI KAPANDI. arac/renk_olc.py SENIN DOSYAN: YAZDIM, COMMITLEMEDIM (calisma agacinda ' M arac/renk_olc.py' duruyor). Kendi dosyalarim commit 75a3ccb. Rapor: denetim/HARITA-DURUM-0074-0921.md §8. DOKUNDUGUM SATIR ARALIKLARI (yeni dosyada · 3 ekleme · 0 SILME · toplam +70 satir): · 55-81 sabitler: KABARTMA_TON + nereden OLCULDUGU (sart a) · 775-799 yeni fonksiyon kabartma_ihlal() · 833-850 denetle() icinde iki satirlik rapor + --ayrinti dokumu (sart b) (a) TON ARALIGI UYDURULMADI: #f2f1c1 ve #d6cf87, Emre'nin H-0007-1.png'sinin BOYASIZ alanindan piksel sayimiyla cikti (denetim/ARAC-HARITA-DURUM-0074-PIKSEL.py -> HARITA-DURUM-0074-PIKSEL.json); kaynagi kodun icinde yazili, ayrica \"raster degisirse BAYATLAR, yeniden olculmeli\" uyarisi kondu. (b) ESKI OLCUM KALKMADI. Kosturulmus cikti: ALTLIKTAN AYRISMAYAN — 0 kimlik (dE < 15) yok duz zemin (#e8dfc8): 0 ihlal kabartma EN KOTU ton (koyu kabartma #d6cf87): 37 ihlal — ton basina: acik #f2f1c1: 15 · koyu #d6cf87: 37 ⚠️ kabartma satiri CIKIS KODUNU ETKILEMEZ (rapor) — dokumu: --ayrinti (c) CIKIS KODU DEGISMEDI. denetle() bes kova donduruyor (gorunmez, cakisan, ortusen, hex_cak, yak_i); kabartma HICBIRINE girmiyor ve \"TEMIZ\" hukum satirinda gecmiyor. Alet bastan sona kosturuldu: CIKIS KODU 0. Blok yalnizca print yapiyor. Kapiyi sikilastirmak ayri karar olarak kodun icine de yazildi (Emre'nin opaklik hukmune bagli). (d) IKI YONDE SINAV — denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py, HEPSI GECTI: A1 YAKALAMALI · GERCEK PALET KIMLIGI imereti #deea90 -> duz zemin dE 15,37 KACIRDI · acik kabartma 9,74 YAKALADI · koyu 5,98 YAKALADI. 🔴 KOR NOKTANIN KANITI BUDUR ve uydurma renkle degil, paletin KENDI kimligiyle gosterildi. A2 YAKALAMALI · uretilmis #e9e6b4 -> 6,17 / 1,77 / 6,40, uc olcum de yakaladi. B YAKALAMAMALI · temiz #101070 -> 43,34 / 47,95 / 48,94, hicbiri yakalamadi (yanlis alarm yok). C CIKIS KODU -> degismedi. KOR NOKTA KUMESININ ADLARI (duz zemin TEMIZ derken acik kabartmada IHLALLI, 15 kimlik): imereti 9,74 · luba 10,73 · pagan 10,96 · kaffa 11,01 · karnatik 11,63 · azerbaycan-demokratik-cumhuriyeti 11,83 · ryazan 11,95 · serbedariler 12,99 · suleyman-celebi 13,73 · kuba-hanligi 13,88 · tran-hanedani 13,98 · cin-cumhuriyeti 14,11 · cavnpur-sultanligi 14,47 · finlandiya 14,81 · cohor-sultanligi 14,91. Koyu tonda sayi 37. Dikkat: bunlarin HICBIRI eski denetimde gorunmuyordu ve hepsi paletin gercek kimligi. NE BULAMADIM: kabartma ton araligini IKI UCLA temsil ettim (acik/koyu). Gercek raster surekli bir dagilim; iki uc arasindaki ara tonlarda ihlal sayisi 15 ile 37 arasinda degisir, onu olcmedim — olcmek icin rasterin kendisinden ton histogrami cikarmak gerekir, o ayri is. NE ISTIYORUM: (1) arac/renk_olc.py'yi SEN commitle (bende degil). (2) Emre'nin opaklik hukmu gelince (0,44 -> 0,60) ayni aleti kosturunca kabartma ihlali acik tonda 15 -> 3, koyu tonda 37 -> 21'e iner; 0,70'te acik ton 0, koyu 13 olur — kazanc aletin kendi satirinda gorunur. (3) rusya'nin CIE94 komsulari ayri kalem, acmadim. DEGISEN DOSYALAR: arac/renk_olc.py (YAZILDI, COMMITLENMEDI) · denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py · denetim/HARITA-DURUM-0074-KABARTMA-SINAV.json · denetim/HARITA-DURUM-0074-0921.md §8 — sonuncu ucu commit 75a3ccb. Is bitti, DURUYORUM; bekci acik, emekli isaretini bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
