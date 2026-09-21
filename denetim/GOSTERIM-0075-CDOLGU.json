@@ -1,0 +1,92 @@
+[
+ {
+  "id": "midye-enez-1913",
+  "tur": "cetvel",
+  "dolgu": true,
+  "kutu_km2": 92541,
+  "f": "1913-05-30",
+  "t": "1913-06-29",
+  "yil": 0,
+  "taraflar": "osmanli/bulgaristan-kralligi"
+ },
+ {
+  "id": "misir-sudan-22-paralel-1899",
+  "tur": "paralel",
+  "dolgu": true,
+  "kutu_km2": 593444,
+  "f": "1899-01-19",
+  "t": "1914-12-18",
+  "yil": 15,
+  "taraflar": "misir-kavalali/ingiliz-sudani"
+ },
+ {
+  "id": "ii-erzurum-sattularap-1847",
+  "tur": "dogal-tanimsiz",
+  "dolgu": true,
+  "kutu_km2": 79947,
+  "f": "1847-05-31",
+  "t": "1923-10-29",
+  "yil": 76,
+  "taraflar": "osmanli/kacar"
+ },
+ {
+  "id": "karlofca-lehistan-1699",
+  "tur": "nokta-kumesi",
+  "dolgu": false,
+  "kutu_km2": null,
+  "f": "1699-01-26",
+  "t": "1795-10-24",
+  "yil": 96,
+  "taraflar": "osmanli/lehistan"
+ },
+ {
+  "id": "karlofca-venedik-1699",
+  "tur": "nokta-kumesi",
+  "dolgu": false,
+  "kutu_km2": null,
+  "f": "1699-01-26",
+  "t": "1797-05-12",
+  "yil": 98,
+  "taraflar": "osmanli/venedik"
+ },
+ {
+  "id": "karlofca-bosna-sava-1699",
+  "tur": "dogal-tanimsiz",
+  "dolgu": false,
+  "kutu_km2": 15653,
+  "f": "1699-01-26",
+  "t": "1918-11-11",
+  "yil": 219,
+  "taraflar": "osmanli/habsburg"
+ },
+ {
+  "id": "karlofca-bosna-kaleler-1699",
+  "tur": "nokta-kumesi",
+  "dolgu": false,
+  "kutu_km2": null,
+  "f": "1699-01-26",
+  "t": "1918-11-11",
+  "yil": 219,
+  "taraflar": "osmanli/habsburg"
+ },
+ {
+  "id": "ferhad-pasa-istanbul-1590",
+  "tur": "bolge",
+  "dolgu": false,
+  "kutu_km2": null,
+  "f": "1590-03-21",
+  "t": "1603-10-21",
+  "yil": 13,
+  "taraflar": "osmanli/safevi"
+ },
+ {
+  "id": "ferhad-pasa-1590-sinir-hatti",
+  "tur": "dogal-tanimsiz",
+  "dolgu": true,
+  "kutu_km2": 1206039,
+  "f": "1590-03-21",
+  "t": "1603-10-21",
+  "yil": 13,
+  "taraflar": "osmanli/safevi"
+ }
+]

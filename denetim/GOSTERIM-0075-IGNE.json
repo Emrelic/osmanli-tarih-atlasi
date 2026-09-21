@@ -1,0 +1,24 @@
+{
+ "OSM-dogrudan": {
+  "govde_km2_kutuda": 7342,
+  "ince_parca_sayisi": 1,
+  "ince_parcalar": [
+   {
+    "uzunluk_km": 15.1,
+    "genislik_km": 1.87,
+    "alan_km2": 32.4,
+    "sinir_kutusu": [
+     26.474,
+     37.527,
+     26.541,
+     37.653
+    ]
+   }
+  ]
+ },
+ "OSM-tabi": {
+  "govde_km2_kutuda": 529,
+  "ince_parca_sayisi": 0,
+  "ince_parcalar": []
+ }
+}

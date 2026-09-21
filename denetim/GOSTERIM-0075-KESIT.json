@@ -1,0 +1,244 @@
+{
+ "H-0011 Annaba 1832-03-01": {
+  "gun": "1832-03-01",
+  "kutu_lon0lat0lon1lat1": [
+   7.23,
+   36.48,
+   8.38,
+   37.2
+  ],
+  "kutu_km2": 8212,
+  "kaplam_km2": {
+   "OSM-tabi": 4129.6,
+   "fransa-cumhuriyet": 1816.9
+  },
+  "cift_sayisi": 1,
+  "cifte_iddia_toplam_km2": 481.9,
+  "ciftler": {
+   "OSM-tabi + fransa-cumhuriyet": {
+    "km2": 481.9,
+    "merkez": [
+     36.713,
+     7.87
+    ]
+   }
+  },
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 2747.1
+ },
+ "H-0024 Konstantin 1837-10-13": {
+  "gun": "1837-10-13",
+  "kutu_lon0lat0lon1lat1": [
+   2.89,
+   34.42,
+   8.68,
+   37.24
+  ],
+  "kutu_km2": 164046,
+  "kaplam_km2": {
+   "OSM-tabi": 97875.2,
+   "fransa-cumhuriyet": 26326.8,
+   "abdulkadir": 23812.1
+  },
+  "cift_sayisi": 3,
+  "cifte_iddia_toplam_km2": 4472.0,
+  "ciftler": {
+   "OSM-tabi + fransa-cumhuriyet": {
+    "km2": 2467.5,
+    "merkez": [
+     36.501,
+     5.671
+    ]
+   },
+   "OSM-tabi + abdulkadir": {
+    "km2": 1459.0,
+    "merkez": [
+     35.218,
+     4.872
+    ]
+   },
+   "fransa-cumhuriyet + abdulkadir": {
+    "km2": 545.5,
+    "merkez": [
+     35.848,
+     3.422
+    ]
+   }
+  },
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 20496.2
+ },
+ "H-0039 Şattülarap 1847-05-31": {
+  "gun": "1847-05-31",
+  "kutu_lon0lat0lon1lat1": [
+   45.83,
+   27.14,
+   51.23,
+   31.66
+  ],
+  "kutu_km2": 263514,
+  "kaplam_km2": {
+   "kacar": 69238.9,
+   "OSM-dogrudan": 42632.2,
+   "OSM-tabi": 40230.9,
+   "suud": 11150.3
+  },
+  "cift_sayisi": 2,
+  "cifte_iddia_toplam_km2": 2047.8,
+  "ciftler": {
+   "OSM-dogrudan + kacar": {
+    "km2": 2044.4,
+    "merkez": [
+     30.288,
+     48.358
+    ]
+   },
+   "OSM-tabi + suud": {
+    "km2": 3.4,
+    "merkez": [
+     27.962,
+     48.334
+    ]
+   }
+  },
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 102261.7
+ },
+ "H-0017-1 Eflak 1834-01-01": {
+  "gun": "1834-01-01",
+  "kutu_lon0lat0lon1lat1": [
+   20.08,
+   42.67,
+   30.01,
+   48.29
+  ],
+  "kutu_km2": 484895,
+  "kaplam_km2": {
+   "avusturya": 165992.1,
+   "OSM-tabi": 115681.2,
+   "OSM-dogrudan": 112148.6,
+   "rusya": 52975.7,
+   "eflak": 6097.2
+  },
+  "cift_sayisi": 5,
+  "cifte_iddia_toplam_km2": 2056.8,
+  "ciftler": {
+   "OSM-tabi + avusturya": {
+    "km2": 1349.2,
+    "merkez": [
+     45.722,
+     24.539
+    ]
+   },
+   "OSM-dogrudan + avusturya": {
+    "km2": 375.3,
+    "merkez": [
+     44.837,
+     21.46
+    ]
+   },
+   "OSM-tabi + rusya": {
+    "km2": 246.2,
+    "merkez": [
+     46.911,
+     28.184
+    ]
+   },
+   "OSM-dogrudan + rusya": {
+    "km2": 52.3,
+    "merkez": [
+     45.214,
+     28.861
+    ]
+   },
+   "OSM-tabi + eflak": {
+    "km2": 33.8,
+    "merkez": [
+     44.264,
+     25.507
+    ]
+   }
+  },
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 33922.3
+ },
+ "H-0017-2 Yergöğü 1834-01-01": {
+  "gun": "1834-01-01",
+  "kutu_lon0lat0lon1lat1": [
+   24.87,
+   43.36,
+   28.35,
+   45.48
+  ],
+  "kutu_km2": 65298,
+  "kaplam_km2": {
+   "OSM-tabi": 32166.6,
+   "OSM-dogrudan": 25118.8,
+   "eflak": 6097.2,
+   "avusturya": 2017.0,
+   "rusya": 91.7
+  },
+  "cift_sayisi": 2,
+  "cifte_iddia_toplam_km2": 336.8,
+  "ciftler": {
+   "OSM-tabi + avusturya": {
+    "km2": 303.0,
+    "merkez": [
+     45.279,
+     25.792
+    ]
+   },
+   "OSM-tabi + eflak": {
+    "km2": 33.8,
+    "merkez": [
+     44.264,
+     25.507
+    ]
+   }
+  },
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 141.2
+ },
+ "H-0022-1 İbrail 1836-01-01": {
+  "gun": "1836-01-01",
+  "kutu_lon0lat0lon1lat1": [
+   27.81,
+   44.61,
+   28.37,
+   45.52
+  ],
+  "kutu_km2": 4460,
+  "kaplam_km2": {
+   "eflak": 2036.8,
+   "OSM-tabi": 1154.6,
+   "OSM-dogrudan": 1072.9,
+   "rusya": 190.2
+  },
+  "cift_sayisi": 0,
+  "cifte_iddia_toplam_km2": 0,
+  "ciftler": {},
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 5.8
+ },
+ "H-0022-2 Yergöğü 1836-01-01": {
+  "gun": "1836-01-01",
+  "kutu_lon0lat0lon1lat1": [
+   24.77,
+   43.54,
+   26.54,
+   44.36
+  ],
+  "kutu_km2": 12949,
+  "kaplam_km2": {
+   "OSM-dogrudan": 4955.1,
+   "eflak": 4060.1,
+   "OSM-tabi": 3953.5
+  },
+  "cift_sayisi": 1,
+  "cifte_iddia_toplam_km2": 33.8,
+  "ciftler": {
+   "OSM-tabi + eflak": {
+    "km2": 33.8,
+    "merkez": [
+     44.264,
+     25.507
+    ]
+   }
+  },
+  "hicbir_govdenin_kaplamadigi_km2_denizDahil": 13.9
+ }
+}

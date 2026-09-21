@@ -1,0 +1,299 @@
+{
+ "H-0017-1 Eflak-Boğdan": {
+  "gun": "1834-01-01",
+  "kara_hucre_0.02": 130204,
+  "sahipsiz_hucre": 129,
+  "hucre_sahibi": {
+   "avusturya": 48393,
+   "OSM-tabi": 32707,
+   "OSM-dogrudan": 31069,
+   "rusya": 15608,
+   "eflak": 1702,
+   "OSM-tabi + avusturya": 386,
+   "SAHİPSİZ": 129,
+   "OSM-dogrudan + avusturya": 114,
+   "OSM-tabi + rusya": 74,
+   "OSM-dogrudan + rusya": 12,
+   "OSM-tabi + eflak": 9,
+   "OSM-dogrudan + OSM-tabi": 1
+  },
+  "eflak_govdesindeki_hucrelerin_en_yakin_noktasi": {
+   "Yergöğü (Giurgiu) [eflak]": 554,
+   "İbrail [eflak]": 405,
+   "Niğbolu [OSM-dogrudan]": 355,
+   "Rusçuk [OSM-dogrudan]": 183,
+   "İshakçı (Isaccea) [OSM-dogrudan]": 73,
+   "Babadağı (Babadag) [OSM-dogrudan]": 58
+  },
+  "sahipsiz_ornek": [
+   [
+    25.13,
+    43.74
+   ],
+   [
+    25.09,
+    43.76
+   ],
+   [
+    25.67,
+    44.24
+   ],
+   [
+    22.49,
+    44.58
+   ],
+   [
+    22.49,
+    44.6
+   ],
+   [
+    22.49,
+    44.62
+   ],
+   [
+    22.49,
+    44.64
+   ],
+   [
+    22.51,
+    44.64
+   ],
+   [
+    22.49,
+    44.66
+   ],
+   [
+    22.51,
+    44.66
+   ]
+  ]
+ },
+ "H-0017-2 Yergöğü": {
+  "gun": "1834-01-01",
+  "kara_hucre_0.02": 18414,
+  "sahipsiz_hucre": 9,
+  "hucre_sahibi": {
+   "OSM-tabi": 9050,
+   "OSM-dogrudan": 7020,
+   "eflak": 1716,
+   "avusturya": 495,
+   "OSM-tabi + avusturya": 87,
+   "rusya": 28,
+   "SAHİPSİZ": 9,
+   "OSM-tabi + eflak": 9
+  },
+  "eflak_govdesindeki_hucrelerin_en_yakin_noktasi": {
+   "Yergöğü (Giurgiu) [eflak]": 542,
+   "İbrail [eflak]": 398,
+   "Niğbolu [OSM-dogrudan]": 357,
+   "Rusçuk [OSM-dogrudan]": 199,
+   "İshakçı (Isaccea) [OSM-dogrudan]": 83,
+   "Babadağı (Babadag) [OSM-dogrudan]": 57
+  },
+  "sahipsiz_ornek": [
+   [
+    25.16,
+    43.73
+   ],
+   [
+    25.08,
+    43.75
+   ],
+   [
+    25.1,
+    43.75
+   ],
+   [
+    25.12,
+    43.75
+   ],
+   [
+    25.08,
+    43.77
+   ],
+   [
+    27.88,
+    44.73
+   ],
+   [
+    27.88,
+    44.75
+   ],
+   [
+    26.24,
+    45.41
+   ],
+   [
+    26.26,
+    45.47
+   ]
+  ]
+ },
+ "H-0022-1 İbrail": {
+  "gun": "1836-01-01",
+  "kara_hucre_0.02": 1260,
+  "sahipsiz_hucre": 1,
+  "hucre_sahibi": {
+   "eflak": 588,
+   "OSM-tabi": 319,
+   "OSM-dogrudan": 301,
+   "rusya": 51,
+   "SAHİPSİZ": 1
+  },
+  "eflak_govdesindeki_hucrelerin_en_yakin_noktasi": {
+   "İbrail [eflak]": 409,
+   "İshakçı (Isaccea) [OSM-dogrudan]": 81,
+   "Babadağı (Babadag) [OSM-dogrudan]": 52,
+   "Kalas (Galatz) [OSM-tabi]": 46
+  },
+  "sahipsiz_ornek": [
+   [
+    27.88,
+    44.74
+   ]
+  ]
+ },
+ "H-0022-2 Yergöğü": {
+  "gun": "1836-01-01",
+  "kara_hucre_0.02": 3608,
+  "sahipsiz_hucre": 5,
+  "hucre_sahibi": {
+   "OSM-dogrudan": 1366,
+   "eflak": 1134,
+   "OSM-tabi": 1094,
+   "OSM-tabi + eflak": 9,
+   "SAHİPSİZ": 5
+  },
+  "eflak_govdesindeki_hucrelerin_en_yakin_noktasi": {
+   "Yergöğü (Giurgiu) [eflak]": 542,
+   "Niğbolu [OSM-dogrudan]": 357,
+   "Rusçuk [OSM-dogrudan]": 199,
+   "Bükreş [OSM-tabi]": 42,
+   "Piteşti [OSM-tabi]": 2,
+   "Slatina [OSM-tabi]": 1
+  },
+  "sahipsiz_ornek": [
+   [
+    25.16,
+    43.73
+   ],
+   [
+    25.08,
+    43.75
+   ],
+   [
+    25.1,
+    43.75
+   ],
+   [
+    25.12,
+    43.75
+   ],
+   [
+    25.08,
+    43.77
+   ]
+  ]
+ },
+ "_piksel": {
+  "H-0022-2.png": {
+   "olculen_rgb": [
+    165,
+    211,
+    142
+   ],
+   "adaylar": {
+    "eflak": {
+     "beklenen_rgb_0.44": [
+      169,
+      214,
+      142
+     ],
+     "dE76": 1.8
+    },
+    "rusya": {
+     "beklenen_rgb_0.44": [
+      170,
+      190,
+      143
+     ],
+     "dE76": 15.7
+    },
+    "bogdan": {
+     "beklenen_rgb_0.44": [
+      151,
+      198,
+      148
+     ],
+     "dE76": 10.5
+    }
+   }
+  },
+  "H-0022-1.png": {
+   "olculen_rgb": [
+    166,
+    211,
+    143
+   ],
+   "adaylar": {
+    "eflak": {
+     "beklenen_rgb_0.44": [
+      169,
+      214,
+      142
+     ],
+     "dE76": 2.2
+    },
+    "rusya": {
+     "beklenen_rgb_0.44": [
+      170,
+      190,
+      143
+     ],
+     "dE76": 15.1
+    },
+    "bogdan": {
+     "beklenen_rgb_0.44": [
+      151,
+      198,
+      148
+     ],
+     "dE76": 10.1
+    }
+   }
+  },
+  "H-0017-2.png": {
+   "olculen_rgb": [
+    165,
+    210,
+    141
+   ],
+   "adaylar": {
+    "eflak": {
+     "beklenen_rgb_0.44": [
+      169,
+      214,
+      142
+     ],
+     "dE76": 2.0
+    },
+    "rusya": {
+     "beklenen_rgb_0.44": [
+      170,
+      190,
+      143
+     ],
+     "dE76": 15.4
+    },
+    "bogdan": {
+     "beklenen_rgb_0.44": [
+      151,
+      198,
+      148
+     ],
+     "dE76": 10.4
+    }
+   }
+  }
+ }
+}

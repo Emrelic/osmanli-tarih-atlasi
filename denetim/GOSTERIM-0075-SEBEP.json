@@ -1,0 +1,175 @@
+{
+ "1837-10-13": {
+  "OSM-tabi + abdulkadir": {
+   "km2": 1671,
+   "merkez": [
+    35.108,
+    4.673
+   ],
+   "ornek": 417,
+   "pay_OSM-tabi_petegi": 60.7,
+   "pay_abdulkadir_petegi": 39.3,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 70.6,
+   "medyan_km_A_kendi_noktasina": 72.3,
+   "medyan_km_B_kendi_noktasina": 76.7,
+   "A_noktasi": 192,
+   "B_noktasi": 10
+  },
+  "OSM-tabi + fransa-cumhuriyet": {
+   "km2": 2487,
+   "merkez": [
+    36.493,
+    5.649
+   ],
+   "ornek": 608,
+   "pay_OSM-tabi_petegi": 43.3,
+   "pay_fransa-cumhuriyet_petegi": 56.7,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 33.2,
+   "medyan_km_A_kendi_noktasina": 41.9,
+   "medyan_km_B_kendi_noktasina": 42.2,
+   "A_noktasi": 192,
+   "B_noktasi": 75
+  },
+  "abdulkadir + fransa-cumhuriyet": {
+   "km2": 2777,
+   "merkez": [
+    35.643,
+    0.839
+   ],
+   "ornek": 684,
+   "pay_abdulkadir_petegi": 11.0,
+   "pay_fransa-cumhuriyet_petegi": 88.5,
+   "pay_ucuncu_veya_sahipsiz": {
+    "fas": 0.1,
+    "OSM-tabi": 0.4
+   },
+   "en_yakin_nokta_uzaklik_medyan_km": 46.1,
+   "medyan_km_A_kendi_noktasina": 61.0,
+   "medyan_km_B_kendi_noktasina": 46.2,
+   "A_noktasi": 10,
+   "B_noktasi": 75
+  }
+ },
+ "1832-03-01": {
+  "OSM-tabi + fransa-cumhuriyet": {
+   "km2": 2277,
+   "merkez": [
+    35.825,
+    2.901
+   ],
+   "ornek": 566,
+   "pay_OSM-tabi_petegi": 14.8,
+   "pay_fransa-cumhuriyet_petegi": 85.0,
+   "pay_ucuncu_veya_sahipsiz": {
+    "fas": 0.2
+   },
+   "en_yakin_nokta_uzaklik_medyan_km": 37.7,
+   "medyan_km_A_kendi_noktasina": 51.1,
+   "medyan_km_B_kendi_noktasina": 38.3,
+   "A_noktasi": 245,
+   "B_noktasi": 69
+  }
+ },
+ "1847-05-31": {
+  "OSM-dogrudan + kacar": {
+   "km2": 3753,
+   "merkez": [
+    32.524,
+    47.241
+   ],
+   "ornek": 900,
+   "pay_OSM-dogrudan_petegi": 47.3,
+   "pay_kacar_petegi": 52.7,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 32.0,
+   "medyan_km_A_kendi_noktasina": 40.4,
+   "medyan_km_B_kendi_noktasina": 48.0,
+   "A_noktasi": 544,
+   "B_noktasi": 109
+  }
+ },
+ "1834-01-01": {
+  "OSM-dogrudan + avusturya": {
+   "km2": 4217,
+   "merkez": [
+    44.852,
+    17.937
+   ],
+   "ornek": 1190,
+   "pay_OSM-dogrudan_petegi": 18.4,
+   "pay_avusturya_petegi": 81.6,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 37.1,
+   "medyan_km_A_kendi_noktasina": 57.7,
+   "medyan_km_B_kendi_noktasina": 38.4,
+   "A_noktasi": 498,
+   "B_noktasi": 93
+  },
+  "OSM-dogrudan + rusya": {
+   "km2": 1322,
+   "merkez": [
+    41.816,
+    41.963
+   ],
+   "ornek": 350,
+   "pay_OSM-dogrudan_petegi": 72.9,
+   "pay_rusya_petegi": 27.1,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 27.2,
+   "medyan_km_A_kendi_noktasina": 29.6,
+   "medyan_km_B_kendi_noktasina": 35.6,
+   "A_noktasi": 498,
+   "B_noktasi": 403
+  },
+  "OSM-tabi + avusturya": {
+   "km2": 1349,
+   "merkez": [
+    45.722,
+    24.539
+   ],
+   "ornek": 386,
+   "pay_OSM-tabi_petegi": 42.2,
+   "pay_avusturya_petegi": 57.8,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 57.5,
+   "medyan_km_A_kendi_noktasina": 65.3,
+   "medyan_km_B_kendi_noktasina": 59.0,
+   "A_noktasi": 234,
+   "B_noktasi": 93
+  },
+  "OSM-tabi + rusya": {
+   "km2": 246,
+   "merkez": [
+    46.911,
+    28.184
+   ],
+   "ornek": 73,
+   "pay_OSM-tabi_petegi": 94.5,
+   "pay_rusya_petegi": 5.5,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 60.0,
+   "medyan_km_A_kendi_noktasina": 60.0,
+   "medyan_km_B_kendi_noktasina": 74.7,
+   "A_noktasi": 234,
+   "B_noktasi": 403
+  },
+  "avusturya + rusya": {
+   "km2": 721,
+   "merkez": [
+    48.57,
+    25.745
+   ],
+   "ornek": 220,
+   "pay_avusturya_petegi": 96.8,
+   "pay_rusya_petegi": 3.2,
+   "pay_ucuncu_veya_sahipsiz": {},
+   "en_yakin_nokta_uzaklik_medyan_km": 28.8,
+   "medyan_km_A_kendi_noktasina": 28.8,
+   "medyan_km_B_kendi_noktasina": 55.6,
+   "A_noktasi": 93,
+   "B_noktasi": 403
+  }
+ }
+}

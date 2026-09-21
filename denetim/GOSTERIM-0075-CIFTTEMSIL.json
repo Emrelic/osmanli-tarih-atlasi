@@ -1,0 +1,337 @@
+{
+ "ozet": {
+  "cift_temsil_nokta_pencere": 14,
+  "farkli_nokta": 14,
+  "farkli_kimlik": 4,
+  "kimlik_bazinda": {
+   "bulgaristan-prensligi": {
+    "nokta_pencere": 6,
+    "toplam_gun": 58374
+   },
+   "eflak": {
+    "nokta_pencere": 2,
+    "toplam_gun": 21448
+   },
+   "haciemir": {
+    "nokta_pencere": 5,
+    "toplam_gun": 7585
+   },
+   "sirbistan-prensligi": {
+    "nokta_pencere": 1,
+    "toplam_gun": 183
+   }
+  }
+ },
+ "ilk_80": [
+  {
+   "nokta": "İhtiman",
+   "lat": 42.433,
+   "lon": 23.817,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1878-07-13",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 11041,
+   "yil": 30.2,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Niğbolu",
+   "lat": 43.706,
+   "lon": 24.892,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1878-07-13",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 11041,
+   "yil": 30.2,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Plevne",
+   "lat": 43.417,
+   "lon": 24.617,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1878-07-13",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 11041,
+   "yil": 30.2,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "İbrail",
+   "lat": 45.27,
+   "lon": 27.972,
+   "kimlik": "eflak",
+   "s_f": "1829-09-14",
+   "s_t": "1859-01-24",
+   "v_ile_orten_gun": 10724,
+   "yil": 29.4,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Yergöğü (Giurgiu)",
+   "lat": 43.904,
+   "lon": 25.97,
+   "kimlik": "eflak",
+   "s_f": "1829-09-14",
+   "s_t": "1859-01-24",
+   "v_ile_orten_gun": 10724,
+   "yil": 29.4,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Eski Zağra (Stara Zagora)",
+   "lat": 42.425,
+   "lon": 25.633,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1885-09-18",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 8417,
+   "yil": 23.0,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Tatarpazarcığı",
+   "lat": 42.192,
+   "lon": 24.333,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1885-09-18",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 8417,
+   "yil": 23.0,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Filibe",
+   "lat": 42.144,
+   "lon": 24.75,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1885-09-18",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 8417,
+   "yil": 23.0,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Ordu (Bayramlı)",
+   "lat": 40.976,
+   "lon": 37.848,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Ünye",
+   "lat": 41.128,
+   "lon": 37.283,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Mesudiye (Milas)",
+   "lat": 40.4633,
+   "lon": 37.7728,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Gölköy (Habsamana)",
+   "lat": 40.6878,
+   "lon": 37.6178,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Reşadiye (İskefsir)",
+   "lat": 40.3919,
+   "lon": 37.3375,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Niş",
+   "lat": 43.321,
+   "lon": 21.896,
+   "kimlik": "sirbistan-prensligi",
+   "s_f": "1878-01-11",
+   "s_t": "1882-03-06",
+   "v_ile_orten_gun": 183,
+   "yil": 0.5,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  }
+ ],
+ "hepsi": [
+  {
+   "nokta": "İhtiman",
+   "lat": 42.433,
+   "lon": 23.817,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1878-07-13",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 11041,
+   "yil": 30.2,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Niğbolu",
+   "lat": 43.706,
+   "lon": 24.892,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1878-07-13",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 11041,
+   "yil": 30.2,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Plevne",
+   "lat": 43.417,
+   "lon": 24.617,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1878-07-13",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 11041,
+   "yil": 30.2,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "İbrail",
+   "lat": 45.27,
+   "lon": 27.972,
+   "kimlik": "eflak",
+   "s_f": "1829-09-14",
+   "s_t": "1859-01-24",
+   "v_ile_orten_gun": 10724,
+   "yil": 29.4,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Yergöğü (Giurgiu)",
+   "lat": 43.904,
+   "lon": 25.97,
+   "kimlik": "eflak",
+   "s_f": "1829-09-14",
+   "s_t": "1859-01-24",
+   "v_ile_orten_gun": 10724,
+   "yil": 29.4,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Eski Zağra (Stara Zagora)",
+   "lat": 42.425,
+   "lon": 25.633,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1885-09-18",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 8417,
+   "yil": 23.0,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Tatarpazarcığı",
+   "lat": 42.192,
+   "lon": 24.333,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1885-09-18",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 8417,
+   "yil": 23.0,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Filibe",
+   "lat": 42.144,
+   "lon": 24.75,
+   "kimlik": "bulgaristan-prensligi",
+   "s_f": "1885-09-18",
+   "s_t": "1908-10-05",
+   "v_ile_orten_gun": 8417,
+   "yil": 23.0,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  },
+  {
+   "nokta": "Ordu (Bayramlı)",
+   "lat": 40.976,
+   "lon": 37.848,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Ünye",
+   "lat": 41.128,
+   "lon": 37.283,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Mesudiye (Milas)",
+   "lat": 40.4633,
+   "lon": 37.7728,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Gölköy (Habsamana)",
+   "lat": 40.6878,
+   "lon": 37.6178,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Reşadiye (İskefsir)",
+   "lat": 40.3919,
+   "lon": 37.3375,
+   "kimlik": "haciemir",
+   "s_f": "1350-01-01",
+   "s_t": "1427-06-01",
+   "v_ile_orten_gun": 1517,
+   "yil": 4.2,
+   "bu_noktanin_kendi_v_kaydi_var": true
+  },
+  {
+   "nokta": "Niş",
+   "lat": 43.321,
+   "lon": 21.896,
+   "kimlik": "sirbistan-prensligi",
+   "s_f": "1878-01-11",
+   "s_t": "1882-03-06",
+   "v_ile_orten_gun": 183,
+   "yil": 0.5,
+   "bu_noktanin_kendi_v_kaydi_var": false
+  }
+ ]
+}

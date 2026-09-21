@@ -1,0 +1,118 @@
+{
+ "Cezayir": [
+  {
+   "cift": "OSM-tabi + fransa-cumhuriyet",
+   "gun": 34083,
+   "yil": 93.3,
+   "ilk": "1830-07-05",
+   "son": "1923-10-29",
+   "kayit_cifti": 199,
+   "en_buyuk_km2": 2487,
+   "km2_gun": 31073128
+  },
+  {
+   "cift": "abdulkadir + fransa-cumhuriyet",
+   "gun": 4120,
+   "yil": 11.3,
+   "ilk": "1832-11-22",
+   "son": "1844-03-04",
+   "kayit_cifti": 11,
+   "en_buyuk_km2": 2881,
+   "km2_gun": 10050459
+  },
+  {
+   "cift": "OSM-tabi + abdulkadir",
+   "gun": 4120,
+   "yil": 11.3,
+   "ilk": "1832-11-22",
+   "son": "1844-03-04",
+   "kayit_cifti": 22,
+   "en_buyuk_km2": 1672,
+   "km2_gun": 4936352
+  },
+  {
+   "cift": "fas + fransa-cumhuriyet",
+   "gun": 7465,
+   "yil": 20.4,
+   "ilk": "1844-03-04",
+   "son": "1916-02-16",
+   "kayit_cifti": 14,
+   "en_buyuk_km2": 172,
+   "km2_gun": 1018777
+  }
+ ],
+ "Şattülarap": [
+  {
+   "cift": "OSM-dogrudan + kacar",
+   "gun": 44777,
+   "yil": 122.6,
+   "ilk": "1794-01-01",
+   "son": "1917-03-11",
+   "kayit_cifti": 155,
+   "en_buyuk_km2": 4028,
+   "km2_gun": 85472109
+  }
+ ],
+ "Yergöğü-İbrail": [
+  {
+   "cift": "OSM-tabi + avusturya",
+   "gun": 69731,
+   "yil": 190.9,
+   "ilk": "1687-08-12",
+   "son": "1878-07-13",
+   "kayit_cifti": 196,
+   "en_buyuk_km2": 1253,
+   "km2_gun": 47436208
+  },
+  {
+   "cift": "OSM-dogrudan + eflak",
+   "gun": 21114,
+   "yil": 57.8,
+   "ilk": "1393-09-01",
+   "son": "1462-06-01",
+   "kayit_cifti": 54,
+   "en_buyuk_km2": 1087,
+   "km2_gun": 21427076
+  },
+  {
+   "cift": "bogdan + eflak",
+   "gun": 64068,
+   "yil": 175.4,
+   "ilk": "1281-01-01",
+   "son": "1456-06-01",
+   "kayit_cifti": 4,
+   "en_buyuk_km2": 331,
+   "km2_gun": 20855673
+  },
+  {
+   "cift": "OSM-dogrudan + bogdan",
+   "gun": 18923,
+   "yil": 51.8,
+   "ilk": "1393-09-01",
+   "son": "1456-06-01",
+   "kayit_cifti": 44,
+   "en_buyuk_km2": 203,
+   "km2_gun": 2449480
+  },
+  {
+   "cift": "OSM-tabi + eflak",
+   "gun": 2191,
+   "yil": 6.0,
+   "ilk": "1456-06-01",
+   "son": "1462-06-01",
+   "kayit_cifti": 10,
+   "en_buyuk_km2": 414,
+   "km2_gun": 802930
+  },
+  {
+   "cift": "OSM-dogrudan + rusya",
+   "gun": 362,
+   "yil": 1.0,
+   "ilk": "1877-07-16",
+   "son": "1878-07-13",
+   "kayit_cifti": 7,
+   "en_buyuk_km2": 167,
+   "km2_gun": 46609
+  }
+ ]
+}
