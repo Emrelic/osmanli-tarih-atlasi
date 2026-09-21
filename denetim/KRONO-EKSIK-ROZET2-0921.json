@@ -1,10 +1,25 @@
 {
- "evren_madde": 1731,
+ "evren_madde": 1736,
  "alani_olan_madde": 41,
  "cift_sayisi": 99,
  "pencere_gun": 30,
  "hal_dagilimi": {
-  "TUTUYOR": 99
+  "TUTUYOR": 98,
+  "YON-TERS": 1
  },
- "celiskili_ciftler": []
+ "celiskili_ciftler": [
+  {
+   "t": "1482-01-01",
+   "b": "Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
+   "alan": "fethedilen",
+   "ad": "Cetinje",
+   "en_yakin_kirilma_gun_farki": 0,
+   "en_yakin_kirilma": {
+    "kova": "v",
+    "uc": "f",
+    "kimlik": "zeta"
+   },
+   "hal": "YON-TERS"
+  }
+ ]
 }

@@ -65,6 +65,32 @@ def kirilmalar(y):
     return out
 
 
+# 🔴 KOVA ANLAMLARI — YÖN BUNLARDAN OKUNUR (21 Eylül 2026, ikinci düzeltme).
+# Atlas OSMANLI ÇERÇEVELİDİR:
+#   `d`   DOĞRUDAN Osmanlı idaresi → başlaması KAZANÇ, bitmesi KAYIP
+#   `s`   YABANCI devletin dönemi  → başlaması KAYIP,  bitmesi KAZANÇ
+#   `isg` İŞGAL dönemi             → başlaması KAYIP,  bitmesi KAZANÇ
+#   `v`   TÂBİLİK                  → statü ekseni; kazanç/kayıp ekseninde SAYILMAZ
+#
+# ⚠️ İLK İKİ YAZIMDA `s` YANLIŞTI ("f = kazanç"): bir YABANCI döneminin
+# BAŞLAMASI kazanç değil KAYIPTIR. Bu alette kusur MASKELİYDİ, çünkü burada
+# `any()` soruluyor ve tipik bir fetih gününde `s:t` ile `d:f` AYNI GÜNDE
+# bulunuyor — hangi kuralla bakılırsa bakılsın pencere doluydu. Kusur ancak
+# ADAY üreticisinde (tek yön seçmek gerekince) görünür oldu ve bütün Osmanlı
+# fetihlerini `kaybedilen` diye öneriyordu. Kural burada da düzeltildi ki iki
+# alet aynı tanımı kullansın.
+KAZANC = {("d", "f"), ("s", "t"), ("isg", "t")}
+KAYIP = {("d", "t"), ("s", "f"), ("isg", "f")}
+
+
+def kazanc_mi(k):
+    return (k["kova"], k["uc"]) in KAZANC
+
+
+def kayip_mi(k):
+    return (k["kova"], k["uc"]) in KAYIP
+
+
 def main():
     olaylar = denetle.olaylari_yukle()
     Y = denetle.yerlesimleri_yukle()
@@ -106,19 +132,9 @@ def main():
                 else:
                     # yön sınavı: kazanç = bir dönemin BAŞLAMASI (f),
                     #             kayıp  = bir dönemin BİTMESİ  (t)
-                    # 🔴 `isg` KOVASINDA YÖN TERSTİR ve bu ilk yazımda
-                    # atlanmıştı: işgal döneminin BAŞLAMASI sahibi için bir
-                    # KAYIP, BİTMESİ bir KAZANÇTIR. Düz "f = kazanç" kuralı
-                    # Böğürdelen 1788-04-24'ü (gün farkı 0, birebir doğru
-                    # kayıt) yanlışlıkla YON-TERS sayıyordu. Aletin kuralı
-                    # düzeltildi, veri değil.
                     pencere = [k for k in ks if abs(k["g"] - og) <= PENCERE]
-
-                    def kazanc(k):
-                        return k["uc"] == ("t" if k["kova"] == "isg" else "f")
-
-                    baslayan = any(kazanc(k) for k in pencere)
-                    biten = any(not kazanc(k) for k in pencere)
+                    baslayan = any(kazanc_mi(k) for k in pencere)
+                    biten = any(kayip_mi(k) for k in pencere)
                     if a == "fethedilen" and not baslayan:
                         kayit["hal"] = "YON-TERS"
                     elif a == "kaybedilen" and not biten:
@@ -181,12 +197,13 @@ def sina():
             return "UZAK"
         pencere = [k for k in ks if abs(k["g"] - og) <= PENCERE]
 
-        def kazanc(k):
-            return k["uc"] == ("t" if k["kova"] == "isg" else "f")
-
-        if alan == "fethedilen" and not any(kazanc(k) for k in pencere):
+        # 🔴 SINAV, ÖLÇÜMÜN KURALINI KOPYALAMAZ — AYNI FONKSİYONU ÇAĞIRIR.
+        # İlk yazımda kural burada ikinci kez yazılmıştı; düzeltme main()'de
+        # yapılınca sınav ESKİ kuralı sınamaya devam ederdi ve "5/5 geçti"
+        # diyerek düzeltilmemiş bir aleti onaylardı.
+        if alan == "fethedilen" and not any(kazanc_mi(k) for k in pencere):
             return "YON-TERS"
-        if alan == "kaybedilen" and not any(not kazanc(k) for k in pencere):
+        if alan == "kaybedilen" and not any(kayip_mi(k) for k in pencere):
             return "YON-TERS"
         return "TUTUYOR"
 

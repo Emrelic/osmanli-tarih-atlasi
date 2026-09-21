@@ -1,0 +1,1448 @@
+{
+ "evren_madde": 1736,
+ "kova_198_gercek_boyut": 198,
+ "islenen": 20,
+ "pencere_gun": 30,
+ "sira": "t artan, eşitse b",
+ "toplam_aday": 113,
+ "toplam_guclu_aday": 57,
+ "adaysiz_madde": 0,
+ "maddeler": [
+  {
+   "t": "1288-01-01",
+   "k": "fetih",
+   "b": "Karacahisar'ın fethi — ilk şehir kazanımı ve Eskişehir'e hâkimiyet",
+   "yer": "Karacahisar, Eskişehir",
+   "aday_sayisi": 2,
+   "guclu_aday": 2,
+   "adaylar": [
+    {
+     "ad": "Eskişehir",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Karacahisar",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1299-01-01",
+   "k": "fetih",
+   "b": "Bilecik ve Yarhisar'ın gece baskınıyla fethi",
+   "yer": "Bilecik, Yarhisar",
+   "aday_sayisi": 3,
+   "guclu_aday": 3,
+   "adaylar": [
+    {
+     "ad": "Bilecik",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Yarhisar",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "İnegöl",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1302-08-01",
+   "k": "savas",
+   "b": "İznik'in ilk kuşatması ve Marmaracık'ın fethi",
+   "yer": "İznik, Marmaracık",
+   "aday_sayisi": 1,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "Marmaracık",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1303-01-01",
+   "k": "savas",
+   "b": "Dimbos zaferi ve ardından Kite ile Ulubat'ın alınması",
+   "yer": "Dimbos Boğazı (Bursa-İnegöl arası), Kite, Ulubat",
+   "aday_sayisi": 3,
+   "guclu_aday": 3,
+   "adaylar": [
+    {
+     "ad": "Dimbos",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Kestel",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Kite",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1304-01-01",
+   "k": "fetih",
+   "b": "Sakarya seferi: Leblebicihisar, Lefke, Mekece ve Geyve'nin alınması",
+   "yer": "Lefke (Osmaneli), Mekece, Geyve, Akhisar",
+   "aday_sayisi": 12,
+   "guclu_aday": 5,
+   "adaylar": [
+    {
+     "ad": "Akhisar",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Geyve",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Leblebicihisar",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Lefke",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Mekece",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Baroda",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Broaç",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Diu",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kanbâyet",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Patan",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Sûrat",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Çampâner",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1305-01-01",
+   "k": "fetih",
+   "b": "Geyve Boğazı kalelerinin fethi: Karaçepüş, Karatigin ve Absu",
+   "yer": "Geyve Boğazı ve İznik çevresi",
+   "aday_sayisi": 6,
+   "guclu_aday": 3,
+   "adaylar": [
+    {
+     "ad": "Absu",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Karatigin",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Karaçepüş",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Mandu",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Sultâniye",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→ilhanli +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Uccayn",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→racput +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1310-08-15",
+   "k": "fetih",
+   "b": "Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyelerince fethi",
+   "yer": "Rodos, İstanköy, Sömbeki (Simi), Lindos, Herke (Halki), Kelemez (Kalimnos), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros)",
+   "aday_sayisi": 9,
+   "guclu_aday": 9,
+   "adaylar": [
+    {
+     "ad": "Herke",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Kelemez",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Lindos",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Rodos",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Sömbeki",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "İleryoz",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "İlyaki",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "İncirli",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "İstanköy",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sovalye +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1322-01-01",
+   "k": null,
+   "b": "Sinop, Gazi Çelebi tarafından ele geçirilip Candaroğulları nüfuzuna girdi",
+   "yer": "",
+   "aday_sayisi": 2,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "Sinop",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→candar +0",
+      "s:t→pervane +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Bîdar",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→delhi-sultanligi +0",
+      "s:t→kakatiya +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1324-01-01",
+   "k": "fetih",
+   "b": "Akyazı ve İmralı Adası'nın fethi",
+   "yer": "Akyazı, İmralı Adası",
+   "aday_sayisi": 5,
+   "guclu_aday": 2,
+   "adaylar": [
+    {
+     "ad": "Akyazı",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "İmralı Adası",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Gao",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→mali-imparatorlugu +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kalyari",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→aragon +0",
+      "s:t→ceneviz +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Sasari",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→aragon +0",
+      "s:t→ceneviz +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1324-03-01",
+   "k": "fetih",
+   "b": "Gemlik (Kios) ve Armutlu'nun fethi",
+   "yer": "Gemlik körfezi",
+   "aday_sayisi": 2,
+   "guclu_aday": 2,
+   "adaylar": [
+    {
+     "ad": "Armutlu",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Gemlik",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1325-01-01",
+   "k": "fetih",
+   "b": "Konuralp'in Bolu yöresini fethi — Mudurnu, Konurapa ve Bolu",
+   "yer": "Bolu, Konurapa (Düzce), Mudurnu",
+   "aday_sayisi": 29,
+   "guclu_aday": 3,
+   "adaylar": [
+    {
+     "ad": "Bolu",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→candar +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Konurapa",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→candar +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Mudurnu",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→candar +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Arzamas",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Dmitrov",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Galiç",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Ihuatzio",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→purepecha-imparatorlugu +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kaluga",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kasimov",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kaşira",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kineşma",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kolomna",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kostroma",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Mojaysk",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Moskova",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Murom",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Nijniy Novgorod",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Pátzcuaro",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→purepecha-imparatorlugu +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Rostov Veliki",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Serpuhov",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Suzdal",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Temnikov",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Tenochtitlan",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→aztek-imparatorlugu +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Uglich",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Vetluga",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Vladimir",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Volokolamsk",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Yaroslavl",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Şuya",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0",
+      "s:t→altinorda +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1326-04-06",
+   "k": "fetih",
+   "b": "Bursa'nın fethi",
+   "yer": "Bursa",
+   "aday_sayisi": 1,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "Bursa",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1329-06-01",
+   "k": "savas",
+   "b": "Pelekanon (Maltepe) Savaşı ve Kocaeli'nin tamamının alınması",
+   "yer": "Pelekanon (Eskihisar-Darıca), Gebze, Hereke, Samandıra, Aydos Kalesi",
+   "aday_sayisi": 6,
+   "guclu_aday": 6,
+   "adaylar": [
+    {
+     "ad": "Aydos Kalesi",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Gebze",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Hereke",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Pelekanon",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Samandıra",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Üsküdar",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1330-06-01",
+   "k": "fetih",
+   "b": "Kocaeli kıyılarının ve Kandıra'nın fethi",
+   "yer": "Kandıra, İzmit körfezi kuzeyi",
+   "aday_sayisi": 1,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "Kandıra",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1330-06-01",
+   "k": "spor",
+   "b": "Orhan Gazi'nin Bursa fethi sonrası cirit oyunları için alan vakfetmesi",
+   "yer": "Bursa",
+   "aday_sayisi": 1,
+   "guclu_aday": 0,
+   "adaylar": [
+    {
+     "ad": "Kandıra",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1331-03-02",
+   "k": "fetih",
+   "b": "İznik'in fethi",
+   "yer": "İznik",
+   "aday_sayisi": 1,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "İznik",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    }
+   ]
+  },
+  {
+   "t": "1337-01-01",
+   "k": "fetih",
+   "b": "İzmit'in fethi",
+   "yer": "İzmit",
+   "aday_sayisi": 6,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "İzmit",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Elbistan",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→dulkadir +0",
+      "s:t→ilhanli +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Göksun",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→dulkadir +0",
+      "s:t→ilhanli +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Maraş",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→dulkadir +0",
+      "s:t→memluk +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Sergiyev Posad",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→moskova +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Tilimsan",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→merini +0",
+      "s:t→zeyyani +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1345-01-01",
+   "k": "fetih",
+   "b": "Karesi Beyliği'nin ilhakı: Balıkesir, Bergama, Biga, Edremit ve Erdek",
+   "yer": "Balıkesir, Bergama, Biga, Çanakkale, Edremit, Erdek, Ayvalık, Behramkale (Assos), Karabiga, Kirmasti, Mihaliç",
+   "aday_sayisi": 17,
+   "guclu_aday": 9,
+   "adaylar": [
+    {
+     "ad": "Ayvalık",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Balıkesir",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Behramkale",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Bergama",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Biga",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Edremit",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Erdek",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Karabiga",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Çanakkale",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→karesi +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Drama",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Gevgili",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Karaferye",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Kılkış",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Nevrokop",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Petriç",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Serez",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    },
+    {
+     "ad": "Vodina",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→sirbistan +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1361-05-05",
+   "k": "fetih",
+   "b": "Edirne'nin fethi",
+   "yer": "Edirne, Havsa, Kumçiftliği, Lalapaşa",
+   "aday_sayisi": 4,
+   "guclu_aday": 3,
+   "adaylar": [
+    {
+     "ad": "Edirne",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Havsa",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Lalapaşa",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Orestiada",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  },
+  {
+   "t": "1363-01-01",
+   "k": "fetih",
+   "b": "Batı Trakya'ya iniş: Gümülcine'nin fethi",
+   "yer": "Gümülcine (Komotini)",
+   "aday_sayisi": 2,
+   "guclu_aday": 1,
+   "adaylar": [
+    {
+     "ad": "Gümülcine",
+     "onerilen_alan": "fethedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "d:f +0",
+      "s:t→bizans +0"
+     ],
+     "metinde_geciyor": true,
+     "guc": "GÜÇLÜ"
+    },
+    {
+     "ad": "Vinnitsa",
+     "onerilen_alan": "kaybedilen",
+     "gun_farki": 0,
+     "kirilmalar": [
+      "s:f→litvanya-buyuk-dukalik +0"
+     ],
+     "metinde_geciyor": false,
+     "guc": "zayıf"
+    }
+   ]
+  }
+ ]
+}
