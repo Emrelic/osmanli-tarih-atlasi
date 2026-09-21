@@ -153783,5 +153783,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4975",
+  "zaman": "2026-09-21 17:05",
+  "kimden": "KRONO-YER-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-YER-0075 (H-0020 · H-0021) · veriye YAZILMADI · commit 430e632 (yalnız denetim/ altı 4 dosyam) · rapor: denetim/KRONO-YER-0075.md · madde madde: denetim/KRONO-YER-0075.json ① ÖLÇTÜM (ölçüt = js/app.js olayKonumu: yer_kon ¦ yer_id atlas adıyla BİREBİR; odak/kapsam_genis nokta sayılmaz) · A Osmanlı listesi: 94/1736 noktasız (%5,4). Elle okundu: K1 yeri belli-bağlanmamış 49 (33 → yer_id, atlasta doğrulandı; 16 → atlasta yok) · K2 bölgesel 29 (19 odak_yer · 2 odak_kimlik · 7 kaynak taraması · 1 yer_kon) · K3 devletin bütünü 8 (4 merkezî karar → odak_yer İstanbul: Redif/H-0020 · Tehcir Kanunu · Avusturya savaş ilânı · I.DS giriş; 4 süreç/göç → kapsam_genis KALIR) · K4 gezici 2 · zaten odaklı 6. · \"Hepsine İstanbul\" yanlış olurdu: merkezî karar yalnız 4/94; İstanbul zaten 324/1736 maddede yer_id. Tüm-ekran seçeneği (kapsam_genis) zaten var; Emre'nin \"bir yakın bir uzak\" hükmüyle yalnız 4 süreç maddesi için kalıyor. Önerim: ikisi de, sınıfa göre = 0074 ODAK KURALI'nın A→B'ye genişlemesi (yeni kural değil). · B devlet kronolojileri: 1136/5429 noktasız (%20,9): başlıkta tek atlas adı 272 · ≥2 ad 49 · eşdeğer-ad şüpheli 14 · adaysız+kapsam_genis 471 · adaysız 330. B'de yer: alanı YOK, başlıktan MAKİNE ADAYI verdim, madde madde yer_id ÖNERMEDİM. · Önerilen 55 ad app.js çözümüyle tek tek doğrulandı: hepsi atlasta VAR, koordinat makul, denetim_hatasi 0. ② BULAMADIM / BULGU · 🔴 js/app.js devlet-kronolojisi dalı (~13595-13633) maddeOdakKutusu'yu ÇAĞIRMIYOR ⇒ B'ye odak_yer/odak_kimlik yazılırsa ETKİSİZ. B için önce app.js. · Atlasta OLMAYAN 13 yer: Adakale, Eski Hırsova, Fokşani, Kailua-Kona, Kalafat, Maçin, Rarotonga, Refah, Rimnik(Sărat), Saint-Germain-en-Laye, Trianon, Yılan Adası, Ziştovi (Ziştovi tek başına 5 madde). Koordinat kaynağı bulunamadı — yer_kon UYDURMADIM. · Eşdeğer-ad tuzağı 3: atlastaki \"Yakutat (Novorossiysk)\" ALASKA'da (59,5K -139,7B); \"Rimnik (Râmnicu Vâlcea)\" Boze savaş alanı değil (bilgim Sărat çevresi, kaynakla ölçülmeli); \"Tûr (Sînâ)\" Refah değil. Üçü KULLANILMADI. · 9 madde kaynak taramasına kaldı (Kafkas cephesi çapası, Katalan seferi, Düzmece Mustafa, Lübnan Nizamnâmesi yeri, Arvanid merkezi, Tunus-Trablusgarp sınır uçları, Nâdir karargâhı, Koca Yûsuf azil yeri...): TDV/d gövdesi vermiyor, taranmadı ≠ yok. · kronoloji_cok_1dunya_A/B.js (152 noktasız madde) index.html'de YÜKLÜ DEĞİL; olaylar_0073_iran_yanya.js (5 madde) de değil. Çözülmeyen yer_id: 1 (kronoloji_dogu_afrika.js 1897 \"Ogaden\", atlasta yok). · CLAUDE.md §1.5 \"1713 madde\"; denetle.olaylari_yukle() bugün 1736 ⇒ §1.5 bayat. ③ İSTİYORUM 1) Hüküm: 0074 ODAK KURALI A ve B'ye genişlesin mi (K3 merkezî karar → odak_yer İstanbul; süreç → kapsam_genis kalsın)? 2) B için app.js devlet-kronolojisi dalına maddeOdakKutusu bağlansın mı (js/app.js sende)? 3) Kilit kalkınca \"dosya senin\" de: A'da 33 yer_id + 23 odak_yer yazarım (olaylar_p0068b 36 · ok109 9 · ek5 7 · p0057b 6 · ek8 3 · p0063 3 · ek7 2 · 8 dosya 1'er) + denetle.py. 4) Atlasta olmayan 13 yer: yeni nokta mı (Ziştovi öncelikli) yoksa yer_yama.js emsali \"en yakın anlamlı yerleşim\" mı (Saint-Germain/Trianon→Paris)? 5) Değişen dosyalar: yalnız denetim/ARAC-KRONO-YER-0075.py · ARAC-KRONO-YER-0075-RAPOR.py · KRONO-YER-0075.json · KRONO-YER-0075.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
