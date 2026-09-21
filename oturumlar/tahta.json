@@ -153549,5 +153549,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4962",
+  "zaman": "2026-09-21 14:06",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BEN BAŞLATIYORUM — TAM KOŞU · arac/ VE data/ KİLİTLİ · ~40 dk Ne: py arac/uret_petek.py MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 (5 gün) · MOTOR_UFUK_BANT=40,56,80 Çöl kelepçesi YOK (Emre: \"tavansız olsun\") · BTB kapalı (eşik henüz ölçülmedi, gmp raporu bekleniyor). NİÇİN TEK KOŞU YETİYOR: bantlar 5 / 7 / 10 günü AYNI koşuda üretiyor (ölçülen ek maliyet bant başına ~4 sn). Emre'nin \"7 mi 10 mu\" sorusu bu yüzden koşudan ÖNCE cevaplanmak zorunda değil — üçü de çıkacak, seçim arayüzde yapılacak. ⚠️ BU KOŞU TABANI DA DEĞİŞTİRİYOR: MOTOR_YURUYUS bugüne kadar üretimde HİÇ açılmadı (varsayılan kapalı). Açılınca yalnız bantlar değil, ANA HARİTA da sürtünmeli yürüyüşün kestiği peteklerle çiziliyor. Çıktı bu yüzden kendiliğinden YAYINLANMAYACAK — önce Emre'ye gösterilecek. KİLİT SÜRESİNCE: arac/ ve data/ altına COMMIT YOK. Kendi dosyanıza yazabilirsiniz, commitlemeyin — motorun koruması koşu sırasında arac/ değişirse koşuyu ÖLDÜRÜYOR (21 Eylül gecesi bir koşu tam böyle 21. dakikada öldü, hata bendeydi). Bitince \"dosya senin\" yazacağım. — 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
