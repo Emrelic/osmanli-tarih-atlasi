@@ -23,9 +23,37 @@ renk, başka bir madde**. İki ayrı şikâyet tek teşhise bağlanmış.
 
 **Gerçek kusur veride:** İbrail ve Yergöğü 1829-09-14'ten sonra `s:eflak`
 taşıyor; öteki 11 Eflak noktası `v:eflak`. `s:` ayrı bir yabancı gövde
-çizdiriyor, `v:` tâbi çizer. Çare iki noktaya `v:eflak`. Aynı sınıf toplam
-**14 nokta-pencere / 4 kimlik** (bulgaristan-prensligi 6 · haciemir 5 ·
-eflak 2 · sirbistan 1).
+çizdiriyor, `v:` tâbi çizer.
+
+**Koordinatörün bağımsız doğrulaması (22 Eylül 02:59) — teşhis TUTTU, iki
+inceliği var:**
+
+`s:eflak` 16 nokta-pencerede geçiyor ama **14'ü DOĞRU**: hepsi
+`1281→1462-06-01` aralığında, yani Eflak'ın henüz Osmanlı'ya tâbi olmadığı
+dönem. Kusurlu olan tam olarak iki pencere:
+
+```
+İbrail            1829-09-14 → 1859-01-24   s:eflak   ← olması gereken v:
+Yergöğü (Giurgiu) 1829-09-14 → 1859-01-24   s:eflak   ← olması gereken v:
+```
+
+Tarih tarafı zaten doğru: **Edirne Antlaşması (1829) Tuna raya'sını —
+İbrail, Yergöğü, Turnu — Eflak'a geri verdi.** Yani noktaların o gün Eflak'a
+geçmesi kaynaklıdır; yanlış olan yalnız `s:` ile çizilmesi, çünkü Eflak
+1878'e kadar Osmanlı'ya tâbi kaldı.
+
+🔴 **İKİNCİ, AYRI KUSUR — rapor bunu görmemişti:** bu iki pencere
+`1859-01-24`te (Cuza'nın birleşmesi) biterken öteki on bir Eflak noktasının
+`v:eflak` penceresi `1878-07-13`te (Berlin) bitiyor. Aynı devletin iki
+parçası iki ayrı tarihte sona eriyor; 1859-1878 arasında bu iki nokta
+Eflak'tan **düşüyor**. Düzeltme yapılırken bitiş de birleştirilmeli.
+
+🔴 **ÜÇÜNCÜ, DAHA GENİŞ:** aynı `s:`/`v:` tutarsızlığı Sırbistan'da çok daha
+büyük — `sirbistan` **s:29 · v:0** (yani hiç tâbi çizilmemiş),
+`sirbistan-prensligi` s:10 · v:5. Karşılaştırma için `misir-kavalali`
+s:0 · v:163. Raporun "14 nokta-pencere / 4 kimlik" sayısı bu yüzden bir
+ALT SINIR. Sırbistan'ınki H-0005'in özerklik sorusuyla aynı kökten
+olabilir — birlikte ele alınmalı.
 
 ---
 
