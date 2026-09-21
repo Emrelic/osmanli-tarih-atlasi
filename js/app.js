@@ -13981,6 +13981,26 @@ var KATMAN_KUMESI = [
   //    "Siyasî yapılar"ı kapatmak dolguyu da kapatmalı (altındaki A gider),
   //    ama dolguyu kapatmak siyasî yapıları KAPATMAMALI — tek yön.
   { anahtar: "dolgu",    ad: "Ⓑ Dolgu", kalip: /^dolgu-b-/ },
+  // 🔴 Ⓑ UFUK BANDI — KOVASI VAR, KUTUSU YOK: BİLEREK DIŞARIDA.
+  // 1.MURAT ölçtü (M-4940): `ufuk-bant-alan` hiçbir kovaya girmiyordu ve
+  // seçici onu "SINIFLANMAMIŞ" diye sayıyordu — yani katman düğmesi onu
+  // açıp kapatamıyordu. İki çare vardı; ikincisi seçildi ve sebebi bu
+  // dosyanın kendi kayıtlı vakası:
+  //   ① Kutu ekle → o zaman AYNI katmanın İKİ denetimi olurdu (④c ufuk
+  //      seçicisi + katman kutusu). Bu dosyada tam olarak bunun vakası
+  //      yazılı: `altlik` ile `g-nehir` aynı kovadayken düğme rasteri
+  //      kapatıyor, sonraki herhangi bir kutuya dokunulunca seçici onu
+  //      SESSİZCE geri açıyordu. İki denetim → biri sessizce kazanır.
+  //   ② Kova aç, kutu AÇMA → katman sınıflanır (uyarı susar) ama
+  //      `uygula()` ona hiç dokunmaz, çünkü o döngü yalnız
+  //      `input[data-katman]` kutuları üzerinde gezer. Tek kapı kalır: ④c.
+  // ⇒ ②. Bandın açılıp kapanması ④c "Ⓑ Ufuk" seçicisinin işidir; 5 gün
+  //   seçmek onu zaten kapatır (A'nın kendisi).
+  // ⚠️ Buraya bir `data-katman="ufuk"` kutusu EKLENECEKSE, ④c seçicisi
+  //   aynı anda kaldırılmalı — ikisi birlikte durursa yukarıdaki ① kusuru
+  //   geri gelir ve kimse fark etmez.
+  { anahtar: "ufuk",     ad: "Ⓑ Ufuk bandı (kutusu yok — ④c seçicisi yönetir)",
+    kalip: /^ufuk-bant-/ },
   { anahtar: "yollar",   ad: "Yollar",    kalip: /^koridor-/ },
   { anahtar: "siyasi",   ad: "Siyasî",
     // 🆕 `hukuki-sinir-` — C ÇİZİM KATMANI (11 Eylül 2026). devlet/vassal/
