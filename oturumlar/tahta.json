@@ -153909,5 +153909,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4982",
+  "zaman": "2026-09-21 17:25",
+  "kimden": "EKOKUMA-TOPLUM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-TOPLUM-0075 · 7 kart TASLAK + H-0007 tarama (ikisi de denetim/ altında, commit YOK, data/ ve arac/ dokunulmadı) ① ÖLÇTÜM KARTLAR: 7/7 kart yazıldı — H-0002 fes · H-0030 Balta Limanı · H-0035 Tanzimat · H-0038 Boğazlar · H-0040 Yemen · H-0041 1848 · H-0042 Harfûş. Node ile doğrulandı: alan eksiği 0 · mükerrer id 0 (599 mevcut id'ye karşı) · her olay: canlı kronolojide ≥1 maddeye düşüyor · Emre/bu oturum/dosya yolu 0. Kaynak: TDV gövdeleri sayfa HTML'inden doğrudan çıkarılıp okundu (WebFetch özetine güvenilmedi); TDV dışı olan tek yer 1848'in genel Avrupa seyri (Britannica/Encyclopedia.com ARAMA özeti, sayfa 403 verdi) — kartta \"ikincil özet\" diye açık. H-0007 TARAMA (446 dosya çalıştırıldı; basılan alan ölçütü app.js'ten: _icNotAyikla ic_not'u basmıyor): A) \"Emre\" adı BASILAN yerde: 6 yer = 5 ek okuma kartı (ekokuma_1806 ×1, ekokuma_kolemen ×2, ekokuma_yeniceri ×2) + 1 kronoloji gun alanı (olaylar_ek8 Nahçıvan). Hepsi için yeni cümle yazıldı. B) Ek okuma kartlarında geliştirici sesi (bu oturum · bu dosyada · data/…js yolu · H-#### · D### · \"atlasın kendi kaydı\"): 122 bulgu / 71 kart / 19 dosya; 3'ü tamamen SİL, gerisi kural-tabanlı yeni cümle. C) Kronoloji d alanında: 85 madde; 80'i kronoloji_sinir_guney_g8.js'te AYNI ek cümle (\"devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10…\") — 21 Eylül antlaşma sızıntısıyla aynı sınıf. E) ŞARTNAME DIŞI ama BASILAN: yerleşim kasitli_bosluk neden alanı (app.js:8226 dizin penceresi, :2390 boşluk kutusu): 321 kayıt, 1'inde \"Emre\" (yerlesimler_h2_afrika.js Meşra er-Rek, içinde uret_petek.py:3564 satır no da var), ~10'unda kesin geliştirici sesi. Emre kaydı için öneri yazıldı, kalanı JSON'da listeli. Basılmayan (ic_not 17 + ~1100 neden/gerekce/hukum): temizlik gerekmez. Yanlış pozitif elenen 3. ② BULAMADIM (bulunamadı) · TDV'de kalpak maddesi; külâh yalnız TAÇ'a yönlendirme. Fes için ulemâ/esnaf/gayrimüslim tepkisi, fes dışı kıyafet yenilikleri bulunamadı. · Balta Limanı'nın yerli sanayiye etkisi TDV'de işlenmiyor. · Tanzimat'ın edebiyat etkisi ve \"gâvura gâvur denmeyecek\" anekdotu TDV'de bulunamadı (yalnız itiraz kaydı var). · I. Dünya Savaşı'nda Yemen sorusuna TDV'nin doğrudan cevabı bulunamadı — olgular + \"sayfanın yorumlaması\" damgalı çıkarım yazıldı. · Harfûş ailesi: gücün kaynağı için TDV tek cümle veriyor; 1865 sürgün bilgisi akademik dayanağa bağlanamadı. ③ İSTİYORUM / ÖNERİM 1) \"Dosya senin\" dediğinde: taslağı data/ekokuma_p75c.js'e ALIRIM + H-0007 A ve B düzeltmelerini var olan ekokuma*.js'e UYGULARIM (onayınla). C kronoloji dosyaları kronoloji sahibinin; E yerleşim dosyalarının sahibinin. 2) Kayıt için js/app.js _EKOKUMA_DOSYA_ADLARI'na \"ekokuma_p75c\" + index.html <script> satırı (Oturum 0 dosyaları). 3) TDV ile ÇELİŞEN/ÖLÇÜLEMEYEN mevcut kayıtlar (sahibine): (a) olaylar_ek5 1849-01-01 \"Tihâme … Hudeyde, Zebîd ve Moha'nın alınması\": TDV yemen/hudeyde 1849 için yalnız Kemeran+Hudeyde verir, Zebîd/Muhâ bulunamadı. (b) olaylar_ek2 1850 Harfûş \"yerel hâkimiyetin sonu\": TDV 1850'yi Ba'lebek'in KAZA yapıldığı yıl verir, aileyi bağlamaz (\"XIX. yüzyıl ortalarına kadar\"). (c) mevcut balta-limani-mehmed-ali-ticaret-acilimi kartında \"ithalatta %5 (artı iç nakil için %2)\": TDV'de ithalat %3 + iç nakil ilave %2 = %5 — çifte sayım gibi okunuyor. (d) olaylar_ek7 fes 1829-06-01: TDV yalnız 1244/1829 der, ay/gün kaynaksız. 4) js/app.js:9304-9308 (koddan okundu, tarayıcıda DENENMEDİ): kronoloji kaynak alanı TDV url'sine olduğu gibi ekleniyor; 7165 maddenin 4818'inde kaynak boşluk/\"bulunamad\" içeriyor → kırık TDV bağlantısı olabilir. Doğrulayacak oturum MOTOR/UI. Dosyalar: denetim/EKOKUMA-P75C-TASLAK.js · denetim/EKOKUMA-USLUP-0075.json · denetim/EKOKUMA-TOPLUM-0075.md (ayrıntı). Bekçim açık, \"dosya senin\"i bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
