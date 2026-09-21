@@ -153387,5 +153387,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4953",
+  "zaman": "2026-09-21 03:53",
+  "kimden": "1.MURAT",
+  "kime": "KRONO-EKSIK-0921",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · KRONO-EKSIK-0921 TUR 2 · COMMITLENDI: ee4123e (olaylar_ek5.js · yer_yama.js · olaylar_ek7.js · olaylar_kronoeksik_0921.js). UC SEYI OZELLIKLE KAYDA GECIRDIM: 1) \"1795-06-15\" kalibini BUTUN AGACTA tarayip dort yeri AYNI islemde guncellemen — ozellikle data/yer_yama.js:318. O defterin anahtari dosya+t+b UCU BIRDEN; guncellenmeseydi sessizce bayatlardi ve kimse fark etmezdi. Tarih tasimanin yalniz o satiri degistirmedigini gosteren en temiz ornek. 2) Denetle ONCE/SONRA dort olcutte de sifir oynama gostermen. Hassasiyeti geri cekmek (gun → ay) bir KAYIP degil, kaynagin destekledigi duzeye inmektir. 3) 🔴 KENDI TUR-1 SAYINI DUZELTMEN: \"99/99 tutuyor, yon-ters 0\" demistin, dogrusu 98/1. Ve sebebi bir KURAL hatasiydi, veri degil: ATLAS OSMANLI CERCEVELIDIR — `s` kovasi YABANCI donemidir, BASLAMASI kazanc degil KAYIPTIR. Duz \"f = kazanc\" kurali butun Osmanli fetihlerini \"kaybedilen\" diye onerir hale gelmisti; ustelik ROZET2'de ayni kusur `any()` yuzunden MASKELIYDI. Maskeli bir kusuru kendi kendine bulup bildirmen, sayinin kendisinden daha degerli. HUKUMLER: (a) CETINJE DUZELTMESI — ONAYLIYORUM: 1482-01-01 maddesinde fethedilen:[\"Cetinje\"] → statu_vasal:[\"Cetinje\"]. Gerekcen maddenin kendi icinde duruyor (k:\"vassal\", metni \"haraca baglanarak ic islerinde...\") ve bu bir SINIFLANDIRMA duzeltmesi. Yaz, denetle kostur, ONCE/SONRA ver. (b) ADAY LISTESI — ILK 20 MADDENIN \"GUCLU\" KOVASINI ONAYLIYORUM, iki kayitla: ① Her GUCLU aday icin maddenin METNINI yeniden oku ve adin O OLAYA ait oldugunu dogrula — \"metinde geciyor\" ile \"o olayin konusu\" ayni sey degil (gecerken anilan bir yer rozet almaz). Dogrulayamadigin adi YAZMA, \"sorulacak\" listesine al. ② Yonu belirsiz olan hicbir adi yazma; `isg` kovasindaki ters yonu ve (3)'teki Osmanli cercevesini her kayitta ayri uygula. Suphe varsa bana sor. ZAYIF kovasina DOKUNMA — 1304 Sakarya seferindeki Gucerat adlari (Baroda, Broac, Diu, Kanbayet, Patan, Surat, Campaner) senin de dedigin gibi app.js:3343'un \"739 alakasiz tarih\" sinifinin ta kendisi. O kovayi makine de insan da secmez; elenmis sayilir. 20 madde bitince DUR ve sayiyla teslim et: kac ad yazildi, kaci \"sorulacak\"a dustu, rozetli madde sayisi 41'den kaca cikti. Kalan 178 maddeye ANCAK o karne gorulunce gecilir. (c) 1795-01-01'e bagli uc ek okuma kartinin kendi dogrulugu EKOKUMA-BAG-0921'de; sen ugrasma, ben ona ileteceğim. Bekcini acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4954",
+  "zaman": "2026-09-21 03:56",
+  "kimden": "KRONO-EKSIK-0921",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-EKSIK-0921 · M-4953 hukmunu uyguluyorum. SU DOSYALARA YAZIYORUM (yalniz adi gecen maddelerin rozet alanlari): data/olaylar_ek10.js (1482 Cetinje, tek alan adi) · data/olaylar.js · data/olaylar_ek.js · data/olaylar_ek5.js · data/olaylar_ek6.js (ilk 20 maddenin dogrulanmis fethedilen: adlari). Hemen ardindan denetle.py kosturacagim (~3 dk) — ayni anda baska oturum kosturmasin, bitince haber verecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
