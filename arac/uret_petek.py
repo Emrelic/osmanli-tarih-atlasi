@@ -3293,6 +3293,14 @@ PETEK_D = []
 # yeniden kurmak aynı geometriyi ikinci kez üretmek olurdu ve iki üretim
 # ayrışabilirdi.
 _BANT_HAM = {b: [None] * len(PETEK_TAM) for b in _YR_BANT_UZAK} if MOTOR_YURUYUS else {}
+# Ⓑ (devlet kimliği, f, t, aktif petek indeksleri) — bandı DEVLET başına
+# birleştirmek için. Taban gövdelerinin kullandığı `aktif` kümesinin TA
+# KENDİSİ toplanır (devir ve dolgu kapılarından geçmiş hâli).
+# 🔴 ÜÇ AYRI YOLDAN toplanıyor (sıralı · iş parçacığı · süreç işçisi) ve
+#    birini atlamak bandı SESSİZCE eksik bırakırdı ⇒ aşağıda bant
+#    aşamasında SAYIM DENETİMİ var: toplanan dönem sayısı, yayınlanan
+#    dönem sayısıyla tutmazsa bant dosyası YAZILMAZ ve sebep basılır.
+_BANT_AKTIF = []
 for i, g in enumerate(PETEK_TAM):
     kara_kesik = g.intersection(KARA)
     a0 = kara_kesik.area
@@ -6271,7 +6279,16 @@ def _yabanci_devlet_faz1(_arg):
         if _mp is None:
             tani.append((_sure, _kesilen, _tamamen))
             continue
-        ham.append({"f": a, "t": b, "mp": _mp, "c": _c})
+        # Ⓑ `ak`: bandın devlet başına birleştirilebilmesi için o dönemin
+        # AKTİF PETEK KÜMESİ. Yalnız bant açıkken taşınır (kapalıyken bu
+        # anahtar hiç doğmaz ⇒ bellek ve serileştirme etkilenmez).
+        # 🔴 Kaynağı TABANIN KENDİSİ: aynı `aktif`, yani devir ve dolgu
+        #    kapılarından geçmiş hâli. Sahipliği yerleşim verisinden
+        #    yeniden kurmak kolay olurdu ve YANLIŞ olurdu — o kapılardan
+        #    geçmeyen ikinci bir sahiplik kuralı doğardı.
+        ham.append({"f": a, "t": b, "mp": _mp, "c": _c}
+                   if not _BANT_HAM else
+                   {"f": a, "t": b, "mp": _mp, "c": _c, "ak": sorted(aktif)})
         # ⚠️ Alan HER gövde için hesaplanıyor: uzama sonradan olduğu için "bu
         # dönem kesiti kapsıyor mu" sorusu yaratılış anında cevaplanamaz.
         tani.append((_sure, _kesilen, _tamamen))
@@ -6414,6 +6431,8 @@ if _SUREC_YOLU:
                         "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
                                     DEV_PARCA, DEV_PARCA_IX),
                         "c": h["c"]})
+            if _BANT_HAM and "ak" in h:      # Ⓑ (iş parçacığı yolu)
+                _BANT_AKTIF.append((did, h["f"], h["t"], h["ak"]))
         if dnm:
             DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
     _sr_ex.shutdown()
@@ -6507,6 +6526,8 @@ elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
                                   DEV_PARCA, DEV_PARCA_IX),
                       "c": [round(rp.x, 2), round(rp.y, 2)]}
             dnm.append(_kayit)
+            if _BANT_HAM:                    # Ⓑ (sıralı yol)
+                _BANT_AKTIF.append((did, a, b, sorted(aktif)))
             sayac("yabancı gövde geometrisi", time.time() - _t_gv)
         if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
 else:
@@ -6610,6 +6631,8 @@ else:
                             "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
                                         DEV_PARCA, DEV_PARCA_IX),
                             "c": h["c"]})
+                if _BANT_HAM and "ak" in h:  # Ⓑ (süreç işçisi yolu)
+                    _BANT_AKTIF.append((did, h["f"], h["t"], h["ak"]))
             if dnm:
                 DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
 # 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.
@@ -7053,6 +7076,8 @@ for i in range(len(tarihler) - 1):
     if _sb:
         kayit["sb"] = _sb
     donemler.append(kayit)
+    if _BANT_HAM:                            # Ⓑ Osmanlı dönemi
+        _BANT_AKTIF.append(("OSMANLI", a, b, sorted(aktif)))
     onceki_aktif = aktif
     onceki_anahtar = anahtar
 
@@ -7254,17 +7279,31 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
     asama("Ⓑ ufuk bantları (ayrı dosya)")
     _bt0 = time.time()
     _bant_sirali = sorted(_BANT_HAM)
+    # ── SAYIM DENETİMİ — sessiz eksik bant YOK ──────────────────────────
+    # `_BANT_AKTIF` üç ayrı kod yolundan toplanıyor. Biri çalışmazsa bant
+    # o devletlerde SESSİZCE boş çıkardı. Beklenen sayı yayınlanan dönem
+    # sayısıdır; tutmazsa dosya YAZILMAZ ve sebep basılır.
+    _bek = sum(len(_d["dnm"]) for _d in DEVLET_KAYIT) + len(donemler)
+    if len(_BANT_AKTIF) != _bek:
+        print(f"  🔴 Ⓑ BANT YAZILMADI — aktif petek kümesi EKSİK toplandı: "
+              f"{len(_BANT_AKTIF):,} dönem toplandı, {_bek:,} bekleniyordu "
+              f"({sum(len(_d['dnm']) for _d in DEVLET_KAYIT):,} yabancı + "
+              f"{len(donemler):,} Osmanlı). Üç toplama yolundan (sıralı · iş "
+              f"parçacığı · süreç işçisi) biri çalışmamış olabilir; "
+              f"MOTOR_SUREC_ISCI={_SUREC_ISCI}.")
+        _BANT_AKTIF = None
     _bant_havuz, _bant_ix, _bant_parca, _bant_pix = [], {}, [], {}
     _bant_kayit = []
-    for _bi, _bs in enumerate(_bant_sirali):
+    for _bi, _bs in enumerate(_bant_sirali) if _BANT_AKTIF is not None else []:
         _onceki = _bant_sirali[_bi - 1] if _bi else None
         _ad = ("<=%g" % (_bs / 8.0)) if _onceki is None else \
               ("%g-%g" % (_onceki / 8.0, _bs / 8.0))
-        _ix_listesi, _alan = [], 0.0
+        # ── PETEK BANDI: artış (iç içe DEĞİL) ───────────────────────────
+        _pb = []
         for _i in range(len(PETEK_TAM)):
             _g = PETEK_D[_i] if _onceki is None else _BANT_HAM[_bs][_i]
             if _g is None or _g.is_empty:
-                _ix_listesi.append([])
+                _pb.append(None)
                 continue
             if _onceki is not None:
                 _o = _BANT_HAM[_onceki][_i]
@@ -7273,25 +7312,48 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
                         _g = poligonal(_g.difference(_o))
                     except Exception:
                         _g = Polygon()
-            if _g.is_empty:
-                _ix_listesi.append([])
+            _pb.append(None if _g.is_empty else _g)
+        # ── DEVLET BANDI: dönem dönem birleştir ─────────────────────────
+        # 🔴 16 Eylül kararının istediği biçim: "motor çıktısı DEVLET BAŞINA
+        #    iç içe olmayan artış bantları verir". Maliyeti ÖLÇÜLDÜ:
+        #    taban gövde geçişinin 0,68 katı (`…-BANT.md` §5.5), yani bu
+        #    biçim maliyet yüzünden ertelenecek bir şey değil.
+        _dk, _alan, _bos = [], 0.0, 0
+        for _did, _f, _t, _ak in _BANT_AKTIF:
+            _par = [_pb[_j] for _j in _ak if _j < len(_pb) and _pb[_j] is not None]
+            if not _par:
+                _bos += 1
                 continue
-            _alan += _ham_km2(_g)
-            _ix_listesi.append(havuza(mp_koord(_g), _bant_havuz, _bant_ix,
-                                      _bant_parca, _bant_pix))
-        _bant_kayit.append({"ad": _ad, "saat": _bs, "gun": _bs / 8.0,
-                            "p": _ix_listesi})
-        print(f"  bant {_ad:>10} gün · {sum(1 for x in _ix_listesi if x):,} petek · "
-              f"{_alan:,.0f} km²")
+            try:
+                _u = poligonal(unary_union(_par))
+            except Exception:
+                _bos += 1
+                continue
+            if _u.is_empty:
+                _bos += 1
+                continue
+            _alan += _ham_km2(_u)
+            _dk.append({"d": _did, "f": _f, "t": _t,
+                        "g": havuza(mp_koord(_u), _bant_havuz, _bant_ix,
+                                    _bant_parca, _bant_pix)})
+        _bant_kayit.append({"ad": _ad, "saat": _bs, "gun": _bs / 8.0, "dnm": _dk})
+        print(f"  bant {_ad:>10} gün · {len(_dk):,} devlet-dönem "
+              f"({_bos:,} dönemde bant YOK) · {_alan:,.0f} km²")
+if _BANT_HAM and len(_BANT_HAM) > 1 and _bant_kayit:
+    # 🔴 BOŞ DOSYA YAZILMAZ. Sayım denetimi düştüyse `_bant_kayit` boştur ve
+    #    buraya hiç girilmez — yarım bir bant dosyası, hiç olmamasından
+    #    KÖTÜDÜR: arayüz onu "bu devlette bant yok" diye okur.
     _byol = os.path.join(KOK, "data", "ufuk_bantlari.js")
     _bj = ("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
            "// Ⓑ UFUK BANTLARI — iç içe OLMAYAN artış bantları.\n"
            "// ⚠️ index.html BU DOSYAYI YÜKLEMEZ: Ⓑ anahtarı açılınca fetch\n"
            "//    edilir (ölçülen boyut gerekçesi: B-GORUNUM-0072-BANT.md §2).\n"
-           "// UFUK_BANT[k].p[i] → UFUK_BANT_PARCA havuzuna indeks dizisi;\n"
-           "// o da UFUK_BANT_PARCALAR (halka havuzu) indeksleri taşır —\n"
+           "// UFUK_BANT[k].dnm[] = {d: devlet kimliği, f, t, g: parça indeksleri}\n"
+           "// g → UFUK_BANT_PARCA havuzuna indeks dizisi; o da\n"
+           "// UFUK_BANT_PARCALAR (halka havuzu) indeksleri taşır —\n"
            "// donemler.js ile AYNI şema, js/app.js parcaCoz birebir çözer.\n"
-           "// Sıra PETEKLER (donemler.js) ile AYNIDIR.\n")
+           "// Bantlar İÇ İÇE DEĞİL, ARTIŞTIR: arayüz seçilen ufka kadarki\n"
+           "// bantları BİRLEŞTİREREK çizer (tekdüzelik ölçüldü: 0 ihlal).\n")
     _bj += ("window.UFUK_BANT_PARCALAR = "
             + json.dumps(_bant_havuz, separators=(",", ":")) + ";\n")
     _bj += ("window.UFUK_BANT_PARCA = "
