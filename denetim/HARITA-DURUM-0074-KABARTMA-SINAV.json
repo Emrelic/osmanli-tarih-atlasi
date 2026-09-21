@@ -1,0 +1,165 @@
+{
+ "esik": 15.0,
+ "opaklik": 0.44,
+ "duz_zemin": "#e8dfc8",
+ "kabartma_ton": {
+  "açık kabartma #f2f1c1": "#f2f1c1",
+  "koyu kabartma #d6cf87": "#d6cf87"
+ },
+ "sinavlar": {
+  "A1_gercek_kimlik": {
+   "hex": "#deea90",
+   "duz_zemin_dE": 15.37,
+   "duz_zemin_yakaladi": false,
+   "kabartma": {
+    "açık kabartma #f2f1c1": {
+     "dE": 9.74,
+     "yakalandi": true
+    },
+    "koyu kabartma #d6cf87": {
+     "dE": 5.98,
+     "yakalandi": true
+    }
+   },
+   "kimlik": "imereti (gercek palet kimligi)"
+  },
+  "A2_uretilmis": {
+   "hex": "#e9e6b4",
+   "duz_zemin_dE": 6.17,
+   "duz_zemin_yakaladi": true,
+   "kabartma": {
+    "açık kabartma #f2f1c1": {
+     "dE": 1.77,
+     "yakalandi": true
+    },
+    "koyu kabartma #d6cf87": {
+     "dE": 6.4,
+     "yakalandi": true
+    }
+   },
+   "kimlik": "uretilmis"
+  },
+  "B_temiz": {
+   "hex": "#101070",
+   "duz_zemin_dE": 43.34,
+   "duz_zemin_yakaladi": false,
+   "kabartma": {
+    "açık kabartma #f2f1c1": {
+     "dE": 47.95,
+     "yakalandi": false
+    },
+    "koyu kabartma #d6cf87": {
+     "dE": 48.94,
+     "yakalandi": false
+    }
+   }
+  }
+ },
+ "taban": {
+  "duz_zemin_ihlal": 0,
+  "kabartma_ihlal": {
+   "açık kabartma #f2f1c1": 15,
+   "koyu kabartma #d6cf87": 37
+  }
+ },
+ "hukum": {
+  "A1_yakaladi": true,
+  "A1_duz_zemin_KACIRDI_kor_nokta_kaniti": true,
+  "A2_yakaladi": true,
+  "B_yanlis_alarm_yok": true,
+  "C_cikis_kodu_degismedi": true,
+  "HEPSI_GECTI": true
+ },
+ "kor_nokta_kumesi_acik_ton": [
+  {
+   "kimlik": "imereti",
+   "hex": "#deea90",
+   "duz_dE": 15.37,
+   "kabartma_dE": 9.74
+  },
+  {
+   "kimlik": "luba",
+   "hex": "#dbf396",
+   "duz_dE": 16.54,
+   "kabartma_dE": 10.73
+  },
+  {
+   "kimlik": "pagan",
+   "hex": "#e1e787",
+   "duz_dE": 16.53,
+   "kabartma_dE": 10.96
+  },
+  {
+   "kimlik": "kaffa",
+   "hex": "#d2ea8d",
+   "duz_dE": 16.56,
+   "kabartma_dE": 11.01
+  },
+  {
+   "kimlik": "karnatik",
+   "hex": "#aee499",
+   "duz_dE": 15.76,
+   "kabartma_dE": 11.63
+  },
+  {
+   "kimlik": "azerbaycan-demokratik-cumhuriyeti",
+   "hex": "#eacf75",
+   "duz_dE": 15.91,
+   "kabartma_dE": 11.83
+  },
+  {
+   "kimlik": "ryazan",
+   "hex": "#cce787",
+   "duz_dE": 17.4,
+   "kabartma_dE": 11.95
+  },
+  {
+   "kimlik": "serbedariler",
+   "hex": "#a5f3c3",
+   "duz_dE": 15.13,
+   "kabartma_dE": 12.99
+  },
+  {
+   "kimlik": "suleyman-celebi",
+   "hex": "#8dd5a2",
+   "duz_dE": 15.39,
+   "kabartma_dE": 13.73
+  },
+  {
+   "kimlik": "kuba-hanligi",
+   "hex": "#d8af61",
+   "duz_dE": 15.87,
+   "kabartma_dE": 13.88
+  },
+  {
+   "kimlik": "tran-hanedani",
+   "hex": "#96e7b4",
+   "duz_dE": 16.03,
+   "kabartma_dE": 13.98
+  },
+  {
+   "kimlik": "cin-cumhuriyeti",
+   "hex": "#bab75a",
+   "duz_dE": 17.68,
+   "kabartma_dE": 14.11
+  },
+  {
+   "kimlik": "cavnpur-sultanligi",
+   "hex": "#e7b763",
+   "duz_dE": 16.93,
+   "kabartma_dE": 14.47
+  },
+  {
+   "kimlik": "finlandiya",
+   "hex": "#99a857",
+   "duz_dE": 17.3,
+   "kabartma_dE": 14.81
+  },
+  {
+   "kimlik": "cohor-sultanligi",
+   "hex": "#eab463",
+   "duz_dE": 16.98,
+   "kabartma_dE": 14.91
+  }
+ ]
+}

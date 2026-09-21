@@ -399,3 +399,56 @@ belirgin biçimde azaltır — yumuşak kipin kendi gerekçesiyle çelişme risk
 ②'yi **tek başına seçme**: doğru yönde (mor/açma) bile kazancı ①'in yarısından
 az, yanlış yönde (koyultma) ciddi kayıp. ③ ise ayrı bir iş: rusya'nın sorunu
 zeminden değil, CIE94'e göre dört komşudan ayrışmaması.
+
+
+---
+
+## 8. ALETİN KÖR NOKTASI KAPATILDI — `renk_olc.py` (M-4949 (2), 21 Eylül 04:0x)
+
+🔴 `arac/renk_olc.py` **1.MURAT'ın dosyası: YAZILDI, COMMİTLENMEDİ.**
+Dokunulan satırlar (yeni dosyada, 3 ekleme, **0 silme**, toplam +70 satır):
+
+| yer | satır | ne |
+|---|---|---|
+| sabitler | **55–81** | `KABARTMA_TON` + nereden ÖLÇÜLDÜĞÜ (şart a) |
+| yeni fonksiyon | **775–799** | `kabartma_ihlal()` |
+| `denetle()` raporu | **833–850** | iki satır + `--ayrinti` dökümü (şart b) |
+
+**(a) Ton aralığı uydurulmadı.** `#f2f1c1` ve `#d6cf87`, Emre'nin
+`H-0007-1.png`'inin BOYASIZ alanından piksel sayımıyla çıktı
+(`-PIKSEL.py` → `HARITA-DURUM-0074-PIKSEL.json`); kaynağı kodun içinde yazılı.
+
+**(b) Eski ölçüm kalkmadı.** "ALTLIKTAN AYRIŞMAYAN — 0 kimlik" satırı yerinde;
+altına iki satır eklendi. Koşturulmuş çıktı:
+
+```
+ALTLIKTAN AYRIŞMAYAN — 0 kimlik (ΔE < 15)
+  yok
+  düz zemin (#e8dfc8): 0 ihlal
+  kabartma EN KÖTÜ ton (koyu kabartma #d6cf87): 37 ihlal  — ton başına:
+      açık kabartma #f2f1c1: 15 · koyu kabartma #d6cf87: 37
+  ⚠️ kabartma satırı ÇIKIŞ KODUNU ETKİLEMEZ (rapor) — dökümü: --ayrinti
+```
+
+**(c) Çıkış kodu değişmedi.** `denetle()` beş kova döndürür
+(`gorunmez, cakisan, ortusen, hex_cak, yak_i`); kabartma HİÇBİRİNE girmiyor,
+"TEMİZ" hükmünde de geçmiyor. Koşuldu: **çıkış kodu 0** (değişiklikten önceki
+hâliyle aynı — blok yalnız `print` yapıyor).
+
+### (d) İKİ YÖNDE SINAV — `ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py`
+
+| sınav | renk | düz zemin | açık kabartma | koyu kabartma | sonuç |
+|---|---|---:|---:|---:|---|
+| **A1** yakalamalı · **gerçek palet kimliği** `imereti` | #deea90 | 15,37 **kaçırdı** | 9,74 **YAKALADI** | 5,98 **YAKALADI** | ✓ |
+| **A2** yakalamalı · üretilmiş | #e9e6b4 | 6,17 yakaladı | 1,77 YAKALADI | 6,40 YAKALADI | ✓ |
+| **B** yakalamamalı · temiz | #101070 | 43,34 kaçırdı | 47,95 kaçırdı | 48,94 kaçırdı | ✓ |
+| **C** çıkış kodu | — | — | — | — | ✓ değişmedi |
+
+🔴 **A1 kör noktanın KANITI:** `imereti` uydurulmuş bir renk değil, paletin
+kendi kimliği. Düz zemin ölçümü onu **temiz sayıyor** (15,37 ≥ 15), kabartmada
+**ihlalli** (9,74 < 15). Aynı boşlukta **15 kimlik** var (açık tonda):
+`imereti` 9,74 · `luba` 10,73 · `pagan` 10,96 · `kaffa` 11,01 · `karnatik` 11,63
+· `azerbaycan-demokratik-cumhuriyeti` 11,83 · `ryazan` 11,95 · `serbedariler`
+12,99 · `suleyman-celebi` 13,73 · `kuba-hanligi` 13,88 · `tran-hanedani` 13,98 ·
+`cin-cumhuriyeti` 14,11 · `cavnpur-sultanligi` 14,47 · `finlandiya` 14,81 ·
+`cohor-sultanligi` 14,91. Koyu tonda sayı **37**.
