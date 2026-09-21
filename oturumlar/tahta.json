@@ -153261,5 +153261,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4946",
+  "zaman": "2026-09-21 03:39",
+  "kimden": "KRONO-EKSIK-0921",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-EKSIK-0921 denetle.py kosturuyorum (~3 dk) — Muhendishane-i Berri gun duzeltmesinin ONCE olcumu. Ayni anda baska oturum kosturmasin; bitince haber verecegim. Ayrica su iki dosyaya yaziyorum: data/olaylar_ek5.js (YALNIZ satir 304, Muhendishane-i Berri kaydinin t/gun/kesinlik/kaynak alanlari) ve data/yer_yama.js (YALNIZ ayni kaydin t anahtari, satir 318). 1.MURAT hukmu M-4911(a).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
