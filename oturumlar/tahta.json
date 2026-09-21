@@ -153891,5 +153891,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4981",
+  "zaman": "2026-09-21 17:21",
+  "kimden": "SEFER-OK-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SEFER-OK-0075 · 5 madde (H-0001 · H-0012 · H-0023 · H-0033 · H-0037) — rapor: denetim/SEFER-OK-0075.md data/ ve arac/ DOKUNULMADI, hiçbir şey commitlenmedi. js/ değişiklikleri çalışma ağacında; veri yamaları denetim/ altında hazır, tek komutla uygulanır. ① ÖLÇTÜM - Tahliye türü ZATEN vardı (HAREKET.tahliye) ama 0 kayıt ve deseni çekilme ile aynıydı; üç vakanın kaydı yoktu. Desen ayrıştırıldı (js/app.js:4641), 3 kayıt taslak: denetim/TASLAK-seferler_sefer_ok_0075.js. - H-0012: ok kademe alanı olmadan bütün güzergâhı çiziyordu. Kademe mekanizması eklendi (seferHat, kademe: [[gün,i],…]); tarayıcıda okun ucu 1832-05-27 Akkâ · 06-16 Şam · 06-26 Halep · 07-29 Belen · Anadolu: Adana → Konya (11-22) → Kütahya (1833-02-02); ok geri kısalmıyor. 103 sade kayıtta çıktı eskisiyle BİREBİR aynı. - H-0033: 13 deniz okunun 8'i karayı kesiyordu (405 km); türü deniz olmayan 2 ok + yeni Mora oku dâhil 16 kayıtta 546 km. Kavis sorunu ağırlaştırıyordu (Girit 104→122 km). Gerçek kara ne_10m_land (motor_kara DEĞİL) ile A* deniz rotası üretildi: 546 → 3 km, başarısız bacak 0, sınav 12 geçti/0 ihlal; kontrol yönünde yamasız veride 8/13 yakalanıyor. Ara noktalar yol'a değil ayrı rota: alanına gider (istasyon yorumları korunur). ② BULAMADIM - Silistre 1836 çekilişinin varış yeri TDV'de YOK (yalnız yıl). Mora 1828'de liman ve varış (Girit) TDV'de yok; Girit Emre'nin tarifi. 1841 dönüş yolu yok (yalnız \"emir verdi\"). Üçü kesinlik: alanında açıkça yazılı. - Piksel doğrulaması yapılamadı (Browser ekran görüntüsü zaman aşımı); çizilen GeoJSON, faz dönüşleri ve katman durumu okundu, ekranda nasıl göründüğü GÖRÜLMEDİ. ③ İSTİYORUM 1. Kilit kalkınca \"dosya senin\": (a) taslağı data/seferler_sefer_ok_0075.js yap + index.html satırı; (b) py denetim/ARAC-SEFER-OK-ROTA-YAMA-0075.py denetim/SEFER-OK-DENIZ-ROTA-0075.json --yaz; (c) savaslar.js'e iki kademe yaması (rapor §4). Sonra py denetim/ARAC-SEFER-OK-SINAV-0075.py. 2. KARAR: Silistre okunu (varışı şematik, kaynaksız) tutalım mı? P0074 benzer durumda Anapa'yı boş bırakmıştı. Önerim: Emre açıkça istediği için tut, kesinlik: bunu söylüyor; istemezsen o kaydı sil, öteki ikisi bağımsız. 3. BULGU: data/seferler_p0074.js index.html'e BAĞLI DEĞİL (7 sefer dosyasından tek o) — Silistre→Edirne 1829 oku canlı değil. 4. BULGU: \"Mısır ordusu Suriye ve Çukurova'yı boşalttı\" maddesinde yer_id yok → o madde için ok animasyonu tetiklenmez (⑦ KRONO-YER kapsamı). Kronoloji sırası Halep 06-25 < Humus 07-08 ama güzergâh Şam→Humus→Halep — Halep gününü sınayan olmadı. 5. UYARI: js/app.js'te DALGA-0074'ün commitsiz düzenlemeleri de var (isyanLejanti, disEsikBilgiYaz, katmanSeciciKur); benimkiler ayrı bloklar, commit'te hunk ayrımı gerekir. Değişen: js/app.js, js/sefer_ok.js (commitsiz) · yeni denetim/: SEFER-OK-0075.md, SEFER-OK-DENIZ-ROTA-0075.json, TASLAK-seferler_sefer_ok_0075.js, ARAC-SEFER-OK-{DENIZ-ROTA,ROTA-YAMA,SINAV,DUMP,DENIZ-OLC,SINAV-TARAYICI}-0075.{py,js} Bekçim açık: devamı (uygulama) için hazırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
