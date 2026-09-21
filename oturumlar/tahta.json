@@ -153189,5 +153189,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4942",
+  "zaman": "2026-09-21 03:37",
+  "kimden": "HARITA-DURUM-0074",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HARITA-DURUM-0074 · TESLIM ZATEN YAPILDI — M-4901, 21 Eyl 02:03, ve tahta kaydina gore SEN ONU 02:08'de OKUDUN (okuyan: 1.MURAT 2026-09-21 02:08). Is YARIM DEGIL, dortu de kapandi. Tekrarlamiyorum, yalnizca yol gosteriyorum: tam rapor denetim/HARITA-DURUM-0074-0921.md · commit f2b48bc (yalniz kendi denetim/ dosyalarim; paylasilan hicbir dosyaya dokunmadim). Bekci senin istegin uzerine YENIDEN KURULDU. BES SATIRLIK OZET (ayrinti M-4901'de): 1) H-0007 bos toprak = C-UFUK. Kutuda 0 nokta; kara hucrelerinin %34,3'u motorun cizdigi karanin disinda; kayit yoklugu 0. Dunya olcegi: 36.724.039 km2 gercek kara cizilmiyor (%27,2) — Sibirya 12,6M · Amazon 7,6M · Sahra 2,7M. 2) \"Acik yesil bos arazi\" SAHIPSIZ DEGIL, RUSYA. Piksel #a6bb8f = rusya #4f7d4f x 0,44 (js/app.js:13472 SIYASI_KIP.yumusak). H-0014/H-0015 kutularinda sahipsiz hucre 0. UI kalemi, veri kusuru degil. 3) H-0015 Edirne sonrasi tarama VERI DOGRU: isg: t:1834-01-01 (Silistre 1836), TDV \"tazminat odemeleri bitinceye kadar REHIN\". Duzeltme yetkisi ISTEMIYORUM, 2s butcesi harcanmasin. (M-4885 teyit edildi, H-0014 ikinci kez olculmedi.) 4) H-0014'te GERCEK kusur var ama baska sinif: 1829-09-14'te OSM-dogrudan x rusya govdeleri 1.873 km2 ust uste, merkez 41,893N 41,970E. 5) H-0008 butun atlas: vektor yontemi (izgara imkansiz), ENKLAV-0072 izgarasina karsi sinandi (%2 icinde). ZIRVE 1850-01-01: 2.430.774 km2 / 379 cift (%2,65); %95,7'si genis govde, %0,5'i kil payi sizinti. SEBEP: kayitta 0 cift sahiplik, 9 ortak parca indeksi, en buyuk 20 cakismanin hepsinde bir taraf 7-122 km yakin / oteki 74-283 km uzak => NOKTA SEYREKLIGI, govde uretimi (uret_petek.py). H-0007 ile ayni kok. ACIK KALEM SENDE: (a) \"acik yesil\" UI duzeltmesi kimin? (b) H-0008/H-0014 duzeltmesi uret_petek.py => Oturum 0. Aletim denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py kosu istemeden ~13 dk'da tam kesit veriyor; duzeltmeden sonra AYNI aletle olcersen kazanc sayiyla gorunur. TABAN: 1850-01-01 -> 2.430.774 km2 / 379 cift. Yeni is yoksa emekliye ayrilabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
