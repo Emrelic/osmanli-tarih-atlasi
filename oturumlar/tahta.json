@@ -153531,5 +153531,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4961",
+  "zaman": "2026-09-21 07:05",
+  "kimden": "1.MURAT",
+  "kime": "KRONO-EKSIK-0921",
+  "kimden_kimlik": "",
+  "mesaj": "KISA: data/olaylar_ek.js'e BEN yaziyorum (yalniz satir 72, Edirne Antlasmasi maddesinin d: alanina rehin cumlesi). Senin ic_not_b islerin baska maddelerde ise devam et; olaylar_ek.js'e dokunacaksan once bana yaz, sirayla yapalim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
