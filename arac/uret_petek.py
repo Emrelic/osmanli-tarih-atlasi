@@ -1908,21 +1908,51 @@ if MOTOR_YURUYUS:
         # hâli (Yakutsk ile Kuzey Buz Denizi arası). Emre: *"ufak bir boşluk
         # varsa kapatılabilir"* — `pay_km` tam bu saçaktır, ∞ açıklık da
         # aynı kapıdan geçer, ayrı bir kural GEREKMEZ.
+        # 🔴 ÇÖL AYRICALIĞI İKİ UÇLU, VE ASIL UCU `pay`: Emre'nin sözü
+        #    *"çöl tavanı isteyebileceğimiz tek yer … çölün içine doğru
+        #    yerleşim yerlerinin NE KADAR İLERLEYECEĞİ ile ilgili bir
+        #    mesele."* İlerleme `pay`dır, `esik` değil. İlk yazımda yalnız
+        #    `esik` çöle özel yapılmıştı ve ÖLÇÜM onu çürüttü: Sahra
+        #    koridorunun en boş noktası herhangi bir yerleşimden 261 km
+        #    uzak (149 dolgu noktası kasten konmuş), yani açıklık ~522 km.
+        #    O açıklıkta `esik`i indirmek kapıyı zaten açık bir yerde bir
+        #    kez daha açar — sahipsiz kalan şerit DEĞİŞMEZ, çünkü şeridin
+        #    genişliği `açıklık − 2×pay`dır. Kum denizini genişletmek
+        #    isteniyorsa inecek sayı `pay`dır.
+        _btb_col = [float(x) for x in
+                    (os.environ.get("MOTOR_BOS_TOPRAK_COL") or ""
+                     ).replace(" ", "").split(",") if x]
+        if _btb_col and len(_btb_col) != 2:
+            raise SystemExit("MOTOR_BOS_TOPRAK_COL biçimi: '<pay_km>,<esik_km>' "
+                             f"— gelen: {os.environ.get('MOTOR_BOS_TOPRAK_COL')!r}")
         _btb_esik_alan = _np.full((_kvny, _kvnx), _btb_esik, dtype=_np.float64)
-        _btb_col = float(os.environ.get("MOTOR_BOS_TOPRAK_COL", "0") or "0")
-        if _btb_col > 0 and _YR_KELEPCE:
-            _btb_esik_alan[_kel_M] = _btb_col
-        elif _btb_col > 0:
+        _btb_pay_alan = _np.full((_kvny, _kvnx), _btb_pay, dtype=_np.float64)
+        if _btb_col and _YR_KELEPCE:
+            _btb_pay_alan[_kel_M] = _btb_col[0]
+            _btb_esik_alan[_kel_M] = _btb_col[1]
+        elif _btb_col:
             print("  ⚠️ MOTOR_BOS_TOPRAK_COL verildi ama çöl maskesi YOK "
-                  "(MOTOR_COL_UFUK_SAAT kapalı) — çöle özel eşik UYGULANMADI")
+                  "(MOTOR_COL_UFUK_SAAT kapalı) — çöle özel ayar UYGULANMADI")
         _btb_M = _btb_g > _btb_esik_alan
         if _YR_ESIK is None:
             _YR_ESIK = _np.full((_kvny, _kvnx), _YR_BUTCE, dtype=_np.float32)
-        _YR_ESIK = _np.where(_btb_M, _np.minimum(_YR_ESIK, _btb_pay),
+        _YR_ESIK = _np.where(_btb_M, _np.minimum(_YR_ESIK, _btb_pay_alan),
                              _YR_ESIK).astype(_np.float32)
+        # ⚠️ SÜREKLİLİK ŞARTI — `esik < 2×pay` seçilirse kapı eşiğin tam
+        #    üstünde SIÇRAYARAK açılır: açıklık eşiği bir metre aşan yerde
+        #    birden `esik − 2×pay` km'lik bir şerit sahipsiz kalır. `esik =
+        #    2×pay` seçilirse şerit SIFIRDAN açılır ve büyür — haritada
+        #    eşik çizgisi görünmez. Bu bir tercih değil, ölçülebilir bir
+        #    süreksizlik; motor onu ihbar eder, karar Emre'nindir.
+        if _btb_esik < 2 * _btb_pay:
+            print(f"  ⚠️ BTB SÜREKSİZ: eşik {_btb_esik:g} < 2×pay "
+                  f"{2 * _btb_pay:g} — kapı eşiğin üstünde "
+                  f"{2 * _btb_pay - _btb_esik:g} km'lik şeritle SIÇRAYARAK "
+                  f"açılıyor. `esik = 2×pay` sürekli geçiş verir.")
         print(f"  🏝 BOŞ TOPRAK BÖLÜŞÜMÜ AÇIK: pay {_btb_pay:g} km · eşik "
               f"{_btb_esik:g} km"
-              + (f" (çölde {_btb_col:g} km)" if _btb_col > 0 and _YR_KELEPCE else "")
+              + (f" (çölde pay {_btb_col[0]:g} / eşik {_btb_col[1]:g} km)"
+                 if _btb_col and _YR_KELEPCE else "")
               + f" · açıklığı eşiği aşan hücre {int(_btb_M.sum()):,} / "
                 f"{_btb_M.size:,} (%{100.0 * _btb_M.sum() / _btb_M.size:.1f}) · "
                 f"{time.time() - _btb_t:.1f} sn")
