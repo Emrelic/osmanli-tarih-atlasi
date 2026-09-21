@@ -1608,6 +1608,76 @@ def _kv_dijkstra(surt, nehir=None):
     return uzak, sahip
 
 
+def _kv_iki_etiket(surt, nehir=None):
+    """İKİ ETİKETLİ Dijkstra — her hücre için ① en ucuz tohum `(d1, sahip1)` ve
+    ② SAHİP1'DEN FARKLI en ucuz tohum `(d2, sahip2)`.
+
+    `d1 + d2` o hücreden geçen İKİ TOHUM ARASINDAKİ sürtünmeli açıklığın
+    km-eşdeğeridir. "Boş toprak bölüşümü ayarı" (Emre, 21 Eylül 2026) tam bu
+    sayıyı sorar: *iki yerleşim birbirinden ne kadar uzaksa aradaki boşluğu
+    bölüşmesinler?* Sahra'nın kuzeyi ile güneyi arasındaki hücrede bu toplam
+    ~1500 km çıkar; bir vadinin iki yakası arasında ~40 km.
+
+    🔴 NİÇİN AYRI GÖVDE — ve ayrışmanın nasıl ÖLÇÜLDÜĞÜ:
+       `_kv_dijkstra` bir AST sınavının (`denetim/ARAC-MOTOR-NEHIR-0916.py`)
+       dosyadan ÇEKİP koşturduğu işlevdir; gövdesini iki etiketli hâle
+       getirmek o sınavı sessizce BAŞKA bir şeyi ölçer kılardı. İki gövde
+       zamanla ayrışır — bu yüzden ayrışma varsayılmaz, çağıran taraf
+       `d1`/`sahip1`in `_kv_dijkstra` çıktısıyla BİREBİR aynı olmasını şart
+       koşar (aşağıdaki kelepçe bloğunda `assert`). Ayrışırsa koşu durur.
+    """
+    n = _kvnx * _kvny
+    inf = float("inf")
+    u1 = [inf] * n; s1 = [-1] * n
+    u2 = [inf] * n; s2 = [-1] * n
+    nbedel, nbayrak = nehir if nehir is not None else ({}, None)
+    q = []
+
+    def _koy(k, nd, s):
+        """k hücresine s etiketli nd bedelini yerleştir; kuyruğa girmeli mi?"""
+        if s1[k] == s:
+            if nd < u1[k]:
+                u1[k] = nd; return True
+            return False
+        if nd < u1[k]:
+            if s1[k] != -1:                 # eski birinci İKİNCİYE düşer
+                u2[k] = u1[k]; s2[k] = s1[k]
+            u1[k] = nd; s1[k] = s; return True
+        if s2[k] == s:
+            if nd < u2[k]:
+                u2[k] = nd; return True
+            return False
+        if nd < u2[k]:
+            u2[k] = nd; s2[k] = s; return True
+        return False
+
+    for h, idxs in _kvtohum.items():
+        # ⚠️ Etiket `idxs[0]` — `_kv_dijkstra` ile AYNI sözleşme. Aynı hücredeki
+        #    ikinci yerleşim orada da görmezden geliniyor; burada da gelinmeli,
+        #    yoksa d1/sahip1 sınavı yanlış yerden kırılır.
+        if _koy(h, 0.0, idxs[0]):
+            _heapq.heappush(q, (0.0, h, idxs[0]))
+    while q:
+        d, h, s = _heapq.heappop(q)
+        if not ((s1[h] == s and d <= u1[h]) or (s2[h] == s and d <= u2[h])):
+            continue                         # bayat girdi
+        j, i = divmod(h, _kvnx)
+        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
+        nh = nbayrak is not None and nbayrak[h]
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny): continue
+            k = b * _kvnx + a
+            if not _kvkara[k]: continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj): continue
+            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+            if nh:
+                nd += nbedel.get(h * _KV_YS + yi, 0.0)
+            if _koy(k, nd, s):
+                _heapq.heappush(q, (nd, k, s))
+    return u1, s1, u2, s2
+
+
 _kvuzak, _kvsahip = _kv_dijkstra(_kvsurt, _KVNEHIR)
 print(f"  kara yolu çözüldü, erişilen hücre {sum(1 for s in _kvsahip if s >= 0):,}")
 
@@ -1673,6 +1743,7 @@ _YR_UZAK_AGAC = _YR_IZGARA_AGAC = None
 # kapalıyken `_yr_kes`/bant döngüsü NameError vermesin (ikisi de yalnız bayrak
 # açıkken çağrılıyor, ama "çağrılmıyor" bir savunma değil — ad var olsun).
 _YR_BANT_UZAK = {}
+_BTB = []                           # boş toprak bölüşümü ayarı — [pay_km, esik_km]
 _YR_SAHIP = None                    # ny×nx int32, Dijkstra sahibi (−1: karar yok)
 _YR_KARAR = None                    # ny×nx bool, ızgaranın karar verdiği hücre
 _YR_KORUMA = []                     # bütçe kesimi tohumun kendi yerini kesseydi → korunan adlar
@@ -1771,14 +1842,103 @@ if MOTOR_YURUYUS:
                   f"{int(_kel_M.sum()):,} / {_kel_M.size:,} "
                   f"(%{100.0 * _kel_M.sum() / _kel_M.size:.1f}) · "
                   f"{time.time() - _kel_t:.1f} sn")
-            # 🔴 KONTUR SEVİYESİ 1.0'A ÇEKİLİYOR: alan kendi eşiğine bölünür.
-            #    "Bedel > eşik" sorusu "bedel/eşik > 1" sorusuyla AYNIDIR ve
-            #    contourpy tek skaler seviye alır. Eşik sıfır olamaz (bütçe
-            #    her hâlde pozitif), bölme güvenli.
-            _yr_F = (_yr_F / _YR_ESIK).astype(_np.float32)
-            _YR_BUTCE_KONTUR = 1.0
+            # ⚠️ NORMALLEŞTİRME BURADA DEĞİL: BTB kapısı (aşağıda) `_YR_ESIK`i
+            #    bir kez daha indirebiliyor. Bölmeyi iki yerde yapmak, ikinci
+            #    indirimin SESSİZCE uygulanmaması demekti.
+    # ═══════════════════════════════════════════════════════════════════
+    # 🏝 BOŞ TOPRAK BÖLÜŞÜMÜ AYARI (Emre, 21 Eylül 2026) — "BTB"
+    # ═══════════════════════════════════════════════════════════════════
+    # Emre'nin sözü: *"nasıl Atlantik'i Akdeniz'i iki ülke arasında
+    # bölüştürmüyor isek kum denizini dağ denizini ve orman denizini de iki
+    # yerleşim arasında bölüştürmemeliyiz."*
+    #
+    # MOTOR_BOS_TOPRAK="<pay_km>,<esik_km>"
+    #   esik_km : iki tohum arasındaki sürtünmeli açıklık (`d1+d2`) bundan
+    #             GENİŞSE aradaki toprak "deniz" sayılır ve bölüşülmez.
+    #   pay_km  : denizin her iki yakasında yerleşimin yine de ilerleyebildiği
+    #             saçak. Açıklık eşiğin altındaysa hiçbir şey değişmez —
+    #             yani (a) devlet toprakları arasındaki boşluk dolar,
+    #             (b) koridor kapanır, (c) küçük boşluk yutulur. Emre'nin
+    #             "iyi" dediği üç işlev BOZULMAZ; yalnız (d) — koca boşluğun
+    #             iki yerleşim arasında paylaşılması — kesilir.
+    #
+    # 🔴 DEVLET SORUSU BU AŞAMADA SORULAMAZ, VE SORULMASINA GEREK YOK:
+    #    yürüyüş GÜNDEN BAĞIMSIZ koşar (bir kez, bütün zaman için); hangi
+    #    yerleşimin hangi gün hangi devlette olduğu ~4500 satır sonra
+    #    belli olur. Ama Emre'nin muafiyeti — *"iki yanda aynı devlete ait
+    #    yerleşim varsa eksklav birleştirme ile birleşmesinde sorun yok"* —
+    #    zaten O AŞAMADA duruyor: kapının açtığı boşluk aynı devletin iki
+    #    parçası arasındaysa B1 (`delikleri_doldur`) deliği, B2
+    #    (`_b2_enklav_birlestir`) eksklavı kapatır. ⇒ Kapı yerleşim
+    #    düzeyinde GEOMETRİK, muafiyet devlet düzeyinde ZATEN VAR.
+    #    ⚠️ AMA BİR KOŞULLA: B2'nin tavanı `B2_ENKLAV_KM`dir (250 km). Kapı
+    #    ondan GENİŞ bir boşluk açarsa aynı devletin iki yakası birleşemez.
+    #    ⇒ `esik_km > 250` seçilirse B2 tavanı da yükseltilmeli; bu KARAR
+    #    Emre'nindir, motor kendiliğinden değiştirmez — yalnız İHBAR EDER.
+    #
+    # 🔴 ÜÇ "DENİZ"İN ÜÇÜ AYNI ŞEY DEĞİL, ÖLÇÜLDÜ:
+    #    sürtünme alanı `1 + EGIM_CARPANI*eğim` (:1343) — YALNIZ EĞİM okur.
+    #    ⇒ DAĞ DENİZİ kendiliğinden geniştir: Himalaya'nın iki yakası
+    #      arasındaki `d1+d2` düz ovadakinin katıdır, tek eşik yeter.
+    #    ⇒ KUM DENİZİ ve ORMAN DENİZİ değil: Sahra düz, tundra düz;
+    #      sürtünmede ucuzlar. Onlar için eşik ARAZİ SINIFINA göre
+    #      indirilir (`MOTOR_BOS_TOPRAK_COL`), çöl maskesi yukarıda zaten
+    #      rasterize edilmiş durumda.
+    _BTB = [float(x) for x in
+            (os.environ.get("MOTOR_BOS_TOPRAK") or "").replace(" ", "").split(",")
+            if x]
+    if _BTB and len(_BTB) != 2:
+        raise SystemExit("MOTOR_BOS_TOPRAK biçimi: '<pay_km>,<esik_km>' "
+                         f"— gelen: {os.environ.get('MOTOR_BOS_TOPRAK')!r}")
+    if _BTB:
+        _btb_t = time.time()
+        _btb_pay, _btb_esik = _BTB
+        _btb_u1, _btb_s1, _btb_u2, _btb_s2 = _kv_iki_etiket(_kvsurt, _KVNEHIR)
+        # 🔴 AYRIŞMA SINAVI — iki gövdenin aynı şeyi hesapladığı VARSAYILMAZ.
+        _btb_fark = sum(1 for a, b in zip(_btb_s1, _kvsahip) if a != b)
+        if _btb_fark:
+            raise SystemExit(
+                f"🔴 BTB: iki etiketli Dijkstra `_kv_dijkstra`dan AYRIŞTI — "
+                f"{_btb_fark:,} hücrede sahip farklı. Kapı kapalı sayılmaz, "
+                f"koşu DURDU (iki gövde ayrışmışsa ölçüm anlamını yitirir).")
+        _btb_g = (_np.fromiter(_btb_u1, dtype=_np.float64, count=_yr_n)
+                  + _np.fromiter(_btb_u2, dtype=_np.float64, count=_yr_n)
+                  ).reshape(_kvny, _kvnx)          # açıklık, km-eşdeğeri
+        # Tek tohumun görebildiği hücrede d2 = ∞ ⇒ açıklık ∞: YERLEŞİM-DENİZ
+        # hâli (Yakutsk ile Kuzey Buz Denizi arası). Emre: *"ufak bir boşluk
+        # varsa kapatılabilir"* — `pay_km` tam bu saçaktır, ∞ açıklık da
+        # aynı kapıdan geçer, ayrı bir kural GEREKMEZ.
+        _btb_esik_alan = _np.full((_kvny, _kvnx), _btb_esik, dtype=_np.float64)
+        _btb_col = float(os.environ.get("MOTOR_BOS_TOPRAK_COL", "0") or "0")
+        if _btb_col > 0 and _YR_KELEPCE:
+            _btb_esik_alan[_kel_M] = _btb_col
+        elif _btb_col > 0:
+            print("  ⚠️ MOTOR_BOS_TOPRAK_COL verildi ama çöl maskesi YOK "
+                  "(MOTOR_COL_UFUK_SAAT kapalı) — çöle özel eşik UYGULANMADI")
+        _btb_M = _btb_g > _btb_esik_alan
+        if _YR_ESIK is None:
+            _YR_ESIK = _np.full((_kvny, _kvnx), _YR_BUTCE, dtype=_np.float32)
+        _YR_ESIK = _np.where(_btb_M, _np.minimum(_YR_ESIK, _btb_pay),
+                             _YR_ESIK).astype(_np.float32)
+        print(f"  🏝 BOŞ TOPRAK BÖLÜŞÜMÜ AÇIK: pay {_btb_pay:g} km · eşik "
+              f"{_btb_esik:g} km"
+              + (f" (çölde {_btb_col:g} km)" if _btb_col > 0 and _YR_KELEPCE else "")
+              + f" · açıklığı eşiği aşan hücre {int(_btb_M.sum()):,} / "
+                f"{_btb_M.size:,} (%{100.0 * _btb_M.sum() / _btb_M.size:.1f}) · "
+                f"{time.time() - _btb_t:.1f} sn")
+        # ⚠️ B2 tavanı uyarısı BURADA DEĞİL: `B2_ENKLAV_KM` bu satırdan ~1000
+        #    satır SONRA tanımlanıyor. Uyarı tanımın yanında duruyor —
+        #    "sabiti yukarı taşıyalım" demek, onu okuyan öbür bloğu da taşımak
+        #    demekti. Aramak için: `_BTB` (bu ad tek yerde daha geçer).
     if _YR_ESIK is None:
         _YR_BUTCE_KONTUR = _YR_BUTCE
+    else:
+        # 🔴 KONTUR SEVİYESİ 1.0'A ÇEKİLİYOR: alan kendi eşiğine bölünür.
+        #    "Bedel > eşik" sorusu "bedel/eşik > 1" sorusuyla AYNIDIR ve
+        #    contourpy tek skaler seviye alır. Eşik sıfır olamaz (bütçe
+        #    her hâlde pozitif), bölme güvenli.
+        _yr_F = (_yr_F / _YR_ESIK).astype(_np.float32)
+        _YR_BUTCE_KONTUR = 1.0
     _yr_km2 = ((KV_ADIM * 111.32) ** 2
                * _np.cos(_np.radians(_kvy0 + (_np.arange(_kvny) + 0.5) * KV_ADIM)))[:, None]
     print(f"  bütçe {_YR_BUTCE:.1f} km-eşdeğeri · erişilen kara "
@@ -2774,6 +2934,17 @@ _KARA_HAZIR = prep(KARA)     # bir kez hazırlanır; B2'nin deniz sınavı bunu 
 #   toprak Osmanlı olduğu için `covers` testini geçiyorlardı. Birleşik
 #   gövdede ayrı parça bile değiller.
 B2_ENKLAV_KM = 250.0        # Emre: "karasal" · ölçülen en uzak vaka 223 km
+# 🏝 BTB KAPISIYLA BAĞI — uyarı burada, çünkü sabit BURADA tanımlı (kapının
+# kendisi ~1000 satır YUKARIDA, `_BTB`). Emre'nin muafiyeti *"iki yanda aynı
+# devlete ait yerleşim varsa eksklav birleştirme ile birleşsin"* bu tavana
+# dayanıyor: kapı daha GENİŞ bir boşluk açarsa aynı devletin iki yakası
+# birleşemez ve muafiyet o aralıkta sessizce çalışmaz.
+if _BTB and _BTB[1] > B2_ENKLAV_KM:
+    print(f"  ⚠️ BTB eşiği ({_BTB[1]:g} km) B2 eksklav tavanından "
+          f"({B2_ENKLAV_KM:g} km) GENİŞ — kapının açtığı boşluğun iki yakası "
+          f"AYNI devletteyse B2 onu BİRLEŞTİREMEZ. Emre'nin muafiyeti bu "
+          f"aralıkta çalışmaz; B2 tavanını yükseltmek EMRE'NİN kararıdır, "
+          f"motor kendiliğinden değiştirmez.")
 # 0038/H-0003 — köprü kenarının İÇ BÜKEYLİĞİ. 0 = düz yamuk (eski hâl),
 # 0,35 = ortasından %35 içeri bastırılmış parabolik bel. Uçlar HER HÂLDE
 # tam genişlikte kalır (sin(0)=sin(π)=0), yani kaynak yeri incelmez.
