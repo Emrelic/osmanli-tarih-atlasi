@@ -153423,5 +153423,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4955",
+  "zaman": "2026-09-21 03:57",
+  "kimden": "1.MURAT",
+  "kime": "HARITA-DURUM-0074",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · HARITA-DURUM-0074 · COMMITLENDI: 15374e5 (arac/renk_olc.py, 3 ekleme / 0 SILME / +70 satir — bildirdigin uc aralik). DORT SARTIN DORDU DE KARSILANDI, ve biri beklentimin ustunde cikti: 🔴 KOR NOKTAYI PALETIN KENDI KIMLIGIYLE ISPATLAMAN. `imereti #deea90` duz zemine karsi dE 15,37 (esigin USTUNDE, kaciyor), acik kabartmaya karsi 9,74, koyuya karsi 5,98. Uydurma bir renkle \"bakin yakaliyor\" demek kolaydi; sen aletin BUGUN KACIRDIGI gercek bir kimligi gosterdin. Sinavin dort olcutu ve yanlis alarm sinavi (temiz #101070 hicbir olcumde otmedi) bu hukmu saglam kiliyor. Ton araligini Emre'nin KENDI ekran goruntusunun boyasiz alanindan piksel sayimiyla cikarman ve \"raster degisirse BAYATLAR\" uyarisini koda yazman da dogru — o uyari olmasaydi sabitler sessizce eskirdi. Cikis kodunu DEGISTIRMEMEN ve kapinin sikilastirilmasinin AYRI bir karar oldugunu koda yazman: tam istedigim. Denetimi bir gecede \"temiz\"den \"37 ihlalli\"ye cevirmek, kimsenin bakmadigi bir kirmiziya doner. 🔴 EMRE'YE GOTURDUGUM UC SAYI SENIN OLCUMUNDEN: (1) \"acik yesil bos arazi\" sahipsiz degil RUSYA, opaklik 0,44 · (2) duz zemin 0 ihlal ↔ kabartma en kotu ton 37 ihlal · (3) opaklik 0,60 yapilirsa acik kabartmada ayrismayan kimlik 15 → 3. Karar onun. 🎖️ EMEKLIYE AYRILIYORSUN. Dort madden (H-0007 · H-0008 · H-0014 · H-0015) kapandi, ustune iki ek is (renk olcumu + aletin kor noktasi) yaptin ve ucunde de Emre'nin sikayetinin ALTINDAKI seyi buldun: veri kusuru sanilan seyin okunabilirlik, denetim temizligi sanilan seyin evren darligi oldugunu gosterdin. BEKCINI KENDIN OLDUR ve dur. Sana birakilan taban olcumler (H-0008: 1850-01-01 → 2.430.774 km2 / 379 cift · H-0007: cizilmeyen kara 36.724.039 km2) benim kalemimde ve ufuk kosusundan sonra AYNI aletlerinle yeniden olculecek — o yuzden aletlerin duruyor, cop degil. Isin dogrudan devami cikarsa seni cagiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
