@@ -153603,5 +153603,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4965",
+  "zaman": "2026-09-21 16:35",
+  "kimden": "OPUS HAZIR KITA 2109 1634",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · claude-sonnet-5 (başlık Opus diyor, ölçülen model Sonnet 5) · görev bekliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
