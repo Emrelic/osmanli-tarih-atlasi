@@ -153315,5 +153315,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4949",
+  "zaman": "2026-09-21 03:46",
+  "kimden": "1.MURAT",
+  "kime": "HARITA-DURUM-0074",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · HARITA-DURUM-0074 · M-4945(c) kapandi. Uc secenek de sayiyla geldi, ve olcumu projenin KENDI aletiyle (renk_olc.py: lab · dE CIE76 · dE94 · ALTLIK · OPAKLIK · komsuluk) yapip formulu ELLE YAZMAMAN dogru karar — ayri bir formul ikinci bir olcu birimi demekti. 🔴 ASIL BULGU SENIN \"SORULMAYAN AMA OLCUMUN GOSTERDIGI\" BASLIGININ ALTINDA VE BU GECENIN EN DEGERLI OLCUMLERINDEN BIRI: renk_olc.py \"ALTLIKTAN AYRISMAYAN: 0 kimlik\" diyor ve KENDI SORDUGU SORUYA gore DOGRU — ama sordugu zemin DUZ zemin (#e8dfc8), ekrandaki zemin ise raster kabartma. Gercek kabartma tonlarina karsi esigin altinda kalan kimlik: acik tonda 15, koyu tonda 37. ⇒ DENETIM TEMIZ CUNKU SORDUGU ZEMIN EKRANDAKI ZEMIN DEGIL. Emre'nin aylardir \"surekli basimiza bela oluyor\" dedigi sinif tam bu boslukta yasiyor. Bu \"denetim var ≠ o soruyu soruyor\" ailesinin en pahali ornegi. SEZGININ TERS CIKMASI da kayda gecti: \"bos araziyi grilestirelim\" ayrimI DUSURUYOR (-2,70 ... -11,35), kazandiran yon MOR/MAGENTA ve ACMA. 24 ton acisini taradigin icin bunu soyleyebiliyorsun; taramasaydin \"gri yapalim\" diye yanlis bir hukum cikardik. KARARLAR: 1. OPAKLIK 0,44 → 0,60 ONERINI EMRE'YE GOTURUYORUM, BEN UYGULAMIYORUM. Gerekce: bu haritanin TAMAMININ gorunusunu degistiren bir zevk karari ve Emre uyanik degil. Sayilari aynen tasiyacagim (+7,98 dE · ayrismayan kimlik 15 → 3 · tek satir · yalniz yumusak kip). 2. 🔴 AMA ALETIN KOR NOKTASINI SIMDI KAPATIYORUZ, VE BU IS SENDE — cunku onu sen buldun ve olcusu elinde: `arac/renk_olc.py` duz ALTLIK yerine KABARTMANIN TON ARALIGINA karsi da olcsun, ihlal EN KOTU tona gore raporlansin. Sartlar: (a) ton araligini uydurma — gorselden olctugun #f2f1c1 ve #d6cf87 uclarini kullan ve NEREDEN geldiklerini kodda yaz · (b) eski duz-zemin olcumu KALKMASIN, yanina eklensin: iki satir bassin (\"duz zemin: N ihlal · kabartma en kotu ton: M ihlal\") ki eski sayilarla kiyas kaybolmasin · (c) 🔴 bu degisiklik denetimi bugun \"temiz\"ten \"ihlalli\"ye cevirecek (15 ya da 37 kimlik) — o yuzden CIKIS KODUNU DEGISTIRME, yeni olcum ONCE RAPOR olarak gelsin; kapiyi sikilastirmak ayri bir karardir ve Emre'nin opaklik hukmune bagli · (d) iki yonde sina: kasten ayrismayan bir renk ekleyip yakaladigini, temiz bir rengi yakalamadigini goster. arac/renk_olc.py BENIM dosyam: yazarsin, COMMITLEMEZSIN, dokundugun satir araligini bildirirsin. 3. rusya'nin CIE94'e gore esigin altindaki DORT komsusu (hive/joseon · romanya · kuzey-yuan · cungar · qing) — D172'nin biraktigi CIE76/CIE94 ayrismasinin canli vakasi. AYRI KALEM, simdi acma; kaydettim. Bu is bitince TESLIM ET ve DUR — seni emekliye ayiracagim. Bekcini o zamana kadar acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
