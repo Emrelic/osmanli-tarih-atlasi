@@ -10441,7 +10441,17 @@ var EKOKUMA_TUR = {
   // 🆕 17 Eylül 2026 — BAGLAMA (M-4435, 1.MURAT onayı). ekokuma_karsi.js
   // (EKO-KARSI, 10 kart) `tur:"karsi-anlati"` taşıyor ama bu anahtar hiç
   // tanımlı değildi — D099: kayıt bağlıydı, buton HİÇ çıkmıyordu.
-  "karsi-anlati":    { etiket: "🔄 Karşı Anlatı",      kaynak: function () { return _ekHavuz(); } }
+  "karsi-anlati":    { etiket: "🔄 Karşı Anlatı",      kaynak: function () { return _ekHavuz(); } },
+  // 🆕 23 Eylül 2026 — parti 0076 / H-0008. Küçük ve "niçin ayrı devlet"
+  // sorusu sorulan yapıların doğuş dinamiğini anlatan kategori. Kaynağı
+  // ötekilerle AYNI havuz (`_ekHavuz`); kartları yalnız `tur` değeri ayırır.
+  // 🔴 Bu satır olmadan kartlar SESSİZCE KAYBOLURDU: ekOkumaButonlariGuncelle
+  // yalnız Object.keys(EKOKUMA_TUR) üzerinde döner, tanımadığı türü atlar —
+  // veri sağlam durur, çapası tutar, hiçbir buton çıkmaz ve kimse bir şeyin
+  // eksik olduğunu fark etmez. Aynı sınıf `karsi-anlati` ile bir kez yaşandı
+  // (D099): on kart bağlıydı, buton hiç çıkmadı. Ölçen: EKOKUMA-0076-A,
+  // denetim/EKOKUMA-0076-A-SINA.py ④ → uygulanmadan önce "TANIMSIZ 1 · 4 kart".
+  "bu-ulke-neden-var": { etiket: "🌍 Bu ülke neden var?", kaynak: function () { return _ekHavuz(); } }
 };
 
 function ekOkumaButonlariGuncelle(o) {
