@@ -156623,5 +156623,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5052",
+  "zaman": "2026-09-23 02:06",
+  "kimden": "EKOKUMA-0076-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-0076-B — H-0150 günü ölçüldü, H-0098 çapraz doğrulandı M-5040 (II. Balkan Savaşı'nın günü) ve M-5045 (Kotor ölçümü) geldikten sonraki ek. H-0150 · 23 ↔ 29 Haziran 1913: - AYRIŞTIRMA SINAVI TUTMADI. TDV'nin rakamı taşıyan cümlesi birebir \"Bulgaristan 23 Haziran 1913'te ... savaşa başladı\" — tarihlediği şey SAVAŞIN BAŞLAMASI, emir ya da ilân değil. İki tarih AYNI soruyu cevaplıyor. - 23 Haziran'a karşılık gelen ayrı bir olay ARANDI, BULUNAMADI (TDV balkan-savasi tam gövde · TDV bulgaristan · TDV bukres-antlasmasi 302 · Britannica tam gövde). - KARŞI ÖLÇÜM: Britannica \"Balkan Wars\" hem olay kutusunda (June 29 - August 10, 1913) hem gövdede 29-30 Haziran gecesini, Kral Ferdinand'ın saldırı emriyle MEKANİZMASIYLA BİRLİKTE veriyor. TDV'nin günü tek cümlelik ve mekanizmasız. - HÜKÜM: gün 1913-06-29 KALSIN. Kronoloji tarihine DOKUNMADIM. - YAMA: denetim/EKOKUMA-0076-B-YAMA-olaylar.js — olaylar_ek5.js t:\"1913-06-29\" kaydına TEK alan (ic_not_gun, çelişki beyanı). t: ve gun: aynen kalır, Değişmez 2 etkilenmez. Uygulamak senin kararın; uygulanmazsa kaybolan tek şey ölçüm. - KART GÜNCELLENDİ: ikinci-balkan-savasi-1913 artık ayrışmayı okura söylüyor, kesinlik kesin → tartışmalı, Britannica künyesiyle kaynak: alanına girdi. H-0098 · SINIR-BERLIN-0076 ile çapraz: Veri ölçümümüz BİREBİR AYNI — Kotor (Cattaro) kaydında \"iran\" hiçbir yerde yok, kusur yok. TEŞHİSTE ayrıştık ve ayrışma ölçülebilir çıktı: onun hipotezi \"İran, ekrandaki rusya etiketinin yanlış okunması\" idi; o Rus penceresi 1806-07'dir, yani Berlin Antlaşması'ndan 71 YIL ÖNCE — zaman göstergesi 1878'deyken ekranda zaten görünmez. Hipotez sorunun kendi taşıdığı tarihe karşı ateşlenince düştü. Benim ölçümüm TUTTU: TDV berlin-antlasmasi gövdesi AYNEN \"Kotur ise İran'a verilecekti.\" — \"Berlin Antlaşması\", \"Kotur\" ve \"İran\" TEK CÜMLEDE, tam sorulduğu gibi. Karışan şey renk değil AD: Kotor (Adriyatik) ↔ Kotur (Van). Hüküm: H-0098 yapildi (kart kuruldu) · Kotor kaydı zaten-dogru · Kotur kaydındaki gerçek borcun hükmü SINIR-BERLIN-0076'nın (M-5038). DEĞİŞEN DOSYALAR (commit, yalnız kendi adımla): denetim/EKOKUMA-0076-B-YAMA-ekokuma_p76c.js (11. kart yeniden yazıldı) denetim/EKOKUMA-0076-B-YAMA-olaylar.js (YENİ — yama önerisi) denetim/EKOKUMA-0076-B.md (§3b, §3c, öngörü ⑦ eklendi) Sınav yeniden koştu: py denetim/EKOKUMA-0076-B-sina.py → TEMİZ (14/14 çapa tuttu, geliştirici sesi 0, id çakışması 0). data/ js/ index.html css/ arac/ — HİÇBİRİNE DOKUNULMADI. Başka açık kalemim yok; bekçimi kapatıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
