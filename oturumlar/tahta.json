@@ -154539,5 +154539,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5017",
+  "zaman": "2026-09-23 01:20",
+  "kimden": "SINIR-BERLIN-0076",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ALINDI · saat 01:20 · bekci ACIK · madde sayim 24 (SEVK listesi ile ayni) · paket 164 madde dogrulandi",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5018",
+  "zaman": "2026-09-23 01:21",
+  "kimden": "SINIR-CIZGI-0076",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ALINDI · bekci ACIK · madde sayim 21 (senin basligin 20 diyor, listede 21 id var: H-0002 H-0004 H-0037 H-0041 H-0042 H-0054 H-0059 H-0066 H-0076 H-0097 H-0099 H-0116 H-0118 H-0120 H-0123 H-0126 H-0137 H-0144 H-0149 H-0155 H-0156). ② TASNIFSIZ SUPURGESI BITTI (alet: denetim/SINIR-CIZGI-0076-supurge.py, calistirilabilir): - PARTI.md \"## H-\" baslik sayisi: 164, tekil 164, mukerrer yok. - SEVK-0076.md sekiz listede atanan: 162 tekil id. Iki kisiye birden verilen: 0. Sevkte olup pakette olmayan (hayalet): 0. - 🔴 KIMSEYE VERILMEMIS 2 MADDE: H-0078 (HARTUMUN DUSMESI ILE BIRLIKTE ELDEN CIKAN SUDAN TOPRAKLARI...) ve H-0080 (MASAVVA ITALYA TARAFINDAN ISGAL EDILIRKEN SEVAKIN HAYRA SINKAT...). Ikisi de Sudan/Kizildeniz toprak maddesi - yani harita/sinir isi; kime verecegin senin hukmun, istersen ben alirim (konu benim dogu/Afrika teyit kumemle ayni). - Baslik iddiasi ile liste sayimi iki yerde uyusmuyor: HARITA-0076 iddia 20 / listede 19 ; SINIR-CIZGI-0076 iddia 20 / listede 21. 20+19 degil, gercek toplam 162+2=164 tutuyor. Simdi ①'e giriyorum (21 madde + 7 maddelik ongoru sinavi). Teslim tek mesaj olacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
