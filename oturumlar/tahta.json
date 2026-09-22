@@ -156317,5 +156317,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5035",
+  "zaman": "2026-09-23 01:53",
+  "kimden": "KRONO-0076-A",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-0076-A · 28 madde — 15 kapandi, 1 karar bekliyor, 2 yatay verildi, 10 sirada ① NE OLCTUM (hepsi tekrar kosan aletle) · 28/28 maddenin kronoloji karsiligi VERIDE VAR, 0 bulunamadi. Evren: data/olaylar*.js + kronoloji*.js = 128 dosya · 6665 kayit · 1855-1884 penceresi 455 kayit. Alet: denetim/KRONO-0076-A-olc.py · Mevcut ek okuma kapsamasi: 63 dosya · 594 kart; 20 maddede BAGLI KART YOK. Alet: denetim/KRONO-0076-A-kapsama.py · URETTIM: 16 kart / 15 madde -> denetim/KRONO-0076-A-YAMA-ekokuma_p76d.js degisken window.EKOKUMA_P76D, uygulanacak yer data/ekokuma_p76d.js. SINAV (denetim/KRONO-0076-A-sina.py) TEMIZ: node --check temiz · 7 alanin 7'si her kartta · 596 mevcut id ile carpisma 0 · 16 olay bagi -> capasiz 0 · gelistirici sesi 0 (suzgec bilerek kirletilmis dizgide once atesledi: 5 vurus) Kapanan maddeler: H-0001 H-0005 H-0006 H-0010(2 kart) H-0013 H-0016 H-0018 H-0019 H-0021 H-0030 H-0039 H-0055 H-0056 H-0061 H-0062 · TDV: 12 slug 200 okundu. vilayet GOVDESIZ (bk. EYALET) — govde eyalet maddesinden alindi. TDV kendi icinde CELISIYOR: Bulgar Eksarhligi bulgaristan'da 11 Mart 1870, makedonya'da 28 Subat 1870 — taraf secmedim, IKISI de kartta, birlestirmedim. · H-0009 ACIK UCLU TALEP OLCULDU, URETILMEDI: padisahlar.js 41 kayit · vefat_id 27 kimlik · talep aynen uygulansa 82 kart. Hukum: senin-kararin, kapsami yalniz Emre acar (M-5025'teki emrin). · H-0061/H-0062 ikiz sinavi: MUKERRER DEGIL — ayni baslik, iki ayri soru (biri gerekce+hukuki sonuc, oteki dostluk/dusmanlik tartismasi). Iki kart. ② NE BULAMADIM (aranip bulunamadi, \"yok\" demiyorum) · TDV'de mustakil madde olarak: yedi-sekiz-hasan-pasa · divan-i-muhasebat · Taranan maddelerde: 1453 universite iddiasinin gerekcesi · 1872 Bulgar aforozu · Yenipazar sancaginin Berlin'deki duzenlemesi · Kibris antlasmasinin beklenen destegi saglayip saglamadigina dair degerlendirme · H-0056'nin HARITA tarafi (Ayastefanos-Berlin karsilastirma gorseli): kamu mali/CC0 uygun gorsel olculmedi, metin tarafi indi. ③ ISTIYORUM / BILDIRIYORUM · 10 madde SIRADA: H-0003 H-0007 H-0012 H-0014 H-0017 H-0024 H-0025 H-0026 H-0029 H-0035. Her birinin nereden baslayacagi (hangi TDV slug'i, hangi mukerrerlik once olculecek) raporda tek tek yazili — devralan oturum olcumu ikinci kez odemesin. · IKI YATAY VERILDI: M-5033 HARITA-0076'ya (H-0036), M-5034 SINIR-BERLIN-0076'ya (H-0043). Hukum onlarda, olcum bende. H-0036: Kars 1877-11-18'de Rusya, cevresindeki 15 Osmanli noktasi 1878-03-03'e kadar Osmanli -> 105 GUN tek basina Rus renkli nokta. Sinir hatasi DEGIL, tarih asimetrisi. H-0043: 1878-07-28'de Osmanli olan 23 yerlesimin 14'unde 1878-07-29 isgal kaydi var; 2'sinde 09-18; 5'inde HIC YOK — Yenipazar · Bosanski Brod · Bosanska Krupa · Bosanska Dubica · Bosanski Novi. Emre hakli, sikayeti olculenden DAR. ④ KENDI ALETIMDE IKI KUSUR BULDUM (ikisi de sayiyi yalan yapiyordu) · D215 normallestirici — zaten M-5024 ile herkese ilan ettin. · Elle yazdigim yerlesim ayristiricisi 3921 yerine 2731 nokta buldu, kayit duzeyindeki d: dizisini (Osmanli dogrudan) SAHIPSIZ sandi ve kayit sinirini kaydirip Yenipazar'a komsu kaydin devletini yapistirdi. Atildi, olcum arac/girdi.yukle ile yenilendi. ⇒ SIZE DE GECERLI: yerlesim sahipligi DORT kovadadir (d · v · s · isg) ve ilk eslesen dondurulurse isg: kaydi GIZLENIR. Benim ilk halim tam bunu yapiyordu: \"Bosna'da isgal yok\" hukmu aranmadigi icin bos cikan kumeden dogacakti. COMMIT: 80244a71 — 13 dosya, hepsi denetim/KRONO-0076-A* (pathspec ile, git show --name-only ile dogrulandi). data/ arac/ js/ index.html css/ dosyalarina DOKUNULMADI. RAPOR: denetim/KRONO-0076-A.md (madde -> hukum -> sayi -> dayanak)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
