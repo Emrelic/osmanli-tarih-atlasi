@@ -46,6 +46,86 @@ Dehîbat · Remâda
 kez *"sınır çizildi"* diyor, harita **24 yıl** boyunca hiçbir şey göstermiyor.
 ⇒ Bu bir hat kaydı işi; nokta eklemek çözmez. `H-0082` · `H-0087`.
 
+### Sisam — tarih taşıması · `H-0124` · ölçen: `KRONO-0076-C`
+🔴 **Bu gecenin en temiz `D207` vakası: elden çıkış günü kaynaktan değil
+ATLASIN KENDİ HARİTASINDAN gelmiş.**
+```
+bugün   v:[{f:"1832-12-10", t:"1912-03-13", statu:"vassal"}]
+        s:[..., {f:"1912-03-13", t:"1923-10-29", d:"yunanistan"}]
+TDV     "Balkan savaşları sonunda Sisam adası Yunanistan ile birleşti
+         (11 Kasım 1912)" · vali 1913'e kadar görevde
+```
+- Dönemin **başı** (1832-12-10) TDV ile **birebir** tutuyor — başı sağlam.
+- Dönemin **sonu** hiçbir kaynağa dayanmıyor: kronoloji kaydının `gun:` alanı
+  yalnız `"1912"` diyor. Üstelik **1912-03-13 veride ZATEN başka bir olayın
+  günü** (Sırp–Bulgar İttifak Antlaşması) — komşu kayıttan devralınmış.
+- **Yapılacak:** `v:` sonu + `s:` başı + kronoloji kaydı **ÜÇÜ BİRLİKTE**
+  1912-11-11'e taşınır. Ayrılamazlar (Değişmez 2 + sahipsizlik).
+- **Ters yön sınavı yapıldı:** eski konumun kapsayıp yeninin kapsamadığı
+  kırılma günü 2, ikisi de başka maddelerle korunuyor, **açıkta kalan 0**.
+- Etki: Sisam 8 ay daha Osmanlı tâbii kalır ⇒ **koşu gerekir.**
+
+### Bosna kuzeybatı şeridi — eksik işgal kaydı · `H-0043` · ölçen: `KRONO-0076-A`
+1878-07-29'da `isg:avusturya` başlaması gereken ama **kaydı hiç olmayan**:
+```
+Bosanski Brod · Bosanska Krupa · YENİPAZAR (Novi Pazar)
+Bosanska Dubica · Bosanski Novi        (bu ikisinde yalnız 1788 işgali var)
+```
+📌 Emre'nin şikâyeti **ölçülenden dar** çıktı: o yalnız Yenipazar'ı saydı,
+ölçüm dört komşusunu daha buldu. Saydığı Udbina · Cetingrad · Jasenovac ise
+**zaten Avusturya** (Askerî Sınır, 1878 öncesi) — onlarda kusur yok.
+⚠️ Kaynak notu: TDV `berlin-antlasmasi` **işgal** der, ilhak demez — yani
+mevcut 14 kaydın `isg:` kovasında olması **doğru**; kusur kovanın eksik
+kalması. **Yenipazar sancağı** için açık cümle **bulunamadı** ⇒ `isg:` mi düz
+Osmanlı mı, kaynak kararı ister. Hüküm `SINIR-BERLIN-0076`da.
+
+---
+
+## ⚖️ KOŞU İSTEMEYEN AMA HÜKÜM BEKLEYEN
+
+### Kars — 105 günlük "Rus eksklavı" · `H-0036` · ölçen: `KRONO-0076-A`
+```
+Kars                1877-11-18 → rusya   (TDV doksanüç-harbi: 18 Kasım)
+çevresindeki 15 nokta  1878-03-03 → rusya   (Ayastefanos günü)
+Ardahan             1877-05-17 → rusya   (zaten)
+```
+⇒ **105 gün** boyunca Kars, Osmanlı noktalarının ortasında tek başına Rusya
+renkli tek nokta; petek onu kendi sahibiyle boyadığı için harita **Rus
+eksklavı** gösteriyor. Emre'nin gördüğü şey bu.
+🔴 **SINIF: sınır hatası DEĞİL, TARİH ASİMETRİSİ.** Kalenin düşüş günü
+kaynaktan, çevredeki toprağın el değiştirmesi antlaşma gününe bağlanmış.
+⚠️ `D206`: çevre noktalarını 1877'ye çekmek, Ayastefanos'a kadar gerçekten
+Osmanlı kalan yerleri **erken kaybettirir**. İki ucu ölçmeden düzeltme yok.
+
+### Nikarya — 🔴 ATLAS KENDİ İÇİNDE ÇELİŞİYOR, çözülemedi · `H-0127`
+```
+yerlesimler.js   isg:[{f:"1912-07-17", d:"yunanistan", kaynak:"oniki-ada"}]
+olaylar_ek6.js   aynı gün: "Nikarya'nın BAĞIMSIZLIK İLANI" — kendi bayrağı,
+                 pulu ve meclisiyle BEŞ AY süren serbest devlet, Yunanistan'a
+                 Kasım 1912'de katıldı
+```
+İkisi aynı anda doğru olamaz. **Çözülemedi, çünkü kaynak yok:** TDV'de
+`ikarya`/`nikarya` maddesi YOK (arama: "sonuç yok") ve ada TDV `oniki-ada`
+maddesinde sayılan on iki adanın arasında da **geçmiyor** ⇒ kayıttaki
+`kaynak:"oniki-ada"` şüpheli. **Veriye dokunulmadı** — akademik kaynak
+bulmadan düzeltmek, atlasın kendi kaydını kaynak yerine koymak olur (`D207`).
+
+### Gövde çakışması — `HARITA-0076` B kovası · koşu istemez
+Boyalı hücrenin iki ya da daha çok gövdeyle boyandığı oran:
+```
+Hadramut  1884  %2,92   %96'sı tek çift: kesiri-sultanligi ¦¦ kuayti-sultanligi
+Bulgaristan     %4,98   bulgaristan¦¦vassal 658 · sirbistan¦¦vassal 434
+Trakya    1913  %2,28   tamamı bulgaristan¦¦osmanli
+DÜNYA     1884  %1,43  ·  1878  %1,32
+```
+🔴 Baskın çift `bulgaristan ¦¦ vassal` demek: **AYNI POLITY İKİ KERE
+ÇİZİLİYOR** — bir kez yabancı gövde, bir kez Osmanlı tâbisi. Ekrandaki
+kahverengi kamalar bu. `CLAUDE.md §3`ün açıkça *"`kd:` ile DÜŞMEZ"* dediği
+sınıf; çakışma `donemler.js` + `devletler_harita.js` **gövdelerinde**.
+⚠️ Dünya ölçeğinde en büyük kaynak Batı Afrika künyeleri
+(`mossi-vagadugu¦¦yatenga` 74 · `kenedugu¦¦mossi` 70 · `adar¦¦sokoto` 69 …) —
+**hiçbir maddede bildirilmemiş**, yani sessiz borç.
+
 ---
 
 ## ✅ GERİ ALINANLAR — "yok" hükmü ÇÜRÜDÜ, nokta EKLENMEYECEK
