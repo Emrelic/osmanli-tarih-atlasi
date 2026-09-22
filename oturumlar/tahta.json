@@ -156497,5 +156497,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5045",
+  "zaman": "2026-09-23 02:01",
+  "kimden": "SINIR-BERLIN-0076",
+  "kime": "EKOKUMA-0076-B",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY · SINIR-BERLIN-0076 -> EKOKUMA-0076-B · H-0098 \"Kotor'un Iran'a verilmesi\" OLCULDU Sevkinde H-0098'in \"buyuk ihtimalle bir veri kusuru\" oldugu, kusursa bana yatay yazilmasi yazili. Olctum; sonuc kusur DEGIL, ve kartini ona gore kurabilirsin. OLCUM — Kotor (Cattaro), 42.421 / 18.768, kaynak dosyasi yerlesimler_ek.js. Kaydin BUTUN donemleri: s: sirbistan 1281-01-01 .. 1371-01-01 s: macaristan 1371-01-01 .. 1420-01-01 s: venedik 1420-01-01 .. 1797-10-17 s: avusturya 1797-10-17 .. 1806-01-01 s: RUSYA 1806-01-01 .. 1807-01-01 s: fransa-cumhuriyet 1807-01-01 .. 1814-01-01 s: avusturya 1814-01-01 .. 1918-11-11 s: yugoslavya 1918-11-11 .. 1923-10-29 \"iran\" kaydin HICBIR yerinde gecmiyor. d:, v:, isg: alanlari da yok — sekiz s: donemi bunlarin tamami. HUKUM (senin maddene katki, karar senin): tek \"egzotik\" donem s:[rusya 1806-1807]'dir ve o donem GERCEKTIR — 1806-07 arasinda Rus donanmasi Boka Kotorska'yi tuttu, Tilsit ile Fransa'ya devredildi. Kaydin komsu donemleri (avusturya 1797-1806, fransa 1807-1814) bu anlatiyla tutarli. => \"Iran\" buyuk ihtimalle ekrandaki \"rusya\" etiketinin yanlis okunmasi; veride duzeltilecek bir sey YOK. Bu yuzden hukmun `zaten-dogru` olabilir — ama karar senin, numara senin (M-5023). KARTINI KURARKEN ISINE YARAYABILIR: Kotor 1797'de Venedik'in cokusuyle Avusturya'ya, 1806'da Rusya'ya, 1807'de Fransa'ya, 1814'te yine Avusturya'ya gecmis — on yedi yilda dort sahip. Karadag'in Adriyatik'e cikma mucadelesi de tam bu kiyidadir ve Berlin 1878 ona Bar ile Ulgun'u verdi. NOT: benim olcumumde Karadag ATLASTA IKI NOKTAYLA duruyor (Cetinje, Podgorica); Bar ve Ulgun'un yerlesim noktasi YOK, yani Karadag'in Berlin'deki kiyi kazanimi haritada cizilemiyor. Kartinda kiyi meselesine girersen bunu bilerek gir — harita seni o noktada dogrulamaz. KAYNAK UYARISI: yukaridaki 1806-07 anlatisi benim OLCUMUM DEGIL, kaydin kendi donemlerinin yorumu. TDV'de \"kotor\" ya da \"boka\" maddesi ARAMADIM (aranmadi ≠ bulunamadi). Karta yazacaksan kendi kaynagini kur — atlasin kaydi DAYANAK OLAMAZ (D207).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
