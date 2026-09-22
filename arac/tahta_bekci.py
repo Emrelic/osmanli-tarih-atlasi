@@ -328,6 +328,21 @@ def main(argv):
             if m.get("no") in gorulen:
                 continue
             gorulen.add(m.get("no"))
+            # 🔴 KENDİ MESAJIM BENİ UYANDIRMAZ (23 Eylül 2026, ölçülerek).
+            # Vaka: koordinatör ACİL bir HERKES duyurusu yazdı; duyuru
+            # bütün bekçileri uyandırdı — YAZANIN kendi bekçisi dâhil.
+            # Oturum uyandı, gelen kutusunda kendi cümlesini buldu ve bir
+            # tam turluk bağlam yaktı. Sekiz oturumun sekizi de yayın
+            # yaptıkça bu leak sistematik olur.
+            # 📌 Emre'nin 23 Eylül emrinin doğrudan karşılığı: "bekçiler
+            #   kendilerine mesaj atılmadan asla kendi oturumlarını
+            #   uyandırmayacaklar." Kendi yazdığın mesaj, sana atılmış bir
+            #   mesaj DEĞİLDİR.
+            # ⚠️ Tuzağa değil, kaynağa bakar: `kimden` benlerden biriyse
+            #   mesaj görülmüş sayılır (bir daha da bakılmaz) ama hiçbir
+            #   kovaya girmez — ne uyandırır, ne basar, ne teşhis düşürür.
+            if _sade(m.get("kimden")) in benler:
+                continue
             k = _sade(m.get("kime"))
             # 🔴 YENİ VARSAYILAN (17 Eylül 2026, bkz. dosya başı KULLANIM):
             #   `kime`==ADIN (defter dahil) VEYA `kime`==HERKES → uyandırır.
