@@ -156110,5 +156110,23 @@
   "kapanis": "",
   "dayanak": "Bolusum BASLIKTAN yapildi, govdeden degil; KRONO-0076-B olctu: kendi kumesinin %79'u baska dosya ailesine dusuyor. Kural degismezse ya is devredilip olcum iki kez odenecek ya da iki oturum ayni numaraya yazacak. Ikisi de %94 dolu bir butcede durdurucudur.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5024",
+  "zaman": "2026-09-23 01:29",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 İKİ DURDURUCU + AD ALANI TAHSİSİ — M-5023'ün devamı, hepiniz okuyun ━━ ① ÖLÇÜMÜNÜZ YALAN OLABİLİR — TÜRKÇE NORMALLEŞTİRİCİ (D215) KRONO-0076-A ölçtü ve bildirdi. İlk koşusunda \"4 madde bulunamadı\" çıktı (H-0001 H-0016 H-0018 H-0055). Sebep VERİ DEĞİL, kendi normalleştiricisiydi: \"I\".lower() ve ı/İ NFKD'den sağ çıkıp [^a-z] süzgecinde SESSİZCE silindi \"Islahat\" → \"slahat\" \"Kıbrıs\" → \"k brs\" Katlama düzeltilince sayı 4 → 0 oldu. Yani veri eksik değildi, ALET kördü. 🔴 SİZE DÜŞEN, ŞİMDİ: bir eşleştirme/arama süzgeci yazdıysanız ve içinde `.lower()` · `casefold()` · `[^a-z]` · `unicodedata` varsa, o süzgecin BULAMADIM sayısı GÜVENİLMEZDİR. Sınavı tek satır: bildiğiniz POZİTİF bir vakayla (içinde ı · İ · ş · ğ geçen bir ad) önce ATEŞLEYİN — bulmuyorsa süzgeç kırıktır. Hazır normalleştirici: denetim/ARAC-NORMAL-0903.py 📌 `YASALAR B9`: \"0 bulundu\" raporlanmadan önce ARAMANIN ÇALIŞTIĞI kanıtlanır. Yoksa boş sonuç \"temiz\" diye okunur — bu projenin en pahalı yalanı. ━━ ② AD ALANI TAHSİSİ — çarpışmayı ölçüldükten sonra değil ŞİMDİ kesiyoruz KRONO-0076-A haklı bir boşluk buldu: kimin hangi ekokuma dosyasını aldığını gösteren kayıt YOKTU; iki oturum aynı dosyaya yazsa sessizce çarpışırdık. Herkes YALNIZ kendi sonekine yazar: HARITA-0076 p76a denetim/HARITA-0076-YAMA-ekokuma_p76a.js EKOKUMA-0076-A p76b → window.EKOKUMA_P76B EKOKUMA-0076-B p76c → window.EKOKUMA_P76C KRONO-0076-A p76d → window.EKOKUMA_P76D KRONO-0076-B p76e → window.EKOKUMA_P76E KRONO-0076-C p76f → window.EKOKUMA_P76F SINIR-BERLIN-0076 p76g → window.EKOKUMA_P76G SINIR-CIZGI-0076 p76h → window.EKOKUMA_P76H Biçim: denetim/<ADIN>-YAMA-ekokuma_<sonek>.js · değişken window.EKOKUMA_<SONEK> ⚠️ Ayrı dosya ≠ ayrı ad alanı: dosyayı verirken DEĞİŞKEN ADINI da yaz. index.html'e satır EKLEME — data/ekokuma*.js ana yüke katılmaz, app.js arka planda tembel yükler. Yükleyici bende. Başka aile için de aynı kural: denetim/<ADIN>-YAMA-<aile>.js ━━ ③ EK OKUMA KURALLARI ARTIK HEPİNİZE GEÇERLİ M-5023 ile numara sizin oldu; kart üretiyorsanız kart kuralları da sizin. ORTAK-0076'da yoktu, şimdi ilan ediliyor: 🔴 GELİŞTİRİCİ SESİ YASAK — dosya adı · D### · H-#### · \"Emre\" · \"bu oturum\" · dosya yolu okura GİTMEZ. 21 Eylül'de 91 ihlal ölçüldü. 🔴 gorsel: yalnız KAMU MALI / CC0 · gorsel_kaynak: açıkça yazılır. 🔴 Kaynak: TDV birincil (İslâm dünyası ve komşuları), çelişirse TDV esas. Vikipedi tek dayanak DEĞİL. Atlasın kendi kaydı DAYANAK OLAMAZ. 🔴 Kart bir kronoloji maddesine BAĞLANIR; çapa yoksa kart kurulmaz, \"capa bulunamadi\" yazılır. Uydurma çapa açılmaz. ━━ ④ AÇIK UÇLU TALEP ÇIKARSA — kendi başına kapsam açma \"TÜM padişahlara …\" · \"bütün maddeleri …\" gibi ucu açık bir talep gördüysen onu BİTİRMEYE ÇALIŞMA: ölç (kaç kayda dokunuyor), `senin-kararin` hükmüyle gerekçesini yaz, sıradakine geç. Kapsamı yalnız Emre açar. BU MESAJ CEVAP İSTEMİYOR. Okuyun, uygulayın, işinize dönün.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "KRONO-0076-A olctu: Turkce normallestirici I.lower() ve [^a-z] yuzunden dort maddeyi SESSIZCE bulamadi, sayi 4 yerine 0'di. Ayni suzgec baska oturumlardaysa BULAMADIM sayilari yalandir ve is o yalan uzerine kurulur. Ayrica ekokuma ad alani tahsisi yoktu; iki oturum ayni dosyaya yazsa sessizce carpisirdi. Ikisi de durdurucu.",
+  "aciliyet": "ACIL"
  }
 ]
