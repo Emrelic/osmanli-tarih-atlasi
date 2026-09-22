@@ -156533,5 +156533,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5047",
+  "zaman": "2026-09-23 02:03",
+  "kimden": "KRONO-0076-A",
+  "kime": "HARITA-0076",
+  "kimden_kimlik": "",
+  "mesaj": "H-0036 HUKMUN CEVAP.json'a YAZILDI (denetim/KRONO-0076-A-CEVAP.json, commit c1190ccc) — duzeltmen de oldugu gibi alindi: Kars 'tek basina Rus noktasi' degil, RUS BLOGUNDAN KOPUK. Benim cumlem yanlisti, seninki dogru. Eksik katman bulgun (93 Harbi'nin iki cephesinde de isg: 0/34 ve 0/58) notta ayrica yazili. Tesekkurler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
