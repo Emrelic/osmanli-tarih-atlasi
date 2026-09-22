@@ -1,0 +1,146 @@
+{
+ "damga": "2026-09-23",
+ "oturum": "SINIR-CIZGI-0076",
+ "not": "PAYLASILAN CEVAP.json'a YAZILMADI — sekiz oturum ayni dosyaya yazarsa son yazan otekileri siler. Bu dosya birlestirilmeyi bekler; anahtarlar hazir.",
+ "rapor": "denetim/SINIR-CIZGI-0076.md",
+ "maddeler": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "Ek okuma karti yazildi: Islahat Fermani, Tanzimat'in acik biraktigi dort kapiyi (cizye, karma mahkeme/sahitlik, askerlik-bedel, mulk edinme) kapatir. Capalar veride dogrulandi: 1839-11-03 ve 1856-02-18.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-ekokuma_p76h.js (window.EKOKUMA_P76H)",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0004": {
+   "hukum": "zaten-dogru",
+   "not": "1856'da Cerkez kabile birlikleri FIILEN bagimsizdi; Rusya'nin hakki 1829'dan beri HUKUKI idi. TDV cerkezler: 'Osmanli Devleti, Cerkezler uzerindeki haklarindan Rusya lehine vazgecti' + Kirim Savasi sirasinda Taman'in bir kismini ele gecirmeleri + 1861 Soci toplantisi. Harita dogru. Kalem: hukuki/fiili ayrimi bugun yalniz D katmaninda var, DOLGUDA yok.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076.md §3",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0037": {
+   "hukum": "sirada",
+   "not": "18 yerlesimin tabilik penceresi Berlin'de (1878-07-13) bitiyor; 15'i eflak/bogdan. TDV romanya: '9 Mayis 1877 tarihinde bagimsizligini ilan etti' ve Plevne'de Osmanli'ya karsi savasti. Emre'nin iki secenegi de (isgal gibi tarali / Rus tarafinda) kaynakla uyusmuyor: Romanya MUTTEFIK BAGIMSIZ devletti. Yama 15 kaydi 1877-05-09'a ceker + zorunlu kronoloji maddesini getirir (bugun Mayis 1877'de madde YOK).",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-yerlesimler.js §1 + -YAMA-olaylar.js §1",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0041": {
+   "hukum": "senin-kararin",
+   "not": "1878-06-04'te o kutuda cizilen hat d1829-osm-rus-1/2 [E], dayanagi Edirne Antlasmasi 1829-09-14, penceresi 1878-07-13'e kadar — yani cizgi O GUN GECERLI, anakronizm YOK. Sapan sey DOLGU: petek Kars'i coktan Rusya'ya boyamis. Kok = motorun hatti hic okumamasi (D-RENK-0073). Secenek a/b/c Emre'de.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js · denetim/SINIR-CIZGI-0076.md §1",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0042": {
+   "hukum": "senin-kararin",
+   "not": "Sekiz gorselle sunulan GENEL KURAL talebi: 'cizgi gecerliyse renkler ona uydurulsun, degilse cizilmesin'. Olculdu: cizim ZATEN pencereye bakiyor (js/d_katman.js _dAktifKayitlar), yani ikinci sart saglanmis durumda; saglanmayan birinci sart ve o motor isi. D-RENK-0073'un uc secenegi hala cevapsiz.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076.md §1",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0054": {
+   "hukum": "cozulemedi",
+   "not": "Kayit bulundu: data/savaslar.js 'Rus ordusunun Yesilkoy'e gelisi (1878)', f 1878-01-31, t 1878-03-03, yol Edirne->Yesilkoy (2 nokta). Emre hakli, ok Edirne'den basliyor; ama o gun TDV'ye gore Edirne Mutarekesi'nin gunudur, yani mevcut ok SON AYAGI dogru anlatiyor. Harekatin basini (Tuna gecisi) eklemek icin gun ve guzergah gerekli; TDV 93-harbi / ayastefanos-antlasmasi / doksanuc denendi, BULUNAMADI. Uydurma guzergah cizilmedi. Oneri: ayri ayaklar ayri sefer kayitlari olsun (tek uzun ok anakronik olur).",
+   "delil_commit": "denetim/SINIR-CIZGI-0076.md §3",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0059": {
+   "hukum": "senin-kararin",
+   "not": "1881-12-20'de o kutuda d1878-ru-ro-prut-rus-rk ve d1878-ru-ro-tuna-rus-rk [E] var; f 1881-03-26 (Berlin sonrasi tahdit), dayanagi Berlin Antlasmasi. Cizgi YANLIS TARIHTE DEGIL. Kalan sey renk-hat uyumu = D-RENK-0073 karari.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0066": {
+   "hukum": "senin-kararin",
+   "not": "Ucu acik kapsam (M-5024 madde 4 geregi kendi basima acmadim): yedi bolge (Cezayir, Tunus, Misir, Balkanlar, Kafkaslar, Kibris, Girit) ayri ayri ek okuma karti demek, her kart ayri TDV taramasi. Tek kart yapilirsa yedi bolge tek sebep-sonuc ciftine sikisir ve tez degil slogan olur. Karar: yedi ayri kart mi, tek 'uzun XIX. yuzyil' karti mi, simdilik hic mi?",
+   "delil_commit": "denetim/SINIR-CIZGI-0076.md §6",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0076": {
+   "hukum": "zaten-dogru",
+   "not": "1884-02-01: Hartum, Dongola, Sennar hala misir-kavalali tabisi (1885-01-26'ya kadar); Kordofan 1882-09-07'den, El-Fasir (Darfur) 1883-12-23'ten mehdi. TDV sudan: 'Darfur ve Bahrulgazal ... Aralik 1883 ve Nisan 1884'te Mehdi kuvvetlerine teslim oldu', Hartum'a giris '26 Ocak 1885'. Atlasin Darfur gunu TDV ile uyumlu. Harita dogru.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076.md §3",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0078": {
+   "hukum": "zaten-dogru",
+   "not": "1885-01-26'da 35 yerlesim misir-kavalali -> mehdi. Kordofan, Darfur ve Berber bu yiginin DISINDA kendi erken gunleriyle, yani tasnif bilincli. TDV yalniz Hartum'un gununu (26 Ocak 1885) veriyor; kalan 34'un ayri devir gunu icin kaynak bulunamadi. Yigin gun bir yaklasiklamadir, bugunku haliyle savunulabilir.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-TOPLU-GUN.py",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0080": {
+   "hukum": "senin-kararin",
+   "not": "EMRE HAKLI ve olcum listesinden genis: 1885-02-05'te 10 yerlesim kiriliyor — Italya'ya Masavva/Dahlak/Arkiko, INGILTERE'ye Halaib, Akik, Sinkat, Hayya, Trinkitat, Muhammed Kol, Derudeb (yedisi de o gune kadar OSMANLI DOGRUDAN). O gunun tek maddesi Masavva/Italya'yi anlatiyor, Ingiltere'yi HIC anmiyor. Ayrica Sevakin'in kendi kaydi 1884-02-01 diyor, 1885 maddesi 'ayni surecte elden cikti' diyor — iki katman iki gun. MADDE YAZILMADI cunku tarihin kaynagi yok: TDV sudan/habes-eyaleti kiyi kasabalarini kapsamiyor, sevakin slug'i arama sayfasina dusuyor. Taslak + ara cozum onerisi yamada.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-olaylar.js §2",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0097": {
+   "hukum": "zaten-dogru",
+   "not": "Veri: Sehrizor OSMANLI 1630-03-16->1918-10-30; Halepce ve Kifri OSMANLI 1638-12-24->1917-03-11; Merivan/Bane/Serdest kacar. Gorselden piksel olcumu ayni sonucu veriyor (Sehrizor #aa4f54, Halepce #a6535b, Kifri #ac5056 = Osmanli govdesi; Merivan #c287a9 = Kacar). TDV sehrizor: 'I. Dunya Savasi sonrasina kadar genellikle Osmanli idaresinde kaldi.' Halepce TDV'nin bu maddesinde gecmiyor (bulunamadi).",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-PIKSEL.py",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0099": {
+   "hukum": "zaten-dogru",
+   "not": "Kutuda (30.78-33.20K, 37.42-40.39D, 1900-09-01) yalniz 2 nokta var, ikisi de kasitli sahipsiz dolgu: 'Vadi Sirhan' ve 'Hamad (Badiyetu's-Sam ici)'. Ikisinin de neden alani acik: bedevi asiret (Ruvele, Anize) gocer denetimi, yerlesik devlet idaresi yok. Gorunum kusur degil BEYAN. AMA beyanin kaynak alani YOK; TDV aneze denendi, madde govdesi alinamadi (bulunamadi). Iki noktaya kaynak eklenmesi ayri kalem.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YERLESIM.py",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0116": {
+   "hukum": "sirada",
+   "not": "Cizgi D KATMANI DEGIL: o kutuda o gun yururlukte D/E/C hatti 0, o kutuya herhangi bir tarihte degen D kaydi da 0. Cizen katman hukuki-sinir-hat (js/app.js:1877), kaydi karlofca-bosna-sava-1699. Iki kusur: (1) hat.tur dogal-tanimsiz + 2 nokta oldugu icin Sava yerine DUZ KIRIS ciziliyor — kiris 110.8 km, gercek Sava 156.1 km, sapma en cok 16.2 km; (2) pencere t=1918-11-11 (Habsburg kunyesinin sonu), oysa TDV: Pasarofca 21 Temmuz 1718 Sava'nin guneyini Avusturya'ya verdi, Belgrad 1739 geri verdi, ilhak 7 Ekim 1908. Yama hazir; KOD DEGISIKLIGI GEREKMIYOR (app.js N>=3 noktali hatti zaten polyline ciziyor).",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-hukuki_sinirlar.js · -SAVA.js · -HUKUKI.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0118": {
+   "hukum": "senin-kararin",
+   "not": "1910-05-19'da cizilen iki kaydin (d1910-libya-tunus-osmanli, d1910-libya-cezayir-gadames-osmanli) f'si TAM O GUN: Trablus Sozlesmesi. Yani cizgi gorselin kendi antlasmasidir. Renklerin ona uydurulmasi = D-RENK-0073 karari.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0120": {
+   "hukum": "senin-kararin",
+   "not": "1911-10-08'de o kutuda d1906-filistin-misir-hidivlik [E] (Refah Anlasmasi 1906-10-01, t 1914-12-18) yururlukte. Kural talebi ('D tipi sinir varsa renkler ona uydurulmali') dogrudan D-RENK-0073'un (a) ya da (c) secenegidir; karar Emre'de.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0123": {
+   "hukum": "sirada",
+   "not": "Bugunku desen isgalci 5 / sahip 3 = 1.67:1 (K=8). Emre'nin kurali 2:1. Yama K=6 yapip 4/2 = tam 2:1 kuruyor, lejant seridini de ayni orana cekiyor ve sahip rengini artik sabit #8e0b22 varsaymiyor. AYRI KALEM (senin-kararin): 'Italya sari oldugu halde alakasiz renk' kismi cozulmedi — isgal paleti devletin harita renginden AYRI (italya #74a074, rusya #4f7d4f, yunanistan #20e0c0, ingiltere #7e3d8f). Renkler data/devirler.js'te, o URETILMIS dosya; duzeltmesi uretici + kosu ister.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-app_js.js §1",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0126": {
+   "hukum": "sirada",
+   "not": "16 Kiklad adasi atlasta OSMANLI 1566-04-15 -> 1830-02-03. Iki capa da veride var (Naksa Dukaligi'nin ilhaki; Bagimsizligin Londra Protokolu ile taninmasi). Kart yazildi. 'Yunan anakarasi ile bagi cok guclu mu idi' sorusunun nicel cevabi TDV yunanistan maddesinde BULUNAMADI; kartta yalniz idari surekliligi anlatildi, guc derecesi hakkinda hukum verilmedi.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-ekokuma_p76h.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0137": {
+   "hukum": "sirada",
+   "not": "Olculdu: Emre'nin gorselinde lejantta 15 satir var, essiz isgalci 4 (yunanistan 9 kez, italya 3, Ingiltere 2, fransa-cumhuriyet 1). Sebep js/app.js:4323 — lejant HER FEATURE icin satir basiyor, tekillestirme yok. Yama satirlari (isgalci + sahip + renk) ucluunde tekillestirir ve kac alani kapsadigini yazar.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-app_js.js §3",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0144": {
+   "hukum": "senin-kararin",
+   "not": "1913-06-29'da Tuna'da g3-bg-ro-dobruca-p4 [E] ve g3-bg-ro-tuna-p4 [C] yururlukte (f 1908-10-05, t 1913-08-10), dayanagi Berlin Antlasmasi. Cizgi dogru tarihte; ortusmeyen sey renk. D-RENK-0073 karari.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0149": {
+   "hukum": "sirada",
+   "not": "1913-07-29 kutusunda 5 nokta: Doha katar, 'Katar Yarimadasi (ic, dolgu)' SAHIPSIZ, Ukayr ve Lahsa suud-ucuncu, Manama ingiltere. Beyaz kalan bati/ic yarim o dolgu noktasinin penceresizligidir; kaydin kendi notu 'baglilik bulunamadi' diyor. Bu oturum kaynagi buldu — TDV katar: 'Osmanli Devleti Katar yarimadasi uzerindeki butun taleplerinden feragat etti, buranin Seyh Casim b. Sani ve halefleri tarafindan yonetilmesi konusunda mutabakata varildi.' Hukum YARIMADANIN TAMAMI hakkinda. Yama tek pencere ekler (1913-07-29 -> 1923-10-29, katar); o gun kronoloji maddesi zaten var. 1871-1913 araligi kaynaksiz oldugu icin yamaya KONMADI.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-YAMA-yerlesimler.js §2",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0155": {
+   "hukum": "senin-kararin",
+   "not": "1913-11-14'te o kutuda g1-gr-srb-1, g1-gr-srb-2 ve d1923-gr-bg-bati [E] var; ucunun de f'si 1913-08-10 (Bukres Antlasmasi). Yani cizgiler 'daha sonraki bir tarihte islerlik kazanacak sinirlar' DEGIL, o gunun yururlukteki siniri. Emre'nin ikinci sarti ('gecerli olacagi tarihte gosterime girsin') ZATEN saglaniyor; saglanmayan birinci sart, renk uyumu.",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  },
+  "H-0156": {
+   "hukum": "senin-kararin",
+   "not": "'Bu sinir cizgileri cok uzun zamandir gosteriliyor' iddiasi CURUDU: 1913-11-17'de o kutuda yururlukte dort kayit var (d1913-osm-ir-1/2/3 ve g1-osm-ir) ve DORDUNUN DE f'si TAM O GUN — Istanbul Protokolu. Yani cizgi Emre'nin baktigi gunun kendi belgesidir. Kalan kusur renk-hat uyumu (D-RENK-0073) ve daha once olculmus d1746-osm-afsar-kerden hayalet kaydi (D-RENK-0073-YURURLUK-0921 §3b).",
+   "delil_commit": "denetim/SINIR-CIZGI-0076-OLCUM.js",
+   "delil_atlas": "olculdu", "delil_olcum": "2026-09-23"
+  }
+ }
+}
