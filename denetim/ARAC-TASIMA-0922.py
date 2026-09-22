@@ -273,6 +273,31 @@ def _yaz_dosya(yol, degis, yedek=False):
 # ① ÖN SINAV
 # ══════════════════════════════════════════════════════════════════
 def on_sinav():
+    """
+    🔴 SONUNDA TEK SATIRLIK HÜKÜM BASAR — ve bu sonradan eklendi.
+    İlk hâlinde yalnız ✓/✗ satırları vardı; Emre provayı koşturdu ve
+    *"ne oldu şimdi, 6 tane yeşil var mı yok mu anlayamadım"* dedi.
+    HAKLIYDI: sekiz satırı gözle sayıp hüküm çıkarmak KULLANICININ İŞİ
+    DEĞİL. Bir ölçüm aleti ölçtüğünü basar; HÜKMÜ de o verir.
+    📌 Ve sayı sabit değil (bulut-dosyası sınavı sonradan eklendi, 6 → 7)
+    — yani "altı yeşil say" talimatı ZATEN BAYATLAYACAKTI.
+    """
+    # ⚠️ Sayaç sarmalayıcısı BİRİNCİ satırda tanımlanmalı — ilk denemede
+    #    fonksiyonun ortasında tanımlandı ve Python bütün `yaz`
+    #    çağrılarını yerel saydı: `UnboundLocalError`, betik daha ilk
+    #    satırda öldü. Gölgeleme, tanımlandığı yerden değil FONKSİYONUN
+    #    BAŞINDAN itibaren geçerlidir.
+    _sayac = {"ok": 0, "hata": 0}
+    _asil_yaz = globals()["yaz"]
+
+    def yaz(s=""):                      # noqa: F811 — kasıtlı gölgeleme
+        t = s.strip()
+        if t.startswith("✓"):
+            _sayac["ok"] += 1
+        elif t.startswith("✗"):
+            _sayac["hata"] += 1
+        _asil_yaz(s)
+
     yaz("═" * 66)
     yaz("① ÖN SINAV")
     yaz("═" * 66)
@@ -365,6 +390,19 @@ def on_sinav():
     else:
         yaz("  ⚠️ OneDrive ölçülemedi — 'kapalı' SAYILMAZ")
 
+    toplam = _sayac["ok"] + _sayac["hata"]
+    _asil_yaz("")
+    _asil_yaz("  " + "─" * 62)
+    if tamam:
+        _asil_yaz("  🟢🟢  ÖN SINAV GEÇİLDİ — %d/%d yeşil, kırmızı YOK"
+                  % (_sayac["ok"], toplam))
+        _asil_yaz("        TAŞIMAYA HAZIR.")
+    else:
+        _asil_yaz("  🔴🔴  ÖN SINAV GEÇİLMEDİ — %d yeşil, %d KIRMIZI"
+                  % (_sayac["ok"], _sayac["hata"]))
+        _asil_yaz("        HENÜZ TAŞIMA YAPILAMAZ. Yukarıdaki ✗ satır(lar)ı")
+        _asil_yaz("        giderilip PROVA YENİDEN koşturulmalı.")
+    _asil_yaz("  " + "─" * 62)
     return tamam
 
 
@@ -820,13 +858,35 @@ def main():
         temiz = kalinti_taramasi()
         yaz("")
         yaz("═" * 66)
+        yaz("             Ş İ M D İ   N E   Y A P M A L I")
+        yaz("═" * 66)
         if gecti and temiz:
-            yaz("🟢 PROVA TEMİZ — `2-TASI.bat` koşturulabilir.")
+            yaz("")
+            yaz("  🟢🟢🟢  HER ŞEY HAZIR.")
+            yaz("")
+            yaz("     ŞUNU ÇALIŞTIR:   C:\\atlas-tasima\\2-TASI.bat")
+            yaz("")
         elif not temiz:
-            yaz("🔴 AÇIKTA DOSYA VAR — önce onlar sınıflandırılmalı.")
+            yaz("")
+            yaz("  🔴  AÇIKTA DOSYA VAR — taşımaya BAŞLAMA.")
+            yaz("      Yukarıdaki listeyi koordinatöre göster.")
+            yaz("")
         else:
-            yaz("⚠️ Ön sınavdaki ✗'ler giderilmeden `2-TASI.bat` koşturma.")
-            yaz("   (kapsam TAM: açıkta hiçbir dosya yok)")
+            yaz("")
+            yaz("  🔴  HENÜZ HAZIR DEĞİL — `2-TASI.bat` ÇALIŞTIRMA.")
+            yaz("")
+            yaz("      Ön sınavda KIRMIZI var (yukarıda ✗ ile işaretli).")
+            yaz("      En sık sebep: CLAUDE CODE HÂLÂ AÇIK.")
+            yaz("")
+            yaz("      YAPILACAK:")
+            yaz("        1) Claude Code'un BÜTÜN pencerelerini kapat")
+            yaz("        2) Tarayıcıda açık yerel site sekmesini kapat")
+            yaz("        3) BU PROVAYI YENİDEN çalıştır (1-PROVA.bat)")
+            yaz("        4) 'HER ŞEY HAZIR' yazınca 2-TASI.bat")
+            yaz("")
+            yaz("      ⓘ Kapsam tarafında sorun YOK: açıkta hiçbir dosya")
+            yaz("        kalmıyor. Tek eksik, dosyaları tutan süreçler.")
+            yaz("")
         yaz("═" * 66)
 
     yaz("")
