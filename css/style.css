@@ -113,7 +113,14 @@ body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
 #menu-butonlar.gizli { display: none; }
-#btn-dizin, #btn-tamekran, #btn-cografya, #btn-motorhat, #btn-verisiniri {
+/* 🔴 21 Eylül 2026 (DALGA-0074, 1.MURAT sevki M-4897) — `#btn-koridor` ÜÇ
+   kümenin de DIŞINDAYDI: 4 Eylül'de menüye eklenirken hiçbirine yazılmamış.
+   Sonucu ölçüldü (canlı sayfa): düğme tarayıcının varsayılan üslubundaydı ve
+   `.etkin` sınıfının HİÇ KARŞILIĞI YOKTU — js/app.js:11058 o sınıfı sadıkça
+   açıp kapatıyor, ekranda hiçbir şey değişmiyordu. Yani yalnız "görünüm
+   tutarsızlığı" değil, DURUMU GÖSTERMEYEN bir durum düğmesiydi. */
+#btn-dizin, #btn-tamekran, #btn-cografya, #btn-motorhat, #btn-verisiniri,
+#btn-koridor {
   background: #f3e6c8;
   border: 1px solid var(--altin);
   border-radius: 6px;
@@ -124,10 +131,11 @@ body {
 }
 #btn-dizin:hover, #btn-tamekran:hover,
 #btn-cografya:hover, #btn-motorhat:hover,
-#btn-verisiniri:hover { background: #ffe9a8; }
+#btn-verisiniri:hover, #btn-koridor:hover { background: #ffe9a8; }
 /* Açık katman görünür olmalı: bu düğmeler bir DURUM taşıyor, komut değil —
    kullanıcı hangi katmanın açık olduğunu düğmeye bakarak bilmeli. */
-#btn-cografya.etkin, #btn-motorhat.etkin, #btn-verisiniri.etkin {
+#btn-cografya.etkin, #btn-motorhat.etkin, #btn-verisiniri.etkin,
+#btn-koridor.etkin {
   background: var(--altin);
   color: #2a0a10;
   font-weight: 600;
@@ -143,6 +151,12 @@ body {
    font-size:13px }`ı yenmek içindi. Düğme zaman barından çıkınca o kural
    uygulanmıyor, dolayısıyla `!important` da gereksiz kaldı — dosyanın
    ilerisindeki satırdan çıkarıldı, yalnız `.pasif` hâli orada bırakıldı. */
+/* ⚠️ `align-self: center` ŞART, süs değil — ölçüldü (1440×900): `#menu-butonlar`
+   `display:flex` ve varsayılan `align-items: stretch`; `#btn-zoom` sarma
+   düzeninde 319 px boyundaki `#katman-grup` ile AYNI SATIRA düştüğünde onun
+   boyuna UZUYORDU (24 px yerine 319 px). Aynı sebeple `#d-gorunum-grup`ta da
+   var. Öteki menü düğmeleri bu kusuru göstermiyor çünkü kendi satırlarında
+   en uzun öğe onlar. */
 #btn-zoom {
   background: #f3e6c8;
   border: 1px solid var(--altin);
@@ -151,6 +165,7 @@ body {
   font-size: 12.5px;
   cursor: pointer;
   white-space: nowrap;
+  align-self: center;
 }
 #btn-zoom:hover { background: #ffe9a8; }
 
@@ -161,6 +176,7 @@ body {
   align-items: center;
   gap: 4px;
   flex: 0 0 auto;
+  align-self: center;   /* bkz. #btn-zoom'daki ölçüm notu */
 }
 #d-gorunum-grup:empty { display: none; }
 .d-gorunum-baslik {
@@ -2515,7 +2531,10 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 .devir-lejant b { font-size: 11px; letter-spacing: 0.3px; }
 /* PAKET-ISYAN — isyan taraması lejantı + madde kutusu (js/app.js isyanLejanti / isyanMaddeKutusu) */
 .isyan-lejant { max-width: 300px; }
-.isyan-lejant .isyan-eksik { font-size: 10.5px; opacity: 0.75; }
+/* `.isyan-eksik` KURALI KALDIRILDI — 21 Eylül 2026, DALGA-0074/H-0012 ikinci
+   tur: o `<span>`i üreten tek yer (`isyanLejanti`) artık basmıyor, teşhis
+   `console.debug`a indi. Kural kalsaydı "yazılmış görünüyor" olurdu (§11);
+   geri gelmesi gerekirse gerekçe burada yazılı. */
 .ob-isyan .isyan-satir { display: block; margin-top: 3px; line-height: 1.35; }
 .ob-isyan .isyan-satir.aktif { font-weight: 600; }
 .ob-isyan .isyan-dip { display: block; margin-top: 4px; font-size: 11px; opacity: 0.8; }
