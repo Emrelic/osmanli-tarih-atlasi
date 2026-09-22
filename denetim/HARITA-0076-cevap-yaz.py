@@ -1,0 +1,267 @@
+# -*- coding: utf-8 -*-
+"""HARITA-0076 — kendi 19 maddesinin hükmünü CEVAP.json'a İŞLER.
+
+Sekiz oturum aynı dosyaya yazacağı için kör `json.dump` yapmaz:
+varsa OKUR, yalnız KENDİ anahtarlarını koyar, geri yazar. Kendi nüshasını
+`denetim/HARITA-0076-CEVAP.json` olarak da bırakır (çarpışmada delil).
+"""
+import io
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+HEDEF = r'C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json'
+NUSHA = r'C:\atlas\denetim\HARITA-0076-CEVAP.json'
+
+R = 'denetim/HARITA-0076.md'
+Y = 'denetim/HARITA-0076-YAMA-hukuki_sinirlar.md'
+K = 'denetim/HARITA-0076-kutu-kapisi.py'
+
+A_ORTAK = (
+    'KÖK SEBEP A — C çizim katmanı (js/app.js:1873 `hukuki-sinir-dolgu`, '
+    '`fill-opacity:1`) `kapsama.kutu`yu EKSEN HİZALI OPAK DİKDÖRTGEN olarak '
+    'boyuyor; dikdörtgen antlaşma hattıyla köşegeninden ikiye bölünüp iki '
+    'tarafın rengiyle basılıyor. Ekrandaki "karesel bozukluk" bu. CANLI '
+    'MOTORDA YENİDEN ÜRETİLDİ. Veride böyle bir gövde YOK (71557+6082 halka '
+    'tarandı, çok noktalı dikdörtgen 0) ⇒ kusur üretimde değil çizimde. '
+    'Aynı kusur 15 Eylül 2026\'da `karlofca-bosna-sava-1699` kaydında '
+    '`dolgu:false` ile çözülmüş ama SINIFA uygulanmamıştı. '
+    'Yama: ' + Y + ' · kapı: ' + K + ' · ölçüm: ' + R + ' §1.'
+)
+
+MADDELER = {
+    # ── KOVA A ───────────────────────────────────────────────────────────
+    'H-0096': ('onay-bekliyor',
+        A_ORTAK + ' BU MADDE: kayıt `ii-erzurum-sattularap-1847`, kutu '
+        'lon 46.5–49.0 · lat 28.5–31.5, pencere 1847-05-31 → 1923-10-29 = '
+        '27910 gün ≈ 76 YIL. Emre\'nin "hâlâ devam ediyor, uzun süre bozuk '
+        'gösteriliyor" sözü birebir doğru: H-0096 (1900-09-01) ile H-0147 '
+        '(1913-07-29) AYNI kutunun 13 yıl arayla iki fotoğrafı. ÖNERİ: '
+        '`kapsama`ya `dolgu:false` (tek satır, emsali var, hat kalır).'),
+    'H-0147': ('onay-bekliyor',
+        A_ORTAK + ' BU MADDE: H-0096 ile AYNI kayıt (`ii-erzurum-'
+        'sattularap-1847`); ekran damgası 46.64–50.68E · 27.03–31.71N '
+        'kutunun içine birebir oturuyor. Tek satırlık yama ikisini birden '
+        'kapatır.'),
+    'H-0139': ('onay-bekliyor',
+        A_ORTAK + ' BU MADDE: kayıt `midye-enez-1913`, kutu lon 25.5–29.5 · '
+        'lat 40.0–42.5, pencere 1913-05-30 → 1913-06-29 (30 gün). Canlı '
+        'motorda aynı gün + aynı madde ile ekran görüntüsünün EŞİ üretildi; '
+        'çizilen iki parça: #2d6c0c (Bulgaristan) bbox 25.500,40.465..'
+        '29.500,42.500 ve #8e0b22 (Osmanlı) bbox 25.500,40.000..29.500,'
+        '42.268 — birleşimleri tam olarak `kapsama.kutu`. DİKKAT: buradaki '
+        'dolgu GERÇEK BİLGİ taşıyor (Midye–Enez hattını motor bilmiyor), '
+        'kapatmak antlaşmanın toprak sonucunu haritadan düşürür. 30 günlük '
+        'pencere için önerim yine `dolgu:false`, kalıcı çare '
+        '`kapsama.tur:"poligon"` (kod dalı hazır, js/app.js:7353).'),
+    'H-0148': ('senin-kararin',
+        A_ORTAK + ' BU MADDE: kayıt `misir-sudan-22-paralel-1899`, kutu '
+        'lon 24.0–37.0 · lat 20.0–24.0, pencere 1899-01-19 → 1914-12-18 = '
+        '5812 gün ≈ 16 yıl. GEREKÇE (niçin tek başıma kapatmıyorum): bu '
+        'kayıtta dolgunun taşıdığı bilgi GERÇEK ve başka yerde yok — 22. '
+        'paralel Mısır–Sudan sınırıdır ve o kuşakta yerleşim noktası yok '
+        'denecek kadar az (ölçüm: Gilf el-Kebîr SAHİPSİZ, Cağbûb tek '
+        'Osmanlı noktası). Dolgu kapatılırsa Mısır–Sudan ayrımı haritadan '
+        'tümüyle düşer. Kusurlu olan paralel değil, kutunun 24°E / 37°E / '
+        '24°N kenarları. SEÇENEKLER: (a) `dolgu:false` — kare gider, ayrım '
+        'da gider · (b) kutuyu denize ve gerçek sınıra oturt (batı kenarı '
+        '25°E Sudan–Libya düz sınırı) — ÖNERİM · (c) `tur:"poligon"`, en '
+        'doğrusu en pahalısı. (b) bir COĞRAFİ HÜKÜMDÜR ve §4 gereği kaynak '
+        'ister; 25°E sınırı için kaynak bende BULUNAMADI, o yüzden kendi '
+        'başıma yazmadım.'),
+
+    # ── KOVA B ───────────────────────────────────────────────────────────
+    'H-0072': ('sirada',
+        'KÖK SEBEP B — GÖVDE ÇAKIŞMASI. Hadramut penceresinde (41–60E · '
+        '8–24N, 1884-01-01, 0.1° ızgara) boyalı 10768 hücrenin 314\'ü '
+        '(%2.92) İKİ gövde tarafından birden boyanıyor ve bunun 301\'i '
+        '(%96) tek bir çift: `kesiri-sultanligi || kuayti-sultanligi`. İki '
+        'yarı saydam dolgu üst üste binince ne alttaki ne üstteki kendi '
+        'rengini veriyor — Emre\'nin gördüğü "çok silik, neredeyse deniz '
+        'rengi" görünüm BU. Kusur renk ayarında değil, gövdelerde. '
+        'CLAUDE.md §3: bu sınıf `kd:` ile DÜŞMEZ ve koşu istemez; gövdeler '
+        '`donemler.js` + `devletler_harita.js` içindedir. Kalem bende '
+        'değil (üretilmiş dosyalar Oturum 0). Ölçüm aleti hazır ve tekrar '
+        'koşar: denetim/HARITA-0076-YAMA-olcum.js `__ol()`. Ayrıntı: ' + R + ' §2.'),
+    'H-0073': ('sirada',
+        'H-0072 ile AYNI kök sebep, aynı gün (1884-01-01), aynı iki gövde '
+        '(`kesiri-sultanligi` ve `kuayti-sultanligi`). "Deniz tarafından '
+        'yutulmuş gibi" tarifi ölçümle örtüşüyor: iki gövdenin ortak kenarı '
+        'çift boyama altında kaldığı için kıyı çizgisi okunmuyor. Tek '
+        'düzeltme ikisini birden kapatır.'),
+    'H-0069': ('sirada',
+        'KÖK SEBEP B — GÖVDE ÇAKIŞMASI, Emre\'nin tarifinin birebir '
+        'karşılığı ("ne üst üste binmeli ne de arada boşluk kalmalı"). '
+        'ÖLÇÜM (21.4–25.5E · 41.9–44.6N, 1884-01-01, 0.02° ızgara): boyalı '
+        '27768 hücrenin 1382\'si (%4.98) çift boyalı. Başı çeken çiftler: '
+        '`devlet:bulgaristan || vassal` 658 · `devlet:sirbistan || vassal` '
+        '434. YANİ AYNI POLITY İKİ KERE ÇİZİLİYOR — bir kez yabancı devlet '
+        'gövdesi olarak, bir kez Osmanlı tâbisi olarak. Ekrandaki kahverengi '
+        'kamalar bu ikinci boyamadır. SINIF BU MADDEYE ÖZGÜ DEĞİL: dünya '
+        'ölçeğinde (−15..60E, 10..60N, 0.25°) boyalı alanın %1.43\'ü '
+        '(1884) / %1.32\'si (1878) çift boyalı ve en büyük kaynak Batı '
+        'Afrika künyeleri (mossi-vagadugu||yatenga 74, kenedugu||mossi 70, '
+        'adar||sokoto 69). ÖNERİM: çakışma ölçümü `denetle.py`ye YEDİNCİ '
+        'DEĞİŞMEZ olarak girsin — bugün hiçbir denetim bu soruyu sormuyor, '
+        'bu yüzden %1.4 sessizce duruyor.'),
+
+    # ── KOVA C ───────────────────────────────────────────────────────────
+    'H-0075': ('kosu-bekliyor',
+        'KÖK SEBEP C — PETEK KENARINDA SİVRİ KÖŞE. Emre\'nin sorusuna '
+        'doğrudan cevap ("motor hesaplaması mı, sürtünmeli yürüyüş '
+        'hesaplaması mı?"): İKİSİ DE DEĞİL. Sivrilik Voronoi kenarının '
+        'kendisi. ÖLÇÜM (1884-01-01, 42.83–44.68E · 39.36–40.03N): '
+        '`osmanli` gövdesinde iç açısı 25.5°, kenarları 0.068° (~7 km) olan '
+        'köşe, 43.100E 39.800N. Görünüm canlı motorda birebir yeniden '
+        'üretildi (kuzey kenar testere dişi). SEBEP komşu nokta seyrekliği '
+        '(CLAUDE.md §2): kenar iki uzak nokta arasında uzun düz parçalarla '
+        'gidip keskin açıyla birleşiyor. ÇARE o pencereye kaynaklı yerleşim '
+        'noktası eklemek + koşu; koordinat ve kaynak bende BULUNAMADI, '
+        'uydurmadım. `yerlesimler.js` Oturum 0\'ın. Alet: '
+        'denetim/HARITA-0076-YAMA-olcum.js `__aci()`.'),
+    'H-0022': ('kosu-bekliyor',
+        'KÖK SEBEP C. ÖLÇÜM (1871-01-01, 40.46–45.05E · 18.27–21.14N): '
+        '`osmanli` gövdesinde iç açı 3.7°, kenar 0.161° (~18 km), '
+        '44.731E 20.733N. 3.7°\'lik bir köşe, kenarı 18 km olan bir İĞNEdir '
+        '— ekran görüntüsündeki uzun ince çıkıntı bu. H-0071 ve H-0075 ile '
+        'aynı sınıf. Çare: nokta + koşu; kaynak bende BULUNAMADI.'),
+    'H-0071': ('kosu-bekliyor',
+        'KÖK SEBEP C. ÖLÇÜM (1884-01-01, 41.68–46.90E · 18.72–21.27N): '
+        '`vassal` gövdesinde iç açı 3.2°, kenar 0.179°, 45.257E 20.926N. '
+        'H-0022 ile aynı bölge ve aynı sınıf (13 yıl arayla iki fotoğraf). '
+        'Çare: nokta + koşu; kaynak bende BULUNAMADI.'),
+    'H-0093': ('kosu-bekliyor',
+        'KÖK SEBEP C\'nin küçük ölçekli hâli — "ince kırmızı şerit". ÖLÇÜM '
+        '(1897-05-17, 23.0–23.6E · 39.0–39.65N): `osmanli` 27.8° @ 23.299E '
+        '39.259N ve `yunanistan` 30.5° @ 23.073E 39.042N; kenarlar '
+        '0.031–0.043° (3–5 km). Ada çevresinde iki gövdenin peteği kıyıya '
+        'yaslanırken ince şerit bırakıyor. Çare: nokta + koşu.'),
+
+    # ── KOVA D ───────────────────────────────────────────────────────────
+    'H-0023': ('sirada',
+        'KÖK SEBEP D — YERLEŞİM SAHİPLİK PENCERESİ. ÖLÇÜM (1871-04-20, '
+        'Katar yarımadası 49.60–52.15E · 23.48–26.71N): pencerede YALNIZ 5 '
+        'nokta var. `Doha (Katar)` ve `Katar Yarımadası (iç, dolgu)` '
+        'SAHİPSİZ; `Katîf` ve `Ukayr (Uceyr)` OSMANLI; `Manama (Bahreyn)` '
+        'ingiltere. Yarımadanın tam ortadan ikiye bölünmesinin sebebi bu: '
+        'batı yarısı Ukayr\'ın peteği (Osmanlı kırmızısı), doğu yarısı '
+        'Doha\'nın peteği (sahipsiz). Emre\'nin "Katar kenti dâhil değil" '
+        'gözlemi BİREBİR DOĞRU. Maddenin çapası Midhat Paşa\'nın 1871 Necid '
+        'seferi ⇒ Doha\'nın sahiplik penceresi eksik. ÇARE: `Doha (Katar)` '
+        've `Katar Yarımadası (iç, dolgu)` kayıtlarına 1871 penceresi; '
+        'TARİH KAYNAK İSTER, bende BULUNAMADI. `yerlesimler.js` Oturum 0\'ın.'),
+    'H-0038': ('olculecek',
+        'KÖK SEBEP D. ÖLÇÜM (1878-01-04, 21.55–30.33E · 42.06–47.79N, 58 '
+        'nokta) Emre\'nin DÖRT şıkkının dördünü de doğruluyor: '
+        '① `Eflak` (11 nokta) ve `Boğdan` (4+3) hâlâ TÂBİ ⇒ haritada Osmanlı '
+        'rengi, oysa ikisi de Rusya\'nın yanında savaşıyor. '
+        '② `İbrail` ve `Yergöğü` = romanya; aralarındaki boşluk noktasız. '
+        '③ `Plevne` · `Niğbolu` · `Kili` · `Bender` · `Orhei` = rusya ⇒ '
+        'yeşil görünmesi ölçümle doğrulandı. '
+        '④ `Sofya` = tâbi:`bulgaristan-prensligi` — oysa prenslik 1878 '
+        'TEMMUZ\'unda kuruldu; 4 Ocak\'ta şehir Rus İŞGALİNDE. '
+        'DOĞRU GÖSTERİM Emre\'nin kendi önerisi: işgal TARAMASI (`isg:`), '
+        'sahiplik devri değil. `olculecek` çünkü dört şıkkın her biri ayrı '
+        'işgal penceresi + kaynak ister (§4 TDV); tarih uydurmadım.'),
+    'H-0064': ('sirada',
+        'KÖK SEBEP D. ÖLÇÜM (1882-09-13, 24–34E · 22–31.5N, 54 nokta): 51 '
+        'nokta tâbi (Mısır), `Cağbûb` TEK BAŞINA OSMANLI DOĞRUDAN → Emre\'nin '
+        'gördüğü "ufak tefek Osmanlı renginde yer" onun peteğidir; Batı '
+        'Çölü\'nde başka nokta olmadığı için peteği Mısır\'ın içine kadar '
+        'uzanıyor (CLAUDE.md §2). `Gilf el-Kebîr` SAHİPSİZ. AYRICA ŞEMA '
+        'KUSURU — 5 kayıtta tâbilik kimliği `kid` DEĞİL serbest metin: '
+        '`Süveyş` · `Sefâce` · `Tûr (Sînâ)` → "Kavalalı hanedanı", '
+        '`Sina güneyi` → "Mısır Hidivliği", `Sîva (Siwa)` → kid BULUNAMADI. '
+        'Kimliksiz tâbi boyanamaz. Bu beş kalem KAYNAK BEKLEMEDEN kapanır '
+        '(tarih değil şema kusuru).'),
+    'H-0065': ('sirada',
+        'KÖK SEBEP D — ve Emre\'nin sorusunun ölçülmüş cevabı. ÖLÇÜM '
+        '(1883-01-19, 22.52–25.24E · 12.07–14.09N): pencerede YALNIZ 4 '
+        'nokta. `Darfur` noktası kendi kimliğinde (`darfur`), çevresindeki '
+        '`Kebkâbiye` · `Cebel Merre` · `Zâlincî` `tâbi:misir-kavalali`. '
+        'Yani "Darfur Sultanlığı\'nın merkezindeki mavi enklav" = DARFUR '
+        'NOKTASININ KENDİ PETEĞİ. Çizim kusuru değil, KAPSAM eksikliği: '
+        'sultanlığın alanı tek noktaya sıkışmış, çevresi Mısır tâbisi '
+        'kalmış. ÇARE: Darfur çevresindeki noktaların sahipliği (kaynak '
+        'ister) ya da sultanlığa nokta eklenmesi.'),
+    'H-0068': ('olculecek',
+        'KÖK SEBEP D. ÖLÇÜM (1883-12-23, 22.90–29.99E · 11.44–14.39N, 17 '
+        'nokta): 15 nokta `mehdi`, `Darfur` hâlâ `darfur`, `Nühûd` hâlâ '
+        '`tâbi:misir-kavalali`. Emre\'nin İKİ gözlemi de ölçümle '
+        'DOĞRULANDI: Darfur mavi görünüyor, Nühûd Osmanlı/Mısır renginde. '
+        '`olculecek` çünkü asıl soru "hangisi ne zaman düştü" ve bu KAYNAK '
+        'işidir (TDV, §4); bende BULUNAMADI, tarih uydurmadım. Kardeş '
+        'kalem: H-0065 (aynı Darfur noktası).'),
+    'H-0095': ('sirada',
+        'KÖK SEBEP D — ve Emre haklı. ÖLÇÜM (1899-11-27, 14.95–18.16E · '
+        '44.68–45.78N, 12 nokta): ALTI nokta 1899\'da HÂLÂ OSMANLI '
+        'DOĞRUDAN — `Banaluka` · `Bihaç` · `Bosna Dubiçası` · `Bosna '
+        'Novi\'si` · `Bosna Brod\'u` · `Krupa`. Karşı kıyıdaki altı nokta '
+        '`avusturya`. Berlin (1878) sonrası Bosna Avusturya İDARESİNDE, '
+        'mülkiyet 1908\'e kadar Osmanlı. Emre\'nin ikinci şıkkı (İŞGAL '
+        'TARAMASI) atlasın kendi diline de uygun: `isg:` kaydı 1878 → 1908, '
+        'sonra sahiplik devri. Kesin tarihler KAYNAK ister (§4).'),
+    'H-0121': ('sirada',
+        'KÖK SEBEP D. ÖLÇÜM (1911-10-08, 32.87–35.32E · 27.83–29.86N): '
+        'BÜTÜN SİNA YARIMADASI İKİ NOKTADAN boyanıyor — `Tûr (Sînâ)` ve '
+        '`Sina güneyi` — ve İKİSİNİN DE tâbilik kimliği `kid` değil serbest '
+        'metin ("Kavalalı hanedanı" / "Mısır Hidivliği"). Emre\'nin '
+        '"sanıyorum hatadır" dediği YAPI bir hüküm değil, iki noktanın '
+        'peteği. İki kalem: (a) `kid` alanlarını kimliğe çevir — kaynak '
+        'beklemez · (b) Sina\'ya nokta ekle — koşu ister. H-0064 ile aynı '
+        'şema kusuru, aynı yamada kapanır.'),
+    'H-0136': ('sirada',
+        'KÖK SEBEP D (+ B\'den ikincil belirti). ÖLÇÜM (1913-03-06, '
+        '27.06–27.91E · 40.64–41.35N): pencerede İKİ nokta — `Çorlu` '
+        'OSMANLI, `Tekirdağ` = `bulgaristan-kralligi`. Emre\'nin itirazı '
+        'BİREBİR DOĞRU: Edirne 26 Mart 1913\'te düştü, Tekirdağ 6 Mart\'ta '
+        'Bulgar gösterilemez. İki nokta arasındaki petek sınırı bütün '
+        'bölgeyi ikiye böldüğü için ekranda dev yeşil kama çıkıyor. '
+        '"İki katman" gözlemi ayrıca ölçüldü: aynı gün Trakya\'da (25.5–29.5E '
+        '· 40–42.5N) boyalı 15931 hücrenin 364\'ü (%2.28) `devlet:bulgaristan '
+        '|| osmanli:osmanli` çifti tarafından ÇİFT boyanıyor. ÇARE: '
+        'Tekirdağ\'ın sahiplik penceresi düzeltilir (tarih KAYNAK ister, '
+        '§4 — bende BULUNAMADI) + bölgeye nokta eklenir. Emre\'nin '
+        '"şehirlerin elden çıkışını adım adım gösterelim" isteği AYRI ve '
+        'BÜYÜK bir kalemdir (kapsam), bu maddede kapatılmadı.'),
+}
+
+
+def main():
+    benim = {k: {'hukum': h, 'not': n} for k, (h, n) in MADDELER.items()}
+    assert len(benim) == 19, len(benim)
+
+    paket = {}
+    if os.path.exists(HEDEF):
+        paket = json.load(io.open(HEDEF, encoding='utf-8'))
+    paket.setdefault('damga', '2026-09-23')
+    paket.setdefault('cevap_tarihi', '2026-09-23')
+    paket.setdefault('not', 'parti-emrelic-0076 — sekiz oturum kendi '
+                            'numaralarini isler; her oturum YALNIZ kendi '
+                            'anahtarlarini koyar (M-5023).')
+    paket.setdefault('maddeler', {})
+    onceki = set(paket['maddeler']) & set(benim)
+    paket['maddeler'].update(benim)
+
+    json.dump(paket, io.open(HEDEF, 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=1)
+    json.dump({'oturum': 'HARITA-0076', 'damga': '2026-09-23',
+               'maddeler': benim},
+              io.open(NUSHA, 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=1)
+
+    geri = json.load(io.open(HEDEF, encoding='utf-8'))
+    yazan = [k for k in benim if k in geri.get('maddeler', {})]
+    print('yazilan madde :', len(benim))
+    print('geri okundu   :', len(yazan))
+    print('dosyadaki toplam madde :', len(geri.get('maddeler', {})))
+    if onceki:
+        print('⚠️ UZERINE YAZILAN (benim anahtarlarim, onceden vardi):', sorted(onceki))
+    eksik = sorted(set(benim) - set(yazan))
+    print('EKSIK:', eksik if eksik else 'yok')
+
+
+if __name__ == '__main__':
+    main()
