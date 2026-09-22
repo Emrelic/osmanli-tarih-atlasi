@@ -21,6 +21,6 @@ REM  0 doner (gorev BASLATILDI demek, CALISTI demek DEGIL) — yani
 REM  koordinator "kosu basladi" diye rapor eder, sabah ne log olur
 REM  ne cikti. Denetim betigi `--onar` ile duzeltir.
 REM ============================================================
-cd /d "C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+cd /d "C:\atlas"
 py -u arac\kos_ve_yayinla.py > kosu_ayrik.log 2>&1
 exit /b %ERRORLEVEL%

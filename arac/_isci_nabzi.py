@@ -45,7 +45,7 @@ def damgalar():
 
 def acik_madde():
     """Kutudaki açık madde sayısı — hüküm sözlüğünden okur, tahmin etmez."""
-    kok = "C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/giden"
+    kok = "C:/claudemre/kutu/giden"
     acik = 0
     for y in glob.glob(os.path.join(kok, "*", "CEVAP.json")):
         try:

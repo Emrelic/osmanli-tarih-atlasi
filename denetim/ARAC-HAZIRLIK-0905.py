@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """MERGE HAZIRLIK DURUMU — tek ekran. SALT OKUR. ASCII."""
 import io, os, re, sys, subprocess, unicodedata
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 
 
 def a(s):

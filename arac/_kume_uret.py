@@ -3,7 +3,7 @@
 CWD projenin kokunde olmali; cikti denetim/kume/ altina yazilir."""
 import json, glob, os, re, collections, io
 
-KOK = "C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/giden"
+KOK = "C:/claudemre/kutu/giden"
 CIK = os.path.join(os.getcwd(), "denetim", "kume")
 ACIK = {"sirada", "olculecek", "tekrar"}
 

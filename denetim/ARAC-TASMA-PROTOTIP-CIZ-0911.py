@@ -23,7 +23,7 @@ nx, ny = int(d["nx"]), int(d["ny"])
 pts = d["pts"]
 DIS = (24.5, 34.5, 46.5, 43.5)
 KV = 0.05
-CIKTI = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim"
+CIKTI = r"C:\atlas\denetim"
 
 
 def hatlar(sahip):

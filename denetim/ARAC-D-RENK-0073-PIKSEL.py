@@ -3,7 +3,7 @@
 from PIL import Image
 import collections
 
-G = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden\parti-emrelic-0073\H-0007-1.png"
+G = r"C:\claudemre\kutu\giden\parti-emrelic-0073\H-0007-1.png"
 im = Image.open(G).convert("RGB")
 w, h = im.size
 px = im.load()

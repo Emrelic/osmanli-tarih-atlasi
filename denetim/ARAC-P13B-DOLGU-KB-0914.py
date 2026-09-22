@@ -10,7 +10,7 @@ sahipli) kullanılır; `_kusatilmis` kısmı (koşu 10: 160 ad) PETEK_D gerektir
 DAHİL EDİLMEDİ. Kuşatılmış noktalar burada sahip/boş kovasına yanlış düşebilir."""
 import ast, io, json, os, sys, time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 from shapely.geometry import shape, box, Point
 from shapely.ops import unary_union

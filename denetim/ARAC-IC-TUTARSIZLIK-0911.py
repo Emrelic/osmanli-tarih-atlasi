@@ -42,7 +42,7 @@ import subprocess
 import sys
 import tempfile
 
-REPO = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+REPO = r"C:\atlas"
 DATA = os.path.join(REPO, "data")
 TMP = tempfile.gettempdir()
 EXTRACT_JSON = os.path.join(TMP, "ic_tutarsizlik_extract.json")

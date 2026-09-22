@@ -22,7 +22,7 @@ BURASI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BURASI, "arac"))
 import girdi
 CIKTI = os.path.join(BURASI, "denetim", "GOSTERIM-0075-YESIL.json")
-GORSEL = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden\parti-emrelic-0075"
+GORSEL = r"C:\claudemre\kutu\giden\parti-emrelic-0075"
 
 KUTULAR = {   # (gün, lon0, lat0, lon1, lat1) — görsel altyazılarından
     "H-0017-1 Eflak-Boğdan": ("1834-01-01", 20.08, 42.67, 30.01, 48.29),

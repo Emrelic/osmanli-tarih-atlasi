@@ -12,7 +12,7 @@
 """
 import io, json, math
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 gj = json.load(io.open(KOK + r"\veri-kaynak\ne_10m_rivers.geojson", encoding="utf-8"))
 
 

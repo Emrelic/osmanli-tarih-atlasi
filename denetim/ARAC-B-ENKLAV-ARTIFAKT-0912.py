@@ -17,7 +17,7 @@ import sys
 
 import numpy as np
 
-DEPO = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+DEPO = r"C:\atlas"
 sys.path.insert(0, os.path.join(DEPO, "arac"))
 sys.stdout.reconfigure(encoding="utf-8")
 import girdi                                                        # noqa: E402

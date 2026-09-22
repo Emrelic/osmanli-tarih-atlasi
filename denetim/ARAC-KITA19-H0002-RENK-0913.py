@@ -3,8 +3,8 @@
 """KITA 19 - H-0002 gorsellerinden renk ornekleme."""
 from PIL import Image
 
-img1 = Image.open(r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden\parti-emrelic-0044\H-0002-1.png").convert("RGB")
-img2 = Image.open(r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden\parti-emrelic-0044\H-0002-2.png").convert("RGB")
+img1 = Image.open(r"C:\claudemre\kutu\giden\parti-emrelic-0044\H-0002-1.png").convert("RGB")
+img2 = Image.open(r"C:\claudemre\kutu\giden\parti-emrelic-0044\H-0002-2.png").convert("RGB")
 
 print("img1 size:", img1.size)
 print("img2 size:", img2.size)

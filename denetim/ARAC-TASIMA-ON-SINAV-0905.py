@@ -12,7 +12,7 @@ olcer ve UC RISKI onceden sinar:
 SALT OKUR. Cikti ASCII.
 """
 import io, os, re, sys, unicodedata, collections
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 DEN = os.path.join(KOK, "denetim")
 VER = os.path.join(KOK, "data")
 

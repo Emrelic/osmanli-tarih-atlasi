@@ -20,7 +20,7 @@ import os
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KUTU = r"C:\claudemre\kutu\giden"
 CIKTI = os.path.join(os.environ.get("TEMP", "."), "kutu_serit")
 
 

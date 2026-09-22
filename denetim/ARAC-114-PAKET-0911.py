@@ -18,7 +18,7 @@ import io
 import json
 import re
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 onceki = json.load(io.open(KOK + r"\denetim\PAKET-PRENSLIK-PENCERE-0911.json", encoding="utf-8"))
 kayitlar = onceki["kayitlar"]
 

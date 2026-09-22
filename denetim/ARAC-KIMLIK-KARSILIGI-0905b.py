@@ -34,7 +34,7 @@ UCUNCU AYAK — URETIM KANITI (bu alet onu olcmez, ama kayda deger):
 SALT OKUR. Cikti ASCII.
 """
 import io, os, re, sys, unicodedata, collections
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 DEN = os.path.join(KOK, "denetim")
 
 # dususun GECERLI oldugu tek kategori (uret_petek.py:727)

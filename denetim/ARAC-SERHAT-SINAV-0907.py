@@ -12,7 +12,7 @@
 """
 import sys, io, math, subprocess, json, os
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, KOK + r"\denetim")
 
 # ARAC'in geometri cekirdegini ITHAL ET — taklit ETME (§11)

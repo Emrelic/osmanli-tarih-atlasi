@@ -37,7 +37,7 @@ import glob as _glob
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 os.chdir(KOK)
 sys.path.insert(0, os.path.join(KOK, "arac"))
 

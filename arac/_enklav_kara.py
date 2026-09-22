@@ -7,7 +7,7 @@ ulasilabilir, ve mesafeleri ne?
 """
 import io, json, math, sys, collections
 
-KOK = "C:/Users/emrem/OneDrive/Desktop/TAR\u0130H CO\u011eRAFYA S\u0130TES\u0130"
+KOK = "C:/atlas"
 
 from shapely.geometry import Polygon, LineString, shape
 from shapely.ops import unary_union, nearest_points

@@ -39,7 +39,7 @@ import subprocess
 import sys
 import tempfile
 
-REPO = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+REPO = r"C:\atlas"
 TMP = tempfile.gettempdir()
 EXTRACT_JSON = os.path.join(TMP, "yanlis_olay_extract.json")
 

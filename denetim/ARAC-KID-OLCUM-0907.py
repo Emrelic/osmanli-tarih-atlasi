@@ -14,7 +14,7 @@ try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception:
     pass
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
 

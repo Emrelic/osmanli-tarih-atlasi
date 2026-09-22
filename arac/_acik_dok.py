@@ -14,7 +14,7 @@ import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-KOK = "C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/giden"
+KOK = "C:/claudemre/kutu/giden"
 ACIK = ("sirada", "olculecek")
 
 # (kova, regex) — SIRA ONEMLI, ilk tutan kazanir

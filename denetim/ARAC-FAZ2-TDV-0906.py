@@ -12,7 +12,7 @@ import re
 import subprocess
 import sys
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 os.chdir(KOK)
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 

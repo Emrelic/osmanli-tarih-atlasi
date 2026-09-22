@@ -11,7 +11,7 @@ OLCMEDIGI: kayitlarin `d:`/`s:` KIMLIKLERI kunyede ve BOYALAR'da var mi.
 SALT OKUR. ASCII.
 """
 import io, os, re, sys, unicodedata, collections
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 DEN = os.path.join(KOK, "denetim")
 
 

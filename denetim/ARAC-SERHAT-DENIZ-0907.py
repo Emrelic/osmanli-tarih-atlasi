@@ -24,7 +24,7 @@ from collections import defaultdict
 from shapely.geometry import shape, Point
 from shapely.strtree import STRtree
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 ADIM_KM = 10.0
 ESIK_KM = 30.0        # bundan uzun kesintisiz deniz -> KARA SINIRI DEGIL
 

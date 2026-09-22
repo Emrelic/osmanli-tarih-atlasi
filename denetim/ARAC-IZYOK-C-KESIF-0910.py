@@ -9,8 +9,8 @@ hangi ailenin doğru olduğunu ölçmek için.
 """
 import io, json, os, re, subprocess
 
-G = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
-ATLAS = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+G = r"C:\claudemre\kutu\giden"
+ATLAS = r"C:\atlas"
 HASH = re.compile(r"\b[0-9a-f]{7,40}\b")
 
 _bilinen = {}

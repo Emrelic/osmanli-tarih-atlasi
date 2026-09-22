@@ -10,7 +10,7 @@ import json
 import os
 import sys
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")

@@ -28,7 +28,7 @@ import io, json, os, sys
 #   `ENOENT` ile ÇÖKÜYOR (ölçüldü, çıkış 1) — yani gürültülü. Yine de
 #   `__file__` kadar sağlam değil ve ayrı bir kalem olarak duruyor.
 PROJE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KUTU = r"C:\claudemre\kutu\giden"
 KAYNAK = os.path.join(PROJE, "denetim", "HUKUM-BAYAT.json")
 ACIK = {"sirada", "olculecek"}
 KAPALI = {"cozuldu", "tekrar", "zaten-dogru"}

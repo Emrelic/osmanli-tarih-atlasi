@@ -35,7 +35,7 @@ OTURUMLAR = os.path.join(KOK, "oturumlar")
 # 🔴 DİZİN BİR KEZ YAZILIR — Emre "elbet dizini" dedi ve sebebi ölçülü:
 # `YASALAR F9`, yanlış dizinde açılan oturum proje dosyalarını GÖREMEZ,
 # ve dizini yazmamak kullanıcıyı TAHMİNE zorlar.
-DIZIN = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+DIZIN = r"C:\atlas"
 
 KART = """
 ╔══════════════════════════════════════════════════════════════════════╗

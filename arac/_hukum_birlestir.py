@@ -11,7 +11,7 @@
 import io, json, os, glob, datetime, sys
 
 PROJE = os.environ["ATLAS_KOK"]
-KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KUTU = r"C:\claudemre\kutu\giden"
 GECERLI = {"cozuldu", "zaten-dogru", "tekrar", "sirada",
            "olculecek", "gerek-yok", "senin-kararin"}
 GEREKCE_SART = {"gerek-yok", "senin-kararin"}

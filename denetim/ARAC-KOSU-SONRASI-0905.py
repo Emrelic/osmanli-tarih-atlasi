@@ -22,7 +22,7 @@ yakar ve `§11`in "bayat kabul olcutu" tuzagina davetiye cikarir.
 SALT OKUR. Cikti ASCII. Cikis kodu: 0 = ucu de gecti, 1 = en az biri dustu.
 """
 import io, os, re, subprocess, sys, unicodedata
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 os.chdir(KOK)
 
 

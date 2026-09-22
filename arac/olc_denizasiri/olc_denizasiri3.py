@@ -18,7 +18,7 @@ Salt okuma.
 """
 import json, os, sys, math, pickle, time, unicodedata
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 

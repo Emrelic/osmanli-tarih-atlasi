@@ -2,7 +2,7 @@
 """Emre'de bekleyen KARARLARI dok — `senin-kararin` hukmu tasiyanlar."""
 import json, glob, os, io
 
-KOK = "C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/giden"
+KOK = "C:/claudemre/kutu/giden"
 
 for yol in sorted(glob.glob(os.path.join(KOK, "*", "CEVAP.json"))):
     parti = os.path.basename(os.path.dirname(yol))

@@ -13,7 +13,7 @@ yayin DURUR.
 import io, json, os, re, subprocess, sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 # 🔴 TABAN artik DEPODA duruyor. Onceki hali scratchpad'i gosteriyordu ve
 #    scratchpad OTURUMA OZELDIR: bayragi devralan koordinator oraya
 #    ERISEMEZ. Bir devir notunun isaret ettigi her yol, DEVRALANIN

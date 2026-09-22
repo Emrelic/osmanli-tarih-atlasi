@@ -12,7 +12,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-CE = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre"
+CE = r"C:\claudemre"
 ACIK = ("sirada", "olculecek")
 
 

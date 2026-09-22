@@ -36,7 +36,7 @@ from rasterio.features import shapes as rio_shapes
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-DEPO = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+DEPO = r"C:\atlas"
 CIKTI = os.path.join(DEPO, "denetim")
 sys.path.insert(0, os.path.join(DEPO, "arac"))
 

@@ -8,7 +8,7 @@ Soru: kıyı/göl kenarının kabalığını HANGİ adım üretiyor? Adaylar:
 aralığı; aynı yerin ham NE / GOLLER(0.01) / GOLLER(0.002) karşılaştırması."""
 import io, json, os, sys, time, importlib.util, math
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 from shapely.geometry import Polygon, MultiPolygon, LineString, shape, box, Point
 from shapely.ops import unary_union

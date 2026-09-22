@@ -12,7 +12,7 @@ sonra iki kumeyi KARSILASTIRIR.
 """
 import io, os, re, sys, glob, subprocess
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 ARG = [a for a in sys.argv[1:] if not a.startswith("--")]
 YAZ = "--yaz" in sys.argv
 if not ARG:

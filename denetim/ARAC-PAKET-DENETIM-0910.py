@@ -22,7 +22,7 @@ try:
 except Exception:
     pass
 
-G = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+G = r"C:\claudemre\kutu\giden"
 ATLAS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HASH = re.compile(r"\b[0-9a-f]{7,40}\b")
 

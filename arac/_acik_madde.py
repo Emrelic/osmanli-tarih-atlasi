@@ -9,7 +9,7 @@ kullanim:
 """
 import json, io, os, sys, glob
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KUTU = r"C:\claudemre\kutu\giden"
 
 yalniz_karar = "--karar" in sys.argv
 istenen = set(a for a in sys.argv[1:] if not a.startswith("--"))

@@ -153,7 +153,7 @@ def _sina():
         "py arac/denetle.py",
         'py arac/tahta.py yaz --kim "KOORDINATOR" --mesaj-dosya /tmp/m.txt',
         'git commit -F /tmp/mesaj.txt -- oturumlar/X.md',
-        'cd "/c/Users/emrem/OneDrive/Desktop/TARİH COĞRAFYA SİTESİ" && ls',
+        'cd "/c/atlas" && ls',
         'git add -- arac/x.py data/y.js',        # PATHSPEC serbest
         'git add arac/kural_olc.py',             # tek dosya da serbest
     ]

@@ -30,7 +30,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KUTU = r"C:\claudemre\kutu\giden"
 ATLAS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # CEVAP.json'daki hüküm kodları — KUTU.md'nin kendi sözlüğü

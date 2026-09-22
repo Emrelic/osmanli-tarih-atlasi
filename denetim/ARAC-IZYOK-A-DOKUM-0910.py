@@ -13,7 +13,7 @@ Kullanim:
 import json, os, sys, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KOK = r"C:\claudemre\kutu\giden"
 
 # DILIM 1 — sartnamede yazili 14 paket. Adlar OLCULEREK secildi:
 # "0008+ -> parti-emrelic-00XX" okumasi, iz-yok sayilari 89 ettigi icin

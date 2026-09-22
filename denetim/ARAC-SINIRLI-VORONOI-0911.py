@@ -14,7 +14,7 @@ data/ ve arac/*.py DONUK: yalniz OKUNUYOR (girdi.py import), hicbir
 satir YAZILMIYOR, hicbir kosu ACILMIYOR.
 """
 import sys, os
-sys.path.insert(0, r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\arac")
+sys.path.insert(0, r"C:\atlas\arac")
 import girdi
 import math
 import matplotlib
@@ -22,7 +22,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.spatial import Voronoi, voronoi_plot_2d
 
-REPO = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+REPO = r"C:\atlas"
 OUT_PNG = os.path.join(REPO, "denetim", "SINIRLI-VORONOI-KASRISIRIN-0911.png")
 OUT_JSON = os.path.join(REPO, "denetim", "OLCUM-SINIRLI-VORONOI-0911.json")
 

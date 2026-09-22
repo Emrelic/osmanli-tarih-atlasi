@@ -15,7 +15,7 @@ Kullanim:
 import json, io, os, sys, glob, collections, random
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KOK = r"C:\claudemre\kutu\giden"
 G = "denetim/OLCUM-SICIL-KUME-0910.json"
 
 d = json.load(io.open(G, encoding="utf-8"))

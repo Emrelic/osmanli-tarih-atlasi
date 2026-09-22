@@ -25,7 +25,7 @@ from collections import defaultdict
 from shapely.geometry import shape, LineString
 from shapely.strtree import STRtree
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, KOK + r"\denetim")
 from importlib import import_module
 import importlib.util

@@ -48,7 +48,7 @@ import sys
 import tempfile
 from datetime import date
 
-REPO = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+REPO = r"C:\atlas"
 DEVLETLER_JS = os.path.join(REPO, "data", "devletler.js")
 TMP = tempfile.gettempdir()
 EXTRACT_JSON = os.path.join(TMP, "devletler_extract.json")

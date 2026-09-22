@@ -27,7 +27,7 @@ sınıflama bir OKUMA işidir, bu betiğin regex'i o okumayı YAPMAZ).
 import re
 import json
 
-ROOT = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+ROOT = r"C:\atlas"
 
 
 def devlet_araligi(ids):

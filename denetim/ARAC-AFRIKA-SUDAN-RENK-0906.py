@@ -23,7 +23,7 @@ import subprocess
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-os.chdir(r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ")
+os.chdir(r"C:\atlas")
 sys.path.insert(0, "arac")
 G = "1923-10-28"
 YENI = "ingiliz-sudani"

@@ -31,7 +31,7 @@ import os
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-KOK = "C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/giden"
+KOK = "C:/claudemre/kutu/giden"
 ACIK = ("sirada", "olculecek")
 YAZ = "--yaz" in sys.argv
 # `--kok <dizin>` — SINANABİLİRLİK İÇİN. `--yaz` 39 dosyayı yerinde

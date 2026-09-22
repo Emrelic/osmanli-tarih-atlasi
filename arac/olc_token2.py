@@ -31,7 +31,7 @@ def _evren_nobetcisi(dosyalar, yol):
 'girdi-esdegeri' ve dolar karsiligi hesaplar. Salt okuma."""
 import json, os, glob, collections
 
-P = r"C:\Users\emrem\.claude\projects\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-"
+P = r"C:\Users\emrem\.claude\projects\C--atlas"
 
 # Resmi fiyatlar ($/MTok) - claude-api beceri dosyasindan, 2026-06-24 damgali
 # 🔴 FİYAT TABLOSU ELLE KOPYALANDI — kendi yaşını söylemesi ŞART.

@@ -18,7 +18,7 @@ from shapely.geometry import Polygon, MultiPolygon, LineString, MultiLineString,
 from shapely.ops import unary_union
 from shapely.validation import explain_validity
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 SCRATCH = os.environ.get("MTR_SCRATCH", r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\695200e0-9040-42fa-b8ca-a816459e5434\scratchpad")
 DATA = os.path.join(KOK, "data")
 VK = os.path.join(KOK, "veri-kaynak")

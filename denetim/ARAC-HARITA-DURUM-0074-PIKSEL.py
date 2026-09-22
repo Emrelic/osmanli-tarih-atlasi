@@ -8,7 +8,7 @@ from collections import Counter
 from PIL import Image
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIZIN = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden\parti-emrelic-0074"
+DIZIN = r"C:\claudemre\kutu\giden\parti-emrelic-0074"
 
 ADAY = {  # arac/renkler.py
     "rusya": "#4f7d4f", "eflak": "#4db34d", "bogdan": "#24905a",

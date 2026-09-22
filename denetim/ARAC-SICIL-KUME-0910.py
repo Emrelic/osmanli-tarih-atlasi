@@ -30,7 +30,7 @@ _n = machinery.SourceFileLoader(
 ).load_module()
 norm = _n.norm
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KOK = r"C:\claudemre\kutu\giden"
 CIKTI = "denetim/OLCUM-SICIL-KUME-0910.json"
 ACIK_HUKUM = {"sirada", "olculecek", "kosu-bekliyor"}
 

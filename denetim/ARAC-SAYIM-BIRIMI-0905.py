@@ -2,7 +2,7 @@
 """M-3029 dogrulamasi: `urabi-pasa` 110 uc = KAC BENZERSIZ IDDIA?
 Ve ayni sisme oteki slug'larda da var mi? SALT OKUR. ASCII."""
 import io, os, sys, collections, unicodedata
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
 

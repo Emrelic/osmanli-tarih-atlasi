@@ -32,7 +32,7 @@ import re
 import subprocess
 import sys
 
-ROOT = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+ROOT = r"C:\atlas"
 
 AILE2 = {
     "misir": ["memluk", "misir-kavalali"],

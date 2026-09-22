@@ -12,7 +12,7 @@
 # BEKLENEN: en az bir "hala yaziliyor" satiri, SONRA bitis.
 import io, os, subprocess, sys, time
 
-ATLAS = u"C:\\Users\\emrem\\OneDrive\\Desktop\\TAR\u0130H CO\u011eRAFYA S\u0130TES\u0130"
+ATLAS = u"C:\\atlas"
 SCRATCH = os.environ.get("BEKCI_SINAV_DIZIN") or __import__("tempfile").gettempdir()
 TETIK = os.path.join(SCRATCH, "sahte_tetik2.js")
 # 🔴 SAHTE MOTOR betigi DENETIM'de durur (bir ALETTIR), ama urettigi TETIK

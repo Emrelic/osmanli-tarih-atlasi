@@ -13,7 +13,7 @@ turunu AYRICA sayar.
 """
 import io, json, os, sys, glob, datetime
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-DIZIN = r"C:\Users\emrem\.claude\projects\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-"
+DIZIN = r"C:\Users\emrem\.claude\projects\C--atlas"
 BEN = "2ad1685f"
 
 dosyalar = glob.glob(os.path.join(DIZIN, "*.jsonl"))

@@ -8,7 +8,7 @@ arasında B2'nin (`_b2_enklav_birlestir`) üç sınavı yeniden koşulur:
 sahip_ix ≈ o gün d/v aktif (yazılı devir hariç) + ekleyici kapı (`_dolgu_kumesi` motordan)."""
 import ast, io, json, os, sys, time, importlib.util, math
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 from shapely.geometry import Polygon, MultiPolygon, Point, LineString, shape, box
 from shapely.ops import unary_union, nearest_points

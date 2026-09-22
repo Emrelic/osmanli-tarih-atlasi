@@ -11,7 +11,7 @@ S4 HAZIR KITA bekleyen oturum bosta token yiyor mu?
 """
 import io, json, os, sys, glob
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-DIZIN = r"C:\Users\emrem\.claude\projects\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-"
+DIZIN = r"C:\Users\emrem\.claude\projects\C--atlas"
 BEN = "2ad1685f"
 
 # ---------- S1: baglam egrisi (bu oturum) ----------

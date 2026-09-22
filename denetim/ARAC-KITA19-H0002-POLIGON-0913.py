@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, "arac")
 import girdi
 
-im = Image.open(r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden\parti-emrelic-0044\H-0002-2.png").convert("RGB")
+im = Image.open(r"C:\claudemre\kutu\giden\parti-emrelic-0044\H-0002-2.png").convert("RGB")
 W, H = im.size
 print("boyut:", W, H)
 

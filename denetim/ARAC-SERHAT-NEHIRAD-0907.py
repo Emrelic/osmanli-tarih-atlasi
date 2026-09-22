@@ -19,7 +19,7 @@ esanlami veri KENDISI tasiyor, biz uydurmuyoruz.
 import sys, io, json
 from collections import defaultdict
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 gj = json.load(io.open(KOK + r"\veri-kaynak\ne_10m_rivers.geojson", encoding="utf-8"))
 
 grup = defaultdict(set)

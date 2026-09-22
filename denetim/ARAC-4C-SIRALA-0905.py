@@ -30,7 +30,7 @@ import importlib.util as _ilu
 from collections import defaultdict
 from datetime import date
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 ATLAS_BASI, ATLAS_SONU, TOL = "1281-01-01", "1923-10-29", 400
 
 # ⑩ KOL (7 Eylül 2026): pad() artık ORTAK — dört ayrı alette ayrı ayrı

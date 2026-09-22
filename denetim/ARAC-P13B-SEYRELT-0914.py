@@ -5,7 +5,7 @@ uret_petek.py KOŞULMAZ (19 saat). `seyrelt` + `don_kose_kur` dosyanın KENDİS�
 ikisi koşulur, çıktılar karşılaştırılır (MOTOR-HIMAYE yöntemi)."""
 import ast, io, json, os, sys, random, subprocess, copy, time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 from shapely.geometry import LinearRing, Polygon
 
 ADLAR = {"seyrelt", "don_kose_kur"}

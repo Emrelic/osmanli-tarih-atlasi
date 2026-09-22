@@ -12,7 +12,7 @@ ONCE sorulur"; yoksa cevabi yanlis alarmlarin gurultusunden okunur).
 SALT OKUR. Cikti ASCII.
 """
 import io, os, sys, math, unicodedata, collections
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
 

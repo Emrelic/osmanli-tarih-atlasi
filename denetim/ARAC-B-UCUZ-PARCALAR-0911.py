@@ -42,7 +42,7 @@ from shapely.ops import unary_union, nearest_points
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 
 # ---------------- veri yükle (yalnız oku) ----------------
 ham = io.open(KOK + r"\data\donemler.js", encoding="utf-8").read()

@@ -16,7 +16,7 @@ import json, io, os, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 G = "denetim/OLCUM-SICIL-KUME-0910.json"
-HEDEF = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\SICIL.md"
+HEDEF = r"C:\claudemre\kutu\SICIL.md"
 # 🔴 CAPA BIR HTML YORUMUDUR, BIR BASLIK DEGIL — ve sebebi OLCULDU:
 #    ilk surumde capa "# KÜLLİYAT SİCİLİ" idi. Belgenin ELLE yazilan ust
 #    bolumune o basligin ADI bir cumlenin icinde gecince (".. altinda

@@ -12,7 +12,7 @@ try:
 except Exception:
     pass
 
-G = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+G = r"C:\claudemre\kutu\giden"
 HASH = re.compile(r"\b[0-9a-f]{7,40}\b")
 
 DILIM2 = {

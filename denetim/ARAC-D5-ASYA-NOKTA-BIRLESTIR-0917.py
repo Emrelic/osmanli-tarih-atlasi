@@ -3,7 +3,7 @@ import io, json, os, sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 # ham kol çıktıları (nokta_A..D.json) oturumun geçici klasöründe; birleşim denetim/D5-ASYA-NOKTA-ARASTIRMA-0917.json'da kalıcı
 SP = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\06fad4a8-e58e-4850-b3e8-c68a109e7e22\scratchpad"
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 B = "__BOSLUK__"
 
 def oku(g):

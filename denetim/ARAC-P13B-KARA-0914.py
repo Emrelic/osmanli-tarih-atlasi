@@ -4,7 +4,7 @@ KENDİ satırlarından (AST ile: `KARA_TOL = …` ile göller `try` bloğu aras�
 Motor KOŞULMAZ. Sonuç scratchpad'e WKB olarak önbelleğe alınır.
 Kullanım: importlib ile yükle → kara_goller() → (KARA, GOLLER, BOLGE, ns)."""
 import ast, io, json, os, sys, pickle, tempfile
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 ONBELLEK_DIZIN = (r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-"
                   r"TAR-H-CO-RAFYA-S-TES-\695200e0-9040-42fa-b8ca-a816459e5434\scratchpad")

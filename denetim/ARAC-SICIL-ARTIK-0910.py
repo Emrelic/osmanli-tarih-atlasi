@@ -7,7 +7,7 @@ kendisi OKUNARAK yapilir. Bu alet onu okunur hale getirir.
 import json, io, os, sys, glob
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KOK = r"C:\claudemre\kutu\giden"
 
 hedef = set()
 for satir in io.open("denetim/OLCUM-SICIL-KUME-0910.json", encoding="utf-8"):

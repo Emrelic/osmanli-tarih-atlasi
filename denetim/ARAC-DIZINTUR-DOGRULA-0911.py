@@ -7,7 +7,7 @@ try:
 except Exception:
     pass
 
-p = r"C:\Users\emrem\.claude\projects\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\767848ed-4153-4df9-95dc-23b093bfb34e\tool-results\mcp-Claude_Browser-get_page_text-1789152684276.txt"
+p = r"C:\Users\emrem\.claude\projects\C--atlas\767848ed-4153-4df9-95dc-23b093bfb34e\tool-results\mcp-Claude_Browser-get_page_text-1789152684276.txt"
 d = json.load(io.open(p, encoding="utf-8"))
 txt = "".join(x.get("text", "") for x in d if isinstance(x, dict))
 

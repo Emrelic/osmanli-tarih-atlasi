@@ -3,7 +3,7 @@
 fonksiyonları AST ile dosyanın KENDİSİNDEN çekip sentetik girdiyle koşar."""
 import ast, io, json, os, sys, random
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 from shapely.geometry import Polygon, MultiPolygon, box, Point
 from shapely.ops import unary_union

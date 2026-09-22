@@ -1,7 +1,7 @@
 // petek_govde.js -> NDJSON (satir basina bir yerlesim: {i, parts})
 // Parca havuzunu cozer. Hicbir seyi DEGISTIRMEZ.
 const fs = require('fs');
-const KOK = 'C:/Users/emrem/OneDrive/Desktop/TAR\u0130H CO\u011ERAFYA S\u0130TES\u0130';
+const KOK = 'C:/atlas';
 const CIK = process.argv[2];
 
 global.window = {};

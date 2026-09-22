@@ -1,5 +1,5 @@
 
-const fs=require("fs"),path=require("path");process.chdir("C:\\Users\\emrem\\OneDrive\\Desktop\\TAR\u0130H CO\u011eRAFYA S\u0130TES\u0130");
+const fs=require("fs"),path=require("path");process.chdir("C:\\atlas");
 const {execFileSync}=require("child_process");
 const dosyalar=JSON.parse(execFileSync("py",["denetim/_girdi_listesi.py"],{encoding:"utf8"}));
 const out=[];

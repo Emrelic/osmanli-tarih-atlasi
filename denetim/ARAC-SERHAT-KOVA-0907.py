@@ -12,7 +12,7 @@
 import io, json
 from collections import defaultdict
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 O = json.load(io.open(KOK + r"\denetim\SERHAT-DENIZ-0907.json", encoding="utf-8"))
 C = O["cift"]
 

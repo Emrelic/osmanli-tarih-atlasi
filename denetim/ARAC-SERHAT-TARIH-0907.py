@@ -22,7 +22,7 @@ Emre'nin UC sarti:
 import sys, io, json
 from collections import defaultdict
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, KOK + r"\arac")
 import girdi
 

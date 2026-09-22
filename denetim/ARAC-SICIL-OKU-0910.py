@@ -13,7 +13,7 @@ Kullanim:  py denetim/ARAC-SICIL-OKU-0910.py
 """
 import json, io, os, sys, glob, collections
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
+KOK = r"C:\claudemre\kutu\giden"
 CIKTI_JSON = os.path.join("denetim", "OLCUM-SICIL-KULLIYAT-0910.json")
 CIKTI_TXT = os.path.join("denetim", "OLCUM-SICIL-KULLIYAT-0910.txt")
 

@@ -96,6 +96,28 @@ GUNLUK      = r"C:\atlas-tasima\TASIMA-GUNLUK.txt"
 
 PROVA = "--prova" in sys.argv
 YAP   = "--yap"   in sys.argv
+# 🔴 --devam: TAŞIMA YARIDA KALDIYSA KALDIĞI YERDEN. 22 Eylül 2026'da
+#   gerçekten gerekti: atlas'ın KOPYASI hedefte tamamlandı, kaynağın
+#   silinmesi salt-okunur bir git nesnesinde durdu, ve betik o noktada
+#   `dur()` dedi — dolayısıyla ClaudEmre, transkriptler, worktree onarımı
+#   ve BÜTÜN yol yenileme adımları HİÇ KOŞMADI.
+#   ⚠️ Yeniden `--yap` koşturmak YANLIŞ olurdu: "hedef boş" sınavına
+#     takılır, takılmasa kopyayı ikinci kez yapardı.
+#   ⇒ `--devam` hedefin VAR ve SAĞLIKLI olmasını bekler, kaynağın
+#     kalıntısını temizler ve kalan adımları koşturur.
+DEVAM = "--devam" in sys.argv
+# 🔴 --yollar: YALNIZ YOL YENİLEME. Ön sınav yok, taşıma yok, süreç
+#   kapatma yok — yalnız ③ · ③b · ③c ve takma ad.
+#   NİÇİN AYRI BİR KİP GEREKTİ (22 Eylül 2026, yarım taşımanın ortası):
+#   Kopya `C:\atlas`ta tamamdı ama içindeki 131 alet HÂLÂ ESKİ YOLU
+#   gösteriyordu — ve eski klasör de hâlâ duruyordu. Yani yeni yerde
+#   açılan bir alet, ESKİ klasöre yazardı. İki canlı kopya, ikisi de
+#   "çalışıyor" görünür: bu, veri kaybının en sinsi biçimidir.
+#   Yol yenileme, taşımanın geri kalanını beklemeden yapılabilir ve
+#   YAPILMALIDIR — çünkü tehlike o bekleyişin içindedir.
+YOLLAR = "--yollar" in sys.argv
+if DEVAM or YOLLAR:
+    YAP = True
 
 _satirlar = []
 def yaz(s=""):
@@ -552,14 +574,31 @@ def on_sinav():
         yaz("  ✗ kaynak yok: %s" % ESKI_ATLAS); tamam = False
     else:
         yaz("  ✓ kaynak yerinde")
-    if os.path.exists(YENI_ATLAS):
+    if DEVAM:
+        # 🔴 `--devam`da hedefin VAR OLMASI beklenir — ve SAĞLIKLI olması
+        #    ŞARTTIR. "Var" yetmez: yarım bir kopya da "var"dır. Sağlık
+        #    ölçütü git'in kendisi: HEAD okunuyor mu, ağaç temiz mi.
+        if not os.path.isdir(YENI_ATLAS):
+            yaz("  ✗ HEDEF YOK: %s — `--devam` yarım taşıma içindir" % YENI_ATLAS)
+            tamam = False
+        else:
+            kod, cik = git("log", "--oneline", "-1", kok=YENI_ATLAS)
+            kod2, cik2 = git("status", "--porcelain", kok=YENI_ATLAS)
+            if kod != 0:
+                yaz("  ✗ HEDEF BOZUK — git geçmişi okunamıyor"); tamam = False
+            elif [s for s in cik2.splitlines() if s.strip()]:
+                yaz("  ✗ HEDEF KİRLİ — yarım kopya olabilir"); tamam = False
+            else:
+                yaz("  ✓ hedef SAĞLIKLI: %s" % cik.strip()[:60])
+    elif os.path.exists(YENI_ATLAS):
         yaz("  ✗ HEDEF ZATEN VAR: %s — üstüne taşımak veri karıştırır" % YENI_ATLAS)
-        yaz("    (yarım bir taşıma olmuş olabilir; elle bak)")
+        yaz("    (yarım bir taşıma olmuş olabilir; `--devam` ile sürdür)")
         tamam = False
     else:
         yaz("  ✓ hedef boş: %s" % YENI_ATLAS)
 
-    kod, cik = git("status", "--porcelain", kok=ESKI_ATLAS)
+    kod, cik = git("status", "--porcelain",
+                   kok=(YENI_ATLAS if DEVAM else ESKI_ATLAS))
     kirli = [s for s in cik.splitlines() if s.strip()]
     if kod != 0:
         yaz("  ✗ git okunamadı: %s" % cik.strip()[:200]); tamam = False
@@ -571,14 +610,14 @@ def on_sinav():
     else:
         yaz("  ✓ git ağacı temiz")
 
-    kod, cik = git("status", "-sb", kok=ESKI_ATLAS)
+    kod, cik = git("status", "-sb", kok=(YENI_ATLAS if DEVAM else ESKI_ATLAS))
     if "ahead" in cik:
         yaz("  ✗ PUSH EDİLMEMİŞ commit var — önce `git push`")
         yaz("      %s" % cik.splitlines()[0]); tamam = False
     else:
         yaz("  ✓ uzak depo ile eşit (yedek GitHub'da)")
 
-    kilit = os.path.join(ESKI_ATLAS, ".petek.kilit")
+    kilit = os.path.join(YENI_ATLAS if DEVAM else ESKI_ATLAS, ".petek.kilit")
     if os.path.exists(kilit) and os.path.getsize(kilit) > 0:
         yaz("  ✗ KOŞU KİLİDİ DOLU — üretim sürüyor olabilir"); tamam = False
     else:
@@ -591,7 +630,7 @@ def on_sinav():
         kod, out, _ = ps(
             "$d = Get-ChildItem -LiteralPath '%s' -Recurse -File -Force "
             "-ErrorAction SilentlyContinue; "
-            "($d | Where-Object { $_.Attributes -band 0x400000 }).Count" % ESKI_ATLAS, 300)
+            "($d | Where-Object { $_.Attributes -band 0x400000 }).Count" % (YENI_ATLAS if DEVAM else ESKI_ATLAS), 300)
         nb = int((out or "0").strip().splitlines()[-1] or 0)
         if nb:
             yaz("  ✗ %d DOSYA YALNIZ BULUTTA — önce OneDrive'da "
@@ -682,19 +721,68 @@ def on_sinav():
 # ══════════════════════════════════════════════════════════════════
 # ② TAŞIMA
 # ══════════════════════════════════════════════════════════════════
+def _yazilabilir_yap(fn, yol, hata):
+    """`rmtree` için onarıcı: salt-okunur dosyayı yazılabilir yapıp yeniden dener.
+
+    🔴🔴 BU FONKSİYON BİR ARIZADAN DOĞDU — 22 Eylül 2026, ilk gerçek taşıma:
+        ✗ TAŞINAMADI: [WinError 5] Erişim engellendi:
+          '…\\.git\\objects\\01\\076831802382da2c4b2de66b6fd0d152f9e512'
+    SEBEP: git, nesne dosyalarını SALT OKUNUR yazar (Windows'ta `R`
+    bayrağı). `shutil.rmtree` salt-okunur bir dosyayı silemez ve
+    `WinError 5` atar. Yani hata bir izin sorunu DEĞİL, git'in normal
+    davranışıydı — ve 51.852 nesneden HERHANGİ BİRİ bunu tetiklerdi.
+    📌 Ve arıza tam en kötü anda çıktı: `shutil.move` önce `os.rename`
+    dener, tutmazsa KOPYALA+SİL'e düşer. Kopya BİTMİŞTİ, silme
+    yarılanmıştı — yani kaynakta 50 dosya eksik, hedefte tam bir kopya.
+    Kayıp yoktu ama iki yarım klasör vardı, ki bu en kafa karıştırıcı hâl.
+    ⇒ Artık: salt-okunur bayrağı temizlenir ve işlem TEKRARLANIR.
+    """
+    import stat
+    try:
+        os.chmod(yol, stat.S_IWRITE)
+        fn(yol)
+    except Exception:
+        pass                    # ikinci denemede de olmazsa üst katman bildirir
+
+
+def _guvenli_tasi(eski, yeni):
+    """Önce RENAME dener (anlık), olmazsa KOPYALA + (salt-okunura dayanıklı) SİL.
+
+    ⚠️ `shutil.move`u doğrudan çağırmıyoruz çünkü onun içindeki `rmtree`
+    salt-okunur dosyada ölüyor (yukarıdaki vaka). Sıra kasıtlı:
+      ① `os.rename` — aynı sürücüde ANLIKTIR ve hiçbir şeyi kopyalamaz;
+        tutarsa risk sıfır.
+      ② tutmazsa (açık tutamaç vb.) 3 kez, aralarında bekleyerek dener —
+        süreçler yeni kapatıldıysa tutamaçlar saniyeler içinde serbest kalır.
+      ③ yine olmazsa kopyala, sonra onarıcılı `rmtree` ile sil.
+    """
+    for deneme in range(3):
+        try:
+            os.rename(eski, yeni)
+            return True, "yeniden adlandırıldı (anlık)"
+        except OSError:
+            if deneme < 2:
+                time.sleep(2.0)
+    try:
+        if not os.path.exists(yeni):
+            shutil.copytree(eski, yeni, symlinks=True)
+        shutil.rmtree(eski, onerror=_yazilabilir_yap)
+        if os.path.exists(eski):
+            return False, "kopyalandı ama ESKİSİ SİLİNEMEDİ (elle sil)"
+        return True, "kopyalandı ve eskisi silindi"
+    except Exception as e:
+        return False, "%s: %s" % (type(e).__name__, e)
+
+
 def tasi(eski, yeni, ad):
     yaz("  %-10s %s" % (ad + ":", eski))
     yaz("  %-10s %s" % ("→", yeni))
     if PROVA:
         yaz("     (prova — taşınmadı)")
         return True
-    try:
-        shutil.move(eski, yeni)
-        yaz("     ✓ taşındı")
-        return True
-    except Exception as e:
-        yaz("     ✗ TAŞINAMADI: %s" % e)
-        return False
+    ok, nasil = _guvenli_tasi(eski, yeni)
+    yaz("     %s %s" % ("✓" if ok else "✗ TAŞINAMADI —", nasil))
+    return ok
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -1041,6 +1129,26 @@ def main():
     yaz("TAŞIMA %s" % ("PROVASI — hiçbir şeye dokunulmuyor" if PROVA else "— GERÇEK"))
     yaz("")
 
+    if YOLLAR:
+        yaz("KİP: YALNIZ YOL YENİLEME — taşıma yok, süreç kapatma yok.")
+        yaz("")
+        yollari_yenile(YENI_ATLAS, (".py", ".bat", ".ps1", ".sh"),
+                       "atlas · bütün ağaç")
+        yollari_yenile(YENI_ATLAS, (".js",), "atlas · yalnız alet .js",
+                       sadece_dizinler={"arac", "denetim"})
+        for ce in (YENI_CE, ESKI_CE):
+            if os.path.isdir(ce):
+                yollari_yenile(ce, (".py", ".bat", ".sh", ".json", ".txt"),
+                               "claudemre · kod ve BAĞ verisi")
+                takma_ad_ekle(ce)
+                break
+        ayarlari_yenile()
+        gorevleri_yenile()
+        yaz("")
+        yaz("🟢 YOLLAR YENİLENDİ. Taşımanın geri kalanı: `--devam`")
+        gunluk_kaydet()
+        return
+
     # ⓪ artık ayrı bir adım DEĞİL: kutu da öteki engeller gibi ön sınavın
     #    içinde, `engelleri_kapat` tarafından kapatılıyor. İki ayrı yerde
     #    iki ayrı kapatma mantığı tutmak, ikisinin ayrışmasını beklemekti.
@@ -1057,7 +1165,33 @@ def main():
     yaz("═" * 66)
     yaz("② TAŞIMA")
     yaz("═" * 66)
-    if not PROVA:
+    if DEVAM:
+        # Hedef ön sınavda SAĞLIKLI bulundu. Geriye kaynağın kalıntısı
+        # kalıyor: kopya tamamlanmış ama silme yarıda kesilmişti.
+        # ⚠️ ÖNCE TEK BİR SORU: hedefte ne var? Ön sınav zaten git
+        #   geçmişini ve temizliğini doğruladı — yani kalıntı ARTIK
+        #   FAZLALIK. Yine de SİLMİYORUZ, ADINI DEĞİŞTİRİYORUZ:
+        #   iki yarım klasörün en tehlikeli yanı KARIŞTIRILMALARIDIR;
+        #   adı `_ESKI-...-SILINECEK` olan bir klasör karıştırılamaz.
+        #   Silmeyi Emre, her şeyin çalıştığını gördükten sonra yapar.
+        if os.path.isdir(ESKI_ATLAS):
+            hedef = os.path.join(os.path.dirname(ESKI_ATLAS),
+                                 "_ESKI-ATLAS-SILINECEK")
+            yaz("  kaynak kalıntısı: %s" % ESKI_ATLAS)
+            yaz("  →                 %s" % hedef)
+            ok, nasil = _guvenli_tasi(ESKI_ATLAS, hedef)
+            yaz("     %s %s" % ("✓" if ok else "⚠️", nasil))
+            if ok:
+                yaz("     ⓘ SİLİNMEDİ, yalnız adı değişti. Her şeyin")
+                yaz("       çalıştığını gördükten sonra elle sil.")
+        else:
+            yaz("  ⓘ kaynak kalıntısı yok — atlas tam taşınmış")
+        if os.path.isdir(ESKI_CE):
+            if not tasi(ESKI_CE, YENI_CE, "claudemre"):
+                yaz("  ⚠️ ClaudEmre taşınamadı — ayrı ele alınacak")
+        else:
+            yaz("  ⓘ ClaudEmre eski yolda yok, atlandı")
+    elif not PROVA:
         if not tasi(ESKI_ATLAS, YENI_ATLAS, "atlas"):
             dur("atlas taşınamadı")
         if os.path.isdir(ESKI_CE):
@@ -1076,7 +1210,9 @@ def main():
                 yaz("  %s: %d dosya taşınacak" % (ad, len(os.listdir(e))))
             else:
                 try:
-                    shutil.move(e, y)
+                    _ok, _n = _guvenli_tasi(e, y)
+                    if not _ok:
+                        raise OSError(_n)
                     yaz("  ✓ %s taşındı" % ad)
                 except Exception as ex:
                     yaz("  ✗ %s taşınamadı: %s" % (ad, ex))

@@ -31,7 +31,7 @@ def _evren_nobetcisi(dosyalar, yol):
 onbellek-okuma egrisi + oturum basi maliyet. Salt okuma."""
 import json, os, glob, collections, statistics
 
-P = r"C:\Users\emrem\.claude\projects\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-"
+P = r"C:\Users\emrem\.claude\projects\C--atlas"
 
 kova = collections.defaultdict(list)          # cagri araligi -> onbellek okuma listesi
 oturum = {}                                    # dosya -> (cagri, toplam_esdeger, tepe_cr)

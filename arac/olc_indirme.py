@@ -32,7 +32,7 @@ index.html'deki yerel <script src> ve <link href> dosyalarini bulur,
 ham ve gzip boyutlarini toplar. Hicbir seyi DEGISTIRMEZ."""
 import re, gzip, os, sys, io
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 h = open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
 
 yollar = []

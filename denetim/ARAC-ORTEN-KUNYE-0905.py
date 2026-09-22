@@ -24,7 +24,7 @@ import sys
 import importlib.util as _ilu
 from collections import Counter
 
-KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+KOK = r"C:\atlas"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 
 # ── KABA KUTULAR: id -> (lat_min, lat_max, lon_min, lon_max)
