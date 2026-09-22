@@ -264,9 +264,22 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   (`oturumlar/HAZIR-KITA.md`).
 - **③ Tahta:** tek kanal `py arac/tahta.py yaz --kim "<AD>" --kime "<ALICI>" --mesaj "…"`;
   `send_message` yalnız tahta arızasında (§7.1 ⑤b).
+  🔴 **NOKTA ATIŞI — `HERKES` artık KURAL ALTINDA** (Emre, 22 Eylül 2026: *"ota boka
+  herkese mesaj atılmasın… gereksiz mesajları gereksiz kişiler okuyup uyanıp token
+  yakmamalı"*). Mesaj kimi ilgilendiriyorsa **onun adına** yazılır. `HERKES`
+  yazılacaksa: **ACİL/DURDURUCU ise `--dayanak` ZORUNLU** — `tahta.py` dayanaksızını
+  REDDEDER (çıkış 2) — ve bütün bekçileri uyandırır; **değilse kimseyi uyandırmaz**,
+  tahtada kütük olarak durur, herkes kendi turunda okur. Ölçüm: bir bilgi duyurusu
+  sekiz oturumu uyandırıp sekiz tam turluk bağlam yaktı. **Boş uyanış, dolu turdan
+  ucuz değildir.**
 - **④ Bekçi:** **Bash `run_in_background`** + `py arac/tahta_bekci.py --kim "<AD>" --cik`
-  (Monitor DEĞİL: 30 dk'da dolup boşuna uyandırır). Yalnız `kime` = ADIN/HERKES mesajında
-  çıkar; mesajı işle, aynı komutla SESSİZCE yeniden kur. "Bekliyorum" YAZILMAZ.
+  (Monitor DEĞİL: 30 dk'da dolup boşuna uyandırır). Yalnız `kime` = ADIN mesajında
+  ya da **ACİL/DURDURUCU** HERKES yayınında çıkar (22 Eylül: adres tuzağı ve
+  bilgi amaçlı HERKES artık UYANDIRMAZ, yalnız stderr'e teşhis düşer — eski hâlde
+  her duyuru herkesi uyandırıyordu). Çıkınca mesajı işle, aynı komutla **SESSİZCE**
+  yeniden kur. "Bekliyorum" YAZILMAZ. 🔴 **Boş uyandıysan — sana ait hiçbir şey
+  yoksa — EKRANA HİÇBİR ŞEY YAZMA,** bekçiyi sessizce yeniden kur ve dur: "benlik
+  bir şey yok, yeniden kuruyorum" cümlesinin kendisi bir tur maliyetidir.
 - **⑤ Yatay mesaj:** işçi→işçi tahtadan (§7.1 ③); atama/öncelik/kaynak hükmü koordinatöre.
 - **⑥ Toplu okuma:** koordinatör tahtayı olay olay değil, bekçi `--toplu 1800` ile 30
   dakikada bir TEK özet satırla okur; işçiler buna göre 30 dk gecikme varsayar.

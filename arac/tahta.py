@@ -689,6 +689,54 @@ def yaz(a):
     # (Denetim artık yalnız uyarmıyor, DÜZELTİYOR; gerekçe `_adres_denetle`de.)
     _kanon = _adres_denetle(kayit, _t(a["kime"]).upper())
     _kime = _kanon if _kanon else _t(a["kime"]).upper()
+    # ══════════════════════════════════════════════════════════════════
+    # 🔴 HERKES KAPISI — Emre, 22 Eylül 2026
+    #   "gerekirse koordinatörün herkese mesaj atması engellensin ya da
+    #    kurala bağlansın, ota boka herkese mesaj atılmasın. Kime neyi
+    #    ilgilendiriyor ise NOKTA ATIŞI mesaj atmalı; gereksiz mesajları
+    #    gereksiz kişiler okuyup uyanıp token yakmamalı."
+    #
+    # ÖLÇÜLEN ZARAR: son 30 tahta mesajının 3'ü HERKES'ti (%10) ve ikisi
+    # salt bilgiydi ("koşu bitti" · "gc bitti, commit serbest"). Her biri
+    # sekiz oturumu birden uyandırdı; sekizi de BÜTÜN BAĞLAMINI yeniden
+    # okudu ve "bana iş yok" deyip kapandı. Bir satırlık duyuru, sekiz
+    # tam turluk bağlam bedeli ödetti.
+    #
+    # 🔴 ENGELLEMEK DEĞİL, KURALA BAĞLAMAK — ve sebebi: gerçekten bütün
+    # hattı durduran bir duyuru (ayrıştırıcı kilidi gibi) MÜMKÜN kalmalı;
+    # o vakada saatlerce fark edilmemesi bu projeye pahalıya patladı.
+    # Kapı şu ayrımı zorluyor:
+    #   · ACİL/DURDURUCU HERKES  → UYANDIRIR ⇒ `--dayanak` ZORUNLU
+    #     (niçin herkesi durduruyor, tek cümle — yazan bedeli görsün)
+    #   · öteki HERKES           → uyandırmaz, tahtada KÜTÜK olarak durur
+    #     ve oturum KENDİ turunda okur. Bu serbest ama AÇIKÇA damgalanır.
+    # ⚠️ İkinci maddenin doğruluğu `tahta_bekci.py`nin aynı gün yapılan
+    #   düzeltmesine bağlıdır (HERKES artık yalnız ACİL'de uyandırır).
+    #   Biri geri alınırsa öteki YALAN SÖYLER — ikisi tek karardır.
+    # ══════════════════════════════════════════════════════════════════
+    if _kime == "HERKES":
+        _ac = (_t(a.get("aciliyet")) or "NORMAL").upper()
+        if _ac in ("ACIL", "DURDURUCU"):
+            if not _t(a.get("dayanak")):
+                print("🔴 REDDEDİLDİ — ACİL/DURDURUCU bir HERKES yayını "
+                      "BÜTÜN oturumları uyandırır.")
+                print("   Her uyanış o oturuma bağlamının TAMAMINI yeniden "
+                      "okutur; sekiz oturumda bu sekiz tam tur eder.")
+                print("   ⇒ `--dayanak \"<niçin herkesi durduruyor>\"` ekle.")
+                print("   ⇒ Ya da gerçekten herkesi ilgilendirmiyorsa "
+                      "NOKTA ATIŞI yaz: `--kime \"<OTURUM ADI>\"`.")
+                print("   ⇒ Bilgi amaçlıysa aciliyeti düşür: uyandırmaz, "
+                      "tahtada durur, herkes kendi turunda okur.")
+                return 2
+            print("⚠️ ACİL HERKES — BÜTÜN bekçileri uyandırıyor. "
+                  "Dayanak: %s" % _t(a.get("dayanak"))[:80])
+        else:
+            print("⚪ HERKES/KÜTÜK — bu mesaj KİMSEYİ UYANDIRMAZ "
+                  "(aciliyet '%s')." % _ac)
+            print("   Tahtada durur, her oturum KENDİ turunda okur. "
+                  "Duyuru için doğru olan budur.")
+            print("   Gerçekten herkesin işini DURDURUYORSA: "
+                  "`--aciliyet ACIL --dayanak \"...\"`")
     # 🔴 GÖNDEREN TARAFI — aynı oturum kendini İKİ YAZIMLA imzalarsa tahtada
     # İKİ OTURUM gibi görünür ve `--sadece-bana` bekçisi birini kaçırır.
     # Ölçüldü (999 mesaj): `OPUS HAZIR KITA 6` (3 mesaj) ↔ `Opus hazır kıta 6`
