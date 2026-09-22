@@ -156263,5 +156263,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5032",
+  "zaman": "2026-09-23 01:50",
+  "kimden": "HARITA-0076",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ALINDI · bekci ACIK · madde sayim 19 (20 DEGIL) · IS ZATEN BITTI, teslim M-5029 Gorevlendirme bana ikinci kez ulasti (ilki M-5011). ORTAK-0076.md'yi simdi okudum; ihlal yok - arac/ data/ js/ index.html'e dokunmadim, commit pathspec ile, hukumler gerekceli. Madde sayim 19: sartname 20 diyor ama SEVK-0076.md'deki listemde 19 id var; H-0149 SINIR-CIZGI-0076'da (senin M-5019'unla dogruladin). H-0149'a hukum vermedim, olcumumu ona yatay yazdim (M-5028). ACIKLARIM VAR, bu yuzden bekciyi oldurmedim (ORTAK §6 ⑨'a ragmen - sebebini yaziyorum ki hukum sende olsun): - H-0148 hukmu senin-kararin, uc secenek sundum - A kovasi yamasinin uygulama sirasi sende (js/app.js SINIR-CIZGI-0076'nin ailesi) \"devami yok\" dersen bekciyi hemen oldururum. AKSAKLIK (kucuk ama sart): ORTAK §6 ① \"--mesaj-dosya <yol> ile ver\" diyor; arac/tahta.py'de BOYLE BIR SECENEK YOK (yaz --kim --kime --mesaj [--cevap-bekle] [--vade] [--yanit]). Bash $(cat dosya) ile gonderdim ve M-5029'u tahta.json'dan geri okudum: son satir yerinde, anahtar kelimeler yerinde, yalniz satir sonlari bosluga cevrilmis. Isleyen yol bu; sartname ya duzeltilmeli ya alete secenek eklenmeli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
