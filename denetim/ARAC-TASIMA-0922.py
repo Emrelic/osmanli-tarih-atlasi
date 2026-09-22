@@ -270,6 +270,180 @@ def _yaz_dosya(yol, degis, yedek=False):
 
 
 # ══════════════════════════════════════════════════════════════════
+# KLASÖRÜ TUTAN SÜREÇLER — ve betiğin KENDİNİ saymaması
+#
+# 🔴🔴 BU BÖLÜM BİR ÖLÇÜM HATASI YÜZÜNDEN YENİDEN YAZILDI, ve hatanın
+#   sonucu şuydu: ÖN SINAV HİÇBİR ZAMAN YEŞİLE DÖNEMEZDİ.
+#   Eski hâli süreçleri şöyle arıyordu:
+#       CommandLine -like '*TAR*CO*RAFYA*'
+#   Ama bu deseni ARAYAN PowerShell'in KENDİ komut satırı da deseni
+#   İÇERİYOR. Yani tarayıcı kendini yakalıyordu. Emre bütün Claude
+#   pencerelerini kapattı, süreç sayısı 18'den 3'e düştü ve içlerinden
+#   biri `7620 powershell.exe` — betiğin kendi tarayıcısıydı.
+#   ⇒ Kullanıcı ne yaparsa yapsın 1'in altına inemezdi. Taşıma,
+#     kendi ölçüm aletinin kusuru yüzünden HİÇ YAPILAMAZDI.
+#   📌 Ders ailesi: "denetim var ≠ o soruyu soruyor". Alet çalışıyordu,
+#     doğru şeyi ölçmüyordu — ve yanlış tarafa hata veriyordu, yani
+#     sessiz değil GÜRÜLTÜLÜ yanılıyordu. Şanslıyız: sessiz olsaydı
+#     taşıma açık dosyaların üstünde koşardı.
+#
+# ÇARE — iki katmanlı, çünkü tek katman yetmiyor:
+#   ① KENDİ SOY AĞACINI DIŞLA: kendi PID'i ve bütün ATALARI (cmd.exe →
+#     powershell.exe → py.exe zinciri) listeden çıkarılır.
+#   ② DESEN TAŞIYAN TARAYICIYI DIŞLA: komut satırında `Win32_Process`
+#     ya da `atlas-tasima` geçen her şey ölçüm aracının kendisidir.
+# ══════════════════════════════════════════════════════════════════
+_PS_SUREC = r'''$ErrorActionPreference='SilentlyContinue'
+Get-CimInstance Win32_Process | ForEach-Object {
+  $c = $_.CommandLine
+  if ($c) { "{0}`t{1}`t{2}`t{3}" -f $_.ProcessId, $_.ParentProcessId, $_.Name, ($c -replace "`t"," ") }
+}
+'''
+
+
+def _sinifla(ad, cmd):
+    """Bir süreci TANI ve ne yapılacağını söyle."""
+    c = (cmd or "").lower()
+    if "kutu.py" in c or "emeklilik.py" in c or "ekran.py" in c:
+        return ("ClaudEmre kutu/nöbet programı",
+                "bunu SEN kapatma — `2-TASI.bat` kendisi durduracak")
+    if "bash.exe" in ad.lower() or "shell-snapshots" in c:
+        return ("Claude Code'un kabuğu",
+                "Claude Code'un BÜTÜN pencerelerini kapat")
+    if "sunucu.py" in c:
+        return ("yerel site sunucusu",
+                "site sunucusunu durdur (pencereyi kapat)")
+    if "tahta_bekci" in c:
+        return ("tahta bekçisi",
+                "Claude Code'un BÜTÜN pencerelerini kapat")
+    if any(t in ad.lower() for t in ("chrome", "msedge", "firefox")):
+        return ("tarayıcı", "yerel siteyi açan tarayıcı sekmesini kapat")
+    if "uret_petek" in c or "kos_ve_yayinla" in c:
+        return ("🔴 KOŞU SÜRÜYOR", "KOŞU BİTENE KADAR TAŞIMA YAPMA")
+    return ("(tanınmadı — elle bak)", "bu süreci elle kapat: PID yukarıda")
+
+
+def _tutan_surecler(yaz):
+    """(pid, ad, cmd, sinif, care) listesi · ölçülemezse None."""
+    ps1 = os.path.join(os.path.dirname(GUNLUK), "_surec.ps1")
+    try:
+        os.makedirs(os.path.dirname(ps1), exist_ok=True)
+        with io.open(ps1, "w", encoding="utf-8-sig", newline="\r\n") as f:
+            f.write(_PS_SUREC)
+        p = subprocess.run(
+            ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ps1],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=180)
+        ham = p.stdout or ""
+    except Exception as e:
+        yaz("  ✗ SÜREÇ TARAMASI YAPILAMADI (%s) — 'temiz' SAYILMAZ" % e)
+        return None
+    finally:
+        try:
+            os.remove(ps1)
+        except Exception:
+            pass
+
+    kayit, ebeveyn = {}, {}
+    for s in ham.splitlines():
+        d = s.split("\t")
+        if len(d) < 4:
+            continue
+        try:
+            pid, ppid = int(d[0]), int(d[1])
+        except ValueError:
+            continue
+        kayit[pid] = (d[2], d[3])
+        ebeveyn[pid] = ppid
+
+    # ① kendi soy ağacı — kendim ve bütün atalarım
+    kendi = set()
+    p = os.getpid()
+    for _ in range(12):                 # döngüye karşı tavan
+        if p in kendi or p not in ebeveyn:
+            kendi.add(p)
+            break
+        kendi.add(p)
+        p = ebeveyn[p]
+
+    tutan = []
+    for pid, (ad, cmd) in kayit.items():
+        c = cmd or ""
+        if pid in kendi:
+            continue
+        # ② ölçüm aracının kendisi
+        if "Win32_Process" in c or "atlas-tasima" in c:
+            continue
+        if not (("TAR" in c and "RAFYA" in c) or "ClaudEmre" in c
+                or "claudemre" in c.lower()):
+            continue
+        sinif, care = _sinifla(ad, c)
+        tutan.append((pid, ad, c, sinif, care))
+    return sorted(tutan)
+
+
+# ══════════════════════════════════════════════════════════════════
+# ⓪ CLAUDEMRE KUTUSUNU DURDUR — betik kendi yapıyor, kullanıcı avlamıyor
+#
+# 🔴 NİÇİN: `kutu.py --otomatik` ve `emeklilik.py` Claude her açıldığında
+#   AÇILIŞ ÇENGELİ tarafından yeniden başlatılıyor ve arka planda
+#   `pythonw.exe` olarak duruyorlar — görev çubuğunda pencere yok.
+#   Kullanıcı Claude'u kapatsa da bunlar KALIR ve klasörü tutmaya devam
+#   eder. "Kutu penceresini kapat" demek, olmayan bir pencereyi
+#   kapattırmaya çalışmaktır.
+# ⚠️ Ve bu bir kapsam aşımı DEĞİL: taşıma planının hazırlık maddesi zaten
+#   "Kutu durdurulsun" diyor, ClaudEmre de bu taşımada taşınan iki
+#   klasörden biri. Kendi taşıdığımız programı durdurmak, taşımanın
+#   parçası.
+# 📌 PROVADA DURDURMAZ, yalnız söyler — prova hiçbir şeye dokunmaz sözü
+#   bir programı öldürmeyi de kapsar.
+# ══════════════════════════════════════════════════════════════════
+def kutuyu_durdur():
+    ps1 = os.path.join(os.path.dirname(GUNLUK), "_kutu.ps1")
+    betik = ("$ErrorActionPreference='SilentlyContinue'\r\n"
+             "Get-CimInstance Win32_Process | Where-Object {\r\n"
+             "  $_.CommandLine -match 'kutu\\.py|emeklilik\\.py|ekran\\.py'\r\n"
+             "} | ForEach-Object {\r\n"
+             "  \"$($_.ProcessId)`t$($_.Name)\"\r\n"
+             "  if ($env:TASIMA_KIP -eq 'yap') { Stop-Process -Id $_.ProcessId -Force }\r\n"
+             "}\r\n")
+    try:
+        os.makedirs(os.path.dirname(ps1), exist_ok=True)
+        with io.open(ps1, "w", encoding="utf-8-sig", newline="") as f:
+            f.write(betik)
+        ort = dict(os.environ)
+        ort["TASIMA_KIP"] = "prova" if PROVA else "yap"
+        p = subprocess.run(
+            ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ps1],
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=90, env=ort)
+        satir = [s.strip() for s in (p.stdout or "").splitlines() if s.strip()]
+    except Exception as e:
+        yaz("⓪ ClaudEmre kutusu durdurulamadı (%s) — elle kapat" % e)
+        return
+    finally:
+        try:
+            os.remove(ps1)
+        except Exception:
+            pass
+    if not satir:
+        return
+    yaz("═" * 66)
+    yaz("⓪ CLAUDEMRE KUTUSU")
+    yaz("═" * 66)
+    for s in satir:
+        d = s.split("\t")
+        yaz("  %-6s %-14s %s" % (d[0], d[1] if len(d) > 1 else "",
+                                 "(prova — durdurulmadı)" if PROVA else "durduruldu ✓"))
+    if PROVA:
+        yaz("  ⓘ Bunlar arka planda çalışır, PENCERELERİ YOKTUR — Claude'u")
+        yaz("    kapatmak onları kapatmaz. `2-TASI.bat` kendisi durduracak.")
+    else:
+        yaz("  ✓ kutu durduruldu — taşımadan sonra yeni yolunda yeniden açılır")
+    yaz("")
+
+
+# ══════════════════════════════════════════════════════════════════
 # ① ÖN SINAV
 # ══════════════════════════════════════════════════════════════════
 def on_sinav():
@@ -356,21 +530,27 @@ def on_sinav():
     except Exception as e:
         yaz("  ⚠️ bulut dosyası ölçülemedi (%s) — 'temiz' SAYILMAZ" % e)
 
-    tutan = []
-    try:
-        kod, out, _ = ps(
-            "Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -like "
-            "'*TAR*CO*RAFYA*' -or $_.CommandLine -like '*ClaudEmre*' } | "
-            "ForEach-Object { \"$($_.ProcessId) $($_.Name)\" }", 90)
-        tutan = [s.strip() for s in out.splitlines() if s.strip()]
-    except Exception as e:
-        yaz("  ⚠️ süreç taraması yapılamadı (%s) — 'temiz' SAYILMAZ" % e)
-    if tutan:
+    tutan = _tutan_surecler(yaz)
+    if tutan is None:
+        # ⚠️ ÖLÇÜLEMEDİ ≠ TEMİZ. Tarama koşmadıysa "süreç yok" diyemeyiz;
+        #    taşıma açık dosyaların üstünde koşarsa yarıda kalır.
+        tamam = False
+    elif tutan:
         yaz("  ✗ KLASÖRÜ TUTAN %d SÜREÇ VAR — taşıma başarısız olur:" % len(tutan))
-        for s in tutan[:12]:
-            yaz("      %s" % s)
-        yaz("    ⇒ Claude Code pencerelerini, tarayıcı sekmelerini ve")
-        yaz("      ClaudEmre kutu penceresini kapat.")
+        # 🔴 HER SÜRECİN NE OLDUĞU VE NE YAPILACAĞI YAZILIYOR.
+        #    Eski hâli yalnız "2532 bash.exe" basıyordu — kullanıcı için
+        #    bu bir bilgi değil bir bilmece. Neyi kapatacağını bilmeden
+        #    listeye bakmak, listeye hiç bakmamakla aynıdır.
+        ne_yap = set()
+        for pid, ad, cmd, sinif, care in tutan[:14]:
+            yaz("      %-6s %-14s %s" % (pid, ad, sinif))
+            ne_yap.add(care)
+        if len(tutan) > 14:
+            yaz("      … %d süreç daha" % (len(tutan) - 14))
+        yaz("")
+        yaz("    ⇒ YAPILACAK:")
+        for c in sorted(ne_yap):
+            yaz("        · %s" % c)
         tamam = False
     else:
         yaz("  ✓ klasörü tutan süreç yok")
@@ -768,6 +948,7 @@ def main():
     yaz("TAŞIMA %s" % ("PROVASI — hiçbir şeye dokunulmuyor" if PROVA else "— GERÇEK"))
     yaz("")
 
+    kutuyu_durdur()
     gecti = on_sinav()
     # 🔴 PROVA ENGELDE DURMAZ, DEVAM EDER — ve sebebi ölçüldü: ilk hâlinde
     #   duruyordu, dolayısıyla ③ · ③b · ③c bölümleri HİÇ KOŞMUYORDU. Yani
