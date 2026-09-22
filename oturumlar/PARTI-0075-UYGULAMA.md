@@ -57,6 +57,34 @@ olabilir — birlikte ele alınmalı.
 
 ---
 
+## 0 · KOŞU BİTTİĞİ AN — sıra, ve NİÇİN her adım
+
+🔴 **Bu koşu yayına KENDİLİĞİNDEN inmeyecek.** Sebebi bayatlık değil
+(bayat çıktı yayınlanır — Emre, 17 Eylül): `MOTOR_YURUYUS` bugüne kadar
+üretimde **hiç açılmadı**, yani ana harita da sürtünmeli yürüyüşün kestiği
+peteklerle çiziliyor. Bu bir tazeleme değil, **başka bir harita**. Emre
+görmeden yayınlanmaz.
+
+```bash
+py arac/denetle.py            # altı değişmez — TEK kapı. İhlal varsa DUR
+py arac/uret_devirler.py      # devirler.js · uret_petek'ten SONRA koşar
+py arac/renk_olc.py           # palet verinin fonksiyonu
+py arac/durum_tablosu.py --yaz   # §1.5 (bugün BAYAT: 1713 ↔ 1736)
+py arac/denetle_yayin.py      # yayın kapısı
+py arac/surum_damgala.py      # ?v=rNN — yalnız Emre "yayınla" derse
+```
+
+⚠️ **Sıra önemli ve iki yerde kırılabilir:**
+① `uret_devirler.py` `uret_petek.py`ten SONRA koşar, tersi sessizce bayat
+   `devirler.js` üretir. ② `surum_damgala.py` yeni veri dosyası
+   commitlenmeden koşarsa yayın o dosya için 404 verir — 21 Eylül'de
+   tam bu oldu, 5 dakika sürdü.
+
+⚠️ Koşu bitince tahtaya **"dosya senin"** yazılacak; sekiz oturum bunu
+bekliyor ve bekçileri bu gece bellek basıncından iki kez öldürüldü, yani
+bir kısmı uyanmayabilir — tahtaya yazmakla yetinmeyip `send_message` de
+gerekebilir (§7.2 ⚠️).
+
 ## A · KOŞU BİTMEDEN YAPILABİLİR (data/ ve arac/ dışı)
 
 | # | iş | dosya | not |
