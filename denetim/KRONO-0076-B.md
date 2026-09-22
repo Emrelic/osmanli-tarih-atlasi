@@ -102,6 +102,7 @@ Kart bu **üç** çapaya birden bağlandı. Uydurma çapa açılmadı.
 | H-0100 | cozuldu | Mürzsteg kartı. |
 | H-0101 | cozuldu | Yemen ısrarı kartı. |
 | H-0102 | cozuldu | Yıldız Suikastı kartı — **fail konusunda hüküm verilmedi**, §8. |
+| H-0103 | kosu-bekliyor | **Emre'nin tahmini doğru**, hat zaten çizili; eksik olan Refah ve Taba **noktaları** — §6.2. |
 | H-0104 | cozuldu | II. Meşrutiyet kartı (telgraf · Niyazi · cemiyet · kutlamalar). |
 | H-0105 | cozuldu | Hicaz Demiryolu kartı. Film/popüler kültür **kapsam dışı** bırakıldı, §8. |
 | H-0109 | cozuldu | 1908 seçimleri ve meclis kartı. Mebus sayısı **bulunamadı**, §8. |

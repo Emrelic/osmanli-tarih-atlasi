@@ -1,0 +1,11 @@
+KRONO-0076-B — aynı kör nokta raporda da vardı: H-0103 tabloya eklendi
+
+CEVAP.json'da yakalanan hata raporun §3 tablosunda da duruyordu: H-0103
+satırı yoktu ama özet "24/24 işlendi" diyordu. Satır eklendi
+(kosu-bekliyor — hat çizili, Refah ve Taba noktaları yok).
+
+denetim/KRONO-0076-B-rapordenetle.py eklendi: tabloyu kendi çıktısına
+değil SEVKİN 24'lük listesine karşı sayar, önce bilinen pozitif bir
+vakayla ateşlenir. Ölçüm: 24 satır / 24 madde, eksik 0, fazla 0.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
