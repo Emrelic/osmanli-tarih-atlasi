@@ -435,7 +435,14 @@ window.ANTLASMALAR = [
   taraf:["osmanli","macaristan","sirp-despotlugu"], topraklar:"Sırp Despotluğu'nun (Semendire dahil) toprakları Osmanlı'dan Sırp Despotu Đurađ Branković'e iade edildi." },
 { t:"1479-01-25", ad:"İstanbul (Venedik)", savas_basi:"1463-01-01",   taraf_metin:"Venedik",          ozet:"Arnavutluk ve İşkodra Osmanlı'da; 16 yıllık savaş bitti",
   taraf:["osmanli","venedik"], topraklar:"İşkodra ve Arnavutluk kıyısı Venedik'ten Osmanlı'ya geçti; Venedik Ege'deki bazı adalarını korudu, yıllık haraç ödemeyi kabul etti." },
-{ t:"1555-05-29", ad:"Amasya", savas_basi:"1548-07-27",               taraf_metin:"Safevî",           ozet:"İlk resmî doğu sınırı; Irak Osmanlı'da",
+{ t:"1555-05-29", ad:"Amasya", savas_basi:"1553-08-28",               taraf_metin:"Safevî",           ozet:"İlk resmî doğu sınırı; Irak Osmanlı'da",
+  // 🔴 DÜZELTİLDİ 21 Eylül 2026 (ANTLASMA-KADEME-0074 ölçtü, 1.MURAT onayladı):
+  // eski değer 1548-07-27 idi ve TDV'nin verdiği İKİ günü de tutmuyordu — 1548
+  // İran seferine çıkış 29 Mart 1548, Amasya'yı DOĞURAN Nahcıvan seferine çıkış
+  // 28 Ağustos 1553. 1548-07-27 savaşın başı değil savaşın İÇİNDEKİ bir olaydı
+  // (büyük ihtimalle Tebriz'e giriş). Alanın tanımı "antlaşmaya götüren savaşın
+  // başlangıcı" olduğu için 1553 seferi alındı: SINIFLANDIRMA düzeltmesidir.
+  savas_basi_kaynak:"TDV suleyman-i — “18 Ramazan 960'ta (28 Ağustos 1553) İstanbul'dan ayrılan” (Nahcıvan seferine çıkış; Amasya Antlaşması bu seferin sonunda imzalandı). amasya-antlasmasi maddesi savaşın başını vermiyor.",
   taraf:["osmanli","safevi"], topraklar:"Irak-ı Arab (Bağdat dahil) ve Doğu Anadolu Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — ilk resmî Osmanlı-Safevî sınırı çizildi." },
 { t:"1590-03-21", ad:"Ferhad Paşa (İstanbul)", savas_basi:"1578-08-09",taraf_metin:"Safevî",          ozet:"Tebriz, Karabağ, Şirvan ve Gürcistan Osmanlı'da — doğuda en geniş sınır",
   taraf:["osmanli","safevi"], topraklar:"Tebriz, Karabağ, Şirvan, Gürcistan ve Luristan'ın bir kısmı Safevî'den Osmanlı'ya geçti — Osmanlı'nın doğuda ulaştığı en geniş sınır." },
@@ -465,6 +472,12 @@ window.ANTLASMALAR = [
 { t:"1739-09-18", ad:"Belgrad", savas_basi:"1737-07-01",              taraf_metin:"Habsburg-Rusya",   ozet:"Belgrad geri alındı",
   taraf:["osmanli","habsburg","rusya"], topraklar:"Belgrad ve kuzey Sırbistan ile Batı Eflak Habsburg'dan Osmanlı'ya geri alındı; Rusya'ya Azak yıkılmak şartıyla bırakıldı." },
 { t:"1774-07-21", ad:"Küçük Kaynarca", savas_basi:"1768-10-08",       taraf_metin:"Rusya",            ozet:"Kırım'a 'bağımsızlık'; Karadeniz'de Rusya",
+  // ⚠️ GÜN DEĞİŞTİRİLMEDİ, ÇELİŞKİ BEYAN EDİLDİ (21 Eylül 2026, 1.MURAT hükmü):
+  // TDV ay veriyor, atlas gün diyor. TDV'nin hicrî ay çevirisi literatürde yaygın
+  // olan 8 Ekim 1768'i TEK BAŞINA çürütmez; ikinci kaynak görmeden gün oynatmak
+  // D207'nin tersine düşmek olurdu. İkinci kaynak ARANMADI (bu turda TDV dışına
+  // çıkılmadı) — yani bu bir "bulunamadı" değil, "bakılmadı"dır.
+  savas_basi_kaynak:"⚠️ DOĞRULANMADI. TDV kucuk-kaynarca-antlasmasi “(Cemâziyelevvel 1182 / Eylül 1768)” diyor, GÜN VERMİYOR ve milâdî karşılığı Eylül. Atlastaki 8 Ekim 1768 literatürdeki savaş ilânı günüdür ve ikinci bir akademik kaynakla doğrulanmadı.",
   taraf:["osmanli","rusya","kirim"], topraklar:"Kırım Hanlığı Osmanlı egemenliğinden çıkıp siyaseten bağımsız ilan edildi (dinî bağ hilafette kaldı); Rusya Karadeniz kıyısında Kerç, Yenikale ve Azak'ı aldı." },
 { t:"1812-05-28", ad:"Bükreş", savas_basi:"1806-12-22",               taraf_metin:"Rusya",            ozet:"Besarabya kaybedildi",
   taraf:["osmanli","rusya"], topraklar:"Besarabya (Prut-Dinyester arası) Osmanlı'ya bağlı Boğdan'dan koparılıp Rusya'ya bırakıldı." },
@@ -498,9 +511,12 @@ window.ANTLASMALAR = [
 // Düzeltme (Koordinatör, OTURUM-10 turu — A5 ölçümü): ardıl id'ler kullanıldı,
 // bkz. yukarıdaki I./II. Balkan Savaşı notu.
 { t:"1913-05-30", ad:"Londra", savas_basi:"1912-10-08",               taraf_metin:"Balkan devletleri",ozet:"Midye-Enez hattı; Rumeli'nin kaybı",
+  savas_basi_kaynak:"TDV balkan-savasi — “8 Ekim 1912'de Karadağ'ın Osmanlı Devleti'ne savaş ilân etmesiyle Balkan savaşlarının birinci safhası başlamış oldu”.",
   taraf:["osmanli","bulgaristan-kralligi","sirbistan-kralligi","yunanistan","karadag"],
   topraklar:"Midye-Enez hattının batısındaki bütün Rumeli toprakları (Selanik, Yanya, Girit dahil) Osmanlı'dan Balkan devletlerine bırakıldı." },
 { t:"1918-10-30", ad:"Mondros Mütarekesi", savas_basi:"1914-11-05",   taraf_metin:"İtilaf devletleri",ozet:"Fiilî teslimiyet; işgaller başladı",
+  // ⚠️ ÇELİŞKİ BEYANI (21 Eylül 2026) — gün DEĞİŞTİRİLMEDİ, hüküm 1.MURAT'ta.
+  savas_basi_kaynak:"⚠️ DOĞRULANMADI. TDV birinci-dunya-savasi Osmanlı'nın savaşa girişini “Rusya'nın 2 Kasım 1914'te Osmanlı Devleti'ne savaş ilân etmesi” ile veriyor; atlastaki 5 Kasım İngiltere-Fransa'nın ilânıdır. Çok ilânlı savaş — hangi ilânın “savaşın başı” sayılacağı bir SINIFLANDIRMA sorusudur, kaynak sorusu değil.",
   // EKOKUMA-BAG-0921 (21 Eylül 2026): çıplak `t:` bağı 1918-10-30'u paylaşan
   // ilgisiz maddelere de düşüyordu ("Polonyalılar Krakov'da yönetimi ele
   // geçirdi", "Avusturya Cumhuriyeti'nin kuruluşu"). `ekKartBagliMi` `tur`suz
@@ -509,11 +525,14 @@ window.ANTLASMALAR = [
   olay:["1918-10-30|Mondros"],
   taraf:["osmanli","ingiltere","italya"], topraklar:"Toprak resmen devredilmedi ama İtilaf devletlerine stratejik nokta ve demiryollarını işgal hakkı tanındı; fiilen Anadolu ve Trakya'nın işgalinin yolu açıldı." },
 { t:"1920-08-10", ad:"Sevr", savas_basi:"1914-11-05",                 taraf_metin:"İtilaf devletleri",ozet:"Uygulanamayan paylaşım projesi",
+  // ⚠️ ÇELİŞKİ BEYANI (21 Eylül 2026) — Mondros ile aynı savaş, aynı soru.
+  savas_basi_kaynak:"⚠️ DOĞRULANMADI. TDV birinci-dunya-savasi “Rusya'nın 2 Kasım 1914'te Osmanlı Devleti'ne savaş ilân etmesi” diyor; atlastaki 5 Kasım İngiltere-Fransa'nın ilânıdır (bkz. Mondros kaydı).",
   taraf:["osmanli","ingiltere","italya","yunanistan"],
   topraklar:"İzmir ve Doğu Trakya Yunanistan'a, Oniki Ada ve Antalya bölgesi İtalya'ya, güneydoğu Fransız nüfuz bölgesine bırakılıyor; bağımsız Ermenistan ve özerk Kürdistan öngörülüyordu — TBMM tanımadığı için hiç uygulanmadı." },
 { t:"1921-10-13", ad:"Kars", savas_basi:"1920-09-24",                 taraf_metin:"Kafkas cumhuriyetleri", ozet:"Bugünkü doğu sınırı",
   taraf:["tbmm-turkiye"], topraklar:"Kars, Ardahan ve Iğdır Sovyet Ermenistan ve Gürcistan'dan TBMM Türkiyesi'ne kesin olarak geçti — bugünkü doğu sınırı." },
 { t:"1922-10-11", ad:"Mudanya Mütarekesi", savas_basi:"1919-05-15",   taraf_metin:"İtilaf devletleri",ozet:"Doğu Trakya savaşsız kurtuldu; Yunan çekilmesi düzenlendi",
+  savas_basi_kaynak:"TDV izmir — “15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali” (Lozan ile aynı tanıklık).",
   taraf:["tbmm-turkiye","ingiltere","italya"],
   topraklar:"Doğu Trakya, Yunan işgalinden çıkıp savaş yapılmadan TBMM Türkiyesi'ne bırakıldı; İstanbul ve Boğazlar TBMM idaresine geçene dek İtilaf kuvvetlerinde kaldı." },
 { t:"1923-07-24", ad:"Lozan", savas_basi:"1919-05-15",                taraf_metin:"İtilaf devletleri",ozet:"Yeni Türkiye'nin tanınması",
@@ -541,8 +560,11 @@ window.ANTLASMALAR.push(
   { t:"1664-08-09", ad:"Vasvar", savas_basi:"1663-04-01", taraf_metin:"Habsburg", ozet:"Sen Gotar yenilgisine rağmen toprak korundu; 20 yıllık ateşkes",
     taraf:["osmanli","habsburg"], topraklar:"Toprak büyük ölçüde korundu — Uyvar ve Novigrad (savaş sırasında alınmıştı) Osmanlı'da kaldı; buna karşılık Erdel'de Habsburg'un adayı tanındı." },
   { t:"1791-08-04", ad:"Ziştovi", savas_basi:"1788-02-09", taraf_metin:"Habsburg", ozet:"Savaş öncesi sınıra dönüş; Belgrad geri verildi",
+    savas_basi_kaynak:"TDV zistovi-antlasmasi — “ittifak içinde bulunan Avusturya'nın da katılmasıyla (9 Şubat 1788)”.",
     taraf:["osmanli","habsburg"], topraklar:"Toprak el değiştirmedi — Avusturya savaş sırasında aldığı Belgrad ve Sırbistan'ı boşaltıp 1788 öncesi sınıra döndü." },
   { t:"1792-01-10", ad:"Yaş", savas_basi:"1787-08-17", taraf_metin:"Rusya", ozet:"Yedisan kaybedildi; Kırım'ın kaybı kesinleşti",
+    // ⚠️ ÇELİŞKİ BEYANI (21 Eylül 2026) — gün DEĞİŞTİRİLMEDİ, hüküm 1.MURAT'ta.
+    savas_basi_kaynak:"⚠️ BİR GÜN FARK. TDV yas-antlasmasi “2 Zilkade 1201'de (16 Ağustos 1787) ilân edilen bu savaşa” diyor; atlas 17 Ağustos yazıyor. AYNI OLAY, farklı gün — hicrî/milâdî çevrim farkı olabilir, doğrulanmadı.",
     taraf:["osmanli","rusya"], topraklar:"Bug-Dinyester arası (Yedisan) Rusya'ya bırakıldı; Rusya'nın 1783'te ilhak ettiği Kırım tanındı; Boğdan ve Eflak Osmanlı'da kaldı." },
   { t:"1826-10-07", ad:"Akkerman", savas_basi:null, taraf_metin:"Rusya", ozet:"Savaşsız dayatıldı; 1812 Bükreş kazanımları genişletildi",
     taraf:["osmanli","rusya"], topraklar:"Toprak el değiştirmedi; Sırbistan'ın ve Eflak-Boğdan'ın özerkliği genişletildi, Rusya'nın Kafkasya'daki 1812 sınır kazanımları teyit edildi." },
@@ -550,8 +572,10 @@ window.ANTLASMALAR.push(
     savas_basi_kaynak:"TDV ayastefanos-antlasmasi — “24 Nisan 1877 tarihinde Osmanlı Devleti'ne savaş ilân etti”.",
     taraf:["osmanli","rusya"], topraklar:"Ege'ye kadar uzanan büyük özerk Bulgaristan, Sırbistan/Karadağ/Romanya'nın tam bağımsızlığı ve Kars-Ardahan-Batum Rusya'ya öngörüldü; büyük devletlerin itirazıyla Berlin Kongresi'nde küçültüldü." },
   { t:"1913-09-29", ad:"İstanbul (Bulgaristan, 1913)", savas_basi:"1912-10-08", taraf_metin:"Bulgaristan", ozet:"Edirne ve Kırklareli Osmanlı'da kesin kaldı",
+    savas_basi_kaynak:"TDV balkan-savasi — “8 Ekim 1912'de Karadağ'ın Osmanlı Devleti'ne savaş ilân etmesiyle Balkan savaşlarının birinci safhası başlamış oldu”.",
     taraf:["osmanli","bulgaristan-kralligi"], topraklar:"Edirne ve Kırklareli, II. Balkan Savaşı'nda geri alındığı gibi Osmanlı'da kesin kaldı; sınır Meriç'in biraz doğusundan çizildi." },
   { t:"1913-11-14", ad:"Atina", savas_basi:"1912-10-08", taraf_metin:"Yunanistan", ozet:"Girit'in Yunanistan'a ilhakı tanındı",
+    savas_basi_kaynak:"TDV balkan-savasi — “8 Ekim 1912'de Karadağ'ın Osmanlı Devleti'ne savaş ilân etmesiyle Balkan savaşlarının birinci safhası başlamış oldu”.",
     taraf:["osmanli","yunanistan"], topraklar:"Girit'in fiilen 1908'den beri süren Yunanistan'a bağlılığı Osmanlı tarafından resmen tanındı; Ege adalarının statüsü büyük devletlere bırakıldı." }
 );
 window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
@@ -651,6 +675,10 @@ window.SEFERLER = [
 // çözünürlüğü boğazı tam ayırt edemiyor, bkz. §2).
 { ad:"Savoy Haçlı seferi (1366) — Gelibolu'nun kaybı", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#1b7a3f",
   f:"1366-06-01", t:"1366-09-01",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033: kıyıyı dolanan ÇİZİM ara noktaları (ne_10m_land'e
+  // karşı doğrulandı, denetim/ARAC-SEFER-OK-DENIZ-ROTA-0075.py); kara üstü 47→1 km.
+  // `yol` (kaynaklı istasyonlar) DOKUNULMADI.
+  rota:[[12.34,45.44],[15.2,42.3],[17.855,41.285],[19.595,39.605],[19.775,39.545],[19.92,39.62],[20.115,39.425],[20.265,39.035],[20.3,38.3],[20.495,37.825],[21,37],[22.5,36.1],[23.2,35.9],[24.955,37.325],[25.405,37.625],[24.745,38.075],[24.7,38],[25.3,39.5],[26.17,40.02],[26.385,40.145],[26.395,40.205],[26.615,40.335],[26.67,40.41]],
   yol:[[12.34,45.44],[15.20,42.30],[19.92,39.62],[20.3,38.3],[21.0,37.0],[22.5,36.1],[23.2,35.9],[24.7,38.0],[25.3,39.5],[26.17,40.02],[26.67,40.41]] },
 
 { ad:"Katalan Kumpanyası'nın Anadolu seferi (1303-1305)", tur:"sefer", sonuc:"belirsiz", f:"1303-09-01", t:"1305-06-01",
@@ -730,6 +758,8 @@ window.SEFERLER = [
 // (kara-maskesi ölçümüyle ~%4,7 — kalanı Çanakkale Boğazı'nın motor tarafından
 // tam ayırt edilemeyen dar geçişi, bkz. §2).
 { ad:"Preveze harekâtı (1538)", tur:"deniz", sonuc:"zafer",     f:"1538-07-01", t:"1538-10-28",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033 (bkz. Savoy kaydındaki not); kara üstü 16→0 km.
+  rota:[[28.98,40.97],[27.315,40.635],[26.67,40.41],[26.435,40.215],[26.385,40.175],[26.345,40.105],[26.17,40.02],[25.3,39.5],[24.7,38],[23.335,35.975],[23.2,35.9],[22.5,36.1],[21,37],[20.1,37.6],[20.15,38.1],[20.25,38.45],[20.75,38.96]],
   yol:[[28.98,40.97],[26.67,40.41],[26.17,40.02],[25.3,39.5],[24.7,38.0],[23.2,35.9],[22.5,36.1],[21.0,37.0],[20.1,37.6],[20.15,38.1],[20.25,38.45],[20.75,38.96]] },
 { ad:"Zigetvar seferi (1566)", tur:"kusatma", sonuc:"zafer",      f:"1566-05-01", t:"1566-10-01",
   yol:[[28.98,41.01],[26.56,41.68],[23.32,42.70],[21.90,43.32],[20.46,44.82],[19.86,45.25],
@@ -741,6 +771,10 @@ window.SEFERLER = [
 // Lefkoşa/Mağusa bacağı KASTEN kara: çıkarma sonrası adanın içindeki kara
 // harekâtı, Otranto/Preveze'nin varış noktalarında olduğu gibi.
 { ad:"Kıbrıs harekâtı (1570)", tur:"deniz", sonuc:"zafer",      f:"1570-05-01", t:"1571-09-01",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033. Larnaka→Lefkoşa/Mağusa bacağı (33.63,34.92)→
+  // (33.94,35.12) yukarıdaki nottaki gibi KASTEN KARA sayıldı, rotaya dokunulmadı;
+  // kalan deniz bacağı yönlendirildi. Kara üstü 68→0 km.
+  rota:[[28.23,36.45],[28.3,35.9],[28.1,35.55],[29.5,35.2],[31,34.85],[32.5,34.75],[32.815,34.495],[33.145,34.585],[33.685,34.825],[33.63,34.92],[33.36,35.17],[33.94,35.12]],
   yol:[[28.23,36.45],[28.3,35.9],[28.1,35.55],[29.5,35.2],[31.0,34.85],[32.5,34.75],[33.63,34.92],[33.36,35.17],[33.94,35.12]] },
 // hatalar 4.docx madde 3'ün ok ayağı — iki ok, biri her tarafın hamlesi
 // (Memlûk seferindeki kalıbın aynısı). Portekiz kolu "dusman" rengiyle çizilir.
@@ -776,6 +810,9 @@ window.SEFERLER = [
 // Ege'nin batısından açık suda güneye indirildi (kara-maskesi ölçümüyle ~%7,7 —
 // kalanı yine Çanakkale Boğazı, bkz. §2).
 { ad:"Girit harekâtı (1645)", tur:"deniz", sonuc:"zafer",       f:"1645-04-30", t:"1645-09-01",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033. Kavis bu bacağı ÖNCEDEN 104→122 km'ye
+  // ÇIKARIYORDU (kara bilmiyordu); rota kavisi de kapsar, kara üstü 94→0 km.
+  rota:[[28.98,40.97],[27.585,40.565],[26.705,40.405],[26.385,40.185],[26.355,40.115],[26.17,40.02],[25.3,39.5],[24.7,38],[24.585,37.105],[24.6,37],[24.715,36.705],[24.4,36],[24.02,35.51]],
   yol:[[28.98,40.97],[26.17,40.02],[25.3,39.5],[24.7,38.0],[24.6,37.0],[24.4,36.0],[24.02,35.51]] },
 { ad:"Viyana seferi (1683)", tur:"kusatma", sonuc:"yenilgi",        f:"1683-04-01", t:"1683-09-13",
   yol:[[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[20.46,44.82],[18.69,45.55],
@@ -873,6 +910,9 @@ window.SEFERLER = [
 // açılmış" ⇒ 1770-01-01 (YIL hassasiyeti; ok 1769 yolculuğunu tarihlemiyor).
 { id:"a4-rus-filosu-cesme-1770", ad:"Rus filosunun Baltık'tan Çeşme'ye yolu (1769-70)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1770-01-01", t:"1770-07-07", tarih_hassasiyet:"f: YIL (TDV '1770 yılı başlarında') · t: GÜN",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033: 8300 km'lik hattın kısa bir kesimi (Cebelitarık
+  // ve Mora açıkları çevresi) karayı kesiyordu; kara üstü 22→0 km.
+  rota:[[29.775,59.991],[27.885,60.085],[27,59.95],[23,59.6],[21.285,58.455],[21,58.2],[20,57.2],[18,55.8],[14.315,55.265],[14.3,55.25],[13.3,55.1],[12.765,55.385],[12.75,55.55],[12.65,56.05],[11.8,56.8],[11,57.6],[10.525,57.825],[10,58],[7,57.8],[3,56],[2,52.5],[1.45,51],[-1,50.2],[-4,49.8],[-6,48.3],[-8,45.5],[-10,43.3],[-10,40],[-9.8,37.5],[-9.2,36.6],[-6.5,36],[-5.6,35.95],[-4,36.1],[0,37],[5.5,37.8],[9,38.2],[11.6,37.45],[13.5,36.6],[17,36.5],[21,36.3],[22.5,36.1],[23.2,35.9],[23.5,36.5],[23.05,37.1],[22.83,37.5],[23.05,37.15],[23.45,37.26],[24.005,37.575],[24.15,37.62],[24.65,38.02],[25.6,38.35],[25.65,38.45],[25.7,38.85],[26.2,38.8],[26.32,38.62],[26.27,38.48],[26.26,38.37],[26.3,38.32]],
   kaynak:"kucuk-kaynarca-antlasmasi (TDV): \"Baltık'tan hareket eden gemilerini İngilizler'in yardımıyla Akdeniz'e sokmuş ve Çeşme'de Osmanlı donanmasına ağır bir darbe indirmiş\" · cesme-vakasi (TDV): \"1770 yılı başlarında Mora Rumları'nı ayaklandırmak için Rus Amirali Spiridov ve İngiliz Amirali Elphinston kumandasındaki Rus donanması İngilizler'in de desteğiyle Akdeniz'e açılmış ve Mora yarımadası açıklarında faaliyet göstermeye başlamıştı\" · \"Anabolu'ya (Nauplia) gönderilen … Osmanlı donanmasını, Anabolu Limanı ağzında ve Suluca (Hydra) adası önlerinde başarısızlığa uğrattı\" · \"Çeşme'nin kuzeyinde bulunan Koyun adaları önüne geldiğinde burada tekrar Amiral Spiridov idaresindeki Rus donanması ile karşılaştı\" · \"11 Rebîülevvel 1184 (5 Temmuz 1770)\" · \"7 Temmuz sabahı Osmanlı donanmasından yalnızca Kaptanıderyâ Hüsâmeddin Paşa'nın baştardası … kurtulabildi\" · mustafa-iii (TDV): \"Çeşme'deki Osmanlı filosunu yakması (6-7 Temmuz 1770)\"",
   yol:[[29.775,59.991],[27.0,59.95],[23.0,59.6],[21.0,58.2],[20.0,57.2],[18.0,55.8],[14.3,55.25],[13.3,55.1],
        [12.75,55.55],[12.65,56.05],[11.8,56.8],[11.0,57.6],[10.0,58.0],[7.0,57.8],[3.0,56.0],[2.0,52.5],
@@ -968,9 +1008,28 @@ window.SEFERLER = [
 // (21.70,36.82 → 22.38,37.51) KASTEN kara: Tripoliçe'nin geri alınışı
 // çıkarma sonrası Mora içine yürüyen bir kara harekâtı, Kıbrıs'taki
 // Larnaka→Lefkoşa bacağıyla aynı mantık.
-{ ad:"Mora çıkarması (1825)", tur:"deniz", sonuc:"zafer",       f:"1825-02-24", t:"1825-06-22", yol:[[29.92,31.20],[25.13,35.34],[23.0,36.1],[22.5,36.1],[21.70,36.82],[22.38,37.51]] },
-{ ad:"Suriye harekâtı (1831-32)", tur:"sefer", sonuc:"yenilgi",   f:"1831-10-31", t:"1832-07-29", yol:[[31.24,30.05],[34.47,31.50],[35.08,32.93],[36.29,33.51],[36.71,34.73],[37.16,36.20],[36.20,36.52]] },
-{ ad:"Anadolu ilerleyişi (1832-33)", tur:"sefer", sonuc:"yenilgi",f:"1832-08-01", t:"1833-02-02", yol:[[36.20,36.52],[35.32,37.00],[33.22,37.18],[32.49,37.87],[29.98,39.42]] },
+{ ad:"Mora çıkarması (1825)", tur:"deniz", sonuc:"zafer",       f:"1825-02-24", t:"1825-06-22",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033. Son bacak (21.70,36.82)→(22.38,37.51) yukarıdaki
+  // (D023) notunda KASTEN KARA olarak açıklanmıştı — dokunulmadı. Kalan bacaklar
+  // yönlendirildi (Tripoliçe'ye çıkış öncesi Girit güneyinden dolanış); kara üstü 38→0 km.
+  rota:[[29.92,31.2],[26.285,35.385],[25.145,35.415],[25.13,35.34],[24.935,35.475],[23,36.1],[22.5,36.1],[21.7,36.82],[22.38,37.51]],
+  yol:[[29.92,31.20],[25.13,35.34],[23.0,36.1],[22.5,36.1],[21.70,36.82],[22.38,37.51]] },
+{ ad:"Suriye harekâtı (1831-32)", tur:"sefer", sonuc:"yenilgi",   f:"1831-10-31", t:"1832-07-29",
+  // 🔴 KADEMELİ OK — SEFER-OK-0075/H-0012: eskiden tek parçaydı, ok ilk günden
+  // Belen'e kadar bütün güzergâhı çiziyordu. Günler kronoloji maddelerinin
+  // günleridir (data/olaylar_ek4.js): 10-31 Yafa'ya çıkış · 11-27 Akkâ kuşatması ·
+  // 06-15 Şam teslim · 06-25 Halep (Humus Muharebesi 07-08 ARADA ama güzergâhta
+  // Halep'ten ÖNCE geliyor — sefer_ok.js MAX kuralı ok'u geri kısaltmaz, Halep'te
+  // kalır) · 07-29 Belen bozgunu.
+  kademe:[["1831-10-31",1],["1831-11-27",2],["1832-06-15",3],["1832-06-25",5],["1832-07-29",6]],
+  yol:[[31.24,30.05],[34.47,31.50],[35.08,32.93],[36.29,33.51],[36.71,34.73],[37.16,36.20],[36.20,36.52]] },
+{ ad:"Anadolu ilerleyişi (1832-33)", tur:"sefer", sonuc:"yenilgi",
+  // 🔴 f DÜZELTİLDİ 1832-08-01 → 1832-07-29 (SEFER-OK-0075/H-0012): kademenin ilk
+  // adımı Belen Geçidi bozgunuyla (data/olaylar_ek4.js:191) başlar, önceki kayıttaki
+  // `t` ile aynı gün — iki sefer aynı olayda birbirine bağlanır, boşluk kalmaz.
+  f:"1832-07-29", t:"1833-02-02",
+  kademe:[["1832-07-29",1],["1832-11-21",3],["1833-02-02",4]],
+  yol:[[36.20,36.52],[35.32,37.00],[33.22,37.18],[32.49,37.87],[29.98,39.42]] },
 { ad:"Nizip seferi (1839)", tur:"sefer", sonuc:"yenilgi",         f:"1839-04-21", t:"1839-06-24", yol:[[38.33,38.35],[37.98,37.03],[37.79,37.01]] },
 // Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %40,1 kara):
 // eski nokta zinciri Rodos'tan doğrudan Kıbrıs'a atlarken Anadolu'nun güney
@@ -978,7 +1037,11 @@ window.SEFERLER = [
 // Açık deniz üzerinden Levant kıyısına, oradan Akkâ ve İskenderiye'ye
 // indirildi (kara-maskesi ölçümüyle ~%7,5 — kalanı Akkâ/İskenderiye
 // varışlarındaki liman kıyısı, beklenen).
-{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27", yol:[[26.4,38.5],[26.6,37.0],[27.5,36.0],[28.1,35.4],[29.5,35.0],[31.0,34.7],[32.5,34.5],[34.0,34.4],[35.35,33.95],[35.15,33.4],[35.08,32.93],[32.0,31.9],[29.92,31.20]] },
+{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033. Kavis bu bacağı 119→145 km'ye çıkarıyordu
+  // (kara bilmiyordu); kara üstü 71→0 km.
+  rota:[[26.4,38.5],[26.225,38.295],[26.465,37.285],[26.6,37],[27.5,36],[28.1,35.4],[29.5,35],[31,34.7],[32.5,34.5],[34,34.4],[35.35,33.95],[35.15,33.4],[35.005,32.945],[35.08,32.93],[32,31.9],[30.265,31.515],[29.905,31.275],[29.92,31.2]],
+  yol:[[26.4,38.5],[26.6,37.0],[27.5,36.0],[28.1,35.4],[29.5,35.0],[31.0,34.7],[32.5,34.5],[34.0,34.4],[35.35,33.95],[35.15,33.4],[35.08,32.93],[32.0,31.9],[29.92,31.20]] },
 // --- MERKEZ OTURUM görevi (2026-07-30) — kronolojide zaten var olan 10 olaya ok.
 // İç isyanlar (Sırbistan/Eflak/Girit/Arnavutluk) için Osmanlı'nın kendi
 // (koyu kırmızı) ve düşman devlet (soğuk renk) ikilisinden ayrı, üçüncü bir
@@ -1006,7 +1069,11 @@ window.SEFERLER = [
 { ad:"Rus donanmasının Büyükdere'ye gelişi (1833)", tur:"deniz", sonuc:"belirsiz", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1833-02-20", t:"1833-02-20", yol:[[29.15,41.24],[29.10,41.20],[29.06,41.10]] },
 { ad:"Osmanlı donanmasının İskenderiye'ye teslimi (1839)", tur:"teslim", sonuc:"yenilgi",
-  f:"1839-07-14", t:"1839-07-14", yol:[[26.4,38.5],[29.92,31.20]] },
+  // 🔴 `rota` — SEFER-OK-0075/H-0033: iki uçlu bacak Girit'in üstünden düz gidiyordu
+  // (kara üstü 61 km, görsel H-0033-1.png'nin şikâyeti); kara üstü 61→0 km.
+  f:"1839-07-14", t:"1839-07-14",
+  rota:[[26.4,38.5],[25.935,38.655],[25.785,38.565],[25.965,37.425],[26.925,34.455],[29.92,31.2]],
+  yol:[[26.4,38.5],[29.92,31.20]] },
 { ad:"Girit İsyanı'nın başlaması (1866)", tur:"isyan", sonuc:"belirsiz", renk:"#6b2d8a",
   f:"1866-08-21", t:"1866-08-21", yol:[[24.02,35.51],[25.13,35.34]] },
 { ad:"Belgrad garnizonunun çekilmesi (1867)", tur:"cekilme", sonuc:"yenilgi",
