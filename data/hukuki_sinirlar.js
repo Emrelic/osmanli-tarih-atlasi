@@ -91,6 +91,16 @@ window.HUKUKI_SINIRLAR = [
     // ÇİZİLDİĞİ hâliyle yazıldı (taraflar[0]) — görünüm DEĞİŞMEDİ, yalnız
     // nokta_dizisi sırasına bağımlılık kalktı. Bkz. SEMA-C-0911.md.
     negatif_taraf: "osmanli",
+    // 🔴 23 Eylül 2026 — DOLGU KAPATILDI (H-0139), aynı sınıf. Ama bu kayıtta
+    // hüküm TEREDDÜTLÜ ve gerekçesi yazılmalı: buradaki dolgu GERÇEK BİLGİ
+    // taşıyordu — Midye-Enez, Londra Antlaşması'nın sınırıdır ve motor bu
+    // hattı bilmez. Kapatmak antlaşmanın toprak sonucunu haritadan düşürür.
+    // Tartı: kutunun kenarları Bulgaristan'ın İÇİNDEN ve denizden geçiyor,
+    // pencere ise yalnız 30 gün (1913-05-30 → 1913-06-29). Otuz günlük
+    // "eksik bilgi" bedeli, otuz günlük "yanlış görünüm" bedelinden küçük.
+    // ⚠️ KALICI ÇARE BU DEĞİL: tur:"poligon" + kıyı izleyen nokta_dizisi.
+    // Poligon dalı js/app.js:7346'da ZATEN ÇALIŞIYOR; eksik olan veri.
+    dolgu: false,
     kutu: { lat_min: 40.0, lat_max: 42.5, lon_min: 25.5, lon_max: 29.5 },
     dogal_sinir_gerekcesi: "Güney/batı: Ege kıyısı. Kuzey/doğu: Karadeniz kıyısı. M-3480 kuralına uygun.",
     sezgi_kapali: true,
@@ -191,6 +201,18 @@ window.HUKUKI_SINIRLAR = [
     // 🆕 13 Eylül 2026 — KITA 30/M-3758 + KITA 15/M-3770 (bkz. midye-enez
     // kaydındaki aynı not). Değer bugünkü çizimle (taraflar[0]) AYNI.
     negatif_taraf: "osmanli",
+    // 🔴 23 Eylül 2026 — DOLGU KAPATILDI. 15 Eylül'de karlofca-bosna-sava'ya
+    // uygulanan çarenin AYNISI; o gün sınıfa değil TEK KAYDA uygulanmıştı ve
+    // sekiz gün sonra aynı şikâyet üç kayıtla geri geldi (C12: değişikliğin
+    // sınırı dosyası değil BAĞLILARIDIR).
+    // Ölçüm (HARITA-0076, canlı motorda birebir üretildi): bu kutu Basra'nın
+    // üstüne kenarları coğrafyayla ilgisiz, eksen hizalı, TAM OPAK bir
+    // dikdörtgen basıyordu — pencere 1847-05-31 → 1923-10-29, yani 27.910 gün
+    // ≈ 76 YIL boyunca her gün. Emre kusuru İKİ AYRI fotoğrafta, 13 yıl
+    // arayla bildirdi (H-0096 1900 · H-0147 1913) ve "hâlâ devam ediyor,
+    // uzun süre bozuk gösteriliyor" dedi; pencere onu birebir doğruluyor.
+    // Hat (kesik çizgi) KALIYOR — kaldırılan yalnız dolgu.
+    dolgu: false,
     kutu: { lat_min: 28.5, lat_max: 31.5, lon_min: 46.5, lon_max: 49.0 },
     dogal_sinir_gerekcesi: "Güneydoğu: Basra Körfezi (doğal deniz sınırı). Kuzeybatı: Basra'nın kuzeyine yeterli pay.",
     sezgi_kapali: true,
