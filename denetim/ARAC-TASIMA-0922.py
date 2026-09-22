@@ -302,25 +302,37 @@ Get-CimInstance Win32_Process | ForEach-Object {
 
 
 def _sinifla(ad, cmd):
-    """Bir süreci TANI ve ne yapılacağını söyle."""
+    """Bir süreci TANI. Döndürdüğü üçüncü değer: betik KAPATABİLİR Mİ?
+
+    🔴 KAPATILABİLİR / KAPATILAMAZ AYRIMI BU BETİĞİN EN ÖNEMLİ KARARI.
+    Emre haklı olarak sordu: *"neden Claude Code bash pencerelerini
+    kapatacak kod yazmıyorsun, ne var ne yok kapatsın."* Cevap: yazıyorum
+    — ama HEPSİNİ değil, çünkü iki sınıf var ve karıştırılırsa zarar
+    geri alınamaz:
+      · KAPATILABİLİR: bizim sistemimizin parçası olan, öldürülmesi
+        hiçbir şey kaybettirmeyen süreçler (kutu · öksüz kabuk · bekçi ·
+        yerel sunucu). Bunlar zaten taşımadan sonra yeniden doğar.
+      · KAPATILAMAZ: KOŞU. Üretim sürüyorsa öldürmek 40 dakikayı ve
+        yarım bir çıktıyı çöpe atar — ve tam bu vaka bu projede YAŞANDI.
+        Onu betik ASLA öldürmez, DURUR ve söyler.
+    ⚠️ Tanınmayan süreç de kapatılmaz: bilmediğim bir şeyi öldürmek,
+      ölçmeden hüküm vermektir.
+    """
     c = (cmd or "").lower()
+    a = (ad or "").lower()
+    if "uret_petek" in c or "kos_ve_yayinla" in c or "zincir_baslat" in c:
+        return ("🔴 KOŞU SÜRÜYOR", "KOŞU BİTENE KADAR TAŞIMA YAPMA", False)
     if "kutu.py" in c or "emeklilik.py" in c or "ekran.py" in c:
-        return ("ClaudEmre kutu/nöbet programı",
-                "bunu SEN kapatma — `2-TASI.bat` kendisi durduracak")
-    if "bash.exe" in ad.lower() or "shell-snapshots" in c:
-        return ("Claude Code'un kabuğu",
-                "Claude Code'un BÜTÜN pencerelerini kapat")
-    if "sunucu.py" in c:
-        return ("yerel site sunucusu",
-                "site sunucusunu durdur (pencereyi kapat)")
+        return ("ClaudEmre kutu/nöbet programı", "betik durduracak", True)
     if "tahta_bekci" in c:
-        return ("tahta bekçisi",
-                "Claude Code'un BÜTÜN pencerelerini kapat")
-    if any(t in ad.lower() for t in ("chrome", "msedge", "firefox")):
-        return ("tarayıcı", "yerel siteyi açan tarayıcı sekmesini kapat")
-    if "uret_petek" in c or "kos_ve_yayinla" in c:
-        return ("🔴 KOŞU SÜRÜYOR", "KOŞU BİTENE KADAR TAŞIMA YAPMA")
-    return ("(tanınmadı — elle bak)", "bu süreci elle kapat: PID yukarıda")
+        return ("tahta bekçisi (sahipsiz)", "betik durduracak", True)
+    if "sunucu.py" in c:
+        return ("yerel site sunucusu", "betik durduracak", True)
+    if "bash.exe" in a or "shell-snapshots" in c:
+        return ("Claude Code kabuğu", "betik durduracak", True)
+    if "claude.exe" in a:
+        return ("Claude Code", "betik kapatacak", True)
+    return ("(TANINMADI — elle bak)", "bu süreci ELLE kapat", False)
 
 
 def _tutan_surecler(yaz):
@@ -377,9 +389,111 @@ def _tutan_surecler(yaz):
         if not (("TAR" in c and "RAFYA" in c) or "ClaudEmre" in c
                 or "claudemre" in c.lower()):
             continue
-        sinif, care = _sinifla(ad, c)
-        tutan.append((pid, ad, c, sinif, care))
+        sinif, care, kapatilir = _sinifla(ad, c)
+        tutan.append((pid, ad, c, sinif, care, kapatilir))
     return sorted(tutan)
+
+
+# ══════════════════════════════════════════════════════════════════
+# ⓪b ENGELLERİ KAPAT — betik kendi kapatıyor
+#
+# Emre: *"yaa neden Claude Code bash ve explorer browser pencerelerini
+# kapatacak kod yazmıyorsun, prova çalışmaya başladığında ne var ne yok
+# kapatsın."* Haklı: kullanıcıya PID avlatmak bir arayüz değil bir ceza.
+#
+# 🔴 AMA ÖNCE BİR ÖLÇÜM, ÇÜNKÜ TEŞHİS BAŞKAYDI: engel görünen iki
+#   `bash.exe`in ATASI ZATEN ÖLMÜŞTÜ (PID 2532 → ata 19260 = YOK).
+#   Yani onlar Emre'nin AÇIK Claude'u değildi; kapattığı bir oturumdan
+#   ARTA KALMIŞ ÖKSÜZLERDİ. Bu yüzden Claude'u kapatmak onları
+#   temizlemiyordu ve kullanıcı haklı olarak "daha ne kapatayım"
+#   diyordu. Kapatılacak şey kapatılamıyordu, çünkü zaten kapatılmıştı.
+#   📌 Ders: kullanıcıya "şunu kapat" demeden önce o şeyin GERÇEKTEN
+#     açık olup olmadığı ölçülür. Yanlış talimat, talimatsızlıktan kötüdür.
+#
+# ⚠️ ÜÇ SINIRI VAR ve üçü de kasıtlı:
+#  ① PROVADA ÇALIŞMAZ. "Hiçbir şeye dokunmaz" sözü bir programı
+#    öldürmeyi de kapsar. Prova yalnız neyin kapatılacağını SÖYLER.
+#  ② KOŞUYU ASLA ÖLDÜRMEZ. Üretim sürüyorsa 40 dakika ve yarım bir
+#    çıktı çöpe gider — bu projede yaşanmış bir vaka. Durur ve söyler.
+#  ③ KENDİ ATASI CLAUDE İSE Claude'u öldürmez: betik Claude'un
+#    terminalinden koşturulmuşsa kendi dalını keser ve taşıma yarıda
+#    kalır. O hâlde ayrı bir PowerShell'den koşturulması istenir.
+# ══════════════════════════════════════════════════════════════════
+_PS_OLDUR = ('$ErrorActionPreference="SilentlyContinue"\r\n'
+             'foreach ($p in $args) {\r\n'
+             '  $x = Get-Process -Id $p -ErrorAction SilentlyContinue\r\n'
+             '  if (-not $x) { "YOK`t$p"; continue }\r\n'
+             '  try { $null = $x.CloseMainWindow() } catch { }\r\n'
+             '  Start-Sleep -Milliseconds 400\r\n'
+             '  $x = Get-Process -Id $p -ErrorAction SilentlyContinue\r\n'
+             '  if ($x) { try { Stop-Process -Id $p -Force -ErrorAction Stop; "ZORLA`t$p" }\r\n'
+             '            catch { "HATA`t$p`t$($_.Exception.Message)" } }\r\n'
+             '  else { "NAZIK`t$p" }\r\n'
+             '}\r\n')
+
+
+def _claude_atam_mi():
+    """Betiğin kendisi Claude'un terminalinden mi koşuyor?"""
+    try:
+        p = subprocess.run(
+            ["powershell", "-NoProfile", "-Command",
+             "$p=$PID; for($i=0;$i -lt 12;$i++){ $x=Get-CimInstance Win32_Process "
+             "-Filter \"ProcessId=$p\"; if(-not $x){break}; $x.Name; $p=$x.ParentProcessId }"],
+            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=60)
+        return "claude.exe" in (p.stdout or "").lower()
+    except Exception:
+        return False
+
+
+def engelleri_kapat(tutan):
+    """Kapatılabilir engelleri kapatır. (kalan, kapatilan) döner."""
+    kapatilabilir = [t for t in tutan if t[5]]
+    kapatilamaz = [t for t in tutan if not t[5]]
+    if not kapatilabilir:
+        return kapatilamaz, 0
+
+    claude_var = any("claude" in t[3].lower() for t in kapatilabilir)
+    if claude_var and _claude_atam_mi():
+        yaz("  🔴 BU BETİK CLAUDE'UN TERMİNALİNDEN KOŞUYOR.")
+        yaz("     Claude'u kapatsam kendi dalımı keserim ve taşıma YARIDA kalır.")
+        yaz("     ⇒ Bu pencereyi kapat, AYRI bir PowerShell aç ve oradan koştur.")
+        return tutan, 0
+
+    ps1 = os.path.join(os.path.dirname(GUNLUK), "_oldur.ps1")
+    pidler = [str(t[0]) for t in kapatilabilir]
+    try:
+        os.makedirs(os.path.dirname(ps1), exist_ok=True)
+        with io.open(ps1, "w", encoding="utf-8-sig", newline="") as f:
+            f.write(_PS_OLDUR)
+        p = subprocess.run(
+            ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ps1]
+            + pidler,
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=180)
+        sonuc = {}
+        for s in (p.stdout or "").splitlines():
+            d = s.strip().split("\t")
+            if len(d) >= 2:
+                sonuc[d[1]] = d[0]
+    except Exception as e:
+        yaz("  ✗ kapatma başarısız: %s" % e)
+        return tutan, 0
+    finally:
+        try:
+            os.remove(ps1)
+        except Exception:
+            pass
+
+    n = 0
+    for t in kapatilabilir:
+        d = sonuc.get(str(t[0]), "?")
+        isim = {"NAZIK": "kapatıldı", "ZORLA": "kapatıldı (zorla)",
+                "YOK": "zaten yoktu"}.get(d, "KAPATILAMADI")
+        if d in ("NAZIK", "ZORLA", "YOK"):
+            n += 1
+        yaz("      %-6s %-14s %-26s %s" % (t[0], t[1], t[3], isim))
+    time.sleep(2.5)                 # tutamaçlar serbest kalsın
+    return kapatilamaz, n
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -398,49 +512,6 @@ def _tutan_surecler(yaz):
 # 📌 PROVADA DURDURMAZ, yalnız söyler — prova hiçbir şeye dokunmaz sözü
 #   bir programı öldürmeyi de kapsar.
 # ══════════════════════════════════════════════════════════════════
-def kutuyu_durdur():
-    ps1 = os.path.join(os.path.dirname(GUNLUK), "_kutu.ps1")
-    betik = ("$ErrorActionPreference='SilentlyContinue'\r\n"
-             "Get-CimInstance Win32_Process | Where-Object {\r\n"
-             "  $_.CommandLine -match 'kutu\\.py|emeklilik\\.py|ekran\\.py'\r\n"
-             "} | ForEach-Object {\r\n"
-             "  \"$($_.ProcessId)`t$($_.Name)\"\r\n"
-             "  if ($env:TASIMA_KIP -eq 'yap') { Stop-Process -Id $_.ProcessId -Force }\r\n"
-             "}\r\n")
-    try:
-        os.makedirs(os.path.dirname(ps1), exist_ok=True)
-        with io.open(ps1, "w", encoding="utf-8-sig", newline="") as f:
-            f.write(betik)
-        ort = dict(os.environ)
-        ort["TASIMA_KIP"] = "prova" if PROVA else "yap"
-        p = subprocess.run(
-            ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ps1],
-            capture_output=True, text=True, encoding="utf-8", errors="replace",
-            timeout=90, env=ort)
-        satir = [s.strip() for s in (p.stdout or "").splitlines() if s.strip()]
-    except Exception as e:
-        yaz("⓪ ClaudEmre kutusu durdurulamadı (%s) — elle kapat" % e)
-        return
-    finally:
-        try:
-            os.remove(ps1)
-        except Exception:
-            pass
-    if not satir:
-        return
-    yaz("═" * 66)
-    yaz("⓪ CLAUDEMRE KUTUSU")
-    yaz("═" * 66)
-    for s in satir:
-        d = s.split("\t")
-        yaz("  %-6s %-14s %s" % (d[0], d[1] if len(d) > 1 else "",
-                                 "(prova — durdurulmadı)" if PROVA else "durduruldu ✓"))
-    if PROVA:
-        yaz("  ⓘ Bunlar arka planda çalışır, PENCERELERİ YOKTUR — Claude'u")
-        yaz("    kapatmak onları kapatmaz. `2-TASI.bat` kendisi durduracak.")
-    else:
-        yaz("  ✓ kutu durduruldu — taşımadan sonra yeni yolunda yeniden açılır")
-    yaz("")
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -535,42 +606,47 @@ def on_sinav():
         # ⚠️ ÖLÇÜLEMEDİ ≠ TEMİZ. Tarama koşmadıysa "süreç yok" diyemeyiz;
         #    taşıma açık dosyaların üstünde koşarsa yarıda kalır.
         tamam = False
-    # 🔴 KUTU SÜREÇLERİ ENGEL SAYILMAZ — ⓪ adımı onları `--yap`ta kendisi
-    #   durduruyor. Sayılsaydı prova ASLA yeşile dönmezdi: prova hiçbir
-    #   şeye dokunmuyor, dolayısıyla kutuyu da durdurmuyor; ama ön sınav
-    #   onu engel sayınca kullanıcı "HER ŞEY HAZIR" satırını HİÇ
-    #   göremezdi. Bir kapının, kendi çözdüğü şeyi engel sayması
-    #   kilitlenmedir.
-    #   ⚠️ Yine de GÖRÜNÜYOR — gizlemek başka, engel saymamak başka.
-    kutu = [t for t in (tutan or []) if "kutu" in t[3].lower()]
-    if tutan:
-        tutan = [t for t in tutan if t not in kutu]
-    if kutu and not tutan:
-        yaz("  ✓ klasörü tutan ENGEL yok")
-        yaz("      (%d kutu süreci var ama ⓪ adımı onları kendisi durduracak)"
-            % len(kutu))
-    elif tutan:
-        if kutu:
-            yaz("  ⓘ %d kutu süreci ⓪ adımında durdurulacak — engel SAYILMADI"
-                % len(kutu))
-        yaz("  ✗ KLASÖRÜ TUTAN %d SÜREÇ VAR — taşıma başarısız olur:" % len(tutan))
-        # 🔴 HER SÜRECİN NE OLDUĞU VE NE YAPILACAĞI YAZILIYOR.
-        #    Eski hâli yalnız "2532 bash.exe" basıyordu — kullanıcı için
-        #    bu bir bilgi değil bir bilmece. Neyi kapatacağını bilmeden
-        #    listeye bakmak, listeye hiç bakmamakla aynıdır.
-        ne_yap = set()
-        for pid, ad, cmd, sinif, care in tutan[:14]:
-            yaz("      %-6s %-14s %s" % (pid, ad, sinif))
-            ne_yap.add(care)
-        if len(tutan) > 14:
-            yaz("      … %d süreç daha" % (len(tutan) - 14))
-        yaz("")
-        yaz("    ⇒ YAPILACAK:")
-        for c in sorted(ne_yap):
-            yaz("        · %s" % c)
-        tamam = False
-    else:
+    elif not tutan:
         yaz("  ✓ klasörü tutan süreç yok")
+    else:
+        kapatilir = [t for t in tutan if t[5]]
+        kapatilmaz = [t for t in tutan if not t[5]]
+        if PROVA:
+            # 🔴 PROVA KAPATMAZ ve KAPATABİLECEKLERİNİ ENGEL SAYMAZ.
+            #   Saysaydı prova ASLA yeşile dönmezdi: dokunmadığı için
+            #   engeli kaldıramaz, ama engel saydığı için de "HAZIR"
+            #   diyemezdi. Kendi çözdüğü şeyi engel sayan kapı,
+            #   kilitlenmedir.
+            if kapatilir:
+                yaz("  ⓘ %d süreç BETİK TARAFINDAN kapatılacak — engel SAYILMADI:"
+                    % len(kapatilir))
+                for t in kapatilir[:10]:
+                    yaz("      %-6s %-14s %s" % (t[0], t[1], t[3]))
+                if len(kapatilir) > 10:
+                    yaz("      … %d süreç daha" % (len(kapatilir) - 10))
+        else:
+            yaz("  ⓘ %d süreç kapatılıyor…" % len(kapatilir))
+            kalan_kapatilamaz, n = engelleri_kapat(tutan)
+            yaz("      → %d süreç kapatıldı" % n)
+            # kapatma sonrası YENİDEN ÖLÇ — beyana değil ölçüme bak
+            tekrar = _tutan_surecler(yaz)
+            kapatilmaz = tekrar if tekrar is not None else kalan_kapatilamaz
+        if kapatilmaz:
+            yaz("  ✗ KAPATILAMAYAN %d SÜREÇ VAR — taşıma başarısız olur:"
+                % len(kapatilmaz))
+            ne_yap = set()
+            for t in kapatilmaz[:14]:
+                yaz("      %-6s %-14s %s" % (t[0], t[1], t[3]))
+                ne_yap.add(t[4])
+            if len(kapatilmaz) > 14:
+                yaz("      … %d süreç daha" % (len(kapatilmaz) - 14))
+            yaz("")
+            yaz("    ⇒ YAPILACAK:")
+            for c in sorted(ne_yap):
+                yaz("        · %s" % c)
+            tamam = False
+        else:
+            yaz("  ✓ kapatılamayan süreç YOK")
 
     try:
         kod, out, _ = ps("(Get-Process OneDrive -ErrorAction SilentlyContinue "
@@ -965,7 +1041,9 @@ def main():
     yaz("TAŞIMA %s" % ("PROVASI — hiçbir şeye dokunulmuyor" if PROVA else "— GERÇEK"))
     yaz("")
 
-    kutuyu_durdur()
+    # ⓪ artık ayrı bir adım DEĞİL: kutu da öteki engeller gibi ön sınavın
+    #    içinde, `engelleri_kapat` tarafından kapatılıyor. İki ayrı yerde
+    #    iki ayrı kapatma mantığı tutmak, ikisinin ayrışmasını beklemekti.
     gecti = on_sinav()
     # 🔴 PROVA ENGELDE DURMAZ, DEVAM EDER — ve sebebi ölçüldü: ilk hâlinde
     #   duruyordu, dolayısıyla ③ · ③b · ③c bölümleri HİÇ KOŞMUYORDU. Yani
