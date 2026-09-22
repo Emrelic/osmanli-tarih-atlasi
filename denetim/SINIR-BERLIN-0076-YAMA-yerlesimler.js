@@ -289,3 +289,55 @@
 //   varlığı ölçüldü.
 // · A7'nin 1913-05-14 günü için TDV aranmadı (aranmadı ≠ bulunamadı).
 // · Petek geometrisi (km²) ölçülmedi — koşu gerektirir.
+
+
+// =====================================================================
+// C SINIFI — BERLİN'İN DOĞU HÜKMÜ · 🔴 HÜKÜM: olculecek, YAMA YAZILMADI
+// =====================================================================
+// Bu kalem bana EKOKUMA-0076-B'nin yatay ölçümüyle geldi (tahta M-5051).
+// Ölçtüm; sonuç bir YAMA DEĞİL, bir ÖLÇÜM TALEBİDİR.
+//
+// TDV BERLİN ANTLAŞMASI gövdesi, aynen: "Osmanlı Devleti Kars, Ardahan ve
+// Batum'u harp tazminatının bir kısmına karşılık olmak üzere Rusya'ya
+// bırakacak, Doğubayazıt ve Eleşkirt vadisi kendisinde kalacaktı. KOTUR
+// İSE İRAN'A VERİLECEKTİ."
+//
+// ── C1 · Hükmün üç yerinden İKİSİ atlasta HİÇ YOK ────────────────────
+//   Doğubayazıt  → bulunamadı   (süzgeç ateşleme sınavı GEÇTİ ⇒ SONUÇ)
+//   Eleşkirt     → bulunamadı   (aynı)
+// ⇒ Berlin'in doğu hükmü haritada YAPI GEREĞİ doğrulanamıyor: hükmün
+//   "Osmanlı'da kalacak" dediği iki yerin noktası yok.
+//
+// ── C2 · Kotur VAR ama Berlin hükmü GÖRÜNMEZ ─────────────────────────
+// yerlesimler_ek_ferhadpasa.js · Kotur (38.475, 44.396)
+// ÖLÇÜM: s:[kacar 1794-01-01 .. 1923-10-29] — KESİNTİSİZ.
+//   Son Osmanlı dönemi d:[1548-08-24 .. 1639-05-17] (Kasr-ı Şirin).
+// ⇒ 1878'de bir devir YOK. Antlaşma bir toprak devri hükmediyor, harita
+//   hiçbir kırılma göstermiyor. Bu, Değişmez 2'nin AYNADAKİ HÂLİ: orada
+//   "maddesi olmayan kırılma" yasaktı, burada "kırılması olmayan madde" var.
+//
+// 🔴 YAMA YAZMADIM — SEBEBİ KAYNAK, TEREDDÜT DEĞİL:
+//   ① TDV'de müstakil KOTUR maddesi YOK (slug ölü, gövde aramasında yedi
+//      eşleşme; D217 gereği kapsayıcı madde MÂKÛ okundu).
+//   ② TDV KENDİ İÇİNDE ÇELİŞİYOR, ve bunu bildiriyorum (§4 ⑥):
+//      · BERLİN ANTLAŞMASI: Kotur İran'a verilecekti ⇒ 1878'de Osmanlı'da
+//        ya da Osmanlı iddiasında (elinde olmayan yer devredilemez)
+//      · VAN: Kotur "Van eyaleti bünyesinde devamlılığı olan sancaklar"
+//        arasında — ama bu bir EYALET YAPISI cümlesidir, XIX. yüzyıl
+//        tasarrufunu TARİHLEMİYOR (D211 ⑧: cümlenin neyi tarihlediği okunur)
+//      · MÂKÛ: "Kotur ve Mâkû, IV. Murad'ın ölümünden sonra İranlılar
+//        tarafından tekrar işgal edildi" (1640 sonrası) — XIX. yüzyıl için
+//        hiçbir şey söylemiyor
+//   ③ 1849-1878 arası idarenin ve devrin GÜNÜ bulunamadı. Gün ölçülmeden
+//      dönem yazılırsa tarih UYDURULMUŞ olur; yıl da bilinmiyorsa yazılmaz
+//      (D210).
+//
+// ⚠️ TERS YÖN (D206) — ÖLÇTÜM, ve düzeltme yapılacaksa şart:
+//   Mâku (39.294, 44.514) ve Hoy (38.550, 44.952) de s:[kacar 1794..1923].
+//   Kotur'u Osmanlı yapmak onu 45-90 km ötedeki iki Kaçar noktası arasına
+//   sıkıştırır; aradaki boşluk en yakın peteğe emilir ve hata öbür tarafa
+//   taşınabilir. İki uç BİRLİKTE ölçülmeden dokunulmaz.
+//
+// ⇒ HÜKÜM: olculecek. Gereken üç ölçüm: ① Kotur'un 1849-1880 arası idaresi
+//   için akademik kaynak (TDV kesmiyor) ② devrin günü ③ Doğubayazıt ve
+//   Eleşkirt için nokta + koordinat + kaynak. Üçü olmadan yama yazılamaz.
