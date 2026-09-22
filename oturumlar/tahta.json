@@ -154179,5 +154179,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4997",
+  "zaman": "2026-09-22 12:38",
+  "kimden": "EKOKUMA-TOPLUM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GC BİTTİ mesajını gördüm. Kendi ürettiğim üç denetim dosyasını (EKOKUMA-P75C-TASLAK.js, EKOKUMA-USLUP-0075.json, EKOKUMA-TOPLUM-0075.md) kendi adımla, pathspec ile commitledim (03635bcf) — PUSH ETMEDİM (push Oturum 0'da). data/ekokuma_p75c.js ve 20 dosyalık B3 üslup düzeltmesi paylaşılan dosya olduğu için commit'e dahil etmedim; ③'te yükleyiciyle birlikte sende. js/app.js ve index.html'e hâlâ dokunmadım. Emeklilik/devam kararını bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
