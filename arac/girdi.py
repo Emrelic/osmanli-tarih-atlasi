@@ -659,7 +659,8 @@ GIRDI_DOSYALARI = [
     # Ölçüldü: ok107 `kaynak:"vadilkura"` taşıyor (ok102'de kaynak YOK,
     # `§4` kırmızı çizgisi), ok102 ise `m:"Medine"` ve `g:` taşıyor.
     # ⇒ Doğrusu bir BİRLEŞME ve sahiplerinin işi; parti onları beklemedi.
-    # 🔜 `yerlesimler_ok102.js` · `yerlesimler_ok107.js` — çözülünce bağlanır.
+    # 🔜 `bekleyen_yerlesim_ok102.js` · `yerlesimler_ok107.js` — çözülünce
+    #    bağlanır; ok102 o an `yerlesimler_ok102.js` adına GERİ döner.
     # 🔴🔴 BU ALTI SATIR 2 EYLÜL 10:5x'te EKLENDİ VE 11:0x'te GERİ ALINDI.
     #   Yayın kapısı (`denetle_yayin.py`) durdurdu ve HAKLIYDI:
     #     "✗ YAYIN BAYAT — üretim girdiden geride (girdi DOSYA KÜMESİ
@@ -711,7 +712,10 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ortaasya3.js",       # 22 nokta · Yedisu · Kazak bozkırı ·
                                       # Doğu Türkistan (ORTAASYA-0902)
     "yerlesimler_ok107.js",           # 21 nokta · Orta Asya · Cizre-Midyat
-    # 🔴 `yerlesimler_ok102.js` BAĞLANMADI — ön sınav 2 KIRMIZI verdi:
+    # 🔴 `bekleyen_yerlesim_ok102.js` (eski adı `yerlesimler_ok102.js`;
+    #    22 Eylül 2026'da yayın kapısının "ADI YANILTAN DOSYA" uyarısı
+    #    üzerine yeniden adlandırıldı — ad, taşımadığı bir şeyi vaat
+    #    ediyordu) BAĞLANMADI — ön sınav 2 KIRMIZI verdi:
     #   ad çakışması: "Medâin-i Sâlih (el-Hicr)" · "el-Ulâ" BAĞLI EVRENDE VAR
     #   3 km: el-Ulâ → el-Ulâ  0,04 km
     #   ⇒ `yukle()` ad çakışmasında ValueError ATAR ve MOTOR HİÇ BAŞLAMAZ.

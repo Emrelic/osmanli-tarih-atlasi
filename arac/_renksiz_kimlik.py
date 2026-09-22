@@ -48,7 +48,7 @@ def cizilir(kimlik):
 
 print("BOYALAR: %d  |  `harita:` alani olan kunye: %d" % (len(BOYALI), len(_harita)))
 
-KUYRUK = ["yerlesimler_ok101.js", "yerlesimler_ok102.js", "yerlesimler_ok104.js",
+KUYRUK = ["yerlesimler_ok101.js", "bekleyen_yerlesim_ok102.js", "yerlesimler_ok104.js",
           "yerlesimler_ok106.js", "yerlesimler_ok107.js", "yerlesimler_ok109.js",
           "yerlesimler_ok110.js", "yerlesimler_p0037.js"]
 

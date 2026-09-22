@@ -6,10 +6,33 @@
 // ⚠️ HENÜZ CANLI DEĞİL — `arac/girdi.py` GIRDI_DOSYALARI'na EKLENMEDİ.
 //    Bağlamayı KOORDİNATÖR yapar; koşu 1 Eylül 22:51'de başladı ve girdi
 //    kilitli. Bu dosya bağlı DEĞİL, koşan üretimi bozmaz.
-// 🔴 AD ALANI DOSYA ADINDAN TÜRETİLDİ: data/yerlesimler_ok102.js →
-//    window.YERLESIMLER_OK102 (CLAUDE.md §7: "ayrı dosya vermek, ayrı ad
-//    alanı vermek değildir" — 16 Ağustos'ta beş dosya tek ad kullandı ve
-//    400 kayıt görünmez olacaktı).
+// 🔴 AD ALANI DOSYA ADINDAN TÜRETİLDİ: data/bekleyen_yerlesim_ok102.js →
+//    window.BEKLEYEN_YERLESIM_OK102 (CLAUDE.md §7: "ayrı dosya vermek,
+//    ayrı ad alanı vermek değildir" — 16 Ağustos'ta beş dosya tek ad
+//    kullandı ve 400 kayıt görünmez olacaktı).
+//
+// 🔴🔴 22 EYLÜL 2026 — DOSYA YENİDEN ADLANDIRILDI, İÇERİĞİ DEĞİŞMEDİ.
+//    Eski ad: `yerlesimler_ok102.js`. Yayın kapısı (`_bagli_mi.py` ⑥,
+//    "ADI YANILTAN DOSYA") bunu haklı olarak uyarıyordu: bu projede
+//    `yerlesimler*.js` adı "MOTORUN OKUDUĞU yerleşim girdisi" demektir,
+//    oysa `girdi.py` bu dosyayı OKUMUYOR ve okuyamaz (aşağıdaki iki
+//    kırmızı). Yani ad, taşımadığı bir şeyi vaat ediyordu.
+//    ⇒ Vakası kayıtlı: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı,
+//      adı yüzünden AYLARCA "bağlı" sanıldı, 19 kaydın 19'u da inmedi.
+//    ⚠️ Yeni ad bir HÜKÜM DEĞİL bir BEYANDIR: "bu dosya bekliyor".
+//      Bağlanabilir hâle geldiğinde (aşağıdaki mükerrer çözülünce) adı
+//      `yerlesimler_ok102.js`e GERİ döner ve AYNI commit'te `girdi.py`ye
+//      eklenir — doğru an, bir sonraki koşu BAŞLAMADAN hemen öncesidir.
+//
+// ── BAĞLANAMAMASININ SEBEBİ (ön sınav 2 KIRMIZI) ────────────────────
+//    ad çakışması : "Medâin-i Sâlih (el-Hicr)" · "el-Ulâ" BAĞLI EVRENDE VAR
+//    3 km sınavı  : el-Ulâ → el-Ulâ  0,04 km (ok107'deki "Ulâ (el-Ulâ)")
+//    ⇒ `yukle()` ad çakışmasında ValueError ATAR ve MOTOR HİÇ BAŞLAMAZ.
+//      Bağlansaydı koşu daha ilk saniyede ölürdü.
+//    ⇒ Üç noktadan yalnız `Müdevvere` gerçekten YENİ. Öteki ikisi bir
+//      BİRLEŞME işidir ve sahiplerinin (ok102 ↔ ok107) kararıdır:
+//      ok107 `kaynak:"vadilkura"` taşıyor, ok102'de kaynak YOK (`§4`
+//      kırmızı çizgisi); ok102 ise `m:"Medine"` ve `g:` taşıyor.
 //
 // ── ŞİKÂYET ─────────────────────────────────────────────────────────
 // Emre (H-0055, ekran görüntüsü 25 Ağustos 2026 15:51):
@@ -87,7 +110,7 @@
 //   bütün Şam hac yolu menzillerine 1805-1812 yazılmalı mı?").
 // =====================================================================
 
-window.YERLESIMLER_OK102 = [
+window.BEKLEYEN_YERLESIM_OK102 = [
 
 // Müdevvere — Şam hac yolunun Maan ile Tebük arasındaki menzili; Hicaz
 // demiryolunun 1905'te ulaştığı durak (TDV `hicaz-demiryolu`).

@@ -888,7 +888,7 @@ def main():
         "data/yerlesimler_ok109.js":     "2 nokta (İmâdiye · Şırnak) — yayın sonrası",
         "data/yerlesimler_ok110.js":     "1 nokta (Darende) — yayın sonrası",
         "data/yerlesimler_p0037.js":     "15 nokta (Bolgrad · Kahul · Zamość) — yayın sonrası",
-        "data/yerlesimler_ok102.js":     "3 nokta — AYRICA `el-Ulâ` mükerreri (ok107 ile 100 m), önce birleşme",
+        "data/bekleyen_yerlesim_ok102.js": "3 nokta — AYRICA `el-Ulâ` mükerreri (ok107 ile 100 m), önce birleşme",
         "data/yerlesimler_ok107.js":     "14 nokta — AYRICA `Ulâ (el-Ulâ)` mükerreri (ok102 ile 100 m), önce birleşme",
 
         # ══ 2 EYLÜL GECESİ DOĞAN ÇALIŞMA DOSYALARI ══
