@@ -1,0 +1,7 @@
+kronoloji maddesi: 6670 · tekil yerlesim donem baslangici: 2000
+SISAM 1912-03-13 -> 1912-11-11
+  eski konumun kapsayip yeninin kapsamadigi kirilma gunu: 2
+    1912-02-12  -> baska 3 madde koruyor (ornek: Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'n)
+    1912-03-13  -> baska 6 madde koruyor (ornek: Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'n)
+  BASKA MADDE ILE KORUNMAYAN (gercek risk): 0
+  yeni konumun +-30 gun komsulugundaki kronoloji maddesi: 11

@@ -1,0 +1,75 @@
+{
+  "_not": "KRONO-0076-C'nin 17 maddelik dilimi. Parti klasöründe CEVAP.json HENÜZ YOK; sekiz oturum aynı dosyaya yazarsa çakışır diye kendi dilimim ayrı yazıldı — koordinatör parti CEVAP.json'una birleştirir.",
+  "_oturum": "KRONO-0076-C",
+  "cevap_tarihi": "2026-09-23",
+  "maddeler": {
+    "H-0117": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kronoloji karşılığı VAR: 1910-04-01, \"Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş\". Talep ek okumaydı; kart yazıldı: \"Arnavutlar ve Boşnaklar niçin İslâm'ı seçti, Sırplar ve Bulgarlar niçin seçmedi?\" Dayanak TDV «Arnavutluk» gövdesi: XV. yüzyıl boyunca hıristiyanlara timar verilmesi, ihtidâların artışı, en az otuz iki Arnavut asıllı sadrazam, kapıkulundaki ağırlık. BULUNAMADI: 1910 isyanının ayrıntılı seyri (ay/gün, cephe) TDV «Arnavutluk» maddesinde YOK — kartta da iddia edilmedi. Bosna Kilisesi tezi tartışmalı olarak anıldı, hüküm verilmedi. ⚠️ Kaydın `gun:` alanı yıl (\"1910\") derken `t:` Nisan iddia ediyor — hassasiyet çelişkisi, kaynak bulunamadığı için DOKUNULMADI."
+    },
+    "H-0119": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — iki kayıt: olaylar.js t:\"1911-09\" ve kronoloji_italya.js t:\"1911-09-29\". Kart yazıldı: İtalya'nın saldırı amacı ve Libya'nın niçin sona kaldığı (TDV «Trablusgarp Savaşı»: Berlin 1878'de paydan mahrumiyet, hedefin Tunus-Cezayir arasındaki vilâyet oluşu, 'medeniyet götürme' söylemi, Yemen'deki kuvvet bağlılığı). AYRICA İKİ KUSUR BULUNDU: ① olaylar.js kaydı AY hassasiyetli (CLAUDE.md §8 ihlali) hâlbuki günü biliniyor → yama. ② kronoloji_italya.js kaydının `kaynak:` alanı atlasın kendini (data/devletler.js) kaynak göstermesi ve KOORDİNATÖRE AÇIK BIRAKILMIŞ bir kaynak çelişkisi taşıyordu; çelişki YANLIŞ SLUG'dan doğmuş (TDV `trablusgarp` = yer maddesi). Doğru madde `trablusgarp-savasi` çekildi, gövde AYNEN \"29 Eylül'de ilân edilen savaş\" diyor ⇒ ÇELİŞKİ KAPANDI, tarih doğruymuş, yalnız kaynak düzeliyor."
+    },
+    "H-0122": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek9.js t:\"1911-10-09\", ve TDV bu günü doğruluyor (\"Trablusgarp şehri 9 Ekim'de teslim olmak zorunda kaldı\"). Kart yazıldı: Trablus, Bingazi, Derne, Tobruk'taki mücadele — TDV'den işgal tarihleri (Tobruk 8, Trablusgarp 9, Derne 16, Bingazi 21 Ekim 1911), Yemen'deki kuvvet bağlılığı, İngiltere ve Fransa'nın Mısır-Tunus geçişini engellemesi, Enver Bey'in 1 Aralık 1911'de gelişi, Şeyh Ahmed Şerîf ve Süleyman el-Bârûnî, İtalyanların 1915'te bile yalnız sahili denetleyebilmesi, 18 Ekim 1912 Uşi. NOT: kronoloji_italya.js'te t:\"1911-10-05\" \"Trablus'un işgali\" kaydı var ve kaynağı \"bulunamadı\"; TDV'nin 9 Ekim'i TESLİMİ tarihlendirdiği, o kaydın ise ÇIKARMAYI anlattığı ölçüldü ⇒ iki ayrı olgu, tarihe DOKUNULMADI."
+    },
+    "H-0124": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek6.js t:\"1912-03-13\", gun:\"1912\". Kart yazıldı: Sisam'ın özerk emâret düzeni (TDV «Sisam»: 10 Aralık 1832 özerklik ve vasal prenslik, 1834-1913 Ortodoks vali, 1850'de otuz yedi sonra kırk üyeli meclis). 🔴 VE BİR TARİH KUSURU BULUNDU: kaydın günü (13 Mart 1912) KAYNAKTAN DEĞİL, atlasın kendi haritasından geliyor — yerlesimler.js'te Sisam'ın vassal dönemi tam o gün bitip Yunan dönemi başlıyor; üstelik 1912-03-13 veride ZATEN Sırp-Bulgar İttifak Antlaşması'nın günü. TDV «Sisam» AYNEN: \"Balkan savaşları sonunda Sisam adası Yunanistan ile birleşti (11 Kasım 1912)\" ve idarenin 1913'e kadar sürdüğünü söylüyor. Yama hazırlandı (kronoloji + yerleşim AYNI güne, 11 Kasım 1912). Ters yön sınavı yapıldı: açıkta kalan kırılma 0. Uygulanırsa petek koşusu gerekir."
+    },
+    "H-0125": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek6.js t:\"1912-05-12\". Kart yazıldı ve Emre'nin saydığı soruların çoğu TDV «Oniki Ada» gövdesinden cevaplandı: on iki adanın ADLARI tek tek, 1522 Kanûnî fethi, 28 Nisan - 20 Mayıs 1912 arasında on altı adanın işgali, Uşi'nin boşaltma şartı ve İtalyanların AYNEN \"Osmanlı askerinin Trablusgarp'tan çekilmediğini ileri sürerek\" tahliye etmemesi, 24 Temmuz 1923 Lozan, 10 Şubat 1947 Paris ile Yunanistan'a devir. BULUNAMADI (kartta da iddia edilmedi): Osmanlı dönemi nüfus oranları; ve İkinci Dünya Savaşı'nda adaların Türkiye'ye teklif edildiği / İnönü'nün reddettiği iddiası — bu kaynakta YOK, ayrı kaynak gerekir, doğru sayılmadı."
+    },
+    "H-0127": {
+      "hukum": "cozulemedi",
+      "not": "DENENDİ, OLMADI. Çapa VAR (olaylar_ek6.js t:\"1912-07-17\", \"Nikarya'nın bağımsızlık ilanı\") ama KAYNAK YOK: TDV'de `ikarya` ve `nikarya` maddesi bulunamadı (site araması 23 Eylül 2026 — \"sonuç yok\"), ada TDV «Oniki Ada» maddesinde sayılan on iki adanın arasında da GEÇMEZ. Kaynaksız kart yazmak §4'e aykırı olduğu için kart ÜRETİLMEDİ. 🔴 Bunun yerine bir ÇELİŞKİ ölçüldü ve rapora yazıldı: yerlesimler.js Nikarya'yı 17 Temmuz 1912'den itibaren YUNAN İŞGALİ gösteriyor (isg:, kaynak:\"oniki-ada\" — ada o maddede geçmediği hâlde), atlasın kendi kronolojisi ise aynı gün için beş ay süren bağımsız bir 'serbest devlet' anlatıyor. İki katman aynı anda doğru olamaz; akademik kaynak gerekir. Veriye DOKUNULMADI."
+    },
+    "H-0128": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek10.js t:\"1912-10-08\". Kart yazıldı: Balkan bozgununun sebepleri — TDV «Balkan Savaşı» gövdesinden AYNEN \"Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı\", yüz yirmi tâlimli taburun terhisi, ittifaklardan habersizlik; Selânik 23-24 Ekim 1912'de direnişsiz düştü ve Tahsin Paşa AYNEN \"35.000 kişilik ordusu ile Selânik'te Yunanlılar'a teslim oldu\". Emre'nin 'kurşun atmadan teslim' sorusu bu cümleyle karşılandı."
+    },
+    "H-0132": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_2s_0920.js t:\"1912-11-28\" ve kaydın kaynağı zaten TDV «Arnavutluk»un birebir cümlesi. Kart yazıldı: 'Arnavutluk savaşmadan mı bağımsız oldu?' — TDV bağımsızlığın askerî zafere değil tanınmaya dayandığını gösteriyor; kart bunu doğruluyor ama tabloyu tamamlıyor: ilân, Sırp/Karadağ/Yunan ordularının Arnavut topraklarında ilerlediği haftalarda yapıldı, asıl mücadele Osmanlı'ya karşı değil paylaşıma karşı verildi. Sınır pazarlıklarının ayrıntısı TDV'de bulunamadı, kartta iddia edilmedi."
+    },
+    "H-0140": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar.js t:\"1913-05-30\" (ayrıca kronoloji_balkan.js'te 2, kronoloji_sinir_turkiye.js'te 1 kayıt daha aynı günde). Kart yazıldı ve Emre'nin istediği ANTLAŞMA HÜKÜMLERİ konuldu: TDV «Balkan Savaşı»ndan AYNEN \"Midye-Enez hattı Osmanlı-Bulgar sınırı olarak kabul edildi\"; Edirne ve Trakya Bulgaristan'a, Selânik ve güney Makedonya Yunanistan'a, kuzey Makedonya Sırbistan'a, Silistre Romanya'ya. ⚠️ Talebin 'kaybedilen toprakları haritada öncesi/sonrası göster' kısmı HARİTA/ARAYÜZ işidir; bu dilimin dosya ailesi dışında, ayrı hüküm ister."
+    },
+    "H-0142": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek5.js t:\"1913-06-11\". Kart yazıldı ve Emre'nin iki sorusu da TDV «Mahmud Şevket Paşa» gövdesinden cevaplandı. KİMDİR: 1856 Bağdat doğumlu ('Arap' lakabı), 1878 Harbiye, von der Goltz'un yardımcısı, 1908'de Üçüncü Ordu, Hareket Ordusu kumandanı, 18 Mayıs 1909 müfettiş, 25 Ocak 1910 Harbiye nâzırı, 23 Ocak 1913 sadrazam. KİM ÖLDÜRDÜ: AYNEN \"Çarşıkapı civarında silâhlı bir saldırıya uğradı ve öldürüldü\"; failler Topal Tevfik ve arkadaşları, \"kısa zamanda yakalanarak idam edildi\"; ve TDV'nin kendi hükmü AYNEN \"Suikast olayında paşadan kurtulmak isteyen İttihat ve Terakkî Cemiyeti'nin rolü olduğunda şüphe yoktur\". ⚠️ Talebin 'kişi kartı' kısmı data/kisiler.js ailesidir — kart ek okuma olarak yazıldı, kişi kaydı AÇILMADI."
+    },
+    "H-0152": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek5.js t:\"1913-09-29\" (ayrıca kronoloji_sinir_turkiye.js aynı gün). Kart yazıldı; Emre'nin istediği 'maddeleri ve önemi' TDV «Balkan Savaşı»ndan: yirmi maddelik antlaşma, Edirne'nin iadesi, AYNEN \"çapı 30 km. tutan yarım daire şeklinde bir toprak parçası\", Meriç'in sınır olması. Önem: Balkan savaşlarında yönün tersine çevrilebildiği tek nokta ve bugünkü Trakya sınırının temeli."
+    },
+    "H-0157": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek5.js t:\"1914-08-02\" (ayrıca kronoloji_almanya.js aynı gün). Kart yazıldı: TDV «Birinci Dünya Savaşı»ndan AYNEN \"2 Ağustos 1914'te, İstanbul'da Osmanlı Devleti ile Almanya arasında gizli bir ittifak antlaşması imzalanmıştı\"; gemilerin 10 Ağustos 1914'te Boğaz'a alınışı ve satın alınmış gösterilmesi. Emre'nin 'niçin İngiltere/Fransa ile değil' sorusu şöyle karşılandı: ittifak iki taraflıdır ve Rusya ile aynı blokta olan İtilâf için Osmanlı ittifakı Rusya'nın Boğazlar beklentisiyle çelişiyordu. BULUNAMADI: İtilâf devletleriyle yapılan ittifak görüşmelerinin ayrıntısı bu TDV maddesinde YOK — kartta 'sonuçlanmış bir ittifak kaydedilmez' denmekle yetinildi."
+    },
+    "H-0158": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek5.js t:\"1914-09-09\". Kart yazıldı ve Emre'nin asıl sorusu ('madem tek taraflı kaldırabiliyorduk, niçin daha önce kaldırmadık') doğrudan cevaplandı. TDV'de `kapitulasyon` slug'ı yalnız TANIM veriyor, `imtiyazat-i-ecnebiyye` ise SONUÇSUZ — gövde «İmtiyâzât» maddesinden alındı: 1352 Ceneviz imtiyazı, 7 Haziran 1387 tarihli en erken ahidnâme, muafiyetlerin kapsamı, Tanzimat kadrosunun teşhisi, 1867/1869/1890 teşebbüsleri ve AYNEN \"Avrupalı güçler... değişikliği kesinlikle kabul etmediler\"; 9 Eylül 1914 fermanı, kapitüler devletlerin protestosu, 24 Temmuz 1923 Lozan'da tanınma. Cevap: engel irade değil, hakların iki taraflı antlaşmalara bağlı olması ve karşı tarafın reddiydi."
+    },
+    "H-0160": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar.js t:\"1914-11\", gun:\"29 Ekim – 11 Kasım 1914\". Kart yazıldı: Goeben ve Breslau — TDV «Birinci Dünya Savaşı»ndan 10 Ağustos 1914'te Boğaz'a girişleri, tarafsızlık el koymayı gerektirirken satın alınmış gösterilmeleri, Yavuz ve Midilli adları, Souchon'un komutası; ayrıca İngiltere'nin el koyduğu Sultan Osman ve Reşadiye'nin yarattığı kamuoyu bağlamı. BULUNAMADI: gemilerin SONRAKİ AKIBETİ (Yavuz'un Cumhuriyet dönemindeki hizmeti, Midilli'nin kaybı) bu maddede YOK — kartta uydurulmadı, 'ayrı kaynak gerekir' denildi. AYRICA §8 KUSURU: kaydın `t:` alanı AY hassasiyetli; yama iki seçenekle hazırlandı (varsayılan 1914-11-01 — biçimi düzeltir, sıralamayı hiç değiştirmez, yeni tarih iddiası doğurmaz; alternatif 1914-11-11 GÜN İDDİASIDIR ve kaynağa sorulmadı)."
+    },
+    "H-0161": {
+      "hukum": "cozuldu",
+      "not": "İKİZ SINAVI ÖNCE YAPILDI (sevkin isteği): \"Karadeniz Bask\" geçen kayıt BÜTÜN evrende (6670 kayıt, 128 dosya) 1 TANE — olaylar_ek5.js t:\"1914-10-29\". Yani MÜKERRER OLAN PARTİ MADDESİDİR, kronoloji değil; kayıtta mükerrerlik YOK, `once-cozuldu` hükmü verilmedi. H-0161 ve H-0162 aynı kayda bakıyor ama FARKLI soru soruyor, bu yüzden İKİ AYRI kart yazıldı. Bu kart (H-0161) 'niçin' sorusunu alıyor: harekâtın askerî kazanç getirmediği, getirdiğinin savaş ilânı olduğu; TDV'den AYNEN \"Rusya'nın 2 Kasım 1914'te Osmanlı Devleti'ne savaş ilân etmesine sebep oldu\". BULUNAMADI: kararın kabineden gizlendiği ayrıntısı TDV'de YOK — kartta kanaat olarak anıldı, hüküm olarak değil."
+    },
+    "H-0162": {
+      "hukum": "cozuldu",
+      "not": "İkizin ikinci yüzü — 'ne kadar zarar verildi, Rus Karadeniz filosu ne yapıyordu'. Ayrı kart yazıldı. Hedefler kaynaklı: Sivastopol ve Novorossiysk. 🔴 BULUNAMADI ve UYDURULMADI: zayiat dökümü (batan gemi, tahrip, insan kaybı) ve Rus filosunun o günkü konumu TDV «Birinci Dünya Savaşı» maddesinde YOK. Kart bu boşluğu okura açıkça gösteriyor ve ölçülebilen tek sonucu — 2 Kasım 1914 Rus savaş ilânı — veriyor. Rakam istenen yerde rakam uydurmamak bilinçli bir tercihtir."
+    },
+    "H-0163": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜM — kayıt VAR: olaylar_ek5.js t:\"1914-11-14\". Kart yazıldı: cihad ilânının niçin beklenen etkiyi doğurmadığı — hıristiyan bir devletle ittifak hâlindeyken hıristiyan devletlere cihad çağrısının siyasî araç olarak okunması, örgütlü yapı eksikliği, ve iki yıl sonra Şerîf Hüseyin'in isyanıyla hilâfetin siyasî nüfuzunun sınırının görünmesi. 🔴 İKİ AÇIK NOKTA: ① TDV «Cihad» maddesinin gövdesi okundu — I. Dünya Savaşı ilânına, tarihine, fetva sayısına ve önceki örneklere dair HİÇBİR kayıt YOK; Emre'nin 'daha önce uygulanmış mıydı' sorusu bu yüzden `bulunamadı`. ② TDV «Birinci Dünya Savaşı» gövdesinde fetvalar için 15 Kasım 1914 geçtiği bildirildi, atlas ise 14 Kasım diyor; birebir cümle çekilemediği için ÖLÇÜLEMEDİ sayıldı, TARİHE DOKUNULMADI ve kartta gün yazılmayıp ay verildi. Bu, koordinatörün açık bir kalemi olarak bırakıldı."
+    }
+  }
+}

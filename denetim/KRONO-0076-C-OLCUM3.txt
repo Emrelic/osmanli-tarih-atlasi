@@ -1,0 +1,12 @@
+kronoloji maddesi (tarihi cozulen): 6670
+yerlesim donem baslangici (f:) : 15999
+
+=== H-0119  olaylar.js  Trablusgarp Savasi :  1911-09-01  ->  1911-09-29
+    eski konumun kapsayip yeninin kapsamadigi kirilma: 0
+    bunlardan BASKA MADDE ile korunmayan (gercek risk): 0
+    yeni konumun +-30 gun komsulugundaki kronoloji maddesi: 14
+
+=== H-0160  olaylar.js  I. Dunya Savasina giris :  1914-11-01  ->  1914-11-11
+    eski konumun kapsayip yeninin kapsamadigi kirilma: 0
+    bunlardan BASKA MADDE ile korunmayan (gercek risk): 0
+    yeni konumun +-30 gun komsulugundaki kronoloji maddesi: 7

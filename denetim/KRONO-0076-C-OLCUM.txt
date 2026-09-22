@@ -1,0 +1,113 @@
+DOSYA EVRENI: 128 olaylar/kronoloji dosyasi · index.html YUKLU 128 · YUKSUZ 0
+YUKSUZ (motor okumuyor): yok
+TOPLAM KAYIT (t: alani olan): 6670
+
+=== H-0117 (1910) — Arnavutluk Isyani : 1 aday
+    [CANLI] olaylar_ek5.js                 t=1910-04-01   gun=1910                         kaynak=arnavutluk             | Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş
+
+=== H-0119 (1911) — Italyan savas ilani : 11 aday
+    [CANLI] olaylar.js                     t=1911-09      gun=29 Eylül 1911 (İtalyan savaş kaynak=trablusgarp-savasi     | Trablusgarp Savaşı
+    [CANLI] kronoloji_italya.js            t=1911-09-29   gun=                             kaynak=data/devletler.js `ita | Trablusgarp Savaşı'nın ilanı
+    [CANLI] kronoloji_italya.js            t=1911-10-05   gun=                             kaynak=bulunamadı — gün YAKLA | Trablus'un işgali
+    [CANLI] olaylar_ek9.js                 t=1911-10-08   gun=8 Ekim 1911                  kaynak=trablusgarp-savasi     | Tobruk'a İtalyan çıkarması — Trablusgarp'ta ilk işgal
+    [CANLI] kronoloji_kuzeyafrika.js       t=1911-10-09   gun=                             kaynak=TDV `trablusgarp-savas | Trablus şehri İtalyan işgaline düştü
+    [CANLI] olaylar_ek9.js                 t=1911-10-09   gun=9 Ekim 1911                  kaynak=trablusgarp-savasi     | Trablus şehrinin İtalyanlara teslim olması
+    [CANLI] kronoloji_dogu_afrika.js       t=1911-01-02   gun=                             kaynak=TDV `makdisu`: \"1911  | İtalya'nın Somali'yi sömürge ilân etmesi ve Makdişu'yu başşehir yapmas
+    [CANLI] kronoloji_kuzeyafrika.js       t=1911-09-29   gun=                             kaynak=TDV `trablusgarp-savas | İtalya Osmanlı'ya savaş ilan etti
+
+=== H-0122 (1911) — Trablus sehrinin teslimi : 11 aday
+    [CANLI] olaylar.js                     t=1911-09      gun=29 Eylül 1911 (İtalyan savaş kaynak=trablusgarp-savasi     | Trablusgarp Savaşı
+    [CANLI] kronoloji_italya.js            t=1911-09-29   gun=                             kaynak=data/devletler.js `ita | Trablusgarp Savaşı'nın ilanı
+    [CANLI] kronoloji_italya.js            t=1911-10-05   gun=                             kaynak=bulunamadı — gün YAKLA | Trablus'un işgali
+    [CANLI] olaylar_ek9.js                 t=1911-10-08   gun=8 Ekim 1911                  kaynak=trablusgarp-savasi     | Tobruk'a İtalyan çıkarması — Trablusgarp'ta ilk işgal
+    [CANLI] kronoloji_kuzeyafrika.js       t=1911-10-09   gun=                             kaynak=TDV `trablusgarp-savas | Trablus şehri İtalyan işgaline düştü
+    [CANLI] olaylar_ek9.js                 t=1911-10-09   gun=9 Ekim 1911                  kaynak=trablusgarp-savasi     | Trablus şehrinin İtalyanlara teslim olması
+    [CANLI] kronoloji_dogu_afrika.js       t=1911-01-02   gun=                             kaynak=TDV `makdisu`: \"1911  | İtalya'nın Somali'yi sömürge ilân etmesi ve Makdişu'yu başşehir yapmas
+    [CANLI] kronoloji_kuzeyafrika.js       t=1911-09-29   gun=                             kaynak=TDV `trablusgarp-savas | İtalya Osmanlı'ya savaş ilan etti
+
+=== H-0124 (1912) — Sisam'in cikisi : 2 aday
+    [CANLI] olaylar_ek6.js                 t=1912-03-13   gun=1912                         kaynak=yunanistan             | Sisam'ın Osmanlı idaresinden çıkışı
+    [CANLI] olaylar_ek6.js                 t=1912-07-17   gun=17 Temmuz 1912               kaynak=yunanistan             | Nikarya'nın bağımsızlık ilanı
+
+=== H-0125 (1912) — Onikiada isgali : 5 aday
+    [CANLI] kronoloji_italya.js            t=1912-05-04   gun=                             kaynak=data/devletler.js `oni | Rodos ve Oniki Ada'nın işgali
+    [CANLI] olaylar_ek6.js                 t=1912-05-04   gun=4 Mayıs 1912                 kaynak=rodos                  | Rodos'un İtalyan işgali
+    [CANLI] olaylar_ek6.js                 t=1912-05-12   gun=12 Mayıs 1912                kaynak=rodos                  | Onikiada'nın İtalyan işgali
+    [CANLI] olaylar_ek6.js                 t=1912-05-21   gun=21 Mayıs 1912                kaynak=rodos                  | İstanköy'ün işgali
+    [CANLI] olaylar_ek5.js                 t=1912-10-18   gun=18 Ekim 1912 (15 Ekim tarihl kaynak=trablusgarp            | Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki
+
+=== H-0127 (1912) — Nikarya bagimsizlik : 1 aday
+    [CANLI] olaylar_ek6.js                 t=1912-07-17   gun=17 Temmuz 1912               kaynak=yunanistan             | Nikarya'nın bağımsızlık ilanı
+
+=== H-0128 (1912) — I. Balkan Savasi baslangici : 15 aday
+    [CANLI] kronoloji_balkan.js            t=1912-08-01   gun=                             kaynak=Yerel veri (data/olayl | Karadağ-Bulgaristan ittifakı imzalandı
+    [CANLI] kronoloji_balkan.js            t=1912-10-06   gun=                             kaynak=Yerel veri (data/olayl | Karadağ-Sırbistan ittifakı imzalandı
+    [CANLI] kronoloji_balkan.js            t=1912-10-08   gun=                             kaynak=TDV `balkan-savasi`: ' | Osmanlı'ya savaş ilan eden ilk Balkan devleti oldu — I. Balkan Savaşı 
+    [CANLI] kronoloji_balkan.js            t=1912-10-08   gun=                             kaynak=TDV `bulgaristan`: '8  | Birinci Balkan Savaşı'na giriş
+    [CANLI] kronoloji_balkan.js            t=1912-10-08   gun=                             kaynak=data/olaylar_ek10.js:3 | Balkan Savaşları'na giriş
+    [CANLI] kronoloji_sirbistan.js         t=1912-10-08   gun=                             kaynak=TDV `sirbistan`: Sırbi | Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı
+    [CANLI] olaylar_ek10.js                t=1912-10-08   gun=8 Ekim 1912                  kaynak=balkan-savasi          | I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı
+    [CANLI] kronoloji_balkan.js            t=1912-03-13   gun=                             kaynak=bulunamadı — TDV `bulg | Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'nın çekirdeği kuruldu
+
+=== H-0132 (1912) — Arnavutluk istiklali : 2 aday
+    [CANLI] olaylar_2s_0920.js             t=1912-11-28   gun=28 Kasım 1912                kaynak=TDV `arnavutluk` — AYN | Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali
+    [CANLI] olaylar_ek10.js                t=1912-10-08   gun=8 Ekim 1912                  kaynak=balkan-savasi          | I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı
+
+=== H-0140 (1913) — Londra Antlasmasi : 8 aday
+    [CANLI] kronoloji_balkan.js            t=1913-05-30   gun=                             kaynak=TDV `bulgaristan`: '30 | Londra Antlaşması — I. Balkan Savaşı sona erdi
+    [CANLI] kronoloji_balkan.js            t=1913-05-30   gun=                             kaynak=TDV `yunanistan`: '30  | Londra Antlaşması
+    [CANLI] kronoloji_sinir_turkiye.js     t=1913-05-30   gun=                             kaynak=TDV bulgaristan: '30 M | Londra Antlaşması — Enez-Midye hattının batısı Balkan müttefiklerine b
+    [CANLI] olaylar.js                     t=1913-05-30   gun=30 Mayıs 1913                kaynak=balkan                 | Londra Antlaşması — Rumeli'nin kaybı
+    [CANLI] olaylar_p0036.js               t=1913-07-29   gun=29 Temmuz 1913               kaynak=katar                  | Katar'dan Osmanlı feragati — Londra Sözleşmesi
+    [CANLI] kronoloji_balkan.js            t=1913-03-26   gun=                             kaynak=yerlesimler.js Edirne  | Edirne'nin düşüşü — Bulgar-Sırp ortak kuşatması sonuçlandı
+    [CANLI] olaylar_ek5.js                 t=1913-06-29   gun=29 Haziran 1913              kaynak=osmanlilar             | II. Balkan Savaşı'nın başlaması: müttefiklerin paylaşım kavgası
+    [CANLI] kronoloji_balkan.js            t=1913-08-10   gun=                             kaynak=TDV `yunanistan`: '30  | Bükreş Antlaşması
+
+=== H-0142 (1913) — Mahmud Sevket Pasa suikasti : 1 aday
+    [CANLI] olaylar_ek5.js                 t=1913-06-11   gun=11 Haziran 1913              kaynak=mahmud-sevket-pasa     | Sadrazam Mahmud Şevket Paşa'nın İstanbul'da suikastle öldürülmesi
+
+=== H-0152 (1913) — Istanbul Antlasmasi : 11 aday
+    [CANLI] kronoloji_balkan.js            t=1913-03-26   gun=                             kaynak=yerlesimler.js Edirne  | Edirne'nin düşüşü — Bulgar-Sırp ortak kuşatması sonuçlandı
+    [CANLI] olaylar_ek6.js                 t=1913-03-26   gun=26 Mart 1913                 kaynak=edirne                 | Edirne'nin Bulgarlara düşüşü
+    [CANLI] kronoloji_balkan.js            t=1913-07-21   gun=                             kaynak=yerlesimler.js Edirne  | Edirne Osmanlı tarafından geri alındı
+    [CANLI] olaylar_ek.js                  t=1913-07-21   gun=21 Temmuz 1913               kaynak=edirne                 | Edirne'nin geri alınışı
+    [CANLI] kronoloji_sinir_turkiye.js     t=1913-09-29   gun=                             kaynak=IBS No. 49 Bulgaria–Tu | İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi
+    [CANLI] olaylar_ek5.js                 t=1913-09-29   gun=29 Eylül 1913                kaynak=bulgaristan            | İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili
+    [CANLI] olaylar_ek2.js                 t=1913-01-23   gun=23 Ocak 1913                 kaynak=enver-pasa             | Bâb-ı Âli Baskını
+    [CANLI] kronoloji_sinir_turkiye.js     t=1913-05-30   gun=                             kaynak=TDV bulgaristan: '30 M | Londra Antlaşması — Enez-Midye hattının batısı Balkan müttefiklerine b
+
+=== H-0157 (1914) — Osmanli-Alman gizli ittifak : 16 aday
+    [CANLI] kronoloji_almanya.js           t=1914-08-02   gun=                             kaynak=TDV `almanya`: \"2 Ağu | Osmanlı-Alman gizli ittifak antlaşması
+    [CANLI] olaylar_ek5.js                 t=1914-08-02   gun=2 Ağustos 1914               kaynak=birinci-dunya-savasi   | İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması
+    [CANLI] kronoloji_fransa.js            t=1914-08-03   gun=                             kaynak=standart ders kitabı b | Almanya'nın Fransa'ya savaş ilanı
+    [CANLI] kronoloji_almanya.js           t=1914-08-04   gun=                             kaynak=Clark, The Sleepwalker | Almanya'nın Belçika'yı işgali ve İngiltere'nin savaş ilanı
+    [CANLI] kronoloji_ingiltere.js         t=1914-08-04   gun=                             kaynak=el-kitabi              | Britanya Almanya'ya savaş ilan etti — I. Dünya Savaşı başladı
+    [CANLI] kronoloji_rusya.js             t=1914-07-30   gun=                             kaynak=Riasanovsky & Steinber | Genel seferberlik — I. Dünya Savaşı'na giriş
+    [CANLI] kronoloji_hollanda.js          t=1914-08-01   gun=                             kaynak=TDV `hollanda` (gövdes | I. Dünya Savaşı'nda tarafsızlık
+    [CANLI] kronoloji_japonya.js           t=1914-08-23   gun=                             kaynak=bulunamadı — TDV'de mü | Japonya, İtilaf Devletleri yanında I. Dünya Savaşı'na girdi
+
+=== H-0158 (1914) — Kapitulasyonlarin kaldirilmasi : 1 aday
+    [CANLI] olaylar_ek5.js                 t=1914-09-09   gun=9 Eylül 1914                 kaynak=kapitulasyon           | Kapitülasyonların tek taraflı olarak kaldırılması
+
+=== H-0160 (1914) — I. Dunya Savasina giris : 13 aday
+    [CANLI] kronoloji_habsburg.js          t=1914-07-28   gun=                             kaynak=Der Erste Weltkrieg (w | Sırbistan'a savaş ilanı — I. Dünya Savaşı'nın başlaması
+    [CANLI] kronoloji_rusya.js             t=1914-07-30   gun=                             kaynak=Riasanovsky & Steinber | Genel seferberlik — I. Dünya Savaşı'na giriş
+    [CANLI] kronoloji_hollanda.js          t=1914-08-01   gun=                             kaynak=TDV `hollanda` (gövdes | I. Dünya Savaşı'nda tarafsızlık
+    [CANLI] kronoloji_ingiltere.js         t=1914-08-04   gun=                             kaynak=el-kitabi              | Britanya Almanya'ya savaş ilan etti — I. Dünya Savaşı başladı
+    [CANLI] kronoloji_japonya.js           t=1914-08-23   gun=                             kaynak=bulunamadı — TDV'de mü | Japonya, İtilaf Devletleri yanında I. Dünya Savaşı'na girdi
+    [CANLI] olaylar.js                     t=1914-11      gun=29 Ekim – 11 Kasım 1914      kaynak=birinci-dunya-savasi   | I. Dünya Savaşı'na giriş
+    [CANLI] kronoloji_iran.js              t=1914-11-01   gun=                             kaynak=Encyclopaedia Iranica, | I. Dünya Savaşı'nda tarafsızlık ilan edildi (fiilen işgal edildi)
+    [CANLI] kronoloji_macaristan.js        t=1914-07-28   gun=                             kaynak=akademik: Kontler (200 | Avusturya-Macaristan'ın Sırbistan'a savaş ilanı
+
+=== H-0161 (1914) — Karadeniz Baskini : 1 aday
+    [CANLI] olaylar_ek5.js                 t=1914-10-29   gun=29 Ekim 1914                 kaynak=birinci-dunya-savasi   | Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması
+
+=== H-0162 (1914) — Karadeniz Baskini (ikiz) : 1 aday
+    [CANLI] olaylar_ek5.js                 t=1914-10-29   gun=29 Ekim 1914                 kaynak=birinci-dunya-savasi   | Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması
+
+=== H-0163 (1914) — Cihad-i Ekber ilani : 2 aday
+    [CANLI] olaylar_ek5.js                 t=1914-11-14   gun=14 Kasım 1914                kaynak=birinci-dunya-savasi   | Cihâd-ı Ekber ilanı: Fatih Camii'nde cihad fetvasının okunması
+    [CANLI] olaylar.js                     t=1914-11      gun=29 Ekim – 11 Kasım 1914      kaynak=birinci-dunya-savasi   | I. Dünya Savaşı'na giriş
+
+IKIZ SINAVI — 'Karadeniz Bask' gecen kayit sayisi (butun yillar): 1
+    [CANLI] olaylar_ek5.js                 t=1914-10-29   gun=29 Ekim 1914             | Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması

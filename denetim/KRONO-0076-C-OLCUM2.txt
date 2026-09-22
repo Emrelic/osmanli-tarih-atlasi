@@ -1,0 +1,223 @@
+### A — 16 HEDEF KAYDIN TAM ALANLARI
+
+--- H-0117 : 1 kayit  (iz: Arnavutluk İsyanı: Kosova)
+    dosya   : olaylar_ek5.js
+    t       : 1910-04-01
+    gun     : 1910
+    b       : Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş
+    kaynak  : arnavutluk
+    yer_id  : 
+    alanlar : b,d,duygu,etiket,gun,k,kapsam_genis,kaynak,kisiler,odak_yer,t,yer
+    d       : İttihatçı hükümetin merkeziyetçi vergi politikası, silah toplama kampanyası ve Latin alfabesi tartışması, o güne kadar devlete en sadık unsurlardan sayılan Arnavut aşiretlerini ayaklandırdı. Mahmud Şevket Paşa kumandasındaki ordu isyanı sert biçimde bastırdıysa da huzursuzluk 1911 ve 1912'de yeniden alevlendi. Bu isyanlar Osmanlı ordusunu Balkan Savaşı arifesinde yıprattığı gibi Arnavut millî hareketinin de doğuşunu hızlandırdı.
+
+--- H-0119 : 2 kayit  (iz: Trablusgarp Savaşı)
+    dosya   : kronoloji_italya.js
+    t       : 1911-09-29
+    gun     : 
+    b       : Trablusgarp Savaşı'nın ilanı
+    kaynak  : data/devletler.js `italya` embedded kronoloji: \"Trablusgarp Savaşı'nı başlattı\" (t:\"1911-09-29\"); TDV `trablusgarp` (gövdesi okundu) farklı bir tarih (\"1 Eylül 1911\") veriyor — bu oturumda İKİ KAYNAK ÇELİŞTİ, data/devletler.js'in tarihi (uluslararası akademik konsensüsle de örtüşen 29 Eylül) esas alındı, çelişki KOORDİNATÖRE bildirilecek
+    yer_id  : 
+    alanlar : b,d,dunya,etiket,kapsam,kaynak,onem,t,tur,yer_id
+    d       : 
+    dosya   : olaylar.js
+    t       : 1911-09
+    gun     : 29 Eylül 1911 (İtalyan savaş ilanı)
+    b       : Trablusgarp Savaşı
+    kaynak  : trablusgarp-savasi
+    yer_id  : Trablus
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Sömürge arayışındaki İtalya, Osmanlı'nın Kuzey Afrika'daki son toprağı Trablusgarp'a savaş ilan edip kıyıları işgal etti; donanması olmayan devlet düzenli ordu gönderemeyince Mustafa Kemal ve Enver Bey gibi genç subaylar gizlice bölgeye geçerek Senûsî kabileleriyle etkili bir direniş örgütledi. Balkan Savaşı'nın patlaması üzerine imzalanan Uşi Antlaşması'yla (18 Ekim 1912) Libya İtalya'ya bırakıldı; İtalya ayrıca Rodos ve Oniki Ada'yı işgal etti.
+
+--- H-0122 : 1 kayit  (iz: Trablus şehrinin İtalyanlara teslim)
+    dosya   : olaylar_ek9.js
+    t       : 1911-10-09
+    gun     : 9 Ekim 1911
+    b       : Trablus şehrinin İtalyanlara teslim olması
+    kaynak  : trablusgarp-savasi
+    yer_id  : Trablus
+    alanlar : b,d,duygu,etiket,gun,ic_not_d,k,kaynak,kisiler,t,yer,yer_id
+    d       : Trablus üç gün bombardımandan sonra 9 Ekim 1911'de teslim oldu. Osmanlı kuvvetleri şehri savunmak yerine Aziziye ve Garyan'a çekilerek iç bölgede direnişi örgütlemeyi seçtiler; Enver ve Mustafa Kemal beylerin katıldığı bu direniş, İtalyanları savaşın sonuna kadar kıyı şeridine hapsetti. Yani şehir düştüğü hâlde vilâyetin içi Osmanlı denetiminde kaldı.
+
+--- H-0124 : 1 kayit  (iz: Sisam'ın Osmanlı idaresinden çıkışı)
+    dosya   : olaylar_ek6.js
+    t       : 1912-03-13
+    gun     : 1912
+    b       : Sisam'ın Osmanlı idaresinden çıkışı
+    kaynak  : yunanistan
+    yer_id  : Sisam
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Sisam, 1832'den beri Osmanlı'ya vergi ödeyen ve İstanbul'un tayin ettiği bir bey tarafından yönetilen özerk bir emâretti. Trablusgarp Savaşı'nın yarattığı boşlukta adadaki birlik yanlısı hareket idareyi ele geçirdi ve özerk emâret düzeni fiilen sona erdi; ada aynı yıl içinde Yunanistan'a katıldığını ilan etti. Anadolu kıyısına iki kilometre uzaklıktaki bu ada, Ege'de kaybedilen ilk topraklardan biri oldu.
+
+--- H-0125 : 1 kayit  (iz: Onikiada'nın İtalyan işgali)
+    dosya   : olaylar_ek6.js
+    t       : 1912-05-12
+    gun     : 12 Mayıs 1912
+    b       : Onikiada'nın İtalyan işgali
+    kaynak  : rodos
+    yer_id  : Karpatos
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Rodos'un alınmasından hafta içinde İtalyan donanması çevredeki adaları da işgal etti; bu takımadaya sonradan 'Onikiada' adı verilecekti. Adaların çoğu Anadolu kıyısına birkaç mil uzaklıktaydı ve Ege'nin güneydoğu geçişini denetliyordu. İşgal Uşi Antlaşması'nda Trablusgarp'ın terki karşılığında geçici sayıldı, ancak İtalya adaları hiçbir zaman boşaltmadı; 1947'de Yunanistan'a devredileceklerdi.
+
+--- H-0127 : 1 kayit  (iz: Nikarya'nın bağımsızlık ilanı)
+    dosya   : olaylar_ek6.js
+    t       : 1912-07-17
+    gun     : 17 Temmuz 1912
+    b       : Nikarya'nın bağımsızlık ilanı
+    kaynak  : yunanistan
+    yer_id  : Nikarya (İkarya)
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Sisam ile Sakız arasındaki küçük Nikarya adasında halk, İtalyan işgallerinin yarattığı belirsizlik ortamında ayaklanarak Osmanlı jandarmasını adadan çıkardı ve kendi bayrağı, pulu ve meclisiyle beş ay süren bir 'serbest devlet' ilan etti. Kasım 1912'de ada Yunanistan'a katıldı. Küçüklüğüne rağmen bu olay, Ege'de merkezî idarenin nasıl çözüldüğünün açık göstergesidir.
+
+--- H-0128 : 2 kayit  (iz: I. Balkan Savaşı'nın başlaması)
+    dosya   : olaylar_ek10.js
+    t       : 1912-10-08
+    gun     : 8 Ekim 1912
+    b       : I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı
+    kaynak  : balkan-savasi
+    yer_id  : Yenipazar (Novi Pazar)
+    alanlar : b,d,dosya,duygu,etiket,gun,ic_not_d,k,kaynak,kisiler,t,yer,yer_id
+    d       : Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gü
+    dosya   : olaylar_ek5.js
+    t       : 1913-06-29
+    gun     : 29 Haziran 1913
+    b       : II. Balkan Savaşı'nın başlaması: müttefiklerin paylaşım kavgası
+    kaynak  : osmanlilar
+    yer_id  : 
+    alanlar : b,d,duygu,etiket,gun,k,kapsam_genis,kaynak,kisiler,odak_yer,t,yer
+    d       : Londra Antlaşması ile Osmanlı'dan aldıkları toprakları paylaşamayan Balkan müttefikleri birbirine düştü; Bulgaristan'ın Sırp ve Yunan mevzilerine saldırmasıyla ikinci savaş başladı. Romanya ve Karadağ da Bulgaristan'a karşı cepheye girince Bulgar ordusu çöktü. Osmanlı Devleti bu fırsatı değerlendirerek Londra Antlaşması'nın çizdiği Midye-Enez hattını aştı ve Doğu Trakya'yı Edirne ile birlikte geri aldı.
+
+--- H-0132 : 1 kayit  (iz: Arnavutluk'un istiklâlinin ilânı)
+    dosya   : olaylar_2s_0920.js
+    t       : 1912-11-28
+    gun     : 28 Kasım 1912
+    b       : Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali
+    kaynak  : TDV `arnavutluk` — AYNEN: \"28 Kasım 1912'de İsmâil Kemali, Avlonya'da Arnavutluk'un istiklâlini ilân etti\" · hassasiyet: GÜN
+    yer_id  : Avlonya
+    alanlar : b,d,dunya,etiket,gun,k,kapsam,kaynak,kisiler,onem,t,yer,yer_id
+    d       : Avlonya
+
+--- H-0140 : 1 kayit  (iz: Londra Antlaşması — Rumeli'nin kaybı)
+    dosya   : olaylar.js
+    t       : 1913-05-30
+    gun     : 30 Mayıs 1913
+    b       : Londra Antlaşması — Rumeli'nin kaybı
+    kaynak  : balkan
+    yer_id  : Londra
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Londra
+
+--- H-0142 : 1 kayit  (iz: Mahmud Şevket Paşa'nın İstanbul'da suikastle)
+    dosya   : olaylar_ek5.js
+    t       : 1913-06-11
+    gun     : 11 Haziran 1913
+    b       : Sadrazam Mahmud Şevket Paşa'nın İstanbul'da suikastle öldürülmesi
+    kaynak  : mahmud-sevket-pasa
+    yer_id  : İstanbul
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Bâb-ı Âli Baskını'ndan sonra sadrazamlığa getirilen Mahmud Şevket Paşa, Harbiye Nezâreti'ne giderken Çarşıkapı yakınında arabasına açılan ateşle öldürüldü. İttihat ve Terakkî suikastı muhalefetin üzerine yıkarak geniş bir tevkif ve idam dalgası başlattı, Hürriyet ve İtilâf Fırkası fiilen tasfiye edildi. Bu olayla birlikte İttihatçıların Enver-Talat-Cemal üçlüsüne dayanan tek parti diktatörlüğü kesin biçimde kuruldu.
+
+--- H-0152 : 1 kayit  (iz: İstanbul Antlaşması: Bulgaristan ile barış)
+    dosya   : olaylar_ek5.js
+    t       : 1913-09-29
+    gun     : 29 Eylül 1913
+    b       : İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili
+    kaynak  : bulgaristan
+    yer_id  : İstanbul
+    alanlar : b,d,duygu,etiket,gun,ic_not_d,k,kaynak,kisiler,t,yer,yer_id
+    d       : II. Balkan Savaşı'nın ardından Osmanlı Devleti ile Bulgaristan arasında imzalanan antlaşma, Meriç nehrini sınır kabul ederek Edirne, Kırklareli, Dimetoka ve Doğu Trakya'nın Osmanlı'da kalmasını hukuken tescil etti. Kavala ve Dedeağaç Bulgaristan'da bırakıldı, iki ülke arasında karşılıklı nüfus mübadelesi ve Bulgaristan'daki Müslümanların hakları düzenlendi. Balkan felaketinden geri alınabilen tek toprak parçasının garantisi bu metindir. Aynı tarihte katılan öteki yerler: Gümülcine.
+
+--- H-0157 : 1 kayit  (iz: Osmanlı-Alman gizli ittifak antlaşmasının imzalanması)
+    dosya   : olaylar_ek5.js
+    t       : 1914-08-02
+    gun     : 2 Ağustos 1914
+    b       : İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması
+    kaynak  : birinci-dunya-savasi
+    yer_id  : İstanbul
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Avrupa'da savaş patlar patlamaz, Sadrazam Said Halim Paşa'nın konağında Osmanlı Devleti ile Almanya arasında gizli bir ittifak antlaşması imzalandı; metin Rusya'nın Almanya'ya karşı savaşa girmesi hâlinde Osmanlı'nın da Almanya yanında yer almasını öngörüyordu. Antlaşma kabineden bile gizlendi, sadece dört kişi tarafından bilinmekteydi. Üç ay sonra Karadeniz baskınıyla Osmanlı Devleti fiilen savaşa sürüklenecek, imparatorluğun kaderi bu belgeyle bağlanacaktı.
+
+--- H-0158 : 1 kayit  (iz: Kapitülasyonların tek taraflı olarak kaldırılması)
+    dosya   : olaylar_ek5.js
+    t       : 1914-09-09
+    gun     : 9 Eylül 1914
+    b       : Kapitülasyonların tek taraflı olarak kaldırılması
+    kaynak  : kapitulasyon
+    yer_id  : İstanbul
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : İstanbul
+
+--- H-0160 : 3 kayit  (iz: I. Dünya Savaşı'na giriş)
+    dosya   : kronoloji_portekiz.js
+    t       : 1916-03-09
+    gun     : 
+    b       : Almanya, Portekiz'e savaş ilan etti — I. Dünya Savaşı'na giriş
+    kaynak  : standart akademik kronoloji, çapraz doğrulama (Almanya'nın Portekiz'e savaş ilanı, 9 Mart 1916)
+    yer_id  : Lizbon
+    alanlar : b,d,dunya,etiket,kapsam,kaynak,onem,t,tur,yer_id
+    d       : Lizbon
+    dosya   : kronoloji_rusya.js
+    t       : 1914-07-30
+    gun     : 
+    b       : Genel seferberlik — I. Dünya Savaşı'na giriş
+    kaynak  : Riasanovsky & Steinberg, A History of Russia
+    yer_id  : St. Petersburg
+    alanlar : b,d,dunya,etiket,kapsam,kaynak,onem,t,tur,yer_id
+    d       : St. Petersburg
+    dosya   : olaylar.js
+    t       : 1914-11
+    gun     : 29 Ekim – 11 Kasım 1914
+    b       : I. Dünya Savaşı'na giriş
+    kaynak  : birinci-dunya-savasi
+    yer_id  : 
+    alanlar : b,d,duygu,etiket,gun,k,kapsam_genis,kaynak,kisiler,odak_yer,t,yer
+    d       : İngiltere'den kaçan Goeben ve Breslau zırhlılarının satın alınmış gösterilerek Boğaz'dan içeri alınması, devleti adım adım Almanya'nın yanına çekti; Amiral Souchon komutasındaki donanmanın Rus limanlarını bombalamasıyla (29 Ekim) savaş fiilen başladı ve karşılıklı ilanlar Kasım başında geldi. Cihâd-ı Ekber ilanına rağmen beklenen etki doğmadı; imparatorluk, dört yıl boyunca Kafkasya'dan Filistin'e beş ayrı cephede varlık savaşına girdi.
+
+--- H-0161 : 1 kayit  (iz: Karadeniz Baskını)
+    dosya   : olaylar_ek5.js
+    t       : 1914-10-29
+    gun     : 29 Ekim 1914
+    b       : Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması
+    kaynak  : birinci-dunya-savasi
+    yer_id  : 
+    alanlar : b,d,duygu,etiket,gun,k,kapsam_genis,kaynak,kisiler,odak_yer,t,yer
+    d       : Almanya'dan kaçıp Osmanlı donanmasına 'satın alınmış' gibi katılan Goeben ve Breslau (Yavuz ve Midilli), Amiral Souchon kumandasında Karadeniz'e açılarak Rus limanlarını topa tuttu ve gemileri batırdı. Enver Paşa'nın kabineden gizli verdiği bu emir, tarafsızlığı fiilen bitirdi. Bir hafta içinde Rusya, İngiltere ve Fransa savaş ilan etti ve Osmanlı Devleti geri dönüşü olmayan biçimde I. Dünya Savaşı'na girmiş oldu.
+
+--- H-0163 : 1 kayit  (iz: Cihâd-ı Ekber ilanı)
+    dosya   : olaylar_ek5.js
+    t       : 1914-11-14
+    gun     : 14 Kasım 1914
+    b       : Cihâd-ı Ekber ilanı: Fatih Camii'nde cihad fetvasının okunması
+    kaynak  : birinci-dunya-savasi
+    yer_id  : İstanbul
+    alanlar : b,d,duygu,etiket,gun,k,kaynak,kisiler,t,yer,yer_id
+    d       : Şeyhülislâm Ürgüplü Hayri Efendi'nin verdiği beş fetva, halife-padişah adına Fatih Camii'nde okunarak bütün Müslümanlar İtilâf devletlerine karşı cihada çağrıldı. Almanya'nın büyük umut bağladığı bu hamle, İngiliz ve Fransız sömürgelerindeki Müslümanları ayaklandırmayı hedefliyordu. Beklenen genel kalkışma gerçekleşmedi; aksine iki yıl sonra Mekke Emîri Şerif Hüseyin'in İngiliz desteğiyle isyan etmesi, hilâfetin siyasî nüfuzunun sınırlarını acı biçimde gösterdi.
+
+### B — AY HASSASIYETLI t: (CLAUDE.md §8: gun yazilmali)
+TOPLAM ay hassasiyetli kayit: 21 / 6670
+BUNLARIN 1909-1914 diliminde olani: 2
+    olaylar.js               t=1911-09   gun=29 Eylül 1911 (İtalyan savaş i | Trablusgarp Savaşı
+    olaylar.js               t=1914-11   gun=29 Ekim – 11 Kasım 1914        | I. Dünya Savaşı'na giriş
+AY hassasiyetinin dosyaya dagilimi (ilk 10):
+    olaylar.js                     19
+    kronoloji_misir.js             1
+    olaylar_ek4.js                 1
+
+### C — EK OKUMA DOSYALARI
+ekokuma* dosyalari: ekokuma.js, ekokuma_1806.js, ekokuma_akdeniz.js, ekokuma_alemdar.js, ekokuma_antlasma2.js, ekokuma_antlasma3.js, ekokuma_antlasma4.js, ekokuma_antlasma5.js, ekokuma_antlasma6.js, ekokuma_avusturya.js, ekokuma_bag_oneri.js, ekokuma_bakis.js, ekokuma_baslik_oneri.js, ekokuma_bolge0073.js, ekokuma_camitarz.js, ekokuma_celali.js, ekokuma_dalga2.js, ekokuma_deniz.js, ekokuma_diplomasi.js, ekokuma_dunya.js, ekokuma_edebiyat.js, ekokuma_ekonomi.js, ekokuma_hanedan.js, ekokuma_ibrahim.js, ekokuma_ihtilal.js, ekokuma_isyan1821.js, ekokuma_kadin.js, ekokuma_karadeniz.js, ekokuma_karsi.js, ekokuma_kasrisirin.js, ekokuma_kirimrus.js, ekokuma_kiyas.js, ekokuma_kolemen.js, ekokuma_korfez.js, ekokuma_kurum.js, ekokuma_kurum2.js, ekokuma_lale.js, ekokuma_magazin.js, ekokuma_mimari.js, ekokuma_mimari2.js, ekokuma_misir1805.js, ekokuma_p75a.js, ekokuma_p75b.js, ekokuma_p75c.js, ekokuma_padisah.js, ekokuma_rivayet.js, ekokuma_rusiran.js, ekokuma_savas.js, ekokuma_savas1770.js, ekokuma_savas3.js, ekokuma_sh104.js, ekokuma_statu.js, ekokuma_tamamla.js, ekokuma_tartisma.js, ekokuma_toplum.js, ekokuma_vecize.js, ekokuma_venedik.js, ekokuma_vezir.js, ekokuma_yeniceri.js, ekokuma_yenilesme.js, ekokuma_yunan.js
+index.html'de gecen ek okuma src: []
+ekokuma govdesinde 1909-1914 anahtarlari:
+    Arnavut            : 43 gecis
+    Trablusgarp        : 35 gecis
+    Sisam              : 2 gecis
+    Onikiada           : 0 gecis
+    Nikarya            : 1 gecis
+    Balkan Sava        : 20 gecis
+    Londra Antla       : 17 gecis
+    Mahmud Şevket      : 1 gecis
+    İstanbul Antla     : 18 gecis
+    Kapitülasyon       : 14 gecis
+    Karadeniz Bask     : 0 gecis
+    Cihâd              : 1 gecis
+    Goeben             : 3 gecis
+    Breslau            : 3 gecis
+    Oniki              : 4 gecis
