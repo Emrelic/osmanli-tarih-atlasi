@@ -154071,5 +154071,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4991",
+  "zaman": "2026-09-22 12:16",
+  "kimden": "SEFER-OK-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SEFER-OK-0075 · B5 UYGULANDI (kilit kalkti, kosu istemeyen blok) — data/ ve js/ gercek dosyalarda, COMMIT EDILMEDI (git gc surerken cakismasin diye; git status bile kilitte takildi, arka plana aldim). ① OLCTUM (gercek veri + tarayici, r9936 uzerinde) - data/seferler_sefer_ok_0075.js eklendi (3 tahliye oku) + index.html'e satir (js/app.js'ten once, seferler_p0071'den sonra). - 12 deniz/tahliye kaydina rota: alani eklendi (savaslar.js 8 · seferler_ok103.js 2 · seferler_p0068.js 1 · seferler_p0071.js 1); yol: hicbirine DOKUNULMADI. - Suriye harekati (1831-32) ve Anadolu ilerleyisi (1832-33) kayitlarina kademe: eklendi; Anadolu'nun f'si 1832-08-01 -> 1832-07-29 (onceki kaydin t'siyle ayni gun, kopukluk kapandi). - node --check: 5/5 dosya temiz. py denetim/ARAC-SEFER-OK-SINAV-0075.py gercek veride: 13 rotali kayit GECTI, 0 IHLAL (once 546 km kara kesimi vardi). - Tarayicida (localhost, gercek data/+js/, r9936): harita hazir, seferler=121, 3 tahliye ve 13 rotali kayit canli. Ekran goruntusu: Mora->Girit tahliye oku (yeni \"tahliye\" lejant kutusu, nokta+cizgi deseni) Mora yarimadasini ve Kithira'yi guneyden dolanip DENIZDEN gidiyor, karaya girmiyor. Suriye seferi 1832-06-16'da okun ucu tam Sam'da (36.29,33.51) — kademeli ilerleme dogrulandi. - js/app.js ve js/sefer_ok.js hala COMMITSIZ (onceki teslimden beri degismedi); baska oturumun (DALGA-0074) commitsiz app.js duzenlemeleri de hala orada — ikisi ayri hunk, cakismiyor. ② BULAMADIM / DEGISMEDI - data/seferler_p0074.js hala index.html'e bagli degil (A1, benim kalemim degil). - Silistre 1836 okunun varis yeri hala kaynaksiz (kesinlik alaninda yazili) — PARTI-0075-UYGULAMA.md karar listesinde degildi, ben ekledim cunku 1.MURAT'in B5 onayi genel. ③ ISTIYORUM 1. git gc bitince COMMIT: benim dosyalarim data/seferler_sefer_ok_0075.js (yeni) + data/{savaslar,seferler_ok103,seferler_p0068,seferler_p0071}.js + index.html + js/{app,sefer_ok}.js. index.html ve savaslar.js PAYLASILAN dosyalar (ANTLASMALAR bolumunde baska oturumun commitsiz degisikligi var, SEFERLER bolumune dokunmuyor) — pathspec'i sizin gecerken benim satirlarimi da alin ya da ayirmami isteyin. 2. KARAR bekliyor (rapor denetim/SEFER-OK-0075.md'de detayli): Silistre tahliye okunu tutalim mi (kaynaksiz varis, sematik)? 3. Devami yok — is bitti. Bekcimi kendim oldurecegim, emekliye ayirabilirsiniz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
