@@ -1,0 +1,77 @@
+AD ANAHTARI: 9418  ·  KAYIT ANAHTARI: 6292
+B9 kanit: 'eski zagra' havuzda mi? -> EVET
+
+==============================================================================
+H-0081 — SARKI RUMELI (1878-1885) kazalari · TAM eslesme
+==============================================================================
+  VAR  Filibe                 <- Filibe  [('koridor.js', 'Filibe'), ('sehirler.js', 'Filibe'), ('yer_yama_vassal_kid_0906.js', 'Filibe')]
+        [sehirler.js] { ad:"Filibe", tur:"sehir", lat:42.144, lon:24.750, k:[{f:"1372-06-01",t:"1878-01-16",d:1,y:"savas"}], koken:"Antik Makedonya Kralı II. Filip tarafından kurulmuş; eski adı 'Philippopolis', Romalılar üç tepesinden ötürü 'Trimontium' da derdi.", onem:"Yukarı Trakya ovasında Meriç Nehri'nin iki yakasında, önemli ticaret yolları üzerinde; on bir kez el değiştirmiş olması bölgesel önemini gösterir.", tarihce:"Roma, Bizans, çeşitli göçmen kavimler, Slavlar, Bulgarlar ve Haçlılardan sonra 1360'ların sonunda Osmanlı tarafından fethedildi.", yapilar:"Cuma Camii (1425, II. Murad), Gazi Şehâbeddin Paşa Külliyesi (1444-45), Bey Camii.", kaynak:"filibe" }
+        [yer_yama_vassal_kid_0906.js] { ad:"Filibe", v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}] }
+        [yerlesimler.js] { ad:"Filibe", tur:"sehir", lat:42.144, lon:24.750, g:1, k:3, m:"Sofya", s:[{f:"1281-01-01",t:"1372-06-01",d:"bulgaristan"},{f:"1885-09-18",t:"1908-10-05",d:"bulgaristan-prensligi"}, {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1372-06-01",t:"1402-07-28",y:"savas"},{f:"1413-07-05",t:"1878-07-13"}], v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}] }
+  VAR  Tatarpazarcığı         <- Tatarpazarcığı  [('yer_yama_vassal_kid_0906.js', 'Tatarpazarcığı'), ('yerlesimler.js', 'Tatarpazarcığı')]
+        [yer_yama_vassal_kid_0906.js] { ad:"Tatarpazarcığı", v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}] }
+        [yerlesimler.js] { ad:"Tatarpazarcığı", tur:"sehir", lat:42.192, lon:24.333, g:0, k:4, m:"Sofya", s:[{f:"1281-01-01",t:"1373-01-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1885-09-18",t:"1908-10-05",d:"bulgaristan-prensligi"}, {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"}], d:[{f:"1373-01-01",t:"1402-07-28",y:"vassal"},{f:"1413-07-05",t:"1878-07-13"}], v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}] }
+  VAR  Eski Zağra             <- Eski Zağra  [('yer_yama_vassal_kid_0906.js', 'Eski Zağra (Stara Zagora)'), ('yerlesimler.js', 'Eski Zağra (Stara Zagora)')]
+        [yer_yama_vassal_kid_0906.js] { ad:"Eski Zağra (Stara Zagora)", v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}] }
+        [yerlesimler.js] { ad:"Eski Zağra (Stara Zagora)", tur:"sehir", lat:42.425, lon:25.633, g:0, k:4, m:"Sofya", s:[{f:"1281-01-01",t:"1372-06-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1885-09-18",t:"1908-10-05",d:"bulgaristan-prensligi"}, {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"}], d:[{f:"1372-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}], v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}] }
+  YOK  Yeni Zağra             (denenen: Yeni Zağra, Nova Zagora, Yenizağra)
+  YOK  İslimye                (denenen: İslimye, Sliven)
+  YOK  Burgaz                 (denenen: Burgaz, Burgas, Ahyolu Burgaz)
+  YOK  Hasköy                 (denenen: Hasköy, Haskovo)
+  YOK  Kızanlık               (denenen: Kızanlık, Kazanlak)
+  YOK  Çırpan                 (denenen: Çırpan, Chirpan)
+  YOK  Ahyolu                 (denenen: Ahyolu, Pomorie)
+  YOK  Mesemvri               (denenen: Mesemvri, Nesebar)
+  YOK  Sozopol                (denenen: Sozopol, Süzebolu)
+  YOK  Karînâbâd              (denenen: Karînâbâd, Karnobat, Karinabad)
+  VAR  Yanbolu                <- Yanbolu  [('yer_yama.js', 'Yanbolu (Yambol)')]
+  YOK  Aydos                  (denenen: Aydos, Aytos)
+  VAR  Kırcaali               <- Kırcaali  [('yerlesimler_seyrek.js', 'Kırcaali')]
+  YOK  Rupçoz                 (denenen: Rupçoz, Rudozem)
+  YOK  Ahıçelebi              (denenen: Ahıçelebi, Smolyan)
+  >>> TAM ESLESME YOK: 13 / 18  ->  Yeni Zağra, İslimye, Burgaz, Hasköy, Kızanlık, Çırpan, Ahyolu, Mesemvri, Sozopol, Karînâbâd, Aydos, Rupçoz, Ahıçelebi
+
+==============================================================================
+H-0103 — Refah-Taba hatti (1906) uclari ve Sina
+==============================================================================
+  YOK  Refah                  (denenen: Refah, Rafah, Refh)
+  YOK  Taba                   (denenen: Taba, Tabe)
+  YOK  Akabe                  (denenen: Akabe, Akabe Korfezi, Aqaba, Ayle)
+  VAR  El-Ariş                <- El-Ariş  [('koridor_f5c9a5.js', 'El-Arîş'), ('yer_yama_misir_himaye.js', 'El-Arîş'), ('yer_yama_vassal_kid_0906.js', 'El-Arîş')]
+  YOK  Nahl                   (denenen: Nahl, Kal'atü'n-Nahl, Kalatünnahl)
+  YOK  Bi'rüssebi             (denenen: Bi'rüssebi, Birüssebi, Beersheba)
+  YOK  Kusayme                (denenen: Kusayme, Kuseyme)
+  VAR  Gazze                  <- Gazze  [('koridor_f5c9a5.js', 'Gazze'), ('yer_yama_vassal_kid_0906.js', 'Gazze'), ('yerlesimler.js', 'Gazze')]
+  VAR  Süveyş                 <- Süveyş  [('yer_yama_misir_himaye.js', 'Süveyş'), ('yer_yama_ok101.js', 'Süveyş'), ('yer_yama_vassal_kid_0906.js', 'Süveyş')]
+  >>> TAM ESLESME YOK: 6 / 9  ->  Refah, Taba, Akabe, Nahl, Bi'rüssebi, Kusayme
+
+==============================================================================
+H-0082 / H-0087 — Tunus-Trablusgarp sinir noktalari
+==============================================================================
+  YOK  Ras Ecdir              (denenen: Ras Ecdir, Râs Ecdîr, Ras Ajdir, Rasecdir)
+  VAR  Gadames                <- Gadâmis  [('yer_yama_vassal_kid_0906.js', 'Ğadâmis'), ('yerlesimler_afrika.js', 'Ğadâmis')]
+  YOK  Sinâven                (denenen: Sinâven, Sinaven)
+  VAR  Dirc                   <- Derc  [('yer_yama_vassal_kid_0906.js', 'Derc (Derj)'), ('yerlesimler_h2_kuzeyafrika.js', 'Derc (Derj)')]
+  VAR  Zuvâre                 <- Zuvâre  [('yer_yama_vassal_kid_0906.js', 'Zuvâre'), ('yerlesimler_afrika.js', 'Zuvâre')]
+  VAR  Nâlût                  <- Nâlût  [('yer_yama_vassal_kid_0906.js', 'Nâlût'), ('yerlesimler_afrika.js', 'Nâlût')]
+  VAR  Bin Gerdân             <- Bin Gerdân  [('yer_yama_vassal_kid_0906.js', 'Bin Gerdân'), ('yerlesimler_afrika.js', 'Bin Gerdân')]
+  YOK  Dehibat                (denenen: Dehibat, Dehiba)
+  YOK  Remada                 (denenen: Remada)
+  >>> TAM ESLESME YOK: 4 / 9  ->  Ras Ecdir, Sinâven, Dehibat, Remada
+
+==============================================================================
+H-0070 — Dogu Sudan (Beja ulkesi) noktalari
+==============================================================================
+  VAR  Tokar                  <- Tokar  [('yerlesimler_afrika.js', 'Tokar')]
+        [yerlesimler_afrika.js] { ad:"Tokar", tur:"sehir", lat:18.427, lon:37.729, g:0, k:4, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi",enklav:true},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1557-01-01",t:"1884-01-01"}] }
+  VAR  Sinkat                 <- Sinkat  [('yerlesimler_afrika.js', 'Sinkat')]
+        [yerlesimler_afrika.js] { ad:"Sinkat", tur:"sehir", lat:18.833, lon:36.833, g:0, k:4, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1557-01-01",t:"1885-02-05"}] }
+  VAR  Sevâkin                <- Sevâkin  [('yer_yama_vassal_kid_0906.js', 'Sevâkin'), ('yerlesimler.js', 'Sevâkin')]
+  YOK  Handub                 (denenen: Handub)
+  YOK  Tamai                  (denenen: Tamai, Temai)
+  YOK  Ted                    (denenen: Ted, Et-Teb, Teb)
+  VAR  Kesela                 <- Kesela  [('yer_yama_vassal_kid_0906.js', 'Kesela'), ('yerlesimler_afrika.js', 'Kesela')]
+  VAR  Metemme                <- Metemma  [('kademe_4ff22b.js', 'Metemma'), ('yerlesimler_afrika.js', 'Metemma')]
+  VAR  Vâdihalfa              <- Vadi Halfa  [('yer_yama_misir_himaye.js', 'Vâdî Halfâ'), ('yer_yama_vassal_kid_0906.js', 'Vâdî Halfâ'), ('yerlesimler_afrika.js', 'Vâdî Halfâ')]
+  >>> TAM ESLESME YOK: 3 / 9  ->  Handub, Tamai, Ted
+

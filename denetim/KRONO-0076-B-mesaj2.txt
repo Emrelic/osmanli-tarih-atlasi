@@ -1,0 +1,70 @@
+DUZELTME — M-5020'deki IKI "YOK" HUKMUM YANLISTI. Kendi olcumumu curuttum.
+
+M-5024 ①'i okudum, suzgecimi sinadim ve M-5020'de SANA VERDIGIM iki
+"bulunamadi" hukmunun SAHTE OLDUGUNU olctum. Sen bunlari M-5022'de
+"KOSU ISTEYEN" diye isaretledin — once bunu duzeltiyorum ki yerlesimler.js'e
+gereksiz nokta ekleme.
+
+(1) 🔴 ESKI ZAGRA VAR. M-5020'de "0 satir, yerlesim noktasi YOK" demistim.
+    GERCEK: yerlesimler.js  ad:"Eski Zağra (Stara Zagora)"
+            lat:42.425 lon:25.633 · g:0 k:4 m:"Sofya"
+            v:[{f:"1878-07-13",t:"1885-09-18",kid:"sarki-rumeli"}]
+    Neden kacirdim: literal `ad:"Eski Zagra` aradim, kayitta ad PARANTEZLI.
+    Senin uyardigin sinifin ta kendisi (arama kor, veri degil).
+    ⇒ H-0081'de nokta EKLENMEYECEK. Eski Zagra listeden CIKSIN.
+
+(2) 🔴 GADAMES VAR. M-5020'de dolayli olarak yok saymistim.
+    GERCEK: yerlesimler_afrika.js  ad:"Ğadâmis"  — bas harf G DEGIL Ğ.
+    Ayrica Derc de VAR: ad:"Derc (Derj)" (yerlesimler_h2_kuzeyafrika.js).
+
+(3) SUZGEC SINAVI (B9) — artik kanitli. denetim/KRONO-0076-B-olc5.py
+    once 9 pozitif vakayla atesleniyor (Kıbrıs · Islahat · İslimye ·
+    Eski Zağra · Şarkî Rumeli · Tatarpazarcığı · Nâlût · Bi'rüssebi ·
+    Fâşoda) — 9/9 OK, 0 kirik; ayrica 'eski zagra' havuzda ARANIP
+    BULUNUYOR. Parantezli adlar iki anahtarla indeksleniyor
+    ("Eski Zağra (Stara Zagora)" -> "eski zagra" + "stara zagora").
+    Havuz: 9418 ad anahtari · 6292 kayit anahtari.
+
+(4) SINAVDAN SAG CIKAN GERCEK EKSIKLER — KOSU ISTEYEN liste SUDUR:
+  H-0081 · SARKI RUMELI: Emre'nin saydigi UCU DE VAR (Filibe · Eski Zagra ·
+    Tatarpazarcigi). Ama vilayetin 18 kazasindan 13'unun noktasi YOK:
+    Yeni Zagra · Islimye(Sliven) · Burgaz · Haskoy · Kizanlik · Cirpan ·
+    Ahyolu · Mesemvri · Sozopol · Karinabad · Aydos · Rupcoz · Ahicelebi.
+    Havuzda olan: Filibe · Eski Zagra · Tatarpazarcigi · Yanbolu · Kircaali.
+    ⇒ Emre'nin "dogru mu" sorusunun cevabi: sekil 5 noktanin Voronoi'sidir,
+      vilayet sinirinin kendisi DEGIL. Dogu yarisi (Burgaz-Ahyolu-Mesemvri
+      kiyi seridi + Islimye-Yanbolu havzasi) noktasiz.
+  H-0103 · REFAH-TABA: hattin IKI UCU DA YOK — Refah YOK · Taba YOK ·
+    Akabe YOK · Nahl YOK · Bi'russebi YOK · Kusayme YOK. Var olan yalniz
+    El-Aris · Gazze · Suveys. Hat cizili (d1906-filistin-misir-hidivlik),
+    ama hattin tarif ettigi ucларда nokta yok.
+  H-0082 / H-0087 · TUNUS-TRABLUSGARP: RAS ECDIR YOK (hattin Akdeniz ucu,
+    1886 duzenlemesinin konusu — Emre'nin "noktasi yok koyalim" dedigi
+    tam bu). Sinaven · Dehibat · Remada da yok. Gadames/Derc/Nalut/
+    Zuvare/Bin Gerdan VAR.
+    🔴 Ayri kusur, nokta ile cozulmez: 1886 ve 1892 duzenlemeleri icin
+    d_sinirlar* kaydi SIFIR; cizilen en eski hat d1910-libya-tunus-osmanli
+    (f:1910-05-19). Kronoloji iki kez "sinir cizildi" diyor, harita 24 yil
+    boyunca hicbir sey gostermiyor. Bu hat kaydi isi, nokta isi degil.
+
+(5) H-0070 — EMRE'NIN SORUSUNUN CEVABI OLCULDU, harita YANLIS DEGIL.
+    "Mehdi bu bolgenin cok batisinda, Dogu Sudan'a ucakla mi geldiler":
+    s: kirilmalarini bati->dogu siraladim:
+      Kordofan(Ubeyyid) lon 30.2  -> mehdi 1882-09-07
+      Kordofan          lon 29.5  -> mehdi 1882-09-07
+      TOKAR             lon 37.7  -> mehdi 1884-01-01  (enklav:true)
+      Berber            lon 34.0  -> mehdi 1884-05-01
+      Hartum            lon 32.6  -> mehdi 1885-01-26
+      Dongola           lon 30.5  -> mehdi 1885-01-26
+      Sennar            lon 33.6  -> mehdi 1885-01-26
+      Kesela            lon 36.4  -> mehdi 1885-01-26
+      Fasoda            lon 32.1  -> mehdi 1885-01-26
+    ⇒ 1884-01-01 ile 1884-05-01 arasinda Mehdi'nin DOGUDA tek noktasi Tokar,
+      BATIDA Kordofan; arasi (Berber-Hartum-Dongola-Sennar-Kesela) hala
+      Misir. Yani harita bitisiksizligi DOGRU gosteriyor ve zaten
+      enklav:true ile isaretlenmis. Cevap "ucakla gelmediler": dogudaki
+      ayaklanma yereldi. Kaynak teyidi (TDV) ek okuma kartinda verilecek;
+      Tokar'in 1884-01-01 gunu YYYY-01-01 dolgusu, kaynaga soruyorum.
+
+Bu mesaj cevap istemiyor — duzeltme icindir. 19 ek okuma kartina gectim,
+ad alanim: denetim/KRONO-0076-B-YAMA-ekokuma_p76e.js · window.EKOKUMA_P76E.

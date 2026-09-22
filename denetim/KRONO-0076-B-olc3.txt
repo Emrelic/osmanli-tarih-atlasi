@@ -1,0 +1,160 @@
+TARANAN DOSYA: 444 · CIKARILAN ad: kaydi: 6323 (tekil ad: 4783)
+
+##############################################################################
+# H-0070 — DOGU SUDAN noktalarinin s: sahipligi (1884-1885 penceresi)
+##############################################################################
+  [yerlesimler_afrika.js] Tokar                  lat=18.427 lon=37.729
+      s: s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi",enklav:true},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}]
+  [yer_yama_vassal_kid_0906.js] Sevâkin                lat=- lon=-
+      v: v:[{f:"1865-01-01",t:"1884-02-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Sevâkin                lat=19.106 lon=37.332
+      s: s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-02-01",t:"1923-10-29",d:"ingiltere",enklav:true}]
+      v: v:[{f:"1865-01-01",t:"1884-02-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yer_yama_vassal_kid_0906.js] Kesela                 lat=- lon=-
+      v: v:[{f:"1840-01-01",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler_afrika.js] Kesela                 lat=15.451 lon=36.400
+      s: s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1840-01-01",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yer_yama_vassal_kid_0906.js] Berber                 lat=- lon=-
+      v: v:[{f:"1821-01-04",t:"1884-05-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler_afrika.js] Berber                 lat=18.017 lon=33.983
+      s: s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1884-05-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1821-01-04",t:"1884-05-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yer_yama_vassal_kid_0906.js] Dongola                lat=- lon=-
+      v: v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Dongola                lat=19.169 lon=30.474
+      s: s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yer_yama_vassal_kid_0906.js] Hartum                 lat=- lon=-
+      v: v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Hartum                 lat=15.500 lon=32.559
+      s: s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  Sennâr                   bulunamadi
+  [yer_yama_vassal_kid_0906.js] Sennar                 lat=- lon=-
+      v: v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Sennar                 lat=13.551 lon=33.616
+      s: s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yer_yama_vassal_kid_0906.js] Kordofan (Ubeyyid)     lat=- lon=-
+      v: v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Kordofan (Ubeyyid)     lat=13.184 lon=30.218
+      s: s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [kademe_4ff22b.js] Kordofan               lat=- lon=-
+  [yer_yama_vassal_kid_0906.js] Kordofan               lat=- lon=-
+      v: v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Kordofan               lat=13.00 lon=29.50
+      s: s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}]
+      v: v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  Fâşir                    bulunamadi
+  Faşir                    bulunamadi
+  El-Faşir                 bulunamadi
+  Ceneyne                  bulunamadi
+  Vâdihalfa                bulunamadi
+  Vadi Halfa               bulunamadi
+  Halfa                    bulunamadi
+  Şendi                    bulunamadi
+  [yerlesimler_afrika.js] Sinkat                 lat=18.833 lon=36.833
+      s: s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}]
+  [yer_yama_vassal_kid_0906.js] Masavva                lat=- lon=-
+      v: v:[{f:"1865-01-01",t:"1885-02-05",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Masavva                lat=15.6117 lon=39.4723
+      s: s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}]
+      v: v:[{f:"1865-01-01",t:"1885-02-05",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}]
+  Suakin                   bulunamadi
+  Dârfûr                   bulunamadi
+  [kademe_d48240.js] Darfur                 lat=- lon=-
+  [yer_yama_belgesiz4.js] Darfur                 lat=- lon=-
+      s: s:[{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},
+     {f:"1695-01-01",t:"1916-11-06",d:"darfur"},
+     {f:"1916-11-06",t:"1923-10-29",d:"ingiliz-sudani"}]
+  [yerlesimler.js] Darfur                 lat=13.50 lon=24.00
+      s: s:[{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1916-11-06",d:"darfur"},{f:"1916-11-06",t:"1923-10-29",d:"ingiliz-sudani"}]
+  [yerlesimler_h2_afrika.js] Fâşoda                 lat=9.892 lon=32.117
+      s: s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}]
+      v: v:[]
+  Faşoda                   bulunamadi
+
+##############################################################################
+# H-0081 — SARKI RUMELI (1878-1885) nokta sayimi
+##############################################################################
+  [sehirler.js] Filibe                 lat=42.144 lon=24.750
+  [yer_yama_vassal_kid_0906.js] Filibe                 lat=- lon=-
+      v: v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}]
+  [yerlesimler.js] Filibe                 lat=42.144 lon=24.750
+      s: s:[{f:"1281-01-01",t:"1372-06-01",d:"bulgaristan"},{f:"1885-09-18",t:"1908-10-05",d:"bulgaristan-prensligi"}, {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:
+      v: v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}]
+  [yer_yama_vassal_kid_0906.js] Tatarpazarcığı         lat=- lon=-
+      v: v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}]
+  [yerlesimler.js] Tatarpazarcığı         lat=42.192 lon=24.333
+      s: s:[{f:"1281-01-01",t:"1373-01-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1885-09-18",t:"1908-10-05",d:"bulgaristan-pre
+      v: v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti",statu:"vassal",kid:"sarki-rumeli"}]
+  [yer_yama_vassal_kid_0906.js] Rusçuk                 lat=- lon=-
+      v: v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi"}]
+  [yerlesimler.js] Rusçuk                 lat=43.856 lon=25.971
+      s: s:[{f:"1281-01-01",t:"1388-01-01",d:"bulgaristan"},{f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-c
+      v: v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi"}]
+  [sehirler.js] Varna                  lat=43.220 lon=27.900
+  [yer_yama_vassal_kid_0906.js] Varna                  lat=- lon=-
+      v: v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi"}]
+  [yerlesimler.js] Varna                  lat=43.214 lon=27.915
+      s: s:[{f:"1281-01-01",t:"1391-01-01",d:"bulgaristan"},{f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-c
+      v: v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi"}]
+  ---
+  VAR (4): Filibe, Tatarpazarcığı, Rusçuk, Varna
+  YOK (25): Eski Zağra, Eskizağra, Zağra, Yeni Zağra, İslimye, Burgaz, Burgas, Hasköy, Kızanlık, Çırpan, Ahyolu, Mesemvri, Sozopol, Süzebolu, Karînâbâd, Karinabad, Stara Zagora, Nova Zagora, Plovdiv, Pazarcık, Sliven, Haskovo, Kazanlak, Yanbolu, Aydos
+
+##############################################################################
+# H-0103 — Refah / Taba / Akabe cevresi
+##############################################################################
+  Refah                    bulunamadi
+  Taba                     bulunamadi
+  Akabe                    bulunamadi
+  Akabe (Ayle)             bulunamadi
+  El-Ariş                  bulunamadi
+  Ariş                     bulunamadi
+  [yer_yama_vassal_kid_0906.js] Gazze                  lat=- lon=-
+      v: v:[{f:"1831-10-31",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}]
+  [yerlesimler.js] Gazze                  lat=31.502 lon=34.466
+      s: s:[{f:"1281-01-01",t:"1516-12-21",d:"memluk"},{f:"1917-11-07",t:"1920-07-01",d:"ingiltere"},{f:"1920-07-01",t:"1923-10-29",d:"filistin-mandasi"}]
+      v: v:[{f:"1831-10-31",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}]
+  Kal'atü'n-Nahl           bulunamadi
+  Nahl                     bulunamadi
+  Kusayme                  bulunamadi
+  Bi'rüssebi               bulunamadi
+  Birüssebi                bulunamadi
+
+##############################################################################
+# H-0082 / H-0087 — Ras Ecdir / Gadames / Trablusgarp bati sinir noktalari
+##############################################################################
+  Ras Ecdir                bulunamadi
+  Râs Ecdîr                bulunamadi
+  Gadames                  bulunamadi
+  Gadâmis                  bulunamadi
+  Gadamis                  bulunamadi
+  Zuvare                   bulunamadi
+  [yer_yama_vassal_kid_0906.js] Zuvâre                 lat=- lon=-
+      v: v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}]
+  [yerlesimler_afrika.js] Zuvâre                 lat=32.931 lon=12.082
+      s: s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}]
+      v: v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}]
+  Nalut                    bulunamadi
+  [yer_yama_vassal_kid_0906.js] Nâlût                  lat=- lon=-
+      v: v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}]
+  [yerlesimler_afrika.js] Nâlût                  lat=31.868 lon=10.983
+      s: s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}]
+      v: v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}]
+  Sinâven                  bulunamadi
+  Sinaven                  bulunamadi
+  Dirc                     bulunamadi
+  Cerbe                    bulunamadi
+  Bin Gerdan               bulunamadi
+  Bingerdan                bulunamadi
+  [yer_yama_vassal_kid_0906.js] Tatavin                lat=- lon=-
+      v: v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}]
+  [yerlesimler_afrika.js] Tatavin                lat=32.930 lon=10.451
+      s: s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}]
+      v: v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}]
+  Medenin                  bulunamadi
+  Zarzis                   bulunamadi

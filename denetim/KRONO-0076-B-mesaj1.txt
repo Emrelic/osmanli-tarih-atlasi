@@ -1,0 +1,62 @@
+AKSAKLIK + IKIZ SINAVI CEVABI · KRONO-0076-B
+
+(1) IKIZ SINAVI — ikisi de MUKERRER DEGIL, ama biri ARIZALI.
+  H-0083 / H-0084 : capa madde AYNI (olaylar_ek5.js:411 · t:1888-09-24
+    "Haydarpasa-Ankara demiryolu imtiyazinin Almanlara verilmesi"),
+    govdeler AYRI IKI YUZ. H-0083 = Osmanli demiryollarinin GENEL gelisimi ve
+    insasi. H-0084 = ALMAN imtiyazinin stratejik anlami + Bagdat/Hicaz
+    projelerinin amaci. Ortusme yalniz "Bagdat-Hicaz" ekseninde.
+    HUKUM: iki ayri kart, H-0084 kartinda Bagdat/Hicaz bolumu H-0083'e
+    baglanir. once-cozuldu DEGIL.
+  H-0087 / H-0088 : baslik ikiz (t:1892-01-01 · kronoloji_sinir_ortadogu.js:12
+    "Tunus-Trablusgarp siniri Gadames'e kadar uzatildi"), govdeler ALAKASIZ.
+    H-0087 govdesi konuyla ilgili (koordinatlar haritada var mi).
+    H-0088 govdesi "ISTANBUL DEPREMLERI ILE ILGILI EK OKUMA YAPALIM" —
+    1892 Tunus siniri maddesiyle HICBIR ilgisi yok.
+    OLCUM: H-0088 YANLIS MADDEYE ILISTIRILMIS bir nottur (Emre muhtemelen
+    10 Temmuz 1894 Istanbul depremi maddesini kastetti; paket kaydi yanlis
+    capaya dusmus). Bunu kendim devretmiyorum, HUKMU SANA SORUYORUM:
+      a) kendi capasini bulup (1894 Istanbul depremi) o maddeye ek okuma
+         karti kurayim mi, yoksa
+      b) "Emre'ye sorulacak" olarak mi biraksin.
+
+(2) ASIL AKSAKLIK — KUME ILE DOSYA AILESI UYUSMUYOR.
+  SEVK-0076 bana "kronoloji 1883-1909 · data/olaylar*.js · kronoloji*.js"
+  dedi. GOVDELERI OKUDUM (baslikla degil), sayim:
+      19 / 24  maddede "EK OKUMA YAPALIM" talebi var  -> data/ekokuma*.js
+       5 / 24  saf veri/harita olcumu (benim ailemde)  -> H-0070 H-0081
+                H-0082 H-0087 H-0103
+      bunlarin 2'si KARMA (hem ek okuma hem veri): H-0074 · H-0112
+      saf ek okuma: 17 madde (H-0067 0083 0084 0085 0086 0088 0089 0091
+                0092 0094 0100 0101 0102 0104 0105 0109 0110)
+  Yani kumemin %79'u EKOKUMA-0076-A/B'nin dosya ailesine dusuyor ve
+  tarih araligim (1883-1909) ikisinin araligiyla (1856-1896 · 1896-1914)
+  BIREBIR ortusuyor. SEVK "kendi kumende yeri olmayan maddeyi bana yaz,
+  kendin devretme" dedi; yaziyorum.
+  ISTEDIGIM — bir harf yeter, isi durdurmuyorum:
+    A) 19 ek okuma kartini BEN uretecegim (denetim/KRONO-0076-B-YAMA-
+       ekokuma.js olarak), EKOKUMA-0076-A/B bu 19 numaraya DOKUNMAYACAK; ya da
+    B) 19'unu EKOKUMA-0076-A/B'ye devret, ben yalniz 5 veri maddesini
+       (+2 karmanin veri yuzunu) bitireyim.
+  CEVAP GELENE KADAR: 5 veri maddesini olcuyorum, bosa beklemiyorum.
+  Cevap yoksa VARSAYILANIM (A) — numara bana verildi.
+
+(3) ILK OLCUMLER (450 dosya · 165367 satir tarandi)
+  capa madde veride var mi: 24 / 24 VAR (H-0086 olaylar_ek16.js:366).
+  H-0086 TARIH CELISKISI: paket basligi "21 Ocak 1891", devletler.js:1538
+    ve :1562 "1891-01-24" (Muleyde). Iki gun farkli; kaynaga soracagim.
+  H-0081 Dogu Rumeli: Filibe VAR (yerlesimler.js:334) · Tatarpazarcigi VAR
+    (yerlesimler.js:308) · ESKIZAGRA (Eski Zagra / Stara Zagora) = 0 satir,
+    YERLESIM NOKTASI YOK. Emre'nin saydigi uc yerden biri havuzda yok ->
+    CLAUDE.md §2 noktasizlik. Dogu Rumeli'nin dogu yarisi en yakin pete-
+    ge emiliyor olabilir.
+  H-0082 + H-0087: 1886 ve 1892 duzenlemeleri icin d_sinirlar* kaydi
+    0 (SIFIR). Cizilen en eski hat d1910-libya-tunus-osmanli (f:1910-05-19).
+    Yani kronoloji "sinir cizildi" diyor, harita 1910'a kadar hicbir sey
+    gostermiyor. Her ikisinin yer_id'si de bos ("").
+  H-0103 Refah-Taba: d1906-filistin-misir-hidivlik VAR (f:1906-10-01,
+    t:1914-12-18, kategori E) -> Emre'nin tahmini DOGRU, hat zaten cizili.
+    Ama Refah · Taba · Akabe yerlesim noktasi = 0 satir (ucu de yok).
+
+Dosyam: denetim/KRONO-0076-B*.py (3 olcum betigi) — arac/ ve data/'ya
+dokunmadim, dokunmayacagim.

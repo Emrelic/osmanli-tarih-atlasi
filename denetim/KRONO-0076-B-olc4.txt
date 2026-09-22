@@ -1,0 +1,69 @@
+==============================================================================
+B9 SINAVI — normallestirici pozitif vakalarla ATESLENDI (M-5024 ①)
+==============================================================================
+  Kıbrıs             -> kibris             beklenen kibris             OK
+  Islahat            -> islahat            beklenen islahat            OK
+  İslimye            -> islimye            beklenen islimye            OK
+  Eski Zağra         -> eski zagra         beklenen eski zagra         OK
+  Şarkî Rumeli       -> sarki rumeli       beklenen sarki rumeli       OK
+  Tatarpazarcığı     -> tatarpazarcigi     beklenen tatarpazarcigi     OK
+  Nâlût              -> nalut              beklenen nalut              OK
+  Bi'rüssebi         -> birussebi          beklenen birussebi          OK
+  Fâşoda             -> fasoda             beklenen fasoda             OK
+  >> SONUC: SUZGEC CALISIYOR (0 kirik)
+
+AD HAVUZU: 5854 tekil normal ad
+  POZITIF KANIT  filibe           -> BULUNDU
+  POZITIF KANIT  tatarpazarcigi   -> BULUNDU
+  POZITIF KANIT  tokar            -> BULUNDU
+  POZITIF KANIT  nalut            -> BULUNDU
+  POZITIF KANIT  zuvare           -> BULUNDU
+
+------------------------------------------------------------------------------
+H-0081 — SARKI RUMELI kazalari (1878-1885). Vilayet 6 sancak/kaza kumesi:
+  VAR  Filibe               [TAM]  [('koridor.js', 'Filibe'), ('sehirler.js', 'Filibe'), ('yer_yama_vassal_kid_0906.js', 'Filibe')]
+  VAR  Tatarpazarcığı       [TAM]  [('yer_yama_vassal_kid_0906.js', 'Tatarpazarcığı'), ('yerlesimler.js', 'Tatarpazarcığı')]
+  VAR  Eski Zağra           [PARCALI]  [('kademe_f5c9a5.js', 'Agra'), ('yer_yama_vassal_kid_0906.js', 'Eski Zağra (Stara Zagora)'), ('yerlesimler.js', 'Eski Zağra (Stara Zagora)'), ('yerlesimler_asya.js', 'Agra')]
+  VAR  Yeni Zağra           [PARCALI]  [('kademe_f5c9a5.js', 'Agra'), ('yerlesimler_asya.js', 'Agra')]
+  VAR  Burgaz               [PARCALI]  [('yerlesimler.js', 'Lüleburgaz')]
+  VAR  Hasköy               [PARCALI]  [('kademe_4ff22b.js', 'Hâş'), ('yerlesimler.js', 'Hâş')]
+  VAR  Yanbolu              [PARCALI]  [('koridor.js', 'Bolu'), ('yer_yama.js', 'Yanbolu (Yambol)'), ('yerlesimler.js', 'Bolu')]
+  VAR  Aydos                [PARCALI]  [('yerlesimler.js', 'Aydos Kalesi'), ('yerlesimler.js', 'Maydos (Eceabat)'), ('yerlesimler_ek15.js', 'Oş')]
+  VAR  Cisr-i Mustafa Paşa  [PARCALI]  [('gecitler.js', 'Cisr-i Mustafa Paşa (Svilengrad) Köprüsü')]
+  VAR  Kırcaali             [TAM]  [('yerlesimler_seyrek.js', 'Kırcaali')]
+  YOK  (10/20): İslimye, Kızanlık, Çırpan, Ahyolu, Mesemvri, Sozopol, Karînâbâd, Rupçoz, Ahıçelebi, Sultanyeri
+------------------------------------------------------------------------------
+H-0103 — Refah-Taba hattinin iki ucu ve Sina
+  VAR  Taba                 [PARCALI]  [('devletler.js', 'Dene (Atabask Halkları)'), ('kademe_f5c9a5.js', 'Devagiri (Devletâbâd)'), ('kademe_f5c9a5.js', 'Kotabato (Magindanao)'), ('yer_yama_vassal_kid_0906.js', 'Tabarka')]
+  VAR  El-Ariş              [TAM]  [('koridor_f5c9a5.js', 'El-Arîş'), ('yer_yama_misir_himaye.js', 'El-Arîş'), ('yer_yama_vassal_kid_0906.js', 'El-Arîş')]
+  VAR  Kusayme              [PARCALI]  [('yer_yama_misir_himaye.js', 'Kûs'), ('yer_yama_vassal_kid_0906.js', 'Kûs'), ('yerlesimler_afrika.js', 'Kûs'), ('yerlesimler_afrika2.js', 'Say')]
+  VAR  Tûr                  [PARCALI]  [('devletler.js', 'Anadolu (Türkiye) Selçuklu Devleti'), ('devletler.js', 'Avusturya Cumhuriyeti (I. Cumhuriyet)'), ('devletler.js', 'Bosna-Hersek (Avusturya İşgali)'), ('devletler.js', 'Cahokia (Mississippi Kültürü)')]
+  VAR  Süveyş               [TAM]  [('yer_yama_misir_himaye.js', 'Süveyş'), ('yer_yama_ok101.js', 'Süveyş'), ('yer_yama_vassal_kid_0906.js', 'Süveyş')]
+  YOK  (5/10): Refah, Akabe, Nahl, Bi'rüssebi, Kal'atü'n-Nahl
+------------------------------------------------------------------------------
+H-0082 / H-0087 — Tunus-Trablusgarp sinirinin iki ucu
+  VAR  Zuvâre               [TAM]  [('yer_yama_vassal_kid_0906.js', 'Zuvâre'), ('yerlesimler_afrika.js', 'Zuvâre')]
+  VAR  Nâlût                [TAM]  [('yer_yama_vassal_kid_0906.js', 'Nâlût'), ('yerlesimler_afrika.js', 'Nâlût')]
+  VAR  Cerbe                [TAM]  [('savaslar.js', 'Cerbe')]
+  VAR  Bin Gerdan           [TAM]  [('yer_yama_vassal_kid_0906.js', 'Bin Gerdân'), ('yerlesimler_afrika.js', 'Bin Gerdân')]
+  VAR  Tatavin              [TAM]  [('yer_yama_vassal_kid_0906.js', 'Tatavin'), ('yerlesimler_afrika.js', 'Tatavin')]
+  VAR  Medenin              [TAM]  [('yer_yama_vassal_kid_0906.js', 'Medenîn'), ('yerlesimler_afrika.js', 'Medenîn')]
+  VAR  Zarzis               [PARCALI]  [('yer_yama_vassal_kid_0906.js', 'Cerciş (Zarzis)'), ('yerlesimler_afrika.js', 'Cerciş (Zarzis)')]
+  VAR  Gabes                [TAM]  [('yer_yama_vassal_kid_0906.js', 'Gabes'), ('yerlesimler.js', 'Gabes')]
+  YOK  (7/15): Ras Ecdir, Gadames, Sinâven, Dirc, Kâbis, Dehibat, Remada
+------------------------------------------------------------------------------
+H-0070 — Dogu Sudan (Beja/Hadendoa) ve ara bolge
+  VAR  Tokar                [TAM]  [('yerlesimler_afrika.js', 'Tokar')]
+  VAR  Sevâkin              [TAM]  [('yer_yama_vassal_kid_0906.js', 'Sevâkin'), ('yerlesimler.js', 'Sevâkin')]
+  VAR  Sinkat               [TAM]  [('yerlesimler_afrika.js', 'Sinkat')]
+  VAR  Kesela               [TAM]  [('yer_yama_vassal_kid_0906.js', 'Kesela'), ('yerlesimler_afrika.js', 'Kesela')]
+  VAR  Berber               [TAM]  [('yer_yama_vassal_kid_0906.js', 'Berber'), ('yerlesimler_afrika.js', 'Berber')]
+  VAR  Hartum               [TAM]  [('yer_yama_vassal_kid_0906.js', 'Hartum'), ('yerlesimler.js', 'Hartum')]
+  VAR  Dongola              [TAM]  [('yer_yama_vassal_kid_0906.js', 'Dongola'), ('yerlesimler.js', 'Dongola')]
+  VAR  Sennar               [TAM]  [('yer_yama_vassal_kid_0906.js', 'Sennar'), ('yerlesimler.js', 'Sennar')]
+  VAR  Kordofan (Ubeyyid)   [TAM]  [('yer_yama_vassal_kid_0906.js', 'Kordofan (Ubeyyid)'), ('yerlesimler.js', 'Kordofan (Ubeyyid)')]
+  VAR  Şendi                [TAM]  [('yer_yama_vassal_kid_0906.js', 'Şendî'), ('yerlesimler_afrika.js', 'Şendî')]
+  VAR  El-Faşir             [TAM]  [('kademe_4ff22b.js', 'El-Fâşir'), ('yer_yama_vassal_kid_0906.js', 'El-Fâşir'), ('yerlesimler_afrika.js', 'El-Fâşir')]
+  VAR  Ebû Hamed            [TAM]  [('yer_yama_vassal_kid_0906.js', 'Ebû Hamed'), ('yerlesimler_afrika.js', 'Ebû Hamed')]
+  VAR  Ted                  [PARCALI]  [('devletler.js', 'Kanem Tubu Sahası (Teda-Daza)'), ('devletler.js', 'Tibesti Teda (Tubu) Konfederasyonu'), ('ekokuma_p75c.js', "Boğazlar açık mı kapalı mı olmalı? 1841'de kim neyi istedi?"), ('ekokuma_vezir.js', "Küçük bir kale, büyük bir hedef: Rusya Azak'ı neden bu kadar istedi?")]
+  YOK  (4/17): Vâdihalfa, Metemme, Tamai, Handub
