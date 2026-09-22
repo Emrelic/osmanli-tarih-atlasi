@@ -535,7 +535,24 @@ def on_sinav():
         # ⚠️ ÖLÇÜLEMEDİ ≠ TEMİZ. Tarama koşmadıysa "süreç yok" diyemeyiz;
         #    taşıma açık dosyaların üstünde koşarsa yarıda kalır.
         tamam = False
+    # 🔴 KUTU SÜREÇLERİ ENGEL SAYILMAZ — ⓪ adımı onları `--yap`ta kendisi
+    #   durduruyor. Sayılsaydı prova ASLA yeşile dönmezdi: prova hiçbir
+    #   şeye dokunmuyor, dolayısıyla kutuyu da durdurmuyor; ama ön sınav
+    #   onu engel sayınca kullanıcı "HER ŞEY HAZIR" satırını HİÇ
+    #   göremezdi. Bir kapının, kendi çözdüğü şeyi engel sayması
+    #   kilitlenmedir.
+    #   ⚠️ Yine de GÖRÜNÜYOR — gizlemek başka, engel saymamak başka.
+    kutu = [t for t in (tutan or []) if "kutu" in t[3].lower()]
+    if tutan:
+        tutan = [t for t in tutan if t not in kutu]
+    if kutu and not tutan:
+        yaz("  ✓ klasörü tutan ENGEL yok")
+        yaz("      (%d kutu süreci var ama ⓪ adımı onları kendisi durduracak)"
+            % len(kutu))
     elif tutan:
+        if kutu:
+            yaz("  ⓘ %d kutu süreci ⓪ adımında durdurulacak — engel SAYILMADI"
+                % len(kutu))
         yaz("  ✗ KLASÖRÜ TUTAN %d SÜREÇ VAR — taşıma başarısız olur:" % len(tutan))
         # 🔴 HER SÜRECİN NE OLDUĞU VE NE YAPILACAĞI YAZILIYOR.
         #    Eski hâli yalnız "2532 bash.exe" basıyordu — kullanıcı için
