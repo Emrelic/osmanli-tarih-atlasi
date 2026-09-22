@@ -52,8 +52,8 @@
  ],
  "_olcum": {
   "kaynak": "kutu/emeklilik.py",
-  "kosan": 60,
-  "z": "2026-09-22 15:39"
+  "kosan": 1,
+  "z": "2026-09-22 20:41"
  },
  "oturumlar": {
   "local_00d519a0-1f9c-4c41-af03-8e39bba37c97": {
@@ -1997,6 +1997,27 @@
    "takma_adlar": [
     "ARAŞTIRMA ANADOLU"
    ]
+  },
+  "local_3a18f0d5-a0d3-4b4b-984b-e003732e4841": {
+   "ad": "YILDIRIM BAYEZIT  (koordinatör)",
+   "dizin": "C:\\atlas",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_3a18f0d5-a0d3-4b4b-984b-e003732e4841",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 94335,
+    "bosta_dk": 0,
+    "hukum": "✅ sürdür",
+    "istek": 12,
+    "rol": "koordinator",
+    "sebep": "bağlam 94 K < 208 K",
+    "z": "2026-09-22 20:41"
+   },
+   "olcum_zamani": "2026-09-22 20:41"
   },
   "local_3a57a870-d749-4b60-a026-78319fb4fa61": {
    "ad": "KADEME ZİNCİRİ",

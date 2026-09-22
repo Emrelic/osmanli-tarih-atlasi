@@ -45,7 +45,7 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 | Katman | Ölçülen durum |
 |---|---|
 | Yerleşim (motorun okuduğu) | **3921** nokta, 87 girdi dosyası |
-| Kronoloji | **1713** madde · 1368 duygu etiketli · 1550 `yer_id` · 28 `vefat_id` |
+| Kronoloji | **1713** madde · 1368 duygu etiketli · 1581 `yer_id` · 28 `vefat_id` |
 | Değişmez 1 — sahipsizlik | ✓ 3921 yerleşim, 299 sahipsiz (beklenen 324) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 6/6 — tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 590 kırılma, 0 açık (beklenen 0) |
@@ -57,10 +57,10 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 | Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 87 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
 | Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 30 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
 | Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
-| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **14** hiçbir yerde (gerçek sessiz borç) · ⚪ 38 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 13 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 9 sınır · 127 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
+| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **14** hiçbir yerde (gerçek sessiz borç) · ⚪ 38 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 13 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 9 sınır · 128 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r9785** · `23821b0` |
+| Yayın | **r9964** · `81187045` |
 
 **Elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py` · `--yaz`
 (§1.5'i günceller). Güvenmeden önce koştur; bayat tabloyla kabul ölçütü kurulmaz.
