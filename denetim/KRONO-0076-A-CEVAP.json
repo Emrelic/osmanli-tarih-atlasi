@@ -1,0 +1,121 @@
+{
+  "_not": "KRONO-0076-A'nın hükümleri. Paylaşılan CEVAP.json bulunmadığı ve sekiz oturumun aynı JSON'a yazması sessiz çarpışma olacağı için ayrı dosyaya yazıldı (SINIR-BERLIN-0076'nın açtığı usul); koordinatör birleştirir. Hüküm kelimeleri C:/claudemre/kutu/asama.py HUKUMLER sözlüğündendir. Gerekçelerin tamamı denetim/KRONO-0076-A.md'de, kart yaması denetim/KRONO-0076-A-YAMA-ekokuma_p76d.js'te (window.EKOKUMA_P76D → data/ekokuma_p76d.js).",
+  "_uyari": "Bu vardiyada hiçbir oturum data/'ya yazmaz. 'cozuldu' = yama ÜRETİLDİ ve sınavdan geçti; uygulama koordinatördedir. İnen değişiklik değil, uygulanmaya hazır değişikliktir.",
+  "_oturum": "KRONO-0076-A",
+  "_tarih": "2026-09-23",
+  "_madde_sayisi": 28,
+  "maddeler": {
+    "H-0001": {
+      "hukum": "cozuldu",
+      "not": "Islahat Fermanı ek okuması üretildi: sebep-sonuc-islahat-fermani-1856. Fermanın yedi hükmü, Paris Antlaşması 9. maddesiyle bağı ve İKİ TARAFIN da itirazı (müslümanlarda 'hâkim millet' kaybı ve şeriata aykırılık iddiası; gayri müslimlerde askerlik yükümlülüğü ve kilise imtiyazlarının daralması; cemaat ruhbanında yetki kaybı). Dayanak TDV islahat-fermani (Ufuk Gülsoy). Çapa 1856-02-18, olaylar.js."
+    },
+    "H-0003": {
+      "hukum": "sirada",
+      "not": "Paris Antlaşması'na bağlı ÜÇ kart zaten var (antlasma-paris-1856, sebep-sonuc-paris-1856, savas-kirim-savasi-1853-1856). Emre'nin asıl istediği 'Avrupa devletler sistemi nedir' kartı YOK ve bu tanım TDV'nin kapsamadığı bir kavram tarihi konusudur — akademik kaynak gerekir. Bütçe gereği bırakıldı; devralan oturum paris-antlasmasi maddesinden değil, kavramın kendi literatüründen başlamalı."
+    },
+    "H-0005": {
+      "hukum": "cozuldu",
+      "not": "teknik-arazi-kanunnamesi-1858 üretildi: beş toprak sınıfı (mülk/mîrî/vakıf/metrûk/mevât), mirasçıların üçten sekize çıkması ve tapu ile intikal hâllerinin dokuzdan üçe inmesi, Ahmed Cevdet Paşa komisyonu. Dayanak TDV arazi-kanunnamesi (Mehmet Âkif Aydın). Çapa 1858-06-06, olaylar_ek2.js."
+    },
+    "H-0006": {
+      "hukum": "cozuldu",
+      "not": "sebep-sonuc-kuleli-vakasi-1859 üretildi: 14 Eylül 1859 Kılıç Ali Paşa Camii baskını, Hüseyin Dâim Paşa ve Câferdem Paşa, ihbarcı Mirlivâ Hasan Paşa, idamların müebbet kalebendliğe çevrilmesi. Emre'nin üç talebinden ikisi bu kartta karşılandı (Kuleli + Tanzimat/Islahat rahatsızlığı); 'genel başarısız darbe girişimleri' kartı ise mevcut tartisma-osmanli-darbeleri-tipoloji (ekokuma_padisah.js) ile MÜKERRER olurdu, açılmadı. Dayanak TDV kuleli-vakasi (Zekeriya Türkmen)."
+    },
+    "H-0007": {
+      "hukum": "sirada",
+      "not": "Talep tek kart değil: Suriye-Lübnan'ın Dürzî, Mârûnî, Ortodoks, Katolik, Süryânî, Keldânî, Yezîdî gruplarının her biri ayrı TDV maddesi ister (durzilik, maruniler, suryaniler...). Tek koşuda kaynakları kesinleşmediği için bırakıldı. Çapa hazır: 1860-05-30, olaylar_ek5.js."
+    },
+    "H-0009": {
+      "hukum": "senin-kararin",
+      "not": "AÇIK UÇLU KAPSAM TALEBİ — üretilmedi, ölçüldü. padisahlar.js 41 kayıt; vefat_id taşıyan 27 tekil kimlik; başlığında vefat/ölüm geçen hükümdar maddesi 66. Talep aynen uygulansaydı (her padişaha 1 övgü + 1 yergi) 82 kart, her biri için ayrı bir hükümdar maddesi okunması gerekirdi. Kapsamı yalnız Emre açar. Alet: denetim/KRONO-0076-A-h0009-olc.py."
+    },
+    "H-0010": {
+      "hukum": "cozuldu",
+      "not": "İKİ kart üretildi. teknik-darulfunun-dort-deneme: 1846 karar, 13 Ocak 1863 ilk ders (Kimyager Derviş Paşa), 20 Şubat 1870, 1874-75, 31 Ağustos 1900 ve her denemenin niçin söndüğü. tartisma-universite-kurulus-yili-1453-mi-1863-mu: süreklilik ölçüsü ile kurumsal kimlik ölçüsünün ayrı sorulara cevap verdiği gösterildi; 1453 iddiasının gerekçesi taranan maddede BULUNAMADI ve kartta öyle yazıldı. Dayanak TDV darulfunun (Ekmeleddin İhsanoğlu)."
+    },
+    "H-0012": {
+      "hukum": "sirada",
+      "not": "Çerkes sürgününe bağlı İKİ kart zaten var (tartisma-karadeniz-etnik-genel, tartisma-karadeniz-cerkezler — ekokuma_karadeniz.js) ve sürgünün kendisini anlatıyorlar. Emre'nin istediği AYRI bir şey: sürgünün dönemde ve sonrasında dünyada nasıl karşılandığı, tarihçi-siyasetçi yorumları. Mevcut kartlar bunu KARŞILAMIYOR; yeni kart gerekir, kaynağı TDV dışına (uluslararası literatür) çıkar. Bütçe gereği bırakıldı."
+    },
+    "H-0013": {
+      "hukum": "cozuldu",
+      "not": "teknik-eyaletten-vilayete-1864 üretildi: eyalet yapısı (beylerbeyi, sancak, tımar, salyâne), 1839'da malî işlerin muhassıllara geçmesi, 1864'te vilâyetlerin teşekkülü, idare meclisleri ve küçülen birim. TDV vilayet maddesi GÖVDESİZDİR (bk. EYALET, VALİ) — gövde eyalet maddesinden (Halil İnalcık) alındı. Çapa 1864-11-08, olaylar_ek2.js."
+    },
+    "H-0014": {
+      "hukum": "sirada",
+      "not": "Girit İsyanı çapası veride var (1866-08-21, olaylar_ek5.js). Emre'nin sorusu (Girit ve Kıbrıs'ın Helenliği/Rumluğu ne zamandan beri, Venedik'ten alınan adalar için nasıl hak iddia ediliyor) TDV girit + kibris maddelerinin gövdesinden karşılanabilir, ancak bu oturumdaki çekimde girit maddesinin gövdesi doğrudan aktarılamadı (özet geldi, cümle gelmedi). İkinci çekim şart; uydurma yapılmadı."
+    },
+    "H-0016": {
+      "hukum": "cozuldu",
+      "not": "kimdir-yeni-osmanlilar-cemiyeti üretildi: 1865-1876 muhalif topluluk, Kaya Bilgegil'in 30 Ağustos 1867 Baden-Baden tesbiti ve on üç maddelik nizamnâme, Mustafa Fâzıl Paşa'nın mektubundaki program, Muhbir (31 Ağustos 1867, Londra) ve Hürriyet (1868-1870), dağılış ve 1876'ya etkisi, Genç Osmanlılar/Jön Türk adlandırmaları. Kaynağın kendi ihtiyat kaydı (üyeler arasında birleşmiş tek fikir yoktu) kartta korundu; kesinlik 'tartismali'. Dayanak TDV yeni-osmanlilar-cemiyeti."
+    },
+    "H-0017": {
+      "hukum": "sirada",
+      "not": "Girit Nizamnâmesi çapası veride var (1868-01-04, olaylar_ek5.js) ve madde metni imtiyazları zaten sayıyor. Emre'nin istediği TARTIŞMA kartı (imtiyazlar bağladı mı yoksa kopuşun durakları mıydı, Osmanlıcılık niçin tutmadı, dış mihrak mı iç dinamik mi) üretilmedi: tek taraflı anlatı riski yüksek, kaynakların ayrıldığı yeri göstermek için girit + osmanlicilik maddelerinin gövdeleri birlikte okunmalı. Bütçe gereği bırakıldı."
+    },
+    "H-0018": {
+      "hukum": "cozuldu",
+      "not": "teknik-sura-yi-devlet-1868-idari-yargi üretildi: 5 Mart 1868 iradesiyle Meclis-i Ahkâm-ı Adliyye'nin ikiye ayrılması (Şûrâ-yı Devlet / Midhat Paşa · Dîvân-ı Ahkâm-ı Adliyye / Cevdet Paşa), 1 Nisan 1868 dahilî nizamnâme, 10 Mayıs 1868 açılış, beş daire, 1938 Devlet Şûrası → Danıştay çizgisi. Emre'nin 'kurumların ilk kuruluşları' listesinden Dîvân-ı Muhâsebât (Sayıştay) İÇİN HÜKÜM VERİLMEDİ: TDV'de müstakil madde olarak açılamadı, kartta 'bulunamadı' yazıldı. Anayasa mahkemesi türü bir merciin o tarihlerde bulunmadığı ayrıca belirtildi. Dayanak TDV sura-yi-devlet (Ali Akyıldız)."
+    },
+    "H-0019": {
+      "hukum": "cozuldu",
+      "not": "teknik-galatasaray-mekteb-i-sultanisi-1868 üretildi: 1 Eylül 1868 açılış, Victor Duruy'nin programı, ilk yıl 409 öğrenci (172 müslüman / 237 gayri müslim; 58 Gregoryen Ermeni, 31 Katolik Ermeni, 26 Katolik Latin, 41 Rum, 47 Yahudi, 34 Bulgar), Mart 1870'te 640. Rakamlar, özet değil TDV'nin TÜRKÇE CÜMLESİ geri çekilerek doğrulandı (ilk çekimde özetleyici bir cümleyi başka dilde döndürmüştü, o yüzden ikinci çekim yapıldı). Papalık yasağı, Rum ve Yahudi cemaatlerinin tereddüdü ve ulemâdan muhalefet GELMEMİŞ olması kartta. Dayanak TDV galatasaray-mekteb-i-sultanisi (Adnan Şişman)."
+    },
+    "H-0021": {
+      "hukum": "cozuldu",
+      "not": "teknik-bulgar-eksarhligi-1870-kilise-ve-kimlik üretildi: 11 Mart 1870 müstakil Bulgar kilisesi, cemaat sınırını kilisenin çizdiği düzende ayrı kilise → ayrı okul → ayrı kimlik zinciri, ayrışmanın ilk ekseninin Osmanlı-Bulgar değil Rum-Bulgar olduğu. 🔴 TDV KENDİ İÇİNDE ÇELİŞİYOR: bulgaristan '11 Mart 1870', makedonya '28 Şubat 1870' — 11 günlük fark Rûmî/Milâdî farkıyla uyumlu ama maddeler bunu söylemediği için TARAF SEÇİLMEDİ, ikisi de kartta. 1872 aforozu taranan maddede bulunamadı. Emre'nin 'Balkan etnik kimlikleri' talebinin geri kalanı (Arnavut, Sırp, Makedon, Pomak, Boşnak ayrımları) bu kartta KARŞILANMADI, ayrı kalemdir."
+    },
+    "H-0024": {
+      "hukum": "sirada",
+      "not": "Çapa veride var (1873-04-01, olaylar_ek7.js). Talep iki parçalı: oyunun içeriği/halkın galeyanı + Nâmık Kemal KİŞİ KARTI. Kişi kartı data/kisiler.js ailesine de dokunur, ek okuma kartından ayrı bir şemadır; ikisinin birlikte kurulması gerektiği için bütçe gereği bırakıldı. Başlanacak kaynak: TDV namik-kemal, vatan-yahut-silistre."
+    },
+    "H-0025": {
+      "hukum": "sirada",
+      "not": "Emre dört ihtimali tartışmaya açıyor (devlet baskısı mı, vergi mi, dış mihrak mı, Fransız İhtilâli fikirleri mi, yoksa devletin bastıracak gücü mü kalmamıştı). Bu bir TARTIŞMA kartıdır ve dördünü de kaynağıyla vermek gerekir; tek maddeden kurulamaz. Çapa hazır: 1875-06-19, olaylar_ek5.js. Başlanacak kaynak: TDV hersek, bosna-hersek, sark-meselesi."
+    },
+    "H-0026": {
+      "hukum": "sirada",
+      "not": "Abdülaziz'in hal'i çapası veride (1876-05-30, olaylar_ek2.js) ve ölümü ayrı kayıtta (1876-06-04, olaylar_ek7.js: 'şüpheli şekilde öldü'). Emre'nin istediği 'intihar mı cinayet mi' kartı TARTIŞMALIDIR ve iki görüşü de kaynağıyla vermeyi gerektirir; tek anlatı dayatmamak için TDV abdulaziz gövdesi okunmadan yazılmadı. Bütçe gereği bırakıldı."
+    },
+    "H-0029": {
+      "hukum": "sirada",
+      "not": "V. Murad'ın şahsiyeti ve akıl sağlığı için ÖNCE mükerrerlik ölçülmeli: mevcut tartisma-deli-padisahlar-karsilastirma kartı (ekokuma_padisah.js) bu çapaya BAĞLI ve 'üç padişah deli diye anılır, TDV üçünde de kesin teşhis değil rivayet der' diyor. Yeni kart ancak bunun ötesine geçerse (şehzadeliği, yetişmesi, yaşadığı olaylar) anlamlıdır. Ölçüm yapılmadan üretilmedi."
+    },
+    "H-0030": {
+      "hukum": "cozuldu",
+      "not": "teknik-kanun-i-esasi-1876-sistem üretildi: Midhat Paşa başkanlığındaki mahsus komisyon, 23 Aralık 1876, on iki başlık 119 madde, çift kanatlı Meclis-i Umûmî (Heyet-i Meb'ûsan seçimle, Heyet-i Âyân tayinle), padişahın geniş yetkileri, 113. madde ve Nâmık Kemal-Ziyâ Paşa eleştirisi, meclisin 1877 Martında açılıp 1878'de dağıtılması, 1908 yeniden yürürlük ve asıl dönüşümün 1909 tadilâtıyla gelmesi. Kartın hükmü: 1876 meclisli monarşidir, parlamenter sistem değildir. Emre'nin 'diğer ülkelerde monarşi/meşrutiyet/cumhuriyet dağılımı' talebi bu kartta KARŞILANMADI (karşılaştırmalı kaynak gerekir), 'feshedilmesi haklı mıydı' tartışması da ayrı kalemdir. Dayanak TDV kanun-i-esasi."
+    },
+    "H-0035": {
+      "hukum": "sirada",
+      "not": "93 Harbi'ne bağlı ÜÇ kart var (sebep-sonuc-paris-1856, sebep-sonuc-berlin-1878, sebep-sonuc-doksanuc-harbi-1877-ayastefanos) ve sonuçlarını anlatıyorlar. Emre'nin sorusu SEBEP tarafında: Rusya neyi bahane etti. TDV doksanuc-harbi gövdesi okunmadan yazılmadı; bu oturumda o slug'a bütçe kalmadı."
+    },
+    "H-0036": {
+      "hukum": "sirada",
+      "not": "HARITA-0076'nın hükmü (M-5037), ölçüm bende (M-5033). ÖLÇÜM: kutu lat 39,5-41,8 · lon 41,0-45,0 → 34 nokta; 1877-11-17→19 arası sahibi değişen 1/34 (yalnız Kars); 1877-04-24→1878-03-03 arası 17/34. HARITA-0076 bağımsız doğruladı ve bir cümlemi düzeltti: Kars 'tek başına Rus noktası' DEĞİL, RUS BLOĞUNDAN KOPUK — kutuda 13 Rus noktası var, ama Kars'ın en yakın dört komşusu Osmanlı (Arpaçay 33 km, Digor 36, Küçükperveli 44, Sarıkamış 50), en yakın Rus noktası 55 km (Kliçatak); Küçükperveli tam Kars ile Gümrü arasında durduğu için Kars'ın peteği her yönden Osmanlı peteğiyle çevriliyor. Eksklav görünümü GERÇEK ve 105 gün sürüyor (1877-11-18 → 1878-03-03). SINIF: sınır hatası değil TARİH ASİMETRİSİ; altındaki sebep EKSİK KATMAN — 93 Harbi'nin iki cephesinde de isg: katmanı hiç kullanılmamış (Kars kutusu 0/34, Tuna kutusu 0/58). ÇARE: komşu noktaların d:/s: tarihlerine DOKUNULMAZ (D206 ters yön: çevreyi 1877'ye çekmek Ayastefanos'a kadar gerçekten Osmanlı kalan yerleri erken kaybettirir); Rus işgali isg: kaydıyla gösterilir. EKSİK: hangi yerleşimin hangi gün işgale girdiği — kaynak işidir, HARITA-0076'da bulunamadı, tarih uydurulmadı. Kars'ın 1877-11-18'i kaynaklı ve değişmez. Sefer oku talebi SEFER-OK ailesinin ayrı kalemi, burada kapatılmadı. H-0038 ile AYNI KÖK SEBEBİN iki cephesi."
+    },
+    "H-0039": {
+      "hukum": "cozuldu",
+      "not": "kimdir-ali-suavi-ve-ciragan-baskini üretildi: Ali Suâvi (1839-1878), Muhbir ve Ulûm, 20 Mayıs 1878'de yaklaşık 250 Balkan muhaciriyle Çırağan baskını ve V. Murad'ı tahta döndürme amacı, Beşiktaş karakol zâbiti Hasan Ağa'nın sopayla öldürmesi. 'Yedi Sekiz Hasan Paşa' lakabı için TDV'de MÜSTAKİL MADDE BULUNAMADI (51 gövde geçişi var, madde yok); kartta halk hafızasındaki lakap olarak anıldı, kaynakta yazılı olanın karakol zâbiti olduğu açıkça belirtildi. Dayanak TDV ali-suavi (Abdullah Uçman)."
+    },
+    "H-0043": {
+      "hukum": "sirada",
+      "not": "Hüküm SINIR-BERLIN-0076'nın, ölçüm bende (M-5034). ÖLÇÜM: kutu lat 42-45,5 · lon 15-21 → 57 yerleşim; 1878-07-28'de Osmanlı doğrudan olan 23. Bunların 14'ünde isg:avusturya 1878-07-29'da başlıyor (t: 1908-10-05); 2'sinde 1878-09-18 (Bihaç, Ostrovica); 2'sinde yalnız 1788 işgali var, 1878 kaydı YOK (Bosanska Dubica, Bosanski Novi); 3'ünde hiç yok (Bosanski Brod, Bosanska Krupa, YENİPAZAR). ⇒ Emre haklı ve şikâyeti ölçülenden DAR: Yenipazar'ın yanında dört Bosna yerleşimi daha işgal kaydı taşımıyor (kuzeybatı şeridi). Emre'nin saydığı Udbina, Cetingrad ve Jasenovac 1878'den ÖNCE zaten Avusturya (Askerî Sınır) — onlarda kusur yok. SINIFLANDIRMA: TDV berlin-antlasmasi (Ali İhsan Gencer) 'Bosna ve Hersek Avusturya tarafından işgal edilecekti' der, ilhak demez ⇒ mevcut 14 kaydın isg: kovasında olması DOĞRU, kusur kovanın EKSİK kalması. Yenipazar sancağı için Berlin'de kararlaştırılan düzenlemeye dair cümle taranan maddede BULUNAMADI; sancağın hangi kovaya gireceği kaynak kararı bekler."
+    },
+    "H-0055": {
+      "hukum": "cozuldu",
+      "not": "tartisma-kibris-1878-beklenen-ingiliz-destegi üretildi: 4 Haziran 1878 antlaşmasının şartları (idare İngiltere'de, gelir fazlası Osmanlı'ya, şer'î mahkemeler devam, vakıflar ortak), İngiltere'nin Rus istilâsına karşı savunma ittifakı teminatı, lehte ve aleyhte iki okuma, 5 Kasım 1914 ilhakı ve Lozan. Antlaşmanın beklenen desteği sağlayıp sağlamadığına dair AÇIK BİR DEĞERLENDİRME taranan maddede bulunamadı; kartta iki okuma maddedeki tarihlerin karşılaştırılmasıyla kuruldu ve bu açıkça yazıldı. Dayanak TDV kibris (Halil Fikret Alasya), lozan-antlasmasi (Şerafettin Turan)."
+    },
+    "H-0056": {
+      "hukum": "cozuldu",
+      "not": "antlasma-ayastefanos-berlin-farki-1878 üretildi: Ayastefanos'un dört ay yaşaması, Bulgaristan'ın üçe ayrılması ve Makedonya'nın ıslahat şartıyla Osmanlı'da kalması, Bosna-Hersek'in İŞGAL (ilhak değil) edilmesi, Sırbistan (Niş ve Pirot) - Karadağ - Romanya bağımsızlıkları, Kars-Ardahan-Batum'un harp tazminatı karşılığı Rusya'ya bırakılması. 🔴 EKSİK KALAN: Emre HARİTA da istedi (Ayastefanos ↔ Berlin karşılaştırması); gorsel: yalnız kamu malı/CC0 olabildiği ve uygun görsel ölçülmediği için üretilmedi — kartın metin tarafı indi, görsel tarafı açık kalemdir. Dayanak TDV berlin-antlasmasi (Ali İhsan Gencer)."
+    },
+    "H-0061": {
+      "hukum": "cozuldu",
+      "not": "sebep-sonuc-iskenderiye-1882-ingiliz-cikarmasi üretildi: Urâbî hareketinin sebepleri, İngiltere'nin 'limandaki donanmanın tehlikede olduğu' bahanesiyle 11-12 Temmuz 1882'de İskenderiye istihkâmlarını topa tutması, 15 Temmuz çıkarması, Osmanlı'nın Derviş Paşa'yı göndermesi, 6 Eylül 1882'de Urâbî'nin âsi ilân edilmesi ve 13 Eylül Tellülkebîr yenilgisi. SIRALAMA KARTTA AÇIKÇA YAZILDI: âsi ilânı yenilgiden ÖNCEdir (çekilen özet bunu tersine yorumlamıştı, tarihler esas alındı). Mısır'ın hukukî ayrılışı Lozan 17. maddeye bağlandı; tanımanın hangi tarihten itibaren geçerli sayıldığı taranan maddelerde yazılmadığı için GÜN VERİLMEDİ. Dayanak TDV urabi-pasa (Hilal Görgün), lozan-antlasmasi."
+    },
+    "H-0062": {
+      "hukum": "cozuldu",
+      "not": "tartisma-ingiltere-dost-mu-dusman-mi-1856-1882 üretildi. H-0061 ile MÜKERRER DEĞİLDİR: aynı çapa, ayrı soru. Kart 1853-56 Kırım ittifakı, 1878 Kıbrıs ve 1882 Mısır'ı tek eksende tartıyor; iki okuma (tutarlı bir Rusya-karşıtı siyaset ↔ ittifakın nüfuz aracı olması) kaynağıyla verildi, taraf tutulmadı. Osmanlı'nın 'ses çıkaramaması' 93 Harbi sonrası ordu ve hazine durumuna bağlandı. 🔴 ÖLÇÜLMEDİ ve kartta öyle yazıldı: Fransa'nın Cezayir (1830) ve Tunus (1881) hamleleri — o başlıkların kendi kaynakları okunmadı."
+    }
+  }
+}

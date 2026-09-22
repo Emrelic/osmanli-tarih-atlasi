@@ -1,0 +1,15 @@
+KRONO-0076-A — CEVAP.json: 28 maddenin hükmü
+
+Paylaşılan CEVAP.json bulunmadığı için ayrı dosyaya yazıldı
+(SINIR-BERLIN-0076'nın açtığı usul); koordinatör birleştirir.
+
+15 cozuldu · 12 sirada · 1 senin-kararin (H-0009, açık uçlu kapsam).
+H-0036'nın hükmü HARITA-0076'nın M-5037'deki hükmüdür, numara bende olduğu
+için buraya ben yazdım (M-5023 ②); kendi ölçüm cümlemin düzeltmesi de
+(Kars "tek başına Rus noktası" değil, "Rus bloğundan kopuk") olduğu gibi
+alındı. H-0043'ün hükmü SINIR-BERLIN-0076'yı bekliyor.
+
+Sınav: 28/28 madde SEVK listesiyle birebir, fazla/eksik yok; hüküm
+kelimelerinin 28'i de asama.py HUKUMLER sözlüğünde.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
