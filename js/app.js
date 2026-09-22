@@ -4494,7 +4494,12 @@ function isyanLejanti(fs) {
     return '<span><i style="background:repeating-linear-gradient(45deg,' + _isyanRenk(tur) +
            ' 0 2px,transparent 2px 6px),#b2384a"></i> ' + (LJ[tur] || tur) + " · " +
            Object.keys(grup[tur]).join(", ") + "</span>";
-  }).join("") + (ISYAN.eksik ? '<span class="isyan-eksik">' + ISYAN.eksik + " bölgenin peteği yok, çizilmedi</span>" : "");
+  }).join("");
+  // 🔴 21 Eylül 2026 — DALGA-0074/H-0012'nin ikinci turu (1.MURAT sevki M-4897).
+  // "N bölgenin peteği yok, çizilmedi" bizim VERİ BORCUMUZDUR; okura "petek"
+  // diye bir iç terim ve eksik bir sayı göstermenin ona faydası yok. Teşhis
+  // silinmedi, konsola indi — A sınıfının (madde kutusu) aynı çaresi.
+  if (ISYAN.eksik) console.debug("[isyan lejantı] " + ISYAN.eksik + " bölgenin peteği yok, çizilmedi.");
   lejantYerlestir();
 }
 function _isyanTarihYazi(s, kes) {
@@ -4633,7 +4638,12 @@ function _dsn(desen, eskiKalinlik, yeniKalinlik) {
 var HAREKET = {
   sefer:    { glif: "➤", desen: null,                       oran: 1.00, kalinlik: 3.18, ad: "sefer" },
   cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 4.0), oran: 0.89, kalinlik: 2.83, ad: "geri çekilme" },
-  tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 4.0), oran: 0.89, kalinlik: 2.83, ad: "tahliye" },
+  // 🔴 TAHLİYE ≠ ÇEKİLME — SEFER-OK-0075 (H-0001 · H-0023 · H-0037). İki tür
+  // ÖLÇÜLDÜ: `cekilme` bir ordunun savaşta ya da seferden geri dönüşü (9 kayıt),
+  // `tahliye` bir bölgenin ANLAŞMAYLA/ŞARTLA boşaltılması (0 kayıt — tanımlıydı,
+  // hiç kullanılmamıştı). Desen aynıydı ([5,4]) yani harita ikisini ayırt
+  // edemezdi; tahliye artık uzun çizgi + nokta ritmiyle ayrışıyor.
+  tahliye:  { glif: "⇥", desen: _dsn([6, 2.5, 0.8, 2.5], 2.2, 4.0), oran: 0.89, kalinlik: 2.83, ad: "tahliye" },
   akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 3.6), oran: 0.80, kalinlik: 2.55, ad: "akın" },
   kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 4.25), oran: 0.94, kalinlik: 3.00, ad: "kuşatma" },
   deniz:    { glif: "⚓", desen: [3.76, 2.12],               oran: 0.94, kalinlik: 3.00, ad: "deniz harekâtı" },
@@ -4778,7 +4788,8 @@ function seferKayitlariniTopla() {
 }
 
 var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (s) {
-  var son = s.yol[s.yol.length - 1], onceki = s.yol[s.yol.length - 2];
+  var _hat0 = (Array.isArray(s.rota) && s.rota.length >= 2) ? s.rota : s.yol;   // 0075: rota çizim hattıdır
+  var son = _hat0[_hat0.length - 1], onceki = _hat0[_hat0.length - 2];
   // ok başının dönüşü: son parçanın ekran yönü (kuzeyden saat yönünde derece)
   var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
   var dy = son[1] - onceki[1];
@@ -4850,7 +4861,31 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
   //    ⇒ Bir düzeltme, aynı kusurun BÜTÜN dallarında aranmalı — bugün
   //      bu dersin ikinci vakası (ilki `_varista`nın konumsuz dalı).
   var ti = s.fi !== undefined ? s.ti : gunIdx(s.t);
-  return { fi: fi, ti: ti, ad: s.ad, yol: s.yol, id: s.id || s.ad,
+  // 🔴 KADEMELİ OK — SEFER-OK-0075 / H-0012. Emre: *"ibrahim paşanın suriye ve
+  // anadolu seferi her maddede maddenin içeriğine göre ilerlemeli, tüm oku
+  // gösteriyor. akka şam halep adana şeklinde kademe kademe oku hareket
+  // ettirmeli."* ÖLÇÜLDÜ: ok kaydın TÜM `yol`unu ilk günden gösteriyordu; Akkâ'nın
+  // düştüğü madde (1832-05-27) ekranda Halep'e uzanan tam ok taşıyordu.
+  // SÖZLEŞME (veri): `kademe: [["1831-11-27", 2], ["1832-06-15", 3], …]` —
+  // "şu günden itibaren ok `yol[i]` noktasına kadar uzanır". Günler kronoloji
+  // maddelerinin GÜNLERİDİR (uydurulmaz); kademesi olmayan kayıt eskisi gibi
+  // tam boy çizilir. İlk kademenin günü kaydın `f`si olmalı.
+  var kademe = (s.kademe || []).map(function (k) { return { g: gunIdx(k[0]), i: k[1] }; })
+    .sort(function (a, b) { return a.g - b.g; });
+  // 🔴 `rota` = ÇİZİM HATTI (H-0033). `yol` kaynaklı İSTASYONLARDIR (yorumlar,
+  // `kesinlik`, atıflar onda); `rota`, aynı istasyonlar arasına kıyıyı dolanan ara
+  // noktalar eklenmiş türetilmiş hattır (denetim/ARAC-SEFER-OK-DENIZ-ROTA-0075.py,
+  // ne_10m_land'e karşı doğrulanmış). Ara noktalar bir İDDİA değil çizimdir;
+  // uçları `yol`un uçlarıyla aynı olmalıdır. Çizim, animasyon, mükerrer ve yer
+  // eşleştirmesi hepsi bu hattı okur.
+  var _cizYol = (Array.isArray(s.rota) && s.rota.length >= 2) ? s.rota : s.yol;
+  return { fi: fi, ti: ti, ad: s.ad, yol: _cizYol, istasyon: s.yol, id: s.id || s.ad,
+           kademe: kademe.length ? kademe : null,
+           // 🔴 DENİZ OKU KIVRILMAZ — H-0033. Kavis (aşağıda `seferKavisliYol`)
+           // kara'yı BİLMEZ: iki liman arasını yayla kıvırınca ok kıyıdan içeri
+           // girebiliyor (ölçüm: denetim/SEFER-OK-0075.md §2). Deniz güzergâhı
+           // VERİDE kıyıyı dolanan ara noktalarla verilir; çizim aynen izler.
+           kavis: (s.kavis === false || s.tur === "deniz" || _cizYol !== s.yol) ? false : true,
            // sonuc lejant için de lazım: rozet ancak sahnede o sonuçtan bir ok
            // varsa açıklanır (md.4.3 — açıklanmayan simge kalabalıktır).
            renk: renk, tur: (s.tur || "sefer"), sonuc: (s.sonuc || "belirsiz"),
@@ -4944,6 +4979,38 @@ function seferKavisliYol(yol) {
   return out;
 }
 window.seferKavisliYol = seferKavisliYol;
+
+// 🔴 OKUN O GÜNKÜ HATTI — SEFER-OK-0075 (H-0012 kademe · H-0033 deniz).
+// Tek kaynak: durağan çizim (`seferGuncelle`) ve animasyon fazı
+// (js/sefer_ok.js) AYNI fonksiyondan hat alır; ikisi ayrışırsa ok, kendi
+// gövdesinin dışından yürür (0073 H-0001'in dersi).
+//   kademeli kayıt : `yol[0..i]` — `i`, günü ≤ t olan SON kademenin noktası
+//   deniz / kavis:false : eğrilmez (kara bilmeyen eğri kıyıdan içeri girer)
+//   ötekiler       : eskisi gibi kavisli
+function seferKademeIdx(m, t) {
+  if (!m.kademe) return -1;
+  var i = 1;                                   // ok en az iki noktalı
+  // MAX, "son": kronoloji sırası ile güzergâh sırası ayrışırsa (Halep 25 Haz,
+  // Humus 8 Tem) ok geri kısalmaz — ok ilerler, geri çekilme ayrı bir ok türüdür.
+  for (var k = 0; k < m.kademe.length; k++)
+    if (m.kademe[k].g <= t && m.kademe[k].i > i) i = m.kademe[k].i;
+  return Math.max(1, Math.min(m.yol.length - 1, i));
+}
+function seferHat(m, t) {
+  var ki = seferKademeIdx(m, t);
+  if (m._hat && m._hatKi === ki) return m._hat;
+  var ham = ki < 0 ? m.yol : m.yol.slice(0, ki + 1);
+  m._hat = (m.kavis === false) ? ham : seferKavisliYol(ham);
+  m._hatKi = ki;
+  m._ucu = null; m._kesimImza = null;          // hat değişti: uç ve kesimler yeniden
+  return m._hat;
+}
+function seferAcisi(son, onceki) {              // kuzeyden saat yönünde derece
+  var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
+  return Math.atan2(dx, son[1] - onceki[1]) * 180 / Math.PI;
+}
+window.seferHat = seferHat;
+window.seferKademeIdx = seferKademeIdx;
 
 // ═══════════════════════════════════════════════════════════════════════════
 // 🔴 GÖVDE KALINLIĞI TARAMADAN TÜRER — Emre, 20 Eylül 2026 (M-4838), aynen:
@@ -5208,6 +5275,9 @@ function seferGuncelle(t) {
         if (isFinite(sonraki)) m._tiKirpik = sonraki;
       } catch (e2) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
     }
+    // Kademeli ok kendi ilk kademesinden (= `f`) itibaren görünür: "çapadan önceki
+    // olay" kırpması tek-parça oklar içindi, ok zaten adım adım uzuyor.
+    if (m.kademe) m._fiKirpik = m.fi;
     if (!m._renkCozuldu) {
       m._renkCozuldu = true;
       var yeni = _seferRengiCoz(m);
@@ -5228,7 +5298,13 @@ function seferGuncelle(t) {
       _cizilenler.push(m);
       // Kavisli hat bir kez hesaplanıp kayda iliştiriliyor (her güncellemede
       // yeniden eğri örneklemek kare başına iş olurdu — §2 motor kuralı).
-      if (!m._kavisli) m._kavisli = seferKavisliYol(m.yol);
+      m._kavisli = seferHat(m, t);                    // kademe/deniz kuralları burada
+      if (m.kademe && m._mkKi !== m._hatKi) {         // ok başı + ad, kademeyle birlikte ilerler
+        var _s = m._kavisli[m._kavisli.length - 1], _o = m._kavisli[m._kavisli.length - 2] || _s;
+        m.mk.setLngLat(_s); m.ad_mk.setLngLat(_s);
+        if (_s[0] !== _o[0] || _s[1] !== _o[1]) m.mk.setRotation(seferAcisi(_s, _o) - 90);
+        m._mkKi = m._hatKi;
+      }
       // 🔴 TARALI/SADE KESİMLER (Emre M-4838). Kesim hesabı GÜNE bağlı — aynı ok
       // dün taralı olmayan bir topraktan, bugün işgal altındaki bir topraktan
       // geçiyor olabilir. Bu yüzden önbellek anahtarı aktif işgal kümesidir.
@@ -11288,7 +11364,14 @@ function disEsikAdi(e) {
 function disEsikBilgiYaz(ds, gizliSay) {
   var el = document.getElementById("dis-esik-bilgi");
   if (!el) return;
-  if (!ds) { el.textContent = " — js/suzgec.js eski sürüm (önbellek), süzgeç çalışmıyor"; return; }
+  // 🔴 21 Eylül 2026 — DALGA-0074/H-0012 ikinci tur (M-4897): okura DOSYA ADI
+  // ("js/suzgec.js") ve ÖNBELLEK teşhisi gösterilmez. Satır BOŞALIR (bir şey
+  // vaat etmez), teşhis konsola iner — eşiğin kendisi zaten seçilebilir durur.
+  if (!ds) {
+    el.textContent = "";
+    console.debug("[dış eşik] js/suzgec.js eski sürüm (önbellek) — süzgeç çalışmıyor, bilgi satırı yazılmadı.");
+    return;
+  }
   el.textContent = " — şu an " + gizliSay + " dış madde gizli" +
     (ds.gizliPuansiz ? " (" + ds.gizliPuansiz + "'i puansız)" : "") +
     (ds.istisna.length ? " · " + ds.istisna.length + " istisna görünür" : "");
@@ -14121,7 +14204,15 @@ function katmanSeciciKur() {
       if (a === "dolgu") {
         var rd = document.getElementById("kat-sayi-dolgu");
         if (!dolgular.length) {
-          if (rd) { rd.textContent = "—"; rd.title = "data/dolgu.js üretilmemiş (arac/dolgu.py)"; }
+          // 🔴 21 Eylül 2026 — DALGA-0074/H-0012 ikinci tur (M-4897): rozetin
+          // "—"si KALIYOR (Emre'nin "katman yok ≠ veri üretilmemiş" ayrımını o
+          // taşıyor), ama `title`daki VERİ DOSYASI + ÜRETİM ALETİ adı okura
+          // gitmez; yerine ne demek olduğunu söyleyen sade bir ipucu var.
+          if (rd) {
+            rd.textContent = "—";
+            rd.title = "Bu katmanın verisi henüz hazırlanmadı";
+            console.debug("[katman] dolgu: data/dolgu.js üretilmemiş (arac/dolgu.py).");
+          }
         } else if (acik) {
           try { dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ }
         } else if (rd) { rd.textContent = ""; }
