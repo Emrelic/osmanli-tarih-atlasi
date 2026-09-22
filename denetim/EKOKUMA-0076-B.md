@@ -16,6 +16,7 @@
 | ④ | `olay:` çapalarının **hepsi** canlı kronolojide var | aynı an | `data/olaylar*.js` + `kronoloji*.js` | ✓ 14/14 |
 | ⑤ | id'ler tekil, mevcut havuzla çakışmıyor | aynı an | `data/ekokuma*.js` (561 id) | ✓ 0 çakışma |
 | ⑥ | `H-0098` bir **veri kusuru**dur (koordinatörün tahmini) | TDV okunduktan sonra | `data/yerlesimler*.js` + TDV | 🟡 **YARIM DOĞRU** — §3'e bak |
+| ⑦ | `H-0150`de 23 ↔ 29 Haziran farkı **iki ayrı olayın** günüdür (D5 dalı) | TDV cümlesi + Britannica okunduktan sonra | TDV `balkan-savasi` · `bulgaristan` · Britannica | 🔴 **ÇÜRÜDÜ** — aynı soru, iki cevap; §3c'ye bak |
 
 Sınav aleti: `py denetim/EKOKUMA-0076-B-sina.py` → **TEMİZ ✓**
 
@@ -27,7 +28,7 @@ Sınav aleti: `py denetim/EKOKUMA-0076-B-sina.py` → **TEMİZ ✓**
 |---|---|
 | teslim edilen kart | **14** (SEVK listesiyle birebir; `PARTI.md`de 164 `## H-` başlığı sayıldı, 14'ü bende, eksik 0) |
 | kart gövdesi toplam | **53.604** karakter (en kısa 2.263 · ortanca ~3.700 · en uzun 6.285) |
-| `kesinlik:"tartışmalı"` | **4** (31 Mart rolü · itibar · Selânik · gemilerin bedeli) |
+| `kesinlik:"tartışmalı"` | **5** (31 Mart rolü · itibar · Selânik · gemilerin bedeli · II. Balkan Savaşı'nın günü) |
 | tür dağılımı | `tartisma` 10 · `karsi-anlati` 1 · `kahramanlik` 1 · `sok-haberler` 1 · `dis-yankilar` 1 |
 | TDV maddesi okundu (gövde, doğrudan sayfa HTML'inden) | **33** slug (önbellekte) · ayrıca **15** slug **302** verdi (ölü/yönlendirme), arama ile doğru başlığa gidildi |
 | TDV dışı kaynak | **5** hakemli makale/değerlendirme + **1** resmî sınır etüdü (künyeler kartların `kaynak:` alanında) |
@@ -117,7 +118,73 @@ geçidi/kalesidir. Kart bu ayrımın üzerine kuruldu.
   taşınabilir — komşusu Mâkû (39.2942 K / 44.5142 D) aynı pencerede Kaçar'dır ve aradaki
   boşluk peteğe emilir. İki uç birlikte ölçülmeli.
 
-**Yatay mesaj `SINIR-BERLIN-0076`ya tahtadan gönderildi.**
+**Yatay mesaj `SINIR-BERLIN-0076`ya tahtadan gönderildi (M-5038).**
+
+### 3b. Çapraz ölçüm — iki oturum aynı maddeyi bağımsız ölçtü, sonuçlar AYRIŞTI
+
+`SINIR-BERLIN-0076` aynı maddeyi kendi tarafından ölçüp yazdı (M-5045). Ölçümü benimkiyle
+**birebir uyuşuyor:** Kotor (Cattaro) kaydının sekiz `s:` döneminin hiçbirinde `iran` yok;
+`d:`, `v:`, `isg:` alanları da yok. Bu tarafta hüküm ortak: **veride düzeltilecek bir şey yok.**
+
+**Ama teşhiste ayrışıyoruz — ve ayrışma ölçülebilir:**
+
+| | hipotez | sınav |
+|---|---|---|
+| `SINIR-BERLIN-0076` | *"İran" büyük ihtimalle ekrandaki `rusya` etiketinin yanlış okunması* — kayıttaki tek "egzotik" dönem `rusya 1806-01-01 → 1807-01-01` | 🔴 **ÇÜRÜDÜ.** Soru Berlin Antlaşması'nı (13 Temmuz 1878) adıyla anıyor. Rus penceresi 1806-07'dir — **71 yıl önce** ve antlaşmayla hiçbir ilgisi yok. Zaman göstergesi 1878'deyken o dönem ekranda zaten görünmez. |
+| bu oturum | Soru gerçek bir antlaşma hükmünü tarif ediyor; karışan şey renk değil **ad**: Kotor ↔ Kotur | ✓ **TUTTU.** TDV `berlin-antlasmasi` gövdesi, AYNEN: *"Kotur ise İran'a verilecekti."* Yani "Berlin Antlaşması", "Kotur" ve "İran" üçü **tek cümlede** ve tam sorulduğu gibi bir arada geçiyor. |
+
+⇒ **Ölçüm doğru, çıkarım yanlış** ailesinden bir vaka: iki oturum da veriyi doğru okudu,
+biri bulduğu tek anormalliği (Rus dönemi) sorunun cevabı sandı. **Sınav, sorunun kendi
+taşıdığı tarihti** — hipotez o tarihe karşı ateşlenince düştü.
+
+Karşı taraftan gelen iki uyarı da kayda geçti ve ikisi de yerindeydi:
+- *"atlasın kaydı dayanak olamaz, kendi kaynağını kur"* — kart zaten yalnız TDV'ye ve
+  adı verilen akademik kaynaklara dayanıyor; atlas kaydı hiçbir yerde dayanak değil.
+- *"Bar ve Ülgün'ün yerleşim noktası YOK, Karadağ'ın Berlin'deki kıyı kazanımı haritada
+  çizilemiyor"* — kart kıyı meselesine **girmiyor**, Berlin'in Karadağ hükmünü yalnız
+  "bağımsızlığı kabul edildi, sınırlarında düzenleme yapıldı" düzeyinde anıyor. Yani
+  haritanın doğrulayamadığı bir cümle kurulmadı.
+
+Hüküm: H-0098 için **`yapildi`** (kart kuruldu) · Kotor kaydı için **`zaten-dogru`** ·
+Kotur kaydı için hüküm `SINIR-BERLIN-0076`nın.
+
+---
+
+## 3c. 🔴 H-0150 — II. Balkan Savaşı'nın günü: 23 ↔ 29 Haziran 1913
+
+Koordinatör `KRONO-0076-C`nin bulgusunu bana iletti (M-5040): `data/olaylar_ek5.js`
+`t:"1913-06-29"` ile TDV'nin "23 Haziran 1913"ü arasında **altı gün** fark var. İstenen
+dört adım da uygulandı:
+
+**① AYRIŞTIRMA SINAVI — "iki tarih iki ayrı olayın günü mü?"** Sınandı, **TUTMADI.**
+TDV'nin rakamı taşıyan cümlesi birebir: *"Bulgaristan 23 Haziran 1913'te Sırbistan,
+Karadağ ve Yunanistan'a karşı savaşa başladı."* Cümlenin tarihlediği şey **savaşın
+başlamasıdır** — emir, seferberlik ya da savaş ilânı değil. Yani iki tarih **aynı soruyu**
+cevaplıyor. (Rakamın gövdede geçmesi yetmez, cümle okundu.)
+
+**② 23 Haziran'a karşılık gelen ayrı bir olay ARANDI, BULUNAMADI.** Taranan: TDV
+`balkan-savasi` tam gövde · TDV `bulgaristan` (Balkan Harbi kesimi bu bölümde yok) ·
+TDV `bukres-antlasmasi` slug'ı **302**, müstakil madde yok · Britannica "Balkan Wars"
+tam gövde. `bulunamadı` — arandı ve çıkmadı.
+
+**③ KARŞI ÖLÇÜM.** Encyclopædia Britannica "Balkan Wars", olay kutusu:
+*"Second Balkan War · June 29, 1913 – August 10, 1913"*; gövde: savaş **29-30 Haziran
+1913 gecesi**, Kral Ferdinand'ın Makedonya'daki Sırp ve Yunan kuvvetlerine saldırı
+emriyle başladı. Britannica günü **mekanizmasıyla birlikte** veriyor; TDV'nin 23 Haziran'ı
+tek cümlelik ve mekanizmasız.
+
+**④ HÜKÜM: gün `1913-06-29` KALSIN, çelişki BEYAN EDİLSİN.** Kronoloji tarihine
+**dokunulmadı**. Yama önerisi: `denetim/EKOKUMA-0076-B-YAMA-olaylar.js` — tek kayda tek
+alan (`ic_not_gun`) eklenmesini önerir, `t:` ve `gun:` aynen kalır. Uygulanmazsa hiçbir
+denetim ötmez, harita değişmez, Değişmez 2 bozulmaz; kaybolan tek şey bir sonraki
+oturumun aynı altı günlük farkı sıfırdan ölçmesidir.
+
+**⑤ KARTA YANSIDI.** `ikinci-balkan-savasi-1913` kartı yeniden yazıldı: artık 29-30
+Haziran gecesini esas alıyor, TDV'nin 23 Haziran'ını **silmiyor**, ayrışmayı okura
+açıkça söylüyor; `kesinlik` alanı `kesin` → **`tartışmalı`** yapıldı ve Britannica
+`kaynak:` alanına künyesiyle eklendi. Ayrıca savaşın seyri (2, 3, 10, 11 Temmuz
+safhaları) ve Edirne'nin 21 ↔ 22 Temmuz farkı — ayrıştırılamadı, beyan edildi — karta
+girdi.
 
 ---
 
@@ -167,8 +234,12 @@ alanına yazıldı — yani işaretin taşıdığı bilgi kaybolmadı.
    `"ekokuma_p76c",   // window.EKOKUMA_P76C — 1896-1914 ek okuma, 14 kart`
    ⚠️ `index.html`e satır GEREKMEZ (ek okuma dosyaları ana yüke katılmaz, tembel yüklenir).
 2. **H-0098 borcu** `SINIR-BERLIN-0076`ya devredildi; hüküm onun ve senindir. Veriye
-   dokunmadım.
-3. **Aletler bende kalsın:** `denetim/EKOKUMA-0076-B-tdv.py` (TDV gövde çıkarıcı,
+   dokunmadım. Kotor kaydı için ikimizin ölçümü de aynı: **kusur yok** (§3b).
+3. **H-0150 yaması:** `denetim/EKOKUMA-0076-B-YAMA-olaylar.js` — `data/olaylar_ek5.js`
+   `t:"1913-06-29"` kaydına **tek alan** (`ic_not_gun`, kaynak çelişkisi beyanı) eklenmesi
+   önerilir. **Tarih DEĞİŞMİYOR**, Değişmez 2'ye dokunmuyor. Uygulamak isteğe bağlı;
+   uygulanmazsa kaybolan tek şey ölçümün kendisidir (§3c).
+4. **Aletler bende kalsın:** `denetim/EKOKUMA-0076-B-tdv.py` (TDV gövde çıkarıcı,
    önbellekli) · `denetim/EKOKUMA-0076-B-capa.py` (kronoloji çapa tarayıcısı, Türkçe
    normalleştirici + kendi süzgeç sınavı) · `denetim/EKOKUMA-0076-B-pdf.py` ·
    `denetim/EKOKUMA-0076-B-sina.py`. Başka oturumların da işine yarayabilir;
