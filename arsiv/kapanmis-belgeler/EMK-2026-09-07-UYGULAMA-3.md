@@ -1,3 +1,6 @@
+> ⚪ **EMK — EMEKLİ 2026-09-07.** Bu belge kapanmıştır; yeniden görevlendirilmez.
+> Emekli eden: kutu EKİP sekmesi · ölçüm: işini bitirdi ve 62 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir
+
 # UYGULAMA-3 — ilerleme kaydı (pil kısıtı altında yazıldı, 29 Ağustos 2026)
 
 Koordinatör: ORHANGAZİ · Önceki ad: TASNİF-F

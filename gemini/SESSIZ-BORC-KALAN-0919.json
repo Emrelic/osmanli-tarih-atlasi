@@ -1,0 +1,775 @@
+[
+  {
+    "id": "aleut",
+    "ad": "Aleut (Unangax̂)",
+    "bolge": "kuzey-amerika",
+    "f": "1281-01-01",
+    "t": "1784-08-14",
+    "baskent": "Unalaska (Iliuliuk)",
+    "yasam_araligi": "1281-01-01 -> 1784-08-14",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "arua",
+    "ad": "Aruã (Marajó)",
+    "bolge": "guney-amerika",
+    "f": "1281-01-01",
+    "t": "1836-01-01",
+    "baskent": "—",
+    "yasam_araligi": "1281-01-01 -> 1836-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "arvanid-sancagi",
+    "ad": "Arvanid Sancağı (Arnavut-ili)",
+    "bolge": "balkanlar",
+    "f": "1415-01-01",
+    "t": "1537-08-25",
+    "baskent": "None",
+    "yasam_araligi": "1415-01-01 -> 1537-08-25",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Avlonya",
+        "koordinat": "40.466, 19.489",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "ad": "Berat",
+        "koordinat": "40.705, 19.951",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Arnavutluk» (Cilt 3, s. 384-394)",
+    "birebir_cumle": "Arvanid sancağı, Osmanlıların Arnavutluk topraklarında kurduğu ilk idarî birim olup sancak merkezi başlangıçta Akçahisar veya Ergiri olarak tayin edilmiştir."
+  },
+  {
+    "id": "avusturya-cumhuriyet",
+    "ad": "Avusturya Cumhuriyeti (I. Cumhuriyet)",
+    "bolge": "orta-avrupa",
+    "f": "1918-11-12",
+    "t": "1923-10-29",
+    "baskent": "Viyana",
+    "yasam_araligi": "1918-11-12 -> 1923-10-29",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Viyana",
+        "koordinat": "48.208, 16.373",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "bavyera",
+    "ad": "Bavyera (Dükalık → Elektörlük → Krallık)",
+    "bolge": "orta-avrupa",
+    "f": "1506-07-08",
+    "t": "1918-11-08",
+    "baskent": "Münih",
+    "yasam_araligi": "1506-07-08 -> 1918-11-08",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Münih",
+        "koordinat": "48.137, 11.575",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "ad": "Nürnberg",
+        "koordinat": "49.454, 11.077",
+        "dosya": "yerlesimler_avrupa.js"
+      },
+      {
+        "ad": "Regensburg",
+        "koordinat": "49.019, 12.097",
+        "dosya": "yerlesimler_avrupa.js"
+      }
+    ],
+    "kaynak_adresi": "Encyclopaedia Britannica, «Bavaria»",
+    "birebir_cumle": "Historically, the Duchy of Bavaria was one of the constituent stem duchies of the Holy Roman Empire, centered in Munich since 1506."
+  },
+  {
+    "id": "bohemya",
+    "ad": "Bohemya Krallığı",
+    "bolge": "orta-avrupa",
+    "f": "1198-01-01",
+    "t": "1526-08-29",
+    "baskent": "Prag",
+    "yasam_araligi": "1198-01-01 -> 1526-08-29",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Prag",
+        "koordinat": "50.088, 14.421",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Bohemya» / Encyclopaedia Britannica",
+    "birebir_cumle": "The Kingdom of Bohemia was an imperial state in the Holy Roman Empire, ruled by the Přemyslid and later Habsburg dynasties from Prague."
+  },
+  {
+    "id": "cebel-i-lubnan-mutasarrifligi",
+    "ad": "Cebel-i Lübnan Mutasarrıflığı",
+    "bolge": "arabistan",
+    "f": "1861-06-09",
+    "t": "1915-07-11",
+    "baskent": "Beyteddin",
+    "yasam_araligi": "1861-06-09 -> 1915-07-11",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Lübnan» (Cilt 27, s. 273-279)",
+    "birebir_cumle": "1861 Nizâmnâmesi ile kurulan Cebel-i Lübnan Mutasarrıflığı, Hristiyan bir mutasarrıf tarafından yönetilen özerk bir sancak olup merkezi Beyteddin idi."
+  },
+  {
+    "id": "cezayir-fransiz",
+    "ad": "Fransız Cezayir İşgali",
+    "bolge": "kuzey-afrika",
+    "f": "1830-07-05",
+    "t": "1962-07-05",
+    "baskent": "Cezayir",
+    "yasam_araligi": "1830-07-05 -> 1962-07-05",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Cezayir",
+        "koordinat": "36.753, 3.059",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "charrua",
+    "ad": "Charrúa (Minuan · Guenoa)",
+    "bolge": "guney-amerika",
+    "f": "1281-01-01",
+    "t": "1831-01-01",
+    "baskent": "—",
+    "yasam_araligi": "1281-01-01 -> 1831-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "crnojevic-zetasi",
+    "ad": "Crnojević Zetası",
+    "bolge": "balkanlar",
+    "f": "1482-01-01",
+    "t": "1499-01-01",
+    "baskent": "None",
+    "yasam_araligi": "1482-01-01 -> 1499-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "danzig-serbest-sehri",
+    "ad": "Danzig Serbest Şehri",
+    "bolge": "dogu-avrupa",
+    "f": "1920-11-15",
+    "t": "1939-09-01",
+    "baskent": "Danzig",
+    "yasam_araligi": "1920-11-15 -> 1939-09-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "danzig-serbest-sehri-1807",
+    "ad": "Danzig Serbest Şehri (Napolyon Dönemi)",
+    "bolge": "dogu-avrupa",
+    "f": "1807-07-09",
+    "t": "1814-02-04",
+    "baskent": "Danzig",
+    "yasam_araligi": "1807-07-09 -> 1814-02-04",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "dejanovic-prensligi",
+    "ad": "Dejanović Prensliği (Kostadin-ili)",
+    "bolge": "balkanlar",
+    "f": "1371-09-26",
+    "t": "1395-05-17",
+    "baskent": "None",
+    "yasam_araligi": "1371-09-26 -> 1395-05-17",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "dubrovnik",
+    "ad": "Dubrovnik (Ragusa) Cumhuriyeti",
+    "bolge": "balkanlar",
+    "f": "700-01-01",
+    "t": "1808-01-31",
+    "baskent": "Dubrovnik",
+    "yasam_araligi": "700-01-01 -> 1808-01-31",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Dubrovnik",
+        "koordinat": "42.65, 18.094",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Dubrovnik» (Cilt 9, s. 544-546)",
+    "birebir_cumle": "Dubrovnik (Ragusa) Cumhuriyeti, Adriyatik kıyısında deniz ticaretinde uzmanlaşmış ve Osmanlı Devleti'ne vergi ödeyerek özerkliğini korumuş bir şehir devletidir."
+  },
+  {
+    "id": "erdel",
+    "ad": "Erdel Prensliği (Transilvanya)",
+    "bolge": "orta-avrupa",
+    "f": "1570-01-01",
+    "t": "1711-04-30",
+    "baskent": "Gyulafehérvár",
+    "yasam_araligi": "1570-01-01 -> 1711-04-30",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Erdel» (Cilt 11, s. 265-272)",
+    "birebir_cumle": "Mohaç zaferi sonrasında Osmanlı hâmiliğinde özerk bir prenslik olarak kurulan Erdel (Transilvanya), Gyulafehérvár (Belgrad-ı Erdel) merkezli idare ediliyordu."
+  },
+  {
+    "id": "fransiz-kamerun-mandasi",
+    "ad": "Fransız Kamerunu (Fransız Mandası)",
+    "bolge": "orta-afrika",
+    "f": "1922-07-20",
+    "t": "1960-01-01",
+    "baskent": "Yaoundé",
+    "yasam_araligi": "1922-07-20 -> 1960-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "fransiz-misir-seferi",
+    "ad": "Napolyon'un Mısır Seferi",
+    "bolge": "misir-sudan",
+    "f": "1798-07-01",
+    "t": "1801-10-02",
+    "baskent": "Kahire",
+    "yasam_araligi": "1798-07-01 -> 1801-10-02",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "guarani-misyonlari",
+    "ad": "Guaraní Cizvit Misyonları (Otuz Pueblo)",
+    "bolge": "guney-amerika",
+    "f": "1609-01-01",
+    "t": "1767-01-01",
+    "baskent": "—",
+    "yasam_araligi": "1609-01-01 -> 1767-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "guney-afrika-birligi",
+    "ad": "Güney Afrika Birliği",
+    "bolge": "guney-afrika",
+    "f": "1910-05-31",
+    "t": "1961-05-31",
+    "baskent": "Pretoria (hükûmet) · Cape Town (yasama)",
+    "yasam_araligi": "1910-05-31 -> 1961-05-31",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "guneybati-afrika-mandasi",
+    "ad": "Güneybatı Afrika (Güney Afrika Mandası)",
+    "bolge": "guney-afrika",
+    "f": "1920-12-17",
+    "t": "1990-03-21",
+    "baskent": "Windhoek",
+    "yasam_araligi": "1920-12-17 -> 1990-03-21",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "harfusogullari",
+    "ad": "Harfûşoğulları (Baalbek Emirliği)",
+    "bolge": "arabistan",
+    "f": "1521-01-01",
+    "t": "1850-01-01",
+    "baskent": "None",
+    "yasam_araligi": "1521-01-01 -> 1850-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Harfûş Hânedanı» / Baalbek Emirliği",
+    "birebir_cumle": "Harfûşoğulları, Bekaa vadisi ve Baalbek bölgesinde hüküm sürmüş Şiî kökenli yerel bir emirliktir."
+  },
+  {
+    "id": "hersek",
+    "ad": "Hersek (Kosača Dukalığı)",
+    "bolge": "balkanlar",
+    "f": "1435-01-01",
+    "t": "1482-01-01",
+    "baskent": "Blagaj",
+    "yasam_araligi": "1435-01-01 -> 1482-01-01",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Mostar",
+        "koordinat": "43.343, 17.808",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Hersek» (Cilt 17, s. 241-244)",
+    "birebir_cumle": "Kosaça hânedanından Stefan Vukčić'in kurduğu Hersek Dukalığı, Blagaj ve Mostar merkezli bağımsız bir prenslik olup 1482'de Osmanlılarca fethedilmiştir."
+  },
+  {
+    "id": "honduras-cumhuriyeti",
+    "ad": "Honduras Cumhuriyeti",
+    "bolge": "orta-amerika-karayip",
+    "f": "1838-10-26",
+    "t": "1923-10-29",
+    "baskent": "Comayagua → Tegucigalpa (1880)",
+    "yasam_araligi": "1838-10-26 -> 1923-10-29",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ingiliz-becuanaland",
+    "ad": "Becuanaland Protektorası",
+    "bolge": "guney-afrika",
+    "f": "1885-09-30",
+    "t": "1966-09-30",
+    "baskent": "Mafeking (protektora toprakları dışında)",
+    "yasam_araligi": "1885-09-30 -> 1966-09-30",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ingiliz-guney-rodezya",
+    "ad": "Güney Rodezya (İngiliz Güney Afrika Şirketi → Özyönetimli Koloni)",
+    "bolge": "guney-afrika",
+    "f": "1890-01-01",
+    "t": "1980-04-18",
+    "baskent": "Salisbury",
+    "yasam_araligi": "1890-01-01 -> 1980-04-18",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ingiliz-kenya-kolonisi",
+    "ad": "İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi ve Protektorası)",
+    "bolge": "dogu-afrika",
+    "f": "1895-07-01",
+    "t": "1963-12-12",
+    "baskent": "Mombasa → Nairobi (1907)",
+    "yasam_araligi": "1895-07-01 -> 1963-12-12",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ingiliz-nijerya",
+    "ad": "İngiliz Nijeryası (Lagos Kolonisi → Nijerya Kolonisi ve Protektorası)",
+    "bolge": "bati-afrika",
+    "f": "1861-01-01",
+    "t": "1960-10-01",
+    "baskent": "Lagos",
+    "yasam_araligi": "1861-01-01 -> 1960-10-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ingiliz-tanganika-mandasi",
+    "ad": "Tanganika Toprağı (İngiliz Mandası)",
+    "bolge": "dogu-afrika",
+    "f": "1922-07-20",
+    "t": "1961-12-09",
+    "baskent": "Dar es Salaam",
+    "yasam_araligi": "1922-07-20 -> 1961-12-09",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "italya-napolyon",
+    "ad": "Cisalpin Cumhuriyeti → İtalya Cumhuriyeti → İtalya Krallığı (Napolyon)",
+    "bolge": "italya",
+    "f": "1797-07-09",
+    "t": "1814-04-16",
+    "baskent": "Milano",
+    "yasam_araligi": "1797-07-09 -> 1814-04-16",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Milano",
+        "koordinat": "45.464, 9.19",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "jin-hanedani",
+    "ad": "Jin Hanedanı (Jurchen, Kuzey Çin)",
+    "bolge": "dogu-asya",
+    "f": "1115-01-01",
+    "t": "1234-02-09",
+    "baskent": "Zhongdu (Pekin)",
+    "yasam_araligi": "1115-01-01 -> 1234-02-09",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "kaheti-kralligi",
+    "ad": "Kaheti Krallığı",
+    "bolge": "kafkasya",
+    "f": "1578-08-09",
+    "t": "1606-01-01",
+    "baskent": "None",
+    "yasam_araligi": "1578-08-09 -> 1606-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "kasim",
+    "ad": "Kasım Hanlığı (Kasimov)",
+    "bolge": "sibirya-bozkir",
+    "f": "1452-01-01",
+    "t": "1681-01-01",
+    "baskent": "Kasimov",
+    "yasam_araligi": "1452-01-01 -> 1681-01-01",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Kasimov",
+        "koordinat": "54.945, 41.393",
+        "dosya": "yerlesimler_h2_rusya.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "konstantin-beyligi",
+    "ad": "Konstantin Beyliği (Ahmed Bey)",
+    "bolge": "kuzey-afrika",
+    "f": "1830-07-05",
+    "t": "1844-03-04",
+    "baskent": "None",
+    "yasam_araligi": "1830-07-05 -> 1844-03-04",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "kosta-rika-cumhuriyeti",
+    "ad": "Kosta Rika Cumhuriyeti",
+    "bolge": "orta-amerika-karayip",
+    "f": "1838-01-01",
+    "t": "1923-10-29",
+    "baskent": "San José",
+    "yasam_araligi": "1838-01-01 -> 1923-10-29",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "krakow-serbest-sehri",
+    "ad": "Krakov Serbest Şehri",
+    "bolge": "dogu-avrupa",
+    "f": "1815-05-03",
+    "t": "1846-11-11",
+    "baskent": "Krakov",
+    "yasam_araligi": "1815-05-03 -> 1846-11-11",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Krakov",
+        "koordinat": "50.065, 19.945",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "lubnan-emirligi",
+    "ad": "Lübnan Emirliği (Ma'noğulları · Şihaboğulları)",
+    "bolge": "arabistan",
+    "f": "1516-10-01",
+    "t": "1842-01-01",
+    "baskent": "Dayr al-Kamer (Deyrülkamer) → Beyteddin",
+    "yasam_araligi": "1516-10-01 -> 1842-01-01",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Beyrut",
+        "koordinat": "33.888, 35.495",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "ad": "Sayda",
+        "koordinat": "33.563, 35.369",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Lübnan» / Ma'noğulları ve Şihaboğulları",
+    "birebir_cumle": "Osmanlı hâmiliğinde Cebel-i Lübnan'da hüküm süren Lübnan Emirliği, Deyrülkamer ve Beyteddin merkezli özerk bir yapı arz ediyordu."
+  },
+  {
+    "id": "luksemburg-hollanda-birligi",
+    "ad": "Lüksemburg Büyük Dükalığı (Hollanda ile Şahsî Birlik)",
+    "bolge": "bati-avrupa",
+    "f": "1815-06-09",
+    "t": "1890-11-23",
+    "baskent": "Lüksemburg",
+    "yasam_araligi": "1815-06-09 -> 1890-11-23",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "mekke-serifligi",
+    "ad": "Mekke Şerifliği",
+    "bolge": "arabistan",
+    "f": "1281-01-01",
+    "t": "1919-01-10",
+    "baskent": "None",
+    "yasam_araligi": "1281-01-01 -> 1919-01-10",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Mekke",
+        "koordinat": "21.423, 39.826",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "ad": "Cidde",
+        "koordinat": "21.543, 39.173",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Mekke Şerifliği» (Cilt 29, s. 125-132)",
+    "birebir_cumle": "Mekke Şerifliği, Hicaz bölgesinde Mekke ve Cidde merkezli özerk bir Osmanlı idari yapısıdır."
+  },
+  {
+    "id": "mogol-imparatorlugu",
+    "ad": "Moğol İmparatorluğu (bölünmemiş)",
+    "bolge": "dogu-asya",
+    "f": "1206-01-01",
+    "t": "1260-01-01",
+    "baskent": "Karakurum",
+    "yasam_araligi": "1206-01-01 -> 1260-01-01",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Karakurum",
+        "koordinat": "47.198, 102.833",
+        "dosya": "yerlesimler_asya.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "mora-despotlugu",
+    "ad": "Mora Despotluğu",
+    "bolge": "balkanlar",
+    "f": "1349-01-01",
+    "t": "1460-05-31",
+    "baskent": "Mystras",
+    "yasam_araligi": "1349-01-01 -> 1460-05-31",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "naksa-dukaligi",
+    "ad": "Naxos (Nakşa) Dukalığı",
+    "bolge": "balkanlar",
+    "f": "1207-01-01",
+    "t": "1579-01-01",
+    "baskent": "Naxos",
+    "yasam_araligi": "1207-01-01 -> 1579-01-01",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Nakşa",
+        "koordinat": "37.097, 25.3825",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "ad": "Paros",
+        "koordinat": "37.063, 25.196",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "ad": "Eğriboz",
+        "koordinat": "38.4631, 23.6023",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi, «Nakşa Dukalığı» (Cilt 32, s. 343-345)",
+    "birebir_cumle": "Naxos (Nakşa) Dukalığı, Dördüncü Haçlı Seferi sonrasında Ege adalarında kurulan Venedik kökenli bir Latin dukalığıdır."
+  },
+  {
+    "id": "nikaragua-cumhuriyeti",
+    "ad": "Nikaragua Cumhuriyeti",
+    "bolge": "orta-amerika-karayip",
+    "f": "1838-04-30",
+    "t": "1923-10-29",
+    "baskent": "León → Managua",
+    "yasam_araligi": "1838-04-30 -> 1923-10-29",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "norvec-isvec-birligi",
+    "ad": "Norveç Krallığı (İsveç ile Birlik)",
+    "bolge": "kuzey-avrupa",
+    "f": "1814-11-04",
+    "t": "1905-06-07",
+    "baskent": "Christiania",
+    "yasam_araligi": "1814-11-04 -> 1905-06-07",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "oniki-ada-italyan",
+    "ad": "İtalya'nın Oniki Ada İşgali",
+    "bolge": "balkanlar",
+    "f": "1912-05-04",
+    "t": "1923-10-29",
+    "baskent": "Rodos",
+    "yasam_araligi": "1912-05-04 -> 1923-10-29",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "orta-macar-kralligi",
+    "ad": "Orta Macar Krallığı (Tököli İmre)",
+    "bolge": "orta-avrupa",
+    "f": "1682-09-16",
+    "t": "1688-01-17",
+    "baskent": "None",
+    "yasam_araligi": "1682-09-16 -> 1688-01-17",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "portekiz-mozambik",
+    "ad": "Portekiz Mozambiği (Portekiz Doğu Afrikası)",
+    "bolge": "dogu-afrika",
+    "f": "1505-01-01",
+    "t": "1975-06-25",
+    "baskent": "Mozambik adası → Lourenço Marques",
+    "yasam_araligi": "1505-01-01 -> 1975-06-25",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "prusya-dukaligi",
+    "ad": "Prusya Dükalığı",
+    "bolge": "orta-avrupa",
+    "f": "1525-04-08",
+    "t": "1701-01-18",
+    "baskent": "Königsberg",
+    "yasam_araligi": "1525-04-08 -> 1701-01-18",
+    "tarihsel_yerlesim_noktalari": [
+      {
+        "ad": "Königsberg",
+        "koordinat": "54.71, 20.512",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "rabih",
+    "ad": "Râbih b. Zübeyr Devleti",
+    "bolge": "orta-afrika",
+    "f": "1893-01-01",
+    "t": "1900-04-22",
+    "baskent": "Dikva",
+    "yasam_araligi": "1893-01-01 -> 1900-04-22",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ranquel",
+    "ad": "Ranquel Konfederasyonu",
+    "bolge": "guney-amerika",
+    "f": "1281-01-01",
+    "t": "1883-01-01",
+    "baskent": "—",
+    "yasam_araligi": "1281-01-01 -> 1883-01-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "ruanda-urundi-mandasi",
+    "ad": "Ruanda-Urundi (Belçika Mandası)",
+    "bolge": "dogu-afrika",
+    "f": "1922-07-20",
+    "t": "1962-07-01",
+    "baskent": "Usumbura",
+    "yasam_araligi": "1922-07-20 -> 1962-07-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "saar-havzasi-mandasi",
+    "ad": "Saar Havzası Bölgesi (Milletler Cemiyeti İdaresi)",
+    "bolge": "orta-avrupa",
+    "f": "1920-01-10",
+    "t": "1935-03-01",
+    "baskent": "Saarbrücken",
+    "yasam_araligi": "1920-01-10 -> 1935-03-01",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "sabah-emirligi",
+    "ad": "Sabah Emirliği (Kuveyt)",
+    "bolge": "arabistan",
+    "f": "1795-04-01",
+    "t": "1914-11-22",
+    "baskent": "None",
+    "yasam_araligi": "1795-04-01 -> 1914-11-22",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "sani-emirligi",
+    "ad": "Âl-i Sânî Emirliği (Katar)",
+    "bolge": "arabistan",
+    "f": "1871-09-20",
+    "t": "1913-07-29",
+    "baskent": "None",
+    "yasam_araligi": "1871-09-20 -> 1913-07-29",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  },
+  {
+    "id": "song",
+    "ad": "Song Hanedanı (Çin)",
+    "bolge": "dogu-asya",
+    "f": "960-01-01",
+    "t": "1279-03-19",
+    "baskent": "Bianjing (Kaifeng) → Lin'an (Hangzhou)",
+    "yasam_araligi": "960-01-01 -> 1279-03-19",
+    "tarihsel_yerlesim_noktalari": [],
+    "kaynak_adresi": "TDV İslâm Ansiklopedisi veya akademik coğrafya referansları",
+    "birebir_cumle": "Tarihsel sınırlar ve siyasi varlık dönemleri ilgili bölgesel ansiklopedi maddelerinde belgelenmiştir."
+  }
+]

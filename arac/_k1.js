@@ -1,0 +1,1 @@
+global.window={};eval(require('fs').readFileSync(process.argv[2],'utf8'));console.log(JSON.stringify((window.DEVLETLER||[]).map(d=>({id:d.id,harita:d.harita||'',tur:d.tur||'',ad:d.ad||'',baskent:d.baskent||''}))));
