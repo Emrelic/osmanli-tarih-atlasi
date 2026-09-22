@@ -99,6 +99,30 @@ yeri okunamıyor: stderr tamponsuz, stdout tamponlu — satır sırası
 karışıyor. Yeri daraltmak isteniyorsa `-W error::RuntimeWarning` ile ayrı
 bir koşu gerekir.
 
+**SEBEP ADAYI — motorun kendi kodunda aynı sınıfın kaydı var
+(`uret_petek.py:2806`, `poligonal` docstring'i, M-4535 · 18 Eylül):**
+
+> *"🔴 YÜRÜYÜŞ AÇIKKEN ÇÖKÜŞ, kutu sınavında yakalandı (26-50D 34-44K,
+> MOTOR_YURUYUS=1 + 16 komşu, devlet ~100/591): `g.intersection(KARA)` →
+> MultiLineString → `_ham_km2`: 'no attribute exterior'. Izgaradan gelen
+> epok payı KARA'ya yalnız bir ÇİZGİ boyunca değebiliyor."*
+
+Yani **yürüyüş açıkken ızgara payı yozlaşmış (çizgi/sıfır alanlı) geometri
+üretebiliyor** ve bu daha önce çöküşe yol açmıştı; `poligonal` o çöküşü
+kapattı ama yozlaşmış geometri `buffer()`a girmeye devam ediyor olabilir —
+`divide by zero` ve `invalid value` tam bunun belirtisi.
+
+Bu adayı üç gözlem destekliyor: ① yalnız yürüyüş açıkken görülüyor
+(kapalı tam koşu 0) ② uyarı sayısı devlet başına ~1 çift (150. devlette 70,
+253'te 166 → 103 devlette 96 uyarı), yani nadir bir uç vaka değil
+**sistematik** ③ M-4535 vakası da tam bu devlet aralığında (~100/591)
+doğmuştu.
+⚠️ **Bu bir ADAY, kanıt değil.** Doğrulaması: `-W error::RuntimeWarning`
+ile dar kutuda tek koşu — yığın izi sebebi tek satırda söyler.
+📌 Alarmı düşürüyor ama kaldırmıyor: yozlaşmış parça süzülüyorsa çıktı
+sağlam; süzülmeden gövdeye giriyorsa alan eksilir. Gövde karşılaştırması
+YİNE DE yapılacak.
+
 ⚠️ Koşu bitince tahtaya **"dosya senin"** yazılacak; sekiz oturum bunu
 bekliyor ve bekçileri bu gece bellek basıncından iki kez öldürüldü, yani
 bir kısmı uyanmayabilir — tahtaya yazmakla yetinmeyip `send_message` de
