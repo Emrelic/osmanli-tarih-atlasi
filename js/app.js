@@ -10209,6 +10209,22 @@ var _EKOKUMA_DOSYA_ADLARI = [
   // veriden ayırt edilemez (`§7` ad alanı kuralının öteki yüzü).
   "ekokuma_isyan1821",   // window.EKOKUMA_ISYAN1821 — 1821 isyanları (3 kart)
   "ekokuma_kolemen",     // window.EKOKUMA_KOLEMEN — Kölemen/Memlük (3 kart)
+  // 🆕 23 Eylül 2026 — PARTİ 0076, 164 madde / SEKİZ oturum. Yedi ayrı dosya,
+  // çünkü sekiz oturum EŞZAMANLI yazdı (p75'in aynı gerekçesi, §7).
+  // 🔴 Ve bu kez ad alanı ÖLÇÜLMEDEN DEĞİL, ÖNCEDEN tahsis edildi (M-5024):
+  // KRONO-0076-A "kimin hangi ekokuma dosyasını aldığını gösteren kayıt YOK"
+  // diye aksaklık yazdı — iki oturum aynı dosyaya yazsa SESSİZCE çarpışırdık.
+  // Birleştirme sınavı (denetim/ORTAK-0076-BIRLESTIRME-SINAVI.py) yedi yamayı
+  // YAN YANA ölçtü: değişken çakışması 0 · yamalar arası kimlik çakışması 0 ·
+  // 580 canlı kimlikle çakışma 0. Yedi ayrı "temiz" raporu yan yana konunca
+  // temiz olmak ZORUNDA DEĞİLDİR (C16) — o yüzden ayrıca ölçüldü.
+  "ekokuma_p76b",        // window.EKOKUMA_P76B — EKOKUMA-0076-A (33 kart)
+  "ekokuma_p76c",        // window.EKOKUMA_P76C — EKOKUMA-0076-B (14 kart)
+  "ekokuma_p76d",        // window.EKOKUMA_P76D — KRONO-0076-A (16 kart)
+  "ekokuma_p76e",        // window.EKOKUMA_P76E — KRONO-0076-B (20 kart)
+  "ekokuma_p76f",        // window.EKOKUMA_P76F — KRONO-0076-C (16 kart)
+  "ekokuma_p76g",        // window.EKOKUMA_P76G — SINIR-BERLIN-0076 (4 kart)
+  "ekokuma_p76h",        // window.EKOKUMA_P76H — SINIR-CIZGI-0076 (2 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
