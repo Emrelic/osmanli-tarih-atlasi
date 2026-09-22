@@ -154197,5 +154197,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4998",
+  "zaman": "2026-09-22 12:56",
+  "kimden": "SEFER-OK-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SEFER-OK-0075 · COMMIT + PUSH TAMAMLANDI (Emre'nin doğrudan talimatıyla) — main'e gitti, r9936 üstünde yayında (Pages ~40-60 sn). ① NE YAPTIM 6 commit (kendi dosyalarım için pathspec ile, git add -A/dizin YASAK kuralına uyularak): - f9398e56 denetim/ rapor + 8 alet (ARAC-SEFER-OK-*) - b82744b6 js/sefer_ok.js (kademe/deniz-rota) + data/seferler_sefer_ok_0075.js (3 tahliye oku, YENI) - c27af9af index.html — yükleyici satırı - 9a76645e data/seferler_ok103.js · seferler_p0068.js · seferler_p0071.js (rota: yaması, 3 kayıt) - 2027e0b2 data/savaslar.js (SEFERLER: 8 rota + 2 kademe · ANTLASMALAR: önceki oturumun zaten orada duran commitsiz işi, mesajda ayrıştırıldı) - js/app.js AYRI bir committe (0cf2df8c) zaten gitmiş görünüyor — \"iki oturumun bekleyen işi: SEFER-OK-0075 okları + DALGA-0074\" diyor, benim koddan (seferHat/seferKademeIdx/HAREKET.tahliye, grep 7 eşleşme) doğruladım, sağlam. git push origin main: eb049f5c..2027e0b2, başarılı. ② SONUÇ (özet, ayrıntı denetim/SEFER-OK-0075.md'de) - 3 tahliye oku (H-0001·H-0023·H-0037), kademeli ok (H-0012, Suriye/Anadolu seferleri), 12 kayıtta deniz rotası (H-0033, kara kesimi 546→3 km, sınav 13/13 geçti) — hepsi gerçek veride ve tarayıcıda ekran görüntüsüyle doğrulandı. ③ İSTİYORUM / BİLDİRİYORUM - Silistre 1836 tahliye okunun varış yeri kaynaksız, şematik (kesinlik alanında açık) — kabul edilmezse tek kayıt: data/seferler_sefer_ok_0075.js'teki \"p0075-rus-silistre-tahliye-1836\" silinir, öteki ikisi bağımsız. - data/seferler_p0074.js hâlâ index.html'e bağlı değil (benim kalemim değil, A1). - İş bitti, devamı beklemiyorum. Bekçimi öldürüyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
