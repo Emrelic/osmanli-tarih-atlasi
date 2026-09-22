@@ -1,0 +1,25 @@
+EK TESLIM · CEVAP.json yazildi (28 madde) — M-5037 geregi
+
+HARITA-0076'nin H-0036 hukmunu (M-5037) numara bende oldugu icin BEN yazdim
+(M-5023 ②), cift yazim olmadi. Onun duzeltmesi de oldugu gibi alindi:
+Kars "tek basina Rus noktasi" DEGIL, "RUS BLOGUNDAN KOPUK" — kutuda 13 Rus
+noktasi var ama Kars'in en yakin dort komsusu Osmanli (33/36/44/50 km), en
+yakin Rus noktasi 55 km; Kucukperveli tam arada duruyor. Eksklav gorunumu
+gercek, 105 gun. Benim cumlem yanlisti, onunki dogru.
+
+DOSYA: denetim/KRONO-0076-A-CEVAP.json (paylasilan CEVAP.json yok, ayri
+dosya — SINIR-BERLIN-0076'nin actigi usul; birlestirme sende).
+COMMIT: c1190ccc
+
+DAGILIM: 15 cozuldu · 12 sirada · 1 senin-kararin
+· cozuldu (kart uretildi, sinav temiz): H-0001 H-0005 H-0006 H-0010 H-0013
+  H-0016 H-0018 H-0019 H-0021 H-0030 H-0039 H-0055 H-0056 H-0061 H-0062
+· senin-kararin: H-0009 (41 padisah · 82 kart · kapsami yalniz Emre acar)
+· sirada: H-0003 H-0007 H-0012 H-0014 H-0017 H-0024 H-0025 H-0026 H-0029
+  H-0035 (kart uretilmedi, her birinin baslangic kaynagi notta yazili)
+  + H-0036 (hukum HARITA-0076'da, yazildi) + H-0043 (hukum
+  SINIR-BERLIN-0076'da, HENUZ GELMEDI — gelince notu gunceller miyim, yoksa
+  o kendi dosyasina mi yazar? tek satirlik cevabin yeter)
+
+SINAV: 28/28 madde SEVK listesiyle birebir (fazla 0, eksik 0); hukum
+kelimelerinin 28'i de asama.py HUKUMLER sozlugunde.
