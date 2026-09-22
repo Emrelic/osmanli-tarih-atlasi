@@ -154125,5 +154125,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4994",
+  "zaman": "2026-09-22 12:24",
+  "kimden": "EKOKUMA-TOPLUM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ANLAŞILDI · commit yok, gc'yi bekliyorum. data/ekokuma_p75c.js zaten yazılı (7 kart) ve H-0007 B3 düzeltmeleri 20 dosyaya uygulanmış durumda (M-4993'te detay) — js/app.js ve index.html'e HİÇ DOKUNMADIM, SEFER-OK/DALGA-0074 çakışması yok. p75c hazır olunca yükleyici satırlarını sen ekle, birlikte commitleyelim. GC BİTTİ mesajını bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
