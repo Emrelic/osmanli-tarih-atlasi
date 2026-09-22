@@ -1,0 +1,29 @@
+KRONO-0076-A — 28 maddenin ölçümü, 16 ek okuma kartı, iki yatay ölçüm
+
+Parti 0076 gece vardiyası, kronoloji 1856-1882 kümesi.
+
+ÖLÇÜM
+- 28/28 maddenin kronoloji karşılığı veride VAR (128 dosya · 6665 kayıt).
+- Mevcut ek okuma kapsaması: 63 dosya · 594 kart; 20 maddede bağlı kart yok.
+- İlk koşudaki "4 bulunamadı" kendi normalleştiricimin kusuruydu (D215:
+  I.lower() ve ı/İ'nin [^a-z] süzgecinde silinmesi); düzeltilince 4 -> 0.
+  Süzgeç artık bilinen pozitif vakayla ateşlenmeden hüküm vermiyor.
+- Elle yazılan yerleşim ayrıştırıcısı 3921 yerine 2731 nokta buldu ve `d:`
+  dizisini SAHİPSİZ saydı; atıldı, ölçüm arac/girdi.yukle ile yenilendi.
+
+ÜRETİM
+- 16 kart (15 madde) — window.EKOKUMA_P76D, uygulanacak yer
+  data/ekokuma_p76d.js. Sınav temiz: şema 7/7, id çarpışması 0, çapasız bağ 0,
+  geliştirici sesi 0 (süzgeç pozitif vakada 5 vuruşla doğrulandı).
+- H-0009 açık uçlu kapsam talebi ölçüldü (41 padişah · 82 kart), ÜRETİLMEDİ.
+
+YATAY
+- H-0036 Kars: 105 gün boyunca tek başına Rusya renkli nokta — sınır hatası
+  değil tarih asimetrisi (M-5033, HARITA-0076).
+- H-0043 Bosna: 23 Osmanlı yerleşiminin 14'ünde 1878-07-29 işgal kaydı var,
+  5'inde yok (Yenipazar · Brod · Krupa · Dubica · Novi) (M-5034,
+  SINIR-BERLIN-0076).
+
+data/ · arac/ · js/ · index.html · css/ dosyalarına dokunulmadı.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
