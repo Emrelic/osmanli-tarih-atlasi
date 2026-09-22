@@ -49,8 +49,9 @@ Gerçek boşluktaki 12 kart (başlık yazılması önerilir, **bu oturumda yazı
 `py arac/sunucu.py` (preview, port 50220) · Campo Formio maddesi (`1797-10-17`) açıldı:
 - satır 1 `👤 Napolyon Bonapart` · satır 2-3 `🌐 <başlık>`
 - simgenin üstüne gelince koyu balon: **"Dış Yankılar ek okuma"** — ekran görüntüsüyle görüldü.
-- `1805-05-13` maddesinde 4 satır: `👤 Ömer Mekrem` · `👤 Kavalalı Mehmed Ali Paşa` ·
-  `🔄 Mısırlıların gözünden Osmanlı…` · `🔄 13 Mayıs 1805 Mısır tarih yazımında nasıl anlatılır?`
+- Mayıs 1805 maddesinde 4 satır: `👤 Ömer Mekrem` · `👤 Kavalalı Mehmed Ali Paşa` ·
+  `🔄 Mısırlıların gözünden Osmanlı…` · `🔄 Mayıs 1805: Kahire'nin vali düşürmesi…`
+  (maddenin günü §5'te aya düşürüldü; sınama düşürmeden önce ve sonra iki kez yapıldı)
 - konsolda ek okuma ile ilgili hata YOK.
 
 ---
@@ -114,8 +115,9 @@ listesi Emre'nin 11 başlıklık listesinden geliyor).
 **Yeni dosya:** `data/ekokuma_misir1805.js` → `window.EKOKUMA_MISIR1805` (1 kart)
 **Yükleyici:** `js/app.js` `_EKOKUMA_DOSYA_ADLARI` listesine `"ekokuma_misir1805"` eklendi
 (index.html'e DOKUNULMADI — ek okuma dosyaları ana yüke girmez).
-**Kart:** `misir1805-tarih-anlatisi` · **tur `karsi-anlati`** · bağ: `1805-05-13|Mehmed Ali`,
-`1805-07-03|vali` · zincir: `bakis-misir`.
+**Kart:** `misir1805-tarih-anlatisi` · **tur `karsi-anlati`** · bağ: `1805-05|Mehmed Ali`
+(§5'teki hassasiyet düşürmesinden sonra; önce `1805-05-13|…` idi), `1805-07-03|vali` ·
+zincir: `bakis-misir`.
 
 **Tür gerekçesi:** kartın konusu olayın kendisi değil, olayın **Mısır tarih yazımındaki
 işlenişi**; `karsi-anlati` kovasının 29 kartı tam olarak bu şemayı taşıyor ("… gözünden
@@ -165,3 +167,70 @@ anlatıyor, bu kart TEK OLAYIN tarih yazımındaki yerini — mükerrer değil, 
 ⚠️ `js/app.js` bu dalgada **DALGA-0070 §2 (ELE-GECIRME-ANIM-0070) ve §3 (SEFER-OK-0070)** ile
 paylaşılıyor; bu oturum dosyayı düzenlerken "diskte değişmiş" uyarısı aldı — birleştirme
 1.MURAT'ta, dokunulan bölgeler ayrı (`ekAkordeonKur` ve `_EKOKUMA_DOSYA_ADLARI`).
+
+
+---
+
+## 5 · M-4715 — "13 Mayıs 1805 gününü kaynağa oturt" (1.MURAT'ın ek sevki, 20 Eylül 2026)
+
+### 5.1 · Olayın ayrıştırılması (sevk maddesi 1)
+Sevk "ulemânın vali İLAN ETMESİ" ile "Bâbıâli'nin TAYİN fermanı"nı ayırmamı istedi.
+**Ölçüm: atlas bunları ZATEN ayrı iki maddede tutuyor** — `1805-05-13` (Kahire, ulemâ) ve
+`1805-07-03` (İstanbul, ferman + `statu_vasal` ile Mısır'ın tâbi katmana geçişi). Yani
+(c) şıkkı (maddeyi ikiye ayır) GEREKMİYOR; sorun yalnız Mayıs maddesinin GÜNÜ ve KAYNAĞI.
+
+### 5.2 · Kaynak taraması (sevk maddesi 2) — dördünün de gövdesi açıldı
+| Kaynak | Ne diyor | Gün veriyor mu? |
+|---|---|---|
+| TDV `hursid-ahmed-pasa` (Cevdet Küçük, 1998) | "…hil'at giydirdi (10 Mayıs 1805)" · "Mısır ulemâsı ve şeyhleri Hurşid Paşa'dan görevini terketmesini istediler" · karar 18 Haziran · ferman okundu 9 Temmuz · Hurşid ayrıldı 6 Ağustos | Mayıs için yalnız **10 Mayıs** (hil'at), ilan için **HAYIR** |
+| TDV `kavalali-mehmed-ali-pasa` | "ulemâ, eşraf ve Mısır halkının desteğini de elde edip Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)" | **HAYIR** |
+| Özge Özkoç, *İmparatorluk İktidarının Sınırında Osmanlı Mısırı…*, doktora tezi, Ankara Üniv. SBE, 2013, s. 66 | "…1805 yılının Mayıs ayına gelindiğinde … ulemanın ve eşrafın yanı sıra şimdi de halkın desteğini alarak Hurşit Paşa'ya karşı bir ayaklanma başlatmayı başardı… **Bunun üzerine, Mehmet Ali Paşa kendisini Mısır valisi ilan etti.**" (ferman 3 Temmuz 1805) | **HAYIR — yalnız AY** |
+| Arzu Ertuğrul, *Kavalalı Mehmet Ali Paşa Dönemi'nde Mısır'da Edebi ve Kültürel Hayat (1805-1848)*, yüksek lisans tezi, İstanbul Üniv. SBE, 2018, s. 52 | "**Mayıs 1805'te** Kahire'ye bir atama fermanı gönderildi. **Aynı ay**, ulema ve Kahire'nin ileri gelenleri, Hurşid Paşa'nın Mısır valiliğinden alınması ve yerine Mehmet Ali Paşa'nın atanması için **talepte bulundular**." | **HAYIR — yalnız AY** |
+
+**Bulunamadı:** "13 Mayıs 1805" günü okunan hiçbir kaynakta geçmiyor. Cambridge History of
+Egypt bölümleri ve Marsot/Fahmy'nin kendi kitapları **ödeme duvarının ardında**, açılamadı;
+TDV'de "Ömer Mekrem" maddesi yok. Gün başka bir kaynakta bulunabilir — bu rapor "yok"
+demiyor, **"okunan dört kaynakta yok"** diyor.
+
+### 5.3 · Hüküm: (b) hassasiyeti düşür
+`t:"1805-05-13"` → **`t:"1805-05"`** · `gun:"13 Mayıs 1805"` → **`gun:"Mayıs 1805"`**.
+Biçim keyfî değil: kronolojide ay hassasiyeti için zaten kullanılan biçim (ölçüm: 1662 gün
+hassas, **20 ay hassas** `t:"YYYY-MM"` kaydı var — `olaylar.js` 1299-01, 1514-08 …).
+`kaynak:` alanı dört kaynağın künyesine çevrildi; `d:` alanına gün kaynaksızlığı ve
+kaynakların olayı nasıl anlattığı AÇIKÇA yazıldı (CLAUDE.md §4 · D210 · D213).
+
+### 5.4 · Değişmez 2 — ÖNGÖRÜ ÖNCE YAZILDI, SONRA ÖLÇÜLDÜ (sevk maddesi 4)
+**Öngörü (ölçümden önce):** madde 12 gün geriye kayarsa, yalnız bu maddeyle kapanan ve
+`1805-05-31`–`1805-06-12` aralığına düşen bir kırılma varsa AÇILIR.
+**Ölçüm** (`denetle.py`nin kendi yükleyicisiyle, 3921 yerleşim × 1719 madde): 1805 yılında
+**67 kırılma ucu** var; hepsinin bugünkü en yakın maddesi ile "05-13 yok, 05-01 var"
+senaryosundaki en yakın maddesi karşılaştırıldı — **AÇILAN KIRILMA: 0**. Sebebi ölçüldü:
+Mısır'ın toprak değişimi (47 yerleşim, `v:f misir-kavalali`) **1805-07-03**'e bağlı, Mayıs
+maddesine değil; Hicaz kırılmaları (Medine/Hayber `1805-06-01`) kendi maddesine oturuyor.
+**Koşu:** `py arac/denetle.py` yamadan ÖNCE ve SONRA koşturuldu — çıktı **birebir aynı**,
+`SONUÇ: temiz`.
+
+### 5.5 · Yan etki: ek okuma bağları da düştü (ölçülüp düzeltildi)
+`_ekBagEslesir` gün dizgisinde **TAM EŞİTLİK** arar. `1805-05-13` → `1805-05` değişimi,
+o güne bağlı **iki ek okuma kartını** sessizce görünmez bırakırdı (D099 sınıfı):
+`misir1805-tarih-anlatisi` (bu oturum) ve `bakis-misir` (EKO-BAKIS-0069). İkisinin de
+`olay:` bağı `1805-05|Mehmed Ali` olarak güncellendi; tarayıcıda gerçek veriyle doğrulandı —
+madde açıldığında dört satır çıkıyor (👤 Ömer Mekrem · 👤 Kavalalı Mehmed Ali Paşa ·
+🔄 Mayıs 1805: Kahire'nin vali düşürmesi… · 🔄 Mısırlıların gözünden Osmanlı…).
+Kartın başlığı ve son paragrafı da yeni tarihe göre düzeltildi.
+
+### 5.6 · 🟡 DOKUNMADIM — hüküm 1.MURAT'ın
+Maddenin **başlık cümlesi** (`b:`) hâlâ *"Kahire ulemâsı Mehmed Ali'yi vali ilan etti"* diyor.
+Okunan iki tez bunu böyle kurmuyor: ulemâ/eşraf/halk Hurşid'in **azlini istedi**, Mehmed Ali
+**kendini vali ilan etti**, Bâbıâli 3 Temmuz'da **tanıdı**. Sevk bana "yalnız bu maddenin
+tarih/kaynak alanları"nı verdiği için `b:` DEĞİŞTİRİLMEDİ. Önerim:
+*"Kahire ulemâsı ve eşrafı Hurşid Paşa'yı düşürdü, Mehmed Ali valiliği ilan etti"*.
+
+### 5.7 · Bu bölümde değişen dosyalar
+| Dosya | Değişiklik |
+|---|---|
+| `data/olaylar_ek4.js` | 1805 Mayıs maddesi: `t` · `gun` · `kaynak` · `d:`ye hassasiyet notu |
+| `data/kronoloji_misir.js` | aynı maddenin Mısır perspektifli kopyası: `t` · `kaynak` · `d:` notu |
+| `data/ekokuma_misir1805.js` | `olay:` bağı · başlık · son paragraf · başlık notu |
+| `data/ekokuma_bakis.js` | `bakis-misir` kartının `olay:` bağı (yalnız 1805 günü) |
+| `denetim/EKOKUMA-SIMGE-0070.md` | bu bölüm |

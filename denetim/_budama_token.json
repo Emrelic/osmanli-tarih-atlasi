@@ -3,10 +3,10 @@
  "dosyalar": [
   {
    "dosya": "CLAUDE.md",
-   "satir": 7374,
-   "bayt": 418427,
-   "karakter": 375620,
-   "token": 145947
+   "satir": 7662,
+   "bayt": 433419,
+   "karakter": 389115,
+   "token": 151356
   },
   {
    "dosya": "OGRENILENLER.md",
@@ -45,10 +45,10 @@
   },
   {
    "dosya": "VERI-YAPISI.md",
-   "satir": 571,
-   "bayt": 29590,
-   "karakter": 27150,
-   "token": 10604
+   "satir": 610,
+   "bayt": 31432,
+   "karakter": 28788,
+   "token": 11216
   },
   {
    "dosya": "DURUM.md",

@@ -1,0 +1,1390 @@
+{
+ "oturum": "BOZKIR-KAZAK",
+ "tarih": "2026-09-15",
+ "uyari": "YAMA ÖNERİSİ — UYGULANMADI",
+ "rapor": "denetim/ARASTIRMA-BOZKIR-KAZAK-0915.md",
+ "kayitlar": [
+  {
+   "dosya": "yerlesimler.js",
+   "ad": "Bozkır (Deşt-i Kıpçak)",
+   "v": [],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1570-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1570-01-01",
+     "t": "1721-01-01",
+     "d": "don-kazak",
+     "kaynak": "Kırım tasarrufu KAYNAKTA YOK (TDV kirim · TDV nogaylar · ESBE · IEU — dört tarama). Nokta Don'un BATI yakasında (48,5K'de Don ≈42,8-43,2D), Çir havzası — ВЭ/ESBE'ye göre Don Ordası toprağı. Önceki kodlama 1570-1783 Kazak/Rus kuşatması içinde tek Kırım adası üretiyordu (ölçüldü). · Военная энциклопедия (Sytin) 'Донское казачье войско': ordunun kıdemi 1570'ten sayılır (Novosiltsev) · TDV azak · künye don-kazak 1570-1721."
+    },
+    {
+     "f": "1721-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek 1502-1774 ve Kırım 1774-1783 KALDIRILDI (kaynaksız, enklav); 1502-1570 __BOSLUK__, 1570-1721 don-kazak, 1721 rusya (komşu Don noktalarıyla aynı zincir)."
+  },
+  {
+   "dosya": "yerlesimler_ek6.js",
+   "ad": "Çerkask (Razdory)",
+   "v": [],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1570-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030). TDV azak yalnız Azak'ı Kefe sancağı kazası olarak verir; Don kasabaları üzerinde han kaydı yok."
+    },
+    {
+     "f": "1570-01-01",
+     "t": "1721-01-01",
+     "d": "don-kazak",
+     "kaynak": "Военная энциклопедия (Sytin) 'Донское казачье войско': ordunun kıdemi 1570'ten sayılır (Novosiltsev) · TDV azak · künye don-kazak 1570-1721."
+    },
+    {
+     "f": "1721-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek 1502-1570 KALDIRILDI (kaynaksız) → __BOSLUK__."
+  },
+  {
+   "dosya": "yerlesimler_ek6.js",
+   "ad": "Donets bozkırı",
+   "v": [],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1570-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1570-01-01",
+     "t": "1721-01-01",
+     "d": "don-kazak",
+     "kaynak": "Военная энциклопедия (Sytin) 'Донское казачье войско': ordunun kıdemi 1570'ten sayılır (Novosiltsev) · TDV azak · künye don-kazak 1570-1721. ⚠️ ВЭ: 1708 Bulavin sonrası Donets toprakları Bahmut vilayetine verildi — iadesi BULUNAMADI, kodlanmadı."
+    },
+    {
+     "f": "1721-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek 1502-1570 KALDIRILDI (kaynaksız) → __BOSLUK__."
+  },
+  {
+   "dosya": "yerlesimler_ek6.js",
+   "ad": "Don bozkırı (Sal)",
+   "v": [
+    {
+     "f": "1557-01-01",
+     "t": "1655-01-01",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "TDV nogaylar: 'Kadı (Kazi) Mirza'nın idaresinde 964-965 (1557-1558) yıllarında İdil nehrini geçti; Kırım hanından himaye görerek Kabarda bölgesiyle Azak denizi arasındaki topraklara yerleştirildi' · TDV kirim ('Nogaylar'ın hana tâbiiyeti gevşek'). Gün yok ⇒ 1557-01-01 (yıl)."
+    }
+   ],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1557-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1655-01-01",
+     "t": "1771-10-30",
+     "d": "kalmuk",
+     "kaynak": "Российская историческая энциклопедия 'Калмыцкое ханство': 1655, 1657, 1661 şertlerine göre Kalmuk otlakları batıda Don bozkırlarına, güneyde Kuzey Kafkas eteklerine kadar · ESBE 'Калмыки': ilk şert 1655 · TDV kalmuklar: 'bir bölümü de Kalmuklar'ın idaresi altına girdi' (TDV nogaylar). Batı otlakları için yalnız yıl ⇒ 1655-01-01. ‖ RİE 'Калмыцкое ханство': 19(30).10.1771 ukazıyla hanlık kaldırıldı — Gregoryen günü kaynağın kendisinde · ÇELİŞKİ: TDV kalmuklar göçü '1770' der (ESBE 5 Ocak 1771)."
+    },
+    {
+     "f": "1771-10-30",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Don Kazak 1570-1721 KALDIRILDI: Sal-Manıç Don'un güneyi/doğusu, 1655-1771 Kalmuk sahası (RİE, ESBE); 1557-1655 Küçük Nogay üzerinden Kırım gevşek; 1771 sonrası Rusya (ESBE: Sal-Manıç Don Ordası toprağı, Rus iç birimi)."
+  },
+  {
+   "dosya": "yerlesimler.js",
+   "ad": "Kalmuk bozkırı",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1632-01-01",
+     "d": "nogay",
+     "kaynak": "TDV nogaylar (Nogay sahası; Kalmuk istilâsına kadar)"
+    },
+    {
+     "f": "1632-01-01",
+     "t": "1771-10-30",
+     "d": "kalmuk",
+     "kaynak": "TDV kalmuklar: '1618'den 1632'ye kadar süren göç dalgaları halinde … İdil (Volga) boylarına taşıyarak orada İdil Kalmukları Hanlığı'nı kurdu (1632)'. Yıl ⇒ 1632-01-01. ⚠️ ESBE 'Калмыки' 1630-32 Volga yerleşimini 'geçici' sayar; nokta Volga'nın BATISINDA — batı yakasının kesin yılı bulunamadı. ‖ RİE 'Калмыцкое ханство': 19(30).10.1771 ukazıyla hanlık kaldırıldı — Gregoryen günü kaynağın kendisinde · ÇELİŞKİ: TDV kalmuklar göçü '1770' der (ESBE 5 Ocak 1771)."
+    },
+    {
+     "f": "1771-10-30",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "rusya 1556-1771 → nogay 1556-1632 + kalmuk 1632-1771: Astarhan'ın 1556 fethi şehri verir, bozkırı değil; Volga Kalmuk Hanlığı künyesi eklendi."
+  },
+  {
+   "dosya": "yerlesimler_ek_bozkir.js",
+   "ad": "Yedisan bozkırı",
+   "v": [
+    {
+     "f": "1502-03-01",
+     "t": "1538-09-01",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "IEU 'Ochakiv' (15. yy sonunda kuzey kıyı Kırım denetiminde) · TDV kirim (gevşek) · Emre kararı D."
+    },
+    {
+     "f": "1723-01-01",
+     "t": "1770-01-01",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "EIU 'Єдисанська орда' (Panashenko 2005): orda 1715'te Kuban'a, 1723'te Osmanlı ve Kırım üstünlüğünü tanıyıp Dinyeper-Dinyester arasına yerleşti · TDV nogaylar: 'Yedisan … Nogayları, Kırım Hanlığı'nın hâkimiyeti altındaydı' · ÇELİŞKİ: EIU 'Очаківська земля' 1720-30'lar, TDV kirim '18. yy başı'. Yıl ⇒ 1723-01-01. Bitiş 1770: EIU aynı madde — orda 1770'te Rus himayesini tanıdı ve nakledildi (yıl)."
+    }
+   ],
+   "d": [
+    {
+     "f": "1538-09-01",
+     "t": "1792-01-09",
+     "kaynak": "TDV ozu: Cankirman 'Kanûnî'nin Karaboğdan seferi sonrasında (945/1538) kesin biçimde Osmanlı idaresi altına girmiş olmalıdır'; 1631-32 defterinde müstakil beylerbeyilik · EIU 'Очаківська земля': Dinyester-Bug arası idarî olarak Özi eyaletine bağlı · 1792 Yaş ile Rusya'ya. ⇒ 1538-1792 toprak OSMANLI; ordalar üzerinden Kırım bağı ayrıca v: ile."
+    }
+   ],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1792-01-09",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek 1502-1774 → 1502-1538 ve 1723-1770 (Yedisan ordası geldiği ve ayrıldığı yıllar); 1538-1792 OSMANLI (Özi eyaleti, d: SÜREKLİ — v: içine yuvalanır, VERI-YAPISI B biçimi); s:kirim 1774-1783 KALDIRILDI (Kaynarca'nın bağımsız alanı Bug'un doğusu — TDV kirim)."
+  },
+  {
+   "dosya": "yerlesimler.js",
+   "ad": "Kuban (Yekaterinodar)",
+   "v": [
+    {
+     "f": "1557-01-01",
+     "t": "1774-07-21",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "TDV nogaylar: 'Kadı (Kazi) Mirza'nın idaresinde 964-965 (1557-1558) yıllarında İdil nehrini geçti; Kırım hanından himaye görerek Kabarda bölgesiyle Azak denizi arasındaki topraklara yerleştirildi' · TDV kirim ('Nogaylar'ın hana tâbiiyeti gevşek'). Gün yok ⇒ 1557-01-01 (yıl)."
+    }
+   ],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1557-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1774-07-21",
+     "t": "1783-04-19",
+     "d": "kirim"
+    },
+    {
+     "f": "1783-04-19",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek başlangıcı 1502 → 1557 (Küçük Nogay'ın gelişi, TDV nogaylar); 1502-1557 __BOSLUK__."
+  },
+  {
+   "dosya": "yerlesimler_ek_bozkir.js",
+   "ad": "Kuban Nogay bozkırı",
+   "v": [
+    {
+     "f": "1557-01-01",
+     "t": "1774-07-21",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "TDV nogaylar: 'Kadı (Kazi) Mirza'nın idaresinde 964-965 (1557-1558) yıllarında İdil nehrini geçti; Kırım hanından himaye görerek Kabarda bölgesiyle Azak denizi arasındaki topraklara yerleştirildi' · TDV kirim ('Nogaylar'ın hana tâbiiyeti gevşek'). Gün yok ⇒ 1557-01-01 (yıl)."
+    }
+   ],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1557-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1774-07-21",
+     "t": "1783-04-19",
+     "d": "kirim"
+    },
+    {
+     "f": "1783-04-19",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek başlangıcı 1502 → 1557 (Küçük Nogay, TDV nogaylar); 1502-1557 __BOSLUK__."
+  },
+  {
+   "dosya": "yerlesimler_ek_bozkir.js",
+   "ad": "Stavropol–Kuma bozkırı",
+   "v": [
+    {
+     "f": "1557-01-01",
+     "t": "1655-01-01",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "TDV nogaylar: 'Kadı (Kazi) Mirza'nın idaresinde 964-965 (1557-1558) yıllarında İdil nehrini geçti; Kırım hanından himaye görerek Kabarda bölgesiyle Azak denizi arasındaki topraklara yerleştirildi' · TDV kirim ('Nogaylar'ın hana tâbiiyeti gevşek'). Gün yok ⇒ 1557-01-01 (yıl). ⚠️ Kuma, Küçük Nogay ile Kabartay arasında sınır bölgesi — güven düşük."
+    }
+   ],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1557-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1655-01-01",
+     "t": "1771-10-30",
+     "d": "kalmuk",
+     "kaynak": "Российская историческая энциклопедия 'Калмыцкое ханство': 1655, 1657, 1661 şertlerine göre Kalmuk otlakları batıda Don bozkırlarına, güneyde Kuzey Kafkas eteklerine kadar · ESBE 'Калмыки': ilk şert 1655 · TDV kalmuklar: 'bir bölümü de Kalmuklar'ın idaresi altına girdi' (TDV nogaylar). Batı otlakları için yalnız yıl ⇒ 1655-01-01. ‖ RİE 'Калмыцкое ханство': 19(30).10.1771 ukazıyla hanlık kaldırıldı — Gregoryen günü kaynağın kendisinde · ÇELİŞKİ: TDV kalmuklar göçü '1770' der (ESBE 5 Ocak 1771)."
+    },
+    {
+     "f": "1771-10-30",
+     "t": "1777-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — Kalmuk göçünden (1771) Rus hattına (1777) kadar Kuma bozkırının sahibi kaynakta yok."
+    },
+    {
+     "f": "1777-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım gevşek 1502-1774 → 1557-1655; 1655-1771 Kalmuk/Nogay/Kabartay çekişmeli otlak kalmuk olarak; Rus başlangıcı 1783 → 1777 (Azak-Mozdok hattı, ESBE)."
+  },
+  {
+   "dosya": "yerlesimler_ek4.js",
+   "ad": "Zaporojye Seçi",
+   "v": [
+    {
+     "f": "1502-03-01",
+     "t": "1552-01-01",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "Emre kararı D (13 Eyl 2026): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE · TDV kirim ('Nogaylar'ın hana tâbiiyeti gevşek'). ⚠️ 1502-1552 bu turda sınanmadı."
+    },
+    {
+     "f": "1711-07-21",
+     "t": "1734-01-01",
+     "k": "Zaporojye Seçi (Kırım hanının himayesinde)",
+     "kid": "zaporojye",
+     "himaye": true,
+     "kaynak": "EIU 'Олешківська Січ' (Hurjiy): 1711-1728 Seç Kırım hanının toprağında ve himayesinde · EIU 'Кам'янська Січ': 1728/1730-1734 hana bağlı (ÇELİŞKİ 1728/1730) · EIU 'Прутський трактат': Rusya Zaporojye'den el çekti — başlangıç atlasın Prut günü (1711-07-21, olaylar) · EIU 'Адріанопольський договір' (1713): sınır Samara-Orel arasına. Bitiş: EIU 'Нова Січ' (Panaşenko) — Mart 1734 Kamianka terk, Nova Seç Rus tâbiliğinde; §4 ay ⇒ 1734-01-01, ay metinde."
+    }
+   ],
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1552-01-01",
+     "t": "1711-07-21",
+     "d": "zaporojye",
+     "kaynak": "EIU 'Запорозька Січ' (Şçerbak) · IEU 'Zaporozhian Sich': Seç ~1552 Vişneveçki; 1775 Tekeli yıktı (yeni takvim 15/16 Haziran)."
+    },
+    {
+     "f": "1734-01-01",
+     "t": "1775-06-16",
+     "d": "zaporojye",
+     "kaynak": "EIU 'Запорозька Січ' (Şçerbak) · IEU 'Zaporozhian Sich': Seç ~1552 Vişneveçki; 1775 Tekeli yıktı (yeni takvim 15/16 Haziran)."
+    },
+    {
+     "f": "1775-06-16",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "1711-1734 Seç Kırım hanının himayesinde (Aleşki · Kamianka) — v: himaye, kid zaporojye (iç dolgu Seç'in kendi rengi, statu YOK ⇒ gevşek tonu değil). Künye 'Zaporojye Kazak Hetmanlığı' → 'Zaporojye Seçi'; Hetmanlık ayrı künye (kazak-hetmanligi)."
+  },
+  {
+   "dosya": "yerlesimler.js",
+   "ad": "Poltava",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1569-07-01",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1569-07-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "lehistan→1654 + rusya 1654→ yerine Kazak Hetmanlığı 1649-1764 (1654'ten Moskova'ya tâbi özerk — künye tabi)."
+  },
+  {
+   "dosya": "yerlesimler_ok106.js",
+   "ad": "Lubnı",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1569-07-01",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1569-07-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kazak Hetmanlığı 1649-1764 (IEU Lubny: 'In the Hetman state it was a regimental capital')."
+  },
+  {
+   "dosya": "yerlesimler_ok106.js",
+   "ad": "Kremençuk",
+   "s": [
+    {
+     "f": "1571-01-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kazak Hetmanlığı 1649-1764."
+  },
+  {
+   "dosya": "yerlesimler_h2_rusya.js",
+   "ad": "Baturin",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1569-07-01",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1569-07-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kazak Hetmanlığı 1649-1764 (hetman başkenti 1669-1708 ve 1750-64, IEU). Eski 1654-01-08 (Pereyaslav, Jülyen) Poltava'nın 01-18'iyle çelişiyordu; artık künye tabi."
+  },
+  {
+   "dosya": "yerlesimler_h2_rusya.js",
+   "ad": "Hluhiv",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1503-04-02",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1503-04-02",
+     "t": "1547-01-16",
+     "d": "moskova"
+    },
+    {
+     "f": "1547-01-16",
+     "t": "1618-12-11",
+     "d": "rusya"
+    },
+    {
+     "f": "1618-12-11",
+     "t": "1649-08-18",
+     "d": "lehistan",
+     "kaynak": "Önceki kayıt 1547-1654 kesintisiz rusya idi — kaynaksız. Deulino (1618) ile Çernigov-Seversk toprakları Lehistan'a: §4 şartlı komşu günü — aynı antlaşma, aynı voyvodalık; gün komşudan: Çernigov / Novgorod-Seversk (1618-12-11). Hluhiv 1708-34 hetman başkenti (IEU Hetman State)."
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "rusya 1547-1917 kesintisiz → Deulino 1618 Lehistan + Kazak Hetmanlığı 1649-1764."
+  },
+  {
+   "dosya": "yerlesimler_ek17.js",
+   "ad": "Çernigov",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1503-04-02",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1503-04-02",
+     "t": "1547-01-16",
+     "d": "moskova"
+    },
+    {
+     "f": "1547-01-16",
+     "t": "1618-12-11",
+     "d": "rusya"
+    },
+    {
+     "f": "1618-12-11",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kazak Hetmanlığı 1649-1764 (Zboriv: Çernigov voyvodalığı)."
+  },
+  {
+   "dosya": "yerlesimler_ek17.js",
+   "ad": "Novgorod-Seversk",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1503-04-02",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1503-04-02",
+     "t": "1547-01-16",
+     "d": "moskova"
+    },
+    {
+     "f": "1547-01-16",
+     "t": "1618-12-11",
+     "d": "rusya"
+    },
+    {
+     "f": "1618-12-11",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1764-11-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ EIU arama önizlemesi (madde AÇILMADI — DOĞRULANACAK): II. Katerina'nın 10(21).11.1764 fermanıyla hetmanlık kaldırıldı · IEU 'Hetman State': alay düzeni 1781-82'ye kadar sürdü. 1654-1764 arası Moskova'ya tâbi özerk (künye tabi)."
+    },
+    {
+     "f": "1764-11-21",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kazak Hetmanlığı 1649-1764 (Zboriv: Çernigov voyvodalığı)."
+  },
+  {
+   "dosya": "yerlesimler.js",
+   "ad": "Kiev",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1362-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1362-01-01",
+     "t": "1569-07-01",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1569-07-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1667-02-09",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ Zboriv 1649 (EIU) · Kiev 1667'de Andrusovo ile Rusya'ya: atlas günü 1667-02-09 DEĞİŞTİRİLMEDİ — ⚠️ EIU 30(20).01.1667, IEU 13.01.1667; ikisi de 02-09'a uymuyor (ayrı kalem)."
+    },
+    {
+     "f": "1667-02-09",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kazak Hetmanlığı 1649-1667; 1667 sonrası Moskova voyvodası (değişmedi)."
+  },
+  {
+   "dosya": "yerlesimler.js",
+   "ad": "Çehrin (Çigirin)",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1569-07-01",
+     "d": "litvanya-buyuk-dukalik"
+    },
+    {
+     "f": "1569-07-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1678-08-21",
+     "d": "kazak-hetmanligi",
+     "kaynak": "Енциклопедія історії України (НАН) 'Зборівський договір': 18.08.1649 — Kiev, Bratslav, Çernigov voyvodalıklarında Kazak özerkliği · IEU 'Hetman State' · EIU 'Гетьманщина' (Hurjiy): 1654 öncesi Hetmanlık toprağı Poltava, Kremençuk, Çernigov, Starodub, Hluhiv, Çigirin'i kapsar. Gün kaynağın verdiği gibi. ‖ TDV cehrin-seferi: 'Kuşatma 21 Temmuz 1678 günü başladı' · kale kuşatmanın 33. günü 'alındı (21 Ağustos 1678)' — 15 Eyl 2026 gövde yeniden okundu. Eski 1678-07-19 Kara Mustafa'nın varış günü (EIU Haluşka), fethin günü DEĞİL. Hetmanlık dilimi: Çigirin 1648-63 hetman başkenti (IEU), 1669-76 Doroşenko (Osmanlı tâbiliği AYRICA KODLANMADI — Emre kararı: yalnız Seç + Hetmanlık)."
+    },
+    {
+     "f": "1699-01-26",
+     "t": "1793-01-23",
+     "d": "lehistan"
+    },
+    {
+     "f": "1793-01-23",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1678-08-21",
+     "t": "1699-01-26",
+     "y": "kusatma",
+     "kaynak": "TDV cehrin-seferi: 'Kuşatma 21 Temmuz 1678 günü başladı' · kale kuşatmanın 33. günü 'alındı (21 Ağustos 1678)' — 15 Eyl 2026 gövde yeniden okundu. Eski 1678-07-19 Kara Mustafa'nın varış günü (EIU Haluşka), fethin günü DEĞİL. Hetmanlık dilimi: Çigirin 1648-63 hetman başkenti (IEU), 1669-76 Doroşenko (Osmanlı tâbiliği AYRICA KODLANMADI — Emre kararı: yalnız Seç + Hetmanlık). ⚠️ 1678 sonrası: EIU Osmanlı garnizonu bıraktı der, IEU 'kısa süre sonra terk' der — ÇELİŞKİ, bitiş değiştirilmedi."
+    }
+   ],
+   "neden": "Osmanlı başlangıcı 1678-07-19 → 1678-08-21 (TDV cehrin-seferi); 1649-1678 Kazak Hetmanlığı."
+  }
+ ],
+ "yeni_noktalar": [
+  {
+   "ad": "Ust-Medveditskaya",
+   "tur": "sehir",
+   "lat": 49.65,
+   "lon": 42.08,
+   "g": 0,
+   "k": 0,
+   "kur": "1550-01-01",
+   "kaynak": "ESBE 'Усть-Медведицкая': stanitsanın kuruluşu XVI. yüzyıl ortasına dayanır (yüzyıl ortası ⇒ 1550-01-01, gün/yıl yok). Koordinat: bugünkü Serafimoviç.",
+   "s": [
+    {
+     "f": "1550-01-01",
+     "t": "1570-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1570-01-01",
+     "t": "1721-01-01",
+     "d": "don-kazak",
+     "kaynak": "Военная энциклопедия (Sytin) 'Донское казачье войско': ordunun kıdemi 1570'ten sayılır (Novosiltsev) · TDV azak · künye don-kazak 1570-1721."
+    },
+    {
+     "f": "1721-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Don dirseğinin kuzeyinde 128 km'lik boşluk (ONERI-BOZKIR-NOKTA-0034 hattı)."
+  },
+  {
+   "ad": "Macar (Majar harabesi)",
+   "tur": "bolge",
+   "lat": 44.78,
+   "lon": 44.16,
+   "g": 0,
+   "k": 0,
+   "kaynak": "Tatarica (Tatar Ansiklopedisi, İzmaylov · Nedaşkovski) 'Маджар': Altın Orda şehri, 1310-1311'de sikke basıldı; 1395'te Timur yıktı. Nokta 1395 sonrasında Kuma bozkırını temsil eder (tur:bolge).",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1655-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — 1502 sonrası bu bozkırın sahibi adıyla (Büyük Nogay tasarrufu) dört taramada da bulunamadı; Kırım TASARRUFU kaynakta YOK (TDV kirim yalnız hak iddiası verir, akın/iddia tasarruf değildir — D030)."
+    },
+    {
+     "f": "1655-01-01",
+     "t": "1771-10-30",
+     "d": "kalmuk",
+     "kaynak": "Российская историческая энциклопедия 'Калмыцкое ханство': 1655, 1657, 1661 şertlerine göre Kalmuk otlakları batıda Don bozkırlarına, güneyde Kuzey Kafkas eteklerine kadar · ESBE 'Калмыки': ilk şert 1655 · TDV kalmuklar: 'bir bölümü de Kalmuklar'ın idaresi altına girdi' (TDV nogaylar). Batı otlakları için yalnız yıl ⇒ 1655-01-01. ‖ RİE 'Калмыцкое ханство': 19(30).10.1771 ukazıyla hanlık kaldırıldı — Gregoryen günü kaynağın kendisinde · ÇELİŞKİ: TDV kalmuklar göçü '1770' der (ESBE 5 Ocak 1771)."
+    },
+    {
+     "f": "1771-10-30",
+     "t": "1777-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — Kalmuk göçünden (1771) Rus hattına (1777) kadar Kuma bozkırının sahibi kaynakta yok."
+    },
+    {
+     "f": "1777-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kuma havzasında 123 km'lik boşluk; şehir 1395'te yıkıldı, nokta bozkır dolgusu olarak kalır."
+  },
+  {
+   "ad": "Samara (Novoselitsa)",
+   "tur": "sehir",
+   "lat": 48.63,
+   "lon": 35.25,
+   "g": 0,
+   "k": 0,
+   "kur": "1550-01-01",
+   "kaynak": "IEU 'Novomoskovsk': yerde XVI. yüzyılın ikinci yarısında bir Kazak yerleşimi kuruldu (yıl yok ⇒ 1550-01-01); Samara palankası (EIU 'Вольності'). 1784'te Novomoskovsk.",
+   "s": [
+    {
+     "f": "1550-01-01",
+     "t": "1552-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "BULUNAMADI — yüzyıl yarısı hassasiyeti; Seç kuruluşuna kadar sahip yok."
+    },
+    {
+     "f": "1552-01-01",
+     "t": "1711-07-21",
+     "d": "zaporojye",
+     "kaynak": "EIU 'Запорозька Січ' (Şçerbak) · IEU 'Zaporozhian Sich': Seç ~1552 Vişneveçki; 1775 Tekeli yıktı (yeni takvim 15/16 Haziran)."
+    },
+    {
+     "f": "1734-01-01",
+     "t": "1775-06-16",
+     "d": "zaporojye",
+     "kaynak": "EIU 'Запорозька Січ' (Şçerbak) · IEU 'Zaporozhian Sich': Seç ~1552 Vişneveçki; 1775 Tekeli yıktı (yeni takvim 15/16 Haziran)."
+    },
+    {
+     "f": "1775-06-16",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "v": [
+    {
+     "f": "1711-07-21",
+     "t": "1734-01-01",
+     "k": "Zaporojye Seçi (Kırım hanının himayesinde)",
+     "kid": "zaporojye",
+     "himaye": true,
+     "kaynak": "EIU 'Олешківська Січ' (Hurjiy): 1711-1728 Seç Kırım hanının toprağında ve himayesinde · EIU 'Кам'янська Січ': 1728/1730-1734 hana bağlı (ÇELİŞKİ 1728/1730) · EIU 'Прутський трактат': Rusya Zaporojye'den el çekti — başlangıç atlasın Prut günü (1711-07-21, olaylar) · EIU 'Адріанопольський договір' (1713): sınır Samara-Orel arasına. Bitiş: EIU 'Нова Січ' (Panaşenko) — Mart 1734 Kamianka terk, Nova Seç Rus tâbiliğinde; §4 ay ⇒ 1734-01-01, ay metinde."
+    }
+   ],
+   "neden": "Zaporojye topraklarında 103 km'lik boşluk; Edirne 1713 sınırının (Samara-Orel) güneyi."
+  },
+  {
+   "ad": "Balta",
+   "tur": "sehir",
+   "lat": 47.94,
+   "lon": 29.62,
+   "g": 0,
+   "k": 0,
+   "kur": "1500-01-01",
+   "kaynak": "IEU 'Balta': XVI. yüzyıldan beri var (yüzyıl ⇒ 1500-01-01); 1791'e kadar Türk idaresinde, Yaş (1792) ile Rusya'ya.",
+   "s": [
+    {
+     "f": "1500-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1792-01-09",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "v": [
+    {
+     "f": "1502-03-01",
+     "t": "1538-09-01",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "IEU 'Ochakiv' (15. yy sonunda kuzey kıyı Kırım denetiminde) · TDV kirim (gevşek) · Emre kararı D."
+    }
+   ],
+   "d": [
+    {
+     "f": "1538-09-01",
+     "t": "1792-01-09",
+     "kaynak": "TDV ozu: Cankirman 'Kanûnî'nin Karaboğdan seferi sonrasında (945/1538) kesin biçimde Osmanlı idaresi altına girmiş olmalıdır'; 1631-32 defterinde müstakil beylerbeyilik · EIU 'Очаківська земля': Dinyester-Bug arası idarî olarak Özi eyaletine bağlı · 1792 Yaş ile Rusya'ya. ⇒ 1538-1792 toprak OSMANLI; ordalar üzerinden Kırım bağı ayrıca v: ile. · IEU Balta"
+    }
+   ],
+   "neden": "Yedisan kuzeyinde 86 km'lik boşluk; zincir Yedisan bozkırıyla aynı olaylar."
+  },
+  {
+   "ad": "Kodak",
+   "tur": "kale",
+   "lat": 48.38,
+   "lon": 35.13,
+   "g": 0,
+   "k": 0,
+   "kur": "1635-01-01",
+   "kaynak": "IEU 'Sulyma': Lehistan'ın 1635'te yaptırdığı Kodak kalesi, Ağustos 1635'te Sulima tarafından yıkıldı · EIU 'Вольності': sonra Zaporojye Kodak palankası. ⚠️ 1649 devri Zboriv günüyle hizalandı (Kodak için ayrı gün BULUNAMADI — güven düşük).",
+   "s": [
+    {
+     "f": "1635-01-01",
+     "t": "1649-08-18",
+     "d": "lehistan"
+    },
+    {
+     "f": "1649-08-18",
+     "t": "1711-07-21",
+     "d": "zaporojye",
+     "kaynak": "EIU 'Запорозька Січ' (Şçerbak) · IEU 'Zaporozhian Sich': Seç ~1552 Vişneveçki; 1775 Tekeli yıktı (yeni takvim 15/16 Haziran)."
+    },
+    {
+     "f": "1734-01-01",
+     "t": "1775-06-16",
+     "d": "zaporojye",
+     "kaynak": "EIU 'Запорозька Січ' (Şçerbak) · IEU 'Zaporozhian Sich': Seç ~1552 Vişneveçki; 1775 Tekeli yıktı (yeni takvim 15/16 Haziran)."
+    },
+    {
+     "f": "1775-06-16",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "v": [
+    {
+     "f": "1711-07-21",
+     "t": "1734-01-01",
+     "k": "Zaporojye Seçi (Kırım hanının himayesinde)",
+     "kid": "zaporojye",
+     "himaye": true,
+     "kaynak": "EIU 'Олешківська Січ' (Hurjiy): 1711-1728 Seç Kırım hanının toprağında ve himayesinde · EIU 'Кам'янська Січ': 1728/1730-1734 hana bağlı (ÇELİŞKİ 1728/1730) · EIU 'Прутський трактат': Rusya Zaporojye'den el çekti — başlangıç atlasın Prut günü (1711-07-21, olaylar) · EIU 'Адріанопольський договір' (1713): sınır Samara-Orel arasına. Bitiş: EIU 'Нова Січ' (Panaşenko) — Mart 1734 Kamianka terk, Nova Seç Rus tâbiliğinde; §4 ay ⇒ 1734-01-01, ay metinde."
+    }
+   ],
+   "neden": "Dinyeper eşiklerinin kuzey girişi, 74 km'lik boşluk."
+  },
+  {
+   "ad": "Aleşki (Oleşki Seçi)",
+   "tur": "kale",
+   "lat": 46.62,
+   "lon": 32.72,
+   "g": 0,
+   "k": 0,
+   "kur": "1711-07-21",
+   "kaynak": "EIU 'Олешківська Січ' (Hurjiy) · IEU 'Oleshky Sich': Zaporojye Seçi 1711'den 1728'e burada, Kırım hanının toprağında (han tahkimata izin vermedi). ⚠️ Aleşki'nin Seç öncesi Tatar kasabası olarak varlığı BU TURDA SINANMADI — kur: yalnız Seç'i tarihliyor.",
+   "v": [
+    {
+     "f": "1711-07-21",
+     "t": "1734-01-01",
+     "k": "Zaporojye Seçi (Kırım hanının himayesinde)",
+     "kid": "zaporojye",
+     "himaye": true,
+     "kaynak": "EIU 'Олешківська Січ' (Hurjiy): 1711-1728 Seç Kırım hanının toprağında ve himayesinde · EIU 'Кам'янська Січ': 1728/1730-1734 hana bağlı (ÇELİŞKİ 1728/1730) · EIU 'Прутський трактат': Rusya Zaporojye'den el çekti — başlangıç atlasın Prut günü (1711-07-21, olaylar) · EIU 'Адріанопольський договір' (1713): sınır Samara-Orel arasına. Bitiş: EIU 'Нова Січ' (Panaşenko) — Mart 1734 Kamianka terk, Nova Seç Rus tâbiliğinde; §4 ay ⇒ 1734-01-01, ay metinde."
+    },
+    {
+     "f": "1734-01-01",
+     "t": "1774-07-21",
+     "k": "Kırım Hanlığı",
+     "kid": "kirim",
+     "statu": "gevsek",
+     "himaye": true,
+     "kaynak": "Emre kararı D (13 Eyl 2026): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE · TDV kirim ('Nogaylar'ın hana tâbiiyeti gevşek'). (Yediçkul bozkırı zinciri)"
+    }
+   ],
+   "s": [
+    {
+     "f": "1774-07-21",
+     "t": "1783-04-19",
+     "d": "kirim"
+    },
+    {
+     "f": "1783-04-19",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kırım himayesindeki Seç'in yeri; Yediçkul batısında 59 km'lik boşluk."
+  },
+  {
+   "ad": "Starobilsk (Bilska)",
+   "tur": "sehir",
+   "lat": 49.28,
+   "lon": 38.91,
+   "g": 0,
+   "k": 0,
+   "kur": "1686-01-01",
+   "kaynak": "IEU 'Starobilsk': 1686'da Ostrogojsk alayı Kazaklarınca kuruldu; 1708 Bulavin isyanında yıkıldı (yeniden iskân yılı bu turda bulunamadı — nokta sürekli sayıldı).",
+   "s": [
+    {
+     "f": "1686-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Sloboda-Donets arasında 54 km'lik boşluk."
+  },
+  {
+   "ad": "Tor (Slavyansk)",
+   "tur": "kale",
+   "lat": 48.85,
+   "lon": 37.61,
+   "g": 0,
+   "k": 0,
+   "kur": "1645-01-01",
+   "kaynak": "IEU 'Sloviansk': 1645'te Kırım Tatar geçidinde geçici tahkimli karakol; 1663 kale; 1784 kasaba.",
+   "s": [
+    {
+     "f": "1645-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Donets batısında 40 km'lik boşluk; Tatar geçidi."
+  },
+  {
+   "ad": "Soğucak (Sucuk Kale)",
+   "tur": "kale",
+   "lat": 44.72,
+   "lon": 37.78,
+   "g": 0,
+   "k": 0,
+   "kur": "1722-01-01",
+   "kaynak": "ESBE 'Новороссийск': 'В 1722 г. здесь была построена турецкая крепость' · Osmanlı'dan çıkış 1829 Edirne (TDV anapa, Anapa ile aynı antlaşma).",
+   "d": [
+    {
+     "f": "1722-01-01",
+     "t": "1829-09-14",
+     "kaynak": "ESBE 'Новороссийск': 'В 1722 г. здесь была построена турецкая крепость' · Osmanlı'dan çıkış 1829 Edirne (TDV anapa, Anapa ile aynı antlaşma)."
+    }
+   ],
+   "s": [
+    {
+     "f": "1829-09-14",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Çerkes kıyısında Osmanlı kalesi (bugünkü Novorossiysk)."
+  },
+  {
+   "ad": "Stavropol",
+   "tur": "kale",
+   "lat": 45.04,
+   "lon": 41.97,
+   "g": 0,
+   "k": 0,
+   "kur": "1777-01-01",
+   "kaynak": "ESBE 'Ставропольская губерния': Azak-Mozdok hattı 1775'te planlandı, 1777'de Stavropol dahil 10 kaleyle kuruldu. Yıl ⇒ 1777-01-01.",
+   "s": [
+    {
+     "f": "1777-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Azak-Mozdok hattı kalesi."
+  },
+  {
+   "ad": "Georgiyevsk",
+   "tur": "kale",
+   "lat": 44.15,
+   "lon": 43.47,
+   "g": 0,
+   "k": 0,
+   "kur": "1777-01-01",
+   "kaynak": "ESBE 'Георгиевск': 1777'de Azak-Mozdok hattı kalesi olarak kuruldu · ESBE 'Ставропольская губерния': Azak-Mozdok hattı 1775'te planlandı, 1777'de Stavropol dahil 10 kaleyle kuruldu. Yıl ⇒ 1777-01-01.",
+   "s": [
+    {
+     "f": "1777-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Kuma-Terek arası 73 km'lik boşluk."
+  },
+  {
+   "ad": "Mozdok",
+   "tur": "kale",
+   "lat": 43.75,
+   "lon": 44.66,
+   "g": 0,
+   "k": 0,
+   "kur": "1763-01-01",
+   "kaynak": "TDV cerkezler: Mozdok kalesi 1763 · ÇELİŞKİ: ESBE 'Моздок' 1762 (Kurgoko Kançokin) — §4 gereği TDV esas.",
+   "s": [
+    {
+     "f": "1763-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "neden": "Terek hattının ilk Rus kalesi; Kabartay topraklarında."
+  }
+ ],
+ "renk": {
+  "kalmuk": "#a4eb3b",
+  "kazak-hetmanligi": "#c73beb"
+ },
+ "madde_duzeltme": {
+  "dosya": "data/olaylar_ek5.js",
+  "b": "Çehrin Kalesi'nin fethi",
+  "eski_t": "1678-07-19",
+  "yeni_t": "1678-08-21"
+ }
+}

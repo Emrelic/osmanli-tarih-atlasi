@@ -10,18 +10,8 @@
   "1813-12-31"
  ],
  "yerlesim_sayisi": 80,
- "kayit_sayisi": 58,
+ "kayit_sayisi": 69,
  "kayitlar": [
-  {
-   "yer": "Hotin",
-   "lat": 48.51,
-   "lon": 26.492,
-   "kat": "isg",
-   "f": "1806-01-01",
-   "t": "1812-05-28",
-   "d": "rusya",
-   "kaynak": "hotin — 1806 günü G5-RUS-1806-BOGDAN kararını bekliyor"
-  },
   {
    "yer": "Akkirman",
    "lat": 46.1968,
@@ -43,6 +33,46 @@
    "kaynak": "gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Hotin, Bender, Akkirman ve Kili komutanları kaleleri savaşsız teslim etti"
   },
   {
+   "yer": "Birlad (Bârlad)",
+   "lat": 46.23,
+   "lon": 27.667,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+  },
+  {
+   "yer": "Hotin",
+   "lat": 48.51,
+   "lon": 26.492,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "hotin (TDV: «son olarak 1806'da Rusların işgaline uğradı» — YIL hassasiyeti) · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Hotin, Bender, Akkirman ve Kili komutanları kaleleri savaşsız teslim etti (11 Kasım J'de Dinyester geçişi)"
+  },
+  {
+   "yer": "Kahul (Cahul)",
+   "lat": 45.905,
+   "lon": 28.198,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+  },
+  {
+   "yer": "Kalas (Galatz)",
+   "lat": 45.435,
+   "lon": 28.008,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+  },
+  {
    "yer": "Kili",
    "lat": 45.451,
    "lon": 29.271,
@@ -51,6 +81,36 @@
    "t": "1812-05-28",
    "d": "rusya",
    "kaynak": "kili · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806)"
+  },
+  {
+   "yer": "Orhei",
+   "lat": 47.383,
+   "lon": 28.823,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+  },
+  {
+   "yer": "Roman",
+   "lat": 46.925,
+   "lon": 26.93,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+  },
+  {
+   "yer": "Soroka (Soroca)",
+   "lat": 48.158,
+   "lon": 28.299,
+   "kat": "isg",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
   },
   {
    "yer": "Yaş",
@@ -83,6 +143,16 @@
    "kaynak": "eflak · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
   },
   {
+   "yer": "Krayova (Craiova)",
+   "lat": 44.33,
+   "lon": 23.795,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
    "yer": "Kımpulung (Câmpulung)",
    "lat": 45.269,
    "lon": 25.045,
@@ -103,6 +173,16 @@
    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
   },
   {
+   "yer": "Rimnik (Râmnicu Vâlcea)",
+   "lat": 45.105,
+   "lon": 24.375,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
    "yer": "Rimnik-i Sârat (Râmnicu Sărat)",
    "lat": 45.383,
    "lon": 27.056,
@@ -113,6 +193,26 @@
    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
   },
   {
+   "yer": "Slatina",
+   "lat": 44.427,
+   "lon": 24.371,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Turnu Severin",
+   "lat": 44.632,
+   "lon": 22.656,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
    "yer": "Tırgovişte",
    "lat": 44.925,
    "lon": 25.457,
@@ -121,6 +221,16 @@
    "t": "1812-05-28",
    "d": "rusya",
    "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+  },
+  {
+   "yer": "Tırgu Jiu",
+   "lat": 45.035,
+   "lon": 23.275,
+   "kat": "isg",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "d": "rusya",
+   "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
   },
   {
    "yer": "İsmail",
@@ -140,7 +250,7 @@
    "f": "1809-12-02",
    "t": "1812-05-28",
    "d": "rusya",
-   "kaynak": null
+   "kaynak": "ibrail — TDV: «yiyecek sıkıntısı yüzünden 2 Aralık'ta General Essen'e teslim edildi» (1809 kuşatması)"
   },
   {
    "yer": "Silistre",
@@ -596,10 +706,8 @@
  "kesitler": {
   "1806-11-22": {
    "etiket": "Dinyester geçilmeden bir gün önce",
-   "isgal_sayisi": 1,
-   "isgalli": [
-    "Hotin"
-   ],
+   "isgal_sayisi": 0,
+   "isgalli": [],
    "sahiplik": {
     "OSMANLI": 28,
     "avusturya": 23,
@@ -614,10 +722,8 @@
   },
   "1806-11-23": {
    "etiket": "Rus ordusu Dinyester'i geçti",
-   "isgal_sayisi": 1,
-   "isgalli": [
-    "Hotin"
-   ],
+   "isgal_sayisi": 0,
+   "isgalli": [],
    "sahiplik": {
     "OSMANLI": 28,
     "avusturya": 23,
@@ -632,18 +738,29 @@
   },
   "1806-12-25": {
    "etiket": "Miloradoviç Bükreş'te — Emre'nin görseli",
-   "isgal_sayisi": 11,
+   "isgal_sayisi": 22,
    "isgalli": [
     "Akkirman",
     "Bender",
+    "Birlad (Bârlad)",
     "Buzău",
     "Bükreş",
     "Hotin",
+    "Kahul (Cahul)",
+    "Kalas (Galatz)",
     "Kili",
+    "Krayova (Craiova)",
     "Kımpulung (Câmpulung)",
+    "Orhei",
     "Piteşti",
+    "Rimnik (Râmnicu Vâlcea)",
     "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Roman",
+    "Slatina",
+    "Soroka (Soroca)",
+    "Turnu Severin",
     "Tırgovişte",
+    "Tırgu Jiu",
     "Yaş"
    ],
    "sahiplik": {
@@ -660,18 +777,29 @@
   },
   "1807-06-01": {
    "etiket": "1807 seferi",
-   "isgal_sayisi": 11,
+   "isgal_sayisi": 22,
    "isgalli": [
     "Akkirman",
     "Bender",
+    "Birlad (Bârlad)",
     "Buzău",
     "Bükreş",
     "Hotin",
+    "Kahul (Cahul)",
+    "Kalas (Galatz)",
     "Kili",
+    "Krayova (Craiova)",
     "Kımpulung (Câmpulung)",
+    "Orhei",
     "Piteşti",
+    "Rimnik (Râmnicu Vâlcea)",
     "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Roman",
+    "Slatina",
+    "Soroka (Soroca)",
+    "Turnu Severin",
     "Tırgovişte",
+    "Tırgu Jiu",
     "Yaş"
    ],
    "sahiplik": {
@@ -688,18 +816,29 @@
   },
   "1809-09-01": {
    "etiket": "1809 seferi",
-   "isgal_sayisi": 11,
+   "isgal_sayisi": 22,
    "isgalli": [
     "Akkirman",
     "Bender",
+    "Birlad (Bârlad)",
     "Buzău",
     "Bükreş",
     "Hotin",
+    "Kahul (Cahul)",
+    "Kalas (Galatz)",
     "Kili",
+    "Krayova (Craiova)",
     "Kımpulung (Câmpulung)",
+    "Orhei",
     "Piteşti",
+    "Rimnik (Râmnicu Vâlcea)",
     "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Roman",
+    "Slatina",
+    "Soroka (Soroca)",
+    "Turnu Severin",
     "Tırgovişte",
+    "Tırgu Jiu",
     "Yaş"
    ],
    "sahiplik": {
@@ -716,18 +855,29 @@
   },
   "1811-10-01": {
    "etiket": "Ruscuk/Slobozia",
-   "isgal_sayisi": 14,
+   "isgal_sayisi": 25,
    "isgalli": [
     "Akkirman",
     "Bender",
+    "Birlad (Bârlad)",
     "Buzău",
     "Bükreş",
     "Hotin",
+    "Kahul (Cahul)",
+    "Kalas (Galatz)",
     "Kili",
+    "Krayova (Craiova)",
     "Kımpulung (Câmpulung)",
+    "Orhei",
     "Piteşti",
+    "Rimnik (Râmnicu Vâlcea)",
     "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Roman",
+    "Slatina",
+    "Soroka (Soroca)",
+    "Turnu Severin",
     "Tırgovişte",
+    "Tırgu Jiu",
     "Yaş",
     "Yergöğü (Giurgiu)",
     "İbrail",
@@ -747,18 +897,29 @@
   },
   "1812-05-28": {
    "etiket": "Bükreş Antlaşması",
-   "isgal_sayisi": 14,
+   "isgal_sayisi": 25,
    "isgalli": [
     "Akkirman",
     "Bender",
+    "Birlad (Bârlad)",
     "Buzău",
     "Bükreş",
     "Hotin",
+    "Kahul (Cahul)",
+    "Kalas (Galatz)",
     "Kili",
+    "Krayova (Craiova)",
     "Kımpulung (Câmpulung)",
+    "Orhei",
     "Piteşti",
+    "Rimnik (Râmnicu Vâlcea)",
     "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Roman",
+    "Slatina",
+    "Soroka (Soroca)",
+    "Turnu Severin",
     "Tırgovişte",
+    "Tırgu Jiu",
     "Yaş",
     "Yergöğü (Giurgiu)",
     "İbrail",
@@ -799,7 +960,12 @@
    "lat": 46.23,
    "lon": 27.667,
    "tabi": "tâbi:bogdan",
-   "isgal": null
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+   }
   },
   {
    "yer": "Buzău",
@@ -830,21 +996,36 @@
    "lat": 45.905,
    "lon": 28.198,
    "tabi": "tâbi:bogdan",
-   "isgal": null
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+   }
   },
   {
    "yer": "Kalas (Galatz)",
    "lat": 45.435,
    "lon": 28.008,
    "tabi": "tâbi:bogdan",
-   "isgal": null
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+   }
   },
   {
    "yer": "Krayova (Craiova)",
    "lat": 44.33,
    "lon": 23.795,
    "tabi": "tâbi:eflak",
-   "isgal": null
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
   },
   {
    "yer": "Kımpulung (Câmpulung)",
@@ -863,7 +1044,12 @@
    "lat": 47.383,
    "lon": 28.823,
    "tabi": "tâbi:bogdan",
-   "isgal": null
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+   }
   },
   {
    "yer": "Piteşti",
@@ -882,7 +1068,12 @@
    "lat": 45.105,
    "lon": 24.375,
    "tabi": "tâbi:eflak",
-   "isgal": null
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
   },
   {
    "yer": "Rimnik-i Sârat (Râmnicu Sărat)",
@@ -901,28 +1092,48 @@
    "lat": 46.925,
    "lon": 26.93,
    "tabi": "tâbi:bogdan",
-   "isgal": null
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+   }
   },
   {
    "yer": "Slatina",
    "lat": 44.427,
    "lon": 24.371,
    "tabi": "tâbi:eflak",
-   "isgal": null
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
   },
   {
    "yer": "Soroka (Soroca)",
    "lat": 48.158,
    "lon": 28.299,
    "tabi": "tâbi:bogdan",
-   "isgal": null
+   "isgal": {
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+   }
   },
   {
    "yer": "Turnu Severin",
    "lat": 44.632,
    "lon": 22.656,
    "tabi": "tâbi:eflak",
-   "isgal": null
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
   },
   {
    "yer": "Tırgovişte",
@@ -941,7 +1152,12 @@
    "lat": 45.035,
    "lon": 23.275,
    "tabi": "tâbi:eflak",
-   "isgal": null
+   "isgal": {
+    "f": "1806-12-25",
+    "t": "1812-05-28",
+    "d": "rusya",
+    "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+   }
   },
   {
    "yer": "Yaş",
@@ -956,98 +1172,32 @@
    }
   }
  ],
- "KOPUK_1806_12_25": [
-  {
-   "yer": "Soroka (Soroca)",
-   "lat": 48.158,
-   "lon": 28.299,
-   "tabi": "tâbi:bogdan",
-   "isgal": null
-  },
-  {
-   "yer": "Orhei",
-   "lat": 47.383,
-   "lon": 28.823,
-   "tabi": "tâbi:bogdan",
-   "isgal": null
-  },
-  {
-   "yer": "Roman",
-   "lat": 46.925,
-   "lon": 26.93,
-   "tabi": "tâbi:bogdan",
-   "isgal": null
-  },
-  {
-   "yer": "Birlad (Bârlad)",
-   "lat": 46.23,
-   "lon": 27.667,
-   "tabi": "tâbi:bogdan",
-   "isgal": null
-  },
-  {
-   "yer": "Kahul (Cahul)",
-   "lat": 45.905,
-   "lon": 28.198,
-   "tabi": "tâbi:bogdan",
-   "isgal": null
-  },
-  {
-   "yer": "Kalas (Galatz)",
-   "lat": 45.435,
-   "lon": 28.008,
-   "tabi": "tâbi:bogdan",
-   "isgal": null
-  },
-  {
-   "yer": "Rimnik (Râmnicu Vâlcea)",
-   "lat": 45.105,
-   "lon": 24.375,
-   "tabi": "tâbi:eflak",
-   "isgal": null
-  },
-  {
-   "yer": "Tırgu Jiu",
-   "lat": 45.035,
-   "lon": 23.275,
-   "tabi": "tâbi:eflak",
-   "isgal": null
-  },
-  {
-   "yer": "Turnu Severin",
-   "lat": 44.632,
-   "lon": 22.656,
-   "tabi": "tâbi:eflak",
-   "isgal": null
-  },
-  {
-   "yer": "Slatina",
-   "lat": 44.427,
-   "lon": 24.371,
-   "tabi": "tâbi:eflak",
-   "isgal": null
-  },
-  {
-   "yer": "Krayova (Craiova)",
-   "lat": 44.33,
-   "lon": 23.795,
-   "tabi": "tâbi:eflak",
-   "isgal": null
-  }
- ],
+ "KOPUK_1806_12_25": [],
  "isgal_bloklari": {
   "1806-12-25|1812-05-28|rusya": [
    "Buzău",
    "Bükreş",
+   "Krayova (Craiova)",
    "Kımpulung (Câmpulung)",
    "Piteşti",
+   "Rimnik (Râmnicu Vâlcea)",
    "Rimnik-i Sârat (Râmnicu Sărat)",
-   "Tırgovişte"
+   "Slatina",
+   "Turnu Severin",
+   "Tırgovişte",
+   "Tırgu Jiu"
   ],
   "1806-11-30|1812-05-28|rusya": [
    "Akkirman",
    "Bender",
+   "Birlad (Bârlad)",
+   "Hotin",
+   "Kahul (Cahul)",
+   "Kalas (Galatz)",
    "Kili",
+   "Orhei",
+   "Roman",
+   "Soroka (Soroca)",
    "Yaş"
   ],
   "1810-06-10|1811-05-01|rusya": [
@@ -1061,9 +1211,6 @@
   ],
   "1809-12-02|1812-05-28|rusya": [
    "İbrail"
-  ],
-  "1806-01-01|1812-05-28|rusya": [
-   "Hotin"
   ],
   "1809-09-26|1812-05-28|rusya": [
    "İsmail"

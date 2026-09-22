@@ -21,3 +21,26 @@
 [03:39:00] NOBETCI 9 basladi · PID 27996 · tetik donemler.js
 [03:39:00]   taban: mtime 08 Sep 07:22  boyut 31.3 MB
 [03:39:00]   omur 30 saat · yoklama 120 sn · bellek alarmi 3.6 GB (OLCULDU: kosu 8 tepe 2725 MB)
+[04:39:32] surec CANLI · nobet 1.0 sa · CPU 4104 sn · bellek 2022 MB (tepe 3.05 GB)
+[05:40:09] surec CANLI · nobet 2.0 sa · CPU 5751 sn  (+1647 sn CPU) · bellek 2760 MB (tepe 3.07 GB)
+[06:40:44] surec CANLI · nobet 3.0 sa · CPU 7433 sn  (+1682 sn CPU) · bellek 2979 MB (tepe 3.38 GB)
+[07:41:11] surec CANLI · nobet 4.0 sa · CPU 10172 sn  (+2739 sn CPU) · bellek 65 MB (tepe 3.38 GB)
+[08:41:32] surec CANLI · nobet 5.0 sa · CPU 13734 sn  (+3563 sn CPU) · bellek 524 MB (tepe 3.38 GB)
+[09:41:54] surec CANLI · nobet 6.0 sa · CPU 17269 sn  (+3534 sn CPU) · bellek 1047 MB (tepe 3.38 GB)
+[10:42:15] surec CANLI · nobet 7.1 sa · CPU 20830 sn  (+3561 sn CPU) · bellek 509 MB (tepe 3.38 GB)
+[11:42:41] surec CANLI · nobet 8.1 sa · CPU 24368 sn  (+3538 sn CPU) · bellek 588 MB (tepe 3.38 GB)
+[12:43:00] surec CANLI · nobet 9.1 sa · CPU 27919 sn  (+3551 sn CPU) · bellek 601 MB (tepe 3.38 GB)
+[13:43:18] surec CANLI · nobet 10.1 sa · CPU 31468 sn  (+3548 sn CPU) · bellek 815 MB (tepe 3.38 GB)
+[14:43:42] surec CANLI · nobet 11.1 sa · CPU 34891 sn  (+3424 sn CPU) · bellek 916 MB (tepe 3.38 GB)
+[15:44:04] surec CANLI · nobet 12.1 sa · CPU 38400 sn  (+3509 sn CPU) · bellek 616 MB (tepe 3.38 GB)
+[16:44:20] surec CANLI · nobet 13.1 sa · CPU 41964 sn  (+3563 sn CPU) · bellek 302 MB (tepe 3.38 GB)
+[17:44:38] surec CANLI · nobet 14.1 sa · CPU 45508 sn  (+3544 sn CPU) · bellek 2133 MB (tepe 3.38 GB)
+[18:45:01] surec CANLI · nobet 15.1 sa · CPU 49039 sn  (+3531 sn CPU) · bellek 258 MB (tepe 3.38 GB)
+[19:45:23] surec CANLI · nobet 16.1 sa · CPU 52547 sn  (+3508 sn CPU) · bellek 943 MB (tepe 3.38 GB)
+[20:45:50] surec CANLI · nobet 17.1 sa · CPU 55967 sn  (+3420 sn CPU) · bellek 536 MB (tepe 3.38 GB)
+[21:46:14] surec CANLI · nobet 18.1 sa · CPU 59353 sn  (+3386 sn CPU) · bellek 434 MB (tepe 3.38 GB)
+[22:46:41] surec CANLI · nobet 19.1 sa · CPU 62709 sn  (+3356 sn CPU) · bellek 317 MB (tepe 3.38 GB)
+[22:58:45] tetik DEGISTI (31.8 MB) — yazim bitisi dogrulaniyor...
+[22:59:45] KOSU 9 BITTI — 22:58:01  31.8 MB  (nobet 19.3 saat)
+[22:59:45]   TEPE BELLEK: 3.38 GB  <- KOSU 9'UN ILK OLCUMU, esigi bununla degistir
+[22:59:45]   SIRA: denetle.py -> renk_olc.py -> denetle_yayin.py -> damga -> yayin

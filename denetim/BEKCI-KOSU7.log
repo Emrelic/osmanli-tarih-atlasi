@@ -1,3 +1,25 @@
 ﻿13:43:23  BEKCI BASLADI - hedef donemler.js damgasi: 09/05/2026 22:24:34
 13:43:23  izlenen uretim PID: 11688
 14:15:24  [X] URETIM SURECI OLDU - donemler.js YAZILMADAN. KOSU BASARISIZ.
+04:22:39  BEKCI BASLADI - hedef donemler.js damgasi: 09/11/2026 22:58:01
+04:22:39  izlenen uretim PID: 8800
+05:22:40  kosu SURUYOR - CPU 3.346 sn, bellek 525 MB
+06:22:41  kosu SURUYOR - CPU 6.809 sn, bellek 519 MB
+07:22:42  kosu SURUYOR - CPU 10.336 sn, bellek 1.835 MB
+08:22:43  kosu SURUYOR - CPU 13.917 sn, bellek 2.122 MB
+09:22:43  kosu SURUYOR - CPU 17.500 sn, bellek 2.204 MB
+10:22:44  kosu SURUYOR - CPU 21.082 sn, bellek 2.303 MB
+11:22:45  kosu SURUYOR - CPU 24.655 sn, bellek 1.856 MB
+12:22:46  kosu SURUYOR - CPU 28.225 sn, bellek 1.353 MB
+13:22:47  kosu SURUYOR - CPU 31.806 sn, bellek 896 MB
+14:22:47  kosu SURUYOR - CPU 35.379 sn, bellek 2.605 MB
+15:22:48  kosu SURUYOR - CPU 38.939 sn, bellek 1.115 MB
+16:22:49  kosu SURUYOR - CPU 42.363 sn, bellek 532 MB
+17:22:50  kosu SURUYOR - CPU 45.901 sn, bellek 523 MB
+18:22:51  kosu SURUYOR - CPU 49.410 sn, bellek 296 MB
+19:22:52  kosu SURUYOR - CPU 52.918 sn, bellek 589 MB
+20:22:53  kosu SURUYOR - CPU 56.239 sn, bellek 768 MB
+21:22:54  kosu SURUYOR - CPU 59.757 sn, bellek 2.264 MB
+22:22:54  kosu SURUYOR - CPU 63.293 sn, bellek 1.129 MB
+23:22:55  kosu SURUYOR - CPU 66.791 sn, bellek 810 MB
+23:26:55  KOSU BITTI - donemler.js YENIDEN YAZILDI.

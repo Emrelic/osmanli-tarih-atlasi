@@ -18,7 +18,7 @@ COMMIT   YOK
 | yeni doğan yazım bozukluğu (değişen 501 dizge: bitişik nokta · boş parantez · çift noktalama …) | **0** (bir kusur yakalandı ve onarıldı — §9) |
 | başlık bağları (`ARAC-TEMIZ-BAG-0914.js`: t\|parça · {dosya,t,b} · isyan önek · eski başlık başka dosyada) | **SORUN 0** (2 bağ aynı turda onarıldı — §6) |
 | `node denetim/ARAC-A2-BAG-0913.js --hepsi` | **602/602 · HATA 0** · UYARI 146 (açılışta 551/551 · 141; artış yeni kart dosyalarından — ekokuma_ibrahim/kirimrus/kasrisirin başka işçilerin) |
-| `py arac/denetle.py` | 🔴 **mükerrer madde 0 → 1 — BENİM başlık değişikliğim, onay bekliyor (§6⑤)** · öteki satırlar bu işten bağımsız |
+| `py arac/denetle.py` | Değişmez 1/2/2s/2i/2t/4/5/7 ✓ · **bu işin doğurduğu tek mükerrer (1711 Baltacı ↔ Prut) KAPANDI** — koordinatör `BILINEN_AYRI` anahtarını yeni başlığa çevirdi (8a128bc) · 01:45 koşusunda ✗ mükerrer 6: hepsi `olaylar_p0057.js` (P09 1919-1922 işgal maddeleri, 396cf88) — bu işin tablosunda o başlıkların hiçbiri yok (grep 0) |
 
 `denetle.py` önce (00:4x, işe başlamadan) → sonra (01:36, onarımlar dahil):
 ```
@@ -175,6 +175,9 @@ Başlığı değişen 256 kayıt (OLAYLAR 3 · KRONOLOJI_ 17 · devletler 236). 
 🔴 **Ve bağ aletimin kör noktası:** `ARAC-TEMIZ-BAG-0914.js` ilk sürümde yalnız `data/`yı tarıyordu; canlı aletlerin içindeki
 BİREBİR başlık anahtarını (BILINEN_AYRI) göremedi, `denetle.py` gördü. Alet `arac/*.py|js`yi de tarayacak biçimde genişletildi;
 yeniden koşuda tek bulgu budur (SORUN 1 = ⑤).
+⚠️ **Uygulama SONRASI koşularda bu SORUN 1 artık sahte pozitiftir:** `b^` önek seçicili kayıtlarda alet "eski başlığı" dosyanın
+BUGÜNKÜ hâlinden çözüyor, yani yeni başlığı "eski" sanıyor ve `denetle.py`deki (düzeltilmiş) anahtarı kopuk bağ diye basıyor.
+Alet uygulamadan ÖNCE koşulmak için yazıldı; sonra koşulacaksa eski başlığı `ic_not_b`den okumalı.
 Madde gövdesi (`d`) değişiklikleri bağ taşımaz (bağlar yalnız `t`+`b` okur).
 
 ## 7 · KANIT — ÇİZİM EVRENİNDE YENİDEN TARAMA

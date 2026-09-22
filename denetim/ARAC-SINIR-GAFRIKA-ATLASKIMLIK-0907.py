@@ -165,8 +165,8 @@ def main():
         print("   %-16s %3d  (%%%.0f)" % (s, n, 100.0 * n / len(kenarlar)))
 
     print("\n--- AYNI KIMLIK (atlasta arada SINIR YOK) ---")
-    for a, b, k in sorted(ayni):
-        print("   %-22s ↔ %-22s  %s" % (a, b, k))
+    for a, b, k, z in sorted(ayni):
+        print("   %-22s ↔ %-22s  %-20s%s" % (a, b, k, "  🟡 ZAYIF" if z else ""))
     print("\n--- OLCULEMEDI ---")
     for a, b, ka, kb in sorted(olcusuz):
         print("   %-22s ↔ %-22s  %s / %s" % (a, b, ka, kb))
@@ -177,9 +177,10 @@ def main():
     ix = {(r["a"], r["b"]): r for r in d["kayitlar"]}
     for k in kenarlar:
         r = ix[(k["a"], k["b"])]
-        ka, kb = kimlik.get(k["a"], (None, {})), kimlik.get(k["b"], (None, {}))
+        ka, kb = kimlik.get(k["a"], (None, {}, "yok")), kimlik.get(k["b"], (None, {}, "yok"))
         r["kimlik_1923_atlas"] = [ka[0], kb[0]]
         r["kimlik_1923_atlas_dagilim"] = [ka[1], kb[1]]
+        r["kimlik_1923_atlas_guc"] = [ka[2], kb[2]]
         r["sorgu_gunu"] = SORGU
         r["cipa"] = CIPA
         if ka[0] and kb[0] and ka[0] == kb[0] and not str(ka[0]).startswith("?"):

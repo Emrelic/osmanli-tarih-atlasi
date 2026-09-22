@@ -1,0 +1,54 @@
+{
+  "_ne": "Eşik serisinin ÜÇÜNCÜ coğrafyası. D022 — seri KOŞULMADAN önce yazıldı.",
+  "_kim": "KITA 8 (local_211b974e-3a66-4072-adef-753e27c9b302)",
+  "_tarih": "2026-09-12",
+
+  "bolge_secimi": {
+    "secilen": "BALKAN-DİNAR  box(16.0, 42.0, 22.0, 46.0)",
+    "gerekce": [
+      "① ARADA: aday taraması eğim medyanı 79 verdi — Toros (119) ile Mezopotamya (15) arasında. Sevkin şartı bu.",
+      "② TEKRAR DEĞİL, SINAV: Dinar sistemi PARALEL SIRTLAR + karst; Toros'un tek büyük duvarından ve Mezopotamya'nın ovasından YAPISAL olarak farklı. Üçüncü bölge yeni bir DESEN getiriyor, yalnız yeni bir sayı değil.",
+      "③ YOĞUN YERLEŞİM: Osmanlı çekirdeği, tohum sayısı yeterli olacak.",
+      "④ Koordinatörün kendi önerisi."
+    ],
+    "elenenler": {
+      "KAFKAS ÖNÜ": "medyan 213 — Toros'un ÜSTÜNDE, aralık dışı",
+      "BATI ANADOLU": "medyan 120 — Toros'a eşit, TEKRAR olurdu",
+      "TUNA HAVZASI": "medyan 29 — Mezopotamya'ya çok yakın, tekrar olurdu",
+      "TRAKYA-RODOP / SURİYE": "arada ama Balkan'dan daha az ayırt edici desen"
+    },
+    "yanlilik": "Aday taraması kara maskesini YÜKSEKLİK EŞİĞİYLE (z>-50) yaklaşıkladı. Sapması ÖLÇÜLDÜ: Toros gerçek 119 · tarama 145 (+%22) · Mezopotamya gerçek 15 · tarama 13 (−%15). ⇒ Balkan'ın GERÇEK medyanı taramanın ALTINDA çıkmalı."
+  },
+
+  "U1_gercek_medyan": {
+    "ongoru": "Gerçek kara maskesiyle Balkan eğim medyanı 55-80 m/hücre arasında (tarama 79, sapma düzeltmesiyle ~65)",
+    "curutur": "50'nin altı ya da 90'ın üstü — ve 15/119 aralığının dışına çıkarsa BÖLGE SEÇİMİ çürür"
+  },
+
+  "U2_ORAN_arada": {
+    "ongoru": "🔴 ASIL SINAV BU. 300 m/hücre eşiğinde değişen alanın KARA ALANINA ORANI, Toros (%5,8) ile Mezopotamya (%2,0) ARASINDA çıkacak — tahminim %3-5.",
+    "curutur": "%2,0'ın altı ya da %5,8'in üstü"
+  },
+
+  "U3_MUTLAK_yaniltici": {
+    "ongoru": "🔴 VE SEVKİN ÖNERDİĞİ SINAV (mutlak km² 13.118 ile 14.593 ARASINDA) YANILTICIDIR — kutular AYNI BÜYÜKLÜKTE DEĞİL. Toros 4°×2,5° (9.252 kara hücresi) · Mezopotamya 7°×5° (27.824) · Balkan 6°×4°. Mutlak km², araziyi değil KUTU BOYUNU ölçer.",
+    "sayisal": "Balkan'ın mutlak değişimi 13.118-14.593 aralığının DIŞINA (üstüne) çıkacak: tahminim 15.000-35.000 km².",
+    "curutur": "Mutlak değer 14.593'ün altında kalırsa",
+    "not": "Bu öngörünün ÇÜRÜMESİ bile bir kazanç olur: o zaman kutu boyu etkisi sandığımdan küçük demektir."
+  },
+
+  "U4_nehir_payi": {
+    "ongoru": "Nehir payı Toros (%44) ile Mezopotamya (%79) arasında — tahminim %50-70. Gerekçe: Balkan'da hem gerçek sırt hem büyük nehir (Sava · Drina · Neretva) var.",
+    "curutur": "%44'ün altı ya da %79'un üstü"
+  },
+
+  "U5_monotonluk": {
+    "ongoru": "Eşik yükseldikçe sırt%, kilitlenen ve değişen km² MONOTON azalır (iki bölgede de öyleydi)",
+    "curutur": "Herhangi bir basamakta artış"
+  },
+
+  "_bilerek_riskli": [
+    "U3 — koordinatörün ÖNERDİĞİ sınavın yanıltıcı olduğunu söylüyorum ve onun yerine ORAN öneriyorum. Yanılırsam en görünür yerde yanılırım.",
+    "U2 — dar bir aralık (%3-5) verdim; geniş tutsaydım çürümesi zorlaşırdı."
+  ]
+}

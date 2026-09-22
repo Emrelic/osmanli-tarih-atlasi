@@ -1,0 +1,34 @@
+{
+  "_ne": "Dört Hint prensliği noktası (M-3553). D022 öngörüsü.",
+  "_kim": "KITA 8 (local_211b974e-3a66-4072-adef-753e27c9b302)",
+  "_tarih": "2026-09-12",
+
+  "_DURUSTLUK_DAMGASI": "🔴 MÜKERRER SINAVI BU DOSYADAN ÖNCE KOŞTU. Sevkin öncülü ('dört noktanın hiçbiri yok') doğrudan sınanacak bir iddiaydı ve ilk iş onu ölçmekti; sonucunu öngörü diye yazmak SAHTE olurdu. Aşağıdaki H1 bu yüzden ÖNGÖRÜ DEĞİL, ÖLÇÜM olarak işaretli. H2-H5 ölçülmeden yazıldı.",
+
+  "H1_mukerrer": {
+    "damga": "ÖLÇÜM (öngörü değil)",
+    "sonuc": "Dördün ÜÇÜ atlasta ZATEN VAR: Gvalyar (Gwalior) 0,0 km · İndor (Indore) 0,1 km · Kolhapûr 0,0 km. YALNIZ Baroda/Vadodara yok (en yakın 41,6 km Çampâner).",
+    "ek": "Ve ad ekseni TEK BAŞINA yetmedi: 'Gvalyar (Gwalior)' ve 'İndor (Indore)' parantezli ÇİFT AD taşıdığı için normalleştirilmiş ad eşleşmesi onları KAÇIRDI; KONUM ekseni yakaladı."
+  },
+
+  "H2_denetle_fark_YOK": {
+    "ongoru": "🔴 `denetle.py` ÖNCE ve SONRA BİREBİR AYNI çıkacak — çünkü `data/yerlesimler_hint0912.js` `arac/girdi.py`nin `GIRDI_DOSYALARI` listesinde YOK, yani motor da denetim de o dosyayı HİÇ OKUMUYOR.",
+    "gerekce": "CLAUDE.md §5: hangi dosyanın canlı olduğunun tek otoritesi GIRDI_DOSYALARI. Sevk yalnız `index.html`i uyardı; `girdi.py` ayağı SÖYLENMEDİ ve asıl haritayı o belirliyor.",
+    "curutur": "Herhangi bir denetim satırı değişirse ÖNGÖRÜ ÇÜRÜR (ve o zaman dosya bir yerden okunuyor demektir)"
+  },
+
+  "H3_baroda_zinciri": {
+    "ongoru": "Baroda'nın komşuları (Çampâner 41 km · Kanbâyet 58 km · Broaç 68 km) AYNI zinciri taşıyor: racput → delhi-sultanligi → gucerat-sultanligi (1573-02-26'ya kadar) → babur-imparatorlugu. Baroda için bu zincir emsal alınacak (D084) ve yalnız SON halka farklı olacak: 1721'den itibaren `baroda`.",
+    "curutur": "Komşuların zinciri birbirini tutmuyorsa emsal kurulamaz"
+  },
+
+  "H4_tdv": {
+    "ongoru": "TDV `baroda` ÖLÜ çıkacak; kapsayıcı madde (`gucerat` ya da `hindistan`) denenecek ve prensliği TARİHLEYEN bir cümle BULUNAMAYACAK — §4'ün TANECİKLİK boşluğu (TDV eyaleti görüyor, prensliği görmüyor).",
+    "curutur": "Kapsayıcı maddede hânedanı TARİHLEYEN bir cümle çıkarsa"
+  },
+
+  "H5_uc_nokta_isi_DEGISIYOR": {
+    "ongoru": "Üç nokta var ama dört künyenin HİÇBİRİ veride kullanılmıyor (0 dönem). ⇒ Asıl iş 'nokta yazmak' DEĞİL, mevcut noktaların `s:` zincirinde `maratha` dönemini BÖLMEK. Ve o kayıtlar `yerlesimler_asya.js`te — BENİM DOSYAM DEĞİL (§7).",
+    "curutur": "Künyelerden biri veride kullanılıyorsa"
+  }
+}

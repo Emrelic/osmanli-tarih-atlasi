@@ -1,0 +1,32 @@
+{
+  "_ne": "DEM gerilmesi düzeltildikten sonra eşik serisinin YENİDEN koşulması (M-3582 ⑤). D022 — yeniden koşmadan ÖNCE yazıldı.",
+  "_kim": "KITA 8 (local_211b974e-3a66-4072-adef-753e27c9b302)",
+  "_tarih": "2026-09-12",
+
+  "_soru": "Sevk soruyor: eski seri ile yeni seri arasında NE KADAR FARK bekliyorsun? Bu, kaymanın bedelinin doğrudan ölçümü olacak.",
+
+  "Y1_FARK_SIFIR": {
+    "ongoru": "🔴 FARK OLMAYACAK — üç bölgenin üçünde de, altı eşiğin altısında da, bütün sayılar BİREBİR AYNI çıkacak.",
+    "gerekce": [
+      "Motorun kusuru KOŞULLU: istenen pencere DEM'in ÜST UCUNU (84,0°K) AŞTIĞINDA rasterio pencereyi kırpıyor ama `out_shape` tam satır sayısını dayattığı için veri kuzeye GERİLİYOR. Motor -60→85 istiyordu ⇒ 1,0° aşıyordu ⇒ geriliyordu.",
+      "BENİM pencerelerim DEM'in ucuna HİÇ DEĞMİYOR: Toros kuzey ucu 40,0°K · Mezopotamya 37,2°K · Balkan 47,2°K — hepsi 84,0°K'nin ÇOK altında. Kırpma olmayınca `out_shape` gerçek pencere boyuna EŞİT olur ve gerilme DOĞMAZ.",
+      "VE ÖLÇÜLDÜ (yeniden koşudan önce): beş bilinen zirvenin enlemi benim okuma yolumla 0,075° içinde — Everest -0,075 · Elbruz -0,025 · Ağrı +0,025 · Demirkazık -0,025 · Mont Blanc +0,025. Motorun düzeltme öncesi kayması +0,64...+0,74° idi."
+    ],
+    "curutur": "Herhangi bir bölgede herhangi bir eşikte tek bir sayı değişirse ÖNGÖRÜ ÇÜRÜR — ve o zaman kaymanın benim kutularıma da bulaştığı, sebebinin de pencere ucu OLMADIĞI ortaya çıkar."
+  },
+
+  "Y2_kapsam_ayrimi": {
+    "ongoru": "Kaymanın bedeli SIFIR DEĞİL — ama benim serimde değil, MOTORUN KENDİ ÇIKTISINDA. Koşu 8 ve 9 dünya penceresiyle (-60→85) koştu, yani onların eğim yüzeyi GERÇEKTEN kaymış. İki ayrı kapsam, iki ayrı cevap.",
+    "curutur": "Motorun penceresi de DEM'i aşmıyorsa (yani BOLGE üst ucu ≤ 84) bu ayrım düşer"
+  },
+
+  "Y3_yontem": {
+    "ongoru": "Yine de DÜZELTİLMİŞ kod yolunu kullanacağım (pencereyi DEM üst ucuna kırpan hâli). Sonuçların AYNI çıkması, iki kod yolunun BENİM kutularımda denk olduğunun da kanıtı olur — yani öngörünün kendisi bir DENKLİK SINAVI.",
+    "curutur": "İki kod yolu farklı sayı verirse"
+  },
+
+  "_bilerek_riskli": [
+    "Y1 — sevk 'fark bekliyorsun' diye soruyor ve ben SIFIR diyorum. Tek bir hanenin oynaması öngörüyü çürütür; kaçacak yer bırakmıyorum.",
+    "Ve bu öngörü koordinatörün örtük varsayımına (eski serim geçersiz) karşı çıkıyor."
+  ]
+}

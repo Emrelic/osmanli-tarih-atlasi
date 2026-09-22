@@ -1,0 +1,9 @@
+{
+ "olusturan": "KITA 4 — TARİH DÜZELTME",
+ "tarih": "2026-09-12",
+ "ongoruler": [
+  {"id": "O1", "iddia": "Değişmez 2 açık kırılma sayısı 0 KALACAK — paketin kendi ③ analizi (en büyük kayma 10 gün, en yakın kırılmaya uzaklık 44-54 gün) zaten bunu gösteriyor; ben bunu TEKRARLAMIYORUM, yalnız SONRADAN doğruluyorum."},
+  {"id": "O2", "iddia": "Değişmez 1/1b/1c/7 (sahipsizlik, enklav) hiç ETKİLENMEYECEK — bu düzeltmelerin hiçbiri yerlesimler.js'e dokunmuyor, yalnız olaylar*.js/padisahlar.js tarihleri değişiyor."},
+  {"id": "O3", "iddia": "Toskana maddesinin (1532-05-01) EKLENMESİ denetle.py'yi DEĞİŞTİRMEZ — Değişmez 2 şu an zaten temiz (Floransa'nın kırılması henüz yazılmadı, KITA 2'nin işi); bu madde yalnız GELECEKTEKİ bir açığı ÖNLÜYOR, bugünkü sayıyı değiştirmiyor."}
+ ]
+}

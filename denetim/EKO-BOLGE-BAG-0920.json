@@ -1,6 +1,6 @@
 {
  "evren_madde": 5910,
- "kart": 4,
+ "kart": 6,
  "tanimsiz_tur": [],
  "bag": [
   {
@@ -145,11 +145,56 @@
    "ornek": [
     "data/kronoloji_arabistan.js:347 · İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı"
    ]
+  },
+  {
+   "kart": "tartisma-bolge0073-timar-dunyadaki-benzerleri",
+   "bag": "1827-02-01|Tımar",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek5.js:334 · Tımar sisteminin tasfiyesi"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-timar-dunyadaki-benzerleri",
+   "bag": "1432-06-01|Tımar",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek14.js:109 · Tımar sisteminin kurumsallaşması"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-cezayir-ordusu-1830",
+   "bag": "1830-08-09|Dayı Hüseyin",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek7.js:154 · Dayı Hüseyin'in sürgünü — Cezayir ocağının fiilen sonu"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-cezayir-ordusu-1830",
+   "bag": "1827-06-16|Cezayir",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek7.js:148 · Cezayir kıyısının Fransız ablukası — üç yıl süren kuşatma"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-cezayir-ordusu-1830",
+   "bag": "1830-06-14|Sîdî Ferruc",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek7.js:153 · Sîdî Ferruc çıkarması — Fransız ordusu Cezayir toprağında"
+   ]
   }
  ],
  "ozet": {
-  "toplam_bag": 15,
-  "tutan": 15,
+  "toplam_bag": 20,
+  "tutan": 20,
   "kopuk": 0,
   "index_te_yuklu_olmayan": 0
  }

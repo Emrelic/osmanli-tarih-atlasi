@@ -1,0 +1,216 @@
+{
+ "hazir": true,
+ "gun": "1813-10-05",
+ "odak": [
+  16.5,
+  45.12
+ ],
+ "kurulum": {
+  "gun_idx": -57066,
+  "merkez": [
+   16.5,
+   45.12
+  ],
+  "zoom": 8
+ },
+ "A_ayar_KAPALI": {
+  "ayar_var": true,
+  "ayar_isaretli": false,
+  "KHALKA": {
+   "acik": false,
+   "yuklendi": false,
+   "cizilen": 0,
+   "yerSayisi": 0,
+   "havuz": 0
+  },
+  "halka_kaynak_feature": 0,
+  "halka_kaynak": [],
+  "halka_layer_gorunur": "visible",
+  "halka_CIZILEN": [],
+  "nokta_kaynak_feature": 0,
+  "nokta_kaynak": [],
+  "nokta_layer_gorunur": "visible",
+  "nokta_suzgec": [
+   "!",
+   [
+    "in",
+    [
+     "get",
+     "kayit_id"
+    ],
+    [
+     "literal",
+     [
+      "ferhad-pasa-istanbul-1590"
+     ]
+    ]
+   ]
+  ],
+  "nokta_CIZILEN": [
+   {
+    "ad": "Kostayniça (Kostajnica)",
+    "kayit_id": "karlofca-bosna-kaleler-1699",
+    "renk": "#bdab3f"
+   },
+   {
+    "ad": "Bosna Novi'si (Bosanski Novi)",
+    "kayit_id": "karlofca-bosna-kaleler-1699",
+    "renk": "#bdab3f"
+   }
+  ],
+  "taraf_renk_habsburg": "#bdab3f",
+  "taraf_renk_avusturya": "#bdab3f"
+ },
+ "B_ayar_ACIK": {
+  "ayar_isaretli": true,
+  "KHALKA": {
+   "acik": true,
+   "yuklendi": true,
+   "cizilen": 0,
+   "yerSayisi": 0,
+   "havuz": 198
+  },
+  "halka_kaynak_feature": 0,
+  "halka_CIZILEN": [],
+  "nokta_kaynak_feature": 0,
+  "nokta_CIZILEN": [
+   {
+    "ad": "Kostayniça (Kostajnica)",
+    "kayit_id": "karlofca-bosna-kaleler-1699",
+    "renk": "#bdab3f"
+   },
+   {
+    "ad": "Bosna Novi'si (Bosanski Novi)",
+    "kayit_id": "karlofca-bosna-kaleler-1699",
+    "renk": "#bdab3f"
+   }
+  ],
+  "nokta_suzgec": [
+   "!",
+   [
+    "in",
+    [
+     "get",
+     "kayit_id"
+    ],
+    [
+     "literal",
+     [
+      "ferhad-pasa-istanbul-1590"
+     ]
+    ]
+   ]
+  ]
+ },
+ "C_havuzda_bu_iki_sehir": {
+  "havuz": 198,
+  "eslesen": []
+ },
+ "D_halka_zaman_alani": {
+  "havuz": 198,
+  "aralik_ft": 17,
+  "tekil_tarih": 181,
+  "zaman_alani_YOK": 0,
+  "pencere_cozulemeyen": 1,
+  "ornek_pencere": [
+   {
+    "id": "hf-bursa-1326",
+    "pencere": [
+     -235121,
+     -235120
+    ]
+   },
+   {
+    "id": "hf-iznik-1331",
+    "pencere": [
+     -233330,
+     -233329
+    ]
+   },
+   {
+    "id": "hf-izmit-1337",
+    "pencere": [
+     -231198,
+     -230833
+    ]
+   }
+  ]
+ },
+ "E_C_kayit_pencereleri": [
+  {
+   "id": "midye-enez-1913",
+   "f": "1913-05-30",
+   "t": "1913-06-29",
+   "yil": 0,
+   "hat_tur": "cetvel",
+   "nokta_adet": 0
+  },
+  {
+   "id": "misir-sudan-22-paralel-1899",
+   "f": "1899-01-19",
+   "t": "1914-12-18",
+   "yil": 15,
+   "hat_tur": "paralel",
+   "nokta_adet": 0
+  },
+  {
+   "id": "ii-erzurum-sattularap-1847",
+   "f": "1847-05-31",
+   "t": "1923-10-29",
+   "yil": 76,
+   "hat_tur": "dogal-tanimsiz",
+   "nokta_adet": 0
+  },
+  {
+   "id": "karlofca-lehistan-1699",
+   "f": "1699-01-26",
+   "t": "1795-10-24",
+   "yil": 96,
+   "hat_tur": "nokta-kumesi",
+   "nokta_adet": 4
+  },
+  {
+   "id": "karlofca-venedik-1699",
+   "f": "1699-01-26",
+   "t": "1797-05-12",
+   "yil": 98,
+   "hat_tur": "nokta-kumesi",
+   "nokta_adet": 4
+  },
+  {
+   "id": "karlofca-bosna-sava-1699",
+   "f": "1699-01-26",
+   "t": "1918-11-11",
+   "yil": 219,
+   "hat_tur": "dogal-tanimsiz",
+   "nokta_adet": 0
+  },
+  {
+   "id": "karlofca-bosna-kaleler-1699",
+   "f": "1699-01-26",
+   "t": "1918-11-11",
+   "yil": 219,
+   "hat_tur": "nokta-kumesi",
+   "nokta_adet": 2
+  },
+  {
+   "id": "ferhad-pasa-istanbul-1590",
+   "f": "1590-03-21",
+   "t": "1603-10-21",
+   "yil": 13,
+   "hat_tur": "bolge",
+   "nokta_adet": 18
+  },
+  {
+   "id": "ferhad-pasa-1590-sinir-hatti",
+   "f": "1590-03-21",
+   "t": "1603-10-21",
+   "yil": 13,
+   "hat_tur": "dogal-tanimsiz",
+   "nokta_adet": 0
+  }
+ ],
+ "konsol_ozet": {
+  "surum": "http://localhost:8777/js/app.js?v=r9454"
+ }
+}

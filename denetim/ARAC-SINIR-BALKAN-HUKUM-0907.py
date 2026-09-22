@@ -47,6 +47,29 @@ K23 = {
     "Ukraine": "sovyet-rusya",       # ama Zakarpatya 1923'te CEKOSLOVAKYA
 }
 
+# 🔴 CIPA GUNU (1.MURAT M-3191) — ve BENIM SINAVIM
+# Donemler YARI ACIK (f<=g<t) ve UFUK sonu 1923-10-29 ⇒ o gun sorulunca
+# canli kimlik 0 cikar. SORGU GUNU 1923-10-28; CIPA yazilan gun olarak
+# 1923-10-29 KALIR (t_cinsi:"pencere").
+SORGU_GUNU = "1923-10-28"
+
+# Kimliklerimin VERIDE gercekten kullanildigi OLCULDU
+# (denetim/ARAC-SINIR-BALKAN-CIPA4-0907.py · g=1923-10-28):
+#   17 kimligin 16'si veride VAR.  TEK ISTISNA:
+VERI_AYRISMASI = {
+    "avusturya-cumhuriyet": (
+        "🔴 KUNYE ile VERI AYRISIYOR ve ikisi de yazildi. "
+        "KUNYE: `avusturya-cumhuriyet` 1918-11-12 → pencere ucu — 1923-10-28'de "
+        "AKTIF, ve dogru kimlik BU. "
+        "VERI: o gun Viyana ve Graz `avusturya` dizgisini tasiyor (2 nokta); "
+        "`avusturya` bir kunye `id`si DEGIL, bir `harita:` ANAHTARI, ve onu "
+        "beyan eden tek kunye `habsburg` (1526-08-29 → 1918-11-11). "
+        "⇒ Veri 1923'te, BES YIL ONCE BITMIS bir kunyenin boya anahtarini "
+        "kullaniyor (§3.5 hayalet ailesi), ve `avusturya-cumhuriyet` kunyesi "
+        "veride HIC kullanilmiyor (0 nokta). "
+        "BU KAYITTA DUZELTMEDIM — bolgemin disinda bir veri karari; BILDIRILDI."),
+}
+
 # ── HUKUM TABLOSU ────────────────────────────────────────────────────────────
 # anahtar: (ne_a, ne_b) alfabetik
 # deger  : dict(sinif, hal, dayanak, dayanak_t, kaynak, damga, not, k23_a, k23_b)
@@ -387,6 +410,8 @@ def uret():
             "kimlik_1923_a": ka, "kimlik_1923_b": kb,
             "f": h.get("dayanak_t") or None,
             "t": "1923-10-29", "t_cinsi": "pencere",
+            "sorgu_gunu": SORGU_GUNU,
+            "kimlik_veri_uyarisi": (VERI_AYRISMASI.get(ka) or VERI_AYRISMASI.get(kb)),
             "hal": h["hal"],
             "degisim_sinifi": h["sinif"],
             "ne_degisti": (None if h["sinif"] == "olculemedi"
@@ -431,6 +456,21 @@ if __name__ == "__main__":
             "hukum_yazilmayan": [list(x) for x in eksik],
             "bolge_disi_uclu_kenar": sum(1 for k in kayitlar if k["bolge_disi_uc"]),
         },
+        "_CIPA_NOTU": (
+            "CIPA `1923-10-29` KAYITLARA YAZILAN gundur ve degismez (`t_cinsi`: "
+            "\"pencere\"). AMA ATLASA SORULAMAZ: donemler yari acik (f<=g<t) ve "
+            "UFUK sonu tam o gun ⇒ o gunle biten HER donem o gun sorulunca aktif "
+            "DEGIL, ve ALET OTMEZ, temiz sayi uretir (1.MURAT / KIMLIK-1923-0907, "
+            "tahta M-3191). SORGU GUNU: 1923-10-28. "
+            "🟢 SINANDI: benim `kimlik_1923` atamalarim bu sorguyla URETILMEDI "
+            "(kunye adindan tarandi) ⇒ sessizce bos cikmadi; 17 kimligin 17'si "
+            "g=1923-10-28'de aktif ve 16'si veride kullaniliyor. "
+            "🔴 VE SINAV BIR SEY DAHA BULDU — UC HANELI YIL TUZAGI: "
+            "\"962-02-02\" <= \"1923-10-28\" dizgi olarak FALSE (\"9\" > \"1\"). "
+            "pad'siz 112 kunye, pad'li 114; kacan ikisi `almanya` ve `yemen-zeydi`, "
+            "ve `almanya` BENIM BOLGEMIN kimligi. `devletler.js`te 1-3 haneli `f:` "
+            "tasiyan 18 kunye var. 🟢 YERLESIM VERISINDE ise 0 — orada tuzak YOK "
+            "(olculdu: ham 110 = pad 110)."),
         "_KIMLIK_NOTU": (
             "`kimlik_bugun_*` alanlarinin HEPSI null — ve bu bir eksiklik DEGIL bir "
             "OLCUM: atlasin penceresi 1923-10-29'da bitiyor, yani BUGUNKU devletlerin "

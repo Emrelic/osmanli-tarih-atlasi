@@ -1,0 +1,8 @@
+{
+ "olusturan": "KITA 4",
+ "tarih": "2026-09-12",
+ "ongoruler": [
+  {"id": "O1", "iddia": "#7 (t: 1648-08-08->1648-08-18) ve #9 (gun: degisikligi) Degismez 2'ye SIFIR etki yapacak -- #7 zaten paketin kendi analizinde (10 gunluk kayma, en yakin kirilma 44-54 gun) guvenli bulunmustu; #9 t: alanina hic dokunmuyor."},
+  {"id": "O2", "iddia": "3 Lubnan maddesi eklenince Degismez 2'nin ACIK sayisi TAM 3 AZALACAK (bu 3 kirilma kapanacak) -- disaridaki concurrent yazimlar sabit kalirsa. Sabit kalmayabilir (onceki turda 2->5 kaymasi gorulmustu), o yuzden mutlak sayi degil once/sonra FARKI raporlanacak."}
+ ]
+}

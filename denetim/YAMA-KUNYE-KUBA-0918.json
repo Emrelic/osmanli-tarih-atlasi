@@ -23,8 +23,30 @@
       "risk": "Bu tarihten önceki ~40-50 yıllık (Hüseyin Han'ın kuruluşundan 1735'e) dönem künyeye GİRMEZ; kabartay/cerkez emsalinin '__BOSLUK__ → künye' dönüşümünde olduğu gibi bir ARA BOŞLUK doğar (künye açılmadan önce bu bölgedeki yerleşimler zaten büyük olasılıkla ya sahipsiz ya da başka bir kimlikte — bu turda ÖLÇÜLMEDİ, yerleşim verisine dokunulmadı)."
     }
   ],
-  "kunyeler": [],
-  "_kunyeler_notu": "BİLEREK BOŞ. Kuba Hanlığı `f:` KARARSIZ olduğu için `kunyeler`e (arac/_kunye_uygula.py'nin varsayılan glob'unun OKUDUĞU liste) konmadı; aşağıdaki `hala_bekleyen`e KASTEN `id` değil `kimlik` alanıyla yazıldı — KUNYE-TARAF-BEKLEYEN-0917.json'un kendi konvansiyonu (D095: bir glob bir ad sözleşmesidir).",
+  "_karar_M4519": "1.MURAT kararı (M-4519 aksaklık sorusuna cevap, 18 Eylül 2026): SEÇENEK B — f:1735-01-01. Gerekçe: CLAUDE.md §4 'YYYY-01-01 günü bilinmeyen içindir, YILI bilinmeyen için değil'; kuruluşun (Hüseyin Han, XVII. yy sonu) yılı kaynakta yok, TDV'nin verdiği ilk YILLI tarih 1735. B'nin riski (ara boşluk) 1.MURAT'ça ölçüldü ve YOK bulundu: yerleşim verisinde `kuba-hanligi` hiçbir kayıtta kullanılmıyor. Karar gereği künye şartlı bir `not:` cümlesiyle aşağıya EKLENDİ (A'nın korumak istediği bilgi de böylece kayıtta kalıyor).",
+  "kunyeler": [
+    {
+      "id": "kuba-hanligi",
+      "ad": "Kuba Hanlığı",
+      "tur": "hanlik",
+      "tur_notu": "`kirim` de `hanlik` kullanıyor — aynı tür, doğrudan emsal.",
+      "bolge": "kafkasya",
+      "f": "1735-01-01",
+      "t": "1813-10-24",
+      "baskent": "Hudad Kalesi (1735'e kadar) → Kuba şehri (1735'ten)",
+      "harita": "kuba-hanligi",
+      "ozet": "Kuzeydoğu Azerbaycan'da (Derbend ile Bakü arasında) Hüseyin Han'ın XVII. yüzyılın sonlarına doğru kurduğu, başlangıçta Safevî Devleti'ne bağlı hanlık. 1734-1735'te Nâdir Şah'ın seferleri ve Lezgi isyanlarıyla merkez kalesi Hudad yıkıldı, hanlık merkezi Kuba şehrine taşındı; Hüseyin Ali Han hem İran hem Rusya tarafından resmen tanındı. Oğlu Feth Ali Han'ın 1758-1789 hâkimiyetinde Kuba, Salyan, Bakü, Derbend ve Şamahı'yı da kontrolüne alarak Kafkasya'nın en önemli yarı-müstakil hanlıklarından biri oldu. Feth Ali Han'ın ölümünden (1789) sonra zayıfladı; Rusya 1796'da ve kesin olarak 1806'da Derbend ve Kuba'yı işgal etti, 1813 Gülistan Antlaşması'nın 3. maddesiyle hanlık resmen Rusya'ya bırakıldı.",
+      "kaynak": "TDV `kuba--azerbaycan` md. (Saleh Muhammedoğlu Aliev; HTTP 200, gövde tarayıcıyla bağımsızca okundu) — yük taşıyan cümleler AYNEN: (1) kuruluş — «Babası Karakaytak hâkimleri (usmi) neslinden, annesi Kaçar Türkleri'nden olan … Hüseyin Han adlı bir toprak ağası XVII. yüzyılın sonlarına doğru Salyan, Kuba ve Kulhan dahil bölgenin idaresini eline aldı. Onun kurduğu hanlık Safevî Devleti'ne bağlıydı.» (2) merkez taşınması/tanınma — «Hudad'da isyancı Lezgiler'in öldürdüğü Sultan Ahmed Han'ın oğlu Hüseyin Ali Han, Kuba hâkimi olarak hem İran Şahlığı hem de Rus Çarlığı tarafından resmen tanınmıştı.» (3) zirve — «1758'de onun yerine geçen oğlu Feth Ali Han'ın hâkimiyeti yıllarında Kuba Hanlığı … en önemli yarı müstakil devletlerinden biri haline geldi … Feth Ali Han on yıllık bir süre içinde Kuba, Salyan, Bakü, Derbend ve Şamahı hanlıklarını … kendi kontrolü altına aldı.» (4) çöküş/işgal — «Çariçe II. Katerina'nın … ordusu 1796 Mayısında Derbend'i, az sonra da Kuba'yı işgal etti … Rusya'nın İran'a karşı 1805'te ilân ettiği savaşlar döneminde Derbend ve Kuba bir daha istilâ edildi (1806). 1813'te imzalanan Gülistan Antlaşması ile Kuba ve Derbend hanlıkları ilga edilerek arazileri Rus Çarlığı'na bırakıldı.» t GÜNÜ İÇİN: Encyclopaedia Iranica, 'GOLESTĀN TREATY' (Elton L. Daniel) — bkz. `t_cozumu`.",
+      "not": "🔴 f:1735 KURULUŞ DEĞİL — TDV'nin verdiği ilk yıllı tarih (Osmanlı ve İran'ca resmî tanınma). Hanlık XVII. yy sonunda Hüseyin Han'la kurulmuştu; yıl kaynakta YOK. (1.MURAT kararı M-4519.) Bu künye TEK bir kabile/hânedan DEĞİL, TDV'nin kendi anlattığı bir HANEDAN ZİNCİRİ: Hüseyin Han → (torunu?) Sultan Ahmed Han → oğlu Hüseyin Ali Han → oğlu Feth Ali Han (1758-1789) → oğulları Ahmed Han ve Şeyh Ali Han (1789-1806/1813). Farklı hanlar birbirine KARIŞTIRILMADI, TDV'nin kendi soy zinciri AYNEN aktarıldı.",
+      "kronoloji": [
+        {"t": "1735-01-01", "tur": "siyaset", "b": "Hudad Kalesi Lezgi isyanında yıkıldı; Hüseyin Ali Han Kuba'ya taşınıp İran ve Rusya tarafından resmen tanındı (gün bilinmiyor)", "kaynak": "TDV kuba--azerbaycan"},
+        {"t": "1758-01-01", "tur": "hukumdar", "b": "Feth Ali Han hanlığın başına geçti; on yıl içinde Kuba, Salyan, Bakü, Derbend ve Şamahı'yı kontrolüne aldı (gün bilinmiyor)", "kaynak": "TDV kuba--azerbaycan"},
+        {"t": "1806-10-03", "tur": "isgal", "b": "Rus kuvvetleri Derbend ve Kuba'yı istila etti (gün ÇIKARIMDIR: Dubrovin'in Bakü 3 Ekim 1806 / Bulgakov raporu 10 Kasım 1806 arası verdiği aralıktan; KUNYE-TARAF-BEKLEYEN'den devralınan ölçüm, bu turda tekrarlanmadı)", "kaynak": "N. F. Dubrovin (vostlit.info) — KUNYE-TARAF-BEKLEYEN'in ölçümü, doğrulanmadı"},
+        {"t": "1813-10-24", "tur": "son", "b": "Gülistan Antlaşması madde 3: Kuba ve Derbend hanlıkları Rusya'ya bırakıldı", "kaynak": "Encyclopaedia Iranica, GOLESTĀN TREATY (Hurewitz çevirisi) · TDV kuba--azerbaycan"}
+      ]
+    }
+  ],
+  "_kunyeler_notu": "18 Eylul once BILEREK BOSTU (f: KARARSIZ). 1.MURAT M-4519'da SECENEK B'yi sectikten SONRA UYGULA-5 tarafindan yukariya EKLENDI. Asagidaki `hala_bekleyen` kaydi TARIHSEL IZ olarak (karar oncesi durum) DOKUNULMADAN birakildi.",
   "hala_bekleyen": [
     {
       "kimlik": "kuba-hanligi",
@@ -56,6 +78,7 @@
       "olcum": "#ccb070 (mat bal-sarısı/kum tonu) — L*=72,9 (eşik 59'un üstünde) · su ΔE=48,4 (eşik 18'in üstünde). Komşulara ΔE: rusya 40,3 · kirim 41,4 · sirvansah 42,9 · cerkez(öneri) 64,1 · OSMANLI 66,5 · safevi 71,4 · kabartay 75,9 · transkafkasya 76,8 · iran 79,5 · kacar 92,2 · gurcistan 104,2 · kumuk-samhalligi 133,7 (min 40,3). Persian-suzeren üçlüsünden (kacar/safevi/iran) ÇOK uzak — bu üçü kendileri birbirine de yakın bir aile (mor-magenta), Kuba'nın onlardan görsel olarak ayrışması önemliydi. Bütün palete (589) en yakın: ΔE 12,4 `ispanya` (coğrafî/zamansal ilgisiz).",
       "yedek_aday": "#33cc7f (yeşil) — min ΔE aynı (40,3) ama rusya VE transkafkasya'yla AYNI anda sınırda (ikisi de 40,3) ve görsel aile olarak 'yeşil' kümesine giriyor; birincil öneri bu yüzden tercih edildi."
     },
-    "uyari": "Sahne-komşuluk denetimi (py arac/renk_olc.py) bu turda KOŞULMADI — kimlik henüz yerleşim verisinde yok. Künye+renk uygulanıp bir yerleşim kaydına bağlandıktan SONRA ZORUNLU (CLAUDE.md §9). Ayrıca: `cerkez` (KUNYE-CERKEZ-0918) DE henüz uygulanmadı; ikisi BİRLİKTE uygulanırsa `renk_olc.py` ikisini de yeniden ölçmeli."
+    "uyari": "Sahne-komşuluk denetimi (py arac/renk_olc.py) bu turda KOŞULMADI — kimlik henüz yerleşim verisinde yok. Künye+renk uygulanıp bir yerleşim kaydına bağlandıktan SONRA ZORUNLU (CLAUDE.md §9). Ayrıca: `cerkez` (KUNYE-CERKEZ-0918) DE henüz uygulanmadı; ikisi BİRLİKTE uygulanırsa `renk_olc.py` ikisini de yeniden ölçmeli.",
+    "_DUZELTME_UYGULA5": "18 Eylul, UYGULA-5: #ccb070 gercekten renkler.py'ye eklenip py arac/renk_olc.py kosulunca yamanin OLCMEDIGI bir kontrolden (ALTLIKTAN AYRISMA, esik DE 15) DUSTU -- DE_altlik=12.6, 'zemine karisip GORUNMEZ olabilir' uyarisi verdi. Yamanin kendi olcumu yalniz 'su ΔE' ve komsu ΔE'yi kapsiyordu, altlik ΔE'yi HIC OLCMEMISTI (D --> bu proje icin bilinen bir kor nokta ailesi: bir aleti taklit eden olcum onun butun esiklerini tasimali). arac/renkler.py import edilip HSV taramasiyla (h:30-55, ayni bal-sarisi ailesi) yeniden arandi: #d8af61 secildi -- minKomsu DE 37,1 (rusya/kirim/sirvansah/vb, eskisinden bile yuksek) · altlik DE 36,8 (esik 15'in COK ustunde) · L*=73,6. Tum palette (589 kayit) en yakini Cavnpur/Cohor sultanliklari (Hindistan/Malezya, DE 5-7) ve Azerbaycan Demokratik Cumhuriyeti (ayni bolge ama DE 12,9 VE 105 yil sonra, hic ES ZAMANLI olmuyor) -- hicbiri cografi/zamansal olarak gercek cakisma riski tasimiyor (cemisgezek-beyligi emsaliyle ayni gerekce). py arac/renk_olc.py SONRASI: KOMSUSUYLA CAKISAN 0, ALTLIKTAN AYRISMAYAN 0. renkler.py'ye YAZILAN NIHAI HEX #d8af61'dir, bu bolumdeki #ccb070 TARIHSEL kalmistir."
   }
 }
