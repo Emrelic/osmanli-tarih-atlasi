@@ -10196,6 +10196,12 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_yunan",       // window.EKOKUMA_YUNAN — EKO-YUNAN-0072 teslimi, M-4785 (4 kart)
   "ekokuma_yeniceri",    // window.EKOKUMA_YENICERI — EKO-YENICERI-0073 teslimi, M-4830 (4 kart)
   "ekokuma_bolge0073",   // window.EKOKUMA_BOLGE0073 — EKO-BOLGE-0073 teslimi, M-4833 (4 kart)
+  // 🆕 22 Eylül 2026 — PARTİ 0075, üç blok / 30 kart. Üçü AYRI dosya,
+  // çünkü üç oturum EŞZAMANLI yazdı; tek dosyaya yazsalardı biri ötekini
+  // ezerdi (CLAUDE.md §7: bölme ölçütü DOSYADIR).
+  "ekokuma_p75a",        // window.EKOKUMA_P75A — EKOKUMA-KURUM-0075, M-4980 (12 kart)
+  "ekokuma_p75b",        // window.EKOKUMA_P75B — EKOKUMA-SAVAS-0075, M-4979 (11 kart)
+  "ekokuma_p75c",        // window.EKOKUMA_P75C — EKOKUMA-TOPLUM-0075, M-4982 (7 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load

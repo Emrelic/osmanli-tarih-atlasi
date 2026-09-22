@@ -69,7 +69,7 @@ window.EKOKUMA_TOPLUM = [
   metin:"Tütün karşıtlığı yalnız dinî/ahlâkî değildi: dönemin hekimleri de dumanın sağlığa zararlı olduğunu savunuyordu. Buna karşılık tütün içimi hızla toplumsal bir alışkanlığa dönüştü ve devlet, yasaklamanın bir işe yaramadığını görünce onu vergilendirmeyi (tömbeki/duhan resmi) tercih etti — bu, Osmanlı'nın bir çok toplumsal alışkanlıkla (kahve dâhil) kurduğu tipik ilişkinin örneğidir: önce yasak, sonra vergi.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1609-01-01"],
+  olay:["1633-10-01|tütün"],
   kaynak:"TDV: tutun" },
 
 // ═══ H-0033 — ekonomi (Avrupa karşılaştırmalı) ═════════════════════════════
@@ -139,10 +139,10 @@ window.EKOKUMA_TOPLUM = [
   ad:"Hürrem bir istisnaydı — Osmanlı hanedanı niçin CARİYEYLE NİKAH KIYMAZDI?",
   kisa:"1534'e kadar hiçbir padişah cariyesiyle resmen evlenmedi; bu bir tesadüf değil, bir SİYASETTİ.",
   metin:"Osmanlı hanedanının XV. yüzyıldan itibaren yerleşen teamülü, şehzadelerin anne olacak cariyelerle NİKAH KIYMAMASIYDI — ilişki bir mülkiyet ilişkisiydi (efendi-cariye), evlilik değil. Bunun sebebi olarak üç açıklama öne sürülür: yabancı bir hanedanın sarayda nüfuz kurmasını önlemek, tahta ortak çıkarabilecek dış akrabalık ağları oluşturmamak ve devşirme kökenli sadakati kan bağından daha güvenilir saymak. Bir cariye, doğurduğu ilk şehzadeden sonra 'hasekilik' denen bir statü kazanabilir, ama bu bir NİKAH değildi. Kanûnî'nin 1534'te Hürrem'le RESMEN nikâhlanması, tam da bu yüzden bir teamülü açıkça bozan bir istisna olarak kaydedildi — ve İslâm hukukunda cariyenin efendisinden çocuk doğurmasıyla kazandığı 'ümmü'l-veled' statüsü (satılamama, efendinin ölümüyle hürriyete kavuşma) zaten bir GÜVENCE sağladığı için, resmî nikâh hukuken de GEREKLİ değildi — Hürrem'in nikâhı SİYASİ bir tercihti, hukukî bir zorunluluk değil.",
-  bag:"Bu kart data/merak.js id:siyasi-evlilikler kartının TAMAMLAYICISIDIR — o kart hanedanın DIŞARIDAN kız almayı niçin bıraktığını tartışır (üç görüş, aynı 1534 tarihine bağlı); bu kart İÇERİDE (cariyeyle) NİKAH kıyıp kıymama meselesini ve ÜMMÜ'L-VELED hukukunu anlatır — farklı bir soru, aynı olaydan (Hürrem 1534) hareketle. Üç görüş TEKRAR EDİLMEDİ.",
+  bag:"Bu kart ilgili ek okuma kartı id:siyasi-evlilikler'in TAMAMLAYICISIDIR — o kart hanedanın DIŞARIDAN kız almayı niçin bıraktığını tartışır (üç görüş, aynı 1534 tarihine bağlı); bu kart İÇERİDE (cariyeyle) NİKAH kıyıp kıymama meselesini ve ÜMMÜ'L-VELED hukukunu anlatır — farklı bir soru, aynı olaydan (Hürrem 1534) hareketle. Üç görüş TEKRAR EDİLMEDİ.",
   not:"'Çokeşlilik' — İslâm hukuku padişaha en çok dört nikâhlı eş hakkı tanır, ama pratikte hanedan üyeleri genellikle NİKAHSIZ cariye ilişkisini tercih etti; bu iki ayrı kurumun (nikâh ve cariyelik) neden karıştırılmaması gerektiği bu kartın asıl konusu.",
   kesinlik:"tartismali",
-  olay:["1534-01-01"],
+  olay:["1534-01-01|Hürrem"],
   kaynak:"TDV: hurrem-sultan · haseki" },
 
 // ═══ H-0117 — harem teşkilatı ═══════════════════════════════════════════════
@@ -164,7 +164,7 @@ window.EKOKUMA_TOPLUM = [
   kisa:"Kölelik bir günde kalkmadı — dört ayrı fermanla, altmış iki yılda söndürüldü.",
   sebep:{ b:"I. Murad döneminde (1362-1389) Rumeli fetihleriyle savaş esirlerinin beşte birinin (pencik) askerliğe ayrılmasını öngören pencik kanununun yürürlüğe girmesiyle köleliğin (savaş esirleri, Afrika/Kafkasya/kuzey step köle ticareti ve devşirme yoluyla beslenen) sistemli bir kuruma dönüşmesi", t:"1362-03" },
   sonuc:{ b:"1847'de İstanbul köle pazarının kapatılması, 1857'de Hicaz dışında zenci köle ticaretinin yasaklanması, 1890'da Brüksel Sözleşmesi'nin imzalanması ve 1909'da Kafkasya kökenli 'beyaz köle' ticaretinin de yasaklanmasıyla kölelik kurumunun HUKUKEN kademeli olarak tasfiye edilmesi", t:"1909-01-01" },
-  bag:"'Esir' ve 'köle' terimleri Osmanlı hukukunda ayırt edilmemiştir — ikisi de hür olmayan kimseyi anlatır. Bu kartın `olay:` alanı yalnız pencik kanununun kurumsallaştığı 1362 dönemine (Yeniçeri ocağının kuruluşuyla AYNI köke bağlı, bkz. data/ekokuma.js id:yeniceri-ocagi-kurulusu) bağlanabildi; 1847/1857/1890/1909 tarihlerinin HİÇBİRİ kronolojide Osmanlı'ya özgü bir madde olarak BULUNAMADI (aranan kayıtlar başka ülkelere aitti — Portekiz 1761, Britanya 1807 vb.) — bu, KITA 14'e somut bir kronoloji önerisi.",
+  bag:"'Esir' ve 'köle' terimleri Osmanlı hukukunda ayırt edilmemiştir — ikisi de hür olmayan kimseyi anlatır. Bu kartın `olay:` alanı yalnız pencik kanununun kurumsallaştığı 1362 dönemine (Yeniçeri ocağının kuruluşuyla AYNI köke bağlı, bkz. ilgili ek okuma kartı id:yeniceri-ocagi-kurulusu) bağlanabildi; 1847/1857/1890/1909 tarihlerinin HİÇBİRİ kronolojide Osmanlı'ya özgü bir madde olarak BULUNAMADI (aranan kayıtlar başka ülkelere aitti — Portekiz 1761, Britanya 1807 vb.) — kronolojiye somut bir madde önerisi.",
   metin:"Bu yasaklara rağmen köle ticareti imparatorluğun sonuna kadar (fiilen) devam etti — hukuki yasak ile fiilî uygulamanın arasındaki bu boşluk, TDV'nin kendi ifadesiyle vurgulanan bir noktadır.",
   kesinlik:"kesin",
   zincir:[],
@@ -177,11 +177,11 @@ window.EKOKUMA_TOPLUM = [
   kisa:"Bir ahidname, İngiliz tüccara Fransız ve Venedikli'yle AYNI hakkı verdi — savaş değil, imza yoluyla açılan bir pazar.",
   sebep:{ b:"1578'de İstanbul'a gönderilen İngiliz temsilci William Harborne'un, İngiliz tüccarların Osmanlı pazarına Fransız ve Venediklilerle EŞİT şartlarda girebilmesi için sadrazam Sokullu Mehmed Paşa nezdinde giriştiği diplomatik girişim", t:"1580-01-01" },
   sonuc:{ b:"1580 tarihli bir ahidnamenin imzalanmasıyla İngiliz tüccarların daha önce yalnız Fransız ve Venedikliler'e tanınmış ticarî kapitülasyonlardan aynı derecede yararlanma hakkını kazanması", t:"1580-01-01" },
-  bag:"Kapitülasyonların (imtiyaz) genel tarihçesi ve 'zaaf mı araç mı' tartışması data/merak.js id:kapitulasyon-zaaf-mi-arac-mi kartında zaten işleniyor; bu kart o tartışmayı TEKRARLAMAZ, yalnız TEK BİR ahidnamenin somut MEKANİZMASINI (kimin girişimiyle, hangi eşitliğin sağlandığını) anlatır.",
+  bag:"Kapitülasyonların (imtiyaz) genel tarihçesi ve 'zaaf mı araç mı' tartışması ilgili ek okuma kartı id:kapitulasyon-zaaf-mi-arac-mi'de zaten işleniyor; bu kart o tartışmayı TEKRARLAMAZ, yalnız TEK BİR ahidnamenin somut MEKANİZMASINI (kimin girişimiyle, hangi eşitliğin sağlandığını) anlatır.",
   metin:"Bir ahidname, savaşla değil müzakereyle açılan bir pazardı: taraf devlet tebaasına can/mal güvencesi ve gümrük şartları tanınır, karşılığında ticaretin genişlemesinden her iki taraf da kazanırdı. İngiltere'nin bu ahidnameyle kazandığı konum, on yıllar içinde Levant Company gibi büyük ticaret şirketlerinin doğuşuna zemin hazırladı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1580-01-01"],
+  olay:["1580-01-01|İngiliz"],
   kaynak:"TDV: ingiltere" },
 
 // ═══ H-0120 — sanayi ════════════════════════════════════════════════════════
@@ -206,7 +206,7 @@ window.EKOKUMA_TOPLUM = [
   kisa:"Ahi Evran'ın kurduğu esnaf dayanışması, üç yüz yıl sonra devletin tekel garantili GEDİK sistemine dönüştü.",
   sebep:{ b:"Ahi Evran'ın (fütüvvet/Ahilik geleneğinden gelen) Anadolu'da esnaf ve zanaatkârları örgütleyip meslek disiplinini, mal/fiyat denetimini ve çıraklık-kalfalık-ustalık silsilesini bir teşkilat hâline getirmesi", t:"1230-06-01" },
   sonuc:{ b:"Bu geleneğin Osmanlı şehirlerinde 'lonca' (kethüdâ, yiğitbaşı, nizam ustaları kademeleriyle yönetilen esnaf birlikleri) adıyla kurumsallaşması ve 1727'de 'gedik' sisteminin — bir zanaatı icra etme hakkının devlet güvencesiyle SINIRLI sayıda kişiye tekel olarak tanınması — resmen yerleşmesi", t:"1727-06-01" },
-  bag:"Bu kart data/ekokuma.js id:ahi-birlikleri-ankara kartının TAMAMLAYICISIDIR — o kart Ahiliğin Ankara'da bir asır süren SİYASİ YÖNETİMİNİ (şehrin fiilen ahiler tarafından idare edilişini) anlatır; bu kart aynı hareketin ESNAF TEŞKİLATLANMASI (lonca/gedik) yönünü, farklı bir sonuca (1727 gedik sistemi) bağlayarak anlatır — aynı kişi/hareket, iki ayrı miras.",
+  bag:"Bu kart ilgili ek okuma kartı id:ahi-birlikleri-ankara'nın TAMAMLAYICISIDIR — o kart Ahiliğin Ankara'da bir asır süren SİYASİ YÖNETİMİNİ (şehrin fiilen ahiler tarafından idare edilişini) anlatır; bu kart aynı hareketin ESNAF TEŞKİLATLANMASI (lonca/gedik) yönünü, farklı bir sonuca (1727 gedik sistemi) bağlayarak anlatır — aynı kişi/hareket, iki ayrı miras.",
   metin:"'Lonca' kelimesinin kendisi İtalyanca 'loggia'dan gelir — Osmanlı ile İtalyan şehir devletleri arasındaki ticarî temasın bir izidir. Gedik sistemi, esnafı hem korudu (tekel garantisi) hem de dondurdu: yeni girişimciliği ve rekabeti sınırlayarak, TDV'nin doğrudan belirtmediği ama sanayileşme sorusuyla dolaylı bağlantılı bir yapısal katılığa yol açtı.",
   kesinlik:"kesin",
   zincir:["timar-avrupa-feodalizm-farki","feshane-osmanli-sanayilesme-girisimi"],
@@ -223,7 +223,7 @@ window.EKOKUMA_TOPLUM = [
   metin:"Hat sanatının Osmanlı'daki gelişimi, tek bir 'en iyi' üslûbun değil, birbirini aşan ustaların zincirinin tarihidir — her büyük hattat bir öncekinin üslûbunu öğrenip aşarak kendi ekolünü kurdu.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1520-01-01","1695-01-01"],
+  olay:["1520-01-01|Hamdullah","1695-01-01|Hâfız Osman"],
   kaynak:"TDV: hat" },
 
 { id:"ebru-sanati-ipek-yolundan-istanbula", tur:"sebep-sonuc",

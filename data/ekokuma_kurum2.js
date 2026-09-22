@@ -69,7 +69,7 @@ window.EKOKUMA_KURUM2 = [
     +"■ TAHSİL TAKVİMİ\n"
     +"Tanzimat öncesinde tahsilat 'rûz-i hızır' ve 'rûz-i kāsım' diye iki taksite bölünürdü (yaklaşık bahar ve güz). Tanzimat sonrasında ise vergi borcu on iki taksite yayılırken, rüsûmat 'aynen veya bedelen hemen' tahsil ediliyordu — yani nakit vergiyle mal/hizmet vergisi farklı takvimlerde işliyordu.\n\n"
     +"■ ESHAM İLE BAĞI (1775)\n"
-    +"Esham, bir vergi TÜRÜ değildi — mukātaa (vergi kaynağı) gelirinin hisselere bölünüp satıldığı bir BORÇLANMA yöntemiydi; Küçük Kaynarca'nın 7,5 milyon kuruşluk tazminat yükü karşısında 1775'te ihdas edildi (bk. data/olaylar_ek14.js, 1775-06-01). Yani devlet doğrudan vergiyi artırmak yerine, gelecekteki vergi/mukātaa gelirini bugünden nakde çevirdi — bu, klasik tekâlîf sisteminin dışında, ona EK bir mali araçtı.",
+    +"Esham, bir vergi TÜRÜ değildi — mukātaa (vergi kaynağı) gelirinin hisselere bölünüp satıldığı bir BORÇLANMA yöntemiydi; Küçük Kaynarca'nın 7,5 milyon kuruşluk tazminat yükü karşısında 1775'te ihdas edildi (1775-06-01). Yani devlet doğrudan vergiyi artırmak yerine, gelecekteki vergi/mukātaa gelirini bugünden nakde çevirdi — bu, klasik tekâlîf sisteminin dışında, ona EK bir mali araçtı.",
   kesinlik:"kesin",
   olay:["1775-06-01|Esham sisteminin ihdası","1856-02-18|Islahat Fermanı"],
   kaynak:"TDV: vergi · cizye" },
@@ -91,9 +91,9 @@ window.EKOKUMA_KURUM2 = [
     +"■ İKİ AYRI SONUÇ, TEK KÖK\n"
     +"TDV bu kurumu 'İstanbul Teknik Üniversitesi'nin ilk çekirdeği' olarak tanımlıyor — İTÜ resmen 1944'te bu miras üzerine kuruldu. Aynı madde ayrıca Mühendishâne-i Berrî'nin 'Harp Okulu'nun da ilk çekirdeğini oluşturduğunu' belirtiyor — yani TEK bir 1795 kurumu, biri sivil (İTÜ) biri askerî (Harbiye/Kara Harp Okulu) iki ayrı köke dallandı.\n\n"
     +"■ MÜHENDİSHÂNE-İ BAHRÎ-İ HÜMÂYUN (1775) — DENİZ HARP OKULU'NUN KÖKÜ\n"
-    +"1775'te kurulan deniz mühendishanesi (bk. ayrı kart: H-0014/DALGA-0066) 1195'te (1781) Mühendishâne-i Tersâne-i Âmire adını aldı, 1210'da (1795) Berrî'den ayrılıp yalnız deniz eğitimine odaklandı, 1830'da Heybeliada'ya taşındı ve 1846'da bu taşınma kalıcı oldu. TDV bu kurumu bugünkü Deniz Harp Okulu'nun temeli sayıyor.\n\n"
+    +"1775'te kurulan deniz mühendishanesi (bk. ayrı kart) 1195'te (1781) Mühendishâne-i Tersâne-i Âmire adını aldı, 1210'da (1795) Berrî'den ayrılıp yalnız deniz eğitimine odaklandı, 1830'da Heybeliada'ya taşındı ve 1846'da bu taşınma kalıcı oldu. TDV bu kurumu bugünkü Deniz Harp Okulu'nun temeli sayıyor.\n\n"
     +"■ ORTAK DESEN\n"
-    +"İki mühendishane de aynı krizden (1768-1774 Rus savaşı, 1770 Çeşme) doğdu, aynı reform paketinin (Nizâm-ı Cedîd, bk. ayrı kart H-0014/DALGA-0068) parçasıydı ve ikisi de defalarca ad/bina değiştirerek 19. yüzyılı aştı — kesintisiz değil, ama KOPMADAN 20. yüzyıla ulaştı.",
+    +"İki mühendishane de aynı krizden (1768-1774 Rus savaşı, 1770 Çeşme) doğdu, aynı reform paketinin (Nizâm-ı Cedîd, bk. ayrı kart) parçasıydı ve ikisi de defalarca ad/bina değiştirerek 19. yüzyılı aştı — kesintisiz değil, ama KOPMADAN 20. yüzyıla ulaştı.",
   kesinlik:"kesin",
   // EKO-ILGI-0073 (M-4837/c1): "1944-01-01|İstanbul Teknik Üniversitesi" bağı
   // KALDIRILDI — atlasın kapsamı 1281-1923, o tarihe hiçbir zaman madde gelmeyecek

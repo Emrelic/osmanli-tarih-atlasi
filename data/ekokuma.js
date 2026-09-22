@@ -101,7 +101,7 @@ window.EKOKUMA = [
   metin:"Zimmî, dârülislâmda vatandaş olarak yaşayan ve kendisine güvence verilen gayrimüslimdir: canı ve malı dokunulmaz, ibadeti serbest, kendi aralarındaki davalarda kendi mahkemesine gitme hakkı vardır; karşılığında devletin hâkimiyetini tanır ve cizye öder. Cizye yalnız hür, ergin, çalışabilir ve ödeme gücü olan erkeklerden alınır — kadın, çocuk, yaşlı, âmâ, kötürüm, fakir ve ibadete çekilmiş din adamları muaftır — ve Osmanlı'da âlâ (48 dirhem), evsat (24) ve ednâ (12) olmak üzere üç sınıfa ayrılırdı. Cemaatler millet teşkilatıyla yönetilirdi; bu teşkilat etnik ya da dil aidiyetine değil din ve mezhep esasına dayanırdı, bu yüzden Ermeniler Gregoryen, Katolik ve Protestan olarak üç ayrı millet sayılıyordu. Patrik ve hahambaşı devlet adına vergi toplar, cemaati yönetir, hukuk uygular ve eğitimi denetlerdi; ama bu yetki devletin denetimindeydi — yalnız XVII. yüzyılda elli sekiz Rum patriği değiştirilmiştir.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1453-05-29","1839-11-03","1856-02-18"],
+  olay:["1453-05-29|İstanbul","1839-11-03","1856-02-18"],
   kaynak:"TDV: zimmi · cizye · millet · devsirme" }
 ,
 

@@ -72,7 +72,7 @@ window.EKOKUMA_ANTLASMA4 = [
   kesinlik:"kesin",
   zincir:[],
   olay:["1718-07-21|Pasarofça"],
-  kaynak:"TDV: pasarofca-antlasmasi (savaşın sebepleri, 13 Nisan 1716, Mustafa Paşa'nın teklifi, 11 Aralık 1717 mektubu, VI. Karl'ın şartları, 9 Mayıs 1718, görüşme yeri, heyetler ve aracılar, oturumlar, 21 Temmuz 1718, Avusturya/ticaret/Venedik antlaşmalarının maddeleri, onay ve elçilikler, değerlendirme) · ayrıca bk. ekokuma.js antlasma-pasarofca-1718 ve ekokuma_antlasma2.js sebep-sonuc-pasarofca-1718",
+  kaynak:"TDV: pasarofca-antlasmasi (savaşın sebepleri, 13 Nisan 1716, Mustafa Paşa'nın teklifi, 11 Aralık 1717 mektubu, VI. Karl'ın şartları, 9 Mayıs 1718, görüşme yeri, heyetler ve aracılar, oturumlar, 21 Temmuz 1718, Avusturya/ticaret/Venedik antlaşmalarının maddeleri, onay ve elçilikler, değerlendirme) · ayrıca bk. ilgili ek okuma kartları antlasma-pasarofca-1718 ve sebep-sonuc-pasarofca-1718",
   ic_not:"'diplomatlar' alanı bu karta özgü yeni bir alan (DALGA-0058 3a talebi); arayüz göstermiyorsa diye özeti `metin`in başında da var." },
 
 // ═══ PARTİ 1 · 1333 – 1621 ═══════════════════════════════════════════════

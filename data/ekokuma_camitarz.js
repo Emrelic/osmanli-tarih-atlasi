@@ -26,7 +26,7 @@ window.EKOKUMA_CAMITARZ = [
     not: "Bu kart bir sentezdir; her dönemin somut örnek yapısı ayrı kartlarda anlatılır: klasik dönem için Üç Şerefeli Camii, Şehzade Camii, Süleymaniye, Selimiye; Osmanlı barok için Nuruosmaniye, Fatih Camii; Lâle Devri bağlamı için Sadâbad; erken Osmanlı ve ampir/eklektik için bu dosyadaki Bursa Ulucami ve Nusretiye Camii kartları.",
     kesinlik: "kesin",
     olay: [],
-    kaynak: "TDV İslâm Ansiklopedisi: ulucami, nuruosmaniye-kulliyesi, sultan-ahmed-camii-ve-kulliyesi, nusretiye-camii — bu dosyada ve ekokuma_mimari*.js'te ayrı ayrı kaynaklanmış maddelerin sentezi.",
+    kaynak: "TDV İslâm Ansiklopedisi: ulucami, nuruosmaniye-kulliyesi, sultan-ahmed-camii-ve-kulliyesi, nusretiye-camii — burada ve ilgili ek okuma kartlarında ayrı ayrı kaynaklanmış maddelerin sentezi.",
   },
   {
     id: "camitarz-bursa-ulucami",

@@ -188,7 +188,7 @@ window.EKOKUMA_KURUM = [
     +"■ VERGİ (HARAÇ)\n"
     +"Üçü de sabit ya da artan bir yıllık haraçla yükümlüydü: Eflak ve Boğdan'da meblağ zamanla katlanarak arttı (Boğdan'da 2.000'den 12.000 altına), Erdel'de 10.000'den 40.000 altına çıktı. Bu ödeme HARAÇ'tı, doğrudan vergi değil — miktar merkezî hazineye değil voyvodanın kendi hazinesinden toplu ödenirdi.\n\n"
     +"■ ASKER BULUNDURMA\n"
-    +"Okunan TDV maddeleri üçü için de düzenli, zorunlu bir Osmanlı ordusuna asker verme yükümlülüğünden AÇIKÇA söz etmiyor — bu, düzenli sefer katılımı Osmanlı seferberliğinin standart bir parçası olan Kırım Hanlığı'ndan (bk. H-0085) temel farkıdır. Erdel prensleri siyasi koşullar zorladığında Osmanlı seferlerine katılmıştır, ama bu maddede bir 'zorunlu kontenjan' rakamı yok — `ölçülemedi`.\n\n"
+    +"Okunan TDV maddeleri üçü için de düzenli, zorunlu bir Osmanlı ordusuna asker verme yükümlülüğünden AÇIKÇA söz etmiyor — bu, düzenli sefer katılımı Osmanlı seferberliğinin standart bir parçası olan Kırım Hanlığı'ndan temel farkıdır. Erdel prensleri siyasi koşullar zorladığında Osmanlı seferlerine katılmıştır, ama bu maddede bir 'zorunlu kontenjan' rakamı yok — `ölçülemedi`.\n\n"
     +"■ DIŞ İŞLERİ VE PRENS ATAMASI\n"
     +"Üçünde de dış siyaset Osmanlı onayına bağlıydı. Prens/voyvoda ataması yerel değildi: Erdel'de sultan doğrudan müdahale edip prens atayabiliyordu (Bethlen Gábor örneği, 1613); Eflak-Boğdan'da ise 1716/1710'dan sonra yerli hanedanlar tamamen devre dışı kalıp İstanbul'un doğrudan atadığı Fenerli Rum yöneticilere geçildi — bu, üçünün de zamanla merkeze YAKLAŞTIĞI, uzaklaşmadığı ortak bir eğilimdir.\n\n"
     +"■ GARNİZON\n"
@@ -208,7 +208,7 @@ window.EKOKUMA_KURUM = [
     +"■ AHMED CEVDET PAŞA (1823-1895) — MODERN YÖNTEMİN KÖPRÜSÜ\n"
     +"Klasik anlatı geleneğiyle modern kaynak eleştirisini birleştiren, Avrupa tarihini de işin içine katan son büyük vakanüvis-hukukçudur.\n\n"
     +"■ SORULMASI GEREKEN AMA BULUNAMAYAN İSİM\n"
-    +"Vecihî Hasan Efendi (17. yüzyıl vakanüvisi) için denenen TDV sluğu (`vecihi`) ölü çıktı; alternatif slug bu turda aranmadı — `bulunamadı`, ayrı kart yazılmadı.",
+    +"Vecihî Hasan Efendi (17. yüzyıl vakanüvisi) için denenen TDV sluğu (`vecihi`) ölü çıktı; alternatif slug aranmadı — `bulunamadı`, ayrı kart yazılmadı.",
   kesinlik:"kesin",
   olay:[],
   kaynak:"TDV: naima · nesri · cevdet-pasa" },
@@ -259,11 +259,11 @@ window.EKOKUMA_KURUM = [
     +"■ ASKERÎ YAPI\n"
     +"Kuvvetler Anadolu'dan devşirilen askerlerle, Berberi kabilelerinden toplanan yerel süvarilerin ('mehâzin') birleşiminden oluşuyordu; 1630'larda toplam yaklaşık 20.000 kişiye ulaşıyordu.\n\n"
     +"■ VERGİ DEĞİL, KORSANLIK GELİRİ\n"
-    +"Gelirin esas kaynağı İstanbul'a ödenen haraç değil, korsanlık faaliyetiydi — klasik tâbi devlet ilişkisinin (bkz. H-0085/H-0086: Eflak/Boğdan/Erdel/Kırım) tam tersine dönmüş bir mali modeldi.\n\n"
+    +"Gelirin esas kaynağı İstanbul'a ödenen haraç değil, korsanlık faaliyetiydi — klasik tâbi devlet ilişkisinin (bkz. Eflak/Boğdan/Erdel/Kırım) tam tersine dönmüş bir mali modeldi.\n\n"
     +"■ DAYI UNVANI — TDV'DE AYRI BİR TUZAK\n"
     +"TDV'nin `dayi` maddesi bu idari unvanı DEĞİL, fıkıhtaki 'anne tarafından akraba (dayı)' terimini anlatır — canlı slug, ilgisiz madde (CLAUDE.md §4②). Bu kartın dayılık bilgisi tamamen `cezayir` maddesinin kendisinden alındı.\n\n"
     +"■ TUNUS, LİBYA, MISIR, SUDAN, SOMALİ, ETİYOPYA — ARAŞTIRILMADI\n"
-    +"Şartname aynı analizi bu bölgeler için de istiyordu; zaman sınırı nedeniyle bu turda YAPILAMADI — `bulunamadı`, sonraki bir tura bırakılmalı.",
+    +"Bu bölgeler için aynı analiz henüz YAPILAMADI — `bulunamadı`, sonraki bir tura bırakılmalı.",
   kesinlik:"kesin",
   olay:["1516-01-01|Cezayir'in Osmanlı'ya bağlanması"],
   kaynak:"TDV: cezayir" },
@@ -280,7 +280,7 @@ window.EKOKUMA_KURUM = [
     +"■ ALAVî (FİLALİ) DÖNEMİ — İLİŞKİ ZAYIFLIYOR\n"
     +"1631 sonrasında iktidara gelen Alavî (Filali) hanedanı döneminde Osmanlı nüfuzu iyice geriledi. 1830'da Fransızlar Cezayir'i işgal ettiğinde Tilimsân (Tlemcen) halkının Fas'tan koruma araması, TDV'nin ifadesiyle Osmanlı Devleti'nin bölgeyle kalan 'organik bağının' sonunu simgeler.\n\n"
     +"■ HARAÇGÜZARLIK / HİMAYE / MÜTTEFİKLİK — HİÇBİRİ RESMEN KURULMADI\n"
-    +"Okunan TDV maddesine göre Fas hiçbir dönemde Eflak/Boğdan/Erdel/Kırım gibi haraç ödeyen bir tâbi statüsüne (bkz. H-0085) girmedi, resmî bir himaye anlaşması da kurulmadı — ilişki baştan sona iki bağımsız Müslüman devlet arasındaki diplomatik/dinî nezaket düzeyinde kaldı; açık bir savaş hâli de madde metninde geçmiyor (Vâdiülmehâzin bir Osmanlı-Fas savaşı değil, Fas'ın kendi taht mücadelesiydi).",
+    +"Okunan TDV maddesine göre Fas hiçbir dönemde Eflak/Boğdan/Erdel/Kırım gibi haraç ödeyen bir tâbi statüsüne girmedi, resmî bir himaye anlaşması da kurulmadı — ilişki baştan sona iki bağımsız Müslüman devlet arasındaki diplomatik/dinî nezaket düzeyinde kaldı; açık bir savaş hâli de madde metninde geçmiyor (Vâdiülmehâzin bir Osmanlı-Fas savaşı değil, Fas'ın kendi taht mücadelesiydi).",
   kesinlik:"kesin",
   olay:["1554-01-01|Fas şehri","1578-08-04|Vâdiülmehâzin"],
   kaynak:"TDV: fas" }
