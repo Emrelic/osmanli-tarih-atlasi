@@ -80,6 +80,25 @@ py arac/surum_damgala.py      # ?v=rNN — yalnız Emre "yayınla" derse
    commitlenmeden koşarsa yayın o dosya için 404 verir — 21 Eylül'de
    tam bu oldu, 5 dakika sürdü.
 
+🔴 **KOŞU SONRASI EK SINAV — bu koşuda YENİ bir uyarı sınıfı çıktı.**
+`shapely/constructive.py:246`ten **70 uyarı**: 35 `divide by zero
+encountered in buffer` + 35 `invalid value encountered in buffer`.
+Kıyas ölçüldü: **son TAM koşu (`kosu4b.log`, yürüyüş KAPALI) 0 uyarı**
+verdi; bu koşuda (yürüyüş AÇIK) 70. Nedensellik KANITLANMADI —
+`kosu5.log` yürüyüş açıkken 60. devlette durdurulduğu için uyarı
+bölgesine hiç girmedi, yani elde yürüyüş-açık + tamamlanmış bir kıyas yok.
+
+⚠️ **Motorun kendi doğrulaması bunu YAKALAMAYABİLİR:** kapanış satırı
+*"tüm yerleşimlerin peteği geçerli"* diyor — **petekleri** sınıyor, yabancı
+devlet **gövdelerini** değil. `invalid value in buffer` boş ya da geçersiz
+bir gövde üretmiş olabilir ve bu sessizce geçer.
+⇒ Koşu bitince **`data/devletler_harita.js`in gövde sayısı ve toplam alanı,
+son tam koşunun çıktısıyla karşılaştırılacak.** Eksilme varsa yayın DURUR.
+⚠️ Uyarılar günlükte 91-160. devletler arasında bir yerde doğdu ama tam
+yeri okunamıyor: stderr tamponsuz, stdout tamponlu — satır sırası
+karışıyor. Yeri daraltmak isteniyorsa `-W error::RuntimeWarning` ile ayrı
+bir koşu gerekir.
+
 ⚠️ Koşu bitince tahtaya **"dosya senin"** yazılacak; sekiz oturum bunu
 bekliyor ve bekçileri bu gece bellek basıncından iki kez öldürüldü, yani
 bir kısmı uyanmayabilir — tahtaya yazmakla yetinmeyip `send_message` de
