@@ -92,10 +92,20 @@ olabilir — birlikte ele alınmalı.
 ## 🔴 SENİN KARARIN — on kalem
 
 **Mısır seferi (MISIR-SEFER-0075)**
-1. **Urfa kaydı kaldırılsın mı?** Atlasta 1832-08-15→1841 Mısır yazılı ama
-   **kaynaksız**: TDV yalnız "1839'da kısa süre" diyor, Kutluoğlu Urfa'yı
-   Kütahya kapsamı DIŞINDA sayıyor. Kaldırılırsa senin sorduğun "Konya-Urfa
-   niçin kopuk eksklav" sorusu da çözülür.
+1. **Urfa kaydı kaldırılsın mı?** Atlasta `v:misir-kavalali`
+   1832-08-15→1841-02-25 yazılı. TDV yalnız "1839'da kısa süre" diyor,
+   Kutluoğlu Urfa'yı Kütahya kapsamı DIŞINDA sayıyor. Kaldırılırsa senin
+   sorduğun "Konya-Urfa niçin kopuk eksklav" sorusu da çözülür.
+
+   ⚠️ **Koordinatör doğrulaması (03:30) — gerekçenin yarısı düştü.** Rapor
+   Urfa'yı "kaynaksız" diye ayırıyordu; ölçtüm, **1831-1841 Mısır
+   katmanının 25 penceresinin 25'i de pencere düzeyinde kaynaksız**
+   (Şam · Halep · Kudüs · Gazze · Akkâ · Adana … hepsi). Yani
+   "kaynaksızlık" Urfa'ya özgü bir kusur DEĞİL, bütün katmanın durumu.
+   ⇒ Urfa kararı yalnız **TDV + Kutluoğlu tanıklığına** dayanarak
+   verilmeli; "kaynak alanı boş" bir gerekçe değil.
+   ⇒ Ve ayrı bir borç doğdu: **Mısır işgal katmanının tamamı (25 pencere)
+   pencere düzeyinde kaynaksız.** Tek tek kaynaklanması gereken bir iş.
 2. **Maraş:** TDV "1833'te işgal, on dokuz aya yakın" — atlasta 8,5 yıl.
    Pencere kısaltılsın mı?
 3. **Konya'ya giriş günü:** Gencer (BOA atıflı) 18 Kasım 1832 · atlas
