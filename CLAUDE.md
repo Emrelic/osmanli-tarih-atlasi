@@ -60,7 +60,7 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 | Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **14** hiçbir yerde (gerçek sessiz borç) · ⚪ 38 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 13 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 9 sınır · 127 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r9785** · `a7f5d0d` |
+| Yayın | **r9785** · `23821b0` |
 
 **Elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py` · `--yaz`
 (§1.5'i günceller). Güvenmeden önce koştur; bayat tabloyla kabul ölçütü kurulmaz.
