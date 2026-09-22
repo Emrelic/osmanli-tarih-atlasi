@@ -10202,6 +10202,13 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_p75a",        // window.EKOKUMA_P75A — EKOKUMA-KURUM-0075, M-4980 (12 kart)
   "ekokuma_p75b",        // window.EKOKUMA_P75B — EKOKUMA-SAVAS-0075, M-4979 (11 kart)
   "ekokuma_p75c",        // window.EKOKUMA_P75C — EKOKUMA-TOPLUM-0075, M-4982 (7 kart)
+  // 🔴 22 Eylül 2026 — yayın kapısı bu ikisini YETİM sayıyordu: dosya
+  // yazılmış (üçer kart, `node --check` temiz) ama hiçbir kapı okumuyordu.
+  // Yani kartlar diskte vardı, okuyucuya HİÇ ULAŞMIYORDU ve bunu yalnız
+  // `denetle_yayin.py` görüyordu. Yükleyici satırı olmayan veri, olmayan
+  // veriden ayırt edilemez (`§7` ad alanı kuralının öteki yüzü).
+  "ekokuma_isyan1821",   // window.EKOKUMA_ISYAN1821 — 1821 isyanları (3 kart)
+  "ekokuma_kolemen",     // window.EKOKUMA_KOLEMEN — Kölemen/Memlük (3 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
