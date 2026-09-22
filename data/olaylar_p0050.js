@@ -28,7 +28,7 @@ window.OLAYLAR_P0050 = [
 
 // ── Bihaç 1527 · ① Cetin seçimi ─────────────────────────────────────
 { t:"1527-01-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
-  b:"Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı Hırvatistan kralı seçti",
+  b:"Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı Hırvatistan kralı seçti", yer_id:"Cetin",
   gun:"1 Ocak 1527",
   yer:"Cetin (Cetingrad), Hırvatistan Krallığı ve Una-Kupa serhaddi",
   kisiler:"Avusturya Arşidükü I. Ferdinand",

@@ -381,7 +381,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
 { t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
-  b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı",
+  b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı", odak_yer:["Çatalca","Selanik"],
   gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
   kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
   d:"Osmanlı Şark Ordusu 23 Ekim 1912'de kendisinden üç kat kalabalık Bulgar ordusuna yenilerek İstanbul'un otuz kilometre batısındaki Çatalca hattına kadar çekildi; başşehir savaşın ilk ayında doğrudan tehdit altına girdi. Aynı günlerde Garp Ordusu 23-24 Ekim'de Kumanova'da Sırplar'a yenildi ve Tahsin Paşa 35.000 kişilik ordusuyla Selânik'te Yunanlılar'a teslim oldu. Bu bozgunlar üzerine 29 Ekim'de Gazi Ahmed Muhtar Paşa kabinesi istifa etti; Selânik'te sürgün hayatı süren II. Abdülhamid 1 Kasım'da İstanbul'a nakledildi. Çatalca hattı savaşın sonuna kadar tutuldu — Rumeli'nin beş yüz yıllık Osmanlı coğrafyası birkaç hafta içinde bu dar şeride indi.",

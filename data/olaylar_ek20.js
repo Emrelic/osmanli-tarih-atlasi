@@ -341,7 +341,7 @@ window.OLAYLAR_EK20 = [
 
 
 { t:"1648-10-24",
-  b:"Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü", kapsam_genis:true,
+  b:"Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü", yer_id:"Münster", kapsam_genis:true,
   tur:"antlasma",
   onem:2, dunya:5, kapsam:"dis",
   etiket:["siyaset","diplomasi","antlasma","konu-siyasi","konu-diplomasi"],

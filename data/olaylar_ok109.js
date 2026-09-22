@@ -77,7 +77,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-28", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
-    kapsam:"dis", onem:3, b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet", kapsam_genis:true,
+    kapsam:"dis", onem:3, b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet", odak_yer:["Prag","Bratislava","Kassa (Košice)"], kapsam_genis:true,
     gun: "28 Ekim 1918",
     yer: "Prag, Bratislava, Kassa (Košice)",
     kisiler: "Tomáš Masaryk",
@@ -87,7 +87,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-30", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
-    kapsam:"dis", onem:4, b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", odak_yer:["Viyana","Graz"], kapsam_genis:true,
     gun: "30 Ekim 1918",
     yer: "Viyana, Graz",
     kisiler: "İmparator Karl",
@@ -107,7 +107,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-03", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    kapsam:"dis", b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", kapsam_genis:true,
+    kapsam:"dis", b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", yer_id:"Padova", kapsam_genis:true,
     gun: "3 Kasım 1918",
     yer: "Padova (Villa Giusti), Trento, Trieste",
     kisiler: "İmparator Karl",
@@ -117,7 +117,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi", "konu-askeri", "konu-siyasi"],
-    kapsam:"dis", onem:4, b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", odak_yer:["Viyana","Budin","Prag","Zagreb","Belgrad","Varşova"], kapsam_genis:true,
     gun: "11 Kasım 1918",
     yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
     kisiler: "İmparator Karl",
@@ -137,7 +137,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-12-01", k: "kurulus", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
-    kapsam:"dis", onem:4, b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", odak_yer:["Belgrad","Zagreb","Saraybosna","Suçava (Suceava)","Çernovitz (Çernivtsi)"], kapsam_genis:true,
     gun: "1 Aralık 1918",
     yer: "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
     kisiler: "Karadordević hânedanı, I. Ferdinand",
@@ -207,7 +207,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", odak_yer:["Strazburg","Metz","Colmar","Mulhouse"], kapsam_genis:true,
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
     kisiler: "—",
@@ -218,7 +218,7 @@ window.OLAYLAR_OK109 = [
   {
     t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "konu-askeri", "konu-diplomasi"],
     ic_not_etiket: "toprak-kaybi KALDIRILDI (GEMINI-DOGRULA 0919): maddenin kendi metni haritadaki devrin Mayıs 1920'de olduğunu söylüyor (Dedeağaç 14, Gümülcine 27 Mayıs) — toprak kaybı o günlerin maddelerinde.",
-    kapsam:"dis", onem:4, b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", odak_yer:["Gümülcine","İskeçe","Dedeağaç (Alexandroupoli)","Sofya"], kapsam_genis:true,
     gun: "27 Kasım 1919",
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
     kisiler: "Çar Ferdinand, Boris",

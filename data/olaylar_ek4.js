@@ -273,7 +273,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"Kavalalı Mehmed Ali, Commodore Napier",
   d:"Mehmed Ali Suriye, Adana, Girit ve Hicaz'dan vazgeçmeyi, Osmanlı donanmasını iade etmeyi ve padişahın hâkimiyetini tanımayı kabul etti; karşılığında Mısır'ın irsî valiliği güvenceye alındı.",
   kaynak:"kavalali-mehmed-ali-pasa", duygu:["🤝"] },
-{ t:"1841-02-25", k:"kayip", etiket:["toprak-kayip","bilim","konu-askeri","konu-bilim"], b:"Mısır ordusu Suriye ve Çukurova'yı boşalttı", gun:"Şubat 1841", yer:"Suriye, Adana, Girit",
+{ t:"1841-02-25", k:"kayip", etiket:["toprak-kayip","bilim","konu-askeri","konu-bilim"], b:"Mısır ordusu Suriye ve Çukurova'yı boşalttı", odak_yer:["Halep","Gazze","Adana"], gun:"Şubat 1841", yer:"Suriye, Adana, Girit",
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Dokuz yıllık işgal sona erdi; İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü. Haritada Halep'ten Gazze'ye, Adana'dan Girit'e uzanan geniş kuşak yeniden doğrudan Osmanlı idaresine geçer. Aynı tarihte elden çıkan diğer yerleşimler: Urfa, Maraş, Tarsus, Antakya, Kandiye (Girit), Hama, Şam, Kudüs, Yafa, Nablus.",
   statu_dogrudan:["Hanya","İsfakiye (Sfakia)","Sitiye (Sitia)"],
