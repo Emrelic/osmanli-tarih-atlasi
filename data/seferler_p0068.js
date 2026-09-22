@@ -38,6 +38,9 @@ window.SEFERLER_P0068 = [
   tarih_hassasiyet:"f: GÜN (Toulon'dan çıkış) · Malta çıkarması 10 Haziran, teslimi 12 Haziran, ayrılış 18 Haziran · t: GÜN (Marabout koyuna çıkarma)",
   kaynak:"NAPO-2: \"19 MAI … Le gros de l'armée d'Orient … embarquent sur 150 bâtiments et quittent Toulon\" · \"10 JUIN … Les troupes françaises débarquent à Malte\" · \"12 JUIN … Capitulation de Malte\" · \"18 JUIN … La flotte quitte Malte\" · \"1er JUILLET … Débarquement des troupes françaises dans l'anse de Marabout près du port d'Alexandrie\" · malta (TDV): \"1798'de Napolyon … adayı ele geçirdi\"",
   kesinlik:"istasyonlar Toulon · Valletta · İskenderiye; öteki noktalar yalnız deniz geometrisi (Korsika Burnu'nun kuzeyi, Sardinya doğusu, Sicilya boğazı, Girit güneyi; ne_10m_land ile sınandı, karada kalan kısım yalnız liman uçları). Cenova ve Civitavecchia kolları çizilmedi",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033: bir bacak Sicilya boğazında karaya değiyordu
+  // (uçları zaten `ne_10m_land`e karşı sınanmıştı, tek bacak kaçmıştı); kara üstü ~0 km.
+  rota:[[5.92836,43.12442],[6,42.95],[7.5,42.85],[9.4,43.25],[9.9,42.6],[9.9,42.3],[10.3,40.8],[11.2,38.6],[12,37.2],[13.6,36.2],[14.365,36.095],[14.5148,35.89968],[18,35],[23.5,34.2],[27.5,32.4],[29.91582,31.20176]],
   yol:[[5.92836,43.12442],[6.0,42.95],[7.5,42.85],[9.4,43.25],[9.9,42.6],[9.9,42.3],[10.3,40.8],[11.2,38.6],[12.0,37.2],[13.6,36.2],[14.5148,35.89968],
        [18.0,35.0],[23.5,34.2],[27.5,32.4],[29.91582,31.20176]] },
 { id:"p0068-napolyon-iskenderiye-kahire-1798", ad:"Napolyon'un İskenderiye'den Kahire'ye yürüyüşü — Piramitler (1798)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"fransa-cumhuriyet", renk:"#09095a",

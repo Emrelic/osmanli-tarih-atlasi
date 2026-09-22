@@ -171,6 +171,11 @@ window.SEFERLER_OK103 = [
   { ad: "Osmanlı donanmasının Mora'dan Çeşme'ye çekilişi (1770)",
     tur: "cekilme", sonuc: "yenilgi",
     f: "1770-06-01", t: "1770-07-05",
+    // 🔴 `rota` — SEFER-OK-0075/H-0033: karayı kesen bacaklar (Sisam Boğazı
+    // civarı) yönlendirildi; kara üstü 46→0 km.
+    rota: [[22.8, 37.57], [23.145, 37.185], [23.47, 37.35], [24.42, 37.39], [24.94, 37.44],
+           [25.15, 37.08], [26.365, 37.845], [27.085, 37.845], [27.02, 37.75], [26.225, 38.095],
+           [25.865, 38.155], [25.775, 38.605], [26.165, 38.635], [26.42, 38.42]],
     yol: [[22.80, 37.57], [23.47, 37.35], [24.42, 37.39], [24.94, 37.44],
           [25.15, 37.08], [27.02, 37.75], [26.42, 38.42]],
     kaynak: "TDV \"ÇEŞME VAK'ASI\" — Rus donanması Anabolu ve Hydra açıklarında " +
@@ -184,6 +189,11 @@ window.SEFERLER_OK103 = [
   { ad: "Rus donanmasının takibi ve Çeşme baskını (1770)", tur: "deniz",
     sonuc: "zafer", taraf: "dusman", renk: "#1f5fa8",
     f: "1770-06-01", t: "1770-07-07",
+    // 🔴 `rota` — SEFER-OK-0075/H-0033 (bkz. üstteki "Mora'dan Çeşme'ye çekilişi"
+    // kaydındaki aynı not — iki ok aynı denizde, aynı bacakta); kara üstü 46→0 km.
+    rota: [[22.8, 37.57], [23.145, 37.185], [23.47, 37.35], [24.42, 37.39], [24.94, 37.44],
+           [25.15, 37.08], [26.365, 37.845], [27.085, 37.845], [27.02, 37.75], [26.225, 38.095],
+           [25.865, 38.155], [25.775, 38.605], [26.165, 38.635], [26.42, 38.42], [26.3, 38.32]],
     yol: [[22.80, 37.57], [23.47, 37.35], [24.42, 37.39], [24.94, 37.44],
           [25.15, 37.08], [27.02, 37.75], [26.42, 38.42], [26.30, 38.32]],
     kaynak: "TDV \"ÇEŞME VAK'ASI\" — \"1770 yılı başlarında Mora Rumları'nı " +

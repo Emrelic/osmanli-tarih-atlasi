@@ -35,6 +35,10 @@ window.SEFERLER_P0071 = [
   tarih_hassasiyet:"f: GÜN (Boğaz'dan geçiş — TDV) · t: GÜN (İstanbul önlerine geliş; kronoloji maddesi 1807-02-20). Donanmanın Ege'den yola çıkış günü ve 3 Mart'taki geri çekilişi OKUNAN KAYNAKTA YOK — ok yalnız Boğaz'dan İstanbul önüne kadar çizildi, çekiliş kolu ÇİZİLMEDİ.",
   kaynak:"canakkale-bogazi (TDV): \"Nitekim 1807 yılının 19 Şubatında bir İngiliz donanmasının Çanakkale Boğazı'ndan fazla bir zorlukla karşılaşmadan geçmesi\" · kronoloji maddesi (data/olaylar_ek5.js, 1807-02-20): \"İngiliz donanmasının İstanbul önlerine gelmesi (Duckworth harekâtı)\"",
   kesinlik:"İSTASYON yalnız iki uç: Çanakkale Boğazı ve İstanbul önü. Aradaki üç nokta YALNIZ DENİZ GEOMETRİSİDİR (Boğaz ekseni ve Marmara); kaynakta uğrak yeri adı geçmiyor. Rota Marmara'nın ortasından geçirildi ki ok karaya girmesin.",
+  // 🔴 `rota` — SEFER-OK-0075/H-0033: Boğaz'ın dar kesiminde (~1,3 km) `yol`ün ara
+  // noktaları karaya değiyordu; ne_10m_land'e karşı 0.01°'lik ızgarayla yeniden
+  // yönlendirildi (denetim/ARAC-SEFER-OK-DENIZ-ROTA-0075.py, 3 aşamalı çözünürlük).
+  rota:[[26.17,40.02],[26.409,40.147],[26.154,40.282],[26.304,40.462],[26.544,40.552],[26.68,40.42],[27.6,40.72],[28.9,40.87]],
   yol:[[26.17,40.02],[26.409,40.147],[26.68,40.42],[27.60,40.72],[28.90,40.87]] },
 
 // ═══ ② H-0007 — YURT İÇİ HAREKÂT OKLARI ══════════════════════════════════
