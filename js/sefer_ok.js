@@ -17,6 +17,10 @@
 //     bitti()                  sıradaki faza geç (çağrılmazsa 2400 ms tavan)
 //     ANIM yoksa               window.SEFER_OK_FAZ ile dışarıdan alınabilir
 //
+// 📌 0075 (SEFER-OK-0075): iki İSTEĞE BAĞLI alan eklendi, ikisi de app.js'te okunur
+//    ve `seferHat()` üzerinden bu dosyaya gelir — `kademe` (ok maddeden maddeye
+//    adım adım uzar; faz yalnız YENİ kademeyi ilerletir) ve `rota` (deniz oku
+//    kıyıyı dolanan çizim hattı). Alanı olmayan kayıt eskisi gibi davranır.
 // 🔴 YENİ VERİ ŞEMASI AÇILMADI, YENİ OK UYDURULMADI. Faz yalnız `window.
 //    SEFERLER*`ta ZATEN DURAN güzergâhları canlandırır; güzergâhı olmayan
 //    madde "ok yok" kovasına düşer ve false döner (ölçüm: denetim/
@@ -186,10 +190,23 @@
     // 🔴 KAVİSLİ HAT — 0073 H-0001. Durağan çizim `seferKavisliYol()` ile
     // eğriltilmiş hattı gösteriyor; animasyon düz hattı izleseydi ok, kendi
     // gövdesinin dışından yürürdü. Aynı fonksiyon, tek kaynak (app.js).
-    var yol = (typeof seferKavisliYol === "function")
-      ? (m._kavisli || (m._kavisli = seferKavisliYol(m.yol))) : m.yol;
+    // 🔴 0075 (H-0012 kademe · H-0033 deniz): hat artık `seferHat(m, gün)` —
+    // durağan çizimle AYNI fonksiyon. Kademeli okta hat, madde gününe kadar
+    // ulaşılan kademeyle biter ve animasyon YALNIZ YENİ kademeyi ilerletir
+    // (önceki kademe zaten ekranda duruyordu): p0 = önceki kademenin uzunluk oranı.
+    var gun = (o && o.gi !== undefined) ? o.gi : gunIdx(o.t);
+    var yol = (typeof seferHat === "function") ? seferHat(m, gun)
+            : (typeof seferKavisliYol === "function")
+              ? (m._kavisli || (m._kavisli = seferKavisliYol(m.yol))) : m.yol;
     var k = kumulatif(yol);
-    var sr = sure(k.top);
+    var p0 = 0;
+    if (m.kademe && typeof seferHat === "function") {
+      var onceki = seferHat(m, gun - 1);            // bir gün önceki hat
+      p0 = Math.min(1, kumulatif(onceki).top / Math.max(1e-9, k.top));
+      yol = seferHat(m, gun);                       // önbelleği bu güne geri al
+      if (p0 >= 0.999) return false;                // bu madde okta ilerleme değil
+    }
+    var sr = sure(k.top * (1 - p0));
     var kal = (window.HAREKET && HAREKET[m.tur] ? HAREKET[m.tur] : { kalinlik: 9 }).kalinlik;
     SEFER_ANIM_GIZLI[m.id] = true;
     try { seferGuncelle(suanki); } catch (e) { }   // durağan kopyayı hemen sustur
@@ -214,7 +231,7 @@
       var p = Math.max(0, Math.min(1, gecen / sr));
       // yumuşak giriş-çıkış: ordu ne bir anda fırlar ne de sona sert çarpar
       var e = p < 0.5 ? 2 * p * p : -1 + (4 - 2 * p) * p;
-      var ky = kismiYol(yol, k, e);
+      var ky = kismiYol(yol, k, p0 + (1 - p0) * e);
       ciz(ky, m.renk, kal);
       var son = ky[ky.length - 1], onceki = ky[ky.length - 2] || ky[0];
       mk.setLngLat(son);
