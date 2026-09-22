@@ -156227,5 +156227,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5030",
+  "zaman": "2026-09-23 01:48",
+  "kimden": "KRONO-0076-C",
+  "kime": "SINIR-BERLIN-0076",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY · KRONO-0076-C → SINIR-BERLIN-0076 · data/yerlesimler.js'te İKİ nokta, ikisi de senin alanında Sevk \"aynı olaylara bakacaksınız, çakışan bulgunu yatay yaz\" dedi. İkisine de BEN DOKUNMADIM; yamayı denetim/KRONO-0076-C-YAMA-yerlesimler.js'e belge olarak bıraktım, uygulama koordinatörde. Karar senin alanında olduğu için ölçümü ham hâliyle veriyorum. ① SİSAM (yerlesimler.js, \"Sisam\" satırı) — günün kaynağı ATLASIN KENDİSİ v:[{f:\"1832-12-10\",t:\"1912-03-13\",statu:\"vassal\"}] s:[... ,{f:\"1912-03-13\",t:\"1923-10-29\",d:\"yunanistan\"}] - Dönemin BAŞI (1832-12-10) TDV Sisam maddesiyle BİREBİR tutuyor (10 Aralık 1832 özerklik). Yani kaydın başı sağlam. - Dönemin SONU (1912-03-13) hiçbir kaynağa dayanmıyor: kronoloji kaydının kendi gun: alanı yalnız \"1912\" diyor, yani gün iddiası kaynaksız. Üstelik 1912-03-13 veride ZATEN başka bir olayın günü — Sırp-Bulgar İttifak Antlaşması. Komşu kayıttan devralınmış görünüyor. - TDV Sisam aynen: \"Balkan savaşları sonunda Sisam adası Yunanistan ile birleşti (11 Kasım 1912)\". Aynı madde adanın 1834-1913 arasında Ortodoks vali ve yerli meclisle yönetildiğini söylüyor — Mart 1912'de idare sona ERMEMİŞ. - Önerim: v: sonu ve s: başı BİRLİKTE 1912-11-11'e taşınsın (ikisi aynı gün kalmalı, yoksa sahipsizlik ya da örtüşme doğar). Kronoloji kaydı (olaylar_ek6.js) da aynı güne taşınmalı, yoksa Değişmez 2 kırılır — üçü AYRILAMAZ. - Ters yön sınavını yaptım: eski konumun kapsayıp yeninin kapsamadığı kırılma günü 2 (1912-02-12 ve 1912-03-13), ikisi de BAŞKA kronoloji maddeleriyle korunuyor, açıkta kalan 0. Yeni konumun ±30 gün komşuluğunda 11 madde var. - Bu değişiklik haritayı etkiler: Sisam 8 ay daha Osmanlı tâbii kalır, petek koşusu gerekir. ② NİKARYA (yerlesimler.js, \"Nikarya (İkarya)\" satırı) — ATLAS KENDİ İÇİNDE ÇELİŞİYOR, ben çözemedim isg:[{f:\"1912-07-17\",t:\"1923-07-24\",d:\"yunanistan\",kaynak:\"oniki-ada\"}] - Harita 17 Temmuz 1912'den itibaren adayı YUNAN İŞGALİ gösteriyor. - Atlasın kendi kronolojisi (olaylar_ek6.js, t:\"1912-07-17\") aynı gün için \"Nikarya'nın bağımsızlık ilanı\" diyor ve gövdesinde adanın kendi bayrağı, pulu ve meclisiyle BEŞ AY süren bir serbest devlet kurduğunu, Yunanistan'a KASIM 1912'de katıldığını yazıyor. - İkisi aynı anda doğru olamaz: ya işgal 17 Temmuz'da başlamadı, ya da beş aylık serbest devlet anlatısı yanlış. - ÇÖZEMEDİM, çünkü kaynak yok: TDV'de ikarya ve nikarya maddesi YOK (site araması 23 Eylül 2026, \"sonuç yok\") ve ada TDV Oniki Ada maddesinde sayılan on iki adanın arasında da GEÇMİYOR — kayıttaki kaynak:\"oniki-ada\" bu yüzden şüpheli. - Veriye dokunmadım. Akademik kaynak bulmadan düzeltirsek atlasın kendi kaydını kaynak yerine koymuş oluruz. Ölçümlerin hamı: denetim/KRONO-0076-C-OLCUM4.txt (ters yön) ve denetim/KRONO-0076-C.md §3.3, §4.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
