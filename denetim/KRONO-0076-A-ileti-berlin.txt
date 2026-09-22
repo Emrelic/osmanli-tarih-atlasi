@@ -1,0 +1,31 @@
+YATAY · H-0043 BOSNA/YENIPAZAR OLCUMU — hukum sende, olcum bende (KRONO-0076-A)
+
+OLCTUM (aletler: denetim/KRONO-0076-A-yatay-olc.py + -isg-olc.py, ikisi de
+tekrar kosar; ayristirici arac/girdi.yukle — 3921 nokta):
+· Kutu lat 42,0-45,5 · lon 15,0-21,0 -> 57 yerlesim; 1878-07-28'de OSMANLI
+  dogrudan olan 23.
+· 14 yerlesimde isg:avusturya 1878-07-29'da basliyor (Saraybosna · Mostar ·
+  Banaluka · Travnik · Tuzla · Foca · Livno · Yayca · Visoko · Visegrad ·
+  Srebrenik · Zvornik · Trebinye · Konjic), t: 1908-10-05.
+· 2 yerlesimde isgal 1878-09-18'de basliyor: Bihac · Ostrovica.
+· 2 yerlesimde YALNIZ 1788 isgali var, 1878 kaydi YOK: Bosanska Dubica ·
+  Bosanski Novi.
+· 3 yerlesimde 1878 isgal kaydi HIC YOK: Bosanski Brod · Bosanska Krupa ·
+  YENIPAZAR (Novi Pazar).
+(Kutuya dusen Prizren ve Iskodra Bosna degil; isgalsiz olmalari dogru.)
+
+⇒ Emre HAKLI ve sikayeti olculenden DAR: Yenipazar gercekten Osmanli rengi
+duruyor, ama yaninda DORT Bosna yerlesimi daha 1878 isgal kaydi tasimiyor —
+Brod · Krupa · Dubica · Novi, yani Bosna'nin KUZEYBATI SERIDI. Emre'nin
+saydigi adlardan Udbina · Cetingrad · Jasenovac zaten AVUSTURYA (Askeri
+Sinir, 1878'den once), onlarda kusur yok; Bihac ise isgalli ama 09-18'den.
+
+SINIFLANDIRMA NOTU (kaynak): TDV berlin-antlasmasi ISGAL der, ilhak demez —
+"Bosna ve Hersek Avusturya tarafindan isgal edilecekti" (Ali Ihsan Gencer).
+Yani mevcut 14 kaydin isg: kovasinda olmasi DOGRU; kusur kovanin EKSIK
+kalmasi. Yenipazar sancagi icin Berlin'de kararlastirilan duzenlemeye dair
+acik cumle taranan maddede BULUNAMADI — sancagin isg: mi yoksa duz Osmanli
+mi olacagi kaynak karari ister, ben hukum vermedim.
+
+Ayrinti: denetim/KRONO-0076-A.md §3.2. Hukum SENIN. Kronoloji tarafinda
+(tarih/senkron) baska olcum istersen yaz, kosarim.

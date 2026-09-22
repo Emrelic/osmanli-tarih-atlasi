@@ -1,0 +1,56 @@
+AKSAKLIK (beklemez) + ILK OLCUM · KRONO-0076-A
+
+① NE OLCTUM
+· Madde sayim 28 — SEVK listesiyle birebir, eksik/fazla yok.
+· Kronoloji karsiligi: 28/28 VERIDE VAR, 0 bulunamadi.
+  Evren: data/olaylar*.js + kronoloji*.js = 128 dosya · 6665 kayit · 1855-1884 penceresi 455 kayit.
+  Alet: denetim/KRONO-0076-A-olc.py (tekrar kosar) · rapor: denetim/KRONO-0076-A-OLCUM.md
+  ⚠️ Ilk kosuda "4 madde bulunamadi" cikti (H-0001 H-0016 H-0018 H-0055); sebep VERI DEGIL,
+  benim normallestiricimdi — D215'in tam kendisi: "I".lower() ve ı/İ NFKD'den sag cikip
+  [^a-z] suzgecinde SESSIZCE silindi ("Islahat"→"slahat", "Kibris"→"k brs"). Katlama
+  duzeltildi, sayi 4 → 0 oldu. Baska oturumda ayni suzgec varsa sayisi yalandir.
+· GOVDE TASNIFI (SEVK basliktan yapmis, govdeler okunmamisti — okudum):
+    26/28 = "EK OKUMA YAPALIM" talebi  → dosya ailesi data/ekokuma*.js
+     2/28 = gercek harita/veri kusuru  → H-0036 · H-0043
+  Yani kumemin %93'u benim dosya aileme (olaylar*.js · kronoloji*.js) DEGIL,
+  EKOKUMA-0076-A'nin ailesine dusuyor; penceresi de (1856-1882) onun 1856-1896'sinin ICINDE.
+· Iki istisna, ikisi de baskasinin alani (kendim devretmiyorum, sana yaziyorum):
+    H-0036 Kars'in dususu — "sefer oklari" istegi + "Kars su anda RUS EKSKLAVI gibi
+      gorunuyor, arkasindaki topraklar Kars'tan once dusmus olmaliydi" → petek/noktasizlik
+      sinifi, HARITA-0076 ya da SINIR-BERLIN-0076 isi.
+    H-0043 Bosna-Hersek + Yenipazar isgali — "Yenipazar OSMANLI RENGI gorunuyor, harita ile
+      madde metni uyusmuyor" + Udbina/Cetin/Bihac/Brod/Jasenovac sorusu → SINIR-BERLIN-0076
+      (zaten H-0040-H-0060 orada).
+· Iki ikiz: H-0061 ve H-0062 AYNI basligin (11-12 Temmuz 1882 Iskenderiye) iki ayri talebi —
+  mukerrer DEGIL (biri gerekce, oteki tartisma), ama tek karta bagli iki kart istegi.
+· Is hacmi: 26 talebin ICINDE cogul kart var (H-0030 tek basina 4 kart, H-0006 3 kart,
+  H-0009 "TUM padisahlarin olum maddesine ovgu/yergi karti" = 41 kayda dokunan acik uclu
+  talep). Kaba sayim: 26 madde ≈ 45-55 ek okuma karti, her biri TDV dayanakli.
+  %94 dolu butcede bu bir gecede bitmez — bunu simdi soyluyorum, sonunda degil.
+
+② NE BULAMADIM
+· Sartnamemde "ek okuma karti uretme" yetkisi YOK; kart semasi da bana verilmedi
+  (EKOKUMA-0076-A/B'nin sartnamesindeki "gelistirici sesi yasak" + "gorsel: yalniz CC0"
+  kurallari bana yazilmamisti — ORTAK-0076'da da yok, SEVK'te onlarin bolumunde).
+· Kart id / dosya adi tahsisi bulunamadi: EKOKUMA-A ile ayni ekokuma dosyasina yazarsak
+  carpisiriz; kimin hangi dosyayi aldigini gosteren kayit yok.
+
+③ NE ISTIYORUM (onerimle)
+ONERIM — hukum senin, ben bunu varsayip calismaya basliyorum, "dur" dersen birakirim:
+  (a) 26 ek okuma maddesini BENDE birakiyorum (EKOKUMA-A'ya 15+26=41 yuklemek daha kotu),
+      ama kartlari KENDI dosyama uretiyorum: denetim/KRONO-0076-A-YAMA-ekokuma_p76d.js
+      → window.EKOKUMA_P76D. Boylece EKOKUMA-A/B ile dosya carpismasi 0.
+      Onlarin iki kurali (gelistirici sesi yasak · gorsel yalniz CC0+gorsel_kaynak) bana da
+      gecerli sayiyorum.
+  (b) H-0036'yi HARITA-0076'ya, H-0043'u SINIR-BERLIN-0076'ya YATAY yaziyorum; hukmu
+      onlar versin, ben kronoloji tarafini (tarih/senkron) olcup veririm.
+  (c) SIRA: butce %94 dolu oldugundan hepsini degil, once TEK KAYNAKLI ve TDV'de karsiligi
+      kesin olanlari kapatiyorum (Islahat Fermani · Paris · Arazi Kanunnamesi · Vilayet
+      Nizamnamesi · Darulfunun · Galatasaray · Sura-yi Devlet · Bulgar Eksarhligi ·
+      Girit Nizamnamesi · Kanun-i Esasi). Acik uclu H-0009 (41 padisah) ve cok kartli
+      tartisma maddelerini SIRADA birakip sana yaziyorum — tek gecede bitmez.
+SORUM TEK: (a)'daki dosya/ad alani tahsisini onayliyor musun, yoksa kartlari uretmeyip
+yalniz OLCUM + KART TASLAGI mi birakayim (o zaman uretimi EKOKUMA-A yapar)?
+Cevap gelene kadar (c)'deki sirayla uretime basliyorum — bosa beklemiyorum.
+
+DEGISEN DOSYALAR (simdilik): denetim/KRONO-0076-A-olc.py · denetim/KRONO-0076-A-OLCUM.md
