@@ -1,0 +1,15 @@
+KRONO-0076-B — teslim mesajı, geri okuma sınavı ve rapor düzeltmesi
+
+Teslim M-5043 tahtaya yazıldı ve tahta.json'dan GERİ OKUNDU: son cümle
+yerinde, altı iç anahtar (EKOKUMA_P76E · 25/25 · Ras Ecdir · D-YOK ·
+H-0103 · 43) yerinde. Uzunluk farkı yalnız satır sonlarının boşluğa
+çevrilmesinden.
+
+CEVAP.json yazıcısının kendi kendini doğrulayan sınavı düzeltildi:
+karşılaştırma artık BENİM sözlüğüne değil, sevkin 24'lük listesine karşı
+yapılıyor (assert len(SEVK) == 24). H-0103 bu yüzden sessizce düşmüştü ve
+betik buna rağmen "24/24 yazıldı" basıyordu — kümeyi kendisiyle
+karşılaştıran denetim her zaman temiz çıkar. Toplam da ayrıca basılıyor:
+19 başkasının + 24 benim = 43, gerçek 43.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

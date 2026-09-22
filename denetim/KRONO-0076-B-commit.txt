@@ -1,0 +1,35 @@
+KRONO-0076-B teslim — 24 madde, 20 ek okuma kartı, 3 koşu isteyen küme
+
+parti-emrelic-0076'nın 1883-1909 kronoloji dilimi.
+
+ÖLÇÜLDÜ
+- 24/24 maddenin çapa kronoloji maddesi veride bulundu (450 dosya, 165.367 satır).
+- İkiz sınavı: H-0083/H-0084 mükerrer DEĞİL, iki ayrı yüz. H-0087/H-0088 başlık
+  ikiz ama H-0088 yanlış çapaya iliştirilmiş; gerçek çapa ölçülerek bulundu
+  (1894 İstanbul depremi) ve çapa değiştirildi.
+- H-0070: Mehdî devletinin 1884'te bitişik OLMAMASI ölçüldü; harita yanlış değil,
+  Tokar zaten enklav:true. Doğudaki ayaklanmanın yerel olduğu kaynaktan doğrulandı.
+
+ÜRETİLDİ
+- denetim/KRONO-0076-B-YAMA-ekokuma_p76e.js -> window.EKOKUMA_P76E, 20 kart.
+  25/25 çapa bağı gerçek kronoloji maddesine tutuyor; geliştirici sesi 0 ihlal.
+- denetim/KRONO-0076-B-dogrula.js — yama doğrulayıcı (node ile koşar, B9 sınavlı).
+
+KENDİ ÖLÇÜMÜM ÇÜRÜTÜLDÜ (üç kez, üçü de raporda)
+- "Eski Zağra yok" YANLIŞTI: ad parantezli ("Eski Zağra (Stara Zagora)").
+- "Gadames yok" YANLIŞTI: baş harf Ğ ("Ğadâmis").
+- CEVAP.json denetimi kendi sözlüğünü doğruluyordu ve H-0103'ün düştüğünü
+  göremedi; sınav artık sevk listesine karşı yapılıyor.
+
+KOŞU İSTEYEN
+- H-0081: Şarkî Rumeli'nin altı sancak merkezinden üçü yok (İslimye, Burgaz, Hasköy).
+- H-0103: Refah ve Taba noktaları yok, hat (d1906-filistin-misir-hidivlik) çizili.
+- H-0082/H-0087: Ras Ecdir noktası yok; 1886 ve 1892 için d_sinirlar kaydı sıfır.
+
+Kaynak: TDV İslâm Ansiklopedisi, 20 madde gövdesi okundu; dört slug tuzağı
+(habesistan, demiryolu, domeke-muharebesi, abdulhamid-ii) rapora yazıldı.
+Bulunamayanlar uydurulmadı, `bulunamadı` olarak kaydedildi.
+
+data/ · arac/ · js/ · index.html · css/ — dokunulmadı.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
