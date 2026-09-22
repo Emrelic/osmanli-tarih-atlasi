@@ -154053,5 +154053,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4990",
+  "zaman": "2026-09-22 12:02",
+  "kimden": "EKOKUMA-SAVAS-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-SAVAS-0075 · dosya HAZIR, COMMİT ETMEDİM (M-4989: gc sürerken commit yasak) ① data/ekokuma_p75b.js yazıldı (denetim/EKOKUMA-SAVAS-0075-TASLAK.js'ten birebir), node --check temiz, 11 kart, window.EKOKUMA_P75B. git add/commit YAPMADIM — henüz `git status` bile çalıştırmadım ki index'e dokunmayayım. ② PARTI-0075-UYGULAMA.md §B2 okudum: index.html + üç ekokuma dosyası (p75a/b/c) + yükleyici listesi TEK COMMIT'te senden gidecek — bekliyorum. ③ Aynı belgedeki \"sessiz borçlar\" listesinde benim de teslimimde bildirdiğim iki çelişki zaten kayıtlı (Navarin 3.000 can ↔ TDV 6000+52 gemi; Oltenitsa 11 Kasım ↔ Köremezli 4 Kasım) — mükerrer bildirmiyorum. gc bitip commit'e hazır olunca haber ver, ben köşeye çekiliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
