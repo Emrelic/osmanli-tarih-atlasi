@@ -1,5 +1,5 @@
 {
- "_damga": "2026-09-12 17:23",
+ "_damga": "2026-09-22 14:01",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -56,6 +56,15 @@
   "z": "2026-09-22 13:39"
  },
  "oturumlar": {
+  "local_00d519a0-1f9c-4c41-af03-8e39bba37c97": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 4",
+   "kimlik": "local_00d519a0-1f9c-4c41-af03-8e39bba37c97",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 4"
+   ]
+  },
   "local_01bec65d-b7a3-4814-a006-0e9a3128ab45": {
    "ad": "ÇAPRAZ AKDENİZ",
    "calisiyor": false,
@@ -403,6 +412,15 @@
    },
    "olcum_zamani": "2026-09-13 02:33"
   },
+  "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "NOKTA AMERIKA",
+   "kimlik": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "NOKTA AMERIKA"
+   ]
+  },
   "local_0aedd4a6-8a8b-4d74-afa4-5fe4d2dca791": {
    "ad": "PAKET-0019",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -428,7 +446,11 @@
     "sebep": "işini bitirdi ve 2878 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
     "z": "2026-09-14 10:20"
    },
-   "olcum_zamani": "2026-09-14 10:20"
+   "olcum_zamani": "2026-09-14 10:20",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 104"
+   ]
   },
   "local_0b78cb69-7491-41f7-a8fa-a79ea0c2f06e": {
    "ad": "Sonnet hazır kıta 1013",
@@ -476,7 +498,11 @@
     "sebep": "işini bitirdi ve 2179 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
     "z": "2026-09-15 03:51"
    },
-   "olcum_zamani": "2026-09-15 03:51"
+   "olcum_zamani": "2026-09-15 03:51",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 81"
+   ]
   },
   "local_0c7e432f-f2b7-4510-9480-e305634b10ac": {
    "ad": "KD-ZAMAN-0920 · Değişmez 3 zaman penceresi (Opus)",
@@ -550,7 +576,7 @@
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
    "sartname": "oturumlar/TUNA-HAVZASI.md",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "TUNA HAVZASI"
    ]
@@ -591,7 +617,9 @@
    "kimlik": "local_0de4b2d7-a2ce-4a61-934c-c4146f3f130b",
    "kova": "gorevde",
    "model": "opus",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
+    "1.MURAT",
     "1.MURAT HÜDAVENDİGAR (koordinatör)"
    ]
   },
@@ -723,6 +751,16 @@
     "z": "2026-09-22 13:39"
    },
    "olcum_zamani": "2026-09-22 13:39"
+  },
+  "local_112f01e7-2c44-4b0a-80ad-1539db253ee1": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KOSU13-YAMA",
+   "kimlik": "local_112f01e7-2c44-4b0a-80ad-1539db253ee1",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KOSU13-YAMA",
+    "OPUS HAZIR KITA 1010"
+   ]
   },
   "local_11bfc0ce-667a-4479-9934-6aa4cd2896df": {
    "ad": "Sonnet hazır kıta 1006",
@@ -960,6 +998,11 @@
     {
      "not": "MUKERRER BIRLESTIRILDI — dokum kimligi local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6 eritildi, kayit kimligi kaldi. get_session ile sinandi: dokum kimligi 'not found', yani mesaj gonderilemezdi. (HAZIR KITA 4)",
      "z": "2026-08-15 23:58"
+    },
+    {
+     "hal": "CALISIYORUM",
+     "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
+     "z": "2026-09-22 14:01"
     }
    ],
    "gorev": "atlas koordinatörü (model kendi beyanı)",
@@ -998,6 +1041,15 @@
     "z": "2026-09-05 01:12"
    },
    "olcum_zamani": "2026-09-05 01:12"
+  },
+  "local_19106e17-7807-4b0d-bf9d-ee54fdf38b56": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 122",
+   "kimlik": "local_19106e17-7807-4b0d-bf9d-ee54fdf38b56",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 122"
+   ]
   },
   "local_19c177b5-8999-462a-a7f8-02f2fe24194c": {
    "ad": "HALKA-SARI-0072 · kaynaklı sahiplik halkaları (Opus)",
@@ -1187,8 +1239,10 @@
    "kova": "gorevde",
    "model": "opus",
    "sartname": "oturumlar/KITA-8-B-ENGEL-ENKLAV.md",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "KADEME A İKİ HARİTA",
+    "KITA 8",
     "KITA 8 — B ENGEL TERİMİ",
     "KITA 8 — B ENGEL VE ENKLAV",
     "OPUS HAZIR KITA 403",
@@ -1264,6 +1318,15 @@
     "z": "2026-09-22 13:39"
    },
    "olcum_zamani": "2026-09-22 13:39"
+  },
+  "local_234a72e8-fd65-40c8-a4ea-bde6ae9474ea": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "ARAYUZ BOSLUK CINSI",
+   "kimlik": "local_234a72e8-fd65-40c8-a4ea-bde6ae9474ea",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "ARAYUZ BOSLUK CINSI"
+   ]
   },
   "local_234fe133-98d8-4739-8aa5-049d05a73b81": {
    "ad": "TDV TARİH TURU",
@@ -1389,6 +1452,25 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_27178a0d-064c-4ffa-ba46-472232765be0": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KITA 23",
+   "kimlik": "local_27178a0d-064c-4ffa-ba46-472232765be0",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KITA 23",
+    "SONNET HAZIR KITA 124"
+   ]
+  },
+  "local_2743e5ca-0b46-4f69-b60d-57f8ac0135a0": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 86",
+   "kimlik": "local_2743e5ca-0b46-4f69-b60d-57f8ac0135a0",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 86"
+   ]
+  },
   "local_280b824d-906f-4542-bd08-ec10fb7bc862": {
    "ad": "Dünya-Okyanusya bölge araştırması",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -1503,6 +1585,25 @@
     "z": "2026-09-19 10:48"
    },
    "olcum_zamani": "2026-09-19 10:48"
+  },
+  "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KOORDINATOR",
+   "gecmis": [
+    {
+     "hal": "CALISIYORUM",
+     "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
+     "z": "2026-09-22 14:01"
+    }
+   ],
+   "hal": "CALISIYORUM",
+   "hal_not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
+   "hal_zaman": "2026-08-14 07:36",
+   "kimlik": "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KOORDINATOR"
+   ]
   },
   "local_2cb2da04-ac09-48de-95e2-21df20edcec8": {
    "ad": "NOKTA HALKA-2 1",
@@ -1620,6 +1721,15 @@
    },
    "olcum_zamani": "2026-09-07 23:16"
   },
+  "local_315b3835-96d8-4d20-9fd5-77b5bcdf68ea": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KADEME-MODEL-0907",
+   "kimlik": "local_315b3835-96d8-4d20-9fd5-77b5bcdf68ea",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KADEME-MODEL-0907"
+   ]
+  },
   "local_322232bd-a54d-4f2d-b2d4-8b42740b23e6": {
    "ad": "Untitled session",
    "canli": "gorulmedi",
@@ -1715,7 +1825,7 @@
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
    "sartname": "-  🔴 DOSYA YOK",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "son_hareket": "2026-08-14T04:40:01.902Z",
    "takma_adlar": [
     "Sonnet hazir kita 3",
@@ -1985,6 +2095,16 @@
    },
    "olcum_zamani": "2026-09-19 10:48"
   },
+  "local_372203f2-6e71-46d2-af5e-563a5c7eca60": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "1923 SINIRLARI",
+   "kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "1923 SINIRLARI",
+    "SONNET HAZIR KITA 126"
+   ]
+  },
   "local_38a03708-3f3d-4395-a229-218b7a42bf33": {
    "acilis": "2026-08-15 00:39",
    "ad": "ARAŞTIRMA ANADOLU",
@@ -2192,6 +2312,16 @@
     "z": "2026-09-21 09:21"
    },
    "olcum_zamani": "2026-09-21 09:21"
+  },
+  "local_3fc67368-5263-46af-b864-e44a9ecf0d2c": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "YAPI DENETIM 3",
+   "kimlik": "local_3fc67368-5263-46af-b864-e44a9ecf0d2c",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "YAPI DENETIM 3",
+    "YAPI DENETİM 3"
+   ]
   },
   "local_40073a3a-d995-488d-99a2-c8147d38e597": {
    "ad": "EKOKUMA-0907",
@@ -2410,7 +2540,7 @@
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "?",
    "sartname": "oturumlar/KORIDOR-SEMA.md",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "KORIDOR SEMA"
    ]
@@ -2648,6 +2778,16 @@
    },
    "olcum_zamani": "2026-09-19 09:14"
   },
+  "local_4c91797a-ddc3-4c07-b08e-fead3ee98b40": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KITA 22",
+   "kimlik": "local_4c91797a-ddc3-4c07-b08e-fead3ee98b40",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KITA 22",
+    "OPUS HAZIR KITA 123"
+   ]
+  },
   "local_4cb3d3a4-5700-4ae3-8a92-70fc067ed2e5": {
    "ad": "MOTOR",
    "canli": "gorulmedi",
@@ -2735,7 +2875,11 @@
     "sebep": "işini bitirdi ve 2870 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
     "z": "2026-09-14 08:50"
    },
-   "olcum_zamani": "2026-09-14 08:50"
+   "olcum_zamani": "2026-09-14 08:50",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 8"
+   ]
   },
   "local_4ec0f279-0a51-4b2c-9025-486a90eb7df4": {
    "ad": "SAFEVÎ KRONOLOJİ",
@@ -3153,7 +3297,13 @@
     "sebep": "36.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 279 K",
     "z": "2026-09-15 03:51"
    },
-   "olcum_zamani": "2026-09-15 03:51"
+   "olcum_zamani": "2026-09-15 03:51",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "AKKOYUNLU-KARAKOYUNLU KRONOLOJİ",
+    "ALTIN ORDA KRONOLOJİ",
+    "OPUS HAZIR KITA 34"
+   ]
   },
   "local_58eeee1a-56a6-4f75-a0b3-a29a061d364c": {
    "ad": "MOTOR-SINAV · artımlı motor sınavı (Opus)",
@@ -3175,6 +3325,16 @@
     "z": "2026-09-21 10:51"
    },
    "olcum_zamani": "2026-09-21 10:51"
+  },
+  "local_59082ac8-7538-4def-9a53-34ccf504abfd": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KITA 12",
+   "kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KITA 12",
+    "PARALEL UYGULAMA"
+   ]
   },
   "local_594b8937-d1b9-4f10-b8dd-ba9e60dc4bc3": {
    "ad": "PROTOKOL-BUDAMA / UYGULA-4 (Opus) ✓",
@@ -3454,6 +3614,16 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "NEHIR SURTUNME",
+   "kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "NEHIR SURTUNME",
+    "OPUS HAZIR KITA 128"
+   ]
+  },
   "local_5fb75f0d-3ffa-43c7-905d-fcd869e821d0": {
    "ad": "GÜRCİSTAN KRONOLOJİ",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -3567,6 +3737,16 @@
     "z": "2026-09-22 13:39"
    },
    "olcum_zamani": "2026-09-22 13:39"
+  },
+  "local_60068fa9-3df9-465e-a7d0-23b624ec1cb9": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "D2-KOMSU",
+   "kimlik": "local_60068fa9-3df9-465e-a7d0-23b624ec1cb9",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "D2-KOMSU",
+    "OPUS HAZIR KITA 1000"
+   ]
   },
   "local_6006f1c6-07c3-4aa1-be36-509f7c360ca4": {
    "ad": "RENK",
@@ -3962,6 +4142,16 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 1015",
+   "kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 1015",
+    "UYGULA-4"
+   ]
+  },
   "local_6be62b72-c034-437c-a146-7a411604c99a": {
    "ad": "KRONOLOJİ DOĞU-ARAP (eski: SONNET HAZIR KITA 64)",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -4204,6 +4394,15 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_723a9a44-c39b-4097-b285-fb645a628779": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "SINIR-GAFRIKA-0907",
+   "kimlik": "local_723a9a44-c39b-4097-b285-fb645a628779",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "SINIR-GAFRIKA-0907"
+   ]
+  },
   "local_72c1bfb0-35f0-443a-aabd-1f5ccbc38b30": {
    "ad": "Dünya-Afrika-0903 koordinatör oturumu",
    "canli": "acik-durmuyor",
@@ -4310,6 +4509,15 @@
    "takma_adlar": [
     "Sonnet hazir kita oturumu A",
     "VERİ UFAK DÜZELTME"
+   ]
+  },
+  "local_7449dd23-8e55-4452-a6fe-6460309e6d55": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "PAKET-0037",
+   "kimlik": "local_7449dd23-8e55-4452-a6fe-6460309e6d55",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "PAKET-0037"
    ]
   },
   "local_755efad5-c73b-47c9-81aa-ce7663129866": {
@@ -4534,6 +4742,15 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_7f777a38-b979-41db-a229-c2a63f433c5a": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 106",
+   "kimlik": "local_7f777a38-b979-41db-a229-c2a63f433c5a",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 106"
+   ]
+  },
   "local_7fa88b00-aef1-4777-80ac-b33685bed41f": {
    "ad": "EKO-TARTISMA (Opus) ✓",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -4639,7 +4856,11 @@
     "sebep": "35.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 777 K",
     "z": "2026-09-07 23:16"
    },
-   "olcum_zamani": "2026-09-07 23:16"
+   "olcum_zamani": "2026-09-07 23:16",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 52"
+   ]
   },
   "local_88f1283e-1768-4c25-9ac6-2fbc27182171": {
    "ad": "SEFER-1768 · sefer okları (Opus) ✓",
@@ -4799,7 +5020,7 @@
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
    "sartname": "oturumlar/KRONOLOJI-YER.md",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "son_hareket": "2026-08-14T04:52:50.822Z",
    "takma_adlar": [
     "KRONOLOJI YER",
@@ -4832,7 +5053,12 @@
     "sebep": "işini bitirdi ve 1628 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
     "z": "2026-09-22 13:39"
    },
-   "olcum_zamani": "2026-09-22 13:39"
+   "olcum_zamani": "2026-09-22 13:39",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "FABLE HAZIR KITA 101",
+    "PAKET-0037"
+   ]
   },
   "local_8ebb563d-dd6b-4be2-87b7-4a9d68453440": {
    "ad": "(başlıksız)",
@@ -5179,8 +5405,10 @@
    "kimlik": "local_93b9dc8e-64d4-4c3b-b47f-efac73d23a68",
    "kova": "gorevde",
    "not": "kronoloji dolumu 0904 · yama denetim/KRONOLOJI-*.json",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
-    "KRONOLOJİ GÜNEY AMERİKA"
+    "KRONOLOJİ GÜNEY AMERİKA",
+    "OPUS HAZIR KITA 126"
    ]
   },
   "local_9436417d-cb81-45e9-a909-d63448b9cc1e": {
@@ -5475,6 +5703,16 @@
    },
    "olcum_zamani": "2026-09-07 23:16"
   },
+  "local_9927df76-31b4-41c3-92a0-d0ac098c3979": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KURE GORUNUM",
+   "kimlik": "local_9927df76-31b4-41c3-92a0-d0ac098c3979",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KURE GORUNUM",
+    "OPUS HAZIR KITA 120"
+   ]
+  },
   "local_99966685-2b15-4d2e-9733-ed160279a00a": {
    "ad": "DENETIM-YER-0920 · 2s yer/taraf kapısı (Opus)",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -5672,7 +5910,7 @@
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
    "sartname": "-  🔴 DOSYA YOK",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "son_hareket": "2026-08-14T04:55:36.320Z",
    "takma_adlar": [
     "HAZIR KITA 2 SONNET",
@@ -5864,7 +6102,13 @@
     "sebep": "işini bitirdi ve 2179 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
     "z": "2026-09-15 03:51"
    },
-   "olcum_zamani": "2026-09-15 03:51"
+   "olcum_zamani": "2026-09-15 03:51",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "IRAN ARDILLARI KRONOLOJI",
+    "MACARISTAN SERHAT ARASTIRMA",
+    "OPUS HAZIR KITA 50"
+   ]
   },
   "local_a16e387b-a4f3-464a-991a-2ead397dbf12": {
    "ad": "D1923-CIZGI-0920 · 1923 sınır çizgileri (Opus)",
@@ -6038,6 +6282,25 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_a47030ee-0798-4cf1-a52f-631101059ead": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 102",
+   "kimlik": "local_a47030ee-0798-4cf1-a52f-631101059ead",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 102"
+   ]
+  },
+  "local_a5091688-11f4-4a72-bd28-77d6570ed1ab": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "D3-AVRUPA-ORTA",
+   "kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "D3-AVRUPA-ORTA",
+    "OPUS HAZIR KITA 1002"
+   ]
+  },
   "local_a6016e23-a53e-464e-be25-7b550a49a741": {
    "acilis": "2026-08-15 00:39",
    "ad": "ÖLÇÜM GEOMETRİ",
@@ -6077,7 +6340,12 @@
     "sebep": "işini bitirdi ve 2876 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
     "z": "2026-09-04 20:43"
    },
-   "olcum_zamani": "2026-09-04 20:43"
+   "olcum_zamani": "2026-09-04 20:43",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OSMAN GAZI",
+    "PAKET 0019 TASNIF"
+   ]
   },
   "local_a6c8fdea-6bf4-4c15-ab9d-7d1d6b8572e2": {
    "ad": "Sonnet hazır kıta 7",
@@ -6144,6 +6412,17 @@
     "Opus Hazır Kıta (11 Agu b)"
    ]
   },
+  "local_a7692d4b-6114-4133-b7fc-3fe6b1853fee": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "GECIS-SURE-0907",
+   "kimlik": "local_a7692d4b-6114-4133-b7fc-3fe6b1853fee",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "GECIS-SURE-0907",
+    "OPUS HAZIR KITA 124",
+    "YUK-FETCH-0907"
+   ]
+  },
   "local_a8053e9a-8f4b-422d-9c58-d19e7549ff25": {
    "ad": "Opus hazır kita",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -6164,6 +6443,15 @@
     "z": "2026-09-13 02:33"
    },
    "olcum_zamani": "2026-09-13 02:33"
+  },
+  "local_a98266dd-82d1-485e-be14-d71ed9567f96": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 81",
+   "kimlik": "local_a98266dd-82d1-485e-be14-d71ed9567f96",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 81"
+   ]
   },
   "local_a9a58206-be09-4420-8c7b-20a3c18b9a84": {
    "ad": "SINIR-DIS-0070 · sınır dişleri (Opus)",
@@ -6206,6 +6494,18 @@
     "z": "2026-09-21 04:09"
    },
    "olcum_zamani": "2026-09-21 04:09"
+  },
+  "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "1DUNYA-A",
+   "kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "1DUNYA-A",
+    "KOSU10-KALAN",
+    "NOKTA-AMERIKA",
+    "OPUS HAZIR KITA 1006"
+   ]
   },
   "local_aad2319d-4e01-4a50-9bb8-cad283c130aa": {
    "ad": "Sonnet hazır kıta 1010",
@@ -6258,7 +6558,7 @@
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
    "sartname": "-  🔴 DOSYA YOK",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "OPUS HAZIR KITA 7",
     "TUNA HAVZASI"
@@ -6503,6 +6803,7 @@
    "kimlik_uzayi": "dokum",
    "kova": "hazir-kita",
    "model": "opus",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "OPUS HAZIR KITA 5"
    ]
@@ -6735,8 +7036,12 @@
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
+   "son_gorulme": "2026-09-22 14:01",
    "son_hareket": "2026-08-12T22:13:30.581Z",
    "takma_adlar": [
+    "MOTOR EPOK",
+    "MOTOR PUANLAMA",
+    "OPUS HAZIR KITA 4",
     "Opus hazır kıta 4"
    ]
   },
@@ -6966,6 +7271,15 @@
    },
    "olcum_zamani": "2026-09-22 13:39"
   },
+  "local_c16540f4-bfe7-43d1-81b1-2fa19e09166b": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "SONNET HAZIR KITA 123",
+   "kimlik": "local_c16540f4-bfe7-43d1-81b1-2fa19e09166b",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "SONNET HAZIR KITA 123"
+   ]
+  },
   "local_c180fcba-a21d-4ff8-99ce-926f73860c47": {
    "ad": "EKO-YENICERI-0073 · Vak'a-i Hayriyye ve sonrası (Opus)",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -7088,6 +7402,16 @@
    "takma_adlar": [
     "Opus Hazır Kıta",
     "Opus Hazır Kıta (11 Agu)"
+   ]
+  },
+  "local_c4d402ba-c8c9-41b1-a980-36825669d135": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KUNYE-TARAF",
+   "kimlik": "local_c4d402ba-c8c9-41b1-a980-36825669d135",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KUNYE-TARAF",
+    "OPUS HAZIR KITA 1009"
    ]
   },
   "local_c69f1fa6-bb6d-4e46-8e63-5c1f0ef18f7f": {
@@ -7416,6 +7740,15 @@
    },
    "olcum_zamani": "2026-09-20 18:58"
   },
+  "local_cddd7c9e-7738-4140-ab7e-accb23228860": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "Sonnet hazir kita 3",
+   "kimlik": "local_cddd7c9e-7738-4140-ab7e-accb23228860",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "Sonnet hazir kita 3"
+   ]
+  },
   "local_cdfe43de-666e-44c4-86c0-0c13bc454cd2": {
    "ad": "KAYNAK-DOGRULA · kaynak denetimi (Opus) ✓",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -7576,7 +7909,7 @@
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
    "sartname": "-  🔴 DOSYA YOK",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "OPUS HAZIR KITA 2"
    ]
@@ -7842,6 +8175,16 @@
    },
    "olcum_zamani": "2026-09-09 04:51"
   },
+  "local_d8e01cdf-5fb0-469b-acea-986908c56c65": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KITA 28",
+   "kimlik": "local_d8e01cdf-5fb0-469b-acea-986908c56c65",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KITA 28",
+    "SONNET HAZIR KITA 128"
+   ]
+  },
   "local_da2a9ec8-4560-4d14-95de-244fe0c2ad88": {
    "ad": "EKO-PADISAH proje oturumu",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -7929,9 +8272,11 @@
    },
    "olcum_zamani": "2026-09-15 03:51",
    "sartname": "-  🔴 DOSYA YOK",
-   "son_gorulme": "2026-08-15 00:25",
+   "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "HAZIR KITA 6",
+    "NOKTA MENZİL",
+    "NOKTA SİBİRYA 2",
     "Opus hazır kıta 6"
    ]
   },
@@ -8177,6 +8522,18 @@
    },
    "olcum_zamani": "2026-09-05 01:12"
   },
+  "local_e31ac3a3-104f-46d6-8ada-400fd2051095": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "HABSBURG KRONOLOJI",
+   "kimlik": "local_e31ac3a3-104f-46d6-8ada-400fd2051095",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "HABSBURG KRONOLOJI",
+    "HOLLANDA KRONOLOJI",
+    "KARADENIZ BOZKIRI",
+    "OPUS HAZIR KITA 31"
+   ]
+  },
   "local_e32412eb-9197-4f7a-aeea-56b0c2082094": {
    "ad": "Sonnet hazır kıta 5",
    "calisiyor": false,
@@ -8245,6 +8602,16 @@
     "z": "2026-09-13 02:33"
    },
    "olcum_zamani": "2026-09-13 02:33"
+  },
+  "local_e5665449-529a-4602-964d-231f4d9af0ba": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "EKO-ALEMDAR",
+   "kimlik": "local_e5665449-529a-4602-964d-231f4d9af0ba",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "EKO-ALEMDAR",
+    "OPUS HAZIR KITA 2009 1709"
+   ]
   },
   "local_e5b7d25a-67e3-403b-913b-edfe4d1723a6": {
    "ad": "D4-AFRIKA · 1923 sınırları (Sonnet)",
@@ -8337,6 +8704,17 @@
     "z": "2026-09-16 17:55"
    },
    "olcum_zamani": "2026-09-16 17:55"
+  },
+  "local_ed4a74f2-ba3e-42c6-9644-a6f6cc1b230a": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "KORFEZ 1602",
+   "kimlik": "local_ed4a74f2-ba3e-42c6-9644-a6f6cc1b230a",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "KORFEZ 1602",
+    "OSMANGAZI",
+    "RUSYA KRONOLOJI"
+   ]
   },
   "local_eebc127e-6d3d-4384-86b1-a73dcc7538b5": {
    "ad": "Sonnet hazır kıta 1012",
@@ -8446,6 +8824,18 @@
    },
    "olcum_zamani": "2026-09-15 03:51"
   },
+  "local_f24e6f99-9e0c-4bed-8469-0cd55cd16cd4": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "EVREN DOĞRULAMA",
+   "kimlik": "local_f24e6f99-9e0c-4bed-8469-0cd55cd16cd4",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "EVREN DOĞRULAMA",
+    "KRONOLOJİ ŞEMASI",
+    "OSMANGAZI",
+    "SONNET HAZIR KITA 31"
+   ]
+  },
   "local_f2be3dbd-b2d8-422a-84d8-ed6b0aeeccbd": {
    "ad": "PAKET-0002-0025",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -8514,6 +8904,15 @@
     "z": "2026-09-19 10:48"
    },
    "olcum_zamani": "2026-09-19 10:48"
+  },
+  "local_f4d2e275-19d0-4b56-ad08-4240580687b5": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 2",
+   "kimlik": "local_f4d2e275-19d0-4b56-ad08-4240580687b5",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 2"
+   ]
   },
   "local_f56ed517-cad0-435b-8a06-fe0b0b164fee": {
    "ad": "VERİ-KİŞİ",
@@ -8716,7 +9115,12 @@
     "sebep": "iş bitmedi ama bağlam 382 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
     "z": "2026-09-05 00:45"
    },
-   "olcum_zamani": "2026-09-05 00:45"
+   "olcum_zamani": "2026-09-05 00:45",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "GÜNEY ASYA KRONOLOJİ",
+    "SONNET HAZIR KITA 79"
+   ]
   },
   "local_fa3ae48f-9cf3-43ac-93d7-ad6146603386": {
    "ad": "GORSEL-0907",
@@ -8744,6 +9148,16 @@
     "z": "2026-09-09 04:51"
    },
    "olcum_zamani": "2026-09-09 04:51"
+  },
+  "local_fa65e5d5-3ee3-47af-872c-14912e60d513": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 36",
+   "kimlik": "local_fa65e5d5-3ee3-47af-872c-14912e60d513",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 36",
+    "PAKET SIRADA"
+   ]
   },
   "local_fa6d7b48-2d0f-4a2d-8e70-b85ea26f832b": {
    "ad": "SINIR-ARAP-0907",
@@ -8809,6 +9223,15 @@
     "z": "2026-09-21 01:39"
    },
    "olcum_zamani": "2026-09-21 01:39"
+  },
+  "local_fe942ee1-5107-4075-8242-0e1a199e7709": {
+   "acilis": "2026-09-22 14:01",
+   "ad": "OPUS HAZIR KITA 107",
+   "kimlik": "local_fe942ee1-5107-4075-8242-0e1a199e7709",
+   "son_gorulme": "2026-09-22 14:01",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 107"
+   ]
   },
   "local_ff3eaa1e-ace8-478a-b6d6-9f20a1c0a448": {
    "ad": "EKO-ISYAN-0072 · Sırp anlatısı + Fenerliler (Opus)",

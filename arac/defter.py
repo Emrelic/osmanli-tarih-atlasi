@@ -143,8 +143,50 @@ def _yukle():
     return d
 
 
-def _kaydet(d):
+# 🔴 OYNAK ALANLAR — "ölçüm ne zaman yapıldı"ı söylerler, "ne ölçüldü"yü
+#    DEĞİL. Defter her okunduğunda yenilenirler ve TEK BAŞLARINA 268
+#    satırlık bir fark üretirler.
+#    Ölçüldü (22 Eylül 2026): `git diff` 268 ekleme / 268 silme gösterdi
+#    ve farkın TAMAMI `z` · `bosta_dk` · `olcum_zamani` idi. Yani defteri
+#    OKUMAK ağacı KİRLETİYORDU.
+#    ⇒ Zararı "dağınıklık" değil: ağaç sürekli kirli olduğu için
+#      ① `git status` her turda gürültü basıyor, ② taşıma/yayın gibi
+#      "ağaç temiz olmalı" kapıları hiç geçilemiyor, ③ iki makine
+#      arasında sürekli sahte çakışma doğuyor — boşta duran makine,
+#      karar veren makineyi EZİYOR.
+_OYNAK_UST   = ("_damga", "_olcum")
+_OYNAK_KAYIT = ("olcum_zamani", "bosta_dk", "calisiyor", "son_hareket",
+                "canli", "canli_zaman")
+
+
+def _ozsel(d):
+    """Defterin ÖZSEL yüzü: oynak alanlar çıkarılmış kopyası.
+    İki ölçüm arasında bu değişmediyse dosyaya yazmaya değmez."""
+    k = {a: b for a, b in d.items() if a not in _OYNAK_UST}
+    k["oturumlar"] = {
+        kim: {a: b for a, b in kayit.items() if a not in _OYNAK_KAYIT}
+        for kim, kayit in (d.get("oturumlar") or {}).items()}
+    return json.dumps(k, ensure_ascii=False, indent=1, sort_keys=True)
+
+
+def _kaydet(d, zorla=False):
+    """
+    🟢 DEĞİŞMEDİYSE YAZMA. `zorla=True` yalnız gerçek bir hüküm
+    (hal/kova/not/ad değişimi) yazılırken geçilir.
+    ⚠️ Oynak alanlar SİLİNMİYOR — bellekte ve dosyada duruyorlar, yalnız
+    TEK BAŞLARINA bir yazma SEBEBİ sayılmıyorlar. Silseydik "bu oturum
+    ne kadardır boşta" sorusu cevapsız kalırdı; o bilgi gerçek ve işe
+    yarıyor, sadece her dakika commit'lenmesi gerekmiyor.
+    """
     os.makedirs(DIZIN, exist_ok=True)
+    if not zorla and os.path.exists(VERI):
+        try:
+            eski = json.load(io.open(VERI, encoding="utf-8"))
+            if _ozsel(eski) == _ozsel(d):
+                _gorunum(d)        # görünüm yine de tazelenir (o da özsel)
+                return False
+        except Exception:
+            pass                   # okunamadıysa normal yazmaya düş
     # 🔴 SÖZLÜK DE DOSYAYA YAZILIR — okuyan onu KOPYALAMASIN diye.
     # Vaka (8 Ağustos): aynı beyan iki yerde durdu, biri güncellendi öteki
     # bayatladı. Kutu GUI'si hâl sözlüğünü buradan okur; kendi kopyasını
@@ -404,7 +446,7 @@ def kaydet(a):
         k["kova"] = a["kova"]
     if a.get("ad"):
         k["takma_adlar"] = sorted(set(k.get("takma_adlar") or []) | {a["ad"]})
-    _kaydet(d)
+    _kaydet(d, zorla=True)   # elle verilmis HUKUM - her halde yazilir
     print("✓ %s → %s" % (kimlik, k.get("ad")))
     return 0
 
@@ -493,7 +535,7 @@ def hal(anahtar, yeni, notu=""):
     kimlik, k = b[0]
     _gecmise_yaz(k, "hal", yeni.upper(), notu)
     k["hal"], k["hal_zaman"], k["hal_not"] = yeni.upper(), _simdi(), notu
-    _kaydet(d)
+    _kaydet(d, zorla=True)   # hal degisimi HUKUMDUR - her halde yazilir
     print("✓ %s → %s %s  %s" % (k.get("ad"), HALLER[yeni.upper()][0], yeni.upper(), notu))
     return 0
 
@@ -519,7 +561,7 @@ def hedef(a):
     d = _yukle()
     if a.get("model") and a.get("sayi"):
         d.setdefault("_hedef", {})[a["model"]] = int(a["sayi"])
-        _kaydet(d)
+        _kaydet(d, zorla=True)   # hedef degisimi HUKUMDUR
         print("✓ hedef: %s = %s" % (a["model"], a["sayi"]))
     hd = d.get("_hedef") or {}
     if not hd:
