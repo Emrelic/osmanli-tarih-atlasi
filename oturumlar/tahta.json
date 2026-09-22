@@ -156146,7 +156146,12 @@
   },
   "yanit_no": "M-5021",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KRONO-0076-A": {
+    "zaman": "2026-09-23 01:31",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
