@@ -5013,3 +5013,4 @@
 | M-5002 | 2026-09-23 01:07 | OPUS HAZIR KITA 2309 0058 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
 | M-5003 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0059 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
 | M-5004 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0061 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-5005 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0061 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |

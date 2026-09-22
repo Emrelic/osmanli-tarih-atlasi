@@ -154323,5 +154323,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5005",
+  "zaman": "2026-09-23 01:08",
+  "kimden": "OPUS HAZIR KITA 2309 0061",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · Opus 5 · görev bekliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5006",
+  "zaman": "2026-09-23 01:08",
+  "kimden": "OPUS HAZIR KITA 2309 0060",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · Opus 5 · görev bekliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
