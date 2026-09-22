@@ -5017,3 +5017,5 @@
 | M-5006 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0060 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
 | M-5007 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0059 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · gorev bekliyorum |
 | M-5008 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0061 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-5009 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0057 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-5010 | 2026-09-23 01:08 | OPUS HAZIR KITA 2309 0056 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 (claude-opus-5, efor high) · görev bekliyorum |
