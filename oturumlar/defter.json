@@ -52,8 +52,8 @@
  ],
  "_olcum": {
   "kaynak": "kutu/emeklilik.py",
-  "kosan": 61,
-  "z": "2026-09-22 14:29"
+  "kosan": 60,
+  "z": "2026-09-22 15:39"
  },
  "oturumlar": {
   "local_00d519a0-1f9c-4c41-af03-8e39bba37c97": {
@@ -165,14 +165,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 0,
-    "bosta_dk": 2388,
+    "bosta_dk": 2458,
     "hukum": "⚠️ ROL BİLİNMİYOR",
     "istek": 553,
     "rol": "bilinmiyor",
     "sebep": "başlık '(başlıksız)' sözlükte yok — hüküm verilmedi, UYDURULMADI",
-    "z": "2026-09-22 14:29"
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_0497ed51-ee02-4125-8918-e740f8d57d19": {
    "ad": "Sonnet hazır kıta 4",
@@ -516,14 +516,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 626796,
-    "bosta_dk": 1314,
+    "bosta_dk": 1385,
     "hukum": "🟡 SESSİZ",
     "istek": 534,
     "rol": "isci",
-    "sebep": "21.9 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 627 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "23.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 627 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_0cd36acb-39b5-4fb4-80a6-3d08db160713": {
    "ad": "EKO-YUNAN-0072 · Yunan isyanı + filhelenizm (Opus)",
@@ -537,14 +537,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 223270,
-    "bosta_dk": 2619,
+    "bosta_dk": 2690,
     "hukum": "🟡 SESSİZ",
     "istek": 144,
     "rol": "isci",
-    "sebep": "43.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 223 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.8 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 223 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d": {
    "ad": "TUNA HAVZASI",
@@ -677,14 +677,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 261543,
-    "bosta_dk": 2232,
+    "bosta_dk": 2302,
     "hukum": "🟡 SESSİZ",
     "istek": 201,
     "rol": "isci",
-    "sebep": "37.2 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 262 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "38.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 262 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_0f9c3bd9-eee8-4043-ad6c-53e3f7cf7832": {
    "ad": "MOTOR ENKLAV",
@@ -743,14 +743,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 458497,
-    "bosta_dk": 2490,
+    "bosta_dk": 2560,
     "hukum": "🟡 SESSİZ",
     "istek": 421,
     "rol": "isci",
-    "sebep": "41.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 458 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "42.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 458 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_112f01e7-2c44-4b0a-80ad-1539db253ee1": {
    "acilis": "2026-09-22 14:01",
@@ -845,14 +845,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 261481,
-    "bosta_dk": 2066,
+    "bosta_dk": 2136,
     "hukum": "🟡 SESSİZ",
     "istek": 165,
     "rol": "isci",
-    "sebep": "34.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 261 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "35.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 261 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_144c89d6-c3d6-4c9c-930f-3b4328a539df": {
    "acilis": "2026-09-10 17:42",
@@ -923,14 +923,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 303253,
-    "bosta_dk": 2649,
+    "bosta_dk": 2719,
     "hukum": "🟡 SESSİZ",
     "istek": 187,
     "rol": "isci",
-    "sebep": "44.2 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 303 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "45.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 303 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_1639b5e5-cde2-43d4-8978-198ba7bebed4": {
    "ad": "Untitled session",
@@ -1063,14 +1063,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 189594,
-    "bosta_dk": 2617,
+    "bosta_dk": 2687,
     "hukum": "🟡 SESSİZ",
     "istek": 121,
     "rol": "isci",
-    "sebep": "43.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 190 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.8 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 190 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_1c604785-4071-46df-91ae-6f83762f7bc2": {
    "ad": "D3-AVRUPA-BATI · 1923 sınırları (Opus)",
@@ -1126,14 +1126,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 449739,
-    "bosta_dk": 1745,
+    "bosta_dk": 1815,
     "hukum": "🟡 SESSİZ",
     "istek": 477,
     "rol": "isci",
-    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 450 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 450 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_1ff0b2fe-a2fd-42da-82b5-f0f01a2b785c": {
    "ad": "D3-AVRUPA-ORTA · 1923 sınırları (Opus)",
@@ -1282,21 +1282,21 @@
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_21fb967a-83f8-44ef-87b1-dd71fd05e9da",
    "kova": "gorevde",
    "model": "?",
    "nobetciler": [],
    "olcum": {
     "baglam": 91427,
-    "bosta_dk": 37,
+    "bosta_dk": 108,
     "hukum": "✅ çalışıyor",
     "istek": 43,
     "rol": "isci",
     "sebep": "bağlam 91 K · 43 istek",
-    "z": "2026-09-22 14:29"
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_2230821c-f707-45c7-83bf-a1b2540948fc": {
    "ad": "PAKET-0031",
@@ -1310,14 +1310,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 497099,
-    "bosta_dk": 1678,
+    "bosta_dk": 1748,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 373,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 1678 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-22 14:29"
+    "sebep": "işini bitirdi ve 1748 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_234a72e8-fd65-40c8-a4ea-bde6ae9474ea": {
    "acilis": "2026-09-22 14:01",
@@ -1395,62 +1395,21 @@
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_25e112bd-d1a9-4d75-9cc6-0cf35f6b0e63",
    "kova": "gorevde",
    "model": "?",
-   "nobetciler": [
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997743723-9xyhhr.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "EKOKUMA-SAVAS-0075",
-     "pid": 7700
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997743723-9xyhhr.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "EKOKUMA-SAVAS-0075",
-     "pid": 17016
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim EKOKUMA-SAVAS-0075 --cik",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "EKOKUMA-SAVAS-0075",
-     "pid": 22844
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997743723-9xyhhr.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "EKOKUMA-SAVAS-0075",
-     "pid": 23248
-    }
-   ],
+   "nobetciler": [],
    "olcum": {
     "baglam": 404336,
-    "bosta_dk": 36,
+    "bosta_dk": 106,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 276,
     "rol": "isci",
-    "sebep": "iş bitmedi, 36 dk boşta, bağlam 404 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 106 dk boşta, bağlam 404 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_27178a0d-064c-4ffa-ba46-472232765be0": {
    "acilis": "2026-09-22 14:01",
@@ -1839,62 +1798,21 @@
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_32dd6f48-9c95-4184-8a68-3af759f699b1",
    "kova": "gorevde",
    "model": "?",
-   "nobetciler": [
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997758606-x9js6r.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "GOSTERIM-0075",
-     "pid": 8
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim GOSTERIM-0075 --cik",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "GOSTERIM-0075",
-     "pid": 10272
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997758606-x9js6r.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "GOSTERIM-0075",
-     "pid": 22292
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997758606-x9js6r.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "GOSTERIM-0075",
-     "pid": 22372
-    }
-   ],
+   "nobetciler": [],
    "olcum": {
     "baglam": 389781,
-    "bosta_dk": 36,
+    "bosta_dk": 106,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 352,
     "rol": "isci",
-    "sebep": "iş bitmedi, 36 dk boşta, bağlam 390 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 106 dk boşta, bağlam 390 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_338dccc2-0def-45cf-8d50-38a824dfc8eb": {
    "ad": "KRONO-YER-0072 · yer bağı olmayan maddeler (Opus)",
@@ -1908,76 +1826,35 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 370085,
-    "bosta_dk": 1590,
+    "bosta_dk": 1660,
     "hukum": "🟡 SESSİZ",
     "istek": 338,
     "rol": "isci",
-    "sebep": "26.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 370 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "27.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 370 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_3415ea86-52e1-4156-b05d-066550c5d846": {
    "ad": "KRONO-YER-0075",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_3415ea86-52e1-4156-b05d-066550c5d846",
    "kova": "gorevde",
    "model": "?",
-   "nobetciler": [
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim KRONO-YER-0075 --cik",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "KRONO-YER-0075",
-     "pid": 9728
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997780831-xionfu.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "KRONO-YER-0075",
-     "pid": 15004
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997780831-xionfu.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "KRONO-YER-0075",
-     "pid": 18316
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997780831-xionfu.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "KRONO-YER-0075",
-     "pid": 21420
-    }
-   ],
+   "nobetciler": [],
    "olcum": {
     "baglam": 346868,
-    "bosta_dk": 37,
+    "bosta_dk": 108,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 271,
     "rol": "isci",
-    "sebep": "iş bitmedi, 37 dk boşta, bağlam 347 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 108 dk boşta, bağlam 347 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_3423e073-ba2b-41ee-8797-822cff932f41": {
    "acilis": "2026-08-15 00:39",
@@ -2135,14 +2012,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 450376,
-    "bosta_dk": 1678,
+    "bosta_dk": 1748,
     "hukum": "🟡 SESSİZ",
     "istek": 387,
     "rol": "isci",
-    "sebep": "28.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 450 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 450 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_3c539658-7c6d-49f8-9b14-2d60f524213f": {
    "ad": "Sonnet hazır kıta 1007",
@@ -2472,14 +2349,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 400774,
-    "bosta_dk": 2720,
+    "bosta_dk": 2790,
     "hukum": "🟡 SESSİZ",
     "istek": 371,
     "rol": "isci",
-    "sebep": "45.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 401 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "46.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 401 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_451781ae-aa9f-41dc-a939-da00a10e5e91": {
    "ad": "VERİ KÜLTÜR",
@@ -2557,14 +2434,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 555229,
-    "bosta_dk": 1734,
+    "bosta_dk": 1804,
     "hukum": "🟡 SESSİZ",
     "istek": 435,
     "rol": "isci",
-    "sebep": "28.9 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 555 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "30.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 555 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_47ec49ca-c368-4713-94c2-5428216e4018": {
    "acilis": "2026-09-04 10:24",
@@ -2694,14 +2571,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 377374,
-    "bosta_dk": 2720,
+    "bosta_dk": 2790,
     "hukum": "🟡 SESSİZ",
     "istek": 317,
     "rol": "isci",
-    "sebep": "45.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 377 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "46.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 377 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_4aaf5853-7475-478d-b458-ac21fafa7eb3": {
    "ad": "EGE LATİN KRONOLOJİ 1 (22 Ağu 12:36)",
@@ -3246,14 +3123,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 205288,
-    "bosta_dk": 2219,
+    "bosta_dk": 2290,
     "hukum": "🟡 SESSİZ",
     "istek": 147,
     "rol": "isci",
-    "sebep": "37.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 205 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "38.2 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 205 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_582bd848-b253-4be4-8c65-08c188cd1948": {
    "ad": "DUNYA-KAMERIKA-0903 kurulumu",
@@ -3405,14 +3282,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 448958,
-    "bosta_dk": 166,
+    "bosta_dk": 237,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 929,
     "rol": "isci",
-    "sebep": "iş bitmedi, 166 dk boşta, bağlam 449 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 237 dk boşta, bağlam 449 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_5a9b96a8-5acc-4931-9db0-b4f3339c5e3b": {
    "ad": "VERİ DEVLET 2",
@@ -3605,14 +3482,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 253212,
-    "bosta_dk": 1817,
+    "bosta_dk": 1888,
     "hukum": "🟡 SESSİZ",
     "istek": 146,
     "rol": "isci",
-    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 253 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "31.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 253 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2": {
    "acilis": "2026-09-22 14:01",
@@ -3681,62 +3558,21 @@
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_5ff25445-e091-44b4-ab3c-92a0887236ff",
    "kova": "gorevde",
    "model": "?",
-   "nobetciler": [
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997787173-1ajyvl.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "SINIR-STATU-0075",
-     "pid": 12252
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997787173-1ajyvl.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "SINIR-STATU-0075",
-     "pid": 21576
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim SINIR-STATU-0075 --cik",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "SINIR-STATU-0075",
-     "pid": 22228
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:52",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997787173-1ajyvl.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 36,
-     "dongu": false,
-     "kim": "SINIR-STATU-0075",
-     "pid": 24360
-    }
-   ],
+   "nobetciler": [],
    "olcum": {
     "baglam": 285199,
-    "bosta_dk": 36,
+    "bosta_dk": 106,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 224,
     "rol": "isci",
-    "sebep": "iş bitmedi, 36 dk boşta, bağlam 285 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 106 dk boşta, bağlam 285 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_60068fa9-3df9-465e-a7d0-23b624ec1cb9": {
    "acilis": "2026-09-22 14:01",
@@ -3842,14 +3678,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 866858,
-    "bosta_dk": 1817,
+    "bosta_dk": 1888,
     "hukum": "🟡 SESSİZ",
     "istek": 816,
     "rol": "isci",
-    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 867 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "31.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 867 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6407f44c-8036-42ef-b557-2cbb15c039de": {
    "ad": "SINIR-KAFRIKA-0907",
@@ -3997,14 +3833,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 415440,
-    "bosta_dk": 65,
+    "bosta_dk": 135,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 246,
     "rol": "isci",
-    "sebep": "iş bitmedi, 65 dk boşta, bağlam 415 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 135 dk boşta, bağlam 415 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_672e3af3-6f13-4a6b-a534-63c7c4f7085d": {
    "ad": "BASRA-KORFEZ (Opus) ✓",
@@ -4090,15 +3926,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 415982,
+    "baglam": 489375,
     "bosta_dk": 0,
-    "hukum": "🔴 ÖNCE YAZ",
-    "istek": 37738,
+    "hukum": "🔴 COMPACT YETER",
+    "istek": 37807,
     "rol": "koordinator",
-    "sebep": "bağlam 416 K ≥ 208 K (taze tabanın 2 katı) VE depoda 2 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-22 14:29"
+    "sebep": "bağlam 489 K ≥ 208 K (taze tabanın 2 katı) ama disk TEMİZ ⇒ kaybedilecek yazılmamış iş yok. Ölçüldü: compact %14'e indiriyor (93 K), devir 104 K'ya — aynı fiyat. Bayrak devri yalnız ROL değişiyorsa",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6aae0aae-99c8-4451-bfcb-86cd5e80b2c6": {
    "ad": "D-GEOARAC · antlaşma haritası verisi + ek okuma denetimi (Sonnet)",
@@ -4133,14 +3969,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 406294,
-    "bosta_dk": 2219,
+    "bosta_dk": 2290,
     "hukum": "🟡 SESSİZ",
     "istek": 238,
     "rol": "isci",
-    "sebep": "37.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 406 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "38.2 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 406 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b": {
    "acilis": "2026-09-22 14:01",
@@ -4164,14 +4000,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 632017,
-    "bosta_dk": 1678,
+    "bosta_dk": 1748,
     "hukum": "🟡 SESSİZ",
     "istek": 458,
     "rol": "isci",
-    "sebep": "28.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 632 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 632 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6c58a834-b5fe-45e0-a329-f6891769b26d": {
    "ad": "(başlıksız)",
@@ -4185,14 +4021,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 0,
-    "bosta_dk": 1434,
+    "bosta_dk": 1504,
     "hukum": "⚠️ ROL BİLİNMİYOR",
     "istek": 2,
     "rol": "bilinmiyor",
     "sebep": "başlık '(başlıksız)' sözlükte yok — hüküm verilmedi, UYDURULMADI",
-    "z": "2026-09-22 14:29"
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6cf2c9cf-9b53-4b75-b366-24e5fd3e67d7": {
    "ad": "EKO-1806 · 1806 savaşı ek okumaları (Opus)",
@@ -4206,14 +4042,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 288230,
-    "bosta_dk": 2609,
+    "bosta_dk": 2679,
     "hukum": "🟡 SESSİZ",
     "istek": 171,
     "rol": "isci",
-    "sebep": "43.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 288 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 288 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6dcaa85d-3962-401b-b6c4-6aa20eed6e5e": {
    "ad": "EKO-KOLEMEN-0072 · Kölemen beyleri + Tosun Paşa (Opus)",
@@ -4227,14 +4063,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 256102,
-    "bosta_dk": 2585,
+    "bosta_dk": 2656,
     "hukum": "🟡 SESSİZ",
     "istek": 162,
     "rol": "isci",
-    "sebep": "43.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 256 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 256 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6e9b0a5e-fb1d-44c4-a7ae-efbf523acd7a": {
    "ad": "ETIKET-0073 · çakışan şehir yazıları (Opus)",
@@ -4248,14 +4084,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 288918,
-    "bosta_dk": 2363,
+    "bosta_dk": 2433,
     "hukum": "🟡 SESSİZ",
     "istek": 218,
     "rol": "isci",
-    "sebep": "39.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 289 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "40.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 289 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_6f4a0887-83bf-4edb-b701-478a143605aa": {
    "ad": "ŞEHİR -KARTI",
@@ -4385,14 +4221,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 360381,
-    "bosta_dk": 2089,
+    "bosta_dk": 2159,
     "hukum": "🟡 SESSİZ",
     "istek": 357,
     "rol": "isci",
-    "sebep": "34.8 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 360 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "36.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 360 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_723a9a44-c39b-4097-b285-fb645a628779": {
    "acilis": "2026-09-22 14:01",
@@ -4601,14 +4437,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 286938,
-    "bosta_dk": 2609,
+    "bosta_dk": 2679,
     "hukum": "🟡 SESSİZ",
     "istek": 192,
     "rol": "isci",
-    "sebep": "43.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 287 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 287 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_77779bd8-a2cc-4f87-822b-15223531a786": {
    "ad": "Sonnet hazır kıta 1014",
@@ -4733,14 +4569,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 308177,
-    "bosta_dk": 2066,
+    "bosta_dk": 2136,
     "hukum": "🟡 SESSİZ",
     "istek": 269,
     "rol": "isci",
-    "sebep": "34.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 308 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "35.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 308 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_7f777a38-b979-41db-a229-c2a63f433c5a": {
    "acilis": "2026-09-22 14:01",
@@ -4805,14 +4641,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 416913,
-    "bosta_dk": 1678,
+    "bosta_dk": 1748,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 263,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 1678 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-22 14:29"
+    "sebep": "işini bitirdi ve 1748 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_84a83e8f-9d95-49c9-b6b6-bf78c23450e4": {
    "ad": "Osmanlı Tarih Atlası hazır kita",
@@ -5046,14 +4882,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 648336,
-    "bosta_dk": 1678,
+    "bosta_dk": 1748,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 364,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 1678 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-22 14:29"
+    "sebep": "işini bitirdi ve 1748 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29",
+   "olcum_zamani": "2026-09-22 15:39",
    "son_gorulme": "2026-09-22 14:01",
    "takma_adlar": [
     "FABLE HAZIR KITA 101",
@@ -5072,14 +4908,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 76012,
-    "bosta_dk": 932,
+    "bosta_dk": 1003,
     "hukum": "⚠️ ROL BİLİNMİYOR",
     "istek": 54,
     "rol": "bilinmiyor",
     "sebep": "başlık '(başlıksız)' sözlükte yok — hüküm verilmedi, UYDURULMADI",
-    "z": "2026-09-22 14:29"
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_90f42ba7-a8d0-45a1-9f73-5a9575dc5def": {
    "ad": "ARAYUZ-5",
@@ -5163,62 +4999,21 @@
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_924d6723-4128-46cd-ba9a-5d36cdf22f7f",
    "kova": "gorevde",
    "model": "?",
-   "nobetciler": [
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997752999-fhye32.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "MISIR-SEFER-0075",
-     "pid": 4528
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997752999-fhye32.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "MISIR-SEFER-0075",
-     "pid": 23244
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997752999-fhye32.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "MISIR-SEFER-0075",
-     "pid": 23544
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim MISIR-SEFER-0075 --cik",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "MISIR-SEFER-0075",
-     "pid": 25332
-    }
-   ],
+   "nobetciler": [],
    "olcum": {
     "baglam": 293874,
-    "bosta_dk": 36,
+    "bosta_dk": 106,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 210,
     "rol": "isci",
-    "sebep": "iş bitmedi, 36 dk boşta, bağlam 294 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 106 dk boşta, bağlam 294 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_92901f94-dd9d-4eb9-9b5f-a386cbbe3d36": {
    "ad": "Srebrenica ve Bosna Brodu görüntü hatası",
@@ -5483,62 +5278,21 @@
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [],
    "gorev": "",
-   "hal": "CALISIYORUM",
+   "hal": "BOSTA",
    "kimlik": "local_94fd61a0-8d85-43fb-b04b-da42f378c3fd",
    "kova": "gorevde",
    "model": "?",
-   "nobetciler": [
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim EKOKUMA-TOPLUM-0075 --cik",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "EKOKUMA-TOPLUM-0075",
-     "pid": 10072
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997750927-75h0hd.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "EKOKUMA-TOPLUM-0075",
-     "pid": 13736
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997750927-75h0hd.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "EKOKUMA-TOPLUM-0075",
-     "pid": 19652
-    },
-    {
-     "ad": "tahta bekçisi",
-     "baslangic": "2026-09-22 13:51",
-     "betik": "tahta_bekci.py",
-     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1789997750927-75h0hd.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 37,
-     "dongu": false,
-     "kim": "EKOKUMA-TOPLUM-0075",
-     "pid": 22572
-    }
-   ],
+   "nobetciler": [],
    "olcum": {
     "baglam": 637996,
-    "bosta_dk": 36,
+    "bosta_dk": 106,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 592,
     "rol": "isci",
-    "sebep": "iş bitmedi, 36 dk boşta, bağlam 638 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 106 dk boşta, bağlam 638 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_959dc058-66d7-4329-9c7f-4ff9b037c39f": {
    "acilis": "2026-08-15 00:39",
@@ -6122,14 +5876,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 397495,
-    "bosta_dk": 2620,
+    "bosta_dk": 2690,
     "hukum": "🟡 SESSİZ",
     "istek": 276,
     "rol": "isci",
-    "sebep": "43.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 397 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.8 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 397 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_a18250ef-3593-45a7-b1dd-cd0143a56728": {
    "ad": "KRONOLOJİ ANADOLU (eski: SONNET HAZIR KITA 73)",
@@ -6273,14 +6027,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 307864,
-    "bosta_dk": 2381,
+    "bosta_dk": 2452,
     "hukum": "🟡 SESSİZ",
     "istek": 128,
     "rol": "isci",
-    "sebep": "39.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 308 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "40.9 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 308 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_a47030ee-0798-4cf1-a52f-631101059ead": {
    "acilis": "2026-09-22 14:01",
@@ -6465,14 +6219,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 339268,
-    "bosta_dk": 1734,
+    "bosta_dk": 1804,
     "hukum": "🟡 SESSİZ",
     "istek": 330,
     "rol": "isci",
-    "sebep": "28.9 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 339 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "30.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 339 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_aa4b0c84-e195-4629-aaf4-36e554c07d2b": {
    "ad": "CLAUDE-BUDAMA-2",
@@ -6644,14 +6398,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 371767,
-    "bosta_dk": 1678,
+    "bosta_dk": 1748,
     "hukum": "🟡 SESSİZ",
     "istek": 213,
     "rol": "isci",
-    "sebep": "28.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 372 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 372 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_ae40c77e-f059-407e-924a-5d4b11984652": {
    "ad": "EKO-DENIZ-0069 · Ebukır ek okuması (Opus)",
@@ -6710,14 +6464,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 153940,
-    "bosta_dk": 2409,
+    "bosta_dk": 2480,
     "hukum": "🟡 SESSİZ",
     "istek": 87,
     "rol": "isci",
-    "sebep": "40.2 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 154 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "41.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 154 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_b07c7663-cf43-4277-bb3e-06c2e853a510": {
    "acilis": "2026-08-15 00:39",
@@ -6768,14 +6522,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 286597,
-    "bosta_dk": 81,
+    "bosta_dk": 152,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 100,
     "rol": "isci",
-    "sebep": "iş bitmedi, 81 dk boşta, bağlam 287 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 152 dk boşta, bağlam 287 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a": {
    "acilis": "2026-08-15 23:58",
@@ -7103,14 +6857,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 746804,
-    "bosta_dk": 1817,
+    "bosta_dk": 1888,
     "hukum": "🟡 SESSİZ",
     "istek": 788,
     "rol": "isci",
-    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 747 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "31.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 747 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_bb8803ee-543c-4805-91b3-cb8f02695bd9": {
    "ad": "VERİ KİMLİK 2",
@@ -7262,14 +7016,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 384262,
-    "bosta_dk": 65,
+    "bosta_dk": 135,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 420,
     "rol": "isci",
-    "sebep": "iş bitmedi, 65 dk boşta, bağlam 384 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-22 14:29"
+    "sebep": "iş bitmedi, 135 dk boşta, bağlam 384 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_c16540f4-bfe7-43d1-81b1-2fa19e09166b": {
    "acilis": "2026-09-22 14:01",
@@ -7292,14 +7046,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 411516,
-    "bosta_dk": 2211,
+    "bosta_dk": 2282,
     "hukum": "🟡 SESSİZ",
     "istek": 198,
     "rol": "isci",
-    "sebep": "36.9 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 412 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "38.0 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 412 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_c20e9d83-6f47-4822-9870-4c19f014521a": {
    "ad": "Untitled session",
@@ -7453,14 +7207,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 348147,
-    "bosta_dk": 1748,
+    "bosta_dk": 1819,
     "hukum": "🟡 SESSİZ",
     "istek": 266,
     "rol": "isci",
-    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 348 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 348 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_c97147bd-2e04-4a81-a378-602b270450a8": {
    "ad": "ÇAPRAZ İBERYA",
@@ -7558,14 +7312,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 408337,
-    "bosta_dk": 2602,
+    "bosta_dk": 2672,
     "hukum": "🟡 SESSİZ",
     "istek": 272,
     "rol": "isci",
-    "sebep": "43.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 408 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 408 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_caf0f857-ce38-4ebb-aec1-f671770b3e9c": {
    "acilis": "2026-08-15 00:39",
@@ -7782,14 +7536,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 202451,
-    "bosta_dk": 2363,
+    "bosta_dk": 2433,
     "hukum": "🟡 SESSİZ",
     "istek": 104,
     "rol": "isci",
-    "sebep": "39.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 202 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "40.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 202 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_cf8e1fa4-5fc2-4ce4-a4e4-63d9c62c9b41": {
    "ad": "Untitled session",
@@ -8065,14 +7819,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 571415,
-    "bosta_dk": 2133,
+    "bosta_dk": 2203,
     "hukum": "🟡 SESSİZ",
     "istek": 352,
     "rol": "isci",
-    "sebep": "35.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 571 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "36.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 571 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_d625bfad-1a15-495e-bfe4-01dea19b5ca0": {
    "ad": "Untitled session",
@@ -8332,14 +8086,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 801037,
-    "bosta_dk": 1678,
-    "hukum": "🔴 ÖNCE YAZ",
+    "bosta_dk": 1748,
+    "hukum": "🔴 COMPACT YETER",
     "istek": 637,
     "rol": "koordinator",
-    "sebep": "bağlam 801 K ≥ 208 K (taze tabanın 2 katı) VE depoda 2 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-22 14:29"
+    "sebep": "bağlam 801 K ≥ 208 K (taze tabanın 2 katı) ama disk TEMİZ ⇒ kaybedilecek yazılmamış iş yok. Ölçüldü: compact %14'e indiriyor (93 K), devir 104 K'ya — aynı fiyat. Bayrak devri yalnız ROL değişiyorsa",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_ded0729e-7d63-47fb-8223-d9ea4520155e": {
    "acilis": "2026-08-15 00:39",
@@ -8450,14 +8204,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 311449,
-    "bosta_dk": 2051,
+    "bosta_dk": 2121,
     "hukum": "🟡 SESSİZ",
     "istek": 230,
     "rol": "isci",
-    "sebep": "34.2 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 311 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "35.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 311 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_e0beb995-d1d0-4ec9-b27f-42c7093bcb1f": {
    "ad": "EKOKUMA-ANTLASMA-0921 · antlaşma ek okumaları (Opus)",
@@ -8471,14 +8225,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 267407,
-    "bosta_dk": 2066,
+    "bosta_dk": 2136,
     "hukum": "🟡 SESSİZ",
     "istek": 192,
     "rol": "isci",
-    "sebep": "34.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 267 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "35.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 267 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_e16552d8-5e56-4091-924c-2b76ff98600a": {
    "ad": "CIZGI-ANLAM-0072 · açıklanmamış çizgiler (Opus)",
@@ -8492,14 +8246,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 396443,
-    "bosta_dk": 1748,
+    "bosta_dk": 1819,
     "hukum": "🟡 SESSİZ",
     "istek": 267,
     "rol": "isci",
-    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 396 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 396 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_e190a14d-c9a5-44d3-b17a-4254917b284b": {
    "ad": "ANADOLU BEYLİKLERİ KRONOLOJİ",
@@ -8669,14 +8423,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 376212,
-    "bosta_dk": 1748,
+    "bosta_dk": 1819,
     "hukum": "🟡 SESSİZ",
     "istek": 285,
     "rol": "isci",
-    "sebep": "29.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 376 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "30.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 376 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_ed44d957-f336-4ccd-95cb-df4f32f98cf5": {
    "ad": "KIMLIK-KID-0907",
@@ -8773,14 +8527,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 91709,
-    "bosta_dk": 1645,
+    "bosta_dk": 1715,
     "hukum": "🟡 SESSİZ",
     "istek": 16,
     "rol": "isci",
-    "sebep": "27.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 92 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "28.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 92 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   },
   "local_f0ee5598-d8b7-4b79-8616-a3c8dc87cb8b": {
    "ad": "EKO-DUNYA işçi oturumu",
@@ -9245,14 +8999,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 337514,
-    "bosta_dk": 2609,
+    "bosta_dk": 2679,
     "hukum": "🟡 SESSİZ",
     "istek": 168,
     "rol": "isci",
-    "sebep": "43.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 338 K",
-    "z": "2026-09-22 14:29"
+    "sebep": "44.7 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 338 K",
+    "z": "2026-09-22 15:39"
    },
-   "olcum_zamani": "2026-09-22 14:29"
+   "olcum_zamani": "2026-09-22 15:39"
   }
  }
 }
