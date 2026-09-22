@@ -949,7 +949,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1911-09-29", b:"Trablusgarp Savaşı'nın ilanı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","kolonyalizm","konu-askeri","konu-siyasi"],
   d:"İtalya, Osmanlı Devleti'ne son Kuzey Afrika vilayeti Trablusgarp'ı devretmesi için ültimatom verip reddedilince savaş ilan etti; bu, İtalya'nın birleşmesinden sonraki ilk büyük sömürgeci savaşıydı ve tarihte uçağın askerî amaçla ilk kez kullanıldığı çatışma olarak da anılır.",
-  kaynak:"data/devletler.js `italya` embedded kronoloji: \"Trablusgarp Savaşı'nı başlattı\" (t:\"1911-09-29\"); TDV `trablusgarp` (gövdesi okundu) farklı bir tarih (\"1 Eylül 1911\") veriyor — bu oturumda İKİ KAYNAK ÇELİŞTİ, data/devletler.js'in tarihi (uluslararası akademik konsensüsle de örtüşen 29 Eylül) esas alındı, çelişki KOORDİNATÖRE bildirilecek", yer_id:"Roma" },
+  kaynak:"TDV `trablusgarp-savasi`, gövde AYNEN: \"29 Eylül'de ilân edilen savaş\" · hassasiyet: GÜN. Daha önce kaydedilen \"1 Eylül 1911\" çelişkisi YANLIŞ SLUG'dan doğmuştu (`trablusgarp` = yer maddesi, savaşın maddesi değil); doğru maddenin gövdesi atlasla ÇELİŞMİYOR, çelişki KAPANDI", yer_id:"Roma" },
 
 { t:"1911-10-05", b:"Trablus'un işgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","kolonyalizm","konu-askeri","konu-siyasi"],
