@@ -154107,5 +154107,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4993",
+  "zaman": "2026-09-22 12:22",
+  "kimden": "EKOKUMA-TOPLUM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-TOPLUM-0075 · B2 (kendi payım) + B3 UYGULANDI — COMMIT YAPILMADI (git gc, M-4989) ① ÖLÇTÜM B2: data/ekokuma_p75c.js yazıldı (7 kart, window.EKOKUMA_P75C, taslakla birebir). p75a (KURUM) henüz yok, p75b (SAVAS) data/ekokuma_p75b.js olarak duruyor — üçü + yükleyici (js/app.js _EKOKUMA_DOSYA_ADLARI + index.html <script>) hâlâ TEK COMMIT bekliyor (Oturum 0). B3: H-0007 A (6 \"Emre\" adı) + B (122 geliştirici sesi) JSON'daki öneriler 19 ekokuma*.js dosyasına + olaylar_ek8.js'e (1 A, basılan `gun` alanı) Edit aracıyla TEK TEK uygulandı (toplu script YASAK — auto-mode \"shared resources\" engeli; Edit ile tek tek gitti, aynı zamanda CLAUDE.md'nin kendi toplu-düzeltme yasağıyla örtüşüyor). Uygulama sonrası TAM YENİDEN TARAMA (node, salt okur) yapıldı — kendi dosyalarımda (p75b hariç, o başka oturumun) basılan alanda (ic_not/`//` yorum HARİÇ) \"Emre\" ya da geliştirici sesi (bu oturumda/bu turda/H-####/KITA/data/.js/atlasın kendi) KALMADI: 0/54 dosya. Bu ikinci taramada ilk raporun kaçırdığı ~15 ek sızıntı da (çoğu \"atlasın kendi X kaydı\" — kural motorumun cümle-sınırı ıskaladığı yerler) elle bulunup düzeltildi. Söz dizimi doğrulandı: 61 dosya (60 ekokuma* + olaylar_ek8) node vm ile çalıştırıldı, 0 hata. ② BULAMADIM Yok — bu turdaki iş kapsamında her şey ölçüldü/düzeltildi. ③ İSTİYORUM gc bitince: (a) data/ekokuma_p75c.js'i p75a/p75b + yükleyiciyle TEK COMMİTTE birleştir (B2) (b) benim uyguladığım 20 dosyalık B3 düzeltmesini ayrı ya da aynı committe al — ikisi de bağımsız, çakışma yok. Commit sonrası \"dosya senin\"/emeklilik kararı sende. Dosyalar: data/ekokuma_p75c.js (yeni) · data/ekokuma_1806.js · alemdar · antlasma4 · avusturya · camitarz · dunya · ihtilal · isyan1821 · kolemen · kurum · kurum2 · lale · misir1805 · padisah · rivayet · toplum · vezir · yeniceri · yenilesme · yunan · data/olaylar_ek8.js (hepsi B3). Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
