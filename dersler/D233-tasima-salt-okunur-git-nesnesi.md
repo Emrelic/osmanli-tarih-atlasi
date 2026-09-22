@@ -101,3 +101,39 @@ bir yazımı silmek geçmiş kayıtları "bilinmiyor" yapar.
 **Sonuç:** `denetle.py` temiz · `denetle_yayin.py` temiz · motor 3921
 yerleşim / 87 girdi dosyası · kutu 74 paketi görüyor · 6 worktree yeni köke
 bakıyor.
+
+---
+
+## ④ Ek — ②'nin inceltilmesi: cwd komut satırında GÖRÜNMEZ
+
+Taşımadan sonra geriye kalan **boş kabuk** klasör (`…\TARİH COĞRAFYA SİTESİ`,
+0 dosya, 0 alt dizin) silinemedi: *"başka bir işlem tarafından kullanılıyor."*
+
+②'nin öğrettiği şeyi uygulayıp **kullanıcıya "şunu kapat" demeden önce ölçtüm** —
+ve ölçüm üç adayı da eledi:
+
+```
+Explorer'ın tek penceresi        → C:\atlas          (tutmuyor)
+PowerShell kabuğunun dizini      → C:\atlas          (tutmuyor)
+komut satırında eski yolu taşıyan süreç → HİÇBİRİ    (tutmuyor)
+```
+
+🔴 **Ve tam burada ②'nin sınırı çıktı:** komut satırı taraması "kimse tutmuyor"
+dedi, ama klasör gerçekten tutuluyordu. Çünkü **bir sürecin çalışma dizini (cwd)
+komut satırının parçası değildir.** Bir süreç bir klasörü, adını hiçbir yerde
+yazmadan, sadece orada *durarak* tutar.
+
+Tutan, oturumu barındıran sürecin kendisiydi: eski yolda başlatılmıştı.
+`change_directory` **mantıksal** proje dizinini taşır; işletim sistemi
+seviyesindeki cwd süreç ömrü boyunca **değişmez**. Kilit ancak pencere kapanınca
+düşer.
+
+📌 **Ders:** *Komut satırı taramasının boş dönmesi, "kimse tutmuyor"un kanıtı
+değildir — yalnız "adını yazan kimse yok"un kanıtıdır.* Ölçümün kapsamını,
+sonucunu okumadan önce söyle.
+
+🟢 **Ve boş kabuğu silmek bir temizlik değil bir GÜVENLİK adımıdır:** klasör var
+olduğu sürece yanlışlıkla uyandırılan bir oturum hata vermez — **boş bir klasörde
+sessizce çalışır.** Klasör yoksa gürültülü patlar. Bu, ①'in "iki yarım klasör"
+tehlikesinin küçültülmüş hâlidir ve aynı kuralla kapanır:
+**sessiz hata, gürültülü hatadan pahalıdır.**

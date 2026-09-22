@@ -259,4 +259,4 @@
 - **Çalışma protokolü — beep kuralları ve bekçi tetiği** — [`D230`](D230-calisma-protokolu-beep.md)
 - **Belge seti ve oturum açılış sırası (tam metin)** — [`D231`](D231-belge-seti-acilis-sirasi.md)
 - **Dosyanın girişi ve «Proje nedir» — tam metin** — [`D232`](D232-proje-nedir-tam.md)
-- **Taşıma: salt-okunur git nesnesi · alet kendini saydı · boşluklu yolun bir aylık hayaleti** — [`D233`](D233-tasima-salt-okunur-git-nesnesi.md)
+- **Taşıma: salt-okunur git nesnesi · alet kendini saydı · boşluklu yolun bir aylık hayaleti · cwd komut satırında görünmez** — [`D233`](D233-tasima-salt-okunur-git-nesnesi.md)
