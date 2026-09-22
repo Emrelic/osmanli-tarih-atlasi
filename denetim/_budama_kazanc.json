@@ -1,0 +1,1432 @@
+{
+ "toplam": 145947,
+ "s11_tam": 106678,
+ "k1": 10168,
+ "k2": 21081,
+ "dersler": [
+  {
+   "bas": 2009,
+   "slug": "replace-eski-yeni-1-python-da",
+   "tam": 101,
+   "manset": 47,
+   "manset_oz": 47,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2013,
+   "slug": "yakin-mukerrer-yerlesim-varat-varad-1",
+   "tam": 84,
+   "manset": 54,
+   "manset_oz": 54,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2016,
+   "slug": "uretimi-veri-degisirken-baslatma-dort-uretim",
+   "tam": 24,
+   "manset": 47,
+   "manset_oz": 47,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2017,
+   "slug": "denetim-olcutunu-gevsetme-maddesi-var-mi",
+   "tam": 50,
+   "manset": 57,
+   "manset_oz": 57,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2019,
+   "slug": "sed-ile-turkce-karakterli-kesme-isaretli",
+   "tam": 291,
+   "manset": 50,
+   "manset_oz": 75,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2033,
+   "slug": "bu-gun-zaten-var-yetmi-yor",
+   "tam": 329,
+   "manset": 58,
+   "manset_oz": 109,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2046,
+   "slug": "deneti-m-var-o-soruyu-soruyor",
+   "tam": 333,
+   "manset": 55,
+   "manset_oz": 81,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2061,
+   "slug": "cozulemedi-demeden-once-hangi-kisitin-bagladigin",
+   "tam": 305,
+   "manset": 61,
+   "manset_oz": 83,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2076,
+   "slug": "bazi-li-steler-kuyruk-degi-l",
+   "tam": 206,
+   "manset": 53,
+   "manset_oz": 53,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2087,
+   "slug": "yeni-yazilan-deneti-m-i-ki",
+   "tam": 516,
+   "manset": 60,
+   "manset_oz": 121,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2112,
+   "slug": "veri-penceresi-i-le-kunye-penceresi",
+   "tam": 429,
+   "manset": 55,
+   "manset_oz": 108,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2133,
+   "slug": "bi-r-suzgeci-kaldirmadan-once-suzgeci",
+   "tam": 269,
+   "manset": 63,
+   "manset_oz": 119,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2145,
+   "slug": "c13un-eksi-k-ayagi-hangi-yonun",
+   "tam": 308,
+   "manset": 65,
+   "manset_oz": 94,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2160,
+   "slug": "yuvarlak-tari-h-yalniz-yanlis-degi",
+   "tam": 1538,
+   "manset": 63,
+   "manset_oz": 172,
+   "oz_satir": 4
+  },
+  {
+   "bas": 2232,
+   "slug": "olcemedi-gi-ni-eleyen-bi-r",
+   "tam": 638,
+   "manset": 50,
+   "manset_oz": 106,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2265,
+   "slug": "ortak-bi-r-kanala-ozel-bi",
+   "tam": 245,
+   "manset": 53,
+   "manset_oz": 105,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2276,
+   "slug": "bi-r-duzeltme-dogru-calisabi-li",
+   "tam": 631,
+   "manset": 60,
+   "manset_oz": 119,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2313,
+   "slug": "bi-r-dosyanin-veri-mi-kod",
+   "tam": 816,
+   "manset": 58,
+   "manset_oz": 202,
+   "oz_satir": 5
+  },
+  {
+   "bas": 2354,
+   "slug": "olcumden-once-hangi-ongorunun-mazereti-olabi",
+   "tam": 350,
+   "manset": 71,
+   "manset_oz": 127,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2369,
+   "slug": "sahi-psi-z-i-n-i",
+   "tam": 1234,
+   "manset": 56,
+   "manset_oz": 136,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2432,
+   "slug": "temi-z-cikan-bi-r-orneklem",
+   "tam": 313,
+   "manset": 55,
+   "manset_oz": 117,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2448,
+   "slug": "ongoru-olcumden-once-yazilir-sonra-yazilan",
+   "tam": 573,
+   "manset": 66,
+   "manset_oz": 142,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2481,
+   "slug": "kendi-yazdigin-ayristirici-var-olan-bi",
+   "tam": 383,
+   "manset": 56,
+   "manset_oz": 80,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2500,
+   "slug": "i-ki-ayri-kusur-tek-satirda",
+   "tam": 709,
+   "manset": 56,
+   "manset_oz": 145,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2537,
+   "slug": "cozulemedi-ni-n-ucuncu-ci-nsi",
+   "tam": 579,
+   "manset": 60,
+   "manset_oz": 105,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2567,
+   "slug": "bi-r-kisit-uygulanamadi-di-ye",
+   "tam": 395,
+   "manset": 63,
+   "manset_oz": 122,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2587,
+   "slug": "ve-nobetci-i-lk-gercek-yakalayisini",
+   "tam": 262,
+   "manset": 59,
+   "manset_oz": 59,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2600,
+   "slug": "bi-r-alan-tasarlamadan-once-o",
+   "tam": 812,
+   "manset": 56,
+   "manset_oz": 163,
+   "oz_satir": 4
+  },
+  {
+   "bas": 2642,
+   "slug": "bi-r-aracin-verdi-gi-recete",
+   "tam": 613,
+   "manset": 52,
+   "manset_oz": 106,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2673,
+   "slug": "atlas-seferi-degi-l-tasarrufu-boyar",
+   "tam": 645,
+   "manset": 56,
+   "manset_oz": 134,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2705,
+   "slug": "esi-k-tek-sayi-degi-ldi",
+   "tam": 339,
+   "manset": 56,
+   "manset_oz": 114,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2721,
+   "slug": "engel-kumesi-kapatilmak-i-stenen-ci",
+   "tam": 336,
+   "manset": 62,
+   "manset_oz": 108,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2735,
+   "slug": "cozulemedi-ni-n-i-ki-ci",
+   "tam": 250,
+   "manset": 51,
+   "manset_oz": 102,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2751,
+   "slug": "bi-r-bi-lgi-i-ki",
+   "tam": 265,
+   "manset": 55,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2762,
+   "slug": "bi-r-raporda-olculmus-i-le",
+   "tam": 599,
+   "manset": 54,
+   "manset_oz": 136,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2791,
+   "slug": "hukum-i-le-teshi-s-ayri",
+   "tam": 252,
+   "manset": 51,
+   "manset_oz": 75,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2805,
+   "slug": "bi-r-aleti-n-evreni-degi",
+   "tam": 253,
+   "manset": 57,
+   "manset_oz": 57,
+   "oz_satir": 0
+  },
+  {
+   "bas": 2818,
+   "slug": "su-duzeltmeyi-yap-deni-nce-once",
+   "tam": 375,
+   "manset": 66,
+   "manset_oz": 120,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2836,
+   "slug": "bi-r-kuralin-yazili-olmasi-uygulandigi",
+   "tam": 777,
+   "manset": 61,
+   "manset_oz": 138,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2874,
+   "slug": "koordi-natorun-hizli-bi-r-bakis",
+   "tam": 866,
+   "manset": 60,
+   "manset_oz": 144,
+   "oz_satir": 3
+  },
+  {
+   "bas": 2919,
+   "slug": "f-dosya-kullanmak-yetmi-yor-o",
+   "tam": 648,
+   "manset": 56,
+   "manset_oz": 82,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2951,
+   "slug": "bi-r-duzeltmeni-n-veri-de",
+   "tam": 463,
+   "manset": 56,
+   "manset_oz": 113,
+   "oz_satir": 2
+  },
+  {
+   "bas": 2973,
+   "slug": "aleti-n-gosterdi-gi-dosyada-yazan",
+   "tam": 344,
+   "manset": 57,
+   "manset_oz": 80,
+   "oz_satir": 1
+  },
+  {
+   "bas": 2991,
+   "slug": "bi-r-si-kayet-si-kayet",
+   "tam": 618,
+   "manset": 54,
+   "manset_oz": 140,
+   "oz_satir": 4
+  },
+  {
+   "bas": 3023,
+   "slug": "i-stenen-seyi-n-altyapisi-zaten",
+   "tam": 588,
+   "manset": 57,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3051,
+   "slug": "bi-r-ders-veri-ye-serbest",
+   "tam": 656,
+   "manset": 52,
+   "manset_oz": 104,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3086,
+   "slug": "log-da-bi-r-ciktidir-ve",
+   "tam": 630,
+   "manset": 47,
+   "manset_oz": 119,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3123,
+   "slug": "si-li-nen-kodun-mezar-tasi",
+   "tam": 798,
+   "manset": 59,
+   "manset_oz": 142,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3163,
+   "slug": "bugunun-en-sik-hatasi-tek-bi",
+   "tam": 417,
+   "manset": 60,
+   "manset_oz": 112,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3180,
+   "slug": "bi-r-defteri-n-anahtari-kararsizsa",
+   "tam": 763,
+   "manset": 53,
+   "manset_oz": 195,
+   "oz_satir": 5
+  },
+  {
+   "bas": 3219,
+   "slug": "i-ki-ayri-sorunun-ayni-cevabi",
+   "tam": 364,
+   "manset": 55,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3239,
+   "slug": "bi-r-alet-yanlis-bi-ri",
+   "tam": 1190,
+   "manset": 55,
+   "manset_oz": 172,
+   "oz_satir": 4
+  },
+  {
+   "bas": 3299,
+   "slug": "c13un-ucuncu-ayagi-gi-rdi-yi",
+   "tam": 872,
+   "manset": 63,
+   "manset_oz": 151,
+   "oz_satir": 4
+  },
+  {
+   "bas": 3344,
+   "slug": "atlasta-yok-hukmu-normallesti-ri-ci",
+   "tam": 990,
+   "manset": 60,
+   "manset_oz": 163,
+   "oz_satir": 4
+  },
+  {
+   "bas": 3393,
+   "slug": "bi-r-ongoru-sinavinin-kosulacagi-ani",
+   "tam": 515,
+   "manset": 60,
+   "manset_oz": 136,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3423,
+   "slug": "ve-bi-r-ongoru-uc-ayri",
+   "tam": 377,
+   "manset": 60,
+   "manset_oz": 157,
+   "oz_satir": 4
+  },
+  {
+   "bas": 3443,
+   "slug": "bi-r-kod-argumani-bi-r",
+   "tam": 530,
+   "manset": 51,
+   "manset_oz": 130,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3469,
+   "slug": "dogru-sonucu-guveni-lmez-yoldan-veren",
+   "tam": 1212,
+   "manset": 55,
+   "manset_oz": 193,
+   "oz_satir": 5
+  },
+  {
+   "bas": 3537,
+   "slug": "bi-r-hukum-veri-ye-i",
+   "tam": 328,
+   "manset": 56,
+   "manset_oz": 79,
+   "oz_satir": 1
+  },
+  {
+   "bas": 3557,
+   "slug": "bi-r-alet-aradigi-seyi-n",
+   "tam": 987,
+   "manset": 55,
+   "manset_oz": 115,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3615,
+   "slug": "kendi-kurdugun-olcum-penceresi-gormedi-gi",
+   "tam": 992,
+   "manset": 68,
+   "manset_oz": 148,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3662,
+   "slug": "bi-r-sevk-tasidigi-onculu-de",
+   "tam": 818,
+   "manset": 53,
+   "manset_oz": 105,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3708,
+   "slug": "dogru-bi-lgi-olu-adres-kaynak",
+   "tam": 441,
+   "manset": 51,
+   "manset_oz": 106,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3730,
+   "slug": "bi-r-arama-aradigi-seyi-n",
+   "tam": 1503,
+   "manset": 56,
+   "manset_oz": 193,
+   "oz_satir": 5
+  },
+  {
+   "bas": 3804,
+   "slug": "bi-r-duzeltme-sluga-degi-l",
+   "tam": 384,
+   "manset": 51,
+   "manset_oz": 104,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3824,
+   "slug": "3-km-bi-r-yasak-degi",
+   "tam": 726,
+   "manset": 53,
+   "manset_oz": 119,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3861,
+   "slug": "bi-r-beyan-aracin-alan-kumesi",
+   "tam": 1130,
+   "manset": 52,
+   "manset_oz": 125,
+   "oz_satir": 3
+  },
+  {
+   "bas": 3911,
+   "slug": "bi-r-dongude-basari-varlikla-hata",
+   "tam": 369,
+   "manset": 55,
+   "manset_oz": 73,
+   "oz_satir": 1
+  },
+  {
+   "bas": 3931,
+   "slug": "bi-r-hukum-dosyasi-bi-r",
+   "tam": 404,
+   "manset": 57,
+   "manset_oz": 114,
+   "oz_satir": 2
+  },
+  {
+   "bas": 3952,
+   "slug": "dogru-kapiya-gi-di-p-yanlis",
+   "tam": 1345,
+   "manset": 58,
+   "manset_oz": 181,
+   "oz_satir": 5
+  },
+  {
+   "bas": 4018,
+   "slug": "bi-r-deneti-m-adayi-olculdu",
+   "tam": 667,
+   "manset": 62,
+   "manset_oz": 111,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4050,
+   "slug": "kirpilmis-bi-r-cikti-da-bi",
+   "tam": 316,
+   "manset": 52,
+   "manset_oz": 81,
+   "oz_satir": 1
+  },
+  {
+   "bas": 4063,
+   "slug": "i-ki-kaynak-celi-si-yor",
+   "tam": 828,
+   "manset": 56,
+   "manset_oz": 86,
+   "oz_satir": 1
+  },
+  {
+   "bas": 4101,
+   "slug": "uc-bagimsiz-olcut-ayni-kumeye-yakinsarsa",
+   "tam": 802,
+   "manset": 67,
+   "manset_oz": 123,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4139,
+   "slug": "ayni-damga-farkli-dayanak-gucu-damga",
+   "tam": 393,
+   "manset": 60,
+   "manset_oz": 117,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4158,
+   "slug": "varlik-capasi-tasarruf-capasi-degi-ldi",
+   "tam": 343,
+   "manset": 53,
+   "manset_oz": 115,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4177,
+   "slug": "bi-r-tutarsizlik-bi-r-terci",
+   "tam": 1802,
+   "manset": 59,
+   "manset_oz": 119,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4260,
+   "slug": "bi-r-yer-adi-govdede-gecebi",
+   "tam": 615,
+   "manset": 59,
+   "manset_oz": 119,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4290,
+   "slug": "yeterli-ama-gerekli-olmayan-bi-r",
+   "tam": 451,
+   "manset": 57,
+   "manset_oz": 131,
+   "oz_satir": 3
+  },
+  {
+   "bas": 4315,
+   "slug": "bi-r-i-syanin-varligi-tasarrufu",
+   "tam": 611,
+   "manset": 59,
+   "manset_oz": 118,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4347,
+   "slug": "bi-r-olcut-karsilastirilan-i-ki",
+   "tam": 719,
+   "manset": 62,
+   "manset_oz": 153,
+   "oz_satir": 4
+  },
+  {
+   "bas": 4384,
+   "slug": "esanlam-borcunun-ucuncu-ekseni-kaynak-veri",
+   "tam": 788,
+   "manset": 66,
+   "manset_oz": 117,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4426,
+   "slug": "i-dari-devi-r-sahi-pli",
+   "tam": 322,
+   "manset": 54,
+   "manset_oz": 111,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4441,
+   "slug": "komsusunun-kullandigi-gunu-kullanmak-kendi-gunun",
+   "tam": 375,
+   "manset": 65,
+   "manset_oz": 87,
+   "oz_satir": 1
+  },
+  {
+   "bas": 4461,
+   "slug": "bi-r-careni-n-mali-yeti",
+   "tam": 433,
+   "manset": 50,
+   "manset_oz": 78,
+   "oz_satir": 1
+  },
+  {
+   "bas": 4482,
+   "slug": "bi-r-kusurun-yapisal-sebebi-ni",
+   "tam": 376,
+   "manset": 59,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4502,
+   "slug": "elenen-bi-r-adayin-gerekcesi-sonradan",
+   "tam": 376,
+   "manset": 59,
+   "manset_oz": 106,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4520,
+   "slug": "yazili-olmayan-bi-r-konvansi-yon",
+   "tam": 787,
+   "manset": 58,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4554,
+   "slug": "veri-modeli-ni-n-i-fade",
+   "tam": 693,
+   "manset": 57,
+   "manset_oz": 146,
+   "oz_satir": 3
+  },
+  {
+   "bas": 4587,
+   "slug": "bi-r-slug-i-tahmi-n",
+   "tam": 591,
+   "manset": 52,
+   "manset_oz": 130,
+   "oz_satir": 3
+  },
+  {
+   "bas": 4616,
+   "slug": "uzun-bi-r-kosuda-canliligin-ucuncu",
+   "tam": 647,
+   "manset": 60,
+   "manset_oz": 115,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4648,
+   "slug": "celi-ski-sanilan-seyi-n-bes",
+   "tam": 744,
+   "manset": 55,
+   "manset_oz": 121,
+   "oz_satir": 3
+  },
+  {
+   "bas": 4682,
+   "slug": "adiyla-aniyor-i-le-tari-hli",
+   "tam": 620,
+   "manset": 59,
+   "manset_oz": 116,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4711,
+   "slug": "bi-r-mukerrer-kurali-hep-mevcudu",
+   "tam": 378,
+   "manset": 57,
+   "manset_oz": 129,
+   "oz_satir": 3
+  },
+  {
+   "bas": 4731,
+   "slug": "bi-r-glob-bi-r-ad",
+   "tam": 969,
+   "manset": 54,
+   "manset_oz": 172,
+   "oz_satir": 4
+  },
+  {
+   "bas": 4776,
+   "slug": "kaynak-bulunamiyorsa-once-aranan-seyi-n",
+   "tam": 599,
+   "manset": 63,
+   "manset_oz": 140,
+   "oz_satir": 3
+  },
+  {
+   "bas": 4807,
+   "slug": "mukerrer-gerekcesi-i-ki-sinif-saklayabi",
+   "tam": 404,
+   "manset": 64,
+   "manset_oz": 64,
+   "oz_satir": 0
+  },
+  {
+   "bas": 4827,
+   "slug": "bi-r-hukmu-vermek-i-le",
+   "tam": 265,
+   "manset": 52,
+   "manset_oz": 99,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4839,
+   "slug": "bi-r-artefakt-hi-cbi-r",
+   "tam": 955,
+   "manset": 56,
+   "manset_oz": 154,
+   "oz_satir": 4
+  },
+  {
+   "bas": 4887,
+   "slug": "i-zlenebi-li-rli-k-dogrulanmisliktan",
+   "tam": 503,
+   "manset": 58,
+   "manset_oz": 111,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4916,
+   "slug": "bi-r-damga-bi-r-hukmun",
+   "tam": 286,
+   "manset": 51,
+   "manset_oz": 73,
+   "oz_satir": 1
+  },
+  {
+   "bas": 4930,
+   "slug": "bi-r-davranis-kasitli-olabi-li",
+   "tam": 268,
+   "manset": 58,
+   "manset_oz": 81,
+   "oz_satir": 1
+  },
+  {
+   "bas": 4943,
+   "slug": "i-ceri-k-olcutu-bi-r",
+   "tam": 426,
+   "manset": 62,
+   "manset_oz": 115,
+   "oz_satir": 2
+  },
+  {
+   "bas": 4964,
+   "slug": "bi-r-cumle-i-ki-kayit",
+   "tam": 1116,
+   "manset": 55,
+   "manset_oz": 182,
+   "oz_satir": 5
+  },
+  {
+   "bas": 5020,
+   "slug": "bi-r-referans-olctugu-seyi-n",
+   "tam": 1169,
+   "manset": 56,
+   "manset_oz": 141,
+   "oz_satir": 3
+  },
+  {
+   "bas": 5077,
+   "slug": "damga-bi-r-i-ddi-ayi",
+   "tam": 351,
+   "manset": 57,
+   "manset_oz": 113,
+   "oz_satir": 3
+  },
+  {
+   "bas": 5094,
+   "slug": "bulunamadi-olculemedi-okumadim-uc-ayri-damga",
+   "tam": 253,
+   "manset": 64,
+   "manset_oz": 64,
+   "oz_satir": 0
+  },
+  {
+   "bas": 5106,
+   "slug": "ve-bi-r-duzeltme-yanlis-uygulanirsa",
+   "tam": 305,
+   "manset": 63,
+   "manset_oz": 116,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5118,
+   "slug": "tdv-tuzak-li-stesi-ne-altinci",
+   "tam": 365,
+   "manset": 54,
+   "manset_oz": 83,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5136,
+   "slug": "tdv-tuzak-li-stesi-ne-yedi",
+   "tam": 1282,
+   "manset": 57,
+   "manset_oz": 183,
+   "oz_satir": 5
+  },
+  {
+   "bas": 5198,
+   "slug": "bi-r-devleti-n-kronoloji-si",
+   "tam": 237,
+   "manset": 53,
+   "manset_oz": 87,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5209,
+   "slug": "bi-r-kaynagin-markasi-onun-provenansi",
+   "tam": 695,
+   "manset": 50,
+   "manset_oz": 89,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5251,
+   "slug": "ve-hassasi-yeti-dusurmek-bi-lgi",
+   "tam": 188,
+   "manset": 67,
+   "manset_oz": 87,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5260,
+   "slug": "bi-r-bulgunun-sahi-bi-bulgunun",
+   "tam": 461,
+   "manset": 55,
+   "manset_oz": 88,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5289,
+   "slug": "yayin-veri-ni-n-bes-parti",
+   "tam": 531,
+   "manset": 53,
+   "manset_oz": 138,
+   "oz_satir": 3
+  },
+  {
+   "bas": 5315,
+   "slug": "cok-parcali-bi-r-i-li",
+   "tam": 480,
+   "manset": 55,
+   "manset_oz": 79,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5340,
+   "slug": "ayni-sayinin-tekrar-etmesi-i-lk",
+   "tam": 138,
+   "manset": 54,
+   "manset_oz": 67,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5347,
+   "slug": "gi-zli-bi-r-sekmede-yapilan",
+   "tam": 678,
+   "manset": 58,
+   "manset_oz": 162,
+   "oz_satir": 4
+  },
+  {
+   "bas": 5383,
+   "slug": "ayni-rengi-i-ki-alet-farkli",
+   "tam": 744,
+   "manset": 57,
+   "manset_oz": 97,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5420,
+   "slug": "acik-kalem-kapandi-10-cakisma-bi",
+   "tam": 823,
+   "manset": 61,
+   "manset_oz": 144,
+   "oz_satir": 3
+  },
+  {
+   "bas": 5459,
+   "slug": "komsuluk-bi-r-i-pucudur-kanit",
+   "tam": 1049,
+   "manset": 59,
+   "manset_oz": 203,
+   "oz_satir": 5
+  },
+  {
+   "bas": 5511,
+   "slug": "i-ki-oturum-ayni-gece-kendi",
+   "tam": 1303,
+   "manset": 61,
+   "manset_oz": 189,
+   "oz_satir": 5
+  },
+  {
+   "bas": 5578,
+   "slug": "i-c-tutarlilik-dogrulama-degi-ldi",
+   "tam": 1060,
+   "manset": 55,
+   "manset_oz": 112,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5633,
+   "slug": "ayni-keli-me-i-ki-ayri",
+   "tam": 408,
+   "manset": 56,
+   "manset_oz": 80,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5653,
+   "slug": "bi-r-regex-i-n-gormedi",
+   "tam": 598,
+   "manset": 59,
+   "manset_oz": 99,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5683,
+   "slug": "bi-r-ayristirici-kusuru-bulundugunda-onunla",
+   "tam": 751,
+   "manset": 61,
+   "manset_oz": 175,
+   "oz_satir": 5
+  },
+  {
+   "bas": 5723,
+   "slug": "bi-r-orani-baska-bi-r",
+   "tam": 366,
+   "manset": 51,
+   "manset_oz": 102,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5742,
+   "slug": "tasimanin-geti-rdi-gi-i-le",
+   "tam": 551,
+   "manset": 55,
+   "manset_oz": 97,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5772,
+   "slug": "bi-r-esi-k-olculdugu-tabanla",
+   "tam": 800,
+   "manset": 58,
+   "manset_oz": 126,
+   "oz_satir": 3
+  },
+  {
+   "bas": 5812,
+   "slug": "i-ki-olcumun-oranlarinin-orani-farkin",
+   "tam": 770,
+   "manset": 65,
+   "manset_oz": 117,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5850,
+   "slug": "mtime-bi-r-olcum-degi-l",
+   "tam": 490,
+   "manset": 50,
+   "manset_oz": 126,
+   "oz_satir": 3
+  },
+  {
+   "bas": 5876,
+   "slug": "bi-r-kontrol-degi-skeni-sorulurken",
+   "tam": 395,
+   "manset": 58,
+   "manset_oz": 108,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5896,
+   "slug": "cakisma-dosyanin-buyuklugunden-degi-l-baskalarin",
+   "tam": 433,
+   "manset": 67,
+   "manset_oz": 123,
+   "oz_satir": 2
+  },
+  {
+   "bas": 5916,
+   "slug": "ve-17-cakisma-17-soru-degi",
+   "tam": 168,
+   "manset": 54,
+   "manset_oz": 77,
+   "oz_satir": 1
+  },
+  {
+   "bas": 5924,
+   "slug": "bi-r-uyarinin-beklendi-gi-ni",
+   "tam": 966,
+   "manset": 58,
+   "manset_oz": 162,
+   "oz_satir": 4
+  },
+  {
+   "bas": 5973,
+   "slug": "her-eksende-temi-z-demek-saydigin",
+   "tam": 731,
+   "manset": 54,
+   "manset_oz": 132,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6008,
+   "slug": "bi-r-sevkte-aday-tari-h",
+   "tam": 688,
+   "manset": 55,
+   "manset_oz": 134,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6042,
+   "slug": "bi-r-yontem-emekli-edi-lmi",
+   "tam": 782,
+   "manset": 55,
+   "manset_oz": 98,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6084,
+   "slug": "bi-r-semada-b-alani-t",
+   "tam": 602,
+   "manset": 51,
+   "manset_oz": 82,
+   "oz_satir": 1
+  },
+  {
+   "bas": 6114,
+   "slug": "bi-r-eslesti-ri-ci-ni",
+   "tam": 774,
+   "manset": 57,
+   "manset_oz": 138,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6151,
+   "slug": "bi-r-kosu-suresi-tahmi-ni",
+   "tam": 817,
+   "manset": 65,
+   "manset_oz": 142,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6193,
+   "slug": "bi-r-i-ddi-ayi-aktarirken",
+   "tam": 631,
+   "manset": 58,
+   "manset_oz": 134,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6225,
+   "slug": "ayni-i-si-yapan-i-ki",
+   "tam": 740,
+   "manset": 59,
+   "manset_oz": 175,
+   "oz_satir": 5
+  },
+  {
+   "bas": 6263,
+   "slug": "beyan-edi-len-kaynak-i-ddi",
+   "tam": 645,
+   "manset": 54,
+   "manset_oz": 150,
+   "oz_satir": 4
+  },
+  {
+   "bas": 6298,
+   "slug": "yuvarlak-bi-r-tari-h-yalniz",
+   "tam": 301,
+   "manset": 54,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6315,
+   "slug": "bi-r-govdeyi-i-lk-bi",
+   "tam": 290,
+   "manset": 58,
+   "manset_oz": 88,
+   "oz_satir": 1
+  },
+  {
+   "bas": 6329,
+   "slug": "degi-smez-2ni-n-kapali-hukmu",
+   "tam": 914,
+   "manset": 67,
+   "manset_oz": 182,
+   "oz_satir": 4
+  },
+  {
+   "bas": 6372,
+   "slug": "ve-sinifin-en-agir-uyesi-kaynak",
+   "tam": 833,
+   "manset": 60,
+   "manset_oz": 114,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6414,
+   "slug": "suzgec-gorunur-eler-i-zdusum-sessi",
+   "tam": 1150,
+   "manset": 62,
+   "manset_oz": 194,
+   "oz_satir": 5
+  },
+  {
+   "bas": 6471,
+   "slug": "bayat-bi-r-kabul-olcutu-yanlis",
+   "tam": 901,
+   "manset": 57,
+   "manset_oz": 128,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6516,
+   "slug": "bi-r-donemi-n-kaynak-i",
+   "tam": 1260,
+   "manset": 51,
+   "manset_oz": 116,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6582,
+   "slug": "mi-ras-alinmis-bi-r-ozni",
+   "tam": 353,
+   "manset": 54,
+   "manset_oz": 106,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6601,
+   "slug": "bi-r-evreni-n-yarisindan-cogu",
+   "tam": 512,
+   "manset": 59,
+   "manset_oz": 109,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6627,
+   "slug": "7-1-b-tek-tarafliydi-tahta",
+   "tam": 677,
+   "manset": 61,
+   "manset_oz": 110,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6661,
+   "slug": "bi-r-koruma-capasi-belgede-zaten",
+   "tam": 438,
+   "manset": 52,
+   "manset_oz": 112,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6680,
+   "slug": "bi-r-sayim-bi-ri-mi",
+   "tam": 806,
+   "manset": 53,
+   "manset_oz": 176,
+   "oz_satir": 6
+  },
+  {
+   "bas": 6725,
+   "slug": "bi-r-kategori-si-smeyi-aciklamaz",
+   "tam": 759,
+   "manset": 59,
+   "manset_oz": 142,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6765,
+   "slug": "kapsayici-madde-dar-maddeni-n-i",
+   "tam": 851,
+   "manset": 60,
+   "manset_oz": 138,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6806,
+   "slug": "buyuk-kucuk-harf-duyarsiz-alt-di",
+   "tam": 368,
+   "manset": 59,
+   "manset_oz": 87,
+   "oz_satir": 1
+  },
+  {
+   "bas": 6823,
+   "slug": "bi-r-sinifta-otomati-k-sinav",
+   "tam": 621,
+   "manset": 58,
+   "manset_oz": 140,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6854,
+   "slug": "bi-r-deneti-m-sartnamesi-ni",
+   "tam": 754,
+   "manset": 59,
+   "manset_oz": 135,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6893,
+   "slug": "bi-r-cumleyi-alintilamadan-once-onceki",
+   "tam": 658,
+   "manset": 60,
+   "manset_oz": 156,
+   "oz_satir": 3
+  },
+  {
+   "bas": 6925,
+   "slug": "bi-r-sozlukte-olmayan-sinif-veri",
+   "tam": 556,
+   "manset": 60,
+   "manset_oz": 83,
+   "oz_satir": 1
+  },
+  {
+   "bas": 6955,
+   "slug": "bi-r-koordi-nator-okudugundan-hizli",
+   "tam": 287,
+   "manset": 58,
+   "manset_oz": 114,
+   "oz_satir": 2
+  },
+  {
+   "bas": 6969,
+   "slug": "bi-r-on-sinav-sordugu-ri",
+   "tam": 600,
+   "manset": 61,
+   "manset_oz": 85,
+   "oz_satir": 1
+  },
+  {
+   "bas": 7000,
+   "slug": "bi-r-merge-adiminin-on-kosulu",
+   "tam": 543,
+   "manset": 55,
+   "manset_oz": 100,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7030,
+   "slug": "bi-r-olcumun-bi-r-ekseni",
+   "tam": 483,
+   "manset": 64,
+   "manset_oz": 115,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7055,
+   "slug": "bi-r-mekani-zmanin-calistigini-calismasaydi",
+   "tam": 793,
+   "manset": 62,
+   "manset_oz": 157,
+   "oz_satir": 4
+  },
+  {
+   "bas": 7095,
+   "slug": "kapsayici-madde-her-zaman-en-i",
+   "tam": 505,
+   "manset": 46,
+   "manset_oz": 147,
+   "oz_satir": 4
+  },
+  {
+   "bas": 7119,
+   "slug": "uzun-bi-r-kosuda-dorduncu-si",
+   "tam": 478,
+   "manset": 54,
+   "manset_oz": 111,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7142,
+   "slug": "her-kaydi-tek-tek-dogru-bulan",
+   "tam": 961,
+   "manset": 55,
+   "manset_oz": 129,
+   "oz_satir": 3
+  },
+  {
+   "bas": 7190,
+   "slug": "bi-r-aleti-n-cevabi-dogru",
+   "tam": 646,
+   "manset": 54,
+   "manset_oz": 138,
+   "oz_satir": 3
+  },
+  {
+   "bas": 7222,
+   "slug": "bi-r-li-stede-olmayan-sey",
+   "tam": 401,
+   "manset": 53,
+   "manset_oz": 105,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7240,
+   "slug": "ayri-bi-r-realm-de-kosan",
+   "tam": 365,
+   "manset": 45,
+   "manset_oz": 100,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7260,
+   "slug": "7-ad-alani-dersi-i-lk",
+   "tam": 420,
+   "manset": 58,
+   "manset_oz": 101,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7280,
+   "slug": "uygulanmamis-bi-r-yama-i-ki",
+   "tam": 522,
+   "manset": 59,
+   "manset_oz": 112,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7307,
+   "slug": "bi-r-i-sci-koordi-natorun",
+   "tam": 412,
+   "manset": 63,
+   "manset_oz": 114,
+   "oz_satir": 2
+  },
+  {
+   "bas": 7329,
+   "slug": "bayatlayan-bi-r-belge-yalniz-kendi",
+   "tam": 879,
+   "manset": 56,
+   "manset_oz": 105,
+   "oz_satir": 2
+  }
+ ]
+}

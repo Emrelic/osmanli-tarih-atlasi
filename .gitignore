@@ -44,3 +44,108 @@ denetim/_kaynak_govde/
 denetim/_sinav_json/
 denetim/_kid_*.json
 denetim/_kaynak_denetim_*.json
+
+# ════════════════════════════════════════════════════════════════════
+# ÇALIŞMA ARTIKLARI — 22 Eylül 2026, ağaç temizliği (1.MURAT)
+# ════════════════════════════════════════════════════════════════════
+# 🔴 ÖLÇÜM: `git status` 442 takipsiz dosya basıyordu; 91'i gerçek iş
+# çıktısıydı ve commit edildi, 351'i aşağıdaki sınıflardı. Toplam
+# 440 MB — bunun 279 MB'ı tek bir motor önbelleği.
+#
+# NİÇİN ÖNEMLİ, ve bu bir "temizlik" değil bir KAPI: 21 Eylül'de koşu 6
+# yayınlanırken `data/petek_govde.js` (10,75 MB, koşunun DÖRDÜNCÜ çıktısı)
+# ATLANDI ve canlıda 20 dakika yeni `donemler.js` ile eski gövde yan yana
+# durdu. Sebebi ölçüldü: pathspec 47 kirli dosyanın arasından GÖZLE
+# seçilmişti. 442 satırlık bir `git status` insanın seçemeyeceği bir
+# listedir — yani bu dosyalar yalnız yer kaplamıyordu, BİR YAYIN
+# HATASININ SEBEBİYDİ.
+#
+# ⚠️ Ve her biri GEREKÇESİYLE yazılıyor (`§11`): "bir listede olmayan
+# şey, elenmiş olandan ayırt edilemez, eleme gerekçesi yazılmadıkça."
+# Gerekçesiz bir satır, bir sonraki oturuma "bu niye yok?" diye sordurur.
+
+# ── KÖK DİZİN BİR ÇALIŞMA MASASI DEĞİL, BELGE DİZİNİDİR ─────────────
+# 🔴 Ölçüldü: kökte TAKİPLİ olan her dosya ya `.md`, ya `.bat`, ya
+# `index.html`, ya `.gitignore`. Başka hiçbir şey yok — 34 dosya, istisnasız.
+# Takipsiz duran 196 kök dosyasının ise TAMAMI ara çıktıydı:
+#   `_kume42.json` · `_s13.py` · `scratchpad_m1901.txt` · `kapi3.txt` ·
+#   `kosu7-20260913-041644.err` · `tum_yerlesim_adlari2.txt` …
+# Yani kök, bir turda yazılıp o turda okunan dosyaların biriktiği yerdi.
+#
+# ⇒ Kural DESEN DEĞİL YERdir: kökteki çalışma dosyası biçimi ne olursa
+# olsun artıktır; kalıcı olan belgedir (`.md`), başlatıcıdır (`.bat`) ya
+# da uygulamadır (`index.html`). Yeni bir tür artık icat edildiğinde
+# (yarın `.csv` ya da `.ndjson`) bu kural onu da yakalar — desen listesi
+# yakalayamazdı ve her seferinde bir satır daha eklenirdi.
+# ⚠️ Kök ALTINDAKİ `_` dosyaları TAKİPLİ kalır (`arac/_*` 420 dosya):
+# orada `_` bir artık işareti değil, "iç kullanım" geleneğidir.
+/*.txt
+/*.json
+/*.js
+/*.py
+/*.log
+/*.err
+/*.out
+/*.docx
+/_*
+
+# ── Motor önbelleği — 279 MB, TEK dosya ──────────────────────────────
+# `uret_petek.py`nin sqlite önbelleği. Yeniden üretilebilir (koşu zaten
+# üretiyor) ve GitHub'ın 100 MB dosya tavanının iki katından fazla.
+/_motor_onbellek/
+
+# ── Koşu günlükleri ──────────────────────────────────────────────────
+# Aşama aşama koşu logu. Koşunun HÜKMÜ `denetle.py` çıktısındadır ve o
+# commit'lenir; buradaki ham log yalnız koşu sürerken işe yarar.
+/kosu_gunluk/
+
+# ── Bekçi durum dosyaları — 112 adet ─────────────────────────────────
+# `tahta_bekci.py`nin "en son hangi mesajı gördüm" damgası. Oturuma ÖZEL
+# ve makineye özel bir imleç; başka makinede okunması YANLIŞ olur —
+# ikinci bilgisayar geldiğinde bu dosyalar çakışma üretirdi.
+oturumlar/.bekci_son_*
+oturumlar/tahta.json.yeni.*
+
+# ── denetim/ ara dosyaları ───────────────────────────────────────────
+# `_commit_msg_*` · `_tahta_mesaj_*` · `_govde*` dökümleri: yazılan
+# metin zaten commit mesajında ya da tahtada duruyor, bu kopyalar onun
+# gölgesi. `BEKCI-*` / `LOG-*`: koşu bekçisi çıktıları.
+# `oneri-*.txt`: `renk_olc.py --oner` her koşuşta yenisini yazıyor —
+# hükmü `renkler.py`ye AKTARILAN öneri dosyası artık bayattır.
+# 🔴 ÖLÇÜLDÜ VE AÇIKÇA YAZILIYOR: bu satırların kapsadığı sınıftan
+# **128 dosya ZATEN TAKİPLİ** (`git ls-files -i -c` ile sayıldı) —
+# `BEKCI-KOSU4*` · `oneri-2026*` · `_govde/` · `_govde_basra/` gibi.
+# .gitignore takipli dosyayı takipten ÇIKARMAZ: onlar yayında kalır,
+# değiştirilirlerse `git status` yine gösterir, davranışları DEĞİŞMEZ.
+# Değişen yalnız YENİ doğacak olanlar.
+# ⇒ O 128'i takipten çıkarmak AYRI BİR KARARDIR ve alınmadı: tarihte
+# bir ölçümün delili olabilirler, ve "yer kazanmak" gerekçesi `git gc`
+# sonrası (.git 39 GB → 319 MB) geçersiz. Emre'ye sorulacak kalem.
+denetim/_commit_msg_*
+denetim/_tahta_mesaj_*
+denetim/_eko0073_*
+denetim/_eko_rivayet_*
+denetim/_kita17_*
+denetim/_govde_*/
+denetim/_hayir_kartlari_dump.json
+denetim/_krono0075_ham.json
+denetim/_kunye_oku_hayalet.js
+denetim/_ui_commit_msg.txt
+denetim/BEKCI-*
+denetim/LOG-*
+denetim/oneri-*.txt
+
+# ── Birleştirme yedekleri ────────────────────────────────────────────
+# `renkler.py.merge-yedek` gibi: git'in kendi çakışma çözümünden kalan
+# el yedeği. Git zaten tarihi tutuyor; yedek yalnız karışıklık üretir.
+*.merge-yedek
+
+# ── denetim/_govde/ ham TDV gövdeleri ────────────────────────────────
+# `_ozet.json` TAKİPLİ kalıyor — hüküm odur. Ham gövdeler
+# `denetim/_kaynak_govde/` ile aynı sınıf: çekilmesi ağdan geçer,
+# silinmesi kayıp değildir, ama silmeyin (§4 ④ boilerplate tuzağı).
+denetim/_govde/*.txt
+
+# ── Harici motorların ara mesajları ──────────────────────────────────
+# `glm/_mesaj.txt`: tahtaya yazılmadan önceki taslak. Teslim tahtadadır.
+glm/_mesaj.txt
