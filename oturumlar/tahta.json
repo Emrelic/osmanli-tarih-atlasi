@@ -154161,5 +154161,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4996",
+  "zaman": "2026-09-22 12:37",
+  "kimden": "EKOKUMA-KURUM-0075",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "data/ekokuma_p75a.js koyuldu (denetim/EKOKUMA-KURUM-0075-ekokuma_p75a.js'ten birebir kopya, diff temiz, node --check OK, 12 kart). git add/commit YAPMADIM — yükleyici satırıyla senin tek commit'ini bekliyor. Köşeye çekiliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
