@@ -72,6 +72,17 @@ olabilir — birlikte ele alınmalı.
 | # | iş | kim uygular |
 |---|---|---|
 | B1 | `data/hukuki_sinirlar.js` → `ii-erzurum-sattularap-1847` `kapsama.dolgu:false`. 79.947 km²lik opak dikdörtgen 76 yıl boyunca dolgu basıyor (H-0039). Karlofça emsali, tek satır | 1.MURAT |
+
+**B1 doğrulandı (04:05) ve emsal Emre'nin KENDİ eski şikâyeti:**
+`hukuki_sinirlar.js`te 14 `kapsama` bloğu var ama `dolgu:` alanı **yalnız
+birinde** — Karlofça/Sava kaydında, ve oradaki not şöyle diyor:
+
+> *"15 Eylül 2026 — DOLGU KAPATILDI (Emre bildirdi: Srebrenik-Bosna Brod'u
+> üstünde yarısı kırmızı yarısı yeşil DİKDÖRTGEN)."*
+
+Erzurum kaydının `kapsama` bloğunda `dolgu` alanı **yok**, yani varsayılan
+dolduruyor. Aynı sınıf, aynı belirti ("opak dikdörtgen"), aynı çare —
+üstelik çareyi altı gün önce sen istemişsin. Tek satır, koşusuz.
 | B2 | Üç ek okuma taslağı `data/ekokuma_p75{a,b,c}.js` olarak inecek (30 kart) + yükleyici listesi + `index.html` — **hepsi tek commit** | 1.MURAT + üç blok |
 | B3 | H-0007 üslup temizliği A ve B: basılan 6 "Emre" + 122 geliştirici sesi bulgusu / 71 kart / 19 dosya | EKOKUMA-TOPLUM |
 | B4 | KRONO-YER A listesi: 33 `yer_id` + 23 `odak_yer` (8 dosya) | KRONO-YER |
@@ -136,6 +147,25 @@ olabilir — birlikte ele alınmalı.
 10. Üç yeni kartın kronolojiye bağı: **Galata Köprüsü** (1844 ↔ 1845
     tartışmalı, gün yok) ve **Tünel** (17 Ocak 1875, TDV + İTÜ) için
     kronolojiye madde açılsın mı?
+
+11. 🔴 **"Emre" adının kapsamı — ekran mı, dosya mı?** Senin hükmün
+    *"bir daha benden Emre diye bahsetme"* idi ve şikâyetin bir BAŞLIKTAN
+    doğdu, yani okura görünen metinden. Koordinatör sayımı (04:05):
+
+    | nerede | "Emre" geçen dosya | ham geçiş |
+    |---|---|---|
+    | `ekokuma*.js` | 32 dosya | ~55 |
+    | `olaylar*` + `kronoloji*` | 33 dosya | ~55 |
+    | `yerlesimler*.js` | 40 dosya | ~140 (`yerlesimler.js` tek başına 44) |
+
+    Toplam ~250 geçiş. Ama EKOKUMA-TOPLUM'un ölçtüğü **EKRANA BASILAN**
+    sayı yalnız **6** (+1 `kasitli_bosluk.neden` alanında) — gerisi
+    `ic_not` · `gerekce` · `neden` gibi basılmayan alanlarda, yani
+    geliştirici defteri. İki okuma var ve ikisi çok farklı iş:
+    **(a)** yalnız okura görünen 6+1 temizlenir (yarım saatlik iş) ·
+    **(b)** dosyalardaki ~250 geçişin hepsi temizlenir (günlerce iş, ve
+    bazıları bir kararın NİÇİNİNİ taşıyor — silinirse gerekçe kaybolur).
+    Önerim **(a)** + kural: bundan sonra yazılan basılan metinde ad geçmez.
 
 ---
 
