@@ -1,0 +1,108 @@
+{
+  "_not": "SINIR-BERLIN-0076'nın hükümleri. Paylaşılan CEVAP.json mevcut olmadığı ve sekiz oturumun aynı JSON'a yazması sessiz çarpışma olacağı için ayrı dosyaya yazıldı; koordinatör birleştirir. Hüküm kelimeleri C:/claudemre/kutu/asama.py HUKUMLER sözlüğündendir. Gerekçelerin tamamı denetim/SINIR-BERLIN-0076.md'de, yama denetim/SINIR-BERLIN-0076-YAMA-yerlesimler.js'te.",
+  "_oturum": "SINIR-BERLIN-0076",
+  "_tarih": "2026-09-23",
+  "_madde_sayisi": 25,
+  "maddeler": {
+    "H-0040": {
+      "hukum": "zaten-dogru",
+      "not": "Batum kaydı DOĞRU: s:[rusya 1878-07-13..] = Berlin Antlaşması günü. TDV BATUM birebir doğruluyor: '1878 Berlin Antlaşması'yla serbest liman olarak Rusya'ya bırakıldı.' Emre'nin gözlemi Batum'dan değil KOMŞULARINDAN doğuyor: Artvin/Hopa/Borçka/Şavşat/Hulo 1878-03-03 (Ayastefanos), Kars 1877-11-18, Ardahan 1877-05-17 kullanıyor. 3 Mart - 13 Temmuz 1878 arası Batum dört ay Rus toprağı ortasında Osmanlı adası. Küme konvansiyon kusuru raporun §1.1'inde; Batum'un kendi kaydına dokunulmuyor."
+    },
+    "H-0043": {
+      "hukum": "kosu-bekliyor",
+      "not": "İKİ AYRI BULGU. (1) KUSUR: Bosna'nın 16 noktasından 4'ünde isg:avusturya YOK - Bosna Brod'u, Bosna Dubiçası, Bosna Novi'si, Krupa. Dördü de Una-Sava hattında, kuzeybatıda. Emre'nin adıyla saydığı 'Bosna Brodu' bunların içinde. Yama A3. TDV BOSNA-HERSEK: işgal 29 Temmuz 1878'de başladı, 20 Ekim 1878'de tamamlandı. (2) KUSUR DEĞİL: Udbina, Cetin, Jasenovaç 1879'da s:avusturya, çünkü 1878'den ÖNCE Habsburg'du (Askerî Sınır) - 1878 işgaline konu olmamaları doğru. (3) TERS YÖN UYARISI - Yenipazar: ölçüm OSMANLI, isg: yok. Berlin Md. 25 + 1879 mukavelesi Avusturya'ya Yenipazar SANCAĞINDA garnizon hakkı verdi (Priboj, Prijepolje, Bijelo Polje) - Yenipazar ŞEHRİNE değil. Haritanın Yenipazar'ı Osmanlı göstermesi muhtemelen DOĞRU; uyumsuzluk kronoloji maddesinin fazla geniş başlığından geliyor. isg: YAZILMADI. Kronoloji kalemi benim değil, koordinatöre sevk."
+    },
+    "H-0044": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR, iki katmanlı. (1) NOKTASIZLIK: TDV BULGARİSTAN'ın adıyla saydığı 15 merkezin 5'i atlasta YOK - Prenslik'ten Ziştovi, Lofça; Doğu Rumeli'den İslimye, Burgaz, Hasköy. Doğu Rumeli (~32.000 km²) ÜÇ noktayla temsil ediliyor (Filibe, Eski Zağra, Tatarpazarcığı). O sınır bir antlaşma çizgisi değil üç noktanın Voronoi ayrıtı. Nokta listesi rapor §4'te KOORDİNAT + KAYNAK ile. (2) KADEME ÇELİŞKİSİ: Prenslik aynı gün iki tonda - 7 nokta v: (açık ton), 3 nokta s: (tam renk). Yama A5. (3) KÖSTENDİL: 1913'e kadar Osmanlı gösteriliyor, TDV KÖSTENDİL 1878 sonrası Bulgar idaresi diyor. Yama A1. 35 yıllık kusur."
+    },
+    "H-0045": {
+      "hukum": "kosu-bekliyor",
+      "not": "KISMEN DOĞRU. Berlin'in Yunanistan'a toprak VERMEDİĞİ doğru gösterilmiş: 1880-01-01'de Tırhala ve Yenişehir hâlâ Osmanlı. İKİ KUSUR: (1) İzdin (Lamia) 1881'e kadar Osmanlı gösteriliyor; TDV İZDİN üç ayrı cümlede 1832 diyor - 'Osmanlılar zamanında (1424-1832)', '1832'de ... İzdin bu devletin sınırları içinde kaldı', '1879 ve 1897 YUNAN sayımlarına göre'. 49 yıllık kusur. TDV YIL veriyor GÜN vermiyor ⇒ 1832-01-01. Yama A2. Ters yön sınavı yapıldı ve GEÇTİ: 1832 sınırı İzdin'in kuzeyinden geçer, Yenişehir/Tırhala'nın 1881 günü doğru ve değişmiyor. (2) NOKTASIZLIK: Volos (1881 Arta-Volos hattının doğu ucu), Alasonya (1881'den sonra Osmanlı kalan sınır kasabası), Kalabaka, Kardiçe YOK."
+    },
+    "H-0046": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR = NOKTASIZLIK. Sırbistan'ın Berlin'le (Md. 36) kazandığı dört merkezin DÖRDÜ DE atlasta yok: Vranya (Vranje), Leskofça (Leskovac), Kurşumlu (Kuršumlija), Prokuplye. Niş ve Şehirköy (Pirot) var ve doğru. Yani 1878 genişlemesinin güney yarısı çizilemiyor; Niş'in güneyindeki sınır bir geometri artefaktı. Süzgeç ateşleme sınavı geçti - bu bir SONUÇ, arama kusuru değil. Koordinat + kaynak rapor §4'te."
+    },
+    "H-0047": {
+      "hukum": "kosu-bekliyor",
+      "not": "KISMEN DOĞRU. Berlin'in Dobruca taksimi doğru kodlanmış: Babadağı ve Köstence romanya, Silistre bulgaristan-prensligi. Romanya'nın krallığa geçişi de doğru (1881-03-26). KUSUR = NOKTASIZLIK: Tulça, Hırşova, Mangalia yok. Mangalia kritiktir - 1878 Berlin sınırının (Silistre-Mangalia hattı) güney ucu odur; o nokta olmadan hat çizilemez. Koordinat + kaynak rapor §4'te."
+    },
+    "H-0048": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR = NOKTASIZLIK, ve bu maddede noktasızlık kazanımın TAMAMINI siliyor. Karadağ 1879-01-01'de İKİ noktayla duruyor: Cetinje, Podgorica. Berlin (Md. 28) Karadağ'ın yüzölçümünü ikiye katladı ve ona ADRİYATİK ÇIKIŞI verdi. Eksik: Nikşiç, Antivari (Bar), Ülgün (Ulcinj), Kolaşin. ⇒ Kazanım haritada hiç çizilmiyor, çizilemez. 🔴 VE ATLASIN KENDİ KRONOLOJİSİ BUNU ZATEN ANLATIYOR: kronoloji_balkan.js'te 'Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü' maddesi var. Kronoloji üç şehri adıyla anıyor, harita üçünü de gösteremiyor - CLAUDE.md §1'in 'kronoloji ile harita birbirini doğrulamalı' ölçütünün doğrudan ihlali. Koordinat + kaynak rapor §4'te."
+    },
+    "H-0049": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR, ama sorulan yerde değil. Emre'nin 'Niğbolu karşısındaki sınır' dediği çizgi bir DEVLET SINIRI DEĞİL - aynı devletin iki kademesi arasındaki ton ayrıtı. Ölçüm (1879-01-01): s:bulgaristan-prensligi (TAM RENK) = Niğbolu, Plevne, İhtiman · v:bulgaristan-prensligi (AÇIK TON) = Sofya, Vidin, Rusçuk, Tırnova, Varna, Şumnu, Silistre. Prenslik 1878-1908 Osmanlı'ya TÂBİ olduğundan doğru kademe v:dir; üç nokta yanlış kademede. Yama A5."
+    },
+    "H-0050": {
+      "hukum": "kosu-bekliyor",
+      "not": "KISMEN DOĞRU. 1878 taksimi doğru (Silistre bulgar, Köstence romen, Varna bulgar). İKİ KUSUR: (1) YANLIŞ ANTLAŞMA: Silistre'nin Romanya'ya geçişi 1913-05-30 (Londra) yazılmış. Güney Dobruca'yı Romanya'ya veren belge BÜKREŞ ANTLAŞMASI (10 Ağustos 1913)'tir; Romanya Londra'ya taraf değil. 72 gün + yanlış belge. Yama A8. (2) NOKTASIZLIK: Silistre ile Köstence arasında ve Köstence'nin güneyindeki bütün kıyıda nokta yok - Mangalia, Balçık, Dobriç, Tutrakan. Güney Dobruca'nın 1913'te el değiştirişi bu yüzden çizilemiyor."
+    },
+    "H-0052": {
+      "hukum": "senin-kararin",
+      "not": "AÇIK UÇLU KAPSAM TALEBİ (M-5024 ④). İstek dokuz ülke sayıyor (Sırbistan, Romanya, Bulgaristan, Arnavutluk, Karadağ, Bosna-Hersek, Hırvatistan, Kosova, Makedonya) ve 'her ülke için ek okuma maddesi' istiyor. ÖLÇÜM: her ülke için TDV dayanaklı bir kart ≈ 2-4 TDV maddesi gövdesi + kart yazımı; dokuz ülke bir gecede bitmez ve kapsamı yalnız Emre açar. ⇒ YAPILAN: isteğin son paragrafında ADIYLA geçen ülke için TEK kart üretildi (p76g-bulgaristan-kurtulus-anlatisi). Kalan sekiz ülke SIRADA - Emre kararı. Not: Bosna tarafı için ayrıca p76g-avusturya-bosna-ilgisi kartı var."
+    },
+    "H-0053": {
+      "hukum": "kosu-bekliyor",
+      "not": "İKİ SORU, İKİ AYRI CEVAP. (1) NİŞ - zaten-dogru: s:sirbistan-prensligi, veri doğru. Sırp İSYANCILARIN eline geçmedi; Sırbistan Prensliği'nin DÜZENLİ ORDUSU 1877-78 savaşında aldı, Berlin Md. 36 tasdik etti. Atlasın kendi kronolojisi de bunu yazıyor: 'Berlin Antlaşması - bağımsızlık kesinleşti, Niş ve Pirot katıldı'. (2) SOFYA - KUSUR: v:[bulgaristan-prensligi 1878-01-04..] yazıyor; Prenslik o gün YOKTU. TDV BULGARİSTAN: 'Berlin Antlaşması ile ... muhtar bir Bulgaristan Prensliği kuruldu' (13 Temmuz 1878). 4 Ocak 1878 Rus ordusunun Sofya'ya girdiği gündür; o pencerede RUS askerî idaresi vardır. Emre iki kere haklı: hem Rus idaresi vardı hem v: açık ton çizdiği için Sofya gerçekten 'açık Osmanlı' görünüyor. 13 Temmuz sonrası v: DOĞRU, yalnız başlangıç yanlış. Yama A4. ÖLÇÜLDÜ: aynı hata öteki 7 Prenslik noktasında YOK, yalnız Sofya'da."
+    },
+    "H-0057": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR, ve Emre'nin gördüğü şey BİREBİR ölçüldü. 'Bosna Hersek'in bir kısmı işgal edilmiş gibi görünürken batı kesiminde sanki Osmanlı kalan şehirler var gibi görünüyor' ⇒ ÖLÇÜM: Bosna'nın 16 noktasından 12'sinde isg:avusturya var, 4'ünde YOK, ve dördü de KUZEYBATIDA (Una-Sava hattı): Bosna Brod'u, Bosna Dubiçası, Bosna Novi'si, Krupa. %25. Yama A3. 'Bulgaristan haritası bir garip' ⇒ H-0044'ün noktasızlığı: Doğu Rumeli üç nokta, Prenslik iki kademe. Romanya/Sırbistan tarafı H-0046/H-0047 ile aynı kök."
+    },
+    "H-0058": {
+      "hukum": "zaten-dogru",
+      "not": "VERİ DOĞRU, iş iddia edilmedi. Emre'nin sorusu ('Tesalya Yunanistan'a verilir iken Preveze Vonitsa Arta gibi şehirler Osmanlı'da mı kalmış acaba') ölçüldü: Arta s:[yunanistan 1881-07-02..] - 1881'de Yunanistan'a gitti (Tesalya ile birlikte). Preveze ve Vonitsa d:[.. 1913-11-14] - 1913 Atina Antlaşması'na kadar OSMANLI kaldı, ve 1912-10-21'den itibaren isg:[yunanistan] örtüsü taşıyor. ⇒ Evet, Osmanlı'da kalmışlar; atlas bunu doğru gösteriyor. Kusur bulunamadı."
+    },
+    "H-0060": {
+      "hukum": "kosu-bekliyor",
+      "not": "H-0046 İLE AYNI KÖK. Sırbistan Krallığı'na geçiş doğru kodlanmış (1882-03-06). Toprak sorusunun cevabı noktasızlıktır: 1878 kazanımlarının dördü (Vranya, Leskofça, Kurşumlu, Prokuplye) yok, dolayısıyla krallığın güney sınırı bir geometri artefaktı. Ayrı bir kusuru YOK; H-0046'nın yaması bunu da kapatır."
+    },
+    "H-0106": {
+      "hukum": "kosu-bekliyor",
+      "not": "İKİ SORU. (1) TOPRAK: H-0044 ile aynı kök. Bağımsız Bulgaristan Krallığı (~96.000 km²) 1909-01-01'de ON DÖRT noktayla temsil ediliyor (Prenslik 10 + Doğu Rumeli 3 + Prevadi 1). Prenslik ve Doğu Rumeli'nin 1908'de tek devlete birleşmesi DOĞRU kodlanmış; kusur nokta yoğunluğunda. (2) 'OSMANLININ HİÇBİR TEPKİSİ OLMAMIŞ MI' - ek okuma kartı üretildi: p76g-bagimsizlik-1908-osmanli-tepkisi. Cevap: tepki oldu ama sefer değil HUKUK PAZARLIĞI biçiminde - 1909 tarihli İstanbul protokolü (TDV, Bulgaristan Vakıfları bölümü), Bulgaristan'daki müslüman vakıfları, müftülükleri ve defter dilini düzenledi. TDV protokolün yalnız YILINI veriyor, gün uydurulmadı."
+    },
+    "H-0107": {
+      "hukum": "zaten-dogru",
+      "not": "TEMSİL DOĞRU - ve TDV bunu birebir doğruluyor. ÖLÇÜM: 1878-1908 arası Bosna d: (de jure Osmanlı taban) + isg:avusturya (de facto örtü); 1908-10-05'ten sonra s:avusturya (47 nokta). TDV BOSNA-HERSEK: Berlin'de 'Avusturya-Macaristan'ın himayesine verildi' ve '1878'de Avusturya-Macaristan idaresine verilen Bosna-Hersek'te Osmanlı Devleti'nin hakları 1908'deki kati ilhaka kadar resmen sürmüştü.' ⇒ Şemanın (girdi.py:851) Bosna örneği doğru uygulanmış. TEK KUSUR: §2.3'teki 4 nokta eksik (H-0043/H-0057 ile aynı yama). 🔴 TARİH FARKI BİLDİRİLİYOR: TDV ilhak ilânını 7 EKİM 1908 diyor; atlas yerleşim kayıtları 1908-10-05, kronoloji maddesi 1908-10-06. Üç ayrı gün. Fark gizlenmedi; hangisinin esas alınacağı koordinatörün veri kararıdır, ben DEĞİŞTİRMEDİM. İkinci soru ('Avusturya'nın Bosna'ya olan ilgisinin sebebi nedir') için ek okuma kartı: p76g-avusturya-bosna-ilgisi."
+    },
+    "H-0108": {
+      "hukum": "kosu-bekliyor",
+      "not": "AYNI KÖKLERİN BİRLEŞİMİ, ayrı bir kusuru yok. Bosna tarafı H-0107 (temsil doğru, 4 nokta eksik) · Bulgaristan tarafı H-0044/H-0106 (14 nokta, iki kademe, Köstendil) · Sırbistan tarafı H-0046/H-0060 (1878 kazanımlarının dördü yok). Bu devir (1908) için ayrıca ölçüldü: 1909-01-01'de Bosna bölgesindeki bütün noktalar s:avusturya'ya geçmiş, yani ilhak eksiksiz uygulanmış. Yamalar A3 + A1 + A5 + §4 nokta listesi bu maddeyi de kapatır."
+    },
+    "H-0134": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR, ve Emre'nin sezgisi BAŞKA BİR ANLAMDA doğru. Ölçüm: İşkodra d:[.. 1913-04-23] sonra s:[arnavutluk-bagimsiz 1913-04-23..]. 23 Nisan 1913 İşkodra'nın KARADAĞ'a düştüğü gündür (kuşatmanın sonu). Karadağ şehri Düvel-i Muazzama baskısıyla 14 Mayıs 1913'te boşalttı ve şehir Arnavutluk'a bırakıldı. ⇒ Atlas İMKÂNSIZ BİR DEVİR yazıyor: Osmanlı → (aynı gün) Arnavutluk; Karadağ hiç görünmüyor. Emre'nin 'İşkodra hariç mi kalmış' sorusunun cevabı: EVET, kuruluşta Arnavutluk'un dışındaydı - Karadağ'ın elindeydi. Yama A7. ⚠️ 1913-05-14 için TDV ARANMADI (aranmadı ≠ bulunamadı); koordinatör isterse teyid ettirsin. NOT: 1912-10-08 - 1913-05-29 penceresinde atlasta Karadağ'a ait HİÇBİR kayıt yok, oysa TDV savaşın başlangıcını 'Karadağ'ın Arnavutluk ve Yenipazar sancağına girmesi' diye tarif ediyor."
+    },
+    "H-0135": {
+      "hukum": "zaten-dogru",
+      "not": "VERİ DOĞRU - ve bu maddenin kıymeti şudur: düzeltilecek taraf Yunanistan DEĞİL. Ölçüm: 1. Balkan penceresinde Yunanistan 25 nokta isg: (de facto örtü), bitişleri 1913-11-14 = Atina Antlaşması; Selanik'te s:[yunanistan 1913-11-14..] devrediyor. Bu, girdi.py:851'in şema kararına UYAN taraftır (isg: = de facto, taban rengi de jure kalır). Tek istisna: İmroz s:[yunanistan 1912-11-01..1913-11-01] - 41 de jure s: kaydının Yunanistan'a ait tek olanı, ve dosyanın kendi Yunanistan konvansiyonuna da aykırı (yama A9). ⇒ H-0138/H-0145'in yaması Bulgaristan ve Sırbistan'ı BU tarafa getirir."
+    },
+    "H-0138": {
+      "hukum": "kosu-bekliyor",
+      "not": "🔴 KÖK SEBEP MADDESİ - Emre'nin istediği şey ŞEMANIN KENDİ KURALI. ÖNGÖRÜ ölçümden önce yazıldı ve DOĞRULANDI: 1912-10-08..1913-05-29 penceresinde (bbox lat 38-44 / lon 19-29) s: = 41, isg: = 25, v: = 0; isg:in TAMAMI Yunanistan, s:in tamamı Bulgaristan/Sırbistan/Arnavutluk. Yarık hukukî eksende değil AKTÖR ekseninde. Şema (girdi.py:851, commit 043e911): isg: = de facto örtü, motor OKUMAZ, taban rengi de jure kalır. ⇒ 'ikisi de işgal etmiş görünmeli, barış anlaşmasından sonra kendi renklerine dönmeli' = uygulanmamış bir karar. VE TUTARSIZLIK AYNI ŞERİTTE ÖLÇÜLDÜ: Trakya'da 14 nokta de facto günle (1912-10-24..1913-03-26, bitiş 1913-07-21), 11 nokta de jure günle (1913-05-30 Londra / 1913-09-29 İstanbul), 1 nokta belirsiz (Kırcaali 1913-07-14). Edirne de jure HİÇ Bulgar olmadı - İstanbul Antlaşması onu Osmanlı'da bıraktı. Yama B1. 🔴 TEK BAŞINA UYGULANMAZ: KRONO-0076-C ile eşleşmeli. ÖLÇTÜM: yeni de jure günlerin (1913-05-30, 1913-08-10, 1913-09-29) kronoloji maddeleri VAR, yani Değişmez 2 yeni tarafta sağlanıyor; kaldırılan de facto s: kırılmaları da Değişmez 2 yükünü DÜŞÜRÜYOR."
+    },
+    "H-0143": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR TEYİD EDİLDİ - Emre haklı. Londra Antlaşması (30 Mayıs 1913) Enez-Midye hattını çizdi; doğusu Osmanlı. ÖLÇÜM: hattın DOĞUSUNDA 15 nokta s:bulgaristan-kralligi taşıyor - Edirne, Kırklareli, Vize, Demirköy, İğneada, Dereköy, Kofçaz, Lalapaşa, Havsa, Uzunköprü, Meriç, Uluköy, Küfkaynapınarı ve TEKİRDAĞ (40.984, 27.508 - hattın çok gerisinde). Bunların hiçbiri de jure Bulgar olmadı. H-0138 ile AYNI KÖK, aynı yama (B1) ikisini birden kapatır. Ayrıca İmroz kaydı (yama A9) bu hattın güney ucundadır."
+    },
+    "H-0145": {
+      "hukum": "kosu-bekliyor",
+      "not": "KUSUR TEYİD EDİLDİ - istek birebir şemanın kuralıdır. Emre: 'SIRBİSTAN OSMANLIDAN ALDIĞI TOPRAKLARIN İŞGAL OLARAK GÖSTERİLMESİ, BARIŞ ANLAŞMASI SONUNDA İSE ALINAN YERLERİN ALAN DEVLETİN RENGİNE DÖNMESİ SAĞLANMALIDIR.' ÖLÇÜM: Sırbistan'ın 13 kaydı s: (de jure) ve hepsi 1912-10-22..1912-11-29 arası başlıyor - yani ordunun şehirlere girdiği günler. De jure taksim BÜKREŞ ANTLAŞMASI (10 Ağustos 1913). Sırbistan için isg: kaydı SIFIR. Yama B2. H-0138 ile aynı kök; B1+B2 birlikte uygulanır. Bükreş gününün kronoloji maddesi VAR (ölçüldü)."
+    },
+    "H-0146": {
+      "hukum": "kosu-bekliyor",
+      "not": "ÖLÇÜLDÜ, dördü de cevaplandı. Edirne s:[bulgaristan-kralligi 1913-03-26..1913-07-21]. Emre'nin sorduğu dört yer: ÇİRMEN s:[bulgar 1913-05-30..] · DİMETOKA s:[bulgar 1913-05-30..] · ORESTİADA (Kumçiftliği) s:[bulgar 1913-05-30..] · MUSTAFAPAŞA (Svilengrad) s:[bulgar 1913-09-29..]. ⇒ CEVAP: veride hiçbiri 'Edirne harekâtında alınmış' olarak DEĞİL, antlaşma günüyle kayıtlı. Yani operasyonel ele geçirme HİÇBİR YERDE kayıtlı değil - Bulgar ordusu Mart 1913'te Meriç'in batısına geçmişti ama bunun izi yok. Sebep H-0138'in kök sebebi: Bulgaristan için isg: katmanı hiç kullanılmamış. B1 yaması bunu da kapatır (isg: eklenince harekât görünür, antlaşma günü de jure kalır). 🔴 TARİH FARKI BİLDİRİLİYOR: TDV BULGARİSTAN Edirne'nin Osmanlı tarafından geri alınışını 20 TEMMUZ 1913 diyor; atlas 1913-07-21 kullanıyor. Bir gün. Gizlenmedi, DEĞİŞTİRİLMEDİ - veri kararı koordinatörün."
+    },
+    "H-0151": {
+      "hukum": "sirada",
+      "not": "KABUL, ama SIRASI B1/B2 YAMASINDAN SONRA. İstek: 'Balkan Savaşlarında şehirlerin Osmanlı egemenliğinden çıkışlarını adım adım kronoloji maddeleri ve senkronize harita gösterimi ile gösterelim.' ÖLÇÜM: bugün bu YAPILAMAZ, çünkü haritanın kendisi iki türlü kodlanmış (14 de facto / 11 de jure, H-0138). 'Adım adım' bir anlatı, adımların aynı ölçekte olmasını gerektirir; bugün bir şehrin düşüşü kimi yerde işgal kimi yerde ilhak olarak kayıtlı. ⇒ ÖNCE B1+B2 uygulanmalı, SONRA adım adım kronoloji kurulabilir ve o zaman her adım haritada bir isg: örtüsü olarak görünür, barış günü taban rengine döner - Emre'nin H-0138'de istediğinin ta kendisi. Ayrıca istek ucu açık (kaç şehir, hangi tanecik): kapsam kararı Emre'de."
+    },
+    "H-0153": {
+      "hukum": "zaten-dogru",
+      "not": "İKİ SORU. (1) TOPRAK - zaten-dogru: Ahtapolu (Ahtopol) ve Mustafapaşa (Svilengrad) ikisi de s:[bulgaristan-kralligi 1913-09-29..] = İSTANBUL ANTLAŞMASI (29 Eylül 1913). ⇒ Evet, 2. Balkan Savaşı sonunda Bulgarlara verildi ve veri DOĞRU; ayrıca Malko Tırnova ve Rezve de aynı gün. Çirmen s:[bulgar 1913-05-30..1920-05-14] sonra s:[yunanistan] - Batı Trakya üzerinden Bulgaristan'a, 1920'de Yunanistan'a: tutarlı. Bu dört nokta dosyanın DOĞRU KODLANMIŞ tarafıdır (H-0138'deki 11 de jure kayıttan dördü). (2) EK OKUMA - üretildi: p76g-balkan-savasi-bulgar-hafizasi. Çatalca'ya kadar geri çekiliş TDV'de var: 'Bulgarlar ... Çatalca'ya kadar Trakya'nın tamamına hâkim oldular'. Bulgar anlatısındaki 'birinci/ikinci millî felâket' adlandırması TDV'de GEÇMİYOR - kartta yaygın terim olarak verildi ve ic_not'ta zayıf halka diye işaretlendi."
+    }
+  }
+}
