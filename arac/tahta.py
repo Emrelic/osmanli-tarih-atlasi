@@ -1156,8 +1156,20 @@ def main(argv):
             def al(ad, _a=argv):                      # noqa: F811 — yeni argv
                 return _a[_a.index(ad) + 1] if (ad in _a and _a.index(ad) + 1 < len(_a)) else None
         if not (al("--kim") and al("--kime") and al("--mesaj")):
+            # 🔴 23 Eylül 2026 — `--mesaj-dosya` BU LİSTEDE YOKTU ve bir oturum
+            # onu "böyle bir seçenek YOK" diye raporladı; oysa seçenek 40 satır
+            # yukarıda ÇALIŞIYOR. Oturum kodu değil ÇIKTIYI okumuştu — ve haklı
+            # okumuştu: bir aracın kullanım metni, aracın sözleşmesidir.
+            # Yazılı olmayan seçenek YOK sayılır (A7: bir çıktının sahibi, onu
+            # OKUYANLARI da taşır). Sonuç: Türkçe/backtick taşıyan mesajlar
+            # kabuktan geçirilmeye devam ediyordu — §11'in tam yasakladığı yol.
             print("kullanim: tahta.py yaz --kim <AD> --kime <AD|KOORDINATOR|HERKES>")
-            print("          --mesaj <metin> [--cevap-bekle] [--vade 'YYYY-AA-GG SS:DD']")
+            print("          --mesaj <metin> | --mesaj-dosya <yol>")
+            print("          🔴 Türkçe · backtick · kaçış taşıyan mesajda --mesaj-dosya ŞART:")
+            print("             metni Write ile dosyaya yaz, bash o dosyaya DOKUNMASIN.")
+            print("             (bash backtick'i KOMUT sanar, kelimeyi SİLER, araç yine 'yazıldı' der)")
+            print("          [--cevap-bekle] [--vade 'YYYY-AA-GG SS:DD']")
+            print("          [--aciliyet ACIL --dayanak '<niçin durdurucu>']   (HERKES için ŞART)")
             print("          [--yanit M-0007]")
             return 2
         return yaz({"kim": al("--kim"), "kime": al("--kime"), "mesaj": al("--mesaj"),
