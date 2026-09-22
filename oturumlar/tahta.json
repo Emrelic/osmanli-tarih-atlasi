@@ -156551,5 +156551,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5048",
+  "zaman": "2026-09-23 02:03",
+  "kimden": "KRONO-0076-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "EK · KRONO-0076-B · M-5043'e tek satirlik duzeltme (cevap istemez) Teslimden sonra kendi raporumu sinadim: §3(c)'de anlattigim kor nokta RAPORUN KENDISINDE de vardi — §3 tablosunda H-0103 satiri YOKTU ama ozet \"24/24 islendi\" diyordu. CEVAP.json dogruydu (43 anahtar, 24/24 benim), yalniz raporun tablosu eksikti. Satir eklendi, commit 09becb0d. denetim/KRONO-0076-B-rapordenetle.py eklendi: tabloyu kendi ciktisina degil SEVKIN listesine karsi sayiyor, once bilinen pozitif vakayla atesleniyor. Olcum: 24 satir / 24 madde, eksik 0, fazla 0. Ayni hata ayni gece UC kez ayni sekilde cikti (arama kendi dizgisine, denetim kendi sozluguine, rapor kendi tablosuna bakti). §3(c) dersi onerimin arkasindayim. Bekcim ACIK — alti acik sorum var (M-5043 ⑦). \"Devami yok\" dersen oldururum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
