@@ -1,0 +1,4306 @@
+{
+ "baslik": "H-0007 ÜSLUP TEMİZLİĞİ — Emre adı ve geliştirici sesi taraması",
+ "hazirlayan": "EKOKUMA-TOPLUM-0075",
+ "tarih": "2026-09-21",
+ "hukum": "Emre (0075/H-0007): 'bir daha benden Emre diye bahsetme' — yerine: tarihseverler belki merak eder · akla gelen bir soru · şu konuda bir tartışma olabilir · merak edilen bir mesele; kaynaksız yorum 'sayfanın yorumlaması' diye damgalanır.",
+ "olcum_yontemi": "data/*.js her dosya node vm ile çalıştırıldı (446 dosya); her window.* nesnesi özyinelemeli gezildi; yol boyunca 'ic_not*' alanı geçen dizgi ATLANDI (js/app.js:_icNotAyikla ekranda basmıyor). Dizgi cümle/madde parçalarına bölünüp desenle tarandı.",
+ "gorunurluk_olcutu": {
+  "ek_okuma": "ekKartHtml (js/app.js:10659) ic_not* dışındaki kart alanlarını ve 'Kaynak:' satırını basar → ic_not dışı HER yazı alanı GÖRÜNÜR sayıldı.",
+  "kronoloji": "obGoster (js/app.js:9197) yalnız b · d · gun · yer · k · kisiler · kaynak basar; kaynak METİN olarak değil bağlantı olarak (TDV url + kaynak) basılır — bu yüzden yalnız b/d/gun/yer/k tarandı, kaynak ayrı ölçüldü (D sınıfı)."
+ },
+ "kapsam_disi": [
+  "data/yerlesimler*.js, yer_yama_*.js, kademe_*.js, yama_*.js, hukuki_sinirlar.js, d_sinirlar*.js, kaynakli_halka_*.js, savaslar.js (SEFERLER.kaynak), etiket_*.js: 'Emre' geçen bu alanlar (neden/gerekce/hukum/kaynak/not) js/app.js'te kullanıcıya basılmıyor (okuma noktası yok) — İSTİSNA (ölçüldü, bölüm E): kasitli_bosluk neden alanı basılır.js:8226) ve bos_alanlar.js BOS_CINSLER.*.aciklama (app.js:2390): bunlar ayrıca ölçüldü, aşağıya bkz.",
+  "kayıt olay_yama_*.js: yama dosyası, kullanıcıya basılmaz."
+ ],
+ "ozet": {
+  "A_emre_adi": {
+   "madde_sayisi": 6,
+   "kart_veya_madde": 6,
+   "ek_okuma_kart": 5,
+   "kronoloji_madde": 1,
+   "dosyalar": [
+    "ekokuma_1806.js",
+    "ekokuma_kolemen.js",
+    "ekokuma_yeniceri.js",
+    "olaylar_ek8.js"
+   ]
+  },
+  "B_ek_okuma_gelistirici_sesi": {
+   "bulgu": 122,
+   "kart": 71,
+   "dosya": 19
+  },
+  "C_kronoloji_gelistirici_sesi": {
+   "bulgu": 85,
+   "madde": 85,
+   "dosya": [
+    "kronoloji_gurcistan.js",
+    "kronoloji_isvec.js",
+    "kronoloji_sinir_afrika.js",
+    "kronoloji_sinir_avrupa_orta.js",
+    "kronoloji_sinir_guney_g8.js"
+   ],
+   "kalip_dagilimi": {
+    "bu-dosya": 2,
+    "dosya-yolu": 1,
+    "tur": 1,
+    "": 1,
+    "kronoloji-tasima-notu": 80
+   }
+  },
+  "B_silinecek_cumle": 3,
+  "C_silinecek_cumle": 83,
+  "D_gozlem_kronoloji_kaynak_alani": {
+   "toplam_madde": 7165,
+   "kirik_kaynak": 4818,
+   "ornek": [
+    {
+     "dosya": "kronoloji_akkoyunlu.js",
+     "t": "1386-01-01",
+     "kaynak": "karakoyunlular · akkoyunlular"
+    },
+    {
+     "dosya": "kronoloji_akkoyunlu.js",
+     "t": "1409-01-01",
+     "kaynak": "akkoyunlular · karakoyunlular"
+    },
+    {
+     "dosya": "kronoloji_akkoyunlu.js",
+     "t": "1417-01-01",
+     "kaynak": "akkoyunlular · karakoyunlular"
+    },
+    {
+     "dosya": "kronoloji_akkoyunlu.js",
+     "t": "1418-09-20",
+     "kaynak": "akkoyunlular · karakoyunlular"
+    },
+    {
+     "dosya": "kronoloji_akkoyunlu.js",
+     "t": "1420-01-01",
+     "kaynak": "akkoyunlular (metinde belirsizlik var, açıkça bildirildi)"
+    }
+   ],
+   "uyari": "DOĞRULANMADI, yalnız kaynak koddan okundu: obGoster (js/app.js:9304-9308) o.kaynak'ı OLDUĞU GİBİ 'https://islamansiklopedisi.org.tr/' + o.kaynak bağlantısına koyuyor; 'kirik_kaynak' = boşluk ya da 'bulunamad' içeren kaynak alanı (slug listesi ya da bulunamadı notu). Tarayıcıda çalıştırılıp bağlantı denenmedi. Sahibi: js/app.js — Oturum 0 / MOTOR."
+  },
+  "gorunmez_ic_not_emre": {
+   "alan": 17,
+   "kayit": 0,
+   "dosya": {
+    "ekokuma_hanedan.js": 2,
+    "ekokuma_korfez.js": 1,
+    "ekokuma_magazin.js": 1,
+    "ekokuma_statu.js": 1,
+    "ekokuma_venedik.js": 1,
+    "ekokuma_vezir.js": 1,
+    "ekokuma_yenilesme.js": 1,
+    "olaylar_ek.js": 1,
+    "olaylar_ek10.js": 1,
+    "olaylar_ek17.js": 1,
+    "olaylar_ek5.js": 2,
+    "olaylar_p0048.js": 2,
+    "olaylar_p0056.js": 2
+   }
+  },
+  "yanlis_pozitif_atilan": 3,
+  "E_kasitli_bosluk_neden": {
+   "kayit": 321,
+   "gelistirici_sesi_tek_desen_ve_uzeri": 115,
+   "emre_kayit": 1,
+   "kesin_gelistirici_sesi_yaklasik": 10
+  }
+ },
+ "A_emre_adi": [
+  {
+   "tur": "ek_okuma",
+   "dosya": "ekokuma_1806.js",
+   "degisken": "EKOKUMA_1806",
+   "id": "dorduncu-mustafa-sevilen-mi",
+   "alan": "metin",
+   "yol": "EKOKUMA_1806[5].metin",
+   "mevcut_cumle": "Emre'nin sorusu şuydu: IV. Mustafa tarihçiler tarafından sevilen bir kişi mi, yoksa şimşekleri üstüne mi çekmiştir?",
+   "degisen_parca": "Emre'nin sorusu şuydu:",
+   "yeni_parca": "Akla gelen bir soru şuydu:",
+   "onerilen": "Akla gelen bir soru şuydu: IV. Mustafa tarihçiler tarafından sevilen bir kişi mi, yoksa şimşekleri üstüne mi çekmiştir?",
+   "oneri_turu": "elle",
+   "not": ""
+  },
+  {
+   "tur": "ek_okuma",
+   "dosya": "ekokuma_kolemen.js",
+   "degisken": "EKOKUMA_KOLEMEN",
+   "id": "tosun-pasa-kimdir",
+   "alan": "metin",
+   "yol": "EKOKUMA_KOLEMEN[1].metin",
+   "mevcut_cumle": "Emre'nin haritaya dair sorusunun kaynaktaki cevabı tek cümlede duruyor (Şimşek): \"Eylül 1811'de başlayan bu seferde piyade askerleri gemiler aracılığıyla denizden, süvari birliği ise karadan yol almıştır.\" Kevser Değirmenci ordunun terkibini ve mevcudunu verir: \"çoğunluğu Arnavut ve Türklerden bir kısmı da düzenli asker ve Fransızlar tarafından eğitilmiş piyadelerden oluşan 3.500 kişilik bir kuvvet.\" Hedef bir liman şehriydi ve niçin o şehir olduğu TDV'nin `yenbu` maddesinde yazılıdır: Yenbu \"Medine'nin limanı\"dır ve Vehhâbîler \"Medine'nin erzak ambarı Yenbu' ile bağlantısını kesip\" şehri kuşatmıştı.",
+   "degisen_parca": "Emre'nin haritaya dair sorusunun kaynaktaki cevabı",
+   "yeni_parca": "Haritaya dair akla gelen bir sorunun kaynaktaki cevabı",
+   "onerilen": "Haritaya dair akla gelen bir sorunun kaynaktaki cevabı tek cümlede duruyor (Şimşek): \"Eylül 1811'de başlayan bu seferde piyade askerleri gemiler aracılığıyla denizden, süvari birliği ise karadan yol almıştır.\" Kevser Değirmenci ordunun terkibini ve mevcudunu verir: \"çoğunluğu Arnavut ve Türklerden bir kısmı da düzenli asker ve Fransızlar tarafından eğitilmiş piyadelerden oluşan 3.500 kişilik bir kuvvet.\" Hedef bir liman şehriydi ve niçin o şehir olduğu TDV'nin `yenbu` maddesinde yazılıdır: Yenbu \"Medine'nin limanı\"dır ve Vehhâbîler \"Medine'nin erzak ambarı Yenbu' ile bağlantısını kesip\" şehri kuşatmıştı.",
+   "oneri_turu": "elle",
+   "not": ""
+  },
+  {
+   "tur": "ek_okuma",
+   "dosya": "ekokuma_kolemen.js",
+   "degisken": "EKOKUMA_KOLEMEN",
+   "id": "tosun-pasa-film-mi-tarih-mi",
+   "alan": "metin",
+   "yol": "EKOKUMA_KOLEMEN[2].metin",
+   "mevcut_cumle": "SORU EMRE'NİN, ÖLÇÜT KAYNAĞIN.",
+   "degisen_parca": "SORU EMRE'NİN, ÖLÇÜT KAYNAĞIN.",
+   "yeni_parca": "SORU MERAK EDENİN, ÖLÇÜT KAYNAĞIN.",
+   "onerilen": "SORU MERAK EDENİN, ÖLÇÜT KAYNAĞIN.",
+   "oneri_turu": "elle",
+   "not": "aynı cümlede 'bu oturumda İZLENMEDİ' de var — B sınıfı"
+  },
+  {
+   "tur": "ek_okuma",
+   "dosya": "ekokuma_yeniceri.js",
+   "degisken": "EKOKUMA_YENICERI",
+   "id": "yeniceri-ilga-cozulme-tartismasi",
+   "alan": "metin",
+   "yol": "EKOKUMA_YENICERI[3].metin",
+   "mevcut_cumle": "Emre'nin saydığı çözülme belirtilerini tarih sırasına koyduğumuzda ortaya şu çıkar.",
+   "degisen_parca": "Emre'nin saydığı",
+   "yeni_parca": "Tarihseverlerin sıkça saydığı",
+   "onerilen": "Tarihseverlerin sıkça saydığı çözülme belirtilerini tarih sırasına koyduğumuzda ortaya şu çıkar.",
+   "oneri_turu": "elle",
+   "not": ""
+  },
+  {
+   "tur": "ek_okuma",
+   "dosya": "ekokuma_yeniceri.js",
+   "degisken": "EKOKUMA_YENICERI",
+   "id": "bektasi-yeniceri-baglantisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_YENICERI[5].metin",
+   "mevcut_cumle": "Tarih burada Emre'nin sorusuna dolaylı bir cevap verir: 1826'da kapatılan şey bir inanç değil, bir İTTİFAKTIR.",
+   "degisen_parca": "Emre'nin sorusuna",
+   "yeni_parca": "akla gelen bir soruya",
+   "onerilen": "Tarih burada akla gelen bir soruya dolaylı bir cevap verir: 1826'da kapatılan şey bir inanç değil, bir İTTİFAKTIR.",
+   "oneri_turu": "elle",
+   "not": ""
+  },
+  {
+   "tur": "kronoloji",
+   "dosya": "olaylar_ek8.js",
+   "degisken": "OLAYLAR_EK8",
+   "id": null,
+   "alan": "gun",
+   "yol": "OLAYLAR_EK8[6].gun",
+   "mevcut_cumle": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor) — Emre kararı 14 Eylül 2026",
+   "degisen_parca": " — Emre kararı 14 Eylül 2026",
+   "yeni_parca": " — kaynak yalnız yılı veriyor, gün bilinmiyor",
+   "onerilen": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor) — kaynak yalnız yılı veriyor, gün bilinmiyor",
+   "oneri_turu": "elle",
+   "not": ""
+  }
+ ],
+ "B_ek_okuma_gelistirici_sesi": [
+  {
+   "dosya": "ekokuma_1806.js",
+   "degisken": "EKOKUMA_1806",
+   "id": "1806-savasin-sebebi-voyvoda-azli",
+   "alan": "metin",
+   "yol": "EKOKUMA_1806[0].metin",
+   "mevcut_cumle": "Atlasın kendi kaydı geçişin başlangıcını Jülyen 11 Kasım = 23 Kasım 1806 olarak taşıyor;",
+   "onerilen_cumle": "Sayfanın kendi kaydı geçişin başlangıcını Jülyen 11 Kasım = 23 Kasım 1806 olarak taşıyor;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_alemdar.js",
+   "degisken": "EKOKUMA_ALEMDAR",
+   "id": "alemdar-28-temmuz-1808-kargasa",
+   "alan": "metin",
+   "yol": "EKOKUMA_ALEMDAR[0].metin",
+   "mevcut_cumle": "⚠️ Bu uzun anlatı bir AKTARIMDIR: Cunbur 1985 ve Cevdet Paşa'nın metni bu oturumda açılmadı;",
+   "onerilen_cumle": "⚠️ Bu uzun anlatı bir AKTARIMDIR: Cunbur 1985 ve Cevdet Paşa'nın metni açılmadı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_alemdar.js",
+   "degisken": "EKOKUMA_ALEMDAR",
+   "id": "ayan-hangi-aile-nereyi-tutuyordu",
+   "alan": "metin",
+   "yol": "EKOKUMA_ALEMDAR[2].metin",
+   "mevcut_cumle": "ayrı bir TDV maddesi bu oturumda BULUNAMADI, künyesi yukarıdaki `selim-iii` cümlesidir.",
+   "onerilen_cumle": "ayrı bir TDV maddesi BULUNAMADI, künyesi yukarıdaki `selim-iii` cümlesidir.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_alemdar.js",
+   "degisken": "EKOKUMA_ALEMDAR",
+   "id": "ayan-hangi-aile-nereyi-tutuyordu",
+   "alan": "metin",
+   "yol": "EKOKUMA_ALEMDAR[2].metin",
+   "mevcut_cumle": "müstakil TDV maddesi bu oturumda bulunamadı).",
+   "onerilen_cumle": "müstakil TDV maddesi bulunamadı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_alemdar.js",
+   "degisken": "EKOKUMA_ALEMDAR",
+   "id": "ruslara-niye-direnilemedi-1806-1812",
+   "alan": "metin",
+   "yol": "EKOKUMA_ALEMDAR[5].metin",
+   "mevcut_cumle": "Rus ordusunun tüfek, top, eğitim ve subay yetiştirme bakımından dönemin Osmanlı ordusuyla SAYIYA DÖKÜLMÜŞ bir karşılaştırması bu oturumda açılan kaynaklarda bulunamadı.",
+   "onerilen_cumle": "Rus ordusunun tüfek, top, eğitim ve subay yetiştirme bakımından dönemin Osmanlı ordusuyla SAYIYA DÖKÜLMÜŞ bir karşılaştırması başvurulan kaynaklarda bulunamadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_antlasma4.js",
+   "degisken": "EKOKUMA_ANTLASMA4",
+   "id": "antlasma4-pasarofca-1718",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_ANTLASMA4[0].kaynak",
+   "mevcut_cumle": "ayrıca bk. ekokuma.js antlasma-pasarofca-1718 ve ekokuma_antlasma2.js sebep-sonuc-pasarofca-1718",
+   "onerilen_cumle": "ayrıca bk. ilgili ek okuma kartı antlasma-pasarofca-1718 ve ilgili ek okuma kartı sebep-sonuc-pasarofca-1718",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_avusturya.js",
+   "degisken": "EKOKUMA_AVUSTURYA",
+   "id": "avusturya-osmanli-askeri-geri-kalis-1683-1718",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_AVUSTURYA[1].kaynak",
+   "mevcut_cumle": "TDV (gövdeleri bu oturumda okundu): yeniceri",
+   "onerilen_cumle": "TDV (gövdeleri okundu): yeniceri",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_camitarz.js",
+   "degisken": "EKOKUMA_CAMITARZ",
+   "id": "camitarz-bes-donem",
+   "alan": "not",
+   "yol": "EKOKUMA_CAMITARZ[0].not",
+   "mevcut_cumle": "erken Osmanlı ve ampir/eklektik için bu dosyadaki Bursa Ulucami ve Nusretiye Camii kartları.",
+   "onerilen_cumle": "erken Osmanlı ve ampir/eklektik için bu dosyadaki Bursa Ulucami ve Nusretiye Camii kartları.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_camitarz.js",
+   "degisken": "EKOKUMA_CAMITARZ",
+   "id": "camitarz-bes-donem",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_CAMITARZ[0].kaynak",
+   "mevcut_cumle": "TDV İslâm Ansiklopedisi: ulucami, nuruosmaniye-kulliyesi, sultan-ahmed-camii-ve-kulliyesi, nusretiye-camii — bu dosyada ve ekokuma_mimari*.js'te ayrı ayrı kaynaklanmış maddelerin sentezi.",
+   "onerilen_cumle": "TDV İslâm Ansiklopedisi: ulucami, nuruosmaniye-kulliyesi, sultan-ahmed-camii-ve-kulliyesi, nusretiye-camii — burada ve ilgili ek okuma kartı'te ayrı ayrı kaynaklanmış maddelerin sentezi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "bu-dosya",
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-hurmuz-bogazi-onemi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[1].kaynak",
+   "mevcut_cumle": "Zheng He seferleri için atlasın kendi 1414-01-01 kaydı (bağımsız akademik doğrulama bu oturumda yapılmadı — standart Ming denizcilik tarihi bilgisi)",
+   "onerilen_cumle": "Zheng He seferleri için sayfanın kendi kaydı (bağımsız akademik doğrulama yapılmadı — standart Ming denizcilik tarihi bilgisi)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum",
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-cografi-kesifler",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[3].kaynak",
+   "mevcut_cumle": "Sefarad göçü: TDV `bayezid-ii` — atlasın kendi 1492-08-01 kaydı.",
+   "onerilen_cumle": "Sefarad göçü: TDV `bayezid-ii` — sayfanın kendi kaydı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-icatlar-sinai-donem",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[5].metin",
+   "mevcut_cumle": "bu imtiyazlar aynı zamanda mali bağımlılığın (bkz. Düyûn-ı Umûmiyye, `ekokuma_ekonomi.js`) bir başka kanalıydı.",
+   "onerilen_cumle": "bu imtiyazlar aynı zamanda mali bağımlılığın (bkz. Düyûn-ı Umûmiyye, ilgili ek okuma kartı) bir başka kanalıydı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-icatlar-sinai-donem",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[5].metin",
+   "mevcut_cumle": "Osmanlı tarafında bu alanlarda yerli bir sınai devrim yaşanmadı — 1838 Balta Limanı Antlaşması'ndan sonra serbestleşen pazar, gümrük korumasından yoksun yerli üretimi Avrupa'nın makineleşmiş mallarıyla doğrudan rekabete soktu (bkz. `ekokuma_ekonomi.js` Balta Limanı kartı) ve sanayileşme yerine ham madde ihraç eden, mamul ithal eden bir konum pekişti.",
+   "onerilen_cumle": "Osmanlı tarafında bu alanlarda yerli bir sınai devrim yaşanmadı — 1838 Balta Limanı Antlaşması'ndan sonra serbestleşen pazar, gümrük korumasından yoksun yerli üretimi Avrupa'nın makineleşmiş mallarıyla doğrudan rekabete soktu (bkz. ilgili ek okuma kartı Balta Limanı kartı) ve sanayileşme yerine ham madde ihraç eden, mamul ithal eden bir konum pekişti.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-kuzey-karadeniz-halklari-kazak-karisikligi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[7].kaynak",
+   "mevcut_cumle": "azak (Don Kazakları, Rusya'nın güneye inişi) — üçü de bu oturumda gövdesi okunarak sınandı.",
+   "onerilen_cumle": "azak (Don Kazakları, Rusya'nın güneye inişi) — üçü de gövdesi okunarak sınandı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-donanmanin-talihsiz-anlari",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[10].metin",
+   "mevcut_cumle": "yaygın tarih anlatısı bunu Rusya ile 1877-78 savaşındaki başarısız performansa ve olası bir donanma darbesine duyulan güvensizliğe bağlar, ama bu bağlantı bu oturumda TDV'den doğrulanamadı.",
+   "onerilen_cumle": "yaygın tarih anlatısı bunu Rusya ile 1877-78 savaşındaki başarısız performansa ve olası bir donanma darbesine duyulan güvensizliğe bağlar, ama bu bağlantı TDV'den doğrulanamadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-donanmanin-talihsiz-anlari",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[10].kaynak",
+   "mevcut_cumle": "canakkale-bogazi (Duckworth) — hepsi bu oturumda gövdesi okundu.",
+   "onerilen_cumle": "canakkale-bogazi (Duckworth) — hepsi gövdesi okundu.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-donanmanin-buyuk-zaferleri",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[11].metin",
+   "mevcut_cumle": "Podolya'nın merkezi ve dönemin en sağlam kalelerinden sayılan Kamaniçe, dokuz günlük bir kuşatmayla düşürüldü (ayrı savaş kartı: `ekokuma_savas3.js`).",
+   "onerilen_cumle": "Podolya'nın merkezi ve dönemin en sağlam kalelerinden sayılan Kamaniçe, dokuz günlük bir kuşatmayla düşürüldü (ayrı savaş kartı: ilgili ek okuma kartı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-donanmanin-buyuk-zaferleri",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[11].kaynak",
+   "mevcut_cumle": "TDV: (Preveze ve Cerbe için mevcut `ekokuma_savas.js` kartlarına — savas-preveze-1538",
+   "onerilen_cumle": "TDV: (Preveze ve Cerbe için mevcut ilgili ek okuma kartı kartlarına — savas-preveze-1538",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-donanmanin-buyuk-zaferleri",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[11].kaynak",
+   "mevcut_cumle": "koprulu-mehmed-pasa (Çanakkale 1657) — İstanbul kuşatmasında gemilerin karadan yürütülmesi bu oturumda TDV'den ayrıca doğrulanmadı, standart 1453 kuşatma tarihçiliğinin yaygın anlatısıdır.",
+   "onerilen_cumle": "koprulu-mehmed-pasa (Çanakkale 1657) — İstanbul kuşatmasında gemilerin karadan yürütülmesi TDV'den ayrıca doğrulanmadı, standart 1453 kuşatma tarihçiliğinin yaygın anlatısıdır.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "savas-kirim-savasi-1853-1856",
+   "alan": "sonuc",
+   "yol": "EKOKUMA_DUNYA[15].sonuc",
+   "mevcut_cumle": "Ama zafer bedelsiz değildi: savaşın mali yükü Osmanlı'yı 24 Ağustos 1854'te tarihinin ilk dış borç sözleşmesini imzalamaya zorladı — bu borçlanma, yarım asır sonra Düyûn-ı Umûmiyye'ye (1881) varacak zincirin ilk halkasıydı (bkz. `ekokuma_ekonomi.js`).",
+   "onerilen_cumle": "Ama zafer bedelsiz değildi: savaşın mali yükü Osmanlı'yı 24 Ağustos 1854'te tarihinin ilk dış borç sözleşmesini imzalamaya zorladı — bu borçlanma, yarım asır sonra Düyûn-ı Umûmiyye'ye (1881) varacak zincirin ilk halkasıydı (bkz. ilgili ek okuma kartı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "savas-kirim-savasi-1853-1856",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[15].kaynak",
+   "mevcut_cumle": "paris-antlasmasi (ikisi de gövdesi okundu) — Sivastopol kuşatmasının ayrıntıları ve toplam kayıp rakamları bu oturumda TDV'den doğrulanamadı, akademik kaynak ayrıca aranmadı (bulunamadı).",
+   "onerilen_cumle": "paris-antlasmasi (ikisi de gövdesi okundu) — Sivastopol kuşatmasının ayrıntıları ve toplam kayıp rakamları TDV'den doğrulanamadı, akademik kaynak ayrıca aranmadı (bulunamadı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "savas-93-harbi-1877-1878",
+   "alan": "tartisma",
+   "yol": "EKOKUMA_DUNYA[16].tartisma",
+   "mevcut_cumle": "Berlin Antlaşması'nın Ayastefanos'u ne ölçüde değiştirdiği (Büyük Bulgaristan'ın küçültülmesi gibi) bu oturumda ayrıca doğrulanmadı, TDV'nin okunan gövdesi bu ayrıntıyı vermiyor.",
+   "onerilen_cumle": "Berlin Antlaşması'nın Ayastefanos'u ne ölçüde değiştirdiği (Büyük Bulgaristan'ın küçültülmesi gibi) ayrıca doğrulanmadı, TDV'nin okunan gövdesi bu ayrıntıyı vermiyor.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya-otuz-yil-savaslari-vestfalya",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[17].kaynak",
+   "mevcut_cumle": "IV. Mehmed'in cülûsu için TDV: mehmed-iv (atlasın kendi 1648-08-08 kaydı, kaynak alanı ayrı).",
+   "onerilen_cumle": "IV. Mehmed'in cülûsu için TDV: mehmed-iv (sayfanın kendi kaydı, kaynak alanı ayrı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya2-venedik-osmanli-gidip-gelen-yerler-listesi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[20].kaynak",
+   "mevcut_cumle": "atina (kuşatma ve geri dönüş) — hepsi bu oturumda gövdesi okundu.",
+   "onerilen_cumle": "atina (kuşatma ve geri dönüş) — hepsi gövdesi okundu.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya2-venedik-osmanli-gidip-gelen-yerler-listesi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[20].kaynak",
+   "mevcut_cumle": "Anabolu için atlasın kendi kaydı: TDV `anabolu`, 1540 devir + 29 Ağustos 1686 kaybı.",
+   "onerilen_cumle": "Anabolu için sayfanın kendi kaydı: TDV `anabolu`, 1540 devir + 29 Ağustos 1686 kaybı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "savas2-atina-1687-parthenon-patlamasi",
+   "alan": "tartisma",
+   "yol": "EKOKUMA_DUNYA[21].tartisma",
+   "mevcut_cumle": "bu oturumda okunan TDV `atina` maddesi bu ayrıntıyı vermedi, ATLASIN KENDİ kronoloji kaydı (1688-04-01, 'Atina'nın geri alınışı — Venedik'in çekilişi') ise Nisan 1688'i veriyor ve bu, Venedik'in Mora'daki genel askerî/sıhhi zorluklarıyla (salgın, ikmal) tutarlı standart Mora Savaşı anlatısına daha yakın.",
+   "onerilen_cumle": "okunan TDV `atina` maddesi bu ayrıntıyı vermedi, sayfanın kendi kronoloji kaydı (1688-04-01, 'Atina'nın geri alınışı — Venedik'in çekilişi') ise Nisan 1688'i veriyor ve bu, Venedik'in Mora'daki genel askerî/sıhhi zorluklarıyla (salgın, ikmal) tutarlı standart Mora Savaşı anlatısına daha yakın.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum",
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "savas2-atina-1687-parthenon-patlamasi",
+   "alan": "tartisma",
+   "yol": "EKOKUMA_DUNYA[21].tartisma",
+   "mevcut_cumle": "'yirmi yıl sonra' iddiası bu oturumda TDV'den doğrulanamadı, kaynağı belirsiz.",
+   "onerilen_cumle": "'yirmi yıl sonra' iddiası TDV'den doğrulanamadı, kaynağı belirsiz.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya3-osmanli-venedik-deniz-savaslari",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[25].metin",
+   "mevcut_cumle": "savaş 1502'de bir antlaşmayla bitti (bkz. bu tarihin atlasın kendi kaydı).",
+   "onerilen_cumle": "savaş 1502'de bir antlaşmayla bitti (bkz. bu tarihin sayfanın kendi kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya3-osmanli-venedik-deniz-savaslari",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[25].metin",
+   "mevcut_cumle": "Barbaros Hayreddin Paşa'nın Kutsal İttifak (Venedik-Papalık-İspanya-Cenova) donanmasını dağıttığı zafer — Osmanlı'nın Akdeniz'deki üstünlüğünü bir asra yakın pekiştirdi (ayrı kart: `ekokuma_savas.js`).",
+   "onerilen_cumle": "Barbaros Hayreddin Paşa'nın Kutsal İttifak (Venedik-Papalık-İspanya-Cenova) donanmasını dağıttığı zafer — Osmanlı'nın Akdeniz'deki üstünlüğünü bir asra yakın pekiştirdi (ayrı kart: ilgili ek okuma kartı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya3-osmanli-venedik-deniz-savaslari",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[25].metin",
+   "mevcut_cumle": "Osmanlı-Venedik ikili savaşı değil, Kutsal İttifak'ın (İspanya-Venedik-Papalık) ortak donanmasına karşı — Osmanlı'nın en ağır deniz yenilgisi (200-250 gemi), ama donanma birkaç yıl içinde yeniden inşa edildi (ayrı kart: `ekokuma_savas.js`).",
+   "onerilen_cumle": "Osmanlı-Venedik ikili savaşı değil, Kutsal İttifak'ın (İspanya-Venedik-Papalık) ortak donanmasına karşı — Osmanlı'nın en ağır deniz yenilgisi (200-250 gemi), ama donanma birkaç yıl içinde yeniden inşa edildi (ayrı kart: ilgili ek okuma kartı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya3-osmanli-venedik-deniz-savaslari",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[25].kaynak",
+   "mevcut_cumle": "Sapienza/Zonchio ve Preveze/Çanakkale serisi için atlasın kendi 1499-08-28 kaydı + mevcut `ekokuma_savas.js`/`ekokuma_dunya.js` kartlarına atıf (tekrar yazılmadı).",
+   "onerilen_cumle": "Sapienza/Zonchio ve Preveze/Çanakkale serisi için sayfanın kendi kaydı + mevcut ilgili ek okuma kartı kartlarına atıf (tekrar yazılmadı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi",
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya3-prens-eugen-kimdir",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[28].kaynak",
+   "mevcut_cumle": "Petervaradin/Belgrad 1717 ve Eugen'in biyografik ayrıntıları (Fransa'da reddi, İspanya Veraset Savaşı) TDV'den bu oturumda ÇEKİLEMEDİ, standart Avrupa askerî tarihi (akademik/genel kabul görmüş bilgi) ile verildi — TDV diye sunulmadı.",
+   "onerilen_cumle": "Petervaradin/Belgrad 1717 ve Eugen'in biyografik ayrıntıları (Fransa'da reddi, İspanya Veraset Savaşı) TDV'den ÇEKİLEMEDİ, standart Avrupa askerî tarihi (akademik/genel kabul görmüş bilgi) ile verildi — TDV diye sunulmadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya5-demirbas-sarl-bender-kalabalik",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[31].metin",
+   "mevcut_cumle": "bu baskı, kısmen, 1710'da Osmanlı'nın Rusya'ya savaş açmasında (bkz. `savas-prut-1711` kartı, `ekokuma_savas.js`) ve 1711 Prut Seferi'nde rol oynadı.",
+   "onerilen_cumle": "bu baskı, kısmen, 1710'da Osmanlı'nın Rusya'ya savaş açmasında (bkz. `savas-prut-1711` kartı, ilgili ek okuma kartı) ve 1711 Prut Seferi'nde rol oynadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya5-demirbas-sarl-bender-kalabalik",
+   "alan": "metin",
+   "yol": "EKOKUMA_DUNYA[31].metin",
+   "mevcut_cumle": "Standart tarih anlatısına göre (Akdes Nimet Kurat'a atıfla — bu oturumda TDV dışı, akademik kaynakla doğrulandı) yaklaşık kırk kişilik bir muhafız grubuyla Karl, çevresini saran çok daha kalabalık bir Osmanlı-Tatar kuvvetine karşı YEDİ GÜN direndi;",
+   "onerilen_cumle": "Standart tarih anlatısına göre (Akdes Nimet Kurat'a atıfla — TDV dışı, akademik kaynakla doğrulandı) yaklaşık kırk kişilik bir muhafız grubuyla Karl, çevresini saran çok daha kalabalık bir Osmanlı-Tatar kuvvetine karşı YEDİ GÜN direndi;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_dunya.js",
+   "degisken": "EKOKUMA_DUNYA",
+   "id": "dunya7-istanbul-sel-zemheri-bogazin-donmasi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_DUNYA[36].kaynak",
+   "mevcut_cumle": "1621 Boğaz'ın donması TDV'de bu oturumda bulunamadı;",
+   "onerilen_cumle": "1621 Boğaz'ın donması TDV'de bulunamadı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-osmanli-genel-baglam",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[0].kaynak",
+   "mevcut_cumle": "Bastille tarihi (1789-07-14) atlasın kendi mevcut kaydı (data/kronoloji_fransa.js, data/olaylar_ek19.js).",
+   "onerilen_cumle": "Bastille tarihi (1789-07-14) atlasın kendi mevcut kaydı (sitenin kronoloji kaydı, sitenin kronoloji kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-seferi-ve-kavalali",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[1].metin",
+   "mevcut_cumle": "Direktuvar'ın Mısır'a asker göndermesinin amacı Mısır'ın kendisi değildi: İngiltere'nin Hindistan'a giden kara/deniz bağlantısını kesmek ve İtalya seferiyle fazla popüler hâle gelen genç general Napolyon'u başkentten uzak tutmaktı (bkz. data/kronoloji_fransa.js 1798-07-01 kaydı).",
+   "onerilen_cumle": "Direktuvar'ın Mısır'a asker göndermesinin amacı Mısır'ın kendisi değildi: İngiltere'nin Hindistan'a giden kara/deniz bağlantısını kesmek ve İtalya seferiyle fazla popüler hâle gelen genç general Napolyon'u başkentten uzak tutmaktı (bkz. sitenin kronoloji kaydı 1798-07-01 kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-seferi-ve-kavalali",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[1].kaynak",
+   "mevcut_cumle": "data/devletler.js `misir-eyaleti` künyesi (1798-07-21 Ehram/Kahire işgali, 1801-09-02 İskenderiye Kapitülasyonu — bu iki tarih için TDV kapsam dışı, standart akademik/ansiklopedik kaynak, künyenin kendi kaynak notunda D107 gereği açıkça işaretli).",
+   "onerilen_cumle": "sitenin devlet kaydı `misir-eyaleti` künyesi (1798-07-21 Ehram/Kahire işgali, 1801-09-02 İskenderiye Kapitülasyonu — bu iki tarih için TDV kapsam dışı, standart akademik/ansiklopedik kaynak, künyenin kendi kaynak notunda açıkça işaretli).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu",
+    "ders-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-sirp-yunan-milliyetcilik",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[2].metin",
+   "mevcut_cumle": "Örgütlenme 1814'te olgunlaştı: \"Rum tüccarların ve siyaset adamlarının yer aldığı bir grup, Rusya'nın Karadeniz'deki önemli liman şehri Odesa'da Filiki Eteria (Dostluk Cemiyeti) adıyla gizli bir örgüt kurdu.\" Yedi yıl sonra, \"1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı\" (atlasın kendi kaydı: 1821-03-25, data/olaylar.js).",
+   "onerilen_cumle": "Örgütlenme 1814'te olgunlaştı: \"Rum tüccarların ve siyaset adamlarının yer aldığı bir grup, Rusya'nın Karadeniz'deki önemli liman şehri Odesa'da Filiki Eteria (Dostluk Cemiyeti) adıyla gizli bir örgüt kurdu.\" Yedi yıl sonra, \"1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı\" (sayfanın kendi kaydı: 1821-03-25, sitenin kronoloji kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi",
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-sirp-yunan-milliyetcilik",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[2].metin",
+   "mevcut_cumle": "Aydınlanma çağının millî kendi kaderini tayin fikrinin dönemin genel Avrupa havasını beslediği söylenebilir, ama bu genel iddia TDV'nin `sirbistan` maddesinde YOK ve bu oturumda ayrıca akademik kaynakla sınanmadı — o yüzden `bulunamadı` diye açıkça bırakılıyor, sessizce varsayılmıyor (CLAUDE.md §4/D107).",
+   "onerilen_cumle": "Aydınlanma çağının millî kendi kaderini tayin fikrinin dönemin genel Avrupa havasını beslediği söylenebilir, ama bu genel iddia TDV'nin `sirbistan` maddesinde YOK ve ayrıca akademik kaynakla sınanmadı — o yüzden `bulunamadı` diye açıkça bırakılıyor, sessizce varsayılmıyor (CLAUDE.md §4/).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum",
+    "ders-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-sirp-yunan-milliyetcilik",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[2].kaynak",
+   "mevcut_cumle": "data/olaylar.js (1821-03-25 Yunan İsyanı)",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1821-03-25 Yunan İsyanı)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-sirp-yunan-milliyetcilik",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[2].kaynak",
+   "mevcut_cumle": "data/kronoloji_sirbistan.js (1804-02-14 Birinci Sırp Ayaklanması, TDV+Jelavich kaynaklı)",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1804-02-14 Birinci Sırp Ayaklanması, TDV+Jelavich kaynaklı)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-rusya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[3].metin",
+   "mevcut_cumle": "Rusya, koalisyon savaşlarında (TDV: \"Napolyon'a karşı sürdürülen savaşlarda (1798-1814) Avrupa'nın Fransız hâkimiyetinden kurtarılmasında … başlıca etken oldu\") önce ağır bedeller ödedi: 20 Kasım 1805'te Avusturya ile birlikte Austerlitz'te (\"Üç İmparator Muharebesi\") kesin biçimde yenildi (data/kronoloji_rusya.js, Riasanovsky & Steinberg).",
+   "onerilen_cumle": "Rusya, koalisyon savaşlarında (TDV: \"Napolyon'a karşı sürdürülen savaşlarda (1798-1814) Avrupa'nın Fransız hâkimiyetinden kurtarılmasında … başlıca etken oldu\") önce ağır bedeller ödedi: 20 Kasım 1805'te Avusturya ile birlikte Austerlitz'te (\"Üç İmparator Muharebesi\") kesin biçimde yenildi (sitenin kronoloji kaydı, Riasanovsky & Steinberg).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-rusya-etkisi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[3].kaynak",
+   "mevcut_cumle": "data/kronoloji_rusya.js (1805-11-20 Austerlitz, 1807-07-07 Tilsit, 1812-06-24 istila — kaynağı Riasanovsky & Steinberg, A History of Russia).",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1805-11-20 Austerlitz, 1807-07-07 Tilsit, 1812-06-24 istila — kaynağı Riasanovsky & Steinberg, A History of Russia).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-avusturya-etkisi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[4].kaynak",
+   "mevcut_cumle": "data/kronoloji_habsburg.js (1792-04-20 savaş başlangıcı, 1797-10-17 Campo Formio, 1804-08-11 Avusturya İmparatorluğu ilanı, 1805-12-02 Austerlitz, 1806-08-06 Kutsal Roma İmparatorluğu'nun sonu, 1809-07-06 Wagram — kaynağı Die Welt der Habsburger, habsburger.net).",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1792-04-20 savaş başlangıcı, 1797-10-17 Campo Formio, 1804-08-11 Avusturya İmparatorluğu ilanı, 1805-12-02 Austerlitz, 1806-08-06 Kutsal Roma İmparatorluğu'nun sonu, 1809-07-06 Wagram — kaynağı Die Welt der Habsburger, habsburger.net).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-prusya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[5].metin",
+   "mevcut_cumle": "TDV'nin `prusya` maddesi de bu döneme değinir: \"Napolyon savaşları boyunca (1792-1814) bütün Avrupa gibi Fransa'nın saldırı ve işgaline uğradı.\" Atlasın kendi kaydı (data/kronoloji_almanya.js, Christopher Clark'ın Iron Kingdom'ına dayanarak) bozgunun anlamını netleştirir: \"Büyük Friedrich'in efsanevi ordusunun modası geçmiş bir savaş makinesi olduğunu ortaya çıkardı.\"",
+   "onerilen_cumle": "TDV'nin `prusya` maddesi de bu döneme değinir: \"Napolyon savaşları boyunca (1792-1814) bütün Avrupa gibi Fransa'nın saldırı ve işgaline uğradı.\" Sayfanın kendi kaydı (sitenin kronoloji kaydı, Christopher Clark'ın Iron Kingdom'ına dayanarak) bozgunun anlamını netleştirir: \"Büyük Friedrich'in efsanevi ordusunun modası geçmiş bir savaş makinesi olduğunu ortaya çıkardı.\"",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi",
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-prusya-etkisi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[5].kaynak",
+   "mevcut_cumle": "data/kronoloji_almanya.js (1806-10-14 Jena-Auerstedt, 1807-07-09 Tilsit — kaynağı Christopher Clark, Iron Kingdom).",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1806-10-14 Jena-Auerstedt, 1807-07-09 Tilsit — kaynağı Christopher Clark, Iron Kingdom).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[6].metin",
+   "mevcut_cumle": "Yirmi altı yaşındaki general Napolyon Bonapart, 1796'da Direktuvar ordusunun İtalya kolunu devralıp Avusturya kuvvetlerine karşı bir dizi parlak zafer kazandı (data/kronoloji_fransa.js, 1796-04-12).",
+   "onerilen_cumle": "Yirmi altı yaşındaki general Napolyon Bonapart, 1796'da Direktuvar ordusunun İtalya kolunu devralıp Avusturya kuvvetlerine karşı bir dizi parlak zafer kazandı (sitenin kronoloji kaydı, 1796-04-12).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[6].metin",
+   "mevcut_cumle": "TDV'nin `italya` maddesi bu seferin sonucunu şöyle özetler: \"Napolyon Bonapart 1796'da İtalya seferini düzenledi ve asırlar sonra şehir devletleri millî ve siyasî bütünlük içinde birleştirildi.\" Somut adımı 9 Temmuz 1797'de atıldı: Milano merkezli fethedilen kuzey İtalya toprakları birleştirilip Fransız modelinde bir Cisalpine Cumhuriyeti ilan edildi — atlasın kendi kaydına göre bu, \"İtalyan topraklarının modern anlamda tek bir devlet çatısı altında birleştirilmesinin ilk (ve kısa ömürlü) denemesi\"ydi.",
+   "onerilen_cumle": "TDV'nin `italya` maddesi bu seferin sonucunu şöyle özetler: \"Napolyon Bonapart 1796'da İtalya seferini düzenledi ve asırlar sonra şehir devletleri millî ve siyasî bütünlük içinde birleştirildi.\" Somut adımı 9 Temmuz 1797'de atıldı: Milano merkezli fethedilen kuzey İtalya toprakları birleştirilip Fransız modelinde bir Cisalpine Cumhuriyeti ilan edildi — sayfanın kendi kaydına göre bu, \"İtalyan topraklarının modern anlamda tek bir devlet çatısı altında birleştirilmesinin ilk (ve kısa ömürlü) denemesi\"ydi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[6].metin",
+   "mevcut_cumle": "Atlasın kendi kronolojisi (data/kronoloji_habsburg.js ve data/kronoloji_fransa.js) bu sonu 17 Ekim 1797 Campo Formio Antlaşması'na bağlar: Avusturya Hollandası (Belçika) Fransa'ya bırakılırken, karşılığında Venedik'in toprakları Avusturya'ya devredildi.",
+   "onerilen_cumle": "Atlasın kendi kronolojisi (sitenin kronoloji kaydı ve sitenin kronoloji kaydı) bu sonu 17 Ekim 1797 Campo Formio Antlaşması'na bağlar: Avusturya Hollandası (Belçika) Fransa'ya bırakılırken, karşılığında Venedik'in toprakları Avusturya'ya devredildi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[6].metin",
+   "mevcut_cumle": "bu ayrım TDV'nin özet cümlesinde açık değil ve bu oturumda ayrıca doğrulanmadı, `bulunamadı` diye bırakılıyor.",
+   "onerilen_cumle": "bu ayrım TDV'nin özet cümlesinde açık değil ve ayrıca doğrulanmadı, `bulunamadı` diye bırakılıyor.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[6].metin",
+   "mevcut_cumle": "Atlasın kendi kaydına göre bu ilk deneme 1861-03-17'de İtalya Krallığı'nın ilanıyla (Torino, II. Vittorio Emanuele) kalıcı hâle geldi — on üç asır sonra yarımadanın (Venedik ve Roma hariç) ilk kez tek bir devlet çatısı altında birleşmesiydi.",
+   "onerilen_cumle": "Sayfanın kendi kaydına göre bu ilk deneme 1861-03-17'de İtalya Krallığı'nın ilanıyla (Torino, II. Vittorio Emanuele) kalıcı hâle geldi — on üç asır sonra yarımadanın (Venedik ve Roma hariç) ilk kez tek bir devlet çatısı altında birleşmesiydi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[6].kaynak",
+   "mevcut_cumle": "data/kronoloji_italya.js (1797-07-09 Cisalpine Cumhuriyeti'nin ilanı;",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1797-07-09 Cisalpine Cumhuriyeti'nin ilanı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[6].kaynak",
+   "mevcut_cumle": "data/kronoloji_habsburg.js (1797-10-17 Campo Formio, Avusturya açısından)",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1797-10-17 Campo Formio, Avusturya açısından)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-italya-etkisi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[6].kaynak",
+   "mevcut_cumle": "data/kronoloji_fransa.js (1796-04-12 İtalya Seferi'nin başlaması).",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1796-04-12 İtalya Seferi'nin başlaması).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[7].metin",
+   "mevcut_cumle": "Atlasın kendi kaydına göre (Treccani, 'Manìn, Ludovico') \"bin yıllık cumhuriyet bir muharebe verilmeden sona erdi\" — Venedik belleğinde bu en ağır utanç anı sayılır.",
+   "onerilen_cumle": "Sayfanın kendi kaydına göre (Treccani, 'Manìn, Ludovico') \"bin yıllık cumhuriyet bir muharebe verilmeden sona erdi\" — Venedik belleğinde bu en ağır utanç anı sayılır.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[7].metin",
+   "mevcut_cumle": "atlasın kendi kaydı bunu \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria\" diye doğruluyor (Treccani) — şehir sonradan Avusturya'nın Lombardo-Veneto eyaletinin parçası oldu.",
+   "onerilen_cumle": "sayfanın kendi kaydı bunu \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria\" diye doğruluyor (Treccani) — şehir sonradan Avusturya'nın Lombardo-Veneto eyaletinin parçası oldu.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[7].metin",
+   "mevcut_cumle": "Venedik için sonuç kesin ve kalıcıydı: 1000 yılı aşan bağımsız bir oligarşik cumhuriyet, kendi ordusunu bile kullanmadan tarihe gömüldü ve bir daha hiçbir zaman ayrı bir devlet olarak dönmedi — 1815 Viyana Kongresi onu yeniden Avusturya'da bıraktı, 1866'da (Avusturya-Prusya Savaşı'nın sonucunda, savaş alanında yenilmiş olmasına rağmen) İtalya Krallığı'na katıldı (data/kronoloji_italya.js).",
+   "onerilen_cumle": "Venedik için sonuç kesin ve kalıcıydı: 1000 yılı aşan bağımsız bir oligarşik cumhuriyet, kendi ordusunu bile kullanmadan tarihe gömüldü ve bir daha hiçbir zaman ayrı bir devlet olarak dönmedi — 1815 Viyana Kongresi onu yeniden Avusturya'da bıraktı, 1866'da (Avusturya-Prusya Savaşı'nın sonucunda, savaş alanında yenilmiş olmasına rağmen) İtalya Krallığı'na katıldı (sitenin kronoloji kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[7].metin",
+   "mevcut_cumle": "Daha genel sonuç ise şu: Fransız İhtilali'nin savaşları, koca bir cumhuriyeti sadece yenmekle kalmadı, onu bir müzakere masasında PARÇALARA BÖLÜNEBİLİR bir mülke indirdi — bu, aynı savaşların Polonya'da (bkz. data/ekokuma_tartisma.js paylaşım kartları) ve daha sonra defalarca tekrarlanacak bir desendi.",
+   "onerilen_cumle": "Daha genel sonuç ise şu: Fransız İhtilali'nin savaşları, koca bir cumhuriyeti sadece yenmekle kalmadı, onu bir müzakere masasında PARÇALARA BÖLÜNEBİLİR bir mülke indirdi — bu, aynı savaşların Polonya'da (bkz. sitenin kronoloji kaydı paylaşım kartları) ve daha sonra defalarca tekrarlanacak bir desendi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[7].kaynak",
+   "mevcut_cumle": "data/kronoloji_venedik.js (1789-03-09 Manin'in seçimi, 1797-04-20 Lido olayı, 1797-05-12 Büyük Konsey'in feshi, 1797-10-17 Campo Formio — kaynağı Treccani, 'Manìn, Ludovico')",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1789-03-09 Manin'in seçimi, 1797-04-20 Lido olayı, 1797-05-12 Büyük Konsey'in feshi, 1797-10-17 Campo Formio — kaynağı Treccani, 'Manìn, Ludovico')",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[7].kaynak",
+   "mevcut_cumle": "data/devletler.js `venedik` künyesi (aynı tarihler)",
+   "onerilen_cumle": "sitenin devlet kaydı `venedik` künyesi (aynı tarihler)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-venedik-paylasimi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[7].kaynak",
+   "mevcut_cumle": "data/kronoloji_italya.js (1866 Venedik'in İtalya Krallığı'na katılımı, karşılaştırma için).",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1866 Venedik'in İtalya Krallığı'na katılımı, karşılaştırma için).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[8].metin",
+   "mevcut_cumle": "Atlasın kendi kronoloji maddesi (data/olaylar.js, kaynak: TDV `misir`) bu motifi açıkça öne çıkarır: \"General Bonapart'ın ordusu İskenderiye'ye çıkarak Mısır'ı işgal etti;",
+   "onerilen_cumle": "Atlasın kendi kronoloji maddesi (sitenin kronoloji kaydı, kaynak: TDV `misir`) bu motifi açıkça öne çıkarır: \"General Bonapart'ın ordusu İskenderiye'ye çıkarak Mısır'ı işgal etti;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[8].metin",
+   "mevcut_cumle": "Bu genel çekicilik TDV'nin okunan bölümlerinde ayrı bir cümleyle vurgulanmıyor (standart akademik/coğrafî bilgi, §4 tanecik boşluğu) — ama Fransa'nın seferi salt askerî değil aynı zamanda SÖMÜRGECİ bir hesaplaşmaydı: Napolyon'un beraberinde götürdüğü bilim heyeti (Institut d'Égypte, bkz. data/kronoloji_fransa.js 1798-07-01 kaydı) toprağın tarım, sulama ve kaynaklarını da incelemekle görevliydi — modern Egyptology'nin başlangıcı, aynı zamanda bir sömürge fizibilite çalışmasıydı.",
+   "onerilen_cumle": "Bu genel çekicilik TDV'nin okunan bölümlerinde ayrı bir cümleyle vurgulanmıyor (standart akademik/coğrafî bilgi, §4 tanecik boşluğu) — ama Fransa'nın seferi salt askerî değil aynı zamanda SÖMÜRGECİ bir hesaplaşmaydı: Napolyon'un beraberinde götürdüğü bilim heyeti (Institut d'Égypte, bkz. sitenin kronoloji kaydı 1798-07-01 kaydı) toprağın tarım, sulama ve kaynaklarını da incelemekle görevliydi — modern Egyptology'nin başlangıcı, aynı zamanda bir sömürge fizibilite çalışmasıydı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[8].metin",
+   "mevcut_cumle": "Bu üç saha sebebine bir de iç siyaset eklenir: Direktuvar, İtalya seferiyle aşırı popüler hâle gelen genç general Napolyon'u başkentten uzak tutmak istiyordu (bkz. `ihtilal-misir-seferi-ve-kavalali` kartı, data/kronoloji_fransa.js).",
+   "onerilen_cumle": "Bu üç saha sebebine bir de iç siyaset eklenir: Direktuvar, İtalya seferiyle aşırı popüler hâle gelen genç general Napolyon'u başkentten uzak tutmak istiyordu (bkz. `ihtilal-misir-seferi-ve-kavalali` kartı, sitenin kronoloji kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[8].metin",
+   "mevcut_cumle": "Fransa'nın planı Ebûkir'de (1 Ağustos 1798) çöktü: TDV `misir` maddesinin verdiği tek doğrudan cümle bile bunun izini taşır — \"Fransızlar'ın Temmuz 1798'deki işgali Mısır'da yeni bir dönem açmış ve İngilizler karşısında doğudaki çıkarlarını koruma gerekçesiyle Mısır meselelerine müdahale etmişlerdir.\" Amiral Nelson'ın Ebûkir Körfezi'nde Fransız donanmasını neredeyse tamamen imha etmesi (data/devletler.js 1798-08-01 kaydı;",
+   "onerilen_cumle": "Fransa'nın planı Ebûkir'de (1 Ağustos 1798) çöktü: TDV `misir` maddesinin verdiği tek doğrudan cümle bile bunun izini taşır — \"Fransızlar'ın Temmuz 1798'deki işgali Mısır'da yeni bir dönem açmış ve İngilizler karşısında doğudaki çıkarlarını koruma gerekçesiyle Mısır meselelerine müdahale etmişlerdir.\" Amiral Nelson'ın Ebûkir Körfezi'nde Fransız donanmasını neredeyse tamamen imha etmesi (sitenin devlet kaydı 1798-08-01 kaydı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "metin",
+   "yol": "EKOKUMA_IHTILAL[8].metin",
+   "mevcut_cumle": "data/kronoloji_ingiltere.js) Napolyon'un ordusunu Mısır'da denizden tecrit etti — Mısır'ı İngiltere'ye karşı bir üs yapma planı, tersine Fransız ordusunun kendisinin kapana kısılmasıyla sonuçlandı.",
+   "onerilen_cumle": "sitenin kronoloji kaydı) Napolyon'un ordusunu Mısır'da denizden tecrit etti — Mısır'ı İngiltere'ye karşı bir üs yapma planı, tersine Fransız ordusunun kendisinin kapana kısılmasıyla sonuçlandı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[8].kaynak",
+   "mevcut_cumle": "data/olaylar.js (1798-07-01 kaydı, kaynak:'misir' — İngiltere'nin Hindistan yolu motifi doğrudan bu TDV maddesine dayanıyor)",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1798-07-01 kaydı, kaynak:'misir' — İngiltere'nin Hindistan yolu motifi doğrudan bu TDV maddesine dayanıyor)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[8].kaynak",
+   "mevcut_cumle": "data/kronoloji_fransa.js (1798-07-01 Institut d'Égypte / Direktuvar'ın siyasi motifi)",
+   "onerilen_cumle": "sitenin kronoloji kaydı (1798-07-01 Institut d'Égypte / Direktuvar'ın siyasi motifi)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_ihtilal.js",
+   "degisken": "EKOKUMA_IHTILAL",
+   "id": "ihtilal-misir-istah-nedenleri",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_IHTILAL[8].kaynak",
+   "mevcut_cumle": "data/devletler.js ve data/kronoloji_ingiltere.js (1798-08-01 Ebûkir/Nil Savaşı).",
+   "onerilen_cumle": "sitenin devlet kaydı ve sitenin kronoloji kaydı (1798-08-01 Ebûkir/Nil Savaşı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_isyan1821.js",
+   "degisken": "EKOKUMA_ISYAN1821",
+   "id": "isyan-sirp-milli-anlati",
+   "alan": "metin",
+   "yol": "EKOKUMA_ISYAN1821[0].metin",
+   "mevcut_cumle": "Sırp isyanı ile Fransız İhtilâli arasındaki bağ sorusu için: ekokuma_ihtilal.js.)",
+   "onerilen_cumle": "Sırp isyanı ile Fransız İhtilâli arasındaki bağ sorusu için: ilgili ek okuma kartı.)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kolemen.js",
+   "degisken": "EKOKUMA_KOLEMEN",
+   "id": "tosun-pasa-film-mi-tarih-mi",
+   "alan": "metin",
+   "yol": "EKOKUMA_KOLEMEN[2].metin",
+   "mevcut_cumle": "Bu kart bir filmi tarih kaynağı olarak KULLANMIYOR ve film bu oturumda İZLENMEDİ;",
+   "onerilen_cumle": "Bu kart bir filmi tarih kaynağı olarak KULLANMIYOR ve film İZLENMEDİ;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kolemen.js",
+   "degisken": "EKOKUMA_KOLEMEN",
+   "id": "tosun-pasa-film-mi-tarih-mi",
+   "alan": "metin",
+   "yol": "EKOKUMA_KOLEMEN[2].metin",
+   "mevcut_cumle": "sınanabilen tek şey adlardır ve onlar da kaynaklarda yok — ne \"Tellioğulları\"/\"Seferoğulları\" diye bir Mısır hânesi, ne \"Daver Bey\" diye bir vali, ne \"Yeşil Vadi\" diye bir bölge bu oturumda açılan kaynaklarda geçiyor.",
+   "onerilen_cumle": "sınanabilen tek şey adlardır ve onlar da kaynaklarda yok — ne \"Tellioğulları\"/\"Seferoğulları\" diye bir Mısır hânesi, ne \"Daver Bey\" diye bir vali, ne \"Yeşil Vadi\" diye bir bölge başvurulan kaynaklarda geçiyor.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kolemen.js",
+   "degisken": "EKOKUMA_KOLEMEN",
+   "id": "tosun-pasa-film-mi-tarih-mi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_KOLEMEN[2].kaynak",
+   "mevcut_cumle": "tarihî künyenin tamamı için bu dosyadaki `tosun-pasa-kimdir` kartının kaynak listesi",
+   "onerilen_cumle": "tarihî künyenin tamamı için bu dosyadaki `tosun-pasa-kimdir` kartının kaynak listesi",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum.js",
+   "degisken": "EKOKUMA_KURUM",
+   "id": "teknik-eflak-bogdan-erdel-haklari",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM[8].metin",
+   "mevcut_cumle": "Okunan TDV maddeleri üçü için de düzenli, zorunlu bir Osmanlı ordusuna asker verme yükümlülüğünden AÇIKÇA söz etmiyor — bu, düzenli sefer katılımı Osmanlı seferberliğinin standart bir parçası olan Kırım Hanlığı'ndan (bk. H-0085) temel farkıdır.",
+   "onerilen_cumle": "Okunan TDV maddeleri üçü için de düzenli, zorunlu bir Osmanlı ordusuna asker verme yükümlülüğünden AÇIKÇA söz etmiyor — bu, düzenli sefer katılımı Osmanlı seferberliğinin standart bir parçası olan Kırım Hanlığı'ndan (bk.) temel farkıdır.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "is-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum.js",
+   "degisken": "EKOKUMA_KURUM",
+   "id": "teknik-osmanli-tarihciligi-kaynaklari",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM[9].metin",
+   "mevcut_cumle": "alternatif slug bu turda aranmadı — `bulunamadı`, ayrı kart yazılmadı.",
+   "onerilen_cumle": "alternatif slug aranmadı — `bulunamadı`, ayrı kart yazılmadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "tur"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum.js",
+   "degisken": "EKOKUMA_KURUM",
+   "id": "teknik-cezayir-dayilik",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM[13].metin",
+   "mevcut_cumle": "Gelirin esas kaynağı İstanbul'a ödenen haraç değil, korsanlık faaliyetiydi — klasik tâbi devlet ilişkisinin (bkz. H-0085/H-0086: Eflak/Boğdan/Erdel/Kırım) tam tersine dönmüş bir mali modeldi.",
+   "onerilen_cumle": "Gelirin esas kaynağı İstanbul'a ödenen haraç değil, korsanlık faaliyetiydi — klasik tâbi devlet ilişkisinin (bkz. /: Eflak/Boğdan/Erdel/Kırım) tam tersine dönmüş bir mali modeldi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "is-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum.js",
+   "degisken": "EKOKUMA_KURUM",
+   "id": "teknik-cezayir-dayilik",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM[13].metin",
+   "mevcut_cumle": "Şartname aynı analizi bu bölgeler için de istiyordu;",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "Şartname aynı analizi bu bölgeler için de istiyordu;",
+   "kurallar": [],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "ekokuma_kurum.js",
+   "degisken": "EKOKUMA_KURUM",
+   "id": "teknik-cezayir-dayilik",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM[13].metin",
+   "mevcut_cumle": "zaman sınırı nedeniyle bu turda YAPILAMADI — `bulunamadı`, sonraki bir tura bırakılmalı.",
+   "onerilen_cumle": "zaman sınırı nedeniyle YAPILAMADI — `bulunamadı`, sonraki bir tura bırakılmalı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "tur"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum.js",
+   "degisken": "EKOKUMA_KURUM",
+   "id": "teknik-osmanli-fas-iliskileri",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM[14].metin",
+   "mevcut_cumle": "Okunan TDV maddesine göre Fas hiçbir dönemde Eflak/Boğdan/Erdel/Kırım gibi haraç ödeyen bir tâbi statüsüne (bkz. H-0085) girmedi, resmî bir himaye anlaşması da kurulmadı — ilişki baştan sona iki bağımsız Müslüman devlet arasındaki diplomatik/dinî nezaket düzeyinde kaldı;",
+   "onerilen_cumle": "Okunan TDV maddesine göre Fas hiçbir dönemde Eflak/Boğdan/Erdel/Kırım gibi haraç ödeyen bir tâbi statüsüne (bkz.) girmedi, resmî bir himaye anlaşması da kurulmadı — ilişki baştan sona iki bağımsız Müslüman devlet arasındaki diplomatik/dinî nezaket düzeyinde kaldı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "is-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum2.js",
+   "degisken": "EKOKUMA_KURUM2",
+   "id": "teknik-osmanli-vergi-sistemi",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM2[1].metin",
+   "mevcut_cumle": "Küçük Kaynarca'nın 7,5 milyon kuruşluk tazminat yükü karşısında 1775'te ihdas edildi (bk. data/olaylar_ek14.js, 1775-06-01).",
+   "onerilen_cumle": "Küçük Kaynarca'nın 7,5 milyon kuruşluk tazminat yükü karşısında 1775'te ihdas edildi (bk. sitenin kronoloji kaydı, 1775-06-01).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum2.js",
+   "degisken": "EKOKUMA_KURUM2",
+   "id": "teknik-muhendishane-ardil-okullar",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM2[2].metin",
+   "mevcut_cumle": "1775'te kurulan deniz mühendishanesi (bk. ayrı kart: H-0014/DALGA-0066) 1195'te (1781) Mühendishâne-i Tersâne-i Âmire adını aldı, 1210'da (1795) Berrî'den ayrılıp yalnız deniz eğitimine odaklandı, 1830'da Heybeliada'ya taşındı ve 1846'da bu taşınma kalıcı oldu.",
+   "onerilen_cumle": "1775'te kurulan deniz mühendishanesi (bk. ayrı kart: /DALGA-0066) 1195'te (1781) Mühendishâne-i Tersâne-i Âmire adını aldı, 1210'da (1795) Berrî'den ayrılıp yalnız deniz eğitimine odaklandı, 1830'da Heybeliada'ya taşındı ve 1846'da bu taşınma kalıcı oldu.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "is-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_kurum2.js",
+   "degisken": "EKOKUMA_KURUM2",
+   "id": "teknik-muhendishane-ardil-okullar",
+   "alan": "metin",
+   "yol": "EKOKUMA_KURUM2[2].metin",
+   "mevcut_cumle": "İki mühendishane de aynı krizden (1768-1774 Rus savaşı, 1770 Çeşme) doğdu, aynı reform paketinin (Nizâm-ı Cedîd, bk. ayrı kart H-0014/DALGA-0068) parçasıydı ve ikisi de defalarca ad/bina değiştirerek 19.",
+   "onerilen_cumle": "İki mühendishane de aynı krizden (1768-1774 Rus savaşı, 1770 Çeşme) doğdu, aynı reform paketinin (Nizâm-ı Cedîd, bk. ayrı kart /DALGA-0068) parçasıydı ve ikisi de defalarca ad/bina değiştirerek 19.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "is-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_lale.js",
+   "degisken": "EKOKUMA_LALE",
+   "id": "lale-devri-adi",
+   "alan": "metin",
+   "yol": "EKOKUMA_LALE[1].metin",
+   "mevcut_cumle": "Lâlenin kendisi için bkz. bu dosyadaki lale-devri-lale-cilginligi.",
+   "onerilen_cumle": "Lâlenin kendisi için bkz. bu dosyadaki lale-devri-lale-cilginligi.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_lale.js",
+   "degisken": "EKOKUMA_LALE",
+   "id": "lale-devri-yenilikler",
+   "alan": "metin",
+   "yol": "EKOKUMA_LALE[3].metin",
+   "mevcut_cumle": "Ayrıntı için bkz. muteferrika-matbaasi-kurulusu (toplum) ve bu dosyadaki kimdir-ibrahim-muteferrika.",
+   "onerilen_cumle": "Ayrıntı için bkz. muteferrika-matbaasi-kurulusu (toplum) ve bu dosyadaki kimdir-ibrahim-muteferrika.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_lale.js",
+   "degisken": "EKOKUMA_LALE",
+   "id": "kimdir-yirmisekiz-celebi-mehmed-efendi",
+   "alan": "metin",
+   "yol": "EKOKUMA_LALE[4].metin",
+   "mevcut_cumle": "Elçiliğin önemi ve Paris'te gördükleri için bu dosyadaki yirmisekiz-elciligin-onemi ve 'Sefâretnâme'den' merak kartlarına bakın.",
+   "onerilen_cumle": "Elçiliğin önemi ve Paris'te gördükleri için bu dosyadaki yirmisekiz-elciligin-onemi ve 'Sefâretnâme'den' merak kartlarına bakın.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_lale.js",
+   "degisken": "EKOKUMA_LALE",
+   "id": "yirmisekiz-elciligin-onemi",
+   "alan": "bag",
+   "yol": "EKOKUMA_LALE[5].bag",
+   "mevcut_cumle": "Diplomasinin kurumsal gelişimi için bkz. ekokuma_diplomasi.js (D5-AMERIKA).",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "Diplomasinin kurumsal gelişimi için bkz. ilgili ek okuma kartı (D5-AMERIKA).",
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "ekokuma_misir1805.js",
+   "degisken": "EKOKUMA_MISIR1805",
+   "id": "misir1805-tarih-anlatisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_MISIR1805[0].metin",
+   "mevcut_cumle": "⚠️ Bu kart o soruyu KAPATMIYOR: Erol'un cümlesi 1798-1801 ayaklanmaları hakkındadır, 1805 için aynı hükmü veren bir kaynak bu oturumda OKUNAMADI.",
+   "onerilen_cumle": "⚠️ Bu kart o soruyu KAPATMIYOR: Erol'un cümlesi 1798-1801 ayaklanmaları hakkındadır, 1805 için aynı hükmü veren bir kaynak OKUNAMADI.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_padisah.js",
+   "degisken": "EKOKUMA_PADISAH",
+   "id": "tartisma-sehzade-mahmud-tarih-bulgusu",
+   "alan": "kisa",
+   "yol": "EKOKUMA_PADISAH[4].kisa",
+   "mevcut_cumle": "Atlasın mevcut kaydı bu ölüme 'TDV gün vermiyor' diyordu — bu oturumun bağımsız TDV taraması bir gün buldu: 27 Zilhicce 1011 / 7 Haziran 1603.",
+   "onerilen_cumle": "Atlasın mevcut kaydı bu ölüme 'TDV gün vermiyor' diyordu — bu oturumun bağımsız TDV taraması bir gün buldu: 27 Zilhicce 1011 / 7 Haziran 1603.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_rivayet.js",
+   "degisken": "EKOKUMA_RIVAYET",
+   "id": "sebep-sonuc-ferhad-pasa-istanbul-1590",
+   "alan": "bag",
+   "yol": "EKOKUMA_RIVAYET[8].bag",
+   "mevcut_cumle": "Bu, 'genişleme' ile 'kalıcı tasarruf'un aynı şey olmadığını gösteren en çarpıcı örneklerden biridir (bkz. D030 'atlas seferi değil tasarrufu boyar').",
+   "onerilen_cumle": "Bu, 'genişleme' ile 'kalıcı tasarruf'un aynı şey olmadığını gösteren en çarpıcı örneklerden biridir (bkz. 'atlas seferi değil tasarrufu boyar').",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "ders-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_rivayet.js",
+   "degisken": "EKOKUMA_RIVAYET",
+   "id": "tartisma-i-mustafa-kizlaragasi-rivayeti",
+   "alan": "bag",
+   "yol": "EKOKUMA_RIVAYET[12].bag",
+   "mevcut_cumle": "İkincisi kartta YAZILMADI — D107'nin 'bulunamadı' damgası burada tam yerinde.",
+   "onerilen_cumle": "İkincisi kartta YAZILMADI — 'bulunamadı' damgası burada tam yerinde.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "ders-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_rivayet.js",
+   "degisken": "EKOKUMA_RIVAYET",
+   "id": "tartisma-ibrahim-sisman-kadin-arastirmasi",
+   "alan": "not",
+   "yol": "EKOKUMA_RIVAYET[14].not",
+   "mevcut_cumle": "Bu kart bir 'sonuç' değil bir 'arama raporu'dur — D107'nin 'bulunamadı' damgası.",
+   "onerilen_cumle": "Bu kart bir 'sonuç' değil bir 'arama raporu'dur — 'bulunamadı' damgası.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "ders-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_rivayet.js",
+   "degisken": "EKOKUMA_RIVAYET",
+   "id": "tartisma-ikinci-mohac-1687-ayni-ova-ters-sonuc",
+   "alan": "bag",
+   "yol": "EKOKUMA_RIVAYET[18].bag",
+   "mevcut_cumle": "Bu kart `savas-mohac-1526` (aynı havuz, `ekokuma_savas.js`) kartıyla birlikte okunmalı — ikisi aynı coğrafyanın iki ucunu, kuruluşu ve çöküşü gösteriyor.",
+   "onerilen_cumle": "Bu kart `savas-mohac-1526` (aynı havuz, ilgili ek okuma kartı) kartıyla birlikte okunmalı — ikisi aynı coğrafyanın iki ucunu, kuruluşu ve çöküşü gösteriyor.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_toplum.js",
+   "degisken": "EKOKUMA_TOPLUM",
+   "id": "hanedan-evlilik-cariyelik-nikahi",
+   "alan": "bag",
+   "yol": "EKOKUMA_TOPLUM[7].bag",
+   "mevcut_cumle": "Bu kart data/merak.js id:siyasi-evlilikler kartının TAMAMLAYICISIDIR — o kart hanedanın DIŞARIDAN kız almayı niçin bıraktığını tartışır (üç görüş, aynı 1534 tarihine bağlı);",
+   "onerilen_cumle": "Bu kart sitenin kronoloji kaydı id:siyasi-evlilikler kartının TAMAMLAYICISIDIR — o kart hanedanın DIŞARIDAN kız almayı niçin bıraktığını tartışır (üç görüş, aynı 1534 tarihine bağlı);",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_toplum.js",
+   "degisken": "EKOKUMA_TOPLUM",
+   "id": "kolelik-pencik-kanunundan-kalkisa",
+   "alan": "bag",
+   "yol": "EKOKUMA_TOPLUM[9].bag",
+   "mevcut_cumle": "Bu kartın `olay:` alanı yalnız pencik kanununun kurumsallaştığı 1362 dönemine (Yeniçeri ocağının kuruluşuyla AYNI köke bağlı, bkz. data/ekokuma.js id:yeniceri-ocagi-kurulusu) bağlanabildi;",
+   "onerilen_cumle": "Bu kartın `olay:` alanı yalnız pencik kanununun kurumsallaştığı 1362 dönemine (Yeniçeri ocağının kuruluşuyla AYNI köke bağlı, bkz. sitenin kronoloji kaydı id:yeniceri-ocagi-kurulusu) bağlanabildi;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_toplum.js",
+   "degisken": "EKOKUMA_TOPLUM",
+   "id": "kolelik-pencik-kanunundan-kalkisa",
+   "alan": "bag",
+   "yol": "EKOKUMA_TOPLUM[9].bag",
+   "mevcut_cumle": "1847/1857/1890/1909 tarihlerinin HİÇBİRİ kronolojide Osmanlı'ya özgü bir madde olarak BULUNAMADI (aranan kayıtlar başka ülkelere aitti — Portekiz 1761, Britanya 1807 vb.) — bu, KITA 14'e somut bir kronoloji önerisi.",
+   "onerilen_cumle": "1847/1857/1890/1909 tarihlerinin HİÇBİRİ kronolojide Osmanlı'ya özgü bir madde olarak BULUNAMADI (aranan kayıtlar başka ülkelere aitti — Portekiz 1761, Britanya 1807 vb.).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "kronoloji-onerisi-cumlesi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_toplum.js",
+   "degisken": "EKOKUMA_TOPLUM",
+   "id": "osmanli-ingiliz-ticaret-mekanizmasi-1580",
+   "alan": "bag",
+   "yol": "EKOKUMA_TOPLUM[10].bag",
+   "mevcut_cumle": "Kapitülasyonların (imtiyaz) genel tarihçesi ve 'zaaf mı araç mı' tartışması data/merak.js id:kapitulasyon-zaaf-mi-arac-mi kartında zaten işleniyor;",
+   "onerilen_cumle": "Kapitülasyonların (imtiyaz) genel tarihçesi ve 'zaaf mı araç mı' tartışması sitenin kronoloji kaydı id:kapitulasyon-zaaf-mi-arac-mi kartında zaten işleniyor;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_toplum.js",
+   "degisken": "EKOKUMA_TOPLUM",
+   "id": "lonca-esnaf-teskilati",
+   "alan": "bag",
+   "yol": "EKOKUMA_TOPLUM[12].bag",
+   "mevcut_cumle": "Bu kart data/ekokuma.js id:ahi-birlikleri-ankara kartının TAMAMLAYICISIDIR — o kart Ahiliğin Ankara'da bir asır süren SİYASİ YÖNETİMİNİ (şehrin fiilen ahiler tarafından idare edilişini) anlatır;",
+   "onerilen_cumle": "Bu kart sitenin kronoloji kaydı id:ahi-birlikleri-ankara kartının TAMAMLAYICISIDIR — o kart Ahiliğin Ankara'da bir asır süren SİYASİ YÖNETİMİNİ (şehrin fiilen ahiler tarafından idare edilişini) anlatır;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-idam-edilen-devlet-adamlari",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[2].metin",
+   "mevcut_cumle": "Örüntünün en eski halkası bu dosyadaki isimlerden daha gerideydi: İstanbul'un fethinden hemen sonra, 1453'te idam edilen Çandarlı Halil Paşa, hem eski Türk aristokrat vezir ailelerinin sonunu hem de devşirme kökenli vezirler çağının başlangıcını simgeler.",
+   "onerilen_cumle": "Örüntünün en eski halkası bu dosyadaki isimlerden daha gerideydi: İstanbul'un fethinden hemen sonra, 1453'te idam edilen Çandarlı Halil Paşa, hem eski Türk aristokrat vezir ailelerinin sonunu hem de devşirme kökenli vezirler çağının başlangıcını simgeler.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "kimdir-nevsehirli-damad-ibrahim-pasa",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[11].metin",
+   "mevcut_cumle": "1703 Edirne Vak'asını (aynı isyan Reisülküttab Râmi Mehmed Efendi'nin de sadrazamlığını bitirmişti — bkz. bu dosyadaki kimdir-rami-mehmed-pasa) atlatarak Dârüssaâde kethüdâsı yazıcılığına, oradan devlet işlerinde giderek artan bir nüfuza kavuştu.",
+   "onerilen_cumle": "1703 Edirne Vak'asını (aynı isyan Reisülküttab Râmi Mehmed Efendi'nin de sadrazamlığını bitirmişti — bkz. bu dosyadaki kimdir-rami-mehmed-pasa) atlatarak Dârüssaâde kethüdâsı yazıcılığına, oradan devlet işlerinde giderek artan bir nüfuza kavuştu.",
+   "cumle_silinsin": false,
+   "kurallar": [],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "kimdir-koprulu-mehmed-pasa",
+   "alan": "not",
+   "yol": "EKOKUMA_VEZIR[13].not",
+   "mevcut_cumle": "bu dosyada yalnız ailenin en tanınan üç ismi (Mehmed, Fâzıl Ahmed, Merzifonlu — damat ve yetiştirme) ayrı kartlarla işlendi.",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "burada yalnız ailenin en tanınan üç ismi (Mehmed, Fâzıl Ahmed, Merzifonlu — damat ve yetiştirme) ayrı kartlarla işlendi.",
+   "kurallar": [
+    "bu-dosya"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "kimdir-ali-pasa-mehmed-emin",
+   "alan": "not",
+   "yol": "EKOKUMA_VEZIR[17].not",
+   "mevcut_cumle": "Ölümünden sonraki beş yıl içinde maliye iflas etti, Balkanlar ayaklandı ve saltanat değişikliği kaçınılmaz hâle geldi — bu atlasın kendi kaydı Âli Paşa'nın ölümünü Tanzimat kadrosunun sonu olarak işaretler.",
+   "onerilen_cumle": "Ölümünden sonraki beş yıl içinde maliye iflas etti, Balkanlar ayaklandı ve saltanat değişikliği kaçınılmaz hâle geldi — bu sayfanın kendi kaydı Âli Paşa'nın ölümünü Tanzimat kadrosunun sonu olarak işaretler.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-en-basarili-sadrazamlar",
+   "alan": "not",
+   "yol": "EKOKUMA_VEZIR[20].not",
+   "mevcut_cumle": "Mahmutpaşa ve Çandarlı Mehmed Paşa (önerilen listedeki iki isim) için bu oturumda ayrı TDV doğrulaması yapılamadı;",
+   "onerilen_cumle": "Mahmutpaşa ve Çandarlı Mehmed Paşa (önerilen listedeki iki isim) için ayrı TDV doğrulaması yapılamadı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "magazin-merzifonlu-idam-budin-beylerbeyi",
+   "alan": "not",
+   "yol": "EKOKUMA_VEZIR[25].not",
+   "mevcut_cumle": "İstanbul'da düşmanlarının 'göbek attığı' yönünde bir iddia bu oturumda okunan kaynaklarda BULUNAMADI — uydurulmadı, yazılmadı.",
+   "onerilen_cumle": "İstanbul'da düşmanlarının 'göbek attığı' yönünde bir iddia okunan kaynaklarda BULUNAMADI — uydurulmadı, yazılmadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-azak-kalesinin-onemi",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[27].metin",
+   "mevcut_cumle": "Don Kazakları kaleyi 1637'de bir baskınla ele geçirip 1642'ye kadar elde tuttu (bu atlasın kendi kaydı, ekokuma_dunya.js), ama bu erken teşebbüs kalıcı olmadı — Kazaklar kaleyi geri verip çekildi, çünkü arkalarında onları destekleyecek düzenli bir devlet ordusu yoktu.",
+   "onerilen_cumle": "Don Kazakları kaleyi 1637'de bir baskınla ele geçirip 1642'ye kadar elde tuttu (bu sayfanın kendi kaydı, ilgili ek okuma kartı), ama bu erken teşebbüs kalıcı olmadı — Kazaklar kaleyi geri verip çekildi, çünkü arkalarında onları destekleyecek düzenli bir devlet ordusu yoktu.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi",
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-azak-kalesinin-onemi",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[27].metin",
+   "mevcut_cumle": "Bu, Rusya'nın bir Osmanlı kalesine KALICI olarak yerleştiği ilk andı ve Rusya'nın deniz gücü olma yolundaki ilk somut adımıydı (bu atlasın kendi kaydı).",
+   "onerilen_cumle": "Bu, Rusya'nın bir Osmanlı kalesine KALICI olarak yerleştiği ilk andı ve Rusya'nın deniz gücü olma yolundaki ilk somut adımıydı (bu sayfanın kendi kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-azak-kalesinin-onemi",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[27].metin",
+   "mevcut_cumle": "Azak'ın önemi salt askerî değildi: kalenin ele geçirilmesi Rusya'ya Karadeniz ticaretine, dolayısıyla Batı Avrupa'yla deniz yoluyla bağlantıya açılan tek kapıyı vaat ediyordu — bu yüzden 1711 Prut Antlaşması'yla geçici olarak geri verilse de (bu atlasın kendi kaydı, ekokuma_rivayet.js), Rusya'nın Karadeniz hedefi hiç değişmedi ve nihayet 1774 Küçük Kaynarca'yla kalıcılaştı.",
+   "onerilen_cumle": "Azak'ın önemi salt askerî değildi: kalenin ele geçirilmesi Rusya'ya Karadeniz ticaretine, dolayısıyla Batı Avrupa'yla deniz yoluyla bağlantıya açılan tek kapıyı vaat ediyordu — bu yüzden 1711 Prut Antlaşması'yla geçici olarak geri verilse de (bu sayfanın kendi kaydı, ilgili ek okuma kartı), Rusya'nın Karadeniz hedefi hiç değişmedi ve nihayet 1774 Küçük Kaynarca'yla kalıcılaştı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi",
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-azak-kalesinin-onemi",
+   "alan": "not",
+   "yol": "EKOKUMA_VEZIR[27].not",
+   "mevcut_cumle": "Bu kart, Azak'ın el değiştirme KRONOLOJİSİNİ değil NEDEN bu kadar istendiğini anlatır — tarih sırası ve antlaşma hükümleri için ekokuma_dunya.js'teki Kazak-karışıklığı kartına ve ekokuma_rivayet.js'teki 1700 İstanbul / 1711 Prut antlaşma kartlarına bakılabilir;",
+   "onerilen_cumle": "Bu kart, Azak'ın el değiştirme KRONOLOJİSİNİ değil NEDEN bu kadar istendiğini anlatır — tarih sırası ve antlaşma hükümleri için ilgili ek okuma kartı'teki Kazak-karışıklığı kartına ve ilgili ek okuma kartı'teki 1700 İstanbul / 1711 Prut antlaşma kartlarına bakılabilir;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "sebep-sonuc-don-volga-kanal-projesi",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[28].metin",
+   "mevcut_cumle": "DİPLOMATİK: sefer için Osmanlı'yı yönlendirenler arasında sayılan Nogaylar da harekât sırasında hiçbir yardımda bulunmadı — bu atlasın kendi kaydına göre 'bir seferi isteyip desteklememek, Nogay ordasının bölünmüşlüğünün somut bir örneği'ydi.",
+   "onerilen_cumle": "DİPLOMATİK: sefer için Osmanlı'yı yönlendirenler arasında sayılan Nogaylar da harekât sırasında hiçbir yardımda bulunmadı — bu sayfanın kendi kaydına göre 'bir seferi isteyip desteklememek, Nogay ordasının bölünmüşlüğünün somut bir örneği'ydi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "kimdir-rami-mehmed-pasa",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[29].metin",
+   "mevcut_cumle": "Kariyerinin zirvesi 1699 Karlofça barış görüşmelerindeki rolüydü: Osmanlı heyetinin başında eski antlaşma metinlerini inceleyip uzmanlardan rapor alarak Avrupalı delegeleri diplomatik bilgisi ve ustalığıyla etkiledi (bu atlasın kendi kayıtları, ekokuma_rivayet.js ve ekokuma_antlasma2.js'te ayrıntılı anlatılır);",
+   "onerilen_cumle": "Kariyerinin zirvesi 1699 Karlofça barış görüşmelerindeki rolüydü: Osmanlı heyetinin başında eski antlaşma metinlerini inceleyip uzmanlardan rapor alarak Avrupalı delegeleri diplomatik bilgisi ve ustalığıyla etkiledi (bu atlasın kendi kayıtları, ilgili ek okuma kartı ve ilgili ek okuma kartı'te ayrıntılı anlatılır);",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-baltaci-prut-firsat-mi-kacirdi",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[31].metin",
+   "mevcut_cumle": "19-21 Temmuz 1711'de Prut kıyısında Çar I. Petro'nun ordusu gerçekten çaresizdi — bu atlasın kendi savaş-hikâyesi kartının (ekokuma_savas.js) anlattığı gibi, kuşatma altındaki Rus ordugâhında beyaz bayraklar açılmış, Kırım Hanı'nın ve İsveç kralının temsilcisi Poniatowski'nin 'Ruslar birkaç gün içinde savaşmadan teslim olacak' uyarıları dinlenmemiş, buna rağmen Baltacı yirmi dört saat içinde bir ateşkesi kabul etmişti.",
+   "onerilen_cumle": "19-21 Temmuz 1711'de Prut kıyısında Çar I. Petro'nun ordusu gerçekten çaresizdi — bu atlasın kendi savaş-hikâyesi kartının (ilgili ek okuma kartı) anlattığı gibi, kuşatma altındaki Rus ordugâhında beyaz bayraklar açılmış, Kırım Hanı'nın ve İsveç kralının temsilcisi Poniatowski'nin 'Ruslar birkaç gün içinde savaşmadan teslim olacak' uyarıları dinlenmemiş, buna rağmen Baltacı yirmi dört saat içinde bir ateşkesi kabul etmişti.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_vezir.js",
+   "degisken": "EKOKUMA_VEZIR",
+   "id": "tartisma-prut-net-kazanc-neden-saglanamadi",
+   "alan": "metin",
+   "yol": "EKOKUMA_VEZIR[32].metin",
+   "mevcut_cumle": "Bu atlasın kendi kaydına göre (bkz. Prut savaş hikâyesi kartı) Prut Amannâmesi'nin şartları kâğıt üzerinde gerçekten Osmanlı lehineydi: Azak arazisi ve mühimmatıyla geri verilecek, Taygan-Kamenka-Yenikale yıkılacak, Rusya Lehistan'a ve Kazaklara karışmayacak, İsveç Kralı Demirbaş Şarl'ın ülkesine dönüşüne engel olunmayacaktı.",
+   "onerilen_cumle": "Bu sayfanın kendi kaydına göre (bkz. Prut savaş hikâyesi kartı) Prut Amannâmesi'nin şartları kâğıt üzerinde gerçekten Osmanlı lehineydi: Azak arazisi ve mühimmatıyla geri verilecek, Taygan-Kamenka-Yenikale yıkılacak, Rusya Lehistan'a ve Kazaklara karışmayacak, İsveç Kralı Demirbaş Şarl'ın ülkesine dönüşüne engel olunmayacaktı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yenilesme.js",
+   "degisken": "EKOKUMA_YENILESME",
+   "id": "yenilesme-uc-kurum-gecikme-kiyasi",
+   "alan": "metin",
+   "yol": "EKOKUMA_YENILESME[0].metin",
+   "mevcut_cumle": "Tulumbacı Ocağı, 1715 Mora seferinden dönen Gerçek Dâvud'un yangın söndürmedeki başarısı üzerine Nevşehirli Damad İbrahim Paşa tarafından 1720'de kuruldu (bkz. atlasın kendi 1720-06-01 kaydı).",
+   "onerilen_cumle": "Tulumbacı Ocağı, 1715 Mora seferinden dönen Gerçek Dâvud'un yangın söndürmedeki başarısı üzerine Nevşehirli Damad İbrahim Paşa tarafından 1720'de kuruldu (bkz. sayfanın kendi kaydı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yenilesme.js",
+   "degisken": "EKOKUMA_YENILESME",
+   "id": "yenilesme-uc-kurum-gecikme-kiyasi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_YENILESME[0].kaynak",
+   "mevcut_cumle": "TDV: kagit (gövde okundu — Çin/Semerkant/Bağdat kronolojisi, Yalova/Kâğıthane/Beykoz fabrikaları, İtalyan kâğıt ithalatı), tulumbaci (atlasın kendi 1720-06-01 kaydının kaynağı)",
+   "onerilen_cumle": "TDV: kagit (gövde okundu — Çin/Semerkant/Bağdat kronolojisi, Yalova/Kâğıthane/Beykoz fabrikaları, İtalyan kâğıt ithalatı), tulumbaci (sayfanın kendi kaydının kaynağı)",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "atlas-kaydi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yenilesme.js",
+   "degisken": "EKOKUMA_YENILESME",
+   "id": "matbaa-300-yil-gecikme-tartismasi",
+   "alan": "kaynak",
+   "yol": "EKOKUMA_YENILESME[1].kaynak",
+   "mevcut_cumle": "Maliyet/talep/harf teknik zorluğu paragrafı: TDV'nin doğrudan tartışmadığı bir konu (§4 coğrafî/tanecik boşluğu) — standart matbaa tarihi literatüründeki genel kabul görmüş çerçeve (bu oturumda tek tek birincil kaynaktan doğrulanmadı, dolayısıyla 'tartismali' işaretlendi).",
+   "onerilen_cumle": "Maliyet/talep/harf teknik zorluğu paragrafı: TDV'nin doğrudan tartışmadığı bir konu (§4 coğrafî/tanecik boşluğu) — standart matbaa tarihi literatüründeki genel kabul görmüş çerçeve (tek tek birincil kaynaktan doğrulanmadı, dolayısıyla 'tartismali' işaretlendi).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yenilesme.js",
+   "degisken": "EKOKUMA_YENILESME",
+   "id": "matbaa-kesintili-tarihi-1747-1826",
+   "alan": "metin",
+   "yol": "EKOKUMA_YENILESME[2].metin",
+   "mevcut_cumle": "Yüzyıl sonunda İstanbul'da elli dört büyük matbaa faaliyet gösteriyordu (bkz. `muteferrika-matbaasi-kurulusu`, ekokuma_toplum.js).",
+   "onerilen_cumle": "Yüzyıl sonunda İstanbul'da elli dört büyük matbaa faaliyet gösteriyordu (bkz. `muteferrika-matbaasi-kurulusu`, ilgili ek okuma kartı).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yunan.js",
+   "degisken": "EKOKUMA_YUNAN",
+   "id": "yunan-1821-sebepler",
+   "alan": "metin",
+   "yol": "EKOKUMA_YUNAN[0].metin",
+   "mevcut_cumle": "⚠️ Bu cümlenin TAŞIDIĞI AY-YIL bu oturumda iki ayrı çıkarımda farklı geldi;",
+   "onerilen_cumle": "⚠️ Bu cümlenin TAŞIDIĞI AY-YIL iki ayrı çıkarımda farklı geldi;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yunan.js",
+   "degisken": "EKOKUMA_YUNAN",
+   "id": "yunan-1821-sebepler",
+   "alan": "metin",
+   "yol": "EKOKUMA_YUNAN[0].metin",
+   "mevcut_cumle": "sayı TDV'nindir, tarihlendirmesi teyit edilemediği için kartta AY-YIL verilmedi (D211 ⑧).",
+   "onerilen_cumle": "sayı TDV'nindir, tarihlendirmesi teyit edilemediği için kartta AY-YIL verilmedi ( ⑧).",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "ders-kimligi"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yunan.js",
+   "degisken": "EKOKUMA_YUNAN",
+   "id": "yunan-1821-sebepler",
+   "alan": "metin",
+   "yol": "EKOKUMA_YUNAN[0].metin",
+   "mevcut_cumle": "NE BULUNAMADI — 25 Mart tarihinin isyanın \"başlangıcı\" olarak nasıl ve ne zaman seçildiği (Agia Lavra rivayeti, millî bayramın tesisi) konusunda okunabilen akademik bir GÖVDE bu oturumda bulunamadı: Brill kronolojisi HTTP 403, ilgili Taylor & Francis makalesi ücretli.",
+   "onerilen_cumle": "NE BULUNAMADI — 25 Mart tarihinin isyanın \"başlangıcı\" olarak nasıl ve ne zaman seçildiği (Agia Lavra rivayeti, millî bayramın tesisi) konusunda okunabilen akademik bir GÖVDE bulunamadı: Brill kronolojisi HTTP 403, ilgili Taylor & Francis makalesi ücretli.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yunan.js",
+   "degisken": "EKOKUMA_YUNAN",
+   "id": "yunan-1821-destekciler",
+   "alan": "metin",
+   "yol": "EKOKUMA_YUNAN[1].metin",
+   "mevcut_cumle": "Buna karşılık İngiliz ve Fransız hükûmetlerinin saikini ayrıntılandıran bir GÖVDE bu oturumda okunamadı;",
+   "onerilen_cumle": "Buna karşılık İngiliz ve Fransız hükûmetlerinin saikini ayrıntılandıran bir GÖVDE okunamadı;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yunan.js",
+   "degisken": "EKOKUMA_YUNAN",
+   "id": "filhelenizm-bati-yunan-sevgisi",
+   "alan": "metin",
+   "yol": "EKOKUMA_YUNAN[2].metin",
+   "mevcut_cumle": "Türkçe tarih yazımında sık kurulan \"filhelenizm yalnız bir dış politika kılıfıydı\" hükmü de, karşıtı olan \"saf idealizmdi\" hükmü de bu oturumda okunan kaynaklarda TEK BAŞINA doğrulanmadı.",
+   "onerilen_cumle": "Türkçe tarih yazımında sık kurulan \"filhelenizm yalnız bir dış politika kılıfıydı\" hükmü de, karşıtı olan \"saf idealizmdi\" hükmü de okunan kaynaklarda TEK BAŞINA doğrulanmadı.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "ekokuma_yunan.js",
+   "degisken": "EKOKUMA_YUNAN",
+   "id": "yunan-milli-anlati-1821",
+   "alan": "metin",
+   "yol": "EKOKUMA_YUNAN[3].metin",
+   "mevcut_cumle": "Millî anlatının en bilinen unsurlarından biri olan 25 Mart tarihinin ve Agia Lavra rivayetinin (Piskopos Germanos'un bayrağı kaldırması) akademik tartışması bu oturumda OKUNAMADI: konuyla ilgili Brill kronolojisi HTTP 403 verdi, Taylor & Francis'teki millî yıldönümleri makalesinin gövdesi ücretliydi.",
+   "onerilen_cumle": "Millî anlatının en bilinen unsurlarından biri olan 25 Mart tarihinin ve Agia Lavra rivayetinin (Piskopos Germanos'un bayrağı kaldırması) akademik tartışması OKUNAMADI: konuyla ilgili Brill kronolojisi HTTP 403 verdi, Taylor & Francis'teki millî yıldönümleri makalesinin gövdesi ücretliydi.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "oturum"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  }
+ ],
+ "C_kronoloji_gelistirici_sesi": [
+  {
+   "dosya": "kronoloji_gurcistan.js",
+   "degisken": "KRONOLOJI_GURCISTAN",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_GURCISTAN[7].d",
+   "mevcut_cumle": "bu dosyada her biri ayrı madde olarak yazıldı.",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "burada her biri ayrı madde olarak yazıldı.",
+   "kurallar": [
+    "bu-dosya"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_isvec.js",
+   "degisken": "KRONOLOJI_ISVEC",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_ISVEC[6].d",
+   "mevcut_cumle": "Tarih bugün İsveç'in millî günüdür ve bu dosyada devletin başlangıç tarihi olarak alınmıştır.",
+   "onerilen_cumle": "Tarih bugün İsveç'in millî günüdür ve burada devletin başlangıç tarihi olarak alınmıştır.",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "bu-dosya"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "kronoloji_sinir_afrika.js",
+   "degisken": "KRONOLOJI_SINIR_AFRIKA",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_AFRIKA[5].d",
+   "mevcut_cumle": "Sudan'ın kendisi teoride hâlâ İngiliz-Mısır ortak yönetimindeydi (fiilen İngiliz kontrolünde) — bu segment D4-ORTADOGU'nun aynı olayı Filistin-Mısır sınırı için kaydettiği maddeyle (kronoloji_sinir_ortadogu.js) AYNI TARİHSEL OLAYA dayanır, farklı sınır parçasını (Mısır-Sudan) anlatır.",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "Sudan'ın kendisi teoride hâlâ İngiliz-Mısır ortak yönetimindeydi (fiilen İngiliz kontrolünde) — bu segment D4-ORTADOGU'nun aynı olayı Filistin-Mısır sınırı için kaydettiği maddeyle (ilgili kayıt) AYNI TARİHSEL OLAYA dayanır, farklı sınır parçasını (Mısır-Sudan) anlatır.",
+   "kurallar": [
+    "dosya-yolu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_afrika.js",
+   "degisken": "KRONOLOJI_SINIR_AFRIKA",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_AFRIKA[12].d",
+   "mevcut_cumle": "Bu, savaştan önce AYNI Alman kolonisinin parçası olan iki bölge arasında İLK KEZ fiilî bir sınır yarattı — tam tarih (ay/gün) bu turda kesin doğrulanamadığı için 1916-05-01 YAKLAŞIK bir temsilî tarihtir (Tabora'nın düşüşü 19 Eylül 1916;",
+   "onerilen_cumle": "Bu, savaştan önce AYNI Alman kolonisinin parçası olan iki bölge arasında İLK KEZ fiilî bir sınır yarattı — tam tarih (ay/gün) kesin doğrulanamadığı için 1916-05-01 YAKLAŞIK bir temsilî tarihtir (Tabora'nın düşüşü 19 Eylül 1916;",
+   "cumle_silinsin": false,
+   "kurallar": [
+    "tur"
+   ],
+   "oneri_turu": "kural-tabanlı — uygularken elle gözden geçir"
+  },
+  {
+   "dosya": "kronoloji_sinir_avrupa_orta.js",
+   "degisken": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_AVRUPA_ORTA[37].d",
+   "mevcut_cumle": "Osmanlı ile tanıma protokolü D1-TURKIYE'nin kapsamındadır.",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "Osmanlı ile tanıma protokolü D1-TURKIYE'nin kapsamındadır.",
+   "kurallar": [],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[0].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[1].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[2].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[3].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[4].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[5].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[6].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[7].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[8].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[9].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[10].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[11].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[12].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[13].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[14].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[15].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[16].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[17].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[18].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[19].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[20].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[21].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[22].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[23].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[24].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[25].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[26].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[27].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[28].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[29].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[30].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[31].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[32].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[33].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[34].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[35].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[36].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[37].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[39].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[40].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[41].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[42].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[43].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[44].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[45].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[46].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[47].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[48].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[49].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[50].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[51].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[52].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[53].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[54].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[55].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[56].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[57].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[58].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[59].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[60].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[61].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[62].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[63].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[64].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[65].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[66].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[67].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[68].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[69].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[70].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[71].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[72].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[73].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[74].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[75].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[76].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[77].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[78].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[79].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  },
+  {
+   "dosya": "kronoloji_sinir_guney_g8.js",
+   "degisken": "KRONOLOJI_SINIR_GUNEY_G8",
+   "id": null,
+   "alan": "d",
+   "yol": "KRONOLOJI_SINIR_GUNEY_G8[80].d",
+   "mevcut_cumle": "(devletler.js künye kronolojisinden ana akış kronolojisine taşındı — G8/G9/G10 geriye sarma taraması.)",
+   "onerilen_cumle": null,
+   "cumle_silinsin": true,
+   "kural_onerisi_referans": "",
+   "kurallar": [
+    "kronoloji-tasima-notu"
+   ],
+   "oneri_turu": "cümlenin tamamı geliştirici notu — SİL"
+  }
+ ],
+ "yanlis_pozitif": [
+  {
+   "dosya": "ekokuma_dalga2.js",
+   "id": "savas-otlukbeli-1473",
+   "alan": "tartisma",
+   "mevcut": "Has Murad Paşa'nın emre uymayışı kaynaklarda iki farklı sebebe bağlanır: bir kısmına göre maiyetindekiler zafer şerefini Mahmud Paşa'ya bırakmaması için onu kışkırttı, bir kısmına göre tecrübesizliğin",
+   "neden": "'emre uymayışı' = 'buyruğa uymama' (Türkçe ortak ad), kişi adı değil"
+  },
+  {
+   "dosya": "kronoloji_habsburg.js",
+   "id": null,
+   "alan": "d",
+   "mevcut": "Habsburg'un Macaristan'da mutlakiyeti dayatma denemesi bu turda başarısız oldu.",
+   "neden": "'bu turda başarısız oldu' = 'bu seferde' (anlatı), geliştirici sesi değil"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "id": null,
+   "alan": "d",
+   "mevcut": "Kırım hanının merkezden gelen emre rağmen hiçbir yardımda bulunmaması işi büsbütün çıkmaza soktu ve Kasım Bey Kırım'a döndü.",
+   "neden": "'merkezden gelen emre' = 'buyruk' (ortak ad), kişi adı değil"
+  }
+ ],
+ "E_kasitli_bosluk_neden_BASILAN_ALAN": {
+  "aciklama": "Yerleşim kaydının `kasitli_bosluk` + `neden` alanı KULLANICIYA basılır: dizin penceresi (js/app.js:8226 '⬜ Kasıtlı boşluk — <neden>') ve boşluk kutusu (app.js:2390). Şartnamenin ek okuma + kronoloji kapsamı dışında ama aynı sızıntı sınıfı; ölçüm tamamlandı, düzeltme önerisi YAZILMADI (321 kayıt, kayıt sahibi yerleşim dosyalarının sahibi).",
+  "kasitli_bosluk_kayit": 321,
+  "gelistirici_sesi_kayit": 115,
+  "emre_kayit": 1,
+  "desen_dagilimi": {
+   "`": 72,
+   "🔴": 39,
+   "⚠️": 20,
+   "değişmez": 3,
+   ".py": 2,
+   "damgas": 2,
+   "denetle": 1,
+   "kasitli_bosluk": 1,
+   "bu turda": 1,
+   "motor": 1,
+   "uret_petek": 1,
+   "doldurulabilir": 1,
+   "petek": 1,
+   "h-0001": 1
+  },
+  "dosya_dagilimi": {
+   "yerlesimler_gamerika.js": 39,
+   "yerlesimler_ek13.js": 15,
+   "yer_yama_doguasya.js": 14,
+   "yerlesimler_ek18.js": 10,
+   "yerlesimler_ek9.js": 10,
+   "yerlesimler_h2_afrika.js": 8,
+   "yer_yama_sibirya_beyan.js": 8,
+   "yerlesimler_ek8.js": 3,
+   "yerlesimler_asya.js": 2,
+   "yerlesimler_seyrek.js": 2,
+   "yer_yama_gronland_col.js": 2,
+   "yerlesimler.js": 1
+  },
+  "not": "desen_dagilimi gürültülü: ` (kod adı, 72) ve 🔴/⚠️ (bayrak, 39/20) tek başına Emre/geliştirici notu kanıtı değildir; kesin geliştirici sesi (Değişmez · .py · damga · denetle · kasitli_bosluk · bu turda · motor · uret_petek · doldurulabilir · petek · H-0001) yaklaşık 10 kayıttır. 'Emre' adı geçen tek kayıt: yerlesimler_h2_afrika.js 'Meşra er-Rek'.",
+  "emre_kaydi_onerilen_neden": "Bahrülgazâl iskelesi — Nuer/Dinka ülkesi, devlet teşkilâtı yok. Mısır ilhakı (1873) tarihi bu yerleşim için belirlenemediğinden bir dönem yazılmadı.",
+  "emre_kaydi_eski_neden_ozet": "…(Emre 0036/H-0001, G1)… + uret_petek.py satır numarası + 21.111 km² açıklaması — cümlenin son yarısı geliştirici notu, SİL.",
+  "kayitlar": [
+   {
+    "dosya": "yerlesimler.js",
+    "ad": "Hoggar",
+    "emre": false,
+    "eslesen": [
+     "denetle"
+    ],
+    "neden": "Hoggar (Ahaggar) yaylası, Kel Ahaggar Tuareg konfederasyonunun Amenokal liderliğinde denetlediği bir bölgeydi; bu bir aşiret/konfederasyon yapısıydı, devlet değil."
+   },
+   {
+    "dosya": "yerlesimler_asya.js",
+    "ad": "Matsumae",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)"
+   },
+   {
+    "dosya": "yerlesimler_asya.js",
+    "ad": "Hakodate",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)"
+   },
+   {
+    "dosya": "yerlesimler_e9353f.js",
+    "ad": "Gao",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "veri-yok — IKI ARALIK, ikisi de BILEREK bos. ① 1281-1324: TDV gao maddesi 1324'te Songay Sultani Asibay'in Mali'ye biat ettigini yaziyor, yani 1281'de bir Songay devleti VARDI; ama songhay-imparatorlugu kunyesi f:1464. Kunye penceresi DAR, bilgi eksik DEGIL. ② 1700 → 1898 (198 yil): Arma pasaligi ve Tuareg donemi; TDV gao yalniz 'XVIII. yuzyila kadar Askiyalar Gao'da Fasli pasalarin emrinde hukum surduler' diyor, YIL vermiyor ve arma-pasaligi kunyesi de YOK. 🔴 VE BURADA MASSINA'YI YAZMAYI REDDETTIM, gerekcesi kayda gecsin: massina kunyesi indi ve Cenne'ye yazildi, ama kaynak (Cambridge/JAH) Massina'nin hakimiyetini 'the old cities of JENNE and TIMBUKTU' diye sayiyor, GAO'yu SAYMIYOR. Kunye elimdeyken Gao'ya uzatmak kolaydi ve bu, ayni dosyada Split/Sibenik'te bir kez yaptigim GENISLETMENIN tekrari olurdu — orada dayanak bir tarihi belgeydi (1789 kadastro), burada HIC beyan yok. ⇒ Kaynagin sustugu yere devlet yazmak, kaynagin konustugu yere yazmamaktan daha buyuk bir hatadir: ilki gorunmez, ikincisi denetimde oter."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Udskoy ostrogu",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1679 öncesi Evenk/Negidal toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Ayan",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1679 öncesi Even/Lamut kıyısı, devletsiz. Liman 1844'te kuruldu ama kıyı Uda (1679) ve Ohotsk (1647) ostroglarının yasak çevresindeydi; 1844 yazılsaydı Ohotsk'un doğru boyadığı kıyıda 165 yıllık delik açılırdı. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Nikolayevsk (Amur ağzı)",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1689-09-06 öncesi Nivh (Gilyak) toprağı; Qing idaresi Amur ağzına inmedi, Rusya da Nerçinsk'e kadar iddia etmedi. 🔴 TDV'ye basmıyor. 🟡 kur:1850-08-13 (Başkanlık Kütüphanesi, Nikolayevski post) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1689 qing-hanedani) Nerçinsk Antlaşması'nın Amur havzasını Qing sınırına bıraktığı ve Ningguta askerî-idarî merkezinin (1653, resmî yetkisi Heilongjiang/Amur havzasını kapsıyor) tarihî temeline dayanıyor — kaynaksız DEĞİL, nokta zaten belgeli bölgesel egemenliği taşıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Blagoveşçensk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1651 öncesi Daur toprağı, devletsiz. Zincir Albazin'den birebir: aynı Amur voyvodalığı, aynı üç gün. 🔴 TDV'ye basmıyor. 🟡 kur:1856-06-02 (Blagoveşçensk şehir idaresi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1651 rusya — Albazin/Amur voyvodalığı, belgeli Kazak seferi; 1689 qing — Nerçinsk Antlaşması) gerçek tarihî olaylara dayanıyor, kaynaksız DEĞİL."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Habarovka",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1653 öncesi Nanay/Daur toprağı; 1653 Ningguta kaydının Qing başlangıcı, aynı idarî çevre. 🔴 TDV'ye basmıyor. 🟡 kur:1858-01-01 (Büyük Sovyet Ansiklopedisi, Habarovka askerî postu) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1653 qing-hanedani) Ningguta askerî-idarî merkezinin (Haziran 1653 kuruldu, resmî yetkisi Heilongjiang/Amur ve Ussuri havzalarını kapsıyor) belgeli tarihine dayanıyor, kaynaksız DEĞİL."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "İmperator limanı",
+    "emre": false,
+    "eslesen": [
+     "⚠️",
+     "🔴"
+    ],
+    "neden": "1653 öncesi Orok/Udege kıyısı, devletsiz. ⚠️ Kasaba noktası maskede 0,5 km denizde kaldığı için 8,4 km kuzeybatıya kaydırıldı. 🔴 TDV'ye basmıyor. 🟡 kur:1853-05-23 (Rus Coğrafya Kurumu, Nevelskoy seferi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1653 qing-hanedani) Habarovka ile AYNI Ningguta askerî-idarî merkezi temeline dayanıyor (Heilongjiang/Amur havzası resmî Qing yetkisi), kaynaksız DEĞİL."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Vladivostok",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1653 öncesi Udege/Jurchen toprağı; Ningguta ile aynı idarî çevre ve aynı başlangıç günü. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Aleksandrovsk (Kuzey Sahalin)",
+    "emre": false,
+    "eslesen": [
+     "`",
+     "🔴"
+    ],
+    "neden": "1875-05-07 öncesi Nivh/Ainu toprağı. Shimoda antlaşması (1855-02-07) adayı BÖLMEDİ, 'ortak mülkiyet, sınır yok' dedi ve `s:` bir dönemde iki sahip yazamıyor — boşluk ŞEMA sınırından, bilgisizlikten değil. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Korsakov (Güney Sahalin)",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "Aleksandrovsk ile aynı gerekçe ve aynı Shimoda sınırı. 1905-09-05 Portsmouth 50. paraleli sınır yaptı. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Kirensk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1630 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Bratsk ostrogu",
+    "emre": false,
+    "eslesen": [
+     "⚠️",
+     "`",
+     "🔴"
+    ],
+    "neden": "1631 öncesi Buryat toprağı. ⚠️ İrkutsk kaydındaki Halha/Altan Han nüfuzu çekincesi burada da geçerli; `kuzey-yuan` YAZILMADI, aynı sebeple. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Yerbogaçen",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1786 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor. 🔴 DÜZELTİLDİ (M-4443 döngüsü, 17 Eylül 2026): dönem başı 1668→1786'ya çekildi. Kaynak RAS Dilbilim Enstitüsü 'Siberian Lang' projesi (siberian-lang.iling-ran.ru/naselennyy-punkt/erbogachyon) — AYNEN: «По разным источникам, основано то ли в 1786, то ли в 1860 году русскими охотниками-промысловиками» (değişik kaynaklara göre 1786 ya da 1860'ta Rus avcı-tuzakçılar tarafından kuruldu), VE sayfa 1860'ı AYRIYETEN «yerleşim olarak resmî kayda geçtiği tarih» diye açıklığa kavuşturuyor — yani 1860 KURULUŞ değil İDARÎ TESCİL, 1786 fiilî kuruluş. 1668'in bu noktaya özgü hiçbir dayanağı yok (YAMA-KUR-0917'nin kendi ölçümü de aynı sonuca varmıştı)."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Vilyuysk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1634 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Essey",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1630 öncesi Evenk/Saha toprağı, devletsiz. Aşağı Tunguska platosu ile aynı sınıf: yasak zimovyesi, kasaba değil. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek13.js",
+    "ad": "Selenginsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1665 öncesi Buryat/Halha sınır bozkırı; hangi tarafta olduğu tanımsızdı ve tanımsızlık uydurulmadı. Sınır 1727-10-21 Kyahta antlaşmasıyla çizildi ama Rus ostrogu 1665'ten beri orada. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Tara",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1594 öncesi Sibir Hanlığı'nın çevresi; hanlığın çekirdeği Tura-Tobol-İşim'di ve Tara İrtiş'in aşağısında, sınırın dışında. 🔴 1594 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Omsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1716 öncesi Baraba/İrtiş bozkırı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Kainsk (Baraba)",
+    "emre": false,
+    "eslesen": [
+     "⚠️",
+     "`",
+     "🔴"
+    ],
+    "neden": "1722 öncesi Baraba bozkırı. ⚠️ `cungar` YAZILMADI: Baraba Cungar'ın değil Sibir Hanlığı'nın çevresiydi (`_ek9` gerekçesi) ve Cungar'ı buraya yazmak onu 600 km kuzeye taşırdı. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Kuznetsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1618 öncesi Şor/Teleüt toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Biysk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi Teleüt toprağı, devletsiz. 🔴 1709 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Barnaul",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi Teleüt toprağı, devletsiz. 🔴 1730 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Zmeinogorsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi Altay eteği, devletsiz. 🔴 1736 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Pavlodar (Koryakov)",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi yukarı İrtiş bozkırı. 🔴 1720 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Semipalatinsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi yukarı İrtiş bozkırı. 🔴 1718 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek18.js",
+    "ad": "Ust-Kamenogorsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi Altay eteği, devletsiz. 🔴 1720 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek8.js",
+    "ad": "Yeni Sibirya Adaları",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "XVIII. yy'da keşfedildi, mamut dişi için Rus ruhsatıyla işletildi ama idarî kademesi olmadı. ⚠️ Bu dosyadaki dört boşluğun EN ZAYIFI — kaynak çıkarsa rusya dönemi açılmalı."
+   },
+   {
+    "dosya": "yerlesimler_ek8.js",
+    "ad": "Novaya Zemlya kuzeyi",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1877 öncesi kalıcı yerleşim ve fiilî idare yok (Pomor avcılığı idare değildir). 🔴 1877-01-01 TDV'ye BASMIYOR."
+   },
+   {
+    "dosya": "yerlesimler_ek8.js",
+    "ad": "Vaygaç",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "Novaya Zemlya ile aynı hüküm. ⚠️ maske: ada merkezi 10m maskesinde deniz görünüyordu, 11 km kuzeye çekildi — dosyadaki EN BÜYÜK kaydırma."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Surgut",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "1592 öncesi Hantı (Yugra) toprağı, Berezov ile aynı gerekçe (TDV kucum-han). 🟡 kur:1594-01-01 (BRE 'Сургут', old.bigenc.ru/geography/text/4174172 — AYNEN: «Заложен летом 1594 под рук. жильца В. В. Аничкова») ÖNERİLDİ ama UYGULANMADI (M-4443 döngüsü, 17 Eylül 2026): dönemin 1592 başlangıcı KAYNAKSIZ DEĞİL — bu dosyanın kendi üst notu (satır 44-46) TDV `kucum-han` maddesinin AYNEN Surgut'u adıyla anarak «Ruslar 1592'de Pilim, Berezov ve Surgut gibi yeni şehirlerin inşasına başladılar» dediğini kaydediyor. CLAUDE.md §4: TDV maddesi varsa başkasına dayanılmaz, çelişirse TDV esastır — iki tarih muhtemelen AYNI çok yıllı inşa sürecinin iki ucu (1592 başladı, 1594 tamamlandı) ama isim geçen kaynak TDV, kur onun yerine geçemez."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Tomsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1604 öncesi Teleüt/Selkup toprağı, devletsiz. 🔴 1604 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Yeniseysk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1619 öncesi Ket/Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Krasnoyarsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1628 öncesi Yenisey Kırgızları'nın otlağı; atlasta karşılığı olan bir kimlik yok ve UYDURULMADI. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Yakutsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1632 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Olyokminsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1635 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Ohotsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1647 öncesi Even/Lamut toprağı, devletsiz. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "İrkutsk",
+    "emre": false,
+    "eslesen": [
+     "⚠️",
+     "`",
+     ".py",
+     "kasitli_bosluk"
+    ],
+    "neden": "1661 öncesi Buryat toprağı. ⚠️ Halha/Altan Han nüfuzu tartışılabilir; `kuzey-yuan` YAZILMADI çünkü kaynakla ayıramadım — bilgisizliği kasıt gibi göstermemek için boş bırakıldı (girdi.py'nin `kasitli_bosluk` notu)."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Nerçinsk",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1653 öncesi Evenk/Daur toprağı. 🔴 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_ek9.js",
+    "ad": "Albazin",
+    "emre": false,
+    "eslesen": [
+     "🔴"
+    ],
+    "neden": "1651 öncesi Daur toprağı, devletsiz. 🔴 1651 · 1689-09-06 · 1858-05-28 TDV'ye basmıyor."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K7.5 B62.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "Caura-Aro havzası, aşağı Orinoco'nun GÜNEYİ (Ye'kuana · Panare). ⚠️ Angostura/Ciudad Bolívar (~8,1K/-63,6B) bu merkezin 135 km kuzeybatısında ve 1764'te kuruldu — AMA kütükte BULUNAMADI (HSAI c.4'te 'Angostura' geçişi: 0) ve AYRI bir nokta adayı olarak kuyrukta."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K7.5 B60.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "Cuyuní / yukarı Mazaruni (Akawaio · Pemón). Kyk-over-al 1616 Essequibo'nun AŞAĞISINDA (6,4K/-58,7B) ve bu merkezden ~270 km uzakta — yani kıyı sömürgesi buraya ULAŞMIYOR. ⚠️ Kütükte bu koordinat için doğrudan ifade BULAMADIM; kova komşu desenden."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K4.5 B62.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️",
+     "`",
+     "damgas"
+    ],
+    "neden": "Gran Sabana / Roraima yaylası (Pemón · Arekuna · Kamarakoto). HSAI c.4 Guyana Kalkanı Karib halklarını kapsıyor. ⚠️ Bu merkez için kütükte AÇIK bir koordinat İFADESİ BULAMADIM — kova komşu merkezlerin desenine dayanıyor. `kabile` damgası bu merkezde ötekilerden ZAYIF; bir sonraki tur doğrulasın."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K4.5 B59.5",
+    "emre": false,
+    "eslesen": [
+     "`",
+     "⚠️"
+    ],
+    "neden": "Rupununi savanları. HSAI c.3 iki halkı KOORDİNATIYLA buraya yerleştiriyor: Macushi (Makusi) 'on the savannas of southern British Guiana and adjacent regions (lat. 3°-4° N., long. 58°-61° W.)' ve Wapishana 'the basin of the Tacutu River (lat. 3° N., long. 60° W.)'. Kaynak SUSMUYOR — bu halkları adıyla, konumuyla, 1778 ve 1787 kayıtlarıyla anıyor — ama merkezî devlet TARİF ETMİYOR ⇒ `devletsiz` değil `kabile`. ⚠️ Bu merkezin kovası bu partinin EN GÜÇLÜSÜ: kütük tam bu koordinatı veriyor."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K2.5 B52.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "Amapá / Oyapock-Tumucumaque içi. HSAI c.3 Oyapock bölgesi halklarını (Macuani 1729 · Palicur · Ouanari misyonu) anıyor; iç yayla band düzeyi. ⚠️ Fransız Guyanası kıyısı AYRI — Cayenne 1643 atlasta ZATEN var ve bu merkezden ~250 km uzakta."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K1.5 B63.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Yukarı Rio Branco / Parima — Guaharibo · Waica · Shiriana (Yanomami) bölgesi. HSAI c.3: 'A few tribes of the area, such as the Shiriana, Waica, and Guaharibo and the Macu of the Rio Negro formerly had no farming'. Tarımı bile olmayan band düzeyi ⇒ `kabile`; merkezî devlet söz konusu değil."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K1.5 B60.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "Yukarı Rio Branco / Tacutu havzası. HSAI c.3: Wapishana 'formerly, they occupied the basin of the Tacutu River (lat. 3° N., long. 60° W.)'; Macushi aynı kuşakta. ⚠️ AYRICA: Portekiz Forte São Joaquim (~3,0K/-60,5B) bu merkezin 165 km kuzeyinde — AYRI bir nokta adayı olarak kuyrukta, kaynağı BULUNAMADI."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K1.5 B57.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Serra Acaraí / Mapuera havzası. HSAI c.3 Waiwai'yi (Ouayeoué) Mapuera nehrinde konumluyor (O. Coudreau 1903). Kütük halkı anlatıyor, merkezî devlet tarif etmiyor ⇒ `kabile`."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan K1.5 B54.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Tumucumaque / Brezilya-Surinam sınırı. HSAI c.3 Oyana'yı (Wayana · Ojana · Rucuyen · Urucuiana) 'in the southern border region' diye konumluyor. Kütük halkı anlatıyor, devlet tarif etmiyor ⇒ `kabile`."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G4.5 B52.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "ORTA XINGU — Altamira üstü. HSAI c.3: 'In the 18th century, the Jesuits succeeded in settling Yuruna and Tacunyapé in the Tacuana (Tauaquéra) mission, a little above present-day Altamira, and in 1762 and 1784 the Tacunyapé are mentioned as among the Indians settled at Portel.' ⚠️ Misyon VARDI ama kütük KURULUŞ YILI VERMİYOR ('in the 18th century') ⇒ nokta yazılamadı, beyan yazıldı. Aradaki iç kuşak zaten Yuruna/Arara band düzeyi."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G7.5 B62.5",
+    "emre": false,
+    "eslesen": [
+     "`",
+     "⚠️"
+    ],
+    "neden": "MADEIRA-PURUS arası. HSAI c.3 Mura'yı bu kuşakta konumluyor: 'In 1749 ... the Mura were established on a lake on the right bank of the Madeira River, opposite the mouth of the Autaz (a little above Borba)'. Mura tarımı BIRAKMIŞ bir halktır (c.3: 'the Guayakí and the Mura have abandoned cultivation since the Conquest and subsist solely on hunting') ⇒ band düzeyi, `kabile`. ⚠️ Madeira ANA KANALI ayrı: Borba (1723) NOKTA olarak yazıldı ve bu merkezden ~370 km uzakta."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G7.5 B56.5",
+    "emre": false,
+    "eslesen": [
+     "`",
+     "⚠️"
+    ],
+    "neden": "TAPAJÓS-XINGU arası, Mundurucú bölgesi. HSAI c.3: 'the Tapajoz River Mundurucú have a patrilineal sib and moiety system' ve Maué ile Mundurucú için ayrı bölümler. Kaynak halkı ayrıntısıyla anlatıyor, merkezî devlet tarif etmiyor ⇒ `kabile`. ⚠️ Tapajós ANA KANALI ayrı: Itaituba (1823) NOKTA olarak yazıldı, bu merkezden ~370 km."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G7.5 B50.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "ARAGUAIA-TOCANTINS arası, Kayapó/Gê bölgesi. HSAI c.3 ve c.1'in 'NORTHWESTERN AND CENTRAL GE' bölümü (Lowie) bu halkları köy düzeyinde tarif ediyor; c.3: Arara için 'Another band of Arara, which numbered about 30 in 1917, settled on the right bank of the Pacajá do Xingú River'. ⇒ Band/köy düzeyi, merkezî devlet YOK ⇒ `kabile`."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G7.5 B47.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "TOCANTINS-PARNAÍBA arası, Maranhão/Tocantins içi. HSAI c.3: 'In 1840 the provincial government of Maranhão established the Colony of São Pedro do Pindaré for the Indians of the region, with but little success' ve Guajajara için 'settled on the Gurupi River near Cerzedello in 1818'. ⇒ Devlet 19. yy'da KOLONİ KURUYOR ama 'with but little success'; iç kuşak Timbira/Gê band düzeyi ⇒ `kabile`."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G9.5 B65.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "MADEIRA-MAMORÉ kavşağı ardı, Rondônia batısı. HSAI c.3 bölgenin halklarını (Mura · Pacaás Novos · Karipuna) anlatıyor. ⚠️ Forte Príncipe da Beira (1776-06-20) atlasta ZATEN VAR ve bu merkezden ~290 km güneybatıda — yani Portekiz kalesi Guaporé'de, bu iç kuşakta DEĞİL."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G10.5 B68.5",
+    "emre": false,
+    "eslesen": [
+     "`",
+     "⚠️"
+    ],
+    "neden": "ACRE-YUKARI PURUS. HSAI c.3: 'The linguistic relationships of the various tribes and subtribes of the Juruá-Purús Basin were the most confused in South America until Rivet and Tastevin (1921) established their classification'; bölge 1921'de bile etnik haritası YENİ çıkarılan bir alandır. ⇒ Kaynak halkları anlatıyor, devlet tarif etmiyor ⇒ `kabile`. ⚠️ Kauçuk kasabaları (Rio Branco 1882 · Sena Madureira) NOKTA adayıdır ama kütükte kuruluş tarihleri YOK."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G10.5 B61.5",
+    "emre": false,
+    "eslesen": [
+     "⚠️"
+    ],
+    "neden": "RONDÔNIA — Machado/Ji-Paraná havzası. HSAI c.3: Rondon'un Telgraf Hattı Komisyonu bölgeyi 20. yy başında tanıdı; 'brought by General Rondon to the Rio Machado, where they lived until 1925, when the last six members of the group joined the Telegraphic Post of Pimenta Bueno'. ⚠️ Pimenta Bueno telgraf karakolu bir NOKTA adayıdır ama kütüğün verdiği tek tarih 1925 — ATLAS UFKUNUN (1923) DIŞINDA, o yüzden yazılmadı."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G10.5 B58.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "ARIPUANÃ-JURUENA arası, kuzey Mato Grosso. HSAI c.3: 'In 1915, an expedition of the Commission of Strategic Telegraph Lines from Mato Grosso to the Amazon, led by Lieutenant F. P. Vasconcellos, was attacked by Indians on the lower Sangue River. These Indians were strong and well built. They used bark canoes, grew manioc and bananas, and had hammocks.' ⇒ 1915'te bile devlet SEFER gönderiyor, TASARRUF etmiyor; ve halk tarif ediliyor ⇒ `kabile`."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G10.5 B52.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "YUKARI XINGU. HSAI c.3'ün 'TRIBES OF UPPER XINGU' bölümü (Lévi-Strauss) bölgeyi ADIYLA ve SAYIYLA anlatıyor: 'Villages visited by Von den Steinen had from 2 to 20 huts and from 30 to 200 inhabitants' · 'the Suyá (in 1884) and the Trumai (in 1887) villages, both built on a river bank' · Bacairí · Nahukwá · Camayurá · Yaulapití köyleri. ⇒ Kaynak SUSMUYOR: yerleşik, tarım yapan, ticaret ağı olan köyler tarif ediliyor. AMA merkezî devlet TARİF EDİLMİYOR — köyler arası ittifak ve ticaret var, hükümranlık yok ⇒ `devletsiz` değil `kabile`."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G31.5 B56.5",
+    "emre": false,
+    "eslesen": [
+     "🔴",
+     "`"
+    ],
+    "neden": "HSAI c.1 (Serrano, The Charrua; Metraux). Charrua · Minuan · Guenoa — Rio de la Plata'nin DOGU kiyisi. c.1: 'the Querandi and Charrua, primarily nomadic hunters and fishermen, ignorant of agriculture, tall, and warlike'. 🔴 `mapuche-araukanya` BURAYA YAZILMAZ: HSAI'nin 1725 yayilma ifadesi 'the great plains' yani Arjantin pampasi icindir, Uruguay nehrinin dogusu icin DEGIL."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G35.5 B69.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G38.5 B66.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G38.5 B62.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G39.5 B70.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G40.5 B62.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G41.5 B71.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G42.5 B65.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G43.5 B68.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143. Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR (cilt onlara yuzlerce sayfa ayiriyor) ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date'. Cooper, HSAI c.1: 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN yalniz 1281-1883 icindir; 1883 sonrasi kimliklidir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G44.5 B72.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G44.5 B65.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G46.5 B74.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G46.5 B68.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G46.5 B71.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143. Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR (cilt onlara yuzlerce sayfa ayiriyor) ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date'. Cooper, HSAI c.1: 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN yalniz 1281-1883 icindir; 1883 sonrasi kimliklidir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G48.5 B75.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G49.5 B72.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143. Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR (cilt onlara yuzlerce sayfa ayiriyor) ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date'. Cooper, HSAI c.1: 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN yalniz 1281-1883 icindir; 1883 sonrasi kimliklidir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G51.5 B69.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G52.5 B74.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Güney Georgia (Grytviken)",
+    "emre": false,
+    "eslesen": [
+     "⚠️",
+     "`",
+     "damgas",
+     "bu turda"
+    ],
+    "neden": "1281-1904 arasi YERLESIM YOK. Ada kesif oncesi hic iskan edilmemis; HSAI c.1'de 'Falkland' gibi 'South Georgia' da HIC GECMIYOR (olculdu: 0 gecis) — ve HSAI band duzeyindeki en kucuk halklari bile ayri bolumlerle isliyor. ⚠️ BU BIR SESSIZLIK ARGUMANIDIR, POZITIF KAYNAK DEGIL: `insansiz` damgasi bu turda pozitif olarak KAYNAKLANMADI. 1904-11-16'da C.A. Larsen Grytviken balina istasyonunu kurdu (Compania Argentina de Pesca) — bu tarih de bu turda AKADEMIK kaynakla DOGRULANMADI; gov.gs zaman asimi verdi. ⇒ 1904 sonrasi NOKTA olarak AYRI yazilmali."
+   },
+   {
+    "dosya": "yerlesimler_gamerika.js",
+    "ad": "Beyan G54.5 B67.5",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir."
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Er-Renk",
+    "emre": false,
+    "eslesen": [
+     "`",
+     "değişmez"
+    ],
+    "neden": "Şilluk Krallığı — `silluk` kimliği yok; Mısır Ekvatorya dönemi Değişmez 2 borcu doğuracağı için yazılamadı"
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Fâşoda",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Şilluk Krallığı'nın başkenti — `silluk` kimliği yok"
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Malakal",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Şilluk kuşağı — `silluk` kimliği yok"
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Meşra er-Rek",
+    "emre": true,
+    "eslesen": [
+     "⚠️",
+     "değişmez",
+     "🔴",
+     "`",
+     "motor",
+     "uret_petek",
+     ".py",
+     "doldurulabilir",
+     "petek",
+     "h-0001"
+    ],
+    "neden": "Bahrülgazâl iskelesi — Nuer/Dinka ülkesi, devlet teşkilâtı yok. ⚠️ Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için DÖNEM YAZILAMADI — bu not korunmalı. 🔴 27 Ağu 2026: cins `hata` idi ve `hata`, motorun DOLDURABİLDİĞİ TEK kova (uret_petek.py:3564 DOLDURULABILIR_BOS). Kayıt bir hata değil, bir PARK YERİ olarak `hata`ya konmuştu ve petek komşusuna katılıp 21.111 km² DOĞRUDAN OSMANLI boyanıyordu (Emre 0036/H-0001, G1). Komşuları Bentiu ve Vav zaten `devletsiz` olduğu için korunuyordu; bu kayıt korunmuyordu."
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Gondokoro",
+    "emre": false,
+    "eslesen": [
+     "değişmez"
+    ],
+    "neden": "Ekvatorya karargâhı — Mısır dönemi (1870-1885) Değişmez 2 borcu doğuracağı için yazılamadı"
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Yambio",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Azande Krallığı — `zende` kimliği yok; en yakın komşuyla boyamak §3.5.1 ihlali olurdu"
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Tembura",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Azande Krallığı — `zende` kimliği yok"
+   },
+   {
+    "dosya": "yerlesimler_h2_afrika.js",
+    "ad": "Maridi",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Azande/Moru kuşağı — `zende` kimliği yok"
+   },
+   {
+    "dosya": "yerlesimler_seyrek.js",
+    "ad": "Dûmetülcendel (Cevf)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "TDV `necid`: bölgede merkezî devlet yok, aşiret idaresi; 1836 öncesi sahipsizlik KASITLI"
+   },
+   {
+    "dosya": "yerlesimler_seyrek.js",
+    "ad": "Teymâ",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "TDV `teyma`: son bağımsız emîr 1950'de öldü — yerel emîrlik, devlet idaresi yok"
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Sanşing (Yilan)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Mergen (Nenjiang)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Nikolsk (Ussuriysk)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Ussuri havzasi bu pencerede klan/boy orgutlenmesi altindaydi; kaynak (Cambridge, Modern Asian Studies — «Material States: China, Russia, and the incorporation of a CROSS-BORDER INDIGENOUS PEOPLE») bu halklari ACIKCA konu ediyor ⇒ kaynak SUSMUYOR, merkezi devlet de tarif etmiyor. `veri-yok` DEGIL."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Şangdu (Kaiping)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Dolonnor (Duolun)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Dartsedo (Kangding)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Litang",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Batang",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Derge (Dege)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Jyekundo (Yuşu)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Nagçu (Nagqu)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Tsona (Cona)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Songpan (Zungchu)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_doguasya.js",
+    "ad": "Ngawa (Aba)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+   },
+   {
+    "dosya": "yer_yama_gronland_col.js",
+    "ad": "Gobi içi (Alaşan)",
+    "emre": false,
+    "eslesen": [
+     "🔴",
+     "`"
+    ],
+    "neden": "Gobi içi — hareketli pastoral topluluklar. 🔴 `insansiz` DEĞİL: kaynak insan varlığını AÇIKÇA anlatıyor, yalnız YERLEŞİK değil. Ve `devletsiz` DEĞİL: kaynak «burada devlet yoktu» demiyor, hareketliliği anlatıyor."
+   },
+   {
+    "dosya": "yer_yama_gronland_col.js",
+    "ad": "Gobi doğu (Sünid)",
+    "emre": false,
+    "eslesen": [
+     "🔴",
+     "`"
+    ],
+    "neden": "Gobi içi — hareketli pastoral topluluklar. 🔴 `insansiz` DEĞİL: kaynak insan varlığını AÇIKÇA anlatıyor, yalnız YERLEŞİK değil. Ve `devletsiz` DEĞİL: kaynak «burada devlet yoktu» demiyor, hareketliliği anlatıyor."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Batı Sibirya bataklıkları beyan noktası (62.5K/82.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak SUSUYOR ⇒ `veri-yok`. `devletsiz` yazmak kaynağın söylemediğini söyletmek olurdu."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Batı Sibirya bataklıkları beyan noktası (62.5K/83.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak SUSUYOR ⇒ `veri-yok`. `devletsiz` yazmak kaynağın söylemediğini söyletmek olurdu."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Orta Sibirya yaylası beyan noktası (63.5K/98.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Orta Sibirya yaylası beyan noktası (62.5K/97.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Yakutistan-Lena havzası beyan noktası (58.5K/127.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Yakutistan-Lena havzası beyan noktası (69.5K/115.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Kolyma-Çukotka beyan noktası (69.5K/177.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak devlet denetiminin YOKLUĞUNU açıkça söylüyor ⇒ `devletsiz`. Emsal atlasta zaten var (Anadır · Çukotka merkezi)."
+   },
+   {
+    "dosya": "yer_yama_sibirya_beyan.js",
+    "ad": "Kolyma-Çukotka beyan noktası (69.5K/176.5D)",
+    "emre": false,
+    "eslesen": [
+     "`"
+    ],
+    "neden": "Kaynak devlet denetiminin YOKLUĞUNU açıkça söylüyor ⇒ `devletsiz`. Emsal atlasta zaten var (Anadır · Çukotka merkezi)."
+   }
+  ]
+ }
+}
