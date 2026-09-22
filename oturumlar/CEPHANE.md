@@ -1,50 +1,46 @@
 # CEPHANE — ölçülmüş, tahmin değil
 
-> `CLAUDE.md §2d`: *vites, ekipten ÖNCE seçilir.* Bu dosya olmadan kaç
-> oturum açılacağı bir tahmindir. Emre'ye her oturumda yeniden sorulmaz —
-> **buradan okunur**, limit tazelenince güncellenir.
+> `CLAUDE.md §2d` / `YASALAR G12`: *vites, ekipten ÖNCE seçilir.* Bu dosya
+> olmadan kaç oturum açılacağı bir tahmindir.
 
-## 4 Eylül 2026 · Emre'nin beyanı
+## 23 Eylül 2026 · 01:10 — Emre'nin beyanı
 
 ```
-haftalık limit    %42 DOLU
-reset             Perşembe 00:00
+abonelik          Max / 20x
+5 saatlik limit   %0   DOLU  (boş)
+haftalık limit    %94  DOLU  ← BAĞLAYICI KISIT
+reset             Perşembe 00:00 · ölçüldü: 22 saat 49 dakika kaldı
+Emre'nin emri     "maksimum tasarruf yapmalıyız"
 ```
 
 ## Bunun bağladığı kararlar
 
-**① Vites: 3 eşzamanlı oturumun ÜST SINIRI, alt sınırı değil.**
-`§2d` tablosu *"limit %70+ dolu → yeni büyük iş AÇILMAZ"* diyor. %42'de
-hâlâ yer var ama bolluk yok; **her açılan oturum gerekçesini taşımalı.**
+**① `§2d` tablosunun en dar vitesi yürürlükte.** Tablo *"limit %70+ dolu →
+yeni büyük iş AÇILMAZ, açık pencereler kapatılır"* diyor. %94 o eşiğin
+yirmi dört puan üstünde. ⇒ **Yeni fikir önerilmez, yeni kapsam açılmaz,
+analiz yapılmaz** (`G9`). Yalnız açık pencere kapatılır.
 
-**② Üç kademeli yapı BUGÜN GEREKMİYOR — ve sebebi cephane.**
-Emre 4 Eylül'de sordu: *"üç kademeli yapıya gerek var mı?"* Ölçüm cevabı
-veriyor: eşzamanlılık 3-5'te tutulacaksa bir koordinatör onları **doğrudan**
-izleyebilir; orta kademe saf ek yük ve **iki başlılık** olur.
+**② Oturum sayısı AZ tutulur — ve sebebi ters sezgiseldir.**
+Paralellik token maliyetini **düşürmez**, yalnız duvar saatini kısaltır.
+Her taze oturum `CLAUDE.md` + şartname + ölçüm turunu **yeniden** öder
+(`§7.1`: *maliyet ≈ bağlam × tur*). ⇒ %94'te doğru hamle **çok sayıda taze
+oturum değil, az sayıda uzun soluklu oturumdur.**
+
+**③ KOŞU UCUZDUR — madde pahalıdır.** Ölçüldü ve çoğu zaman ters biliniyor:
+`py arac/uret_petek.py` **tek Bash çağrısıdır**; 23 dakikalık duvar saati
+token değil CPU yakar. Pahalı olan 164 maddenin araştırması. ⇒ *"maddeler
+bitince koşu başlat"* emrinin **koşu yarısı bütçeyi zorlamaz.**
+
+**④ 🔴 `arac/` DONMUŞTUR — ve bu bir nezaket değil bütçe kuralıdır.**
+Artımlı motorun önbelleği (`arac/motor_onbellek.py` · `_motor_onbellek/`)
+bir **TUZ** ile anahtarlanır ve tuzun içinde şunlar var: `uret_petek.py` ·
+`renkler.py` · `girdi.py` · `motor_onbellek.py` + bütün `MOTOR_*` ortam
+değişkenleri + harita penceresi.
 ```
-VARSAYILAN   iki kademe — koordinatör + işçiler
-             🔴 koordinatör İŞÇİ İŞİ YAPMAZ, ama ÖLÇER
-ÜÇÜNCÜ KADEME  İŞ BAZINDA: tek bir iş 3+ işçi gerektiriyorsa O İŞ İÇİN bir
-             ekipbaşı, bitince KAPANIR. Kalıcı orta kat kurulmaz.
+yalnız data/ değişirse   → önbellek TUTAR  → koşu ~23 dk (22 Eylül ölçümü)
+arac/ bir satır değişirse → TUZ DEĞİŞİR    → önbellek TAMAMEN çöp, tam inşa
 ```
-📌 Orta kademenin gerçek faydası *"kaç kişiyi yönetirim"* değil **bağlam
-emmek**: ekipbaşı ayrıntıyı okur, koordinatöre sıkıştırılmış sonucu verir.
-Cephane bol olmadıkça bu fayda maliyetini karşılamıyor.
+⇒ Bu gece hiçbir oturuma `arac/` işi verilmeyecek. (`YASALAR M7`nin daha
+sıkı hâli: M7 *koşu sürerken* yasaklar; tuz koşudan **önce** de ısırır.)
 
-**③ Ölçülmüş bir uyarı: uyandırmak açmaktan pahalı olabilir.**
-`TESPIH.md` kaydı: *"944 K'lık oturumu uyandırmak 346 K'lıktan ~3 kat
-pahalı — bir mesaj bağlamın TAMAMINI yeniden taşır."* ⇒ Bağlamı şişmiş bir
-oturumu çağırmak yerine **taze işçi** açmak çoğu zaman ucuzdur.
-
-**④ Ve 4 Eylül'ün kendi dersi:** bu oturum (koordinatör) gün boyu hem
-koordinatör hem işçi çalıştı ve 941 K'ya çıktı. Bağlamı şişiren şey rapor
-okumak değil **iş yapmaktı**. Kural ①'in sebebi budur.
-
----
-
-## GÜNCELLEME KURALI
-
-Bu dosya **ölçüldüğünde** güncellenir, tahminle değil. Emre'ye sorulacak üç
-şey (`§2d`): abonelik kademesi · haftalık limit yüzdesi · tempo tercihi.
-⚠️ Kademe ve tempo **henüz sorulmadı** — bu dosyada yalnız yüzde var.
-*"Ölçmediğini `ölçmedim` diye yaz."*
+**⑤ Üç kademeli yapı yok.** İki kademe: koordinatör + işçiler.
