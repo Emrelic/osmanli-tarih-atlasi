@@ -52,6 +52,19 @@ def sahip(y, gun):
     return o, v
 
 
+def isgal(y, gun):
+    """O gün geçerli `isg:` (işgal) kaydının işgalci kimliği, yoksa None.
+
+    Ayrı fonksiyon, çünkü işgal sahiplik DEĞİLDİR: mülkiyet Osmanlı'da
+    kalırken toprak fiilen başkasının elinde olabilir. H-0036 (Kars) ve
+    H-0038 (Sofya/Plevne) tam bu ayrımın karıştığı maddeler.
+    """
+    for k in (y.get('isg') or []):
+        if aralikta(k.get('f'), k.get('t'), gun):
+            return k.get('kid') or k.get('d') or k.get('k') or '?'
+    return None
+
+
 def main():
     if len(sys.argv) < 6:
         print(__doc__)
@@ -78,10 +91,16 @@ def main():
         print('  🔴 NOKTASIZLIK — pencerede HIC yerlesim yok; alan en yakin petege emilir (CLAUDE.md §2)')
         return
     sayac = {}
+    isgalli = 0
     for y in icinde:
         d, v = sahip(y, gun)
-        anahtar = (d or 'SAHIPSIZ') + (' | tabi:' + v if v else '')
+        i = isgal(y, gun)
+        if i:
+            isgalli += 1
+        anahtar = (d or 'SAHIPSIZ') + (' | tabi:' + v if v else '') + \
+                  (' | ISGAL:' + i if i else '')
         sayac[anahtar] = sayac.get(anahtar, 0) + 1
+    print('  o gun ISGAL kaydi olan  : %d / %d' % (isgalli, len(icinde)))
     print('  sahiplik dagilimi:')
     for k in sorted(sayac, key=lambda k: -sayac[k]):
         print('     %-46s %d' % (k, sayac[k]))

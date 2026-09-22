@@ -244,7 +244,7 @@ ayrımını atlamıştı. Sınav yakaladı, düzeltildi, Kudüs 1882 → `OSMANL
 | madde | gün · pencere | nokta | ÖLÇÜM — suçlu tam olarak bu |
 |---|---|---|---|
 | **H-0023** | 1871-04-20 · Katar yarımadası | **5** | `Doha (Katar)` ve `Katar Yarımadası (iç, dolgu)` **SAHİPSİZ**; `Katîf` ve `Ukayr` OSMANLI. Yarımada tam ortadan ikiye bölünmesinin sebebi bu — batı yarısı Ukayr'ın peteği (kırmızı), doğu yarısı Doha'nın peteği (sahipsiz). Emre'nin *"Katar kenti dâhil değil"*i **birebir doğru**. Maddenin kendisi Midhat Paşa'nın 1871 Necid seferi ⇒ Doha'nın `d:`/`s:` penceresi eksik. |
-| **H-0038** | 1878-01-04 · Tuna–Balkan | 58 | `Sofya` = `tâbi: bulgaristan-prensligi` — oysa prenslik 1878 Temmuz'unda kuruldu; 4 Ocak'ta şehir **Rus işgalinde**. `Plevne · Niğbolu · Kili · Bender · Orhei` = `rusya`. `Eflak`(11) ve `Boğdan`(4+3) hâlâ **tâbi** ⇒ haritada Osmanlı rengi. Emre'nin dört şıkkının dördü de ölçümle tutuyor; doğru gösterim **işgal taraması**. |
+| **H-0038** | 1878-01-04 · Tuna–Balkan | 58 | `Sofya` = `tâbi: bulgaristan-prensligi` — oysa prenslik 1878 Temmuz'unda kuruldu; 4 Ocak'ta şehir **Rus işgalinde**. `Plevne · Niğbolu · Kili · Bender · Orhei` = `rusya`. `Eflak`(11) ve `Boğdan`(4+3) hâlâ **tâbi** ⇒ haritada Osmanlı rengi. Emre'nin dört şıkkının dördü de ölçümle tutuyor; doğru gösterim **işgal taraması** — ve ölçüldü: o gün o pencerede **`isg:` kaydı olan nokta 0 / 58**. Aynı boşluk Kars cephesinde de var (0 / 34, §5.5) ⇒ **H-0036 ile tek kök sebep**: 93 Harbi boyunca işgal katmanı hiç kullanılmamış, sahiplik alanı işgal yerine kullanılıyor. |
 | **H-0064** | 1882-09-13 · Mısır | 54 | 51 nokta tâbi (Mısır), **`Cağbûb` tek başına OSMANLI doğrudan** → Emre'nin gördüğü "ufak tefek Osmanlı renginde yer" onun peteği. `Gilf el-Kebîr` SAHİPSİZ. Ayrıca **4 kayıtta tâbilik kimliği `kid` yok, serbest metin**: `Süveyş · Sefâce · Tûr (Sînâ)` → `"Kavalalı hanedanı"`, `Sina güneyi` → `"Mısır Hidivliği"`; `Sîva (Siwa)` → `kid` **bulunamadı**. Kimliksiz tâbi boyanamaz. |
 | **H-0065** | 1883-01-19 · Darfur | **4** | `Darfur` noktası kendi kimliğinde (`darfur`), çevresindeki `Kebkâbiye · Cebel Merre · Zâlincî` `tâbi: misir-kavalali`. Emre'nin sorduğu **"merkezdeki mavi enklav" = Darfur noktasının kendi peteği**. Kusur değil, **eksik kapsam**: Darfur Sultanlığı'nın alanı tek noktaya sıkışmış. |
 | **H-0068** | 1883-12-23 · Darfur–Kordofan | 17 | 15 nokta `mehdi`, `Darfur` hâlâ `darfur`, **`Nühûd` hâlâ `tâbi: misir-kavalali`**. Emre'nin iki gözlemi de **ölçümle doğrulandı**; hangisinin ne zaman düştüğü **kaynak işi** (TDV), bende `bulunamadı`. |
@@ -284,6 +284,78 @@ Tarih `tarihAyarla(gunIdx("YYYY-MM-DD"))`, gövdeler
 
 İkisinin de tam gövdesi `denetim/HARITA-0076-YAMA-olcum.js` dosyasındadır;
 konsola yapıştırılıp koşar, sayfaya hiçbir şey yazmaz.
+
+---
+
+## 5.5 EK — H-0036 (Kars) · hüküm bende, numara `KRONO-0076-A`da
+
+`KRONO-0076-A` M-5033 ile Kars ölçümünü yatay gönderdi; koordinatör
+M-5025 (b) ile **hükmü bana** verdi. Numara onda kaldığı için
+`CEVAP.json`a **ben yazmadım** (M-5023 ②) — hüküm ona yazıldı.
+
+**Onun ölçümü** (`denetim/KRONO-0076-A-yatay-olc.py`): kutu lat 39.5–41.8 ·
+lon 41.0–45.0 → 34 yerleşim. 1877-11-17 → 1877-11-19 arasında sahibi
+değişen **1/34** (yalnız Kars, OSMANLI → rusya, 1877-11-18). 1877-04-24 →
+1878-03-03 arasında değişen 17/34. Ardahan zaten 1877-05-17'de Rusya.
+
+**Benim bağımsız ölçümüm** (`denetim/HARITA-0076-sahip.py`, 1878-01-01,
+aynı kutu) onun bulgusunu doğruluyor ve bir ayrıntıyı düzeltiyor:
+
+```
+34 nokta · OSMANLI 21 · rusya 13
+Kars (43.095, 40.602) = rusya
+  en yakın komşuları:  Arpaçay 33 km OSMANLI · Digor 36 km OSMANLI
+                       Küçükperveli 44 km OSMANLI · Sarıkamış 50 km OSMANLI
+  en yakın RUS noktası: Kliçatak 55 km · Gümrü 66 km · Ardahan 68 km
+```
+Yani Kars "tek Rus noktası" değil (kutuda 13 Rus nokta var, savaş
+öncesi Rus sınırı dahil) ama **Rus bloğundan kopuk**: Küçükperveli
+(Osmanlı) tam Kars ile Gümrü/Kliçatak arasında durduğu için Kars'ın
+peteği her yönden Osmanlı peteğiyle çevriliyor. **Eksklav görüntüsü
+gerçek ve 105 gün sürüyor** (1877-11-18 → 1878-03-03).
+
+### 🔴 Asıl bulgu — ölçtüm, kimse sormamış
+
+```
+1878-01-01 · Kars kutusu (34 nokta) : ISGAL kaydı olan  0 / 34
+1878-01-04 · Tuna kutusu (58 nokta) : ISGAL kaydı olan  0 / 58
+```
+**93 Harbi'nin iki cephesinde de işgal katmanı HİÇ kullanılmamış.**
+Mekanizma var ve başka yerlerde çalışıyor (`isg:` alanı
+`yerlesimler.js`te, Değişmez 2i bugün 129 işgal kırılması sayıyor) —
+ama bu savaşta sıfır. Sonuç: **fiilî düşüş ile hukukî devir aynı
+alanda (`d:`/`s:`) karışıyor** ve hangi ölçütün kullanıldığı yerleşimden
+yerleşime değişiyor:
+
+| | ölçüt | tarih |
+|---|---|---|
+| Kars | kalenin **fiilî** düşüşü (TDV, 93 Harbi) | 1877-11-18 |
+| Arpaçay · Digor · Sarıkamış · Küçükperveli … | **antlaşma** günü | 1878-03-03 |
+| Sofya (H-0038) | prensliğin kuruluşu **öncesine** çekilmiş tâbilik | 1878-01-04'te `bulgaristan-prensligi` |
+| Plevne · Niğbolu (H-0038) | Rus **sahipliği** | 1878-01-04 |
+
+⇒ **H-0036 ve H-0038 aynı kök sebebin iki cephesidir.** D kovasının
+ikinci alt sınıfı budur: *savaş yılı boyunca işgal katmanı yok, sahiplik
+alanı işgal yerine kullanılıyor.*
+
+### Hükmüm: `sirada` · çare belli, kaynak eksik
+
+**① Komşu noktaların `d:`/`s:` tarihlerine DOKUNULMAZ.** `D206` ters yön
+sınavı: çevreyi 1877'ye çekmek, Ayastefanos'a kadar gerçekten Osmanlı
+kalan yerleri erken kaybettirir — düzeltme hatayı öbür tarafa taşır.
+`KRONO-0076-A`nın uyarısı yerinde ve aynen benimsendi.
+
+**② Çare `isg:` kaydı eklemektir**, sahiplik devri değil. Kars'ın çevresi
+Rus işgali taramasıyla gösterilince Kars eksklav olmaktan çıkar, mülkiyet
+Ayastefanos'a kadar Osmanlı kalır, iki uç da doğru olur.
+
+**③ Eksik olan:** hangi yerleşimin hangi gün işgale girdiği. Bu **kaynak
+işidir** (TDV `doksanuc-harbi` ve yer maddeleri) ve bende **bulunamadı**;
+tarih uydurmadım (§4, `D210`). Kars'ın 1877-11-18'i kaynaklı ve
+**değişmez**.
+
+**④ Sefer oku talebi** bu maddenin içindeydi ama ayrı kalemdir —
+`SEFER-OK` ailesinin işi, burada kapatılmadı.
 
 ---
 

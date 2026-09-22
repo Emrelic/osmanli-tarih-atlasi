@@ -152,7 +152,7 @@ MADDELER = {
         'seferi ⇒ Doha\'nın sahiplik penceresi eksik. ÇARE: `Doha (Katar)` '
         've `Katar Yarımadası (iç, dolgu)` kayıtlarına 1871 penceresi; '
         'TARİH KAYNAK İSTER, bende BULUNAMADI. `yerlesimler.js` Oturum 0\'ın.'),
-    'H-0038': ('olculecek',
+    'H-0038': ('sirada',
         'KÖK SEBEP D. ÖLÇÜM (1878-01-04, 21.55–30.33E · 42.06–47.79N, 58 '
         'nokta) Emre\'nin DÖRT şıkkının dördünü de doğruluyor: '
         '① `Eflak` (11 nokta) ve `Boğdan` (4+3) hâlâ TÂBİ ⇒ haritada Osmanlı '
@@ -163,8 +163,19 @@ MADDELER = {
         '④ `Sofya` = tâbi:`bulgaristan-prensligi` — oysa prenslik 1878 '
         'TEMMUZ\'unda kuruldu; 4 Ocak\'ta şehir Rus İŞGALİNDE. '
         'DOĞRU GÖSTERİM Emre\'nin kendi önerisi: işgal TARAMASI (`isg:`), '
-        'sahiplik devri değil. `olculecek` çünkü dört şıkkın her biri ayrı '
-        'işgal penceresi + kaynak ister (§4 TDV); tarih uydurmadım.'),
+        'sahiplik devri DEĞİL. '
+        '🔴 KÖK SEBEBİ AYRICA ÖLÇTÜM: o gün o pencerede `isg:` kaydı olan '
+        'nokta 0 / 58. Kars cephesinde de 0 / 34 (H-0036). Yani 93 Harbi '
+        'boyunca İŞGAL KATMANI HİÇ KULLANILMAMIŞ; mekanizma var ve başka '
+        'yerde çalışıyor (Değişmez 2i bugün 129 işgal kırılması sayıyor). '
+        'Sahiplik alanı işgal yerine kullanılınca hangi ölçütün geçerli '
+        'olduğu yerleşimden yerleşime değişiyor (Kars fiilî düşüş '
+        '1877-11-18, komşuları antlaşma günü 1878-03-03) ⇒ H-0036 ile '
+        'AYNI KÖK SEBEP. ÇARE: komşu noktaların d:/s: tarihlerine '
+        'DOKUNMADAN `isg:` kaydı eklemek (D206 ters yön: çevreyi 1877\'ye '
+        'çekmek, Ayastefanos\'a kadar gerçekten Osmanlı kalan yerleri erken '
+        'kaybettirir). Hangi yerleşimin hangi gün işgale girdiği KAYNAK '
+        'ister (§4 TDV), bende BULUNAMADI; tarih uydurmadım.'),
     'H-0064': ('sirada',
         'KÖK SEBEP D. ÖLÇÜM (1882-09-13, 24–34E · 22–31.5N, 54 nokta): 51 '
         'nokta tâbi (Mısır), `Cağbûb` TEK BAŞINA OSMANLI DOĞRUDAN → Emre\'nin '
