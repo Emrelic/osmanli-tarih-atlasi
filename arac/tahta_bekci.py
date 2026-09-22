@@ -79,7 +79,9 @@ karmaşıklık çıktı: kimse `--genis` vermeden HERKES'i hiç görmüyordu, ve
 Eski bayraklar hâlâ KABUL EDİLİR (argv'de bulunmaları hata vermez) ama
 anlamları değişti — artık VARSAYILANI genişletmiyor, onun üstüne İSTEĞE
 BAĞLI bir SÜZGEÇ ekliyor:
-    --herkes-acil   HERKES yayınlarını yalnız ACİL/DURDURUCU'ya daraltır
+    --herkes-acil   🔴 artık NO-OP — 22 Eylül 2026'da VARSAYILAN oldu:
+                    HERKES yayını yalnız ACİL/DURDURUCU ise uyandırır
+    --herkes-hepsi  eski davranışı geri getirir (her HERKES uyandırır)
     --dosyam <yol>  HERKES yayınının GÖVDESİNDE bu yol geçmiyorsa süzer
                     (ACİL/DURDURUCU yine geçer) · `kime` alanında bu yol
                     geçen mesaj HER ZAMAN doğrudan adres sayılır
@@ -262,7 +264,14 @@ def main(argv):
     #   davranışı değiştirmez) — çünkü varsayılan zaten onların eski
     #   işini yapıyor. `--herkes-acil` ve `--dosyam` hâlâ ANLAMLI: ikisi
     #   de HERKES yayınını daha da DARALTAN isteğe bağlı süzgeçlerdir.
-    herkes_acil = "--herkes-acil" in argv
+    herkes_acil = "--herkes-acil" in argv      # 🔴 ARTIK NO-OP: varsayılan
+    # 🔴🔴 22 EYLÜL 2026 — `--herkes-acil` VARSAYILAN OLDU, bayrak NO-OP'a
+    # düştü (kabul edilir, hata vermez, davranışı değiştirmez). Sebebi
+    # yukarıdaki HERKES bloğunda ölçüsüyle yazılı: bilgi amaçlı bir
+    # duyuru, uyandırdığı her oturuma TAM BİR BAĞLAM bedeli ödetiyor.
+    # --herkes-hepsi: ESKİ davranış — her HERKES yayını uyandırır. Yalnız
+    #   gerçekten her duyuruyu beklemesi gereken oturum kullanır.
+    herkes_hepsi = "--herkes-hepsi" in argv
     # --dosyam <yol>: (a) `kime` alanında bu yol geçen mesaj DOĞRUDAN
     #   adres sayılır (her hâlde uyandırır) — (b) verilmişse HERKES
     #   yayınları GÖVDESİNDE bu yol geçmiyorsa süzülür (ACİL/DURDURUCU
@@ -331,19 +340,37 @@ def main(argv):
                 # yedinci vakası, M-0503; bkz. dosya başı KULLANIM notu).
                 yeni.append(m)
             elif k == "HERKES":
-                # HERKES artık VARSAYILAN OLARAK uyandırır. `--herkes-acil`
-                # ve `--dosyam` bunu daha da DARALTAN isteğe bağlı
-                # süzgeçlerdir — hiçbiri verilmemişse her HERKES geçer.
+                # 🔴🔴 22 EYLÜL 2026 — VARSAYILAN TERSİNE ÇEVRİLDİ.
+                # Eskiden her HERKES mesajı HER oturumu uyandırıyordu.
+                # Ölçüldü: son 30 tahta mesajının 3'ü HERKES'ti (%10) ve
+                # ikisi SALT BİLGİ idi ("koşu bitti", "gc bitti, commit
+                # serbest"). Her biri sekiz oturumu birden uyandırdı;
+                # sekizi de bağlamını baştan okudu ve "bana iş yok" deyip
+                # kapandı. Yani bir satırlık duyuru, sekiz tam turluk
+                # bağlam bedeli ödetti.
+                # ⇒ Artık HERKES yalnız ACİL/DURDURUCU ise uyandırır.
+                #   Bilgi amaçlı duyuru TAHTAYA YAZILIR ve oturum onu
+                #   KENDİ İŞİ İÇİN uyandığında okur — duyuru bir
+                #   KÜTÜKTÜR, bir ALARM değil.
+                # ⚠️ `--herkes-hepsi` eski davranışı geri getirir; bunu
+                #   yalnız gerçekten her duyuruyu beklemesi gereken bir
+                #   oturum (ör. koşu nöbetçisi) kullanır.
+                # ⚠️ Ve yazana düşen: bir duyuru GERÇEKTEN herkesin işini
+                #   durduruyorsa `--aciliyet ACIL` ile yazılır. Aciliyet
+                #   artık bir süs değil, bir ANAHTAR.
                 _t = m.get("mesaj") or ""
                 _acil = _sade(m.get("aciliyet")) in ("ACIL", "DURDURUCU")
-                if dosyam:
+                if herkes_hepsi:
+                    yeni.append(m)
+                elif dosyam:
                     if dosyam in _t or _acil:
                         yeni.append(m)
-                elif herkes_acil:
-                    if _acil:
-                        yeni.append(m)
-                else:
+                elif _acil:
                     yeni.append(m)
+                else:
+                    _diag("[BEKCI] %s HERKES/bilgi — UYANDIRMIYOR "
+                          "(aciliyet '%s'). Kendi turunda okunacak."
+                          % (m.get("no"), m.get("aciliyet") or "—"))
             elif k and any(b and (k in b or b in k) for b in benler):
                 # ① ADRES TUZAĞI — kısmen tutuyor ama TAM eşit değil.
                 # Başka bir ada yazılmış mesaj DEĞİL; bana yazılmaya
@@ -401,7 +428,20 @@ def main(argv):
                     f.write(str(max([_no(g) for g in gorulen] or [0])))
             except OSError:
                 pass
-        if (yeni or tuzak) and cik:
+        # 🔴🔴 22 EYLÜL 2026 — `tuzak` ÇIKIŞ SEBEBİ OLMAKTAN ÇIKARILDI.
+        # Eskiden koşul `(yeni or tuzak) and cik` idi. Ölçülen sonuç:
+        # ADRES TUZAĞI bir MESAJ DEĞİL, bir TEŞHİSTİR — kendi kodu bunu
+        # zaten söylüyor: *"Mesaj bana ULAŞMADI"*. Yine de bekçiyi
+        # düşürüyordu; oturum uyanıyor, gelen kutusunda KENDİNE AİT
+        # HİÇBİR ŞEY bulamıyor, "benlik bir şey yok, bekçiyi yeniden
+        # kuruyorum" yazıp kapanıyordu. Her böyle uyanış BÜTÜN BAĞLAMI
+        # yeniden okur — yani boş bir uyanış, dolu bir turdan daha ucuz
+        # DEĞİLDİR.
+        # ⇒ Tuzak artık yalnız `_diag` ile stderr'e düşer (log'da durur,
+        #   `Read` ile okunur) ve UYANDIRMAZ. Emre'nin kuralı yazılıydı
+        #   ("bekçiler sessiz olsun"), uygulanmıyordu — çünkü kural
+        #   insandaydı, ALET tersini yapıyordu.
+        if yeni and cik:
             _diag("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
                   "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
             return 0
