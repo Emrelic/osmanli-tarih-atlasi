@@ -178,9 +178,11 @@ var _dGorunum = "hukuki";   // "hukuki" | "fiili"
 var _dGoster = true;
 try { _dGoster = localStorage.getItem("dSinirGoster") !== "0"; } catch (e) {}
 
-// ③④ YASLAMA — PİLOT: yalnız Türkiye ailesi (data/d_sinirlar.js, D1-TURKIYE).
+// ③④ YASLAMA — PİLOT: Türkiye ailesi (data/d_sinirlar.js, D1-TURKIYE) +
+// komşu ailesi (data/d_sinirlar_komsu.js — Emre, 24 Eylül 2026: "Bulgaristan'ın
+// 1923 sınırları D hatlarına yaslanmamış"; BG–YU/GR hatları bu ailede).
 // Öteki aileler genişletilince bu listeye eklenir; kod aileden bağımsızdır.
-var _D_YASLA_AILELER = ["D_SINIRLAR"];
+var _D_YASLA_AILELER = ["D_SINIRLAR", "D_SINIRLAR_KOMSU"];
 // Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
 // olur (D-RENK-0073-YURURLUK §5.3). Fiilî hat yalnız fiilî görünümde keser.
 var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1 };
@@ -475,8 +477,35 @@ function _dSeritTek(h, w) {
     onceki = { ux: ux, uy: uy, ox: ox, oy: oy };
   }
   var S = _dPc("union", sol), R = _dPc("union", sag);
-  return { sol: _dPc("difference", [S, R]), sag: _dPc("difference", [R, S]), kapsam: _dPc("union", [S, R]) };
+  var S0 = _dPc("difference", [S, R]), R0 = _dPc("difference", [R, S]), K = _dPc("union", [S, R]);
+  if (w <= _D_HAT_KESIK_KM) return { sol: S0, sag: R0, kapsam: K };
+  // KIVRIM KAMASI (Emre, 24 Eylül — Meriç 1923: Enez deltası ve Karaağaç
+  // dirseğinde iki gövde üst üste kalıyordu). S−R / R−S keskin kıvrımda iki
+  // yanın dikdörtgenleri kesiştiği için o bölgeyi KARARSIZ bırakır. Oysa bant
+  // hattın kendisiyle kesilince her parça hattı geçmeden ulaşılabilen tek bir
+  // yandadır ⇒ parça, değdiği dar kesin yan (S0/R0) hangisiyse ona verilir.
+  // İki yana da belirgin değen parça (hat ucunu dolanan bant) eski kurala düşer.
+  try {
+    var kesik = _dPc("difference", [K, _dSeritTek(h, _D_HAT_KESIK_KM).kapsam]);
+    var yS = [], yR = [];
+    kesik.forEach(function (poli) {
+      var aS = _dAlanKm2(_dPc("intersection", [[poli], S0]));
+      var aR = _dAlanKm2(_dPc("intersection", [[poli], R0]));
+      if (aS > 4 * aR) yS.push([poli]);
+      else if (aR > 4 * aS) yR.push([poli]);
+      else {
+        var ps = _dPc("intersection", [[poli], S0]), pr = _dPc("intersection", [[poli], R0]);
+        if (ps.length) yS.push(ps);
+        if (pr.length) yR.push(pr);
+      }
+    });
+    return { sol: yS.length ? _dPc("union", yS) : [], sag: yR.length ? _dPc("union", yR) : [], kapsam: K };
+  } catch (e) {
+    return { sol: S0, sag: R0, kapsam: K };
+  }
 }
+// Hattı bandı ikiye kesen ince şerit (km) — ~10 m; kendisi kararsız kalır.
+var _D_HAT_KESIK_KM = 0.01;
 // polygon-clipping 0.15.7 kıl payı çakışan kenarlarda ara sıra "Unable to pop()
 // SweepEvent" fırlatıyor (ölçüldü: aynı girdiyle bir koşuda geçip ötekinde
 // düştü). Önce olduğu gibi, düşerse 1e-6 dereceye (~10 cm) yuvarlanmış girdiyle
