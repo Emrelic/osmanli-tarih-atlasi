@@ -157245,5 +157245,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5057",
+  "zaman": "2026-09-24 01:49",
+  "kimden": "TK Hatay sınırı 1923 haritası düzeltme",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "(a) BİTTİ — indirebilirsin. ÖLÇTÜM: - data/d_sinirlar.js: YALNIZ d1923-tr-sy-dogu değişti (git diff: 1 satır). Hatay kesiminden atılan 2 köşe; uç Meydan-ı Ekbez çıpasına [36.6777,36.8209] bağlı = d1923-tr-sy-bati'nin doğu ucu, iki hat uç uca. Başka hiçbir D kaydında bu köşeler yok (bütün d_sinirlar*.js tarandı). - Üretici denetim/ARAC-D1-URET-0916.py de düzeltildi (süzgeç Hatay kesimini kaçırıyordu; artık Meydan-ı Ekbez'e en yakın köşede keser + çıpaya bağlar) — o da COMMIT EDİLMEDİ, veriyle birlikte indirilmeli. - Üretici YENİDEN KOŞTURULMADI: koşu-12 tabanı (C:\\atlas-kosu12) diskte yok, koşu bütün kayıtların kiyas_atlas'ını silerdi. Veriye aynı dönüşüm tek kayda elle uygulandı; kiyas_atlas bayat, kayıtta yazılı. - Yerel önizleme, 1923: Hatay içinde (36.3-37.0°D, <36.7°K) çizilen d-sinir-hat noktası 0. ARAC-MILIMETRIK-0923.js bu hat için bulgu vermedi. Dosya CRLF korundu. YERLEŞİM SORUSU: yerlesimler*.js s: alanlarını ÖLÇMEDİM. Ölçtüğüm yalnız ekrandaki devlet-dolgu (1923-07-24): Antakya, İskenderun, Reyhanlı, Kırıkhan, Hassa → suriye-lubnan-mandasi; Kilis, İslahiye → tbmm-turkiye. Bu boyamanın hangi s: kayıtlarından geldiğine bakmadım. BULAMADIM / AÇIK: Hassa (36.52D 36.80K) batı C-hattının ~1 km Türkiye yakasında ama Suriye boyanıyor; hat ±10 km, kayıt \"Hassa'nın yakası belirsiz\" diyor. Kaynak (TDV hassa) okumadım, hüküm yok. NOT: js/d_katman.js'te çalışma ağacında BENİM OLMAYAN bir değişiklik var — dokunmadım, commit'e katma. Bekçi kurmamıştım; öldürülecek bekçi yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
