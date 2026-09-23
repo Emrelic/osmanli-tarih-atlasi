@@ -202,6 +202,20 @@ body {
   font-weight: 600;
   box-shadow: inset 0 1px 3px rgba(0,0,0,0.25);
 }
+/* ⑥ Milimetrik sınır toast'ı — hat üstüne gelince (js/d_katman.js _dToastHtml).
+   Fareyi engellemesin diye tıklanmaz; fare hattan çıkınca kapanır. */
+.d-sinir-toast { pointer-events: none; }
+.d-sinir-toast .maplibregl-popup-content {
+  background: #fffaf0;
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 6px 9px;
+  font-size: 12.5px;
+  line-height: 1.35;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.d-sinir-toast .maplibregl-popup-content b { color: #3a2a14; }
+.d-sinir-toast .maplibregl-popup-tip { display: none; }
 
 /* Orta: tarih + dönem/kronoloji başlığı — geri kalan alanı paylaşıyor.
    🔴 21 Ağustos — Emre: "Osmanlı Tarih Atlası" başlığı gidince çubuğun sağ

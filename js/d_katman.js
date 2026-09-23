@@ -160,6 +160,42 @@ function _dKayitIndeksi() {
 // ---- GÖRÜNÜM ANAHTARI -------------------------------------------------------
 var _dGorunum = "hukuki";   // "hukuki" | "fiili"
 
+// ============================================================================
+// 🆕 MİLİMETRİK SINIR KURALLARI — Emre, 23 Eylül 2026 ("TK D tipi sınırların
+// gösterimi"). Belgeye/antlaşmaya dayanan, koordinatla tartışmasız çizilmiş
+// sınır = "milimetrik sınır" (şemada sinif E/F; fiilî görünümde D de).
+//   ① anakronizm yok: hat yalnız kendi penceresinde; ardılı gelince silinir
+//   ② yürürlük gününden ÖNCE çizilmez                 → _dAktifKayitlar (f ≤ gün < t)
+//   ③ yürürlükten sonra A/B/C gösterimini EZER         → _dYaslaGuncelle (gövde düzeltmesi)
+//   ④ iki devletin rengi hatta DAYANIR, öteye taşmaz   → _dYaslaGuncelle
+//   ⑤ göster/gizle ayarı                               → _dGoster + "Çizgi" düğmesi
+//   ⑥ hat üstüne gelince antlaşma+tarih toast'ı        → _dToast*
+// ①'nin veri tarafı (ardıl kaydın `f`si = öncülün `t`si, aynı hatta iki kayıt
+// aynı görünümde üst üste binmez) `denetim/ARAC-MILIMETRIK-0923.js` ile ölçülür.
+// ============================================================================
+
+// ⑤ Göster/gizle — tercih tarayıcıda saklanır (yoksa varsayılan: GÖSTER).
+var _dGoster = true;
+try { _dGoster = localStorage.getItem("dSinirGoster") !== "0"; } catch (e) {}
+
+// ③④ YASLAMA — PİLOT: yalnız Türkiye ailesi (data/d_sinirlar.js, D1-TURKIYE).
+// Öteki aileler genişletilince bu listeye eklenir; kod aileden bağımsızdır.
+var _D_YASLA_AILELER = ["D_SINIRLAR"];
+// Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
+// olur (D-RENK-0073-YURURLUK §5.3). Fiilî hat yalnız fiilî görünümde keser.
+var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1 };
+var _D_YASLA_SINIF_FIILI = { D: 1, F: 1, E: 1 };
+// Şerit genişliği: hattın her iki yanında bu kadar km içindeki "yanlış taraf"
+// boyası düzeltilir. D-RENK-0073 §4 sapmayı medyan 8–17 km, en çok 40 km
+// ölçmüştü; ama TR–Suriye hattında (1923-09-01) 55–100 km'ye inen TBMM ve ~50
+// km'ye çıkan Suriye parçası ÖLÇÜLDÜ ⇒ 100 km. Emniyet iki korumadadır, genişlikte
+// değil: kısa hat yaslanmaz, yönü gövdelerle doğrulanmayan hat yaslanmaz.
+var _D_YASLA_KM = 100;
+// Bundan kısa hat yaslanmaz: dik şeridi hattın boyunu kat kat aşar, yönü
+// ölçülemez. Vaka: d1923-tr-gr-2 (Sisam boğazı, 1,9 km) şeridi Kuşadası
+// kıyısına uzanıyordu.
+var _D_YASLA_EN_KISA_KM = 10;
+
 // ---- AKTİF KAYITLAR (pencere) ------------------------------------------------
 // 🔴 ÖNCELİK (F>E>C / D>F>E>C) BURADA VERİ BASTIRMASI OLARAK UYGULANMIYOR —
 // denendi, GERÇEK VERİYLE ÇÜRÜDÜ (tarayıcıda sınandı, D-KATMAN-0916.md §10):
@@ -277,9 +313,12 @@ function _dPopupHtml(kayit, sinif) {
     // Emre'nin asıl cümlesi ("renkler bu sınırlara birebir oturmuyor") burada
     // cevaplanıyor: hat ile dolgu AYRI İKİ İDDİADIR, ve ayrışma bir kusur değil
     // bir ÖLÇÜdür. Sapmayı D-RENK-0073 sayıya döktü (medyan 11 km, en çok 40 km).
-    "<br><small>⚠️ Bu hat <b>antlaşmanın</b> çizgisidir; altındaki renk " +
-    "<b>yerleşim peteğinden</b> gelir. İkisi ayrışabilir — ayrıştığı yerde " +
-    "henüz o hattı tutacak yerleşim noktası yoktur.</small>" +
+    (_dYaslandiMi(kayit.id)
+      ? "<br><small>✓ Milimetrik sınır: iki tarafın rengi bu hatta <b>yaslandı</b> " +
+        "(hattın " + _D_YASLA_KM + " km yakınındaki taşma örtüldü).</small>"
+      : "<br><small>⚠️ Bu hat <b>antlaşmanın</b> çizgisidir; altındaki renk " +
+        "<b>yerleşim peteğinden</b> gelir. İkisi ayrışabilir — ayrıştığı yerde " +
+        "henüz o hattı tutacak yerleşim noktası yoktur.</small>") +
     "<br><small style=\"opacity:.55\">" + ekEsc(kayit.id || "") + "</small>";
 }
 
@@ -304,6 +343,379 @@ function _dSinirGuncelle(gun) {
     };
   });
   harita.getSource("d-sinir-hat").setData({ type: "FeatureCollection", features: feat });
+}
+
+// ---- ③④ YASLAMA: rengi milimetrik hatta dayandırma ---------------------------
+// Dolgu motorun peteğinden gelir ve hattı BİLMEZ (motor `hat`ı okumaz). Bu
+// yüzden düzeltme tarayıcıda, GÖVDENİN KENDİSİNDE yapılır: hattın solundaki
+// şeritte kalan SAĞ taraf gövdesi sağdan çıkarılıp sola eklenir, simetriği de.
+// ÜST DOLGU (yama katmanı) DENENDİ VE BIRAKILDI: yumuşak kipte dolgular saydam
+// (yabancı 0,44), üste konan yama altındaki yanlış rengi örtemedi, koyu leke
+// olarak göründü (23 Eylül, Ceylanpınar). Gövde düzeltmesi her kipte doğrudur
+// ve `devlet-cizgi` kenarını da hatta oturtur.
+// Yalnız iki tarafın kendi gövdeleri değişir — üçüncü bir devletin, denizin,
+// boşluğun rengine DOKUNULMAZ (hat bilmediğimiz bir şey söylemez). Taraf
+// gövdesi o gün bulunamazsa o kayıt atlanır ve sayılır (uydurma renk YOK).
+var _dYaslaSayac = { kayit: 0, yama: 0, atlanan: [] };
+
+function _dYaslaSiniflari() {
+  return (_dGorunum === "fiili") ? _D_YASLA_SINIF_FIILI : _D_YASLA_SINIF_HUKUKI;
+}
+function _dYaslaAdaylari(gun) {
+  var izin = _dYaslaSiniflari();
+  var ONC = { D: 4, F: 3, E: 2 };
+  // Aynı HAT (birebir aynı koordinat dizisi) iki kayıtta aynı gün aktifse —
+  // ör. d1920-tbmm-bg (E) ile d1920-yunan-isgal-bg (D) — görünümün önceliği
+  // kazanır; ötekinin yaması yapılmaz (iki yama aynı şeridi zıt boyardı).
+  // Taraf-çifti eşleşmesiyle BASTIRMA yapılmaz (bkz. _dAktifKayitlar notu).
+  var grup = {};
+  _D_YASLA_AILELER.forEach(function (ad) {
+    var dizi = window[ad];
+    if (!Array.isArray(dizi)) return;
+    dizi.forEach(function (k) {
+      if (!k || !Array.isArray(k.hat) || k.hat.length < 2 || k.f == null) return;
+      var s = _dEtkinSinif(k);
+      if (!izin[s]) return;
+      if (gun < gunIdx(k.f)) return;
+      if (k.t != null && gun >= gunIdx(k.t)) return;
+      var anahtar = JSON.stringify(k.hat);
+      var eski = grup[anahtar];
+      if (!eski || ONC[s] > ONC[eski.sinif]) grup[anahtar] = { kayit: k, sinif: s };
+    });
+  });
+  return Object.keys(grup).map(function (a) { return grup[a]; });
+}
+
+// Taraf kimliği → o gün haritada boyanan gövde {renk, poli, anahtar}.
+// Osmanlı `donemler.js`ten (osmanli-dolgu sabiti), yabancılar `devletler2`den;
+// künyenin `harita:` anahtarı varsa o kullanılır (bulgaristan-kralligi →
+// bulgaristan) — app.js'in kendi eşlemesiyle aynı.
+function _dTarafGovdesi(tarafId, gun) {
+  if (tarafId === "osmanli") {
+    if (typeof aktifDonem === "undefined" || aktifDonem < 0 || typeof donemler === "undefined") return null;
+    var d = donemler[aktifDonem];
+    if (!d) return null;
+    var fc = d.o ? tekVeri(d.o) : petekVerisi(d);
+    var poli = [];
+    (fc.features || []).forEach(function (f) { _dPoliEkle(poli, f.geometry); });
+    return poli.length ? { renk: "#8e0b22", poli: poli, anahtar: "osmanli:" + aktifDonem, hk: "osmanli" } : null;
+  }
+  var kunye = (window.DEVLETLER || []).find(function (x) { return x.id === tarafId; });
+  var hk = (kunye && kunye.harita) || tarafId;
+  var s = (typeof devletler2 !== "undefined" ? devletler2 : []).find(function (x) { return x.id === hk; });
+  if (!s) return null;
+  for (var i = 0; i < s.dnm.length; i++) {
+    var p = s.dnm[i];
+    if (aktifAralik(p.fi, p.ti, gun)) {
+      var pl = [];
+      _dPoliEkle(pl, p.ft && p.ft.geometry);
+      return pl.length ? { renk: s.renk, poli: pl, anahtar: hk + ":" + i, hk: hk } : null;
+    }
+  }
+  return null;
+}
+function _dPoliEkle(dizi, g) {
+  if (!g) return;
+  if (g.type === "Polygon") dizi.push(g.coordinates);
+  else if (g.type === "MultiPolygon") g.coordinates.forEach(function (c) { dizi.push(c); });
+}
+
+// Hattın sol/sağ şeritleri (MultiPolygon koordinatı). Her doğru parçası için
+// iki yanına w genişliğinde dikdörtgen (+ dışbükey köşede kama üçgeni);
+// sol = ∪sol − ∪sağ, sağ = ∪sağ − ∪sol. Keskin kıvrımda iki yanın şekilleri
+// kesişir — o bölge o genişlikte İKİ şeritten de çıkarılır (yanlış boyanmaz).
+// Bu yüzden şerit birkaç genişlikte kurulup birleştirilir: dar şerit kıvrımın
+// dibini yalnız YAKIN parçalara bakarak doğru ayırır, geniş şerit uzağı kapsar.
+// Ölçüldü (1923-09-01, 10 hat, 881 örnek nokta, hattan 5 km): tek genişlikle
+// doğru renk %75 → %94, kalan 53 hatanın 53'ü kıvrım kamasındaydı.
+// Şeridin hatta değen kenarı hattın KENDİ koordinatlarıdır ⇒ yama hatta oturur.
+var _D_SERIT_KM = [1, 3, 8, 20, 45, _D_YASLA_KM];
+function _dHatKm(h) {
+  var t = 0;
+  for (var i = 0; i + 1 < h.length; i++) {
+    var kx = 111.32 * Math.cos(h[i][1] * Math.PI / 180);
+    t += Math.sqrt(Math.pow((h[i + 1][0] - h[i][0]) * kx, 2) + Math.pow((h[i + 1][1] - h[i][1]) * 110.57, 2));
+  }
+  return t;
+}
+// MultiPolygon koordinatının yaklaşık alanı (km², yerel eşdikdörtgen izdüşüm)
+function _dAlanKm2(mp) {
+  var A = 0;
+  (mp || []).forEach(function (poly) {
+    poly.forEach(function (ring, r) {
+      var a = 0;
+      for (var i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        var k = 111.32 * Math.cos(ring[i][1] * Math.PI / 180);
+        a += ring[j][0] * k * ring[i][1] * 110.57 - ring[i][0] * k * ring[j][1] * 110.57;
+      }
+      A += (r === 0 ? 1 : -1) * Math.abs(a / 2);
+    });
+  });
+  return A;
+}
+var _dSeritOnbellek = {};
+function _dSeritTek(h, w) {
+  var sol = [], sag = [], onceki = null;
+  for (var i = 0; i + 1 < h.length; i++) {
+    var p = h[i], q = h[i + 1];
+    var kx = 111.32 * Math.cos((p[1] + q[1]) / 2 * Math.PI / 180), ky = 110.57;
+    var ux = (q[0] - p[0]) * kx, uy = (q[1] - p[1]) * ky, L = Math.sqrt(ux * ux + uy * uy);
+    if (L < 1e-6) continue;
+    // ilerleme yönünün SOLU: (-uy, ux) — km uzayında, sonra dereceye
+    var ox = (-uy / L) * w / kx, oy = (ux / L) * w / ky;
+    sol.push([[p, q, [q[0] + ox, q[1] + oy], [p[0] + ox, p[1] + oy], p]]);
+    sag.push([[p, [p[0] - ox, p[1] - oy], [q[0] - ox, q[1] - oy], q, p]]);
+    if (onceki) {
+      // p köşesinde dönüş: sağa dönüyorsa (çapraz < 0) SOL yan dışbükeydir ve
+      // iki dikdörtgen arasında kama boşluğu kalır — üçgenle kapatılır.
+      var capraz = onceki.ux * uy - onceki.uy * ux;
+      if (capraz < 0) sol.push([[p, [p[0] + onceki.ox, p[1] + onceki.oy], [p[0] + ox, p[1] + oy], p]]);
+      else if (capraz > 0) sag.push([[p, [p[0] - ox, p[1] - oy], [p[0] - onceki.ox, p[1] - onceki.oy], p]]);
+    }
+    onceki = { ux: ux, uy: uy, ox: ox, oy: oy };
+  }
+  var S = _dPc("union", sol), R = _dPc("union", sag);
+  return { sol: _dPc("difference", [S, R]), sag: _dPc("difference", [R, S]), kapsam: _dPc("union", [S, R]) };
+}
+// polygon-clipping 0.15.7 kıl payı çakışan kenarlarda ara sıra "Unable to pop()
+// SweepEvent" fırlatıyor (ölçüldü: aynı girdiyle bir koşuda geçip ötekinde
+// düştü). Önce olduğu gibi, düşerse 1e-6 dereceye (~10 cm) yuvarlanmış girdiyle
+// bir kez daha denenir; o da düşerse hata yukarı fırlar (çağıran atlar ve sayar).
+// Yuvarlanmış girdiyle de düştüğü ölçüldü (d1923-tr-sscb-ermenistan, Arpaçay
+// köşesi [43.6525, 40.5294]) ⇒ üçüncü deneme 1e-5 derece (~1 m).
+function _dYuvarlaK(k) {
+  var y = function (g) { return Array.isArray(g[0]) ? g.map(y) : [Math.round(g[0] * k) / k, Math.round(g[1] * k) / k]; };
+  return y;
+}
+var _dYuvarla = _dYuvarlaK(1e6), _dYuvarla5 = _dYuvarlaK(1e5);
+function _dPc(islem, girdiler) {
+  var pc = window.polygonClipping;
+  try { return pc[islem].apply(null, girdiler); }
+  catch (e) {
+    try { return pc[islem].apply(null, girdiler.map(_dYuvarla)); }
+    catch (e2) { return pc[islem].apply(null, girdiler.map(_dYuvarla5)); }
+  }
+}
+// EN DAR ŞERİT KARAR VERİR — ve bunu O GÜN AKTİF BÜTÜN HATLAR BİRLİKTE yapar:
+// genişlikler dardan genişe gezilir; bir noktayı ilk kapsayan (en dar) şerit
+// hangi hattın hangi yanıysa o karar verir, sonraki (daha geniş) şeritler o
+// noktaya dokunamaz. O genişlikte iki yana birden düşen nokta (kıvrım kaması)
+// da "kapsandı" sayılır ve karar verilmemiş kalır (yanlış boyanmaz).
+// Neden hat hat değil de küme: tek hattın 100 km'lik uç şeridi KOMŞU hattın
+// alanına giriyordu — TR–Bulgaristan'ın Bulgar yakası şeridi Meriç'in Türk
+// yakasındaki TBMM gövdesini Bulgaristan'a veriyordu. Ölçüldü (1923-09-01,
+// hattan 5 km): yamanın yanlışa çevirdiği 33 noktanın 29'u bu komşu çakışması.
+// Neden genişlikler düz birleştirilmiyor: geniş dikdörtgen/kamalar kıvrık hatta
+// karşı yakaya taşıp yakındaki doğru kararı bozuyordu (aynı ölçüm).
+var _dKumeOnbellek = {};
+function _dSeritTekOnbellekli(kayit, w) {
+  var a = kayit.id + "@" + w;
+  if (!_dSeritOnbellek[a]) _dSeritOnbellek[a] = _dSeritTek(kayit.hat, w);
+  return _dSeritOnbellek[a];
+}
+function _dSeritlerKume(kayitlar) {
+  var anahtar = kayitlar.map(function (k) { return k.id; }).sort().join(",");
+  if (_dKumeOnbellek[anahtar]) return _dKumeOnbellek[anahtar];
+  var sonuc = {}, kapsanan = null, dusen = [];
+  kayitlar.forEach(function (k) { sonuc[k.id] = { sol: [], sag: [] }; });
+  _D_SERIT_KM.forEach(function (w) {
+    var buKapsam = [];
+    kayitlar.forEach(function (k) {
+      try {
+        var s = _dSeritTekOnbellekli(k, w);
+        var yS = kapsanan ? _dPc("difference", [s.sol, kapsanan]) : s.sol;
+        var yR = kapsanan ? _dPc("difference", [s.sag, kapsanan]) : s.sag;
+        if (yS.length) sonuc[k.id].sol.push(yS);
+        if (yR.length) sonuc[k.id].sag.push(yR);
+        buKapsam.push(s.kapsam);
+      } catch (e) { dusen.push(k.id + "@" + w); }
+    });
+    // Aynı genişlikte iki hattın ikisi de aynı noktayı isteyebilir (iki hattan
+    // eşit uzaklık) — o nokta ikisine de verilir, gövde birleştirmesi
+    // (_dYaslaGuncelle §2) kaynak başına ilk alanı tutar.
+    if (buKapsam.length) kapsanan = _dPc("union", (kapsanan ? [kapsanan] : []).concat(buKapsam));
+  });
+  if (dusen.length) console.warn("D YASLAMA: şerit kurulamadı (atlandı): " + dusen.join(", "));
+  kayitlar.forEach(function (k) {
+    var r = sonuc[k.id];
+    r.sol = r.sol.length ? _dPc("union", r.sol) : [];
+    r.sag = r.sag.length ? _dPc("union", r.sag) : [];
+  });
+  sonuc.anahtar = anahtar;
+  _dKumeOnbellek[anahtar] = sonuc;
+  return sonuc;
+}
+
+var _dYamaOnbellek = {};    // kayit.id|solGövde|sağGövde → [{g, kimden, kime, renk}]
+var _dYaslaImza = null;
+var _dYaslananlar = {};     // o an gövdesi hatta yaslanmış kayıt id'leri
+var _dOsmDegisti = false;   // osmanli kaynağı bizim elimizden mi geçti?
+var _dDevletDegisti = false; // devlet kaynağı bizim elimizden mi geçti?
+var _dYaslaSon = {};        // son düzeltilmiş gövdeler {hk: MultiPolygon koordinatı}
+
+// Yabancı gövdeleri app.js'in devletGuncelle()'siyle AYNI kuralla kurar
+// (aktifAralik, ilk eşleşen dönem, properties {renk,id}); `yeni[hk]` verilmişse
+// o devletin geometrisi onunla değiştirilir.
+function _dDevletKaynaginiYaz(gun, yeni) {
+  var fs = [];
+  devletler2.forEach(function (s) {
+    for (var i = 0; i < s.dnm.length; i++) {
+      var p = s.dnm[i];
+      if (aktifAralik(p.fi, p.ti, gun)) {
+        if (yeni[s.id]) {
+          fs.push({ type: "Feature", properties: { renk: s.renk, id: s.id },
+                    geometry: { type: "MultiPolygon", coordinates: yeni[s.id] } });
+        } else fs.push(p.ft);
+        break;
+      }
+    }
+  });
+  harita.getSource("devlet").setData({ type: "FeatureCollection", features: fs });
+}
+function _dOsmanliKaynaginiYaz(geo) {
+  var d = donemler[aktifDonem];
+  var veri = geo ? { type: "FeatureCollection", features: [{ type: "Feature", properties: {},
+                     geometry: { type: "MultiPolygon", coordinates: geo } }] }
+                 : (d.o ? tekVeri(d.o) : petekVerisi(d));
+  harita.getSource("osmanli").setData(veri);
+}
+
+function _dYaslaGuncelle(gun) {
+  if (!_dHazirMi() || !harita.getSource("devlet")) return;
+  if (!window.polygonClipping) {
+    if (_dYaslaImza !== "kutuphane-yok") {
+      console.warn("D YASLAMA: polygonClipping yüklenmedi — renk hatta dayandırılamıyor (index.html <script>).");
+      _dYaslaImza = "kutuphane-yok";
+    }
+    return;
+  }
+  var adaylar = _dYaslaAdaylari(gun);
+  var isler = [], atlanan = [];
+  adaylar.forEach(function (a) {
+    var k = a.kayit, tf = k.taraflar || [];
+    var solId = k.sol_taraf;
+    var sagId = tf.filter(function (x) { return x !== solId; })[0];
+    if (!solId || !sagId || tf.indexOf(solId) < 0) { atlanan.push(k.id + ": sol_taraf belirsiz"); return; }
+    var gs = _dTarafGovdesi(solId, gun), gr = _dTarafGovdesi(sagId, gun);
+    if (!gs) atlanan.push(k.id + ": " + solId + " gövdesi o gün yok");
+    if (!gr) atlanan.push(k.id + ": " + sagId + " gövdesi o gün yok");
+    if (!gs || !gr) return;
+    if (_dHatKm(k.hat) < _D_YASLA_EN_KISA_KM) { atlanan.push(k.id + ": hat " + _D_YASLA_EN_KISA_KM + " km'den kısa"); return; }
+    isler.push({ kayit: k, gs: gs, gr: gr, anahtar: k.id + "|" + gs.anahtar + "|" + gr.anahtar });
+  });
+  // Şeritler o gün yaslanacak BÜTÜN hatlar birlikte kurulur; kümenin kendisi
+  // de yama anahtarına girer (aynı hat, farklı komşu kümesinde farklı şerit).
+  var kumeAnahtar = isler.map(function (x) { return x.kayit.id; }).sort().join(",");
+  isler.forEach(function (x) { x.anahtar += "|" + kumeAnahtar; });
+  // app.js kaynağı yeniden yazdıysa (devletImza / aktifDonem değişti) bizim
+  // düzeltmemiz silinmiştir — imzaya onlar da girer.
+  var imza = isler.map(function (x) { return x.anahtar; }).join("+") +
+    "|dv:" + (typeof devletImza === "undefined" ? "?" : devletImza) + "|dn:" + aktifDonem;
+  if (imza === _dYaslaImza) return;
+  _dYaslaImza = imza;
+  var sonucAnahtari = isler.map(function (x) { return x.anahtar; }).join("+");
+  var hazir = _dGovdeOnbellek[sonucAnahtari];
+  // `atlanan` güne bağlıdır (gövdesi o gün olmayan taraf) — önbellekten
+  // dönen sonucun kendi listesi değil, BUGÜNÜN listesi yazılır; yamaya bağlı
+  // atlamalar (kısa hat hariç, o yukarıda sayıldı) sonucun içinden eklenir.
+  if (hazir) { _dYaslaUygula(gun, hazir, atlanan.concat(hazir.yamaAtlanan)); return; }
+  // 1) kayıt başına ham yamalar (gövde+hat+küme değişmedikçe önbellekten)
+  var yamalar = [], govde = {}, yaslanan = {}, kume = null, yamaAtlanan = [];
+  isler.forEach(function (x) {
+    govde[x.gs.hk] = x.gs; govde[x.gr.hk] = x.gr;
+    var ys = _dYamaOnbellek[x.anahtar];
+    if (!ys) {
+      ys = [];
+      try {
+        if (!kume) kume = _dSeritlerKume(isler.map(function (y) { return y.kayit; }));
+        var s = kume[x.kayit.id];
+        // sağ tarafın sol şeride taşan gövdesi → sol tarafa geçer
+        var a = _dPc("intersection", [s.sol, x.gr.poli]);
+        // sol tarafın sağ şeride taşan gövdesi → sağ tarafa geçer
+        var b = _dPc("intersection", [s.sag, x.gs.poli]);
+        // YÖN DOĞRULAMASI: `sol_taraf` beyanı ters ya da hat yanlış yöne
+        // çizilmişse yaslama gövdeleri TAKAS ederdi. Her iki tarafın gövdesi
+        // kendi yanında, öbür yandakinden BÜYÜK olmalı; değilse dokunulmaz.
+        var solDogru = _dAlanKm2(_dPc("intersection", [s.sol, x.gs.poli])), solYanlis = _dAlanKm2(b);
+        var sagDogru = _dAlanKm2(_dPc("intersection", [s.sag, x.gr.poli])), sagYanlis = _dAlanKm2(a);
+        if (!(solDogru > solYanlis && sagDogru > sagYanlis)) {
+          throw { atla: "yön doğrulanamadı (sol gövde doğru/yanlış yanda " + Math.round(solDogru) + "/" +
+                        Math.round(solYanlis) + " km², sağ " + Math.round(sagDogru) + "/" + Math.round(sagYanlis) + ")" };
+        }
+        if (a.length) ys.push({ g: a, kimden: x.gr.hk, kime: x.gs.hk });
+        if (b.length) ys.push({ g: b, kimden: x.gs.hk, kime: x.gr.hk });
+      } catch (e) {
+        if (e && e.atla) ys = { atla: e.atla };
+        else { console.warn("D YASLAMA: " + x.kayit.id + " kesilemedi:", e); ys = { atla: "kesim hatası" }; }
+      }
+      _dYamaOnbellek[x.anahtar] = ys;
+    }
+    if (ys.atla) { atlanan.push(x.kayit.id + ": " + ys.atla); yamaAtlanan.push(x.kayit.id + ": " + ys.atla); return; }
+    yaslanan[x.kayit.id] = 1;
+    yamalar = yamalar.concat(ys);
+  });
+  // 2) aynı kaynaktan iki hat aynı parçayı iki komşuya vermesin (üçlü nokta
+  //    yakını): kaynak başına sıralı — önce alınan, sonrakinden düşülür.
+  var alinan = {}, kazanilan = {};
+  yamalar.forEach(function (y) {
+    var g = y.g;
+    try { if (alinan[y.kimden]) g = _dPc("difference", [g, alinan[y.kimden]]); } catch (e) { return; }
+    if (!g.length) return;
+    alinan[y.kimden] = alinan[y.kimden] ? _dPc("union", [alinan[y.kimden], g]) : g;
+    (kazanilan[y.kime] = kazanilan[y.kime] || []).push(g);
+  });
+  // 3) etkilenen gövdeler: (gövde − verilen) ∪ alınan
+  var yeni = {}, n = 0;
+  Object.keys(govde).forEach(function (hk) {
+    if (!alinan[hk] && !kazanilan[hk]) return;
+    try {
+      var g = govde[hk].poli;
+      if (alinan[hk]) g = _dPc("difference", [g, alinan[hk]]);
+      if (kazanilan[hk]) g = _dPc("union", [g].concat(kazanilan[hk]));
+      yeni[hk] = g; n++;
+    } catch (e) { console.warn("D YASLAMA: " + hk + " gövdesi birleştirilemedi:", e); }
+  });
+  var sonuc = { yeni: yeni, yaslanan: yaslanan, yamaAtlanan: yamaAtlanan,
+                sayac: { kayit: Object.keys(yaslanan).length, yama: yamalar.length, govde: n } };
+  _dGovdeOnbellekKoy(sonucAnahtari, sonuc);
+  _dYaslaUygula(gun, sonuc, atlanan);
+}
+// Son 24 hesap tutulur (oynatmada ileri-geri gidişte yeniden kesilmesin).
+var _dGovdeOnbellek = {}, _dGovdeSira = [];
+function _dGovdeOnbellekKoy(a, v) {
+  _dGovdeOnbellek[a] = v; _dGovdeSira.push(a);
+  if (_dGovdeSira.length > 24) delete _dGovdeOnbellek[_dGovdeSira.shift()];
+}
+// 4) kaynaklara yaz — değişmeyenler app.js'in kendi nesneleriyle
+function _dYaslaUygula(gun, sonuc, atlanan) {
+  _dYaslaSon = sonuc.yeni;                 // ölçüm/denetim için (tarayıcı konsolu)
+  var yeni = Object.assign({}, sonuc.yeni);
+  var osm = yeni.osmanli; delete yeni.osmanli;
+  // Düzeltecek yabancı gövde yoksa ve kaynak zaten app.js'in hâlindeyse
+  // yazma (583 devletlik setData pahalıdır).
+  var yabanciVar = Object.keys(yeni).length > 0;
+  if (yabanciVar || _dDevletDegisti) _dDevletKaynaginiYaz(gun, yeni);
+  _dDevletDegisti = yabanciVar;
+  if (osm) { _dOsmanliKaynaginiYaz(osm); _dOsmDegisti = true; }
+  else if (_dOsmDegisti && aktifDonem >= 0) { _dOsmanliKaynaginiYaz(null); _dOsmDegisti = false; }
+  _dYaslananlar = sonuc.yaslanan;
+  _dYaslaSayac = Object.assign({}, sonuc.sayac, { atlanan: atlanan });
+}
+function _dYaslandiMi(kayitId) { return !!_dYaslananlar[kayitId]; }
+
+// ---- ⑥ TOAST: hat üstüne gelince antlaşma + tarih ------------------------------
+function _dToastHtml(kayit, sinif) {
+  var d0 = _dBaslikDayanagi(kayit);
+  var baslik = d0.ad || d0.kaynak || kayit.id || "Sınır";
+  var tarih = d0.tarih ? " · " + ekEsc(_dGunYazi(String(d0.tarih).slice(0, 10))) : "";
+  return "<b>" + ekEsc(baslik) + "</b>" + tarih +
+    "<br><small>" + _dPencereSatiri(kayit) + "</small>" +
+    "<br><small>" + ekEsc(D_SINIF_ETIKET[sinif] || sinif || "") +
+    (_dYaslandiMi(kayit.id) ? " · renk bu hatta yaslandı" : "") + "</small>";
+}
+var _dToast = null, _dToastId = null;
+function _dToastKapat() {
+  if (_dToast) { _dToast.remove(); _dToast = null; _dToastId = null; }
 }
 
 // ---- GÖRÜNÜM ANAHTARI (BUTONLAR alanı — `#d-gorunum-grup`) -------------------
@@ -334,6 +746,7 @@ function _dGorunumAnahtariKur() {
       boyaDugmeler();
       if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
         _dSinirGuncelle(suanki);
+        _dYaslaGuncelle(suanki);
       }
     });
     dugmeler[deger] = b;
@@ -343,6 +756,25 @@ function _dGorunumAnahtariKur() {
   bas.className = "d-gorunum-baslik";
   bas.textContent = "D SINIRI";
   yuva.appendChild(bas);
+  // ⑤ Göster/gizle — yalnız ÇİZGİYİ gizler. Yaslama (③④) kuraldır, ayar
+  // değildir: çizgi kapalıyken de renk hatta dayanır; çizgiyi açıp
+  // "renk gerçekten oturuyor mu" diye bakmak bu düğmenin işidir.
+  var g = document.createElement("button");
+  g.type = "button";
+  g.className = "d-gorunum-dugme";
+  g.title = "Belgeye/antlaşmaya dayalı milimetrik sınır çizgilerini göster / gizle";
+  function boyaGoster() {
+    g.textContent = _dGoster ? "Çizgi ✓" : "Çizgi ✗";
+    g.classList.toggle("etkin", _dGoster);
+  }
+  g.addEventListener("click", function () {
+    _dGoster = !_dGoster;
+    try { localStorage.setItem("dSinirGoster", _dGoster ? "1" : "0"); } catch (e) {}
+    boyaGoster();
+    _dGorunurlukUygula();
+  });
+  boyaGoster();
+  yuva.appendChild(g);
   yuva.appendChild(dugmeYap("Hukukî", "hukuki", "F > E > C — yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar; fiilî hat gösterilmez"));
   yuva.appendChild(dugmeYap("Fiilî", "fiili", "D > F > E > C — hukuken geçersiz olsa da fiilî/de facto hat varsa O gösterilir"));
   boyaDugmeler();
@@ -370,12 +802,37 @@ function _dKatmaniKur() {
         paint: paint
       });
     });
-    var LAYERS = SINIFLAR.map(function (s) { return "d-sinir-hat-" + s; });
-    LAYERS.forEach(function (lyr) {
+    // ⑥ İsabet hattı — görünmez, 14 px: 2-3 px'lik çizginin üstüne fareyi
+    // tutturmak zor; toast bu katmandan tetiklenir.
+    harita.addLayer({ id: "d-sinir-isabet", type: "line", source: "d-sinir-hat",
+      layout: { "line-join": "round", "line-cap": "round" },
+      paint: { "line-color": "#000", "line-width": 14, "line-opacity": 0 } });
+    harita.on("mousemove", "d-sinir-isabet", function (e) {
+      if (!_dGoster || !e.features || !e.features.length) return;
+      var p = e.features[0].properties;
+      var kayit = _dKayitIndeksi()[p.kayit_id];
+      if (!kayit) return;
+      harita.getCanvas().style.cursor = "pointer";
+      if (_dToast && _dToastId === p.kayit_id) { _dToast.setLngLat(e.lngLat); return; }
+      _dToastKapat();
+      _dToastId = p.kayit_id;
+      _dToast = new maplibregl.Popup({ closeButton: false, closeOnClick: false,
+                                       className: "d-sinir-toast", offset: 14, maxWidth: "300px" })
+        .setLngLat(e.lngLat).setHTML(_dToastHtml(kayit, p.sinif)).addTo(harita);
+    });
+    harita.on("mouseleave", "d-sinir-isabet", function () {
+      harita.getCanvas().style.cursor = "";
+      _dToastKapat();
+    });
+    _dGorunurlukUygula();
+    // Tıklama da yalnız isabet hattından — sınıf katmanlarından da dinlenseydi
+    // aynı tıklama iki balon açardı.
+    ["d-sinir-isabet"].forEach(function (lyr) {
       harita.on("click", lyr, function (e) {
         var p = e.features[0].properties;
         var kayit = _dKayitIndeksi()[p.kayit_id];
-        if (!kayit) return;
+        if (!kayit || !_dGoster) return;
+        _dToastKapat();
         new maplibregl.Popup({ closeButton: true, maxWidth: "280px" })
           .setLngLat(e.lngLat)
           .setHTML(_dPopupHtml(kayit, p.sinif))
@@ -384,9 +841,23 @@ function _dKatmaniKur() {
       harita.on("mouseenter", lyr, function () { harita.getCanvas().style.cursor = "pointer"; });
       harita.on("mouseleave", lyr, function () { harita.getCanvas().style.cursor = ""; });
     });
+    if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
+      _dSinirGuncelle(suanki);
+      _dYaslaGuncelle(suanki);
+    }
   } catch (e) {
     console.error("D KATMANI kurulamadı:", e);
   }
+}
+
+// ⑤ Çizgi + isabet katmanlarının görünürlüğü `_dGoster`a bağlı.
+function _dGorunurlukUygula() {
+  if (!_dHazirMi()) return;
+  var v = _dGoster ? "visible" : "none";
+  ["d-sinir-hat-C", "d-sinir-hat-E", "d-sinir-hat-F", "d-sinir-hat-D", "d-sinir-isabet"].forEach(function (id) {
+    if (harita.getLayer(id)) harita.setLayoutProperty(id, "visibility", v);
+  });
+  if (!_dGoster) _dToastKapat();
 }
 
 // Kendi "load" dinleyicisi — app.js'in load işleyicisinden bağımsız.
@@ -415,6 +886,7 @@ if (document.readyState === "loading") {
     var r = _dEskiGuncelle.apply(this, arguments);
     if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
       _dSinirGuncelle(suanki);
+      _dYaslaGuncelle(suanki);
     }
     return r;
   };
