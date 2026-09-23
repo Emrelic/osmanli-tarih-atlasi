@@ -202,6 +202,15 @@ syr = hat("SYR")
 dogu = []
 for g in syr:
     cs = [c for c in g.coords if c[0] >= mek[1] - 0.01 or c[1] >= mek[0] + 0.05]
+    # 24 Eylül 2026 (Emre: "1923 hatay türkiyede yok iken çizilen suriye türkiye sınırında hata var"):
+    # yukarıdaki süzgeç bugünkü Hatay–Suriye kesimini (Meydan-ı Ekbez → Reyhanlı, boylam ≥ çıpa)
+    # KAÇIRIYORDU. Hat Meydan-ı Ekbez'e en yakın köşede kesilir, çıpaya bağlanır (batı hattıyla birleşir).
+    if len(cs) >= 2:
+        i = min(range(len(cs)), key=lambda k: km(cs[k][1], cs[k][0], mek[0], mek[1]))
+        if km(cs[0][1], cs[0][0], mek[0], mek[1]) > km(cs[-1][1], cs[-1][0], mek[0], mek[1]):
+            cs = cs[:i + 1] + [(mek[1], mek[0])]      # hat doğudan batıya ilerliyor
+        else:
+            cs = [(mek[1], mek[0])] + cs[i:]
     if len(cs) >= 2:
         dogu.append(LineString(cs))
 ekle("d1923-tr-sy-dogu", TT, "suriye-lubnan-mandasi", "1921-10-20", "1923-10-29", "D", dogu,
