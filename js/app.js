@@ -2571,10 +2571,15 @@ harita.on("load", function () {
     // denetim/CIZGI-ANLAM-0072.md §4). Karar gelene kadar satır en azından
     // ikinci anlamı GÖRÜNÜR kılıyor — sessiz çakışma en kötüsü.
     '<div class="lejant-baslik">Koordinatlı sınır hattı (D katmanı — 1923’ten geriye sarılmış)</div>' +
-    '<span><b class="lj-sim" style="border-bottom:3px solid #0a2f5c;padding-bottom:1px">▬▬</b> F — hukukî ve uluslararası tanınmış (düz, en kalın)</span>' +
-    '<span><b class="lj-sim" style="border-bottom:3px dashed #0a2f5c;padding-bottom:1px">▬▬</b> E hukukî (uzun kesik) · C belgeli kaba (orta kesik) · D fiilî, hukuken geçersiz (sık kesik, soluk)</span>' +
-    '<span><b class="lj-sim" style="border-bottom:3px dashed #d4707d;padding-bottom:1px">▬▬</b> aynı hat AÇIK KIRMIZI ise: taraflardan biri o gün Osmanlı’ya tâbi</span>' +
-    '<span>Hatta tıklayınca antlaşma, uzunluk, kesinlik ve kaynak açılır. Sağ üstteki <b>D: Hukukî / D: Fiilî</b> düğmesi hangi sınıfların çizileceğini seçer.</span>' +
+    // 🆕 24 Eylül 2026 (Emre): milimetrik hat İKİ RENKLİ — her yarısı o yandaki
+    // devletin renginin bir tık koyusu (js/d_katman.js _dYarimRenkler).
+    '<span><b class="lj-sim" style="border-bottom:3px solid #5a9c1e;box-shadow:0 3px 0 #b27a83;padding-bottom:1px">▬▬</b> milimetrik sınır: çizginin her yarısı o yandaki devletin renginin koyusu</span>' +
+    '<span>F hukukî ve tanınmış (düz, en kalın) · E hukukî (düz) · C belgeli kaba (orta kesik) · D fiilî, hukuken geçersiz (sık kesik, soluk)</span>' +
+    '<span><b class="lj-sim" style="border-bottom:3px solid #d4707d;padding-bottom:1px">▬▬</b> yarısı AÇIK KIRMIZI ise: o yandaki devlet o gün Osmanlı’ya tâbi</span>' +
+    // 🔴 "Sağ üstteki" 21 Eylül'de BAYATLADI: düğmeler haritanın köşesinden
+    // Butonlar panelindeki `#d-gorunum-grup` yuvasına taşındı (UI-BUTON-0074).
+    // Lejant kullanıcıyı bulunmayan bir yere gönderiyordu.
+    '<span>Hatta tıklayınca antlaşma, uzunluk, kesinlik ve kaynak açılır. <b>Butonlar</b> panelindeki <b>D SINIRI</b> kümesi ayarları taşır: <b>Çizgi ✓/✗</b> hattı gösterir/gizler · <b>İki renk ✓/✗</b> iki renkli boyamayı açar/kapatır (kapalıyken tek renk) · <b>Hukukî / Fiilî</b> hangi sınıfların çizileceğini seçer.</span>' +
     '<span>⚠️ Bu hat ANTLAŞMANIN çizgisidir; altındaki renk yerleşim peteğinden gelir. İkisi ayrışabilir — ayrışma bir kusur değil, ÖLÇÜ: hattın düştüğü yerde henüz yerleşim noktası yoktur.</span>' +
     // 🆕 13 Eylül 2026 — HALKA-TIKLAMA: ⑧ açıkken görünen halkanın lejant
     // satırı. Görünürlüğü `kaynakliHalkaAc` yönetir (`el.hidden`); ⑧ KAPALIYKEN
