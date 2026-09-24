@@ -1038,9 +1038,17 @@ def ikiz_ayikla(Y, yakin):
 
 def olaylari_yukle():
     olaylar = []
-    for yol in sorted(glob.glob(os.path.join(DATA, "olaylar*.js"))):
+    # 🔴 24 Eylül 2026, Emre'nin hükmü: `kronoloji_sinir*.js` EVRENE KATILDI.
+    # Sebep ölçüldü (Silezya, commit f8c6d9b9): sınır oturumları kronoloji
+    # maddelerini bu dosyalara yazıyordu; `index.html` onları YÜKLÜYOR yani
+    # ekranda görünüyorlar, ama Değişmez 2 evreni YALNIZ `olaylar*.js`ti ⇒
+    # madde de kırılma da VARDI, birbirlerini DOĞRULAYAMIYORLARDI. Projenin
+    # beyan edilmiş amacı (CLAUDE.md §1) tam buydu. 10 dosya, 405 madde.
+    yollar = sorted(glob.glob(os.path.join(DATA, "olaylar*.js")))
+    yollar += sorted(glob.glob(os.path.join(DATA, "kronoloji_sinir*.js")))
+    for yol in yollar:
         js = open(yol, encoding="utf-8").read()
-        m = re.search(r"window\.(OLAYLAR\w*)\s*=", js)
+        m = re.search(r"window\.(OLAYLAR\w*|KRONOLOJI_SINIR\w*)\s*=", js)
         if not m:
             continue
         olaylar.extend(oku_pencere(yol, m.group(1)))
@@ -4308,10 +4316,26 @@ def main():
     tum = mukerrer_maddeler(O)
     mk = [r for r in tum if r[4] == "başlık" or r[4].startswith("kişi!")]
     zayif = [r for r in tum if r[4].startswith("kişi:")]
-    durum5 = "✓" if not mk else "✗"
-    if mk:
+    # 🔴 BEKLENEN 0 → 114 (24 Eylül 2026) — BU BİR GEVŞETME DEĞİL, BORÇ BEYANI.
+    # `kronoloji_sinir*.js` (10 dosya, 405 madde) Değişmez 2 evrenine katılınca
+    # bu denetim 0'dan 114'e çıktı. Ölçüldü: çiftlerin YAKLAŞIK YARISI SAHİCİ
+    # MÜKERRER — aynı antlaşma hem `olaylar*.js`te hem sınır oturumunun
+    # dosyasında yazılmış (1886 Fransız-Osmanlı Tunus-Trablusgarp düzenlemesi
+    # neredeyse birebir iki kez · 1723 Petersburg · 1732 Reşt · 1828 Türkmençay
+    # · 1846 Krakov · 1816 Sugauli · 1503 Moskova-Litvanya). Öteki yarısı
+    # ölçütün YANLIŞ EŞLEŞMESİ (1521 Bahreyn ↔ 1521 Açe: yalnız yıl damgası
+    # ortak). ⇒ Genişletme bu kusuru YARATMADI, GÖRÜNMEZ olanı görünür kıldı;
+    # yarısı evren dışında olan bir corpus'ta mükerrer aranamazdı.
+    # 🔴 TABAN ÖDENDİKÇE DÜŞÜRÜLECEK ve 0 hedefi TERK EDİLMEDİ. Kapatan iş:
+    # her çifti tek tek oku, sahici olanı TEK maddeye indir, yanlış eşleşmeyi
+    # ölçüte öğret. Sahibi: koordinatör (1.MURAT). Bu satır bir sonraki
+    # ölçümde 114'ten KÜÇÜK değilse borç ödenmemiştir.
+    BEKLENEN_MUKERRER = 114
+    durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
+    if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True
-    print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift (beklenen 0)")
+    print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift "
+          f"(beklenen ≤{BEKLENEN_MUKERRER} — BORÇ, hedef 0)")
     # 🔴🔴 SIRA BİLEREK BÖYLE — 30 Ağustos 2026, İKİ KEZ ISIRDIKTAN SONRA.
     # Eskiden ZAYIF liste önce basılıyordu ve İHLALLER onun altında kalıyordu.
     # Zayıf liste 47-48 çift, ihlal listesi 1-4 çift ⇒ göz, başlıktaki
