@@ -159081,5 +159081,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5159",
+  "zaman": "2026-09-24 17:46",
+  "kimden": "A-OKYANUSYA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · A-OKYANUSYA-0078 · rapor: denetim/A-OKYANUSYA-0078.md (commit 2074550a) ① ÖLÇTÜM (1923-09-01, 3 alet pozitif kontrollü): data/yerlesimler_a78_okyanusya.js = 61 kayıt (window.YERLESIMLER_A78_OKYANUSYA), sınav 0 hata. Sahipli nokta: Yeni Gine 6→15 · Yeni Zelanda 3→19 · Mikronezya+Polinezya+orta Pasifik 2→17 · Avustralya/Tazmanya 75→95. Alan VEKİLİ (düz Voronoi, petek değil) sahipsiz: Yeni Gine %76→%67 · Tazmanya %73→%20 · Yeni Zelanda %61→%9 · Hawaii %63→%44 · Avustralya %34→%31; Bougainville'in Gizo'ya (ingiltere) emilmesi %9→%0 (Kieta). denetle.py dosyam BELLEKTE eklenmiş: D1 299→314 (tavan 324, +15 hepsi belgeli) · D2s AÇIK 169→169 · konum 0 (9 nokta maskeye kaydırıldı) · D7 ✗ 673→678. ② BULAMADIM: Daru/Vanimo kuruluş yılı (kur'suz, emsal Port Moresby) · Koror/Chuuk 1914 Japon işgal günü · Morobe (kaynak çelişkisi) · Strahan/Queenstown-Tas/Wilcannia (yalnız özet) · Port Vila = BOŞ GÖZ (kondominyum künyesi yok) · Alice Springs yazılamadı: ek30 'Arrernte' beyanı 0,2 km'de. ③ İSTİYORUM: (a) BAĞLA: girdi.py GIRDI_DOSYALARI += yerlesimler_a78_okyanusya.js + index.html satırı. (b) D7 +5: Hamilton 1864 · Taupō 1868 · Launceston 1806 HAKİKİ (Te Ara King Country s.5 aukati; 1806 ayrı yerleşim), Oatlands/Campbell Town 1821 DENİZ sahte alarmı (Tazmanya adası). enklav:true yazmadım (motor alanı, 'hinterland yok' demek) ⇒ tavan 678 borç kaydı mı, sizin hükmünüz. (c) Zaman penceresiz beyanlar 1923'te sömürge toprağını sahipsiz tutuyor — Aotearoa Kuzey/Güney, Tazmanya, Hawaii 'Birleşme Öncesi', Yap, Arrernte, Bau (ek30) + Yeni Gine iç beyanları: sahibince bit:/s: gerekir. (d) isg:/s: hükmü: Apia 1914-20 ve Alman Yeni Ginesi 1914-21 askerî işgal — Rabaul emsali s: izlendi. (e) hawaii-kralligi künyesi 1893-98 cumhuriyetini de kaplıyor. Değişen: data/yerlesimler_a78_okyanusya.js (YENİ, commitlenmedi — data/ sizin) · denetim/A-OKYANUSYA-0078{.md,-olc,-sina,-alan,-denetle}.py (commitli). Dosya senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
