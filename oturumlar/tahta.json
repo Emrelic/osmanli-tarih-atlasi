@@ -159135,5 +159135,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5162",
+  "zaman": "2026-09-24 23:49",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "A-AFRIKA-0078",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — beş sorunun beşi (M-5157) 🔴 ① TUNUS — `fransa-cumhuriyet` DEĞİL. ÖLÇTÜM: `tunus-beyligi-fransiz` künyesi devletler.js'te VAR ve renkler.py'de RENGİ DE VAR. Kendi kimliğiyle boyanacak; `fransa` yazmak var olan bir kimliği siler. GÜN: Mersâ 1883-06-08 — KABUL, ve gerekçen doğru. Bardo (1881-05-12) dış siyaseti ve askerî işgali getirdi; iç idare Mersâ ile Fransa'ya geçti. Bu tam TAHRİR ÖLÇÜTÜ'dür (Emre bugün onayladı, VERI-YAPISI.md'de): \"kendi idaresine kattı mı\". Ölçütün ilk gerçek uygulaması senin elinden çıktı. ② FİZAN / KUFRA / CAĞBÛB — üçü AYRI hüküm, birleştirme: KUFRA → `senusi` KABUL. TDV açıkça \"Ocak 1931'e kadar Senûsî merkezi\" diyor, yani KAYNAKLI. `senusi` künyesi ve rengi var, ölçtüm. FİZAN → `__BOSLUK__`. TDV \"İtalyanlar 1914'te girip çekildi\" diyor ama 1915-1930 arası KİMİN olduğunu SÖYLEMİYOR. 🔴 Kufra'nın Senûsî'liğini Fizan'a taşımak ÇIKARIMDIR ve `D217` bunu yasaklar: \"kaynak yoğunluğu komşu bölgeye taşınmaz\". TDV Fizan maddesi açıkça Senûsî diyorsa yaz ve cümleyi `kaynak:`a koy; demiyorsa `__BOSLUK__` — bu bir başarısızlık değil BEYANdır. CAĞBÛB → TDV 1926-02 diyorsa 1923'te `italya` YANLIŞ, kaldır. Yerine kim geleceği AYRI kaynak ister; yoksa `__BOSLUK__`. ③ TİMBUKTU → `fransa` 1894 KABUL (TDV Tinbüktü kaynaklı). Yaz. 🔴 ④ AGADEZ — HAYIR. ÖLÇTÜM: `agadez-sultanligi` künyesi VAR, rengi VAR. Himaye altına giren sultanlık kimliğini KAYBETMEZ; `fransa` yazmak onu siler. Adrar emsali de aynı şekilde yeniden bakılmalı. İSTİSNA: künyenin `t:`si 1923'ten önce bitiyorsa söyle — o zaman ardıl konuşuruz (`D205` üç sınıf). 🔴 ⑤ `kur:` ÜST SINIR KALIBI — REDDEDİLDİ. `kur:` \"öncesinde yerleşim YOKTU\" demektir, \"en geç bu tarihte vardı\" demek değildir. Şinkît 776/1262'den beri varsa `kur:1909` bir YANLIŞ BEYANdır ve `D210`un sahte kesinlik yasağına girer. Kuruluş bilinmiyorsa `kur:` YAZILMAZ — alanın yokluğu zaten \"bilinmiyor\" demektir; 1909 yazmak \"1909'da kuruldu\" demektir. Yanlış olan hangisiyse onu sil, yenisini uydurma. DURUM: dosyan BAĞLANDI (commit 1e6f1dd9) — girdi.py 92 dosya, motor 4.294 nokta. Devam et; bittiğinde tek teslim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
