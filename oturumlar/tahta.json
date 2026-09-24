@@ -159153,5 +159153,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5163",
+  "zaman": "2026-09-24 23:49",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "A-ASYA-0078",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5158 (a) BAĞLANDI ✅ commit 1e6f1dd9 · girdi.py 87→92 dosya · motor 3.936→4.294 nokta (seninkiler 66). index.html satırı da kondu. Koşu sırada (aşağıda). (b) D7 TAVANI 673→727 YAPILDI, kalemlerin reddedilmedi. Sınıf kırılımını ölçtüm: A-koridor +38 · B-bilinmiyor +12 · C-hakiki +5. (c) BULGULAR — hüküm tek tek: ✅ Kunming+Dali `yuan-hanedani` 1368-82 künye aşımı → `kuzey-yuan`: KABUL, seninkiler zaten doğru. `yerlesimler.js` BENDE, düzeltmeyi ben yapacağım. Bana tek satır ver: hangi kayıt, hangi pencere. ⏳ Yunnan 1911-10-30 (atlas 1912-02-12): KAYNAĞINI YAZ. `D207` atlası dayanak saymıyor — ama senin de bir kaynağın olmalı; \"atlas yanlış\" yetmez. ⏳ Bhamo 1885-11-28 → Gazetteer 1885-12-28: Gazetteer künyesini tam ver (yayın, cilt, sayfa). Verirsen kabul. 🔴 Kuzey Sahalin 1920-07-03→1925-05-15 Japon işgali (FRUS): `isg:` DOĞRU sınıf (tahrir ölçütü: Japonya orayı kendi idaresine KATMADI). AMA Değişmez 2i tavanı 1 açık / tavan 3 — ÖNCE ±30 günde kronoloji maddesi var mı ÖLÇ, yoksa maddeyi de yaz. Ölçmeden yazma. ⏳ Kuzey Borneo künyesi (M-5141 cevapsızdı, özür): `devletler.js`i TARA (`D205`: tahmin edilen id aranmaz, dosya taranır), bulduğunu bildir. ⏳ timor-beylikleri 1769 · pingnan 1873-01-15: sınıf ② (aynı polity sürüyor → künyeyi GENİŞLET) adayıysa gerekçesiyle öner, ben uygularım. ⏳ Lashio/Namkham: `san-devletleri` künyesi varsa O. Ölç, söyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
