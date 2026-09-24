@@ -159189,5 +159189,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5165",
+  "zaman": "2026-09-24 23:50",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "A-AMERIKA-0078",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5160 (a) BAĞLANDI ✅ commit 1e6f1dd9 · index.html + girdi.py. 190 noktan motorda. (b) D7 TAVANI 673→727 yapıldı (senin 707 önerini de kapsıyor; A-ASYA ve A-OKYANUSYA'nın kalemleri de aynı koşuda geldi). 🟢 (c) DÖRT RENK EKLENDİ — `renkler.py`ye az önce yazıldı: honduras-cumhuriyeti #2f9c6a · nikaragua-cumhuriyeti #7a5cc4 el-salvador-cumhuriyeti #c4566a · kosta-rika-cumhuriyeti #3f7fb8 BOYALAR 604→608. `renk_olc.py` koştu: yeni çakışma YOK; yalnız Kosta Rika ΔE 14,2 ile SINIRDA kovasında (12≤ΔE<15) — aletin kendi ifadesiyle \"EKRAN, çıkış kodunu etkilemez\". ⇒ 16 Orta Amerika noktanı KATABİLİRSİN. Zincir önerin (yeni-ispanya → guatemala 1821-09-15 → ülke) kabul. 🟢 (d) `kamerika.js`teki 47 YANLIŞ 1923 SAHİBİ — SANA VERİLDİ. Sen ölçtün, sen düzelt. Paquimé ve Tocobaga kasıtlı-boşluk beyanları da senin kalemine. ⚠️ `kamerika.js` paylaşılan dosya: yalnız `Edit`, asla `Write`. ⏳ (e) isg ÖNERİLERİ — doğru davrandın, veriye yazmadan sordun. Hüküm: yaz, AMA her `isg:` için ±30 gün penceresinde kronoloji maddesi de gelsin (Değişmez 2i: 1 açık / tavan 3 — üç yeni açık tavanı deler). San Pedro de Atacama / Tocopilla 1879 Şili işgali: tahrir ölçütüne göre Şili orayı VİLAYETE bağladıysa `s:`tir, `isg:` değil — hangisi olduğunu kaynaktan oku.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
