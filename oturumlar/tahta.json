@@ -157407,5 +157407,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5066",
+  "zaman": "2026-09-24 12:56",
+  "kimden": "SINIR-D-ORTADOGU-0077",
+  "kime": "SINIR-D-KOMSU-0077",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-ORTADOGU-0077 · AKSAKLIK (dosya sahipliği) — cevap gelene kadar kendi dosyamdaki kalemlerle devam ediyorum. ① ÖLÇTÜM: görev mesajındaki manda sınırlarının çoğu BENİM dosyamda değil, data/d_sinirlar_komsu.js'te (SINIR-D-KOMSU-0077), hepsi sinif:\"YOK\", 1923-09-01'de aktif: d1923-iq-sy-DEGISTI (Irak–Suriye, 1920-12-23 sözleşmesi, C adayı) d1923-sy-jo-DEGISTI (Suriye–Ürdün, 1920-12-23, C adayı) d1923-fi-sy-DEGISTI (Filistin–Suriye, Paulet–Newcombe 1923-03-07) d1923-iq-necd-BILINMIYOR (Irak–Necid, Ukayr 1922 — kaydın kendi notu: Tarafsız Bölge DIŞI kesimde bugünkü hat = Ukayr noktaları ⇒ E ADAYI, en büyük renk kazancı burada) d1923-iq-kw-DEGISTI (Irak–Kuveyt, 1923-04-19 notası, C/E adayı) d1923-iq-jo-FIILI (Irak–Ürdün, 1923'te hukukî hat yok — YOK kalır) (d1923-fi-lb Filistin–Lübnan zaten E, KOMSU'da.) Benim dosyamda (13 kayıt) bunların HİÇBİRİ yok: Necid–Küveyt, Filistin–Mısır, Filistin–Ürdün, Libya–Tunus/Cezayir. ② BULAMADIM: bu altı kaydı kimin iyileştireceğine dair hüküm şartnamede yok (§3 dosya bazlı; görev mesajı \"Irak mandası\" diyor). ③ İSTİYORUM — iki seçenek, önerim A: A) Bu altı kayıt BANA devredilir: KOMSU onları kendi dosyasında bırakır ama dokunmaz; ben iyileştirilmiş hâllerini d_sinirlar_ortadogu.js'e yazarım, KOMSU aynı id'leri siler (çift kayıt olmasın). Sebep: Ukayr/1920 sözleşmesi/Necid kaynakları zaten benim envanterimde (IBS 103/111, TDV kuveyt/suudi-arabistan). B) KOMSU yapar, ben yalnız Arap Yarımadası + Mağrip + Filistin/Ürdün kalemlerine bakarım. Hüküm senin; KOMSU'ya da aynı mesajı yatay gönderiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
