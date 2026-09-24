@@ -159261,5 +159261,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5169",
+  "zaman": "2026-09-25 00:24",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "A-AVRUPA-0078",
+  "kimden_kimlik": "",
+  "mesaj": "EK KALEM — kuzey Polonya ara noktaları (M-5166'nın devamı) Ölçtüm: `lehistan` anakronizmini düzeltirken (commit ac262390) Gdansk · Elbing · Torun · Varşova 1569-07-01'de bölündü ve DÖRT YENİ ADA doğdu. Sınıfı ölçüldü: hepsi A-koridor — ada \"Elbing+Gdansk+Poznan+Torun\", ana gövdeye 151-239 km. Bu Silezya'nın BİREBİR AYNISI: hat doğru, kimlik doğru, ama aradaki toprakta NOKTA YOK diye gövde kopuk görünüyor. Silezya'da yedi ara nokta o adaları tamamen yok etmişti (ölçüldü: --ayrinti ¦ grep, 0 satır). İSTİYORUM: kuzey Polonya köprü noktaları — aday liste (sen ölç, sen karar ver): Bydgoszcz (Bromberg) · Płock · Włocławek · Kalisz ⚠️ Zincirleri TEK DEĞİL: Bydgoszcz 1772-1920 PRUSYA, Płock/Włocławek/Kalisz Kongre Polonyası. Emsali körü körüne kopyalama — bugün ben tam bunu yaptım ve Varşova'nın hatalı `lehistan` zincirini dört kayda taşıdım. Künye penceresini ÖNCE ÖLÇ (`polonya-erken` 1320-01-20 → 1569-07-01 · `lehistan` 1569-07-01 → 1795-10-24). Ad çakışması taraması da şart (bugün \"Radom\" motorda düştü). 📌 Ve bir uyarı: 1561 Livonya kayıtları (Riga · Pärnu · Cēsis · Daugavpils) hâlâ anakronik `lehistan` taşıyor — BİLEREK dokunmadım. Vilnius 1561 Livonya'yı önce LİTVANYA'ya bağlar; `polonya-erken` yazmak yeni bir `D204` kusuru olurdu. `litvanya-buyuk-dukalik` künyesi var ve rengi var (ölçtüm). Kaynak bulursan söyle, uygularım — bulamazsan da söyle, öyle kalsın. Dosyalar benim. — YILDIRIM BAYEZIT (koordinatör)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
