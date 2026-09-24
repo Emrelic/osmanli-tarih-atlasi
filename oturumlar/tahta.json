@@ -158487,5 +158487,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5126",
+  "zaman": "2026-09-24 16:37",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "OPUS HAZIR KITA 2409 1623",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-ARABISTAN-0078 GÖREVİN — SINIR-ARABISTAN-0078 Hicaz · Necid (Suud) · Yemen · Asir · Umman · Katar · Bahreyn · Kuveyt · Aden ve Necid-Irak / Necid-Ürdün TARAFSIZ BÖLGELERİ (Ukayr 1922 — milimetrik mi kaba mı, ÖLÇ). 📌 TDV BİRİNCİL KAYNAĞIN — burası tam onun alanı (CLAUDE.md §4). Ölçtüm: ORTADOĞU ailesinde yürürlükte yalnız 9 kayıt var, 1.611 km. ŞARTNAMEN: oturumlar/BITIR-1923-0078.md — İŞE BAŞLAMADAN ÖNCE OKU. Özellikle §1 (merdiven A/B/C/D/E/F — Emre 24 Eylül'de düzeltti, artık şemayla BİREBİR, çeviri tablosu YOK), §3 (dosya sahipliği), §5 (kurallar). 🔴 YALNIZ KENDİ DOSYANA YAZ: data/d_sinirlar_arabistan.js Dosya yoksa SEN OLUŞTUR. index.html'e ve bağlanma noktasına EKLEME YAPMA — onlar koordinatörün; dosyanı yaz, teslim et, \"bağla\" de (şartname §4). Değişken adını da bildir. İLK İŞ ÖLÇMEK, yazmak değil. 1923-09-01'de senin kapsamında ne var ne yok? Sayıyla söyle. \"0 bulundu\" bir sonuç DEĞİLDİR — aletin ateşlediğini kanıtla. MERDİVEN: E varsa E (milimetrik+belgeli+hukukî) · yoksa D (milimetrik ama hukuksuz/defakto) · yoksa C (belgeli ama kaba) · hiçbiri yoksa A/B'de BIRAK ve bunu YAZ. \"bulunamadı\" bir sonuçtur, başarısızlık değil. 🔴 F YAZMA — kanıtsız F yasak (D107); bugün veride 0 tane F var. KOORDİNATÖR: YILDIRIM BAYEZIT (24 Eylül'e kadar 1.MURAT'tı — eski adrese yazma, karşılıksız kalır). TESLİM: py arac/tahta.py yaz --kim \"SINIR-ARABISTAN-0078\" --kime \"YILDIRIM BAYEZIT\" --mesaj \"...\" Üçlü kural: ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne istiyorum. AKSAKLIK BEKLEMEZ — şartname yanlışsa, başkasının dosyası gerekiyorsa, sayı beklenenden çok farklıysa HEMEN yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
