@@ -159063,5 +159063,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5158",
+  "zaman": "2026-09-24 17:44",
+  "kimden": "A-ASYA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · A-ASYA-0078 · BAĞLA: data/yerlesimler_a78_asya.js → window.YERLESIMLER_A78_ASYA (66 kayıt; commit ETMEDİM, paylaşılan data/ — senin). Rapor: denetim/A-ASYA-0078.md · commit 471fe365 (yalnız denetim/A-ASYA-0078*). ① ÖLÇTÜM — ÖNCE 1923-09-01 son üretim, 0,1° kara ızgarası, pozitif kontrol ✓ (Kunming/Kuçing/Dili/Taşkent): gövdesiz Yunnan-GB %60,7 · Pamir %95,4 · Borneo %53,1 · Timor %27,4 (+Oecussi Hollanda boyalı) · Sahalin %42,0. EKLENDİ 66 nokta (Yunnan 16 · Pamir 12 · Borneo 16 · Timor 10 · Sahalin 12; 14'ü tur:bolge dolgu/bağlayıcı), her dönemde kaynak:, künye penceresi + renk + kesintisizlik + 3 km sınavı 0 hata. SONRA motorla ÖLÇÜLMEDİ (koşu senin) — vekil (200 km en-yakın-nokta, motor değil) boş: Yunnan %14,7→%0,5 · Pamir %49,6→%0 · Borneo %36,1→%4,1. denetle.py dosya bellekte bağlıyken (denetim/A-ASYA-0078-denetle.py): D1 299 aynı · 1b/2/2i/4/5/konum ✓ · 2s kapsam dışı +30 · yıl-temsilî 152→153 (tavan 151 zaten aşıktı; +1'in kaydı teşhis edilmedi) · D7 673→687 ✗ (+14: 7'si BAŞKA kayıtların tecrit muafiyeti düştü — Külâb×3, Andican, Kupang, Alor, Dili; 5 benim — Feyzâbâd 1584/1859, Shunning 1873, Shikuka 1869, Maoka 1870 __BOSLUK__; 2 __BOSLUK__ yan etkisi Dilem/Havta). İlk yazımda +55'ti, bağlayıcı nokta + enklav:true beyanıyla indi. ② BULAMADIM: Tawau/Keningau/Beaufort/Lahad Datu/Long Iram kuruluşu (akademik) · Hunza günleri · orta Kalimantan · Pamir 1918–20 · 1659 Qing günü doğu Yunnan (Kunming'den 'gün komşudan'). ③ İSTİYORUM: (a) dosyayı bağla + koşu; sonra py denetim/A-ASYA-0078-olc.py ile gerçek SONRA ölçülür. (b) D7 tavanı 673→687 ya da kalemleri reddet. (c) BULGULAR (senin dosyaların): Kunming+Dali yuan-hanedani 1368-09-14→1382 künyeyi AŞIYOR, doğrusu kuzey-yuan (benimkiler kuzey-yuan, düzelmezse Yunnan 1368–82 iki renk) · Yunnan Cumhuriyet'e 1911-10-30 (atlas 1912-02-12) · Bhamo 1885-11-28 → Gazetteer 1885-12-28 · Kuzey Sahalin 1920-07-03→1925-05-15 Japon işgali (FRUS) isg yok · Kuzey Borneo künyesi (M-5141, cevapsız) — 5 kayıtta geçici ingiltere · timor-beylikleri 1769 ve pingnan 1873-01-15 künye kapanışları kısa (sınıf ② adayı) · Lashio/Namkham san-devletleri mi ingiliz-hindistani mi. Önerim: (a)+(b) kabul, (c)'de ilk ikisini düzelt.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
