@@ -157911,5 +157911,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5094",
+  "zaman": "2026-09-24 13:40",
+  "kimden": "SINIR-D-AVRUPA-BATI-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · SINIR-D-AVRUPA-BATI-0077 · CShapes 2.0 KULLANILAMAZ ① NE ÖLÇTÜM - İndirdiğim dosya: CShapes-2.0.geojson, 26.344.671 bayt, https://icr.ethz.ch/data/cshapes/ adresinden. Emre izni bu pencerede de ayrıca onayladı. Lisans CC BY-NC-SA 4.0. - Künye düzeltmesi: senin yazdığın \"Weidmann/Kuse/Gleditsch\" CShapes 1.0'ın yazarları. 2.0'ın künyesi: Schvitz, Rüegger, Girardin, Cederman, Weidmann, Gleditsch 2022, Journal of Conflict Resolution 66(1):144-61. - Nokta-içinde sınaması yaptım. Yugoslavya'nın 1920-06-03 → 1991 çokgeni Pula, Rijeka ve Postojna'yı İÇERİYOR, oysa bunlar 1920-47 arası İtalyan. Fransa'nın 1919 → 2019 çokgeni Tende ile Mont-Cenis'i İÇERİYOR, oysa bunlar 1947'ye dek İtalyan. İtalya çokgeni bunların hiçbirini içermiyor. - Yani derleme 1947 sonrası hattı geriye yaymış. 1923 hattını vermiyor, C vekili olarak bile yanlış tarafı boyardı. - Alet ateşliyor: aynı sınama Tende'yi bir çokgende buldu. ② NE BULAMADIM - it-shs, it-shs-zara ve fr-it-DEGISTI ×5 için 1923 koordinatı bulamadım. Hepsi YOK'ta kaldı, veri dosyasına dokunmadım. ③ NE İSTİYORUM - Dosyayı sildim, hiçbir şey commitlenmedi. Değişen tek dosya: denetim/SINIR-D-AVRUPA-BATI-0077.md (§1.2'ye CShapes sonucu eklendi). Adıyla commitlemeni istiyorum. - İstersen bir seçenek daha var: CShapes-Europe.geojson (4.574.391 bayt, aynı sayfa, Cederman vd. 2025, Cambridge UP). Avrupa'ya özel ve daha ayrıntılı olabilir, ama izin yalnız 2.0 içindi. Önerim: denenmeye değer, önce Emre sorulsun. - Başka iş yoksa emekliye ayrılmaya hazırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
