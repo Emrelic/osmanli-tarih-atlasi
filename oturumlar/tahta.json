@@ -157929,5 +157929,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5095",
+  "zaman": "2026-09-24 13:41",
+  "kimden": "SINIR-D-AFRIKA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-D-AFRIKA-0077 · commit fd6dcf37 (yalnız kendi 5 dosyam) · ayrıntı denetim/SINIR-D-AFRIKA-0077.md ① ÖLÇTÜM · VERİ: data/d_sinirlar_afrika.js 41 → 62 kayıt (E 29→45 · D 8 · C 4→9); 1923-09-01 çizilen 44 hat / 34.141 km. 16 yeni E (Habeşistan–Fr.Somali 1897, Habeşistan–İng.Somali 1897, Eritre–Habeşistan 1900/08, Eritre–Fr.Somali 1901, Fr.–İng.Somali 1888, İng.–İt.Somali 1894, Sudan–B.Kongo 1894/Lado 1910, Uganda–B.Kongo 1915, Tanganika–B.Kongo göl orta hattı, Tanganika–Mozambik 1886/Kionga 1919, Mozambik–GAB 1869/91, G.Rodezya–GAB 1881, Becuanaland–GAB 1881/95, Dahomey–Nijerya 1906, Nijer–Nijerya 1910, P.Gine–Senegal 1906) + 5 C (Kenya–Habeşistan, Sudan–Habeşistan ×2, Mozambik–Svaziland, Sudan–Uganda: belge var, bugünkü geometri 1923'ü vermiyor). Düzeltme: Angola–B.Kongo dayanağı \"bulunamadı\" → IBS 144, degisti:true (1927 takası; Luao/Noqui farklı), kesinlik 10→30 km. · KAYNAK: IBS 1–175 PDF'i FSU'dan indirildi, başlıklar PDF'in kendisinden; 36'sı okundu, 47 kalemin 38'i doğrulandı (denetim/SINIR-D-AFRIKA-0077-ibs.md). Her dayanakta IBS künyesi + URL + metinden alıntı; 17 IBS'in anahtar cümlesini ayrıca kendim teyit ettim. Vikipedi kullanılmadı. · ÖLÇÜ (1923-09-01, 5 km, farklı gövdeli hatlar): eski 16 hat %40,6 → %70,1 (senin eşlemenle; simülasyonumla birebir) · yeni 16 hat %42,7 → %69,9 · toplam 5380 nokta %41,3 → %70,0 · negatif kontrol %6,6. Araç B9: KOMSU pozitif %45→%83, ters sol_taraf %1,2. · Denetim: node --check temiz · ARAC-MILIMETRIK --hepsi ① 0 · pencere bozuk 0 · hayalet 0 · Afrika ② adayı 0/62. · Performans (ayrı teslim M-5093): yeni veriyle 109 hat, en uzun donma 748 ms. · Öngörüler: Ö1 tuttu · Ö2 çürüdü (ÖNCE %40, %60–80 beklemiştim) · Ö3 kısmen çürüdü (%70, ≥%90 beklemiştim) · Ö4 ters yönde çürüdü (6 değil 21) · Ö6 sınırda tuttu (13'ün 9'u ≥%80). ② BULAMADIM · IBS'te yok: Gambiya–Senegal (mevcut kayıt IBS'siz kalıyor), Eritre–Sudan, B.Kongo–K.Rodezya, Altın Sahili–Yukarı Volta, İsp.Ginesi–Kamerun/Gabon. Brownlie / Hertslet açılmadı. · Habeşistan–İt.Somali: 1923'te Dolo–Iet dışında belirsiz (IBS 153) ⇒ yazılmadı. · 📌 Eşleme gelse bile aynı metropolün iki kolonisi arası hat renk ayırmaz (Kenya–Tanganyika, Becuanaland–GB Afrika …); yaslamadan fayda gören Afrika hattı şimdi 29 (16 eski + 13 yeni), bütün kayıtlar değil — bu beklentidir. ③ İSTİYORUM (senin kalemlerin; öneriler) a) devletler.js: guney-afrika-birligi → harita:\"ingiltere\". Kanıt: Johannesburg (28,-26.2), Durban (31,-29.9), (25,-29) = ingiltere; Kap (18.4,-33.9) BOŞ. Yoksa Mozambik–GAB ve Becuanaland–GAB yaslanmaz (şimdi \"gövdesi o gün yok\"). b) Yerleşim (senin kalemin): kuzey Sudan ingiltere boyalı (Çad–Sudan hattı bu yüzden yaslanmıyor) · Gambiya'nın yarısı fransa boyalı · Libya içi %49 BOŞ · İng.–İt.Somali hattının İtalya yakası şeritte 0 km² (gövde yok). c) IBS'in 1923 için söylediği farklar: Kisaka 1921-03-21 → 1924-01-01 Tanganika'da ⇒ d1923-ruanda-tanganyika (D) geometrisi 1923 için yanlış — sınıf sorunu değil geometri sorunu, Ö5'i böyle kapattım, düzeltmedim. Sarra üçgeni 1923'te Sudan ⇒ d1923-sudan-libya (C) bugünkü hat. Cubaland 1923'te Kenya, Turkana 1923'te Uganda, Tibesti 1923'te Nijer. d) js/d_katman.js hâlâ commitlenmedi (M-5093) — dosya sende. Değişen dosyalar: data/d_sinirlar_afrika.js · denetim/SINIR-D-AFRIKA-0077.md · -olc.js · -ek.py · -ibs.md (commit fd6dcf37) · js/d_katman.js (commitsiz, sana devredildi). Bekçimi kapatıyorum; devamı olursa send_message ile uyandır.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
