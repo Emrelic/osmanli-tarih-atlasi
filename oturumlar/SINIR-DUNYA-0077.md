@@ -113,16 +113,31 @@ dayandırılmaz (`_D_YASLA_SINIF_*` yalnız F/E alır). Ülke rengi taşımayan 
 
 🔴 **Her oturumun TEK bir veri dosyası vardır ve başkasınınkine YAZMAZ.**
 
-| oturum adı | SENİN dosyan | ilk kalem |
-|---|---|---|
-| `SINIR-D-KOMSU-0077` | `data/d_sinirlar_komsu.js` | **Yunanistan–Arnavutluk** (aşağıda §3.1) |
-| `SINIR-D-AFRIKA-0077` | `data/d_sinirlar_afrika.js` | 21.348 km · kapsama kendi başlığında "~%40" diyor |
-| `SINIR-D-AMERIKA-0077` | `data/d_sinirlar_amerika.js` | 37 `YOK` · Kuzey + Orta + Karayip + Güney |
-| `SINIR-D-ASYA-0077` | `data/d_sinirlar_asya.js` | 82 `YOK` · İran · Hindistan · Çin · Rusya · Orta Asya |
-| `SINIR-D-ORTADOGU-0077` | `data/d_sinirlar_ortadogu.js` | 13 kayıt — en zayıf dosya |
-| `SINIR-D-OKYANUSYA-0077` | `data/d_sinirlar_okyanusya.js` | **6 kayıt** · + Endonezya/Malezya/Filipinler/Yeni Gine |
-| `SINIR-D-AVRUPA-ORTA-0077` | `data/d_sinirlar_avrupa_orta.js` | 147 `YOK` |
-| `SINIR-D-AVRUPA-BATI-0077` | `data/d_sinirlar_avrupa_bati.js` | 72 `YOK` |
+🔴 **DOSYA ADLARI COĞRAFYAYI SÖYLEMEZ — 24 Eylül'de ölçüldü.** İlk dağıtımda
+kapsamları dosya ADLARINA bakarak yazdım; iki oturum yarım saat içinde aksaklık
+bildirdi ve haklı çıktılar (`M-5064` ASYA, `M-5065` ORTADOĞU). Aşağıdaki tablo
+artık **ölçümdür**: her ailenin `hat` köşelerinden bbox'ı ve `taraflar`
+sayımı `node` ile çıkarıldı. Adına değil bu tabloya güven; şüphelenirsen
+kendi dosyanı sen say ve bana yaz.
+
+| oturum adı | SENİN dosyan | **ölçülen kapsam** (bbox · en sık taraf) | ilk kalem |
+|---|---|---|---|
+| `SINIR-D-KOMSU-0077` | `d_sinirlar_komsu.js` | lon 20–63 · lat 25–44 · **Osmanlı'nın BÜTÜN komşuları**: Balkanlar + **İran (kacar 20)** + **Irak (6)** + Kafkaslar. Coğrafî değil ilişkisel aile | **Yunanistan–Arnavutluk** (§3.1) |
+| `SINIR-D-AFRIKA-0077` | `d_sinirlar_afrika.js` | lon −17–39 · lat −25–23 · **Sahra altı Afrika** | 21.348 km · başlığı "~%40 kapsama" diyor |
+| `SINIR-D-AMERIKA-0077` | `d_sinirlar_amerika.js` | lon −141–−53 · lat −34–70 · Kuzey + Orta + Karayip + Güney | 37 `YOK` |
+| `SINIR-D-ASYA-0077` | `d_sinirlar_asya.js` | lon 61–144 · Çin · Hindistan · Rusya-Asya · Afganistan · Çinhindi · Siyam · **Hollanda Doğu Hint (27): Endonezya · Borneo · Timor**. 🔴 **İRAN BURADA DEĞİL** | 82 `YOK` |
+| `SINIR-D-ORTADOGU-0077` | `d_sinirlar_ortadogu.js` | lon 9–48 · lat 29–33 · **Arabistan** (Suud · Kuveyt) + **Filistin mandası** + 🔴 **KUZEY AFRİKA** (Mısır · Libya · Tunus · Cezayir) | 13 kayıt — en zayıf dosya |
+| `SINIR-D-OKYANUSYA-0077` | `d_sinirlar_okyanusya.js` | lon **141–141** · lat −9–−3 · yalnız **Yeni Gine 141°D hattı** + Avustralya · Pasifik. 🔴 Endonezya/Borneo/Timor ASYA'da | **6 kayıt** |
+| `SINIR-D-AVRUPA-ORTA-0077` | `d_sinirlar_avrupa_orta.js` | lon 10–31 · lat 41–66 · Almanya · Habsburg ardılları · Polonya · Balkan kuzeyi | 147 `YOK` · **0 C** |
+| `SINIR-D-AVRUPA-BATI-0077` | `d_sinirlar_avrupa_bati.js` | lon −9–31 · lat 35–70 · Fransa · İsviçre · İtalya · İspanya · İskandinavya | 72 `YOK` |
+| *(koordinatörde)* | `d_sinirlar.js` | lon 26–45 · lat 37–42 · Türkiye ve **Osmanlı–İran zinciri** | — |
+
+📌 **Osmanlı–İran hattının C→E zinciri ZATEN KURULMUŞ** (ASYA oturumu ölçtü,
+`M-5064`) — Emre'nin §1.2'deki örneği veride duruyor:
+`d1639-osm-safevi-kasrisirin` C → `d1746-osm-afsar-kerden` C →
+`d1847-osm-kacar-erzurum` C → `d1913-…` E. Yani merdiven bir teori değil,
+uygulanmış bir şema. (Zincirde **1728-09-22 → 1746-09-04, 18 yıllık bir
+boşluk** görünüyor; ölçümü ASYA'dan istendi, hükmü koordinatörde.)
 
 **PAYLAŞILAN DOSYALAR KOORDİNATÖRÜNDÜR** — `js/d_katman.js` · `js/app.js` ·
 `index.html` · `CLAUDE.md`. Bunlarda bir şey gerekiyorsa TAHTADAN İSTE, kendin
