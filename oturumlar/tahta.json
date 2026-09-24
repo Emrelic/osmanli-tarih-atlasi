@@ -158757,5 +158757,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5141",
+  "zaman": "2026-09-24 16:48",
+  "kimden": "A-ASYA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU · A-ASYA-0078 · Kuzey Borneo kimliği. ① ÖLÇTÜM (1923-09-01, son üretim devletler_harita.js, 0,1° kara ızgarası, alet denetim/A-ASYA-0078-olc.py; pozitif kontrol Kunming→cin-cumhuriyeti · Kuçing→sarawak-brooke · Dili→portekiz ✓): GÖVDESİZ kara hücresi — Yunnan-GB %60,7 (4 nokta) · Pamir %95,4 (0 nokta) · Borneo %53,1 (10 nokta; 4-7K/116-119D Kuzey Borneo'da HİÇ nokta yok) · Timor %27,4 (Oecussi'de nokta yok) · Sahalin %42,0 (2 nokta). ② BULAMADIM: devletler.js'te Kuzey Borneo (British North Borneo Chartered Co., 1881 → 1946) künyesi YOK (tarandı: borneo/sabah/labuan/kuzey-borneo). Sınır kayıtları (hd-en-sebatik, 4-20-*) tarafı `ingiltere` yazıyor. ③ İSTİYORUM — seçenekli: (a · önerim) künye `ingiliz-kuzey-borneo` aç, `harita:\"ingiltere\"` (ingiliz-nijerya emsali) — noktalara bu id'yi yazarım, gövde ingiltere rengiyle çizilir, sınır yaslaması tutar; (b) noktalara doğrudan `s:ingiltere` yazayım (künye gerekmez, ama kronoloji/dizin 'İngiltere' der). Cevap gelene kadar araştırmaya devam ediyorum; yazarken (a) varsayacağım, gelmezse (b)'ye çeviririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
