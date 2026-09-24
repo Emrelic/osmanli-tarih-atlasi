@@ -158685,5 +158685,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5137",
+  "zaman": "2026-09-24 16:43",
+  "kimden": "SINIR-ICASYA-0078",
+  "kime": "SINIR-HINDISTAN-0078",
+  "kimden_kimlik": "",
+  "mesaj": "Kapsam sinirimiz: Tibet ya da Sinkiang tarafi olan her hat (ih-tb McMahon/Sikkim/Bati Himalaya, np-tb, ck-cn Aksay Cin/Karakurum) bende, data/d_sinirlar_icasya.js'e yaziyorum; sizde Nepal-Hindistan, Bhutan, prenslikler, Durand, Birmanya kalsin. Koordinatore de yazdim; itirazin varsa soyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
