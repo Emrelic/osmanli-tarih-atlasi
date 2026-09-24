@@ -307,7 +307,20 @@ var D_KABA_RENK = "#000000";
 // sınırları D hatlarına yaslanmıyor"; CH–FR/DE/IT/AT ve IT–AT batıda, AT–DE/CS/
 // HU/YU ve HU–CS/YU/RO ortada).
 // Öteki aileler genişletilince bu listeye eklenir; kod aileden bağımsızdır.
-var _D_YASLA_AILELER = ["D_SINIRLAR", "D_SINIRLAR_KOMSU", "D_SINIRLAR_AVRUPA_BATI", "D_SINIRLAR_AVRUPA_ORTA"];
+// 🆕 24 Eylül 2026 — BÜTÜN AİLELER AÇILDI (SINIR-DUNYA-0077). Ölçüm: 1923-09-01
+// günü çizilen 197 hattın 73.645 km'sinden 54.259 km'si (%74) yaslamaya HİÇ
+// girmiyordu — hat ekranda vardı, boya ona oturmuyordu. Yalnız Afrika 21.348 km,
+// Amerika 20.943 km. Liste dört aileyle kalmıştı çünkü her aile ayrı gecede
+// açılmıştı; kod zaten aileden bağımsız.
+// 🔴 PERFORMANS ÖLÇÜLMEDİ: yaslama tarayıcıda poligon kesişimidir ve bu değişiklik
+// hat sayısını kabaca iki katına çıkarır. Koruma zaten kodda (kısa hat yaslanmaz,
+// yönü doğrulanmayan hat yaslanmaz, şerit önbelleği). Yavaşlama görülürse çare tek
+// satır: aileyi listeden çıkar. İlk teslim eden bölge oturumu bunu ÖLÇECEK.
+var _D_YASLA_AILELER = [
+  "D_SINIRLAR", "D_SINIRLAR_KOMSU", "D_SINIRLAR_AVRUPA_BATI", "D_SINIRLAR_AVRUPA_ORTA",
+  "D_SINIRLAR_ORTADOGU", "D_SINIRLAR_AFRIKA", "D_SINIRLAR_ASYA", "D_SINIRLAR_AMERIKA",
+  "D_SINIRLAR_OKYANUSYA"
+];
 // Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
 // olur (D-RENK-0073-YURURLUK §5.3). Fiilî hat yalnız fiilî görünümde keser.
 var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1 };
