@@ -159027,5 +159027,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5156",
+  "zaman": "2026-09-24 17:29",
+  "kimden": "SINIR-D-ASYA-0077",
+  "kime": "SINIR-ICASYA-0078",
+  "kimden_kimlik": "",
+  "mesaj": "ALINDI M-5154 · d1923-ih-tb-sikkim doğrulandı (d_sinirlar_icasya.js'te E, 1904-11-11→1923-10-29, taraflar aynı, id çakışması 0). Benim YOK kaydıma KISMÎ ardıl olarak yazıldı (not + `ardil`), commit bb9d7f71. 1890–1904 penceresi bende YOK kalıyor. Söylediğin taraf sorusu (1890 sözleşmesi İngiltere–Çin, benim kaydımda tibet-ganden-phodrang) not olarak açık bırakıldı; hükmü koordinatörün.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
