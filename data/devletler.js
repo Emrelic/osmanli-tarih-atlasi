@@ -7859,7 +7859,7 @@ window.DEVLETLER = [
     { t:"1920-12-17", tur:"toprak-kazanc", b:"Milletler Cemiyeti Güneybatı Afrika'yı C-tipi manda olarak Birliğe verdi", kaynak:"MC manda metni «Made at Geneva on the 17th day of December, 1920» (AALCO 9. oturum eki) · FRUS 1921 c.I d111" },
     { t:"1961-05-31", tur:"son", b:"Güney Afrika Cumhuriyeti ilan edildi, Birlik sona erdi", kaynak:"TDV guney-afrika-cumhuriyeti" }
   ] },
-{ id:"guneybati-afrika-mandasi", ad:"Güneybatı Afrika (Güney Afrika Mandası)", bolge:"guney-afrika", f:"1920-12-17", t:"1990-03-21",
+{ id:"guneybati-afrika-mandasi", harita:"ingiltere", ad:"Güneybatı Afrika (Güney Afrika Mandası)", bolge:"guney-afrika", f:"1920-12-17", t:"1990-03-21",
   baskent:"Windhoek",
   ozet:"Eski Alman Güneybatı Afrikası; 1915'te Güney Afrika kuvvetlerince işgal edildi, Milletler Cemiyeti Konseyi 17 Aralık 1920'de C-tipi manda olarak Güney Afrika Birliği'ne verdi. Güney Afrika idaresi Namibya'nın bağımsızlığına (21 Mart 1990) kadar sürdü.",
   kaynak:"f: MC manda metni, AALCO 9. oturum eki (aalco.int, PDF metin katmanı okundu) — «Made at Geneva on the 17th day of December, 1920» · FRUS 1921 c.I d111 — «defined by the Council … at its meeting on December 17th, 1920». t: UN Namibia (namibia.un.org) — «Namibia became an independent country on 21 March 1990» · UN Peacekeeping UNTAG. Başkent: National Army Museum. TDV `namibya` ÖLÜ (302).",
@@ -7868,7 +7868,7 @@ window.DEVLETLER = [
     { t:"1920-12-17", tur:"kurulus", b:"Milletler Cemiyeti Konseyi C-tipi mandayı Güney Afrika Birliği'ne verdi", kaynak:"MC manda metni (AALCO) · FRUS 1921 c.I d111" },
     { t:"1990-03-21", tur:"son", b:"Namibya bağımsızlığını kazandı", kaynak:"UN Namibia" }
   ] },
-{ id:"fransiz-kamerun-mandasi", ad:"Fransız Kamerunu (Fransız Mandası)", bolge:"orta-afrika", f:"1922-07-20", t:"1960-01-01",
+{ id:"fransiz-kamerun-mandasi", harita:"fransa-cumhuriyet", ad:"Fransız Kamerunu (Fransız Mandası)", bolge:"orta-afrika", f:"1922-07-20", t:"1960-01-01",
   baskent:"Yaoundé",
   ozet:"Alman Kamerunu'nun beşte dört payı; 1919 Londra Deklarasyonu ile Fransa'ya kalan bölge, 20 Temmuz 1922'de Milletler Cemiyeti B-tipi mandası oldu. BM vesayetinden sonra 1 Ocak 1960'ta Kamerun Cumhuriyeti adıyla bağımsızlığını ilan etti.",
   kaynak:"TDV `kamerun` (HTTP 200, gövde okundu): «Milletler Cemiyeti de … 20 Temmuz 1922'de aldığı bir kararla işgal ettikleri yerleri Fransa ve İngiltere'nin manda yönetimlerine bıraktı» · «Kamerun Cumhuriyeti adı altında 1 Ocak 1960'ta bağımsızlığını ilân etti» · «Fransa ise başşehri Yaoundé olan ayrı bir sömürge yönetimi kurdu». Londra Deklarasyonu günü: FRUS 1923 c.II d8 — «the Declaration signed on July 10th, 1919».",
@@ -7877,7 +7877,7 @@ window.DEVLETLER = [
     { t:"1922-07-20", tur:"kurulus", b:"Milletler Cemiyeti Fransız mandasını onayladı", kaynak:"TDV kamerun" },
     { t:"1960-01-01", tur:"son", b:"Kamerun Cumhuriyeti bağımsızlığını ilan etti", kaynak:"TDV kamerun" }
   ] },
-{ id:"ingiliz-tanganika-mandasi", ad:"Tanganika Toprağı (İngiliz Mandası)", bolge:"dogu-afrika", f:"1922-07-20", t:"1961-12-09",
+{ id:"ingiliz-tanganika-mandasi", harita:"ingiltere", ad:"Tanganika Toprağı (İngiliz Mandası)", bolge:"dogu-afrika", f:"1922-07-20", t:"1961-12-09",
   baskent:"Dar es Salaam",
   ozet:"Alman Doğu Afrikası'nın büyük kısmı; 1916'dan itibaren İngiliz işgalinde, 1920'de «Tanganyika Territory» adını ve İngiliz sivil idaresini aldı, 1922'de Milletler Cemiyeti B-tipi mandası oldu. BM vesayetinden sonra 9 Aralık 1961'de bağımsız oldu.",
   kaynak:"t: TDV `tanzanya` (200, gövde okundu) — «Tanzanya 1 Mayıs 1961'de kendi kendini idare etme hakkını ve aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti». f: GÜN KOMŞUDAN (§4 şartlı komşu günü) — TDV `kamerun`: MC'nin «20 Temmuz 1922'de aldığı bir kararla» B-mandaları; aynı MC Konseyi oturumu, aynı B-manda süreci. Tanganika için 20 Temmuz 1922'yi veren birincil belge BU TURDA OKUNAMADI (FRUS 1922 c.II d243 oturumu ileri tarihli anıyor; UN Archives Geneva doğrulama ekranında kaldı). Ad ve idare: Encyclopædia Britannica 1922 (Wikisource), 'Tanganyika Territory' (F. R. C.) — «the name officially given in Jan. 1920» (ay). Başkent: aynı madde. İşgal: aynı ansiklopedinin 'East Africa, Military Operations' maddesi — «Dar-es-Salaam was occupied on Sept. 4» (1916). TDV `tanganika` ÖLÜ (302).",
@@ -7886,7 +7886,7 @@ window.DEVLETLER = [
     { t:"1922-07-20", tur:"kurulus", b:"Milletler Cemiyeti İngiliz B-mandasını onayladı", kaynak:"gün komşudan: TDV kamerun (aynı MC kararı)" },
     { t:"1961-12-09", tur:"son", b:"Tanganika bağımsızlığını kazandı", kaynak:"TDV tanzanya" }
   ] },
-{ id:"ruanda-urundi-mandasi", ad:"Ruanda-Urundi (Belçika Mandası)", bolge:"dogu-afrika", f:"1922-07-20", t:"1962-07-01",
+{ id:"ruanda-urundi-mandasi", harita:"belcika", ad:"Ruanda-Urundi (Belçika Mandası)", bolge:"dogu-afrika", f:"1922-07-20", t:"1962-07-01",
   baskent:"Usumbura",
   ozet:"Alman Doğu Afrikası'nın Ruanda ve Urundi krallıkları; 1916'da Belçika Kongo kuvvetlerince işgal edildi, 30 Mayıs 1919 İngiliz-Belçika anlaşmasıyla Belçika'ya bırakıldı ve Milletler Cemiyeti B-tipi mandası oldu. 1 Temmuz 1962'de Ruanda ve Burundi olarak ayrılıp bağımsızlığa kavuştu.",
   kaynak:"TDV `ruanda` (200, gövde okundu): «1919'daki Versailles Barış Antlaşması ile Ruanda ve Burundi, Belçika'ya bırakıldı» · «Burundi'den ayrılan Ruanda 1 Temmuz 1962'de bağımsızlığını ilân etti». Orts-Milner: FRUS 1922 c.I d370 — «by an accord dated May 30, 1919». f: GÜN KOMŞUDAN — TDV `kamerun` (aynı MC B-manda kararı, 20 Temmuz 1922); Ruanda-Urundi için birincil belge BU TURDA OKUNAMADI. TDV `burundi` ÖLÜ (302).",
@@ -7895,7 +7895,7 @@ window.DEVLETLER = [
     { t:"1922-07-20", tur:"kurulus", b:"Milletler Cemiyeti Belçika B-mandasını onayladı", kaynak:"gün komşudan: TDV kamerun (aynı MC kararı)" },
     { t:"1962-07-01", tur:"son", b:"Ruanda bağımsızlığını ilan etti, manda sona erdi", kaynak:"TDV ruanda" }
   ] },
-{ id:"ingiliz-nijerya", ad:"İngiliz Nijeryası (Lagos Kolonisi → Nijerya Kolonisi ve Protektorası)", bolge:"bati-afrika", f:"1861-01-01", t:"1960-10-01",
+{ id:"ingiliz-nijerya", harita:"ingiltere", ad:"İngiliz Nijeryası (Lagos Kolonisi → Nijerya Kolonisi ve Protektorası)", bolge:"bati-afrika", f:"1861-01-01", t:"1960-10-01",
   baskent:"Lagos",
   ozet:"1861'de Lagos adasının İngiltere'ye devriyle başlayan İngiliz yönetimi; 1885'ten sonra protektoralarla (Oil Rivers → Niger Coast → Güney ve Kuzey Nijerya) içeri yayıldı, 1 Ocak 1914'te Kuzey ve Güney birleştirildi. 1 Ekim 1960'ta bağımsız oldu.",
   kaynak:"TDV `nijerya` (200, gövde okundu): «1861'de İngiltere, Lagos adasını alıp burada kendi sömürgesini kurdu» · «1 Ekim 1960 tarihinde … Nijerya'nın bağımsızlığını tanıdı». Ara tarihler: US State Dept. International Boundary Study (IBS) No. 092 — Lagos «ceded to the United Kingdom by a local monarch in 1861» · Oil Rivers Protectorate «In June 1885» · Niger Coast Protectorate «May 13, 1893» · Southern Nigeria «January 1900» · «On January 1, 1914, … amalgamated».",
@@ -7906,7 +7906,7 @@ window.DEVLETLER = [
     { t:"1914-01-01", tur:"birlesme", b:"Kuzey ve Güney Nijerya birleştirildi", kaynak:"IBS 092 — «On January 1, 1914, … amalgamated»" },
     { t:"1960-10-01", tur:"son", b:"Nijerya bağımsızlığını kazandı", kaynak:"TDV nijerya · IBS 092" }
   ] },
-{ id:"ingiliz-becuanaland", ad:"Becuanaland Protektorası", bolge:"guney-afrika", f:"1885-09-30", t:"1966-09-30",
+{ id:"ingiliz-becuanaland", harita:"ingiltere", ad:"Becuanaland Protektorası", bolge:"guney-afrika", f:"1885-09-30", t:"1966-09-30",
   baskent:"Mafeking (protektora toprakları dışında)",
   ozet:"Molopo ırmağının kuzeyindeki Tsvana toprakları 1885'te İngiliz himayesine alındı (güneyi British Bechuanaland Taç kolonisi oldu, 1895'te Cape'e katıldı). Protektora Yüksek Komiserlik toprağı olarak yönetildi ve 30 Eylül 1966'da Botsvana adıyla bağımsızlaştı.",
   kaynak:"IBS No. 122 (Botswana–South Africa) — «The proclamation of September 30, 1885, also declared the establishment of a British protectorate» · «independent as the Republic of Botswana on September 30, 1966»; IBS No. 148 aynı günü veriyor. Zins 1997, PULA 11(1) (Michigan State Üniv. arşivi) — «In 1885 … the Bechuanaland Protectorate was created» (YIL). TDV `botsvana`/`botswana`/`botsvana--ulke`/`becuanaland` ÖLÜ (302).",
@@ -7915,7 +7915,7 @@ window.DEVLETLER = [
     { t:"1885-09-30", tur:"kurulus", b:"Yüksek Komiser bildirisiyle Molopo'nun kuzeyinde İngiliz protektorası ilan edildi", kaynak:"IBS 122 · IBS 148" },
     { t:"1966-09-30", tur:"son", b:"Botsvana Cumhuriyeti olarak bağımsızlığını kazandı", kaynak:"IBS 122" }
   ] },
-{ id:"ingiliz-kenya-kolonisi", ad:"İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi ve Protektorası)", bolge:"dogu-afrika", f:"1895-07-01", t:"1963-12-12",
+{ id:"ingiliz-kenya-kolonisi", harita:"ingiltere", ad:"İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi ve Protektorası)", bolge:"dogu-afrika", f:"1895-07-01", t:"1963-12-12",
   baskent:"Mombasa → Nairobi (1907)",
   ozet:"IBEA şirketinin çekilmesinden sonra 1 Temmuz 1895'te ilan edilen İngiliz protektorası; 23 Temmuz 1920'de iç topraklar Kenya Kolonisi, Zengibar sultanına ait kıyı şeridi Kenya Protektorası oldu. 12 Aralık 1963'te bağımsızlaştı.",
   kaynak:"f: HMSO Colonial Report, Kenya 1923 (Illinois Üniv. dijital kütüphanesi) — «In 1895 the Company withdrew … and on July 1st of that year a Protectorate was declared»; TDV `kenya` YIL veriyor («1895»). Koloni: Colonial Report 1920-21 — «This Order in Council came into operation on the 23rd of July, 1920»; Colonial Report 1923 — «with effect from July 23rd, 1920». t: TDV `kenya` — «12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu»; IBS 071 aynı gün. Başkent: TDV `kenya` — Nairobi «1907 yılından itibaren İngiliz sömürge idaresinin … başşehri». Kıyı şeridi: IBS 134.",
@@ -7926,7 +7926,7 @@ window.DEVLETLER = [
     { t:"1920-07-23", tur:"siyaset", b:"Kenya Annexation Order in Council yürürlüğe girdi: iç topraklar Kenya Kolonisi oldu", kaynak:"Colonial Report Kenya 1920-21" },
     { t:"1963-12-12", tur:"son", b:"Kenya bağımsızlığını kazandı", kaynak:"TDV kenya · IBS 071" }
   ] },
-{ id:"ingiliz-guney-rodezya", ad:"Güney Rodezya (İngiliz Güney Afrika Şirketi → Özyönetimli Koloni)", bolge:"guney-afrika", f:"1890-01-01", t:"1980-04-18",
+{ id:"ingiliz-guney-rodezya", harita:"ingiltere", ad:"Güney Rodezya (İngiliz Güney Afrika Şirketi → Özyönetimli Koloni)", bolge:"guney-afrika", f:"1890-01-01", t:"1980-04-18",
   baskent:"Salisbury",
   ozet:"İngiliz Güney Afrika Şirketi'nin 1890'da işgal ettiği, 1898'de Güney Rodezya olarak tanımlanan topraklar; 1923'te şirket yönetimi bitti ve bölge Taç'a bağlı özyönetimli koloni oldu. 1965'te tek taraflı bağımsızlık ilan edildi, 18 Nisan 1980'de Zimbabve adıyla bağımsızlaştı.",
   kaynak:"f: TDV `zimbabve` (200, gövde okundu) — «Aldıkları imtiyazla 1890'dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi'nin silâhlı birlikleri … işgal etti» (YIL). t: TDV `zimbabve` — «18 Nisan 1980'de Rodezya, Zimbabve adını alarak bağımsız bir devlet oldu». 1898: IBS 117/118/148 — «On October 20, 1898, an Order in Council was passed, delimiting the entity of Southern Rhodesia». 1923: IBS 118 (YIL) · Southern Rhodesia Constitution Letters Patent 1923 (vLex metni): Annexation Order in Council 30 Temmuz 1923, Letters Patent 1 Eylül 1923. UDI: IBS 117/118 — 11 Kasım 1965.",
@@ -7938,7 +7938,7 @@ window.DEVLETLER = [
     { t:"1965-11-11", tur:"isyan", b:"Tek taraflı bağımsızlık ilanı (UDI)", kaynak:"IBS 117 · IBS 118" },
     { t:"1980-04-18", tur:"son", b:"Zimbabve adıyla bağımsız oldu", kaynak:"TDV zimbabve" }
   ] },
-{ id:"portekiz-mozambik", ad:"Portekiz Mozambiği (Portekiz Doğu Afrikası)", bolge:"dogu-afrika", f:"1505-01-01", t:"1975-06-25",
+{ id:"portekiz-mozambik", harita:"portekiz", ad:"Portekiz Mozambiği (Portekiz Doğu Afrikası)", bolge:"dogu-afrika", f:"1505-01-01", t:"1975-06-25",
   baskent:"Mozambik adası → Lourenço Marques",
   ozet:"Portekiz'in 1505'te Sofala ve Kilve'de kale kurmasıyla başlayan, 1507'den sonra Mozambik adasını merkez alan sömürge; sınırları 1891 İngiliz-Portekiz antlaşmasıyla çizildi, iç bölgelerin sömürgeleştirilmesi ancak 1924'te tamamlandı. 25 Haziran 1975'te bağımsızlık ilan edildi.",
   kaynak:"TDV `mozambik` (200, gövde okundu): «Portekiz Kralı I. Manuel bölgeye bir donanma gönderdi (1505)» · Almeida'nın «Süfâle ve Kilve'de … kaleler» kurdurması · «topraklarının önemli bir kısmının sömürgeleştirilmesi ancak 1924'te tamamlandı» · «25 Haziran 1975 tarihinde … Mozambik'in bağımsızlığı ilân edildi». Sınır: IBS 112/118/133 — «Anglo-Portuguese treaty of June 11, 1891».",
@@ -8077,7 +8077,7 @@ window.DEVLETLER = [
     { t:"1806-10-03", tur:"isgal", b:"Rus kuvvetleri Derbend ve Kuba'yı istila etti (gün ÇIKARIMDIR: Dubrovin'in Bakü 3 Ekim 1806 / Bulgakov raporu 10 Kasım 1806 arası verdiği aralıktan; KUNYE-TARAF-BEKLEYEN'den devralınan ölçüm, bu turda tekrarlanmadı)", kaynak:"N. F. Dubrovin (vostlit.info) — KUNYE-TARAF-BEKLEYEN'in ölçümü, doğrulanmadı" },
     { t:"1813-10-24", tur:"son", b:"Gülistan Antlaşması madde 3: Kuba ve Derbend hanlıkları Rusya'ya bırakıldı", kaynak:"Encyclopaedia Iranica, GOLESTĀN TREATY (Hurewitz çevirisi) · TDV kuba--azerbaycan" }
   ] },
-{ id:"belcika-kongo", ad:"Belçika Kongosu", bolge:"orta-afrika", f:"1908-11-15", t:"1960-06-30",
+{ id:"belcika-kongo", harita:"belcika", ad:"Belçika Kongosu", bolge:"orta-afrika", f:"1908-11-15", t:"1960-06-30",
   baskent:"Boma → Léopoldville",
   ozet:"II. Leopold'un şahsî mülkü Kongo Bağımsız Devleti'nin (1885) 15 Kasım 1908'de Belçika Krallığı'nca resmen sömürge olarak devralınmasıyla kurulan idare; 30 Haziran 1960'ta Kongo Cumhuriyeti olarak bağımsızlaştı.",
   kaynak:"TDV `kongo-demokratik-cumhuriyeti` (HTTP 200, gövde okundu): «Bağımsız Kongo Devleti'ni kurdu (1885)» · «15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi» · «30 Haziran 1960 tarihinde bağımsızlığına kavuşan». history.state.gov/countries/congo-free-state: «the Congo Free State was annexed as a colony by Belgium on November 15, 1908». f ve t GÜN hassasiyetinde.",
@@ -8095,7 +8095,7 @@ window.DEVLETLER = [
     { t:"1841-01-01", tur:"kurulus", b:"El Salvador, Orta Amerika Federasyonu'ndan ayrılıp egemen devlet oldu (ay: Ocak 1841)", kaynak:"LoC Country Studies El Salvador · Worldmark (encyclopedia.com)" },
     { t:"1859-01-25", tur:"siyaset", b:"El Salvador Cumhuriyeti resmen ilan edildi", kaynak:"Worldmark Encyclopedia of Nations (encyclopedia.com) — «formally proclaimed on 25 January 1859»" }
   ] },
-{ id:"fransiz-bati-afrika", ad:"Fransız Batı Afrikası (AOF)", bolge:"bati-afrika", f:"1895-06-16", t:"1959-01-01",
+{ id:"fransiz-bati-afrika", harita:"fransa-cumhuriyet", ad:"Fransız Batı Afrikası (AOF)", bolge:"bati-afrika", f:"1895-06-16", t:"1959-01-01",
   baskent:"Saint-Louis → Dakar (1902)",
   ozet:"16 Haziran 1895 kararnamesiyle Senegal · Fransız Sudanı · Gine · Fildişi Sahili kolonilerini tek genel valilik altında toplayan koloniler federasyonu; 1902 ve 1904 kararnameleriyle kesin biçimini aldı (Dahomey · Yukarı Volta · Nijer · Moritanya). 1958 referandumundan sonra 1959'da dağıldı.",
   kaynak:"f: Digithèque MJP, Université de Perpignan (mjp.univ-perp.fr/constit/aof.htm) — décret du 16 juin 1895: «Il est institué un gouvernement général de l'Afrique occidentale française» · décret du 1er octobre 1902: «Le siège du Gouvernement général est à Dakar» · décret du 18 octobre 1904. TDV `senegal` (200): 1895 federasyon, 1902 Dakar merkez (YIL). t: Columbia Encyclopedia 6th ed. 'French West Africa' (encyclopedia.com): «The federation was created in 1895» · «In 1958 the constituent territories became autonomous republics in the French Community, except for Guinea, which became independent. The federation was dissolved in 1959» (YIL; gün bulunamadı).",
@@ -8105,7 +8105,7 @@ window.DEVLETLER = [
     { t:"1902-10-01", tur:"baskent", b:"Genel valiliğin merkezi Dakar oldu", kaynak:"Digithèque MJP — décret du 1er octobre 1902 · TDV senegal (yıl)" },
     { t:"1959-01-01", tur:"son", b:"Federasyon dağıldı (yıl; gün bulunamadı)", kaynak:"Columbia Encyclopedia (encyclopedia.com)" }
   ] },
-{ id:"fransiz-ekvator-afrikasi", ad:"Fransız Ekvator Afrikası (AEF)", bolge:"orta-afrika", f:"1910-01-15", t:"1958-01-01",
+{ id:"fransiz-ekvator-afrikasi", harita:"fransa-cumhuriyet", ad:"Fransız Ekvator Afrikası (AEF)", bolge:"orta-afrika", f:"1910-01-15", t:"1958-01-01",
   baskent:"Brazzaville",
   ozet:"Fransız Kongosu'nun yerini alan, Gabon · Orta Kongo · Ubangi-Şari · Çad'ı Brazzaville'deki genel valilik altında toplayan koloniler federasyonu (15 Ocak 1910 kararnamesi); 1958'de üye topraklar Fransız Topluluğu içinde özerk cumhuriyet olunca dağıldı.",
   kaynak:"f: Digithèque MJP (mjp.univ-perp.fr/constit/td1900.htm): «décret du 15 janvier 1910, portant création du Gouvernement général de l'Afrique équatoriale française». TDV `gabon` (200): «1910 yılında oluşturulan Fransız Ekvator Afrikası içinde Orta Kongo, Ubangi-Şari ve Çad'la birlikte yer alan Gabon» (YIL). Başkent ve t: Columbia Encyclopedia 6th ed. 'French Equatorial Africa' (encyclopedia.com): «The capital was Brazzaville» · «When the constituent territories voted (1958) to become autonomous republics within the French Community, the federation was dissolved» (YIL). TDV `cad` (200): «Eylül 1958'de yapılan referandumla De Gaulle anayasası kabul edilerek».",
@@ -8114,7 +8114,7 @@ window.DEVLETLER = [
     { t:"1910-01-15", tur:"kurulus", b:"AEF genel valiliği kararnameyle kuruldu", kaynak:"Digithèque MJP — décret du 15 janvier 1910 · TDV gabon (yıl)" },
     { t:"1958-01-01", tur:"son", b:"Üye topraklar özerk cumhuriyet olunca federasyon dağıldı (yıl)", kaynak:"Columbia Encyclopedia (encyclopedia.com) · TDV cad (Eylül 1958 referandumu)" }
   ] },
-{ id:"ingiliz-altin-kiyisi", ad:"İngiliz Altın Kıyısı (Gold Coast Kolonisi)", bolge:"bati-afrika", f:"1874-07-24", t:"1957-03-06",
+{ id:"ingiliz-altin-kiyisi", harita:"ingiltere", ad:"İngiliz Altın Kıyısı (Gold Coast Kolonisi)", bolge:"bati-afrika", f:"1874-07-24", t:"1957-03-06",
   baskent:"Cape Coast → Accra",
   ozet:"Aşanti seferinden sonra 24 Temmuz 1874'te ayrı taç kolonisi olarak kurulan kıyı idaresi; 1901'de Aşanti ilhak edildi, 1902'de Kuzey Toprakları protektora oldu. 6 Mart 1957'de Gana adıyla bağımsızlaştı.",
   kaynak:"f: LoC Country Studies, Ghana — 'The Colonial Era: British Rule of the Gold Coast' (countrystudies.us/ghana/8.htm): «The Gold Coast Colony, established on July 24, 1874, comprised the coastal areas and extended inland as far as the ill-defined borders of Asante» · «Asante became a colony following its final defeat in 1901» · «The Northern Territories were proclaimed a British protectorate in 1902» · «the British moved the colonial capital from Cape Coast to the former Danish castle at Christiansborg in Accra» (yıl verilmedi). TDV `gana` (200, gövde okundu): «ülkenin güneybatı tarafı Altın Sahili adıyla sömürge haline getirildi (1874)» · «Aşanti Devleti'nin bütün toprakları İngiltere'nin hâkimiyetine geçti (1901)» · «Altın Sahili 6 Mart 1957 tarihinde Gana adıyla Kara Afrika'nın bağımsızlığını kazanan ilk devleti oldu».",
@@ -8135,7 +8135,7 @@ window.DEVLETLER = [
     { t:"1884-01-01", tur:"siyaset", b:"Jamaika'dan ayrı koloni oldu (yıl)", kaynak:"Worldmark (encyclopedia.com)" },
     { t:"1981-09-21", tur:"son", b:"Belize bağımsızlığını kazandı", kaynak:"history.state.gov belize" }
   ] },
-{ id:"ingiliz-kuzey-rodezya", ad:"Kuzey Rodezya (İngiliz Güney Afrika Şirketi İdaresi → İngiliz Protektorası)", bolge:"guney-afrika", f:"1890-01-01", t:"1964-10-24",
+{ id:"ingiliz-kuzey-rodezya", harita:"ingiltere", ad:"Kuzey Rodezya (İngiliz Güney Afrika Şirketi İdaresi → İngiliz Protektorası)", bolge:"guney-afrika", f:"1890-01-01", t:"1964-10-24",
   baskent:"Livingstone → Lusaka",
   ozet:"Zambezi'nin kuzeyinde 1890'da Lozi kralı Lewanika'nın Cecil Rhodes'un şirketinin himayesine girmesiyle başlayan, Kuzeybatı ve Kuzeydoğu Rodezya'nın 17 Ağustos 1911'de 'Kuzey Rodezya' adıyla birleştiği şirket idaresi; 1924'te İngiliz Sömürge Bakanlığı'na bağlı protektora oldu, 24 Ekim 1964'te Zambiya adıyla bağımsızlaştı.",
   kaynak:"f: TDV `zambiya` (200, gövde okundu): «1890'da Loziler'in kralı Lewanika, Zambiya topraklarında İngiltere hükümetinin kendisine ülke üzerinde tam ekonomik ve siyasal kontrol hakkı tanıdığı, İngiliz Güney Afrika Şirketi'ni kuran Cecil Rhodes'in himayesine girdi» · «1894'te Rhodes'e nisbetle Kuzey Rodezya diye adlandırılan bölgenin İngiltere'ye ait olduğu kabul edildi» · «1911'de benimsenen Kuzey Zambezi anayasasıyla Güney Afrika Şirketi idaresinde bugünkü Zambiya'nın sınırları belirlendi» · «24 Ekim 1964'te Zambiya adıyla ülkesinin bağımsızlığını ilân etti». Birleşme günü: Encyclopædia Britannica 1922, 'Rhodesia' (Wikisource transkripsiyonu, gövde okundu): «The amalgamation of North-Eastern and North-Western Rhodesia was carried into effect on Aug. 17 1911, when Mr. (afterwards Sir) Lawrence Wallace was appointed administrator». Cambridge, History in Africa, 'Government Gazettes for Northern Rhodesia' (özet): 1911'e kadar iki ayrı toprak, 1911'den itibaren birleşik Kuzey Rodezya; 1924'te Colonial Office devraldı. Worldmark 'Zambia' (encyclopedia.com): «From 1891 to the end of 1923, the territory—known as Northern Rhodesia—was ruled by this private company» · «On 24 October 1964, Northern Rhodesia became an independent republic, and its name was changed to Zambia».",
@@ -8146,7 +8146,7 @@ window.DEVLETLER = [
     { t:"1924-01-01", tur:"siyaset", b:"İdare şirketten İngiliz Sömürge Bakanlığı'na geçti, protektora oldu (yıl; TDV 1923 der)", kaynak:"Cambridge History in Africa (gazeteler) · Worldmark · TDV zambiya (çelişki)" },
     { t:"1964-10-24", tur:"son", b:"Zambiya adıyla bağımsızlık", kaynak:"TDV zambiya · Worldmark" }
   ] },
-{ id:"ingiliz-nyasaland", ad:"Nyasaland Protektorası (İngiliz Orta Afrikası)", bolge:"dogu-afrika", f:"1891-05-14", t:"1964-07-06",
+{ id:"ingiliz-nyasaland", harita:"ingiltere", ad:"Nyasaland Protektorası (İngiliz Orta Afrikası)", bolge:"dogu-afrika", f:"1891-05-14", t:"1964-07-06",
   baskent:"Zomba",
   ozet:"14 Mayıs 1891'de ilan edilen İngiliz protektorası; 1891-1907 arasında 'İngiliz Orta Afrikası', 1907'den itibaren 'Nyasaland' adını taşıdı, 1953-63 Rodezya ve Nyasaland Federasyonu'na bağlandı, 6 Temmuz 1964'te Malavi adıyla bağımsızlaştı.",
   kaynak:"f: Colin Baker, 'The government medical service in Malawi: an administrative history, 1891-1974', Medical History (Cambridge Core; PDF metin katmanı okundu): «only two weeks after the Protectorate had been declared on 14 May 1891» · «The country was first named British Central Africa (1891-1907) and then Nyasaland (1907-1964) and, finally, as an independent state, Malawi». TDV `malavi` (200): 1891 «Nyasaland (Malavi) İngiliz nüfuz bölgesi ilân edildi» · «Nyasaland ismiyle resmen sömürgeleştirdikleri» · «Rodezya ile birlikte 1953 yılında bir federasyona» · «Malavi 1964'te bağımsızlığını elde etti» (YIL). t: Worldmark 'Malawi' (encyclopedia.com): «on 6 July 1964, Nyasaland became a fully independent Commonwealth country and adopted the name Malawi». Başkent: Cambridge, History in Africa (gazeteler özeti) — Zomba'dan yönetildi.",
@@ -8156,7 +8156,7 @@ window.DEVLETLER = [
     { t:"1907-01-01", tur:"siyaset", b:"Protektoranın adı 'Nyasaland' oldu (yıl)", kaynak:"Colin Baker (Cambridge) · TDV malavi" },
     { t:"1964-07-06", tur:"son", b:"Malavi adıyla bağımsızlık", kaynak:"Worldmark (encyclopedia.com) · TDV malavi (yıl)" }
   ] },
-{ id:"ingiliz-siyera-leon", ad:"İngiliz Sierra Leone'si (Koloni ve Protektora)", bolge:"bati-afrika", f:"1808-01-01", t:"1961-04-27",
+{ id:"ingiliz-siyera-leon", harita:"ingiltere", ad:"İngiliz Sierra Leone'si (Koloni ve Protektora)", bolge:"bati-afrika", f:"1808-01-01", t:"1961-04-27",
   baskent:"Freetown",
   ozet:"Sierra Leone Şirketi'nin Freetown yerleşiminin 1808'de Taç'a devriyle kurulan koloni; iç bölge Ağustos 1896 sonunda ayrı bir protektora ilan edildi. 27 Nisan 1961'de bağımsızlaştı.",
   kaynak:"f: TDV `sierra-leone` (200, gövde okundu): «1792'de modern Freetown'ı kurdular» · 1807 köle ticareti yasağından sonra «ertesi yıl Sierra Leone koloni yönetimini oluşturdu» (=1808, YIL) · 1895 sınır anlaşmasından sonra «ertesi yıl da iç kısımlarda İngiliz protektorası kuruldu» (=1896) · «27 Nisan 1961'de İngiliz Uluslar Topluluğu içerisinde bağımsız bir devlet haline gelen Sierra Leone». Worldmark 'Sierra Leone' (encyclopedia.com): «Sierra Leone was transferred to the crown in 1808» · «In 1896, a British protectorate was declared over the hinterland of Sierra Leone, which was separate from the colony» · «Sierra Leone became an independent country within the Commonwealth of Nations on 27 April 1961». Protektora ayı: Cambridge Historical Journal, 'The Establishment of the Sierra Leone Protectorate and the Insurrection of 1898' (özet): «at the end of August 1896, a protectorate was proclaimed».",
@@ -8176,7 +8176,7 @@ window.DEVLETLER = [
     { t:"1927-01-01", tur:"toprak-kazanc", b:"Privy Council, Labrador'un Newfoundland'a ait olduğunu onayladı (yıl)", kaynak:"gov.nl.ca kronolojisi" },
     { t:"1934-02-16", tur:"son", b:"Komisyon Hükûmeti yemin etti, sorumlu hükûmet sona erdi", kaynak:"heritage.nf.ca" }
   ] },
-{ id:"portekiz-angola", ad:"Portekiz Angolası", bolge:"orta-afrika", f:"1575-01-01", t:"1975-11-11",
+{ id:"portekiz-angola", harita:"portekiz", ad:"Portekiz Angolası", bolge:"orta-afrika", f:"1575-01-01", t:"1975-11-11",
   baskent:"Luanda",
   ozet:"1575'te Luanda'nın ticaret yerleşimi olarak kurulmasıyla başlayan, 1870-1903 arasında iç bölgelere yayılan Portekiz sömürgesi; 1951'de denizaşırı eyalet oldu, 11 Kasım 1975'te bağımsızlaştı.",
   kaynak:"Worldmark Encyclopedia of Nations 'Angola' (encyclopedia.com): «Luanda was founded as a trading settlement in 1575» · «between 1870 and 1903 the Portuguese claimed control over more and more of the interior of the country» · «European domination continued until 1951, when Angola's status changed into an overseas province of Portugal» · «the Portuguese agreed on 15 January 1975 to grant complete independence to Angola on 11 November 1975». Cambridge, 'The Portuguese in West Africa, 1415-1670', bölüm 7 başlığı: 'Angola, Paulo Dias and the founding of Luanda'. TDV `angola` ÖLÜ (302); TDV `portekiz` yalnız «Afrika kıyılarında birçok bölge (Loanda/Angola, Mozambik, Mombasa) sömürge haline getirildi» (tarihsiz).",
@@ -8186,7 +8186,7 @@ window.DEVLETLER = [
     { t:"1951-01-01", tur:"siyaset", b:"Angola Portekiz'in denizaşırı eyaleti oldu (yıl)", kaynak:"Worldmark (encyclopedia.com)" },
     { t:"1975-11-11", tur:"son", b:"Angola bağımsızlığını kazandı", kaynak:"Worldmark (encyclopedia.com)" }
   ] },
-{ id:"portekiz-gine", ad:"Portekiz Ginesi", bolge:"bati-afrika", f:"1879-01-01", t:"1974-09-10",
+{ id:"portekiz-gine", harita:"portekiz", ad:"Portekiz Ginesi", bolge:"bati-afrika", f:"1879-01-01", t:"1974-09-10",
   baskent:"Bissau",
   ozet:"1879'da Yeşil Burun Adaları kolonisinden ayrılıp doğrudan Lizbon'a bağlanan sömürge; sınırları 1886'da Fransa ile antlaşmayla çizildi. PAIGC 24 Eylül 1973'te Gine Bissau'nun kuruluşunu ilan etti, Portekiz 10 Eylül 1974'te tanıdı.",
   kaynak:"TDV `gine-bissau` (200, gövde okundu): «1879'da Portekiz Ginesi adı verilen bugünkü Gine Bissau, Portekiz'in Yeşil Burun (Cape Verde) Adaları Kolonisi'nden ayrılıp merkezi Bissau olan bir vilâyet haline getirilerek doğrudan Lizbon yönetimine bağlandı» · «1886'da da Fransızlar'la ülkenin sınırlarını belirleyen bir antlaşma imzalandı» · «Partido Africano da Independência da Guiné-Bissau e Cabo Verde 24 Eylül 1973 günü Gine Bissau adıyla yeni devletin kurulduğunu açıkladı» · «ülkedeki Portekiz yönetimine son veren antlaşmayı imzalayarak Gine Bissau'nun bağımsızlığını tanıdı (10 Eylül 1974)». Worldmark (encyclopedia.com): «In 1879, Portugal changed Guinea-Bissau's status from a possession to a separate colony».",
