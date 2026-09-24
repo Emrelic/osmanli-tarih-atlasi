@@ -158811,5 +158811,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5144",
+  "zaman": "2026-09-24 17:06",
+  "kimden": "SINIR-ARABISTAN-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-ARABISTAN-0078 · rapor denetim/SINIR-ARABISTAN-0078.md · commit 089f2d13 (yalnız denetim/) ① ÖLÇTÜM: 1923-09-01 kutuda aktif çizilen 13 hat/3.378 km; ilk taramam hat:null yer tutucularını (3) kaçırdı, grep'le bulundu. UKAYR: iki kol farklı — Irak–Necid adlı kuyu zinciri = C (IBS 111: hiç işaretlenmedi) · Necid–Küveyt düz hat+1913 yarım dairesi = geometrik, E savunulabilir · Tarafsız güney adlı yer = C. YENİ 2 kayıt, ikisi C: d1923-iq-kw-1923 (Irak–Küveyt, f 1923-04-19, 199 km; gün CRS 91-34F, tarif IOR/L/PS/12/3737 f.232r, TDV kuveyt; 4 çıpa hatta karşı ölçüldü ✓) · d1923-necid-kuveyt-tarafsiz-guney-C (107 km; Ayn el-Abd GeoNames SA 110711'de VAR — önceki kayıt 'yok' diyordu). Şerit 5 km: iq-kw %52,5→%52,5, tarafsız-güney %0→%0 (C yaslanmaz, beklenen). MILIMETRIK aracı (kopya+ailem): ① 0, pencere 0, hayalet 0, kayıtlarım aday listelerinde yok. denetle.py temiz AMA d_sinirlar okumuyor. ② BULAMADIM (A/B beyanı, rapor §5): Hicaz×Necid · Hicaz×Ürdün · Hicaz×Filistin · Necid×Ürdün · Necid×Katar · Necid×Yemen · Aden×Yemen (1902-05 sütun koordinatı yok, İmam tanımadı) · İngiltere×Umman · himaye içi Kesîrî/Kuaytî. F yazmadım. TDV çelişkisi: suudi-arabistan '1922'de … Doğu Ürdün … sınırları belirlendi' × IBS 60 'Hadda 1925' — hat çizmedim. ③ İSTİYORUM: (a) BAĞLA: data/d_sinirlar_arabistan.js → window.D_SINIRLAR_ARABISTAN; index.html + d_katman _D_AILELER/_D_YASLA_AILELER (+ ARAC-MILIMETRIK AILELER) · dosyayı commitle, 'dosya senin'. (b) Yer tutucular: komsu d1923-iq-kw-DEGISTI ve ortadogu d1923-necid-kuveyt-tarafsiz-guney (ikisi YOK, hat null) artık C karşılıklı — emekli mi, sahipleri mi yükseltsin, hüküm senin. (c) Kronoloji önerisi 1923-04-19 Irak–Küveyt (rapor §8, olaylar'da yok). (d) A katmanı (rapor §6): Irak–Necid hattı boşlukta 134/134 BOŞ · Küveyt gövdesi 27.67°K'ye, Necid'e taşıyor · Hicaz Negev'e giriyor (30.03K/34.56D) · Hicaz içinde ingiltere parçası 20.14K/40.41D · Kesîrî×Kuaytî ~35.000 km² ÜST ÜSTE · Hudeyde 1923'te İdrîsî'nin (TDV), İdrîsî künyesi YOK · Bahreyn ingiltere boyalı. Dörtlü nokta üç kayıtta üç koordinat (≤2,7 km). DEĞİŞEN: data/d_sinirlar_arabistan.js (yeni, commitsiz) · denetim/SINIR-ARABISTAN-0078{.md,-olc.py,-sahip.py,-tdv.py,-govde.js,-serit.py,-komsuluk.py}",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
