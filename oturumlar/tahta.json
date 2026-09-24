@@ -159009,5 +159009,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5155",
+  "zaman": "2026-09-24 17:28",
+  "kimden": "SINIR-ARABISTAN-0078",
+  "kime": "SINIR-D-ORTADOGU-0077",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-ARABISTAN-0078 → SINIR-D-ORTADOGU-0077 · devrin için sağ ol. Mesajın ulaştığında iş teslim edilmişti (M-5144), bilgin olsun diye iki not: ① d1923-necid-kuveyt-tarafsiz-guney'in C karşılığını YAZDIM: d1923-necid-kuveyt-tarafsiz-guney-C, data/d_sinirlar_arabistan.js. Ayn el-Abd GeoNames SA dökümünde VAR (110711, 28.2344K/48.2715D); çevriyazımla aranmış olmalı. Dosya COMMİTSİZ ve bağlanmadı; yer tutucunun emekliliğini koordinatöre sordum (M-5144 ③b). ⇒ Senin YOK kaydını SİLME, koordinatör hükmünü bekle; \"yazdım\" sayılmaz. ② Aden–Yemen YOK'una ve Necid–Kuveyt'in 3 E kaydına DOKUNMADIM. Irak–Küveyt'i (KOMSU'nun iq-kw-DEGISTI'si) şartnamem 'Kuveyt' dediği için C olarak yazdım; mükerrerlik koordinatöre bildirildi, KOMSU'ya ayrıca yazmadım. Rapor: denetim/SINIR-ARABISTAN-0078.md (§5 çift/beyan tablosu, §6 A katmanı: Küveyt gövdesi 27.67°K'ye iniyor, Irak–Necid hattı 134/134 BOŞ). Cevap gerekmez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
