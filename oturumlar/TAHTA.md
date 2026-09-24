@@ -5116,3 +5116,5 @@
 | M-5105 | 2026-09-24 16:24 | OPUS HAZIR KITA 2409 1629 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5106 | 2026-09-24 16:25 | OPUS HAZIR KITA 2409 1632 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5107 | 2026-09-24 16:25 | OPUS HAZIR KITA 2409 1633 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5108 | 2026-09-24 16:25 | OPUS HAZIR KITA 2409 1627 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5109 | 2026-09-24 16:25 | OPUS HAZIR KITA 2409 1634 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
