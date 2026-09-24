@@ -159099,5 +159099,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5160",
+  "zaman": "2026-09-24 18:01",
+  "kimden": "A-AMERIKA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · A-AMERIKA-0078 · rapor denetim/A-AMERIKA-0078-0924.md ① ÖLÇTÜM (1923-09-01, Latin Amerika 7.538 kara hücresi, B9 ✓): • data/yerlesimler_a78_amerika.js → window.YERLESIMLER_A78_AMERIKA — 190 nokta, üretici sınavlarının 190/190'ı geçti (ad benzersiz · ≥3 km · zincir kesintisiz · künye penceresi · renk · karada · kaynak). Brezilya 89 · Arjantin 17 · Meksika 16 · Kolombiya 13 · Şili 12 · Bolivya 10 · Peru 10 · Venezuela 9 · öteki 14. Kaynak: IBGE/INEI/INEGI/Senado Bolivia/Fundación Polar/resmî belediye/Memoria Chilena; Vikipedi tek dayanak değil. • Petek modeli (200 km, Öklid; motor değil): sahipli %63 → %88. Atacama %56→98 · llanos %37→78 · Amazon %42→68 · Guyanalar %22→34. Ekran (%49 boş) koşuya kadar değişmez. • denetle.py (worktree'de girdi.py'ye ekleyerek; ana ağaca dokunulmadı): hepsi ÖNCE ile aynı ✓, YALNIZ Değişmez 7 ✗ 673→707. 36 yeni satırın 28'i ESKİ nokta (Cusco, Cajamarca, Pátzcuaro, Bogotá…): yoğunluk \"coğrafî tecrit\" muafiyetini düşürdü, 1450-1825 soruları göründü. 8'i benim noktalı; 1900 sonrası tek biri: Acre 1904 (Rio Branco+Xapuri+Boca do Acre, Lábrea'ya >150 km). 1923 sahipliğinde yanlış iddia yok. Alet: denetim/A-AMERIKA-0078-d7.py • Ters yön: sahibi değişen hücreler DÜZELDİ 130 · BOZULDU 97 · belirsiz 13 — hepsi sınır kasabasının seyrek karşı yakaya taşması (Ciudad Acuña→Teksas 9, Fortín Muñoz→Paraguay/Arjantin 13, Puerto Natales→Arjantin 6, Arauca→Venezuela 6…). ② BULAMADIM: 56 hedefte 1923 devlet idaresi ya da kaynaklı yıl yok (Amazon/Xingu/Tapajós içi, Guyana/Surinam içi, Putumayo, Alto Purús, Kuzey Chaco, Aysén, fiyortlar, Zelaya) → merdiven A/B'de; liste denetim/A-AMERIKA-0078-bulunamadi.json. ③ İSTİYORUM: a) BAĞLA: index.html + arac/girdi.py GIRDI_DOSYALARI ← data/yerlesimler_a78_amerika.js (window.YERLESIMLER_A78_AMERIKA). Veri dosyasını sen commitle. b) Değişmez 7 tavanı: BEKLENEN_ENKLAV_SORGU 673→707 (sebep yukarıda) — ya da hüküm ver. Bağlanınca ihlal budur, başka yok. c) 4 RENK: honduras-/nikaragua-/el-salvador-/kosta-rika-cumhuriyeti renkler.py'de yok → 16 Orta Amerika noktası hazır bekliyor (denetim/A-AMERIKA-0078-renk-bekleyen.json; renk dışı sınavlar ✓; zincir yeni-ispanya → guatemala 1821-09-15 → ülke). Renk gelince dosyaya katarım. d) M-5142'deki kamerika.js 47 yanlış 1923 sahibi hâlâ açık (Teksas/Arizona/Küba/Honduras MEKSİKA, Tehuantepec ABD…); + Paquimé ve Tocobaga kasıtlı-boşluk beyanları 1923 için yanlış. Önerim: bana ver. e) isg önerileri kronolojiyle birlikte (veriye yazmadım, 2i'yi deliyordu): San Pedro de Atacama / Tocopilla Şili işgali 1879 → Şili vilayeti 1888-07-13; Putre 1880-06-07 → 1884-10-31. f) Hüküm: Fortín Muñoz (Bolivya kalesi 1923-08-15, Chaco ihtilaflı) ve Putre (Şili idaresi, egemenlik 1929'a dek askıda) — ikisi de yazıldı. Değişen dosyalar: data/yerlesimler_a78_amerika.js (yeni, commitsiz — senin) · commit a17a9198: denetim/A-AMERIKA-0078-* (17 dosya). Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
