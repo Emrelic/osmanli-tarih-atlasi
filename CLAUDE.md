@@ -196,7 +196,7 @@ açılmaz** (kenar petekleri dünyaya yayılır). [`D220`](dersler/D220-kapsam-g
 ---
 
 ## 7. Oturum düzeni ve dosya sahipliği — EN ÖNEMLİ KURAL
-Bölme ölçütü **dosyadır**; her dosyanın tek sahibi var. Oturum 0 (koordinatör, 1.MURAT):
+Bölme ölçütü **dosyadır**; her dosyanın tek sahibi var. Oturum 0 (koordinatör, YILDIRIM BAYEZIT):
 `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, kök `*.md`. Öteki oturumlar
 şartnamelerinin verdiği dosyalara yazar; **emin değilsen sor**; rapor/denetim oturumları
 düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
@@ -298,7 +298,7 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
 
 Bağlı eski kurallar: §7 koşu nöbetçisi (≠ tahta bekçisi) · §7.1 ①–⑦ ve TOKEN KURALI ·
 `arac/tahta_bekci.py` kullanım notu · `ClaudEmre/SARTNAME.md` ⑤ haberleşme bloğu.
-**Çözülmemiş çelişkiler** (hüküm 1.MURAT/Emre'de, ayrıntı `denetim/PROTOKOL-BUDAMA-0917.md`):
+**Çözülmemiş çelişkiler** (hüküm YILDIRIM BAYEZIT/Emre'de, ayrıntı `denetim/PROTOKOL-BUDAMA-0917.md`):
 ClaudEmre ⑤ hâlâ send_message diyor · eski "en çok 3 oturum" bugünkü kadroyla çelişiyor ·
 ⑥'da ACİL istisna yok.
 

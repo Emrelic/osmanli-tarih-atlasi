@@ -9,7 +9,7 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
 2. Adını ölç: `get_session("self")` → başlık (ör. `Opus hazır kıta 1016`). Tahta adın
    bunun BÜYÜK HARFLİSİ: `OPUS HAZIR KITA 1016`.
 3. Tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
-   `py arac/tahta.py yaz --kim "<ADIN>" --kime "1.MURAT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
+   `py arac/tahta.py yaz --kim "<ADIN>" --kime "YILDIRIM BAYEZIT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
 4. Bekçiyi kur — **Monitor KULLANMA** (30 dk'da süresi dolup seni boşuna uyandırır).
    **Bash aracı, `run_in_background: true`:** `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
    Süre tavanı yok; YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
@@ -37,7 +37,7 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
   `git commit -F <dosya> -- <aynı adlar>`, dizin pathspec ve `git add -A` YASAK) aynen geçerli.
 
 ## 4. Teslim — TEK mesaj
-`py arac/tahta.py yaz --kim "<AD>" --kime "1.MURAT" --mesaj "TESLIM · ..."` —
+`py arac/tahta.py yaz --kim "<AD>" --kime "YILDIRIM BAYEZIT" --mesaj "TESLIM · ..."` —
 ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne istiyorum/öneriyorum + değişen dosyalar + commit.
 Uzun rapor → `denetim/<AD>-<tarih>.md` dosyasına, mesajda yalnız yolu. Mesajı
 `oturumlar/tahta.json`dan geri oku (uzunluğu tam mı).

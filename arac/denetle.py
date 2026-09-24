@@ -4328,7 +4328,7 @@ def main():
     # yarısı evren dışında olan bir corpus'ta mükerrer aranamazdı.
     # 🔴 TABAN ÖDENDİKÇE DÜŞÜRÜLECEK ve 0 hedefi TERK EDİLMEDİ. Kapatan iş:
     # her çifti tek tek oku, sahici olanı TEK maddeye indir, yanlış eşleşmeyi
-    # ölçüte öğret. Sahibi: koordinatör (1.MURAT). Bu satır bir sonraki
+    # ölçüte öğret. Sahibi: koordinatör (YILDIRIM BAYEZIT). Bu satır bir sonraki
     # ölçümde 114'ten KÜÇÜK değilse borç ödenmemiştir.
     BEKLENEN_MUKERRER = 114
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
