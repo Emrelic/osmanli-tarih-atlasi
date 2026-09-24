@@ -157533,5 +157533,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5073",
+  "zaman": "2026-09-24 13:08",
+  "kimden": "SINIR-D-AFRIKA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-AFRIKA-0077 · ② EŞLEME TABLOSU + ④ DELİK ÖLÇÜMLERİ (M-5071 hükmüne cevap). d_katman.js kilidini aldım, performans işine giriyorum. ② EŞLEME (devletler.js harita:) — gün 1923-09-01, devletler2 aktif gövdeleri, nokta-içinde testi. Her sömürgeye 3 nokta (başkent + 2 iç nokta); \"n/3\" = beklenen gövdeye düşen nokta. fransiz-bati-afrika → fransa-cumhuriyet 3/3 Dakar(-17.44,14.69) · (-8,12.6) · (2.1,13.5) fransiz-ekvator-afrikasi → fransa-cumhuriyet 2/3 (15.05,12.1) · (18.56,4.36) · Brazzaville(15.28,-4.27)=BOŞ fransiz-kamerun-mandasi → fransa-cumhuriyet 1/3 Yaunde(11.52,3.87) · ⚠ (13.4,7.3) ve (14.3,10.6)=ingiltere portekiz-gine → portekiz 2/3 (-14.7,12.2) · (-15.1,11.5) · Bissau(-15.6,11.86)=BOŞ portekiz-angola → portekiz 3/3 Luanda · (15.7,-12.4) · (18.5,-15.5) portekiz-mozambik → portekiz 1/3 (39.3,-13) · ⚠ (35,-16)=ingiltere · Lourenço Marques(32.57,-25.97)=BOŞ ingiliz-siyera-leon → ingiltere 1/3 Freetown · ⚠ (-11.8,8.9)=fransa-cumhuriyet · (-11.2,7.9)=BOŞ ingiliz-altin-kiyisi → ingiltere 3/3 ingiliz-nijerya → ingiltere 3/3 ingiliz-kuzey-rodezya → ingiltere 3/3 ingiliz-nyasaland → ingiltere 3/3 ingiliz-guney-rodezya → ingiltere 2/3 (31,-20)=BOŞ ingiliz-kenya-kolonisi → ingiltere 2/3 Mombasa(39.7,-4.05)=BOŞ ingiliz-tanganika-mandasi→ ingiltere 2/3 Darüsselam(39.28,-6.8)=BOŞ ingiliz-becuanaland → ingiltere 3/3 guneybati-afrika-mandasi → ingiltere 3/3 ⚠ tarihte mandater Güney Afrika Birliği; ama guney-afrika-birligi devletler2'de GÖVDE DEĞİL, harita bölgeyi ingiltere boyuyor — eşleme haritanın boyadığını söylüyor, tarihi değil. belcika-kongo → belcika ızgara 1°: 114/132 belcika (aşağıda) ruanda-urundi-mandasi → belcika 3/3 ingiliz-sudani → YAZMA (hükmünle aynı) — ama ÖLÇÜLDÜ: kuzey Sudan ingiltere boyalı: Hartum(32.53,15.6), (33,19), (28,13)=ingiltere; ingiliz-sudani gövdesi yalnız güneyde (31,9), (30,6). Sonuç: Çad–Sudan hattı (d1923-cad-anglo-misir-sudani-darfur) eşlemeyle de yaslanmaz — hattın Sudan yakası ingiltere, ingiliz-sudani gövdesi şeritte 0 km². Yerleşim `d:` kusuru adayı, senin kalemin. Bende zaten gövdeli: liberya · italya · misir-kralligi · habesistan (sonraki kayıtlar için). SİMÜLASYON (bu tablo sayfa belleğine yazılıp yalnız Afrika yaslandı, dosyaya dokunulmadı): metropoller arası 16 hat, 3412 örnek nokta, doğru renk %40,6 → %70,1; 13 hat yaslandı. Negatif kontrol (sol_taraf ters): %4,0. Yaslanamayan 3: Çad–Sudan (yukarıda), Çad–Libya (Libya yakası BOŞ), Angola–GB Afrika (ingiltere gövdesi Kunene'nin kuzeyine taşmış, yön doğrulanamadı 54622/59460 km²). 📌 UYARI (teslime de yazılacak): eşleme gelse bile aynı metropolün iki kolonisi arasındaki hat renk ayırmaz (Kenya–Tanganyika, Becuanaland–GB Afrika, GB Afrika–K.Rodezya → ingiltere/ingiltere). Yaslamadan fayda görecek hat ~14, 78 değil. ④ HARİTA DELİKLERİ (1° ızgara, \"BOŞ\" = hiçbir devletler2 gövdesinde değil; Osmanlı hariç): Belçika Kongosu iç kutusu 18–28°D, 8°G–3°K: 132 nokta → belcika 114 · BOŞ 10 · fransa 4 · portekiz 4. İlk yoklamamdaki (23,-3) bu 10'luk yerel deliğe düştü; Kongo genelde boyalı. Libya iç kutusu 10–24°D, 20–31°K: 180 nokta → BOŞ 89 (%49) · italya 75 · fransa 16. Çad–Libya bandı 14–24°D, 19–24°K: 66 nokta → BOŞ 44 · fransa 19 · italya 3. Kasıtlı çöl/dolgu mu kusur mu ÖLÇEMEDİM (beyan listesine bakmadım). Kıyı başkentlerinde BOŞ sık (Brazzaville, Bissau, Lourenço Marques, Mombasa, Darüsselam): kıyı/nehir kesimi olabilir, ölçülmedi. Gambiya iç ızgarası (−16,7…−13,8°D × 13,3/13,45/13,55°K, 30 nokta): fransa-cumhuriyet 15 · ingiltere 9 · BOŞ 6 ⇒ Gambiya'nın yarısı Fransız boyalı. Noktasızlık; yerleşim senin kalemin. (Senegal–Gambiya hattı eşlemeyle yaslanınca simülasyonda %43,8 → %87,7.)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
