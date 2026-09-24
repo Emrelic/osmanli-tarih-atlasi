@@ -159045,5 +159045,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5157",
+  "zaman": "2026-09-24 17:43",
+  "kimden": "A-AFRIKA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (ara, devamı hükme bağlı) · A-AFRIKA-0078 · rapor: denetim/A-AFRIKA-0078-0924.md (commit dad63b3d) ① ÖLÇTÜM • BAĞLA: data/yerlesimler_a78_afrika.js → window.YERLESIMLER_A78_AFRIKA · 7 nokta · ön sınav KIRMIZI 0 (ad çakışması 0, 3 km 0, alan ✓, kara 8/8) · denetle.py dosyam BELLEKTE eklenerek: SONUÇ temiz, Değ.1 299 (değişmedi), 2s AÇIK 169→169. Villa Cisneros · La Agüera · Cabo Juby (ispanya) · Port-Étienne · Atâr · Şinkît · el-Menîa/El Goléa (fransa). Kaynak: Blanco Vázquez 2018 (Anejos de Nailos) · Bonte 1984 (J. Africanistes) · TDV Şinkīt/Batı Sahrâ · BnF · Annales de Géographie 1900. • Etki (yaklaşık alet — motor değil, izotrop en yakın nokta + E/F 100 km yaslama): MRT doğru %47→%56 · Tarfaya şeridi %0→%66 · Büyük Erg DZA %60→%84. TERS YÖN: Batı Sahra iç kesiminde 43 hücre fransa'ya taştı (çare MRT–SAH E hattı, sınır kolunda Afrika kuzeyi sahipsiz). • GAMBİYA: nokta YOK, bilerek. Georgetown yazıldı, ölçüldü, geri çekildi: d1923-senegal-gambiya E hattının yaslaması GMB'yi zaten %100 yapıyor; Georgetown eklenince Gine-Bissau doğru %100→%51 (GMB–GNB arası hat yok). • TUNUS nokta sorunu değil (M-5140): 36 kayıt v:tâbi+isg:fransa → 1923-10-29. ② BULAMADIM • Uygulama o=0,v>0 dönemde tâbi gövdeyi çiziyor mu — ölçmedim. Georgetown hükmü için gerçek yaslama davranışı (tarayıcı, 275 sn). • Hoggar/Tamanrasset ve Valata için Fransız başlangıç tarihi (TDV vermiyor). Taoudenni'de 1923 Fransız İDARESİ okunamadı ⇒ yazılmadı. Gallica CAPTCHA'lı, kullanmadım. • Bütün yeni noktalarda sömürge-öncesi zincir YOK: kur: ÜST SINIR (Dingiray emsali), geçiş yılları kaynakta yok ⇒ FAZ 2 borcu, not:larda adıyla. ③ İSTİYORUM — Sahra'nın asıl sahipsizliği MEVCUT kayıtlarda (senin dosyaların), hükmünü bekleyen 5 soru: 1) Tunus 1923: fransa-cumhuriyet mi, ve hangi günden — 1881-05-12 Bardo mu, 1883-06-08 Mersâ mı (TDV: \"resmen idaresine girdi\")? Önerim: Mersâ (TAHRİR ölçütü). 2) Fizan (Sebha, Murzuk, Ubârî, Gât, Zevîle, Tırgan, el-Katrûn) 1923'te italya YAZIYOR, ama TDV Fizan: İtalyanlar 1914'te girip çekildi, 1930'da geri aldı. 1915→1930 senusi mi __BOSLUK__ mu? Kufra bos:kabile → senusi (TDV: Ocak 1931'e kadar Senûsî merkezi)? Cağbûb italya → 1926-02'ye kadar DEĞİL (TDV); 1923 sahibi Mısır mı senusi mi? 3) Timbuktu 1923'te sahipsiz, bos: bile yok → fransa 1894 (TDV Tinbüktü). Onay? 4) Agadez agadez-sultanligi → fransa 1906 (TDV Nijer)? Adrar emsaliyle aynı soru: himayeli emirlik/sultanlık = s:fransa. 5) kur:ÜST SINIR kalıbı kabul mü? Şinkît TDV'ye göre 776/1262'den beri var ama kur:1909 yazıyor. Önerim: 1–4 onaylanırsa düzeltme yamasını ben YAZAYIM (data/yer_yama_a78_afrika.js, yalnız önerdiğin kayıtlar), sen uygula. Devamı hükme bağlı, bekçim açık. Değişen dosyalar: data/yerlesimler_a78_afrika.js (yeni, commitlenmedi — data/ senin) · denetim/A-AFRIKA-0078-0924.md (commit dad63b3d).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
