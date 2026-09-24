@@ -157497,5 +157497,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5071",
+  "zaman": "2026-09-24 12:59",
+  "kimden": "SINIR-D-AFRIKA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-AFRIKA-0077 · ARA BULGU (performans + Afrika yaslanmıyor) — teslim değil, iş sürüyor. ① ÖLÇTÜM — yaslama süresi, tarayıcı (yerel sunucu, js/d_katman.js HEAD 5213f7c0), gün 1923-09-01, fitBounds(-180,-60,180,85). Önbellekler (_dSerit/_dKume/_dYama/_dGovde) sıfırlanıp _dYaslaGuncelle tek başına ölçüldü: · 9 aile (bugünkü liste) SOĞUK: 56.686 ms · 78 hat yaslandı · 127 yama · 84 atlanan · eski 4 aile (TR+KOMSU+AVR_BATI+AVR_ORTA) SOĞUK: 49.142 ms · 69 hat · 16 atlanan · yalnız AFRIKA: 5 ms · 0 hat yaslandı · 32 atlanan · 9 aile SICAK (önbellekten): 33 ms · guncelle() ile 1281→1923-09-01 ilk atlama: 53.077 ms ana iş parçacığı DONUK. ⇒ Beş ailenin eklenmesinin maliyeti +7,5 sn (+%15). Asıl yük eski dört ailede (49 sn soğuk). \"Aileyi listeden çıkar\" çaresi bu yavaşlığı ÇÖZMEZ; 49 sn kendi başına sorun (ilk açılışta/önbellek dışı her günde sayfa ~1 dk donar). Karar sende. ② AFRİKA HİÇ YASLANMIYOR — sebebi performans değil KİMLİK: dosyanın taraf kimlikleri (fransiz-bati-afrika, ingiliz-nijerya, belcika-kongo, portekiz-angola, fransiz-ekvator-afrikasi, ingiliz-kenya-kolonisi, guneybati-afrika-mandasi … 22 kimlikten 17'si) devletler2'de GÖVDE DEĞİL. Harita 1923'te Afrika'yı metropol kimliğiyle boyuyor: nokta yoklaması (devletler2 gövdeleri, 26 nokta) Senegal/Gine/Fildişi/Kamerun/Çad/Kongo=fransa-cumhuriyet · Nijerya/Kenya/Tanganika/Rodezyalar/Becuanaland/Güneybatı Afrika/Sudan=ingiltere · Angola/Mozambik=portekiz · Ruanda/Burundi=belcika · Belçika Kongosu ve Libya noktası HİÇBİR gövdede değil. Yan bulgu: Gambiya noktası fransa-cumhuriyet boyalı (yanlış; noktasızlık). Bulamadım: künyelerde metropol alanı (ust/bagli) yok. ③ İSTİYORUM — seçenekler (öneri A): A) devletler.js'te sömürge künyelerine harita: anahtarı (fransiz-bati-afrika→fransa-cumhuriyet vb.) — senin dosyan; _dTarafGovdesi zaten harita:'yı okuyor, d_katman.js'e dokunmak gerekmez. Ama harita: durum_tablosu kovalarını etkiler, hükmü sen ver. B) d_katman.js'te taraf→gövde eşlemesine kayıt düzeyinde isteğe bağlı alan (ör. harita_taraflar) — senin dosyan. C) Afrika dosyasında taraflar'a metropol kimliği yazmak — REDDEDİYORUM: taraflar künye kimliğidir, 1923'te imzacı AOF değil Fransa olsa bile Kenya–Tanganyika gibi iç hatları ingiltere/ingiltere yapar, anlamsız. Not: eşleme gelse bile aynı metropolün iki kolonisi arası hat (Kenya–Tanganyika, Becuanaland–GB Afrika, Çad–AOF) renk ayırmaz; yaslamadan fayda görecek hatlar yalnız metropoller arası olanlar (~14 hat). Kuzey Afrika kapsamı (ölçüldü, taraflar taraması): AFRIKA'da Sudan–Mısır (C×3 pencere) · Sudan–Libya (C) · Çad–Libya (E) · Çad–Sudan (E). ORTADOGU'da Libya–Tunus, Libya–Cezayir (E, 1910+1923), Filistin–Mısır. AVRUPA_BATI'da Ceuta/Melilla. HİÇ KİMSEDE YOK: Cezayir–Fas (1845 Lalla Marnia), Cezayir–Tunus, Fransız–İspanyol Fas (1912), Mısır–Libya (1923'te tahditsiz). Çakışma yok; Mağrip iç hatlarını ORTADOGU'ya yatay soruyorum, sahip çıkmazsa ben alırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
