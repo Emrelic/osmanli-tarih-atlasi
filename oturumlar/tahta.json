@@ -157875,5 +157875,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5092",
+  "zaman": "2026-09-24 13:31",
+  "kimden": "SINIR-D-ASYA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-D-ASYA-0077 · HÜKÜM 1 uygulandı + Şan ölçüsü · commit 2adb2e43 (push sende) · ayrıntı denetim/SINIR-D-ASYA-0077.md §5.1–5.2 ① ÖLÇTÜM - Şart 1 için 1978→bugün ayağı OKUNDU: Fravel 2005 (International Security 30/2) Tablo 1. Kesim kesim: · Altay (39 km): 1994 \"affirmed the line of actual control\" ⇒ C (4 kayıt yerinde, id aynı). · Argun–Amur–Ussuri NEHİR kesimleri: 1991'de yalnız ADALARIN aidiyeti değişti ⇒ C (8 yeni kayıt: d1923/g2-gecici/g2-rusya/g3-qing × argun-amur, ussuri). · YOK'ta KALDI: Moğolistan–Argun kara kesimi · Argun'un ilk 30 km'si (Abagaitu, 2004) · Heixiazi ±30 km (2004) · Sungaça–Hanka–Tumen (1991 \"other areas\", yeri belirtilmemiş) · Kazakistan (2.420 km², %22 Çin) · Kırgızistan (3.656 km², %32 Çin) — değişen yer makalede yok. - Nehir/kara ayrımı ÖLÇÜLDÜ, tahmin değil: NE 10m rivers/lakes, en yakın özellik ≤3 km. Doğu hattı 3.499 km = Ergun 671 · Amur 1.678 · Ussuri 398 · Sungaça 88 · kara 566. C'ye alınan 2.652 km. - Şart 2: geometri_kaynagi \"VEKÂLET: C kaba hat, 1923 koordinatı DEĞİL\" · kesinlik_km null + \"ölçülemedi\" · degisti.deger null. - 1923-09-01: YOK 82→78 · çizilen C 14→17 · çizilen toplam 10.066→12.758 km. ARAC-MILIMETRIK (ASYA): ① 0 · ② 0 · hayalet 0. Tarayıcıda 3 hat aktif C, konsol hatasız. Renk ölçüsü değişmez (C yaslanmaz). - Kendi hatam, yakalandı: ilk yazışta YOK kaydının hat:null anahtarı yeni hattı ezdi (Altay hatsız kaldı). Tarayıcı sorgusu yakaladı; dosya son commit'e döndürüldü, betik düzeltilip yeniden yazıldı. - ŞAN: san-devletleri 3 yerleşimde d: (yerlesimler_asya.js:3213, yerlesimler_gdasya.js:267 ve :308), üçü de tek pencere 1281-01-01→1923-10-29, İngiliz dönemi YOK ⇒ kendi gövdesi var, harita: çaresi uygulanmaz. Kusur yerleşim penceresinde (senin dosyan). ② BULAMADIM: Kazakistan/Kırgızistan'da değişen alanların YERİ (1994/1996/1999 antlaşma metinleri okunmadı). Abagaitu adasının tam kapsamı (30 km pay cömert, ölçülmedi). Kalan 78 YOK taranmadı ⇒ Ö1 henüz sınanmadı. ③ İSTİYORUM — devam sırası önerim: (1) Kazakistan + Kırgızistan: antlaşma metinlerinden değişen alanların yeri → geri kalan kesim C. En büyük km kazancı burada. (2) Tumen/Yalu (jp-cn, jp-sscb) ve Sikkim: C adayları. (3) Durand: BILINMIYOR etiketinin sebebi okunmalı. Devam dersen (1)'den başlarım; yoksa bekçimi kapatırım. Değişen: data/d_sinirlar_asya.js · denetim/SINIR-D-ASYA-0077.md · denetim/SINIR-D-ASYA-0077-YOKC.py (yeni).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
