@@ -1069,6 +1069,19 @@ window.YERLESIMLER = [
 { ad:"Frankfurt", tur:"sehir", lat:50.110, lon:8.682, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Köln", tur:"sehir", lat:50.938, lon:6.960, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Dresden", tur:"sehir", lat:51.050, lon:13.738, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
+// ---- ORTA POLONYA + BOHEMYA/MORAVYA (24 Eylul 2026) — ARA NOKTALAR ----
+// Silezya noktalari inince 5 yeni 'sorgusuz enklav' dogdu; Degismez 7'nin
+// kendi beyani bunlarin ORNEKLEME ESERI oldugunu soyluyordu (Kattowitz+Krakov
+// ve Broumov+Jesenik adalari, aradaki toprakta nokta YOK diye kopuk).
+// Bu yedi nokta o boslugu dolduruyor. Zincirler Varsova ve Prag'dan BIREBIR
+// alindi ⇒ kirilma gunleri ayni, ayni kronoloji maddeleri kapatir.
+{ ad:"Łódź", tur:"sehir", lat:51.759, lon:19.457, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"prusya"},{f:"1806-11-28",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Częstochowa", tur:"sehir", lat:50.811, lon:19.121, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"prusya"},{f:"1806-11-28",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Kielce", tur:"sehir", lat:50.874, lon:20.628, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"prusya"},{f:"1806-11-28",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Radom (Polonya)", tur:"sehir", lat:51.403, lon:21.147, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"prusya"},{f:"1806-11-28",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Hradec Králové", tur:"sehir", lat:50.209, lon:15.833, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
+{ ad:"Olomouc", tur:"sehir", lat:49.594, lon:17.251, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
+{ ad:"Brno", tur:"sehir", lat:49.195, lon:16.608, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
 // ---- SILEZYA + SUDET (24 Eylul 2026) — A KATMANI DELIGI KAPATILDI ----
 // Olcum: Prag (14.42D) ile Krakov (19.95D) arasi 49,5-51,5 kusaginda SIFIR
 // nokta vardi (~400 km). Petek kurali geregi butun Silezya en yakin petege

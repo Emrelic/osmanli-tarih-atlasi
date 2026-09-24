@@ -129,8 +129,46 @@ Haritanın **tek elle yazılan kaynağı**. Bütün geometri buradan üretilir.
 | `s` | Yabancı sahip dönemleri. `d:` alanı devlet kimliği |
 | `d` | Doğrudan Osmanlı dönemleri |
 | `v` | Tâbi / dolaylı idare / işgal dönemleri. `k:` alanı serbest metin etiket |
+| `isg` | **İşgal dönemleri** — sahiplik DEĞİŞTİRMEZ, üstüne biner. `d:` işgal eden, `kaynak:` zorunlu. 238 kayıtta kullanımda; ölçütü aşağıda |
 | `kur` | Kuruluş tarihi. Öncesinde yerleşim yoktur |
 | `y` | Kazanım biçimi: `kusatma` \| `savas` \| `antlasma` \| `vassal` \| `ilhak` \| `miras` |
+
+### 🔴 `isg:` mi `s:`/`d:` mi — TAHRİR ÖLÇÜTÜ (Emre, 24 Eylül 2026)
+
+Emre'nin sorusu: *"ortaçağda işgal ile fethi, ülke ele geçirmeyi nasıl
+birbirinden ayıracağız? Orada ele geçirince senin oluyor."* Soru yerindeydi:
+işgalin sahiplikten **hukuken ayrı** bir hâl olması modern bir fikirdir; ondan
+önce almak = sahip olmaktır.
+
+Ama veri "işgal modern bir kavramdır" demiyor. Ölçüldü (24 Eylül 2026, 238
+kayıt, ilk işgal döneminin yılı):
+
+```
+en erken 1538 · medyan 1882 · en geç 1921
+15xx: 1   ·   17xx: 40   ·   18xx: 122   ·   19xx: 75
+```
+
+%83'ü 1800 sonrası, ama **41 kayıt 1500–1700'lere uzanıyor.** Yani atlas ayrımı
+erken dönemde de yapmış — 41 kez. Eksik olan pratik değil, **yazılı ölçüt**tü.
+
+**ÖLÇÜT — belgeye sorulur, yoruma değil:**
+
+| | yazılır |
+|---|---|
+| Ele geçiren orayı **kendi idaresine kattıysa** — kendi vergisini topluyor, kendi defterine giriyor, bir idarî birime bağlanıyorsa | **`s:` / `d:`** (sahiplik) — bu bir FETİHtir |
+| Ele geçiren orayı **kendi toprağı saymıyorsa**, eski sahibin iddiası sürüyorsa, devir geçici/askerî anlaşılıyorsa | **`isg:`** (işgal) |
+
+🔴 **Osmanlı için somut sınavı vardır: TAHRİR DEFTERİNE GİRDİ Mİ, bir sancağa
+bağlandı mı.** Girdiyse fetihtir. Bu ölçütün değeri belgeye dayanmasıdır:
+"tahrirde var mı" sorusunun cevabı kaynakta yazar, yorumda değil — ve bu
+`CLAUDE.md §4`ün kaynak disiplinine birebir oturur.
+
+⚠️ **Kaynak susuyorsa uydurulmaz.** Hangisi olduğu belgeden okunamıyorsa
+`bulunamadı` yazılır ve kayıt olduğu gibi bırakılır; ikisinden birini
+"muhtemelen" diye seçmek `D210`un sahte kesinlik yasağına girer.
+
+📌 **Mevcut 238 kaydın bu ölçüte karşı taranması YAPILMADI** — ölçüt bugün
+yazıldı, geriye dönük denetim ayrı bir iştir ve açık kalemdir.
 
 🔴 **`y:` sözlüğü 31 Temmuz'da ölçülerek düzeltildi — belge geride kalmıştı.**
 Eski satır dört değer sayıyordu (`vassal` ve `ilhak` yoktu); veri ve `js/app.js`
