@@ -146,8 +146,15 @@ def ceviri(ns, id_, a, b, f, kutu, degisti, dayanak, not_, t, hukuki):
           "d1923-br-gf": ("C: Oyapock talvegi + Tumuc-Humac su ayrımı (1900 kararı); işaretleme yok", 3.0),
           "d1923-bo-br": ("C: Petrópolis hattı; 1928 Natal düzeltmeleri (Rapirran–Bahia · Cuatro Hermanos–Verde · Madeira adaları) "
                           "kaymasının büyüklüğü ÖLÇÜLMEDİ", 5.0),
-          "d1923-hn-ni-DEGISTI-dogu": ("C: 1906 İspanya Kralı kararı Coco (Segovia) ırmağı · TARTIŞMALI: Nikaragua reddediyordu; "
-                                       "UAD 18 Kas 1960 kararı 1906 kararını geçerli ve bağlayıcı saydı", 3.0)}
+          # Koordinatör hükmü (YILDIRIM BAYEZIT, 24 Eyl 2026): C'de kalır, tartışmayı BEYAN eder.
+          "d1923-hn-ni-DEGISTI-dogu": ("🔴 1923'TE TARAFLAR ARASINDA İHTİLAFLIDIR — çizgi Honduras'ın dayandığı hattır, Nikaragua'nın kabul "
+                                       "ettiği hat DEĞİLDİR. Belge: İspanya Kralı hakem kararı (23 Ara 1906), Cabo Gracias a Dios – "
+                                       "Coco (Wanks/Segovia) ırmağı – Portillo de Teotecacinte. Taraflar önce kabul eder göründü; "
+                                       "Nikaragua sonra kararın tümden reddedildiğini ileri sürdü (IBS 36 s.5; ret YILI bu kaynakta "
+                                       "YOK) ve ihtilaf İkinci Dünya Savaşı öncesinde tahkim girişimleriyle sürdü. Kararın "
+                                       "uygulanmasına Uluslararası Adalet Divanı 18 Kas 1960'ta hükmetti — atlas penceresinden 37 "
+                                       "yıl SONRA; 1923 için bir onay sayılmaz. C sınıfı belgenin geçerliliğini değil, "
+                                       "koordinatın kabalığını söyler", 3.0)}
     n, kes = ek[id_]
     cift = {"d1923-co-ve": "COL-VEN", "d1923-br-gf": "BRA-FRA", "d1923-bo-br": "BOL-BRA"}
     parca = ns["cizgi"](cift[id_]) if id_ in cift else ns["parcala"](ns["hn"], lambda c: c[0] > ns["TEOTECACINTE"][0])

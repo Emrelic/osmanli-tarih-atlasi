@@ -58,7 +58,10 @@ dediği kesim C'ye alınmadı, YOK kutusu olarak bırakıldı:
 - **rio-grande** f 1848-05-30 (onay) · Chamizal kutusu çıkarıldı. **colorado** f **1854-06-30**: 1848 hattı bu
   kesimde nehir değildi, nehir kesimini Gadsden md. I tanımladı.
 - **hn-ni-dogu** TARTIŞMALI olduğu hâlde C'ye alındı. Gerekçe: UAD 1960 kararı 1906 hakem kararını geçerli ve
-  bağlayıcı saydı. ⚠️ Bu bir hükümdür; koordinatör reddederse tek satır geri alınır (YUK kümesinden çıkarılır).
+  bağlayıcı saydı. **Koordinatörün hükmü (24 Eyl): C'de kalıyor, ama kayıt ihtilafı beyan ediyor.** `not` alanı
+  "1923'TE TARAFLAR ARASINDA İHTİLAFLIDIR" diye açılıyor; 1906 kararını, Nikaragua'nın reddini ve UAD 1960
+  hükmünü ("pencereden 37 yıl sonra, 1923 için onay sayılmaz") yazıyor. Ret yılı IBS 36'da **yok**; koordinatörün
+  verdiği 1912 DOĞRULANMADI, kayda yazılmadı.
 
 TARTIŞMALI ya da belgesiz olup YOK kalanlar: ec-pe · bo-py-chaco · gt-hn · gt-sv · hn-sv · cr-pa · ht-do · co-pe ·
 co-ec-dogu · labrador · chamizal · gy-sr · ar-uy · cl-pe-tacna-arica · br-py-paraguay-nehri · ar-py-pilcomayo ·
