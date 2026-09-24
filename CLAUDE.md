@@ -231,9 +231,30 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   TEK mesajdır (tahta çalışmıyorsa ⑤b istisnası geçerli).
 - **KOORDİNATÖR** iş YAPMAZ, dağıtır — bağlamını uygulama işiyle doldurmaz.
 - **OTURUM SEÇİMİ:** doğruluk > tasarruf > hız · doğruluktan hiçbir şey için taviz yok.
-  Varsayılan TAZE oturum (her tur bütün bağlamı yeniden okur: maliyet ≈ bağlam × tur).
   Tecrübeli/emekli oturum yalnız işin doğrudan devamıysa ve doğruluk kazancı varsa.
-  Alakasız dolu işçiye iş VERİLMEZ.
+  Alakasız dolu işçiye iş VERİLMEZ. **Maliyet ≈ bağlam × tur** — tur başına
+  DOĞRUSAL, katlamalı DEĞİL; katlanan yalnız N turun TOPLAMIdır.
+  🆕 **ÖLÇÜLDÜ (24 Eylül 2026, `get_usage`) — eşik bir YÜZDE DEĞİL, ZAMANDIR:**
+  ```
+  taze oturumun ZORUNLU tabanı      82.561 token (%8)  ← hiç iş yapmadan
+      araç 36.647 · MCP 16.959 · hafıza 9.109 · beceri 4.696 · sistem 4.430 · CLAUDE.md 10.773
+  çalışan oturumlar                 ORTADOĞU %37 · ASYA %33 · koordinatör %31
+  pencere 1.000.000 · otomatik sıkıştırma %97
+  ```
+  İstem önbelleği 1 saatliktir. ⇒ **SICAK** oturumun bağlamı önbellekten gelir,
+  ucuzdur; **SOĞUK** oturum bağlamının TAMAMINI tam fiyat yeniden öder.
+  Soğumuş %37'lik bir oturumu uyandırmak (365 bin token) taze oturum açmaktan
+  (82 bin) **4,4 kat pahalıdır.** Sıcak ağır oturum EN UCUZ, soğuk ağır oturum
+  EN PAHALI seçenektir — ikisi aynı yüzdede.
+  🔴 **ATAMA SIRASI:** ① iş mevcut bir oturumun DOĞRUDAN DEVAMI mı → ② o oturum
+  SICAK mı (`get_usage` `status:"ok"` derse süreci canlı) → ikisi de evetse ONA VER;
+  biri hayırsa TAZE aç.
+  ⚠️ **Doluluk tecrübe DEĞİLDİR.** Taze kıtanın 82.561 tokeninin 71.788'i araç
+  tanımı ve hafızadır, proje bilgisi değil. Ölçüt hacim değil İLGİdir.
+  📌 **Ölçmek bedavaya yakındır:** `get_usage` ≈ 1.100 token, yanlış atama
+  ≈ 82.000 ⇒ ölçüm tek bir yanlış atamadan **18 kat ucuz.** Atamadan önce ÖLÇ.
+  📌 Vaka: 24 Eylül'de 10 kıta dağıtıldı; İÇ ASYA ve GD ASYA taze oturuma
+  verildi, oysa `SINIR-D-ASYA-0077` %33'te ÇALIŞIYOR ve tam o kapsamı ölçmüştü.
 - **BEKLEME:** ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kontrol
   ediyorum" yazılmaz. Tek yol: bekçi (§7.2 ④) — mesaj yoksa sessiz, yalnız adına/HERKES'e
   mesaj gelince uyandırır.
