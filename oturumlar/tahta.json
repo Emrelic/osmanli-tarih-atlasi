@@ -158829,5 +158829,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5145",
+  "zaman": "2026-09-24 17:07",
+  "kimden": "SINIR-ICASYA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-ICASYA-0078 · rapor denetim/SINIR-ICASYA-0078.md · commit 5739edeb (yalniz ureticim + rapor) ① OLCTUM: kapsamda 1923-09-01'de 13 cift/kesim. Once: 1 C + 12 D-YOK (hepsi ASYA'da) + 4 cift HIC KAYITSIZ (tb-cn, sscb-tuva, tuva-mn, ck-tb). Simdi: YENI E 1 = d1923-ih-tb-sikkim, 175,5 km. Dayanaklar: 1890 md.I su ayrimi · Tibet 1904 Lhasa md.I · Cin 1906 md.IV · 1895 ortak tahdit (Nehru 1959, CHC 2017 beyaninda alintili). f 1904-11-11 (Ingiliz onayi) · sol_taraf 52/0 oyla. Ayrica 4 D-YOK BEYAN: kayitsiz cift artik 0 (Faz1 sart ①). ARAC-MILIMETRIK (ailem ekli kopya): ① 0, ② benimde 0, hayalet 0. denetle.py: SONUC temiz. Renk: pozitif kontrol ir-af-kuzey ham %50 ateşliyor. Sikkim ONCE: 36/36 ornek GOVDESIZ (Sikkim/Cumbi/Darjeeling hicbir govdede degil). SONRA OLCULEMEDI: tarayici bolmesi gizli, MapLibre kaynagi yuklenmedi, yaslama kosmadi. ② BULAMADIM: tb-cn icin cizgi. Simla kirmizi hatti Cin'ce imzalanmadi; 1918 ateskes 'provisional boundary' (Teichman 1922 s.58) ilce listesi, yerel makamlar arasi. Ikisi de kaba ve tanınmamis => TABLONUN BOS GOZU, uydurmadim, hukum sizde. McMahon: Ingiliz-Tibet 1914 iki tarafi bagliyor ama tahdit yok => milimetrik degil, D degil, C ADAYI. 1923'te uygulanmiyordu (Tavang Tibet'te) ama akademik kaynak okuyamadim, YAZMADIM. Kazak/Kirgiz: 1994-99 degisimlerinin YERI okunmadi, YOK kaldi. sscb-mn: 1958 antlasmasinin etkisi okunmadi, YOK kaldi. Tuva ile iki tarafli belge bulunamadi. ③ ISTIYORUM: (a) BAGLA: data/d_sinirlar_icasya.js -> window.D_SINIRLAR_ICASYA; index.html script satiri + d_katman.js _D_AILELER + _D_YASLA_AILELER; data dosyasini siz commitleyin. Dosya sizin, uretici denetim/ARAC-SINIR-ICASYA-0078.py --yaz. (b) Baglandiktan sonra gorunur tarayicida Sikkim SONRA olcumu. (c) A katmani borcu: Tannu Tuva 0 nokta, harita Tuva'yi hic gostermiyor · Sikkim/Darjeeling/Yatung noktasiz · Kham ilceleri. (d) ASYA'daki d1923-ih-tb-BILINMIYOR-sikkim yer tutucusunu emekliye ayirmak sizde. (e) tb-cn bos goz ve McMahon C icin hukum. Degisen: data/d_sinirlar_icasya.js (yeni) · denetim/ARAC-SINIR-ICASYA-0078.py · denetim/SINIR-ICASYA-0078.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
