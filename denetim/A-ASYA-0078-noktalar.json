@@ -1,0 +1,2380 @@
+[
+ {
+  "_baslik": "// =====================================================================\n// A-ASYA-0078 — 1923 A KATMANI: YUNNAN GB · PAMİR · BORNEO · TİMOR · SAHALİN NOKTALARI\n// (24 Eylül 2026 · şartname oturumlar/BITIR-1923-0078.md §3.2 · koordinatör YILDIRIM BAYEZIT)\n//\n// AD ALANI (§7): data/yerlesimler_a78_asya.js → window.YERLESIMLER_A78_ASYA\n// 🔴 arac/girdi.py GIRDI_DOSYALARI'na BAĞLI DEĞİL — koordinatör ekler.\n//\n// ÜRETİLİR, ELLE YAZILMAZ: py denetim/A-ASYA-0078-uret.py --yaz\n//   girdi  denetim/A-ASYA-0078-noktalar.json · ölçü denetim/A-ASYA-0078-olc.py\n//   sınav  künye var mı · künye penceresi · renk · ters/sıfır/çakışma · kesintisizlik\n//          (kur|1281 → 1923-10-29) · her dönemde kaynak · ad (norm) · 3 km\n//\n// NİÇİN: 1923-09-01'de son üretimde bu kutuların kara hücrelerinin GÖVDESİZ oranı\n// Yunnan-GB %60,7 · Pamir %95,4 · Borneo %53,1 · Timor %27,4 · Sahalin %42,0.\n//\n// 🟡 __BOSLUK__ = künyesi olmayan yerel yönetim (Şugnan/Vahan mîrleri, Sintang, Yettişar,\n//   Pingnan kalıntısı 1873) — komşu künyeye İTİLMEDİ. tur:\"bolge\" = dolgu noktası, yerleşim\n//   iddiası taşımaz (kuruluş günü bulunamayan kıyı/iç bölgeler).\n// 🟡 1582 öncesi günler JÜLYEN (VERI-YAPISI §TAKVİM). Çin günleri 清史稿/明史 KAYIT günüdür.\n// 🟡 kuzey-yuan 1368-09-14 → 1382: Yunnan Liang prensi Kuzey Yuan'a bağlı; yuan-hanedani künyesi\n//   1368-09-14'te kapanıyor (Kunming/Dali emsali bu pencereyi AŞIYOR — koordinatöre bildirildi).\n// 🟡 Kuzey Borneo: künye yok (M-5141) — geçici `ingiltere`.\n// ====================================================================="
+ },
+ {
+  "ad": "Tengyue (Tengchong)",
+  "tur": "sehir",
+  "lat": 25.02,
+  "lon": 98.49,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Tengchong fu, Dali lu altında Yuan idaresi); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-04-07",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年閏二月癸丑 (Dali alındı, Jinchi teslim) — KAYIT günü, en geç sınır [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-04-07",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷3; bitiş Ming künye günü (Kunming emsali)"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-04-22",
+    "d": "guney-ming",
+    "kesinlik": "ay",
+    "kaynak": "清史稿 卷5 順治十六年閏三月 Yongchang–Tengyue alındı (saray kaydı 1659-06-13); ayın ilk günü, gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1659-04-22",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6 (Wu Sangui isyanı; Kunming emsaliyle aynı gün)"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6 康熙二十年十月二十八日 Kunming düştü (eyalet düzeyi) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1862-08-24",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷21 同治元年七月庚戌 'asiler Yongchang, Longling, Tengyue'yü aldı' — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1862-08-24",
+    "t": "1873-01-15",
+    "d": "pingnan",
+    "kaynak": "清史稿 卷21; bitiş pingnan künye günü (Dali'nin düşüşü)"
+   },
+   {
+    "f": "1873-01-15",
+    "t": "1873-08-02",
+    "d": "__BOSLUK__",
+    "kaynak": "清史稿 卷22 同治十二年閏六月丙戌 'Yunnan ordusu Tengyue'yü aldı' — KAYIT günü; arada Pingnan kalıntısı (künye penceresi dışı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1873-08-02",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷22; bitiş Kunming emsali — Tengyue ayaklanması 1911-10-27 (yalnız ipucu, Sutton 1980 okunmadı)"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42 (Burma–China Boundary, 1964): 1897–1900 tahdidinden sonra Tengyue Çin'de"
+   }
+  ],
+  "not": "Longling (55 km) ayrıca konmadı. Pingnan'ın 1873-01-15 sonrası kalıntı direnişi __BOSLUK__ yazıldı."
+ },
+ {
+  "ad": "Yongchang (Baoshan)",
+  "tur": "sehir",
+  "lat": 25.11,
+  "lon": 99.16,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Yongchang fu, Yuan); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-04-07",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年閏二月癸丑 (Jinchi teslim) — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-04-07",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷3; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-04-22",
+    "d": "guney-ming",
+    "kesinlik": "ay",
+    "kaynak": "清史稿 卷5 順治十六年閏三月 Yongchang alındı (kayıt 1659-06-13); gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1659-04-22",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1862-08-24",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷21 同治元年七月庚戌 — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1862-08-24",
+    "t": "1873-01-15",
+    "d": "pingnan",
+    "kaynak": "清史稿 卷21; Qing'in geri alış günü BULUNAMADI (Dali 1873-02-21 kaydı ile Tengyue 1873-08-02 arası) → pingnan künye günü devralındı, kaynaksız"
+   },
+   {
+    "f": "1873-01-15",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "başlangıç künye günü (kaynaksız, bkz. önceki dönem); bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42 — 1923'te Çin idaresinde (IBS'nin 1894 'Yung Chang Britanya'ya' cümlesi fiilî idareyle çelişiyor, kullanılmadı)"
+   }
+  ]
+ },
+ {
+  "ad": "Shunning (Fengqing)",
+  "tur": "sehir",
+  "lat": 24.58,
+  "lon": 99.93,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1327-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "明史 卷46: Yuan Shunning fu 泰定四年 (1327) kuruldu; öncesinde Yuan idaresi belgelenmedi — yerel reisler, künye yok [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1327-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "明史 卷46 泰定四年十一月 (yıl yazıldı); bitiş künye günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-04-14",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷46 洪武十五年三月庚戌 'fu olarak bırakıldı' [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-04-14",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-04-22",
+    "d": "guney-ming",
+    "kesinlik": "ay",
+    "kaynak": "清史稿 卷5 順治十六年閏三月 batı Yunnan seferi (Yongchang ile aynı sefer); Shunning'e özgü gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1659-04-22",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1858-05-17",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷20 咸豐八年四月庚戌 'Dali asileri Shunning'i aldı' — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1858-05-17",
+    "t": "1873-01-15",
+    "d": "pingnan",
+    "kaynak": "清史稿 卷20; bitiş pingnan künye günü (1858–73 kesintisiz Pingnan idaresi varsayım, kanıtlanmadı)"
+   },
+   {
+    "f": "1873-01-15",
+    "t": "1873-04-25",
+    "d": "__BOSLUK__",
+    "kaynak": "清史稿 卷22 同治十二年三月丁未 'Yunnan ordusu Shunning'i aldı' — KAYIT günü; arada Pingnan kalıntısı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1873-04-25",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷22; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ]
+ },
+ {
+  "ad": "Mianning (Lincang)",
+  "tur": "sehir",
+  "lat": 23.88,
+  "lon": 100.09,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Jingdong/Kainan bölgesi, Yuan) — zayıf belgeli; bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-03-16",
+    "d": "kuzey-yuan",
+    "kesinlik": "ay",
+    "kaynak": "明史 卷46 Jingdong 洪武十五年閏二月 (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-03-16",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46 (Mengmian 1430'da Jingdong'dan ayrıldı); bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali; Mianning'e özgü gün bulunamadı"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷74 (1747 Mianning ting); 清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "Pingnan işgali: başlangıç BULUNAMADI, geri alış 1870-04-19 (清史稿 卷22 同治九年三月乙酉 kaydı) — isg yazılmadı."
+ },
+ {
+  "ad": "Jingdong",
+  "tur": "sehir",
+  "lat": 24.45,
+  "lon": 100.83,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Kainan zhou, 1331 Jingdong fu); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-03-16",
+    "d": "kuzey-yuan",
+    "kesinlik": "ay",
+    "kaynak": "明史 卷46 洪武十五年閏二月 'bırakıldı' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-03-16",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali; Jingdong'a özgü gün bulunamadı"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "Pingnan işgali 1863-01-29 → 1864-04-22 (清史稿 卷21 kayıtları) — isg yazılmadı (Değişmez 2i evrenine yeni kırılma sokmamak için; aday)."
+ },
+ {
+  "ad": "Chuxiong",
+  "tur": "sehir",
+  "lat": 25.03,
+  "lon": 101.54,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Weichu Kainan lu); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-01-15",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年正月辛巳 'Weichu lu alındı' (Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-01-15",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷3; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali; Chuxiong'a özgü gün bulunamadı"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "Pingnan el değiştirmeleri (清史稿 卷21–22 kayıtları): geri alış 1864-04-22 · kayıp 1868-03-08 → geri alış 1869-11-19 · tekrar kayıp ? → 1870-12-05 — isg adayı, yazılmadı."
+ },
+ {
+  "ad": "Yuanjiang",
+  "tur": "sehir",
+  "lat": 23.6,
+  "lon": 101.99,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Yuanjiang lu); Yuan fethinin yılı bulunamadı; bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-04-14",
+    "d": "kuzey-yuan",
+    "kesinlik": "ay",
+    "kaynak": "明史 卷46 洪武十五年三月 'fu oldu' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-04-14",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "1659–60 Na reisleri isyanı: günler bulunamadı."
+ },
+ {
+  "ad": "Lin'an (Jianshui)",
+  "tur": "sehir",
+  "lat": 23.62,
+  "lon": 102.83,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Lin'an lu); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-01-16",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年正月壬午 'Yunnan yatıştı' (eyalet özeti, şehre özgü gün yok; Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-01-16",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷21 (1865: Lin'an eşrafı asilere katılmadı); bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ]
+ },
+ {
+  "ad": "Mengzi",
+  "tur": "sehir",
+  "lat": 23.37,
+  "lon": 103.38,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Lin'an lu altında); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-01-16",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-01-16",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6 (1889 antlaşma limanı); bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ]
+ },
+ {
+  "ad": "Kaihua (Wenshan)",
+  "tur": "sehir",
+  "lat": 23.37,
+  "lon": 104.25,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 (Lin'an altında Jiaohua); bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-01-16",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-01-16",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46 (Jiaohua beyliği Lin'an altında); bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷74 (1667 Kaihua fu — idarî dönüşüm, egemenlik değişimi değil)"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ]
+ },
+ {
+  "ad": "Ning'er (Pu'er)",
+  "tur": "sehir",
+  "lat": 23.06,
+  "lon": 101.04,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1729-01-01",
+    "d": "san-devletleri",
+    "kaynak": "Daniels, J. Siam Society 101 (2013) — Sipsongpanna ülkesi"
+   },
+   {
+    "f": "1729-01-01",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Daniels 2013: Qing 1729'da Mekong doğusundaki Sipsongpanna topraklarını bürokratik idareye kattı; 清史稿 卷74 Pu'er fu 1729; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "Alternatif kırılma 1659 (Yuanjiang'a bağlanma) / 1664 (Pu'er'de yardımcı vali) — 清史稿 卷74. Simao (40 km) ayrıca konmadı."
+ },
+ {
+  "ad": "Chiang Hung (Jinghong)",
+  "tur": "sehir",
+  "lat": 22.01,
+  "lon": 100.8,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1913-01-01",
+    "d": "san-devletleri",
+    "kaynak": "Daniels, J. Siam Society 101 (2013), Chronicle of Sipsòng Panna (Liew-Herres, Grabowsky & Wichasin 2012) incelemesi: 1180'de kurulan krallık, Çin ve Birmanya'ya çifte bağlılık; Mekong batısı 1729 ilhakı dışında (Kengtung emsaliyle tutarlı)"
+   },
+   {
+    "f": "1913-01-01",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Daniels 2013: 1913'te Ke Shuxun Chiang Rung'da 'resident commissioner' — Çin doğrudan denetimi; IBS 42: 1894 Londra Sözleşmesi'yle Britanya Kiang Hung iddiasından Çin lehine vazgeçti"
+   }
+  ],
+  "not": "Hükümdar ve bürokrasisi 1950'ye dek sürdü — 1923'e kadar san-devletleri seçeneği de savunulabilir; 1913 günü bulunamadı."
+ },
+ {
+  "ad": "Lijiang",
+  "tur": "sehir",
+  "lat": 26.87,
+  "lon": 100.23,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46; bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-04-07",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年閏二月癸丑 'Heqing, Lijiang boyun eğdi' (Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-04-07",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷3; bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali; Lijiang'a özgü gün bulunamadı"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-07-14",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6 康熙二十年 kaydı: asi general Heqing ve Lijiang'ı teslim etti [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"
+   },
+   {
+    "f": "1681-07-14",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6; bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "Pingnan el değiştirmeleri (清史稿 kayıtları): geri alış 1862-02-23 ve 1866-02-14 · Du Wenxiu yeniden aldı 1866-06-10 · son geri alış BULUNAMADI — isg yazılmadı."
+ },
+ {
+  "ad": "Lashio (Kuzey Hsenwi)",
+  "tur": "sehir",
+  "lat": 22.94,
+  "lon": 97.75,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "san-devletleri",
+    "kaynak": "Scott & Hardiman, Gazetteer of Upper Burma and the Shan States I.1 (1900) — Hsenwi Şan beyliği; 1887–88'de Britanya'ya boyun eğdi (gün bulunamadı). Kengtung emsali: Şan beylikleri 1923'e dek san-devletleri"
+   }
+  ],
+  "not": "Seçenek B: san-devletleri → 1888-01-01 (yıl) → ingiliz-hindistani. Sınır kayıtlarının tarafı ingiliz-hindistani, boyanan san-devletleri — koordinatör hükmü."
+ },
+ {
+  "ad": "Namkham",
+  "tur": "sehir",
+  "lat": 23.83,
+  "lon": 97.68,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "san-devletleri",
+    "kaynak": "Scott & Hardiman, Gazetteer I.1 — Kuzey Hsenwi'ye bağlı (Lt. Daly, ~1888); Kengtung emsali. IBS 42: yanındaki Namwan kiralık arazisi 1897 Pekin Anlaşması (onay 1897-06-05) ile Britanya'ya"
+   }
+  ]
+ },
+ {
+  "ad": "Horog (Khorog)",
+  "tur": "sehir",
+  "lat": 37.5,
+  "lon": 71.6,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ' — Şugnan mîrleri (Bedahşan'a genellikle tâbi), künye yok"
+   },
+   {
+    "f": "1883-01-01",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Iloliev, The Mirdom of Wakhān (UCA RP #12, 2021): Afgan hâkimleri 1883 Ağustos olaylarından sonra Şugnan-Rûşan'da. ÇELİŞKİ: EB1911 1882 · IBS 26 1884"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 / Iranica 'BOUNDARIES iii': 11 Mart 1895 İngiliz-Rus notaları; Iloliev 2021: sağ yaka Buhara'ya (fiilî devir günü BULUNAMADI)"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison, The Russian Conquest of Central Asia (CUP 2020) bl.10: 1905'te doğrudan Rus idaresi (hukuken Buhara'da kaldı)"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix' (GBAO 1925-01-02); 1918–20 fiilî denetim BULUNAMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Kala-i Vamar (Rûşan)",
+  "tur": "sehir",
+  "lat": 37.95,
+  "lon": 71.55,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ' — Rûşan mîrleri, künye yok"
+   },
+   {
+    "f": "1883-01-01",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Iloliev 2021 (bkz. Horog; yıl çelişkisi 1882/1883/1884)"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 · Iranica 'BOUNDARIES iii' · Iloliev 2021"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison (CUP 2020) bl.10"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix'"
+   }
+  ]
+ },
+ {
+  "ad": "İşkâşim (Pamir)",
+  "tur": "sehir",
+  "lat": 36.72,
+  "lon": 71.61,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-08-15",
+    "d": "__BOSLUK__",
+    "kaynak": "Iloliev 2021: Vahan/İşkâşim yerel mîrleri, Bedahşan'a sözde tâbi — künye yok"
+   },
+   {
+    "f": "1883-08-15",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kaynak": "Iloliev 2021 (Putyata 1884'ten): mîr 14/15 Ağustos 1883 gecesi Kal'a-i Pençe'den kaçtı, Afgan hâkimleri kuruldu"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 · Iloliev 2021 (sağ yaka İşkâşim Buhara'ya)"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison (CUP 2020) bl.10"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix'"
+   }
+  ],
+  "not": "Sağ yaka (Tacik) İşkâşim; Afgan yakasındaki kasaba 36°42'K 71°34'D (IBS 26). 1888-10 Ali Merdan'ın kısa dönüşü — isg adayı."
+ },
+ {
+  "ad": "Kala-i Pençe (Vahan)",
+  "tur": "kale",
+  "lat": 36.98,
+  "lon": 72.58,
+  "g": 0,
+  "k": 0,
+  "kur": "1775-01-01",
+  "s": [
+   {
+    "f": "1775-01-01",
+    "t": "1883-08-15",
+    "d": "__BOSLUK__",
+    "kaynak": "Iloliev 2021 (Bobrinskoy 1908'den): Mîr Cihan Han (h. 1740–1775) yaptırdı — kur ÜST SINIR; Vahan mîrliği, künye yok (1873 Granville–Gorçakov yalnız TANIDI)"
+   },
+   {
+    "f": "1883-08-15",
+    "t": "1923-10-29",
+    "d": "afganistan",
+    "kaynak": "Iloliev 2021 (Putyata 1884): 15 Ağustos 1883, Afgan garnizonu; 1895 sonrası sol yaka Afgan idaresinde"
+   }
+  ]
+ },
+ {
+  "ad": "Serhad (Vahan)",
+  "tur": "bolge",
+  "lat": 36.98,
+  "lon": 73.47,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-08-15",
+    "d": "__BOSLUK__",
+    "kaynak": "Iloliev 2021 — Vahan mîrliği, künye yok"
+   },
+   {
+    "f": "1883-08-15",
+    "t": "1923-10-29",
+    "d": "afganistan",
+    "kaynak": "Iloliev 2021 (Putyata 1884: Serhad kadısı Sarvar)"
+   }
+  ],
+  "not": "Dolgu noktası — doğu Vahan koridorunu bağlar."
+ },
+ {
+  "ad": "Kal'a-i Hum (Darvaz)",
+  "tur": "sehir",
+  "lat": 38.467,
+  "lon": 70.767,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1873-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ': Darvaz şahları bağımsız; 1834'ten ~10 yıl Hokand hâkimiyeti (Iranica 'CENTRAL ASIA vii') bitiş yılı çıkarım olduğu için YAZILMADI"
+   },
+   {
+    "f": "1873-01-01",
+    "t": "1920-09-02",
+    "d": "buhara",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'DARVĀZ': 1290/1873 Buhara'ya katıldı (alternatif: 1877-12 / 1878 ilkbahar — ipucu)"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1920-10-08",
+    "d": "__BOSLUK__",
+    "kaynak": "buhara künyesi 1920-09-02'de kapanıyor; emir Doğu Buhara'da 1921 başına dek direndi — künye penceresi dışı, komşuya itilmedi"
+   },
+   {
+    "f": "1920-10-08",
+    "t": "1923-10-29",
+    "d": "buhara-halk-cumhuriyeti",
+    "kaynak": "TDV 'TACİKİSTAN': Buhara Halk Sovyet Cumhuriyeti 8 Ekim 1920; Doğu Buhara 1924-10-14'te Tacik ÖSSC'ye"
+   }
+  ],
+  "not": "1921–22 Doğu Buhara büyük ölçüde Basmacı/Enver Paşa elinde (TDV) — isg adayı."
+ },
+ {
+  "ad": "Pamirski Post (Murgab)",
+  "tur": "kale",
+  "lat": 38.167,
+  "lon": 73.983,
+  "g": 0,
+  "k": 0,
+  "kur": "1893-01-01",
+  "s": [
+   {
+    "f": "1893-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "IBS 26 gazetteer (Post Pamirsky 38°10'K 73°59'D); kuruluş ÇELİŞKİ: Iloliev 2021 '1891, Şah Can adıyla, Albay Ionov' · diğerleri 1893 — 1893 yazıldı"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi' · IBS 64: 1895 anlaşmasıyla Vahan kuzeyi Rusya'ya; Pamir müfrezesi 1918'de dağıldı (Iloliev), 1918–20 fiilî denetim BULUNAMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Taşkurgan (Sarıkol)",
+  "tur": "sehir",
+  "lat": 37.775,
+  "lon": 75.228,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1759-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi' — Sarıkol yerel beyleri; Yarkent'e haraç kaydı var ama başlangıç/pencere BULUNAMADI, yarkent-hanligi/cungar'a itilmedi"
+   },
+   {
+    "f": "1759-01-01",
+    "t": "1865-01-01",
+    "d": "qing-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi': General Fu-de'nin müfrezesi, halk 'direnişsiz boyun eğdi' (1759 raporu)"
+   },
+   {
+    "f": "1865-01-01",
+    "t": "1878-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Iranica: Yakub Bey emirliği (Yettişar) 1282/1865, künye yok; 1877 sonunda Qing Tarım'ı geri aldı"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi'; bitiş Qing künye günü"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "Iranica: 1911 sonrası 'Pu-li' ilçesi"
+   }
+  ],
+  "not": "1879 başı Hâkim Han Töre Taşkurgan'ı aldı, Liu Jintang çıkardı (Iranica) — günler bulunamadı."
+ },
+ {
+  "ad": "Feyzâbâd (Bedahşan)",
+  "tur": "sehir",
+  "lat": 37.117,
+  "lon": 70.58,
+  "g": 0,
+  "k": 0,
+  "kur": "1479-01-01",
+  "s": [
+   {
+    "f": "1479-01-01",
+    "t": "1584-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'FAYŻĀBĀD': Kokça köprüsü 884/1479 (kur = İLK TANIKLIK, üst sınır; eski adı Cevzun). TDV 'BEDAHŞAN': 1505'ten Timurlu-Bâbürlü şehzadeleri (Nâsır Mirza, Süleyman Mirza) fiilen bağımsız — babur-imparatorlugu'na itilmedi"
+   },
+   {
+    "f": "1584-01-01",
+    "t": "1657-01-01",
+    "d": "buhara",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'BEDAHŞAN': Abdullah Han II 1584; Iranica 'FAYŻĀBĀD': Yârî mîrleri 1067/1657"
+   },
+   {
+    "f": "1657-01-01",
+    "t": "1859-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'FAYŻĀBĀD': Yârî mîrleri, Buhara'ya sözde bağlı; 1829 Kunduzlu Murad Bey yıktı"
+   },
+   {
+    "f": "1859-01-01",
+    "t": "1923-10-29",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'BEDAHŞAN': 1859 Dost Muhammed Han; Iloliev 2021 '1859 Afgan fethi'. Iranica: 1860'larda Afgan metbûluğunda özerk — doğrudan idare ~1873 olabilir"
+   }
+  ],
+  "not": "1645–47 Bâbürlü istilâsı (TDV) ve Ahmed Şah Dürrânî fethi 1182/1768 (Iranica) — isg/afgan-durrani adayı, bitişi bulunamadı, yazılmadı."
+ },
+ {
+  "ad": "Bintulu",
+  "tur": "liman",
+  "lat": 3.17,
+  "lon": 113.04,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor; Majapahit listesi egemenlik kanıtı sayılmadı"
+   },
+   {
+    "f": "1368-01-01",
+    "t": "1861-01-01",
+    "d": "brunei-sultanligi",
+    "kaynak": "IBS 45 (Indonesia–Malaysia Boundary, 1965) s.5"
+   },
+   {
+    "f": "1861-01-01",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kesinlik": "yil",
+    "kaynak": "IBS 45 s.5 'in 1861 at the Bintulu'; Bintulu Development Authority (resmî): 1861 Raca'ya devredildi"
+   }
+  ]
+ },
+ {
+  "ad": "Sibu",
+  "tur": "kale",
+  "lat": 2.29,
+  "lon": 111.83,
+  "g": 0,
+  "k": 0,
+  "kur": "1862-01-01",
+  "s": [
+   {
+    "f": "1862-01-01",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kesinlik": "yil",
+    "kaynak": "Sarawak Tourism Board 'A Look at Sarawak Forts': Fort Brooke 1862; IBS 45: Rejang 1853'te Sarawak'ta"
+   }
+  ]
+ },
+ {
+  "ad": "Kapit (Fort Sylvia)",
+  "tur": "kale",
+  "lat": 2.01,
+  "lon": 112.93,
+  "g": 0,
+  "k": 0,
+  "kur": "1880-01-01",
+  "s": [
+   {
+    "f": "1880-01-01",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kesinlik": "yil",
+    "kaynak": "Sarawak Tourism Board 'A Look at Sarawak Forts': kale 1880 (1925'te Fort Sylvia adı)"
+   }
+  ]
+ },
+ {
+  "ad": "Simanggang (Sri Aman)",
+  "tur": "kale",
+  "lat": 1.24,
+  "lon": 111.46,
+  "g": 0,
+  "k": 0,
+  "kur": "1864-01-01",
+  "s": [
+   {
+    "f": "1864-01-01",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kesinlik": "yil",
+    "kaynak": "Sarawak Tourism Board: Fort Alice 1864; IBS 45: Batang Lupar 1853 sınırının içinde"
+   }
+  ]
+ },
+ {
+  "ad": "Baram (bölge)",
+  "tur": "bolge",
+  "lat": 4.18,
+  "lon": 114.32,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor"
+   },
+   {
+    "f": "1368-01-01",
+    "t": "1882-06-13",
+    "d": "brunei-sultanligi",
+    "kaynak": "IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"
+   },
+   {
+    "f": "1882-06-13",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kaynak": "Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"
+   }
+  ],
+  "not": "Dolgu noktası (Marudi/Claudetown konumu; istasyonun kuruluş yılı bulunamadı)."
+ },
+ {
+  "ad": "Limbang",
+  "tur": "sehir",
+  "lat": 4.75,
+  "lon": 115.01,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor"
+   },
+   {
+    "f": "1368-01-01",
+    "t": "1890-01-01",
+    "d": "brunei-sultanligi",
+    "kaynak": "IBS 45 s.5"
+   },
+   {
+    "f": "1890-01-01",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kesinlik": "yil",
+    "kaynak": "IBS 45 'the Limbang in 1890'; Sarawak Hükûmeti Limbang e-kitabı s.26 'Pada tahun 1890' (17 Mart günü yalnız ipucu); Horton, JSEAS 'The Origins of the Limbang Claim'"
+   }
+  ],
+  "not": "1884–90 Limbang reislerinin Brunei'ye isyanı — egemenlik değişimi değil."
+ },
+ {
+  "ad": "Labuan (Victoria)",
+  "tur": "liman",
+  "lat": 5.28,
+  "lon": 115.24,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor"
+   },
+   {
+    "f": "1368-01-01",
+    "t": "1847-01-01",
+    "d": "brunei-sultanligi",
+    "kaynak": "IBS 45 s.5"
+   },
+   {
+    "f": "1847-01-01",
+    "t": "1907-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "IBS 45 s.5: Labuan 1847'de Britanya'ya (ÇELİŞKİ: devir antlaşması 18 Ara 1846, teslim 24 Ara 1846 — yalnız ipucu); 1848 taç kolonisi · enklav: ada koloni",
+    "enklav": true
+   },
+   {
+    "f": "1907-01-01",
+    "t": "1923-10-29",
+    "d": "ingiliz-malaya",
+    "kesinlik": "yil",
+    "kaynak": "1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parçası",
+    "enklav": true
+   }
+  ]
+ },
+ {
+  "ad": "Kudat",
+  "tur": "liman",
+  "lat": 6.8934,
+  "lon": 116.8463,
+  "g": 0,
+  "k": 0,
+  "kur": "1881-01-01",
+  "s": [
+   {
+    "f": "1881-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "İlk başkent 1881 (7 Ara 1881 yalnız ipucu); Kraliyet Şartı 1 Kasım 1881 · himaye 12 Mayıs 1888 (Sabah Başsavcılığı antlaşma metinleri, sagc.sabah.gov.my). KİMLİK GEÇİCİ: Kuzey Borneo künyesi yok (M-5141)"
+   }
+  ],
+  "not": "Koordinat denetle.py kara maskesi önerisiyle kıyıdan içeri çekildi."
+ },
+ {
+  "ad": "Sandakan (Elopura)",
+  "tur": "liman",
+  "lat": 5.8462,
+  "lon": 118.1115,
+  "g": 0,
+  "k": 0,
+  "kur": "1874-01-01",
+  "s": [
+   {
+    "f": "1874-01-01",
+    "t": "1878-01-22",
+    "d": "sulu-sultanligi",
+    "kesinlik": "yil",
+    "kaynak": "kur: Britannica 'Sandakan' 1874 (ÇELİŞKİ: Pryer'in Elopura'sı 1879 — ipucu); IBS 45 s.6: Sulu kuzeydoğu kıyısını tutuyordu"
+   },
+   {
+    "f": "1878-01-22",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "kaynak": "Sulu hibesi 22 Ocak 1878 (sagc.sabah.gov.my); Brunei de 29 Ara 1877'de Sandakan'ı Overbeck'e vermişti; Şart 1881. KİMLİK GEÇİCİ (M-5141)"
+   }
+  ],
+  "not": "Koordinat denetle.py kara maskesi önerisiyle kıyıdan içeri çekildi."
+ },
+ {
+  "ad": "Jesselton (Kota Kinabalu)",
+  "tur": "liman",
+  "lat": 5.9677,
+  "lon": 116.0899,
+  "g": 0,
+  "k": 0,
+  "kur": "1899-01-01",
+  "s": [
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Kota Kinabalu' (arama özeti; sayfa 403): Gaya adası istasyonu Mat Salleh'ce 9 Tem 1897'de yakıldı, yeni merkez 1899; Gaya körfezi hibesi 29 Ara 1877 (sagc). KİMLİK GEÇİCİ (M-5141)"
+   }
+  ],
+  "not": "Koordinat denetle.py kara maskesi önerisiyle kıyıdan içeri çekildi."
+ },
+ {
+  "ad": "Tawau kıyısı (bölge)",
+  "tur": "bolge",
+  "lat": 4.2575,
+  "lon": 117.8924,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1878-01-22",
+    "d": "__BOSLUK__",
+    "kaynak": "IBS 45 s.6: 19. yy'da Bulungan–Marudu arası kuzeydoğu kıyısı Sulu'nun; Sulu'nun buraya ne zaman hâkim olduğu BULUNAMADI — sulu-sultanligi'na itilmedi"
+   },
+   {
+    "f": "1878-01-22",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "kaynak": "Sulu hibesi 22 Ocak 1878, Sibuco ırmağına kadar (sagc.sabah.gov.my); 1891 İngiliz-Hollanda Sözleşmesi (20 Haziran 1891) sınırı 4°10'K. KİMLİK GEÇİCİ (M-5141)"
+   }
+  ],
+  "not": "Dolgu noktası — Tawau kasabasının kuruluş yılı akademik kaynakta bulunamadı (Goodlet 2010 okunmadı). Koordinat denetle.py kara maskesi önerisiyle kıyıdan içeri çekildi."
+ },
+ {
+  "ad": "Sintang",
+  "tur": "sehir",
+  "lat": 0.07,
+  "lon": 111.5,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1822-12-02",
+    "d": "__BOSLUK__",
+    "kaynak": "Sintang krallığı/sultanlığı — künye yok"
+   },
+   {
+    "f": "1822-12-02",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kaynak": "Firmansyah, 'Sejarah Kota Sintang dari 1822–1900-an', Historis 8(1) 2023: 2 Aralık 1822 geçici sözleşme (Sambas emsaliyle tutarlı: sözleşme günü)"
+   }
+  ],
+  "not": "IBS 45 s.5: Hollanda 1825'te (Cava Savaşı) bazı yerlerden çekildi — fiilî varlık kesilmiş olabilir."
+ },
+ {
+  "ad": "Kapuas Hulu (bölge)",
+  "tur": "bolge",
+  "lat": 0.84,
+  "lon": 112.93,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1895-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Yukarı Kapuas Dayak/Malay yönetimleri — künye yok; Sellato, A.W. Nieuwenhuis Across Borneo (1894–1994) s.3: Putussibau 1894'te var"
+   },
+   {
+    "f": "1895-01-01",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kesinlik": "yil",
+    "kaynak": "Boven Kapoeas alt bölgesi hükûmet kararı 11 Nis 1895 No.75, ilk kontrolör Westenenk (KalbarOnline'ın aktardığı — akademik teyit bulunamadı, YIL yazıldı)"
+   }
+  ],
+  "not": "Dolgu noktası (Putussibau konumu)."
+ },
+ {
+  "ad": "Samarinda",
+  "tur": "liman",
+  "lat": -0.5,
+  "lon": 117.15,
+  "g": 0,
+  "k": 0,
+  "kur": "1668-01-01",
+  "s": [
+   {
+    "f": "1668-01-01",
+    "t": "1908-01-01",
+    "d": "kutai",
+    "kesinlik": "yil",
+    "kaynak": "BPCB Kaltim (Endonezya kültür bakanlığı) 'Riwayat Kota Samarinda': 1668 Bugis-Wajo göçmenleri, Kutai sultanının izniyle (21 Oca günü tartışmalı)"
+   },
+   {
+    "f": "1908-01-01",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kaynak": "Tenggarong (Kutai) emsali — Samarinda aynı sultanlığın parçası; Black, 'The Lastposten' JSEAS 1985: Doğu Kalimantan'da Hollanda idaresi 1900 kararına dek sözde. Alternatif 11 Eki 1844 antlaşması (ipucu)"
+   }
+  ]
+ },
+ {
+  "ad": "Barito Hulu (bölge)",
+  "tur": "bolge",
+  "lat": -0.95,
+  "lon": 114.89,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1526-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "banjar-sultanligi künyesi 1526'da başlıyor"
+   },
+   {
+    "f": "1526-01-01",
+    "t": "1860-06-11",
+    "d": "banjar-sultanligi",
+    "kaynak": "IBS 45 s.4: yukarı Barito Bancar'a bağlı 'Dayak eyaletleri'"
+   },
+   {
+    "f": "1860-06-11",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kaynak": "IBS 45 s.5: sultanlık 1860'ta düşmüş ilan edildi, doğrudan Hollanda idaresi (Bancarmasin emsali günü); Muara Teweh kalesi 1864–65 (kültür bakanlığı notu)"
+   }
+  ],
+  "not": "Dolgu noktası (Muara Teweh konumu). Bancar/Barito direnişi 1859–1905 — egemenlik değişimi değil."
+ },
+ {
+  "ad": "Lifau (Oecussi)",
+  "tur": "liman",
+  "lat": -9.2056,
+  "lon": 124.3711,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1702-01-01",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları (Ambeno)"
+   },
+   {
+    "f": "1702-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Marques dos Santos (FD-ULisboa): 'em 1702 o primeiro governador português António Coelho Guerreiro se instalou' (Gunn 1695 der — ÇELİŞKİ); 1859 antlaşması md.2 'l'enclave d'Oikoussi demeure Portugaise'; 1914 hakem kararı (UN RIAA vol. XI 481–517 'Affaire de l'île de Timor' (1859 · 1893 · 1904 metinleri, 1914 hakem kararı)) Ambeno-Oecussi Portekiz · enklav: Portekiz'in Timor'daki deniz aşırı merkezi, 1859'dan sonra resmen Oecussi enklavı (RIAA XI)",
+    "enklav": true
+   }
+  ],
+  "not": "Portekiz merkezi 1769-08-11'de Dili'ye taşındı (yalnız ipucu); 1769–1859 Topass (da Costa/Hornay) yönetimi sözde Portekiz vasalı. Koordinat denetle.py kara maskesi önerisiyle düzeltildi."
+ },
+ {
+  "ad": "Noemuti",
+  "tur": "sehir",
+  "lat": -9.547,
+  "lon": 124.464,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1916-01-01",
+    "d": "portekiz",
+    "kaynak": "1859 antlaşması md.3: Noimuti Oikoussi enklavının parçası (RIAA XI); Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1916-01-01",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kesinlik": "yil",
+    "kaynak": "1904 sözleşmesi (onay 29.10.1908) Hollanda'ya bıraktı, teslim Oecussi ölçümüne ertelendi; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.100 'Noemuti, Dutch territory since 1916' (17 Ağu 1916 günü yalnız zayıf ipucu)"
+   }
+  ]
+ },
+ {
+  "ad": "Maucatar",
+  "tur": "sehir",
+  "lat": -9.237,
+  "lon": 125.235,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1916-01-01",
+    "d": "hollanda-dogu-hint",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1916-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "1904 sözleşmesi md.1 'Les Pays-Bas cèdent le Maucatar au Portugal' (RIAA XI); değişim 1916 (Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.101)"
+   }
+  ],
+  "not": "Suai'ye bitişik eski Hollanda enklavı."
+ },
+ {
+  "ad": "Atapupu",
+  "tur": "liman",
+  "lat": -9.0,
+  "lon": 124.86,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1818-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi kapanıyor; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: İngiliz ara döneminde (1812–16) Portekiz bayrağı — egemen günü BULUNAMADI"
+   },
+   {
+    "f": "1818-01-01",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kesinlik": "yil",
+    "kaynak": "Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: Resident Hazaart yeniden işgal etti (1818); s.70: 1890'ların sonunda Hollanda 'Hükûmet Toprağı' · enklav: Kupang'dan bağımsız liurai toprağıyla ayrılmış Hollanda karakolu (Farram s.55–56)",
+    "enklav": true
+   }
+  ],
+  "not": "Atambua (1910'da tanıklı, yol kasabası) yerine eski liman seçildi."
+ },
+ {
+  "ad": "Niki-Niki",
+  "tur": "sehir",
+  "lat": -9.823,
+  "lon": 124.471,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1923-10-29",
+    "d": "hollanda-dogu-hint",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   }
+  ],
+  "not": "Amanuban merkezi. Fiilî denetim alternatifi: Hollanda kolu 1906-06-14'te Niki-Niki'ye ulaştı (Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.79). Soe/Kefamenanu 1920'lerin yol kasabaları (Farram) — konmadı."
+ },
+ {
+  "ad": "Suai",
+  "tur": "sehir",
+  "lat": -9.249,
+  "lon": 125.362,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   }
+  ],
+  "not": "1911 sonunda Portekiz komutanı (ipucu)."
+ },
+ {
+  "ad": "Maliana",
+  "tur": "sehir",
+  "lat": -8.99,
+  "lon": 125.208,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   }
+  ],
+  "not": "Portekiz askerî karakol günü bulunamadı; 1908'de 15 askerî komutanlık (timor-leste.gov.tl)."
+ },
+ {
+  "ad": "Viqueque",
+  "tur": "sehir",
+  "lat": -8.809,
+  "lon": 126.322,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   }
+  ]
+ },
+ {
+  "ad": "Baucau",
+  "tur": "sehir",
+  "lat": -8.479,
+  "lon": 126.453,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   }
+  ],
+  "not": "1908 askerî üs (ipucu)."
+ },
+ {
+  "ad": "Lautém (Moro)",
+  "tur": "sehir",
+  "lat": -8.358,
+  "lon": 126.929,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1769-10-10",
+    "d": "timor-beylikleri",
+    "kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+   },
+   {
+    "f": "1769-10-10",
+    "t": "1860-08-23",
+    "d": "__BOSLUK__",
+    "kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   },
+   {
+    "f": "1860-08-23",
+    "t": "1923-10-29",
+    "d": "portekiz",
+    "kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"
+   }
+  ]
+ },
+ {
+  "ad": "Toyohara (Vladimirovka)",
+  "tur": "sehir",
+  "lat": 46.957,
+  "lon": 142.727,
+  "g": 0,
+  "k": 0,
+  "kur": "1882-01-01",
+  "s": [
+   {
+    "f": "1882-01-01",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 850: 1882 (adı Eylül 1882'de verildi)",
+    "kesinlik": "yil"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth antlaşması 5.9.1905 (Korsakov emsali; onaylar 25.11.1905, Karafuto-chō 31.3.1907 — Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+   }
+  ],
+  "not": "kur: Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 850: 1882 (adı Eylül 1882'de verildi)"
+ },
+ {
+  "ad": "Maoka (Kholmsk)",
+  "tur": "sehir",
+  "lat": 47.0371,
+  "lon": 142.0484,
+  "g": 0,
+  "k": 0,
+  "kur": "1870-06-03",
+  "s": [
+   {
+    "f": "1870-06-03",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "1855 Şimoda antlaşmasıyla Rus-Japon ortak/bölünmemiş ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC)) — tek künyeye yazılamaz"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC); devir/onay günü bulunamadı, Korsakov emsali)"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth antlaşması 5.9.1905 (Korsakov emsali; onaylar 25.11.1905, Karafuto-chō 31.3.1907 — Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+   }
+  ],
+  "not": "kur: Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 342: Mauka Rus karakolu 21 Mayıs 1870 eski üslup — kütüphanenin verdiği yeni üslup gün yazıldı (çeviri kaynağın) Koordinat denetle.py kara maskesi önerisiyle düzeltildi."
+ },
+ {
+  "ad": "Shikuka (Poronaysk)",
+  "tur": "sehir",
+  "lat": 49.222,
+  "lon": 143.102,
+  "g": 0,
+  "k": 0,
+  "kur": "1869-01-01",
+  "s": [
+   {
+    "f": "1869-01-01",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "1855 Şimoda antlaşmasıyla Rus-Japon ortak/bölünmemiş ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC)) — tek künyeye yazılamaz",
+    "kesinlik": "yil"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC); devir/onay günü bulunamadı, Korsakov emsali)"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth antlaşması 5.9.1905 (Korsakov emsali; onaylar 25.11.1905, Karafuto-chō 31.3.1907 — Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+   }
+  ],
+  "not": "kur: Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 207: Tihmenevski karakolu 9 Ağu 1869 eski üslup (kütüphane 22 Ağu diyor, hesap 21 Ağu — ÇELİŞKİ, yıl yazıldı)"
+ },
+ {
+  "ad": "Ochiai (Galkino-Vraskoye)",
+  "tur": "sehir",
+  "lat": 47.324,
+  "lon": 142.798,
+  "g": 0,
+  "k": 0,
+  "kur": "1884-01-01",
+  "s": [
+   {
+    "f": "1884-01-01",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 74: 1884",
+    "kesinlik": "yil"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth antlaşması 5.9.1905 (Korsakov emsali; onaylar 25.11.1905, Karafuto-chō 31.3.1907 — Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+   }
+  ],
+  "not": "kur: Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 74: 1884"
+ },
+ {
+  "ad": "Shiritoru (Makarov)",
+  "tur": "sehir",
+  "lat": 48.623,
+  "lon": 142.778,
+  "g": 0,
+  "k": 0,
+  "kur": "1892-01-01",
+  "s": [
+   {
+    "f": "1892-01-01",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 853: telgraf istasyonu Ekim 1892; 1920'de nüfus 698 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))",
+    "kesinlik": "yil"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth antlaşması 5.9.1905 (Korsakov emsali; onaylar 25.11.1905, Karafuto-chō 31.3.1907 — Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+   }
+  ],
+  "not": "kur: Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 853: telgraf istasyonu Ekim 1892; 1920'de nüfus 698 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+ },
+ {
+  "ad": "Esutoru kıyısı (bölge)",
+  "tur": "bolge",
+  "lat": 49.079,
+  "lon": 142.063,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "Ainu yurdu; 1855'ten 1855 Şimoda antlaşmasıyla Rus-Japon ortak/bölünmemiş ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC)) — tek künyeye yazılamaz"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC); devir/onay günü bulunamadı, Korsakov emsali)"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth antlaşması 5.9.1905 (Korsakov emsali; onaylar 25.11.1905, Karafuto-chō 31.3.1907 — Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC))"
+   }
+  ],
+  "not": "Dolgu noktası — Esutoru (Uglegorsk) kasabasının kuruluşu BULUNAMADI (belediye: 1905 sonrası Japon kuruluşu; 1920 nüfusu 636, Amano)."
+ },
+ {
+  "ad": "Rykovskoye (Kirovskoye)",
+  "tur": "sehir",
+  "lat": 50.707,
+  "lon": 142.727,
+  "g": 0,
+  "k": 0,
+  "kur": "1878-01-01",
+  "s": [
+   {
+    "f": "1878-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 1148: 1878 (Çehov da anar)"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Aleksandrovsk emsali. ⚠️ 1920-07-03 → 1925-05-15 JAPON İŞGALİ (FRUS 1921 II belge 656 · FRUS 1925 II belge 563) — isg YAZILMADI, koordinatöre bildirildi"
+   }
+  ]
+ },
+ {
+  "ad": "Onor",
+  "tur": "sehir",
+  "lat": 50.191,
+  "lon": 142.677,
+  "g": 0,
+  "k": 0,
+  "kur": "1892-01-01",
+  "s": [
+   {
+    "f": "1892-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 854: 1892"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Aleksandrovsk emsali. ⚠️ 1920-07-03 → 1925-05-15 JAPON İŞGALİ (FRUS 1921 II belge 656 · FRUS 1925 II belge 563) — isg YAZILMADI, koordinatöre bildirildi"
+   }
+  ]
+ },
+ {
+  "ad": "Tonghai",
+  "tur": "sehir",
+  "lat": 24.11,
+  "lon": 102.76,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-09-14",
+    "d": "yuan-hanedani",
+    "kaynak": "明史 卷46 通海: 'aslen Yuan Lin'an lu merkezi' (元臨安路治), Ningzhou'ya bağlı; bitiş künye günü"
+   },
+   {
+    "f": "1368-09-14",
+    "t": "1382-01-16",
+    "d": "kuzey-yuan",
+    "kaynak": "明史 卷3 洪武十五年正月壬午 'Yunnan yatıştı' (eyalet özeti, şehre özgü gün yok; Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)",
+    "enklav": true
+   },
+   {
+    "f": "1382-01-16",
+    "t": "1644-04-25",
+    "d": "ming-hanedani",
+    "kaynak": "明史 卷46 通海 洪武十五年三月 Lin'an fu'ya bağlandı; Ming fethi 明史 卷3 正月壬午 (Lin'an ile aynı); bitiş Ming künye günü"
+   },
+   {
+    "f": "1644-04-25",
+    "t": "1659-01-07",
+    "d": "guney-ming",
+    "kaynak": "gün komşudan: Kunming · atlas emsali"
+   },
+   {
+    "f": "1659-01-07",
+    "t": "1673-12-28",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1673-12-28",
+    "t": "1681-12-07",
+    "d": "san-fan",
+    "kaynak": "清史稿 卷6"
+   },
+   {
+    "f": "1681-12-07",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kaynak": "清史稿 卷21 (1865: Lin'an eşrafı asilere katılmadı); bitiş Kunming emsali"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "IBS 42"
+   }
+  ],
+  "not": "Bağlayıcı nokta: Kunming ↔ Lin'an/Yuanjiang/Mengzi arası 150 km'yi aşıyordu (Değişmez 7 A-koridor)."
+ },
+ {
+  "ad": "Gunt vadisi (bölge)",
+  "tur": "bolge",
+  "lat": 37.9,
+  "lon": 72.8,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ' — Şugnan mîrleri (Bedahşan'a genellikle tâbi), künye yok"
+   },
+   {
+    "f": "1883-01-01",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Iloliev, The Mirdom of Wakhān (UCA RP #12, 2021): Afgan hâkimleri 1883 Ağustos olaylarından sonra Şugnan-Rûşan'da. ÇELİŞKİ: EB1911 1882 · IBS 26 1884"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 / Iranica 'BOUNDARIES iii': 11 Mart 1895 İngiliz-Rus notaları; Iloliev 2021: sağ yaka Buhara'ya (fiilî devir günü BULUNAMADI)"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison, The Russian Conquest of Central Asia (CUP 2020) bl.10: 1905'te doğrudan Rus idaresi (hukuken Buhara'da kaldı)"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix' (GBAO 1925-01-02); 1918–20 fiilî denetim BULUNAMADI"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Şugnan'ın Gunt vadisi (Horog zinciri); Horog ↔ Murgab bağı."
+ },
+ {
+  "ad": "Karakul (Pamir, bölge)",
+  "tur": "bolge",
+  "lat": 39.0,
+  "lon": 73.55,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1893-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Doğu Pamir 1890'lara dek Qing/Hokand/Afgan iddialarının çekişme alanı (IBS 64: 'Chinese forces had occupied the Pamirs earlier but had abandoned the region under Afghan pressure in 1892') — egemen BULUNAMADI"
+   },
+   {
+    "f": "1893-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Pamirski Post ile aynı: Rus Pamir müfrezesi (1891/1893, Iloliev 2021 · IBS 26 · IBS 64); 1895 anlaşmasıyla Vahan kuzeyi Rusya'ya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix'"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Murgab ↔ Alay."
+ },
+ {
+  "ad": "Alay vadisi (bölge)",
+  "tur": "bolge",
+  "lat": 39.73,
+  "lon": 73.25,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1876-02-19",
+    "d": "__BOSLUK__",
+    "kaynak": "Alay Kırgızları — TDV 'HOKAND HANLIĞI' Alay'ı anmıyor; Hokand hâkimiyetinin başlangıcı BULUNAMADI, hokand'a itilmedi"
+   },
+   {
+    "f": "1876-02-19",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kaynak": "TDV 'HOKAND HANLIĞI': 'Fergana eyaleti adıyla Rusya'ya ilhak edilerek Türkistan genel valiliğine bağlandı (Şubat 1876)' — gün hokand künye gününden devralındı (TDV ay veriyor); fiilî Alay seferi 1876 yazı"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Fergana oblastı, Türkistan ÖSSC (Iranica 'CENTRAL ASIA ix')"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Karakul ↔ Oş (Rus Fergana gövdesi)."
+ },
+ {
+  "ad": "Niah kıyısı (bölge)",
+  "tur": "bolge",
+  "lat": 3.8,
+  "lon": 113.75,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1368-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor"
+   },
+   {
+    "f": "1368-01-01",
+    "t": "1882-06-13",
+    "d": "brunei-sultanligi",
+    "kaynak": "IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"
+   },
+   {
+    "f": "1882-06-13",
+    "t": "1923-10-29",
+    "d": "sarawak-brooke",
+    "kaynak": "Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Kidurong (1861 sınırı) ile Baram arası, 1882 devrinin içinde (IBS 45; Suffian Mansor)."
+ },
+ {
+  "ad": "Tomari kıyısı (bölge)",
+  "tur": "bolge",
+  "lat": 48.0,
+  "lon": 142.2,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "Ainu yurdu; 1855 Şimoda'dan Rus-Japon ortak ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1)) — tek künyeye yazılamaz"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1905-09-05",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1); Korsakov emsali)"
+   },
+   {
+    "f": "1905-09-05",
+    "t": "1923-10-29",
+    "d": "meiji-japonya",
+    "kaynak": "Portsmouth 5.9.1905, 50°K güneyi (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1); Korsakov emsali)"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Maoka ↔ Esutoru."
+ },
+ {
+  "ad": "Poronay yukarısı (bölge)",
+  "tur": "bolge",
+  "lat": 50.1,
+  "lon": 143.1,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "Ainu yurdu; 1855 Şimoda'dan Rus-Japon ortak ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1)) — tek künyeye yazılamaz"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1))"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Aleksandrovsk emsali; ⚠️ 1920-07-03 → 1925-05-15 Japon işgali (FRUS 1921 II 656 · FRUS 1925 II 563) — isg yazılmadı"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Shikuka ↔ Aleksandrovsk, 50°K kuzeyi."
+ },
+ {
+  "ad": "Nabil kıyısı (bölge)",
+  "tur": "bolge",
+  "lat": 51.8,
+  "lon": 143.0,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "Ainu yurdu; 1855 Şimoda'dan Rus-Japon ortak ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1)) — tek künyeye yazılamaz"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1))"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Aleksandrovsk emsali; ⚠️ 1920-07-03 → 1925-05-15 Japon işgali (FRUS 1921 II 656 · FRUS 1925 II 563) — isg yazılmadı"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Kuzey Sahalin iç/doğu gövdesiz alanı."
+ },
+ {
+  "ad": "Kuzey Sahalin (bölge)",
+  "tur": "bolge",
+  "lat": 52.9,
+  "lon": 142.9,
+  "g": 0,
+  "k": 0,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1875-05-07",
+    "d": "__BOSLUK__",
+    "kaynak": "Ainu yurdu; 1855 Şimoda'dan Rus-Japon ortak ada (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1)) — tek künyeye yazılamaz"
+   },
+   {
+    "f": "1875-05-07",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1))"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Aleksandrovsk emsali; ⚠️ 1920-07-03 → 1925-05-15 Japon işgali (FRUS 1921 II 656 · FRUS 1925 II 563) — isg yazılmadı"
+   }
+  ],
+  "not": "Dolgu/bağlayıcı nokta — Kuzey Sahalin gövdesiz alanı."
+ }
+]
