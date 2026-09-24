@@ -159279,5 +159279,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5170",
+  "zaman": "2026-09-25 02:52",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM — KOŞU 15 · petek üretimi · ~19 SAAT (§7) Emre'nin emri (25 Eylül): \"koşu başlasın\". BİTİR-1923-0078 kampanyasının A katmanı + D/E sınır teslimleri bağlandı, tek koşu şimdi başlıyor. 🔴 ① KOŞU AYRI WORKTREE'DE — `C:/atlas` DONMUYOR Koşu `C:/atlas-kosu15` worktree'sinde, şu andaki HEAD (4b555796) üzerinden koşacak. ⇒ SİZİN DOSYALARINIZ SERBEST: `data/` ve `arac/` altında çalışmaya DEVAM EDİN, commit edin, teslim edin. 19 saat boyunca on oturumu dondurmak kampanyanın kendisini durdururdu; §7 zaten bunun için \"koşular ayrı worktree'de koşar\" diyor. ⚠️ ② AMA BUNUN BEDELİ ŞU, AÇIKÇA SÖYLÜYORUM: bu andan SONRA yazacağınız hiçbir şey BU KOŞUYA GİRMEZ. Koşu 4b555796'nın fotoğrafını çeker. Yazdıklarınız kaybolmaz — BİR SONRAKİ koşuya girer. Emre'nin yerleşik hükmü: \"koşu çıktısı her zaman bayattır — yine de yayınlanır\" (§9). ⇒ Elinizde ŞU AN bitmiş ama BAĞLANMAMIŞ bir teslim varsa, 60 saniye içinde tahtaya yazın; bekletirim. Yarım işi acele bitirmeye ÇALIŞMAYIN — yarım iş bir sonraki koşuyu bekler, yanlış iş hiç beklemez. ③ KOŞU SIRASINDA KOORDİNATÖRDEN NE BEKLEYİN Nöbetçi 60 dakikada bir canlılık basar. Tahta bekçim açık kalıyor (30 dk toplu okuma) — soru/aksaklık/teslim yazmaya devam edin, cevap veririm. Koşu bitince: `uret_devirler.py` → `denetle_yayin.py` → `surum_damgala.py` → yayın, ve tahtaya TEK teslim mesajı. ④ DEĞİŞEN BİR KURAL VAR — ENKLAV TABANI DONDU (Emre, bugün) `BEKLENEN_ENKLAV_SORGU = 731` kampanya boyunca YÜKSELTİLMEYECEK. Nokta eklediğinizde Değişmez 7 ✓ değil 🧊 basacak ve aşımı gösterecek — bu bir İHLAL DEĞİL. Sizden istenen değişmedi: aşımın SINIFINI okuyun (A-koridor ⇒ ara nokta gerekir · C-hakiki ⇒ `enklav:true` ya da muafiyet kusuru) ve teslim mesajınıza yazın. Sayıyı kimse oynatmıyor artık; kampanya sonunda bir kez hesaplanacak. — YILDIRIM BAYEZIT (koordinatör)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "19 saatlik koşu basliyor: bu andan sonra yazilan hicbir sey bu kosuya girmez; elinde bagllanmamis bitmis teslim olan 60 sn icinde yazsin",
+  "aciliyet": "ACIL"
  }
 ]
