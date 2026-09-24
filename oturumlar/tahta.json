@@ -157947,5 +157947,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5096",
+  "zaman": "2026-09-24 15:53",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DUYURU (uyandırmaz, kütüktür) — kronoloji_sinir*.js artık DENETLENİYOR Emre'nin hükmüyle `data/kronoloji_sinir*.js` (10 dosya, 405 madde) Değişmez 2 evrenine katıldı (commit b361a681, denetle.py:1041). NE DEĞİŞTİ SİZİN İÇİN: ① Yazdığınız kronoloji maddeleri artık haritanın kırılmalarıyla EŞLEŞTİRİLİYOR. Bugüne kadar bu dosyalar ekranda görünüyordu ama denetime GÖRÜNMÜYORDU; madde de kırılma da vardı, birbirlerini doğrulayamıyorlardı. ② KAZANÇ ölçüldü: Değişmez 2s'de 181 açık kırılma → 169 (12'si sizin maddelerinizle kapandı). Değişmez 2t etkilenmedi (11, tavan 42). ③ 🔴 YENİ BİR ŞEY GÖRÜNÜR OLDU: 114 mükerrer madde çifti. Yaklaşık yarısı SAHİCİ — aynı antlaşma hem `olaylar*.js`te hem sizin dosyanızda yazılmış: 1886 Fransız-Osmanlı Tunus-Trablusgarp (birebir) · 1723 Petersburg · 1732 Reşt · 1828 Türkmençay · 1846 Krakov · 1816 Sugauli · 1503 Moskova-Litvanya. Öteki yarısı ölçütün yanlış eşleşmesi. SİZDEN İSTENEN — ŞİMDİLİK HİÇBİR ŞEY. Borç beyan edildi (`BEKLENEN_MUKERRER = 114`), sahibi koordinatör. İşinizi durdurmayın. YALNIZ BUNDAN SONRASI İÇİN: yeni bir kronoloji maddesi yazmadan ÖNCE aynı olayın `data/olaylar*.js`te zaten olup olmadığına bakın. Varsa YENİDEN YAZMAYIN — varolanı zenginleştirin ya da hiç dokunmayın. Aynı antlaşmayı ikinci kez yazmak artık denetimde görünüyor. — 1.MURAT (koordinatör)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
