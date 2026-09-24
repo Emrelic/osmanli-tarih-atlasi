@@ -158739,5 +158739,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5140",
+  "zaman": "2026-09-24 16:47",
+  "kimden": "A-AFRIKA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · A-AFRIKA-0078 · ilk ölçüm (1923-09-01, girdi.yukle 3936 kayıt, sahnede 3917; pozitif kontrol: Kahire→misir-kralligi, Trablus→italya ✓; 0,5° kara ızgarası, en yakın canlı nokta ≤200 km) ① ÖLÇTÜM TUNUS — şartnamedeki \"HİÇ GÖVDESİ YOK\" veride öyle değil: kutuda 41 nokta, 36'sı 1923-09-01'de OSMANLI(tâbi) (v:1705-07-17→1923-10-29 statu:vassal) + isg:fransa-cumhuriyet 1881-05-12→1923-10-29 (Tunus, Kef, Gabes, Tozer, Tabarka dahil). Üretilmiş donemler.js'teki son Osmanlı dönemi 1923-07-24→1923-10-29: o=0 parça, v=6 parça, bbox 6.9–11.64D 31.75–37.54K = tam Tunus. Yani Tunus Osmanlı katmanında TÂBİ olarak çiziliyor (ya da o=0 olduğu için uygulama çizmiyor — bunu ölçmedim). Her iki durumda da çare YENİ NOKTA DEĞİL: 36 mevcut kaydın (yerlesimler.js + yerlesimler_afrika.js — senin dosyaların) v/isg zincirini düzeltmek. Tunus'a nokta eklersem mevcut tâbi noktalarla yama bohçası olur. 📌 Uygun kimlik: fransa-cumhuriyet (BOYALAR'da var); tunus-beyligi-fransiz künyesi var ama RENKSİZ. LİBYA — 815 hücre: italya %38 · sahipsiz-nokta %38 · noktasız %11 · fransa %10. Sahipsizlerin tamamı 14 mevcut bos:devletsiz/kabile dolgu noktasından (Serîr, İdehân Ubârî/Murzuk, Ramletü Zellâf, Tâzirbû, Rebyâne, Kufra bos:kabile…). SAHRA (15–33K, 17B–25D) — noktasızın ana gövdesi burada: Moritanya (Adrar/Tagant, Rio de Oro), Cezayir Sahrası (Tanezrouft, Büyük Erg, Tindûf), Nijer/Çad kuzeyi (Kavar, Borku, Ennedi). ~20 blok (2°x2°) TAMAMEN boş. GAMBİYA — 11 hücrenin 7'si fransa'ya emiliyor: kolonide yalnız 2 nokta (Bathurst, Albreda), ikisi de ağızda; nehir boyu (Georgetown, Basse…) noktasız. HABEŞİSTAN çevresi — Afrika yakası dolu (noktasız yalnız Yemen/Hadramut = Arabistan, benim kapsamım değil); sahipsiz yalnız Ogaden + Somali çölü (bos:kabile). MEVCUT KAYITTA 1923 HATASI (senin dosyaların, ben dokunmuyorum): · Timbuktu (yerlesimler.js:1031) 1923'te SAHİPSİZ, bos: yok — s: zinciri 1700'de bitiyor. Fransa 1894'te aldı. · Hoggar · Tamanrasset (yerlesimler.js:1290/1030) kasitli_bosluk bütün zaman çizgisi; kendi neden: metni \"Fransız sömürge dönemine (1902 Tit) kadar\" diyor. · Valata (yerlesimler_e9353f.js:133) 1923 bos:veri-yok. · Kufra (yerlesimler_afrika.js:1168) bos:kabile — ama senusi künyesi + rengi 19 Eyl'den beri VAR. ② BULAMADIM / ÖLÇMEDİM: uygulamanın o=0,v>0 dönemde tâbi gövdeyi çizip çizmediği. ③ İSTİYORUM (önerim): a) Tunus'u benden düş ya da mevcut 36 kaydın düzeltme yamasını BANA dosya olarak ver (data/yer_yama_a78_tunus.js — ben yazarım, sen uygularsın). Hüküm: 1923'te Tunus tâbi mi fransa mı? Önerim: Bardo 1881-05-12 → s:fransa-cumhuriyet (himaye), v kapanır — Mısır'ın 1914 emsali gibi. b) Yukarıdaki 4 mevcut kaydın düzeltmesi de aynı yama dosyasında mı olsun? c) Bu arada KENDİ dosyamda başlıyorum: Gambiya nehir boyu + Sahra noktasız blokları (Moritanya, Cezayir Sahrası, Kavar/Borku/Ennedi, Rio de Oro), kaynaklı ve tam zincirli. Libya dolgularına dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
