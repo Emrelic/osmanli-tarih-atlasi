@@ -288,6 +288,18 @@ try { _dGoster = localStorage.getItem("dSinirGoster") !== "0"; } catch (e) {}
 var _dIkiRenk = true;
 try { _dIkiRenk = localStorage.getItem("dSinirIkiRenk") !== "0"; } catch (e) {}
 
+// 🆕 C = KABA BELGE ⇒ TEK RENK, SİYAH — Emre, 24 Eylül 2026: "D tipi sınırlarda
+// çizgimiz iki renkli oluyor. C tipi sınırlarda tek renk olsun ve bu renkte
+// siyah olsun."
+// Kuralın kendi mantığı var ve şemanın eski kararıyla ÖRTÜŞÜYOR: C'nin
+// koordinatı kaba olduğu için renk ona DAYANDIRILMIYOR (_D_YASLA_SINIF_*
+// yalnız F/E alır). Ülke rengi taşımayan bir çizginin ülke renginde olması
+// okuru yanıltırdı — siyah, "bu hat kabadır, altındaki boya buna oturmaz"
+// diyen tek renktir.
+// 🔴 Vasal istisnası da düşer: C hattında taraflardan biri o gün Osmanlı'ya
+// tâbi olsa bile çizgi siyahtır (kural sınıfa bakar, tarafa değil).
+var D_KABA_RENK = "#000000";
+
 // ③④ YASLAMA — PİLOT: Türkiye ailesi (data/d_sinirlar.js, D1-TURKIYE) +
 // komşu ailesi (data/d_sinirlar_komsu.js — Emre, 24 Eylül 2026: "Bulgaristan'ın
 // 1923 sınırları D hatlarına yaslanmamış"; BG–YU/GR hatları bu ailede).
@@ -444,9 +456,11 @@ var _dAktifImza = null;
 function _dSinirGuncelle(gun) {
   if (!_dHazirMi() || !harita.getSource("d-sinir-hat")) return;
   var aktif = _dAktifKayitlar(gun).map(function (a) {
-    var tek = _dCizgiRengi(a.kayit, gun);
+    // C (kaba belge) SİYAH ve TEK renktir — iki renk anahtarı onu etkilemez.
+    var kaba = (a.sinif === "C");
+    var tek = kaba ? D_KABA_RENK : _dCizgiRengi(a.kayit, gun);
     // ⑤b iki renk KAPALIYSA her iki yarım da tek rengi alır — eski görünüm.
-    var y = _dIkiRenk ? _dYarimRenkler(a.kayit, gun) : { sol: tek, sag: tek };
+    var y = (_dIkiRenk && !kaba) ? _dYarimRenkler(a.kayit, gun) : { sol: tek, sag: tek };
     return { kayit: a.kayit, sinif: a.sinif, renk: tek, sol: y.sol, sag: y.sag };
   });
   // renk imzaya DAHİL — vasal renk artık gün-bağımlı (H-0007), aynı id:sinif
