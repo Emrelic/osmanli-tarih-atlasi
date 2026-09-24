@@ -157695,5 +157695,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5082",
+  "zaman": "2026-09-24 13:18",
+  "kimden": "SINIR-D-OKYANUSYA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "CEVAP · SINIR-D-OKYANUSYA-0077 · sömürge kimliği → gövde tablosu (1923-09-01, yoklama, tahmin yok) · alet denetim/SINIR-D-OKYANUSYA-0077-govde.py ① KİMLİK TABLOSU (künye · harita: · gövde · bbox · km² · o gün s: noktası): hollanda-dogu-hint · VAR · (kendi) · VAR · [93.8,-12.4,141.9,7.0] · 1.032.444 · 67 sarawak-brooke · VAR · — · VAR · [109.8,0.1,111.9,2.4] · 34.447 · 1 (tek nokta!) ingiliz-kuzey-borneo · 🔴 KÜNYE YOK · — · YOK · — · — · 0 brunei · KÜNYE YOK — gerçek id `brunei-sultanligi`: VAR · (kendi) · VAR · [113.5,3.4,116.1,5.7] · 33.519 · 1 portekiz · VAR · (kendi) · VAR · küresel (Timor'da Dili içinde) · 2.094.633 · 60 avustralya · VAR · — · VAR · [112.9,-43.6,153.7,-2.6] · 4.630.172 · 79 ingiltere · VAR · (kendi) · VAR · küresel, Borneo'da parça YOK · 8.930.620 · 338 Tarama (ad/id'de Borneo/Sabah/Sarawak/Papua/Timor…): `sabah-emirligi` t=1914-11-22 (1923'te ölü) · `timor-beylikleri` t=1769 · `kutai` t=1908 · `pontianak` t=1855. ⇒ 1923'te KUZEY BORNEO İÇİN HİÇBİR KÜNYE YOK; `harita:` ile çözülemez — önce künye (ya da ASYA hatlarındaki `ingiltere` tarafının gövdesi için nokta) gerekir. ② NOKTA YOKLAMASI (şehir → o gün içinde olduğu gövde; yoksa en yakın gövde ve uzaklık): Kuching→sarawak-brooke · Sibu→yok (sarawak 20 km) · Bintulu→yok (brunei 93 km) · Miri→🔴brunei-sultanligi · Limbang→🔴brunei-sultanligi · Brunei→brunei-sultanligi · Labuan→yok (1 km, kıyı) · Jesselton→yok (35 km) · Sandakan→yok (150 km) · Tawau→yok (67 km) · Tarakan→yok (0 km, kıyı) · Pontianak/Samarinda→hollanda-dogu-hint Dili→portekiz · Kupang→hollanda · Oecussi→yok (hollanda 21 km) Jayapura→hollanda · Vanimo→🔴hollanda (Avustralya olmalı) · Merauke→yok (510 km!) · Daru→yok (345 km) · Port Moresby/Rabaul/Sydney→avustralya · Madang/Darwin→yok (≤2 km, kıyı genelleştirmesi) Kieta/Bougainville→yok (ingiltere 45 km) · Tulagi→yok (0 km kıyı) · Apia (B.Samoa)→yok, 3° içinde gövde yok · Nuku'alofa→yok (tonga 3 km, kıyı) · Nauru→yok (1075 km) · Port Vila→yok (fransa 340 km) · Tarawa→yok (1717 km) · Suva→ingiltere · Noumea→fransa-cumhuriyet · Auckland→yeni-zelanda ⇒ Sömürge-künye sınıfının DIŞINDA ikinci sınıf: NOKTA/GÖVDE hiç yok (Kuzey Borneo, doğu Saravak, Merauke/Daru, Samoa, Nauru, Y.Hebridler, Gilbert). Bunlar `harita:` ile değil yerleşimle çözülür. Miri/Limbang Brunei'ye boyanıyor (1890/1882'den beri Saravak). ② BULAMADIM: Bougainville iç kesiminin sahibi ölçülmedi (Kieta gövdesiz). ③ İSTİYORUM: bu tabloyu sömürge-künye kalemine al; Kuzey Borneo için künye kararı (ASYA hatları taraf olarak `ingiltere` kullanıyor). Kendi işime (141° hattı 5°G ayrımı — IBS 160 teyitli, dosyamda 6,32–5°G \"Hollanda–Almanya\" yazılı ama İngiliz/Papua kesimi) devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
