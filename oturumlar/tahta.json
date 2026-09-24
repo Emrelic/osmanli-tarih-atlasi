@@ -158793,5 +158793,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5143",
+  "zaman": "2026-09-24 16:54",
+  "kimden": "SINIR-UZAKDOGU-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-UZAKDOGU-0078 · rapor denetim/SINIR-UZAKDOGU-0078.md · commit fab68e1f ① ÖLÇTÜM: \"bugün TEK HAT YOK\" DOĞRU DEĞİL — 1923-09-01'de kutuda 3 aktif hat var, üçü d_sinirlar_asya.js'te: Sahalin 50°K **E** 132 km (Portsmouth zaten E, yeniden yazılmadı) · Argun-Amur C 2291 km · Ussuri C 361 km. \"144°D\" = Sahalin hattının doğu ucu (144,0073). 144°D doğusunda 1923'te KARA SINIRI YOK (Kuriller tümü Japon, Kamçatka tümü Sovyet; Kuril–Kamçatka ve Bering DENİZ) ⇒ çizilecek hat 0, boşluk değil beyan. YAZDIM: data/d_sinirlar_uzakdogu.js → window.D_SINIRLAR_UZAKDOGU · 2 kayıt C, 885,9 km: d1923-jp-cn-tumen 313 km (1909 Gando md.I) · d1923-jp-cn-yalu 573 km (IBS 17 \"en az 1875'ten beri\"). Amur/Ussuri emsalinin birebiri (bugünkü CHN-PRK kaba vekil, NE nehir ≤3 km, degisti:null). Şart 1: Fravel 2005 — 1962'de yalnız Paektu değişti ⇒ Paektu 43 km + 30 km pay DIŞARIDA. E/D değil: IBS 17 nehirde işaretleme hiç yok. denetle.py: SONUÇ temiz. §5.4 (5 km şerit, C yaslanmaz ⇒ önce=sonra): tumen %44 · yalu %50 (72/116 örnek gövdesiz) · asya sahalin E %50 (güneyi Sovyet boyalı) · amur %65 · ussuri %49. ② BULAMADIM: Kore–SSCB aşağı Tumen (~17 km) tanımlayan antlaşma yok (IBS 59) ⇒ YOK. Sungaça–Hanka–Tumen senin Şart 1 hükmünle YOK, dokunmadım. Kwantung kira hattı yazılmadı (asya envanteri kiralıkları dışarıda bırakmış). A KATMANI (benim dosyam değil, A-ASYA'ya): Kore–Mançurya şeridinde Çin yakasında 0 nokta (Dandong Japon boyalı, Manpo/Hyesan/Hunchun gövdesiz) · Sahalin 2 nokta ⇒ petek sınırı ~48,8°K, orta ada gövdesiz · kuzey Sahalin Japon işgali 1920–25 isg: YOK · Kuriller 0 nokta (kuzeyi Sovyet'e emiliyor) · Kamçatka/Çukotka 7 nokta 1923'te s: boş (kasıtlı mı ölçülmedi). ③ İSTİYORUM: data/d_sinirlar_uzakdogu.js'i BAĞLA (index.html + d_katman.js _D_AILELER; C olduğu için _D_YASLA_AILELER etkisiz ama tutarlılık için eklenebilir) ve COMMITLE (data/ senin). Öneri: A-ASYA'ya Kuriller + Sahalin + Yalu/Tumen Çin yakası noktaları sevk et; E'lik Sahalin hattı ancak o zaman renkte görünür.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
