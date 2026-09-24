@@ -88,6 +88,37 @@ kaydı 50'de kaldı). Betik: `denetim/SINIR-D-OKYANUSYA-0077-fly.py`.
 - Sarawak–Kuzey Borneo iç sınırı geometrisi (NE admin-0'da yok, admin-1 kaynağı yok).
 - Merauke / Daru / Vanimo kuruluş günleri için kaynak aramadım (yerleşim benim kalemim değil).
 
+## 6b. İKİNCİ TUR — kapsam düzeltmesi sonrası (koordinatör: Avustralya · Yeni Gine · Pasifik)
+
+### Kapsam ölçümü — 1923'te bu coğrafyada KARA sınırı
+| # | hat | belge | koordinat | kayıt |
+|---|---|---|---|---|
+| 1 | Hollanda ↔ Papua (Avustralya): Bensbach → 141°01'10" → Fly → 141° → 5°G | 1895 Sözl. Md. I–IV | VAR (IBS 160 / 1973 monümanları + Fly için NE) | `guney-*`, `orta-*` (E) |
+| 2 | Hollanda ↔ Yeni Gine mandası (Avustralya): 141°, 5°G → kuzey kıyı | 1895 Md. IV + MC mandası 1920 | VAR | `kuzey` (E) |
+| 3 | Papua ↔ Yeni Gine mandası (Londra 1885 hattı) | Londra Nisan 1885 (IBS 160) | uçlar var, **ara köşeler bulunamadı** | 1885–1914 `YOK`; 1914–23 yazılmadı (iki yan da `avustralya`, künye yok) |
+
+⇒ **N = 3 kara sınırı · M = 3 belgeli · K = 2 koordinatlı.** Avustralya, Yeni Zelanda,
+Filipinler, Samoa, Fiji, Tonga, Solomon, Gilbert-Ellice, Nauru, Yeni Hebridler,
+Yeni Kaledonya: 1923'te iki egemenlik arasında bölünmüş ada **yok** ⇒ kara sınırı yok
+(bu bir ölçüm sonucu, eksiklik değil). Borneo/Timor/Sebatik ASYA'da.
+
+### Bulunan ve düzeltilen TARAF hatası
+`kuzey-*` üç kaydı 141°'yi 6,3233°G'den başlatıyordu ⇒ 6,32–5°G kesimi 1884–1920 arası
+"Hollanda ↔ Almanya" çiziliyordu. IBS 160 s.2 (Londra 1885 hattı 5°G×141°D'de biter)
+ve 1895 Md. IV (141°, üçlü noktaya kadar Hollanda–İngiltere) ⇒ o kesimin doğusu
+İngiliz/Papua. `orta-*` (3 kayıt, 146,3 km) ayrıldı; `kuzey-*` 5°G'den başlıyor
+(266,1 km). 1923-09-01'de renk değişmez (iki taraf da `avustralya`); düzelen 1885–1920
+tarafı ve dayanağı. Betik `denetim/SINIR-D-OKYANUSYA-0077-bol5.py`. Tarayıcıda
+doğrulandı: 11 kayıt yükleniyor; 1900 `guney-britanya`+`orta-britanya` (E), 1910
+`guney/orta-avustralya`, 1923 üç E hattın üçü de yaslama adayı.
+Ölçüm (5°G bölmesi sonrası): `kuzey` %51 → %51 (n=53), iki güney kesimde sahipli örnek 0.
+
+### Sömürge kimliği → gövde tablosu
+`denetim/SINIR-D-OKYANUSYA-0077-govde.py` · tahtada M-5082. Özet: `ingiliz-kuzey-borneo`
+künyesi YOK (1923'te Kuzey Borneo için hiçbir künye yok: `sabah-emirligi` 1914'te
+bitiyor); Brunei'nin id'si `brunei-sultanligi`; Miri ve Limbang Brunei'ye boyanıyor;
+Merauke 510 km, Daru 345 km uzaklıkta gövdesiz; Samoa/Nauru/Gilbert/Y.Hebridler gövdesiz.
+
 ## 7. İstenenler (koordinatöre)
 1. **Nokta talebi** (`yerlesimler*.js` sahibine): Merauke (Hollanda), Daru (Papua →
    `avustralya` 1906-09-01'den), Vanimo (Alman → Avustralya işgali 1914 → manda).
