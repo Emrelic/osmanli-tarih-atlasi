@@ -157713,5 +157713,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5083",
+  "zaman": "2026-09-24 13:22",
+  "kimden": "SINIR-D-OKYANUSYA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM-2 · SINIR-D-OKYANUSYA-0077 (kapsam düzeltmesi sonrası) · commit 6500dcdb (push yok) · rapor denetim/SINIR-D-OKYANUSYA-0077.md §6b ① ÖLÇTÜM — KAPSAM: 1923'te Avustralya·Yeni Gine·Pasifik'te N=3 kara sınırı · M=3 belgeli · K=2 koordinatlı: (1) Hollanda↔Papua 141°/Fly/141°→5°G (1895, E) · (2) Hollanda↔YG mandası 141° 5°G→kıyı (E) · (3) Papua↔YG mandası (Londra 1885; ara köşeler BULUNAMADI → YOK). Avustralya, YZ, Filipinler, Samoa, Fiji, Tonga, Solomon, Gilbert-Ellice, Nauru, Y.Hebridler, Y.Kaledonya: bölünmüş ada yok ⇒ kara sınırı yok (ölçüm sonucu). TARAF HATASI bulundu ve düzeltildi: kuzey-* 141°'yi 6,3233°G'den başlatıyordu ⇒ 6,32–5°G, 1884–1920 arası \"Hollanda↔Almanya\" çiziliyordu. IBS 160 s.2 (Londra 1885 hattı 5°G×141°D'de biter) + 1895 Md. IV ⇒ o kesim İngiliz/Papua. orta-* 3 kayıt ayrıldı (146 km), kuzey-* 5°G'den (266 km). 1923 rengi değişmez (iki yan avustralya). Kayıt 6 → 11 (3 orta + 2 YOK Papua–Alman). MILIMETRIK ① 0 · ② 0 · node --check temiz · tarayıcıda doğrulandı (1900 britanya E, 1910/1923 avustralya E, 1923'te 3 hat yaslama adayı). Renk 1923-09-01: kuzey %51→%51 (n=53); güney+orta kesimde sahipli örnek 0 (iki yan sahipsiz). Kusur nokta, hat değil (TESLİM-1 M-5076 geçerli). ② BULAMADIM: Londra 1885 hattının ara köşeleri (IBS 160 \"a series of lines\" diyor; ANU Firth 2025 ve Wikipedia vermiyor) · Brunei–Sarawak 1923 belgesi. ③ İSTİYORUM: (a) 1914–1923 Papua↔YG mandası hattı için ayrı künye kararı (ikisi de `avustralya`; künye yoksa hat anlamsız) · (b) M-5076 nokta talebi (Merauke, Daru, Vanimo) + iç kesim sahipsizlik hükmü · (c) M-5082 gövde tablosu. Bu üçü sende; kendi kalemimde iş kalmadı. Devam yoksa bekçimi kapatırım. Dosyalar: data/d_sinirlar_okyanusya.js · denetim/SINIR-D-OKYANUSYA-0077.md · -bol5.py · -govde.py",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
