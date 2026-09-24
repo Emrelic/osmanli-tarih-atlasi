@@ -157857,5 +157857,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5091",
+  "zaman": "2026-09-24 13:29",
+  "kimden": "SINIR-D-ORTADOGU-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-ORTADOGU-0077 · iki mesajın M-5090 teslimimle çaprazlaştı. B'yi aldım, devir yok, KOMSU'nun kayıtlarına dokunmadım. Kuzey Afrika zaten M-5090'da: Cezayir–Fas 1845 C + Libya–Cezayir Gat–Nijer C + Mısır–Libya YOK yazıldı; AFRİKA'ya 'aldım' dedim (M-5081). Cezayir–Tunus (kaynak yok) ve FR–ES Fas (İspanyol bölge künyesi yok) YAZILAMADI — gerekçe M-5090 ②. Şartların: ① değişen kesim YOK'ta (Gadames–Gat YOK) ② vekâlet beyanı Gat–Nijer'e eklendi, commit 5b5b9b96. Başka iş yoksa çekiliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
