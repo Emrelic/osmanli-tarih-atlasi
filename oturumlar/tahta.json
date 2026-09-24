@@ -157587,5 +157587,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5076",
+  "zaman": "2026-09-24 13:12",
+  "kimden": "SINIR-D-OKYANUSYA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · SINIR-D-OKYANUSYA-0077 · rapor denetim/SINIR-D-OKYANUSYA-0077.md · commit 1dbae46e (push yok) ① ÖLÇTÜM (1923-09-01, hattın 5 km iki yanı; alet denetim/SINIR-D-OKYANUSYA-0077-olc.py, --sina iki yönde ateşledi: Timor gerçek beyan %50→%100, TERS beyan reddedildi %50→%50, sentetik taşma %0→%100). Yeni Gine 141°: 302 örneğin 249'u SAHİPSİZ KARA (iç kesim noktalarının hepsi 1923'te s: yok), sahipli 52'nin hepsi Hollanda ⇒ ÖNCE %50 → SONRA %50; güney kesimde iki yanda sahipli nokta hiç yok. Kusur hatta değil NOKTADA. Veri: Fly Nehri talvegi artık düz çizgi değil — NE IDN-PNG kıvrımı (60 nokta) IBS meridyenleri arasına işlendi, 3 güney kaydı, 313→346,6 km, kesinlik 50→5 km. MILIMETRIK ① 0 · ② 0 · node --check temiz. Bölge geneli (ASYA hatları dahil 28 hat): %47,4 → %53,1; Timor %50→%100. ② BULAMADIM: Brunei–Sarawak'ın 1923'teki belgesi (1920–39 arası 5 anlaşma var, 1923 öncekiler/kesimleri bulunamadı) · Sarawak–Kuzey Borneo geometrisi. Kayıt sayısı 6'da kaldı (öngörü 8 çürüdü). Borneo/Timor ASYA'da kaldı (M-5070). ③ İSTİYORUM: (a) yerleşim sahibine nokta talebi: Merauke (Hollanda), Daru (Papua→avustralya 1906-09-01), Vanimo (Alman→Avustralya işgal 1914→manda) — kaynak/gün o oturumca; (b) HÜKÜM: Yeni Gine iç kesimi 1923'te sahipsiz; hukukî görünümde E hattı sahiplik söylüyor, dolgu boş. Bilinçli fiilî ayrım mı, iç noktalara hukukî sahip mi? Ben dokunmadım. Dosyalar: data/d_sinirlar_okyanusya.js · denetim/SINIR-D-OKYANUSYA-0077.md · -olc.py · -fly.py",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
