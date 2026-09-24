@@ -247,16 +247,21 @@ ekle("d1923-be-fr", BE, FR, "1839-04-19", "D", cizgi("BEL-FRA"),
      {"t": "1820", "not": "antlaşmanın kendi delimitasyonu"},
      1.5, KES_NE, "§1.7 · hat Fransa–Birleşik Hollanda arasında 1820'de çizildi, Belçika 1839'da devraldı; f Londra Antlaşması")
 
-# 1.8 Belçika–Lüksemburg — değişiklik belgesi arandı, bulunamadı ⇒ YOK
-g = cizgi("BEL-LUX")
-xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
-yok("d1923-be-lu", BE, LU, "1890-11-23", (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
-    {"deger": None, "kaynak": "ACT Lüksemburg (sessiz)", "not": "değişiklik kaydı bulunamadı; kaynağın sessizliği kanıt sayılmadı "
-     "(aynı sayfa FR–LU'nun belgeli düzeltmelerini de anmıyor)"},
-    [{"ad": "Londra Antlaşması", "tarih": "1839-04-19", "tur": "antlaşma"},
-     {"ad": "Maastricht Sınır Sözleşmesi", "tarih": "1843-08-07", "tur": "antlaşma"},
-     {"ad": "ACT Lüksemburg — Limites d'État", "tur": "resmî", "url": "https://act.public.lu/fr/parcelles-residences/mensuration-officielle/limites-etat.html"}],
-    "E", "§1.8 · f lüksemburg künyesine hizalandı (hat 1843'ten)")
+# 1.8 Belçika–Lüksemburg — 16 Eyl: değişiklik belgesi bulunamadı ⇒ YOK idi.
+# SINIR-D-AVRUPA-BATI-0077 (24 Eyl): Lüksemburg devlet müzesi (Musée Dräi Eechelen,
+# public.lu) 1843 sözleşmesinin iki devlete "bugünkü sınırlarını" verdiğini AÇIKÇA
+# yazıyor ⇒ bugünkü çizgi 1923'ü gösterir ⇒ E. Kaynağın sessizliği değil, olumlu cümle.
+ekle("d1923-be-lu", BE, LU, "1890-11-23", "D", cizgi("BEL-LUX"),
+     [{"ad": "Londra Antlaşması", "madde": "md. 6", "tarih": "1839-04-19", "tur": "antlaşma"},
+      {"ad": "Maastricht Sınır Sözleşmesi", "tarih": "1843-08-07", "tur": "antlaşma"},
+      {"ad": "ACT Lüksemburg — Limites d'État", "tur": "resmî", "url": "https://act.public.lu/fr/parcelles-residences/mensuration-officielle/limites-etat.html"},
+      {"ad": "Musée Dräi Eechelen — Borne frontière belgo-luxembourgeoise, 1843", "tur": "resmî (devlet müzesi)",
+       "url": "https://m3e.public.lu/en/actualites/focus/2015/11/Borne-frontiere-marquant-la-frontiere-belgo-luxembourgeoise_-1843.html",
+       "alinti": "achève de donner aux deux États leurs frontières actuelles"}],
+     {"deger": False, "kaynak": "Musée Dräi Eechelen (public.lu)", "not": "1843 sözleşmesi 'bugünkü sınırları' verdi; "
+      "ACT sayfası da sonraki bir değişiklik anmıyor. Taş yerlerinin bugünkü koordinat tespiti (ACT) hattı değiştirmez"},
+     {"t": "1843", "not": "sözleşmenin kendi delimitasyonu (ekli harita: ANLux TC-0008-02)"},
+     1.5, KES_NE, "§1.8 · f lüksemburg künyesine hizalandı (hat 1843'ten). YOK → E: SINIR-D-AVRUPA-BATI-0077")
 
 # 1.9 Fransa–Lüksemburg — Lorraine kesimi (Moselle, 1871-1918 Alman) ayrı kayıt
 LOR_LON = 5.944   # Villerupt (gn 2968316, dept 54, Fransız kaldı) ile Audun-le-Tiche (gn 3036226, dept 57, ilhak) arası
