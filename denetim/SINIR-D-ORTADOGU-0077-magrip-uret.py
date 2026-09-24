@@ -78,7 +78,7 @@ out.append({
   "geometri_kaynagi": "Natural Earth 10m admin-0 DZA–LBY (bugünkü sınır), Gat paralelinden Nijer üçlüsüne — VEKİL; IBS 001'e göre bu kesim 1919'dan beri değişmedi",
   "degisti": {"deger": False, "kaynak": "IBS 001 s.2", "not": "1956 değişikliği yalnız Gadames–Gat kesimi; Gat–Nijer 1955 antlaşmasında 'çok genel' olarak Takharkhouri geçidi, Anai geçidi ve 1010 noktasından geçer"},
   "tahdit": {"t": None, "not": "işaretsiz; IBS 001: 'no maps ... in sufficient detail to be definitive'"},
-  "kesinlik_km": 20.0, "kesinlik_not": "1919 metni AÇILMADI; IBS 001 ayrıntılı tahdit yok diyor · güney ucu NE üçlüsü, IBS 001 astronomik noktasına (23°30'54\"K 11°59'54,6\"D) 3,0 km",
+  "kesinlik_km": 20.0, "kesinlik_not": "NE bugünkü sınır — 1923 hattının kaba VEKİLİ, sapma ölçülmedi (Gat ile uç dışında çıpa yok) · 1919 metni AÇILMADI; IBS 001 ayrıntılı tahdit yok diyor · güney ucu NE üçlüsü, IBS 001 astronomik noktasına (23°30'54\"K 11°59'54,6\"D) 3,0 km",
   "dayanak": [
     {"ad": "Fransız–İtalyan Düzenlemesi", "tarih": "1919-09-12", "tur": "antlaşma (metni açılmadı — IBS 001 aktarımı)",
      "url": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs001.pdf", "sayfa": "s.2",
