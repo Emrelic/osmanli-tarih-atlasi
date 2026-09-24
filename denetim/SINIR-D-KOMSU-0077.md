@@ -75,7 +75,43 @@ noktası koordinatı okunmadı) · g4 Atrek 1869 · g5 Gülistan · g6 Safevî �
 (1923'te hukukî hat yok) · ORTADOĞU'nun devir istediği 6 Levant/Irak kaydı (M-5066, hüküm bekliyor,
 dokunulmadı).
 
+## 3b. Dört manda kaydı — ÖNGÖRÜ (sınav anı 2026-09-24 13:13, kaynak okunmadan)
+
+Koordinatör (13:1x) iq-sy · sy-jo · fi-sy · iq-necd kayıtlarını bana verdi (ORTADOĞU ölçtü, uygulama bende;
+gerekçe kendi kaynağımla doğrulanacak — D207).
+- **Ö4:** dördünün en çok 2'si hat alır: fi-sy (1923 işaretli, E adayı — ama bugünkü ISR–SYR çizgisinin
+  1923 hattını gösterip göstermediği şüpheli) ve iq-necd'in Tarafsız Bölge DIŞI kesimi (E). iq-sy ve sy-jo
+  YOK kalır: bugünkü hatlar 1932/1931 belgeleridir ve 1920 hattından farkı sayıyla sınırlanamayacak.
+
+## 3c. Dört manda kaydı — SONUÇ (hüküm B, M-5080; geometri ORTADOĞU devri, doğrulama bende)
+
+**Kendi kaynağımla doğruladım:**
+- 1920 Sözleşmesi md. 1 — FRUS 1921 c.I belge 113 (history.state.gov): Dicle → eski Diyarbekir/Musul
+  vilâyet sınırı → Rumeylan Köyü → Batı Habur havzasını Fransız'a bırakan düz hat → Fırat'ı Ebu Kemal'de
+  keser → Imtar'a düz hat (Cebel-i Dürzî güneyi) → Nasib'in güneyi → Semakh. İşaretleme komisyona
+  bırakılmış (IBS 100: "only in general terms") ⇒ C. Imtar = GeoNames Imtān — özdeşlik OKUMADIR.
+- Ukayr md. 1(a)(b)(d) — IBS 111 s.11-12; "has not been accomplished" (işaretleme yok) ⇒ C.
+- Çıpalar GeoNames'te birebir: Birket el-Cümeyme 29.603/43.600 · Birket el-Akabe 30.140/43.620 ·
+  Useymîn 30.372/43.659 · Cedîdetü Ar'ar 31.378/41.440 · Cebel el-Amgar 29.465/45.454 · Ebu Kemal · Imtan.
+- `denetim/SINIR-D-KOMSU-0077-manda-olc.py` — bugünkü çizginin 1920 düz hatlarına uzaklığı:
+  IRQ–SYR Fırat güneyi medyan 1,3 / en çok 7,1 km · JOR–SYR 36,9°D doğusu 5,8/8,5 · Imtar–Nasib 12,2/14,1 ·
+  Nasib batısı 6,5/10,0 km. (ORTADOĞU'nun kesinlik değerleri 20 ve 10 km bunları kapsıyor.)
+
+**Uygulandı** (`denetim/SINIR-D-KOMSU-0077-manda.py`): 3 YOK → 5 C kayıt: `d1923-iq-sy-1920` ·
+`d1923-sy-jo-1920` · `d1923-iq-necd-ukayr` · `-tarafsiz-kuzey` · `-tarafsiz-guney`. f/t ve taraflar eski
+kayıtla aynı olduğu betikte assert edildi; `sol_taraf` hat yönüyle tek tek kontrol edildi.
+
+**`d1923-fi-sy-DEGISTI` YOK KALDI — Ö4'ün bu yarısı ÇÜRÜDÜ.** NE'nin ISR–SYR çizgisi 35,76–35,89°D
+(medyan 35,82) — Golan'ın doğusunu çiziyor; 1923 hattı Taberiye'nin doğu kıyısı ve Ürdün nehri boyunca
+(~35,6–35,7°D). Vekil olamaz; Paulet–Newcombe metninin koordinatlı dökümü `bulunamadı`.
+iq-necd E değil C (Ö4'ün öteki yarısı da çürüdü): Ukayr ara noktaları bugünkü hattan 20-50 km sapıyor.
+
+**Sayım:** dosya 55 kayıt · E 19 · C 21 · D 1 · YOK 14. 1923-09-01 hukukî görünümde çizilen 21 hat,
+**7.588 km** (şartnamedeki 4.226 km'den).
+
 ## 4. Yan bulgular (benim kalemim değil)
+- `data/sinir_sinif_dizini.js` (üretilmiş) eski id'leri ve eski sınıfları taşıyor — yeniden üretim gerek
+  (`py denetim/ARAC-SINIF-DIZINI-0916.py --yaz`, sahibi koordinatör).
 - `d1923-ir-af-guney` (E): 288 noktanın 288'i "boş" — iki gövde de o bölgede yok; yaslanmıyor.
 - `d1923-iq-ir`: 125 yanlışın 105'i `ingiltere` gövdesi (Irak kıyısında İngiliz boyası).
 - `d1923-gr-bg-dogu` (D, fiilî): hukukî görünümde yaslanmaz, %55,7; 118 yanlış `yunanistan`.
