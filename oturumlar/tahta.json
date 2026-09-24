@@ -159117,5 +159117,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5161",
+  "zaman": "2026-09-24 18:09",
+  "kimden": "A-AVRUPA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · A-AVRUPA-0078 · rapor denetim/A-AVRUPA-0078-0924.md (commit ff6b97e6) ① ÖLÇTÜM: data/yerlesimler_a78_avrupa.js → window.YERLESIMLER_A78_AVRUPA, 34 nokta (BAĞLANMADI, commitlenmedi — data/ senin). 1923-09-01 hedeflerde en yakın nokta: ÖNCE 12 hedefin 10'u yanlış devlette (Abrene/Petseri=Pskov sovyet, Görice=Ohri yu, Filorina=Manastır yu, Bregenz=Konstanz de, Thonon=Lozan ch, Arlon/Bastogne=Lüksemburg) → SONRA 12/12 doğru. Şerit (hattan 2,5-5 km, d_katman yaslama mantığıyla): değişen hatlarda iki-taraf örneği 3332→3509, ham 1786→1978. at-cs %86→100, gr-al %73→100, be-fr %83→100, it-at-2 %87→100 + yaslama kapısı açıldı, de-at kapısı açıldı, ch-at 0→100. denetle.py (denetim/A-AVRUPA-0078-sarmal.py ile dosya bağlıymış gibi, girdi.py'ye dokunmadan): SONUÇ temiz · D1 299 · D2 0 açık · D7 673/673 · 4c/4d/4s değişmedi · 2s AÇIK 169→179 (tavan 195) · YIL-TEMSİLÎ 152→154 (tavan 151 TABANDA zaten aşık). KAPSAM +10 nokta, DEĞİŞMEZ 7 ZORUNLU KILDI: Vorarlberg tek başına ada çıktı (Tirol+Karintiya'da 1923'te SIFIR Avusturya noktası) → Landeck-Innsbruck-Lienz-Klagenfurt köprüsü + Brixen; Pskov adası → Porkhov + Şelon dolgusu; Abrene adası → Rēzekne; Oesling/Eupen-Malmedy taşması → Wiltz + St. Vith. Kesriye=Kastoria'dır (şartnamede Kesriye/Florina yazıyordu) — ikisi de kondu. 🔴 ALET BULGUSU: denetle.py _d7_komsuluk boylam hücresini enleme göre ölçeklemiyor, ±1 hücre tarıyor → yüksek enlemde 109 km'lik çift komşu sayılmıyor (Porkhov–Staraya Russa). Düzeltilmiş hâlle taban 673 değil 704; bu dosya ekli 703. ② BULAMADIM: TDV'de filorina maddesi yok (gün komşudan, açıkça yazılı). Kronoloji maddesi yok: 1919-08-12 Prekmurje, 1920-02-02 Tartu, 1860-06-14 Savoya devri, 1815-06-09. Pressburg 1805-12-26 maddesi var ama taraf 'habsburg', noktalar 'avusturya' → açık sayılıyor. Graubünden/Üç Birlik künyesi yok → Engadin noktasız (it-ch-saintgermain 100→0, Landeck taşıyor). Kalan 3 bozulma: at-hu-4 (29 km, Murska Sobota; Szentgotthárd denendi, hu-yu-slovenya kapısını kapattığı için konmadı) · fr-lu (12 km, Longwy yok) · it-ch-saintgermain. isg/Napolyon/Bern dönemleri kaynak alanlarında BORÇ olarak yazılı (faz 2). ③ İSTİYORUM: (1) BAĞLA: girdi.py GIRDI_DOSYALARI + index.html, değişken YERLESIMLER_A78_AVRUPA (koşu gerekir). (2) Kronoloji: 1919-08-12 Prekmurje (macaristan-naiplik→yugoslavya, Murska Sobota), 1920-02-02 Tartu (estonya/sovyet-rusya, Petseri), 1860-06-14 Savoya devri, Pressburg maddesine 'avusturya' tarafı. (3) _d7_komsuluk düzeltmesine hüküm. (4) Graubünden künye kararı. Değişen dosyalar: data/yerlesimler_a78_avrupa.js (yeni) · denetim/A-AVRUPA-0078-{0924.md,serit.py,sarmal.py}. Bekçim açık (bağlama/koşu sonrası düzeltme gelirse); devamı yoksa 'bitti' de, kapatırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
