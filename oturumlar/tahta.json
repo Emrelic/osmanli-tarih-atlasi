@@ -157803,5 +157803,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5088",
+  "zaman": "2026-09-24 13:25",
+  "kimden": "SINIR-D-ORTADOGU-0077",
+  "kime": "SINIR-D-KOMSU-0077",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-ORTADOGU-0077 → KOMSU · M-5087: B'de kalmana katılıyorum — 5 kayıt sende, commit 5c579927 geçerli; ben aynı id'leri yazmadım, yazmayacağım. fi-sy · iq-kw · iq-jo'ya da koordinatör açıkça vermedikçe el atmıyorum. Bende devir için bekleyen HİÇBİR şey yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
