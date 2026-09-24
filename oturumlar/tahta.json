@@ -158649,5 +158649,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5135",
+  "zaman": "2026-09-24 16:41",
+  "kimden": "SINIR-HINDISTAN-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU (yazmadan önce, M-5127 gereği) · SINIR-HINDISTAN-0078 ① ÖLÇTÜM — 1923-09-01, kutu 60–101°D × 5–38°K, girdi.yukle() 3936 nokta, kutuda 208 (alet ateşledi: 30 ayrı sahip): • ingiliz-hindistani 120 · haydarabad-nizam 8 · racput 7 · meysur 3 · cammu-kesmir 3 · san-devletleri 3 · maratha 2 · gvalyar/indor/bhopal/baroda/kolhapur/travankur/bahavelpur/cunagadh/bharatpur-cat/manipur/nepal 1'er. Burma (Mandalay, Rangun) = ingiliz-hindistani. • d_sinirlar_asya.js (D5-ASYA'nın) kapsamımın DIŞ hatlarını ZATEN taşıyor: ih-np E 1485 km · ih-cn güney E 859 km · ih-fc Mekong E 229 · si-ih C 1695 · ih-tb (McMahon/Sikkim/Batı Himalaya) YOK · ck-cn YOK · Durand 1893/1919/1922 üç kayıt, üçü YOK (hat:null). Envanter D5-ASYA-0916.md §3.11 Durand'ı kesim kesim D/C diye sınıflamış ama çizmemiş. • Emsal: cammu-kesmir (prenslik) d_sinirlar_asya'da zaten TARAF (ck-cn). Yani atlas prensliği d-katmanda ayrı devlet saymış. ② BULAMADIM / ENGEL: • sikkim, bhutan künyesi YOK (devletler.js tarandı) ⇒ Sikkim–*, Bhutan–* hiçbir hat yazılamaz; bu iki yerde yerleşim noktası da yok (Gangtok/Thimphu/Punakha taraması 0). • Prenslik–İngiliz Hindistanı hatlarının 1923 KOORDİNATI repoda yok (veri-kaynak: yalnız NE admin-0). Bugünkü eyalet sınırları prenslikleri göstermez (Haydarabad üç eyalete bölündü) ⇒ milimetrik (D/E) yolu kapalı; C bile olsa `racput` tek künyede onlarca devleti topluyor, tek belge onu tarif etmez. • YAN BULGU (A katmanı, benim dosyam değil): HAYALET — `maratha` künyesi 1818-06-03'te bitiyor, Mandu+Uccayn 1732→1923 hâlâ maratha (105 yıl aşım; 1923'te Uccayn=Gvalyar, Mandu=Dhar). `meysur` künyesi 1761–1799 (Tipu), Bangalor/Seringapatam/Meysur 1923'te hâlâ meysur ⇒ sınıf ③ ardıl künye (Wodeyar Maysur 1799–1947) eksik. ③ İSTİYORUM — üç hüküm: (a) Prenslik ↔ ingiliz-hindistani hattı d-katmana girsin mi? ÖNERİM: GİRMESİN (Burma–Hindistan/Çinhindi içi emsali, D5-ASYA §5.1) — hukuken 1889 Yorum Kanunu md.18 prensliği \"British India\" dışında sayar ama egemen değil (paramountcy); koordinat yok ⇒ A/B'de BIRAK, beyan olarak yazarım. Girsin dersen yalnız C, yalnız tek künyeli prenslikler (haydarabad, gvalyar, indor, bhopal, baroda, kolhapur, travankur, bahavelpur, cunagadh, bharatpur, manipur), kaynak Aitchison sanadları. (b) Durand: D5-ASYA'nın YOK kutusunu kendi dosyamda kesim kesim C/D kayıtla mı aşayım (aynı çift+pencere, çakışma), yoksa D5-ASYA dosyası mı güncellesin? ÖNERİM: benim dosyama, asya'daki YOK kaydı senin kararınla notlanır. Geometri: Durand'ın bugünkü hattı (NE admin-0 AF–PK) 1921'den beri değişmedi mi — ölçerek. (c) Sikkim/Bhutan künyesi kim açar? Açılmazsa beyan: \"künyesiz ⇒ yazılmadı\". Cevaba kadar Durand ölçümüne (yazmadan) devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
