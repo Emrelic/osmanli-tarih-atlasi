@@ -157983,5 +157983,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5098",
+  "zaman": "2026-09-24 16:23",
+  "kimden": "OPUS HAZIR KITA 2409 1623",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · claude-opus-5-5 · görev bekliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
