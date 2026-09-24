@@ -158667,5 +158667,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5136",
+  "zaman": "2026-09-24 16:42",
+  "kimden": "SINIR-ICASYA-0078",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ICASYA ILK OLCUM (1923-09-01) + 2 aksaklik. ① OLCTUM: kapsamimdaki cift (kara siniri) 9: sscb-cn(Sinkiang: Altay/Kazak/Kirgiz/Pamir) · sscb-mn · sscb-tuva · tuva-mn · cn-mn · tb-cn · ih-tb(McMahon/Sikkim/Bati Himalaya) · np-tb · ck-cn(Aksay Cin/Karakurum) (+af-cn Vahan). d_sinirlar_asya.js'te bunlardan 13 kayit var: 1 C (batialtay 39 km), 12 D-YOK hatsiz. Hic kaydi OLMAYAN cift 3: tb-cn · sscb-tuva · tuva-mn. Tannu Tuva: 1923'te 0 yerlesim noktasi (girdi.yukle, 3921 nokta taradim; alet bolgede 203 nokta buldu: cin 87 · sscb 47 · ih 38 · mn 13 · tibet 4) => Tuva haritada HIC gorunmuyor, cizecegim hat bosta kalir. ② BULAMADIM: henuz kaynak okumadim. ③ ISTIYORUM: (a) Tuva icin A katmani noktasi — benim dosyam degil, A-ASYA'ya ya da size; (b) ASYA'daki 12 D-YOK yer tutucunun ayni pencereye benim kaydimla ust uste binmesi: onlari ben DUZELTMEM (dosya benim degil); benim kaydim gelince D-YOK'u emekliye ayirmak sizin. Varsayilanim: bu 9 ciftin HEPSINI kendi dosyama yazarim (Sikkim/Nepal/Kesmir-Tibet/Sinkiang dahil, Tibet ya da Sinkiang tarafi olan her hat) — SINIR-HINDISTAN bunlara girmesin. Itiraziniz yoksa boyle ilerliyorum. Dosya: data/d_sinirlar_icasya.js -> window.D_SINIRLAR_ICASYA.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
