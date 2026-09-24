@@ -2641,7 +2641,24 @@ D7_ADA_MUAF = frozenset((
 # 🔴 NEYİN KAYDIRMAYI ENGELLEYECEĞİ DE YAZILI: bu gece doğmuş VE açıkça
 #    yanlış bir ada. Mersin ikisini de karşılamıyor. Karşılasaydı sabit
 #    yerinde kalır, veri düzeltilir ve koşu 9'a bırakılırdı.
-BEKLENEN_ENKLAV_SORGU = 731  # 727→731 (24 Eylül gecesi): `lehistan` anakronizmi düzeltilirken Gdansk·Elbing·Torun·Varşova 1569'da bölündü; dördü de A-koridor (537, ada "Elbing+Gdansk+Poznan+Torun", ana gövdeye 151-239 km) — Silezya'nın birebir aynısı, ara nokta yokluğu. Çare A-AVRUPA-0078'e verildi (Bydgoszcz·Płock·Włocławek·Kalisz). 🔴 BU TABAN BUGÜN DÖRDÜNCÜ KEZ YÜKSELDİ (667→672→673→727→731) ve artık bir DESEN: her veri eklemesi bu sayıyı oynatıyor, ben her seferinde gerekçe yazıp yükseltiyorum. Bu, kapının kendi tasarımının söylediği şey (değişim sezici, kalite kapısı değil) — AMA taban kampanya boyunca her teslimde değil, KAMPANYA SONUNDA bir kez yeniden hesaplanmalı. Emre'ye bildirildi. · 🔴 673→727 (24 Eylül 2026 akşamı): BİTİR-1923-0078'in A katmanı kolu indi — beş oturum, 358 yeni nokta (3.936→4.294), 87→92 girdi dosyası. Sınıf kırılımı ÖLÇÜLDÜ: A-koridor 495→533 (+38, örnekleme eseri) · B-bilinmiyor 172→184 (+12, kaynak susuyor) · C-hakiki 5→10 (+5). C-hakiki'nin YENİLERİ okundu: Tazmanya (Hobart+Launceston+Campbell Town+Oatlands, 822-864 km) GERÇEK BİR ADA ve `cografi-tecrit` muafiyeti onu YAKALAMAMIŞ — muafiyetin kusuru, verinin değil; Khami/Danangombe (Rozvi, Zimbabve) ingiltere gövdesinden uzak; kalanlar `__BOSLUK__` adası, yani KASITLI BEYAN (kusur değil). 📌 BU TABAN BUGÜN ÜÇÜNCÜ KEZ YÜKSELDİ (667→672→673→727) ve bu bir kusur DEĞİL, bu dalın TABİATI: Değişmez 7 bir kalite kapısı değil DEĞİŞİM SEZİCİDİR — nokta eklendikçe kaçınılmaz olarak artar, her artış gerekçesiyle kayda geçer. Kalıcı çare iki kalem: ① `cografi-tecrit` muafiyeti adaları neden kaçırıyor ② ara noktalar. · 667→673 (24 Eylül 2026, A katmanı: Silezya/Sudet 8 + orta Polonya/Bohemya 7 = 15 nokta). ÖNGÖRÜ YAZILDI, SINANDI, KISMEN ÇÜRÜDÜ: Silezya 8 noktası tabanı 667→672 yaptı; "aradaki noktalar inince DÜŞECEK" demiştim. Ara noktalar indi ve ADINI VERDİĞİM İKİ ADA GERÇEKTEN YOK OLDU — "Kattowitz+Krakov" ve "Broumov+Jeseník" artık listede geçmiyor, yeni 15 noktadan HİÇBİRİ bir adada görünmüyor (ölçüldü: --ayrinti | grep, 0 satır). Ama toplam 672→673 ÇIKTI: net +1, benim noktalarımı İÇERMEYEN bir yan etki, peteğin başka yerinde. Teşhis edilmedi ⇒ 'ölçülemedi' yazılıyor, sebep UYDURULMUYOR. Hedef hâlâ 667. · 666→667: Budin/Peşte 1527-29 Habsburg dönemi (TDV süleyman-i) Zapolya vasal adasını iki pencereye böldü, aynı ada iki kez sayılıyor (GEMINI-DOGRULA 19 Eyl) · 664→666: Diyarbakır TDV zinciri (1353 celâyirli · 1394 timurlu · 1401 akkoyunlu), KRONO-2S-3 19 Eyl — +2 A-koridor, kaynaklı düzeltme; komşu kayıtlar şehir düzeyinde kaynak bekliyor
+# 🔴🔴 KAMPANYA DONDURMASI — EMRE'NİN HÜKMÜ, 25 Eylül 2026
+#   Emre: *"enklav tabanını dondurmayı onaylıyorum, kampanya sonunda hesapla."*
+#   ⇒ BİTİR-1923-0078 kampanyası sürerken bu sayı ARTIK YÜKSELTİLMEZ. Taban
+#     731'de DONDU. Aşım İHLAL sayılmaz — ama EKRANA BASILIR, sınıfı istenir ve
+#     gerekçesiz kalmaz. Kampanya bitince `KAMPANYA_DONDURMA = False` yapılır ve
+#     sayı BİR KEZ yeniden hesaplanır (o an `n7` ne ise o).
+#   NİÇİN: taban 24 Eylül'de BİR GÜNDE DÖRT KEZ yükseldi (667→672→673→727→731).
+#     Dördü de gerekçeliydi ve sınıfı ölçülmüştü — ama bir günde dört kez hedef
+#     taşımak, kapıyı bir muhasebe defterine çevirir. Bu dal zaten kalite kapısı
+#     DEĞİL DEĞİŞİM SEZİCİdir (aşağıdaki kendi uyarısı); kampanya boyunca her
+#     teslimde nokta eklenecek ve sayı kaçınılmaz olarak oynayacak.
+#   ⚠️ BU GEVŞETME DEĞİL ERTELEMEDİR, ve fark şudur: gevşetmede sayı KAYBOLUR,
+#     ertelemede sayı GÖRÜNÜR kalır — yalnız hükmü kampanya sonuna bırakılır.
+#     Dondurma kalkana kadar bu dal "temiz" DEMEZ, "DONDU" der. Kampanya sonunda
+#     yeniden hesaplanmazsa bu gerçek bir borçtur ve `D004`e (ölçütü gevşetme)
+#     dönüşür. Kampanya sonu kalemi: `YAPILACAKLAR.md`.
+KAMPANYA_DONDURMA = True   # BİTİR-1923-0078 sürüyor — kampanya bitince False
+BEKLENEN_ENKLAV_SORGU = 731  # 🧊 DONDU (yukarı bak). 727→731 (24 Eylül gecesi): `lehistan` anakronizmi düzeltilirken Gdansk·Elbing·Torun·Varşova 1569'da bölündü; dördü de A-koridor (537, ada "Elbing+Gdansk+Poznan+Torun", ana gövdeye 151-239 km) — Silezya'nın birebir aynısı, ara nokta yokluğu. Çare A-AVRUPA-0078'e verildi (Bydgoszcz·Płock·Włocławek·Kalisz). 🔴 BU TABAN BUGÜN DÖRDÜNCÜ KEZ YÜKSELDİ (667→672→673→727→731) ve artık bir DESEN: her veri eklemesi bu sayıyı oynatıyor, ben her seferinde gerekçe yazıp yükseltiyorum. Bu, kapının kendi tasarımının söylediği şey (değişim sezici, kalite kapısı değil) — AMA taban kampanya boyunca her teslimde değil, KAMPANYA SONUNDA bir kez yeniden hesaplanmalı. Emre'ye bildirildi. · 🔴 673→727 (24 Eylül 2026 akşamı): BİTİR-1923-0078'in A katmanı kolu indi — beş oturum, 358 yeni nokta (3.936→4.294), 87→92 girdi dosyası. Sınıf kırılımı ÖLÇÜLDÜ: A-koridor 495→533 (+38, örnekleme eseri) · B-bilinmiyor 172→184 (+12, kaynak susuyor) · C-hakiki 5→10 (+5). C-hakiki'nin YENİLERİ okundu: Tazmanya (Hobart+Launceston+Campbell Town+Oatlands, 822-864 km) GERÇEK BİR ADA ve `cografi-tecrit` muafiyeti onu YAKALAMAMIŞ — muafiyetin kusuru, verinin değil; Khami/Danangombe (Rozvi, Zimbabve) ingiltere gövdesinden uzak; kalanlar `__BOSLUK__` adası, yani KASITLI BEYAN (kusur değil). 📌 BU TABAN BUGÜN ÜÇÜNCÜ KEZ YÜKSELDİ (667→672→673→727) ve bu bir kusur DEĞİL, bu dalın TABİATI: Değişmez 7 bir kalite kapısı değil DEĞİŞİM SEZİCİDİR — nokta eklendikçe kaçınılmaz olarak artar, her artış gerekçesiyle kayda geçer. Kalıcı çare iki kalem: ① `cografi-tecrit` muafiyeti adaları neden kaçırıyor ② ara noktalar. · 667→673 (24 Eylül 2026, A katmanı: Silezya/Sudet 8 + orta Polonya/Bohemya 7 = 15 nokta). ÖNGÖRÜ YAZILDI, SINANDI, KISMEN ÇÜRÜDÜ: Silezya 8 noktası tabanı 667→672 yaptı; "aradaki noktalar inince DÜŞECEK" demiştim. Ara noktalar indi ve ADINI VERDİĞİM İKİ ADA GERÇEKTEN YOK OLDU — "Kattowitz+Krakov" ve "Broumov+Jeseník" artık listede geçmiyor, yeni 15 noktadan HİÇBİRİ bir adada görünmüyor (ölçüldü: --ayrinti | grep, 0 satır). Ama toplam 672→673 ÇIKTI: net +1, benim noktalarımı İÇERMEYEN bir yan etki, peteğin başka yerinde. Teşhis edilmedi ⇒ 'ölçülemedi' yazılıyor, sebep UYDURULMUYOR. Hedef hâlâ 667. · 666→667: Budin/Peşte 1527-29 Habsburg dönemi (TDV süleyman-i) Zapolya vasal adasını iki pencereye böldü, aynı ada iki kez sayılıyor (GEMINI-DOGRULA 19 Eyl) · 664→666: Diyarbakır TDV zinciri (1353 celâyirli · 1394 timurlu · 1401 akkoyunlu), KRONO-2S-3 19 Eyl — +2 A-koridor, kaynaklı düzeltme; komşu kayıtlar şehir düzeyinde kaynak bekliyor
 # 🟡 658 -> 664, 14 EYLUL 2026 gecesi — DALGA SINIF2 toparlamasi, koşu 11 oncesi.
 #    ⚠️ KALEM KALEM OLCULMEDI (limit sonu, bilincli borc): +1 Katar dolgusu 1559-1670
 #    tabi -> kopuk Lahsa adasina katildi (P06 olctu) · kalan +5 ayni aralikta inen
@@ -4244,11 +4261,26 @@ def main():
     # ── Değişmez 7 — ENKLAV SORGUSU ──────────────────────────────────
     d7, d7muaf = degismez7(Y)
     n7 = len(d7)
-    durum7 = "✓" if n7 <= BEKLENEN_ENKLAV_SORGU else "✗"
-    if n7 > BEKLENEN_ENKLAV_SORGU:
+    _asim = n7 > BEKLENEN_ENKLAV_SORGU
+    if _asim:
+        durum7 = "🧊" if KAMPANYA_DONDURMA else "✗"
+    else:
+        durum7 = "🧊" if KAMPANYA_DONDURMA else "✓"
+    if _asim and not KAMPANYA_DONDURMA:
         ihlal = True
     print(f"\nDeğişmez 7  {durum7}  {n7} sorgusuz enklav "
           f"(beklenen {BEKLENEN_ENKLAV_SORGU}) — kopuk gövde, koridor sorulmadı")
+    if KAMPANYA_DONDURMA:
+        print( "            🧊 TABAN DONDU — Emre'nin hükmü (25 Eylül 2026): kampanya")
+        print( "               boyunca yükseltilmez, KAMPANYA SONUNDA bir kez hesaplanır.")
+        if _asim:
+            print(f"               ⚠️ ŞU AN {n7 - BEKLENEN_ENKLAV_SORGU} AŞIM VAR ve bu İHLAL "
+                  f"SAYILMIYOR — sayı")
+            print( "                  saklanmıyor, hükmü erteleniyor. Aşımın SINIFI aşağıdaki")
+            print( "                  kovalardan okunur; A-koridor ise çare ara nokta, C-hakiki")
+            print( "                  ise çare `enklav:true` ya da muafiyet kusuru.")
+        print( "               🔴 Kampanya bitince `KAMPANYA_DONDURMA = False` — yapılmazsa")
+        print( "                  bu dondurma bir GEVŞETMEYE dönüşür (`D004`).")
     print( "            muaf: " + " · ".join(f"{k} {v}" for k, v in d7muaf.items()))
     print( "            🔴 BU DAL VERİ DEĞİL YÖNTEM ÖLÇER. Bir ada, veri YANLIŞ")
     print( "               olduğu için de DOĞRU olduğu için de doğar. Aşağıdaki")
@@ -4256,9 +4288,14 @@ def main():
     print( "               YANLIŞ\"* DEMEZ. Kayıtları silerek kapatmak, hakiki")
     print( "               enklavları yok etmek olur.")
     if n7 < BEKLENEN_ENKLAV_SORGU:
-        print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_ENKLAV_SORGU = {n7} "
-              f"yapılmalı. Aradaki {BEKLENEN_ENKLAV_SORGU - n7} puanlık gerçek "
-              f"gerileme GÖRÜNMEZ.")
+        if KAMPANYA_DONDURMA:
+            print(f"            🧊 TAVAN GEVŞEK ({BEKLENEN_ENKLAV_SORGU - n7} puan) ama "
+                  f"DONDURMA yüzünden İNDİRİLMİYOR —")
+            print( "               indirmek de bir oynatmadır. Kampanya sonunda tek seferde.")
+        else:
+            print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_ENKLAV_SORGU = {n7} "
+                  f"yapılmalı. Aradaki {BEKLENEN_ENKLAV_SORGU - n7} puanlık gerçek "
+                  f"gerileme GÖRÜNMEZ.")
     _kova = {}
     for r in d7:
         _kova[r["kova"]] = _kova.get(r["kova"], 0) + 1
