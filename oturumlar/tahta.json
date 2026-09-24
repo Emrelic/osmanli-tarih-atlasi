@@ -157731,5 +157731,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5084",
+  "zaman": "2026-09-24 13:22",
+  "kimden": "SINIR-D-KOMSU-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · SINIR-D-KOMSU-0077 · dört manda kaydı · commit 5c579927 (push yok) · ayrıntı denetim/SINIR-D-KOMSU-0077.md §3b-3c · (Arnavutluk + 11 YOK teslimi: M-5077, commit af6fab3a) ① ÖLÇTÜM - Öngörü önce yazıldı (13:13): \"4'ün en çok 2'si hat alır: fi-sy + iq-necd (E)\". İKİ YARISI DA ÇÜRÜDÜ: fi-sy hat almadı, iq-necd E değil C çıktı; iq-sy ve sy-jo C oldu. - ORTADOĞU'nun hazır kayıtlarını (M-5080) kendi kaynağımla doğruladım (D207): 1920 Sözleşmesi md.1 metni FRUS 1921 c.I belge 113'ten (Ebu Kemal → \"straight line to Imtar\" → Nasib güneyi → Semakh) · Ukayr md.1(a)(b)(d) IBS 111 s.11-12 (\"has not been accomplished\" ⇒ işaretsiz ⇒ C) · çıpalar GeoNames'te birebir (Cümeyme, Akabe, Useymîn, Cedîdetü Ar'ar, Amgar, Ebu Kemal, Imtan). - Bağımsız ölçüm (denetim/SINIR-D-KOMSU-0077-manda-olc.py): bugünkü IRQ–SYR çizgisi Fırat güneyinde 1920 Ebu Kemal–Imtar doğrusundan medyan 1,3 / en çok 7,1 km · JOR–SYR 5,8–12,2 km medyan, en çok 14,1 ⇒ ORTADOĞU'nun kesinlik 20/10 km değerleri tutarlı. - Uygulandı: 3 YOK → 5 C (d1923-iq-sy-1920 · d1923-sy-jo-1920 · d1923-iq-necd-ukayr · -tarafsiz-kuzey · -tarafsiz-guney). f/t/taraflar eskiyle aynı (betikte assert), sol_taraf yönleri tek tek kontrol edildi. - Dosya: 55 kayıt · E 19 · C 21 · D 1 · YOK 14. 1923-09-01 hukukî görünümde çizilen 21 hat, 7.588 km (şartnamedeki 4.226'dan). ARAC-MILIMETRIK --hepsi ① 0 · bu dosyada ② yalnız eski bg-ro-tuna · mükerrer id 0 · node --check temiz. - Renk: beşi de C ⇒ boya oturmaz, kazanç yalnız çizgide (ORTADOĞU'nun ölçüsü: Irak–Necid ±20 km'de 7/7 nokta gövdesiz — E olsa da renk değişmezdi). ② BULAMADIM - d1923-fi-sy-DEGISTI YOK KALDI: NE'nin ISR–SYR çizgisi 35,76–35,89°D (Golan'ın doğusu), 1923 hattı Taberiye doğu kıyısı + Ürdün nehri (~35,6–35,7°D) ⇒ vekil olamaz; Paulet–Newcombe'un koordinatlı dökümü bulunamadı. - Tarayıcıda görsel doğrulama YAPILAMADI: dev sunucu kotası dolu (5/5 başka oturumlarda). Yerine d_katman'ın pencere süzgeci node'da taklit edildi: 9 yeni/yükseltilmiş hattın hepsi 1923-09-01'de aktif, koordinatlar geçerli. - Imtar = Imtān özdeşliği okumadır; kaynakta koordinat yok. ③ İSTİYORUM - data/sinir_sinif_dizini.js (üretilmiş, index.html yüklüyor) eski id'leri ve eski sınıfları taşıyor: py denetim/ARAC-SINIF-DIZINI-0916.py --yaz — senin dosyan. - Kalan 14 YOK'un hiçbirinde okunmuş kaynakla hat kurulacak yol görmüyorum (liste §3). d1923-iq-kw-DEGISTI ile d1923-iq-jo-FIILI'ye dokunmadım — biri kaynak (DoS Bulletin 13) açılırsa C adayı, öteki 1923'te hukukî hat yok. Başka kalem yoksa işim bitti; \"bitti\" dersen bekçimi kapatırım. Değişen: data/d_sinirlar_komsu.js · denetim/SINIR-D-KOMSU-0077.md · denetim/SINIR-D-KOMSU-0077-manda.py · denetim/SINIR-D-KOMSU-0077-manda-olc.py",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5085",
+  "zaman": "2026-09-24 13:22",
+  "kimden": "SINIR-D-AMERIKA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · SINIR-D-AMERIKA-0077 · commit b96eeb45 (push sende) · SON ① hn-ni-dogu hükmü uygulandı. Not alanı \"🔴 1923'TE TARAFLAR ARASINDA İHTİLAFLIDIR\" diye açılıyor. Sırayla şunları yazıyor: çizgi Honduras'ın dayandığı hat, Nikaragua'nın kabul ettiği hat değil · 23 Ara 1906 kararı (Cabo Gracias a Dios – Coco – Teotecacinte) · taraflar önce kabul eder göründü, Nikaragua sonra \"tümden reddedildi\" dedi · ihtilaf savaş öncesinde tahkim girişimleriyle sürdü · UAD 18 Kas 1960, pencereden 37 yıl sonra, 1923 için onay sayılmaz · C belgenin geçerliliğini değil koordinatın kabalığını söyler. Veri farkı tek satır · node --check ✓ · MILIMETRIK ① 0. ② BULAMADIM: Ret yılı IBS 36'da YOK (\"Nicaragua later maintained that the award was rejected in toto\", s.5; yıl verilmiyor). Senin verdiğin 1912 DOĞRULANMADI, bu yüzden kayda yazmadım. Başka kaynakta bulunursa not alanına eklenir. ③ Kronoloji kuyruğu (data/kronoloji_sinir_amerika.js) — maddesi olmayan yeni C hatları · başlangıç günü · olay: d1923-ar-cl-1..5 · 1902-11-20 · VII. Edward'ın Arjantin–Şili hakem kararı d1923-co-ve · 1891-03-16 · İspanya Kraliçesi'nin Kolombiya–Venezuela hakem kararı d1923-co-br-kuzey-1..2 · 1907-04-24 · Brezilya–Kolombiya Bogotá antlaşması d1923-br-gf · 1900-12-01 · İsviçre Federal Konseyi'nin Brezilya–Fransız Guyanası kararı d1923-bo-br · 1904-03-10 · Petrópolis antlaşması onayı d1923-sr-gf-maroni-awa · 1891-05-25 · Çar III. Aleksandr kararı (Awa sınır ırmağı) d1923-pa-co-1922 · 1922-03-01 · Thomson–Urrutia onay teatisi (Kolombiya Panama'yı tanır) d1923-us-mx-rio-grande-1..2 · 1848-05-30 · Guadalupe Hidalgo onay teatisi d1923-us-mx-colorado · 1854-06-30 · Gadsden onay teatisi d1923-ca-us-lake-of-the-woods · 1867-07-01 · Kanada Dominyonu (künye günü; belge günü değil) d1923-ca-us-alaska-guneydogu · 1905-03-25 · Alaska kararını uygulayan notalar d1923-bo-cl-tacna · 1905-03-10 · Bolivya–Şili 1904 antlaşması onayı d1923-hn-ni-dogu · 1906-12-23 · İspanya Kralı kararı (İHTİLAFLI, madde bunu söylemeli) Hangisinin zaten bir maddesi olduğunu ÖLÇMEDİM; kuyruğa alırken bak. Bekçimi öldürüyorum, iş bitti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
