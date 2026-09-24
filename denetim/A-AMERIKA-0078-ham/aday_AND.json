@@ -1,0 +1,492 @@
+[
+ {
+  "hedef": "-20.75, -68.25",
+  "ad": "Colcha K",
+  "lat": -20.7404,
+  "lon": -67.6606,
+  "tur": "sehir",
+  "kur": "1885-12-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1885-12-04",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia, 2021 (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/senado-rinde-un-homenaje-la-provincia-de-nor-lipez-en-su-136-aniversario — «El 4 de diciembre de 1885 … se crea la Provincia Nor Lipez» ; aynı kurumun 131. yıl haberi: «el Virrey Francisco de Toledo agrupó a los indígenas en poblados… Colcha»",
+  "neden": "Colcha bir Toledo reducción'udur (yılı kaynakta yok); 1885 yasasıyla kurulan Nor Lípez ilinin içindedir ve il merkezi San Cristóbal'dan sonradan Colcha K'ya taşınmıştır. 1923'te Bolivya il idaresi bölgededir; kur = belgelenmiş en erken idari tarih (1885).",
+  "mesafe_km": 61,
+  "sorun": "Merkez naklinin tarihi resmî kaynakta yok (yalnız Vikipedi/derlemeler: 2 Şubat 1917). kur gerçek idari başlangıçtan GEÇ olabilir (Toledo reducción'u 1570'ler, yılı bulunamadı)."
+ },
+ {
+  "hedef": "-10.75, -71.75",
+  "bulunamadi": true,
+  "neden": "Hedef Alto Purús / Alto Manu ormanı (Madre de Dios–Ucayali–Cusco sınırı). INEI 1997 kuruluş tablosunda 150 km içinde 1923 öncesi kurulmuş ilçe merkezi yok: Madre de Dios ilçeleri (Ley 1782, 26 Ara 1912) merkezleri (Boca Manu, Salvación, Puerto Maldonado) 160+ km; Purús ilçesi Ley 9815 (1943); Sepahua Ley 23416 (1982). Bölge 1923'te kauçuk barakaları ve yerli (Mashco-Piro, Nahua, Yine) yurdu — devlet idaresi bulunamadı."
+ },
+ {
+  "hedef": "-11.75, -69.25",
+  "ad": "Puerto Maldonado",
+  "lat": -12.5939,
+  "lon": -69.1867,
+  "tur": "sehir",
+  "kur": "1912-12-26",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1912-12-26",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Madre de Dios: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-madr.htm — «TAMBOPATA LEY 1782 26 DIC 1912»",
+  "neden": "Ley 1782 (26 Ara 1912) Madre de Dios departmanını kurdu; merkez Puerto Maldonado (Tambopata ilçesi). 1923'te Peru departman merkezi. Kasaba 10 Tem 1902'de hükûmet komiseri Juan S. Villalta tarafından kuruldu — bu gün resmî/akademik kaynakla doğrulanamadığı için kur 1912 alındı.",
+  "mesafe_km": 94,
+  "sorun": ""
+ },
+ {
+  "hedef": "-11.25, -66.75",
+  "ad": "Riberalta",
+  "lat": -11.0128,
+  "lon": -66.0572,
+  "tur": "sehir",
+  "kur": "1894-02-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-02-03",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/aprueban-homenaje-la-ciudad-de-riberalta-en-su-124-aniversario-de-creaci%C3%B3n — «Riberalta fue fundada el 3 de febrero del año 1894»",
+  "neden": "Riberalta 3 Şubat 1894'te Bolivya hükûmet delegeliği eliyle villa olarak kuruldu; 1923'te Beni'nin kuzeyinde Bolivya idare merkezi.",
+  "mesafe_km": 80,
+  "sorun": ""
+ },
+ {
+  "hedef": "-19.25, -63.25",
+  "ad": "Lagunillas (Cordillera)",
+  "lat": -19.6518,
+  "lon": -63.6759,
+  "tur": "sehir",
+  "kur": "1855-04-24",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1855-04-24",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/aprueban-reconocimiento-al-municipio-de-lagunillas-%E2%80%93-santa-cruz — «El municipio de Lagunillas fue fundado el 24 de abril de 1855»",
+  "neden": "Lagunillas 1855'te kuruldu ve Cordillera ilinin merkezi oldu; 1923'te Bolivya il idaresi (Chaco Savaşı öncesi Bolivya iç bölgesi).",
+  "mesafe_km": 63,
+  "sorun": ""
+ },
+ {
+  "hedef": "-15.25, -73.25",
+  "ad": "Quechualla",
+  "lat": -15.3241,
+  "lon": -73.0575,
+  "tur": "sehir",
+  "kur": "1835-05-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1835-05-04",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Arequipa: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-areq.htm — «QUECHUALLA DECRETO S/N 04 MAY 1835»",
+  "neden": "Cotahuasi kanyonunda, 1835 kararnamesiyle kurulmuş ilçe merkezi; 1923'te Peru (La Unión ili). Daha büyük Pausa/Coracora/Cotahuasi INEI'de yalnız 'época indep.' (gün/yıl yok) olduğu için tarihi belli Quechualla seçildi.",
+  "mesafe_km": 22,
+  "sorun": ""
+ },
+ {
+  "hedef": "-12.75, -75.25",
+  "ad": "Huancavelica (Villa Rica de Oropesa)",
+  "lat": -12.7864,
+  "lon": -74.9756,
+  "tur": "sehir",
+  "kur": "1571-08-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1571-08-04",
+    "t": "1824-12-09",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1824-12-09",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Agencia Peruana de Noticias Andina (devlet ajansı): https://andina.pe/agencia/noticia-huancavelica-enamorate-sus-fascinantes-atractivos-turisticos-su-451-aniversario-904455.aspx — «Fundada el 4 de agosto de 1571 con el nombre de 'Villa Rica de Oropesa'»",
+  "neden": "Toledo döneminde civa madeni için İspanyol villası olarak kuruldu; 1923'te Huancavelica departmanının merkezi (Peru).",
+  "mesafe_km": 30,
+  "sorun": ""
+ },
+ {
+  "hedef": "-13.25, -70.75",
+  "ad": "Marcapata",
+  "lat": -13.5917,
+  "lon": -70.9748,
+  "tur": "sehir",
+  "kur": "1869-01-20",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1869-01-20",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Cusco: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-cusc.htm — «MARCAPATA LEY S/N 20 ENE 1869»",
+  "neden": "Quispicanchi ilinde 1869 yasasıyla ilçe merkezi; 1923'te Peru idaresi. Kasaba koloni döneminden beri vardır (yılı kaynakta yok) — kur belgelenmiş ilçe yasasıdır.",
+  "mesafe_km": 45,
+  "sorun": ""
+ },
+ {
+  "hedef": "-17.25, -64.75",
+  "ad": "Totora (Carrasco)",
+  "lat": -17.7356,
+  "lon": -65.1919,
+  "tur": "sehir",
+  "kur": "1872-06-24",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1872-06-24",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/provincia-carrasco-y-su-primera-secci%C3%B3n-municipal-totora-recibir%C3%A1n-reconocimiento — «el 24 de junio de 1872, se obtiene la ley … nueva provincia … Carrasco»",
+  "neden": "Totora 1872 yasasıyla kurulan Carrasco ilinin merkezi (şehir unvanı); 1923'te Bolivya. Daha önce Mizque'ye bağlı papazlık (1639) — kur il yasasıdır.",
+  "mesafe_km": 71,
+  "sorun": ""
+ },
+ {
+  "hedef": "-8.75, -77.25",
+  "ad": "Parobamba",
+  "lat": -8.6958,
+  "lon": -77.43,
+  "tur": "sehir",
+  "kur": "1868-08-28",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1868-08-28",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Áncash: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-anca.htm — «PAROBAMBA LEY S/N 28 AGO 1868»",
+  "neden": "Pomabamba ilinde 1868 yasasıyla ilçe merkezi; 1923'te Peru. (Pomabamba/Piscobamba INEI'de yalnız 'época indep.', yıl yok.)",
+  "mesafe_km": 21,
+  "sorun": ""
+ },
+ {
+  "hedef": "-3.75, -79.25",
+  "ad": "Loja",
+  "lat": -3.9968,
+  "lon": -79.2017,
+  "tur": "sehir",
+  "kur": "1548-12-08",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1548-12-08",
+    "t": "1822-05-24",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1822-05-24",
+    "t": "1830-05-13",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1830-05-13",
+    "t": "1923-10-29",
+    "d": "ekvador-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Parlamento Andino: https://www.parlamentoandino.org/index.php/actualidad/noticias/2080-fundacion-de-loja-ecuador-3 — «la realizó el capitán Alonso de Mercadillo … el 8 de diciembre de 1548»",
+  "neden": "Mercadillo'nun 1548'de Cuxibamba vadisinde kurduğu kesin Loja (1546 La Zarza denemesi Garrochamba'da, başka yer); 1923'te Loja eyaletinin merkezi (Ekvador).",
+  "mesafe_km": 28,
+  "sorun": ""
+ },
+ {
+  "hedef": "-17.75, -60.25",
+  "ad": "San José de Chiquitos",
+  "lat": -17.8455,
+  "lon": -60.7422,
+  "tur": "sehir",
+  "kur": "1767-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1767-01-01",
+    "t": "1825-08-06",
+    "d": "ispanya"
+   },
+   {
+    "f": "1825-08-06",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobernación Autónoma de Santa Cruz: https://santacruz.gob.bo/san-jose-chiquitos — «Tras la expulsión de los jesuitas en 1767, el pueblo pasó por periodos de crisis»",
+  "neden": "1697 Cizvit misyonu olarak kuruldu (misyon sayılmadı); 1767 Cizvit sürgünüyle kraliyet sivil idaresine geçti, cumhuriyette Chiquitos ilinin merkezi; 1923'te Bolivya.",
+  "mesafe_km": 53,
+  "sorun": "kur = sivil idareye geçiş yılı (1767); ay/gün kaynakta yok."
+ },
+ {
+  "hedef": "-11.25, -73.25",
+  "bulunamadi": true,
+  "neden": "Hedef Bajo Urubamba / Tambo–Ucayali birleşimi (Sepahua–Atalaya). INEI 1997 tablosunda 150 km içinde 1923 öncesi ilçe yok: Sepahua Ley 23416 (1982), Tahuanía Ley 9815 (1943), Raymondi/Atalaya 1943 sonrası; en yakın eski ilçe Echarate (Ley 2 Oca 1857) ~169 km. 1923'te misyon/kauçuk barakaları ve Asháninka–Yine yurdu; devlet idaresi bulunamadı."
+ },
+ {
+  "hedef": "-20.75, -65.75",
+  "ad": "Cotagaita (Santiago de Cotagaita)",
+  "lat": -20.8178,
+  "lon": -65.6587,
+  "tur": "sehir",
+  "kur": "1570-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1570-01-01",
+    "t": "1825-08-06",
+    "d": "ispanya"
+   },
+   {
+    "f": "1825-08-06",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia, 24 Mar 2021 (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/senado-rinde-homenaje-al-municipio-de-cotagaita-en-sus-451-a%C3%B1os-de-fundaci%C3%B3n — «homenaje al municipio de Cotagaita en sus 451 años de fundación»",
+  "neden": "Toledo'nun emriyle Luis de Fuentes'in kurduğu İspanyol kasabası; cumhuriyette Nor Chichas ilinin merkezi (1923'te Bolivya). Yıl 2021'deki '451. yıl'dan türetildi (2021−451=1570); derlemelerde 25 Mart 1570 geçer, resmî kaynakta gün yok.",
+  "mesafe_km": 12,
+  "sorun": ""
+ },
+ {
+  "hedef": "-0.25, -79.75",
+  "ad": "Chone",
+  "lat": -0.6991,
+  "lon": -80.0945,
+  "tur": "sehir",
+  "kur": "1894-09-20",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-09-20",
+    "t": "1923-10-29",
+    "d": "ekvador-cumhuriyeti"
+   }
+  ],
+  "kaynak": "GAD Municipal de Chone: https://chone.gob.ec/chone-cantonizacion/ — «La vida del Municipio de Chone se inició el 20 de Septiembre de 1894»",
+  "neden": "Kanton 24 Tem 1894 yasama kararıyla kuruldu, belediye 20 Eyl 1894'te açıldı; 1923'te Ekvador kanton merkezi. Daha önce: 1735 dinî parroquia (San Cayetano de Chone), 1824 Gran Kolombiya toprak bölüm yasasıyla Manabí parroquia'sı (https://chone.gob.ec/chone-fundacion/) — o cümle Chone adını taşırken kesildiği için kur güvenli belediye tarihinde tutuldu.",
+  "mesafe_km": 63,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.25, -78.25",
+  "ad": "Lámud",
+  "lat": -6.139,
+  "lon": -77.9519,
+  "tur": "sehir",
+  "kur": "1861-02-05",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1861-02-05",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Amazonas: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-amaz.htm — «LAMUD LEY S/N 05 FEB 1861»",
+  "neden": "Luya ilinde 1861 yasasıyla ilçe merkezi; 1923'te Peru. (Chachapoyas daha büyük ama 1538 kuruluşundan sonra iki kez taşındı; bugünkü yerin tarihi resmî kaynakta bulunamadı.)",
+  "mesafe_km": 35,
+  "sorun": ""
+ },
+ {
+  "hedef": "-4.25, -71.25",
+  "ad": "Pebas",
+  "lat": -3.3206,
+  "lon": -71.8618,
+  "tur": "sehir",
+  "kur": "1866-02-07",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1866-02-07",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Loreto: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-lore.htm — «PEBAS DECRETO S/N 07 FEB 1866»",
+  "neden": "Amazon kıyısında 1866 kararnamesiyle ilçe merkezi; Amazon'un güney/kuzey kıyısındaki bu kesim 1922 Salomón–Lozano antlaşmasından etkilenmez, 1923'te Peru. Hedefe daha yakın (Caballococha) ilçe 1943'te kuruldu.",
+  "mesafe_km": 124,
+  "sorun": ""
+ },
+ {
+  "hedef": "-16.75, -67.25",
+  "ad": "Inquisivi",
+  "lat": -16.9072,
+  "lon": -67.1378,
+  "tur": "sehir",
+  "kur": "1884-11-02",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1884-11-02",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/pleno-del-senado-concede-una-declaraci%C3%B3n-camaral-la-provincia-inquisivi-por-su-137 — «La provincia Inquisivi fue creada el 2 de noviembre de 1884»",
+  "neden": "Inquisivi köyü aynı adlı ilin merkezi; 1923'te Bolivya il idaresi. Köy daha eskidir (derlemeler 1844 yasasıyla merkez der, resmî kaynak bulunamadı) — kur 1884 il yasası.",
+  "mesafe_km": 21,
+  "sorun": ""
+ },
+ {
+  "hedef": "-14.75, -75.75",
+  "ad": "Ica (Villa de Valverde)",
+  "lat": -14.0641,
+  "lon": -75.7291,
+  "tur": "sehir",
+  "kur": "1563-06-17",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1563-06-17",
+    "t": "1824-12-09",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1824-12-09",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Municipalidad Provincial de Ica (gob.pe): https://www.gob.pe/institucion/muniica/noticias/770753-celebremos-juntos-los-460-aniversario-de-la-fundacion-espanola-de-la-villa-de-valverde-del-valle-de-ica — «El 17 de junio de 1563 … realiza la fundación de la Villa de Valverde»",
+  "neden": "Ica vadisinde 1563'te kurulan İspanyol villası; 1923'te Ica departmanının merkezi (Peru).",
+  "mesafe_km": 76,
+  "sorun": "Derlemelere göre villa depremler yüzünden vadi içinde yer değiştirdi; bugünkü merkezin kesin tarihi resmî kaynakta yok (aynı vadi, birkaç km)."
+ },
+ {
+  "hedef": "-10.75, -77.25",
+  "ad": "Gorgor",
+  "lat": -10.6207,
+  "lon": -77.0412,
+  "tur": "sehir",
+  "kur": "1857-01-02",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1857-01-02",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Lima: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-lima.htm — «GORGOR LEY S/N 02 ENE 1857»",
+  "neden": "Cajatambo ilinde 1857 yasasıyla ilçe merkezi; 1923'te Peru. (Cajatambo'nun kendisi INEI'de 'época indep.', yıl yok.)",
+  "mesafe_km": 27,
+  "sorun": ""
+ },
+ {
+  "hedef": "-14.75, -71.75",
+  "ad": "Livitaca",
+  "lat": -14.3125,
+  "lon": -71.6895,
+  "tur": "sehir",
+  "kur": "1857-01-02",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1857-01-02",
+    "t": "1923-10-29",
+    "d": "peru-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INEI, Directorio 1997 'Dispositivo legal de creación' (Lib0361), Cusco: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0361/dis-cusc.htm — «LIVITACA LEY S/N 02 ENE 1857»",
+  "neden": "Chumbivilcas ilinde 1857 yasasıyla ilçe merkezi; 1923'te Peru. Kasaba koloni döneminden beri vardır, kur ilçe yasasıdır.",
+  "mesafe_km": 49,
+  "sorun": ""
+ },
+ {
+  "hedef": "-17.75, -62.75",
+  "ad": "Santa Cruz de la Sierra",
+  "lat": -17.7834,
+  "lon": -63.1821,
+  "tur": "sehir",
+  "kur": "1595-05-21",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1595-05-21",
+    "t": "1825-08-06",
+    "d": "ispanya"
+   },
+   {
+    "f": "1825-08-06",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobernación de Santa Cruz, Gaceta Oficial, Ley Departamental 255: https://gacetaoficial.santacruz.gob.bo/verpdf/ley-departamental-255 — «Se mudó el 21 de mayo de 1595 a los llanos de Grigotá»",
+  "neden": "San Lorenzo el Real 1595'te bugünkü yere (Grigotá ovası / Punta de San Bartolomé) taşındı; 1561 Santa Cruz'u 1622'de oraya katıldı. 1923'te Santa Cruz departmanının merkezi (Bolivya).",
+  "mesafe_km": 46,
+  "sorun": "1561 kuruluşu Chiquitos'ta, başka yerdedir; kur bugünkü yerdeki San Lorenzo'nun 1595 nakli."
+ },
+ {
+  "hedef": "-0.75, -91.25",
+  "ad": "Puerto Villamil",
+  "lat": -0.9561,
+  "lon": -90.9656,
+  "tur": "sehir",
+  "kur": "1902-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "ekvador-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Charles Darwin, Galapagueana – Cronología: https://galapagueana.darwinfoundation.org/sp/principal/cronologia.html — «1902 … Se establece una pequeña guarnición en Puerto Villamil»",
+  "neden": "1897'de Antonio Gil'in özel kolonisi olarak kuruldu (sayılmadı); 1902'de Ekvador garnizonu kondu. Galápagos 1832'den Ekvador'un.",
+  "mesafe_km": 39,
+  "sorun": "1923'te garnizonun sürdüğü belgelenmedi: aynı kronoloji 1928'de 'Una unidad militar se instala en Puerto Villamil' der. 1923 idaresi belirsiz; koordinatör kararı."
+ },
+ {
+  "hedef": "-1.75, -73.25",
+  "bulunamadi": true,
+  "neden": "Hedef Napo–Putumayo arası (Caraparaná/Algodón havzası). INEI tablosunda Napo, Mazán, Putumayo ilçeleri Ley 9815 (1943); 150 km içinde 1923 öncesi ilçe merkezi yok. Bölgedeki 1923 yerleşimleri Casa Arana/Peruvian Amazon Co. kauçuk istasyonlarıdır (El Encanto, La Chorrera — özel, SAYILMAZ); Putumayo kuzeyi 1922 Salomón–Lozano antlaşmasıyla Kolombiya'ya bırakıldı (onay 1928) — 1923 fiilî idaresi Peru askerî karakolu mu belirsiz, kaynaklı idari yer bulunamadı."
+ },
+ {
+  "hedef": "-12.75, -66.25",
+  "ad": "Santa Ana del Yacuma",
+  "lat": -13.7455,
+  "lon": -65.4279,
+  "tur": "sehir",
+  "kur": "1894-10-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-10-22",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Senadores de Bolivia (web.archive.org kopyası): https://web.senado.gob.bo/prensa/noticias/c%C3%A1mara-alta-homenajea-la-provincia-yacuma-de-beni-por-su-128-aniversario — «fue creada por Ley de fecha 22 de octubre de 1894, reconociendo de hecho como su capital, Santa Ana»",
+  "neden": "1708 Cizvit misyonu (sayılmadı); 1894 yasasıyla Yacuma ilinin merkezi; 1923'te Bolivya il idaresi. Hedefe 80 km içinde idari yer bulunamadı (Exaltación belediyesi 1995).",
+  "mesafe_km": 142,
+  "sorun": ""
+ }
+]

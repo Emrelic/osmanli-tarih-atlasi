@@ -1,0 +1,248 @@
+[
+ {
+  "hedef": "-23.25, -68.75",
+  "ad": "San Pedro de Atacama",
+  "lat": -22.9108,
+  "lon": -68.2001,
+  "tur": "sehir",
+  "kur": "1557-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1557-01-01",
+    "t": "1825-08-06",
+    "d": "ispanya"
+   },
+   {
+    "f": "1825-08-06",
+    "t": "1888-07-13",
+    "d": "bolivya-cumhuriyeti"
+   },
+   {
+    "f": "1888-07-13",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1879-09-10",
+    "t": "1888-07-13",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Devir (Şili kendi teşkilatı): González Pizarro, 'La provincia de Antofagasta. Creación y consolidación de un territorio nuevo en el Estado chileno: 1888-1933', Revista de Indias LXX/249 (2010) 345-380, https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/715/785/1206 — \"Ley 3.346 de 13 de julio de 1888 que crea la provincia de Antofagasta\"; 23°G kuzeyi için Dışişleri Bakanı: \"territorios respecto de los cuales no tenemos sino el mero imperio\". İşgal: Wikipedia 'Batalla de Río Grande' / La Tercera 2022-12-05 (Şili müfrezesi 10 Eylül 1879'da SPA kuzeyindeki Río Grande'de konuşlu). Kur: https://munispa.cl/historia-cultura/ — \"En el año 1557 ...\"",
+  "neden": "1923'te Şili idaresinde (Antofagasta provinciası; 1893'ten Caracoles comunasına bağlı subdelegación — RdI). SPA 23°G paralelinin KUZEYİNDE (22,91°G): 2 Mayıs 1879 kanunu yalnız 23° güneyindeki Antofagasta departmanını kurdu; kuzey kesim 1884 ateşkesinde yalnız 'mero imperio' ile Şili elinde kaldı ve ilk kez 1888 Antofagasta provinciası kanunuyla Şili vilayet teşkilatına girdi (Calama/Caracoles alcaldelerini Cumhurbaşkanı atar, md. 13).",
+  "mesafe_km": 68,
+  "sorun": "① Bolivya başlangıcı: emsal tablosuna göre 1825-08-06 (Atacama Potosí'ye bağlıydı); Bolivya'nın Atacama/Litoral birimini kuran kararname günü BULUNAMADI. ② Şili'nin SPA'yı fiilen aldığı gün BULUNAMADI: Calama 23 Mart 1879'da düştü (Memoria Chilena), SPA ondan sonra; kaynaklı en geç tarih 10 Eylül 1879 (Río Grande'de Şili müfrezesi, yalnız Vikipedi/gazete). isg.f seçenekleri: 1879-09-10 (kaynaklı, geç) ya da 1879-03-23 (Calama düşüşü, SPA için ÇIKARIM). ③ Kanun günü 13 Temmuz 1888 (RdI dipnot 34); kanun Diario Oficial'de yayından 30 gün sonra yürürlüğe girdi (md. 18), yayın günü bulunamadı. ④ Alternatif erken devir: 1884-10-31 Ley 2.261 geçici md. 4 'territorio de Antofagasta'yı seçim için departman saydı; 1885 sonunda 'Gobernación del Litoral Norte' 23° kuzeyinde Şili makamı olarak yazışıyor. Kur 1557 zayıf (aynı cümle 1553'te ölen Valdivia'ya atfediliyor)."
+ },
+ {
+  "hedef": "-21.75, -69.75",
+  "ad": "Tocopilla",
+  "lat": -22.0887,
+  "lon": -70.1961,
+  "tur": "sehir",
+  "kur": "1871-05-08",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1871-05-08",
+    "t": "1888-07-13",
+    "d": "bolivya-cumhuriyeti"
+   },
+   {
+    "f": "1888-07-13",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1879-03-27",
+    "t": "1888-07-13",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Bolivya: Decreto Supremo 8 de mayo de 1871 (Gaceta Oficial de Bolivia), https://www.derechoteca.com/gacetabolivia/decreto-supremo-08-05-1871-3-del-08-mayo-1871 — \"Son declarados puertos menores de comercio, el de Tocopilla y la caleta de la Chimba\". İşgal: Memoria Chilena, 'Las operaciones militares de la Guerra del Pacífico (1879-1884)', https://www.memoriachilena.gob.cl/602/w3-article-693.html — \"La Escuadra Nacional ... ocupa, sin resistencia, Cobija y Tocopilla\" (27 Mart 1879). Şili teşkilatı: González Pizarro, 'La provincia de Antofagasta. Creación y consolidación de un territorio nuevo en el Estado chileno: 1888-1933', Revista de Indias LXX/249 (2010) 345-380, https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/715/785/1206 — Ley 3.346 (13 Temmuz 1888) provinciayı \"Tocopilla, Antofagasta y Taltal\" departmanlarına böldü.",
+  "neden": "1923'te Şili Antofagasta provinciasının Tocopilla departmanı merkezi. Liman 1843'te özel (Latrille) kuruldu; devlet idaresinin belgeli başlangıcı Bolivya'nın 8 Mayıs 1871 liman kararnamesi. 23°G kuzeyinde olduğundan 1879-1888 arası yalnız askerî işgal (Şili Bolivyalı memurları yerinde bıraktı).",
+  "mesafe_km": 59,
+  "sorun": "İşgal günü çelişkili: Memoria Chilena 27 Mart 1879 (seçildi), es.wikipedia 22 Mart 1879 (Simpson'un çıkarması). 1888 kanununun yürürlük günü (yayından +30 gün) bulunamadı. Erken devir alternatifi SPA ile aynı (1884-10-31 seçim hükmü)."
+ },
+ {
+  "hedef": "-18.25, -69.75",
+  "ad": "Putre",
+  "lat": -18.1964,
+  "lon": -69.5592,
+  "tur": "sehir",
+  "kur": "1580-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1580-01-01",
+    "t": "1824-12-09",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1824-12-09",
+    "t": "1884-10-31",
+    "d": "peru-cumhuriyeti"
+   },
+   {
+    "f": "1884-10-31",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1880-06-07",
+    "t": "1884-10-31",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Şili teşkilatı: 'Estado chileno en Tacna y Arica: antecedentes de una experiencia de ocupación (1880-1914)', Redalyc https://www.redalyc.org/journal/339/33962174002/html/ — \"Por ley de la República promulgada con fecha 31 de octubre de 1884, con el N° 2261 ... organizar política y administrativamente\" Tacna ve Arica; Arica subdelegasyonları 9 Mayıs 1885 kararnamesiyle düzenlendi. İşgal: Memoria Chilena, 'Las operaciones militares de la Guerra del Pacífico (1879-1884)', https://www.memoriachilena.gob.cl/602/w3-article-693.html — \"Chile toma Arica\" (7 Haziran 1880). Kur: Enciclonet (akademik değil).",
+  "neden": "1923'te Şili Tacna provinciasının Arica departmanında Putre subdelegación merkezi (Polis/U. Los Lagos). Şili 1884-10-31 kanunuyla kendi provincia/departman teşkilatını kurduğundan o günden Şili s dönemi; 1880-1884 askerî işgal.",
+  "mesafe_km": 21,
+  "sorun": "① İşgal günü Putre için değil, Arica departmanının merkezi Arica'nın düşüşü (1880-06-07) — yayla köyünün fiilî işgal günü BULUNAMADI. ② Egemenlik hukuken askıdaydı: Ancón (imza 1883-10-20; Peru Meclisi onayı 1884-03-08 [RdI] / canje 1884-03-28 [yalnız Vikipedi]) Tacna-Arica'yı 10 yıl Şili'ye bırakıp plebisit öngördü; 1929 Lima Antlaşmasıyla Arica Şili'ye geçti. Atlas ölçütüne göre 1884-10-31 s devri önerildi; 'egemenlik askıda' diye isg'yi 1929'a uzatmak koordinatörün kararı. ③ Kur 1580 akademik olmayan kaynaktan; Peru bağımsızlık günü emsaldeki 1824-12-09."
+ },
+ {
+  "hedef": "-24.75, -70.25",
+  "ad": "Taltal",
+  "lat": -25.4078,
+  "lon": -70.4858,
+  "tur": "sehir",
+  "kur": "1872-12-01",
+  "hassasiyet": "ay",
+  "s": [
+   {
+    "f": "1872-12-01",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Taltalia N° 16 (2023-2024), Museo Augusto Capdeville – Ilustre Municipalidad de Taltal (hakemli yayın kurulu), s. 92: https://museotaltal.cl/wp-content/uploads/2025/01/Taltalia-16.pdf — \"Desde diciembre de 1872 existían tenencias de aduanas en Paposo, el Cobre y Taltal\"; aynı sayfa: \"un puerto establecido por intereses privados desde 1858 ... formalmente fundado en 1877\"",
+  "neden": "Taltal limanı 1858'den özel (Moreno); devlet idaresinin belgeli başlangıcı Aralık 1872 gümrük tenencia'sı (Chañaral gümrüğüne bağlı), resmî kuruluş 1877 (gün yok), Puerto Mayor 25 Ocak 1881, departman 1884, 1888'de Antofagasta provinciasına. Hep Şili (24°G güneyi).",
+  "mesafe_km": 77,
+  "sorun": "Önceki kayıttaki 1858-07-12 'Supremo Decreto' yalnız derleme sitesinde (albumdesierto) — resmî/akademik kaynakta BULUNAMADI; Taltalia 1858'i 'özel çıkarlar' limanı diye niteliyor. Kur buna göre 1872-12 (ay) olarak düzeltildi."
+ },
+ {
+  "hedef": "-51.25, -72.75",
+  "ad": "Puerto Natales",
+  "lat": -51.7262,
+  "lon": -72.506,
+  "tur": "sehir",
+  "kur": "1911-05-31",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1911-05-31",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Yıl: Memoria Chilena, 'Última Esperanza' https://www.memoriachilena.gob.cl/602/w3-article-93348.html — \"En 1911 se fundó Puerto Natales\"; gün/kararname: El Pingüino https://www.elpinguino.com/opinion/aniversario-de-puerto-natales — \"Decreto N° 832 del Presidente Ramón Barros Luco\"",
+  "neden": "Şili devlet kararnamesiyle kurulan kasaba; 1923'te Última Esperanza'nın idarî merkezi (comuna ise 30 Aralık 1927 DFL 8583 ile — SUBDERE).",
+  "mesafe_km": 56,
+  "sorun": "Memoria Chilena yalnız YILI teyit ediyor; 31 Mayıs günü ve 832 sayılı kararname yalnız gazetede (BCN/leychile'de kararname bulunamadı). Gerekirse kur 1911-01-01, hassasiyet yil."
+ },
+ {
+  "hedef": "-37.75, -59.75",
+  "ad": "Tandil",
+  "lat": -37.3283,
+  "lon": -59.1357,
+  "tur": "sehir",
+  "kur": "1823-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1823-01-01",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INCUAPA-CONICET: https://incuapa.conicet.gov.ar/estudio-de-los-canones-del-fuerte-independencia-1823-tandil-buenos-aires-argentina/ — \"la fundación del Fuerte Independencia (1823)\"",
+  "neden": "Buenos Aires hükümetinin Fuerte Independencia'sı; 1923'te Tandil partido merkezi. Yaygın gün 4 Nisan 1823 resmî/akademik kaynakta görülmedi → yıla indirildi.",
+  "mesafe_km": 72,
+  "sorun": ""
+ },
+ {
+  "hedef": "-23.75, -62.75",
+  "ad": "Rivadavia (Salta)",
+  "lat": -24.1833,
+  "lon": -62.8833,
+  "tur": "sehir",
+  "kur": "1862-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1862-01-01",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de Salta, 150. yıl töreni (Aralık 2012): https://www.salta.gob.ar/prensa/videos/institucional-1/gobernador-urtubey-en-aniversario-de-rivadavia-banda-sur-111212-gobierno-de-salta-1823",
+  "neden": "Salta eyalet yasasıyla kurulan Colonia Rivadavia; 1923'te Rivadavia departmanı merkezi. 13 Aralık 1862 günü yalnız Vikipedi'de → yıla indirildi.",
+  "mesafe_km": 50,
+  "sorun": "1862 kolonisinin bugünkü Rivadavia Banda Sur ile aynı yerde olduğu ölçülemedi (Bermejo/Teuco yatak değişimi)."
+ },
+ {
+  "hedef": "-31.75, -59.25",
+  "ad": "Villaguay",
+  "lat": -31.8676,
+  "lon": -59.027,
+  "tur": "sehir",
+  "kur": "1823-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1823-01-01",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Elonce: https://www.elonce.com/sociedad/villaguay-dos-siglos-de-historia-en-el-corazn-de-entre-ros.htm — \"el gobernador Mansilla autorizaba la compra de terreno para construir la capilla\" (2023'te 200. yıl)",
+  "neden": "Vali Mansilla'nın arazi alım izni (1823); belediye 1872. 1923'te Villaguay departmanı merkezi. 20 Kasım günü resmî kaynakta görülmedi (belediye sitesi erişilemedi) → yıla indirildi.",
+  "mesafe_km": 25,
+  "sorun": ""
+ },
+ {
+  "hedef": "-47.75, -66.75",
+  "ad": "Puerto Deseado",
+  "lat": -47.7516,
+  "lon": -65.9013,
+  "tur": "sehir",
+  "kur": "1884-07-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1884-07-15",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de la Provincia de Santa Cruz, Municipios: https://www.santacruz.gob.ar/nuestra-provincia/municipios — Puerto Deseado bloğunda \"Fundación: 15 de Julio de 1884.\"",
+  "neden": "Millî hükümetin kurduğu koloni (Oneto, 15 Temmuz 1884); 1923'te Deseado departmanı merkezi.",
+  "mesafe_km": 63,
+  "sorun": ""
+ },
+ {
+  "hedef": "-48.25, -71.75",
+  "ad": "Gobernador Gregores",
+  "lat": -48.7509,
+  "lon": -70.2486,
+  "tur": "sehir",
+  "kur": "1922-03-23",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1922-03-23",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de la Provincia de Santa Cruz, Municipios: https://www.santacruz.gob.ar/nuestra-provincia/municipios — Gobernador Gregores bloğunda \"Fundación: 23 de Marzo de 1922.\"",
+  "neden": "Önceki raporda BULUNAMADI dedim çünkü resmî sayfadaki tarih bloğunu bağlayamamıştım; HTML yeniden ölçüldü: 23 Mart 1922 Gobernador Gregores bloğunun içinde. 1923'te Santa Cruz Millî Toprağı'nda Cañadón León köyü (ad 2 Ocak 1925 Toprak kararnamesiyle).",
+  "mesafe_km": 124,
+  "sorun": "Hedefe 124 km (80 km içinde uygun yer yok). 1922 'fundación'ının hangi devlet işlemine dayandığı (kararname, comisaría?) resmî sayfada yazmıyor; 1923'te fiilî devlet kurumu ayrıca belgelenmedi."
+ }
+]

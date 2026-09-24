@@ -1,0 +1,632 @@
+[
+ {
+  "hedef": "7.25, -76.25",
+  "ad": "Ituango",
+  "lat": 7.1711,
+  "lon": -75.7636,
+  "tur": "sehir",
+  "kur": "1844-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1844-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Ituango (resmî), Mi Municipio – Pasado, Presente y Futuro, https://www.ituango-antioquia.gov.co/MiMunicipio/Paginas/Pasado-Presente-y-Futuro.aspx — \"Fecha de Fundación: 1844\"",
+  "neden": "Antioquia'nın kuzeyinde 1844'te kurulan, 1847'de parroquia distrito olan Kolombiya belediye merkezi; 1923'te Antioquia belediyesi. (Dabeiba daha yakın ~28 km ama kaynaklar 1850/1887 arasında çelişiyor, resmî sayfası okunamadı.)",
+  "mesafe_km": 54,
+  "sorun": ""
+ },
+ {
+  "hedef": "2.25, -74.75",
+  "ad": "San Vicente del Caguán",
+  "lat": 2.1167,
+  "lon": -74.7667,
+  "tur": "sehir",
+  "kur": "1905-08-01",
+  "hassasiyet": "ay",
+  "s": [
+   {
+    "f": "1905-08-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobernación del Caquetá (resmî), https://www.caqueta.gov.co/territorios/san-vicente-del-caguan — \"En agosto de 1905 se creó el corregimiento del Caguán\"",
+  "neden": "1898-09-27'de kurulan köy 1905 Ağustos'ta Caguán corregimiento'sunun merkezi oldu; 1912-06-17'den 1932'ye Caquetá Comisaría'sının başkenti (aynı kaynak) — 1923'te Kolombiya idaresi kesin.",
+  "mesafe_km": 15,
+  "sorun": "Aynı kaynak 1912–1932 komiserlik başkentini San Vicente veriyor; yaygın anlatı Florencia'yı gösterebilir — kıyaslanmadı. Kur için yalnız 1905 corregimiento kullanıldı, bu çelişkiden etkilenmez."
+ },
+ {
+  "hedef": "7.75, -73.75",
+  "ad": "Simití",
+  "lat": 7.9564,
+  "lon": -73.9461,
+  "tur": "sehir",
+  "kur": "1542-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1542-01-01",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Censo-Guía de Archivos de España e Iberoamérica (Ministerio de Cultura), Archivo Alcaldía Municipal de Simití, http://censoarchivos.mcu.es/CensoGuia/archivodetail.htm?id=1747406 — \"El primer encomendero de Simití fue don Juan de Sortina y Vallejo ... el año de 1542\"",
+  "neden": "Magdalena kıyısında sömürge döneminden beri İspanyol yönetiminde olan kasaba, cumhuriyette distrito; 1923'te Bolívar departmanı belediyesi.",
+  "mesafe_km": 32,
+  "sorun": "Resmî kuruluş günü 1537-04-01 ama aynı kaynak 'belge yok, tarihçi Prados'un çıkarımı' diyor ve Lebrija tezini reddeden tarihçileri anıyor; alcaldía sitesinin başka bir sayfası 'municipio fundado en 1811' diyor. Uydurma günden kaçınmak için belgelenen en erken İspanyol idare tanıklığı (1542 encomienda davası) yıl hassasiyetiyle yazıldı — koordinatör 1537 ya da 1811'i tercih edebilir."
+ },
+ {
+  "hedef": "3.75, -71.75",
+  "ad": "Orocué",
+  "lat": 4.7897,
+  "lon": -71.3392,
+  "tur": "sehir",
+  "kur": "1895-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1895-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Orocué (resmî), Pasado, Presente y Futuro, https://www.orocue-casanare.gov.co/MiMunicipio/Paginas/Pasado-Presente-y-Futuro.aspx — \"creación de una aduana nacional, primero en 1867, y luego ... desde 1895 hasta 1928\"",
+  "neden": "Meta nehri limanı; 1895–1928 arası kesintisiz ulusal gümrük (aduana nacional) vardı, yani 1923'te devlet gümrük istasyonu. Köyün resmî kuruluşu 1850-01-01 (etnotarih 1858 der); kur olarak gümrüğün kesintisiz başladığı 1895 seçildi.",
+  "mesafe_km": 124,
+  "sorun": "Hedefe 80 km içinde idareli yer bulunamadı; en yakın uygun yer 124 km."
+ },
+ {
+  "hedef": "3.75, -69.25",
+  "bulunamadi": true,
+  "neden": "Vichada/Guainía iç kesimi. Kolombiya'nın Vichada komiserliği 1913'te kuruldu ama merkezi Maipures (~160 km+) ve 1922'de Puerto Carreño (~250 km); Venezuela'nın San Fernando de Atabapo'su ~175 km. 150 km içinde 1923'te devlet idaresi taşıyan yer bulunamadı."
+ },
+ {
+  "hedef": "2.75, -66.75",
+  "ad": "San Carlos de Río Negro",
+  "lat": 1.92,
+  "lon": -67.0611,
+  "tur": "sehir",
+  "kur": "1760-03-11",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1760-03-11",
+    "t": "1821-06-24",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1821-06-24",
+    "t": "1830-01-13",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1830-01-13",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/s/san-carlos-de-rio-negro/ — \"Se comenzó a construir en diciembre de 1759, concluida el 11 de marzo del siguiente año\"",
+  "neden": "İspanyol sınır kalesi (1759-60), 19. yy'da askerî karakol ve ticaret merkezi; Amazonas Territorio Federal'in 1864-07-27 kararıyla üç departmanından birinin merkezi (DHV, 'Amazonas, territorio federal'). 1923'te Venezuela idaresi.",
+  "mesafe_km": 99,
+  "sorun": "kur = kalenin tamamlandığı gün (inşaat 1759 Aralık başladı). 1923'teki departman statüsü DHV'de açıkça yazmıyor."
+ },
+ {
+  "hedef": "5.25, -66.75",
+  "ayni": "Puerto Carreño",
+  "neden": "Orinoco'nun Atures kesimi. Puerto Ayacucho 1924-12-09'da kuruldu (DHV) — 1923'te yok. San Fernando de Atabapo ~170 km. En yakın idareli yer Kolombiya kıyısındaki Puerto Carreño ~132 km (≤150)."
+ },
+ {
+  "hedef": "7.75, -64.75",
+  "ad": "Moitaco",
+  "lat": 8.0078,
+  "lon": -64.3525,
+  "tur": "sehir",
+  "kur": "1882-02-09",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1882-02-09",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/caura-territorio-federal/ — \"Creado el 9 de febrero de 1882 ... La capital ... fue primero Moitaco\"",
+  "neden": "1752 Fransisken misyonu (Encarnación del Divino Verbo de Moitaco); 1882'de Caura Territorio Federal'in ilk başkenti, 1891'den sonra Bolívar eyaletinin Sucre distrito'sunda köy. 1923'te Venezuela idaresi.",
+  "mesafe_km": 52,
+  "sorun": "Koordinat gelvez.com.ve'den (8°0'28\" K, 64°21'9\" B) — rehber sitesi, resmî değil. 1882 sonrası başkent Altagracia'ya geçti; 1923'teki statüsü (parroquia) ayrıca ölçülmedi."
+ },
+ {
+  "hedef": "1.75, -64.25",
+  "bulunamadi": true,
+  "neden": "Venezuela Amazonas'ının güneyi (Brezilya sınırı, Yanomami yurdu). En yakın idareli yerler San Carlos de Río Negro (~300 km) ve Brezilya'da Barcelos/Santa Isabel (>250 km). Atlasın kendi 'Beyan K1.5 B63.5' kasıtlı boşluğuyla tutarlı."
+ },
+ {
+  "hedef": "4.25, -64.25",
+  "bulunamadi": true,
+  "neden": "Yukarı Caura/Paragua (Ye'kuana yurdu). En yakın idareli yerler Moitaco/Maripa ve Guasipati >200 km. 1923'te devlet idaresi bulunamadı."
+ },
+ {
+  "hedef": "6.75, -62.25",
+  "ad": "Guasipati",
+  "lat": 7.4766,
+  "lon": -61.8968,
+  "tur": "sehir",
+  "kur": "1881-09-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1881-09-03",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/y/yuruary-territorio-federal/ — \"Creado por resolución del Congreso Nacional, el 3 de septiembre de 1881 ... La capital fue Guasipati\"",
+  "neden": "1757 Katalan kapuçin misyonu (N. S. del Rosario de Guasipati); 1881–1891 ve 1900–1909 Yuruari Territorio Federal'in başkenti, sonra Bolívar eyaletinde Roscio distrito merkezi. 1923'te Venezuela idaresi. kur = devlet idaresinin belgelendiği ilk gün (başkentlik).",
+  "mesafe_km": 90,
+  "sorun": "Hedefe 80 km içinde yalnız El Manteco (~74 km) var, onun kaynaklı idare tarihi bulunamadı; Guasipati ~88 km."
+ },
+ {
+  "hedef": "4.25, -61.75",
+  "bulunamadi": true,
+  "neden": "Gran Sabana. Santa Elena de Uairén 16 Eylül 1923'te Lucas Fernández Peña'nın özel yerleşimi olarak kuruldu (DHV 'Fernández Peña, Lucas' + efemeris) — hem 1923-09-01'den sonra hem devlet idaresi değil. 150 km içinde başka idareli yer bulunamadı."
+ },
+ {
+  "hedef": "2.25, -59.25",
+  "bulunamadi": true,
+  "neden": "Güney Rupununi (Wapishana yurdu). Dadanawa özel çiftlik; Lethem sonradan (1930'lar+) idare merkezi oldu. Brezilya'da Boa Vista ~170 km. 1923'te İngiliz Guyanası devlet karakolu belgelenemedi."
+ },
+ {
+  "hedef": "3.25, -56.75",
+  "bulunamadi": true,
+  "neden": "Surinam iç kesimi (Saramacca/Coppename kaynakları). 1923'te Hollanda idarî karakolu bulunamadı; Lawa demiryolunun ucu (Dam, 1912) ~200 km."
+ },
+ {
+  "hedef": "3.25, -54.25",
+  "bulunamadi": true,
+  "neden": "Lawa (Surinam–Fransız Guyanası sınırı). Stoelmanseiland'da 1791'de askerî karakol kurulmuş ama 1923'e süreklilik belgelenemedi; Benzdorp altın kampı özel (adı 1889 doğumlu H. Benz'den); Fransız tarafında Maripasoula sonradan, Inini toprağı 1930. İdare bulunamadı."
+ },
+ {
+  "hedef": "-1.75, -71.75",
+  "bulunamadi": true,
+  "neden": "Caquetá–Putumayo arası. Salomón-Lozano antlaşması 1922'de imzalandı ama 1928'de onaylandı; 1923'te bölge fiilen Peru'nun Arana şirketinin (Peruvian Amazon Co.) istasyonlarıyla (La Chorrera, Puerto Arica, El Encanto) tutuluyordu — bunlar özel kauçuk istasyonu, devlet karakolu değil. SORUN: 1923'te ne Kolombiya ne Peru devlet idaresi belgelenebildi; hangi devlete boyanacağı koordinatörün hükmü (atlas ölçütüyle BOŞLUK)."
+ },
+ {
+  "hedef": "6.25, -71.25",
+  "ad": "Arauca",
+  "lat": 7.0903,
+  "lon": -70.7617,
+  "tur": "sehir",
+  "kur": "1780-12-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1780-12-04",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobernación de Arauca (resmî), https://arauca.gov.co/municipio-de-arauca/ — \"El 4 de diciembre de 1780 llega el Pbro. Juan Isidro Daboín\"",
+  "neden": "1780'de Santa Bárbara de Arauca köyü/parroquia olarak kuruldu, 1816'da kısa süre Nueva Granada başkenti, 1911'de Boyacá ordenanza'sıyla corregimiento; 1923'te Arauca Comisaría Especial merkezi (Kolombiya).",
+  "mesafe_km": 108,
+  "sorun": "Hedefe daha yakın Tame (~57 km) var ama resmî kaynak (Gobernación) kuruluşu yalnız 'alrededor del año 1628' veriyor — yaklaşık yıl yazılmadığı için alınmadı. Arauca'nın 1780 günü bir rahibin parroquia kuruluşudur; devlet idaresinin kesin belgesi 1911 corregimiento — koordinatör kur'u 1911-01-01 yapabilir. Mesafe 107 km."
+ },
+ {
+  "hedef": "10.25, -73.25",
+  "ad": "Valledupar",
+  "lat": 10.4833,
+  "lon": -73.25,
+  "tur": "sehir",
+  "kur": "1550-01-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1550-01-06",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Valledupar (resmî), https://valledupar-cesar.gov.co/MiMunicipio/Paginas/Pasado-Presente-y-Futuro.aspx — \"Fecha de fundación: 06 de enero de 1550\" (sayfa şu an 404; arama dizininden)",
+  "neden": "Hernando de Santana'nın 1550'de kurduğu Ciudad de los Reyes del Valle de Upar; 1923'te Magdalena departmanında belediye merkezi (Kolombiya).",
+  "mesafe_km": 26,
+  "sorun": "Resmî sayfa WebFetch'te 404 döndü; alıntı arama motoru dizinindeki sayfa başlığından. Gün geniş kabul görmüş (Santana/Castellanos)."
+ },
+ {
+  "hedef": "9.25, -62.75",
+  "ad": "Tucupita",
+  "lat": 9.0575,
+  "lon": -62.0452,
+  "tur": "sehir",
+  "kur": "1901-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1901-01-01",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/t/tucupita/ — \"capital ... del territorio federal Delta Amacuro desde 1901\"",
+  "neden": "1848'de Cuarenta y Ocho köyü olarak kuruldu, 1867'de Delta Territorio Federal başkenti, 1901'den itibaren Delta Amacuro Territorio Federal başkenti — 1923'te Venezuela idare merkezi. Maturín (~73 km) alternatif: DHV'de 1760 misyonu, başkentlik günü yok.",
+  "mesafe_km": 80,
+  "sorun": ""
+ },
+ {
+  "hedef": "6.25, -68.75",
+  "ad": "Elorza",
+  "lat": 7.0597,
+  "lon": -69.4967,
+  "tur": "sehir",
+  "kur": "1859-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1859-01-01",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), 'Poblamiento', https://bibliofep.fundacionempresaspolar.org/dhv/entradas/p/poblamiento/ — \"los caseríos de Palmarito (1842), El Amparo (1856), Elorza (1859)\"",
+  "neden": "Yukarı Apure'de 1859'da kurulan, DHV'ye göre 'etkili çekirdek' köy; bugün Rómulo Gallegos belediyesinin merkezi.",
+  "mesafe_km": 122,
+  "sorun": "1923'te idarî statüsü (parroquia/jefatura civil) belgelenemedi — DHV yalnız 'caserío' diyor. Başka kaynaklar 1774 Cizvit misyonu San José de Arechuna ve 1866 adlandırmasını anıyor (Vikipedi/Scribd, kabul edilmez). Mesafe 122 km. Koordinatör idare şartını karşılamıyor sayarsa BULUNAMADI'ya çevrilsin."
+ },
+ {
+  "hedef": "4.75, -59.25",
+  "bulunamadi": true,
+  "neden": "Kuzey Rupununi / Iwokrama. Kurupukari 1920–1953 Rupununi sığır yolunun (özel girişim, H.P.C. Melville) konaklama noktası, köy 1925'te kuruldu; Annai özel çiftlik ucu. 1923'te İngiliz Guyanası devlet karakolu belgelenemedi."
+ },
+ {
+  "hedef": "1.25, -77.75",
+  "ad": "Barbacoas",
+  "lat": 1.6717,
+  "lon": -78.1378,
+  "tur": "sehir",
+  "kur": "1612-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1612-01-01",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía Municipal de Barbacoas (resmî), Nuestra Historia, https://www.barbacoas-narino.gov.co/municipio/nuestra-historia — \"solamente en 1612 el Capitan Pedro Martin Navarro fundo a Santa Maria del Puerto de los Barbacoas\"",
+  "neden": "1612'de İspanyol şehri olarak kuruldu (1600'de Francisco de Praga y Zúñiga iskânı, resmî kuruluş günü 1600-04-06), 1916'da belediye; 1923'te Nariño belediyesi.",
+  "mesafe_km": 64,
+  "sorun": "Resmî sayfa 'Fecha de fundación: 06 de abril de 1600' diyor ama aynı metin şehrin kuruluşunu 1612'ye koyuyor; kur 1612 (yıl) seçildi."
+ },
+ {
+  "hedef": "4.75, -76.25",
+  "ad": "Cartago (Valle del Cauca)",
+  "lat": 4.7469,
+  "lon": -75.9119,
+  "tur": "sehir",
+  "kur": "1691-04-21",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1691-04-21",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Cartago (resmî), Historia, https://municipio.cartago.gov.co/historia/ — \"La protocolización del traslado se llevo a cabo el 21 de abril de 1691\"",
+  "neden": "1540-08-09'da Otún kıyısında (bugünkü Pereira) kuruldu, 1691'de bugünkü yerine taşındı; 1923'te Valle del Cauca belediyesi. kur = bugünkü yerdeki başlangıç.",
+  "mesafe_km": 37,
+  "sorun": ""
+ },
+ {
+  "hedef": "10.25, -69.75",
+  "ad": "Carora",
+  "lat": 10.1692,
+  "lon": -70.0783,
+  "tur": "sehir",
+  "kur": "1572-06-19",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1572-06-19",
+    "t": "1821-06-24",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1821-06-24",
+    "t": "1830-01-13",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1830-01-13",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/carora/ — \"refundó la población ... el 19 de junio de 1572 ... en el sitio de Bariquigua\"",
+  "neden": "1569'da kuruldu, 1572'de bugünkü yerinde yeniden kuruldu; 1923'te Lara eyaletinde Torres distrito merkezi (Venezuela). Barquisimeto (~50 km) 1552'de kurulmuş ama bugünkü yerine taşınma günü DHV'de yok.",
+  "mesafe_km": 37,
+  "sorun": ""
+ },
+ {
+  "hedef": "7.25, -60.25",
+  "bulunamadi": true,
+  "neden": "Guyana'nın Kuzeybatı Bölgesi iç kesimi (Barima/Barama). Arakaka'da bir maden müfettişi (mining warden) bulunduğu biliniyor ama kuruluş yılı bulunamadı; bölge merkezi Morawhanna (~126 km) — Kuzeybatı Bölgesi 1889'da örgütlendi (Britannica özeti) ama Morawhanna'nın merkez oluş yılı bulunamadı. Venezuela'da Tumeremo (~138 km) yalnız 1788 misyonu. Yıl bulunamadığı için nokta yazılmadı."
+ },
+ {
+  "hedef": "0.75, -73.75",
+  "bulunamadi": true,
+  "neden": "Aşağı Caguán/Caquetá. 1923'te Kolombiya–Peru çekişme bölgesi (Salomón-Lozano 1922, onay 1928); Caucayá/Puerto Leguízamo ve La Tagua >135 km ve kuruluş tarihleri doğrulanamadı. Devlet idaresi bulunamadı. SORUN: Peru–Kolombiya fiilî durumu karışık."
+ },
+ {
+  "hedef": "9.25, -65.25",
+  "ad": "Zaraza",
+  "lat": 9.3394,
+  "lon": -65.3167,
+  "tur": "sehir",
+  "kur": "1853-04-05",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1853-04-05",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/z/zaraza/ — kongre kararı (5 Nisan 1853) \"creaba el cantón Unare, cambiándole el nombre a la población por el de Zaraza\"",
+  "neden": "1779'da Chaguaramal del Batey curato'su olarak ayrıldı; 1853'te Unare kantonunun merkezi oldu ve Zaraza adını aldı; 1923'te Guárico'da distrito merkezi (Venezuela).",
+  "mesafe_km": 12,
+  "sorun": "DHV 1645 San Miguel de la Nueva Tarragona del Batey kuruluşunu da anıyor; aynı yerle sürekliliği belirsiz olduğu için kur 1853 kanton merkezi alındı."
+ },
+ {
+  "hedef": "3.25, -73.25",
+  "ad": "San Martín (Meta)",
+  "lat": 3.6969,
+  "lon": -73.6986,
+  "tur": "sehir",
+  "kur": "1641-04-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1641-04-10",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de San Martín (resmî), Pasado, presente y futuro, https://www.sanmartin-meta.gov.co/MiMunicipio/Paginas/Pasado,-Presente-y-Futuro.aspx — \"fue reconstruida el 10 de abril de 1641 por el gobernador Juan de Zárate\"",
+  "neden": "1585'te Medina de las Torres olarak kuruldu, yıkıldı, 1641'de bugünkü yerinde San Martín del Puerto olarak yeniden kuruldu; 1868–1905 Territorio Nacional de los Llanos başkenti, 1923'te Meta intendencia'sında belediye.",
+  "mesafe_km": 70,
+  "sorun": ""
+ },
+ {
+  "hedef": "6.25, -65.25",
+  "bulunamadi": true,
+  "neden": "Cuchivero/Caura arası. En yakın yer Maripa (~129 km): DHV kaynaklı Guayana poblamiento föyü onu 1770 misyonu 'San Pedro Alcántara de Caura' olarak veriyor; Sucre distrito merkezi olduğu biliniyor ama yılı bulunamadı. Caicara ~200 km. Devlet idaresi başlangıç yılı bulunamadığı için nokta yazılmadı."
+ },
+ {
+  "hedef": "11.75, -72.25",
+  "ad": "Riohacha",
+  "lat": 11.5442,
+  "lon": -72.9069,
+  "tur": "sehir",
+  "kur": "1545-08-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1545-08-06",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Riohacha (resmî), Pasado, Presente y Futuro, https://www.riohacha-laguajira.gov.co/MiMunicipio/Paginas/Pasado-Presente-y-Futuro.aspx — \"Fecha de fundación: 06 de agosto de 1545\"",
+  "neden": "1545'te N. S. de los Remedios del Río del Hacha olarak kuruldu; 1923'te La Guajira komiserliğine komşu Magdalena kıyı şehri, Kolombiya idaresi. Uribia (1935) ve Maicao (1927) 1923'te yoktu.",
+  "mesafe_km": 75,
+  "sorun": "Riohacha 1820'lere kadar kralcıydı; emsal zinciri (ispanyol-peru → 1819-12-17) aynen kullanıldı."
+ },
+ {
+  "hedef": "5.75, -74.75",
+  "ad": "Honda (Tolima)",
+  "lat": 5.2042,
+  "lon": -74.7417,
+  "tur": "sehir",
+  "kur": "1643-03-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1643-03-04",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Cámara de Comercio de Honda, Guaduas y Norte del Tolima, https://camarahonda.org.co/nuestros-municipios/ — villa: \"4 de marzo de 1643\"",
+  "neden": "Magdalena üzerindeki sömürge limanı; 1643 kraliyet kararnamesiyle villa, 1830'da ciudad; 1923'te Tolima belediyesi (Kolombiya).",
+  "mesafe_km": 61,
+  "sorun": "Kaynak kurumsal (ticaret odası), akademik değil; kuruluş 1539-08-24 de veriliyor, kur için kraliyet kararnamesi günü alındı. La Dorada (~35 km) daha yakın ama kaynaklı günü aranmadı. Mesafe 61 km."
+ },
+ {
+  "hedef": "7.75, -72.25",
+  "ad": "San Cristóbal (Táchira)",
+  "lat": 7.7711,
+  "lon": -72.2261,
+  "tur": "sehir",
+  "kur": "1561-03-31",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1561-03-31",
+    "t": "1821-06-24",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1821-06-24",
+    "t": "1830-01-13",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1830-01-13",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), https://bibliofep.fundacionempresaspolar.org/dhv/entradas/s/san-cristobal/ — \"Fundada el 31 de marzo de 1561 por el capitán Juan Maldonado\"",
+  "neden": "Táchira eyaletinin başkenti; 1561'den beri kesintisiz şehir, 1923'te Venezuela idare merkezi.",
+  "mesafe_km": 4,
+  "sorun": "Kolonyal dönemde Nueva Granada'ya (Pamplona) bağlıydı; emsal zinciri aynen kullanıldı."
+ },
+ {
+  "hedef": "8.75, -76.25",
+  "ad": "Montería",
+  "lat": 8.75,
+  "lon": -75.8833,
+  "tur": "sehir",
+  "kur": "1777-05-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1777-05-01",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Montería (resmî), Historia de Montería, https://www.monteria.gov.co/publicaciones/145/historia-de-monteria/ — \"le delinié el día 1º de mayo de 1777\"",
+  "neden": "Cartagena valisinin görevlendirdiği Antonio de la Torre y Miranda'nın 1777'de kurduğu San Jerónimo de Buenavista; 1807 villa, 1840 distrito merkezi, 1923'te belediye (Bolívar departmanı).",
+  "mesafe_km": 40,
+  "sorun": ""
+ },
+ {
+  "hedef": "2.25, -68.75",
+  "ad": "Maroa",
+  "lat": 2.7333,
+  "lon": -67.5667,
+  "tur": "sehir",
+  "kur": "1864-07-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1864-07-27",
+    "t": "1923-10-29",
+    "d": "venezuela-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), 'Amazonas, territorio federal', https://bibliofep.fundacionempresaspolar.org/dhv/entradas/a/amazonas-territorio-federal/ — \"quedó organizado en 3 departamentos: San Fernando de Atabapo, Maroa y San Carlos\"",
+  "neden": "Guainía/Río Negro üzerindeki eski misyon köyü; 1864-07-27 kararıyla Amazonas Territorio Federal departman merkezi, 1880'de kısa süre Amazonas territorio başkenti. Hedef Kolombiya Guainía'sında; 1923'te orada Kolombiya idaresi yok, en yakın idareli yer Maroa.",
+  "mesafe_km": 142,
+  "sorun": "Mesafe 142 km (≤150). 1923'teki departman statüsü DHV'de açık değil. Koordinat en.wikipedia (Maroa, Amazonas)."
+ },
+ {
+  "hedef": "6.75, -67.25",
+  "ad": "Puerto Carreño",
+  "lat": 6.1903,
+  "lon": -67.4836,
+  "tur": "sehir",
+  "kur": "1922-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1922-01-01",
+    "t": "1923-10-29",
+    "d": "kolombiya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Alcaldía de Puerto Carreño (resmî), Pasado, Presente y Futuro, https://www.puertocarreno-vichada.gov.co/MiMunicipio/Paginas/Pasado,-Presente-y-Futuro.aspx — \"En 1922 el General Buenaventura Bustos, primer comisario del Vichada ... funda a Puerto Carreño\"",
+  "neden": "Vichada komiserliğinin ilk komiseri tarafından 1922'de devlet eliyle kuruldu; 1923'te komiserlik karakolu (Kolombiya).",
+  "mesafe_km": 67,
+  "sorun": "Komiserlik başkentliği: 1913 Maipures, 1924-06-12 Egua'ya taşındı (ikincil kaynak), 1930'da kesin başkent — 1923'te başkent olup olmadığı belirsiz, ama komiserin kurduğu yer. 22 Şubat günü yalnız ikincil kaynakta, bu yüzden yıl hassasiyeti. Puerto Páez (Venezuela, ~62 km) karşı kıyıda, kaynaklı günü aranmadı."
+ },
+ {
+  "hedef": "4.75, -57.25",
+  "bulunamadi": true,
+  "neden": "Corantijn/Nickerie iç kesimi. Apoera/Washabo Arawak köyleri, Orealla (İngiliz tarafı) Amerindyen köyü; 1923'te devlet karakolu belgelenemedi."
+ }
+]

@@ -1,0 +1,811 @@
+[
+ {
+  "hedef": "-8.25, -71.75",
+  "ad": "Tarauacá (Seabra)",
+  "lat": -8.157,
+  "lon": -70.7722,
+  "tur": "sehir",
+  "kur": "1907-01-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1907-01-01",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=120060): \"Elevado à categoria de vila com denominação de Seabra. Pelo Decreto Municipal de 01-01-1907\"",
+  "neden": "1923'te Acre Federal Territórioʼsunun Tarauacá Departmanı merkezi; 1920 Federal Decreto 14.383 ile cidade. Brezilya federal idaresi. Bölge 1903-11-17 Petrópolis Antlaşması ile Brezilya'ya geçti; 1890 'Foz do Murú' seringal/porto idare sayılmadı. Kaynağın günü 01-01-1907 harfiyendir.",
+  "mesafe_km": 108,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.75, -69.25",
+  "ad": "São Felipe (Eirunepé)",
+  "lat": -6.6568,
+  "lon": -69.8662,
+  "tur": "sehir",
+  "kur": "1895-04-17",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1895-04-17",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130140): \"transfere a sede do município São Felipe do Juruá para o lugar determinado Caranari\"",
+  "neden": "1923'te Amazonas eyaletinin São Felipe belediyesi merkezi (1920 sayımında 5 distrito). Belediye 08-09-1894 (Lei 76) kuruldu; bugünkü yer (Caranari) 17-04-1895'te merkez oldu, 1911'de 'São Felipe (ex-Caranari)'.",
+  "mesafe_km": 69,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.25, -66.75",
+  "bulunamadi": true,
+  "neden": "En yakın 1923 idare merkezi Carauari (vila/município 1911-1913, IBGE) 153 km — 150 km sınırı dışında; Pauini (1955), Itamarati (1987) sonradan. 1920 sayımındaki Carauari distritoları (Juruá Puca, Marari, Manichi, Palermo) için koordinat bulunamadı."
+ },
+ {
+  "hedef": "-7.25, -64.25",
+  "ad": "Lábrea",
+  "lat": -7.2641,
+  "lon": -64.7948,
+  "tur": "sehir",
+  "kur": "1881-05-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1881-05-14",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130240): \"Elevada à categoria de vila com a denominação de Lábrea, pela Lei Provincial n.º 523, de 14-05-1881\"",
+  "neden": "1923'te Amazonas'ın Lábrea belediyesi ve Rio Purus comarcası merkezi (1920 sayımında 9 distrito). 1871 Labre yerleşimi özel; idare 1881 vila yasasıyla başlar.",
+  "mesafe_km": 60,
+  "sorun": ""
+ },
+ {
+  "hedef": "-4.75, -62.25",
+  "ad": "Coari",
+  "lat": -4.0941,
+  "lon": -63.1441,
+  "tur": "sehir",
+  "kur": "1874-05-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1874-05-01",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130120): \"Em 01.05.1874, pela Lei Provincial n.º 287, a freguesia foi elevada à vila de Coari\"",
+  "neden": "1923'te Amazonas'ın Coari belediyesi merkezi (termo judiciário 1890). Daha eski 'lugar Alvelos' (1759) başka yerdeydi; merkez 1854'te Coari gölü ağzına taşındı, o yüzden vila tarihi seçildi.",
+  "mesafe_km": 123,
+  "sorun": ""
+ },
+ {
+  "hedef": "-8.25, -61.75",
+  "bulunamadi": true,
+  "neden": "80-150 km içinde 1923 idare merkezi yok: Humaitá (vila 1890) 163 km, Machadinho d'Oeste/Cujubim 1980'ler. Rondon telgraf hattı (Vilhena–Ariquemes–Santo Antônio) bu hedefin ~180 km güneybatısından geçer. Manicoré'nin 1920 distritoları (Matuperi, Uruá vb.) için koordinat bulunamadı."
+ },
+ {
+  "hedef": "1.75, -61.75",
+  "bulunamadi": true,
+  "neden": "Caracaraí 69 km ama distrito ancak 1938'de (Decreto-lei 176) kuruldu, IBGE: sığır sürücülerinin mola yeri. En yakın 1923 idare merkezi Boa Vista do Rio Branco (vila 09-07-1890, Decreto Estadual 49) 169 km — sınır dışı. NOT: Boa Vista atlasta hiç yok; ayrı hedef olarak eklenmeye değer."
+ },
+ {
+  "hedef": "-7.25, -59.25",
+  "bulunamadi": true,
+  "neden": "Apuí 72 km ama belediye 1987. 150 km içinde 1923 idaresi bulunamadı (Novo Aripuanã distritosu 1943; Borba mevcut, 300+ km)."
+ },
+ {
+  "hedef": "-0.25, -59.25",
+  "bulunamadi": true,
+  "neden": "Caroebe/São João da Baliza 1980'ler (Roraima kolonizasyonu). Jatapu-Uatumã yukarısında 150 km içinde 1923 idare merkezi bulunamadı."
+ },
+ {
+  "hedef": "-8.25, -56.75",
+  "bulunamadi": true,
+  "neden": "Yukarı Tapajós/Teles Pires: Paranaíta/Apiacás (MT) 1980'ler. 150 km içinde 1923 idare merkezi, gümrük ya da telgraf istasyonu bulunamadı."
+ },
+ {
+  "hedef": "0.75, -56.75",
+  "bulunamadi": true,
+  "neden": "Kuzey Pará (Trombetas-Erepecuru yukarısı): 170 km içinde hiçbir bugünkü belediye merkezi yok; 1923 idaresi bulunamadı."
+ },
+ {
+  "hedef": "-8.25, -54.25",
+  "bulunamadi": true,
+  "neden": "Güney Pará (Curuá/Iriri yukarısı): 170 km içinde bugünkü belediye merkezi yok; 1923 idaresi bulunamadı."
+ },
+ {
+  "hedef": "0.75, -54.25",
+  "bulunamadi": true,
+  "neden": "Kuzey Pará (Paru yukarısı, Surinam sınırı): 170 km içinde belediye merkezi yok; 1923 idaresi bulunamadı."
+ },
+ {
+  "hedef": "-5.75, -53.25",
+  "bulunamadi": true,
+  "neden": "Orta Xingu/Iriri: São Félix do Xingu 170 km (1936'da Altamira'nın distritosu, 1923 durumu bulunamadı; belediye 1961). 150 km içinde 1923 idare merkezi yok."
+ },
+ {
+  "hedef": "-8.25, -51.75",
+  "bulunamadi": true,
+  "neden": "Cumaru do Norte 1990'lar; Santa Maria das Barreiras distritosu ilk kez 1936 listesinde. Conceição do Araguaia 278 km. 150 km içinde 1923 idaresi bulunamadı."
+ },
+ {
+  "hedef": "-5.75, -50.75",
+  "bulunamadi": true,
+  "neden": "Parauapebas/Ourilândia/Tucumã 1980'ler; Marabá (vila 1913) 185 km — sınır dışı. Marabá'nın 1920 distritosu Lago Vermelho için koordinat bulunamadı."
+ },
+ {
+  "hedef": "-8.25, -49.25",
+  "ad": "Conceição do Araguaia",
+  "lat": -8.2614,
+  "lon": -49.2689,
+  "tur": "sehir",
+  "kur": "1908-11-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1908-11-03",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150270): \"Elevado à categoria de vila com a denominação de Conceição do Araguaia, pela Lei Estadual n.º 1.091, de 03-11-1908\"",
+  "neden": "1923'te Pará'nın Conceição do Araguaia belediyesi merkezi (1920'de cidade). 1897'de Frei Gil'in Dominiken misyonu olarak kuruldu, 1900 freguesia; devlet idaresi 1908 vila yasasıyla.",
+  "mesafe_km": 2,
+  "sorun": ""
+ },
+ {
+  "hedef": "-5.75, -71.75",
+  "bulunamadi": true,
+  "neden": "Ipixuna 144 km ama belediye 1955 (ex-povoado Guarujá); Eirunepé 210 km. 150 km içinde 1923 idare merkezi bulunamadı."
+ },
+ {
+  "hedef": "-3.75, -67.75",
+  "ad": "São Paulo de Olivença",
+  "lat": -3.4729,
+  "lon": -68.9646,
+  "tur": "sehir",
+  "kur": "1759-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1759-01-01",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130390): \"Distrito criado com a denominação de São Paulo de Olivença, em 1759\"",
+  "neden": "1923'te Amazonas'ın São Paulo de Olivença belediyesi merkezi (vila 1882; 1916'da yeniden vila; 1920 sayımında 5 distrito). Hedefe 80 km içinde Amaturá (65 km) 1920 distritosuydu ama kuruluş yılı bulunamadı.",
+  "mesafe_km": 138,
+  "sorun": "Kolonyal kuruluş 1759 (Portekiz). 1833'te vila statüsünü yitirip freguesia oldu (idare kesilmedi, Tefé'ye bağlandı). Mesafe 138 km (>80)."
+ },
+ {
+  "hedef": "-3.25, -52.25",
+  "ad": "Altamira",
+  "lat": -3.2041,
+  "lon": -52.21,
+  "tur": "sehir",
+  "kur": "1911-11-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1911-11-06",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150060): \"Elevado à categoria de município e distrito com a denominação de Altamira, pela Lei Estadual n.º 1.234, de 06-11-1911\"",
+  "neden": "1923'te Pará'nın Altamira belediyesi merkezi (1917'de cidade). 18. yy Cizvit misyonu kökeni idare sayılmadı.",
+  "mesafe_km": 7,
+  "sorun": ""
+ },
+ {
+  "hedef": "-1.25, -65.75",
+  "ad": "Fonte Boa",
+  "lat": -2.5234,
+  "lon": -66.0942,
+  "tur": "sehir",
+  "kur": "1891-03-28",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1891-03-28",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130160): \"Elevada á categoria de vila com a denominação de Fonte Boa pelo Decreto n.º 92, de 28-03-1891\"",
+  "neden": "1923'te Amazonas'ın Fonte Boa belediyesi merkezi (1920 sayımında 5 distrito). Maraã (70 km) 1938'de distrito oldu, 1923'te idaresi yok.",
+  "mesafe_km": 147,
+  "sorun": "Mesafe 147 km (>80). Freguesia 1873'te Barreiras de Fonte Boa'ya taşınmıştı; daha eski Guadalupe freguesiası (1858) başka yerde."
+ },
+ {
+  "hedef": "2.25, -51.75",
+  "ad": "Amapá (Montenegro)",
+  "lat": 2.0527,
+  "lon": -50.7957,
+  "tur": "sehir",
+  "kur": "1901-10-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1901-10-22",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=160010): \"Elevado à categoria de vila com a denominação de Amapá, pela Lei Estadual n.º 798, de 22-10-1901\"",
+  "neden": "1923'te Pará eyaletinin Montenegro belediyesi merkezi (1911 ve 1920 sayımında belediye). Calçoene (93 km) ancak 1945'te distrito oldu. Bölge Fransa-Brezilya ihtilaflı Contestado'ydu; Bern hakem kararı 01-12-1900 Brezilya lehine, vila bundan sonra kuruldu (zincir koordinatörce kabul edildi).",
+  "mesafe_km": 108,
+  "sorun": ""
+ },
+ {
+  "hedef": "-1.75, -69.25",
+  "bulunamadi": true,
+  "neden": "Vila Bittencourt (~45 km) bugün Ordu sınır müfrezesi; 1923'te idare varlığını ve kuruluş yılını gösteren kaynak bulunamadı (IBGE: 1955 Japurá belediyesinin 'ex-povoado' merkezi). Başka 1923 idaresi 150 km içinde yok."
+ },
+ {
+  "hedef": "-5.75, -56.75",
+  "bulunamadi": true,
+  "neden": "Jacareacanga 123 km ama distrito 1961; Trairão 1990'lar; Itaituba mevcut 185 km. 150 km içinde 1923 idaresi bulunamadı."
+ },
+ {
+  "hedef": "-0.75, -53.25",
+  "ad": "Almeirim",
+  "lat": -1.529,
+  "lon": -52.5788,
+  "tur": "sehir",
+  "kur": "1758-02-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1758-02-22",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150050): \"Elevado à categoria de vila com denominação de Almeirim (ex-povoado), em 22-02-1758\"",
+  "neden": "1923'te Pará'nın Almeirim belediyesi merkezi (vila 17-03-1890'da yeniden kuruldu, 1911'de belediye). Laranjal do Jari (89 km) 1987 belediyesi. Ara dönem: vila statüsü kolonyal dönem sonunda düştü, 17-03-1890'da (Decreto 109) yeniden kuruldu; arada Gurupá'ya bağlı povoado olarak toprak Portekiz/Brezilya idaresindeydi.",
+  "mesafe_km": 114,
+  "sorun": ""
+ },
+ {
+  "hedef": "-0.75, -61.75",
+  "ad": "Moura (Rio Negro)",
+  "lat": -1.4584,
+  "lon": -61.6334,
+  "tur": "sehir",
+  "kur": "1878-10-16",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1878-10-16",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130040): \"Pela Lei Provincial n.º 388, de 16-10-1878, transferiu a sede para vila de Moura\"",
+  "neden": "1923'te Amazonas'ın Moura belediyesi merkezi: Boa Vista 1890'da 'vila de Moura'dan ayrıldı; 1930'da Barcelos 'município de Moura'ya katıldı; belediye 1943'te kaldırıldı (IBGE Barcelos + Boa Vista sayfaları).",
+  "mesafe_km": 80,
+  "sorun": "kur KANITLANMIŞ EN ERKEN tarihtir, başlangıç değil: 1878 yasası Moura'yı zaten 'vila' diye anıyor; kolonyal vila kuruluşu (Pedreira aldeiası, 1750'ler) kabul edilir kaynakta YIL olarak bulunamadı. Koordinat OSM 'Vila de Moura'."
+ },
+ {
+  "hedef": "-6.25, -61.75",
+  "ad": "Manicoré",
+  "lat": -5.8046,
+  "lon": -61.2895,
+  "tur": "sehir",
+  "kur": "1877-06-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1877-06-04",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130270): \"Elevada à categoria de vila com a denominação de Manicoré pela Lei Provincial n.º 362, de 04-06-1877\"",
+  "neden": "1923'te Amazonas'ın Manicoré belediyesi ve Rio Madeira comarcası merkezi (1920 sayımında 7 distrito).",
+  "mesafe_km": 71,
+  "sorun": ""
+ },
+ {
+  "hedef": "-1.75, -57.75",
+  "ad": "Urucará",
+  "lat": -2.5294,
+  "lon": -57.7538,
+  "tur": "sehir",
+  "kur": "1887-05-12",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1887-05-12",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130430): \"Elevado á categoria de vila com a denominação de Senhora Santana de Urucará, pela Lei Provincial n.º 744, de 12-05-1887\"",
+  "neden": "1923'te Amazonas'ın Urucará belediyesi (vila) merkezi. Daha önce 1880'de distrito (N. S. Santana de Capela).",
+  "mesafe_km": 87,
+  "sorun": ""
+ },
+ {
+  "hedef": "-3.25, -62.25",
+  "ad": "Codajás",
+  "lat": -3.8305,
+  "lon": -62.0658,
+  "tur": "sehir",
+  "kur": "1874-05-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1874-05-01",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130130): \"Elevado à condição de vila com a denominação de Codajás, pela Lei Provincial n.º 287, de 01-05-1874\"",
+  "neden": "1923'te Amazonas'ın Codajás belediyesi merkezi (Codajás, Anamã, Anori distritoları).",
+  "mesafe_km": 68,
+  "sorun": ""
+ },
+ {
+  "hedef": "-5.75, -64.75",
+  "ad": "Canutama",
+  "lat": -6.5258,
+  "lon": -64.3953,
+  "tur": "sehir",
+  "kur": "1891-10-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1891-10-10",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130090): \"Elevada à categoria de município e distrito com a denominação de Canutama, pela Lei Estadual n.º 22, de 10-10-1891\"",
+  "neden": "1923'te Amazonas'ın Canutama belediyesi merkezi (1920 sayımında 8 distrito). 1874 'Nova Colônia de Bela Vista' özel kuruluştu.",
+  "mesafe_km": 95,
+  "sorun": ""
+ },
+ {
+  "hedef": "0.25, -64.75",
+  "ad": "Santa Isabel do Rio Negro",
+  "lat": -0.4108,
+  "lon": -65.0092,
+  "tur": "sehir",
+  "kur": "1907-07-24",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1907-07-24",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130360): \"Distrito criado com a denominação de Santa Isabel, pelas Leis Municipais n.ºs 41, de 24-07-1907\"",
+  "neden": "1923'te São Gabriel belediyesinin Santa Isabel distritosu (1911 ve 1920 sayım listelerinde; IBGE São Gabriel da Cachoeira sayfası).",
+  "mesafe_km": 79,
+  "sorun": "Distrito 1931-1938 arasında düştü, 1938'de yeniden kuruldu — 1923'ü etkilemez."
+ },
+ {
+  "hedef": "-6.25, -55.25",
+  "bulunamadi": true,
+  "neden": "Novo Progresso 1990'lar; 150 km içinde 1923 idare merkezi bulunamadı (Jamanxim/Tapajós yukarısı)."
+ },
+ {
+  "hedef": "-2.25, -67.75",
+  "ad": "Tonantins",
+  "lat": -2.8658,
+  "lon": -67.7919,
+  "tur": "sehir",
+  "kur": "1865-08-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1865-08-15",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130423): \"Freguesia criada com a denominação de Tonantins, por Lei Provincial n.º 149, de 15-08-1865\"",
+  "neden": "1923'te São Paulo de Olivença belediyesinin Tonantins distritosu (1911 ve 1920 sayım listelerinde; IBGE SPO sayfası).",
+  "mesafe_km": 69,
+  "sorun": "kur freguesia (İmparatorluk dönemi sivil-dinî birim) tarihi; 1933 listesinde yok, 1938'de yeniden distrito."
+ },
+ {
+  "hedef": "-4.25, -50.25",
+  "ad": "Alcobaça (Tucuruí)",
+  "lat": -3.7657,
+  "lon": -49.6773,
+  "tur": "sehir",
+  "kur": "1870-10-31",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1870-10-31",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150810): \"Distrito criado com a denominação de Alcobaça, pela Lei Provincial n.º 661, de 31-10-1870\"",
+  "neden": "1923'te Pará'nın Baião belediyesine bağlı Alcobaça distritosu (1911, 1936, 1937 listelerinde); 1943'te adı Tucuruí oldu.",
+  "mesafe_km": 83,
+  "sorun": "18. yy Alcobaça kalesi kaynaklı yıl bulunmadığından kur distrito yasasıdır."
+ },
+ {
+  "hedef": "-5.25, -69.25",
+  "bulunamadi": true,
+  "neden": "Benjamin Constant 130 km ama 1923 merkezinin yeri belirsiz (IBGE: 1909 yasası merkezi 'Santo Antônio'ya taşıdı, 1928'de Vila Esperança) — koordinat verilemedi. Tabatinga zaten atlasta (136 km). Eirunepé 170 km."
+ },
+ {
+  "hedef": "-2.75, -63.75",
+  "bulunamadi": true,
+  "neden": "Uygun en yakın yer atlasta mevcut Tefé (128 km). Alvarães (Caiçara) 1938 distritosu; Coari 164 km."
+ },
+ {
+  "hedef": "-4.75, -60.75",
+  "ayni": "Manicoré",
+  "neden": "Manicoré 132 km; Novo Aripuanã (59 km) ancak 1943'te distrito oldu; Borba atlasta 135 km."
+ },
+ {
+  "hedef": "-4.25, -54.25",
+  "ad": "Aveiro (Tapajós)",
+  "lat": -3.6084,
+  "lon": -55.3199,
+  "tur": "sehir",
+  "kur": "1781-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1781-01-01",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150100): \"Elevado à categoria de vila com a denominação de Nossa Senhora da Conceição do Aveiro, em 1781\"",
+  "neden": "1923'te Pará'nın Aveiro belediyesi merkezi (1883'te yeniden vila, 1911'de 5 distrito; 1930'da kaldırıldı). Ara dönem: 18-11-1848'de vila kaldırılıp Itaituba'ya bağlandı, 04-04-1883'te yeniden vila (reinstalada 01-07-1884); toprak kesintisiz Brezilya idaresindeydi. Ad 'Aveiro' atlasta var (Portekiz), ek konuldu. Mesafe 138 km.",
+  "mesafe_km": 138,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.75, -49.25",
+  "bulunamadi": true,
+  "neden": "Xambioá (87 km) için IBGE Histórico boş; Sapucaia/Piçarra/Eldorado modern. Marabá (vila 1913) 153 km — sınır dışı. 150 km içinde 1923 idaresi bulunamadı."
+ },
+ {
+  "hedef": "EK",
+  "ad": "Boa Vista do Rio Branco",
+  "lat": 2.8238,
+  "lon": -60.6753,
+  "tur": "sehir",
+  "kur": "1890-07-09",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1890-07-09",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=140010): \"Vila de Boa Vista do Rio Branco, pelo Decreto Estadual n.° 49, de 09-07-1890\"",
+  "neden": "1923'te Amazonas eyaletinin Boa Vista do Rio Branco belediyesi (vila; 1926'da cidade), Moura'dan ayrılarak kuruldu. Nossa Senhora do Carmo freguesiası daha eski ama tarihi kaynakta yok. (En yakın mevcut atlas noktası: Beyan K1.5 B60.5, 148 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Cruzeiro do Sul",
+  "lat": -7.6276,
+  "lon": -72.6756,
+  "tur": "sehir",
+  "kur": "1904-09-28",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1904-09-28",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=120020): \"Elevado à categoria de vila com a denominação de Cruzeiro do Sul (ex-povoado de Centro Brasileiro), pelo Decreto do prefeito n.º 8, de 28-09-1904\"",
+  "neden": "1923'te Acre Federal Territórioʼsunun Alto Juruá Departmanı merkezi (1906'da cidade). 1890 'Centro Brasileiro' seringalı idare sayılmadı; IBGE 1902'de bölgede bir Perulu komiser bulunduğunu yazar — Alto Juruá'daki Peru iddiası 1909 Brezilya-Peru antlaşmasıyla kapandı, 1904'ten sonra idare Brezilya'nındı. (En yakın mevcut atlas noktası: San Miguel (Pachitea), 244 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Rio Branco (Acre)",
+  "lat": -9.975,
+  "lon": -67.8243,
+  "tur": "sehir",
+  "kur": "1904-08-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1904-08-22",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=120040): \"Elevado à categoria de vila com a denominação de Volta da Empresa, pelo Decreto do Prefeito n.º 3, de 22-08-1904\"",
+  "neden": "1923'te adı Rio Branco: Alto Acre Departmanı merkezi, 1920'den Acre Territórioʼsunun başkenti. 1909-1912 arasında merkez karşı kıyıdaki Penápolis vilasına taşındı, 1912'de (Decreto Federal 9.831) Rio Branco adıyla geri döndü. 1882 Seringal Empreza (Neutel Maia) özel kuruluştu, Bolivya iddiası dönemi; idare 1904'te başladı. (En yakın mevcut atlas noktası: Beyan G10.5 B68.5, 94 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Sena Madureira",
+  "lat": -9.066,
+  "lon": -68.6571,
+  "tur": "sehir",
+  "kur": "1904-09-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1904-09-25",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=120050): \"Elevado à categoria de vila com a denominação de Sena Madureira, por Ato do Prefeito de 25-09-1904\"",
+  "neden": "1923'te Acre Federal Territórioʼsunun Alto Purus Departmanı merkezi; General Siqueira de Menezes 25-09-1904'te Seringal Santa Fé topraklarında departman hükümetini kurdu. (En yakın mevcut atlas noktası: Beyan G10.5 B68.5, 160 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Xapuri",
+  "lat": -10.6516,
+  "lon": -68.4969,
+  "tur": "sehir",
+  "kur": "1904-08-22",
+  "hassasiyet": "gun",
+  "s": [],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=120070): \"Elevado à categoria de vila com a denominação de Xapuri ex-Mariscal Sucre, pelo Decreto do Prefeito n.º 3, de 22-08-1904\"",
+  "neden": "1923'te Acre Federal Territórioʼsunun Xapuri belediyesi merkezi (1913'te sede municipal). IBGE: yerleşim 1883'te doğdu; 1904 kaydı eski adını 'Mariscal Sucre' diye verir. (En yakın mevcut atlas noktası: Beyan G10.5 B68.5, 17 km.)",
+  "mesafe_km": null,
+  "sorun": "ACRE, 1903 ÖNCESİ KURULMUŞ: s yazılmadı. Yerleşim 1883'te (IBGE) Bolivya'nın iddia ettiği topraklarda doğdu; 'ex-Mariscal Sucre' adı bir Bolivya dönemi yerleşimi/idaresine işaret ediyor ama Bolivya idaresinin başlangıç tarihi kaynakta bulunamadı. Brezilya idaresi: Petrópolis 1903-11-17, vila 1904-08-22. Önerim: zincir brezilya-cumhuriyeti 1904-08-22→1923-10-29 + Bolivya dönemi kaynak bulununca eklenir."
+ },
+ {
+  "hedef": "EK",
+  "ad": "Porto Velho",
+  "lat": -8.7608,
+  "lon": -63.8999,
+  "tur": "sehir",
+  "kur": "1914-10-02",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1914-10-02",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=110020): \"Elevada à categoria de vila e município com a denominação de Porto Velho, pela Lei Estadual n.º 757, de 02-10-1914\"",
+  "neden": "1923'te Amazonas eyaletinin Porto Velho belediyesi (Humaitá'dan ayrıldı, 24-01-1915'te kuruldu). 1907'den kalma Madeira-Mamoré demiryolu yerleşimi özel şirketindi, idare sayılmadı. (En yakın mevcut atlas noktası: Beyan G9.5 B65.5, 194 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Carauari",
+  "lat": -4.8816,
+  "lon": -66.9086,
+  "tur": "sehir",
+  "kur": "1912-12-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1912-12-27",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130100): \"Em 27.12.1912 pela Lei Estadual n.º 1.006, Xauá é elevado à categoria de Vila e a sede do município é transferida para Carauari\"",
+  "neden": "1923'te Amazonas'ın Carauari belediyesi merkezi (1920 sayımında 5 distrito). Belediye 26-09-1911'de Xauá merkezli kuruldu; bugünkü yer 27-12-1912'de merkez oldu. Hedef -6.25,-66.75'e 153 km (koordinatör talebiyle eklendi). (En yakın mevcut atlas noktası: Tefé (Teffé de Aisuaris), 297 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Humaitá (Madeira)",
+  "lat": -7.5117,
+  "lon": -63.0327,
+  "tur": "sehir",
+  "kur": "1888-11-13",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1888-11-13",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130170): \"Pela Lei n.º 790, de 13-11-1888, transfere a de do distrito para o lugar Humaitá\"",
+  "neden": "1923'te Amazonas'ın Humaitá belediyesi ve comarcası merkezi (vila 04-02-1890, cidade 1894; 1920 sayımında 5 distrito). Distrito 1885'te São Francisco do Rio Madeira adıyla başka yerde kuruldu, 1888'de Humaitá'ya taşındı. (En yakın mevcut atlas noktası: Beyan G7.5 B62.5, 59 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Itacoatiara (Serpa)",
+  "lat": -3.1386,
+  "lon": -58.4449,
+  "tur": "sehir",
+  "kur": "1759-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1759-01-01",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130190): \"Elevada à categoria de vila e distrito com a denominação de Serpa, em 1759\"",
+  "neden": "1923'te Amazonas'ın Itacoatiara belediyesi ve comarcası merkezi (1874'te cidade). Ara dönem: 1833'te vila statüsü kaldırılıp Manaus'a bağlı freguesia oldu, 1857-1858'de yeniden belediye/vila; toprak kesintisiz Brezilya idaresindeydi. (En yakın mevcut atlas noktası: Manaus (Forte de São José do Rio Negro), 175 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Oriximiná",
+  "lat": -1.7599,
+  "lon": -55.8579,
+  "tur": "sehir",
+  "kur": "1894-06-09",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-06-09",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150530): \"Elevado à categoria de vila com a denominação de Oriximiná pela Lei n.º 174, de 09-06-1894\"",
+  "neden": "1923'te Óbidos belediyesinin Oriximiná distritosu (1900'de vila kaldırıldı; 1911 ve 1933 listelerinde distrito, 1934'te yeniden belediye). 1886 Santo Antônio do Uruá-Tapera freguesiası ay hassasiyetli, vila tarihi seçildi. (En yakın mevcut atlas noktası: Óbidos (Pauxis), 41 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Monte Alegre (Pará)",
+  "lat": -1.9977,
+  "lon": -54.0724,
+  "tur": "sehir",
+  "kur": "1758-02-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1758-02-27",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150480): \"Elevado à condição de vila com a denominação de Monte Alegre em 27-02-1758\"",
+  "neden": "1923'te Pará'nın Monte Alegre belediyesi merkezi (1880'de cidade). Kökeni 17. yy Desterro kalesi bölgesi. (En yakın mevcut atlas noktası: Santarém (Tapajós), 86 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ },
+ {
+  "hedef": "EK",
+  "ad": "Marabá",
+  "lat": -5.3808,
+  "lon": -49.1327,
+  "tur": "sehir",
+  "kur": "1913-02-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1913-02-27",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Biblioteca, Histórico/Formação Administrativa (https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150420): \"Elevado à categoria de vila com a denominação de Marabá, pela Lei Estadual n.º 1.278, de 27-02-1913\"",
+  "neden": "1923'te Pará'nın Marabá belediyesi merkezi (vila; 1922'de São João do Araguaia belediyesi ona katıldı, 27-10-1923'te cidade). (En yakın mevcut atlas noktası: Beyan G7.5 B50.5, 280 km.)",
+  "mesafe_km": null,
+  "sorun": ""
+ }
+]

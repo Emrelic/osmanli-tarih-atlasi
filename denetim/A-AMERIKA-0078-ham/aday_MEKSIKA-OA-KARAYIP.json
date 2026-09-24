@@ -1,0 +1,780 @@
+[
+ {
+  "hedef": "13.25, -84.75",
+  "bulunamadi": true,
+  "neden": "80-150 km içinde 1923'te idare merkezi olduğu akademik/resmî kaynakla tarihlenen yer bulunamadı. Paiwas belediyesi 1974'te kuruldu (URACCAN ficha municipal); Siuna 1923'te maden kampıydı, belediye değil; Matiguás için yalnız ikincil derlemeler var ve çelişik (1918 'pueblo' önergesi, 1920 kuruluş, 1927 ilk belediye); Muy Muy (1751, ~110 km) için yalnız FamilySearch/EcuRed bulundu. Bölge 1894 sonrası Zelaya departmanı (Nikaragua). Kaynak bulunursa aday: Muy Muy (12.7625, -85.6286) ya da Matiguás (12.8608, -85.4311)."
+ },
+ {
+  "hedef": "29.75, -108.25",
+  "ad": "Madera (Chihuahua)",
+  "lat": 29.1934,
+  "lon": -108.1445,
+  "tur": "sehir",
+  "kur": "1911-07-13",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1911-07-13",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Chihuahua (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909460.pdf — 'Se erige en municipalidad la Comisaría de Madera, segregándose de Temósachi' (13 de julio de 1911).",
+  "neden": "1906'da Sierra Madre Land & Lumber Co. bıçkıhanesi olarak doğdu; 13 Temmuz 1911'de belediye (municipalidad) oldu. 1923'te Chihuahua eyaletinin belediye merkezi.",
+  "mesafe_km": 63,
+  "sorun": ""
+ },
+ {
+  "hedef": "13.75, -87.25",
+  "ayni": "Tegucigalpa",
+  "neden": "Tegucigalpa (ek görev listesinde, aşağıda) hedefe ~37 km. Daha yakın ikinci nokta istenirse Choluteca (13.30,-87.19) adaydır ama kuruluş yılı kaynaklarda çelişik (1533/1535/1540) ve akademik kaynak alınamadı."
+ },
+ {
+  "hedef": "10.75, -84.75",
+  "ad": "Ciudad Quesada (Villa Quesada)",
+  "lat": 10.3257,
+  "lon": -84.43,
+  "tur": "sehir",
+  "kur": "1911-09-26",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1911-09-26",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Municipalidad de San Carlos, Reseña Histórica, https://www.munisc.go.cr/Paginas/Visitantes/Historia.aspx — 'el 26 de septiembre de 1911, bajo decreto número 31 se establece a San Carlos como el cantón número diez'; cabecera Villa Quesada.",
+  "neden": "26 Eylül 1911'de San Carlos kantonu kuruldu, merkezi Villa Quesada; 1923'te Kosta Rika'nın kanton merkezi.",
+  "mesafe_km": 59,
+  "sorun": "Belediye sitesi 'decreto número 31' der; başka derlemeler 'Ley No. 17' yazar — gün aynı (26 Eylül 1911), yalnız kanun numarası çelişik."
+ },
+ {
+  "hedef": "27.25, -103.75",
+  "ad": "Sierra Mojada",
+  "lat": 27.2889,
+  "lon": -103.7005,
+  "tur": "sehir",
+  "kur": "1879-09-29",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1879-09-29",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Coahuila de Zaragoza (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909446.pdf — 'Se erige en Villa con el nombre de \"Sierra Mojada\" la nueva Congregacion establecida en el mineral' (29 de septiembre de 1879).",
+  "neden": "Maden kasabası 29 Eylül 1879'da villa ve belediye (municipio) oldu; 1923'te Coahuila'nın belediye merkezi.",
+  "mesafe_km": 7,
+  "sorun": ""
+ },
+ {
+  "hedef": "21.25, -100.25",
+  "ad": "San Luis de la Paz",
+  "lat": 21.297,
+  "lon": -100.5163,
+  "tur": "sehir",
+  "kur": "1595-10-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1595-10-10",
+    "t": "1821-09-27",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-27",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Guanajuato (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909286.pdf — 'San Luis de la Paz el 10 de octubre de 1595' (pueblos y villas fundados antes de 1810 listesi).",
+  "neden": "1595'te kuruldu; 1853'te Sierra Gorda Territoryası'nın başkenti oldu; 1923'te Guanajuato'nun belediye merkezi.",
+  "mesafe_km": 28,
+  "sorun": ""
+ },
+ {
+  "hedef": "27.25, -107.75",
+  "ad": "Batopilas",
+  "lat": 27.0271,
+  "lon": -107.7392,
+  "tur": "sehir",
+  "kur": "1826-01-05",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1826-01-05",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Chihuahua (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909460.pdf — 'Batopilas 5 de enero de 1826 (partido)', Reglamento para el Régimen Interior de los Pueblos; categoría 'Mineral'.",
+  "neden": "Sömürge dönemi maden reali (real de minas); INEGI'nin belgelediği en erken idarî statü 1826 partido. 1923'te Chihuahua'nın belediye merkezi (Andrés del Río bölgesi merkezi).",
+  "mesafe_km": 25,
+  "sorun": "Kasaba 18. yüzyıl başından beri İspanyol idaresinde; kur kaynaklı en erken idarî tarih olduğu için 1826 yazıldı, İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "14.25, -89.75",
+  "ad": "Jutiapa",
+  "lat": 14.2882,
+  "lon": -89.8935,
+  "tur": "sehir",
+  "kur": "1847-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1847-01-01",
+    "t": "1923-10-29",
+    "d": "guatemala"
+   }
+  ],
+  "kaynak": "Ministerio de Cultura y Deportes de Guatemala, SIC — CDC Jutiapa, https://www.sicultura.gob.gt/cdc-jutiapa-jutiapa/ — 'Se le dio la categoría de villa en 1847'; departamento 8 de mayo de 1852 'quedando Jutiapa como cabecera'.",
+  "neden": "1847'de villa, 8 Mayıs 1852'den beri Jutiapa departmanının merkezi; 1923'te Guatemala'nın departman merkezi.",
+  "mesafe_km": 16,
+  "sorun": ""
+ },
+ {
+  "hedef": "19.25, -72.25",
+  "ad": "Gonaïves",
+  "lat": 19.4461,
+  "lon": -72.6884,
+  "tur": "sehir",
+  "kur": "1804-01-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1804-01-01",
+    "t": "1923-10-29",
+    "d": "haiti"
+   }
+  ],
+  "kaynak": "Acte de l'Indépendance d'Haïti, Digithèque MJP (Univ. de Perpignan), https://mjp.univ-perp.fr/constit/ht1804.htm — 'Fait aux Gonaïves, ce 1er janvier mil huit cent quatre'.",
+  "neden": "Haiti bağımsızlığı 1 Ocak 1804'te burada ilan edildi; 1923'te Artibonite departmanının merkezi (ABD işgali 1915-34 altında Haiti devlet idaresi sürüyor).",
+  "mesafe_km": 51,
+  "sorun": "Kasaba Fransız Saint-Domingue döneminde de vardı (1738 'commune' tarihi yalnız ikincil kaynakta); kur Haiti devletinin başlangıcıyla sınırlandı. Hedefe daha yakın Hinche (27 km) İspanyol→Fransız→Haiti el değiştirmesi yüzünden seçilmedi."
+ },
+ {
+  "hedef": "18.25, -101.75",
+  "ad": "Arteaga (Michoacán)",
+  "lat": 18.3583,
+  "lon": -102.2911,
+  "tur": "sehir",
+  "kur": "1894-09-16",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-09-16",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Michoacán de Ocampo (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909125.pdf — 'Se eleva al rango de municipalidad la Tenencia del Carrizal' (Decreto No. 46 del 17 de junio de 1894; creación: 16 de septiembre de 1894).",
+  "neden": "El Carrizal tenencia'sı 1894'te belediye oldu, 1907'de Salazar bölgesinin merkezi; 1923'te Michoacán'ın belediye merkezi.",
+  "mesafe_km": 58,
+  "sorun": ""
+ },
+ {
+  "hedef": "29.25, -101.75",
+  "ad": "Ciudad Acuña (Las Vacas)",
+  "lat": 29.3214,
+  "lon": -100.9595,
+  "tur": "sehir",
+  "kur": "1912-02-19",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1912-02-19",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Coahuila de Zaragoza (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909446.pdf — 'Se erige en Villa la Congregación de \"Las Vacas,\" y llevará... el nombre de \"Acuña.\"' (19 de febrero de 1912).",
+  "neden": "Las Vacas kongregasyonu 19 Şubat 1912'de villa/belediye 'Acuña' oldu; 1923'te Coahuila'nın sınır belediye merkezi.",
+  "mesafe_km": 77,
+  "sorun": "Hedefe ~77 km (sınırda). Kongregasyon 1912'den önce Jiménez belediyesine bağlı idi (tarih kaynakta yok)."
+ },
+ {
+  "hedef": "8.75, -82.25",
+  "ad": "David (Chiriquí)",
+  "lat": 8.4271,
+  "lon": -82.4308,
+  "tur": "sehir",
+  "kur": "1837-01-26",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1837-01-26",
+    "t": "1903-11-03",
+    "d": "kolombiya-cumhuriyeti"
+   },
+   {
+    "f": "1903-11-03",
+    "t": "1923-10-29",
+    "d": "panama-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Ministerio de Gobierno de Panamá, Gobernación de Chiriquí, https://www.mingob.gob.pa/gobernacion-la-provincia-chiriqui/ — 'el 26 de enero de 1837, la cabecera del mencionado cantón fue trasladada... a la Villa de David'.",
+  "neden": "1837'den beri kanton, 1849'dan beri Chiriquí eyaleti merkezi; 1923'te Panama'nın Chiriquí eyalet merkezi.",
+  "mesafe_km": 41,
+  "sorun": "Kasaba 1602'de kuruldu (yalnız ikincil kaynak); kur kaynaklı idarî tarihle (1837) sınırlandı, İspanyol/Gran Kolombiya dönemi eksik."
+ },
+ {
+  "hedef": "28.25, -82.25",
+  "ad": "Tampa (Fort Brooke)",
+  "lat": 27.9506,
+  "lon": -82.4572,
+  "tur": "sehir",
+  "kur": "1824-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1824-01-01",
+    "t": "1923-10-29",
+    "d": "abd"
+   }
+  ],
+  "kaynak": "City of Tampa, Tampa History, https://www.tampa.gov/info/tampa-history — 'In 1824... four companies of the U.S. Army established Fort Brooke'.",
+  "neden": "ABD ordusu 1824'te Fort Brooke'u kurdu; şehir 1855'te tüzük aldı; 1923'te Hillsborough County merkezi.",
+  "mesafe_km": 39,
+  "sorun": ""
+ },
+ {
+  "hedef": "31.25, -113.25",
+  "ad": "Sonoyta (Sonoita)",
+  "lat": 31.8634,
+  "lon": -112.8497,
+  "tur": "sehir",
+  "kur": "1869-05-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1869-05-14",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Sonora (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463912705.pdf — Decreto No. 29, Ley Orgánica para el Gobierno y Administración Interior: 'Distrito de Altar... Pueblo de... Sonoita' (14 de mayo de 1869).",
+  "neden": "Altar bölgesine bağlı pueblo olarak eyalet idarî bölünmesinde sayılıyor; 1989'a dek komiserlik (comisaría) — 1923'te Sonora'nın sınır köyü.",
+  "mesafe_km": 78,
+  "sorun": "Hedefe ~77 km. 1923'teki bağlılığı (Caborca'ya bağlı comisaría) kaynakta o yıl için doğrudan tarihlenmedi; 1862 tarihli daha erken bir listede de geçebilir, sayfa düzeni belirsiz olduğu için 1869 yazıldı."
+ },
+ {
+  "hedef": "22.75, -105.25",
+  "ad": "Acaponeta",
+  "lat": 22.4934,
+  "lon": -105.3619,
+  "tur": "sehir",
+  "kur": "1823-06-21",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1823-06-21",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Nayarit (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909132.pdf — Plan de Gobierno Provisional del nuevo Estado de Jalisco: 'Se menciona a Acaponeta como partido del estado de Jalisco' (21 de junio de 1823).",
+  "neden": "1823'ten beri partido/ayuntamiento, 1885'ten Tepic Territoryası prefektörlüğü; 1923'te Nayarit'in belediye merkezi.",
+  "mesafe_km": 31,
+  "sorun": "Sömürge dönemi kasabası; kur INEGI'nin ilk anışı (1823) — İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "29.75, -92.75",
+  "ad": "Abbeville (Louisiana)",
+  "lat": 29.9747,
+  "lon": -92.1343,
+  "tur": "sehir",
+  "kur": "1850-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1850-01-01",
+    "t": "1923-10-29",
+    "d": "abd"
+   }
+  ],
+  "kaynak": "City of Abbeville, About Abbeville, https://cityofabbeville.net/about-abbeville/ — 'It was incorporated in 1850.'",
+  "neden": "1843'te misyoner Mégret'nin arazisinde kuruldu, 1850'de belediye oldu; 1923'te Vermilion Parish merkezi.",
+  "mesafe_km": 64,
+  "sorun": "Hedefe ~66 km."
+ },
+ {
+  "hedef": "25.25, -105.75",
+  "ad": "Santa Catarina de Tepehuanes",
+  "lat": 25.3383,
+  "lon": -105.725,
+  "tur": "sehir",
+  "kur": "1825-09-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1825-09-01",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Durango (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463912125.pdf — Constitución Política del Estado Libre de Durango: 'Se menciona a Santa Catarina de Tepehuanes en el partido de Santiago Papasquiaro' (1 de septiembre de 1825).",
+  "neden": "1753'ten beri pueblo (Tamarón y Romeral); 1847'de municipalidad; 1923'te Durango'nun belediye merkezi.",
+  "mesafe_km": 10,
+  "sorun": "kur INEGI'nin ilk anışı (1825), İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "32.25, -104.25",
+  "ad": "Carlsbad (Eddy)",
+  "lat": 32.4207,
+  "lon": -104.2288,
+  "tur": "sehir",
+  "kur": "1893-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1893-01-01",
+    "t": "1923-10-29",
+    "d": "abd"
+   }
+  ],
+  "kaynak": "Carlsbad Department of Development, City of Carlsbad NM, https://www.developcarlsbad.org/live/communities/p/item/331/city-of-carlsbad-nm — 'christened the Town of Eddy on September 15, 1888... organized as a municipal corporation in 1893'.",
+  "neden": "1888'de Eddy adıyla kuruldu, 1893'te belediye oldu, 1890'dan Eddy County merkezi; 1923'te New Mexico eyaletinin ilçe merkezi.",
+  "mesafe_km": 19,
+  "sorun": ""
+ },
+ {
+  "hedef": "24.25, -101.75",
+  "ad": "Mazapil",
+  "lat": 24.6394,
+  "lon": -101.5531,
+  "tur": "sehir",
+  "kur": "1837-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1837-01-01",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Zacatecas (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909309.pdf — Reglamento de Policía Interior del Departamento de Zacatecas: 'Mazapil es municipalidad del distrito de Nieves' (1837).",
+  "neden": "Sömürge dönemi maden reali; 1837'de municipalidad, 1852'den partido; 1923'te Zacatecas'ın belediye merkezi.",
+  "mesafe_km": 48,
+  "sorun": "kur INEGI'nin tarihlediği ilk statü (1837); İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "16.25, -93.75",
+  "ad": "Tonalá (Chiapas)",
+  "lat": 16.0894,
+  "lon": -93.7547,
+  "tur": "sehir",
+  "kur": "1813-10-29",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1813-10-29",
+    "t": "1821-09-27",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-27",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Chiapas (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909453.pdf — 'El 29 de octubre de 1813, las Cortes de Cádiz expidieron el decreto que elevaba... el de Villas a los de Tusta, Tonalá, Tapachula y Palenque'.",
+  "neden": "1813'te villa unvanı (ayuntamiento); 1923'te Chiapas'ın departman/belediye merkezi.",
+  "mesafe_km": 18,
+  "sorun": "Zincir atlasın San Cristóbal de las Casas emsaline göre yazıldı (1821-09-27'den meksika). Gerçekte Chiapas 1821-1824 arası Guatemala Genel Kaptanlığı/Meksika İmparatorluğu/bağımsızlık arasında gidip geldi, Meksika'ya katılış 1824-09-14 — koordinatör emsali değiştirirse bu kayıt da değişir."
+ },
+ {
+  "hedef": "7.75, -78.25",
+  "ad": "La Palma (Darién)",
+  "lat": 8.4038,
+  "lon": -78.1412,
+  "tur": "sehir",
+  "kur": "1922-12-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1922-12-27",
+    "t": "1923-10-29",
+    "d": "panama-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Ministerio de Gobierno de Panamá, Gobernación de Darién, https://www.mingob.gob.pa/gobernacion-la-provincia-darien/ — 'La Ley Nº22 del 27 de diciembre de 1922 creó la provincia de Darién... teniendo como cabecera La Palma.'",
+  "neden": "27 Aralık 1922'den beri Darién eyaletinin merkezi; 1923'te Panama idaresi.",
+  "mesafe_km": 74,
+  "sorun": "Hedefe ~73 km. 1922'den önceki statüsü (Chepigana bölgesi) kaynakta tarihlenmedi; kur eyalet merkezliği ile sınırlandı. Alternatif: Yaviza (1855'te komarka merkezi, ~76 km)."
+ },
+ {
+  "hedef": "31.75, -109.25",
+  "ad": "Douglas (Arizona)",
+  "lat": 31.3445,
+  "lon": -109.5453,
+  "tur": "sehir",
+  "kur": "1905-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1905-01-01",
+    "t": "1923-10-29",
+    "d": "abd"
+   }
+  ],
+  "kaynak": "City of Douglas, About Douglas, https://www.douglasaz.gov/441/About-Douglas — 'Founded in 1901 and incorporated four years later'.",
+  "neden": "1901'de izabe kasabası olarak kuruldu, 1905'te belediye oldu; 1923'te Arizona'nın sınır şehri.",
+  "mesafe_km": 53,
+  "sorun": ""
+ },
+ {
+  "hedef": "29.75, -115.25",
+  "ad": "El Rosario (Baja California)",
+  "lat": 30.0588,
+  "lon": -115.7249,
+  "tur": "sehir",
+  "kur": "1900-12-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1900-12-01",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Baja California (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909262.pdf — decreto del 1 de diciembre de 1900: Distrito Norte 'secciones municipales de: Ensenada,... San Quintín, El Rosario y el Mineral de Calmallí, dependientes de Ensenada'.",
+  "neden": "1774 Dominiken misyonunun yeri; 1900'de Ensenada'ya bağlı sección municipal; 1923'te Baja California Kuzey Bölgesi (federal territorya).",
+  "mesafe_km": 57,
+  "sorun": "Sección municipal statüsünün 1923'te sürdüğü kaynakta ayrıca doğrulanmadı."
+ },
+ {
+  "hedef": "19.75, -105.25",
+  "ad": "Tomatlán",
+  "lat": 19.943,
+  "lon": -105.2465,
+  "tur": "sehir",
+  "kur": "1823-06-21",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1823-06-21",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Jalisco (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909477.pdf — Plan de Gobierno Provisional del Nuevo Estado de Xalisco: 'Tomatlán es partido del nuevo estado de Jalisco' (21 de junio de 1823).",
+  "neden": "1823'ten beri partido/ayuntamiento; 1923'te Jalisco'nun belediye merkezi.",
+  "mesafe_km": 21,
+  "sorun": "kur INEGI'nin ilk anışı; İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "25.75, -104.25",
+  "ad": "Mapimí",
+  "lat": 25.8337,
+  "lon": -103.848,
+  "tur": "sehir",
+  "kur": "1825-09-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1825-09-01",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Durango (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463912125.pdf — 'Se menciona a Mapimí como municipalidad del partido de Villa de Cinco Señores del Río Nazas' (Constitución, 1 de septiembre de 1825).",
+  "neden": "Maden kasabası, 1767'den villa (Gallegos); 1825'te municipalidad; 1923'te Durango'nun belediye merkezi.",
+  "mesafe_km": 41,
+  "sorun": "kur INEGI'nin ilk anışı; İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "7.25, -80.75",
+  "ad": "Tonosí",
+  "lat": 7.4087,
+  "lon": -80.4377,
+  "tur": "sehir",
+  "kur": "1914-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1914-01-01",
+    "t": "1923-10-29",
+    "d": "panama-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Tribunal de Cuentas de Panamá, O. Vargas Velarde, La provincia de Los Santos: historia, régimen jurídico y población, https://tribunaldecuentas.gob.pa/wp-content/uploads/2024/09/La-provincia-de-Los-Santos.-Historia-regimen-juridico-y-poblacion.-Mgdo.-Oscar-Vargas-Velarde.-Tribunal-de-Cuentas.-.pdf — Ley 55 de 1914: 'Distritos de Las Tablas, Guararé, Pedasí, Pocrí y Tonosí'.",
+  "neden": "19. yüzyıl sonundan beri bölge (distrito) merkezi, 1914-15'te yeni Los Santos eyaletinin bölgelerinden; 1923'te Panama'nın bölge merkezi.",
+  "mesafe_km": 39,
+  "sorun": "Distrito 19. yy sonunda zaten vardı (aynı eser: 13 bölge arasında Tonosí; 1882 Ley 46 tarihi yalnız gazetede); kur kaynaklı kesin yıl olarak 1914 yazıldı."
+ },
+ {
+  "hedef": "30.25, -106.25",
+  "ad": "Villa Ahumada",
+  "lat": 30.6177,
+  "lon": -106.5124,
+  "tur": "sehir",
+  "kur": "1894-07-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-07-14",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Chihuahua (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909460.pdf — 'Se erige el municipio de villa Ahumada con localidades de la municipalidad de Carrizal' (14 de julio de 1894).",
+  "neden": "Demiryolu istasyonu 14 Temmuz 1894'te belediye oldu; 1923'te Chihuahua'nın belediye merkezi (1923'te kısa süre 'Villa González' adıyla).",
+  "mesafe_km": 48,
+  "sorun": ""
+ },
+ {
+  "hedef": "21.75, -103.75",
+  "ad": "Bolaños",
+  "lat": 21.831,
+  "lon": -103.7811,
+  "tur": "sehir",
+  "kur": "1823-08-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1823-08-15",
+    "t": "1923-10-29",
+    "d": "meksika"
+   }
+  ],
+  "kaynak": "INEGI, Evolución histórica de los municipios de México de 1810 a 2020. Jalisco (2023). https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909477.pdf — Estadística de la Provincia de Guadalajara: 'Bolaños se menciona como ayuntamiento' (15 de agosto de 1823).",
+  "neden": "18. yy maden reali (corregimiento); 1823'te ayuntamiento; 1923'te Jalisco'nun belediye merkezi.",
+  "mesafe_km": 10,
+  "sorun": "kur INEGI'nin ilk anışı; İspanyol dönemi eksik bırakıldı."
+ },
+ {
+  "hedef": "24.75, -78.25",
+  "ad": "Mangrove Cay (Moxey Town, Andros)",
+  "lat": 24.2977,
+  "lon": -77.6777,
+  "tur": "sehir",
+  "kur": "1868-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1868-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "Bahamas Ministry of Tourism, Old Commissioner's Residence, https://www.bahamas.com/plan-your-trip/things-to-do/old-commissioners-residence — 'This home was built in 1868 by Mr. Lenox Forsythe... the first Commissioner for Mangrove Cay'.",
+  "neden": "1868'den beri Bahama sömürge komiserinin (Commissioner) oturduğu yer; 1923'te İngiliz Bahama kolonisi.",
+  "mesafe_km": 77,
+  "sorun": "Hedefe ~77 km. Kaynak resmî turizm sitesi (akademik değil); komiserliğin 1923'te burada sürdüğü doğrudan doğrulanmadı; koordinat yerleşim (Moxey Town) merkezi, konut yeri değil."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Tegucigalpa",
+  "lat": 14.1058,
+  "lon": -87.2047,
+  "tur": "sehir",
+  "kur": "1578-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, Tegucigalpa, https://www.britannica.com/place/Tegucigalpa — 'founded in 1578 as a silver- and gold-mining centre'.",
+  "neden": "1578'de maden merkezi olarak kuruldu; 1880'den kalıcı başkent; 1923'te Honduras başkenti.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-10-26: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → honduras-cumhuriyeti (1838-10-26→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Comayagua",
+  "lat": 14.46,
+  "lon": -87.64,
+  "tur": "sehir",
+  "kur": "1537-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, Comayagua, https://www.britannica.com/place/Comayagua — 'founded in 1537 as Valladolid de Santa María de Comayagua'.",
+  "neden": "1537'de kuruldu, sömürge Honduras'ının başkenti (1880'e dek); 1923'te Comayagua departmanı merkezi.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-10-26: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → honduras-cumhuriyeti (1838-10-26→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "San Pedro Sula",
+  "lat": 15.5054,
+  "lon": -88.0251,
+  "tur": "sehir",
+  "kur": "1536-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, San Pedro Sula, https://www.britannica.com/place/San-Pedro-Sula — 'founded in 1536'.",
+  "neden": "1536'da kuruldu; 1923'te Cortés departmanının merkezi ve muz ticaretinin odağı.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-10-26: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → honduras-cumhuriyeti (1838-10-26→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "La Ceiba",
+  "lat": 15.7891,
+  "lon": -86.791,
+  "tur": "sehir",
+  "kur": "1877-08-23",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1877-08-23",
+    "t": "1923-10-29",
+    "d": "honduras-cumhuriyeti"
+   }
+  ],
+  "kaynak": "La Prensa (Honduras), La Ceiba aniversario, https://www.laprensa.hn/honduras/honduras-la_ceiba-aniversrio-historia-ceiba-municipio-HM20864883 — 'un 23 de agosto de 1877 fue elevada a la categoría de municipio'.",
+  "neden": "23 Ağustos 1877'de belediye, 1902'den Atlántida departmanı merkezi; 1923'te Honduras'ın muz limanı.",
+  "sorun": "Kaynak gazete (kurumsal, akademik değil); Britannica yalnız '19. yy sonunda muz limanı olarak gelişti' der."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "San Salvador",
+  "lat": 13.6976,
+  "lon": -89.1912,
+  "tur": "sehir",
+  "kur": "1528-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, San Salvador, https://www.britannica.com/place/San-Salvador — founded 1525 near Suchitoto, 'moved 20 miles (32 km) southwest to its present site in 1528'.",
+  "neden": "1525'te Suchitoto yakınında kuruldu, 1528'de bugünkü yere taşındı; 1923'te El Salvador başkenti.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1841-01-01: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → el-salvador-cumhuriyeti (1841-01-01→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "San Miguel (El Salvador)",
+  "lat": 13.4804,
+  "lon": -88.1772,
+  "tur": "sehir",
+  "kur": "1530-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, San Miguel, https://www.britannica.com/place/San-Miguel-El-Salvador — 'founded in 1530'.",
+  "neden": "1530'da kuruldu; 1923'te San Miguel departmanı merkezi.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1841-01-01: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → el-salvador-cumhuriyeti (1841-01-01→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Santa Ana (El Salvador)",
+  "lat": 13.9948,
+  "lon": -89.5566,
+  "tur": "sehir",
+  "kur": "1812-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "El Diario de Hoy, Santa Ana historia (2025), https://www.elsalvador.com/opinion/editoriales/especiales-edh-santa-ana-historia/1231883/2025/ — 'surgió la que se conoció como \"villa\" en 1812'; ciudad 1824. Britannica: 'known by this name since 1708'.",
+  "neden": "Sömürge dönemi yerli kasabası; 1812'de villa, 1824'te şehir; 1923'te Santa Ana departmanı merkezi.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1841-01-01: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → el-salvador-cumhuriyeti (1841-01-01→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Managua",
+  "lat": 12.1364,
+  "lon": -86.2514,
+  "tur": "sehir",
+  "kur": "1819-03-24",
+  "hassasiyet": "gun",
+  "s": [],
+  "kaynak": "Academia de Geografía e Historia de Nicaragua, El nombre de Managua, https://www.aghn.edu.ni/2025/09/el-nombre-de-managua/ — 'al ser elevado a Villa (24 de marzo, 1819), se le denominó oficialmente Leal Villa de Santiago de Managua'.",
+  "neden": "Sömürge boyunca yerli kasabası; 24 Mart 1819'da villa, 1846'da şehir, 1857'den kalıcı başkent (Britannica); 1923'te Nikaragua başkenti.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-04-30: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → nikaragua-cumhuriyeti (1838-04-30→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "León (Nikaragua)",
+  "lat": 12.435,
+  "lon": -86.8789,
+  "tur": "sehir",
+  "kur": "1610-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, León, https://www.britannica.com/place/Leon-Nicaragua — 'founded on the edge of Lake Managua in 1524, but after an earthquake it was moved in 1610'.",
+  "neden": "1524'te León Viejo'da kuruldu, 1610'da bugünkü yere (Sutiaba) taşındı; 1923'te León departmanı merkezi.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-04-30: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → nikaragua-cumhuriyeti (1838-04-30→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Granada (Nikaragua)",
+  "lat": 11.9304,
+  "lon": -85.9535,
+  "tur": "sehir",
+  "kur": "1524-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, Francisco Hernández de Córdoba, https://www.britannica.com/biography/Francisco-Hernandez-de-Cordoba — sent in 1524, 'established Granada on Lake Nicaragua'.",
+  "neden": "Hernández de Córdoba'nın 1524'te Nikaragua Gölü kıyısında kurduğu şehir; 1923'te Granada departmanı merkezi.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-04-30: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → nikaragua-cumhuriyeti (1838-04-30→1923-10-29). Ayrıca: Britannica'nın Granada maddesi 1523, Hernández de Córdoba maddesi 1524 der — kaynak kendiyle çelişiyor, 1524 yazıldı."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Bluefields",
+  "lat": 12.0132,
+  "lon": -83.7649,
+  "tur": "sehir",
+  "kur": "1894-02-12",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1894-02-12",
+    "t": "1923-10-29",
+    "d": "nikaragua-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Biblioteca Enrique Bolaños, ¿Cómo fue la reincorporación de la Mosquitia?, https://www.enriquebolanos.org/articulo/reincorporacion_mosquitia — 'Ese mismo 12 de febrero (1894) el Gral. Cabezas tomó militarmente los edificios públicos'.",
+  "neden": "1894'e dek Miskito Rezervi'nin merkezi; 12 Şubat 1894'te Nikaragua devleti el koydu, 20 Kasım 1894'te Miskito Konvansiyonu Nikaragua egemenliğini tanıdı; 1923'te Zelaya departmanı merkezi.",
+  "sorun": "1894 öncesi (İngiliz himayesi 1860'a dek, sonra Miskito Rezervi) zincire alınmadı — atlasta Miskito künyesi yok. Temmuz-Ağustos 1894'te kısa Miskito/İngiliz restorasyonu oldu; kur olarak resmî tanıma (1894-11-20) tercih edilebilir."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "San José (Kosta Rika)",
+  "lat": 9.9328,
+  "lon": -84.0796,
+  "tur": "sehir",
+  "kur": "1736-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, San José, https://www.britannica.com/place/San-Jose-Costa-Rica — 'founded in 1736'; national capital 1823.",
+  "neden": "1736'da kuruldu, 1823'ten başkent; 1923'te Kosta Rika başkenti.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-01-01: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → kosta-rika-cumhuriyeti (1838-01-01→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Cartago (Kosta Rika)",
+  "lat": 9.8645,
+  "lon": -83.9207,
+  "tur": "sehir",
+  "kur": "1563-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Encyclopaedia Britannica, Cartago, https://www.britannica.com/place/Cartago — 'founded in 1563', capital of Costa Rica until 1823.",
+  "neden": "1563'te kuruldu, 1823'e dek başkent; 1923'te Cartago eyaletinin merkezi.",
+  "sorun": "1821-1838 ara dönem zinciri koordinatör kararı. Önerilen zincir: yeni-ispanya (kur→1821-09-15) → [1821-09-15 → 1838-01-01: Meksika İmparatorluğu 1822-23 / Orta Amerika Federasyonu 1823-1838(40) dönemi — atlasta künye varsa koordinatör seçer, tahmin edilmedi] → kosta-rika-cumhuriyeti (1838-01-01→1923-10-29)."
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Puerto Limón",
+  "lat": 9.9907,
+  "lon": -83.036,
+  "tur": "sehir",
+  "kur": "1865-11-09",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1865-11-09",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Instituto Costarricense de Turismo, Caminatas históricas por Limón, https://es.visitcostarica.com/costa-rica/things-to-do/culture/historical-walks/limon — 'El 9 de noviembre de 1865, el entonces gobernador José María Madriz declaró a Limón como la primera ciudad portuaria'.",
+  "neden": "1865'te liman şehri ilan edildi, 1870'te komarka, 1892'de kanton, 1902'de eyalet merkezi; 1923'te Kosta Rika'nın Atlantik limanı.",
+  "sorun": ""
+ },
+ {
+  "hedef": "EK-GOREV (Orta Amerika merkezleri)",
+  "ad": "Liberia (Kosta Rika)",
+  "lat": 10.632,
+  "lon": -85.4393,
+  "tur": "sehir",
+  "kur": "1831-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Instituto Costarricense de Turismo, Caminatas históricas por Liberia, https://es.visitcostarica.com/costa-rica/things-to-do/culture/historical-walks/liberia — 'Para 1831, la población de Guanacaste recibió el título de \"Pueblo\"'; ciudad 1836.",
+  "neden": "1769 şapeli etrafında büyüdü; 1831'de pueblo, 1836'da şehir, 1854'te 'Liberia' adı; 1923'te Guanacaste eyaletinin merkezi.",
+  "sorun": "1831-1838 ara dönem zinciri koordinatör kararı. kur 1831 federasyon dönemine düşüyor (Nicoya partidosu 1824-07-25'te Kosta Rika'ya katıldı); önerilen zincir: [1831 → 1838-01-01: Orta Amerika Federasyonu içinde Kosta Rika Devleti — künye tahmin edilmedi] → kosta-rika-cumhuriyeti (1838-01-01→1923-10-29)."
+ }
+]

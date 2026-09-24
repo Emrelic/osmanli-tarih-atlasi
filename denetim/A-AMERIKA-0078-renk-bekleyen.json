@@ -1,0 +1,436 @@
+[
+ {
+  "ad": "Ciudad Quesada (Villa Quesada)",
+  "tur": "sehir",
+  "lat": 10.3257,
+  "lon": -84.43,
+  "kur": "1911-09-26",
+  "kesinlik": "gun",
+  "s": [
+   {
+    "f": "1911-09-26",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Municipalidad de San Carlos, Reseña Histórica, https://www.munisc.go.cr/Paginas/Visitantes/Historia.aspx — 'el 26 de septiembre de 1911, bajo decreto número 31 se establece a San Carlos como el cantón número diez'; cabecera Villa Quesada.",
+  "neden": "26 Eylül 1911'de San Carlos kantonu kuruldu, merkezi Villa Quesada; 1923'te Kosta Rika'nın kanton merkezi.",
+  "not": "SORUN (araştırma): Belediye sitesi 'decreto número 31' der; başka derlemeler 'Ley No. 17' yazar — gün aynı (26 Eylül 1911), yalnız kanun numarası çelişik. · hedef 10.75, -84.75 · 59 km",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Tegucigalpa",
+  "tur": "sehir",
+  "lat": 14.1058,
+  "lon": -87.2047,
+  "kur": "1578-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1578-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-10-26",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-10-26",
+    "t": "1923-10-29",
+    "d": "honduras-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, Tegucigalpa, https://www.britannica.com/place/Tegucigalpa — 'founded in 1578 as a silver- and gold-mining centre'.",
+  "neden": "1578'de maden merkezi olarak kuruldu; 1880'den kalıcı başkent; 1923'te Honduras başkenti. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → honduras-cumhuriyeti (1838-10-26)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Comayagua",
+  "tur": "sehir",
+  "lat": 14.46,
+  "lon": -87.64,
+  "kur": "1537-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1537-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-10-26",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-10-26",
+    "t": "1923-10-29",
+    "d": "honduras-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, Comayagua, https://www.britannica.com/place/Comayagua — 'founded in 1537 as Valladolid de Santa María de Comayagua'.",
+  "neden": "1537'de kuruldu, sömürge Honduras'ının başkenti (1880'e dek); 1923'te Comayagua departmanı merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → honduras-cumhuriyeti (1838-10-26)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "San Pedro Sula",
+  "tur": "sehir",
+  "lat": 15.5054,
+  "lon": -88.0251,
+  "kur": "1536-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1536-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-10-26",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-10-26",
+    "t": "1923-10-29",
+    "d": "honduras-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, San Pedro Sula, https://www.britannica.com/place/San-Pedro-Sula — 'founded in 1536'.",
+  "neden": "1536'da kuruldu; 1923'te Cortés departmanının merkezi ve muz ticaretinin odağı. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → honduras-cumhuriyeti (1838-10-26)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "La Ceiba",
+  "tur": "sehir",
+  "lat": 15.7891,
+  "lon": -86.791,
+  "kur": "1877-08-23",
+  "kesinlik": "gun",
+  "s": [
+   {
+    "f": "1877-08-23",
+    "t": "1923-10-29",
+    "d": "honduras-cumhuriyeti"
+   }
+  ],
+  "kaynak": "La Prensa (Honduras), La Ceiba aniversario, https://www.laprensa.hn/honduras/honduras-la_ceiba-aniversrio-historia-ceiba-municipio-HM20864883 — 'un 23 de agosto de 1877 fue elevada a la categoría de municipio'.",
+  "neden": "23 Ağustos 1877'de belediye, 1902'den Atlántida departmanı merkezi; 1923'te Honduras'ın muz limanı.",
+  "not": "SORUN (araştırma): Kaynak gazete (kurumsal, akademik değil); Britannica yalnız '19. yy sonunda muz limanı olarak gelişti' der.",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "San Salvador",
+  "tur": "sehir",
+  "lat": 13.6976,
+  "lon": -89.1912,
+  "kur": "1528-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1528-01-01",
+    "t": "1535-04-17",
+    "d": "ispanya"
+   },
+   {
+    "f": "1535-04-17",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1841-01-01",
+    "d": "guatemala"
+   },
+   {
+    "f": "1841-01-01",
+    "t": "1923-10-29",
+    "d": "el-salvador-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, San Salvador, https://www.britannica.com/place/San-Salvador — founded 1525 near Suchitoto, 'moved 20 miles (32 km) southwest to its present site in 1528'.",
+  "neden": "1525'te Suchitoto yakınında kuruldu, 1528'de bugünkü yere taşındı; 1923'te El Salvador başkenti. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → el-salvador-cumhuriyeti (1841-01-01)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "San Miguel (El Salvador)",
+  "tur": "sehir",
+  "lat": 13.4804,
+  "lon": -88.1772,
+  "kur": "1530-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1530-01-01",
+    "t": "1535-04-17",
+    "d": "ispanya"
+   },
+   {
+    "f": "1535-04-17",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1841-01-01",
+    "d": "guatemala"
+   },
+   {
+    "f": "1841-01-01",
+    "t": "1923-10-29",
+    "d": "el-salvador-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, San Miguel, https://www.britannica.com/place/San-Miguel-El-Salvador — 'founded in 1530'.",
+  "neden": "1530'da kuruldu; 1923'te San Miguel departmanı merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → el-salvador-cumhuriyeti (1841-01-01)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Santa Ana (El Salvador)",
+  "tur": "sehir",
+  "lat": 13.9948,
+  "lon": -89.5566,
+  "kur": "1812-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1812-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1841-01-01",
+    "d": "guatemala"
+   },
+   {
+    "f": "1841-01-01",
+    "t": "1923-10-29",
+    "d": "el-salvador-cumhuriyeti"
+   }
+  ],
+  "kaynak": "El Diario de Hoy, Santa Ana historia (2025), https://www.elsalvador.com/opinion/editoriales/especiales-edh-santa-ana-historia/1231883/2025/ — 'surgió la que se conoció como \"villa\" en 1812'; ciudad 1824. Britannica: 'known by this name since 1708'.",
+  "neden": "Sömürge dönemi yerli kasabası; 1812'de villa, 1824'te şehir; 1923'te Santa Ana departmanı merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → el-salvador-cumhuriyeti (1841-01-01)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Managua",
+  "tur": "sehir",
+  "lat": 12.1364,
+  "lon": -86.2514,
+  "kur": "1819-03-24",
+  "kesinlik": "gun",
+  "s": [
+   {
+    "f": "1819-03-24",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-04-30",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-04-30",
+    "t": "1923-10-29",
+    "d": "nikaragua-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Academia de Geografía e Historia de Nicaragua, El nombre de Managua, https://www.aghn.edu.ni/2025/09/el-nombre-de-managua/ — 'al ser elevado a Villa (24 de marzo, 1819), se le denominó oficialmente Leal Villa de Santiago de Managua'.",
+  "neden": "Sömürge boyunca yerli kasabası; 24 Mart 1819'da villa, 1846'da şehir, 1857'den kalıcı başkent (Britannica); 1923'te Nikaragua başkenti. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → nikaragua-cumhuriyeti (1838-04-30)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "León (Nikaragua)",
+  "tur": "sehir",
+  "lat": 12.435,
+  "lon": -86.8789,
+  "kur": "1610-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1610-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-04-30",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-04-30",
+    "t": "1923-10-29",
+    "d": "nikaragua-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, León, https://www.britannica.com/place/Leon-Nicaragua — 'founded on the edge of Lake Managua in 1524, but after an earthquake it was moved in 1610'.",
+  "neden": "1524'te León Viejo'da kuruldu, 1610'da bugünkü yere (Sutiaba) taşındı; 1923'te León departmanı merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → nikaragua-cumhuriyeti (1838-04-30)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Granada (Nikaragua)",
+  "tur": "sehir",
+  "lat": 11.9304,
+  "lon": -85.9535,
+  "kur": "1524-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1524-01-01",
+    "t": "1535-04-17",
+    "d": "ispanya"
+   },
+   {
+    "f": "1535-04-17",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-04-30",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-04-30",
+    "t": "1923-10-29",
+    "d": "nikaragua-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, Francisco Hernández de Córdoba, https://www.britannica.com/biography/Francisco-Hernandez-de-Cordoba — sent in 1524, 'established Granada on Lake Nicaragua'.",
+  "neden": "Hernández de Córdoba'nın 1524'te Nikaragua Gölü kıyısında kurduğu şehir; 1923'te Granada departmanı merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → nikaragua-cumhuriyeti (1838-04-30)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Bluefields",
+  "tur": "sehir",
+  "lat": 12.0132,
+  "lon": -83.7649,
+  "kur": "1894-02-12",
+  "kesinlik": "gun",
+  "s": [
+   {
+    "f": "1894-02-12",
+    "t": "1923-10-29",
+    "d": "nikaragua-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Biblioteca Enrique Bolaños, ¿Cómo fue la reincorporación de la Mosquitia?, https://www.enriquebolanos.org/articulo/reincorporacion_mosquitia — 'Ese mismo 12 de febrero (1894) el Gral. Cabezas tomó militarmente los edificios públicos'.",
+  "neden": "1894'e dek Miskito Rezervi'nin merkezi; 12 Şubat 1894'te Nikaragua devleti el koydu, 20 Kasım 1894'te Miskito Konvansiyonu Nikaragua egemenliğini tanıdı; 1923'te Zelaya departmanı merkezi.",
+  "not": "SORUN (araştırma): 1894 öncesi (İngiliz himayesi 1860'a dek, sonra Miskito Rezervi) zincire alınmadı — atlasta Miskito künyesi yok. Temmuz-Ağustos 1894'te kısa Miskito/İngiliz restorasyonu oldu; kur olarak resmî tanıma (1894-11-20) tercih edilebilir.",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "San José (Kosta Rika)",
+  "tur": "sehir",
+  "lat": 9.9328,
+  "lon": -84.0796,
+  "kur": "1736-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1736-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-01-01",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-01-01",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, San José, https://www.britannica.com/place/San-Jose-Costa-Rica — 'founded in 1736'; national capital 1823.",
+  "neden": "1736'da kuruldu, 1823'ten başkent; 1923'te Kosta Rika başkenti. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → kosta-rika-cumhuriyeti (1838-01-01)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Cartago (Kosta Rika)",
+  "tur": "sehir",
+  "lat": 9.8645,
+  "lon": -83.9207,
+  "kur": "1563-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1563-01-01",
+    "t": "1821-09-15",
+    "d": "yeni-ispanya"
+   },
+   {
+    "f": "1821-09-15",
+    "t": "1838-01-01",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-01-01",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Encyclopaedia Britannica, Cartago, https://www.britannica.com/place/Cartago — 'founded in 1563', capital of Costa Rica until 1823.",
+  "neden": "1563'te kuruldu, 1823'e dek başkent; 1923'te Cartago eyaletinin merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → kosta-rika-cumhuriyeti (1838-01-01)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Puerto Limón",
+  "tur": "sehir",
+  "lat": 9.9907,
+  "lon": -83.036,
+  "kur": "1865-11-09",
+  "kesinlik": "gun",
+  "s": [
+   {
+    "f": "1865-11-09",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Instituto Costarricense de Turismo, Caminatas históricas por Limón, https://es.visitcostarica.com/costa-rica/things-to-do/culture/historical-walks/limon — 'El 9 de noviembre de 1865, el entonces gobernador José María Madriz declaró a Limón como la primera ciudad portuaria'.",
+  "neden": "1865'te liman şehri ilan edildi, 1870'te komarka, 1892'de kanton, 1902'de eyalet merkezi; 1923'te Kosta Rika'nın Atlantik limanı.",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ },
+ {
+  "ad": "Liberia (Kosta Rika)",
+  "tur": "sehir",
+  "lat": 10.632,
+  "lon": -85.4393,
+  "kur": "1831-01-01",
+  "kesinlik": "yil",
+  "s": [
+   {
+    "f": "1831-01-01",
+    "t": "1838-01-01",
+    "d": "guatemala"
+   },
+   {
+    "f": "1838-01-01",
+    "t": "1923-10-29",
+    "d": "kosta-rika-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Instituto Costarricense de Turismo, Caminatas históricas por Liberia, https://es.visitcostarica.com/costa-rica/things-to-do/culture/historical-walks/liberia — 'Para 1831, la población de Guanacaste recibió el título de \"Pueblo\"'; ciudad 1836.",
+  "neden": "1769 şapeli etrafında büyüdü; 1831'de pueblo, 1836'da şehir, 1854'te 'Liberia' adı; 1923'te Guanacaste eyaletinin merkezi. · zincir: yeni-ispanya → guatemala (1821-09-15; atlas künyesi Orta Amerika Federasyonu dönemini bu kimlikle izler) → kosta-rika-cumhuriyeti (1838-01-01)",
+  "not": "",
+  "grup": "MEKSIKA-OA-KARAYIP"
+ }
+]

@@ -1,0 +1,1522 @@
+[
+ {
+  "hedef": "-18.25, -57.25",
+  "ad": "Ladário",
+  "lat": -19.0089,
+  "lon": -57.5973,
+  "tur": "sehir",
+  "kur": "1873-03-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1873-03-14",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Ladário), https://cidades.ibge.gov.br/brasil/ms/ladario/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5005202&aspas=3) · \"arsenal da marinha, cuja construção foi iniciada no dia 14 de março de 1873\"",
+  "neden": "Ladário 1923'te Corumbá belediyesinin distrito'su (Lei nº 134, 16-03-1896) ve Brezilya Donanması Ladário Arsenali'nin yeri (inşaat 14-03-1873). Pantanal'da hedefe en yakın idarî yer; Corumbá (94 km, 1865-67 Paraguay işgali yüzünden zinciri sorunlu) yerine seçildi.",
+  "mesafe_km": 92.0,
+  "sorun": ""
+ },
+ {
+  "hedef": "-20.75, -55.25",
+  "ad": "Aquidauana",
+  "lat": -20.4666,
+  "lon": -55.7868,
+  "tur": "sehir",
+  "kur": "1906-12-18",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1906-12-18",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Aquidauana), https://cidades.ibge.gov.br/brasil/ms/aquidauana/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5001102&aspas=3) · \"Elevado à categoria município e … de Aquidauana, pela Lei Estadual nº 467, de 18-12-1906\"",
+  "neden": "1923'te Aquidauana belediye merkezi (1906 kanunu, 1907 kuruluş, 1918 şehir). 1892 köy kuruluşu özel çiftlikçi girişimi olduğu için kur alınmadı.",
+  "mesafe_km": 64.1,
+  "sorun": ""
+ },
+ {
+  "hedef": "-18.25, -53.75",
+  "ad": "Coxim",
+  "lat": -18.5013,
+  "lon": -54.751,
+  "tur": "sehir",
+  "kur": "1872-11-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1872-11-06",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Coxim), https://cidades.ibge.gov.br/brasil/ms/coxim/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5003306&aspas=3) · \"Distrito criado com a denominação … de Herculânea, pela Lei Provincial n.º 1, de 06-11-1872\"",
+  "neden": "1923'te Coxim vila/belediye merkezi (distrito 1872, vila 1898). 1862 Taquari askerî kolonisi 1865 Paraguay baskınıyla kesintiye uğradığı için kur savaş sonrası distrito kanunudur. 80 km içinde 1923 öncesi idarî yer yok.",
+  "mesafe_km": 109.3,
+  "sorun": ""
+ },
+ {
+  "hedef": "-21.25, -52.25",
+  "ad": "Três Lagoas",
+  "lat": -20.7849,
+  "lon": -51.7007,
+  "tur": "sehir",
+  "kur": "1914-06-12",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1914-06-12",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Três Lagoas), https://cidades.ibge.gov.br/brasil/ms/tres-lagoas/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5008305&aspas=3) · \"Distrito criado com a denominação de Três Lagoas, pela Lei Estadual n.º 656, de 12-06-1914\"",
+  "neden": "1923'te Três Lagoas vila/belediye merkezi (distrito 1914, vila 1915, kuruluş 08-08-1915).",
+  "mesafe_km": 77.0,
+  "sorun": ""
+ },
+ {
+  "hedef": "-18.75, -50.75",
+  "ad": "Caçu",
+  "lat": -18.5594,
+  "lon": -51.1328,
+  "tur": "sehir",
+  "kur": "1918-01-01",
+  "hassasiyet": "ay",
+  "s": [
+   {
+    "f": "1918-01-01",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Caçu), https://cidades.ibge.gov.br/brasil/go/cacu/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5204300&aspas=3) · \"Distrito criado com a denominação de Caçu (ex-povoado), pela Lei Municipal de janeiro de 1918\"",
+  "neden": "1923'te Jataí belediyesinin Caçu distrito'su (belediye kanunu, Ocak 1918; gün kaynakta yok). Santa Vitória (67 km) 07-09-1923 kanunuyla distrito oldu — 1923-09-01'den sonra, alınmadı.",
+  "mesafe_km": 45.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-19.25, -47.25",
+  "ad": "Perdizes",
+  "lat": -19.3434,
+  "lon": -47.2963,
+  "tur": "sehir",
+  "kur": "1880-01-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1880-01-03",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Perdizes), https://cidades.ibge.gov.br/brasil/mg/perdizes/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3149804&aspas=3) · \"O povoado passou a distrito pela Lei Provincial nº 2594 de 03/01/1880\"",
+  "neden": "1923'te Araxá belediyesinin distrito'su (1880 eyalet kanunu, 1891 teyit; 1920 sayımında \"Conceição do Araxá\" adıyla).",
+  "mesafe_km": 11.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-16.75, -45.75",
+  "ad": "Bonfinópolis de Minas",
+  "lat": -16.568,
+  "lon": -45.9839,
+  "tur": "sehir",
+  "kur": "1869-11-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1869-11-06",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Bonfinópolis de Minas), https://cidades.ibge.gov.br/brasil/mg/bonfinopolis-de-minas/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3108206&aspas=3) · \"Distrito criado com a denominação de Lajes, pela lei provincial nº 1627, de 06-11-1869\"",
+  "neden": "1923'te Paracatu belediyesinin Lajes distrito'su (1869, 1891 teyit; 1911 bölünmesinde kayıtlı).",
+  "mesafe_km": 32.1,
+  "sorun": ""
+ },
+ {
+  "hedef": "-17.25, -40.75",
+  "ad": "Águas Formosas",
+  "lat": -17.0802,
+  "lon": -40.9384,
+  "tur": "sehir",
+  "kur": "1911-08-30",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1911-08-30",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Águas Formosas), https://cidades.ibge.gov.br/brasil/mg/aguas-formosas/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3100906&aspas=3) · \"Distrito criado com a denominação … do Pampan, pela lei provincial nº 556, de 30-08-1911\"",
+  "neden": "1923'te Teófilo Otoni belediyesinin Pampan distrito'su (1911; 1920 sayımında kayıtlı; 07-09-1923'te Águas Belas adını aldı). Kaynak kanunu \"provincial\" diye yazıyor, 1911'de kanun eyalet kanunudur (Lei Estadual 556).",
+  "mesafe_km": 27.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-30.75, -53.25",
+  "ad": "Lavras do Sul",
+  "lat": -30.8071,
+  "lon": -53.8931,
+  "tur": "sehir",
+  "kur": "1847-11-13",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1847-11-13",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Lavras do Sul), https://cidades.ibge.gov.br/brasil/rs/lavras-do-sul/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=4311502&aspas=3) · \"Distrito criado com a denominação de Lavras, por lei provincial nº 82, de 13-11-1847\"",
+  "neden": "1923'te Lavras belediye merkezi (distrito 1847, vila 09-05-1882). Caçapava do Sul (34 km) daha yakın ama 1839-40'ta Riograndense Cumhuriyeti başkenti olduğundan zinciri el değiştirmeli; kur'u Farroupilha sonrası olan Lavras seçildi.",
+  "mesafe_km": 61.8,
+  "sorun": ""
+ },
+ {
+  "hedef": "-26.75, -50.25",
+  "ad": "Santa Cecília",
+  "lat": -26.9592,
+  "lon": -50.4252,
+  "tur": "sehir",
+  "kur": "1874-04-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1874-04-22",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Santa Cecília), https://cidades.ibge.gov.br/brasil/sc/santa-cecilia/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=4215505&aspas=3) · \"Freguesia criada com a denominação de Rio Correntes pela lei provincial nº 713, de 22-04-1874\"",
+  "neden": "1923'te Curitibanos belediyesinin Rio Correntes distrito'su (freguesia 1874; 1911 bölünmesinde distrito). Contestado bölgesi 1916 anlaşmasına dek PR–SC arasında tartışmalıydı ama iki taraf da Brezilya eyaleti; devlet zinciri etkilenmez.",
+  "mesafe_km": 29.0,
+  "sorun": "IBGE metni kasabanın Corrisco/Serra do Corrisco yerinde doğduğunu söylüyor; 1874 freguesia merkezinin bugünkü Santa Cecília şehir merkeziyle birebir aynı nokta olduğu metinde açık değil."
+ },
+ {
+  "hedef": "-9.25, -69.25",
+  "ad": "Sena Madureira",
+  "lat": -9.066,
+  "lon": -68.6571,
+  "tur": "sehir",
+  "kur": "1904-09-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1904-09-25",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Sena Madureira), https://cidades.ibge.gov.br/brasil/ac/sena-madureira/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1200500&aspas=3) · \"Elevado à categoria de vila … de Sena Madureira, por Ato do Prefeito de 25-09-1904\"",
+  "neden": "1923'te Acre Federal Toprağı Alto Purus Departmanı merkezi (Decreto 5.188/1904, kuruluş 25-09-1904). Yer Petrópolis Antlaşması (1903) sonrası Brezilya idaresince kuruldu; zincir tek dönem. Kasıtlı-boşluk beyanı (G10.5 B68.5) bölgesinde ama 1923'te departman merkezi vardı.",
+  "mesafe_km": 68.2,
+  "sorun": ""
+ },
+ {
+  "hedef": "-8.75, -66.75",
+  "ad": "Boca do Acre",
+  "lat": -8.7423,
+  "lon": -67.3919,
+  "tur": "sehir",
+  "kur": "1902-09-18",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1902-09-18",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Boca do Acre), https://cidades.ibge.gov.br/brasil/am/boca-do-acre/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1300706&aspas=3) · \"A Lei municipal n.° 8, … de 1902, criou o distrito de Boca do Acre\"",
+  "neden": "1923'te Floriano Peixoto (Amazonas) belediyesinin Boca do Acre distrito'su (1902); belediye merkezi 1934'te buraya taşındı. Kasıtlı-boşluk beyanı (G9.5 B65.5) bölgesinde ama 1923'te distrito idaresi vardı.",
+  "mesafe_km": 70.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-9.75, -64.25",
+  "ad": "Porto Velho",
+  "lat": -8.7608,
+  "lon": -63.8999,
+  "tur": "sehir",
+  "kur": "1914-10-02",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1914-10-02",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Porto Velho), https://cidades.ibge.gov.br/brasil/ro/porto-velho/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1100205&aspas=3) · \"Elevada à categoria de vila … Porto Velho, pela Lei Estadual n.º 757, de 02-10-1914\"",
+  "neden": "1923'te Porto Velho belediye merkezi (Amazonas, 1914 kanunu, 24-01-1915 kuruluş). Hedefe 80 km içinde 1923 öncesi tarihli idarî yer bulunamadı; en yakın uygun yer.",
+  "mesafe_km": 116.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-10.75, -61.75",
+  "ad": "Ji-Paraná (Presidente Pena telgraf istasyonu)",
+  "lat": -10.8777,
+  "lon": -61.9322,
+  "tur": "sehir",
+  "kur": "1909-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Ji-Paraná), https://cidades.ibge.gov.br/brasil/ro/ji-parana/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1100122&aspas=3) · \"Em 1909, o Marechal Rondon … uma estação telegráfica, próximo das margens do rio Ji-Paraná\"",
+  "neden": "1923'te Rondon hattının (Cuiabá–Santo Antônio, devlet telgrafı) Presidente Pena istasyonu; bugünkü Ji-Paraná bu istasyon çevresinde doğdu. Kasıtlı-boşluk beyanı (G10.5 B61.5, 39 km) bölgesinde ama 1923'te federal telgraf istasyonu vardı.",
+  "mesafe_km": 24.4,
+  "sorun": "Tarih çelişkisi: IBGE/Prefeitura metni istasyonu 1909'a koyuyor; başka (doğrulanamayan, resmî olmayan) kaynaklar istasyonun 1914'te açıldığını, hattın 01-01-1915'te açıldığını söylüyor. Distrito ancak 1945. Koordinat bugünkü şehir merkezi."
+ },
+ {
+  "hedef": "-12.25, -59.25",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde IBGE kaydında 1923 öncesi belediye/distrito yok. Tek aday Vilhena Rondon telgraf istasyonu (~100 km): IBGE metni \"por volta de 1910\" diyor (yıl belirsiz); 12-10-1911 açılış günü yalnız resmî olmayan sitelerde görüldü, resmî/akademik kaynakla doğrulanamadı."
+ },
+ {
+  "hedef": "-9.75, -59.25",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içindeki belediyelerin (Aripuanã vb.) IBGE formação administrativa kayıtları 1943 sonrası; 1923'te bölge yerli yurdu/kauçuk çıkarım alanı, belgeli devlet idaresi bulunamadı."
+ },
+ {
+  "hedef": "-13.25, -56.75",
+  "ad": "Diamantino",
+  "lat": -14.4037,
+  "lon": -56.4366,
+  "tur": "sehir",
+  "kur": "1811-08-09",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1811-08-09",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Diamantino), https://cidades.ibge.gov.br/brasil/mt/diamantino/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5103502&aspas=3) · \"Distrito criado com a denominação de Alto Paraguai Diamantino, por Resolução Régia de 09-08-1811\"",
+  "neden": "1923'te Diamantino belediye merkezi (distrito 1811, vila 1820, 1901-06 arası kaldırılıp yeniden kuruldu, 1918 şehir). 80 km içinde 1923 öncesi idarî yer yok; en yakın uygun yer (133 km).",
+  "mesafe_km": 132.7,
+  "sorun": ""
+ },
+ {
+  "hedef": "-10.75, -56.75",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde 1923 öncesi tarihli belediye/distrito yok (bölgedeki belediyeler 1970-90'larda kuruldu); Tapajós–Teles Pires havzası 1923'te yerli yurdu."
+ },
+ {
+  "hedef": "-13.25, -54.25",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde 1923 öncesi tarihli belediye/distrito yok (Paranatinga vb. sonradan). SPI yerli karakolu (Posto Simões Lopes) ihtimali var ama kuruluş tarihi ve devlet idaresi statüsü kaynakla doğrulanamadı."
+ },
+ {
+  "hedef": "-10.75, -54.25",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde 1923 öncesi tarihli belediye/distrito yok; Xingu havzası 1923'te yerli yurdu."
+ },
+ {
+  "hedef": "-15.75, -53.25",
+  "bulunamadi": true,
+  "neden": "Tesouro (49 km) 1909 madenci yerleşimi, distrito ilk kez 1937; Guiratinga (86 km) kasabası \"por volta de 1920\" (yıl belirsiz), IBGE'deki 1915 distrito kaydı Santa Rita do Araguaia'ya ait. Registro do Araguaia (Araguaiana) ~170 km. 150 km içinde tarihli idare yok."
+ },
+ {
+  "hedef": "-13.25, -51.75",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde 1923 öncesi tarihli belediye/distrito yok (São Félix do Araguaia, Nova Xavantina vb. 1940 sonrası); Araguaia–Xingu arası 1923'te Xavante yurdu."
+ },
+ {
+  "hedef": "-10.75, -51.75",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde 1923 öncesi tarihli belediye/distrito yok; Conceição do Araguaia (1897/1908) ~380 km uzakta."
+ },
+ {
+  "hedef": "-13.25, -49.25",
+  "bulunamadi": true,
+  "neden": "Porangatu (Descoberto, 24 km) 1911 bölünmesinde Pilar'ın distrito'su olarak görünüyor ama kuruluş yılı hiçbir kaynakta yok (kural: yıl bilinmiyorsa yazılmaz). Mara Rosa (Amaro Leite, distrito 1835) belediye merkezi 1963'te taşındı, bugünkü koordinat eski yer değil. Koordinatör Descoberto için kuruluş yılı kaynağı bulursa Porangatu yazılabilir."
+ },
+ {
+  "hedef": "-10.75, -49.25",
+  "ad": "Porto Nacional",
+  "lat": -10.7027,
+  "lon": -48.408,
+  "tur": "sehir",
+  "kur": "1831-11-11",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1831-11-11",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Porto Nacional), https://cidades.ibge.gov.br/brasil/to/porto-nacional/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1718204&aspas=3) · \"Elevado à categoria de vila, com a denominação de Porto Imperial, pelo Decreto de 11-11-1831\"",
+  "neden": "1923'te Porto Nacional belediye/şehir merkezi (vila 1831, kuruluş 1833, şehir 1861). 80 km içinde 1923 öncesi idarî yer yok.",
+  "mesafe_km": 92.1,
+  "sorun": ""
+ },
+ {
+  "hedef": "-5.75, -47.75",
+  "ad": "Imperatriz",
+  "lat": -5.5185,
+  "lon": -47.4777,
+  "tur": "sehir",
+  "kur": "1856-08-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1856-08-27",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Imperatriz), https://cidades.ibge.gov.br/brasil/ma/imperatriz/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2105302&aspas=3) · \"Elevado à categoria de vila … da Imperatriz, pela Lei Provincial n.º 398, de 27-08-1856\"",
+  "neden": "1923'te Imperatriz belediye merkezi (vila 1856; merkez 1859-62 arası Porto Franco'ya taşınıp geri döndü).",
+  "mesafe_km": 39.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-14.25, -46.75",
+  "ad": "Flores de Goiás",
+  "lat": -14.4451,
+  "lon": -47.0417,
+  "tur": "sehir",
+  "kur": "1835-07-23",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1835-07-23",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Flores de Goiás), https://cidades.ibge.gov.br/brasil/go/flores-de-goias/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5207907&aspas=3) · \"Distrito criado com a denominação de Flores, pela Lei Provincial n.º 14, de 23-07-1835\"",
+  "neden": "1923'te Sítio da Abadia belediyesinin Flores distrito'su (1835; 1907'de Sítio da Abadia'ya bağlandı; 1911 bölünmesinde kayıtlı).",
+  "mesafe_km": 38.2,
+  "sorun": ""
+ },
+ {
+  "hedef": "-11.75, -46.75",
+  "ad": "Dianópolis (São José do Duro)",
+  "lat": -11.624,
+  "lon": -46.8198,
+  "tur": "sehir",
+  "kur": "1854-10-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1854-10-14",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Dianópolis), https://cidades.ibge.gov.br/brasil/to/dianopolis/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1707009&aspas=3) · \"A Lei Provincial nº 03, de 14/10/1854, criou o Distrito de São Jose do Duro\"",
+  "neden": "1923'te São José do Duro belediye merkezi (distrito 1854, vila 26-08-1884; 1920 sayımında iki distrito). 1751 Duro yerli köyü (aldeamento) kur alınmadı.",
+  "mesafe_km": 15.9,
+  "sorun": ""
+ },
+ {
+  "hedef": "-9.25, -46.75",
+  "ad": "Alto Parnaíba",
+  "lat": -9.1027,
+  "lon": -45.9303,
+  "tur": "sehir",
+  "kur": "1871-06-08",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1871-06-08",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Alto Parnaíba), https://cidades.ibge.gov.br/brasil/ma/alto-parnaiba/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2100501&aspas=3) · \"Distrito criado com a denominação … Alto Parnaíba, pela lei provincial nº 974, de 08-06-1871\"",
+  "neden": "1923'te Alto Parnaíba belediye merkezi (distrito 1871, vila 1881). 80 km içinde 1923 öncesi idarî yer yok (Lizarda vb. tarihsiz).",
+  "mesafe_km": 91.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.75, -45.25",
+  "ad": "Loreto (Maranhão)",
+  "lat": -7.0811,
+  "lon": -45.1451,
+  "tur": "sehir",
+  "kur": "1851-11-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1851-11-10",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Loreto), https://cidades.ibge.gov.br/brasil/ma/loreto/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2106102&aspas=3) · \"Distrito criado com a denominação de Loreto, pela lei provincial nº 296, de 10-11-1851\"",
+  "neden": "1923'te Loreto belediye merkezi (distrito 1851, vila 24-07-1873). Atlasta \"Loreto (Baja California)\" ve \"Loreto (Mojos)\" olduğundan ayırt edici ek kondu.",
+  "mesafe_km": 38.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-11.75, -44.25",
+  "ad": "Cotegipe (Campo Largo)",
+  "lat": -12.0228,
+  "lon": -44.2566,
+  "tur": "sehir",
+  "kur": "1820-03-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1820-03-03",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Cotegipe), https://cidades.ibge.gov.br/brasil/ba/cotegipe/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2909406&aspas=3) · \"Elevado à categoria de vila com a denominação de Campo Largo, pelo alvará de 03-03-1820\"",
+  "neden": "1923'te Campo Largo belediye merkezi (vila alvarası 1820, kuruluş 1883; 1911'de üç distrito).",
+  "mesafe_km": 30.3,
+  "sorun": "Vila alvarası 1820, fiilî kuruluş 20-07-1883 — idarenin 1820'de fiilen başlayıp başlamadığı kaynakta açık değil."
+ },
+ {
+  "hedef": "-9.25, -44.25",
+  "ad": "Bom Jesus (Piauí)",
+  "lat": -9.0712,
+  "lon": -44.359,
+  "tur": "sehir",
+  "kur": "1838-09-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1838-09-22",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Bom Jesus), https://cidades.ibge.gov.br/brasil/pi/bom-jesus/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2201903&aspas=3) · \"Distrito criado com a denominação … da Gurguéia, pela lei provincial nº 101, de 2209-1838\"",
+  "neden": "1923'te Bom Jesus do Gurguéia belediye merkezi (distrito 1838, vila 1855, kuruluş 1858). 1804 askerî komutanlık da anılıyor ama günü yok.",
+  "mesafe_km": 23.2,
+  "sorun": ""
+ },
+ {
+  "hedef": "-4.25, -41.75",
+  "ad": "Piripiri",
+  "lat": -4.2716,
+  "lon": -41.7716,
+  "tur": "sehir",
+  "kur": "1870-08-16",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1870-08-16",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Piripiri), https://cidades.ibge.gov.br/brasil/pi/piripiri/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2208403&aspas=3) · \"Distrito criado, com a denominação … Senhora dos Remédios, pela Resolução n.º 698, de 16-08-1870\"",
+  "neden": "1923'te Piripiri belediye/şehir merkezi (distrito 1870, belediye 1874, şehir 1910).",
+  "mesafe_km": 3.4,
+  "sorun": ""
+ },
+ {
+  "hedef": "-11.25, -41.25",
+  "ad": "Morro do Chapéu",
+  "lat": -11.5488,
+  "lon": -41.1565,
+  "tur": "sehir",
+  "kur": "1838-06-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1838-06-01",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Morro do Chapéu), https://cidades.ibge.gov.br/brasil/ba/morro-do-chapeu/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2921708&aspas=3) · \"Distrito criado pela Lei Provincial … 01, 06-1838, com a denominação de Morro do Chapéu\"",
+  "neden": "1923'te Morro do Chapéu belediye merkezi (distrito 1838, vila 1864, kuruluş 1865).",
+  "mesafe_km": 34.8,
+  "sorun": ""
+ },
+ {
+  "hedef": "-8.75, -39.75",
+  "ad": "Santa Maria da Boa Vista",
+  "lat": -8.7977,
+  "lon": -39.8241,
+  "tur": "sehir",
+  "kur": "1762-01-30",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1762-01-30",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Santa Maria da Boa Vista), https://cidades.ibge.gov.br/brasil/pe/santa-maria-da-boa-vista/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2612604&aspas=3) · \"Freguesia criada com a denominação de Boa Vista, pela Resolução de 30-01-1762\"",
+  "neden": "1923'te Boa Vista (Pernambuco) belediye merkezi; freguesia 1762, vila 1838 (1860-70 arası kaldırılıp yeniden kuruldu).",
+  "mesafe_km": 9.7,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.25, -39.25",
+  "ad": "Iguatu (Telha)",
+  "lat": -6.3628,
+  "lon": -39.2892,
+  "tur": "sehir",
+  "kur": "1831-10-11",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1831-10-11",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Iguatu), https://cidades.ibge.gov.br/brasil/ce/iguatu/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2305506&aspas=3) · \"Distrito criado com a denominação de Telha pelo Decreto de 11-10-1831\"",
+  "neden": "1923'te Iguatu belediye merkezi (distrito Telha 1831, vila 1851, kuruluş 1853).",
+  "mesafe_km": 13.3,
+  "sorun": ""
+ },
+ {
+  "hedef": "-21.75, -49.75",
+  "ad": "Lins",
+  "lat": -21.6718,
+  "lon": -49.7526,
+  "tur": "sehir",
+  "kur": "1913-12-30",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1913-12-30",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Lins), https://cidades.ibge.gov.br/brasil/sp/lins/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3527108&aspas=3) · \"Distrito criado com a denominação de Albuquerque Lins pela Lei Estadual n.º 1.408, de 30-12-1913\"",
+  "neden": "1923'te Albuquerque Lins belediye merkezi (distrito 1913, belediye 1919, kuruluş 21-04-1920).",
+  "mesafe_km": 8.7,
+  "sorun": ""
+ },
+ {
+  "hedef": "-6.25, -36.75",
+  "ad": "Florânia (Flores)",
+  "lat": -6.1226,
+  "lon": -36.8226,
+  "tur": "sehir",
+  "kur": "1890-10-20",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1890-10-20",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Florânia), https://cidades.ibge.gov.br/brasil/rn/florania/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2403806&aspas=3) · \"Elevado à categoria de município … Flores pelo Decreto lei Estadual n.º 62, de 20-10-1890\"",
+  "neden": "1923'te Flores (RN) belediye merkezi (1890 kararnamesi, kuruluş 24-01-1891).",
+  "mesafe_km": 16.3,
+  "sorun": ""
+ },
+ {
+  "hedef": "-8.75, -37.25",
+  "ad": "Buíque",
+  "lat": -8.6195,
+  "lon": -37.1606,
+  "tur": "sehir",
+  "kur": "1795-12-11",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1795-12-11",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Buíque), https://cidades.ibge.gov.br/brasil/pe/buique/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2602803&aspas=3) · \"Distrito criado com a denominação de Vila Nova do Buique, por Alvará de 11-12-1795\"",
+  "neden": "1923'te Buíque belediye merkezi (1795 alvarası, vila 1854, kuruluş 1855).",
+  "mesafe_km": 17.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-13.25, -61.75",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde (Guaporé vadisi, bugünkü Pimenteiras/Cerejeiras çevresi) 1923 öncesi tarihli belediye/distrito ya da kaynaklı karakol yok; Forte Príncipe da Beira zaten atlasta ve ~260 km."
+ },
+ {
+  "hedef": "-15.75, -57.75",
+  "ad": "Cáceres (São Luís de Cáceres)",
+  "lat": -16.0764,
+  "lon": -57.6818,
+  "tur": "sehir",
+  "kur": "1850-06-28",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1850-06-28",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Cáceres), https://cidades.ibge.gov.br/brasil/mt/caceres/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5102504&aspas=3) · \"Elevado à categoria de vila … do Paraguai, pela Lei Provincial nº 8, de 28-06-1850\"",
+  "neden": "1923'te São Luís de Cáceres belediye/şehir merkezi (vila 1850, 1851'de kaldırıldı, 1859'da yeniden, şehir 1874).",
+  "mesafe_km": 37.0,
+  "sorun": "Yerin 1778 Vila Maria do Paraguai kuruluşu bilinir ama elimdeki IBGE/IPHAN metni bunu tarihlemiyor (IPHAN sayfası ölü); kur kaynaklı en erken idarî tarih olan 1850 alındı. 1851-59 arası vila statüsü yok (Brezilya idaresi kesintisiz)."
+ },
+ {
+  "hedef": "-29.25, -56.25",
+  "ad": "Maçambará (Recreio)",
+  "lat": -29.1445,
+  "lon": -56.0674,
+  "tur": "sehir",
+  "kur": "1900-01-17",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1900-01-17",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Maçambará), https://cidades.ibge.gov.br/brasil/rs/macambara/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=4311718&aspas=3) · \"Distrito criado com a denominação de Recreio, pelo Ato Municipal n.º 13, de 17-01-1900\"",
+  "neden": "1923'te Itaqui belediyesinin Recreio distrito'su (1900; 1911'de kayıtlı, 1944'te Massambará adını aldı). Itaqui (32 km) distrito kanunu 1837 Farroupilha dönemine düştüğü için seçilmedi.",
+  "mesafe_km": 21.3,
+  "sorun": ""
+ },
+ {
+  "hedef": "-19.75, -40.75",
+  "ad": "Itaguaçu (Boa Família)",
+  "lat": -19.8018,
+  "lon": -40.8601,
+  "tur": "sehir",
+  "kur": "1891-03-16",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1891-03-16",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Itaguaçu), https://cidades.ibge.gov.br/brasil/es/itaguacu/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3202702&aspas=3) · \"Distrito criado com a denominação de Boa Família, pela Lei Municipal n.º 1, de 16-03-1891\"",
+  "neden": "1923'te Itaguaçu (eski Boa Família) belediye merkezi (distrito 1891, vila 1914, ad 1921).",
+  "mesafe_km": 12.9,
+  "sorun": "IBGE 1914 vila kaydında \"Sede na povoação de Santa Joana\" diyor; 1891 distrito merkezi ile bugünkü şehir merkezinin aynı nokta olduğu metinde tam açık değil."
+ },
+ {
+  "hedef": "-25.75, -53.25",
+  "ad": "Catanduvas (Paraná)",
+  "lat": -25.2044,
+  "lon": -53.1548,
+  "tur": "sehir",
+  "kur": "1914-03-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1914-03-14",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Catanduvas), https://cidades.ibge.gov.br/brasil/pr/catanduvas/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=4105003&aspas=3) · \"Distrito criado com a denominação de Catanduvas pela Lei Estadual n.º 1.383, de 14-03-1914\"",
+  "neden": "1923'te Guarapuava belediyesinin Catanduvas distrito'su (1914; 1920 sayımında kayıtlı).",
+  "mesafe_km": 61.4,
+  "sorun": ""
+ },
+ {
+  "hedef": "-3.25, -47.75",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içindeki bütün belediyeler (Paragominas, Ulianópolis, Tomé-Açu vb.) 1955 sonrası; 1923'te Gurupi–Capim arası ormanlık yerli yurdu. En yakın eski yerler (Irituia, São Domingos do Capim) ~165-175 km."
+ },
+ {
+  "hedef": "-14.25, -44.75",
+  "ad": "Correntina",
+  "lat": -13.3477,
+  "lon": -44.6333,
+  "tur": "sehir",
+  "kur": "1866-05-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1866-05-15",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Correntina), https://cidades.ibge.gov.br/brasil/ba/correntina/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2909307&aspas=3) · \"Elevado à categoria de vila … de Correntina, pela Lei Provincial n.º 973, de 15-05-1866\"",
+  "neden": "1923'te Correntina belediye merkezi (vila 1866, kuruluş 1867; 1880-88 arası Carinhanha'ya bağlandı). Coribe (57 km, Vila do Rio Alegre) kanunu 28-08-1923 ama kuruluşu 15-10-1923 — 1923-09-01'de idare yoktu; Cocos o zaman köy. Bu yüzden 101 km'deki Correntina.",
+  "mesafe_km": 101.1,
+  "sorun": ""
+ },
+ {
+  "hedef": "-4.25, -39.25",
+  "ad": "Canindé",
+  "lat": -4.3516,
+  "lon": -39.3155,
+  "tur": "sehir",
+  "kur": "1818-09-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1818-09-03",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Canindé), https://cidades.ibge.gov.br/brasil/ce/caninde/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2302800&aspas=3) · \"Distrito criado com a denominação … das Chagas do Canindé ... pela Provisão de 03-09-1818\"",
+  "neden": "1923'te Canindé belediye merkezi (distrito 1818, vila 29-07-1846).",
+  "mesafe_km": 13.4,
+  "sorun": "IBGE metninde ilk tarih \"Resolução Régia de 19-08-181\" diye bozuk; okunabilen ilk tarih Provisão 03-09-1818."
+ },
+ {
+  "hedef": "-16.75, -43.25",
+  "ad": "Francisco Sá (Brejo das Almas)",
+  "lat": -16.4827,
+  "lon": -43.4896,
+  "tur": "sehir",
+  "kur": "1867-11-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1867-11-27",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Francisco Sá), https://cidades.ibge.gov.br/brasil/mg/francisco-sa/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3126703&aspas=3) · \"Distrito criado com a denominação … das Almas, pela Lei Provincial n.º 1.398, de 27-11-1867\"",
+  "neden": "1923'te Montes Claros belediyesinin Brejo das Almas distrito'su (1867, 1891 teyit, 1911'de kayıtlı).",
+  "mesafe_km": 39.2,
+  "sorun": ""
+ },
+ {
+  "hedef": "-22.75, -53.25",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içindeki bütün belediyeler (Porto Rico, Loanda, Presidente Epitácio distrito 1936 vb.) 1936 sonrası; 1923'te Paraná nehri sol kıyısı ormanlık, belgeli idare bulunamadı."
+ },
+ {
+  "hedef": "-24.25, -48.75",
+  "ad": "Ribeirão Branco",
+  "lat": -24.2206,
+  "lon": -48.7635,
+  "tur": "sehir",
+  "kur": "1883-03-29",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1883-03-29",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Ribeirão Branco), https://cidades.ibge.gov.br/brasil/sp/ribeirao-branco/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3543006&aspas=3) · \"Distrito criado com a denominação … Provincial no 28, de 29 de março de 1883\"",
+  "neden": "1923'te Faxina (Itapeva) belediyesinin Ribeirão Branco distrito'su (1883).",
+  "mesafe_km": 3.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-5.25, -44.25",
+  "ad": "Presidente Dutra (Curador)",
+  "lat": -5.2898,
+  "lon": -44.495,
+  "tur": "sehir",
+  "kur": "1896-06-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1896-06-06",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Presidente Dutra), https://cidades.ibge.gov.br/brasil/ma/presidente-dutra/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2109106&aspas=3) · \"Distrito criado com a denominação de Curador, pela Lei Municipal de 06-06-1896\"",
+  "neden": "1923'te Barra do Corda belediyesinin Curador distrito'su (1896; 1911'de kayıtlı).",
+  "mesafe_km": 27.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-21.75, -45.25",
+  "ad": "Três Corações",
+  "lat": -21.6921,
+  "lon": -45.2511,
+  "tur": "sehir",
+  "kur": "1832-07-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1832-07-14",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Três Corações), https://cidades.ibge.gov.br/brasil/mg/tres-coracoes/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3169307&aspas=3) · \"Distrito criado com a denominação de Três Corações do Rio Verde pelo Decreto de 14-07-1832\"",
+  "neden": "1923'te Três Corações belediye merkezi (distrito 1832, vila 1884, kuruluş 1885).",
+  "mesafe_km": 6.4,
+  "sorun": ""
+ },
+ {
+  "hedef": "-9.25, -42.25",
+  "ad": "São Raimundo Nonato",
+  "lat": -9.0124,
+  "lon": -42.6987,
+  "tur": "sehir",
+  "kur": "1832-07-06",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1832-07-06",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (São Raimundo Nonato), https://cidades.ibge.gov.br/brasil/pi/sao-raimundo-nonato/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2210607&aspas=3) · \"Distrito criado com a denominação de São Raimundo Nonato, pelo Decreto, de 06-07-1832\"",
+  "neden": "1923'te São Raimundo Nonato belediye merkezi (distrito 1832, vila 1850). Remanso (45 km) eski şehri Sobradinho barajı altında kaldığından bugünkü koordinat eski yer değil; seçilmedi.",
+  "mesafe_km": 55.9,
+  "sorun": ""
+ },
+ {
+  "hedef": "-11.75, -39.75",
+  "ad": "Riachão do Jacuípe",
+  "lat": -11.8067,
+  "lon": -39.3818,
+  "tur": "sehir",
+  "kur": "1878-08-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1878-08-01",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Riachão do Jacuípe), https://cidades.ibge.gov.br/brasil/ba/riachao-do-jacuipe/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2926301&aspas=3) · \"Elevado à categoria de vila … do Jacuípe, pela Lei Provincial n.º 1823, de 01-08-1878\"",
+  "neden": "1923'te Riachão do Jacuípe belediye merkezi (vila 1878, kuruluş 25-10-1878).",
+  "mesafe_km": 40.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-17.75, -48.25",
+  "ad": "Ipameri (Entre Rios)",
+  "lat": -17.7215,
+  "lon": -48.1581,
+  "tur": "sehir",
+  "kur": "1845-07-31",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1845-07-31",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Ipameri), https://cidades.ibge.gov.br/brasil/go/ipameri/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5210109&aspas=3) · \"Freguesia criada com a denominação de Entre Rios, pela Lei Provincial n.º 2, de 31-07-1845\"",
+  "neden": "1923'te Ipameri belediye merkezi (freguesia 1845, vila 1858).",
+  "mesafe_km": 10.2,
+  "sorun": ""
+ },
+ {
+  "hedef": "-19.25, -45.25",
+  "ad": "Pompéu",
+  "lat": -19.2257,
+  "lon": -45.0141,
+  "tur": "sehir",
+  "kur": "1866-11-14",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1866-11-14",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Pompéu), https://cidades.ibge.gov.br/brasil/mg/pompeu/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3152006&aspas=3) · \"Distrito criado com a denominação … do Pompéo, pela Lei Provincial n.º 1.378, de 14-11-1866\"",
+  "neden": "1923'te Pitangui belediyesinin Conceição do Pompéu distrito'su (1866, 1891 teyit, 1911'de kayıtlı).",
+  "mesafe_km": 24.9,
+  "sorun": ""
+ },
+ {
+  "hedef": "-16.75, -51.75",
+  "ad": "Caiapônia (Torres do Rio Bonito)",
+  "lat": -16.9539,
+  "lon": -51.8091,
+  "tur": "sehir",
+  "kur": "1855-11-05",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1855-11-05",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Caiapônia), https://cidades.ibge.gov.br/brasil/go/caiaponia/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5204409&aspas=3) · \"Distrito criado com a denominação … pela Lei ou Resolução Provincial n.º 1, de 05-11-1855\"",
+  "neden": "1923'te Rio Bonito belediye merkezi (distrito 1855, vila 1873, kuruluş 1874).",
+  "mesafe_km": 23.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-20.25, -49.75",
+  "ad": "Tanabi",
+  "lat": -20.6228,
+  "lon": -49.6563,
+  "tur": "sehir",
+  "kur": "1906-08-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1906-08-01",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Tanabi), https://cidades.ibge.gov.br/brasil/sp/tanabi/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=3553401&aspas=3) · \"Distrito criado com a denominação de Tanabi, pela Lei Estadual n.º 992, de 01-08-1906\"",
+  "neden": "1923'te Rio Preto belediyesinin Tanabi distrito'su (1906; belediye 1924).",
+  "mesafe_km": 42.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-18.75, -55.75",
+  "ayni": "Coxim",
+  "mesafe_km": 108.8
+ },
+ {
+  "hedef": "-14.25, -39.25",
+  "ad": "Itacaré (Barra do Rio de Contas)",
+  "lat": -14.2784,
+  "lon": -38.9959,
+  "tur": "sehir",
+  "kur": "1718-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1718-01-01",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Itacaré), https://cidades.ibge.gov.br/brasil/ba/itacare/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2914901&aspas=3) · \"Distrito criado com a denominação de Barra do Rio de Contas, em 1718\"",
+  "neden": "1923'te Itacaré (Barra do Rio de Contas) belediye merkezi; distrito 1718 (gün kaynakta yok).",
+  "mesafe_km": 27.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-19.75, -53.25",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içindeki eski yerler (Camapuã, Água Clara, Ribas do Rio Pardo, Jaraguari, Inocência) IBGE'de ilk kez 1936 bölünmesinde distrito; 1923 öncesi kuruluş tarihi yok. Camapuã 18. yy çiftlik/monção durağıydı ama devlet idaresi tarihlenemedi."
+ },
+ {
+  "hedef": "-28.75, -49.75",
+  "ad": "Araranguá (Campinas)",
+  "lat": -28.9356,
+  "lon": -49.4918,
+  "tur": "sehir",
+  "kur": "1864-03-19",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1864-03-19",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Araranguá), https://cidades.ibge.gov.br/brasil/sc/ararangua/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=4201406&aspas=3) · \"Nossa Senhora Mãe dos Homens passou a denominar-se Campinas (mudança de sede)\"",
+  "neden": "1923'te Araranguá belediye merkezi (distrito 1848, merkez 1864'te Campinas'a — bugünkü şehre — taşındı; vila 1880, kuruluş 1883). kur bugünkü merkezin distrito merkezi olduğu gündür (Lei Provincial 532, 19-03-1864); 1848 eski merkez içindir.",
+  "mesafe_km": 32.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-7.75, -47.75",
+  "ad": "Carolina (Maranhão)",
+  "lat": -7.3358,
+  "lon": -47.4634,
+  "tur": "sehir",
+  "kur": "1831-10-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1831-10-25",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Carolina), https://cidades.ibge.gov.br/brasil/ma/carolina/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2102804&aspas=3) · \"Elevado à categoria de vila … de Carolina, pelo decreto de 25-101831. Instalado em 25-10-1831\"",
+  "neden": "1923'te Carolina belediye/şehir merkezi (vila 1831, şehir 1859; 1854'e dek Goiás–Maranhão arasında tartışmalı, iki taraf da Brezilya). Kasıtlı-boşluk beyanı (G7.5 B47.5, ~30 km) bölgesinde ama 1923'te belediye merkeziydi.",
+  "mesafe_km": 55.9,
+  "sorun": ""
+ },
+ {
+  "hedef": "-1.75, -46.75",
+  "ad": "Ourém (Pará)",
+  "lat": -1.5417,
+  "lon": -47.1126,
+  "tur": "sehir",
+  "kur": "1753-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1753-01-01",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Ourém), https://cidades.ibge.gov.br/brasil/pa/ourem/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=1505403&aspas=3) · \"Elevado à categoria de vila com a denominação de Ourém, em 1753\"",
+  "neden": "1923'te Ourém belediye merkezi (vila 1753, kuruluş 1762; gün kaynakta yok). Portekiz'deki Ourém'den ayırmak için ek kondu.",
+  "mesafe_km": 46.5,
+  "sorun": ""
+ },
+ {
+  "hedef": "-5.25, -46.25",
+  "ad": "Grajaú (Chapada)",
+  "lat": -5.8137,
+  "lon": -46.1462,
+  "tur": "sehir",
+  "kur": "1835-04-29",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1835-04-29",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Grajaú), https://cidades.ibge.gov.br/brasil/ma/grajau/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2104800&aspas=3) · \"Elevado à categoria de vila … de Chapada pela Lei Provincial n.º 7 de 29-04-1835\"",
+  "neden": "1923'te Grajaú belediye merkezi (vila Chapada 1835).",
+  "mesafe_km": 63.7,
+  "sorun": "IBGE metni distrito'yu 08-05-1835, vila'yı 29-04-1835 diye veriyor (vila distrito'dan önce); en erken kanun günü alındı."
+ },
+ {
+  "hedef": "-16.75, -39.25",
+  "ad": "Porto Seguro",
+  "lat": -16.4435,
+  "lon": -39.0643,
+  "tur": "sehir",
+  "kur": "1534-05-27",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1534-05-27",
+    "t": "1822-09-07",
+    "d": "portekiz-brezilyasi"
+   },
+   {
+    "f": "1822-09-07",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Porto Seguro), https://cidades.ibge.gov.br/brasil/ba/porto-seguro/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2925303&aspas=3) · \"Elevado à categoria de vila … denominação de Porto Seguro por Carta Régia, de 27-05-1534\"",
+  "neden": "1923'te Porto Seguro belediye merkezi (Portekiz kolonisinin ilk vilalarından).",
+  "mesafe_km": 39.4,
+  "sorun": "27-05-1534 kaptanlık bağış mektubunun tarihi olabilir; vila'nın fiilî kuruluşu genellikle 1535 diye anılır. IBGE metninde ayrıca 1795 distrito alvarası var."
+ },
+ {
+  "hedef": "-13.75, -58.75",
+  "bulunamadi": true,
+  "neden": "Hedefin 150 km içinde 1923 öncesi tarihli belediye/distrito yok (Comodoro 1985, Campos de Júlio 1986). Rondon hattının Utiariti/Juruena telgraf istasyonları ihtimali var ama kuruluş günü resmî/akademik kaynakla bulunamadı."
+ },
+ {
+  "hedef": "-21.25, -56.75",
+  "ad": "Bonito (Mato Grosso do Sul)",
+  "lat": -21.1261,
+  "lon": -56.4836,
+  "tur": "sehir",
+  "kur": "1915-11-11",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1915-11-11",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Bonito), https://cidades.ibge.gov.br/brasil/ms/bonito/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5002209&aspas=3) · \"Distrito criado com a denominação de Bonito, pela Lei n.º 693, de 11-11-1915\"",
+  "neden": "1923'te Miranda belediyesinin Bonito distrito'su.",
+  "mesafe_km": 30.9,
+  "sorun": "Kaynak kendiyle çelişiyor: distrito 11-11-1915 kanunuyla kuruldu diyor ama 1911 bölünmesinde de Bonito distrito'su olarak geçiyor; kur 1915 kanunu, gerçek başlangıç daha erken olabilir."
+ },
+ {
+  "hedef": "-17.25, -55.25",
+  "ad": "Rondonópolis",
+  "lat": -16.4673,
+  "lon": -54.6372,
+  "tur": "sehir",
+  "kur": "1920-10-08",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1920-10-08",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Rondonópolis), https://cidades.ibge.gov.br/brasil/mt/rondonopolis/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5107602&aspas=3) · \"Distrito criado, com a denominação de Rondonópolis, pela Resolução Estadual n.º 814, de 08-10-1920\"",
+  "neden": "1923'te Cuiabá belediyesinin Rondonópolis distrito'su (1920). 80 km içinde 1923 öncesi idarî yer yok.",
+  "mesafe_km": 108.8,
+  "sorun": ""
+ },
+ {
+  "hedef": "-24.25, -52.25",
+  "ayni": "Catanduvas (Paraná)",
+  "mesafe_km": 140.0
+ },
+ {
+  "hedef": "-15.25, -51.75",
+  "ad": "Araguaiana (Registro do Araguaia)",
+  "lat": -15.7291,
+  "lon": -51.8341,
+  "tur": "sehir",
+  "kur": "1899-05-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1899-05-10",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Araguaiana), https://cidades.ibge.gov.br/brasil/mt/araguaiana/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5101001&aspas=3) · \"Distrito criado com a denominação de Registro do Araguaia, pelas Leis n.º 211, de 10-05-1899\"",
+  "neden": "1923'te Cuiabá belediyesinin (1921'den kendi belediyesinin) Registro do Araguaia distrito'su; Araguaia geçişindeki devlet gümrük karakolu (registro) çevresinde.",
+  "mesafe_km": 54.0,
+  "sorun": ""
+ },
+ {
+  "hedef": "-15.75, -47.25",
+  "ad": "Formosa (Goiás)",
+  "lat": -15.54,
+  "lon": -47.337,
+  "tur": "sehir",
+  "kur": "1838-08-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1838-08-22",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Formosa), https://cidades.ibge.gov.br/brasil/go/formosa/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5208004&aspas=3) · \"Distrito criado com a denominação … da Imperatriz pela Lei Provincial n.º 4, de 22-08-1838\"",
+  "neden": "1923'te Formosa belediye merkezi (distrito 1838, vila 1843).",
+  "mesafe_km": 25.1,
+  "sorun": ""
+ },
+ {
+  "hedef": "-7.75, -43.75",
+  "ad": "Bertolínia (Aparecida)",
+  "lat": -7.6334,
+  "lon": -43.9498,
+  "tur": "sehir",
+  "kur": "1856-01-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1856-01-10",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Bertolínia), https://cidades.ibge.gov.br/brasil/pi/bertolinia/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2201705&aspas=3) · \"Distrito criado com a denominação de Aparecida, pela resolução provincial nº 419, de 10-011856\"",
+  "neden": "1923'te Aparecida (Piauí) belediye merkezi (distrito 1856, vila 22-01-1890; 1911'de tek distrito; 1931'de geçici olarak kaldırıldı).",
+  "mesafe_km": 25.6,
+  "sorun": ""
+ },
+ {
+  "hedef": "-12.25, -42.75",
+  "ad": "Oliveira dos Brejinhos",
+  "lat": -12.3132,
+  "lon": -42.8969,
+  "tur": "sehir",
+  "kur": "1880-07-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1880-07-25",
+    "t": "1889-11-15",
+    "d": "brezilya-imparatorlugu"
+   },
+   {
+    "f": "1889-11-15",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Oliveira dos Brejinhos), https://cidades.ibge.gov.br/brasil/ba/oliveira-dos-brejinhos/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2923209&aspas=3) · \"Distrito criado com a denominação … dos Brejinhos, pela Lei Provincial n.º 1980, de 25-07-1880\"",
+  "neden": "1923'te Oliveira dos Brejinhos belediye merkezi (distrito 1880, vila 1891).",
+  "mesafe_km": 17.4,
+  "sorun": ""
+ },
+ {
+  "hedef": "-5.75, -41.25",
+  "ad": "São Miguel do Tapuio",
+  "lat": -5.4973,
+  "lon": -41.3165,
+  "tur": "sehir",
+  "kur": "1909-01-01",
+  "hassasiyet": "ay",
+  "s": [
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (São Miguel do Tapuio), https://cidades.ibge.gov.br/brasil/pi/sao-miguel-do-tapuio/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2210409&aspas=3) · \"Distrito criado com a denominação de Tapuio, pela lei municipal de janeiro de 1909\"",
+  "neden": "1923'te Castelo belediyesinin Tapuio distrito'su (Ocak 1909 belediye kanunu; gün kaynakta yok).",
+  "mesafe_km": 29.0,
+  "sorun": ""
+ },
+ {
+  "hedef": "-10.25, -39.75",
+  "ad": "Jaguarari",
+  "lat": -10.2569,
+  "lon": -40.1999,
+  "tur": "sehir",
+  "kur": "1893-10-23",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1893-10-23",
+    "t": "1923-10-29",
+    "d": "brezilya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "IBGE Cidades — Histórico / Formação Administrativa (Jaguarari), https://cidades.ibge.gov.br/brasil/ba/jaguarari/historico (API: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2917706&aspas=3) · \"Distrito criado com a denominação de Jaguarari, pela Lei Municipal n.º 11, de 23-10-1893\"",
+  "neden": "1923'te Bonfim belediyesinin Jaguarari distrito'su (1893; 1911'de kayıtlı).",
+  "mesafe_km": 49.2,
+  "sorun": ""
+ }
+]

@@ -1,0 +1,664 @@
+[
+ {
+  "hedef": "-30.25, -69.75",
+  "ad": "San José de Jáchal",
+  "lat": -30.2416,
+  "lon": -68.7466,
+  "tur": "sehir",
+  "kur": "1751-06-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1751-06-25",
+    "t": "1810-05-25",
+    "d": "ispanya"
+   },
+   {
+    "f": "1810-05-25",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de San Juan (SI San Juan), 2024-06-25: https://sisanjuan.gob.ar/23-prensa/2024-06-25/56669-jachal-tierra-de-la-tradicion-sanjuanina-festeja-273-anos-de-su-fundacion — \"El 25 de junio de 1751 ... Juan de Echegaray fundó ... la Villa de San José de Jáchal\"",
+  "neden": "İspanyol villası (Justicia Mayor Echegaray'ın kuruluşu); 1923'te San Juan eyaletinin Jáchal departmanı merkezi. Hedefe daha yakın Rodeo (Iglesia dep. merkezi, ~58 km) kaynakta yalnız 'hacia 1830' diye geçtiği için (yıl belirsiz) seçilmedi.",
+  "mesafe_km": 96,
+  "sorun": ""
+ },
+ {
+  "hedef": "-27.75, -69.25",
+  "ad": "Copiapó",
+  "lat": -27.3665,
+  "lon": -70.3323,
+  "tur": "sehir",
+  "kur": "1744-12-08",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1744-12-08",
+    "t": "1818-02-12",
+    "d": "ispanya"
+   },
+   {
+    "f": "1818-02-12",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Archivo Nacional de Chile, 'Fundación de Copiapó': https://www.archivonacional.gob.cl/fundacion-de-copiapo — \"Francisco Cortés y Cartabio para que fundara Copiapó un 8 de diciembre de 1744\"",
+  "neden": "San Francisco de la Selva de Copiapó villası (1744); 1923'te Şili Atacama eyaletinin merkezi. Hedef And yaylasında, 80 km içinde idarî yer yok; en yakın uygun yer.",
+  "mesafe_km": 115,
+  "sorun": ""
+ },
+ {
+  "hedef": "-29.75, -66.75",
+  "ad": "La Rioja (Arjantin)",
+  "lat": -29.4127,
+  "lon": -66.8559,
+  "tur": "sehir",
+  "kur": "1591-01-01",
+  "hassasiyet": "yil",
+  "s": [
+   {
+    "f": "1591-01-01",
+    "t": "1810-05-25",
+    "d": "ispanya"
+   },
+   {
+    "f": "1810-05-25",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de La Rioja, Turismo (Convento Santo Domingo): https://turismo.larioja.gob.ar/iglesias/convento-santo-domingo/ — \"Juan Ramírez de Velasco fundó la ciudad de Todos los Santos de la Nueva Rioja en 1591\"",
+  "neden": "Todos los Santos de la Nueva Rioja şehri (1591, cabildo kuruldu); 1923'te La Rioja eyaletinin başkenti. Yaygın gün 20 Mayıs 1591 ama resmî sayfada yalnız yıl okundu, yıl yazıldı.",
+  "mesafe_km": 39,
+  "sorun": ""
+ },
+ {
+  "hedef": "-25.25, -68.75",
+  "bulunamadi": true,
+  "neden": "Puna de Atacama'nın Şili yakası (Salar de Punta Negra–Llullaillaco): 150 km içinde 1923'te devlet idaresi olan yer bulunamadı. Taltal ~175 km, Antofagasta de la Sierra (Arjantin, 1899 devri) ~160 km; arada devlet yapısı yok."
+ },
+ {
+  "hedef": "-48.25, -71.75",
+  "bulunamadi": true,
+  "neden": "Santa Cruz batısı (Lago Belgrano/Posadas): Lago Posadas (Hipólito Yrigoyen) resmî kuruluşu 1959, Perito Moreno 7 Aralık 1927 (Gobierno de Santa Cruz) — ikisi de 1923 sonrası. Gobernador Gregores (~124 km) için '23 Mart 1922' tarihi resmî sayfada hangi belediyeye ait olduğu çözülemeyen bir blokta; köye ad 2 Ocak 1925 kararnamesiyle verildi — 1923 idaresi kanıtlanamadı. Şili yakasında (Cochrane 1954) de yok."
+ },
+ {
+  "hedef": "-22.75, -61.25",
+  "ad": "Fortín Muñoz (General Díaz)",
+  "lat": -23.5722,
+  "lon": -60.5758,
+  "tur": "sehir",
+  "kur": "1923-08-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1923-08-15",
+    "t": "1923-10-29",
+    "d": "bolivya-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Folia Histórica del Nordeste 27 (UNNE, 2016) https://revistas.unne.edu.ar/index.php/fhn/article/download/1217/1001 (Bolivya Pilcomayo kale hattı; \"El Fortín Muñiz actualmente se llama Coronel Diaz\"); gün: ABC Color 'Hombres y nombres para la historia. Fortín Mariano Muñoz' (es.wikipedia 'Fortín General José Eduvigis Díaz' üzerinden) — \"El 15 de agosto de 1923 ... las fuerzas bolivianas fundaron el Fortín Mariano Muñoz\"",
+  "neden": "Bolivya ordusunun Pilcomayo kalesi; 1 Eylül 1923'te Bolivya garnizonu (bugün Paraguay'ın General Díaz'ı). Hedefin çevresindeki merkezî Chaco'da 1923'te kale yok (Boquerón 1928, Mennonitler 1927).",
+  "mesafe_km": 114,
+  "sorun": "Chaco Boreal 1923'te Paraguay–Bolivya ihtilaflı; kale fiilen Bolivya idaresinde (s buna göre yazıldı), Paraguay hak iddia ediyordu. UNNE makalesi hedefe daha yakın olabilecek eski Bolivya kalelerini de anıyor (Ballivián 1906, Linares/Magariños/Esteros 1915) — koordinatları doğrulanamadığı için önerilmedi. Koordinat bugünkü General Díaz köyü (OSM); eski kalenin tam yeri ölçülemedi. Gün kaynağı gazete (ABC Color)."
+ },
+ {
+  "hedef": "-23.25, -68.75",
+  "ad": "San Pedro de Atacama",
+  "lat": -22.9108,
+  "lon": -68.2001,
+  "tur": "sehir",
+  "kur": "1557-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Municipalidad de San Pedro de Atacama, Historia: https://munispa.cl/historia-cultura/ — \"En el año 1557 Pedro de Valdivia mandó a construir su casa\" (Valdivia 1553'te öldü — cümle çelişkili)",
+  "neden": "Sömürge doktrin kasabası; 1923'te Şili idaresinde (Antofagasta eyaleti).",
+  "mesafe_km": 68,
+  "sorun": "EL DEĞİŞTİRDİ: İspanya → Bolivya (1825, Litoral/Atacama) → Şili işgali 1879 (Guerra del Pacífico) → 1884 ateşkes / 1904 antlaşması. s boş bırakıldı. Kur yılı 1557 belediye sitesinden; aynı cümle 1553'te ölen Valdivia'ya atfediliyor → kur zayıf, akademik kaynakla doğrulanmalı."
+ },
+ {
+  "hedef": "-51.25, -72.75",
+  "ad": "Puerto Natales",
+  "lat": -51.7262,
+  "lon": -72.506,
+  "tur": "sehir",
+  "kur": "1911-05-31",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1911-05-31",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "El Pingüino (Punta Arenas), 'Aniversario de Puerto Natales': https://www.elpinguino.com/opinion/aniversario-de-puerto-natales — \"Decreto N° 832 del Presidente Ramón Barros Luco, se funda oficialmente la población\" (31 Mayıs 1911)",
+  "neden": "Şili devletinin 832 sayılı kararnamesiyle kurulan resmî kasaba (Magallanes Toprağı); 1923'te Última Esperanza'nın idarî merkezi. Kaynak gazete ama kararname numarası ve gününü veriyor.",
+  "mesafe_km": 56,
+  "sorun": "Kaynak gazete; Memoria Chilena/BCN ile teyit önerilir."
+ },
+ {
+  "hedef": "-43.25, -71.25",
+  "ad": "Esquel",
+  "lat": -42.9136,
+  "lon": -71.3135,
+  "tur": "sehir",
+  "kur": "1906-02-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1906-02-25",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Secretaría de Ciencia, Tecnología ... y Cultura del Chubut: https://cienciaycultura.chubut.gov.ar/25-de-febrero-de-1906-aniversario-de-esquel/ — \"25 de febrero de 1906: Aniversario de Esquel\" (ilk telgraf iletimi)",
+  "neden": "Kuruluş senedi yok; 25 Şubat 1906 Arjantin devlet telgraf istasyonunun ilk iletimi (devlet idaresi başlangıcı). 26 Şubat 1923'te Chubut valisi kararnamesiyle belediye kuruldu — 1923'te kesin idarî merkez.",
+  "mesafe_km": 38,
+  "sorun": ""
+ },
+ {
+  "hedef": "-18.25, -69.75",
+  "ad": "Putre",
+  "lat": -18.1964,
+  "lon": -69.5592,
+  "tur": "sehir",
+  "kur": "1580-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Kuruluş yılı: Enciclonet 'Putre' https://www.enciclonet.com/articulo/putre/ (akademik değil); 1923 idaresi: Polis (U. de Los Lagos) 'Estado, escuela chilena y población andina en la ex Subdelegación de Putre (1883-1929)' https://polis.ulagos.cl/index.php/polis/article/download/1124/1656/",
+  "neden": "1923'te Şili idaresinde: Tacna eyaleti, Arica departmanı, Putre subdelegación merkezi (plebisit öncesi Şili okulu vardı).",
+  "mesafe_km": 21,
+  "sorun": "EL DEĞİŞTİRDİ: İspanyol Peru → Peru (1821) → Şili işgali 1880 → Ancón Antlaşması (1883/84) ile Şili idaresi; egemenlik 1929 Lima Antlaşmasına dek askıda (Tacna-Arica sorunu). s boş. Kur yılı 1580 akademik olmayan kaynaktan — doğrulanmalı."
+ },
+ {
+  "hedef": "-35.75, -70.75",
+  "ad": "San Clemente (Şili)",
+  "lat": -35.5375,
+  "lon": -71.4859,
+  "tur": "sehir",
+  "kur": "1891-12-22",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1891-12-22",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "SUBDERE (Gobierno de Chile), San Clemente: https://www.subdere.gov.cl/divisi%C3%B3n-administrativa-de-chile/gobierno-regional-del-maule/provincia-de-talca/san-clemente — \"San Clemente fue fundada el 22 de diciembre de 1891\"",
+  "neden": "1891 Ley de Comuna Autónoma ile kurulan comuna (belediye 1894); 1923'te Talca departmanında comuna merkezi. Öncesinde Los Litres subdelegación'u (1864 mezarlık, 1865 okul) — idare daha eski olabilir, resmî gün 1891.",
+  "mesafe_km": 71,
+  "sorun": ""
+ },
+ {
+  "hedef": "-24.75, -66.75",
+  "ad": "San Antonio de los Cobres",
+  "lat": -24.2177,
+  "lon": -66.3179,
+  "tur": "sehir",
+  "kur": "1902-09-26",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1902-09-26",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Ediciones Salta, 'Historia de la Gobernación de los Andes': https://www.edisalta.ar/andes.htm — \"Por Ley Nacional 4059 de 1902 ... fue designada capital\"; yönetmelik \"decreto del Ministerio del Interior del 26 de septiembre de 1902\"",
+  "neden": "1923'te Arjantin Los Andes Millî Toprağı'nın başkenti. 1902 öncesi Salta'nın La Poma departmanına bağlı köy (Salta'dan devredildi).",
+  "mesafe_km": 74,
+  "sorun": "KUR BELİRSİZ: edisalta 1902 diyor, Arjantin Kültür Bakanlığı anıt sayfası başkentliği '(1908)' veriyor (https://www.argentina.gob.ar/capital-humano/cultura/monumentos/antigua-sede-de-la-gobernacion-de-los-andes). 1902 öncesi Salta idaresinin başlangıç yılı bulunamadı. edisalta aynı zamanda SAC'ı 1899 Puna tahkimiyle gelen yerler arasında sayıyor (tutarsız: SAC Salta'dan devredildi) — sahip her durumda 1923'te Arjantin."
+ },
+ {
+  "hedef": "-32.25, -66.75",
+  "ad": "Quines",
+  "lat": -32.2328,
+  "lon": -65.8051,
+  "tur": "sehir",
+  "kur": "1763-12-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1763-12-01",
+    "t": "1810-05-25",
+    "d": "ispanya"
+   },
+   {
+    "f": "1810-05-25",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Agencia de Noticias San Luis (Gobierno de San Luis), 2024-11-27: https://agenciasanluis.com/2024/11/27/1007491-quines-conmemora-los-261-anos-de-su-fundacion/ — \"el 1° de diciembre, que data de 1763\"",
+  "neden": "Kuruluş günü 2010'da tarihçiler komisyonunca en eski belgelerden saptandı; 1779'da juez comisionado, 1858'de 'Villa de Quines'. 1923'te San Luis Ayacucho departmanında kasaba. Daha yakın San Francisco del Monte de Oro (~70 km) yalnız 1673/74 özel toprak tasarrufuyla belgeli, seçilmedi.",
+  "mesafe_km": 89,
+  "sorun": "Gün, belgelerden 'yaklaşık' saptanmış resmî kuruluş günü (ANSL: 'fecha aproximada de fundación'); hassasiyet 'yil'a indirilebilir."
+ },
+ {
+  "hedef": "-29.25, -63.25",
+  "ad": "Villa Ojo de Agua",
+  "lat": -29.5028,
+  "lon": -63.695,
+  "tur": "sehir",
+  "kur": "1884-07-01",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1884-07-01",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "El Liberal (Santiago del Estero), 2025-08: https://www.elliberal.com.ar/nota/56632/2025/08/la-historica-villa-ojo-de-agua-festeja-sus-141%EF%BF%BD-aniversario — \"el 1° de Julio de 1884 ... la Legislatura ... concede ... el título de Villa\"; yıl teyidi sde.gob.ar (140. yıl, 2024)",
+  "neden": "Eyalet yasasıyla villa unvanı (1884); 1923'te Ojo de Agua departmanının merkezi. Daha önce Buenos Aires–Potosí yolunda posta durağı/estancia.",
+  "mesafe_km": 51,
+  "sorun": ""
+ },
+ {
+  "hedef": "-31.75, -59.25",
+  "ad": "Villaguay",
+  "lat": -31.8676,
+  "lon": -59.027,
+  "tur": "sehir",
+  "kur": "1823-11-20",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1823-11-20",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Elonce (Paraná), 'Villaguay, dos siglos de historia': https://www.elonce.com/sociedad/villaguay-dos-siglos-de-historia-en-el-corazn-de-entre-ros.htm — \"el gobernador Mansilla autorizaba la compra de terreno para construir la capilla\"",
+  "neden": "Entre Ríos valisi Mansilla'nın arazi alım izni (20 Kasım 1823); belediye 28 Mayıs 1872 yasasıyla. 1923'te Villaguay departmanı merkezi.",
+  "mesafe_km": 25,
+  "sorun": "20 Kasım 1823 günü 1990'larda halkça köken günü olarak benimsendi (Elonce); resmî belediye kuruluşu 1872-05-28 (yalnız Vikipedi'den okundu)."
+ },
+ {
+  "hedef": "-32.25, -70.75",
+  "ad": "San Felipe (Aconcagua)",
+  "lat": -32.7507,
+  "lon": -70.7253,
+  "tur": "sehir",
+  "kur": "1740-08-03",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1740-08-03",
+    "t": "1818-02-12",
+    "d": "ispanya"
+   },
+   {
+    "f": "1818-02-12",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Fundación de San Felipe': https://www.memoriachilena.gob.cl/602/w3-article-97780.html — \"San Felipe fue fundada por el gobernador José Antonio Manso de Velasco el 3 de agosto de 1740\"",
+  "neden": "Villa San Felipe el Real (1740); 1923'te Şili Aconcagua eyaletinin merkezi.",
+  "mesafe_km": 56,
+  "sorun": ""
+ },
+ {
+  "hedef": "-45.75, -71.75",
+  "bulunamadi": true,
+  "neden": "Aysén–Chubut sınırı (Coyhaique/Balmaceda/Río Mayo): Balmaceda 1 Ocak 1917'de yerleşimcilerce kuruldu, devletçe 1928'de tanındı; Coyhaique 1929; Puerto Aysén Sociedad Industrial de Aysén'in (özel imtiyaz) iskelesi, Aysén Toprağı 30 Aralık 1927'de kuruldu. Arjantin yakasında Río Mayo resmî kuruluşu 1928/1935, Perito Moreno 1927. 1923'te 150 km içinde belgeli devlet idaresi bulunamadı."
+ },
+ {
+  "hedef": "-20.75, -61.75",
+  "bulunamadi": true,
+  "neden": "Kuzey Chaco Boreal (Paraguay–Bolivya ihtilaflı): 1923'te bu kesimde belgeli kale/idare bulunamadı; Bolivya kaleleri Pilcomayo hattında (>150 km güneyde), kuzeydeki kaleler 1928 sonrası; Mennonit kolonileri 1927."
+ },
+ {
+  "hedef": "-38.25, -71.25",
+  "ad": "Lonquimay",
+  "lat": -38.4541,
+  "lon": -71.3706,
+  "tur": "sehir",
+  "kur": "1897-01-25",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1897-01-25",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Ilustre Municipalidad de Lonquimay, Historia: https://www.mlonquimay.cl/web/historia-de-lonquimay/ — \"Fue fundada como fortaleza el 25 de enero de 1897, por el coronel Gregorio Urrutia\"",
+  "neden": "Şili ordusunun Villa Portales kalesi (1897), sonra Lonquimay kasabası; 1923'te Malleco'da idarî merkez.",
+  "mesafe_km": 25,
+  "sorun": ""
+ },
+ {
+  "hedef": "-27.75, -67.25",
+  "ad": "Belén",
+  "lat": -27.6496,
+  "lon": -67.0264,
+  "tur": "sehir",
+  "kur": "1681-12-20",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1681-12-20",
+    "t": "1810-05-25",
+    "d": "ispanya"
+   },
+   {
+    "f": "1810-05-25",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Carta Orgánica Municipal de la Ciudad de Belén (2005), Art. 2: https://www.joseperezcorti.com.ar/Archivos/Legislacion/Provincial/Catamarca/Municipios/Cartas_Organicas_Municipales/Belen_COM_2005.pdf — \"fecha de fundación de la Ciudad de Belén, el Día 20 de DICIEMBRE DE 1.681\"",
+  "neden": "Nuestra Señora de Belén (1681, Pbro. Bartolomé de Olmos y Aguilera); 1923'te Catamarca Belén departmanı merkezi.",
+  "mesafe_km": 25,
+  "sorun": ""
+ },
+ {
+  "hedef": "-23.75, -62.75",
+  "ad": "Rivadavia (Salta)",
+  "lat": -24.1833,
+  "lon": -62.8833,
+  "tur": "sehir",
+  "kur": "1862-12-13",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1862-12-13",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de Salta, 150. yıl töreni (Aralık 2012): https://www.salta.gob.ar/prensa/videos/institucional-1/gobernador-urtubey-en-aniversario-de-rivadavia-banda-sur-111212-gobierno-de-salta-1823 ; gün: es.wikipedia 'Rivadavia (Salta)' — \"creada oficialmente por ley provincial ... el 13 de diciembre de 1862\"",
+  "neden": "Salta eyalet yasasıyla kurulan Colonia Rivadavia (Bermejo kıyısı); 1923'te Rivadavia departmanı merkezi.",
+  "mesafe_km": 50,
+  "sorun": "Gün yalnız Vikipedi'den (resmî kaynak 150. yılın Aralık 2012'de kutlandığını gösteriyor → yıl 1862 teyitli). Bermejo/Teuco yatak değişimleri nedeniyle 1862 kolonisinin bugünkü Rivadavia Banda Sur ile aynı yerde olduğu ölçülemedi."
+ },
+ {
+  "hedef": "-48.75, -74.25",
+  "bulunamadi": true,
+  "neden": "Aysén güney fiyortları (Baker/Messier): 1923'te devlet idaresi yok; Caleta Tortel 1955, Puerto Edén 1969. Bulunamadı."
+ },
+ {
+  "hedef": "-41.25, -66.75",
+  "ad": "Valcheta",
+  "lat": -40.6761,
+  "lon": -66.1661,
+  "tur": "sehir",
+  "kur": "1884-03-01",
+  "hassasiyet": "ay",
+  "s": [
+   {
+    "f": "1884-03-01",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Diario Río Negro, 'El Fortín Valcheta': https://www.rionegro.com.ar/el-fortin-valcheta-AEHRN00101116111006/ — \"el teniente coronel don Lino Oris de Roa funda el Fortín Valcheta en marzo de 1884\"",
+  "neden": "Arjantin ordusunun Fortín Valcheta'sı (Mart 1884), 19 Haziran 1899'da çoban kolonisi; 1923'te Río Negro Millî Toprağı Valcheta departmanı merkezi.",
+  "mesafe_km": 80,
+  "sorun": ""
+ },
+ {
+  "hedef": "-54.75, -70.25",
+  "ad": "Ushuaia",
+  "lat": -54.8073,
+  "lon": -68.3084,
+  "tur": "sehir",
+  "kur": "1884-10-12",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1884-10-12",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Argentina.gob.ar, 'Fundación de Ushuaia': https://www.argentina.gob.ar/noticias/fundacion-de-ushuaia-sentando-las-bases-de-nuestra-soberania-nacional — \"el 12 de octubre de 1884 se arrió la bandera británica y se izó la argentina\"",
+  "neden": "Lasserre'nin kurduğu deniz alt-prefektörlüğü (1884); 1923'te Tierra del Fuego Millî Toprağı başkenti. Hedef Hoste/Navarino güneyinde (Şili yakası, 1923'te idare yok); en yakın uygun yer.",
+  "mesafe_km": 125,
+  "sorun": ""
+ },
+ {
+  "hedef": "-52.25, -59.75",
+  "ad": "Stanley",
+  "lat": -51.6931,
+  "lon": -57.8565,
+  "tur": "sehir",
+  "kur": "1844-07-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1844-07-15",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "Dictionary of Falklands Biography, 'Moody, Richard Clement': https://www.falklandsbiographies.org/biographies/moody_richard — \"The Governor himself finally moved to the new town on 15 July 1844.\"",
+  "neden": "İngiliz Falkland kolonisinin idare merkezi (Vali Moody 15 Temmuz 1844'te taşındı). Batı Falkland'daki Fox Bay/Port Howard özel koyun çiftlikleri (devlet değil); en yakın devlet merkezi Stanley.",
+  "mesafe_km": 144,
+  "sorun": ""
+ },
+ {
+  "hedef": "-37.75, -59.75",
+  "ad": "Tandil",
+  "lat": -37.3283,
+  "lon": -59.1357,
+  "tur": "sehir",
+  "kur": "1823-04-04",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1823-04-04",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "INCUAPA-CONICET, 'Estudio de los cañones del Fuerte Independencia (1823, Tandil)': https://incuapa.conicet.gov.ar/estudio-de-los-canones-del-fuerte-independencia-1823-tandil-buenos-aires-argentina/ — \"la fundación del Fuerte Independencia (1823)\"; gün: LU22 Tandil https://www.lu22.com.ar/nota-bicentenario-de-tandil-los-origenes-del-fuerte-independencia-72162",
+  "neden": "Buenos Aires hükümetinin Fuerte Independencia'sı (Vali Martín Rodríguez, 4 Nisan 1823); 1923'te Tandil partido merkezi. Daha yakın Benito Juárez partido'su 1867'de 'nüfussuz' kuruldu, kasaba günü resmî sitede yok — seçilmedi.",
+  "mesafe_km": 72,
+  "sorun": "Akademik kaynak (CONICET) yalnız yılı veriyor; gün yerel radyodan (LU22)."
+ },
+ {
+  "hedef": "-30.25, -59.25",
+  "ad": "Esquina",
+  "lat": -30.0171,
+  "lon": -59.5341,
+  "tur": "sehir",
+  "kur": "1806-02-10",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1806-02-10",
+    "t": "1810-05-25",
+    "d": "ispanya"
+   },
+   {
+    "f": "1810-05-25",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de Corrientes, MunRed 'Municipio de Esquina': https://munired.mcypcorrientes.gob.ar/municipios-de-corrientes/esquina — \"se fundó la ciudad Santa Rita de la Esquina del río Corriente, el 10 de febrero de 1806\"",
+  "neden": "Santa Rita de la Esquina (1806, İspanyol idaresinde); 1923'te Corrientes Esquina departmanı merkezi.",
+  "mesafe_km": 38,
+  "sorun": ""
+ },
+ {
+  "hedef": "-44.75, -70.25",
+  "ad": "Sarmiento (Chubut)",
+  "lat": -45.5868,
+  "lon": -69.0688,
+  "tur": "sehir",
+  "kur": "1897-06-21",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1897-06-21",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Municipalidad de Sarmiento, Historia: https://sarmiento.gob.ar/historia/ — \"el 21 de junio de 1897 ... Uriburú, firma el Decreto ... 'La Colonia Pastoril Sarmiento'\"",
+  "neden": "Millî hükümet kararnamesiyle kurulan Colonia Pastoril Sarmiento; 1923'te Chubut'ta kasaba. Hedefe daha yakın José de San Martín (~80 km; Colonia General San Martín 1895, Juzgado de Paz 1902) tarihleri yalnız derleme sitede (drault.com) bulundu — resmî kaynakla doğrulanamadı, seçilmedi.",
+  "mesafe_km": 131,
+  "sorun": ""
+ },
+ {
+  "hedef": "-24.75, -70.25",
+  "ad": "Taltal",
+  "lat": -25.4078,
+  "lon": -70.4858,
+  "tur": "sehir",
+  "kur": "1858-07-12",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1858-07-12",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Álbum Desierto 'Taltal': https://www.albumdesierto.cl/taltal.htm — \"la habilitación de Taltal como puerto, dictándose para ello el Supremo Decreto de 12 de julio de 1858\"",
+  "neden": "Şili hükümetinin liman açma kararnamesi (1858), belediye 13 Mayıs 1882. 1866 sınırının (24°G) güneyinde, hep Şili. 1923'te nitrat limanı ve comuna merkezi.",
+  "mesafe_km": 77,
+  "sorun": "Kaynak derleme sitesi (albumdesierto.cl); resmî/akademik alıntı okunamadı — teyit önerilir (Museo Augusto Capdeville / Taltalia)."
+ },
+ {
+  "hedef": "-47.75, -66.75",
+  "ad": "Puerto Deseado",
+  "lat": -47.7516,
+  "lon": -65.9013,
+  "tur": "sehir",
+  "kur": "1884-07-15",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1884-07-15",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Gobierno de la Provincia de Santa Cruz, Municipios: https://www.santacruz.gob.ar/nuestra-provincia/municipios — \"Fundación: 15 de Julio de 1884.\"",
+  "neden": "Millî hükümetin kurduğu koloni (Kaptan Oneto'nun çıkışı, 15 Temmuz 1884); 1923'te Santa Cruz Millî Toprağı Deseado departmanı merkezi ve limanı.",
+  "mesafe_km": 63,
+  "sorun": "Resmî sayfada tarih blokları HTML'de karışık diziliyor; 15 Temmuz 1884'ün Deseado'ya ait olduğu ikincil kaynaklarla tutarlı ama sayfadan doğrudan eşleştirilemedi."
+ },
+ {
+  "hedef": "-53.75, -73.25",
+  "bulunamadi": true,
+  "neden": "Magallanes batı kanalları (Desolación/Santa Inés): 1923'te devlet idaresi olan yerleşim yok; en yakınlar (Fuerte Bulnes/Punta Arenas) zaten atlasta. Bulunamadı."
+ },
+ {
+  "hedef": "-41.25, -72.75",
+  "ad": "Puerto Montt",
+  "lat": -41.4718,
+  "lon": -72.9396,
+  "tur": "sehir",
+  "kur": "1853-02-12",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1853-02-12",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Memoria Chilena, 'Puerto Montt 1853-2002': https://www.memoriachilena.gob.cl/602/w3-article-783.html — \"El 12 de febrero de 1853, Vicente Pérez Rosales fundó ... la villa de Puerto Montt\"",
+  "neden": "Şili devlet kolonizasyon ajanı Pérez Rosales'in kurduğu villa; 1923'te Llanquihue eyaletinin merkezi. (Puerto Varas daha yakın ama kuruluşu resmî sitede 1853, başka kaynakta 12 Şubat 1854 — çelişkili.)",
+  "mesafe_km": 29,
+  "sorun": ""
+ },
+ {
+  "hedef": "-29.25, -71.25",
+  "ad": "La Serena",
+  "lat": -29.9027,
+  "lon": -71.252,
+  "tur": "sehir",
+  "kur": "1549-08-26",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1549-08-26",
+    "t": "1818-02-12",
+    "d": "ispanya"
+   },
+   {
+    "f": "1818-02-12",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Memoria Chilena, 'La Serena colonial': https://www.memoriachilena.gob.cl/602/w3-article-709.html — \"26 de agosto. Francisco de Aguirre refunda la ciudad de La Serena\" (1549)",
+  "neden": "San Bartolomé de La Serena (Aguirre'nin 1549 yeniden kuruluşu; Bohón'un 1544 kuruluşu aylar sonra yıkıldı, kesintisiz idare 1549'dan); 1923'te Coquimbo eyaletinin merkezi.",
+  "mesafe_km": 73,
+  "sorun": ""
+ },
+ {
+  "hedef": "-34.25, -70.25",
+  "ad": "Rancagua",
+  "lat": -34.1702,
+  "lon": -70.7407,
+  "tur": "sehir",
+  "kur": "1743-10-05",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1743-10-05",
+    "t": "1818-02-12",
+    "d": "ispanya"
+   },
+   {
+    "f": "1818-02-12",
+    "t": "1923-10-29",
+    "d": "sili-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Memoria Chilena, 'Rancagua': https://www.memoriachilena.gob.cl/602/w3-article-97291.html — \"Rancagua fue fundada con el nombre de Villa Santa Cruz de Triana el 5 de octubre de 1743\"",
+  "neden": "Villa Santa Cruz de Triana (1743); 1923'te O'Higgins eyaletinin merkezi. Daha yakın Sewell/Coya Braden Copper'ın özel maden kampı — sayılmadı.",
+  "mesafe_km": 46,
+  "sorun": ""
+ },
+ {
+  "hedef": "-42.25, -69.75",
+  "ad": "Cushamen",
+  "lat": -42.173,
+  "lon": -70.6609,
+  "tur": "sehir",
+  "kur": "1899-07-05",
+  "hassasiyet": "gun",
+  "s": [
+   {
+    "f": "1899-07-05",
+    "t": "1923-10-29",
+    "d": "arjantin-cumhuriyeti"
+   }
+  ],
+  "kaynak": "Redalyc, 'Desde que se meció tu cuna, fuiste valiente. El liderazgo mapuche en el contexto post-conquista': https://www.redalyc.org/journal/3799/379972681005/html/ — \"Por decreto presidencial del 5 de julio de 1899 se creó la Colonia Cushamen\"",
+  "neden": "Millî hükümet kararnamesiyle kurulan yerli çoban kolonisi (Nahuelquir), 1900'lerin başında Millî Okul No. 15; 1923'te Chubut Millî Toprağı'nda devlet kolonisi. Daha yakın Gastre'nin kuruluş yılı (1904) doğrulanamadı.",
+  "mesafe_km": 76,
+  "sorun": "Devlet kolonisi, belediye/departman merkezi değil (juzgado/comisaría tarihi bulunamadı) — 'askerî koloni' emsaline benzer kabul edildi; koordinatör karar versin."
+ },
+ {
+  "hedef": "-21.75, -69.75",
+  "ad": "Tocopilla",
+  "lat": -22.0887,
+  "lon": -70.1961,
+  "tur": "sehir",
+  "kur": "1871-01-01",
+  "hassasiyet": "yil",
+  "s": [],
+  "kaynak": "Ilustre Municipalidad de Tocopilla, Historia: https://imtocopilla.cl/historia/ — 1843 caleta (Latrille, özel), 1871 Bolivya'dan 'Puerto Menor' unvanı, 1879 sonrası Şili",
+  "neden": "1923'te Şili idaresinde (Antofagasta eyaleti, Tocopilla departmanı merkezi, nitrat limanı). Hedef Loa/Tamarugal arası; oficinas salitreras özel.",
+  "mesafe_km": 59,
+  "sorun": "EL DEĞİŞTİRDİ: Bolivya (1871 Puerto Menor = devlet idaresi başlangıcı, gün yok) → Şili işgali 1879 (22 Mart 1879 yalnız Vikipedi'de) → 1884 ateşkes / 1904 antlaşması. s boş."
+ },
+ {
+  "hedef": "-36.25, -67.25",
+  "bulunamadi": true,
+  "neden": "La Pampa batısı (Chalileo): Santa Isabel 1904'te bir dükkânla doğdu (Semanario Región), 1923 öncesi devlet kurumu tarihi bulunamadı; Limay Mahuida'nın kuruluş günü La Pampa hükümetine göre bilinmiyor; Victorica ~163 km. 1923 idaresi kanıtlanamadı."
+ }
+]
