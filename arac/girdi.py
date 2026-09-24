@@ -786,6 +786,12 @@ GIRDI_DOSYALARI = [
     "yerlesimler_nokta_ortadogu_0917.js",  # 1b boşlukları kaynaklı __BOSLUK__ beyanı (NOKTA-ORTADOGU fbe53ef, 19 Eyl)
     "yerlesimler_nokta_sibirya_0917.js",
     "yerlesimler_nokta_afrika_0917.js",
+    # BITIR-1923-0078 (24 Eylul 2026) — A katmani kolu, bes oturumun teslimi
+    "yerlesimler_a78_afrika.js",
+    "yerlesimler_a78_amerika.js",
+    "yerlesimler_a78_asya.js",
+    "yerlesimler_a78_avrupa.js",
+    "yerlesimler_a78_okyanusya.js",
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
