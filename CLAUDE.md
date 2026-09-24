@@ -271,6 +271,69 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
 - **⑦ Çember** ve koordinatörün tarafı: §7.2. Duran oturum ölü değildir, cevabı sıkışmış
   olabilir. [`D228`](dersler/D228-teslim-aksaklik-cember.md)
 
+## 7.3 🆕 ATAMA PROTOKOLÜ — kime vereceğini ÖLÇ, sonra ver (Emre, 24 Eylül 2026)
+Emre: *"madem ölçmek bedava, ölçelim ve gerekirse taze oturuma verelim ve yeni
+oturum isteyelim … görevi kime vermek gerektiğini ölçüp sonra işlem yapabiliriz."*
+
+### ① SICAKLIK NASIL ÖLÇÜLÜR — ve hangi alan YALAN söyler
+```
+🔴 ÖLÇÜT: list_sessions → lastActivityAt.   İstem önbelleği 1 SAATLİK.
+   🔥 SICAK  < 45 dk   · 🟡 ILIK 45-60 dk (soğuk say) · ❄️ SOĞUK > 60 dk
+⚠️ `isRunning` SICAKLIK DEĞİLDİR — "şu an tur ortasında mı" der.
+   Ölçülen vaka: ORTADOĞU `isRunning:false` ama son etkinlik 23 SANİYE önce.
+⚠️ `get_usage` "unavailable" = canlı süreç yok ⇒ DOLULUK okunamaz.
+   Soğukluk KANITI DEĞİLDİR; soğukluğu `lastActivityAt` söyler.
+```
+
+### ② BEDEL — ölçülmüş rakamlarla
+```
+TAZE oturum   82.561 token TABAN (araç 36.647 · MCP 16.959 · hafıza 9.109 ·
+              beceri 4.696 · sistem 4.430 · CLAUDE.md 10.773) + alan öğrenme
+SICAK oturum  bağlamı ÖNBELLEKTEN gelir → küçük kesir + yeni iş
+SOĞUK oturum  bağlamının TAMAMI tam fiyat  (ör. %37 = 365.096 token)
+```
+
+### ③ KARAR — dört satır, sırayla
+```
+İLGİ yok                        → TAZE. Tecrübe ne olursa olsun. (Nokta.)
+İLGİLİ + SICAK                  → ONA VER. Her dolulukta en ucuz seçenek.
+İLGİLİ + SOĞUK + < 165.000      → ONA VER. Uyandırmak taze açmanın 2 katından az.
+İLGİLİ + SOĞUK + > 165.000      → TAZE aç + SICAK bir ilgiliden TECRÜBE DEVRİ iste
+```
+📌 **165.000 = 2 × 82.561**, uydurma değil taze tabanın iki katı.
+🔴 **DOĞRULUK BEDELİ EZER** (§7.1): soğuk ve ağır oturum, tazenin yeniden
+kuramayacağı bir bilgiyi tutuyorsa ona verilir — bedeline bakılmaz.
+⇒ Emre'nin *"soğumuş tecrübeliye hiç görev vermeyelim mi"* sorusunun cevabı
+**HAYIR, mutlak kural olmaz**: soğuk ama HAFİF oturum en iyi değerdir,
+soğuk ama YERİ DOLDURULAMAZ oturum zaten mecburîdir.
+
+### ④ TECRÜBE DEVRİ — bağlamı değil BİLGİYİ taşı
+İş zaten taze oturuma gittiyse geri alma (batığı ikiye katlar). Sıcak ilgiliden
+TEK MESAJ iste: ① ne ölçtün ② hangi tuzağa düştün ③ neyi YAZMASIN (mükerrer)
+④ hangi kaynak/slug tuttu. Bir mesaj, 80 binlik yeniden öğrenmenin yerine geçer.
+
+### ⑤ İŞ TOPLAMA — sıcaklık yapay olarak KORUNMAZ, iş TOPLANIR
+Bir oturumu sıcak tutmak için mesaj atmak, tur yakmaktır. Doğrusu: aynı
+oturuma gidecek işleri **tek sıcak pencerede** ver, saatlere yayma.
+
+### ⑥ YENİ OTURUM NE ZAMAN İSTENİR
+İlgili+sıcak oturum yoksa, ilgili+soğuk olanlar 165.000'in üstündeyse ve
+hazır kıta havuzu boşsa → Emre'den yeni oturum istenir. Tek satır yeter:
+*"hazır kıtada N eksik."*
+
+### ⑦ ÖLÇMENİN BEDELİ — endişe yersiz, ölçüldü
+`get_usage` ≈ 1.100 token · `list_sessions` ≈ 1.500 · yanlış atama ≈ 82.000.
+⇒ **Ölçmek tek bir yanlış atamadan ~18 kat ucuz. Atamadan önce HEP ölç.**
+
+📌 **VAKA (24 Eylül 2026):** 10 kıta dağıtıldı, sonra ölçüldü — **4'ü yanlıştı**,
+dördü de aynı hata: *sıcak ve ilgili oturum dururken taze açmak.* ASYA (%33,
+sıcak) → İÇ ASYA + GD ASYA · ORTADOĞU (%37, sıcak) → ARABİSTAN · AVRUPA-ORTA
+(sıcak) → A-AVRUPA (üstelik o listeyi BİZZAT O keşfetmişti). Kalan 6 doğruydu:
+karşılık gelen oturumlar gerçekten soğuktu (AFRİKA 2s48dk, KOMŞU/OKYANUSYA/
+AMERİKA ~3s). 🔴 İlk hükümde `isRunning`e bakıp "3 yanlış" demiştim; doğru
+alana (`lastActivityAt`) bakınca 4 çıktı. **Yanlış alanla ölçmek, ölçmemekten
+daha tehlikelidir: sayı verir ve güven telkin eder.**
+
 ## 7.2 TOKEN ZİNCİRİ — bir işin baştan sona yolu (17 Eylül 2026)
 - **① Açılış:** Emre oturumu açar, adlandırır. Oturum CLAUDE.md'yi okur, kimliğini
   `get_session("self")` ile ölçer (scratchpad UUID'si DEĞİL). MODEL koordinatörün işidir:
