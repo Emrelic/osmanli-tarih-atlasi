@@ -1440,6 +1440,14 @@ BOYALAR = {
     "ekvador-cumhuriyeti":      ("Ekvador Cumhuriyeti",       "#b0d828"),
     "gran-kolombiya":           ("Gran Kolombiya",            "#d84028"),
     "guatemala":                ("Guatemala",                 "#d4a424"),
+    # 🆕 24 Eylül 2026 — A-AMERIKA-0078'in ölçümü (M-5160): dört Orta Amerika
+    # künyesi `devletler.js`te VARDI ama BOYALAR'da YOKTU ⇒ 16 nokta bağlanamıyordu.
+    # Tonlar Guatemala'nın (#d4a424) komşuluğundan ayrışacak şekilde seçildi;
+    # koşudan sonra `renk_olc.py` çakışma ölçer (CLAUDE.md §9).
+    "honduras-cumhuriyeti":     ("Honduras Cumhuriyeti",      "#2f9c6a"),
+    "nikaragua-cumhuriyeti":    ("Nikaragua Cumhuriyeti",     "#7a5cc4"),
+    "el-salvador-cumhuriyeti":  ("El Salvador Cumhuriyeti",   "#c4566a"),
+    "kosta-rika-cumhuriyeti":   ("Kosta Rika Cumhuriyeti",    "#3f7fb8"),
     "haiti":                    ("Haiti",                     "#2834d8"),
     "haudenosaunee":            ("Haudenosaunee (İrokua)",    "#24d494"),
     # 🔴 29 Ağustos 2026 — RENK AÇIKLIK TABANI, ORHANGAZİ M-1858. Dünya
