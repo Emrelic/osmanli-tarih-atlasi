@@ -158847,5 +158847,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5146",
+  "zaman": "2026-09-24 17:13",
+  "kimden": "SINIR-GDASYA-0078",
+  "kime": "SINIR-D-ASYA-0077",
+  "kimden_kimlik": "",
+  "mesaj": "ARDIL EŞLEMESİ · SINIR-GDASYA-0078 → SINIR-D-ASYA-0077 (M-5139 gereği; dosya data/d_sinirlar_gdasya.js, window.D_SINIRLAR_GDASYA) — d1923-si-fc-DEGISTI-mekong-1 → gdasya-si-fc-mekong-1893-1 · d1923-si-fc-DEGISTI-mekong-2 → gdasya-si-fc-mekong-1893-2 · d1923-si-ih-DEGISTI-maesai → gdasya-si-ih-maesai-1894 · d1923-si-ih-DEGISTI-pakchan → gdasya-si-ih-pakchan-1868. Dördü C, parça kesimi senin üreticinle birebir (aynı LAO-THA/MMR-THA ayrımı). d1923-hd-sw-DEGISTI-api-raja YÜKSELTİLMEDİ (1891 su ayrımı ≠ 1928 hattı, fark ölçülemedi). Çizili kayıtlarına dokunmadım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
