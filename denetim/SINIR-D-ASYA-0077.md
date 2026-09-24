@@ -91,3 +91,37 @@ Bu turda IBS 64 (China–U.S.S.R., 1978) indirildi, 21 sayfa tam metin okundu:
 adla saydığı nehir/sırt izi), `degisti:null` KORUNUR, `kesinlik_km` "ölçülemedi". Bu,
 üreticinin "bugünkü geometri yalnız 'değişmedi' ile" kuralını C için gevşetir — bu yüzden
 yazmadım. Pamir, Moğolistan, Aksay Çin, Karakurum, McMahon, Vahan (FİİLÎ) kapsam dışı.
+
+### 5.1 Hüküm geldi (koordinatör: EVET, iki şartla) — uygulandı
+Şart 1 (sonradan değiştiği yazılan kesim YOK'ta kalır) için 1978→bugün ayağı okundu:
+**Fravel 2005, International Security 30/2, Tablo 1** (akademik, yazarın sitesinden PDF):
+
+| kesim | Fravel | hüküm |
+|---|---|---|
+| batı (Altay, 39 km) | 1994: "affirmed the line of actual control" | **C** (4 kayıt, yerinde) |
+| doğu nehirleri (Argun, Amur, Ussuri) | 1991: adalar %52 Çin, "other areas divided evenly" · 2004: Abagaitu + Heixiazi eşit | **C** yalnız nehir kesimleri (8 yeni kayıt) |
+| doğu kara (Moğolistan–Argun, Sungaça–Hanka–Tumen) · Abagaitu · Heixiazi | "other areas" yeri belirtilmemiş / 2004 bölüşümü | **YOK** kalır (Şart 1) |
+| Kazakistan | 2.420 km² ihtilaf, %22 Çin | **YOK** kalır — değişen yer makalede yok |
+| Kırgızistan | 3.656 km² ihtilaf, %32 Çin | **YOK** kalır |
+
+Nehir/kara ayrımı ölçüldü (NE 10m rivers/lakes, en yakın özellik ≤3 km): doğu hattı
+3.499 km → Ergun 671 · Amur 1.678 · Ussuri 398 · Sungaça 88 · kara 566. Pay: Argun başı 30 km
+(Abagaitu, Mançuli karşısı), Heixiazi kara geçişi ±30 km. C'ye alınan **2.652 km** (2 parça).
+Şart 2: `geometri_kaynagi` "VEKÂLET: C kaba hat, 1923 koordinatı DEĞİL", `kesinlik_km:null` +
+"ölçülemedi", `degisti.deger:null`. Betik `denetim/SINIR-D-ASYA-0077-YOKC.py` (kuru koşu varsayılan).
+İlk yazışta hata: YOK kaydının `hat:null` anahtarı yeni hattı ezdi (Altay 4 kayıt hatsız) —
+tarayıcıda "aktif C" sorgusu yakaladı, dosya commit'e döndürülüp düzeltilmiş betikle yeniden yazıldı.
+
+Sonuç (1923-09-01): YOK 82 → **78**, C 21 → **33** (çizilen 14 → 17), çizilen toplam
+10.066 → **12.758 km**. ARAC-MILIMETRIK (yalnız ASYA): ① 0 · ② 0 · hayalet 0.
+C yaslanmadığı için renk ölçüsü DEĞİŞMEZ (beklenen; ölçmedim).
+
+**Ö1 durumu:** 12 kayda dokunuldu (4 YOK→C yerinde + 8 yeni C, 4 YOK kutusu daraldı). "≤20"
+öngörüsü henüz çürümedi; kalan 78 YOK taranmadı.
+
+### 5.2 Şan Devletleri (koordinatörün sorusu)
+`san-devletleri` 87 girdi dosyasında **3 yerleşimde `d:`** olarak kullanılıyor
+(`yerlesimler_asya.js:3213`, `yerlesimler_gdasya.js:267`, `:308`), üçü de
+`{f:"1281-01-01", t:"1923-10-29", d:"san-devletleri"}` — tek pencere, **İngiliz dönemi hiç yok**
+(başlangıç günü kaynaktan okunmadı; ölçmedim).
+⇒ kendi gövdesi var, `harita:` çaresi uygulanmaz (Sudan istisnası). Kusur yerleşim penceresinde.
