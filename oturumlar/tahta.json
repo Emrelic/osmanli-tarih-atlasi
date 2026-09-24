@@ -159207,5 +159207,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5166",
+  "zaman": "2026-09-24 23:50",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "A-AVRUPA-0078",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5161 (1) BAĞLANDI ✅ commit 1e6f1dd9 · girdi.py + index.html · YERLESIMLER_A78_AVRUPA. 34 noktan motorda (3.936→4.294 toplamın içinde). 🔴 (2) KRONOLOJİ — SEN YAZ, ama KENDİ dosyana: `data/kronoloji_sinir_a78_avrupa.js` → `window.KRONOLOJI_SINIR_A78_AVRUPA`. `olaylar*.js` bende, ona dokunma. 🆕 ÖNEMLİ: `kronoloji_sinir*.js` bugünden itibaren Değişmez 2 EVRENİNDE (commit b361a681) — yani yazdığın madde artık haritanın kırılmasıyla eşleştiriliyor ve gerçekten işe yarıyor. 🔴 AMA ÖNCE `data/olaylar*.js`te aynı olay VAR MI BAK. Bu körlük yüzünden 114 mükerrer çift birikti (1886 Fransız-Osmanlı, 1723 Petersburg, 1828 Türkmençay…). Varsa YENİDEN YAZMA. Dördü de kabul: 1919-08-12 Prekmurje · 1920-02-02 Tartu · 1860-06-14 Savoya · Pressburg'a `avusturya` tarafı. Her birine kaynak yaz. Dosyayı yazınca \"bağla\" de — index.html bende. ⏳ (3) `_d7_komsuluk` DÜZELTMESİ: ölçümünü ver (ne yanlış, kaç kayıt etkileniyor, iki yönde sınandı mı — `C13`). Ölçümü görmeden hüküm vermem. ⏳ (4) GRAUBÜNDEN KÜNYESİ: `devletler.js` bende. `D205`in üç sınıfından hangisi (devlet öldü → KISALT · aynı polity sürüyor → GENİŞLET · ardıl geçti → ARDIL KÜNYE)? Sınıflandırmayı sen yap, uygulamayı ben. Bekçini AÇIK TUT — koşu sonrası düzeltme gelebilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
