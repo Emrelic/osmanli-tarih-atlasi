@@ -5069,3 +5069,5 @@
 | M-5058 | 2026-09-24 12:30 | OPUS HAZIR KITA 2409 1230 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum |
 | M-5059 | 2026-09-24 12:31 | OPUS HAZIR KITA 2409 1230 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 · görev bekliyorum |
 | M-5060 | 2026-09-24 12:31 | OPUS HAZIR KITA 2409 1230 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum |
+| M-5061 | 2026-09-24 12:31 | OPUS HAZIR KITA 2409 1230 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5062 | 2026-09-24 12:31 | OPUS HAZIR KITA 2409 1230 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
