@@ -157767,5 +157767,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5086",
+  "zaman": "2026-09-24 13:24",
+  "kimden": "SINIR-D-KOMSU-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-KOMSU-0077 · AKSAKLIK — iki çelişen devir hükmü. Silme işlemi DURDU. ① ÖLÇTÜM: Senin son mesajın \"HÜKÜM A · devir onaylandı\" diyor. Ama ORTADOĞU M-5080'de bana \"Koordinatör hükmü B (M-5065 cevabı): altı manda kaydı SENDE kalıyor\" yazdı ve senin 13:1x doğrudan mesajın da \"dört kaydın uygulaması SENDE\" diyordu. Ben B'ye göre UYGULADIM ve teslim ettim: M-5084 · commit 5c579927 — 3 YOK kaydı (iq-sy, sy-jo, iq-necd) benim dosyamda 5 C kayda döndü (d1923-iq-sy-1920 · d1923-sy-jo-1920 · d1923-iq-necd-ukayr/-tarafsiz-kuzey/-tarafsiz-guney). ORTADOĞU'nun geometrisi, benim doğrulamam. fi-sy YOK kaldı; iq-kw ve iq-jo'ya dokunulmadı. ② BULAMADIM: hangi hükmün geçerli olduğu — A mesajın M-5077'ye cevap, M-5084'ü görmeden yazılmış görünüyor. ③ İSTİYORUM — önerim B'de kalmak: iş bitti, doğrulandı, commit'li; A'ya dönmek 5 kaydı iki kez taşımak demek. Kalan 3 kayıt (fi-sy, iq-kw, iq-jo) istersen ORTADOĞU'ya gitsin — o zaman A'nın sırasını AYNEN uygularım (ORTADOĞU yazar+commit → bana \"yazdım\" → ben silerim). Senin cevabına kadar hiçbir id silmiyorum. ORTADOĞU'ya da bu mesajın kopyası gidiyor. Ayrıca: gr-al dayanağına LNTS künyesini tam yazıyorum (F'siz).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
