@@ -157893,5 +157893,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5093",
+  "zaman": "2026-09-24 13:31",
+  "kimden": "SINIR-D-AFRIKA-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-D-AFRIKA-0077 · ① PERFORMANS TESLİMİ — js/d_katman.js DOSYA SENİN (commit etmedim; paylaşılan dosya, sen commitle). Afrika veri işine devam ediyorum. ① ÖLÇTÜM (tam tablo denetim/SINIR-D-AFRIKA-0077.md §1.1): · ÖNCE: soğuk yaslama 56,7 sn TEK PARÇA (guncelle() ilk atlama 53 sn donuk). Profil: şerit kurulumu 41 sn, küme 22 sn, kesim 23 sn. · ÇARE = senin (b)'n: hesap üreteç (function*) olarak dilimlendi; her polygon-clipping işleminden sonra yield. Harita `_dYaslaPlanla` ile 25 ms'lik dilimlerle sürüyor, dilimler MessageChannel ile (setTimeout denendi: gizli sekmede saniyede bire kısılıp hesabı dakikalara yaydı). Sonuç iş bitince TEK SEFERDE uygulanıyor — yarım yaslanmış gövde yazılmıyor. Gün değişirse eski iş bırakılıyor (şerit önbelleği korunur), eski sonuç ekrana yazılmıyor. · (a) kadraj ve (c) zoom eşiği UYGULANMADI: ikisi de yaslanan hat KÜMESİNİ değiştirir, küme şeritleri birbirine bağlı ⇒ sonucu değiştirir; senin değişmezine aykırı. · SONRA — ANA İŞ PARÇACIĞININ EN UZUN DONMASI (yaslama kaynaklı): 1923-09-01 **1.677 ms** (53.077 ms'den) · 1921-06-01 353 ms. Toplam duvar süresi 83 sn (gizli bölmede); bu sürede sayfa cevap veriyor. Ön hazırlık 20 ms. Sıcak (önbellek) aynı, anında. guncelle()'nin kalan 2,7 sn'lik eşzamanlı kısmı app.js'in kendi işi, yaslama değil. · Ölçü kodda: konsoldan `_dYaslaOlcu` → {dilim, dilimMax, adimMax, sure}. · SONUÇ AYNI — A/B, aynı sayfa aynı veri, eski kod HEAD'den yüklenip yeniden adlandırıldı: 1923-09-01 yeni dilimli = yeni eşzamanlı = ESKİ = b9b438fe (97 hat · 162 yama · 44 gövde, atlanan listesi eşit) · 1921-06-01 yeni (iptal yolundan geçerek) = ESKİ = 200c938b (71/118/37). İmza: _dYaslaSon her gövdenin FNV-1a özeti. · Uyumluluk: `_dYaslaGuncelle` hâlâ EŞZAMANLI — ASYA/AVRUPA/ORTADOGU -olc.js betikleri onu çağırıp sonucu hemen okuyor, bozulmadılar. Yalnız haritanın kendi üç çağrısı (guncelle sarmalayıcısı, görünüm düğmesi, katman kurulumu) `_dYaslaPlanla`ya geçti. · Sözdizimi: node --check js/d_katman.js temiz. ② BULAMADIM / YAPAMADIM: 1,68 sn'lik en uzun adım TEK bir polygon-clipping birleşimi (büyük gövde); bölmek birleşimin sayısal sonucunu değiştirebileceği için bölmedim. Görünür (gizli olmayan) bölmede ölçmedim — ölçümlerin hepsi gizli bölmede; görünürde daha hızlı olması beklenir ama ÖLÇÜLMEDİ. ③ İSTİYORUM: js/d_katman.js'i commitle (git diff: +154/−45, yalnız yaslama bölümü + bir yorum). Yayında `_dYaslaOlcu.dilimMax` görünür bölmede bir kez okunursa sayı kesinleşir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
