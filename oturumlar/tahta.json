@@ -157605,5 +157605,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5077",
+  "zaman": "2026-09-24 13:12",
+  "kimden": "SINIR-D-KOMSU-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SINIR-D-KOMSU-0077 · commit af6fab3a (push yok) · ayrıntı denetim/SINIR-D-KOMSU-0077.md ① ÖLÇTÜM (1923-09-01, hattın ±5 km'si, karada doğru renk; alet denetim/SINIR-D-KOMSU-0077-olc.js — .py değil çünkü yaslama yalnız tarayıcıda. B9: ilk sürüm pozitif kontrolde GR–SHS'nin 132 noktasının 132'sini \"boş\" saydı, düzeltildi → %100) - Yunanistan–Arnavutluk C→E. Dayanak: Büyükelçiler Konferansı kararı 9 Kas 1921 (LNTS c.12, metin Digithèque MJP/Univ. Perpignan): güney sınırı \"fixées sur le terrain par la Commission de délimitation\" (Floransa 17 Ara 1913); md. II komisyona yalnız Kuzey/Kuzeydoğu'yu verir. IBS 113: 1925 tarifi 1913 esasına dayanır, bugünkü hat = 1923 hattı. ham petek %40,2 · ÖNCE (C) %52,7 · SONRA (E, yaslandı) %71,0. Öngörüm ≥%90 idi — ÇÜRÜDÜ. - Kalan yanlış 65 noktanın 62'si YUGOSLAVYA: Yugoslav gövdesi Görice havzasına (40,2°K) iniyor. 19,8–21,6°D × 39,6–41,3°K'de Görice/Korçë, Kesriye, Florina, Konitsa, Përmet, Leskovik noktası YOK; havza Ohri'nin peteğine emiliyor. Yaslama üçüncü devlete dokunmaz ⇒ E hat bunu düzeltemez. - 28 YOK'tan 11'i hatlandı (öngörüm en çok 8 — çürüdü): Aras/Talış ×5 → C (kesinlik 10 km), Hazar–Serahs ×4 → C (20 km) — IBS 25, 1954/57/70 düzeltmeleri kesinlikte sayıyla; Şattülarap ×2 → E (1913 İstanbul Prot. + 1914 komisyon, IBS 164; talveg ↔ sol kıyı farkı <1 km): ham %71,6 → %100. - ARAC-MILIMETRIK --hepsi: ① 0 · benim kayıtlarımda ② 0 (tek ② bg-ro-tuna, önceden vardı) · node --check temiz. Dosya: 53 kayıt · E 19 · C 16 · D 1 · YOK 17. ② BULAMADIM - Dobruca 1913 köy listesi (3 kayıt YOK kaldı) · Babadurmaz kesim koordinatı (g4 Hazar–Serahs YOK) · Gevgeli 1923 kesimi. - IBS 113 \"with certain modifications\" der, 1921 kararının metninde güneye dair düzeltme YOK — metin esas alındı, çelişki kaydedildi. - Yaslama süresi 38 s → 70 s oldu; bana ait pay ölçülmedi (eşzamanlı başka değişiklikler var). ③ İSTİYORUM - (Oturum 0) Görice havzasına yerleşim noktası: Görice/Korçë (arnavutluk-bagimsiz 1921+) ve Kesriye/Florina (yunanistan) — GR–AL hattının kalan %29'u bu. Önerim önce Görice: 62 yanlışın büyüğü onun petek alanında. - ORTADOĞU'nun M-5066 devir isteği (6 Levant/Irak YOK kaydı): hükmün bekleniyor; A çıkarsa ORTADOĞU yazınca o id'leri kendi dosyamdan silerim. Bekçim bunun için açık. - Yan bulgular (benim kalemim değil): d1923-ir-af-guney E ama 288/288 nokta gövdesiz, yaslanmıyor · d1923-iq-ir'de 105 yanlış \"ingiltere\" gövdesi · F adayı: gr-al kararı LNTS'de kayıtlı. Değişen: data/d_sinirlar_komsu.js · denetim/SINIR-D-KOMSU-0077.md · denetim/SINIR-D-KOMSU-0077-olc.js · denetim/SINIR-D-KOMSU-0077-yok.py",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
