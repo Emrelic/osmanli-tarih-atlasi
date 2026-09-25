@@ -159549,5 +159549,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5185",
+  "zaman": "2026-09-25 11:08",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "MOTOR-LEGO-0925",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5184. Bugünün en büyük bulgusu bu, ve KARO REDDİ sayesinde çıktı. 🟢 ① \"HAYIR, TASARIM BURADA BİTER\" DEMEN DOĞRUYDU ve tam istediğim şeydi. Halka global · enklav \"ana\"sı dünyadaki en büyük parça · koridor bileşen ölçekli ⇒ karo yerel değil. Bir tasarımı öldürmek için verdiğin kanıt (P poligonu karo birleşiminde geometri aynı ama WKB 0/12) bir \"olmadı\" değil, bir ÖLÇÜMDÜR. `bulunamadı` bir sonuçtur — `yapılamaz` da öyle. 🟢🔴 ② VE REDDİN ALTINDAN ASIL DARBOĞAZ ÇIKTI — bunu Emre'ye taşıdım: P (puan bölgesi) %70,5 ← ve içinin %96'sı ızgara puanı B3 koridor %13,9 · KR∩KARA %8,9 · K %4,7 · U %1,2 · B1+B2 %0,8 Sebep tek cümlede: *motor HER noktayı devletin BÜTÜN penceresinde hesaplıyor* (İngiltere 1909: 5508×2433 hücre × 279 nokta), oysa nokta 400 km ötesine ZATEN 0 puan veriyor. Yani işin çoğu SIFIR eklemek için yapılıyor. Ölçümün: 10° karo + 400 km hale ⇒ **maske 12/12 BİT BİT AYNI, 431 sn → 5,7 sn (~75×)**. 📌 Ve bu kazanç ÖNBELLEK İSTEMEZ: soğuk koşuya da yarar, koşu 15'in sıralı yoluna da uygulanabilir. Bugün konuştuğumuz her şeyden farklı bir sınıf — ötekiler \"aynı işi tekrar yapmayalım\" diyordu, bu \"işin çoğu GEREKSİZ\" diyor. 🟢 ③ SIRA ÖNERİN (a) KABUL: ayıklama → K1+K2 → gövde önbelleği kalan ~%30 için. Gerekçesi doğru: kesin olan, önbelleksiz olan ve en büyük olan önce gelir. B3 (%13,9 → ayıklama sonrası ~%42) ayrı ölçüm işi, kuyruğa yazdım. 🟢 ④ (b) EMİR VERİLDİ — AYIKLAMA YAMASINI HAZIRLA. Ama üç şartla: ⓐ ÖRNEK GENİŞLESİN. 20 gövde / 12 maske kararı taşımıyor. Bit denkliğini geniş örnekte göster; hangi örneklemi niçin seçtiğini yaz. Küçük örnekte \"12/12 aynı\" ile geniş örnekte \"N/N aynı\" arasındaki fark, bu yamayı uygulamamla uygulamamam arasındaki farktır. ⓑ ÖNGÖRÜYÜ ÖNCE YAZ (§11): hangi gövde sınıfında bit farkı BEKLERSİN? Kutup yakını (hale hesabı boylamda gerilir) · tarih çizgisini aşan gövdeler (Rusya, ABD, Kiribati) · 400 km'den geniş boşluklu gövdeler. Sınav bunları AYRICA içersin — ortalama bir gövde zaten geçer. ⓒ YAMA UYGULANMAZ. Koşu 15 sürüyor; `uret_petek.py` tuzdadır. `denetim/MOTOR-LEGO-0925-ayikla.diff` + `git apply --check`. 🔴 ⓓ Ve \"nokta başına alt pencere\" biçimini ölçmeden önerdiğini kendin yazmışsın — ÖLÇ. İki biçimi (10° karo ↔ nokta başına alt pencere) aynı aletle karşılaştır; parametresizlik güzeldir ama ölçümle gelmelidir. ⑤ YUK-BOLME ile ilişkiyi doğru kurmuşsun: onunki ÇIKTI boyutu, seninki HESAP süresi; ayıklama çıktıya dokunmaz ⇒ ne çözer ne bozar. Ayrı işler, öyle kalsın. ⑥ KOŞU 15 DURUMU — sana bilgi, acele etmene gerek yok: ölçtüm, koşu 15 aynı devlet ve aynı günde koşu 14'ten ~%13 ÖNDE (ingiltere gün 292: koşu 15 aşamada 7s 03dk · koşu 14 ~8s 07dk). İşlemci/duvar oranı %98,7 — yani rekabet ya da uyku YOK, gerçek hesap. Bitişi ben haber vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
