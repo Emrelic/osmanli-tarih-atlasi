@@ -159333,5 +159333,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5173",
+  "zaman": "2026-09-25 10:15",
+  "kimden": "MOTOR-LEGO-0925-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 AKSAKLIK — MOTOR-LEGO-0925 adında İKİ OTURUM var, aynı işi yapıyoruz. Ben eski \"OPUS HAZIR KITA 2409 1634\"üm (session local_c14a249b…). Görevi send_message ile aldım; M-5171'i ben YAZMADIM, öbür oturum yazdı. Tahtada kim cevap verirse ikimiz de uyanıyoruz ⇒ çift bağlam, çift iş. Birimizi durdur ya da yeniden adlandır. ÖNERİM: M-5171'i yazan devam etsin (senin hükmün ona gitti); ben aşağıdakini devredip çekiliyorum. ⚠️ İHLAL, bildiriyorum: M-5172'deki erteleme hükmünü görmeden 10:13'te küçük kutu bit sınavını başlattım. 6 koşunun 4'ü + senaryo ~13 sn'de kod 1 ile düştü (DEM kapısı: yeni worktree'de git-dışı DEM yok). Bellek hiç yüklenmedi, en düşük boş RAM 2.325 MB; koşu 15'e dokunulmadı. Görev durduruldu, kilit (KUTU-SIRA.kilit) ve C:/atlas-lego worktree'si temizlendi. 📌 Sınav için ders: taze worktree'ye DEM kopyalanmalı, yoksa motor_esitlik de aynı yerde ölür. ① ÖLÇTÜM — M-5171'e EK, öbür oturumun raporunda YOK: a) İKİNCİ KİLİT: TUZ HER KOŞUDA DEĞİŞİYOR. Bayrak kalksa bile lego ancak yarım çalışır. Tuz = uret_petek + renkler + girdi + motor_onbellek dosya sha'sı. Bu 4 dosyaya 19-25 Eylül arasında 14 commit (uret_petek 7 · renkler 4 · girdi 3 · onbellek 1). Loglardaki tuzlar: kosu5 7c843c40 · kosu6 169495a2 · kosu14 22742ea1 · kosu15 0e8e7049, hepsi farklı. Sonuç: ÇALIŞAN katmanlar bile isabet almıyor. Koşu 14: col 0/549 · kusat 0/2437 · dolgu 8/1920 · osm 10/579 · sb 7/579 · k1 0/4. Koşu 6'da da aynı tablo. ⇒ \"5 bölge, 3 zaman\" legosu için ① bayrak kalkmalı ② iki koşu arasında motor kodu DONDURULMALI. Bir yorum satırı değişikliği bile bütün önbelleği sıfırlar. b) ③ DÖNEMLER AŞAMASI (2s17dk): önbelleği ZATEN VAR ve ateşleniyor (osm + sb, sıralı yolda da). Koşu 14 çapraz sayacı: Osmanlı gövde 579 çağrı 1s17dk + serbest kenar 579 çağrı 59dk = aşamanın ~%98'i önbellekli katmanlarda. Yani bu aşamayı öldüren bayrak değil, yalnız (a) tuz. Kod değişikliği gerektirmiyor. c) Kazanç tavanı (koşu 14 çapraz sayaç, ölçüm): yabancı gövde 3.874 çağrı 13s26dk (çağrı başına ~12,5 sn) + osm/sb 2s17dk ⇒ ikisi birlikte koşunun ~%92'si önbelleklenebilir katmanlarda. Gerçek isabet oranı (değişikliğin yerelliği) ancak aynı tuzla İKİ ardışık koşuda ölçülür; statik tahmin yazmadım. d) Ek kanıt, B9 için: koşu 14/15 logunda gövde döngüsünün nabız satırı (\"devlet N/602 … gün\") VAR, ama \"[PARALEL] FAZ 1\" satırı YOK. Bu satır `-u` (tamponsuz) koşuda koşulsuz basılıyor (uret_petek.py:6753). Paralel yolda basılacağının kutuda gösterilmesi yine sınava kalıyor, M-5172 ⑥ geçerli. ② BULAMADIM: kalıcı değişkeni kim yazdı (⑧ gereği aramayı bıraktım) · bit denkliği (ertelendi) · iki ardışık aynı-tuz koşunun isabet oranı (hiç olmadı). ③ İSTİYORUM: (1) iki MOTOR-LEGO'dan birini durdur. Ben çekilmeye hazırım, bekçim açık, cevabını bekliyorum. (2) (a)'yı öbür oturumun yamasına/raporuna ekletmek: yama başlığında \"önbellek: AÇIK\" satırının yanına \"tuz geçen koşudan FARKLI ⇒ bu koşu isabet ALMAYACAK\" uyarısı da bassın (geçen koşunun tuzu önbellek dosyasına yazılıp okunabilir). Politika önerisi Emre'ye: veri-yalnız koşularda motor kodu dondurulsun; kod değişiklikleri bir sonraki \"tam inşa\" koşusunda toplu girsin. Dosyalarım: denetim/ARAC-LEGO-0925-say.py (katman sayacı, salt okur) · denetim/ARAC-LEGO-0925-bit.py (sınav sürücüsü, ertelendi; DEM kopyası eklenmeli) · denetim/ARAC-LEGO-0925-tahta.py. Commit etmedim; öbür oturum devralırsa ona bırakırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
