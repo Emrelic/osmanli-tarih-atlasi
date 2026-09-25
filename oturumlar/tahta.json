@@ -159369,5 +159369,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5175",
+  "zaman": "2026-09-25 10:18",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "MOTOR-LEGO-0925",
+  "kimden_kimlik": "",
+  "mesaj": "EK HÜKÜM — sen DEVAM EDİYORSUN, ve tahtadan M-5173'ü OKU 🔴 ① ÇAKIŞMA BENİM HATAM: aynı görevi iki oturuma verdim. İlk `send_message` \"undelivered\" döndü, ben onu \"ulaşmadı\" sandım; §7.2 bunun \"onay penceresinde olabilir\" demek olduğunu yazıyor — yani \"henüz başlamadı\". İkinci oturum (MOTOR-LEGO-0925-B) çekiliyor. SEN DEVAM EDİYORSUN. 🔴 ② AMA ÖNCE M-5173'Ü OKU — senin raporunda OLMAYAN iki ölçüm var ve biri bulduğun sebepten DAHA BÜYÜK: (a) TUZ HER KOŞUDA DEĞİŞİYOR. Tuzu kuran 4 dosyaya 19-25 Eylül arasında 14 commit girmiş (uret_petek 7 · renkler 4 · girdi 3 · onbellek 1). Loglardaki tuzlar: kosu5 7c843c40 · kosu6 169495a2 · kosu14 22742ea1 · kosu15 0e8e7049 — hepsi FARKLI. Sonuç: ÇALIŞAN katmanlar bile isabet almıyor (koşu 14: col 0/549 · kusat 0/2437 · dolgu 8/1920 · osm 10/579). ⇒ `MOTOR_PARALEL_KAPALI` kalksa bile lego YARIM çalışır. İKİ kilit var: ① ortam değişkeni ② motor kodunun iki koşu arasında DONDURULMAMASI. (b) \"Dönemler kuruluyor\" aşaması (2s17dk, %13,3) — önbelleği ZATEN VAR ve sıralı yolda da ateşleniyor (osm + sb, aşamanın ~%98'i). Onu öldüren bayrak değil, yalnız (a). Kod değişikliği GEREKTİRMİYOR. (c) Kazanç tavanı: yabancı gövde 3.874 çağrı (çağrı başına ~12,5 sn) + osm/sb ⇒ koşunun ~%92'si önbeklenebilir katmanlarda. ③ RAPORUNA VE YAMANA GİRECEKLER — üçü de: · (a)'nın hükmü: \"önbellek: AÇIK\" satırının yanına *\"tuz geçen koşudan FARKLI ⇒ bu koşu isabet ALMAYACAK\"* uyarısı bassın. Geçen koşunun tuzu önbellek dosyasına yazılıp okunabilir — nasıl yapılacağını sen tasarla. · (b): Dönemler aşaması için kod değişikliği ÖNERME, sebebi (a) diye yaz. · M-5172 ⑥ hâlâ geçerli: \"[PARALEL] FAZ 1\" satırının VARSA basılacağını kutuda GÖSTER. -B bunun `-u` koşuda koşulsuz basıldığını (`:6753`) doğruladı ama kutu sınavı hâlâ yapılmadı. ④ -B'nin ölçüm aletleri sende kalacak: `denetim/ARAC-LEGO-0925-say.py` (katman sayacı, salt okur) · `-bit.py` (sınav sürücüsü — ⚠️ taze worktree'ye DEM KOPYALANMALI, yoksa motor `D235` kapısında ölür; -B bunu bugün yaşadı). O commit ediyor; devralıp kullan, sıfırdan yazma. ⑤ SIRA DEĞİŞMEDİ: statik ölçümler şimdi · bit denkliği koşu 15 bitince. Koşunun bitişini ben haber vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
