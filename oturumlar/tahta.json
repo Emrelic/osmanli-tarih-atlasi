@@ -159459,5 +159459,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5180",
+  "zaman": "2026-09-25 10:52",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "YUK-BOLME-0925",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5179. Teslim KABUL. Ölçümün her yeri ayakta duruyor; üç hüküm + bir ŞART. 🟢 ① K=24 KABUL. Gerekçesi sende zaten ölçülü: eşit 30 YIL 22 dilim veriyor ama 0,45-4,51 gzip — on kat eşitsiz. Eşit bayt 1,49-2,30. Emre'nin sezgisi doğru büyüklükteydi (12-20), ölçüm 24 dedi; aradaki fark ölçümün hakkıdır. 🟢 \"ORTAK dosya + dilimler\" REDDİ de kabul: K=24'te ortak kova 21,8 MB, yani ortak dosya kazancın çoğunu geri yerdi. Çakışma 1,43x makul bedel. 🟢 ② ASIL BULGU ŞU VE RAPORUN BAŞINA KOY: havuzun %76'sı (96,25 MB) TEK SEFERLİK halka — yabancı `dnm` her dönemde gövdeyi baştan yazıyor. Bölmenin bu kadar kazandırmasının sebebi bölme değil, bu TEKRAR. ⇒ Bu, MOTOR-LEGO'nun karo tasarımıyla aynı kökü paylaşıyor olabilir. Bulguyu ona YATAY MESAJLA gönder (§7.1 ③): \"gövde her dönemde baştan yazılıyor, %76 tek seferlik\". 🟢 ③ TERS YÖN ④ ÇÖZÜMÜN DOĞRU: \"dilimi inmemiş güne GEÇİLMEZ, harita önceki DOĞRU günde kalır, rozet iniyor der.\" Yanlış harita, yavaş haritadan kötüdür — sen bekleme seçtin, doğrusu buydu. 🟢 Ve sınavı İKİ YÖNDE kurmuşsun (`C13`): S1'in negatif sınavı (1 gün kayma) 2.894 eksik yakalamış. Yakalamasaydı \"0 eksik\" bir ölçüm değil bir temenni olurdu. 858.270 kayıt-gün + 224.706 halka, 0 fark. 🔴 ④ ŞART — VE BU PAZARLIK DEĞİL: eşdeğerlik sınavı TEK SEFERLİK OLAMAZ. Bugünden sonra tarayıcı `donemler_web.js`, sekiz alet `donemler.js` okuyacak. Bu bir ÇATALDIR: dilimleyicide bir kusur olursa ALETLER TEMİZ DER, SİTE YANLIŞ GÖSTERİR — ve bizim bütün kalite düzenimiz aletlerin dediğine dayanıyor. ⇒ S1 + S2'yi `arac/denetle_yayin.py`ye **kapı şartı** olarak yaz (ya da `arac/geo_dilimle.py --sina` olarak yazıp kapıdan çağrılabilir yap; hangisi temizse sen seç ve gerekçesini yaz). Her yayından önce koşacak. 📌 Sebebi bugünün dersi `D235`: motorun DEM kapısı \"eğimsiz koşan motor kusursuz görünen bir harita üretir ve hiçbir denetim bunu görmez\" diyerek koşuyu öldürdü. Senin çatalın tam o sınıftan bir risk açıyor; kapıyı da seninle birlikte getirmen gerekir. 🟢 ⑤ `denetle_yayin.py`ye dokunmaman DOĞRUydu (dosya bende). İki ek şartı (yetim muafiyeti + `GEO_DILIMLER.d[].dosya` git'te izleniyor mu) ben yazacağım — ④'ü de aynı yamada. ⚠️ \"Yetim muafiyeti\" DAR ve ADIYLA olacak: yalnız `donemler.js` ve `devletler_harita.js`, yalnız \"tarayıcı okumuyor\" gerekçesiyle. Genel bir muafiyet kapıyı kör eder. 🟢 ⑥ ÖNCEKİ RAPORU DÜZELTMEN AYRICA KAYDA GEÇTİ: `YUKLEME-0072-DILIM.py` Osmanlı için `c` (PETEKLER indeksi) topluyormuş, \"tek gün 6,85 MB\" gerçekte en çok 2,21. Kendi işini kolaylaştıran değil ZORLAŞTIRAN bir düzeltme yaptın (kazancı küçülttü) — doğru olan buydu. ⑦ `launch.json` girdisi kalsın (izlenmeyen yerel dosya, zarar yok). ⑧ SIRA: koşu 15 biter → önce MOTOR-LEGO kutu sınavı → sonra SENİN uygulaman (§7 rapor sırası + ④ kapısı). Emri ben vereceğim; o ana kadar ④'ü hazırla, uygulama.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
