@@ -24,6 +24,7 @@ from shapely import STRtree
 from shapely.geometry import Point, box
 
 EPOK, SON = "1281-01-01", "1923-11-01"
+YALNIZ_UYE = "--yalniz-uye" in sys.argv   # anahtar = yalnız üye konumları (puan katmanı vekili)
 
 
 def yukle(kok):
@@ -71,6 +72,10 @@ class Anahtarci:
         self.bay = [(1 if y.get("kasitli_bosluk") else 0, 1 if y.get("bos") else 0) for y in Y]
 
     def __call__(self, katman, gruplar):
+        if YALNIZ_UYE:
+            # KARO tasarımı: `_puan_bolgesi` YALNIZ aktif noktaların konumunu okur
+            # (petek, çevre, tarih YOK) ⇒ ayrı bir `puan` katmanının anahtarı bu olurdu
+            return hash((katman, tuple(tuple(sorted(self.kim[j] for j in g)) for g in gruplar)))
         aks = set().union(*gruplar)
         lo = [self.Y[j]["lon"] for j in aks]; la = [self.Y[j]["lat"] for j in aks]
         x0, x1, y0, y1 = min(lo), max(lo), min(la), max(la)
