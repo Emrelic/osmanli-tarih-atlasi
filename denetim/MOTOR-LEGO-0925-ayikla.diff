@@ -1,0 +1,54 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 143bd65..cbb0b50 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -5744,17 +5744,46 @@ def _puan_bolgesi(did, aktif, gun):
+     _cy = _y0 + (_np2.arange(_ny) + 0.5) * KV_ADIM
+     _cx = _x0 + (_np2.arange(_nx) + 0.5) * KV_ADIM
+     _cos = _np2.cos(_np2.radians(_cy))
++    # ⚡ AYIKLAMA — MOTOR-LEGO-0925 (25 Eylül 2026). ESKİ HÂLİ her noktayı BÜTÜN
++    # pencere üzerinde hesaplıyordu (İngiltere 1909: 5508×2433 hücre × 279 nokta);
++    # oysa nokta `_r` km'nin ötesine 0 puan verir. Gövde süresinin %70'i buydu
++    # (`denetim/MOTOR-LEGO-0925-karo.md`). Artık her nokta yalnız kendi alt
++    # penceresine yazar; dışlanan her hücrede `_m ≥ _r` olduğu için eski hâl de
++    # oraya 0 yazardı ⇒ maske BİT BİT aynı (sınav: `denetim/ARAC-LEGO-ayikla-sinav.py`).
++    # 🔴 KESİNLİĞİN ÜÇ ŞARTI — biri bozulursa maske SESSİZCE değişir:
++    #   ① satır dışlama: |Δenlem|·110,574 ≥ _r ⇒ dışarıda (±1 hücre pay)
++    #   ② sütun dışlama φ'yi satır aralığının EN BÜYÜK |enlemi|nden alır:
++    #      cos(φ_hücre) ≥ cos(φ_max) ⇒ |Δboylam|·111,32·cos(φ_max) ≥ _r yeterli.
++    #      φ_max kutba dayanırsa (cos≈0) bütün satır dahil edilir.
++    #   ③ dilimler (_cy/_cx/_cos) TAM DİZİNİN dilimidir, yeniden hesaplanmaz ⇒
++    #      her hücrenin float hesabı eskisiyle eleman eleman aynı.
++    # ⚠️ Boylam SARILMAZ — eski hâl de sarmıyordu (tarih çizgisinin iki yakası
++    #    birbirine puan vermez). Sarmak ayrı bir karar, bu yamanın işi değil.
++    _dlat_h = _r / 110.574
+     for _jj in aktif:
+         _yy = YERLER[_jj]
+-        _dy = (_cy - _yy["lat"]) * 110.574
+-        _dx = (_cx[None, :] - _yy["lon"]) * 111.320 * _cos[:, None]
++        _j0 = max(0, int(math.floor((_yy["lat"] - _dlat_h - _y0) / KV_ADIM)) - 1)
++        _j1 = min(_ny, int(math.ceil((_yy["lat"] + _dlat_h - _y0) / KV_ADIM)) + 1)
++        if _j0 >= _j1:
++            continue
++        _cmin = math.cos(math.radians(min(90.0, max(abs(float(_cy[_j0])), abs(float(_cy[_j1 - 1]))))))
++        if _cmin < 1e-9:
++            _i0, _i1 = 0, _nx
++        else:
++            _dlon_h = _r / 111.320 / _cmin
++            _i0 = max(0, int(math.floor((_yy["lon"] - _dlon_h - _x0) / KV_ADIM)) - 1)
++            _i1 = min(_nx, int(math.ceil((_yy["lon"] + _dlon_h - _x0) / KV_ADIM)) + 1)
++        if _i0 >= _i1:
++            continue
++        _dy = (_cy[_j0:_j1] - _yy["lat"]) * 110.574
++        _dx = (_cx[None, _i0:_i1] - _yy["lon"]) * 111.320 * _cos[_j0:_j1, None]
+         _m = _np2.sqrt(_dx ** 2 + _dy[:, None] ** 2)
+         _k = _np2.zeros(_m.shape, dtype="int16")
+         _once = 0.0
+         for _e, _pu in PUAN_HALKA:          # 200→4p · 300→2p · 400→1p
+             _k[(_m >= _once) & (_m < _e)] = _pu
+             _once = _e
+-        _p += _k
++        _p[_j0:_j1, _i0:_i1] += _k
+     _msk = _p >= PUAN_ESIK
+     if not _msk.any():
+         _PUAN_ONBELLEK[anahtar] = None
