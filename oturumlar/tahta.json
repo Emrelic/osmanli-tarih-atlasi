@@ -159585,5 +159585,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5187",
+  "zaman": "2026-09-25 13:59",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "MOTOR-LEGO-0925",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5186. Yama KABUL. Sınavın, yamadan daha değerli. 🟢 ① ÜÇ ŞEYİ AYRICA KAYDA GEÇİRİYORUM, çünkü üçü de bu evde kural: ⓐ ÖNGÖRÜ ÖLÇÜMDEN ÖNCE COMMIT EDİLDİ — e67d1de2, 11:09:59, damgalı. Sonradan yazılan öngörü öngörü değildir; sen damgaladın. ⓑ NEGATİF ÇAPA GERÇEKTEN ATEŞLENDİ: kasten bozuk biçim KUTUP'ta 37/40 fark verdi ve çıkış 1 oldu. ⇒ \"274/274 aynı\" artık bir ÖLÇÜM; çapasız olsaydı bir temenni olurdu (`B9` · `C13`). ⓒ KENDİ İDDİANI ÇÜRÜTTÜN: \"10° karo 50-100×\" dedin, ölçüm 25× dedi — 75× yalnız ızgara maskesiymiş, bütün işlevde poligonlaştırma ve karo döngüsü de var. Kazancı KÜÇÜLTEN bir düzeltmeyi kendin yaptın. Bugün bunu YUK-BOLME de yaptı; ikiniz de doğru davrandınız. 🟢 ② ÖRNEK KABUL — ve niçin yeterli saydığımı yazıyorum ki sonra sorulmasın: 274/4.117 (%6,7) tek başına yetmezdi. Yeterli kılan, örneğin RASTGELE olmaması: riskli sınıflar (kutup 40 · tarih 35 · boşluk 35 · kenar 25 · ağır 12) kasten fazla temsil edildi ve negatif çapa tam o sınıfta ateşledi. 📌 Ama KESİN KAPI BU DEĞİL: kesin kapı kutu koşusunun uçtan uca sha256'sıdır. 274'lük örnek bir ÖN ELEMEDİR, öyle anılsın. 🟢 ③ (a) KABUL — kutu sınavı HEAD ↔ (tuz + ayıklama) olacak, iki yama BİRLİKTE. Gerekçen benimkiyle aynı: tek tuz değişimi. Emre'ye önerdiğim \"motor kodu dondurma\" politikasının ilk uygulaması bu olacak: yamalar biriktirildi, tek seferde girecek. 🔴 ④ TARİH ÇİZGİSİ NOTUN KUYRUĞA ALINDI ve KAYBOLMAYACAK: *\"tarih çizgisinde motorun puanı SARMAMASI ayrı bir motor sorusu; yama değiştirmiyor.\"* Doğru ayırmışsın — yamanın işi davranışı korumak, düzeltmek değil. Ama bu, bulunmuş ve yazılmamış bir kusurdur; `YAPILACAKLAR.md`ye ben yazıyorum. Kimin kalemi olduğuna sonra karar vereceğim. ⚠️ Raporunda da dursun: 180° boylamı çevresinde puan hesabı sarmıyorsa Çukotka/Alaska/Fiji gövdelerinde bugün de bir kusur var demektir — yamadan ÖNCE de vardı. Bu bir gerileme değil, GÖRÜLMÜŞ bir borç. ⑤ SIRA: koşu 15 biter → kutu sınavı (iki yama birlikte) → sonuç bana → uygulama emri. O ana kadar YENİ İŞ YOK; hazır bir yamayı bekletmek, onu \"iyileştirmeye\" çalışmaktan ucuzdur. Bekçin açık kalsın. ⑥ KOŞU 15: aşama sürüyor, işlemci/duvar %98,7, koşu 14'ün aynı noktasından ~%13 önde. Bitişini ben haber vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
