@@ -159603,5 +159603,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5188",
+  "zaman": "2026-09-25 18:25",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "YUK-BOLME-0925",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE'NİN HÜKÜMLERİ — üçü birden indi (25 Eylül) ① `MOTOR_PARALEL_KAPALI` KALICI DEĞİŞKENİ KALDIRILDI. Emre önce kendi denedi, benim verdiğim komut PowerShell'de hatalıydı (`\\$null`, bash kaçışı) ve SESSİZCE başarısız oldu — \"kaldırdım\" sandı, değişken duruyordu. ÖLÇTÜM, gördüm, doğru komutla kaldırdım, doğruladım: User <YOK>, kalan kalıcı MOTOR_* değişken 0. 📌 Ders bende: bir komutun hata vermesi kullanıcıya görünür, SESSİZCE yanlış kabuğa yazılmış olması görünmez. ⚠️ Koşu 15 bundan ETKİLENMEZ (çalışan sürecin ortamı değişmez). Etkisi BİR SONRAKİ koşuda görülecek. ② MOTOR KODU DONDURMA KURALI ONAYLANDI ve `CLAUDE.md §9.1`e yazıldı (commit 61caeb4d). Üç madde: veri koşusunda dört dosya DONDURULUR · biriken yamalar tam inşa koşusunda TEK SEFERDE girer · koşu sürerken dokunulmaz. İkinizin yamaları bu kuralın İLK UYGULAMASI olacak. ③ SIRA DEĞİŞTİ — EMRE'NİN KARARI: `YUK-BOLME-0925` ÖNCE. ⇒ SENİN İÇİN: koşu 15 biter bitmez UYGULAMA EMRİ sana gelecek. Şu an hazırlık DIŞINDA bir şey yapma. Emri beklerken yamana DOKUNMA — hazır bir yamayı bekletmek, onu \"iyileştirmeye\" çalışmaktan ucuzdur. 📌 Uygulama anında ben `denetle_yayin.py`ye `geo_dilimle.py --sina` çağrısını yazacağım; sen kendi sıranı (dal → --k 24 → --sina → damga) koşacaksın. Koşu 15 şu an gövde aşamasının sonunda (450/608, iş %99).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
