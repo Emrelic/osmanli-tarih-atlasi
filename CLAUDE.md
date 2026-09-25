@@ -423,6 +423,38 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   yayını durdurmaz; durduran yalnız koşunun kendi `denetle.py` ihlalidir. Koşu bittiği an
   ≠ yayın indiği an: yayın inene kadar motor donuk. [`D229`](dersler/D229-komutlar-palet-bayat-yayin.md)
 
+## 9.1 🔴 MOTOR KODU DONDURMA — koşular arası (Emre onayı, 25 Eylül 2026)
+Önbelleğin **TUZU** dört dosyanın sha256'sıdır: `uret_petek.py` · `renkler.py` ·
+`girdi.py` · `motor_onbellek.py`. Biri değişirse **bütün anahtarlar değişir** ⇒
+tam yeniden inşa, elle karar yok. Bu bir kusur değil doğruluk sigortasıdır:
+motor değiştiyse eski sonuç güvenilmez.
+🔴 **AMA ÖLÇÜLDÜ (MOTOR-LEGO-0925):** 19-25 Eylül arasında bu dört dosyaya
+**19 commit** girdi ve her koşunun tuzu farklı çıktı (koşu 5 `7c843c40` · 6
+`169495a2` · 14 `22742ea1` · 15 `0e8e7049`). Sonuç: **çalışan önbellek
+katmanları bile isabet almadı** — koşu 14: `col` 0/549 · `kusat` 0/2437 ·
+`dolgu` 8/1920 · `osm` 10/579. Önbellek iki haftadır VARDI ve HİÇ çalışmadı.
+📌 Ve 19 commit'in **12'si yalnız `renkler.py` + `girdi.py`**ydi; gövde
+hesabı o iki dosyayı **okumuyor** bile (AST ile ölçüldü: 30 işlev/91 ad, renk
+okuyan yok). Yani bayatlığın çoğu **boşunaydı**.
+
+**KURAL — üç madde:**
+1. **Veri koşusu (yalnız `data/` değişti):** motor kodu **DONDURULUR.** Dört
+   dosyaya dokunulmaz — yorum satırı bile. Dokunmak zorundaysan koşuyu
+   erteler ya da ② ye geçersin.
+2. **Tam inşa koşusu:** biriken motor yamaları **tek seferde** girer, tuz bir
+   kez değişir, o koşu zaten sıfırdan inşa eder. Yamalar `denetim/*.diff`
+   olarak bekletilir (`git apply --check` temiz tutulur).
+3. **Koşu SÜRERKEN dört dosyaya dokunulmaz** — koşu her aşamada motor parmak
+   izini sınar ve reddeder (8 Ağustos: 83 dakika çalışıp en sonda reddedildi).
+⚠️ **Ve bu kural yazılmadan tutulmadı:** 24 Eylül'de koordinatörün kendisi
+`girdi.py`ye dokunup 279 MB'lık önbelleği öldürdü — aynı sabah şartnameye
+"motorun tuzuna dokunulmaz" yazdıktan sonra. Kural yazılı olmayan kural değil,
+UNUTULAN kuraldır.
+📌 Yapısal çare de yolda: geometri katmanlarına (`govde`/`osm`/`sb`) renk ve
+girdi listesi İÇERMEYEN ayrı bir tuz (`MOTOR-LEGO-0925` yaması). İndiğinde
+bu kuralın yükü azalır ama **kalkmaz**: `uret_petek.py` hâlâ tuzdadır ve
+orada OLMALIDIR.
+
 ## 10. Çalışma protokolü (kullanıcı tercihi)
 - **Onay bekleme**, devam et. Kullanıcı hataları numaralı partilerle bildirir — her maddeyi
   ayrı cevapla; "ayrı madde ile gösterilmeli" = Değişmez 2 ihlali: kırılmayı bul, yaz.
