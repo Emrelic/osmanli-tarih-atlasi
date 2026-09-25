@@ -1350,9 +1350,13 @@
 
 </script>
 <script src="data/bolgeler.js?v=r10122"></script>
-<script src="data/devletler_harita.js?v=r10122"></script>
+<!-- 🔴 YUK-BOLME-0925: geometri havuzları `data/geo/gNN.json` dilimlerinde, js/app.js
+     o günün dilimini `fetch` eder. Buradaki iki dosya motor çıktısının HAVUZSUZ
+     kopyasıdır (arac/geo_dilimle.py, uret_petek.py'den SONRA koşar). Asıl
+     data/donemler.js · data/devletler_harita.js araçlar içindir, tarayıcı yüklemez. -->
+<script src="data/devletler_harita_web.js?v=r10122"></script>
 <script src="data/sehirler.js?v=r10122"></script>
-<script src="data/donemler.js?v=r10122"></script>
+<script src="data/donemler_web.js?v=r10122"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
      404 verir; app.js `window.DOLGU || []` ile karşılar, atlas A

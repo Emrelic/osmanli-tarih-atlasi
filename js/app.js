@@ -130,6 +130,10 @@ var PETEKLER = window.PETEKLER || [];
 // TEK bir delik sessizce eski davranışa düşer ve bozuk geometri üretir, kimse
 // fark etmez. "Boş alan yok, niçin boş var" kuralı burada: delik varsa GÜRÜLTÜ
 // ÇIKAR (throw), sessizce yanlış çizme.
+// 🆕 YUK-BOLME-0925: havuz artık SEYREK olabilir (dilim inmeden halka yok).
+// Yüklenmemiş halkaya erişim `undefined` koordinat üretip SESSİZCE yanlış
+// çizerdi — o yüzden burada da GÜRÜLTÜ ÇIKAR (throw). Kapı doğru çalışıyorsa
+// (geoHazir) bu satır hiç tetiklenmez; tetiklenirse kapıda delik var demektir.
 function parcaCoz(dizi, havuz, parcaHalka) {
   if (!dizi) return null;
   var yeniBicim = !!(parcaHalka && parcaHalka.length);
@@ -139,11 +143,132 @@ function parcaCoz(dizi, havuz, parcaHalka) {
              if (!yeniBicim) return havuz[p];              // eski veri: havuz zaten poligon
              var ph = parcaHalka[p];
              if (!ph) throw new Error("PARCA_HALKA deliği: " + p);
-             return ph.map(function (h) { return havuz[h]; });
+             return ph.map(function (h) {
+               var r = havuz[h];
+               if (r === undefined) throw new Error("GEO DİLİMİ İNMEMİŞ — halka " + h + " yok (geoHazir kapısı delindi)");
+               return r;
+             });
            }) };
+}
+// Nesnenin `ad` alanını İLK OKUNDUĞUNDA kur ve sabitle. Dilimli havuzda
+// geometri ancak o günün dilimi inince çözülebilir; açılışta 590 + 3900
+// kaydın HEPSİNİ çözmek (eski davranış) hem imkânsız hem gereksiz.
+function tembelAlan(nesne, ad, kur) {
+  Object.defineProperty(nesne, ad, { configurable: true, enumerable: true,
+    get: function () {
+      var v = kur();                 // throw ederse ÖNBELLEĞE YAZILMAZ
+      Object.defineProperty(nesne, ad, { value: v, writable: true, configurable: true, enumerable: true });
+      return v;
+    },
+    set: function (v) {
+      Object.defineProperty(nesne, ad, { value: v, writable: true, configurable: true, enumerable: true });
+    } });
 }
 var PARCALAR = window.PARCALAR || [];
 var PARCA_HALKA = window.PARCA_HALKA || [];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 GEOMETRİ DİLİMLERİ — YUK-BOLME-0925 (25 Eylül 2026)
+// ═══════════════════════════════════════════════════════════════════════════
+// ÖLÇÜLDÜ (`denetim/YUK-BOLME-0925.md`): iki havuz (PARCALAR + DEVLET_PARCALAR)
+// 127,3 MB ham / 34,7 MB gzip; TEK bir günü çizmek için gereken 1,3–2,2 MB ham.
+// `arac/geo_dilimle.py` havuzu EŞİT BAYTLI zaman dilimlerine böler; her dilim
+// kendi aralığının HER gününü çizmeye yeter (ortak havuz yok). Halkalar GLOBAL
+// indeksleriyle gelir ve seyrek havuza yerleşir ⇒ PARCA_HALKA / dnm.g / d.o
+// çözümü DEĞİŞMEDİ.
+// 🔴 DOĞRULUK KURALI (şartname ④, "yanlış harita, yavaş haritadan kötüdür"):
+// dilimi inmemiş bir güne GEÇİLMEZ. `tarihAyarla` o günü BEKLETİR; harita ve
+// başlık ÖNCEKİ (doğru, birbirini tutan) günde kalır, rozet "iniyor" der;
+// dilim inince EN SON istenen güne geçilir (aradaki istekler düşer).
+// `window.GEO_DILIMLER` yoksa (dilimlenmemiş eski üretim) hepsi etkisizdir.
+var GEO = window.GEO_DILIMLER || null;
+var GEO_SINIR = GEO ? GEO.d.map(function (x) { return gunIdx(x.f); }) : [];
+var GEO_DURUM = [];          // i -> undefined | "iniyor" | "hazir"
+var GEO_SOZ = [];            // i -> Promise (inerken)
+var geoBekleyen = null;      // inmesi beklenen EN SON istenen gün
+var geoSonT = null, geoYon = 1;
+// 🔴 denetim/ARAC-YUK-SINAV-0925.js bu fonksiyonun AYNISINI sınar — değişirse orayı da değiştir.
+function geoDilimNo(t) {
+  var i = 0;
+  while (i + 1 < GEO_SINIR.length && GEO_SINIR[i + 1] <= t) i++;
+  return i;
+}
+function geoHazir(t) { return !GEO || GEO_DURUM[geoDilimNo(t)] === "hazir"; }
+function geoSurum() {
+  var s = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
+  return (s.match(/v=(r\d+)/) || [])[1] || "";
+}
+function geoIste(i) {
+  if (!GEO || i < 0 || i >= GEO.d.length) return Promise.resolve();
+  if (GEO_DURUM[i] === "hazir") return Promise.resolve();
+  if (GEO_SOZ[i]) return GEO_SOZ[i];
+  GEO_DURUM[i] = "iniyor";
+  var v = geoSurum();
+  GEO_SOZ[i] = fetch(GEO.d[i].dosya + (v ? "?v=" + v : ""))
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status + " " + GEO.d[i].dosya);
+      return r.json();
+    })
+    .then(function (j) {
+      var k;
+      for (k = 0; k < j.o.i.length; k++) PARCALAR[j.o.i[k]] = j.o.r[k];
+      for (k = 0; k < j.y.i.length; k++) DEVLET_PARCALAR[j.y.i[k]] = j.y.r[k];
+      GEO_DURUM[i] = "hazir"; GEO_SOZ[i] = null;
+    })
+    .catch(function (e) {
+      // Yarım kalan dilim "hazir" SAYILMAZ; bir sonraki istek yeniden dener.
+      GEO_DURUM[i] = undefined; GEO_SOZ[i] = null;
+      console.error("🔴 GEO dilimi inmedi:", e);
+      throw e;
+    });
+  return GEO_SOZ[i];
+}
+function geoRozet(durum, t) {
+  var el = document.getElementById("geo-rozet");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "geo-rozet";
+    el.style.cssText = "position:fixed;z-index:50;left:50%;bottom:84px;transform:translateX(-50%);" +
+      "padding:4px 10px;border-radius:12px;font:12px/1.4 system-ui,sans-serif;" +
+      "background:rgba(30,30,30,.82);color:#fff;pointer-events:none;display:none";
+    document.body.appendChild(el);
+  }
+  if (!durum) { el.style.display = "none"; return; }
+  var y = idxTarih(t).y;
+  el.textContent = durum === "hata"
+    ? "⚠️ " + y + " haritası indirilemedi — yeniden denemek için zamanı oynatın"
+    : "⏳ " + y + " haritası iniyor… (ekrandaki harita: " + idxYazi(suanki) + ")";
+  el.style.display = "block";
+}
+function geoBekle(t) {
+  geoBekleyen = t;
+  geoRozet("iniyor", t);
+  geoIste(geoDilimNo(t)).then(function () {
+    if (geoBekleyen !== t) return;          // arada başka gün istendi; o kendi bekler
+    geoBekleyen = null; geoRozet(false);
+    tarihAyarla(t);
+  }, function () { if (geoBekleyen === t) geoRozet("hata", t); });
+}
+// Önden çekme: hareket yönündeki komşu dilim, mevcut dilimin son çeyreğine
+// girilince istenir. Açılışta (hareket yok) ileri yön varsayılır — kullanıcı
+// 1281'den ileri gider.
+function geoOnden(t) {
+  if (!GEO) return;
+  if (geoSonT !== null && t !== geoSonT) geoYon = t > geoSonT ? 1 : -1;
+  var ilk = geoSonT === null;
+  geoSonT = t;
+  var i = geoDilimNo(t);
+  var bas = GEO_SINIR[i], son = i + 1 < GEO_SINIR.length ? GEO_SINIR[i + 1] : BITIS;
+  var oran = (t - bas) / Math.max(1, son - bas);
+  var hedef = -1;
+  if (geoYon > 0 && (ilk || oran >= 0.75)) hedef = i + 1;
+  else if (geoYon < 0 && oran <= 0.25) hedef = i - 1;
+  if (hedef >= 0 && hedef < GEO.d.length && GEO_DURUM[hedef] === undefined) {
+    setTimeout(function () { geoIste(hedef).catch(function () {}); }, ilk ? 1500 : 0);
+  }
+}
+// Açılış günü dilimi HEMEN istenir — harita stili/döşemeleriyle paralel insin.
+if (GEO) geoIste(geoDilimNo(BASLANGIC)).catch(function () {});
 
 // ⚠️ SERBEST KENAR — gövdenin SAHİPSİZ alanla komşu olduğu sınır parçaları.
 // (hatalar 15 md.17-19 tartışmasından; Oturum 16 üretiyor, sözleşme: hat havuzu
@@ -330,10 +455,20 @@ function hatCoz(dizi) {
 })();
 
 var donemler = window.DONEMLER.map(function (d) {
+  var kayit = _donemKur(d);
+  // YUK-BOLME-0925: geometri TEMBEL — ilk okunduğunda (o günün dilimi inmişken) çözülür.
+  tembelAlan(kayit, "o", function () { return parcaCoz(d.o, PARCALAR, PARCA_HALKA); });
+  tembelAlan(kayit, "v", function () { return parcaCoz(d.v, PARCALAR, PARCA_HALKA); });
+  tembelAlan(kayit, "h", function () {
+    return (d.h || []).map(function (hb) {
+      return { g: parcaCoz(hb.g, PARCALAR, PARCA_HALKA), renk: hb.renk || null };
+    });
+  });
+  return kayit;
+});
+function _donemKur(d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
            av: d.av || 0, e: d.e || [], c: d.c || [],
-           o: parcaCoz(d.o, PARCALAR, PARCA_HALKA),
-           v: parcaCoz(d.v, PARCALAR, PARCA_HALKA),
            // 🆕 TÂBİ ETİKET ÇAPALARI (`vl`) — VASSAL-GORUNUM-0907, 7 Eylül 2026.
            // ŞEMA `arac/uret_petek.py:4802-4849`dan OKUNDU, hatırlanmadı
            // (`§11`: kayıt biçimini hatırlamaya çalışmak bu projede yedi kez
@@ -352,16 +487,14 @@ var donemler = window.DONEMLER.map(function (d) {
            // app.js ölür — site bomboş açılır. Bu proje bir kez `duygu:"notr"`
            // yüzünden tam bunu yaşadı ve `denetle.py` TEMİZ diyordu.
            vl: d.vl || [],
-           h: (d.h || []).map(function (hb) {
-             return { g: parcaCoz(hb.g, PARCALAR, PARCA_HALKA), renk: hb.renk || null };
-           }),
+           // `o`, `v`, `h` yukarıda TEMBEL alan olarak kuruluyor (YUK-BOLME-0925).
            // "sb" boşsa hiç yazılmıyor (çoğu dönemde çölle sınırdaşlık yok),
            // yani d.sb undefined olabilir — hatCoz bunu null'a çeviriyor.
            sb: hatCoz(d.sb),
            // ⚠️ `z` (şehzade payları) TAŞINMIYOR: donemler.js'in 462
            // döneminin hiçbirinde yok (0/462) ve tüketicisi kaldırıldı.
            _sonKapan: 1 };
-});
+}
 
 // Bütün dönemlerin en büyük Osmanlı alanı — lejanttaki "zirvenin %N'i" için.
 // Bir kez, açılışta: 462 kayıt, çalışma anında yeniden taranmıyor.
@@ -430,8 +563,12 @@ var DEVLET_PARCA_HALKA = window.DEVLET_PARCA_HALKA || [];
 devletler2.forEach(function (s) {
   s.dnm.forEach(function (p) {
     p.fi = gunIdx(p.f); p.ti = gunIdx(p.t);
-    p.ft = { type: "Feature", properties: { renk: s.renk },
-             geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
+    // YUK-BOLME-0925: TEMBEL — `p.ft` yalnız o dönem aktifken okunuyor
+    // (devletGuncelle · devletiYay · d_katman), o an dilimi inmiş oluyor.
+    tembelAlan(p, "ft", function () {
+      return { type: "Feature", properties: { renk: s.renk },
+               geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
+    });
   });
 });
 
@@ -8522,6 +8659,9 @@ function alanYazi(km2) {
 }
 
 function guncelle() {
+  // YUK-BOLME-0925: `suanki` yalnız tarihAyarla'dan değişir ve o kapıdan geçer;
+  // buraya dilimi inmemiş günle yalnız AÇILIŞTA gelinir (suanki = BASLANGIC).
+  if (!geoHazir(suanki)) { geoBekle(suanki); return; }
   if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
   if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
   var di = donemBul(suanki);
@@ -8798,7 +8938,18 @@ function obTazele() {
 }
 
 function tarihAyarla(t) {
-  suanki = Math.max(BASLANGIC, Math.min(BITIS, t));
+  t = Math.max(BASLANGIC, Math.min(BITIS, t));
+  // 🔴 YUK-BOLME-0925 KAPISI: o günün geometri dilimi inmediyse GÜNE GEÇME.
+  // `suanki` (harita + başlık + kronoloji) önceki doğru günde kalır; çubuk
+  // kullanıcının bıraktığı yerde durur, rozet bekleyişi söyler.
+  if (!geoHazir(t)) {
+    if (!_kirpmaKilitli) kaydirici.value = t;
+    geoBekle(t);
+    return;
+  }
+  geoBekleyen = null; geoRozet(false);
+  geoOnden(t);
+  suanki = t;
   // 🔴 Kırpma sırasında ZAMAN ÇUBUĞU da oynamaz. Kullanıcı bir gün geri
   // gitmedi — harita geçici olarak önceki hâli gösteriyor. Çubuğun
   // titremesi, olmayan bir zaman yolculuğunu varmış gibi gösterirdi.
