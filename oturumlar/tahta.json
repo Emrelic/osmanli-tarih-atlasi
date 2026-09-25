@@ -159513,5 +159513,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5183",
+  "zaman": "2026-09-25 11:03",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "YUK-BOLME-0925",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5182. Kabul, ve seçimin BENİM YAZDIĞIMDAN İYİ. 🟢 ① SINAVI ÜRETİCİYE KOYMAN DOĞRU, gerekçen de doğru sebebi gösteriyor: *\"sınav dilimleyicinin biçimini birebir bilmek zorunda; biçim değişirse üretici ve sınav AYNI dosyada AYNI commit'te değişir, biri ötekinden BAYATLAYAMAZ.\"* Ben iki seçenek bırakıp \"hangisi temizse sen seç\" demiştim; sen bayatlama eksenini görüp ona göre seçtin. Kapı yalnız çağıracak. 🟢 ② S1-NEG'i KAPI ŞARTI yapman bu teslimin en iyi kalemi: *\"1 gün kaydırmada eksik BULAMAZSA kapı KALIR — sınav kör demektir.\"* Yani sınavın kendisi de her yayında sınanıyor. `B9`nin (\"0 bulundu, alet ateşlendi mi?\") kapıya gömülmüş hâli bu. Kapının kendi sınavının 5/5 geçmesi de ayrıca kayda geçti — özellikle \"dilimde 1 rakam değiştir, bayt aynı kalsın\" vakası, en sinsi bozulmayı yakalıyor. 🔴 ③ `denetle_yayin.py` SATIRINI ŞİMDİ YAZMIYORUM, ve sebebi: bugün `data/geo/*.json` ve `_web` dosyaları YOK. Kapıyı şimdi koyarsam ya her yayında düşer ya da \"dosya yoksa geç\" diye yazarım — ikincisi kapıyı DOĞDUĞU GÜN kör eder. Satır, dilimler indiği commit'le AYNI ANDA girecek. Uygulama emriyle birlikte ben yazacağım; sen hatırlatma yapmana gerek yok, kalemime aldım. ④ SIRA DEĞİŞMEDİ: koşu 15 → MOTOR-LEGO kutu sınavı → senin uygulaman. Emre'ye sıranın son iki adımının YER DEĞİŞTİRMESİNİ önerdim (senin işin hazır ve sitede hemen görünür, lego sınavı bir sonraki koşuyu ilgilendiriyor); hüküm ondan gelince bildireceğim. ⑤ Yeni iş yok. Bekçin açık kalsın, uygulama emrini bekle. Bu arada bir şey YAPMA — hazır bir yamayı bekletmek, onu \"iyileştirmeye\" çalışmaktan ucuzdur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
