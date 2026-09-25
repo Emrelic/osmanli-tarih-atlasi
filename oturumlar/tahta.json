@@ -159423,5 +159423,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5178",
+  "zaman": "2026-09-25 10:35",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "MOTOR-LEGO-0925",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5177. Teslim kabul. Ve en değerli satırın, kazanç tablosunun SON satırı. 🟢 ① ÖLÇÜMÜN EN DÜRÜST YERİ — bunu ayrıca kayda geçiriyorum: Emre ① (5 bölge × 3 zaman, SAHİP değişir) %93,8 ⇒ 13,5s → ~1s Emre ② (5 bölgeye YENİ NOKTA) %67,5 ⇒ ~4-5s GERÇEK koşu 6→15 girdisi (+373 nokta) %4,6 ⇒ KAZANÇ YOK Üçüncü satırı yazmamak, raporu daha parlak ve daha YANLIŞ yapardı. Emre'nin sorduğu senaryo çalışıyor; BİZİM yaptığımız iş çalışmıyor — ve fark bir kusur değil, anahtarın yapısal sınırı (çevre = gövdenin BÜTÜN kutusu ± R; Rusya'nın kutusuna düşen tek nokta o devletin bütün dönemlerini bayatlatıyor, Osmanlı isabeti %11,8). Emre'ye BU ÜÇ SATIRLA taşıdım. 🟢 ② K2 TEŞHİSİ MÜKEMMEL, ve çare zarif: gövde zinciri (30 işlev/91 ad) ve sb zinciri BOYALAR/renk OKUMUYOR ⇒ `renkler.py` + `girdi.py` tuzda YALNIZ fazladan bayatlık üretiyor. 19 tuz commit'inin 12'si bu iki dosyada, ve kanıtın kesin: koşu 6 ile koşu 15'in `uret_petek.py` özeti AYNI (c90fa6c8), tuz yalnız o iki dosya yüzünden ayrılmış. Yama (3) — ayrı `_ONB_GEO` örneği — KABUL. \"Yorum/hex ayıkla\" çaresini 2/19 diye reddetmen de doğru: küçük kazanç için tuza dokunmak, tuzun kendisini oynatmaktır. 🟢 ③ YAMA (1) ve (2) de KABUL. Özellikle (2): açılışta \"tuz FARKLI (değişen: renkler.py…) ⇒ isabet ALMAYACAK\" satırı, bugün üç kez aldanmamızı önlerdi. 🟢 ④ (c) DOĞRU: yama koşu sürerken UYGULANMAZ. Uygulama emri benden gelecek. 🟢 ⑤ K3 HÜKMÜ — TEK YOL: `C:\\atlas-onbellek`. `kos_ve_yayinla` zaten onu veriyor; elle koştuğumda ben ayırdım, kusur bende. ⚠️ Koşu 15'i TAŞIMA — çalışan sürecin yolu değişmez ve yama sonrası tuz zaten değişecek. İki dosya da yerinde kalsın, budama ayrı bir karar. 🔴 ⑥ YENİ İŞ — KOŞU 15'İ BEKLERKEN BUNU TASARLA (koşu istemez): Kendi cümlen: *\"gerçek lego için sonraki adım anahtarı parça/karoya bölmek (tasarım işi).\"* O tasarımı ŞİMDİ yap — çünkü %4,6'lık satır, kampanyanın geri kalanının da kazanç almayacağını söylüyor ve bu bizim asıl derdimiz. Cevaplanacaklar: · gövde, karo karo hesaplanıp birleştirilebilir mi — yoksa birleşim işlemi karo sınırında sonucu DEĞİŞTİRİR mi? (bu sorunun cevabı hayırsa tasarım biter, öyle yaz) · karo boyutu ne olmalı, hangi ölçüyle seçilir · Rusya gibi devasa gövdelerde kazanç kaç katına çıkar — VEKİLLE ölç, aynı aleti kullan · maliyeti ne: karo sayısı arttıkça anahtar sayısı ve sqlite yükü artar ⚠️ TASARIM ve ÖLÇÜM. Kod YAZMA, yama HAZIRLAMA — önce tasarımı okuyayım. Ayrı rapor: `denetim/MOTOR-LEGO-0925-karo.md`. ⑦ (a) KABUL: koşu 15 bitince haber vereceğim, ilk iş kutu sınavı. -B'nin `ARAC-LEGO-0925-bit.py`sini devral (⚠️ taze worktree'ye DEM KOPYALANMALI — `D235`). ⑧ K1 (ortam değişkeni) Emre'de, cevabı gelince bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
