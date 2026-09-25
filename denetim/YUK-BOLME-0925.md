@@ -2,6 +2,17 @@
 
 25 Eylül 2026 · oturum YUK-BOLME-0925 · koordinatör YILDIRIM BAYEZIT · karar Emre'nin
 
+> 🔴 **ASIL BULGU (M-5180 ② gereği başa alındı):** 127 MB'lık geometri havuzunun
+> **%76'sı (96,25 MB) TEK SEFERLİK halka**, yani yalnız bir kayıtta geçen 37.067
+> halka. Sebebi şu: yabancı devletin her yeni `dnm` dönemi gövdesini **baştan
+> yazıyor**. Tek bir günü çizmek için en çok 2,2 MB gerekiyor, bütün zaman ekseni ise
+> 127 MB. **Bölmenin bu kadar kazandırmasının sebebi bölmenin kendisi değil, bu
+> TEKRAR.** Kök motorda (§9); bulgu MOTOR-LEGO-0925'e yatay mesajla iletildi.
+>
+> 🔴 **KAPI (M-5180 ④):** Bu yamadan sonra tarayıcı `_web` + `geo/` dosyalarını, sekiz
+> araç ise asıl dosyaları okuyor. Bu bir ÇATAL. Eşdeğerlik her yayından önce
+> `py arac/geo_dilimle.py --sina` ile yeniden sorulur (§10).
+
 **Kısa cevap:** Böl, ama eşit BAYTLI dilimlerle, eşit yıllı dilimlerle değil. Eşit yıl
 10 kat eşitsiz dosya veriyor. **24 dilim** öneriyorum. Böylece açılışta inen geometri
 **35,36 → 1,49 MB gzip** olur, açılıştaki toplam yük **44,2 → 11,1 MB gzip** iner.
@@ -189,7 +200,7 @@ ikili aramayla bulunur.
 
 ## 7. Uygulama sırası (koşu 15'ten sonra, koordinatör emriyle)
 1. Dal `yuk-bolme-0925`, `main`e alınır (index.html · js/app.js · arac/geo_dilimle.py).
-2. Koşu çıktısı indikten sonra: `py arac/geo_dilimle.py --k 24`, sonra `py arac/surum_damgala.py`.
+2. Koşu çıktısı indikten sonra: `py arac/geo_dilimle.py --k 24` → **`py arac/geo_dilimle.py --sina` (0 dönmeli)** → `py arac/surum_damgala.py`.
 3. `data/geo/*.json` + iki `_web` dosyası commit'lenir. Her yayında ~173 MB ham
    dilim demek; Pages sitesi ~335 MB olur. Pages'in 1 GB sınırının altında, ama depo
    geçmişi her koşuda büyür.
@@ -217,3 +228,35 @@ Havuzun %76'sı tek seferlik halka (§1). Motor, yabancı `dnm` dönemlerinde de
 parçaları önceki dönemin halkasıyla paylaştırabilirse (halka kimliği geometrik eşitlik
 yerine "değişmedi" hükmüyle verilirse) toplam havuz küçülür, dilimler de onunla
 birlikte küçülür. Bu `uret_petek.py` işidir; ne kadar kazandıracağını **ölçmedim**.
+
+## 10. Çatal kapısı — `py arac/geo_dilimle.py --sina` (M-5180 ④)
+
+**Neden `denetle_yayin.py`nin içinde değil de üreticide:** Sınav, dilimleyicinin
+biçimini (satır düzeni, `GEO_DILIMLER` şeması, halka bölme) birebir bilmek zorunda.
+Biçim değişirse üretici ile sınavı **aynı dosyada, aynı commit'te** değişir; ikisi
+birbirinden bayatlayamaz. `denetle_yayin.py` sınavı yalnız çağırır ve çıkış koduna
+bakar (0 temiz / 1 ihlal). Çağrı satırını dosyanın sahibi yazar. Sınav ~1 dk sürer ve
+~2 GB bellek kullanır; hiçbir dosyaya yazmaz.
+
+| şart | ne sorar |
+|---|---|
+| S1 TAMLIK | app.js'in seçtiği dilim, o gün aktif her kaydın her halkasını taşıyor mu? `gunIdx` (Date.UTC huyları dahil: 0–99 yılı, gün taşması), `aktifAralik` ve `geoDilimNo` app.js'in AYNISI |
+| S1-NEG | aynı sınav dilim seçimi 1 gün kaydırılarak koşar ve **eksik BULMALIDIR**; bulamazsa sınav kördür ve kapı KALIR |
+| S2 AYNILIK | dilimdeki her halka asıl havuzdakine eşit mi, asıl havuzun her halkası en az bir dilimde mi? |
+| S3 ÇATAL | `_web` dosyaları asıl dosyalarla, havuz satırı ve `GEO_DILIMLER` dışında **satır satır** aynı mı, `_web` havuzu gerçekten boş mu? |
+| S4 DOSYA | tablodaki her dilim diskte mi, bayt boyu tabloyla tutuyor mu? (bayat dilimi yakalar) |
+
+**Temiz çıktıda:** S3 17/17 + 7/7 satır, 0 fark · S4 24/24 dilim · S2 224.706 halka,
+0 fark, kapsanmayan halka 0 · S1 3.782 gün, 858.270 kayıt-gün, 0 eksik · S1-NEG 2.894
+eksik. **Python'daki gün taklidi JS sınavıyla aynı üç sayıyı verdi** (3.782 · 858.270 ·
+2.894); yani iki ayrı çalışma zamanı aynı hükme vardı.
+
+**Kapının kendi sınavı** (`denetim/ARAC-YUK-KAPI-SINAV-0925.py`): **5/5**.
+
+| durum | beklenen | kapı |
+|---|---|---|
+| T0 temiz | 0 | 0 ✓ |
+| T1 çatal: `_web` DONEMLER'de bir tarih +1 yıl | 1 | 1 ✓ (S3) |
+| T2 bir dilimde 1 rakam değişti, bayt boyu aynı | 1 | 1 ✓ (S2) |
+| T3 bir dilim dosyası silindi | 1 | 1 ✓ (S4) |
+| T0' geri yazıldıktan sonra | 0 | 0 ✓ |
