@@ -159531,5 +159531,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5184",
+  "zaman": "2026-09-25 11:05",
+  "kimden": "MOTOR-LEGO-0925",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 (M-5178 ⑥ karo tasarımı) — rapor denetim/MOTOR-LEGO-0925-karo.md · commit a973f003 (4 dosya, adıyla). Kod YAZILMADI, yama YOK. Bekçi açık (koşu 15 → kutu sınavı). ① ÖLÇTÜM (motor koşturulmadan; gövde adımları uret_petek.py'den AST ile BİREBİR çekildi, gerçek geometri: koşu 6 petek_govde.js + motor_kara + koşu 6 girdisi) - SORU \"gövde karo karo hesaplanıp birleştirilebilir mi\" → HAYIR, TASARIM BURADA BİTER: B1 delik (halka globaldir), B2 enklav (\"ana\" = dünyadaki en büyük parça, :3078), B3 koridor (bileşen ölçekli) yerel değil; P poligonu karo birleşiminde geometri aynı ama WKB 0/12. Parça düzeyi de B2 yüzünden tutmaz. - AMA ADIM ÖLÇÜMÜ ASIL DARBOĞAZI BULDU (20 gövde, ¦aktif¦ ağırlıklı, 426 sn): P puan bölgesi %70,5 · B3 %13,9 · KR ∩KARA %8,9 · K kapama %4,7 · U %1,2 · B1+B2 %0,8. Global adımlar ucuz, pahalı olan YEREL kısım. - Puanın içi (12 gövde; kopya motorla WKB 12/12 aynı ⇒ ölçüm geçerli): ızgara puanı %96, poligonlaştırma %4. Sebep: motor HER noktayı devletin BÜTÜN penceresinde hesaplıyor (İngiltere 1909: 5508×2433 hücre × 279 nokta), oysa nokta ≤400 km dışına 0 puan verir. - KARO SINAVI (10° karo + 400 km hale, her karo yalnız hale içindeki noktalarla): maske 12/12 BİT BİT AYNI, 431 sn → 5,7 sn (~75×). Maske aynı ⇒ bugünkü global poligonlaştırma çıktıyı bit bit korur. Ters yön gerekçesi raporda (hale dışı nokta her hücreye 0 verirdi; int16 toplam sıra bağımsız). - KAZANÇ (kaba): gövde süresi %100 → ~%33 ⇒ yabancı gövde aşaması ~13,5 s → ~4,5 s, koşu ~8-10 s. ÖNBELLEK İSTEMEZ, soğuk koşuya da yarar, koşu 15'in sıralı yoluna da (:6715) uygulanabilir. - Yalnız-üye anahtar vekili (puan katmanı olsaydı): NOKTA %67,5 → %94,1 · gerçek 6→15 %4,6 → %16,5. Ama ayıklamadan sonra puan ~%3'e düşer ⇒ ayrı puan katmanı önerilmedi. - Karo maliyeti: ayıklama sqlite'a hiç dokunmaz. Gövde karo önbelleği (reddedildi) ~10⁵-10⁶ kayıt/koşu, ölçülmedi. - YUK-BOLME M-5181 (%76 tek seferlik halka): ÇIKTI boyutu sorunu; ayıklama çıktıya dokunmaz ⇒ ne çözer ne bozar. Ayrı işler. ② BULAMADIM/ÖLÇMEDİM: önerdiğim \"nokta başına alt pencere\" biçimi (parametresiz, karonun en ince hâli) ölçülmedi; ölçülen 10° karo · örnekler küçük (20 / 12 gövde) · Osmanlı gövdesi adım payları ölçülmedi (puan orada çağrılmıyor) · taban petekler zamansız (epok devri yok). ③ İSTİYORUM / ÖNERİYORUM a) SIRA önerim: puan ızgarası ayıklaması (kesin, önbelleksiz, en büyük tek kazanç) → K1+K2 → gövde önbelleği kalan ~%30 için. B3 (~%42'ye çıkacak) ayrı ölçüm işi. b) Ayıklamanın yamasını hazırlamamı istersen: nokta başına alt pencere + sınav (maske eşitliği + süre, aynı aletle, geniş örnek). Emrin olmadan yazmıyorum. c) Kutu sınavı koşu 15 bitince — değişmedi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
