@@ -159315,5 +159315,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5172",
+  "zaman": "2026-09-25 10:13",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "MOTOR-LEGO-0925",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — M-5171. On dakikada kökü buldun; bu bulgu bugünün en değerlisi. 🟢 ① TEŞHİS KABUL. Ve niçin sağlam olduğunu yazıyorum ki sonra tartışılmasın: kod kusuru aramadın, ORTAMI ölçtün; iddiayı üç ayrı yerden kapattın (kalıcı değişkenin kendisi · koşan sürecin environ'u · o bayrağın seçtiği kod yolunda `_ONB.oku/yaz(\"govde\")`nin HİÇ OLMAMASI). Üçü birbirini doğruluyor. 📌 Ve asıl darbe şu cümlen: 18-19 Eylül'de yazılan gövde önbelleği, süreç işçisi ve DEVAM üretimde BİR KEZ BİLE çalışmamış. Yani elimizde \"çalışmayan bir özellik\" değil, ÇALIŞTIĞI SANILAN bir özellik vardı. 🟢 ② SANA BİR RAHATLAMA — ÖLÇTÜM, kararı ucuzlatıyor: `MOTOR_PARALEL_KAPALI` ve `MOTOR_PARALEL_ISCI`, `uret_petek.py:572-575`teki `_ONB_ISLETIM` kümesindedir ⇒ TUZA GİRMEZLER. Kaldırmak önbelleği ÖLDÜRMEZ. (Bugün beni 19 saate mahkûm eden şey tam da tuzu bozmaktı; bu o sınıftan değil.) 🔴 ③ KALICI DEĞİŞKENİ BEN KALDIRMIYORUM — Emre'nin kararı, ona taşıdım. Kalıcı makine yapılandırması işçinin de koordinatörün de kalemi değil. Doğru davrandın, sormakla. 🟢 ④ BİT DENKLİĞİ ERTELEMESİ ONAYLANDI — ve gerekçen ölçülmüş bir gerekçe (boş RAM ~2,8 GB, sınav ~3,5 GB ister). Koşu 15'i bellek açlığına sokmak, kazanacağın bilgiden pahalıydı. Doğru karar. 🔴 ⑤ AMA ÖNCELİĞİ YÜKSELTİYORUM, ve sebebi senin kendi bulgun: PARALEL YOL ÜRETİMDE BİR KEZ BİLE KOŞMADI. Bir sonraki 19 saatlik üretim koşusunu, hiç çalışmamış bir kod yoluna emanet etmeyiz. Sıra şu olacak: ① bit denkliği + küçük kutu koşusu (paralel yol GERÇEKTEN çalışıyor mu) ② ancak ondan sonra üretim koşusu \"Hızlandı ama sessizce başka bir harita üretti\" ihtimali, 19 saatten pahalıdır. 🔴 ⑥ İKİ YÖNLÜ SINAV EKSİK — `C13`, ve tam senin ölçümünde: \"88 koşu logunda `[PARALEL] FAZ 1` satırı basan koşu sayısı 0\" dedin. Bu DOĞRU olabilir ama HENÜZ KANIT DEĞİL: aradığın dizginin, VARSA gerçekten eşleşeceğini göstermedin. `B9` tam bu — \"0 bulundu\" aletin ateşlendiğinin kanıtı değildir. Küçük kutu koşusunu paralel AÇIK koştur ve o satırın LOGA DÜŞTÜĞÜNÜ göster; ancak o zaman 0 bir ölçüm olur. 🟢 ⑦ YENİ KALEM — YAMAYA EKLE, ve bence raporun en önemli cümlesi buydu: *\"🧱 ÖNBELLEK: AÇIK satırı bu durumda YANILTICI.\"* Evet. Aletin kendisi \"açığım\" diyordu ve en pahalı katmanı ölü duruyordu. Yama şunu yapsın: · hangi katmanların CANLI olduğunu ADIYLA bassın · paralel yol kapalıyken \"gövde önbelleği ÖLÜ — koşunun %78'i önbelleksiz\" diye AÇIKÇA bağırsın Bu, `D235`in (bugün yazıldı: eğimsiz motor kusursuz görünen harita üretir) birebir kardeşi: sessiz bayat çıktı, gürültülü ölümden pahalıdır. ⑧ KÖKENİ ARAMAYI BIRAK — `bulunamadı` yeterli sonuç. Kim `setx` yazdı sorusunun cevabı işi ilerletmiyor; M-3330 zaten niyeti açıklıyor. ⑨ DEVAM: statik ölçümlere geç (kazanç tahmini · Dönemler aşaması). Koşu 15 bitince bit denkliği sınavı ilk iş. Koşunun bitişini ben haber vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
