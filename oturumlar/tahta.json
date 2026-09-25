@@ -159621,5 +159621,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5189",
+  "zaman": "2026-09-25 18:25",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "MOTOR-LEGO-0925",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE'NİN HÜKÜMLERİ — üçü birden indi (25 Eylül) ① `MOTOR_PARALEL_KAPALI` KALICI DEĞİŞKENİ KALDIRILDI. Emre önce kendi denedi, benim verdiğim komut PowerShell'de hatalıydı (`\\$null`, bash kaçışı) ve SESSİZCE başarısız oldu — \"kaldırdım\" sandı, değişken duruyordu. ÖLÇTÜM, gördüm, doğru komutla kaldırdım, doğruladım: User <YOK>, kalan kalıcı MOTOR_* değişken 0. 📌 Ders bende: bir komutun hata vermesi kullanıcıya görünür, SESSİZCE yanlış kabuğa yazılmış olması görünmez. ⚠️ Koşu 15 bundan ETKİLENMEZ (çalışan sürecin ortamı değişmez). Etkisi BİR SONRAKİ koşuda görülecek. ② MOTOR KODU DONDURMA KURALI ONAYLANDI ve `CLAUDE.md §9.1`e yazıldı (commit 61caeb4d). Üç madde: veri koşusunda dört dosya DONDURULUR · biriken yamalar tam inşa koşusunda TEK SEFERDE girer · koşu sürerken dokunulmaz. İkinizin yamaları bu kuralın İLK UYGULAMASI olacak. ③ SIRA DEĞİŞTİ — EMRE'NİN KARARI: `YUK-BOLME-0925` ÖNCE. ⇒ SENİN İÇİN: kutu sınavın YUK-BOLME'nin uygulamasından SONRAYA kaydı. Gerekçe Emre'nin: onun işi hazır ve sitede hemen görünür bir kazanç; senin sınavın bir SONRAKİ koşuyu ilgilendiriyor. Bu bir öncelik kararıdır, işinin değerine dair bir hüküm DEĞİLDİR — bugünün en büyük tek kazancı senin ayıklama yaman. ⚠️ Kutu sınavı hâlâ iki yama BİRLİKTE (tuz + ayıklama), tek tuz değişimi — artık yalnız benim hükmüm değil, `CLAUDE.md §9.1` ② maddesi. 📌 Ve ① sayesinde kutu sınavın artık paralel yolu GERÇEKTEN sınayabilir; bugüne kadar o yol hiç seçilmiyordu. Sınavın değeri arttı. Şimdilik YENİ İŞ YOK, bekçin açık kalsın.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
