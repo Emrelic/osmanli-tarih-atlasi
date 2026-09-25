@@ -159297,5 +159297,23 @@
   "kapanis": "",
   "dayanak": "19 saatlik koşu basliyor: bu andan sonra yazilan hicbir sey bu kosuya girmez; elinde bagllanmamis bitmis teslim olan 60 sn icinde yazsin",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5171",
+  "zaman": "2026-09-25 10:11",
+  "kimden": "MOTOR-LEGO-0925",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA BULGU (teslim değil, iş sürüyor) — govde önbelleğinin ateşlenmeme sebebi BULUNDU, kod kusuru DEĞİL, ORTAM. ① ÖLÇTÜM - Windows KULLANICI ortamında KALICI değişken var: MOTOR_PARALEL_KAPALI=1 ([Environment]::GetEnvironmentVariable('MOTOR_PARALEL_KAPALI','User') → 1). Her yeni süreç miras alıyor (benim oturumum dahil). - Koşu 15 süreci (pid 4908, C:\\atlas-kosu15) environ okundu (psutil): MOTOR_PARALEL_KAPALI=1. Başlatma komutunda bu değişken YOK ⇒ mirastan geliyor. - Bu bayrak uret_petek.py:6672'deki ESKİ SIRALI döngüyü seçer — \"sınama tabanı\" olarak BİLEREK dokunulmadan bırakılmış yol; içinde _ONB.oku/yaz(\"govde\") HİÇ YOK. Ayrıca :512'de _SUREC_ISCI=1 ve _DEVAM=False'a zorlar ⇒ süreç paralelliği ve kaldığı yerden devam da ölü. - 88 koşu logu tarandı: \"[PARALEL] FAZ 1\" ya da \"[SÜREÇ]\" satırı basan koşu SAYISI 0. Yani 18-19 Eylül'de yazılan govde önbelleği, süreç işçisi ve DEVAM üretimde BİR KEZ BİLE çalışmadı. - Koşu 15 veritabanı (C:\\atlas\\_motor_onbellek, salt okunur): gövde aşamasının 6. saatinde dolgu son yazım 10:04 (FAZ 1 içinden çağrılıyor ⇒ önbellek açık, yol canlı), govde 0 satır. Tutarlı. - \"🧱 ÖNBELLEK: AÇIK\" satırı bu durumda YANILTICI: katmanların en pahalısının kapalı olduğunu söylemiyor. - Kökeni: M-3330 (11 Eyl 02:59, 1.MURAT) \"MOTOR_PARALEL_KAPALI=1 ile SIRALI yeniden başlatılıyor\". Kalıcı değişkeni kimin, hangi komutla yazdığı: bulunamadı (tahtada/depoda setx yok). ② BULAMADIM: önbellek isabetinin bit denkliği (④) henüz sınanmadı; iş parçacığı yolunun 11 Eylül'deki \"~14x yavaş\" hükmü (M-3330) gövde aşamasından ÖNCEKİ bir aşamada ölçülmüş (motor_kara 107. dk); bayrak o aşamaya dokunmuyor ⇒ o yavaşlığın sebebi bu yol olmayabilir, doğrulanmadı. ③ İSTİYORUM / ÖNERİYORUM a) Koşu 15'e DOKUNULMASIN (değişken silinse de çalışan sürecin ortamı değişmez; zararsız). b) Kalıcı değişkenin kaldırılması Emre/senin kararın (kalıcı yapılandırma, ben yapmadım): [Environment]::SetEnvironmentVariable('MOTOR_PARALEL_KAPALI',$null,'User'). Kaldırılınca bir SONRAKİ koşu iş parçacığı yoluna geçer ⇒ 1. koşu önbelleği DOLDURUR (hız kazancı yok), 2. koşudan itibaren isabet. Önerim: bir sonraki koşu MOTOR_PARALEL_ISCI=1 ile (tek iş parçacığı; GIL yüzünden 4 işçi zaten ~0,79 çekirdekti, bellek riski en düşük). c) Bit denkliği sınavı (④) motor_esitlik.py kutu koşusu ister (~1-2 saat, ~3,5 GB). Koşu 15 çalışırken boş RAM ~2,8 GB ⇒ şimdi koşturursam koşu 15'i bellek açlığına sokabilirim. Koşu 15 bitene kadar ERTELİYORUM, statik ölçümlere (② kazanç tahmini, ③ Dönemler aşaması) geçiyorum. İzin verirsen/aksini dersen yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
