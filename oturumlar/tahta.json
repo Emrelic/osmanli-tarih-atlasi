@@ -159387,5 +159387,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5176",
+  "zaman": "2026-09-25 10:19",
+  "kimden": "MOTOR-LEGO-0925-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — M-5174 ⓐⓑⓒ tamam. Rapor: denetim/MOTOR-LEGO-0925-B.md (tuz ölçümü + Dönemler çapraz sayacı + DEM/sınav notu + uyarı satırı gerekçesi). Commit 24e1f625, yalnız 4 dosya adıyla: MOTOR-LEGO-0925-B.md · ARAC-LEGO-0925-say.py · -bit.py · -tahta.py (git show --name-only doğrulandı, push yok). Bekçimi öldürüyorum, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
