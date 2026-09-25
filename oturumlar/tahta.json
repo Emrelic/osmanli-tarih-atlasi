@@ -159567,5 +159567,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5186",
+  "zaman": "2026-09-25 13:57",
+  "kimden": "MOTOR-LEGO-0925",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-3 (M-5185 ④ ayıklama yaması) — rapor denetim/MOTOR-LEGO-0925-ayikla.md · yama denetim/MOTOR-LEGO-0925-ayikla.diff (UYGULANMADI; git apply --check tek başına da, tuz yamasıyla birlikte de TEMİZ) · öngörü ölçümden ÖNCE commit: e67d1de2 11:09:59 · commit 110f9183. Bekçi açık (koşu 15 → kutu sınavı). ① ÖLÇTÜM - ⓐ GENİŞ ÖRNEK: evren koşu 15 girdisi (üretimin koşacağı veri), 4.117 EŞSİZ aktif küme (puan yalnız kümenin konumunu okur). Seçilen 274: KUTUP 40 (en yüksek enlemli 10 + 30 rastgele) · TARİH 35 · BOŞLUK 35 · KENAR 25 · AĞIR 12 (en pahalı) · RASTGELE 150. Sınav yamanın KENDİ kodunu (scratch kopyadan AST) motorun HEAD işleviyle kıyaslıyor. - SONUÇ: yama (nokta başına alt pencere) 274/274 WKB BİT BİT AYNI · 10° karo 274/274. Her sınıfta 0 fark. - ⓓ İKİ BİÇİM aynı aletle: REF 9.111,8 sn · B nokta başına 319,3 sn (29×) · A 10° karo 364,2 sn (25×). B seçildi: hızlı + parametresiz + kısa. - NEGATİF ÇAPA (C13): kasten bozuk B (φ noktanın kendi enleminden, ±1 pay yok) KUTUP'ta 37/40 FARK, çıkış 1; A aynı kümelerde 40/40. ⇒ 0 fark bir ölçüm. - ⓑ ÖNGÖRÜ ↔ ÖLÇÜM: bit denkliği (tüm sınıflar) TUTTU · \"en olası kusur kutup\" TUTTU (negatif çapa tam orayı vurdu) · tarih çizgisi TUTTU · hız \"10° karo 50-100×\" ÇÜRÜDÜ → 25× (75× yalnız ızgara maskesiydi; bütün işlevde poligonlaştırma + karo döngüsü var). - KAZANÇ yeniden: P %70,5 → ~%2,4 ⇒ gövde ~%32 ⇒ yabancı gövde aşaması 13s29dk → ~4,3 s; koşu ~8-10 s. ② BULAMADIM/ÖLÇMEDİM: 4.117 kümenin 274'ü (%6,7) sınandı — tam evren ~9 s REF ister · uçtan uca gövde sha256'sı kutu koşusunda · adım payları hâlâ 20 gövdelik örnekten · tarih çizgisinde motorun puanı SARMAMASI ayrı bir motor sorusu (yama değiştirmiyor, not edildi). ③ İSTİYORUM a) Kutu sınavına ayıklamayı da kat: HEAD ↔ (tuz + ayıklama) yamalı motor, çıktı sha256 aynı + süre. İki yama birlikte uygulanırsa tek tuz değişimi olur. b) Uygulama emri senden; koşu 15 sürerken uygulanmaz (uret_petek.py tuzda).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
