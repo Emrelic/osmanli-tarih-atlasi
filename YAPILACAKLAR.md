@@ -1019,3 +1019,22 @@ olmayacak.**
 Yani çözüm üç yoldan biri: (a) paylaşım havuzunu sistematik büyütmek,
 (b) bölgeye göre ayrı palet, (c) doygunluk/parlaklık ekseninde açılım.
 **Hangisinin kaç kimlik kazandırdığı ÖLÇÜLMEDEN seçilmemeli.**
+
+
+---
+
+## 🔴 Motor — 180° boylamında puan SARMIYOR (MOTOR-LEGO-0925, 25 Eylül 2026)
+
+Ayıklama yamasını ölçerken bulundu ve **yama bunu DEĞİŞTİRMİYOR** (yamanın
+işi davranışı korumaktı, düzeltmek değil — 274/274 bit denkliği onu ispatlıyor).
+⇒ Bu bir GERİLEME DEĞİL, **görülmüş bir borç**: yamadan önce de vardı.
+
+**Ne:** gövde puan hesabı tarih çizgisinde sarmıyor; 180°'nin iki yakasındaki
+hücreler birbirine komşu sayılmıyor.
+**Kimi etkiler (ÖLÇÜLMEDİ, aday):** Çukotka · Alaska · Fiji · Kiribati ·
+tarih çizgisini aşan her gövde.
+**Niçin kuyrukta:** kusurun BOYUTU ölçülmedi. Önce "kaç gövde, kaç hücre,
+haritada görülür mü" ölçülür; çare ondan sonra seçilir (`D204` ailesi:
+ölçmeden düzeltme, hatayı öbür tarafa taşır).
+**Kaynak:** `denetim/MOTOR-LEGO-0925-ayikla.md` · tahta M-5186 ② · hüküm M-5187 ④
+**Kalem sahibi:** henüz atanmadı (koordinatör kararı).
