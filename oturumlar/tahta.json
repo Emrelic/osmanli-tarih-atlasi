@@ -159405,5 +159405,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5177",
+  "zaman": "2026-09-25 10:33",
+  "kimden": "MOTOR-LEGO-0925",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-1 (statik kısım) — rapor denetim/MOTOR-LEGO-0925.md · yama denetim/MOTOR-LEGO-0925-yama.diff (UYGULANMADI, git apply --check TEMİZ) · commit 8717fe3a (9 dosya, adıyla). Bekçi AÇIK: koşu 15 bitince ④ bit denkliği + ⑥ kutu sınavı. ① ÖLÇTÜM - K1 (M-5171) + B9: önbellek ALETİ sağlam — geçici dosyada govde yaz/oku/ikinci bağlantı/bit denkliği/kapalı çapa 7/7 GEÇTİ (HEAD). Kusur alette değil, yolda. - K2 kök sebebi (M-5173 (a)'nın NİÇİN'i): AST ile gövde zinciri 30 işlev/91 ad, sb zinciri 9 işlev/25 ad — ikisi de BOYALAR/_HARITA_ALT/renk OKUMUYOR; okunan tek veri YERLER, o da anahtarda. Yani renkler.py + girdi.py tuzda yalnız fazladan bayatlık üretiyor. Tuz değiştiren 19 commit'in 12'si yalnız bu iki dosyada. Vaka: koşu 6 ile koşu 15'in uret_petek.py özeti AYNI (c90fa6c8), veritabanı AYNI dosya — tuz YALNIZ bu iki dosya yüzünden ayrıldı. \"Yorum/hex ayıkla\" çaresi 2/19 kazandırır, önerilmedi. - K3: iki önbellek dosyası — koşu 14 C:\\atlas-onbellek (kos_ve_yayinla), koşu 15 C:\\atlas\\_motor_onbellek (elle). - ② KAZANÇ (isabet vekili, motor koşturmadan, ÜST SINIR; sağlama %100 ✓), ağırlıkça isabet: · Emre ① 5 bölge×3 zamanda SAHİP değişir: ort %93,8 (91,8-95,0) ⇒ gövde aşaması ~13,5s → ~1s · Emre ② 5 bölgeye YENİ NOKTA: ort %67,5 (24,7-81,8) ⇒ ~4-5s · GERÇEK koşu 6→15 girdisi (+373 nokta): %4,6 ⇒ kazanç YOK Yapısal sınır: anahtarın çevresi gövdenin BÜTÜN kutusu±R; Rusya/İngiltere/Osmanlı kutusuna düşen tek nokta o devletin tüm dönemlerini bayatlatıyor (bir turda Osmanlı isabeti %11,8). Gerçek lego için sonraki adım anahtarı parça/karoya bölmek (tasarım işi). - ③ Dönemler: önbelleği var, sıralı yolda da ateşleniyor, onu öldüren yalnız K2. Kod önerilmedi; yamanın geometri tuzu osm+sb'yi zaten kapsıyor. - YAMA 3 kalem: (1) katmanlar ADIYLA \"CANLI … · ÖLÜ: govde\" + PARALEL_KAPALI=1'de 🔴🔴 uyarısı · (2) motor_onbellek.tuz_karsilastir(): meta tablosunda önceki koşunun tuz parçaları; açılışta \"tuz FARKLI (değişen: motor:renkler.py…) ⇒ isabet ALMAYACAK\" basar (5/5 sınandı) · (3) govde/osm/sb ayrı _ONB_GEO örneği (aynı dosya), tuzunda renkler.py+girdi.py YOK; 9 çağrı çevrildi, kalan 0. ② BULAMADIM: kalıcı değişkenin kaynağı · koşu 6 girdisinden yerlesimler_amerika.js sürümü (89'un 88'i bit bit kuruldu) · M-3330 \"14× yavaş\"ın gerçek sebebi (ölçülmedi; o aşamaya bayrak dokunmuyor). ④ bit denkliği ve ⑥ kutu sınavı YAPILMADI (RAM, onaylı erteleme). ③ İSTİYORUM a) Koşu 15 bitince haber — ilk iş kutu sınavı: paralel AÇIK + önbellekli iki koşu (2.'de govde isabeti >0 ve sha256 aynı) + önbelleksiz sıralı taban; yamalı motorla da (b). -B'nin ARAC-LEGO-0925-bit.py'sini devralırım. b) K1 (değişkeni kaldırmak) Emre'de; K3 tek yol kararı sende/Emre'de — önerim C:\\atlas-onbellek (kos_ve_yayinla zaten onu veriyor). c) Yama koşu 15 SÜRERKEN uygulanmaz (4 dosyadan ikisine dokunur ⇒ tuz değişir).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
