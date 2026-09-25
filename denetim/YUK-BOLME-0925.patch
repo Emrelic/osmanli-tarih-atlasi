@@ -1,0 +1,451 @@
+diff --git a/arac/geo_dilimle.py b/arac/geo_dilimle.py
+new file mode 100644
+index 00000000..dd2b7ea9
+--- /dev/null
++++ b/arac/geo_dilimle.py
+@@ -0,0 +1,188 @@
++# -*- coding: utf-8 -*-
++"""GEOMETRI HAVUZUNU ZAMANA GORE DILIMLE — YUK-BOLME-0925.
++
++uret_petek.py'den SONRA kosar (uret_devirler.py gibi); motora DOKUNMAZ.
++Girdi : data/donemler.js · data/devletler_harita.js (motorun yazdigi, havuzlu hali)
++        🔴 GIRDIYE YAZILMAZ: sekiz arac (denetle_bosluk, denetle_bitisiklik,
++        denetle_gorunurluk, uret_devirler, motor_esitlik, renk_cikti, dolgu,
++        denetle_yayin) havuzu BU dosyalardan okuyor; bosaltmak onlari kirar.
++Cikti : data/donemler_web.js · data/devletler_harita_web.js — ayni degiskenler,
++        havuz dizileri BOS (window.PARCALAR = [] …) + window.GEO_DILIMLER
++        + data/geo/gNN.json  (her dilimin halkalari, GLOBAL indeksleriyle)
++        index.html YALNIZ _web dosyalarini yukler.
++
++ESIT BAYT: dilim sinirlari kayit kenarlarina (f/t gunleri) oturur, dilimin
++boyu ham bayt hedefine gore acgozlu secilir; hedef, istenen dilim sayisini
++verecek sekilde ikili aranir.  Bir dilim, [f_i, f_{i+1}) araliginin HERHANGI
++bir gununu cizmeye yeten BUTUN halkalari tasir (kendi basina yeterli; ortak
++havuz YOK — olculdu: ORTAK kova acilisa 20 MB ham ekliyordu).
++
++Tekrar kosturmak guvenli: girdi okunur, yalniz _web + geo/ yeniden yazilir.
++Kullanim:  py arac/geo_dilimle.py [--k 24] [--kok <depo koku>]
++"""
++import argparse, gzip, json, os, re, sys, time
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++
++ap = argparse.ArgumentParser()
++ap.add_argument("--k", type=int, default=24)
++ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
++arg = ap.parse_args()
++KOK = arg.kok
++T0 = time.time()
++BAS_S, BITIS_S = "1281-01-01", "1923-10-29"
++
++
++def gun(s):
++    y, a, g = (s.split("-") + ["1", "1"])[:3]
++    return int(y) * 372 + (int(a or 1) - 1) * 31 + (int(g or 1) - 1)
++
++
++BAS, BITIS = gun(BAS_S), gun(BITIS_S)
++
++
++def satirlar(yol):
++    return open(yol, encoding="utf-8").read().split("\n")
++
++
++def degisken(sat, ad):
++    on = "window." + ad + " = "
++    for i, s in enumerate(sat):
++        if s.startswith(on):
++            g = s[len(on):].rstrip()
++            return i, (g[:-1] if g.endswith(";") else g)
++    raise SystemExit("YOK: window." + ad)
++
++
++def halkalara_bol(govde):
++    g = govde.strip()
++    if g == "[]":
++        raise SystemExit("HAVUZ BOS — dosya zaten dilimlenmis. Once uret_petek.py ciktisini geri getir.")
++    assert g.startswith("[[[") and g.endswith("]]]"), g[:30]
++    parca = g[1:-1].split("]],[[")
++    son = len(parca) - 1
++    return [("[[" if k else "") + p + ("]]" if k < son else "") for k, p in enumerate(parca)]
++
++
++yol_os = os.path.join(KOK, "data", "donemler.js")
++yol_yb = os.path.join(KOK, "data", "devletler_harita.js")
++S_OS, S_YB = satirlar(yol_os), satirlar(yol_yb)
++i_hos, g_hos = degisken(S_OS, "PARCALAR")
++i_hyb, g_hyb = degisken(S_YB, "DEVLET_PARCALAR")
++H_OS, H_YB = halkalara_bol(g_hos), halkalara_bol(g_hyb)
++PH_OS = json.loads(degisken(S_OS, "PARCA_HALKA")[1])
++PH_YB = json.loads(degisken(S_YB, "DEVLET_PARCA_HALKA")[1])
++DON = json.loads(degisken(S_OS, "DONEMLER")[1])
++DH = json.loads(degisken(S_YB, "DEVLET_HARITA")[1])
++# butunluk: PARCA_HALKA'nin gosterdigi en buyuk halka havuzda olmali
++assert max(max(x) for x in PH_OS if x) < len(H_OS), "PARCA_HALKA havuz disini gosteriyor"
++assert max(max(x) for x in PH_YB if x) < len(H_YB), "DEVLET_PARCA_HALKA havuz disini gosteriyor"
++print("okundu %.0f sn · halka: Osmanli %d · yabanci %d" % (time.time() - T0, len(H_OS), len(H_YB)))
++
++OFS = 10_000_000
++BOY = {}
++for i, h in enumerate(H_OS): BOY[i] = len(h.encode("utf-8"))
++for i, h in enumerate(H_YB): BOY[OFS + i] = len(h.encode("utf-8"))
++
++
++def coz(dizi, ph, ofs):
++    out = set()
++    for p in dizi or []:
++        if isinstance(p, int):
++            out.update(ofs + h for h in ph[p])
++    return out
++
++
++KAY = []                      # (f, t, kume) — pencereye kirpilmis
++TARIH_METNI = {BAS: BAS_S}
++for f_s, t_s, s in (
++        [(d["f"], d["t"], coz(d.get("o"), PH_OS, 0) | coz(d.get("v"), PH_OS, 0) |
++          set().union(*[coz(hb.get("g"), PH_OS, 0) for hb in (d.get("h") or [])]))
++         for d in DON] +
++        [(dn["f"], dn["t"], coz(dn.get("g"), PH_YB, OFS)) for dv in DH for dn in dv["dnm"]]):
++    f, t = gun(f_s), gun(t_s)
++    TARIH_METNI.setdefault(f, f_s)
++    f2 = max(f, BAS)
++    t2 = BITIS + 1 if t >= BITIS else t          # t==BITIS son gunu da kapsar (aktifAralik)
++    if f2 < t2 and s:
++        KAY.append((f2, t2, s))
++
++olay = sorted({BAS} | {f for f, t, s in KAY} | {t for f, t, s in KAY if t <= BITIS})
++basla, bit = {}, {}
++for f, t, s in KAY:
++    basla.setdefault(f, []).append(s); bit.setdefault(t, []).append(s)
++ref, EKLENEN, AKTIF = {}, [], []
++for x in olay:
++    for s in bit.get(x, []):
++        for k in s:
++            ref[k] -= 1
++            if not ref[k]: del ref[k]
++    ek = set()
++    for s in basla.get(x, []):
++        for k in s:
++            if k not in ref: ref[k] = 0; ek.add(k)
++            ref[k] += 1
++    EKLENEN.append(ek); AKTIF.append(set(ref))
++NJ = len(olay)
++
++
++def acgozlu(hedef):
++    dil, a = [], 0
++    s = set(AKTIF[0]); b = sum(BOY[k] for k in s)
++    for j in range(1, NJ):
++        yeni = [k for k in EKLENEN[j] if k not in s]
++        eb = sum(BOY[k] for k in yeni)
++        if b + eb > hedef:
++            dil.append(a); a = j
++            s = set(AKTIF[j]); b = sum(BOY[k] for k in s)
++        else:
++            s.update(yeni); b += eb
++    dil.append(a)
++    return dil                    # dilim baslangic temel-aralik indeksleri
++
++
++lo, hi, en = max(sum(BOY[k] for k in A) for A in AKTIF), sum(BOY.values()), None
++for _ in range(24):
++    orta = (lo + hi) // 2
++    d = acgozlu(orta)
++    if len(d) > arg.k: lo = orta
++    else: hi, en = orta, d
++BASLAR = en
++print("K=%d istendi -> %d dilim · hedef %.2f MB ham" % (arg.k, len(BASLAR), hi / 1048576))
++
++
++def yuk(kume):
++    o = sorted(k for k in kume if k < OFS)
++    y = sorted(k - OFS for k in kume if k >= OFS)
++    return ('{"o":{"i":' + json.dumps(o, separators=(",", ":")) + ',"r":[' + ",".join(H_OS[k] for k in o) +
++            ']},"y":{"i":' + json.dumps(y, separators=(",", ":")) + ',"r":[' + ",".join(H_YB[k] for k in y) + ']}}')
++
++
++geo_dir = os.path.join(KOK, "data", "geo")
++os.makedirs(geo_dir, exist_ok=True)
++for eski in os.listdir(geo_dir):
++    if re.match(r"g\d+\.json$", eski): os.remove(os.path.join(geo_dir, eski))
++tablo = []
++for n, a in enumerate(BASLAR):
++    b = BASLAR[n + 1] - 1 if n + 1 < len(BASLAR) else NJ - 1
++    kume = set(AKTIF[a])
++    for j in range(a + 1, b + 1): kume |= EKLENEN[j]
++    metin = yuk(kume)
++    ad = "g%02d.json" % (n + 1)
++    open(os.path.join(geo_dir, ad), "w", encoding="utf-8", newline="\n").write(metin)
++    ham = len(metin.encode("utf-8")); gz = len(gzip.compress(metin.encode("utf-8"), 6))
++    tablo.append({"f": TARIH_METNI[olay[a]], "dosya": "data/geo/" + ad, "halka": len(kume),
++                  "ham": ham, "gz": gz})
++    print("  %s  %s  %6d halka  ham %5.2f MB  gzip %4.2f MB" % (ad, TARIH_METNI[olay[a]], len(kume), ham / 1048576, gz / 1048576))
++
++GEO = {"surum": 1, "o_n": len(H_OS), "y_n": len(H_YB), "d": tablo}
++S_OS[i_hos] = "window.PARCALAR = [];   // 🔴 DILIMLENDI — halkalar data/geo/gNN.json'da (arac/geo_dilimle.py)"
++S_YB[i_hyb] = "window.DEVLET_PARCALAR = [];   // 🔴 DILIMLENDI — halkalar data/geo/gNN.json'da (arac/geo_dilimle.py)"
++S_OS.insert(i_hos + 1, "window.GEO_DILIMLER = " + json.dumps(GEO, ensure_ascii=False, separators=(",", ":")) + ";")
++web_os = os.path.join(KOK, "data", "donemler_web.js")
++web_yb = os.path.join(KOK, "data", "devletler_harita_web.js")
++BASLIK = "// 🔴 TARAYICI KOPYASI — arac/geo_dilimle.py uretti; motorun asli data/%s (araclar onu okur). ELLE DUZENLEME."
++open(web_os, "w", encoding="utf-8", newline="\n").write(BASLIK % "donemler.js" + "\n" + "\n".join(S_OS))
++open(web_yb, "w", encoding="utf-8", newline="\n").write(BASLIK % "devletler_harita.js" + "\n" + "\n".join(S_YB))
++print("yazildi: donemler_web.js %.2f MB · devletler_harita_web.js %.2f MB · %d dilim · toplam gzip %.2f MB · %.0f sn" % (
++    os.path.getsize(web_os) / 1048576, os.path.getsize(web_yb) / 1048576, len(tablo),
++    sum(x["gz"] for x in tablo) / 1048576, time.time() - T0))
+diff --git a/index.html b/index.html
+index d42ec7de..18be60ce 100644
+--- a/index.html
++++ b/index.html
+@@ -1350,9 +1350,13 @@
+ 
+ </script>
+ <script src="data/bolgeler.js?v=r10122"></script>
+-<script src="data/devletler_harita.js?v=r10122"></script>
++<!-- 🔴 YUK-BOLME-0925: geometri havuzları `data/geo/gNN.json` dilimlerinde, js/app.js
++     o günün dilimini `fetch` eder. Buradaki iki dosya motor çıktısının HAVUZSUZ
++     kopyasıdır (arac/geo_dilimle.py, uret_petek.py'den SONRA koşar). Asıl
++     data/donemler.js · data/devletler_harita.js araçlar içindir, tarayıcı yüklemez. -->
++<script src="data/devletler_harita_web.js?v=r10122"></script>
+ <script src="data/sehirler.js?v=r10122"></script>
+-<script src="data/donemler.js?v=r10122"></script>
++<script src="data/donemler_web.js?v=r10122"></script>
+ <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
+      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
+      404 verir; app.js `window.DOLGU || []` ile karşılar, atlas A
+diff --git a/js/app.js b/js/app.js
+index 27d574e1..3f0987cb 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -130,6 +130,10 @@ var PETEKLER = window.PETEKLER || [];
+ // TEK bir delik sessizce eski davranışa düşer ve bozuk geometri üretir, kimse
+ // fark etmez. "Boş alan yok, niçin boş var" kuralı burada: delik varsa GÜRÜLTÜ
+ // ÇIKAR (throw), sessizce yanlış çizme.
++// 🆕 YUK-BOLME-0925: havuz artık SEYREK olabilir (dilim inmeden halka yok).
++// Yüklenmemiş halkaya erişim `undefined` koordinat üretip SESSİZCE yanlış
++// çizerdi — o yüzden burada da GÜRÜLTÜ ÇIKAR (throw). Kapı doğru çalışıyorsa
++// (geoHazir) bu satır hiç tetiklenmez; tetiklenirse kapıda delik var demektir.
+ function parcaCoz(dizi, havuz, parcaHalka) {
+   if (!dizi) return null;
+   var yeniBicim = !!(parcaHalka && parcaHalka.length);
+@@ -139,12 +143,133 @@ function parcaCoz(dizi, havuz, parcaHalka) {
+              if (!yeniBicim) return havuz[p];              // eski veri: havuz zaten poligon
+              var ph = parcaHalka[p];
+              if (!ph) throw new Error("PARCA_HALKA deliği: " + p);
+-             return ph.map(function (h) { return havuz[h]; });
++             return ph.map(function (h) {
++               var r = havuz[h];
++               if (r === undefined) throw new Error("GEO DİLİMİ İNMEMİŞ — halka " + h + " yok (geoHazir kapısı delindi)");
++               return r;
++             });
+            }) };
+ }
++// Nesnenin `ad` alanını İLK OKUNDUĞUNDA kur ve sabitle. Dilimli havuzda
++// geometri ancak o günün dilimi inince çözülebilir; açılışta 590 + 3900
++// kaydın HEPSİNİ çözmek (eski davranış) hem imkânsız hem gereksiz.
++function tembelAlan(nesne, ad, kur) {
++  Object.defineProperty(nesne, ad, { configurable: true, enumerable: true,
++    get: function () {
++      var v = kur();                 // throw ederse ÖNBELLEĞE YAZILMAZ
++      Object.defineProperty(nesne, ad, { value: v, writable: true, configurable: true, enumerable: true });
++      return v;
++    },
++    set: function (v) {
++      Object.defineProperty(nesne, ad, { value: v, writable: true, configurable: true, enumerable: true });
++    } });
++}
+ var PARCALAR = window.PARCALAR || [];
+ var PARCA_HALKA = window.PARCA_HALKA || [];
+ 
++// ═══════════════════════════════════════════════════════════════════════════
++// 🆕 GEOMETRİ DİLİMLERİ — YUK-BOLME-0925 (25 Eylül 2026)
++// ═══════════════════════════════════════════════════════════════════════════
++// ÖLÇÜLDÜ (`denetim/YUK-BOLME-0925.md`): iki havuz (PARCALAR + DEVLET_PARCALAR)
++// 127,3 MB ham / 34,7 MB gzip; TEK bir günü çizmek için gereken 1,3–2,2 MB ham.
++// `arac/geo_dilimle.py` havuzu EŞİT BAYTLI zaman dilimlerine böler; her dilim
++// kendi aralığının HER gününü çizmeye yeter (ortak havuz yok). Halkalar GLOBAL
++// indeksleriyle gelir ve seyrek havuza yerleşir ⇒ PARCA_HALKA / dnm.g / d.o
++// çözümü DEĞİŞMEDİ.
++// 🔴 DOĞRULUK KURALI (şartname ④, "yanlış harita, yavaş haritadan kötüdür"):
++// dilimi inmemiş bir güne GEÇİLMEZ. `tarihAyarla` o günü BEKLETİR; harita ve
++// başlık ÖNCEKİ (doğru, birbirini tutan) günde kalır, rozet "iniyor" der;
++// dilim inince EN SON istenen güne geçilir (aradaki istekler düşer).
++// `window.GEO_DILIMLER` yoksa (dilimlenmemiş eski üretim) hepsi etkisizdir.
++var GEO = window.GEO_DILIMLER || null;
++var GEO_SINIR = GEO ? GEO.d.map(function (x) { return gunIdx(x.f); }) : [];
++var GEO_DURUM = [];          // i -> undefined | "iniyor" | "hazir"
++var GEO_SOZ = [];            // i -> Promise (inerken)
++var geoBekleyen = null;      // inmesi beklenen EN SON istenen gün
++var geoSonT = null, geoYon = 1;
++// 🔴 denetim/ARAC-YUK-SINAV-0925.js bu fonksiyonun AYNISINI sınar — değişirse orayı da değiştir.
++function geoDilimNo(t) {
++  var i = 0;
++  while (i + 1 < GEO_SINIR.length && GEO_SINIR[i + 1] <= t) i++;
++  return i;
++}
++function geoHazir(t) { return !GEO || GEO_DURUM[geoDilimNo(t)] === "hazir"; }
++function geoSurum() {
++  var s = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
++  return (s.match(/v=(r\d+)/) || [])[1] || "";
++}
++function geoIste(i) {
++  if (!GEO || i < 0 || i >= GEO.d.length) return Promise.resolve();
++  if (GEO_DURUM[i] === "hazir") return Promise.resolve();
++  if (GEO_SOZ[i]) return GEO_SOZ[i];
++  GEO_DURUM[i] = "iniyor";
++  var v = geoSurum();
++  GEO_SOZ[i] = fetch(GEO.d[i].dosya + (v ? "?v=" + v : ""))
++    .then(function (r) {
++      if (!r.ok) throw new Error("HTTP " + r.status + " " + GEO.d[i].dosya);
++      return r.json();
++    })
++    .then(function (j) {
++      var k;
++      for (k = 0; k < j.o.i.length; k++) PARCALAR[j.o.i[k]] = j.o.r[k];
++      for (k = 0; k < j.y.i.length; k++) DEVLET_PARCALAR[j.y.i[k]] = j.y.r[k];
++      GEO_DURUM[i] = "hazir"; GEO_SOZ[i] = null;
++    })
++    .catch(function (e) {
++      // Yarım kalan dilim "hazir" SAYILMAZ; bir sonraki istek yeniden dener.
++      GEO_DURUM[i] = undefined; GEO_SOZ[i] = null;
++      console.error("🔴 GEO dilimi inmedi:", e);
++      throw e;
++    });
++  return GEO_SOZ[i];
++}
++function geoRozet(durum, t) {
++  var el = document.getElementById("geo-rozet");
++  if (!el) {
++    el = document.createElement("div");
++    el.id = "geo-rozet";
++    el.style.cssText = "position:fixed;z-index:50;left:50%;bottom:84px;transform:translateX(-50%);" +
++      "padding:4px 10px;border-radius:12px;font:12px/1.4 system-ui,sans-serif;" +
++      "background:rgba(30,30,30,.82);color:#fff;pointer-events:none;display:none";
++    document.body.appendChild(el);
++  }
++  if (!durum) { el.style.display = "none"; return; }
++  var y = idxTarih(t).y;
++  el.textContent = durum === "hata"
++    ? "⚠️ " + y + " haritası indirilemedi — yeniden denemek için zamanı oynatın"
++    : "⏳ " + y + " haritası iniyor… (ekrandaki harita: " + idxYazi(suanki) + ")";
++  el.style.display = "block";
++}
++function geoBekle(t) {
++  geoBekleyen = t;
++  geoRozet("iniyor", t);
++  geoIste(geoDilimNo(t)).then(function () {
++    if (geoBekleyen !== t) return;          // arada başka gün istendi; o kendi bekler
++    geoBekleyen = null; geoRozet(false);
++    tarihAyarla(t);
++  }, function () { if (geoBekleyen === t) geoRozet("hata", t); });
++}
++// Önden çekme: hareket yönündeki komşu dilim, mevcut dilimin son çeyreğine
++// girilince istenir. Açılışta (hareket yok) ileri yön varsayılır — kullanıcı
++// 1281'den ileri gider.
++function geoOnden(t) {
++  if (!GEO) return;
++  if (geoSonT !== null && t !== geoSonT) geoYon = t > geoSonT ? 1 : -1;
++  var ilk = geoSonT === null;
++  geoSonT = t;
++  var i = geoDilimNo(t);
++  var bas = GEO_SINIR[i], son = i + 1 < GEO_SINIR.length ? GEO_SINIR[i + 1] : BITIS;
++  var oran = (t - bas) / Math.max(1, son - bas);
++  var hedef = -1;
++  if (geoYon > 0 && (ilk || oran >= 0.75)) hedef = i + 1;
++  else if (geoYon < 0 && oran <= 0.25) hedef = i - 1;
++  if (hedef >= 0 && hedef < GEO.d.length && GEO_DURUM[hedef] === undefined) {
++    setTimeout(function () { geoIste(hedef).catch(function () {}); }, ilk ? 1500 : 0);
++  }
++}
++// Açılış günü dilimi HEMEN istenir — harita stili/döşemeleriyle paralel insin.
++if (GEO) geoIste(geoDilimNo(BASLANGIC)).catch(function () {});
++
+ // ⚠️ SERBEST KENAR — gövdenin SAHİPSİZ alanla komşu olduğu sınır parçaları.
+ // (hatalar 15 md.17-19 tartışmasından; Oturum 16 üretiyor, sözleşme: hat havuzu
+ // window.SERBEST + dönem kaydında "sb" indeks dizisi, PARCALAR/"o" ile aynı desen.)
+@@ -330,10 +455,20 @@ function hatCoz(dizi) {
+ })();
+ 
+ var donemler = window.DONEMLER.map(function (d) {
++  var kayit = _donemKur(d);
++  // YUK-BOLME-0925: geometri TEMBEL — ilk okunduğunda (o günün dilimi inmişken) çözülür.
++  tembelAlan(kayit, "o", function () { return parcaCoz(d.o, PARCALAR, PARCA_HALKA); });
++  tembelAlan(kayit, "v", function () { return parcaCoz(d.v, PARCALAR, PARCA_HALKA); });
++  tembelAlan(kayit, "h", function () {
++    return (d.h || []).map(function (hb) {
++      return { g: parcaCoz(hb.g, PARCALAR, PARCA_HALKA), renk: hb.renk || null };
++    });
++  });
++  return kayit;
++});
++function _donemKur(d) {
+   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
+            av: d.av || 0, e: d.e || [], c: d.c || [],
+-           o: parcaCoz(d.o, PARCALAR, PARCA_HALKA),
+-           v: parcaCoz(d.v, PARCALAR, PARCA_HALKA),
+            // 🆕 TÂBİ ETİKET ÇAPALARI (`vl`) — VASSAL-GORUNUM-0907, 7 Eylül 2026.
+            // ŞEMA `arac/uret_petek.py:4802-4849`dan OKUNDU, hatırlanmadı
+            // (`§11`: kayıt biçimini hatırlamaya çalışmak bu projede yedi kez
+@@ -352,16 +487,14 @@ var donemler = window.DONEMLER.map(function (d) {
+            // app.js ölür — site bomboş açılır. Bu proje bir kez `duygu:"notr"`
+            // yüzünden tam bunu yaşadı ve `denetle.py` TEMİZ diyordu.
+            vl: d.vl || [],
+-           h: (d.h || []).map(function (hb) {
+-             return { g: parcaCoz(hb.g, PARCALAR, PARCA_HALKA), renk: hb.renk || null };
+-           }),
++           // `o`, `v`, `h` yukarıda TEMBEL alan olarak kuruluyor (YUK-BOLME-0925).
+            // "sb" boşsa hiç yazılmıyor (çoğu dönemde çölle sınırdaşlık yok),
+            // yani d.sb undefined olabilir — hatCoz bunu null'a çeviriyor.
+            sb: hatCoz(d.sb),
+            // ⚠️ `z` (şehzade payları) TAŞINMIYOR: donemler.js'in 462
+            // döneminin hiçbirinde yok (0/462) ve tüketicisi kaldırıldı.
+            _sonKapan: 1 };
+-});
++}
+ 
+ // Bütün dönemlerin en büyük Osmanlı alanı — lejanttaki "zirvenin %N'i" için.
+ // Bir kez, açılışta: 462 kayıt, çalışma anında yeniden taranmıyor.
+@@ -430,8 +563,12 @@ var DEVLET_PARCA_HALKA = window.DEVLET_PARCA_HALKA || [];
+ devletler2.forEach(function (s) {
+   s.dnm.forEach(function (p) {
+     p.fi = gunIdx(p.f); p.ti = gunIdx(p.t);
+-    p.ft = { type: "Feature", properties: { renk: s.renk },
+-             geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
++    // YUK-BOLME-0925: TEMBEL — `p.ft` yalnız o dönem aktifken okunuyor
++    // (devletGuncelle · devletiYay · d_katman), o an dilimi inmiş oluyor.
++    tembelAlan(p, "ft", function () {
++      return { type: "Feature", properties: { renk: s.renk },
++               geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
++    });
+   });
+ });
+ 
+@@ -8522,6 +8659,9 @@ function alanYazi(km2) {
+ }
+ 
+ function guncelle() {
++  // YUK-BOLME-0925: `suanki` yalnız tarihAyarla'dan değişir ve o kapıdan geçer;
++  // buraya dilimi inmemiş günle yalnız AÇILIŞTA gelinir (suanki = BASLANGIC).
++  if (!geoHazir(suanki)) { geoBekle(suanki); return; }
+   if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
+   if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
+   var di = donemBul(suanki);
+@@ -8798,7 +8938,18 @@ function obTazele() {
+ }
+ 
+ function tarihAyarla(t) {
+-  suanki = Math.max(BASLANGIC, Math.min(BITIS, t));
++  t = Math.max(BASLANGIC, Math.min(BITIS, t));
++  // 🔴 YUK-BOLME-0925 KAPISI: o günün geometri dilimi inmediyse GÜNE GEÇME.
++  // `suanki` (harita + başlık + kronoloji) önceki doğru günde kalır; çubuk
++  // kullanıcının bıraktığı yerde durur, rozet bekleyişi söyler.
++  if (!geoHazir(t)) {
++    if (!_kirpmaKilitli) kaydirici.value = t;
++    geoBekle(t);
++    return;
++  }
++  geoBekleyen = null; geoRozet(false);
++  geoOnden(t);
++  suanki = t;
+   // 🔴 Kırpma sırasında ZAMAN ÇUBUĞU da oynamaz. Kullanıcı bir gün geri
+   // gitmedi — harita geçici olarak önceki hâli gösteriyor. Çubuğun
+   // titremesi, olmayan bir zaman yolculuğunu varmış gibi gösterirdi.
