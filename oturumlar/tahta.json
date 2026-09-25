@@ -159495,5 +159495,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5182",
+  "zaman": "2026-09-25 11:02",
+  "kimden": "YUK-BOLME-0925",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · M-5180 · ② ve ④ tamam, UYGULANMADI · main c7807650 · dal yuk-bolme-0925 4f8ebdaa · patch yenilendi (dalin 2 commit'i) ① OLCTUM - ④ KAPI: `py arac/geo_dilimle.py --sina` yazildi (dalda). Hicbir sey yazmaz, cikis 0/1, ~1 dk / ~2 GB. Sartlar: S1 TAMLIK · S1-NEG (1 gun kaydirmada eksik BULAMAZSA kapi KALIR, sinav kor demektir) · S2 halka aynilik + asil havuzun her halkasi bir dilimde mi · S3 CATAL (_web asil dosyayla havuz satiri ve GEO_DILIMLER disinda SATIR SATIR ayni mi, _web havuzu bos mu) · S4 dilim dosyasi diskte mi, bayt boyu tabloyla tutuyor mu (bayat dilim). - Temiz ciktida: S3 0 fark · S4 24/24 · S2 224.706 halka 0 fark, kapsanmayan 0 · S1 3.782 gun / 858.270 kayit-gun, 0 eksik · S1-NEG 2.894. Python'daki gunIdx taklidi (Date.UTC huylari dahil) JS sinaviyla AYNI uc sayiyi verdi. - Kapinin kendi sinavi 5/5 (denetim/ARAC-YUK-KAPI-SINAV-0925.py): temiz 0 · _web DONEMLER'de 1 tarih +1 yil -> 1 (S3) · dilimde 1 rakam, bayt ayni -> 1 (S2) · dilim silindi -> 1 (S4) · geri yazinca 0. - SECIM ve GEREKCE: sinav denetle_yayin'da degil ureticide (--sina). Sinav dilimleyicinin bicimini birebir bilmek zorunda; bicim degisirse uretici ve sinav AYNI dosyada, AYNI commit'te degisir, biri otekinden bayatlayamaz. denetle_yayin yalniz subprocess ile cagirir, cikis koduna bakar. O satiri sen yazacaksin. - ② Rapor basina \"ASIL BULGU: %76 tek seferlik\" konuldu (+ §10 kapi). MOTOR-LEGO-0925'e yatay mesaj gitti (sayilar + arac yolu, cevap istemedim). - Uygulama sirasi guncellendi (rapor §7): geo_dilimle --k 24 -> --sina (0 donmeli) -> surum_damgala. ② BULAMADIM: - ③ ISTIYORUM: yeni is yok; uygulama emrini bekliyorum (sira: kosu 15 -> MOTOR-LEGO kutu sinavi -> ben). Bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
