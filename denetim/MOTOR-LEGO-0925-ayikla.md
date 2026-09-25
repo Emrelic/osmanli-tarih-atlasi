@@ -82,3 +82,7 @@ uygulanmaz.** İki yama (tuz + ayıklama) aynı anda uygulanırsa tek tuz deği�
   + ilk üretim koşusunun `denetle.py`/sha256 kıyası ikinci kapı.
 - Tarih çizgisinde motorun puanı SARMAMASI (iki yaka birbirine puan vermiyor) ayrı bir
   motor sorusu; bu yama onu değiştirmiyor, yalnız not edildi.
+  ⚠️ **GÖRÜLMÜŞ BORÇ, gerileme değil** (M-5187 ④): 180° boylamı çevresinde puan sarılmadığı
+  için Çukotka · Alaska · Fiji gövdelerinde yamadan ÖNCE de bir kusur olabilir (yakadaki
+  noktanın puanı öbür yakaya geçmiyor ⇒ kesici kapı orada gövdeyi fazla kesebilir).
+  Ölçülmedi. Koordinatör `YAPILACAKLAR.md`ye aldı.
