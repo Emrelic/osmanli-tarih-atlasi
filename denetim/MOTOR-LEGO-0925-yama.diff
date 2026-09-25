@@ -1,0 +1,161 @@
+diff --git a/arac/motor_onbellek.py b/arac/motor_onbellek.py
+index 0ae5d3e..f847206 100644
+--- a/arac/motor_onbellek.py
++++ b/arac/motor_onbellek.py
+@@ -127,6 +127,27 @@ class Onbellek:
+         c = self._baglanti().execute("DELETE FROM kayit WHERE zaman < ?", (sinir,))
+         return c.rowcount if c.rowcount is not None else 0
+ 
++    def tuz_karsilastir(self, etiket, parcalar):
++        """MOTOR-LEGO-0925: bu önbelleğin BİR ÖNCEKİ koşudaki tuz parçalarını okur,
++        bugününkünü yazar. `parcalar` = {ad: özet} (motor dosyaları, ortam …).
++        Döner: None (önceki kayıt yok) ya da [değişen parça adları] (boş = aynı tuz).
++        NİÇİN: 20-25 Eylül'de dört koşunun dördü de farklı tuzla koştu ve hiçbir
++        katman bir önceki koşudan tek isabet almadı — ama log yalnız "AÇIK" diyordu.
++        Tuz değiştiyse koşu BAŞINDA söylenmeli; sonda "isabet 0" okumak 19 saat geç."""
++        if not self.acik:
++            return None
++        import json as _js
++        b = self._baglanti()
++        b.execute("CREATE TABLE IF NOT EXISTS meta (anahtar TEXT PRIMARY KEY, deger TEXT)")
++        r = b.execute("SELECT deger FROM meta WHERE anahtar=?", ("son_tuz:" + etiket,)).fetchone()
++        b.execute("INSERT OR REPLACE INTO meta VALUES (?,?)",
++                  ("son_tuz:" + etiket, _js.dumps({"zaman": time.time(), "parca": parcalar},
++                                                  sort_keys=True, ensure_ascii=False)))
++        if r is None:
++            return None
++        once = _js.loads(r[0]).get("parca", {})
++        return sorted(k for k in set(once) | set(parcalar) if once.get(k) != parcalar.get(k))
++
+     def boyut_mb(self):
+         try:
+             return os.path.getsize(self.yol) / 1024.0 ** 2
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 143bd65..ac3472a 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -429,7 +429,7 @@ def asama_ozet():
+     """Sonda ÖZET TABLO: aşama · süre · toplam içindeki payı."""
+     asama(None)
+     try:
+-        for _s in _ONB.ozet():
++        for _s in _ONB.ozet() + _ONB_GEO.ozet():
+             print(f"  🧱 ÖNBELLEK {_s}")
+     except NameError:
+         pass
+@@ -588,6 +588,55 @@ _ONB = _mob.Onbellek(
+     _ONB_TUZ, acik=os.environ.get("MOTOR_ONBELLEK_KAPALI") != "1")
+ print(f"  🧱 ÖNBELLEK: {'AÇIK — ' + _ONB.yol if _ONB.acik else 'KAPALI (MOTOR_ONBELLEK_KAPALI=1)'}"
+       f" · tuz {_hlo.sha256(_ONB_TUZ.encode('utf-8')).hexdigest()[:12]}")
++# ══ 🧱 GEOMETRİ TUZU — MOTOR-LEGO-0925 (25 Eylül 2026) ═════════════════════════
++# `govde` · `osm` · `sb` katmanlarının hesap zinciri `renkler.py`den ve `girdi.py`den
++# HİÇBİR ŞEY okumaz (AST ile ölçüldü, `denetim/ARAC-LEGO-zincir.py`: gövde zinciri
++# 30 işlev / 91 modül adı, sb zinciri 9 işlev / 25 ad — BOYALAR, _HARITA_ALT, renk
++# YOK; okunan tek veri YERLER, o da anahtarda: konum · kasitli_bosluk · bos ·
++# aktif üyelik · petek WKB). İki dosyanın etkisi ANAHTARIN İÇERİĞİNDEN geçer
++# (kim hangi devlete ait ⇒ `aktif`; hangi dosya yüklendi ⇒ YERLER ⇒ petek WKB).
++# ⇒ Bu üç katmanın tuzuna iki dosya GİRMEZ. Ölçülen bedeli: 18-25 Eylül'de tuzu
++#   değiştiren 19 commit'in 12'si yalnız bu iki dosyadaydı; koşu 6 ile koşu 15'in
++#   uret_petek.py özeti AYNIYDI (c90fa6c8…) ve tuz yalnız bu yüzden ayrıldı.
++# 🔴 SINIR: kanıt statik bir AST taramasıdır — `globals()`/`getattr` ile dolaylı
++#    okuma görülmez. Bir gün bu zincire BOYALAR okuyan bir satır girerse bu blok
++#    YANLIŞ olur ⇒ `ARAC-LEGO-zincir.py` motor değişikliğinde yeniden koşturulur.
++_ONB_GEO_TUZ = json.dumps({
++    "surum": "onbellek-geo-1",
++    "motor": {k: v for k, v in _MOTOR_IZI.items() if k not in ("renkler.py", "girdi.py")},
++    "onbellek_modulu": json.loads(_ONB_TUZ)["onbellek_modulu"],
++    "ortam": json.loads(_ONB_TUZ)["ortam"],
++}, sort_keys=True, ensure_ascii=False)
++_ONB_GEO = _mob.Onbellek(_ONB.yol, _ONB_GEO_TUZ, acik=_ONB.acik)
++# ── HANGİ KATMAN CANLI — ADIYLA (M-5172 ⑦) ───────────────────────────────────
++# "🧱 ÖNBELLEK: AÇIK" satırı 11-25 Eylül arasında her koşuda basıldı ve en
++# pahalı katman (govde, koşunun %78'i) her koşuda ÖLÜYDÜ: kalıcı kullanıcı
++# ortamındaki MOTOR_PARALEL_KAPALI=1 sıralı sınama yolunu seçiyordu ve o
++# yolda `_ONB.oku/yaz("govde")` hiç yok. Sessiz yavaşlık, gürültülü ölümden pahalı.
++if _ONB.acik and _ISCI_NO is None:
++    _onb_olu = ["govde"] if os.environ.get("MOTOR_PARALEL_KAPALI") == "1" else []
++    print(f"  🧱 ÖNBELLEK katmanları · CANLI: k1 · col · kusat · dolgu · osm · sb"
++          f"{'' if _onb_olu else ' · govde'} · ÖLÜ: {', '.join(_onb_olu) or 'yok'}")
++    if _onb_olu:
++        print("  🔴🔴 ÖNBELLEK: `govde` katmanı ÖLÜ — MOTOR_PARALEL_KAPALI=1 sıralı sınama "
++              "yolunu seçti (önbelleksiz). 'Yabancı devlet gövdeleri' (koşunun ~%78'i) "
++              "HİÇBİR KOŞUDA isabet almayacak; süreç işçisi ve DEVAM da kapalı. "
++              "Kasıtlı değilse değişkeni kaldır (kalıcı kullanıcı ortamını da denetle).")
++    # ── tuz geçen koşudan farklı mı — farklıysa BAŞTA söyle (M-5175 ③) ──────────
++    for _et, _o, _tz in (("genel", _ONB, _ONB_TUZ), ("geo", _ONB_GEO, _ONB_GEO_TUZ)):
++        _tp = json.loads(_tz)
++        _parca = dict({f"motor:{k}": v for k, v in _tp["motor"].items()},
++                      onbellek_modulu=_tp["onbellek_modulu"], ortam=json.dumps(_tp["ortam"]))
++        _deg = _o.tuz_karsilastir(_et, _parca)
++        _kat = "k1 · col · kusat · dolgu" if _et == "genel" else "govde · osm · sb"
++        if _deg is None:
++            print(f"  ⚠️ ÖNBELLEK [{_et}: {_kat}]: bu dosyada önceki koşu kaydı YOK "
++                  f"⇒ bu koşu isabet ALMAYACAK (ilk doldurma)")
++        elif _deg:
++            print(f"  ⚠️ ÖNBELLEK [{_et}: {_kat}]: tuz geçen koşudan FARKLI "
++                  f"(değişen: {', '.join(_deg)}) ⇒ bu koşu isabet ALMAYACAK")
++        else:
++            print(f"  🧱 ÖNBELLEK [{_et}: {_kat}]: tuz geçen koşuyla AYNI ⇒ isabet bekleniyor")
+ _ONB_OZ = {}
+ 
+ 
+@@ -6407,7 +6456,7 @@ def _onb_parca_anahtar(katman, gruplar, aktif, pe):
+         q = sorted(int(t) for t in _TUM_AGAC.query(box(x0 - R, y0 - R, x1 + R, y1 + R)))
+         cevre = b"".join(_ONB_KIM[t] + bytes((_ONB_KB[t], _ONB_BOS[t], 1 if t in aks else 0))
+                          for t in q)
+-    return _ONB.anahtar(katman, _ONB_GOVDE_TUZ, cevre, *parca), siralar
++    return _ONB_GEO.anahtar(katman, _ONB_GOVDE_TUZ, cevre, *parca), siralar
+ 
+ 
+ def _govde_anahtar(aktif, a):
+@@ -6464,7 +6513,7 @@ def _yabanci_devlet_faz1(_arg):
+         # yerleşim eklenince kayar; kanonik sıra "sıfırdan" ile "önbellekten"
+         # sonucun bit-bit aynı olmasını YAPISAL olarak güvenceye alır.
+         _onb_k, _sira = _govde_anahtar(aktif, a) if _ONB.acik else (None, aktif)
+-        _onb_var, _onb_v = _ONB.oku("govde", _onb_k) if _onb_k else (False, None)
++        _onb_var, _onb_v = _ONB_GEO.oku("govde", _onb_k) if _onb_k else (False, None)
+         if _onb_var:
+             _mp, _c, _kesilen, _tamamen = _onb_v
+         else:
+@@ -6475,7 +6524,7 @@ def _yabanci_devlet_faz1(_arg):
+                 rp = g.representative_point()
+                 _mp, _c = mp_koord(g), [round(rp.x, 2), round(rp.y, 2)]
+             if _onb_k:
+-                _ONB.yaz("govde", _onb_k, (_mp, _c, _kesilen, _tamamen))
++                _ONB_GEO.yaz("govde", _onb_k, (_mp, _c, _kesilen, _tamamen))
+         _sure = time.time() - _t_gv
+         if _mp is None:
+             tani.append((_sure, _kesilen, _tamamen))
+@@ -7170,7 +7219,7 @@ for i in range(len(tarihler) - 1):
+     # (`_onb_parca_anahtar`). Değer (g, gt) geometri olarak saklanır (pickle WKB).
+     if _ONB.acik:
+         _ok, (_sira_d, _sira_t) = _onb_parca_anahtar("osm", [dogrudan, tabi], aktif, _pe)
+-        _ovar, _ov = _ONB.oku("osm", _ok)
++        _ovar, _ov = _ONB_GEO.oku("osm", _ok)
+     else:
+         _ok, _sira_d, _sira_t, _ovar, _ov = None, dogrudan, tabi, False, None
+     if _ovar:
+@@ -7178,7 +7227,7 @@ for i in range(len(tarihler) - 1):
+     else:
+         g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t)
+         if _ok:
+-            _ONB.yaz("osm", _ok, (g, gt))
++            _ONB_GEO.yaz("osm", _ok, (g, gt))
+     kaplam = unary_union([g, gt]) if gt is not None else g
+     x0, y0, x1, y1 = kaplam.bounds
+     # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
+@@ -7265,11 +7314,11 @@ for i in range(len(tarihler) - 1):
+         # birleşimi (bos_bolge, gün başına ezberli). Anahtar ikisinin WKB özeti.
+         # Havuzlama (hat_havuza) ve belirsizlik her koşuda yeniden yapılır.
+         _bb = bos_bolge(a, _pe)
+-        _sk = _ONB.anahtar("sb", _onb_ozet(kaplam), _onb_oz(_bb) if _bb is not None else b"-")
+-        _svar, _hk = _ONB.oku("sb", _sk)
++        _sk = _ONB_GEO.anahtar("sb", _onb_ozet(kaplam), _onb_oz(_bb) if _bb is not None else b"-")
++        _svar, _hk = _ONB_GEO.oku("sb", _sk)
+         if not _svar:
+             _hk = hat_koord(serbest_kenar(a, kaplam, _pe))
+-            _ONB.yaz("sb", _sk, _hk)
++            _ONB_GEO.yaz("sb", _sk, _hk)
+         _sb = hat_havuza(_hk)
+     else:
+         _sb = hat_havuza(hat_koord(serbest_kenar(a, kaplam, _pe)))
