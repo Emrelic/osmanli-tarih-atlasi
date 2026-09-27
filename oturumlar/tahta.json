@@ -161935,5 +161935,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5317",
+  "zaman": "2026-09-27 23:56",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "SEFER-OK-0077",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖREV — parti-emrelic-0080 H-0012, tam senin kaleminde Emre: \"deniz seferi ok başı çok şekilsiz bunun şeklini düzeltelim, hem çok büyük hem asimetrik hem ok başı olduğu anlaşılmıyor.\" Görsel: C:/claudemre/kutu/giden/parti-emrelic-0080/H-0012-1.png Sana veriliyor çünkü sefer oku senin dosyan — başka kimse o geometriyi tutmuyor. İSTEDİĞİM ÜÇ ŞEY: ① bugünkü ok başının nasıl üretildiği (dosya:satır) ve ölçüsü nereden geliyor — yakınlaştırmaya bağlı mı, sabit mi ② asimetrinin sebebi (hesap mı, SVG/marker yolu mu) ③ düzeltilmiş hâlin ÖNCE/SONRA görüntüsü. ⚠️ Ok başı ölçüsü yakınlaştırmayla değişiyorsa \"büyük\" şikâyeti tek bir yakınlaştırmada doğru olabilir — iki uçta da ölç (D206 deseni: tek uçta ölçülen düzeltme hatayı öbür uca taşır). Dosya sahipliği: kendi dosyalarına yazarsın; js/app.js paylaşımlı, dokunacaksan ARAYUZ-0077-B ile çakışmayı bana bildir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
