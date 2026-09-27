@@ -9557,14 +9557,12 @@ function obGoster(o) {
   // Kişi kartları (o.kisiler) ve kartvizit (vefat_id) — PAKET-UI4: artık
   // `#ob-ozel` kutusu / sekmeli bölüm değil, ek okuma AKORDEONUNUN satırları
   // (ekOkumaButonlariGuncelle → kisiKartSatirlari · kartvizitSatirlari).
-  if (o.kaynak) {
-    var a = document.createElement("a");
-    a.className = "ob-kaynak";
-    a.href = "https://islamansiklopedisi.org.tr/" + o.kaynak;
-    a.target = "_blank"; a.rel = "noopener";
-    a.textContent = "📖 TDV İslâm Ansiklopedisi";
-    ozel.appendChild(a);
-  }
+  // 🔴 ARAYUZ-0077-B · H-80:15 — buradaki "📖 TDV İslâm Ansiklopedisi" bağı
+  // KALDIRILDI: `kaynak`ı HER ZAMAN tek slug sanıp adrese yapıştırıyordu.
+  // Ölçüldü (28 Eyl): Osmanlı 1625 maddenin 257'si serbest metin/çoklu kaynak,
+  // 71'i "bulunamadı" ⇒ 328 KIRIK bağ (ör. `…org.tr/bizans · alasehir`).
+  // Kaynak artık panelin EN ALTINDA "📚 Kaynakça" bölümünde (`kaynakcaGuncelle`,
+  // `ekOkumaButonlariGuncelle` içinden — Osmanlı ve devlet paneli AYNI yol).
   ekOkumaButonlariGuncelle(o);         // PAKET-UI4: kartvizit + kişi kartları da burada
   maddeGorseliniGuncelle(o);
   obPanel.classList.remove("gizli");
@@ -10647,6 +10645,7 @@ var EKOKUMA_TUR = {
 function ekOkumaButonlariGuncelle(o) {
   // ARAYUZ-0077-B · H-77:20 — madde içi derin pencere düğmesi (iki panel yolu da buradan geçer)
   try { derinDugmeGuncelle(o); } catch (eD) { console.error("[derin pencere]", eD); }
+  try { kaynakcaGuncelle(o); } catch (eKc) { console.error("[kaynakça]", eKc); }   // H-80:15
   var kutu = document.getElementById("ob-ekokuma-butonlar");
   if (!kutu) return;
   // İlk çağrıda veri yoksa yükle, gelince AYNI maddeyi yeniden çiz — buton
@@ -14271,7 +14270,7 @@ var IPUCU_EK = [
   [".suzgec-baslik", "Konu süzgeci: Osmanlı kronolojisinde hangi konuların görüneceğini seçin. Süzülen maddeleri oynatma ve ⏮/⏭ atlar."],
   ["#ob-detay-baslik", "Maddenin açıklamasını açar/kapatır. Altındaki satırlar ek okumalardır."],
   [".ob-madde-gorsel-kaynak", "Görselin kaynağı ve lisansı (yeni sekmede açılır)."],
-  [".ob-kaynak", "Bu maddenin dayandığı kaynak (yeni sekmede açılır)."],
+  ["#ob-kaynakca a", "Kaynağı yeni sekmede açar."],
   // ── ① ☰ Butonlar — katman kutuları (10) ─────────────────────────────
   ["label:⓪", "Fizikî altlık: uydu/fotoğraf zeminini açar veya kapatır."],
   ["label:①", "Coğrafya katmanı: kara, göl, nehir ve dağlar."],
@@ -14609,6 +14608,92 @@ function derinKapat() {
 document.addEventListener("keydown", function (e) {
   if (_derin && e.key === "Escape") { derinKapat(); e.stopPropagation(); }
 }, true);
+
+// ═══════════════════════════════════════════════════════════════════════
+// 🆕 ARAYUZ-0077-B · parti-emrelic-0080 H-0015 — MADDE İÇİ KAYNAKÇA.
+// Emre: *"tüm kronoloji maddelerinin kaynakçası — kaynak belgeleri, arşivi,
+// literatürü — maddelerin iç bölümünde EN ALTTA kaynakçaya tıklanarak
+// erişilmelidir."*
+// ÖLÇÜLDÜ (28 Eylül, canlı) — `kaynak` alanı:
+//     Osmanlı çizgisi 1625: tek TDV slug 1284 · serbest/çoklu 257 ·
+//                           "bulunamadı" 71 · BOŞ 13
+//     devlet kronolojileri 6255: tek slug 602 · serbest/çoklu 3488 ·
+//                           "bulunamadı" 395 · BOŞ 1770 (%28)
+// ÜÇ DURUM, ÜÇ AYRI YAZI — birbirine karıştırılmaz (VERI-YAPISI: `kaynak`
+// taşımayan madde "ölçülmemiş"tir, "kaynaksız" DEĞİL):
+//   dolu          → bölüm çizilir, kapalı gelir, tıklanınca açılır
+//   "bulunamadı"  → bölüm çizilir: "Kaynak arandı, bulunamadı." (verinin KENDİ beyanı)
+//   BOŞ           → bölüm ÇİZİLMEZ. "bulunamadı" yazmak ölçülmemişi aranmış
+//                   gibi gösterirdi; boş sekme de olmayan eksiği gösterirdi.
+// Ayrıştırma: " · " / " + " / " ; " ile parçalanır; baştaki TDV slug'ı
+// (küçük harf-tire) TDV bağına çevrilir, gerisi METİN olarak aynen kalır,
+// içindeki http(s) adresleri bağ olur. Tahmin YOK: slug'a benzemeyen hiçbir
+// şey bağa çevrilmez.
+var _KC_SLUG = /^([a-z0-9]+(?:-[a-z0-9]+)*(?:--[a-z0-9]+(?:-[a-z0-9]+)*)?)(?:\s+[—–-]\s+([\s\S]*))?$/;
+function kaynakcaParcala(k) {
+  return String(k).split(/\s+[·+]\s+|\s*;\s+/).map(function (p) { return p.trim(); })
+    .filter(function (p) { return p; });
+}
+function _kcMetinEkle(el, metin) {
+  // http(s) adreslerini bağ yap, gerisi düz metin (innerHTML YOK)
+  var re = /https?:\/\/[^\s)'"»]+/g, son = 0, m;
+  while ((m = re.exec(metin))) {
+    if (m.index > son) el.appendChild(document.createTextNode(metin.slice(son, m.index)));
+    var a = document.createElement("a");
+    a.href = m[0]; a.target = "_blank"; a.rel = "noopener"; a.textContent = m[0];
+    el.appendChild(a);
+    son = m.index + m[0].length;
+  }
+  if (son < metin.length) el.appendChild(document.createTextNode(metin.slice(son)));
+}
+function kaynakcaGuncelle(o) {
+  var ob = document.getElementById("olay-bilgi");
+  if (!ob) return;
+  var kap = document.getElementById("ob-kaynakca");
+  if (!kap) {
+    kap = document.createElement("details");
+    kap.id = "ob-kaynakca";
+  }
+  ob.appendChild(kap);                    // her seferinde EN ALTA (sonradan eklenenlerin altına)
+  kap.innerHTML = "";
+  kap.open = false;
+  var k = o && o.kaynak != null ? String(o.kaynak).trim() : "";
+  if (!k) { kap.hidden = true; return; }  // ölçülmemiş → bölüm YOK
+  kap.hidden = false;
+  var ozet = document.createElement("summary");
+  ozet.setAttribute("data-ipucu", "Bu maddenin dayandığı kaynakları gösterir (tıklayınca açılır).");
+  var ol = document.createElement("ul");
+  if (/^bulunamad/i.test(k)) {
+    ozet.textContent = "📚 Kaynakça";
+    var li0 = document.createElement("li");
+    li0.className = "kc-yok";
+    // Yalın "bulunamadı" → açıklama cümlesi; açıklamalıysa ("bulunamadı — TDV
+    // kapsamıyor, dayanak: …") verinin KENDİ metni aynen (ölçüldü: 71'in çoğu açıklamalı).
+    if (/^bulunamad[ıi]\.?$/i.test(k)) li0.textContent = "Kaynak arandı, bulunamadı.";
+    else _kcMetinEkle(li0, k);
+    ol.appendChild(li0);
+  } else {
+    var parcalar = kaynakcaParcala(k);
+    ozet.textContent = "📚 Kaynakça (" + parcalar.length + ")";
+    parcalar.forEach(function (p) {
+      var li = document.createElement("li");
+      var m = p.match(_KC_SLUG);
+      if (m) {
+        var a = document.createElement("a");
+        a.href = "https://islamansiklopedisi.org.tr/" + m[1];
+        a.target = "_blank"; a.rel = "noopener";
+        a.textContent = "TDV İslâm Ansiklopedisi, «" + m[1] + "»";
+        li.appendChild(a);
+        if (m[2]) { li.appendChild(document.createTextNode(" — ")); _kcMetinEkle(li, m[2]); }
+      } else {
+        _kcMetinEkle(li, p);
+      }
+      ol.appendChild(li);
+    });
+  }
+  kap.appendChild(ozet);
+  kap.appendChild(ol);
+}
 
 // İlk çizim
 guncelle();

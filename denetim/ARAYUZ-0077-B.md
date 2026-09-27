@@ -232,6 +232,34 @@ koordinatlı yerleşimler) + `adKonumBul(ad)`; `olayKonumu` `yer_id` dalı ve
   bırakmıyor; (b) yalnız 150 yeniye değil o 92 eski bölgeye de uygulanır —
   bugünkü davranışı sessizce değiştirirdi. (b) istenirse tek satır: `BOLGE_ISARET = false`.
 
+## 1e. parti-emrelic-0080 H-0015 — madde içi kaynakça · `cozuldu`
+**Doluluk ölçümü (28 Eyl, canlı; alan adı `kaynak` — VERI-YAPISI `kronoloji[].kaynak`;
+`ic_not_kaynak` 1 · `odak_kutu_kaynak` 1 kayıt, kaynakça değil):**
+```
+                         toplam  tek TDV slug  serbest/çoklu  "bulunamadı"  BOŞ
+Osmanlı zaman çizgisi     1625      1284            257            71        13  (%0,8)
+devlet kronolojileri      6255       602           3488           395      1770  (%28)
+```
+**Yan bulgu — KUSUR, düzeltildi:** `obGoster` `kaynak`ı hep tek slug sanıp
+`islamansiklopedisi.org.tr/<kaynak>` bağı kuruyordu ⇒ Osmanlı'da 257 + 71 =
+**328 kırık bağ** (ör. `…/bizans · alasehir`, `…/bulunamadı — TDV …`). Devlet
+panelinde kaynak HİÇ gösterilmiyordu.
+**Yama:** `kaynakcaGuncelle(o)` — panelin EN ALTINDA `📚 Kaynakça (N)`, kapalı
+gelir, tıklanınca açılır; Osmanlı ve devlet paneli aynı yol. `" · "`/`" + "`/`"; "`
+ile parçalanır; baştaki TDV slug'ı bağ olur (`TDV İslâm Ansiklopedisi, «slug»`),
+geri kalan METİN aynen, içindeki http(s) adresi bağ. Tahmin yok.
+**Üç durum ayrı:** dolu → bölüm · "bulunamadı" → yalın ise "Kaynak arandı,
+bulunamadı.", açıklamalı ise verinin kendi metni · **BOŞ → bölüm ÇİZİLMEZ**
+(VERI-YAPISI: boş = "ölçülmemiş", "kaynaksız" değil; "bulunamadı" yazmak
+yalan, boş sekme olmayan eksiği gösterir).
+**Sınandı:** `ertugrul-gazi` → 1 TDV bağı · `bizans · alasehir` → 2 bağ ·
+akademik künye + slug → 1 metin + 1 bağ · açıklamalı bulunamadı → verbatim ·
+boş (1362-03-01) → GİZLİ · Moskova (VLE) → 3 satır · Moskova boş → GİZLİ ·
+her durumda bölüm panelin son öğesi, kapalı. Konsol 0.
+⚠️ **Sınır:** `" · "` tek bir künyenin İÇİNDE de geçiyorsa künye iki satıra
+bölünür (bilgi kaybı yok, yalnız satır sayısı). Kesin çare veride yapılandırılmış
+kaynak (dizi) olur — veri kararı, bende değil.
+
 ## 2. İstediklerim
 1. **H-79:9 kapsamı:** kalan ~79 öğenin metni `index.html` `title`ına mı
    (öneri) `IPUCU_EK`e mi?

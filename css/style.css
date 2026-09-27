@@ -100,6 +100,12 @@
   #derin-pencere { flex-direction: column; }
   #derin-pencere .derin-yan { flex: 0 0 45%; max-width: none; border-left: 0; border-top: 2px solid var(--altin); }
 }
+/* ARAYUZ-0077-B · H-80:15 — madde içi kaynakça, panelin EN ALTINDA, kapalı gelir */
+#ob-kaynakca { margin-top: 8px; border-top: 1px solid var(--altin); padding-top: 4px; font-size: 12px; }
+#ob-kaynakca > summary { cursor: pointer; font-weight: 600; padding: 2px 0; }
+#ob-kaynakca ul { margin: 4px 0 2px; padding-left: 18px; }
+#ob-kaynakca li { margin: 2px 0; overflow-wrap: anywhere; }
+#ob-kaynakca .kc-yok { font-style: italic; opacity: .8; }
 /* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
 .devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
 /* Emre 27 Eyl: "ek devlet ilan edemiyorum" — rol artık görünür düğmeden */
