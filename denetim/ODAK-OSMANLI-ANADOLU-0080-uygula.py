@@ -3,6 +3,7 @@
     py denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py                 KURU KOŞU (yazmaz)
     py denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py --uygula        data/ dosyalarına yazar
          --grup A,B,C      yalnız bu sınıflar (E'de yazılacak alan yok)
+         --dosya a.js,b.js yalnız bu data dosyaları (ör. yalnız olaylar_*)
          --goster          her değişen nesnenin yeni metninin sonunu basar (gözden geçirme)
          --kg-kaldir       A/B/C'ye çevrilen BEYANLI maddelerde kapsam_genis:true'yu da SİLER
                            🔴 VARSAYILAN KAPALI — gerekçe: kronoloji_*.js maddeleri app.js'te
@@ -164,9 +165,16 @@ def js_oku_metin(metin):
 SAY = {"değişen": 0, "zaten böyle": 0, "kayıt yok": 0, "eski tutmuyor": 0,
        "şartı sağlamadı": 0, "E (yazılacak yok)": 0, "Ø ölçer yanlış pozitifi": 0, "grup dışı": 0}
 ongoru = {}                     # dosya → {"once": {sinif:n}, "sonra": {...}, "sonra_app": {...}}
+SUZ_DOSYA = None
+if "--dosya" in sys.argv:
+    SUZ_DOSYA = set(sys.argv[sys.argv.index("--dosya") + 1].split(","))
+    bilinmeyen = SUZ_DOSYA - {o["dosya"] for o in oneri}
+    if bilinmeyen:
+        print("🔴 --dosya tanınmadı (öneri tablosunda yok): %s — DURDU" % ", ".join(sorted(bilinmeyen)))
+        sys.exit(2)
 dosyalar = []
 for o in oneri:
-    if o["dosya"] not in dosyalar:
+    if o["dosya"] not in dosyalar and (SUZ_DOSYA is None or o["dosya"] in SUZ_DOSYA):
         dosyalar.append(o["dosya"])
 
 for f in dosyalar:
