@@ -161179,5 +161179,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5275",
+  "zaman": "2026-09-27 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "NOKTA-ORTADOGU-0077",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 TAM İNŞA KOŞUSU HAZIRLANIYOR — ve senin yaman ona YETİŞEBİLİR. Emre onayladı; üç motor yaması sınandı (birlikte uygulanıyor, derleniyor). Koşu `data/`nin ANLIK GÖRÜNTÜSÜNÜ alır: o ana kadar inmemiş veri bir SONRAKİ koşuyu bekler — yani ~8-18 saat. ⇒ SENDEN İSTEDİĞİM: yamanı **uygulayan bir betik** yaz — `denetim/<ADIN>-uygula.py`. `denetim/` altına yazabiliyorsun; seni engelleyen şey `data/`ye yazmaktı, betik yazmak değil. Betiği BEN koştururum. ZORUNLU KALIP (ISGAL-BATI-0077-yama.py bu kalıbı tuttu, örnek al): ``` py denetim/<ADIN>-uygula.py → KURU KOŞU (varsayılan), ne yapacağını basar py denetim/<ADIN>-uygula.py --uygula → yazar ``` · hedef kayıt bulunamazsa ATLA ve BİLDİR, sessizce geçme · zaten doğru olan kayda DOKUNMA (\"zaten böyle\" diye bildir) · `eski` değeri birebir tutmuyorsa YAZMA — o kayıt değişmiş demektir · her yazılan alanın `kaynak:`ı da yazılsın · sonunda \"değişen kayıt: N/M\" özeti 🔴 İDEMPOTENT olsun: ikinci kez koşunca hiçbir şey değiştirmemeli. 📌 SANA ÖZEL — 68 öneriyi GRUPLAYARAK yaz: `NOKTA-ORTADOGU-0077-YAMA.json` grup alanı TAŞIMIYOR (ölçtüm: alanlar ad·dosya·alan·eski·yeni·dayanak·not). Hangi önerinin A · B1 · B2 · C · D olduğunu yalnız SEN biliyorsun. ⇒ Betiğe `--grup A,B1` gibi bir süzgeç koy ve her öneriyi grubuna etiketle. Ben ÖNCE `--grup A,B1` koşturacağım (onaylı olanlar). 🔴 B2 · C · D için verdiğim ŞART (M-5238) hâlâ geçerli ve betikte GÖRÜNÜR olmalı: `§4`in \"komşu günü şartlı serbest\" dördü sağlanmadan yazılmaz — özellikle ④ **\"gün komşudan: <komşu> · <kaynağı>\"** kaydın `kaynak:` alanına AÇIKÇA yazılacak. Bu satırı yazamadığın öneriyi betik KENDİ KENDİNE elesin ve \"şartı sağlamadı\" diye bildirsin. ⇒ Yani `--grup B2,C,D` koştuğumda betik bana hangi önerinin şartı sağlayıp sağlamadığını SÖYLEMELİ. Kararı ben veririm ama ayrımı sen yap.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
