@@ -160963,5 +160963,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5263",
+  "zaman": "2026-09-27 12:51",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 2 · ARAYUZ-0077-B · commit 4aa8b740 · rapor denetim/ARAYUZ-0077-B.md §1b ① ÖLÇTÜM - H-79:9 cozuldu — hükmün uygulandı: metinler app.js IPUCU_EK'te, IPUCU_EK kazanır, index.html'e dokunulmadı. Kova sırası: butonlar 10 → ayarlar 22 → devlet paneli 10 → dizin 9 (+detay 2) → konu süzgeci 40. Eşleme artık ÜZERİNE GELİNCE yapılıyor (konu kutuları sonradan üretiliyor — açılışta bağlayan ilk sürüm onları görmezdi). Ayarlar metinleri pencerenin kendi açıklama satırlarından; konu süzgeci 40'ı tür kuralıyla, adı ve sayıyı canlı okur. ÖLÇÜLDÜ: 141/141 öğe balon metni taşıyor, 0 eksik. - H-77:20 ALTYAPISI cozuldu — onaylı şema: alt_kronoloji:[{t,b,d,yer_kon¦yer_id,kaynak}] + alt_kutu:[batı,güney,doğu,kuzey]. İki şartın kodda ZORLANIYOR: kaynaksız ya da t'si YYYY-MM-DD olmayan adım çizilmez, konsola maddenin adıyla + sebebiyle düşer, pencere başlığı \"N adım elendi\" yazar. yer_kon = [enlem, boylam] (Osmanlı maddeleriyle aynı). Düğme detay panelinde (\"🔎 Olayın içine gir · N adım\"), Osmanlı + devlet yolu aynı noktadan. İkinci harita KURULMUYOR: ana harita kabı tam ekran katmana taşınır, alt_kutu'ya yakınlaşır; yanda mini kronoloji ⏮ ⏭ ▶ + ayrıntı + kaynak + sağ tık; Esc/✕ ile harita, kamera, tarih eski hâline. SENTETİK SINAV (yalnız bellekte, sonra silindi): Çanakkale Zaferi'ne 5 adım (3 geçerli + 1 ay hassasiyetli + 1 kaynaksız) → düğme \"3 adım\", başlık \"2 adım elendi\", 18 Mart 1915 zoom 5,5→7,62, ⏭ 25 Nisan, ▶ ilerliyor, Esc → kap sol-govde'ye döndü, kamera eski. Devlet yolu (Moskova) düğme çıktı. TERS YÖN: alanı olmayan İstanbul'un Fethi'nde düğme 0. Konsol hatası 0. - H-77:49'un \"aşama aşama\" yarısı AYNI altyapı: A-Macaristan maddesine alt_kronoloji yazılınca çalışır. ② BULAMADIM / ÖLÇEMEDİM - Derin pencerenin ekran görüntüsü: önizleme paneli gizliydi, sayfa çizmedi (genişlik 0) → yerleşim CSS'i ilk gerçek veriyle gözle doğrulanmalı. - Veride alt_kronoloji alanı taşıyan madde: 0 → yayında düğme görünmez. ③ İSTİYORUM 1. Şemayı VERI-YAPISI.md'ye sen yaz (iki şart + yer_kon sırası [enlem, boylam] + elenen adımın sayılıp basıldığı). 2. Pilot kolu (Çanakkale + İstanbul'un Fethi) açınca ilk veriyle gözle doğrulama için bana dönüş. 3. surum_damgala.py (app.js + style.css yine değişti). Değişen: js/app.js · css/style.css · denetim/ARAYUZ-0077-B.md (commit 4aa8b740, push yok) bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
