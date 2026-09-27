@@ -1,0 +1,3023 @@
+{
+ "uretici": "denetim/NOKTA-ORTADOGU-0077-yama.py",
+ "uygulanmadi": true,
+ "sayilar": {
+  "A_misir": 5,
+  "B1_sudan_1899": 39,
+  "B2_sudan_kiyi": 8,
+  "C_katar": 1,
+  "D_qattinah": 1
+ },
+ "oneriler": [
+  {
+   "ad": "Süveyş",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-02-15",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-02-15",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1922-03-15",
+     "d": "misir-sultanligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    },
+    {
+     "f": "1922-03-15",
+     "t": "1923-10-29",
+     "d": "misir-kralligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "1914-12-18 ingiltere egemenliği → Mısır Sultanlığı/Krallığı (Kahire ve 52 Mısır noktasının kalıbı)"
+  },
+  {
+   "ad": "Süveyş",
+   "dosya": "yerlesimler.js",
+   "alan": "isg",
+   "eski": [
+    {
+     "f": "1798-11-08",
+     "t": "1801-06-27",
+     "d": "fransa-cumhuriyet",
+     "kaynak": "NAPO-2 (Fondation Napoléon, tome 2 kronolojisi) — 8 NOVEMBRE: Eugène de Beauharnais occupe le port de Suez. Bitiş: gün komşudan: Kahire kapitülasyonu 1801-06-27 · NAPO-3 (Le général Belliard signe la capitulation des troupes françaises en Égypte) — Süveyş'in KENDİ tahliye günü okunan kaynaklarda YOK, zincirleme devralma YAPILMADI. TDV suveys maddesi işgale gün vermiyor. NAPOLYON-MISIR-0070"
+    },
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1798-11-08",
+     "t": "1801-06-27",
+     "d": "fransa-cumhuriyet",
+     "kaynak": "NAPO-2 (Fondation Napoléon, tome 2 kronolojisi) — 8 NOVEMBRE: Eugène de Beauharnais occupe le port de Suez. Bitiş: gün komşudan: Kahire kapitülasyonu 1801-06-27 · NAPO-3 (Le général Belliard signe la capitulation des troupes françaises en Égypte) — Süveyş'in KENDİ tahliye günü okunan kaynaklarda YOK, zincirleme devralma YAPILMADI. TDV suveys maddesi işgale gün vermiyor. NAPOLYON-MISIR-0070"
+    },
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "İngiliz fiilî denetimi işgal taraması olarak sürer (Kahire kalıbı)"
+  },
+  {
+   "ad": "Süveyş",
+   "dosya": "yerlesimler.js",
+   "alan": "v",
+   "eski": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "kid": "misir-kavalali",
+     "statu": "vassal"
+    }
+   ],
+   "dayanak": "HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali",
+   "not": "yalnız kid/statu eklenir, tarih değişmez"
+  },
+  {
+   "ad": "Sefâce",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1922-03-15",
+     "d": "misir-sultanligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    },
+    {
+     "f": "1922-03-15",
+     "t": "1923-10-29",
+     "d": "misir-kralligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "1914-12-18 ingiltere egemenliği → Mısır Sultanlığı/Krallığı (Kahire ve 52 Mısır noktasının kalıbı)"
+  },
+  {
+   "ad": "Sefâce",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "isg",
+   "eski": [
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "İngiliz fiilî denetimi işgal taraması olarak sürer (Kahire kalıbı)"
+  },
+  {
+   "ad": "Sefâce",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "v",
+   "eski": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "kid": "misir-kavalali",
+     "statu": "vassal"
+    }
+   ],
+   "dayanak": "HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali",
+   "not": "yalnız kid/statu eklenir, tarih değişmez"
+  },
+  {
+   "ad": "Kusayr",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1922-03-15",
+     "d": "misir-sultanligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    },
+    {
+     "f": "1922-03-15",
+     "t": "1923-10-29",
+     "d": "misir-kralligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "1914-12-18 ingiltere egemenliği → Mısır Sultanlığı/Krallığı (Kahire ve 52 Mısır noktasının kalıbı)"
+  },
+  {
+   "ad": "Kusayr",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "isg",
+   "eski": [
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "İngiliz fiilî denetimi işgal taraması olarak sürer (Kahire kalıbı)"
+  },
+  {
+   "ad": "Kusayr",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "v",
+   "eski": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "kid": "misir-kavalali",
+     "statu": "vassal"
+    }
+   ],
+   "dayanak": "HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali",
+   "not": "yalnız kid/statu eklenir, tarih değişmez"
+  },
+  {
+   "ad": "Tûr (Sînâ)",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-02-15",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-02-15",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1922-03-15",
+     "d": "misir-sultanligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    },
+    {
+     "f": "1922-03-15",
+     "t": "1923-10-29",
+     "d": "misir-kralligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "1914-12-18 ingiltere egemenliği → Mısır Sultanlığı/Krallığı (Kahire ve 52 Mısır noktasının kalıbı)"
+  },
+  {
+   "ad": "Tûr (Sînâ)",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "isg",
+   "eski": [
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1882-09-13",
+     "t": "1914-12-18",
+     "d": "ingiltere",
+     "kaynak": "urabi-pasa"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "İngiliz fiilî denetimi işgal taraması olarak sürer (Kahire kalıbı)"
+  },
+  {
+   "ad": "Tûr (Sînâ)",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "v",
+   "eski": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "kid": "misir-kavalali",
+     "statu": "vassal"
+    }
+   ],
+   "dayanak": "HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali",
+   "not": "yalnız kid/statu eklenir, tarih değişmez"
+  },
+  {
+   "ad": "Sina güneyi",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-02-15",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-02-15",
+     "d": "memluk"
+    },
+    {
+     "f": "1914-12-18",
+     "t": "1922-03-15",
+     "d": "misir-sultanligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    },
+    {
+     "f": "1922-03-15",
+     "t": "1923-10-29",
+     "d": "misir-kralligi",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "1914-12-18 ingiltere egemenliği → Mısır Sultanlığı/Krallığı (Kahire ve 52 Mısır noktasının kalıbı)"
+  },
+  {
+   "ad": "Sina güneyi",
+   "dosya": "yerlesimler.js",
+   "alan": "isg",
+   "eski": null,
+   "yeni": [
+    {
+     "f": "1914-12-18",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\" ve \"Mısır fizikî coğrafya açısından dört bölgeye ayrılır: Nil vadisi ve deltası, Doğu çölü, Batı çölü, Sînâ yarımadası\". TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık günü 1922-03-15: künye `misir-kralligi` f + Kahire kaydının TDV notu (unvan değişikliği). NOKTA-ORTADOGU-0077",
+   "not": "İngiliz fiilî denetimi işgal taraması olarak sürer (Kahire kalıbı)"
+  },
+  {
+   "ad": "Sina güneyi",
+   "dosya": "yerlesimler.js",
+   "alan": "v",
+   "eski": [
+    {
+     "f": "1805-07-03",
+     "t": "1867-06-08",
+     "k": "Mısır valiliği (Kavalalı hanedanı)"
+    },
+    {
+     "f": "1867-06-08",
+     "t": "1914-12-18",
+     "k": "Mısır Hidivliği"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1805-07-03",
+     "t": "1867-06-08",
+     "k": "Mısır valiliği (Kavalalı hanedanı)",
+     "kid": "misir-kavalali",
+     "statu": "vassal"
+    },
+    {
+     "f": "1867-06-08",
+     "t": "1914-12-18",
+     "k": "Mısır Hidivliği",
+     "kid": "misir-kavalali",
+     "statu": "vassal"
+    }
+   ],
+   "dayanak": "HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali",
+   "not": "yalnız kid/statu eklenir, tarih değişmez"
+  },
+  {
+   "ad": "Dongola",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Hartum",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Sennar",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kordofan (Ubeyyid)",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Sevâkin",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1884-02-01",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "enklav": true
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1884-02-01",
+     "t": "1899-01-19",
+     "d": "ingiltere",
+     "enklav": true
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Kordofan",
+   "dosya": "yerlesimler.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Akīk",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Tokar",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1884-01-01",
+     "t": "1891-02-06",
+     "d": "mehdi",
+     "enklav": true
+    },
+    {
+     "f": "1891-02-06",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1884-01-01",
+     "t": "1891-02-06",
+     "d": "mehdi",
+     "enklav": true
+    },
+    {
+     "f": "1891-02-06",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Sinkat",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Kerma",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Debbe",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Merevî",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ebû Hamed",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Berber",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1884-05-01",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1884-05-01",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Şendî",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Vad Medenî",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ed-Düveym",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kosti",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kadârif",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Bâra",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-01",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-01",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Nühûd",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1785-01-01",
+     "d": "funj"
+    },
+    {
+     "f": "1785-01-01",
+     "t": "1821-08-19",
+     "d": "darfur"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1785-01-01",
+     "d": "funj"
+    },
+    {
+     "f": "1785-01-01",
+     "t": "1821-08-19",
+     "d": "darfur"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kesela",
+   "dosya": "yerlesimler_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kortî",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ed-Dâmer",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kabûşiyye",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ümmü Dermân",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Sincâ",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Müsellemiyye",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Rufâa",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "El-Kavâ",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Cebeleyn",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Er-Rahad",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ümmü Rüvâbe",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Sodirî",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Dilling",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ebû Zabed",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ğubeyş",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Hayyâ",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Trinkitât",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Muhammed Kol",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Bûr Sûdân",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1909-01-01",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1909-01-01",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Şereyk",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-01-04",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Kerreri",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "El-Menâkıl",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj"
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Tendelti",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Ümmü Bedr",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube"
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-08-19",
+     "d": "funj"
+    },
+    {
+     "f": "1882-09-07",
+     "t": "1899-01-19",
+     "d": "mehdi"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B1 — kondominyum günü ingiltere yazılmış; aynı gün ingiliz-sudani (Abrî kaydının düzeltmesiyle aynı gerekçe)"
+  },
+  {
+   "ad": "Derûdeb",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-04-13",
+     "d": "memluk"
+    },
+    {
+     "f": "1517-04-13",
+     "t": "1557-01-01",
+     "d": "habesistan"
+    },
+    {
+     "f": "1885-02-05",
+     "t": "1899-01-19",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye `ingiliz-sudani` f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077",
+   "not": "B2 — 1899 öncesi İngiliz elindeki kıyı; 1899-01-19'dan sonra ingiliz-sudani. ⚠️ Sevâkin'in kondominyuma katılış günü (Batı literatüründe 10 Temmuz 1899 ek anlaşması) TDV'de BULUNAMADI — TDV'nin genel 19 Ocak 1899'u kullanıldı, fark bildirildi. Hüküm koordinatörün."
+  },
+  {
+   "ad": "Katar Yarımadası (iç, dolgu)",
+   "dosya": "yerlesimler_ek_korfez.js",
+   "alan": "v",
+   "eski": [
+    {
+     "f": "1559-01-01",
+     "t": "1670-01-01",
+     "k": "Katar (Benî Müsellem) — Lahsâ beylerbeyiliğine bağlı",
+     "statu": "vassal",
+     "kaynak": "TDV katar: 'Katar sancağını kurarak buraya idareciler tayin etti (1559)' · 'tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar içinde' — bitiş: TDV riyad 'XVII. yüzyılın ikinci yarısı', yıl Lahsa kaydına hizalı (kaynağı bulunamadı)"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1559-01-01",
+     "t": "1670-01-01",
+     "k": "Katar (Benî Müsellem) — Lahsâ beylerbeyiliğine bağlı",
+     "statu": "vassal",
+     "kaynak": "TDV katar: 'Katar sancağını kurarak buraya idareciler tayin etti (1559)' · 'tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar içinde' — bitiş: TDV riyad 'XVII. yüzyılın ikinci yarısı', yıl Lahsa kaydına hizalı (kaynağı bulunamadı)"
+    },
+    {
+     "f": "1871-09-20",
+     "t": "1913-07-29",
+     "k": "Sânî emirliği (Osmanlı kazâsı)",
+     "kid": "katar",
+     "statu": "vassal",
+     "kaynak": "TDV `katar` (gövde okundu): \"1871 sonbaharında Katar'da da Osmanlı kontrolü sağlandı\" · \"29 Temmuz 1913'te Londra'da imzalanan ... antlaşmanın ilgili maddesinde Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti\" · \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\". 1871 GÜNÜ (09-20) komşudan: Doha (Katar) — TDV yalnız mevsim veriyor. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `katar` (gövde okundu): \"1871 sonbaharında Katar'da da Osmanlı kontrolü sağlandı\" · \"29 Temmuz 1913'te Londra'da imzalanan ... antlaşmanın ilgili maddesinde Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti\" · \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\". 1871 GÜNÜ (09-20) komşudan: Doha (Katar) — TDV yalnız mevsim veriyor. NOKTA-ORTADOGU-0077",
+   "not": "Doha ile aynı zincir; yarımada TDV'de bir bütün olarak Âl-i Sânî'ye bırakılıyor"
+  },
+  {
+   "ad": "Katar Yarımadası (iç, dolgu)",
+   "dosya": "yerlesimler_ek_korfez.js",
+   "alan": "s",
+   "eski": [],
+   "yeni": [
+    {
+     "f": "1913-07-29",
+     "t": "1923-10-29",
+     "d": "katar",
+     "kaynak": "TDV `katar` (gövde okundu): \"1871 sonbaharında Katar'da da Osmanlı kontrolü sağlandı\" · \"29 Temmuz 1913'te Londra'da imzalanan ... antlaşmanın ilgili maddesinde Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti\" · \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\". 1871 GÜNÜ (09-20) komşudan: Doha (Katar) — TDV yalnız mevsim veriyor. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `katar` (gövde okundu): \"1871 sonbaharında Katar'da da Osmanlı kontrolü sağlandı\" · \"29 Temmuz 1913'te Londra'da imzalanan ... antlaşmanın ilgili maddesinde Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti\" · \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\". 1871 GÜNÜ (09-20) komşudan: Doha (Katar) — TDV yalnız mevsim veriyor. NOKTA-ORTADOGU-0077",
+   "not": ""
+  },
+  {
+   "ad": "Katar Yarımadası (iç, dolgu)",
+   "dosya": "yerlesimler_ek_korfez.js",
+   "alan": "isg",
+   "eski": null,
+   "yeni": [
+    {
+     "f": "1916-11-03",
+     "t": "1923-10-29",
+     "d": "ingiltere",
+     "kaynak": "TDV `katar` (gövde okundu): \"1871 sonbaharında Katar'da da Osmanlı kontrolü sağlandı\" · \"29 Temmuz 1913'te Londra'da imzalanan ... antlaşmanın ilgili maddesinde Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti\" · \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\". 1871 GÜNÜ (09-20) komşudan: Doha (Katar) — TDV yalnız mevsim veriyor. NOKTA-ORTADOGU-0077"
+    }
+   ],
+   "dayanak": "TDV `katar` (gövde okundu): \"1871 sonbaharında Katar'da da Osmanlı kontrolü sağlandı\" · \"29 Temmuz 1913'te Londra'da imzalanan ... antlaşmanın ilgili maddesinde Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti\" · \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\". 1871 GÜNÜ (09-20) komşudan: Doha (Katar) — TDV yalnız mevsim veriyor. NOKTA-ORTADOGU-0077",
+   "not": "Doha'nın isg: kalıbı (1916 himayesi)"
+  },
+  {
+   "ad": "Qaţţīnah",
+   "dosya": "yerlesimler_sinir_guney.js",
+   "alan": "s",
+   "eski": [
+    {
+     "f": "1281-01-01",
+     "t": "1409-01-01",
+     "d": "artuklu"
+    },
+    {
+     "f": "1409-01-01",
+     "t": "1467-11-10",
+     "d": "karakoyunlu"
+    },
+    {
+     "f": "1467-11-10",
+     "t": "1507-01-01",
+     "d": "akkoyunlu"
+    },
+    {
+     "f": "1507-01-01",
+     "t": "1516-08-24",
+     "d": "safevi"
+    },
+    {
+     "f": "1918-10-26",
+     "t": "1920-07-24",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1920-07-24",
+     "t": "1923-10-29",
+     "d": "suriye-lubnan-mandasi"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1281-01-01",
+     "t": "1409-01-01",
+     "d": "artuklu"
+    },
+    {
+     "f": "1409-01-01",
+     "t": "1467-11-10",
+     "d": "karakoyunlu"
+    },
+    {
+     "f": "1467-11-10",
+     "t": "1507-01-01",
+     "d": "akkoyunlu"
+    },
+    {
+     "f": "1507-01-01",
+     "t": "1516-08-24",
+     "d": "safevi"
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1921-10-20",
+     "d": "tbmm-turkiye"
+    },
+    {
+     "f": "1921-10-20",
+     "t": "1923-10-29",
+     "d": "suriye-lubnan-mandasi"
+    }
+   ],
+   "dayanak": "Kaydın KENDİ kaynağı: Ankara İtilafnamesi md. 8 (20.10.1921) — sınır o gün çizildi; ondan önce köy Ceylanpınar'ın (4,3 km) yakasında. Mevcut 1918-10-26 = Halep'in işgal günü (dönem 1918-10-26 → 1920-07-24 fransa-cumhuriyet), Ras'ülayn için kaynak YOK. Ceylanpınar'ın zinciri (d → 1920-04-23 tbmm, isg fransa 1918-10-30 → 1921-10-20) aynen devralınır; komşu günü şartlı (§4): gün Ceylanpınar'dan, onun isg kaynağı 'bulunamadı' ⇒ ZİNCİRLEME DEVRALMA SINIRINDA — koordinatör onayı ister. NOKTA-ORTADOGU-0077",
+   "not": ""
+  },
+  {
+   "ad": "Qaţţīnah",
+   "dosya": "yerlesimler_sinir_guney.js",
+   "alan": "d",
+   "eski": [
+    {
+     "f": "1516-08-24",
+     "t": "1918-10-26"
+    }
+   ],
+   "yeni": [
+    {
+     "f": "1516-08-24",
+     "t": "1920-04-23"
+    }
+   ],
+   "dayanak": "Kaydın KENDİ kaynağı: Ankara İtilafnamesi md. 8 (20.10.1921) — sınır o gün çizildi; ondan önce köy Ceylanpınar'ın (4,3 km) yakasında. Mevcut 1918-10-26 = Halep'in işgal günü (dönem 1918-10-26 → 1920-07-24 fransa-cumhuriyet), Ras'ülayn için kaynak YOK. Ceylanpınar'ın zinciri (d → 1920-04-23 tbmm, isg fransa 1918-10-30 → 1921-10-20) aynen devralınır; komşu günü şartlı (§4): gün Ceylanpınar'dan, onun isg kaynağı 'bulunamadı' ⇒ ZİNCİRLEME DEVRALMA SINIRINDA — koordinatör onayı ister. NOKTA-ORTADOGU-0077",
+   "not": ""
+  },
+  {
+   "ad": "Qaţţīnah",
+   "dosya": "yerlesimler_sinir_guney.js",
+   "alan": "isg",
+   "eski": null,
+   "yeni": [
+    {
+     "f": "1918-10-30",
+     "t": "1921-10-20",
+     "d": "fransa-cumhuriyet",
+     "kaynak": "bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"
+    }
+   ],
+   "dayanak": "Kaydın KENDİ kaynağı: Ankara İtilafnamesi md. 8 (20.10.1921) — sınır o gün çizildi; ondan önce köy Ceylanpınar'ın (4,3 km) yakasında. Mevcut 1918-10-26 = Halep'in işgal günü (dönem 1918-10-26 → 1920-07-24 fransa-cumhuriyet), Ras'ülayn için kaynak YOK. Ceylanpınar'ın zinciri (d → 1920-04-23 tbmm, isg fransa 1918-10-30 → 1921-10-20) aynen devralınır; komşu günü şartlı (§4): gün Ceylanpınar'dan, onun isg kaynağı 'bulunamadı' ⇒ ZİNCİRLEME DEVRALMA SINIRINDA — koordinatör onayı ister. NOKTA-ORTADOGU-0077",
+   "not": ""
+  }
+ ]
+}
