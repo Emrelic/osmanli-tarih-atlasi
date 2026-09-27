@@ -1,0 +1,98 @@
+[
+ {
+  "ad": "H-79:1 Cizre",
+  "gun": "1281-01-01",
+  "boyali": 14933,
+  "cakisan": 12,
+  "sinif": {
+   "kapama": 0,
+   "kapama_disi": 12,
+   "hakli_yok": 0
+  },
+  "cift": {
+   "devlet:artuklu || devlet:ilhanli": 12
+  }
+ },
+ {
+  "ad": "H-79:2 Trabzon",
+  "gun": "1281-01-01",
+  "boyali": 20084,
+  "cakisan": 42,
+  "sinif": {
+   "kapama": 0,
+   "kapama_disi": 42,
+   "hakli_yok": 0
+  },
+  "cift": {
+   "devlet:ilhanli || devlet:trabzon-rum": 42
+  }
+ },
+ {
+  "ad": "H-79:5 Yinchuan-Xian",
+  "gun": "1281-01-01",
+  "boyali": 16551,
+  "cakisan": 0
+ },
+ {
+  "ad": "H-79:6 G.Cin",
+  "gun": "1281-01-01",
+  "boyali": 22707,
+  "cakisan": 156,
+  "sinif": {
+   "kapama": 0,
+   "kapama_disi": 156,
+   "hakli_yok": 0
+  },
+  "cift": {
+   "devlet:tran-hanedani || devlet:yuan-hanedani": 156
+  }
+ },
+ {
+  "ad": "H-77:13 Nigbolu",
+  "gun": "1915-09-06",
+  "boyali": 12800,
+  "cakisan": 14,
+  "sinif": {
+   "kapama": 0,
+   "kapama_disi": 14,
+   "hakli_yok": 0
+  },
+  "cift": {
+   "devlet:bulgaristan || devlet:romanya-kralligi": 14
+  }
+ },
+ {
+  "ad": "H-77:82/83 Kafkas",
+  "gun": "1921-06-01",
+  "boyali": 6499,
+  "cakisan": 89,
+  "sinif": {
+   "kapama": 4,
+   "kapama_disi": 85,
+   "hakli_yok": 0
+  },
+  "cift": {
+   "devlet:sovyet-rusya || devlet:tbmm-turkiye": 89
+  }
+ },
+ {
+  "ad": "KONTROL Ic Anadolu",
+  "gun": "1600-01-01",
+  "boyali": 14590,
+  "cakisan": 0
+ },
+ {
+  "ad": "H-77:76 Derbend",
+  "gun": "1920-07-28",
+  "boyali": 21537,
+  "cakisan": 421,
+  "sinif": {
+   "kapama": 0,
+   "kapama_disi": 421,
+   "hakli_yok": 0
+  },
+  "cift": {
+   "devlet:rusya || devlet:sovyet-rusya": 421
+  }
+ }
+]

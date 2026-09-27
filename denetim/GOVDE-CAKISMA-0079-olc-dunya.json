@@ -1,0 +1,122 @@
+[
+ {
+  "ad": "DUNYA 1281-01-01",
+  "gun": "1281-01-01",
+  "boyali": 95286,
+  "cakisan": 75,
+  "cift": {
+   "devlet:tran-hanedani || devlet:yuan-hanedani": 8,
+   "devlet:danimarka || devlet:isvec-birlik-oncesi": 8,
+   "devlet:altinorda || devlet:novgorod": 8,
+   "devlet:kastilya || devlet:portekiz": 6,
+   "devlet:almanya || devlet:macaristan": 4,
+   "devlet:altinorda || devlet:ceneviz": 3,
+   "devlet:arakan || devlet:pagan": 2,
+   "devlet:delhi-sultanligi || devlet:racput": 2,
+   "devlet:granada || devlet:kastilya": 2,
+   "devlet:macaristan || devlet:venedik": 2,
+   "devlet:mantua || devlet:milanoduka": 2,
+   "devlet:altinorda || devlet:litvanya-buyuk-dukalik": 2
+  }
+ },
+ {
+  "ad": "DUNYA 1453-05-29",
+  "gun": "1453-05-29",
+  "boyali": 96915,
+  "cakisan": 314,
+  "cift": {
+   "devlet:bugis-kralliklari || devlet:gova-makassar": 66,
+   "devlet:gambiya-mandinka || devlet:sine-salum": 43,
+   "devlet:buganda || devlet:bunyoro": 25,
+   "devlet:borgu || devlet:oyo-imparatorlugu": 24,
+   "devlet:litvanya-buyuk-dukalik || devlet:polonya-erken": 23,
+   "devlet:karagve || devlet:ruanda": 22,
+   "devlet:lan-na || devlet:san-devletleri": 14,
+   "devlet:altinorda || devlet:nogay": 11,
+   "devlet:agadez-sultanligi || devlet:tuareg-air": 8,
+   "devlet:le-hanedani || devlet:ming-hanedani": 8,
+   "devlet:danimarka || devlet:isvec-birlik-oncesi": 8,
+   "devlet:kazan || devlet:novgorod": 8
+  }
+ },
+ {
+  "ad": "DUNYA 1600-06-15",
+  "gun": "1600-06-15",
+  "boyali": 109948,
+  "cakisan": 1680,
+  "cift": {
+   "himaye:#e8a2aa || vassal": 415,
+   "devlet:diaguita-calchaqui-konfederasyonu || devlet:ispanya": 126,
+   "devlet:kuzey-yuan || devlet:ming-hanedani": 104,
+   "devlet:kaonde-ila || devlet:lozi": 91,
+   "devlet:mossi-vagadugu || devlet:yatenga": 75,
+   "devlet:bugis-kralliklari || devlet:gova-makassar": 66,
+   "devlet:brunei-sultanligi || devlet:kutai": 54,
+   "devlet:dagbon || devlet:gonja": 53,
+   "devlet:maravi || devlet:portekiz": 50,
+   "devlet:fransa || devlet:maliseet": 48,
+   "devlet:kamboc-kralligi || devlet:nguyen-beyligi": 46,
+   "devlet:fipa-nyakyusa || devlet:ngonde": 43
+  }
+ },
+ {
+  "ad": "DUNYA 1800-06-15",
+  "gun": "1800-06-15",
+  "boyali": 151456,
+  "cakisan": 2895,
+  "cift": {
+   "devlet:ingiliz-kuzey-amerika || devlet:kri": 316,
+   "devlet:dene || devlet:ingiliz-kuzey-amerika": 201,
+   "devlet:lozi || devlet:ovimbundu": 158,
+   "devlet:abd || devlet:ojibwe": 156,
+   "devlet:abd || devlet:sauk": 108,
+   "devlet:futa-callon || devlet:solima-yalunka": 100,
+   "devlet:bemba || devlet:kazembe": 97,
+   "devlet:kaonde-ila || devlet:lozi": 91,
+   "devlet:bemba || devlet:fipa-nyakyusa": 83,
+   "devlet:damagaram || devlet:kanem-bornu": 76,
+   "devlet:mossi-vagadugu || devlet:yatenga": 75,
+   "devlet:kenedugu || devlet:mossi-vagadugu": 71
+  }
+ },
+ {
+  "ad": "DUNYA 1884-01-01",
+  "gun": "1884-01-01",
+  "boyali": 176588,
+  "cakisan": 5022,
+  "cift": {
+   "devlet:dene || devlet:kanada": 1617,
+   "devlet:lozi || devlet:ovimbundu": 158,
+   "devlet:transvaal || devlet:tsvana": 140,
+   "devlet:dan-guro || devlet:vasulu": 139,
+   "devlet:ingiltere || devlet:nama-orlam": 113,
+   "devlet:dan-guro || devlet:liberya": 109,
+   "devlet:bemba || devlet:kazembe": 97,
+   "devlet:kaonde-ila || devlet:lozi": 91,
+   "devlet:fransa-cumhuriyet || devlet:kongo-kralligi": 87,
+   "devlet:bemba || devlet:fipa-nyakyusa": 83,
+   "devlet:adamava || devlet:sokoto": 75,
+   "devlet:mossi-vagadugu || devlet:yatenga": 75
+  }
+ },
+ {
+  "ad": "DUNYA 1921-06-01",
+  "gun": "1921-06-01",
+  "boyali": 184786,
+  "cakisan": 549,
+  "cift": {
+   "devlet:brezilya-cumhuriyeti || devlet:paraguay-cumhuriyeti": 193,
+   "devlet:bolivya-cumhuriyeti || devlet:peru-cumhuriyeti": 81,
+   "devlet:kesiri-sultanligi || devlet:kuayti-sultanligi": 57,
+   "devlet:kacar || devlet:sovyet-rusya": 30,
+   "devlet:abd || devlet:kanada": 20,
+   "devlet:ingiltere || devlet:portekiz": 15,
+   "devlet:abd || devlet:meksika": 14,
+   "devlet:cin-cumhuriyeti || devlet:sovyet-rusya": 13,
+   "devlet:arjantin-cumhuriyeti || devlet:sili-cumhuriyeti": 11,
+   "devlet:afganistan || devlet:sovyet-rusya": 11,
+   "devlet:bolivya-cumhuriyeti || devlet:sili-cumhuriyeti": 10,
+   "devlet:ingiltere || devlet:umman-zengibar": 10
+  }
+ }
+]

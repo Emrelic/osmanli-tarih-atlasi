@@ -1,0 +1,122 @@
+[
+ {
+  "ad": "DUNYA 1281-01-01",
+  "gun": "1281-01-01",
+  "boyali": 80262,
+  "cakisan": 220,
+  "cift": {
+   "devlet:dene || devlet:inuit": 25,
+   "devlet:isvec-birlik-oncesi || devlet:norvec-kralligi": 21,
+   "devlet:isvec-birlik-oncesi || devlet:novgorod": 14,
+   "devlet:lan-na || devlet:san-devletleri": 8,
+   "devlet:lan-xang || devlet:sukhothai": 7,
+   "devlet:angkor-kmer || devlet:campa": 6,
+   "devlet:avusturya || devlet:macaristan": 6,
+   "devlet:bizans || devlet:venedik": 5,
+   "devlet:artuklu || devlet:ilhanli": 5,
+   "devlet:hoysala || devlet:kalikut": 4,
+   "devlet:ilhanli || devlet:trabzon-rum": 4,
+   "devlet:altinorda || devlet:cagatay": 4
+  }
+ },
+ {
+  "ad": "DUNYA 1453-05-29",
+  "gun": "1453-05-29",
+  "boyali": 80728,
+  "cakisan": 469,
+  "cift": {
+   "devlet:gambiya-mandinka || devlet:sine-salum": 50,
+   "devlet:borgu || devlet:oyo-imparatorlugu": 46,
+   "devlet:altinorda || devlet:sibir-hanligi": 39,
+   "devlet:litvanya-buyuk-dukalik || devlet:polonya-erken": 31,
+   "devlet:bugis-kralliklari || devlet:gova-makassar": 28,
+   "devlet:buganda || devlet:bunyoro": 27,
+   "devlet:dene || devlet:inuit": 25,
+   "devlet:isvec-birlik-oncesi || devlet:norvec-kralligi": 21,
+   "devlet:isvec-birlik-oncesi || devlet:novgorod": 14,
+   "devlet:altinorda || devlet:nogay": 12,
+   "devlet:lan-na || devlet:san-devletleri": 8,
+   "devlet:avusturya || devlet:macaristan": 8
+  }
+ },
+ {
+  "ad": "DUNYA 1600-06-15",
+  "gun": "1600-06-15",
+  "boyali": 89703,
+  "cakisan": 1179,
+  "cift": {
+   "himaye:#e8a2aa || vassal": 411,
+   "devlet:kaonde-ila || devlet:lozi": 113,
+   "devlet:mossi-vagadugu || devlet:yatenga": 73,
+   "devlet:dagbon || devlet:gonja": 52,
+   "devlet:borgu || devlet:oyo-imparatorlugu": 46,
+   "devlet:gambiya-mandinka || devlet:sine-salum": 43,
+   "devlet:ispanyol-peru || devlet:mapuche-araukanya": 35,
+   "devlet:bugis-kralliklari || devlet:gova-makassar": 28,
+   "devlet:buganda || devlet:bunyoro": 27,
+   "devlet:dene || devlet:inuit": 25,
+   "devlet:ndongo || devlet:portekiz": 24,
+   "devlet:danimarka || devlet:isvec": 21
+  }
+ },
+ {
+  "ad": "DUNYA 1800-06-15",
+  "gun": "1800-06-15",
+  "boyali": 124886,
+  "cakisan": 1762,
+  "cift": {
+   "devlet:kaonde-ila || devlet:lozi": 113,
+   "devlet:dene || devlet:ingiliz-kuzey-amerika": 103,
+   "devlet:ingiliz-kuzey-amerika || devlet:kri": 79,
+   "devlet:kenedugu || devlet:mossi-vagadugu": 76,
+   "devlet:bambara || devlet:bundu": 76,
+   "devlet:mossi-vagadugu || devlet:yatenga": 73,
+   "devlet:ingiliz-kuzey-amerika || devlet:lakota": 69,
+   "devlet:bemba || devlet:kaonde-ila": 63,
+   "devlet:dan-guro || devlet:kong-vattara": 62,
+   "devlet:abd || devlet:ojibwe": 60,
+   "devlet:lozi || devlet:ovimbundu": 56,
+   "devlet:asanti || devlet:gonja": 52
+  }
+ },
+ {
+  "ad": "DUNYA 1884-01-01",
+  "gun": "1884-01-01",
+  "boyali": 147838,
+  "cakisan": 2819,
+  "cift": {
+   "devlet:dene || devlet:kanada": 666,
+   "devlet:dan-guro || devlet:vasulu": 137,
+   "devlet:kaonde-ila || devlet:lozi": 113,
+   "devlet:abd || devlet:meksika": 99,
+   "devlet:dan-guro || devlet:liberya": 93,
+   "devlet:adar || devlet:sokoto": 77,
+   "devlet:kenedugu || devlet:mossi-vagadugu": 76,
+   "devlet:mossi-vagadugu || devlet:yatenga": 73,
+   "devlet:kanada || devlet:lakota": 69,
+   "devlet:adamava || devlet:sokoto": 64,
+   "devlet:bemba || devlet:kaonde-ila": 63,
+   "devlet:ingiltere || devlet:tsvana": 62
+  }
+ },
+ {
+  "ad": "DUNYA 1921-06-01",
+  "gun": "1921-06-01",
+  "boyali": 155633,
+  "cakisan": 500,
+  "cift": {
+   "devlet:abd || devlet:meksika": 101,
+   "devlet:abd || devlet:kanada": 59,
+   "devlet:kesiri-sultanligi || devlet:kuayti-sultanligi": 46,
+   "devlet:bahavelpur || devlet:racput": 22,
+   "devlet:ingiliz-hindistani || devlet:racput": 16,
+   "devlet:kacar || devlet:sovyet-rusya": 16,
+   "devlet:finlandiya || devlet:sovyet-rusya": 14,
+   "devlet:suriye-lubnan-mandasi || devlet:tbmm-turkiye": 11,
+   "devlet:finlandiya || devlet:norvec": 11,
+   "devlet:ingiltere || devlet:portekiz": 8,
+   "devlet:san-devletleri || devlet:siyam-chakri": 8,
+   "devlet:rusya || devlet:sovyet-rusya": 8
+  }
+ }
+]
