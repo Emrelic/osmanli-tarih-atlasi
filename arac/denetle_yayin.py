@@ -1389,9 +1389,46 @@ def main():
         _dizinsiz = 1
         print("\n✗  dizinsiz kimlik nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
 
+    # -----------------------------------------------------------------------
+    # 🆕 ODAK NÖBETÇİSİ — kronoloji maddesinin KAMERA ODAĞI (27 Eylül 2026)
+    # -----------------------------------------------------------------------
+    # Emre: *"denetimi yayın kapısına bağla."*
+    #
+    # 🔴 NİÇİN BURADA — denetim boşluğu ölçüldü: `denetle_kronoloji.py` ⑤
+    #    yalnız *"`yer_id` DOLUYSA çözülüyor mu"* diye sorar ve o soruyu GENİŞ
+    #    havuza (`girdi.yukle()`) yöneltir. Oysa `js/app.js:3101` `sehirler`
+    #    havuzunu `d`/`v`/`s` taşıyanlara SÜZER ⇒ sahipsiz bir noktaya yazılan
+    #    `yer_id` denetimden GEÇER ama app.js onu BULAMAZ. `odak_yer` ve
+    #    `odak_kimlik` adlarını ise HİÇBİR denetim sormuyordu; çözülemeyen ad
+    #    yalnız tarayıcı KONSOLUNA düşüyordu ve kimse konsola bakmıyor.
+    #    Ölçüm ilk koşuda böyle bir kaydı yakaladı (Ogaden 1897).
+    #
+    # İKİ AYRI SERTLİK, kasıtlı:
+    #   ① kırık atıf  → YENİSİNE 0 tolerans. `bilinen_kusur` LİSTESİ beyanlıdır
+    #      (sayı değil liste: borç kapanırken yenisi yerine geçemez).
+    #   ② sayı tavanı → ODAKSIZ / BEYANLI→yabancı bugünkü ölçümde DONDURULDU.
+    #      Yalnız GERİLEME bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan
+    #      bir ONAY değil bir DONDURMADIR.
+    #
+    # ⚠️ `odak_olc` MODÜL DÜZEYİNDE stdout'a DOKUNMAZ — yukarıdaki
+    #    `durum_tablosu` dersi (satır ~1350) bu modülü yazarken bilinçle
+    #    uygulandı, o yüzden burada `detach()` dansı GEREKMEZ. Yine de
+    #    içe aktarma try/except içindedir: ÖLÇÜLEMEDİ asla TEMİZ sayılmaz.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import odak_olc as _oo
+        _odak = _oo.kapi_olcumu()
+        _odak_ihlali = bool(_odak.get("ihlal"))
+        print()
+        for _s in _odak["satirlar"]:
+            print(_s)
+    except Exception as _e:                                 # noqa: BLE001
+        _odak_ihlali = True
+        print("\n✗  odak nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:90])
+
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
             or damga_ihlali or bayat or izsiz or iz_bayat or _sz
-            or _bagli or _dizinsiz):
+            or _bagli or _dizinsiz or _odak_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

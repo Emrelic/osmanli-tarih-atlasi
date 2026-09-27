@@ -1,0 +1,18 @@
+{
+ "odaksiz": 485,
+ "beyanli_yabanci": 669,
+ "konumlu": 5968,
+ "kutulu": 29,
+ "beyanli_toplam": 683,
+ "madde": 7165,
+ "bilinen_kusur": [
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1897-01-01",
+   "alan": "yer_id",
+   "deger": "Ogaden",
+   "niye": "sehirler havuzunda yok (d/v/s taşıyan yerleşim değil)"
+  }
+ ],
+ "not": "Tavan bir ONAY degil bir DONDURMADIR (Degismez 2s/8 ile ayni desen). Yalniz GERILEME yayin kapisini bloke eder; iyilesme olunca tavan --tavan-yaz ile INDIRILIR. bilinen_kusur bir SAYI degil LISTEdir: beyanli borc kapanirken yenisi sessizce yerine gecemez, kimlik eslesmezse oter."
+}

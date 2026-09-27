@@ -1,272 +1,360 @@
 # -*- coding: utf-8 -*-
-"""odak_olc.py — KRONOLOJİ MADDESİNİN KAMERA ODAĞI VAR MI? Dosya dosya ölçer.
+"""odak_olc.py — KRONOLOJİ MADDESİNİN KAMERA ODAĞI VAR MI? Ölçer ve KAPIYA bağlar.
 
 🔴 NİÇİN DOĞDU — 27 Eylül 2026, Emre:
 *"tüm dünyadaki kronoloji maddelerinin harita odağını ayarlayalım, konunun
 içeriğine göre odak noktalarını kronoloji maddesine ayarlayalım."*
 İş dağıtmadan önce ölçüm gerekti ve ÖLÇEN ALET YOKTU: `denetle_kronoloji.py`
-⑤ yalnız *"`yer_id` doluysa gerçek bir yerleşime eşleşiyor mu"* diye sorar —
+⑤ yalnız *"`yer_id` DOLUYSA gerçek bir yerleşime eşleşiyor mu"* diye sorar —
 yani YAZILMIŞ bir alanı doğrular, YAZILMAMIŞ odağı saymaz. Boş küme her
 öngörüyü doğrular (`CLAUDE.md §11`).
 
 ## ODAK NEDİR — app.js'in KENDİ sırası (uydurma değil, koddan okundu)
 
-`js/app.js` iki katman okur ve sıra ŞUDUR:
+    ① yer_kon [lat,lon]        NOKTA → flyTo        "OLAY BURADA OLDU"
+    ② yer_id "<ad>"            NOKTA → flyTo        "OLAY BURADA OLDU"
+    ③ odak_kutu_kaynak         KUTU  → fitBounds    hukukî sınır kutusu
+    ④ odak_yer ["<ad>",…]      KUTU  (≥1 ad tutmalı) "KAMERA BURAYA BAKACAK"
+    ⑤ odak_kimlik ["id",…]     KUTU  (O GÜN ≥2 YERLEŞİM) devlet toprağı
+    ⑥ kapsam_genis:true        OSMANLI kutusu — BEYAN
 
-    ① olayKonumu(o)        NOKTA  → flyTo
-         yer_kon [lat,lon]        savaş meydanı vb. (birebir koordinat)
-         yer_id "<ad>"            `sehirler` içinde BİREBİR ad ya da " (" öncesi
-    ② maddeOdakKutusu(o)   KUTU   → fitBounds
-         odak_kutu_kaynak         HUKUKI_SINIRLAR kaydının kapsama.odak_kutu
-         odak_yer ["<ad>", …]     kameranın bakacağı yer(ler) + 0,35° pay
-         odak_kimlik ["id", …]    madde GÜNÜNDE o kimliklerin yerleşim kutusu
-    ③ hiçbiri yoksa
-         kapsam_genis:true        BEYAN — imparatorluk görünümü meşru
-         beyan da yoksa           🔴 ODAKSIZ: kamera YERİNDE KALIR
+🔴 `yer_id` ≠ `odak_yer` ve bu ayrım kuralın KENDİSİdir (`app.js:11697`):
+`yer_id` *"olay BURADA oldu"* der ve KARTA da yazılır; `odak_yer` yalnız
+*"kamera buraya bakacak"* der. 1827 tımar tasfiyesine `yer_id:"İstanbul"`
+yazmak kameraya yarar ama VERİYE YALAN yazar. ⇒ Bu alet ikisini AYRI sayar
+ve `yer_id`yi odak dolgusu olarak ÖNERMEZ.
 
-🔴 `yer_id` ≠ `odak_yer` ve bu ayrım kuralın KENDİSİdir (app.js:11697):
-`yer_id` *"olay BURADA oldu"* der ve KARTA da öyle yazılır; `odak_yer`
-yalnız *"kamera buraya bakacak"* der. 1827 tımar tasfiyesine
-`yer_id:"İstanbul"` yazmak kameraya yarar ama VERİYE YALAN yazar.
-⇒ Bu alet ikisini AYRI sayar ve `yer_id`yi odak dolgusu olarak ÖNERMEZ.
-
-## ODAKSIZ ≠ KUSURLU — dört sınıf, çareleri ayrı
-
-    KONUMLU     noktası var, kamera oraya gidiyor          → iş yok
-    KUTULU      kutusu var (odak_*)                        → iş yok
-    BEYANLI     kapsam_genis:true — imparatorluk kutusu     → ⚠️ AŞAĞIYA BAK
-    🔴 ODAKSIZ  hiçbiri yok — kamera KIPIRDAMIYOR          → İŞ BURADA
-
-## 🔴 BEYANLI'NIN TUZAĞI — ölçüldü 27 Eylül 2026, ve odaksızlıktan KÖTÜ
+## 🔴 BEYANLI'NIN TUZAĞI — odaksızlıktan KÖTÜ
 
 `app.js:11835`:
 
     var _odakB = _odakKG ? _odakKG.kutu : ((di >= 0 && donemler[di].b) ? donemler[di].b : null);
 
-`kapsam_genis:true` + odak yok ⇒ kamera **`donemler[di].b`**ye gider. Ve o
-kutu O GÜNÜN **OSMANLI SINIRIDIR** — ölçüldü, ilk dönem `[29.32,39.58,30.54,
-40.22]`, yani Söğüt çevresi.
-⇒ `kronoloji_japonya.js`te `kapsam_genis:true` yazmak *"kamerayı Osmanlı'ya
-gönder"* demektir. 1300'deki bir Balkan maddesinde ise kamera **Söğüt'ü**
-çerçeveler.
+`kapsam_genis:true` + odak yok ⇒ kamera **`donemler[di].b`**ye gider ve o kutu
+O GÜNÜN **OSMANLI SINIRIDIR** (ölçüldü: ilk dönem `[29.32,39.58,30.54,40.22]`
+= Söğüt çevresi). ⇒ `kronoloji_japonya.js`te `kapsam_genis:true` yazmak
+*"kamerayı Osmanlı'ya gönder"* demektir; 1300'deki bir Balkan maddesinde
+kamera SÖĞÜT'ü çerçeveler.
+🔴 Bu ODAKSIZLIKTAN KÖTÜDÜR: odaksız maddede kamera DURUR ve panel *"nokta
+yeri işaretlenmemiş"* der — kullanıcı eksikliği OKUR. Burada hiçbir sinyal
+yoktur; yanlış yer KENDİNDEN EMİN gösterilir. (`dersler/D205` ailesi.)
 
-🔴 Bu ODAKSIZLIKTAN KÖTÜDÜR ve sebebi tek cümle: odaksız maddede kamera DURUR
-ve panel *"nokta yeri işaretlenmemiş"* der — kullanıcı eksikliği OKUR. Burada
-hiçbir sinyal yoktur; yanlış yer KENDİNDEN EMİN biçimde gösterilir.
-(`dersler/D205` ailesi: *eksikliği bir hükümmüş gibi çizmek.*)
+⚠️ **"→yabancı" sütunu KABA BİR SINAVDIR** — dosya adı `olaylar` ile
+başlıyorsa Osmanlı çekirdeği sayar. Gerçek hüküm MADDE BAŞINADIR:
+`kronoloji_anadolu.js`teki 1550 tarihli bir madde için imparatorluk kutusu
+meşru olabilir, 1300 tarihli bir Balkan maddesi için değildir. Alet SAYAR,
+hüküm vermez (`§11`: ölçüm doğru, çıkarım yanlış).
 
-⚠️ **BU ALETİN "meşru mu" SÜTUNU KABA BİR SINAVDIR** — dosya adı `olaylar`
-ile başlıyorsa Osmanlı çekirdeği sayar, başlamıyorsa yabancı sayar. Gerçek
-hüküm MADDE BAŞINADIR: `kronoloji_anadolu.js`teki 1550 tarihli bir madde için
-imparatorluk kutusu meşru olabilir, `kronoloji_balkan.js`teki 1300 tarihli
-bir madde için değildir. Alet SAYAR, hüküm vermez (`CLAUDE.md §11`: ölçüm
-doğru, çıkarım yanlış).
+## 🔴 ÇÖZÜM PYTHON'DA DEĞİL, `arac/odak_cozum.js`TE
 
-Ayrıca ayrı bir kova: `yer_id` YAZILI ama `sehirler`de ÇÖZÜLMÜYOR. Bu
-bir odak eksiği değil bir EŞLEŞME kusurudur (ad yazımı/nokta yokluğu) ve
-çaresi de ayrıdır — nokta eklemek ya da adı düzeltmek.
+Sınıflandırma `js/suzgec.js`in GERÇEK işlevleriyle yapılır. Sebebi ölçülmüş:
+ilk Python sürümü İKİ yerde yanlıştı ve ikisi de "YANLIŞ TEMİZ" yönündeydi —
+`odak_kimlik` için kimlik sayısına bakıyordu (yerleşim sayısına değil), ve
+`yer_id` havuzunu `app.js:3101`in `d`/`v`/`s` süzgecinden geçirmiyordu.
+⇒ Python yalnız HANGİ dosyalar canlı (`GIRDI_DOSYALARI`, `§5`) ve TABLO;
+çözüm JS'te. İki dil, iki otorite, her biri kendi yerinde.
+
+## YAYIN KAPISI — iki ayrı sertlik
+
+    🔴 ÇÖZÜLMEYEN ODAK   0 TOLERANS. `odak_yer`/`odak_kimlik`/`yer_id`/
+                         `odak_kutu_kaynak` YAZILMIŞ ama çözülmüyor.
+                         Kırık atıftır: yazan kameranın oraya gideceğini
+                         sanır, gitmez, ve app.js yalnız KONSOLA yazar.
+                         Aynı aile: "renksiz künye — harita deliği".
+    🟡 SAYI TAVANI       ODAKSIZ ve BEYANLI→yabancı bugünün ölçümünde
+                         DONDURULUR (`denetim/ODAK-TAVAN.json`). Yalnız
+                         GERİLEME bloke eder. Tavan bir ONAY değil bir
+                         DONDURMADIR — `Değişmez 2s`/`8` ile aynı desen.
 
 KULLANIM
-    py arac/odak_olc.py                 özet tablo (dosya × sınıf)
-    py arac/odak_olc.py --ayrinti       ODAKSIZ maddeleri tarih+başlık ile bas
+    py arac/odak_olc.py                 özet tablo
+    py arac/odak_olc.py --ayrinti       ODAKSIZ maddeleri bas
+    py arac/odak_olc.py --kusur         yalnız ÇÖZÜLMEYEN odakları bas
     py arac/odak_olc.py --dosya <ad>    tek dosya
-    py arac/odak_olc.py --json <yol>    makine okunur döküm (şartname üretimi)
+    py arac/odak_olc.py --json <yol>    makine okunur döküm
+    py arac/odak_olc.py --tavan-yaz     bugünkü sayıyı TAVAN olarak dondur
 """
 import io
 import json
 import os
 import subprocess
 import sys
+import tempfile
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-AYRINTI = "--ayrinti" in sys.argv
+TAVAN_YOL = os.path.join(KOK, "denetim", "ODAK-TAVAN.json")
+COZUCU = os.path.join(KOK, "arac", "odak_cozum.js")
 
 
-def _arg(ad):
-    if ad in sys.argv:
-        i = sys.argv.index(ad)
-        if i + 1 < len(sys.argv):
-            return sys.argv[i + 1]
+def _arg(ad, argv=None):
+    argv = argv if argv is not None else sys.argv
+    if ad in argv:
+        i = argv.index(ad)
+        if i + 1 < len(argv):
+            return argv[i + 1]
     return None
 
 
-def _oku(yol):
-    """node ile ayrıştır — kendi JS ayrıştırıcımı yazmıyorum.
-    (`denetle_kronoloji.py:_oku` ile AYNI yol; veri bir dilde yazılıysa o
-    dilin yorumlayıcısı çağrılır — bu proje dersi üç kez öğrendi.)"""
-    betik = (
-        "global.window={};"
-        "eval(require('fs').readFileSync(process.argv[1],'utf8'));"
-        "const k=Object.keys(global.window)[0];"
-        "process.stdout.write(JSON.stringify({ad:k,kayit:global.window[k]||[]}));"
-    )
-    r = subprocess.run(["node", "-e", betik, yol],
-                       capture_output=True, text=True, encoding="utf-8")
+def canli_dosyalar(tek=None):
+    """Taranacak kronoloji/olay dosyaları."""
+    if tek:
+        return [tek]
+    d = os.path.join(KOK, "data")
+    return sorted(f for f in os.listdir(d)
+                  if f.endswith(".js")
+                  and (f.startswith("kronoloji_") or f.startswith("olaylar")))
+
+
+def olc(tek=None):
+    """node çözücüsünü TEK süreçte koştur → döküm sözlüğü.
+
+    🔴 Hata durumunda `{"hata": …}` döner ve çağıran bunu TEMİZ SAYMAZ
+    (`denetle_yayin.py` deseni: ÖLÇÜLEMEDİ ≠ temiz)."""
+    if not os.path.isfile(COZUCU):
+        return {"hata": "arac/odak_cozum.js yok"}
+    try:
+        import girdi
+        havuz = girdi.yukle(sessiz=True)
+    except Exception as e:                                  # noqa: BLE001
+        return {"hata": "yerleşim havuzu okunamadı: %s" % str(e)[:120]}
+
+    # süzgeç JS'te yapılacak; buraya yalnız çözüm için gereken alanlar gider
+    ince = []
+    for y in havuz:
+        ince.append({"ad": y.get("ad"), "lat": y.get("lat"), "lon": y.get("lon"),
+                     "d": y.get("d") or [], "v": y.get("v") or [],
+                     "s": y.get("s") or []})
+
+    fd, yol = tempfile.mkstemp(suffix=".json", text=True)
+    os.close(fd)
+    try:
+        io.open(yol, "w", encoding="utf-8").write(json.dumps(
+            {"kok": KOK.replace("\\", "/"), "yerlesimler": ince,
+             "dosyalar": canli_dosyalar(tek)}, ensure_ascii=False))
+        r = subprocess.run(["node", COZUCU, yol], capture_output=True,
+                           text=True, encoding="utf-8", errors="replace")
+    finally:
+        try:
+            os.unlink(yol)
+        except OSError:
+            pass
     if r.returncode != 0:
-        return None, (r.stderr or "").strip()[:200]
-    return json.loads(r.stdout), None
+        return {"hata": "node çıkış %d: %s" % (r.returncode, (r.stderr or "")[:200])}
+    try:
+        return json.loads(r.stdout)
+    except Exception as e:                                  # noqa: BLE001
+        return {"hata": "node çıktısı ayrıştırılamadı: %s · %s"
+                        % (str(e)[:80], (r.stdout or "")[:120])}
 
 
-def yer_havuzu():
-    """`sehirler` evreni — app.js hangi adlara bakıyorsa O.
-
-    ⚠️ app.js `sehirler`i `data/sehirler.js`ten DEĞİL, motorun ürettiği
-    yerleşim listesinden kurar; buradaki evren `girdi.yukle()`dir — yani
-    `GIRDI_DOSYALARI`nın okuduğu 92 dosya (`CLAUDE.md §5`: liste burada
-    TUTULMAZ).  Çözülemezse odak ölçümü yapılamaz, ATLANMAZ — durur."""
-    import girdi
-    havuz = set()
-    for y in girdi.yukle(sessiz=True):
-        ad = y.get("ad")
-        if not ad:
+def ozetle(D):
+    """Döküm → (T, beyan_yab, kusur_listesi). `olaylar*` = Osmanlı çekirdeği."""
+    T = {"KONUMLU": 0, "KUTULU": 0, "BEYANLI": 0, "ODAKSIZ": 0}
+    beyan_yab = 0
+    kusur = []
+    for d in D.get("dosyalar", []):
+        if d.get("hata"):
             continue
-        havuz.add(ad)
-        havuz.add(ad.split(" (")[0])        # app.js'in tek esnekliği
-    return havuz
+        for k in T:
+            T[k] += d["sinif"][k]
+        if not d["dosya"].startswith("olaylar"):
+            beyan_yab += d["sinif"]["BEYANLI"]
+        for x in d.get("kusur", []):
+            y = dict(x)
+            y["dosya"] = d["dosya"]
+            kusur.append(y)
+    return T, beyan_yab, kusur
 
 
-def sinifla(o, havuz):
-    """Maddenin odak sınıfı + `yer_id` eşleşme durumu.
+def tavan_oku():
+    try:
+        return json.loads(io.open(TAVAN_YOL, encoding="utf-8").read())
+    except Exception:                                       # noqa: BLE001
+        return None
 
-    Dönüş: (sınıf, yer_id_cozulmedi_mi)
-    Sıra app.js ile BİREBİR aynıdır; değiştirilirse ölçüm yalan söyler."""
-    yid = o.get("yer_id")
-    yid_var = bool(yid)
-    yid_cozuldu = bool(yid) and (yid in havuz)
 
-    yk = o.get("yer_kon")
-    if isinstance(yk, (list, tuple)) and len(yk) == 2:
-        return "KONUMLU", False
-    if yid_cozuldu:
-        return "KONUMLU", False
+def kapi_olcumu():
+    """🔴 `denetle_yayin.py` BUNU çağırır. Dönüş:
 
-    # ② kutu katmanı
-    if o.get("odak_kutu_kaynak"):
-        return "KUTULU", (yid_var and not yid_cozuldu)
-    oy = o.get("odak_yer")
-    if oy:
-        if not isinstance(oy, list):
-            oy = [oy]
-        if any((a in havuz) for a in oy if isinstance(a, str)):
-            return "KUTULU", (yid_var and not yid_cozuldu)
-    ok = o.get("odak_kimlik")
-    if isinstance(ok, list) and len(ok) >= 2:
-        return "KUTULU", (yid_var and not yid_cozuldu)
+        {"ihlal": bool, "satirlar": [str, …]}
 
-    # ③ beyan
-    if o.get("kapsam_genis") is True:
-        return "BEYANLI", (yid_var and not yid_cozuldu)
-    return "ODAKSIZ", (yid_var and not yid_cozuldu)
+    `ihlal` True olur ise yayın kapısı çıkış 1 verir. ÖLÇÜLEMEDİ de İHLALDİR.
+    """
+    sat = []
+    D = olc()
+    if D.get("hata"):
+        return {"ihlal": True,
+                "satirlar": ["✗  odak nöbetçisi ÖLÇEMEDİ: %s" % D["hata"][:90]]}
+    T, beyan_yab, kusur = ozetle(D)
+    ihlal = False
+
+    # ① kırık atıf — YENİSİNE 0 TOLERANS, bilinen borç BEYANLA geçer
+    #
+    # 🔴 Niçin liste, niçin sayı değil: bir sayı tavanı *"bir kırık atıf
+    #    serbest"* der ve hangisi olduğunu söylemez ⇒ bilinen borç kapanırken
+    #    yenisi sessizce yerine geçebilir. Liste bunu imkânsız kılar: kimlik
+    #    eşleşmezse öter. (`CLAUDE.md §11`: boş küme her öngörüyü doğrular.)
+    tv = tavan_oku()
+    beyanli = set()
+    for x in ((tv or {}).get("bilinen_kusur") or []):
+        beyanli.add((x.get("dosya"), x.get("t"), x.get("alan"), x.get("deger")))
+    yeni = [x for x in kusur
+            if (x["dosya"], x["t"], x["alan"], x["deger"]) not in beyanli]
+    kapanan = beyanli - {(x["dosya"], x["t"], x["alan"], x["deger"]) for x in kusur}
+
+    if yeni:
+        ihlal = True
+        sat.append("✗  YENİ ÇÖZÜLMEYEN ODAK ATFI: %d kayıt — alan YAZILMIŞ, "
+                   "kamera oraya GİTMİYOR" % len(yeni))
+        for x in yeni[:10]:
+            sat.append("     %-28s %s  %s=%r  → %s"
+                       % (x["dosya"][:28], x["t"], x["alan"], x["deger"], x["niye"]))
+        if len(yeni) > 10:
+            sat.append("     … %d kayıt daha (`py arac/odak_olc.py --kusur`)"
+                       % (len(yeni) - 10))
+    else:
+        sat.append("✓  yeni çözülmeyen odak atfı: 0%s"
+                   % ("  (beyanlı bilinen borç: %d)" % len(beyanli) if beyanli else ""))
+    if kapanan:
+        sat.append("✓  beyanlı borç KAPANDI: %d — tavandan düşürülmeli "
+                   "(`--tavan-yaz`)" % len(kapanan))
+
+    # ② tavan — yalnız GERİLEME bloke eder
+    if tv is None:
+        ihlal = True
+        sat.append("✗  odak TAVANI yok (%s) — `py arac/odak_olc.py --tavan-yaz`"
+                   % os.path.relpath(TAVAN_YOL, KOK))
+    else:
+        for ad, simdi, etiket in (("odaksiz", T["ODAKSIZ"], "ODAKSIZ"),
+                                  ("beyanli_yabanci", beyan_yab, "BEYANLI→yabancı")):
+            t = tv.get(ad)
+            if t is None:
+                ihlal = True
+                sat.append("✗  odak tavanında `%s` yok — tavanı yeniden yaz" % ad)
+            elif simdi > t:
+                ihlal = True
+                sat.append("✗  %s GERİLEDİ: %d > tavan %d (+%d)"
+                           % (etiket, simdi, t, simdi - t))
+            elif simdi < t:
+                sat.append("✓  %s %d (tavan %d — %d İYİLEŞME, tavan indirilmeli: "
+                           "`--tavan-yaz`)" % (etiket, simdi, t, t - simdi))
+            else:
+                sat.append("✓  %s %d (tavan %d)" % (etiket, simdi, t))
+    return {"ihlal": ihlal, "satirlar": sat}
 
 
 def main():
-    dizin = os.path.join(KOK, "data")
-    tek = _arg("--dosya")
-    if tek:
-        dosyalar = [tek]
-    else:
-        dosyalar = sorted(f for f in os.listdir(dizin)
-                          if f.endswith(".js")
-                          and (f.startswith("kronoloji_") or f.startswith("olaylar")))
-    if not dosyalar:
-        print("kronoloji/olaylar dosyası yok")
-        return 2
-
+    # 🔴 `reconfigure` MODÜL DÜZEYİNDE DEĞİL, BURADA — ve sebebi ölçülmüş bir
+    # çökme: `denetle_yayin.py:1350` bu modülü İÇE AKTARACAK ve o dosyanın
+    # kendi yorumu şöyle diyor: *"`durum_tablosu.py:20` modül düzeyinde
+    # `sys.stdout = io.TextIOWrapper(...)` yapıyor; içe aktarılınca eski
+    # sarmalayıcı çöpe gidince ALTTAKİ TAMPONU KAPATIR ve kapının bundan
+    # sonraki her `print`i ValueError ile patlar — kapı ÖLÜR."*
+    # ⇒ Modül düzeyinde HİÇBİR stdout yan etkisi yok; ayar yalnız bu alet
+    #   DOĞRUDAN koşarken yapılır. `kapi_olcumu()` zaten basmaz, satır DÖNER.
     try:
-        havuz = yer_havuzu()
-    except Exception as e:                                  # noqa: BLE001
-        print("🔴 yerleşim havuzu okunamadı — ÖLÇÜM YAPILAMAZ (atlanmıyor):", e)
-        print("   `yer_id` çözümü olmadan KONUMLU/ODAKSIZ ayrımı yalan olur.")
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:                                       # noqa: BLE001
+        pass
+    ayrinti = "--ayrinti" in sys.argv
+    yalniz_kusur = "--kusur" in sys.argv
+    tek = _arg("--dosya")
+
+    D = olc(tek)
+    if D.get("hata"):
+        print("🔴 ÖLÇÜLEMEDİ:", D["hata"])
+        print("   ⚠️ ÖLÇÜLEMEDİ ≠ TEMİZ. Kapı bunu İHLAL sayar.")
         return 2
-    print("yerleşim adı havuzu: %d (ad + parantez öncesi)" % len(havuz))
-    print("=" * 96)
 
-    dokum = []
-    T = {"KONUMLU": 0, "KUTULU": 0, "BEYANLI": 0, "ODAKSIZ": 0}
-    yid_kirik_t = 0
-    beyan_yab_t = 0          # Osmanlı çekirdeği DIŞINDA kalan kapsam_genis
-    print("%-42s %6s %8s %7s %8s %9s %9s %6s" %
-          ("dosya", "madde", "KONUMLU", "KUTULU", "BEYANLI", "→yabancı",
-           "🔴ODAKSIZ", "%iş"))
-    print("-" * 104)
-    for f in dosyalar:
-        d, hata = _oku(os.path.join(dizin, f))
-        if hata:
-            print("🔴 %-42s AYRIŞTIRILAMADI: %s" % (f, hata))
-            continue
-        kayit = d["kayit"]
-        if not isinstance(kayit, list):
-            print("⚠️ %-42s liste değil, atlandı" % f)
-            continue
-        s = {"KONUMLU": 0, "KUTULU": 0, "BEYANLI": 0, "ODAKSIZ": 0}
-        yid_kirik = 0
-        odaksiz = []
-        for o in kayit:
-            if not isinstance(o, dict):
+    print("yerleşim %d · `sehirler` havuzu %d ad / %d kayıt (d/v/s süzgeci) · künye %d"
+          % (D.get("yerlesim", 0), D.get("sehir_havuzu", 0),
+             D.get("sehir_kayit", 0), D.get("kunye", 0)))
+    print("=" * 104)
+
+    T, beyan_yab, kusur = ozetle(D)
+
+    if not yalniz_kusur:
+        print("%-42s %6s %8s %7s %8s %9s %9s %6s" %
+              ("dosya", "madde", "KONUMLU", "KUTULU", "BEYANLI", "→yabancı",
+               "🔴ODAKSIZ", "%iş"))
+        print("-" * 104)
+        for d in D["dosyalar"]:
+            if d.get("hata"):
+                print("🔴 %-42s AYRIŞTIRILAMADI: %s" % (d["dosya"], d["hata"]))
                 continue
-            sn, kirik = sinifla(o, havuz)
-            s[sn] += 1
-            T[sn] += 1
-            if kirik:
-                yid_kirik += 1
-                yid_kirik_t += 1
-            if sn == "ODAKSIZ":
-                odaksiz.append({"t": o.get("t"), "b": (o.get("b") or "")[:90],
-                                "yer_id": o.get("yer_id"),
-                                "dunya": o.get("dunya"), "onem": o.get("onem")})
-        n = sum(s.values())
-        if n == 0:
-            continue
-        # KABA sınav — gerekçesi başlıktaki uyarıda; hüküm madde başınadır
-        osm_cekirdek = f.startswith("olaylar")
-        beyan_yab = 0 if osm_cekirdek else s["BEYANLI"]
-        beyan_yab_t += beyan_yab
-        yuk = s["ODAKSIZ"] + beyan_yab
+            s = d["sinif"]
+            n = d["madde"]
+            if n == 0:
+                continue
+            by = 0 if d["dosya"].startswith("olaylar") else s["BEYANLI"]
+            yuk = s["ODAKSIZ"] + by
+            print("%-42s %6d %8d %7d %8d %9s %9d %6.1f" %
+                  (d["dosya"], n, s["KONUMLU"], s["KUTULU"], s["BEYANLI"],
+                   ("🔴%d" % by) if by else "✓ 0", s["ODAKSIZ"], 100.0 * yuk / n))
+            if ayrinti and d["odaksiz"]:
+                for x in d["odaksiz"][:40]:
+                    print("      🔴 %s  %s" % (x["t"], x["b"]))
+                if len(d["odaksiz"]) > 40:
+                    print("      … %d madde daha" % (len(d["odaksiz"]) - 40))
+        n = sum(T.values())
+        yuk_t = T["ODAKSIZ"] + beyan_yab
+        print("-" * 104)
         print("%-42s %6d %8d %7d %8d %9s %9d %6.1f" %
-              (f, n, s["KONUMLU"], s["KUTULU"], s["BEYANLI"],
-               ("🔴%d" % beyan_yab) if beyan_yab else "✓ 0",
-               s["ODAKSIZ"], 100.0 * yuk / n))
-        dokum.append({"dosya": f, "madde": n, "sinif": s,
-                      "osm_cekirdek": osm_cekirdek, "beyanli_yabanci": beyan_yab,
-                      "yuk": yuk,
-                      "yer_id_cozulmedi": yid_kirik, "odaksiz": odaksiz})
-        if AYRINTI and odaksiz:
-            for x in odaksiz[:40]:
-                print("      🔴 %s  %s" % (x["t"], x["b"]))
-            if len(odaksiz) > 40:
-                print("      … %d madde daha" % (len(odaksiz) - 40))
+              ("TOPLAM", n, T["KONUMLU"], T["KUTULU"], T["BEYANLI"],
+               "🔴%d" % beyan_yab, T["ODAKSIZ"], 100.0 * yuk_t / max(n, 1)))
+        print()
+        print("🔴 ODAKSIZ %d — kamera KIPIRDAMIYOR (panel eksikliği YAZAR)."
+              % T["ODAKSIZ"])
+        print("🔴 BEYANLI→yabancı %d — kamera OSMANLI kutusuna uçar."
+              % beyan_yab)
+        print("   Osmanlı çekirdeğinde kalan meşru beyan: %d"
+              % (T["BEYANLI"] - beyan_yab))
+        print("⇒ TOPLAM İŞ: %d madde (%.1f%%)" % (yuk_t, 100.0 * yuk_t / max(n, 1)))
+        print()
 
-    n = sum(T.values())
-    yuk_t = T["ODAKSIZ"] + beyan_yab_t
-    print("-" * 104)
-    print("%-42s %6d %8d %7d %8d %9s %9d %6.1f" %
-          ("TOPLAM", n, T["KONUMLU"], T["KUTULU"], T["BEYANLI"],
-           "🔴%d" % beyan_yab_t, T["ODAKSIZ"], 100.0 * yuk_t / max(n, 1)))
-    print()
-    print("🔴 ODAKSIZ %d madde — kamera KIPIRDAMIYOR (panel eksikliği YAZAR)."
-          % T["ODAKSIZ"])
-    print("🔴 BEYANLI→yabancı %d madde — kamera OSMANLI kutusuna uçar."
-          % beyan_yab_t)
-    print("   Osmanlı çekirdeğinde kalan meşru beyan: %d"
-          % (T["BEYANLI"] - beyan_yab_t))
-    print("   ⚠️ İkincisi birincisinden KÖTÜDÜR: sinyal yok, yanlış yer emin"
-          " biçimde gösterilir.")
-    print("⇒ TOPLAM İŞ: %d madde (%.1f%%)" % (yuk_t, 100.0 * yuk_t / max(n, 1)))
-    print()
-    print("⚠️ AYRI KOVA — `yer_id` yazılı ama yerleşime ÇÖZÜLMÜYOR: %d madde."
-          % yid_kirik_t)
-    print("   Bu bir odak eksiği DEĞİL eşleşme kusurudur (ad yazımı ya da nokta"
-          " yokluğu); çaresi de ayrıdır.")
+    print("🔴 ÇÖZÜLMEYEN ODAK ATFI: %d kayıt" % len(kusur))
+    if kusur:
+        print("   (alan YAZILMIŞ ama kamera oraya GİTMİYOR — app.js yalnız"
+              " KONSOLA yazar)")
+        say = {}
+        for x in kusur:
+            say[x["alan"]] = say.get(x["alan"], 0) + 1
+        print("   alan dağılımı:", dict(sorted(say.items())))
+        for x in kusur[:60]:
+            print("   %-34s %s  %-18s %r → %s"
+                  % (x["dosya"][:34], x["t"], x["alan"], x["deger"], x["niye"]))
+        if len(kusur) > 60:
+            print("   … %d kayıt daha" % (len(kusur) - 60))
+
+    if "--tavan-yaz" in sys.argv:
+        if tek:
+            print("🔴 --tavan-yaz TEK DOSYAYLA yazılmaz — tavan BÜTÜN evrenin ölçümüdür.")
+            return 2
+        tv = {"odaksiz": T["ODAKSIZ"], "beyanli_yabanci": beyan_yab,
+              "konumlu": T["KONUMLU"], "kutulu": T["KUTULU"],
+              "beyanli_toplam": T["BEYANLI"], "madde": sum(T.values()),
+              "bilinen_kusur": [{"dosya": x["dosya"], "t": x["t"],
+                                 "alan": x["alan"], "deger": x["deger"],
+                                 "niye": x["niye"]} for x in kusur],
+              "not": ("Tavan bir ONAY degil bir DONDURMADIR (Degismez 2s/8 ile ayni "
+                      "desen). Yalniz GERILEME yayin kapisini bloke eder; iyilesme "
+                      "olunca tavan --tavan-yaz ile INDIRILIR. bilinen_kusur bir "
+                      "SAYI degil LISTEdir: beyanli borc kapanirken yenisi sessizce "
+                      "yerine gecemez, kimlik eslesmezse oter.")}
+        io.open(TAVAN_YOL, "w", encoding="utf-8", newline="\n").write(
+            json.dumps(tv, ensure_ascii=False, indent=1) + "\n")
+        print()
+        print("✓ TAVAN YAZILDI: %s" % os.path.relpath(TAVAN_YOL, KOK))
+        print("  odaksiz %d · beyanli_yabanci %d" % (T["ODAKSIZ"], beyan_yab))
 
     jy = _arg("--json")
     if jy:
-        io.open(jy, "w", encoding="utf-8").write(
-            json.dumps({"toplam": T, "beyanli_yabanci": beyan_yab_t,
-                        "yuk": yuk_t, "yer_id_cozulmedi": yid_kirik_t,
-                        "dosyalar": dokum}, ensure_ascii=False, indent=1))
+        io.open(jy, "w", encoding="utf-8").write(json.dumps(
+            {"toplam": T, "beyanli_yabanci": beyan_yab,
+             "kusur": kusur, "dosyalar": D["dosyalar"]},
+            ensure_ascii=False, indent=1))
         print("döküm yazıldı: %s" % jy)
     return 0
 

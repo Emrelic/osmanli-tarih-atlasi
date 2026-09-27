@@ -455,11 +455,23 @@ py arac/uret_petek.py     # harita üretimi (~40 dk, yalnız Oturum 0)
 py arac/uret_devirler.py  # devirler.js — uret_petek'ten SONRA koşar
 py arac/renk_olc.py       # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
 py arac/denetle.py        # altı değişmez
+py arac/odak_olc.py       # kronoloji maddesinin KAMERA ODAĞI — kapıya BAĞLI
 py arac/denetle_yayin.py  # yayın kapısı
 py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
 ```
 - **Palet verinin fonksiyonudur:** veriye dokunan her koşudan sonra `renk_olc.py` (renge
   dokunmadan çakışma doğabilir).
+- **Odak nöbetçisi** (27 Eyl 2026, Emre: *"denetimi yayın kapısına bağla"*): kronoloji
+  maddesinin kamera odağı `denetle_yayin.py`ye BAĞLIDIR, iki ayrı sertlikle. ① **kırık
+  atıf** (`yer_id`/`odak_yer`/`odak_kimlik`/`odak_kutu_kaynak` yazılmış ama çözülmüyor)
+  YENİSİNE 0 tolerans — bilinen borç `denetim/ODAK-TAVAN.json` `bilinen_kusur` LİSTESİNDE
+  adıyla beyanlıdır (sayı değil liste: borç kapanırken yenisi yerine geçemez). ② **sayı
+  tavanı** ODAKSIZ 485 · BEYANLI→yabancı 669 dondurulmuştur; yalnız GERİLEME bloke eder,
+  iyileşince `--tavan-yaz` ile indirilir. Çözüm `arac/odak_cozum.js`te (node) çünkü
+  `suzgec.js`in GERÇEK işlevleri çağrılır — Python kopyası iki yerde "yanlış temiz"
+  vermişti. Kapının ötüp ötmediği `py denetim/ODAK-KAPI-SINAV.py` ile İKİ YÖNDE sınanır.
+  🔴 `kapsam_genis:true` + odak yok ⇒ kamera **o günün OSMANLI sınırına** uçar
+  (`app.js:11835`) — yabancı kronolojide bu bir kusurdur, odaksızlıktan KÖTÜDÜR.
 - Ortamda `python` değil **`py`**. Üretim logu koşarken boş görünür (normal); çıktıda
   "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm
   damgası yükseltilir; Pages gecikmesi ~40-60 sn.
