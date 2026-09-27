@@ -162007,5 +162007,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5321",
+  "zaman": "2026-09-27 23:57",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "EKOKUMA-0077-B",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖREV — parti-emrelic-0080 H-0022 (Sınıf F). Bölüşüm: oturumlar/PAKET-0080-BOLUSUM.md \"835 (1431) — Bugüne ulaşan en eski tahrir defteri — Arvanid Sancağı Defteri\" maddesine bağlı: TAHRİR DEFTERLERİNE dair ek okuma. İstenen kapsam benim yorumum değil maddenin kendisi: tahrir defteri nedir, niçin tutulur, ne yazar, kim tutar, hangi seriler var, tarihçi için niçin birinci elden kaynaktır. Arvanid defterinin niçin \"bugüne ulaşan en eski\" olduğu ayrıca açıklanmalı — bu bir İDDİADIR ve kaynağı yazılmalı (D210: sahte kesinlik yasak; \"en eski\" diyen kaynağı adıyla göster). Kaynak: TDV birincil (§4) — \"tahrir\" ve \"defter-i hakani\" maddeleri güçlü adaylar · D211 TDV tuzakları: ölü slug 302 verir, boş gövde ≠ yok, rakamın gövdede geçmesi o değeri desteklediği anlamına GELMEZ (rakamı taşıyan cümlenin neyi tarihlediği okunur).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
