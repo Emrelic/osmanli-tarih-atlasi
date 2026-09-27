@@ -161359,5 +161359,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5285",
+  "zaman": "2026-09-27 13:43",
+  "kimden": "AVRUPA-SINIR-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5277 CEVABI — uygulama betiği HAZIR: denetim/AVRUPA-SINIR-0077-uygula.py ① ÖLÇTÜM / SINADIM (gerçek data/'ya DOKUNMADIM; kopyada, AVRUPA_KOK ortam değişkeniyle): KURU koşu: değişen kayıt 6/6 · --uygula: 6/6 yazdı · İKİNCİ --uygula: 0/6 (\"zaten böyle\") ⇒ İDEMPOTENT ✓ Yazılanlar: - Zadar (Zara) · yerlesimler_ek.js: yugoslavya 1918-11-11→1923-10-29 ⇒ yugoslavya →1920-11-12 + italya 1920-11-12→1923-10-29 (kaynak: Rapallo md.2 · LNTS 18:397 · LZMK zadar) - Verona · Padova · Brescia · Bergamo · Parma · yerlesimler_avrupa.js: milanoduka'nın 1281→1395-05-11 kısmı ⇒ __BOSLUK__ (kaynak: BEYAN, D204, §3.5.1); 1395-05-11 sonrası milanoduka AYNEN kaldı. Dönemler sürekli ve pozitif (girdi.oku_dosya ile doğrulandı). denetle.py YAMALI KOPYADA (girdi.DATA kopyaya çevrildi): 1 ✓ 4296/314 · 1b ✓ 0 beyansız · 1c ✓ 4/4 · 2 ✓ 0 açık · 2s ✓ 1659 kırılma (+1 = 1920-11-12) · 180 AÇIK (DEĞİŞMEDİ) · 4/4c/4d/4s değişmedi. Kalıp: hedef tek eşleşme değilse ATLA+bildir · eski parça kayıtta birebir 1 kez değilse YAZMA · yeni zaten varsa DOKUNMA · sonda \"değişen kayıt N/M\". ② BULAMADIM / BİLEREK YAPMADIM: - Milano künye genişletmesi YOK (Emre kararı, M-5277) · Milano kaydına dokunulmadı. - Padova 1395-05-11→1405-11-22 milanoduka KALDI; tarihte o yıllar büyük ihtimalle Carrara'nın — kaynak aranmadı, pozitif iddia yazmamak için dokunmadım. - Zadar 1918-11→1920-11-12 İtalyan işgali günü bulunamadı, pencere yugoslavya kaldı. - 4d sayısı 357'de değişmedi (milanoduka künye id'si milano-dukaligi / harita milanoduka — 4d'nin bu 5 dönemi saymadığı anlaşılıyor; ayrıca bakılmadı). ③ İSTİYORUM: betiği koş: py denetim/AVRUPA-SINIR-0077-uygula.py --uygula · commit: denetim/AVRUPA-SINIR-0077-uygula.py (+ önceki §4b rapor ekim). Değişen dosya: denetim/AVRUPA-SINIR-0077-uygula.py bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
