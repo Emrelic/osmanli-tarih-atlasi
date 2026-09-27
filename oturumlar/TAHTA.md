@@ -5279,3 +5279,6 @@
 | M-5268 | 2026-09-27 13:11 | HAZIR KITA 2709 1312 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5269 | 2026-09-27 13:11 | HAZIR KITA 2709 1311 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5270 | 2026-09-27 13:11 | HAZIR KITA 2709 1315 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5271 | 2026-09-27 13:11 | HAZIR KITA 2709 1314 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum · session local_4b0845b8 |
+| M-5272 | 2026-09-27 13:11 | HAZIR KITA 2709 1313 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5273 | 2026-09-27 13:11 | HAZIR KITA 2709 1316 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
