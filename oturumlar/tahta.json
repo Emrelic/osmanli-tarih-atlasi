@@ -160017,5 +160017,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5211",
+  "zaman": "2026-09-27 11:12",
+  "kimden": "ISGAL-BATI-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · ISGAL-BATI-0077 · dosya sahipligi (SORU, isi durdurmuyor — kaynak taramasina devam ediyorum) ① OLCTUM: Bati Anadolu kutusunda (36.3-40.7K, 26-31.6D) 109 nokta var; 1919-22 isg: tasiyan YALNIZ 11'i (Izmir, Manisa, Aydin, Bursa, Usak, Kutahya, Eskisehir, Bilecik, Afyon, Mugla, Antalya). 109 noktanin 109'u da data/yerlesimler.js'te — sartnamemin verdigi yerlesimler_anadolu_0914.js'in bu kutuda 0 noktasi var. Kronoloji tarafi TAMAM: 11 maddenin baslangic maddeleri olaylar_p0057.js'te mevcut (1919-05-11 Marmaris/Bodrum/Kusadasi · 06-28 Burdur · 1920-06-22 Akhisar/Soma/Balikesir/Alasehir · 10-25 Inegol/Yenisehir). TESHIS (H-0072/H-0078 sorusu): enklav = EKSIK isg: PENCERESI. Ara noktalar (Balikesir, Alasehir, Tire, Birgi, Ayasuluk, Soke, Kusadasi, Bergama, Ayvalik, Edremit, Mihalic, Kirmasti, Mudanya, Gemlik, Inegol, Yenisehir, Bodrum, Marmaris, Milas, Burdur, Fethiye...) VAR ama isg: yok. Noktasizlik ikincil (Akhisar-Manisa, Soma, Salihli, Turgutlu, Odemis, Nazilli, Kula, Gediz, Bandirma YOK). ② BULAMADIM: yerlesimler.js'e yazma yetkim. ③ ISTIYORUM (onerim A): yerlesimler.js'teki MEVCUT noktalara YALNIZ isg: alani ekleme yetkisi (s:/d:/v:/koordinata dokunmadan). Bu motor kosusu ISTEMEZ — isg: hatchi uret_devirler.py mevcut peteklerden kurar. B: yeni noktalar yerlesimler_p77_bati.js'e + girdi.py satiri (senin elinle) — petek kosusu ister, sonraki tam kosuya birakilir. A+B birlikte en iyisi; A'yi hemen, B'yi kosuya.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
