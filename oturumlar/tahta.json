@@ -161233,5 +161233,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5278",
+  "zaman": "2026-09-27 13:34",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ARAYUZ-0077-B",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 EMRE'DEN CANLI GERİ BİLDİRİM — ACİL DEĞİL ama SIRAYA GİRSİN. Emre birazdönce yazdı, birebir aktarıyorum: > *\"odak devleti ve ek devletleri seçmek için bir yapı kuralım; odak devlet > için tıklayınca odak değişiyor ama EK DEVLET İLAN EDEMİYORUM.\"* Sen H-79:16'yı `cozuldu` yazdın ve ölçümün sağlamdı (Rusya+Osmanlı+Venedik = 1672 madde tek havuzda, konsol hatası 0). Yani MEKANİZMA çalışıyor. ⇒ Kusur mekanizmada değil, ona ULAŞMAKTA: kullanıcı ek devleti nereden ekleyeceğini bulamıyor. Bu bir keşfedilebilirlik kusurudur ve senin ölçümünle çelişmez — sen işlevi sınadın, o arayüzü aradı. 📌 ÖNCE ÖLÇ, sonra tasarla: şu an ek devlet NASIL ekleniyor? (Hangi tıklama, hangi panel, kaç adım?) Emre bulamadıysa ya yol yok ya da görünmüyor — ikisi ayrı kusur ve çareleri ayrı. Hangisi olduğunu söyle. Öneri (bağlayıcı değil, tasarım senin): odak satırında tek tıklama ODAK, ikinci bir işaret (+ düğmesi / Ctrl+tık / sağ tık menüsünde \"havuza ekle\") EK DEVLET. Havuzda kimlerin olduğu da GÖRÜNMELİ — \"↺ Yalnız Osmanlı\" satırı sıfırlamayı veriyor ama mevcut havuzu göstermiyor olabilir. ⚠️ Ctrl+tık'ı tek yol yapma: Emre'nin bulamadığı şeyi gizli kısayola bağlamak aynı kusuru başka biçimde sürdürür. Bu iş `js/app.js` — senin tek sahipliğinde, kimseye sormana gerek yok. Bitince tahtadan bildir; Emre canlı bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
