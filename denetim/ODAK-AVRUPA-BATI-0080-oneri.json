@@ -1,0 +1,3664 @@
+[
+ {
+  "no": 0,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1291-08-01",
+  "b": "Federal Belge — Uri, Schwyz ve Nidwalden'in birliği",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Luzern"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Uri·Schwyz·Nidwalden — üçü de Luzern kutusunda (Altdorf 46.88/8.64, Stans 46.96/8.37)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 1,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1297-09-12",
+  "b": "Alcañices Antlaşması — Portekiz–Kastilya sınırının temeli",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Badajoz",
+    "Salamanca"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "devredilen: Riba-Côa (Sabugal/Almeida) + Olivença + Campo Maior — kutu ikisini de kapsar",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 2,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1415-01-01",
+  "b": "İsviçrelilerin Aargau'yu fethi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Basel",
+    "Zürih"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Aargau (Aarau/Brugg/Lenzburg/Zofingen) iki kutunun arasında",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 3,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1482-12-23",
+  "b": "Arras Antlaşması — Burgonya mirasının paylaşılması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Arras",
+    "Besançon"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Artois + Franş-Konte (metin); Mâconnais kutunun biraz güneyinde",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 4,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1497-09-17",
+  "b": "Melilla'nın alınması",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Melîle (Melilla)"
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri: Melilla'nın alınması",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 5,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1499-09-22",
+  "b": "Basel Barışı — Svabya Savaşı'nın sonu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Basel",
+    "Konstanz"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "imza Basel + Thurgau devri (Konstanz'a ait) — metin",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 6,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1516-11-29",
+  "b": "Fribourg Ebedî Barışı — Ticino vogtlukları İsviçre'de kaldı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Milano",
+    "Luzern"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Ticino vogtlukları (Lugano/Bellinzona/Locarno) iki kutu arasında; havuzda Ticino noktası YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 7,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1532-01-01",
+  "b": "Bretanya'nın Fransa tacına bağlanması (Birleşme Fermanı)",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Brest",
+    "Nantes",
+    "Rennes"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Bretanya dükalığının tamamı; bretanya künyesi 1532-08-13'te biter (kimlik kutusu kurulamaz)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 8,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1536-01-22",
+  "b": "Bern'in Savoy'a ait Vaud'yu fethi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lozan",
+    "Cenevre"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Vaud (Moudon/Nyon/Morges/Yverdon/Lausanne) + Cenevre kuşatması — metin",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 9,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1564-10-30",
+  "b": "Lausanne Antlaşması — Savoy Vaud'dan vazgeçti, Gex ve Chablais geri verildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lozan",
+    "Cenevre",
+    "Thonon"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Vaud + Gex + Chablais (Thonon) — metin",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 10,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1570-12-13",
+  "b": "Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Östersund (Jämtland)",
+    "Visby (Gotland)",
+    "Göteborg"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Jämtland/Härjedalen + Gotland + Älvsborg — metin",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 11,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1598-05-02",
+  "b": "Vervins Barışı — İspanya Pikardiya'daki kaleleri Fransa'ya geri verdi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Amiens",
+    "Reims"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Pikardiya kaleleri (adları kaynakta yok) + Vervins kutuda",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 12,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1601-01-17",
+  "b": "Lyon Antlaşması — Bresse, Bugey ve Gex Fransa'ya geçti",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lyon",
+    "Cenevre"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Bresse (Bourg) · Bugey (Belley) · Gex — kutu üçünü kapsar",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 13,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1645-08-13",
+  "b": "Brömsebro Barışı — Jämtland ve Härjedalen İsveç'e geçti",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Östersund (Jämtland)",
+    "Mora"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Jämtland + Härjedalen (Sveg 62.03/14.36 kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 14,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1660-11-12",
+  "b": "Llívia sözleşmesi — Llívia'nın Cerdanya'da İspanyol anklavı olarak kalması",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    42.465,
+    1.981
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Llívia (sözleşme orada imzalandı, konu da Llívia) — havuzda Llívia YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 15,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1668-05-02",
+  "b": "Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lille",
+    "Gent",
+    "Namur"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "İspanyol Hollandası–Fransa sınırı (Lille/Tournai/Charleroi kuşağı)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 16,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1678-09-17",
+  "b": "Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Besançon",
+    "Dijon"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Franş-Konte (Besançon, Dole kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 17,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1751-10-02",
+  "b": "Strömstad Sınır Antlaşması — Norveç–İsveç sınırı çizildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Uddevalla",
+    "Røros",
+    "Tromsø"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Norveç–İsveç sınırının güneyden kuzeye tamamı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 18,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1752-08-02",
+  "b": "Varese Antlaşması — Ticino ile Milano Dükalığı arasındaki sınırın sistemli delimitasyonu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Milano",
+    "Bergamo"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Lugano·Mendrisio·Varese kuşağı; havuzda Ticino noktası YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 19,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1760-03-24",
+  "b": "Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Chambéry",
+    "Nice"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Savoy + Nice kontluğu boyunca sınır — metin",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 20,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1766-02-23",
+  "b": "Lorraine Fransa'ya katıldı — Stanislas'ın ölümü",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Nancy"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Lorraine dükalığı (Lunéville kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 21,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1792-11-27",
+  "b": "Savoy'un Fransa'ya katılması — Cenevre ve Valais ile sınırlar Fransız oldu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Chambéry",
+    "Thonon",
+    "Bourg-Saint-Maurice"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Savoy dükalığı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 22,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1795-10-01",
+  "b": "Avusturya Hollandası'nın Fransa'ya ilhakı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Brüj (Brugge)",
+    "Anvers (Antwerpen)",
+    "Lüksemburg"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Avusturya Hollandası",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 23,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1797-10-10",
+  "b": "Valtellina, Chiavenna ve Bormio'nun Cisalpin Cumhuriyeti'ne katılması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bergamo",
+    "Landeck"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Valtellina·Chiavenna·Bormio iki kutu arasında; havuzda üçü de YOK (nokta gerekir)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 24,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1801-02-09",
+  "b": "Lunéville Antlaşması — Ren'in sol yakası Fransa'ya",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Aachen",
+    "Köln",
+    "Trier",
+    "Mainz"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Ren'in sol yakası",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 25,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1801-06-06",
+  "b": "Badajoz Antlaşması — Olivenza İspanya'ya geçti, Guadiana fiilî sınır oldu",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Badajoz"
+  },
+  "kaldir_kg": false,
+  "gerekce": "antlaşma Badajoz'da imzalandı ve devredilen Olivenza aynı kutuda (25 km)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 26,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1802-09-11",
+  "b": "Piyemonte'nin Fransa'ya ilhakı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Aosta",
+    "Torino"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Piyemonte",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 27,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1810-07-09",
+  "b": "Holland Krallığı'nın Fransa'ya ilhakı (Rambouillet Kararnamesi)",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Groningen",
+    "Amsterdam",
+    "Middelburg"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Holland Krallığı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 28,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1810-11-12",
+  "b": "Valais'nin Simplon departmanı olarak Fransa'ya katılması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Sion (Sitten)",
+    "Martigny (Martinach)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Valais",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 29,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1814-05-30",
+  "b": "Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Cenevre",
+    "Basel"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Fransa–İsviçre sınırı (Cenevre→Basel)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 30,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1815-11-20",
+  "b": "İkinci Paris Antlaşması — Fransa'nın doğu sınırı 1790 hattına yakın biçimde daraltıldı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Namur",
+    "Strazburg",
+    "Chambéry"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Fransa'nın doğu sınırı: Philippeville/Saarlouis/Landau/Savoy kuşağı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 31,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1816-03-16",
+  "b": "Torino Antlaşması — Savoy'dan Cenevre'ye bırakılan komünler ve Cenevre–Savoy sınırı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Cenevre",
+    "Annemasse"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Cenevre–Savoy sınırı (Carouge kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 32,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1816-06-26",
+  "b": "Aachen Sınır Antlaşması — Birleşik Hollanda ile Prusya arasındaki sınır ve Tarafsız Moresnet",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Aachen",
+    "Nijmegen"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Hollanda–Prusya sınırı Kleve→Aachen + Moresnet",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 33,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1820-03-28",
+  "b": "Kortrijk Sınır Antlaşması — bugünkü Belçika–Fransa sınırı çizildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Ypres",
+    "Mons",
+    "Lüksemburg"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Belçika–Fransa (+Lüksemburg–Fransa) sınırı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 34,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1824-07-02",
+  "b": "Meppen Sınır Antlaşması — Hollanda ile Hannover arasındaki sınır",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Groningen",
+    "Münster"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Hollanda–Hannover sınırı (Meppen kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 35,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1856-12-02",
+  "b": "Bayonne Antlaşması — Pirenelerde Bidasoa'dan Navarra'ya sınırın ayrıntılı çizimi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bayonne",
+    "San Sebastián",
+    "Pamplona"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Bidasoa→Navarra batı Pireneler",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 36,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1860-04-26",
+  "b": "Wad-Ras Antlaşması — Ceuta'nın sınırı genişletildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Sebte (Ceuta)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "konu Ceuta sınırı; imza Wad-Ras'ta (Tetuan–Tanca arası) — yer_id yazılmadı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 37,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1861-03-07",
+  "b": "Torino sınır sözleşmesi — Savoy ve Nice'in devrinden sonra Fransa–Sardinya sınırı çizildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bourg-Saint-Maurice",
+    "Nice",
+    "Torino"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Savoy/Nice–Piyemonte Alp sınırı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 38,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1862-06-21",
+  "b": "Tanca demarkasyon akdi — Melilla sınırı işaretlendi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Melîle (Melilla)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "konu Melilla sınırı; akit Tanca'da — yer_id yazılmadı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 39,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1862-12-08",
+  "b": "Dappes Antlaşması — Fransa ile İsviçre arasında toprak takası",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Cenevre",
+    "Lozan"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Dappes vadisi (~46.50/6.10) kutuda",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 40,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1864-09-29",
+  "b": "Lizbon Sınır Antlaşması — Minho'dan Caia'ya İspanya–Portekiz sınırı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Vigo",
+    "Bragança",
+    "Badajoz"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Minho ağzı→Caia İspanya–Portekiz sınırı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 41,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1864-10-30",
+  "b": "Viyana Antlaşması — Danimarka Schleswig, Holstein ve Lauenburg'u bıraktı, sınır Kongeå'ya çekildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Ribe",
+    "Kiel",
+    "Hamburg",
+    "Lübeck"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Schleswig·Holstein·Lauenburg + Kongeå hattı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 42,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1868-07-11",
+  "b": "Bayonne Nihaî Akdi — Fransa–İspanya sınırının delimitasyonu tamamlandı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "San Sebastián",
+    "Pau",
+    "Perpignan"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Pirenelerin tamamı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 43,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1879-06-24",
+  "b": "İsviçre–Almanya sınır antlaşması — Untersee ve Konstanz kesimi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Konstanz"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Untersee + Konstanz kesimi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 44,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1893-07-21",
+  "b": "Ren düzenlemesi antlaşması yürürlüğe girdi — Avusturya-Macaristan–İsviçre sınırı Eski Ren'in ortası",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bregenz",
+    "Feldkirch"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Eski Ren (Diepoldsau ~47.38/9.64) kutuda",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 45,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1894-03-05",
+  "b": "Merakeş Sözleşmesi — Melilla sınırı ve tarafsız bölge",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Melîle (Melilla)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "konu Melilla sınırı; imza Merakeş'te — yer_id yazılmadı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 46,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1900-02-12",
+  "b": "Kopenhag Sınır Sözleşmesi — Kongeå hattında iki küçük düzeltme",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Ribe",
+    "Kolding"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Kongeå hattı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 47,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1905-10-26",
+  "b": "Karlstad sözleşmeleri — İsveç-Norveç birliğinin sonu, Norveç–İsveç sınırı iki bağımsız devletin sınırı oldu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_kimlik": [
+    "norvec",
+    "isvec"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "iki taraf devlet — birliğin çözülmesi ve sınırın tamamı",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 48,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1917-12-06",
+  "b": "Finlandiya bağımsızlığını ilan etti — İsveç ve Norveç ile sınırlar Finlandiya'nın oldu",
+  "eski": "ODAKSIZ",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "finlandiya"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "bağımsızlık ilanı — yeni devletin tamamı",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 49,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1918-11-03",
+  "b": "Villa Giusti Ateşkesi — Güney Tirol'ün Brenner'e kadar İtalyan işgaline bırakılması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Trento",
+    "Landeck",
+    "Innsbruck"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Güney Tirol, Reschen→Brenner; havuzda Bolzano/Merano YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 50,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1920-01-10",
+  "b": "Versay Antlaşması ile Eupen-Malmedy ve Tarafsız Moresnet Belçika'ya geçti",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Aachen",
+    "St. Vith (Sankt Vith)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Eupen·Malmedy·Moresnet kutuda; havuzda üçü de YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 51,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1920-01-01",
+  "b": "Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Trento",
+    "Landeck",
+    "Innsbruck",
+    "Udine"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Güney Tirol + Tarvis",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 52,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1920-01-01",
+  "b": "Güney Tirol'le birlikte eski Avusturya–İsviçre sınırının bir kesimi İtalya–İsviçre sınırı oldu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Landeck",
+    "Trento"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Stelvio→Piz Lad kesimi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 53,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1920-07-05",
+  "b": "Kuzey Schleswig Danimarka'ya geçti — yeni Danimarka–Almanya sınırı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Aabenraa",
+    "Flensburg",
+    "Ribe"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Kuzey Schleswig (Sønderborg/Tønder/Haderslev kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 54,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1920-11-12",
+  "b": "Rapallo Antlaşması — İtalya ile SHS Krallığı arasında Julian Alpleri sınırı ve Fiume Serbest Devleti",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Trieste",
+    "Krk (Veglia)",
+    "Zadar (Zara)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Julian Alpleri hattı + Fiume + Zara; havuzda Fiume/Gorizia YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 55,
+  "dosya": "kronoloji_sinir_avrupa_bati.js",
+  "t": "1920-12-31",
+  "b": "Tartu Barışı yürürlüğe girdi — Petsamo Finlandiya'ya geçti, Norveç'le yeni sınır",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Petsamo (Peçenga)",
+    "Vardø"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Petsamo + Norveç sınırı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 56,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1338-07-16",
+  "b": "Rhense Bildirisi — imparatorluk seçiminin papalıktan bağımsızlığı",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    50.281,
+    7.617
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Rhens (metin: 'Rhense'de toplanıp') — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 57,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1356-01-10",
+  "b": "Altın Ferman — yedi seçici prens sisteminin hukukîleşmesi",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Nürnberg"
+  },
+  "kaldir_kg": true,
+  "gerekce": "10 Ocak bölümü Nürnberg diyetinde ilan edildi (metin + kaynak)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 58,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1495-08-07",
+  "b": "Worms Diyeti — Reichskammergericht ve Ebedî Kamu Barışı",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    49.632,
+    8.359
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Worms diyeti — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 59,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1500-07-02",
+  "b": "İmparatorluk çevrelerinin (Reichskreise) kurulması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Augsburg"
+  },
+  "kaldir_kg": true,
+  "gerekce": "Augsburg Diyeti'nde kararlaştırıldı (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 60,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1517-10-31",
+  "b": "Luther'in Wittenberg'de 95 Tezi",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.867,
+    12.646
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Wittenberg (başlık) — havuzda YOK (kaynak alanı da söylüyor)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 61,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1521-04-17",
+  "b": "Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    49.632,
+    8.359
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Worms diyeti — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 62,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1522-09-21",
+  "b": "Luther'in Yeni Ahit'i Almancaya çevirmesi",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.867,
+    12.646
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Eylül 1522 baskısı Wittenberg (Melchior Lotter) — METİN YER VERMİYOR, genel kabul",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 63,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1525-05-15",
+  "b": "Alman Köylü Savaşı'nın Frankenhausen'de bastırılması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.357,
+    11.102
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Frankenhausen muharebesi — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 64,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1529-04-19",
+  "b": "Speyer Diyeti — 'Protestan' adının doğuşu",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    49.319,
+    8.431
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Speyer diyeti — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 65,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1531-02-27",
+  "b": "Schmalkaldic Birliği'nin kurulması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    50.722,
+    10.449
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Schmalkalden (metin) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 66,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1546-02-18",
+  "b": "Luther'in ölümü",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.528,
+    11.548
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Eisleben (metin+kaynak) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 67,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1547-04-24",
+  "b": "Mühlberg Muharebesi — Schmalkaldic Birliği'nin yenilgisi",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.435,
+    13.22
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Mühlberg (Elbe) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 68,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1608-05-14",
+  "b": "Protestan Birliği'nin kurulması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    49.006,
+    10.624
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Auhausen (metin) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 69,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1609-07-10",
+  "b": "Katolik Birlik'in (Katholische Liga) kurulması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Münih"
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Münih (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 70,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1630-07-06",
+  "b": "İsveç Kralı Gustav Adolf'un Pomeranya'ya çıkarma yapması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    54.14,
+    13.77
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Usedom adası çıkarması (Peenemünde yakını, ±10 km)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 71,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1634-09-06",
+  "b": "Nördlingen Muharebesi — İsveç'in ağır yenilgisi",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    48.851,
+    10.489
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Nördlingen — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 72,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1672-01-01",
+  "b": "Brandenburg yardımcı kuvvetlerinin Osmanlı-Lehistan savaşlarına katılması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Kamaniçe"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "cephe Podolya (1672 Kamaniçe); Osmanlı kutusu YANLIŞTI",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 73,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1813-03-17",
+  "b": "Prusya'nın Fransa'ya savaş ilanı — 'Halkıma' çağrısı",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "prusya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "savaş ilanı + halka çağrı — Prusya'nın tamamı (künye id 'prusya'; madde devlet:'brandenburg-prusya' künyede YOK)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 74,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1815-06-08",
+  "b": "Alman Konfederasyonu'nun (Deutscher Bund) kurulması",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "almanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Konfederasyonun tamamı",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 75,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1834-01-01",
+  "b": "Alman Gümrük Birliği'nin (Zollverein) yürürlüğe girmesi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "almanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "gümrük birliği — Alman devletleri",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 76,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1867-04-16",
+  "b": "Kuzey Alman Konfederasyonu Anayasası'nın kabulü",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "prusya",
+    "almanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Kuzey Alman devletleri (Prusya + öteki Alman kimlikleri)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 77,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1871-04-16",
+  "b": "Alman İmparatorluğu Anayasası'nın kabulü",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "almanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "imparatorluk anayasası",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 78,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1873-05-11",
+  "b": "Kulturkampf — Mayıs Yasaları'nın ilki",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "almanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "imparatorluk çapında yasa",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 79,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1878-10-19",
+  "b": "Sosyalistlere Karşı Yasa (Sozialistengesetz)",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "almanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "imparatorluk çapında yasa",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 80,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1883-06-15",
+  "b": "Sağlık sigortası yasası — dünyanın ilk devlet sosyal güvencesi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Aachen",
+    "Königsberg",
+    "Flensburg",
+    "Konstanz"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "imparatorluk çapında yasa; almanya kimlik kutusu 1883'te bile bozuk (ölçüldü: güney ucu -26.65) ⇒ sınır uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 81,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1889-06-22",
+  "b": "Yaşlılık ve Malullük Sigortası Yasası",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Aachen",
+    "Königsberg",
+    "Flensburg",
+    "Konstanz"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "imparatorluk çapında yasa; almanya kimlik kutusu 1884 sonrası sömürgelerle bozuk (ölçüldü 1900: 1.17..169.63) ⇒ sınır uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 82,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1900-01-01",
+  "b": "Alman Medeni Kanunu'nun (BGB) yürürlüğe girmesi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Aachen",
+    "Königsberg",
+    "Flensburg",
+    "Konstanz"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "imparatorluk çapında kanun; kimlik kutusu sömürgelerle bozuk (ölçüldü) ⇒ sınır uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 83,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1914-08-04",
+  "b": "Almanya'nın Belçika'yı işgali ve İngiltere'nin savaş ilanı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Liège",
+    "Brüksel",
+    "Aachen"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Belçika işgali ekseni Aachen→Liège→Brüksel",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 84,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1918-03-21",
+  "b": "Alman Bahar Taarruzu'nun (Kaiserschlacht) başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Arras",
+    "Amiens"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Michael taarruzu Arras–St-Quentin cephesi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 85,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1919-08-11",
+  "b": "Weimar Anayasası'nın kabulü",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    50.979,
+    11.329
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Weimar (metin) — ⚠️ 11 Ağustos imza günü Schwarzburg'dadır, Weimar'daki kabul 31 Temmuz; TARİH/YER tutarlılığı koordinatöre",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 86,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1923-01-11",
+  "b": "Fransız-Belçika Ruhr İşgali",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Dortmund"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Ruhr bölgesi; havuzda Essen/Duisburg YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 87,
+  "dosya": "kronoloji_almanya.js",
+  "t": "1837-06-20",
+  "b": "Hannover-Britanya kişisel birliğinin sona ermesi",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Hannover"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Hannover krallığı; madde devlet:'hannover' künyede YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 88,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1281-01-01",
+  "b": "XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "portekiz"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "krallığın tamamı (1281 kutusu temiz: 10 yerleşim)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 89,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1385-08-14",
+  "b": "Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    39.617,
+    -8.826
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Aljubarrota muharebe alanı (São Jorge) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 90,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1419-01-01",
+  "b": "Denizci Henrique, Sagres'te bir keşif kadrosu kurdu",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    37.009,
+    -8.94
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "olay yeri Sagres (metin) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 91,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1434-01-01",
+  "b": "Gil Eannes, Bojador Burnu'nu aştı",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    26.125,
+    -14.498
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Bojador Burnu (metin)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 92,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1449-05-20",
+  "b": "Alfarrobeira Savaşı — naiplik krizi kanlı bitti",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    38.9,
+    -9.04
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Alfarrobeira deresi, Alverca yakını (±5 km)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 93,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1460-11-13",
+  "b": "Denizci Henrique'in ölümü",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    37.009,
+    -8.94
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "ölüm yeri Sagres — METİN YER VERMİYOR, genel kabul",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 94,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1488-01-01",
+  "b": "Bartolomeu Dias, Ümit Burnu'nu dolaştı",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    -34.357,
+    18.474
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Ümit Burnu (başlık)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 95,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1494-06-07",
+  "b": "Tordesillas Antlaşması — dünya iki devlet arasında bölüşüldü",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    41.502,
+    -5.0
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "imza yeri Tordesillas (başlık) — konu dünya çapında bir hat, kutuya sığmaz",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 96,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1500-03-09",
+  "b": "Cabral filosu Hindistan'a yola çıktı, Brezilya'ya rastladı",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Lizbon"
+  },
+  "kaldir_kg": false,
+  "gerekce": "tarih (9 Mart) filonun Lizbon'dan çıkışı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 97,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1502-01-01",
+  "b": "Cartaz sistemi kuruldu — Hint Okyanusu ticareti izne bağlandı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Kalikut (Kozhikode)",
+    "Koçin (Kochi)",
+    "Goa"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Malabar kıyısı — cartaz'ın başladığı Gama'nın 2. seferi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 98,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1512-01-01",
+  "b": "Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Bragança",
+    "Porto",
+    "Lizbon",
+    "Faro"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "krallık çapında kod; portekiz kimlik kutusu 1512'de sömürgelerle bozuk (-17..128) ⇒ ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 99,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1517-01-01",
+  "b": "Seylan'a ulaşıldı — tarçın adası",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Kolombo"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Seylan/Kotte + Colombo kalesi (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 100,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1525-01-01",
+  "b": "Selman Reis'in raporu — Kızıldeniz savunma planı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Süveyş",
+    "Cidde",
+    "Aden"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "konu Kızıldeniz savunması; Osmanlı kutusu YANLIŞ",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 101,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1534-01-01",
+  "b": "Brezilya on beş kaptanlığa bölündü",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Salvador (Bahia)",
+    "Rio de Janeiro",
+    "São Paulo"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Brezilya kıyısı kaptanlıkları; havuzda kuzey kıyı (Pernambuco/Maranhão) YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 102,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1537-01-01",
+  "b": "Pedro Nunes'un rota risalesi — loxodrome'un keşfi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Lizbon",
+    "Coimbra"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "risalenin yeri metinde yok — kamera Portekiz merkezine (iddia değil gösterim)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 103,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1543-02-21",
+  "b": "Ahmed Gran'ın ölümü — Habeşistan'da Osmanlı-Portekiz vekâlet savaşı sona erdi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Gondar"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Wayna Daga muharebesi Tana gölü kıyısı — kamera bölgeye; kesin konum ölçülemedi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 104,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1549-08-15",
+  "b": "Francis Xavier, Japonya'da ilk Hıristiyan misyonunu başlattı",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Kagoşima"
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Kagoşima (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 105,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1578-08-04",
+  "b": "Vâdisseyl (Alcácer Quibir) Savaşı — Kral Sebastião öldü, hanedan çöktü",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Kasrülkebîr"
+  },
+  "kaldir_kg": false,
+  "gerekce": "Alcácer Quibir muharebesi (Vâdilmehâzin, kasabanın ~10 km kuzeyi)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 106,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1581-04-16",
+  "b": "Tomar Cortes'i — II. Felipe Portekiz kralı ilan edildi, İberya Birliği başladı",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    39.601,
+    -8.41
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Tomar (metin) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 107,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1662-05-21",
+  "b": "Catherine of Braganza'nın İngiltere kralıyla evliliği — Tanca ve Bombay çeyiz olarak verildi",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    50.798,
+    -1.091
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "evlilik Portsmouth'ta — METİN YER VERMİYOR, genel kabul",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 108,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1665-06-17",
+  "b": "Montes Claros Savaşı — Restorasyon Savaşı'nın kesin zaferi",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    38.8,
+    -7.46
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Montes Claros (Borba–Vila Viçosa, ±5 km)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 109,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1693-01-01",
+  "b": "Minas Gerais'te altın bulundu — Brezilya altın çağı başladı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Ouro Preto (Vila Rica)"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "'bugünkü Ouro Preto çevresi' (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 110,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1822-09-07",
+  "b": "Brezilya bağımsızlığını ilan etti — 'İpiranga Çağrısı'",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    -23.585,
+    -46.609
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Ipiranga deresi, São Paulo (metin)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 111,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1826-04-29",
+  "b": "Anayasal Karta ilan edildi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Bragança",
+    "Porto",
+    "Lizbon",
+    "Faro"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "anayasa Portekiz için; kimlik kutusu sömürgelerle bozuk ⇒ ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 112,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1834-05-24",
+  "b": "Evoramonte Sözleşmesi — Liberal Savaşlar sona erdi",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    38.774,
+    -7.716
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Evoramonte (metin) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 113,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1836-12-10",
+  "b": "Sá da Bandeira kararnamesi — köle ticareti yasaklandı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Luanda",
+    "Mozambik Adası"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "kararname Angola + Mozambik (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 114,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1869-02-25",
+  "b": "Kölelik bütün Portekiz topraklarında kaldırıldı",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "portekiz"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "'bütün topraklarında (Angola, Mozambik, Goa dahil)' — kimlik kutusu İMPARATORLUĞUN TAMAMI (-16..127), kasıtlı",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 1
+ },
+ {
+  "no": 115,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1886-02-20",
+  "b": "'Pembe Harita' — Angola-Mozambik kıtasal iddiası ilan edildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Luanda",
+    "Mozambik Adası",
+    "Sofala"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Angola–Mozambik kuşağı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 116,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1917-02-01",
+  "b": "Portekiz Seferi Kolordusu Batı Cephesi'ne gönderildi",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lille"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "CEP Flandre cephesi (Lys)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 117,
+  "dosya": "kronoloji_portekiz.js",
+  "t": "1923-10-29",
+  "b": "1923'te Portekiz — istikrarsız Birinci Cumhuriyet",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Bragança",
+    "Porto",
+    "Lizbon",
+    "Faro"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "iç siyaset özeti; kimlik kutusu sömürgelerle bozuk ⇒ ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 118,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1568-01-01",
+  "b": "Seksen Yıl Savaşları'nın başlaması — İspanya'ya karşı isyan",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Groningen",
+    "Brüksel",
+    "Amsterdam",
+    "Middelburg"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "on yedi vilâyet",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 119,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1575-02-08",
+  "b": "Leiden Üniversitesi'nin kurulması",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.16,
+    4.497
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Leiden (metin+kaynak) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 120,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1581-07-26",
+  "b": "Feragat Bildirisi — kralın azledilmesi",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.078,
+    4.299
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Genel Meclis Lahey'de (kaynak alanı) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 121,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1588-08-08",
+  "b": "İspanyol Armadası'nın bozgunu",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Calais",
+    "Dover"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Manş (Calais–Gravelines)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 122,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1609-11-01",
+  "b": "Grotius'un Mare Liberum'u — denizlerin serbestliği",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.16,
+    4.497
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Leiden'de basıldı (metin)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 123,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1611-09-07",
+  "b": "Cornelis Haga'nın İstanbul'a yola çıkması",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.078,
+    4.299
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Genel Meclis kararı Lahey — çıkış yeri METİNDE AÇIK DEĞİL (kaynak alanı Lahey'i kastediyor)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 124,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1613-01-01",
+  "b": "Ömer Ağa'nın Hollanda'ya gönderilmesi ve Haga'nın daimî elçi olması",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.078,
+    4.299
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "elçinin karşılandığı Genel Meclis Lahey — METİNDE AÇIK DEĞİL",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 125,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1625-06-05",
+  "b": "Breda'nın kaybı",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.589,
+    4.776
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Breda — havuzda YOK (kaynak alanı söylüyor)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 126,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1629-04-14",
+  "b": "Christiaan Huygens'in doğumu",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.078,
+    4.299
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "doğum yeri Den Haag (kaynak alıntısı)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 127,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1639-10-21",
+  "b": "Downs Deniz Savaşı — İspanyol donanmasının imhası",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.23,
+    1.43
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Downs demirleme yeri (Deal açığı)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 128,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1652-07-10",
+  "b": "Birinci İngiliz-Hollanda Savaşı",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Londra",
+    "Amsterdam"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "iki deniz cumhuriyeti — Kuzey Denizi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 129,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1667-06-19",
+  "b": "Medway baskını — Thames'te Hollanda donanması",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    51.378,
+    0.527
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Medway, Chatham (metin)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 130,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1672-01-01",
+  "b": "Rampjaar — Felaket Yılı",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Groningen",
+    "Amsterdam",
+    "Middelburg",
+    "Nijmegen"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "vilâyetlerin yarısı işgal; hollanda kimlik kutusu sömürgelerle bozuk (ölçüldü -58..80) ⇒ ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 131,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1676-01-01",
+  "b": "Leeuwenhoek ve mikroskobik canlıların keşfi",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    52.012,
+    4.357
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Delft (metin)",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ },
+ {
+  "no": 132,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1677-02-21",
+  "b": "Spinoza'nın ölümü ve Etika'nın yayımlanması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Amsterdam",
+    "Rotterdam"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Etika Amsterdam'da basıldı; ölüm yeri metinde yok — kamera Holland vilâyetine",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 133,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1688-11-05",
+  "b": "III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    50.395,
+    -3.515
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "5 Kasım çıkarması Torbay/Brixham — METİNDE YER YOK, genel kabul",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 1
+ },
+ {
+  "no": 134,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1839-04-19",
+  "b": "Belçika bağımsızlığının tanınması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Brüksel",
+    "Anvers (Antwerpen)",
+    "Arlon",
+    "Maastricht"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Belçika + kesinleşen sınır",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 135,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1890-11-23",
+  "b": "Lüksemburg'un ayrılması",
+  "eski": "ODAKSIZ",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lüksemburg"
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "Lüksemburg",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 136,
+  "dosya": "kronoloji_hollanda.js",
+  "t": "1914-08-01",
+  "b": "I. Dünya Savaşı'nda tarafsızlık",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Groningen",
+    "Amsterdam",
+    "Middelburg",
+    "Nijmegen"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "ülke çapında tarafsızlık; kimlik kutusu sömürgelerle bozuk ⇒ ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 137,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1478-11-01",
+  "b": "İspanyol Engizisyonu kuruldu",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "kastilya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Kastilya tacı (metin) — 1478 kutusu temiz",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 138,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1479-01-20",
+  "b": "Kastilya ile Aragon tacları fiilen birleşti",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "ispanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "iki tacın birleşmesi — 1479-01-20 ispanya kutusu temiz",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 139,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1492-03-31",
+  "b": "Alhambra Fermanı — Yahudilerin sürgünü",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "ispanya"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "ülke çapında ferman (kaynak: 'tek yerleşime bağlanamaz') — 1492 kutusu temiz",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 140,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1499-01-01",
+  "b": "Fernando de Rojas'ın La Celestina'sının yayımlanması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Burgos"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "ilk bilinen baskı Burgos 1499 — METİNDE YER YOK, genel kabul",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 1
+ },
+ {
+  "no": 141,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1512-12-27",
+  "b": "Burgos Kanunları — Amerika yerlilerine yönelik ilk kodifiye hukuk",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Burgos"
+  },
+  "kaldir_kg": true,
+  "gerekce": "kanunlar Burgos'ta çıkarıldı (adı başlıkta)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 142,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1542-11-20",
+  "b": "Yeni Kanunlar (Leyes Nuevas) — yerlilerin korunması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Barselona"
+  },
+  "kaldir_kg": true,
+  "gerekce": "Barcelona'da ilan edildi — METİNDE YER YOK, genel kabul",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 1
+ },
+ {
+  "no": 143,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1609-04-04",
+  "b": "Moriskoların sürgün fermanının uygulanmaya başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Valensiya",
+    "Zaragoza",
+    "Sevilla"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Morisko nüfusu Valensiya/Aragon/Endülüs",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 144,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1701-05-01",
+  "b": "İspanya Veraset Savaşı başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Madrid",
+    "Paris",
+    "Viyana",
+    "Londra"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Büyük İttifak × Fransa-İspanya: Batı Avrupa",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 145,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1736-01-01",
+  "b": "Fransız-İspanyol Jeodezi Seferi (Ekvator ölçümü)",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Quito"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "'bugünkü Ekvador' ölçümü — Quito",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 146,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1767-04-02",
+  "b": "Cizvitlerin İspanya ve sömürgelerinden sürülmesi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "A Coruña",
+    "Barselona",
+    "Cádiz",
+    "Madrid"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "bütün İspanya topraklarından; ispanya kimlik kutusu sömürgelerle bozuk (ölçüldü -90..146) ⇒ ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 147,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1778-10-12",
+  "b": "Serbest Ticaret Kararnamesi — sömürge limanlarının açılması",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "A Coruña",
+    "Barselona",
+    "Cádiz",
+    "Madrid"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "on üç liman — ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 148,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1783-01-01",
+  "b": "Yeni Granada Kraliyet Botanik Seferi'nin başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bacatá (Bogotá)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Yeni Granada (bugünkü Kolombiya)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 149,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1823-04-07",
+  "b": "\"Aziz Louis'nin Yüz Bin Oğlu\" Fransız ordusu İspanya'yı işgal etti",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bayonne",
+    "San Sebastián"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "7 Nisan Bidasoa geçişi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 150,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1836-01-01",
+  "b": "Mesta'nın (göçebe koyun yetiştiricileri loncası) kaldırılması",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "A Coruña",
+    "Barselona",
+    "Cádiz",
+    "Madrid"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Kastilya kırsalı kurumu; ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 151,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1898-04-25",
+  "b": "İspanyol-Amerikan Savaşı'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Havana (La Habana)",
+    "Santiago de Cuba"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Küba (metin); Filipin cephesi kutuya alınmadı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 152,
+  "dosya": "kronoloji_ispanya.js",
+  "t": "1898-01-01",
+  "b": "98 Kuşağı'nın doğuşu — imparatorluk kaybının aydınlar üzerindeki etkisi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "A Coruña",
+    "Barselona",
+    "Cádiz",
+    "Madrid"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "ülke çapında edebî akım; ana kara uçları",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 153,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1593-07-01",
+  "b": "Uzun Türk Savaşı'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Viyana",
+    "Yanıkkale (Győr)",
+    "Estergon",
+    "Budin"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Macaristan cephesi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 154,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1604-01-01",
+  "b": "Bocskai ayaklanması — Macar soylularının isyanı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Kassa (Košice)",
+    "Debrecen"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Bocskai ayaklanması Partium–Yukarı Macaristan",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 155,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1701-01-01",
+  "b": "İspanya Veraset Savaşı'na girilmesi",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Madrid",
+    "Paris",
+    "Viyana",
+    "Londra"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "İspanya Veraset Savaşı: Batı Avrupa",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 156,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1703-01-01",
+  "b": "II. Rákóczi Ferenc ayaklanmasının başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Munkács (Mukacheve)",
+    "Ungvár (Uzhhorod)",
+    "Kassa (Košice)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Rákóczi ayaklanması KD Macaristan",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 157,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1720-01-01",
+  "b": "Pragmatik Yaptırım'ın eyalet meclislerince kabulü",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "habsburg"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "eyalet meclisleri — monarşinin tamamı (1720 kutusu temiz)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 158,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1740-12-16",
+  "b": "Prusya'nın Silezya'yı işgali",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Breslau (Wrocław)",
+    "Liegnitz (Legnica)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Silezya",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 159,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1756-01-01",
+  "b": "Renversement des alliances — Fransa ile ittifak",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Paris",
+    "Viyana"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Habsburg–Fransa ittifakı: iki taraf",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 160,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1756-08-29",
+  "b": "Yedi Yıl Savaşı'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Dresden",
+    "Prag",
+    "Breslau (Wrocław)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Saksonya–Bohemya–Silezya cephesi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 161,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1792-04-20",
+  "b": "Fransa ile savaşın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Paris",
+    "Brüksel"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Fransa × Avusturya Hollandası",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 162,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1821-01-01",
+  "b": "İtalya'daki ayaklanmaların bastırılması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Napoli",
+    "Torino"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Napoli + Piyemonte (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 163,
+  "dosya": "kronoloji_habsburg.js",
+  "t": "1854-01-01",
+  "b": "Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Bükreş",
+    "Yaş"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Tuna prenslikleri (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 164,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1337-05-24",
+  "b": "Yüzyıl Savaşları'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Londra",
+    "Paris",
+    "Bordo"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "İngiltere × Fransa + Gaskonya",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 165,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1358-05-28",
+  "b": "Jacquerie köylü ayaklanması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Paris",
+    "Amiens"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Kuzey Fransa (Beauvaisis)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 166,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1445-01-01",
+  "b": "Compagnies d'ordonnance — daimî kraliyet ordusunun kurulması",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Paris",
+    "Lyon",
+    "Tours"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "krallık ordusu; fransa kimlik kutusu BOZUK (1445'te Natashquan/Kanada fransa sayılıyor — veri kusuru) ⇒ merkez şehirler",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 167,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1494-09-02",
+  "b": "İtalyan Savaşları'nın başlaması — VIII. Charles'ın Napoli seferi",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Torino",
+    "Napoli"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Alpler→Napoli seferi",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 168,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1667-05-24",
+  "b": "Devrolma Savaşı'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Lille",
+    "Tournai",
+    "Brüksel"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "İspanyol Hollandası",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 169,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1701-09-07",
+  "b": "İspanya Veraset Savaşı'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Madrid",
+    "Paris",
+    "Viyana",
+    "Londra"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Büyük İttifak × Fransa-İspanya",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 170,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1756-01-01",
+  "b": "Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Paris",
+    "Viyana"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Fransa–Habsburg ittifakı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 171,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1796-04-12",
+  "b": "Napolyon Bonapart'ın İtalya Seferi'nin başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Cenova",
+    "Torino",
+    "Milano"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "İtalya seferi Liguria→Piyemonte→Lombardiya",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 172,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1863-06-10",
+  "b": "Meksika Seferi — Maximilian'ın imparator ilanı hazırlığı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Tenochtitlan (Mexico City)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Meksika seferi / Mexico City",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 173,
+  "dosya": "kronoloji_fransa.js",
+  "t": "1917-04-16",
+  "b": "Nivelle Taarruzu ve Fransız ordusu isyanları",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Reims"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Chemin des Dames Reims'in KB'sı, kutuda",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 174,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1337-10-01",
+  "b": "III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Londra",
+    "Paris"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "iki taç arasında",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 175,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1387-01-01",
+  "b": "Chaucer'ın Canterbury Hikâyeleri'ni yazmaya başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Londra",
+    "Dover"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Londra–Canterbury (Canterbury kutuda)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 176,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1899-10-11",
+  "b": "İkinci Boer Savaşı başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Transvaal (Bur cumhuriyeti)",
+    "Oranj (Bur cumhuriyeti)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "iki Boer cumhuriyeti (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 177,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1832-01-01",
+  "b": "Kolera salgını Britanya'yı vurdu",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Londra",
+    "Edinburg",
+    "Dublin"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Britanya çapında salgın; ingiltere kimlik kutusu BOZUK (Alaska yerleşimleri 1281'den beri ingiltere — veri kusuru) ⇒ ada şehirleri",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 178,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1918-06-01",
+  "b": "İspanyol Gribi salgını Britanya'yı vurdu",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Londra",
+    "Edinburg",
+    "Dublin"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Britanya çapında salgın; kimlik kutusu bozuk ⇒ ada şehirleri",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 179,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1415-01-01",
+  "b": "Glyndŵr'ün ayaklanması sönümlendi",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Caernarfon",
+    "Cardiff"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Galler",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 180,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1609-01-01",
+  "b": "Ulster Plantasyonu başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Derry",
+    "Belfast",
+    "Donegal"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Ulster",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 181,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1641-10-23",
+  "b": "1641 İrlanda İsyanı başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Derry",
+    "Belfast",
+    "Donegal"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Ulster (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 182,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1798-05-23",
+  "b": "1798 İrlanda Ayaklanması başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Dublin",
+    "Wexford"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Dublin çevresi + Wexford (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 183,
+  "dosya": "kronoloji_ingiltere.js",
+  "t": "1845-09-13",
+  "b": "Patates mildiyösü ilk kez bildirildi — Büyük Kıtlık başladı",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_yer": [
+    "Derry",
+    "Dublin",
+    "Cork",
+    "Galway"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "İrlanda'nın tamamı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 184,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1434-01-01",
+  "b": "Engelbrekt İsyanı başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Falun",
+    "Mora"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Dalarna (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 185,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1521-01-01",
+  "b": "Gustav Vasa'nın ayaklanması Dalarna'da başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Falun",
+    "Mora"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Dalarna (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 186,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1587-01-01",
+  "b": "Osmanlı ile ilk resmî temas — Kral Sigismund'un mektubu",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Stokholm",
+    "İstanbul"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "iki taraf arası mektup; gönderildiği yer metinde yok",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 187,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1632-11-06",
+  "b": "Axel Oxenstierna naipliği fiilen başladı",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "isvec"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "devlet yönetimi — krallığın tamamı (1632 kutusu temiz)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 188,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1655-01-01",
+  "b": "Kristina, Katolikliğe geçip Roma'ya yerleşti",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Roma"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Roma'ya yerleşti (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 189,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1700-01-01",
+  "b": "Büyük Kuzey Savaşı başladı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Kopenhag",
+    "Stokholm",
+    "Riga",
+    "Narva"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Baltık — üç cephe",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 190,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1714-10-11",
+  "b": "XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Dimetoka",
+    "Stralsund"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Osmanlı topraklarından İsveç Pomeranyası'na yolculuk",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 191,
+  "dosya": "kronoloji_isvec.js",
+  "t": "1901-01-01",
+  "b": "İlk Nobel Ödülleri verildi",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Stokholm",
+    "Oslo"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Stockholm ve Oslo (metin)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 192,
+  "dosya": "kronoloji_venedik.js",
+  "t": "1281-01-01",
+  "b": "Levant imparatorluğu — XIII. yüzyıl sonunda Venedik'in elindekiler",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "venedik"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "deniz imparatorluğunun tamamı (1281 kutusu temiz)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 193,
+  "dosya": "kronoloji_venedik.js",
+  "t": "1463-01-01",
+  "b": "Birinci Osmanlı-Venedik Savaşı'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Modon",
+    "Koron",
+    "Anabolu (Nauplion)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Mora'daki Venedik kaleleri (metin); havuzda Argos YOK",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 194,
+  "dosya": "kronoloji_venedik.js",
+  "t": "1494-09-01",
+  "b": "İtalya Savaşları'nın başlaması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Torino",
+    "Napoli"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "İtalya yarımadası",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 195,
+  "dosya": "kronoloji_venedik.js",
+  "t": "1498-05-20",
+  "b": "Ümit Burnu yolunun açılması — baharat tekelinin kırılması",
+  "eski": "BEYANLI",
+  "sinif": "A",
+  "yeni": {
+   "yer_id": "Kalikut (Kozhikode)"
+  },
+  "kaldir_kg": true,
+  "gerekce": "20 Mayıs 1498 Gama'nın Kalikut'a varışı",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 196,
+  "dosya": "kronoloji_venedik.js",
+  "t": "1615-01-01",
+  "b": "Uskok Savaşı — Avusturya ile Adriyatik çatışması",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Udine",
+    "Trieste",
+    "Krk (Veglia)"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Friuli–İstria–Senj",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 197,
+  "dosya": "kronoloji_venedik.js",
+  "t": "1720-01-01",
+  "b": "Silahlı tarafsızlık siyasetine geçiş",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "venedik"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "cumhuriyetin genel siyaseti (1720 kutusu temiz)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 198,
+  "dosya": "kronoloji_lehistan.js",
+  "t": "1700-01-01",
+  "b": "Büyük Kuzey Savaşı Polonya topraklarında başladı",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "lehistan"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "'ülkeyi savaş meydanına çevirdi' — cumhuriyetin tamamı",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 199,
+  "dosya": "kronoloji_lehistan.js",
+  "t": "1568-01-01",
+  "b": "Mikołaj Rej — Polonya dilinde yazan ilk büyük edebiyatçı",
+  "eski": "BEYANLI",
+  "sinif": "B",
+  "yeni": {
+   "odak_yer": [
+    "Krakov"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Małopolska edebiyatçısı; lehistan künyesi 1569'da başlar (kimlik kutusu 4 yerleşim)",
+  "kaynak": "girdi.yukle() havuzu, app.js birebir ad eşleşmesi (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 200,
+  "dosya": "kronoloji_lehistan.js",
+  "t": "1658-07-20",
+  "b": "Polonyalı Kardeşler sürgün edildi",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "lehistan"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Sejm kararı — ülke çapında sürgün (1658 kutusu temiz)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 201,
+  "dosya": "kronoloji_italya.js",
+  "t": "1281-01-01",
+  "b": "Papalık — XIII. yüzyıl sonunda Orta İtalya'daki durum",
+  "eski": "BEYANLI",
+  "sinif": "C",
+  "yeni": {
+   "odak_kimlik": [
+    "papalik"
+   ]
+  },
+  "kaldir_kg": true,
+  "gerekce": "Papalık Devleti'nin tamamı (1281: 6 yerleşim)",
+  "kaynak": "js/suzgec.js sahiplik sayımı, madde gününde (ölçüldü)",
+  "dikkat": 0
+ },
+ {
+  "no": 202,
+  "dosya": "kronoloji_italya_sehir.js",
+  "t": "1579-01-01",
+  "b": "Piacenza panayırlarının kurulması — Avrupa kredi piyasasının merkezi",
+  "eski": "ODAKSIZ",
+  "sinif": "A",
+  "yeni": {
+   "yer_kon": [
+    45.052,
+    9.693
+   ]
+  },
+  "kaldir_kg": false,
+  "gerekce": "olay yeri Piacenza (metin) — havuzda YOK",
+  "kaynak": "yerin bilinen konumu, yaklaşık (±3 km aksi yazılmadıkça) — atlas kaydı DEĞİL (D207)",
+  "dikkat": 0
+ }
+]
