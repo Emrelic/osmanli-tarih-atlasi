@@ -1,0 +1,2550 @@
+[
+ {
+  "i": 0,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1285-01-01",
+  "b": "Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'ni kurdu (684)",
+  "taban": "BEYANLI",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": true,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (Şüve havuzda yok; evfat @1285 = 0 yerleşim)",
+  "kaynak": "devletler.js “evfat” künye kronolojisi (kaynak: evfat)"
+ },
+ {
+  "i": 1,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1287-01-01",
+  "b": "Volof krallığı olarak teşkilatlandı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Nder (Valo)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “valo” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Senegal nehri ağzı; başkenti Nder. Fransız ilhakı 1855. TDV senegal maddesi Valo'yu ad"
+ },
+ {
+  "i": 2,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "b": "Teke(Tio) halkına ait küçük siyasi birimler 14.yy'da birleşip Anziku(Tio) Krallığı'nı oluşturdu; 1600'e gelindiğinde Kongo Krallığı'nın rakibiydi.",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "tio"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “tio” künye kronolojisi (kaynak: Encyclopaedia Britannica 'Kingdom of Anziku' — WebSearch üzerinden)"
+ },
+ {
+  "i": 3,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "b": "Nyiginya hânedanı krallığı kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Nyanza (Ruanda)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “ruanda” künye kronolojisi (kaynak: ruanda — TDV gövdesi bu turda okundu. Merkezi Nyanza; Alman himayesi 1897, Belçika işgali 1916.)"
+ },
+ {
+  "i": 4,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "b": "Kintu hanedanı Buganda Krallığı'nı kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Mengo (Buganda)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “buganda” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 5,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "b": "14.yy'da Büyük Zimbabve, altın bakımından zengin platoya yayılan büyük bir devletin başkenti oldu; nüfusu 10.000'i aştı, Büyük Kapalı Alan (Great Enclosure) inşa edildi (yalnız '14.yy' biliniyor).",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Büyük Zimbabve",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “zimbabve-kralligi” künye kronolojisi (kaynak: UNESCO Dünya Mirası, Büyük Zimbabve kaydı — 'About 1450, the capital was abandoned'; Oxford Research Encyclopedia of African History. ⚠️ KUR"
+ },
+ {
+  "i": 6,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1332-01-01",
+  "b": "Habeş İmparatoru Amda Sion, Zeyla' ve Evfât topraklarının büyük kısmını ele geçirdi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Zeyla"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Zeyla; Evfât toprağı için kimlik 0 yerleşim)",
+  "kaynak": "devletler.js “evfat” künye kronolojisi (kaynak: evfat)"
+ },
+ {
+  "i": 7,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "b": "Njajaan Njaay geleneğine dayanan Volof birliği kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Linguère (Colof)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “colof” künye kronolojisi (kaynak: senegal — TDV gövdesi bu turda okundu. TDV senegal: 'Volof Krallığı XIII. yüzyılda orta Senegal'e hâkimdi.' 1549 Danki'den sonra küçülür ama 1890'a kada"
+ },
+ {
+  "i": 8,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "b": "Gelvar hânedanı altında Serer krallıkları kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sine-salum"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “sine-salum” künye kronolojisi (kaynak: senegal — TDV gövdesi bu turda okundu. TDV senegal: 'Sine-Salum Emirliği — Serer nüfuslu doğu bölgesi.' Başkentleri Diakhao ve Kahone.)"
+ },
+ {
+  "i": 9,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "b": "Cahokia terk edildi",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Cahokia",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “cahokia” künye kronolojisi (kaynak: EBSCO Research Starters, 'Cahokia Becomes the First North American City' — kentleşme ~1050'de başladı, ~1350'de terk edildi; VERİYLE BİREBİR ÖRTÜŞÜYOR"
+ },
+ {
+  "i": 10,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "b": "Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342).",
+  "taban": "BEYANLI",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": true,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (Vestribygð havuzda yok; Grönland'da yalnız Godhavn/Sisimiut — NOKTA GEREKİR)",
+  "kaynak": "devletler.js “norse-gronland” künye kronolojisi (kaynak: Smithsonian Magazine, 'Why Did Greenland's Vikings Vanish?' — arkeolojik araştırmalara dayanan güncel makale)"
+ },
+ {
+  "i": 11,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1360-01-01",
+  "b": "Vestribygð (Batı Yerleşimi) terk edildi",
+  "taban": "BEYANLI",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": true,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (Vestribygð havuzda yok — NOKTA GEREKİR)",
+  "kaynak": "devletler.js “norse-gronland” künye kronolojisi (kaynak: Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regio"
+ },
+ {
+  "i": 12,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1370-01-01",
+  "b": "Chimu hükümdarı Nancinpinco, Chimor vadisinin yukarı kesimini ve komşu Saña, Pacasmayo, Chicama, Virú, Chao ve Santa vadilerini fethederek krallığın topraklarını genişletti.",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "chimu-krallik"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “chimu-krallik” künye kronolojisi (kaynak: John Howland Rowe, 'The Kingdom of Chimor', Acta Americana 6 (1948), s.26-59 — hükümdar-yıl oranına dayanarak ~1370'e tarihliyor)"
+ },
+ {
+  "i": 13,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1390-01-01",
+  "b": "Minjo hanedanı tarafından kuruldu (gelenek)",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "kaffa-kralligi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “kaffa-kralligi” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 14,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1390-01-01",
+  "b": "Lukeni lua Nimi, Kongo Krallığı'nı kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "kongo-kralligi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “kongo-kralligi” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 15,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1394-01-01",
+  "b": "Nşare Bamum krallığını kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Fumban (Bamum)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “bamum” künye kronolojisi (kaynak: kamerun — TDV gövdesi bu turda okundu. TDV kamerun Fumban'ı önemli şehir sayar, kuruluş yılı VERMEZ; 1394 hânedan başlangıcı akademik dayanaktır.)"
+ },
+ {
+  "i": 16,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1400-01-01",
+  "b": "Oyo-Ile'de Yoruba krallığı kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Oyo-İle (Eski Oyo)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (metin 'Oyo-Ile' — havuz adı noktalı İ ile)",
+  "kaynak": "devletler.js “oyo-imparatorlugu” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 17,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1405-01-01",
+  "b": "Agadez sultanlığı kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Agadez",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “tuareg-air” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Agadez sultanlığı ve Kel Ewey · Kel Fervan konfederasyonları; İn Gall · Fachi · "
+ },
+ {
+  "i": 18,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1415-01-01",
+  "b": "Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıstırılıp öldürüldü; emirlik sona erdi",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Zeyla",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Zeyla adası)",
+  "kaynak": "devletler.js “evfat” künye kronolojisi (kaynak: evfat)"
+ },
+ {
+  "i": 19,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1428-01-01",
+  "b": "Tenochtitlan, Texcoco ve Tlacopan Üçlü İttifak'ı kurdu",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Tenochtitlan (Mexico City)",
+   "Texcoco",
+   "Tlacopan (Tacuba)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (üç şehir)",
+  "kaynak": "devletler.js “aztek-imparatorlugu” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 20,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1430-01-01",
+  "b": "Lupaqa lideri Cari, İnka ile gizli ittifakı sayesinde Colla ordusunu Paucarcolla'da yendi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "lupaqa-krallik",
+   "colla-krallik"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (Paucarcolla havuzda yok; iki kimlik 1+1 yerleşim)",
+  "kaynak": "devletler.js “colla-krallik” künye kronolojisi (kaynak: Maria Rostworowski, History of the Inca Realm (cev. Iceland), Cambridge University Press, 1999, s.68-69) · devletler.js “lupaqa-krallik” künye k"
+ },
+ {
+  "i": 21,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1438-01-01",
+  "b": "Pachacuti, Cusco krallığını büyük bir imparatorluğa dönüştürmeye başladı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Cusco (Qosqo)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “inka-imparatorlugu” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 22,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1441-01-01",
+  "b": "Mayapán terk edildi, bölge küçük rakip şehir devletlerine bölündü",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Mayapán",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “maya-sehir-devletleri” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 23,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "İnka hükümdarı Pachacuti, Titicaca havzasındaki Colla ve Lupaqa krallıklarını fethetti",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Hatun Colla",
+   "Chucuito"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Hatunqulla + Titicaca havzası; colla/lupaqa @1450 = 0 yerleşim)",
+  "kaynak": "devletler.js “colla-krallik” künye kronolojisi (kaynak: EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Colla' ADINI ANMI"
+ },
+ {
+  "i": 24,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "1450 dolayında Moundville tören merkezi terk edildi",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Moundville",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “moundville” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — merkez 15. yüz"
+ },
+ {
+  "i": 25,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Hinda hânedanı Nkore'yi kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Mbarara (Nkore)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “nkore” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Hinda hânedanı; merkezi Mbarara.)"
+ },
+ {
+  "i": 26,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Karagve krallığı kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Bveranyange (Karagve)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “karagve” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Bveranyange.)"
+ },
+ {
+  "i": 27,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Torva krallığı Khami'de kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Khami",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “torva” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Büyük Zimbabve ardılı; başkenti Khami; Rozvi 1683'te yıktı.)"
+ },
+ {
+  "i": 28,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Tören merkezi kullanımdan düştü",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Spiro",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde devlet:'spiro' tören merkezinin kendisi; havuzda 'Spiro'",
+  "kaynak": "devletler.js “spiro” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — tören kullanımı 15. yü"
+ },
+ {
+  "i": 29,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Altı Millet Konfederasyonu'nun kuruluşu — akademik çoğunluğun verdiği 15. yüzyıl ortası",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "haudenosaunee"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “haudenosaunee” künye kronolojisi (kaynak: Britannica, «Haudenosaunee Confederacy» (akademik çoğunluk 15. yy ortası/sonu) + Bruce E. Johansen, «Dating the Iroquois Confederacy» — anlaşmaz"
+ },
+ {
+  "i": 30,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Büyük Zimbabve'nin başşehri terk edildi ve krallık dağıldı",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Büyük Zimbabve",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “zimbabve-kralligi” künye kronolojisi (kaynak: UNESCO Dünya Mirası, Büyük Zimbabve kaydı — «About 1450, the capital was abandoned». Künyenin kendi `kaynak` alanı da aynı kaydı ve Oxford R"
+ },
+ {
+  "i": 31,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "b": "Eystribygð (Doğu Yerleşimi) terk edildi, Grönland'daki İskandinav varlığı sona erdi",
+  "taban": "BEYANLI",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": true,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (Eystribygð havuzda yok — NOKTA GEREKİR)",
+  "kaynak": "devletler.js “norse-gronland” künye kronolojisi (kaynak: Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regio"
+ },
+ {
+  "i": 32,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1464-01-01",
+  "b": "Sünnî Ali, Songhay'ı büyük bir imparatorluğa dönüştürmeye başladı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Gao"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “songhay-imparatorlugu” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 33,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1468-01-01",
+  "b": "Sünnî Ali, Tuareglerin elindeki Timbuktu'yu Songhay'a kattı; bu Mali'nin bölgedeki nüfuzunun sonu oldu",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Timbuktu",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “songhay-imparatorlugu” künye kronolojisi (kaynak: bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Sonni Ali') doğrulandı.) · devletler.js “mali-im"
+ },
+ {
+  "i": 34,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1470-01-01",
+  "b": "Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Chan Chan",
+   "Túcume"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimlik madde gününde 0 yerleşim; künyenin önceki ölçülen yerleşimleri — yalnız kamera (chimu @1370: Chan Chan, Túcume)",
+  "kaynak": "devletler.js “chimu-krallik” künye kronolojisi (kaynak: EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin and north to present-day Quit"
+ },
+ {
+  "i": 35,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1473-01-01",
+  "b": "Sünnî Ali, yedi yıl süren kuşatmanın ardından Cenne'yi (Jenne) açlığa mahkûm ederek teslim aldı",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Cenne (Djenné)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “songhay-imparatorlugu” künye kronolojisi (kaynak: bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı.)"
+ },
+ {
+  "i": 36,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1480-01-01",
+  "b": "Maravi konfederasyonu kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Mankhamba (Maravi)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “maravi” künye kronolojisi (kaynak: malavi — TDV gövdesi bu turda okundu. TDV malavi: 'Malavi Konfederasyonu 1480'de kuruldu' ve XVI. yüzyılda orta ve güney Malavi'nin çoğuna hâkimdi.)"
+ },
+ {
+  "i": 37,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1490-01-01",
+  "b": "Bacata (Bogota) zipasi Saguamanchica'nin guney Muisca gucleri ile Hunza (Tunja) zaquesi Michua'nin kuzey Muisca gucleri Choconta'da carpisti; her iki lider de oldu, zipazgo galip geldi.",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Bacatá (Bogotá)",
+   "Hunza (Tunja)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (iki taraf; Choconta havuzda yok)",
+  "kaynak": "devletler.js “muisca-konfederasyonu” künye kronolojisi (kaynak: Lucas Fernandez de Piedrahita, Historia General de las Conquistas del Nuevo Reyno de Granada (1676) — Muisca tarihi akademik literaturun"
+ },
+ {
+  "i": 38,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1494-06-07",
+  "b": "İspanya ve Portekiz, Tordesillas Antlaşması'yla yeni dünyayı Yeşil Burun Adaları'nın 370 fersah batısından geçen bir çizgiyle paylaştı",
+  "taban": "BEYANLI",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": true,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (Tordesillas havuzda yok; ispanya+portekiz kutusu okyanus aşırı — kamera yanıltır)",
+  "kaynak": "Encyclopaedia Britannica, 'Treaty of Tordesillas' — AYNEN: imzalandı 7 Haziran 1494, hat 'Cape Verde Islands'ın 370 fersah (league) batısından kutuptan kutuba çizildi; İspanya batısını, Portekiz doğus"
+ },
+ {
+  "i": 39,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1498-01-01",
+  "b": "Vasco da Gama'nın gelişiyle Portekiz baskısı başladı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "svahili-sehirleri"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “svahili-sehirleri” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 40,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "b": "Yönetim Muzaffer sülâlesinin eline geçti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Mogadişu"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimlik madde gününde 0 yerleşim; künyenin önceki ölçülen yerleşimleri — yalnız kamera (makdisu-sultanligi = Mogadişu sultanlığı; künye 1500'de bitiyor)",
+  "kaynak": "devletler.js “makdisu-sultanligi” künye kronolojisi (kaynak: makdisu)"
+ },
+ {
+  "i": 41,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "b": "Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Mogadişu",
+   "Merka",
+   "Beledveyne"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (güney Somali kıyısı + Şebelle vadisi)",
+  "kaynak": "devletler.js “somali” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 42,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "b": "Antemoro krallığı kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "antemoro"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “antemoro” künye kronolojisi (kaynak: madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: 'Antemoro — güneydoğu kıyısı'; merkezi Vohipeno; Arap yazısı (sorabe) geleneği.)"
+ },
+ {
+  "i": 43,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "b": "Ngola hanedanı Ndongo Krallığı'nı kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Kabasa"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “ndongo” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 44,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1519-11-08",
+  "b": "Hernán Cortés, Tenochtitlan'a girdi",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Tenochtitlan (Mexico City)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “aztek-imparatorlugu” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 45,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1521-01-01",
+  "b": "Ponce de León'un ikinci seferi püskürtüldü",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Mound Key (Kalusa başkenti)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “kalusa” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kaynak Kalusa'nın çe"
+ },
+ {
+  "i": 46,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1521-08-13",
+  "b": "Uzun kuşatma sonunda Tenochtitlan düştü, son imparator Cuauhtémoc esir alındı",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Tenochtitlan (Mexico City)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “aztek-imparatorlugu” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 47,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1522-01-01",
+  "b": "Kenkâ halkı Bagirmi sultanlığını kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "bagirmi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “bagirmi” künye kronolojisi (kaynak: cad — TDV gövdesi bu turda okundu. TDV cad: 'XVI. yüzyılda Kenkâ halkı tarafından kuruldu'; merkezi Massenya; Fransız himayesi 1897.)"
+ },
+ {
+  "i": 48,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1529-03-09",
+  "b": "Ahmed Gran'ın Şimbra Kure zaferiyle Adal'ın Habeşistan istilası başladı",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (Şimbra Kure havuzda yok)",
+  "kaynak": "devletler.js “habesistan” künye kronolojisi (kaynak: habesistan) · devletler.js “adal” künye kronolojisi (kaynak: harar)"
+ },
+ {
+  "i": 49,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1530-01-01",
+  "b": "Portekizli Rui Lourenço Ravasco, Zengibar'ı abluka altına alıp bombaladı",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Zanzibar (Zengibar)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “svahili-sehirleri” künye kronolojisi (kaynak: TDV zengibar (bu turda okundu, birebir alıntı: '1530 yılında Rui Lourenço Ravasco adayı abluka altına alarak bombalayınca').)"
+ },
+ {
+  "i": 50,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1532-11-16",
+  "b": "Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp esir aldı",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Cajamarca",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “inka-imparatorlugu” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 51,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1533-08-29",
+  "b": "Atahualpa idam edildi, İspanyollar Cusco'yu ele geçirdi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Cajamarca",
+   "Cusco (Qosqo)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (idam Cajamarca, zapt Cusco)",
+  "kaynak": "devletler.js “inka-imparatorlugu” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 52,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1535-04-17",
+  "b": "İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "yeni-ispanya"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “yeni-ispanya” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 53,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1536-01-01",
+  "b": "Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "muisca-konfederasyonu"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “muisca-konfederasyonu” künye kronolojisi (kaynak: EB-GJQ — AYNEN: «The following year, although he had no military experience, Quesada led an expedition of 900 men up the Magdalena River"
+ },
+ {
+  "i": 54,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1537-01-01",
+  "b": "Quesada'nin seferi Chibcha (Muisca) siyasi yapisini cokertti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "muisca-konfederasyonu"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “muisca-konfederasyonu” künye kronolojisi (kaynak: EB-GJQ — AYNEN: «the expedition succeeded in penetrating the great central plain of Colombia—the land of the Chibcha Indians … The ruler"
+ },
+ {
+  "i": 55,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1539-01-01",
+  "b": "İspanyol kuvvetleri Florida'yı alarak Yeni İspanya'nın kuzeydoğu sınırını genişletti",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Tampa (Fort Brooke)",
+   "St. Augustine",
+   "Pensacola"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Florida)",
+  "kaynak": "devletler.js “yeni-ispanya” künye kronolojisi (kaynak: TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter) — gövdede AYNEN: «İspanya'nın Küba valisi ise 1539'da Florida'"
+ },
+ {
+  "i": 56,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1540-01-01",
+  "b": "Yatenga krallığı Vagadugu'dan ayrıldı",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Vahiguya (Yatenga)",
+   "Vagadugu (Ouagadougou)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Yatenga + Vagadugu)",
+  "kaynak": "devletler.js “yatenga” künye kronolojisi (kaynak: burkina-faso — TDV gövdesi bu turda okundu. TDV burkina-faso: 'Naaba Kango 1757-1787 arasında otoriteyi merkezîleştirdi'; Fransız himayesi 1894-95.)"
+ },
+ {
+  "i": 57,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1540-01-01",
+  "b": "De Soto seferi bölgeden geçti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Etowah"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “etowah” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 TEK BİR mississippi-kulturu KÜNYES"
+ },
+ {
+  "i": 58,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1540-07-07",
+  "b": "Coronado Hawikuh'u aldı; Cíbola arayışı sona erdi",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Halona:wa (Zuni)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera (Hawikuh havuzda yok)",
+  "kaynak": "devletler.js “zuni” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.9 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 TERİTORYAL SINAVI GEÇTİ: kayna"
+ },
+ {
+  "i": 59,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1541-01-01",
+  "b": "Coronado Quivira'ya ulaştı",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Quivira (Wiçita, Büyük Bükülme)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “wicita” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1859-01-01 — YIL SAĞLAM, GÜN DEĞİL"
+ },
+ {
+  "i": 60,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1542-01-01",
+  "b": "İspanyollar Tiho'yu (Mérida) alarak kuzeybatı Yucatán'daki Maya şehir-devletlerinin hâkimiyetine son verdi",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "maya-sehir-devletleri"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) — yer_id 'Mérida' YAZILAMADI: havuzda 'Mérida' + 'Mérida (Venezuela)' ikisi de eşleşir (app ilk bulduğunu alır)",
+  "kaynak": "devletler.js “maya-sehir-devletleri” künye kronolojisi (kaynak: escholarship.org (University of California) — «Interethnic Mayan and Afro-descendent Relations…» — AYNEN: «In 1540 Spanish conquistadors"
+ },
+ {
+  "i": 61,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1542-11-20",
+  "b": "Peru Genel Valiliği resmen kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "ispanyol-peru"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “ispanyol-peru” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 62,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1543-02-21",
+  "b": "Wayna Daga'da Portekiz destekli Habeş ordusu Ahmed Gran'ı yenip öldürdü, Adal istilası çöktü",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "habesistan",
+   "adal"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (Wayna Daga havuzda yok; portekiz ÇIKARILDI — Lizbon'a çözülür)",
+  "kaynak": "devletler.js “habesistan” künye kronolojisi (kaynak: habesistan) · devletler.js “adal” künye kronolojisi (kaynak: harar)"
+ },
+ {
+  "i": 63,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1549-01-01",
+  "b": "Danki Muharebesi'nde Buurba Leele Fuli Fak öldürüldü; Cayor başta olmak üzere Baol, Sine, Salum, Vuli, Niani ve Valo bağımsızlığını kazandı, Jolof küçük bir iç krallığa indirgendi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "colof",
+   "kayor",
+   "valo",
+   "sine-salum"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (metnin saydığı Colof, Cayor, Valo, Sine-Salum; Danki havuzda yok)",
+  "kaynak": "devletler.js “colof” künye kronolojisi (kaynak: bulunamadı (TDV) — standart akademik kaynak: Danki Muharebesi (1549) Batı Afrika tarihyazımında standart, çok kaynaklı bir olay (bkz. Cambridge History "
+ },
+ {
+  "i": 64,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1549-01-01",
+  "b": "Danki'de Colof'tan ayrılarak bağımsız oldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "kayor"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “kayor” künye kronolojisi (kaynak: senegal — TDV gövdesi bu turda okundu. TDV senegal: Lat Dior Fransız sömürgeciliğine direndi; 1886'da öldü.)"
+ },
+ {
+  "i": 65,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1549-01-01",
+  "b": "İlk genel vali Tomé de Sousa ile merkezi sömürge idaresi kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "portekiz-brezilyasi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “portekiz-brezilyasi” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 66,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1550-01-01",
+  "b": "Ndewura Jakpa krallığı kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "gonja"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “gonja” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Volta kuzeyi; Salaga pazarı ve Bole bölümü.)"
+ },
+ {
+  "i": 67,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1550-01-01",
+  "b": "Merkez terk edildi",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Etowah",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “etowah” künye kronolojisi (kaynak: bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 TEK BİR mississippi-kulturu KÜNYES"
+ },
+ {
+  "i": 68,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1550-01-01",
+  "b": "Vili hanedanı Loango Krallığı'nı kurdu; Buali başkent oldu",
+  "taban": "BEYANLI",
+  "sinif": "A",
+  "grup": "A",
+  "alan": "yer_id",
+  "deger": "Loango (Buali)",
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor",
+  "kaynak": "devletler.js “loango” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok (`loango` slug'ı 302 döndürdü), dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 69,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1553-01-01",
+  "b": "Lautaro onderligindeki Araukanlar Valdivia'yi yenip olduruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "mapuche-araukanya"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (havuzdaki 'Valdivia' ŞEHİRDİR, muharebe yeri değil — kullanılmadı)",
+  "kaynak": "devletler.js “mapuche-araukanya” künye kronolojisi (kaynak: EB-AW — AYNEN: «in 1553 he and his followers were defeated by the Araucanians under Lautaro, a chief who had previously spent two years in V"
+ },
+ {
+  "i": 70,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1558-01-01",
+  "b": "Sef Caupolican'in idamindan sonra Ispanyollar Mapuche'yi Biobio'nun guneyine itti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "mapuche-araukanya"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “mapuche-araukanya” künye kronolojisi (kaynak: EB-AW — AYNEN: «Another chief, Caupolicán, continued the fight until his capture by treachery and subsequent execution by the Spaniards in 1"
+ },
+ {
+  "i": 71,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1569-01-01",
+  "b": "Portekiz kralı Sebastian, Francisco Barreto'yu Mwene Mutapa üzerine sefere memur etti; sefer Portekiz otoritesini kurmayı, Manika altın madenlerini ele geçirmeyi ve öldürülen misyonerin öcünü almayı hedefliyordu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Büyük Zimbabve"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera — ⚠️ atlas mutapa'yı YALNIZ Büyük Zimbabve'de tutuyor, raporlandı",
+  "kaynak": "devletler.js “mutapa” künye kronolojisi (kaynak: Encyclopaedia Britannica, 'Francisco Barreto' — «In 1569 Barreto was entrusted by King Sebastian of Portugal with an expedition to the empire of Mwene "
+ },
+ {
+  "i": 72,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1572-09-24",
+  "b": "Vilcabamba'daki son direniş devleti düştü, Tupac Amaru idam edildi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Vilcabamba (Espíritu Pampa)",
+   "Cusco (Qosqo)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (düşüş Vilcabamba; idam Cusco)",
+  "kaynak": "devletler.js “inka-imparatorlugu” künye kronolojisi (kaynak: amerika)"
+ },
+ {
+  "i": 73,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1577-01-01",
+  "b": "Devlet dağıldı, Harar emirliği ardıl kaldı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “adal” künye kronolojisi (kaynak: harar)"
+ },
+ {
+  "i": 74,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1585-01-01",
+  "b": "Kongolo Mukulu, Luba devletini kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Kabongo (Luba)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “luba” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Thomas Q. Reefe, 'The Rainbow and the Kings', Univ. of California Press 1981"
+ },
+ {
+  "i": 75,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1591-04-13",
+  "b": "Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Gao",
+   "Timbuktu",
+   "Cenne (Djenné)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimlik madde gününde 0 yerleşim; künyenin önceki ölçülen yerleşimleri — yalnız kamera (songhay @1473: Timbuktu, Gao, Cenne; Tondibi havuzda yok)",
+  "kaynak": "devletler.js “songhay-imparatorlugu” künye kronolojisi (kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)"
+ },
+ {
+  "i": 76,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "b": "Tuz yolu üzerinde hâkimiyet kurdu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Aravan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “berabis” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Timbuktu kuzeyi tuz kervan yolu (Aravan-Tavdeni) hâkimi Arap konfederasyonu.)"
+ },
+ {
+  "i": 77,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "b": "Ovambo krallıkları teşekkül etti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "ovambo"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “ovambo” künye kronolojisi (kaynak: bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kral Mandume 1917'de öldü, bağımsızlık sona erdi.)"
+ },
+ {
+  "i": 78,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "b": "Ngonde krallığı teşekkül etti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_yer",
+  "deger": [
+   "Mbande (Ngonde)"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "kimliğin madde günündeki TEK atlas yerleşimi (odak_kimlik ≥2 yerleşim şartını karşılamıyor) — yalnız kamera",
+  "kaynak": "devletler.js “ngonde” künye kronolojisi (kaynak: malavi — TDV gövdesi bu turda okundu. TDV malavi: Mlozi 'kendini 1887'de Ngonde sultanı ilân etti' ve İngiliz sömürgeciliğine direnirken öldü.)"
+ },
+ {
+  "i": 79,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "b": "Luyi (Lozi) krallığı teşekkül etti",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "lozi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “lozi” künye kronolojisi (kaynak: zambiya — TDV gövdesi bu turda okundu. TDV zambiya: 'Lozi kralı Levanika 1890'da İngiliz Güney Afrika Şirketi'nin himayesini kabul etti.' Merkezi Lealui."
+ },
+ {
+  "i": 80,
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "b": "Menabe Sakalava krallığı kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sakalava-menabe"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "devletler.js “sakalava-menabe” künye kronolojisi (kaynak: madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar Sakalava'yı batı bölgelerinin krallığı sayar; merkezi Mahabo.)"
+ },
+ {
+  "i": 81,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1818-01-01",
+  "b": "1818 Sözleşmesi — Lake of the Woods'tan Kayalık Dağlar'a 49. paralel sınır",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Fort St. Pierre (Rainy Lake)",
+   "Pembina",
+   "Fort Macleod"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "International Boundary Commission, History ('to the 49th parallel and along it to the Stony Mountains') · ABD Dışişleri Office of the Historian, Oregon Territory"
+ },
+ {
+  "i": 82,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1825-02-28",
+  "b": "İngiliz–Rus Sözleşmesi — Rus Amerikası ile İngiliz toprakları arasında 141. meridyen",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Kaktovik (Barter Adası)",
+   "Old Crow (Vuntut Gwitchin)",
+   "Yakutat (Novorossiysk)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "UN RIAA XV 481–540 (Alaska Sınır Mahkemesi kararı; 1825 sözleşmesinin metni ve yorumu)"
+ },
+ {
+  "i": 83,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1842-01-01",
+  "b": "Webster–Ashburton Antlaşması — Maine'den Lake of the Woods'a sınır kesinleşti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Saint John (NB)",
+   "York (Toronto)",
+   "Fort St. Pierre (Rainy Lake)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "International Boundary Commission, History ('It was not until the Webster-Ashburton Treaty of 1842')"
+ },
+ {
+  "i": 84,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1846-01-01",
+  "b": "Oregon Antlaşması — 49. paralel Kayalık Dağlar'dan Pasifik'e uzatıldı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Victoria (Fort Victoria)",
+   "Fort Langley",
+   "Fort Macleod"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "International Boundary Commission, History · ABD Dışişleri Office of the Historian, Oregon Territory ('The Senate ratified the treaty … on June 18, 1846')"
+ },
+ {
+  "i": 85,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1848-05-30",
+  "b": "Guadalupe Hidalgo Antlaşması yürürlüğe girdi — Kaliforniya sınırı çizildi",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "San Diego (Misyon San Diego de Alcalá)",
+   "Yuma geçidi (La Purísima Concepción)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI) + metin San Diego'yu anıyor",
+  "kaynak": "Avalon Project (Yale), Treaty of Guadalupe Hidalgo ('RATIFICATIONS EXCHANGED AT QUERETARO, MAY 30, 1848') · Gadsden Antlaşması md. I"
+ },
+ {
+  "i": 86,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1852-10-18",
+  "b": "Brezilya–Peru Sözleşmesi yürürlüğe girdi — Tabatinga–Apaporis hattı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Tabatinga",
+   "Yavaraté (Vaupés)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI) + metin Tabatinga'yı anıyor",
+  "kaynak": "Ireland 1938 (Harvard UP) s. 125–130"
+ },
+ {
+  "i": 87,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1854-06-30",
+  "b": "Gadsden Antlaşması yürürlüğe girdi — Colorado'dan Rio Grande'ye yeni kara sınırı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Yuma geçidi (La Purísima Concepción)",
+   "Tubac",
+   "El Paso del Norte"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "Avalon Project (Yale), Gadsden Purchase Treaty ('retaining the same dividing line between the two Californias') · IBWC, History"
+ },
+ {
+  "i": 88,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1858-04-15",
+  "b": "Cañas–Jerez Antlaşması — Nikaragua–Kosta Rika sınırı",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (hattın 300 km içinde havuz yerleşimi yok; nikaragua/kosta-rika @1858 = 0 — NOKTA GEREKİR)",
+  "kaynak": "IBS No. 158 Costa Rica–Nicaragua s. 3–5 ('an arbitral award upholding the treaty of 1858')"
+ },
+ {
+  "i": 89,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1867-07-01",
+  "b": "Kanada Dominyonu kuruldu — ABD ile doğu sınırı yeni devlete geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Saint John (NB)",
+   "York (Toronto)",
+   "Fort St. Pierre (Rainy Lake)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "The Canadian Encyclopedia, Confederation timeline ('A royal proclamation declared that the Dominion of Canada would come into existence on July 1') · Canadian Heritage, Historical boundaries of Canada"
+ },
+ {
+  "i": 90,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1867-10-18",
+  "b": "Alaska ABD'ye devredildi — 141. meridyen ABD'nin sınırı oldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Kaktovik (Barter Adası)",
+   "Old Crow (Vuntut Gwitchin)",
+   "Yakutat (Novorossiysk)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "ABD Dışişleri Office of the Historian, Purchase of Alaska ('Alaska was formally transferred to the United States on October 18, 1867.')"
+ },
+ {
+  "i": 91,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1870-07-15",
+  "b": "Rupert's Land Kanada'ya devredildi — 49. paralel sınırı Kanada'nın oldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Fort St. Pierre (Rainy Lake)",
+   "Pembina",
+   "Fort Macleod"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "The Canadian Encyclopedia, Confederation timeline ('The British Crown officially transferred Rupert's Land and the North-Western Territory to Canada.')"
+ },
+ {
+  "i": 92,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1870-07-15",
+  "b": "Kuzey-Batı Toprakları Kanada'ya geçti — Alaska sınırı (141. meridyen) Kanada'nın oldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Kaktovik (Barter Adası)",
+   "Old Crow (Vuntut Gwitchin)",
+   "Yakutat (Novorossiysk)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "The Canadian Encyclopedia, Confederation timeline · ABD Dışişleri Office of the Historian, Purchase of Alaska"
+ },
+ {
+  "i": 93,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1871-07-20",
+  "b": "Britanya Kolumbiyası Kanada'ya katıldı — Pasifik kesimindeki 49. paralel Kanada'nın oldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Victoria (Fort Victoria)",
+   "Fort Langley",
+   "Fort Macleod"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "The Canadian Encyclopedia, Confederation timeline ('British Columbia entered Confederation as the sixth province.')"
+ },
+ {
+  "i": 94,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1876-09-13",
+  "b": "Arjantin–Paraguay Sınır Antlaşması yürürlüğe girdi — Paraná ve Paraguay nehirleri sınır oldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Asunción",
+   "Corrientes",
+   "Encarnación (Itapúa)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "IBS No. 166 Argentina–Paraguay s. 4–7 ('by the mid-channel of the main stream of the Parana')"
+ },
+ {
+  "i": 95,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1882-09-27",
+  "b": "Meksika–Guatemala Sınır Antlaşması imzalandı — Guatemala, Chiapas ve Soconusco üzerindeki haklarından vazgeçti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Zaculeu",
+   "Nojpetén (Tayasal / Flores)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "IBS No. 159 Guatemala–Mexico s. 3–5 ('By May 1899, the demarcation of the boundary with pillars or monuments was completed')"
+ },
+ {
+  "i": 96,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1889-11-15",
+  "b": "Brezilya'da cumhuriyet ilan edildi — 1872 Paraguay sınırı Brezilya Cumhuriyeti'ne geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Fuerte Olimpo (Borbón)",
+   "Tacuatí (Ypané)",
+   "Ciudad Real del Guairá"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "Library of Congress, Brazil–U.S. Relations: First Republic ('On November 15, 1889, a coup d'état overthrew the monarchy') · Ireland 1938 (Harvard UP) s. 121–123"
+ },
+ {
+  "i": 97,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1889-11-15",
+  "b": "Brezilya'da cumhuriyet ilan edildi — Peru ile Tabatinga–Apaporis hattı Brezilya Cumhuriyeti'ne geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Tabatinga",
+   "Yavaraté (Vaupés)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "Library of Congress, Brazil–U.S. Relations: First Republic · Ireland 1938 (Harvard UP) s. 125–130 · IBS No. 174 Brazil–Colombia"
+ },
+ {
+  "i": 98,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1896-12-24",
+  "b": "Tegucigalpa Sınır Antlaşması yürürlüğe girdi — Honduras–Nikaragua sınırı için karma komisyon",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (hattın 215 km içinde havuz yerleşimi yok; honduras/nikaragua @1896 = 0 — NOKTA GEREKİR)",
+  "kaynak": "IBS No. 36 Honduras–Nicaragua s. 5–8 ('From 1900 to 1904, the commission demarcated the western portion of the boundary')"
+ },
+ {
+  "i": 99,
+  "dosya": "kronoloji_sinir_amerika.js",
+  "t": "1900-05-26",
+  "b": "Arjantin–Brezilya Sınır Antlaşması yürürlüğe girdi — Misiones anlaşmazlığı Cleveland kararıyla kapandı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Catanduvas (Paraná)",
+   "Nonohay (Yukarı Uruguay)",
+   "Maçambará (Recreio)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "IBS No. 168 Argentina–Brazil s. 5–11 ('the demarcation carried out throughout the whole extent of the frontier is accepted')"
+ },
+ {
+  "i": 100,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1920-12-17",
+  "b": "Milletler Cemiyeti Konseyi Güneybatı Afrika'yı Güney Afrika Birliği'ne C-tipi manda olarak verdi",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Ondangva (Ondonga)",
+   "Valvis Körfezi",
+   "Mariental",
+   "Katima Mulilo"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Güneybatı Afrika + Caprivi hattı)",
+  "kaynak": "Wikipedia 'South West Africa' (Council ve Güney Afrika 17 Aralık 1920'de mandaya resmen anlaştı) · Duke Law 'South West Africa Cases: Preliminary Objections' (Versay md.119)"
+ },
+ {
+  "i": 101,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1922-07-20",
+  "b": "Milletler Cemiyeti Konseyi Kamerun'un Fransız/İngiliz B-mandalarını onayladı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Eski Kalabar",
+   "Banyo",
+   "Kukava (Kukawa)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "Wikipedia 'Neukamerun' + 'Treaty of Versailles' (Kamerun'un Fransa/Britanya arasında B-mandası olarak paylaşımı) — mandate tüzüğü onay tarihi (20 Temmuz 1922) genel Milletler Cemiyeti kronolojisiyle ç"
+ },
+ {
+  "i": 102,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1922-07-20",
+  "b": "Milletler Cemiyeti Konseyi Tanganyika'nın İngiliz B-mandasını onayladı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Tanga",
+   "Mosi (Moshi)",
+   "Kisumu"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "germanhistorydocs.org Heligoland-Zanzibar Treaty (1890 hattı) + genel Milletler Cemiyeti mandate kronolojisi (20 Temmuz 1922) — ikinci bağımsız kaynakla TEYİT edilmedi"
+ },
+ {
+  "i": 103,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1922-07-20",
+  "b": "Milletler Cemiyeti Konseyi Ruanda-Urundi'nin Belçika B-mandasını onayladı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Kigali",
+   "Gitega (Burundi)",
+   "Bucumbura"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "encyclopedia.1914-1918-online.net 'Ruanda and Urundi' (Orts 1919, 22 Mart 1921 devirleri, 1922 mandate onayı, 1924 Kigoma protokolü)"
+ },
+ {
+  "i": 104,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1923-09-12",
+  "b": "Güney Rodezya Britanya Tacı'na ilhak edildi, BSAC yönetimi sona erdi",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Cikualakuala",
+   "Umtali (Mutare)",
+   "Zumbo"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "D-KUNYE taslağı (denetim/TASLAK-KUNYE-D-0916.json, 'ingiliz-guney-rodezya': '1923-09-12'de ilhak, 1923-10-01'de öz-yönetimli koloni statüsü') — ikinci bağımsız kaynakla TEYİT edilmedi"
+ },
+ {
+  "i": 105,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1922-03-15",
+  "b": "Mısır Krallığı ilân edildi — Sudan kondominyumunun Mısır yakası krallığa geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "İbrim",
+   "Vâdî Halfâ",
+   "Abrî (Mahas)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI) (22. paralelin doğu kesimi; batı ucunda 560 km içinde nokta yok)",
+  "kaynak": "TDV misir ('28 Şubat 1922' · 'Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı') — D4-ORTADOGU'nun kronoloji_sinir_ortadogu.js'teki aynı-tarihli maddesiyle çapraz doğrulandı"
+ },
+ {
+  "i": 106,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1899-01-19",
+  "b": "Anglo-Mısır Kondominyum Antlaşması — İngiliz Sudanı kuruldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "İbrim",
+   "Vâdî Halfâ",
+   "Abrî (Mahas)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "TDV sudan ('19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu')"
+ },
+ {
+  "i": 107,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1914-12-18",
+  "b": "İngiliz himayesi ilan edildi — Mısır Sultanlığı kuruldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "İbrim",
+   "Vâdî Halfâ",
+   "Abrî (Mahas)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "TDV misir ('İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı')"
+ },
+ {
+  "i": 108,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1913-03-11",
+  "b": "Anglo-Alman Nijerya-Kamerun Sınır Antlaşması imzalandı (Yola'dan denize)",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Yola",
+   "Eski Kalabar"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor ('Yola'dan denize') + hat güney ucu",
+  "kaynak": "BAILII UK Treaty Series 1913/8087 ('Settlement of the Frontier between Nigeria and the Cameroons, from Yola to the Sea')"
+ },
+ {
+  "i": 109,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1916-02-18",
+  "b": "Kamerun Seferi sona erdi (Mora'nın teslimi) — Fransız-İngiliz geçici paylaşımı başladı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Eski Kalabar",
+   "Banyo",
+   "Kukava (Kukawa)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI) — ⚠️ havuzdaki 'Mora' = Mora (Tripoliçe), Yunanistan; KULLANILMADI",
+  "kaynak": "Wikipedia 'Kamerun campaign' (Mora'nın 18 Şubat 1916'da teslimi, seferin sonu)"
+ },
+ {
+  "i": 110,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1919-07-10",
+  "b": "Milner-Simon Deklarasyonu — Kamerun'un Fransız/İngiliz paylaşımı andlaşmaya bağlandı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Eski Kalabar",
+   "Banyo",
+   "Kukava (Kukawa)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "Wikipedia 'Neukamerun' (Milner-Simon Deklarasyonu, 10 Temmuz 1919, Paris)"
+ },
+ {
+  "i": 111,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1915-07-09",
+  "b": "Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim oldu",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Ondangva (Ondonga)",
+   "Valvis Körfezi",
+   "Mariental",
+   "Katima Mulilo"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Alman Güneybatı Afrikası)",
+  "kaynak": "Wikipedia 'Caprivi Strip' (Alman Güneybatı Afrikası'nın 9 Temmuz 1915'te teslimi)"
+ },
+ {
+  "i": 112,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1916-05-01",
+  "b": "Belçika kuvvetleri Ruanda-Urundi'yi işgal etti (Tabora Seferi)",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Kigali",
+   "Gitega (Burundi)",
+   "Bucumbura"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Ruanda-Urundi) + hat",
+  "kaynak": "encyclopedia.1914-1918-online.net 'Ruanda and Urundi' — 🟡 tam tarih YAKLAŞIK, ikinci turda doğrulanacak"
+ },
+ {
+  "i": 113,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1885-04-01",
+  "b": "Anglo-Alman genel nüfuz alanları sözleşmesi (Rio del Rey hattı) — Berlin Konferansı hemen sonrası",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Eski Kalabar",
+   "Duala"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI) (Rio del Rey kıyı ucu)",
+  "kaynak": "NTU 'The Conference of Berlin and British New Imperialism' (Nisan-Haziran 1885 sözleşmesi, Rio del Rey hattı) — genel tarihyazımı, birincil antlaşma metni bu turda okunmadı"
+ },
+ {
+  "i": 114,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1885-11-11",
+  "b": "Anglo-Liberian Sözleşmesi — Mano nehri Liberya-Sierra Leone sınırı kabul edildi",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Monrovia",
+   "Gbarnga",
+   "Freetown"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI) (Mano; en yakın nokta 100 km)",
+  "kaynak": "1911 Encyclopædia Britannica/Liberia (en.wikisource.org, 'Mano river as the boundary')"
+ },
+ {
+  "i": 115,
+  "dosya": "kronoloji_sinir_afrika.js",
+  "t": "1892-01-01",
+  "b": "Fransız-Liberya Sözleşmesi — Cavalla nehri Fildişi Sahili sınırı kabul edildi (sonradan uygulanamaz bulundu)",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Harper",
+   "Zwedru",
+   "Nzerekore"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "sınır maddesi; `d_sinirlar_*.js` hattının uçlarına en yakın havuz yerleşimleri (kamera hattı çerçeveler, sömürge kimliği imparatorluğa çözüldüğü için odak_kimlik KULLANILMADI)",
+  "kaynak": "globalsecurity.org 'Liberia Country Study' ('French annexation of the territory to Ivory Coast in a treaty in 1892 recognizing the Cavalla River')"
+ },
+ {
+  "i": 116,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1196-01-01",
+  "b": "Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (merini @1196 = 0 yerleşim)",
+  "kaynak": "TDV `meriniler`: \"592/1196'da Abdülhak tahta geçti, hanedanın kurucusu olarak kabul edildi\""
+ },
+ {
+  "i": 117,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1258-01-01",
+  "b": "Ebû Yûsuf Ya'kūb saltanata geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (merini @1258 = 0 yerleşim)",
+  "kaynak": "TDV `meriniler`: \"656/1258'de Ebû Yûsuf Ya'kūb saltanata geçti\""
+ },
+ {
+  "i": 118,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1350-01-01",
+  "b": "Ebû İnân babasını tahttan feragate zorladı",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "merini"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (tahttan feragat; Medgūsa havuzda yok)",
+  "kaynak": "TDV `meriniler`: \"751/1350'de Ebû İnân babasını tahttan feragate mecbur etti\""
+ },
+ {
+  "i": 119,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1358-01-01",
+  "b": "Ebû İnân boğularak öldürüldü",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "merini"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (hükümdarın ölümü, yeri metinde 'sarayında')",
+  "kaynak": "TDV `meriniler`: \"759/1358'de Ebû İnân boğularak öldü\""
+ },
+ {
+  "i": 120,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1304-01-01",
+  "b": "İlk resmî hac kafilesi yola çıktı",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "merini"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (kafilenin çıkış yeri metinde yok)",
+  "kaynak": "TDV `meriniler`: \"703/1303-1304'te ilk hac kafilesi yola çıktı\""
+ },
+ {
+  "i": 121,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1511-01-01",
+  "b": "Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Tarûdant",
+   "Agadir"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Sûs bölgesi)",
+  "kaynak": "TDV `sadiler`: \"916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı\""
+ },
+ {
+  "i": 122,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1517-01-01",
+  "b": "Kurucunun vefatı, Ahmed el-A'rec tahta geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (sadi @1517 = 0 yerleşim)",
+  "kaynak": "TDV `sadiler`: \"923/1517'de Muhammed'in vefatı; Ahmed el-A'rec'in tahta geçmesi\""
+ },
+ {
+  "i": 123,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1536-01-01",
+  "b": "Ukbâ savaşı sonrası Vattâsîlerle sınır antlaşması",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sadi",
+   "merini"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (Vattâsî = künye 'Merînî ve Vattâsî'; sadi @1536 = 0, merini = 35)",
+  "kaynak": "TDV `sadiler`: \"943/1536'da Ukbâ savaşından sonra Vattâsîler ile egemenlik alanları belirleme antlaşması\""
+ },
+ {
+  "i": 124,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1537-01-01",
+  "b": "Portekiz ile üç yıllık antlaşma",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (sadi @1537 = 0; portekiz Lizbon'a çözülür)",
+  "kaynak": "TDV `sadiler`: \"1537'de Portekiz ile 3 yıllık antlaşma imzalanması\""
+ },
+ {
+  "i": 125,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1557-01-01",
+  "b": "Muhammed eş-Şeyh Osmanlı ordusunca öldürüldü, Abdullah tahta geçti",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sadi"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "TDV `sadiler`: \"964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi\" · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\""
+ },
+ {
+  "i": 126,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1588-01-01",
+  "b": "Ahmed el-Mansûr Osmanlı'ya vergiyi kesti",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sadi"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "TDV `sadiler`: \"1588'de Ahmed el-Mansûr'un Osmanlıya vergi göndermemesi; ardından elçilik heyeti gönderilmesi\""
+ },
+ {
+  "i": 127,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1602-01-01",
+  "b": "Veliahtın isyanı bastırıldı",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sadi"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü)",
+  "kaynak": "TDV `sadiler`: \"1011/1602'de veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanının bastırılması; hapsedilmesi\""
+ },
+ {
+  "i": 128,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1610-01-01",
+  "b": "Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Fas (Fez)",
+   "Merakeş"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Fas ve Merakeş emirlikleri)",
+  "kaynak": "TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)"
+ },
+ {
+  "i": 129,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1580-01-01",
+  "b": "Osmanlı ordu teşkilâtı örnek alınarak reform",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sadi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (ordu reformu devlet çapında)",
+  "kaynak": "TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\""
+ },
+ {
+  "i": 130,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1595-01-01",
+  "b": "Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "sadi"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (devletin dış ticareti)",
+  "kaynak": "TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\""
+ },
+ {
+  "i": 131,
+  "dosya": "kronoloji_kuzeyafrika.js",
+  "t": "1911-12-01",
+  "b": "Enver Bey direniş karargâhını üstlendi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Bingazi",
+   "Derne"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Bingazi-Derne hattı)",
+  "kaynak": "TDV `trablusgarp-savasi`: \"1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi\""
+ },
+ {
+  "i": 132,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1328-01-01",
+  "b": "Evfât sultanı Habeş kralına yenildi ve esir düştü",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "habesistan",
+   "evfat"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (evfat 0, habesistan 43)",
+  "kaynak": "TDV `evfat`: \"728 (1328) yılında yapılan şiddetli savaşta Evfât sultanı mağlûp oldu ve esir düştü\""
+ },
+ {
+  "i": 133,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1350-01-01",
+  "b": "Ömerî'nin kaydettiği yedi müslüman emirlik ve aralarındaki bölünme",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "habesistan",
+   "evfat"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (Etiyopya'nın doğusu; yedi emirliğin kimliği yok)",
+  "kaynak": "TDV `etiyopya`: \"melikleri Etiyopya kralı tarafından tayin edilen Evfât, Davâro, Bâlî, Hadbe, Şerhâ, Arâbabnî, Dârâ adında yedi emirlik vardı\""
+ },
+ {
+  "i": 134,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1372-01-01",
+  "b": "Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (kralın sınır kararı)",
+  "kaynak": "TDV `etiyopya`: \"1372-1382 yıllarında hüküm süren Nevaya Krestos Mısır kafilelerini Etiyopya sınırlarından içeri sokmamıştır\" · dunya puanı kronoloji_memluk.js 1372-01-01 kaydından devralındı"
+ },
+ {
+  "i": 135,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1386-01-01",
+  "b": "II. Hakkuddin Habeş kralına yenilerek öldürüldü",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "habesistan",
+   "evfat"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından",
+  "kaynak": "TDV `evfat`: \"Ancak Hakkuddin 1386 yılında Habeş kralıyla giriştiği savaşta yenildi ve öldürüldü\""
+ },
+ {
+  "i": 136,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1506-01-01",
+  "b": "Ahmed el-Mücâhid'in (Ahmed Gran) doğumu",
+  "taban": "ODAKSIZ",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (doğum yeri Hubat havuzda yok; metin Adal toprağı diyor)",
+  "kaynak": "TDV `ahmed-el-mucahid`: \"Abad Emirliği'nin Hubat bölgesinde 1506'da doğduğu rivayet edilmektedir\""
+ },
+ {
+  "i": 137,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1530-01-01",
+  "b": "Fatagar ve Evfât bölgelerinin fethi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından",
+  "kaynak": "TDV `ahmed-el-mucahid`: \"1530'da Fatagar ve Evfât bölgelerini ... ele geçirdi\""
+ },
+ {
+  "i": 138,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1531-01-01",
+  "b": "Davâro ve Şüve eyaletlerinin fethi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından",
+  "kaynak": "TDV `ahmed-el-mucahid`: \"1531'de Davâro ve Şüve (Shoa) eyaletlerini\""
+ },
+ {
+  "i": 139,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1532-01-01",
+  "b": "Amhare ve Lasta'nın fethi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından",
+  "kaynak": "TDV `ahmed-el-mucahid`: \"bir yıl sonra Amhare ve Lasta'yı\""
+ },
+ {
+  "i": 140,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1535-01-01",
+  "b": "Tigre topraklarının fethi ve Lebna Dengel'in Portekiz'den yardım istemesi",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından",
+  "kaynak": "TDV `ahmed-el-mucahid`: \"1535'te de Tigre topraklarını ele geçirdi\" · TDV `etiyopya`: \"içerilere çekilen Lebna Dengel Portekiz kralından yardım istedi (1535)\""
+ },
+ {
+  "i": 141,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1542-08-28",
+  "b": "Ahmed el-Mücâhid, Habeş-Portekiz ordusunu bozguna uğrattı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından",
+  "kaynak": "TDV `ahmed-el-mucahid`: \"28 Ağustos 1542'de Habeş krallık ordusu ile Portekiz kuvvetlerini büyük bir bozguna uğrattı\""
+ },
+ {
+  "i": 142,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1577-01-01",
+  "b": "Vebi nehri bozgunu — Harar Emirliği'nin ileri gelenleri öldürüldü",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_kimlik",
+  "deger": [
+   "adal",
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "iki/çok taraflı olay; taraf kimlikleri maddenin kendi devlet/taraflar alanından (Vebi nehri havuzda yok)",
+  "kaynak": "TDV `harar`: \"1577'de Webi nehri kıyılarında yaptığı savaşta yenildi ve kendisiyle birlikte Harar Emirliği'nin bütün ileri gelenleri öldürüldü\""
+ },
+ {
+  "i": 143,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1434-01-01",
+  "b": "Zar'a Ya'kūb dönemi — krallığın en geniş sınırları",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "habesistan"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (krallığın en geniş sınırları)",
+  "kaynak": "TDV `etiyopya`: \"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip olmuştur\""
+ },
+ {
+  "i": 144,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1558-01-01",
+  "b": "Osmanlı ordusunun Tigre bölgesine hâkim olması",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Aksum",
+   "Adua",
+   "Adigrat",
+   "Mekelle"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Tigre)",
+  "kaynak": "TDV `habes-eyaleti`: \"Osmanlı ordusu 1558'de bölgeye hâkim oldu\""
+ },
+ {
+  "i": 145,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1579-01-01",
+  "b": "Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Aksum",
+   "Adua",
+   "Adigrat",
+   "Mekelle"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Tigre; Addi Karro havuzda yok)",
+  "kaynak": "TDV `habes-eyaleti`: \"meydan savaşı, Tigre toprakları üzerinde Addi Karro denilen yerde yapıldı (1579)\" · \"1579'da Osmanlılar'ın yenilgisiyle sonuçlanan Addi Karro Savaşı'nın ardından eyalet topraklar"
+ },
+ {
+  "i": 146,
+  "dosya": "kronoloji_dogu_afrika.js",
+  "t": "1872-01-02",
+  "b": "Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Bahır Dar"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Mavi Nil kaynağı = Tana Gölü)",
+  "kaynak": "TDV `etiyopya`: \"1872'de Hidiv İsmâil Paşa İngilizler'in de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı\""
+ },
+ {
+  "i": 147,
+  "dosya": "kronoloji_sinir_okyanusya.js",
+  "t": "1884-01-01",
+  "b": "Almanya, Yeni Gine'nin kuzey kiyisini ilhak etti (141. meridyen siniri fiilen basladi)",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Vanimo",
+   "Aitape (Eitape)",
+   "Madang",
+   "Finschhafen"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Yeni Gine'nin kuzey kıyısı, 141° doğusu)",
+  "kaynak": "IBS No.160 (ABD Disisleri, The Geographer, 7 Subat 1977) s.2 - \"Germany annexed the northern coast east of the Dutch boundary\" (gun/ay bulunamadi, yalnizca yil verilmis)"
+ },
+ {
+  "i": 148,
+  "dosya": "kronoloji_sinir_okyanusya.js",
+  "t": "1884-01-01",
+  "b": "Ingiltere, Yeni Gine'nin guney kiyisinda himaye ilan etti",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Daru",
+   "Port Moresby",
+   "Samarai"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Yeni Gine'nin güney kıyısı)",
+  "kaynak": "IBS No.160 (ABD Disisleri, 1977) s.2 - \"a British protectorate was declared along the southern coast of New Guinea east of the Dutch boundary\" (gun/ay bulunamadi, yalnizca yil verilmis)"
+ },
+ {
+  "i": 149,
+  "dosya": "kronoloji_sinir_okyanusya.js",
+  "t": "1895-07-20",
+  "b": "Ingiltere-Hollanda Sozlesmesi — Yeni Gine'de guney sinirinin kesin tanimi",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Merauke",
+   "Daru"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Bensbach ağzı / 141. meridyen güney ucu)",
+  "kaynak": "Convention between Great Britain and the Netherlands, The Hague, 16 May 1895 (British Foreign and State Papers Vol.87, 1894-95, s.18-21); IBS No.160 s.2-3 (pypdf ile tam okundu)"
+ },
+ {
+  "i": 150,
+  "dosya": "kronoloji_sinir_okyanusya.js",
+  "t": "1906-09-01",
+  "b": "Papua Bolgesi Avustralya idaresine devredildi (Papua Kanunu 1905)",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Daru",
+   "Port Moresby",
+   "Samarai"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Papua Bölgesi)",
+  "kaynak": "IBS No.160 s.3 (\"placed under Australian administration in September 1906\"); Avustralya Parlamentosu Egitim Ofisi (Parliamentary Education Office) - \"1 September 1906\""
+ },
+ {
+  "i": 151,
+  "dosya": "kronoloji_sinir_okyanusya.js",
+  "t": "1914-09-17",
+  "b": "Avustralya kuvvetleri Alman Yeni Ginesi'ni isgal etti (Rabaul/Toma kapitulasyonu)",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "B",
+  "alan": "odak_yer",
+  "deger": [
+   "Herbertshöhe (Kokopo) — Rabaul"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "madde metni (b/d) yeri AÇIKÇA adlandırıyor (Rabaul/Toma — yer_id DEĞİL: kayıt Herbertshöhe+Rabaul birleşik)",
+  "kaynak": "Australian War Memorial, \"The action at Bita Paka, 11 September 1914\"; ABC News (7 Eylul 2014); Wikipedia \"Australian occupation of German New Guinea\" (harekatin 9 Eylul-21 Ekim 1914 arasina yayildigi"
+ },
+ {
+  "i": 152,
+  "dosya": "kronoloji_sinir_okyanusya.js",
+  "t": "1920-12-17",
+  "b": "Milletler Cemiyeti, eski Alman Yeni Ginesi'nin C-mandasini Avustralya'ya verdi",
+  "taban": "ODAKSIZ",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Vanimo",
+   "Madang",
+   "Herbertshöhe (Kokopo) — Rabaul",
+   "Kavieng (Käwieng)"
+  ],
+  "kaldir_kapsam_genis": false,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (eski Alman Yeni Ginesi)",
+  "kaynak": "IBS No.160 s.3 (\"accepted a mandate from the League of Nations in 1920\"); Cambridge Core, \"From Protectorate to Colony to Mandate, 1920\" (International Status in the Shadow of Empire); New Guinea Act "
+ },
+ {
+  "i": 153,
+  "dosya": "kronoloji_misir.js",
+  "t": "1815-01-20",
+  "b": "Bisel Muharebesi — Suûdî kuvvetlerinin bozguna uğraması",
+  "taban": "ODAKSIZ",
+  "sinif": "E",
+  "grup": "E",
+  "alan": null,
+  "deger": null,
+  "kaldir_kapsam_genis": false,
+  "gerekce": "yer havuzda yok / kimlik 0 yerleşim — bulunamadı (Bisel havuzda yok; misir-kavalali kutusu Kahire-Necid arası — yanıltır)",
+  "kaynak": "vehhabilik (TDV) — data/olaylar_ek4.js:76'da zaten doğrulanmış, Mısır perspektifine uyarlandı"
+ },
+ {
+  "i": 154,
+  "dosya": "kronoloji_misir.js",
+  "t": "1841-02-25",
+  "b": "Mısır ordusunun Suriye ve Çukurova'yı boşaltması",
+  "taban": "BEYANLI",
+  "sinif": "B",
+  "grup": "BG",
+  "alan": "odak_yer",
+  "deger": [
+   "Adana",
+   "Şam",
+   "Gazze"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "metin bir BÖLGE adlandırıyor; bölgenin havuzdaki yerleşimleri (coğrafî eşleme — koordinatör onayına bağlı, --grup BG) (Suriye + Çukurova, Sînâ üzerinden dönüş)",
+  "kaynak": "suriye (TDV) — data/olaylar_ek4.js:265'te zaten doğrulanmış, Mısır perspektifine uyarlandı"
+ },
+ {
+  "i": 155,
+  "dosya": "kronoloji_misir.js",
+  "t": "1861-06-01",
+  "b": "Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması",
+  "taban": "BEYANLI",
+  "sinif": "C",
+  "grup": "C",
+  "alan": "odak_kimlik",
+  "deger": [
+   "misir-kavalali"
+  ],
+  "kaldir_kapsam_genis": true,
+  "gerekce": "devlet düzeyi olay; madde gününde kimliğin atlas yerleşimleri (ölçüldü) (pamuk ihracatı ülke çapında)",
+  "kaynak": "pamuk (TDV) — Osmanlı ölçeğinde doğrulanmış; Mısır'a özgü ayrıntı için standart akademik kaynak (E.R.J. Owen) da kullanıldı"
+ }
+]
