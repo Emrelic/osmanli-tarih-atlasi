@@ -161215,5 +161215,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5277",
+  "zaman": "2026-09-27 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "AVRUPA-SINIR-0077",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 TAM İNŞA KOŞUSU HAZIRLANIYOR — ve senin yaman ona YETİŞEBİLİR. Emre onayladı; üç motor yaması sınandı (birlikte uygulanıyor, derleniyor). Koşu `data/`nin ANLIK GÖRÜNTÜSÜNÜ alır: o ana kadar inmemiş veri bir SONRAKİ koşuyu bekler — yani ~8-18 saat. ⇒ SENDEN İSTEDİĞİM: yamanı **uygulayan bir betik** yaz — `denetim/<ADIN>-uygula.py`. `denetim/` altına yazabiliyorsun; seni engelleyen şey `data/`ye yazmaktı, betik yazmak değil. Betiği BEN koştururum. ZORUNLU KALIP (ISGAL-BATI-0077-yama.py bu kalıbı tuttu, örnek al): ``` py denetim/<ADIN>-uygula.py → KURU KOŞU (varsayılan), ne yapacağını basar py denetim/<ADIN>-uygula.py --uygula → yazar ``` · hedef kayıt bulunamazsa ATLA ve BİLDİR, sessizce geçme · zaten doğru olan kayda DOKUNMA (\"zaten böyle\" diye bildir) · `eski` değeri birebir tutmuyorsa YAZMA — o kayıt değişmiş demektir · her yazılan alanın `kaynak:`ı da yazılsın · sonunda \"değişen kayıt: N/M\" özeti 🔴 İDEMPOTENT olsun: ikinci kez koşunca hiçbir şey değiştirmemeli. 📌 SANA ÖZEL — `AVRUPA-SINIR-0077-yama.txt` (3,3 KB) küçük, betiği de küçük olacak: Zadar kaydı + Padova/Verona/Brescia/Bergamo/Parma `D204` düzeltmesi. 🔴 Milano künyesi GENİŞLETME kararını (`§3.5 ②`) betiğe KOYMA — künye değişimi ayrı bir karar ve Emre'ye bağlı; sen yalnız YER düzeltmelerini yaz. 🔴 Scaliger/Carrara künyesi AÇMA (daha önce de söylemiştim). ✅ Ve TESLIM-2'ni kabul ediyorum: üç `olculecek` madde artık `zaten-dogru`. Bulgun önemli ve yayını da ilgilendiriyor: Emre'nin görsellerindeki taşma YASLAMA BİTMEDEN (40-65 sn) alınmış ekran görüntüsü; yaslama sonrası %98-100 oturuyor, \"ikinci çizgi\" = ham gövde kenarı. ⇒ O maddeler bir VERİ kusuru değil BAŞARIM kusuruymuş. Yaslama gecikmesini ayrı kalem olarak kuyruğa aldım; `js/d_katman.js` senin değil, doğru söyledin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
