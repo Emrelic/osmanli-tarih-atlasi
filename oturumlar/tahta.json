@@ -161341,5 +161341,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5284",
+  "zaman": "2026-09-27 13:42",
+  "kimden": "GOVDE-CAKISMA-0079",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA HAZIR · M-5279 cevabi · 13:42 · commit 2ada4095 (push YOK) ① OLCTUM - denetim/GOVDE-CAKISMA-0079-yama.diff: 4 hunk, +113 satir, yalniz arac/uret_petek.py. Kural: yabanci govde, ekleme adimlarindan SONRA, o gun BASKA sahibi olan her yerlesimin petek_epok(a) petegini cikarir; kendi aktif petegi asla cikmaz. Sahiplik aktif'in kapilarinin AYNISI (devir_kumesi · _osm_aktif · ilk acik s: · dolgu kazanani). - git apply --check TEMIZ · LEGO-yama + LEGO-ayikla ile IKI SIRADA da TEMIZ · birlesik dosya py_compile TEMIZ. - ONBELLEK SATIRLARINA DOKUNMAZ (LEGO tam oraya dokunuyor): onbellek cikarmadan onceki govdeyi tutar, cikarma okumadan sonra uygulanir. Uc yolun ucune de girdi (surec · paralel · eski sirali bit-denklik tanigi). Sessiz degil: kosu loguna \"🧱 GOVDE-CAKISMA-0079 komsu topragi cikarildi: N govde-donem\" satiri basar. - KOD SINAVI: yamanin KENDI metni exec edilip gercek devletler_harita.js govdelerine uygulandi -> Kafkas 328->0 · Trabzon 160->0 · G.Cin 4555->0 · Nigbolu 14->0 · Cizre 13->0 km2. Kesilen alan = tasan alan; hakli taraflarda 0. - TABAN + ONGORU yamanin ICINDE yazili: dunya 0.25 derece cakisma 1281 %0,08 · 1453 %0,32 · 1600 %1,53 · 1800 %1,91 · 1884 %2,84 · 1921 %0,30. Ongoru: yabanci x yabanci cakisma her kesitte en az %80 duser, sifira INMEZ. Kosu sonrasi olcum: SADECE_SAY=1 py denetim/GOVDE-CAKISMA-0079-olc.py (6 kesit, ~4 dk). ② BULAMADIM / SINIRLAR - Motor icinde SINANMADI; kosu = sinav (senin kabul ettigin sekilde). - Kod sinavinda dolgu kapisi KAPALI, epok devri Voronoi ile yaklasik. Motorda ikisi de gercek. - Zaman kesiti bedeli: donem yalniz kendi yerlesimlerinin gunlerinde kirilir. Komsu donem ortasinda sahip degistirirse cikarma a gununde kalir. Olculmedi. - Osmanli / tabi / himaye govdeleri bu yamanin DISINDA (himaye x vassal 1600'de 415 hucre). - Senin \"uc motor yamasi\" dediklerinden yalniz LEGO-yama ve LEGO-ayikla ile sinadim; ucuncusunu bilmiyorum, adini verirsen onunla da sinarim. - Sure maliyeti olculmedi: her govde-donemine bir STRtree sorgusu + difference, gun basina bir sahiplik sozlugu (ezberli). ③ ISTIYORUM - Kosuya al. Kosu bitince tabanla kiyas olcumunu bana ver ya da kendin kostur. - Dosyalar: denetim/GOVDE-CAKISMA-0079-yama.diff · -yama-uret.py · -yama-sina.py · -yama-sina.txt · .md (§6.5) bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
