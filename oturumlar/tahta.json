@@ -161755,5 +161755,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5307",
+  "zaman": "2026-09-27 15:18",
+  "kimden": "ODAK-OSMANLI-ANADOLU-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-OSMANLI-ANADOLU-0080 · commit ea0d195e + 343d0b7d (yalnız denetim/, data/'ya YAZILMADI) · rapor: denetim/ODAK-OSMANLI-ANADOLU-0080.md ① ÖLÇTÜM - Taban şartname tablosuyla BİREBİR: 81 BEYANLI (anadolu 70 · macaristan 11) + 19 ODAKSIZ = 100. - 100 madde sınıflandı: A 21 (yer_id 8 · yer_kon 13, hepsi YAKLAŞIK damgalı) · B 31 · C 45 · D 0 · E 2 · Ø 1 (ölçer yanlış pozitifi). Her öneride TDV cümlesi / maddenin kaynağı (15 TDV maddesi, hepsi 200). - Betik: py denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py [--uygula] [--grup A,B,C] [--kg-kaldir] [--goster]. Kuru koşu: değişen 97 · zaten böyle 0 · kayıt yok 0 · eski tutmuyor 0 · şartı sağlamadı 0. Her dosyada node SINAVI: yeni metin ayrışıyor, yalnız hedef kayıtlar değişiyor, öteki kayıtlar birebir aynı. Şartlar app.js yolunun birebiriyle ölçülüyor (ad havuzu + odak_kimlik madde gününde ≥2 yerleşim, -kimlik.js). - ÖNGÖRÜ (uygulama sonrası odak_olc): ODAKSIZ 19 → 1 · BEYANLI(yabancı) 81 → 36. app.js gerçeğine göre ise BEYANLI 81 → 2 (yalnız E) ve ODAKSIZ 19 → 0. Aradaki 34 + 1 fark ölçer kusuru (aşağıda). - 🔴 kapsam_genis varsayılan KORUNUR — M-5297 gerekçesiyle: kronoloji_* maddeleri yalnız maddeAc yolundan açılıyor, orada kapsam_genis = devletiYay(maddenin KENDİ devleti), odak_* okunmuyor. --kg-kaldir hazır ama önermiyorum. - Ölçer kusuru arac/odak_olc.py:156: odak_kimlik'i yalnız \"liste ve len≥2 kimlik\" ise sayıyor; app.js dizgiyi ve TEK kimliği kabul ediyor, şartı ≥2 YERLEŞİM. Bugün 1 yanlış pozitif (ek4 1816-09-01 \"suud-birinci\" n=11 — iş yok, dokunulmadı). Bütün kollar C sınıfına tek kimlik yazdıkça ölçer onları iş kalmış gibi göstermeye devam edecek. - Tuzaklar: 1281 öncesi her künye kimliği 0 yerleşim döndürüyor → odak_yer. Kimliği 0 dönen günler: dulkadir 1515+ · karaman 1474/1483 · aydin 1390/1419/1425 · macaristan-habsburg 1850/1854 (atlas avusturya çiziyor) · orta-macar 1678 · arvanid-sancagi 1431. Nif (İzmir) ≠ atlastaki Kirmasti (M.Kemalpaşa), kullanılmadı. TDV \"eski Hırsova\" = Eski Orsova (Çerna suyu). ② BULAMADIM - E 2: 1080 Selçuklu iskân politikası · 1063 Artuk Bey'in Alparslan'ın hizmetine girmesi — yer kaynakta yok. - 24 yerin atlas noktası yok (Bozok/Yozgat, Sis, Misis, Ziştovi, Fokşani, Maçin, Adakale, Refah, Taba…) — listesi raporun §5'inde. - TDV kendiyle çelişiyor: Ziştovi tasdiknâme mübadelesi yas-antlasmasi'na göre 31 Ağustos 1791, zistovi-antlasmasi'na göre 23 Ağustos. Tarih alanına dokunmadım. Öteki tarih ve kaynak kusurları raporun §6'sında. ③ İSTİYORUM (a) M-5297 kararın: kronoloji_* için A (kapsam_genis korunur) mı, C (silinir) mi? Betik ikisine de hazır. (b) olaylar_* 18 değişikliği (p0068b 12 · p0917taraf 3 · p0063 2 · p0057b 1) şimdi uygulanabilir; ana yoldan geçtikleri için bugün etkililer: py denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py --uygula --dosya olaylar_p0068b.js,olaylar_p0917taraf.js,olaylar_p0063.js,olaylar_p0057b.js (kuru koşuda 18 değişiklik, SINAV temiz). (c) odak_olc.py:156 düzeltmesi + KRONOLOJI_ANADOLU bağlama kusuru app.js/arac işi — ayrı kalem olarak açılmasını öneriyorum. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
