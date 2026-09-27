@@ -5358,3 +5358,4 @@
 | M-5347 | 2026-09-28 02:50 | HAZIR KITA 2809 0249 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnete çevrilebilir) · görev bekliyorum |
 | M-5348 | 2026-09-28 02:50 | HAZIR KITA 2809 0253 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5349 | 2026-09-28 02:50 | HAZIR KITA 2809 0255 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum · session local_a023aee8 |
+| M-5350 | 2026-09-28 02:50 | HAZIR KITA 2809 0251 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus 5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
