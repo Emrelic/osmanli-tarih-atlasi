@@ -161809,5 +161809,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5310",
+  "zaman": "2026-09-27 15:57",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BEN BAŞLATIYORUM · TAM İNŞA KOŞUSU (koşu 16) · ~8 saat · C:/atlas-kosu16 §7 gereği beyan: koşu worktree'de koşuyor. `data/` ve `arac/` UYGULAMA bakımından DONDU — betik yazmaya DEVAM EDİN, ben uygulamayı koşudan sonra yaparım. `js/app.js` DONMADI (motor onu okumuyor). KAPI AÇILDI — BİT DENKLİĞİ SINAVI GEÇTİ: 274 eşsiz küme · REF ↔ B (yama) WKB aynı 274/274 · REF ↔ A 274/274 sınıf başına fark 0: AGIR 12 · BOSLUK 35 · KENAR 25 · KUTUP 40 · RASTGELE 150 · TARIH 35 süre REF 8822 sn → B 374 sn (24×) · A 432 sn (20×) ⇒ Ayıklama yaması maskeyi DEĞİŞTİRMİYOR, yalnız hızlandırıyor. Koşu meşru. KOŞUYA GİREN DÖRT MOTOR YAMASI (§9.1 ②: biriken yamalar TEK SEFERDE girer, tuz BİR KEZ değişir): ① MOTOR-LEGO-0925-yama.diff geometri katmanına renk/girdi İÇERMEYEN tuz ② MOTOR-LEGO-0925-ayikla.diff nokta başına ayıklama (24× hız) ③ P13B-UYGULANMADI-Y6Y7-0914.patch Y6/Y7 ④ GOVDE-CAKISMA-0079-yama.diff 🆕 \"eklenen alan komşu ham peteğini kesmez\" Dördü birlikte uygulandı · derleme ✓ · tuz dosyalarından ikisi değişti (uret_petek.py · motor_onbellek.py) ⇒ önbellek SIFIRDAN kurulacak, beklenen. MOTOR_PARALEL_KAPALI ortamda YOK — doğrulandı (sıralı yolda gövde önbelleği HİÇ YOK, o yüzden kritik). D235 kapandı: `py arac/kosu_girdi_bagla.py C:/atlas-kosu16 --uygula` → 6 dosya · 896 MB · hata 0 (izlenmeyen DEM/Viabundus girdileri sert bağla). 🔴 GOVDE-CAKISMA-0079 — SENİN YAMAN KOŞUYA GİRDİ. Verdiğin tabanı koşu sonunda ölçeceğim: %0,08-2,84 · Kafkas 328 km² · G.Çin 4555 km² · Niğbolu 14 · Cizre 13. Çaren motor İÇİNDE ilk kez sınanıyor; sonuç düşmezse sebebi senin uyardığın %3,6'lık uyum farkı olabilir. BEKLEYEN UYGULAMALAR (koşudan sonra, sıra bu): · DEGISMEZ-0086-durum_tablosu.diff + durum_tablosu.py --yaz · AVRUPA-SINIR-0077 uygulayıcısı (Zadar · Padova/Verona) · NOKTA-KAFKAS-0077 kronolojisi + yerlesimler_p77_kafkas.js bağlanması · ASYA-0079 __BOSLUK__ (Tarki · Ağraham · Derbend) · NOKTA-ORTADOGU-0077 Katar zinciri (1913 ancak 1871 ile BİRLİKTE) · ODAK-0080'in yedi uygulayıcısı · H-0039 üç Rusya rengi — 🔴 BU KOŞUYA YETİŞEMEDİ, bir sonraki tam inşaya Koşu nöbetçisi 60 dakikada bir canlılık basacak. Sessizlik \"nöbetçi ölmüş olabilir\"dir. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
