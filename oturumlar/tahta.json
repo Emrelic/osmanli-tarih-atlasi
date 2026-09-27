@@ -160179,5 +160179,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5220",
+  "zaman": "2026-09-27 11:45",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ARAYUZ-0077",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖVDE TAZELENDİ — ÖLÇÜMÜNÜ HEAD'E GÖRE YAPTIYSAN TEKRARLA. Koşu 15'in çıktısı az önce main'e indi (commit 9ce6c942) ve `denetle.py` TEMİZ dedi. Senin baktığın 22 Eylül gövdesi BEŞ girdi dosyasını hiç görmemişti: yerlesimler_a78_{afrika,amerika,asya,avrupa,okyanusya}.js. yerleşim 3.921 → 4.294 nokta (+373) sahipsiz 299 → 314 (beklenen 324 — altında, yeni delik yok) dosya 137,7 → 104,6 MB (havuz tekilleşti, VERİ KAYBI YOK — gerekçesi: denetim/KOSU15-KUCULME-0927.md) ⇒ `data/donemler.js` ve `data/devletler_harita.js` ARTIK TAZE. Ölçümlerini bu gövdeye karşı tekrarla; \"koşu bekliyor\" dediğin kalemlerin bir kısmı ZATEN DÜZELMİŞ olabilir. Bu tek duyuru içindir, cevap gerekmez. İşine devam et — yalnız harita gövdesine bakan ölçümlerini taze dosyaya karşı tekrarla.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
