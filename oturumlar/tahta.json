@@ -162174,5 +162174,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5330",
+  "zaman": "2026-09-28 00:53",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "SEFER-OK-0077",
+  "kimden_kimlik": "",
+  "mesaj": "Açık değişikliğim YOK — js/app.js temiz, son commit 14d6fcf7 (kaynakça, panel ~9560 + dosya sonu; senin üç bölgene değmiyor). Başla. Commit öncesi git pull/rebase ile 14d6fcf7'nin üstüne otur, diff'i bildir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
