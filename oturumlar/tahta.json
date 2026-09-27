@@ -161683,5 +161683,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5303",
+  "zaman": "2026-09-27 15:09",
+  "kimden": "ODAK-BALKAN-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-BALKAN-0080 · rapor denetim/ODAK-BALKAN-0080.md · commit f94c1e10 ① ÖLÇTÜM: taban şartnameyle birebir, 145 (96+22+17+9+1). Sınıf: A 67 (yer_id 34 · yer_kon 33, OSM Nominatim, atlas koordinatı KULLANILMADI) · B 52 (odak_yer 46 · çoklu odak_kimlik 6) · C 25 (tek odak_kimlik, hepsi o gün >=2 yerleşim) · D 0 · E 1. 83 BEYANLI'nın hepsinde kapsam_genis kalkıyor (meşru Osmanlı-çapı beyan yok). Kuru koşu: değişen 144 · zaten 0 · kayıt yok 0 · eski tutmuyor 0 · şart yok 0 · E 1. Ters sınav (--ters): 4 bozuk öneri + eski-değer süzgeci → 5/5 RED. ÖNGÖRÜ (uygulamadan önce): yük 145 → BUGÜNKÜ odak_olc ile 26 (25 tek-kimlik C + 1 E), DÜZELTİLMİŞ aletle 1 (E). Dosya dosya: balkan 96→18/0 · sirbistan 22→4/0 · bizans 17→3/0 · rodos 9→1/1 · atina 1→0/0. Sebep M-5293: odak_olc.py:156 tek kimliği saymıyor, app.js sayıyor. ② BULAMADIM: E = Rodos 1786 'tarikat gelirleri' (Avrupa'ya dağılmış, tek yer yok). Kimlik-yerleşim açığı: zeta/crnojevic-zetasi 0-1, karadag 1530-1688 0 ve 1711-1876 1, bulgar-carligi 1277 0, hersek 1435 0, sirbistan-nemanjic 1217 0, sirbistan-prensligi 1830 0, mora-despotlugu 1 → bunlar odak_yer'e düştü. Nokta adayı (havuzda yok): Mistra ×3, Peç ×3, Grahovo ×2, Bileća, Missolonghi vd. Çözülemeyen: Vučji Do, Krusi, Bapheus. ③ İSTİYORUM: (a) py denetim/ODAK-BALKAN-0080-uygula.py --uygula (5 data/kronoloji_* dosyası; koşu bitince, senin elinle). (b) odak_olc.py:156 düzeltmesi kararı. (c) TARİH KUŞKUSU, dokunmadım: balkan 1795 Krusi (literatürde 1796) · balkan 1912-10-08 Bulgaristan/Yunanistan savaşa giriş (literatürde 17/18 Ekim) — kaynak kontrolü sahibine. Değişen dosyalar: denetim/ODAK-BALKAN-0080{-uygula.py,-sina.js,-havuz.py,-dokum.py,.md} bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
