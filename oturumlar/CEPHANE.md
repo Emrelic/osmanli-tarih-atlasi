@@ -3,6 +3,28 @@
 > `CLAUDE.md §2d` / `YASALAR G12`: *vites, ekipten ÖNCE seçilir.* Bu dosya
 > olmadan kaç oturum açılacağı bir tahmindir.
 
+## 🆕 27 Eylül 2026 · 07:35 — `get_usage` ile ÖLÇÜLDÜ (beyan değil)
+
+```
+abonelik          Max
+5 saatlik limit   %1   · reset 4s 35dk
+haftalık (tümü)   %17  · reset 30 Eylül 21:00 (3g 13s)
+haftalık Fable    %0
+ek kullanım       KAPALI (0,00 / 20,00 USD)
+```
+🔴 **Aşağıdaki 23 Eylül beyanı BAYATTI ve bir daha dayanak yapılmamalı.** O
+ölçüm *"%94 dolu · reset Perşembe 00:00 · maksimum tasarruf"* diyordu; o reset
+25 Eylül'de geçti. Dört gün boyunca en dar vites yürürlükte sayıldı, oysa
+bağlayıcı kısıt kalkmıştı.
+📌 **Ders: cephane SORULMADAN ÖNCE ÖLÇÜLÜR.** `get_usage` `plan` bloğunu
+oturum kimliği olmadan da verir (`context` başka oturum için "unavailable"
+dönse bile `plan` DOLU gelir) ⇒ kullanıcıya *"panele bak, yüzdeyi yaz"* demek
+artık gereksiz bir tur. Bu satır yazılana kadar bu ölçüm yolunun mümkün olduğu
+bilinmiyordu ve dosya elle beyanla besleniyordu.
+
+⇒ **Yürürlükteki vites: `§2d` "20x Max, limit rahat" satırı** — tam düzen, çok
+oturum açılabilir. Tasarruf hâlâ bir fazilettir ama artık bir KISIT değildir.
+
 ## 23 Eylül 2026 · 01:10 — Emre'nin beyanı
 
 ```

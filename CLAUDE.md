@@ -334,6 +334,30 @@ AMERİKA ~3s). 🔴 İlk hükümde `isRunning`e bakıp "3 yanlış" demiştim; d
 alana (`lastActivityAt`) bakınca 4 çıktı. **Yanlış alanla ölçmek, ölçmemekten
 daha tehlikelidir: sayı verir ve güven telkin eder.**
 
+### ⑧ 🆕 HAZIR KITAYA GÖREV VERMEK — genel kural (Emre, 27 Eylül 2026)
+Emre: *"soğuk hazır kıtalara görev vermek daha tasarruflu daha doğru daha hızlı
+olacak ise verebiliriz genel kural olarak; olmayacaksa hazır kıta iste."*
+Cevap **şartlıdır ve şartı ÖLÇÜLÜR:**
+```
+① ADI "hazır kıta" olan oturum BOŞ SAYILMAZ  →  list_events MESAJ SAYISI ölçülür
+② GERÇEKTEN BOŞ (yalnız /kita okumuş, ~10-20 mesaj), soğuk olsa bile → KULLAN
+   bağlamı taze tabana yakındır (~90-100 bin ≈ 82.561) · fark küçük ·
+   Emre'yi elle oturum açmaktan kurtarır  ⇒ EVET, genel kural budur
+③ DOLU/tecrübeli + SOĞUK + bilgisi `denetim/*.md`de YAZILI → KULLANMA, TAZE aç
+   ölçülmüş bedel: soğuk %37 oturum 365.096 · taze 82.561 + tek dosya (~5.000)
+   ⇒ taze + disk devri ~4 KAT UCUZ, ve doğruluk kaybı YOK (ölçüm diskte)
+④ DOLU/tecrübeli + SOĞUK + bilgisi YAZILMAMIŞ (yarım iş) → ONU UYANDIR
+   `§7.3`ün "doğruluk bedeli ezer" maddesi burada yürürlüktedir
+```
+🔴 **VAKA — kural tam bu yüzden yazıldı (27 Eylül, paket 0077 dağıtımı):** üç
+oturumun adı `OPUS HAZIR KITA 2309 00xx /kita`ydı; ölçülünce **290 · 279 · 56
+mesaj** çıktı — üçü de dolu işçiydi (biri KRONO-0076-B'nin 24 maddesini ve 20
+ek okuma kartını yapmış). Görev verilince adları görev adına çevrilmemişti
+(`§7.2 ①` ihlali) ve havuz listede **boş görünüyordu.** ⇒ Ölçülmeden hazır
+kıta sayılan oturuma iş vermek, dolu bir işçinin üstüne ikinci iş yığmaktır.
+📌 Ve tersi de doğrudur (`F18`): defterin "hazır kıta 0" demesi de kanıt değil.
+**Ad ve defter KAYIT tutar, `list_events` ÖLÇER.**
+
 ## 7.2 TOKEN ZİNCİRİ — bir işin baştan sona yolu (17 Eylül 2026)
 - **① Açılış:** Emre oturumu açar, adlandırır. Oturum CLAUDE.md'yi okur, kimliğini
   `get_session("self")` ile ölçer (scratchpad UUID'si DEĞİL). MODEL koordinatörün işidir:
