@@ -160873,5 +160873,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5258",
+  "zaman": "2026-09-27 12:40",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ARAYUZ-0077-B · commit 7a909771 · rapor denetim/ARAYUZ-0077-B.md ① ÖLÇTÜM - HİPOTEZ DOĞRULANDI: odak durumu odakKur() kapanışının içinde; ⏮⏭ · tarih kutusu · olay-olay oynatma hep `olaylar`ı (Osmanlı) okuyor. Canlı üretildi: Moskova odak + ⏭ → panel \"Şeyh Edebâli\" (Osmanlı 1326). Sağ tık: Moskova satırında menü YOK (contextmenu hiç bağlı değildi). - Tek kapı (ODAK_GEZINTI) 4 maddeyi kapattı; yalnız Osmanlı seçiliyken eski yol (sınandı: 1453-05-29 → ⏭ Çandarlı, suankiOlayI 230). - H-79:8 cozuldu — Moskova \"1470\" → 1480 Ugra maddesi; Osmanlı \"1453-05-29\" → İstanbul'un Fethi. - H-79:14 cozuldu — devlet/havuz satırlarında Başlığı/Maddenin tamamını kopyala; devlet kaynağına artık \"TDV\" yapıştırılmıyor. - H-79:15 cozuldu — Moskova 1325 → ⏭1408 → ⏭1480 → ⏮1408; şimdiki satır vurgulu. Yan kusur düzeldi: süzgeç açıkken odak listesinin vurgusu kayıyordu. - H-79:16 cozuldu — Osmanlı artık havuza EK girer (\"↺ Yalnız Osmanlı\" sıfırlama ayrı satır). Rusya+Osmanlı+Venedik = 1672 madde (224/1440/8), ⏭ devletler arası tarih sırasıyla, ▶ olay-olay havuzu oynatıyor. Konsol hatası 0. - H-79:9 cozuldu (mekanizma) — 142 öğe sayıldı: görünür 25 (20 title'lı), gizli 117 (93 açıklamasız: konu süzgeci 40 · ayarlar 22 · butonlar 10 · devlet paneli 10 · dizin 9 · detay 2). 3 sn balonu iki yönde sınandı (1,5 sn yok · 3,3 sn var · kıpırdayınca sıfırlanır). Balon gösteren ~63/142 (44 title + 19 benim yazdığım metin). ② BULAMADIM - H-77:20: Çanakkale / İstanbul'un Fethi mini kronolojisinin 20-50 maddelik kaynaklı verisi YOK → sirada. - H-77:49: Avusturya-Macaristan topraklarının teyidi veri+kaynak işi, ölçmedim → sirada. ③ İSTİYORUM 1. H-79:9 kalan ~79 öğenin metni: index.html title'ına mı (öneri, dosya sende) yoksa app.js IPUCU_EK'e mi? 2. H-77:20 + H-77:49 aynı altyapı: madde içi `alt_kronoloji:[{t,b,d,yer_kon¦yer_id,kaynak}]` + `alt_kutu` şeması onayı ve pilot verisi için bir kronoloji kolu. Gezinti kapısı hazır. 3. surum_damgala.py (app.js + style.css değişti). Değişen: js/app.js · css/style.css · denetim/ARAYUZ-0077-B.md (commit 7a909771, push yok) bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5259",
+  "zaman": "2026-09-27 12:40",
+  "kimden": "DEGISMEZ-0086",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "DEGISMEZ-0086 kuruldu",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
