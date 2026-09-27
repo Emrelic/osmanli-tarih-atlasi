@@ -3789,11 +3789,502 @@ def donem_sagligi(Y):
             "sd_ortusme": sd_ortusme, "dv_ortusme": dv_ortusme}
 
 
+# ---------------- Değişmez 8 — ŞEHİR BÖLGESİ ÜLKE SINIRINI AŞAMAZ ----------------
+# Emre, H-0069 + H-0086 (27 Eylül 2026): *"bir şehrin sınırı ülke sınırını
+# geçerek yabancı ülke topraklarına erişemez … genel kural olarak yazalım."*
+# Kural `CLAUDE.md §3` Değişmez 8; vaka ve ölçüm `denetim/DEGISMEZ-0086.md`.
+#
+# 🔴 BU SORU MOTORUN ÇIKTISINI ÖLÇER, GİRDİYİ DEĞİL. Öteki değişmezler
+#   `yerlesimler*.js`i okur; bu soru `devletler_harita.js` + `donemler.js` +
+#   `bolgeler.js` gövdesini okur. ⇒ Veri değişikliğinin etkisi bu satıra
+#   ancak BİR SONRAKİ KOŞUDAN SONRA yansır. Satır gövdenin damgasını basar.
+#
+# İKİ SORU, İKİ TAVAN — tek sayıya toplanırsa biri iner öbürü çıkar, tavan
+# kıpırdamaz ve kayma görünmez:
+#   8a PETEK × D HATTI  — gövde, o gün geçerli D hattını aşıp karşı yakaya
+#                          ≥ D8_DERIN km uzanıyor mu. Kök: A katmanı (nokta).
+#   8b BÖLGE × GÖVDE    — Osmanlı k1/k2 bölge poligonu kendi penceresinde
+#                          yabancı gövdeye düşüyor mu. Kök: bölge üretimi.
+#
+# MUAFİYETLER — her biri gerekçesiyle, sessiz muafiyet YOK:
+#   eksklav / deniz aşırı  hatta (≤ 1 km) DEĞMEYEN karşı parça sayılmaz:
+#                          hattan kopuk toprak meşru olarak uzakta olabilir.
+#   menderes               iki yanın şeridi ÇAKIŞAN yer atılır: nokta hangi
+#                          yakada, hat geometrisinden karar verilemez.
+#   `__BOSLUK__`           beyan, kusur değil (§3.5.1) — karşı taraf sayılmaz.
+#   Osmanlı ↔ tâbi         8b'de `v` gövdesi yabancı SAYILMAZ (§3).
+#   çöl / dolgu            gövdesi yoktur ⇒ hiçbir soruya girmez.
+#   `isg:` işgal           YAPISAL: motor `isg:` OKUMAZ (girdi.py:177), gövde
+#                          de jure'dur ⇒ işgal taşma üretemez.
+D8_SERIT = 25.0      # km — hattın her iki yanında bakılan şerit
+D8_DERIN = 5.0       # km — bu derinliğin altı petek/hat genelleştirme payı
+D8_ALAN_8A = 5.0     # km² — 5 km'den derindeki taşma alanı en az bu kadar
+D8_ALAN_8B = 50.0    # km² ve …
+D8_ORAN_8B = 0.01    # … bölgenin en az %1'i
+D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
+
+# 🔴 TAVAN = BUGÜNKÜ ÖLÇÜM, ONAY DEĞİL (bkz. 3z, 4c). SIFIRLA GİRİLMEDİ:
+#   ilk ölçüm 1611 + 83 buldu; sıfır tavan bütün yayını bloke ederdi.
+#   Tavan bir DONDURMADIR — borç görünür kalır, ARTIŞI ihlaldir; iniş
+#   "TAVAN GEVŞEK" uyarısı verir ve tavan da İNDİRİLİR.
+# Ölçüldü: 27 Eylül 2026, DEGISMEZ-0086 · gövde = koşu 15
+#   (devletler_harita.js 2026-09-25 20:55 · uret_petek c90fa6c8).
+#   8a 1611 birim · 249 hatta · 479 (hat, gün) · 1022'si ≥ 24 km (şerit tavanı)
+#   8b 83 (bölge, gün) · 54/80 bölgede
+#   ayrı kova (bilgi): C/YOK hatlarında 985 · ölçülemeyen (hat, gün) 177
+# ⚠️ BU SORU MOTOR ÇIKTISINI ÖLÇER ⇒ sayı KOŞUDAN KOŞUYA oynar. Yeni koşu
+#   inince ilk iş bu satırı okumak: iniş = tavanı indir · artış = hangi
+#   birimin yeni olduğu DEFTERDEN adıyla basılır (2t kalıbı).
+BEKLENEN_D8A = 1611
+BEKLENEN_D8B = 83
+# DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
+#   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
+#   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,
+#   tavana KATILMAZ. Gerekçe ölçüldü: ham gövde D hattını tanımaz, ölçülen
+#   (hat, gün)ların %94'ünde taşma var ⇒ her yeni D kaydı tavanı delerdi ve
+#   DOĞRU bir veri eklemesi yayını bloke ederdi. Kova sessiz DEĞİLDİR:
+#   inceleyen `--d8-defter-yaz` ile evrene alır, tavan o gün yeniden ölçülür.
+DEGISMEZ8_DEFTERI = os.path.join(KOK, "denetim", "DEGISMEZ-0086-defter.json")
+
+
+def _d8_js(yol):
+    """`window.X = <JSON>;` biçimli ÜRETİLMİŞ dosya → {X: değer}.
+    Motor bu dosyaları `json.dumps` ile yazar ⇒ `raw_decode` yeter (65 MB'ı
+    karakter karakter yorum ayıklamak dakikalar sürer). Çözülemeyen değişken
+    SESSİZCE ATLANMAZ: hata fırlatır, çağıran "ÖLÇÜLEMEDİ" basar."""
+    import re
+    t = open(yol, encoding="utf-8").read()
+    dec = json.JSONDecoder()
+    cik = {}
+    for m in re.finditer(r"window\.([A-Z_]+)\s*=\s*", t):
+        cik[m.group(1)] = dec.raw_decode(t, m.end())[0]
+    return cik
+
+
+def _d8_node(dosyalar, ifade):
+    """El yazısı JS'i (D hatları, devletler.js) node ile okur — kendi
+    ayrıştırıcını yazma (bkz. _devletler_yukle)."""
+    import subprocess
+    js = ("global.window={};for(const f of %s)eval(require('fs').readFileSync(f,'utf8'));"
+          "process.stdout.write(JSON.stringify(%s));" % (json.dumps(dosyalar), ifade))
+    c = subprocess.run(["node", "-e", js], capture_output=True,
+                       encoding="utf-8", timeout=180)
+    if c.returncode != 0:
+        raise RuntimeError(c.stderr.strip()[-200:])
+    return json.loads(c.stdout)
+
+
+def _d8_d_dosyalari():
+    """index.html'in yüklediği D hattı dosyaları — liste burada TUTULMAZ."""
+    import re
+    kok = os.path.dirname(DATA)
+    h = open(os.path.join(kok, "index.html"), encoding="utf-8").read()
+    return sorted({os.path.join(kok, m) for m in
+                   re.findall(r'src="(data/d_sinirlar[^"?]*\.js)', h)})
+
+
+def _d8_gun_once(g):
+    from datetime import date, timedelta
+    try:
+        return (date.fromisoformat(g) - timedelta(days=1)).isoformat()
+    except ValueError:
+        return None
+
+
+class _D8Govde:
+    """Motor gövdesi: gün → o gün boyalı parçalar (lon/lat shapely)."""
+
+    def __init__(self):
+        from shapely.geometry import Polygon
+        self._Polygon = Polygon
+        H = _d8_js(os.path.join(DATA, "devletler_harita.js"))
+        D = _d8_js(os.path.join(DATA, "donemler.js"))
+        B = _d8_js(os.path.join(DATA, "bolgeler.js"))
+        # Damga: gövde dosyasının yazıldığı an + motorun parmak izi (URETIM_IZI
+        # zaman taşımıyor — yalnız girdi/motor sha256'ları).
+        import time as _t
+        iz = (H.get("URETIM_IZI") or {}).get("motor") or {}
+        self.damga = "%s · uret_petek %s" % (
+            _t.strftime("%Y-%m-%d %H:%M", _t.localtime(
+                os.path.getmtime(os.path.join(DATA, "devletler_harita.js")))),
+            (iz.get("uret_petek.py") or "?")[:8])
+        self.bolgeler = B["BOLGELER"]
+        # (kaynak_havuz, kaynak_halka, dönem listesi[(id, f, t, g)])
+        self.kay = [
+            (H["DEVLET_PARCALAR"], H["DEVLET_PARCA_HALKA"],
+             [(d["id"], dn.get("f") or "0000", dn.get("t") or "9999", dn.get("g") or [])
+              for d in H["DEVLET_HARITA"] for dn in d.get("dnm") or []]),
+            (D["PARCALAR"], D["PARCA_HALKA"],
+             [(k, d.get("f") or "0000", d.get("t") or "9999", d.get(a) or [])
+              for d in D["DONEMLER"] for a, k in (("o", "OSMANLI"), ("v", "OSM-TABI"))]),
+        ]
+        self._onb = {}
+        self._kutu = {}
+
+    def _parca(self, ki, p):
+        """Parça → (kutu, shapely). Sayı = halka indeksi; liste = ham halka."""
+        anahtar = (ki, p if isinstance(p, int) else id(p))
+        if anahtar in self._onb:
+            return self._onb[anahtar]
+        havuz, halka = self.kay[ki][0], self.kay[ki][1]
+        if isinstance(p, int):
+            if p >= len(halka):
+                self._onb[anahtar] = None
+                return None
+            rings = [havuz[h] for h in halka[p] if h < len(havuz)]
+        else:
+            rings = [p]
+        rings = [r for r in rings if len(r) >= 4]
+        if not rings:
+            self._onb[anahtar] = None
+            return None
+        xs = [q[0] for q in rings[0]]
+        ys = [q[1] for q in rings[0]]
+        kutu = (min(xs), min(ys), max(xs), max(ys))
+        self._onb[anahtar] = (kutu, None, rings)
+        return self._onb[anahtar]
+
+    def _geo(self, ki, p):
+        r = self._parca(ki, p)
+        if r is None:
+            return None
+        kutu, g, rings = r
+        if g is None:
+            g = self._Polygon(rings[0], rings[1:])
+            if not g.is_valid:
+                g = g.buffer(0)
+            self._onb[(ki, p if isinstance(p, int) else id(p))] = (kutu, g, rings)
+        return g
+
+    def kesit(self, gun, kutu, bitis_dahil=False):
+        """gun'de boyalı ve kutu ile kesişen parçalar → [(id, shapely)]."""
+        x0, y0, x1, y1 = kutu
+        cik = []
+        for ki, (_, _, donem) in enumerate(self.kay):
+            for gid, f, t, parcalar in donem:
+                if not (f <= gun and (gun <= t if bitis_dahil else gun < t)):
+                    continue
+                for p in parcalar:
+                    r = self._parca(ki, p)
+                    if r is None:
+                        continue
+                    k = r[0]
+                    if k[2] < x0 or k[0] > x1 or k[3] < y0 or k[1] > y1:
+                        continue
+                    g = self._geo(ki, p)
+                    if g is not None and not g.is_empty:
+                        cik.append((gid, g))
+        return cik
+
+
+def _d8_izdusum(lon0, lat0):
+    """Yerel eşit-uzaklık (km) izdüşümü — 25 km şerit için yeterli."""
+    import math
+    a = 111.32 * math.cos(math.radians(lat0))
+    e = 111.32
+    return [a, 0, 0, e, -lon0 * a, -lat0 * e]
+
+
+def _d8_sahip(y, gun):
+    """Yerleşimin o günkü DE JURE sahibi (motorun gördüğü; `isg:` HARİÇ)."""
+    for p in y.get("s") or []:
+        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+            return p.get("d")
+    for p in y.get("v") or []:
+        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+            return "OSM-TABI"
+    for p in y.get("d") or []:
+        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+            return "OSMANLI"
+    return None
+
+
+D8_SINIF = ("D", "E", "F")   # C = belge kaba, YOK = çizilmez ⇒ AYRI kovada (bilgi)
+
+
+def degismez8(Y, sadece=None, hatlar=None, gv=None):
+    """Döner: dict(a=[taşma 8a], a_kaba=[C/YOK hatlarında taşma — bilgi],
+    b=[taşma 8b], olculen, olculemeyen, hat_sayisi, iki_tarafsiz, damga, sure)
+    `sadece`: yalnız bu D kimlikleri (sınav) · `hatlar`: dışarıdan D kaydı
+    listesi (sınavın yapay hatları) · `gv`: önceden yüklenmiş gövde."""
+    import time
+    import numpy as np
+    import shapely
+    from shapely.geometry import LineString, MultiLineString, Point
+    from shapely.affinity import affine_transform
+    from shapely.ops import unary_union
+    from shapely import STRtree
+
+    t0 = time.time()
+    if gv is None:
+        gv = _D8Govde()
+    kok = os.path.dirname(DATA)
+    harita = _d8_node([os.path.join(kok, "data", "devletler.js")],
+                      "Object.fromEntries((window.DEVLETLER||[]).filter(d=>d&&d.id)"
+                      ".map(d=>[d.id,d.harita||d.id]))")
+    iki_tarafsiz = 0
+    if hatlar is None:
+        tum = _d8_node(_d8_d_dosyalari(),
+                       "Object.values(window).filter(Array.isArray).flat()"
+                       ".filter(r=>r&&r.id&&r.hat&&r.hat.length)")
+        hatlar = [r for r in tum if len(r.get("taraflar") or []) == 2]
+        # 🔴 SAYILIR, SESSİZCE ELENMEZ: iki taraflı olmayan kaydın "karşı
+        #   yakası" tanımsızdır — bu soru onu SORAMAZ.
+        iki_tarafsiz = len(tum) - len(hatlar)
+    if sadece:
+        hatlar = [r for r in hatlar if r["id"] in sadece]
+
+    def anahtar(x):
+        if x in ("osmanli", "OSMANLI"):
+            return "OSMANLI"
+        return harita.get(x, x)
+
+    def esit(g, t):
+        return g is not None and t is not None and anahtar(g) == anahtar(t)
+
+    # Atıf dizini: anahtar → [(lon, lat, ad, f, t)] — DE JURE (`isg:` HARİÇ,
+    # motor da okumaz). Osmanlı `d:` → OSMANLI, `v:` → OSM-TABI.
+    aralik = {}
+    for y in Y:
+        if y.get("lat") is None or y.get("lon") is None:
+            continue
+        for kat, sabit in (("s", None), ("d", "OSMANLI"), ("v", "OSM-TABI")):
+            for p in y.get(kat) or []:
+                k = sabit or anahtar(p.get("d"))
+                aralik.setdefault(k, []).append(
+                    (y["lon"], y["lat"], y["ad"], p.get("f") or "0000", p.get("t") or "9999"))
+    _agac = {}
+
+    def agac(taraf, gun):
+        k = (anahtar(taraf), gun)
+        if k not in _agac:
+            L = [a for a in aralik.get(k[0], ()) if a[3] <= gun < a[4]]
+            _agac[k] = (STRtree(shapely.points([(a[0], a[1]) for a in L])), [a[2] for a in L]) \
+                if L else None
+        return _agac[k]
+
+    a_tasma, a_kaba, olculen, olculemeyen = [], [], 0, []
+    olc_hat = set()
+    for r in hatlar:
+        hat = r["hat"]
+        parcalar = hat if isinstance(hat[0][0], list) else [hat]
+        parcalar = [p for p in parcalar if len(p) >= 2]
+        if not parcalar:
+            continue
+        sinif = r.get("sinif") or r.get("kategori") or "?"
+        hedef = a_tasma if sinif in D8_SINIF else a_kaba
+        sol = r.get("sol_taraf") or r["taraflar"][0]
+        sag = [t for t in r["taraflar"] if t != sol]
+        sag = sag[0] if sag else r["taraflar"][1]
+        xs = [q[0] for p in parcalar for q in p]
+        ys = [q[1] for p in parcalar for q in p]
+        lon0, lat0 = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
+        M = _d8_izdusum(lon0, lat0)
+        ia = [1 / M[0], 0, 0, 1 / M[3], -M[4] / M[0], -M[5] / M[3]]
+        pay = D8_SERIT / 111.32 / max(0.2, math.cos(math.radians(lat0))) + 0.05
+        kutu = (min(xs) - pay, min(ys) - D8_SERIT / 111.32 - 0.05,
+                max(xs) + pay, max(ys) + D8_SERIT / 111.32 + 0.05)
+        cizgi = affine_transform(
+            MultiLineString(parcalar) if len(parcalar) > 1 else LineString(parcalar[0]), M)
+        SOL = unary_union([affine_transform(LineString(p), M).buffer(D8_SERIT, single_sided=True)
+                           for p in parcalar])
+        SAG = unary_union([affine_transform(LineString(p), M).buffer(-D8_SERIT, single_sided=True)
+                           for p in parcalar])
+        ortak = SOL.intersection(SAG)            # menderes: yaka belirsiz ⇒ atılır
+        SOL, SAG = SOL.difference(ortak), SAG.difference(ortak)
+        derin = cizgi.buffer(D8_DERIN)
+        degme = cizgi.buffer(D8_DEGME)
+        gunler = {r.get("f"), _d8_gun_once(r.get("t")) if r.get("t") else None}
+        for gun in sorted(g for g in gunler if g and g >= (r.get("f") or "")):
+            govde = {"sol": [], "sag": []}
+            for gid, g in gv.kesit(gun, kutu):
+                if gid == "__BOSLUK__":
+                    continue
+                if esit(gid, sol):
+                    govde["sol"].append(g)
+                elif esit(gid, sag):
+                    govde["sag"].append(g)
+            if not govde["sol"] or not govde["sag"]:
+                olculemeyen.append((r["id"], gun))
+                continue
+            olculen += 1
+            olc_hat.add(r["id"])
+            for yan, serit, karsi_ad, karsi_yan in (("sol", SOL, sag, "sag"),
+                                                     ("sag", SAG, sol, "sol")):
+                kes = serit.intersection(affine_transform(unary_union(govde[karsi_yan]), M))
+                if kes.is_empty:
+                    continue
+                for pc in getattr(kes, "geoms", [kes]):
+                    if pc.geom_type != "Polygon" or not pc.intersects(degme):
+                        continue      # eksklav / deniz aşırı: hatta değmiyor
+                    d = pc.difference(derin)
+                    if d.area < D8_ALAN_8A:
+                        continue
+                    # Gövde BİRLEŞİKTİR: tek parça birkaç peteği taşır (Malko
+                    # Tırnova + Mustafapaşa + Umur Fakih tek parça çıktı) ⇒ 2 km
+                    # ızgara, her örnek o gün karşı tarafa ait EN YAKIN yerleşime.
+                    x0, y0, x1, y1 = d.bounds
+                    gx, gy = np.meshgrid(np.arange(x0 + 1.0, x1, 2.0), np.arange(y0 + 1.0, y1, 2.0))
+                    gx, gy = gx.ravel(), gy.ravel()
+                    ic = shapely.contains_xy(d, gx, gy)
+                    gx, gy = gx[ic], gy[ic]
+                    if not len(gx):
+                        continue
+                    km = shapely.distance(cizgi, shapely.points(np.c_[gx, gy]))
+                    ll = shapely.points(np.c_[(gx - M[4]) / M[0], (gy - M[5]) / M[3]])
+                    A = agac(karsi_ad, gun)
+                    if A is None:
+                        adlar = np.array(["?"] * len(gx), dtype=object)
+                    else:
+                        adlar = np.array(A[1], dtype=object)[A[0].query_nearest(ll, all_matches=False)[1]]
+                    for kim in set(adlar):
+                        m = adlar == kim
+                        km2 = 4.0 * int(m.sum())
+                        if km2 < D8_ALAN_8A:
+                            continue
+                        hedef.append(dict(hat=r["id"], sinif=sinif, gun=gun, yan=yan,
+                                          kimden=karsi_ad, yer=kim,
+                                          km=round(float(km[m].max()), 1), km2=round(km2)))
+    t_a = time.time() - t0
+
+    # ---- 8b BÖLGE × GÖVDE ----
+    b_tasma = []
+    for B in gv.bolgeler:
+        poligonlar = []
+        for pg in B.get("g") or []:
+            try:
+                g = gv._Polygon(pg[0], pg[1:])
+                poligonlar.append(g if g.is_valid else g.buffer(0))
+            except Exception:
+                pass
+        if not poligonlar:
+            continue
+        BG = unary_union(poligonlar)
+        M = _d8_izdusum(B["lon"], B["lat"])
+        alan = affine_transform(BG, M).area
+        gunler = {B.get("f"), _d8_gun_once(B.get("t")) if B.get("t") else None}
+        for gun in sorted(g for g in gunler if g):
+            parca = gv.kesit(gun, BG.bounds)
+            osm = [g for gid, g in parca if gid in ("OSMANLI", "OSM-TABI")]
+            yab = {}
+            for gid, g in parca:
+                if gid not in ("OSMANLI", "OSM-TABI", "__BOSLUK__"):
+                    yab.setdefault(gid, []).append(g)
+            if not yab:
+                continue
+            O_ = unary_union(osm) if osm else None
+            for gid, gs in yab.items():
+                k = BG.intersection(unary_union(gs))
+                if O_ is not None:
+                    k = k.difference(O_)
+                if k.is_empty:
+                    continue
+                km2 = affine_transform(k, M).area
+                if km2 >= D8_ALAN_8B and km2 >= D8_ORAN_8B * alan:
+                    b_tasma.append(dict(bolge=B["ad"], k=B.get("k"), gun=gun, kime=gid,
+                                        km2=round(km2), oran=round(100 * km2 / alan, 1)))
+    return dict(a=a_tasma, a_kaba=a_kaba, b=b_tasma, olculen=olculen,
+                olculemeyen=olculemeyen, olculen_hatlar=sorted(olc_hat),
+                hat_sayisi=len(hatlar), iki_tarafsiz=iki_tarafsiz,
+                damga=gv.damga, sure=(round(t_a), round(time.time() - t0 - t_a)))
+
+
+def _d8_a_anahtar(x):
+    return "%s|%s|%s|%s" % (x["hat"], x["gun"], x["yan"], x["yer"])
+
+
+def _d8_b_anahtar(x):
+    return "%s|%s" % (x["bolge"], x["gun"])
+
+
+def d8_sayac(R, defter=None):
+    """(8a evren içi birimler, 8a YENİ KAPSAM birimleri, 8b birimleri).
+    defter None ⇒ bütün hatlar evrendedir."""
+    evren = None if defter is None else set(defter.get("hatlar") or [])
+    ic, dis = set(), set()
+    for x in R["a"]:
+        (ic if evren is None or x["hat"] in evren else dis).add(_d8_a_anahtar(x))
+    return ic, dis, {_d8_b_anahtar(x) for x in R["b"]}
+
+
+def degismez8_defteri(R, yaz=False):
+    """Defteri okur (yaz=True ise bugünkü ölçümle yeniden yazar) → defter dict."""
+    eski = None
+    if os.path.exists(DEGISMEZ8_DEFTERI):
+        try:
+            eski = json.load(open(DEGISMEZ8_DEFTERI, encoding="utf-8"))
+        except Exception:
+            print("  !  DEGISMEZ-0086-defter.json okunamadı — bozuk olabilir")
+    if yaz:
+        ic, _, b = d8_sayac(R, None)
+        eski = {"_NOT": ("Değişmez 8 defteri. `hatlar` tavanın EVRENİDİR; `a`/`b` o gün "
+                         "ölçülen birimler. 'Defterde var' ≠ 'incelendi ve kabul edildi'. "
+                         "Yazıldığı gövde: " + R["damga"]),
+                "hatlar": R["olculen_hatlar"], "a": sorted(ic), "b": sorted(b)}
+        open(DEGISMEZ8_DEFTERI, "w", encoding="utf-8", newline="").write(
+            json.dumps(eski, ensure_ascii=False, indent=1))
+    return eski
+
+
+def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
+    """main() için: basar, ihlal varsa True döner."""
+    try:
+        R = degismez8(Y)
+    except ImportError as e:
+        print(f"Değişmez 8  !  ÖLÇÜLEMEDİ — {e} (shapely/numpy yok). "
+              "Ölçülemeyen soru TEMİZ DEĞİLDİR.")
+        return False
+    except Exception as e:
+        print(f"Değişmez 8  !  ÖLÇÜLEMEDİ — {type(e).__name__}: {str(e)[:90]}")
+        return False
+    defter = degismez8_defteri(R, yaz=defter_yaz)
+    ic, dis, b = d8_sayac(R, defter)
+    na, nb = len(ic), len(b)
+    ihlal = False
+    d8a = "✓" if na <= BEKLENEN_D8A else "✗"
+    d8b = "✓" if nb <= BEKLENEN_D8B else "✗"
+    ihlal = na > BEKLENEN_D8A or nb > BEKLENEN_D8B
+    print(f"Değişmez 8a {d8a}  şehir peteği D hattını aşıyor: {na} birim (tavan {BEKLENEN_D8A})"
+          f" — ≥{D8_DERIN:g} km · {R['olculen']} (hat, gün) ölçüldü · gövde {R['damga']}")
+    print(f"Değişmez 8b {d8b}  Osmanlı bölgesi yabancı gövdede: {nb} (bölge, gün) "
+          f"(tavan {BEKLENEN_D8B}) — ≥{D8_ALAN_8B:g} km² ve ≥%{100 * D8_ORAN_8B:g}")
+    print(f"            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması "
+          f"{len(R['a_kaba'])} · ölçülemeyen (hat, gün) {len(R['olculemeyen'])} · "
+          f"süre {R['sure'][0]}+{R['sure'][1]} sn")
+    if dis:
+        print(f"            i YENİ KAPSAM: defterde olmayan {len({k.split('|')[0] for k in dis})} "
+              f"hatta {len(dis)} birim — tavana KATILMADI. İncele, sonra "
+              f"`py arac/denetle.py --d8-defter-yaz`")
+    for sayi, tavan, ad in ((na, BEKLENEN_D8A, "BEKLENEN_D8A"), (nb, BEKLENEN_D8B, "BEKLENEN_D8B")):
+        if sayi < tavan:
+            print(f"            ⚠️ TAVAN GEVŞEK — {ad} = {sayi} yapılmalı "
+                  f"(aradaki {tavan - sayi} puanlık gerileme GÖRÜNMEZ).")
+    if defter:
+        yeni_a = sorted(ic - set(defter.get("a") or []))
+        yeni_b = sorted(b - set(defter.get("b") or []))
+        if ihlal or ayrinti:
+            for k in (yeni_a if ayrinti else yeni_a[:15]):
+                print(f"    8a YENİ  {k}")
+            for k in (yeni_b if ayrinti else yeni_b[:15]):
+                print(f"    8b YENİ  {k}")
+    if ayrinti:
+        for x in sorted(R["a"], key=lambda x: -x["km"]):
+            print(f"    8a  {x['gun']}  {x['hat']:<34} {x['sinif']}  {x['kimden']}→  "
+                  f"{x['yer']:<24} {x['km']:5.1f} km {x['km2']:6d} km²")
+        for x in R["b"]:
+            print(f"    8b  {x['gun']}  {x['bolge']:<16} k{x['k']}  → {x['kime']:<24} "
+                  f"{x['km2']:7d} km² %{x['oran']}")
+    elif ihlal:
+        print("    → `--ayrinti` bütün birimleri basar")
+    return ihlal
+
 def main():
     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
     ap.add_argument("--defter-yaz", action="store_true",
                     help="2t defterini bugünkü durumla güncelle (temel yazımı)")
+    ap.add_argument("--d8-defter-yaz", action="store_true",
+                    help="Değişmez 8 defterini (tavanın hat evreni) bugünkü ölçümle yaz")
     args = ap.parse_args()
 
     print("Veri okunuyor...")
@@ -4444,6 +4935,10 @@ def main():
             print( "              bunları GÖREMEZ ve görmemesi doğru — ±30 içindeler.")
             for t, ad, ot, b, fark in sorted(dusen, key=lambda r: -abs(r[4])):
                 print(f"              {t}  {ad:30s} ↔ {ot:10s} {fark:+4d}g  {b}")
+
+    # Değişmez 8 — şehir bölgesi ülke sınırını aşamaz (motor ÇIKTISINI ölçer)
+    if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz):
+        ihlal = True
 
     _kdsonuc = konum_denetimi(Y)
     kd, kd_pencere = (None, []) if _kdsonuc is None else _kdsonuc

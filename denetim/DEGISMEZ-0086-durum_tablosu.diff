@@ -1,0 +1,22 @@
+diff --git a/arac/durum_tablosu.py b/arac/durum_tablosu.py
+index c7934ca2..f14a3c30 100644
+--- a/arac/durum_tablosu.py
++++ "b/arac/durum_tablosu.py"
+@@ -515,6 +515,8 @@ def olc():
+                         ("d2s", r"Değişmez 2s\s*(✓|✗)\s*(.*)"),
+                         ("d2i", r"Değişmez 2i\s*(✓|✗)\s*(.*)"),
+                         ("d2t", r"Değişmez 2t\s*(✓|✗)\s*(.*)"),
++                        ("d8a", r"Değişmez 8a\s*(✓|✗|!)\s*(.*)"),
++                        ("d8b", r"Değişmez 8b\s*(✓|✗|!)\s*(.*)"),
+                         ("konum", r"konum:\s*(.*)")):
+         mm = re.search(anahtar, cik)
+         o[ad] = (" ".join(mm.groups())).strip() if mm else "ölçülemedi"
+@@ -544,6 +546,8 @@ def tablo(o):
+     s.append("| Değişmez 2s — yabancı senkron | %s |" % o["d2s"])
+     s.append("| Değişmez 2i — işgal senkronu | %s |" % o["d2i"])
+     s.append("| Değişmez 2t — kırılmasız madde | %s |" % o["d2t"])
++    s.append("| Değişmez 8a — petek D hattını aşıyor | %s |" % o["d8a"])
++    s.append("| Değişmez 8b — Osmanlı bölgesi yabancı gövdede | %s |" % o["d8b"])
+     s.append("| Konum denetimi | %s |" % o["konum"])
+     s.append("| Devletler dizini | **%d** künye · **%d** renk (`renkler.py`) |"
+              % (o["devlet"], o["renk"]))

@@ -263,3 +263,4 @@
 - 🔴 **ÇARE KAYDA UYGULANDI, SINIFA UYGULANMADI — kusur "çözülmüş" görünür, sınıf açık kalır ve aynı şikâyet katlanarak döner.** Sorulacak soru "bu kayıt düzeldi mi" değil, **"bu kusuru ÜRETEN yapı başka kaç kayıtta var"**. — [`D234`](D234-care-sinifa-uygulanmadi.md)
 - **Koşu worktree'si kodu taşır, İZLENMEYEN GİRDİYİ taşımaz — dizin VAR, içi BOŞ** — [`D235`](D235-worktree-izlenmeyen-girdi.md)
 - **Bekçinin "çıkış kodu 4"ü alette değil KAPATMA DÜĞMESİNDE — "sistemik" teşhis değildir** — [`D236`](D236-bekci-cikis-4-kapanma.md)
+- **Şehir bölgesi ülke sınırını aşamaz (Değişmez 8): hat doğru olabilir, aşan GÖVDEDİR — iki soru, iki tavan, defter; yüzde okunurken payı sor** — [`D237`](D237-sehir-bolgesi-sinir-asamaz.md)

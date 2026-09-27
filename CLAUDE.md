@@ -105,6 +105,13 @@ daha geniş evrende sorar.
   çakışması / üst üste binme `kd:` ile DÜŞMEZ ve koşu istemez; o kusur
   `donemler.js` + `devletler_harita.js` gövdelerindedir. İki kusur sınıfı tek cümleyle
   anılırsa bir oturum 40 dakikalık koşuyu boşa ister — bir kez tam bu oldu.
+- **8 — şehir bölgesi ülke sınırını aşamaz** (Emre H-0069/H-0086, 27 Eyl 2026). İki soru,
+  iki tavan: **8a** gövde, o gün geçerli D/E/F hattını aşıp karşı yakaya ≥ 5 km uzanan
+  yerleşim peteği · **8b** Osmanlı `BOLGELER` poligonunun yabancı gövdeye düşen payı.
+  **Motor ÇIKTISINI ölçer** — veri düzeltmesi ancak koşudan sonra görünür. Tavan bugünkü
+  ölçümdür (dondurma, onay değil); yeni D hattı tavana değil "YENİ KAPSAM" kovasına düşer
+  (`--d8-defter-yaz`). Muafiyetler (eksklav · menderes · `__BOSLUK__` · tâbi · `isg:` ·
+  C/YOK hattı) `denetle.py`de gerekçeli. [`D237`](dersler/D237-sehir-bolgesi-sinir-asamaz.md)
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`
