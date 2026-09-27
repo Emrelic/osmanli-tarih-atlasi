@@ -162354,5 +162354,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5340",
+  "zaman": "2026-09-28 01:32",
+  "kimden": "ACILIS-ANIM-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · H-0001 açılış animasyonu · ölçüm+tasarım, KOD YOK · rapor denetim/ACILIS-ANIM-0081.md · şartname taslağı oturumlar/ACILIS-ANIM-0081.md · commit 76144058 ① ÖLÇTÜM: 🔴 Perde ZATEN VAR (ARAYUZ-0077 H-0002, 46aaf6e7, css/style.css:2893-2971). H-0001 onun ikinci turu. Bugünkü küre TERS dönüyor: kureDon background-position 0→-360px, yüzey sağdan sola akıyor = doğudan batıya. Çare tek satır (+360px); Emre'nin \"hatalı ise düzelt\"i bu. Kalkış: js/app.js:2859-2860 atlas-hazir. Başka açılış animasyonu yok. Headless (yazılım WebGL, önbelleksiz, 3 koşu): FCP 4,1-6,3 sn · perde süresi 71,0/76,9/96,9 sn · bu sürenin 24,8-37,3 sn'si uzun görev, tek görev 11-14 sn. background-position/-image ana iş parçacığında koşuyor, perde süresinin %35-38'inde DONUYOR. Öncül düzeltmesi: devletler_harita.js açılışta ZATEN yükleniyor (index.html:1355 senkron), ama son JS 32-51 sn'de iniyor ⇒ silüet yine CSS'e gömülü olmalı. Künyeler: 21 ad ⇒ 13 NE modern (13/13 NE'de var) + 4 atlas gövdesi (Osmanlı 1600 mevcut · Av-Mac = avusturya 1908-1918 gövdesi, Macaristan dahil 7/7 kontrol şehri · Alman İmp. = almanya 1914 · İngiliz İmp. = ingiltere 1900, dağınık ⇒ mini dünya haritası). Bugünkü blok 31,9 KB. 17 silüet ≈ +23 KB ham / +8-10 KB gzip ⇒ FCP ≈ +35-45 ms (hesap, ölçüm değil). Animasyonun kendisi 0 ms ve haritayı geciktirmez (compositor). ② BULAMADIM: Roma · İskender · Persler künyede YOK (devletler.js başlığı \"1200-1924\"). Cengiz = mogol-imparatorlugu künyesi var ama GÖVDE YOK (atlas 1281'de başlıyor). Bu 4'ü için akademik kaynak aranmadı (aday AWMC/DARMC, lisans doğrulanmadı). Gerçek GPU'lu tarayıcıda ve önbellekli ziyarette süre ölçülmedi. ③ İSTİYORUM/ÖNERİYORUM: SADE + DÜZELTME. Basamak 1: yön + compositor (index.html'e statik işaretleme) + kürenin arkasından serpilip KALAN 17 silüet; js/app.js'e dokunulmaz. Basamak 2 (Roma/Cengiz/İskender/Pers) Emre kararı. Sıra görüşüm: A-D'nin (725'lik enklav kovası, veri doğruluğu) ÖNÜNE DEĞİL; E sınıfının sonu, ARAYUZ kolunun sırası. Ama en sona da atılmamalı, iki gerekçesi var: küre ters dönüyor (görünür kusur, Emre sordu) ve perde her ziyaretçinin ilk ~1 dakikası. Çakışan dosyalar css/style.css + index.html (ARAYUZ-0077-B). Uygulayıcıyı sen seç. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
