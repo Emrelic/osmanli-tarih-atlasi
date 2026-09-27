@@ -58,6 +58,48 @@
   display: none;
 }
 #ipucu-balon.acik { display: block; animation: mesgulBelir .15s ease-out forwards; opacity: 0; }
+/* ARAYUZ-0077-B · H-77:20 — madde içi derin pencere (js: derinAc). Ana harita
+   kabı .derin-harita'ya TAŞINIR; kapatınca eski yerine döner. */
+#ob-derin:empty { display: none; }
+#ob-derin { margin: 6px 0; }
+.ob-derin-dugme {
+  width: 100%; padding: 6px 10px; cursor: pointer;
+  font: 600 13px Georgia, serif; color: var(--metin);
+  background: var(--panel-koyu); border: 1px solid var(--altin); border-radius: 4px;
+}
+.ob-derin-dugme:hover { background: var(--panel); }
+#derin-pencere {
+  position: fixed; inset: 0; z-index: 8500;
+  display: flex; background: var(--panel);
+}
+#derin-pencere .derin-harita { position: relative; flex: 1 1 auto; min-width: 0; }
+#derin-pencere .derin-harita > * { position: absolute !important; inset: 0; width: 100% !important; height: 100% !important; }
+#derin-pencere .derin-yan {
+  flex: 0 0 340px; max-width: 45vw; display: flex; flex-direction: column;
+  border-left: 2px solid var(--altin); background: var(--panel); color: var(--metin);
+  font: 13px/1.45 Georgia, serif; overflow: hidden;
+}
+.derin-ust { display: flex; align-items: flex-start; gap: 8px; padding: 10px 10px 6px; border-bottom: 1px solid var(--altin); }
+.derin-baslik { flex: 1; font-weight: 700; font-size: 15px; }
+.derin-kapat, .derin-tus button {
+  cursor: pointer; font: inherit; background: var(--panel-koyu); color: var(--metin);
+  border: 1px solid var(--altin); border-radius: 3px; padding: 2px 9px;
+}
+.derin-tus { display: flex; align-items: center; gap: 6px; padding: 6px 10px; }
+.derin-sayac { margin-left: auto; opacity: .75; }
+.derin-liste { flex: 1 1 auto; overflow-y: auto; margin: 0; padding: 4px 10px 4px 30px; }
+.derin-liste li { cursor: pointer; padding: 3px 0; }
+.derin-liste li.simdiki { font-weight: 700; background: var(--panel-koyu); }
+.derin-t { opacity: .7; font-variant-numeric: tabular-nums; }
+.derin-detay { flex: 0 0 auto; max-height: 38%; overflow-y: auto; padding: 8px 10px; border-top: 1px solid var(--altin); }
+.derin-detay-b { font-weight: 700; margin-bottom: 4px; }
+.derin-detay p { margin: 4px 0; }
+.derin-kaynak { opacity: .75; font-size: 12px; }
+.derin-yeryok { opacity: .75; font-style: italic; }
+@media (max-width: 700px) {
+  #derin-pencere { flex-direction: column; }
+  #derin-pencere .derin-yan { flex: 0 0 45%; max-width: none; border-left: 0; border-top: 2px solid var(--altin); }
+}
 /* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
 .devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
 

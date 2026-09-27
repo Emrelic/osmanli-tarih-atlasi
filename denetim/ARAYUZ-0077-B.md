@@ -130,6 +130,51 @@ tek altyapıyla (`alt_kronoloji`) yapmak; Avusturya-Macaristan'ın alt adımlar�
 
 ---
 
+## 1b. İkinci tur (M-5261 hükümleri)
+
+### H-79:9 — kalan öğeler · `cozuldu`
+Hüküm: metinler `app.js` `IPUCU_EK`e, `index.html`e YAZILMAZ; ikisi de varsa
+`IPUCU_EK` kazanır. Kova sırası tutuldu: butonlar 10 → ayarlar 22 → devlet
+paneli 10 → dizin 9 (+ detay 2) → konu süzgeci 40.
+- **Eşleme artık üzerine gelince yapılıyor**, açılışta değil: konu süzgecinin
+  40 kutusu ve devlet panelinin konu kutuları sonradan üretiliyor; açılışta
+  bağlayan ilk sürüm onları göremezdi.
+- Ayarlar metinleri pencerenin KENDİ açıklama satırlarından türetildi (uydurma yok).
+- Konu süzgecinin 40 kutusu tek tek değil TÜR kuralıyla (grup / başlık / toprak /
+  temizle); metin kutunun adını ve sayısını canlı okur
+  (ör. `Konu başlığı: Diplomasi ve uluslararası ilişkiler (281 madde) …`).
+- **Ölçüldü:** 141 / 141 denetim öğesi balon metni taşıyor (0 eksik).
+  Önceki sayım 142 idi; fark bir öğenin panele göre üretilip üretilmemesi.
+
+### H-77:20 altyapısı — derin pencere · `cozuldu` (altyapı) · veri `sirada`
+Şema (onaylı): ana maddede `alt_kronoloji:[{t, b, d, yer_kon|yer_id, kaynak}]`
++ `alt_kutu:[batı, güney, doğu, kuzey]`. **İki şart kodda ZORLANIYOR:** `kaynak`
+boş/eksik adım ve `t`si `YYYY-MM-DD` olmayan adım ÇİZİLMEZ; elenen adım konsola
+ana maddenin adıyla + sebebiyle düşer ve pencere başlığında "N adım elendi" yazar.
+`yer_kon` Osmanlı maddeleriyle aynı sırada: `[enlem, boylam]`.
+- Düğme: detay panelinde `🔎 Olayın içine gir · N adım` — yalnız alanı olan
+  maddede; Osmanlı ve devlet kronolojisi yolu aynı noktadan (`ekOkumaButonlariGuncelle`).
+- Pencere: ikinci harita KURULMAZ; ana haritanın kabı tam ekran katmana
+  taşınır, `alt_kutu`ya (yoksa adımların konumlarına) yakınlaşır. Yanda mini
+  kronoloji: liste + ⏮ ⏭ ▶ (4 sn) + adım ayrıntısı + kaynak + sağ tık kopyala.
+  Adım zaman çizgisini o güne getirir (kamera kilitli), yer yanıp söner.
+  Esc/✕ → harita eski yerine, kamera ve tarih eski hâline.
+- **Sentetik sınav (yalnız bellekte, veriye yazılmadı; sonra silindi)** —
+  1915 Çanakkale Zaferi'ne 5 adım: 3 geçerli + 1 ay hassasiyetli + 1 kaynaksız:
+  düğme `3 adım` · başlık `⚠️ 2 adım elendi` · adım 1 → 18 Mart 1915, zoom
+  5,5 → 7,62 · ⏭ → 25 Nisan 1915 · yersiz adımda "📍 yeri işaretlenmemiş" ·
+  son adımda ⏭ yerinde kalıyor · ▶ 4,6 sn'de 1→2 · Esc → kap `sol-govde`ye
+  döndü, merkez/zoom eski (30,40 · 5,5). Devlet yolu: Moskova maddesine
+  sentetik 1 adım → düğme çıktı. **Ters yön:** alanı olmayan İstanbul'un
+  Fethi'nde düğme 0. Konsol hatası 0.
+- **Ölçülemedi:** pencerenin ekran görüntüsü — önizleme paneli gizliydi, sayfa
+  çizmedi (genişlikler 0 ölçüldü). Yerleşim CSS'i ilk gerçek veriyle gözle
+  doğrulanmalı.
+- **Bugün hiçbir maddede alan yok** (ölçüldü: 0) ⇒ yayında düğme görünmez.
+  H-77:49'un "aşama aşama" yarısı AYNI altyapıdır: Avusturya-Macaristan maddesine
+  `alt_kronoloji` (her kayıp bir adım, kaynaklı günüyle) yazılınca çalışır.
+- 📌 Şemayı `VERI-YAPISI.md`ye koordinatör yazar (dosya onda).
+
 ## 2. İstediklerim
 1. **H-79:9 kapsamı:** kalan ~79 öğenin metni `index.html` `title`ına mı
    (öneri) `IPUCU_EK`e mi?

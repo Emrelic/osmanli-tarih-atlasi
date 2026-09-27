@@ -10606,6 +10606,8 @@ var EKOKUMA_TUR = {
 };
 
 function ekOkumaButonlariGuncelle(o) {
+  // ARAYUZ-0077-B · H-77:20 — madde içi derin pencere düğmesi (iki panel yolu da buradan geçer)
+  try { derinDugmeGuncelle(o); } catch (eD) { console.error("[derin pencere]", eD); }
   var kutu = document.getElementById("ob-ekokuma-butonlar");
   if (!kutu) return;
   // İlk çağrıda veri yoksa yükle, gelince AYNI maddeyi yeniden çiz — buton
@@ -14150,24 +14152,39 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
 // ekranda görünen 25'in 20'sinde `title` VAR · gizli panellerde 117'nin
 // 93'ünde açıklama YOK (konu süzgeci 40 · ayarlar 22 · butonlar 10 ·
 // devlet paneli 10 · dizin 9 · detay 2).
-// ⇒ Metin İKİ yerden gelir, yeni bir metin deposu açılmaz:
-//   ① öğenin kendi `title`ı (index.html'de zaten yazılı olanlar) — balon
-//     gösterilince tarayıcının ~1 sn'lik kendi ipucu ÇİFT çıkmasın diye
-//     `title` → `data-ipucu`ya TAŞINIR (her üzerine gelişte; kod `title`ı
-//     sonradan değiştirirse yenisi alınır).
-//   ② `IPUCU_EK` — `title`ı OLMAYAN öğeler için bu dosyada yazılan metin
-//     (index.html bu oturumun dosyası değil).
+// ⇒ Metin İKİ yerden gelir:
+//   ① `IPUCU_EK` (bu dosya) — KAZANAN kaynak. Koordinatör hükmü (M-5261):
+//     *"ikisi de varsa IPUCU_EK kazanır, yenisi hep IPUCU_EK'e;
+//     index.html title'ına YAZMA."* (app.js bu kolun tek sahipliğinde.)
+//   ② öğenin kendi `title`ı (index.html'de ya da kodda yazılı olanlar).
+//   Balon çıkarken tarayıcının ~1 sn'lik kendi ipucu ÇİFT çıkmasın diye
+//   `title` → `data-ipucu`ya TAŞINIR (her üzerine gelişte; kod `title`ı
+//   sonradan değiştirirse yenisi alınır).
+// 🔴 EŞLEME ÜZERİNE GELİNCE yapılır, açılışta DEĞİL: konu süzgecinin 40
+//   kutusu ve devlet panelinin konu kutuları sonradan ÜRETİLİYOR (ölçüldü) —
+//   açılışta bağlayan ilk sürüm onları hiç görmezdi.
+// Satır biçimi: [seçici, metin | işlev(öğe) → metin]. `label:<önek>` =
+// yazısı o önekle BAŞLAYAN etiket. Sıra önemli: ilk tutan kazanır, bu yüzden
+// uzun önek (③b, ④b, ④c) kısadan (③, ④) ÖNCE yazılır.
 var IPUCU_BEKLE_MS = 3000;
+function _ipEtiketAdi(el) {                 // "Askerî792" → "Askerî" (sayı <i>'de)
+  var lab = el.closest("label");
+  var sp = lab && lab.querySelector("span");
+  return ((sp || lab || el).textContent || "").trim().replace(/\d+$/, "");
+}
+function _ipEtiketSayi(el) {
+  var lab = el.closest("label");
+  var i = lab && lab.querySelector("i");
+  return i ? i.textContent : null;
+}
 var IPUCU_EK = [
-  // [seçici, metin] — seçici tek öğeyi ya da etiket (label) yazısının BAŞINI tutar
+  // ── ana ekran (görünür 5) ─────────────────────────────────────────────
   ["#zaman", "Zaman çubuğu: sürükleyerek tarihi değiştirin. ← → bir gün, Shift ile bir yıl ilerletir."],
-  [".suzgec-baslik", "Konu süzgeci: kronolojide hangi konu başlıklarının görüneceğini seçin."],
+  [".suzgec-baslik", "Konu süzgeci: Osmanlı kronolojisinde hangi konuların görüneceğini seçin. Süzülen maddeleri oynatma ve ⏮/⏭ atlar."],
   ["#ob-detay-baslik", "Maddenin açıklamasını açar/kapatır. Altındaki satırlar ek okumalardır."],
   [".ob-madde-gorsel-kaynak", "Görselin kaynağı ve lisansı (yeni sekmede açılır)."],
   [".ob-kaynak", "Bu maddenin dayandığı kaynak (yeni sekmede açılır)."],
-  ["#ek-yalniz-dis", "İşaretliyse ek devletlerden yalnız dış ilişkilerle ilgili maddeler havuza girer."],
-  ["#odak-puansiz", "Önem puanı henüz verilmemiş maddeler: işaretliyse gösterilir, değilse gizlenir."],
-  ["#devlet-secici-panel summary", "Seçtiğiniz devletin kronolojisini önem ve konuya göre süzme ayarları."],
+  // ── ① ☰ Butonlar — katman kutuları (10) ─────────────────────────────
   ["label:⓪", "Fizikî altlık: uydu/fotoğraf zeminini açar veya kapatır."],
   ["label:①", "Coğrafya katmanı: kara, göl, nehir ve dağlar."],
   ["label:②", "Yerleşim yerleri: şehir ve kasaba noktaları ile adları."],
@@ -14178,48 +14195,92 @@ var IPUCU_EK = [
   ["label:④", "Siyasî yapılar: devletlerin boyalı toprakları."],
   ["label:⑤", "Yumuşak renk: devlet renkleri saydamlaşır, coğrafya alttan görünür."],
   ["label:⑥", "Motor tanı hatları: haritayı üreten motorun kullandığı hatlar (kesikli)."],
-  ["label:⑦", "Küre görünümü: dünyayı düz harita yerine yuvarlak gösterir."]
+  ["label:⑦", "Küre görünümü: dünyayı düz harita yerine yuvarlak gösterir."],
+  // ── ② ⚙ Ayarlar (22) — metinler pencerenin kendi açıklama satırlarından ─
+  ["#duygu-ac", "Duygu emojileri: maddelerin yanında okuyanın tepkisini gösterir (kaynağın hükmü değildir)."],
+  ["#dunya-ac", "Dünya olayları: Osmanlı'yla doğrudan ilgisi olmayan dünya tarihi olaylarını da kronolojiye katar (deneysel)."],
+  ["#dis-esik", "Dış olaylar: Osmanlı dışı devletlerin olaylarından hangi önem puanındakilerin görüneceği. Puansız dış maddeler yalnız \"hepsi\"de görünür."],
+  ["#ayarlar-pencere summary", function (el) {
+    return "\"" + (el.textContent || "").trim() + "\" ayarlarını açar/kapatır.";
+  }],
+  ["#ayar-genislik-km", "Görüş genişliği: bir olaya gidildiğinde ekranın sağdan sola kaç km göstereceği (orta enlemde)."],
+  ["#ayar-genislik-kip", "Genişlik kipi: odak devlet büyüdükçe görüş alanı da büyüsün mü, yoksa hep aynı km mi kalsın."],
+  ["#ayar-oto-odak", "Otomatik odaklama: toprak değişince harita devletin sınırlarına sıçrasın mı. Kapalı önerilir; adaptif genişlik bunun yumuşak hâlidir."],
+  ["#ayar-yerlesim", "Yerleşim: olay mahalli ekranın ortasına mı gelsin, kenardan mı girsin."],
+  ["#ayar-kenarpay", "Kenar payı: kenardan girişte olay yerinin çerçevenin ne kadar içinde duracağı (%)."],
+  ["#ayar-imparatorluk-pay", "İmparatorluk görünümü payı: haritada nokta yeri olmayan olaylarda devletin çevresinde bırakılan boşluk (piksel)."],
+  ["#ayar-hiz-kms", "Odaklanma hızı: kameranın bir olaydan ötekine km/saniye cinsinden gidiş hızı — uzun yol uzun sürer."],
+  ["#ayar-sure-taban", "En kısa süre: yakın olaylar arasındaki geçişin alt sınırı (göz kırpması gibi geçmesin)."],
+  ["#ayar-sure-tavan", "En uzun süre: uzak olaylar arasındaki geçişin üst sınırı (bekletmesin)."],
+  ["#ayar-hareket", "Hareket biçimi: eğik atış uzaklaşıp yaklaşarak gider, yatay düz kayar."],
+  ["#ayar-yatay-esik", "Yatay sınırı: bu km'nin üstündeki geçişler \"yatay\" seçilse de eğik atışla yapılır."],
+  ["#ayar-kirpma-ac", "Öncesi/sonrası kırpması: olay yerine varınca haritanın olaydan önceki ve sonraki hâli sırayla gösterilir."],
+  ["#ayar-kirpma-toplam-ms", "Kırpma süresi: öncesi/sonrası gösteriminin toplam süresi (milisaniye)."],
+  ["#ayar-kirpma-adet", "Kırpma sayısı: öncesi→sonrası gösteriminin kaç kez tekrarlanacağı."],
+  ["#ayar-irtifa", "İrtifa: orta mesafeli geçişlerde kameranın ne kadar yükseleceği; kısa/uzun geçişte kendiliğinden ayarlanır."],
+  // ── ③ devlet paneli (10) ───────────────────────────────────────────────
+  ["#ek-yalniz-dis", "İşaretliyse ek devletlerden yalnız dış ilişkilerle ilgili maddeler havuza girer."],
+  ["#odak-puansiz", "Önem puanı henüz verilmemiş maddeler: işaretliyse gösterilir, değilse gizlenir."],
+  ["#devlet-secici-panel summary", "Seçtiğiniz devletin kronolojisini önem ve konuya göre süzme ayarları."],
+  ["#odak-suzgec-konu input", function (el) {
+    return "Konu: " + _ipEtiketAdi(el) + " — işaretliyse seçili devletin bu konudaki maddeleri görünür.";
+  }],
+  // ── ④ dizin (9) · detay (2) ──────────────────────────────────────────
+  ["#dizin-kapat", "Dizini kapatır."],
+  ["#dizin button[data-s]", function (el) {
+    return "Dizinde \"" + (el.textContent || "").trim() + "\" sekmesini açar.";
+  }],
+  ["#detay-kapat", "Ayrıntı penceresini kapatır."],
+  ["#detay-git", "Zaman çizgisini bu maddenin tarihine götürür."],
+  // ── ⑤ konu süzgeci (40) — tek tek değil, TÜR başına kural ────────────
+  [".suzgec-temizle", "Bütün konu başlığı işaretlerini kaldırır (süzme biter)."],
+  ["input.suzgec-grup", function (el) {
+    var n = _ipEtiketSayi(el);
+    return "Konu grubu: " + _ipEtiketAdi(el) + (n ? " (" + n + " madde)" : "")
+      + ". İşaretliyse bu gruptaki maddeler kronolojide kalır, kaldırılırsa gizlenir.";
+  }],
+  ["input.suzgec-bsl", function (el) {
+    var n = _ipEtiketSayi(el);
+    return "Konu başlığı: " + _ipEtiketAdi(el) + (n ? " (" + n + " madde)" : "")
+      + ". İşaretlenen başlıklardan BİRİNİ taşıyan maddeler görünür; hiçbiri işaretli değilse süzme yok. Gruplar ve toprak kutusuyla birlikte (VE) çalışır.";
+  }]
 ];
-(function ipucuKur() {
-  // ② — `title`ı olmayan öğeye metni bağla (varsa DOKUNMA: index.html esastır)
-  function bagla(el, metin) {
-    if (!el || el.title || el.getAttribute("data-ipucu")) return 0;
-    el.setAttribute("data-ipucu", metin);
-    return 1;
-  }
-  var etiketler = [].slice.call(document.querySelectorAll("label"));
-  var bagli = 0;
-  IPUCU_EK.forEach(function (p) {
-    if (p[0].indexOf("label:") === 0) {
-      var bas = p[0].slice(6);
-      etiketler.forEach(function (lab) {
-        var t = (lab.textContent || "").trim();
-        // "③" "③b"yi de tutar — `IPUCU_EK`te uzun önek ÖNCE yazılır, ilk bağlanan kalır
-        if (t.indexOf(bas) === 0 && !lab.getAttribute("data-ipucu") && !lab.title) {
-          lab.setAttribute("data-ipucu", p[1]); bagli++;
-        }
-      });
-    } else {
-      [].forEach.call(document.querySelectorAll(p[0]), function (el) { bagli += bagla(el, p[1]); });
+function ipucuMetni(el) {
+  // ① IPUCU_EK — öğeden yukarı doğru, ilk tutan kural
+  for (var n = el; n && n !== document.body; n = n.parentElement) {
+    for (var i = 0; i < IPUCU_EK.length; i++) {
+      var s = IPUCU_EK[i][0], tut = false;
+      if (s.indexOf("label:") === 0) {
+        tut = n.tagName === "LABEL" && (n.textContent || "").trim().indexOf(s.slice(6)) === 0;
+      } else {
+        try { tut = n.matches(s); } catch (e) { tut = false; }
+      }
+      if (tut) {
+        var m = IPUCU_EK[i][1];
+        return { el: n, metin: typeof m === "function" ? m(n) : m };
+      }
     }
-  });
-
-  var balon = null, zamanlayiciI = null, hedef = null, sonX = 0, sonY = 0;
+    // ② kendi `title`ı — yukarı çıkarken ilk rastlanan
+    if (n.title) { n.setAttribute("data-ipucu", n.title); n.removeAttribute("title"); }
+    if (n.getAttribute("data-ipucu")) return { el: n, metin: n.getAttribute("data-ipucu") };
+  }
+  return null;
+}
+(function ipucuKur() {
+  var balon = null, zamanlayiciI = null, hedef = null, hedefMetin = "", sonX = 0, sonY = 0;
   function gizle() {
     clearTimeout(zamanlayiciI); zamanlayiciI = null;
     if (balon) balon.classList.remove("acik");
   }
   function goster() {
-    if (!hedef || !document.body.contains(hedef)) return;
-    var metin = hedef.getAttribute("data-ipucu");
-    if (!metin) return;
+    if (!hedef || !document.body.contains(hedef) || !hedefMetin) return;
     if (!balon) {
       balon = document.createElement("div");
       balon.id = "ipucu-balon";
       balon.setAttribute("role", "tooltip");
       document.body.appendChild(balon);
     }
-    balon.textContent = metin;
+    balon.textContent = hedefMetin;
     balon.classList.add("acik");
     var g = balon.getBoundingClientRect();
     var x = Math.min(sonX + 14, window.innerWidth - g.width - 8);
@@ -14230,12 +14291,10 @@ var IPUCU_EK = [
   }
   function kur() { clearTimeout(zamanlayiciI); zamanlayiciI = setTimeout(goster, IPUCU_BEKLE_MS); }
   document.addEventListener("mouseover", function (e) {
-    var el = e.target.closest ? e.target.closest("[title],[data-ipucu]") : null;
-    if (el && el.title) {                       // ① — yerli ipucu çift çıkmasın
-      el.setAttribute("data-ipucu", el.title);
-      el.removeAttribute("title");
-    }
+    var b = e.target && e.target.nodeType === 1 ? ipucuMetni(e.target) : null;
+    var el = b ? b.el : null;
     if (el !== hedef) { hedef = el; gizle(); }
+    hedefMetin = b ? b.metin : "";
     sonX = e.clientX; sonY = e.clientY;
     if (hedef) kur();
   });
@@ -14251,9 +14310,217 @@ var IPUCU_EK = [
     document.addEventListener(t, gizle, true);
   });
   window.addEventListener("blur", gizle);
-  console.log("Atlas: ipucu balonu hazır — " + bagli + " ek metin bağlandı, bekleme "
+  console.log("Atlas: ipucu balonu hazır — " + IPUCU_EK.length + " kural, bekleme "
               + IPUCU_BEKLE_MS + " ms.");
 })();
+
+// ═══════════════════════════════════════════════════════════════════════
+// 🆕 ARAYUZ-0077-B · H-77:20 (+ H-77:49'un "aşama aşama" yarısı) —
+// MADDE İÇİ DERİN PENCERE. Emre: *"çanakkale savaşı maddesinin içine girişi
+// … ek pencere çıkar, çanakkale gelibolu yarımadası zoom ile tüm ekrana
+// yayılır ve ayrı bir mini kronoloji bölümü olur … buna dair altyapıyı
+// kuralım."* Koordinatör şemayı onayladı (M-5261), İKİ ŞARTLA:
+//
+//   alt_kronoloji: [{ t, b, d, yer_kon | yer_id, kaynak }]   ← ana maddede
+//   alt_kutu:      [batı, güney, doğu, kuzey]               ← pencerenin kadrajı
+//
+//   🔴 `kaynak` ZORUNLU — boş/eksik adım ÇİZİLMEZ (§4 ek okumaya da işler).
+//   🔴 `t` GÜN hassasiyetinde (YYYY-MM-DD) — ay hassasiyetli `t` ayın 1'ine
+//      genişler ve sıralamayı bozar (§8). Uymayan adım ÇİZİLMEZ.
+//   Elenen adım SESSİZCE kaybolmaz: konsola ana maddenin adıyla ve sebebiyle
+//   düşer, pencere başlığında "N adım elendi" yazar (süzgeç sayıp basar, §7).
+//   `yer_kon` Osmanlı maddeleriyle AYNI sıradadır: [enlem, boylam]
+//   (`olayKonumu` onu ve `yer_id`yi çözer — ayrı çözücü YOK).
+//
+// NASIL ÇALIŞIR — ikinci bir MapLibre haritası KURULMAZ (stil + 280 veri
+// betiği ikinci kez yüklenirdi): ANA haritanın kabı tam ekran katmana
+// TAŞINIR, `resize()` edilir; çıkışta eski yerine (aynı kardeşin önüne)
+// geri takılır, kamera ve tarih ESKİ hâline döner. Adıma gidiş zaman
+// çizgisini o güne getirir (harita o günün sınırlarını çizer), kamera
+// kilitli kalır (oto-zoom kadrajı bozmasın), olay yeri yanıp söner.
+// ⚠️ VERİ BUGÜN YOK (27 Eylül): hiçbir maddede `alt_kronoloji` alanı yok ⇒
+//   düğme hiçbir maddede çıkmaz. Pilot veri (Çanakkale + İstanbul'un
+//   Fethi) koordinatörün açacağı kronoloji kolundan gelecek. Altyapı
+//   sentetik veriyle sınandı (rapor: denetim/ARAYUZ-0077-B.md).
+var DERIN_OYNAT_MS = 4000;
+function derinAdimlari(o) {
+  var ham = o && o.alt_kronoloji;
+  if (!ham || !ham.length) return null;
+  var iyi = [], elenen = [];
+  ham.forEach(function (a, i) {
+    var sebep = !a ? "boş kayıt"
+      : !/^\d{4}-\d{2}-\d{2}$/.test(a.t || "") ? "t gün hassasiyetinde değil (“" + (a && a.t) + "”)"
+      : !a.b ? "b (başlık) yok"
+      : !String(a.kaynak || "").trim() ? "kaynak YOK"
+      : null;
+    if (sebep) elenen.push("#" + (i + 1) + " " + sebep);
+    else iyi.push(a);
+  });
+  if (elenen.length) {
+    console.warn("[derin pencere] “" + (o.b || "?") + "”: " + elenen.length
+                 + " alt adım ELENDİ — " + elenen.join(" · "));
+  }
+  iyi.sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
+  return { adimlar: iyi, elenen: elenen.length };
+}
+
+function derinDugmeGuncelle(o) {
+  var ob = document.getElementById("olay-bilgi");
+  if (!ob) return;
+  var kap = document.getElementById("ob-derin");
+  if (!kap) {
+    kap = document.createElement("div");
+    kap.id = "ob-derin";
+    var once = document.getElementById("ob-ayni-gun");
+    if (once && once.parentNode === ob) ob.insertBefore(kap, once.nextSibling);
+    else ob.appendChild(kap);
+  }
+  kap.innerHTML = "";
+  var s = derinAdimlari(o);
+  if (!s || !s.adimlar.length) return;       // alan yok ya da hepsi elendi → düğme YOK
+  var btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "ob-derin-dugme";
+  btn.textContent = "🔎 Olayın içine gir · " + s.adimlar.length + " adım";
+  btn.setAttribute("data-ipucu", "Bu olayı kendi mini kronolojisiyle, olay bölgesine yakınlaşmış tam ekran bir pencerede adım adım izleyin.");
+  btn.addEventListener("click", function () { derinAc(o); });
+  kap.appendChild(btn);
+}
+
+var _derin = null;   // açık pencerenin durumu (tek pencere)
+function derinAc(o) {
+  if (_derin) derinKapat();
+  var s = derinAdimlari(o);
+  if (!s || !s.adimlar.length || !harita) return;
+  var kab = harita.getContainer();
+  var d = {
+    o: o, adimlar: s.adimlar, i: -1, zam: null,
+    eskiSuanki: suanki,
+    eskiKamera: { center: harita.getCenter(), zoom: harita.getZoom(),
+                  bearing: harita.getBearing(), pitch: harita.getPitch() },
+    kab: kab, eskiEbeveyn: kab.parentNode, eskiKardes: kab.nextSibling
+  };
+  _derin = d;
+
+  var kat = document.createElement("div");
+  kat.id = "derin-pencere";
+  kat.innerHTML =
+    '<div class="derin-harita"></div>' +
+    '<aside class="derin-yan">' +
+      '<div class="derin-ust"><div class="derin-baslik"></div>' +
+      '<button type="button" class="derin-kapat" data-ipucu="Derin pencereyi kapatır, haritayı ve tarihi eski hâline döndürür (Esc).">✕</button></div>' +
+      '<div class="derin-tus">' +
+        '<button type="button" class="derin-geri" data-ipucu="Önceki adım">⏮</button>' +
+        '<button type="button" class="derin-oynat" data-ipucu="Adımları sırayla oynatır / durdurur">▶</button>' +
+        '<button type="button" class="derin-ileri" data-ipucu="Sonraki adım">⏭</button>' +
+        '<span class="derin-sayac"></span></div>' +
+      '<ol class="derin-liste"></ol>' +
+      '<div class="derin-detay"></div>' +
+    '</aside>';
+  document.body.appendChild(kat);
+  d.kat = kat;
+  kat.querySelector(".derin-harita").appendChild(kab);   // ana harita tam ekrana
+  kat.querySelector(".derin-baslik").textContent = (o.b || "")
+    + (s.elenen ? "  ·  ⚠️ " + s.elenen + " adım elendi (kaynaksız/günsüz)" : "");
+  var ol = kat.querySelector(".derin-liste");
+  d.dom = d.adimlar.map(function (a, k) {
+    var li = document.createElement("li");
+    li.innerHTML = '<span class="derin-t"></span> <span class="derin-b"></span>';
+    li.firstChild.textContent = a.t;
+    li.lastChild.textContent = a.b;
+    li.addEventListener("click", function () { derinDur(); derinGit(k); });
+    li.addEventListener("contextmenu", function (e) {
+      kopyaMenusuAc(e, { t: a.t, gi: gunIdx(a.t), b: a.b, d: a.d, kaynak: a.kaynak, _devletMaddesi: true }, li);
+    });
+    ol.appendChild(li);
+    return li;
+  });
+  kat.querySelector(".derin-kapat").addEventListener("click", derinKapat);
+  kat.querySelector(".derin-geri").addEventListener("click", function () { derinDur(); derinGit(d.i - 1); });
+  kat.querySelector(".derin-ileri").addEventListener("click", function () { derinDur(); derinGit(d.i + 1); });
+  kat.querySelector(".derin-oynat").addEventListener("click", derinOynat);
+
+  harita.resize();
+  // Kadraj: `alt_kutu` varsa o; yoksa adımların konumlarını kapsayan kutu.
+  var kutu = o.alt_kutu && o.alt_kutu.length === 4 ? o.alt_kutu : null;
+  if (!kutu) {
+    var w = 180, so = 90, e = -180, n = -90, var_ = false;
+    d.adimlar.forEach(function (a) {
+      var k = olayKonumu(a);
+      if (!k) return;
+      var_ = true;
+      w = Math.min(w, k.lon); e = Math.max(e, k.lon); so = Math.min(so, k.lat); n = Math.max(n, k.lat);
+    });
+    if (var_) kutu = [w - 0.3, so - 0.3, e + 0.3, n + 0.3];
+  }
+  if (kutu) {
+    try { harita.fitBounds([[kutu[0], kutu[1]], [kutu[2], kutu[3]]], { padding: 40, duration: 0 }); }
+    catch (eK) { console.error("[derin pencere] alt_kutu geçersiz", kutu, eK); }
+  }
+  derinGit(0);
+}
+
+function derinGit(k) {
+  var d = _derin;
+  if (!d || k < 0 || k >= d.adimlar.length) return false;
+  var a = d.adimlar[k];
+  if (d.i >= 0 && d.dom[d.i]) d.dom[d.i].classList.remove("simdiki");
+  d.i = k;
+  d.dom[k].classList.add("simdiki");
+  d.dom[k].scrollIntoView({ block: "nearest" });
+  // Zaman çizgisi o güne — kamera KİLİTLİ, kadraj derin pencerenin kadrajı kalır.
+  kameraKilitle();
+  try { tarihAyarla(gunIdx(a.t)); } finally { kameraCoz(); }
+  var kon = olayKonumu(a);
+  if (kon) {
+    // Yer kadrajın dışındaysa yakınlığı bozmadan oraya kay.
+    if (!harita.getBounds().contains([kon.lon, kon.lat])) harita.easeTo({ center: [kon.lon, kon.lat], duration: 600 });
+    isaretYanipSon(kon);
+  }
+  d.kat.querySelector(".derin-sayac").textContent = (k + 1) + " / " + d.adimlar.length;
+  var det = d.kat.querySelector(".derin-detay");
+  det.innerHTML = "";
+  var h = document.createElement("div"); h.className = "derin-detay-b";
+  h.textContent = a.t + " — " + a.b; det.appendChild(h);
+  if (a.d) { var p = document.createElement("p"); p.textContent = a.d; det.appendChild(p); }
+  if (!kon) { var y = document.createElement("p"); y.className = "derin-yeryok"; y.textContent = "📍 Bu adımın haritada yeri işaretlenmemiş."; det.appendChild(y); }
+  var kk = document.createElement("p"); kk.className = "derin-kaynak";
+  kk.textContent = "Kaynak: " + a.kaynak; det.appendChild(kk);
+  return true;
+}
+
+function derinDur() {
+  var d = _derin;
+  if (!d || !d.zam) return;
+  clearInterval(d.zam); d.zam = null;
+  d.kat.querySelector(".derin-oynat").textContent = "▶";
+}
+function derinOynat() {
+  var d = _derin;
+  if (!d) return;
+  if (d.zam) { derinDur(); return; }
+  if (d.i >= d.adimlar.length - 1) derinGit(0);
+  d.kat.querySelector(".derin-oynat").textContent = "⏸";
+  d.zam = setInterval(function () { if (!derinGit(_derin.i + 1)) derinDur(); }, DERIN_OYNAT_MS);
+}
+
+function derinKapat() {
+  var d = _derin;
+  if (!d) return;
+  derinDur();
+  // Haritayı ESKİ yerine geri tak (aynı kardeşin önüne), sonra ölç.
+  if (d.eskiKardes && d.eskiKardes.parentNode === d.eskiEbeveyn) d.eskiEbeveyn.insertBefore(d.kab, d.eskiKardes);
+  else d.eskiEbeveyn.appendChild(d.kab);
+  d.kat.remove();
+  _derin = null;
+  harita.resize();
+  kameraKilitle();
+  try { tarihAyarla(d.eskiSuanki); } finally { kameraCoz(); }
+  harita.jumpTo(d.eskiKamera);
+}
+document.addEventListener("keydown", function (e) {
+  if (_derin && e.key === "Escape") { derinKapat(); e.stopPropagation(); }
+}, true);
 
 // İlk çizim
 guncelle();
