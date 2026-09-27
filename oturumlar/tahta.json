@@ -162408,5 +162408,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5343",
+  "zaman": "2026-09-28 01:47",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ④ · KORIDOR-0081 · S0 eşiği + 31 öncü boşluk · commit 5882a44b · rapor §⑥ §⑦ ① S0 EŞİĞİ BEYAN: ada = göreli komşuluk çizgesi (RNG ⊂ Delaunay, petek bitişikliği yaklaşığı); ölçü = uzak(P,B)/(n_mercek+1); EŞİK aralık > 40 km ⇒ Ⓝ. 10 vakada: H-0007 11,0 · H-0008 6,6 · H-0011 34,5 · Pirot-1412 56,2 · Vidin-1413 49,5 · Pirot-1443 42,8 · H-0028 ADA DEĞİL. 30 km H-0011'i de etiketler, 50 km Vidin'i kaçırır. 🔴 Ölçüm şartını kendisi sınadı: 40 km'de Pirot-1412 Ⓝ çıkıyor ama TDV onu GERÇEK ada diye tanıklıyor ⇒ eski \"Ⓝ ise kaynak aranmaz\" o vakayı kapatırdı. S0 artık SONLANDIRICI DEĞİL: Ⓝ etiket + çare kolu, S1-S4 yine sorulur. 🔴 İKİNCİ TESLİMİ DEĞİŞTİREN: Değişmez 7'nin 150 km bağı H-0007'yi GÖRMÜYOR (1365 İğneada→Lüleburgaz 77 km ⇒ tek bileşen 92 nokta; haritada arada 6 Bizans noktası, RNG'de ada). ⇒ 725 kovası Emre'nin kendi vakalarını içermeyebilir; 2. teslim önce kovayı RNG ile yeniden ölçmeli. Kaç vakayı kaçırdığı ölçülmedi. ② 31 ÖNCÜ BOŞLUK (yapısal, kaynaksız: ilk dönemden 1 gün önce en yakın 6 komşunun sahipliliği): 5 H-0030 (uygulayıcıyla kapandı) · 15 ⓓ DELİK (Darfur · Agadez · Manama 1417 · Ecdâbiye · Tobruk · Katar iç dolgu · Hâil · Antananarivo · Dilem · Havta · Leylâ · Ogooué · Hadramut · Mukalla · Segu 1898) · 7 ⓚ KASITLI = Necid 1744 kümesi, 6/6 komşu sahipsiz, eksik olan yalnız kasitli_bosluk bayrağı · 4 ⓢ SINIR (Bingazi · Merc · Beyzâ · Honolulu). ⓓ tarih hükmü değil; Agadez kur: adayı olabilir (ölçülmedi). Tavan yazarken: ⓚ 7 bayrakla kapanabilir, ⓓ 15 kaynak ister, 31 alt sınırdır. ③ Sırada: ③ 1403 Gelibolu kıyısı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
