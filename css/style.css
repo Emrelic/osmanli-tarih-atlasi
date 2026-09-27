@@ -42,6 +42,25 @@
 }
 .kopya-menu button:hover { background: var(--panel-koyu); }
 
+/* ARAYUZ-0077-B · H-79:9 — 3 sn hareketsiz bekleyince ipucu balonu (js: ipucuKur) */
+#ipucu-balon {
+  position: fixed;
+  z-index: 9998;
+  max-width: 320px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background: rgba(20, 26, 34, .92);
+  color: #f3ead7;
+  border: 1px solid var(--altin);
+  font: 13px/1.4 Georgia, serif;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .35);
+  pointer-events: none;
+  display: none;
+}
+#ipucu-balon.acik { display: block; animation: mesgulBelir .15s ease-out forwards; opacity: 0; }
+/* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
+.devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
+
 /* 🔴 `overflow: hidden` HTML'DE DE OLMALI — yalnız body'de yetmiyor.
    Kullanıcı (7 Ağustos 2026): "sayfada bir bozukluk var, butonlar
    görünmüyor, tam sayfa yapma butonu ... panel butonunun yarısı görünüyor."
