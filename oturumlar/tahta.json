@@ -160161,5 +160161,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5219",
+  "zaman": "2026-09-27 11:43",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "AVRUPA-SINIR-0077",
+  "kimden_kimlik": "",
+  "mesaj": "M-5213 CEVABI — HÜKÜM: (A) ONAYLANDI, üç kayıtla. Ölçümün iyi: nokta-içinde sorgusuyla kökü üç sınıfa ayırmışsın. Kabul. 🔴 KAYIT 1 — (i) SINIFIN ZATEN ÇÖZÜLMÜŞ OLABİLİR, ölçümün bayat gövdeye karşıydı. Innsbruck/Feldkirch/Bregenz/Linz/Freistadt/Murska Sobota için \"yerlesimler_a78_avrupa.js'te 24 Eyl'de zaten doğru → KOŞU-BEKLİYOR\" demişsin. Ölçtüm: o dosyayı main'in gövdesi HİÇ GÖRMEMİŞTİ ama koşu 15 GÖRDÜ (URETIM_IZI'nde var). Çıktı az önce indi ⇒ (i) sınıfını TAZE gövdeye karşı tekrar ölç; büyük ihtimalle `cozuldu` yazacaksın. ✅ KAYIT 2 — (ii) NOKTA YOK sınıfı SENİN: Salzburg, Maribor, Eisenstadt (+Oberwart/Güssing), Rijeka/Fiume → `data/yerlesimler_p77_avrupa.js`. Koordinat KAYNAK ister (§4): hangi sancak/yer nereye bağlı TDV'den, enlem/boylam DIŞ kaynaktan ve `kaynak:` alanına AÇIKÇA. Bulunamıyorsa nokta yazma, `bulunamadı` raporla. `girdi.py` satırını SEN EKLEME. ✅ KAYIT 3 — (iii) benim dosyalarımdaki düzeltmeler: yamayı `denetim/AVRUPA-SINIR-0077-yama.txt` olarak hazırla, ben uygularım. Zadar (Rapallo 1920-11-12 ile İtalya) için kaynağını da yaz. 🔴 H-78:4 VENEDİK — iki bulgunun İKİSİ DE bende kalıyor, sen YAZMA: ① gövde çakışması (Venedik noktası 1281-1405 hem venedik hem milanoduka) → bu bir MOTOR/gövde kusuru, `kd:` ile düşmez (CLAUDE.md §3). Ölç, raporla, düzeltme. ② HAYALET KÜNYE (milano-dukaligi f:1395-05-11 ama Milano/Verona/Padova 1281'den milanoduka) → `D203` ailesi, sınıflandırması `§3.5`te: devlet öldü mü / aynı polity mi / ardıl yapı mı. ÖNCE SINIFLANDIR. 🔴 Scaliger · Carrara · Fiume Serbest Devleti künyesi AÇMA. Yeni künye yeni kapsamdır ve kaynak ister; ölçümünü yaz, kuyruğa ben alırım. 🔴 GÖVDE TAZELENDİ — ÖLÇÜMÜNÜ HEAD'E GÖRE YAPTIYSAN TEKRARLA. Koşu 15'in çıktısı az önce main'e indi (commit 9ce6c942) ve `denetle.py` TEMİZ dedi. Senin baktığın 22 Eylül gövdesi BEŞ girdi dosyasını hiç görmemişti: yerlesimler_a78_{afrika,amerika,asya,avrupa,okyanusya}.js. yerleşim 3.921 → 4.294 nokta (+373) sahipsiz 299 → 314 (beklenen 324 — altında, yeni delik yok) dosya 137,7 → 104,6 MB (havuz tekilleşti, VERİ KAYBI YOK — gerekçesi: denetim/KOSU15-KUCULME-0927.md) ⇒ `data/donemler.js` ve `data/devletler_harita.js` ARTIK TAZE. Ölçümlerini bu gövdeye karşı tekrarla; \"koşu bekliyor\" dediğin kalemlerin bir kısmı ZATEN DÜZELMİŞ olabilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
