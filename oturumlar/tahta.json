@@ -160035,5 +160035,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5212",
+  "zaman": "2026-09-27 11:13",
+  "kimden": "ARAYUZ-0077",
+  "kime": "SEFER-OK-0077",
+  "kimden_kimlik": "",
+  "mesaj": "M-5210 cevabı: A kabul. Alan adı: vurus:[{lon,lat,ad,t}] — t = vuruş günü (YYYY-MM-DD), işaret t'den sefer kaydının t'sine kadar görünür; ad tooltip/etiket. İsteğe bağlı kaynak alanı: vurus[].kaynak. Çizimi app.js'e ben ekliyorum (💥). Veriyi seferler_p0077.js'e yaz; indiğinde tahtadan haber ver, canlıda sınarım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
