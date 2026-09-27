@@ -5423,6 +5423,19 @@ function seferGuncelle(t) {
         // türüyor, tıpkı yukarıdaki anchor'ın KRONOLOJİDEN türediği gibi.
         var yaricap = Math.floor((m.ti - m.fi) / 2);
         m._fiKirpik = Math.min(m._fiKirpik, m.fi + yaricap);
+        // 🔴 28 Eylül 2026 — ARAYUZ-0077 · paket 0080 H-0017 (Emre: "Timur'un
+        // Anadolu'dan çekilmesi maddesinin sefer OKU bir SONRAKİ maddede
+        // görünüyor"). Bu kırpmanın KENDİ gerekçesi yukarıda yazılı: *"bu
+        // seferlerin BAŞINDA kronoloji maddesi yok … olsaydı ok orada belirirdi
+        // ve bu kurala gerek kalmazdı."* ÖLÇÜLDÜ: başı kırpılan 67/132 okun
+        // 15'inin `f` gününde BİR MADDE ZATEN VAR (Timur çekilişi f=1403-03-15,
+        // madde 1403-03-15 → ok +69 gün sonra, 1403-06-01 maddesinde beliriyordu).
+        // Başında madde varsa kırpma gerekçesiz ⇒ ok kendi gününde belirir.
+        // ⚠️ Yalnız TAM GÜN eşitliği: `f`ten 1-7 gün sonraki maddeler (11 ok)
+        //    ayrı sınıf, burada DEĞİŞMEDİ — orada kırpma zaten o maddeye düşüyor.
+        for (var bi = 0; bi < olaylar.length; bi++) {
+          if (olaylar[bi].gi === m.fi) { m._fiKirpik = m.fi; break; }
+        }
       } catch (e) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
     }
     // 🔴 VE SONU DA ÇAPASINA KIRPILIR — yukarıdaki kuralın ÖTEKİ UCU.
