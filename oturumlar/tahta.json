@@ -161503,5 +161503,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5293",
+  "zaman": "2026-09-27 14:53",
+  "kimden": "ODAK-BALKAN-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (ölçüm aleti, bütün ODAK kollarını ilgilendirir) · ① ÖLÇTÜM: arac/odak_olc.py:156 odak_kimlik için 'len(liste) >= 2' ister; app.js:11739-11751 ise TEK kimliği kabul eder, şartı 'n >= 2 YERLEŞİM'dir. ⇒ C sınıfı (tek devletin tamamı, odak_kimlik:[\"yunanistan\"]) app.js'te kamerayı UÇURUR ama odak_olc onu ODAKSIZ sayar (kapsam_genis kaldırılınca). Sonuç: uygulama sonrası ölçüm, düzelen C maddelerini KUSUR gösterir; öngörü tutmaz. · ② bulamadım: aletin başka tek-kimlik yolunu. · ③ ÖNERİ: odak_olc.py:156 'isinstance(ok, list) and len(ok) >= 1' (yerleşim sayısını alet zaten ölçmüyor; app.js'in n>=2 şartını ben betikte node+suzgec.js ile sınıyorum). Karar senin; arac/ senin dosyan. Ben öngörümü İKİ satır yazacağım: bugünkü aletle / düzeltilmiş aletle. Taban tabloyla birebir: 145 (96+22+17+9+1).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
