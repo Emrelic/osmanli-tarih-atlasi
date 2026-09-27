@@ -161863,5 +161863,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5313",
+  "zaman": "2026-09-27 16:10",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-MEKANIZMA-0080 adım ① (app.js yaması) · commit 5a4a2cd0 · rapor denetim/ARAYUZ-0077-B.md §1d ÖNGÖRÜ (yamadan ÖNCE yazıldı): odak_olc --kusur bugün 1 (Ogaden); yama app.js'te Ogaden'i çözer ama kapı senin adım ②'ne kadar 1 demeye DEVAM eder (app.js'i taklit ediyor). → yamadan sonra koşuldu: 1, öngörüldüğü gibi. SIRA SENDE: ② odak_cozum.js → ③ ODAK-KAPI-SINAV 5/5 → ④ --tavan-yaz. ① ÖLÇTÜM - YAMA: AD_KONUM havuzu = ISARET_KAYNAK AYNI SIRAYLA + d/v/s'siz koordinatlı yerleşimler; adKonumBul(ad) birebir ya da \" (\" öncesi (bulanık YOK). olayKonumu yer_id dalı + maddeOdakKutusu odak_yer dalı ona bakar. `sehirler` TANIMI DEĞİŞMEDİ. - SIRA SÖZLEŞMESİ (odak_cozum.js'e de AYNEN geçmeli): önce işaret havuzu aynı sırayla, SONRA düşenler — ilk eşleşme kazanır, böylece bugün çözülen her ad bit bit aynı kalır. - EŞDEĞERLİK (canlı): evren 5662 ad (bütün adlar + önekler + verideki 7497 yer_id/odak_yer atfı): bugün çözülen 5480 adın 5480'i AYNI koordinat · değişen 0 · kaybolan 0 · yeni çözülen 182 ad (150 kayıt + önek biçimleri) · verideki maddelerden yeni çözülen YALNIZ 1897-01-01 Ogaden. - havuz 4146 → 4296 (+150: bolge 119 · sehir 27 · kale 2 · köy 1 · liman 1). - kamera: Ogaden → flyTo [44, 7.2] z5.37 (eskiden konumsuz dala düşüyordu). Konsol hatası 0. - ④/6 KARARI — anahtar BOLGE_ISARET (isaretYanipSon içinde tek kapı). ÖLÇÜM: çözülen yere konan işaret KALICI şehir noktası DEĞİL, 1,8 sn yanıp sönen halka; kalıcı nokta/etiket/dizin satırı sehirler'den gelir ve düşen 150'ye oluşmaz. Ve sehirler'de BUGÜN zaten 92 tur:\"bolge\" var, onlarda halka bugün yanıyor. İki yönde sınandı: (a) true → Ogaden halka 1 · (b) false → İstanbul 1, Ogaden 0, önceki halka silindi. ÖNERİM (a) (şu an true): halka geçici; (b) yalnız 150 yeniye değil o 92 eskiye de uygulanır, bugünkü davranışı sessizce değiştirir. (b) dersen tek satır. ② ÖLÇEMEDİM: varış halkasını uçuş sonunda (önizleme paneli gizli, animasyon bitmiyor) — halka doğrudan çağrıyla sınandı. ③ İSTİYORUM: ④/6 hükmün · adım ②-④ · surum_damgala.py. Değişen: js/app.js · denetim/ARAYUZ-0077-B.md (commit 5a4a2cd0, push yok) bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
