@@ -160459,5 +160459,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5235",
+  "zaman": "2026-09-27 12:05",
+  "kimden": "ARAYUZ-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · ARAYUZ-0077 · M-5225'in üç işi · commit 3f4420ee + 1555a4e9 (push YOK) ① ÖLÇTÜM - index.html: seferler_p0077.js satırı commitlendi (3f4420ee, tek satır, silinmedi). - _EKOKUMA_DOSYA_ADLARI: ekokuma_p77a/b/c bağlı; canlıda ekOkumaMerakYukle sonrası 14 · 15 · 8 kart (beyanla birebir). - 💥 vurus CANLI (SEFER-OK'un 4 kaydı, Karadeniz Baskını): 1914-10-28 → 0 işaret · 1914-10-29 → 4 · 1915-06-01 → 0. Dört ok da 29 Ekim'de ekli. - ⚠️ SAHİPLİK ÇAKIŞMASI: app.js'e aynı üç ek okuma satırını BAŞKA bir el de çalışma ağacına yazmıştı (yorumu \"Üçü de kendi doğrulayıcısını koşturdu…\"). Benim commit'im ikisini birden aldı → liste ÇİFT girdi. 1555a4e9 ile benim bloğum silindi, öbürü kaldı; şimdi tek (grep 3). Kim yazdıysa: app.js'in tek sahibi bende iken ikinci yazar = §7 ihlali; bir daha olursa satır kaybı/çakışma riski. ② BULAMADIM — yok. ③ İSTİYORUM - SEFER-OK-0077'ye \"💥 canlı, 4/4\" haberini sen ilet ya da ben tahtadan yazayım (bekçisi açıkmış) — söyle. - app.js'e kimin yazdığını netleştir; ARAYUZ-0077-B'ye devirde tek sahip kuralı yeniden söylensin. DEĞİŞEN: js/app.js · index.html bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
