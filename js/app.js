@@ -704,6 +704,68 @@ function ufukSeciciKur() {
   });
 }
 
+// 🔴 27 Eylül 2026 — ARAYUZ-0077 · H-78:1: *"5 gün A / 7 gün / 10 gün gibi B
+// görünümü ayarlarını TIKLAYAMIYORUM, çalışmıyor o ayar."* ÖLÇÜLDÜ, Emre
+// haklı: iki B ayarının İKİSİNİN DE verisi diskte YOK —
+//   ④b Dolgu  : `window.DOLGU` boş (data/dolgu.js hiç üretilmedi, yükleyici
+//               satırı 22 Eylül'de index.html'den silindi) ⇒ kutu işaretlenir,
+//               haritada HİÇBİR ŞEY değişmez.
+//   ④c Ufuk   : data/ufuk_bantlari.js YOK ⇒ 7/10 seçilince ufukYukle onerror
+//               verir ve seçici "sessiz geri dönüş"le 5'e zıplar — kullanıcıya
+//               "tıklanmıyor" gibi görünen şey tam bu.
+// Tasarımın "kullanıcıya hata gösterilmez" kararı sessizliği bir ÖZELLİK
+// saymıştı; kullanıcı açısından sessiz no-op BOZUK DÜĞMEDİR. Çare veri
+// uydurmak değil, düğmenin durumunu SÖYLEMEK: verisi yoksa pasif + gerekçe.
+// Veri üretildiği gün bu kapı kendiliğinden açılır (kod değişmez).
+function bVeriKapisi() {
+  var NOT = "veri henüz üretilmedi";
+  var dk = document.querySelector('input[data-katman="dolgu"]');
+  if (dk && !dolgular.length) {
+    dk.checked = false;
+    dk.disabled = true;
+    var lb = dk.closest("label");
+    if (lb) {
+      lb.title = "Ⓑ Dolgu: " + NOT + " (data/dolgu.js yok) — bu ayar şimdilik bir şey değiştirmez";
+      lb.classList.add("b-pasif");
+      var em = lb.querySelector("em");
+      if (em) em.textContent = NOT;
+    }
+  }
+  var sec = document.getElementById("ufuk-sec");
+  if (!sec) return;
+  var lb2 = sec.closest("label");
+  var ozgun = Array.prototype.map.call(sec.options, function (o) { return o.textContent; });
+  function ufukDurum(varMi) {
+    Array.prototype.forEach.call(sec.options, function (o, i) {
+      if (parseInt(o.value, 10) <= 5) return;
+      o.disabled = !varMi;
+      o.textContent = varMi ? ozgun[i] : ozgun[i] + " — " + NOT;
+    });
+    if (!varMi) sec.value = "5";
+    sec.title = varMi ? "Yürüyüş ufku — 5 gün bugünkü harita (A)"
+                      : "Yürüyüş ufku — yalnız 5 gün (A) var; 7/10 gün bantları " + NOT;
+    if (lb2) lb2.classList.toggle("b-pasif", !varMi);
+  }
+  // 🔴 VARSAYILAN PASİF, yoklama TEMBEL. İlk sürüm açılışta HEAD atıyordu ve
+  // dosya yokken HER ZİYARETÇİYE bir 404 ödetiyordu (ölçüldü, ağ kaydında
+  // `HEAD …ufuk_bantlari.js → 404`) — yayın kapısının 3b6c4b62'de kapattığı
+  // sınıfın ta kendisi. Artık yalnız seçiciye YAKLAŞAN kullanıcı bir kez
+  // yoklar; dosya varsa seçenekler o an açılır.
+  ufukDurum(false);
+  var yoklandi = false;
+  function yokla() {
+    if (yoklandi) return;
+    yoklandi = true;
+    try {
+      fetch("data/ufuk_bantlari.js" + ufukSurum(), { method: "HEAD", cache: "no-store" })
+        .then(function (r) { ufukDurum(!!r.ok); })
+        .catch(function () { ufukDurum(false); });
+    } catch (e) { /* fetch yok — pasif kalır */ }
+  }
+  (lb2 || sec).addEventListener("pointerenter", yokla);
+  sec.addEventListener("focus", yokla);
+}
+
 var dolguImza = null;
 function dolguGuncelle(t) {
   if (!dolgular.length) return;
@@ -2441,6 +2503,7 @@ harita.on("load", function () {
   nehriUsteAl();
   katmanSeciciKur();
   ufukSeciciKur();          // Ⓑ üç kademeli ufuk (5 / 7 / 10 gün)
+  bVeriKapisi();            // ARAYUZ-0077 H-78:1 — verisi olmayan B ayarı AÇIKÇA pasif
 
   var lejant = document.createElement("div");
   lejant.className = "lejant";
@@ -2793,6 +2856,8 @@ harita.on("load", function () {
   try { kaynakliHalkaAyarKur(); } catch (e) { console.error("KAYNAKLI HALKA ayarı kurulamadı:", e); }
 
   haritaHazir = true;
+  // ARAYUZ-0077 H-0002 — açılış perdesini (css/style.css, saf CSS) kaldır.
+  document.documentElement.classList.add("atlas-hazir");
   aktifDonem = -1;
 
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — ekran görüntüsü almayı kolaylaştırmak
@@ -3056,7 +3121,14 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
             // zaten ikinci bir pencereye sahip (ilk görünüşleri zaten simgesizdi,
             // fark etmezdi); 130'u için bu TEK pencere ve artık kayboluyorlardı.
             var epokBaslangici = dn.f === EPOK_DAMGASI && y.g === 0;
+            // 🔴 27 Eylül 2026 — ARAYUZ-0077 · H-78:3 (Emre, 1281-01-01 Bosna
+            // kaleleri: "bu savaş simgesi mi, bütün zamanlarda mı gösteriliyor?").
+            // Yöntem simgesi epokta bastırılıyordu ama 🏰 KALE simgesi
+            // bastırılmıyordu: `m.kale` yalnız tür bakıyor, pencere epok mu
+            // bakmıyordu ⇒ atlas açılır açılmaz her tur:"kale" noktası 550 gün
+            // "fethedilmiş" gibi işaretleniyordu. `e` bayrağı bunu taşır.
             pencereler.push({ f: dn.f, t: dn.t, d: Math.max(y.g, 1), b: y.g === 3,
+                              e: dn.f === EPOK_DAMGASI,
                               y: epokBaslangici ? undefined : (alan === "d" ? dn.y : undefined) });
           });
         });
@@ -3104,7 +3176,7 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
            mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
            kayitlar: s.k.map(function (r) {
-             return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b, y: r.y || "" };
+             return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b, y: r.y || "", e: !!r.e };
            }) };
 });
 
@@ -3698,7 +3770,7 @@ function sehirGuncelle(t) {
     // Pencere dışında ikisi de kalkar — kalıcı simge bırakmıyoruz.
     var pencerede = t < aktif.fi + YONTEM_SURE;
     var simge = pencerede
-      ? (m.kale ? "🏰" : "") + (aktif.y ? YONTEM_SIMGE[aktif.y] || "" : "")
+      ? (m.kale && !aktif.e ? "🏰" : "") + (aktif.y ? YONTEM_SIMGE[aktif.y] || "" : "")
       : "";
     // p4/H-0008 — ediniliş simgesi boşsa (mülkiyet o an değişmiyor) ve andığı
     // madde savaş türündeyse, aynı yuvada savaş simgesi çıkar. İkisi aynı anda
@@ -4268,10 +4340,18 @@ function devirLejanti(fs) {
 // burada da baştan kuruyorum.
 var ISGALLER = window.ISGALLER || [];
 
+// 🔴 27 Eylül 2026 — ARAYUZ-0077 (H-0030 yan bulgusu): desen adı yalnız `id`
+// idi; 5 kimlik (rusya · ingiltere · fransa-cumhuriyet · yunanistan ·
+// avusturya) İKİ ayrı sahipRenk taşıyor (#8e0b22 doğrudan · #b2384a tâbi) ve
+// ilk gelen kaydın sahip rengi ötekilere de basılıyordu. Ad artık ikisini taşır.
+function isgalDesenAdi(ig) {
+  return "isgal-" + ig.id + "-" + String(ig.sahipRenk || "#8e0b22").replace("#", "");
+}
+
 function isgalDesenleriKur() {
   var K = 8;
   ISGALLER.forEach(function (ig) {
-    var ad = "isgal-" + ig.id;
+    var ad = isgalDesenAdi(ig);
     if (harita.hasImage && harita.hasImage(ad)) return;
     var c = renkAyir(ig.renk);
     var s = ig.sahipRenk ? renkAyir(ig.sahipRenk) : OSMANLI_KIRMIZI;
@@ -4305,7 +4385,9 @@ function isgalGuncelle(t) {
     if (ig.gs === undefined) ig.gs = gunIdx(ig.t);
     if (t < ig.gi || t >= ig.gs) continue;      // devirden farkı: sabit aralık
     fs.push({ type: "Feature",
-              properties: { desen: "isgal-" + ig.id, renk: ig.renk, isgalci: ig.ad },
+              properties: { desen: isgalDesenAdi(ig), renk: ig.renk,
+                            sahipRenk: ig.sahipRenk || "#8e0b22",
+                            isgalci: ig.ad === ig.id ? devletAdi(ig.id) : ig.ad },
               geometry: { type: "MultiPolygon", coordinates: ig.parca } });
   }
   harita.getSource("isgal").setData({ type: "FeatureCollection", features: fs });
@@ -4329,9 +4411,21 @@ function isgalLejanti(fs) {
   // sahip (Osmanlı kırmızısı — bkz. isgalDesenleriKur'daki not, sahipRenk her
   // zaman #8e0b22 olmayabilir ama bu lejant şablonu şimdilik onu varsayıyor,
   // ölçüldü/DEĞİŞTİRİLMEDİ) ince şerit (%38) — isgalDesenleriKur ile AYNI oran.
-  el.innerHTML = "<b>İşgal altında</b>" + fs.map(function (f) {
+  // 🔴 27 Eylül 2026 — ARAYUZ-0077 H-0030: "aynı devletin gösterimi birden
+  // fazla tekrarlanıyor". Satır başına bir GÖVDE basılıyordu (1916-11-03'te
+  // 15 satır: yunanistan ×6, italya ×3, İngiltere ×4). Artık her İŞGALCİ tek
+  // satır (Emre: "her devlete bir gösterim yeter"); ham slug
+  // (`fransa-cumhuriyet`) yerine künye adı `devletAdi` ile yazılıyor.
+  var gorulen = {};
+  el.innerHTML = "<b>İşgal altında</b>" + fs.filter(function (f) {
+    var k = f.properties.isgalci;
+    if (gorulen[k]) return false;
+    gorulen[k] = 1;
+    return true;
+  }).map(function (f) {
     return '<span><i style="background:linear-gradient(-45deg,' +
-           f.properties.renk + ' 0 62%,#8e0b22 62% 100%);background-size:8px 8px"></i> ' +
+           f.properties.renk + ' 0 62%,' + f.properties.sahipRenk +
+           ' 62% 100%);background-size:8px 8px"></i> ' +
            f.properties.isgalci + "</span>";
   }).join("");
   lejantYerlestir();
@@ -4888,7 +4982,32 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
   // uçları `yol`un uçlarıyla aynı olmalıdır. Çizim, animasyon, mükerrer ve yer
   // eşleştirmesi hepsi bu hattı okur.
   var _cizYol = (Array.isArray(s.rota) && s.rota.length >= 2) ? s.rota : s.yol;
+  // 🆕 VURUŞ İŞARETİ — ARAYUZ-0077 × SEFER-OK-0077 (M-5210/M-5212, 27 Eylül
+  // 2026). Emre (paket 0077 H-0016, Karadeniz Baskını): *"donanmanın
+  // güzergâhını ve baskın verdiği yerleri işaretleyelim, bombalama etkisi için
+  // PATLAMA emojisi ile gösterelim."* SÖZLEŞME (veri):
+  //     vurus: [{ lon, lat, ad, t:"YYYY-MM-DD", kaynak? }]
+  // Her öğe okun üstünde 💥; `t` gününden okun görünür olduğu son güne kadar.
+  // `t` KAYNAKTAN gelir, uydurulmaz; `t`siz ya da koordinatsız öğe ÇİZİLMEZ
+  // ve konsola adıyla düşer (§D225: süzgeç tanımadığını sessizce elemez).
+  var vurus = [];
+  (s.vurus || []).forEach(function (v) {
+    if (!v || typeof v.lon !== "number" || typeof v.lat !== "number" || !v.t) {
+      console.warn("Atlas: sefer vuruşu — 🔴 lon/lat/t eksik, çizilmedi: " +
+                   (s.ad || s.id) + " · " + JSON.stringify(v));
+      return;
+    }
+    var ve = document.createElement("div");
+    ve.className = "sefer-vurus";
+    // İç <span>: MapLibre işaretçinin KENDİ transform'unu konum için kullanır;
+    // canlandırma dış öğede olsaydı işaret ekranın köşesine fırlardı.
+    ve.innerHTML = "<span>💥</span>";
+    ve.title = (v.ad || "Vuruş") + " · " + v.t + (v.kaynak ? " · " + v.kaynak : "");
+    vurus.push({ gi: gunIdx(v.t), ekli: false,
+                 mk: new maplibregl.Marker({ element: ve, anchor: "center" }).setLngLat([v.lon, v.lat]) });
+  });
   return { fi: fi, ti: ti, ad: s.ad, yol: _cizYol, istasyon: s.yol, id: s.id || s.ad,
+           vurus: vurus,
            kademe: kademe.length ? kademe : null,
            // 🔴 DENİZ OKU KIVRILMAZ — H-0033. Kavis (aşağıda `seferKavisliYol`)
            // kara'yı BİLMEZ: iki liman arasını yayla kıvırınca ok kıyıdan içeri
@@ -5296,14 +5415,17 @@ function seferGuncelle(t) {
     if (aktif && window.SEFER_ANIM_GIZLI[m.id]) {
       // faz "ok" bu oku ŞU ANDA ilerletiyor — durağan kopyasını çizme
       if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
+      _seferVurusGoster(m, true, t);
       turler[m.tur] = (turler[m.tur] || 0) + 1;
       return;
     }
     if (aktif) {
       if (_mukerrerMi(m)) {                           // mükerrer: TEK çizim
         if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
+        _seferVurusGoster(m, false, t);
         return;
       }
+      _seferVurusGoster(m, true, t);
       _cizilenler.push(m);
       // Kavisli hat bir kez hesaplanıp kayda iliştiriliyor (her güncellemede
       // yeniden eğri örneklemek kare başına iş olurdu — §2 motor kuralı).
@@ -5352,10 +5474,24 @@ function seferGuncelle(t) {
       turler[m.tur] = (turler[m.tur] || 0) + 1;
       if (m.sonuc !== "belirsiz") sonuclar[m.sonuc] = 1;
       if (!m.ekli) { m.mk.addTo(harita); m.ad_mk.addTo(harita); m.ekli = true; }
-    } else if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
+    } else {
+      if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
+      _seferVurusGoster(m, false, t);
+    }
   });
   harita.getSource("seferler").setData({ type: "FeatureCollection", features: cizgiler });
   seferLejanti(turler, sonuclar);
+}
+
+// 💥 vuruş işaretleri: ok görünürken ve vuruş günü geldiyse (bkz. `vurus`
+// sözleşmesi, seferler kuruluşu). Ok düşünce işaretler de düşer.
+function _seferVurusGoster(m, okGorunur, t) {
+  if (!m.vurus || !m.vurus.length) return;
+  m.vurus.forEach(function (v) {
+    var goster = okGorunur && v.gi <= t;
+    if (goster && !v.ekli) { v.mk.addTo(harita); v.ekli = true; }
+    else if (!goster && v.ekli) { v.mk.remove(); v.ekli = false; }
+  });
 }
 
 // ---------- KORİDOR AĞI (menzil yolları) — ARAYÜZ KORİDOR, 16 Ağustos 2026 ----------
@@ -12905,9 +13041,60 @@ function odakOfseti(hedef, kap) {
   });
 })();
 
+// ═══════════════════════════════════════════════════════════════════════
+// ARAYUZ-0077 · H-0021 + H-0034 — AĞIR ADIM KAPISI
+// H-0021 (Emre): "ileri tuşuna basınca sayfalar zor ilerliyor… birden fazla
+// tıklayınca en son birikip 3-4 madde birden gidiyor." ÖLÇÜLDÜ: tek bir ⏭
+// adımı ana iş parçacığını 1193 · 1251 ms KİLİTLİYOR (sonrakiler 15-22 ms).
+// Kilit sürerken gelen tıklamalar tarayıcının kuyruğunda bekliyor ve kilit
+// açılınca ARKA ARKAYA işleniyor — "birikip birden gitmek" tam bu.
+// Çare iki parçalı:
+//  ① Kilit SÜRERKEN oluşmuş tıklama (event.timeStamp < son adımın bitişi)
+//    ve adım başlamadan gelen ikinci tıklama YUTULUR: bir tık = bir madde.
+//  ② H-0034 — iş başlamadan "işlem sürüyor" göstergesi (#mesgul) açılır,
+//    ekrana basılması için bir kare beklenir, sonra iş koşar. Gösterge
+//    bileşik katmanda döndüğü için kilit sırasında da döner (css/style.css).
+// ⚠️ Adımın KENDİSİ hızlanmadı — 1,2 sn'nin kaynağı tarihAyarla zinciri;
+//    bu kapı yalnız biriken tıklamayı ve sessiz beklemeyi çözer.
+var _adimSonu = 0, _adimBekliyor = false;
+function mesgulGoster(acik) {
+  var el = document.getElementById("mesgul");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "mesgul";
+    el.setAttribute("role", "status");
+    el.innerHTML = "<i></i><span>Harita hazırlanıyor…</span>";
+    document.body.appendChild(el);
+  }
+  el.classList.toggle("acik", !!acik);
+}
+function agirAdim(e, is) {
+  if (_adimBekliyor) return;                                   // ① adım sırada
+  if (e && e.timeStamp && e.timeStamp < _adimSonu) return;     // ① kilitte birikmiş
+  _adimBekliyor = true;
+  mesgulGoster(true);
+  var kostu = false;
+  function kos() {
+    if (kostu) return;
+    kostu = true;
+    try { is(); }
+    finally {
+      _adimBekliyor = false;
+      _adimSonu = performance.now();
+      mesgulGoster(false);
+    }
+  }
+  // Göstergenin boyanması için bir kare; sekme gizliyse rAF gelmez → yedek.
+  requestAnimationFrame(function () { setTimeout(kos, 0); });
+  setTimeout(kos, 100);
+}
+
 // Önceki / sonraki olaya atla — p5/H-0006: sıra numarası (index) üzerinden,
 // bkz. suankiOlayI/olayIndexTazele yorumu.
-document.getElementById("btn-geri").addEventListener("click", function () {
+document.getElementById("btn-geri").addEventListener("click", function (e) {
+  agirAdim(e, geriAdim);
+});
+function geriAdim() {
   olayIndexTazele();
   var gi2 = suankiOlayI - 1;
   while (gi2 >= 0 && suzulduMu(gi2)) gi2--;       // süzülmüş: atla (H-0003)
@@ -12916,15 +13103,18 @@ document.getElementById("btn-geri").addEventListener("click", function () {
   // ⏮ ELLE yapılan bir eylem ⇒ KAMERA hakemli + 🛩 anahtarını zorlar.
   // (Panel gösterimi eskisi gibi KAPALI — bu düğme paneli hiç açmıyordu.)
   olayaGit(olaylar[suankiOlayI], false, true);
+}
+document.getElementById("btn-ileri").addEventListener("click", function (e) {
+  agirAdim(e, ileriAdim);
 });
-document.getElementById("btn-ileri").addEventListener("click", function () {
+function ileriAdim() {
   olayIndexTazele();
   var ii2 = suankiOlayI + 1;
   while (ii2 < olaylar.length && suzulduMu(ii2)) ii2++;   // süzülmüş: atla (H-0003)
   if (ii2 >= olaylar.length) { tarihAyarla(BITIS); return; }
   suankiOlayI = ii2;
   olayaGit(olaylar[suankiOlayI], false, true);   // ⏭ — aynı gerekçe
-});
+}
 
 // ═══════════════════════════════════════════════════════════════════════
 // TARİHE GİT — 11 Eylül 2026, Emre: "tarihe git diye bir buton olsun ve
@@ -13040,7 +13230,8 @@ function enYakinOlayBul(gi) {
   }
   // 14 Eylül 2026 — "📅 Git" butonu kaldırıldı; tek tetik Enter.
   giris.addEventListener("keydown", function (e) {
-    if (e.key === "Enter") { calistir(); e.preventDefault(); }
+    // ARAYUZ-0077 H-0034: uzak tarihe sıçrama da ağır adımdır — göstergeyle koşar.
+    if (e.key === "Enter") { agirAdim(e, calistir); e.preventDefault(); }
   });
 })();
 
@@ -14275,6 +14466,9 @@ function katmanSeciciKur() {
       if (a === "tani") tanilejantiGuncelle(acik);
 
       var say = document.getElementById("kat-sayi-" + a);
+      // ARAYUZ-0077 H-78:1 — veri yokken rozet KATMAN sayısını ("2") yazıp
+      // yukarıdaki "—"yi eziyordu: ayar çalışıyormuş gibi görünüyordu.
+      if (a === "dolgu" && !dolgular.length) say = null;
       if (say) {
         say.textContent = (a === "yerlesim")
           ? document.querySelectorAll(".maplibregl-marker").length
