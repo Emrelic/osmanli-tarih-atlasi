@@ -126,3 +126,47 @@ War* (FU Berlin, hakemli) — Egypt · Cemal Paşa (Kayalı) · War Aims Ottoman
 **BAĞLAMA** (koordinatör): `js/app.js` `_EKOKUMA_DOSYA_ADLARI` dizisine tek satır —
 `"ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)`.
 `index.html`e satır GEREKMEZ (ek okuma dosyaları tembel yüklenir).
+
+---
+
+## 7. DEVAM — paket 0080 H-0022 · tahrir defterleri (28 Eylül 2026, tahta M-5321)
+
+**Dosya:** `data/ekokuma_p80b.js` · değişken **`window.EKOKUMA_P80B`** · 1 kart
+`p80b-tahrir-defterleri-nasil-okunur` (`teknik-bilimsel`) · çapa `1431-01-01|en eski tahrir defteri`.
+Ad alanı şartnamede verilmediği için ben seçtim (A/C kolları `p80a`/`p80c` seçerse çakışmaz).
+
+**Sınav:** `py denetim/EKOKUMA-0077-B-sina.py --p80b` → TEMİZ ✓ (alanlar · ses 0 · çapa canlı ·
+havuz 706 id ile çakışma 0 · `node --check`). p77b dosyası yeniden sınandı: TEMİZ ✓.
+
+**Kaynak:** TDV `tahrir` (asıl dayanak, tam gövde) · `defterhane` · `barkan-omer-lutfi` · `arnavutluk`.
+Tuzaklar: `defter-i-hakani` ve `icmal-defteri` CANLI ama yalnız "bk." yönlendirme kütüğü (④) ·
+`tapu-tahrir-defteri`, `mufassal-defter`, `inalcik-halil` 302.
+
+**"En eski" iddiası — kaynağı ADIYLA:** TDV `tahrir`, AYNEN: *«…günümüze ulaşan en eski sayımı
+ihtiva eden 835 (1431) tarihli Arvanid Sancağı Defteri ile diğer bazı belgelerden, sayım
+sonuçlarının kaydedildiği defter usulünün XIV. yüzyılda mevcut olduğu anlaşılmaktadır.»*
+🔴 **Cümlenin tarihlediği şey (D211 ⑧):** defterin BUGÜNE ULAŞMASI — sayımın İLK olması DEĞİL;
+aynı cümle usulün 14. yüzyılda var olduğunu söylüyor. Kart bu ayrımı açıkça yapıyor.
+Yayımı: *Hicrî 835 Tarihli Sûret-i Defter-i Sancak-i Arvanid* (nşr. Halil İnalcık), Ankara 1954
+(TDV `tahrir` bibliyografyası).
+
+**🟡 Gerilim (bildirilir, çözülmedi):** TDV `arnavutluk`: *«Osmanlı idaresindeki Arnavutluk'la
+ilgili en eski kayıtlar I. Bayezid devrine kadar gider. Bu kayıtlar 1394 ve 1397 Arnavutluk
+seferlerinden yapılmış olan tahrirlere aittir.»* Bu kayıtların müstakil defter mi, sonraki bir
+belgede atıf mı olduğu maddede YOK → `bulunamadı`. İlk durumda "en eski defter" iddiası
+sorgulanır; kart onları "bugüne ulaşmış defter" SAYMIYOR ve bunu `not:`ta yazıyor.
+Ayrıca eser adındaki "sûret" (suret/kopya) kelimesinin neyin sureti olduğu okunan kaynaklarda
+açıklanmıyor — kartta yorumlanmadı.
+
+**Havuzla örtüşme:** `data/ekokuma_kurum.js` `teknik-tahrir-defterleri` aynı çapada ve aynı
+türde (TDV `tahrir` özeti, ~1.200 karakter). Yeni kart onu TEKRARLAMADI; istenen kapsamın
+eksik kısımlarını (kim tutar · seriler · arşiv sayıları · "en eski"nin kaynağı · tarihçi için
+değer ve dört sınırlılık) taşıyor. Aynı maddede iki "Teknik/Bilimsel" satırı görünecek —
+eskisi emekliye mi ayrılsın, kalsın mı: **senin kararın.** Önerim: kalsın (kısa giriş + derin
+okuma), başlıkları farklı.
+
+**Bulunamadı:** defterin ay/günü (kronoloji maddesi de yalnız yıl taşıyor) · 1394/1397
+kayıtlarının belge niteliği · "sûret"in neyin sureti olduğu.
+
+**Hüküm (H-0022):** `sirada` — kart diskte, bağlama bekliyor:
+`"ekokuma_p80b",        // window.EKOKUMA_P80B — EKOKUMA-0077-B, paket 0080 H-0022 (1 kart)`.

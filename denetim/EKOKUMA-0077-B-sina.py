@@ -38,6 +38,11 @@ _spec.loader.exec_module(capa)
 HEDEF = r"C:\atlas\data\ekokuma_p77b.js"
 DATA = r"C:\atlas\data"
 BEKLENEN = 15
+DEGISKEN = "window.EKOKUMA_P77B"
+# 28 Eylül 2026 — paket 0080 kartı için: --p80b (tek kart, EKOKUMA_P80B).
+# Ters yön bozulmaları p77b kartlarına göre yazılı; --p80b ile yalnız düz yön.
+if "--p80b" in sys.argv:
+    HEDEF, BEKLENEN, DEGISKEN = r"C:\atlas\data\ekokuma_p80b.js", 1, "window.EKOKUMA_P80B"
 
 TURLER = {"sebep-sonuc", "magazin", "merak", "antlasma", "tartisma",
           "teknik-bilimsel", "kimdir", "dis-yankilar", "kahramanlik",
@@ -69,7 +74,7 @@ def alan(blok, ad):
 
 
 def sina(t, etiket):
-    govde = t[t.find("window.EKOKUMA_P77B"):]
+    govde = t[t.find(DEGISKEN):]
     ks = kartlar(govde)
     hata = []
 
@@ -135,7 +140,7 @@ def sina(t, etiket):
     tekrar = sorted(set(x for x in idler if idler.count(x) > 1))
     havuz = set()
     for yol in glob.glob(os.path.join(DATA, "ekokuma*.js")):
-        if os.path.basename(yol) == "ekokuma_p77b.js":
+        if os.path.basename(yol) == os.path.basename(HEDEF):
             continue
         havuz |= set(re.findall(r'\bid:"([^"]+)"', io.open(yol, encoding="utf-8").read()))
     cak = sorted(set(idler) & havuz)
