@@ -1,0 +1,1548 @@
+[
+ {
+  "n": 1,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1277-11-01",
+  "b": "Mehmed Bey, Moğollara karşı İç İl'de savaşırken öldü",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Silifke",
+    "Ermenek"
+   ]
+  },
+  "gerekce": "Mehmed Bey Moğol öncüleri önünde İç İl'e çekilip orada öldürüldü; İç İl bölge, merkezi Silifke. 1281 öncesi: karaman kimliği 0 yerleşim",
+  "kaynak": "TDV karamanogullari: 'Alâeddin Siyavuş'la birlikte İç İl'e çekildi (Haziran 1277)' · 'merkezi Silifke olan İç İl ile Ermenek ve Mut yöreleri'"
+ },
+ {
+  "n": 2,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1281-01-01",
+  "b": "Güneri Bey beyliğin başına geçti",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "hükümdar değişimi, yer belirtilmiyor → beyliğin gövdesi (1281: 5 yerleşim)",
+  "kaynak": "TDV karamanogullari"
+ },
+ {
+  "n": 3,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1307-01-01",
+  "b": "Mahmud Bey öldü",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "hükümdar ölümü, yer belirtilmiyor (1307: 4 yerleşim)",
+  "kaynak": "TDV karamanogullari: 'Mahmud Bey 707'de (1307-1308) öldü'"
+ },
+ {
+  "n": 4,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1361-01-01",
+  "b": "Süleyman Bey akrabaları tarafından öldürüldü, Alâeddin Bey iktidara geçti",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "suikastın yeri metinde yok (1361: 4 yerleşim)",
+  "kaynak": "TDV karamanogullari: 'bizzat akrabaları tarafından öldürülmüştür (762/1361)'"
+ },
+ {
+  "n": 5,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1391-01-01",
+  "b": "Yıldırım Bayezid ile barış; batı toprakları bırakıldı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Beyşehir"
+   ]
+  },
+  "gerekce": "barışla bırakılan toprak Beyşehir'e bağlı Köşkbükü batısı — kamera orada",
+  "kaynak": "TDV karamanogullari: 'Beyşehir'e bağlı Köşkbükü köyünün batısındaki yerler Osmanlılar'a ait olmak üzere barış yapıldı (793/1391)'"
+ },
+ {
+  "n": 6,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1402-07-28",
+  "b": "Ankara Savaşı sonrası Timur, Alâeddin'in oğullarına toprakları geri verdi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "iade edilen beylik toprağının tamamı (1402-07-28: 6 yerleşim)",
+  "kaynak": "TDV karamanogullari"
+ },
+ {
+  "n": 7,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1442-01-01",
+  "b": "Macar saldırılarıyla eşzamanlı akın; II. Murad karşılık verdi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Ankara",
+    "Kütahya",
+    "Karahisâr-ı Sâhib (Afyon)"
+   ]
+  },
+  "gerekce": "akın yerleri; Beypazarı, Bolvadin, Hamîd-ili noktası atlasta yok",
+  "kaynak": "TDV karamanogullari: 'Ankara, Beypazarı, Kütahya, Karahisar, Bolvadin ve Hamîd-ili'nde yağma ve tahribatta bulundu'"
+ },
+ {
+  "n": 8,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1444-08-01",
+  "b": "İbrâhim Bey ile II. Murad arasında antlaşma; Osmanlı üstünlüğü kabul edildi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "antlaşmanın imza yeri metinde yok; öbür taraf Osmanlı (kutusu imparatorluk) → beylik tarafı (7 yerleşim)",
+  "kaynak": "TDV karamanogullari: 'Ağustos 1444'te yapılan anlaşmaya göre İbrâhim Bey …'"
+ },
+ {
+  "n": 9,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1465-01-01",
+  "b": "Pîr Ahmed, Osmanlı desteğiyle kardeşi İshak'ı yenip beyliğin tamamına hâkim oldu",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "beyliğin tamamına hâkimiyet (7 yerleşim)",
+  "kaynak": "TDV karamanogullari"
+ },
+ {
+  "n": 10,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1474-01-01",
+  "b": "Osmanlı seferi dağlık ve kıyı bölgeleri de tam denetime aldı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Niğde",
+    "Silifke"
+   ]
+  },
+  "gerekce": "sefer hedefi Niğde-Develi yöresi ve İç İl sahilleri; Develi noktası yok. (karaman kimliği 1474'te 0 yerleşim)",
+  "kaynak": "TDV karamanogullari: 'Niğde ve Develi yöresiyle İç İl sahillerine yönelik Osmanlı seferi 1474'te başarıyla sonuçlandı'"
+ },
+ {
+  "n": 11,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1483-01-01",
+  "b": "Kasım Bey öldü; İç İl'de Turgutoğlu Mahmud bey seçildi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Silifke",
+    "Ermenek"
+   ]
+  },
+  "gerekce": "Turgutoğlu Mahmud İç İl'de bey yapıldı (karaman kimliği 1483'te 0 yerleşim)",
+  "kaynak": "TDV karamanogullari: 'Turgut oğlu Mahmud'u İç İl'de bey yaptılarsa da'"
+ },
+ {
+  "n": 12,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1380-01-01",
+  "b": "Alâeddin Bey'in siparişiyle Yârcânî \"Karamannâme\"yi kaleme aldı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "eserin yazıldığı yer metinde yok; beylik sarayı eseri (1380: 7 yerleşim)",
+  "kaynak": "TDV karamanogullari: 'Karamannâme adında bir tarih yazdırmıştır'"
+ },
+ {
+  "n": 13,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1400-01-01",
+  "b": "Bölge tahıl, yün, deri, halı ve at ihraç ediyordu",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "dönem geneli ekonomi (madde temsilî tarih taşıyor); 1400'de 3 yerleşim",
+  "kaynak": "TDV karamanogullari: 'ihraç maddeleri arasında buğday, yün, deri, halı ve at'"
+ },
+ {
+  "n": 14,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1350-01-01",
+  "b": "Türkmen oymak konfederasyonlarına dayanan toplumsal yapı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "karaman"
+   ]
+  },
+  "gerekce": "dönem geneli toplum yapısı (1350: 4 yerleşim)",
+  "kaynak": "TDV karamanogullari: oymak cümleleri"
+ },
+ {
+  "n": 15,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1080-01-01",
+  "b": "Fetih sonrası nüfus ve iskân politikası",
+  "olc": "BEYANLI",
+  "sinif": "E",
+  "alan": {},
+  "gerekce": "iskân politikası dağınık (Batı Anadolu'dan Selçuk ülkesine); tek/birkaç yer kaynakta yok",
+  "kaynak": "TDV selcuklular: 'Rum ailelerini Selçuk ülkesine göç ettiriyor' — yer adı yok"
+ },
+ {
+  "n": 16,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1140-01-01",
+  "b": "İlk Selçuklu parasının basılması",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Konya",
+    "Niğde",
+    "Karahisâr-ı Sâhib (Afyon)"
+   ]
+  },
+  "gerekce": "darp yeri kaynakta YOK; kamera I. Mesud'un başlangıçtaki ülkesine (maddenin kendi metni: Konya-Niğde-Afyonkarahisar)",
+  "kaynak": "TDV mesud-i: 'Tarih ve darp yeri bulunmayan bu bakır sikkeler' — ⚠️ maddenin 1140 tarihi bu cümleyle çelişebilir, BAŞLIK/TARİH DOKUNULMADI"
+ },
+ {
+  "n": 17,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1202-01-01",
+  "b": "II. Süleyman Şah'ın Gürcistan seferi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Tiflis"
+   ]
+  },
+  "gerekce": "sefer hedefi Gürcistan; muharebe yeri kaynakta yok → kamera Gürcistan'ın merkezine",
+  "kaynak": "TDV selcuklular: 'Ancak 1202'de yaptığı Gürcistan seferinden bir netice elde edemedi'"
+ },
+ {
+  "n": 18,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1216-06-01",
+  "b": "Çukurova Ermeni Krallığı ile tâbiiyet antlaşması",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "Çinçin, Haçin, Keben kaleleri atlasta yok → kamera Kilikya çekirdeği",
+  "kaynak": "TDV keykavus-i: 'Çinçin ve Haçin (Hacın) kaleleri şiddetli hücumlardan sonra fethedildi'"
+ },
+ {
+  "n": 19,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1223-01-01",
+  "b": "Venedik ve Kıbrıs Frankları ile ticarî antlaşmalar",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Antalya",
+    "Alanya",
+    "Lefkoşa"
+   ]
+  },
+  "gerekce": "iki taraf: Selçuklu limanları (Antalya, Alâiye) + Kıbrıs",
+  "kaynak": "TDV selcuklular: 'Venedikliler ve Kıbrıs Frankları'yla ticarî anlaşmalar yapılmış'"
+ },
+ {
+  "n": 20,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1240-01-01",
+  "b": "Babaîler İsyanı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Hısn-ı Mansûr (Adıyaman)",
+    "Kâhta",
+    "Malatya",
+    "Kırşehir"
+   ]
+  },
+  "gerekce": "isyan Adıyaman-Kâhta-Malatya'da yayıldı, Kırşehir Malya ovasında bastırıldı (Gerger noktası yok)",
+  "kaynak": "TDV baba-ishak (maddenin kendi alıntısı)"
+ },
+ {
+  "n": 21,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1063-01-01",
+  "b": "Artuk Bey Sultan Alparslan'ın hizmetine girdi",
+  "olc": "BEYANLI",
+  "sinif": "E",
+  "alan": {},
+  "gerekce": "Alparslan'ın hizmetine giriş — yer kaynakta yok; 1063 atlas penceresi dışı",
+  "kaynak": "TDV artuklular"
+ },
+ {
+  "n": 22,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1350-01-01",
+  "b": "Dicle üzerindeki köprüler ticaret yolunu güvence altına aldı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Hasankeyf",
+    "Diyarbakır",
+    "Mardin"
+   ]
+  },
+  "gerekce": "maddenin kendi üçgeni (Diyarbakır-Mardin-Hasankeyf) — ⚠️ maddenin kaynağı 'bulunamadı' damgalı",
+  "kaynak": "madde kaynak alanı: bulunamadı (genel çıkarım)"
+ },
+ {
+  "n": 23,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1343-01-01",
+  "b": "Halep kervanı Dulkadır topraklarında soyuldu",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "kervan 'yolda Dulkadırlılar tarafından' soyuldu — soygunun tam yeri yok (2 yerleşim)",
+  "kaynak": "TDV dulkadirogullari: 'Halep'e taşıyan kervanın yolda Dulkadırlılar tarafından soyulması'"
+ },
+ {
+  "n": 24,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1379-01-01",
+  "b": "Ayas Savaşı'nda Memlükler yenildi",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Yumurtalık"
+  },
+  "gerekce": "Ayas = Yumurtalık (TDV parantezi)",
+  "kaynak": "TDV dulkadirogullari: 'Memlük kuvvetleri ise Ayas'ta (Yumurtalık) … imha edildi'"
+ },
+ {
+  "n": 25,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1386-01-01",
+  "b": "Halil Bey hançerlenerek öldürüldü",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "öldürülme yeri metinde yok",
+  "kaynak": "TDV dulkadirogullari: 'hançerlenerek öldürüldü (1386)'"
+ },
+ {
+  "n": 26,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1395-01-01",
+  "b": "Sevli Bey, Memlük Sultanı Berkuk'un emriyle öldürüldü",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "öldürülme yeri metinde yok",
+  "kaynak": "TDV dulkadirogullari: 'Sevli Bey'in Sultan Berkuk tarafından öldürülmesi'"
+ },
+ {
+  "n": 27,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1399-01-01",
+  "b": "Yıldırım Bayezid desteğiyle Nasîrüddin Mehmed Bey tahta çıktı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "tahta çıkış, yer yok",
+  "kaynak": "TDV dulkadirogullari"
+ },
+ {
+  "n": 28,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1440-01-01",
+  "b": "Mehmed Bey'in kızı Memlük Sultanı Çakmak ile evlendirildi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "evlilik; öbür taraf Memlük (kutusu Mısır-Suriye) → beylik tarafı",
+  "kaynak": "TDV dulkadirogullari: 'Çakmak … Nasreddin Mehmed'in kızı ile evlendi (1440)'"
+ },
+ {
+  "n": 29,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1442-01-01",
+  "b": "Nasîrüddin Mehmed Bey vefat etti, Süleyman Bey tahta çıktı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "ölüm/tahta çıkış, yer yok",
+  "kaynak": "TDV dulkadirogullari"
+ },
+ {
+  "n": 30,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1450-01-01",
+  "b": "Sitti Hatun, Şehzade Mehmed ile evlendirildi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "düğün yeri TDV dulkadirogullari'nda YOK (sitti-hatun slug'ı 302) → Edirne YAZILMADI",
+  "kaynak": "TDV dulkadirogullari: 'ertesi yıl diğer kızı Sitti Hatun'u II. …'"
+ },
+ {
+  "n": 31,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1454-01-01",
+  "b": "Süleyman Bey öldü, Melik Arslan Bey tahta çıktı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "ölüm/tahta çıkış, yer yok",
+  "kaynak": "TDV dulkadirogullari"
+ },
+ {
+  "n": 32,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1472-01-01",
+  "b": "Şehsuvar Bey Memlükler tarafından idam edildi",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Kahire"
+  },
+  "gerekce": "idam yeri Kahire (yakalandığı yer Zamantı Kalesi — noktası yok)",
+  "kaynak": "TDV dulkadirogullari: 'Zamantı Kalesi'nde … yakalandı ve Kahire'de idam edildi (1472)'"
+ },
+ {
+  "n": 33,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1480-01-01",
+  "b": "Alâüddevle Bozkurt Bey, kardeşi Şahbudak'ı yenerek tahta çıktı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "taht mücadelesi, yer yok",
+  "kaynak": "TDV dulkadirogullari"
+ },
+ {
+  "n": 34,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1514-01-01",
+  "b": "Alâüddevle Çaldıran seferine asker göndermedi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "dulkadir"
+   ]
+  },
+  "gerekce": "asker göndermeyi reddeden beylik; yer yok",
+  "kaynak": "TDV dulkadirogullari"
+ },
+ {
+  "n": 35,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1515-06-13",
+  "b": "Şehsuvaroğlu Ali Bey Osmanlı'ya tâbi oldu",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Maraş",
+    "Elbistan"
+   ]
+  },
+  "gerekce": "tâbi beylik; dulkadir kimliği 1515'ten sonra 0 yerleşim (v: kaydı kid'siz, adı 'Osmanlı'ya tâbi…' ile başlıyor) → merkezler",
+  "kaynak": "TDV dulkadirogullari: 'Elbistan ve Maraş merkez olmak üzere'"
+ },
+ {
+  "n": 36,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1516-08-24",
+  "b": "Ali Bey Mercidâbık Savaşı'na katıldı",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    36.536,
+    37.27
+   ]
+  },
+  "gerekce": "yk~ Mercidâbık = Dâbık köyü, Halep kuzeyi; atlasta nokta yok. ⚠️ kronoloji_* maddesinde yer_kon bugün devlet sekmesinde OKUNMAZ (maddeAc yer_id ister)",
+  "kaynak": "TDV dulkadirogullari (maddenin kendi kaynağı) · konum: Dâbık köyünün bilinen yeri, YAKLAŞIK"
+ },
+ {
+  "n": 37,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1517-01-22",
+  "b": "Ali Bey Ridâniye Savaşı'na katıldı, Memlük Sultanlığı sona erdi",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    30.07,
+    31.28
+   ]
+  },
+  "gerekce": "yk~ Ridâniye = Kahire'nin kuzeydoğu kenarı; atlasta ayrı nokta yok. ⚠️ yer_kon devlet sekmesinde OKUNMAZ",
+  "kaynak": "TDV dulkadirogullari (maddenin kendi kaynağı) · konum YAKLAŞIK"
+ },
+ {
+  "n": 38,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1519-01-01",
+  "b": "Bozoklu Şeyh Celâl isyanının bastırılmasına katkı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Kırşehir",
+    "Çorum",
+    "Tokat"
+   ]
+  },
+  "gerekce": "Bozok (Yozgat) noktası atlasta YOK → komşu merkezlerin kutusu Bozok'u içine alır. NOKTA İHTİYACI: Bozok/Yozgat",
+  "kaynak": "TDV dulkadirogullari: 'Bozok (Yozgat)' · 'Bozoklu Şeyh Celâl … bastırılmasında'"
+ },
+ {
+  "n": 39,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1521-01-27",
+  "b": "Canbirdi Gazâlî isyanının bastırılmasına katkı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Şam"
+   ]
+  },
+  "gerekce": "bozgun Mastaba'da (Şam yakını, noktası yok) → kamera Şam",
+  "kaynak": "TDV canbirdi-gazali (maddenin kendi alıntısı): 'Mastaba'da bozguna uğradı'"
+ },
+ {
+  "n": 40,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1341-06-15",
+  "b": "Umur Bey'in Kantakuzenos'un başlıca destekçisi olması",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "aydin"
+   ]
+  },
+  "gerekce": "ittifak; yer yok → beylik tarafı (8 yerleşim)",
+  "kaynak": "TDV umur-bey: 'Umur Bey, Bizans İmparatorluğu için önemli bir müttefik haline geldi'"
+ },
+ {
+  "n": 41,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1342-01-01",
+  "b": "Umur Bey'in 380 gemi ve 20.000 askerle Trakya seferi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Enez",
+    "Dimetoka"
+   ]
+  },
+  "gerekce": "çıkarma Meriç ağzı (Enez), karargâh Dimetoka",
+  "kaynak": "TDV umur-bey: '1342 yılı sonlarında 20.000'e yakın asker ve 380 kadar gemiyle Meriç ağzına geldi' · 'Dimetoka'da bulunan Kantakuzenos'un hanımı … karşılandı'"
+ },
+ {
+  "n": 42,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1390-01-01",
+  "b": "İsa Bey'in Yıldırım Bayezid'e tabi olması, ilk ilhak",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Ayasuluk (Selçuk)",
+    "Tire",
+    "Birgi"
+   ]
+  },
+  "gerekce": "beyliğin tâbiiyeti; aydin kimliği 1390'da 1 yerleşim (kutu kurulamaz) → beylik merkezleri",
+  "kaynak": "TDV aydinogullari (maddenin kaynağı)"
+ },
+ {
+  "n": 43,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1402-07-28",
+  "b": "Ankara Savaşı sonrası Timur'un toprakları iadesi, yeniden kuruluş",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "aydin"
+   ]
+  },
+  "gerekce": "iade edilen beylik toprağı (6 yerleşim)",
+  "kaynak": "TDV aydinogullari"
+ },
+ {
+  "n": 44,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1403-01-01",
+  "b": "Musa Bey'in ölümü, II. Umur'un cülûsu",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "aydin"
+   ]
+  },
+  "gerekce": "hükümdar değişimi, yer yok (8 yerleşim)",
+  "kaynak": "TDV cuneyd-bey"
+ },
+ {
+  "n": 45,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1405-01-01",
+  "b": "II. Umur'un ölümü, Cüneyd Bey'in tek başına hâkimiyeti",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "aydin"
+   ]
+  },
+  "gerekce": "beyliğin tek hâkimi (8 yerleşim); Salihli ve Nif (İzmir-Kemalpaşa) noktası YOK — atlastaki 'Kirmasti (M.Kemalpaşa)' BAŞKA yer, kullanılmadı",
+  "kaynak": "TDV cuneyd-bey: 'Alaşehir, Salihli ve Nif'i (Kemalpaşa) aldı'"
+ },
+ {
+  "n": 46,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1419-01-01",
+  "b": "Cüneyd Bey'in Düzmece Mustafa isyanına katılması",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Niğbolu",
+    "Selanik"
+   ]
+  },
+  "gerekce": "Cüneyd o sırada Niğbolu sancakbeyi; Selânik'e kaçtı (aydin kimliği 1419'da 0)",
+  "kaynak": "TDV cuneyd-bey: 'Niğbolu sancak beyliğine tayin' · 'Cüneyd burada da boş durmadı … Mustafa ile Selânik'e kaçtı'"
+ },
+ {
+  "n": 47,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1422-01-01",
+  "b": "Cüneyd Bey'in II. Murad'a destek sözüyle beyliği yeniden ele geçirmesi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "aydin"
+   ]
+  },
+  "gerekce": "beylik topraklarını yeniden ele geçirdi (8 yerleşim)",
+  "kaynak": "TDV cuneyd-bey"
+ },
+ {
+  "n": 48,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1425-06-01",
+  "b": "Cüneyd Bey'in yakalanıp idam edilmesi, kesin Osmanlı ilhakı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Söke",
+    "Kuşadası"
+   ]
+  },
+  "gerekce": "İpsili (Sisam karşısı) noktası YOK → karşı kıyının iki noktası; aydin kimliği 1425-06'da 0",
+  "kaynak": "TDV cuneyd-bey: 'Sisam adası karşısındaki İpsili'ye çekilen Cüneyd … teslim olmak'"
+ },
+ {
+  "n": 49,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1219-01-01",
+  "b": "I. Levon öldü, Zabel'in tahtı büyük bir veraset krizine yol açtı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "veraset krizi, yer yok; 1281 öncesi kimlik 0",
+  "kaynak": "madde kaynağı: Ghazarian 2000"
+ },
+ {
+  "n": 50,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1226-01-01",
+  "b": "Hetum I kral oldu, Hetumid hanedanı başladı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "hanedan değişimi, yer metinde yok",
+  "kaynak": "madde kaynağı: Der Nersessian"
+ },
+ {
+  "n": 51,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1226-06-01",
+  "b": "Sis ve Tarsus darphaneleri gümüş dram sikkelerini bastı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Tarsus"
+   ]
+  },
+  "gerekce": "iki darphane: Sis + Tarsus; Sis (Kozan) noktası YOK → Tarsus. NOKTA İHTİYACI: Sis",
+  "kaynak": "madde kaynağı: Bedoukian"
+ },
+ {
+  "n": 52,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1243-01-01",
+  "b": "Moğol kumandanı Baycu ile ön anlaşma",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "ön anlaşmanın yeri yok",
+  "kaynak": "madde kaynağı: Stewart 2001"
+ },
+ {
+  "n": 53,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1251-01-01",
+  "b": "Korikos deniz kalesi Hetum I döneminde genişletildi",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    36.463,
+    34.15
+   ]
+  },
+  "gerekce": "yk~ Korikos = Kızkalesi (Erdemli); nokta yok. ⚠️ yer_kon devlet sekmesinde OKUNMAZ",
+  "kaynak": "madde kaynağı: Edwards (Dumbarton Oaks) · konum YAKLAŞIK"
+ },
+ {
+  "n": 54,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1256-01-01",
+  "b": "Toros Roslin'in ilk imzalı minyatürlü İncil'i",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    37.27,
+    37.857
+   ]
+  },
+  "gerekce": "yk~ Hromkla = Rumkale (Halfeti); nokta yok. ⚠️ yer_kon devlet sekmesinde OKUNMAZ",
+  "kaynak": "madde kaynağı: Der Nersessian · konum YAKLAŞIK"
+ },
+ {
+  "n": 55,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1260-01-01",
+  "b": "Ayn Câlût sonrası Memlük akınları başladı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "akınların hedefi krallığın tamamı; tek yer yok",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 56,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1260-06-01",
+  "b": "Sparapet Sempat, Antakya hukuk kodeksini Ermeniceye çevirdi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "çevirinin yapıldığı yer yok",
+  "kaynak": "madde kaynağı: ⚠️ 'Sophene Books akademik dizi özeti' — kaynak niteliği koordinatörce bakılmalı"
+ },
+ {
+  "n": 57,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1266-08-24",
+  "b": "Mari Bozgunu — Memlük akını Kilikya'yı yakıp yıktı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus",
+    "Yumurtalık"
+   ]
+  },
+  "gerekce": "Mari mevkii yeri belirsiz; yağmalanan Adana, Tarsus, Ayas (Mamistra noktası yok)",
+  "kaynak": "madde kaynağı: Stewart 2001; Ghazarian 2000"
+ },
+ {
+  "n": 58,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1270-10-28",
+  "b": "Hetum I öldü, III. Levon tahta çıktı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Adana",
+    "Tarsus"
+   ]
+  },
+  "gerekce": "ölüm yeri yok; 1281 öncesi",
+  "kaynak": "madde kaynağı: Der Nersessian"
+ },
+ {
+  "n": 59,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1289-01-01",
+  "b": "III. Levon zehirlendi, II. Hetum tahta geçti",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "zehirlenme yeri yok (1289: 2 yerleşim)",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 60,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1293-04-01",
+  "b": "II. Hetum tahttan çekildi, Fransisken keşiş oldu",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "tahttan çekilme; manastır Mamistra'da (noktası yok) — olayın özü tahttan çekilme",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 61,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1296-01-01",
+  "b": "Sempat, kardeşlerini alaşağı etti: Toros boğduruldu, Hetum kör edildi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "saray darbesi, yer yok",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 62,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1308-01-01",
+  "b": "Adana Konsili: 1307 kilise birliği reddedildi",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Adana"
+  },
+  "gerekce": "Adana Konsili",
+  "kaynak": "madde kaynağı: Council of Sis literatürü"
+ },
+ {
+  "n": 63,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1308-06-01",
+  "b": "Oşin, Bilarga'yı yenip tahta çıktı",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "taht mücadelesi, muharebe yeri yok",
+  "kaynak": "madde kaynağı: Stewart 2001"
+ },
+ {
+  "n": 64,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1320-07-20",
+  "b": "Oşin öldü, IV. Levon tahta geçti",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "ölüm yeri yok",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 65,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1325-01-01",
+  "b": "Ayas limanı yeniden inşa edildi",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Yumurtalık"
+  },
+  "gerekce": "Ayas = Yumurtalık (TDV dulkadirogullari parantezi)",
+  "kaynak": "madde kaynağı: Orient dergisi makalesi · eşleme: TDV dulkadirogullari"
+ },
+ {
+  "n": 66,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1337-01-01",
+  "b": "Ayas limanı Memlüklerin eline geçti",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Yumurtalık"
+  },
+  "gerekce": "Ayas = Yumurtalık",
+  "kaynak": "madde kaynağı: Orient dergisi makalesi"
+ },
+ {
+  "n": 67,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1342-01-01",
+  "b": "Guy de Lusignan, II. Konstantin adıyla taç giydi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "taç giyme yeri metinde yok",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 68,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1344-04-17",
+  "b": "II. Konstantin bir ayaklanmada öldürüldü",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "kilikya-ermeni"
+   ]
+  },
+  "gerekce": "isyan yeri yok",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 69,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1375-06-01",
+  "b": "Kilikya Ermenilerinin Kıbrıs'a göçü",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Lefkoşa",
+    "Magosa"
+   ]
+  },
+  "gerekce": "göçün varış yeri Kıbrıs Krallığı (kilikya-ermeni künyesi 1375-04-14'te bitiyor)",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 70,
+  "dosya": "kronoloji_anadolu.js",
+  "t": "1382-10-01",
+  "b": "VI. Levon Kahire esaretinden fidyeyle kurtuldu",
+  "olc": "BEYANLI",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Kahire"
+  },
+  "gerekce": "esaret ve fidyeyle serbest bırakılış Kahire'de",
+  "kaynak": "madde kaynağı: Bournoutian 2006"
+ },
+ {
+  "n": 71,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1351-12-11",
+  "b": "I. Lajos'un büyük yasası — soylu ayrıcalıklarının genelleştirilmesi ve 'aviticitas'",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "macaristan"
+   ]
+  },
+  "gerekce": "krallık çapında yasa (28 yerleşim)",
+  "kaynak": "madde kaynağı: Engel 2001"
+ },
+ {
+  "n": 72,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1404-04-06",
+  "b": "Placetum regium — kraliyet onayı olmadan papalık fermanlarının yürürlüğe girmemesi",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "macaristan"
+   ]
+  },
+  "gerekce": "krallık çapında kilise hukuku (29 yerleşim)",
+  "kaynak": "madde kaynağı: Engel 2001"
+ },
+ {
+  "n": 73,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1471-01-01",
+  "b": "Fekete Ordu'nun (Fekete Sereg) daimi ücretli ordu olarak kurumsallaşması",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_kimlik": [
+    "macaristan"
+   ]
+  },
+  "gerekce": "krallığın daimî ordusu (31 yerleşim)",
+  "kaynak": "madde kaynağı: Engel 2001"
+ },
+ {
+  "n": 74,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1657-01-01",
+  "b": "II. Rákóczi György'nin talihsiz Lehistan seferi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_kimlik": [
+    "erdel",
+    "lehistan"
+   ]
+  },
+  "gerekce": "iki taraf: Erdel ordusu Lehistan'da imha edildi (23 yerleşim)",
+  "kaynak": "madde kaynağı: Kontler 2002"
+ },
+ {
+  "n": 75,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1678-09-13",
+  "b": "Thököly İmre'nin Kuruc hareketinin başına geçmesi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Kassa (Košice)",
+    "Eperjes (Prešov)",
+    "Munkács (Mukacheve)",
+    "Ungvár (Uzhhorod)"
+   ]
+  },
+  "gerekce": "Kuruc hareketi Kuzey-Doğu Macaristan'da (orta-macar-kralligi kimliği 1678'de 0 — künye 1682'de başlıyor)",
+  "kaynak": "TDV tokoli-imre (maddenin kendi alıntısı)"
+ },
+ {
+  "n": 76,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1720-01-01",
+  "b": "Bácska ve Bánát'a Alman (Schwaben) göçmenlerin iskânının başlaması",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Baç (Bács)",
+    "Varadin (Petrovaradin)",
+    "Temeşvar",
+    "Lugos (Lugoj)"
+   ]
+  },
+  "gerekce": "iskân Bácska ve Bánát'ta",
+  "kaynak": "madde kaynağı: Evans 2006"
+ },
+ {
+  "n": 77,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1738-01-01",
+  "b": "Büyük veba salgınının Güney Macaristan'ı vurması",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Baç (Bács)",
+    "Varadin (Petrovaradin)",
+    "Temeşvar",
+    "Lugos (Lugoj)"
+   ]
+  },
+  "gerekce": "salgın Bánát ve Bácska'yı vurdu",
+  "kaynak": "madde kaynağı: Evans 2006"
+ },
+ {
+  "n": 78,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1831-08-01",
+  "b": "Doğu Slovakya kolera isyanı",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Kassa (Košice)",
+    "Eperjes (Prešov)",
+    "Ungvár (Uzhhorod)"
+   ]
+  },
+  "gerekce": "isyan Doğu Slovakya / Kuzey-Doğu Macaristan'da",
+  "kaynak": "madde kaynağı: Kontler 2002"
+ },
+ {
+  "n": 79,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1850-01-01",
+  "b": "Bach döneminin merkezîleştirici idaresinin kurulması",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Budin",
+    "Peçuy",
+    "Eğri",
+    "Debrecen",
+    "Segedin (Szeged)",
+    "Kassa (Košice)"
+   ]
+  },
+  "gerekce": "Macaristan çapında idare; macaristan(-habsburg) kimliği 1850'de 0 yerleşim (atlas bu toprağı 'avusturya' çiziyor) → Macaristan merkezleri. Erdel, Banat ve Hırvatistan Bach döneminde AYRI taç toprağıydı, kutuya alınmadı",
+  "kaynak": "madde kaynağı: Kontler 2002"
+ },
+ {
+  "n": 80,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1854-03-02",
+  "b": "Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması",
+  "olc": "BEYANLI",
+  "sinif": "C",
+  "alan": {
+   "odak_yer": [
+    "Budin",
+    "Peçuy",
+    "Eğri",
+    "Debrecen",
+    "Segedin (Szeged)",
+    "Kassa (Košice)"
+   ]
+  },
+  "gerekce": "Macaristan çapında tazminat düzenlemesi; kimlik 1854'te 0 yerleşim",
+  "kaynak": "madde kaynağı: Evans 2006"
+ },
+ {
+  "n": 81,
+  "dosya": "kronoloji_macaristan.js",
+  "t": "1878-01-01",
+  "b": "Avusturya-Macaristan Gümrük ve Ticaret Birliği'nin on yıllık yenilenmesi",
+  "olc": "BEYANLI",
+  "sinif": "B",
+  "alan": {
+   "odak_kimlik": [
+    "habsburg",
+    "macaristan-habsburg"
+   ]
+  },
+  "gerekce": "iki taraf: Avusturya + Macaristan gümrük birliği (53 yerleşim)",
+  "kaynak": "madde kaynağı: Kontler 2002"
+ },
+ {
+  "n": 82,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1788-01-01",
+  "b": "Yılan Adası (Fidonisi) deniz muharebesi",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    45.255,
+    30.204
+   ]
+  },
+  "gerekce": "yk~ Yılan Adası (Fidonisi); atlasta nokta yok",
+  "kaynak": "TDV cezayirli-gazi-hasan-pasa: 'Ağustos 1788'de yapılan Yılan Adası Muharebesi' · konum YAKLAŞIK"
+ },
+ {
+  "n": 83,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1789-06-07",
+  "b": "Koca Yûsuf Paşa'nın sadâretten azli",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Rusçuk"
+   ]
+  },
+  "gerekce": "azlin yeri kaynakta YOK; sadrazam Nisan 1789'da Rusçuk'taydı → kamera tercihi (yer_id DEĞİL)",
+  "kaynak": "TDV yusuf-pasa-koca: 'Rusçuk'ta bulunan Yûsuf Paşa vazifesinde ibkā edildiyse de' · '(7 Haziran 1789)'"
+ },
+ {
+  "n": 84,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1789-08-01",
+  "b": "Fokşani bozgunu",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    45.697,
+    27.186
+   ]
+  },
+  "gerekce": "yk~ Fokşani kasabası; atlasta nokta yok",
+  "kaynak": "TDV yusuf-pasa-koca: '1 Ağustos 1789'da Fokşan'da' · konum YAKLAŞIK"
+ },
+ {
+  "n": 85,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1789-09-22",
+  "b": "Rimnik (Boze) bozgunu",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Rimnik-i Sârat (Râmnicu Sărat)"
+  },
+  "gerekce": "Remnik (Râmnic) nehri geçişi, Rimnik-i Sârat yöresi",
+  "kaynak": "TDV yusuf-pasa-koca: '22 Eylül'de Remnik nehrini geçerken ve ardından Boza suyu kıyısında'"
+ },
+ {
+  "n": 86,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1790-04-16",
+  "b": "Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_id": "Orsova (Eski Orsova)"
+  },
+  "gerekce": "TDV'nin 'eski Hırsova'sı Çerna suyu kıyısındadır = Eski Orsova (Dobruca'daki Hırsova DEĞİL); atlas noktası da 1790'da avusturya'ya geçiyor",
+  "kaynak": "TDV zistovi-antlasmasi: '16 Nisan'da eski Hırsova … Avusturya kuvvetlerinin eline geçti' · 'Çerna suyunun sağ yakasına kadar … Eski Hırsova'"
+ },
+ {
+  "n": 87,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1790-01-01",
+  "b": "Kalafat çıkarması ve püskürtülmesi",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    43.99,
+    22.94
+   ]
+  },
+  "gerekce": "yk~ Kalafat (Vidin karşısı); nokta yok",
+  "kaynak": "TDV zistovi-antlasmasi: 'Vidin'den hareketle Tuna üzerinden Kalafat'a çıkan' · konum YAKLAŞIK"
+ },
+ {
+  "n": 88,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1791-07-09",
+  "b": "Maçin bozgunu — barışı getiren yenilgi",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    45.245,
+    28.135
+   ]
+  },
+  "gerekce": "yk~ Maçin kasabası; nokta yok",
+  "kaynak": "TDV yas-antlasmasi: 'Maçin'de yaşanan genel bozgun (9 Temmuz 1791)' · konum YAKLAŞIK"
+ },
+ {
+  "n": 89,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1791-06-11",
+  "b": "Yergöğü Mütarekesi'nin sona ermesi — barışın aynı yaza sıkışması",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Yergöğü (Giurgiu)"
+   ]
+  },
+  "gerekce": "mütarekenin SONA ERMESİ bir yerde olmaz → kamera mütarekenin imza yerine (yer_id DEĞİL)",
+  "kaynak": "TDV zistovi-antlasmasi: 'Yergöğü'ndeki sadrazam çadırında … (18 Eylül 1790) … imzalandı'"
+ },
+ {
+  "n": 90,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1790-12-30",
+  "b": "Ziştovi barış konferansının açılışı",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    43.62,
+    25.35
+   ]
+  },
+  "gerekce": "yk~ Ziştovi; nokta yok",
+  "kaynak": "TDV zistovi-antlasmasi: 'Ziştovi (Ziştova) üzerinde karar kılındı' · konum YAKLAŞIK"
+ },
+ {
+  "n": 91,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1791-06-10",
+  "b": "Ziştovi görüşmelerinin kesilmesi — Avusturya heyetinin Bükreş'e çekilmesi",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    43.62,
+    25.35
+   ]
+  },
+  "gerekce": "görüşmeler Ziştovi'de kesildi (Herbert Bükreş'e gitti)",
+  "kaynak": "TDV zistovi-antlasmasi: '10 Haziran'da Bükreş'e çekilerek görüşmelerin kesilmesine yol açtı'"
+ },
+ {
+  "n": 92,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1791-07-18",
+  "b": "Barış müzakerelerinin yeniden başlaması — Herbert'in Ziştovi'ye dönüşü",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    43.62,
+    25.35
+   ]
+  },
+  "gerekce": "heyet Ziştovi'ye döndü",
+  "kaynak": "TDV zistovi-antlasmasi: 'Avusturya heyeti 18 Temmuz'da Ziştovi'ye döndü'"
+ },
+ {
+  "n": 93,
+  "dosya": "olaylar_p0068b.js",
+  "t": "1791-08-31",
+  "b": "Ziştovi tasdiknâmelerinin merasimle mübadelesi",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    43.62,
+    25.35
+   ]
+  },
+  "gerekce": "mübadele Ziştovi'de. ⚠️ TDV İKİ madde İKİ gün veriyor (yas: 31 Ağustos · zistovi: 23 Ağustos) — tarih alanına DOKUNULMADI, rapor edildi",
+  "kaynak": "TDV yas-antlasmasi: 'Ziştovi'deki Osmanlı heyeti, 1 Muharrem 1206'da (31 Ağustos 1791) … tasdiknâmelerini mübadele ettikten sonra' · TDV zistovi-antlasmasi: '23 Ağustos'ta yine merasimle Ziştovi'de mübadele edildi'"
+ },
+ {
+  "n": 94,
+  "dosya": "olaylar_p0917taraf.js",
+  "t": "1886-01-01",
+  "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Medenîn",
+    "Trablus"
+   ]
+  },
+  "gerekce": "sınırın kıyı kesimi Tunus-Trablusgarp arası; iki yakanın atlas noktaları (Ras Ecdir yakını nokta yok)",
+  "kaynak": "IBS 121 (1972) — maddenin kaynağı"
+ },
+ {
+  "n": 95,
+  "dosya": "olaylar_p0917taraf.js",
+  "t": "1892-01-01",
+  "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Medenîn",
+    "Nâlût",
+    "Ğadâmis"
+   ]
+  },
+  "gerekce": "sınır kıyıdan Gadames'e",
+  "kaynak": "IBS 121 (1972) — maddenin kaynağı"
+ },
+ {
+  "n": 96,
+  "dosya": "olaylar_p0917taraf.js",
+  "t": "1906-10-01",
+  "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Gazze",
+    "Tûr (Sînâ)",
+    "Maan"
+   ]
+  },
+  "gerekce": "Refah-Taba hattı; Refah, Taba, Akabe noktası YOK → kutu hattın iki ucunu içine alır",
+  "kaynak": "RIAA XX (1988) Taba hakem kararı — maddenin kaynağı"
+ },
+ {
+  "n": 97,
+  "dosya": "olaylar_p0063.js",
+  "t": "1734-05-31",
+  "b": "Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend verilmezse Osmanlı ile anlaşacak",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Derbend",
+    "Bakü"
+   ]
+  },
+  "gerekce": "görüşmenin yeri kaynakta yok; konu Hazar eyaletleri ve Derbend → kamera konu yerine (yer_id DEĞİL)",
+  "kaynak": "Salamova 2007 — maddenin kaynağı"
+ },
+ {
+  "n": 98,
+  "dosya": "olaylar_p0063.js",
+  "t": "1738-08-17",
+  "b": "Adakale'nin Avusturya'dan alınışı",
+  "olc": "ODAKSIZ",
+  "sinif": "A",
+  "alan": {
+   "yer_kon": [
+    44.717,
+    22.456
+   ]
+  },
+  "gerekce": "yk~ Adakale (Tuna adası, bugün baraj altında); nokta yok",
+  "kaynak": "TDV mahmud-i--osmanli: '17 Ağustos 1738'de Adakale alındı' · konum YAKLAŞIK"
+ },
+ {
+  "n": 99,
+  "dosya": "olaylar_ek4.js",
+  "t": "1816-09-01",
+  "b": "İbrâhim Paşa Necid seferine çıktı",
+  "olc": "ODAKSIZ",
+  "sinif": "Ø",
+  "alan": {},
+  "gerekce": "İŞ YOK — ölçer YANLIŞ POZİTİFİ: madde zaten odak_kimlik:\"suud-birinci\" (DİZGİ) taşıyor; app.js dizgiyi listeye çevirir (app.js:11740) ve 1816-09-01'de 11 yerleşimlik kutu kurar. odak_olc.py:156 yalnız LİSTE kabul ettiği için ODAKSIZ sayıyor",
+  "kaynak": "ölçüm: -kimlik.js 1816-09-01 suud-birinci → n=11"
+ },
+ {
+  "n": 100,
+  "dosya": "olaylar_p0057b.js",
+  "t": "1431-01-01",
+  "b": "Bugüne ulaşan en eski tahrir defteri — Arvanid Sancağı Defteri",
+  "olc": "ODAKSIZ",
+  "sinif": "B",
+  "alan": {
+   "odak_yer": [
+    "Ergiri (Ergirikasrı)"
+   ]
+  },
+  "gerekce": "defter Arvanid sancağının; sancak merkezi Ergirikasrı (arvanid-sancagi kimliği 1431'de 0 yerleşim)",
+  "kaynak": "TDV tahrir: '835 (1431) tarihli Arvanid Sancağı Defteri' · TDV arnavutluk: 'sancak merkezi olan Ergirikasrı'"
+ }
+]
