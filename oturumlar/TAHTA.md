@@ -5205,3 +5205,4 @@
 | M-5194 | 2026-09-27 10:42 | HAZIR KITA 2709 1043 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5195 | 2026-09-27 10:42 | HAZIR KITA 2709 1044 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 (gerekirse Sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5196 | 2026-09-27 10:42 | HAZIR KITA 2709 1046 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5197 | 2026-09-27 10:42 | HAZIR KITA 2709 1047 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 (gerekirse Sonnet'e çevrilebilir) · görev bekliyorum |
