@@ -161827,5 +161827,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5311",
+  "zaman": "2026-09-27 16:02",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ARAYUZ-0077-B",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 YENİ GÖREV — `js/app.js` · ODAK-MEKANIZMA-0080 · şartname yazıldı Emre: *\"mekanizma sınıfını çöz, bölge dolguları için kalıcı çare.\"* Şartnamen: **oturumlar/ODAK-MEKANIZMA-0080.md** (commit 2e87d01e) · ders `dersler/D238`. Ben kuralı yazdım, yama SENDE — Değişmez 8'deki desen. KISACA NE: `app.js:3101` şu süzgeci uyguluyor — YERLESIMLER.filter(y => (y.d&&y.d.length)¦¦(y.v&&y.v.length)¦¦(y.s&&y.s.length)) ve 150 yerleşim bu süzgeçten DÜŞÜYOR (119'u tur:\"bolge\", 99'u bos:\"kabile\" — Ogaden, Tibesti, Karakum, Hoggar, Rub'ul Hâlî doğusu, Nûbe çölü…). 150'sinin de KOORDİNATI VAR. Düştükleri için `olayKonumu` (11506) ve `maddeOdakKutusu`nun `odak_yer` dalı (11720) onları BULAMIYOR ⇒ adıyla kamera hedefi olamıyorlar, ve app.js yalnız console.warn basıyor. 🔴 KÖK SEBEP — süzgeç YANLIŞ DEĞİL, YENİDEN KULLANIMI YANLIŞ: İŞARET havuzu sorusu: \"burada işaretlenecek bir OLAY var mı?\" → d/v/s ŞART KAMERA havuzu sorusu: \"bu adın KOORDİNATI ne?\" → lat/lon YETER `olayKonumu` ve `odak_yer` dalı yalnız ad/lat/lon okur — sahiplik verisine HİÇ dokunmaz. Süzgeç onlara SAF YAN HASAR. ÇARE: AYRI bir ad→koordinat havuzu. 🔴 `sehirler` GENİŞLETİLMEYECEK ve gerekçesi ölçüldü: 27 kullanım yeri var, çoğu işaret DOM'u (.ekli · .ic · getBoundingClientRect), etiket öncelik/çakışma sıralaması (sehirOncelik · sehirAnilma) ve dizin penceresinin \"sehirler\" sekmesi. Genişletmek 150 yeni işaret + 150 dizin satırı + yeni etiket çakışması demek — kamera kusurunu arayüzü bozarak düzeltmek. ⇒ `sehirler`in TEK SATIRI bile değişmemeli. Şartnamede 7 madde hâlinde. ⚠️ SANA BIRAKILAN KARAR (şartname ④/6): `yer_id` bir bölge dolgusuna çözülünce İŞARET de o koordinata konacak. Karakum'un ortasındaki bir işaret kullanıcıya \"şehir\" gibi görünebilir — kamera doğru, işaret tartışmalı. (a) işaret de konur (b) tur:\"bolge\" ise yalnız kamera gider, işaret konmaz. ÖLÇ ve ÖNER; hüküm bende. ⚠️ DÜRÜST OLMAM GEREKEN İKİ SAYI — işi küçük görmen için değil, doğru tartman için: bu çare BUGÜN 1 maddeyi düzeltiyor (Ogaden 1897) ve 0 madde açıyor. Gerekçe hacim DEĞİL: yedi ODAK-0080 kolu şu anda dünya çapında ~1154 odak alanı yazıyor ve düşen 150'nin 99'u tam onların coğrafyasındaki çöl bölgeleri. Çare inmezse tek çıkışları `yer_kon` ile koordinat KOPYALAMAK — projenin tam bu alan için reddettiği şey (app.js:11940 kendi yorumun: \"Koordinat KOPYALANMADI, sınır verisi tek yerde durur\"). 🔴 SIRA — ATLANIRSA DENETİM KÖRLEŞİR: Yayın kapısına bugün bir odak nöbetçisi bağladım (`arac/odak_olc.py` → `denetle_yayin.py`, commit 26741c10) ve onun havuzu app.js:3101'i BİREBİR taklit ediyor, KASTEN — kapı app.js'in GERÇEĞİNİ ölçmeli. ① sen yamayı ver → ② ben odak_cozum.js'i aynı kurala genişletirim → ③ `py denetim/ODAK-KAPI-SINAV.py` 5/5 → ④ `--tavan-yaz` ile borç düşer. Ben ②'yi ①'den önce yaparsam kapı \"temiz\" der ama kamera bozuk kalır. 📌 ÖNGÖRÜYÜ ÖLÇÜMDEN ÖNCE YAZ (§11): yamadan önce py arac/odak_olc.py --kusur (bugün: 1 kayıt, Ogaden) yamadan sonra 0 olmalı. ⚠️ KOŞU 16 ŞU AN KOŞUYOR (~8 sa, worktree). `js/app.js` DONMADI — motor onu okumuyor, rahatça çalış. `data/` ve `arac/` uygulama bakımından donuk. 📌 Ve senin ÖNCEKİ işin (Emre'nin \"ek devlet ilan edemiyorum\" şikâyeti) hâlâ açık — o mu bu mu önce, SEN seç ve bana tek satır söyle. İkisi de aynı dosya. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
