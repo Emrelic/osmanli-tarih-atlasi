@@ -37,10 +37,27 @@ olan dizin değil, İÇİNDEKİ VERİYDİ.
 Gereksiz: girdiler salt okunur ve aynı birimdeler (C:). Sert bağ anında
 kurulur ve sıfır disk yer:
 
+🆕 **27 Eylül 2026 — ELLE YAPILMIYOR ARTIK, ALETİ VAR:**
+```bash
+py arac/kosu_girdi_bagla.py <worktree-yolu>            # kuru koşu
+py arac/kosu_girdi_bagla.py <worktree-yolu> --uygula   # bağları kurar
+```
+Alet **neyin bağlanacağını ELLE TUTMAZ, git'e SORAR**
+(`git ls-files --others --ignored --exclude-standard -- veri-kaynak`) ⇒ yeni
+bir izlenmeyen girdi eklendiğinde aleti güncellemek gerekmez. Elle tutulan
+liste bu projede üç kez bayatladı (`CLAUDE.md §5`, aynı aile).
+Ayrıca: aynı birimde mi diye bakar · boyutu tutmayan bağı KURMAZ ve
+**çıkış kodu 1 verir** — çünkü *boyutu tutmayan bir girdi, olmayan girdiden
+tehlikelidir: motor "yarım" der, "yok" demez.*
+Ölçüldü (ilk kuru koşu): 6 dosya · 896 MB.
+
+<details><summary>Elle hâli (aletin yaptığı şey)</summary>
+
 ```powershell
 New-Item -ItemType HardLink -Path C:\atlas-kosu15\veri-kaynak\yukseklik\etopo2022_30s_dunya.tif `
                              -Target C:\atlas\veri-kaynak\yukseklik\etopo2022_30s_dunya.tif
 ```
+</details>
 ⚠️ Sert bağ AYNI BİRİMDE olmak zorundadır ve dosya YAZILIRSA iki taraf da
 değişir. Bu girdiler için doğru (motor onları okur, yazmaz); **çıktı
 dosyalarına asla uygulanmaz.**
