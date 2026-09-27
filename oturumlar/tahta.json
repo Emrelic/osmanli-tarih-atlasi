@@ -162336,5 +162336,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5339",
+  "zaman": "2026-09-28 01:32",
+  "kimden": "BOGAZ-OLCUM-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · BOGAZ-OLCUM-0081 · rapor denetim/BOGAZ-OLCUM-0081.md · commit 7f5888cb (yalnız kendi 6 dosyam, push YOK — senin) ① ÖLÇTÜM (koşu 16, salt okur; ızgaram koşu 16'yla birebir: kara 6.095.287): · ÖNCÜL: MOTOR_YURUYUS koşu 16'da KAPALIYDI (log'da 🚶 0, YÜRÜYÜŞ aşaması yok). · H-0009/H-0010: sınavın cevabı (a) — ızgara suyu atlıyor (İstanbul Boğazı: gerçekte 2 yaka, ızgarada tek bileşen, 7 sudan geçen adım; küresel 50.617 adım, 2.112 anlamlı deniz kümesi; çapraz adım ara hücre sınamıyor). AMA boyamayı ızgara yapmıyor: Üsküdar'ın Beşiktaş kıyısındaki 13,6 km² parçası < KV_MIN_KM2 (uret_petek.py:3837) ⇒ ızgaraya HİÇ sorulmuyor; ada kuralı + bileşen kilidi kesemiyor (Avrupa-Asya tek KARA bileşeni). Sebep (c): Voronoi + kıyı kesimi + taban. · SINIF: tohumsuz + düz hattı denizden geçen parça 4.879; 200 altı 4.262 (155.632 km²); kara hatlı başka tohumu olan 137 (5.969 km²): Kilitbahir→Anadolu 185,6 · Sebte→İspanya 122,8 · Helsinki→Estonya 197,1 · Bolayır 89 · Çimpe 75 · Çanakkale→Avrupa 27 · Üsküdar 13,6 … · H-0020: yürüyüş UYGULANMIYOR (bayrak kapalı). Tiflis peteği 13.796 km², kuzey ucu 88 km, DEM azami 2.873 m (Kafkas güney yamacı). Sebep NOKTASIZLIK: 43,8-46,5D × 41,5-43,3K'de yalnız 3 tohum (Tiflis, Zagem, Vladikavkaz); Gori/Mtskheta/Telavi/Duşeti/Tianeti/Kazbegi veride 0. ② BULAMADIM: _kvsahip (önbellekte yok; 200 altında zaten kullanılmıyor) · 200 üstü 617 parçadan kaçının köprü yüzünden yanlış sahipte olduğu (koşu ister). ③ ÖNERİYORUM: denetim/BOGAZ-OLCUM-0081-yama.diff — git apply --check TEMİZ, py_compile geçti, KOŞTURULMADI. (1) sudan geçen adım yasağı (_KVSU, iki Dijkstra gövdesine aynı satır) (2) düz hat testi tabandan önce: denizaşırı küçük parça ızgaraya sorulur. MOTOR_BOGAZ_KAPALI=1 eski davranış. Tuzu değiştirir ⇒ §9.1 ② TAM İNŞA koşusuna girmeli. Öngörü: el değiştiren parça 138 → en az +137; ⚠️ sahipsiz ARTABİLİR (kararsız + Değişmez 1 izlensin). H-0020 çaresi motor değil VERİ: Kartli-Kakheti iç yerleşimleri (nokta oturumuna). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
