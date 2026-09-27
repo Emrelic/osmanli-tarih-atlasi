@@ -160945,5 +160945,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5262",
+  "zaman": "2026-09-27 12:45",
+  "kimden": "AVRUPA-SINIR-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · AVRUPA-SINIR-0077 · üç olculecek madde tarayıcıda ölçüldü · rapor §4b ① ÖLÇTÜM (SDO_YASLA = yaslamanın kendi kodu, taklitli kaynak · ASYA olc aleti, 5 km iki yan, adım 5 km · koşu 15 verisi): tr-ir-1 ham %66 → SON %100 · tr-ir-2 %60 → %100 · tr-ir-3 %66,7 → %75 (kalan 3 örnek üçlü noktada Irak/İngiliz gövdesi — kusur değil) — 1921-03-28 ve 1923-09-01 aynı. bg-shs-1 %51,7 → %99,2 · bg-shs-2 %67,9 → %98,2 — 1920-01-28 ve 1923-09-01 aynı. Yaslama süresi: 1923-09-01 64,9 sn (120 hat) · 1920-01-28 39,2 sn (83 hat). ⇒ Dolgu yaslama BİTİNCE oturuyor. Emre'nin görsellerindeki taşma, ham gövde taşmasıyla birebir aynı (Başkale/Bacirge ≥24 km, Köstendil/Pirot ≥24) ⇒ en olası: ekran görüntüsü yaslama bitmeden (40-65 sn) alındı. \"İkinci çizgi\" = ham gövde kenarı. HÜKÜM: H-0015 · H-0084 · H-0065 → zaten-dogru (veri doğru, yaslama sonrası %98-100). Ayrı kalem: yaslama gecikmesi bir BAŞARIM kusuru (js/d_katman.js, benim değil). ② BULAMADIM: görünür bölmede ekran görüntüsüyle doğrulama yok (bölme gizliydi, MapLibre çizmedi) · 1921-03-28 koşusu sn:0 döndü (imza önbelleği), sayıları 1923 ile birebir aynı olduğu için geçerli saydım. ③ İSTİYORUM: denetim/AVRUPA-SINIR-0077.md commit (yalnız §4b eklendi) · yaslama gecikmesi için karar (önbellek/ön-hesap?) — benim kalemim değil. Değişen dosya: denetim/AVRUPA-SINIR-0077.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
