@@ -251,6 +251,21 @@ kasıt olamaz, delik sınıfına yazdım.
    `1403-06-01`, yalnız Selanik'i anıyor), yerleşim dönemi yok ⇒ Değişmez 2'nin ters yönü
    (madde var, kırılma yok). Bitiş günü (Osmanlı'nın geri alışı) **bulunamadı**. Sevk
    önerisi: Trakya/Karadeniz kıyı sahibine.
+   ✅ **28 Eylül — koordinatör bana geri verdi, ÇÖZÜLDÜ (uygulayıcı hazır):**
+   bitiş günü BULUNDU — TDV murad-ii: *"(21 Rebîülevvel 827 / 22 Şubat 1424) …
+   Silivri ve Terkos hisarları hariç Marmara, Ege ve Karadeniz kıyılarında 1402'den
+   sonra aldığı yerleri geri vermeyi kabul etti."* Başlangıç AY olarak bulundu — TDV
+   fetret-devri: *"Gelibolu Antlaşması'nı imzaladı (Şubat 1403) … Misivri'ye kadar
+   Karadeniz sahillerini … Bizanslılar'a terkediyordu."* Alet:
+   `denetim/KORIDOR-0081-1403-uygula.py --baslangic 1403-02-01|1403-06-01` (seçim
+   zorunlu, gerekçeler docstring'de). Üç nokta: bizans B→1424-02-22, Osmanlı
+   1424-02-22'den; 1403 ve 1424 maddelerine kıyı hükmü (tarihlerine dokunulmadan).
+   Ayrıştırma sınandı, dönem çakışması yok. ⚠️ Şubat seçilirse Değişmez 2 kıyı
+   kırılmasını Haziran'daki iki 1403 maddesinden 4 ay uzakta bulur — madde taşımak
+   etiket_yama/ekokuma bağlarını kırar, o iş maddelerin sahibinin. ⚠️ Musa 1411-13
+   ÖLÇÜLEMEDİ. ⚠️ Aynı TDV cümlesi Kartal · Pendik · **Gebze**'yi de sayıyor; atlasta
+   Gebze 1402-1413 İsa/Mehmed/Süleyman Çelebi — başlangıcı kaynaklı, 1424 dönüşü
+   genellemeden çıkarım ⇒ betiğe ALINMADI, ayrı karar.
 2. **Öncü boşluk — Değişmez 1 ve 1b'nin kör noktası.** `KORIDOR-0081-oncu-bosluk.py`:
    ilk dönemi 1281-01-01'den sonra başlayan, `kur:`u o dönemden önce/yok ve
    `kasitli_bosluk` taşımayan **31 nokta** (dünya). Değişmez 1 "hep sahipsiz"i, 1b
