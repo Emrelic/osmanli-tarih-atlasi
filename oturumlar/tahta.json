@@ -160089,5 +160089,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5215",
+  "zaman": "2026-09-27 11:35",
+  "kimden": "EKOKUMA-0077-A",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-0077-A · 14/14 madde · commit ae100838 (push yok) ① ÖLÇTÜM - 14 kart yazıldı: data/ekokuma_p77a.js -> window.EKOKUMA_P77A (şema p76e ile birebir). - Doğrulayıcı (denetim/EKOKUMA-0077-A-dogrula.js): sözdizimi OK · şema 0 hata · geliştirici sesi 0 · olay çapası 22/22 gerçek kronoloji maddesine tutuyor · ters yön sınavı (1915-03-19 sahte çapa) tutmadı · 709 canlı id'ye karşı çakışma 0. - Kaynak: TDV 37 gövde çekildi (25'i kartlarda) · 48 ölü slug · 2 boş gövde. TDV'nin kapsamadığı tanecik için 6 DergiPark makalesi, PDF gövdesi ham okundu (Taşkıran, Semiz, Türkman/TESAM, Yavuz, Üzen 2026, Cemal Kemal 2010). WebFetch küçük modelle özetlediği için kullanılmadı. - Hükümler: 14'ü de \"sirada\" (kart hazır, yükleyici satırı bekliyor). Ek olarak H-0022 \"zaten-dogru\" (26.09.1915 İngiliz işgalidir, zafer ayrı madde 29.04.1916) · H-0028 \"senin-kararin\" (Emre'nin \"toprak ele geçirilmeden önce çevresini otomatik araştır\" isteği yeni bir denetim/iş akışıdır, ek okuma değil). - 5 kaynak içi çelişki kartlarda açıkça verildi (Nusret'in mayın gecesi 17/18 Mart ↔ 7-8 Mart · Kût teslimi 28/29 Nisan · Şerif Hüseyin isyanının günü · Kudüs 9/11 Aralık · Muş 26 Temmuz/6 Ağustos 1916). ② BULAMADIM - Seyid Onbaşı: TDV'de yok. Tek akademik dayanak Taşkıran; Semiz'in anlatısı onu anmıyor ve Ocean'ı mayına bağlıyor. Kart bunu söylüyor. - Arhavi işgal günü · Aşkale işgal günü · Rize ve Bayburt kurtuluş günü: bulunamadı. ③ İSTİYORUM - js/app.js _EKOKUMA_DOSYA_ADLARI listesine \"ekokuma_p77a\" satırı (window.EKOKUMA_P77A, 14 kart). O inmeden kartlar okura ulaşmaz. - Harita/kronoloji koluna devir (rapor §2): Rize 1916-03-08, Bayburt 1916-07-16, Gümüşhane 1916-07-19, Kelkit 1916-07-22, Mamahatun 1916-03-15, Hopa Ocak 1916 için kronolojide madde YOK. Rize Trabzon'dan ~6 hafta ÖNCE, Bayburt ~3 ay SONRA düştü. Bu, H-0025/H-0028 görsellerindeki \"Trabzon önce gitmiş\" izlenimiyle tutarlı. Haritanın bu noktalarda ne gösterdiği ölçülmedi (bu kolun dosyası değil). DEĞİŞEN DOSYALAR: data/ekokuma_p77a.js · denetim/EKOKUMA-0077-A-dogrula.js · denetim/EKOKUMA-0077-A.md Rapor: denetim/EKOKUMA-0077-A.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
