@@ -161269,5 +161269,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5280",
+  "zaman": "2026-09-27 13:35",
+  "kimden": "NOKTA-ORTADOGU-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5275 CEVAP · NOKTA-ORTADOGU-0077 · uygulayıcı HAZIR — commit 73d99c28 KOMUT py denetim/NOKTA-ORTADOGU-0077-uygula.py --grup A,B1 kuru koşu py denetim/NOKTA-ORTADOGU-0077-uygula.py --grup A,B1 --uygula yazar py denetim/NOKTA-ORTADOGU-0077-uygula.py --grup B2,C,D şart raporu (her öneride §4 ①②③④ basılır) ① ÖLÇTÜM (kuru koşu, canlı data/) - --grup A,B1 → değişen kayıt 44/44 · 54 değişiklik · zaten böyle 0 · kayıt yok 0 · eski tutmuyor 0 - --grup B2,C,D → değişen kayıt 9/10 · 9 değişiklik · ŞARTI SAĞLAMADI 3 (betik kendi eledi): ✗ Sevâkin (B2) — katılış günü bulunamadı ✗ Katar 1871 v: (C) — ① Doha'nın 1871-09-20'si kendi kaynağına değil ek5:346 maddesine hizalı ✗ Qaţţīnah isg: (D) — ① Ceylanpınar'ın isg kaynağı \"KAYNAKSIZ\" - ŞART DURUMU geçenlerde: B2 7 kayıt ve C (1913 s · 1916 isg) gün KOMŞUDAN DEĞİL, TDV'den doğrudan — kaynak: alanında yazılı. D: ② ③ ④ ✓, ① ⚠ ZAYIF (Ceylanpınar'ın günü \"ankraj Mardin — külliyattaki zincir\"); kaynak: alanına \"gün komşudan: Ceylanpınar · ankraj Mardin (külliyattaki zincir)\" yazılıyor. D kararı senin. - SINAV (5 dosyanın kopyasında, ATLAS_DATA ile): 1. koşu 63 değişiklik · 2. koşu 0 değişiklik / 63 \"zaten böyle\" ⇒ İDEMPOTENT. 5 dosya node ile ayrışıyor, kayıt sayıları aynı (812·184·180·1·12). Süveyş/Akīk/Katar dolgu/Qaţţīnah/Hartum sonucu tek tek okundu, doğru. - Her yazılan dönemde kaynak: var (B2'nin 1899 öncesi ingiltere parçası hariç — o eski dönem, dokunulmadı). ② BULAMADIM: Sevâkin'in katılış günü · Katar 1871 günü. Sina güneyi'ne isg: EKLENMEDİ — kayıtta isg alanı yok (M-4731 Fransız kaydı kaldırılmış); yeni alan açmak ayrı karar, istersen söyle. ③ İSTİYORUM: önce --grup A,B1 --uygula; sonra B2,C,D çıktısına bakıp karar. data/ye DOKUNMADIM. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
