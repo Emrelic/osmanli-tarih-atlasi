@@ -162246,5 +162246,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5334",
+  "zaman": "2026-09-28 01:09",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KORIDOR-0081 ilk teslim (ÖLÇÜT + 10 vaka) · rapor denetim/KORIDOR-0081.md · commit 5d24ffd0 ① ÖLÇTÜM: Emre'nin dört sınıfı 10 vakanın yalnız 4'ünü açıklıyor. Dağılım: ① 2 (H-0018 Pirot 1412 gerçek ada, TDV sehirkoy · H-0029 Braşov/Erdel Belgradı/Segesvar Erdel şehri, TDV erdel) · ② 2 (H-0025 1444 iade maddesi yalnız Semendire'yi anıyor · H-0028 1428 maddesi Niş'i anmıyor, TDV nis) · ③ 0 · ④ 0 · DÖRDÜN DIŞI 6: ⑤ UZAK KAYIT YANLIŞ 4 (H-0007/13 Ahtapolu-Rezve-İğneada 1361 dayanağı \"veri-içi sözleşme\"=atlasın kendisi, D207; Kırklareli/Vize TDV'yle 1369'a düzeldi, kıyı üçlüsü düzelmedi · H-0011 Gümülcine 1363, TDV kendi içinde 1361/1363/1371-öncesi · H-0024 Şehirköy 1443-01-01 yıl kodu haçlıyı İzladi'den 10 ay önce Pirot'a koyuyor) · ⑥ ANAKRONİK VEKİL 1 (H-0008 Uzunköprü: TDV murad-ii Ergene Köprüsü 1443, atlas 1281'den Bizans yazmış) · Ⓑ ÖNCÜ BOŞLUK 1 (H-0030 = 1478 Una-Sava, 6 noktanın fetih öncesi sahibi YOK, motor alanı boş çiziyor; Değişmez 1/1b bu soruyu sormuyor; dünyada 31 nokta). ÖLÇÜT (S0-S4, sıra şart): S0 koridorda nokta var mı (yoksa Ⓝ noktasızlık, kaynak aranmaz) → S1 koridorun o gün sahibi var mı (Ⓑ) → S2 uzak kayıt kaynaklı mı (⑤, koridora dokunulmaz) → S3 koridor o gün var mıydı (⑥, kur: yazılır) → S4 ancak şimdi kaynak: Emre'nin ①②③④ + \"kaynak susuyor ⇒ ① varsayılan, bulunamadı\". Öngörü: ③ en büyük kova sanmıştım, 0 çıktı — YANLIŞ YÖNE: koridorlar kaynaklıydı, kaynaksız olan uzaktaki kayıtlardı. UYGULAYICI denetim/KORIDOR-0081-uygula.py (kuru koşu temiz, --uygula yazar, 4 dosya): yerlesimler_ek29 H-0030 altı noktaya macaristan 1281→1526-08-29 + avusturya →fetih (HE altı madde), Krupa kur:1565 silinir (fetih yılı, kuruluş değil) · yerlesimler_ek24 Uzunköprü kur:1443 · olaylar_serhat 1428'e Niş · olaylar_ek 1444'e iade edilen yerler adıyla. denetle.py KOŞTURULMADI. ② BULAMADIM: Ahtapolu-Rezve-İğneada'nın fetih yılı (TDV slug 302) · Dedeağaç kuruluşu · Orsova'nın Eflak dışı olduğunu adıyla söyleyen TDV cümlesi · \"Örmen\" atlasta nokta yok. YAN BULGU 🔴: TDV suleyman-celebi-emir — 1403 Gelibolu antlaşmasıyla \"Marmara'dan Misivri'ye uzanan sahil toprakları Bizanslılar'a terkedildi\"; atlas kıyıyı 1402-1413 Süleyman/Musa'da gösteriyor. Ayrıca: Priştine 1412 Musa + 1439-44 Osmanlı penceresi eksik · Vidin 1408-13 Konstantin · sirbistan/sirp-despotlugu aynı polity iki kimlik · H-0030 fetih yılları HE ile çelişiyor (Jasenovac/Brod 1536≠1538, Novi 1557≠1556). ③ İSTİYORUM: (1) ölçüt kabulü — kabulse 2. teslim 725'i S0-S3 ile makineyle eler · (2) uygula.py --uygula · (3) 1403 kıyı bulgusunun bir sahibe sevki · (4) Değişmez 1'e öncü boşluk sorusu kararı (denetle.py senin). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
