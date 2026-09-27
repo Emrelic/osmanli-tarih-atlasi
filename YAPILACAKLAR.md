@@ -1119,3 +1119,67 @@ uzun sürdü**. Bugün çalışıyor ama kadro büyüdükçe kötüleşir.
 Betiğin belgesi *"Monitor ile kur, kabuğun arka planına ATMA"* diyor;
 `CLAUDE.md §7.2 ④` *"Bash `run_in_background`, Monitor DEĞİL"* diyor.
 Yürürlükte olan yeni, ama betiği okuyan oturum eskiyi öğrenir. (Bkz. `D236`.)
+
+---
+
+## PAKET ODAK-0080 — kronoloji maddelerinin harita odağı (27 Eylül 2026)
+
+Emre: *"tüm dünyadaki kronoloji maddelerinin harita odağını ayarlayalım,
+konunun içeriğine göre odak noktalarını kronoloji maddesine ayarlayalım."*
+
+Ölçüm aleti: **`py arac/odak_olc.py`** (yeni, `2da7b397`). 7165 madde:
+
+| sınıf | sayı | ne demek |
+|---|---|---|
+| KONUMLU | 5969 | `yer_kon`/`yer_id` var, kamera oraya uçuyor |
+| KUTULU | 28 | `odak_kutu_kaynak`/`odak_yer`/`odak_kimlik` |
+| BEYANLI | 683 | `kapsam_genis:true` — **669'u yabancı dosyada** |
+| 🔴 ODAKSIZ | 485 | hiçbiri yok, kamera kıpırdamıyor |
+
+🔴 **ASIL KUSUR ODAKSIZLIK DEĞİL, BEYANLI-YABANCI.** `app.js:11835`
+`kapsam_genis:true` + odak yok ⇒ kamera `donemler[di].b`ye, yani **o günün
+Osmanlı sınırına** uçar. `kronoloji_japonya.js`te de. 1300 tarihli bir Balkan
+maddesinde kamera **Söğüt'ü** çerçeveler. Odaksızda kamera durur ve panel
+eksikliği YAZAR; burada hiçbir sinyal yoktur — yanlış yer kendinden emin
+gösterilir (`D205` ailesi).
+
+**Yedi kol dağıtıldı** (`be5d3755`, kapsama sınavı 55/55 dosya · 1154/1154
+madde · mükerrer 0):
+
+| kol | yük | dosya |
+|---|---|---|
+| `ODAK-AVRUPA-BATI-0080` | 203 | 13 |
+| `ODAK-DOGU-ISLAM-0080` | 202 | 13 |
+| `ODAK-ASYA-0080` | 196 | 8 |
+| `ODAK-AFRIKA-AMERIKA-0080` | 156 | 7 |
+| `ODAK-1DUNYA-0080` | 152 | 2 |
+| `ODAK-BALKAN-0080` | 145 | 5 |
+| `ODAK-OSMANLI-ANADOLU-0080` | 100 | 7 |
+
+### KOORDİNATÖRDE KALAN KALEMLER
+
+#### ① Uygulayıcı betikleri koştur — `data/` yalnız bende
+Yedi kol `denetim/ODAK-*-uygula.py` teslim edecek (kuru koşu varsayılan).
+Her uygulamadan sonra: `py arac/denetle_kronoloji.py` · `py arac/odak_olc.py
+--dosya <ad>` (öngörü tutmuş mu) · `py arac/denetle.py`.
+⚠️ **Koşu 16 sürerken `data/` DONUK** — betikler birikir, koşudan sonra iner.
+
+#### ② `denetle_kronoloji.py` odağı SORMUYOR — denetim boşluğu
+⑤. dalı yalnız *"`yer_id` DOLUYSA çözülüyor mu"* diye sorar. `odak_yer` ve
+`odak_kimlik` adlarının çözülüp çözülmediğini **hiçbir denetim sormuyor**;
+çözülemeyen ad app.js'te yalnız KONSOLA basılıyor. Kollar bu alanları
+doldurdukça boşluk büyür. `odak_olc.py` sayıyor ama yayın kapısına BAĞLI
+DEĞİL. ⇒ `denetle_yayin.py`ye bağlanmalı mı, karar verilecek.
+
+#### ③ `kapsam_genis` yabancı dosyada — app.js tarafı açık soru
+Veri tarafı düzelince alan doğru kullanılmış olacak. Ama **mekanizma hâlâ
+sessiz**: yabancı bir maddede `kapsam_genis:true` yazılırsa app.js yine
+Osmanlı kutusuna uçuracak ve hiçbir şey ötmeyecek. Kalıcı çare `js/app.js`te
+(sahibi `ARAYUZ-0077-B`): ya uyarı, ya dosya/kimlik tabanlı bir kapı.
+📌 Veri işini BEKLETMEZ — bu bir geri dönme sigortasıdır, ön şart değil.
+
+#### ④ Havuzda olmayan yer adları — nokta talebi gelebilir
+Ölçüldü: 485 odaksız maddenin **350'sinin başlığında** havuzdaki hiçbir
+yerleşim adı geçmiyor. Bir kısmı `yer_kon` ile çözülür (muharebe meydanı),
+bir kısmı **yeni yerleşim noktası** isteyebilir. Nokta eklemek kolların
+yetkisinde DEĞİL (`data/yerlesimler*.js`); talep gelirse ayrı kalem.
