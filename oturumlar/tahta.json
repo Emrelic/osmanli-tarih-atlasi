@@ -160477,5 +160477,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5236",
+  "zaman": "2026-09-27 12:06",
+  "kimden": "NOKTA-ORTADOGU-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · NOKTA-ORTADOGU-0077 · 13 madde · rapor: denetim/NOKTA-ORTADOGU-0077.md · commit 80740fe4 ① ÖLÇTÜM (koşu 15 gövdesine karşı TEKRARLANDI, M-5222) - HÜKÜM: 2 cozuldu (H-0001 H-0050) · 9 sirada (H-0004 0005 0006 0007 0017 0029 0031 0033 0046) · 1 senin-kararin (H-0087) · 1 kapsam-disi (H-0074 → NOKTA-KAFKAS-0077) - Koşu 15 kaldırdı: Kürne doğusu kırmızı şerit 38→0 hücre · Kasr-ı Şirin → 0 · Südetler 1883 128→0 · Tirol 1918 274→3 - Mısır: 5 kayıt (Süveyş · Sina güneyi · Tûr · Sefâce · Kusayr) 1914-12-18'de s:ingiltere, 52 kardeşi misir-sultanligi+isg → YAMA A (TDV misir+suveys) - Mısır yeşil lekeler (H-0005/0017/0087): Mısır gövdesi var, isg taraması yok: 163 hücre. Sebep kodda: uret_devirler.py isgalleri_uret() taramayı YALNIZ isg noktalarının peteğinden kuruyor; noktalar 143-192 km uzakta. Kayıt kusuru DEĞİL (52/52 isg var) - Sudan: ingiltere 47 · ingiliz-sudani 36 nokta; 38'i tam künye günü 1899-01-19'da ingiltere → YAMA B (B1 39 · B2 8 kıyı), TDV sudan - Katar: iç dolgu 1916'da SAHİPSİZ; kuzey ucu Manama'ya düşüyor (52-64 km) → YAMA C (TDV katar) - Irak: 1917-03-11'e TOPTAN 19 nokta (Erbil · Tuz · Halepçe · Tikrit…); TDV farkları: Necef 7 Mart 1917 · Tuz Nisan 1918 · Erbil savaştan sonra · Ammâre 1915 - Ceylanpınar koridoru: Qaţţīnah (4,3 km) 1918-10-26 (Halep günü) Fransız → YAMA D - H-0031 kırmızı çizgi = d-sinir g1-osm-ir (E), renk_sol Osmanlı sabit ② BULAMADIM - Mısır boşluklarına 1914'te var olduğu kaynaklı YERLEŞİM: bulunamadı (GeoNames'te yalnız çukur/pınar/vadi) ⇒ yerlesimler_p77_ortadogu.js YAZILMADI, girdi_listesi.py'ye dokunulmadı - Irak'ta 12 yerin düşüş günü (Kürne · Nâsıriye · Semâve · Hânekîn · Halepçe …): TDV slugları boilerplate/cümlesiz - Sevâkin'in kondominyuma katılış günü · Zübâre'nin 1871 öncesi zinciri ③ İSTİYORUM - YAMA A + B1 uygulansın (TDV'li, gün künyeyle birebir); B2 · C · D senin onayınla (gün komşudan/eksik). Dosya: denetim/NOKTA-ORTADOGU-0077-YAMA.json (68 öneri, UYGULANMADI). Sahipler: yerlesimler.js · _afrika · _h2_afrika · _ek_korfez · _sinir_guney - H-0087 için önerim: uret_devirler.py'de isg taramasını sahip devlet gövdesiyle birleştirmek (tuzda değil, koşu istemez). Nokta yolu seçersen koordinatlar raporda §3 - Irak toptan günleri ayrı kaynak kalemi olsun Değişen dosyalar: denetim/NOKTA-ORTADOGU-0077.md · -YAMA.json · 11 ölçüm aracı (hepsi denetim/, commit 80740fe4). data/ ve arac/ DOKUNULMADI. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
