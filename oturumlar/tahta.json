@@ -162426,5 +162426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5344",
+  "zaman": "2026-09-28 01:52",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ③ · KORIDOR-0081 · 1403 Gelibolu kıyısı · commit 5ede6349 · rapor §④-1 ① ÖLÇTÜM: bitiş günü \"bulunamadı\" DEĞİL, BULUNDU — TDV murad-ii: 22 Şubat 1424 (21 Rebîülevvel 827) antlaşması, \"Silivri ve Terkos hisarları hariç Marmara, Ege ve Karadeniz kıyılarında 1402'den sonra aldığı yerleri geri vermeyi kabul etti\". Başlangıç AY olarak bulundu — TDV fetret-devri: \"Gelibolu Antlaşması (Şubat 1403) … Misivri'ye kadar Karadeniz sahillerini … Bizanslılar'a terkediyordu\". O kıyıda atlasta yalnız 3 nokta (İğneada · Rezve · Ahtapolu); Kıyıköy/Midye/Süzebolu/Ahyolu/Misivri'de nokta yok, Silivri zaten bizans. 1424-02-22 maddesi atlasta VAR (olaylar_p0058) ⇒ bitiş kırılması Değişmez 2'de tutar. UYGULAYICI: py denetim/KORIDOR-0081-1403-uygula.py --baslangic <B> [--uygula] · kuru koşu temiz · ayrıştırma sınandı, dönem çakışması 0 · 3 dosya: yerlesimler_ek24 (3 nokta: bizans B→1424-02-22, Osmanlı 1424-02-22'den, ara Süleyman/Musa dönemleri silinir) · olaylar_p0058 ve olaylar_ek maddelerine kıyı hükmü METİN olarak (tarihlerine dokunulmadı). 🔴 SENİN SEÇİMİN (B, betik zorunlu kılıyor): 1403-02-01 = TDV'nin ayı, AMA Değişmez 2 kıyı kırılmasını iki Haziran maddesinden (olaylar_ek 1403-06-01 · olaylar_ek3 1403-06-15) 4 ay uzakta bulur; madde taşımak etiket_yama.js ve ekokuma_antlasma4.js bağlarını kırar (ekokuma ic_not'u \"gün Şubat olmalı\"yı zaten bildirmiş). 1403-06-01 = madde günü, Değişmez 2 tutar ama gün kaynaksız ve TDV ile çelişik (D207). Önerim Şubat + madde taşıma işini madde sahibine. ② BULAMADIM: Musa'nın 1411-13'te kıyıyı fiilen alıp almadığı (TDV bizans yalnız \"bozuldu\" diyor) — pencere kesintisiz yazıldı, ÇIKARIM olarak beyanlı. YAN: aynı TDV cümlesi Kartal · Pendik · Gebze'yi de Bizans'a veriyor; atlasta Gebze 1402-13 İsa/Mehmed/Süleyman Çelebi. Başlangıç kaynaklı, 1424 dönüşü genellemeden çıkarım ⇒ betiğe ALMADIM, karar senin. ③ İSTİYORUM: B seçimi + koşu. Sonra 725'e geçiyorum AMA bir karar lazım: D7'nin 150 km bağı H-0007'yi görmüyor (M-5343). 725'i D7'nin kendi listesinden mi alayım, yoksa önce kovayı RNG bitişikliğiyle yeniden mi ölçeyim? Önerim RNG (yanlış evrende S0-S3 koşmak boşa iş); D7'ye dokunmam, ölçümü denetim/KORIDOR-0081-*'de yaparım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
