@@ -1,0 +1,118 @@
+DUNYA-0079 — YAMA ÖNERİSİ (uygulayan: YILDIRIM BAYEZIT) · 27 Eylül 2026
+Her kalem: dosya · kayıt · ESKİ s: → YENİ s:  (yalnız değişen dönemler yazıldı)
+Uygulamadan sonra: py arac/denetle.py · py arac/renk_olc.py · koşu (yerleşim girdisi değişiyor).
+Rapor ve gerekçe: denetim/DUNYA-0079.md
+
+════════════════════════════════════════════════════════════════════
+A · H-79:7 — ABD İÇİNDE "MEKSİKA" NOKTALARI  (data/yerlesimler_kamerika.js)
+    Kusur deseni: "yeni-ispanya → 1821-09-27 → meksika → 1923-10-29" kalıbı,
+    sonradan ABD'ye geçen noktalara da kopyalanmış. 16 nokta.
+════════════════════════════════════════════════════════════════════
+A1 · Kaliforniya + Yeni Meksika + Utah — Guadalupe Hidalgo (imza 1848-02-02)
+     ⚠️ Gün seçimi senin kararın: aynı hattaki 6 mevcut nokta (San Francisco, San Diego,
+        Santa Fe, Taos, Acoma, Sutter's Fort) 1848-02-02 (imza) kullanıyor; sınır katmanı
+        (kronoloji_sinir_amerika.js, d1923-us-mx-kaliforniya) 1848-05-30 (onay) kullanıyor.
+        Öneri: 1848-02-02 (mevcut 6 noktayla aynı kırılma, yeni gün açmaz).
+   San José de Guadalupe        {f:"1821-09-27",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1821-09-27",t:"1848-02-02",d:"meksika"},{f:"1848-02-02",t:"1923-10-29",d:"abd"}
+   Monterey (Alta California)   aynı
+   Santa Bárbara                aynı
+   Los Ángeles (El Pueblo)      aynı
+   Yuma geçidi (La Purísima Concepción)   aynı  (Colorado'nun Kaliforniya yakası, 32.73/-114.62)
+   Las Vegas (Yeni Meksika)     {f:"1835-01-01",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1835-01-01",t:"1848-02-02",d:"meksika"},{f:"1848-02-02",t:"1923-10-29",d:"abd"}
+   Albuquerque                  1821-09-27 dönemi, aynı bölme
+   Santa Rita del Cobre         1821-09-27 dönemi, aynı bölme (32°48'K — Mesilla ihtilaf şeridinin
+                                 32°22' kuzeyi, 1848'de tartışmasız ABD)
+   Fort Robidoux (Uinta Havzası) {f:"1832-01-01",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1832-01-01",t:"1848-02-02",d:"meksika"},{f:"1848-02-02",t:"1923-10-29",d:"abd"}
+   Laredo                       1821-09-27 dönemi, aynı bölme  (Nueces şeridi; Teksas 1836'dan iddia
+                                 etti ama yer Meksika denetiminde kaldı — antlaşmayla kesinleşti)
+
+A2 · Gadsden alımı (onay teatisi 1854-06-30 — sınır katmanı d1923-us-mx-gadsden ile aynı gün)
+   Tucson (San Agustín del Tucsón)  {f:"1821-09-27",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1821-09-27",t:"1854-06-30",d:"meksika"},{f:"1854-06-30",t:"1923-10-29",d:"abd"}
+   Tubac                        aynı
+
+A3 · Teksas
+   Nacogdoches                  {f:"1821-09-27",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1821-09-27",t:"1836-03-02",d:"meksika"},
+                                {f:"1836-03-02",t:"1845-12-29",d:"teksas-cumhuriyeti"},
+                                {f:"1845-12-29",t:"1923-10-29",d:"abd"}
+                                (künye teksas-cumhuriyeti f/t ile birebir; San Antonio kaydının deseni)
+
+A4 · Sabine'in DOĞUSU — hiç Meksika olmadı (Adams-Onís, onay teatisi 1821-02-22)
+   Los Adaes                    {f:"1721-01-01",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1721-01-01",t:"1821-02-22",d:"yeni-ispanya"},{f:"1821-02-22",t:"1923-10-29",d:"abd"}
+                                not: 1806-1821 "Neutral Ground" (Arroyo Hondo–Sabine) — ihtilaflı şerit;
+                                1773'te terk edildi, nokta TOPRAĞI temsil ediyor.
+
+A5 · Mississippi — Louisiana, hiç Meksika olmadı
+   St. Louis                    {f:"1764-02-14",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1764-02-14",t:"1803-12-20",d:"yeni-ispanya"},{f:"1803-12-20",t:"1923-10-29",d:"abd"}
+                                ⚠️ 1803-12-20 New Orleans devri (Natchitoches/Spiro ile aynı kırılma).
+                                St. Louis'teki Yukarı Louisiana töreni 1804-03-10'dur — istenirse o gün;
+                                KAYNAKLA DOĞRULANMADI, bu yüzden öneri mevcut kırılma günü.
+
+A6 · Florida — hiç Meksika olmadı; Florida atlasta "ispanya" (St. Augustine notu: Küba'ya bağlı)
+   Mission San Luis (Apalaçi)   {f:"1656-01-01",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}
+                             →  {f:"1656-01-01",t:"1763-02-10",d:"ispanya"},
+                                {f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},
+                                {f:"1783-09-03",t:"1821-07-10",d:"ispanya"},
+                                {f:"1821-07-10",t:"1923-10-29",d:"abd"}
+                                kaynak notu: "günler komşudan: St. Augustine · Weber (1992) — aynı süreç
+                                (Doğu Florida devirleri), Apalaçi Apalachicola'nın doğusu"
+
+A7 · KOORDİNAT — sınır üstünde, yanlış yakada (yama değil, ölçülecek)
+   El Paso del Norte   31.760/-106.490 = bugünkü El Paso (TX) merkezi; tarihî El Paso del Norte =
+                       Ciudad Juárez (Guadalupe misyonu ~31.739/-106.487). Önerim koordinatı Juárez'e çekmek.
+   La Junta de los Ríos (Presidio) 29.56/-104.37 = Presidio (TX); Presidio del Norte = Ojinaga
+                       (~29.565/-104.414). Aynı öneri.
+
+════════════════════════════════════════════════════════════════════
+B · H-79:10+11 — TUNA 1281: ne Boğdan ne Eflak  (data/yerlesimler.js · _p0037.js · _ek29.js)
+    Denetim zaten görüyor: 4d → bogdan 14 dönem (78 yıl önce), eflak 13 dönem (49 yıl önce).
+    Sınıf: künye GENİŞLETİLMEZ (devlet yoktu) → ilk dönem ÖNCÜLE verilir.
+════════════════════════════════════════════════════════════════════
+B1 · Bucak + Moldavya → altinorda 1281 → 1359-01-01 (künye bogdan f)
+     Dayanak: TDV `bucak` "1241'den sonra Moğollar ve onların halefleri olan Altın Orda Hanlığı
+     Bucak'a hâkim olmuşlardır" · TDV `akkirman` "1241 yılında Moğollar'ın hâkimiyetine geçen"
+     · TDV `bogdan` "XIII. yüzyıldan itibaren de Tatarlar'la Gagauzlar'ın istilâsına uğrayan Moldavya".
+   DOĞRUDAN (Bucak): Kili · İsmail · Akkirman
+       {f:"1281-01-01",t:"1456-06-01",d:"bogdan"}  (İsmail/Kili deseni; Akkirman kendi zinciri)
+     → {f:"1281-01-01",t:"1359-01-01",d:"altinorda"},{f:"1359-01-01",t:<eski t>,d:"bogdan"}
+   ÇIKARIM (Bucak dışı Moldavya — TDV "istilâ" diyor, "hâkimiyet" demiyor):
+       Kalas (Galatz) · Kahul (Cahul) · Birlad · Roman · Yaş · Suçava · Çernovitz · Soroka · Orhei · Bender
+     → aynı bölme. ⚠️ 1345-1359 Macar markı (Dragoş) TDV'de YIL YOK → bulunamadı; bu aralık
+       altinorda'da kalır, ayrı iş.
+B2 · Eflak toprağı → macaristan 1281 → 1330-01-01 (künye eflak f; TDV: Posada 1330)
+     Dayanak: TDV `eflak` "Eflak bu tarihlerde Macar hâkimiyetindeydi" · 1310 Basarab · 1330 Posada.
+   İbrail · Buzău · Rimnik-i Sârat · Bükreş · Tırgovişte · Piteşti · Slatina · Krayova ·
+   Tırgu Jiu · Turnu Severin · Kımpulung · Rimnik (Vâlcea) · Yergöğü
+       {f:"1281-01-01",t:<eski t>,d:"eflak"}
+     → {f:"1281-01-01",t:"1330-01-01",d:"macaristan"},{f:"1330-01-01",t:<eski t>,d:"eflak"}
+     ⚠️ SENİN KARARIN (B2 doğu kenarı): İbrail · Buzău · Rimnik-i Sârat Bărăgan bozkırıdır;
+       TDV `eflak` Macar der, doğu/batı ayırmaz. TDV esastır ⇒ öneri macaristan.
+B3 · Kuzey Dobruca → altinorda (1281'de bulgaristan yazılı)
+     Dayanak: TDV `dobruca` "1186'da ... ikinci Bulgar devleti varlığını, Dobruca'nın 1241'de
+     Moğollar tarafından istilâsına kadar sürdürmüştür" + "Moğol hâkimiyetine giren Dobruca".
+     İshakçı · Babadağı (· Köstence) {f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"}
+     → {f:"1281-01-01",t:<BİTİŞ?>,d:"altinorda"}, ...
+     ⚠️ BİTİŞ GÜNÜ BULUNAMADI (TDV Balık/Dobrotiç'e yıl vermiyor, yalnız "1359'da Kuzey Dobruca'yı
+       işgal"). Dobrotiç künyesi YOK. ⇒ senin-kararin: (a) 1281→1359-01-01 altinorda, sonra
+       bulgaristan (Dobrotiç için vekil) · (b) şimdilik dokunma.
+
+════════════════════════════════════════════════════════════════════
+C · H-79:13 — MOSKOVA KNEZLİĞİ 1283  (data/devletler.js + data/yerlesimler.js)
+    Sınıf ② (aynı polity sürüyor → künyeyi GENİŞLET): Daniloviç hanedanı kesintisiz.
+════════════════════════════════════════════════════════════════════
+C1 · devletler.js · moskova   f:"1325-01-01" → f:"1283-01-01"
+     ad:"Moskova Büyük Knezliği" → "Moskova Knezliği (1325'ten Büyük Knezlik)"  (öneri)
+     kaynak'a ekle: "ESBE «Даниил Александрович»: 'получил в удел Москву не позднее 1283 г.';
+     1325: TDV `rusya` 'I. İvan Daniloviç (1325-1341) büyük knez unvanını edindi'"
+     kronoloji'ye madde: { t:"1283-01-01", tur:"kurulus", b:"Daniil Aleksandroviç Moskova'yı
+     appanaj knezlik olarak yönetiyor (ESBE: en geç 1283)" }   ← Değişmez 2s senkronu için
+C2 · yerlesimler.js:1114 · Moskova
+     {f:"1281-01-01",t:"1325-01-01",d:"altinorda"},{f:"1325-01-01",t:"1547-01-16",d:"moskova"}
+   → {f:"1281-01-01",t:"1283-01-01",d:"altinorda"},{f:"1283-01-01",t:"1547-01-16",d:"moskova"}
+C3 · renkler.py'de "moskova" boyası VAR (ölçüldü, 1 eşleşme) ⇒ motor koduna dokunmak GEREKMEZ.
