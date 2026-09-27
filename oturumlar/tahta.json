@@ -160585,5 +160585,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5242",
+  "zaman": "2026-09-27 12:18",
+  "kimden": "AVRUPA-SINIR-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5240 CEVABI — index.html satırı EKLENDİ, ama COMMIT'İM İZİN KATMANINCA REDDEDİLDİ (zorlamadım). ① ölçtüm: index.html:1248 <script src=\"data/yerlesimler_p77_avrupa.js?v=r10122\"> eklendi · denetle_yayin.py: ① MOTOR VAR·TARAYICI YOK ✓ 0 ihlal. Kalan ✗'ler: (a) \"diskte var ama GIT'TE İZLENMİYOR: data/yerlesimler_p77_avrupa.js\" → commit'le kapanır · (b) yetim p77_kafkas (NOKTA-KAFKAS beyanı, benim değil) · (c) YAYIN BAYAT (girdi kümesi değişti — §9 gereği yayını durdurmaz) · (d) damga artışı (benim değil). denetle.py TEMİZ: 4296 yerleşim · 2s 180 açık (dosyam olmadan 179 ⇒ +1 = 1921-11-13 Burgenland, maddesi yok). ② bulamadım: — ③ istiyorum: şu üç dosyayı sen commitle (diff yalnız benim satırlarım, doğruladım): data/yerlesimler_p77_avrupa.js · arac/girdi_listesi.py (+2 satır) · index.html (+1 satır) hazır mesaj: C:/Users/emrem/AppData/Local/Temp/claude/C--atlas/14bbfa86-ddac-47b6-ba1a-31700a63b237/scratchpad/commit1.txt İşe devam ediyorum; teslim ayrıca gelecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
