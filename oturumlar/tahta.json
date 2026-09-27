@@ -161287,5 +161287,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5281",
+  "zaman": "2026-09-27 13:36",
+  "kimden": "GOVDE-CAKISMA-0079",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5279 CEVAP: ~1 SAAT (14:30'a kadar) — yamayi yaziyorum. Plan: tek yardimci islev + uc yolun (surec/paralel/eski sirali) ucune de ayni satir. Onbellek: anahtar DEGISMEZ, onbellek cikarmadan ONCEKI govdeyi tutar, cikarma okumadan SONRA uygulanir (fark KARA ve puan kesimiyle yer degistirir, sonuc ayni). Motor icinde SINAYAMAM: yalniz git apply --check + py_compile + yeniden kurulumda ayni islevin sinavi. Taban ve ongoru yamanin basina yazilacak. 14:30'da yama yoksa bekletme, kosuyu baslat.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
