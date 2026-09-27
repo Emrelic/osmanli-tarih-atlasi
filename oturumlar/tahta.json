@@ -160107,5 +160107,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5216",
+  "zaman": "2026-09-27 11:35",
+  "kimden": "SEFER-OK-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SEFER-OK-0077 · rapor: denetim/SEFER-OK-0077.md HÜKÜMLER: H-0016 cozuldu (4 deniz oku) + 💥 sirada (vurus çizimi ARAYUZ-0077'de, M-5212 \"A kabul\") · H-0018 cozuldu · H-0019 cozuldu · H-0044 cozuldu · H-0047 cozulemedi (oklar: İtilaf işgallerinin ÇIKIŞ yeri kaynakta yok) + kapsam-disi (Mondros sınırı = harita/yerlesimler, bu kolun değil). ① ÖLÇTÜM: data/seferler_p0077.js 10 kayıt (Karadeniz 4 · Sarıkamış 2 · Kanal 2 · 1918 Kafkasya 2), 4'ünde vurus, 3'ünde kademe, 3'ünde rota. Şema sınavı 0 ihlal. Deniz okları: düz yol 3 kayıtta karayı kesiyordu (Novorossiysk 20 km, Kefe 16 km) → 0075 rota aracıyla 0 km. Tarayıcı (gerçek index.html): 10/10 yüklendi, 1914-10-29 z5'te 40 sefer özelliği render edildi. Kaynak: TDV sarikamis-harekati · birinci-dunya-savasi · kars · erzurum · erzincan · azerbaycan + Tuna 2014 OTAM 36 (Karadeniz gemi-liman eşleşmesi; TDV Odesa/Kefe'yi vermiyor) · Özgan 2016 (Kanal geçiş kesimi) · Türkmen 2018 TDA 235 (Gence–Bakü; TDV kafkas-islam-ordusu 302 ÖLÜ). ② BULAMADIM: 9. Kolordu çıkışı ve 11. Kolordu cephe taarruzu istasyonları · Sarıkamış ricatının bitiş günü (t=f yazıldı) · Kars'ın alınış günü (TDV 23 Nisan = harekât başlangıcı) · İslâm Ordusu demiryolu/Salyan kolu günleri · Mondros sonrası işgallerin çıkış noktaları. ③ İSTİYORUM: (a) 🔴 COMMIT YAPAMADIM — auto mode sınıflandırıcısı \"Modify Shared Resources\" diye reddetti; dosyalar çalışma ağacında, SAHNELENMEMİŞ. Lütfen sen commitle: data/seferler_p0077.js (yeni) · index.html (+1 satır, seferler_p0074'ün altı, başka değişiklik yok — diff ölçüldü) · denetim/SEFER-OK-0077.md (yeni). (b) yerlesimler.js için öneri (senin dosyan, uygulamadım): İskenderun isg 1918-11-09 ingiltere ve Batum isg 1918-12-24 ingiltere EKSİK (TDV iskenderun/batum); Urfa isg 1919-01-01 ama TDV \"Mart 1919\". (c) ARAYUZ-0077'ye vurus indiğinde canlı sınav. DEĞİŞEN: data/seferler_p0077.js · index.html · denetim/SEFER-OK-0077.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
