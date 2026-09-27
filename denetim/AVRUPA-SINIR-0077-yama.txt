@@ -1,0 +1,46 @@
+AVRUPA-SINIR-0077 — KOORDİNATÖR DOSYALARI İÇİN YAMA ÖNERİSİ (M-5219 kayıt 3)
+27 Eylül 2026 · uygulayan: YILDIRIM BAYEZIT · bu oturum hiçbir kaynağa DOKUNMADI
+
+======================================================================
+YAMA 1 — data/yerlesimler_ek.js · "Zadar (Zara)" (satır ~147)
+======================================================================
+ÖLÇÜLEN KUSUR: koşu 15 gövdesi 1920-11-12 → 1923-10-29 arası Zadar'ı
+yugoslavya boyuyor (kayıt s: {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"});
+aynı gün `d1923-it-shs-zara` (d_sinirlar_avrupa_bati.js) İtalyan anklavı
+kutusunu çiziyor ⇒ çizgi ile renk ters.
+
+ESKİ:
+  {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}
+YENİ:
+  {f:"1918-11-11",t:"1920-11-12",d:"yugoslavya"},{f:"1920-11-12",t:"1923-10-29",d:"italya",kaynak:"Rapallo Antlaşması md. 2 — 'Zara and the territory referred to below shall be recognised as forming part of the Kingdom of Italy' (imza 12 Kasım 1920; LNTS c.18 s.397-403, metin: forost.ungarisches-institut.de/pdf/19201112-1.pdf) · LZMK 'zadar': 'Rapallskim ugovorom 1920. bio je … pripojen Italiji kao enklava'"}
+
+🔴 AÇIK BIRAKILAN (kaynak bulunamadı, yazılmadı): 1918-11 → 1920-11-12
+arası İtalyan askerî işgali. İşgal günü Rapallo metninde YOK; LZMK 'zadar'
+maddesi 1918'i anmıyor (çekilen cümle II. Dünya Savaşı'na ait). ⇒ Bu pencere
+yugoslavya olarak KALIYOR ve muhtemelen yanlıştır (isg:italya adayı) —
+kaynak bulunursa ayrı iş.
+2s ETKİSİ: 1920-11-12 yeni kırılma; Rapallo'yu anan madde yoksa AÇIK sayılır.
+
+======================================================================
+SINIFLANDIRMA (yama DEĞİL — M-5219: "önce sınıflandır, künye açma")
+data/yerlesimler_avrupa.js + yerlesimler.js · `milanoduka` hayaleti (H-78:4 ②)
+======================================================================
+Künye `milano-dukaligi` f:1395-05-11. `d:"milanoduka"` 1395 ÖNCESİNDE 6 kayıtta:
+  Milano     1281→1535  · Verona 1281→1405-06-22 · Padova 1281→1405-11-22
+  Brescia    1281→1426  · Bergamo 1281→1428     · Parma  1281→1512-06-24
+§3.5 sınıflandırması (künye aşımının üç sınıfı + yer yanlış):
+  • Milano: ② AYNI POLİTY SÜRÜYOR adayı — Visconti senyörlüğü 1395'teki
+    dükalıktan önce de Milano'yu yönetiyordu ⇒ çare künyeyi GENİŞLETMEK.
+    KAYNAK OKUNMADI (başlangıç günü bulunamadı) — genişletme günü yazılmadı.
+  • Verona · Padova · Brescia · Bergamo · Parma: künye aşımı DEĞİL,
+    D204 "devlet var, yeri yanlış" — 1281'de bu şehirler Milano'ya bağlı
+    değildi (Verona Scaliger, Padova komün/Carrara vb.; künyeleri YOK).
+    Çare iki yol, hüküm koordinatörde: (a) yeni künye (Scaliger/Carrara/komün)
+    — YENİ KAPSAM, kaynak ister · (b) 1281 → ilk kaynaklı sahip arası
+    `__BOSLUK__` beyanı (§3.5.1). Kısaltmak (sınıf ①) YANLIŞ olur: devlet
+    ölmedi, hiç orada değildi.
+  🔴 Bu hayalet H-78:4'ün yalnız YARISIDIR. Emre'nin gördüğü "Venedik mavi +
+  Milano etiketi" GÖVDE ÇAKIŞMASIDIR (koşu 15'te de sürüyor): Venedik noktası
+  1281 ve 1400'de hem `venedik` hem `milanoduka` gövdesinin içinde; Mestre ve
+  Treviso milanoduka. Padova'nın dönemi düzeltilse bile çakışma motor/gövde
+  kusurudur (`kd:` düşürmez, CLAUDE.md §3).
