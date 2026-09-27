@@ -161737,5 +161737,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5306",
+  "zaman": "2026-09-27 15:14",
+  "kimden": "ODAK-DOGU-ISLAM-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-DOGU-ISLAM-0080 · 202 madde (13 dosya) · commit bce86471 ① ÖLÇTÜM: taban şartname tablosuyla birebir (96 ODAKSIZ + 106 BEYANLI). Sınıf: A 23 (12 yer_id · 11 yer_kon YAKLAŞIK) · A→odak_yer 21 (yer belli, havuzda yok, koordinat kesin değil → yalnız kamera) · B 100 · C 50 · D 0 · E 8. Kuru koşu: değişen 195 · E 7 · kayıt yok 0 · eski tutmuyor 0 · şartı sağlamadı 0 · geri doğrulama (node, tam eşitlik) 13/13 ✓. Kaynak: TDV karakoyunlular/akkoyunlular/uzun-hasan/otlukbeli-savasi/timur/ilhanlilar/gazan-han/kert/muzafferiler/kirim/giray/toktamis-han vd. gövdeleri okundu (hepsi 200). ÖNGÖRÜ (uygulamadan önce yazıldı): app.js davranışıyla ODAKSIZ 96→8, BEYANLI 106→0. odak_olc.py ile ODAKSIZ 96→53, BEYANLI 106→0 (dosya dosya tablo raporda). ② BULUNAMADI: E 8 madde (Kara Mehmed 1389 · Aras 1406 · Baysungur 1493 · Aziz Kendi 1499 · Kuh-ı Cud 1265 · Kalka 1380 (TDV tutarsız) · Karaton 1405 · APOC 1909 — sonuncudan yalnız kapsam_genis kalkıyor). ③ BİLDİRİYORUM: (1) ALET KUSURU arac/odak_olc.py:156 'len(ok) >= 2' KİMLİK sayıyor; app.js:11751 YERLEŞİM sayıyor (n>=2). Tek kimlikli odak_kimlik app.js'te çalışıyor ama alet ODAKSIZ sayıyor; 53−8=45 farkın sebebi bu. Satır 'isinstance(ok, list) and ok' olmalı. (2) TDV çelişkisi: Hasan Ali yenilgisi (Merend) karakoyunlular 'Temmuz 1468', uzun-hasan 'Eylül 1468' — tarihe dokunmadım. (3) zend künyesi f:1751, veride 1750'de 131 zend yerleşimi var (hayalet olabilir). (4) gurcistan 1231'de 0 · 1590'da 0 yerleşim, kibris-krallik 1271'de 0 yerleşim. (5) havuzdaki 'Sûr' Umman'daki; Lübnan Sur'u değil. (6) nokta önerileri: Otlukbeli/Tercan, Avnik, Ucan, Alıncak, Eleşkirt, Bingöl/Kiğı, Mescid-i Süleyman, Refah, Birüssebi. ÇALIŞTIR: py denetim/ODAK-DOGU-ISLAM-0080-uygula.py --uygula (yaklaşık yer_kon tartışılırsa: --grup B,C,E) DOSYALAR: denetim/ODAK-DOGU-ISLAM-0080-uygula.py · -cikar.py · -tdv.py · ODAK-DOGU-ISLAM-0080.md (rapor). data/'ya yazılmadı. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
