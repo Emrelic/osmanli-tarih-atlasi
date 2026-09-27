@@ -1,0 +1,103 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 269bfcb..668f1a2 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -1609,9 +1609,55 @@ else:
+ #    (Bu aşamada yalnız KARŞILAŞTIRMA için kullanılıyor — hangi tohum daha
+ #    ucuz — ve karşılaştırma için birim önemsizdir.)
+ import heapq as _heapq
+-asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
+ _KVDY = KV_ADIM * 111.32
+ 
++# ═══ 🌊 BOĞAZ YASAĞI — BOGAZ-OLCUM-0081 (28 Eylül 2026) ═════════════════════
++# Izgara hücrenin MERKEZİNE sorar; 0,05°lik hücreden dar su hattı (İstanbul
++# Boğazı 0,7-3,4 km, hücre 41°K'da 4,2 × 5,5 km) iki yakada KARA merkezli
++# hücreler bırakır ve 8-komşu adım (çapraz adım ara hücre sınamaz) suyu
++# ATLAR. Ölçüldü (koşu 16 KARA'sı, `denetim/BOGAZ-OLCUM-0081.py`): merkezden
++# merkeze doğrusu sudan geçen adım 50.617 · küme 8.720 · kaldırılınca
++# dolanması 3×+20 km'yi aşan deniz kümesi 2.112. İstanbul Boğazı penceresinde
++# gerçek maskede 2 yaka, ızgarada TEK bileşen (7 adım).
++# ÇARE: doğrusu KARA dışına çıkan adım YASAK. Sınama örneklemeli (11 nokta,
++# 41°K'da ~0,4 km aralık) — Eğriboz (40 m) gibi örnek aralığından dar hat
++# KAÇABİLİR; kalan kaçak ölçüm satırında sayılır, sessiz değil.
++# Yalnız KIYI hücresine (sınırın değdiği hücre) dokunan adımlar sınanır:
++# iç hücreden iç hücreye adım denize değemez.
++# MOTOR_BOGAZ_KAPALI=1 eski davranış (A/B için).
++_KVSU = set()
++if os.environ.get("MOTOR_BOGAZ_KAPALI") != "1":
++    asama("Kara-kısıtlı sahiplik: boğaz yasağı (sudan geçen adım)")
++    from rasterio import features as _bz_rfe
++    from rasterio.transform import from_origin as _bz_fo
++    _bz_kiyi = _np.flipud(_bz_rfe.rasterize(
++        [(KARA.boundary, 1)], out_shape=(_kvny, _kvnx),
++        transform=_bz_fo(_kvx0, _kvy0 + _kvny * KV_ADIM, KV_ADIM, KV_ADIM),
++        all_touched=True, dtype="uint8")).astype(bool)      # satır 0 = GÜNEY
++    _bz_kara = _np.frombuffer(bytes(_kvkara), dtype=_np.uint8).reshape(_kvny, _kvnx).astype(bool)
++    _bz_t = _np.arange(1, 12) / 12.0
++    for _bz_yi, (_bz_di, _bz_dj) in enumerate(_KV_YON):
++        _bz_jj, _bz_ii = _np.nonzero(_bz_kara)
++        _bz_a, _bz_b = _bz_ii + _bz_di, _bz_jj + _bz_dj
++        _bz_ok = (_bz_a >= 0) & (_bz_a < _kvnx) & (_bz_b >= 0) & (_bz_b < _kvny)
++        _bz_ii, _bz_jj, _bz_a, _bz_b = _bz_ii[_bz_ok], _bz_jj[_bz_ok], _bz_a[_bz_ok], _bz_b[_bz_ok]
++        _bz_ok = _bz_kara[_bz_b, _bz_a] & (_bz_kiyi[_bz_jj, _bz_ii] | _bz_kiyi[_bz_b, _bz_a])
++        _bz_ii, _bz_jj = _bz_ii[_bz_ok], _bz_jj[_bz_ok]
++        _bz_x = _kvx0 + (_bz_ii + 0.5) * KV_ADIM
++        _bz_y = _kvy0 + (_bz_jj + 0.5) * KV_ADIM
++        _bz_su = _np.zeros(len(_bz_ii), dtype=bool)
++        for _t in _bz_t:
++            _bz_su |= ~shapely.contains_xy(KARA, _bz_x + _t * _bz_di * KV_ADIM,
++                                          _bz_y + _t * _bz_dj * KV_ADIM)
++        for _h in (_bz_jj[_bz_su] * _kvnx + _bz_ii[_bz_su]).tolist():
++            _KVSU.add(_h * _KV_YS + _bz_yi)
++    del _bz_kiyi, _bz_kara
++    print(f"  sudan geçen adım YASAK: {len(_KVSU):,} yönlü kenar "
++          f"(ÖNGÖRÜ ~101.000 = 2 × 50.617, 8 komşuda; 16 komşuda daha çok)")
++else:
++    print("  🔴 BOĞAZ YASAĞI KAPALI (MOTOR_BOGAZ_KAPALI=1) — adımlar suyu atlayabilir")
++asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
++
+ 
+ def _kv_dijkstra(surt, nehir=None):
+     """Çok kaynaklı Dijkstra. surt=None ise ağırlıksız (eski davranış);
+@@ -1644,6 +1690,7 @@ def _kv_dijkstra(surt, nehir=None):
+             k = b * _kvnx + a
+             if not _kvkara[k]: continue
+             if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj): continue
++            if _KVSU and (h * _KV_YS + yi) in _KVSU: continue   # 🌊 boğaz yasağı
+             # Sürtünme HEDEF hücreden okunur — `egim_olc.py:136` (`f = fr[jj][ii]`)
+             # kalibrasyonu birebir böyle yaptı. Kaynak hücreden ya da iki
+             # hücrenin ortalamasından okumak BAŞKA bir yüzeydir ve 0,005 orada
+@@ -1719,6 +1766,7 @@ def _kv_iki_etiket(surt, nehir=None):
+             k = b * _kvnx + a
+             if not _kvkara[k]: continue
+             if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj): continue
++            if _KVSU and (h * _KV_YS + yi) in _KVSU: continue   # 🌊 boğaz yasağı
+             nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+             if nh:
+                 nd += nbedel.get(h * _KV_YS + yi, 0.0)
+@@ -3834,12 +3882,22 @@ for _i, _g in enumerate(PETEK_D):
+             _kvana_korundu += 1
+             continue                      # tohumun üstündeki toprak devredilmez
+         _a = _ham_km2(_p)
+-        if _a < KV_MIN_KM2:
+-            _kvkucuk_n += 1; _kvkucuk_a += _a
+-            continue                      # ızgara bu ölçekte karar veremez
+         _rp = _p.representative_point()
+         if _kvkp.contains(LineString([_ptl[_i], _rp])):
+             continue                      # kesin geometri geçerli — dokunma
++        # ═══ 🌊 BOGAZ-OLCUM-0081: 200 km² tabanı yalnız KARA hattında ═══════
++        # Eski sıra tabanı ÖNCE soruyordu: düz hattı DENİZDEN geçen küçük
++        # parça ızgaraya HİÇ sorulmadan Voronoi sahibinde kalıyordu. Ölçüldü
++        # (koşu 16 petek_govde.js, `denetim/BOGAZ-OLCUM-0081-sinif.py`):
++        # 4.262 parça · 155.632 km²; düz hattı KARADAN geçen başka tohumu olan
++        # 137 parça · 5.969 km² — Üsküdar→Beşiktaş 13,6 · Kilitbahir→Anadolu
++        # 185,6 · Sebte→İspanya 122,8 · Helsinki→Estonya 197,1 (H-0009/H-0010).
++        # Ada kuralı bunları kesemez: iki yaka AYNI kara bileşeni.
++        # Taban artık yalnız ızgaranın parçayı GÖREMEDİĞİ yerde korur: temsil
++        # noktasının hücresi su ise (`_s < 0`) aşağıda zaten karar verilmiyor.
++        if _a < KV_MIN_KM2 and os.environ.get("MOTOR_BOGAZ_KAPALI") == "1":
++            _kvkucuk_n += 1; _kvkucuk_a += _a
++            continue                      # eski davranış (A/B)
+         _gi = min(_kvnx - 1, max(0, int((_rp.x - _kvx0) / KV_ADIM)))
+         _gj = min(_kvny - 1, max(0, int((_rp.y - _kvy0) / KV_ADIM)))
+         _s = _kvsahip[_gj * _kvnx + _gi]
