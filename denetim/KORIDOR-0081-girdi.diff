@@ -1,0 +1,19 @@
+diff --git a/arac/girdi.py b/arac/girdi.py
+--- a/arac/girdi.py
++++ b/arac/girdi.py
+@@ -220,6 +220,15 @@ BILINEN_ALANLAR = {
+     # basıyordu: doğru davranış, hatalıymış gibi görünüyordu.
+     # (PETEK/NOKTA ölçtü ve ilk dört gerekçeli kaydı yazdı, 3 Ağustos 2026)
+     "neden": "kasitli_bosluk'un gerekçesi — niçin kasten boş",
++    # 🔴 `devir_beyani` — ANAKRONİK VEKİL NOKTANIN beyanı (KORIDOR-0081, 28 Eyl 2026).
++    # Motor kurulmamış peteği YALNIZ o tarihte bir sahibi yazılıysa komşuya
++    # devreder (uret_petek.py ~4603); Değişmez 5a ise kur:'dan önce dönemi
++    # affetmez. İkisi birlikte devri HİÇBİR kayıtta çalıştırmıyordu. Bu alan
++    # 5a'nın KAYIT BAŞINA istisnasıdır: "kur: öncesi dönemler kasabanın değil,
++    # BÖLGENİN vekilidir; motor devretsin." Değeri boş olmayan METİN: kur:
++    # tarihinin KAYNAK cümlesi. Blanket değil — muaf sayı denetle.py'de tavan.
++    "devir_beyani": "kur: öncesi dönemler bölge vekili, devir beklenir — değer: kur:'un "
++                    "kaynak cümlesi. Okuyan: denetle.py Değişmez 5a (motor OKUMAZ)",
+     # 🔴 kd: — `k:` ve `m:`nin ZAMANLI hâli (`ALTYAPI ④`, `VERI-YAPISI §kd`)
+     #   kd:[{f,t,k,m}, …]  —  "şu tarihten şu tarihe kademe K, merkez M"
+     # NİÇİN: bugün bir yerleşim bütün tarih boyunca TEK merkeze bağlı; bu
