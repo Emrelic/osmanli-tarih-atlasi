@@ -5201,3 +5201,4 @@
 | M-5190 | 2026-09-27 10:40 | HAZIR KITA 2709 1039 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (Emre notu: gerekirse sonnet'e çevrilmeli) · görev bekliyorum |
 | M-5191 | 2026-09-27 10:41 | HAZIR KITA 2709 1040 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5192 | 2026-09-27 10:41 | HAZIR KITA 2709 1041 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5193 | 2026-09-27 10:41 | HAZIR KITA 2709 1042 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
