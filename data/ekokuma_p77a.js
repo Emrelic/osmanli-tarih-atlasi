@@ -60,8 +60,67 @@
 // kronoloji maddesinin `t:` ve `b:` alanlarından ÖLÇÜLEREK alınmıştır.
 // `gorsel:` hiçbir kartta yok — kamu malı/CC0 olduğu doğrulanmış görsel
 // aranmadı.
+//
+// EK — PAKET 0080 (28 Eylül 2026, M-5320): H-0006 Şehzade Halil (2 kart) ·
+// H-0026 Saray ovası (1 kart). Okunan TDV gövdeleri: orhan (Halil İnalcık) ·
+// murad-i · suleyman-pasa · saraybosna (Muhammed Aruçi) · bosna-hersek ·
+// isa-bey (Enes Pelidija, Feridun Emecen) · sirbistan.
+// Ölü slug: orhan-gazi · halil-sehzade · kantakuzenos · eski-foca · bosna ·
+// hodidjed · ishak-bey · isa-bey-ishakoglu · vrhbosna.
+// BULUNAMADI: Halil'in 1362 sonrası akıbeti (TDV orhan ve murad-i maddeleri
+// anmıyor) · kaçırılışın ayı/günü (TDV yalnız 758/1357 verir).
 // ============================================================================
 window.EKOKUMA_P77A = [
+
+// ── P0080 H-0006 · Şehzade Halil kimdir ─────────────────────────────────────
+{ id:"kimdir-sehzade-halil-orhan-oglu", tur:"kimdir",
+  ad:"Şehzade Halil — Orhan Gazi'nin Bizanslı prensesten olan oğlu, bir fidye pazarlığının merkezindeki çocuk",
+  metin:"Halil, Orhan Gazi'nin altı oğlundan biridir. Annesi Theodora, Bizans'ta taht mücadelesi veren Yuannis Kantakuzenos'un kızıydı; Kantakuzenos 1346'da kızını Orhan'a zevce olarak vermiş, bu evlilikle Orhan'dan askerî yardım almayı ummuştu. Halil'in ağabeyleri Süleyman Paşa ile Murad ise başka bir anneden, Osmanlı rivayetinde Nilüfer Hatun'dandı.\n\n"
+    +"■ KAÇIRILIŞ\n"
+    +"TDV'deki Orhan maddesine göre 758 (1357) yılında, o sırada on bir yaşında olan Halil İzmit körfezinde \"korsanlar\" tarafından tutsak edilip Eski Foça'ya götürüldü. Foça'nın hâkimi Bizans valisi Leo Kalothetos'tu; Bizans sarayının yakından tanıdığı, 1329'da imparator III. Andronikos'un Sakız'a vali yaptığı biriydi. TDV maddesi, olayların gelişinin Halil'in tutsaklığının aslında Bizans sarayının Orhan'ı barışa zorlamak için yaptığı bir tertip olduğunu gösterdiğini yazar.\n\n"
+    +"■ İKİ YILLIK TUTSAKLIK\n"
+    +"İhtiyar ve hasta Orhan, Theodora'dan olan ve çok sevdiği oğlunun kurtarılması için imparator V. Ioannes Palaiologos'a başvurdu. İmparator 1358 baharında üç kadırgayla Foça'ya gitti; Orhan'ın dostu Saruhan Beyi İlyas da karadan şehri kuşattı, ama sonuç alınamadı. Kalothetos Halil için büyük bir meblağ koparmaya çalışıyordu. İmparator aynı yıl bir kez daha Foça'ya gitti, yine başaramadı.\n\n"
+    +"■ KURTULUŞ\n"
+    +"1359 baharında Orhan Üsküdar'a, imparator Kızkulesi'ne geldi ve elçiler aracılığıyla pazarlık yapıldı. Orhan fidye olarak 30.000 Venedik altını ödedi ve Halil kurtarıldı. Halil İstanbul'a getirildi, orada imparatorun küçük kızı İrene ile nişanlandı ve imparator tarafından İzmit'e getirildi. Murad maddesine göre teslim Eylül-Ekim 1359'da gerçekleşti.\n\n"
+    +"■ VELİAHTLIK VAADİ VE SONRASI\n"
+    +"İmparator, Halil'in Orhan'dan sonra tahta geçeceği vaadini de aldı; Bizans, Halil'in şahsında Osmanlılarla bir barış ve denge dönemi açmayı umuyordu. Ancak TDV'nin belirttiği gibi Türk-Moğol geleneğini izleyen Osmanlılarda veliahtlık kanunu yoktu ve bu vaat unutuldu. Orhan Mart 1362'de öldüğünde Halil on altı yaşındaydı ve İznik ile Eskişehir'de bulunan Halil ile İbrahim'in adamları, Karaman ve Eretna desteğiyle Bursa'da tahtı ele geçirmek için harekete geçti; ama Bursa kadısı Çandarlı Kara Halil duruma hâkim oldu ve Murad tahta çıktı. Halil'in bundan sonraki akıbeti, okunan TDV maddelerinde yer almaz.",
+  kesinlik:"kesin",
+  olay:["1357-08-01|Şehzade Halil"],
+  kaynak:"TDV: orhan (Halil İnalcık; gövde okundu — Theodora'nın 1346 evliliği, 758/1357 kaçırılış ve 11 yaş, Leo Kalothetos, Bizans tertibi yorumu, 1358 Foça seferleri ve Saruhanlı İlyas, 1359 Üsküdar-Kızkulesi görüşmesi, 30.000 Venedik altını, İrene ile nişan, veliahtlık vaadinin unutulması) · TDV: murad-i (teslim Eylül-Ekim 1359, 1362'de Halil'in 16 yaşında oluşu ve adamlarının taht girişimi) · Halil'in 1362 sonrası akıbeti BULUNAMADI" },
+
+// ── P0080 H-0006 · Halil'in kaçırılışı: sebepler, etkiler, sonuçlar ─────────
+{ id:"p80-sehzade-halil-sebep-etki-sonuc", tur:"sebep-sonuc",
+  kisa:"On bir yaşında bir şehzadenin kaçırılışı, Osmanlı'nın Rumeli'deki ilerleyişini niçin iki yıl durdurdu?",
+  metin:"1357'de Orhan Gazi'nin küçük oğlu Halil'in kaçırılması, ilk bakışta bir korsan baskını gibi görünür. TDV'deki Orhan maddesi ise onu Bizans'ın elindeki en güçlü diplomatik kozlardan biri olarak okur.\n\n"
+    +"■ SEBEPLER\n"
+    +"① Rumeli'deki Osmanlı varlığı: Osmanlılar Çimbi ve Gelibolu'yu alarak Rumeli yakasına yerleşmişti; Karesi'den gelen halk orada köyler kurmaya başlamıştı. Bizans için bu, başkentin kapısında kalıcı bir tehditti. ② Bizans'ın iç savaşı: Orhan o güne kadar Rumeli'deki genişlemesini Kantakuzenos ailesiyle iş birliği içinde yürütmüştü; imparator V. Ioannes ise Kantakuzenos'un oğlu Mattheos'a karşı taht mücadelesi veriyordu ve Orhan'ı bu ittifaktan koparmak istiyordu. ③ Haçlı umudu: V. Ioannes 1355'te papaya Türklere karşı Haçlı seferi için başvurmuştu; papa elçisi Pierre Thomas 1357'de İstanbul'daydı. Bizans, Haçlı yardımıyla Boğazları denizden kesip Rumeli'deki Türkleri yok etmeyi hedefliyordu ve bunun için zaman kazanması gerekiyordu. ④ Orhan'ın zaafı: Orhan yaşlı ve hastaydı; Halil onun çok sevdiği, Theodora'dan olan oğluydu. TDV'ye göre olayların gelişi, kaçırılışın Orhan'ı barışa zorlamak için Bizans sarayının bir tertibi olduğunu gösterir.\n\n"
+    +"■ ETKİLER — TUTSAKLIK SÜRERKEN (1357-1359)\n"
+    +"Orhan oğlunu kurtarmak için imparatorla bir antlaşma imzaladı: Trakya'da Bizans topraklarına her türlü saldırıyı durduracak, Halil'i kurtarmak için Foça'ya gönderilecek gemilerin masrafını üstlenecek, imparatorun o zamana kadarki borçlarını silecek, Mattheos Kantakuzenos'a yardımdan vazgeçip İmparator Ioannes'i destekleyecekti. TDV'ye göre bu antlaşma Rumeli yakasındaki bir avuç Osmanlı'yı umutsuz bir duruma soktu; Halil kurtarılıncaya kadar Rumeli'de Osmanlı yayılması durdu. Aynı günlerde Rumeli'deki başkomutan Süleyman Paşa bir kaza ya da suikast sonucu öldü; TDV'ye göre Süleyman ölmeden önce Gelibolu'yu boşaltma tekliflerine şiddetle direnmişti. Yerine gönderilen Şehzade Murad, lalası Şahin ile birlikte Halil kurtarılıncaya kadar hareketsiz bekledi. Yalnız kalan Mattheos Kantakuzenos 1358'de Sırplarca yakalanıp imparatora teslim edildi; Trakya'da durum İstanbul'un lehine döndü.\n\n"
+    +"■ SONUÇLAR\n"
+    +"① Osmanlı için pahalı bir kurtuluş: Orhan 30.000 Venedik altını fidye ödedi ve Bizans'ın yeni şartlarını kabul etti. ② Bizans'ın kısa ömürlü kazancı: İmparator Halil'i kızı İrene ile nişanladı ve onun Orhan'dan sonra tahta geçeceği vaadini aldı; Halil'in şahsında bir barış ve denge dönemi umuyordu. ③ Vaat tutmadı: Osmanlılarda veliahtlık kanunu yoktu, Halil'in veliahtlığı unutuldu. Rumeli'deki Şehzade Murad bu politikaya karşıydı; Karesili gazi beyler ve lalasıyla birlikte gazâ ve yayılma politikasında kararlıydı. ④ Fetihlerin yeniden başlaması: Halil Eylül-Ekim 1359'da teslim edilir edilmez Murad ve Lala Şahin'in kumandasında Trakya'da sistemli fetih harekâtı başladı; bu harekât Edirne'nin fethine uzandı. ⑤ Taht: Orhan 1362'de öldüğünde Halil'in adamları taht için harekete geçti, ama Bursa kadısı Çandarlı Kara Halil duruma hâkim oldu ve tahta Murad çıktı.\n\n"
+    +"■ DEĞERLENDİRME\n"
+    +"Bizans'ın kazandığı iki yıl, beklediği Haçlı yardımını da getirdi: TDV'nin Murad maddesine göre 1359'da Papalık ve Bizans Haçlı donanması Lapseki ve Saros körfezine çıkarma yapmaya çalıştı, ama bu çıkarmayı Rumeli'deki Şehzade Murad önledi. Kaçırılış Osmanlı ilerleyişini iki yıl durdurdu; yönünü değiştirmedi.",
+  kesinlik:"kesin",
+  olay:["1357-08-01|Şehzade Halil"],
+  kaynak:"TDV: orhan (Halil İnalcık; gövde okundu — Karesililerin Rumeli'ye yerleşmesi, Kantakuzenos iş birliği, 1355 Haçlı başvurusu ve Pierre Thomas, Bizans tertibi yorumu, antlaşmanın dört şartı, yayılmanın durması, Süleyman'ın ölümü ve Murad'ın beklemesi, Mattheos'un 1358'de teslimi, 30.000 Venedik altını, veliahtlık vaadi, Murad'ın gazâ politikası, 1359 sonrası Trakya harekâtı) · TDV: suleyman-pasa (Gelibolu'yu boşaltma tekliflerine direniş) · TDV: murad-i (Eylül-Ekim 1359 teslim, 1359 Haçlı çıkarmasının Lapseki-Saros'ta önlenmesi, 1362 taht girişimi) · 'Değerlendirme' bölümünün son cümlesi kartın kendi yorumudur" },
+
+// ── P0080 H-0026 · Saray ovasının ilhakı ────────────────────────────────────
+{ id:"p80-saray-ovasi-ilhak-1448", tur:"sebep-sonuc",
+  kisa:"Osmanlı, sınırından yüzlerce kilometre içerideki Saray ovasını nasıl ilhak etti? Aradaki topraklar kimindi?",
+  metin:"Bugünkü Saraybosna'nın bulunduğu ova, 1448'de Osmanlı idaresine girdi. Bosna Krallığı ise ancak on beş yıl sonra, 1463'te fethedildi. Bir krallığın tam ortasındaki bir ova, krallık yıkılmadan nasıl Osmanlı'nın olabildi?\n\n"
+    +"■ ARADAKİ TOPRAKLAR: DÜŞMAN DEĞİL, TÂBİ\n"
+    +"Bu sorunun anahtarı, çevredeki devletlerin Osmanlı ile ilişkisidir. TDV'ye göre Bosna kralları, Kral II. Tvrtko'nun (1420-1443) tahta çıkışından sonra birçok şehri ele geçirip garnizon yerleştiren Osmanlılar tarafından 1428-1429'da haraca bağlandı. 1443'ten itibaren tahtta olan Stjepan Tomaš da Batı'nın desteğine güvenmekle birlikte Osmanlılara haraç ödemeyi sürdürdü. Güneydoğudaki Sırp Despotluğu da TDV'ye göre bir Osmanlı vasalıydı; savaş zamanlarında Osmanlı'ya yardımcı birlik gönderiyordu ve 1427-1456 arasında Curac Brankoviç tarafından yönetiliyordu. Yani Üsküp'teki Osmanlı uç beyliği ile Saray ovası arasındaki toprakların büyük kısmı yabancı ve düşman bir ülke değil, Osmanlı'ya haraç ödeyen tâbi beyliklerin topraklarıydı.\n\n"
+    +"■ ADIM ADIM İLHAK\n"
+    +"TDV'deki Saraybosna maddesine göre Osmanlılar önce 1428-1435 arasında bugünkü şehrin yakınındaki Hodidjed kasabasını ele geçirdi. Hodidjed vilâyeti Saray ovası ile birlikte 852'de (1448) tamamen Osmanlı idaresi altına girdi. Bölge, Vrhbosna adlı varoşla birlikte güçlü bir uç sahası hâline geldi ve voyvoda unvanı taşıyan, İshak Bey'in oğlu Üsküp beyi Îsâ Bey tarafından idare edildi. Çevrede Osmanlı vasalı Bosna beyleri bulunduğundan bölge çift taraflı kontrol altındaydı.\n\n"
+    +"■ YÖNETEN AİLE: ÜSKÜP'TEN BOSNA'YA\n"
+    +"İlhakın coğrafî yolu bir ailenin kariyerinde okunabilir. İshak Bey, Üsküp fatihi Paşa Yiğit'in evlatlığıydı ve Üsküp'ün idaresini üstlenmişti. Oğlu Îsâ Bey babasıyla birlikte Kosova, Arnavutluk, Makedonya, Sırbistan ve Bosna bölgelerinde savaştı; TDV'ye göre ailenin, Bosna'nın aristokrat sülâlelerinden Kosača ve Pavloviçlerle akraba olduğu Dubrovnik yazışmalarında geçer. Yani Saray ovası, Üsküp uç beyliğinin kuzeybatıya uzanan bir kolu olarak yönetildi.\n\n"
+    +"■ OVADAN ŞEHRE\n"
+    +"1455 tarihli tahrir defterinde Saray ovası bir bölge adı olarak geçer, ama bu isimde bir yerleşme henüz yoktur. 1462'den önce İshak Bey ya da oğlu Îsâ Bey burada ilk Müslüman mahallesini kurdu; İshak Bey bir saray ve Fatih adına Hünkâr Camii'ni (862/1458) yaptırdı. Brodec köyünde yapılan bu ilk Osmanlı sarayından dolayı yere Saray, Saray ovası ya da Saray kasabası denmeye başlandı; Evliya Çelebi'ye göre Bosna nehrinin adı eklenince \"Bosna-Saray\" ortaya çıktı. 1463'te Bosna fethedilince burası yeni Bosna sancağının dört vilâyetinden biri oldu ve Îsâ Bey 1463-1469 arasında Bosna sancak beyliği yaptı. Saraybosna'nın ilk kurucusu olarak Îsâ Bey anılır.\n\n"
+    +"■ SONUÇ\n"
+    +"Okunan kaynaklar Saray ovasını Osmanlı ana karasına bağlayan doğrudan idare edilen bir koridordan söz etmez; aradaki topraklar Osmanlı'ya haraç ödeyen tâbi Bosna ve Sırp beyliklerine aitti. Tâbi bir krallığın içinde doğrudan idare edilen bir uç sahası kurmak, o krallığı ileride fethetmenin hazırlığıydı ve on beş yıl sonra tam olarak bu oldu.",
+  kesinlik:"kesin",
+  olay:["1448-01-01|Saray ovası"],
+  kaynak:"TDV: saraybosna (Muhammed Aruçi; gövde okundu — 1428-1429 haraç, Hodidjed 1428-1435, 852/1448 ilhak, Vrhbosna uç sahası, Îsâ Bey'in idaresi, çift taraflı kontrol, 1455 tahriri, Hünkâr Camii 862/1458, ad kökeni, 1463 sonrası vilâyet) · TDV: bosna-hersek (1428-1429 haraç, Stjepan Tomaš'ın haraç ödemeyi sürdürmesi, vasal Bosna beyleri) · TDV: sirbistan (Sırp despotlarının Osmanlı vasallığı, Curac Brankoviç 1427-1456) · TDV: isa-bey (Enes Pelidija, Feridun Emecen — İshak Bey ve Paşa Yiğit, Îsâ Bey'in faaliyet sahası, Kosača/Pavloviç akrabalığı, 1463-1469 Bosna sancak beyliği)" },
 
 // ── H-0010 · 18 Mart, Nusret ve Seyid Onbaşı ────────────────────────────────
 { id:"p77a-18-mart-nusret-seyid", tur:"sebep-sonuc",

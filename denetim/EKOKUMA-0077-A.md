@@ -143,3 +143,56 @@ Kurtuluş tarafı: Gümüşhane 1918-02-28 (TDV), Rize ve Bayburt **gün bulunam
 - Her çapa `_ekNorm` + `_ekBagEslesir` (app.js'ten birebir kopya) ile sınandı;
   sınav önce bilinen pozitif (1915-03-18) ile ateşlendi, sonra gün kaydırılmış
   negatifle (1915-03-19) gevşek olmadığı gösterildi.
+
+---
+
+## 6. EK GÖREV — PAKET 0080 (M-5320, 28 Eylül 2026)
+
+Aynı dosyaya (`data/ekokuma_p77a.js`, yükleyici satırı zaten `js/app.js`te) 3 kart
+eklendi → toplam **17 kart**. Doğrulayıcı: şema 0 · ses 0 · çapa hepsi tutuyor ·
+725 canlı id'ye çakışma 0.
+
+| Madde | Kart id | Çapa | Hüküm |
+|---|---|---|---|
+| H-0006 | `kimdir-sehzade-halil-orhan-oglu` (kim, hikâye) · `p80-sehzade-halil-sebep-etki-sonuc` (SEBEPLER · ETKİLER · SONUÇLAR ayrı başlıklarla) | 1357-08-01 Şehzade Halil | **sirada** (dosya zaten yükleyicide; yayın inince görünür) |
+| H-0026 | `p80-saray-ovasi-ilhak-1448` | 1448-01-01 Saray ovası | kart **sirada** + harita yüzü **koordinatöre** (§6.2) |
+
+### 6.1 H-0006 — kaynak
+TDV `orhan` (İnalcık) olayı gün gün anlatır: 758/1357'de 11 yaşında İzmit körfezinde
+kaçırılış, Foça valisi Leo Kalothetos, "Bizans sarayının tertibi" yorumu, Orhan'ın
+dört şartlı antlaşması, 1359 Üsküdar-Kızkulesi pazarlığı, **30.000 Venedik altını**,
+İrene ile nişan, veliahtlık vaadi ve unutuluşu. TDV `murad-i`: teslim Eylül-Ekim 1359,
+1359 Haçlı çıkarmasının Lapseki-Saros'ta önlenmesi, 1362'de Halil'in 16 yaşında
+adamlarının taht girişimi.
+**BULUNAMADI:** Halil'in 1362 sonrası akıbeti · kaçırılışın ayı/günü.
+🟡 **Kronoloji notu (başkasının dosyası, dokunulmadı):** `olaylar_ek.js:95`
+`t:"1357-08-01"` ama `gun:"1357"` ve TDV yalnız 758/1357 veriyor → `-08-01`
+kaynağı okunmadı (§4 sahte kesinlik şüphesi; 758 Hicrî yılı 1356 Aralık-1357 Aralık'ı
+kapsar). Hüküm sahibine.
+
+### 6.2 H-0026 — HARİTA ŞÜPHESİ ÖLÇÜLDÜ
+`girdi.yukle()` ile 1448-06-01 günü, kutu 41.8-44.6 K / 17.6-22.0 D (25 yerleşim):
+```
+OSMANLI (d:)        3   Saraybosna · Visoko · Üsküp
+bosna               7   Vişegrad · Foça · Koniçe · Tuzla · İzvornik · Travnik · Herseknovi
+sirp-despotlugu     5   Niş · Alacahisar · Kragujevac · Yagodina · Çaçak
+sirbistan           4   Yenipazar · Priştine · Prizren · Podgorica
+hersek 2 · venedik 2 · macaristan 1 · SAHİPSİZ 1 (Cetinje)
+tâbi (v:)           0
+```
+⇒ Atlasta Saraybosna+Visoko, Üsküp'ten ~250 km ötede **yabancı boyalı** topraklarla
+çevrili bir Osmanlı adası. Emre'nin görseli (H-0026-1.png) tam bunu gösteriyor.
+**Kaynağa göre ada kendisi DOĞRU** (TDV saraybosna: Hodidjed-Saray ovası 1448'de
+tamamen Osmanlı idaresinde, "çift taraflı kontrol"). **Yanlış olan çevresi:**
+- TDV `bosna-hersek` + `saraybosna`: Bosna kralları **1428-1429'da haraca bağlandı**,
+  Stjepan Tomaš (1443-1461) haraç ödemeyi sürdürdü → 1448'de Bosna **tâbi** olmalı;
+  atlasta 7 Bosna yerleşiminin hiçbirinde `v:` yok.
+- TDV `sirbistan`: Sırp Despotluğu Osmanlı **vasalıydı** (Brankoviç 1427-1456) → 5
+  despotluk yerleşiminde de `v:` yok.
+Bu bir **koridor** eksiği değil (kaynakta doğrudan idare edilen bir koridor yok),
+bir **tâbi statüsü eksiği** (`v:` alanı). Tâbi açık renkle çizilseydi ada, Osmanlı
+rengindeki tâbi kuşakla ana karaya bağlı görünürdü. Sınıflandırma ve kime
+verileceği koordinatörün; ben düzeltmedim.
+Ek not: `sirbistan` kimliği (`harita:` anahtarı; künyesi `sirbistan-nemanjic`
+1217-1402) 1448'de Yenipazar/Priştine/Prizren/Podgorica'da kullanılıyor —
+künye penceresini aşıyor mu, ölçmedim (§3.5 sınıflandırma işi).
