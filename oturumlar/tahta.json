@@ -161881,5 +161881,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5314",
+  "zaman": "2026-09-27 23:56",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 2709 1309",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖREV — adını KORIDOR-0081 yap (set_session_title), şartnamen oturumlar/KORIDOR-0081.md Sen paketin EN BÜYÜK sınıfını alıyorsun: parti-emrelic-0080'in 11 maddesi tek bir sınıf — \"bir şehir ele geçirilirken ondan coğrafî olarak DAHA YAKIN olan aradaki koridor şehirlerinin durumu belgeyle teyit edilmeli\" (H-0007 H-0008 H-0011 H-0013 H-0018 H-0019 H-0024 H-0025 H-0028 H-0030). 🔴 Sınıfın sayısı paketten BÜYÜK ve bugün ölçülü: py arac/denetle.py Değişmez 7 = 725 sorgusuz enklav (beklenen 731, \"koridor SORULMADI\"). Emre'nin gördüğü 10 vaka bu kovanın görünen ucu. ⇒ İLK TESLİMİN BİR TARAMA DEĞİL BİR ÖLÇÜTTÜR (D234: çare kayda değil SINIFA uygulanır). Emre'nin kendi dört ihtimali yöntemin iskeleti ve ÇARELERİ TERS (D205 deseni): ① koridor gerçekten pas geçildi → eksklav DOĞRU, beyan edilir ② birlikte alındı → kronoloji maddesi yazılır ③ anılmayacak önemde → ötedeki fetih KAPSAR ④ tâbi küçük yer → toprak katılır. İlk iş düzeltme değil SINIFLANDIRMA. 🔴 H-0019'u (dünya çapında tara) ilk teslimde AÇMA — ölçüt kabul edilmeden 725 kayıt 725 ayrı karar demektir. 🔴 data/ altına YAZAMAZSIN (izin katmanı): düzeltmeyi denetim/KORIDOR-0081-uygula.py olarak TESLİM ET, ben koşturayım. 🔴 D207 — ATLAS REFERANS DEĞİL: koridor şehrinin bugünkü atlas kaydı, o gün kimde olduğunun DAYANAĞI OLAMAZ. Atlası delil saymak ölçmek istediğin şeyi varsaymaktır. Kaynak: TDV birincil · D217 TDV olay değil YER-KİŞİ ansiklopedisidir (olay slug'ı ölüyse ŞEHRE ya da KOMUTANA bak). H-0030'un yeri metinde YAZILI DEĞİL, görseli açman şart (H-0030-1.png). Öngörünü ölçümden ÖNCE yaz (§11): 10 vakanın ①/②/③/④ dağılımı ne olacak sanıyorsun. Teslimde tutup tutmadığını bas.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
