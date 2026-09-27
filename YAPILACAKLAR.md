@@ -1038,3 +1038,84 @@ haritada görülür mü" ölçülür; çare ondan sonra seçilir (`D204` ailesi:
 ölçmeden düzeltme, hatayı öbür tarafa taşır).
 **Kaynak:** `denetim/MOTOR-LEGO-0925-ayikla.md` · tahta M-5186 ② · hüküm M-5187 ④
 **Kalem sahibi:** henüz atanmadı (koordinatör kararı).
+
+
+---
+
+## 🔴 PAKET-0077 — koordinatörde kalan kalemler (27 Eylül 2026)
+
+Dokuz kolun teslimlerinden koordinatöre (Oturum 0) devrolan, hiçbir işçinin
+dosyasında bitmeyen kalemler. Hepsi ÖLÇÜLDÜ; hiçbiri uygulanmadı.
+
+### ① Kars/Ardahan — kronoloji günü mü YANLIŞ, yoksa İKİ OLAY MI? (sınıflandırma)
+`data/olaylar_ek5.js:560` · `t:"1918-05-25"` · `k:"fetih"` ·
+`b:"Elviye-i Selâse: Kars ve Ardahan'ın geri alınışı"`
+**Ölçüm (NOKTA-KAFKAS-0077 §83-84, iki bağımsız kaynak):**
+TDV `kazim-karabekir` — *"25 Nisan 1918'de Kars'ı kurtardıktan sonra 15
+Mayıs'ta Gümrü'ye girdi"* · Sarı-ES — *"14 Nisan 1918'de Batum'a, 25
+Nisan'da da Kars'a girmiştir"*.
+🔴 **AMA DÜZELTME DEĞİL SINIFLANDIRMA GEREKİYOR** (`§3.5`): kaydın başlığı
+askerî alınışı (`k:"fetih"`) söylüyor, `d:` gövdesi ise halk oylamasının
+ardından idarenin kurulmasını anlatıyor. Bunlar bir olay değil **iki olay**
+olabilir — 25 Nisan (askerî) ve Mayıs (idarî). Önce hangisi olduğuna karar
+verilir; "gün yanlış" diye tek satır değiştirmek ikinci olayı yok eder.
+⚠️ Ve harita tarafı buna BAĞLI: `yerlesimler.js` 2 · `yer_yama_kafkas.js` 5
+kayıt `1918-05-25` taşıyor. Kronoloji kayarsa onlar da AYNI koşuda kaymalı,
+yoksa Değişmez 2 açık verir. ⇒ Bu kalem KOŞU-BEKLİYOR.
+
+### ② Hopa 1878'de Osmanlı'da KALDI — `ek27` kaydı yanlış
+NOKTA-KAFKAS ölçtü: Yücetürk 2020 + TDV `lazlar` + Hopa Kaymakamlığı.
+`yerlesimler_ek27.js`'deki Hopa kaydı `rusya 1878-1921` diyor.
+📌 İlginç: `ek28`in başlık notu sınırı *"Hopa'nın doğusundaki Kopmuş Burnu"*
+diye DOĞRU ölçmüş ama ters sonuca varmış — ölçüm doğru, çıkarım yanlış.
+
+### ③ `uret_devirler.py` — `isg:` taraması gövdeyle birleşmiyor (MOTOR kalemi)
+NOKTA-ORTADOGU ölçtü (H-0087): Mısır'daki 163 boş hücre bir KAYIT kusuru
+DEĞİL — 52 noktanın 52'sinde de `isg:` var. Sebep kodda:
+`isgalleri_uret()` taramayı YALNIZ `isg:` noktalarının peteğinden kuruyor,
+oysa noktalar 143-192 km uzakta.
+✅ `uret_devirler.py` MOTOR TUZUNDA DEĞİL (tuz = `uret_petek` · `renkler` ·
+`girdi` · `motor_onbellek`) ⇒ düzeltmesi tam koşu İSTEMEZ.
+⚠️ Değiştirmeden önce NOKTA-ORTADOGU'nun yamalarının inmesi beklenir —
+o betiği koşturuyor, aynı anda değiştirmek çıktıyı ayrıştırır.
+
+### ④ SEFER-OK'un üç `isg:` önerisi (`yerlesimler.js`, koordinatörde)
+İskenderun `isg 1918-11-09 ingiltere` EKSİK · Batum `isg 1918-12-24
+ingiltere` EKSİK · Urfa `1919-01-01` ↔ TDV *"Mart 1919"*.
+ISGAL-BATI'nın uygulanan yamasıyla aynı sınıf; koşu istemez.
+
+### ⑤ Tekirdağ `isg:` — yetki kutusu dışında kaldığı için uygulanmadı
+`denetim/ISGAL-BATI-0077-yama.py` içinde ÖNERİ olarak duruyor:
+`1920-06-20 → 1922-11-13 yunanistan`, TDV `tekirdag`, iki ucu kaynaklı.
+
+### ⑥ Üç künye kararı — EMRE'YE (yeni künye = yeni kapsam)
+NOKTA-KAFKAS kaynaklı ölçtü, açılmadı: **Cenûb-i Garbî Kafkas Hükûmeti**
+(Oca-Nis 1919) · **Dağıstan-Kuzey Kafkasya Cumhuriyeti** (May 1918-1920) ·
+**Aras-Türk Hükûmeti** (Kas 1918).
+📌 `denetle.py` 27 Eylül koşusunda *"1919-04-12 Kars'ın İngiliz işgali —
+Cenûb-ı Garbî Kafkas Hükûmeti dağıtıldı"* diye YENİ bir işgal kırılması
+gördü ⇒ o kimlik veride ZATEN dolaşıyor, künyesi yok.
+
+### ⑦ H-0086 — "şehrin bölgesi ülke sınırını aşamaz" YENİ DEĞİŞMEZ
+Paket 0077 H-0069 + H-0086. Bir çizim düzeltmesi değil, `denetle.py`ye yeni
+bir soru: petek ∩ D-sınır ihlali. Ölçümü AVRUPA-SINIR yapıyor (kaç şehir,
+hangi sınırda, kaç km taşıyor); kuralı koordinatör yazacak.
+⚠️ `§11`: öngörü ölçümden ÖNCE yazılır, ve yeni denetim İKİ YÖNDE
+sınanmadan çalışıyor sayılmaz.
+
+### ⑧ H-0039 — üç Rusya rengi (`renkler.py`, TUZDA — DONDURULDU)
+`renkler.py` motor tuzundadır; `§9.1 ②` gereği biriken motor yamalarıyla
+BİRLİKTE, tek tuz değişimiyle girer. Tek başına dokunmak bütün önbelleği
+öldürür. Sıradaki TAM İNŞA koşusuna bekliyor.
+
+### ⑨ Tahta ölçeklenmiyor — ÖLÇÜLDÜ, boyutu ölçülmedi
+`oturumlar/tahta.json` **16,3 MB / 5.200+ mesaj** ve her yazım bir git
+commit+push yapıyor. On oturum eşzamanlı yazarken **beş mesaj beş dakikadan
+uzun sürdü**. Bugün çalışıyor ama kadro büyüdükçe kötüleşir.
+📌 Yan etki fark edildi: tahta her mesajda push ettiği için koordinatörün
+"push etmedim" dediği commit'ler ZATEN `origin`e gidiyor.
+
+### ⑩ `tahta_bekci.py` docstring'i eski kuralı öğretiyor
+Betiğin belgesi *"Monitor ile kur, kabuğun arka planına ATMA"* diyor;
+`CLAUDE.md §7.2 ④` *"Bash `run_in_background`, Monitor DEĞİL"* diyor.
+Yürürlükte olan yeni, ama betiği okuyan oturum eskiyi öğrenir. (Bkz. `D236`.)
