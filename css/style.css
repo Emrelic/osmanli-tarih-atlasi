@@ -102,6 +102,28 @@
 }
 /* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
 .devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
+/* Emre 27 Eyl: "ek devlet ilan edemiyorum" — rol artık görünür düğmeden */
+.dss-havuz {
+  position: sticky; top: 0; z-index: 1;
+  display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
+  padding: 6px; background: var(--panel-koyu); border-bottom: 1px solid var(--altin);
+  font-size: 12px;
+}
+.dss-cip {
+  display: inline-flex; align-items: center; gap: 2px;
+  padding: 1px 6px; border: 1px solid var(--altin); border-radius: 10px; background: var(--panel);
+}
+.dss-cip-odak { font-weight: 700; }
+.dss-cip-x { border: 0; background: none; cursor: pointer; font: inherit; color: var(--metin); padding: 0 2px; }
+.dss-havuz-bos { opacity: .7; font-style: italic; }
+.dss-nasil { padding: 4px 6px; font-size: 11px; opacity: .8; }
+.devlet-secici-satir .dss-ek {
+  margin-left: 6px; flex: 0 0 auto; cursor: pointer;
+  font: 600 11px Georgia, serif; padding: 1px 6px;
+  border: 1px solid var(--altin); border-radius: 3px; background: var(--panel); color: var(--metin);
+}
+.devlet-secici-satir .dss-ek.secili { background: var(--altin); color: #fff; }
+.devlet-secici-satir .dss-ek:disabled { opacity: .35; cursor: default; }
 
 /* 🔴 `overflow: hidden` HTML'DE DE OLMALI — yalnız body'de yetmiyor.
    Kullanıcı (7 Ağustos 2026): "sayfada bir bozukluk var, butonlar

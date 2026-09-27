@@ -175,6 +175,30 @@ ana maddenin adıyla + sebebiyle düşer ve pencere başlığında "N adım elen
   `alt_kronoloji` (her kayıp bir adım, kaynaklı günüyle) yazılınca çalışır.
 - 📌 Şemayı `VERI-YAPISI.md`ye koordinatör yazar (dosya onda).
 
+## 1c. Üçüncü tur — Emre: *"EK DEVLET İLAN EDEMİYORUM"* (M-5264) · `cozuldu`
+**Ölçüm — hangisi: yol yok mu, görünmüyor mu? → YOL VARDI, GÖRÜNMÜYORDU:**
+- Rol TIKLAMA SIRASINDAN türüyordu: Osmanlı odakken ilk tık = ODAK, sonraki
+  tık = EK. Bu kural panelde hiçbir yerde yazmıyordu.
+- Panel her tıkta kapanıyordu ⇒ bir ek eklemek **4 tık** (aç · tık · yeniden aç · tık).
+- Tuzak: odak doluyken başka devlete tıklamak ODAĞI değiştirmiyor, onu
+  sessizce EK yapıyordu — beklenenin tersi.
+**Çare — rol görünür düğmeden, gizli kısayol YOK:**
+- Satıra tık = **ODAK yap** (panel kapanır; Osmanlı da odak olabilir).
+- Her satırda **"+ ek"** düğmesi = havuza kat/çıkar (**panel AÇIK kalır**, art
+  arda eklenir; ekliyken "✓ ek"; odak satırında pasif). Kaydırma yeri korunur.
+- Panelin başında yapışkan **havuz şeridi**: `ODAK: …` + her ek için `EK: … ×`
+  (× ile çıkar) + boşken "ek devlet yok — satırdaki “+ ek” ile ekleyin".
+- Altında tek satır kullanım: "Satıra tıkla → ODAK yap · “+ ek” → kronolojisini havuza kat".
+- Düğme yazısı havuzu gösterir: `☪ Osmanlı + Rusya, Venedik ▾`.
+**Sınandı (canlı):** Osmanlı odak → Rusya "+ ek" → Venedik "+ ek": düğme
+`☪ Osmanlı + Rusya, Venedik`, panel açık, kaydırma 5000→5000, sayaç
+`1625 ana + 49 ek` · Rusya satırına tık → `ODAK: Rusya … EK: Venedik`, panel
+kapandı · Osmanlı "+ ek" → EK: Venedik, Osmanlı · Rusya'nın "+ ek"i pasif ·
+Venedik çipinde × → `EK: Osmanlı` · ⏭ havuzda: Rusya 1283 → Osmanlı 1285 →
+Osmanlı 1288 · ↺ → `☪ Osmanlı`. Konsol hatası 0.
+**Davranış değişikliği (bilerek):** odak değiştirilince eski odak havuzda
+KALMAZ (tek tık tek iş); kalsın istenirse "+ ek".
+
 ## 2. İstediklerim
 1. **H-79:9 kapsamı:** kalan ~79 öğenin metni `index.html` `title`ına mı
    (öneri) `IPUCU_EK`e mi?

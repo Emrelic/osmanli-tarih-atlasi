@@ -13484,7 +13484,12 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     if (!secButon) return;
     var ozet = ODAK ? ODAK.ad : "☪ Osmanlı";
     if (EK_SECILI.length) {
-      ozet += " + " + EK_SECILI.length + " ek";
+      // Havuz düğmede de GÖRÜNÜR: ilk iki ek adıyla, gerisi sayıyla.
+      var adlar = EK_SECILI.slice(0, 2).map(function (e) {
+        var x = e === "osmanli" ? OSMANLI_SYNTH : bul(e);
+        return x ? x.ad.split(" ")[0] : e;
+      });
+      ozet += " + " + adlar.join(", ") + (EK_SECILI.length > 2 ? " +" + (EK_SECILI.length - 2) : "");
     }
     secButon.textContent = ozet + " ▾";
   }
@@ -13520,38 +13525,35 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     harita.setFilter("devlet-odak-vurgu", ["==", ["get", "id"], kimlik]);
   }
 
-  function satirTikla(id) {
+  // 🆕 ARAYUZ-0077-B — Emre (27 Eylül, canlı): *"odak devlet için tıklayınca
+  // odak değişiyor ama EK DEVLET İLAN EDEMİYORUM."* ÖLÇÜLDÜ — yol VARDI ama
+  // GÖRÜNMÜYORDU: rol TIKLAMA SIRASINDAN türüyordu (Osmanlı odakken ilk tık
+  // = ODAK, sonraki tık = EK) ve bu hiçbir yerde yazmıyordu; panel her tıkta
+  // kapandığı için ek eklemek 4 tıktı (aç · tık · yeniden aç · tık). Üstelik
+  // odak doluyken başka devlete tıklamak ODAĞI DEĞİŞTİRMİYOR, onu sessizce EK
+  // yapıyordu — kullanıcının beklediğinin tersi.
+  // ⇒ ROL ARTIK DÜĞMEDEN: satıra tık = ODAK YAP (panel kapanır) · satırdaki
+  //   görünür "+ ek" düğmesi = HAVUZA EKLE/ÇIKAR (panel AÇIK kalır, art arda
+  //   eklenebilir) · panelin başında havuz şeridi (kim odak, kimler ek, × ile
+  //   çıkar). Gizli kısayol YOK — koordinatörün uyarısı (M-5264).
+  function satirTikla(id, ekMi) {
     var eskiOdakId = ODAK ? ODAK.id : null;       // KUSUR ③ — odak GERÇEKTEN değişti mi?
+    var odakId = ODAK ? ODAK.id : "osmanli";      // Osmanlı odakken ODAK = null
     if (id === "__sifirla__") {
-      ODAK = null; EK_SECILI.length = 0;        // "↺ Yalnız Osmanlı" — eski Osmanlı satırının işi
-    } else if (id === "osmanli") {
-      // 🆕 ARAYUZ-0077-B · H-79:16 — Emre: *"aynı anda osmanlı rusya avusturya
-      // … venedik lehistan iran seçebilmeliyiz … aynı havuza dökülecek."*
-      // Eskiden Osmanlı satırı odağı SIFIRLIYORDU ⇒ Osmanlı başka bir devletle
-      // AYNI havuza HİÇ giremiyordu. Artık öteki satırlar gibi AÇ/KAPA:
-      //   Osmanlı odak + ek var  → Osmanlı çıkar, ilk ek odağa yükselir
-      //   başka devlet odak      → Osmanlı EK olur / ek ise çıkar
-      // Sıfırlama ayrı satıra taşındı (`__sifirla__`).
-      if (!ODAK) {
-        if (EK_SECILI.length) ODAK = bul(EK_SECILI.shift());
-      } else {
-        var oi = EK_SECILI.indexOf("osmanli");
-        if (oi >= 0) EK_SECILI.splice(oi, 1); else EK_SECILI.push("osmanli");
+      ODAK = null; EK_SECILI.length = 0;        // "↺ Yalnız Osmanlı"
+    } else if (ekMi) {
+      // "+ ek" — odak olan devlet ek olamaz (düğmesi zaten pasif)
+      if (id !== odakId) {
+        var i = EK_SECILI.indexOf(id);
+        if (i >= 0) EK_SECILI.splice(i, 1); else EK_SECILI.push(id);
       }
-    } else if (ODAK && ODAK.id === id) {
-      // zaten ODAK'tı → kaldır; sıradaki EK varsa o ODAK'a YÜKSELİR
-      // ("osmanli" yükselirse `bul` null döner ⇒ ODAK=null = Osmanlı odak, doğru.)
-      var yeni = EK_SECILI.shift();
-      ODAK = yeni ? bul(yeni) : null;
-    } else {
-      var i = EK_SECILI.indexOf(id);
-      if (i >= 0) {
-        EK_SECILI.splice(i, 1);                 // zaten EK'ti → kaldır
-      } else if (!ODAK) {
-        ODAK = bul(id);                         // ODAK boştu (Osmanlı) → İLK SEÇİM, ODAK OL
-      } else {
-        EK_SECILI.push(id);                     // ODAK doluydu → SIRADAKİ, EK OL
-      }
+    } else if (id !== odakId) {
+      // ODAK YAP — H-79:16: Osmanlı da odak olabilir (ODAK = null). Yeni odak
+      // havuzda EK idiyse oradan çıkar; eski odak BIRAKILIR (ekte kalmasını
+      // isteyen "+ ek"e basar — tek tık tek iş).
+      var j = EK_SECILI.indexOf(id);
+      if (j >= 0) EK_SECILI.splice(j, 1);
+      ODAK = id === "osmanli" ? null : bul(id);
     }
     // 🔴 21 Ağustos — Emre (ekran görüntüsü, KUSUR ③): "alttaki detay kutusu
     // hâlâ Osmanlı maddesini gösteriyor" — odak değişince `#olay-bilgi`
@@ -13569,7 +13571,7 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     // kapanmıyor, böyle açık kalıyor." Seçim yapılınca panel KAPANIR — normal
     // bir `<select>`in davranışı buydu, biz onu TEK panelde birleştirirken
     // (çoktan seçmeli, ama her tık bir SEÇİM/İŞLEM) bu kapanmayı unutmuşuz.
-    if (secPanel) secPanel.classList.add("gizli");
+    if (secPanel && !ekMi) secPanel.classList.add("gizli");   // "+ ek" paneli AÇIK bırakır
     console.log("Atlas: odak → " + (ODAK ? ODAK.ad + " · " + ODAK.kronoloji.length + " kronoloji maddesi" : "Osmanlı (varsayılan)")
                 + (EK_SECILI.length ? "  ·  ek: " + EK_SECILI.join(", ") : ""));
     guncelle();
@@ -13578,7 +13580,45 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
   function panelDoldur() {
     rolYaz();
     if (!secListe) return;
+    // "+ ek" paneli açık bırakır ⇒ yeniden çizimde kaydırma yeri KORUNMALI,
+    // yoksa 675 satırlık liste her eklemede başa döner.
+    var eskiKaydirma = secListe.scrollTop;
+    requestAnimationFrame(function () { secListe.scrollTop = eskiKaydirma; });
     secListe.innerHTML = "";
+    // ---- HAVUZ ŞERİDİ: kim odak, kimler ek — görünür ve × ile çıkarılabilir
+    var havuz = document.createElement("div");
+    havuz.className = "dss-havuz";
+    var hOdak = document.createElement("span");
+    hOdak.className = "dss-cip dss-cip-odak";
+    hOdak.textContent = "ODAK: " + (ODAK ? ODAK.ad : "Osmanlı");
+    hOdak.setAttribute("data-ipucu", "Odak devlet: kronoloji listesi, ⏮ ⏭, oynatma ve tarih kutusu bu devletin kronolojisinde çalışır. Değiştirmek için aşağıda başka bir satıra tıklayın.");
+    havuz.appendChild(hOdak);
+    if (!EK_SECILI.length) {
+      var hBos = document.createElement("span");
+      hBos.className = "dss-havuz-bos";
+      hBos.textContent = "ek devlet yok — satırdaki “+ ek” ile ekleyin";
+      havuz.appendChild(hBos);
+    }
+    EK_SECILI.forEach(function (eid) {
+      var ed = eid === "osmanli" ? OSMANLI_SYNTH : bul(eid);
+      var cip = document.createElement("span");
+      cip.className = "dss-cip";
+      cip.style.borderColor = ekRenk(eid);
+      cip.textContent = "EK: " + (ed ? ed.ad : eid) + " ";
+      var x = document.createElement("button");
+      x.type = "button";
+      x.className = "dss-cip-x";
+      x.textContent = "×";
+      x.setAttribute("data-ipucu", "Bu devleti havuzdan çıkarır.");
+      x.addEventListener("click", function (ev) { ev.stopPropagation(); satirTikla(eid, true); });
+      cip.appendChild(x);
+      havuz.appendChild(cip);
+    });
+    secListe.appendChild(havuz);
+    var nasil = document.createElement("div");
+    nasil.className = "dss-nasil";
+    nasil.textContent = "Satıra tıkla → ODAK yap · “+ ek” → kronolojisini havuza kat (birden çok seçilebilir)";
+    secListe.appendChild(nasil);
     if (ODAK || EK_SECILI.length) {
       var sif = document.createElement("div");
       sif.className = "devlet-secici-satir dss-sifirla";
@@ -13603,7 +13643,18 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
       var rozet = document.createElement("span");
       rozet.className = "dss-rozet";
       rozet.textContent = rol === "odak" ? "ODAK" : rol === "ek" ? "EK" : "";
-      satir.appendChild(nokta); satir.appendChild(ad); satir.appendChild(rozet);
+      var ekBtn = document.createElement("button");
+      ekBtn.type = "button";
+      ekBtn.className = "dss-ek" + (rol === "ek" ? " secili" : "");
+      ekBtn.textContent = rol === "ek" ? "✓ ek" : "+ ek";
+      ekBtn.disabled = rol === "odak";
+      ekBtn.setAttribute("data-ipucu", rol === "odak"
+        ? "Bu devlet zaten odak — ek olamaz."
+        : rol === "ek" ? "Havuzdan çıkar."
+        : "Bu devletin kronolojisini odak devletinkiyle aynı havuza katar (panel açık kalır, birden çok ekleyebilirsiniz).");
+      ekBtn.addEventListener("click", function (ev) { ev.stopPropagation(); satirTikla(d.id, true); });
+      satir.appendChild(nokta); satir.appendChild(ad); satir.appendChild(rozet); satir.appendChild(ekBtn);
+      satir.setAttribute("data-ipucu", rol === "odak" ? "Odak devlet." : "Tıkla: bu devleti ODAK yap.");
       satir.addEventListener("click", function () { satirTikla(d.id); });
       secListe.appendChild(satir);
     });
