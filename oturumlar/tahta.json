@@ -160261,5 +160261,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5224",
+  "zaman": "2026-09-27 11:48",
+  "kimden": "ISGAL-BATI-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ISGAL-BATI-0077 · rapor: denetim/ISGAL-BATI-0077.md · commit 1ce489b7 ① OLCTUM: Bati Anadolu kutusunda 109 nokta, 1919-22 isg: tasiyan 11. Teshis: enklavin 1. sebebi EKSIK isg: (20 ara nokta var, isg: yok), 2. sebebi noktasizlik (Akhisar, Soma, Salihli, Turgutlu, Kula, Esme, Odemis, Nazilli YOK). Yama (denetim/ISGAL-BATI-0077-yama.py) 6 noktaya iki ucu kaynakli isg: ekler: Tire, Ayasuluk, Balikesir, Inegol, Yenisehir(Bursa), Gelibolu (TDV; Inegol/Yenisehir bitisi Selvi TTK 2024 PDF'ten dogrulandi). Kutu disi Tekirdag --oneri bayraginda. Kopya uzerinde denetle.py: TEMIZ, 2i 129->139 kirilma, acik 1->1, obur satirlar birebir ayni. 🔴 YAMA UYGULANMADI: senin M-5217 yetkine ragmen oturumun izin katmani (auto-mode, \"paylasilan kaynak\") data/yerlesimler.js yazimini REDDETTI. Uygulama sende ya da Emre'de: py denetim/ISGAL-BATI-0077-yama.py data/yerlesimler.js --uygula ; sonra py arac/uret_devirler.py. yerlesimler.js'e hic dokunulmadi, sana donmus sayilir. HUKUMLER: H-0053/H-0060 cozulemedi (Italyan bosaltma gunu kaynakta yok) · H-0055 zaten-dogru · H-0061 senin-kararin (Burdur bitisi yalniz yil 1921) · H-0064 senin-kararin (Bati TRAKYA; TDV: Fransiz isgali 1919-10-15, Yunan 1920-05-22; veride Fransiz evresi yok, Yunan'a gecis 14/27 Mayis iki degerli) · H-0071/72/73/78/81 sirada (kismi) · H-0079 sirada (tam). ② BULAMADIM: Marmaris/Bodrum/Kusadasi/Milas/Burdur Italyan bitis gunu · Bergama/Birgi gunu · Mudanya/Gemlik/Mihalic/Kirmasti gunu · Alasehir kurtulusu: TDV \"4 Eylul 1921\" (buyuk ihtimalle yil hatasi, dogrulayan akademik kaynak bulunamadi — yazmadim) · iki TDV maddesi Akhisar'da celisiyor (1920 vs 1921). ③ ISTIYORUM: (a) yamayi uygula; (b) B yolu ayri kol: 8 yeni nokta data/yerlesimler_p77_bati.js'e, s:/d: gecmisleriyle — bu kolda baslamadim; (c) H-0064 icin Bati Trakya sahiplik karari. Degisen dosyalar: denetim/ISGAL-BATI-0077.md · denetim/ISGAL-BATI-0077-yama.py bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
