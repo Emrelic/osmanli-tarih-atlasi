@@ -199,6 +199,39 @@ Osmanlı 1288 · ↺ → `☪ Osmanlı`. Konsol hatası 0.
 **Davranış değişikliği (bilerek):** odak değiştirilince eski odak havuzda
 KALMAZ (tek tık tek iş); kalsın istenirse "+ ek".
 
+## 1d. ODAK-MEKANIZMA-0080 — bölge dolguları adıyla kamera hedefi · `cozuldu` (app.js ①)
+Şartname `oturumlar/ODAK-MEKANIZMA-0080.md`. **Öngörü (yamadan önce yazıldı):**
+`odak_olc.py --kusur` bugün 1 (Ogaden); yama `app.js`te Ogaden'i çözer ama
+kapı `odak_cozum.js` genişleyene (adım ②) kadar 1 demeye DEVAM eder —
+kapı app.js'i taklit ediyor, kendiliğinden düşmez.
+**Yama:** `AD_KONUM` havuzu (`ISARET_KAYNAK` aynı sırayla + d/v/s'siz,
+koordinatlı yerleşimler) + `adKonumBul(ad)`; `olayKonumu` `yer_id` dalı ve
+`maddeOdakKutusu` `odak_yer` dalı ona bakar. `sehirler` TANIMI DEĞİŞMEDİ
+(işaret/dizin/etiket yolları aynen). Eşleşme birebir ya da `" ("` öncesi.
+**Ölçüldü (canlı):**
+- havuz 4146 → 4296 (+150; tür: bolge 119 · sehir 27 · kale 2 · köy 1 · liman 1)
+- **eşdeğerlik:** evren 5662 ad (bütün yerleşim adları + önekleri + verideki
+  7497 `yer_id`/`odak_yer` atfı): bugün çözülen **5480 adın 5480'i aynı
+  koordinat**, değişen 0, kaybolan 0 · yeni çözülen 182 ad (150 kayıt + önek
+  biçimleri) · verideki maddelerden yeni çözülen **yalnız `1897-01-01 Ogaden`**
+  (şartnamenin sayısı).
+- kamera: `olayKonumu({yer_id:"Ogaden"})` → 7,2°K 44°D · `haritayiOlayaGotur`
+  → `flyTo [44, 7.2] z5.37` (eskiden konumsuz dala düşüp yerinde kalıyordu).
+- `odak_olc.py --kusur` yamadan sonra: hâlâ 1 (öngörüldüğü gibi — adım ② sende).
+
+**④/6 KARARI — ölçüm ve öneri (hüküm sende):** anahtar `BOLGE_ISARET`
+(tek satır; `isaretYanipSon` içinde tek kapı, bütün çağıranlar oradan geçer).
+- Ölçüm: `yer_id` çözülünce konan işaret KALICI bir şehir noktası DEĞİL —
+  1,8 sn yanıp sönen halka (+ savaşsa glif). Kalıcı nokta/etiket/dizin satırı
+  `sehirler`den gelir ve düşen 150'ye HİÇ oluşmaz.
+- Ölçüm: bugün `sehirler`de zaten **92 tur:"bolge"** yerleşim var (d/v/s'li)
+  ve onların merkezinde halka BUGÜN yanıyor.
+- İki yönde sınandı: (a) `true` → Ogaden'de halka 1 · (b) `false` → İstanbul 1,
+  Ogaden 0 ve önceki halka silindi.
+- **Önerim (a) (şu anki değer `true`):** halka geçici, "şehir" gibi kalıcı iz
+  bırakmıyor; (b) yalnız 150 yeniye değil o 92 eski bölgeye de uygulanır —
+  bugünkü davranışı sessizce değiştirirdi. (b) istenirse tek satır: `BOLGE_ISARET = false`.
+
 ## 2. İstediklerim
 1. **H-79:9 kapsamı:** kalan ~79 öğenin metni `index.html` `title`ına mı
    (öneri) `IPUCU_EK`e mi?

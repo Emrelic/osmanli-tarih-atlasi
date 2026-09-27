@@ -3150,6 +3150,45 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
       })
   : (window.SEHIRLER || []);
 
+// 🆕 ODAK-MEKANIZMA-0080 (27 Eylül 2026) — KAMERA İÇİN AD→KOORDİNAT HAVUZU.
+// Yukarıdaki süzgeç İŞARET içindir ("burada işaretlenecek olay var mı?" →
+// d/v/s şart) ve DOĞRUDUR. Kusur, çıktısının KAMERA çözümünde yeniden
+// kullanılmasıydı: `olayKonumu` ve `maddeOdakKutusu`nun `odak_yer` dalı yalnız
+// ad/lat/lon okur, sahipliğe hiç dokunmaz. Ölçüldü: 4296 yerleşimin 150'si
+// süzgeçten düşüyor (119'u tur:"bolge" — Ogaden, Tibesti, Karakum …), 150'sinin
+// de koordinatı var ⇒ adıyla kamera hedefi OLAMIYORLARDI.
+// ⇒ AYRI havuz; `sehirler` DEĞİŞMEZ (27 kullanım yeri: işaret DOM'u, etiket
+//   çakışması, dizin sekmesi — genişletmek arayüzü değiştirirdi).
+// 🔴 SIRA SÖZLEŞMESİ: önce `ISARET_KAYNAK` AYNI sırayla, SONRA düşenler. İlk
+//   eşleşme kazandığı için bugün çözülen HER adın sonucu BİT BİT aynı kalır;
+//   düşen kayıt yalnız bugün "yok" dönen adı çözer.
+// Eşleşme BULANIK DEĞİL: birebir ad ya da " (" öncesi (tek esneklik, eskisi gibi).
+var AD_KONUM = (function () {
+  var havuz = [];
+  ISARET_KAYNAK.forEach(function (s) {
+    havuz.push({ ad: s.ad, lat: s.lat, lon: s.lon, bolge: s.tur === "bolge" });
+  });
+  var n = 0;
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if ((y.d && y.d.length) || (y.v && y.v.length) || (y.s && y.s.length)) return;  // zaten yukarıda
+    if (typeof y.lat !== "number" || typeof y.lon !== "number" || !y.ad) return;
+    havuz.push({ ad: y.ad, lat: y.lat, lon: y.lon, bolge: y.tur === "bolge" });
+    n++;
+  });
+  console.log("Atlas: AD_KONUM — " + havuz.length + " ad (" + n + " yalnız kamera için: sahiplik dönemsiz dolgu/bölge)");
+  return havuz;
+})();
+function adKonumBul(ad) {
+  for (var i = 0; i < AD_KONUM.length; i++) {
+    var p = AD_KONUM[i];
+    if (p.ad === ad || p.ad.split(" (")[0] === ad) return p;
+  }
+  return null;
+}
+// Karar ④/6 (hüküm koordinatörde): bölge dolgusunun merkezinde işaret HALKASI
+// yansın mı? true = (a) aynı davranış · false = (b) yalnız kamera gider.
+var BOLGE_ISARET = true;
+
 var sehirler = ISARET_KAYNAK.map(function (s) {
   var dis = document.createElement("div");
   var ic = document.createElement("div");
@@ -11504,12 +11543,11 @@ harita.on("zoomstart", function (e) {
 function olayKonumu(o) {
   if (o.yer_kon && o.yer_kon.length === 2) return { lat: o.yer_kon[0], lon: o.yer_kon[1] };
   if (o.yer_id) {
-    for (var i = 0; i < sehirler.length; i++) {
-      var ad = sehirler[i].s.ad;
-      // Birebir eşleşme + parantezli lakabın öncesi (deterministik dönüşüm,
-      // skor YOK — "Bapheus (Koyunhisar)" gibi kayıtlar için tek esneklik).
-      if (ad === o.yer_id || ad.split(" (")[0] === o.yer_id) return { lat: sehirler[i].s.lat, lon: sehirler[i].s.lon };
-    }
+    // Birebir eşleşme + parantezli lakabın öncesi (deterministik dönüşüm,
+    // skor YOK — "Bapheus (Koyunhisar)" gibi kayıtlar için tek esneklik).
+    // ODAK-MEKANIZMA-0080: `sehirler` (işaret havuzu) değil `AD_KONUM` (kamera havuzu).
+    var p = adKonumBul(o.yer_id);
+    if (p) return p.bolge ? { lat: p.lat, lon: p.lon, bolge: true } : { lat: p.lat, lon: p.lon };
   }
   return null;
 }
@@ -11706,7 +11744,7 @@ function maddeOdakKutusu(o) {
   //   doğrudur; yalnız kamera artık imparatorluk kutusuna değil odak yerine gider.
   //   İki alan çelişmiyor, iki AYRI şey söylüyorlar.
   //
-  // Ad çözümü `olayKonumu` ile AYNI: `sehirler` içinde BİREBİR ad ya da " ("
+  // Ad çözümü `olayKonumu` ile AYNI: `AD_KONUM` içinde BİREBİR ad ya da " ("
   // öncesi. Bulanık eşleşme YOK (aynı sebeple — bugüne kadar beş kez yanlış çıktı).
   // Tek ad verilirse 0,35°'lik pay şehir kademesinde bir kutu kurar (app.js'in
   // kendi ölçümü: "bir şehir ~66 km"); birden çok ad verilirse hepsinin kutusu.
@@ -11716,11 +11754,7 @@ function maddeOdakKutusu(o) {
   if (oyer && oyer.length) {
     var ox0 = 180, oy0 = 90, ox1 = -180, oy1 = -90, oyn = 0, oyYok = [];
     oyer.forEach(function (ad) {
-      var bul = null;
-      for (var i = 0; i < sehirler.length; i++) {
-        var sad = sehirler[i].s.ad;
-        if (sad === ad || sad.split(" (")[0] === ad) { bul = sehirler[i].s; break; }
-      }
+      var bul = adKonumBul(ad);            // ODAK-MEKANIZMA-0080: kamera havuzu
       if (!bul) { oyYok.push(ad); return; }
       oyn++;
       if (bul.lon < ox0) ox0 = bul.lon; if (bul.lon > ox1) ox1 = bul.lon;
@@ -12585,6 +12619,9 @@ function isaretYanipSon(hedef, glif) {
   try {
     if (_yanipSonZaman) { clearTimeout(_yanipSonZaman); _yanipSonZaman = null; }
     if (_yanipSonEl) { _yanipSonEl.remove(); _yanipSonEl = null; }
+    // ODAK-MEKANIZMA-0080 ④/6 — tek kapı; ÖNCEKİ halka yine de silinir
+    // (yoksa bir önceki maddenin halkası bölge maddesinde asılı kalır).
+    if (hedef && hedef.bolge && !BOLGE_ISARET) return;
     var el = document.createElement("div");
     el.className = "odak-parlama";
     if (glif) {
