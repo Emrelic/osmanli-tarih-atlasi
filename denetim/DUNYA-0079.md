@@ -67,5 +67,13 @@ Yan bulgu (yama DIŞI, **olculecek**): 260 km içindeki 14 nokta (Vladimir · Su
 Yaroslavl 1463, Kasimov 1452'den Kasım Hanlığı. Bu yıllar kaynakla doğrulanmadı. 1281-1325'te bunları `altinorda` gösteriyoruz,
 oysa Vladimir/Rostov/Yaroslavl kendi knezlikleriydi (Tver/Ryazan gibi). Aynı D204 sınıfından ayrı bir iş.
 
+## Uygulayıcı betik (M-5276 isteği)
+`py denetim/DUNYA-0079-uygula.py` kuru koşudur. Yazmak için `--uygula`, B3 Dobruca için ayrıca `--dobruca`. Veri kopyası üzerinde sınandı (scratchpad, gerçek `data/` temiz):
+- 1. koşu **44/44** (A 16 · B 26 · C 2) · 2. koşu **0/44**, idempotent · `--dobruca` +3, tekrarında 0.
+- Kopyada `denetle.py` rc=0. Bütün değişmezler ✓ · 1 sahipsiz 314 → 314 · 2 açık 0 · 2s açık 180 → 180 ·
+  **4d 357 → 331** (−26 hayalet dönem).
+- A komşu sınavı: 16 noktanın hepsinde 1873'te ≤ 400 km'de ABD noktası var (en uzak Tubac 352 km).
+- C1 kronoloji maddesi ve künyenin `kaynak:` notu betikte YOK (kalemim değil). Betik yalnız `moskova` künyesinin `f` alanına dokunur.
+
 ## Değişen dosyalar
-`denetim/DUNYA-0079.md` · `denetim/DUNYA-0079-yama.txt`. Veriye dokunulmadı.
+`denetim/DUNYA-0079.md` · `denetim/DUNYA-0079-yama.txt` · `denetim/DUNYA-0079-uygula.py`. Veriye dokunulmadı.
