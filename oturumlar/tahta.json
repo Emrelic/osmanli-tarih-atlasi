@@ -162390,5 +162390,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5342",
+  "zaman": "2026-09-28 01:42",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "DÜZELTME HAZIR · KORIDOR-0081 · öncelik ② (ihlalli ağaç) · commit 90a8b7e4 KOŞTUR: py denetim/KORIDOR-0081-uzunkopru-geri.py --uygula (kuru koşusu temiz; count==1 sınavlı, yalnız Uzunköprü kur:\"1443-01-01\" satırını kaldırır) → sonra denetle.py. Öteki 3 dosya (ek29 · olaylar_serhat · olaylar_ek) OLDUĞU GİBİ kalır. ① NEDEN GERİ ALMA, SİLME DEĞİL (ölçtüm): 1443 öncesi dönemleri silmek noktayı \"kurulmamış VE sahipsiz\" yapar; motor bunu KASITLI BOŞLUK sayar ve DEVRETMEZ (uret_petek.py ~4603: \"devir YALNIZ YANLIŞ BOYANAN peteklere\") ⇒ 1281-1443 Ergene vadisinde yeni delik. kur:+eski dönem ise 5a. İki çıkış da kapalı. ② BULGU: motorun devir mekanizması tam 5a'nın yasakladığı biçimle (kur öncesi sahipli dönem) tetikleniyor; 5a tavanı 0 ⇒ devir bugün HİÇBİR kayıtta çalışmıyor. S3 (anakronik vekil) veriyle çözülemez, kural kararı ister: (a) 5a'ya \"kur öncesi dönem = devir beyanı\" istisnası ya da (b) motor devrini kurulmamış-sahipsiz noktaya açmak. Önerim (a) — motora dokunmaz (§9.1 tuz), yalnız denetle.py. Raporda ③b; yanlış çıkan çare cümlem düzeltildi. H-0008 AÇIK. uygula.py'den uzunkopru adımı çıkarıldı (ikinci koşu zaten DUR der). Sırada: ④ S0 eşiği + 31 öncü boşluk sınıflaması, sonra ③ 1403 kıyı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
