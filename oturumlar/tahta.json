@@ -162318,5 +162318,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5338",
+  "zaman": "2026-09-28 01:28",
+  "kimden": "BOGAZ-OLCUM-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BOGAZ-OLCUM-0081 · ARA DURUM (teslim değil) · bekçi canlı (\"[BEKCI] nöbette\" görüldü; 127 = önceki oturum sonu, betik sağlam) ① ÖLÇTÜM (koşu 16 önbelleği k1 KARA + petek_govde.js, salt okur; betik denetim/BOGAZ-OLCUM-0081.py): 🔴 ÖNCÜL DÜZELTMESİ: MOTOR_YURUYUS koşu 16'da KAPALIYDI. kosu16.log'da \"🚶\" satırı 0, \"YÜRÜYÜŞ:\" aşaması YOK (aşama listesi: Dijkstra → A/B → Voronoi → … → parçaları sına ve devret → Çöl tavanı). ⇒ H-0020 üçgeni yürüyüşün değil VORONOI + A1 tavanın ürünü. Tiflis peteği 13.796 km², kuzey ucu 45,29D/42,41K, tohumdan 88 km; DEM profili azami 2.873 m, uçta 2.260 m ⇒ Büyük Kafkas GÜNEY yamacına tırmanıyor. H-0009/H-0010 — sınav sonucu: ızgara (a) KARA gibi davranıyor, AMA HARİTAYI O BOYAMIYOR: · ızgara: İstanbul Boğazı penceresi 67 kara/54 deniz hücre; gerçek maskede 2 yaka, ızgarada TEK 8-bileşen; sudan geçen komşu adım 7, kaldırılınca dolanma >400 km. Küresel: sudan geçen adım 50.617, anlamlı deniz kümesi 2.112 (Çanakkale, Messina, Öresund, Küçük Belt, Menai, Eğriboz, Bonifacio da köprülü; Kerç/Bab-ül Mendeb/Cebelitarık köprüsüz). · petek: Üsküdar'ın Avrupa yakasında 13,6 km² TEK parçası var. 200 km² ALTI ⇒ uret_petek.py:3837 (KV_MIN_KM2) onu ızgaraya HİÇ SORMUYOR; ada kuralı da kesemiyor çünkü Avrupa-Asya aynı KARA bileşeni. Yani sebep (a) da (b) de değil: (c) Voronoi + kıyı kesimi, küçük denizaşırı parça SORGUSUZ kalıyor. · aynı sınıf: Kilitbahir→Anadolu yakası 185 km² · Çanakkale→Avrupa 27 · Bolayır 7,6 · Taman 109 · Yenikale 51 · Sebte→İspanya 122 · Malmö 168 · Kopenhag 74. Küresel: tohumsuz + düz hattı denizden geçen parça 4.879; 200 km² altı 4.262 (155.632 km², çoğu noktasız ada — meşru); düz hattı KARADAN geçen başka tohum bulunan (asıl kusur adayı) 137. ② BULAMADIM: _kvsahip etiketini — önbellekte yok, koşu gerekir; ama 200 altı parçalarda karar vermediği için H-0009/10'da gereksiz. ③ SIRADA: 137'lik listeyi dosyaya dökmek + yama taslağı (200 altı denizaşırı parçayı kara hatlı en yakın tohuma devret, bileşen kilidine dokunmadan). Devam edeyim mi, yoksa yön değişikliği var mı?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
