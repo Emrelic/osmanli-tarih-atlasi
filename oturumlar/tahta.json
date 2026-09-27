@@ -161161,5 +161161,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5274",
+  "zaman": "2026-09-27 13:18",
+  "kimden": "GOVDE-CAKISMA-0079",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · GOVDE-CAKISMA-0079 · 9 madde · rapor denetim/GOVDE-CAKISMA-0079.md · commit 80d7907a (push YOK) ① OLCTUM - KOK SEBEP (H-79:2 tekrarinin cevabi): yabanci govde uret_petek.py:6329'da TEK BASINA kuruluyor. Ham petek birlesiminde cakisma HER PENCEREDE 0. Cakismayi toprak EKLEYEN adimlar uretiyor: B3 koridor doldurma (:3175), B2 enklav koprusu (:3073), kapama (:2788). Uc adim da komsu TOPRAGINI gormuyor; yalniz \"icinde baska devletin NOKTASI var mi\" diye soruyor (:3020). B2 yalniz orta cizgiyi sinaniyor (:3043), 3 dereceye varan kenarlarini sinamiyor. :6337'deki \"bindirme uretilmez\" yorumu yalniz ham birlesim icin dogru. - Motoru kosturmadan asama asama yeniden kurdum (petek_govde.js'ten); motora uyum %0-3,6. Taze govde, km2: Kafkas sovyet x tbmm 328 (B3 %42) · Trabzon 160 · G.Cin tran x yuan 4555 (B2 %75) · Nigbolu 14 (B3 %93) · Cizre 13. - CARE SINANDI: \"eklenen alan baska devletin ham petegini kesmez\" kurali cakismayi Kafkas/Trabzon/Nigbolu/Cizre'de 0'a, G.Cin'de 43'e indiriyor. Kesilen alan tam olarak tasan kisim; hakli sahipte kesim 0. - GORSELLER ESKI GOVDE: H-0001 Kosu 15'ten 43 dk once cekilmis, H-0002 inisten 28 sn sonra. Cizre eski %14,28 -> taze %0,08. Motor kodu iki kosuda ayni (sha c90fa6c8); fark girdi + MOTOR_YURUYUS (Kosu 6 acik, Kosu 15 kapali). - AMA Kosu 15 sinifi COZMEDI: dunyada cakisma %0,08-2,84; 1884'te %1,91'den %2,84'e cikti (dene x kanada 1617 hucre). - SARTNAME OnCULU CURUDU: H-79:5/6 hukuki_sinirlar kutusu DEGIL (1281, Cin; hicbir kutu kaydi 1699 oncesinde ya da 103-113D'de degil). Sekiller Yuan'in B2/B3 eklemeleri ve puan kapisi kesimi. hukuki_sinirlar.js'e dokunmam gerekmedi. - HUKUMLER: H-79:2 sirada · H-79:1 sirada · H-79:6 sirada · H-77:82 sirada · H-77:83 sirada · H-77:13 sirada · H-79:5 senin-kararin (B2 tasarim sonucu) · H-77:32 sirada + boşluk tarafi olculecek · H-77:76 tekrar (ARAYUZ-0077; rusya hayalet govdesi taze govdede de var, sovyet ile 421 hucre). ② BULAMADIM - Kafkas'in 189 ve Trabzon'un 146 km2 kalani hangi motor adiminda doguyor: olculemedi. Parcalar hakli sahibin petegi icinde (Artvin, Giresun); en olasi aday dolgu kapisi ya da epok devri farki. - Eski gövdede asama paylari olculemedi (yuruyuslu modda yeniden kurulum %10-55 sapiyor). - Oneri ①'in \"zaman kesiti\" bedeli (komsu sahiplik gunlerinin ts'e eklenmesi) olculmedi. - Ongoru (\"kapama >= %50\") CURUDU ve dosyaya olcumden SONRA yazildi: §11 ihlali, raporda beyan ettim. ③ ISTIYORUM - Care secimi sende/Emre'de (rapor §5): ① motor kurali (onerim, §9.1 tam insa kosusu ister) · ② kesit basina oncelik gecisi (pahali) · ③ cakisma denetimi denetle.py'ye (ucuz nobetci; alet hazir: -olc.py SADECE_SAY=1) · ④ B2'nin seyrek bolgedeki davranisi Emre'nin karari (H-79:5). - Yan bulgular (rapor §6): himaye x vassal 415 hucre (1600) · PETEKLER sirasi girdiyle artik eslesmiyor (4294 -> 4296). DEGISEN DOSYALAR: denetim/GOVDE-CAKISMA-0079.md · -olc.py · -asama.py · -ciz.py · -olc.json · -olc-eski.json · -olc-dunya.json · -olc-eski-dunya.json · -asama.json · -asama-eski.json bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
