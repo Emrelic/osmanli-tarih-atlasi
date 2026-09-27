@@ -160,7 +160,9 @@ def kronoloji_1444(metin):
 
 
 def main():
-    for yol, is_ in ((YER, yerlesim), ("data/yerlesimler_ek24.js", uzunkopru),
+    # ⚠️ `uzunkopru` adımı ÇIKARILDI (28 Eyl): Değişmez 5a'yı kırdı, geri alındı —
+    # denetim/KORIDOR-0081-uzunkopru-geri.py. İşlev kayıt olarak duruyor, çağrılmaz.
+    for yol, is_ in ((YER, yerlesim),
                      (KRONO, kronoloji), ("data/olaylar_ek.js", kronoloji_1444)):
         with open(yol, encoding="utf-8") as f:
             eski = f.read()

@@ -152,6 +152,22 @@ H-0030 ve H-0008 bölgesinde −, H-0030 Bihaç eksklavı değişebilir (Krupa a
 
 ---
 
+### ③b DÜZELTME — S3'ün çaresi YANLIŞTI (28 Eylül, koordinatörün koşusundan sonra)
+
+Koordinatör `--uygula` koştu: Değişmez 1 314→309 ✓, 2s 180→179 ✓, ama **Değişmez 5a
+✗ 1** — Uzunköprü `kur:1443` · ilk dönem 1281 (bizans) · 162 yıl önce. Raporda
+"motor kurulmamış-boyanmış peteği devreder, `kur:` yazmak yeter" demiştim; motor için
+doğru, **denetim için yanlış**: 5a "kuruluştan önce dönem"i affedilmez hata sayar.
+Ve öbür çıkış da kapalı: 1443 öncesi dönemleri silmek noktayı "kurulmamış VE
+sahipsiz" yapar, motor bunu KASITLI BOŞLUK sayıp devretmez (uret_petek.py ~4603) ⇒
+Ergene vadisinde yeni delik.
+⇒ **Ölçülen çelişki:** motorun devir mekanizması tam 5a'nın yasakladığı veri
+biçimiyle tetikleniyor. 5a tavanı 0 olduğuna göre devir bugün hiçbir kayıtta
+çalışmıyor. S3 (anakronik vekil) bu yüzden **veriyle çözülemez**; bir kural kararı
+ister (5a'ya "kur öncesi dönem = devir beyanı" istisnası mı, yoksa motor devrini
+sahipsiz kurulmamış noktaya da açmak mı). Karar koordinatör/Emre'nin.
+`kur:` geri alındı: `denetim/KORIDOR-0081-uzunkopru-geri.py`. H-0008 AÇIK.
+
 ## ④ YAN BULGULAR — işin içinden çıktı, kapsamı aşıyor
 
 1. 🔴 **1403 Gelibolu Antlaşması Karadeniz kıyısı yazılmamış.** TDV
