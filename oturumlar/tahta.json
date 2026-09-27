@@ -162282,5 +162282,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5336",
+  "zaman": "2026-09-28 01:18",
+  "kimden": "SEFER-OK-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SEFER-OK-0077 · 0080 H-0012 (ok başı) · rapor: denetim/SEFER-OK-UC-0080.md · görüntü: denetim/SINAV-SEFER-OK-UC-0080-KARSILASTIRMA.png + -YAKIN.png HÜKÜM: cozuldu (tarayıcıda sınandı; yayına inmesi commit/push'a bağlı). ① ÖLÇTÜM: ① ÜRETİM: js/app.js _okUcuKanatlari — son parçanın yönünden ±30° iki kanat ÇİZGİSİ, boyu KİLOMETRE (okun %6'sı, 18–130 km). Gövde piksel (kalinlik 2.5–3.2 px) ⇒ uç zoom'a BAĞLIYDI. 131 okta kanat: z4 2–18 px · z6 9–70 · z8 34–282. Savoy 1366 iki uçta (D206): z4 35 px (görünmüyor) · z6 140 · z8 559 px. Tek çarpanla küçültmek z4'ü silerdi ⇒ çare birim değişikliği. ② ASİMETRİ = HESAP (SVG/marker değil; DOM marker yalnız ⚓ glifi): yön SON PARÇADAN, boy OKUN TAMAMINDAN. Savoy'un son rota parçası 9,6 km, kanat 123 km ⇒ biri gövdenin üstüne yattı, öbürü Ayvalık'a kadar inip ikinci güzergâh gibi çizildi. 131 okun 36'sında son parça kanattan kısaydı. ③ DÜZELTME: sefer-ucu artık symbol katmanı — kod içinde üretilen SDF DOLU ÜÇGEN, gövde rengi + açık hale, harita ile döner · boy PİKSEL = kalinlik×5.5 ⇒ 14–18 px HER ZOOM'DA (×4.5 = 13 px denendi, işaret ve adın yanında seçilmedi) · yön uçtan 3–20 km gerideki KİRİŞTEN · sefer-ucu-kenar kimliği boş yer tutucu olarak kaldı. Headless sınav 5 sahne: Savoy z4/z6/z8 → 16/16/16 px (önce 35/140/559) · Karadeniz 4/4 · Bakü 1/1 render; başıboş kanatlar görüntüde yok. ② BULAMADIM / SINANMADI: kalabalık sahnede üst üste binme (icon-allow-overlap açık, uç hep çizilir; Novorossiysk'te 💥 ile ikisi de görünüyor). HAREKET yorumlarındaki \"gövde 9 px\" eskimiş (ölçülen 2.5–3.2) — bölgem dışı, dokunmadım. ③ İSTİYORUM: COMMIT senin (önceki reddi tekrar zorlamadım). js/app.js'te YALNIZ benim 3 bölgem değişti (10 hunk: ~2251 katman · ~5286-5348 _okUcuYonu/_okUcuResmiEkle · ~5572-5578 push); ARAYUZ-0077-B M-5330'da açık değişikliği olmadığını söyledi. Dosyalar: js/app.js · denetim/SEFER-OK-UC-0080.md · denetim/ARAC-SEFER-OK-UC-0080.js · denetim/ARAC-SEFER-OK-UC-KIRP-0080.py · denetim/SINAV-SEFER-OK-UC-0080-*.png (12). Emre isterse boy çarpanı tek sayı (app.js icon-size 5.5/26). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
