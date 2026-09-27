@@ -204,6 +204,24 @@ kapat. (c) bir tasarım değişikliği, ölçmeden önermiyorum.
   `PETEKLER` sırası ile `girdi.yukle()` sırası artık eşleşmiyor — aletim ada göre
   eşliyor. Sıraya güvenen başka alet varsa bayat okur.
 
+## 6.5 YAMA — `denetim/GOVDE-CAKISMA-0079-yama.diff` (M-5279 isteği, çare ①)
+- Üretici: `py denetim/GOVDE-CAKISMA-0079-yama-uret.py <dizin>` (motor kopyası
+  üzerinde; her değişiklik TAM BİR KEZ eşleşmeli, yoksa durur).
+- 4 hunk, +113 satır: yardımcılar (`_gun_sahipleri`, `_komsu_toprak_cikar`,
+  `_mp_geo`) · FAZ 1 (paralel + süreç yolu) · eski sıralı yol (bit denkliği
+  tanığı aynı adımı alır) · rapor satırı. **Önbellek satırlarına DOKUNMAZ**
+  (LEGO yaması tam oraya dokunuyor): önbellek çıkarmadan önceki gövdeyi tutar.
+- `git apply --check` temiz · tek başına ve LEGO + ayıkla ile **iki sırada da**
+  temiz · birleşik dosya `py_compile` temiz.
+- **Kod sınavı** (`-yama-sina.py`, yamanın kendi metni exec edilir, gerçek
+  `devletler_harita.js` gövdelerine uygulanır; epok ≈ Voronoi, dolgu KAPALI):
+  Kafkas 328→**0** · Trabzon 160→**0** · G.Çin 4.555→**0** · Niğbolu 14→**0** ·
+  Cizre 13→**0** km². Pencerede kesilen = taşan (tbmm 328 · ilhanlı 160 ·
+  yuan 4.605 · bulgaristan 14); haklı taraflarda 0. Çıktı `-yama-sina.txt`.
+- ⚠️ **Motor içinde SINANMADI.** Koşu = sınav. Taban ve öngörü yamanın içine
+  yazıldı: yabancı×yabancı çakışma her kesitte ≥%80 düşer, sıfıra İNMEZ
+  (zaman kesiti bedeli + Osmanlı/tâbi/himaye gövdeleri bu yamanın dışında).
+
 ## 7. Aletler (tekrar koşar, `data/` ve `arac/`a yazmaz)
 ```
 py denetim/GOVDE-CAKISMA-0079-olc.py [pencere]     ızgara çakışma + sınıf

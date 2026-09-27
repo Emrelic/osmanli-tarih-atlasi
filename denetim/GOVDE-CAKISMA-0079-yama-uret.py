@@ -1,0 +1,174 @@
+# -*- coding: utf-8 -*-
+"""GOVDE-CAKISMA-0079 — motor yamasini KOPYA uzerinde uretir.
+
+arac/uret_petek.py'ye YAZMAZ. Kopyayi <cikti>/b/arac/uret_petek.py olarak
+duzenler, <cikti>/a/ altina ozgunu koyar; diff'i disarida `git diff --no-index`
+alir. Her degisiklik TAM BIR KEZ eslesmeli (assert) — kaymis bir motor dosyasina
+sessizce uygulanmaz.
+Kullanim: py denetim/GOVDE-CAKISMA-0079-yama-uret.py <cikti-dizini>
+"""
+import sys, os, shutil
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+cikti = sys.argv[1]
+for k in ("a", "b"):
+    os.makedirs(os.path.join(cikti, k, "arac"), exist_ok=True)
+    shutil.copyfile(os.path.join(KOK, "arac", "uret_petek.py"), os.path.join(cikti, k, "arac", "uret_petek.py"))
+yol = os.path.join(cikti, "b", "arac", "uret_petek.py")
+with open(yol, encoding="utf-8", newline="") as f:
+    s = f.read()
+NL = "\r\n" if "\r\n" in s else "\n"
+
+
+def degis(eski, yeni):
+    global s
+    eski = eski.replace("\n", NL); yeni = yeni.replace("\n", NL)
+    n = s.count(eski)
+    assert n == 1, f"eslesme {n} (beklenen 1): {eski[:70]!r}"
+    s = s.replace(eski, yeni, 1)
+
+
+# ① yardimci islevler — _yabanci_govde_hesap'in HEMEN ONUNE
+degis('''_ONB_GOVDE_TUZ = _hlo.sha256(shapely.to_wkb(KARA, output_dimension=2)).digest()
+def _yabanci_govde_hesap(did, aktif, a, sira):''',
+'''_ONB_GOVDE_TUZ = _hlo.sha256(shapely.to_wkb(KARA, output_dimension=2)).digest()
+# ═══ 🆕 GOVDE-CAKISMA-0079 — EKLEME KOMŞU TOPRAĞINI KESMEZ (27 Eylül 2026) ═══
+# KUSUR (ölçüldü, denetim/GOVDE-CAKISMA-0079.md): gövde kendi peteklerinin
+# birleşimiyken çakışma 0'dır; toprağı EKLEYEN üç adım — kapama (`kapat`),
+# B2 köprüsü, B3 koridor doldurma — komşunun TOPRAĞINI görmez, yalnız "içinde
+# başka devletin NOKTASI var mı" diye sorar (`_yasakli_mi`). Nokta yoksa
+# komşunun peteği doldurulur ⇒ iki gövde aynı toprağı boyar (Kafkas 1921
+# sovyet×tbmm 328 km² · G. Çin 1281 yuan×tran 4.555 km², %75'i B2 kenarı).
+# ÇARE: ekleme adımlarından SONRA, o gün BAŞKA bir sahibi olan her yerleşimin
+# o günkü peteği (`petek_epok(a)`) gövdeden ÇIKARILIR. Kendi `aktif` peteği
+# ASLA çıkarılmaz; sahipsiz toprak (dolgusuz) doldurulmaya devam eder.
+# 📌 SAHİPLİK KURALI YENİ DEĞİL: `aktif`in kapılarının AYNISI — devir kümesi
+#    (`devir_kumesi`) sahnede değil, `_osm_aktif` ⇒ OSMANLI, yoksa ilk açık
+#    `s:` kimliği, sahipsizse ekleyici kapının (`_dolgu_kumesi`) kazananı.
+#    (Aşağıdaki Ⓑ `ak` notunun uyarısı: ikinci bir sahiplik kuralı DOĞMASIN.)
+# 📌 ÖNBELLEK DEĞİŞMEDİ: önbellek çıkarmadan ÖNCEKİ gövdeyi tutar, çıkarma
+#    okumadan SONRA uygulanır. Fark alma KARA ve puan kesimiyle (ikisi de
+#    kesişim) yer değiştirir ⇒ sonuç sırayla aynıdır.
+# ⚠️ BİLİNEN BEDEL — ZAMAN KESİTİ: dönem [a,b) yalnız KENDİ yerleşimlerinin
+#    günlerinde kırılır (`ts`); komşu dönem ortasında sahip değiştirirse bu
+#    çıkarma `a` gününe göre kalır. Ölçülmedi; kalan çakışma koşu sonunda
+#    `denetim/GOVDE-CAKISMA-0079-olc.py` ile ölçülür.
+# 🎯 TABAN (koşu 15, yama ÖNCESİ — koşu sonrası "düştü mü" bununla sorulur):
+#    dünya 0.25° çakışan hücre oranı 1281 %0,08 · 1453 %0,32 · 1600 %1,53 ·
+#    1800 %1,91 · 1884 %2,84 · 1921 %0,30 · pencere km²: Kafkas 1921 328 ·
+#    G.Çin 1281 4.555 · Trabzon 1281 160 · Niğbolu 1915 14 · Cizre 1281 13.
+#    ÖNGÖRÜ (ölçümden önce): yabancı×yabancı çakışma her kesitte ≥%80 düşer;
+#    sıfıra İNMEZ (zaman kesiti + Osmanlı/tâbi/himaye gövdeleri bu yamada yok).
+_SAHIP_EZBER = {}
+_KOMSU_CIKAR_SAYAC = {"govde": 0, "kesilen_birim2": 0.0, "bosaldi": 0}
+
+
+def _gun_sahipleri(a):
+    """`a` gününde sahnedeki yerleşim → boya sahibi (yabancı kimlik ya da
+    "OSMANLI"). Sahipsiz ve dolgu almamış yerleşim sözlükte YOKTUR."""
+    v = _SAHIP_EZBER.get(a)
+    if v is not None:
+        return v
+    _dv = devir_kumesi(a)
+    kim = {}
+    for j, y in enumerate(YERLER):
+        if j in _dv:
+            continue
+        if _osm_aktif(y, a):
+            kim[j] = "OSMANLI"
+            continue
+        for sp in y["s"]:
+            if sp["f"] <= a < sp["t"]:
+                kim[j] = sp["d"]
+                break
+    if DOLGU_ACIK:
+        for d, js in _dolgu_kumesi(a).items():
+            for j in js:
+                kim.setdefault(j, "OSMANLI" if d in ("OSMANLI", "TABI") else d)
+    _SAHIP_EZBER[a] = kim
+    return kim
+
+
+def _komsu_toprak_cikar(did, aktif, a, g):
+    """`g`den, `a` gününde başka sahibi olan yerleşimlerin peteğini çıkarır."""
+    if g is None or g.is_empty:
+        return g
+    kim = _gun_sahipleri(a)
+    pe = petek_epok(a)
+    x0, y0, x1, y1 = g.bounds
+    m = 5.0      # petek noktasından ≤ ~400 km (tavan) uzanır; 5° pay yeter
+    diger = []
+    for q in _TUM_AGAC.query(box(x0 - m, y0 - m, x1 + m, y1 + m)):
+        j = int(q)
+        if j in aktif:
+            continue
+        k = kim.get(j)
+        if k is None or k == did:
+            continue
+        h = pe[j]
+        if h is None or h.is_empty or not h.intersects(g):
+            continue
+        diger.append(h)
+    if not diger:
+        return g
+    once = g.area
+    g2 = poligonal(temiz(g.difference(unary_union(diger))))
+    _KOMSU_CIKAR_SAYAC["govde"] += 1
+    _KOMSU_CIKAR_SAYAC["kesilen_birim2"] += max(0.0, once - g2.area)
+    if g2.is_empty:
+        _KOMSU_CIKAR_SAYAC["bosaldi"] += 1
+    return g2
+
+
+def _mp_geo(mp):
+    """`mp_koord` çıktısını geri geometriye çevirir (önbellekten gelen gövde)."""
+    return temiz(MultiPolygon([Polygon(p[0], p[1:]) for p in mp]))
+
+
+def _yabanci_govde_hesap(did, aktif, a, sira):''')
+
+# ② FAZ 1 (paralel + surec yolu) — onbellek blogundan SONRA, LEGO yamasinin
+#    baglam satirlarinin (onbellek + `if _mp is None`) DISINDA
+degis('''        # Ⓑ `ak`: bandın devlet başına birleştirilebilmesi için o dönemin
+        # AKTİF PETEK KÜMESİ. Yalnız bant açıkken taşınır (kapalıyken bu''',
+'''        # 🆕 GOVDE-CAKISMA-0079 — ekleme komşu toprağını kesmez (tanım yukarıda)
+        _gk = _komsu_toprak_cikar(did, aktif, a, _mp_geo(_mp))
+        if _gk.is_empty:
+            tani.append((_sure, _kesilen, _tamamen))
+            continue
+        _rpk = _gk.representative_point()
+        _mp, _c = mp_koord(_gk), [round(_rpk.x, 2), round(_rpk.y, 2)]
+        if not _mp:
+            tani.append((_sure, _kesilen, _tamamen))
+            continue
+        # Ⓑ `ak`: bandın devlet başına birleştirilebilmesi için o dönemin
+        # AKTİF PETEK KÜMESİ. Yalnız bant açıkken taşınır (kapalıyken bu''')
+
+# ③ ESKI SIRALI YOL (MOTOR_PARALEL_KAPALI=1) — bit denkligi tanigi AYNI kalsin
+degis('''            if g.is_empty:
+                sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+                continue
+            rp = g.representative_point()
+            _kayit = {"f": a, "t": b,''',
+'''            if g.is_empty:
+                sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+                continue
+            # 🆕 GOVDE-CAKISMA-0079 — paralel yolla AYNI adım (bit denkliği):
+            # paralel yol mp_koord'dan geri kurulan gövdeden çıkarır.
+            g = _komsu_toprak_cikar(did, aktif, a, _mp_geo(mp_koord(g)))
+            if g.is_empty or not mp_koord(g):
+                sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+                continue
+            rp = g.representative_point()
+            _kayit = {"f": a, "t": b,''')
+
+# ④ RAPOR — sessiz kural olmasin: yabanci govde asamasi bitince bas
+degis('''# 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.''',
+'''print(f"  🧱 GOVDE-CAKISMA-0079 komşu toprağı çıkarıldı: {_KOMSU_CIKAR_SAYAC['govde']} gövde-dönem · "
+      f"{_KOMSU_CIKAR_SAYAC['kesilen_birim2']:,.2f} birim² · tamamen boşalan {_KOMSU_CIKAR_SAYAC['bosaldi']}"
+      "  (süreç yolunda yalnız ANA sürecin payı sayılır)")
+# 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.''')
+
+with open(yol, "w", encoding="utf-8", newline="") as f:
+    f.write(s)
+print("yazildi:", yol)

@@ -1,0 +1,22 @@
+Kafkas   1921-06-01  sovyet-rusya × tbmm-turkiye:  yama ONCESI 328 km² → SONRASI 0 km²
+         sovyet-rusya             kesilen 0 km²
+         tbmm-turkiye             kesilen 328 km²
+         sayac: {'govde': 2, 'kesilen_birim2': 0.3909339809807335, 'bosaldi': 0}
+Trabzon  1281-01-01  trabzon-rum × ilhanli:  yama ONCESI 160 km² → SONRASI 0 km²
+         gurcistan                kesilen 0 km²
+         trabzon-rum              kesilen 0 km²
+         ilhanli                  kesilen 160 km²
+         sayac: {'govde': 3, 'kesilen_birim2': 2.0755446452851736, 'bosaldi': 0}
+G.Cin    1281-01-01  tran-hanedani × yuan-hanedani:  yama ONCESI 4,555 km² → SONRASI 0 km²
+         tran-hanedani            kesilen 0 km²
+         yuan-hanedani            kesilen 4,605 km²
+         lan-xang                 kesilen 0 km²
+         sayac: {'govde': 3, 'kesilen_birim2': 0.46786884560236786, 'bosaldi': 0}
+Nigbolu  1915-09-06  bulgaristan × romanya-kralligi:  yama ONCESI 14 km² → SONRASI 0 km²
+         bulgaristan              kesilen 14 km²
+         romanya-kralligi         kesilen 0 km²
+         sayac: {'govde': 2, 'kesilen_birim2': 0.1785876157761468, 'bosaldi': 0}
+Cizre    1281-01-01  ilhanli × artuklu:  yama ONCESI 13 km² → SONRASI 0 km²
+         ilhanli                  kesilen 14 km²
+         artuklu                  kesilen 1 km²
+         sayac: {'govde': 2, 'kesilen_birim2': 0.10803365069379112, 'bosaldi': 0}
