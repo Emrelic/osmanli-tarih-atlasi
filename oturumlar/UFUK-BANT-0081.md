@@ -252,3 +252,140 @@ inşanın ön şartlarına yazıyorum.
 (§9.1 ②: biriken yamalar tek seferde girer, tuz bir kez değişir):
 `H-0039` üç Rusya rengi (`renkler.py`) ve `YUK-BOLME-0925` (K=24 yeniden
 ölçülecek) aynı koşuyu bekliyor.
+
+---
+
+## ⑧ EMRE'NİN KARARI — 28 Eylül 2026
+
+```
+15 GÜN BANDI     ✗ EKLENMEYECEK
+7 ve 10 GÜN      ✓ EKLENECEK            ⇒ MOTOR_UFUK_BANT="40,56,80"
+ÇÖL KELEPÇESİ    ⏳ istişare — "ayar olarak eklenebilir belki"
+                   soru: "kelepçeden kastın çöl tavanı mı?"
+```
+
+---
+
+## ⑨ "KELEPÇE" = "ÇÖL TAVANI" MI? — hayır, ve karıştırmak pahalı
+
+Motorda **üç ayrı** çöl mekanizması var; ikisi bugün kapalı, biri her koşuda
+çalışıyor. Aynı cümlede anılırlarsa bir oturum yanlış düğmeyi çevirir.
+
+| # | ad | ne ölçer | bugün | nerede |
+|---|---|---|---|---|
+| 1 | **ÇÖL TAVANI** | peteğin noktasından **km** uzaklığı | 🟢 **AÇIK, her koşuda** | `COL_TAVAN_KM = 300.0` (`:4099`) |
+| 2 | **ÇÖL KELEPÇESİ** | o hücredeki **yürüyüş ufku (saat)** | 🔴 kapalı | `MOTOR_COL_UFUK_SAAT` (`:1844`) |
+| 3 | **BOŞ TOPRAK BÖLÜŞÜMÜ** | iki tohum arasındaki **açıklık** | 🔴 kapalı | `MOTOR_BOS_TOPRAK` (`:1937`) |
+
+**① Çöl tavanı** geometrik bir disktir: *"bir yerleşimin peteği, ÇÖL içinde
+kalan kısmında, noktasından 300 km'den uzağa uzanamaz"* — enleme göre
+ölçekli elips, çünkü derece ≠ kilometre. Yalnız ÇIKARIR, hiç eklemez
+(`petek_son ⊆ petek_voronoi`), o yüzden Değişmez 1 ve 2'yi etkilemez.
+Doğuran şikâyet: Timbuktu'nun peteği Sahra'yı **1.475 km** kesiyordu.
+
+**② Kelepçe** bambaşka bir şey ölçer: o hücrede yürüyüşün kaç saatte
+durduğunu. Yani tavan *"noktadan ne kadar uzağa"*, kelepçe *"kaç günlük
+yürüyüşe"* diyor.
+
+### 🔴 Ve ikisi ÜST ÜSTE BİNİYOR — hesabı yaptım, motor doğruladı
+
+```
+YURUYUS_SAAT = 40          (:1163)     NEHIR_KM_SAAT = 5.04      (:1451)
+_YR_BUTCE = YURUYUS_SAAT × NEHIR_KM_SAAT                          (:1806)
+
+ 5 gün = 40 sa  →  201,6 km-eşdeğeri      ÇÖL TAVANI = 300 km
+ 7 gün = 56 sa  →  282,2 km-eşdeğeri      ⇒ 300, 7 ile 10 gün ARASINDA
+10 gün = 80 sa  →  403,2 km-eşdeğeri
+```
+
+⇒ **Çöl tavanı, 10 günlük bandı çölde kendiliğinden kesiyor** (403 > 300);
+5 ve 7 günde neredeyse hiç değmiyor (201 ve 282 < 300).
+
+Ve bu benim çıkarımım değil — motorun kendi ölçümü aynısını söylüyor
+(`:4268`, `B-GORUNUM-0072-BANT.md §5.4`):
+
+```
+bant ham kesimi bu aşamadan geçmediğinde 10 GÜNLÜK ufukta 66.686 km²
+(%1,317) fazla çöl taşıyordu. 5 ve 7 GÜNDE fark %0,005.
+```
+
+📌 Yani sayının 10 günde 263 kat büyümesi, yukarıdaki aritmetiğin
+bağımsız teyidi. **Bantlara tavan ZATEN uygulanıyor** (`Ⓑ bant tavanı`
+aşaması) — yani 7/10 günü açtığımızda çöl tavanı işini yapmaya devam eder,
+ayrıca bir şey yapmamız gerekmez.
+
+### ⚠️ AMA TAVAN, KUM DENİZİNİ BOŞ TUTMAYA YETMEZ — ve bunu abartmıyorum
+
+Bir an *"demek ki tavan zaten kelepçedir"* diye yazacaktım; hesap
+çürüttü, o yüzden yazmıyorum:
+
+```
+Sahra kutusunda çöl        4.959.429 km²
+Sahra'da yerleşim              ~120
+300 km'lik disklerin alanı  120 × π × 300²  ≈  33.900.000 km²   (çölün 6,8 KATI)
+```
+
+⇒ 300 km diskler Sahra'yı **fazlasıyla** örtebilir. Tavan, Timbuktu'nun
+1.475 km'lik iddiasını kesiyor ama *"kum denizi bölüşülmesin"* kararını
+**sağlamıyor**. Ölçülen sonuç da bunu söylüyor: kelepçesiz 10 günde
+sahipsiz kara 950.218 → **16.608 km²**.
+
+⇒ **Kelepçe (②) ve/veya boş toprak bölüşümü (③) ayrı bir karardır.** Ve
+③ kavramsal olarak "kum denizi"nin TAM karşılığıdır: bir noktadan uzaklığı
+değil, **iki yerleşim arasındaki açıklığı** ölçer — Emre'nin cümlesi de
+öyleydi (*"Atlantik'i iki ülke arasında bölüştürmüyoruz"*).
+
+---
+
+## ⑩ "AYAR OLARAK EKLENEBİLİR Mİ?" — evet, ve ucuz yolu var
+
+Emre: *"kelepçe de olacaksa ayar olarak eklenebilir belki."*
+
+**Ham yol (pahalı):** kelepçeli ve kelepçesiz bant kümelerinin İKİSİNİ de
+üretmek. Bunlar farklı kontur kümeleridir, yani bant kaydı **ikiye katlanır**
+— ölçülmüş +5…87 MB, +10…174 MB olur. `devletler_harita.js` bugün 85,33 MB
+ve GitHub sınırı 100 MB iken bu yön yanlış.
+
+**🔴 ÖNERİM — ÇÖL EKİ BANDI, ve zaten onaylanmış desenin aynısı:**
+
+Kelepçenin etkisi **yalnız çöl maskesinde** doğar (Anadolu kontrol grubunda
+fark tam **0 km²** — ölçüldü). O hâlde kelepçeli/kelepçesiz farkı bir
+*duplikasyon* değil, **artış bandı** olarak yazılabilir:
+
+```
+bant 1   ≤5 gün                                 (taban, bugünkü harita)
+bant 2   5-7 gün                                 } genel ufuk
+bant 3   7-10 gün                                }
+bant 4   ÇÖL EKİ = kelepçesiz − kelepçeli        ← yalnız çöl hücrelerinde
+```
+
+Arayüzde iki bağımsız düğme olur: **ufuk (5/7/10)** ve **çölü doldur
+(kapalı/açık)**. Kapalıyken bant 4 hiç indirilmez (tembel yükleme zaten
+kurulu). Ve bu, 16 Eylül'de onayladığın *"iç içe OLMAYAN artış bantları"*
+kuralının birebir aynısı — yeni bir mekanizma değil, dördüncü bir seviye.
+
+⚠️ **İki dürüst çekince:**
+1. **Tekdüzelik sınavı bant 4 için YENİDEN koşmalı.** Bugünkü sınav
+   (`ARAC-B-GORUNUM-UFUK-0072.py`) `kesim(40) ⊆ kesim(56) ⊆ kesim(80)`
+   iç içeliğini doğruluyor. Çöl eki bu zincire dik bir eksende duruyor;
+   iç içelik varsayılamaz, **ölçülmelidir**. Sınav 0 ihlal vermezse bant 4
+   yazılmaz.
+2. **Bu bir MOTOR DEĞİŞİKLİĞİDİR** (`_BANT_HAM`e dördüncü bir kova + yazım),
+   yani §9.1'e göre tam inşa koşusuna girer ve tuzu değiştirir. Aynı koşuda
+   girmesi gerekir; sonradan eklenmesi ikinci bir 6,5 saat demektir.
+
+📌 **Karar üç şıklı ve ikisini birlikte seçebilirsin:**
+```
+(A) ŞİMDİ SADE KOŞ    7 ve 10 günü aç, çöl tavanı (300 km) işini yapar,
+                      kelepçe KAPALI. Sahra 10 günde büyük ölçüde dolar.
+                      ⇒ bugün koşulabilir, ek motor işi YOK.
+(B) ÇÖL EKİ BANDI     yukarıdaki bant 4. Arayüzde ayar olur. Motor işi +
+                      tekdüzelik sınavı gerekir ⇒ koşu 1-2 gün gecikir.
+(C) KELEPÇE SABİT     çöl ufku 7 günde sabitlenir (ölçülmüş üçüncü yol:
+                      kazancın %79,4'ü korunur, çöl genel ufkun 3 gün
+                      gerisinde kalır). Ayar YOK, ek motor işi YOK.
+                      ⇒ (A) kadar hızlı, Sahra dolmaz.
+```
+**Tavsiyem: (C) ile şimdi koş, (B)'yi bir sonraki tam inşaya yaz.** Gerekçe:
+(C) senin iki isteğini de ölçülebilir ölçüde karşılıyor ve bugün koşulabilir;
+(B) doğru nihaî yapı ama onu beklemek 7/10 günü bir koşu daha geciktirir.
