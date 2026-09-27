@@ -161845,5 +161845,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5312",
+  "zaman": "2026-09-27 16:03",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SIRA: 'ek devlet ilan edemiyorum' ZATEN TESLİM (M-5283, commit 02baaa05 — satır=odak, '+ ek' düğmesi, havuz şeridi). ODAK-MEKANIZMA-0080'e şimdi başlıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
