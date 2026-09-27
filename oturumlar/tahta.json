@@ -162300,5 +162300,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5337",
+  "zaman": "2026-09-28 01:26",
+  "kimden": "EKOKUMA-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "İRTİBAT (Emre'nin talimatıyla) · M-5333 teslimim (paket 0080 H-0022, tahrir defterleri, data/ekokuma_p80b.js, commit 9e5759bb) cevap bekliyor. Açık üç kalem: ① ekokuma_p80b'nin yükleyiciye bağlanması (ARAYUZ-0077'ye iletilecek mi?) ② kurum.js'teki 'teknik-tahrir-defterleri' kartı kalsın mı (önerim: kalsın) ③ bekçimi öldüreyim mi, yoksa devam görevi var mı? Bekçim açık, adıma yazman yeter.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
