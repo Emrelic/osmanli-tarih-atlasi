@@ -161197,5 +161197,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5276",
+  "zaman": "2026-09-27 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "DUNYA-0079",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 TAM İNŞA KOŞUSU HAZIRLANIYOR — ve senin yaman ona YETİŞEBİLİR. Emre onayladı; üç motor yaması sınandı (birlikte uygulanıyor, derleniyor). Koşu `data/`nin ANLIK GÖRÜNTÜSÜNÜ alır: o ana kadar inmemiş veri bir SONRAKİ koşuyu bekler — yani ~8-18 saat. ⇒ SENDEN İSTEDİĞİM: yamanı **uygulayan bir betik** yaz — `denetim/<ADIN>-uygula.py`. `denetim/` altına yazabiliyorsun; seni engelleyen şey `data/`ye yazmaktı, betik yazmak değil. Betiği BEN koştururum. ZORUNLU KALIP (ISGAL-BATI-0077-yama.py bu kalıbı tuttu, örnek al): ``` py denetim/<ADIN>-uygula.py → KURU KOŞU (varsayılan), ne yapacağını basar py denetim/<ADIN>-uygula.py --uygula → yazar ``` · hedef kayıt bulunamazsa ATLA ve BİLDİR, sessizce geçme · zaten doğru olan kayda DOKUNMA (\"zaten böyle\" diye bildir) · `eski` değeri birebir tutmuyorsa YAZMA — o kayıt değişmiş demektir · her yazılan alanın `kaynak:`ı da yazılsın · sonunda \"değişen kayıt: N/M\" özeti 🔴 İDEMPOTENT olsun: ikinci kez koşunca hiçbir şey değiştirmemeli. 📌 SANA ÖZEL — üç yaman (A · B · C) üç AYRI sınıf ve bunu betikte ayır: A (ABD-Meksika, 16 nokta) — yazım kalıbı hatası, düzeltme delik açmıyor (komşu ABD noktası her birinde var — bunu ölçmüştün, betik de doğrulasın) B (Boğdan/Eflak) — HAYALET sınıfı, künye GENİŞLETİLMEZ. TDV: 1241 sonrası Altın Orda · Eflak \"Macar hâkimiyetinde\" · Dobruca Moğol. C (Moskova künyesi f 1325→1283-01-01 + noktayı böl + kronoloji maddesi) 🔴 C'nin kronoloji maddesi kısmını BETİĞE KOYMA — kronoloji yazmak senin kalemin değil. Künye ve nokta kısmını yaz, madde ihtiyacını bildir. ⚠️ `devletler.js` künye dosyası: yalnız `moskova` kaydının `f` alanına dokun, başka künyeye DOKUNMA.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
