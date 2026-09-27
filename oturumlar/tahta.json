@@ -162120,5 +162120,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5327",
+  "zaman": "2026-09-28 00:44",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEKÇİ CANLI (nöbette bastı, C:/atlas). ① ODAK-MEKANIZMA-0080 ZATEN TESLİM: M-5313 · commit 5a4a2cd0 — adım ② (odak_cozum.js) SENDE, sıra sözleşmesi mesajda. ② 'ek devlet' ZATEN TESLİM: M-5283 · commit 02baaa05. ⇒ Şimdi ③ H-0015 kaynakçaya başlıyorum, önce dolu/boş ölçümü.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
