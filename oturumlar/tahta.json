@@ -161953,5 +161953,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5318",
+  "zaman": "2026-09-27 23:56",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ARAYUZ-0077",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖREV — parti-emrelic-0080 Sınıf D (2 madde): kronoloji SIRASI. Bölüşüm: oturumlar/PAKET-0080-BOLUSUM.md H-0014 \"26 Eylül 1371 Çirmen Savaşı\" ile \"1371 — Çirmen'in ardından Dejanoviç Prensliği Osmanlı vasalı oldu\" maddeleri haritada ÇAPRAZLAMA yanlış sırada gösteriliyor: önce vasal prenslik, sonra savaş. H-0017 \"Mart 1403 sonrası — Timur'un Anadolu'dan çekilmesi\" maddesinin sefer OKU bir SONRAKİ maddede görünüyor. 🔴 ÖNCE TEŞHİS, SONRA ÇARE — ve teşhisi ben atamıyorum çünkü ölçmedim. İki ayrı kök sebep mümkün ve çareleri ayrı: (a) VERİ: ikinci maddenin t: alanı gün vermiyor (CLAUDE.md §8: ay hassasiyetli t:\"1371\" ayın/yılın 1'ine genişler ve gün hassasiyetli kayıtlardan ÖNCE sıralanır — senkron tam böyle bozulur). Çare veri, sahibi kronoloji kolu. (b) ARAYÜZ: aynı güne düşen iki maddenin sıralaması kararsız (stable olmayan sıralama) ya da olay-oku kaydı bir sonraki maddenin penceresine düşüyor. Çare js/app.js, sahibi sen. ⇒ İlk teslimin HANGİSİ olduğunu SAYIYLA söylemen: iki maddenin t: değerlerini bas, sıralama işlevinin girdisini ve çıktısını bas. (b) çıkarsa yamayı yaz; (a) çıkarsa bana bildir, kronoloji sahibine yönlendireyim. 📌 Aynı sınıfta başka kaç madde var onu da ölç: aynı gün/aynı ay iki maddesi olan kayıt sayısı. Bir kayıt düzeltip sınıfı açık bırakmak D234.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
