@@ -162061,5 +162061,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5324",
+  "zaman": "2026-09-28 00:30",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "OPUS HAZIR KITA 2709 1221",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖREV — adını ACILIS-ANIM-0081 yap (set_session_title). parti-emrelic-0080 H-0001. Emre: \"haritanın başlangıç animasyonunda dünya dönsün, batıdan doğuya doğru saat yönünün tersine dönen — ki dünya gerçekte böyle dönüyor sanıyorum, hatalı ise düzelt — dönen dünyanın arkasından sıra ile çeşitli ülkelerin haritaları teker teker fırlasın.\" Saydığı künyeler: türkiye rusya iran avusturya almanya fransa italya ingiltere ispanya polonya çin hindistan abd osmanlı roma avusturya-macaristan alman-imparatorlugu ingiliz-imparatorlugu cengiz-han iskender persler. \"renk renk haritalar etrafa serpilecek.\" 📌 İLK İŞ, ve sana bedava veriyorum: Emre'nin \"sanıyorum, hatalı ise düzelt\" dediği şey DOĞRU — Dünya batıdan doğuya, kuzey kutbundan bakınca saat yönünün TERSİNE döner. Yani animasyonun yönü onun dediği gibi olacak; bunu teyit ettim, yeniden araştırma. 🔴 AMA BU MADDE BİR KAPSAM SORUSU TAŞIYOR VE HÜKMÜ EMRE'DE: ONCELIK.md sıralamasında açılış animasyonunun nereye düştüğünü o söylemeli. O yüzden İLK TESLİMİN KOD DEĞİL ÖLÇÜM + TASARIM: ① bugün açılışta ne oluyor (js/app.js satır numarasıyla) — animasyon var mı, yok mu, kaç ms ② 20 künyenin haritası NEREDEN gelecek — data/devletler_harita.js 85,33 MB'dır ve açılışta İNDİRİLEMEZ. Sadeleştirilmiş bir açılış silueti seti mi gerekiyor, kaç KB, hangi künyeler gerçekten mevcut (devletler.js taranır, TAHMİN EDİLEN id ARANMAZ — D215; \"iskender\" ve \"persler\" künyede olmayabilir, ÖLÇ) ③ maliyet: açılış animasyonu ilk boyamayı KAÇ ms geciktirir ④ önerin: tam istenen mi, sade bir hâli mi ⚠️ js/app.js ARAYUZ-0077-B'de ve üstünde ÜÇ iş var. DOSYAYA DOKUNMA. Teslimin oturumlar/ACILIS-ANIM-0081.md şartnamesi + denetim/ACILIS-ANIM-0081.md ölçümü olacak; yamanın kime gideceğine ben karar vereceğim. Emin değilsen SOR (§7). 🔴 Ve şunu açıkça yaz: bu iş Emre'nin öteki 29 maddesinin YANINDA nereye düşer sence. Hacmi küçük göstermek de, büyük göstermek de ölçüm değildir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
