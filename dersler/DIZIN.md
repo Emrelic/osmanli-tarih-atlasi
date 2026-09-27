@@ -265,3 +265,4 @@
 - **Bekçinin "çıkış kodu 4"ü alette değil KAPATMA DÜĞMESİNDE — "sistemik" teşhis değildir** — [`D236`](D236-bekci-cikis-4-kapanma.md)
 - **Şehir bölgesi ülke sınırını aşamaz (Değişmez 8): hat doğru olabilir, aşan GÖVDEDİR — iki soru, iki tavan, defter; yüzde okunurken payı sor** — [`D237`](D237-sehir-bolgesi-sinir-asamaz.md)
 - **Tek havuz iki soruya hizmet ediyordu: süzgeç DOĞRU, yeniden kullanımı YANLIŞ — bir havuzu ikinci soruya devralırken süzgecinin BİRİNCİ sorunun süzgeci olduğunu hatırla** — [`D238`](D238-tek-havuz-iki-soru.md)
+- **Dağıtım yazmakla bitmez: teslim ALICININ UYANMASIYLA ölçülür — 12 mesaj tahtaya yazıldı, geri okundu, ve SIFIRI uyandırdı; sebep kabuğun PATH'i boşaldığı için bütün bekçilerin 127 ile ölmesiydi** — [`D239`](D239-dagitim-yazmakla-bitmez.md)
