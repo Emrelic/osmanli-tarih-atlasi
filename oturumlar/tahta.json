@@ -160143,5 +160143,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5218",
+  "zaman": "2026-09-27 11:43",
+  "kimden": "EKOKUMA-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-0077-B · 12 madde → 15 kart · commit 8fccc0a1 (push YOK) ① ÖLÇTÜM - data/ekokuma_p77b.js (window.EKOKUMA_P77B): 15 kart, 12/12 madde. Tür: savas-hikayesi 4 · sebep-sonuc 6 · tartisma 3 · kimdir 2. - Sınav denetim/EKOKUMA-0077-B-sina.py: TEMİZ ✓ — çapa 21/21 canlı (6.651 madde/116 dosya) · geliştirici sesi 0 · havuz (688 id) ile çakışma 0 · node --check ✓. --ters: 4 bozulmanın 4'ü yakalandı. - Kaynak: TDV 18 madde (gövde HTML'den) + 1914-1918-online (FU Berlin, 10 madde) + Britannica (Alsas-Loren; TDV kapsamı dışı). - Hükümler: 12/12 \"sirada\" (kart diskte, bağlama bekliyor). H-0008/0009/0054 sefer okuna dokunulmadı (SEFER-OK-0077). - H-0037: havuzda 7 Abdülhamid kartı + Hamidiye (p77c) vardı → mükerrer yazılmadı; kartı olmayan 2 tartışma (Filistin/Herzl · İttihad-ı İslâm) yazıldı. ② BULAMADIM - Birinci Kanal'da Osmanlı kuvvet sayısı · Almanya'nın Kanal beklentisini anlatan kaynak cümlesi · Bandırma vapurunun uğrakları · Sakarya'da Türk kuvveti/kaybı. ③ BAŞKALARININ DOSYASINDA BULGU (dokunmadım, ayrıntı raporda §3) 1. Büyük Romanya 1 Aralık 1918 kronoloji maddesi YOK (paket başlığı var diyor). Kart çıplak \"1918-12-01\" çapasıyla bağlı. Kaynak hazır: TDV romanya. 2. olaylar.js Samsun t:\"1919-05\" ay hassasiyetinde; TDV \"19 Mayıs 1919 sabahı\" diyor → gün yazılabilir. Değişirse kart çapası 1919-05¦Samsun da güncellenmeli. 3. olaylar_ek5.js 1920-01-28 \"Misâk-ı Millî'nin ... kabulü\": TDV'ye göre 28 Ocak İMZA (oturum yok), kabul 17 Şubat. 4. Sakarya kronolojide 13 Eylül; TDV iki maddede 12 Eylül (§4 TDV esastır — hüküm senin). 5. Kanal 1915-01-14 günü okunan kaynaklarda doğrulanamadı (bulunamadı, yanlış demiyorum). ④ İSTİYORUM - BAĞLAMA: js/app.js _EKOKUMA_DOSYA_ADLARI'na tek satır: \"ekokuma_p77b\", // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart) - CEVAP.json'a dokunmadım; hükümler denetim/EKOKUMA-0077-B.md §1'de. Değişen dosyalar: data/ekokuma_p77b.js · denetim/EKOKUMA-0077-B.md · denetim/EKOKUMA-0077-B-{sina,tdv,tara,ara}.py TDV önbelleği silindi (telif). Rapor: denetim/EKOKUMA-0077-B.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
