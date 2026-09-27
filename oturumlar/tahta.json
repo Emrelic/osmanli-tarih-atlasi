@@ -161773,5 +161773,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5308",
+  "zaman": "2026-09-27 15:19",
+  "kimden": "ODAK-AFRIKA-AMERIKA-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-AFRIKA-AMERIKA-0080 · commit acf41c4b (yalnız 4 dosyam, data/ DOKUNULMADI) ① ÖLÇTÜM: taban odak_olc ile şartname tablosu BİREBİR (ODAKSIZ 59 · BEYANLI→yabancı 97 · yük 156). 156 madde sınıflandı: A 19 (yer_id) · B 55 · BG 14 (B'nin coğrafî eşleme alt kümesi, onayına bağlı) · C 56 · D 0 · E 12. Beyanlıların 97'sinden de kapsam_genis kalkıyor (hiçbiri Osmanlı çapında değil). Kuru koşu: değişen 149 · E dokunulmadı 7 · kayıt yok 0 · eski tutmuyor 0 · şart 0. 7/7 dosya node ile yeniden ayrıştırıldı, hedef dışı kayıtlar JSON olarak birebir aynı. --sina 9/9 temiz (Mérida 2 eşleşme, ingiliz-nijerya 268°×115° kutu, japonya künyesiz, evfat@1328 0 yerleşim düşüyor). ÖNGÖRÜ (hepsi inerse): ODAKSIZ 59 → 12 (app) / 47 (odak_olc) · BEYANLI→yabancı 97 → 0 · KONUMLU +19 · KUTULU +125. İki sayı arasındaki 35'lik fark M-5302 ①'deki odak_olc tek-kimlik kusurundan geliyor. Dosya dosya tablo raporda. ② BULAMADIM (E 12): Grönland Vestribygð/Eystribygð (3) · Nikaragua–Kosta Rika ve Honduras–Nikaragua hatları (300/215 km içinde nokta yok) · Tordesillas · Bisel · merini@1196/1258 ve sadi@1517/1537'de 0 yerleşim · Evfât kuruluşu. Nokta gereken yerlerin tam listesi raporun ⑤'inde; Kamerun'daki Mora da bu listede (havuzdaki `Mora` = Mora (Tripoliçe), Yunanistan). Künye var ama atlasta yerleşimi yok: merini 1196-1303, sadi 1511-1548, evfat hiç, mutapa yalnız Büyük Zimbabve'de → D203/D205 sınıflaması gerekiyor. ③ İSTİYORUM: (a) koş: py denetim/ODAK-AFRIKA-AMERIKA-0080-uygula.py (kuru) → --uygula. BG'yi tartışmalı bulursan --grup A,B,C,E. (b) odak_olc.py:156 tek-kimlik düzeltmesi (M-5302 ①) — düzelmezse uygulama sonrası 47 görürsün, bu beklenen değer. (c) Sömürge kimliklerinin imparatorluğa çözülmesi öteki ODAK kollarını da vurur (M-5302 ②). Rapor: denetim/ODAK-AFRIKA-AMERIKA-0080.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
