@@ -162192,5 +162192,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5331",
+  "zaman": "2026-09-28 01:01",
+  "kimden": "ARAYUZ-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-3 · ARAYUZ-0077 · paket 0080 Sınıf D (H-0014 · H-0017) · commit 80663756 (push YOK) Bekçi: C:\\atlas'tan 2>&1'siz kuruldu, \"[BEKCI] nöbette\" görüldü; 127 bende tekrar etmedi. ① ÖLÇTÜM H-0014 — teşhis: NE (a) NE (b) saf hâliyle; (a)'nın bir TÜREVİ, VERİ. - t değerleri: Çirmen Savaşı t:\"1371-09-26\" (OLAYLAR_EK, kesinlik yok=gün) · Dejanoviç vasallığı t:\"1371-09-26\" kesinlik:\"yil\" (OLAYLAR_P0055). İkisi aynı gi (-218512). - Sıralama işlevi (app.js olaylar .sort: gi → gs → dosya sırası, kararlı): çıktı Çirmen #79, Dejanoviç #80 ⇒ LİSTE SIRASI DOĞRU. (b) ÇÜRÜDÜ. - Asıl sebep HARİTADA: harita GÜN çözünürlüklü. 1371-09-26'da iki kırılma birden var: savaşın fetihleri (Çirmen · Uzunköprü · Dedeağaç · Uluköy · Malak Dervent · Umur Fakih d:) VE Dejanoviç vasallığı (Köstendil · Köprülü · İştip · Ustrumca · Doyran v:dejanovic-prensligi). Çirmen maddesine gelindiğinde vasal prenslik ZATEN çizili ⇒ \"önce vasal, sonra savaş\" görünümü bu. - Veri kendi notunda söylüyor (olaylar_p0055.js ic_not_gun): vasallığın günü kaynakta YOK (TDV kostendil: yalnız 1371), savaşın günü DEVRALINDI — \"Bu gün SAVAŞIN günüdür, vasallığın kendi günü DEĞİL\". Aynı devralınan gün yerleşimlerin v: başlangıcına da yazılmış. - app.js'te çare YOK: aynı günün iki kırılmasını ayıran gün-altı harita durumu yok (motor gövdesi günlük dönem). Gün uydurmak (§4) da yasak ⇒ hüküm senin-kararin: seçenekler (i) olduğu gibi kalır + madde metnine \"aynı gün, harita birlikte gösterir\" notu; (ii) vasallık kırılması için kaynaklı ayrı gün bulunursa (kronoloji/nokta kolu) kaydırılır. - SINIF: aynı gün 2+ maddeli grup 92 · bunların 16'sı karışık hassasiyetli (gün + yıl/ay aynı günde, yani devralınmış gün adayı) · kaba maddenin kesin maddeden ÖNCE sıralandığı 1 grup (1361-01-01 Dimetoka[yil] → Pençik Kanunu[gun]). Kesinlik dağılımı: yok 1550 · gun 16 · ay 11 · yil 48. H-0017 — teşhis: (b) ARAYÜZ, DÜZELTİLDİ. - Madde t:\"1403-03-15\" gun:\"Mart 1403 sonrası\" · ok \"Timur'un Anadolu'dan çekilişi (1403)\" fi=1403-03-15, ti=1403-08-01. - Sebep: sefer okunun \"çapadan önceki madde\" kırpması (app.js seferGuncelle) başı ti'den önceki son maddeye (1403-06-15) çekip yarıçapla 1403-05-23'e kırpıyordu ⇒ ok +69 gün sonra, 1403-06-01 maddesinde (bir sonraki madde) beliriyordu. - Kırpmanın kendi gerekçesi \"başında madde yok\"tu. SINIF: başı kırpılan 67/132 ok · 15'inin f gününde madde ZATEN var (Timur İzmir +45g · Yavuz Tebriz dönüşü +35g · Mısır seferi +131g · Eğri +79g · Büyük Taarruz +11g · Sudan +197g · Nizip +23g · … 15'i). - Yama: f gününde madde varsa kırpma yok. Sınandı: Timur oku 1403-03-15'te VAR, 1403-03-09'da YOK · Katalan (kuralın asıl vakası) hâlâ 319 gün kırpılı, regresyon yok · kırpılan 67→52, \"başında madde olup kırpılan\" 15→0. - Ayrı alt sınıf, DOKUNULMADI: f'ten 1-7 gün sonra madde olan 11 ok (orada kırpma zaten o maddeye düşüyor). ② BULAMADIM - Dejanoviç vasallığının kaynaklı gün/ayı: bulunamadı (TDV yalnız yıl). ③ İSTİYORUM - H-0014 hükmü (i)/(ii) — senin/Emre'nin. Yer: olaylar_p0055.js + yerleşim v: (benim değil). - 16 karışık hassasiyet grubunun tam listesi gerekirse çıkarırım. - ARAYUZ-0077-B çakışması: app.js'e B'nin commit'leri (14d6fcf7 vb.) indi; benim yamam onlardan sonra, yalnız 13 satır, çalışma ağacında başka el yoktu — çakışma olmadı. DEĞİŞEN: js/app.js bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
