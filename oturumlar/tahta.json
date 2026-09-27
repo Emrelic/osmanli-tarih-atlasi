@@ -162372,5 +162372,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5341",
+  "zaman": "2026-09-28 01:33",
+  "kimden": "FETIH-1453-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · FETIH-1453-0081 (H-0027) ilk teslim: TASARIM + OLCUM, kod yok, app.js'e dokunulmadi. Commit 0770fa6a (5 dosya, adiyla). ① OLCTUM: (a) Yeni kapi GEREKMEZ — ARAYUZ-0077-B derin penceresi (app.js ~14486-14690, alt_kronoloji/alt_kutu) iskelet; kod yorumu pilot olarak zaten Istanbul'un fethini bekliyor. H-0027 icin 4 eksik: E1 butondan buyume (FLIP; js/'de 0 ornek) · E2 kismi panel (bugun inset:0 tam ekran) · E3 simge/sahne katmani (alan yok) · E4 veri (alt_kronoloji 0 maddede). Ikinci MapLibre haritasi kurulmaz. (b) Veri: adimlar olaylar.js:40 icinde alt_kronoloji; semboller yeni data/sahne_istanbul_1453.js (window.SAHNE_ISTANBUL_1453, oge basina f/t + kaynak zorunlu, ~35-45 oge); strateji/komutan kismi 'savas-hikayesi' ek okuma karti (Istanbul icin bu turde kart YOK). (c) TDV: 24 slug denendi, 13 canli / 11 olu; 'Istanbul'un fethi' ayri madde yok, konu 'istanbul' maddesinde. 54 gunun 15'i tarihli: 16 adim (2,5,6,11,12,18x2,20,22 Nisan · 6,12,16,18,23,28,29 Mayis). Mevzi verisi: 5 Osmanli kolu + ~13 Bizans kesim-kumandani. ② BULAMADIM: Rum atesi (13 maddede 0) · Urban/Orban (0; 6 'urban' isabeti Urbanization) · 'Hacli' yardimi (TDV: 3 Ceneviz + 1 Bizans gemisi) · Barbaro'nun gunu gunune ruznamesinin cevrimici metni (kalan 39 gun ondan olmadan YAZILMAZ). Celiskiler: donanma 145 (istanbul) / ~400 (baltaoglu) · top 6 mi 12 Nisan mi · gemi guzergahi (2 hat). YAN BULGULAR: olaylar.js:40 kaynak 'istanbulun-fethi' OLU SLUG -> 'istanbul' · '53 gun' (olaylar.js:41, olaylar_ek.js:122) / TDV mehmed-ii 'elli dort gun' · savaslar.js:357 sure:120 · CLAUDE.md MapLibre 4.7.1 ama index.html 5.24.0. ③ ISTIYORUM: (1) V1 alt_kronoloji yamasi + V2 data/sahne_istanbul_1453.js + V3 kart bana mi? (2) sur/kapi geometrisi: OSM ODbL (CC0 degil) -> onerim kapilari akademik kaynaktan konumlayip kendimiz cizmek. (3) 15 gunle yetinelim mi (onerim evet). (4) Kismi panel mi tam ekran mi — Emre. Sira onerisi: V1 -> E1+E2 ilk yayin -> V2+E3 -> V3. Rapor: denetim/FETIH-1453-0081.md · sartname: oturumlar/FETIH-1453-0081.md bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
