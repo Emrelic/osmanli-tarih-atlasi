@@ -160013,7 +160013,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "ARAYUZ-0077": {
+    "zaman": "2026-09-27 11:46",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
