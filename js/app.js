@@ -10370,6 +10370,15 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_p76f",        // window.EKOKUMA_P76F — KRONO-0076-C (16 kart)
   "ekokuma_p76g",        // window.EKOKUMA_P76G — SINIR-BERLIN-0076 (4 kart)
   "ekokuma_p76h",        // window.EKOKUMA_P76H — SINIR-CIZGI-0076 (2 kart)
+  // 🆕 27 Eylül 2026 — PAKET-0077. Üçü de kendi doğrulayıcısını koşturdu
+  // (çapa bağları canlı · geliştirici sesi 0 · id çakışması 0 · ters yön sınavı tuttu).
+  "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (14 kart)
+  "ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)
+  "ekokuma_p77c",        // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart, Ermeni meselesi)
+  // 🆕 27 Eylül 2026 — paket 0077 ek okuma kolları (koordinatör M-5225)
+  "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (14 kart)
+  "ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)
+  "ekokuma_p77c",        // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
