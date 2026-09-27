@@ -715,4 +715,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_a78_asya.js",
     "yerlesimler_a78_avrupa.js",
     "yerlesimler_a78_okyanusya.js",
+    # AVRUPA-SINIR-0077 (27 Eylul 2026) — A-M ardil dilimleri: Maribor, Eisenstadt (M-5219/M-5234)
+    "yerlesimler_p77_avrupa.js",
 ]
