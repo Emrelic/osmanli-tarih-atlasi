@@ -2248,17 +2248,43 @@ harita.on("load", function () {
   //   (`seferGuncelle`), gövdeyle AYNI renkte ve kalınlıkta — yani gövdenin
   //   devamı. Glif (tür göstergesi: ⚓ deniz, ⊗ kuşatma …) kalıyor ama
   //   küçülüyor ve ucun gerisine kayıyor.
+  // 🔴 OK UCU v2 — EKRAN PİKSELİNDE DOLU ÜÇGEN (parti-emrelic-0080 H-0012,
+  // SEFER-OK-0077). Emre: *"deniz seferi ok başı çok şekilsiz … hem çok büyük
+  // hem asimetrik hem ok başı olduğu anlaşılmıyor."* ÖLÇÜLDÜ
+  // (denetim/SEFER-OK-UC-0080.md): v1'in kanatları KİLOMETRE cinsindendi
+  // (okun %6'sı, 18–130 km) ⇒ ekrandaki boyu zoom ile 30 kat oynuyordu
+  // (131 okta z4: 2–18 px · z6: 9–70 px · z8: 34–282 px). Savoy 1366'da z6'da
+  // 123 km'lik kanatların biri gövdenin üstüne yattı, öbürü Ayvalık'a kadar
+  // indi — ok başı değil ikinci bir güzergâh gibi okunuyordu.
+  // ⇒ Uç artık bir Point + SDF üçgen ikon: boyu gövde kalınlığıyla orantılı
+  //   PİKSEL (zoom'dan bağımsız, gövde de piksel), yönü `aci`dan, harita ile
+  //   döner. Kenar (açık hale) SDF halosu — ayrı katman yok.
+  //   `sefer-ucu-kenar` kimliği boş bir yer tutucu olarak KALDI: katman
+  //   sırası (`_seferKatmanSirasi`) ve eski ölçüm aletleri bu adı arıyor.
+  _okUcuResmiEkle();
   harita.addLayer({ id: "sefer-ucu-kenar", type: "line", source: "seferler",
+    filter: ["==", ["coalesce", ["get", "nokta"], ""], "__yok__"],
+    paint: { "line-opacity": 0 } });
+  harita.addLayer({ id: "sefer-ucu", type: "symbol", source: "seferler",
     filter: ["==", ["coalesce", ["get", "nokta"], ""], "uc"],
-    layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#fdf6e9", "line-opacity": 0.75,
-             "line-width": ["+", ["coalesce", ["get", "kalinlik"], 4.5], 2.5] } });
-  harita.addLayer({ id: "sefer-ucu", type: "line", source: "seferler",
-    filter: ["==", ["coalesce", ["get", "nokta"], ""], "uc"],
-    layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
-             "line-opacity": 0.95,
-             "line-width": ["coalesce", ["get", "kalinlik"], 4.5] } });
+    layout: { "icon-image": "sefer-ok-ucu",
+              "icon-rotate": ["coalesce", ["get", "aci"], 0],
+              "icon-rotation-alignment": "map",
+              "icon-pitch-alignment": "map",
+              "icon-allow-overlap": true, "icon-ignore-placement": true,
+              // Resim 26 css-px boyunda; boy = gövde kalınlığı × 5.5
+              // (ölçüldü: gövde `kalinlik` 2.5–3.2 px ⇒ uç 14–18 px; ×4.5'te
+              // 13 px uç, yerleşim işareti ve ok adının yanında seçilmiyordu; eski
+              // kanatlar z6'da 9–70, z8'de 34–282 px idi). Taralı hedefte
+              // kalınlık büyüdüğü için uç da onunla büyür.
+              "icon-size": ["*", ["coalesce", ["get", "kalinlik"], 3], 5.5 / 26],
+              // Çapa: gövdenin bittiği nokta üçgenin ucundan boyunun %30'u
+              // geride kalsın (resim-px: uç y=6, boy 52 ⇒ y=21.6; merkez 32 ⇒
+              // 10.4 resim-px = 5.2 css-px geriye). Ofset ikonla birlikte döner.
+              "icon-offset": [0, 5.2] },
+    paint: { "icon-color": ["coalesce", ["get", "renk"], "#2b1006"],
+             "icon-opacity": 0.95,
+             "icon-halo-color": "#fdf6e9", "icon-halo-width": 1.2 } });
   harita.addLayer({ id: "sefer-kaynak", type: "circle", source: "seferler",
     filter: ["==", ["coalesce", ["get", "nokta"], ""], "kaynak"],
     paint: { "circle-color": ["coalesce", ["get", "renk"], "#2b1006"],
@@ -5263,27 +5289,69 @@ function _okKesimleri(yol, kutular) {
   return kesimler;
 }
 
-// 🔴 OK UCU GEOMETRİSİ — H-0001 §3. Son parçanın yönünden iki kanat üretir;
-// kanat boyu okun KENDİ uzunluğunun oranıdır (zoom'dan bağımsız görsel oran) ve
-// uçlarda sınırlanır, yoksa kısa oklarda kanat okun kendisinden uzun olurdu.
-function _okUcuKanatlari(yol) {
+// 🔴 OK UCU v2 — H-0012 (paket 0080). v1 (`_okUcuKanatlari`, H-0001 §3) iki
+// kanat ÇİZGİSİ üretiyordu, boyu km cinsindendi — ölçülen kusur yukarıda,
+// `sefer-ucu` katmanının yorumunda. Bu işlev yalnız UCUN YERİNİ ve YÖNÜNÜ verir;
+// boy ekranda, katmanda belirlenir.
+// YÖN: son parçadan DEĞİL, uçtan gövde boyunca `geriKm` gerideki noktadan
+// alınan KİRİŞten. Son parça kıyıyı dolanan `rota`da birkaç km'lik bir kıvrım
+// olabiliyor (Savoy 1366: son parça 9,6 km, gövdenin genel gelişine ~50° açılı);
+// uç ~25 px iken yönü 10 km'lik kıvrımdan almak gövdeden sapık bir üçgen verir.
+// `geriKm` = okun %3'ü, 3–20 km: kısa okta son parçaya yakın kalır.
+// Açı Mercator'da konformdur: atan2(Δboylam·cos φ, Δenlem) = ekrandaki açı.
+function _okUcuYonu(yol) {
   if (!yol || yol.length < 2) return null;
-  var son = yol[yol.length - 1], onceki = yol[yol.length - 2];
+  var son = yol[yol.length - 1];
   var toplam = 0;
   for (var i = 1; i < yol.length; i++) toplam += kmArasi(yol[i - 1][1], yol[i - 1][0], yol[i][1], yol[i][0]);
-  var boyKm = Math.max(18, Math.min(130, toplam * 0.06));
-  var enlemD = Math.cos(son[1] * Math.PI / 180) || 1e-6;
-  var dx = (son[0] - onceki[0]) * enlemD, dy = son[1] - onceki[1];
-  var n = Math.sqrt(dx * dx + dy * dy) || 1e-9;
-  dx /= n; dy /= n;
-  var derece = boyKm / 111.0;                       // km → derece (kabaca)
-  function kanat(aci) {
-    var c = Math.cos(aci), s = Math.sin(aci);
-    // geriye doğru döndürülmüş birim vektör
-    var gx = -(dx * c - dy * s), gy = -(dx * s + dy * c);
-    return [son, [son[0] + gx * derece / enlemD, son[1] + gy * derece]];
+  var geriKm = Math.max(3, Math.min(20, toplam * 0.03)), kalan = geriKm, geri = yol[0];
+  for (var j = yol.length - 1; j > 0; j--) {
+    var d = kmArasi(yol[j - 1][1], yol[j - 1][0], yol[j][1], yol[j][0]);
+    if (d >= kalan) {
+      var f = d > 0 ? kalan / d : 0;
+      geri = [yol[j][0] + (yol[j - 1][0] - yol[j][0]) * f, yol[j][1] + (yol[j - 1][1] - yol[j][1]) * f];
+      break;
+    }
+    kalan -= d;
   }
-  return [kanat(0.52), kanat(-0.52)];               // ±30°
+  var dx = (son[0] - geri[0]) * Math.cos(son[1] * Math.PI / 180), dy = son[1] - geri[1];
+  if (!dx && !dy) return null;
+  return { nokta: son, aci: Math.atan2(dx, dy) * 180 / Math.PI };
+}
+// Üçgen ikonu bir kez, kod içinde üretilir (dış resim dosyası yok). SDF: renk
+// `icon-color`dan, hale `icon-halo-*`tan gelir — tek ikon bütün renkleri taşır.
+// Kodlama MapLibre'nin SDF sözleşmesi: kenarda alfa 0.75, 8 px'te 0'a iner.
+// Üçgen yukarıyı (kuzeyi) gösterir; ucu resmin üst kenarından 6 px içeride,
+// tabanı alttan 6 px içeride; boy 52, taban 56 resim-px (pixelRatio 2 → 26×28
+// css-px). ÇAPA: gövdenin bittiği nokta üçgenin ucundan boyunun %30'u geride
+// (`icon-offset`, katmanda). Uç hedefi ~4 px aşar — KASITLI: gövde yuvarlak
+// başlı; ucu tam hedefe koymak gövdenin ucunu üçgenin en dar yerinden yanlara
+// taşırırdı (ok değil küt çizgi gibi görünür). %30'da üçgen genişliği
+// (~4,5 px) gövdeyi (≤3,2 px) örter.
+function _okUcuResmiEkle() {
+  if (harita.hasImage && harita.hasImage("sefer-ok-ucu")) return;
+  var S = 64, veri = new Uint8Array(S * S * 4);
+  var A = [32, 6], B = [4, 58], C = [60, 58];
+  function kenarUz(p, a, b) {                      // p'nin [a,b] doğru parçasına uzaklığı
+    var vx = b[0] - a[0], vy = b[1] - a[1], wx = p[0] - a[0], wy = p[1] - a[1];
+    var t = Math.max(0, Math.min(1, (wx * vx + wy * vy) / (vx * vx + vy * vy)));
+    var ex = a[0] + t * vx - p[0], ey = a[1] + t * vy - p[1];
+    return Math.sqrt(ex * ex + ey * ey);
+  }
+  function icinde(p) {
+    function isaret(a, b) { return (p[0] - b[0]) * (a[1] - b[1]) - (a[0] - b[0]) * (p[1] - b[1]); }
+    var d1 = isaret(A, B), d2 = isaret(B, C), d3 = isaret(C, A);
+    return !(((d1 < 0) || (d2 < 0) || (d3 < 0)) && ((d1 > 0) || (d2 > 0) || (d3 > 0)));
+  }
+  for (var y = 0; y < S; y++) for (var x = 0; x < S; x++) {
+    var p = [x + 0.5, y + 0.5];
+    var d = Math.min(kenarUz(p, A, B), kenarUz(p, B, C), kenarUz(p, C, A));
+    if (icinde(p)) d = -d;
+    var a = Math.max(0, Math.min(255, Math.round(255 * (0.75 - d / 8))));
+    var k = (y * S + x) * 4;
+    veri[k] = veri[k + 1] = veri[k + 2] = 255; veri[k + 3] = a;
+  }
+  harita.addImage("sefer-ok-ucu", { width: S, height: S, data: veri }, { sdf: true, pixelRatio: 2 });
 }
 
 // "ok" animasyon fazı sürerken o ok'un DURAĞAN çizimi gizlenir; yoksa ilerleyen
@@ -5507,12 +5575,13 @@ function seferGuncelle(t) {
       // SON parçasından türüyor ki ucun yönü gövdeyle aynı olsun; kalınlığı da
       // SON KESİMDEN geliyor (uç hedefte, hedef taralıysa uç da 2 kat olmalı) —
       // tek kaynak, ayrı sayı yok.
-      if (!m._ucu) m._ucu = _okUcuKanatlari(m._kavisli);
+      // v2 (H-0012 · 0080): uç bir Point + açı; üçgen `sefer-ucu` sembol katmanında.
+      if (!m._ucu) m._ucu = _okUcuYonu(m._kavisli);
       var _sonKesim = m._kesimler[m._kesimler.length - 1];
       if (m._ucu) cizgiler.push({ type: "Feature",
-                      properties: { renk: m.renk, tur: m.tur, nokta: "uc",
+                      properties: { renk: m.renk, tur: m.tur, nokta: "uc", aci: m._ucu.aci,
                                     kalinlik: seferKalinlik(m.tur, !!(_sonKesim && _sonKesim.tarali)) },
-                      geometry: { type: "MultiLineString", coordinates: m._ucu } });
+                      geometry: { type: "Point", coordinates: m._ucu.nokta } });
       // 🔴 ORDUNUN ÇIKIŞ NOKTASI (H-0006: "yuvarlak kalın bir nokta") — okun
       // yol[0]'ı. Ayrı kaynak açılmadı: çizgi katmanları Point'i, `sefer-kaynak`
       // katmanı LineString'i yok sayar.
