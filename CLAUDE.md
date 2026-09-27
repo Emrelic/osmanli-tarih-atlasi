@@ -394,8 +394,21 @@ kıta sayılan oturuma iş vermek, dolu bir işçinin üstüne ikinci iş yığm
 - **⑦ Teslim:** iş bitince TEK mesaj: ölçtüm · bulamadım · istiyorum + değişen dosya
   listesi; kritikse `tahta.json`dan geri okunur. Paylaşılan dosyayı (`data/`, `CLAUDE.md`)
   koordinatör commitler; devralınan dosya için "dosya senin" denir.
-- **⑧ Emeklilik:** teslimden sonra DUR. Devamı varsa bekçi açık kalır; iş BİTTİYSE işçi
-  bekçisini kendisi öldürür (TaskStop). Emekli oturuma yalnız işin doğrudan devamı verilir.
+- **⑧ Emeklilik:** teslimden sonra DUR. Devamı varsa bekçi açık kalır.
+  🔴 **BEKÇİYİ ÖLDÜRME ARTIK TEK TARAFLI DEĞİL** (Emre, 27 Eylül 2026: *"işini
+  bitiren oturumlar koordinatöre konuşarak işçilerini öldürmeliler; işçiler boş
+  yere çalışıp RAM ve işlemci harcamamalı"*). Teslim mesajının SONUNA tek satır
+  eklenir: **"bekçimi öldüreyim mi?"** Koordinatör iki cevaptan birini verir:
+  ```
+  EVET        → işçi TaskStop ile bekçisini öldürür, oturum emekliye ayrılır
+  HAYIR BEKLE → bekçi AÇIK kalır, devam görevi geliyor
+  ```
+  ⚠️ Cevap gelmeden bekçi öldürülmez: bekçisiz oturum tahtadan uyanmaz ve
+  devam görevi `send_message` gerektirir — bir turluk tasarruf için tam turluk
+  uyandırma ödenir. ⚠️ Ama cevap gecikirse de bekçi boşuna koşar: koordinatör
+  bu soruyu **ilk toplu okumada** cevaplar, biriktirmez.
+  📌 Niçin koordinatör karar verir: devam işi olup olmadığını yalnız o bilir.
+  Emekli oturuma yalnız işin doğrudan devamı verilir.
   🔴 İşi biten ve devamı beklenmeyen oturumu koordinatör EMEKLİYE AYIRIR: "Atlas — emekli
   oturumlar" grubuna taşır (`move_sessions`) — Emre, 19 Eyl. Açık teslimi/sorusu olan
   emekliye ayrılmaz; geri dönüş: gruptan çıkar.

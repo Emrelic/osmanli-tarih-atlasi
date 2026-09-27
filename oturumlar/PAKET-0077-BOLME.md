@@ -137,14 +137,64 @@ meselesi) Opus — hiçbiri Sonnet değil; sekizi kaynak hükmü veriyor, biri
 `js/app.js`e dokunuyor (`§4` küçük model kullanılmaz).
 Cephane ölçüldü, sormaya gerek kalmadı (§3). Havuz ölçüldü, boş oturum yok (§4).
 
-## 7. Yolda bulunan ayrı kusur — bekçi çıkış kodu 4 SİSTEMİK
+## 6b. 🆕 PAKET-0078 (6 madde, 27 Eylül 10:57) — YENİ OTURUM GEREKMEDİ
 
-Üç oturumun üçünde de aynı satır: `Background command "Re-arm watcher" failed
-with exit code 4`. Koordinatörün kendi bekçisi (`brjq1tzjw`) de aynı kodla
-düştü. ⇒ Bu tek bir oturumun arızası değil, **`arac/tahta_bekci.py`nin ya da
-onu `run_in_background` ile kuran kalıbın sistemik kusuru.** Dört ayrı oturumda
-aynı kod, tesadüf sayılmaz.
-🔴 Sonucu ağır: bekçisi ölen oturum tahta mesajıyla UYANMAZ (`§7.2 ⚠️`) —
-dokuz kolu dağıtıp bekçileri bu kusurla kurmak, dokuz oturumu sağır
-dağıtmaktır. **Kol dağıtımından ÖNCE ölçülmeli.** Boyutu ölçülmedi; kalem
-`YAPILACAKLAR.md`e girecek, sahibi koordinatör.
+Emre: *"6 maddelik bir paket daha gönderdim, sıraya alalım ya da halihazırdaki
+oturumlara verelim."* Altısı da mevcut kolların **zaten sahip olduğu** ailelere
+düştü ⇒ dağıtıldı, yeni oturum açılmadı.
+
+| madde | konu | kol |
+|---|---|---|
+| H-78:1 | A/B gün yarıçapı ayarı tıklanmıyor | ARAYUZ-0077 |
+| H-78:2 | Bosna (Banaluka–Bihaç) 1281 boşluk | ARAYUZ-0077 *(hipotez)* |
+| H-78:5 | Aydın 1281 boşluk | ARAYUZ-0077 *(hipotez)* |
+| H-78:3 | savaş simgesi bütün zamanlarda mı görünüyor | ARAYUZ-0077 |
+| H-78:6 | Hısn-ı Keyfâ Eyyûbîleri — iki renk üst üste | ARAYUZ-0077 |
+| H-78:4 | Venedik "Milano Düklüğü" görünüyor (5 görsel) | AVRUPA-SINIR-0077 |
+
+🔴 **Bir HİPOTEZ yazıldı, hüküm değil:** H-78:1 ayarın ölü olduğunu söylüyor;
+H-78:2 ve H-78:5 ise "5 günlük sürtünmeli yürümeden daha yakın değil mi"
+diyerek boşluk gösteriyor. Ayar uygulanmıyorsa ikisi onun **sonucu** olabilir.
+Şartnameye sınanacak iddia olarak girdi: doğrulanırsa üç madde tek kusurla
+kapanır; **çürürse H-78:2 ve H-78:5 gerçek nokta boşluklarıdır ve ARAYUZ'un
+kalemi değildir** — nokta koluna sevk edilir. `C13` gereği iki yönde sınanacak.
+
+## 6c. FAZ 2 — iki büyük özellik ARAYUZ'dan ALINDI
+
+`H-0020` (kronoloji içi derin pencere + zoom + mini kronoloji) ve `H-0049`un
+buton yüzü (madde içi aşama aşama oynatma) **ertelendi.** Gerekçe yapısal:
+ikisi de `js/app.js`e dokunur, o dosyanın tek sahibi vardır, ve paket 0078 ile
+ARAYUZ'un kusur yükü 10'dan 15'e çıktı. **Kusurlar özelliklerden önce gelir.**
+ARAYUZ-0077 teslim edip *"dosya senin"* deyince `ARAYUZ-0077-B` devralacak —
+yedekteki iki hazır kıtadan biri o zaman görevlendirilir.
+
+## 7. Yolda bulunan ayrı kusur — bekçi çıkış kodu 4 ÖLÇÜLDÜ, ALET MASUM
+
+Dört oturumda aynı satır: `"Re-arm watcher" failed with exit code 4`.
+"Sistemik kusur, aleti düzeltmek gerek" demiştim. **Ölçtüm — teşhis yanlıştı.**
+
+```
+tahta_bekci.py'de "return 4" YOK (çıkış kodları yalnız 0 ve 2)
+dört çıktının dördü de "nöbette" basmış, sonra SESSİZCE düşmüş
+üçü 23 Eylül 19:01:58–19:02:02 arasında, DÖRT SANİYE içinde
+Windows System kütüğü, aynı saniyeler:
+   23.09 19:01:57  User32 1074  "kapat öğesini başlattı · Kapatma Türü: kapat"
+   26.09 00:20:34  User32 1074  (koordinatörün bekçisi TAM bu saniyede)
+```
+⇒ **Çıkış kodu 4 = Windows'un kapanırken süreci sonlandırması. Alette
+düzeltilecek şey YOK.** Son iki günde üç kapanma oldu (26 Eyl 00:20 · 26 Eyl
+18:29 · 27 Eyl 01:42); son açılış 27 Eyl 10:15. Ders: [`D236`](../dersler/D236-bekci-cikis-4-kapanma.md).
+📌 **"Sistemik" bir teşhis değildir.** Dört oturumda aynı kodu görmek gerçekten
+tesadüf değildi — ama "tesadüf değil" ile "aletin kusuru" arasında bir ölçüm
+vardır. O ölçüm yapılmasaydı dokuz şartnameye *"bekçi arızalı"* yazılacak ve
+dokuz oturum var olmayan bir kusuru arayacaktı.
+
+🔴 **Ama sonucu kural gerektiriyor:** bekçi kapanmayı aşamaz ⇒ her kapanışta
+bütün bekçiler ölür, bütün oturumlar SAĞIR kalır, tahta mesajı onları
+uyandırmaz. Dokuz şartnamenin dokuzuna şu satır kondu: *"bekçin kod 4 ile
+düştüyse kusur sende değil, sessizce yeniden kur, ekrana yazma."*
+
+⚠️ **Çözülmemiş çelişki (kuyruğa):** `tahta_bekci.py`nin docstring'i *"Monitor
+ile kur, kabuğun arka planına ATMA"* diyor; `CLAUDE.md §7.2 ④` *"Bash
+run_in_background, Monitor DEĞİL"* diyor. Yürürlükte olan yenidir (§7.2 ④),
+ama betiği okuyan oturum eski kuralı öğrenir. Docstring güncellenmeli.
