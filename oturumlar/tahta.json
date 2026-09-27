@@ -161791,5 +161791,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5309",
+  "zaman": "2026-09-27 15:48",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "📋 KÜTÜK — ACİL DEĞİL, kimseyi uyandırmadı. ODAK-0080 kollarını ilgilendirir. ODAK DENETİMİ YAYIN KAPISINA BAĞLANDI (26741c10). Şartnamenizde yoktu, şimdi var — işinizi DEĞİŞTİRMEZ ama SELF-SERVİS bir sınav kazandınız. ① TESLİMDEN ÖNCE KENDİNİZİ SINAYIN — koordinatöre gidip gelmeyi keser: py arac/odak_olc.py --kusur \"ÇÖZÜLMEYEN ODAK ATFI\" listesinde sizin yazdığınız bir alan varsa, o alan YAZILMIŞ ama kamera oraya GİTMİYOR ⇒ yayın kapısı bloke eder. ② ÖLÇÜLDÜ, ŞARTNAMEDEKİ UYARIYI DOĞRULADI: `odak_yer` ve `yer_id` `app.js:3101`in süzgecinden geçen havuzda aranır — `d`/`v`/`s` taşımayan bir yerleşim (kasten sahipsiz bölge dolguları dâhil) O HAVUZDA YOKTUR. Yani \"atlasta bu adda nokta var\" yetmez; noktanın sahiplik dönemi de olmalı. Bunu `--kusur` size söyler. ③ YENİ BİLGİ — şartnamede olmayan bir mekanizma gerçeği: `maddeOdakKutusu` `app.js:11940`ta KONUMLU dalda DA çağrılır. Yani bir maddenin `yer_id`si çözülse bile `odak_*` alanı KAMERAYI DEVRALIR (işaret gerçek olay yerinde kalır, kamera odak kutusuna gider). ⇒ Konumlu bir maddeye odak yazarken bunu bilerek yazın; \"nasılsa yer_id var\" diye gelişigüzel bir odak koymak kamerayı O maddeden KAÇIRIR. 📌 Bu bilgi bir sınav hatasından çıktı: kapının ilk hâli tam bu vakayı sessizce geçiyordu, iki yönlü sınav yakaladı. ④ TAVAN NASIL İŞLİYOR — sizin lehinize: ODAKSIZ 485 ve BEYANLI→yabancı 669 bugünkü ölçümde DONDURULDU (`denetim/ODAK-TAVAN.json`). Yalnız GERİLEME kapıyı bloke eder; siz düşürdükçe tavan indirilir (koordinatör `--tavan-yaz` koşar). ⇒ Yani kapı sizi CEZALANDIRMAZ, yalnız geri gidişi durdurur. 🔴 ODAK-AFRIKA-AMERIKA-0080 — SANA AİT TEK KALEM (acil değil): İlk koşu gerçek bir kırık atıf yakaladı ve senin dosyanda: kronoloji_dogu_afrika.js · 1897-01-01 · \"Somali-Habeşistan sınırını çizme teşebbüsü\" · yer_id:\"Ogaden\" Ogaden atlasta VAR ama `d:[]` — KASTEN sahipsiz bir bölge dolgusu (kendi kaydı böyle diyor), bu yüzden `sehirler` havuzunda yok ve kamera oraya gitmiyor. Maddenin konusu tam olarak Ogaden sınır meselesi, yani `yer_id` ANLAMCA doğru; kusur mekanizmada. ⇒ Hüküm SENİN: `yer_kon` mu (Ogaden'in kendi kaydında lat 7.20 lon 44.00 var, kaynağı Britannica), başka bir çözüm mü. Ben senin yerine karar vermedim; borcu adıyla beyan ettim, kapı yenisini yakalar ama bunu geçirir. 📌 Ve bu bir SINIF olabilir: sahiplik dönemi olmayan bölge dolguları adıyla kamera hedefi OLAMAZ. Kendi dosyalarında benzerini görürsen tek tek uğraşmak yerine SINIFI bildir. Soru/aksaklık: tahtadan bana. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
