@@ -45,9 +45,10 @@ gövdesinden DAHA YAKIN olan noktalar (Emre'nin cümlesinin birebir geometrisi:
 işi değildir; sıra atlanırsa kaynak araştırması motor kusurunu "tarih" diye yazar.
 
 ```
-S0  NOKTA VAR MI?  koridorda hiç nokta yoksa ya da kutu bir elin parmakları
-    kadar seyrekse  → Ⓝ NOKTASIZLIK (CLAUDE.md §2). Çare: yerleşim yoğunluğu
-    (Oturum 0). Kaynak ARANMAZ — veri doğru olsa da harita yanlış çizer.
+S0  NOKTA VAR MI?  mercek aralığı > 40 km (§⑥)  → Ⓝ ETİKETİ (CLAUDE.md §2).
+    Çare kolu: yerleşim yoğunluğu (Oturum 0). ⚠️ SONLANDIRICI DEĞİL — S1-S4
+    yine sorulur (§⑥: 40 km'de gerçek bir ada da Ⓝ çıkıyor). [28 Eyl düzeltmesi;
+    ilk metin "kaynak ARANMAZ" diyordu ve bir ① vakasını kapatırdı.]
 S1  KORİDOR NOKTASININ O GÜN SAHİBİ VAR MI?  yoksa → Ⓑ ÖNCÜ BOŞLUK.
     Çare: eksik dönem kaynaktan yazılır (ya da kasitli_bosluk beyanı).
 S2  UZAKTAKİ KAYIT KAYNAKLI MI?  `kaynak:` yok · "veri-içi sözleşme" (D207) ·
@@ -167,6 +168,79 @@ biçimiyle tetikleniyor. 5a tavanı 0 olduğuna göre devir bugün hiçbir kayı
 ister (5a'ya "kur öncesi dönem = devir beyanı" istisnası mı, yoksa motor devrini
 sahipsiz kurulmamış noktaya da açmak mı). Karar koordinatör/Emre'nin.
 `kur:` geri alındı: `denetim/KORIDOR-0081-uzunkopru-geri.py`. H-0008 AÇIK.
+
+## ⑥ S0 EŞİĞİ — koordinatör şartı (28 Eylül): "S0'a SAYI koy"
+
+Alet: `denetim/KORIDOR-0081-s0.py`. Ada, **göreli komşuluk çizgesiyle** (RNG ⊂
+Delaunay: a-b arasındaki merceğe nokta düşmüyorsa komşu) bulunur — petek
+bitişikliğinin kaynaksız yaklaşığı. P = adanın gövdeye en yakın üyesi, B = gövdedeki
+karşılığı; **mercek** = o gün var olan, X'e ait olmayan, `uzak(q,P)` ve `uzak(q,B)`
+ikisi de `uzak(P,B)`den küçük noktalar.
+
+```
+S0 ÖLÇÜSÜ   aralık = uzak(P,B) / (n_mercek + 1)     — merceği kaç km'de bir nokta bölüyor
+S0 EŞİĞİ    aralık > 40 km  ⇒ Ⓝ ETİKETİ
+```
+
+| vaka | uzak(P,B) | n_mercek | aralık | 30 km | **40 km** | 50 km | ilk teslimdeki hükmüm |
+|---|---|---|---|---|---|---|---|
+| H-0007 | 77,2 | 6 | 11,0 | – | – | – | ⑤ (kıyı ötesi noktasız ama mercek DOLU) |
+| H-0008 | 137,6 | 20 | 6,6 | – | – | – | ⑥ |
+| H-0011 | 69,0 | 1 | 34,5 | Ⓝ | – | – | ⑤+⑥+Ⓝ |
+| H-0018a Pirot 1412 | 112,4 | 1 | 56,2 | Ⓝ | **Ⓝ** | Ⓝ | ① gerçek |
+| H-0018b Vidin 1413 | 148,6 | 2 | 49,5 | Ⓝ | **Ⓝ** | – | Ⓝ |
+| H-0024 Pirot 1443 | 128,3 | 2 | 42,8 | Ⓝ | **Ⓝ** | – | ⑤ |
+| H-0028 Alacahisar 1428 | — | — | — | | ADA DEĞİL (RNG'de gövdeye bağlı) | | ② |
+| H-0025 · H-0029 · H-0030 | ada sorusu değil (iade listesi · sınır · sahipsizlik) | | | | | | |
+
+🔴 **Eşik bir KAÇIŞ KAPISI olmasın diye S0 ARTIK SONLANDIRICI DEĞİL** — ölçüm bunu
+kendisi gösterdi: 40 km'de Pirot 1412 Ⓝ çıkıyor, oysa TDV onu **gerçek ada** (①)
+diye tanıklıyor. Eski metnim ("Ⓝ ise kaynak ARANMAZ") o vakayı kaynak işi yapılmadan
+kapatırdı — koordinatörün korktuğu şey tam buydu ve 10 vakanın içinde gerçekleşti.
+**Yeni kural:** Ⓝ bir ETİKETTİR, çare kolu açar (nokta yoğunluğu, Oturum 0) ama
+S1–S4 YİNE sorulur. Ⓝ'nin ayırt edici değeri S4'ten sonra doğar: mercekteki bütün
+noktaların sahibi kaynakla doğrulandıysa ve ada hâlâ duruyorsa, adanın sebebi
+yalnız noktasızlıktır (H-0018b: Niş ve Pirot TDV'ye göre gerçekten despotta; Vidin'i
+gövdeye bağlayan Kuzeybatı Bulgaristan'da **hiç nokta yok**).
+📌 40 km'nin gerekçesi: 30 km H-0011'i de etiketler (merceği 1 nokta, 34,5 km —
+koridor YOK değil SEYREK); 50 km H-0018b'yi kaçırır (Vidin'in adası noktasızlıktan
+başka hiçbir şeyle açıklanamıyor). **Editoryal eşik, ölçülmüş iki uç arasında.**
+
+🔴 **İKİNCİ TESLİMİ DEĞİŞTİREN BULGU — Değişmez 7 H-0007'yi GÖRMÜYOR.** D7'nin
+bağı 150 km'lik mesafe; 1365'te İğneada→Lüleburgaz 77 km ⇒ D7'ye göre 92 noktalık
+tek Osmanlı bileşeni, ada yok. Haritada ise ada (arada 6 Bizans noktası). RNG ile
+bakınca ada. ⇒ **725 kovası Emre'nin kendi vakalarını İÇERMEYEBİLİR.** İkinci teslim
+725'i S0–S3'ten geçirmeden önce kovanın kendisini RNG ile yeniden ölçmeli; aksi hâlde
+yanlış evrende çalışırız. (Kaç vakayı kaçırdığını ölçmedim — D7'nin kendi listesini
+`denetle.py` koşusu olmadan alamadım.)
+
+## ⑦ 31 ÖNCÜ BOŞLUĞUN SINIFLAMASI (koordinatör ④)
+
+Alet: `denetim/KORIDOR-0081-oncu-sinif.py`. Ölçüt kaynaksız ve yapısal: ilk dönemden
+bir gün önce, o gün var olan en yakın 6 komşunun kaçı sahipli.
+`ⓓ DELİK` ≥ 4 sahipli (boşluk dolu toprağın ortasında, görünür) · `ⓚ KASITLI` ≤ 2
+(boş bölgenin parçası, eksik olan bayrak) · `ⓢ SINIR` 3.
+
+```
+31 = 5 H-0030 (uygulayıcıyla KAPANDI — koşudan sonra ağaçta artık öncü boşluk değil)
+   + 15 ⓓ DELİK   Darfur 1400 · Agadez 1405 · Manama 1417 · Ecdâbiye 1551 · Tobruk 1556
+                  Katar iç dolgu 1559 · Hâil 1779 · Antananarivo 1787 · Dilem 1792
+                  Havta 1795 · Leylâ 1795 · Ogooué havzası 1837 · Hadramut 1881
+                  Mukalla 1888 · Segu 1898
+   +  7 ⓚ KASITLI Necid 1744 kümesi: Buraydâ · Dir'iye · Necid içi · Nefud · Riyad ·
+                  Uneyze · Şakrâ — altısının 6/6 komşusu o gün sahipsiz; denetle.py'nin
+                  kendi yorumu da "Riyad ve Dir'iye ile kasten sahipsiz" diyor ⇒ eksik
+                  olan yalnız `kasitli_bosluk` bayrağı
+   +  4 ⓢ SINIR   Bingazi · Merc · Beyzâ (1551, Berka kümesi) · Honolulu 1795
+```
+
+⚠️ ⓓ bir TARİH hükmü değil: "fetih öncesi sahip yazılmalı" der, **kim** olduğunu kaynak
+söyler. İçinde bir alt sınıf var ve ayırmak kaynak ister: noktanın kendisi ilk
+dönemiyle birlikte mi kuruldu (o zaman çare `kur:`, delik değil). Adayı: Agadez
+(kuruluş tarihi ölçülmedi). Dördü (`tur:"bolge"`: Darfur · Katar iç dolgu · Ogooué ·
+Hadramut) dolgu noktası — dolgunun sahipli komşular ortasında sahipsiz başlaması
+kasıt olamaz, delik sınıfına yazdım.
+⚠️ Ve alt sınır uyarısı aynen: `kur:`ı fetih yılıyla dolduranlar bu ölçümden kaçar.
 
 ## ④ YAN BULGULAR — işin içinden çıktı, kapsamı aşıyor
 
