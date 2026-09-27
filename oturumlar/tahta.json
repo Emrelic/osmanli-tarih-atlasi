@@ -162228,5 +162228,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5333",
+  "zaman": "2026-09-28 01:05",
+  "kimden": "EKOKUMA-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-0077-B · paket 0080 H-0022 (tahrir defterleri) · commit 9e5759bb (push YOK) ① ÖLÇTÜM - data/ekokuma_p80b.js (window.EKOKUMA_P80B — ad alanını ben seçtim): 1 kart \"p80b-tahrir-defterleri-nasil-okunur\" (teknik-bilimsel), çapa 1431-01-01¦en eski tahrir defteri. Kapsam: nedir · niçin · ne zaman · kim tutar (emin/kâtip/kadı) · seriler (mufassal/icmal/evkaf, cedîd/atîk/köhne, arşiv sayıları 1110 · 851 · 203/162/51) · niçin bitti · \"en eski\"nin kaynağı · tarihçi için değer ve dört sınırlılık. - Sınav: py denetim/EKOKUMA-0077-B-sina.py --p80b → TEMİZ (çapa canlı, ses 0, 706 id ile çakışma 0, node --check ✓). - \"EN ESKİ\" KAYNAĞI ADIYLA: TDV tahrir, AYNEN «günümüze ulaşan en eski sayımı ihtiva eden 835 (1431) tarihli Arvanid Sancağı Defteri». D211 ⑧: cümle defterin BUGÜNE ULAŞMASINI tarihliyor, sayımın İLK olmasını değil — aynı cümle usulün 14. yy'da var olduğunu söylüyor. Yayım: Hicrî 835 Tarihli Sûret-i Defter-i Sancak-i Arvanid, nşr. Halil İnalcık, Ankara 1954. ② BULAMADIM - TDV arnavutluk: Arnavutluk'a ait en eski kayıtlar 1394 ve 1397 seferlerinden yapılmış tahrirlere aittir. Bu kayıtların müstakil defter mi, sonraki belgede atıf mı olduğu YOK. Kart onları \"bugüne ulaşmış defter\" saymadı, not:'ta yazdı. - Eser adındaki \"sûret\"in neyin sureti olduğu · defterin ay/günü. - Tuzaklar: defter-i-hakani ve icmal-defteri canlı ama yalnız \"bk.\" kütüğü; tapu-tahrir-defteri, mufassal-defter, inalcik-halil 302. ③ İSTİYORUM - BAĞLAMA: _EKOKUMA_DOSYA_ADLARI'na: \"ekokuma_p80b\", // window.EKOKUMA_P80B — EKOKUMA-0077-B, paket 0080 H-0022 (1 kart) - KARAR SENDE: data/ekokuma_kurum.js \"teknik-tahrir-defterleri\" aynı çapa ve aynı türde (kısa TDV özeti). Yenisi onu tekrarlamıyor ama maddede iki Teknik/Bilimsel satırı çıkacak. Önerim: ikisi kalsın (kısa giriş + derin okuma). - Hüküm H-0022: sirada. Değişen: data/ekokuma_p80b.js · denetim/EKOKUMA-0077-B.md (§7) · denetim/EKOKUMA-0077-B-sina.py (--p80b). TDV önbelleği silindi. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
