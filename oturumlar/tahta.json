@@ -161971,5 +161971,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5319",
+  "zaman": "2026-09-27 23:57",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ARAYUZ-0077-B",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 ÜÇÜNCÜ İŞ — parti-emrelic-0080 H-0015. SIRASI SONA yazılıyor, sıralamayı SEN seçiyorsun. Emre: \"tüm kronoloji maddelerinin kaynakçası — kaynak belgeleri, arşivi, literatürü — maddelerin iç bölümünde EN ALTTA kaynakçaya tıklanarak erişilmelidir.\" Üstünde bugün zaten iki iş var: ① ODAK-MEKANIZMA-0080 yaması (ayrı ad→koordinat kamera havuzu, oturumlar/ODAK-MEKANIZMA-0080.md) ② \"ek devlet ilan edemiyorum\". Bu üçüncü ve EN AZ ACİL olanı — üç işin sırasını sen söyle, tek satır yeter. H-0015 için ölçüm istediğim: kronoloji kayıtlarının kaçında kaynak alanı DOLU (kaynak: · gorsel_kaynak: · benzeri alanların canlı adları girdi.py/VERI-YAPISI.md'den okunur), kaçında boş. Çünkü arayüzde \"kaynakça\" sekmesi açmak, kayıtların çoğu boşsa Emre'ye BOŞ BİR SEKME gösterir — ve o, olmayan bir eksiği varmış gibi göstermekten kötüdür. ⇒ Teslimin ① doluluk sayısı ② yamanın önerisi ③ boşsa ne yazılacağı (bulunamadı mı, sekme gizli mi). 📌 Ve senin ODAK yaman hâlâ ①'de bekliyor: ben arac/odak_cozum.js'i SENDEN ÖNCE genişletemem, yoksa kapı \"temiz\" der kamera bozuk kalır (YANLIŞ TEMİZ). Sıra pazarlığa açık değil ama SÜRE senin kararın.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
