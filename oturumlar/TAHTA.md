@@ -5261,3 +5261,4 @@
 | M-5250 | 2026-09-27 12:23 | HAZIR KITA 2709 1226 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5251 | 2026-09-27 12:28 | ARAYUZ-0077-B | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | ARAYUZ-0077-B kuruldu |
 | M-5252 | 2026-09-27 12:28 | GOVDE-CAKISMA-0079 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | GOVDE-CAKISMA-0079 kuruldu |
+| M-5253 | 2026-09-27 12:29 | ASYA-0079 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | ASYA-0079 kuruldu |
