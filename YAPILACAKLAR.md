@@ -1169,7 +1169,22 @@ Her uygulamadan sonra: `py arac/denetle_kronoloji.py` · `py arac/odak_olc.py
 `odak_kimlik` adlarının çözülüp çözülmediğini **hiçbir denetim sormuyor**;
 çözülemeyen ad app.js'te yalnız KONSOLA basılıyor. Kollar bu alanları
 doldurdukça boşluk büyür. `odak_olc.py` sayıyor ama yayın kapısına BAĞLI
-DEĞİL. ⇒ `denetle_yayin.py`ye bağlanmalı mı, karar verilecek.
+DEĞİL.
+✅ **KAPANDI — Emre *"denetimi yayın kapısına bağla"* dedi, bağlandı
+(`26741c10`).** İki sertlik: kırık atıf yenisine 0 tolerans (bilinen borç
+`denetim/ODAK-TAVAN.json` `bilinen_kusur` LİSTESİNDE adıyla beyanlı) ·
+sayı tavanı ODAKSIZ 485 / BEYANLI→yabancı 669 dondurulmuş, yalnız gerileme
+bloke eder. Çözüm `arac/odak_cozum.js`te (node, `suzgec.js`in GERÇEK
+işlevleri) — Python kopyası iki yerde "yanlış temiz" veriyordu.
+İki yönde sınandı: `py denetim/ODAK-KAPI-SINAV.py` → 5/5.
+🔴 Ve sınav bir hata yakaladı: kapının ilk hâli, konumlu bir maddedeki kırık
+`odak_yer`i sessizce geçiyordu. Sebep — `maddeOdakKutusu` `app.js:11940`da
+KONUMLU dalda DA çağrılır; ben öncelik zinciri orada durur sanmıştım.
+İlk koşuda gerçek bir kayıt çıktı: `kronoloji_dogu_afrika.js` 1897-01-01
+`yer_id:"Ogaden"` — Ogaden `d:[]` (kasten sahipsiz bölge dolgusu), `sehirler`
+havuzunda yok. Hüküm `ODAK-AFRIKA-AMERIKA-0080`de; borç beyanlı.
+📌 Açık kalan SINIF sorusu: sahiplik dönemi olmayan bölge dolguları adıyla
+kamera hedefi OLAMAZ — tek tek mi düzeltilecek, mekanizma mı değişecek?
 
 #### ③ `kapsam_genis` yabancı dosyada — app.js tarafı açık soru
 Veri tarafı düzelince alan doğru kullanılmış olacak. Ama **mekanizma hâlâ
