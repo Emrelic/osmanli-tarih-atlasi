@@ -69,11 +69,11 @@
 
 window.OLAYLAR_SERHAT = [
 
-{ t:"1428-01-01", b:"II. Murad Alacahisar'ı aldı, Şehirköy Osmanlı'ya geri döndü", tur:"fetih",
+{ t:"1428-01-01", b:"II. Murad Alacahisar'ı aldı, Niş ve Şehirköy Osmanlı'ya geri döndü", tur:"fetih",
   onem:4, dunya:2, kapsam:"ic", etiket:["askeri","toprak","serhat","konu-askeri"],
   yer_id:"Alacahisar (Kruševac)",
-  d:"Sırp Despotu Stefan Lazareviç'in vârissiz ölümünün (1427) ardından II. Murad, Yıldırım Bayezid'in Sırp prensesiyle evliliğine dayanarak Sırbistan'ın meşrû vârisi olduğunu ileri sürüp harekete geçti ve Alacahisar'ı aldı (1428). Aynı yıl, Lazareviç'in ölümünden sonra Osmanlılar Şehirköy kalesini de geri aldılar — şehir 1412'de Stefan tarafından alınmış ve Mûsâ Çelebi'ye karşı savunulmuştu. Böylece Büyük Morava ile Nişava vadilerini birbirine bağlayan hat Osmanlı denetimine girdi.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV her iki yer için de YIL veriyor, gün vermiyor.",
-  kaynak:"alacahisar + sehirkoy" },
+  d:"Sırp Despotu Stefan Lazareviç'in vârissiz ölümünün (1427) ardından II. Murad, Yıldırım Bayezid'in Sırp prensesiyle evliliğine dayanarak Sırbistan'ın meşrû vârisi olduğunu ileri sürüp harekete geçti ve Alacahisar'ı aldı (1428). Aynı yıl, Lazareviç'in ölümünden sonra Osmanlılar Şehirköy kalesini de geri aldılar — şehir 1412'de Stefan tarafından alınmış ve Mûsâ Çelebi'ye karşı savunulmuştu. TDV nis maddesine göre Osmanlılar Niş'i de aynı yıl (831/1428) geri aldı. Böylece Büyük Morava ile Nişava vadilerini birbirine bağlayan hat Osmanlı denetimine girdi.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV her iki yer için de YIL veriyor, gün vermiyor.",
+  kaynak:"alacahisar + sehirkoy + nis" },
 
 { t:"1443-01-01", b:"Haçlı ordusu Şehirköy'ü zaptetti — 'Uzun Sefer'in Nişava kolu", tur:"kayip",
   onem:3, dunya:2, kapsam:"ic", etiket:["askeri","toprak-kayip","hacli","konu-askeri"],
