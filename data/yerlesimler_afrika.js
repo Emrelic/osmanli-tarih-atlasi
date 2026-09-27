@@ -305,15 +305,15 @@ window.YERLESIMLER_AFRIKA = [
 
 // Yukarı Mısır'ın Hicaz kapısı: Kına-Kusayr kervan yolu hac ve zahire
 // nakliyesinin ana hattıydı.
-{ ad:"Kusayr", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:26.104, lon:34.283, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Kusayr", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"}], tur:"liman", lat:26.104, lon:34.283, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
-  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı",kid:"misir-kavalali",statu:"vassal",kaynak:"HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali. Yalnız kid/statu eklendi, tarih değişmedi. NOKTA-ORTADOGU-0077 · YAMA A"}] },
 
-{ ad:"Sefâce", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:26.733, lon:33.933, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Sefâce", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"}], tur:"liman", lat:26.733, lon:33.933, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
-  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı",kid:"misir-kavalali",statu:"vassal",kaynak:"HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali. Yalnız kid/statu eklendi, tarih değişmedi. NOKTA-ORTADOGU-0077 · YAMA A"}] },
 
 // Kusayr ile Halâib arasındaki 300 km'lik kıyı boşluğunu kapatır.
 { ad:"Ebû Ramâd (Şalâtîn)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"liman", lat:23.133, lon:35.600, g:0, k:4, m:"Kahire",
@@ -324,10 +324,10 @@ window.YERLESIMLER_AFRIKA = [
 // Sînâ'nın güney kıyısı: hac gemilerinin karantina ve su alma iskelesi.
 // Yarımadanın İÇ çölüne nokta konmadı; mevcut "Sina güneyi" dolgusu kasten
 // sahipsiz kalmaya devam ediyor.
-{ ad:"Tûr (Sînâ)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:28.241, lon:33.623, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Tûr (Sînâ)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"}], tur:"liman", lat:28.241, lon:33.623, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi",kaynak:"TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"}],
   d:[{f:"1517-02-15",t:"1805-07-03"}],
-  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı",kid:"misir-kavalali",statu:"vassal",kaynak:"HARITA-0076 §4: serbest metin tâbilik kimliği boyanamaz; Kahire'nin v: kaydı kid:misir-kavalali. Yalnız kid/statu eklendi, tarih değişmedi. NOKTA-ORTADOGU-0077 · YAMA A"}] },
 
 // Nûbe: İbrim kâşifliğinin güney ucu. Zincir mevcut İbrim kaydıyla birebir
 // (Özdemir Paşa'nın Nûbe harekâtı, 1555). Mehdî isyanı sırasında Vâdî Halfâ
@@ -680,17 +680,17 @@ window.YERLESIMLER_AFRIKA = [
   d:[{f:"1557-01-01",t:"1885-02-05"}] },
 
 { ad:"Akīk", tur:"liman", lat:18.230, lon:38.200, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}] },
 
 // Sevâkin'in iç ardalanı (Bece ülkesi). 1883-1891 arası fiilen Mehdî
 // kuvvetlerinin elindeydi; bu ara dönem yazılmadı, Sevâkin zinciri korundu.
 { ad:"Tokar", tur:"sehir", lat:18.427, lon:37.729, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi",enklav:true},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi",enklav:true},{f:"1891-02-06",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
   d:[{f:"1557-01-01",t:"1884-01-01"}] },
 
 { ad:"Sinkat", tur:"sehir", lat:18.833, lon:36.833, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}] },
 
 // ===========================================================================
@@ -864,46 +864,46 @@ window.YERLESIMLER_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kerma", tur:"sehir", lat:19.600, lon:30.410, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Debbe", tur:"sehir", lat:18.056, lon:30.951, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil'in büyük kıvrımı; Kerîme (Karima) ve eski Napata bölgesi.
 { ad:"Merevî", tur:"sehir", lat:18.550, lon:31.850, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ebû Hamed", tur:"sehir", lat:19.535, lon:33.319, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil ile Sevâkin arasındaki kervan yolunun düğüm noktası.
 { ad:"Berber", tur:"sehir", lat:18.017, lon:33.983, g:0, k:3, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1884-05-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1884-05-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-01-04",t:"1884-05-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // İsmâil Paşa'nın 1822'de yakılarak öldürüldüğü yer (kronolojide maddesi var).
 { ad:"Şendî", tur:"sehir", lat:16.691, lon:33.433, g:0, k:3, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Vad Medenî", tur:"sehir", lat:14.401, lon:33.519, g:0, k:3, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ed-Düveym", tur:"sehir", lat:13.995, lon:32.334, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kosti", tur:"sehir", lat:13.170, lon:32.663, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kadârif", tur:"sehir", lat:14.036, lon:35.383, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Rusayris ve Fâzûğlî: Func Sultanlığı'nın Mavi Nil boyundaki güney ucu.
@@ -917,14 +917,14 @@ window.YERLESIMLER_AFRIKA = [
 
 // Kordofan: mevcut Ubeyyid kaydıyla aynı gün (1821-08-19).
 { ad:"Bâra", tur:"sehir", lat:13.700, lon:30.367, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1821-08-19",t:"1882-09-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Batı Kordofan — Darfur ile Sennâr arasındaki tartışmalı kuşak. Darfur
 // kimliği olmadığı için Kordofan zinciriyle yazıldı; kimlik gelince
 // 1821 öncesi yeniden değerlendirilmeli.
 { ad:"Nühûd", kd:[{f:"1281-01-01",t:"1821-08-19",k:0,m:null},{f:"1821-08-19",t:"1923-10-29",k:4,m:"Hartum"}], tur:"sehir", lat:12.700, lon:28.433, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1785-01-01",d:"funj"},{f:"1785-01-01",t:"1821-08-19",d:"darfur"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1785-01-01",d:"funj"},{f:"1785-01-01",t:"1821-08-19",d:"darfur"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   d:[], v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // Taka bölgesi 1840'ta Kavalalı Mısır'ı tarafından alındı ve Kesela şehri o
@@ -933,7 +933,7 @@ window.YERLESIMLER_AFRIKA = [
 // Antlaşması maddesiyle aynı güne düşüp Değişmez 2'yi kapalı tutmasıdır.
 // Gerçek gün bulunduğunda düzeltilmeli.
 { ad:"Kesela", tur:"sehir", lat:15.451, lon:36.400, g:0, k:3, m:"Hartum", kur:"1840-01-01",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
   v:[{f:"1840-01-01",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 
