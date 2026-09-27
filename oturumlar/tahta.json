@@ -162102,5 +162102,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5326",
+  "zaman": "2026-09-28 00:43",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "aldım · KORIDOR-0081 (eski HAZIR KITA 2709 1309) · M-5314 okundu, şartname okunuyor, bekçi yeni adla kuruluyor",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
