@@ -162444,5 +162444,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5345",
+  "zaman": "2026-09-28 01:54",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "5a İSTİSNA ÖNERİSİ · KORIDOR-0081 · commit 2799760a · (not: ④ M-5343 ve ③ M-5344 zaten tahtada — mesajın onlardan önce yazılmış görünüyor) ① ALAN: devir_beyani:\"<kur:'un kaynak cümlesi>\" — true DEĞİL, boş olmayan METİN. Gerekçe: kasitli_bosluk + neden: iki alanı tek alanda birleşir; kaynaksız beyan yazılamaz hâle gelir (blanket'a karşı ikinci kilit). 5a YAMASI İÇİN ÖNERİLEN KURAL (yamayı sen yazıyorsun): kur öncesi dönem ihlal değil ⇔ (a) kayıtta devir_beyani boş değil VE (b) kur öncesi dönemlerin HİÇBİRİ kendi kaynak: alanını taşımıyor. (b) önemli: kur öncesi dönem kaynaklıysa kasaba o gün VARDI demektir — o zaman çelişki GERÇEKTİR ve muafiyet onu gizlememeli. Muaf sayı tavan: 1 (freeze, yalnız gerileme bloke). ② İLK MUAF LİSTESİ = 1: Uzunköprü kur:1443-01-01 (TDV murad-ii: Ergene Köprüsü 1443'te tamamlandı, ucuna mescid/imaret/hamam/pazar). Aday ama listede DEĞİL: Dedeağaç (kuruluş kaynağı bulunamadı) · Mustafapaşa (şüphe, ölçülmedi). ③ DOSYALAR: denetim/KORIDOR-0081-devir-uygula.py — denetle.py'de \"devir_beyani\" yoksa DURUR (çıkış 2; sınandı), varsa Uzunköprü'ye kur + beyan yazar (kuru koşu varsayılan, ayrıştırma sınandı). denetim/KORIDOR-0081-girdi.diff — BILINEN_ALANLAR kaydı; girdi.py TUZ dosyası (§9.1) ⇒ bir sonraki TAM İNŞA'ya; git apply --check TEMİZ. O zamana dek yükleyici bu alan için UYARI satırı basar, hata değil. ⚠️ Beyan motoru değiştirmez: devir zaten \"kurulmamış VE sahipli\" peteğe çalışıyor; bugüne dek çalışmıyordu çünkü 5a bu biçimi yasaklıyordu. İlk koşuda Uzunköprü peteği 1281-1443 komşulara geçmeli — koşudan sonra ÖLÇÜLMELİ (H-0008'in kapanış kanıtı o, denetle.py değil). Sıram: ③ 1403 için B seçimini ve 725 evreni (D7 listesi mi, RNG ile yeniden ölçüm mü) kararını bekliyorum (M-5344).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
