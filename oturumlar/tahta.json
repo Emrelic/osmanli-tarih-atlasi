@@ -162264,5 +162264,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5335",
+  "zaman": "2026-09-28 01:13",
+  "kimden": "KUNYE-ANADOLU-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-ANADOLU-0081 · parti-emrelic-0080 Sınıf C · commit 3fc5f435 (yalnız denetim/) · rapor denetim/KUNYE-ANADOLU-0081.md Betik: py denetim/KUNYE-ANADOLU-0081-uygula.py [--uygula] [--grup H5,H4,H3,H3b] — kuru koşu 11 düzenleme / 4 dosya, SINAV temiz (ters yönde de sınandı). ① ÖLÇTÜM - H-0005 ERETNA: 1335'te 19 yerleşim, 2 parça — eksklav BAYBURT. Bayburt'un kendisi DOĞRU (TDV bayburt: 1335'te Eretna'ya geçti). Kusur aradaki iki noktada: · Erzincan'ın 1348'i TDV tuzağı ⑧: o yıl \"Ahî İne Bey'in idaresindeydi (1348)\" cümlesinin yılı, Eretna'ya geçişin değil. TDV \"Timurtaş'tan sonra Eretna'nın hükmüne girdi\" diyor, yıl vermiyor → künye günü 1335-01-01. · Kemah 'akkoyunlu 1340' TDV kemah ile çelişiyor (sıra: İlhanlı → Eretna → Mutahharten) → eretna 1335-1378, mutahharten 1378-1401. · Kuruluş toprağı: TDV (İbn Battûta) Aksaray ve Niğde'yi Eretna'nın ilk yönetim alanında sayıyor; atlas ikisini ilhanli 1308→1366 tutuyor, künye 1353'te bitiyor = HAYALET → eretna 1335-1366. · Öngörü (Delaunay yaklaşığı): 1335/1340/1350/1360/1370'in hepsinde 2 parça → 1 parça. Değişmez 2s kırılmaları karşılıklı (1335: olaylar_ek16:53 · 1378: olaylar_2s_0919:394). 4c −2 (Niğde, Aksaray hayaleti). - H-0016 KARAMAN 1402: DEĞİŞİKLİK YOK. TDV karamanogullari: \"Timur Karamanlı ülkesini Kayseri, Kırşehir, Sivrihisar ve Beyşehir'le birlikte … Mehmed ve Ali beylere vermişti\" → Emre'nin sorusunun cevabı EVET, büyüklüğü Timur sağladı. - H-0003 HABSBURG: sınıf ② aynı polity → GENİŞLET. Atlas Viyana ve Graz'ı 1281'den beri s:avusturya (habsburg'un harita anahtarı) çiziyor, dizin ise 1526'da \"kuruluyor\" diyor. Kaynak: Die Welt der Habsburger (Schönbrunn Group) — oğullarına Avusturya \"in 1282\" verildi → f:\"1282-01-01\". 4d'de künyeden önce başlayan dönem 6 → 0. · 🔴 H3b ŞART: 6'nın 2'si (Uyvar, Nitra) aslında Macar toprağı ve 1281'den beri yanlış olarak avusturya boyalı. H3 tek başına inerse bu kusur 4d'den GİZLENİR. H3b bunları Komárom deseniyle böler (macaristan 1281-1526-08-29 · avusturya 1526-08-29 sonrası). - H-0004 DEBRECEN: 1526-08-29'da Osmanlı DEĞİL. Kayıt \"Varad'la birebir\" diyor, ama tâbiliği Mohaç günü (08-29) ve adsız başlatıyor; Varad'da bu 09-01'de ve adlı. Varad'a hizalandı; Değişmez 2 kırılmaları Mohaç'a 3 gün, Budin'e 0 gün. ② BULAMADIM - Hamîd-ili 5 noktası (Isparta, Burdur, Eğirdir, Uluborlu, Yalvaç) 1402-09-15'ten beri karaman: TDV bunları Timur'un verdikleri arasında saymıyor ve geçiş günü yok. TDV isparta: 1403'te Timur ordusu Uluborlu ile Eğridir'i işgal etti. Yerine konacak kaynaklı gün yok, dokunmadım. - Nitra için kasaba ölçeğinde kaynak okunmadı (slug yok). Osmancık, Merzifon, Gürün Eretna teyidi ölçülmedi. ③ İSTİYORUM (a) Dört grubu birlikte indir. H3 ve H3b AYRILMAZ. Sonra denetle.py ve motor koşusu gerekiyor (petekler değişiyor). (b) Ayrı kalemler (benim değil): · Uyvar'ın kur:1545 eksik (TDV uyvar). · Kemah 1402-1502 akkoyunlu TDV sırasıyla şüpheli. · kronoloji_akkoyunlu.js:122 başlığı \"Eretna'ya geçti\" diyor, Mutahharten olmalı. · Zápolya'nın tâbilik başlangıcı bölge çapında 1526-09-01 (TDV macaristan: 1529'da Budin Szapolyai'ye bırakıldı). · habsburg'un 1526-08-29 \"kurulus\" maddesi ve ozet'i metin alanı, dokunmadım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
