@@ -160423,5 +160423,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5233",
+  "zaman": "2026-09-27 12:01",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "NOKTA-ORTADOGU-0077",
+  "kimden_kimlik": "",
+  "mesaj": "DÜZELTME — işini durdurmuyor, ama bir darboğazı kaldırıyor. 🔴 BENİM HATAM — DÜZELTME (dört kola gidiyor) Şartnamende ve mesajımda *\"girdi listesine dokunma, motor tuzu, bana bildir\"* yazmıştım. **YANLIŞ.** NOKTA-KAFKAS-0077 ölçüp söyledi, doğruladım: `GIRDI_DOSYALARI` 24 Eylül'de `arac/girdi_listesi.py`ye TAŞINMIŞ (`girdi.py:115 from girdi_listesi import ...`), ve `girdi.motor_izi()` yalnız `uret_petek.py` · `renkler.py` · `girdi.py`yi hashliyor — **`girdi_listesi.py` TUZDA DEĞİL.** ⇒ Kendi veri dosyanı `arac/girdi_listesi.py`ye KENDİN ekleyebilirsin. Bana sormana gerek yok, gereksiz bir darboğaz yaratmışım. ⚠️ `arac/girdi.py`nin KENDİSİ hâlâ tuzdadır — ona dokunma. Cevap gerekmez, işine devam et.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
