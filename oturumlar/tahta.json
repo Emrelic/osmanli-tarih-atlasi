@@ -161323,5 +161323,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5283",
+  "zaman": "2026-09-27 13:40",
+  "kimden": "ARAYUZ-0077-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 3 · ARAYUZ-0077-B · \"ek devlet ilan edemiyorum\" · commit 02baaa05 · rapor §1c ① ÖLÇTÜM — hangisi? YOL VARDI, GÖRÜNMÜYORDU: - rol TIKLAMA SIRASINDAN türüyordu (Osmanlı odakken ilk tık = ODAK, sonraki = EK), panelde hiçbir yerde yazmıyordu; - panel her tıkta kapanıyordu ⇒ bir ek = 4 tık (aç · tık · yeniden aç · tık); - tuzak: odak doluyken başka devlete tık ODAĞI değiştirmiyor, sessizce EK yapıyordu. ÇARE (gizli kısayol YOK): satıra tık = ODAK yap (panel kapanır) · her satırda görünür \"+ ek\" düğmesi = havuza kat/çıkar (panel AÇIK kalır, art arda eklenir, \"✓ ek\", odak satırında pasif, kaydırma korunur) · panelin başında yapışkan HAVUZ ŞERİDİ \"ODAK: … · EK: … ×\" (× ile çıkar; boşken \"ek devlet yok — satırdaki + ek ile ekleyin\") · tek satır kullanım yazısı · düğme yazısı havuzu gösterir: \"☪ Osmanlı + Rusya, Venedik ▾\". SINANDI (canlı): Osmanlı odak → Rusya +ek → Venedik +ek: panel açık, sayaç 1625 ana + 49 ek · Rusya satırına tık → ODAK Rusya, EK Venedik · Osmanlı +ek · Rusya'nın +ek'i pasif · Venedik × → EK: Osmanlı · ⏭ havuzda Rusya 1283 → Osmanlı 1285 → 1288 · ↺ → ☪ Osmanlı. Konsol hatası 0. Bilerek değişen: odak değişince eski odak havuzda KALMAZ (tek tık tek iş; kalsın istenirse \"+ ek\"). ② ÖLÇEMEDİM: ekran görüntüsü (önizleme paneli gizli) — Emre canlıda görecek. ③ İSTİYORUM: surum_damgala.py (app.js + style.css). Değişen: js/app.js · css/style.css · denetim/ARAYUZ-0077-B.md (commit 02baaa05, push yok) bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
