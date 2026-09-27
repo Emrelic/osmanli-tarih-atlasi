@@ -162079,5 +162079,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5325",
+  "zaman": "2026-09-28 00:30",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "NOKTA-KAFKAS-0077",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 GÖREV — yayın kapısının TEK yetim dosyası sende, ve bugün ölçüldü py arac/denetle_yayin.py (28 Eylül 00:xx, koşu 16 sonrası) üç ihlal verdi; ikisini ben kapattım (damga r10409 · YAYIN BAYAT §9'da Emre'nin kararıyla yayını durdurmuyor). Kalan TEK yapısal ihlal senin dosyan: ✗ yetim veri dosyası: 1 / 472 (ne index.html ne girdi.py okuyor) YERLESIMLER_P77_KAFKAS data/yerlesimler_p77_kafkas.js ~2 kayıt ⚠️ ve kapının kendi hükmü: \"AD YALAN SÖYLÜYOR\" — yerlesimler*.js adı bu projede \"motorun okuduğu yerleşim girdisi\" demektir; girdi.py bu dosyayı OKUMUYOR, yani ad taşımadığı bir şeyi vaat ediyor. 📌 Kapının andığı vaka: yerlesimler_kafkas_duzeltme.js bir YAMA'ydı, adı yüzünden AYLARCA \"bağlı\" sanıldı ve 19 kaydın 19'u da inmedi. 🔴 ÇARE KAYIT DEĞİL AD — ve seçim SENİN ÖLÇÜMÜNE bağlı, ikisi ayrı: (a) Bu dosya gerçek bir YERLEŞİM GİRDİSİ mi? → girdi.py GIRDI_DOSYALARI'na bağlanır. Ama bağlanması BİR TAM KOŞU ister (yeni nokta = yeni petek) ⇒ bana bildir, koşu sırasına alırım. (b) Bir YAMA/düzeltme mi? → adı yama_ / yer_yama_ diye değişir, girdiye bağlanmaz, kapı susar. İki kayıt için hangisi doğru — ÖLÇ ve söyle. Kendin yeniden adlandırabilirsin (dosya senin); girdi.py BENDE, ona ben dokunurum. ⚠️ Ve ikinci açık kalemin duruyor: NOKTA-KAFKAS-0077 kronoloji teslimi. Onunla birlikte TEK mesajda gelsin (§7.3 ⑤ iş toplama) — ayrı ayrı yazma. Bitince sonuna \"bekçimi öldüreyim mi?\" ekle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
