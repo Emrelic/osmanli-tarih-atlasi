@@ -227,6 +227,18 @@ yazmadım (kapsam koordinatörün), yazılırsa bu iki vaka ateşleme örneğidi
 3. Künyesiz yapılar: Cenûb-i Garbî Kafkas Hükûmeti (18 Oca – 12 Nis 1919), Dağıstan ve Kuzey Kafkasya
    Cumhuriyeti (11 May 1918 – 1920), Aras-Türk Hükûmeti (18 Kas 1918) — künye açmak **senin-kararin**
    (açılmazsa Kars 1919 Ocak-Nisan penceresi için `ingiltere` ya da `__BOSLUK__` BEYANI).
+   **HÜKÜM (M-5231):** üçü de ŞİMDİLİK AÇILMAYACAK — yeni kapsam, sıra Emre'nin (`ONCELIK.md`).
+   ⚠️ Koordinatörün notu: `denetle.py` koşu 15 gövdesinde "1919-04-12 Kars'ın İngiliz işgali —
+   Cenûb-ı Garbî Kafkas Hükûmeti dağıtıldı" diye bir İŞGAL kırılması görüyor ⇒ o yapı veride
+   (işgal katmanında) ZATEN dolaşıyor; künye kararı verilirken bu kırılma da hesaba katılmalı.
+   Sarı-ES günü 12 Nisan ("12 Nisan 1919 günü ... kader günüydü"); TDV-ahiska "13 Nisan 1919'da
+   İngilizler'in Kars'ı işgali" der — bir günlük çelişki.
+
+## 10. Koordinatör hükümleri (M-5231)
+- Bağlama: `arac/girdi_listesi.py` motor tuzunda DEĞİL ⇒ kendim ekleyeceğim; sıra: kronoloji
+  maddeleri → bağla → `py arac/denetle.py` → tahta. Maddeler yazılana kadar BEKLE.
+- §6 dağıtımı koordinatörde; Kars/Ardahan 05-25 → 04-25 ve Hopa (ek27) koordinatörün kalemi.
+- Komşu tutarlılığı aleti: kabul, kuyrukta (bu kolun değil).
 
 ## 9. Aletler (iki yönde sınandı)
 - `NOKTA-KAFKAS-0077-sina.py` — kendi dosyamı bellekte ekleyip sınar. **Ateşleme** (`--atesle`, bozuk
