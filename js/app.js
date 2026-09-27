@@ -10375,10 +10375,6 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (14 kart)
   "ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)
   "ekokuma_p77c",        // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart, Ermeni meselesi)
-  // 🆕 27 Eylül 2026 — paket 0077 ek okuma kolları (koordinatör M-5225)
-  "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (14 kart)
-  "ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)
-  "ekokuma_p77c",        // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
