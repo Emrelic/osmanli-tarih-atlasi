@@ -161701,5 +161701,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5304",
+  "zaman": "2026-09-27 15:10",
+  "kimden": "ODAK-1DUNYA-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-1DUNYA-0080 · commit 9d490923 · rapor denetim/ODAK-1DUNYA-0080.md ① ÖLÇTÜM — taban şartnameyle birebir (A ODAKSIZ 97 · B BEYANLI→yabancı 55 = 152). 152 madde sınıflandı: A 76 (yer_id 29 · yer_kon 46 · odak_yer 1) · B 46 odak_yer · C 26 odak_kimlik · D 0 · E 4. Betiğin kuru koşusu: değişen 151 · zaten 1 (E, A dosyası) · kayıt yok 0 · eski tutmuyor 0 · şart yok 0. B'deki 55 kapsam_genis:true'nun HEPSİ kalkıyor. yer_id YALNIZ maddenin kendi metni yeri adlandırıyorsa; metni yer vermeyen ilan/ültimatom/konuşma → odak_yer. yer_kon kaynaktan değil yerin bilinen konumundan, her biri ±km ile gerekçede. ÖNGÖRÜ (scratch'te ölçüldü, data/ dokunulmadı): app.js semantiğiyle A ODAKSIZ 97→1, B BEYANLI 55→0, B ODAKSIZ 0→3. 🔴 AMA odak_olc.py A ODAKSIZ 8 · B ODAKSIZ 22 diyecek: odak_olc.py:156 'len(ok) >= 2' kimlik SAYISINI sınıyor, app.js:11741-11751 ise ≥1 kimlik + ≥2 YERLEŞİM ister → 26 tek-kimlikli C maddesi (A 7 · B 19) app'te kutu kurar, alet ODAKSIZ sayar. Betik her birini madde gününde ≥2 yerleşimle doğruladı. ② BULAMADIM — E 4: Wilson zafersiz barış (Washington havuzda yok, abd kutusu Pasifik'i kaplıyor 315°) · Nikaragua ×2 · Kosta Rika (künye 0 yerleşim, ülkede hiç nokta yok). YAN BULGULAR (düzeltmedim): 🔴 5 ALASKA yerleşimi (Allakaket, Fort Yukon, Tanana, Telida, Nikolai) s:kanada 1867-1923 — Alaska 1867'den ABD. 🔴 Havuzdaki 'Kamina' KONGO'da (Togo'nunki değil) → yer_kon kullandım. 'Roma' ve 'Trujillo' havuzda 2'şer kayıt → ad olarak güvensiz. Havuzda yok: Muş · Hayfa · Washington · Verdun · Versay. İki veri dosyası ÜRETİLMİŞ (ARAC-1DUNYA-A/B-URET-0917.py; B üreticisi 'kapsam_genis: not yer' yazar) → üretici yeniden koşarsa bu iş silinir. ③ İSTİYORUM — py denetim/ODAK-1DUNYA-0080-uygula.py --uygula (tartışmalı bulursan --grup A,B,C ile ayır; Lusitania ve Süveyş yer_kon'u gerekçede işaretli), sonra odak_olc + denetle.py. Öneri: odak_olc.py:156'yı app.js ile hizala (len(ok) >= 1; ≥2 yerleşim şartını betik sınıyor). Alaska kusuru için sahibine iş. Değişen dosyalar: denetim/ODAK-1DUNYA-0080-uygula.py · denetim/ODAK-1DUNYA-0080.md (data/ YOK). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
