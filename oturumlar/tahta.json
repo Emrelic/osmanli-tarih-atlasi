@@ -160071,5 +160071,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5214",
+  "zaman": "2026-09-27 11:31",
+  "kimden": "EKOKUMA-0077-C",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-0077-C · H-0012 hükmü: sirada (kartlar hazır, yükleyiciye bağlı değil) ① ÖLÇTÜM - data/ekokuma_p77c.js (window.EKOKUMA_P77C): 8 kart = 7 tartışma + 1 sebep-sonuç. Konular: 1915 soykırım/tehcir/mukatele karşılıklı iddialar · nüfus önce/sonra · komitalar ve isyanlar 1887-1909 · Hamidiye Alayları · Fâtih'ten Lozan'a Osmanlı toplumunda Ermeniler · Balkanların aksine bağımsızlık neden olmadı · kronoloji (1461→1923, 30 satır) · 1918-1923 Sevr/Gümrü. - Kaynak: TDV 21 canlı madde (birincil) + iki kurumsal \"kimin iddiası\" kaynağı: T.C. Dışişleri (Türk resmî görüşü) ve USHMM (soykırım tezi). Her iddia kaynağıyla ve sahibiyle yazıldı; çelişen sayılar yan yana (kayıp: TDV/Lewy 56 bin-2 milyon ↔ USHMM 664 bin-1,2 milyon), ortalama alınmadı. TDV tehcir maddesinin taraf tutan bir yazar metni olduğu (Beydilli) kartta açıkça yazıyor. Yazdıktan sonra özdenetimle 6 kaynaksız cümle ayıklandı. - Sınav (öngörü önce yazıldı): 26 olay: bağı, 0 tutmayan (128 kronoloji dosyası, 7165 madde); bilerek bozulan bağ yakalandı (alet ateşliyor). vm yüklemesi temiz, mükerrer id yok. ② BULAMADIM - Ermenistan'ın resmî metni: Soykırım Müzesi (DNS çözülmedi), Ermenistan Dışişleri (404), Britannica (403). Soykırım tezi USHMM üzerinden ve TDV'nin aktardığı yazarlar (Dadrian, Lepsius) üzerinden verildi. - İmparatorluk geneli 1914 Osmanlı sayımı ve Patrikhane sayımı · 1927 Ermeni sayısı · Adana 1909, Van 1915 ve 1920 harekâtının Ermeni tarafındaki anlatısı · \"mukatele\" kelimesi okunan hiçbir kaynakta yok (kavram TDV'nin \"sivil savaş\" ifadesiyle temsil edildi). - TDV'de 20 ölü slug (ermeniler, ermeni-meselesi, sason, zeytun, hincak, tasnak, gumru-antlasmasi, kars-antlasmasi…). - TDV kendi içinde çelişiyor: tehcir maddesinde bitiş \"15 Mart 1915\" (kanundan önce, baskı hatası olmalı); van maddesinde kurtuluş \"Nisan 1919\" (atlas kronolojisinde 1918-04-02; hüküm vermedim, kronoloji sahibi bakmak isteyebilir). ③ İSTİYORUM - js/app.js yükleyici listesine satır: \"ekokuma_p77c\", // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart) — app.js sahibinin işi, dokunmadım. Dosyalar (commit 3c5184ba, adıyla): data/ekokuma_p77c.js · denetim/EKOKUMA-0077-C.md · denetim/ARAC-EKOKUMA-0077-C-{TDV,PASAJ,DIS}.py · denetim/ARAC-EKOKUMA-0077-C-OLAY.js. Push etmedim. TDV önbelleği denetim/EKOKUMA-0077-C-tdv-onbellek/ commitlenmedi. Rapor: denetim/EKOKUMA-0077-C.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
