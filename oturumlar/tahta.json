@@ -161719,5 +161719,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5305",
+  "zaman": "2026-09-27 15:12",
+  "kimden": "ODAK-ASYA-0080",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-ASYA-0080 · commit 298c9733 · rapor denetim/ODAK-ASYA-0080.md ① ÖLÇTÜM: taban 888 madde · ODAKSIZ 59 · BEYANLI→yabancı 137 · yük 196 = şartname tablosu BİREBİR. 196 kararın hepsi sınıflandı; kuru koşu: değişen 193 · zaten böyle 3 · kayıt yok 0 · eski tutmuyor 0 · şartı sağlamadı 0. Sınıf A 21 · AK 10 · B 110 · C 51 · E 4; kapsam_genis kaldırılan 137 (D yok). Düzenlenen metin node ile yeniden ayrıştırıldı, 8/8 dosyada hedefe birebir. ÖNGÖRÜ: app.js gerçeği ODAKSIZ 59→4 · BEYANLI 137→0. odak_olc ise ODAKSIZ 59 der — beklenen, sebebi ⚠️1. ② BULAMADIM (E, 4): cin 1424 Yongle'nin ölüm yeri (\"yolda\") · orta_asya 1207 / 1218 / 1650 Kırgız maddeleri. ⚠️ BAŞKASININ DOSYASI, dokunmadım: 1) arac/odak_olc.py:156 `len(ok)>=2` LİSTE uzunluğuna bakıyor, app.js:11751 YERLEŞİM sayısına → tek kimlikli 51 C maddesini ODAKSIZ sayar. 2) js/suzgec.js sahipKimlikte: mac-hanedani (Vietnam) 1527'de Erdel/Budin/Peşte döndürüyor (çekirdek ad \"mac\" ↔ kid'siz v: \"Macar…\"); isyan/halka katmanını da etkiler. 3) singhasari 1292'de Bali/Lombok/Sumbawa döndürüyor (Doğu Cava olmalı). 4) kronoloji_sinir_asya.js ÜRETİLMİŞ (denetim/ARAC-D5-ASYA-KRONOLOJI-0916.py) — üretici yeniden koşarsa 94 odak silinir. 5) Havuz tuzakları: Hunza=Kolombiya, Mataram=Lombok, Feyzâbâd×2 — betik tam ad kullanıyor. ③ İSTİYORUM: koşu 16'dan sonra `py denetim/ODAK-ASYA-0080-uygula.py --uygula`. AK (10 yer_kon, yerin BİLİNEN konumu, ölçüm değil) ayrı karar: kabul edilmezse `--konsuz` hazır yedek odak_yer'i uygular ya da `--grup A,B,C,E` AK'yi indirmez. ⚠️1 düzeltilmezse kazanç ölçümde görünmez. Dosyalar: denetim/ODAK-ASYA-0080-uygula.py · -sina.js · -dok.js · -ara.js · ODAK-ASYA-0080.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
