@@ -127,6 +127,27 @@ class Onbellek:
         c = self._baglanti().execute("DELETE FROM kayit WHERE zaman < ?", (sinir,))
         return c.rowcount if c.rowcount is not None else 0
 
+    def tuz_karsilastir(self, etiket, parcalar):
+        """MOTOR-LEGO-0925: bu önbelleğin BİR ÖNCEKİ koşudaki tuz parçalarını okur,
+        bugününkünü yazar. `parcalar` = {ad: özet} (motor dosyaları, ortam …).
+        Döner: None (önceki kayıt yok) ya da [değişen parça adları] (boş = aynı tuz).
+        NİÇİN: 20-25 Eylül'de dört koşunun dördü de farklı tuzla koştu ve hiçbir
+        katman bir önceki koşudan tek isabet almadı — ama log yalnız "AÇIK" diyordu.
+        Tuz değiştiyse koşu BAŞINDA söylenmeli; sonda "isabet 0" okumak 19 saat geç."""
+        if not self.acik:
+            return None
+        import json as _js
+        b = self._baglanti()
+        b.execute("CREATE TABLE IF NOT EXISTS meta (anahtar TEXT PRIMARY KEY, deger TEXT)")
+        r = b.execute("SELECT deger FROM meta WHERE anahtar=?", ("son_tuz:" + etiket,)).fetchone()
+        b.execute("INSERT OR REPLACE INTO meta VALUES (?,?)",
+                  ("son_tuz:" + etiket, _js.dumps({"zaman": time.time(), "parca": parcalar},
+                                                  sort_keys=True, ensure_ascii=False)))
+        if r is None:
+            return None
+        once = _js.loads(r[0]).get("parca", {})
+        return sorted(k for k in set(once) | set(parcalar) if once.get(k) != parcalar.get(k))
+
     def boyut_mb(self):
         try:
             return os.path.getsize(self.yol) / 1024.0 ** 2
