@@ -242,6 +242,106 @@ Hadramut) dolgu noktası — dolgunun sahipli komşular ortasında sahipsiz baş
 kasıt olamaz, delik sınıfına yazdım.
 ⚠️ Ve alt sınır uyarısı aynen: `kur:`ı fetih yılıyla dolduranlar bu ölçümden kaçar.
 
+## ⑧ İKİNCİ TESLİM — 725 EVRENİ RNG İLE (hüküm M-5370)
+
+### ⑧.0 ÖNGÖRÜ — ölçümden ÖNCE yazıldı (28 Eylül ~03:40) · DEĞİŞTİRİLMEYECEK
+
+```
+RNG kovası (150 km tavanlı RNG bitişikliği, D7'nin 5 muafiyeti aynen)   ~ 1000
+D7 kovası                                                                  725
+kesişim                                                                  ~ 700   (D7'nin neredeyse tamamı)
+D7'nin kaçırdığı (RNG'de var, D7'de yok)                                 ~ 300
+RNG'nin fazladan getirdiği                                    = yukarıdakiyle aynı küme
+RNG'nin DÜŞÜRDÜĞÜ (D7'de var, RNG'de yok)                                 < 30
+S0+S1+S2 payı  D7 evreninde                                              > %50
+               D7'nin kaçırdıklarında                    S0 < %15 · S2 > %40 · toplam ~ %55
+```
+Gerekçe (tahminin kendisi): D7'nin kaçırdıkları sık bölgelerde doğar (bağ < 150 km),
+orada noktasızlık (S0) az, kaynaksız uzak kayıt (S2) çok olmalı — H-0007 gibi.
+
+### ⑧.1 ÖLÇÜM — iki evren değil ÜÇ bitişiklik (alet `KORIDOR-0081-rng7.py`)
+
+Alet D7'nin **bütün** kurallarını (ada eşiği 5 · beş muafiyet · kova sınırları)
+birebir kopyalar, `denetle.yerlesimleri_yukle()` ile aynı evreni yükler ve YALNIZ
+bileşen bağını değiştirir. Sağlama: aletin içinden çağrılan D7 **725** verdi
+(denetle.py ile aynı) ⇒ karşılaştırma aynı evrende. D7'ye dokunulmadı.
+Bitişiklik küresel Delaunay'dan (scipy ConvexHull, birim küre) türetildi, hepsi
+≤ 150 km (⇒ her biri D7 bağının ALT kümesi):
+
+| bitişiklik | kenar | kova | kesişim | **D7'nin kaçırdığı** | D7'de olup düşen |
+|---|---|---|---|---|---|
+| D7 (≤150 km, hepsi) | 12.185 | 725 | — | — | — |
+| **Delaunay** (tam petek bitişikliği) | 5.414 | **816** | 721 | **95** (hepsi A-koridor) | 4 |
+| Gabriel | 4.152 | 1.031 | 721 | 310 | 4 |
+| RNG (ilk teslimde önerdiğim) | 3.193 | 1.322 | 722 | 600 | 3 |
+
+**H-0007 sınavı:** üçü de yakalıyor (İğneada · Rezve · Ahtapolu 1361, Osmanlı). D7
+yakalamıyor.
+**Düşen 4** (Tampere 1523/1917 · Lyon ve Grenoble 1792): D7'de ihlal, Delaunay'da
+değil. Bağ alt küme olduğu için bileşen büyüyemez; fark muafiyet sırasından
+(geçici cephe / küçük devlet sınamalarının küçülen bileşenle etkileşimi) doğuyor
+olmalı — **ölçülmedi**, şüphe olarak yazıyorum.
+
+🔴 **KENDİ ÖNERİMİ DÜZELTİYORUM — evren RNG değil DELAUNAY olmalı.** Üç satır
+arasındaki fark (95 / 310 / 600) grafik seçiminin sayıyı 6 kat oynattığını gösteriyor
+ve bu seçimin bir ölçütü var: **Delaunay kenarı = iki peteğin kırpılmamış düzlemde
+DEĞMESİ.** Kara maskesi ve göller ancak bağ KOPARIR, yeni bağ kuramaz ⇒ Delaunay'da
+kopuk olan haritada da kopuktur. Yani Delaunay kovası grafik seçiminden gelen
+**sıfır yanlış pozitifle** bir ALT SINIRDIR. Gabriel/RNG'nin fazlası ise petekleri
+DEĞEN ama ince bağlı durumlar — Emre'nin Değişmez 7 cümlesindeki *"yarımada gibi
+olup arada kocaman bir koridor"* sınıfı; gerçek ama AYRI bir kova. İlk teslimde RNG
+dedim çünkü H-0007'yi yakalıyordu; Delaunay da yakalıyor ve iddiası daha dar.
+⇒ **Önerilen evren: Delaunay 816 (721 ortak + 95 D7'nin kaçırdığı).** İkinci kova
+(yarımada/boğaz adayları): Gabriel'in fazlası 215 — sonraya.
+
+### ⑧.2 S0/S1/S2 MAKİNEYLE — ve S2'nin TABAN ORANI (alet `-rng7-fark.py`, `-s2-taban.py`)
+
+| evren | n | S0 (>40 km) | S1 (koridorda sahipsiz) | S2 (ada dönemi kaynaksız) | herhangi | hiçbiri |
+|---|---|---|---|---|---|---|
+| D7 | 725 | 645 (%89) | 30 (%4) | 491 (%68) | 702 (%97) | 23 (%3) |
+| Delaunay'ın fazlası | 95 | 31 (%33) | 0 | 45 (%47) | 58 (%61) | 37 (%39) |
+| Gabriel'in fazlası | 310 | 158 (%51) | 0 | 142 (%46) | 223 (%72) | 87 (%28) |
+
+🔴 **S2'nin taban oranı %59** — 1281 sonrası 13.644 dönem başlangıcının 7.995'i
+kaynaksız ya da "veri-içi". D7 evreninde S2 %68 (tabandan yalnız 9 puan yukarıda),
+kaçanlarda %47 (tabanın ALTINDA). ⇒ **"Ada döneminde kaynak yok" adaya özgü bir
+sinyal DEĞİL, verinin genel hâli.** S2 makinede bir ELEME aracı olamaz; yalnız
+S4'e giderken "önce uzak kaydın kaynağını sor" sırasını korur.
+S0 D7 evreninde %89 — beklenen: D7 tanım gereği 150 km'den uzak adaları seçiyor,
+yani seyrek olanı. S0 bir etiket olarak kaldığı için bu sayı hiçbir şeyi kapatmaz.
+S1 küçük (%4 / %0) ama tek gerçek ELEYİCİ o: koridorda sahipsiz nokta varsa çare
+kaynak değil dönem yazmaktır (H-0030'un sınıfı).
+
+### ⑧.3 ÖNGÖRÜ SINAVI
+
+```
+                          öngörü    ölçüm (Delaunay / Gabriel / RNG)
+kova                      ~1000     816 / 1031 / 1322         Gabriel ✓, seçim 6 kat oynatıyor
+kesişim                   ~700      721 / 721 / 722           ✓
+D7'nin kaçırdığı          ~300      95 / 310 / 600            Gabriel ✓, Delaunay 3 kat az
+düşen                     <30       4 / 4 / 3                 ✓
+D7'de S0+S1+S2            >%50      %97                       ✓ ama ANLAMSIZ (aşağıda)
+kaçanlarda S0             <%15      %33 / %51                 ✗ yanlış yöne: sık bölge sandığım
+                                                               kaçanların yarısı yine seyrek
+kaçanlarda S2             >%40      %47 / %46                 ✓ sayıca — ama taban %59 ⇒ sinyal yok
+kaçanlarda toplam         ~%55      %61 / %72                 ✗ yukarı
+```
+**Çürüyen asıl öngörü "S0+S1+S2 yarıdan fazlasını alır" cümlesinin kendisi:**
+sayı tuttu (%97) ama cümlenin iması — "ucuz sorular kovanın çoğunu KAPATIR" —
+çürüdü. S0 artık kapatmıyor (etiket), S2 taban oranında, gerçek eleyici S1 yalnız
+%4. ⇒ **725 (ya da 816) kayıt makineyle küçülmüyor; S4 kaynak işi kovanın ~%95'i
+için duruyor.** İkinci teslimin asıl sonucu budur.
+
+### ⑧.4 NE ÖNERİYORUM
+
+1. Evren: **Delaunay 816**; Gabriel'in 215 fazlası "yarımada/boğaz" ikinci kova.
+2. 816'yı makine küçültmediğine göre S4 bir SIRALAMA işidir, eleme değil. Öneri:
+   önce Osmanlı + komşuları (TDV birincil kaynağın kapsadığı evren; §4), içinde önce
+   Emre'nin kendi paketinin bölgeleri (Trakya · Sırbistan) — ölçüm istenirse
+   kovayı sahip/bölgeye göre kırarım.
+3. D7 tavanının yeniden ölçülmesi (evren değişirse tavan da değişir) senin kararın;
+   bu alet hazır: `py denetim/KORIDOR-0081-rng7.py --kip delaunay --json <yol>`.
+
 ## ④ YAN BULGULAR — işin içinden çıktı, kapsamı aşıyor
 
 1. 🔴 **1403 Gelibolu Antlaşması Karadeniz kıyısı yazılmamış.** TDV
