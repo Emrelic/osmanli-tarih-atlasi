@@ -894,6 +894,21 @@ def main():
         # ══ 2 EYLÜL GECESİ DOĞAN ÇALIŞMA DOSYALARI ══
         # Üçü de bu gece açılan kolların ÜRÜNÜ ve hiçbiri tarayıcıya
         # gitmez: ikisi bir ARACIN girdisi, biri henüz yarım.
+        # 🔴 28 Eylül 2026 — KODLAMAYA GEÇTİ, YAYINA GİTMİYOR (Emre kararı).
+        # Koşu 17b'de yürüyüş ilk kez açılınca 85,3 → 169,1 MB oldu ve
+        # GitHub'ın 100 MB/dosya SERT sınırını geçti. Depoya artık kodlanmış
+        # iki dosya giriyor (`data/devlet_parcalar.js` + `devlet_harita_ust.js`,
+        # delta+varint+base64, 34,98 MB) ve `index.html` ONLARI yüklüyor.
+        # ⚠️ Bu dosya SİLİNMEDİ ve kaybolmadı: `.gitignore`da, YERELDE duruyor
+        #   ve tek komutla BİREBİR geri üretiliyor —
+        #       py arac/kodla.py coz-c data data/devletler_harita.js
+        #   `denetle.py` · `uret_devirler.py` · `motor_esitlik.py` ·
+        #   `renk_cikti.py` ve `olc_enklav/` altındaki 5 alet onu okumaya
+        #   devam ediyor (17 alet, en az BEŞ ayrı ayrıştırıcı).
+        # ⇒ Yani "yetim" değil, YAYINA GİTMEYEN ARAÇ GİRDİSİ. Doğruluğu
+        #   ayrı bir kapı sınıyor: `kodla.kapi()` iki dosyadan özgün metni
+        #   kurar ve `__DP_SHA` damgasıyla kıyaslar; tutmazsa yayın DURUR.
+        "data/devletler_harita.js":      "kodlandı — yayına devlet_parcalar.js + devlet_harita_ust.js gidiyor; bu dosya ARAÇ girdisi, yerelde `kodla.py coz-c` ile üretilir",
         "data/ad_esanlam.js":            "eşanlamlı ad sözlüğü — ARAÇ girdisi (Budin↔Buda, Üsküp↔Skopje); tarayıcıya gitmez",
         "data/devletler_bk_ok106.js":    "`bk:` zamanlı başkent yaması — koordinatör işler, tarayıcıya gitmez",
         "data/gecitler.js":              "geçit verisi — motor/araç girdisi, tarayıcıya gitmez",
@@ -1426,9 +1441,43 @@ def main():
         _odak_ihlali = True
         print("\n✗  odak nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:90])
 
+    # -----------------------------------------------------------------------
+    # 🆕 KODLAMA KAPISI — kodlanmış koordinat havuzu (28 Eylül 2026)
+    # -----------------------------------------------------------------------
+    # Emre kararı: koşu 17b'de devletler_harita.js 169 MB olup GitHub'ın
+    # 100 MB sınırını geçti; depoya artık `data/devlet_parcalar.js` +
+    # `data/devlet_harita_ust.js` (delta+varint+base64, 34,98 MB) giriyor.
+    #
+    # 🔴 NİÇİN KAPIYA BAĞLI — bu değişiklik YENİ BİR SESSİZ HATA YOLU açıyor:
+    #    çözücüdeki ya da eserlerdeki bir bozulma haritayı ÇİZER ama YANLIŞ
+    #    çizer, ve hiçbir denetim ötmez. Üstelik `motor_esitlik.py`nin koşu
+    #    kıyası da sessizce bozulur. Ölçüt "harita doğru görünüyor" OLAMAZ:
+    #    üretim sırasında iki gerçek hata yakalandı (`.0` kırpma 55.961
+    #    yerde, negatif sıfır 38 yerde) ve İKİSİ DE haritayı doğru çizerdi.
+    #    ⇒ Kapı, iki dosyadan ÖZGÜN METNİ yeniden kurar ve eserin içinde
+    #      saklı `__DP_SHA` damgasıyla kıyaslar. Uyuşmazsa yayın DURUR.
+    # ⚠️ Kurma işi ~90 sn sürer. Yayın seyrek, sessiz bozulma kalıcıdır —
+    #    takas bilinçli. Eserler yoksa (henüz geçilmediyse) kapı SESSİZ geçer,
+    #    çünkü eski düzen de geçerlidir; ama VAR ve BOZUKSA durdurur.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import kodla as _kd
+        _dp = os.path.join(KOK, "data", _kd.DP_JS)
+        if os.path.isfile(_dp):
+            _kod_ihlali, _kod_satir = _kd.kapi(os.path.join(KOK, "data"))
+            print()
+            for _s in _kod_satir:
+                print(_s)
+        else:
+            _kod_ihlali = False
+            print("\n⚪ kodlama kapısı: %s yok — eski düzen, atlandı" % _kd.DP_JS)
+    except Exception as _e:                                 # noqa: BLE001
+        _kod_ihlali = True
+        print("\n✗  kodlama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
             or damga_ihlali or bayat or izsiz or iz_bayat or _sz
-            or _bagli or _dizinsiz or _odak_ihlali):
+            or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")
