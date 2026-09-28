@@ -6,13 +6,51 @@ Bu dosya, **Claude olmadan** koşuyu takip edip bitirmek içindir.
 
 ---
 
+## ⓿ 🔴 İLK KOŞU ÇÖKTÜ — 28 Eylül 09:00 güncellemesi
+
+**Koşu 17 bitmedi, SEGFAULT ile öldü.** Ölçüm yorum değil, bash'in kendi
+satırı (`tasks/b5y19pz5o.output`):
+```
+/usr/bin/bash: line 1: 18746 Segmentation fault  py arac/uret_petek.py
+```
+```
+başladı 03:05 · öldü 08:52 · 5s 47dk
+aşama    "Yabancı devlet gövdeleri" — 608 devletin ~150'si bitmişti
+Python tarafında traceback YOK · Windows hata kaydı YOK
+disk 693 GB boş · taahhüt sınırı 46 GB ⇒ Python belleği TÜKENMEDİ
+⇒ çökme bir C uzantısında (GEOS) oldu
+ÇIKTI YAZILMADI: donemler.js · devletler_harita.js · petek_govde.js
+hâlâ 03:03 damgalı · data/ufuk_bantlari.js hiç doğmadı
+```
+
+**KURTARILAN:** önbellek **8.045 kayıt** (govde 2239 · kusat 3074 · dolgu
+1650 · col 1078 · 509 MB). Dört tuz dosyasına dokunulmadığı için tuz
+değişmedi ⇒ yeni koşu bu kayıtlara isabet alıyor, baştan başlamıyor.
+
+**KOŞU 17b BAŞLATILDI — 09:00.** Tek değişiklik: `MOTOR_PARALEL_ISCI` 4 → 2.
+Gerekçesi ölçüldü: `uret_petek.py:573` `_ONB_ISLETIM` kümesinde bu değişken
+var ⇒ tuza girmez ⇒ önbellek yaşar. Buna karşılık `MOTOR_PARALEL_KAPALI=1`
+(sıralı yol) `:617`de `govde` katmanını ÖLÜ ilan ediyor ⇒ o seçenek 509
+MB'ı çöpe atardı. Bu yüzden sıralıya değil, 2 iş parçacığına inildi.
+Yeni koşunun logu tuzu `b249cf3b436a` diye bastı — koşu 17'nin tuzuyla
+BİREBİR AYNI, yani isabet gerçek.
+
+⚠️ **VE BU BİR TEŞHİS DEĞİL, BİR HAFİFLETME.** Segfault'un sebebini
+bilmiyorum. İş parçacığını yarıya indirmek eşzamanlı GEOS çağrısını ve
+tepe belleği yarıya indirir; sebep bunlardan biriyse geçer, değilse
+geçmez. Önbellek sayesinde ~150. devlete hızla varılacak — **aynı yerde
+yine çökerse** sebep belirli bir geometridir ve o zaman adıyla aranır.
+
+---
+
 ## ① KOŞU YAŞIYOR MU — tek bakış
 
 Koşu `C:/atlas-kosu17` içinde koşuyor ve ilerlemesini **bir dosyaya**
 yazıyor. Claude'a gerek yok:
 
 ```
-C:/atlas-kosu17/kosu17.log
+C:/atlas-kosu17/kosu17b.log      ← YENİ koşu (17b)
+C:/atlas-kosu17/kosu17.log       ← ÇÖKEN koşu, kanıt olarak duruyor, dokunma
 ```
 
 Dosyanın **değişme saati** ilerlediyse koşu yaşıyor. Nabız satırı 5
@@ -21,12 +59,14 @@ Defteri ile açıp sona inmek de olur.
 
 **Bitti mi?** Dosyanın en son satırında şu yazıyorsa bitmiştir:
 ```
-KOSU 17 BITTI cikis=0        ← 0 ise sağlıklı bitti
+KOSU 17b BITTI cikis=0        ← 0 ise sağlıklı bitti
 ```
 Ondan hemen önce şu satır GÖRÜLMELİ:
 ```
 Doğrulama: tüm yerleşimlerin peteği geçerli ✓
 ```
+🔴 **`cikis=139` görürsen yine segfault olmuştur** — çıktı yazılmamıştır,
+§④'ü KOŞTURMA. O hâlde §⑦'ye bak.
 
 ---
 
@@ -49,10 +89,16 @@ değişmiyorsa koşu ölmüştür.
 ## ③ ŞU AN NE KAPATILDI
 
 ```
-14 tahta bekçisi (python)   KAPATILDI — hepsi
-9 oturumun bekçisi de dahil; artık hiçbir oturum tahtadan UYANMAZ
+14 tahta bekçisi (python)   08:15'te KAPATILDI — hepsi
 ```
-⇒ İşçi oturumlara yazılan tahta mesajları **okunmaz**. Bu bilerek
+🔴 **DÜZELTME (09:00 ölçümü):** "artık hiçbir oturum uyanmaz" dediğim şey
+**artık doğru değil.** Süreç listesi ölçüldü: **dört bekçi kendini yeniden
+kurmuş** (08:18-08:19) — `DUNYA-KRONO-0081` ve üç `HAZIR KITA 2809 025x`.
+Demek ki o oturumlar öldürülmeden önce mesaj almış, uyanmış ve bekçilerini
+sessizce yeniden kurmuşlar (`§7.2 ④`nün kendi talimatı bu).
+⇒ Bellek yükü küçük (4 × ~44 MB) ve boş RAM 5,1 GB olduğu için
+**kapatılmadılar.** Bellek daralırsa kapatılacak ilk şey bunlardır.
+⇒ Öteki on oturuma yazılan tahta mesajları **okunmaz** — bu bilerek
 yapıldı: koşu bitene kadar kimse çalışmasın diye.
 
 **En büyük yük hâlâ Claude'un kendisi:** 22 süreç · **4,1 GB**.
@@ -135,11 +181,20 @@ Gecenin tam durumu: [`oturumlar/GECE-0928-DURUM.md`](oturumlar/GECE-0928-DURUM.m
 
 ## ⑦ KOŞU ÖLDÜYSE
 
-Yeniden başlatmak ~11 saattir; yarısından dönülmez. Komut:
+Komut (bu, koşu 17b'yi başlatan komutun PowerShell karşılığıdır):
 ```powershell
 cd C:\atlas-kosu17
-$env:MOTOR_YURUYUS="1"; $env:MOTOR_UFUK_BANT="40,56,80"; $env:MOTOR_COL_UFUK_SAAT="56"
-py arac\uret_petek.py *> C:\atlas-kosu17\kosu17.log
+$env:MOTOR_YURUYUS="1"; $env:MOTOR_UFUK_BANT="40,56,80"
+$env:MOTOR_COL_UFUK_SAAT="56"; $env:MOTOR_PARALEL_ISCI="2"
+py arac\uret_petek.py *> C:\atlas-kosu17\kosu17c.log
 ```
+⚠️ Log adını **her koşuda değiştir** (17b → 17c → …): çöken koşunun logu
+tek kanıttır, üstüne yazılırsa sebep bir daha ölçülemez.
 ⚠️ Önbellek `C:\atlas-kosu17\_motor_onbellek\` altında duruyor; ölen koşu
-oraya ne yazdıysa yeni koşu onu kullanır, yani baştan başlamaz.
+oraya ne yazdıysa yeni koşu onu kullanır, yani baştan başlamaz. Logun
+başındaki `tuz b249cf3b436a` satırını GÖR — başka bir tuz yazıyorsa
+önbellek ölmüştür ve koşu 11 saat sürecektir.
+🔴 **İKİNCİ KEZ AYNI YERDE ÇÖKERSE** (~150. devlet) iş parçacığı sayısı
+sebep değildir; o zaman `MOTOR_PARALEL_ISCI="1"` dene — ama `git diff`
+alıp `denetim/` altına *hangi devlette* çöktüğünü yaz, çünkü asıl çare o
+geometriyi bulmaktır, koşuyu tekrar tekrar başlatmak değil.
