@@ -1,0 +1,69 @@
+{
+  "araclar": {
+    "git": "git version 2.51.0.windows.1",
+    "node": "v22.20.0",
+    "npm": "?",
+    "py": "Python 3.13.8",
+    "python": "3.13.8"
+  },
+  "cekirdek_toplam": 4,
+  "claudemre_makine": "emrelic",
+  "cpu": [
+    {
+      "ad": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+      "cekirdek": 4,
+      "is_parcacigi": 8,
+      "mhz": 1800
+    }
+  ],
+  "depo": {
+    "commit": "97d9e8cc",
+    "dal": "main",
+    "kirli_dosya": 43,
+    "yol": "C:\\atlas"
+  },
+  "disk": [
+    {
+      "bos_gb": 693.6,
+      "surucu": "C:",
+      "toplam_gb": 930.5
+    },
+    {
+      "bos_gb": 1862.5,
+      "surucu": "D:",
+      "toplam_gb": 1863.0
+    }
+  ],
+  "gpu": [
+    {
+      "ad": "Intel(R) UHD Graphics 620",
+      "vram_mb": 1024
+    },
+    {
+      "ad": "NVIDIA GeForce MX150",
+      "vram_mb": 4095
+    }
+  ],
+  "is_parcacigi_toplam": 8,
+  "kutuphaneler": {
+    "contourpy": "1.3.3",
+    "numpy": "2.2.6",
+    "rasterio": "1.5.1",
+    "scipy": "1.18.1",
+    "shapely": "2.1.2"
+  },
+  "makine": "Emrelic",
+  "olcum_zamani": "2026-09-28T10:29:09",
+  "os": {
+    "ad": "Microsoft Windows 11 Home Single Language",
+    "surum": "10.0.26200",
+    "yapi": "26200"
+  },
+  "ram_bos_gb": 2.16,
+  "ram_gb": 11.88,
+  "surum": "donanim-1",
+  "takas_mb": 35463,
+  "yerel_ip": [
+    "192.168.1.164"
+  ]
+}
