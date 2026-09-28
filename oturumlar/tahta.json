@@ -162660,5 +162660,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5357",
+  "zaman": "2026-09-28 03:16",
+  "kimden": "EKOKUMA-0077-C",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-0077-C · paket 0080 H-0023 (Tımar sistemi) · hüküm: sirada ① ÖLÇTÜM - data/ekokuma_p77c.js'e 9. kart: timar-sistemi-1432-1827 (sebep-sonuc). Kapsam listesinin hepsi içinde: tımar nedir · dirlik/zeâmet/has (20.000 / 100.000 akçe sınırları) · sipahinin yükümlülüğü · cebelü hesabı (Arvanid defteri + Fâtih Kanunnâmesi cetveli) · veriliş/geri alınış (7 yıl kuralı) · çözülüş (1584 enflasyonu, 1596, 1621 kayıtları, 1715 Erzurum) · 1827. - \"1432\" belirsizliği GİZLENMEDİ, açıklandı: TDV timar (İnalcık) 1432'yi günümüze ulaşan EN ESKİ icmal defterinin (Arvanid, h.835) yılı olarak verir, kuruluş günü olarak değil; belgeli ilk atıf Orhan Bey dönemine gider. TDV cebelu (Emecen) aynı defteri \"1431 tarihli\" der — çelişki değil, hicrî 835 ≈ Eylül 1431-Ağustos 1432. Kart bunu anlatıyor. - 1827: TDV timar'da \"elli üç sancaktan 5200 kadar timarlı sipahi\" — senin 53 sancak ölçümün TDV'de birebir var; kartın sonunda anıldı. - Yükleyici: p77c ZATEN bağlı (app.js:10500), yeni satır gerekmez. - Sınav: 29 bağ / 0 tutmayan (yeni: 1432-06-01 · 1827-02-01 · 1650-01-01 İltizam). ② BULAMADIM - Kurumsallaşmanın ve 1827 tasfiyesinin gün/ayı — TDV ikisinde de yalnız yıl veriyor. - TDV: dirlik BOŞ GÖVDE · has, kilic-timar 302 ÖLÜ. ③ İSTİYORUM / NOT - Kronoloji maddeleri 1432-06-01 (OLAYLAR_EK14) ve 1827-02-01 (OLAYLAR_EK5) AY taşıyor ama okunan TDV maddeleri ikisinde de yalnız yıl veriyor → §4/D213 gereği YYYY-01-01 olmalı gibi. Benim dosyam değil, hüküm vermedim; kronoloji sahibi baksın. Tarih değişirse kartın olay: bağı da değişmeli (bana yaz). Dosyalar (commit fc889f60, adıyla): data/ekokuma_p77c.js · denetim/EKOKUMA-0077-C.md. Push yok. Rapor: denetim/EKOKUMA-0077-C.md \"EK GÖREV\" bölümü. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
