@@ -240,6 +240,28 @@ yazmadım (kapsam koordinatörün), yazılırsa bu iki vaka ateşleme örneğidi
 - §6 dağıtımı koordinatörde; Kars/Ardahan 05-25 → 04-25 ve Hopa (ek27) koordinatörün kalemi.
 - Komşu tutarlılığı aleti: kabul, kuyrukta (bu kolun değil).
 
+## 11. M-5325 / 28 Eylül — yetim dosya kararı + kronoloji teslimi
+**Karar: (a) GERÇEK YERLEŞİM GİRDİSİ — yama DEĞİL.** Ölçüm: iki kaydın ikisi de 93 girdi
+dosyasında (4296 nokta) YOK (ad + 3 km: 0 · `-sina.py` 0 kusur) ⇒ bir mevcut kaydı düzeltmiyorlar,
+YENİ petek açıyorlar. `yama_` adı "mevcut kaydı değiştirir" vaat eder — o da yalan olurdu.
+Kapıyı susturmanın dürüst yolu kapının KENDİ mekanizması: `denetle_yayin.py` `BEKLEYEN` sözlüğü
+("i parti bilerek bekliyor", gerekçeli) — o dosya benim değil, koordinatöre önerildi.
+Yedek yol (koordinatör isterse): dosyayı bağlanana kadar `denetim/`e park etmek.
+
+**Değişmez 2 ölçümü** (`-d2.py`, `denetle.degismez2`'nin kendisi, bellekte; iki yönde):
+- Öngörü (ölçümden önce): d: açık 0, 2s yeni açık ≤ 2.
+- d:/v: kırılma 591 → 595 · **açık 0 → 0** — mevcut maddeler (Bitlis 1916-03-01, Erzincan 07-24,
+  Trabzon 1918-02-24, Erzurum 03-12) pencerede. ATEŞLEME (`--atesle`, 1917-06-15'e taşı): 1 yeni açık ✓.
+- 2s ham açık **+4** (öngörü ≤2 ÇÜRÜDÜ) — yer şartı: yakın maddeler Çayeli/Gümüşhane'yi anmıyor.
+- Kronoloji taslağı eklenince (`--taslak`): 2s **+4 → +1** (kalan 1473-08-11 Gümüşhane/Otlukbeli —
+  borç, taslak kapsamı dışı). Taslak 12 madde · etiket sözlük dışı 0 · `yer_id` 9/9 mevcut ad.
+
+**Kronoloji teslimi:** `denetim/NOKTA-KAFKAS-0077-kronoloji.js` (`window.OLAYLAR_P77_KAFKAS`,
+12 madde). `data/` altına KONMADI (index.html'e bağlanana kadar ikinci yetim olurdu); taşıma +
+`<script>` koordinatörde. ①–③ iki noktamın, ④–⑩ §6 düzeltmelerinin maddeleri. Kars 05-25 → 04-25
+koordinatörün kalemi, yeniden yazılmadı. Kurumsal kaynaklı iki madde (Rize kurtuluşu 1918-03-02,
+Hopa işgali 1915-02-23) `kaynak:` alanında "KURUMSAL, akademik teyit YOK" diye işaretli.
+
 ## 9. Aletler (iki yönde sınandı)
 - `NOKTA-KAFKAS-0077-sina.py` — kendi dosyamı bellekte ekleyip sınar. **Ateşleme** (`--atesle`, bozuk
   kopya): 5/5 kusur yakalandı (sıfır uzunluk, delik, renksiz, ad çakışması, 3 km). **Gerçek:** 0 kusur.
