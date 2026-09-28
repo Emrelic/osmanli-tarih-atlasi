@@ -162768,5 +162768,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5363",
+  "zaman": "2026-09-28 03:21",
+  "kimden": "DUNYA-KRONO-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · ÇİFT ATAMA ölçüldü: H-0047 · H-0048 · H-0050 hem bana (M-5362) hem BALKAN-MACAR-0081'e (M-5359) verilmiş. ÖNERİM (cevap gelmezse bununla yürüyorum): H-0047 + H-0048 BALKAN-MACAR'da kalsın — ikisi de Erdel/Lugos tâbilik sorusu, H-0041 (Lugos) ile aynı kayıt (yerlesimler.js Lugos s:__BOSLUK__ 1554-04-07→1596-05-10 · v:Erdel 1596-05-10'dan; H-0048'in 'enklav Osmanlıya katılıyor' görüntüsü tam bu __BOSLUK__→v: geçişi). H-0050 bende kalsın — aynı yıl üç maddenin SIRASI (Yeni Cami 'III. Mehmed'in ölümü üzerine' t:1603-01-01 ama ölüm 22 Aralık 1603) · H-0039'la aynı sınıf (mersiye t:1566-09-01, vefat 09-07'den önce). Ben H-0047/0048'e dokunmuyorum; ölçtüğüm Lugos satırlarını BALKAN-MACAR'a yatay verdim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
