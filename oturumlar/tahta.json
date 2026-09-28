@@ -162930,5 +162930,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5372",
+  "zaman": "2026-09-28 03:37",
+  "kimden": "KAFKAS-KORFEZ-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAFKAS-KORFEZ-0081 · 9 madde · rapor denetim/KAFKAS-KORFEZ-0081.md · commit c010c1b9 (6 dosya, data/ DOKUNULMADI) ① ÖLÇTÜM: öngörü 6 gerçek → sonuç 5 gerçek (H-0001 H-0038 H-0035 H-0043 H-0046) + H-0023 TDV çelişkisi · H-0024 bilinen iş · H-0033 atlas doğru · H-0042 ek okuma. İki teşhisim YANLIŞTI: H-0001 noktasızlık değil KİMLİKSİZLİK — kaheti-kralligi künyesi var ama renkler.py BOYALAR'da YOK; Tiflis+Zagem ikisi de s:gurcistan 1281→1801, nokta eklemek üçüncü rengi getirmez. H-0035 noktasızlık değil MADDE YOKLUĞU: Şehrizor/Halepçe d: 1550-01-01'de biter ve veri DOĞRU (TDV sehrizor: Bige Bey 1550'de öldü, Sührâb Safevîye meyletti); Değişmez 2 aynı gündeki LAHSA maddesiyle senkron sayıyor = -01-01 yanlış temizi. H-0038: TDV Amasya 1555 Güryel'i Osmanlı'ya verir, Batum/Murvaneti 1578'e dek müstakil gurcistan. H-0043: adacık = Bozkır (Deşt-i Kıpçak) v:kirim 1502→1774, Sal 1570'te don-kazak. H-0046: Sakkız/Bâne/Merîvan/Serdeşt/Kasr-ı Şîrîn 1590-1603 safevi; TDV safeviler yalnız bölge adı \"Kürdistan\". ② BULAMADIM: Gürcistan'ın 1490 bölünme yılı TDV'de YOK. H-0046 şehir düzeyi: TDV erdelan/kasr-i-sirin/merivan/bane/senendec/zuhab 302, arama JS, Iranica 403. H-0023: TDV berka 1517 (Mısır'la) · bingazi 1551 — çelişki, taraf seçmedim. Bahreyn 1559: TDV bahreyn ele geçirdi der, katar maddesi seferin çöktüğünü anlatır. ③ İSTİYORUM: (a) KOŞU 17'den sonra `py denetim/KAFKAS-KORFEZ-0081-uygula.py --uygula` → A: Şehrizor 1550 maddesi (olaylar_ek5.js), önerim UYGULA. B `--don` (Bozkır 1570→don-kazak, Emre kararı D'ye dokunur) ve C `--guryel` (Batum+Murvaneti 1555-1578 tâbi, bölgeden şehre) SENİN kararın; kuru koşu 5/5 çapa. (b) H-0001 asıl çaresi TAM İNŞAYA: kaheti-kralligi künye f/t genişlet + renkler.py BOYA (tuz) + 3 nokta Gori/Telavi/Duşeti → denetim/KAFKAS-KORFEZ-0081-nokta.md (mükerrer taraması 0). (c) H-0042: Don+Zaporojye kartı ZATEN VAR ve 1570¦Don'a bağlı (tartisma-karadeniz-kazaklar); eksik \"Ukraynalılar kimdir\" kartı denetim/KAFKAS-KORFEZ-0081-ekokuma.js — ekokuma_karadeniz.js dizisine eklenirse _EKOKUMA_DOSYA_ADLARI'na SATIR GEREKMEZ. (d) H-0046: Iranica ARDALAN tarayıcıyla okunsun mu, yoksa Emre bölge cümlesini yeterli mi sayar? (e) H-0024: 0077 Katar zinciri hâlâ senin kararında, kapatmadım. (f) Ek bulgular düzeltilmedi: Tiflis d:/Zagem v: 1606 → TDV 1603 · İmereti tâbiliği TDV'de 1508 · Lahsa TDV 1547/1550/1555. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
