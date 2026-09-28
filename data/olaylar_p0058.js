@@ -53,7 +53,7 @@ window.OLAYLAR_P0058 = [
   yer:"İstanbul",
   yer_id:"İstanbul",
   kisiler:"II. Murad, II. Manuel, VIII. Ioannes",
-  d:"Düzmece Mustafa'yı destekleyen Bizans'a karşı 1422'de İstanbul'u kuşatan II. Murad, 22 Şubat 1424'te Bizans imparatoruyla barış antlaşması imzaladı. Bizans bu antlaşmayla yeniden Osmanlı'ya haraç ödemeyi kabul etti; 1403'te Emîr Süleyman'la yaptığı antlaşmayla kurtulduğu yıllık haraç böylece geri döndü. Bizans bu durumunu 1453'te İstanbul'un fethine kadar sürdürdü.",
+  d:"Düzmece Mustafa'yı destekleyen Bizans'a karşı 1422'de İstanbul'u kuşatan II. Murad, 22 Şubat 1424'te Bizans imparatoruyla barış antlaşması imzaladı. Bizans bu antlaşmayla yeniden Osmanlı'ya haraç ödemeyi kabul etti ve Silivri ile Terkos hisarları hariç Marmara, Ege ve Karadeniz kıyılarında 1402'den sonra aldığı yerleri geri verdi — haritada Karadeniz kıyısındaki İğneada, Rezve ve Ahtapolu bu tarihte Osmanlı'ya döner; 1403'te Emîr Süleyman'la yaptığı antlaşmayla kurtulduğu yıllık haraç böylece geri döndü. Bizans bu durumunu 1453'te İstanbul'un fethine kadar sürdürdü.",
   ic_not_d:"TDV `murad-ii`: 'Bizans imparatoru ile barış antlaşması imzaladı (21 Rebîülevvel 827 / 22 Şubat 1424)' · 'Bizans imparatoru haraç ödeyen tâbiler durumundaydı'. TDV `bizans`: 'Bizans yeniden haraç ödemeyi kabul ederek Sultan II. Murad ile bir anlaşma yapabildi' · 1403: 'Türkler'e ödemekte olduğu yıllık haraçtan da kurtuldu'. Bu madde YAMA-ANADOLU-0914.json Bizans haraçgüzâr penceresi B'nin AÇILIŞ günü içindir.",
   kaynak:"murad-ii · bizans" },
 

@@ -121,7 +121,7 @@ window.YERLESIMLER_EK29 = [
 //   Yani NİTRA bir Osmanlı sancağı ⇒ `d:` dönemi YAZILDI, k:2.
 
 { ad:"Nitra (Nyitra)", tur:"kale", lat:48.3069, lon:18.0864, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1663-09-24",d:"avusturya"},
+  s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan",kaynak:"macaristan künyesi 1526-08-29’de bitiyor; Nitra habsburg künyesinden 245 yıl önce avusturya boyanıyordu · ⚠️ kasaba-tanecik kaynak OKUNMADI (TDV nitra slug’ı yok); aynı dosyadaki Komárom kaydıyla aynı desen · KUNYE-ANADOLU-0081 H-0003"},{f:"1526-08-29",t:"1663-09-24",d:"avusturya"},
      {f:"1685-08-19",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[{f:"1663-09-24",t:"1685-08-19"}], v:[] },

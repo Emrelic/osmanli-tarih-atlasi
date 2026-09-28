@@ -2333,6 +2333,11 @@ def degismez4(Y):
 # yeniden keşfedilir.
 SUPHE_ESIK_YIL = 100   # 1281 + 100 = 1381'den sonra başlayan ilk dönem
 BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
+# 5a-muaf tavanı: `devir_beyani` taşıyan kayıt sayısı. DONDURULMUŞTUR
+# (28 Eylül 2026, ilk ve tek kayıt Uzunköprü). Yükseltmek bir HÜKÜMDÜR:
+# her yeni muaf, motorun petek devrine açılan bir kapıdır ve kaynak cümlesi
+# olmadan yazılamaz. Düşerse `--yaz` ile indirilir.
+BEKLENEN_DEVIR_BEYANI = 1
 
 
 # 🔴 5c — VE BU DAL, 5b YAZILDIKTAN BİR SAAT SONRA DOĞDU, ÇÜNKÜ 5b'NİN
@@ -2359,15 +2364,44 @@ BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
 #   (meşru / şüpheli) ayırmak ARAŞTIRMADIR, denetimin işi değil: bu dal
 #   *"nereye BAKILACAK"* der, *"ne YAZILACAK"* demez.
 def degismez5(Y):
-    """(celiskiler, supheliler, kursuz) — 5a ihlal, 5b/5c borç listesi."""
-    celiski, suphe, kursuz = [], [], []
+    """(celiskiler, supheliler, kursuz, muaflar) — 5a ihlal, 5b/5c borç listesi,
+    5a-muaf DEVİR BEYANI kayıtları.
+
+    🔴 `devir_beyani` MUAFİYETİ (28 Eylül 2026, KORIDOR-0081 ölçümü · hüküm
+    YILDIRIM BAYEZIT). Motorun "kurulmamış-boyanmış peteği komşuya devret"
+    mekanizması (`uret_petek.py` ~4603) TAM 5a'nın yasakladığı biçimle
+    tetikleniyor: `kur:` + ondan ÖNCE başlayan SAHİPLİ dönem. 5a tavanı 0
+    olduğu için bu biçim hiç yazılamadı ⇒ **devir bugüne dek HİÇBİR kayıtta
+    çalışmadı.** Kod vardı, işlevi yoktu (`B9`nin kardeşi).
+
+    Vaka: Uzunköprü. TDV murad-ii — Ergene Köprüsü 1443'te tamamlandı,
+    ucuna mescid/imaret/hamam/pazar yapıldı; kasaba o gün DOĞDU. Ama atlasta
+    `bizans 1281→1371` yazılı. İki çıkış da kapalıydı: dönemleri SİLMEK
+    noktayı "kurulmamış VE sahipsiz" yapar, motor onu KASITLI BOŞLUK sayıp
+    DEVRETMEZ ⇒ Ergene vadisinde yeni delik; `kur:` + eski dönem ise 5a.
+
+    🔴 MUAFİYET BLANKET DEĞİL, İKİ KİLİTLİ — çünkü 5a'nın TEK işi bu şekli
+    yakalamaktır; topluca serbest bırakmak 5a'yı emekliye ayırırdı ve gerçek
+    bir anakronizm bir daha hiç görünmezdi:
+      (a) kayıtta `devir_beyani` BOŞ OLMAYAN METİN (true değil — `kur:`un
+          kaynak cümlesi). Kaynaksız beyan yazılamaz.
+      (b) `kur:`dan önceki dönemlerin HİÇBİRİ kendi `kaynak:`ını taşımıyor.
+          Taşıyorsa kasaba o gün VARDI demektir; çelişki GERÇEKTİR ve
+          muafiyet onu gizlememelidir.
+    Muaf sayı `BEKLENEN_DEVIR_BEYANI` ile DONDURULUR (tavan onay değil
+    FREEZE — `Değişmez 8` deseni; yalnız gerileme bloke eder).
+    ⚠️ Ve muafiyet KAPANIŞ KANITI DEĞİLDİR: devrin gerçekten çalıştığı
+    ancak KOŞUDAN SONRA peteğin komşulara geçtiği ölçülerek görülür.
+    """
+    celiski, suphe, kursuz, muaf = [], [], [], []
     for y in Y:
         donemler = []
         for k in ("d", "s", "v"):
             for p in (y.get(k) or []):
                 f = p.get("f")
                 if f:
-                    donemler.append((f, k, p.get("d") or ""))
+                    donemler.append((f, k, p.get("d") or "",
+                                     (p.get("kaynak") or "").strip()))
         if not donemler:
             continue
         donemler.sort()
@@ -2384,8 +2418,20 @@ def degismez5(Y):
             # işaret yüzü, ve onu YALNIZ ÇIKTIYI OKUMAK ele verdi.
             g = _gun_farki(kur, ilk)     # kur − ilk; pozitifse dönem ÖNCE
             if g is not None and g > HAYALET_TOLERANS_GUN:
-                celiski.append((y["ad"], kur, ilk, donemler[0][2],
-                                g / 365.25))
+                # ── DEVİR BEYANI muafiyeti — iki kilit, ikisi de şart
+                beyan = (y.get("devir_beyani") or "")
+                beyan = beyan.strip() if isinstance(beyan, str) else ""
+                # (b) `kur:`dan ÖNCE başlayan dönemlerden biri bile kendi
+                #     `kaynak:`ını taşıyorsa kasaba o gün VARDI ⇒ muafiyet YOK
+                onceki_kaynakli = any(
+                    p[3] for p in donemler
+                    if (_gun_farki(kur, p[0]) or 0) > HAYALET_TOLERANS_GUN)
+                if beyan and not onceki_kaynakli:
+                    muaf.append((y["ad"], kur, ilk, donemler[0][2],
+                                 g / 365.25, beyan))
+                else:
+                    celiski.append((y["ad"], kur, ilk, donemler[0][2],
+                                    g / 365.25))
         else:
             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
             if ilk > "%04d-01-01" % (1281 + SUPHE_ESIK_YIL):
@@ -2403,7 +2449,8 @@ def degismez5(Y):
                                round(y.get("lon", 0), 2)))
     suphe.sort(key=lambda r: r[1])
     kursuz.sort(key=lambda r: (r[4], r[0]))
-    return celiski, suphe, kursuz
+    muaf.sort()
+    return celiski, suphe, kursuz, muaf
 
 
 # ---------------- Değişmez 7 — ENKLAV SORGUSU ----------------------------
@@ -4699,13 +4746,26 @@ def main():
                 print(f"                 {kim:<20} {n} dönem")
 
     # ── Değişmez 5 — HAYALET YERLEŞİM ────────────────────────────────
-    celiski, suphe, kursuz = degismez5(Y)
+    celiski, suphe, kursuz, muaf5 = degismez5(Y)
     n5 = len(celiski)
     durum5 = "✓" if n5 <= BEKLENEN_HAYALET_YERLESIM else "✗"
     if n5 > BEKLENEN_HAYALET_YERLESIM:
         ihlal = True
     print(f"\nDeğişmez 5  {durum5}  {n5} çelişki "
           f"(beklenen {BEKLENEN_HAYALET_YERLESIM}) — dönem `kur:`dan ÖNCE başlıyor")
+    # 5a-muaf — DEVİR BEYANI. Tavan FREEZE'dir, onay değil: yalnız GERİLEME
+    # bloke eder. Muafiyet bir kapanış kanıtı DEĞİLDİR — devrin çalıştığı
+    # ancak koşudan sonra peteğin komşulara geçtiği ölçülerek görülür.
+    if muaf5 or BEKLENEN_DEVIR_BEYANI:
+        durum5m = "✓" if len(muaf5) <= BEKLENEN_DEVIR_BEYANI else "✗"
+        if len(muaf5) > BEKLENEN_DEVIR_BEYANI:
+            ihlal = True
+        print(f"Değişmez 5a-muaf {durum5m}  {len(muaf5)} kayıt `devir_beyani` "
+              f"ile muaf (tavan {BEKLENEN_DEVIR_BEYANI}) — motorun petek "
+              f"devri BU BİÇİMLE tetikleniyor")
+        for ad, kur, ilk, kim, yil, beyan in muaf5[:6]:
+            print(f"    {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
+                  f"{yil:.1f} yıl ÖNCE  · beyan: {beyan[:60]}")
     for ad, kur, ilk, kim, yil in celiski[:12]:
         print(f"    {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
               f"{yil:.1f} yıl ÖNCE")

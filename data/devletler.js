@@ -223,7 +223,7 @@ window.DEVLETLER = [
 },
 
 { id:"habsburg", ad:"Habsburg Avusturya", tur:"imparatorluk", bolge:"orta-avrupa",
-  f:"1526-08-29", t:"1918-11-11", baskent:"Viyana", harita:"avusturya",
+  f:"1282-01-01", t:"1918-11-11", baskent:"Viyana", harita:"avusturya",
   ozet:"Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan olarak I. Dünya Savaşı'nda dağıldı.",
   kaynak:"avusturya",
   kronoloji:[

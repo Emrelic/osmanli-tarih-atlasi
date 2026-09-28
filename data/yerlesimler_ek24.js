@@ -43,7 +43,7 @@
 window.YERLESIMLER_EK24 = [
 
 // ───────── MERİÇ HATTI · TÜRKİYE YAKASI (doğu) ─────────
-{ ad:"Uzunköprü", tur:"sehir", lat:41.267, lon:26.688, g:0, k:3, m:"Edirne",
+{ ad:"Uzunköprü", tur:"sehir", lat:41.267, lon:26.688, g:0, k:3, m:"Edirne", kur:"1443-01-01", devir_beyani:"TDV murad-ii: Ergene Köprüsü 1443’te tamamlanmıştır; bir ucunda mescid, imaret, hamam ve pazarlar yaptırıldı — kasaba köprüyle doğdu, 1281-1443 dönemleri BÖLGE vekilidir · KORIDOR-0081 H-0008",
   s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1371-09-26",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
 
@@ -86,8 +86,8 @@ window.YERLESIMLER_EK24 = [
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i 1369 Istıranca seferi — aynı sefer"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
 
 { ad:"İğneada",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"liman", lat:41.8890, lon:28.0258, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1424-02-22",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
 
 // ───────── MUTLUDERE HATTI · BULGARİSTAN YAKASI (kuzey) ─────────
 { ad:"Mustafapaşa (Svilengrad)", tur:"kasaba", lat:41.766, lon:26.207, g:0, k:3, m:"Edirne",
@@ -131,11 +131,11 @@ window.YERLESIMLER_EK24 = [
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i 1369 Istıranca seferi — aynı sefer"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
 { ad:"Ahtapolu (Ahtopol)",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"liman", lat:42.099, lon:27.937, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
-  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1424-02-22",t:"1913-09-29"}], v:[] },
 
 { ad:"Rezve (Rezovo)",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"koy", lat:41.9935, lon:28.0192, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
-  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1424-02-22",t:"1913-09-29"}], v:[] },
 
 ];
