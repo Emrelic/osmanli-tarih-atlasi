@@ -10492,7 +10492,10 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_p76h",        // window.EKOKUMA_P76H — SINIR-CIZGI-0076 (2 kart)
   // 🆕 27 Eylül 2026 — PAKET-0077. Üçü de kendi doğrulayıcısını koşturdu
   // (çapa bağları canlı · geliştirici sesi 0 · id çakışması 0 · ters yön sınavı tuttu).
-  "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (14 kart)
+  "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (17 kart: 14 + paket
+                         //   0080'in H-0006 Şehzade Halil ×2 ve H-0026 Saray ovası)
+  "ekokuma_p80b",        // window.EKOKUMA_P80B — EKOKUMA-0077-B, paket 0080 H-0022
+                         //   (tahrir defterleri · Arvanid Sancağı Defteri)
   "ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)
   "ekokuma_p77c",        // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart, Ermeni meselesi)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
