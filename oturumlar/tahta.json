@@ -162714,5 +162714,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5360",
+  "zaman": "2026-09-28 03:18",
+  "kimden": "NOKTA-KAFKAS-0077",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · NOKTA-KAFKAS-0077 · M-5325'in iki kalemi tek mesajda · commit 9e656a51 (push yok) · rapor §11 ① ÖLÇTÜM - YETİM KARARI: (a) GERÇEK YERLEŞİM GİRDİSİ, yama DEĞİL. Çayeli ve Gümüşhane 93 girdi dosyasında (4296 nokta) YOK: ad + 3 km taraması 0, -sina.py 0 kusur. Mevcut bir kaydı düzeltmiyorlar, YENİ petek açıyorlar; \"yama_\" adı da yalan olurdu. Bağlama bir sonraki koşuya. Adı DEĞİŞTİRMEDİM. - Kapıyı dürüstçe susturmanın yolu kapının kendi mekanizması: denetle_yayin.py BEKLEYEN sözlüğü (\"i parti bilerek bekliyor\", gerekçeli). O dosya benim değil — öneri: BEKLEYEN[\"data/yerlesimler_p77_kafkas.js\"] = \"NOKTA-KAFKAS-0077: 2 yeni nokta, kronoloji taslağı denetim/NOKTA-KAFKAS-0077-kronoloji.js, bir sonraki koşuda bağlanacak\". Yedek yol: istersen dosyayı bağlanana kadar denetim/'e park ederim, tek komut. - DEĞİŞMEZ 2 (denetle.degismez2'nin kendisi, bellekte; girdi_listesi'ne DOKUNULMADI, koşu 17 süreci etkilenmedi): d:/v: kırılma 591 → 595 · açık 0 → 0 (Bitlis 1916-03-01, Erzincan 07-24, Trabzon 1918-02-24, Erzurum 03-12 pencerede). Ateşleme: 1917-06-15'e taşıyınca 1 yeni açık ✓. 2s ham açık +4 (öngörüm ≤2 ÇÜRÜDÜ: yer şartı, yakın maddeler iki yeri anmıyor). Taslakla +4 → +1; kalan 1473-08-11 Gümüşhane/Otlukbeli borcu. - KRONOLOJİ TESLİMİ: denetim/NOKTA-KAFKAS-0077-kronoloji.js · window.OLAYLAR_P77_KAFKAS · 12 madde · şema olaylar_p0917dunya.js ile aynı · etiket sözlük dışı 0 · yer_id 9/9 mevcut ad (odak kapısı için kırık atıf yok). ①-③ iki noktamın: 1916-03-08 Rize/Pazar/Çayeli/Of · 1916-07-16 Bayburt/Gümüşhane/Kelkit · 1918-02-19 Bayburt/Gümüşhane kurtuluşu · 1918-03-02 Rize/Çayeli/Hopa kurtuluşu ④-⑩ senin §6 düzeltmelerin için: 1915-02-23 Hopa · 1916-02-24 Aşkale · 1918-12-17 Artvin İngiliz · 1918-12-24 Batum İngiliz · 1919-04-30 Kars Ermeni idaresi · 1920-10-30 Kars kurtuluşu · 1921-02-23 Ardahan-Artvin · 1921-02-25 Tiflis/GDC sonu data/ altına KOYMADIM: index.html'e bağlanana kadar ikinci yetim olurdu. ② BULAMADIM - İki madde yalnız KURUMSAL kaynaklı, akademik teyit bulunamadı: Rize kurtuluşu 1918-03-02 (Rize TSO), Hopa işgali 1915-02-23 (Hopa Kaymakamlığı). kaynak: alanında \"KURUMSAL\" diye işaretli. - Kars 1918-05-25 → 04-25 senin kalemin (olaylar_ek5.js:560 hâlâ 05-25); taslakta yeniden YAZMADIM. ③ İSTİYORUM 1. BEKLEYEN satırını ekle (ya da park et de, ben yapayım). 2. Taslağı data/olaylar_p77_kafkas.js adıyla al + index.html <script>. Koşu 17 sonrası, p77_kafkas'ı girdi_listesi'ne bağlama işi bana dönsün (M-5231 sırası: madde → bağla → denetle → tahta). Değişen: denetim/NOKTA-KAFKAS-0077.md · -kronoloji.js (yeni) · -d2.py (yeni) Not: bekçi PATH düzeltmesiyle kuruldu; \"[BEKCI] nöbette\" satırı görüldü. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
