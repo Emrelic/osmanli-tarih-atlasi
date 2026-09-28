@@ -1,41 +1,36 @@
 {
-  "ag": {},
-  "baslangic_yuk_yuzde": 11,
-  "bitis_yuk_yuzde": 4,
-  "cpu_cok_sn": 0.268,
+  "ag": {
+    "git_ls_remote_sn": 1.08,
+    "github_gecikme_ms": 158
+  },
+  "baslangic_yuk_yuzde": 4,
+  "bitis_yuk_yuzde": 2,
+  "cpu_cok_sn": 0.256,
   "cpu_sayisi": 8,
-  "cpu_tek_sicak_sn": 0.741,
-  "cpu_tek_soguk_sn": 0.341,
-  "disk_bos_gb": 693.4,
+  "cpu_tek_sicak_sn": 0.347,
+  "cpu_tek_soguk_sn": 0.339,
+  "disk_bos_gb": 693.0,
   "disk_mb": 256,
-  "disk_oku_mbs": null,
-  "disk_yaz_mbs": null,
-  "gurultu": 2.0,
+  "disk_oku_mbs": 1641,
+  "disk_yaz_mbs": 368,
+  "gurultu": 4.02,
   "isi_kismasi": null,
-  "isi_kismasi_neden": "ortam gürültülü (yayılım 2.0) — makine boştayken yeniden ölç",
-  "kosu_puani": 101,
+  "isi_kismasi_neden": "ortam gürültülü (yayılım 4.02) — makine boştayken yeniden ölç",
+  "kosu_puani": 153,
   "kunye": {
-    "acik_sn": 95988,
+    "acik_sn": 103457,
     "agir_surecler": [
       {
-        "ad": "python",
-        "mb": 3891
-      },
-      {
         "ad": "claude",
-        "mb": 608
+        "mb": 589
       },
       {
         "ad": "msedgewebview2",
-        "mb": 442
+        "mb": 411
       },
       {
         "ad": "Memory Compression",
-        "mb": 298
-      },
-      {
-        "ad": "MsMpEng",
-        "mb": 265
+        "mb": 407
       },
       {
         "ad": "claude",
@@ -43,11 +38,19 @@
       },
       {
         "ad": "claude",
-        "mb": 262
+        "mb": 208
       },
       {
-        "ad": "WhatsApp.Root",
-        "mb": 216
+        "ad": "MsMpEng",
+        "mb": 186
+      },
+      {
+        "ad": "claude",
+        "mb": 156
+      },
+      {
+        "ad": "claude",
+        "mb": 153
       }
     ],
     "cekirdek": 4,
@@ -135,7 +138,7 @@
     "mhz_nominal": 1800,
     "mhz_simdi": 1600,
     "os": "Microsoft Windows 11 Home Single Language b26200",
-    "ram_bos_gb": 1.54,
+    "ram_bos_gb": 5.15,
     "ram_gb": 11.88,
     "ram_mhz": "2133",
     "sql_server": {
@@ -145,11 +148,11 @@
     "takas_mb": 35463
   },
   "makine": "Emrelic",
-  "numpy_sn": 0.313,
+  "numpy_sn": 0.152,
   "platform": "Windows-11-10.0.26200-SP0",
   "python": "3.13.8",
-  "ram_gbs": 3.6,
-  "ram_sn": 0.414,
+  "ram_gbs": 6.4,
+  "ram_sn": 0.235,
   "saglik_hukmu": [
     "🔴 5 beklenmedik kapanma (olay 41 · son 2026-09-19T09:56:11 · ilk 2026-07-05T16:01:50) — 6 saatlik koşu her seferinde ölebilir",
     "🔴 1 mavi ekran (olay 1001 · son 2026-09-19T09:56:18 · ilk 2026-09-19T09:56:18)",
@@ -158,18 +161,18 @@
     "⚠️ 158 ISI KISMASI (Kernel-Processor-Power 37 · son 2026-09-28T10:16:26 · ilk 2026-05-26T08:26:12) — uzun koşuda hız düşer",
     "⚠️ güç planı DENGELİ — koşu makinesinde 'Yüksek performans' daha iyi (masaüstünde bedeli yok)"
   ],
-  "shapely_sn": 0.31,
-  "sqlite_sn": 0.454,
+  "shapely_sn": 0.14,
+  "sqlite_sn": 0.452,
   "surum": "olcut-1",
   "tekrar": 3,
   "yayilim": {
-    "cpu_cok": 1.65,
-    "cpu_tek_sicak": 1.1,
-    "cpu_tek_soguk": 2.0,
-    "numpy": 1.07,
-    "ram": 1.08,
-    "shapely": 1.1,
-    "sqlite": 1.36
+    "cpu_cok": 1.23,
+    "cpu_tek_sicak": 1.01,
+    "cpu_tek_soguk": 1.1,
+    "numpy": 4.02,
+    "ram": 1.31,
+    "shapely": 1.14,
+    "sqlite": 1.17
   },
-  "zaman": "2026-09-28T12:54:52"
+  "zaman": "2026-09-28T14:59:20"
 }
