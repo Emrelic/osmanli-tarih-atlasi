@@ -162642,5 +162642,23 @@
   "kapanis": "",
   "dayanak": "§7: uzun iş başlatmadan önce tahtaya beyan ve 60 sn bekleme ZORUNLU; ayrıca §9.1 ③ koşu boyunca tuz dosyaları donuk",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5356",
+  "zaman": "2026-09-28 03:09",
+  "kimden": "ACILIS-ANIM-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "YÖN DIFF HAZIR · denetim/ACILIS-ANIM-0081-yon.diff · git apply --check TEMİZ · css/style.css:2928 kureDon -360px→+360px (+1 yorum satırı, CRLF korundu) · css/style.css'e dokunmadım · commit 1b111d33 · bekçim öldürülüyor, kapanıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
