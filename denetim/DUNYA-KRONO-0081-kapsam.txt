@@ -1,0 +1,66 @@
+KUYRUK 1291  Akka'nın düşüşü — Haçlıların Levant'tan atılması  ← 1291-05-18 "Akkâ'nın fethi — Haçlılar Suriye'den tasfiye edildi" [kronoloji_memluk.js]
+KUYRUK 1337  Yüzyıl Savaşları'nın başlaması  ← 1337-05-24 "Yüzyıl Savaşları'nın başlaması" [kronoloji_fransa.js]
+KUYRUK 1347  Kara Ölüm (büyük veba)  ← 1346-01-01 "Kara Ölüm Kefe kuşatmasından Akdeniz'e yayıldı — Avrupa nüfu" [kronoloji_altinorda.js]
+KUYRUK 1368  Ming hanedanının kuruluşu  ← 1368-09-14 "Ming orduları Pekin'i aldı, Yuan sarayı kuzeye çekildi" [kronoloji_cin.js]
+KUYRUK 1415  Portekiz'in Septe'yi (Ceuta) alması — denizaşırı yayılmanın başı  ← 1415-08-21 "Ceuta'nın fethi — sömürge çağının açılışı" [kronoloji_portekiz.js]
+YOK    1450  Gutenberg matbaası
+KUY+an 1453b Yüzyıl Savaşları'nın sonu  ← 1453-07-17 "Castillon Savaşı — Yüzyıl Savaşları'nın fiilen sona ermesi" [kronoloji_fransa.js]
+KUYRUK 1455  Güller Savaşı  ← 1455-05-22 "Birinci St Albans Savaşı — Güller Savaşları başladı" [kronoloji_ingiltere.js]
+ANA    1492a Gırnata'nın düşüşü  ← 1492-01-02 "Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devlet" [olaylar_ek16.js]
+KUY+an 1492b Kolomb'un Amerika'ya varışı  ← 1492-04-17 "Santa Fe Kapitülasyonları — Kolomb'un seferi için kraliyet o" [kronoloji_ispanya.js]
+KUYRUK 1494  Tordesillas Antlaşması  ← 1494-06-07 "Tordesillas Antlaşması — dünyanın İspanya ve Portekiz arasın" [kronoloji_ispanya.js]
+KUYRUK 1498  Vasco da Gama'nın Hindistan'a varışı  ← 1498-04-07 "Vasco da Gama'nın Mombasa önüne gelmesi — Portekiz çağının b" [kronoloji_dogu_afrika.js]
+KUYRUK 1517  Luther — Reform'un başlangıcı  ← 1517-10-31 "Luther'in Wittenberg'de 95 Tezi" [kronoloji_almanya.js]
+KUYRUK 1519  Macellan seferi — dünyanın dolaşılması  ← 1519-09-20 "Macellan'ın (Magellan) dünya turu seferi İspanya'dan yola çı" [kronoloji_ispanya.js]
+KUY+an 1521  Tenochtitlan'ın düşüşü — Aztek'in sonu  ← 1521-08-13 "Tenochtitlan'ın düşüşü — Aztek İmparatorluğu'nun sonu" [kronoloji_ispanya.js]
+KUYRUK 1526  I. Panipat — Bâbürlü Devleti'nin kuruluşu  ← 1526-04-21 "Birinci Pânipat Savaşı: Bâbür, Delhi Sultanlığı'na son verdi" [kronoloji_hindistan.js]
+KUYRUK 1533  Cuzco'nun düşüşü — İnka  ← 1533-11-15 "Cuzco'nun ele geçirilmesi — İnka İmparatorluğu'nun fiilen so" [kronoloji_ispanya.js]
+KUYRUK 1555  Augsburg Din Barışı  ← 1555-01-01 "Augsburg Din Barışı — Ferdinand'ın uzlaşması" [kronoloji_habsburg.js]
+YOK    1572  Saint-Barthélemy katliamı
+ANA    1581  Felemenk'in bağımsızlık ilânı  ← 1581-07-26 "Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İsp" [olaylar_ek16.js]
+KUYRUK 1588  İspanyol Armadası'nın yenilgisi  ← 1588-08-08 "İspanyol Armadası'nın bozgunu" [kronoloji_hollanda.js]
+KUYRUK 1598  Nantes Fermanı  ← 1598-04-13 "Nantes Fermanı — Din Savaşları'nın hukuken sona ermesi" [kronoloji_fransa.js]
+KUYRUK 1600  İngiliz / Felemenk Doğu Hindistan Şirketleri  ← 1600-12-31 "İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla " [kronoloji_hindistan.js]
+KUYRUK 1603  Tokugawa şogunluğu  ← 1600-10-21 "Sekigahara Savaşı: Tokugawa Ieyasu üstünlüğü kesin olarak el" [kronoloji_japonya.js]
+KUYRUK 1618  Otuz Yıl Savaşları'nın başlaması  ← 1618-05-23 "Prag Pencereden Atılma Vakası" [kronoloji_habsburg.js]
+KUYRUK 1644  Ming'in düşüşü — Çing hanedanı  ← 1644-04-25 "Li Zicheng Pekin'i aldı, son Ming imparatoru intihar etti" [kronoloji_cin.js]
+ANA    1648  Vestfalya Barışı  ← 1648-10-24 "Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'" [olaylar_ek20.js]
+KUYRUK 1649  I. Charles'ın idamı — İngiliz İç Savaşı  ← 1642-08-22 "İç Savaş başladı — I. Charles Nottingham'da sancağını dikti" [kronoloji_ingiltere.js]
+KUYRUK 1688  İngiliz Şanlı Devrimi  ← 1688-11-05 "III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl" [kronoloji_hollanda.js]
+ANA    1703  Büyük Petro — Petersburg'un kuruluşu  ← 1703-05-27 "St. Petersburg'un kuruluşu — Rusya'nın Batı'ya açılan pencer" [olaylar_ek16.js]
+ANA    1713  Utrecht Antlaşması — İspanya Veraset Savaşı'nın sonu  ← 1714-03-07 "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspa" [olaylar_ek16.js]
+KUY+an 1756  Yedi Yıl Savaşları  ← 1756-01-01 "Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş" [kronoloji_fransa.js]
+KUYRUK 1776  ABD Bağımsızlık Bildirgesi  ← 1776-07-04 "Bağımsızlık Bildirgesi kabul edildi" [devletler.js:abd]
+ANA    1789  Fransız İhtilâli  ← 1789-07-14 "Bastille'in düşüşü — Fransız Devrimi'nin başlangıcı" [olaylar_ek19.js]
+KUYRUK 1804  Napolyon'un imparatorluğu  ← 1804-03-21 "Napolyon Kanunu'nun (Code civil) yürürlüğe girmesi" [kronoloji_fransa.js]
+KUY+an 1815a Waterloo  ← 1815-06-18 "Waterloo Savaşı — Napolyon'un kesin yenilgisi" [kronoloji_fransa.js]
+ANA    1815b Viyana Kongresi  ← 1815-06-09 "Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa harit" [olaylar_ek16.js]
+ANA    1821  Latin Amerika bağımsızlıkları (Meksika/Peru/Brezilya)  ← 1821-09-15 "Orta Amerika Bağımsızlık Bildirisi — Guatemala Genel Kaptanl" [olaylar_amerika_0920.js]
+KUYRUK 1839  Afyon Savaşı  ← 1840-06-01 "Birinci Afyon Savaşı başladı" [kronoloji_cin.js]
+KUY+an 1848  1848 devrimleri  ← 1848-03-15 "1848 Macar Devrimi başladı (1849'da Rus yardımıyla bastırıld" [devletler.js:macaristan-habsburg]
+KUYRUK 1857  Büyük Hint Ayaklanması — Britanya Hindistanı  ← 1857-05-10 "Hint Ayaklanması başladı" [kronoloji_ingiltere.js]
+ANA    1861a İtalya Krallığı'nın ilânı  ← 1861-03-17 "İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtaly" [olaylar_ek16.js]
+KUYRUK 1861b ABD İç Savaşı  ← 1861-06-01 "Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması" [kronoloji_misir.js]
+KUYRUK 1868  Meiji Restorasyonu  ← 1868-01-03 "Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı" [kronoloji_japonya.js]
+KUYRUK 1871  Alman İmparatorluğu'nun ilânı  ← 1871-01-18 "Alman İmparatorluğu'nun Versailles'de ilanı" [kronoloji_almanya.js]
+KUYRUK 1885  Berlin Konferansı — Afrika'nın paylaşılması  ← 1884-11-15 "Berlin Kongo Konferansı — Afrika'nın paylaşılması" [kronoloji_almanya.js]
+KUYRUK 1905  Rus-Japon Savaşı (Tsushima)  ← 1904-02-08 "Rus-Japon Savaşı başladı" [kronoloji_japonya.js]
+KUYRUK 1912  Çin Cumhuriyeti — Çing'in sonu  ← 1911-12-29 "Sun Yat-sen geçici cumhurbaşkanı seçildi" [kronoloji_cin.js]
+KUYRUK 1917  Bolşevik İhtilâli  ← 1917-11-07 "Ekim Devrimi — Bolşevikler iktidarı ele geçirdi" [kronoloji_rusya.js]
+ANA    1919  Versay Antlaşması  ← 1919-06-28 "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü" [olaylar_ok109.js]
+
+LİSTE 50: {"KUYRUK":32,"YOK":2,"KUY+an":6,"ANA":10}
+
+ANA kronoloji 1281-1923 · yüzyıl: tüm madde / kapsam:'dis'
+  13. yy  8  /  1
+  14. yy  145  /  35
+  15. yy  187  /  24
+  16. yy  342  /  65
+  17. yy  196  /  28
+  18. yy  269  /  37
+  19. yy  381  /  75
+  20. yy  207  /  55
+
+KUYRUK+künye 1281-1923 · dunya puanı dağılımı: {"1":1462,"2":1944,"3":1114,"4":542,"5":159,"yok":2508}
+
+evren: ANA 1736 madde · KUYRUK 5429 · künye kronolojisi 2699
