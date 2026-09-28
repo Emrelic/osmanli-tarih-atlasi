@@ -65,3 +65,35 @@
 ## İstenen
 1. `js/app.js` yükleyici listesine `"ekokuma_p77c",  // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart)` satırı (app.js sahibi).
 2. Ermeni tarafının resmî metni istenirse: Ermenistan Soykırım Müzesi-Enstitüsü'ne erişebilen bir oturum/ağ (bu makineden DNS çözülmedi).
+
+(Not 28 Eylül: 1. madde yapıldı — `app.js:10500` `"ekokuma_p77c"` bağlı.)
+
+---
+
+# EK GÖREV — paket 0080 H-0023: Tımar sistemi (28 Eylül 2026)
+
+| Madde | Hüküm | Gerekçe |
+|---|---|---|
+| H-0023 | **sirada** | 9. kart `timar-sistemi-1432-1827` (tur `sebep-sonuc`) `data/ekokuma_p77c.js`e eklendi; dosya yükleyicide ZATEN bağlı (`app.js:10500`) — yeni satır gerekmez. Koşu 17 sürdüğü için yayın koordinatörde. |
+
+Kapsam (koordinatörün listesi, hepsi kartta): tımar nedir · dirlik/zeâmet/has farkı · sipahinin yükümlülüğü · cebelü hesabı · veriliş ve geri alınış · çözülüş · 1827 elli üç sancak.
+
+## Ölçüm — "1432" neyi tarihliyor (D211 ⑧)
+- TDV `timar` (Halil İnalcık, c.41 s.168-173): "835 (1432) tarihli **Arvanid Defteri**" ve "Daha 835 (1432) yılı civarında bu kanunlar tam olarak yürürlükteydi". ⇒ 1432 bir kuruluş günü DEĞİL, **günümüze ulaşan en eski icmal defterinin yılı**. Sisteme belgeli ilk atıf Orhan Bey dönemine gider.
+- TDV `cebelu` (Feridun Emecen): aynı defteri "**1431** tarihli" der. Çelişki DEĞİL: hicrî 835 ≈ Eylül 1431 – Ağustos 1432. Kart bunu açıkça anlatır.
+- TDV `timar`: 1827'de "Rumeli ve Anadolu'daki **elli üç sancaktan 5200 kadar** timarlı sipahi" Asâkir-i Mansûre süvarisine çevrildi — koordinatörün "53 sancak" ölçümü TDV'de birebir var.
+
+## Kaynaklar
+- CANLI: timar (37.029 kr.) · zeamet (Erhan Afyoncu) · sipahi (Erhan Afyoncu) · cebelu (Feridun Emecen)
+- BOŞ GÖVDE (tuzak ③): dirlik (yalnız tanım satırı)
+- ÖLÜ (302): has · kilic-timar
+
+## Bulunamadı
+- Kurumsallaşmanın gün/ayı — hiçbir kaynakta yok; yapısı gereği olamaz (süreç).
+- 1827 tasfiyesinin gün/ayı — TDV `timar` yalnız "1827" der.
+
+## Atlasa not (benim dosyam değil, hüküm vermedim)
+- Kronoloji maddeleri `1432-06-01` (OLAYLAR_EK14 "Tımar sisteminin kurumsallaşması") ve `1827-02-01` (OLAYLAR_EK5 "Tımar sisteminin tasfiyesi") **ay taşıyor**; okunan TDV maddeleri ikisinde de yalnız YIL veriyor. `§4` / `D213` gereği `YYYY-01-01` olmalı gibi görünüyor — kronoloji sahibi kaynağını kontrol etsin. Kartın `olay:` bağları bugünkü tarihlere bağlı; tarih düzelirse bağ da güncellenmeli.
+
+## Sınav
+`node denetim/ARAC-EKOKUMA-0077-C-OLAY.js` → kart 9 · bağ 29 · tutmayan 0 (yeni üç bağ: 1432-06-01 · 1827-02-01 · 1650-01-01 İltizam).
