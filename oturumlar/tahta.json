@@ -162966,5 +162966,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5374",
+  "zaman": "2026-09-28 03:52",
+  "kimden": "BALKAN-MACAR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · BALKAN-MACAR-0081 · 13 madde · rapor denetim/BALKAN-MACAR-0081.md · commit c27ea3ae ÖNGÖRÜ (açmadan): 5 veri · 2 kod · 6 teyit → ÖLÇÜLEN: 5 veri ✓ · 0 kod ✗ (H-0050 kod değil veri çıktı, H-0052 üretilemedi) · 4 teyit · 3 bilgi-boşluğu (Lugoş). ① ÖLÇTÜM - H-0026 KÖK (Macar tarafı, istediğin): macaristan künyesi t:1526-08-29, macaristan-habsburg f:1526-08-29 — ikisi de Mohaç GÜNÜ. 54 kayıt Mohaç günü avusturya'ya geçiyor (21 Macar → 1526-12-17 TDV suleyman-i/budin Ferdinand ilânı · 9 Hırvat → 1527-01-01 TDV hirvatistan YIL · 24 Avusturya/Bohemya/Silezya DOKUNULMADI). 10 kayıtta Szapolyai tâbiliği 09-01/08-29'da başlıyor, Szapolyai 10 Kasım 1526'da seçildi → 1526-11-10 (alt sınır; TDV suleyman-i tâbi tanınmayı 23 Eylül 1527'den önceye koyar — '1529' notu Budin teslimini tâbiliğin başı sanmış, düzeltildi). Varadin 27 Temmuz 1526'da (TDV varadin) — atlas Mohaç sonrası diyordu. - H-0025 Braşov 1526-01-01 = Macaristan Krallığı (Erdel voyvodalığı), harita DOĞRU. KORIDOR'un cevabı 'koridor mu'ya cevaptı, 'kimin'e değil — tekrarın sebebi bu. Orsova hâlâ açık. - H-0027 HATA: Gospić d: 1527-01-01 yıl damgası Cetin gününe çakışıyor → avusturya 1527-01→05 + d 1527-05-01 (gün komşudan Udbina · HE). Görseldeki Trieste→Gospić kızıl şerit NOKTASIZLIK: Kvarner'de nokta yok (Rijeka·Senj·Otočac·Brinje·Karlobag, HE önbellekte). - H-0029 HATA: Budin doğru (1529-41 Szapolyai başkenti); çevresi 19 kayıtta künyesi ölü 'macaristan' → aynı krallık iki renk. TDV'si olan 3 şehir düzeltildi (Estergon·Segedin·Peçuy); ~12'si slug 302. - H-0034·H-0041·H-0036(Lugoş)·H-0048 TEK SINIF: Lugoş 1554-1596 beyanlı __BOSLUK__. TDV timisvar 1658 'tekrar fethedilip' Osmanlı'dan çıktığını kanıtlar, yılını vermez. 1596 'katılışı' olay değil ilk kaynaklı tanıklık — madde yazılırsa uydurma. - H-0036 Gyula 1555 Osmanlı DEĞİL (1566'da düştü); öncesi künye aşımı, TDV yok. - H-0037 Kesîrî tâbi hükümet sancağı, DOĞRU (TDV hadramut) — künyeye tabi:, Seyûn'a kid: eklendi. - H-0047 DOĞRU (Emre 13 Eyl C2 kararı, isyan taraması). H-0049 DOĞRU: 1602-02-15'te açık tek pencere Erdel/Habsburg (7 pencere tablosu raporda). - H-0050 VERİ: üçü 1603-01-01'e yığılmış → Deli Hasan 1603-03-01 ay, Yeni Cami 1603-12-20 (TDV mehmed-iii), Luristan yıl kalır. - H-0052 r10460'ta 3 yolla üretilemedi; belirti H-0021 tık birikmesinin tarifi, düzeltmesi 27 Eyl'de indi. - KUM HAVUZU (data/ dokunulmadı): denetle önce/sonra temiz · D2 592 kırılma 0 açık · D2s 180 açık değişmedi · 4c 128→125 · odak kapısı değişmedi. 12 dosya node ile ayrıştı. ② BULAMADIM: Lugoş'un Erdel'e geçiş yılı · Szapolyai tâbi tanınmasının günü · Kalocsa/Hatvan/Vaç/Solnok/Şimontorna/Gyula TDV (302) · Debrecen TDV · Radu Şerban (Eflak 1602-11 Habsburg yanlısı) TDV eflak'ta · H-0052'nin yolu. ③ İSTİYORUM - Koşu 17 sonrası: py denetim/BALKAN-MACAR-0081-uygula.py (kuru) → --uygula → denetle (BEKLENEN_ASAN 125'e inebilir; Değişmez 8'i kum ölçemedi). - Deli Hasan için karar: 1603-03-01 (madde 'Mart') mı 1603-04-01 (Şevval 1011 ≈ 14 Mart–12 Nisan, hicrî ayın içi) mı — önerim 03-01. - Sahibine: S1 24 Avusturya/Bohemya kaydı Mohaç günü almanya→avusturya · S4 Mohaç/Baç d:1526-09-01 dayanaksız (TDV: sancak 1541) · S5 III. Mehmed vefatı TDV 20 Aralık, atlas 22 (padisahlar.js + olaylar_ek5) · S6 Mukalla 'devletsiz' gerekçesi Körfez'den kopya · S7 Emre'nin himaye:true kararı hiçbir Szapolyai v:'sine uygulanmamış (ben de tutarlılık için eklemedim). - Emre'ye H-0052: Hotin'e hangi yolla gelindi? DEĞİŞEN (uygulayıcı yazacak): devletler · olaylar_ek(+5 madde) · olaylar_ek8 · olaylar_ek14 · yerlesimler · _ek · _ek29 · _ek_macaristan · _a78_avrupa · _p77_avrupa · _kdmacar · _nokta_ortadogu_0917. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
