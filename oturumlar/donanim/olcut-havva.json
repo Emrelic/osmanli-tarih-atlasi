@@ -1,0 +1,157 @@
+{
+  "ag": {
+    "git_ls_remote_sn": 1.14,
+    "github_gecikme_ms": 126
+  },
+  "baslangic_yuk_yuzde": 13,
+  "bitis_yuk_yuzde": 10,
+  "cpu_cok_sn": null,
+  "cpu_sayisi": 8,
+  "cpu_tek_sicak_sn": 0.271,
+  "cpu_tek_soguk_sn": 0.324,
+  "disk_bos_gb": 345.8,
+  "disk_mb": 256,
+  "disk_oku_mbs": 1842,
+  "disk_yaz_mbs": 452,
+  "gurultu": 1.19,
+  "isi_kismasi": 0.84,
+  "kosu_puani": 156,
+  "kunye": {
+    "acik_sn": 1132502,
+    "agir_surecler": [
+      {
+        "ad": "Memory Compression",
+        "mb": 514
+      },
+      {
+        "ad": "explorer",
+        "mb": 318
+      },
+      {
+        "ad": "MsMpEng",
+        "mb": 316
+      },
+      {
+        "ad": "msedgewebview2",
+        "mb": 286
+      },
+      {
+        "ad": "WhatsApp.Root",
+        "mb": 237
+      },
+      {
+        "ad": "pythonw",
+        "mb": 225
+      },
+      {
+        "ad": "pythonw",
+        "mb": 222
+      },
+      {
+        "ad": "msedge",
+        "mb": 172
+      }
+    ],
+    "cekirdek": 4,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "diskler": [
+      {
+        "acik_saat": null,
+        "ad": "KIOXIA-EXCERIA SSD",
+        "asinma": null,
+        "gb": 466,
+        "okuma_hata": null,
+        "saglik": "Healthy",
+        "sicaklik": null,
+        "tip": "SSD",
+        "yazma_hata": null
+      }
+    ],
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "guc_plani": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Dengeli)",
+    "ip": "192.168.1.171",
+    "is_parcacigi": 8,
+    "kasa": "13",
+    "kayitlar": [
+      {
+        "ad": "isi_kismasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "beklenmedik_kapanma",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "donanim_hatasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "disk_hatasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "bellek_tukendi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "mavi_ekran",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      }
+    ],
+    "makine": "HAVVA",
+    "mhz_nominal": 2419,
+    "mhz_simdi": 2419,
+    "os": "Microsoft Windows 11 Home Single Language b26200",
+    "ram_bos_gb": 0.99,
+    "ram_gb": 7.75,
+    "ram_mhz": "3200",
+    "sql_server": {
+      "mb": 0,
+      "surec": 0
+    },
+    "takas_mb": 5888
+  },
+  "makine": "HAVVA",
+  "numpy_sn": null,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5",
+  "ram_gbs": null,
+  "ram_sn": null,
+  "saglik_hukmu": [
+    "⚠️ güç planı DENGELİ — koşu makinesinde 'Yüksek performans' daha iyi (masaüstünde bedeli yok)"
+  ],
+  "shapely_sn": null,
+  "sqlite_sn": 0.211,
+  "surum": "olcut-1",
+  "tekrar": 3,
+  "yayilim": {
+    "cpu_tek_sicak": 1.19,
+    "cpu_tek_soguk": 1.08,
+    "sqlite": 1.17
+  },
+  "zaman": "2026-09-28T14:57:03"
+}
