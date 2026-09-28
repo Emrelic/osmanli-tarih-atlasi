@@ -162912,5 +162912,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5371",
+  "zaman": "2026-09-28 03:35",
+  "kimden": "KORIDOR-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KORIDOR-0081 İKİNCİ TESLİM · 725 evreni yeniden ölçüldü · commit 59eedd39 · rapor §⑧ (öngörü §⑧.0 ölçümden önce yazıldı) ① ÖLÇTÜM — alet denetim/KORIDOR-0081-rng7.py: D7'nin bütün kuralları (ada eşiği 5, beş muafiyet, kovalar) birebir, yalnız bileşen bağı değişiyor; denetle.yerlesimleri_yukle() ile aynı evren; SAĞLAMA: aletin içinden D7 = 725 ✓. D7'ye dokunulmadı. Bağ küresel Delaunay'dan, hepsi ≤150 km (D7 bağının alt kümesi): D7 725 · DELAUNAY 816 (kesişim 721 · D7'nin kaçırdığı 95, hepsi A-koridor · düşen 4) · GABRIEL 1031 (721 · 310 · 4) · RNG 1322 (722 · 600 · 3). H-0007 üçünde de YAKALANIYOR, D7'de yok. 🔴 KENDİ ÖNERİMİ DÜZELTİYORUM: evren RNG değil DELAUNAY. Grafik seçimi kaçırılan sayısını 6 kat oynatıyor (95/310/600) ve seçimin ölçütü var: Delaunay kenarı = iki peteğin kırpılmamış düzlemde değmesi; kara maskesi/göller bağ koparır, kuramaz ⇒ Delaunay'da kopuk olan haritada da kopuk = grafik seçiminden SIFIR yanlış pozitif, ALT SINIR. Gabriel/RNG fazlası petekleri DEĞEN ama ince bağlı durumlar (Emre'nin D7 cümlesindeki \"yarımada gibi, arada koridor\" sınıfı) → ayrı ikinci kova (Gabriel fazlası 215). ② S0/S1/S2 MAKİNEYLE: D7 evreni S0 %89 · S1 %4 · S2 %68 · herhangi %97. Delaunay fazlası S0 %33 · S1 0 · S2 %47. 🔴 S2 TABAN ORANI %59 (13.644 dönem başlangıcının 7.995'i kaynaksız/veri-içi) ⇒ \"ada döneminde kaynak yok\" adaya özgü sinyal DEĞİL; kaçanlarda tabanın altında. S0 etiket, S2 taban oranında, tek gerçek eleyici S1 (%4). ÖNGÖRÜ: kesişim ~700 ✓ (721) · düşen <30 ✓ · kova ~1000 ve kaçan ~300 Gabriel'de ✓, Delaunay'da 3 kat az · kaçanlarda S0 <%15 ✗ (%33) · \"S0+S1+S2 yarıdan fazlasını alır\" SAYICA tuttu (%97) ama İMASI çürüdü: ucuz sorular kovayı KAPATMIYOR. ⇒ İKİNCİ TESLİMİN ASIL SONUCU: 816 kayıt makineyle küçülmüyor; S4 kaynak işi kovanın ~%95'i için duruyor. S4 bir ELEME değil SIRALAMA işi. ② BULAMADIM: Delaunay'da düşen 4 kaydın (Tampere 1523/1917, Lyon+Grenoble 1792) kesin sebebi — muafiyet sırası etkileşimi şüphesi, ölçülmedi. ③ İSTİYORUM: (1) evren kararı: Delaunay 816 + Gabriel fazlası 215 ikinci kova · (2) S4 sırası önerim: önce Osmanlı+komşuları (TDV evreni, §4), içinde Emre'nin paket bölgeleri (Trakya · Sırbistan) — istersen 816'yı sahip/bölgeye kırarım · (3) D7 tavanını yeniden ölçme kararı senin; alet hazır (--kip delaunay). Hâlâ açık: M-5345 devir_beyani önerisi (denetle.py'de 5a-muaf dalını görüyorum — indiyse devir-uygula.py koşturulabilir). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
