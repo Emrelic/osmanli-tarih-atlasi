@@ -1,34 +1,175 @@
 {
   "ag": {},
-  "baslangic_yuk_yuzde": 16,
-  "bitis_yuk_yuzde": 14,
-  "cpu_cok_sn": 0.269,
+  "baslangic_yuk_yuzde": 11,
+  "bitis_yuk_yuzde": 4,
+  "cpu_cok_sn": 0.268,
   "cpu_sayisi": 8,
-  "cpu_tek_sicak_sn": 0.77,
-  "cpu_tek_soguk_sn": 0.421,
-  "disk_bos_gb": 693.5,
+  "cpu_tek_sicak_sn": 0.741,
+  "cpu_tek_soguk_sn": 0.341,
+  "disk_bos_gb": 693.4,
   "disk_mb": 256,
   "disk_oku_mbs": null,
   "disk_yaz_mbs": null,
-  "gurultu": 1.54,
+  "gurultu": 2.0,
   "isi_kismasi": null,
-  "isi_kismasi_neden": "ortam gürültülü (yayılım 1.54) — makine boştayken yeniden ölç",
-  "kosu_puani": 107,
+  "isi_kismasi_neden": "ortam gürültülü (yayılım 2.0) — makine boştayken yeniden ölç",
+  "kosu_puani": 101,
+  "kunye": {
+    "acik_sn": 95988,
+    "agir_surecler": [
+      {
+        "ad": "python",
+        "mb": 3891
+      },
+      {
+        "ad": "claude",
+        "mb": 608
+      },
+      {
+        "ad": "msedgewebview2",
+        "mb": 442
+      },
+      {
+        "ad": "Memory Compression",
+        "mb": 298
+      },
+      {
+        "ad": "MsMpEng",
+        "mb": 265
+      },
+      {
+        "ad": "claude",
+        "mb": 264
+      },
+      {
+        "ad": "claude",
+        "mb": 262
+      },
+      {
+        "ad": "WhatsApp.Root",
+        "mb": 216
+      }
+    ],
+    "cekirdek": 4,
+    "cpu": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+    "diskler": [
+      {
+        "acik_saat": null,
+        "ad": "ST2000LM007-1R8174",
+        "asinma": null,
+        "gb": 1863,
+        "okuma_hata": null,
+        "saglik": "Healthy",
+        "sicaklik": null,
+        "tip": "HDD",
+        "yazma_hata": null
+      },
+      {
+        "acik_saat": null,
+        "ad": "Samsung SSD 870 EVO 1TB",
+        "asinma": null,
+        "gb": 932,
+        "okuma_hata": null,
+        "saglik": "Healthy",
+        "sicaklik": null,
+        "tip": "SSD",
+        "yazma_hata": null
+      }
+    ],
+    "gpu": "Intel(R) UHD Graphics 620 + NVIDIA GeForce MX150",
+    "guc_plani": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Dengeli)",
+    "ip": "192.168.1.164",
+    "is_parcacigi": 8,
+    "kasa": "10",
+    "kayitlar": [
+      {
+        "ad": "isi_kismasi",
+        "agir": 0,
+        "ilk": "2026-05-26T08:26:12",
+        "sayi": 158,
+        "son": "2026-09-28T10:16:26",
+        "ustsinir": false
+      },
+      {
+        "ad": "beklenmedik_kapanma",
+        "agir": 5,
+        "ilk": "2026-07-05T16:01:50",
+        "sayi": 5,
+        "son": "2026-09-19T09:56:11",
+        "ustsinir": false
+      },
+      {
+        "ad": "donanim_hatasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "disk_hatasi",
+        "agir": 2,
+        "ilk": "2026-08-07T22:49:20",
+        "sayi": 425,
+        "son": "2026-09-27T16:45:16",
+        "ustsinir": false
+      },
+      {
+        "ad": "bellek_tukendi",
+        "agir": 0,
+        "ilk": "2026-08-24T17:42:35",
+        "sayi": 13,
+        "son": "2026-09-27T16:44:56",
+        "ustsinir": false
+      },
+      {
+        "ad": "mavi_ekran",
+        "agir": 1,
+        "ilk": "2026-09-19T09:56:18",
+        "sayi": 1,
+        "son": "2026-09-19T09:56:18",
+        "ustsinir": false
+      }
+    ],
+    "makine": "EMRELIC",
+    "mhz_nominal": 1800,
+    "mhz_simdi": 1600,
+    "os": "Microsoft Windows 11 Home Single Language b26200",
+    "ram_bos_gb": 1.54,
+    "ram_gb": 11.88,
+    "ram_mhz": "2133",
+    "sql_server": {
+      "mb": 0,
+      "surec": 0
+    },
+    "takas_mb": 35463
+  },
   "makine": "Emrelic",
-  "numpy_sn": 0.275,
+  "numpy_sn": 0.313,
   "platform": "Windows-11-10.0.26200-SP0",
   "python": "3.13.8",
-  "shapely_sn": 0.223,
-  "sqlite_sn": 0.436,
+  "ram_gbs": 3.6,
+  "ram_sn": 0.414,
+  "saglik_hukmu": [
+    "🔴 5 beklenmedik kapanma (olay 41 · son 2026-09-19T09:56:11 · ilk 2026-07-05T16:01:50) — 6 saatlik koşu her seferinde ölebilir",
+    "🔴 1 mavi ekran (olay 1001 · son 2026-09-19T09:56:18 · ilk 2026-09-19T09:56:18)",
+    "🔴 2 disk HATASI (kritik+hata · son 2026-09-27T16:45:16 · ilk 2026-08-07T22:49:20) — koşu 509 MB önbellek + 1,9 GB çıktı yazıyor; bozuk disk sessiz veri kaybıdır",
+    "⚠️ 13 bellek tükenmesi (olay 2004 · son 2026-09-27T16:44:56 · ilk 2026-08-24T17:42:35)",
+    "⚠️ 158 ISI KISMASI (Kernel-Processor-Power 37 · son 2026-09-28T10:16:26 · ilk 2026-05-26T08:26:12) — uzun koşuda hız düşer",
+    "⚠️ güç planı DENGELİ — koşu makinesinde 'Yüksek performans' daha iyi (masaüstünde bedeli yok)"
+  ],
+  "shapely_sn": 0.31,
+  "sqlite_sn": 0.454,
   "surum": "olcut-1",
   "tekrar": 3,
   "yayilim": {
-    "cpu_cok": 1.28,
-    "cpu_tek_sicak": 1.04,
-    "cpu_tek_soguk": 1.11,
-    "numpy": 1.38,
-    "shapely": 1.54,
-    "sqlite": 1.04
+    "cpu_cok": 1.65,
+    "cpu_tek_sicak": 1.1,
+    "cpu_tek_soguk": 2.0,
+    "numpy": 1.07,
+    "ram": 1.08,
+    "shapely": 1.1,
+    "sqlite": 1.36
   },
-  "zaman": "2026-09-28T11:40:40"
+  "zaman": "2026-09-28T12:54:52"
 }
