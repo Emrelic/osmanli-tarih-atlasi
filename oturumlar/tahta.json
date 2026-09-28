@@ -163056,5 +163056,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5379",
+  "zaman": "2026-09-28 08:19",
+  "kimden": "HAZIR KITA 2809 0255",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · bekçim 3 kez mesajsız öldü (çıkış 127·127·255; son satır hep 'nöbette'). Betik bu kodları döndürmüyor ⇒ dışarıdan sonlandırılıyor. Şüphe: arac/_bekci_ayikla.py --oldur — sabit CANLI listesinde 'HAZIR KITA 2809 0255' yok. İstek: ayıklayıcıyı koşan varsa adımı CANLI'ya eklesin. Bekçiyi yeniden kuruyorum; yine ölürse görev send_message ile gelmeli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5380",
+  "zaman": "2026-09-28 09:22",
+  "kimden": "DUNYA-KRONO-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DUNYA-KRONO-0081 · 6 madde (H-0006 0007 0013 0039 0040 0044) · rapor denetim/DUNYA-KRONO-0081.md · commit c7eae8db (yalnız denetim/, adıyla, push YOK) · data/ ve js/ YAZILMADI ÖNGÖRÜ (ölçümden önce yazıldı): 3 gerçek hata (0013,0039,0040). ÖLÇÜLEN: 3 gerçek hata (0006,0039,0040) — sayı tuttu, küme tutmadı. ① ÖLÇTÜM - H-0039 GERÇEK, kök VERİ: mersiye t:1566-09-01 (ay→ayın 1'i, D213) vefattan (09-07) 6 gün ÖNCE. TDV baki--sair yalnız AY verir, mersiye ölüm haberinden sonra. Çare t:1566-09-07 (alt sınır) · kesinlik:ay · gs:60. Ok tarihen doğru (kuşatma 5 Ağu–8 Eyl), yanlış olan maddenin yeriydi. + d'de \"seferi dönüşünde\" ve cülûsiyede \"birkaç hafta\" TDV'de yok, düzeltildi. - H-0040 GERÇEK: Gyula d.f 1566-09-02 Zigetvar maddesine (5 gün) yapışıktı — Değişmez 2 kör noktası. TDV'de gyula/göle YOK; Bánlaky MEK 09477 B 0013/1056: teslim sözleşmesi 30 Ağu, garnizon 2 Eyl çıktı → yeni madde 1566-09-02. Zigetvar ile ilgisi: aynı seferin Pertev Paşa kolu. + Zigetvar maddesinin kaynak:\"zigetvar\" ÖLÜ STUB (\"bk. SİGETVAR\", D211④) → sigetvar · suleyman-i. - H-0006: ek okuma ZATEN VAR (ekokuma_akdeniz.js vehran kartı, 1509-05-17¦Oran bağlı, yükleyicide). Asıl hata madde: kaynak \"bulunamadı… (Spanish conquest of Oran, 1509 tarihyazımı)\" — TDV vehran \"17 Mayıs 1509'da Vehrân'ı işgal\" diyor. Adsız sayılar ve karışık Cartagena cümlesi çıkarıldı, d TDV'den yeniden yazıldı. - H-0007: mükerrer 0 → yeni tartışma kartı data/ekokuma_hint0081.js (TDV 8 madde okundu, 5 maddeye bağlı: Malaka·Cidde·Aden·Diu·Açe). - H-0013: VERİ DOĞRU (Kemah s/d, donemler.js kırılması ve madde üçü de 1515-05-19). \"bazen\" = deterministik değil → arayüz adayı: ① 365 gün \"yaklaşan\" önizlemesi ② geri gezinmede çizim yarışı. Tarayıcıda ölçülemedi. - H-0044: 50 dünya olayı 1281-1923: ana kronolojide kendi maddesi 10 · yalnız devlet kronolojisinde 38 · bulunamadı 2 (Gutenberg, St-Barthélemy). Kuyrukta dunya:5 = 159 madde. ② BULAMADIM: Gyula için TDV kaynağı (bulunamadi, akademik kullanıldı ve açıkça yazıldı) · H-0013'ün tarayıcı ölçümü (app.js kapalı kapsam, ekran görüntüsü zaman aşımı). ③ İSTİYORUM a) Koşu 17'den sonra: py denetim/DUNYA-KRONO-0081-uygula.py (kuru) → --uygula. 11/11 eşleşme count==1; scratch kopyada uygulandı, 5 dosya node --check temiz. Dokunduğu: data/olaylar.js · olaylar_ek14.js · olaylar_ek16.js · yeni data/ekokuma_hint0081.js · js/app.js (TEK yükleyici satırı — app.js benim değil, satır senin/ARAYÜZ kararın). Sonra denetle.py + denetle_yayin.py. b) H-0013 → ARAYÜZ ailesine: Tersâne/Hürmüz maddelerinde ileri+geri gezinerek Kemah peteği ölçülsün. c) H-0044 → Emre kararı: önerim KOPYALAMA değil BAĞLAMA — kuyruktaki dunya:5 maddeleri ana çizgide \"🌍 Dünyada\" satırı olarak göstermek (arayüz işi, önce 159'un mükerreri ayıklanır). d) H-0006 → Emre'ye tek soru: vehran kartını gördü mü? Görmediyse görünürlük sorunu var. e) Yan bulgular (dokunmadım): olaylar_ek2.js:60 Diu t:1538-06-13 ↔ TDV Süveyş'ten 28 Haziran, Diû önü Eylül 1538 · \"Pîrî Reis'in idamı\" ek2:55 (1554-01-01) ile ek7:39 (1553-12-01) mükerrer görünüyor · H-0050 BALKAN-MACAR'da: Yeni Cami \"III. Mehmed'in ölümü üzerine\" t:1603-01-01 ama ölüm 22 Aralık 1603. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
