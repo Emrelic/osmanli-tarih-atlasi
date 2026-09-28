@@ -136,7 +136,17 @@ def _cpu_cok(np, isci):
     paralelden gerçek kazanç alıyor, çünkü shapely/numpy GIL'i BIRAKIYOR.
     Yanlış vekil seçmek, ölçmemekten kötüdür: sayı verir ve yanlış yönlendirir.
     """
+    # 🔴 İŞ MİKTARI SABİT — 8 PARÇA, iş parçacığı sayısı NE OLURSA OLSUN.
+    # İlk sürüm `ex.map(_is, range(isci))` yazıyordu: görev sayısı = işçi
+    # sayısı ⇒ 8 iş parçacıklı makine 8 birim iş yapıyor, 4 iş parçacıklı
+    # makine YALNIZ 4 BİRİM. Ölçüm makineleri kıyaslamıyor, her makineye
+    # KENDİ boyunda bir sınav veriyordu — ve az çekirdekliyi haksız
+    # ödüllendiriyordu. Ölçülen sonuç: KASA (4 iş parçacığı) 0,14 sn ile
+    # UMIT'in (8 iş parçacığı) 0,134'üne neredeyse eşit göründü; oysa
+    # yarısı kadar iş yapmıştı.
+    # ⇒ Sabit 8 parça: her makine AYNI işi yapar, fark paralellikten gelir.
     from concurrent.futures import ThreadPoolExecutor
+    PARCA = 8
     a = np.random.random(2_000_000)
 
     def _is(_):
@@ -144,7 +154,7 @@ def _cpu_cok(np, isci):
             np.sqrt(a).sum()
 
     with ThreadPoolExecutor(max_workers=isci) as ex:
-        list(ex.map(_is, range(isci)))
+        list(ex.map(_is, range(PARCA)))
 
 
 def _ram_is(np):
@@ -708,8 +718,26 @@ def tablo():
     if not kayit:
         print("🔴 ölçüt dosyası yok.")
         return 1
+    # 🔴 PUANLAR KARŞILAŞTIRILABİLİR Mİ — sorulmadan basılırsa YANILTIR.
+    # Kusur ölçüldü (28 Eylül 2026): `_puan` ölçülemeyen ölçütü puana
+    # KATMIYOR (doğrusu bu — eksik kütüphaneyi 0 saymak yanlış olurdu). Ama
+    # sonuç şu: shapely'si olmayan makine 25 puanlık kalemi HİÇ vermiyor ve
+    # kalan kalemler üzerinden yüzdeleniyor. UMIT 178, Emrelic 153 çıktı —
+    # ama UMIT'in 178'i shapely'siz, Emrelic'in 153'ü shapely'li hesaplandı.
+    # İKİ AYRI SINAVIN NOTU YAN YANA KONMUŞ. ⇒ Tablo bunu artık SÖYLÜYOR.
+    olculen = [set(a for a in ("cpu_tek_soguk_sn", "numpy_sn", "cpu_cok_sn",
+                               "shapely_sn", "sqlite_sn", "disk_yaz_mbs",
+                               "disk_oku_mbs") if r.get(a)) for r in kayit]
+    ortak = set.intersection(*olculen) if olculen else set()
+    hepsi = set.union(*olculen) if olculen else set()
     kayit.sort(key=lambda x: -(x.get("kosu_puani") or 0))
     print("═══ %d MAKİNE · KOŞU PUANI (EMRELIC = 100) ═══\n" % len(kayit))
+    if ortak != hepsi:
+        print("🔴 PUANLAR KARŞILAŞTIRILABİLİR DEĞİL: her makinede ölçülen")
+        print("   ölçüt kümesi AYNI DEĞİL. Bütün makinelerde ölçülen: %s"
+              % (", ".join(sorted(ortak)) or "YOK"))
+        print("   Eksik olanlar puana katılmadı ⇒ farklı sınavların notları.")
+        print("   ⇒ Sıralamayı PUANDAN değil, aşağıdaki HAM ölçütlerden oku.\n")
     print("%-12s %5s %7s %7s %7s %8s %6s %7s"
           % ("makine", "PUAN", "cpu1", "cpuN", "shapely", "diskYaz", "ısı", "sqlite"))
     print("-" * 70)
@@ -725,7 +753,17 @@ def tablo():
                if not r.get(a)]
         if eks:
             print("   %-12s eksik: %s" % (r.get("makine"), ", ".join(eks)))
+    gur = [(r.get("makine"), r.get("gurultu")) for r in kayit
+           if (r.get("gurultu") or 0) > 1.5]
+    if gur:
+        print("\n🔴 GÜRÜLTÜLÜ ÖLÇÜM — bu makinelerin sayıları GÜVENİLMEZ, "
+              "makine boştayken yeniden ölçülmeli:")
+        for m, g in gur:
+            print("   %-12s yayılım %s" % (m, g))
     print("\n⚠️ PUAN bir HÜKÜMDÜR (ağırlıklar seçildi), ham ölçütler JSON'da.")
+    print("⚠️ `cpu_cok` 28 Eylül'e kadar HATALIYDI (iş miktarı iş parçacığı "
+          "sayısıyla ölçekleniyordu, az çekirdekliyi ödüllendiriyordu).")
+    print("   Düzeltildi; o sütun için ÖLÇÜM YENİLENMELİ.")
     return 0
 
 
