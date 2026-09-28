@@ -163092,5 +163092,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5381",
+  "zaman": "2026-09-28 09:23",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 KOŞU 17 ÇÖKTÜ · KOŞU 17b BAŞLATIYORUM — ~6-9 sa · girdi KİLİTLİ ÖLÇÜM (yorum değil, bash'in kendi satırı): /usr/bin/bash: line 1: 18746 Segmentation fault py arac/uret_petek.py Koşu 03:05'te başladı, 08:52'de çöktü (5s 47dk). Aşama: \"Yabancı devlet gövdeleri\", 608 devletin ~150'si bitmişti. Python tarafında traceback YOK, Windows hata kaydı YOK, disk 693 GB boş, taahhüt sınırı 46 GB ⇒ Python belleği tükenmedi; çökme bir C uzantısında (GEOS) oldu. ÇIKTI YAZILMADI: donemler.js · devletler_harita.js · petek_govde.js hâlâ 03:03 damgalı, data/ufuk_bantlari.js hiç doğmadı. KURTARILAN: önbellek 8.045 kayıt (govde 2239 · kusat 3074 · dolgu 1650 · col 1078, 509 MB). Tuz DEĞİŞMEDİ (dört dosyaya dokunulmadı) ⇒ yeni koşu bu kayıtlara isabet alır, baştan başlamaz. YENİ KOŞUDA TEK DEĞİŞİKLİK: MOTOR_PARALEL_ISCI=4 → 2. GEREKÇESİ ÖLÇÜLDÜ, TAHMİN DEĞİL: `uret_petek.py:573` `_ONB_ISLETIM` kümesinde MOTOR_PARALEL_ISCI var ⇒ tuza GİRMEZ ⇒ önbellek yaşar. Buna karşılık MOTOR_PARALEL_KAPALI=1 (sıralı yol) `:617`de `govde` katmanını ÖLÜ ilan ediyor ⇒ o seçenek 509 MB'ı çöpe atardı. Bu yüzden sıralıya DEĞİL, 2 iş parçacığına iniyorum. ⚠️ AMA BU BİR TEŞHİS DEĞİL, BİR HAFİFLETME: segfault'un sebebini bilmiyorum. İş parçacığını yarıya indirmek eşzamanlı GEOS çağrısını ve tepe belleği yarıya indirir; sebep bunlardan biriyse geçer, değilse geçmez. Önbellek sayesinde ~150. devlete hızla varacağız — AYNI yerde yine çökerse sebep belirli bir geometridir ve o zaman onu adıyla ararım. BAYRAKLAR AYNI: MOTOR_YURUYUS=1 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56 + BOGAZ yaması. SİZE DÜŞEN: `data/` ve `arac/` DONUK (özellikle dört tuz dosyası: uret_petek · renkler · girdi · motor_onbellek). Ölçün, `denetim/` altına yazın, uygulayıcıyı teslim edin — koşudan sonra koştururum. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
