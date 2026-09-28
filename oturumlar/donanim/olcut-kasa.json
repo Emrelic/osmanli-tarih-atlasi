@@ -1,0 +1,163 @@
+{
+  "ag": {
+    "git_ls_remote_sn": 1.12,
+    "github_gecikme_ms": 123
+  },
+  "baslangic_yuk_yuzde": 2,
+  "bitis_yuk_yuzde": 1,
+  "cpu_cok_sn": 0.14,
+  "cpu_sayisi": 4,
+  "cpu_tek_sicak_sn": 0.559,
+  "cpu_tek_soguk_sn": 0.557,
+  "disk_bos_gb": 10.7,
+  "disk_mb": 256,
+  "disk_oku_mbs": 1600,
+  "disk_yaz_mbs": 165,
+  "gurultu": 3.29,
+  "isi_kismasi": null,
+  "isi_kismasi_neden": "ortam gürültülü (yayılım 3.29) — makine boştayken yeniden ölç",
+  "kosu_puani": 119,
+  "kunye": {
+    "acik_sn": 256,
+    "agir_surecler": [
+      {
+        "ad": "MsMpEng",
+        "mb": 356
+      },
+      {
+        "ad": "msedgewebview2",
+        "mb": 276
+      },
+      {
+        "ad": "Medicine",
+        "mb": 222
+      },
+      {
+        "ad": "WhatsApp.Root",
+        "mb": 217
+      },
+      {
+        "ad": "SearchApp",
+        "mb": 216
+      },
+      {
+        "ad": "sqlservr",
+        "mb": 173
+      },
+      {
+        "ad": "MicrosoftSecurityApp",
+        "mb": 155
+      },
+      {
+        "ad": "explorer",
+        "mb": 144
+      }
+    ],
+    "cekirdek": 4,
+    "cpu": "Intel(R) Core(TM) i5-3330 CPU @ 3.00GHz",
+    "diskler": [
+      {
+        "acik_saat": null,
+        "ad": "SanDisk SDSSDA240G",
+        "asinma": null,
+        "gb": 224,
+        "okuma_hata": null,
+        "saglik": "Healthy",
+        "sicaklik": null,
+        "tip": "SSD",
+        "yazma_hata": null
+      }
+    ],
+    "gpu": "Intel(R) HD Graphics",
+    "guc_plani": "Power Scheme GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Y�ksek performans)",
+    "ip": "192.168.1.169",
+    "is_parcacigi": 4,
+    "kasa": "3",
+    "kayitlar": [
+      {
+        "ad": "isi_kismasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "beklenmedik_kapanma",
+        "agir": 92,
+        "ilk": "2026-05-05T10:24:31",
+        "sayi": 92,
+        "son": "2026-09-28T14:40:33",
+        "ustsinir": false
+      },
+      {
+        "ad": "donanim_hatasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "disk_hatasi",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      },
+      {
+        "ad": "bellek_tukendi",
+        "agir": 0,
+        "ilk": "2026-05-05T23:45:35",
+        "sayi": 7,
+        "son": "2026-09-03T02:13:37",
+        "ustsinir": false
+      },
+      {
+        "ad": "mavi_ekran",
+        "agir": 0,
+        "ilk": null,
+        "sayi": 0,
+        "son": null,
+        "ustsinir": false
+      }
+    ],
+    "makine": "KASA",
+    "mhz_nominal": 2993,
+    "mhz_simdi": 2993,
+    "os": "Microsoft Windows 10 Enterprise b19045",
+    "ram_bos_gb": 11.37,
+    "ram_gb": 15.9,
+    "ram_mhz": "1333",
+    "sql_server": {
+      "mb": 173,
+      "surec": 1
+    },
+    "takas_mb": 2000
+  },
+  "makine": "KASA",
+  "numpy_sn": 0.179,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.14.0",
+  "ram_gbs": 5.5,
+  "ram_sn": 0.271,
+  "saglik_hukmu": [
+    "🔴 92 beklenmedik kapanma (olay 41 · son 2026-09-28T14:40:33 · ilk 2026-05-05T10:24:31) — 6 saatlik koşu her seferinde ölebilir",
+    "⚠️ 7 bellek tükenmesi (olay 2004 · son 2026-09-03T02:13:37 · ilk 2026-05-05T23:45:35)",
+    "🔴 SQL SERVER ÇALIŞIYOR: 1 süreç · 173 MB RAM. Koşu ~4 GB istiyor; SQL Server tampon havuzunu BIRAKMAZ ⇒ bu makinede koşu ancak SQL Server boştayken (gece) mantıklı"
+  ],
+  "shapely_sn": null,
+  "sqlite_sn": 0.754,
+  "surum": "olcut-1",
+  "tekrar": 3,
+  "yayilim": {
+    "cpu_cok": 1.52,
+    "cpu_tek_sicak": 1.01,
+    "cpu_tek_soguk": 1.03,
+    "numpy": 2.81,
+    "ram": 1.05,
+    "sqlite": 3.29
+  },
+  "zaman": "2026-09-28T14:44:39"
+}
