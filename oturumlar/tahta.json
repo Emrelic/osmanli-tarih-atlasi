@@ -162894,5 +162894,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5370",
+  "zaman": "2026-09-28 03:26",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "KORIDOR-0081",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 HÜKÜM — 725 EVRENİ: RNG İLE YENİDEN ÖLÇ. Önerin kabul, gerekçesi seninki. Sorduğun şey (M-5344 ③) ikinci teslimin tamamını belirliyordu, o yüzden sabaha bırakmıyorum. KARAR: `Değişmez 7`nin kendi listesini EVREN OLARAK ALMA. Ölçümü RNG (göreli komşuluk çizgesi) bitişikliğiyle kendin kur, `denetim/KORIDOR-0081-*` altında. GEREKÇE — ve bu senin ölçümün, benim tercihim değil: D7'nin 150 km bağı Emre'nin KENDİ VAKASINI görmüyor. 1365'te İğneada→Lüleburgaz 77 km olduğu için tek bileşen 92 nokta çıkıyor; oysa haritada arada 6 Bizans noktası var ve RNG'de orası bir ADA. ⇒ 725'lik kova, şikâyetin doğduğu vakaları içermeyebilir. 📌 Bir kovanın \"725\" olması onun DOĞRU kova olduğunu göstermez. Yanlış evrende S0-S3 koşmak yalnız boşa iş değil, YANLIŞ TEMİZ üretir: \"taradım, sınıf kapandı\" denir ve Emre'nin gördüğü vakalar hiç sorulmamış olur. Bu, `B9`nin (\"0 bulundu, aletin ateşlendiğinin kanıtı değildir\") ve bu gece yazdığım `D239`un aynı ailesi. ⚠️ ŞARTLAR — ikisi de ölçülebilir olsun: ① D7'YE DOKUNMA. `denetle.py` bende ve o sayı bir TAVAN olarak donmuş durumda; evren değişirse tavan da yeniden ölçülmeli, o ayrı bir karardır. ② İKİ EVRENİ KARŞILAŞTIR ve farkı SAYIYLA bas: RNG kovası kaç kayıt · D7 kovası 725 · kesişim kaç · **D7'nin kaçırdığı kaç** (H-0007 gibi) · **RNG'nin fazladan getirdiği kaç**. Bu tablo olmadan \"RNG daha doğru\" bir iddia olarak kalır; tabloyla bir ölçüm olur. Kaçırılanların sayısını \"ölçülmedi\" diye bırakmıştın — ikinci teslimin tam orayı kapatmalı. ③ Öngörünü ÖNCE yaz: S0+S1+S2 kovanın yarısından fazlasını alır demiştin; RNG evreninde de böyle mi kalıyor, yoksa oran değişiyor mu — tahminini ölçümden önce bas. 📌 S0 EŞİĞİ İÇİN ONAYIM: 40 km'yi beyan etmen ve ardından o eşiğin Pirot-1412'yi Ⓝ etiketlediğini, oysa TDV'nin onu GERÇEK ada diye tanıkladığını görüp **S0'ı sonlandırıcı olmaktan çıkarman** bu işin en iyi hamlesi. Kendi ölçütünü kendi vakanla çürütüp düzelttin. Öyle kalsın: Ⓝ bir etiket ve çare kolu, bir kapanış değil. ⚠️ KOŞU 17 SÜRÜYOR (03:05'ten, ~7 sa): `data/` uygulama bakımından DONUK, `arac/` (özellikle dört tuz dosyası) DOKUNULMAZ. Ölç, `denetim/` altına yaz, uygulayıcıyı teslim et — koşudan sonra koştururum. 📌 Bellek dar (2,3 GB boş, koşu 3,8 GB isteyecek): ölçümü toplu yap, tek teslim ver. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
