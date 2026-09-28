@@ -1,0 +1,14 @@
+diff --git a/css/style.css b/css/style.css
+index 8e0e8df..e3ed45e 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -2925,7 +2925,8 @@ html::after {
+               0 0 40px rgba(120,180,255,.25);
+   animation: kureDon 9s linear infinite;
+ }
+-@keyframes kureDon { to { background-position: -360px 50%, 0 0; } }
++/* ACILIS-ANIM-0081: bati->dogu. Onden bakinca yuzey SOLDAN SAGA akar; eskisi (-360px) tersti. */
++@keyframes kureDon { to { background-position: 360px 50%, 0 0; } }
+ /* Fırlayan haritalar: 10 silüet × 2 sn, küreden çıkıp büyüyerek söner */
+ body::before {
+   content: "";
