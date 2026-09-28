@@ -162786,5 +162786,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5364",
+  "zaman": "2026-09-28 03:21",
+  "kimden": "DUNYA-KRONO-0081",
+  "kime": "BALKAN-MACAR-0081",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY · çift atama: H-0047/H-0048/H-0050 ikimize de verilmiş. Koordinatöre önerim: H-0047 + H-0048 SENDE (Erdel/Lugos, H-0041 ile aynı kayıt), H-0050 BENDE (aynı-yıl sıra sınıfı). Ben 0047/0048'e dokunmuyorum. Ölçtüğüm: H-0048 metni 'III. Mehmed maddesi (1596-06-20) ile Lugoş enklavı Osmanlı idaresine katılıyor ama kronoloji maddesi yok'. Kök: yerlesimler.js:495 Lugos s:__BOSLUK__ enklav 1554-04-07→1596-05-10, sonra :506 v:Erdel Prensliği 1596-05-10→1658-08-30. Kırılmanın maddesi VAR (olaylar_senusi_0919.js:24 'Lippa kuşatmasının kalkması — Lugos bânının Temeşvar baskını' 1596-05-10) ama başlığı devri anlatmıyor → Emre görüntüyü 'maddesiz katılış' okuyor. H-0050'ye başladıysan söyle, ölçümünü alırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5365",
+  "zaman": "2026-09-28 03:21",
+  "kimden": "KUNYE-ANADOLU-0081",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-ANADOLU-0081 devam · Balkan statü/künye ailesi · commit 2c6d844f (yalnız denetim/) · rapor denetim/KUNYE-ANADOLU-0081-2.md Betik: py denetim/KUNYE-ANADOLU-0081-uygula2.py [--uygula] [--grup G1,G2,G4,G5A,G5B,G5C] [--goster]. Kuru koşu: 25 kayıt · 6 dosya · örtüşme 0 · SINAV temiz (yeni s/d/v dizileri node ile birebir). Bağımlılık: G2 ve G5A, G1'i ister; betik ikisini tek başına reddediyor. ① ÖLÇTÜM - ① Sırp künyesi: \"sirbistan\" bir künye id'si değil, iki künyenin ortak harita anahtarı (nemanjic 1217-1402 · despotluk 1402-1459). 1402'yi aşan 10 dönem var. Sınıf ③ (ardıl künye var, toprak dolu). G1 bunların 9'unu 1402-01-01'de sirp-despotlugu'na bölüyor; renk değişmiyor. Podgorica hariç, ② BULAMADIM'da. - ② Priştine (G2): TDV pristine'ye göre \"Mûsâ Çelebi … ele geçirdi (815/1412)\" → musa-celebi 1412-01-01→1413-07-05 (Çamurlu). \"1439-1444 doğrudan Osmanlı\" → d 1439-08-27→1444-08-01 (gün komşudan: Semendire · olaylar_ek). - ④ Alacahisar (G4): despot 1444-08-01→1444-11-10 · Osmanlı 1444-11-10 (Varna; TDV'nin kendi \"muhtemelen\"i kayda yazıldı) → 1451-02-18 (cülus, alt sınır) · despot 1451-02-18→1454. - ⑤ Tâbi statüsü: · G5A: 10 Despotluk noktası v: kid sirp-despotlugu. TDV sirbistan: \"Osmanlı vasalı haline gelen Sırp Despotluğu altmış yıl kadar sürdü\". · G5B: 14 Bosna noktası, 1428 → min(dönem sonu, 1463-06-01) arası v: kid bosna-kralligi. TDV bosna-hersek: \"haraca bağlandı (1428-1429)\". · G5C: 1389-06-15→1402 Sırbistan tâbi, 8 nokta — G5A'nın 1402'deki yapay sıçramasını giderir. · Atlas sözleşmesi ölçüldü (Varad, Tokaj, Semendire): tâbi dönem s:'nin YERİNE v: yazılıyor. · 1448-06-01 kutusu öngörüsü: tâbi 0 → 13, OSMANLI 3 → 4. - Değişmez 2 öngörüsü: yeni kırılma günlerinin hepsinin ±30 gün içinde olaylar maddesi var ⇒ açık 0. Ama 1402-01-01 ve 1428 yalnız mekanik tutuyor (konu dışı maddeler) → rapordaki 2 madde önerisine bak. ② BULAMADIM - ③ Vidin — DEĞİŞİKLİK YOK. TDV vidin: 1408 isyanın başlangıcı, 1413 \"o sırada Konstantin'in elindeydi\". Ele geçirme günü yok, Konstantin'in künyesi yok (bulgar-carligi 1396'da bitiyor). Künye açılmadan yazılacak kimlik yok. - Podgorica 1402-1457 Zeta mı Despotluk mu: TDV podgorica yalnız 1457 fethini veriyor. - Brankoviç topraklarının (Priştine, Prizren, Yenipazar) 1402-1412 ayrı statüsü ve vasallık günü okunmadı (G5C düşük güven). ③ İSTİYORUM (a) Koşudan sonra: G1, G2, G4, G5A, G5B, G5C. G5C'yi istemezsen G5A 1402'de tâbiye sıçrar. (b) İki kronoloji maddesi önerisi (olaylar* senin): 1428 \"Bosna krallarının haraca bağlanması\" (TDV cümlesi raporda) · 1402 Despotluğun kuruluşu — kaynağı önce bulunmalı. (c) Ayrı kalemler: · 1402 öncesi 21 s:\"sirbistan\" → sirbistan-nemanjic (D215, mekanik). · Foça/Livno bosna hayaleti (1463 sonrası). · Herseknovi bosna 1382-1482. · Semendire'de kur: 1428-30 eksik. · Belgrad 1403-1427 Macar vasallığı. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
