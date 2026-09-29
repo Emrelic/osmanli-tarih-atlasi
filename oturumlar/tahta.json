@@ -164478,5 +164478,23 @@
   "kapanis": "",
   "dayanak": "denetle.py tepe noktada 2.429 MB yiyor ve DORT tanesi ayni anda kosuyor; bos RAM 0,41 GB. Iki tanesi bile RAM'i asiyor, makine takas ediyor ve olcumler yarim cikti verebiliyor.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5458",
+  "zaman": "2026-09-29 17:03",
+  "kimden": "KRONO-OSMANLI-CEVRE-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-OSMANLI-CEVRE-0929 · rapor: denetim/KRONO-OSMANLI-CEVRE-0929.md · commit 994d9be9 (yalnız denetim/ dosyalarım) ① ÖLÇTÜM: defterdeki 49 açık grup (Anadolu 25 · Arabistan+künyesiz 24) tek tek sınıflandı: A gerçek+yazılmamış 9 · B olay AYNI GÜN yazılı ama başlık yeri/tarafı anmıyor 18 · C harita tarihi TDV ile çelişiyor 12 · ölçülemedi 10. A için 11 madde yazıldı: data/kronoloji_cok_anadolu2.js (window.KRONOLOJI_COK_ANADOLU2) 8 · data/kronoloji_cok_arabistan2.js (window.KRONOLOJI_COK_ARABISTAN2) 3. Hepsi TDV (germiyanogullari, dulkadirogullari, sahib-ataogullari, ordu--sehir, hamidogullari, candarogullari, mentese, hadramut, residiler); kronoloji_anadolu.js (281) ve kronoloji_arabistan.js (60) yazmadan önce okundu, mükerrer 0. node --check temiz · 11/11 künye var ve pencere içi · odak_olc ODAKSIZ 0, 11 konumlu · denetle.py SONUÇ temiz (2s 180/195 değişmedi — cok dosyaları evrende değil). ANA BULGU: açıkların çoğu madde eksikliği değil ÖLÇÜT-BAŞLIK uyumsuzluğu. 2s taraf kolu künye adını ya da ≥4 harfli ilk kelimesini arıyor: 'Germiyan'ın vasiyetle ilhakı' Germiyanoğulları'nı, 'Reşîdîler' Şammar'ı, 'II. Suûdî' hiçbir şeyi eşlemiyor. DUZELTME B1-B11: çekirdek/kuyruk başlık önerileri — uygulanırsa 2s AÇIK gerçekten düşer, yeni madde düşürmezdi. Olgu hataları: O1 olaylar_ek 1381-06-01 'Isparta'nın katılışı' YANLIŞ (TDV: satılan Akşehir-Beyşehir-Seydişehir-Yalvaç-Karaağaç; Isparta 1391) · O2 kronoloji_arabistan 1818-01-01 Benî Hâlid, anlattığı Dir'iye düşüşünden (09-09) önce · O3 Lahsa 1792(TDV necid+katif)/1795(atlas) · O4 yemen-zeydi künyesi f:'897-01-01' doldurulmamış yıl → bağlanan her madde 'pencere dışı' görünüyor (ölçüldü). Harita (YERLESIM-ONERI 11): Antalya bölgesi 1300 Hamîd (TDV: 1312 sonrası) · Afyon 1327 (TDV: 1341 sonrası) · Adana/Tarsus 1352 Ramazanoğlu (TDV adana: 1378) · Bolu 1461 Candar (TDV bolu: Çelebi Mehmed geri aldı) · Hâil 1836 (TDV+künye 1835) · Umman 1515 (künye 1624'te doğuyor) · Maan TDV 1916 vs harita 1918. 🔴 ŞARTNAME İTİRAZI: 'hicaz·suud·yemen için künye YOK' YANLIŞ — hicaz-kralligi, suud-birinci/ikinci/ucuncu, yemen-zeydi VAR; haritadaki değerler harita: anahtarı. SENKRON-DEFTER aracı harita:→künye çözümünü yapmıyor. Yeni künye önerisi YOK (KUNYE.md). ② BULAMADIM: Teke/Mutahharten 1402 iadesi · Erzurum 1403 · Kuveyt 1716 · Necid içi 1792/1795 · Türabe 1919 · Asîr 1920 · Kemeran 1849 günü · Hicaz kuzeyi 1917-18 (vech/medain/hicr 302) — ayrıntı raporda §4. ③ İSTİYORUM: iki data dosyasını index.html + paketle.py'ye bağla ve commitle · DUZELTME B1-B11'i çekirdek sahibi uygulasın (en ucuz 2s kazancı) · yemen-zeydi f:'0897-01-01' · SENKRON-DEFTER'e harita:→künye eşlemesi. Bekçi M-5451 yasağıyla zaten kurulu değil; arka planda süreç bırakmadım. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
