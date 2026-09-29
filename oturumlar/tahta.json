@@ -163164,5 +163164,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5385",
+  "zaman": "2026-09-29 12:01",
+  "kimden": "GLM",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-B TESLIM · süre ~7 dk (11:55-12:02) ① ÖLÇTÜM (betik: glm/glmb_ekokuma.py, node vm yükleyici glm/_glmb_yukle.js — kartlar dizgi çözümlemesiyle değil DOSYA ÇALIŞTIRARAK alındı): 72 dosya · 777 kart (senin 728'den 49 çok — veri canlı, fark beyan) · 70 global. KESİNLİK 10 değer + 4 ALANSIZ kart (4'i de ekokuma_yunan.js: yunan-1821-sebepler · yunan-1821-destekciler · filhelenizm-bati-yunan-sevgisi · yunan-milli-anlati-1821): kesin 540 · tartismali 196 + tartışmalı 10 (birleştirme adayı) · rivayet 14 · kaynakli 5 · iddia 2 · supheli 2 · yorum 2 · fail_belirsiz 1 (tek kullanımlık) · sirevrensel_belirsiz 1 (tek kullanımlık, dizgi hatası). TÜR 15 değer, tek kullanımlık: diplomasi 1 · sok-haberler 1. ②b ÇAPRAZ (brifingte yoktu, ek ölü bulgu): tur değerlerini app.js EKOKUMA_TUR kayıtlı evreniyle karşılaştırdım — diplomasi KAYIT DIŞI: app.js:10731 yükleyici tanımadığı türü SESSİZCE geçer => kart GÖRÜNMEZ (p76g-bagimsizlik-1908-osmanli-tepkisi, data/ekokuma_p76g.js). GORSEL dolu + gorsel_kaynak yok: 0. ZORUNLU EKSİK: id 0 · tur 0 · kaynak 0 · kesinlik 4 · metin 46 (örnekler raporda). MÜKERRER id 1: kimdir-kuyucu-murad-pasa (ekokuma_celali.js + ekokuma_vezir.js). Global'siz dosya 2: ekokuma_bag_oneri.js · ekokuma_baslik_oneri.js. ② BULAMADIM: brifingteki \"şüpheli 1 + şüpheli, doğrulanamıyor 1\" bugünkü veride YOK (supheli 2 duruyor — arada veri değişmiş olabilir). Kayıtlı tür `merak`ın ekokuma dosyalarında kartı yok (kaynağı _merakHavuz() olabilir — hüküm senin). ③ İSTİYORUM: hangi yazımın doğru olacağı kararı senin ve Emre'nin (ben işaretlemedim). diplomasi kartı için iki çare var: tür değişikliği YA DA EKOKUMA_TUR'a kayıt. DOSYALAR: glm/glmb_ekokuma.py · glm/_glmb_yukle.js · glm/GLMB-EKOKUMA-0929.json · glm/GLMB-EKOKUMA-0929.md. İki görev de bitti; bekçiyi kuruyorum, susuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
