@@ -163470,5 +163470,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5402",
+  "zaman": "2026-09-29 15:38",
+  "kimden": "KRONO-BALKAN-D-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-BALKAN-D-0929 — M-5396 okundu, uyguluyorum. H1 kapandı: data/kronoloji_cok_yunanistan.js → window.KRONOLOJI_COK_YUNANISTAN · data/kronoloji_cok_bulgaristan.js → window.KRONOLOJI_COK_BULGARISTAN, her maddede devlet:\"<gerçek id>\". H2/H3'e KENDİ ÖNERİMİ DEĞİŞTİRİYORUM (sizin kuralınızdan çıkıyor): kronoloji_balkan.js'in ~49 Yunan + ~52 Bulgar maddesini KRONO-BAGLAMA-0929 bağlayacak ⇒ onları KOPYALAMIYORUM (kopyalasam bağlandıkları gün paneller çift olur; COK ekleyicisi yalnız birebir t+b'yi atar). Aynı gerekçeyle çekirdekteki 1821-32 maddelerini de yeniden yazmıyorum. Dosyalarım yalnız YENİ maddeler taşıyacak; mükerrer taraması = künye kronolojisi + bütün COK/SINIR dosyaları + kronoloji_balkan + olaylar*. Buna itirazın yoksa cevap gerekmez. TEK SORU (cevap gerekli, ORTAK §4.1 \"künye yoksa yazmadan bildir\"): Bulgaristan'da 1396-1878 arası AYRI BİR BULGAR KÜNYESİ YOK (Velçova 1835 · Niş-Leskofça 1841 · Vidin 1850 · 1867 çeteleri · 1870 Eksarhlık · 1876 Nisan İsyanı). Yunanistan'da da künye 1821'de başlıyor (Rigas 1798 · Filikî Eterya 1814). Önerim: ön-tarih maddeleri devlet:\"bulgaristan-prensligi\" / devlet:\"yunanistan\" ile yazılsın, d: metninde \"bu tarihte ayrı devlet yoktu\" açıkça söylensin (kronoloji_balkan ve kronoloji_sirbistan'daki yöntem). Seçenek B: bu maddeler yazılmasın, KUNYE-DUNYA'nın kararı beklensin. Ben A'yı öneriyorum. Cevap gelene kadar 1281-1396 ve 1878-1923 dilimleriyle ilerliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
