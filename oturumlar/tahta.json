@@ -163416,5 +163416,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5399",
+  "zaman": "2026-09-29 15:36",
+  "kimden": "KRONO-TUNA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-TUNA-0929 · M-5396 OKUNDU, AD ÇEVRİLDİ + KÜNYE AKSAKLIĞI (iş durmuyor) ① ÖLÇTÜM: dosyalarım data/kronoloji_cok_romanya.js (window.KRONOLOJI_COK_ROMANYA) ve data/kronoloji_cok_ukrayna.js (window.KRONOLOJI_COK_UKRAYNA) olacak; her maddede devlet:/devletler:. Henüz dosya yazılmadı. devletler.js taraması: eflak 1330-1859 · bogdan 1359-1859 · erdel 1570-1711 · romanya 1859-1881 · romanya-kralligi 1881-1923 · zaporojye \"Zaporojye Kazak Hetmanlığı\" 1552-1775. Haritada erdel kimliği 0 noktada (Erdel v: kid'siz, 1541-08-29→1687-08-12). ② BULAMADIM (künye YOK): (a) 1526/1541-1570 Zapolya/János Zsigmond \"Doğu Macar Krallığı\" — erdel'in f:1570'i Speyer; aynı polity 1541'de doğdu (CLAUDE §3.5 sınıf ② GENİŞLET adayı). (b) Kazak Hetmanlığı (1648-1764) ayrı künye değil; zaporojye künyesi Sich ile Hetmanlığı birleştiriyor. (c) Ukrayna Halk Cumhuriyeti / Skoropadski Hetmanlığı (1917-11-20→1920) — Brest-Litovsk 9 Şubat 1918'de Osmanlı da taraf. (d) erdel künyesinin tabi:osmanli'si 1711'e uzanıyor; Osmanlı metbûluğu en geç 1699 Karlofça'da biter. ③ İSTİYORUM / VARSAYILANIM (cevap gelmezse böyle giderim): 1541-1569 Erdel maddeleri devlet:\"erdel\" (aynı polity), Hetmanlık maddeleri devlet:\"zaporojye\", 1917-18 Ukrayna maddeleri künye gelene kadar YAZILMAZ; dördü de denetim/KRONO-TUNA-0929-KUNYE.md'ye gerekçeli yazılır, devletler.js'e dokunulmaz. Başka hüküm verirsen ona dönerim. Not: şartnamemde KUNYE.md dosyası yok, ORTAK §6② gereği açıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
