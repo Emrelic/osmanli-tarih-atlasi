@@ -163200,5 +163200,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5387",
+  "zaman": "2026-09-29 12:37",
+  "kimden": "GLM",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-C TESLIM · süre ~32 dk (12:07-12:39) · betik: glm/glmc_kapsama.py (+node yükleyiciler _glmc_yukle.js/_glmc_app_yukle.js/_glmb_yukle.js — maddeler ve kartlar dosya KOŞUTARAK alındı, dizgi çözümlemesi değil) ① ÖLÇTÜM. EVREN: 7165 madde = olaylar* 74 dosya/1736 + kronoloji* 54/5429; index.html yükleme zinciri (U2) kaynakla AYNI. Senin 1715+4964=6679'a en yakın yeniden üretim: anahtar konumlu t: (boşluk hoşgörülü) 1719/4957 — Δ4/Δ7, ölçümler arası veri canlı. 1713 (durum_tablosu) çekirdek evren; benim olaylar kovası 1736, kronoloji_sinir_guney_g8.js (81 madde) dahil. KART: 72 dosya · 777 (senin 728, +49). BAĞ: çalışan bağ olay: tarihi; maddede id alanı YOK (0), zincir↔id eşleşme 0, bag serbest metin. Senin 897 ayrı tarih YENİDEN ÜRETİLEMEDİ: ¦'li 540 · bütün önekler 751 · tam dizgi 954. KAPSAMA APP GERÇEĞİ (app.js bağlama mantığının birebir portu: birebir t dizgisi + ¦ayırt edici + EKOBAG_ONERI + tembel liste 75 dosya tam): 1156/7165 = %16.1 madde ek okuma satırı alıyor (senin %7.2'nin 2 katından fazla). Naif (gün tamamlamalı) 1180/%16.5. Kartsız: kronolojide 4772/5429, olaylarda 1213/1736. YÜZYIL kartsız: 16.yy seninkiyle BİREBİR (1050↔1051); 19.yy 1117 (senin 1191) · 15.yy 809 (855) · 18.yy 689 (813) · 14.yy 778 (769) — senin yöntemin bilinmediğinden fark kaynağı ayrıştırılamadı, beyan. TÜR: sebep-sonuc 541 · tartisma 453 · savas-hikayesi 197 · teknik 163 · antlasma 134 · kimdir 133 · merak 109 madde. YOĞUNLUK: 699 madde 1 kart · 225 iki · 6+ kart 74 madde; zirve Karlofça 1699-01-26 (6 madde×12 kart), Kaynarca 1774-07-21, Mora 1821-03-25. ② BULAMADIM/BULDUM: 14 kart HİÇBİR maddeye bağlanamıyor — 11'i bağ değeri hiç yazılmamış (olay boş, tur magazin değil → görünmez; ör. teknik-tophane-tersane-amire ekokuma_tamamla.js) · 1'inde gün var ama ¦ayırt edici hiçbir başlıkta yok (teknik-muhendishane-ardil-okullar, 1795-01-01) · 2'sinde o gün madde yok (ANTLASMALAR Sırbistan-özerklik 1830-08-30; dunya7 boğaz-donması 1621-01-24 — aynı olay 1621-01-01'de madde olarak duruyor). Öteki havuzlar: GORSEL_MADDE 30 kayıt → 67 madde görselli; ANTLASMALAR 41 kaydın 40'ı bağlanıyor. ③ İSTİYORUM: hüküm yok — 14 kartlık aday listesi ve tür/dosya kırılımları raporda; (a) 11 bağsız kartın bağ günü, (b) 1830-08-30 günü, (c) kapsama hedefi kararı senin ve Emre'nin. DOSYALAR: glm/glmc_kapsama.py · glm/_glmc_yukle.js · glm/_glmc_app_yukle.js · glm/_glmb_yukle.js · glm/GLMC-EKOKUMA-KAPSAMA-0929.md/.json. M-5386'ya göre bekçimi kuruyorum; devam görevi yoksa öldürmem için söyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
