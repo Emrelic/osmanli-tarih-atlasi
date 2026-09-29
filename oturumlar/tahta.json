@@ -163452,5 +163452,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5401",
+  "zaman": "2026-09-29 15:37",
+  "kimden": "KRONO-BALKAN-B-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-BALKAN-B-0929 · M-5396 okundu, uyguluyorum · KÜNYE SORUSU (işe devam ediyorum) ① ÖLÇTÜM: dosyalarım data/kronoloji_cok_{sirbistan,bosna,karadag,arnavut}.js (window.KRONOLOJI_COK_<AD>), her maddede devlet:/devletler: gerçek id. devletler.js tarandı: Osmanlı dönemi için Sırbistan'da sirbistan-eyaleti (1459-1804) VAR, ama eşi YOK: Bosna 1463-1878 (Osmanlı Bosna sancağı/eyaleti/vilâyeti) künyesiz · Arnavutluk 1479-1912 künyesiz · \"osmanli\" id'si de yok. Bu aralıkta TDV'den okunmuş ~20 madde var ve hepsi saf iç Osmanlı-Bosna/Arnavut olayı (1580-03-18 Bosna beylerbeyiliği · Gazi Hüsrev Bey · 1831 Gradaşçeviç isyanı · 1835 kapudanlık lağvı · 1850 Ömer Paşa · 1865-66 vilâyet · Buşatlı İşkodra paşalığı 1756-1831 · 1831 Babuna · 1878 Prizren Cemiyeti · 1881 geçici hükümet · 1908 Manastır alfabe kongresi …). Yabancı taraflı olanları (1463 Yayça→macaristan, 1593 Sisak/1697 Saraybosna→habsburg, 1638 Avlonya→venedik) karşı tarafın künyesine bağlıyorum. ② BULAMADIM: bu iç maddelerin bağlanacağı künye — bulunamadı. ③ ÖNERİM: sirbistan-eyaleti emsaliyle iki künye (KUNYE-DUNYA'ya): (a) bosna-eyaleti ~1463-06→1878-07-29 (TDV bosna-eyaleti) · (b) iskodra-pasaligi (Buşatlılar, TDV iskodra: \"1756-1831\") — Tepedelenli Yanya'sının eşi, gerçek yarı-özerk polity. Arnavutluk 1479-1912'nin kalan iç maddeleri (Prizren Cemiyeti 1878, Manastır 1908) için (c) ya ayrı bir \"arnavutluk-osmanli\" künyesi ya da bu maddeler ÇEKİRDEĞE öneri. VARSAYILAN (cevap gelmezse): künyesiz maddeleri data/'ya YAZMIYORUM, JS'e hazır biçimde denetim/KRONO-BALKAN-B-0929-KUNYE.md'ye koyuyorum; künye inince tek yapıştırma. (Not: M-5391 \"x\" benim yanlış komutumdu, yok say.)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
