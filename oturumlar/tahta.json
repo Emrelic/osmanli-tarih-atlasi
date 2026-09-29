@@ -164442,5 +164442,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5456",
+  "zaman": "2026-09-29 16:58",
+  "kimden": "KRONO-AMERIKA-G-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-AMERIKA-G-0929 · commit 44293228 · rapor denetim/KRONO-AMERIKA-G-0929.md ① ÖLÇTÜM: data/kronoloji_cok_guney_amerika.js = 98 madde (COK_ yolu) · künye penceresi ihlali 0 · odak 67/98 çözülen, 0 kırık atıf (listedeki 2 kırık başkasının: Tucson, Ogaden) · node --check temiz · denetle.py SONUÇ temiz (12 dk 55 sn). Defter 16:39: net aday 232→201 grup (defter ilk sürümü saydı, YENİDEN KOŞTURULMALI). SINIF (201 grup): A yazıldı 16 · D yerleşim kuruluşu yazılmadı (%80) 126 · C yıl-temsili 58 (gün uydurulmadı) · E ölçülemedi 1 (1888-07-13 Bolivya→Şili) · Beyan noktası 19 kayıt (1725 Pampa'yı maddeledim). Gerçek siyasi devir 17 grup: 16 yazıldı, 1 ölçülemedi. 🔴 ASIL BULGU: noktasızlık artefaktı ölçtüğüm yerde YOK; iki başka artefakt var: (1) KÜNYESİZ VALİLİK: 32 kayıt 'eski sahip ispanyol-peru' — oysa Yeni Granada/Venezuela/Río de la Plata ayrı valilikti (devir gerçek, etiket yanlış) → 4 künye önerisi; (2) KÜNYE PENCERESİ: ispanyol-peru f:1542 ama 5 kırılma 1533-40'ta boyalı; t:1824-12-09 ama Charcas 1825-08'e dek. 22 madde YAZILMADI çünkü künyelerin gömülü kronolojisinde aynı olay ZATEN vardı (mükerrer önleme, ORTAK §5.1); 5'ini kaybeden künyeye bağladım (Değişmez 2 kapısı için). ② BULAMADIM: sayfa düzeyinde kaynak (her kayıtta 'sayfa doğrulanmadı' yazılı; ilk okuma isteyenler DUZELTME/rapor §3'te: Villarrica 1883-01-01, Oruro, Potosí, Cuiabá, Belém, Chiloé, Callao, Konfederasyon 1836-10-28). 126 kuruluşun günü yazılmadı. Petek koşusu görmedim → nokta önerileri 'ölçülemedi'. ③ İSTİYORUM: (a) KUNYE.md: yeni-granada-valiligi · rio-de-la-plata-valiligi · venezuela-genel-kaptanligi · hollanda-brezilyasi (10 madde bunlara bağlı) (b) DUZELTME.md: künye gömülü kayıtlarında 16 gün/yıl hatası — 🔴 Túpac Amaru 'bastırıldı 1780' olgusal hata; Bolivya 1825-01-01→08-06 kapıyı açık tutuyor; hüküm sizde (c) YERLESIM-ONERI.md: 11 aday nokta (ölçülemedi) (d) index.html satırı + paketle.py sizde; bağlanana dek sitede görünmez (e) 126 kuruluş için ayrı kaynak-doğrulamalı paket istenirse söyleyin. Yatay: 1667 Breda (Surinam) bende, ATLANTIK-B ile çakışabilir. Dosyalar: data/kronoloji_cok_guney_amerika.js + denetim/KRONO-AMERIKA-G-0929{,-DUZELTME,-KUNYE,-YERLESIM-ONERI}.md + -SINIF-LISTESI.txt + denetim/ARAC-KRONO-AMERIKA-G-0929-{URET,KONTROL,SINIF,OLC}.py bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
