@@ -470,6 +470,122 @@ ON_JS = HEDEFLER["devlet"]["on"]
 KURESEL = re.compile(r"(?m)^\s*window\.([A-Za-z_]\w*)\s*=")
 
 
+def _acilis_halkalari(dizin, gun="1281-01-01"):
+    """Açılış gününde GEREKEN halka indeksleri — ölçerek, tahmin etmeden.
+
+    `devlet_harita_ust.js` içindeki DEVLET_HARITA geçerli JSON'dur (makine
+    üretimi); regex yerine `json.loads` kullanılır — regex bir gün biçim
+    değişince sessizce eksik sayardı.
+    Etkinlik sınavı: ISO tarih dizgileri sıralanabilir olduğu için
+    `f <= gun <= t` doğrudan çalışır; `gunIdx` kopyasına gerek YOK (bir Python
+    kopyası `odak_cozum` vakasında iki kez "yanlış temiz" vermişti).
+    """
+    import json
+    y = os.path.join(dizin, HEDEFLER["devlet"]["ust"])
+    with open(y, encoding="utf-8") as f:
+        s = f.read()
+    def _dizi(ad):
+        i = s.index("window." + ad + " = ")
+        b = s.index("[", i)
+        d, j = 0, b
+        while j < len(s):
+            if s[j] == "[":
+                d += 1
+            elif s[j] == "]":
+                d -= 1
+                if d == 0:
+                    break
+            j += 1
+        return json.loads(s[b:j + 1])
+    harita = _dizi("DEVLET_HARITA")
+    parca_halka = _dizi("DEVLET_PARCA_HALKA")
+    gerek, donem, etkin = set(), 0, 0
+    for dev in harita:
+        for p in dev.get("dnm", []):
+            donem += 1
+            if not (p.get("f", "9999") <= gun <= p.get("t", "0000")):
+                continue
+            etkin += 1
+            for gi in p.get("g", []):
+                for hi in (parca_halka[gi] if gi < len(parca_halka) else []):
+                    gerek.add(hi)
+    return sorted(gerek), donem, etkin
+
+
+def on_dilim(dizin, gun="1281-01-01"):
+    """KATMAN 1 — açılış gününün halkalarını ayrı, KÜÇÜK bir dosyaya yaz.
+
+    NİÇİN (29 Eylül 2026, ölçüldü):
+      devlet_parcalar.js  17,69 MB telde · 93.050 halka · 10.700.867 nokta
+      açılış günü (1281-01-01) YALNIZ 5.731 halka / 340.616 nokta istiyor
+      = havuzun %3,2'si ≈ 0,57 MB
+    ⇒ Tam havuzu açılışta beklemek, görünmeyen verinin 17 MB'ını beklemektir.
+    ⚠️ Ölçülen ve REDDEDİLEN iki yol:
+      · tembel HESAP (p.ft'yi ihtiyaç anında kurmak): bütün 4.186 dönemin
+        geometrisini kurmak 16 ms sürüyor — kazanç yok, karmaşa çok.
+      · havuzu indeks aralıklarına bölmek: açılış günü 8 eşit aralığın
+        SEKİZİNE de dokunuyor (2114·235·75·157·394·361·1063·1332) ⇒ işe
+        yaramaz; işe yaraması için havuzu YENİDEN SIRALAMAK gerekirdi, o da
+        DEVLET_PARCA_HALKA'yı yeniden eşlemeyi ve özgün metni geri üretmek
+        için permütasyon saklamayı gerektirir. Kazanca değmeyecek risk.
+    ⇒ SEÇİLEN YOL: seyrek alt küme. Halkalar ÖZGÜN indeksleriyle yazılır,
+      havuz yeniden sıralanMAZ, DEVLET_PARCA_HALKA'ya DOKUNULMAZ, `coz-c`
+      yolu hiç değişmez. Bedel: bu 0,57 MB tam havuzda da duruyor (mükerrer).
+    """
+    import base64
+    import hashlib
+    hedef_sec("devlet")
+    t = time.perf_counter()
+    idx, donem, etkin = _acilis_halkalari(dizin, gun)
+    onek, havuz_b, sonek, sha = _oku_c(dizin)
+    havuz = _coz_havuz(havuz_b)
+    alt = [havuz[i] for i in idx]
+
+    out = bytearray()
+    _yaz(out, len(idx))
+    onc = 0
+    for i in idx:                       # artan indeksler → delta varint
+        _yaz(out, i - onc)
+        onc = i
+    govde = bytes(out) + _kodla_havuz(alt)
+
+    ad = "devlet_parca_on.js"
+    yol = os.path.join(dizin, ad)
+    with open(yol, "w", encoding="utf-8", newline="") as f:
+        f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py on-dilim\n")
+        f.write("// KATMAN 1: açılış gününün (%s) halkaları — havuzun seyrek alt kümesi.\n" % gun)
+        f.write("// Tam havuz (data/devlet_parcalar.js) ilk boyamadan SONRA arka planda iner.\n")
+        f.write("// Biçim: varint N · N delta indeks · sonra normal halka akışı.\n")
+        f.write("window.__DP_ON_GUN=\"%s\";\n" % gun)
+        f.write("window.__DP_ON_B64=\"%s\";\n" % base64.b64encode(govde).decode())
+
+    # 🔴 GİDİŞ-DÖNÜŞ: alt kümedeki her halka tam havuzdakiyle AYNI mı?
+    ib = bytes(out)
+    _n, k = _oku(ib, 0)
+    geri_idx, onc = [], 0
+    for _ in range(_n):
+        d, k = _oku(ib, k)
+        onc += d
+        geri_idx.append(onc)
+    geri = _coz_havuz(govde[k:])
+    ayni = (geri_idx == idx and len(geri) == len(alt)
+            and all(list(map(tuple, a)) == list(map(tuple, b))
+                    for a, b in zip(geri, alt)))
+    mb = os.path.getsize(yol) / 1048576
+    print("açılış günü %s · dönem %d, etkin %d · halka %d/%d (%.1f%%) · nokta %d"
+          % (gun, donem, etkin, len(idx), len(havuz),
+             100.0 * len(idx) / max(1, len(havuz)), sum(len(h) for h in alt)))
+    print("  %s %.2f MB   (tam havuz %.2f MB)"
+          % (ad, mb, os.path.getsize(os.path.join(dizin, DP_JS)) / 1048576))
+    print("  gidiş-dönüş: %s  (%.0f sn)"
+          % ("✓ BİREBİR" if ayni else "🔴 FARKLI", time.perf_counter() - t))
+    if not ayni:
+        os.remove(yol)
+        print("  ⇒ dosya SİLİNDİ.")
+        return 1
+    return 0
+
+
 def kodla_hedef_sec(ad):
     """CLI için: hedefi seç, seçileni EKRANA BAS.
 
@@ -735,6 +851,8 @@ if __name__ == "__main__":
         if len(a) == 4:
             kodla_hedef_sec(a[3])
         sys.exit(coz_c(a[1], a[2]))
+    if a[0] == "on-dilim" and len(a) in (2, 3):
+        sys.exit(on_dilim(a[1], a[2] if len(a) == 3 else "1281-01-01"))
     if a[0] == "kapi" and len(a) == 2:
         _i, _s = kapi(a[1])
         for _x in _s:

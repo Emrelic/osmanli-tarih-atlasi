@@ -139,7 +139,23 @@ function parcaCoz(dizi, havuz, parcaHalka) {
              if (!yeniBicim) return havuz[p];              // eski veri: havuz zaten poligon
              var ph = parcaHalka[p];
              if (!ph) throw new Error("PARCA_HALKA deliği: " + p);
-             return ph.map(function (h) { return havuz[h]; });
+             // 🔴 EKSİK HALKA ATLANIR — TEMBEL YÜKLEME (29 Eylül 2026).
+             // Açılışta havuz SEYREKTİR: `data/devlet_parca_on.js` yalnız
+             // açılış gününün 3.781 halkasını taşır (%4,1), tam havuz ilk
+             // boyamadan sonra arka planda iner. Aradaki kısa pencerede
+             // kullanıcı zaman çubuğunu oynatırsa henüz inmemiş halkalar
+             // `undefined` olur; süzmeseydik MapLibre'a bozuk koordinat
+             // giderdi. Süzülünce o gövde O AN eksik çizilir, tam havuz
+             // gelince `window.__govdeYenile()` hepsini yeniden kurar.
+             // ⚠️ Tam havuz indikten sonra bu süzgeç HİÇBİR ŞEY atmaz —
+             //    attığı an bir veri kusuru var demektir, sessiz kalmasın:
+             var hs = ph.map(function (h) { return havuz[h]; });
+             var tam = hs.filter(function (r) { return !!r; });
+             if (tam.length !== hs.length && window.__DP_TAM_HALKA) {
+               window.__PARCA_DELIK = (window.__PARCA_DELIK || 0) +
+                                      (hs.length - tam.length);
+             }
+             return tam;
            }) };
 }
 var PARCALAR = window.PARCALAR || [];
@@ -434,6 +450,31 @@ devletler2.forEach(function (s) {
              geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
   });
 });
+
+// 🔴 TEMBEL YÜKLEME KANCASI — `js/geo_coz.js` tam havuz inince bunu çağırır.
+// Açılışta `DEVLET_PARCALAR` SEYREKTİR (yalnız açılış gününün 3.781 halkası,
+// %4,1 · 0,42 MB); tam havuz (17,69 MB telde) ilk boyamadan SONRA arka planda
+// iner. Geldiğinde bütün dönemlerin geometrisi yeniden kurulur ve ekran
+// tazelenir. ÖLÇÜLDÜ: 4.186 dönemin hepsini yeniden kurmak 16 ms — yani bu
+// yeniden kurma bedava sayılır, tembel HESAP yapmaya gerek yoktur (o yol
+// ölçülüp REDDEDİLDİ, kazancı 16 ms'ti).
+window.__govdeYenile = function () {
+  var yeni = window.DEVLET_PARCALAR;
+  if (!yeni || !yeni.length) return false;
+  DEVLET_PARCALAR = yeni;
+  devletler2.forEach(function (s) {
+    s.dnm.forEach(function (p) {
+      p.ft = { type: "Feature", properties: { renk: s.renk },
+               geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
+    });
+  });
+  try { guncelle(); } catch (e) {
+    if (window.console) console.error("🔴 __govdeYenile: guncelle() attı:", e);
+    return false;
+  }
+  window.__GOVDE_YENILENDI = true;
+  return true;
+};
 
 // ═══════════════════════════════════════════════════════════════════════
 // Ⓑ DOLGU KATMANI — data/dolgu.js (arac/dolgu.py), B-GORUNUM-0072

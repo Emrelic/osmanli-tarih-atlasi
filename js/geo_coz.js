@@ -118,6 +118,97 @@
       hata: "__PR_HATA", ad: "dönem" }
   ];
 
+  // ── KATMAN 1 / KATMAN 2 — TEMBEL YÜKLEME ───────────────────────────
+  // ÖLÇÜLDÜ (29 Eylül 2026): devlet_parcalar.js 17,69 MB telde ve açılışta
+  // EŞZAMANLI bekleniyordu. Oysa açılış günü (1281-01-01) havuzun yalnız
+  // %4,1'ini istiyor: 3.781 halka / 129.898 nokta = 0,42 MB.
+  // ⇒ KATMAN 1 (devlet_parca_on.js) senkron iner ve sayfa ONUNLA boyanır;
+  //   KATMAN 2 (tam havuz) ilk boyamadan SONRA arka planda iner, gelince
+  //   havuz değiştirilir ve `window.__govdeYenile()` çağrılır.
+  // ⚠️ Açılışta ekranda EKSİK BİR ŞEY OLMAZ — katman 1 tam o günün verisidir.
+  //   Kullanıcı zaman çubuğunu katman 2 inmeden oynatırsa o günün bazı
+  //   gövdeleri henüz yoktur; `app.js`in `parcaCoz`u eksik halkayı ATLAR
+  //   (çökmez), katman 2 gelince tam hâli çizilir.
+  function seyrekCoz(u8) {
+    var i = 0;
+    function v() {
+      var z = 0, k = 0, c;
+      do { c = u8[i++]; z |= (c & 0x7F) << k; k += 7; } while (c & 0x80);
+      return (z & 1) ? -((z + 1) >>> 1) : (z >>> 1);
+    }
+    var n = v(), idx = new Array(n), onc = 0;
+    for (var j = 0; j < n; j++) { onc += v(); idx[j] = onc; }
+    var halkalar = havuzCoz(u8.subarray(i));
+    if (halkalar.length !== n) {
+      throw new Error("geo_coz: seyrek katmanda " + n + " indeks ama " +
+                      halkalar.length + " halka");
+    }
+    var seyrek = [];
+    for (var m = 0; m < n; m++) seyrek[idx[m]] = halkalar[m];
+    return seyrek;
+  }
+
+  function surumEki() {                       // kendi ?v=rNNNN damgamı taşı
+    try {
+      var b = kok.document.querySelector('script[src*="geo_coz.js"]');
+      var q = b && b.src.indexOf("?") >= 0 ? b.src.slice(b.src.indexOf("?")) : "";
+      return q;
+    } catch (e) { return ""; }
+  }
+
+  function tamHavuzuGetir() {
+    var s = kok.document.createElement("script");
+    s.src = "data/devlet_parcalar.js" + surumEki();
+    s.async = true;
+    s.onload = function () {
+      var t = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
+      try {
+        if (!kok.__DP_B64) throw new Error("__DP_B64 gelmedi");
+        kok.DEVLET_PARCALAR = havuzCoz(b64Coz(kok.__DP_B64));
+        kok.__DP_B64 = null;
+        if (t) kok.__DP_TAM_MS = Math.round(kok.performance.now() - t);
+        kok.__DP_TAM_HALKA = kok.DEVLET_PARCALAR.length;
+        if (kok.console) console.log("geo_coz: tam havuz indi — " +
+            kok.DEVLET_PARCALAR.length + " halka, " + kok.__DP_TAM_MS + " ms");
+        // 🔴 app.js'in kancası. YOKSA sessizce geçilmez: katman 1 ile kalmak
+        //    ileri tarihlerde EKSİK harita demektir, ve bu görünmez bir kusurdur.
+        if (typeof kok.__govdeYenile === "function") kok.__govdeYenile();
+        else {
+          kok.__DP_TAM_HATA = "app.js kancası (__govdeYenile) YOK";
+          if (kok.console) console.error("🔴 " + kok.__DP_TAM_HATA);
+        }
+      } catch (e) {
+        kok.__DP_TAM_HATA = String(e);
+        if (kok.console) console.error("🔴 geo_coz tam havuz BAŞARISIZ:", e);
+      }
+    };
+    s.onerror = function () {
+      kok.__DP_TAM_HATA = "devlet_parcalar.js İNDİRİLEMEDİ";
+      if (kok.console) console.error("🔴 " + kok.__DP_TAM_HATA);
+    };
+    kok.document.head.appendChild(s);
+  }
+
+  if (kok.__DP_ON_B64 && !kok.DEVLET_PARCALAR) {
+    var tOn = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
+    try {
+      kok.DEVLET_PARCALAR = seyrekCoz(b64Coz(kok.__DP_ON_B64));
+      kok.__DP_ON_B64 = null;
+      kok.__DP_ON_MS = tOn ? Math.round(kok.performance.now() - tOn) : 0;
+      if (kok.console) console.log("geo_coz[katman1]: " + kok.__DP_ON_GUN +
+          " için seyrek havuz, " + kok.__DP_ON_MS + " ms");
+    } catch (e) {
+      kok.__DP_ON_HATA = String(e);
+      if (kok.console) console.error("🔴 geo_coz katman1 BAŞARISIZ:", e);
+    }
+    // Tam havuzu ilk boyamadan SONRA iste — `load` olayı beklenir.
+    if (kok.addEventListener) {
+      kok.addEventListener("load", function () { setTimeout(tamHavuzuGetir, 0); });
+    } else {
+      tamHavuzuGetir();
+    }
+  }
+
   var cozulenVar = false;
   for (var hi = 0; hi < HEDEFLER.length; hi++) {
     var H = HEDEFLER[hi];
@@ -143,7 +234,8 @@
     }
   }
 
-  if (cozulenVar) {
+  // Katman 1 de bir çözümdür — yerleşim onarımı onda da kurulmalı.
+  if (cozulenVar || typeof kok.__DP_ON_MS === "number") {
     // ── 🔴 YERLEŞİM ONARIMI — ölçülmüş bir GERİLEMENİN çaresi ──────────
     // Bu blok bir "ihtiyaten" satırı değil; kıyaslamayla bulunmuş bir kusuru
     // kapatıyor. ÖLÇÜM (28 Eylül 2026, aynı pencere 1024×768):

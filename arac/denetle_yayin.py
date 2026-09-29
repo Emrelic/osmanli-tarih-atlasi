@@ -1146,6 +1146,22 @@ def main():
                                    for a in re.findall(r'"([a-z0-9_]+)"', _govde)}
     except Exception:
         _DINAMIK_ADLAR = set()
+    # 🆕 29 Eylül 2026 (TEMBEL YÜKLEME): ÜÇÜNCÜ yol — bir JS dosyası çalışma
+    # anında <script> kurup `src`ine doğrudan bir `data/...js` yolu yazıyor.
+    # `js/geo_coz.js` tam bunu yapıyor: `devlet_parcalar.js` (17,69 MB telde)
+    # artık index.html'de DEĞİL, ilk boyamadan sonra arka planda iniyor.
+    # Bu satır olmadan kapı onu "yetim" sayar ve YANLIŞ ALARM verir (ölçüldü:
+    # yetim 1 → 2). Kusur verinin değil ARACIN modelinde olurdu — bugün üçüncü
+    # kez aynı ders. ⚠️ Kanıt şartı yukarıdakiyle aynı: ad KAYNAKTA düz metin
+    # olarak geçmeli; değişkenle kurulan yol SAYILMAZ, çünkü doğrulanamaz.
+    try:
+        import glob as _gg
+        for _jy in _gg.glob(os.path.join(KOK, "js", "*.js")):
+            _js = io.open(_jy, encoding="utf-8", errors="replace").read()
+            _DINAMIK_ADLAR |= set(
+                re.findall(r'\.src\s*=\s*"(data/[A-Za-z0-9_]+\.js)"', _js))
+    except Exception:                                       # noqa: BLE001
+        pass
     dinamik_bulunan = []
 
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
