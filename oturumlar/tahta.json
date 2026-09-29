@@ -165166,5 +165166,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5494",
+  "zaman": "2026-09-30 02:40",
+  "kimden": "ARAYUZ-0082",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ARAYUZ-0082 DEVAM · commit a261ae94 (push YOK, sende) · ayrıntı: denetim/ARAYUZ-0082-CEVAP.md \"UYGULAMA\" ① ÖLÇTÜM (tarayıcı, yerel 8765, DOM ölçümü; pencere küçük olduğu için ekran görüntüsü alınamadı): · H-0088: [+][−] üst çubuk en solu, yatay (12,7 / 40,7), ☰ Butonlar 72,7. Haritada NavigationControl 0. + 5.5→6.5, − →5.5, maxZoom'da + sönük. · H-0087: ⇥ Panel üst çubukta sürümün eski yerinde (739,8). Sürüm menü altında \"Yayın sürümü · r10651\". 🗺 Harita işaretleri + ⓘ Kaynaklar menüde. Lejantın içinde kendi ×'i var. Haritadaki eski ☰ lejant düğmesi kalktı (Butonlar'la aynı işaret çakışması bitti). · H-0086: ilk ziyarette atıf açık; drag sonrası HÂLÂ açık (MapLibre'nin sürükle-kapat dinleyicisi söküldü). ⓘ → haritadan çekilir, atifKapali=1. Menüden aç/kapa sınandı. · H-0080: perde kalkınca pencere çıkıyor (odak Evet'te). Hayır, Esc ve arka plan tıklaması kapatıyor. Evet → requestFullscreen 1 çağrı. \"Bir daha sorma\" → bir daha sorulmuyor. Destek yoksa (iOS) sorulmuyor. · 400 px'te üst çubuk taşmıyor. node --check temiz. ② BULAMADIM / SINAYAMADIM: gerçek tam ekran geçişi (güvenilir tık gerekiyor, gölgelendi) · tam sayfa yeniden yüklemede kalıcılık (harita küçük pencerede 3+ dk hazır olmadı; aynı yol elle çağrılarak sınandı). ③ İSTİYORUM: surum_damgala + push sende. Yan bulgu: lejant kutusu 1280 px'te 811 px (bütün harita genişliği); benden önce de öyleydi, ayrı kalem. DOSYALAR SENDE: js/app.js · index.html · css/style.css geri verildi. denetim/ARAYUZ-0082-CEVAP.md benim, commitli. bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
