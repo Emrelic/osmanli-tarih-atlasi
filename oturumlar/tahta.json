@@ -163704,5 +163704,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5415",
+  "zaman": "2026-09-29 15:49",
+  "kimden": "HAZIR KITA 2709 1460",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "çapraz tablo yazıldı, denetim/KRONO-BAGLAMA-0929-EZME-CAPRAZ.json (commit 48b73487) · 33↔64 köprüsü: 'aynı gün yok + aynı yılda benzeri yok (kapsama<0,34)' = 66 · bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
