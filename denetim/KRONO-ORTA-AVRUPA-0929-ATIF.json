@@ -1,0 +1,4627 @@
+{
+ "_aciklama": "KRONO-ORTA-AVRUPA-0929 · madde başına önerilen künye atfı (COK_ yoluna geçiş için). kunyesiz: devletler.js'te OLMAYAN id — app.js sayıp basar, künye açılınca bağlanır (M-5416 kural 3).",
+ "dosya": {
+  "kronoloji_macaristan.js": {
+   "ozet": {
+    "gorunur": 125,
+    "GORUNMEZ": 2
+   },
+   "madde": [
+    {
+     "i": 0,
+     "t": "1290-07-10",
+     "b": "IV. (Kun) László'nın kendi Kuman muhafızları tarafından öldürülmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 1,
+     "t": "1301-01-14",
+     "b": "III. András'ın ölümü ve Árpád hanedanının sona ermesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 2,
+     "t": "1308-11-27",
+     "b": "Károly Róbert'in (I. Károly, Anjou hanedanı) genel kabulle kral ilan edilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 3,
+     "t": "1312-06-15",
+     "b": "Rozgony Muharebesi — Csák Máté'nin gücünün kırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 4,
+     "t": "1335-11-19",
+     "b": "Visegrád Kongresi — Macaristan, Bohemya ve Lehistan krallarının buluşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 5,
+     "t": "1342-07-16",
+     "b": "I. (Büyük) Lajos'un tahta çıkışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 6,
+     "t": "1351-12-11",
+     "b": "I. Lajos'un büyük yasası — soylu ayrıcalıklarının genelleştirilmesi ve 'aviticitas'",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 7,
+     "t": "1367-01-01",
+     "b": "Pécs Üniversitesi'nin kurulması — Macaristan'ın ilk yükseköğretim kurumu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 8,
+     "t": "1370-02-17",
+     "b": "Lajos'un Lehistan tacını da alması — kişisel birlik",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 9,
+     "t": "1382-09-11",
+     "b": "I. (Büyük) Lajos'un ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 10,
+     "t": "1387-03-31",
+     "b": "Luxemburglu Zsigmond'un kral seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 11,
+     "t": "1396-09-25",
+     "b": "Niğbolu Savaşı — Haçlı ordusunun bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 12,
+     "t": "1404-04-06",
+     "b": "Placetum regium — kraliyet onayı olmadan papalık fermanlarının yürürlüğe girmemesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 13,
+     "t": "1408-12-12",
+     "b": "Ejderha Nişanı'nın (Societas Draconistarum) kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 14,
+     "t": "1410-09-20",
+     "b": "Zsigmond'un Kutsal Roma Kralı seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 15,
+     "t": "1414-11-05",
+     "b": "Konstanz Konsili'nin açılması — Zsigmond'un Büyük Skizma'ya son verme girişimi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 16,
+     "t": "1433-05-31",
+     "b": "Zsigmond'un Roma'da Kutsal Roma İmparatoru taç giymesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 17,
+     "t": "1437-12-09",
+     "b": "Zsigmond'un ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 18,
+     "t": "1437-07-06",
+     "b": "Bobâlna Köylü Ayaklanması ve Erdel'de Üç Millet İttifakı'nın (Unio Trium Nationum) kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 19,
+     "t": "1441-01-01",
+     "b": "Hunyadi János'un Erdel voyvodalığına ve Güney sınırı kumandanlığına atanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 20,
+     "t": "1443-01-01",
+     "b": "Uzun Sefer'in (Long Campaign) başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 21,
+     "t": "1444-11-10",
+     "b": "Varna Savaşı — Macar-Leh Kralı I. Ulászló'nun ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 22,
+     "t": "1446-06-05",
+     "b": "Hunyadi János'un Macaristan naibi (kormányzó) seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 23,
+     "t": "1448-10-17",
+     "b": "İkinci Kosova Savaşı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 24,
+     "t": "1456-07-22",
+     "b": "Nándorfehérvár (Belgrad) Kuşatmasının püskürtülmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 25,
+     "t": "1456-08-11",
+     "b": "Hunyadi János'un veba salgınında ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 26,
+     "t": "1457-03-16",
+     "b": "László Hunyadi'nin idamı — V. László'nun tertibi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 27,
+     "t": "1458-01-24",
+     "b": "Hunyadi Mátyás'ın (Mátyás Corvinus) kral seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 28,
+     "t": "1464-03-29",
+     "b": "Mátyás'ın Székesfehérvár'da (İstolni Belgrad) taç giymesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 29,
+     "t": "1465-06-01",
+     "b": "Pozsony Üniversitesi'nin (Academia Istropolitana) kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 30,
+     "t": "1467-01-01",
+     "b": "Mátyás'ın vergi reformu — 'kapu adı' (hane) vergisinin genelleştirilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 31,
+     "t": "1471-01-01",
+     "b": "Fekete Ordu'nun (Fekete Sereg) daimi ücretli ordu olarak kurumsallaşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 32,
+     "t": "1473-06-05",
+     "b": "Macaristan'ın ilk matbaası — Hess András'ın Buda'da 'Chronica Hungarorum'u basması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 33,
+     "t": "1476-12-15",
+     "b": "Mátyás'ın Nápoli Prensesi Beatrice ile evlenmesi ve saraya İtalyan Rönesansı'nın girişi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 34,
+     "t": "1485-06-01",
+     "b": "Mátyás'ın Viyana'yı ele geçirmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 35,
+     "t": "1489-01-01",
+     "b": "Bibliotheca Corviniana'nın Avrupa'nın önde gelen Rönesans kütüphanelerinden biri hâline gelmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 36,
+     "t": "1490-04-06",
+     "b": "Mátyás Corvinus'un ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 37,
+     "t": "1490-07-15",
+     "b": "II. Ulászló'nun (Jagiellon) kral seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 38,
+     "t": "1514-05-01",
+     "b": "Dózsa György köylü ayaklanmasının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 39,
+     "t": "1514-07-20",
+     "b": "Dózsa György'nin idamı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 40,
+     "t": "1517-01-01",
+     "b": "Werbőczy István'ın 'Tripartitum'unun yayımlanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 41,
+     "t": "1516-03-13",
+     "b": "II. Lajos'un on yaşında tahta çıkışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 42,
+     "t": "1521-08-29",
+     "b": "Nándorfehérvár'ın (Belgrad) Osmanlı'ya düşmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "bağımsız krallık penceresi"
+    },
+    {
+     "i": 43,
+     "t": "1526-08-29",
+     "b": "Mohaç Meydan Savaşı — bağımsız Macar krallığının sonu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan",
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tam geçiş günü — iki künye"
+    },
+    {
+     "i": 44,
+     "t": "1526-11-10",
+     "b": "Szapolyai János'un (I. János) rakip kral seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "dogu-macar-kralligi"
+     ],
+     "kunyesiz": [
+      "dogu-macar-kralligi"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Szapolyai krallığı — künye YOK (M-5416 kural 3; KUNYE-DUNYA eksik[0] önerisi)"
+    },
+    {
+     "i": 45,
+     "t": "1526-12-17",
+     "b": "I. Ferdinand'ın da kral seçilmesi — iki kral dönemi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 46,
+     "t": "1538-02-24",
+     "b": "Nagyvárad Antlaşması — Zápolya-Ferdinand paylaşımı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg",
+      "dogu-macar-kralligi"
+     ],
+     "kunyesiz": [
+      "dogu-macar-kralligi"
+     ],
+     "pencere_disi": [],
+     "gerekce": "iki kralın paylaşımı"
+    },
+    {
+     "i": 47,
+     "t": "1540-07-22",
+     "b": "I. János'un (Szapolyai) ölümü ve János Zsigmond'un doğumu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "dogu-macar-kralligi"
+     ],
+     "kunyesiz": [
+      "dogu-macar-kralligi"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Szapolyai krallığı — künye YOK (M-5416 kural 3; KUNYE-DUNYA eksik[0] önerisi)"
+    },
+    {
+     "i": 48,
+     "t": "1541-08-29",
+     "b": "Budin'in Osmanlı tarafından fethi — ülkenin üçe bölünmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 49,
+     "t": "1552-09-04",
+     "b": "Eğri Kalesi'nin savunması — Dobó István'ın direnişi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 50,
+     "t": "1566-09-07",
+     "b": "Sigetvár Kuşatması ve Kanuni'nin ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 51,
+     "t": "1571-08-16",
+     "b": "Torda Edikti — Erdel'de din özgürlüğünün yasalaşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 52,
+     "t": "1590-07-20",
+     "b": "Vizsoly İncili'nin basımı — tam Macarca Kutsal Kitap",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 53,
+     "t": "1604-10-15",
+     "b": "Bocskai İstván ayaklanmasının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 54,
+     "t": "1606-06-23",
+     "b": "Viyana Barışı — Bocskai'nin din ve anayasal haklarının tanınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 55,
+     "t": "1606-11-11",
+     "b": "Zitvatorok Antlaşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 56,
+     "t": "1613-10-23",
+     "b": "Bethlen Gábor'un Erdel prensi seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 57,
+     "t": "1619-08-26",
+     "b": "Bethlen Gábor'un Bohemya seferi — Otuz Yıl Savaşları'na katılım",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 58,
+     "t": "1621-12-31",
+     "b": "Nikolsburg Barışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel",
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Bethlen (Erdel prensi) ile II. Ferdinand arasındaki barış"
+    },
+    {
+     "i": 59,
+     "t": "1622-01-01",
+     "b": "Gyulafehérvár Akademisi'nin (Collegium Academicum) kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 60,
+     "t": "1629-11-15",
+     "b": "Bethlen Gábor'un ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 61,
+     "t": "1657-01-01",
+     "b": "II. Rákóczi György'nin talihsiz Lehistan seferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 62,
+     "t": "1660-08-27",
+     "b": "Nagyvárad'ın Osmanlı'ya düşmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 63,
+     "t": "1671-04-30",
+     "b": "Wesselényi Tertibi'nin bastırılması ve Macar anayasasının askıya alınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 64,
+     "t": "1678-09-13",
+     "b": "Thököly İmre'nin Kuruc hareketinin başına geçmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 65,
+     "t": "1682-09-16",
+     "b": "Thököly İmre'nin Fülek'te Osmanlı vasalı Orta Macar kralı olarak tanınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "orta-macar-kralligi"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Tököli'nin vasal krallığı (künye 1682-09-16→1688-01-17)"
+    },
+    {
+     "i": 66,
+     "t": "1685-10-15",
+     "b": "Thököly'nin Varad'da tutuklanması ve Orta Macar Krallığı'nın çöküşü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "orta-macar-kralligi"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Tököli'nin vasal krallığı (künye 1682-09-16→1688-01-17)"
+    },
+    {
+     "i": 67,
+     "t": "1686-09-02",
+     "b": "Budin'in Habsburglar tarafından geri alınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 68,
+     "t": "1687-08-12",
+     "b": "İkinci Mohaç (Harsány) zaferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 69,
+     "t": "1687-12-09",
+     "b": "Pressburg Diyeti — Macar tacının Habsburg hanedanında kalıtsallaşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 70,
+     "t": "1697-09-11",
+     "b": "Zenta zaferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 71,
+     "t": "1699-01-26",
+     "b": "Karlofça Antlaşması — Macaristan'ın Habsburg tacında bütünleşmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 72,
+     "t": "1703-06-07",
+     "b": "II. Rákóczi Ferenc'in Brezán Manifestosu — bağımsızlık savaşının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 73,
+     "t": "1704-07-08",
+     "b": "Rákóczi'nin Erdel Prensi seçilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "erdel"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Erdel Prensliği olayı (KRONO-TUNA-0929 ile iş bölümü M-5434)"
+    },
+    {
+     "i": 74,
+     "t": "1707-06-13",
+     "b": "Ónod Diyeti — Habsburg hanedanının tahttan indirildiğinin ilanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 75,
+     "t": "1708-08-03",
+     "b": "Trencsén Muharebesi — Rákóczi'nin dönüm noktası bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 76,
+     "t": "1711-04-29",
+     "b": "Szatmár Barışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 77,
+     "t": "1711-02-21",
+     "b": "Rákóczi'nin sürgüne gitmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 78,
+     "t": "1720-01-01",
+     "b": "Bácska ve Bánát'a Alman (Schwaben) göçmenlerin iskânının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 79,
+     "t": "1723-06-19",
+     "b": "Macar Diyeti'nin Pragmatik Yaptırım'ı onaylaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 80,
+     "t": "1741-09-11",
+     "b": "Macar Diyeti'nin 'Vitam et sanguinem' desteği — Maria Theresia'ya silahlı yemin",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 81,
+     "t": "1738-01-01",
+     "b": "Büyük veba salgınının Güney Macaristan'ı vurması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 82,
+     "t": "1735-06-22",
+     "b": "Selmecbánya Maden Akademisi'nin kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 83,
+     "t": "1777-08-22",
+     "b": "Ratio Educationis'in yayımlanması — ilk modern eğitim reformu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 84,
+     "t": "1784-05-11",
+     "b": "II. József'in Macarcayı idare dilinden kaldırıp Almancayı getirmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 85,
+     "t": "1790-01-28",
+     "b": "II. József'in ölüm döşeğinde reformlarını geri alması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 86,
+     "t": "1795-05-20",
+     "b": "Martinovics Ignác ve Macar Yakobenlerinin idamı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 87,
+     "t": "1811-01-01",
+     "b": "Kazinczy Ferenc'in 'nyelvújítás' (dil yenileme) hareketinin doruğa çıkması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 88,
+     "t": "1825-11-11",
+     "b": "Széchenyi István'ın Macar Bilimler Akademisi için bağışını duyurması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 89,
+     "t": "1830-01-01",
+     "b": "Széchenyi'nin 'Hitel' (Kredi) adlı eserinin yayımlanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 90,
+     "t": "1831-08-01",
+     "b": "Doğu Slovakya kolera isyanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 91,
+     "t": "1836-05-25",
+     "b": "Macarcanın kısmen resmî dil olarak kabul edilmesi (1836 Dil Yasası)",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 92,
+     "t": "1837-08-22",
+     "b": "Pesti Nemzeti Színház'ın (Ulusal Tiyatro) açılışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 93,
+     "t": "1844-11-13",
+     "b": "Macarcanın tam resmî devlet dili ilan edilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 94,
+     "t": "1844-07-02",
+     "b": "'Himnusz'un (Macar millî marşı) bestelenmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 95,
+     "t": "1848-03-15",
+     "b": "Pest Devrimi — 12 Nokta ve basın özgürlüğü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 96,
+     "t": "1848-04-11",
+     "b": "Nisan Yasaları'nın (April Laws) onaylanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 97,
+     "t": "1848-09-29",
+     "b": "Pákozd Muharebesi — Hırvat Ban'ı Jelačić'in bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 98,
+     "t": "1849-01-05",
+     "b": "Habsburg ordusunun Pest-Budin'i işgali",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 99,
+     "t": "1849-04-14",
+     "b": "Debrecen'de Habsburg hanedanının hal'i ve bağımsızlığın ilanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 100,
+     "t": "1849-08-13",
+     "b": "Világos'ta teslim — ayaklanmanın Rus yardımıyla bastırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 101,
+     "t": "1849-10-06",
+     "b": "Aradi Vértanúk — on üç Macar generalinin idamı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 102,
+     "t": "1850-01-01",
+     "b": "Bach döneminin merkezîleştirici idaresinin kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 103,
+     "t": "1854-03-02",
+     "b": "Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 104,
+     "t": "1859-06-24",
+     "b": "Solferino bozgununun Bach sisteminin çöküşünü hızlandırması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 105,
+     "t": "1861-04-02",
+     "b": "Deák Ferenc'in 'Húsvéti cikk' (Paskalya Makalesi) ile uzlaşma çerçevesini önermesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 106,
+     "t": "1866-07-03",
+     "b": "Königgrätz bozgununun Ausgleich'i kaçınılmaz kılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 107,
+     "t": "1867-02-17",
+     "b": "Andrássy Gyula'nın Macaristan başbakanı olması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 108,
+     "t": "1867-03-30",
+     "b": "Ausgleich — Avusturya-Macaristan ikili monarşisinin kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 109,
+     "t": "1867-06-08",
+     "b": "I. Ferenc József'in Budin'de Macar kralı olarak taç giymesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 110,
+     "t": "1868-11-17",
+     "b": "Hırvat-Macar Uzlaşması (Nagodba)",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 111,
+     "t": "1868-12-06",
+     "b": "1868 Milliyetler Kanunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 112,
+     "t": "1867-12-14",
+     "b": "1867 Yahudi Emansipasyon Yasası",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 113,
+     "t": "1868-11-01",
+     "b": "Magyar Államvasutak'ın (MÁV, Macar Devlet Demiryolları) kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 114,
+     "t": "1873-05-09",
+     "b": "Viyana borsa çöküşünün Macar ekonomisine sıçraması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 115,
+     "t": "1873-11-17",
+     "b": "Buda, Óbuda ve Pest'in birleşerek Budapeşte'yi oluşturması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 116,
+     "t": "1875-11-14",
+     "b": "Liszt Ferenc Zeneakademisi'nin (Müzik Akademisi) kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 117,
+     "t": "1875-01-01",
+     "b": "Tisza Kálmán'ın Liberal Parti'yi kurup on beş yıllık iktidarını başlatması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 118,
+     "t": "1878-01-01",
+     "b": "Avusturya-Macaristan Gümrük ve Ticaret Birliği'nin on yıllık yenilenmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 119,
+     "t": "1896-05-02",
+     "b": "Kontinental Avrupa'nın ilk yeraltı metrosunun (Földalatti) Budapeşte'de açılışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 120,
+     "t": "1896-05-02",
+     "b": "Macar Millî Bin Yılı (Millennium) sergisinin açılışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 121,
+     "t": "1904-01-01",
+     "b": "Országház'ın (Macar Parlamento Binası) tamamlanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 122,
+     "t": "1905-01-19",
+     "b": "1905 seçim krizi — Ferenc József'in genel oy tehdidiyle Liberal Parti'ye baskısı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 123,
+     "t": "1908-01-01",
+     "b": "'Nyugat' (Batı) edebiyat dergisinin çıkışı — Macar modernizminin başlangıcı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 124,
+     "t": "1914-07-28",
+     "b": "Avusturya-Macaristan'ın Sırbistan'a savaş ilanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 125,
+     "t": "1918-10-31",
+     "b": "Aster Devrimi (Őszirózsás forradalom) — Károlyi Mihály'nın iktidara gelmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Habsburg tacı altındaki Macaristan (1526-08-29→1918-11-16)"
+    },
+    {
+     "i": 126,
+     "t": "1918-11-16",
+     "b": "Macaristan Halk Cumhuriyeti'nin ilanı — 637 yıllık krallık geleneğinin fiilen kesintiye uğraması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "macaristan-habsburg",
+      "macaristan-naiplik"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tam geçiş günü — iki künye"
+    }
+   ]
+  },
+  "kronoloji_almanya.js": {
+   "ozet": {
+    "gorunur": 125,
+    "GORUNMEZ": 7,
+    "pencere_disi": 1
+   },
+   "madde": [
+    {
+     "i": 0,
+     "t": "1338-07-16",
+     "b": "Rhense Bildirisi — imparatorluk seçiminin papalıktan bağımsızlığı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 1,
+     "t": "1346-07-11",
+     "b": "IV. Karl'ın Roma Kralı seçilmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 2,
+     "t": "1348-04-07",
+     "b": "Prag Üniversitesi'nin kurulması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 3,
+     "t": "1356-01-10",
+     "b": "Altın Ferman — yedi seçici prens sisteminin hukukîleşmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 4,
+     "t": "1356-11-24",
+     "b": "Lübeck'te ilk genel Hanse toplantısı (Hansetag)",
+     "mevcut_devlet": "hansa",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 5,
+     "t": "1386-10-18",
+     "b": "Heidelberg Üniversitesi'nin kurulması",
+     "mevcut_devlet": "pfalz",
+     "onerilen": [
+      "almanya",
+      "pfalz"
+     ],
+     "kunyesiz": [
+      "pfalz"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 6,
+     "t": "1409-12-02",
+     "b": "Leipzig Üniversitesi'nin kurulması",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 7,
+     "t": "1415-04-30",
+     "b": "Hohenzollern hanedanının Brandenburg Elektörlüğü'nü alması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "almanya",
+      "brandenburg"
+     ],
+     "kunyesiz": [
+      "brandenburg"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Brandenburg Elektörlüğü — künye YOK; Kutsal Roma içinde (M-5416 kural 3 + kapsayan yapı)"
+    },
+    {
+     "i": 8,
+     "t": "1419-02-12",
+     "b": "Rostock Üniversitesi'nin kurulması",
+     "mevcut_devlet": "hansa",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 9,
+     "t": "1460-04-04",
+     "b": "Basel Üniversitesi'nin kurulması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 10,
+     "t": "1474-02-28",
+     "b": "Utrecht Barışı — Hansa'nın İngiltere'yle ticarî imtiyazları",
+     "mevcut_devlet": "hansa",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 11,
+     "t": "1495-08-07",
+     "b": "Worms Diyeti — Reichskammergericht ve Ebedî Kamu Barışı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 12,
+     "t": "1500-07-02",
+     "b": "İmparatorluk çevrelerinin (Reichskreise) kurulması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 13,
+     "t": "1512-01-01",
+     "b": "Reichskreise sisteminin on çevreye genişletilmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 14,
+     "t": "1519-06-28",
+     "b": "Fugger ailesinin V. Karl'ın imparator seçimini finanse etmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 15,
+     "t": "1517-10-31",
+     "b": "Luther'in Wittenberg'de 95 Tezi",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 16,
+     "t": "1521-04-17",
+     "b": "Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 17,
+     "t": "1522-09-21",
+     "b": "Luther'in Yeni Ahit'i Almancaya çevirmesi",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 18,
+     "t": "1525-04-10",
+     "b": "Töton Şövalyeleri Tarikatı'nın sekülerleşmesi — Prusya Dükalığı",
+     "mevcut_devlet": "teuton-sovalyeleri",
+     "onerilen": [
+      "prusya-dukaligi"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Dükalığı künyesi (1525-04-08)"
+    },
+    {
+     "i": 19,
+     "t": "1525-05-15",
+     "b": "Alman Köylü Savaşı'nın Frankenhausen'de bastırılması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 20,
+     "t": "1529-04-19",
+     "b": "Speyer Diyeti — 'Protestan' adının doğuşu",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 21,
+     "t": "1531-02-27",
+     "b": "Schmalkaldic Birliği'nin kurulması",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 22,
+     "t": "1534-02-23",
+     "b": "Anabaptistlerin Münster'de iktidarı ele geçirmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 23,
+     "t": "1535-06-25",
+     "b": "Münster kuşatmasının sona ermesi ve Anabaptist krallığın çöküşü",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 24,
+     "t": "1546-02-18",
+     "b": "Luther'in ölümü",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 25,
+     "t": "1547-04-24",
+     "b": "Mühlberg Muharebesi — Schmalkaldic Birliği'nin yenilgisi",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 26,
+     "t": "1608-05-14",
+     "b": "Protestan Birliği'nin kurulması",
+     "mevcut_devlet": "pfalz",
+     "onerilen": [
+      "almanya",
+      "pfalz"
+     ],
+     "kunyesiz": [
+      "pfalz"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 27,
+     "t": "1609-07-10",
+     "b": "Katolik Birlik'in (Katholische Liga) kurulması",
+     "mevcut_devlet": "bavyera",
+     "onerilen": [
+      "bavyera"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye var"
+    },
+    {
+     "i": 28,
+     "t": "1630-07-06",
+     "b": "İsveç Kralı Gustav Adolf'un Pomeranya'ya çıkarma yapması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 29,
+     "t": "1631-05-20",
+     "b": "Magdeburg'un yakılıp yağmalanması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 30,
+     "t": "1631-09-17",
+     "b": "Breitenfeld Muharebesi — İsveç'in zaferi",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 31,
+     "t": "1632-11-16",
+     "b": "Lützen Muharebesi ve Gustav Adolf'un ölümü",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 32,
+     "t": "1634-09-06",
+     "b": "Nördlingen Muharebesi — İsveç'in ağır yenilgisi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 33,
+     "t": "1635-05-30",
+     "b": "Prag Barışı — imparatorluk içi uzlaşma girişimi",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 34,
+     "t": "1640-12-01",
+     "b": "Büyük Elektör Friedrich Wilhelm'in tahta çıkışı",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "almanya",
+      "brandenburg"
+     ],
+     "kunyesiz": [
+      "brandenburg"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Brandenburg Elektörlüğü — künye YOK; Kutsal Roma içinde (M-5416 kural 3 + kapsayan yapı)"
+    },
+    {
+     "i": 35,
+     "t": "1656-01-01",
+     "b": "Kırım elçilik heyetinin Königsberg'de Büyük Elektör'le görüşmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya-dukaligi"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Dükalığı (Königsberg)"
+    },
+    {
+     "i": 36,
+     "t": "1672-01-01",
+     "b": "Brandenburg yardımcı kuvvetlerinin Osmanlı-Lehistan savaşlarına katılması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "almanya",
+      "brandenburg"
+     ],
+     "kunyesiz": [
+      "brandenburg"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Brandenburg Elektörlüğü — künye YOK; Kutsal Roma içinde (M-5416 kural 3 + kapsayan yapı)"
+    },
+    {
+     "i": 37,
+     "t": "1685-10-29",
+     "b": "Potsdam Fermanı — Huguenot mültecilerin kabulü",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "almanya",
+      "brandenburg"
+     ],
+     "kunyesiz": [
+      "brandenburg"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Brandenburg Elektörlüğü — künye YOK; Kutsal Roma içinde (M-5416 kural 3 + kapsayan yapı)"
+    },
+    {
+     "i": 38,
+     "t": "1701-01-18",
+     "b": "I. Friedrich'in kendini 'Prusya Kralı' ilan etmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 39,
+     "t": "1713-02-25",
+     "b": "I. Friedrich Wilhelm'in ('Asker Kral') tahta çıkışı",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 40,
+     "t": "1718-01-14",
+     "b": "Nişancı Mehmed Paşa'nın Prusya Kralı'na dostluk mektubu göndermesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 41,
+     "t": "1740-05-31",
+     "b": "II. Friedrich'in ('Büyük Friedrich') tahta çıkışı",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 42,
+     "t": "1742-07-28",
+     "b": "Berlin Antlaşması — Birinci Silezya Savaşı'nın sonu",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 43,
+     "t": "1745-06-04",
+     "b": "Hohenfriedberg zaferi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 44,
+     "t": "1745-12-25",
+     "b": "Dresden Barışı — Silezya'nın Prusya'da kesinleşmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 45,
+     "t": "1757-11-05",
+     "b": "Rossbach zaferi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 46,
+     "t": "1757-12-05",
+     "b": "Leuthen zaferi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 47,
+     "t": "1760-11-03",
+     "b": "Torgau zaferi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 48,
+     "t": "1761-03-22",
+     "b": "Osmanlı-Prusya dostluk ve ticaret antlaşması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 49,
+     "t": "1763-08-12",
+     "b": "Generallandschulreglement — Prusya'da genel ilköğretim yasası",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 50,
+     "t": "1763-11-01",
+     "b": "Ahmed Resmî Efendi'nin Berlin'e ilk Osmanlı elçisi olarak gönderilmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 51,
+     "t": "1786-08-17",
+     "b": "Büyük Friedrich'in ölümü",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 52,
+     "t": "1790-01-31",
+     "b": "Prusya-Osmanlı ittifak antlaşması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 53,
+     "t": "1790-07-27",
+     "b": "Reichenbach Konvansiyonu — Prusya baskısıyla Avusturya'nın barışa zorlanması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 54,
+     "t": "1794-06-01",
+     "b": "Prusya Genel Devlet Yasası'nın (Allgemeines Landrecht) yürürlüğe girmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 55,
+     "t": "1806-10-14",
+     "b": "Jena-Auerstedt bozgunu",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 56,
+     "t": "1807-07-09",
+     "b": "Tilsit Antlaşması — Prusya'nın topraklarının yarısını kaybetmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 57,
+     "t": "1807-10-09",
+     "b": "Ekim Fermanı — Stein'ın serfliği kaldırma reformu",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 58,
+     "t": "1810-10-15",
+     "b": "Berlin (Humboldt) Üniversitesi'nin açılması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 59,
+     "t": "1812-03-11",
+     "b": "Prusya'da Yahudi Emansipasyon Fermanı",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 60,
+     "t": "1813-03-17",
+     "b": "Prusya'nın Fransa'ya savaş ilanı — 'Halkıma' çağrısı",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 61,
+     "t": "1813-10-19",
+     "b": "Leipzig Milletler Savaşı — Napolyon'un büyük yenilgisi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 62,
+     "t": "1814-09-03",
+     "b": "Genel askerlik yükümlülüğünün kalıcı yasayla sabitlenmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 63,
+     "t": "1815-06-08",
+     "b": "Alman Konfederasyonu'nun (Deutscher Bund) kurulması",
+     "mevcut_devlet": "alman-konfederasyonu",
+     "onerilen": [
+      "alman-konfederasyonu"
+     ],
+     "kunyesiz": [
+      "alman-konfederasyonu"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 64,
+     "t": "1818-05-26",
+     "b": "Prusya Gümrük Yasası — Zollverein'in temeli",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 65,
+     "t": "1834-01-01",
+     "b": "Alman Gümrük Birliği'nin (Zollverein) yürürlüğe girmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 66,
+     "t": "1835-12-07",
+     "b": "Almanya'nın ilk demiryolu hattı — Nürnberg-Fürth",
+     "mevcut_devlet": "bavyera",
+     "onerilen": [
+      "bavyera"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye var"
+    },
+    {
+     "i": 67,
+     "t": "1840-01-01",
+     "b": "Osmanlı-Alman ticaret antlaşmasının yenilenmesi",
+     "mevcut_devlet": "alman-konfederasyonu",
+     "onerilen": [
+      "alman-konfederasyonu"
+     ],
+     "kunyesiz": [
+      "alman-konfederasyonu"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 68,
+     "t": "1842-09-04",
+     "b": "Köln Katedrali'nin inşasının yeniden başlatılması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 69,
+     "t": "1844-06-04",
+     "b": "Silezya dokumacı ayaklanması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 70,
+     "t": "1847-10-12",
+     "b": "Siemens & Halske şirketinin kurulması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 71,
+     "t": "1847-07-23",
+     "b": "Helmholtz'un enerjinin korunumu ilkesini sunması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 72,
+     "t": "1848-03-18",
+     "b": "Berlin barikat çatışmaları — Mart Devrimi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 73,
+     "t": "1848-05-18",
+     "b": "Frankfurt Paulskirche Meclisi'nin toplanması",
+     "mevcut_devlet": "alman-konfederasyonu",
+     "onerilen": [
+      "alman-konfederasyonu"
+     ],
+     "kunyesiz": [
+      "alman-konfederasyonu"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 74,
+     "t": "1849-03-28",
+     "b": "Paulskirche Anayasası'nın kabulü",
+     "mevcut_devlet": "alman-konfederasyonu",
+     "onerilen": [
+      "alman-konfederasyonu"
+     ],
+     "kunyesiz": [
+      "alman-konfederasyonu"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 75,
+     "t": "1849-04-03",
+     "b": "IV. Friedrich Wilhelm'in imparatorluk tacını reddi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 76,
+     "t": "1850-11-29",
+     "b": "Olmütz Punktasyonu — Erfurt Birliği girişiminin çöküşü",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 77,
+     "t": "1856-08-01",
+     "b": "Neandertal insan fosilinin keşfi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 78,
+     "t": "1862-03-20",
+     "b": "Zollverein-Osmanlı gümrük muahedesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 79,
+     "t": "1862-09-23",
+     "b": "Bismarck'ın Prusya Başbakanı olması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 80,
+     "t": "1864-02-01",
+     "b": "İkinci Schleswig Savaşı'nın başlaması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 81,
+     "t": "1866-08-23",
+     "b": "Prag Barışı — Avusturya'nın Alman meselesinden çekilmesi",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 82,
+     "t": "1867-04-16",
+     "b": "Kuzey Alman Konfederasyonu Anayasası'nın kabulü",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 83,
+     "t": "1870-07-19",
+     "b": "Fransa'nın Prusya'ya savaş ilanı",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 84,
+     "t": "1870-09-02",
+     "b": "Sedan Muharebesi — III. Napolyon'un esir alınması",
+     "mevcut_devlet": "brandenburg-prusya",
+     "onerilen": [
+      "prusya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Prusya Krallığı penceresi (1701-01-18→1871-01-18)"
+    },
+    {
+     "i": 85,
+     "t": "1871-01-18",
+     "b": "Alman İmparatorluğu'nun Versailles'de ilanı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 86,
+     "t": "1871-04-16",
+     "b": "Alman İmparatorluğu Anayasası'nın kabulü",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 87,
+     "t": "1871-05-10",
+     "b": "Frankfurt Antlaşması — Alsace-Lorraine'in ilhakı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 88,
+     "t": "1873-05-11",
+     "b": "Kulturkampf — Mayıs Yasaları'nın ilki",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 89,
+     "t": "1876-08-13",
+     "b": "Bayreuth Festspielhaus'un açılışı — Wagner'in 'Nibelung'un Yüzüğü'",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 90,
+     "t": "1878-07-13",
+     "b": "Berlin Kongresi'nde 'dürüst simsar' rolü",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 91,
+     "t": "1878-10-19",
+     "b": "Sosyalistlere Karşı Yasa (Sozialistengesetz)",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 92,
+     "t": "1883-06-15",
+     "b": "Sağlık sigortası yasası — dünyanın ilk devlet sosyal güvencesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 93,
+     "t": "1884-11-15",
+     "b": "Berlin Kongo Konferansı — Afrika'nın paylaşılması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 94,
+     "t": "1885-02-26",
+     "b": "Berlin Genel Senedi — Afrika sömürgeciliğinin kuralları",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 95,
+     "t": "1888-06-15",
+     "b": "II. Wilhelm'in tahta çıkışı — 'Üç İmparator Yılı'nın sonu",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 96,
+     "t": "1888-10-04",
+     "b": "Deutsche Bank'ın Haydarpaşa-İzmit hattı imtiyazını alması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 97,
+     "t": "1889-01-01",
+     "b": "II. Wilhelm'in İstanbul ziyareti",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 98,
+     "t": "1889-06-22",
+     "b": "Yaşlılık ve Malullük Sigortası Yasası",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 99,
+     "t": "1890-03-20",
+     "b": "Bismarck'ın görevden alınması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 100,
+     "t": "1895-11-08",
+     "b": "Röntgen'in X-ışınlarını keşfetmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 101,
+     "t": "1898-11-08",
+     "b": "II. Wilhelm'in Şam ziyareti — '300 milyon Müslümanın dostu' beyanı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 102,
+     "t": "1900-01-01",
+     "b": "Alman Medeni Kanunu'nun (BGB) yürürlüğe girmesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 103,
+     "t": "1900-12-14",
+     "b": "Planck'ın kuantum hipotezini sunması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 104,
+     "t": "1903-03-05",
+     "b": "Bağdat Demiryolu Antlaşması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 105,
+     "t": "1905-03-31",
+     "b": "Birinci Fas Krizi — Tanca çıkarması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 106,
+     "t": "1911-07-01",
+     "b": "İkinci Fas Krizi — Agadir Krizi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 107,
+     "t": "1913-12-14",
+     "b": "Liman von Sanders'in Osmanlı ordusuna atanması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 108,
+     "t": "1914-08-02",
+     "b": "Osmanlı-Alman gizli ittifak antlaşması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 109,
+     "t": "1914-08-04",
+     "b": "Almanya'nın Belçika'yı işgali ve İngiltere'nin savaş ilanı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 110,
+     "t": "1914-08-30",
+     "b": "Tannenberg Muharebesi'nin sonuçlanması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 111,
+     "t": "1916-02-21",
+     "b": "Verdun Muharebesi'nin başlaması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 112,
+     "t": "1916-05-31",
+     "b": "Skagerrak (Jutland) Deniz Muharebesi",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 113,
+     "t": "1915-11-25",
+     "b": "Einstein'ın genel görelilik alan denklemlerini sunması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 114,
+     "t": "1917-04-06",
+     "b": "ABD'nin Almanya'ya savaş ilanı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 115,
+     "t": "1918-03-21",
+     "b": "Alman Bahar Taarruzu'nun (Kaiserschlacht) başlaması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 116,
+     "t": "1918-11-09",
+     "b": "II. Wilhelm'in tahttan çekilmesi ve Cumhuriyet ilanı",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 117,
+     "t": "1919-06-28",
+     "b": "Versay Antlaşması'nın imzalanması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 118,
+     "t": "1919-08-11",
+     "b": "Weimar Anayasası'nın kabulü",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 119,
+     "t": "1923-01-11",
+     "b": "Fransız-Belçika Ruhr İşgali",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "Kutsal Roma / Alman İmparatorluğu / Weimar penceresi"
+    },
+    {
+     "i": 120,
+     "t": "1923-11-15",
+     "b": "Rentenmark'ın çıkarılması — hiperenflasyonun durdurulması",
+     "mevcut_devlet": "almanya",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [
+      "almanya"
+     ],
+     "gerekce": "🔴 künye penceresi dışında (t > 1923-10-29)"
+    },
+    {
+     "i": 121,
+     "t": "1410-07-15",
+     "b": "Grunwald (Tannenberg) Muharebesi — Töton Tarikatı'nın yenilgisi",
+     "mevcut_devlet": "teuton-sovalyeleri",
+     "onerilen": [
+      "teuton-sovalyeleri"
+     ],
+     "kunyesiz": [
+      "teuton-sovalyeleri"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Cermen Şövalyeleri devleti — künye YOK"
+    },
+    {
+     "i": 122,
+     "t": "1619-08-26",
+     "b": "Friedrich V'in Bohemya tacını kabulü — 'Kış Kralı'",
+     "mevcut_devlet": "pfalz",
+     "onerilen": [
+      "almanya",
+      "pfalz"
+     ],
+     "kunyesiz": [
+      "pfalz"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 123,
+     "t": "1623-02-25",
+     "b": "Pfalz Elektörlüğü unvanının Bavyera'ya devri",
+     "mevcut_devlet": "pfalz",
+     "onerilen": [
+      "almanya",
+      "pfalz"
+     ],
+     "kunyesiz": [
+      "pfalz"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 124,
+     "t": "1697-06-15",
+     "b": "Sakson Elektörü'nün Katolikliğe geçip Lehistan Kralı seçilmesi",
+     "mevcut_devlet": "saksonya",
+     "onerilen": [
+      "almanya",
+      "saksonya"
+     ],
+     "kunyesiz": [
+      "saksonya"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 125,
+     "t": "1714-08-01",
+     "b": "Hannover Elektörü'nün İngiltere Kralı I. George olarak tahta çıkışı",
+     "mevcut_devlet": "hannover",
+     "onerilen": [
+      "almanya",
+      "hannover"
+     ],
+     "kunyesiz": [
+      "hannover"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Hannover — künye YOK"
+    },
+    {
+     "i": 126,
+     "t": "1837-06-20",
+     "b": "Hannover-Britanya kişisel birliğinin sona ermesi",
+     "mevcut_devlet": "hannover",
+     "onerilen": [
+      "hannover"
+     ],
+     "kunyesiz": [
+      "hannover"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Hannover — künye YOK"
+    },
+    {
+     "i": 127,
+     "t": "1803-02-25",
+     "b": "Reichsdeputationshauptschluss — dinî elektörlüklerin sekülerleşmesi",
+     "mevcut_devlet": "dini-elektorlukler",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 128,
+     "t": "1806-01-01",
+     "b": "Bavyera'nın krallığa yükseltilmesi",
+     "mevcut_devlet": "bavyera",
+     "onerilen": [
+      "bavyera"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye var"
+    },
+    {
+     "i": 129,
+     "t": "1806-01-01",
+     "b": "Württemberg'in krallığa yükseltilmesi",
+     "mevcut_devlet": "wurttemberg",
+     "onerilen": [
+      "almanya",
+      "wurttemberg"
+     ],
+     "kunyesiz": [
+      "wurttemberg"
+     ],
+     "pencere_disi": [],
+     "gerekce": "Württemberg — künye YOK; Kutsal Roma henüz sürüyor"
+    },
+    {
+     "i": 130,
+     "t": "1818-08-22",
+     "b": "Baden Anayasası — dönemin en liberal metinlerinden biri",
+     "mevcut_devlet": "baden",
+     "onerilen": [
+      "baden"
+     ],
+     "kunyesiz": [
+      "baden"
+     ],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    },
+    {
+     "i": 131,
+     "t": "1669-05-01",
+     "b": "Son genel Hanse toplantısının (Hansetag) Lübeck'te yapılması",
+     "mevcut_devlet": "hansa",
+     "onerilen": [
+      "almanya"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "künye YOK"
+    }
+   ]
+  },
+  "kronoloji_habsburg.js": {
+   "ozet": {
+    "gorunur": 117
+   },
+   "madde": [
+    {
+     "i": 0,
+     "t": "1526-08-29",
+     "b": "Mohaç Meydan Savaşı ve Habsburg mirasının doğuşu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 1,
+     "t": "1529-09-27",
+     "b": "I. Viyana Kuşatması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 2,
+     "t": "1532-08-05",
+     "b": "Güns (Kőszeg) kuşatması ve Alaman seferinin dönüşü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 3,
+     "t": "1538-02-24",
+     "b": "Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 4,
+     "t": "1541-08-29",
+     "b": "Budin'in fethi — Macaristan üçe bölündü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 5,
+     "t": "1547-01-01",
+     "b": "İstanbul Mütarekesi — Habsburg'un vergi karşılığı barışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 6,
+     "t": "1552-09-04",
+     "b": "Eğri kuşatmasının püskürtülmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 7,
+     "t": "1555-01-01",
+     "b": "Augsburg Din Barışı — Ferdinand'ın uzlaşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 8,
+     "t": "1556-01-01",
+     "b": "Hofkriegsrat'ın kurulması — sürekli ordunun idarî omurgası",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 9,
+     "t": "1558-01-01",
+     "b": "I. Ferdinand'ın imparator olması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 10,
+     "t": "1564-07-25",
+     "b": "Ferdinand'ın ölümü ve Avusturya mirasının üçe bölünmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 11,
+     "t": "1568-01-01",
+     "b": "Edirne Antlaşması — serhaddin dondurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 12,
+     "t": "1571-01-01",
+     "b": "Religionsassekuration — Aşağı Avusturya soylularına mezhep güvencesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 13,
+     "t": "1583-01-01",
+     "b": "Sarayın Prag'a taşınması — Rudolf'un Altın Şehri",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 14,
+     "t": "1593-07-01",
+     "b": "Uzun Türk Savaşı'nın başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 15,
+     "t": "1596-10-26",
+     "b": "Haçova bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 16,
+     "t": "1600-01-01",
+     "b": "Tycho Brahe ve Kepler'in Prag sarayında buluşması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 17,
+     "t": "1600-10-20",
+     "b": "Kanije'nin kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 18,
+     "t": "1604-10-15",
+     "b": "Bocskai ayaklanması — Macar soylularının isyanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 19,
+     "t": "1606-06-23",
+     "b": "Viyana Barışı — Macar Protestanlarına mezhep serbestisi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 20,
+     "t": "1606-11-11",
+     "b": "Zitvatorok Antlaşması — protokolde eşitlik",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 21,
+     "t": "1608-01-01",
+     "b": "Bruderzwist — Rudolf ile Mathias'ın kardeş kavgası",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 22,
+     "t": "1609-07-09",
+     "b": "Majestätsbrief — Bohemya'ya mezhep özgürlüğü beratı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 23,
+     "t": "1618-05-23",
+     "b": "Prag Pencereden Atılma Vakası",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 24,
+     "t": "1619-01-01",
+     "b": "II. Ferdinand'ın tahta çıkışı ve Bohemya tacının reddi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 25,
+     "t": "1620-11-08",
+     "b": "Beyaz Dağ Muharebesi — Bohemya meclislerinin tasfiyesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 26,
+     "t": "1627-01-01",
+     "b": "Verneuerte Landesordnung — Bohemya tacının kalıtsallaştırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 27,
+     "t": "1634-02-25",
+     "b": "Wallenstein'ın öldürülmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 28,
+     "t": "1648-10-24",
+     "b": "Vestfalya Barışı — imparatorluk üzerindeki Habsburg üstünlüğünün sınırlanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 29,
+     "t": "1663-09-24",
+     "b": "Uyvar'ın kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 30,
+     "t": "1664-08-01",
+     "b": "Sen Gotar (St. Gotthard) zaferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 31,
+     "t": "1664-08-09",
+     "b": "Vasvár Antlaşması — zafere rağmen ödün",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 32,
+     "t": "1671-04-30",
+     "b": "Wesselényi tertibinin bastırılması ve Macar anayasasının askıya alınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 33,
+     "t": "1683-07-14",
+     "b": "II. Viyana Kuşatmasının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 34,
+     "t": "1683-09-12",
+     "b": "Viyana'nın kurtarılması — Kahlenberg Muharebesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 35,
+     "t": "1683-10-09",
+     "b": "Parkan zaferi ve Estergon'un geri alınışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 36,
+     "t": "1684-03-05",
+     "b": "Kutsal İttifak'ın kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 37,
+     "t": "1686-09-02",
+     "b": "Budin'in geri alınışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 38,
+     "t": "1687-08-12",
+     "b": "İkinci Mohaç (Harşan) zaferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 39,
+     "t": "1687-12-09",
+     "b": "Pressburg Diyeti — Macar tacının Habsburg'da pekişmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 40,
+     "t": "1691-08-19",
+     "b": "Salankamen zaferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 41,
+     "t": "1697-09-11",
+     "b": "Zenta zaferi — Prens Eugen'in yükselişi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 42,
+     "t": "1699-01-26",
+     "b": "Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 43,
+     "t": "1701-01-01",
+     "b": "İspanya Veraset Savaşı'na girilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 44,
+     "t": "1703-01-01",
+     "b": "II. Rákóczi Ferenc ayaklanmasının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 45,
+     "t": "1711-04-29",
+     "b": "Szatmár Barışı — Macaristan'la uzlaşma",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 46,
+     "t": "1713-04-19",
+     "b": "Pragmatik Yaptırım — monarşinin ilk temel yasası",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 47,
+     "t": "1714-01-01",
+     "b": "Karlskirche'nin temelinin atılması — Habsburg barokunun beyannamesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 48,
+     "t": "1716-08-05",
+     "b": "Varadin (Petrovaradin) zaferi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 49,
+     "t": "1717-08-18",
+     "b": "Belgrad'ın alınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 50,
+     "t": "1718-07-21",
+     "b": "Pasarofça Antlaşması — imparatorluğun en geniş sınırı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 51,
+     "t": "1720-01-01",
+     "b": "Pragmatik Yaptırım'ın eyalet meclislerince kabulü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 52,
+     "t": "1737-08-04",
+     "b": "Banaluka bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 53,
+     "t": "1739-01-01",
+     "b": "Karlskirche'nin tamamlanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 54,
+     "t": "1739-07-22",
+     "b": "Hisarcık (Grocka) bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 55,
+     "t": "1739-09-18",
+     "b": "Belgrad Antlaşması — Pasarofça kazançlarının kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 56,
+     "t": "1740-10-20",
+     "b": "VI. Karl'ın ölümü ve Maria Theresia'nın veraseti",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 57,
+     "t": "1740-12-16",
+     "b": "Prusya'nın Silezya'yı işgali",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 58,
+     "t": "1745-09-13",
+     "b": "Franz Stephan'ın imparator seçilmesi — Habsburg-Lothringen hanedanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 59,
+     "t": "1748-10-01",
+     "b": "Aachen Barışı — Maria Theresia'nın tanınması, Silezya'nın kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 60,
+     "t": "1749-01-01",
+     "b": "Haugwitz reformları — merkezî idarenin kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 61,
+     "t": "1756-01-01",
+     "b": "Renversement des alliances — Fransa ile ittifak",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 62,
+     "t": "1756-08-29",
+     "b": "Yedi Yıl Savaşı'nın başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 63,
+     "t": "1763-02-15",
+     "b": "Hubertusburg Barışı — Silezya'dan kesin vazgeçiş",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 64,
+     "t": "1772-01-01",
+     "b": "Lehistan'ın birinci paylaşımı — Galiçya'nın ilhakı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 65,
+     "t": "1774-01-01",
+     "b": "Allgemeine Schulordnung — zorunlu ilköğretim",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 66,
+     "t": "1780-11-29",
+     "b": "Maria Theresia'nın ölümü ve II. Joseph'in tek başına iktidarı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 67,
+     "t": "1781-10-13",
+     "b": "Hoşgörü Fermanı (Toleranzpatent)",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 68,
+     "t": "1781-11-01",
+     "b": "Serfliğin (Leibeigenschaft) kaldırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 69,
+     "t": "1782-01-12",
+     "b": "Manastırların kapatılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 70,
+     "t": "1784-01-01",
+     "b": "Almancanın idare dili yapılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 71,
+     "t": "1784-08-16",
+     "b": "Allgemeines Krankenhaus — tıbbî bakımın yoksul bakımından ayrılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 72,
+     "t": "1788-02-09",
+     "b": "Son Osmanlı-Habsburg savaşının başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 73,
+     "t": "1790-02-20",
+     "b": "II. Joseph'in ölümü ve reformların geri alınması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 74,
+     "t": "1791-08-04",
+     "b": "Ziştovi Antlaşması — son Osmanlı-Habsburg barışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 75,
+     "t": "1792-04-20",
+     "b": "Fransa ile savaşın başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 76,
+     "t": "1797-10-17",
+     "b": "Campo Formio — Belçika'nın kaybı, Venedik'in kazanılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 77,
+     "t": "1804-08-11",
+     "b": "Avusturya İmparatorluğu'nun ilanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 78,
+     "t": "1805-12-02",
+     "b": "Austerlitz — Üç İmparator Muharebesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 79,
+     "t": "1806-08-06",
+     "b": "Kutsal Roma İmparatorluğu'nun sonu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 80,
+     "t": "1809-07-06",
+     "b": "Wagram bozgunu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 81,
+     "t": "1810-04-01",
+     "b": "Marie Louise'in Napolyon ile evlendirilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 82,
+     "t": "1811-06-01",
+     "b": "ABGB — Genel Medenî Kanun",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 83,
+     "t": "1814-09-18",
+     "b": "Viyana Kongresi'nin toplanması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 84,
+     "t": "1815-06-09",
+     "b": "Viyana Kongresi Nihaî Senedi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 85,
+     "t": "1819-09-20",
+     "b": "Karlsbad Kararları — sansür ve muhalefetin bastırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 86,
+     "t": "1821-01-01",
+     "b": "İtalya'daki ayaklanmaların bastırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 87,
+     "t": "1835-03-02",
+     "b": "I. Franz'ın ölümü ve devlet konferansı idaresi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 88,
+     "t": "1848-03-13",
+     "b": "Mart Devrimi ve Metternich'in düşüşü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 89,
+     "t": "1848-10-31",
+     "b": "Viyana ayaklanmasının silahla bastırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 90,
+     "t": "1848-12-02",
+     "b": "I. Franz Joseph'in tahta çıkışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 91,
+     "t": "1849-04-14",
+     "b": "Macaristan'ın Habsburg hâkimiyetinden ayrılma ilanı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 92,
+     "t": "1849-08-13",
+     "b": "Macar ayaklanmasının Rus yardımıyla bastırılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 93,
+     "t": "1851-12-31",
+     "b": "Silvester Patenti — neo-mutlakiyetin kurulması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 94,
+     "t": "1854-01-01",
+     "b": "Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 95,
+     "t": "1854-07-17",
+     "b": "Semmering demiryolu — Avrupa'nın ilk dağ demiryolu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 96,
+     "t": "1856-03-30",
+     "b": "Paris Antlaşması — Osmanlı'nın toprak bütünlüğünün garanti edilmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 97,
+     "t": "1857-12-20",
+     "b": "Ringstrasse kararı — surların yıkılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 98,
+     "t": "1859-06-24",
+     "b": "Solferino bozgunu ve Lombardiya'nın kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 99,
+     "t": "1866-01-01",
+     "b": "Mendel'in kalıtım yasalarını yayımlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 100,
+     "t": "1866-07-03",
+     "b": "Königgrätz — Almanya'daki üstünlüğün kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 101,
+     "t": "1866-10-03",
+     "b": "Viyana Barışı — Venedik'in kaybı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 102,
+     "t": "1867-03-30",
+     "b": "Ausgleich — Avusturya-Macaristan ikili monarşisi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 103,
+     "t": "1867-12-21",
+     "b": "Aralık Anayasası — temel haklar ve hukuk devleti",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 104,
+     "t": "1873-05-01",
+     "b": "Viyana Dünya Sergisi'nin açılışı",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 105,
+     "t": "1873-05-09",
+     "b": "Borsa çöküşü (Börsenkrach)",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 106,
+     "t": "1874-12-16",
+     "b": "Yeni Burgtheater'in temel atılması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 107,
+     "t": "1878-07-13",
+     "b": "Berlin Kongresi — Bosna-Hersek'in işgal ve idare yetkisi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 108,
+     "t": "1879-10-07",
+     "b": "Zweibund — Almanya ile ittifak",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 109,
+     "t": "1889-01-30",
+     "b": "Mayerling — Veliaht Rudolf'un ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 110,
+     "t": "1898-09-10",
+     "b": "İmparatoriçe Elisabeth'in öldürülmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 111,
+     "t": "1900-01-01",
+     "b": "Freud'un Rüyaların Yorumu'nu yayımlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 112,
+     "t": "1908-10-06",
+     "b": "Bosna-Hersek'in ilhakı ve ilhak krizi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 113,
+     "t": "1914-06-28",
+     "b": "Saraybosna suikastı — Veliaht Franz Ferdinand'ın öldürülmesi",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 114,
+     "t": "1914-07-28",
+     "b": "Sırbistan'a savaş ilanı — I. Dünya Savaşı'nın başlaması",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 115,
+     "t": "1916-11-21",
+     "b": "Franz Joseph'in ölümü",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    },
+    {
+     "i": 116,
+     "t": "1918-11-11",
+     "b": "I. Karl'ın devlet işlerinden çekilmesi ve monarşinin sonu",
+     "mevcut_devlet": null,
+     "onerilen": [
+      "habsburg"
+     ],
+     "kunyesiz": [],
+     "pencere_disi": [],
+     "gerekce": "tümü habsburg penceresinde (ölçüldü: 0 pencere dışı)"
+    }
+   ]
+  }
+ }
+}
