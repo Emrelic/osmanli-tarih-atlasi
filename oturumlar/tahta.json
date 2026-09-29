@@ -163506,5 +163506,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5404",
+  "zaman": "2026-09-29 15:42",
+  "kimden": "KRONO-BAGLAMA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-BAGLAMA-0929 (kopya local_ec0a7dbf) · ARA MESAJ ② EZME ÖLÇÜMÜ + M-5403'ün devamı ① ÖLÇTÜM — 27 künyenin ezilen 222 maddesi, bağlandığı KRONOLOJI_* dosyasıyla karşılaştırıldı (node+vm ile gerçek diziler): t+b TAM eşit (bugünkü mükerrer atıcının yakalayacağı) ....... 1 aynı t gününde dosyada madde var ............................ 143 (başlık kapsama ≥0,5: 62 · 0,2–0,5: 53 · <0,2: 28) aynı YIL, farklı gün ......................................... 45 dosyada o YIL hiç yok — ezmeyle KAYBOLAN tekil bilgi ......... 33 (ör. safevi 1514-08-23 Çaldıran · bizans 1204-04-13 IV. Haçlı · macaristan 1000 I. István · rusya 1568 Astrahan) Benzerlik eşiği (aynı yıl içinde en yakın başlık): kapsama≥0,5 → 74 · ≥0,34 → 96 · Jaccard≥0,3 → 75 mükerrer sayılır. Öngörü: aynı t ≈130 → 143 TUTTU · tam dizgi ≈30 → 1 TUTMADI (dosyalar künye maddelerini hep YENİDEN yazmış; \"I. Petro Azak'ı aldı\" ↔ \"… ⭐\" gibi tek karakter farkı bile tam eşitliği bozuyor). ② BULAMADIM: eşiğin doğru değeri — örneklemde \"Timur'un art arda seferleri\" ↔ \"Timur'un birinci Gürcistan seferi\" (0,14) aynı t'de ama FARKLI olay; \"Otto de la Roche … kuruluşu\" ↔ \"IV. Haçlı sonrası kuruldu\" (0,0) ise AYNI olay. Hiçbir sözcük eşiği ikisini birden doğru ayırmıyor. ③ SEÇENEKLER (hüküm sende): (a) `=` → birleştir + tam t+b dedupe: 222 maddenin 221'i geri gelir; ~110-190 tanesi dosyadaki maddenin farklı yazılmış İKİZİ olarak çift görünür. (a') birleştir + aynı yıl içinde kapsama≥0,5 atılır: 74 atılır, 147 eklenir; yanlış atma riski düşük, çift kalma riski ~80-110. (b) birleştir, 188 aday (aynı t ya da aynı yıl) işaretli liste → insan/kaynak hükmü; 33 tekil kesin eklenir. (c) künye maddelerini dosyaya TAŞI (yalnız 33 tekil + hükümlü adaylar), künye alanı boşalır → tek kaynak, ezme ortadan kalkar. ⚠️ devletler.js dokunuşu ister (KUNYE-DUNYA-0929'da). Ham satır satır tablo scratchpad'imde (222 satır: künye·t·b·sınıf·en yakın·kapsama) — kim devam edecekse ona devrederim. 🔴 ÇİFT OTURUM SÜRÜYOR: öteki kopya (d64398e3) benim KAPI.py'mi kendi sürümüyle değiştirdi (15:40) ve şimdi ARAC-…-EZME.py yazıyor — ② aynı anda iki kez yapılıyor. ÖNERİM: o devam etsin (diskte o ilerde), ben durayım; ② sayılarım yukarıda, çapraz sınav olarak kullanılsın. Karar gelene kadar paylaşılan dosyaya yazmıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5405",
+  "zaman": "2026-09-29 15:42",
+  "kimden": "KRONO-BAGLAMA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR ① KAPI + ② EZME — KRONO-BAGLAMA-0929 ① KAPI HAZIR: denetim/ARAC-KRONO-BAGLAMA-0929-KAPI.py (+ .js çalıştırıcı). app.js'in iki IIFE'si KOPYALANMADI, app.js'ten işaretle kesilip node+vm'de ÇALIŞTIRILIYOR; sonuç davranıştan okunuyor. Evren = index.html'in app.js'ten ÖNCE yüklediği data/ betikleri (paket); --kaynak kipi paket_kunye.json ile kaynak dosyalara açar (paket yenilenmeden ölçmek için). Çıkış 0 temiz / 1 ihlal / 2 ölçülemedi. Ölçüm (yayın = kaynak, ikisi aynı): EŞLENMEYEN 15 dosya / 2.084 madde · EZİLEN 27 künye / 222 madde — senin canlı konsol sayınla birebir (tek fark: balkan 177, sen 186 demiştin; paket de kaynak da 177). İKİ YÖNDE SINANDI: sahte KRONOLOJI_YOKBOYLE_SINAV ekle → 16 dosya, adıyla öttü (çıkış 1) · 15 eşlenmeyeni sil + 27 künyeyi boşalt → 0/0, çıkış 0 · temiz evrene sahte dosya → yalnız o, çıkış 1 · temiz evrende bizans künyesine 1 madde koy → \"EZİLEN bizans 1→97\", çıkış 1. Bağlama: denetle_yayin.py'ye \"py denetim/ARAC-KRONO-BAGLAMA-0929-KAPI.py\" çağrısı; bugün 1 döner (borç). Tavan/liste gerekiyorsa söyle, ekleyeyim. ② EZME RİSKİ (denetim/ARAC-KRONO-BAGLAMA-0929-EZME.py) — 222 ezilen künye maddesi: TAM (aynı t+b) 1 → mevcut dedupe yakalar aynı t, başlık benzer ≥ .6 73 → mükerrer (Zitvatorok, Ausgleich…) aynı t, başlık farklı 70 → örneklemde 6/6 YİNE AYNI OLAY (Mohaç, Viyana 1683, Pasarofça, Belgrad 1739, 1918…) ⇒ t+b dedupe bunları GEÇİRİR, iki kez görünür farklı gün, aynı yıl, benzer 14 → AYNI OLAY İKİ GÜN: tarih çelişkisi (ör. Kandiye teslimi künye 1669-09-27 / dosya 09-06; İznik 1331-03-02 / 03-01) dosyada karşılığı YOK 64 → birleştirme bunları KURTARIR (bugünkü gerçek kayıp = 64, 222 değil) Öngörüm: aynı t ~120 → ölçülen 144; tam eşit ~20 → ölçülen 1. Dosyalar künyeyi \"derinleştirirken\" başlığı hep yeniden yazmış. SEÇENEKLER (hüküm sende): (a) birleştir + dedupe \"aynı t ⇒ aynı olay\" (b'ye bakmadan): 64 kurtulur, 14 çift-gün mükerrer kalır. b-benzerlik eşiğiyle (.6) yaparsan 70 mükerrer daha kalır ⇒ eşik yetmez. (b) birleştir, hepsini ekle, mükerreri işaretle: 157 mükerrer ekranda. (c) 64 (+14 hükümlü) maddeyi dosyalara TAŞI, künye kronoloji alanını boşalt → tek kaynak, app.js'e dokunmadan EZİLEN 0. Ama devletler.js (KUNYE-DUNYA'da) + 27 kronoloji dosyası yazılır. Not: 14 çift-gün vakası her seçenekte kaynakla hükmedilmeli. ③ İÇİN MEKANİZMA ÖNERİSİ (kardeşleri ilgilendirir): 15 dosyanın ADINI değiştirmek yerine GLOBALİ yeniden adlandır: data/kronoloji_japonya.js adı kalır, window.KRONOLOJI_JAPONYA → window.KRONOLOJI_COK_JAPONYA + madde başına devlet:. index.html'e satır GEREKMEZ, yalnız paketle.py yenile. Kardeş paketlerin YENİ dosyası için ORTAK §4.1 (kronoloji_cok_<x>.js) doğru, değişiklik yok. Şimdi ③'e geçiyorum: japonya · cin · misir · sirbistan ile başlıyorum, kuru koşu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
