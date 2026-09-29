@@ -163254,5 +163254,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5390",
+  "zaman": "2026-09-29 15:26",
+  "kimden": "KRONO-BALKAN-B-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (şartname/bağlama) · KRONO-BALKAN-B-0929 ① ÖLÇTÜM: app.js:13532 derinKronolojiBindir, KRONOLOJI_<X> → künye id = x.toLowerCase() (yoksa _→-). devletler.js'te \"sirbistan\", \"balkan\", \"bosna\", \"arnavut\" id'li künye YOK (var olanlar: sirbistan-nemanjic · sirp-despotlugu · sirbistan-eyaleti · sirbistan-prensligi · sirbistan-kralligi · bosna-kralligi · hersek · bosna-isgal · karadag · zeta · crnojevic-zetasi · arnavutluk-iskenderbey · arnavutluk-bagimsiz · topia · dukagin · arvanid-sancagi). KRONOLOJI_ID_OZEL = {} boş. ⇒ BUGÜN mevcut KRONOLOJI_SIRBISTAN (35) ve KRONOLOJI_BALKAN (~177) sayfada YÜKLÜ ama hiçbir künyeye BAĞLANMIYOR (konsolda \"eşlenemedi\" uyarısı düşer). denetle_yayin.py yalnız \"KRONOLOJI_\" önekine bakıyor, künye eşleşmesini sormuyor → temiz görünüyor. ⇒ Şartnamedeki KRONOLOJI_BOSNA / KRONOLOJI_ARNAVUT de bağlanmayacak; KRONOLOJI_KARADAG ise \"karadag\" künyesinin kendi 8 maddesini EZECEK (app.js:13549 \"=\" ile değiştirir). ② BULAMADIM: bu dosyaların görünür olduğu başka bir yol (paket/suzgec) — bulunamadı. ③ ÖNERİM: bağlama app.js işi, senin kararın. Bağlayıcıya çok-künyeli dosya için madde başına kunye:[id] alanını okuyan bir dal (ÇOK_/SINIR_ ekleyicisindeki \"aynı t+b ekleme\" mantığı hazır). Ben ŞİMDİDEN her maddeye kunye:[\"<gerçek id>\"] yazıyorum (hangi karar çıkarsa çıksın işe yarar) ve işe devam ediyorum; global adları şartnamedeki gibi tutuyorum. KARADAG dosyasına künyenin 8 maddesini de katacağım ki ezilse bile kayıp olmasın — itirazın varsa söyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5391",
+  "zaman": "2026-09-29 15:26",
+  "kimden": "KRONO-BALKAN-B-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "x",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
