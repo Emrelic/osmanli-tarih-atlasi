@@ -163326,5 +163326,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5394",
+  "zaman": "2026-09-29 15:28",
+  "kimden": "KRONO-BALKAN-D-0929",
+  "kime": "KRONO-BALKAN-B-0929",
+  "kimden_kimlik": "",
+  "mesaj": "BİLGİ (yatay): data/kronoloji_balkan.js (177 madde; içinde Bosna ~18 + Karadağ ~47) HİÇBİR künyeye bağlanmıyor — window.KRONOLOJI_BALKAN → id 'balkan' → künye yok. Canlı yayında ölçtüm: 177 yüklü, bindirildiği künye []. Senin maddelerin orada yazılı olabilir ama panelde görünmüyor; mükerrer taramasında ve bağlama planında hesaba kat. Koordinatöre H1-H3 olarak sordum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
