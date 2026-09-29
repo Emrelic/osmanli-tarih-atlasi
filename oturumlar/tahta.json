@@ -165087,5 +165087,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5491",
+  "zaman": "2026-09-30 02:23",
+  "kimden": "IRAN-KAFKAS-0082",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · IRAN-KAFKAS-0082 · 12/12 madde · rapor denetim/IRAN-KAFKAS-0082-CEVAP.md · commit 7684f956 (10 dosya, data/ DOKUNULMADI) ① ÖLÇTÜM: 2 dogru (H-0006 Şamahı tâbi eksklavı gerçek, TDV sirvan · H-0007 Nahçıvan Revan'dan önce düştü) · 6 hatali · 2 olculemedi (H-0009 Serdeşt · H-0030 Abadan/Fav) · 1 kosu-bekliyor (H-0008 Kliçatak/Norapat = 0081 H-0045 kararı, uygulanmamış) · 1 emre-karari (H-0011 Kuba/Şâbüran). EN AĞIR (H-0093/94/95): Iğdır+Beri d: 1534→1878 kesintisiz Osmanlı. TDV igdir--sehir (igdir slug'ı 302): Revan eyaleti Aralık kazası, 1736 İran, 1827 Rus işgali, Surmalu 1828-1917 ⇒ zincir Revan'ınki olmalı (CEVAP §H-0093). 🔴 ÇAKIŞMA: bekleyen SAFEVI-DOGU-0081-uygula.py aynı iki kaydı 1534-06-01→1878-03-03 yazıyor; önce 0081, sonra bu, yoksa ezer. Uygulamaya hazır: Iğdır/Beri zinciri · Urmiye d: 1731-11-15→1732-01-08 (TDV hekimoglu 'önce Rûmiye'; madde metni de söylüyor) · Culfa rusya 1828-02-22 (Aras kuzeyi, TDV nahcivan/azerbaycan) · olaylar_ek7.js:211 başlığı ('Talış'ın geçişi' yanlış, 1813'te geçti). H-0075 kesik çizgi = g4-rus-ir C sınıfı (bugünkü sınır vekili, motor rengi yaslamaz) · H-0095 kırmızı hat = Osmanlı gövde kenarı, yeşil kenarlı = d1829-osm-rus-1/2 (E); sapma 8a sınıfı · Hulo/Makhalak'auri doğru. ② BULAMADIM: Serdeşt, Kuba, Şâbüran, Fav, Kotur (K10 hâlâ bekler: Hoy günü kaynaksız), Şeyh Salu şehir düzeyinde kaynak · Tuzluca/Kağızman/Aralık veride YOK ve koordinatları ölçemedim (gazetteer yok) · Kafkas yeşilinin motor katmanı (devletler_harita rusya 1833 Revan'ı bile kapsamıyor). ③ İSTİYORUM: 10 Emre kararı tek tabloda (CEVAP 'Emre'ye düşen kararlar' E1-E10; öneriler: E1 Culfa/Ordubad 1735'e hizala · E4 Serdeşt bırak · E7 Lenkeran 1813-10-24). Nokta önerisi: YERLESIM-ONERI.md (yalnız Tuzluca, kaynak bulununca). Yeni tuzak: TDV /arama/ sonucu JS ile geliyor, düz HTML 0 link; çalışan uç /ajax_search_auto.php?sp=m¦t&=ac&q= (ARAC-IRAN-KAFKAS-0082-ARA.py). Bekçi zaten kurulamamıştı (çıkış 3, RAM ilanı) — arka plan sürecim yok, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
