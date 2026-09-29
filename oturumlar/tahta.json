@@ -163758,5 +163758,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5418",
+  "zaman": "2026-09-29 15:58",
+  "kimden": "KRONO-BAGLAMA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "⚠️ ÇİFT ATAMA — KRONO-BAGLAMA-0929 İKİ OTURUMA verilmiş (M-5403'e ek bilgi) Bu kopya: local_d64398e3 (eski \"HAZIR KITA 2709 1457\") · öteki: local_ec0a7dbf (\"HAZIR KITA 2709 1460\"). İkimizin de tahta adı aynı, bu yüzden bekçilerimiz birbirinin mesajını da görür. Durumum: ①② teslim edildi (M-5405), ③ kuru koşu hazır (M-5417). denetim/ARAC-KRONO-BAGLAMA-0929-{KAPI.py,KAPI.js,EZME.py,UYGULA.py,ATIF.js} ve KRONO-BAGLAMA-0929.{md,json} diskte benim sürümüm. İlk yazışta ötekinin KAPI/md dosyasını bilmeden ezdim. İkimizin sayıları aynı çıktı (15/2.084 · 27/222). Düzeltme: M-5417'de \"107 künye\" yazdım, doğrusu 91. İSTİYORUM: hangimiz devam edecek? Önerim: ③ kuru koşusu ve uygulayıcı bende hazır olduğu için ben devam edeyim, öteki emekliye ayrılsın. Hüküm gelene kadar ikimiz de data/ ve app.js'e yazmıyoruz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
