@@ -325,15 +325,15 @@ window.KRONOLOJI_ISPANYA = [
   d:"II. Felipe'nin Madrid yakınında yaptırdığı manastır-saray-türbe kompleksi, hem kraliyet gücünün hem Karşı-Reform dindarlığının simgesi olarak tasarlandı. Mimar Juan Bautista de Toledo'nun ölümünden sonra projeyi Juan de Herrera tamamladı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
-{ t:"1565-05-18", b:"Malta Kuşatması başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
+{ t:"1565-05-19", gun:"19 Mayıs 1565 donanma Malta önünde (TDV); karaya çıkış 21 Mayıs — Batı literatürü 18 Mayıs der, TDV esas", b:"Malta Kuşatması başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Osmanlı donanması, Malta Şövalyeleri'nin adasını kuşattı; İspanya kralı II. Felipe'nin egemenliği altındaki Sicilya Krallığı, kuşatma boyunca şövalyelere destek ve erzak sağladı.", ic_not_d:"TDV `malta-kusatmasi` maddesi ölçülmüş ve zayıf/erişilemez çıktığından bu madde standart akademik kaynağa dayanıyor.",
-  kaynak:"bulunamadı (TDV `malta-kusatmasi` slug'ı ölçüldü, madde gövdesi alınamadı) — standart akademik kaynak (Kamen)" },
+  kaynak:"TDV `malta` (İdris Bostan): donanma 18 Şevval (19 Mayıs) Malta önüne geldi, 20 Şevval (21 Mayıs) karaya çıktı" },
 
-{ t:"1565-09-07", b:"İspanyol \"Büyük Yardım\" filosu kuşatmayı kırdı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
+{ t:"1565-09-08", gun:"8 Eylül 1565 kuşatma kalktı (TDV); Don García'nın yardım kuvveti 6 Eylül'de karaya çıkmıştı", b:"İspanyol \"Büyük Yardım\" filosu kuşatmayı kırdı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Sicilya valisi García de Toledo komutasındaki İspanyol destek filosu (\"Gran Soccorso\") Malta'ya ulaşınca kuşatmacı Osmanlı kuvvetleri adadan çekildi. Zafer, Hıristiyan Avrupa'da geniş yankı uyandırdı ve altı yıl sonraki İnebahtı ittifakının moral zeminini hazırladı.",
-  kaynak:"bulunamadı (TDV malta-kusatmasi ölçüldü, erişilemedi) — standart akademik kaynak (Kamen)" },
+  kaynak:"TDV `malta`: 6 Eylül'de Don Garcia yönetiminde 8000 asker adaya çıktı; Mustafa Paşa 12 Safer (8 Eylül) kuşatmayı kaldırdı" },
 
 { t:"1568-12-24", b:"Alpujarras İsyanı başladı — Moriskoların büyük ayaklanması", tur:"isyan", onem:5, dunya:3, kapsam:"ic", yer_id:"Granada",
   etiket:["isyan","din","sosyal","konu-isyan","konu-din","konu-sosyal"],
@@ -350,10 +350,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Don Juan de Austria, İnebahtı zaferinin ardından bir sefer düzenleyerek Tunus'u Osmanlı'ya bağlı yönetimden aldı; ancak işgal kısa ömürlü oldu.", ic_not_d:"`data/yerlesimler.js` bu dönemi zaten kayıtlı tutuyor (f:1573-10-10, t:1574-08-25).",
   kaynak:"`data/yerlesimler.js` Tunus kaydı (tarih korunuyor) · standart akademik kaynak" },
 
-{ t:"1574-08-25", b:"Osmanlı Tunus'u kesin olarak geri aldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
+{ t:"1574-09-12", gun:"12 Eylül 1574 Tunus (TDV); Halkulvâdî 24 Ağustos 1574", b:"Osmanlı Tunus'u kesin olarak geri aldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kayip","konu-askeri"],
-  d:"Kaptanıderyâ Uluç Ali Reis komutasındaki büyük bir Osmanlı donanması, kısa süreli İspanyol işgalini sona erdirerek Tunus'u kesin olarak Osmanlı idaresine kattı; şehir bundan sonra üç asır boyunca Osmanlı'ya bağlı bir ocaklık olarak kaldı. Bu tarih, İspanya'nın Kuzey Afrika'daki genişleme hırsının fiilen sonu sayılır.",
-  kaynak:"`data/yerlesimler.js` Tunus kaydı (tarih korunuyor) · standart akademik kaynak" },
+  d:"Koca Sinan Paşa ile Kaptanıderyâ Kılıç Ali Paşa kumandasındaki Osmanlı donanması önce Halkulvâdî kalesini (24 Ağustos), altı günlük muhasaradan sonra da Tunus'u aldı; kısa süreli İspanyol hâkimiyeti sona erdi. Şehir bundan sonra üç asır boyunca Osmanlı'ya bağlı bir ocaklık olarak kaldı ve bu tarih İspanya'nın Kuzey Afrika'daki genişleme hırsının fiilen sonu sayılır.",
+  kaynak:"TDV `tunus`: Halkulvâdî 6 Cemâziyelevvel 982 (24 Ağustos 1574); \"12 Eylül 1574'te Tunus'u geri aldı\" · (eski dayanak atlas kaydıydı — CLAUDE.md §4, kaldırıldı)" },
 
 { t:"1577-01-01", b:"El Greco Toledo'ya yerleşti", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"Toledo",
   etiket:["kultur","kultur","konu-kultur"],
@@ -488,10 +488,10 @@ window.KRONOLOJI_ISPANYA = [
 // V. VERASET SAVAŞI VE BOURBON REFORMLARI (1701-1808)
 // ───────────────────────────────────────────────────────────────────
 
-{ t:"1701-05-01", b:"İspanya Veraset Savaşı başladı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
+{ t:"1702-05-15", gun:"15 Mayıs 1702 Büyük İttifak'ın savaş ilanı; İtalya'da çatışma 1701 yazında başlamıştı", b:"İspanya Veraset Savaşı başladı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
   d:"Fransa, İspanya ve Bavyera'ya karşı İngiltere, Hollanda ve Kutsal Roma İmparatorluğu'nun oluşturduğu Büyük İttifak, V. Felipe'nin (Anjou Dükü) İspanya tahtına çıkmasını Avrupa güçler dengesine tehdit sayarak savaş ilan etti. Savaş, Avrupa'nın yanı sıra Kuzey Amerika (Kraliçe Anne Savaşı) ve İtalya'da da yürütülen ilk küresel çaplı çatışmalardan biriydi.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714) — kıtalar arası cepheleriyle dünya çapında etkili", kapsam_genis:true },
+  kaynak:"Encyclopaedia Britannica, 'War of the Spanish Succession': Büyük İttifak 15 Mayıs 1702'de savaş ilan etti · H. Kamen, The War of Succession in Spain 1700-15 (1969) · (1 Mayıs 1701 için dayanak bulunamadı)", kapsam_genis:true },
 
 { t:"1704-08-04", b:"Cebelitarık'ın İngilizler tarafından ele geçirilmesi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Cebelitarık (Gibraltar)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -538,20 +538,20 @@ window.KRONOLOJI_ISPANYA = [
   d:"Lehistan Veraset Savaşı sırasında İspanyol kuvvetleri Bitonto'da Avusturya ordusunu yenerek Napoli ve Sicilya krallıklarını yeniden ele geçirdi; bu topraklar V. Felipe'nin oğlu (sonraki III. Carlos) için ayrı bir Bourbon krallığı olarak kuruldu.",
   kaynak:"standart akademik kaynak (Kamen)", yer_kon:[41.1173,16.6884] },
 
-{ t:"1737-06-02", b:"Real Academia de la Historia'nın kuruluşu", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
+{ t:"1738-04-18", gun:"18 Nisan 1738 kuruluş kararnamesi (Aranjuez); ilk tüzük 17 Haziran 1738", b:"Real Academia de la Historia'nın kuruluşu", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["bilim","kultur","konu-bilim","konu-kultur"],
   d:"İspanyol tarihini eleştirel yöntemlerle inceleyip belgeleyecek resmî akademi Madrid'de kuruldu; kurum 18. yüzyılın Aydınlanma çağı reform hareketinin akademik kurumsallaşmasının bir parçasıydı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Real Academia de la Historia, 'Real Cédula fundacional' (rah.es): V. Felipe'nin 18 Nisan 1738 tarihli kararnamesi" },
 
 { t:"1736-01-01", b:"Fransız-İspanyol Jeodezi Seferi (Ekvator ölçümü)", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","teknoloji","konu-bilim"],
   d:"Fransız Bilimler Akademisi'nin Dünya'nın şeklini ölçmek için düzenlediği sefere İspanyol subay-bilim insanları Jorge Juan ve Antonio de Ulloa da katıldı; ekip bugünkü Ekvador'da (o zamanki Peru Genel Valiliği) yıllarca çalışarak enlem-boylam ölçümleri yaptı. Sefer, İspanyol biliminin Aydınlanma çağı Avrupa bilimiyle doğrudan temasının erken örneğiydi.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New / genel bilim tarihi)", kapsam_genis:true },
 
-{ t:"1741-03-20", b:"Cartagena de Indias Kuşatması'nın püskürtülmesi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Cartagena de Indias",
+{ t:"1741-05-20", gun:"kuşatma 13 Mart – 20 Mayıs 1741; 20 Mayıs Vernon'un çekilişi", b:"Cartagena de Indias Kuşatması'nın püskürtülmesi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Cartagena de Indias",
   etiket:["askeri","konu-askeri"],
   d:"Amiral Edward Vernon komutasındaki büyük bir İngiliz donanma-kara gücü, Jenkins'in Kulağı Savaşı sırasında Cartagena de Indias'ı kuşattı; İspanyol komutan Blas de Lezo, sayıca çok daha küçük bir kuvvetle kuşatmayı püskürttü. Zafer, İspanya'nın Amerika'daki sömürge savunmasının 18. yüzyıldaki en büyük başarılarından biriydi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"Encyclopaedia Britannica, 'War of Jenkins' Ear' / 'Edward Vernon': Cartagena kuşatması Mart-Mayıs 1741 · J. Lynch, Bourbon Spain 1700-1808 (1989)" },
 
 { t:"1759-08-10", b:"III. Carlos İspanya kralı oldu", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"Madrid",
   etiket:["hanedan","reform","konu-hanedan","konu-islahat"],
@@ -667,10 +667,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Napolyon, Bayonne'da zorla aldığı tahttan çekilme belgeleriyle İspanya tahtını kardeşi Joseph Bonaparte'a verdi; İspanyol halkının büyük çoğunluğu bu atamayı tanımayarak yerel juntalar kurdu ve gerilla direnişine geçti.",
   kaynak:"standart akademik kaynak" },
 
-{ t:"1808-07-22", b:"Bailén Savaşı — Napolyon ordusunun ilk büyük yenilgisi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1808-07-19", gun:"19 Temmuz 1808 muharebe; Dupont'un kapitülasyonu 22 Temmuz", b:"Bailén Savaşı — Napolyon ordusunun ilk büyük yenilgisi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"General Castaños komutasındaki İspanyol ordusu, Bailén'de bir Fransız kolordusunu kuşatıp teslim olmaya zorladı; bu, Napolyon'un Avrupa'daki yenilmezlik efsanesinin kırıldığı ilk büyük yenilgiydi ve kıta çapında direniş hareketlerine ilham verdi.",
-  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[38.0956,-3.7789] },
+  kaynak:"Encyclopaedia Britannica, 'Battle of Bailén': 19 Temmuz 1808; teslim antlaşması 22 Temmuz · C. J. Esdaile, The Peninsular War (2002)", yer_kon:[38.0956,-3.7789] },
 
 { t:"1810-05-25", b:"Buenos Aires'te Mayıs Devrimi — Amerika'da bağımsızlık sürecinin başlaması", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["isyan","toprak-kayip","konu-askeri","konu-isyan"],
@@ -776,10 +776,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Fas'taki Rif Savaşı için asker sevkine tepki gösteren Barselona işçi sınıfı, kilise ve manastırları hedef alan şiddetli bir ayaklanma başlattı; hükümetin sert bastırması ve anarşist eğitimci Francisco Ferrer'in idamı Avrupa kamuoyunda büyük tepki yarattı.",
   kaynak:"standart akademik kaynak (Payne)" },
 
-{ t:"1912-03-30", b:"Fas Protektorası'nın kurulması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1912-11-27", gun:"27 Kasım 1912 Fransız-İspanyol Madrid antlaşması (30 Mart 1912 Fas-Fransa Fes antlaşmasıdır)", b:"Fas Protektorası'nın kurulması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Fransa ile imzalanan antlaşmayla İspanya, Fas'ın kuzey (Rif) ve güney (İfni-Tarfaya) bölgelerinde bir himaye yönetimi kurdu; bu, İspanya'nın 1898 sonrası tek ciddi sömürge genişlemesiydi ve on yıl içinde ağır bir askerî bataklığa (Rif Savaşı) dönüşecekti.",
-  kaynak:"standart akademik kaynak (Payne)", yer_id:"Fas (Fez)" },
+  kaynak:"Encyclopaedia Britannica, 'Morocco — the protectorate': İspanyol bölgesi 27 Kasım 1912 Fransız-İspanyol antlaşmasıyla · S. G. Payne, Politics and the Military in Modern Spain (1967)", yer_id:"Fas (Fez)" },
 
 { t:"1921-07-22", b:"Annual Felaketi — Rif Savaşı'nda ağır bozgun", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],

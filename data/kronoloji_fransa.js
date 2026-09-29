@@ -276,8 +276,8 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1536-02-18", b:"Osmanlı-Fransız Kapitülasyonları'nın imzalanması", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["antlasma","ittifak","diplomasi","konu-diplomasi","konu-ekonomi"],
-  d:"Fransız elçisi Jean de la Forest ile Sadrazam İbrahim Paşa arasında imzalanan ticari kapitülasyon anlaşması, Osmanlı'nın bir Hıristiyan devletle imzaladığı ilk büyük ayrıcalık anlaşmasıydı ve iki asır sürecek Fransız-Osmanlı yakınlaşmasının hukukî temelini kurdu. Anlaşma, Habsburg gücünü dengelemek isteyen I. François'nın stratejisinin doğrudan sonucuydu.",
-  kaynak:"TDV `fransa` maddesi (canlı, gövdesi okundu) — \"18 Şubat 1536'da Jean de la Forest ile İbrahim Paşa arasında ticari anlaşma imzalandı\"" },
+  d:"Fransız elçisi Jean de la Forest ile Sadrazam İbrahim Paşa arasında imzalanan ticari kapitülasyon anlaşması, Osmanlı'nın bir Hıristiyan devletle imzaladığı ilk büyük ayrıcalık anlaşmasıydı ve iki asır sürecek Fransız-Osmanlı yakınlaşmasının hukukî temelini kurdu. Anlaşma, Habsburg gücünü dengelemek isteyen I. François'nın stratejisinin doğrudan sonucuydu. TDV `imtiyazat` maddesine göre bu metin İbrahim Paşa'nın idamı yüzünden padişahça tasdik edilmemiş bir taslak olarak kaldı; Fransa'ya verilen ilk tasdikli genel kapitülasyon 18 Ekim 1569 tarihlidir.",
+  kaynak:"TDV `fransa` maddesi (canlı, gövdesi okundu) — \"18 Şubat 1536'da Jean de la Forest ile İbrahim Paşa arasında ticari anlaşma imzalandı\" · TDV `imtiyazat`: 1536 metni \"sultan tarafından tasdik edilmeden kaldı\"; ilk tasdikli genel kapitülasyon 18 Ekim 1569 — TDV'nin iki maddesi burada ayrışır" },
 
 { t:"1539-08-10", b:"Villers-Cotterêts Fermanı — Fransızcanın resmî idare dili olması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["idari","reform","kultur","konu-idari","konu-kultur","konu-islahat"],
@@ -444,10 +444,10 @@ window.KRONOLOJI_FRANSA = [
   d:"Yetmiz iki yıllık, Avrupa tarihinin en uzun hükümdarlıklarından birinin ardından ölen XIV. Louis'nin yerine beş yaşındaki büyük torunu XV. Louis geçti; naiplik Orléans Dükü Philippe'e verildi. Ölümü, savaşlarla tükenmiş bir hazine ve derin bir toplumsal yorgunluk mirası bıraktı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1720-01-01", b:"Yirmisekiz Mehmed Çelebi'nin Paris elçiliği", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"Paris",
+{ t:"1720-10-07", gun:"7 Ekim 1720 İstanbul'dan hareket (TDV); XV. Louis'nin kabulü 21 Mart 1721", b:"Yirmisekiz Mehmed Çelebi Paris elçiliğine çıktı", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"Paris",
   etiket:["diplomasi","kultur","konu-diplomasi","konu-kultur"],
   d:"III. Ahmed'in Paris'e gönderdiği elçi Yirmisekiz Mehmed Çelebi'nin gözlemleri, Osmanlı'da 'Lâle Devri' modernleşme merakının doğrudan kaynaklarından biri oldu. Ziyaret, iki ülke arasındaki kültürel temasın kapitülasyon ticaretinin ötesine geçtiği ilk büyük örnektir.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1720'de Yirmisekiz Mehmed Çelebi'nin Paris'e gönderilişi\" · gün belirsiz, YYYY-01-01" },
+  kaynak:"TDV `yirmisekiz-celebi-mehmed-efendi`: 7 Ekim 1720'de yola çıktı, 21 Mart 1721'de Tuileries'de kabul edildi · TDV `fransa`" },
 
 { t:"1720-05-01", b:"Mississippi Balonu'nun patlaması — John Law'ın çöküşü", tur:"kriz", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["ekonomi","kriz","ekonomi","konu-siyasi","konu-ekonomi"],
@@ -604,10 +604,10 @@ window.KRONOLOJI_FRANSA = [
   d:"Konvansiyon içindeki muhalifler, kendi hayatlarından korkarak Robespierre ve yakın çevresini yargısız biçimde tutuklatıp aynı gün giyotine gönderdi. İnfaz, Terör Dönemi'ni fiilen sona erdirdi ve daha ılımlı, muhafazakâr bir devrimci evreyi ('Thermidor Tepkisi') başlattı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1794-08-01", b:"École Polytechnique'in kurulması", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
+{ t:"1794-03-11", gun:"11 Mart 1794 (21 ventôse an II) kuruluş kararı; 'Polytechnique' adı 1 Eylül 1795", b:"École Polytechnique'in kurulması", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["bilim","idari","konu-idari","konu-bilim"],
   d:"Devrimci hükümet, mühendis ve topçu subayı yetiştirmek üzere sınavla öğrenci alan seçkin bir teknik okul kurdu. Okul, XIX. yüzyıl boyunca Fransız bilim ve mühendisliğinin (ve devlet bürokrasisinin) en önemli yetiştirme kurumlarından biri olacaktı.",
-  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı" },
+  kaynak:"École polytechnique resmî tarihçesi (polytechnique.edu, '1794-1804'): 11 Mart 1794 kararıyla École centrale des travaux publics olarak kuruldu" },
 
 { t:"1795-08-22", b:"Yıl III Anayasası ve Direktuvar'ın kurulması", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["anayasa","reform","idari","konu-idari","konu-islahat","konu-hukuk"],
@@ -664,10 +664,10 @@ window.KRONOLOJI_FRANSA = [
   d:"Napolyon'un kişisel gözetiminde hazırlanan medeni kanun, mülkiyet, aile ve sözleşme hukukunu tek, tutarlı ve akılcı bir sistemde birleştirdi. Kanun, Napolyon'un fetihleriyle Avrupa'nın büyük bölümüne ve ötesine yayılarak modern kıta hukuk sistemlerinin en etkili tek metni hâline geldi.",
   kaynak:"standart ders kitabı bilgisi — dunya:5, küresel hukuk sistemleri üzerindeki kalıcı etki nedeniyle" },
 
-{ t:"1804-12-02", b:"Napolyon'un imparator ilan edilmesi", tur:"hukumdar", onem:4, dunya:5, kapsam:"ic", yer_id:"Paris",
+{ t:"1804-12-02", b:"Napolyon Notre-Dame'da taç giydi", tur:"hukumdar", onem:4, dunya:5, kapsam:"ic", yer_id:"Paris",
   etiket:["hukumdar","hanedan","din","konu-hanedan","konu-din"],
   d:"Napolyon, Notre-Dame Katedrali'nde Papa VII. Pius'un huzurunda tacı kendi eliyle başına koyarak Fransızların İmparatoru unvanını aldı; jest, otoritesinin kiliseden değil kendi gücünden geldiğini simgeliyordu. Taç giyme, Cumhuriyet'in fiilen bir imparatorluğa dönüştüğü ve Avrupa'nın yeni bir hanedanla tanıştığı andır.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, Avrupa'daki bütün hanedanlar için doğrudan meşruiyet tehdidi nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, Avrupa'daki bütün hanedanlar için doğrudan meşruiyet tehdidi nedeniyle · başlık düzeltildi: 2 Aralık 1804 taç giyme törenidir; imparatorluğun ilanı 18 Mayıs 1804 Senato kararıdır (ayrı madde, kronoloji_cok_fransa.js)" },
 
 { t:"1805-12-02", b:"Austerlitz Savaşı — 'Üç İmparator Muharebesi'", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","konu-askeri"],
@@ -759,10 +759,10 @@ window.KRONOLOJI_FRANSA = [
   d:"Orléans kolundan Louis Philippe, 'Fransızların Kralı' unvanıyla ve daha geniş bir seçmen tabanına dayanan anayasal bir monarşiyle tahta çıktı. On sekiz yıl sürecek Temmuz Monarşisi, büyük burjuvazinin siyasî iktidara ortak olduğu bir dönem oldu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) — TDV `fransa` genel maddesiyle uyumlu" },
 
-{ t:"1830-11-25", b:"'Hernani Savaşı' — Victor Hugo ve Romantizmin zaferi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
+{ t:"1830-02-25", b:"'Hernani Savaşı' — Victor Hugo ve Romantizmin zaferi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["kultur","kultur","konu-kultur"],
   d:"Victor Hugo'nun klasik tiyatro kurallarını çiğneyen oyunu 'Hernani'nin ilk gösterimi, klasisist ve romantik taraftarlar arasında salonda neredeyse yumruk yumruğa bir kavgaya dönüştü. Olay, Romantizm akımının Fransız sahnesindeki kesin zaferi olarak edebiyat tarihine geçti.",
-  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı" },
+  kaynak:"BnF Essentiels, 'La bataille d'Hernani' ve Larousse, 'bataille d'Hernani': ilk temsil 25 Şubat 1830, Comédie-Française" },
 
 { t:"1833-07-08", b:"Hünkâr İskelesi Antlaşması'nın imzalanması", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
@@ -794,10 +794,10 @@ window.KRONOLOJI_FRANSA = [
   d:"Louis-Napoléon, bir yıl önceki askerî darbesinin ardından halkoylamasıyla kendisini III. Napolyon unvanıyla imparator ilan etti; tarih, amcasının taç giymesinin (2 Aralık 1804) yıldönümüne bilerek denk getirildi.", ic_not_d:"`data/devletler.js` bu tarihi zaten kaydediyordu; bu dosyada TDV ve akademik kaynakla doğrulanarak korundu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) · standart ders kitabı bilgisi" },
 
-{ t:"1853-10-04", b:"Kırım Savaşı'nın başlaması — Fransa'nın Osmanlı yanında savaşa girişi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1854-03-27", gun:"27 Mart 1854 (İngiltere 28 Mart); savaşın kendisi 1853'te başlamıştı", b:"Fransa Rusya'ya savaş ilan etti — Kırım Savaşı'na Osmanlı yanında giriş", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","ittifak","konu-askeri","konu-diplomasi"],
   d:"Fransa, Rusya'nın Osmanlı topraklarına yayılmasını Akdeniz çıkarlarına tehdit sayarak İngiltere'yle birlikte Osmanlı'nın yanında savaşa girdi; TDV maddesi bu ittifakı 1853-1856 arasında açıkça kaydeder. Savaş, III. Napolyon'a beklediği uluslararası prestiji kazandırdı ve Paris'te imzalanan barışla (1856) sona erecekti.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1853-1856: Kırım Savaşı (Fransa ve İngiltere Osmanlı tarafında)\"", yer_id:"Paris" },
+  kaynak:"TDV `fransa`: Kırım Savaşı Rusya'nın saldırısıyla 22 Haziran 1853'te başladı, Fransa ve İngiltere Osmanlı yanında savaşa girdi (gün vermez) · gün: Encyclopaedia Britannica, 'Crimean War' — İngiltere ve Fransa Mart 1854'te savaş ilan etti · ⚠️ eski kaynak alanındaki tırnaklı TDV cümlesi TDV'de BİREBİR YOK, kaldırıldı", yer_id:"Paris" },
 
 { t:"1855-05-15", b:"Paris Dünya Sergisi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["kultur","ekonomi","bilim","konu-bilim","konu-ekonomi","konu-kultur"],
@@ -874,10 +874,10 @@ window.KRONOLOJI_FRANSA = [
   d:"Meclis, tek bir oy farkla, monarşi restorasyonu tartışmalarını fiilen kapatıp cumhuriyetçi bir anayasal çerçeveyi (iki meclisli parlamento, cumhurbaşkanlığı) kabul etti. Bu anayasa, sonraki altmış beş yıl boyunca Fransa'yı yöneterek Fransız tarihinin en uzun ömürlü anayasal düzenini kurdu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1881-03-28", b:"Jules Ferry Yasaları — laik, zorunlu ve parasız ilköğretim", tur:"reform", onem:4, dunya:3, kapsam:"ic", yer_id:"",
+{ t:"1882-03-28", gun:"28 Mart 1882 (parasızlık yasası ayrı: 16 Haziran 1881)", b:"Jules Ferry Yasası — ilköğretim zorunlu ve laik oldu", tur:"reform", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["reform","kanun","din","konu-din","konu-islahat","konu-hukuk"],
   d:"Eğitim Bakanı Jules Ferry'nin öncülüğündeki yasalar, ilköğretimi devlet tekeline alıp dinî öğretimden ayırarak parasız ve zorunlu hâle getirdi. Reform, III. Cumhuriyet'in cumhuriyetçi-laik kimliğini kuran en kalıcı toplumsal mühendislik girişimidir.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
+  kaynak:"Sénat, 'Les lois scolaires de Jules Ferry': Loi du 28 mars 1882 sur l'enseignement primaire obligatoire; parasızlık Loi du 16 juin 1881", yer_id:"Paris" },
 
 { t:"1881-05-12", b:"Bardo Antlaşması — Tunus'un Fransız himayesine girmesi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["antlasma","toprak-kazanc","isgal","konu-askeri","konu-diplomasi"],

@@ -233,8 +233,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_ingiltere.js",
-     "sha": "26bb29c7a33a35fb",
-     "bayt": 176341
+     "sha": "e427e5961cc53e89",
+     "bayt": 176362
     },
     {
      "yol": "data/kronoloji_fransa.js",
@@ -247,7 +247,7 @@
      "bayt": 100030
     }
    ],
-   "bayt": 396745
+   "bayt": 396766
   },
   {
    "paket": "data/paket_09.js",
@@ -324,8 +324,8 @@
     },
     {
      "yol": "data/kronoloji_portekiz.js",
-     "sha": "e0373ba01e25a61b",
-     "bayt": 70472
+     "sha": "acf56878abf18e57",
+     "bayt": 70693
     },
     {
      "yol": "data/kronoloji_cin.js",
@@ -338,23 +338,23 @@
      "bayt": 83988
     }
    ],
-   "bayt": 1005169
+   "bayt": 1005390
   },
   {
    "paket": "data/paket_10.js",
    "kaynak": [
     {
      "yol": "data/kronoloji_akkoyunlu.js",
-     "sha": "67c23a55a2e2e16f",
-     "bayt": 62637
+     "sha": "f841002f707c36ef",
+     "bayt": 62674
     },
     {
      "yol": "data/kronoloji_karakoyunlu.js",
-     "sha": "cc96d81cdf86de42",
-     "bayt": 54742
+     "sha": "87a27927a986b2e6",
+     "bayt": 54783
     }
    ],
-   "bayt": 117712
+   "bayt": 117790
   },
   {
    "paket": "data/paket_11.js",
@@ -366,8 +366,8 @@
     },
     {
      "yol": "data/kronoloji_hollanda.js",
-     "sha": "012f6f61790f9908",
-     "bayt": 33998
+     "sha": "90ca6037235f0ca7",
+     "bayt": 34263
     },
     {
      "yol": "data/kronoloji_isvec.js",
@@ -395,7 +395,7 @@
      "bayt": 24761
     }
    ],
-   "bayt": 356169
+   "bayt": 356434
   },
   {
    "paket": "data/paket_12.js",
@@ -437,8 +437,8 @@
     },
     {
      "yol": "data/kronoloji_iran_ardillari.js",
-     "sha": "968a76d51b9450ab",
-     "bayt": 144155
+     "sha": "345b58451aa003c8",
+     "bayt": 144310
     },
     {
      "yol": "data/kronoloji_italya_sehir.js",
@@ -522,8 +522,8 @@
     },
     {
      "yol": "data/kronoloji_safevi.js",
-     "sha": "166f9e7f7a7e796b",
-     "bayt": 65702
+     "sha": "a9f452e436810abf",
+     "bayt": 65839
     },
     {
      "yol": "data/kronoloji_sirbistan.js",
@@ -541,7 +541,7 @@
      "bayt": 141082
     }
    ],
-   "bayt": 1762328
+   "bayt": 1762620
   },
   {
    "paket": "data/paket_13.js",

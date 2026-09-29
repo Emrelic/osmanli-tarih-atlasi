@@ -510,7 +510,7 @@ window.KRONOLOJI_ALMANYA = [
   d:"Prusya ve müttefik Alman ordularının Sedan'da kuşattığı Fransız ordusu teslim oldu; İmparator III. Napolyon bizzat esir düştü. Yenilgi, Fransa'da İkinci İmparatorluğu devirdi ve Alman ordularının Paris'e ilerleyişinin önünü açtı.",
   kaynak:"Blackbourn — Sedan Muharebesi'nin 2 Eylül 1870 teslimiyeti", yer_kon:[49.7016,4.9438] },
 
-{ t:"1871-01-18", devlet:"almanya", b:"Alman İmparatorluğu'nun Versailles'de ilanı", tur:"kurulus", onem:5, dunya:5, kapsam:"ic", yer_id:"Metz", kapsam_genis:true,
+{ t:"1871-01-18", devlet:"almanya", b:"Alman İmparatorluğu'nun Versailles'de ilanı", tur:"kurulus", onem:5, dunya:5, kapsam:"ic", yer_id:"Paris", kapsam_genis:true,
   etiket:["siyaset","hanedan","kurulus","alman-imparatorlugu","konu-siyasi","konu-hanedan"],
   d:"Kuşatma altındaki Paris yakınındaki Versailles Sarayı'nın Aynalı Salonu'nda toplanan Alman prensler, Prusya Kralı I. Wilhelm'i \"Alman İmparatoru\" ilan etti. Sekiz asırlık dağınıklığın ardından ilk kez tek bir ulus devlette birleşen Almanya, Avrupa'nın güç dengesini kalıcı olarak değiştirdi.",
   kaynak:"Blackbourn, History of Germany 1780-1918; devletler.js `almanya` künyesinin de kaydettiği 18 Ocak 1871 tarihi — standart ve tartışmasız" },

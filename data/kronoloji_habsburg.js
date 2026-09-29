@@ -115,20 +115,21 @@ window.KRONOLOJI_HABSBURG = [
   d:"Kanûnî'nin ikinci Viyana harekâtı Güns kalesinin direnişiyle yavaşladı ve ordu Viyana'ya varmadan geri döndü. Habsburg tarafı bunu, başkenti kurtaran bir savunma başarısı olarak anar.",
   kaynak:"depo savaslar.js (1532-08-05)", yer_kon:[47.39,16.54] },
 
-{ t:"1538-01-01", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1538-02-24", gun:"24 Şubat 1538 — gün komşudan (kronoloji_macaristan.js · Engel)", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Ferdinand ile Zápolya János arasında yapılan anlaşma, Macaristan'ı iki kral arasında paylaştırdı ve Zápolya'nın ölümünden sonra tacın Habsburglara geçmesini öngördü. Anlaşma tutmadı; Zápolya'nın oğlunun doğması Budin'in Osmanlı eline geçmesine giden krizi başlattı.",
-  kaynak:"bulunamadı — TDV bu anlaşmayı müstakil maddede işlemiyor, gün DOĞRULANMADI (yıl damgası kullanıldı)", yer_id:"Varad (Oradea)" },
+  kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Engel (2001), s. 364-365 (Nagyvárad Antlaşması, 24 Şubat 1538) — TDV bu anlaşmayı müstakil maddede işlemiyor; önceki yıl damgası (1538-01-01) KRONO-ORTA-AVRUPA-0929 ile komşu günüyle değiştirildi", yer_id:"Varad (Oradea)" },
 
 { t:"1541-08-29", b:"Budin'in fethi — Macaristan üçe bölündü", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"Budin",
   etiket:["askeri","toprak-kayip","konu-askeri","konu-siyasi"],
   d:"Budin'in Osmanlı idaresine geçmesiyle Macaristan üç parçaya ayrıldı: Osmanlı Macaristanı, kuzey-batıda Habsburg Kraliyet Macaristanı ve tâbi Erdel. Bu bölünme 1699'a kadar sürdü ve Habsburg siyasetinin merkezine Macaristan'ı geri alma hedefini yerleştirdi.", ic_not_d:"eski kaynak: devletler.js `habsburg` künyesinden devralındı · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihidir, bu oturumda bağımsız kaynakla sınanmadı)",
   kaynak:"TDV suleyman-i: ordu 26 Ağustos 1541'de Budin önüne vardı, padişah 2 Eylül'de şehre girdi · budin: eyalet 948/1541 — 29 Ağustos günü bu iki maddede YOK" },
 
-{ t:"1547-01-01", b:"İstanbul Mütarekesi — Habsburg'un vergi karşılığı barışı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+{ t:"1547-01-01", gun:"Haziran 1547 (TDV ay verir, gün vermez)", b:"İstanbul Mütarekesi — Habsburg'un vergi karşılığı barışı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Ferdinand, elinde tuttuğu Macaristan toprakları için Osmanlı'ya yıllık ödeme kabul ederek beş yıllık bir mütareke imzaladı. Habsburg tarihyazımı bunu, ayakta kalmak için ödenen bir bedel olarak anar.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası kullanıldı)" },
+  ic_not_d:"Çekirdekte olaylar_ek5.js 1547-06-18 günüyle aynı olayı tutuyor (elçilerin divana kabulü); TDV süleyman-i yalnız ayı veriyor. Ay bilindiği hâlde yıl başı yazıldı, çünkü CLAUDE.md §8: ay hassasiyetli tarih ayın 1'ine genişler ve senkronu bozar.",
+  kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"Haziran 1547'de beş yıllık bir antlaşma yapıldı\" — gün yok, yıl damgası korundu" },
 
 { t:"1552-09-04", b:"Eğri kuşatmasının püskürtülmesi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Eğri",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -150,10 +151,10 @@ window.KRONOLOJI_HABSBURG = [
   d:"Şarlken'in 1556'da tacı bırakmasının ardından Ferdinand 1558'de imparator oldu. Böylece Habsburg hanedanı İspanyol ve Avusturya kolları olarak kalıcı biçimde ikiye ayrıldı.",
   kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': 1556'da imparator görevini bıraktı, 1558'de Ferdinand'ın yükselişi · ⚠️ gün DOĞRULANMADI" },
 
-{ t:"1564-01-01", b:"Ferdinand'ın ölümü ve Avusturya mirasının üçe bölünmesi", tur:"bolunme", onem:4, dunya:1, kapsam:"ic", yer_id:"Viyana",
+{ t:"1564-07-25", gun:"25 Temmuz 1564, Viyana", b:"Ferdinand'ın ölümü ve Avusturya mirasının üçe bölünmesi", tur:"bolunme", onem:4, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","bolunme","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"I. Ferdinand Viyana'da öldü ve mirası üç oğlu arasında paylaştırıldı: Maximilian'a Enns'in altı ve üstü Avusturya (başkent Viyana), Ferdinand'a Tirol ve Vorlande, Karl'a İç Avusturya (Steiermark, Kärnten, Krain). Bu bölünme hanedanın gücünü dağıttı ve 1665'e kadar tam olarak giderilemedi.",
-  kaynak:"Die Welt der Habsburger, 'Dreiteilung des österreichischen Erbes' / Wien Geschichte Wiki 'Maximilian II.': 1564 miras taksimi · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Dreiteilung des österreichischen Erbes' / Wien Geschichte Wiki 'Maximilian II.': 1564 miras taksimi · gün: Wien Geschichte Wiki, 'Ferdinand I. (Heiliges Römisches Reich)' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"† 25. Juli 1564 Wien\" — önceki yıl damgası (1564-01-01) değiştirildi" },
 
 { t:"1568-01-01", b:"Edirne Antlaşması — serhaddin dondurulması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["diplomasi","konu-diplomasi"],
@@ -183,15 +184,15 @@ window.KRONOLOJI_HABSBURG = [
   d:"II. Rudolf'un Prag sarayında astronomlar Tycho Brahe ile Johannes Kepler aynı anda görevliydi. Brahe'nin gözlem verileri Kepler'in eline geçti ve gezegen hareketleri yasalarının yolunu açtı; modern astronominin doğduğu masa bir Habsburg sarayındaydı.",
   kaynak:"Die Welt der Habsburger, 'Ein Roboter in Prag und Lebenselixier für Rudolf II.': Rudolf'un Prag sarayında astronomlar Tycho Brahe ve Johannes Kepler görevliydi; Prag 1600 civarında 'sihir şehri' imgesini bu saraya borçludur · ⚠️ GÜN DOĞRULANMADI (kaynak 'in the years around 1600' diyor)" },
 
-{ t:"1600-10-22", b:"Kanije'nin kaybı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Kanije",
+{ t:"1600-10-20", gun:"20 Ekim 1600 (11 Rebîülâhir 1009)", b:"Kanije'nin kaybı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Kanije",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Kanije kalesi Osmanlı eline geçti ve Habsburg savunma hattında güneybatıya açılan bir gedik oluştu. Ertesi yıl kaleyi geri alma girişimi de başarısız oldu.", ic_not_d:"eski kaynak: depo savaslar.js (1600-10-22)",
-  kaynak:"TDV tiryaki-hasan-pasa · mehmed-iii: kale 13 Rebîülâhir 1009 (22 Ekim 1600) teslim oldu; TDV kanije 20 Ekim diyor (iç ayrışma)" },
+  kaynak:"TDV `kanije` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"anlaşma yoluyla 11 Rebîülâhir 1009'da (20 Ekim 1600) Osmanlılar'a teslim edildi\" · yerin kendi maddesi esas alındı; önceki gün (22 Ekim, TDV tiryaki-hasan-pasa · mehmed-iii'ye dayandırılmıştı) çekirdekteki olaylar_ek.js 1600-10-20 kaydıyla da çelişiyordu" },
 
-{ t:"1604-01-01", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (kronoloji_macaristan.js · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","din","milliyetcilik","konu-siyasi","konu-isyan","konu-din"],
   d:"Habsburg'un Macaristan'da yürüttüğü karşı-reform ve merkezîleştirme siyaseti, Bocskai István önderliğinde bir soylu ayaklanmasını tetikledi. İsyan, Viyana'yı hem Osmanlı hem de kendi Macar tebaası karşısında iki cepheli bir mücadeleye zorladı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası kullanıldı)", kapsam_genis:true },
+  kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Kontler (2002), s. 154-155 (ayaklanmanın başlangıcı 15 Ekim 1604) — önceki yıl damgası (1604-01-01) KRONO-ORTA-AVRUPA-0929 ile değiştirildi", kapsam_genis:true },
 
 { t:"1606-06-23", b:"Viyana Barışı — Macar Protestanlarına mezhep serbestisi", tur:"antlasma", onem:3, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["din","anayasa","isyan","konu-diplomasi","konu-isyan","konu-din","konu-islahat","konu-hukuk"],
@@ -335,10 +336,10 @@ window.KRONOLOJI_HABSBURG = [
   d:"Türk hâkimiyetinden yeni kurtulmuş Macaristan'ı Viyana'ya sıkı sıkıya bağlamak isteyen mutlakiyetçi yeniden düzenlemeye karşı, Rákóczi önderliğinde bir bağımsızlık savaşı patlak verdi. Ayaklanma 1704'te Viyana'yı doğrudan tehdit etti ve şehirde Linienwall savunma duvarının yapımına yol açtı.",
   kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
-{ t:"1711-11-29", b:"Szatmár Barışı — Macaristan'la uzlaşma", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ t:"1711-04-29", gun:"29 Nisan 1711 (Nagykároly'da imza); onay 26 Mayıs 1711, Viyana", b:"Szatmár Barışı — Macaristan'la uzlaşma", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","isyan","anayasa","konu-diplomasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"VI. Karl, ödünler vererek Rákóczi ayaklanmasını sona erdirdi ve Macaristan'ı hanedana daha sıkı bağladı. Habsburg, Macaristan'ı bastırarak değil uzlaşarak tuttuğu ilk büyük denemeyi burada yaptı; 1867'nin uzlaşma modeli bu geleneğe dayanır.",
-  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár': \"29. November 1711\" · ⚠️ ÇELİŞKİ KAYDI: yaygın literatürde barışın imzası 30 Nisan 1711 olarak da geçiyor; ikinci bir kaynakla ayırt EDEMEDİM, kurumsal kaynağın günü alındı", yer_id:"Szatmár (Satu Mare)" },
+  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (A hét dokumentuma; sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · 🔴 DÜZELTME: önceki gün 29 Kasım 1711 Wien Geschichte Wiki'den alınmıştı; o sayfa gerçekten '29. November 1711' diyor ama Mayıs'ta onaylanmış bir barışla bağdaşmaz, ulusal arşivin günü esas alındı", yer_id:"Szatmár (Satu Mare)" },
 
 { t:"1713-04-19", b:"Pragmatik Yaptırım — monarşinin ilk temel yasası", tur:"reform", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","hanedan","konu-hanedan","konu-islahat","konu-hukuk"],
