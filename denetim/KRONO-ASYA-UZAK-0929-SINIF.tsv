@@ -1,0 +1,122 @@
+bolge	gun	eski	yeni	kova	n_yerlesim	yerlesimler	sinif	madde_t	fark_gun	madde_dosya	not
+dogu-asya	1327-01-01	__BOSLUK__	yuan-hanedani	yil_temsili	1	Shunning (Fengqing)	A-YIL				Yunnan 1253-56'dan beri Yuan'da; 1327 Shunning penceresinin başlangıcı
+dogu-asya	1351-01-01	yuan-hanedani	__BOSLUK__	kapsam_disi	1	Xinyang	G-VAR	1351-05-01	120	kronoloji_cin.js	Kızıl Sarıklılar isyanı
+dogu-asya	1356-09-17	yuan-hanedani	__BOSLUK__	kapsam_disi	1	Hengyang (Hengzhou)	A-KUNYE				Kızıl Türban sonrası Zhu Yuanzhang / Chen Youliang rejimleri için künye YOK (KUNYE.md)
+dogu-asya	1358-06-19	yuan-hanedani	__BOSLUK__	kapsam_disi	1	Ji'an (Jizhou)	A-KUNYE				Kızıl Türban sonrası Zhu Yuanzhang / Chen Youliang rejimleri için künye YOK (KUNYE.md)
+dogu-asya	1358-11-01	yuan-hanedani	__BOSLUK__	kapsam_disi	1	Ganzhou	A-KUNYE				Kızıl Türban sonrası Zhu Yuanzhang / Chen Youliang rejimleri için künye YOK (KUNYE.md)
+dogu-asya	1368-01-23	__BOSLUK__	ming-hanedani	kapsam_disi	3	Ganzhou, Hengyang (Hengzhou), Ji'an (Jizhou)	A-KUNYE				Ganzhou/Hengyang/Ji'an 1358-59'dan beri Zhu'da; Wu rejimi künyesiz → Ming ilanı gününde boşluk kapanıyor
+dogu-asya	1368-06-29	yuan-hanedani	ming-hanedani	kapsam_disi	1	Chenzhou (Hunan)	O				Ming'in Hunan-Guangxi seferi günü kaynaksız
+dogu-asya	1368-11-11	__BOSLUK__	ming-hanedani	kapsam_disi	1	Xinyang	O				Xinyang; Henan'ın Ming'e geçişi günü kaynaksız
+dogu-asya	1382-01-15	kuzey-yuan	ming-hanedani	kapsam_disi	1	Chuxiong	G-YAZ	1382-01-06	9	kronoloji_cok_dogu_asya.js	Ming'in Yunnan seferi
+dogu-asya	1382-01-16	kuzey-yuan	ming-hanedani	kapsam_disi	4	Kaihua (Wenshan), Lin'an (Jianshui), Mengzi, Tonghai	G-YAZ	1382-01-06	10	kronoloji_cok_dogu_asya.js	Ming'in Yunnan seferi
+dogu-asya	1382-03-16	kuzey-yuan	ming-hanedani	kapsam_disi	2	Jingdong, Mianning (Lincang)	G-YAZ	1382-01-06	69	kronoloji_cok_dogu_asya.js	aynı sefer; şehir günü kaynaksız
+dogu-asya	1382-04-07	kuzey-yuan	ming-hanedani	kapsam_disi	3	Lijiang, Tengyue (Tengchong), Yongchang (Baoshan)	G-YAZ	1382-01-06	91	kronoloji_cok_dogu_asya.js	aynı sefer; şehir günü kaynaksız
+dogu-asya	1382-04-14	kuzey-yuan	ming-hanedani	kapsam_disi	2	Shunning (Fengqing), Yuanjiang	G-YAZ	1382-01-06	98	kronoloji_cok_dogu_asya.js	aynı sefer; şehir günü kaynaksız
+dogu-asya	1645-09-08	__BOSLUK__	qing-hanedani	kapsam_disi	1	Xinyang	O				Xinyang'ın Qing'e geçişi günü kaynaksız
+dogu-asya	1646-01-01	guney-ming	qing-hanedani	yil_temsili	1	Ji'an (Jizhou)	O				Ji'an; Qing'in Jiangxi seferi günü kaynaksız
+dogu-asya	1646-11-18	guney-ming	qing-hanedani	kapsam_disi	1	Ganzhou	O				Ganzhou
+dogu-asya	1647-07-25	guney-ming	qing-hanedani	kapsam_disi	1	Hengyang (Hengzhou)	O				Hengyang
+dogu-asya	1648-01-14	guney-ming	qing-hanedani	kapsam_disi	1	Chenzhou (Hunan)	O				Chenzhou
+dogu-asya	1653-01-01	—	qing-hanedani	kapsam_disi	3	Habarovka, Vladivostok, İmperator limanı	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1659-01-07	guney-ming	qing-hanedani	kapsam_disi	9	Chuxiong, Jingdong, Kaihua (Wenshan), Lijiang	G-YAZ	1659-01-01	6	kronoloji_cok_dogu_asya.js	Wu Sangui'nin Yunnan seferi
+dogu-asya	1659-04-22	guney-ming	qing-hanedani	kapsam_disi	3	Shunning (Fengqing), Tengyue (Tengchong), Yongchang (Baoshan)	G-YAZ	1659-01-01	111	kronoloji_cok_dogu_asya.js	aynı sefer; şehir günü kaynaksız
+dogu-asya	1674-03-26	qing-hanedani	san-fan	kapsam_disi	2	Chenzhou (Hunan), Hengyang (Hengzhou)	O				San Fan savaşının Hunan-Jiangxi safhası; şehir günleri kaynaksız
+dogu-asya	1676-04-05	qing-hanedani	san-fan	kapsam_disi	1	Ji'an (Jizhou)	O				San Fan savaşının Hunan-Jiangxi safhası; şehir günleri kaynaksız
+dogu-asya	1677-04-30	san-fan	qing-hanedani	kapsam_disi	1	Ji'an (Jizhou)	O				San Fan savaşının Hunan-Jiangxi safhası; şehir günleri kaynaksız
+dogu-asya	1679-03-24	san-fan	qing-hanedani	kapsam_disi	2	Chenzhou (Hunan), Hengyang (Hengzhou)	O				San Fan savaşının Hunan-Jiangxi safhası; şehir günleri kaynaksız
+dogu-asya	1681-07-14	san-fan	qing-hanedani	kapsam_disi	1	Lijiang	G-YAZ	1681-10-01	79	kronoloji_cok_dogu_asya.js	San Fan'ın sonu (Lijiang)
+dogu-asya	1686-01-01	—	qing-hanedani	kapsam_disi	1	Mergen (Nenjiang)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1689-09-06	—	qing-hanedani	kapsam_disi	1	Nikolayevsk (Amur ağzı)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1714-01-01	—	qing-hanedani	kapsam_disi	1	Sanxing (Yilan)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1715-01-01	—	qing-hanedani	kapsam_disi	1	Barkol (Balikun / Zhenxi)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1729-01-01	san-devletleri	qing-hanedani	kapsam_disi	1	Ning'er (Pu'er)	G-YAZ	1729-01-01	0	kronoloji_cok_dogu_asya.js	Ortai reformu / Pu'er
+dogu-asya	1738-01-01	—	qing-hanedani	kapsam_disi	1	Chifeng (Ulanhad)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1759-01-01	__BOSLUK__	qing-hanedani	kapsam_disi	1	Taşkurgan (Sarıkol)	G-VAR	1759-01-01	0	kronoloji_cin.js	Altışehir fethi
+dogu-asya	1759-01-01	cungar	qing-hanedani	kapsam_disi	6	Aksu (Tarım), Karaşar (Yanqi), Keriya (Yutian), Uçturfan (Uç Turfan)	G-VAR	1759-01-01	0	kronoloji_cin.js	Altışehir fethi
+dogu-asya	1771-01-01	—	qing-hanedani	kapsam_disi	1	Qitai (Gucheng)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+dogu-asya	1856-04-09	qing-hanedani	taiping	kapsam_disi	1	Ji'an (Jizhou)	O				Ji'an; Taiping'in Jiangxi seferi (çekirdekte 1851-64 var, şehir günü kaynaksız)
+dogu-asya	1858-10-15	taiping	qing-hanedani	kapsam_disi	1	Ji'an (Jizhou)	O				Ji'an; Taiping'in Jiangxi seferi (çekirdekte 1851-64 var, şehir günü kaynaksız)
+dogu-asya	1862-08-24	qing-hanedani	pingnan	kapsam_disi	2	Tengyue (Tengchong), Yongchang (Baoshan)	G-YAZ	1856-10-23	2131	kronoloji_cok_dogu_asya.js	Panthay; Tengchong/Baoshan günü kaynaksız
+dogu-asya	1865-01-01	qing-hanedani	__BOSLUK__	kapsam_disi	2	Qitai (Gucheng), Taşkurgan (Sarıkol)	G-YAZ	1865-01-01	0	kronoloji_cok_orta_asya2.js	Yâkub Bey'in Kaşgar'a girişi / Doğu Türkistan'da Qing dışı boşluk
+dogu-asya	1873-01-15	pingnan	__BOSLUK__	kapsam_disi	2	Shunning (Fengqing), Tengyue (Tengchong)	G-YAZ	1872-12-26	20	kronoloji_cok_dogu_asya.js	Pingnan'ın çöküşü
+dogu-asya	1873-01-15	pingnan	qing-hanedani	kapsam_disi	1	Yongchang (Baoshan)	G-YAZ	1872-12-26	20	kronoloji_cok_dogu_asya.js	Pingnan'ın çöküşü
+dogu-asya	1873-04-25	__BOSLUK__	qing-hanedani	kapsam_disi	1	Shunning (Fengqing)	G-YAZ	1872-12-26	120	kronoloji_cok_dogu_asya.js	son direniş noktası; günü kaynaksız
+dogu-asya	1873-08-02	__BOSLUK__	qing-hanedani	kapsam_disi	1	Tengyue (Tengchong)	G-YAZ	1872-12-26	219	kronoloji_cok_dogu_asya.js	son direniş noktası; günü kaynaksız
+dogu-asya	1876-01-01	__BOSLUK__	qing-hanedani	kapsam_disi	1	Qitai (Gucheng)	O				Qitai; Zuo seferi safhası kaynaksız
+dogu-asya	1876-08-18	yakub-beg	qing-hanedani	kapsam_disi	1	Manas (Cungarya)	O				Manas; Zuo seferi (Ürümçi 19 Ağustos 1876 web özetinde; Manas günü doğrulanamadı)
+dogu-asya	1877-10-18	yakub-beg	qing-hanedani	kapsam_disi	3	Aksu (Tarım), Karaşar (Yanqi), Uçturfan (Uç Turfan)	G-YAZ	1877-12-18	61	kronoloji_cok_orta_asya2.js	Zuo seferi; Aksu/Karaşar/Uçturfan günü kaynaksız
+dogu-asya	1878-01-01	__BOSLUK__	qing-hanedani	kapsam_disi	1	Taşkurgan (Sarıkol)	G-YAZ	1877-12-18	14	kronoloji_cok_orta_asya2.js	Taşkurgan; Kaşgar'ın dönüşü
+dogu-asya	1913-01-01	san-devletleri	cin-cumhuriyeti	yil_temsili	1	Chiang Hung (Jinghong)	A-YIL				Jinghong; yıl temsilî, Xishuangbanna'nın Çin Cumhuriyeti'ne bağlanışı ayrı sürece ait
+orta-asya	1370-01-01	cagatay	timurlu	kapsam_disi	18	Andican, Belh, Buhara, Cizzah	G-VAR	1370-04-09	98	kronoloji_iran.js	Timur; harita günü künye gününden 99 gün erken (YERLESIM-ONERI)
+orta-asya	1379-01-01	cagatay	timurlu	yil_temsili	2	Hazârasp, Hîve	G-VAR	1379-01-01	yıl aynı	olaylar_2s_0919.js	Timur'un Harezm'i
+orta-asya	1402-07-28	OSMANLI	timurlu	acik	8	Aksaray, Burdur, Ermenek, Eğirdir	O				8 Anadolu şehri 'timurlu' görünüyor; Anadolu = KRONO-OSMANLI-CEVRE kapsamı, bölge etiketi orta-asya HATALI
+orta-asya	1502-01-01	timurlu	buhara	yil_temsili	4	Hazârasp, Hîve, Köhne Ürgenç (Gürgenç), Küngrat	A-HATA				Harezm'in Şeybânî'ye geçişi 1505; harita 3 yıl erken
+orta-asya	1503-01-01	timurlu	buhara	kapsam_disi	1	Taşkent	G-YAZ	1503-06-01	151	kronoloji_cok_orta_asya2.js	Taşkent; eski sahip timurlu yanlış, Moğulistan
+orta-asya	1506-01-01	timurlu	buhara	kapsam_disi	1	Belh	G-YAZ	1506-01-01	0	kronoloji_cok_orta_asya2.js	Belh
+orta-asya	1584-01-01	__BOSLUK__	buhara	yil_temsili	1	Feyzâbâd (Bedahşan)	G-YAZ	1584-01-01	yıl aynı	kronoloji_cok_orta_asya2.js	Bedahşan
+orta-asya	1635-01-01	—	cungar	yil_temsili	6	Barnaul, Biysk, Pavlodar (Koryakov), Semipalatinsk	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+orta-asya	1646-01-01	—	hive	yil_temsili	1	Yeni Ürgenç	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+orta-asya	1657-01-01	buhara	__BOSLUK__	kapsam_disi	1	Feyzâbâd (Bedahşan)	O				Bedahşan mirlerinin Buhara'dan kopuşu; kaynaksız
+orta-asya	1802-01-01	buhara	hokand	kapsam_disi	1	Hucend	O				Hucend; kaynaksız
+orta-asya	1809-01-01	buhara	hokand	yil_temsili	1	Taşkent	G-VAR	1808-01-01	366	kronoloji_ozbek.js	Âlim Han Taşkent; 1808/1809 farkı çözülemedi
+orta-asya	1815-01-01	kazak-hanligi	hokand	yil_temsili	5	Ak-Meçit (Perovsk), Sayram (İsficâb), Taraz (Evliya-Ata), Türkistan (Yesi)	G-YAZ	1816-01-01	365	kronoloji_cok_orta_asya2.js	Türkistan/Sayram/Çimkent
+orta-asya	1825-01-01	kazak-hanligi	hokand	kapsam_disi	3	Balasagun (Ak-Beşim), Issık Göl havzası, Narın (Naryn)	O				Issık Göl/Narın; kaynaksız
+orta-asya	1826-01-01	afgan-durrani	afganistan	yil_temsili	1	Herat	A-HATA				Herat 1863'e dek Sadozay'da kaldı (Britannica: Herat 1863); harita 'afganistan' diyor
+orta-asya	1841-01-01	buhara	afganistan	yil_temsili	1	Belh	A-HATA				Belh Afgan idaresine 1850/1859'da geçti; harita 1841
+orta-asya	1859-01-01	__BOSLUK__	afganistan	yil_temsili	1	Feyzâbâd (Bedahşan)	G-YAZ	1859-05-01	yıl aynı	kronoloji_cok_orta_asya2.js	Bedahşan
+orta-asya	1864-06-04	qing-hanedani	yakub-beg	kapsam_disi	7	Aksu (Tarım), Karaşar (Yanqi), Keriya (Yutian), Manas (Cungarya)	G-YAZ	1864-06-01	3	kronoloji_cok_orta_asya2.js	Kuça isyanı (yakub-beg değil; Hoca rejimi)
+orta-asya	1873-01-01	__BOSLUK__	buhara	kapsam_disi	1	Kal'a-i Hum (Darvaz)	O				Darvaz; kaynaksız
+orta-asya	1883-01-01	__BOSLUK__	afganistan	kapsam_disi	3	Gunt vadisi (bölge), Horog (Khorog), Kala-i Vamar (Rûşan)	G-YAZ	1883-01-01	0	kronoloji_cok_orta_asya2.js	Şugnan/Roşan
+orta-asya	1883-08-15	__BOSLUK__	afganistan	kapsam_disi	3	Kala-i Pençe (Vahan), Serhad (Vahan), İşkâşim (Pamir)	G-YAZ	1883-01-01	226	kronoloji_cok_orta_asya2.js	Vahan/İşkâşim; günü kaynaksız
+orta-asya	1895-03-11	afganistan	buhara	kapsam_disi	4	Gunt vadisi (bölge), Horog (Khorog), Kala-i Vamar (Rûşan), İşkâşim (Pamir)	G-VAR	1895-03-11	0	kronoloji_sinir_asya.js	Pamir notaları
+guneydogu-asya	1368-01-01	__BOSLUK__	brunei-sultanligi	kapsam_disi	5	Baram (bölge), Bintulu, Labuan (Victoria), Limbang	A-KUNYE				künye f:1368 temsilî; Baram/Bintulu/Limbang/Labuan/Niah'ın Brunei'ye bağlılığı bir olay değil
+guneydogu-asya	1526-01-01	__BOSLUK__	banjar-sultanligi	kapsam_disi	1	Barito Hulu (bölge)	A-KUNYE				künye f:1526 temsilî
+guneydogu-asya	1668-01-01	—	kutai	yil_temsili	1	Samarinda	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guneydogu-asya	1769-10-10	timor-beylikleri	__BOSLUK__	kapsam_disi	9	Atapupu, Baucau, Lautém (Moro), Maliana	A-KUNYE				künye t:1769-10-10 ölçüm değil sınır işareti; Timor liurai'leri 1769'da bitmedi
+guneydogu-asya	1818-01-01	__BOSLUK__	hollanda-dogu-hint	yil_temsili	1	Atapupu	O				Atapupu; kaynaksız
+guneydogu-asya	1822-12-02	__BOSLUK__	hollanda-dogu-hint	kapsam_disi	1	Sintang	O				Sintang; kaynaksız
+guneydogu-asya	1861-01-01	brunei-sultanligi	sarawak-brooke	kapsam_disi	1	Bintulu	G-YAZ	1861-01-01	0	kronoloji_cok_dogu_asya.js	Bintulu
+guneydogu-asya	1862-01-01	—	sarawak-brooke	kapsam_disi	1	Sibu	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guneydogu-asya	1864-01-01	—	sarawak-brooke	kapsam_disi	1	Simanggang (Sri Aman)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guneydogu-asya	1874-01-01	—	sulu-sultanligi	kapsam_disi	1	Sandakan (Elopura)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guneydogu-asya	1880-01-01	—	sarawak-brooke	kapsam_disi	1	Kapit (Fort Sylvia)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guneydogu-asya	1882-06-13	brunei-sultanligi	sarawak-brooke	kapsam_disi	2	Baram (bölge), Niah kıyısı (bölge)	G-YAZ	1882-01-01	163	kronoloji_cok_dogu_asya.js	Baram; harita günü DAYANAK değil, gün 163 fark
+guneydogu-asya	1890-01-01	brunei-sultanligi	sarawak-brooke	yil_temsili	1	Limbang	G-YAZ	1890-03-17	yıl aynı	kronoloji_cok_dogu_asya.js	Limbang
+guneydogu-asya	1895-01-01	__BOSLUK__	hollanda-dogu-hint	kapsam_disi	1	Kapuas Hulu (bölge)	O				Kapuas Hulu; kaynaksız
+guneydogu-asya	1898-12-01	—	hollanda-dogu-hint	kapsam_disi	1	Fakfak	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guneydogu-asya	1902-02-12	—	hollanda-dogu-hint	kapsam_disi	1	Merauke	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1840-09-18	—	yeni-zelanda	kapsam_disi	1	Auckland	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1841-01-01	—	yeni-zelanda	yil_temsili	1	New Plymouth	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1842-02-01	—	yeni-zelanda	kapsam_disi	1	Nelson (Yeni Zelanda)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1850-12-16	—	yeni-zelanda	kapsam_disi	1	Christchurch	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1853-01-01	—	yeni-zelanda	kapsam_disi	1	Timaru	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1855-01-01	—	yeni-zelanda	kapsam_disi	1	Napier	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1856-01-01	—	yeni-zelanda	kapsam_disi	2	Blenheim, Invercargill	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1862-01-01	—	yeni-zelanda	kapsam_disi	1	Queenstown (Yeni Zelanda)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1864-01-01	—	yeni-zelanda	kapsam_disi	1	Hokitika	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1864-08-24	—	yeni-zelanda	kapsam_disi	1	Hamilton (Yeni Zelanda)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1865-01-01	—	yeni-zelanda	kapsam_disi	1	Greymouth	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1868-01-01	—	yeni-zelanda	kapsam_disi	1	Taupō	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1870-01-01	—	yeni-zelanda	kapsam_disi	1	Gisborne	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1881-01-01	—	yeni-zelanda	yil_temsili	1	Rotorua	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1901-06-20	—	avustralya	kapsam_disi	1	Ceduna	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1903-01-01	—	avustralya	yil_temsili	2	Fitzroy Crossing, Meekatharra	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1906-01-01	—	avustralya	kapsam_disi	1	Oenpelli (Gunbalanya)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1908-01-01	—	avustralya	yil_temsili	1	Roper River Misyonu (Ngukurr)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+okyanusya	1915-01-01	—	avustralya	kapsam_disi	1	Coober Pedy	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guney-asya	1304-01-01	racput	delhi-sultanligi	kapsam_disi	1	Baroda (Vadodara)	O				Baroda; Alâeddin Hilcî'nin Gucerât seferi 1299-1304 kaynaksız
+guney-asya	1370-01-01	delhi-sultanligi	farukiler	kapsam_disi	1	Asîrgarh	G-YAZ	1370-01-01	0	kronoloji_cok_orta_asya2.js	Talner/Karvand iktâsı
+guney-asya	1398-01-01	—	farukiler	kapsam_disi	1	Burhânpûr	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guney-asya	1500-01-01	—	multan-langah	yil_temsili	1	Dera Gazi Han	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guney-asya	1573-02-26	gucerat-sultanligi	babur-imparatorlugu	kapsam_disi	1	Baroda (Vadodara)	G-VAR	1573-08-20	175	kronoloji_hindistan.js	Ekber'in Gucerât'ı; harita günü Surat'ın düşüşü olabilir
+guney-asya	1741-01-01	__BOSLUK__	maratha	kapsam_disi	1	Ratanpur	O				Nagpur Bhonsle'lerinin Chhattisgarh/Sambalpur'a uzanışı kaynaksız
+guney-asya	1750-01-01	__BOSLUK__	maratha	yil_temsili	1	Raipur	O				Nagpur Bhonsle'lerinin Chhattisgarh/Sambalpur'a uzanışı kaynaksız
+guney-asya	1797-01-01	__BOSLUK__	maratha	kapsam_disi	1	Sambalpur	O				Nagpur Bhonsle'lerinin Chhattisgarh/Sambalpur'a uzanışı kaynaksız
+guney-asya	1817-01-01	maratha	__BOSLUK__	kapsam_disi	1	Sambalpur	O				Sambalpur; 3. Anglo-Maratha Savaşı sonrası; kaynaksız
+guney-asya	1819-01-01	afgan-durrani	sih-imparatorlugu	kapsam_disi	1	Dera Gazi Han	G-YAZ	1819-01-01	0	kronoloji_cok_orta_asya2.js	Dera Gazi Han
+guney-asya	1821-01-01	afgan-durrani	sih-imparatorlugu	yil_temsili	1	Dera İsmail Han	G-YAZ	1819-01-01	731	kronoloji_cok_orta_asya2.js	Dera İsmail Han (madde metninde 1821)
+guney-asya	1848-01-01	—	sih-imparatorlugu	kapsam_disi	1	Bannu (Edwardesabad)	A-DOGUS				yerleşimin doğuş günü (s: ilk günü); sahip değişimi değil
+guney-asya	1849-01-01	__BOSLUK__	ingiliz-hindistani	kapsam_disi	1	Sambalpur	G-YAZ	1849-01-01	0	kronoloji_cok_orta_asya2.js	Sambalpur
+guney-asya	1849-03-29	sih-imparatorlugu	ingiliz-hindistani	kapsam_disi	3	Bannu (Edwardesabad), Dera Gazi Han, Dera İsmail Han	G-VAR	1849-03-29	0	kronoloji_hindistan.js	Pencap ilhakı
+guney-asya	1853-01-01	__BOSLUK__	ingiliz-hindistani	kapsam_disi	2	Raipur, Ratanpur	G-YAZ	1853-12-11	344	kronoloji_cok_orta_asya2.js	Nagpur; harita günü 11 ay erken
+guney-asya	1860-01-01	babur-imparatorlugu	ingiliz-hindistani	yil_temsili	2	Asîrgarh, Burhânpûr	O				Asîrgarh/Burhânpûr; Bâbürlü 1857'de bitti, bu iki kale Sindiya/Nimar'dı; kaynaksız
