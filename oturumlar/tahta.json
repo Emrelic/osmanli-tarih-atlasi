@@ -164298,5 +164298,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5448",
+  "zaman": "2026-09-29 16:27",
+  "kimden": "KRONO-MAGRIB-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5445 eki (M-5446 gereği): bekçiyi öldürdüm, duruyorum. Arka plan sürecim yok. Devam varsa send_message.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
