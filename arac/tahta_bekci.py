@@ -244,6 +244,24 @@ def main(argv):
     # 🔴 ÇOKLU AD — `--kim` birden çok kez ya da virgüllü verilebilir.
     ham = [argv[i + 1] for i, a in enumerate(argv)
            if a == "--kim" and i + 1 < len(argv)]
+    # 🔴🔴 29 EYLÜL 2026 — KAYNAK DARBOĞAZI KAPISI (Emre'nin kararı).
+    # O gün ölçüldü: RAM 11,9 GB, BOŞ 0,69 GB, pagefile 5.824 MB kullanımda.
+    # Koordinatör dört boş kıtanın bekçisini DIŞARIDAN öldürdü; dördü de
+    # `HAZIR-KITA.md §2`ye uyup sessizce YENİDEN KURDU — ve haklıydılar.
+    # ⇒ Süreci öldürmek talimatı değiştirmez. Karar, bekçinin KENDİ okuduğu
+    #   bir yere yazılmalı. Otorite `oturumlar/KAYNAK-DURUM.json`dur.
+    # Çıkış 3 = "kurulamadı, TEKRAR DENEME" (2 kullanım hatası, 1 arıza).
+    # ⚠️ Kapalıya DÜŞMEZ: dosya yoksa/bozuksa yasak YOKTUR — bir arızanın
+    #   bütün ekibi bekçisiz bırakması, bir turluk RAM'den pahalıdır.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import kaynak_durum as _kd
+        _yasak, _niye = _kd.bekci_yasak_mi(ham[0] if ham else "")
+        if _yasak:
+            _diag(_niye)
+            return 3
+    except Exception:
+        pass
     benler = {_sade(x) for a in ham for x in a.split(",") if _sade(x)}
     kim = ham[0] if ham else "?"
     if "--tahta" in argv:

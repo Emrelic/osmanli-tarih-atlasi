@@ -21,6 +21,22 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
   kur ve dur.
 - Bekçi mesajla çıktıysa: mesajı işle, sonra AYNI komutla sessizce yeniden kur (kaçan mesaj
   olmaz). Eski Monitor bekçin açıksa TaskStop ile kapat.
+- 🔴 **AMA BEKÇİ ÇIKIŞ 3 VERDİYSE YENİDEN KURMA** (Emre, 29 Eylül 2026 — kaynak
+  darboğazı). `arac/tahta_bekci.py` açılışta `oturumlar/KAYNAK-DURUM.json`u okur;
+  koordinatör bir darboğaz kodu ilan ettiyse bekçi **kurulmaz**, sebebini stderr'e
+  basar ve **3** döner. Çıkış kodlarını ayırt et: `2` kullanım hatası · `1` arıza ·
+  **`3` = "kurulamadı, TEKRAR DENEME"**. 3 görürsen arka plan süreçlerini de kapat,
+  ekrana bir şey yazma, DUR. Görevin gelirse `send_message` ile çağrılırsın
+  (`CLAUDE.md §7.2 ⚠️`) — bekçisiz kalmak hiçbir şey kaçırmak değildir.
+  📌 **Niçin alet, niçin sadece mesaj değil:** o gün koordinatör dört boş kıtanın
+  bekçisini `Stop-Process` ile DIŞARIDAN öldürdü; dördü de bu maddenin üstündeki
+  "sessizce yeniden kur" kuralına uyup **yeniden kurdu** — ve haklıydılar.
+  *Süreci öldürmek talimatı değiştirmez.* Karar, bekçinin KENDİ okuduğu yere
+  yazılmalıydı. Ölçüm: RAM 11,9 GB · boş 0,69 GB · pagefile 5.824 MB kullanımda ·
+  claude 44 süreç / 5.689 MB (~285 MB/oturum).
+  🔴 **İŞİ BİTEN OTURUM İÇİN YASAK BEKLENMEZ:** teslim + commit'ten sonra bekçini
+  kendiliğinden öldür ve kurma. "Bekçimi öldüreyim mi?" diye SORMA, "bekçiyi
+  öldürdüm, duruyorum" diye BİLDİR.
 - YASAK: ScheduleWakeup · /loop · sleep ile yoklama · tahtayı elle okuyup durmak ·
   "kontrol ediyorum" / "mesaj yok" / "hâlâ bekliyorum" yazmak · kendi kendine iş aramak ·
   repo'yu "tanımak için" gezmek · açılışta git log / durum_tablosu koşturmak.

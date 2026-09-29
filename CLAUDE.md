@@ -395,6 +395,22 @@ kıta sayılan oturuma iş vermek, dolu bir işçinin üstüne ikinci iş yığm
   yeniden kur. "Bekliyorum" YAZILMAZ. 🔴 **Boş uyandıysan — sana ait hiçbir şey
   yoksa — EKRANA HİÇBİR ŞEY YAZMA,** bekçiyi sessizce yeniden kur ve dur: "benlik
   bir şey yok, yeniden kuruyorum" cümlesinin kendisi bir tur maliyetidir.
+  🆕 🔴 **KAYNAK DARBOĞAZI KAPISI (Emre, 29 Eylül 2026) — yeniden kurmanın İSTİSNASI.**
+  `tahta_bekci.py` açılışta `oturumlar/KAYNAK-DURUM.json`u okur; koordinatör
+  `py arac/kaynak_durum.py kapat --kod <KOD>` ile darboğaz ilan ettiyse bekçi
+  **KURULMAZ**, sebebini basar, **çıkış 3** verir (2 kullanım hatası · 1 arıza ·
+  **3 = kurulamadı, TEKRAR DENEME**). 3 gören oturum arka plan süreçlerini kapatır
+  ve durur; görevi `send_message` ile gelir. Kodlar `kaynak_durum.py`deki
+  `KODLAR` sözlüğündedir (tek otorite): `RAM-DARBOGAZI` · `ISLEMCI-DARBOGAZ` ·
+  `DISK-DARBOGAZ` · `KOSU`. `--muaf` ile çalışan paketler dışarıda tutulur
+  (yatay mesajlaşma için bekçileri gerekir). Kaldırma: `kaynak_durum.py ac`.
+  ⚠️ Yasak ZATEN KURULMUŞ bekçiyi düşürmez, yalnız YENİDEN kurulmasını engeller —
+  ilan TAHTAYA da yazılır. ⚠️ Dosya yoksa/bozuksa yasak YOKTUR (kapalıya düşmez).
+  📌 Vaka: koordinatör dört boş kıtanın bekçisini `Stop-Process` ile dışarıdan
+  öldürdü, dördü de protokole uyup yeniden kurdu — **haklıydılar; süreci öldürmek
+  talimatı değiştirmez.** Ölçüm: RAM 11,9 GB · boş 0,69 GB · pagefile 5.824 MB ·
+  claude 44 süreç/5.689 MB. Sınav iki yönde koştu (yasaksız kurulur · yasakta 3 ·
+  muaf kurulur).
 - **⑤ Yatay mesaj:** işçi→işçi tahtadan (§7.1 ③); atama/öncelik/kaynak hükmü koordinatöre.
 - **⑥ Toplu okuma:** koordinatör tahtayı olay olay değil, bekçi `--toplu 1800` ile 30
   dakikada bir TEK özet satırla okur; işçiler buna göre 30 dk gecikme varsayar.
