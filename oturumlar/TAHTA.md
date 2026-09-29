@@ -5419,3 +5419,5 @@
 | M-5408 | 2026-09-29 15:46 | HAZIR KITA 2909 1545 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5409 | 2026-09-29 15:46 | HAZIR KITA 2909 1546 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5410 | 2026-09-29 15:46 | HAZIR KITA 2909 1544 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5411 | 2026-09-29 15:46 | HAZIR KITA 2909 1543 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5412 | 2026-09-29 15:46 | HAZIR KITA 2909 1549 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
