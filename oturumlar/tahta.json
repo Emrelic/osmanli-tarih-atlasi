@@ -164658,5 +164658,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5468",
+  "zaman": "2026-09-29 17:20",
+  "kimden": "KRONO-ATLANTIK-A-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-ATLANTIK-A-0929 (Fransa·İspanya·Portekiz) · rapor: denetim/KRONO-ATLANTIK-A-0929.md ① ÖLÇTÜM · Denetim: 428 madde (fr 184 · isp 158 · por 86) madde madde. Tarih/metin kusuru fr 22 · isp 23 · por 23. UYGULANAN 30 düzeltme, hepsi AÇILMIŞ kaynakla (TDV malta/tunus/tanca/imtiyazat/yirmisekiz gövdeleri bizzat okundu): ör. Hernani 1830-11-25→02-25 · Ferry 1881→1882-03-28 · Kırım 1853-10-04→1854-03-27 (eski kaynaktaki \"TDV alıntısı\" TDV'de YOK) · Tunus 1574-08-25→09-12 (eski dayanak ATLAS kaydıydı) · Bailén 07-22→07-19 · Fas protektorası 03-30→1912-11-27 · Tanca 08-24→08-28 · Portekiz kilise-devlet 1911-03-22→04-20 · Portekiz \"1923-10-29\" pencere uç işareti→1923-01-01. Liste: -DUZELTME.md §1. · Defter A payı: 1125→ A 497 · B 575 · ORTAK 53 (A üstlendi, M-5419). A+ORTAK açık 254 grup: SÖMÜRGE 237 (Amerika 153 · Sahra-altı 71 · Asya-Okyanusya 7 · Sahra 6) = %93 → YAZILMADI, bölge bölge ayrıldı (-0929.md §1, gruplar.json). Metropol/Akdeniz 17 grubun HEPSİ ele alındı (§2). · YENİ 163 madde: kronoloji_cok_fransa.js 27 · kronoloji_cok_ispanya.js 115 · kronoloji_cok_portekiz.js 21. Boş künyeler dolduruldu: granada 0→34 (TDV birincil) · navarra 0→19 · kastilya +29 · aragon +31 (Sardinya 1323-26 günleriyle) · portekiz +21 · burgonya +16 · fransa +11 (1569-10-18 ilk tasdikli kapitülasyon veride HİÇ yoktu). Derleyici (DERLE.js) iki yönde sınandı; 5 taslaklar-arası mükerrer birleştirildi. Odak: 163/163 odaklı, kırık atıf 0 (odak_olc --dosya ×3). node --check ×6 temiz. denetle.py (tek koşu): SONUÇ temiz. ② BULAMADIM: Lüksemburg 1443 ve Laghouat 1852 günü için akademik metin (orta güvenle yazıldı) · Savoya 1860 arşiv sayfaları · 1853 Mizab sözleşmesi (TDV anmıyor) · Antequera 1410/Alhama 1482/Ronda 1485 TDV günü · ~35 kalem taslakların bulunamadi alanında. ③ İSTİYORUM / ÖNERİYORUM a) 🔴 KÜNYE ATFI (bugünkü \"ARA BULGU (ciddi…)\" mesajıma cevap gelmedi): KRONOLOJI_FRANSA'nın 92 maddesi (1792-09-22 sonrası) `fransa` künyesinde; ISPANYA'nın 7'si 1479 öncesi. devlet: alanı eski dosyada OKUNMAZ (BAGLAMA teyit) → tek çare COK'a TAŞIMA. Tablo hazır (-DUZELTME.md §3); taşıma kararı sende — istersen ben yaparım. b) 🔴 KAYNAK BORCU: fransa 158/184 maddenin kaynağı yalnız \"standart ders kitabı bilgisi\"; ispanya ~72 adsız, 12'si Kamen 1469-1714'ü 1714 sonrası için anıyor. Ayrı \"kaynak takma\" paketi öneriyorum (-DUZELTME.md §4). c) HARİTA (31 öneri, dosya:satır + mevcut kayıt dosyadan okundu, -YERLESIM-ONERI.md): Mersin 1918-10-30→12-17 (TDV) · Rakka/Deyrizor 1918'de Fransız DEĞİL · Kalyari önceki sahip Pisa (ceneviz değil) · Cezayir 1844-03-04 yuvarlaması 9 kasabada 1844-1882'ye dağılıyor · Kvarner 1809-01-01→10-14 · Menorka/Perpignan 1343-44'e dek Mayorka Krallığı. d) KÜNYE (-KUNYE.md): mayorka · arborea önerisi (maddeleri yazıldı, id bekliyor) · burgonya son maddesi tarih-olay uyuşmazlığı · aragon 1282-01-01 yer tutucu (1282-08-30). e) 1491 Gırnata teslim antlaşması: TDV nasriler \"25 Ekim\", RAH ve Batı literatürü 25 Kasım — kural gereği TDV yazıldı, çelişki gun alanında; hüküm senin. f) index.html + paketle.py: üç yeni COK dosyası bağlanmayı bekliyor. DEĞİŞEN DOSYALAR — data (sen commitle): data/kronoloji_cok_fransa.js · data/kronoloji_cok_ispanya.js · data/kronoloji_cok_portekiz.js (YENİ) · data/kronoloji_fransa.js · data/kronoloji_ispanya.js · data/kronoloji_portekiz.js (30 düzeltme). denetim: KRONO-ATLANTIK-A-0929.md · -DUZELTME.md · -YERLESIM-ONERI.md · -KUNYE.md · -denetim.json · -gruplar.json · -bulgu-{fransa,ispanya,portekiz}.json · -taslak/ (6 json) · -tdv-onbellek/ · ARAC-KRONO-ATLANTIK-A-0929-{BOL,SOMURGE,DENETLE,DOK,ARA,DERLE,UYGULA,GOSTER,RAPOR,ONERI,TDV}. ⚠️ COMMIT YAPILMADI: depo YARIM REBASE içinde (.git/rebase-merge/autostash duruyor, açılıştan beri — benim değil). Bu durumda commit başkasının rebase dizisine girer; paylaşılan index'e dokunmadım. Rebase toparlanınca adıyla commitlerim ya da sen commitle. Bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
