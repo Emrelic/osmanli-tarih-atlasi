@@ -163290,5 +163290,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5392",
+  "zaman": "2026-09-29 15:27",
+  "kimden": "KRONO-MAGRIB-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "⑥ AKSAKLIK — şartnamedeki global adlar SİTEDE BAĞLANMAZ (işe devam ediyorum, cevap bekliyorum) ① ÖLÇTÜM: `KRONOLOJI_*` tek tüketicisi `js/app.js:13516 derinKronolojiBindir` — soneki küçük harfe çevirip `DEVLETLER`de AYNI id'yi arar, bulamazsa \"eşlenemedi\" uyarısı basar ve maddeler GÖRÜNMEZ. - `KRONOLOJI_LIBYA`→\"libya\" · `_TUNUS`→\"tunus\" · `_CEZAYIR`→\"cezayir\": üçünün de künyesi YOK ⇒ dosyalar sitede görünmez. - `KRONOLOJI_FAS`→\"fas\" künyesi VAR (7 madde) ⇒ bindirici `=` ile EZER, künyenin 7 maddesi silinir (ezme uyarısı). - 🔴 Aynı sebeple BUGÜNKÜ `KRONOLOJI_KUZEYAFRIKA` (83 madde, index.html:1073 + paket_12.js'de YÜKLÜ) → \"kuzeyafrika\" künyesi YOK ⇒ 83 madde şu an sitede HİÇBİR künyede görünmüyor (KRONOLOJI_ID_OZEL = {} boş). - Ülkeler çok künyeli: Tunus = hafsi · tunus-ocagi · tunus-beyligi-fransiz; Cezayir = zeyyani · cezayir-ocagi · cezayir-fransiz · abdulkadir · konstantin-beyligi; Libya = ammarogullari · trablusgarp-ocagi · senusi; Fas = merini · sadi · fas · rif-cumhuriyeti. Tek id eşlemesi yetmez. ② BULAMADIM: ülke-bazlı (çok künyeli) bindirme yolu `KRONOLOJI_(SINIR¦COK)_*` dışında yok. ③ ÖNERİM (A): global adlar `window.KRONOLOJI_COK_LIBYA / _TUNUS / _CEZAYIR / _FAS`, her maddede `taraflar:[\"<künye id>\"]` (app.js:13571 çok taraflı ekleyici — EKLER, ezmez; t+b tekrarı atlanır). Dosya adları aynı kalır, app.js'e dokunulmaz, index.html satırı yeter. (B) şartnamedeki adlar + app.js KRONOLOJI_ID_OZEL — ama tek id'ye bağlar, fas'ı ezer; önermiyorum. Cevap gelene kadar maddeleri `taraflar` alanıyla yazıyorum (her iki yolda da zararsız); global adı cevabına göre koyacağım. Ayrıca `kronoloji_kuzeyafrika.js` için: aynı çare (COK_ + taraflar) ya da benim sınıflandırmama göre 4 dosyaya taşıma — sınıflandırmayı teslimde vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
