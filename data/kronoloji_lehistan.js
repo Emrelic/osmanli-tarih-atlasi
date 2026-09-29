@@ -96,285 +96,60 @@
 // (belgenin kendi uyarısı). ⇒ BELGELENMİŞ sözlüğe uydum, "askeri"
 // yazmadım. Şartname kazansın istersen tek satırla değiştiririm.
 // =====================================================================
+// 🔴 KRONO-KUZEY-0929 (29 Eylül 2026): `lehistan` künyesinin penceresi 1569-07-01 →
+//    1795-10-24'tür. Pencere DIŞINDAKİ 62 madde (1569 öncesi → polonya-erken /
+//    litvanya-buyuk-dukalik; 1807 → varsova-dukaligi; 1815-1863 → kongre-polonyasi;
+//    1918 → polonya) data/kronoloji_cok_lehistan.js'e TAŞINDI, metinleri değişmedi.
+//    1797 Dąbrowski maddesi künyesiz olduğu için burada kaldı (DUZELTME.md).
 window.KRONOLOJI_LEHISTAN = [
 
 // ═════════════ I. PARÇALANMA SONU ve PİAST YENİDEN BİRLEŞMESİ ═════════════
-{ t:"1295-06-26", b:"II. Przemysł Gniezno'da kral taç giydi", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"",
-  d:"1138'den beri parçalı beyliklere bölünmüş Polonya'da iki yüzyıl sonra ilk kez bir kral taç giydi. Taç giyme, Piast birliğinin yeniden kurulabileceği fikrini siyasî bir hedef hâline getirdi.",
-  kaynak:"el-kitabi", yer_kon:[52.535,17.583] },
 
-{ t:"1296-02-08", b:"II. Przemysł Rogoźno'da suikastle öldürüldü", tur:"son",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
-  yer_id:"",
-  d:"Taç giymesinin üzerinden yedi ay geçmeden öldürülmesi birleşme girişimini yarıda kesti; taht yeniden Bohemya ile Piast kolları arasında çekişme konusu oldu.",
-  kaynak:"el-kitabi", yer_kon:[52.749,16.9997] },
 
-{ t:"1300-01-01", b:"Bohemya kralı II. Vaclav Polonya tahtına oturdu", tur:"hukumdar",
-  onem:3, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"Přemysl hanedanı Polonya tacını ele geçirdi. Yabancı bir hanedanın tahta oturması, sonraki yüzyıllarda tekrarlanacak bir desenin ilk örneğiydi.",
-  kaynak:"el-kitabi" },
 
-{ t:"1306-01-01", b:"Přemysl hâkimiyeti sona erdi, Łokietek geri döndü", tur:"hukumdar",
-  onem:3, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"III. Vaclav'ın öldürülmesiyle Bohemya hâkimiyeti çöktü ve Władysław Łokietek Krakov'a girdi. Birleştirme mücadelesi yeniden Piast eline geçti.",
-  kaynak:"el-kitabi" },
 
-{ t:"1308-11-13", b:"Töton Şövalyeleri Gdańsk'ı aldı — Pomerelya'nın kaybı", tur:"toprak-kayip",
-  onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
-  yer_id:"Gdansk",
-  d:"Yardıma çağrılan Töton Şövalyeleri şehre girip Polonya'nın Baltık'a açılan tek kapısını kendi topraklarına kattı. Bu kayıp, Polonya tarihyazımında iki yüzyıl sürecek Töton meselesinin başlangıcı sayılır ve denize çıkışın kapanması ülkenin en büyük stratejik yarası olarak anlatılır.",
-  kaynak:"el-kitabi" },
 
-{ t:"1320-01-20", b:"Władysław Łokietek Krakov'da taç giydi — parçalanma dönemi kapandı", tur:"birlesme",
-  onem:5, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
-  yer_id:"Krakov",
-  d:"Krakov'daki taç giyme töreni, 1138'den beri süren beylikler dönemini hukuken sona erdirdi ve tacın bölünmezliğini ilan etti. Polonya ulusal anlatısında yeniden kurulmuş krallığın başlangıç tarihi budur.",
-  kaynak:"el-kitabi" },
 
-{ t:"1331-09-27", b:"Płowce Muharebesi — Tötonlara karşı ilk büyük direniş", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
-  d:"Kesin bir sonuç vermeyen ama Töton ilerleyişini durduran muharebe, genç krallığın ayakta kalabileceğini gösterdi. Polonya hafızasında bir zafer olarak yerleşti.",
-  kaynak:"el-kitabi", yer_kon:[52.6156,18.6439] },
 
-{ t:"1333-04-25", b:"III. Kazimierz (Büyük) tahta çıktı", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"Babasının savaşla yürüttüğü siyaseti diplomasi ve hukukla sürdürdü. \"Ahşap bir Polonya bulup taştan bir Polonya bıraktı\" sözü onun için söylenir.",
-  kaynak:"el-kitabi" },
 
-{ t:"1335-01-01", b:"Visegrád kongresi — Silezya'dan vazgeçiş pazarlığı", tur:"antlasma",
-  onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
-  yer_id:"",
-  d:"Macar ve Bohemya kralları ile yapılan görüşmelerde Kazimierz, Bohemya'nın Polonya tacı üzerindeki iddiasından vazgeçmesi karşılığında Silezya'daki haklarını geri plana attı. Silezya meselesi bundan sonra yüzyıllarca kapanmayacak bir hesap olarak kaldı.",
-  kaynak:"el-kitabi", yer_kon:[47.7833,18.9333] },
 
-{ t:"1340-01-01", b:"Halic-Rus (Kızıl Rutenya) topraklarına yönelme", tur:"toprak-kazanc",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
-  yer_id:"Lvov",
-  d:"Kazimierz batıda kaybettiğini doğuda telafi etme siyaseti güttü ve Halic-Volhinya mirasına el attı. Polonya'nın doğuya yönelişi, sonraki dört yüzyılın ana ekseni olacaktı.",
-  kaynak:"el-kitabi" },
 
-{ t:"1343-07-08", b:"Kalisz Antlaşması — Töton Şövalyeleri ile barış", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  yer_id:"",
-  d:"Kuyavya ve Dobrzyń geri alındı, buna karşılık Pomerelya fiilen Tötonlarda kaldı. Antlaşma krallığa nefes aldırdı ama Baltık kapısını açmadı.",
-  kaynak:"el-kitabi", yer_kon:[51.762,18.0922] },
 
-{ t:"1364-05-12", b:"Krakov Akademisi kuruldu", tur:"kurulus",
-  onem:4, dunya:1, kapsam:"ic", etiket:["kultur","konu-siyasi","konu-kultur"],
-  yer_id:"Krakov",
-  d:"Orta Avrupa'nın Prag'dan sonraki en eski üniversitesi kuruldu; 1400'de Jagiellon vakfıyla yeniden canlandırıldı. Kopernik'i yetiştiren kurum olarak Polonya kültürel anlatısının merkezindedir.",
-  kaynak:"el-kitabi" },
 
-{ t:"1370-11-05", b:"III. Kazimierz öldü — Piast hanedanı sona erdi", tur:"son",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"Erkek vârisi olmadığı için taç, anlaşma gereği Macaristan kralı Büyük Lajos'a geçti. Ülkeyi kuran hanedanın sönmesi, Polonya'yı ilk kez yabancı bir hanedanla birlikte yönetilmeye ve soyluların pazarlık gücünün büyümesine götürdü.",
-  kaynak:"el-kitabi" },
 
-{ t:"1374-09-17", b:"Koszyce imtiyazı — soyluluğun vergiden muafiyeti", tur:"siyaset",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-ekonomi"],
-  yer_id:"", kapsam_genis:true,
-  d:"Lajos, kızının tahta geçmesini kabul ettirmek için szlachta'ya toplu vergi muafiyeti verdi. Polonya tarihyazımında soylu cumhuriyetinin hukukî temeli buradan başlatılır: taç, soylulara ödün vererek varlığını sürdürmeye başladı.",
-  kaynak:"el-kitabi", yer_id:"Kassa (Košice)" },
 
-{ t:"1384-10-16", b:"Jadwiga Krakov'da 'kral' olarak taç giydi", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"On bir yaşındaki Jadwiga kraliçe değil 'kral' (rex) unvanıyla taç giydi; bu, tacın ona ait olduğunu ve evleneceği kişinin eş-hükümdar sayılacağını hukuken güvenceye alıyordu.",
-  kaynak:"el-kitabi" },
 
 // ═════════════ II. JAGIELLON ÇAĞI (1385-1572) ═════════════
-{ t:"1385-08-14", b:"KREWO BİRLİĞİ — Polonya ile Litvanya'nın birleşmesi", tur:"birlesme",
-  onem:5, dunya:4, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
-  d:"Litvanya Büyük Dükü Jogaila, Jadwiga ile evlenmek, Hristiyanlığı kabul etmek ve Litvanya'yı Polonya tacına bağlamak taahhüdünde bulundu. Polonya ulusal anlatısında Krewo, Avrupa'nın en büyük devletlerinden birini doğuran kurucu belgedir; bir savaşla değil bir evlilik akdiyle kurulan birlik olarak özellikle vurgulanır.",
-  kaynak:"el-kitabi", yer_kon:[54.3103,26.2864] },
 
-{ t:"1386-03-04", b:"II. Władysław Jagiełło taç giydi — Jagiellon hanedanı başladı", tur:"hukumdar",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"Şubatta vaftiz edilip Jadwiga ile evlenen Jogaila, Krakov'da II. Władysław adıyla taç giydi. İki yüz yıl sürecek ve Polonya'yı Baltık'tan Karadeniz'e uzanan bir güç yapacak hanedan böylece kuruldu.",
-  kaynak:"el-kitabi" },
 
-{ t:"1387-01-01", b:"Litvanya'nın Hristiyanlaştırılması", tur:"siyaset",
-  onem:4, dunya:3, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
-  yer_id:"Vilnius",
-  d:"Avrupa'nın son putperest devleti vaftiz edildi. Bu, Töton Şövalyeleri'nin varlık gerekçesini — putperestlere karşı haçlı seferi — hukuken ortadan kaldırdığı için Polonya anlatısında ayrı bir zafer sayılır.",
-  kaynak:"el-kitabi" },
 
-{ t:"1401-01-01", b:"Vilnius-Radom Birliği — Vytautas'ın büyük düklüğü tanındı", tur:"antlasma",
-  onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"Vilnius",
-  d:"Litvanya'nın ayrı bir büyük düklük olarak, Vytautas'ın da ömür boyu büyük dük olarak tanınmasıyla birlik yeniden düzenlendi. Birliğin katı bir ilhak değil, sürekli yeniden pazarlık edilen bir ortaklık olduğu buradan görülür.",
-  kaynak:"el-kitabi" },
 
-{ t:"1409-08-06", b:"Töton Şövalyeleri savaş ilan etti — Büyük Savaş başladı", tur:"savas",
-  onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
-  d:"Žemaitija ayaklanmasına Polonya-Litvanya desteği bahane edilerek savaş açıldı. İki yıl sürecek Büyük Savaş, Grunwald'la doruğuna çıkacaktı.",
-  kaynak:"el-kitabi", yer_kon:[54.038,19.0269] },
 
-{ t:"1410-07-15", b:"GRUNWALD (Tannenberg) MUHAREBESİ", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["savas","toprak-kazanc","konu-askeri"],
-  yer_id:"",
-  d:"Jagiełło ve Vytautas'ın birleşik Polonya-Litvanya ordusu Töton Şövalyeleri'ni yok etti; büyük üstat Ulrich von Jungingen savaş alanında öldü. Grunwald, Polonya ulusal hafızasının en merkezî askerî olayıdır: Matejko'nun tablosundan okul kitaplarına, bağımsızlık mücadelelerinden 1945 sonrasına kadar sürekli yeniden anlatılmış bir simgedir.",
-  kaynak:"el-kitabi", yer_kon:[53.4889,20.2925] },
 
-{ t:"1411-02-01", b:"Birinci Toruń Barışı", tur:"antlasma",
-  onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
-  yer_id:"",
-  d:"Askerî zafere rağmen toprak kazancı sınırlı kaldı; Žemaitija Vytautas'ın ömrüyle sınırlı olarak geri alındı. Polonya tarihyazımında \"kazanılan savaşın kaybedilen barışı\" olarak tartışılan bir maddedir.",
-  kaynak:"el-kitabi", yer_kon:[53.0138,18.5981] },
 
-{ t:"1413-10-02", b:"Horodło Birliği — Litvanya boyarlarına Polonya soyluluk armaları", tur:"antlasma",
-  onem:4, dunya:1, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
-  d:"Katolik Litvanya boyarları Polonya soylu ailelerinin armalarına kabul edilerek iki soyluluk hukuken kaynaştırıldı. Birliğin hanedan bağından toplumsal bir bağa dönüşmesi bu belgeyle başlar.",
-  kaynak:"el-kitabi", yer_kon:[50.883,24.033] },
 
-{ t:"1414-01-01", b:"Macar kralı Sigismund'dan Jagiełło'ya Türklere karşı yardım çağrısı", tur:"diplomasi",
-  onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
-  yer_id:"",
-  d:"Konstanz konsili sırasında yazılan mektup, Polonya kroniklerinde Osmanlı meselesinin Polonya siyasetine girdiği ilk kayıtlardan biri olarak geçer. İki devlet arasındaki temasın erken ve dolaylı başlangıcıdır.",
-  kaynak:"polonya", yer_kon:[47.6603,9.1758] },
 
-{ t:"1422-09-27", b:"Melno Antlaşması — Litvanya-Töton sınırı sabitlendi", tur:"antlasma",
-  onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
-  yer_id:"",
-  d:"Žemaitija kalıcı olarak Litvanya'ya bırakıldı ve çizilen sınır beş yüzyıl boyunca Avrupa'nın en istikrarlı sınırlarından biri olarak kaldı.",
-  kaynak:"el-kitabi", yer_kon:[53.4358,19.0025] },
 
-{ t:"1430-01-01", b:"Jedlnia imtiyazı — 'neminem captivabimus'", tur:"siyaset",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
-  yer_id:"", kapsam_genis:true,
-  d:"Mahkeme kararı olmadıkça hiçbir soylunun hapsedilemeyeceği ilkesi tanındı (1433'te Krakov'da teyit edildi). Polonya hukuk tarihinde bu ilke, İngiliz habeas corpus'unun bir muadili olarak anlatılır ve soylu hürriyetlerinin köşe taşı sayılır.",
-  kaynak:"el-kitabi", yer_kon:[51.45,21.35] },
 
-{ t:"1434-06-01", b:"II. Władysław Jagiełło öldü", tur:"son",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-kisiler"],
-  yer_id:"Krakov",
-  d:"Kırk sekiz yıllık saltanatının ardından tahtı oğlu III. Władysław'a bıraktı. Hanedan artık yerleşmişti ama her tahta geçiş soylulardan yeni onay istemeyi gerektiriyordu.",
-  kaynak:"el-kitabi" },
 
-{ t:"1440-01-01", b:"III. Władysław Macaristan kralı seçildi", tur:"hukumdar",
-  onem:4, dunya:2, kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi","konu-hanedan"],
-  yer_id:"",
-  d:"Polonya ve Macaristan tacının aynı başta birleşmesi, Osmanlı ilerleyişine karşı Orta Avrupa'da tek bir cephe kurma umudunu doğurdu. Bu umut dört yıl sonra Varna'da sona erecekti.",
-  kaynak:"el-kitabi", yer_kon:[47.1925,18.4108] },
 
-{ t:"1444-08-04", b:"Segedin barışı bozuldu — haçlı seferi ilanı", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
-  yer_id:"",
-  d:"Kardinal Cesarini'nin etkisiyle kral, Osmanlılarla yapılan barışı bozarak savaş ilan etti. Yeminin bozulması meselesi, Polonya ve Macar tarihyazımında Varna felaketinin ahlâkî tartışması olarak yüzyıllarca sürdü.",
-  kaynak:"varna-muharebesi", yer_id:"Segedin (Szeged)" },
 
-{ t:"1444-11-10", b:"VARNA MUHAREBESİ — Kral III. Władysław savaş alanında öldü", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri","konu-kisiler"],
-  yer_id:"Varna",
-  d:"II. Murad kumandasındaki Osmanlı ordusu haçlı ordusunu bozguna uğrattı; beş yüz atlıyla Osmanlı ordugâhına yüklenen genç kral atının düşmesi üzerine yeniçeriler tarafından öldürüldü. Polonya hafızasında \"Varnalı Władysław\" (Warneńczyk), Hristiyanlık uğruna ölen kral olarak anılır; cesedi hiç bulunamadığı için etrafında yüzyıllarca efsane dolaştı.",
-  kaynak:"varna-muharebesi" },
 
-{ t:"1447-06-25", b:"IV. Kazimierz Jagiellończyk taç giydi", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  yer_id:"Krakov",
-  d:"Üç yıllık fetret döneminin ardından Litvanya büyük dükü Polonya tahtına da oturdu. Kırk beş yıllık saltanatı Jagiellon gücünün zirvesi sayılır.",
-  kaynak:"el-kitabi" },
 
-{ t:"1454-03-06", b:"Prusya'nın krallığa katılma fermanı — On Üç Yıl Savaşı başladı", tur:"toprak-kazanc",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],
-  yer_id:"Krakov",
-  d:"Töton yönetimine karşı ayaklanan Prusya Birliği'nin başvurusu kabul edilerek bölge Polonya tacına bağlandı. Bu karar on üç yıl sürecek bir savaşı başlattı ve Baltık kapısı meselesini yeniden açtı.",
-  kaynak:"el-kitabi" },
 
-{ t:"1454-01-01", b:"Nieszawa Statüleri — sejmiklerin onayı olmadan savaş yok", tur:"siyaset",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
-  yer_id:"", kapsam_genis:true,
-  d:"Savaşa gitmek için asker toplayabilmek isteyen kral, bölge meclislerinin onayını almak zorunda kaldı. Polonya tarihyazımı bunu, soyluların devlet üzerindeki denetiminin kurumsallaştığı an olarak okur.",
-  kaynak:"el-kitabi", yer_kon:[52.8676,18.6994] },
 
-{ t:"1466-10-19", b:"İkinci Toruń Barışı — Gdańsk ve Kraliyet Prusyası kazanıldı", tur:"antlasma",
-  onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
-  yer_id:"",
-  d:"Gdańsk, Malbork, Elbląg ve Warmia Polonya'ya geçti; Töton Devleti'nin geri kalanı Polonya tacına tâbi hâle geldi. 1308'de kaybedilen Baltık kapısı 158 yıl sonra geri alındı ve Vistül üzerinden tahıl ihracatına dayanan ekonomik altın çağın kapısı açıldı.",
-  kaynak:"el-kitabi", yer_kon:[53.0138,18.5981] },
 
-{ t:"1475-01-01", b:"Kırım Hanlığı Osmanlı himayesine girdi — kuzey dengesi değişti", tur:"diplomasi",
-  onem:4, dunya:4, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
-  yer_id:"Bahçesaray",
-  d:"Kefe'nin alınmasıyla Kırım Osmanlı nüfuzuna girdi. Bundan sonra Kırım akınları Polonya'nın güneydoğu topraklarının kalıcı meselesi hâline geldi ve Osmanlı ile ilişkilerin ana konusu oldu.",
-  kaynak:"kirim" },
 
-{ t:"1484-07-14", b:"Kili'nin Osmanlılarca alınması", tur:"toprak-kayip",
-  onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"Kili",
-  d:"Tuna ağzındaki liman Osmanlı eline geçti. Polonya'nın Karadeniz ticaretine açılan yolu daralmaya başladı.",
-  kaynak:"kili" },
 
-{ t:"1484-08-03", b:"Akkirman'ın Osmanlılarca alınması — Karadeniz kapısı kapandı", tur:"toprak-kayip",
-  onem:4, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
-  yer_id:"Akkirman",
-  d:"Dinyester ağzındaki Akkirman'ın düşmesiyle Polonya'nın Karadeniz'e çıkan ticaret yolu fiilen kapandı. Lviv üzerinden akan doğu ticareti sarsıldı ve krallık dikkatini Baltık'a çevirdi.",
-  kaynak:"akkirman" },
 
-{ t:"1489-03-22", b:"İlk Osmanlı-Lehistan barış antlaşması", tur:"antlasma",
-  onem:3, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  yer_id:"",
-  d:"Mikolay Firley'in imzaladığı iki yıllık antlaşma, iki devlet arasında yapılan ilk barış belgesi olması sebebiyle tarihî önem taşır. Kısa süreli olmasına rağmen Osmanlı ile diplomatik ilişkinin resmen kurulduğu tarih budur.",
-  kaynak:"polonya", yer_id:"İstanbul" },
 
-{ t:"1492-06-07", b:"IV. Kazimierz öldü — Jagiellon mirası bölündü", tur:"son",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-kisiler"],
-  yer_id:"",
-  d:"Oğulları arasında Polonya, Litvanya, Bohemya ve Macaristan tahtları paylaşıldı. Hanedan Orta Avrupa'nın büyük bölümünü tutuyordu ama tek bir devlet olarak değil.",
-  kaynak:"el-kitabi", yer_kon:[53.6884,23.8258] },
 
-{ t:"1496-01-01", b:"Piotrków statüleri — köylünün toprağa bağlanması", tur:"siyaset",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
-  yer_id:"", kapsam_genis:true,
-  d:"Köylülerin köyden ayrılması ağır biçimde sınırlandı, şehirlilerin toprak edinmesi kısıtlandı. Polonya tarihyazımında bu, tahıl ihracatına dayalı folwark düzeninin ve ikinci serfliğin hukukî temeli olarak okunur — altın çağın bedeli.",
-  kaynak:"el-kitabi", yer_kon:[51.405,19.7031] },
 
-{ t:"1497-01-01", b:"Bukovina seferi ve Kozmin bozgunu", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
-  d:"Karadeniz limanlarını geri almak için çıkılan sefer felaketle bitti ve Polonya Osmanlı üstünlüğünü fiilen tanıdı. \"Kral Jan Olbracht için soyluluk yok oldu\" sözü bu seferin hafızasıdır.",
-  kaynak:"polonya", yer_kon:[48.15,25.85] },
 
-{ t:"1505-01-01", b:"NIHIL NOVI — kral tek başına kanun koyamaz", tur:"siyaset",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hukuk"],
-  yer_id:"", kapsam_genis:true,
-  d:"Radom sejminde kabul edilen anayasa, kralın senato ve soylu meclisin onayı olmadan yeni kanun çıkarmasını yasakladı. Polonya tarihyazımı bunu \"soylu demokrasisi\"nin (Rzeczpospolita szlachecka) doğum belgesi sayar: egemenlik hukuken taçtan meclise geçti.",
-  kaynak:"el-kitabi", yer_id:"Radom" },
 
-{ t:"1514-09-08", b:"Orşa Muharebesi — Moskova'ya karşı zafer", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
-  d:"Ostrogski kumandasındaki Litvanya-Polonya ordusu sayıca üstün Moskova kuvvetlerini bozguna uğrattı. Zafer Avrupa'da propaganda konusu yapıldı ama Smolensk geri alınamadı.",
-  kaynak:"el-kitabi", yer_kon:[54.5081,30.4172] },
 
-{ t:"1525-04-10", b:"Prusya biatı — Töton Devleti dünyevî düklüğe dönüştü", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"Krakov",
-  d:"Son büyük üstat Albrecht Hohenzollern Lutherciliğe geçip Krakov meydanında I. Zygmunt'a biat etti ve Töton Devleti Polonya'ya tâbi dünyevî bir düklük oldu. Polonya için o gün bir zaferdi; iki yüzyıl sonra aynı hanedanın Prusya Krallığı, Polonya'yı bölen üç devletten biri olacaktı.",
-  kaynak:"el-kitabi" },
 
-{ t:"1533-01-01", b:"Osmanlı ile 'ebedî barış'", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  yer_id:"",
-  d:"İki hükümdarın ömrü boyunca geçerli olacak barış antlaşması yapıldı. Bu belge, Polonya'nın on altıncı yüzyıl boyunca Osmanlı ile savaşmadan yaşamasını sağlayan çerçeveyi kurdu ve Habsburg baskısına karşı elini güçlendirdi.",
-  kaynak:"polonya", yer_id:"İstanbul" },
 
-{ t:"1543-01-01", b:"Kopernik'in 'De revolutionibus'u basıldı", tur:"kurulus",
-  onem:4, dunya:5, kapsam:"ic", etiket:["kultur","konu-siyasi","konu-kultur"],
-  yer_id:"",
-  d:"Krakov Akademisi'nde okumuş Mikołaj Kopernik'in güneş merkezli evren modeli ölüm yılında yayımlandı. Polonya kültürel anlatısında ülkenin dünya bilimine yaptığı en büyük katkı olarak anılır.",
-  kaynak:"el-kitabi", yer_kon:[49.4521,11.0767] },
 
 { t:"1569-07-01", b:"LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu", tur:"birlesme",
   onem:5, dunya:4, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
@@ -610,11 +385,11 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Son yerli ve muzaffer kralın ölümüyle taht yeniden açık artırmaya çıktı. Bundan sonraki seçimler komşu devletlerin parasıyla ve ordusuyla belirlenecekti.",
   kaynak:"el-kitabi" },
 
-{ t:"1699-01-26", b:"KARLOFÇA — Podolya ve Kamaniçe geri alındı", tur:"antlasma",
+{ t:"1699-01-26", b:"KARLOFÇA — Podolya, Kamaniçe ve Sağ Yaka Ukrayna geri alındı", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
-  d:"On bir maddelik antlaşmayla Osmanlı Devleti Podolya'yı boşalttı, Kamaniçe Kalesi'ni tahliye edip yıktırdı ve Ukrayna'daki Kazak hatmanlığını lağvetti; karşılığında Boğdan'daki Suçeva, Roman, Nemçe, Soroka ve Kampulek kaleleri Osmanlı'ya döndü (24 Receb 1110). Polonya için Karlofça, 1672'de kaybedilenin geri alınmasıdır — ama zaferi kazanan artık cumhuriyet değil, ittifakın büyük ortaklarıydı.",
-  kaynak:"karlofca", yer_kon:[45.2019,19.9308] },
+  d:"On bir maddelik antlaşmayla Osmanlı Devleti Podolya'yı boşalttı, Kamaniçe Kalesi'ni tahliye edip yıktırdı ve Ukrayna'daki Kazak hatmanlığını lağvetti (Braslav, Vinnitsa ve Uman'ın bulunduğu Sağ Yaka Ukrayna böylece Lehistan'a kaldı); karşılığında Boğdan'daki Suçeva, Roman, Nemçe, Soroka ve Kampulek kaleleri Osmanlı'ya döndü (24 Receb 1110). Polonya için Karlofça, 1672'de kaybedilenin geri alınmasıdır — ama zaferi kazanan artık cumhuriyet değil, ittifakın büyük ortaklarıydı.",
+  kaynak:"karlofca — Hatmanlık cümlesi: TDV karlofca (A. Özcan), gövdeden okundu · başlık/gövde düzeltmesi KRONO-KUZEY-0929", yer_kon:[45.2019,19.9308] },
 
 // ═════════════ IV. SAKSON DÖNEMİ, ÇÖZÜLME ve TAKSİMLER (1697-1795) ═════════════
 { t:"1697-09-15", b:"Sakson elektörü II. August (Güçlü) taç giydi", tur:"hukumdar",
@@ -744,102 +519,22 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Fransa hizmetinde kurulan Polonyalı birlikler, devleti olmayan bir milletin ordusu olarak silah altına girdi. Lejyonlar için yazılan marş bugün Polonya millî marşıdır ve ilk dizesi \"Polonya henüz ölmedi\" der.",
   kaynak:"el-kitabi", yer_id:"Milano" },
 
-{ t:"1807-07-07", b:"Varşova Düklüğü kuruldu (Tilsit)", tur:"kurulus",
-  onem:4, dunya:4, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
-  yer_id:"Varşova",
-  d:"Napolyon, Prusya'nın aldığı topraklarda Polonyalı bir devlet kurdu. Küçük ve bağımlı olmasına rağmen, on iki yıl sonra yeniden bir Polonya devleti ortaya çıkmıştı.",
-  kaynak:"el-kitabi" },
 
-{ t:"1815-06-09", b:"Viyana Kongresi — Kongre Polonyası kuruldu", tur:"siyaset",
-  onem:4, dunya:5, kapsam:"dis", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"Viyana",
-  d:"Varşova Düklüğü'nün yerini, Rus çarının kral olduğu anayasalı bir Polonya Krallığı aldı; Krakov serbest şehir yapıldı. Taksim düzeni yeni bir kılıfla sürdürüldü.",
-  kaynak:"el-kitabi" },
 
-{ t:"1830-11-29", b:"Kasım Ayaklanması başladı", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
-  yer_id:"Varşova",
-  d:"Varşova'daki harbiyeliler ayaklanarak Rus yönetimini devirdi ve on ay süren bir savaş başladı. Yenilgiyle biten ayaklanma, on binlerce Polonyalıyı Batı Avrupa'ya süren \"Büyük Göç\"ü doğurdu; Chopin ve Mickiewicz'in kuşağı bu sürgünde yetişti.",
-  kaynak:"el-kitabi" },
 
-{ t:"1831-09-08", b:"Varşova düştü — Kasım Ayaklanması bastırıldı", tur:"savas",
-  onem:4, dunya:2, kapsam:"ic", etiket:["savas","konu-askeri","konu-isyan"],
-  yer_id:"Varşova",
-  d:"Rus ordusunun şehri almasıyla ayaklanma sona erdi; anayasa kaldırıldı, üniversiteler kapatıldı ve sert bir Ruslaştırma dönemi başladı.",
-  kaynak:"el-kitabi" },
 
-{ t:"1863-01-22", b:"Ocak Ayaklanması başladı", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
-  yer_id:"Varşova",
-  d:"Zorunlu askere alma listelerine karşı başlayan ayaklanma, bir buçuk yıl süren en uzun Polonya direnişine dönüştü. Bastırılmasının ardından Kongre Polonyası'nın özerkliği tamamen kaldırıldı; ulusal mücadele silahtan eğitim ve iktisada kaydı.",
-  kaynak:"el-kitabi" },
 
-{ t:"1918-11-11", b:"Polonya bağımsızlığını yeniden kazandı", tur:"kurulus",
-  onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
-  yer_id:"Varşova",
-  d:"Birinci Dünya Savaşı'nın sonunda üç taksim devletinin de çökmesiyle Polonya 123 yıl sonra bağımsız bir devlet olarak yeniden kuruldu. Bugün Polonya'nın millî bayramıdır ve 1795'te kesilen çizginin yeniden bağlandığı gün sayılır.",
-  kaynak:"el-kitabi" },
 
 // --- KULTUR · BILIM · MIMARI · KURUM ekseni (21 Agustos 2026) ---
-{ t:"1400-07-26", b:"Krakov Akademisi yeniden kuruldu — Jadwiga'nın mirası üniversiteye bağışlandı", tur:"kultur",
-  onem:4, dunya:2, kapsam:"ic", etiket:["kultur","idari","konu-idari","konu-kultur","konu-egitim"],
-  yer_id:"Krakov",
-  d:"Kraliçe Jadwiga ölürken bütün mücevherlerini, 1364'te kurulup sönmüş olan akademinin yeniden açılmasına vasiyet etti; Jagiełło 1400'de kurumu ilâhiyat fakültesiyle birlikte yeniden tesis etti. Krakov Akademisi (bugünkü Jagiellon Üniversitesi) böylece Orta Avrupa'nın Prag'dan sonraki en eski sürekli üniversitesi oldu ve Polonya'nın aydın kadrosunu yetiştiren kurum hâline geldi.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1473-01-01", b:"Polonya'da ilk matbaa Krakov'da çalışmaya başladı", tur:"bilim",
-  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur","imar","islahat","konu-bilim","konu-kultur","konu-imar","konu-islahat"],
-  yer_id:"Krakov",
-  d:"Kasper Straube'nin Krakov'daki atölyesi Polonya topraklarında basılan ilk kitapları çıkardı. Matbaanın gelişi Krakov Akademisi çevresindeki hümanist çevreyi güçlendirdi ve 16. yüzyılda Polonya'yı Orta Avrupa'nın en yoğun kitap üreten merkezlerinden biri yapacak zemini kurdu.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1473-02-19", b:"Mikołaj Kopernik Toruń'da doğdu", tur:"bilim",
-  onem:5, dunya:5, kapsam:"ic", etiket:["bilim","konu-kisiler","konu-bilim"],
-  yer_id:"",
-  d:"Toruń'lu bir tüccar ailesinin oğlu olarak doğdu; Krakov Akademisi'nde okudu, sonra Bologna ve Padova'da hukuk ve tıp öğrendi. Polonya tarihyazımının, ülkenin dünya bilimine yaptığı en büyük katkı saydığı isimdir.", ic_not_d:"Toruń'un yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[53.0138,18.5981] },
 
-{ t:"1491-01-01", b:"Krakov'da ilk Kiril harfli kitaplar basıldı", tur:"bilim",
-  onem:3, dunya:3, kapsam:"ic", etiket:["bilim","kultur","konu-bilim","konu-kultur"],
-  yer_id:"Krakov",
-  d:"Schweipolt Fiol'ün Krakov atölyesi Kiril alfabesiyle basılmış ilk kitapları üretti. Bu baskılar Ortodoks Slav dünyasının matbaayla ilk temasıdır ve Polonya'nın Latin ile Ortodoks kültür alanları arasındaki eşik konumunu gösterir.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1518-04-18", b:"Bona Sforza kraliçe oldu — İtalyan Rönesansı saraya girdi", tur:"kultur",
-  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","siyaset","konu-siyasi","konu-kultur","konu-imar"],
-  yer_id:"Krakov",
-  d:"Milano dükünün kızı Bona Sforza I. Zygmunt ile evlenerek Polonya kraliçesi oldu ve beraberinde İtalyan mimarları, bahçıvanları ve hümanistleri getirdi. Wawel'in Rönesans avlusu, Polonya mutfağının sebze repertuvarı ve sarayın İtalyan zevki bu evliliğe dayandırılır.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1519-01-01", b:"Wawel'de Zygmunt Şapeli'nin inşası başladı", tur:"kultur",
-  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","konu-kultur","konu-imar"],
-  yer_id:"Krakov",
-  d:"Floransalı Bartolommeo Berrecci kraliyet katedralinin yanına altın kubbeli bir mezar şapeli inşa etmeye başladı. Yapı Alpler'in kuzeyindeki en saf Toskana Rönesansı eseri sayılır ve Polonya sanat tarihinin en çok atıf alan anıtıdır.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1533-06-01", b:"Zygmunt Şapeli tamamlandı", tur:"kultur",
-  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","konu-kultur"],
-  yer_id:"Krakov",
-  d:"On dört yıl süren inşaat bitti. Şapel yalnız bir mezar değil, Jagiellon hanedanının kendini Avrupa Rönesansı içinde konumlandırma iddiasıdır; Polonya'nın 16. yüzyıldaki altın çağ anlatısının görsel merkezi budur.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1543-05-24", b:"Kopernik öldü — Güneş merkezli evren modeli yayımlandı", tur:"bilim",
-  onem:5, dunya:5, kapsam:"ic", etiket:["bilim","konu-kisiler","konu-bilim"],
-  yer_id:"",
-  d:"Kopernik, De revolutionibus orbium coelestium'un basılmış ilk nüshasını ölüm döşeğinde gördü. Eser yer merkezli evren anlayışını yıkarak bilim tarihinde bir çağ kapattı; Polonya tarihyazımı onu ulusun evrensel ölçekteki en büyük katkısı sayar.", ic_not_d:"Frombork'un yerleşim kaydı atlasta yok.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[54.3556,19.6708] },
 
-{ t:"1564-01-01", b:"Cizvitler Polonya'ya çağrıldı — Karşı Reform başladı", tur:"din",
-  onem:4, dunya:3, kapsam:"ic", etiket:["din","kultur","konu-din","konu-kultur","konu-islahat"],
-  yer_id:"",
-  d:"Kardinal Stanisław Hosius Cizvitleri Braniewo'ya davet etti ve ilk kolejlerini kurdurdu. Cizvit okul ağı bir yandan Polonya eğitiminin belkemiği oldu, bir yandan da 1573'te güvence altına alınan dinî çoğulculuğun yüzyıl içinde aşınmasının başlıca aracı hâline geldi.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[54.3775,19.8256] },
 
-{ t:"1568-01-01", b:"Mikołaj Rej — Polonya dilinde yazan ilk büyük edebiyatçı", tur:"kultur",
-  onem:4, dunya:2, kapsam:"ic", etiket:["kultur","konu-kultur"],
-  yer_id:"",
-  d:"Rej bütün eserlerini Latince yerine Lehçe yazdı ve Polonyalıların kaz olmadığı, kendi dilleri bulunduğu sözüyle anıldı. Polonya edebiyat tarihi ulusal dilde edebiyatın başlangıcını ona bağlar; şlahta kültürünün kendi sesini bulması bu kuşakla olur.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", kapsam_genis:true },
 
 { t:"1578-06-01", b:"Kochanowski'nin Yunan Elçilerinin Uğurlanması'ı — ilk Lehçe trajedi", tur:"kultur",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur","konu-diplomasi","konu-kultur"],

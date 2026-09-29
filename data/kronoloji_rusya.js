@@ -24,6 +24,13 @@
 // Gregoryen'den 12 gün, 20. yy'da 13 gün geri). Bu dosyadaki `t:` alanları
 // GREGORYEN (atlasın çalıştığı takvim); Rus kaynaklarında görülecek "eski
 // stil" (Jülyen) tarih madde metninde (`d:`) ayrıca belirtilir.
+// 🔴 KRONO-KUZEY-0929 (29 Eylül 2026) ÖLÇÜMÜ — YUKARIDAKİ CÜMLE TUTMUYOR: dosya
+//    KARIŞIK takvimlidir. En az ~20 madde Rus eski üslubuyla (Jülyen) yazılmış
+//    (ör. 1825-12-14 Dekabrist, 1861-02-19 serflik, 1905-01-09 Kanlı Pazar,
+//    1905-10-17 Ekim Manifestosu), ötekiler Gregoryen. VERI-YAPISI §59 gereği
+//    ÇEVRİLMEDİ; madde listesi denetim/KRONO-KUZEY-0929-DUZELTME.md §B1'de.
+//    Künye penceresi dışındaki 15 madde (1547 öncesi → moskova; 1917-11-07 →
+//    sovyet-rusya) data/kronoloji_cok_rusya.js'e TAŞINDI.
 //
 // KAYNAK DİSİPLİNİ (CLAUDE.md §4):
 //   TDV slugları — Osmanlı-Rus temas noktalarında bu projede DAHA ÖNCE
@@ -65,74 +72,8 @@
 window.KRONOLOJI_RUSYA = [
 
 // === A) MOSKOVA KNEZLİĞİ'NİN YÜKSELİŞİ (1283-1533) ==========================
-{ t:"1283-01-01", b:"Moskova Knezliği'nin kuruluşu — I. Daniil", tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kurulus","siyaset","konu-siyasi"],
-  yer_id:"Moskova",
-  d:"Aleksandr Nevski'nin en küçük oğlu Daniil, Moskova'yı bağımsız bir knezlik olarak yönetmeye başladı. O dönemde Moskova, Vladimir-Suzdal topraklarının küçük ve önemsiz bir merkeziydi; Rus tarihyazımı bu tarihi sonraki yükselişin başlangıç noktası sayar.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1327-01-01", b:"I. İvan \"Kalita\" Altın Orda'nın vergi toplayıcısı oldu", tur:"idari", onem:4, dunya:2, kapsam:"dis",
-  etiket:["siyaset","idari","konu-siyasi","konu-idari","konu-ekonomi"],
-  yer_id:"Moskova",
-  d:"Moskova Knezi İvan Kalita, Tver isyanını bastırmasının ardından Altın Orda hanından bütün Rus knezlikleri adına haraç toplama yetkisini aldı. Bu yetki Moskova'nın diğer Rus şehirlerine karşı mali ve siyasi üstünlük kurmasının temelini attı.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1325-01-01", b:"Metropolitlik makamı Moskova'ya taşındı", tur:"din", onem:3, dunya:1, kapsam:"ic",
-  etiket:["din","siyaset","konu-siyasi","konu-din"],
-  yer_id:"Moskova",
-  d:"Rus Ortodoks Kilisesi'nin başı Metropolit Petr, dinî merkezini Moskova'ya taşıdı. Bu, Moskova'nın yalnız siyasi değil dinî bir merkez olarak da yükselişinin başlangıcıydı ve knezliğin meşruiyetini güçlendirdi.",
-  kaynak:"Cambridge History of Russia, c.1" },
-{ t:"1380-09-08", b:"Kulikovo Muharebesi", tur:"savas", onem:5, dunya:2, kapsam:"dis",
-  etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
-  yer_id:"",
-  d:"Moskova Knezi Dmitri Donskoy, Altın Orda kumandanı Mamay'ın ordusunu Don Nehri kıyısındaki Kulikovo sahasında yendi. Zafer askerî olarak Moğol boyunduruğunu bitirmedi (Moskova 1382'de Tokhtamış tarafından yeniden yakıldı) ama Rus ulusal tarihyazımında Moskova'nın Rus topraklarının birleştirici gücü olduğunun ve Tatar boyunduruğuna direnişin SEMBOLİK başlangıcı sayılır — Rus kaynaklı takvimde 8 Eylül (Jülyen), bugünkü Rusya'da resmî anma günüdür.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia", yer_kon:[53.65,38.66] },
-{ t:"1382-08-26", b:"Tokhtamış Moskova'yı yaktı", tur:"kayip", onem:3, dunya:2, kapsam:"dis",
-  etiket:["askeri","kayip","konu-askeri"],
-  yer_id:"Moskova",
-  d:"Kulikovo'nun iki yıl sonrasında Altın Orda hanı Tokhtamış Moskova'yı ele geçirip yaktı ve haraç yükümlülüğünü yeniden dayattı. Rus tarihyazımı bunu Kulikovo'nun kazanımlarının geçici olduğunun, gerçek bağımsızlığın hâlâ bir yüzyıl ötede olduğunun kanıtı sayar.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1462-01-01", b:"III. İvan (Büyük) tahta çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
-  etiket:["siyaset","taht","konu-siyasi","konu-hanedan"],
-  yer_id:"Moskova",
-  d:"III. İvan'ın 43 yıllık saltanatı, dağınık Rus knezliklerinin Moskova çevresinde birleştirilmesinin (\"sobiraniye zemel\") ve Moğol boyunduruğunun resmen bitirilmesinin dönemidir. Novgorod (1478) ve Tver (1485) gibi büyük rakip şehirler onun döneminde ilhak edildi.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1480-11-11", b:"Ugra Nehri'nde karşı karşıya gelme — Tatar boyunduruğunun bitişi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
-  yer_id:"",
-  d:"III. İvan'ın orduları ile Büyük Orda hanı Ahmed'in kuvvetleri Ugra Nehri kıyısında aylarca karşı karşıya durdu; çatışma olmadan Ahmed geri çekildi. Rus tarihyazımı bu olayı \"Tatar boyunduruğunun\" (1237'den beri süren) RESMÎ ve KESİN sonu, Moskova'nın bağımsız bir güç olarak doğuşu sayar — Kulikovo kadar, bazı tarihçilere göre ondan da fazla, dönüm noktasıdır.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia", yer_kon:[54.57,36.05] },
-{ t:"1497-01-01", b:"İlk Sudebnik (Kanunname) yayımlandı", tur:"kanun", onem:3, dunya:1, kapsam:"ic",
-  etiket:["idari","reform","konu-idari","konu-islahat","konu-hukuk"],
-  yer_id:"",
-  kapsam_genis:true,
-  d:"III. İvan'ın çıkardığı ilk merkezî hukuk kodeksi, birleşen Rus topraklarında tek tip bir hukuk düzeni kurmayı amaçladı ve köylülerin toprak sahibini değiştirme hakkını Yuri Günü (26 Kasım) çevresindeki dar bir pencereyle sınırlayarak serflik sürecinin ilk yasal adımını attı.",
-  kaynak:"Cambridge History of Russia, c.1", yer_id:"Moskova" },
-{ t:"1453-05-29", b:"İstanbul'un fethi haberi Moskova'ya ulaştı — \"Üçüncü Roma\" fikrinin doğuşu", tur:"din", onem:3, dunya:2, kapsam:"dis",
-  etiket:["din","siyaset","konu-siyasi","konu-din"],
-  yer_id:"İstanbul",
-  d:"Bizans'ın çöküşü, Moskova'da kendini Ortodoksluğun yeni koruyucusu ilan eden bir ideolojinin filizlenmesine yol açtı; III. İvan'ın 1472'de son Bizans imparatorunun yeğeni Sofya Paleolog ile evlenmesi bu iddiayı güçlendirdi. \"Moskova, Üçüncü Roma'dır\" formülasyonu birkaç on yıl sonra keşiş Filofey tarafından yazıya döküldü.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1472-11-12", b:"III. İvan, Sofya Paleolog ile evlendi", tur:"evlilik", onem:2, dunya:2, kapsam:"dis",
-  etiket:["siyaset","evlilik","konu-siyasi","konu-hanedan"],
-  yer_id:"Moskova",
-  d:"Son Bizans imparatoru XI. Konstantin'in yeğeni Sofya (Zoe) Paleolog ile evlilik, Moskova sarayına Bizans törenselliğini ve çift başlı kartal armasını getirdi; Moskova knezliğinin kendini Bizans'ın mirasçısı olarak konumlandırmasını simgeler.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1478-01-15", b:"Novgorod Cumhuriyeti ilhak edildi", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"ic",
-  etiket:["toprak","siyaset","konu-askeri","konu-siyasi"],
-  yer_id:"Novgorod",
-  d:"Kuzeybatı Rusya'nın büyük ticaret cumhuriyeti Novgorod, III. İvan'ın kuşatması sonunda özerkliğini kaybederek Moskova'ya bağlandı; şehrin özgür veçe (halk meclisi) geleneği sona erdi. Bu, \"Rus topraklarının toplanması\" sürecinin en büyük tek kazanımıydı.",
-  kaynak:"Cambridge History of Russia, c.1" },
-{ t:"1505-01-01", b:"I. Vasili tahta çıktı", tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
-  etiket:["siyaset","taht","konu-siyasi","konu-hanedan"],
-  yer_id:"Moskova",
-  d:"III. İvan'ın oğlu I. Vasili, babasının birleştirme siyasetini sürdürerek Pskov (1510) ve Ryazan (1521) knezliklerini de Moskova'ya kattı; onun döneminde Moskova artık tartışmasız Rus topraklarının merkeziydi.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 
 // === B) IV. İVAN VE ÇARLIK (1533-1598) =======================================
-{ t:"1533-12-04", b:"IV. İvan (sonradan Korkunç), üç yaşında tahta çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
-  etiket:["siyaset","taht","konu-siyasi","konu-hanedan"],
-  yer_id:"Moskova",
-  d:"I. Vasili'nin ölümüyle henüz üç yaşındaki oğlu İvan tahta geçti; annesi Elena Glinskaya'nın naipliği ve ardından boyar aileleri arasındaki iktidar kavgalarıyla geçen çocukluğu, onun sonraki yönetim tarzını derinden etkiledi.",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 { t:"1547-01-16", b:"IV. İvan (Korkunç) \"Çar\" unvanını aldı ⭐", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","kurulus","konu-siyasi"],
   yer_id:"Moskova",
@@ -477,7 +418,7 @@ window.KRONOLOJI_RUSYA = [
   yer_id:"Varşova",
   d:"Rusya ve Prusya, Polonya'nın büyük bir bölümünü daha aralarında paylaştı; Rusya Ukrayna ve Beyaz Rusya'nın kalan kısımlarını aldı. Bu paylaşım, Polonya devletinin fiilen sona ermesine giden son adımdı.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1795-10-24", b:"Polonya'nın Üçüncü Paylaşımı — Polonya devleti ortadan kalktı", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis",
+{ t:"1795-10-24", b:"Polonya'nın Üçüncü Paylaşımı — Litvanya, Kurlandiya ve Batı Volinya Rusya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis",
   etiket:["toprak","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Varşova",
   d:"Rusya, Prusya ve Avusturya arasındaki üçüncü ve son paylaşımla Polonya-Litvanya Birliği devlet olarak haritadan silindi; Rusya, Litvanya ve Batı Beyaz Rusya'nın kalanını aldı. Katerina'nın saltanatının en büyük toprak kazanımlarından biri olarak Rus tarihyazımında yer alır, ama 19. yüzyıl boyunca sürecek Polonya isyanlarının da tohumunu ekti.",
@@ -689,11 +630,11 @@ window.KRONOLOJI_RUSYA = [
   kapsam_genis:true,
   d:"Balkan Slavları'na destek (Pan-Slavizm) söylemiyle başlayan savaş, Tuna ve Kafkas cephelerinde geçti; Rus tarihyazımında \"kardeş Slav halklarını\" Osmanlı boyunduruğundan kurtarma misyonunun zirvesi sayılır ve dönemin Rus kamuoyunda büyük bir millî coşkuyla karşılandı.",
   kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — devletler.js:298'den taşındı, doğrulandı" },
-{ t:"1878-03-03", b:"Ayastefanos (San Stefano) Antlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
+{ t:"1878-03-03", b:"Ayastefanos (San Stefano) Antlaşması — Kars, Ardahan, Batum ve Doğubayazıt Rusya'ya bırakıldı", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
   etiket:["antlasma","toprak","konu-askeri","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Rusya'nın dayattığı ağır barış, büyük bir Bulgaristan yaratıp Sırbistan, Karadağ ve Romanya'nın bağımsızlığını tanıdı; Rus tarihyazımında Pan-Slavist hedeflerin doruğu sayılsa da Avrupa güçlerinin tepkisiyle birkaç ay içinde Berlin Kongresi'nde büyük ölçüde geri alındı.",
-  kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış)" },
+  kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — Kars/Ardahan/Batum/Doğubayazıt cümlesi TDV gövdesinden okundu · başlık/gövde düzeltmesi KRONO-KUZEY-0929" },
 { t:"1878-07-13", b:"Berlin Antlaşması — San Stefano kazanımları geriletildi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Berlin",
@@ -812,11 +753,6 @@ window.KRONOLOJI_RUSYA = [
   yer_id:"Pskov",
   d:"II. Nikolay, kendisi ve oğlu adına tahttan çekildiğini ilan etti; kardeşi Mihail'in de ertesi gün tacı kabul etmeyi reddetmesiyle 1613'ten beri 304 yıl süren Romanov hanedanı ve üç yüzyıllık otokratik monarşi resmen sona erdi. Rus tarihyazımında Kulikovo, 1613, 1812 ve 1861 ile aynı düzeyde, imparatorluk döneminin kapanış tarihidir (bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]]).",
   kaynak:"Riasanovsky & Steinberg, A History of Russia — devletler.js:299'dan taşındı, doğrulandı" },
-{ t:"1917-11-07", b:"Ekim Devrimi — Bolşevikler iktidarı ele geçirdi", tur:"son", onem:5, dunya:5, kapsam:"ic",
-  etiket:["devrim","siyaset","konu-siyasi"],
-  yer_id:"St. Petersburg",
-  d:"Lenin önderliğindeki Bolşevikler, Petrograd'da Geçici Hükûmet'i devirerek iktidarı ele geçirdi (Jülyen takvimiyle 25 Ekim, bu yüzden \\\"Ekim Devrimi\\\").", ic_not_d:"Bu dosyanın kapsamı imparatorluk dönemiyle (1281-1917) sınırlı olduğundan yalnız KAPANIŞ İŞARETİ olarak eklenmiştir — devamı için bkz. data/devletler.js `sovyet-rusya` kronolojisi ve [[rusya-gecici-hukumet]].",
-  kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 
 // === M) İKİNCİ TUR — KÜLTÜR · BİLİM · SOSYAL AĞIRLIKLI EK MADDELER ===========
 // Emre (21 Ağustos): yoğunluk bir KOTA değil — "kaç tane çıkarsa o kadar."
@@ -824,11 +760,6 @@ window.KRONOLOJI_RUSYA = [
 // kronolojiden gerçekten bir şey eksilecek maddeler. §2'nin altı kovasından
 // askerî-siyasî DIŞINDAKİ beşine ağırlık verildi (ilk 141 zaten savaş-siyaset
 // ağırlıklıydı).
-{ t:"1479-08-15", b:"Kremlin Uspenski (Meryem'in Göğe Yükselişi) Katedrali tamamlandı", tur:"kultur", onem:3, dunya:2, kapsam:"ic",
-  etiket:["mimari","din","imar","konu-din","konu-kultur","konu-imar"],
-  yer_id:"Moskova",
-  d:"III. İvan'ın davet ettiği İtalyan mimar Aristotele Fioravanti'nin İtalyan mühendisliğini Rus-Bizans kilise mimarisiyle birleştirerek inşa ettiği katedral, çarların taç giyme töreni kilisesi oldu. Moskova Kremlin'inin bugünkü görünümünü kazanmasının başlangıcı ve Rönesans İtalyası ile Moskova arasındaki ilk doğrudan mimari temas sayılır.",
-  kaynak:"Cambridge History of Russia, c.1" },
 { t:"1561-07-12", b:"Aziz Vasili (Pokrovski) Katedrali tamamlandı", tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["mimari","din","imar","konu-din","konu-kultur","konu-imar"],
   yer_id:"Moskova",
