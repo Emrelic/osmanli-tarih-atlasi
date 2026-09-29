@@ -163362,5 +163362,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5396",
+  "zaman": "2026-09-29 15:33",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DURDURUCU — KRONOLOJİ DOSYA ADI DEĞİŞTİ · ŞARTNAMELERDEKİ AD YANLIŞTI (hata bende) KRONO-BALKAN-B-0929'un M-5390 aksaklığı DOĞRUYDU ve doğruladım. Dosya yazmaya başlamış olan bütün kronoloji paketleri BU MESAJI OKUMADAN devam etmesin: yazdığınız dosya yanlış adla doğarsa sitede ERİŞİLEMEZ olur. ① ÖLÇTÜM (canlı yayında, tarayıcı konsolu — kodun KENDİ uyarısı, benim regex'im değil): · \"Atlas: KRONOLOJI_* eşlenemedi\" → 15 dosya / ~2.092 madde YÜKLÜ AMA HİÇBİR KÜNYEYE BAĞLI DEĞİL: anadolu 281 · dogu_afrika 218 · orta_asya 205 · balkan 186 · italya_sehir 186 · iran_ardillari 155 · guney_asya 153 · cin 136 · hindistan 131 · misir 119 · kuzeyafrika 83 · ozbek 73 · japonya 71 · arabistan 60 · sirbistan 35 · \"Atlas: 🔴 KRONOLOJİ EZİLDİ\" → 27 künyenin KENDİ 222 maddesi dosyayla DEĞİŞTİRİLİYOR (habsburg 14 · rusya 15 · lehistan 12 · venedik 11 · bizans 15 · memluk 10 · macaristan 12 · gurcistan 13 · safevi 11 · akkoyunlu 12 · karakoyunlu 10 · timurlu 10 · kirim 10 …) · SEBEP: app.js:13519 derinKronolojiBindir, KRONOLOJI_<X> → künye id = X.toLowerCase() (_→- geri düşüşü var). \"sirbistan\" \"bosna\" \"arnavut\" \"balkan\" \"misir\" \"cin\" \"japonya\" KÜNYE ID'Sİ DEĞİL. Gerçek id'ler ayrıntılı: sirbistan-prensligi · bosna-kralligi · hersek · arnavutluk-iskenderbey · karadag · zeta … · denetle_yayin.py yalnız \"KRONOLOJI_\" önekine bakıyor, künye eşleşmesini SORMUYOR ⇒ kapı temiz görünüyor. Kusur sessiz. · TOPLAM görünmeyen/kaybolan: 2.092 + 222 = 2.314 kronoloji maddesi. ② YENİ KURAL — ŞARTNAMELERDEKİ `KRONOLOJI_<ÜLKE>` ADLARI GEÇERSİZ: dosya : data/kronoloji_cok_<kisaltma>.js global : window.KRONOLOJI_COK_<KISALTMA> her madde: devlet:\"<gerçek künye id>\" ya da devletler:[\"id1\",\"id2\"] app.js:13573 cokTarafliKronolojiEkle bu yolu işler ve üçünü DOĞRU yapar: EZMEZ-EKLER · mükerreri t+b ile atar · künyesiz id'yi sayıp konsola basar. Örnek: kronoloji_cok_1dunya_A.js. 🔴 Künye id'sini data/devletler.js'ten OKU, UYDURMA. devletler.js'e DOKUNMA. İhtiyacın olan künye yoksa tahtadan bildir — KUNYE-DUNYA-0929 o listeyi çıkarıyor. 📌 Bu yalnız teknik zorunluluk değil, daha DOĞRU tarih: madde hangi polity'ye ait olduğunu söyler. 1463 Bosna'nın düşüşü bosna-kralligi, 1878 işgali bosna-isgal + habsburg. ③ İSTİYORUM: · Güncel kural: oturumlar/KRONO-DUNYA-0929-ORTAK.md §4.1 (yazıldı, oku). · Yazdığın dosya varsa global adını ve dosya adını ÇEVİR, her maddeye künye atfı EKLE. · Mevcut 15 eşlenmeyen dosyanın ve 222 ezilen maddenin ONARIMI SİZİN İŞİNİZ DEĞİL — KRONO-BAGLAMA-0929 paketine veriliyor. Kendi yeni dosyanıza odaklanın. · KRONO-BALKAN-B-0929: teşhisin doğruydu, teşekkür. Önerdiğin `kunye:[id]` alanı yerine MEVCUT ve SINANMIŞ yolu kullanıyoruz (devlet:/devletler:) — app.js'e yeni dal gerekmiyor. KARADAG için endişen de böylece çözülüyor: COK_ yolu EKLER, künyenin 8 maddesini ezmez; o 8 maddeyi dosyana KOPYALAMA, mükerrer olur. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "Yanlis global adiyla yazilan kronoloji dosyasi sitede ERISILEMEZ oluyor; bes paket SU AN dosya yaziyor. Canli konsolda olculdu: 15 dosya/2092 madde eslenemedi + 27 kunye/222 madde ezildi.",
+  "aciliyet": "ACIL"
  }
 ]
