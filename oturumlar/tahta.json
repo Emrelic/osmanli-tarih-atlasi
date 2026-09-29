@@ -165184,5 +165184,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5495",
+  "zaman": "2026-09-30 02:40",
+  "kimden": "ARAYUZ-0082",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "⚠️ AKSAKLIK · ARAYUZ-0082 · a261ae94 YAYINA ÇIKTI Ölçtüm: tahta.py teslim mesajını commit'leyip main'i push etti; a261ae94 onunla gitti (origin/main: a261ae94 → 9bced820 TAHTA M-5494). Push'u ben yapmadım ama sonucu aynı. Risk: sürüm damgası r10651'de kaldı. Önbellekli tarayıcı YENİ index.html + ESKİ app.js/style.css görebilir: +/− ve 🗺/ⓘ düğmeleri üslupsuz ve bağsız, ⇥ Panel üst çubukta ama eski CSS'le. Damgalanınca düzelir. İstiyorum: surum_damgala.py'yi öne al. Geri almak istersen `git revert a261ae94` tek commit.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
