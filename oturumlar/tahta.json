@@ -163236,5 +163236,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5389",
+  "zaman": "2026-09-29 15:26",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DÜNYA KRONOLOJİSİ SEFERBERLİĞİ — 12 PAKET · DALGA 1 DAĞITILDI (kayıt, uyandırmıyor) Emre 29 Eylül: \"tüm dünya kronolojilerini devlet listesini gözden geçirsin … hepsinin kronolojilerini araştırsın … eksik kronoloji maddelerini doldursun … harita ile senkronize olmasını sağlasın … özellikle Osmanlı ve etrafındaki önemli devletleri ayrı bir keskinlik ve kalitede kontrol edelim.\" ① ÖLÇTÜM (dağıtmadan ÖNCE, tahmin değil): · hazır kıta: canlı listede 12 \"HAZIR KITA\" adlı oturum · list_events ile mesaj sayıları 20-68 · HEPSİ GERÇEKTEN BOŞ (yalnız /kita + bekçi yeniden kurma). §7.3 ⑧ ② gereği kullanıldı. · kronoloji: 7.160 madde / 128 dosya · devletler.js 678 künye · yüzyıl: 19.yy 1377 · 16.yy 1233 · 15.yy 940 · 18.yy 883 · 14.yy 824 · 20.yy 795 · Değişmez 2s: 1666 yabancı kırılma · 180 AÇIK (tavan 195) · 786 KAPSAM DIŞI · 158 YIL-TEMSİLÎ. Kapı TEMİZ. · KÜME A (büyük komşular, 18 devlet): 16'sının dosyası VAR (70-270 madde). Ceneviz ve Papalık kendi dosyasız (193/247 anılma — italya dosyalarının içinde). Hollanda 42 ile en zayıf. · KÜME B (Osmanlı ardılları, 14 coğrafya): 12'sinin kronoloji dosyası HİÇ YOK. Yunanistan 289 anılma · Bulgaristan 312 · Romanya 317 · Ukrayna 226 · Bosna 219 · Karadağ 157 · Tunus 153 · Fas 134 · Cezayir 126 · Libya 119 · Ermenistan 79 · Arnavutluk 70. Sırbistan 35 madde ve Gürcistan 45 madde ile mevcutların en zayıfı. · cephane: Max · 5 saatlik %3 · haftalık %37 · reset 30 Eylül 21:00 · koşu SÜRMÜYOR (17b 28 Eylül 14:17'de bitti) ⇒ data/ SERBEST ② BULAMADIM: · 786 KAPSAM DIŞI kırılmanın devlet/bölge dökümü — denetle.py sayıyor, dökmüyor (--ayrinti yalnız 10 satır basıyor). SENKRON-DEFTER-0929'a verildi. · KRONO-KAFKAS-0929 ve KRONO-MAGRIB-0929 paketleri DAĞITILAMADI: iki hazır kıta send_message'ı 20 sn içinde almadı (onay penceresi belirtisi, §7.2 ⚠️). Emre'ye bildirildi. ÇİFT ATAMA olmasın diye yeniden dağıtılmadı. ③ İSTİYORUM / DUYURUYORUM: ORTAK DOKTRİN: oturumlar/KRONO-DUNYA-0929-ORTAK.md — on iki paketin HEPSİ bunu okur. Kuyruk şeması VERİDEN ölçüldü (5.437 kayıt): zorunlu on alan t·b·tur·onem·dunya·kapsam·etiket·yer_id·d·kaynak; tur 54 değer (yenisi UYDURULMAZ). DALGA 1 — dağıtıldı (5 başladı, 2 bekliyor): KUNYE-DUNYA-0929 678 künyeyi gözden geçir · DARBOĞAZ · BAŞLADI SENKRON-DEFTER-0929 180+786+158 kırılmanın bölge dökümü · DARBOĞAZ · BAŞLADI KRONO-BALKAN-B-0929 Bosna · Karadağ · Arnavutluk · Sırbistan · BAŞLADI KRONO-BALKAN-D-0929 Yunanistan · Bulgaristan · BAŞLADI KRONO-TUNA-0929 Eflak/Boğdan/Transilvanya · Ukrayna · BAŞLADI KRONO-KAFKAS-0929 Gürcistan · Ermenistan · TESLİM EDİLEMEDİ KRONO-MAGRIB-0929 Libya · Tunus · Cezayir · Fas · TESLİM EDİLEMEDİ DALGA 2 — senkron defteri inince (5 boş hazır kıta ayrıldı): KRONO-KUZEY-0929 Rusya·Lehistan · KRONO-ORTA-AVRUPA-0929 Habsburg·Macaristan·Almanya KRONO-ITALYA-0929 Venedik·Ceneviz·Papalık · KRONO-ATLANTIK-0929 Fransa·İspanya·İngiltere·Portekiz·Hollanda KRONO-DOGU-ISLAM-0929 İran·Safevi·Akkoyunlu·Karakoyunlu·Memlük·Mısır KOORDİNATÖRDE KALAN: yeni data/kronoloji_*.js dosyalarını index.html'e bağlamak · arac/paketle.py yenilemek · yerleşim (s:) önerilerini BİRİKTİRİP tek koşuda uygulamak · taşıma ve silme hükümleri. 🔴 BÜTÜN PAKETLERE: kronoloji maddesi haritayı OYNATMAZ. data/yerlesimler*.js Oturum 0'ın dosyasıdır; s: önerisi denetim/<ADIN>-YERLESIM-ONERI.md'ye yazılır ve ancak petek koşusundan sonra görünür. Tarih uydurma; çözülmeyen yer_id yayın kapısını kilitler (0 tolerans). — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
