@@ -43,7 +43,21 @@ window.EKOKUMA_P76G = [
 // 1908 — OSMANLI'NIN TEPKİSİ
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"p76g-bagimsizlik-1908-osmanli-tepkisi", tur:"diplomasi",
+// 🔴 29 Eylül 2026 — `tur:"diplomasi"` idi ve bu kart SİTEDE HİÇ GÖRÜNMÜYORDU.
+// GLM (dış ölçüm işçisi, GLM-B ②b) buldu; doğrulandı: `js/app.js:10715`teki
+// `EKOKUMA_TUR` kaydında 15 tür var ve `diplomasi` onlardan biri DEĞİL.
+// `app.js:10762`nin kendi yorumu: yükleyici "tanımadığı `tur`u SESSİZCE geçer".
+// ⇒ Kayıt sağlamdı, metin doluydu, hiçbir denetim ötmüyordu — kart yalnızca
+//   hiç gelmiyordu. (app.js:10740 aynı sınıfın kardeş vakasını zaten anlatıyor:
+//   "kayıt sağlam, yalnız hiç gelmiyor".)
+// ÇARE (Emre'nin kararı, iki şıktan (a)): tür KAYITLI bir değere çevrildi.
+// `antlasma` seçildi çünkü kartın gövdesi 1909 İstanbul protokolünün 5. ve 7.,
+// 1913 protokolünün 6. maddesini anlatıyor — kayıtlı türün kendi etiketi de
+// "📜 Antlaşma hükümleri". Bu türün kaynağı `ANTLASMALAR`ı ve `_ekHavuz()`un
+// `tur==="antlasma"` kartlarını BİRLEŞTİRİR (app.js:10752), yani bu kart
+// oradan gelir. Alternatif (b) — `diplomasi`yi kaydetmek — yeni bir arayüz
+// kategorisi (etiket+simge+sıra) demekti ve ARAYÜZ oturumunun işidir.
+{ id:"p76g-bagimsizlik-1908-osmanli-tepkisi", tur:"antlasma",
   baslik:"Bulgaristan 1908'de bağımsızlığını ilân etti — Osmanlı Devleti ne yaptı?",
   kisa:"Otuz yıldır kâğıt üzerinde Osmanlı'ya tâbi olan Prenslik, 5 Ekim 1908'de tâbiyeti tek taraflı bitirdi. İki gün sonra Avusturya-Macaristan Bosna-Hersek'i ilhak etti. İki darbe aynı haftaya sığdı ve her ikisi de masada, bir protokolle kapandı.",
   metin:"ZAMANLAMA TESADÜF DEĞİLDİ. 1908 yazında İstanbul'da II. Meşrutiyet ilân edilmiş, devlet kendi iç dönüşümüyle meşguldü. Bu pencerede iki komşu aynı hafta içinde otuz yıllık hukukî düzeni tek taraflı bozdu:\n• 5 Ekim 1908 — Bulgaristan bağımsızlığını ilân etti, Prens Ferdinand \"çar\" unvanını aldı.\n• 7 Ekim 1908 — Bosna-Hersek'in resmen Avusturya-Macaristan toprağı olduğu ilân edildi.\n\nOSMANLI'NIN HUKUKÎ ZEMİNİ NEYDİ. İkisinde de Osmanlı'nın elinde fiilî bir güç değil, bir HAK vardı. Bulgaristan Prensliği 1878'den beri Osmanlı'ya tâbi bir prenslikti. Bosna-Hersek'te ise TDV'nin ifadesiyle \"Osmanlı Devleti'nin hakları 1908'deki kati ilhaka kadar resmen sürmüştü\" — yani Avusturya 1878'den beri orada idare ediyordu ama toprak hukuken Osmanlı'nındı. 1908 ikisinde de kâğıt üzerindeki bu hakkı sildi.\n\nSONUÇ MASADA ALINDI. Bulgaristan tarafındaki mesele bir antlaşmayla değil, İstanbul'da imzalanan bir PROTOKOL ile kapandı: 1909 tarihli İstanbul protokolü. Bu protokolün Osmanlı açısından asıl kazancı toprak değil, GERİDE KALANLARIN STATÜSÜ oldu. TDV'ye göre Bulgaristan'daki dinî hayat ve vakıflar bundan sonra üç belgeyle düzenlendi: 1909 İstanbul protokolü, onu tâdil eden 1913 protokolü ve 1919 nizamnâmesi. 1909 protokolünün beşinci ve yedinci maddeleri müftülerin vakıflar üzerindeki yetkilerini tanımlıyordu; 1913 protokolünün altıncı maddesi vakıf muhasebe defterlerinin TÜRKÇE tutulacağını belirtiyordu.\n\nBU NİÇİN ÖNEMLİ. Bir devlet toprağını kaybettiğinde geride kalan şey bazen bir sınır değil, bir CEMAAT hukuku olur. 1909 protokolü tam bunu yapıyor: Osmanlı Devleti Bulgaristan'ı geri alamadığı yerde, orada kalan müslüman nüfusun vakıflarını, müftülüklerini ve defter dilini garanti altına almaya çalışıyor. Aynı dönemde göç dalgası artıyordu: TDV'ye göre 1908-1909 yıllarında Balkan ülkelerinden gelen göç dalgası daha da arttı ve 1913'te Balkan Savaşı sonunda en yüksek seviyesine ulaştı; savaştan sonra 115.883 kişi iskân için başvurdu.\n\n⇒ Yani \"hiçbir tepki olmadı\" doğru değil; ama tepki bir sefer ya da bir sınır düzeltmesi değil, bir HUKUK PAZARLIĞI biçimini aldı.",
