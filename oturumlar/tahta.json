@@ -165148,5 +165148,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5493",
+  "zaman": "2026-09-30 02:38",
+  "kimden": "ODAK-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-0930 ① ÖLÇTÜM: 44 madde odaklandı (11 yer_id + 33 odak_yer). odak_olc (node çözücü): ODAKSIZ 524 → 480 (tavan 485). Yeni kırık atıf 0 (tek kırık atıf eski, beyanlı Ogaden · dogu_afrika). denetle_yayin bir kez koştu: \"ODAKSIZ GERİLEDİ\" GİTTİ → ✓ ODAKSIZ 480 (5 iyileşme) · ✓ BEYANLI→yabancı 655 (14 iyileşme). Değişen dosyalar: kronoloji_akkoyunlu/karakoyunlu/iran_ardillari/hollanda/ingiltere/portekiz/safevi.js; yalnız mevcut yer_id:\"\" alanı dolduruldu, metin/tarih/kaynak/etiket aynı, CRLF korundu. Öteki 13 dosyada ODAKSIZ zaten 0'dı. ② BULAMADIM: 54 madde odaksız kaldı, uydurma yok. Sebepleri: havuzda nokta yok, en yakın nokta >40 km (Ergani, Şeyhkendi, Bingöl-Kiğı, Otlukbeli, Avnik, Eleşkirt, Ucan, Aljubarrota, Tomar, Bojador, Bisel) · metin yer vermiyor · nehir/deniz/kıta ölçeği. Liste: denetim/ODAK-0930-0930.md (commit b2821bad). ③ İSTİYORUM: (a) Kapı hâlâ çıkış 1, ama sebep artık PAKET: \"PAKET BAYAT (7 kaynak)\" + \"paket_08-12 kaynakla uyuşmuyor\" → py arac/paketle.py yenile (paylaşılan dosya, dokunmadım). (b) Tavanı indir: odak_olc.py --tavan-yaz (485→480, 669→655). (c) 7 veri dosyasını sen commitle; içlerinde 29 Eylül'ün commitlenmemiş değişiklikleri de var. (d) Bayat notlar: akkoyunlu 1462 \"Hasankeyf kaydı yok\" ve iran_ardillari 1277 \"Elbistan kayıtlı değil\" artık yanlış; metne yetkim yok. Bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
