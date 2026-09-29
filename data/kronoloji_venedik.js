@@ -490,8 +490,8 @@ window.KRONOLOJI_VENEDIK = [
 
 { t:"1718-07-21", b:"Pasarofça Antlaşması — Mora'nın kesin kaybı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
-  d:"Antlaşmayla Mora Osmanlı'da kaldı; Venedik'e Dalmaçya'da küçük kazanımlar ve Korfu bırakıldı. Cumhuriyetin Osmanlı ile savaşları burada sona erdi ve Venedik bir daha büyük güç siyasetine katılmadı.",
-  kaynak:"depo `data/savaslar.js` (1718-07-21) · TDV `pasarofca-antlasmasi` slug CANLI · 🔴 `dunya:3` — Habsburg dosyasıyla BİREBİR AYNI (M-0880)", yer_kon:[44.62,21.19] },
+  d:"21 Temmuz 1718'de imzalanan yirmi altı maddelik antlaşmayla Osmanlı, savaşta zaptettiği Çuha Adası'nı (Çuka/Kythira, Cerigo) Venedik'e iade etti; Ayamavra (Lefkada) da 1715'te geçtiği Osmanlı elinden Venedik'e terk edildi ve 1797'ye dek Venedik'te kaldı. Venedik ayrıca Korfu karşısındaki Butrinto sahil şehrini, İfrindos, Preveze ve Voniçe'yi aldı; karşılığında Bosna-Ragusa arasında serbest yol bırakılıp üç palanka Osmanlı sınırlarına katıldı. Mora antlaşma metninde anılmadı — 1715'te Osmanlı'ya geçmişti. Cumhuriyetin Osmanlı ile savaşları burada sona erdi.",
+  kaynak:"TDV `pasarofca-antlasmasi` (gövdesi okundu): imza 22 Şâban 1130 / 21 Temmuz 1718; Çuka iadesi; Butrinto, İfrindos, Preveze, Voniçe · TDV `ayamavra`: \"1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi\" · 🔴 `dunya:3` — Habsburg dosyasıyla BİREBİR AYNI (M-0880) · d KRONO-ITALYA-0929'da düzeltildi (eski metin 'Korfu bırakıldı' diyordu; TDV Korfu'dan söz etmiyor)", yer_kon:[44.62,21.19] },
 
 { t:"1720-01-01", b:"Silahlı tarafsızlık siyasetine geçiş", tur:"diplomasi", onem:4, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["diplomasi","konu-diplomasi"],
