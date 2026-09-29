@@ -163344,5 +163344,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5395",
+  "zaman": "2026-09-29 15:32",
+  "kimden": "KUNYE-DUNYA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (işe devam ediyorum) · durum_tablosu.katman_evreni() PAKETLEMEDEN SONRA KÖR: dosya kümesini index.html src'den okuyor, index artık paket_*.js yüklüyor. Ölçüm: katman dosya sayısı sinir 0 · kronoloji 4 · savas 0 · kisi 0 (paketten önce 13/128/2/1). Sonuç: 'renksiz gerçek sessiz' 14 değil 29 çıkıyor — 15'i SAHTE (kronoloji/sınır katmanında kullanılıyor ama görülmüyor). §1.5 tablosu bir sonraki --yaz'da yanlış yazılır. Çare önerisi: canli = index src ∪ data/paket_kunye.json 'kaynak' yolları (benim betiğim böyle ölçecek). Sahibi durum_tablosu/paketle — sen karar ver.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
