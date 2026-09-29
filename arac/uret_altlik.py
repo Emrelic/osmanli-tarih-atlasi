@@ -259,6 +259,55 @@ KATMAN["dag_alan"] = _fc(_dag)
 KATMAN["nehir_motorun"] = _fc(_nehir_motorun)
 KATMAN["sirt_motorun"] = _fc(_sirt)
 
+# ---------------- KOORDİNAT GÜRÜLTÜSÜ TEMİZLİĞİ (29 Eylül 2026) ----------
+# Emre: "altlik.js için o koşuyu başlatalım, gürültüyü temizleyelim."
+#
+# SORUN — ölçüldü, tahmin değil: çıktıdaki 1.036.796 ondalıklı sayının
+# %27,7'si 6 haneden UZUNDU ve bunların bir kısmı apaçık IEEE754 gösterim
+# artığıydı (`19.025000000000006` gibi). Bunlar shapely'nin kesişim/tampon
+# hesaplarından doğuyor; hiçbir ÖLÇÜM bilgisi taşımıyorlar, yalnız bayt
+# yiyorlar. En uzunu 19 haneydi.
+#
+# ÖLÇÜLEN TASARRUF/KAYMA EĞRİSİ (tüm dosya üzerinde):
+#     hane   yeni MB   kazanç        en büyük kayma
+#       7     11,13     2,36 (%17,5)    0,006 m
+#       6     10,95     2,55 (%18,9)    0,056 m   ← SEÇİLEN
+#       5     10,10     3,40 (%25,2)    0,557 m
+#       4      9,25     4,25 (%31,5)    5,566 m
+#       3      8,40     5,10 (%37,8)   55,660 m
+#
+# NİÇİN 6 VE DAHA AŞAĞISI DEĞİL: 6 hane ~11 cm; en büyük kayma 5,6 cm.
+# Bu, hiçbir haritacılık ölçeğinde görünmez — yani GÜRÜLTÜ TEMİZLİĞİdir.
+# 5 ve aşağısı kazancı artırır ama artık gerçek konum bilgisini kırpmaya
+# başlar (3 hane 55 metre oynatır) ve o bir KALİTE KARARIdır, temizlik değil;
+# Emre istemeden yapılmaz.
+# 📌 Kıyas: atlasın geri kalanı (devlet gövdeleri · dönem petekleri · petek
+#    gövdeleri) zaten 3 ondalık hane taşıyor. Altlık 6 haneyle onlardan
+#    hâlâ 1000 kat hassas kalıyor.
+# ⚠️ Bu dosya motor TUZUNDA DEĞİL (tuz: uret_petek · renkler · girdi ·
+#    motor_onbellek) — değişmesi petek önbelleğini ÖLDÜRMEZ. Doğrulandı.
+HANE = 6
+
+
+def _yuvarla(o):
+    """Geometrideki her float'ı HANE haneye yuvarla — yapıyı bozmadan.
+
+    json.dumps'tan hemen ÖNCE, BÜTÜN katmanlara birden uygulanır. Katman
+    katman uygulasaydım biri unutulabilirdi ve o katman sessizce eski
+    hâlinde kalırdı.
+    """
+    if isinstance(o, float):
+        return round(o, HANE)
+    if isinstance(o, dict):
+        return {k: _yuvarla(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [_yuvarla(v) for v in o]
+    return o
+
+
+for _ad in ("kara", "gol", "nehir", "dag_alan", "nehir_motorun", "sirt_motorun"):
+    KATMAN[_ad] = _yuvarla(KATMAN[_ad])
+
 # ---------------- yaz ----------------
 parcalar = []
 for ad in ("kara", "gol", "nehir", "dag_alan", "nehir_motorun", "sirt_motorun"):
