@@ -810,6 +810,45 @@ body {
   border-left-color: var(--osmanli-kirmizi);
   box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }
+/* ✓ ÇOKLU SEÇİM (SECIM-0930, 30 Eylül 2026) — `.simdiki`DEN SONRA yazıldı:
+   ikisi aynı özgüllükte ve seçim, "şimdiki" vurgusunun ÜSTÜNE binmeli
+   (kullanıcının kendi işareti, motorun işaretinden önce gelir).
+   ⚠ `border-left` KULLANILMADI — o sütun KATEGORİ rengini taşıyor
+      (`.olay.k-fetih` vb.); seçim onu ezseydi madde türü kaybolurdu.
+      `outline` yer kaplamaz, yani satırlar seçilince KAYMAZ. */
+.olay.secili {
+  opacity: 1;                       /* gelecekteki madde seçilince sönük durmaz */
+  background: #e6effb;
+  outline: 2px solid #1257a8;
+  outline-offset: -2px;
+}
+.olay.secili.simdiki { background: #f6e7c4; }
+.olay.secili .o-tarih::before { content: "\2713 "; color: #1257a8; }
+
+/* Seçim şeridi — boşken hiç yer kaplamaz (#kr-ara-sonuc deseni). */
+#kr-secim {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 3px 8px 4px;
+  font-size: 10.5px;
+  color: #1257a8;
+  font-weight: 600;
+}
+#kr-secim:empty { display: none; }
+.kr-secim-kopya {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border: 1px solid #b9c9e4;
+  border-radius: 3px;
+  background: #fff;
+  color: #1257a8;
+  cursor: pointer;
+}
+.kr-secim-kopya:hover { background: #dbe7f8; }
+
 .olay .o-tarih { font-size: 11px; color: #8a6d2f; font-weight: bold; }
 /* 🔴 EMRE, 19 Ağustos 2026: *"dar gösterimde kronoloji maddeleri metin
    uzunluğu genişliğe sığmaz ise İKİ SATIR şeklinde aşağıya uzanabilsin."*

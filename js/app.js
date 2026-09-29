@@ -6917,6 +6917,107 @@ function duyguSpanUret(o) {
   return span;
 }
 
+// ---------- ✓ ÇOKLU SEÇİM (SECIM-0930, 30 Eylül 2026) ----------
+// Emre: "ctrl'ye basarak birden fazla kronoloji maddesini seçip sağ tıklanıp
+// seçilenleri kopyala … toplu SIRALI kopyalanması".
+//
+// 🔴 SIRA BEDAVA GELİYOR: `olaylar` zaten kronolojik ve `olayDom[i]`
+// `olaylar[i]` ile birebir. ⇒ seçili İNDEKSLERİ küçükten büyüğe sıralamak
+// kronolojik sıradır. Ayrı bir sıralama ölçütü YAZILMADI — tarihe göre
+// yeniden sıralasaydık aynı güne düşen maddelerin `gs` (gün içi sıra)
+// düzenini bozardık, oysa ekrandaki sıra onu zaten taşıyor.
+//
+// 🔴 SEÇİM, SÜZME DEĞİLDİR: `.suzuldu` gibi görünürlüğe karışmaz. Süzgeç bir
+// maddeyi gizlese de seçim ÜSTÜNDE KALIR (kullanıcı onu bilerek seçmişti) —
+// ama şerit gizlenen sayıyı SÖYLER, yoksa kopyalanan metinde ekranda
+// görünmeyen satırlar çıkar ve sebebi anlaşılmaz.
+var olaySecim = [];          // seçili madde indeksleri
+var olaySecimCapa = -1;      // Shift ile aralık seçiminin çıpası
+
+function olaySeciliMi(i) { return olaySecim.indexOf(i) >= 0; }
+
+function _olaySecimSinif(i, ac) {
+  if (olayDom[i]) olayDom[i].classList.toggle("secili", ac);
+}
+
+function olaySecimCevir(i) {
+  var k = olaySecim.indexOf(i);
+  if (k >= 0) { olaySecim.splice(k, 1); _olaySecimSinif(i, false); }
+  else { olaySecim.push(i); _olaySecimSinif(i, true); olaySecimCapa = i; }
+  olaySecimGoster();
+}
+
+function olaySecimAralik(i) {
+  var bas = Math.min(olaySecimCapa, i), son = Math.max(olaySecimCapa, i);
+  for (var j = bas; j <= son; j++) {
+    if (!olaySeciliMi(j)) { olaySecim.push(j); _olaySecimSinif(j, true); }
+  }
+  olaySecimCapa = i;
+  olaySecimGoster();
+}
+
+function olaySecimTemizle() {
+  olaySecim.forEach(function (i) { _olaySecimSinif(i, false); });
+  olaySecim.length = 0;
+  olaySecimCapa = -1;
+  olaySecimGoster();
+}
+
+// Seçilenlerin metni — KRONOLOJİK sırada, `olayMetniUret` ile (tek üreteç).
+function olaySecimMetni(tam) {
+  var ix = olaySecim.slice().sort(function (x, y) { return x - y; });
+  return ix.map(function (i) { return olayMetniUret(olaylar[i], tam); })
+           .join(tam ? "\n\n\u2014\u2014\u2014\n\n" : "\n");
+}
+
+function olaySecimGoster() {
+  var el = document.getElementById("kr-secim");
+  if (!el) return;
+  if (!olaySecim.length) { el.textContent = ""; return; }
+  var gizli = 0;
+  olaySecim.forEach(function (i) {
+    if (olayDom[i] && olayDom[i].classList.contains("suzuldu")) gizli++;
+  });
+  el.textContent = "";
+  var yazi = document.createElement("span");
+  yazi.textContent = "✓ " + olaySecim.length + " madde seçili"
+    + (gizli ? " (" + gizli + "’i süzgeçle gizli)" : "");
+  var kop = document.createElement("button");
+  kop.type = "button";
+  kop.className = "kr-secim-kopya";
+  kop.textContent = "kopyala";
+  kop.title = "Seçili maddelerin başlıklarını kronolojik sırayla panoya kopyalar";
+  kop.addEventListener("click", function () {
+    _panoyaYaz(olaySecimMetni(false), function (ok) {
+      kop.textContent = ok ? "✓ kopyalandı" : "⚠ olmadı";
+      setTimeout(function () { kop.textContent = "kopyala"; }, 1200);
+    });
+  });
+  var tem = document.createElement("button");
+  tem.type = "button";
+  tem.className = "kr-secim-kopya";
+  tem.textContent = "temizle";
+  tem.title = "Seçimi kaldır (Esc)";
+  tem.addEventListener("click", olaySecimTemizle);
+  el.appendChild(yazi);
+  el.appendChild(kop);
+  el.appendChild(tem);
+}
+
+// Esc: KATMANLI. Önce açık menü, sonra gelişmiş arama penceresi, sonra
+// arama kutusu, EN SON seçim. `capture` ile ÖNCE koşuyoruz ki üsttekilerin
+// açık olup olmadığını onlar kapanmadan ÖNCE görebilelim — yoksa tek Esc
+// hem menüyü kapatır hem seçimi siler ve kullanıcı seçimini kaybeder.
+document.addEventListener("keydown", function (e) {
+  if (e.key !== "Escape" || !olaySecim.length) return;
+  if (_kopyaMenu) return;
+  var p = document.getElementById("arama-pencere");
+  if (p && !p.classList.contains("gizli")) return;
+  var ak = document.activeElement;
+  if (ak && ak.id === "kr-ara" && ak.value) return;
+  olaySecimTemizle();
+}, true);
+
 var olayDom = [];
 olaylar.forEach(function (o, i) {
   var div = document.createElement("div");
@@ -6942,7 +7043,20 @@ olaylar.forEach(function (o, i) {
   // 🔴 `olayaGit` — üçlü artık TEK KAPIDAN geçiyor (KAMERA hakemi). Eskiden
   // burada `tarihAyarla` + `obGoster` + `haritayiOlayaGotur` ayrı ayrı
   // duruyordu ve birincisi oto-zoom'u imparatorluğa açıyordu.
-  div.addEventListener("click", function () { olayaGit(o, true, true); });
+  div.addEventListener("click", function (e) {
+    // 🆕 SECIM-0930 — Ctrl (Mac: Cmd) tek madde seçer/bırakır, Shift aralık.
+    // ⚠️ Mac'te Ctrl+tık `contextmenu` üretir; orada doğru tuş Cmd'dir, bu
+    //    yüzden `metaKey` de kabul ediliyor (tek tuşa bağlamak Mac'te
+    //    özelliği ERİŞİLMEZ kılardı).
+    // ⚠️ DÜZ TIK SEÇİMİ BOZMAZ — ve bu, dosya listelerinin âdetinden BİLEREK
+    //    ayrılıyor. Orada düz tık "bunu seç"tir; burada "bu maddeye GİT"tir,
+    //    yani bambaşka bir fiil. Düz tık seçimi silseydi, on maddeyi tek tek
+    //    seçip birini okumak isteyen kullanıcı hepsini kaybederdi. Seçim
+    //    Esc ile, şeritteki "temizle" ile ya da menüden kalkar.
+    if (e.ctrlKey || e.metaKey) { e.preventDefault(); olaySecimCevir(i); return; }
+    if (e.shiftKey && olaySecimCapa >= 0) { e.preventDefault(); olaySecimAralik(i); return; }
+    olayaGit(o, true, true);
+  });
   div.addEventListener("contextmenu", function (e) { kopyaMenusuAc(e, o, div); });
   olayListe.appendChild(div);
   olayDom.push(div);
@@ -7026,6 +7140,18 @@ function kopyaMenusuAc(e, o, kaynakEl) {
 
   var secili = String(window.getSelection ? window.getSelection() : "").trim();
   var secenekler = [];
+  // 🆕 SECIM-0930 — ÇOKLU SEÇİM SATIRLARI EN ÜSTTE. Yalnız kronoloji
+  // listesinde çıkar: `kopyaMenusuAc` ek okuma kartlarında, devlet
+  // listesinde ve detay panelinde de kullanılıyor; oralarda "seçilenleri
+  // kopyala" hiçbir şey ifade etmez ve menüyü gürültüyle doldururdu.
+  if (olaySecim.length && kaynakEl && kaynakEl.closest &&
+      kaynakEl.closest("#olay-listesi")) {
+    secenekler.push(["Seçilenleri kopyala (" + olaySecim.length + " başlık)",
+                     olaySecimMetni(false)]);
+    secenekler.push(["Seçilenlerin tamamını kopyala (" + olaySecim.length + " madde)",
+                     olaySecimMetni(true)]);
+    secenekler.push(["Seçimi temizle", olaySecimTemizle]);
+  }
   if (secili) secenekler.push(["Seçili metni kopyala", secili]);
   if (o) {
     secenekler.push(["Başlığı kopyala", olayMetniUret(o, false)]);
@@ -7073,6 +7199,11 @@ function _kopyaMenuGoster(e, secenekler) {
     b.textContent = par[0];
     b.addEventListener("click", function (ev) {
       ev.stopPropagation();
+      // 🆕 30 Eylül 2026 — ikinci alan METİN ya da İŞLEV olabilir. Geriye
+      // dönük uyumlu: bugünkü bütün çağrılar metin veriyor. Gerekçesi
+      // "Seçimi temizle" satırı: menüde duran ama KOPYALAMAYAN tek komut.
+      // Ayrı bir menü altyapısı açmak, iki menünün ayrışması demekti.
+      if (typeof par[1] === "function") { par[1](); _kopyaMenusuKapat(); return; }
       _panoyaYaz(par[1], function (ok) {
         // ⚠️ SESSİZ BAŞARI YOK: kullanıcı kopyalandığını GÖRMELİ, yoksa
         //    ikinci kez tıklar ve "çalışmıyor" der. Başarısızlık da
