@@ -1,19 +1,19 @@
 {
  "bekci_yasak": true,
  "kod": "RAM-DARBOGAZI",
- "ilan": "2026-09-30 02:14",
+ "ilan": "2026-09-30 02:25",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "30 Eylul 02:10 — bos RAM 1,37 GB ve DUSUYOR · claude 30 surec / 8,3 GB · pagefile 1.062 MB · sekiz paket ayni anda isiniyor",
- "gerekce": "Gece nobeti (Emre: \"nobet sende\"). Sekiz paket calisiyor, ONLAR MUAF; bos hazir kitalar ve isi bitmis oturumlar bekci KURMASIN. Dunku ilanin muaf listesi bayatlamisti ve bu gecenin iscilerini kesiyordu -- koordinatorun kendi bekcisi de reddedildi, kapi dogru calisti ama liste yanlisti.",
+ "olcum": "30 Eylul 02:55 — bos RAM 1,21 GB · claude 21 surec / 7,76 GB · pagefile 638 MB (takas SAKIN)",
+ "gerekce": "Gece nobeti. Calisan paketler muaf. Uc paket teslim etti (ERKEN-SIRP · AVRUPA-TEYID · ARAYUZ) ve bekcileri zaten kurulamamisti; ARAYUZ devam gorevi aliyor, o yuzden muafa girdi.",
  "muaf": [
   "YILDIRIM BAYEZIT",
   "KARADENIZ-0082",
   "IRAN-KAFKAS-0082",
-  "AVRUPA-TEYID-0082",
   "AKDENIZ-ARAP-0082",
-  "ERKEN-SIRP-0082",
-  "ARAYUZ-0082",
   "OSMANLI-IC-0082",
-  "YERLESIM-BIRLESTIR-0930"
+  "YERLESIM-BIRLESTIR-0930",
+  "ARAYUZ-0082",
+  "ODAK-0930",
+  "KUNYE-UYGULA-0930"
  ]
 }
