@@ -26,9 +26,27 @@
        Düzen soldan sağa: [butonları aç] · orta (tarih+dönem) · bölge · YIL ·
        başlık. Hakkında (proje künyesi + BEKLEYENLER tablosu) TAMAMEN
        kaldırıldı — js/app.js'teki hakkindaKur ve eşleri de silindi. -->
+  <!-- 🆕 ARAYUZ-0082 / H-0088 (30 Eylül 2026), Emre: "+ - butonlarını yatay
+       olarak tam en köşeye, butonlar butonunun soluna koyalım ... haritamız
+       butonlar ve göstergeler ile ekranımızı kirletmeden sadece haritayı
+       vermiş olalım." MapLibre `NavigationControl` (haritanın İÇİNDE, sol
+       üst, DİKEY 29×58 px) KALDIRILDI; iki düğme üst çubuğun en soluna
+       geldi. Harita üstünde yakınlaştırma denetimi kalmadı. -->
+  <span id="yakin-grup">
+    <button id="btn-yakin-arti" title="Yakınlaş">+</button>
+    <button id="btn-yakin-eksi" title="Uzaklaş">−</button>
+  </span>
   <button id="btn-menu" title="Araç düğmelerini göster/gizle">☰ Butonlar</button>
   <div id="menu-butonlar" class="gizli">
     <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
+    <!-- 🆕 ARAYUZ-0082 / H-0087 (30 Eylül 2026), Emre: "harita simgeleri ve
+         gösterimleri ile ilgili olan butonu butonlar içine koysak haritada
+         gözümüzün önünde olmasın" · "i harfi ilk gösterimde orada görünse ama
+         sonrasında butonlar içinde olsa". İki düğme de eskiden HARİTANIN
+         üstündeydi (lejant `☰` sağ üstte, atıf `ⓘ` alt köşede). ⚠️ Lejant
+         düğmesi ve Butonlar düğmesi AYNI `☰` işaretini taşıyordu. -->
+    <button id="btn-lejant" title="Harita işaretleri (lejant) — göster / gizle">🗺 Harita işaretleri</button>
+    <button id="btn-atif" title="Altlık, veri ve lisans atfı — göster / gizle">ⓘ Kaynaklar</button>
     <!-- 🔴 DÖRT DÜĞME KALDIRILDI — 29 Eylül 2026, ARAYUZ-SADELESTIR-0929.
          `🗺 Coğrafya` · `📐 Motor hatları` · `▦ Veri sınırı` · `🐎 Koridor ağı`.
          Dördü de HEMEN ALTINDAKİ katman kutularının aynı katmanlarını
@@ -170,6 +188,9 @@
     </select>
     <!-- ⚙ Ayarlar düğmesi §⑧②'de kronoloji başlığına taşındı — burada
          DUPLICATE id AÇMAMAK için tekrar edilmedi (bkz. #olay-akisi h2). -->
+    <!-- ARAYUZ-0082 / H-0087 — sürüm damgası üst çubuktan BURAYA indi
+         (kendi satırında, sağa yaslı dipnot). Değeri yine js/app.js yazar. -->
+    <span id="surum-etiketi" title="Yayın sürümü (git commit sayacı)"></span>
   </div>
   <div id="ustbar-orta">
     <span id="ustbar-tarih"></span>
@@ -213,7 +234,15 @@
        değeri günceller, bu satıra dokunmaya gerek kalmaz). Tarih EKLENMEDİ
        — hiçbir üretilmiş dosya bir "yapım tarihi" taşımıyor; uydurulan bir
        tarih CLAUDE.md §11'in "yanlış güvence" sınıfına girerdi. -->
-  <span id="surum-etiketi" title="Yayın sürümü (git commit sayacı)"></span>
+  <!-- 🔴 ARAYUZ-0082 / H-0087 (30 Eylül 2026), Emre: "bu kapat butonunu yayın
+       sürümü verisinin oraya taşısak ve yayın sürümü verisinide butonlar
+       penceresinin içine koysak." `#btn-panel` haritanın sağ üst köşesinden
+       (`#harita-ust-sag`) BURAYA geldi; `#surum-etiketi` `#menu-butonlar`ın
+       en altına indi (id aynı — js/app.js id ile yazıyor, dokunulmadı).
+       ⚠️ Düğme panelin DIŞINDA kalmalı (panel gizliyken geri açabilmek
+       için, eski `#harita-ust-sag` gerekçesi) — üst çubuk `#sol-govde`de,
+       panel katlanınca da görünür. -->
+  <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
 </header>
 
   <div id="harita">
@@ -230,9 +259,10 @@
            düğme kalınca `#harita-dugmeler` sarmalının kendisi de artık
            GEREKMİYOR ama SİLİNMEDİ: yarın üçüncü bir harita düğmesi
            eklenirse aynı flex-gap deseni hazır bekliyor. -->
-      <div id="harita-dugmeler">
-        <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
-      </div>
+      <!-- ARAYUZ-0082 / H-0087: `#btn-panel` üst çubuğa taşındı (`</header>`
+           öncesi). Sarmal SİLİNMEDİ — yukarıdaki notun "yarın başka bir harita
+           düğmesi" gerekçesi hâlâ geçerli; boş sarmal yer kaplamıyor. -->
+      <div id="harita-dugmeler"></div>
     </div>
     <!-- Bölge önayarları p2/H-0010 ile üst çubuğa taşındı (id="bolge" aynı,
          yalnız DOM konumu değişti — js/app.js id üzerinden çalışıyor). -->

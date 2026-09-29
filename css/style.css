@@ -226,6 +226,125 @@ body {
 #btn-dizin:hover, #btn-tamekran:hover { background: #ffe9a8; }
 #btn-tamekran { padding: 3px 8px; font-size: 14px; }
 
+/* ═══ ARAYUZ-0082 (30 Eylül 2026) — haritanın üstü boşaltıldı ═══════════════
+   H-0088 · H-0087 · H-0086: yakınlaştırma üst çubuğa, lejant ve atıf
+   `#menu-butonlar`a, panel düğmesi sürüm damgasının yerine. */
+/* H-0087 — menüdeki iki yeni düğme `#btn-dizin` üslubunda; `.etkin` =
+   karşılık gelen kutu şu an AÇIK (durum taşıyan düğme, `.d-gorunum-dugme`
+   ile aynı dil). */
+#btn-lejant, #btn-atif {
+  background: #f3e6c8;
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 12.5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#btn-lejant:hover, #btn-atif:hover { background: #ffe9a8; }
+#btn-lejant.etkin, #btn-atif.etkin { background: var(--altin); color: #fff; }
+/* H-0087 — sürüm damgası menünün EN ALTINDA, kendi satırında, sağa yaslı
+   dipnot. Eski üst çubuk kuralı (`#surum-etiketi`, aşağıda) `align-self:
+   flex-end` veriyor; menüde de satır sonuna oturması için tam satır. */
+#menu-butonlar #surum-etiketi {
+  flex: 1 0 100%;
+  text-align: right;
+  margin: 2px 0 0;
+}
+#menu-butonlar #surum-etiketi:not(:empty)::before { content: "Yayın sürümü · "; }
+
+/* H-0088 — [+][−] üst çubuğun en solunda, yatay; ardından küçük boşluk ve
+   ☰ Butonlar. `#ustbar` gap'i 12 px — Emre "ufak bir boşluk" dedi, eksi
+   kenar payı onu 6 px'e indirir. */
+#yakin-grup { display: flex; gap: 2px; flex: 0 0 auto; margin-right: -6px; }
+#yakin-grup button {
+  background: #f3e6c8;
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  width: 26px;
+  height: 24px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--metin);
+}
+#yakin-grup button:hover { background: #ffe9a8; }
+#yakin-grup button:disabled { opacity: .4; cursor: default; background: #f3e6c8; }
+
+/* H-0087 — `#btn-panel` üst çubukta, sürüm damgasının eski yerinde (en
+   sağ). Kendi kuralı (aşağıda, harita köşesi dönemi) zemin/kenar/punto
+   veriyor; burada yalnız satır içi hizası. */
+#ustbar #btn-panel { flex: 0 0 auto; margin-left: auto; padding: 3px 9px; font-size: 12.5px; }
+
+/* H-0086 — atıf satırı ⓘ ile kapatılınca haritadan TAMAMEN çekilir
+   (js/app.js `atifGoster`); yeniden açmak ☰ Butonlar → ⓘ Kaynaklar. */
+.maplibregl-ctrl-attrib.atif-menude { display: none; }
+
+/* H-0087 — lejantın KENDİ kapat düğmesi (aç düğmesi menüde). */
+.lejant-kapat {
+  position: sticky;
+  top: 0;
+  align-self: flex-end;
+  margin: -2px -4px -18px 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid var(--altin);
+  border-radius: 5px;
+  background: rgba(247, 241, 227, 0.98);
+  color: #5a3a24;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+  z-index: 1;
+}
+.lejant-kapat:hover { filter: brightness(1.08); }
+
+/* H-0080 — açılışta "tam ekran?" penceresi (js/app.js `tamEkranSor`). */
+#tamekran-soru {
+  position: fixed;
+  inset: 0;
+  z-index: 9500;
+  background: rgba(20, 8, 10, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+#tamekran-soru .tamekran-kutu {
+  background: #f7f1e3;
+  color: var(--metin);
+  border: 2px solid var(--altin);
+  border-radius: 10px;
+  padding: 18px 20px 16px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  font-family: Georgia, serif;
+}
+#tamekran-soru .tamekran-baslik { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+#tamekran-soru .tamekran-not { font-size: 13px; margin-bottom: 10px; }
+#tamekran-soru kbd {
+  font: 600 12px "Segoe UI", sans-serif;
+  border: 1px solid #b9a67c; border-bottom-width: 2px; border-radius: 4px;
+  padding: 0 5px; background: #fff;
+}
+#tamekran-soru .tamekran-sorma { display: block; font-size: 12px; color: #6b5a3c; margin-bottom: 14px; cursor: pointer; }
+#tamekran-soru .tamekran-dugmeler { display: flex; gap: 8px; justify-content: flex-end; }
+#tamekran-soru .tamekran-dugmeler button {
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13.5px;
+  cursor: pointer;
+  background: #f3e6c8;
+  color: var(--metin);
+}
+#tamekran-soru .tamekran-evet { background: #5c1020; color: #f3e6c8; border-color: #5c1020; }
+#tamekran-soru .tamekran-dugmeler button:hover { filter: brightness(1.08); }
+
 /* 🔴 DALGA-0074 / H-0001 · H-0003 (21 Eylül 2026) — BUTONLAR alanına taşınan
    iki denetim. `#btn-zoom` zaman barından, `#d-gorunum-grup` haritanın sağ üst
    köşesinden geldi; ikisi de menünün üslûbuna uyuyor.
@@ -1073,31 +1192,17 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 }
 #detay-git:hover { filter: brightness(1.15); }
 
-/* lejant — gizle/aç düğmesi hatalar 3.docx madde 2 */
-.lejant-dugme {
-  position: absolute;
-  top: 42px;
-  right: 8px;
-  z-index: 6;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  cursor: pointer;
-  background: rgba(247, 241, 227, 0.95);
-  border: 1px solid var(--altin);
-  border-radius: 6px;
-  color: #5a3a24;
-  font-size: 15px;
-  line-height: 22px;
-  text-align: center;
-}
-.lejant-dugme:hover { filter: brightness(1.08); }
+/* 🪦 `.lejant-dugme` KURALI KALDIRILDI — ARAYUZ-0082 / H-0087 (30 Eylül
+   2026). Haritanın sağ üstündeki `☰`/`×` düğmesi (hatalar 3.docx madde 2)
+   ikiye ayrıldı: AÇ → `#btn-lejant` (menüde), KAPAT → `.lejant-kapat`
+   (lejantın içinde). İkisinin kuralı "ARAYUZ-0082" bloğunda. */
 
 /* lejant */
 .lejant {
   position: absolute;
-  /* düğme sağ üstte durduğu için lejant onun altından başlar */
-  top: 72px;
+  /* ARAYUZ-0082: köşede artık düğme yok (`#btn-panel` üst çubuğa, lejant
+     düğmesi menüye gitti) ⇒ lejant köşeden başlar; eskiden 72 px idi. */
+  top: 8px;
   right: 8px;
   transition: opacity 0.15s ease;
   z-index: 5;
@@ -1112,7 +1217,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   pointer-events: none;
   /* p2/H-0017+H-0021: sembol bölümü eklenince lejant harita boyunu aşabiliyor.
      Kaydırma gerektiği için bu panel içinde pointer-events tekrar açılıyor. */
-  max-height: calc(100% - 84px);
+  max-height: calc(100% - 20px);
   overflow-y: auto;
   pointer-events: auto;
 }

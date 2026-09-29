@@ -145,6 +145,30 @@ r10630 (#surum-etiketi)   üst çubuk sağ       562,20  30×14    ← #ustbar
 
 ---
 
+## UYGULAMA — H-0080 · H-0086 · H-0087 · H-0088 (koordinatör izni, 30 Eylül 2026)
+Dosyalar: `index.html` · `js/app.js` · `css/style.css`. `node --check js/app.js` temiz. Sürüm damgasına dokunulmadı (koordinatörde).
+**Tarayıcı sınaması** (yerel 8765, 1280 px; koşu süresince pencere küçültülmüştü, ekran görüntüsü alınamadı; ölçüm DOM'dan):
+```
+H-0088  [+] 12,7 26×24 · [−] 40,7 · ☰ Butonlar 72,7  (üst çubuk en solu, yatay)
+        NavigationControl haritada YOK (.maplibregl-ctrl-zoom-in 0)
+        + → zoom 5.5→6.5 · − → 5.5 · maxZoom'da + sönük (disabled=true)
+H-0087  ⇥ Panel üst çubukta 739,8 (sürümün eski yeri, en sağ)
+        sürüm menünün en altında "Yayın sürümü · r10651" (17,420 502×14)
+        🗺 Harita işaretleri (menü) → lejant açılır, menü kapanır, düğme .etkin
+        lejantın içinde × (769,55) → kapanır, lejantKapali=1
+        haritadaki eski ☰ lejant düğmesi: YOK
+H-0086  ilk ziyaret: atıf AÇIK (compact-show, open) · harita.fire("drag") sonrası HÂLÂ AÇIK
+        ⓘ tık → atif-menude, display:none, atifKapali=1
+        menü ⓘ Kaynaklar → açılır (display:block, open) · tekrar → kapanır
+        atifKapali=1 ile başlangıç (atifGoster yolu) → display:none
+H-0080  harita hazır + perde kalkınca pencere çıkıyor (380×186, odak "Evet"te)
+        Hayır → kapanır · Esc → kapanır · Evet → requestFullscreen 1 kez çağrıldı
+        "Bir daha sorma" + Evet → tamEkranSorma=1 → sonraki çağrıda pencere YOK
+400 px  üst çubuk taşmıyor (scrollWidth 400 = clientWidth 400)
+```
+**Sınanamayan:** gerçek tam ekrana geçiş. Tarayıcı yalnız güvenilir kullanıcı tıklamasına izin veriyor; sınamada `requestFullscreen` gölgelendi. Kalıcılığın tam sayfa yeniden yüklemesi de sınanamadı: pencere küçük olduğu için harita ikinci yüklemede 3+ dakikada hazır olmadı. Aynı yol elle çağrılarak sınandı.
+**Değişmeyen, kayda:** lejant kutusu 1280 px'te 811 px genişlikte (haritanın tamamı). Bu değişiklikten önce de öyleydi: `×` düğmesi çıkarılınca genişlik aynı 811 ölçüldü. Ayrı kalem.
+
 ## Ek — bu oturumun konsol ölçümleri (canlı motorda tekrar koşar)
 `HARITA-0076-YAMA-olcum.js` yüklendikten sonra:
 - `__aci(gun,x0,x1,y0,y1,aciEsik,kenarEsik)`: sivri/iğne (H-0056, H-0100, dünya taraması `__aci(g,-180,180,-60,85,5,0.3)`).

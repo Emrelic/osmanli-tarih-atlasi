@@ -1478,9 +1478,86 @@ var harita = new maplibregl.Map({
   zoom: 5.5,
   minZoom: 2.5,
   maxZoom: 8,
-  attributionControl: { compact: true }
+  // ARAYUZ-0082 / H-0086 — atıf denetimi aşağıda ELLE ekleniyor (örneği
+  // `atifKontrol`de tutulsun diye; davranışı orada anlatılıyor).
+  attributionControl: false
 });
-harita.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+
+// ═══ ARAYUZ-0082 / H-0086 + H-0087 — ATIF SATIRI (30 Eylül 2026) ═══════════
+// Emre: *"bu bilgi haritanın en başta açıldığında görünsün sonra ikinci
+// tıklamada gizlensin tıklamadıkça görünmesin"* · *"haritanın altındaki i
+// harfi ilk gösterimde orada görünse ama sonrasında butonlar içinde olsa"*.
+// ÖLÇÜLDÜ (önce): `compact:true` satırı açılışta AÇIK (584×44 px, haritanın
+// altı) ve MapLibre onu İLK SÜRÜKLEMEDE kendiliğinden kapatıyordu; her
+// ziyarette yeniden açık başlıyordu.
+// ŞİMDİ: ① ilk ziyaret → satır açık, haritada. ② ⓘ ile kapatılınca denetim
+// haritadan tamamen çekilir (`atif-menude`), tercih saklanır. ③ Sonraki
+// ziyaretler kapalı başlar; `☰ Butonlar → ⓘ Kaynaklar` açar/kapar.
+// ④ Sürükleme artık kapatmaz — yalnız tıklama.
+// 🔴 LİSANS: satır SİLİNMEZ, yalnız bir tık uzağa gider. OWTRAD (CC BY-NC
+// 2.5) ve Esri atfı `altlik` kaynağının `attribution` alanındadır ve bu
+// denetim onu okur — denetim yerine kendi metnimizi yazmak atfı iki yerde
+// tutmak olurdu (§11: iki yerde duran bilgi bayatlar).
+var atifKontrol = new maplibregl.AttributionControl({ compact: true });
+harita.addControl(atifKontrol, "bottom-right");
+function _atifKap() { return atifKontrol._container || null; }
+function _atifAcik(acik) {
+  var k = _atifKap(); if (!k) return;
+  k.classList.toggle("maplibregl-compact-show", acik);
+  if (acik) k.setAttribute("open", ""); else k.removeAttribute("open");
+}
+function atifGoster(acik) {
+  var k = _atifKap(); if (!k) return;
+  k.classList.toggle("atif-menude", !acik);
+  _atifAcik(acik);
+  var b = document.getElementById("btn-atif");
+  if (b) { b.classList.toggle("etkin", acik); b.setAttribute("aria-expanded", String(acik)); }
+}
+harita.on("load", function () {
+  var k = _atifKap(); if (!k) return;
+  // ④ MapLibre'nin "sürüklenince küçül" dinleyicisi sökülür (özel alan —
+  //    yoksa sessizce geçilir, yalnız eski davranış sürer).
+  try { if (atifKontrol._updateCompactMinimize) harita.off("drag", atifKontrol._updateCompactMinimize); } catch (e) { /* sürüm farkı */ }
+  var kapali = false;
+  try { kapali = localStorage.getItem("atifKapali") === "1"; } catch (e) { /* özel pencere */ }
+  atifGoster(!kapali);
+  // ② ⓘ tıklaması: MapLibre önce kendi geçişini yapar; biz ardından okuruz.
+  var ib = k.querySelector(".maplibregl-ctrl-attrib-button");
+  if (ib) ib.addEventListener("click", function () {
+    setTimeout(function () {
+      if (!k.classList.contains("maplibregl-compact-show")) {
+        atifGoster(false);
+        try { localStorage.setItem("atifKapali", "1"); } catch (e) { /* özel pencere */ }
+      }
+    }, 0);
+  });
+});
+(function () {
+  var b = document.getElementById("btn-atif");
+  if (b) b.addEventListener("click", function () {
+    var k = _atifKap(); if (!k) return;
+    atifGoster(k.classList.contains("atif-menude"));
+  });
+})();
+
+// ═══ ARAYUZ-0082 / H-0088 — YAKINLAŞTIRMA ÜST ÇUBUKTA, YATAY ════════════════
+// `NavigationControl` (haritanın içinde, dikey) kaldırıldı; `#yakin-grup`
+// (index.html) üst çubuğun en solunda. Sınırda düğme sönük — NavigationControl
+// da böyle yapıyordu, o davranış kaybolmasın.
+(function () {
+  var arti = document.getElementById("btn-yakin-arti");
+  var eksi = document.getElementById("btn-yakin-eksi");
+  if (!arti || !eksi) return;
+  arti.addEventListener("click", function () { harita.zoomIn(); });
+  eksi.addEventListener("click", function () { harita.zoomOut(); });
+  function sinir() {
+    var z = harita.getZoom();
+    arti.disabled = z >= harita.getMaxZoom() - 1e-6;
+    eksi.disabled = z <= harita.getMinZoom() + 1e-6;
+  }
+  harita.on("zoomend", sinir);
+  harita.on("load", sinir);
+})();
 
 var haritaHazir = false;
 
@@ -2796,14 +2873,24 @@ harita.on("load", function () {
   // Kafkasya/Gürcistan ile Ege adaları var; kullanıcı oraya bakmak isteyince
   // lejantı kaldıramıyordu. Tercih localStorage'da tutuluyor ki her açılışta
   // yeniden kapatmak gerekmesin.
-  var lejantDugme = document.createElement("button");
-  lejantDugme.className = "lejant-dugme";
-  lejantDugme.title = "Lejantı gizle / göster";
+  // 🔴 ARAYUZ-0082 / H-0087 (30 Eylül 2026) — AÇ düğmesi haritadan
+  // `#menu-butonlar`a taşındı (`#btn-lejant`, index.html), Emre: "harita
+  // simgeleri ... butonlar içine koysak haritada gözümüzün önünde olmasın".
+  // KAPAT düğmesi (×) lejant kutusunun İÇİNE, sağ üst köşesine girdi: açık
+  // lejantı kapatmak için menüyü yeniden açmak gerekmesin. Eski düğme
+  // haritanın sağ üstünde `☰` idi — Butonlar düğmesiyle AYNI işaret.
+  var lejantDugme = document.getElementById("btn-lejant");
+  var lejantKapat = document.createElement("button");
+  lejantKapat.className = "lejant-kapat";
+  lejantKapat.title = "Lejantı gizle (yeniden açmak: ☰ Butonlar → 🗺 Harita işaretleri)";
+  lejantKapat.textContent = "×";
+  lejant.insertBefore(lejantKapat, lejant.firstChild);
   function lejantDurum(kapali) {
     lejant.classList.toggle("kapali", kapali);
-    lejantDugme.classList.toggle("kapali", kapali);
-    lejantDugme.textContent = kapali ? "☰" : "×";
-    lejantDugme.setAttribute("aria-expanded", String(!kapali));
+    if (lejantDugme) {
+      lejantDugme.classList.toggle("etkin", !kapali);
+      lejantDugme.setAttribute("aria-expanded", String(!kapali));
+    }
   }
   // 🔴 22 Ağustos 2026 — VARSAYILAN KAPALI. Emre: *"lejant penceresi de
   // sürekli açık duruyor."* Ölçüldü: kutu **547×567 piksel** ve haritanın
@@ -2818,12 +2905,14 @@ harita.on("load", function () {
   //   işe yaramayan bir denetim SİLİNDİ, burada işe yarayan bir denetimin
   //   yalnız başlangıç hâli düzeltildi.
   lejantDurum(localStorage.getItem("lejantKapali") !== "0");
-  lejantDugme.addEventListener("click", function () {
-    var kapali = !lejant.classList.contains("kapali");
+  function lejantCevir(kapali) {
     lejantDurum(kapali);
-    localStorage.setItem("lejantKapali", kapali ? "1" : "0");
+    try { localStorage.setItem("lejantKapali", kapali ? "1" : "0"); } catch (e) { /* özel pencere */ }
+  }
+  if (lejantDugme) lejantDugme.addEventListener("click", function () {
+    lejantCevir(!lejant.classList.contains("kapali"));
   });
-  document.getElementById("harita").appendChild(lejantDugme);
+  lejantKapat.addEventListener("click", function () { lejantCevir(true); });
 
   // 🆕 16 Eylül 2026 — H-0129 (Emre, DALGA-0052 UI): "mesafe ölç isminde bir
   // cetvel yapalım haritaya sağ tıklayınca buradan buraya şeklinde bir
@@ -2995,6 +3084,7 @@ harita.on("load", function () {
   // finali + DOM'dan kaldırma. Beklemez; `atlas-hazir` damgası ölçüm içindir.
   try { performance.mark("atlas-hazir"); } catch (e) { /* eski tarayıcı */ }
   try { if (window.acilisBitir) window.acilisBitir(); } catch (e) { console.error("açılış perdesi kapatılamadı:", e); }
+  try { tamEkranSor(); } catch (e) { console.error("tam ekran sorusu kurulamadı:", e); }  // ARAYUZ-0082 / H-0080
   aktifDonem = -1;
 
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — ekran görüntüsü almayı kolaylaştırmak
@@ -11989,6 +12079,64 @@ document.getElementById("btn-tamekran").addEventListener("click", function () {
   if (document.fullscreenElement) document.exitFullscreen();
   else document.documentElement.requestFullscreen();
 });
+// ═══ ARAYUZ-0082 / H-0080 — AÇILIŞTA "TAM EKRAN?" SORUSU (30 Eylül 2026) ═══
+// Emre: *"haritayı gezen kullanıcıya bir açılan pencere ile tam ekran
+// gezinmek ister misin diye sorulmalı ve evet hayır sorusu ile bu isteği
+// gerçekleşmeli. iptal etmek istiyor ise daha sonra esc ye basmasının
+// yeteceği belirtilmeli."*
+// · Tarayıcı `requestFullscreen`i YALNIZ kullanıcı hareketiyle kabul eder —
+//   "Evet" tıklaması o harekettir; kendiliğinden tam ekran açılamaz.
+// · Açılış perdesi (ACILIS-ANIM-0929) DOM'dan kalkana kadar beklenir; perde
+//   üstüne pencere açmak iki animasyonu çarpıştırırdı (en çok 8 sn bekler).
+// · "Bir daha sorma" kutusu işaretlenirse sorulmaz (`tamEkranSorma`).
+//   Kutu yoksa her ziyarette sorar — Emre'nin tarifi budur; susturmak
+//   kullanıcının seçimi. Menüdeki ⛶ düğmesi her durumda çalışır.
+// · Destek yoksa (iOS Safari) ya da zaten tam ekransa SORULMAZ — yapılamayan
+//   bir şeyi teklif etmek, çalışmayan düğmeden kötüdür.
+function tamEkranSor() {
+  if (!document.fullscreenEnabled || !document.documentElement.requestFullscreen) return;
+  if (document.fullscreenElement) return;
+  try { if (localStorage.getItem("tamEkranSorma") === "1") return; } catch (e) { /* özel pencere */ }
+  var bas = Date.now();
+  (function bekle() {
+    if (document.getElementById("acilis") && Date.now() - bas < 8000) { setTimeout(bekle, 250); return; }
+    if (document.fullscreenElement || document.getElementById("tamekran-soru")) return;
+    var ort = document.createElement("div");
+    ort.id = "tamekran-soru";
+    ort.setAttribute("role", "dialog");
+    ort.setAttribute("aria-modal", "true");
+    ort.setAttribute("aria-labelledby", "tamekran-soru-baslik");
+    ort.innerHTML =
+      '<div class="tamekran-kutu">' +
+        '<div id="tamekran-soru-baslik" class="tamekran-baslik">Haritayı tam ekran gezmek ister misiniz?</div>' +
+        '<div class="tamekran-not">Tam ekrandan çıkmak için istediğiniz an <kbd>Esc</kbd> tuşuna basmanız yeter.</div>' +
+        '<label class="tamekran-sorma"><input type="checkbox"> Bir daha sorma</label>' +
+        '<div class="tamekran-dugmeler">' +
+          '<button type="button" class="tamekran-evet">Evet, tam ekran</button>' +
+          '<button type="button" class="tamekran-hayir">Hayır</button>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(ort);
+    function kapat() {
+      try { if (ort.querySelector(".tamekran-sorma input").checked) localStorage.setItem("tamEkranSorma", "1"); } catch (e) { /* özel pencere */ }
+      document.removeEventListener("keydown", tus, true);
+      ort.remove();
+    }
+    function tus(e) { if (e.key === "Escape") { e.stopPropagation(); kapat(); } }
+    document.addEventListener("keydown", tus, true);
+    ort.querySelector(".tamekran-evet").addEventListener("click", function () {
+      kapat();
+      try {
+        var p = document.documentElement.requestFullscreen();
+        if (p && p.catch) p.catch(function (e) { console.warn("tam ekran reddedildi:", e); });
+      } catch (e) { console.warn("tam ekran açılamadı:", e); }
+    });
+    ort.querySelector(".tamekran-hayir").addEventListener("click", kapat);
+    ort.addEventListener("click", function (e) { if (e.target === ort) kapat(); });
+    ort.querySelector(".tamekran-evet").focus();
+  })();
+}
+
 document.addEventListener("fullscreenchange", function () {
   document.getElementById("btn-tamekran").textContent = document.fullscreenElement ? "⤢" : "⛶";
   setTimeout(function () { harita.resize(); }, 120);
