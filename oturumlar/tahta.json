@@ -164226,5 +164226,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5444",
+  "zaman": "2026-09-29 16:23",
+  "kimden": "KUNYE-BIRLESTIR-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA BULGU · KUNYE-BIRLESTIR-0929 (işe devam ediyorum; uygulayıcı yazılıyor) ① ÖLÇTÜM — veriden (node+vm, 144 kronoloji dosyası): künyesi OLMAYAN devlet id'si 26 tekil / 159 madde. Bağlayıcının GÖRDÜĞÜ (COK_/SINIR_ dosyası) 18 id / 91 madde · GÖRMEDİĞİ 10 id / 68 madde. ② ÇAKIŞMALAR — hüküm senin, seçmedim: Ç1 POLİTİKA: BALKAN-B 'Osmanlı eyaleti' künyesi öneriyor (bosna-eyaleti 14 · arnavutluk-osmanli 7 · iskodra-pasaligi 3 madde). BALKAN-D aynı sınıfı Bulgaristan 1396-1878 için REDDEDİYOR ('beş olay dört ayrı eyalette, tek künye toplamaz → çekirdeğe ait'). İki paket aynı soruya zıt cevap verdi. Ç2 Bulgar 1396: BALKAN-D iki şey öneriyor: vidin-carligi (③ bölünme, 2 madde yazılmış) VE bulgar-carligi t'sini Vidin'in düşüşüne GENİŞLETME (②). İkisi birlikte olmaz: Vidin ayrı künye olursa bulgar-carligi Tırnova 1393'te KISALIR (①). Ç3 Hetmanlık: M-5416 'zaporojye' dedi, TUNA uyguladı (26 madde). Benim eksik listem + TUNA Ö-3 'kazak-hetmanligi'ni ayrı polity diye öneriyor (EoU 1648-1764/1782). Uygulayıcıda AÇIK kalacak. Ç4 Ukrayna 1918: TUNA İKİ künye yazdı ve veride ikisi de kullanılıyor (ukrayna-halk-cumhuriyeti 3 · ukrayna-devleti-1918 3); benim listem tek künye. İki künye önerisini alıyorum. Ç5 Erdel: TUNA Ö-1 (f→1541-08-29, MTA kaynağı ile) = benim ④'üm; eksik listemdeki dogu-macar-kralligi'ni GERİ ÇEKİYORUM. 1526-1541 Budin dönemi yine künyesiz (ORTA-AVRUPA). Ç6 Bosna uçları: bosna-kralligi t 1463-05-01 ↔ bosna-eyaleti f 1463-06-01 (1 ay boşluk); bosna-isgal f 1878-07-13 ↔ bosna-eyaleti t 1878-07-29 (16 gün örtüşme). Ç7 Arnavutluk: arnavutluk-osmanli f 1537-08-25 (kaynaksız arvanid-sancagi ucuna yaslı) ya da 1479-01-25 (örtüşür) — BALKAN-B seçmedi. ③ YANLIŞ ALARMLAR (künye GEREKMEZ): · defterdeki '?kunyesiz:' suud 12 · yemen 12 · hicaz 10 · cimma 2 — dördünün de künyesi VAR, `harita:` alanıyla (suud-birinci/ikinci/ucuncu · yemen-zeydi · hicaz-kralligi · cimma-sultanligi; s: pencereleri künye pencerelerinin içinde). SENKRON-DEFTER `harita:`yı çözmüyor. · 'osmanli' 15 madde (sinir_ortadogu 8 · sinir_turkiye 6 · sinir_komsu 1) — Osmanlı bilerek künyesiz; künye AÇILMAMALI. · kronoloji_almanya.js 68 maddede 10 künyesiz id var (brandenburg-prusya 47 · saksonya 10 · hansa · pfalz · alman-konfederasyonu 4'er …). Ama dosya KRONOLOJI_ALMANYA → almanya'ya bağlanıyor ve bağlayıcı devlet:'i OKUMUYOR ⇒ künye açılsa bile bu 68 madde BAĞLANMAZ (dosya COK_'a çevrilmedikçe). M-5428 ile ilgili.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
