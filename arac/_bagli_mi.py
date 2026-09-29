@@ -155,13 +155,34 @@ TOHUM_DEGISKEN = {"YERLESIMLER"}
 
 
 def index_dosyalari(yol):
-    """index.html'in <script src="data/..."> ile yüklediği dosya adları."""
+    """index.html'in <script src="data/..."> ile yüklediği dosya adları.
+
+    🔴 PAKET AÇILIR (29 Eylül 2026). index.html'in 279 betik etiketi 57'ye
+    indirildi; `data/olaylar_ek5.js` artık index.html'de ADIYLA geçmiyor,
+    içeriği `data/paket_12.js`in içinde. Tarayıcı onu gerçekten yüklüyor.
+    Paket açılmazsa bu araç "MOTOR VAR · TARAYICI YOK" ve "KRONOLOJİ YETİMİ"
+    diye 161 ihlal basar ve HEPSİ YANLIŞ ALARMDIR — ölçüldü.
+    📌 Bu, dosya başındaki dersin aynısı: iki tüketici listesi ayrışırsa
+    denetim kendi modelinin eksikliğini veriye yazar.
+    """
     ham = open(yol, encoding="utf-8").read()
     # Yorum İÇİNDEKİ <script> satırları SAYILMAZ — ölü örnekler var.
     ham = re.sub(r"(?s)<!--.*?-->", " ", ham)
     bulunan = []
     for m in re.finditer(r'<script\s+src="data/([^"?]+)', ham):
         bulunan.append(m.group(1))
+
+    # paket_NN.js → içindeki kaynak adları
+    try:
+        import os as _os
+        import sys as _sys
+        _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+        import paketle as _pkt
+        ici = [k[len("data/"):] for k in _pkt.kaynaklar() if k.startswith("data/")]
+        if ici:
+            bulunan = [b for b in bulunan if not b.startswith("paket_")] + ici
+    except Exception:                                       # noqa: BLE001
+        pass   # paketleme kurulu değilse eski düzen geçerlidir
     return bulunan
 
 
@@ -272,6 +293,16 @@ def denetle(ayrinti=False):
     # ── ⑤ AD ALANI ÇAKIŞMASI ────────────────────────────────────────────
     sahip = {}
     for yol in sorted(glob.glob(os.path.join(KOK, "data", "*.js"))):
+        # 🔴 PAKET TARANMAZ (29 Eylül 2026). `data/paket_NN.js` kaynakların
+        # uç uca eklenmişidir; içindeki `window.OLAYLAR_EK5 = [...]` satırı
+        # YENİ bir tanım değil, `olaylar_ek5.js`teki tanımın ta KENDİSİdir.
+        # Taranırsa her paketlenmiş global "iki dosyada tanımlı" görünür ve
+        # kapı 251 SAHTE çakışma basar (ölçüldü: uyarı 4 → 262).
+        # İhlale dönüşmezdi (tarayıcıya yalnız biri yükleniyor) ama bu dosyanın
+        # kendi dersi geçerli: *gürültü üreten denetime kimse bakmaz.* Gerçek
+        # çakışmalar 251 sahtenin arasında kaybolurdu.
+        if os.path.basename(yol).startswith("paket_"):
+            continue
         ham = open(yol, encoding="utf-8").read()
         ham = "\n".join(s for s in ham.split("\n")
                         if not s.strip().startswith("//"))

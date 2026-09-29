@@ -837,6 +837,22 @@ def main():
     # Bir dosya bu ikisinden HİÇBİRİNDE değilse gerçekten yetimdir.
     istenen = {y.split("?")[0].split("#")[0].lstrip("./") for y in VARLIK.findall(html)
                if yerel_mi(y)}
+    # 🔴 DÖRDÜNCÜ YOL — PAKET (29 Eylül 2026). index.html'in 279 <script src>
+    # etiketi 57'ye indirildi; `data/olaylar_ek5.js` artık index.html'de ADIYLA
+    # GEÇMİYOR, içeriği `data/paket_12.js`e konmuş durumda. Tarayıcı onu
+    # gerçekten yüklüyor — ama bu regex'e görünmüyor.
+    # Bu satır olmadan kapı 156 dosyayı "yetim" sayar ve HEPSİ YANLIŞ ALARMDIR
+    # (ölçüldü: bu düzeltmeden önce yetim 1 → 156'ya çıktı). Kusur verinin
+    # değil ARACIN modelinde olurdu — yukarıdaki `goller.js` vakasının aynısı,
+    # üçüncü kez. ⇒ Paketin künyesi, index.html'in bir uzantısı gibi okunur.
+    try:
+        sys.path.insert(0, os.path.join(KOK, "arac"))
+        import paketle as _pkt
+        _paket_ici = set(_pkt.kaynaklar())
+        istenen |= _paket_ici
+        istenen |= {p["paket"] for p in (_pkt._kunye_oku() or {}).get("paketler", [])}
+    except Exception:                                       # noqa: BLE001
+        _paket_ici = set()   # paketleme kurulu değilse eski düzen geçerlidir
     motor_girdisi = set()
     try:
         sys.path.insert(0, os.path.join(KOK, "arac"))
@@ -1475,9 +1491,35 @@ def main():
         _kod_ihlali = True
         print("\n✗  kodlama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
+    # -----------------------------------------------------------------
+    # PAKET KAPISI — birleştirilmiş betikler kaynağıyla aynı mı?
+    # -----------------------------------------------------------------
+    # 29 Eylül 2026: index.html'in 279 <script src> etiketi 57'ye indirildi
+    # (ölçüm: ağdan betik etiketi başına 56,3 ms ⇒ 279 × 56,3 ≈ 15,7 sn, ve o
+    # 279 dosyanın 263'ü 200 KB'ın ALTINDA — yük baytlarda değil İSTEK
+    # SAYISINDAydı). Paketler `data/paket_NN.js`, kaynakların uç uca
+    # eklenmişidir.
+    # 🔴 YENİ VE SESSİZ TEHLİKE: paket kaynağın KOPYASIDIR. Biri
+    # `data/olaylar_ek5.js`i düzeltip paketi yenilemezse site ESKİ VERİYİ
+    # sunar ve hiçbir şey ötmez — yavaş olmaktan KÖTÜDÜR, çünkü yavaşlık
+    # görünür, bayat veri görünmez. Bu yüzden kapı iki şeyi birden sorar:
+    #   ① künyedeki her kaynağın sha256'sı bugünkü dosyayla aynı mı
+    #   ② paketin İÇERİĞİ kaynaklardan yeniden kurulanla BİREBİR aynı mı
+    # ②'siz ① yetmez: künye "kaynak değişmemiş" derken paket elle bozulmuş
+    # olabilir. Çare tek satır: py arac/paketle.py yenile
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import paketle as _pk
+        print()
+        _paket_ihlali = bool(_pk.sina())
+    except Exception as _e:                                 # noqa: BLE001
+        _paket_ihlali = True
+        print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
             or damga_ihlali or bayat or izsiz or iz_bayat or _sz
-            or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali):
+            or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
+            or _paket_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")
