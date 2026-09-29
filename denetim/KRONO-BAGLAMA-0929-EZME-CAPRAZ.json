@@ -1,0 +1,3103 @@
+{
+ "_yontem": "Ezilen 27 künyenin 222 maddesi (künyenin app.js IIFE'si koşmadan ÖNCEKİ kronolojisi, node+vm ile index.html sırasındaki kaynaklar yüklenip alındı) bağlandığı data/kronoloji_<x>.js dizisiyle karşılaştırıldı; sınıf sırayla: TAM (t ve b birebir) · AYNI_T (aynı gün, b farklı) · AYNI_YIL (aynı yıl, farklı gün) · YOK (dosyada o YIL hiç madde yok); 'en_yakin' aynı yıl içinde künye başlığının anlamlı kelimelerini en çok kapsayan dosya maddesidir, 'kapsama' = ortak kelime / künye başlığı kelime sayısı (Türkçe küçük harf, aksan düşürülmüş, 2 harften kısa ve bağlaç kelimeler hariç).",
+ "_33_64_farki": "Benim 33'üm YIL ekseninde bir ALT SINIRDIR: yalnız dosyanın o yılda HİÇ maddesi olmayanları sayar, benzerliğe bakmaz; aynı yılda ya da aynı günde dosyada BAŞKA bir olay bulunan tekil maddeler (ör. gurcistan 1386 'Timur'un art arda seferleri' ↔ 'Timur'un birinci Gürcistan seferi', kapsama 0,14) 33'e girmez, AYNI_T/AYNI_YIL'de kalır. Aşağıdaki köprü sayıları 64'ün hangi benzerlik eşiğine denk geldiğini gösterir — 'aynı gün yok + aynı yılda da benzeri yok (kapsama<0,34)' = 66, 64'e en yakın tanım budur (fark 2); öteki ölçümün yöntemini görmedim, eşleştirme ÖLÇÜLEMEDİ.",
+ "sayim": {
+  "madde": 222,
+  "tam_tb": 1,
+  "ayni_t": 143,
+  "ayni_yil": 45,
+  "yok": 33
+ },
+ "esik": {
+  "kap>=0.5": 74,
+  "kap>=0.34": 96,
+  "jac>=0.3": 75
+ },
+ "kopru": {
+  "YOK (o yıl dosyada hiç madde yok)": 33,
+  "YOK + AYNI_YIL kapsama<0.34": 66,
+  "YOK + AYNI_YIL kapsama<0.5": 66,
+  "YOK + AYNI_YIL (hepsi, aynı gün yok)": 78,
+  "YOK + (AYNI_T|AYNI_YIL) kapsama<0.2": 76
+ },
+ "satirlar": [
+  {
+   "kunye": "habsburg",
+   "t": "1526-08-29",
+   "b": "I. Ferdinand, Mohaç sonrası Bohemya-Macaristan tacını aldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1526-08-29",
+    "b": "Mohaç Meydan Savaşı ve Habsburg mirasının doğuşu"
+   },
+   "kapsama": 0.14,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Mohaç Meydan Savaşı ve Habsburg mirasının doğuşu"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1529-09-27",
+   "b": "I. Viyana Kuşatması",
+   "sinif": "TAM",
+   "en_yakin": {
+    "t": "1529-09-27",
+    "b": "I. Viyana Kuşatması"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "I. Viyana Kuşatması"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1541-08-29",
+   "b": "Budin'in fethiyle Macaristan üçe bölündü (Osmanlı, Habsburg, Erdel)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1541-08-29",
+    "b": "Budin'in fethi — Macaristan üçe bölündü"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.44,
+   "ayni_t_dosyada": [
+    "Budin'in fethi — Macaristan üçe bölündü"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1606-11-11",
+   "b": "Zitvatorok Antlaşması — protokolde eşitlik tanındı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1606-11-11",
+    "b": "Zitvatorok Antlaşması — protokolde eşitlik"
+   },
+   "kapsama": 0.8,
+   "jaccard": 0.8,
+   "ayni_t_dosyada": [
+    "Zitvatorok Antlaşması — protokolde eşitlik"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1683-09-12",
+   "b": "II. Viyana Kuşatması'nın bozgunu, dönüm noktası",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1683-09-12",
+    "b": "Viyana'nın kurtarılması — Kahlenberg Muharebesi"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": [
+    "Viyana'nın kurtarılması — Kahlenberg Muharebesi"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1699-01-26",
+   "b": "Karlofça ile Macaristan Habsburg'a geçti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1718-07-21",
+   "b": "Pasarofça — Belgrad ve Sırbistan Habsburg'a geçti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1718-07-21",
+    "b": "Pasarofça Antlaşması — imparatorluğun en geniş sınırı"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": [
+    "Pasarofça Antlaşması — imparatorluğun en geniş sınırı"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1739-09-18",
+   "b": "Belgrad Antlaşması — Belgrad Osmanlı'ya geri döndü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1739-09-18",
+    "b": "Belgrad Antlaşması — Pasarofça kazançlarının kaybı"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": [
+    "Belgrad Antlaşması — Pasarofça kazançlarının kaybı"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1804-08-11",
+   "b": "II. Franz, Kutsal Roma'dan ayrı Avusturya İmparatorluğu'nu ilan etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1804-08-11",
+    "b": "Avusturya İmparatorluğu'nun ilanı"
+   },
+   "kapsama": 0.22,
+   "jaccard": 0.18,
+   "ayni_t_dosyada": [
+    "Avusturya İmparatorluğu'nun ilanı"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1867-03-30",
+   "b": "Ausgleich (Uzlaşma) — Avusturya-Macaristan ikili monarşisi kuruldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1867-03-30",
+    "b": "Ausgleich — Avusturya-Macaristan ikili monarşisi"
+   },
+   "kapsama": 0.71,
+   "jaccard": 0.71,
+   "ayni_t_dosyada": [
+    "Ausgleich — Avusturya-Macaristan ikili monarşisi"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1878-07-13",
+   "b": "Berlin Kongresi — Bosna-Hersek'i işgal/idare etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1878-07-13",
+    "b": "Berlin Kongresi — Bosna-Hersek'in işgal ve idare yetkisi"
+   },
+   "kapsama": 0.86,
+   "jaccard": 0.75,
+   "ayni_t_dosyada": [
+    "Berlin Kongresi — Bosna-Hersek'in işgal ve idare yetkisi"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1908-10-06",
+   "b": "Bosna-Hersek'i ilhak etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1908-10-06",
+    "b": "Bosna-Hersek'in ilhakı ve ilhak krizi"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Bosna-Hersek'in ilhakı ve ilhak krizi"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1914-07-28",
+   "b": "Sırbistan'a savaş ilanı — I. Dünya Savaşı başladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1914-07-28",
+    "b": "Sırbistan'a savaş ilanı — I. Dünya Savaşı'nın başlaması"
+   },
+   "kapsama": 0.83,
+   "jaccard": 0.63,
+   "ayni_t_dosyada": [
+    "Sırbistan'a savaş ilanı — I. Dünya Savaşı'nın başlaması"
+   ]
+  },
+  {
+   "kunye": "habsburg",
+   "t": "1918-11-11",
+   "b": "Avusturya-Macaristan İmparatorluğu dağıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1918-11-11",
+    "b": "I. Karl'ın devlet işlerinden çekilmesi ve monarşinin sonu"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "I. Karl'ın devlet işlerinden çekilmesi ve monarşinin sonu"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1547-01-16",
+   "b": "IV. İvan (Korkunç) \"Çar\" unvanını aldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1547-01-16",
+    "b": "IV. İvan (Korkunç) \"Çar\" unvanını aldı ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "IV. İvan (Korkunç) \"Çar\" unvanını aldı ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1556-01-01",
+   "b": "Astrahan Hanlığı ilhak edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1556-01-01",
+    "b": "Astrahan Hanlığı ilhak edildi ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Astrahan Hanlığı ilhak edildi ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1568-01-01",
+   "b": "Osmanlı ile ilk çatışma — Astrahan seferi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "rusya",
+   "t": "1613-02-21",
+   "b": "Romanov hanedanı tahta çıktı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1613-02-21",
+    "b": "Romanov hanedanı tahta çıktı ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Romanov hanedanı tahta çıktı ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1696-07-18",
+   "b": "I. Petro Azak'ı aldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1696-07-18",
+    "b": "I. Petro Azak'ı aldı ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "I. Petro Azak'ı aldı ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1700-01-01",
+   "b": "Büyük Kuzey Savaşı — İsveç'i yenip Baltık'a açıldı (1721'e dek)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1700-01-01",
+    "b": "Büyük Kuzey Savaşı başladı (1721'e dek) ⭐"
+   },
+   "kapsama": 0.56,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Büyük Kuzey Savaşı başladı (1721'e dek) ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1711-07-21",
+   "b": "Prut'ta Osmanlı'ya yenildi, Azak geri verildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1711-07-21",
+    "b": "Prut'ta Osmanlı'ya yenildi, Azak geri verildi ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Prut'ta Osmanlı'ya yenildi, Azak geri verildi ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1721-10-22",
+   "b": "Rusya İmparatorluğu ilan edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1721-10-22",
+    "b": "Rusya İmparatorluğu ilan edildi ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Rusya İmparatorluğu ilan edildi ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1774-07-21",
+   "b": "Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1783-04-19",
+   "b": "Kırım'ı ilhak etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1783-04-19",
+    "b": "Kırım'ı ilhak etti ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Kırım'ı ilhak etti ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1812-05-28",
+   "b": "Bükreş Antlaşması ile Besarabya alındı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1812-05-28",
+    "b": "Bükreş Antlaşması ile Besarabya alındı ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Bükreş Antlaşması ile Besarabya alındı ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1829-09-14",
+   "b": "Edirne Antlaşması — Osmanlı-Rus savaşı sonu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1829-09-14",
+    "b": "Edirne Antlaşması — Osmanlı-Rus savaşı sonu ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Edirne Antlaşması — Osmanlı-Rus savaşı sonu ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1853-10-04",
+   "b": "Kırım Savaşı'nda yenildi (1856'ya dek)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1853-10-04",
+    "b": "Kırım Savaşı'nda yenildi (1856'ya dek) ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Kırım Savaşı'nda yenildi (1856'ya dek) ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1877-04-24",
+   "b": "93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1877-04-24",
+    "b": "93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş ⭐"
+   ]
+  },
+  {
+   "kunye": "rusya",
+   "t": "1917-03-15",
+   "b": "II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1917-03-15",
+    "b": "II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi ⭐"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi ⭐"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1569-07-01",
+   "b": "Lublin Birliği ile Polonya-Litvanya birleşti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1569-07-01",
+    "b": "LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": [
+    "LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1573-05-16",
+   "b": "Henrician Articles kabul edildi, ilk seçimli kral Valois Henri tahta çıktı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1573-05-16",
+    "b": "İlk serbest seçim — Henri de Valois kral seçildi"
+   },
+   "kapsama": 0.36,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": [
+    "İlk serbest seçim — Henri de Valois kral seçildi"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1620-09-01",
+   "b": "Osmanlı ile Hotin/Ţuţora savaşları başladı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1620-10-07",
+    "b": "Cecora (Ţuţora) bozgunu — Hatman Żółkiewski öldürüldü"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1655-07-01",
+   "b": "İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1655-07-25",
+    "b": "POTOP — İsveç Tufanı başladı"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1672-10-18",
+   "b": "Bucaş Antlaşması — Podolya Osmanlı'ya geçti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1672-08-27",
+    "b": "KAMANİÇE DÜŞTÜ — Podolya Osmanlı'ya geçti"
+   },
+   "kapsama": 0.6,
+   "jaccard": 0.43,
+   "ayni_t_dosyada": [
+    "Bucaş Antlaşması — haraç şartı ve Podolya'nın terki"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1683-09-12",
+   "b": "Jan Sobieski, II. Viyana kuşatmasını kırdı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1683-09-12",
+    "b": "VİYANA — Sobieski'nin Kahlenberg hücumu kuşatmayı kırdı"
+   },
+   "kapsama": 0.6,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "VİYANA — Sobieski'nin Kahlenberg hücumu kuşatmayı kırdı"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1699-01-26",
+   "b": "Karlofça — Podolya geri alındı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1699-01-26",
+    "b": "KARLOFÇA — Podolya ve Kamaniçe geri alındı"
+   },
+   "kapsama": 1,
+   "jaccard": 0.8,
+   "ayni_t_dosyada": [
+    "KARLOFÇA — Podolya ve Kamaniçe geri alındı"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1764-09-07",
+   "b": "Stanisław August Poniatowski son kral seçildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1764-09-07",
+    "b": "Stanisław August Poniatowski seçildi — son kral"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Stanisław August Poniatowski seçildi — son kral"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1772-08-05",
+   "b": "Birinci Paylaşım — Rusya, Prusya ve Avusturya toprak aldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1772-08-05",
+    "b": "BİRİNCİ TAKSİM — Rusya, Prusya ve Avusturya toprak aldı"
+   },
+   "kapsama": 0.86,
+   "jaccard": 0.75,
+   "ayni_t_dosyada": [
+    "BİRİNCİ TAKSİM — Rusya, Prusya ve Avusturya toprak aldı"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1791-05-03",
+   "b": "3 Mayıs Anayasası ilan edildi — Avrupa'nın ilk yazılı anayasası",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1791-05-03",
+    "b": "3 MAYIS ANAYASASI — Avrupa'nın ilk yazılı anayasası"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.75,
+   "ayni_t_dosyada": [
+    "3 MAYIS ANAYASASI — Avrupa'nın ilk yazılı anayasası"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1793-01-23",
+   "b": "İkinci Paylaşım ile ülke küçüldü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1793-01-23",
+    "b": "İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": [
+    "İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü"
+   ]
+  },
+  {
+   "kunye": "lehistan",
+   "t": "1795-10-24",
+   "b": "Üçüncü Paylaşım ile devlet ortadan kalktı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1795-10-24",
+    "b": "ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": [
+    "ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi"
+   ]
+  },
+  {
+   "kunye": "venedik",
+   "t": "1204-04-13",
+   "b": "IV. Haçlı Seferi'nde Bizans'ı yağmalayarak Ege'de geniş koloni imparatorluğu kurdu",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "venedik",
+   "t": "1463-01-01",
+   "b": "Osmanlı ile ilk büyük savaş — Arnavutluk ve Mora çekişmesi (1479'a dek)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1463-01-01",
+    "b": "Birinci Osmanlı-Venedik Savaşı'nın başlaması"
+   },
+   "kapsama": 0.11,
+   "jaccard": 0.07,
+   "ayni_t_dosyada": [
+    "Birinci Osmanlı-Venedik Savaşı'nın başlaması"
+   ]
+  },
+  {
+   "kunye": "venedik",
+   "t": "1479-01-25",
+   "b": "İstanbul Antlaşması — Arnavutluk/İşkodra Osmanlı'da kaldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1479-01-25",
+    "b": "İstanbul Antlaşması — birinci savaşın sonu"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": [
+    "İstanbul Antlaşması — birinci savaşın sonu"
+   ]
+  },
+  {
+   "kunye": "venedik",
+   "t": "1489-02-26",
+   "b": "Kıbrıs Krallığı'nı devraldı (Lüzinyan hanedanının sonu)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1489-02-26",
+    "b": "Kıbrıs'ın devralınması"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.14,
+   "ayni_t_dosyada": [
+    "Kıbrıs'ın devralınması"
+   ]
+  },
+  {
+   "kunye": "venedik",
+   "t": "1571-08-01",
+   "b": "Kıbrıs Osmanlı'ya düştü (İnebahtı zaferine rağmen)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1571-08-01",
+    "b": "Magosa'nın düşüşü — Kıbrıs'ın kaybı"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": [
+    "Magosa'nın düşüşü — Kıbrıs'ın kaybı"
+   ]
+  },
+  {
+   "kunye": "venedik",
+   "t": "1645-01-01",
+   "b": "Girit (Kandiye) Savaşı başladı — 24 yıllık kuşatma",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1645-08-22",
+    "b": "Girit Savaşı'nın başlaması ve Hanya'nın düşüşü"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.2,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "venedik",
+   "t": "1669-09-27",
+   "b": "Kandiye'nin düşüşüyle Girit kaybedildi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1669-09-06",
+    "b": "Kandiye'nin teslimi — Girit'in kaybı"
+   },
+   "kapsama": 0.6,
+   "jaccard": 0.43,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "venedik",
+   "t": "1684-01-01",
+   "b": "Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1684-03-05",
+    "b": "Kutsal İttifak'a katılma"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "venedik",
+   "t": "1699-01-26",
+   "b": "Karlofça ile Mora resmen Venedik'e bağlandı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — Mora'nın Venedik'e bırakılması"
+   },
+   "kapsama": 0.6,
+   "jaccard": 0.38,
+   "ayni_t_dosyada": [
+    "Karlofça Antlaşması — Mora'nın Venedik'e bırakılması"
+   ]
+  },
+  {
+   "kunye": "venedik",
+   "t": "1715-06-25",
+   "b": "Osmanlı, Mora'yı geri aldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1715-07-01",
+    "b": "Mora'nın kaybı — Damad Ali Paşa harekâtı"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "venedik",
+   "t": "1797-05-12",
+   "b": "Napolyon Cumhuriyet'e son verdi, Campo Formio ile Avusturya'ya bırakıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1797-10-17",
+    "b": "Campoformio Antlaşması — Venedik'in Avusturya'ya verilmesi"
+   },
+   "kapsama": 0.13,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Büyük Konsey'in kendini feshi — cumhuriyetin sonu"
+   ]
+  },
+  {
+   "kunye": "iran",
+   "t": "1925-12-12",
+   "b": "Rızâ Han meclis tarafından şehinşah ilan edildi, Pehlevi hânedanı kuruldu",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "iran",
+   "t": "1926-04-25",
+   "b": "Gülistan Sarayı'nda taç giydi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "iran",
+   "t": "1941-09-16",
+   "b": "Rızâ Şah tahttan çekilmek zorunda bırakıldı, oğlu Muhammed Rızâ Şah tahta çıktı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "iran",
+   "t": "1979-01-16",
+   "b": "Muhammed Rızâ Şah ülkeyi terk etti, bir daha dönemedi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "iran",
+   "t": "1979-02-01",
+   "b": "Ayetullah Humeyni sürgünden Tahran'a döndü",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "iran",
+   "t": "1979-03-31",
+   "b": "Referandumla İran İslam Cumhuriyeti ilan edildi, monarşi resmen sona erdi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "bizans",
+   "t": "1204-04-13",
+   "b": "IV. Haçlı Seferi İstanbul'u yağmaladı; Latin İmparatorluğu kuruldu, Bizans İznik/Trabzon/Epir'e bölündü",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "bizans",
+   "t": "1261-07-25",
+   "b": "VIII. Mihail Palaiologos İstanbul'u geri aldı; Palaiologos hanedanı başladı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "bizans",
+   "t": "1302-07-27",
+   "b": "Koyunhisar'da Osmanlı'ya ilk yenilgi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1302-07-27",
+    "b": "KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": [
+    "KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1326-04-06",
+   "b": "Bursa Osmanlı'ya düştü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1326-04-06",
+    "b": "BURSA DÜŞTÜ — Osmanlı'nın ilk başşehri"
+   },
+   "kapsama": 1,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "BURSA DÜŞTÜ — Osmanlı'nın ilk başşehri"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1331-03-02",
+   "b": "İznik Osmanlı'ya düştü",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1331-03-01",
+    "b": "İZNİK DÜŞTÜ — sürgün başkenti Osmanlı'ya geçti"
+   },
+   "kapsama": 1,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "bizans",
+   "t": "1347-01-01",
+   "b": "VI. İoannis Kantakuzenos - V. İoannis Palaiologos iç savaşı, Kara Ölüm salgınıyla üst üste",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1347-01-01",
+    "b": "Kara Ölüm İstanbul'a ulaştı"
+   },
+   "kapsama": 0.22,
+   "jaccard": 0.18,
+   "ayni_t_dosyada": [
+    "Kara Ölüm İstanbul'a ulaştı"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1354-03-02",
+   "b": "Gelibolu depreminden yararlanan Osmanlılar Rumeli'ye ilk kez yerleşti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1354-03-02",
+    "b": "GELİBOLU DEPREMİ — Osmanlılar Rumeli'ye yerleşti"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.44,
+   "ayni_t_dosyada": [
+    "GELİBOLU DEPREMİ — Osmanlılar Rumeli'ye yerleşti"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1373-01-01",
+   "b": "V. İoannis, I. Murad'a vasal oldu, haraç ödemeye başladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1373-01-01",
+    "b": "BİZANS OSMANLI'YA TÂBİ OLDU — haraç ve asker yükümlülüğü"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": [
+    "BİZANS OSMANLI'YA TÂBİ OLDU — haraç ve asker yükümlülüğü"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1391-01-01",
+   "b": "Yıldırım Bayezid İstanbul'u kuşattı (1402'ye dek aralıklı)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1391-01-01",
+    "b": "YILDIRIM BAYEZİD İSTANBUL'U ABLUKAYA ALDI"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "YILDIRIM BAYEZİD İSTANBUL'U ABLUKAYA ALDI",
+    "II. Manuel'in Bir Acemle Diyaloglar'ı"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1422-06-10",
+   "b": "II. Murad İstanbul'u kuşattı, kaldırdı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1422-06-08",
+    "b": "II. MURAD İSTANBUL'U KUŞATTI"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.75,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "bizans",
+   "t": "1439-07-06",
+   "b": "Floransa Konsili'nde Katolik-Ortodoks birliği ilan edildi (Batı yardımı arayışı)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1439-07-06",
+    "b": "FLORANSA BİRLİĞİ ilan edildi"
+   },
+   "kapsama": 0.36,
+   "jaccard": 0.36,
+   "ayni_t_dosyada": [
+    "FLORANSA BİRLİĞİ ilan edildi"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1449-01-06",
+   "b": "XI. Konstantinos Palaiologos son imparator oldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1449-01-06",
+    "b": "XI. Konstantinos son imparator oldu — taç Mistra'da giyildi"
+   },
+   "kapsama": 0.8,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "XI. Konstantinos son imparator oldu — taç Mistra'da giyildi"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1453-05-29",
+   "b": "İstanbul'un fethi; Bizans İmparatorluğu sona erdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1453-05-29",
+    "b": "İSTANBUL'UN FETHİ — Bizans İmparatorluğu sona erdi"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "İSTANBUL'UN FETHİ — Bizans İmparatorluğu sona erdi"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1460-05-31",
+   "b": "Mora Despotluğu (son Bizans artığı) Osmanlı'ya katıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1460-05-31",
+    "b": "Mora Despotluğu ilhak edildi — son Bizans toprağı"
+   },
+   "kapsama": 0.57,
+   "jaccard": 0.4,
+   "ayni_t_dosyada": [
+    "Mora Despotluğu ilhak edildi — son Bizans toprağı"
+   ]
+  },
+  {
+   "kunye": "bizans",
+   "t": "1461-08-15",
+   "b": "Trabzon Rum İmparatorluğu düştü — Bizans mirasının son parçası",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "memluk",
+   "t": "1250-05-02",
+   "b": "Memlûk emirleri Eyyûbî hanedanına son verdi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "memluk",
+   "t": "1260-09-03",
+   "b": "Ayn Câlût'ta Moğolları durdurdular",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "memluk",
+   "t": "1277-07-01",
+   "b": "I. Baybars öldü; kısa süre sonra Kalavun hanedanı iktidara geldi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "memluk",
+   "t": "1291-05-18",
+   "b": "Akkâ'nın fethiyle Haçlıların Levant'tan tasfiyesi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1291-05-18",
+    "b": "Akkâ'nın fethi — Haçlılar Suriye'den tasfiye edildi"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Akkâ'nın fethi — Haçlılar Suriye'den tasfiye edildi"
+   ]
+  },
+  {
+   "kunye": "memluk",
+   "t": "1382-01-01",
+   "b": "Burci (Çerkes) Memlûkleri, Bahrî Memlûklerinin yerini aldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1382-11-27",
+    "b": "Berkuk tahta çıktı — Bahrî'den Burcî'ye geçiş"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "memluk",
+   "t": "1400-01-01",
+   "b": "Timur, Halep ve Şam'ı yağmaladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1400-01-01",
+    "b": "Timur'un Halep'i yakıp yıkması"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "Timur'un Halep'i yakıp yıkması",
+    "Venedik'in Şam'daki ticaret hakları"
+   ]
+  },
+  {
+   "kunye": "memluk",
+   "t": "1485-01-01",
+   "b": "Osmanlı-Memlûk Çukurova savaşları başladı (1491'e dek, kesin sonuçsuz)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1485-01-01",
+    "b": "Osmanlı-Memlük Savaşı'nın başlaması"
+   },
+   "kapsama": 0.22,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": [
+    "Osmanlı-Memlük Savaşı'nın başlaması"
+   ]
+  },
+  {
+   "kunye": "memluk",
+   "t": "1516-08-24",
+   "b": "Mercidabık'ta Kansu Gavri öldü; Suriye Osmanlı'ya geçti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1516-07-11",
+    "b": "Kansu Gavri'nin Halep'ten Mercidâbık'a hareketi"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.3,
+   "ayni_t_dosyada": [
+    "Mercidâbık Muharebesi — Kansu Gavri'nin ölümü"
+   ]
+  },
+  {
+   "kunye": "memluk",
+   "t": "1517-01-22",
+   "b": "Ridaniye'de Tomanbay'ın ordusu dağıtıldı, Kahire düştü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1517-01-24",
+    "b": "Osmanlı'nın Kahire'ye girişi, Tomanbay'ın üç günlük direnişi"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.18,
+   "ayni_t_dosyada": [
+    "Ridâniye Muharebesi"
+   ]
+  },
+  {
+   "kunye": "memluk",
+   "t": "1517-04-13",
+   "b": "Kahire'de Tomanbay idam edildi; Mısır Osmanlı'ya katıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1517-01-24",
+    "b": "Osmanlı'nın Kahire'ye girişi, Tomanbay'ın üç günlük direnişi"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.27,
+   "ayni_t_dosyada": [
+    "Tomanbay'ın idamı — Memlük Sultanlığı'nın sonu"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1441-01-01",
+   "b": "Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1441-01-01",
+    "b": "Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti — Kırım Hanlığı'nın kuruluşu"
+   },
+   "kapsama": 1,
+   "jaccard": 0.67,
+   "ayni_t_dosyada": [
+    "Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti — Kırım Hanlığı'nın kuruluşu"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1475-06-01",
+   "b": "Osmanlı Kefe'yi fethetti; Kırım Hanlığı Osmanlı'ya tâbi oldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1475-07-01",
+    "b": "Mengli Giray Osmanlı hâkimiyetini resmen tanıdı — Kırım Hanlığı Osmanlı'ya tâbi oldu"
+   },
+   "kapsama": 0.71,
+   "jaccard": 0.42,
+   "ayni_t_dosyada": [
+    "Gedik Ahmed Paşa komutasındaki Osmanlı donanması Kefe'yi ve Ceneviz kıyı kolonilerini fethetti"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1502-01-01",
+   "b": "Büyük Orda'yı ortadan kaldırdı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1502-01-01",
+    "b": "Mengli Giray, Saray şehrini tahrip ederek Büyük Orda'ya son darbeyi vurdu"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Mengli Giray, Saray şehrini tahrip ederek Büyük Orda'ya son darbeyi vurdu"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1571-05-24",
+   "b": "Devlet Giray, Moskova'yı yaktı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1571-01-01",
+    "b": "Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "kirim",
+   "t": "1648-05-01",
+   "b": "Tugay Bey kuvvetleri Hetman Hmelnitski'nin Kazak ayaklanmasına destek verdi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1648-05-16",
+    "b": "Kalgay Tugay Bey komutasındaki Kırım kuvvetleri, Hetman Hmelnitski'nin Kazak ayaklanmasını (Sarı Sular) destekledi"
+   },
+   "kapsama": 0.7,
+   "jaccard": 0.41,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "kirim",
+   "t": "1687-01-01",
+   "b": "Rus Kırım seferleri püskürtüldü (1689'a dek)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1687-01-01",
+    "b": "Rus Kumandan Golitsyn'in ilk Kırım seferi, bozkırın yakılması taktiğiyle püskürtüldü"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.23,
+   "ayni_t_dosyada": [
+    "Rus Kumandan Golitsyn'in ilk Kırım seferi, bozkırın yakılması taktiğiyle püskürtüldü"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1711-07-08",
+   "b": "Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1711-07-08",
+    "b": "II. Devlet Giray, Prut Seferi'nde Osmanlı ordusuna katıldı"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "II. Devlet Giray, Prut Seferi'nde Osmanlı ordusuna katıldı"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1736-01-01",
+   "b": "Rus orduları Bahçesaray'ı yaktı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1736-01-01",
+    "b": "Feldmareşal Münnich komutasındaki Rus ordusu Kırım'ı istila etti, Han Sarayı'nı ve Bahçesaray'ı yaktı"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.23,
+   "ayni_t_dosyada": [
+    "Feldmareşal Münnich komutasındaki Rus ordusu Kırım'ı istila etti, Han Sarayı'nı ve Bahçesaray'ı yaktı"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1774-07-21",
+   "b": "Küçük Kaynarca — Kırım siyaseten bağımsız ilan edildi, dinî bağ Osmanlı'da kaldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca Antlaşması imzalandı — Kırım Hanlığı Osmanlı'dan siyaseten bağımsız ilan edildi"
+   },
+   "kapsama": 0.73,
+   "jaccard": 0.53,
+   "ayni_t_dosyada": [
+    "Küçük Kaynarca Antlaşması imzalandı — Kırım Hanlığı Osmanlı'dan siyaseten bağımsız ilan edildi"
+   ]
+  },
+  {
+   "kunye": "kirim",
+   "t": "1783-04-19",
+   "b": "Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda eski takvimle 8 Nisan 1783 olarak da geçer)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1783-04-19",
+    "b": "II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ve Kuban'ı ilhak etti — Kırım Hanlığı sona erdi"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.3,
+   "ayni_t_dosyada": [
+    "II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ve Kuban'ı ilhak etti — Kırım Hanlığı sona erdi"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1000-01-01",
+   "b": "I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1301-01-14",
+   "b": "III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1301-01-14",
+    "b": "III. András'ın ölümü ve Árpád hanedanının sona ermesi"
+   },
+   "kapsama": 0.36,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": [
+    "III. András'ın ölümü ve Árpád hanedanının sona ermesi"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1308-06-15",
+   "b": "Anjou Károly (Charles Robert) tahta çıktı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1308-11-27",
+    "b": "Károly Róbert'in (I. Károly, Anjou hanedanı) genel kabulle kral ilan edilmesi"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1387-03-31",
+   "b": "Luxemburglu Zsigmond (Sigismund) tahta çıktı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1387-03-31",
+    "b": "Luxemburglu Zsigmond'un kral seçilmesi"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": [
+    "Luxemburglu Zsigmond'un kral seçilmesi"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1396-09-25",
+   "b": "Niğbolu Haçlı Seferi'ne öncülük etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1396-09-25",
+    "b": "Niğbolu Savaşı — Haçlı ordusunun bozgunu"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": [
+    "Niğbolu Savaşı — Haçlı ordusunun bozgunu"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1443-11-01",
+   "b": "Hunyadi'nin Osmanlı'ya yenilgisi — İzladi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1443-01-01",
+    "b": "Uzun Sefer'in (Long Campaign) başlaması"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1456-07-22",
+   "b": "Belgrad'ı savunarak II. Mehmed'i geri püskürttü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1456-07-22",
+    "b": "Nándorfehérvár (Belgrad) Kuşatmasının püskürtülmesi"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": [
+    "Nándorfehérvár (Belgrad) Kuşatmasının püskürtülmesi"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1458-01-24",
+   "b": "Hunyadi Mátyás (Corvinus) tahta çıktı, altın çağ başladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1458-01-24",
+    "b": "Hunyadi Mátyás'ın (Mátyás Corvinus) kral seçilmesi"
+   },
+   "kapsama": 0.38,
+   "jaccard": 0.3,
+   "ayni_t_dosyada": [
+    "Hunyadi Mátyás'ın (Mátyás Corvinus) kral seçilmesi"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1490-04-06",
+   "b": "Mátyás'ın ölümüyle Jagiellon hanedanı tahta geçti, merkezi otorite zayıfladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1490-04-06",
+    "b": "Mátyás Corvinus'un ölümü"
+   },
+   "kapsama": 0.11,
+   "jaccard": 0.09,
+   "ayni_t_dosyada": [
+    "Mátyás Corvinus'un ölümü"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1514-07-15",
+   "b": "Dózsa György köylü isyanı bastırıldı, feodal baskı ve askerî zaaf arttı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1514-05-01",
+    "b": "Dózsa György köylü ayaklanmasının başlaması"
+   },
+   "kapsama": 0.3,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1521-08-29",
+   "b": "Kanunî, Belgrad'ı fethetti — güney savunma hattı çöktü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1521-08-29",
+    "b": "Nándorfehérvár'ın (Belgrad) Osmanlı'ya düşmesi"
+   },
+   "kapsama": 0.14,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": [
+    "Nándorfehérvár'ın (Belgrad) Osmanlı'ya düşmesi"
+   ]
+  },
+  {
+   "kunye": "macaristan",
+   "t": "1526-08-29",
+   "b": "Mohaç'ta II. Layoş öldü, krallık bağımsızlığını kaybetti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1526-08-29",
+    "b": "Mohaç Meydan Savaşı — bağımsız Macar krallığının sonu"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Mohaç Meydan Savaşı — bağımsız Macar krallığının sonu"
+   ]
+  },
+  {
+   "kunye": "ingiltere",
+   "t": "1581-09-11",
+   "b": "Levant Company kuruldu, ticarî kapitülasyonlar genişledi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1581-09-11",
+    "b": "Levant Company kuruldu"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Levant Company kuruldu"
+   ]
+  },
+  {
+   "kunye": "ingiltere",
+   "t": "1799-01-01",
+   "b": "Napolyon'un Mısır Seferi'ne karşı Osmanlı ile ittifak",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1799-01-01",
+    "b": "Napolyon'un Mısır Seferi'ne karşı Osmanlı ile ittifak kuruldu"
+   },
+   "kapsama": 1,
+   "jaccard": 0.86,
+   "ayni_t_dosyada": [
+    "Napolyon'un Mısır Seferi'ne karşı Osmanlı ile ittifak kuruldu"
+   ]
+  },
+  {
+   "kunye": "ingiltere",
+   "t": "1827-10-20",
+   "b": "Navarin'de Osmanlı-Mısır donanmasını batırdı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1827-10-20",
+    "b": "Navarin Deniz Savaşı — Osmanlı-Mısır donanması batırıldı"
+   },
+   "kapsama": 0.6,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "Navarin Deniz Savaşı — Osmanlı-Mısır donanması batırıldı"
+   ]
+  },
+  {
+   "kunye": "ingiltere",
+   "t": "1840-07-15",
+   "b": "Londra Konvansiyonu ile Kavalalı'ya karşı Osmanlı'yı destekledi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1840-07-15",
+    "b": "Londra Sözleşmesi — Kavalalı'ya karşı Osmanlı desteklendi"
+   },
+   "kapsama": 0.67,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Londra Sözleşmesi — Kavalalı'ya karşı Osmanlı desteklendi"
+   ]
+  },
+  {
+   "kunye": "ingiltere",
+   "t": "1878-06-04",
+   "b": "Kıbrıs'ın idaresini devraldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1878-06-04",
+    "b": "Kıbrıs Sözleşmesi — adanın idaresi Britanya'ya devredildi"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": [
+    "Kıbrıs Sözleşmesi — adanın idaresi Britanya'ya devredildi"
+   ]
+  },
+  {
+   "kunye": "ingiltere",
+   "t": "1914-11-05",
+   "b": "I. Dünya Savaşı'nda Osmanlı'ya karşı cephe açtı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1914-08-04",
+    "b": "Britanya Almanya'ya savaş ilan etti — I. Dünya Savaşı başladı"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Britanya Kıbrıs'ı ilhak etti, Osmanlı'ya savaş ilan etti"
+   ]
+  },
+  {
+   "kunye": "fransa",
+   "t": "1536-01-01",
+   "b": "I. François ile Kanunî arasında Kapitülasyonlar imzalandı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1536-02-18",
+    "b": "Osmanlı-Fransız Kapitülasyonları'nın imzalanması"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "fransa",
+   "t": "1798-07-01",
+   "b": "(Devrim sonrası) Napolyon'un Mısır Seferi ile Osmanlı'ya savaş açıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1798-07-01",
+    "b": "Napolyon'un Mısır Seferi'nin başlaması"
+   },
+   "kapsama": 0.38,
+   "jaccard": 0.3,
+   "ayni_t_dosyada": [
+    "Napolyon'un Mısır Seferi'nin başlaması"
+   ]
+  },
+  {
+   "kunye": "fransa",
+   "t": "1792-09-22",
+   "b": "Krallık ilga edildi, Cumhuriyet ilan edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1792-04-20",
+    "b": "Fransa'nın Avusturya'ya savaş açması"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "I. Fransız Cumhuriyeti'nin ilanı"
+   ]
+  },
+  {
+   "kunye": "almanya",
+   "t": "1806-08-06",
+   "b": "Kutsal Roma İmparatorluğu ilga edildi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1806-10-14",
+    "b": "Jena-Auerstedt bozgunu"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "almanya",
+   "t": "1871-01-18",
+   "b": "Alman İmparatorluğu ilan edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1871-01-18",
+    "b": "Alman İmparatorluğu'nun Versailles'de ilanı"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": [
+    "Alman İmparatorluğu'nun Versailles'de ilanı"
+   ]
+  },
+  {
+   "kunye": "almanya",
+   "t": "1889-01-01",
+   "b": "II. Wilhelm'in İstanbul ziyaretiyle yakınlaşma başladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1889-01-01",
+    "b": "II. Wilhelm'in İstanbul ziyareti"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "II. Wilhelm'in İstanbul ziyareti"
+   ]
+  },
+  {
+   "kunye": "almanya",
+   "t": "1914-08-02",
+   "b": "Osmanlı-Alman ittifak antlaşması imzalandı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1914-08-02",
+    "b": "Osmanlı-Alman gizli ittifak antlaşması"
+   },
+   "kapsama": 0.8,
+   "jaccard": 0.67,
+   "ayni_t_dosyada": [
+    "Osmanlı-Alman gizli ittifak antlaşması"
+   ]
+  },
+  {
+   "kunye": "almanya",
+   "t": "1918-11-11",
+   "b": "İmparatorluk yıkıldı, cumhuriyet ilan edildi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1918-11-09",
+    "b": "II. Wilhelm'in tahttan çekilmesi ve Cumhuriyet ilanı"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "italya",
+   "t": "1861-03-17",
+   "b": "II. Vittorio Emanuele, birleşik krallığı ilan etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1861-03-17",
+    "b": "İtalya Krallığı'nın ilanı"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": [
+    "İtalya Krallığı'nın ilanı"
+   ]
+  },
+  {
+   "kunye": "italya",
+   "t": "1866-01-01",
+   "b": "III. Bağımsızlık Savaşı ile Venedik'i kazandı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1866-06-20",
+    "b": "III. Bağımsızlık Savaşı'nın ilanı"
+   },
+   "kapsama": 0.6,
+   "jaccard": 0.43,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "italya",
+   "t": "1870-09-20",
+   "b": "Roma'yı alarak birleşmeyi tamamladı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1870-09-20",
+    "b": "Roma'nın işgali — Papalık Devleti'nin dünyevî iktidarının sonu"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Roma'nın işgali — Papalık Devleti'nin dünyevî iktidarının sonu"
+   ]
+  },
+  {
+   "kunye": "italya",
+   "t": "1911-09-29",
+   "b": "Trablusgarp Savaşı'nı başlattı, Libya'yı ve Oniki Ada'yı aldı (bkz. [[trablusgarp-ocagi]], [[oniki-ada-italyan]])",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1911-09-29",
+    "b": "Trablusgarp Savaşı'nın ilanı"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": [
+    "Trablusgarp Savaşı'nın ilanı"
+   ]
+  },
+  {
+   "kunye": "italya",
+   "t": "1915-05-23",
+   "b": "İtilaf Devletleri safında I. Dünya Savaşı'na girdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1915-04-26",
+    "b": "Londra Gizli Antlaşması"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Avusturya-Macaristan'a savaş ilanı"
+   ]
+  },
+  {
+   "kunye": "italya",
+   "t": "1919-04-28",
+   "b": "Antalya ve çevresini işgal etti (Millî Mücadele cephelerinden biri)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1919-04-28",
+    "b": "Antalya ve çevresinin işgali"
+   },
+   "kapsama": 0.13,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": [
+    "Antalya ve çevresinin işgali"
+   ]
+  },
+  {
+   "kunye": "ispanya",
+   "t": "1479-01-20",
+   "b": "Kastilya ile Aragon tacları birleşti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1479-01-20",
+    "b": "Kastilya ile Aragon tacları fiilen birleşti"
+   },
+   "kapsama": 1,
+   "jaccard": 0.8,
+   "ayni_t_dosyada": [
+    "Kastilya ile Aragon tacları fiilen birleşti"
+   ]
+  },
+  {
+   "kunye": "ispanya",
+   "t": "1492-01-02",
+   "b": "Gırnata'nın düşüşüyle Reconquista tamamlandı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1492-01-02",
+    "b": "Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi"
+   ]
+  },
+  {
+   "kunye": "ispanya",
+   "t": "1535-07-21",
+   "b": "Şarlken Tunus'u aldı (1574'te kesin olarak Osmanlı'ya geçti)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1535-07-21",
+    "b": "Şarlken Tunus Seferi — şehir geri alındı, İspanyol garnizonu kuruldu"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": [
+    "Şarlken Tunus Seferi — şehir geri alındı, İspanyol garnizonu kuruldu"
+   ]
+  },
+  {
+   "kunye": "ispanya",
+   "t": "1571-10-07",
+   "b": "İnebahtı'da Kutsal İttifak donanmasının belkemiğini oluşturdu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1571-10-07",
+    "b": "İnebahtı Deniz Savaşı — Kutsal İttifak donanmasının zaferi"
+   },
+   "kapsama": 0.67,
+   "jaccard": 0.44,
+   "ayni_t_dosyada": [
+    "İnebahtı Deniz Savaşı — Kutsal İttifak donanmasının zaferi"
+   ]
+  },
+  {
+   "kunye": "ispanya",
+   "t": "1580-06-01",
+   "b": "Osmanlı ile fiilî ateşkes — Akdeniz cephesi duruldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1580-06-01",
+    "b": "Osmanlı ile fiilî ateşkes"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Osmanlı ile fiilî ateşkes"
+   ]
+  },
+  {
+   "kunye": "portekiz",
+   "t": "1507-01-01",
+   "b": "Hürmüz ve Umman kıyılarını aldı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "portekiz",
+   "t": "1538-08-04",
+   "b": "Hadım Süleyman Paşa'nın Diu kuşatması — Osmanlı-Portekiz savaşlarının zirvesi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1538-08-04",
+    "b": "Hadım Süleyman Paşa'nın Aden-Diu seferi"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.42,
+   "ayni_t_dosyada": [
+    "Hadım Süleyman Paşa'nın Aden-Diu seferi"
+   ]
+  },
+  {
+   "kunye": "portekiz",
+   "t": "1552-01-01",
+   "b": "Pîrî Reis'in Hürmüz seferi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1552-08-01",
+    "b": "Pîrî Reis'in Hürmüz kuşatması — Portekiz kaleyi savundu"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.38,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "portekiz",
+   "t": "1650-01-26",
+   "b": "Umman, Maskat'ı geri aldı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1340-01-01",
+   "b": "Tur Ali Bey tarafından Diyarbekir bölgesinde kuruldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1340-01-01",
+    "b": "Tur Ali Bey önderliğinde Trabzon'a akınlar başladı — Akkoyunlu'nun tarih sahnesine çıkışı"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.19,
+   "ayni_t_dosyada": [
+    "Tur Ali Bey önderliğinde Trabzon'a akınlar başladı — Akkoyunlu'nun tarih sahnesine çıkışı"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1378-01-01",
+   "b": "Kara Yülük Osman Bey (Tur Ali Bey'in soyundan) tahta çıktı, devleti bölgesel güç hâline getirdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1378-01-01",
+    "b": "Pîr Hüseyin Bey öldü, Erzincan ve Bayburt Eretna'ya geçti"
+   },
+   "kapsama": 0.07,
+   "jaccard": 0.05,
+   "ayni_t_dosyada": [
+    "Pîr Hüseyin Bey öldü, Erzincan ve Bayburt Eretna'ya geçti"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1453-01-01",
+   "b": "Uzun Hasan Akkoyunlu tahtına çıktı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1458-01-01",
+   "b": "Trabzon Rum İmparatoru'nun kızıyla evlenerek Trabzon ile ittifak kurdu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1458-01-01",
+    "b": "Birinci Gürcistan seferi — Tiflis yağmalandı, altı kale alındı"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Birinci Gürcistan seferi — Tiflis yağmalandı, altı kale alındı"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1464-01-01",
+   "b": "Venedik ile Osmanlı'ya karşı ittifak kurdu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1464-01-01",
+    "b": "Karamanoğlu İshak Bey'e Karaman yönetimi kazandırıldı"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Karamanoğlu İshak Bey'e Karaman yönetimi kazandırıldı"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1467-01-01",
+   "b": "Karakoyunlu Devleti'ni yıktı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1467-11-10",
+    "b": "BİNGÖL BASKINI — Cihan Şah öldürüldü, Karakoyunlu çöktü"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1473-08-11",
+   "b": "Otlukbeli'de Fatih'e yenildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1473-08-11",
+    "b": "OTLUKBELİ SAVAŞI — Osmanlı topçusu karşısında ağır yenilgi"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": [
+    "OTLUKBELİ SAVAŞI — Osmanlı topçusu karşısında ağır yenilgi"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1478-01-06",
+   "b": "Uzun Hasan öldü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1478-01-06",
+    "b": "UZUN HASAN ÖLDÜ — imparatorluk parçalanmaya başladı"
+   },
+   "kapsama": 1,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "UZUN HASAN ÖLDÜ — imparatorluk parçalanmaya başladı",
+    "Nasriyye bahçesi — Uzun Hasan'ın kendi yaptırdığı türbe"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1481-01-01",
+   "b": "Yakub Bey, Hasan Padişah Kanunnâmesi ile idareyi yeniden düzenledi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1501-01-01",
+   "b": "Şah İsmâil (Safevî) Tebriz'i alarak hânedanın merkezî iktidarına son verdi; Elvend Diyarbekir'de hüküm sürmeyi sürdürdü",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1501-04-01",
+    "b": "ŞAH İSMÂİL TEBRİZ'E GİRDİ — Safevî Devleti kuruldu"
+   },
+   "kapsama": 0.27,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1505-01-01",
+   "b": "Elvend Âmid'de (Diyarbekir) öldü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1505-01-01",
+    "b": "Elvend öldü"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Elvend öldü"
+   ]
+  },
+  {
+   "kunye": "akkoyunlu",
+   "t": "1514-01-01",
+   "b": "Murad'ın ölümüyle hânedan tamamen sona erdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1514-01-01",
+    "b": "MURAD ÖLDÜRÜLDÜ — Akkoyunlu Devleti tarih sahnesinden silindi"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "MURAD ÖLDÜRÜLDÜ — Akkoyunlu Devleti tarih sahnesinden silindi"
+   ]
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1351-01-01",
+   "b": "Bayram Hoca tarafından Van-Erciş bölgesinde kuruldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1351-01-01",
+    "b": "Bayram Hoca bağımsızlığını kazandı — Karakoyunlu Devleti'nin doğuşu"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Bayram Hoca bağımsızlığını kazandı — Karakoyunlu Devleti'nin doğuşu"
+   ]
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1380-01-01",
+   "b": "Kara Mehmed tahta çıktı, Tebriz'i alarak devleti güçlendirdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1380-01-01",
+    "b": "Kara Mehmed başa geçti"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.2,
+   "ayni_t_dosyada": [
+    "Kara Mehmed başa geçti"
+   ]
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1400-01-01",
+   "b": "Timur'a yenilip tâbi oldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1400-01-01",
+    "b": "Kara Yûsuf Osmanlı topraklarına sığındı"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Kara Yûsuf Osmanlı topraklarına sığındı"
+   ]
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1406-01-01",
+   "b": "Kara Yûsuf, Celâyirlileri yenip Tebriz'i ele geçirdi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1406-10-15",
+    "b": "Aras kıyısında Ebû Bekir Mirza'ya karşı zafer"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1410-01-01",
+   "b": "Celâyirli Devleti'ni yıkıp Bağdat'ı aldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1410-08-30",
+    "b": "Esed zaferi — Celâyirli Sultan Ahmed idam edildi"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.09,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1420-01-01",
+   "b": "Kara Yûsuf'un ölümüyle oğulları arasında taht kavgaları başladı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1420-11-13",
+    "b": "Kara Yûsuf Ucan'da öldü"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.2,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1438-01-01",
+   "b": "Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1438-04-19",
+    "b": "Cihan Şah tahta çıktı, 'Muzafferüddin' unvanını aldı"
+   },
+   "kapsama": 0.22,
+   "jaccard": 0.14,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1447-01-01",
+   "b": "Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1447-03-13",
+    "b": "Şâhruh'un ölümü — Sultâniye ve Kazvin ilhak edildi"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.09,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1458-01-01",
+   "b": "Timurlu iç kargaşasından yararlanıp Herat'ı kısa süreliğine aldı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "karakoyunlu",
+   "t": "1469-01-01",
+   "b": "Akkoyunlu'ya yenilerek yıkıldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1469-12-19",
+    "b": "Son Hille valisi idam edildi — Irak'ta Akkoyunlu düzeni kuruldu"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.09,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "altinorda",
+   "t": "1242-01-01",
+   "b": "Batu Han, Altın Orda'yı kurdu",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "altinorda",
+   "t": "1380-09-08",
+   "b": "Kulikovo'da Moskova Knezliği'ne yenildi — Rus bağımsızlığının başlangıcı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1380-09-08",
+    "b": "Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.23,
+   "ayni_t_dosyada": [
+    "Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi"
+   ]
+  },
+  {
+   "kunye": "altinorda",
+   "t": "1395-01-01",
+   "b": "Timur'un istilası, Saray tahrip edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1395-01-01",
+    "b": "Timur'un seferleri Saray'ı ve Altın Orda şehirlerini harap etti — Yeni Saray bir daha kurulamadı"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.14,
+   "ayni_t_dosyada": [
+    "Timur'un seferleri Saray'ı ve Altın Orda şehirlerini harap etti — Yeni Saray bir daha kurulamadı"
+   ]
+  },
+  {
+   "kunye": "altinorda",
+   "t": "1441-01-01",
+   "b": "Kırım, Kazan, Astrahan ve Sibir hanlıkları ayrıştı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1441-01-01",
+    "b": "Kırım Hanlığı ayrıldı — Hacı Giray bağımsızlığını ilân etti"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Kırım Hanlığı ayrıldı — Hacı Giray bağımsızlığını ilân etti"
+   ]
+  },
+  {
+   "kunye": "altinorda",
+   "t": "1502-01-01",
+   "b": "Büyük Orda, Kırım Hanlığı tarafından dağıtıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1502-01-01",
+    "b": "Büyük Orda sona erdi — Mengli Giray Saray'ı yıkarak Altın Orda mirasını kapattı"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": [
+    "Büyük Orda sona erdi — Mengli Giray Saray'ı yıkarak Altın Orda mirasını kapattı"
+   ]
+  },
+  {
+   "kunye": "hollanda",
+   "t": "1579-01-23",
+   "b": "Kuzey eyaletleri Utrecht Birliği'ni imzalayıp İspanya'ya karşı askerî-siyasî birlik kurdu; 1581'deki bağımsızlık ilanının hukukî temeli oldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1579-01-23",
+    "b": "Utrecht Birliği — kuzey vilâyetlerinin birleşmesi"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Utrecht Birliği — kuzey vilâyetlerinin birleşmesi"
+   ]
+  },
+  {
+   "kunye": "hollanda",
+   "t": "1581-07-26",
+   "b": "Bağımsızlık ilanı (İspanya'dan ayrılış)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1581-07-26",
+    "b": "Feragat Bildirisi — kralın azledilmesi"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Feragat Bildirisi — kralın azledilmesi"
+   ]
+  },
+  {
+   "kunye": "hollanda",
+   "t": "1602-03-20",
+   "b": "Dağınık ticaret şirketleri birleştirilip Hollanda Doğu Hindistan Şirketi (VOC) kuruldu, Asya'daki ticarî-siyasî gücün temelini attı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1602-03-20",
+    "b": "VOC'nin kurulması — dünyanın ilk anonim şirketi"
+   },
+   "kapsama": 0.12,
+   "jaccard": 0.09,
+   "ayni_t_dosyada": [
+    "VOC'nin kurulması — dünyanın ilk anonim şirketi"
+   ]
+  },
+  {
+   "kunye": "hollanda",
+   "t": "1612-07-06",
+   "b": "Osmanlı kapitülasyonları verildi, elçilik açıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1612-07-06",
+    "b": "Osmanlı ahidnâmesi — Hollanda kapitülasyonları"
+   },
+   "kapsama": 0.4,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": [
+    "Osmanlı ahidnâmesi — Hollanda kapitülasyonları"
+   ]
+  },
+  {
+   "kunye": "hollanda",
+   "t": "1648-01-30",
+   "b": "Vestfalya barışının parçası olan Münster Antlaşması ile İspanya, Felemenk Cumhuriyeti'nin bağımsızlığını resmen tanıdı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1648-01-30",
+    "b": "Münster Antlaşması — bağımsızlığın tanınması"
+   },
+   "kapsama": 0.15,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": [
+    "Münster Antlaşması — bağımsızlığın tanınması"
+   ]
+  },
+  {
+   "kunye": "hollanda",
+   "t": "1780-12-20",
+   "b": "İngiltere, Amerikan Bağımsızlık Savaşı sırasındaki düşman devletlerle ticaretini gerekçe göstererek Hollanda'ya savaş ilan etti; dört yıllık savaş Hollanda'nın deniz gücünü ağır sarstı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "isvec",
+   "t": "1709-07-08",
+   "b": "Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1709-08-08",
+    "b": "XII. Karl, Bender'e geçip Yûsuf Paşa ile görüştü"
+   },
+   "kapsama": 0.29,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": [
+    "Poltava Savaşı — İsveç ordusu yok edildi"
+   ]
+  },
+  {
+   "kunye": "isvec",
+   "t": "1709-08-01",
+   "b": "Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1709-08-08",
+    "b": "XII. Karl, Bender'e geçip Yûsuf Paşa ile görüştü"
+   },
+   "kapsama": 0.09,
+   "jaccard": 0.06,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "isvec",
+   "t": "1714-02-01",
+   "b": "Osmanlı topraklarını terk etti",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1714-07-12",
+    "b": "XII. Karl'a Osmanlı topraklarını terk etme izni verildi"
+   },
+   "kapsama": 0.75,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1370-04-09",
+   "b": "Timur, Semerkant'ta hükümdarlığını ilan etti",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1387-01-01",
+   "b": "İsfahan isyanı bastırılırken şehir yağmalandı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1398-12-17",
+   "b": "Delhi Sultanlığı'nı yenip şehri yağmaladı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1398-01-01",
+    "b": "Hindistan seferine çıkış kararı"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1400-01-01",
+   "b": "Halep ve Şam'ı ele geçirdi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1400-10-01",
+    "b": "Halep'in düşüşü — Memlük ordusu bozguna uğradı"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1402-07-28",
+   "b": "Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1402-07-28",
+    "b": "Ankara Savaşı — Osmanlı'yı Fetret'e sürükledi"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.18,
+   "ayni_t_dosyada": [
+    "Ankara Savaşı — Osmanlı'yı Fetret'e sürükledi"
+   ]
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1405-02-18",
+   "b": "Timur öldü, imparatorluk oğulları arasında paylaşıldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1405-04-01",
+    "b": "Timur sonrası taht mücadelesi başladı"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1409-01-01",
+   "b": "Şâhruh, Herat merkezli olarak devletin başına geçti",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1409-05-01",
+    "b": "Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu"
+   },
+   "kapsama": 0.14,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1449-01-01",
+   "b": "Uluğ Bey (Semerkant kolu) tahta çıktı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1449-10-25",
+    "b": "Uluğ Bey, öz oğlu tarafından öldürüldü"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.22,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1470-01-01",
+   "b": "Hüseyin Baykara, Herat'ta tahta çıktı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "timurlu",
+   "t": "1507-05-01",
+   "b": "Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1507-05-01",
+    "b": "Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi"
+   },
+   "kapsama": 0.44,
+   "jaccard": 0.41,
+   "ayni_t_dosyada": [
+    "Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi"
+   ]
+  },
+  {
+   "kunye": "atina-dukaligi",
+   "t": "1205-01-01",
+   "b": "IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1205-01-01",
+    "b": "Otto de la Roche'un Atina beyi olması — dukalığın kuruluşu"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Otto de la Roche'un Atina beyi olması — dukalığın kuruluşu"
+   ]
+  },
+  {
+   "kunye": "atina-dukaligi",
+   "t": "1311-03-15",
+   "b": "Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1311-03-15",
+    "b": "Katalanlar Atina Düklüğü'nü ele geçirdi"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.15,
+   "ayni_t_dosyada": [
+    "Katalanlar Atina Düklüğü'nü ele geçirdi"
+   ]
+  },
+  {
+   "kunye": "atina-dukaligi",
+   "t": "1388-01-01",
+   "b": "Floransalı Nerio Acciaiuoli, Katalanlardan Atina'yı aldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1388-05-02",
+    "b": "Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.27,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "atina-dukaligi",
+   "t": "1458-06-04",
+   "b": "Fatih tarafından ilhak edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1458-08-01",
+    "b": "Fâtih'in Atina'yı ziyareti ve şehre imtiyaz vermesi"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": [
+    "Akropolis'in teslimi — Atina Dukalığı'nın sonu"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1008-01-01",
+   "b": "III. Bagrat, Kartli ve Abhazya'yı birleştirip Gürcistan Krallığı'nı kurdu",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1121-08-12",
+   "b": "IV. David (Kurucu), Didgori Savaşı'nda büyük Selçuklu-Türkmen ordusunu yendi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1121-08-12",
+    "b": "Didgori Savaşı — IV. David (Kurucu) büyük Selçuklu-Türkmen ordusunu yendi"
+   },
+   "kapsama": 0.9,
+   "jaccard": 0.9,
+   "ayni_t_dosyada": [
+    "Didgori Savaşı — IV. David (Kurucu) büyük Selçuklu-Türkmen ordusunu yendi"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1122-01-01",
+   "b": "Tiflis'i alıp başkent yaptı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1122-01-01",
+    "b": "Tiflis'in alınıp başkent yapılması"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "Tiflis'in alınıp başkent yapılması"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1184-01-01",
+   "b": "Kraliçe Tamar döneminde krallık en geniş sınırlarına ulaştı (altın çağ)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1184-01-01",
+    "b": "Kraliçe Tamar tahta çıktı — altın çağ başladı"
+   },
+   "kapsama": 0.44,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "Kraliçe Tamar tahta çıktı — altın çağ başladı"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1220-01-01",
+   "b": "Moğol istilaları başladı, krallık zayıfladı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1386-01-01",
+   "b": "Timur'un art arda seferleri ülkeyi harap etti",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1386-01-01",
+    "b": "Timur'un birinci Gürcistan seferi"
+   },
+   "kapsama": 0.14,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": [
+    "Timur'un birinci Gürcistan seferi"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1490-01-01",
+   "b": "Krallık Kartli, Kaheti ve İmereti'ye bölündü, Samçhe (Meskheti) atabekliği de ayrıca bağımsızlaştı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1490-01-01",
+    "b": "Krallığın Kartli, Kaheti ve İmereti'ye bölünmesi"
+   },
+   "kapsama": 0.3,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": [
+    "Krallığın Kartli, Kaheti ve İmereti'ye bölünmesi"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1555-05-29",
+   "b": "Amasya Barışı ile Osmanlı-Safevî nüfuz bölgelerine bölündü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1555-05-29",
+    "b": "Amasya Antlaşması — Gürcistan'ın Osmanlı-Safevî nüfuz bölgelerine bölünmesi"
+   },
+   "kapsama": 0.71,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Amasya Antlaşması — Gürcistan'ın Osmanlı-Safevî nüfuz bölgelerine bölünmesi"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1578-01-01",
+   "b": "Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1578-08-09",
+    "b": "Çıldır Zaferi — Osmanlı ordusu Safevî kuvvetlerini yendi"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.1,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1590-03-21",
+   "b": "Ferhad Paşa Antlaşması ile Gürcistan Osmanlı nüfuzuna girdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1590-03-21",
+    "b": "Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı"
+   },
+   "kapsama": 0.71,
+   "jaccard": 0.5,
+   "ayni_t_dosyada": [
+    "Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1762-01-01",
+   "b": "II. Herakli, Kartli ve Kaheti'yi kişisel birlikte topladı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1762-01-08",
+    "b": "II. Herakli, Kartli ve Kaheti'yi tek idare altında birleştirdi"
+   },
+   "kapsama": 0.5,
+   "jaccard": 0.3,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1783-07-24",
+   "b": "Georgievsk Antlaşması ile Kartli-Kaheti Rusya himayesine girdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1783-07-24",
+    "b": "Georgievsk Antlaşması — Kartli-Kaheti Rusya himayesine girdi"
+   },
+   "kapsama": 1,
+   "jaccard": 1,
+   "ayni_t_dosyada": [
+    "Georgievsk Antlaşması — Kartli-Kaheti Rusya himayesine girdi"
+   ]
+  },
+  {
+   "kunye": "gurcistan",
+   "t": "1801-09-12",
+   "b": "Kartli-Kaheti Krallığı Rusya tarafından ilhak edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1801-09-12",
+    "b": "Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı"
+   },
+   "kapsama": 0.57,
+   "jaccard": 0.4,
+   "ayni_t_dosyada": [
+    "Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı"
+   ]
+  },
+  {
+   "kunye": "katalan",
+   "t": "1303-01-01",
+   "b": "Roger de Flor'un Katalan Kumpanyası, Bizans hizmetine Anadolu'da Türklere karşı savaşmak üzere girdi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1303-09-01",
+    "b": "Katalan Kumpanyası'nın Bizans hizmetine girmesi"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "katalan",
+   "t": "1305-04-30",
+   "b": "Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1305-04-30",
+    "b": "Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması"
+   },
+   "kapsama": 0.36,
+   "jaccard": 0.29,
+   "ayni_t_dosyada": [
+    "Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması"
+   ]
+  },
+  {
+   "kunye": "katalan",
+   "t": "1311-03-15",
+   "b": "Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1311-03-15",
+    "b": "Katalanlar Atina Düklüğü'nü ele geçirdi"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.21,
+   "ayni_t_dosyada": [
+    "Katalanlar Atina Düklüğü'nü ele geçirdi"
+   ]
+  },
+  {
+   "kunye": "katalan",
+   "t": "1388-01-01",
+   "b": "Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1388-05-02",
+    "b": "Nerio Acciaiuoli'nin Akropolis'i alması — Katalan devrinin sonu"
+   },
+   "kapsama": 0.18,
+   "jaccard": 0.12,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "naksa-dukaligi",
+   "t": "1207-01-01",
+   "b": "Venedikli Marco Sanudo tarafından kuruldu",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1207-01-01",
+    "b": "Sanudo'nun 'Egeopelagos Dukası' unvanını alması — dukalığın kuruluşu"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Sanudo'nun 'Egeopelagos Dukası' unvanını alması — dukalığın kuruluşu"
+   ]
+  },
+  {
+   "kunye": "naksa-dukaligi",
+   "t": "1537-01-01",
+   "b": "Barbaros Hayreddin Paşa haraca bağladı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1537-11-01",
+    "b": "Barbaros Hayreddin Paşa'nın Kiklad seferi — dukalığın haraca bağlanması"
+   },
+   "kapsama": 0.8,
+   "jaccard": 0.4,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "naksa-dukaligi",
+   "t": "1579-01-01",
+   "b": "Osmanlı tarafından tamamen ilhak edildi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1579-01-01",
+    "b": "Crispo restorasyon teşebbüsünün başarısızlığı — dukalığın sonu"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": [
+    "Crispo restorasyon teşebbüsünün başarısızlığı — dukalığın sonu"
+   ]
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1310-08-15",
+   "b": "St. Jean Şövalyeleri Rodos'u ele geçirdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1310-08-15",
+    "b": "Rodos şehrinin düşüşü — Şövalye Devleti'nin kuruluşu"
+   },
+   "kapsama": 0.2,
+   "jaccard": 0.09,
+   "ayni_t_dosyada": [
+    "Rodos şehrinin düşüşü — Şövalye Devleti'nin kuruluşu"
+   ]
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1480-05-23",
+   "b": "Fatih'in kuşatması püskürtüldü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1480-08-17",
+    "b": "Kuşatmanın kaldırılması — Fâtih'in tek başarısız büyük kuşatması"
+   },
+   "kapsama": 0.67,
+   "jaccard": 0.25,
+   "ayni_t_dosyada": [
+    "Fâtih'in Rodos kuşatmasının başlaması"
+   ]
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1522-12-25",
+   "b": "Kanunî'nin kuşatması sonrası ada teslim edildi; tarikat 1530'a dek topraksız kaldı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1522-06-26",
+    "b": "Kanûnî'nin Rodos seferinin adaya varması"
+   },
+   "kapsama": 0.17,
+   "jaccard": 0.13,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1530-03-24",
+   "b": "V. Karl'ın bağışıyla Malta'ya yerleşti (Malta Şövalyeleri olarak devam)",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1530-03-24",
+    "b": "Malta ve Trablusgarp'ın Şarlken tarafından tarikata verilmesi"
+   },
+   "kapsama": 0.14,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": [
+    "Malta ve Trablusgarp'ın Şarlken tarafından tarikata verilmesi"
+   ]
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1565-05-18",
+   "b": "Büyük Malta Kuşatması'nda Osmanlı ordusunu püskürttü",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1565-05-18",
+    "b": "Büyük Malta Kuşatması'nın başlaması"
+   },
+   "kapsama": 0.43,
+   "jaccard": 0.33,
+   "ayni_t_dosyada": [
+    "Büyük Malta Kuşatması'nın başlaması"
+   ]
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1571-10-07",
+   "b": "İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katıldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1571-10-07",
+    "b": "İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katılım"
+   },
+   "kapsama": 0.86,
+   "jaccard": 0.75,
+   "ayni_t_dosyada": [
+    "İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katılım"
+   ]
+  },
+  {
+   "kunye": "rodos-sovalyeleri",
+   "t": "1798-06-12",
+   "b": "Napolyon'un Mısır seferi yolunda adayı işgaliyle tarikat topraksız kaldı, egemen devlet olarak sona erdi",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1798-06-12",
+    "b": "Napolyon'un Malta'yı alması — egemen devletin sonu"
+   },
+   "kapsama": 0.14,
+   "jaccard": 0.11,
+   "ayni_t_dosyada": [
+    "Napolyon'un Malta'yı alması — egemen devletin sonu"
+   ]
+  },
+  {
+   "kunye": "safevi",
+   "t": "1501-07-01",
+   "b": "Şah İsmâil Tebriz'i aldı, On İki İmam Şiîliğini resmî mezhep ilan etti",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1501-04-01",
+    "b": "Şarur Muharebesi — Akkoyunlu Elvend Mirza'nın yenilgisi"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1503-01-01",
+   "b": "Diyarbekir, Bağdat ve Musul ele geçirildi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1503-06-01",
+    "b": "Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı"
+   },
+   "kapsama": 0,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1514-08-23",
+   "b": "Çaldıran'da Yavuz'a yenildi; doğu Anadolu kaybedildi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1524-05-23",
+   "b": "Şah İsmâil öldü, I. Tahmasb tahta çıktı",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1524-01-01",
+    "b": "Şah İsmail'in son yılları — içe kapanma"
+   },
+   "kapsama": 0.33,
+   "jaccard": 0.2,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1555-05-29",
+   "b": "Amasya Barışı — Irak-ı Arab Osmanlı'da kaldı",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1587-01-01",
+   "b": "Şah I. Abbas tahta çıktı, devleti reformlarla güçlendirdi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1590-03-21",
+   "b": "Ferhad Paşa Antlaşması — Tebriz, Şirvan ve Gürcistan Osmanlı'da",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1603-01-01",
+   "b": "Şah Abbas, Osmanlı'dan Tebriz ve Revan'ı geri aldı",
+   "sinif": "AYNI_T",
+   "en_yakin": {
+    "t": "1603-10-21",
+    "b": "Tebriz'in on sekiz yıl sonra geri alınması"
+   },
+   "kapsama": 0.25,
+   "jaccard": 0.17,
+   "ayni_t_dosyada": [
+    "Şeyh Lütfullah Camii'nin inşasına başlanması"
+   ]
+  },
+  {
+   "kunye": "safevi",
+   "t": "1639-05-17",
+   "b": "Kasr-ı Şirin Antlaşması — bugünkü İran sınırının temeli",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1722-10-23",
+   "b": "Afgan (Gilzai) istilası, İsfahan düştü, Şah Hüseyin tahttan indirildi",
+   "sinif": "AYNI_YIL",
+   "en_yakin": {
+    "t": "1722-07-01",
+    "b": "İsfahan kuşatması sırasında büyük açlık"
+   },
+   "kapsama": 0.11,
+   "jaccard": 0.08,
+   "ayni_t_dosyada": []
+  },
+  {
+   "kunye": "safevi",
+   "t": "1736-03-08",
+   "b": "Nadir Şah, Safevî hanedanına resmen son verdi",
+   "sinif": "YOK",
+   "en_yakin": null,
+   "kapsama": -1,
+   "jaccard": 0,
+   "ayni_t_dosyada": []
+  }
+ ]
+}
