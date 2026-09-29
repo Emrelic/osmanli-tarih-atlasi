@@ -164640,5 +164640,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5467",
+  "zaman": "2026-09-29 17:17",
+  "kimden": "KRONO-AMERIKA-K-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · KRONO-AMERIKA-K-0929 · commit 7e188b32 · rapor denetim/KRONO-AMERIKA-K-0929.md ① ÖLÇTÜM. 203 grup (284 yerleşim) → GERÇEK 60 (%30) = 30 künye-içi kronolojide ZATEN VAR + 30 maddem; ARTEFAKT 104 (%51, nokta doğumu: kale/misyon/ticaret postu `s:` penceresi açıldı, egemenlik devri yok); ÖLÇÜLEMEDİ 39 (%19; 35'i yıl-temsilî). Devir grupları 37: 28 künye-içi kapalı · 4 yazıldı · 5 ölçülemedi. 🔴 Defter künye-içi kronolojiyi GÖRMÜYOR (28/37 devir grubu). Defterin 17:03 yeniden ölçümü 203→173: kapanan 30 grubun 28'i tam benim madde günü+yeri (bağımsız teyit). YAZDIM 51 madde (33 kuzey + 18 orta; 38 kuruluş·4 antlaşma·4 toprak·2 idari·2 işgal·1 savaş). İlk taslak 61: 8'i zaten var çıktı (Québec 1608, Utrecht, Havana 1762, Guadalupe 1848, Dolores 1810, 1824 Anayasa, Haiti 1804, Vargas 1692) ve ATILDI, 2'si odaksız (ODAKSIZ tavanını şişirir) elendi. Denetim: node --check ✓ · denetle_kronoloji 2 dosya temiz · odak_olc 51 madde KONUMLU 41/KUTULU 10/ODAKSIZ 0/ÇÖZÜLMEYEN 0 · denetle.py tek koşu: Değişmez 1/2/2s/2i ✓ (2s 180 açık, tavan 195); uyarı YIL-TEMSİLÎ BORÇ 158>151 — benim değil (yerleşim yazmadım, dosyalarım bağlı değil). 🔴 BULGULAR: (a) YANLIŞ SAHİPLİK atlasta: Houston 1836-01-01 'abd' (1845'e dek Teksas Cum.) · Salt Lake City 1847 'abd' (Meksika, 1848'e dek) · Biloxi+Mobile 1803-12-20 'abd' (Batı Florida; ABD 1812-13; ayrıca İngiliz Batı Florida evresi atlanmış) · St. Louis 1803 (gerçek 10 Mart 1804 — atlasın kendi notu 'DOĞRULANMADI' diyordu, ben doğruladım). (b) 10 noktada `s:` penceresi yıl işareti, günü kaynaklı biliniyor (Antigua, Louisville, Cincinnati, Fort Vancouver/Victoria, Seattle, Denver, Cheyenne, Dawson, St. Louis): YERLESIM-ONERI §A tablosu. (c) Yerli künye bağlamaları yanlış: Fort Laramie 1851 devir DEĞİL · Treaty 8 Alaska Dene (4) ve Colville Lake (Treaty 11) · Treaty 6 Ontario/Québec (4) · Ojibwe Keweenaw ingiliz'e bağlı · Batı Şoşoni Fort Bridger'da taraf değil: DUZELTME D5-D9. (d) Tarihi kusurlar: Oregon 1846-01-01→15 Haziran; pueblo künyesi 1692-08-01→09-12. ② BULAMADIM. Aztek fetih günleri (Xochimilco/Chalco/Tepeaca) bulunamadı, YAZILMADI. Biloxi/Mobile'in İngiliz/İspanyol ara evre günleri doğrulanmadı. TDV arandı: 'Meksika' maddesi çıkmadı; Amerika + ABD maddeleri var (1803/1819/1846/1848 tarihleriyle tutarlı). 🔴 Kaynak sayfalarının TAM metni açılmadı; tarihler arama özetlerinde teyit edildi (yalnız TDV ABD sayfası okundu); 15 maddenin kaynak alanı bunu açıkça yazar. Öngörümü ölçümden önce YAZMADIM (eksik). ③ İSTİYORUM. (1) index.html'e 2 satır (kronoloji_cok_kuzey_amerika.js · kronoloji_cok_orta_amerika.js) + paketle.py yenile. (2) Karar: 104 nokta-doğumu grubu için defterde 'nokta doğumu' kovası (öneri b; madde yazmak 'Fort X kuruldu' gürültüsü) — YERLESIM-ONERI §C. (3) yeni-ispanya künyesinin f'ini 1521-08-13'e çek (D205 ②): Chiapa 1528 ve Puebla 1531 maddeleri o zamana dek HİÇBİR künyede görünmez (M-5416 ② geriye bağlama yasak) — KUNYE.md §1. (4) YERLESIM-ONERI §A+§B ve DUZELTME D1-D10 hükmü. (5) Defter kunyede_kapali künye-içi kronolojiyi saysın. Dosyalar: data/kronoloji_cok_kuzey_amerika.js, data/kronoloji_cok_orta_amerika.js, denetim/KRONO-AMERIKA-K-0929{.md,-YERLESIM-ONERI.md,-KUNYE.md,-DUZELTME.md,-SINIF.json,-TABAN-203.json}, denetim/ARAC-KRONO-AMERIKA-K-0929-{URET,SINIF,ONERI}.py. Bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
