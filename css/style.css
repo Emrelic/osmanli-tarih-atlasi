@@ -193,6 +193,13 @@ body {
   margin-top: 4px;
   display: flex;
   flex-wrap: wrap;
+  /* 🔴 29 Eylül 2026 — `align-items` EKLENDİ (ARAYUZ-SADELESTIR-0929).
+     Varsayılan `stretch` idi ve dört düğme silinene kadar görünmüyordu:
+     satırı beş düğme paylaşırken hepsi aynı boydaydı. Geriye tek düğme
+     (`📚 Dizin`) kalınca o, yanındaki `#katman-grup` bloğunun BOYUNA
+     UZADI — ekranda ölçüldü, 9 satırlık krem bir dikdörtgen. Kusur
+     silmekten değil, hiç yazılmamış bir hizadan geldi. */
+  align-items: flex-start;
   gap: 6px;
   max-width: min(520px, calc(100vw - 16px));
   background: #3a0f18;
@@ -202,14 +209,12 @@ body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
 #menu-butonlar.gizli { display: none; }
-/* 🔴 21 Eylül 2026 (DALGA-0074, 1.MURAT sevki M-4897) — `#btn-koridor` ÜÇ
-   kümenin de DIŞINDAYDI: 4 Eylül'de menüye eklenirken hiçbirine yazılmamış.
-   Sonucu ölçüldü (canlı sayfa): düğme tarayıcının varsayılan üslubundaydı ve
-   `.etkin` sınıfının HİÇ KARŞILIĞI YOKTU — js/app.js:11058 o sınıfı sadıkça
-   açıp kapatıyor, ekranda hiçbir şey değişmiyordu. Yani yalnız "görünüm
-   tutarsızlığı" değil, DURUMU GÖSTERMEYEN bir durum düğmesiydi. */
-#btn-dizin, #btn-tamekran, #btn-cografya, #btn-motorhat, #btn-verisiniri,
-#btn-koridor {
+/* 🔴 29 Eylül 2026 (ARAYUZ-SADELESTIR-0929) — dört düğme kaldırıldı,
+   üsluplarıyla birlikte: `#btn-cografya` `#btn-motorhat` `#btn-verisiniri`
+   `#btn-koridor`. `.etkin` kuralı da gitti; artık DURUM taşıyan düğme YOK
+   (durumu katman kutuları ve `#altlik-sec` taşıyor — orada durum kutunun
+   kendisidir, ayrıca boyanması gerekmez). */
+#btn-dizin, #btn-tamekran {
   background: #f3e6c8;
   border: 1px solid var(--altin);
   border-radius: 6px;
@@ -218,18 +223,7 @@ body {
   cursor: pointer;
   white-space: nowrap;
 }
-#btn-dizin:hover, #btn-tamekran:hover,
-#btn-cografya:hover, #btn-motorhat:hover,
-#btn-verisiniri:hover, #btn-koridor:hover { background: #ffe9a8; }
-/* Açık katman görünür olmalı: bu düğmeler bir DURUM taşıyor, komut değil —
-   kullanıcı hangi katmanın açık olduğunu düğmeye bakarak bilmeli. */
-#btn-cografya.etkin, #btn-motorhat.etkin, #btn-verisiniri.etkin,
-#btn-koridor.etkin {
-  background: var(--altin);
-  color: #2a0a10;
-  font-weight: 600;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.25);
-}
+#btn-dizin:hover, #btn-tamekran:hover { background: #ffe9a8; }
 #btn-tamekran { padding: 3px 8px; font-size: 14px; }
 
 /* 🔴 DALGA-0074 / H-0001 · H-0003 (21 Eylül 2026) — BUTONLAR alanına taşınan
@@ -2740,6 +2734,20 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 #katman-grup label:hover { background: rgba(247, 241, 227, 0.09); }
 #katman-grup input { margin: 0; cursor: pointer; }
+/* ① Altlık seçicisi — kutuların hizasında dursun, satırı büyütmesin.
+   `span { flex: 1 1 auto }` etiketi sola, seçiciyi sağa yaslıyor. */
+#katman-grup select {
+  flex: 0 0 auto;
+  max-width: 154px;
+  font-size: 11px;
+  padding: 1px 3px;
+  border: 1px solid rgba(247, 241, 227, 0.28);
+  border-radius: 3px;
+  background: rgba(20, 12, 10, 0.55);
+  color: #f7f1e3;
+  cursor: pointer;
+}
+#katman-grup .secici-satir { cursor: default; }
 #katman-grup span { flex: 1 1 auto; }
 
 /* katman sayısı — bilgi, gürültü değil: en küçük punto, en düşük ağırlık */

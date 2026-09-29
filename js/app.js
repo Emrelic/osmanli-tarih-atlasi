@@ -1609,18 +1609,18 @@ function veriSiniriDogrula() {
                  "). uret_petek.py'deki BOLGE değişmiş olabilir — js/app.js güncellenmeli.");
   }
 }
-function veriSiniriKur() {
-  var v = VERI_SINIRI;
-  harita.addSource("veri-siniri", { type: "geojson", data: {
-    type: "FeatureCollection", features: [{ type: "Feature", properties: {},
-      geometry: { type: "LineString", coordinates: [
-        [v[0], v[1]], [v[2], v[1]], [v[2], v[3]], [v[0], v[3]], [v[0], v[1]]] } }] } });
-  harita.addLayer({ id: "veri-siniri-cizgi", type: "line", source: "veri-siniri",
-    layout: { visibility: "none", "line-cap": "round" },
-    paint: { "line-color": "#5b6b7a", "line-width": 2,
-             "line-dasharray": [6, 2, 0.5, 2], "line-opacity": 0.75 } });
-  veriSiniriDogrula();
-}
+// 🔴 29 Eylül 2026 — `veriSiniriKur()` (kaynak + `veri-siniri-cizgi` katmanı)
+// KALDIRILDI. Doğduğunda `VERI_SINIRI` `[-12, 1.5, 62, 62]` idi ve gerçek bir
+// soruyu cevaplıyordu: Buhara 64,4°D ve Tromsø 69,6°K kutunun DIŞINDAYDI,
+// kullanıcı beş kez "burası neden boş" diye sordu. Bugün ölçüm:
+//     VERI_SINIRI = [-180, -60, 180, 85]   ⇒  BÜTÜN DÜNYA
+// Yani çizgi artık haritanın kendi kenarını çiziyordu; açıkladığı bir boşluk
+// KALMAMIŞTI. Ekranda duran ama hiçbir şey söylemeyen bir işaret, işaretsiz
+// ekrandan kötüdür — okuru orada bir sınır olduğuna inandırır.
+// ⚠️ `veriSiniriDogrula()` DURUYOR ve hâlâ çağrılıyor: o çizgiyi değil,
+//    `VERI_SINIRI` ile altlık kutusunun UYUŞUP UYUŞMADIĞINI ölçer. Katman
+//    gitti diye o denetim gitmez — kutu bir gün yeniden daralırsa (kademeli
+//    kapsam, CLAUDE.md §6) konsolda görünür ve çizgi tek satırla geri gelir.
 
 // ═══════════════════════════════════════════════════════════════════════
 // NEHRİ DEVLET DOLGULARININ ÜSTÜNE AL — 5 Eylül 2026, KÜRE GÖRÜNÜM
@@ -1656,25 +1656,91 @@ function nehriUsteAl() {
   return 0;
 }
 
-function altlikGoster(grup, acik) {
-  ALTLIK_KATMAN[grup].forEach(function (k) {
-    if (harita.getLayer(k.id))
-      harita.setLayoutProperty(k.id, "visibility", acik ? "visible" : "none");
+// 🔴 29 Eylül 2026 — `altlikGoster(grup, acik)` YERİNE GEÇTİ (ARAYUZ-SADELESTIR-0929).
+// Eskisi iki ayrı denetimden biriydi: `🗺 Coğrafya` düğmesi onu çağırıyor,
+// `① Coğrafya` kutusu ise AYNI katmanları kendi başına açıp kapatıyordu.
+// Ölçülen sonucu: düğmeye iki kez basınca kutu İŞARETLİ kalıyor ama katmanlar
+// "none" oluyordu — kutu yalan söylüyordu. Artık TEK KAPI var: `#altlik-sec`.
+//
+// Üç şık ve karşılıkları:
+//   "esri"  → Esri rasteri AÇIK · g-kara/g-gol/g-dag KAPALI (zaten rasterin
+//             ALTINDALAR, görünmezler) · g-nehir AÇIK
+//   "bizim" → raster KAPALI · dördü de AÇIK (Kademe 3'ün provası)
+//   "yok"   → raster KAPALI · dördü de KAPALI (yalnız deniz + siyasî katmanlar)
+//
+// 🔴 `g-nehir` "esri"de NİÇİN AÇIK: 5 Eylül'de `nehriUsteAl()` onu siyasî
+//    dolguların ÜSTÜNE taşıdı (`BULGU-DERE-CAY-0905.md`: 1454 nehir çiziliyor
+//    ve hiçbiri görünmüyordu). Bugünkü yayının görüntüsü "Esri + bizim
+//    nehirlerimiz"dir. Üç şıkka geçerken onu söndürmek sadeleştirme değil
+//    GERİLEME olurdu — ve kimse "nehirler nereye gitti" diye sorana kadar
+//    fark edilmezdi.
+// 🔴 `zemin` ÜÇ ŞIKTA DA AÇIK: o bir `background` katmanı ve DENİZ rengidir.
+//    Eski `① Coğrafya` kutusunun kalıbı (`^(zemin|g-)`) onu da kapsıyordu.
+var ALTLIK_KIP = "esri";
+
+function altlikKip(kip) {
+  if (["esri", "bizim", "yok"].indexOf(kip) < 0) kip = "esri";
+  ALTLIK_KIP = kip;
+  var acikSayi = 0;
+  ALTLIK_KATMAN.a.forEach(function (k) {
+    if (!harita.getLayer(k.id)) return;
+    var ac = (kip === "bizim") || (kip === "esri" && k.id === "g-nehir");
+    harita.setLayoutProperty(k.id, "visibility", ac ? "visible" : "none");
+    if (ac) acikSayi++;
   });
-  if (grup === "a" && harita.getLayer("altlik")) {
-    harita.setLayoutProperty("altlik", "visibility", acik ? "none" : "visible");
-    // 🔴 KUTUYU DA SENKRONLA — yoksa seçici bu kararı SESSİZCE geri alır.
-    //    Ölçüldü 5 Eylül: düğmeye bas → altlik "none" ✓ · sonra herhangi
-    //    bir kutuya dokun → altlik "visible" 🔴, düğme HÂLÂ "etkin".
-    //    İki denetim aynı katmana sahipti; artık ikisi TEK durumu paylaşıyor.
-    var kutu = document.querySelector('input[data-katman="altlik"]');
-    if (kutu) kutu.checked = !acik;
+  if (harita.getLayer("altlik")) {
+    harita.setLayoutProperty("altlik", "visibility", kip === "esri" ? "visible" : "none");
+    if (kip === "esri") acikSayi++;
   }
+  var rozet = document.getElementById("kat-sayi-altlik");
+  if (rozet) rozet.textContent = acikSayi;
+  return acikSayi;
 }
+
+// 🔴 MOTOR TANI HATLARI — panelden TANIYA çekildi (Emre, 29 Eylül 2026).
+// Kutusu kaldırıldı; kapısı burası. `?tani=1` ile açılışta, ya da konsoldan.
+// ⚠️ Katmanlar `altlikKur()`da `visibility:"none"` ile kuruluyor ⇒ varsayılan
+//    KAPALI ve bu işlev çağrılmazsa öyle kalır (sessiz açılma riski YOK).
+window.atlasTani = function (ac) {
+  var a = (ac === undefined) ? true : !!ac;
+  var n = 0;
+  ALTLIK_KATMAN.b.forEach(function (k) {
+    if (!harita.getLayer(k.id)) return;
+    harita.setLayoutProperty(k.id, "visibility", a ? "visible" : "none");
+    n++;
+  });
+  try { tanilejantiGuncelle(a); } catch (e) { /* lejant henüz kurulmadı */ }
+  return (a ? "motor tanı hatları AÇIK · " : "motor tanı hatları kapalı · ")
+         + n + " katman (g-nehir-motor camgöbeği · g-sirt-motor turuncu)";
+};
 
 harita.on("load", function () {
   altlikKur();
-  veriSiniriKur();
+  // 🔴 SIRA ÖLÇÜLDÜ (29 Eylül 2026) — bu satır bir tedbir değil, bir ONARIM.
+  // `altlikKur()` katmanları `visibility:"none"` ile kurar. `#altlik-sec`in
+  // `styledata` dinleyicisi açılışta ÇALIŞIYOR ama bu satırdan ÖNCE: kipi
+  // uyguluyor, sonra `altlikKur()` katmanları yeniden "none" yapıyor ve
+  // üstüne yeni bir `styledata` gelmiyor. Sonuç ekranda ölçüldü:
+  //     seçici "Esri" diyor · `g-nehir` = "none"  ⇒ SEÇİCİ YALAN SÖYLÜYOR
+  // Yani bugün sildiğimiz kusurun (kutu bir şey der, katman başka) tıpatıp
+  // aynısını yeni seçicide üretmiştik. Katmanları KURAN yer, o anki kipi
+  // UYGULAMAK zorundadır — arada geçen hiçbir olaya güvenilmez.
+  // ⚠️ `harita.isStyleLoaded()` bu anda **false** döner (ölçüldü); "stil
+  //    hazır mı" diye sorup beklemek bu yüzden çare DEĞİLDİ.
+  altlikKip((document.getElementById("altlik-sec") || {}).value || "esri");
+  // 🔴 MOTOR TANI — `?tani=1` kapısı DA BURADA, aynı sebeple. İlk yazışında
+  // `harita.once("idle", …)` kullanılmıştı; ölçüldü: **hiç ateşlemiyor**.
+  // Bu atlasta stil sürekli tazeleniyor (`isStyleLoaded()` açılışta false),
+  // yani "sakinleşince yap" demek "hiç yapma" demek. Katmanlar bir satır
+  // yukarıda kuruldu; doğru an BU an.
+  // Öteki kapı konsol: `atlasTani()` / `atlasTani(false)`.
+  (function () {
+    var p = new URLSearchParams(location.search).get("tani");
+    if (p === "1" || p === "acik") {
+      try { console.info("Atlas: " + window.atlasTani(true)); } catch (e) { }
+    }
+  })();
+  veriSiniriDogrula();
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
   // ═════════════════════════════════════════════════════════════════════
@@ -8300,7 +8366,7 @@ function kaynakliHalkaAyarKur() {
   if (!menu || document.getElementById("ayar-halka")) return;
   var lab = document.createElement("label");
   lab.title = "Bir kaynağın belli bir tarihte bir devlete ait gösterdiği yerler, o devletin koyu harita renginde halka ile işaretlenir. Tıklayınca kaynak ve alıntı.";
-  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>⑧ Kaynakla kesinleşmiş sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
+  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>⑨ Kaynakla kesinleşmiş sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
   menu.insertBefore(lab, document.getElementById("katman-not"));
   var kutu = lab.querySelector("input");
   var kayitli = null;
@@ -11491,48 +11557,21 @@ document.getElementById("bolge").addEventListener("change", function () {
   harita.fitBounds(b, { padding: 40, duration: 850 });
 });
 
-// Coğrafya katmanları — iki grup AYRI AYRI açılır (birlikte açılırsa
-// aralarındaki fark kaybolur ve bütün teşhis değeri o farkta).
-[["btn-cografya", "a"], ["btn-motorhat", "b"]].forEach(function (c) {
-  var dugme = document.getElementById(c[0]), acik = false;
-  dugme.addEventListener("click", function () {
-    acik = !acik;
-    altlikGoster(c[1], acik);
-    dugme.classList.toggle("etkin", acik);
-  });
-});
-
-// Veri sınırı — varsayılan KAPALI. Atlasın kendisi değil, atlasın NEREDE
-// BİTTİĞİNİ söyleyen bir işaret; sürekli açık dursa haritayı çerçeveler.
-(function () {
-  var d = document.getElementById("btn-verisiniri");
-  if (!d) return;
-  var acik = false;
-  d.addEventListener("click", function () {
-    acik = !acik;
-    if (harita.getLayer("veri-siniri-cizgi"))
-      harita.setLayoutProperty("veri-siniri-cizgi", "visibility", acik ? "visible" : "none");
-    d.classList.toggle("etkin", acik);
-  });
-})();
-
-// Koridor ağı — varsayılan KAPALI, "Veri sınırı" ile aynı desende.
-// Sürekli açık dursa haritayı ağla örterdi; menzil yolları bir ARKA PLAN
-// bilgisidir, atlasın kendisi değil.
-// ⚠️ Düğme kapalıyken de `koridorGuncelle` çalışır (kaynak taze kalsın,
-// açılınca doğru tarihi göstersin); görünürlük yalnız layout ile açılır.
-(function () {
-  var d = document.getElementById("btn-koridor");
-  if (!d) return;
-  d.addEventListener("click", function () {
-    KORIDOR.acik = !KORIDOR.acik;
-    ["koridor-kenar-cizgi", "koridor-dugum-daire"].forEach(function (k) {
-      if (harita.getLayer(k))
-        harita.setLayoutProperty(k, "visibility", KORIDOR.acik ? "visible" : "none");
-    });
-    d.classList.toggle("etkin", KORIDOR.acik);
-  });
-})();
+// 🔴 29 Eylül 2026 — DÖRT DÜĞME KANCASI SİLİNDİ (ARAYUZ-SADELESTIR-0929):
+// `btn-cografya` · `btn-motorhat` · `btn-verisiniri` · `btn-koridor`.
+// Dördü de katman kutularıyla AYNI katmanları yönetiyordu ve üçü ölçülebilir
+// biçimde bozuktu. En öğretici olanı "ölü ilk basış"tı ve sebebi şu desendi:
+//     var acik = false;                     // ← düğmenin KENDİ hafızası
+//     dugme.addEventListener("click", ...)  // acik = !acik
+// Düğme katmanın GERÇEK durumunu hiç okumuyor, kendi sayacını çeviriyordu.
+// Kutu katmanı açtıysa `acik` hâlâ `false` olduğu için ilk basış "aç" diyor,
+// katman zaten açık olduğundan EKRANDA HİÇBİR ŞEY DEĞİŞMİYOR — ama düğme
+// "etkin" yanıyor. Kullanıcı bozuk sanıyor; ikinci basışta kapanıyor.
+// 📌 Ders (dersler/ için aday): bir durum düğmesi kendi hafızasını değil
+//    DENETLEDİĞİ ŞEYİ okumalı. İki denetim varsa hafıza kaçınılmaz olarak
+//    ayrışır; tek denetim varsa hafızaya zaten gerek yoktur.
+// ⚠️ `KORIDOR.acik` değişkeni DURUYOR — `koridorGuncelle()` onu okuyor.
+//    Artık `③ Yollar ve koridorlar` kutusu yazıyor (bkz. katmanSeciciKur).
 
 // p2/H-0010 — "butonları aç": Dizin/Coğrafya/Motor hatları/Veri sınırı/Tam
 // ekran düğmeleri artık üst barda tek tek durmuyor, bu düğmenin altına asılan
@@ -14433,17 +14472,15 @@ var IPUCU_EK = [
   [".ob-madde-gorsel-kaynak", "Görselin kaynağı ve lisansı (yeni sekmede açılır)."],
   ["#ob-kaynakca a", "Kaynağı yeni sekmede açar."],
   // ── ① ☰ Butonlar — katman kutuları (10) ─────────────────────────────
-  ["label:⓪", "Fizikî altlık: uydu/fotoğraf zeminini açar veya kapatır."],
-  ["label:①", "Coğrafya katmanı: kara, göl, nehir ve dağlar."],
+  ["label:①", "Altlık: siyasî katmanların altında ne görünsün — Esri fotoğrafı, bizim coğrafyamız (kara·göl·nehir·dağ) ya da düz zemin."],
   ["label:②", "Yerleşim yerleri: şehir ve kasaba noktaları ile adları."],
-  ["label:③b", "Harekât okları: seferlerin ve ordu hareketlerinin okları."],
   ["label:③", "Yollar ve koridorlar: menzil yolları ve durakları."],
-  ["label:④b", "B görünümü — dolgu katmanı (verisi üretilmemişse pasif kalır)."],
-  ["label:④c", "B görünümü — yürüyüş ufku: sınırların kaç günlük yürüyüşle hesaplanacağı."],
-  ["label:④", "Siyasî yapılar: devletlerin boyalı toprakları."],
-  ["label:⑤", "Yumuşak renk: devlet renkleri saydamlaşır, coğrafya alttan görünür."],
-  ["label:⑥", "Motor tanı hatları: haritayı üreten motorun kullandığı hatlar (kesikli)."],
-  ["label:⑦", "Küre görünümü: dünyayı düz harita yerine yuvarlak gösterir."],
+  ["label:④", "Harekât okları: seferlerin ve ordu hareketlerinin okları."],
+  ["label:⑤", "Siyasî yapılar: devletlerin boyalı toprakları."],
+  ["label:⑥", "B görünümü — dolgu katmanı (verisi üretilmemişse pasif kalır)."],
+  ["label:⑦", "Yumuşak renk: devlet renkleri saydamlaşır, coğrafya alttan görünür."],
+  ["label:⑧", "Küre görünümü: dünyayı düz harita yerine yuvarlak gösterir."],
+  ["label:⑨", "Kaynakla kesinleşmiş sahiplik halkaları: kaynağı bulunmuş şehirlerde devlet renginde halka."],
   // ── ② ⚙ Ayarlar (22) — metinler pencerenin kendi açıklama satırlarından ─
   ["#duygu-ac", "Duygu emojileri: maddelerin yanında okuyanın tepkisini gösterir (kaynağın hükmü değildir)."],
   ["#dunya-ac", "Dünya olayları: Osmanlı'yla doğrudan ilgisi olmayan dünya tarihi olaylarını da kronolojiye katar (deneysel)."],
@@ -15189,7 +15226,7 @@ var KATMAN_KUMESI = [
     // görünürlüğe değil VERİYE bakar (bkz. kaynakliHalkaAyarKur).
     // 🆕 `antlasma-fark` — PAKET-UI2 antlaşma öncesi/sonrası vurgusu; devrin
     // yerini aldığı için onunla AYNI kovada (sınıflanmamış uyarısı da kapanır).
-    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri|hukuki-sinir-|halka-|antlasma-fark|isyan-)/ }
+    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|hukuki-sinir-|halka-|antlasma-fark|isyan-)/ }
 ];
 
 function katmanSinifla() {
@@ -15318,7 +15355,15 @@ function katmanSeciciKur() {
       // aynısı, ikinci kez soruldu). Katman açıkken haritada da KISA bir not
       // görünsün diye ayrı, küçük bir lejant eklendi (devir/isgal-lejant ile
       // AYNI desen — yalnız katman açıkken var, `:empty` ile gizli).
-      if (a === "tani") tanilejantiGuncelle(acik);
+      // 🔴 29 Eylül 2026 — `🐎 Koridor ağı` düğmesi silinince `KORIDOR.acik`
+      // bayrağını yazan kimse kalmıyordu; `koridorGuncelle()` onu OKUYOR
+      // (kapalıyken kaynağı tazelemiyor). Kutu artık bayrağı da yazıyor —
+      // yoksa katman görünür olur ama kaynağı BAYAT kalırdı: "açtım, yanlış
+      // tarihi gösteriyor" sınıfı bir kusur, ve sessiz.
+      if (a === "yollar" && window.KORIDOR) {
+        KORIDOR.acik = acik;
+        if (acik) { try { koridorGuncelle(suanki); } catch (e) { /* stil hazır değil */ } }
+      }
 
       var say = document.getElementById("kat-sayi-" + a);
       // ARAYUZ-0077 H-78:1 — veri yokken rozet KATMAN sayısını ("2") yazıp
@@ -15331,19 +15376,41 @@ function katmanSeciciKur() {
       }
     });
 
-    // 🔴 TANIMADIĞINI SAY VE BAS — sessizce eleme.
-    if (not) {
-      not.textContent = kova.siniflanmamis.length
-        ? "⚠️ " + kova.siniflanmamis.length + " katman hiçbir kovaya girmedi"
-        : "";
-      not.title = kova.siniflanmamis.join(" · ");
-    }
+    // 🔴 29 Eylül 2026 — UYARI ARTIK YALNIZ KONSOLA. Panelde kırmızı bir
+    // dipnot olarak duruyordu ("⚠️ 20 katman hiçbir kovaya girmedi") ve
+    // Emre'nin ekranında göründü. Yirmisi de teşhis edildi ve HİÇBİRİ
+    // gerçekten denetimsiz değil:
+    //     9 × d-sinir-hat-*      → alttaki "D SINIRI" satırı yönetir
+    //     6 × guven-*            → `guvenStilUygula()` (GUVEN_STIL)
+    //     3 × antlasma-harita-*  → js/antlasma_harita.js kendi anahtarı
+    //     2 × olcum-*            → sağ tık cetveli; geçici, boş durur
+    // ⇒ Bu bir GELİŞTİRİCİ uyarısıdır, son kullanıcının panelinde işi yok:
+    //   okura anlayamayacağı bir kusur bildiriyor ve anlayabileceği bir şey
+    //   söylemiyor. `not` alanı duruyor (stil hazır değilken "⏳" yazıyor).
+    // ⚠️ SUSTURULMADI, TAŞINDI: konsol satırı aynen kalıyor. Gerçekten
+    //    kovasız bir katman doğarsa yine görünür — ama bize görünür.
+    if (not) not.textContent = "";
     if (kova.siniflanmamis.length) {
       console.warn("Atlas katman seçici: SINIFLANMAMIŞ " + kova.siniflanmamis.length
                    + " katman — " + kova.siniflanmamis.join(", ")
-                   + " (kovalara girmedi; düğme onları AÇIP KAPATAMAZ)");
+                   + " (kovalara girmedi; katman kutuları onları AÇIP KAPATAMAZ)");
     }
   }
+
+  // 🔴 ALTLIK ÜÇ ŞIKLI SEÇİCİ (29 Eylül 2026) — `input[data-katman]`
+  // döngüsünün DIŞINDA, çünkü artık kutusu yok: tek kapı `#altlik-sec`.
+  // ⚠️ `change` `#katman-grup`tan baloncuklanıp `uygula()`yı da tetikler;
+  //    o zararsız (döngü altlık/coğrafya kutusu bulamaz, dokunmaz).
+  (function altlikSeciciKur() {
+    var sec = document.getElementById("altlik-sec");
+    if (!sec) return;                      // markup yoksa sessizce geç
+    function uygulaAltlik() { altlikKip(sec.value); }
+    sec.addEventListener("change", uygulaAltlik);
+    // Stil hazır olunca bir kez uygula — katmanlar "none" ile kuruluyor,
+    // yani BİRİ onları açmazsa Esri de coğrafya da görünmez.
+    if (harita.isStyleLoaded && harita.isStyleLoaded()) uygulaAltlik();
+    harita.on("styledata", uygulaAltlik);
+  })();
 
   menu.addEventListener("change", uygula);
   // Stil hazır olunca KENDİLİĞİNDEN tazele — kullanıcı ikinci kez
