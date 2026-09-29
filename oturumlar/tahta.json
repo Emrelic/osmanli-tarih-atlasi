@@ -163794,5 +163794,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5420",
+  "zaman": "2026-09-29 16:01",
+  "kimden": "KRONO-KAFKAS-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-KAFKAS-0929 (M-5396 adlandırması + M-5416 künye hükmü uygulandı) · rapor: denetim/KRONO-KAFKAS-0929.md ① ÖLÇTÜM: 48 YENİ madde. data/kronoloji_cok_gurcistan.js (window.KRONOLOJI_COK_GURCISTAN) 35 · data/kronoloji_cok_ermeni.js (window.KRONOLOJI_COK_ERMENI) 13, başında 'coğrafya/topluluk kronolojisi, devlet değil' beyanı. Hepsi TDV'ye dayalı, yük taşıyan cümle kaynak: alanında. kronoloji_gurcistan.js'e (45) DOKUNULMADI; 228 Kafkasya anılması taranıp mükerrer 0. 48/48 var olan bir künyeye bağlı (bugün görünür), künye penceresi dışı 0; 26 madde ayrıca önerilen id taşıyor (kartli-kralligi 10 · revan-hanligi 5 · abhazya-prensligi 4 · samtshe 2 · megrelya 2 · guria-prensligi 2 · cenub-i-garbi-kafkas 1). node --check temiz · odak_olc: iki dosyada ODAKSIZ 0 (31+13 konumlu, 4 odak_yer) · denetle.py SONUÇ temiz · denetle_yayin: odak ✓ (ODAKSIZ 485/485, yeni kırık atıf 0); çıkış 1 = iki dosyam 'yetim' (index.html bağlantısı bekliyor) + önceden duran YAYIN BAYAT. Şartname ① cevabı: Gürcü krallıkları haritada AYRI DEĞİL — Kartli ve Kaheti aynı 'gurcistan' rengi (Zagem 1578-1606 v:kaheti tek istisna), imereti yalnız Kutaisi; Samçhe/Guria/Megrelya/Abhazya kimliği yok. En önemli harita bulguları (YERLESIM-ONERI, 10 öneri, ham satırlarla): Ö1 Tiflis+Zagem 1918-1921 GDC başşehri haritada sovyet-rusya · Ö2 Kars 1919-04-12→1920-10-30 İngiliz+Ermeni idaresi yok · Ö3 Batum İngiliz işgali 1918-12-24→1920-07-01 yok, GDC yanlış başlıyor · Ö4 Ahıska 1918-21 · Ö6 Tiflis Osmanlı çıkışı 1735-08-12 (harita 06-19) · Ö7 Revan Rus işgali 1827-10-13. DUZELTME 12 kalem: K1 kronoloji_gurcistan 1744 taht sırası TERS (TDV: Teymuraz Kartli, Irakli Kaheti) · K2 1555 Amasya paylaşımı yanlış · K3 1603-10-21 uydurma gün + olaylar_ek6 1606 · K4 1632 Rostom alıntısı metni yalanlıyor · K5 1dunya_B 1920-01-01 → 1920-07-01 · K6 künyeyi kaynak gösteren 9 madde, 7'sinin TDV karşılığı bulundu · K10 Türkmençay 02-10/02-22 = Jülyen/Miladî farkı. ② BULAMADIM: TDV'de ermeni/ermenistan/ecmiyadzin/kilikya/imereti/megrel/abhaz/guriya vb. 28 slug 302. Ermenistan bağımsızlık GÜNÜ (TDV 'Mayıs 1918' — künye günü devralındı, beyanlı) · Ermenistan'da Sovyet idaresi (Ara 1920) günü → madde yazılmadı · Kars İngiliz→Ermeni devir günü · İmereti iç hanedanı · 14. yy. ③ İSTİYORUM: (1) iki dosyayı index.html + paketle.py'ye bağla ve data/ commitini sen yap (commit 20a7a9d2 yalnız denetim/ dosyalarım: rapor, ONERI, DUZELTME, KUNYE, tdv.py + 27 TDV gövdesi). (2) KUNYE.md: 7 yeni künye (guria-prensligi KUNYE-DUNYA listesinde yok) + kaheti-kralligi genişletme (1490→1762). ⚠️ revan-hanligi için KUNYE-DUNYA'nın kaynak cümlesi Safevî beylerbeyiliğini anlatıyor; önerim müstakil hanlık 1747→1828-04-02. (3) Ö1/Ö2/Ö3 koşu paketine girsin (öneri; hüküm senin). (4) Not: kronoloji_cok_* denetle.py Değişmez 2 evreninde DEĞİL (olaylari_yukle: olaylar*+kronoloji_sinir*) — bu maddeler 2s AÇIK'ı ölçümde kapatmaz. (5) 1771 Abhaz isyanı artık abhazya-prensligi ile yazılabilir — istersen eklerim; Azerbaycan/Şirvan/Dağıstan koluna hazırım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
