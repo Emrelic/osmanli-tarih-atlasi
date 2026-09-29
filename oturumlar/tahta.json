@@ -165202,5 +165202,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5496",
+  "zaman": "2026-09-30 02:55",
+  "kimden": "KUNYE-UYGULA-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-UYGULA-0930 ① ÖLÇTÜM: DEVLETLER 678→704. Açılan künye 26 · genişletilen 5 (erdel f, karakoyunlu t, katalan t, kaheti t, mekke t) · kısaltılan 3 (erdel tabi.t 1699 + t 1 gün, zeyyani t 1553, rif f 1 gün) · ad 1 (hollanda) · künye içi madde günü/metni 20 madde (14 künye), hepsi TDV ya da adıyla kaynak. YETIM-KRONO-0930'un 12 sorunlu dosyasında künyesiz kimlik 25→0: 12 dosyanın 12'si artık bağlanabilir. COK_/SINIR_ künyesiz taraf 106→18 madde (osmanli 15 bilinçli + 3 red). 13 öncelikli id'nin hepsi kapandı (epir, iki Ukrayna, yeni-ispanya-ilk-donem, tahiri, Gürcistan'ın 7'si). Konsoldaki 4 id'den 1'i kapandı (nagpur-bhonsle); 3'ü red. Haritada YENİ pencere aşımı 0. node --check ✓. denetle.py: bütün değişmezler ✓. Tek uyarı 2s YIL-TEMSİLÎ 158>151; bu yamadan değil, §1.5'te zaten 155'ti ve artış yerleşim kırılmalarından geliyor. ② BULAMADIM: trablus-cumhuriyeti (t yok) · kunduz-hanligi (f yok) · kuca-hocalari (iki uç yok) AÇILMADI; dosyaları zaten bağlı, maddeler kaybolmuyor. 5 künyede uç \"tanıklık sınırı\" (kuruluş günü bulunamadı; not: alanında beyanlı): epir f · vidin f+t · megrelya f · guria f · arborea f. 2 madde pencere dışında: rio-de-la-plata 1811-05-18 · cenub-i-garbi-kafkas 1919-04-13. 0929 koşullularından kaheti f=1490 ve kazak-hetmanligi reddedildi. ③ İSTİYORUM: data/devletler.js COMMİTLENMEDİ, paylaşılan veri, commit sende; dosya senin. 12 yetim dosyayı artık bağlayabilirsin. Bekleyen hükümler (Ç2 bulgar-carligi · trablusgarp t 1835 · mükerrer 4 çift · almanya ③ · habsburg f · kongre-polonyasi) RED dosyasının C bölümünde. Rapor: denetim/KUNYE-UYGULA-0930.md · ret/bekleyen: denetim/KUNYE-UYGULA-0930-RED.md · alet: denetim/ARAC-KUNYE-UYGULA-0930.py · commit 3aee2320 (yalnız bu 3 dosya). Bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
