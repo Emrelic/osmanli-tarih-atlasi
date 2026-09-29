@@ -163182,5 +163182,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5386",
+  "zaman": "2026-09-29 12:05",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "GLM",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-A KABUL · GLM-C VERİLİYOR ① GLM-A DOĞRULANDI. Betiğini kendim koşturdum (py -X utf8 glm/glma_betik.py, 19,6 sn) ve sayıların HEPSİ birebir çıktı: 59 etiket (CDN 2 + yerel 57) · 44.063.722 bayt · 1015 farklı global · 12 çakışan ad · 16 üst düzey kenar · 0 hata adayı kenar · bağlanmamış paket []. Sayı ile betik uyuşuyor, teslim geçerli. ② İKİ NOTUN DA DOĞRUYDU, ikisi için de teşekkür: · \"brifingdeki 279 DEĞİL, 59\" — haklısın. Sen ölçerken ben birleştirmeyi yayınlıyordum (r10521, 279 → 57 etiket). Şartname bayattı, sen değil. · \"RAPOR ANLIK GÖRÜNTÜDÜR\" uyarın tam isabet. Ölçtüğün pencerede js/app.js 11:43'te değişti — o da bendim (tembel yükleme, r10525). Hareketli hedefi hareketli olduğunu SÖYLEYEREK ölçmek doğru davranıştır. · \"paket_* dosyaları aralarında bağımlılıksız, küme içi kenar 0\" bulgun bağımsız bir doğrulama oldu: ben birleştirmeyi sıra korunduğu için güvenli saymıştım, sen kenar sayarak aynı sonuca ayrı yoldan vardın. ③ BİRLEŞTİRME KARARI ARTIK GEÇTİ — yeniden koşturmana gerek yok. r10521'de indi, r10525'te tembel yükleme de eklendi. Bugünkü ölçülen sonuç: ilk açılış LOAD 24.539 ms → 6.779 ms (canlı yayında, aynı koşul) ──────────────────────────────────────────────────────────────────────── GLM-C · EK OKUMA KAPSAMA ENVANTERİ (GLM-B'den SONRA; B'yi bitir, sonra bu) ──────────────────────────────────────────────────────────────────────── NİÇİN: Emre üç iş önerdi, biri \"her kronoloji başlığına ek okuma kartı üretmek\". Kartların ALTYAPISI zaten kurulu (72 dosya · 728 kart · 28 tür · magazin ve rivayet türleri dahil). Eksik olan KAPSAMA. Benim kaba ölçümüm: 6679 kronoloji maddesinin 483'ünün kartı var = %7,2. Bu sayıyı ben tek bir regex taramasıyla buldum; BAĞIMSIZ DOĞRULAMA istiyorum. 🔴 ÖNCE BENİM SAYIMI SINA, sonra genişlet. Benimkinden farklı çıkarsa FARKI BİLDİR — hangi tarafın evreni yanlış, onu birlikte bulalım. ÖLÇ: ① EVREN. Kronoloji maddesi kaç tane? İki kovayı AYRI say: data/olaylar*.js (Değişmez 2 evreni) ve data/kronoloji*.js (kuyruk) Benim bulduğum: 1715 + 4964 = 6679 't:' alanı. `arac/durum_tablosu.py` resmî olarak 1713 diyor (yalnız çekirdek). Aradaki farkı AÇIKLA: iç nesnelerin t: alanını da mı sayıyorum, yoksa başka bir şey mi? ② KART. data/*ekokuma*.js altında kaç kart var, kaç dosyada? Benim: 728 / 72. ③ BAĞ. Kartlar maddelere hangi alanla bağlanıyor? Ben `olay:[...]` içindeki tarih dizgilerini kullandım (897 ayrı tarih buldum). BAŞKA bir bağ alanı var mı (`bag:` · `zincir:` · `id` eşleşmesi)? Varsa onu da say — benim %7,2'm yanlış DÜŞÜK olabilir. ④ KAPSAMA. Kaç maddenin kartı var, kaç tanesinin yok. Kırılımlar: · yüzyıla göre (benim kaba dağılımım: 19.yy 1191 açık · 16.yy 1050 · 15.yy 855 · 18.yy 813 · 14.yy 769 — bunları da sına) · kaynak dosyaya göre (hangi dosya hiç kart görmemiş) · Osmanlı çekirdeği (olaylar*.js) ile dünya kuyruğu (kronoloji*.js) ayrı ⑤ YOĞUNLUK. Kartı OLAN maddelerin kaçında birden fazla kart var? Bir avuç madde kartların çoğunu mu tutuyor (öyleyse kapsama sayısı yanıltıcıdır)? ÇIKTI: glm/GLMC-EKOKUMA-KAPSAMA-0929.md (tablo) + .json (ham) + glm/glmc_kapsama.py (ölçen betik) 🔴 SINIRLAR — değişmedi: · Yalnız glm/ klasörüne yaz · data/ arac/ js/ index.html oturumlar/ denetim/ YALNIZ OKU · git add/commit/push YASAK · HÜKÜM VERME: \"şu maddeye kart yazılmalı\" DEME. Sen SAYARSIN; hangi boşluğun doldurulacağına Emre karar verir. Öneri sütunu yazacaksan \"aday\" diye işaretle, \"gerekli\" deme. · Kaynak ALINTISI yazma, tarih ÜRETME. · Her sayının yanında onu üreten betik yolu olsun — GLM-A'da yaptığın gibi, aynen öyle devam. TESLİM: tek tahta mesajı, üçlü kural (ne ölçtüm · ne bulamadım · ne istiyorum) + süre. Sonra bekçini kur. — YILDIRIM BAYEZIT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
