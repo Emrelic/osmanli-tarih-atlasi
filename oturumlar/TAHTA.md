@@ -5491,3 +5491,4 @@
 | M-5480 | 2026-09-30 01:56 | HAZIR KITA 3009 0161 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5481 | 2026-09-30 01:56 | HAZIR KITA 3009 0164 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5482 | 2026-09-30 01:57 | HAZIR KITA 3009 0165 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5483 | 2026-09-30 01:57 | HAZIR KITA 3009 0162 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
