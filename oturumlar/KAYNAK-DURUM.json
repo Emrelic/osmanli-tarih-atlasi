@@ -1,13 +1,19 @@
 {
  "bekci_yasak": true,
  "kod": "RAM-DARBOGAZI",
- "ilan": "2026-09-29 17:29",
+ "ilan": "2026-09-30 02:14",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "bos RAM 5,03 GB (0,41'den toparlandi) · takas 3.797 MB · claude 26 surec/2.846 MB",
- "gerekce": "20 paket teslim etti ve bekcilerini kesti; RAM toparlandi ama 12 GB makinede sinir hala dusuk. Bos hazir kitalar bekci kurmasin.",
+ "olcum": "30 Eylul 02:10 — bos RAM 1,37 GB ve DUSUYOR · claude 30 surec / 8,3 GB · pagefile 1.062 MB · sekiz paket ayni anda isiniyor",
+ "gerekce": "Gece nobeti (Emre: \"nobet sende\"). Sekiz paket calisiyor, ONLAR MUAF; bos hazir kitalar ve isi bitmis oturumlar bekci KURMASIN. Dunku ilanin muaf listesi bayatlamisti ve bu gecenin iscilerini kesiyordu -- koordinatorun kendi bekcisi de reddedildi, kapi dogru calisti ama liste yanlisti.",
  "muaf": [
-  "KRONO-BAGLAMA-0929",
-  "KRONO-DOGU-ISLAM-0929",
-  "ACILIS-ANIM-0929"
+  "YILDIRIM BAYEZIT",
+  "KARADENIZ-0082",
+  "IRAN-KAFKAS-0082",
+  "AVRUPA-TEYID-0082",
+  "AKDENIZ-ARAP-0082",
+  "ERKEN-SIRP-0082",
+  "ARAYUZ-0082",
+  "OSMANLI-IC-0082",
+  "YERLESIM-BIRLESTIR-0930"
  ]
 }

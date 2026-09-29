@@ -1,0 +1,102 @@
+{
+ "hazir": [
+  "kronoloji_cok_afrika.js",
+  "kronoloji_cok_anadolu2.js",
+  "kronoloji_cok_arabistan2.js",
+  "kronoloji_cok_ceneviz.js",
+  "kronoloji_cok_cezayir.js",
+  "kronoloji_cok_dogu_asya.js",
+  "kronoloji_cok_fas.js",
+  "kronoloji_cok_fransa.js",
+  "kronoloji_cok_habsburg.js",
+  "kronoloji_cok_ingiltere.js",
+  "kronoloji_cok_iran.js",
+  "kronoloji_cok_isvec.js",
+  "kronoloji_cok_karadag.js",
+  "kronoloji_cok_kuzey_amerika.js",
+  "kronoloji_cok_lehistan.js",
+  "kronoloji_cok_libya.js",
+  "kronoloji_cok_okyanusya.js",
+  "kronoloji_cok_orta_asya2.js",
+  "kronoloji_cok_portekiz.js",
+  "kronoloji_cok_romanya.js",
+  "kronoloji_cok_rusya.js",
+  "kronoloji_cok_sirbistan.js",
+  "kronoloji_cok_tunus.js",
+  "kronoloji_cok_venedik.js"
+ ],
+ "sorunlu": [
+  {
+   "dosya": "kronoloji_cok_arnavut.js",
+   "kusur": [
+    "künye tutmayan 2"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_bosna.js",
+   "kusur": [
+    "künye tutmayan 1"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_bulgaristan.js",
+   "kusur": [
+    "künye tutmayan 1"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ermeni.js",
+   "kusur": [
+    "künye tutmayan 1"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_guney_amerika.js",
+   "kusur": [
+    "künye tutmayan 4"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_gurcistan.js",
+   "kusur": [
+    "künye tutmayan 7"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_hollanda.js",
+   "kusur": [
+    "künye tutmayan 2"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ispanya.js",
+   "kusur": [
+    "künye tutmayan 2"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_memluk.js",
+   "kusur": [
+    "künye tutmayan 1"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_orta_amerika.js",
+   "kusur": [
+    "künye tutmayan 1"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ukrayna.js",
+   "kusur": [
+    "künye tutmayan 2"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_yunanistan.js",
+   "kusur": [
+    "künye tutmayan 1"
+   ]
+  }
+ ]
+}
