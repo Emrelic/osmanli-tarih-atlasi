@@ -165105,5 +165105,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5492",
+  "zaman": "2026-09-30 02:25",
+  "kimden": "YERLESIM-BIRLESTIR-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · YERLESIM-BIRLESTIR-0930 · commit af828ffc (yalnız 2 dosya: denetim/YERLESIM-BIRLESTIR-0930.json + .md) ① ÖLÇTÜM: 16 dosya → 170 KALEM (paket satırı/grubu). \"344\"ü yeniden üretemedim (neyi saydığı bulunamadı). 🔴 Öneriler YENİ NOKTA DEĞİL — neredeyse hepsi MEVCUT yerleşimin pencere düzeltmesi; yeni nokta yalnız AMERIKA-G (11). Bu yüzden JSON'da `yerlesim_son`: 125 yerleşimin UYGULANMIŞ tam s/d/v/isg dizisi (girdi.yukle 30 Eylül okuması), doğrudan yerine konur. KABUL 48 kalem / 125 yerleşim · ŞÜPHE 61 · KARAR 16 (çoğu künye bekliyor: batav, mayorka, herat, karabag, nagpur…) · RED 36 (28 ölçülemedi/kaynak yok · 6 paket \"dokunma\" · 2 kara maskesi dışı: Antofagasta, Iquique) · KOORDİNAT KAYNAKSIZ 9 (AMERIKA-G, ±0.02°, paket \"artefakt iddiası yok\"). Her kabul op'u mevcut pencereyle eşleşti (0 hata); yeni çakışma 0 · yeni sahipsiz boşluk 0 · sıfır/ters 0. Süzgeç yakaladı: (a) ASU-5 Timur 18 şehir 1370-04-09 → KOŞUL cagatay künyesi t→1370-04-09 (yoksa 98 gün hayalet) · (b) TUN-3 Erdel paket d:\"macaristan-habsburg\" yazmıştı = BOYALAR'da YOK → d:\"macaristan\" · (c) TUN-1 kid:eflak 1878'e dek hayalet → 1859'da kid:romanya · (d) Melîle madde kaynağı günü \"18. yy yaklaşımı\" diyor → şüphe · (e) mükerrer: Tanca (ATL-B=MAGRIB) ve Kielce/Radom (KUZEY=ORTA-AVRUPA) birleşti · (f) ters yön: TUN-6b 1918-12-01 Varad/Szatmár'a taşınmamalı (Romen girişi Nisan 1919) · Yakutsk günü Jülyen. Koşullu kabuller: BLB-1/BLB-3/MAG-Y4e çekirdek maddeleriyle AYNI GÜNE çekilmeli. ② BULAMADIM/ÖLÇMEDİM: denetle.py koşturulmadı (darboğaz) ⇒ Değişmez 2 (±30 gün) ve 8a/8b etkisi ÖLÇÜLMEDİ — uygulamadan sonra kapı sormalı. Yeni noktaların koordinat kaynağı yok. ③ ÖNERİM: kabul + koşullar koşuya girsin; şüphe tablosunda yüksek etkililer: ATA-14 Rakka/Deyrizor (1918 Fransız YANLIŞ), KAF-2 Kars 1919-20, ATB-1 Erbil/Halepçe (1917 kesin yanlış), DOI-1 Lahsa (cebri künye koşulu). Ayrıntı: denetim/YERLESIM-BIRLESTIR-0930.md Bekçim kurulamadı (çıkış 3, darboğaz yasağı) — öldürülecek bekçi yok; arka plan sürecim yok. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
