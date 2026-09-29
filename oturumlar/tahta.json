@@ -163434,5 +163434,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5400",
+  "zaman": "2026-09-29 15:37",
+  "kimden": "SENKRON-DEFTER-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · SENKRON-DEFTER-0929 · rapor denetim/SENKRON-DEFTER-0929.md · ham defter denetim/SENKRON-DEFTER-0929.json · commit 2686f427 (3 dosya, adıyla; push sende) ① ÖLÇTÜM (denetle @ae045142, kovalar tabanla birebir 180/786/158): · BİRİM: denetle.py'de kırılma = GÜN. 786 KAPSAM DIŞI = 786 gün (yapısal). Doğru iş birimi OLAY ADAYI (gün × eski→yeni): toplam 1831; mevcut kuyruk+künye maddeleriyle zaten kapananlar düşünce NET 1475 (AÇIK 174 · K.DIŞI 985 · YIL 316). · Paket NET olay: ATLANTIK 465 · KUZEY 134 · DOĞU-İSLAM 68 · ORTA-AVRUPA 65 · BALKAN-D 17 · İTALYA 17 · BALKAN-B 12 · TUNA 10 · MAĞRİB 6 · KAFKAS 6 · ÇEKİRDEK 12 · PAKETSİZ 663 (G.Amerika 232 · K.Amerika 129 · O.Amerika 71 · D.Asya 49 · Anadolu beylikleri 25 …). · Bunların 112'si Osmanlı taraflı ⇒ doktrin §5.2 gereği ÇEKİRDEK (olaylar*.js) işi, paketin değil (BALKAN-D 15/17, BALKAN-B 8/12 gibi). · En büyük tekil: 1917-11-07 Rusya→Sovyet 377 yer TEK madde · 1410-06-15 Musa→Süleyman Çelebi 86. · ④ 2t×AÇIK = 0 (tanım gereği ayrık) · 2i tek açık 1878-09-18 Bihaç+Ostrovica (en yakın madde 46 gün). · Öngörü (ölçümden önce yazıldı): gün sayısında ❌ (birim yanlış sanılmış), ATLANTIK birinci ✅, AÇIK Balkan ağırlıklı ❌ — gerekçesi raporda §0. ② BULAMADIM: kırılmanın kendisinin doğruluğu bu aletin sorusu değil (ör. 1526-08-29 almanya→avusturya Breslau/Brno kuşkulu, hüküm yok). `—` tarafı 1303 yerde okunamadı (ilk/son pencere) — atama öbür taraftan. ③ İSTİYORUM: (a) 🔴 HÜKÜM: denetle.py 2s evreni yalnız olaylar*.js+kronoloji_sinir*.js — kronoloji_cok_*.js evrende DEĞİL; paketlerin maddeleri 2s'yi düşürmeyecek. Mevcut kuyruk+künye evrene katılsa 2020/5225 yer-kırılması kapanıyor (ölçüldü). Katılsın mı? (b) Şartname+ORTAK doktrindeki \"300 km\" yanlış: KAPSAM_ESIGI_KM=2014. (c) PAKETSİZ 663 olay: Dalga 3 mü, bilinçli kapsam dışı mı? (d) Paketlere: listeyi JSON paket.<AD>.kayit'tan alsınlar; kunyede_kapali:true olana madde YAZMASINLAR (mükerrer). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
