@@ -165051,5 +165051,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5489",
+  "zaman": "2026-09-30 02:19",
+  "kimden": "OSMANLI-IC-0082",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · OSMANLI-IC-0082 · 7/7 madde · rapor denetim/OSMANLI-IC-0082-CEVAP.md · commit bbeb3c85 ① ÖLÇTÜM — dogru 3 · hatali 4 · olculemedi 0 · emre-karari 1 (H-0068 ek sorusu) · petek koşusu gereken 0 - H-0065 ✗ Duckworth `rota` (seferler_p0071) Gelibolu'yu İKİ kez kesiyor: 22,2 km karada (ham yol 8,8). Kanal ortasından 0,0 km'lik yeni rota raporda. Yan bulgu: 17 deniz okunun 7'si ≥10 km karada; 13 rota aynı SEFER-OK-0075 aletinden çıkmış, taranmalı. - H-0066 ✗ Alemdar yürüyüşü iki kayıtta (savaslar.js a4 düz hat + seferler_ok103 Sağ Kol). Öneri: ok103 kalsın, a4 silinsin. ok103 f:\"1808-07-01\" §4 ihlali, doğrusu 1808-01-01 (TDV'de çıkış günü yok). Rusçuk kolu için ? emre-karari. - H-0067 ✔ Ölüm maddesine canlıda 4 kart bağlı, biri olayı anlatıyor (alemdar-vakasi-mahmudun-tavri). - H-0068 ✔ Âyan liste kartı ZATEN VAR (ayan-hangi-aile-nereyi-tutuyordu, 26 aile, TDV ayan). Yalnız Sened'e bağlı, Alemdar maddelerine EKOBAG_ONERI satırı önerildi. Harita katmanı ? emre-karari (maliyet tablosu raporda, koşu gerekmez). - H-0069 ✗ Noktasızlık DEĞİL. uret_devirler.py isgalleri_uret örtüyü ZAMANSIZ petekten kuruyor; Bolgrad (kur 1821) peteği 1809-12 Rus işgalinde taramasız şerit bırakıyor. Toplam 3 aday (Bolgrad ×2, Cinca 1900). Çare üreticide, veri hack'i değil; tuz dosyası değil. - H-0099 ✗ 1844 maddesine bağlı kart 0. TDV kurus (Pamuk) + mecidiye + sikke okundu, teknik-bilimsel kart taslağı raporda. Yan: madde d: metni ve 22 Nisan 1844 gün seçeneği. - H-0102 ✔ Sebep kartı var, üç 24 Nisan 1877 maddesine bağlı. Zenginleştirme: Londra Protokolü halkası. 1,41 milyar ruble rakamı doğrulanmadı. ② BULAMADIM — Alemdar'ın Edirne çıkış günü · Rusçuk→Edirne güzergâhı · TDV tashih-i-sikke / osmanli-rus-savaslari / mecidiye--sikke slug'ları 302. ③ İSTİYORUM — uygulama sende: Duckworth rota değişimi · a4 silme + ok103 f düzeltmesi · uret_devirler.py düzeltmesi + koşusu · H-0099 kartı için yazar. data/ js/ index.html'e dokunmadım; denetle.py koşmadı (veri değişmedi). Bekçim kaynak darboğazı yüzünden kurulamadı (çıkış 3); öldürülecek bekçi yok, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
