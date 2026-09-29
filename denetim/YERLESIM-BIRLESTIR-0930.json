@@ -1,0 +1,7512 @@
+{
+ "meta": {
+  "paket": "YERLESIM-BIRLESTIR-0930",
+  "tarih": "2026-09-30",
+  "olcum": "16 dosya · 170 kalem (paket satırı/grubu) — koordinatörün '344' sayısı yeniden üretilemedi; kalem ≠ yerleşim",
+  "uyari": [
+   "denetle.py KOŞTURULMADI (kaynak darboğazı): Değişmez 2 (±30 gün senkron) ve 8a/8b ETKİSİ ÖLÇÜLMEDİ — uygulamadan sonra kapı sorar",
+   "süzgeçler: ① ad(norm)+3 km · ② künye ömrü (id ∪ harita:) · ③ BOYALAR · ④ motor_kara.geojson · ⑤ kaynak sınıfı · + her op'un mevcut pencereyle EŞLEŞMESİ, yeni çakışma, yeni sahipsiz boşluk, sıfır/ters pencere",
+   "yerlesim_son: her yerleşimin UYGULANMIŞ s/d/v/isg dizisi — girdi.yukle() 30 Eylül okumasına göre; o günden sonra dosya değiştiyse yeniden üret"
+  ]
+ },
+ "kabul": [
+  {
+   "id": "AMK-A1",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Antigua Guatemala"
+   ],
+   "ozet": "pencere günü 1543-01-01 → 1543-03-10 (madde günü)",
+   "kaynak": "kronoloji_cok_orta_amerika.js: Britannica, «Antigua Guatemala» — britannica.com/place/Antigua-Guatemala · gün: ikincil web taramasında tutarlı, birincil belge sayfası açılmadı",
+   "degisen": [
+    "Antigua Guatemala (Santiago de los Caballeros)"
+   ]
+  },
+  {
+   "id": "AMK-A2",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Louisville"
+   ],
+   "ozet": "pencere günü 1778-01-01 → 1778-05-27 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: Kleber, John E. (ed.), The Kentucky Encyclopedia (University Press of Kentucky, 1992), «Louisville» · gün: ikincil web taramasında tutarlı, birincil belge sayfası açılmadı",
+   "degisen": [
+    "Louisville"
+   ]
+  },
+  {
+   "id": "AMK-A3",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Cincinnati"
+   ],
+   "ozet": "pencere günü 1788-01-01 → 1788-12-28 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: Cincinnati Museum Center Library, «Cincinnati FAQs» — library.cincymuseum.org/cincifaq.htm",
+   "degisen": [
+    "Cincinnati (Losantiville)"
+   ]
+  },
+  {
+   "id": "AMK-A4",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Fort Vancouver"
+   ],
+   "ozet": "pencere günü 1825-01-01 → 1825-03-19 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: HistoryLink.org, «Hudson's Bay Company opens Fort Vancouver on March 19, 1825» — historylink.org/file/5251",
+   "degisen": [
+    "Fort Vancouver"
+   ]
+  },
+  {
+   "id": "AMK-A5",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Victoria (Fort Victoria)"
+   ],
+   "ozet": "pencere günü 1843-01-01 → 1843-06-10 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: Legislative Assembly of British Columbia, «1843 - Fort Victoria is Established» — leg.bc.ca · The Canadian Encyclopedia, «Fort Victoria» — thecanadianencyclopedia.ca/en/article/fort-victoria",
+   "degisen": [
+    "Victoria (Fort Victoria)"
+   ]
+  },
+  {
+   "id": "AMK-A6",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Seattle"
+   ],
+   "ozet": "pencere günü 1851-01-01 → 1851-11-13 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: HistoryLink.org, «Denny Party lands at Alki Point near future Seattle on November 13, 1851» — historylink.org/file/5392",
+   "degisen": [
+    "Seattle (Duwamish)"
+   ]
+  },
+  {
+   "id": "AMK-A7",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Denver"
+   ],
+   "ozet": "pencere günü 1858-01-01 → 1858-11-22 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: Colorado Encyclopedia, «Auraria (West Denver)» — coloradoencyclopedia.org/article/auraria-west-denver",
+   "degisen": [
+    "Denver"
+   ]
+  },
+  {
+   "id": "AMK-A8",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Cheyenne"
+   ],
+   "ozet": "pencere günü 1867-01-01 → 1867-07-04 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: Wyoming State Historical Society, WyoHistory.org, «Cheyenne, Magic City of the Plains» — wyohistory.org",
+   "degisen": [
+    "Cheyenne (Wyoming)"
+   ]
+  },
+  {
+   "id": "AMK-A9",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Dawson City"
+   ],
+   "ozet": "pencere günü 1896-01-01 → 1896-08-16 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: The Canadian Encyclopedia, «Klondike Gold Rush» — thecanadianencyclopedia.ca/en/article/klondike-gold-rush · gün: ikincil web taramasında tutarlı, birincil belge sayfası açılmadı",
+   "degisen": [
+    "Dawson City"
+   ]
+  },
+  {
+   "id": "AMK-A10",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "St. Louis"
+   ],
+   "ozet": "pencere günü 1803-12-20 → 1804-03-10 (madde günü)",
+   "kaynak": "kronoloji_cok_kuzey_amerika.js: Missouri Encyclopedia, «Louisiana Purchase and Missouri» — missouriencyclopedia.org/events/louisiana-purchase-and-missouri · ABD Millî Park Servisi, «U.S. Takes Possession of Louisiana»",
+   "degisen": [
+    "St. Louis"
+   ]
+  },
+  {
+   "id": "AMK-B1",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Houston"
+   ],
+   "ozet": "abd 1836-01-01 → teksas-cumhuriyeti 1836-08-30→1845-12-29 + abd 1845-12-29→",
+   "kaynak": "Handbook of Texas «Houston, TX» (Texas State Historical Association)",
+   "degisen": [
+    "Houston"
+   ]
+  },
+  {
+   "id": "ASU-3",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Hîve",
+    "Köhne Ürgenç",
+    "Küngrat",
+    "Hazârasp"
+   ],
+   "ozet": "timurlu→buhara 1502-01-01 → 1505-01-01",
+   "kaynak": "Britannica «Muḥammad Shaybani»: 1505'te Harezm'i aldı · madde kronoloji_cok_orta_asya2 1505",
+   "degisen": [
+    "Hazârasp",
+    "Hîve",
+    "Köhne Ürgenç (Gürgenç)",
+    "Küngrat"
+   ]
+  },
+  {
+   "id": "ASU-5",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Andican",
+    "Belh",
+    "Buhara",
+    "Cizzah",
+    "Hisar",
+    "Hokand",
+    "Hucend",
+    "Karşi",
+    "Külâb",
+    "Oş",
+    "Sayram",
+    "Semerkant",
+    "Taraz",
+    "Taşkent",
+    "Termez",
+    "Türkistan",
+    "Çimkent",
+    "Şehrisebz"
+   ],
+   "ozet": "cagatay→timurlu 1370-01-01 → 1370-04-09 (18 yerleşim)",
+   "kaynak": "TDV timur · künye timurlu f 1370-04-09",
+   "kosul": "künye `cagatay` t 1370-01-01 → 1370-04-09 BİRLİKTE (yoksa 98 günlük hayalet; bugün aynı 98 gün `timurlu` tarafında hayalet — künye timurlu f 1370-04-09)",
+   "degisen": [
+    "Andican",
+    "Belh",
+    "Buhara",
+    "Cizzah",
+    "Hisar",
+    "Hokand",
+    "Hucend",
+    "Karşi (Nahşeb)",
+    "Külâb (Kulob)",
+    "Oş",
+    "Sayram (İsficâb)",
+    "Semerkant",
+    "Taraz (Evliya-Ata)",
+    "Taşkent",
+    "Termez",
+    "Türkistan (Yesi)",
+    "Çimkent",
+    "Şehrisebz (Kiş)"
+   ]
+  },
+  {
+   "id": "ASU-8",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Baram (bölge)",
+    "Niah kıyısı (bölge)"
+   ],
+   "ozet": "brunei→sarawak 1882-06-13 → 1882-01-01 (gün kaynaksız, yıl kaynaklı)",
+   "kaynak": "Runciman 1960; Tarling 1971 — YIL",
+   "degisen": [
+    "Baram (bölge)",
+    "Niah kıyısı (bölge)"
+   ]
+  },
+  {
+   "id": "ATA-4",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Batna"
+   ],
+   "ozet": "konstantin-beyligi→fransa 1844-03-04 → 1844-02-12",
+   "kaynak": "ANOM geo 'Batna (Algérie)': camp militaire fondé le 12 février 1844",
+   "degisen": [
+    "Batna"
+   ]
+  },
+  {
+   "id": "ATA-10",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Beyrut"
+   ],
+   "ozet": "memluk… Osmanlı→fransa 1918-10-08 → 1918-10-07",
+   "kaynak": "TDV beyrut: '7 Ekim 1918'de Fransız kuvvetlerinin …'",
+   "degisen": [
+    "Beyrut"
+   ]
+  },
+  {
+   "id": "ATA-13",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Mersin"
+   ],
+   "ozet": "Osmanlı→fransa 1918-10-30 → 1918-12-17",
+   "kaynak": "TDV mersin: '17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı'",
+   "degisen": [
+    "Mersin"
+   ]
+  },
+  {
+   "id": "ATA-17",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Kalyari (Cagliari)"
+   ],
+   "ozet": "ceneviz 1281→1324-01-01 → piza …→1324-06-19, aragon 1324-06-19→",
+   "kaynak": "Gran Enciclopèdia Catalana 'conquesta de Sardenya'",
+   "degisen": [
+    "Kalyari (Cagliari)"
+   ]
+  },
+  {
+   "id": "ATB-4",
+   "nereden": "KRONO-ATLANTIK-B-0929 + KRONO-MAGRIB-0929 Y4-p",
+   "yerler": [
+    "Tanca"
+   ],
+   "ozet": "ingiltere→fas 1684-02-05 → 1684-01-01 (TDV yalnız yıl)",
+   "kaynak": "TDV tanca: '(1095/1684)' — YIL; gün yok",
+   "not": "MÜKERRER öneri: iki paket aynı kalemi yazmış — birleştirildi",
+   "degisen": [
+    "Tanca"
+   ]
+  },
+  {
+   "id": "BLB-1",
+   "nereden": "KRONO-BALKAN-B-0929",
+   "yerler": [
+    "Kragujevac",
+    "Çaçak",
+    "Yagodina"
+   ],
+   "ozet": "d t / v f 1830-11-08 → 1830-10-17",
+   "kaynak": "TDV sirbistan: '17 Ekim 1830'da verilen bir imtiyaz fermanıyla'",
+   "not": "çekirdek madde olaylar_ek.js:73 BİRLİKTE düzeltilmeli",
+   "kosul": "çekirdek madde olaylar_ek.js:73 aynı güne",
+   "degisen": [
+    "Kragujevac",
+    "Yagodina (Jagodina)",
+    "Çaçak"
+   ]
+  },
+  {
+   "id": "BLB-2",
+   "nereden": "KRONO-BALKAN-B-0929",
+   "yerler": [
+    "Serez"
+   ],
+   "ozet": "bizans→sirbistan 1345-01-01 → 1345-09-25",
+   "kaynak": "TDV serez (yıl) + Fine, The Late Medieval Balkans 1987 (gün)",
+   "degisen": [
+    "Serez"
+   ]
+  },
+  {
+   "id": "BLB-3",
+   "nereden": "KRONO-BALKAN-B-0929",
+   "yerler": [
+    "Akçahisar"
+   ],
+   "ozet": "1478-06-15 → 1478-06-16",
+   "kaynak": "TDV kruya: '15 Rebîülevvel 883'te (16 Haziran 1478)'",
+   "not": "Leş ve Mat'a DOKUNULMAZ; çekirdek olaylar_ek5.js:131 birlikte",
+   "kosul": "çekirdek olaylar_ek5.js:131 aynı güne",
+   "mevcut_borc": "MEVCUT hayalet (dokunulmayan uç): arnavutluk künyesi f 1443, pencere 1281'den",
+   "degisen": [
+    "Akçahisar (Kruja)"
+   ]
+  },
+  {
+   "id": "BLD-1",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Limni"
+   ],
+   "ozet": "isg yunanistan f 1912-10-08 (Jülyen) → 1912-10-21 + kaynak",
+   "kaynak": "TDV limni: 'Limni 21 Ekim 1912'de Yunanlılar tarafından işgal edildi'",
+   "not": "mevcut kaynak:'oniki-ada' YANLIŞ, değiştirildi",
+   "degisen": [
+    "Limni"
+   ]
+  },
+  {
+   "id": "BLD-2",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Taşoz"
+   ],
+   "ozet": "isg yunanistan f 1912-10-18 (Jülyen) → 1912-10-30 + kaynak",
+   "kaynak": "TDV tasoz: '30 Ekim 1912'de Yunanistan Taşoz'u … işgal etti'",
+   "not": "mevcut kaynak:'oniki-ada' YANLIŞ, değiştirildi",
+   "degisen": [
+    "Taşoz"
+   ]
+  },
+  {
+   "id": "BLD-3",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Semadirek"
+   ],
+   "ozet": "isg yunanistan f 1912-10-19 (Jülyen) → 1912-11-01 + kaynak",
+   "kaynak": "TDV semadirek: '1 Kasım 1912'de Yunanistan tarafından işgal edildi'",
+   "not": "mevcut kaynak:'oniki-ada' YANLIŞ, değiştirildi · TDV Taşoz maddesiyle iç çelişki (30 Ekim) — adanın kendi maddesi esas",
+   "degisen": [
+    "Semadirek"
+   ]
+  },
+  {
+   "id": "BLD-6",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Vidin"
+   ],
+   "ozet": "1365-1369 macaristan penceresi (yıl)",
+   "kaynak": "TDV vidin (M. Kiel 2013): 1365 Macar, 1369 geri — YIL",
+   "not": "paket: düşük öncelik, istenmezse düşür",
+   "mevcut_borc": "MEVCUT hayalet: bulgaristan künyesi t 1396-01-01, pencere 1396-10-01'e dek (öneri bunu değiştirmiyor)",
+   "degisen": [
+    "Vidin"
+   ]
+  },
+  {
+   "id": "DOI-3",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Divriği"
+   ],
+   "ozet": "Osmanlı 1399-09-01→1402-07-28 → 1398→1401 (yıl), memluk 1401→",
+   "kaynak": "TDV divrigi: '1398'de … Osmanlı topraklarına kattı … 1401'de tekrar Memlükler'e verildi' — YIL",
+   "degisen": [
+    "Divriği"
+   ]
+  },
+  {
+   "id": "ITA-1",
+   "nereden": "KRONO-ITALYA-0929",
+   "yerler": [
+    "İzmir"
+   ],
+   "ozet": "sovalye→aydin 1402-07-28 → 1402-12-01 (AY hassasiyeti)",
+   "kaynak": "TDV izmir: 'Timur'un Aralık 1402'deki zaptına kadar' — AY, gün yok",
+   "not": "YYYY-MM-01 'ay biliniyor' anlamında (D213): kaynak alanına 'TDV: Aralık 1402 — gün yok' yazılmalı",
+   "degisen": [
+    "İzmir"
+   ]
+  },
+  {
+   "id": "KAF-1",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Tiflis",
+    "Zagem (Kaheti)"
+   ],
+   "ozet": "sovyet-rusya 1917-11-07→ → transkafkasya / GDC 1918-05-26→1921-02-25 / sovyet",
+   "kaynak": "TDV tiflis + TDV acara (günlü)",
+   "degisen": [
+    "Tiflis",
+    "Zagem (Kaheti)"
+   ]
+  },
+  {
+   "id": "KAF-6",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Tiflis"
+   ],
+   "ozet": "Osmanlı d t 1735-06-19 → 1735-08-12",
+   "kaynak": "TDV tiflis: '12 Ağustos 1735'te Tiflis'i yeniden ele geçiren İran birlikleri'",
+   "degisen": [
+    "Tiflis"
+   ]
+  },
+  {
+   "id": "KAF-7",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Revan"
+   ],
+   "ozet": "isg rusya 1827-10-13→1828-02-22 ekle",
+   "kaynak": "TDV revan: 'ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827)'",
+   "degisen": [
+    "Revan"
+   ]
+  },
+  {
+   "id": "MAG-Y2",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tunus kutusu v: (1705-07-17→1923-10-29 taşıyan hepsi)"
+   ],
+   "ozet": "v: kid YOK → kid tunus-ocagi …→1881-05-12 + kid tunus-beyligi-fransiz 1881-05-12→",
+   "kaynak": "TDV huseyniler, tunus ('eyâlet-i mümtâze')",
+   "not": "MAG-Y4b'den SONRA uygulanır; boyamayı değiştirmez (v: kid dizin bağıdır)",
+   "degisen": [
+    "Benzert (Bizerte)",
+    "Bin Gerdân",
+    "Bâce (Béja)",
+    "Cendûbe",
+    "Cerbe (Djerba)",
+    "Cerciş (Zarzis)",
+    "Dûz",
+    "Gabes",
+    "Halkulvâdî",
+    "Kafsa",
+    "Kasrayn",
+    "Kayrevan",
+    "Kef",
+    "Kelîbiye",
+    "Kerkene (Kerkennah)",
+    "Kıbillî (Nefzâve)",
+    "Medenîn",
+    "Mehdiye",
+    "Mekter (Maktar)",
+    "Metlâvî",
+    "Munastır",
+    "Mâtir (Mateur)",
+    "Nefta",
+    "Nâbil (Nabeul)",
+    "Sfaks",
+    "Sîdî Bû Zeyd",
+    "Sûse",
+    "Sübaytıla",
+    "Tatavin",
+    "Testûr",
+    "Tozer",
+    "Tunus",
+    "Zağvân",
+    "Ğar Dimâv",
+    "Ğâru'l-Melh (Porto Farina)"
+   ]
+  },
+  {
+   "id": "MAG-Y4a",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tunus",
+    "Halkulvâdî"
+   ],
+   "ozet": "hafsi→Osmanlı 1574-08-25 → Tunus 1574-09-12 · Halkulvâdî 1574-08-24",
+   "kaynak": "TDV tunus: '12 Eylül 1574'te Tunus'u geri aldı' · '(24 Ağustos 1574) … ele geçirildi'",
+   "not": "Tunus kutusundaki öteki 32 yerleşimin 1574-08-25'i için gün önerilmedi",
+   "degisen": [
+    "Halkulvâdî",
+    "Tunus"
+   ]
+  },
+  {
+   "id": "MAG-Y4b",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tunus kutusu (d.t/v.f 1705-07-17)"
+   ],
+   "ozet": "1705-07-17 → 1705-07-12",
+   "kaynak": "TDV huseyin-pasa-tunus-beyi: '20 Rebîülevvel 1117 (12 Temmuz 1705)'",
+   "degisen": [
+    "Benzert (Bizerte)",
+    "Bin Gerdân",
+    "Bâce (Béja)",
+    "Cendûbe",
+    "Cerbe (Djerba)",
+    "Cerciş (Zarzis)",
+    "Dûz",
+    "Gabes",
+    "Halkulvâdî",
+    "Kafsa",
+    "Kasrayn",
+    "Kayrevan",
+    "Kef",
+    "Kelîbiye",
+    "Kerkene (Kerkennah)",
+    "Kıbillî (Nefzâve)",
+    "Medenîn",
+    "Mehdiye",
+    "Mekter (Maktar)",
+    "Metlâvî",
+    "Munastır",
+    "Mâtir (Mateur)",
+    "Nefta",
+    "Nâbil (Nabeul)",
+    "Sfaks",
+    "Sîdî Bû Zeyd",
+    "Sûse",
+    "Sübaytıla",
+    "Tatavin",
+    "Testûr",
+    "Tozer",
+    "Tunus",
+    "Zağvân",
+    "Ğar Dimâv",
+    "Ğâru'l-Melh (Porto Farina)"
+   ]
+  },
+  {
+   "id": "MAG-Y4e",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Oran",
+    "Mersa'l-Kebîr"
+   ],
+   "ozet": "ispanya→Osmanlı 1792-02-12 → 1792-09-12",
+   "kaynak": "TDV vehran: '12 Eylül 1792 tarihinde … Vehrân'ı İspanyollar'dan geri almayı başardı'",
+   "not": "çekirdek madde olaylar_ek5.js 1792-02-12 de aynı kaymada — birlikte",
+   "kosul": "çekirdek madde olaylar_ek5.js 1792-02-12 aynı güne",
+   "degisen": [
+    "Mersa'l-Kebîr",
+    "Oran"
+   ]
+  },
+  {
+   "id": "MAG-Y4f",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Muaskar"
+   ],
+   "ozet": "abdulkadir→fransa 1841-01-01 → 1841-05-30",
+   "kaynak": "TDV muasker: '30 Mayıs 1841'de Fransızlar Muasker'i yeniden işgal ettiler'",
+   "degisen": [
+    "Muaskar"
+   ]
+  },
+  {
+   "id": "MAG-Y4g",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Annaba"
+   ],
+   "ozet": "zeyyani→hafsi; 1535-1540 ispanya garnizonu",
+   "kaynak": "TDV bune: 'Hafsîler'in eline geçti' · 'beş yıllık bir direnişten (1535-1540) sonra İspanyollar kaleyi boşaltmak zorunda kaldılar' — YIL",
+   "degisen": [
+    "Annaba"
+   ]
+  },
+  {
+   "id": "MAG-Y4h",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Konstantin"
+   ],
+   "ozet": "1526-1527 hafsi arası (yıl)",
+   "kaynak": "TDV kostantine: 'Hafsîler'in 1526'da geri aldığı şehir bir yıl sonra tekrar Osmanlılar'ın eline geçti' — YIL",
+   "degisen": [
+    "Konstantin"
+   ]
+  },
+  {
+   "id": "MAG-Y4i",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Safi (Asfi)",
+    "Azemmûr"
+   ],
+   "ozet": "portekiz→merini 1541 → sadi 1541",
+   "kaynak": "TDV sadiler: '1541'de … Portekizliler'i Safî ve Azemmûr'u terketmeye' (özne Sâdî) — YIL",
+   "degisen": [
+    "Azemmûr",
+    "Safi (Asfi)"
+   ]
+  },
+  {
+   "id": "MAG-Y4j",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tıtvân (Tetuan)"
+   ],
+   "ozet": "isg ispanya 1860-02-05 → 1862 (yıl)",
+   "kaynak": "TDV sebte: '5 Şubat 1860'ta Tıtvân'ı (Tetuan) işgal eden İspanya' · titvan: '1862 yılında … boşalttılar'",
+   "degisen": [
+    "Tıtvân (Tetuan)"
+   ]
+  },
+  {
+   "id": "MAG-Y4l",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Benzert (Bizerte)"
+   ],
+   "ozet": "hafsi→Osmanlı 1574-08-25 → 1557 (yıl)",
+   "kaynak": "TDV benzert: '1557'de Kaptanıderyâ Piyâle Paşa tarafından tekrar Osmanlı hâkimiyetine dahil edilmiştir' — YIL",
+   "degisen": [
+    "Benzert (Bizerte)"
+   ]
+  },
+  {
+   "id": "ORA-Y1",
+   "nereden": "KRONO-ORTA-AVRUPA-0929",
+   "yerler": [
+    "Prag",
+    "České Budějovice",
+    "Třeboň",
+    "Hradec Králové",
+    "Broumov"
+   ],
+   "ozet": "almanya→avusturya 1526-08-29 → 1526-10-22 (Ferdinand'ın seçimi)",
+   "kaynak": "Wien Geschichte Wiki 'Ferdinand I.': 'König von Böhmen (Wahl 22. Oktober 1526 …)'",
+   "not": "almanya penceresi 54 gün uzar (sahipsizlik açılmaz)",
+   "degisen": [
+    "Broumov (Braunau)",
+    "Hradec Králové",
+    "Prag",
+    "Třeboň (Wittingau)",
+    "České Budějovice (Budweis)"
+   ]
+  },
+  {
+   "id": "OSC-2",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Karahisâr-ı Sâhib"
+   ],
+   "ozet": "sahibata→germiyan 1327-01-01 → 1341-01-01 (EN ERKEN sınır)",
+   "kaynak": "TDV sahib-ataogullari: ilhak '742'den (1341) sonra' — YIL",
+   "degisen": [
+    "Karahisâr-ı Sâhib (Afyon)"
+   ]
+  },
+  {
+   "id": "TUN-1",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "İbrail",
+    "Yergöğü"
+   ],
+   "ozet": "s eflak/romanya 1829-1878 → v: kid eflak (→1859) / kid romanya (→1878) + s romanya 1878-07-13→1881-03-26",
+   "kaynak": "TDV edirne-antlasmasi/ibrail/yergogu: 'Eflak prensliğine bırakıldı' · TDV romanya: 'Berlin Kongresi'ne kadar (1878) Osmanlılar'a bağlı'",
+   "not": "paket kid:eflak'ı 1878'e dek önerdi; eflak künyesi 1859-01-24'te biter → hayalet olmasın diye 1859'da bölündü (paketin kendi 2. sorusuyla tutarlı)",
+   "degisen": [
+    "Yergöğü (Giurgiu)",
+    "İbrail"
+   ]
+  },
+  {
+   "id": "TUN-1b",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Memleketeyn 15 v: (kid eflak 11 · bogdan 4, t 1878-07-13)"
+   ],
+   "ozet": "v: 1859-01-24'te böl, 2. parça kid romanya",
+   "kaynak": "künye eflak/bogdan t 1859-01-24 · romanya f 1859-01-24",
+   "not": "yalnız dizin bağı, boyama değişmez; mevcut HAYALET TÂBİ kusurunu kapatır",
+   "degisen": [
+    "Birlad (Bârlad)",
+    "Buzău",
+    "Bükreş",
+    "Kalas (Galatz)",
+    "Krayova (Craiova)",
+    "Kımpulung (Câmpulung)",
+    "Piteşti",
+    "Rimnik (Râmnicu Vâlcea)",
+    "Rimnik-i Sârat (Râmnicu Sărat)",
+    "Roman",
+    "Slatina",
+    "Turnu Severin",
+    "Tırgovişte",
+    "Tırgu Jiu",
+    "Yaş"
+   ]
+  },
+  {
+   "id": "TUN-2",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Kili"
+   ],
+   "ozet": "rusya 1812→1917 → 1856-03-30→1878-07-13 v: (Kahul ile aynı)",
+   "kaynak": "TDV kili: 'Paris Antlaşması ile (1856) … Kili dahil … Boğdan beyliğine terketti' · gün TDV paris-antlasmasi 30 Mart 1856",
+   "degisen": [
+    "Kili"
+   ]
+  },
+  {
+   "id": "TUN-3",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Erdel (Kaloşvar)",
+    "Erdel Belgradı",
+    "Brassó",
+    "Segesvár"
+   ],
+   "ozet": "v 1541-1687 içine s macaristan-habsburg 1551-07-26→1556-03-12",
+   "kaynak": "History of Transylvania I (ed. Köpeczi, MTA) s.102: 26 Temmuz 1551 Kolozsvár diyeti · 12 Mart 1556 Szászsebes diyeti",
+   "degisen": [
+    "Brassó (Braşov)",
+    "Erdel (Kaloşvar)",
+    "Erdel Belgradı (Gyulafehérvár)",
+    "Segesvár (Sighişoara)"
+   ]
+  },
+  {
+   "id": "TUN-8",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Kili"
+   ],
+   "ozet": "1448-1465 Eflak (yıl)",
+   "kaynak": "TDV kili: 'Kili Kalesi 1448'den sonra tekrar Eflak Voyvodalığı'na geçti'; Stefan 24 Ocak 1465'te aldı",
+   "not": "paket: düşük öncelik",
+   "degisen": [
+    "Kili"
+   ]
+  }
+ ],
+ "suphe": [
+  {
+   "id": "AFR-A1",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Hamdullahi"
+   ],
+   "ozet": "kur+s f 1820-01-01 → 1815-01-01 (massina)",
+   "kaynak": "TDV fulaniler — YIL",
+   "not": "KOŞUL: massina künyesi f 1818-01-01 → 1810-01-01 inmeden künye penceresini aşar (hayalet)"
+  },
+  {
+   "id": "AMK-B2",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Salt Lake City"
+   ],
+   "ozet": "abd 1847-07-24 → meksika 1847-07-24→1848-02-02 + abd",
+   "kaynak": "künye meksika maddesi (Guadalupe Hidalgo) — yer-özel kaynak yok"
+  },
+  {
+   "id": "AMK-B3",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Biloxi",
+    "Mobile"
+   ],
+   "ozet": "İngiliz Batı Florida evresi atlanmış; abd başlangıcı 1812-13 olmalı — ÖNERİ DEĞERİ YOK",
+   "kaynak": "MDAH timeline + haber (arama özeti)",
+   "not": "kuşku YÜKSEK — kaynak oturumuna havale"
+  },
+  {
+   "id": "ASU-1",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Herat"
+   ],
+   "ozet": "afganistan 1826 → 1863; 1826-1863 herat-emirligi (künye YOK) ya da bos:",
+   "kaynak": "Britannica «Afghanistan — Dōst Moḥammad»",
+   "not": "künye yok → önce KUNYE; afgan-durrani t 1823 hayalet riski"
+  },
+  {
+   "id": "ASU-2",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Belh"
+   ],
+   "ozet": "buhara→afganistan 1841 → 1859 (başka özet 1850)",
+   "kaynak": "Britannica; kaynaklar arası 9 yıl"
+  },
+  {
+   "id": "ASU-4",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Taşkent"
+   ],
+   "ozet": "1503 eski sahip mogulistan; 1503-1809 buhara şüpheli",
+   "kaynak": "Britannica; EI² — kısmen hafıza"
+  },
+  {
+   "id": "ASU-6",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Raipur",
+    "Ratanpur"
+   ],
+   "ozet": "1853-01-01 → 1853-12-11 (III. Raghuji'nin ölümü; ilhak 1854) + nagpur-bhonsle (künye YOK)",
+   "kaynak": "Metcalf & Metcalf 2006; Britannica",
+   "not": "ölüm günü ≠ ilhak günü; künye yok"
+  },
+  {
+   "id": "ASU-8b",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Limbang"
+   ],
+   "ozet": "f 1890-01-01 → 1890-03-17",
+   "kaynak": "web özeti"
+  },
+  {
+   "id": "ATA-1",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Butrint"
+   ],
+   "ozet": "1798-10-23 → 1798-10-25",
+   "kaynak": "Moschonas/Fleming Vikipedi dipnotundan"
+  },
+  {
+   "id": "ATA-3",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Krk",
+    "Cres",
+    "Rab"
+   ],
+   "ozet": "1809-01-01 → 1809-10-14 (Schönbrunn)",
+   "kaynak": "Hrvatska enciklopedija — adaları sayan dekret görülmedi (çıkarım, orta)"
+  },
+  {
+   "id": "ATA-5",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Dellîs"
+   ],
+   "ozet": "1844-03-04 → 1844 (yıl)",
+   "kaynak": "ANOM — yalnız yıl"
+  },
+  {
+   "id": "ATA-6",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Bû Sa'âde"
+   ],
+   "ozet": "1844-03-04 → 1849",
+   "kaynak": "ANOM",
+   "not": "abdulkadir künyesi 1847-12-23'te biter → 1848-1849 hayalet; ara sahip gerekli"
+  },
+  {
+   "id": "ATA-7",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Sûk Ahrâs",
+    "Tebesse"
+   ],
+   "ozet": "1844-03-04 → 1852 / 1851",
+   "kaynak": "ANOM",
+   "not": "ara dönem sahibi belirsiz → Değişmez 1 riski"
+  },
+  {
+   "id": "ATA-8",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Gardâye"
+   ],
+   "ozet": "1852-12-04 → 1882 (öncesi v: tâbi?)",
+   "kaynak": "ANOM + TDV mizab"
+  },
+  {
+   "id": "ATA-11",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Sayda"
+   ],
+   "ozet": "Ekim 1918 başı İNGİLİZ; Fransız OETA West 23 Ekim (doğrulanmadı)",
+   "kaynak": "TDV sayda"
+  },
+  {
+   "id": "ATA-12",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Trablusşam"
+   ],
+   "ozet": "1918-10-13 gün kaynaksız; TDV yalnız 'Ekim 1918'",
+   "kaynak": "TDV trablussam"
+  },
+  {
+   "id": "ATA-14",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Rakka",
+    "Deyrizor"
+   ],
+   "ozet": "1918 fransa YANLIŞ → İngiliz/suriye-arap-kralligi, Fransa 1921 — günler eksik",
+   "kaynak": "TDV rakka, deyrizor (TDV iç çelişki 1920/1921)",
+   "not": "yön kesin; günler kaynakla doldurulmalı — YÜKSEK ETKİ"
+  },
+  {
+   "id": "ATA-16",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Ba'lebek"
+   ],
+   "ozet": "1918 fransa şüpheli (Bekaa OETA East)",
+   "kaynak": "bulunamadı"
+  },
+  {
+   "id": "ATA-18",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Sasari (Sassari)"
+   ],
+   "ozet": "1324-01-01 → 1323-07-04 (orta güven)",
+   "kaynak": "Soddu; GEC"
+  },
+  {
+   "id": "ATA-20",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Melîle (Melilla)"
+   ],
+   "ozet": "merini→ispanya 1497-01-01 → 1497-09-17",
+   "kaynak": "madde:1497-09-17"
+  },
+  {
+   "id": "ATB-1",
+   "nereden": "KRONO-ATLANTIK-B-0929",
+   "yerler": [
+    "Erbil",
+    "Halepçe"
+   ],
+   "ozet": "ingiltere f 1917-03-11 → 1918-10-30 (öncesi Osmanlı d:)",
+   "kaynak": "TDV kerkuk + iç tutarlılık (Halepçe m:Şehrizor 1918-10-30)",
+   "not": "mevcut gün KESİN YANLIŞ; önerilen gün çıkarım (bayrak kuralı dışı). Hazır ops: d t 1917-03-11→1918-10-30, s f aynı"
+  },
+  {
+   "id": "ATB-2",
+   "nereden": "KRONO-ATLANTIK-B-0929",
+   "yerler": [
+    "Kifri",
+    "Tuz Hurmatu"
+   ],
+   "ozet": "f ≤ 1918-10-30 — gün bulunamadı",
+   "kaynak": ""
+  },
+  {
+   "id": "BLD-5",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Mora (Tripoliçe)"
+   ],
+   "ozet": "yunanistan 1821-03-25 → şehrin düşüş günü (bulunamadı)",
+   "kaynak": "TDV tripolice 'Ekim 1822'?"
+  },
+  {
+   "id": "DOI-1",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Lahsa",
+    "Katîf",
+    "Cübeyl",
+    "Ukayr"
+   ],
+   "ozet": "safevi 1524-1550 SİL, cebri Osmanlı'ya dek, Osmanlı 1547",
+   "kaynak": "TDV lahsa (1547)",
+   "not": "KOŞUL: cebri künyesi t 1524 → uzatılmalı"
+  },
+  {
+   "id": "DOI-2",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Kemah"
+   ],
+   "ozet": "mutahharten 1402-07-28→1410; sonrası ölçülemedi",
+   "kaynak": "TDV kemah"
+  },
+  {
+   "id": "DOI-5",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Gence"
+   ],
+   "ozet": "celayirli→timurlu 1386",
+   "kaynak": "komşu (atlas) + TDV timur genel",
+   "not": "atlas komşusu dayanak değil"
+  },
+  {
+   "id": "DOI-6",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Ardahan"
+   ],
+   "ozet": "akkoyunlu→safevi 1514-09-06 → 1502-01-01",
+   "kaynak": "komşu (atlas) + TDV safeviler"
+  },
+  {
+   "id": "DOI-12",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Belh"
+   ],
+   "ozet": "1514-08-23 kaynak notu 'gün komşudan: Çaldıran'",
+   "kaynak": "TDV belh (yıl)",
+   "not": "yalnız not; §4 komşu günü şartı (aynı olay) tutuyor mu koordinatör bakar"
+  },
+  {
+   "id": "DOI-13",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Zebîd"
+   ],
+   "ozet": "1517-07-06 → 1517 (yıl)",
+   "kaynak": "TDV zebid"
+  },
+  {
+   "id": "ITA-3",
+   "nereden": "KRONO-ITALYA-0929",
+   "yerler": [
+    "İnebahtı"
+   ],
+   "ozet": "venedik f 1687-08-06 → Temmuz 1687; bitiş 1700/1715 ölçülemedi",
+   "kaynak": "TDV inebahti"
+  },
+  {
+   "id": "KAF-2",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Kars"
+   ],
+   "ozet": "1919-04-12 İngiliz işgali + Ermeni idaresi → 1920-10-30 TBMM (devir günü bulunamadı; sade seçenek: tek isg ermenistan)",
+   "kaynak": "TDV kars (uçlar günlü)",
+   "not": "YÜKSEK ETKİ; seçim koordinatörde. Sarıkamış/Kağızman/Arpaçay/Digor/Iğdır ölçülmedi"
+  },
+  {
+   "id": "KAF-3",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Batum",
+    "Murvaneti"
+   ],
+   "ozet": "İngiliz isg 1918-12-24→1920-07-01, GDC, 1921-03-11→28 Türk",
+   "kaynak": "TDV batum, acara",
+   "not": "Osmanlı'nın 12-01→12-24 uzatılması ve 1921 d:/tbmm seçimi koordinatörde"
+  },
+  {
+   "id": "KAF-4",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Ahıska",
+    "Ahılkelek"
+   ],
+   "ozet": "1918 Osmanlı + 1919-04-13 Gürcü; bir uç ay, gün komşudan",
+   "kaynak": "TDV ahiska"
+  },
+  {
+   "id": "KAF-5",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Tiflis"
+   ],
+   "ozet": "d t 1606-01-01 → 1603-01-01",
+   "kaynak": "TDV tiflis + gurcistan (yıl)",
+   "not": "Zagem v: kaheti-kralligi ve künye 1606'ya bağlı; 1603-01-01 Tebriz'in düşüşünden önce"
+  },
+  {
+   "id": "KAF-8",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Sohum"
+   ],
+   "ozet": "Osmanlı d 1854-05→1856-07-10 · 1877-05-02→1877-08-12",
+   "kaynak": "TDV sohum (başlangıçlar ay/bombardıman)"
+  },
+  {
+   "id": "KAF-11",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Ahıska",
+    "Zazalo",
+    "Ts'q'altbila"
+   ],
+   "ozet": "1578-08-01 → 1578-08-09 (Çıldır'dan sonra)",
+   "kaynak": "TDV ahiska, cildir-eyaleti"
+  },
+  {
+   "id": "KUZ-1",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Varşova",
+    "Kielce",
+    "Radom",
+    "Częstochowa",
+    "Łódź",
+    "Lublin",
+    "Chełm"
+   ],
+   "ozet": "1915-1918 Alman/Avusturya işgali (günler + işgal bölgesi sınırı bulunamadı)",
+   "kaynak": "TDV polonya"
+  },
+  {
+   "id": "KUZ-2",
+   "nereden": "KRONO-KUZEY-0929 + KRONO-ORTA-AVRUPA-0929 Y5",
+   "yerler": [
+    "Kielce",
+    "Radom"
+   ],
+   "ozet": "prusya 1795-1806 → avusturya 1795-10-24→1809-10-14",
+   "kaynak": "iç tutarlılık (Lublin/Chełm) — kaynak okunmadı",
+   "not": "MÜKERRER: iki paket aynı şüpheyi yazmış — birleştirildi"
+  },
+  {
+   "id": "KUZ-4",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Kaunas",
+    "Šiauliai",
+    "Narva",
+    "Pärnu",
+    "Tartu"
+   ],
+   "ozet": "isg almanya 1915/1918-02-25 → 1918-11",
+   "kaynak": "EBSCO + Britannica [özet]"
+  },
+  {
+   "id": "KUZ-5",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Tartu",
+    "Pärnu",
+    "Cēsis"
+   ],
+   "ozet": "1621-09-15 → 1625 / 1617",
+   "kaynak": "EBSCO özet + Vikipedi"
+  },
+  {
+   "id": "KUZ-7",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Bryansk"
+   ],
+   "ozet": "1500-08-01 → 1500 ilkbahar",
+   "kaynak": "RF Savunma Bak. Ansiklopedisi [özet]"
+  },
+  {
+   "id": "KUZ-8",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Balasagun"
+   ],
+   "ozet": "1862-09-04 karışım (1860-09-04 / 1862-10-24)",
+   "kaynak": "bishkek.gov.kg [özet]"
+  },
+  {
+   "id": "KUZ-10",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Ufa",
+    "Narım",
+    "Kansk",
+    "Yalutorovsk",
+    "Albazin",
+    "Blagoveşçensk",
+    "Verhneudinsk",
+    "Ayan",
+    "Sretensk",
+    "Sayansk ostrogu",
+    "Unalaska",
+    "Ostrovnoye",
+    "Nelkan",
+    "Sofiysk"
+   ],
+   "ozet": "ilk s: yılı kaynak yılına (BRE/Britannica/IES)",
+   "kaynak": "KRONO-KUZEY-0929-SIBIRYA-KAYNAK.md — iki ajan, ARAMA ÖZETİ"
+  },
+  {
+   "id": "KUZ-11",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Yakutsk",
+    "Olyokminsk",
+    "Ohotsk",
+    "Perm",
+    "Yekaterinburg",
+    "Karkaralı",
+    "Kökçetav",
+    "Kazakeviçevo"
+   ],
+   "ozet": "ilk gün → kaynak günü",
+   "kaynak": "BRE [özet]",
+   "not": "🔴 Yakutsk 1632-09-25 JÜLYEN diye verilmiş → Gregoryen 1632-10-05; öteki 17-18. yy günleri de takvim beyanı ister"
+  },
+  {
+   "id": "KUZ-12",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Srednekolımsk",
+    "Balagansk",
+    "Bolşeretsk",
+    "Üç Aziz Körfezi",
+    "Sitka",
+    "Nijneudinsk"
+   ],
+   "ozet": "atlas günü kaynaksız → yıl/ay",
+   "kaynak": ""
+  },
+  {
+   "id": "MAG-Y4c",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tilimsan",
+    "Muaskar (1552 grubu)"
+   ],
+   "ozet": "1552 → 1553",
+   "kaynak": "TDV tilimsan (TDV iç çelişkisi 1550/1552/1553)"
+  },
+  {
+   "id": "MAG-Y4d",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tilimsan"
+   ],
+   "ozet": "1830-1833 v: → 1833 abdulkadir → 1842 fransa (yıl)",
+   "kaynak": "TDV tilimsan"
+  },
+  {
+   "id": "MAG-Y4k",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Kayrevan",
+    "Sfaks",
+    "Sûse",
+    "Munastır",
+    "Mehdiye"
+   ],
+   "ozet": "1551 → Osmanlı (Sfaks 1549)",
+   "kaynak": "TDV tunus, sefakus — Kayrevan 1586 iç çelişki"
+  },
+  {
+   "id": "MAG-Y4m",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Gât"
+   ],
+   "ozet": "Osmanlı 1577 → 1875; öncesi sahip belirsiz",
+   "kaynak": "TDV libya, fizan",
+   "not": "kanem-bornu 1875'e dek mi — ters yön ölçülmeli"
+  },
+  {
+   "id": "MAG-Y4o",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Sellûm"
+   ],
+   "ozet": "Kasım 1915 → 1916-03-24 Osmanlı-Senûsî isg",
+   "kaynak": "TDV senusi-ahmed-serif (başlangıç ay)"
+  },
+  {
+   "id": "MAG-Y4rs",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Tıtvân kuruluş",
+    "Cezayir 1519 grubu"
+   ],
+   "ozet": "1484/1483 · 1519-09-01 → Ekim 1519",
+   "kaynak": "TDV titvan, cezayir"
+  },
+  {
+   "id": "ORA-Y1b",
+   "nereden": "KRONO-ORTA-AVRUPA-0929",
+   "yerler": [
+    "Brno",
+    "Olomouc",
+    "Breslau",
+    "Liegnitz",
+    "Oppeln",
+    "Gleiwitz",
+    "Kattowitz",
+    "Jeseník",
+    "Glatz"
+   ],
+   "ozet": "1526-10-22 savunulabilir ama gün kaynaksız",
+   "kaynak": ""
+  },
+  {
+   "id": "ORA-Y3",
+   "nereden": "KRONO-ORTA-AVRUPA-0929",
+   "yerler": [
+    "Brassó",
+    "Erdel Belgradı",
+    "Segesvár"
+   ],
+   "ozet": "v→s avusturya 1687-08-12 → 1687-10-27 (garnizon) ya da 1688-05-09 (egemenlik)",
+   "kaynak": "Magyar Katolikus Lexikon 'Apafi'",
+   "not": "iki gün arasında seçim"
+  },
+  {
+   "id": "OSC-1",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Antalya",
+    "Elmalı",
+    "Finike",
+    "Kaş"
+   ],
+   "ozet": "hamid 1300 → 1312 sonrası (yıl yok)",
+   "kaynak": "TDV hamidogullari"
+  },
+  {
+   "id": "OSC-3",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Adana",
+    "Tarsus"
+   ],
+   "ozet": "kilikya→memluk→ramazanoglu 1378",
+   "kaynak": "TDV adana (Memlûk fethi yılı yok)"
+  },
+  {
+   "id": "OSC-4",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Bolu"
+   ],
+   "ozet": "1461 candar değil; Osmanlı dönüşü Çelebi Mehmed (yıl yok)",
+   "kaynak": "TDV bolu"
+  },
+  {
+   "id": "OSC-5",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Hâil",
+    "Dûmetülcendel",
+    "Teymâ",
+    "Nefud çölü"
+   ],
+   "ozet": "→sammar 1836 → 1835",
+   "kaynak": "TDV residiler (1835)",
+   "not": "KOŞUL: hail-ibn-ali künyesi t 1836 → 1835 birlikte"
+  },
+  {
+   "id": "OSC-6",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Seyûn"
+   ],
+   "ozet": "1700 temsilî — 'yıl bulunamadı' notu",
+   "kaynak": "TDV hadramut"
+  },
+  {
+   "id": "TUN-4",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Çehrin"
+   ],
+   "ozet": "1669-05-01 v: zaporojye → 1676-09-19 rusya",
+   "kaynak": "EoU «Doroshenko»; TDV cehrin-seferi",
+   "not": "1669 ↔ 1672 seçimi koordinatörde"
+  },
+  {
+   "id": "TUN-6a",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Akkirman",
+    "Bender",
+    "Bolgrad",
+    "Hotin",
+    "İsmail",
+    "Kahul",
+    "Kili",
+    "Orhei",
+    "Soroka"
+   ],
+   "ozet": "romanya-kralligi 1918-01-01 → 1918-03-27",
+   "kaynak": "EoU «Bessarabia»",
+   "not": "takvim: 27 Mart (Jülyen) = 9 Nisan; kronoloji 1918-04-08 diyor — hüküm önce"
+  },
+  {
+   "id": "TUN-6b",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Erdel (Kaloşvar)",
+    "Erdel Belgradı",
+    "Brassó",
+    "Segesvár",
+    "Szatmár",
+    "Varad",
+    "Yanova"
+   ],
+   "ozet": "romanya-kralligi 1918-11-11 → 1918-12-01 (Gyulafehérvár)",
+   "kaynak": "TDV romanya",
+   "not": "🔴 TERS YÖN: 1 Aralık bir BEYAN; Varad/Szatmár'a Romen ordusu Nisan 1919'da girdi — tek gün hepsine taşınmamalı"
+  }
+ ],
+ "karar": [
+  {
+   "id": "AMK-C",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "134 yerleşim / 104 grup (nokta doğumu)"
+   ],
+   "ozet": "yerleşim önerisi DEĞİL: 'nokta doğumu' kovası + denetle.py muafiyeti (paket önerisi b)",
+   "kaynak": ""
+  },
+  {
+   "id": "ASU-10",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Timor beylikleri (9)"
+   ],
+   "ozet": "1769 sonrası 9 yerleşim boş — künye (KUNYE K9)",
+   "kaynak": ""
+  },
+  {
+   "id": "ATA-19",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Menorka",
+    "Perpignan"
+   ],
+   "ozet": "1281'den aragon değil Mayorka Krallığı (künye YOK)",
+   "kaynak": "GEC; Consell Insular de Menorca",
+   "not": "önce künye + renk"
+  },
+  {
+   "id": "ATB-3",
+   "nereden": "KRONO-ATLANTIK-B-0929",
+   "yerler": [
+    "Amsterdam",
+    "Rotterdam",
+    "Utrecht",
+    "Groningen",
+    "Leeuwarden",
+    "Middelburg",
+    "Nijmegen",
+    "Maastricht"
+   ],
+   "ozet": "1795-1813 batav-cumhuriyeti + fransa ilhakı",
+   "kaynak": "Parlement.com; Canon van Nederland",
+   "not": "künye batav-cumhuriyeti YOK → önce künye+renk"
+  },
+  {
+   "id": "DOI-7",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Cizre",
+    "Cibri"
+   ],
+   "ozet": "1508-1515 SAHİPSİZ (7 yıl Değişmez 1 deliği) — safevi mi __BOSLUK__ mu",
+   "kaynak": "",
+   "not": "denetim DELİK diyor ama §1.5 'beklenen sahipsiz' içinde mi — ölçülmeli"
+  },
+  {
+   "id": "DOI-9",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Sârî",
+    "Âmül",
+    "Bârfurûş",
+    "Eşref"
+   ],
+   "ozet": "1504 (tâbilik) ↔ 1596 (ilhak)",
+   "kaynak": "TDV taberistan"
+  },
+  {
+   "id": "DOI-10",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Şuşa"
+   ],
+   "ozet": "zend 1752 → Karabağ Hanlığı 1748-1750 (künye YOK)",
+   "kaynak": "TDV karabag"
+  },
+  {
+   "id": "DOI-14",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Serbedârî Horasan'ı (17)"
+   ],
+   "ozet": "1381 ilhak değil tâbilik (1386'ya dek)",
+   "kaynak": "TDV serbedariler"
+  },
+  {
+   "id": "ITA-4",
+   "nereden": "KRONO-ITALYA-0929",
+   "yerler": [
+    "Santorini",
+    "Sifnos",
+    "Kimolos",
+    "Koçbaba",
+    "Termiye",
+    "Murted",
+    "Namfi",
+    "Folegandros"
+   ],
+   "ozet": "venedik→naksa-dukaligi; 1566 ↔ 1537-1540",
+   "kaynak": "TDV naksa"
+  },
+  {
+   "id": "KAF-9",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Batum",
+    "Hulo (Acara)"
+   ],
+   "ozet": "1479 / 1535 / 1578",
+   "kaynak": "TDV gurcistan ↔ acara"
+  },
+  {
+   "id": "KUZ-3",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Varşova",
+    "Łódź",
+    "Częstochowa"
+   ],
+   "ozet": "1806-11-28→1807-07-22 hayalet varsova-dukaligi",
+   "kaynak": "napoleon.org"
+  },
+  {
+   "id": "MAG-Y1",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Cezayir · Tunus · Trablusgarp ocakları"
+   ],
+   "ozet": "tâbi eşiği 1659/1631 mi 1671/1705 mi — SORU (Emre)",
+   "kaynak": "TDV cezayir, tunus, muradiler"
+  },
+  {
+   "id": "MAG-Y3",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Fas 32 yerleşim"
+   ],
+   "ozet": "1912-03-30 isg fransa? İspanyol bölgesi günü TDV'de yok",
+   "kaynak": "TDV fas"
+  },
+  {
+   "id": "MAG-Y4n",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Murzuk (Fizan grubu)"
+   ],
+   "ozet": "1912 italya değil; Senûsî sahip künyesi",
+   "kaynak": "TDV fizan"
+  },
+  {
+   "id": "ORA-Y2",
+   "nereden": "KRONO-ORTA-AVRUPA-0929",
+   "yerler": [
+    "Linz",
+    "Freistadt",
+    "Gmünd",
+    "Maribor",
+    "Innsbruck",
+    "Landeck",
+    "Klagenfurt",
+    "Feldkirch",
+    "Bregenz",
+    "Lienz"
+   ],
+   "ozet": "veraset ülkeleri 1282/1363'ten avusturya mı (TASARIM KARARI)",
+   "kaynak": "ÖSTA"
+  },
+  {
+   "id": "TUN-5",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Poltava",
+    "Çernigov",
+    "Baturin",
+    "Kiev",
+    "Çehrin"
+   ],
+   "ozet": "Hetmanlık 1648-1667 ayrı renk mi (SORU); takvim ikiliği",
+   "kaynak": "EoU «Hetman state»"
+  }
+ ],
+ "red": [
+  {
+   "id": "AFR-B1",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Transvaal",
+    "Oranj"
+   ],
+   "ozet": "paketin kendi önerisi (B): dokunma, kırılma beyanlı kalsın",
+   "kaynak": "",
+   "niye": "paketin kendi önerisi (B): dokunma, kırılma beyanlı kalsın"
+  },
+  {
+   "id": "AFR-C1",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "İlorin"
+   ],
+   "ozet": "ölçülemedi: olay yılı yok",
+   "kaynak": "",
+   "niye": "ölçülemedi: olay yılı yok"
+  },
+  {
+   "id": "AFR-C2",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Bida"
+   ],
+   "ozet": "ölçülemedi: 1859 bulunamadı",
+   "kaynak": "",
+   "niye": "ölçülemedi: 1859 bulunamadı"
+  },
+  {
+   "id": "AFR-C3",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Kukava"
+   ],
+   "ozet": "ölçülemedi: kuruluş yılı yok",
+   "kaynak": "",
+   "niye": "ölçülemedi: kuruluş yılı yok"
+  },
+  {
+   "id": "AFR-C4",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Antsirabe"
+   ],
+   "ozet": "ölçülemedi: bulunamadı",
+   "kaynak": "",
+   "niye": "ölçülemedi: bulunamadı"
+  },
+  {
+   "id": "AFR-C5",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Büyük Zimbabve"
+   ],
+   "ozet": "ölçülemedi: yer-özel kaynak yok (kasıtlı beyanlı boşluk)",
+   "kaynak": "",
+   "niye": "ölçülemedi: yer-özel kaynak yok (kasıtlı beyanlı boşluk)"
+  },
+  {
+   "id": "AFR-C6",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Kilva Kivince · Ujiji · Kasongo · Nyangwe · Karonga"
+   ],
+   "ozet": "ölçülemedi: iç bölge egemenliği bulunamadı",
+   "kaynak": "",
+   "niye": "ölçülemedi: iç bölge egemenliği bulunamadı"
+  },
+  {
+   "id": "AFR-C7",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Mankhamba"
+   ],
+   "ozet": "ölçülemedi: dayanaksız",
+   "kaynak": "",
+   "niye": "ölçülemedi: dayanaksız"
+  },
+  {
+   "id": "AFR-D",
+   "nereden": "KRONO-AFRIKA-0929",
+   "yerler": [
+    "Nkhotakota"
+   ],
+   "ozet": "paket: DOKUNMA (yıl doğrulandı)",
+   "kaynak": "",
+   "niye": "paket: DOKUNMA (yıl doğrulandı)"
+  },
+  {
+   "id": "AMG-1",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Antofagasta"
+   ],
+   "ozet": "YENİ NOKTA -23.65,-70.4 · s önerisi: bolivya-cumhuriyeti → 1879-02-14 sili-cumhuriyeti",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Antofagasta",
+   "lat": -23.65,
+   "lon": -70.4,
+   "suzgec": {
+    "ad": "Antofagasta",
+    "lat": -23.65,
+    "lon": -70.4,
+    "ad_eslesme": [],
+    "yakin_25km": [],
+    "kara": false,
+    "kara_2km": false
+   },
+   "niye": "④ KARA MASKESİ: nokta motor_kara.geojson DIŞINDA (denizde; ±2 km'de de kara yok) — koordinat da kaynaksız"
+  },
+  {
+   "id": "AMG-2",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Iquique"
+   ],
+   "ozet": "YENİ NOKTA -20.21,-70.15 · s önerisi: peru-cumhuriyeti → 1879-11 Şili (ölçülemedi)",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Iquique",
+   "lat": -20.21,
+   "lon": -70.15,
+   "suzgec": {
+    "ad": "Iquique",
+    "lat": -20.21,
+    "lon": -70.15,
+    "ad_eslesme": [],
+    "yakin_25km": [],
+    "kara": false,
+    "kara_2km": false
+   },
+   "niye": "④ KARA MASKESİ: nokta motor_kara.geojson DIŞINDA (denizde; ±2 km'de de kara yok) — koordinat da kaynaksız"
+  },
+  {
+   "id": "AMK-B4",
+   "nereden": "KRONO-AMERIKA-K-0929",
+   "yerler": [
+    "Los Adaes"
+   ],
+   "ozet": "1821-02-22 olay yok; öneri değeri yok, kaynak taranmadı",
+   "kaynak": "",
+   "niye": "1821-02-22 olay yok; öneri değeri yok, kaynak taranmadı"
+  },
+  {
+   "id": "ASU-7",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Sambalpur"
+   ],
+   "ozet": "paket: hiçbir şey",
+   "kaynak": "",
+   "niye": "paket: hiçbir şey"
+  },
+  {
+   "id": "ASU-9",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Feyzâbâd"
+   ],
+   "ozet": "1657 ölçülemedi",
+   "kaynak": "",
+   "niye": "1657 ölçülemedi"
+  },
+  {
+   "id": "ASU-11",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Brunei 5 · Banjar"
+   ],
+   "ozet": "paket: yerleşim penceresine dokunma, künye f sorgulansın",
+   "kaynak": "",
+   "niye": "paket: yerleşim penceresine dokunma, künye f sorgulansın"
+  },
+  {
+   "id": "ASU-12",
+   "nereden": "KRONO-ASYA-UZAK-0929",
+   "yerler": [
+    "Asîrgarh",
+    "Burhânpûr"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "not": "MEVCUT HAYALET: babur-imparatorlugu t 1857-09-21, pencere 1860-01-01'e dek",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "ATA-2",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Vonitsa"
+   ],
+   "ozet": "paket: gerek yok (±30 içinde)",
+   "kaynak": "",
+   "niye": "paket: gerek yok (±30 içinde)"
+  },
+  {
+   "id": "ATA-9",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Mesîle",
+    "Ayn Temûşent",
+    "Hanşele",
+    "Aynı Beydâ",
+    "Cilfe"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "ATA-15",
+   "nereden": "KRONO-ATLANTIK-A-0929",
+   "yerler": [
+    "Malikiye",
+    "Arlon"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "BLB-4",
+   "nereden": "KRONO-BALKAN-B-0929",
+   "yerler": [
+    "Tuzla",
+    "Trebinye",
+    "Herseknovi",
+    "Kragujevac/Yagodina/Çaçak 1439",
+    "Lendava",
+    "Murska Sobota"
+   ],
+   "ozet": "öneri çıkarılamadı (kaynak bulunamadı / zaten kapandı)",
+   "kaynak": "",
+   "niye": "öneri çıkarılamadı (kaynak bulunamadı / zaten kapandı)"
+  },
+  {
+   "id": "BLD-4",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Bozbaba (Ay Strati)",
+    "Bozcaada"
+   ],
+   "ozet": "gün bulunamadı",
+   "kaynak": "",
+   "not": "Bozcaada 1912-10-07 savaştan önce — KESİN YANLIŞ ama değer yok",
+   "niye": "gün bulunamadı"
+  },
+  {
+   "id": "BLD-7",
+   "nereden": "KRONO-BALKAN-D-0929",
+   "yerler": [
+    "Atina",
+    "Bulgaristan üç hâl"
+   ],
+   "ozet": "paket: öneri gerekmiyor",
+   "kaynak": "",
+   "niye": "paket: öneri gerekmiyor"
+  },
+  {
+   "id": "DOI-4",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Arapkir",
+    "Behisni",
+    "Hısn-ı Mansûr",
+    "Kâhta"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "DOI-8",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Aşkale",
+    "Erzurum",
+    "Palu",
+    "Çemişgezek",
+    "Tebbes",
+    "Burûcird",
+    "Nihâvend",
+    "Kelkit",
+    "Bistâm",
+    "Dâmgan",
+    "Simnân",
+    "Zencan",
+    "Musul çevresi"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "not": "MEVCUT HAYALET borçları: ilhanli (1353) · eretna (1381) · artuklu (1409) · serbedariler (1386)",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "DOI-11",
+   "nereden": "KRONO-DOGU-ISLAM-0929",
+   "yerler": [
+    "Ağraham burnu"
+   ],
+   "ozet": "iran 1281-1501 ANAKRONİK — öneri değeri yok",
+   "kaynak": "",
+   "niye": "iran 1281-1501 ANAKRONİK — öneri değeri yok"
+  },
+  {
+   "id": "ITA-2",
+   "nereden": "KRONO-ITALYA-0929",
+   "yerler": [
+    "Çeşme"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "ITA-5",
+   "nereden": "KRONO-ITALYA-0929",
+   "yerler": [
+    "Herseknovi",
+    "Nikarya",
+    "Butrint 1386",
+    "Parga",
+    "Bodrum",
+    "Zadar/Nadin/Vrana",
+    "Şibenik",
+    "Split/Kotor",
+    "Fornoz",
+    "Sin",
+    "Elafonisos",
+    "Damala/Ermiyoni/Kranidi/Methana",
+    "Karistos"
+   ],
+   "ozet": "kaynak bulunamadı",
+   "kaynak": "",
+   "niye": "kaynak bulunamadı"
+  },
+  {
+   "id": "KAF-10",
+   "nereden": "KRONO-KAFKAS-0929",
+   "yerler": [
+    "Kutaisi",
+    "Revan 1751",
+    "Revan zend 1747"
+   ],
+   "ozet": "gözlem, öneri değil",
+   "kaynak": "",
+   "niye": "gözlem, öneri değil"
+  },
+  {
+   "id": "KUZ-6",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Iğdır",
+    "Hopa",
+    "Sarp",
+    "Pinsk",
+    "Rivne"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "KUZ-9",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Taraz",
+    "Sayram",
+    "Almalık",
+    "Horog",
+    "Gunt",
+    "Rûşan",
+    "İşkâşim"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "KUZ-13",
+   "nereden": "KRONO-KUZEY-0929",
+   "yerler": [
+    "Kurgan",
+    "Essey",
+    "Kirensk",
+    "Volochanka",
+    "19 bulunamadı",
+    "14 zayıf"
+   ],
+   "ozet": "kaynak bulunamadı / zayıf",
+   "kaynak": "",
+   "niye": "kaynak bulunamadı / zayıf"
+  },
+  {
+   "id": "MAG-B",
+   "nereden": "KRONO-MAGRIB-0929",
+   "yerler": [
+    "Mustaganem",
+    "Cicel",
+    "Vargla",
+    "Sûvayra",
+    "Mazagan",
+    "Şefşâven",
+    "…"
+   ],
+   "ozet": "bulunamadı",
+   "kaynak": "",
+   "niye": "bulunamadı"
+  },
+  {
+   "id": "ORA-Y46",
+   "nereden": "KRONO-ORTA-AVRUPA-0929",
+   "yerler": [
+    "Kassa",
+    "Alman sömürgeleri",
+    "Sion",
+    "Martigny",
+    "Brixen",
+    "Eisenstadt"
+   ],
+   "ozet": "öneri yok / kapsam dışı",
+   "kaynak": "",
+   "niye": "öneri yok / kapsam dışı"
+  },
+  {
+   "id": "OSC-7",
+   "nereden": "KRONO-OSMANLI-CEVRE-0929",
+   "yerler": [
+    "Sivrihisar",
+    "Çankırı",
+    "Masira",
+    "Nizva",
+    "Salala",
+    "Buraydâ…(8)",
+    "Maan",
+    "Medâin-i Sâlih",
+    "Tebük",
+    "el-Ulâ",
+    "el-Vech"
+   ],
+   "ozet": "ölçülemedi",
+   "kaynak": "",
+   "niye": "ölçülemedi"
+  },
+  {
+   "id": "TUN-7",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Yaş",
+    "Bükreş"
+   ],
+   "ozet": "1769-1774 isg — gün bulunamadı",
+   "kaynak": "",
+   "niye": "1769-1774 isg — gün bulunamadı"
+  },
+  {
+   "id": "TUN-9",
+   "nereden": "KRONO-TUNA-0929",
+   "yerler": [
+    "Yergöğü 1450",
+    "Silistre",
+    "Hotin",
+    "İbrail 1538",
+    "Lugos",
+    "Orsova",
+    "Temeşvar"
+   ],
+   "ozet": "dokunulmasın / ölçülmedi",
+   "kaynak": "",
+   "niye": "dokunulmasın / ölçülmedi"
+  }
+ ],
+ "koordinat_kaynaksiz": [
+  {
+   "id": "AMG-3",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Tacna"
+   ],
+   "ozet": "YENİ NOKTA -18.01,-70.25 · s önerisi: peru-cumhuriyeti (Şili işgali 1880-1929)",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Tacna",
+   "lat": -18.01,
+   "lon": -70.25,
+   "suzgec": {
+    "ad": "Tacna",
+    "lat": -18.01,
+    "lon": -70.25,
+    "ad_eslesme": [],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-4",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Arica"
+   ],
+   "ozet": "YENİ NOKTA -18.48,-70.31 · s önerisi: peru-cumhuriyeti (Şili işgali)",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Arica",
+   "lat": -18.48,
+   "lon": -70.31,
+   "suzgec": {
+    "ad": "Arica",
+    "lat": -18.48,
+    "lon": -70.31,
+    "ad_eslesme": [
+     "Ica (Villa de Valverde)"
+    ],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-5",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Valparaíso"
+   ],
+   "ozet": "YENİ NOKTA -33.05,-71.61 · s önerisi: sili-cumhuriyeti",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Valparaíso",
+   "lat": -33.05,
+   "lon": -71.61,
+   "suzgec": {
+    "ad": "Valparaíso",
+    "lat": -33.05,
+    "lon": -71.61,
+    "ad_eslesme": [],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-6",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Callao"
+   ],
+   "ozet": "YENİ NOKTA -12.06,-77.12 · s önerisi: ispanyol-peru → 1826-01-23 peru-cumhuriyeti",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Callao",
+   "lat": -12.06,
+   "lon": -77.12,
+   "suzgec": {
+    "ad": "Callao",
+    "lat": -12.06,
+    "lon": -77.12,
+    "ad_eslesme": [],
+    "yakin_25km": [
+     [
+      8.5,
+      "Lima (Ciudad de los Reyes)"
+     ]
+    ],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-7",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Ancud"
+   ],
+   "ozet": "YENİ NOKTA -41.87,-73.83 · s önerisi: paket: Castro (Chiloé) yeterli olabilir",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Ancud",
+   "lat": -41.87,
+   "lon": -73.83,
+   "suzgec": {
+    "ad": "Ancud",
+    "lat": -41.87,
+    "lon": -73.83,
+    "ad_eslesme": [],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-8",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Recife"
+   ],
+   "ozet": "YENİ NOKTA -8.05,-34.88 · s önerisi: portekiz-brezilyasi / hollanda-brezilyasi 1630-1654",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Recife",
+   "lat": -8.05,
+   "lon": -34.88,
+   "suzgec": {
+    "ad": "Recife",
+    "lat": -8.05,
+    "lon": -34.88,
+    "ad_eslesme": [
+     "İfe (Ile-Ife)"
+    ],
+    "yakin_25km": [
+     [
+      5.3,
+      "Olinda"
+     ]
+    ],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-9",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Villarrica"
+   ],
+   "ozet": "YENİ NOKTA -39.29,-72.23 · s önerisi: mapuche-araukanya → 1883 sili-cumhuriyeti",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Villarrica",
+   "lat": -39.29,
+   "lon": -72.23,
+   "suzgec": {
+    "ad": "Villarrica",
+    "lat": -39.29,
+    "lon": -72.23,
+    "ad_eslesme": [
+     "Lâr",
+     "Ica (Villa de Valverde)"
+    ],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-10",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "San Miguel de Tucumán"
+   ],
+   "ozet": "YENİ NOKTA -26.81,-65.22 · s önerisi: arjantin-cumhuriyeti",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "San Miguel de Tucumán",
+   "lat": -26.81,
+   "lon": -65.22,
+   "suzgec": {
+    "ad": "San Miguel de Tucumán",
+    "lat": -26.81,
+    "lon": -65.22,
+    "ad_eslesme": [
+     "Uman",
+     "San Miguel (Aushiri)",
+     "San Miguel (Pachitea)",
+     "Man"
+    ],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  },
+  {
+   "id": "AMG-11",
+   "nereden": "KRONO-AMERIKA-G-0929",
+   "yerler": [
+    "Pisco"
+   ],
+   "ozet": "YENİ NOKTA -13.71,-76.2 · s önerisi: ispanyol-peru → 1821-07-28 peru-cumhuriyeti",
+   "kaynak": "koordinat: paket 'yaklaşık ±0.02°', kaynak yok; s: günleri çoğunda yok",
+   "not": "paket: 'gerçek noktasızlık artefaktı iddiası YOK' — odak adayı",
+   "ad": "Pisco",
+   "lat": -13.71,
+   "lon": -76.2,
+   "suzgec": {
+    "ad": "Pisco",
+    "lat": -13.71,
+    "lon": -76.2,
+    "ad_eslesme": [],
+    "yakin_25km": [],
+    "kara": true,
+    "kara_2km": true
+   },
+   "koordinat_kaynaksiz": true
+  }
+ ],
+ "yerlesim_son": {
+  "Akçahisar (Kruja)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1478-06-16",
+     "d": "arnavutluk"
+    },
+    {
+     "f": "1912-11-28",
+     "t": "1923-10-29",
+     "d": "arnavutluk-bagimsiz"
+    }
+   ],
+   "d": [
+    {
+     "f": "1478-06-16",
+     "t": "1912-11-28",
+     "y": "kusatma"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Andican": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1710-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1710-01-01",
+     "t": "1876-02-19",
+     "d": "hokand"
+    },
+    {
+     "f": "1876-02-19",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Annaba": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1534-09-22",
+     "d": "hafsi",
+     "kaynak": "TDV bune: Hafsî şehri"
+    },
+    {
+     "f": "1832-03-01",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1535-01-01",
+     "t": "1540-01-01",
+     "d": "ispanya",
+     "kaynak": "TDV bune: İspanyol garnizonu 1535-1540 — YIL"
+    }
+   ],
+   "d": [
+    {
+     "f": "1534-09-22",
+     "t": "1535-01-01"
+    },
+    {
+     "f": "1540-01-01",
+     "t": "1671-01-01"
+    }
+   ],
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-03-01",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "kid": "konstantin-beyligi",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Antigua Guatemala (Santiago de los Caballeros)": {
+   "dosya": "yerlesimler_amerika.js",
+   "s": [
+    {
+     "f": "1543-03-10",
+     "t": "1821-09-15",
+     "d": "yeni-ispanya"
+    },
+    {
+     "f": "1821-09-15",
+     "t": "1923-10-29",
+     "d": "guatemala"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Azemmûr": {
+   "dosya": "yerlesimler_ek3.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1513-09-03",
+     "d": "merini"
+    },
+    {
+     "f": "1513-09-03",
+     "t": "1541-01-01",
+     "d": "portekiz",
+     "enklav": true,
+     "kaynak": "Correia & Lopes (UMinho/CHAM): 1513, on September 3rd"
+    },
+    {
+     "f": "1541-01-01",
+     "t": "1549-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1923-10-29",
+     "d": "fas"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Baram (bölge)": {
+   "dosya": "yerlesimler_a78_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1368-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor"
+    },
+    {
+     "f": "1368-01-01",
+     "t": "1882-01-01",
+     "d": "brunei-sultanligi",
+     "kaynak": "IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"
+    },
+    {
+     "f": "1882-01-01",
+     "t": "1923-10-29",
+     "d": "sarawak-brooke",
+     "kaynak": "Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Batna": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1519-09-01",
+     "d": "zeyyani"
+    },
+    {
+     "f": "1844-02-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ],
+   "d": [
+    {
+     "f": "1519-09-01",
+     "t": "1671-01-01"
+    }
+   ],
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-02-12",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "kid": "konstantin-beyligi",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Belh": {
+   "dosya": "yerlesimler_ek16.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1506-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1506-01-01",
+     "t": "1509-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1509-01-01",
+     "t": "1514-08-23",
+     "d": "safevi"
+    },
+    {
+     "f": "1514-08-23",
+     "t": "1751-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1751-01-01",
+     "t": "1826-01-01",
+     "d": "afgan-durrani"
+    },
+    {
+     "f": "1826-01-01",
+     "t": "1841-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1841-01-01",
+     "t": "1923-10-29",
+     "d": "afganistan"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Benzert (Bizerte)": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1557-01-01",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1557-01-01",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Beyrut": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1516-09-27",
+     "d": "memluk"
+    },
+    {
+     "f": "1918-10-07",
+     "t": "1920-07-24",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1920-07-24",
+     "t": "1923-10-29",
+     "d": "suriye-lubnan-mandasi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1516-09-27",
+     "t": "1918-10-07"
+    }
+   ],
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1840-10-10",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ],
+   "isg": []
+  },
+  "Bin Gerdân": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Birlad (Bârlad)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1359-01-01",
+     "d": "altinorda",
+     "kaynak": "ÇIKARIM: TDV bogdan 'XIII. yüzyıldan itibaren de Tatarlar'la Gagauzlar'ın istilâsına uğrayan Moldavya' + TDV bucak (komşu). 1345-1359 Macar markı (Dragoş) yılı TDV'de bulunamadı · bitiş = künye bogdan f — DUNYA-0079"
+    },
+    {
+     "f": "1359-01-01",
+     "t": "1456-06-01",
+     "d": "bogdan"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1859-01-24",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-11-30",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan"
+    }
+   ]
+  },
+  "Brassó (Braşov)": {
+   "dosya": "yerlesimler_ek29.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-09-01",
+     "d": "macaristan"
+    },
+    {
+     "f": "1687-08-12",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan",
+     "kaynak": "History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "statu": "vassal"
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1687-08-12",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Broumov (Braunau)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-10-22",
+     "d": "almanya"
+    },
+    {
+     "f": "1526-10-22",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "cekoslovakya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Buhara": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Buzău": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+    }
+   ]
+  },
+  "Bâce (Béja)": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Bükreş": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1789-11-01",
+     "t": "1791-08-04",
+     "d": "avusturya",
+     "kesinlik": "ay",
+     "kaynak": "ESBE «Турецкие войны России» (Kasım başı J, Coburg) · zistovi-antlasmasi (4 Ağustos 1791, iade)"
+    },
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "eflak · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "eflak · edirne-antlasmasi · ESBE (25 Nisan J)"
+    }
+   ]
+  },
+  "Cendûbe": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Cerbe (Djerba)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1560-03-12",
+     "d": "hafsi"
+    },
+    {
+     "f": "1560-03-12",
+     "t": "1560-07-30",
+     "d": "ispanya",
+     "enklav": true,
+     "kaynak": "ENKLAV BEYANI: Haçlı donanmasının adada kurduğu kale garnizonu, İspanya'nın ana gövdesinden kopuk deniz aşırı işgal (TDV cerbe: 'orada çok muhkem bir kale inşa ettirdi') · TDV piyale-pasa '14 Cemâziyelâhir 967'de (12 Mart 1560) Cerbe adasını işgal etti' · TDV cerbe 'kale 30 Temmuz 1560 günü alındı' (GEMINI-DOGRULA 0919)"
+    }
+   ],
+   "d": [
+    {
+     "f": "1560-07-30",
+     "t": "1705-07-12",
+     "y": "savas"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Cerciş (Zarzis)": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Cheyenne (Wyoming)": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1867-07-04",
+     "t": "1923-10-29",
+     "d": "abd"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Cincinnati (Losantiville)": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1788-12-28",
+     "t": "1923-10-29",
+     "d": "abd"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Cizzah": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1866-10-18",
+     "d": "buhara"
+    },
+    {
+     "f": "1866-10-18",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Dawson City": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1896-08-16",
+     "t": "1923-10-29",
+     "d": "kanada"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Denver": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1858-11-22",
+     "t": "1923-10-29",
+     "d": "abd"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Divriği": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1335-01-01",
+     "d": "ilhanli"
+    },
+    {
+     "f": "1335-01-01",
+     "t": "1381-01-01",
+     "d": "eretna"
+    },
+    {
+     "f": "1381-01-01",
+     "t": "1398-01-01",
+     "d": "memluk"
+    },
+    {
+     "f": "1401-01-01",
+     "t": "1516-08-24",
+     "d": "memluk"
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye"
+    }
+   ],
+   "d": [
+    {
+     "f": "1398-01-01",
+     "t": "1401-01-01",
+     "y": "savas"
+    },
+    {
+     "f": "1516-08-24",
+     "t": "1920-04-23"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Dûz": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Erdel (Kaloşvar)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-09-01",
+     "d": "macaristan"
+    },
+    {
+     "f": "1687-08-12",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan",
+     "kaynak": "History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "k": "Erdel Prensliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1687-08-12",
+     "k": "Erdel Prensliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "k": "Macaristan (Zapolya vasal krallığı)",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Erdel Belgradı (Gyulafehérvár)": {
+   "dosya": "yerlesimler_ek29.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-09-01",
+     "d": "macaristan"
+    },
+    {
+     "f": "1687-08-12",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan",
+     "kaynak": "History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "statu": "vassal"
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1687-08-12",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Fort Vancouver": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1825-03-19",
+     "t": "1867-07-01",
+     "d": "ingiliz-kuzey-amerika"
+    },
+    {
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "d": "kanada"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Gabes": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Halkulvâdî": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1535-07-21",
+     "d": "hafsi"
+    },
+    {
+     "f": "1535-07-21",
+     "t": "1574-08-24",
+     "d": "ispanya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-24",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Hazârasp": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1379-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1379-01-01",
+     "t": "1505-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1505-01-01",
+     "t": "1512-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1512-01-01",
+     "t": "1740-01-01",
+     "d": "hive"
+    },
+    {
+     "f": "1740-01-01",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1920-04-26",
+     "d": "hive"
+    },
+    {
+     "f": "1920-04-26",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Hisar": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Hokand": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1710-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1710-01-01",
+     "t": "1876-02-19",
+     "d": "hokand"
+    },
+    {
+     "f": "1876-02-19",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Houston": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1836-08-30",
+     "t": "1845-12-29",
+     "d": "teksas-cumhuriyeti",
+     "kaynak": "Handbook of Texas «Houston, TX»: kuruluş ilanı 30 Ağustos 1836"
+    },
+    {
+     "f": "1845-12-29",
+     "t": "1923-10-29",
+     "d": "abd"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Hradec Králové": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-10-22",
+     "d": "almanya"
+    },
+    {
+     "f": "1526-10-22",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "cekoslovakya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Hucend": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1802-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1802-01-01",
+     "t": "1866-05-24",
+     "d": "hokand"
+    },
+    {
+     "f": "1866-05-24",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Hîve": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1379-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1379-01-01",
+     "t": "1505-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1505-01-01",
+     "t": "1512-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1512-01-01",
+     "t": "1740-01-01",
+     "d": "hive"
+    },
+    {
+     "f": "1740-01-01",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1920-04-26",
+     "d": "hive"
+    },
+    {
+     "f": "1920-04-26",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Kafsa": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kalas (Galatz)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1359-01-01",
+     "d": "altinorda",
+     "kaynak": "ÇIKARIM: TDV bogdan 'XIII. yüzyıldan itibaren de Tatarlar'la Gagauzlar'ın istilâsına uğrayan Moldavya' + TDV bucak (komşu). 1345-1359 Macar markı (Dragoş) yılı TDV'de bulunamadı · bitiş = künye bogdan f — DUNYA-0079"
+    },
+    {
+     "f": "1359-01-01",
+     "t": "1456-06-01",
+     "d": "bogdan"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1859-01-24",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-11-30",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan"
+    }
+   ]
+  },
+  "Kalyari (Cagliari)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1324-06-19",
+     "d": "piza",
+     "kaynak": "GEC 'conquesta de Sardenya': Pisa kalesi teslimi 19 Haziran 1324"
+    },
+    {
+     "f": "1324-06-19",
+     "t": "1479-01-20",
+     "d": "aragon"
+    },
+    {
+     "f": "1479-01-20",
+     "t": "1720-02-24",
+     "d": "ispanya",
+     "kaynak": "Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."
+    },
+    {
+     "f": "1720-02-24",
+     "t": "1861-03-17",
+     "d": "sardinya"
+    },
+    {
+     "f": "1861-03-17",
+     "t": "1923-10-29",
+     "d": "italya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Karahisâr-ı Sâhib (Afyon)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1341-01-01",
+     "d": "sahibata"
+    },
+    {
+     "f": "1341-01-01",
+     "t": "1390-01-01",
+     "d": "germiyan"
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1429-01-01",
+     "d": "germiyan"
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye"
+    }
+   ],
+   "d": [
+    {
+     "f": "1390-01-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1429-01-01",
+     "t": "1920-04-23",
+     "y": "antlasma"
+    }
+   ],
+   "v": [],
+   "isg": [
+    {
+     "f": "1921-03-23",
+     "t": "1921-04-07",
+     "d": "yunanistan",
+     "kaynak": "TDV milli-mucadele — 23 Mart'ta Bilecik ve Afyon'u işgal ettiler; 7 Nisan'da Afyon geri alındı"
+    }
+   ]
+  },
+  "Karşi (Nahşeb)": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Kasrayn": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kayrevan": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kef": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kelîbiye": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kerkene (Kerkennah)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kili": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1359-01-01",
+     "d": "altinorda",
+     "kaynak": "TDV bucak: '1241'den sonra Moğollar ve onların halefleri olan Altın Orda Hanlığı Bucak'a hâkim olmuşlardır' · TDV akkirman: '1241 yılında Moğollar'ın hâkimiyetine geçen' · bitiş = künye bogdan f (1359) — DUNYA-0079"
+    },
+    {
+     "f": "1359-01-01",
+     "t": "1448-01-01",
+     "d": "bogdan"
+    },
+    {
+     "f": "1448-01-01",
+     "t": "1456-06-01",
+     "d": "eflak",
+     "kaynak": "TDV kili: 1448'den sonra Eflak — YIL"
+    },
+    {
+     "f": "1812-05-28",
+     "t": "1856-03-30",
+     "d": "rusya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1918-01-01",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1918-01-01",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1484-07-15",
+     "t": "1812-05-28",
+     "y": "kusatma"
+    }
+   ],
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1465-01-24",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1465-01-24",
+     "t": "1484-07-15",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1856-03-30",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",
+     "statu": "vassal"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1790-10-24",
+     "t": "1792-01-09",
+     "d": "rusya",
+     "kaynak": "kili · ESBE «Килия» (13 Ekim J) · yas-antlasmasi"
+    },
+    {
+     "f": "1806-11-30",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "kili · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806)"
+    }
+   ]
+  },
+  "Konstantin": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1519-09-01",
+     "d": "zeyyani"
+    },
+    {
+     "f": "1837-10-13",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1526-01-01",
+     "t": "1527-01-01",
+     "d": "hafsi",
+     "kaynak": "TDV kostantine: 1526 Hafsî geri alışı, bir yıl sonra Osmanlı — YIL"
+    }
+   ],
+   "d": [
+    {
+     "f": "1519-09-01",
+     "t": "1526-01-01"
+    },
+    {
+     "f": "1527-01-01",
+     "t": "1671-01-01"
+    }
+   ],
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1837-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "kid": "konstantin-beyligi",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Kragujevac": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1439-08-27",
+     "d": "sirbistan"
+    },
+    {
+     "f": "1444-08-01",
+     "t": "1459-06-20",
+     "d": "sirp-despotlugu"
+    },
+    {
+     "f": "1689-09-24",
+     "t": "1690-09-09",
+     "d": "avusturya"
+    },
+    {
+     "f": "1717-08-18",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1882-03-06",
+     "d": "sirbistan-prensligi"
+    },
+    {
+     "f": "1882-03-06",
+     "t": "1918-12-01",
+     "d": "sirbistan-kralligi"
+    },
+    {
+     "f": "1918-12-01",
+     "t": "1923-10-29",
+     "d": "yugoslavya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1439-08-27",
+     "t": "1444-08-01"
+    },
+    {
+     "f": "1459-06-20",
+     "t": "1689-09-24"
+    },
+    {
+     "f": "1690-09-09",
+     "t": "1717-08-18"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1830-10-17"
+    }
+   ],
+   "v": [
+    {
+     "f": "1830-10-17",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ],
+   "isg": []
+  },
+  "Krayova (Craiova)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1718-07-21",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    }
+   ]
+  },
+  "Köhne Ürgenç (Gürgenç)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1379-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1379-01-01",
+     "t": "1505-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1505-01-01",
+     "t": "1512-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1512-01-01",
+     "t": "1740-01-01",
+     "d": "hive"
+    },
+    {
+     "f": "1740-01-01",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1920-04-26",
+     "d": "hive"
+    },
+    {
+     "f": "1920-04-26",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Külâb (Kulob)": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Küngrat": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1379-01-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1379-01-01",
+     "t": "1505-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1505-01-01",
+     "t": "1512-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1512-01-01",
+     "t": "1740-01-01",
+     "d": "hive"
+    },
+    {
+     "f": "1740-01-01",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1920-04-26",
+     "d": "hive"
+    },
+    {
+     "f": "1920-04-26",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Kıbillî (Nefzâve)": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Kımpulung (Câmpulung)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+    }
+   ]
+  },
+  "Limni": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1479-01-25",
+     "d": "bizans"
+    },
+    {
+     "f": "1656-07-13",
+     "t": "1657-11-15",
+     "d": "venedik",
+     "kaynak": "gün komşudan: Bozcaada · TDV bozcaada (21 Ramazan 1066 / 13 Temmuz 1656); TDV limni yalnız 1656 Temmuzu diyor — aynı Venedik harekâtı (TDV mehmed-iv)"
+    },
+    {
+     "f": "1923-07-24",
+     "t": "1923-10-29",
+     "d": "yunanistan"
+    }
+   ],
+   "d": [
+    {
+     "f": "1479-01-25",
+     "t": "1656-07-13"
+    },
+    {
+     "f": "1657-11-15",
+     "t": "1923-07-24"
+    }
+   ],
+   "v": [],
+   "isg": [
+    {
+     "f": "1912-10-21",
+     "t": "1923-07-24",
+     "d": "yunanistan",
+     "kaynak": "TDV limni: 'Limni 21 Ekim 1912'de Yunanlılar tarafından işgal edildi'"
+    }
+   ]
+  },
+  "Louisville": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1778-05-27",
+     "t": "1923-10-29",
+     "d": "abd"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Medenîn": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Mehdiye": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Mekter (Maktar)": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Mersa'l-Kebîr": {
+   "dosya": "yerlesimler_ek3.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1509-05-17",
+     "d": "zeyyani"
+    },
+    {
+     "f": "1509-05-17",
+     "t": "1708-04-04",
+     "d": "ispanya",
+     "enklav": true
+    },
+    {
+     "f": "1732-07-01",
+     "t": "1792-09-12",
+     "d": "ispanya",
+     "enklav": true
+    },
+    {
+     "f": "1831-01-04",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ],
+   "d": [
+    {
+     "f": "1708-04-04",
+     "t": "1732-07-01",
+     "y": "kusatma"
+    },
+    {
+     "f": "1792-09-12",
+     "t": "1831-01-04",
+     "y": "antlasma"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Mersin": {
+   "dosya": "yerlesimler_ek27.js",
+   "s": [
+    {
+     "f": "1918-12-17",
+     "t": "1921-10-20",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1921-10-20",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye"
+    }
+   ],
+   "d": [
+    {
+     "f": "1671-01-01",
+     "t": "1918-12-17"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Metlâvî": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Muaskar": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1552-01-01",
+     "d": "zeyyani"
+    },
+    {
+     "f": "1832-11-22",
+     "t": "1841-05-30",
+     "d": "abdulkadir"
+    },
+    {
+     "f": "1841-05-30",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ],
+   "d": [
+    {
+     "f": "1552-01-01",
+     "t": "1671-01-01"
+    }
+   ],
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Munastır": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Mâtir (Mateur)": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Nefta": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Niah kıyısı (bölge)": {
+   "dosya": "yerlesimler_a78_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1368-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "brunei-sultanligi künyesi 1368'de başlıyor"
+    },
+    {
+     "f": "1368-01-01",
+     "t": "1882-01-01",
+     "d": "brunei-sultanligi",
+     "kaynak": "IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"
+    },
+    {
+     "f": "1882-01-01",
+     "t": "1923-10-29",
+     "d": "sarawak-brooke",
+     "kaynak": "Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Nâbil (Nabeul)": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Oran": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1509-05-17",
+     "d": "zeyyani"
+    },
+    {
+     "f": "1509-05-17",
+     "t": "1708-04-04",
+     "d": "ispanya",
+     "enklav": true
+    },
+    {
+     "f": "1732-07-01",
+     "t": "1792-09-12",
+     "d": "ispanya",
+     "enklav": true
+    },
+    {
+     "f": "1831-01-04",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ],
+   "d": [
+    {
+     "f": "1708-04-04",
+     "t": "1732-07-01",
+     "y": "kusatma"
+    },
+    {
+     "f": "1792-09-12",
+     "t": "1831-01-04",
+     "y": "antlasma"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Oş": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1710-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1710-01-01",
+     "t": "1876-02-19",
+     "d": "hokand"
+    },
+    {
+     "f": "1876-02-19",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Piteşti": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+    }
+   ]
+  },
+  "Prag": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-10-22",
+     "d": "almanya"
+    },
+    {
+     "f": "1526-10-22",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "cekoslovakya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Revan": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1340-01-01",
+     "d": "ilhanli"
+    },
+    {
+     "f": "1340-01-01",
+     "t": "1386-01-01",
+     "d": "celayirli"
+    },
+    {
+     "f": "1386-01-01",
+     "t": "1406-10-21",
+     "d": "timurlu"
+    },
+    {
+     "f": "1406-10-21",
+     "t": "1468-04-01",
+     "d": "karakoyunlu"
+    },
+    {
+     "f": "1468-04-01",
+     "t": "1501-07-01",
+     "d": "akkoyunlu"
+    },
+    {
+     "f": "1501-07-01",
+     "t": "1736-03-08",
+     "d": "safevi"
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1794-01-01",
+     "d": "zend"
+    },
+    {
+     "f": "1794-01-01",
+     "t": "1828-02-22",
+     "d": "kacar"
+    },
+    {
+     "f": "1828-02-22",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1918-05-28",
+     "d": "transkafkasya"
+    },
+    {
+     "f": "1918-05-28",
+     "t": "1920-12-02",
+     "d": "ermenistan-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1920-12-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1583-09-13",
+     "t": "1604-06-08",
+     "kaynak": "TDV revan: '991 Ramazanı başlarında (Eylül 1583 ortaları) Osmanlılar tarafından kontrol altına alındı' · fetih günü kaynakta yok; 13 Eylül 1583 = Revan'a yürüme/kale yapma EMRİ (Adlığ 2026, BOA A.DVNSMHM.d 51-322) — 1.MURAT kararı ③"
+    },
+    {
+     "f": "1635-08-08",
+     "t": "1636-04-01"
+    },
+    {
+     "f": "1724-10-03",
+     "t": "1735-10-03",
+     "kaynak": "Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (3 Ekim 1724, BOA MD 132) · TDV nadir-sah--iran (3 Ekim 1735)"
+    }
+   ],
+   "v": [],
+   "isg": [
+    {
+     "f": "1827-10-13",
+     "t": "1828-02-22",
+     "d": "rusya",
+     "kaynak": "TDV revan: 'ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827)'"
+    }
+   ]
+  },
+  "Rimnik (Râmnicu Vâlcea)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1718-07-21",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    }
+   ]
+  },
+  "Rimnik-i Sârat (Râmnicu Sărat)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+    }
+   ]
+  },
+  "Roman": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1359-01-01",
+     "d": "altinorda",
+     "kaynak": "ÇIKARIM: TDV bogdan 'XIII. yüzyıldan itibaren de Tatarlar'la Gagauzlar'ın istilâsına uğrayan Moldavya' + TDV bucak (komşu). 1345-1359 Macar markı (Dragoş) yılı TDV'de bulunamadı · bitiş = künye bogdan f — DUNYA-0079"
+    },
+    {
+     "f": "1359-01-01",
+     "t": "1456-06-01",
+     "d": "bogdan"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1859-01-24",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-11-30",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan"
+    }
+   ]
+  },
+  "Safi (Asfi)": {
+   "dosya": "yerlesimler_ek3.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1488-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1488-01-01",
+     "t": "1541-01-01",
+     "d": "portekiz",
+     "enklav": true
+    },
+    {
+     "f": "1541-01-01",
+     "t": "1549-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1923-10-29",
+     "d": "fas"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Sayram (İsficâb)": {
+   "dosya": "yerlesimler_ok107.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1598-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1598-01-01",
+     "t": "1815-01-01",
+     "d": "kazak-hanligi"
+    },
+    {
+     "f": "1815-01-01",
+     "t": "1864-09-22",
+     "d": "hokand"
+    },
+    {
+     "f": "1864-09-22",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Seattle (Duwamish)": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1851-11-13",
+     "t": "1923-10-29",
+     "d": "abd"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Segesvár (Sighişoara)": {
+   "dosya": "yerlesimler_ek29.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-09-01",
+     "d": "macaristan"
+    },
+    {
+     "f": "1687-08-12",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan",
+     "kaynak": "History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "statu": "vassal"
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1687-08-12",
+     "statu": "vassal"
+    }
+   ],
+   "isg": []
+  },
+  "Semadirek": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1456-01-24",
+     "d": "ceneviz"
+    },
+    {
+     "f": "1656-07-13",
+     "t": "1657-11-15",
+     "d": "venedik"
+    },
+    {
+     "f": "1923-07-24",
+     "t": "1923-10-29",
+     "d": "yunanistan"
+    }
+   ],
+   "d": [
+    {
+     "f": "1456-01-24",
+     "t": "1656-07-13"
+    },
+    {
+     "f": "1657-11-15",
+     "t": "1923-07-24"
+    }
+   ],
+   "v": [],
+   "isg": [
+    {
+     "f": "1912-11-01",
+     "t": "1923-07-24",
+     "d": "yunanistan",
+     "kaynak": "TDV semadirek: '1 Kasım 1912'de Yunanistan tarafından işgal edildi'"
+    }
+   ]
+  },
+  "Semerkant": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1868-05-14",
+     "d": "buhara"
+    },
+    {
+     "f": "1868-05-14",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Serez": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1345-09-25",
+     "d": "bizans"
+    },
+    {
+     "f": "1345-09-25",
+     "t": "1383-09-19",
+     "d": "sirbistan"
+    },
+    {
+     "f": "1913-05-30",
+     "t": "1913-08-10",
+     "d": "bulgaristan-kralligi"
+    },
+    {
+     "f": "1913-08-10",
+     "t": "1923-10-29",
+     "d": "yunanistan"
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1410-02-13",
+     "d": "suleyman-celebi"
+    },
+    {
+     "f": "1410-02-13",
+     "t": "1410-06-15",
+     "d": "musa-celebi"
+    },
+    {
+     "f": "1410-06-15",
+     "t": "1411-02-17",
+     "d": "suleyman-celebi"
+    },
+    {
+     "f": "1411-02-17",
+     "t": "1413-07-05",
+     "d": "musa-celebi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1383-09-19",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1413-07-05",
+     "t": "1913-05-30"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Sfaks": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Slatina": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    }
+   ]
+  },
+  "St. Louis": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1764-02-14",
+     "t": "1804-03-10",
+     "d": "yeni-ispanya"
+    },
+    {
+     "f": "1804-03-10",
+     "t": "1923-10-29",
+     "d": "abd",
+     "kaynak": "Louisiana devri 1803-12-20 (New Orleans); St. Louis hiç Meksika olmadı. Yukarı Louisiana töreni 1804-03-10 kaynakla DOĞRULANMADI — DUNYA-0079"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Sîdî Bû Zeyd": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Sûse": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Sübaytıla": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Tanca": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1471-08-28",
+     "d": "merini"
+    },
+    {
+     "f": "1471-08-28",
+     "t": "1662-01-30",
+     "d": "portekiz",
+     "enklav": true
+    },
+    {
+     "f": "1662-01-30",
+     "t": "1684-01-01",
+     "d": "ingiltere",
+     "enklav": true
+    },
+    {
+     "f": "1684-01-01",
+     "t": "1923-10-29",
+     "d": "fas"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Taraz (Evliya-Ata)": {
+   "dosya": "yerlesimler_ok107.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1598-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1598-01-01",
+     "t": "1815-01-01",
+     "d": "kazak-hanligi"
+    },
+    {
+     "f": "1815-01-01",
+     "t": "1864-09-22",
+     "d": "hokand"
+    },
+    {
+     "f": "1864-09-22",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Tatavin": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Taşkent": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1503-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1503-01-01",
+     "t": "1809-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1809-01-01",
+     "t": "1865-06-17",
+     "d": "hokand"
+    },
+    {
+     "f": "1865-06-17",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Taşoz": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1455-01-01",
+     "d": "ceneviz"
+    },
+    {
+     "f": "1923-07-24",
+     "t": "1923-10-29",
+     "d": "yunanistan"
+    }
+   ],
+   "d": [
+    {
+     "f": "1455-01-01",
+     "t": "1923-07-24"
+    }
+   ],
+   "v": [],
+   "isg": [
+    {
+     "f": "1912-10-30",
+     "t": "1923-07-24",
+     "d": "yunanistan",
+     "kaynak": "TDV tasoz: '30 Ekim 1912'de Yunanistan Taşoz'u … işgal etti'"
+    }
+   ]
+  },
+  "Termez": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Testûr": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Tiflis": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1801-09-12",
+     "d": "gurcistan"
+    },
+    {
+     "f": "1801-09-12",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1918-05-26",
+     "d": "transkafkasya"
+    },
+    {
+     "f": "1918-05-26",
+     "t": "1921-02-25",
+     "d": "gurcistan-demokratik-cumhuriyeti",
+     "kaynak": "TDV tiflis: '26 Mayıs'ta … bağımsız Gürcistan Devleti'ni kurdular ve Tiflis'i başşehir yaptılar' · bitiş TDV acara: 'Gürcistan 25 Şubat 1921'de Bolşevikler tarafından işgal edilerek'"
+    },
+    {
+     "f": "1921-02-25",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1578-08-24",
+     "t": "1606-01-01",
+     "y": "savas",
+     "kaynak": "TDV tiflis: Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos'ta Tiflis'e ulaştı ve boşaltılmış kaleyi ele geçirdi · TDV gurcistan: 24 Ağustos'ta Tiflis şehrini savaşsız ele geçirdiler"
+    },
+    {
+     "f": "1723-06-15",
+     "t": "1735-08-12",
+     "y": "kusatma"
+    }
+   ],
+   "v": [],
+   "isg": []
+  },
+  "Tozer": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Tunus": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1534-09-22",
+     "d": "hafsi"
+    },
+    {
+     "f": "1535-07-21",
+     "t": "1569-01-01",
+     "d": "hafsi"
+    },
+    {
+     "f": "1573-10-10",
+     "t": "1574-09-12",
+     "d": "ispanya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1534-09-22",
+     "t": "1535-07-21",
+     "y": "savas"
+    },
+    {
+     "f": "1569-01-01",
+     "t": "1573-10-10",
+     "y": "fetih"
+    },
+    {
+     "f": "1574-09-12",
+     "t": "1705-07-12",
+     "y": "savas"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Turnu Severin": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1718-07-21",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    }
+   ]
+  },
+  "Türkistan (Yesi)": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1598-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1598-01-01",
+     "t": "1815-01-01",
+     "d": "kazak-hanligi"
+    },
+    {
+     "f": "1815-01-01",
+     "t": "1864-06-12",
+     "d": "hokand"
+    },
+    {
+     "f": "1864-06-12",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Tırgovişte": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+    }
+   ]
+  },
+  "Tırgu Jiu": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1718-07-21",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1806-12-25",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "eflak · gün komşudan: Bükreş · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"
+    }
+   ]
+  },
+  "Tıtvân (Tetuan)": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1484-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1923-10-29",
+     "d": "fas"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": [
+    {
+     "f": "1860-02-05",
+     "t": "1862-01-01",
+     "d": "ispanya",
+     "kaynak": "TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"
+    }
+   ]
+  },
+  "Třeboň (Wittingau)": {
+   "dosya": "yerlesimler_a78_avrupa.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-10-22",
+     "d": "almanya"
+    },
+    {
+     "f": "1526-10-22",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "cekoslovakya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Victoria (Fort Victoria)": {
+   "dosya": "yerlesimler_kamerika.js",
+   "s": [
+    {
+     "f": "1843-06-10",
+     "t": "1867-07-01",
+     "d": "ingiliz-kuzey-amerika"
+    },
+    {
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "d": "kanada"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Vidin": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1365-01-01",
+     "d": "bulgaristan"
+    },
+    {
+     "f": "1365-01-01",
+     "t": "1369-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV vidin (M. Kiel 2013): 1365 Macarlar aldı, 1369 geri alındı — YIL"
+    },
+    {
+     "f": "1369-01-01",
+     "t": "1396-10-01",
+     "d": "bulgaristan"
+    },
+    {
+     "f": "1689-10-01",
+     "t": "1690-09-09",
+     "d": "avusturya",
+     "kesinlik": "ay"
+    },
+    {
+     "f": "1908-10-05",
+     "t": "1923-10-29",
+     "d": "bulgaristan-kralligi"
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1410-02-13",
+     "d": "suleyman-celebi"
+    },
+    {
+     "f": "1410-02-13",
+     "t": "1410-06-15",
+     "d": "musa-celebi"
+    },
+    {
+     "f": "1410-06-15",
+     "t": "1411-02-17",
+     "d": "suleyman-celebi"
+    },
+    {
+     "f": "1411-02-17",
+     "t": "1413-07-05",
+     "d": "musa-celebi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1396-10-01",
+     "t": "1402-07-28",
+     "y": "ilhak"
+    },
+    {
+     "f": "1413-07-05",
+     "t": "1689-10-01"
+    },
+    {
+     "f": "1690-09-09",
+     "t": "1878-07-13"
+    }
+   ],
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ],
+   "isg": []
+  },
+  "Yagodina (Jagodina)": {
+   "dosya": "yerlesimler_ek29.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1439-08-27",
+     "d": "sirbistan"
+    },
+    {
+     "f": "1444-08-01",
+     "t": "1459-06-20",
+     "d": "sirp-despotlugu"
+    },
+    {
+     "f": "1689-09-24",
+     "t": "1690-09-09",
+     "d": "avusturya"
+    },
+    {
+     "f": "1717-08-18",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1882-03-06",
+     "d": "sirbistan-prensligi"
+    },
+    {
+     "f": "1882-03-06",
+     "t": "1918-12-01",
+     "d": "sirbistan-kralligi"
+    },
+    {
+     "f": "1918-12-01",
+     "t": "1923-10-29",
+     "d": "yugoslavya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1439-08-27",
+     "t": "1444-08-01"
+    },
+    {
+     "f": "1459-06-20",
+     "t": "1689-09-24"
+    },
+    {
+     "f": "1690-09-09",
+     "t": "1717-08-18"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1830-10-17"
+    }
+   ],
+   "v": [
+    {
+     "f": "1830-10-17",
+     "t": "1878-07-13"
+    }
+   ],
+   "isg": []
+  },
+  "Yaş": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1359-01-01",
+     "d": "altinorda",
+     "kaynak": "ÇIKARIM: TDV bogdan 'XIII. yüzyıldan itibaren de Tatarlar'la Gagauzlar'ın istilâsına uğrayan Moldavya' + TDV bucak (komşu). 1345-1359 Macar markı (Dragoş) yılı TDV'de bulunamadı · bitiş = künye bogdan f — DUNYA-0079"
+    },
+    {
+     "f": "1359-01-01",
+     "t": "1456-06-01",
+     "d": "bogdan"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1859-01-24",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1739-09-12",
+     "t": "1739-09-18",
+     "d": "rusya",
+     "kaynak": "ESBE «Турецкие войны России» (1 Eylül J) · ESBE «Белградский мир»"
+    },
+    {
+     "f": "1806-11-30",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "bogdan"
+    },
+    {
+     "f": "1828-05-07",
+     "t": "1834-01-01",
+     "d": "rusya",
+     "kaynak": "bogdan · edirne-antlasmasi · ESBE (25 Nisan J)"
+    }
+   ]
+  },
+  "Yergöğü (Giurgiu)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1420-01-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1427-01-01",
+     "t": "1450-01-01",
+     "d": "eflak",
+     "kaynak": "TDV yergogu: '1427'de Eflaklılar Giurgiu Kalesi'ni geri aldı'"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1420-01-01",
+     "t": "1427-01-01"
+    },
+    {
+     "f": "1450-01-01",
+     "t": "1829-09-14",
+     "y": "savas",
+     "kaynak": "TDV yergogu: 'Ancak 853'te (1449) burası tekrar Osmanlı kontrolü altına girdi' — 853 H = 24.02.1449-13.02.1450, YIL"
+    }
+   ],
+   "v": [
+    {
+     "f": "1829-09-14",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1810-09-27",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "yergogu · ESBE «Турецкие войны России» (15 Eylül J) · Bükreş Antlaşması (iade ÇIKARIMLI)"
+    }
+   ]
+  },
+  "Zagem (Kaheti)": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1801-09-12",
+     "d": "gurcistan"
+    },
+    {
+     "f": "1801-09-12",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1918-05-26",
+     "d": "transkafkasya"
+    },
+    {
+     "f": "1918-05-26",
+     "t": "1921-02-25",
+     "d": "gurcistan-demokratik-cumhuriyeti",
+     "kaynak": "TDV tiflis: '26 Mayıs'ta … bağımsız Gürcistan Devleti'ni kurdular ve Tiflis'i başşehir yaptılar' · bitiş TDV acara: 'Gürcistan 25 Şubat 1921'de Bolşevikler tarafından işgal edilerek'"
+    },
+    {
+     "f": "1921-02-25",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [
+    {
+     "f": "1578-08-24",
+     "t": "1606-01-01",
+     "k": "Kaheti krallığı (tâbi)",
+     "kid": "kaheti-kralligi",
+     "statu": "vassal",
+     "kaynak": "TDV gurcistan: 'Tiflis'in fethinden sonra İmeret ve Kahet yöneticileri Osmanlılar'a itaatlerini bildirdiler' — gün komşudan: Tiflis · TDV tiflis (24 Ağustos 1578); değer EN ERKEN sınırdır"
+    }
+   ],
+   "isg": []
+  },
+  "Zağvân": {
+   "dosya": "yerlesimler_afrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Çaçak": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1439-08-27",
+     "d": "sirbistan"
+    },
+    {
+     "f": "1444-08-01",
+     "t": "1459-06-20",
+     "d": "sirp-despotlugu"
+    },
+    {
+     "f": "1689-09-24",
+     "t": "1690-09-09",
+     "d": "avusturya"
+    },
+    {
+     "f": "1717-08-18",
+     "t": "1739-09-18",
+     "d": "avusturya"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1882-03-06",
+     "d": "sirbistan-prensligi"
+    },
+    {
+     "f": "1882-03-06",
+     "t": "1918-12-01",
+     "d": "sirbistan-kralligi"
+    },
+    {
+     "f": "1918-12-01",
+     "t": "1923-10-29",
+     "d": "yugoslavya"
+    }
+   ],
+   "d": [
+    {
+     "f": "1439-08-27",
+     "t": "1444-08-01"
+    },
+    {
+     "f": "1459-06-20",
+     "t": "1689-09-24"
+    },
+    {
+     "f": "1690-09-09",
+     "t": "1717-08-18"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1830-10-17"
+    }
+   ],
+   "v": [
+    {
+     "f": "1830-10-17",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ],
+   "isg": []
+  },
+  "Çimkent": {
+   "dosya": "yerlesimler_ek15.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1598-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1598-01-01",
+     "t": "1815-01-01",
+     "d": "kazak-hanligi"
+    },
+    {
+     "f": "1815-01-01",
+     "t": "1864-09-22",
+     "d": "hokand"
+    },
+    {
+     "f": "1864-09-22",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "České Budějovice (Budweis)": {
+   "dosya": "yerlesimler_a78_avrupa.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-10-22",
+     "d": "almanya"
+    },
+    {
+     "f": "1526-10-22",
+     "t": "1918-11-11",
+     "d": "avusturya"
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "cekoslovakya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  },
+  "Ğar Dimâv": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "Ğâru'l-Melh (Porto Farina)": {
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1574-08-25",
+     "d": "hafsi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1574-08-25",
+     "t": "1705-07-12"
+    }
+   ],
+   "v": [
+    {
+     "f": "1705-07-12",
+     "t": "1881-05-12",
+     "statu": "vassal",
+     "k": "Tunus Ocaklığı (Hüseynîler)",
+     "kid": "tunus-ocagi"
+    },
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "statu": "vassal",
+     "k": "Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)",
+     "kid": "tunus-beyligi-fransiz"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1881-05-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ]
+  },
+  "İbrail": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1330-01-01",
+     "d": "macaristan",
+     "kaynak": "TDV eflak: 'Eflak bu tarihlerde Macar hâkimiyetindeydi' · 1310 Basarab · 1330 Posada (bitiş = künye eflak f) — DUNYA-0079"
+    },
+    {
+     "f": "1330-01-01",
+     "t": "1462-06-01",
+     "d": "eflak"
+    },
+    {
+     "f": "1878-07-13",
+     "t": "1881-03-26",
+     "d": "romanya"
+    },
+    {
+     "f": "1881-03-26",
+     "t": "1923-10-29",
+     "d": "romanya-kralligi"
+    }
+   ],
+   "d": [
+    {
+     "f": "1538-09-01",
+     "t": "1829-09-14"
+    }
+   ],
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1538-09-01",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1829-09-14",
+     "t": "1859-01-24",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1859-01-24",
+     "t": "1878-07-13",
+     "k": "Birleşik Prenslikler (Romanya)",
+     "statu": "vassal",
+     "kid": "romanya"
+    }
+   ],
+   "isg": [
+    {
+     "f": "1809-12-02",
+     "t": "1812-05-28",
+     "d": "rusya",
+     "kaynak": "ibrail — TDV: «yiyecek sıkıntısı yüzünden 2 Aralık'ta General Essen'e teslim edildi» (1809 kuşatması)"
+    },
+    {
+     "f": "1828-06-23",
+     "t": "1829-09-14",
+     "d": "rusya"
+    }
+   ]
+  },
+  "İzmir": {
+   "dosya": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1329-01-01",
+     "d": "bizans"
+    },
+    {
+     "f": "1329-01-01",
+     "t": "1344-10-28",
+     "d": "aydin"
+    },
+    {
+     "f": "1344-10-28",
+     "t": "1402-12-01",
+     "d": "sovalye"
+    },
+    {
+     "f": "1402-12-01",
+     "t": "1415-06-01",
+     "d": "aydin"
+    },
+    {
+     "f": "1422-01-01",
+     "t": "1425-06-01",
+     "d": "aydin"
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye"
+    }
+   ],
+   "d": [
+    {
+     "f": "1415-06-01",
+     "t": "1422-01-01"
+    },
+    {
+     "f": "1425-06-01",
+     "t": "1920-04-23",
+     "y": "savas"
+    }
+   ],
+   "v": [],
+   "isg": [
+    {
+     "f": "1919-05-15",
+     "t": "1922-09-09",
+     "d": "yunanistan",
+     "kaynak": "TDV izmir — 15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali"
+    }
+   ]
+  },
+  "Şehrisebz (Kiş)": {
+   "dosya": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ],
+   "d": [],
+   "v": [],
+   "isg": []
+  }
+ }
+}
