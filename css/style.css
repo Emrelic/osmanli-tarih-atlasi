@@ -2925,7 +2925,9 @@ html::after {
               0 0 40px rgba(120,180,255,.25);
   animation: kureDon 9s linear infinite;
 }
-@keyframes kureDon { to { background-position: -360px 50%, 0 0; } }
+/* ACILIS-ANIM-0929: batıdan doğuya — şeritte batı solda, yakın yüzey soldan SAĞA
+   akmalı (eski `-360px` TERS döndürüyordu, ACILIS-ANIM-0081 §0). */
+@keyframes kureDon { to { background-position: 360px 50%, 0 0; } }
 /* Fırlayan haritalar: 10 silüet × 2 sn, küreden çıkıp büyüyerek söner */
 body::before {
   content: "";
@@ -2969,6 +2971,38 @@ html.atlas-hazir::before, html.atlas-hazir::after, html.atlas-hazir body::before
 @media (prefers-reduced-motion: reduce) {
   html::after, body::before { animation: none; }
 }
+/* ── ACILIS-ANIM-0929 — asıl perde: data/acilis_siluet.js kurar ─────────────
+   Yukarıdaki html::after küre + body::before silüet YEDEKTİR: betik yüklenmezse
+   onlar çalışır; betik kurulunca <html>'e `acilis-js` gelir ve yedek söner.
+   🔴 Canlandırma YALNIZ transform/opacity (Web Animations): perde süresinin ~%80'i
+   ana iş parçacığı kilidi (ölçüldü) — background-position canlandırması o sürede
+   DONUYORDU. Küre ve silüetler bileşik katmanda, kilit sürerken de akar.
+   z-index: #acilis 9000 = html::before ile eşit ama ağaçta sonra ⇒ zeminin
+   ÜSTÜNDE, geometri kapısı hata kutusunun (9999) ALTINDA. Silüet (1) kürenin (2)
+   ARKASINDAN çıkar. */
+html.acilis-js::after, html.acilis-js body::before { display: none; }
+#acilis { position: fixed; inset: 0; z-index: 9000; pointer-events: none; overflow: hidden; contain: strict; }
+#acilis .acilis-kure {
+  position: absolute; z-index: 2; border-radius: 50%; overflow: hidden;
+  background: #2c6e9e; box-shadow: 0 0 40px rgba(120,180,255,.25);
+}
+#acilis .acilis-serit {
+  position: absolute; left: 0; top: 0; height: 100%;
+  background-repeat: repeat-x; background-position: 0 50%;
+  will-change: transform;
+}
+#acilis .acilis-golge {
+  position: absolute; inset: 0; border-radius: 50%;
+  box-shadow: inset -28px -18px 40px rgba(0,0,0,.55), inset 10px 8px 24px rgba(255,255,255,.18);
+}
+#acilis .acilis-sil, .acilis-final {
+  position: absolute; z-index: 1; opacity: 0; will-change: transform, opacity;
+  /* filter: drop-shadow YOK — uçan katmanda her kare yeniden hesaplanıyor,
+     ölçüldü: atlas-hazir'ı ~2 sn geciktirdi. Gölge SVG'nin içine gömülü. */
+}
+.acilis-final { position: fixed; z-index: 9003; pointer-events: none; }
+/* app.js acilisBitir() çağıramazsa (hata) perde yine de kalkar: */
+html.atlas-hazir #acilis { opacity: 0; transition: opacity .3s; }
 
 /* ═══════════════════════════════════════════════════════════════════════
    ARAYUZ-0077 · H-0034 — İŞLEM SÜRÜYOR göstergesi

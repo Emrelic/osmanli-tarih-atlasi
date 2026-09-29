@@ -2925,6 +2925,10 @@ harita.on("load", function () {
   haritaHazir = true;
   // ARAYUZ-0077 H-0002 — açılış perdesini (css/style.css, saf CSS) kaldır.
   document.documentElement.classList.add("atlas-hazir");
+  // ACILIS-ANIM-0929 — serpilen haritalar perdesi (data/acilis_siluet.js): Türkiye
+  // finali + DOM'dan kaldırma. Beklemez; `atlas-hazir` damgası ölçüm içindir.
+  try { performance.mark("atlas-hazir"); } catch (e) { /* eski tarayıcı */ }
+  try { if (window.acilisBitir) window.acilisBitir(); } catch (e) { console.error("açılış perdesi kapatılamadı:", e); }
   aktifDonem = -1;
 
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — ekran görüntüsü almayı kolaylaştırmak
