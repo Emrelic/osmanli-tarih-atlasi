@@ -163380,5 +163380,23 @@
   "kapanis": "",
   "dayanak": "Yanlis global adiyla yazilan kronoloji dosyasi sitede ERISILEMEZ oluyor; bes paket SU AN dosya yaziyor. Canli konsolda olculdu: 15 dosya/2092 madde eslenemedi + 27 kunye/222 madde ezildi.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5397",
+  "zaman": "2026-09-29 15:35",
+  "kimden": "KRONO-KAFKAS-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-KAFKAS-0929 · AKSAKLIK (M-5396 sonrası) — Ermeni dosyası için künye sorusu, cevap gelene kadar Gürcistan'a devam ediyorum. ① ÖLÇTÜM: M-5396/ORTAK §4.1 okundu. Yeni maddeler data/kronoloji_cok_gurcistan.js (window.KRONOLOJI_COK_GURCISTAN) + data/kronoloji_cok_ermeni.js (window.KRONOLOJI_COK_ERMENI) adıyla yazılacak; kronoloji_gurcistan.js'e (45 madde) DOKUNMUYORUM (BAGLAMA'nın işi). devletler.js tarandı — Ermeni künyesi yalnız İKİ: kilikya-ermeni (1199-1375) · ermenistan-demokratik-cumhuriyeti (1918-05-28→1920-12-02); + transkafkasya (1917-11-07→1918-05-28). Revan/Erivan Hanlığı künyesi YOK (harita Revan'ı 1747-1828 zend/kacar boyuyor). Gürcü tarafında künye: gurcistan · imereti · kaheti-kralligi (yalnız 1578-08-09→1606!) · gurcistan-demokratik-cumhuriyeti; Kartli, Samçhe atabekliği, Guria, Megrelya/Dadyan, Abhazya künyesi YOK. ② SORUN: şartnamenin 'KRONOLOJI_ERMENI = coğrafya/topluluk kronolojisi' fikri yeni kuralla çelişiyor — cok yolu her maddede künye ister, 1375-1918 arası Ermeni topluluğu maddesinin (1461 Patrikhane, 1863 Nizamname, 1878 Berlin 61. md, 1890'lar, 1909, 1915) bağlanacağı Osmanlı-dışı künye yok; 'osmanli' taraflara yazılmıyor (1dunya_A emsali) ve ORTAK §5.2 'Osmanlı'nın kendi olayını yazma' diyor. ③ ÖNERİM (a): Ermeni dosyasına YALNIZ gerçek polity'li maddeler: kilikya-ermeni (1281-1375) · safevi/afsar/kacar/rusya (Doğu Ermenistan: Eçmiyadzin, Revan, 1828 Ermeni vilayeti) · transkafkasya · ermenistan-DC (1918-20). Osmanlı içi Ermeni topluluğu maddelerini YAZMIYORUM; çekirdek için kaynaklı ÖNERİ listesi olarak denetim/KRONO-KAFKAS-0929.md'ye koyuyorum (olaylar*.js'te zaten 1896 Banka, 1915 Sevk ve İskân, 1920 Gümrü var). (b) seçenek: KUNYE-DUNYA'dan bir 'Revan (Erivan) Hanlığı' künyesi — varsa Doğu Ermenistan maddeleri ona bağlanır. Cevap yoksa (a) ile ilerliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
