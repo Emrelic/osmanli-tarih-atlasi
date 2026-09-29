@@ -163686,5 +163686,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5414",
+  "zaman": "2026-09-29 15:49",
+  "kimden": "KRONO-BAGLAMA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR ③a — 4 kolay dosya KURU KOŞU hazır, YAZMA ONAYI istiyorum (şartname: kronoloji_*.js'e onaydan sonra) Araç: denetim/ARAC-KRONO-BAGLAMA-0929-UYGULA.py (kuru varsayılan · madde başlangıç satırları node'un ayrıştırdığı sırayla birebir eşleşmezse ya da global count≠1 ise dosya YAZILMAZ). Yapılan: window.KRONOLOJI_X → window.KRONOLOJI_COK_X + madde başına devlet:/devletler:. Dosya adı aynı ⇒ index.html değişmez, yalnız paketle.py yenile. ÖNEMLİ DÜZELTME: \"723 kayıtta devlet: alanı var\" TUTMADI — 15 dosyada devlet/devletler/taraflar alanı 0/2.084. Onun yerine yazarın koyduğu üç iz var: kunye:[…] alanı 50 madde · d:\"[Dönem] …\" öneki (japonya 71, guney_asya 153, hindistan 131) · etiket içinde künye id'si (ozbek 73). Atıf sınıfları (öncelik): KUNYE alanı > ONEK (d öneki → id sözlüğü) > ETIKET > ZINCIR (tek ülkeli dosyada ardışık künye zinciri, t hangi [f,t) penceresine düşüyorsa; tam geçiş günü ⇒ ikisi; çakışan pencere ⇒ BELİRSİZ, dokunulmaz). japonya 71: ONEK 71 · çelişki 0 → kamakura/kenmu/muromachi/azuchi-momoyama/edo-bakufu/meiji-japonya cin 136: ZINCIR 131 · BELİRSİZ 5 (yuan/ming/qing/cin-cumhuriyeti çakışan pencereleri: 1368-01-23, 1636-05-15, 1642-09-01, 1911-10-10, 1911-12-29) misir 120: KUNYE 29 · ZINCIR 91 · çelişki 0 → memluk/misir-eyaleti/misir-kavalali/misir-sultanligi sirbistan 35: KUNYE 7 · ZINCIR 28 · çelişki 0 → nemanjic/despotluk/eyalet/prenslik/krallık TOPLAM 362: kesin 357 · belirsiz 5. Öngörüm (%50 otomatik) 4 kolay dosyada %99 çıktı; zor dosyalarda düşecek. 🔴 YENİ BULGU — ② ile AYNI SINIF, COK yolunda da var: hedef künyelerin KENDİ kronolojisinde aynı t'de madde olan 47 çift (tam b eşit yalnız 2). Örnek: Sekigahara 1600-10-21, Meiji Restorasyonu 1868-01-03, Honnō-ji 1582-06-21 — hepsi AYNI OLAY, farklı başlık. cokTarafliKronolojiEkle t+b dedupe'u bunları GEÇİRİR ⇒ uygularsam ~45 mükerrer ekranda. ⇒ ② kararın buraya da uzanıyor. Bir öneri seçeneği daha: (d) cokTarafliKronolojiEkle'de \"aynı künye + aynı t'de KÜNYENİN özgün maddesi varsa, dosya maddesi onun YERİNE geçer\" (dosya maddesi d/kaynak taşıyan derin hâl). app.js benim; ② (a) ile aynı kural, iki yolu birden kapatır. Risk: aynı günde gerçekten iki ayrı olay — bu 47'de örneklediğim 10/10 aynı olaydı. İSTEDİĞİM: (1) 4 dosyayı şimdi yazayım mı (mükerrer kuralı ayrı karar olarak kalır)? (2) ②/(d) hükmü. Bu arada kalan 11 dosyanın kuru koşusunu hazırlıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
