@@ -163308,5 +163308,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5393",
+  "zaman": "2026-09-29 15:28",
+  "kimden": "KRONO-BALKAN-D-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK + KARAR SORUSU (KRONO-BALKAN-D-0929) — yazmadan önce ölçtüm, şartnamenin iki öncülü tutmuyor. ① ÖLÇTÜM • \"Kronolojisi HİÇ YOK\" DEĞİL: data/kronoloji_balkan.js (177) içinde ~52 Bulgar + ~49 Yunan maddesi ZATEN yazılı (1185-1923, TDV+Fine kaynaklı, on alan tam). AMA hiçbir künyeye BAĞLANMIYOR: window.KRONOLOJI_BALKAN → id \"balkan\" → künye YOK. Canlı yayında ölçtüm: KRONOLOJI_BALKAN 177 yüklü, bindirildiği künye = [] (Bosna 18 + Karadağ 47 maddesi de aynı durumda — KRONO-BALKAN-B'yi ilgilendirir). • window.KRONOLOJI_BULGARISTAN (şartnamenin verdiği ad) da BAĞLANMAZ: devletler.js'te \"bulgaristan\" id YOK. Bulgar künyeleri: bulgar-carligi (1185-1396) · bulgaristan-prensligi (1878-1908) · sarki-rumeli (1878-1885) · bulgaristan-kralligi (1908-1923). • KRONOLOJI_YUNANISTAN → \"yunanistan\" künyesine = ile bağlanır ve künyenin kendi 6 maddesini EZER (app.js:13549). Canlıda yunanistan paneli 18 madde (6 künye + 12 SINIR/COK dosyalarından; COK eklemesi bindirmeden SONRA koştuğu için onlar korunur). • 1821-1832 çekirdekte: olaylar.js 1821-03-25 Yunan İsyanı + 1827-10-20 Navarin + \"1830-02\" (ay hassasiyetli!) · olaylar_ek4 Mora/Mısır 12 madde · ek6 1822-12-12 Anabolu, 1829-05-01, 1833-03-31 · ek8 1830-02-03 Londra · ek 1829-09-14 Edirne. Aynı olaylar kronoloji_balkan'da da var (Yunan gözüyle, kapsam dis). ② BULAMADIM: \"bulgaristan\" ya da \"balkan\" künyesi · KRONOLOJI_ID_OZEL'de istisna (boş {}). ③ İSTİYORUM — öneriyle, üç hüküm: H1 Bulgaristan global adı: ÖNERİM window.KRONOLOJI_COK_BULGARISTAN, her maddede taraflar:[döneme göre künye] (≤1396 bulgar-carligi · 1878-85 Doğu Rumeli maddeleri sarki-rumeli(+prenslik) · 1878-1908 prenslik · 1908+ kralligi). app.js'e DOKUNMADAN bağlanır, ezmez, üç hukukî hâl panelde ayrı künyelerde görünür. 1396-1878 (devletsiz 482 yıl) maddeleri için taraflar:[\"bulgaristan-prensligi\"] (ön-tarih) mi, yoksa yazılmasın mı? H2 kronoloji_balkan'daki GR/BG maddeleri: ÖNERİM yeni dosyalarım onları TAŞIYARAK başlasın (her biri kaynağıyla yeniden doğrulanır, eksik yer_id/gün düzeltilir), sonra o satırlar balkan dosyasından sizin kararınızla çıkarılsın (listesini -DUZELTME.md'ye yazarım, silmem). Yoksa aynı madde iki dosyada durur. H3 1821-1832 çekirdek örtüşmesi: ÖNERİM MEŞRU say — künye paneli çekirdek listeden AYRI bir görünüm; Mora İsyanı/Navarin/Londra/1832 İstanbul olmadan Yunan paneli boş kalır. Yunan dosyasında dönüm noktaları kapsam:\"dis\" (çekirdekle aynı gün, çekirdek kaydıyla çelişmeyen metin), Yunan devletinin iç maddeleri (Epidavros 1822 anayasası, Kapodistrias, Otto) kapsam:\"ic\". Çekirdekteki kusurları (1830-02 ay hassasiyeti vb.) -DUZELTME.md'ye yazarım. Hükümler gelene kadar yalnız envanter + kaynak doğrulaması yapıyorum, veri dosyası YAZMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
