@@ -1,0 +1,2722 @@
+[
+{
+"gun": "1325-01-01",
+"eski": "—",
+"yeni": "purepecha-imparatorlugu",
+"n": 2,
+"kova": "yil_temsili",
+"b": "orta-amerika-karayip",
+"yerler": [
+"Ihuatzio",
+"Pátzcuaro"
+],
+"en_yakin_madde": "Konuralp'in Bolu yöresini fethi — Mudurnu, Konurapa ve Bolu",
+"fark_gun": 31
+},
+{
+"gun": "1400-01-01",
+"eski": "—",
+"yeni": "aztek-imparatorlugu",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Tlacopan (Tacuba)"
+],
+"en_yakin_madde": "Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi",
+"fark_gun": 31
+},
+{
+"gun": "1400-01-01",
+"eski": "—",
+"yeni": "maya-sehir-devletleri",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Utatlán (Q'umarkaj)"
+],
+"en_yakin_madde": "Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi",
+"fark_gun": 31
+},
+{
+"gun": "1430-01-01",
+"eski": "nahua-sehir-devletleri",
+"yeni": "aztek-imparatorlugu",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Xochimilco"
+],
+"en_yakin_madde": "Despot Konstantinos Patras'ı Franklardan aldı",
+"fark_gun": 31
+},
+{
+"gun": "1450-01-01",
+"eski": "—",
+"yeni": "haudenosaunee",
+"n": 5,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Cayuga",
+"Mohawk (Kayenlaha'ke)",
+"Oneida",
+"Onondaga (İrokua Konfederasyon Merkezi)",
+"Seneca (Ganondagan)"
+],
+"en_yakin_madde": "Yergöğü'nün yeniden Osmanlı kontrolüne girişi (853/1449-50)",
+"fark_gun": 31
+},
+{
+"gun": "1450-01-01",
+"eski": "spiro",
+"yeni": "wicita",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Spiro"
+],
+"en_yakin_madde": "Yergöğü'nün yeniden Osmanlı kontrolüne girişi (853/1449-50)",
+"fark_gun": 31
+},
+{
+"gun": "1465-01-01",
+"eski": "nahua-sehir-devletleri",
+"yeni": "aztek-imparatorlugu",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Chalco"
+],
+"en_yakin_madde": "Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
+"fark_gun": 31
+},
+{
+"gun": "1466-01-01",
+"eski": "nahua-sehir-devletleri",
+"yeni": "aztek-imparatorlugu",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Tepeaca"
+],
+"en_yakin_madde": "İstanbul'da veba salgını ve sarayın Edirne'ye taşınması",
+"fark_gun": 31
+},
+{
+"gun": "1470-01-01",
+"eski": "—",
+"yeni": "maya-sehir-devletleri",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Iximché"
+],
+"en_yakin_madde": "Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi",
+"fark_gun": 31
+},
+{
+"gun": "1524-03-07",
+"eski": "maya-sehir-devletleri",
+"yeni": "—",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Utatlán (Q'umarkaj)"
+],
+"en_yakin_madde": "Mısır'da Hain Ahmed Paşa isyanı",
+"fark_gun": 66
+},
+{
+"gun": "1525-01-01",
+"eski": "maya-sehir-devletleri",
+"yeni": "—",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Zaculeu"
+],
+"en_yakin_madde": "Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü",
+"fark_gun": 97
+},
+{
+"gun": "1528-03-31",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"San Cristóbal de las Casas (Ciudad Real)"
+],
+"en_yakin_madde": "Kuzey Bosna'nın ilhakı: Yayça ve Banaluka",
+"fark_gun": 90
+},
+{
+"gun": "1529-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Antequera (Oaxaca)"
+],
+"en_yakin_madde": "Ahmed Gran'ın Şimbra Kure zaferiyle Adal'ın Habeşistan istilası başladı",
+"fark_gun": 67
+},
+{
+"gun": "1531-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Compostela"
+],
+"en_yakin_madde": "Malta ve Trablus Saint Jean şövalyelerine verildi — Rodos'tan sürülen tarikatın yeni üssü",
+"fark_gun": 283
+},
+{
+"gun": "1531-04-16",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Puebla de los Ángeles"
+],
+"en_yakin_madde": "Bitlis Safevî himayesine geçti — Ulama ve Fil Paşa kuşatmayı kaldırdı",
+"fark_gun": 260
+},
+{
+"gun": "1542-02-14",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Guadalajara"
+],
+"en_yakin_madde": "İspanyollar Tiho'yu (Mérida) alarak kuzeybatı Yucatán'daki Maya şehir-devletlerinin hâkimiyetine son verdi",
+"fark_gun": 44
+},
+{
+"gun": "1543-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Antigua Guatemala (Santiago de los Caballeros)"
+],
+"en_yakin_madde": "Segedin'in Osmanlı idaresine girmesi ve Segedin livâsının teşkili",
+"fark_gun": 31
+},
+{
+"gun": "1546-09-08",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Zacatecas"
+],
+"en_yakin_madde": "Barbaros Hayreddin Paşa öldü",
+"fark_gun": 65
+},
+{
+"gun": "1547-01-01",
+"eski": "maya-sehir-devletleri",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Chichén Itzá"
+],
+"en_yakin_madde": "Üsküdar İskele (Mihrimah Sultan) Külliyesi'nin tamamlanması",
+"fark_gun": 31
+},
+{
+"gun": "1550-01-01",
+"eski": "etowah",
+"yeni": "creek-konfederasyonu",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Etowah"
+],
+"en_yakin_madde": "Lahsa ve Katîf'in ilhakı — Körfez'in Arabistan kıyısı",
+"fark_gun": 31
+},
+{
+"gun": "1550-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Acapulco"
+],
+"en_yakin_madde": "Lahsa ve Katîf'in ilhakı — Körfez'in Arabistan kıyısı",
+"fark_gun": 31
+},
+{
+"gun": "1563-07-08",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Durango (Victoria de Durango)"
+],
+"en_yakin_madde": "İspanya'nın Bâdis (Peñón de Vélez) kayalığını geri alışı",
+"fark_gun": 177
+},
+{
+"gun": "1576-08-01",
+"eski": "—",
+"yeni": "inuit",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Iqaluit (Frobisher Körfezi)"
+],
+"en_yakin_madde": "Drina (Sokullu Mehmed Paşa) Köprüsü'nün tamamlanması",
+"fark_gun": 153
+},
+{
+"gun": "1577-07-25",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Saltillo"
+],
+"en_yakin_madde": "Parçalanan Demak, bölgedeki yeni güçlerin hâkimiyetine girdi",
+"fark_gun": 160
+},
+{
+"gun": "1591-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Chilpancingo (Guerrero)"
+],
+"en_yakin_madde": "Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı",
+"fark_gun": 102
+},
+{
+"gun": "1595-10-10",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"San Luis de la Paz"
+],
+"en_yakin_madde": "Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
+"fark_gun": 31
+},
+{
+"gun": "1598-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Parras"
+],
+"en_yakin_madde": "Verhoturye kalesi kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1610-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 3,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Acoma Pueblo (Sky City)",
+"Santa Fe",
+"Taos Pueblo"
+],
+"en_yakin_madde": "el-Arâiş'in (Larache) İspanya'ya terki",
+"fark_gun": 31
+},
+{
+"gun": "1617-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Tula (Tamaulipas)"
+],
+"en_yakin_madde": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+"fark_gun": 57
+},
+{
+"gun": "1631-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"San José del Parral"
+],
+"en_yakin_madde": "Angara boyunda Rus Bratsk kalesi kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1639-01-01",
+"eski": "—",
+"yeni": "vendat",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Sainte-Marie-au-pays-des-Hurons"
+],
+"en_yakin_madde": "Kemankeş Kara Mustafa Paşa sadrazam oldu — mali ıslahat dönemi başladı",
+"fark_gun": 31
+},
+{
+"gun": "1646-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Arizpe"
+],
+"en_yakin_madde": "Linz Barışı: I. Rákóczi György yedi Macar kontluğunu aldı",
+"fark_gun": 31
+},
+{
+"gun": "1659-12-08",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"El Paso del Norte"
+],
+"en_yakin_madde": "İstanbul'da büyük yangın: Ağakapısı'nın yanması",
+"fark_gun": 220
+},
+{
+"gun": "1667-01-01",
+"eski": "—",
+"yeni": "haudenosaunee",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Kahnawake"
+],
+"en_yakin_madde": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+"fark_gun": 39
+},
+{
+"gun": "1682-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Álamos"
+],
+"en_yakin_madde": "Tököli İmre'ye Orta Macar krallığı beratının verilmesi",
+"fark_gun": 258
+},
+{
+"gun": "1683-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"La Junta de los Ríos (Presidio)"
+],
+"en_yakin_madde": "Tököli İmre'ye Orta Macar krallığı beratının verilmesi",
+"fark_gun": 107
+},
+{
+"gun": "1689-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Monclova (Santiago de la Monclova)"
+],
+"en_yakin_madde": "Mevlây İsmâil'in el-Arâiş'i İspanyollardan geri alışı",
+"fark_gun": 31
+},
+{
+"gun": "1689-07-15",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Santa Clara (Küba)"
+],
+"en_yakin_madde": "Orsova'nın Thököly ve Osmanlı kuvvetlerince geri alınışı",
+"fark_gun": 31
+},
+{
+"gun": "1692-08-01",
+"eski": "pueblo-bagimsizligi",
+"yeni": "yeni-ispanya",
+"n": 3,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Acoma Pueblo (Sky City)",
+"Santa Fe",
+"Taos Pueblo"
+],
+"en_yakin_madde": "Varad'ın kaybı",
+"fark_gun": 57
+},
+{
+"gun": "1697-10-25",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Loreto (Baja California)"
+],
+"en_yakin_madde": "Zenta bozgunu — savaşın kaderi belirlendi",
+"fark_gun": 44
+},
+{
+"gun": "1700-01-01",
+"eski": "—",
+"yeni": "abenaki",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Odanak (Abenaki)"
+],
+"en_yakin_madde": "İspanyol sömürge yönetimi Pitic'i (Hermosillo) kurdu",
+"fark_gun": 31
+},
+{
+"gun": "1706-04-23",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Albuquerque"
+],
+"en_yakin_madde": "Tunus'ta Hüseynî hanedanının kurulması",
+"fark_gun": 280
+},
+{
+"gun": "1709-10-12",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Chihuahua (San Felipe el Real)"
+],
+"en_yakin_madde": "Menorka'nın İngiltere-Hollanda kuvvetlerince ele geçirilişi",
+"fark_gun": 378
+},
+{
+"gun": "1739-01-01",
+"eski": "—",
+"yeni": "cikasav",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Memphis (Chickasaw Bluffs)"
+],
+"en_yakin_madde": "Adakale'nin Avusturya'dan alınışı",
+"fark_gun": 137
+},
+{
+"gun": "1739-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Múzquiz (Santa Rosa)"
+],
+"en_yakin_madde": "Adakale'nin Avusturya'dan alınışı",
+"fark_gun": 137
+},
+{
+"gun": "1749-03-05",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Camargo"
+],
+"en_yakin_madde": "Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması",
+"fark_gun": 45
+},
+{
+"gun": "1750-01-01",
+"eski": "—",
+"yeni": "wicita",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Taovaya (İspanyol Kalesi, Kızıl Irmak)"
+],
+"en_yakin_madde": "Fransızlar Toronto'da Humber üzerinde ticaret karakolu kurdu",
+"fark_gun": 31
+},
+{
+"gun": "1750-10-06",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Ciudad Victoria"
+],
+"en_yakin_madde": "Ahmed Şah Dürrânî Belh'i ülkesine kattı",
+"fark_gun": 87
+},
+{
+"gun": "1752-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 2,
+"kova": "yil_temsili",
+"b": "orta-amerika",
+"yerler": [
+"Misión Santa Gertrudis (Baja California)",
+"Tubac"
+],
+"en_yakin_madde": "İşim boyunda Rus Petropavlovsk kalesi kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1755-05-15",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Laredo"
+],
+"en_yakin_madde": "Hocapaşa yangını",
+"fark_gun": 137
+},
+{
+"gun": "1759-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Omoa (San Fernando de Omoa)"
+],
+"en_yakin_madde": "III. Osman'ın ölümü ve III. Mustafa'nın cülûsu",
+"fark_gun": 428
+},
+{
+"gun": "1762-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Misión San Francisco de Borja"
+],
+"en_yakin_madde": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+"fark_gun": 306
+},
+{
+"gun": "1764-02-14",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"St. Louis"
+],
+"en_yakin_madde": "Ragıp Paşa'nın vefatı",
+"fark_gun": 312
+},
+{
+"gun": "1769-07-16",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"San Diego (Misyon San Diego de Alcalá)"
+],
+"en_yakin_madde": "Hotin Kalesi'nin Ruslara kaybı",
+"fark_gun": 65
+},
+{
+"gun": "1770-06-03",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Monterey (Alta California)"
+],
+"en_yakin_madde": "Çeşme baskını",
+"fark_gun": 33
+},
+{
+"gun": "1771-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Nain (Labrador)"
+],
+"en_yakin_madde": "Dinyester ağzında Akkirman Kalesi düştü",
+"fark_gun": 84
+},
+{
+"gun": "1774-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Cumberland House"
+],
+"en_yakin_madde": "Refugio (bugünkü Matamoros) kuruldu — Rio Grande ağzının iskânı",
+"fark_gun": 31
+},
+{
+"gun": "1775-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Cartwright (Sandwich Körfezi, Labrador)"
+],
+"en_yakin_madde": "Mühendishâne-i Bahrî-i Hümâyun'un açılışı",
+"fark_gun": 118
+},
+{
+"gun": "1775-08-20",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Tucson (San Agustín del Tucsón)"
+],
+"en_yakin_madde": "Esham sisteminin ihdası",
+"fark_gun": 80
+},
+{
+"gun": "1776-06-29",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"San Francisco (Misyon San Francisco de Asís)"
+],
+"en_yakin_madde": "Bukovina sınır senedi imzalandı",
+"fark_gun": 31
+},
+{
+"gun": "1777-11-29",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"San José de Guadalupe"
+],
+"en_yakin_madde": "Hammâmîzâde İsmail Dede Efendi'nin doğumu",
+"fark_gun": 41
+},
+{
+"gun": "1778-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Louisville"
+],
+"en_yakin_madde": "Hammâmîzâde İsmail Dede Efendi'nin doğumu",
+"fark_gun": 31
+},
+{
+"gun": "1779-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"French Lick (Nashville)"
+],
+"en_yakin_madde": "Suûdî-Vehhâbî güçlerinin Hâil emirliğini ele geçirmesi — yönetim Abde aşiretinden İbn Ali ailesindeydi",
+"fark_gun": 31
+},
+{
+"gun": "1779-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Ile-a-la-Crosse"
+],
+"en_yakin_madde": "Suûdî-Vehhâbî güçlerinin Hâil emirliğini ele geçirmesi — yönetim Abde aşiretinden İbn Ali ailesindeydi",
+"fark_gun": 31
+},
+{
+"gun": "1779-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Nacogdoches"
+],
+"en_yakin_madde": "Suûdî-Vehhâbî güçlerinin Hâil emirliğini ele geçirmesi — yönetim Abde aşiretinden İbn Ali ailesindeydi",
+"fark_gun": 31
+},
+{
+"gun": "1780-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Yuma geçidi (La Purísima Concepción)"
+],
+"en_yakin_madde": "Basra'nın İran işgalinden geri alınışı",
+"fark_gun": 275
+},
+{
+"gun": "1780-08-27",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Misión San Vicente Ferrer"
+],
+"en_yakin_madde": "Anapa Kalesi'nin inşası — Kafkas savunma hattı",
+"fark_gun": 127
+},
+{
+"gun": "1781-09-04",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Los Ángeles (El Pueblo)"
+],
+"en_yakin_madde": "Anapa Kalesi'nin inşası — Kafkas savunma hattı",
+"fark_gun": 246
+},
+{
+"gun": "1782-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Hopedale (Agvituk)",
+"Lac la Ronge"
+],
+"en_yakin_madde": "Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu",
+"fark_gun": 365
+},
+{
+"gun": "1782-04-21",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Santa Bárbara"
+],
+"en_yakin_madde": "Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu",
+"fark_gun": 255
+},
+{
+"gun": "1784-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Morganton"
+],
+"en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+"fark_gun": 257
+},
+{
+"gun": "1786-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 3,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Providence",
+"Fort Resolution (Deninu Kų́ę́)",
+"Osnaburgh House"
+],
+"en_yakin_madde": "Rus elçisine ültimatom — 1787-1792 Osmanlı-Rus Savaşı'na giden son adım",
+"fark_gun": 572
+},
+{
+"gun": "1788-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Charleston (Batı Virjinya, Kanawha)",
+"Cincinnati (Losantiville)"
+],
+"en_yakin_madde": "Yılan Adası (Fidonisi) deniz muharebesi",
+"fark_gun": 31
+},
+{
+"gun": "1788-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Chipewyan",
+"Fort Vermilion"
+],
+"en_yakin_madde": "Yılan Adası (Fidonisi) deniz muharebesi",
+"fark_gun": 31
+},
+{
+"gun": "1792-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Alexander (Bas-de-la-Rivière)"
+],
+"en_yakin_madde": "Çin–Nepal antlaşması — Himalaya sınırı belirsiz bırakıldı",
+"fark_gun": 31
+},
+{
+"gun": "1793-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Brandon House",
+"Duluth (Fond du Lac)"
+],
+"en_yakin_madde": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+"fark_gun": 31
+},
+{
+"gun": "1794-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 4,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Grand Rapids (Saskatchewan Irmağı ağzı)",
+"Marten Falls (Ogoki)",
+"Mattagami House",
+"Waswanipi"
+],
+"en_yakin_madde": "Zend hânedanının sonu — İran'da Kaçar hâkimiyeti",
+"fark_gun": 31
+},
+{
+"gun": "1795-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Carlton",
+"Fort Edmonton"
+],
+"en_yakin_madde": "Pazvandoğlu Osman'ın Vidin'de fiilî hükümdarlığı",
+"fark_gun": 59
+},
+{
+"gun": "1795-08-03",
+"eski": "miami",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Kekionga (Miami)"
+],
+"en_yakin_madde": "Mühendishâne-i Berrî-i Hümâyun'un açılışı",
+"fark_gun": 31
+},
+{
+"gun": "1795-08-03",
+"eski": "savni",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Chillicothe (Şavni)"
+],
+"en_yakin_madde": "Mühendishâne-i Berrî-i Hümâyun'un açılışı",
+"fark_gun": 31
+},
+{
+"gun": "1797-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Pembina"
+],
+"en_yakin_madde": "Üçüncü paylaşmanın kesin düzenlemesi",
+"fark_gun": 31
+},
+{
+"gun": "1799-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Rocky Mountain House"
+],
+"en_yakin_madde": "Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı",
+"fark_gun": 48
+},
+{
+"gun": "1802-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Lesser Slave Lake House",
+"Nelson House (Nisichawayasihk)"
+],
+"en_yakin_madde": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+"fark_gun": 83
+},
+{
+"gun": "1803-12-20",
+"eski": "yeni-ispanya",
+"yeni": "abd",
+"n": 5,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Biloxi (Fort Maurepas)",
+"Mobile (Fort Louis de la Louisiane)",
+"Natchitoches",
+"Spiro",
+"St. Louis"
+],
+"en_yakin_madde": "Birinci Sırp İsyanı'nın başlaması",
+"fark_gun": 56
+},
+{
+"gun": "1804-01-01",
+"eski": "—",
+"yeni": "haiti",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Gonaïves"
+],
+"en_yakin_madde": "Birinci Sırp İsyanı'nın başlaması",
+"fark_gun": 44
+},
+{
+"gun": "1804-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)"
+],
+"en_yakin_madde": "Birinci Sırp İsyanı'nın başlaması",
+"fark_gun": 44
+},
+{
+"gun": "1804-01-01",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Santa Rita del Cobre"
+],
+"en_yakin_madde": "Birinci Sırp İsyanı'nın başlaması",
+"fark_gun": 44
+},
+{
+"gun": "1806-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort St. James"
+],
+"en_yakin_madde": "Osman b. Fûdî'nin cihad ordusu Zaria'yı aldı",
+"fark_gun": 31
+},
+{
+"gun": "1810-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Norman (Tulita)",
+"Spokane House"
+],
+"en_yakin_madde": "İbrâil'in düşüşü — Tuna hattında ilk büyük gedik",
+"fark_gun": 31
+},
+{
+"gun": "1811-04-12",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Astoria"
+],
+"en_yakin_madde": "Niğbolu'nun geri alınışı — altı aylık Rus işgali sona erdi",
+"fark_gun": 31
+},
+{
+"gun": "1812-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Garry (Kızıl Irmak Kolonisi)",
+"Fort Kamloops"
+],
+"en_yakin_madde": "Dede Efendi'nin musâhib-i şehriyârî olarak saraya alınması",
+"fark_gun": 31
+},
+{
+"gun": "1813-10-29",
+"eski": "—",
+"yeni": "yeni-ispanya",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Tonalá (Chiapas)"
+],
+"en_yakin_madde": "Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı",
+"fark_gun": 31
+},
+{
+"gun": "1814-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Berens River"
+],
+"en_yakin_madde": "Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+"fark_gun": 31
+},
+{
+"gun": "1815-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Lac Seul"
+],
+"en_yakin_madde": "Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı",
+"fark_gun": 31
+},
+{
+"gun": "1816-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Nichicun (HBC iç karakolu)"
+],
+"en_yakin_madde": "Mısır garnizonları güney Hicaz'da Türabe, Bîşe ve Rânye'den çekildi",
+"fark_gun": 31
+},
+{
+"gun": "1817-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Pierre (Arikara/Lakota)",
+"Fort Smith"
+],
+"en_yakin_madde": "İbrâhim Paşa Necid seferine çıktı",
+"fark_gun": 122
+},
+{
+"gun": "1817-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Norway House"
+],
+"en_yakin_madde": "İbrâhim Paşa Necid seferine çıktı",
+"fark_gun": 122
+},
+{
+"gun": "1819-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Atkinson (Council Bluffs)",
+"Fort Snelling (Bdote)"
+],
+"en_yakin_madde": "Dir'iye düştü — ilk Suûdî Devleti sona erdi",
+"fark_gun": 114
+},
+{
+"gun": "1820-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Little Rock (Arkansas Post havzası)"
+],
+"en_yakin_madde": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
+"fark_gun": 31
+},
+{
+"gun": "1820-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Kuujjuarapik (Great Whale River)"
+],
+"en_yakin_madde": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
+"fark_gun": 31
+},
+{
+"gun": "1821-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Westport (Kansas City)"
+],
+"en_yakin_madde": "Osmanlı-İran savaşı başladı — Kars ve Bayazıt'ın kaybı, Erzurum'un kuşatılması",
+"fark_gun": 31
+},
+{
+"gun": "1821-02-22",
+"eski": "yeni-ispanya",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Los Adaes"
+],
+"en_yakin_madde": "Eflak İsyanı — Ypsilanti'nin Prut'u geçmesi ve Vladimirescu ayaklanması",
+"fark_gun": 31
+},
+{
+"gun": "1821-04-07",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Columbia (Missouri)"
+],
+"en_yakin_madde": "Yunan İsyanı başladı",
+"fark_gun": 31
+},
+{
+"gun": "1822-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Babine (Fort Kilmaurs)"
+],
+"en_yakin_madde": "Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu",
+"fark_gun": 44
+},
+{
+"gun": "1823-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Assiniboine"
+],
+"en_yakin_madde": "Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
+"fark_gun": 31
+},
+{
+"gun": "1823-06-21",
+"eski": "—",
+"yeni": "meksika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Acaponeta",
+"Tomatlán"
+],
+"en_yakin_madde": "Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
+"fark_gun": 171
+},
+{
+"gun": "1823-08-15",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Bolaños"
+],
+"en_yakin_madde": "Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
+"fark_gun": 226
+},
+{
+"gun": "1824-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Tampa (Fort Brooke)"
+],
+"en_yakin_madde": "İkinci Suûdî Devleti'nin Riyad'da kurulması",
+"fark_gun": 152
+},
+{
+"gun": "1824-01-01",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"San Felipe de Austin"
+],
+"en_yakin_madde": "İkinci Suûdî Devleti'nin Riyad'da kurulması",
+"fark_gun": 152
+},
+{
+"gun": "1825-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 3,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Déline (Fort Franklin, Büyük Ayı Gölü)",
+"Fort Colvile",
+"Fort Vancouver"
+],
+"en_yakin_madde": "İbrâhim Paşa Modon'a çıktı",
+"fark_gun": 54
+},
+{
+"gun": "1825-09-01",
+"eski": "—",
+"yeni": "meksika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Mapimí",
+"Santa Catarina de Tepehuanes"
+],
+"en_yakin_madde": "Tripoliçe geri alındı — Mora'nın merkezi düştü",
+"fark_gun": 71
+},
+{
+"gun": "1826-01-05",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Batopilas"
+],
+"en_yakin_madde": "Belh Buhara emîrinin işgaline uğradı",
+"fark_gun": 31
+},
+{
+"gun": "1827-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Langley"
+],
+"en_yakin_madde": "Tımar sisteminin tasfiyesi",
+"fark_gun": 31
+},
+{
+"gun": "1828-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Union Trading Post"
+],
+"en_yakin_madde": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+"fark_gun": 52
+},
+{
+"gun": "1829-06-06",
+"eski": "beothuk",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Kızıl Kızılderili Gölü (Beothuk)"
+],
+"en_yakin_madde": "Fesin resmî serpuş ilan edilmesi",
+"fark_gun": 31
+},
+{
+"gun": "1830-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Hebron (Labrador)",
+"Kuujjuaq (Fort Chimo)"
+],
+"en_yakin_madde": "Rusya İşim üzerinde Akmola kalesini kurdu",
+"fark_gun": 31
+},
+{
+"gun": "1832-01-01",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Fort Robidoux (Uinta Havzası)"
+],
+"en_yakin_madde": "Akkâ kuşatması başladı",
+"fark_gun": 35
+},
+{
+"gun": "1832-09-21",
+"eski": "sauk",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Saukenuk (Sauk)"
+],
+"en_yakin_madde": "Belen (Beylan) Geçidi bozgunu — Çukurova açıldı",
+"fark_gun": 54
+},
+{
+"gun": "1832-10-20",
+"eski": "cikasav",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Memphis (Chickasaw Bluffs)"
+],
+"en_yakin_madde": "Mısır ordusu Konya'ya girdi",
+"fark_gun": 32
+},
+{
+"gun": "1833-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Bent's Fort"
+],
+"en_yakin_madde": "Konya Meydan Muharebesi: sadrazam esir düştü",
+"fark_gun": 31
+},
+{
+"gun": "1833-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Bella Bella (Fort McLoughlin)",
+"Fort Reliance (Büyük Köle Gölü)"
+],
+"en_yakin_madde": "Konya Meydan Muharebesi: sadrazam esir düştü",
+"fark_gun": 31
+},
+{
+"gun": "1834-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Laramie"
+],
+"en_yakin_madde": "Rus ordusunun Eflak ve Boğdan'dan çekilmesi — altı yıllık işgalin sonu",
+"fark_gun": 31
+},
+{
+"gun": "1835-01-01",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Las Vegas (Yeni Meksika)"
+],
+"en_yakin_madde": "Abdullah b. Reşîd Hâil emirliğini ele geçirdi — Şammar (Reşîdî) hânedanının kuruluşu",
+"fark_gun": 31
+},
+{
+"gun": "1836-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Houston"
+],
+"en_yakin_madde": "Rusların Silistre'yi boşaltması",
+"fark_gun": 31
+},
+{
+"gun": "1836-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Rigolet"
+],
+"en_yakin_madde": "Rusların Silistre'yi boşaltması",
+"fark_gun": 31
+},
+{
+"gun": "1837-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Confidence (Büyük Ayı Gölü)"
+],
+"en_yakin_madde": "Hariciye Nezareti kuruldu",
+"fark_gun": 214
+},
+{
+"gun": "1837-01-01",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Mazapil"
+],
+"en_yakin_madde": "Hariciye Nezareti kuruldu",
+"fark_gun": 214
+},
+{
+"gun": "1840-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort McPherson (Teetł'it Zheh)",
+"Pelly Banks / Ross River"
+],
+"en_yakin_madde": "Taka bölgesinin fethi ve Kesela'nın kurulması",
+"fark_gun": 31
+},
+{
+"gun": "1843-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Bridger",
+"Fort Des Moines"
+],
+"en_yakin_madde": "Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması",
+"fark_gun": 31
+},
+{
+"gun": "1843-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Victoria (Fort Victoria)"
+],
+"en_yakin_madde": "Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması",
+"fark_gun": 31
+},
+{
+"gun": "1846-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Benton"
+],
+"en_yakin_madde": "Oregon Antlaşması — 49. paralel Kayalık Dağlar'dan Pasifik'e uzatıldı",
+"fark_gun": 31
+},
+{
+"gun": "1847-06-13",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Traverse City"
+],
+"en_yakin_madde": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+"fark_gun": 31
+},
+{
+"gun": "1847-07-24",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Salt Lake City"
+],
+"en_yakin_madde": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+"fark_gun": 54
+},
+{
+"gun": "1848-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Selkirk"
+],
+"en_yakin_madde": "Avusturya-Saksonya sınır antlaşması: Rumburg bölgeleri",
+"fark_gun": 64
+},
+{
+"gun": "1848-02-02",
+"eski": "zuni",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Halona:wa (Zuni)"
+],
+"en_yakin_madde": "Avusturya-Saksonya sınır antlaşması: Rumburg bölgeleri",
+"fark_gun": 32
+},
+{
+"gun": "1849-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Worth (Üç Boynuz Kavşağı)",
+"Provo (Utah Gölü, Timpanogos Ute)"
+],
+"en_yakin_madde": "Tihâme sahiline dönüş: Hudeyde, Zebîd ve Moha'nın alınması",
+"fark_gun": 31
+},
+{
+"gun": "1850-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Abbeville (Louisiana)"
+],
+"en_yakin_madde": "Ba'lebek'te Harfûş ailesinin yerel hâkimiyetinin sonu",
+"fark_gun": 31
+},
+{
+"gun": "1850-09-07",
+"eski": "ojibwe",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Saginaw (Ojibwe)"
+],
+"en_yakin_madde": "1850 Ticaret Kanunnâmesi'nin kabulü",
+"fark_gun": 98
+},
+{
+"gun": "1850-09-07",
+"eski": "ojibwe",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Keweenaw (Ojibwe bakır yatakları)"
+],
+"en_yakin_madde": "1850 Ticaret Kanunnâmesi'nin kabulü",
+"fark_gun": 98
+},
+{
+"gun": "1851-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 3,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Genoa (Nevada)",
+"Parowan",
+"Seattle (Duwamish)"
+],
+"en_yakin_madde": "Şirket-i Hayriyye kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1851-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fond du Lac (Athabasca Gölü)"
+],
+"en_yakin_madde": "Şirket-i Hayriyye kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1851-09-17",
+"eski": "hidatsa",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Knife River (Hidatsa köyleri)"
+],
+"en_yakin_madde": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+"fark_gun": 31
+},
+{
+"gun": "1851-09-17",
+"eski": "karga",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Crow Agency (Apsáalooke)"
+],
+"en_yakin_madde": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+"fark_gun": 31
+},
+{
+"gun": "1851-09-17",
+"eski": "mandan",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"On-A-Slant (Mandan köyü)"
+],
+"en_yakin_madde": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+"fark_gun": 31
+},
+{
+"gun": "1853-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Riley (Kansas Irmağı)"
+],
+"en_yakin_madde": "Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılması",
+"fark_gun": 31
+},
+{
+"gun": "1854-06-30",
+"eski": "meksika",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Tubac",
+"Tucson (San Agustín del Tucsón)"
+],
+"en_yakin_madde": "Gadsden Antlaşması yürürlüğe girdi — Colorado'dan Rio Grande'ye yeni kara sınırı",
+"fark_gun": 31
+},
+{
+"gun": "1855-01-01",
+"eski": "sahaptin",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Wayám (Celilo Şelâleleri)"
+],
+"en_yakin_madde": "Tuggurt'un işgali — Cezayir'in tamamının elden çıkışı",
+"fark_gun": 31
+},
+{
+"gun": "1855-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Las Vegas (Nevada, Mormon Kalesi)"
+],
+"en_yakin_madde": "Tuggurt'un işgali — Cezayir'in tamamının elden çıkışı",
+"fark_gun": 31
+},
+{
+"gun": "1856-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Sioux Falls"
+],
+"en_yakin_madde": "Senûsiyye'nin çöl merkezi Cağbûb'un Osmanlı düzenine bağlanması — Abdülmecid'in muafiyet fermanı",
+"fark_gun": 31
+},
+{
+"gun": "1857-01-01",
+"eski": "—",
+"yeni": "inuit",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Panniqtuuq (Pangnirtung / Kekerten)"
+],
+"en_yakin_madde": "Bayonne Antlaşması — Pirenelerde Bidasoa'dan Navarra'ya sınırın ayrıntılı çizimi",
+"fark_gun": 31
+},
+{
+"gun": "1857-09-24",
+"eski": "pavni",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Pawnee köyleri (Loup Irmağı)"
+],
+"en_yakin_madde": "Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti",
+"fark_gun": 75
+},
+{
+"gun": "1858-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Denver",
+"Fort Abercrombie (Kızıl Irmak vadisi)"
+],
+"en_yakin_madde": "Cañas–Jerez Antlaşması — Nikaragua–Kosta Rika sınırı",
+"fark_gun": 104
+},
+{
+"gun": "1859-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Stockton (Comanche Geçidi)",
+"Virginia City (Nevada)"
+],
+"en_yakin_madde": "Eflak ve Boğdan'ın Cuza yönetiminde birleşmesi: Romanya'nın doğuşu",
+"fark_gun": 31
+},
+{
+"gun": "1859-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Brochet (Ren Geyiği Gölü)"
+],
+"en_yakin_madde": "Eflak ve Boğdan'ın Cuza yönetiminde birleşmesi: Romanya'nın doğuşu",
+"fark_gun": 31
+},
+{
+"gun": "1861-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"St. George (Utah)"
+],
+"en_yakin_madde": "El-Hâc Ömer'in Fûlânîleri Cenne'yi aldı",
+"fark_gun": 31
+},
+{
+"gun": "1863-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"North Platte (Fort McPherson, Nebraska)"
+],
+"en_yakin_madde": "Dârülfünun'da ilk dersler",
+"fark_gun": 31
+},
+{
+"gun": "1864-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Helena (Montana)"
+],
+"en_yakin_madde": "Cem'iyyet-i Tedrîsiyye-i İslâmiyye'nin kurulması",
+"fark_gun": 89
+},
+{
+"gun": "1865-01-01",
+"eski": "mohave",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Mohave (Kolorado geçidi)"
+],
+"en_yakin_madde": "Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması",
+"fark_gun": 31
+},
+{
+"gun": "1865-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Wallace (Smoky Hill)"
+],
+"en_yakin_madde": "Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması",
+"fark_gun": 31
+},
+{
+"gun": "1866-01-01",
+"eski": "—",
+"yeni": "ingiliz-kuzey-amerika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Prince Albert"
+],
+"en_yakin_madde": "Girit İsyanı'nın başlaması (1866-1869)",
+"fark_gun": 232
+},
+{
+"gun": "1867-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 4,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Cheyenne (Wyoming)",
+"Fort Concho (San Angelo)",
+"Fort Fetterman (Powder Irmağı)",
+"Fort Harney (Harney Havzası, Payut)"
+],
+"en_yakin_madde": "Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi",
+"fark_gun": 75
+},
+{
+"gun": "1867-10-18",
+"eski": "inuit",
+"yeni": "abd",
+"n": 10,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Anaktuvuk Geçidi (Nunamiut)",
+"Anaktuvuk batısı — Noatak (Nautaaġmiut)",
+"Kaktovik (Barter Adası)",
+"Kiŋigin (Wales)",
+"Kobuk (Kuuvaŋmiit)",
+"Nuiqsut (Kuukpikmiut, Colville deltası)",
+"Qikiqtaġruk (Kotzebue)",
+"Tikiġaq (Point Hope)",
+"Ulguniq (Wainwright) / Icy Cape",
+"Utqiaġvik (Nuvuk / Barrow)"
+],
+"en_yakin_madde": "Alaska ABD'ye devredildi — 141. meridyen ABD'nin sınırı oldu",
+"fark_gun": 31
+},
+{
+"gun": "1867-10-18",
+"eski": "tlingit",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Klukwan (Tlingit)"
+],
+"en_yakin_madde": "Alaska ABD'ye devredildi — 141. meridyen ABD'nin sınırı oldu",
+"fark_gun": 31
+},
+{
+"gun": "1868-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Supply (Kuzeybatı Toprakları, Oklahoma)",
+"Rawlins"
+],
+"en_yakin_madde": "Girit Nizamnâmesi: adaya geniş idarî imtiyazlar",
+"fark_gun": 31
+},
+{
+"gun": "1868-06-01",
+"eski": "navaho",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Tsegi (Canyon de Chelly)"
+],
+"en_yakin_madde": "Şûrâ-yı Devlet'in açılışı: Osmanlı Danıştayı'nın kuruluşu",
+"fark_gun": 31
+},
+{
+"gun": "1868-07-03",
+"eski": "sosoni",
+"yeni": "abd",
+"n": 4,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Camas Ovası (Kuzey Şoşoni)",
+"Ruby Vadisi (Batı Şoşoni)",
+"Timbisha (Ölüm Vadisi)",
+"Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)"
+],
+"en_yakin_madde": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1869-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Sill (Wiçita Dağları)",
+"Fort Washakie (Wind River)"
+],
+"en_yakin_madde": "Midhat Paşa'nın Bağdat valiliği ve aşiret iskânı — Ramâdi ile Nâsıriye'nin kuruluşu",
+"fark_gun": 31
+},
+{
+"gun": "1869-05-14",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Sonoyta (Sonoita)"
+],
+"en_yakin_madde": "Mecelle-i Ahkâm-ı Adliyye çalışmaları başladı",
+"fark_gun": 31
+},
+{
+"gun": "1871-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Belknap (Assiniboine-Gros Ventre)"
+],
+"en_yakin_madde": "Asîr'in doğrudan idareye alınması",
+"fark_gun": 31
+},
+{
+"gun": "1872-01-01",
+"eski": "—",
+"yeni": "metis",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Batoche",
+"Buffalo Lake / Battle River (Métis)"
+],
+"en_yakin_madde": "Bogos (Kerene) bölgesinin Mısır'a ilhakı",
+"fark_gun": 31
+},
+{
+"gun": "1873-01-01",
+"eski": "yavapai",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Prescott / Yavapai"
+],
+"en_yakin_madde": "İngiliz–Rus anlaşması — Amuderya Afganistan'ın kuzey sınırı sayıldı",
+"fark_gun": 31
+},
+{
+"gun": "1874-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Macleod"
+],
+"en_yakin_madde": "Darüşşafaka okulunun eğitime başlaması",
+"fark_gun": 187
+},
+{
+"gun": "1875-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 3,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Battleford",
+"Fort Calgary",
+"Fort Walsh (Cypress Hills)"
+],
+"en_yakin_madde": "Dhundwa tepeleri anlaşması — Hindistan–Nepal sınırında düzeltme",
+"fark_gun": 31
+},
+{
+"gun": "1876-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Deadwood (Kara Tepeler)"
+],
+"en_yakin_madde": "Osmanlı maliyesinin iflası: dış borç ödemelerinin yarıya indirilmesi",
+"fark_gun": 87
+},
+{
+"gun": "1876-08-23",
+"eski": "kri",
+"yeni": "kanada",
+"n": 4,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort Severn güneyi — Winisk",
+"Obedjiwan (Atikamekw)",
+"Pukatawagan",
+"Sandy Lake (Kuzeybatı Ontario)"
+],
+"en_yakin_madde": "V. Murad'ın hal'i ve II. Abdülhamid'in cülûsu",
+"fark_gun": 31
+},
+{
+"gun": "1877-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Miles City (Tongue Irmağı)"
+],
+"en_yakin_madde": "Kanûn-ı Esâsî — I. Meşrutiyet",
+"fark_gun": 31
+},
+{
+"gun": "1877-10-05",
+"eski": "nez-perce",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Lapwai (Nez Perce)"
+],
+"en_yakin_madde": "Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları",
+"fark_gun": 44
+},
+{
+"gun": "1879-09-29",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Sierra Mojada"
+],
+"en_yakin_madde": "Silistre yakınında (Arap Tabya) Romanya–Bulgaristan sınırı Bulgaristan lehine düzeltildi",
+"fark_gun": 94
+},
+{
+"gun": "1882-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Regina"
+],
+"en_yakin_madde": "Mîzâb vahalarının (Gardâye) ilhakı",
+"fark_gun": 31
+},
+{
+"gun": "1885-05-12",
+"eski": "metis",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Buffalo Lake / Battle River (Métis)"
+],
+"en_yakin_madde": "Anglo-Alman genel nüfuz alanları sözleşmesi (Rio del Rey hattı) — Berlin Konferansı hemen sonrası",
+"fark_gun": 41
+},
+{
+"gun": "1890-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Qikiqtaruk (Herschel Adası)"
+],
+"en_yakin_madde": "Fransızlar Colof'un tamamına hâkim oldu",
+"fark_gun": 31
+},
+{
+"gun": "1890-12-29",
+"eski": "lakota",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Devils Lake (Mni Wakan, Dakota)"
+],
+"en_yakin_madde": "Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
+"fark_gun": 31
+},
+{
+"gun": "1893-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Carlsbad (Eddy)",
+"Circle City"
+],
+"en_yakin_madde": "Cenne Fransızlarca işgal edildi",
+"fark_gun": 31
+},
+{
+"gun": "1893-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Attawapiskat"
+],
+"en_yakin_madde": "Cenne Fransızlarca işgal edildi",
+"fark_gun": 31
+},
+{
+"gun": "1894-07-14",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Villa Ahumada"
+],
+"en_yakin_madde": "1894 İstanbul depremi",
+"fark_gun": 31
+},
+{
+"gun": "1894-09-16",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Arteaga (Michoacán)"
+],
+"en_yakin_madde": "Londra Konvansiyonu onaylandı — Burma–Çin sınırının güneyi tarif edildi",
+"fark_gun": 31
+},
+{
+"gun": "1896-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Dawson City"
+],
+"en_yakin_madde": "İngiliz–Fransız Deklarasyonu — Mekong Burma–Laos sınırı oldu",
+"fark_gun": 31
+},
+{
+"gun": "1897-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Eagle (Fort Egbert)",
+"Skagway"
+],
+"en_yakin_madde": "Bagirmi Sultanlığı Fransız himayesine girdi",
+"fark_gun": 31
+},
+{
+"gun": "1898-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Valdez"
+],
+"en_yakin_madde": "Gao Fransızlarca işgal edildi",
+"fark_gun": 31
+},
+{
+"gun": "1898-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Atlin",
+"Whitehorse"
+],
+"en_yakin_madde": "Gao Fransızlarca işgal edildi",
+"fark_gun": 31
+},
+{
+"gun": "1899-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 2,
+"kova": "yil_temsili",
+"b": "kuzey-amerika",
+"yerler": [
+"Coldfoot / Wiseman",
+"Nome"
+],
+"en_yakin_madde": "Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1899-06-21",
+"eski": "dene",
+"yeni": "abd",
+"n": 4,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Batzulnetas (Ahtna)",
+"Iliamna / Nondalton (Dena'ina)",
+"Nabesna / Northway (Yukarı Tanana)",
+"Vashrąįį K'ǫǫ (Arctic Village)"
+],
+"en_yakin_madde": "Bunyoro Kralı Kabalega esir alındı, krallık İngiliz Uganda Protektorası'na bağlandı",
+"fark_gun": 73
+},
+{
+"gun": "1899-06-21",
+"eski": "dene",
+"yeni": "kanada",
+"n": 9,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Colville Lake (K'áhbamı̨túé)",
+"Fort Vermilion güneyi — Peace Point",
+"Fort Ware (Kwadacha)",
+"Old Crow (Vuntut Gwitchin)",
+"Telegraph Creek (Tlegohin)",
+"Tetlit Gwich'in (Peel havzası)",
+"Tsilhqot'in (Çilkotin platosu)",
+"Tulít'a Dağ Denesi (Nahanni)",
+"Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)"
+],
+"en_yakin_madde": "Bunyoro Kralı Kabalega esir alındı, krallık İngiliz Uganda Protektorası'na bağlandı",
+"fark_gun": 73
+},
+{
+"gun": "1900-04-17",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Pago Pago"
+],
+"en_yakin_madde": "Arjantin–Brezilya Sınır Antlaşması yürürlüğe girdi — Misiones anlaşmazlığı Cleveland kararıyla kapandı",
+"fark_gun": 39
+},
+{
+"gun": "1900-12-01",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"El Rosario (Baja California)"
+],
+"en_yakin_madde": "Adamava paylaşıldı — Yola İngiliz Kuzey Nijerya'sında kaldı",
+"fark_gun": 31
+},
+{
+"gun": "1901-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fairbanks"
+],
+"en_yakin_madde": "Adamava paylaşıldı — Yola İngiliz Kuzey Nijerya'sında kaldı",
+"fark_gun": 31
+},
+{
+"gun": "1904-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Killiniq (Port Burwell)"
+],
+"en_yakin_madde": "Nakuru resmen kasaba olarak kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1905-01-01",
+"eski": "—",
+"yeni": "abd",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Douglas (Arizona)"
+],
+"en_yakin_madde": "İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
+"fark_gun": 31
+},
+{
+"gun": "1911-07-13",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Madera (Chihuahua)"
+],
+"en_yakin_madde": "Trablusgarp Savaşı",
+"fark_gun": 78
+},
+{
+"gun": "1912-02-19",
+"eski": "—",
+"yeni": "meksika",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika",
+"yerler": [
+"Ciudad Acuña (Las Vacas)"
+],
+"en_yakin_madde": "Rodos'un İtalyan işgali",
+"fark_gun": 75
+},
+{
+"gun": "1914-01-01",
+"eski": "—",
+"yeni": "panama-cumhuriyeti",
+"n": 1,
+"kova": "yil_temsili",
+"b": "orta-amerika-karayip",
+"yerler": [
+"Tonosí"
+],
+"en_yakin_madde": "Anchorage Alaska Demiryolu merkezi olarak kuruldu",
+"fark_gun": 31
+},
+{
+"gun": "1916-01-01",
+"eski": "—",
+"yeni": "kanada",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "kuzey-amerika",
+"yerler": [
+"Fort McKenzie (Ungava)"
+],
+"en_yakin_madde": "Erzurum'un Rus işgaline düşmesi",
+"fark_gun": 46
+},
+{
+"gun": "1922-12-27",
+"eski": "—",
+"yeni": "panama-cumhuriyeti",
+"n": 1,
+"kova": "kapsam_disi",
+"b": "orta-amerika-karayip",
+"yerler": [
+"La Palma (Darién)"
+],
+"en_yakin_madde": "İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır uluslararası sınır oldu",
+"fark_gun": 31
+}
+]
