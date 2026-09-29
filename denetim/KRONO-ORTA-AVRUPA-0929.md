@@ -109,4 +109,4 @@ COK_ yoluna geçince künyenin kendi maddesi ile dosya maddesi panelde yan yana 
 
 - `node --check` ✓ (4 dosya: habsburg · macaristan · almanya · cok_habsburg)
 - `py arac/odak_olc.py` ✓: benim dosyalarımda **çözülmeyen odak atfı 0** · `kronoloji_cok_habsburg.js` 9 madde: 5 konumlu, 4 kutulu, 0 odaksız
-- `py arac/denetle.py`: sonuç teslim mesajında
+- `py arac/denetle.py` → **SONUÇ: temiz** (Değişmez 2 591 kırılma 0 açık · 2s 180 açık / tavan 195 · 4c 128 · 4d 331). 2s değişmedi, çünkü kuyruk evrende değil (§3).
