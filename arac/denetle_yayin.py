@@ -926,6 +926,7 @@ def main():
         #   kurar ve `__DP_SHA` damgasıyla kıyaslar; tutmazsa yayın DURUR.
         "data/devletler_harita.js":      "kodlandı — yayına devlet_parcalar.js + devlet_harita_ust.js gidiyor; bu dosya ARAÇ girdisi, yerelde `kodla.py coz-c` ile üretilir",
         "data/donemler.js":              "kodlandı (29 Eyl 2026) — yayına donem_parcalar.js + donemler_ust.js gidiyor (54,79 → 10,94 MB, ×5,03, gidiş-dönüş BİREBİR); bu dosya ARAÇ girdisi, yerelde `py arac/kodla.py coz-c data data/donemler.js donem` ile üretilir",
+        "data/petek_govde.js":           "kodlandı (29 Eyl 2026) — yayına petek_govde_parca.js + petek_govde_ust.js gidiyor (11,06 → 2,12 MB, ×5,2, gidiş-dönüş BİREBİR); açılışta değil, antlaşma farkı kutusu açılınca yükleniyor; `uret_devirler.py` girdisi, yerelde `py arac/kodla.py coz-c data data/petek_govde.js govde` ile üretilir",
         "data/ad_esanlam.js":            "eşanlamlı ad sözlüğü — ARAÇ girdisi (Budin↔Buda, Üsküp↔Skopje); tarayıcıya gitmez",
         "data/devletler_bk_ok106.js":    "`bk:` zamanlı başkent yaması — koordinatör işler, tarayıcıya gitmez",
         "data/gecitler.js":              "geçit verisi — motor/araç girdisi, tarayıcıya gitmez",
@@ -1158,8 +1159,17 @@ def main():
         import glob as _gg
         for _jy in _gg.glob(os.path.join(KOK, "js", "*.js")):
             _js = io.open(_jy, encoding="utf-8", errors="replace").read()
+            # ⚠️ 29 Eylül, İKİNCİ TUR: önce yalnız `.src = "data/x.js"` kalıbını
+            # arıyordum. `app.js`in petek gövde yükleyicisi iki dosyayı bir
+            # DİZİDEN sırayla yüklüyor (`var kuyruk = ["data/…","data/…"]`;
+            # `sc.src = kuyruk[i]`), yani ad kaynakta DURUYOR ama o kalıpta
+            # değil — kapı ikisini birden yetim saydı (1 → 3).
+            # ⇒ Ölçüt "şu kalıpta geçiyor mu" DEĞİL, "adı kaynakta TIRNAK
+            #   İÇİNDE geçiyor mu" olmalı. Tırnak şartı korunuyor: yorumda
+            #   tırnaksız geçen ad (bu paragraftaki gibi) SAYILMAZ, çünkü
+            #   yorum bir referans değildir.
             _DINAMIK_ADLAR |= set(
-                re.findall(r'\.src\s*=\s*"(data/[A-Za-z0-9_]+\.js)"', _js))
+                re.findall(r'"(data/[A-Za-z0-9_]+\.js)"', _js))
     except Exception:                                       # noqa: BLE001
         pass
     dinamik_bulunan = []

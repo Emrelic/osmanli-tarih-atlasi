@@ -41,6 +41,20 @@ data/devletler_harita.js
 #    Kapı bunu yakalar: `py arac/kodla.py kapi data` sha damgasını sınar.
 data/donemler.js
 
+# ── ÜÇÜNCÜ KODLANMIŞ ÇIKTI — petek_govde.js (29 Eylül 2026) ──────────────
+# 11,06 MB · %99,3'ü tek havuz (PETEK_GOVDE_PARCA) · en çok 3 ondalık hane.
+# Ötekilerden BİR DÜZEY DERİN: [poligon,[halka,[nokta]]] — kodlayıcıya `yuva`
+# alanı eklendi, halka kodlayıcısına DOKUNULMADI.
+# Kayıpsız: 11,06 → 2,12 MB = ×5,2 · 13.236 halka / 701.239 nokta (AYNI) ·
+# gidiş-dönüş DİSKTEN sınandı, BİREBİR (sha 7ce4beac7ec2).
+# Yayına giden: data/petek_govde_parca.js + data/petek_govde_ust.js
+# ⚠️ BU DOSYA AÇILIŞTA YÜKLENMİYOR — `js/app.js` onu yalnız antlaşma farkı
+#    kutusu açılınca getirir. Kodlamanın ilk açılış süresine etkisi YOKTUR;
+#    kazanç depo boyutu ve o kutunun açılış hızıdır. (Emre'ye böyle bildirildi.)
+# Yerelde birebir geri üretim (uret_devirler.py bunu okur):
+#     py arac/kodla.py coz-c data data/petek_govde.js govde
+data/petek_govde.js
+
 # ── YÜKSEKLİK VERİSİ (ALTYAPI ①) — 183 MB, GitHub tavanı 100 MB ──────
 # 🔴 Depoya ALINMIYOR ama KAYBOLMUYOR: tek komutla yeniden üretilir
 #     py arac/yukseklik_indir.py

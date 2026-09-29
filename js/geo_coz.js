@@ -97,7 +97,41 @@
     return havuz;
   }
 
-  kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz };
+  // ── YUVA 1 — poligon dizisi (petek_govde.js) ───────────────────────
+  // `PETEK_GOVDE_PARCA = [ poligon, ... ]` ve poligon = [ halka, ... ];
+  // ötekilerden BİR DÜZEY derin. Python tarafı (`kodla.py _havuz_kodla`)
+  // akışın başına poligon sayısını ve her poligonun halka sayısını yazar,
+  // sonra halkaları NORMAL biçimde kodlar. Burası onun BİREBİR karşılığıdır
+  // — biçim değişirse İKİSİ BİRLİKTE değişir, yoksa sessiz bozulma olur.
+  function yuvaCoz(u8) {
+    var i = 0;
+    // 🔴 ZIGZAG — düz varint DEĞİL. Python'da SAYILAR DA `_yaz` ile yazılıyor
+    // ve `_yaz` her değeri zigzag'lıyor ((n<<1) ^ ...), sayaçlar dâhil.
+    // İlk yazdığımda burayı düz varint yapmıştım; `_yaz`ı okumadan "sayaç
+    // zaten pozitif, zigzag gerekmez" diye VARSAYMIŞTIM. Varsayım yanlıştı ve
+    // her sayacı İKİYE KATLAYARAK okurdu — 12.440 poligon 6.220 görünür,
+    // halkalar yanlış gruplanır, harita sessizce yanlış çizilirdi.
+    function v() {
+      var z = 0, k = 0, c;
+      do { c = u8[i++]; z |= (c & 0x7F) << k; k += 7; } while (c & 0x80);
+      return (z & 1) ? -((z + 1) >>> 1) : (z >>> 1);
+    }
+    var nPol = v(), sayilar = new Array(nPol), toplam = 0;
+    for (var j = 0; j < nPol; j++) { sayilar[j] = v(); toplam += sayilar[j]; }
+    var halkalar = havuzCoz(u8.subarray(i));
+    if (halkalar.length !== toplam) {
+      throw new Error("geo_coz yuva: " + toplam + " halka bekleniyordu, " +
+                      halkalar.length + " geldi");
+    }
+    var out = new Array(nPol), k2 = 0;
+    for (var p = 0; p < nPol; p++) {
+      out[p] = halkalar.slice(k2, k2 + sayilar[p]);
+      k2 += sayilar[p];
+    }
+    return out;
+  }
+
+  kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz, yuvaCoz: yuvaCoz };
 
   // ── OTOMATİK BAĞLAMA ───────────────────────────────────────────────
   // Her hedef bir satırlık base64 atar; bu dosya onu çözer ve app.js'in

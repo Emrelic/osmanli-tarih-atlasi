@@ -9979,20 +9979,51 @@ function _petekGovdeYukle(cb) {
   _PETEK_GOVDE_YUK.deneniyor = true;
   var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
   var v = (damga.match(/v=(r\d+)/) || [])[1];
-  var sc = document.createElement("script");
-  sc.src = "data/petek_govde.js" + (v ? "?v=" + v : "");
   function bitti() {
     _PETEK_GOVDE_YUK.deneniyor = false;
     var b = _PETEK_GOVDE_YUK.bekleyen; _PETEK_GOVDE_YUK.bekleyen = [];
     b.forEach(function (f) { try { f(); } catch (e) { console.error("[antlaşma farkı]", e); } });
   }
-  sc.onload = bitti;
-  sc.onerror = function () {
-    _PETEK_GOVDE_YUK.hata = true;
-    console.warn("[antlaşma farkı] data/petek_govde.js yüklenemedi — bölgeler çizilemedi, metin duruyor");
-    bitti();
-  };
-  document.head.appendChild(sc);
+  // 🔴 29 Eylül 2026 — KAYIPSIZ KODLAMA: `data/petek_govde.js` artık depoda
+  // DEĞİL (.gitignore). Yerine İKİ eser var ve SIRA ZORUNLUDUR:
+  //   petek_govde_ust.js  → window.PETEK_GOVDE (0,08 MB, düz JS)
+  //   petek_govde_parca.js→ window.__PG_B64 (2,04 MB, kodlanmış havuz)
+  // Sonra `js/geo_coz.js` çözer ve window.PETEK_GOVDE_PARCA'yı kurar.
+  // Ölçüldü: 11,06 MB → 2,12 MB = ×5,2 · 13.236 halka / 701.239 nokta AYNI ·
+  // 3 ondalık hane AYNI · gidiş-dönüş diskten BİREBİR (sha 7ce4beac7ec2).
+  // ⚠️ Bu dosya AÇILIŞTA yüklenmiyor (yalnız antlaşma farkı kutusu açılınca),
+  //    yani kodlamanın ilk açılış süresine etkisi YOKTUR; kazanç depo boyutu
+  //    ve BU kutunun açılış hızıdır.
+  var kuyruk = ["data/petek_govde_ust.js", "data/petek_govde_parca.js"];
+  function sonraki(i) {
+    if (i >= kuyruk.length) {
+      try {
+        if (window.geoCoz && window.__PG_B64) {
+          window.PETEK_GOVDE_PARCA =
+            window.geoCoz.yuvaCoz(window.geoCoz.b64Coz(window.__PG_B64));
+          window.__PG_B64 = null;
+        } else if (!window.PETEK_GOVDE_PARCA) {
+          throw new Error("geoCoz ya da __PG_B64 yok");
+        }
+      } catch (e) {
+        _PETEK_GOVDE_YUK.hata = true;
+        console.error("[antlaşma farkı] petek gövde ÇÖZÜLEMEDİ:", e);
+      }
+      bitti();
+      return;
+    }
+    var sc = document.createElement("script");
+    sc.src = kuyruk[i] + (v ? "?v=" + v : "");
+    sc.onload = function () { sonraki(i + 1); };
+    sc.onerror = function () {
+      _PETEK_GOVDE_YUK.hata = true;
+      console.warn("[antlaşma farkı] " + kuyruk[i] +
+                   " yüklenemedi — bölgeler çizilemedi, metin duruyor");
+      bitti();
+    };
+    document.head.appendChild(sc);
+  }
+  sonraki(0);
 }
 // 🔴 21 Eylül 2026 — DALGA-0074/H-0012 (Emre), KURAL İHLALİ DÜZELTMESİ.
 // Emre'nin birebir sözü: *"maddelerin içinde bu tür notlar bulunması son

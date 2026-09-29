@@ -138,6 +138,75 @@ def _metinle(halkalar):
     return "[" + ",".join(p) + "]"
 
 
+# ── YUVA 1 — poligon dizisi (petek_govde.js) ─────────────────────────────
+# PETEK_GOVDE_PARCA = [ poligon, ... ] ve poligon = [ halka, ... ]; yani
+# ötekilerden BİR DÜZEY derin. Halka kodlayıcısı DEĞİŞMEZ — poligonlar
+# düzleştirilip halka listesine çevrilir, gruplama ayrı bir sayı listesinde
+# tutulur. Böylece sınanmış kodlayıcıya hiç dokunulmaz.
+def _ayristir_yuva(metin):
+    """'[[[[x,y],...]],...]' → ([[(x,y),...], ...], [poligondaki halka sayısı])"""
+    # 🔴 DİZGİ BÖLMESİ DEĞİL, DERİNLİK TARAYICISI. `split("]],[[")` ile üst
+    # düzey poligonları ayırmak, baştaki/sondaki fazla köşeli parantezleri
+    # elle kırpmayı gerektiriyor ve o kırpma tek karakterlik bir hatayla
+    # sessizce yanlış halka üretir. Burada bir karakter döngüsü var; 11 MB
+    # için birkaç saniye sürer ve DOĞRUDUR — takas bilinçli.
+    halkalar, sayilar = [], []
+    derin, bas = 0, None
+    for j, c in enumerate(metin):
+        if c == "[":
+            derin += 1
+            if derin == 2:                      # bir poligon başladı
+                bas = j
+        elif c == "]":
+            if derin == 2 and bas is not None:  # poligon bitti
+                ic_halka = _ayristir(metin[bas:j + 1])
+                sayilar.append(len(ic_halka))
+                halkalar.extend(ic_halka)
+                bas = None
+            derin -= 1
+    return halkalar, sayilar
+
+
+def _metinle_yuva(halkalar, sayilar):
+    """Düzleştirilmiş halkaları poligon dizisine geri kur."""
+    p, k = [], 0
+    for n in sayilar:
+        p.append(_metinle(halkalar[k:k + n]))
+        k += n
+    return "[" + ",".join(p) + "]"
+
+
+# ── TEK GİRİŞ / TEK ÇIKIŞ — yuva farkı YALNIZ burada bilinir ─────────────
+# Çağıran yerler (yay · kapi · coz_c) yuvayı hiç bilmez. Böylece hedef
+# eklemek üç yeri birden değiştirmeyi gerektirmez; bir yerde unutulursa
+# öteki sessizce yanlış çalışırdı.
+def _havuz_kodla(havuz_metni):
+    """Havuz metni → (ikili akış, halka sayısı, nokta sayısı)."""
+    if YUVA:
+        halkalar, sayilar = _ayristir_yuva(havuz_metni)
+        out = bytearray()
+        _yaz(out, len(sayilar))
+        for n in sayilar:
+            _yaz(out, n)
+        govde = bytes(out) + _kodla_havuz(halkalar)
+    else:
+        halkalar = _ayristir(havuz_metni)
+        govde = _kodla_havuz(halkalar)
+    return govde, len(halkalar), sum(len(h) for h in halkalar)
+
+
+def _havuz_metinle(b):
+    """İkili akış → havuz metni (özgün biçimiyle, birebir)."""
+    if YUVA:
+        n, k = _oku(b, 0)
+        sayilar = []
+        for _ in range(n):
+            v, k = _oku(b, k)
+            sayilar.append(v)
+        return _metinle_yuva(_coz_havuz(b[k:]), sayilar)
+    return _metinle(_coz_havuz(b))
+
+
 # ── kodla / çöz ──────────────────────────────────────────────────────────
 def _eksi_sifir(v):
     """v NEGATİF SIFIR mı — `v == 0` bunu ayırt etmez, işaret biti ayırt eder."""
@@ -354,11 +423,10 @@ def secenek(yol):
     with open(yol, encoding="utf-8") as f:
         metin = f.read()
     onek, havuz, sonek = _bolumle(metin)
-    halkalar = _ayristir(havuz)
-    havuz_b = _kodla_havuz(halkalar)
+    havuz_b, _nhalka, _nnokta = _havuz_kodla(havuz)
     ham = os.path.getsize(yol)
     print("girdi %.1f MB · halka %d · varint %.2f MB  (%.0f sn)\n"
-          % (ham / 1048576, len(halkalar), len(havuz_b) / 1048576,
+          % (ham / 1048576, _nhalka, len(havuz_b) / 1048576,
              time.perf_counter() - t))
 
     print("%-52s %10s %10s" % ("", "depoda MB", "telde MB"))
@@ -444,10 +512,29 @@ HEDEFLER = {
         "ust": "donemler_ust.js", "on": "donemler_on.js",
         "ne": "Dönem peteklerinin",
     },
+    # 🔴 ÜÇÜNCÜ HEDEF — ve ilk ikisinden BİR DÜZEY DERİN (29 Eylül 2026).
+    # Ölçüldü: petek_govde.js 11,06 MB · en çok 3 ondalık hane (OLCEK=1000
+    # BİREBİR yeter) · %71,6 rakam · %24,8 ayraç. AMA yapısı farklı:
+    #   DEVLET_PARCALAR   = [ halka, ... ]              halka = [[lon,lat],...]
+    #   PETEK_GOVDE_PARCA = [ poligon, ... ]  poligon = [ halka, ... ]
+    # Yani bir düzey daha var. "Aynı biçim" diye varsayıp geçseydim ayrıştırıcı
+    # sessizce yanlış halkalar üretirdi — gidiş-dönüş sınavı yakalardı ama
+    # sebebini aramak zaman yerdi. Bu yüzden `yuva` alanı AÇIKÇA yazılıyor.
+    # ⚠️ Bu dosya AÇILIŞTA YÜKLENMİYOR: `js/app.js:9983` onu yalnız antlaşma
+    #    farkı kutusu açılınca getiriyor. Kodlamanın ilk açılış süresine
+    #    etkisi SIFIRDIR; kazanç depo boyutu ve o kutunun açılış hızıdır.
+    "govde": {
+        "kaynak": "petek_govde.js", "havuz": "window.PETEK_GOVDE_PARCA = ",
+        "onek": "window.__PG_ONEK", "b64": "window.__PG_B64",
+        "sha": "window.__PG_SHA", "parca": "petek_govde_parca.js",
+        "ust": "petek_govde_ust.js", "on": "petek_govde_on.js",
+        "ne": "Petek gövdelerinin", "yuva": 1,
+    },
 }
 HEDEF = "devlet"
 ACIKLAMA = HEDEFLER["devlet"]["ne"]
 ON_JS = HEDEFLER["devlet"]["on"]
+YUVA = 0
 
 # 🔴 ÖNEK DOSYASI — 29 Eylül 2026'da ölçülen SESSİZ VERİ KAYBININ çaresi
 # ---------------------------------------------------------------------------
@@ -607,6 +694,8 @@ def hedef_sec(ad):
     HEDEF, HAVUZ_ADI = ad, h["havuz"]
     ONEK_ADI, B64_ADI, SHA_ADI = h["onek"], h["b64"], h["sha"]
     DP_JS, UST_JS, ACIKLAMA, ON_JS = h["parca"], h["ust"], h["ne"], h["on"]
+    global YUVA
+    YUVA = h.get("yuva", 0)          # 0 = halka dizisi · 1 = poligon dizisi
 
 
 def _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha=""):
@@ -715,7 +804,7 @@ def kapi(dizin, hedef=None):
         if not sha:
             return True, ["✗  kodlama kapısı: %s içinde %s YOK — asıl dosyanın "
                           "damgası olmadan doğrulanamaz" % (DP_JS, SHA_ADI)]
-        metin = onek + _metinle(_coz_havuz(havuz_b)) + sonek
+        metin = onek + _havuz_metinle(havuz_b) + sonek
         yeni = hashlib.sha256(metin.encode("utf-8")).hexdigest()
         if yeni == sha:
             # ── 🔴 KÜRESEL KAPSAMA — metin doğru ama TARAYICI EKSİK GÖREBİLİR ──
@@ -772,12 +861,10 @@ def yay(girdi, dizin):
         metin = f.read()
     ozgun_sha = hashlib.sha256(metin.encode("utf-8")).hexdigest()
     onek, havuz, sonek = _bolumle(metin)
-    halkalar = _ayristir(havuz)
+    havuz_b, _nhalka, _nnokta = _havuz_kodla(havuz)
     print("girdi %.1f MB · halka %d · nokta %d · sha %s  (%.0f sn)"
-          % (os.path.getsize(girdi) / 1048576, len(halkalar),
-             sum(len(h) for h in halkalar), ozgun_sha[:12],
-             time.perf_counter() - t))
-    havuz_b = _kodla_havuz(halkalar)
+          % (os.path.getsize(girdi) / 1048576, _nhalka, _nnokta,
+             ozgun_sha[:12], time.perf_counter() - t))
     p_yol, u_yol = _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha)
     pm = os.path.getsize(p_yol) / 1048576
     um = os.path.getsize(u_yol) / 1048576
@@ -786,7 +873,7 @@ def yay(girdi, dizin):
 
     print("  → DİSKTEN gidiş-dönüş sınavı")
     o2, h2, s2, sha2 = _oku_c(dizin)
-    yeniden = o2 + _metinle(_coz_havuz(h2)) + s2
+    yeniden = o2 + _havuz_metinle(h2) + s2
     if yeniden == metin:
         print("\n  ✅ SINAV GEÇTİ — yazılan dosyalardan kurulan metin ÖZGÜNLE BİREBİR.")
         print("  %.1f MB → %.2f MB   ×%.3f"
@@ -820,7 +907,7 @@ def coz_c(dizin, cikti):
     t = time.perf_counter()
     onek, havuz_b, sonek, _sha = _oku_c(dizin)
     with open(cikti, "w", encoding="utf-8", newline="") as f:
-        f.write(onek + _metinle(_coz_havuz(havuz_b)) + sonek)
+        f.write(onek + _havuz_metinle(havuz_b) + sonek)
     print("✓ %s → %s  (%.2f MB, %.0f sn)"
           % (dizin, cikti, os.path.getsize(cikti) / 1048576,
              time.perf_counter() - t))
