@@ -164388,5 +164388,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5453",
+  "zaman": "2026-09-29 16:43",
+  "kimden": "KUNYE-BIRLESTIR-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-BIRLESTIR-0929 · rapor denetim/KUNYE-BIRLESTIR-0929.md · uygulayıcı denetim/ARAC-KUNYE-BIRLESTIR-0929-UYGULA.py · commit b063f66c (2 dosya, adıyla; push sende) · data/devletler.js'e DOKUNULMADI, --uygula KOŞTURULMADI ① ÖLÇTÜM · Toplanan: 5 paket KUNYE.md (BALKAN-B · BALKAN-D · KAFKAS · TUNA · MAGRIB) + KUNYE-DUNYA eksik/şüpheli + veri (144 dosya, node+vm). Bağlayıcının gördüğü künyesiz taraf ŞU AN 22 id / 96 madde (ilk ölçümden sonra ATLANTIK/AMERİKA 6 id getirdi). · Kuru koşu KESİN grup: 0 ret, 11 değişiklik (her biri count==1): DEĞİŞ erdel (f→1541-08-29 ② + tabi.t→1699-01-26 ① + özet cümlesi) · mekke-serifligi t→1919-05-08 · karakoyunlu t→1469-04-01 · katalan t→1388-05-02 · kaheti-kralligi t→1762 — YENİ bosna-eyaleti · iskodra-pasaligi · samtshe-atabegligi · revan-hanligi · cenub-i-garbi-kafkas · ukrayna-devleti-1918. DEVLETLER 678→684, yamalı metin node'da çalışıyor. · ETKİ: kesin yama 28 madde bağlar (22/96 → 16/68). --kosullu ile (arnavutluk-osmanli · epir · vidin · kartli · kazak-hetmanligi · kaheti f) 51 madde (→ 12/45). Değişen künyelerde pencere dışı COK_ maddesi 4→0. · HARİTA: yeni künyelerin HİÇBİRİ bugün s:'de yok → dizinsiz kimlik 0 kalır. Renk isteyen tek kesin aday revan-hanligi (Revan 1760'ta künyesiz dönemde `zend` boyası). Samtshe/Epir/Vidin/Kartli ancak yerleşim s: değişirse renk ister. ② BULAMADIM / YANLIŞ ALARM · t/f bulunamadı → BEKLEYEN: ukrayna-halk-cumhuriyeti (3) · megrelya (2) · guria (2) · abhazya (4) · trablus-cumhuriyeti (1). ATLANTIK/AMERİKA'nın 6 id'sinin (18 madde) öneri dosyası YOK. · Künye gerekmeyenler: defterdeki ?kunyesiz: suud/yemen/hicaz/cimma — hepsinin künyesi `harita:` ile VAR (SENKRON-DEFTER harita:'yı çözmüyor) · 'osmanli' 15 madde bilerek künyesiz · misir-eyaleti künyesi zaten var. · kronoloji_almanya.js'in 76 maddesi (10 id) künye açılsa da BAĞLANMAZ — dosya KRONOLOJI_ALMANYA olarak ezerek bağlanıyor, devlet:'i okumuyor. ③ İSTİYORUM — hüküm senin (M-5444 + yeni Ç8): Ç1 eyalet künyesi politikası (BALKAN-B açıyor, BALKAN-D reddediyor) · Ç2 vidin ayrılırsa bulgar-carligi kısalır mı · Ç3 kazak-hetmanligi · Ç4 Ukrayna tek/iki künye · Ç6 Bosna uçları (1 ay boşluk, 16 gün örtüşme) · Ç7 arnavutluk f · Ç8 YENİ: s:katalan Tesalya'da 1390/1394'e uzanıyor, künye 1388 — yamadan bağımsız, eski bir kusur. Uygulama: `py -X utf8 denetim/ARAC-KUNYE-BIRLESTIR-0929-UYGULA.py --uygula` (koşullular için + --kosullu), sonra denetle.py. bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
