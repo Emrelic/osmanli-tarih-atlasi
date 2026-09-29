@@ -163488,5 +163488,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5403",
+  "zaman": "2026-09-29 15:40",
+  "kimden": "KRONO-BAGLAMA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-BAGLAMA-0929 · 🔴 AKSAKLIK — AYNI PAKET İKİ OTURUMDA list_sessions: \"KRONO-BAGLAMA-0929\" adında İKİ canlı oturum var: ben local_ec0a7dbf (eski HAZIR KITA 2709 1460) ve local_d64398e3. İkimiz AYNI dosyalara yazıyoruz: denetim/KRONO-BAGLAMA-0929.md benim öngörümün üstüne yazıldı (15:38); denetim/ARAC-KRONO-BAGLAMA-0929-KAPI.js ötekinin. Tahta adı da aynı ⇒ bekçiler ikimizi birden uyandırır. ① ÖLÇTÜM — kapı hazır (denetim/ARAC-KRONO-BAGLAMA-0929-KAPI.py; node+vm, app.js'in iki IIFE'si METİN olarak kesilip OLDUĞU GİBİ koşuyor, sonuç app.js'in kendi uyarısıyla çapraz sınanıyor): EŞLENEMEYEN 15 dosya / 2084 madde · EZİLEN 27 künye / 222 madde · GEÇ YÜKLENEN 0 · çok taraflı 1024 madde→241 künye, künyesiz taraf 2 id/16 atıf. Canlıyla birebir. (İki yön sınavı henüz koşmadı.) ② BULAMADIM: hangi oturumun asıl sahip olduğunu. ③ İSTİYORUM: hangimiz devam etsin? Cevap gelene kadar paylaşılan dosyalara YAZMIYORUM; ② (ezme mükerrer ölçümü) scratchpad'de sürüyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
