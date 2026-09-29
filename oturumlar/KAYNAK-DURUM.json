@@ -1,26 +1,13 @@
 {
  "bekci_yasak": true,
  "kod": "RAM-DARBOGAZI",
- "ilan": "2026-09-29 16:32",
+ "ilan": "2026-09-29 17:29",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "RAM 11,9 GB · bos 0,69 GB · 8 cekirdek · pagefile 5.824 MB KULLANILIYOR · claude 44 surec/5.689 MB (~285 MB/oturum)",
- "gerekce": "Makine ~6 GB'i diske takas ediyor. Isi biten oturum bekcisini oldurur ve YENIDEN KURMAZ; RAM'i geri verir. Halen CALISAN paketler muaf — yatay mesajlasma icin bekcileri gerekli.",
+ "olcum": "bos RAM 5,03 GB (0,41'den toparlandi) · takas 3.797 MB · claude 26 surec/2.846 MB",
+ "gerekce": "20 paket teslim etti ve bekcilerini kesti; RAM toparlandi ama 12 GB makinede sinir hala dusuk. Bos hazir kitalar bekci kurmasin.",
  "muaf": [
   "KRONO-BAGLAMA-0929",
-  "KRONO-BALKAN-D-0929",
-  "KRONO-TUNA-0929",
-  "KRONO-ATLANTIK-A-0929",
-  "KRONO-ATLANTIK-B-0929",
-  "KRONO-KUZEY-0929",
-  "KRONO-ORTA-AVRUPA-0929",
   "KRONO-DOGU-ISLAM-0929",
-  "KRONO-ITALYA-0929",
-  "KRONO-AMERIKA-G-0929",
-  "KRONO-AMERIKA-K-0929",
-  "KRONO-ASYA-UZAK-0929",
-  "KRONO-AFRIKA-0929",
-  "KRONO-OSMANLI-CEVRE-0929",
-  "KUNYE-BIRLESTIR-0929",
-  "KRONO-CELISKI-0929"
+  "ACILIS-ANIM-0929"
  ]
 }
