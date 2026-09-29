@@ -7182,6 +7182,65 @@ function suzulduMu(i) {
   return !!(olayDom[i] && olayDom[i].classList.contains("suzuldu"));
 }
 
+// ---------- 🔍 KRONOLOJİ ARAMASI — arayüz katmanı (ARAMA-0930) ----------
+// Mantık `js/arama.js`te ve DOM'suz; node'da 34 sağlamayla İKİ YÖNDE sınandı
+// (`denetim/ARAC-ARAMA-0930-SINAV.js`). Burada yalnız durum + kapı var.
+//
+// 🔴 ARAMA DA SÜZMEDİR: GİZLER, SİLMEZ. `olaylar` dizisine DOKUNULMUYOR —
+// yukarıdaki süzgeç başlığında yazılı gerekçenin aynısı geçerli: zaman
+// göstergesi, ikili arama, "şimdiki" vurgusu ve harita senkronu hepsi
+// İNDEKS üzerinden çalışıyor. Diziyi süzseydik arama açılınca harita yanlış
+// tarihe giderdi. Bu yüzden arama da tek kapıdan (`suzgecUygula`) geçiyor ve
+// konu/toprak/başlık/dış süzgeçleriyle **VE** bağlanıyor.
+var aramaTerimler = [];            // basit kutu — boş dizi = süzme yok
+var aramaOlcutler = [];            // gelişmiş pencere — [{alan,op,metin}]
+var aramaBaglac = "ve";
+var aramaAdresSorgu = "";          // ?ara= ham metni — kutu bununla doldurulur
+
+// 🔴 ADRES BURADA OKUNUR, ARAYÜZ KURULURKEN DEĞİL — ölçülmüş bir kusur.
+// İlk sürümde `?ara=` yalnız `aramaKur()` içinde okunuyordu ve o, konu
+// süzgeci IIFE'sinden SONRA koşuyor. O IIFE sonunda `suzgecUygula()` →
+// `suzgecUrlYaz()` çağırıyor; `suzgecUrlYaz` kutuya bakıyor, kutu HENÜZ BOŞ,
+// ve `?ara=`yı ADRESTEN SİLİYOR. Ölçüldü: `/?ara=mohaç` ile açınca kutu boş,
+// 1440 madde görünür, adres `?ara=` içermiyor. Yani uygulama kendi yazdığı
+// bağlantıyı, okumadan önce siliyordu — paylaşılan her arama bağlantısı ölüydü.
+// ⇒ Durum adresten BU NOKTADA kurulur (ilk `suzgecUygula`dan önce); arayüz
+//   sonra yalnız YANSITIR. Ayrıştırma tek yerde kalır.
+(function aramaAdresOku() {
+  try {
+    var sp = new URL(window.location.href).searchParams;
+    var q = sp.get("ara");
+    if (q) { aramaAdresSorgu = q; aramaTerimler = window.ARAMA.basitAyristir(q); }
+    var g = sp.get("arag");
+    if (!g) return;
+    // ⚠️ Bozuk/eski bağlantı SESSİZ BİR BOŞ LİSTE üretmesin (`baslikUrlOku`
+    //    ile aynı ilke): ayrıştırılamıyorsa yok sayılır, konsola düşer.
+    var v = JSON.parse(g);
+    if (!v || !v.o || !v.o.length) return;
+    aramaBaglac = (v.b === "veya") ? "veya" : "ve";
+    v.o.forEach(function (o) {
+      aramaOlcutler.push({ alan: String(o.alan || "hepsi"),
+                           op: String(o.op || "icerir"),
+                           metin: String(o.metin || "") });
+    });
+  } catch (e) {
+    console.warn("Atlas arama: adres ayrıştırılamadı, yok sayıldı — " + e.message);
+  }
+})();
+
+function aramaGecer(olay) {
+  return window.ARAMA.basitGecer(olay, aramaTerimler) &&
+         window.ARAMA.gelismisGecer(olay, aramaOlcutler, aramaBaglac);
+}
+// Arama yürürlükte mi — rozet ve "sonuç yok" mesajı bunu sorar.
+function aramaAcikMi() {
+  if (aramaTerimler.length) return true;
+  for (var i = 0; i < aramaOlcutler.length; i++) {
+    if (String(aramaOlcutler[i].metin || "").trim() !== "") return true;
+  }
+  return false;
+}
+
 function suzgecUygula() {
   var gizli = 0;
   var toprakVar = toprakSecim && window.SUZGEC.toprakIndeksleri;
@@ -7194,6 +7253,7 @@ function suzgecUygula() {
                    suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0) &&
                   (!toprakVar || !!toprakIsaret().isaretli[i]) &&
                   (!baslikVar || window.SUZGEC.baslikGecer(olaylar[i], baslikSecim)) &&
+                  aramaGecer(olaylar[i]) &&      // 🔍 ARAMA-0930 — öteki süzgeçlerle VE
                   !disGizli;
     olayDom[i].classList.toggle("suzuldu", !gorunur);
     var ist = !!(ds && ds.istisnaIx[i] !== undefined);
@@ -7213,6 +7273,7 @@ function suzgecUygula() {
       " dış madde gizli" + (ds.istisna.length ? " · " + ds.istisna.length + " istisna görünür" : "") : "";
   }
   disEsikBilgiYaz(ds, disGizliSay);
+  aramaSonucYaz(olaylar.length - gizli);
   olaylarGuncelleZorla();
   suzgecUrlYaz();
 }
@@ -7239,6 +7300,17 @@ function suzgecUrlYaz() {
   // PAKET-UI3 — varsayılandan farklıysa adreste taşınır (paylaşılan bağlantı aynı listeyi versin)
   if (disEsik !== DIS_ESIK_VARSAYILAN) u.searchParams.set("dis", disEsik);
   else u.searchParams.delete("dis");
+  // 🔍 ARAMA-0930 — aramanın da PAYLAŞILABİLİR olması, süzgeçle aynı gerekçe
+  // (yukarıdaki "akademik başvuru kaynağı" kararı). Basit sorgu ham metin,
+  // gelişmiş ölçütler JSON.
+  // ⚠️ DOM'dan DEĞİL DURUMDAN yazılır. Kutuyu okusaydı, ilk `suzgecUygula`
+  //    (konu süzgeci kurulurken) kutu daha dolmadan koşar ve `?ara=`yı
+  //    adresten silerdi — ölçüldü, paylaşılan bağlantılar ölüyordu.
+  if (aramaAdresSorgu) u.searchParams.set("ara", aramaAdresSorgu);
+  else u.searchParams.delete("ara");
+  var _dolu = aramaOlcutler.filter(function (o) { return String(o.metin || "").trim() !== ""; });
+  if (_dolu.length) u.searchParams.set("arag", JSON.stringify({ b: aramaBaglac, o: _dolu }));
+  else u.searchParams.delete("arag");
   window.history.replaceState(null, "", u);
 }
 // ?baslik=konu-askeri,afet-deprem — tanınmayan değer atılır (eski/yanlış bağlantı sessiz
@@ -7408,6 +7480,194 @@ function suzgecUrlOku() {
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
   if (suzgecSecim || toprakSecim || baslikSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
+})();
+
+// ---------- 🔍 ARAMA ARAYÜZÜ (ARAMA-0930, 30 Eylül 2026) ----------
+// Yalnız DOM: kutu, pencere, ölçüt satırları. Eşleşme kararı `window.ARAMA`da.
+// 🔴 TEK SAYI, TEK KAYNAK — ölçüldü ve ayrışmıştı (30 Eylül 2026).
+// Gelişmiş pencere kendi sayısını `ARAMA.say(olaylar, aramaGecer)` ile
+// hesaplıyordu: bu YALNIZ aramayı sayar. Kronoloji listesi ise arama +
+// konu + toprak + başlık + dış önem süzgeçlerinin HEPSİNİ uygular.
+// Sınavda ekranda 39 satır görünürken pencere "40 madde eşleşti" yazdı —
+// biri ötekini yalanlıyordu ve ikisi de kendi içinde doğruydu.
+// ⇒ Pencere artık kendi saymıyor, listenin sayısını OKUYOR; fark varsa
+//   SEBEBİNİ yazıyor ("… başka süzgeçle gizli"). İki sayı yan yana
+//   durmuyorsa kullanıcı hangisine inanacağını bilemez.
+var _aramaGorunen = 0;
+
+function aramaSonucYaz(gorunen) {
+  _aramaGorunen = gorunen;
+  var on = document.getElementById("arama-onizleme");
+  if (on) {
+    if (!aramaAcikMi()) {
+      on.textContent = "ölçüt girilmedi — süzme yok";
+      on.classList.remove("bos");
+    } else {
+      var ham = window.ARAMA.say(olaylar, aramaGecer);     // yalnız arama
+      var perde = ham - gorunen;                            // öteki süzgeçler
+      on.textContent = gorunen + " madde görünüyor · " + olaylar.length + " madde tarandı"
+                       + (perde > 0 ? " · " + perde + " eşleşme başka süzgeçle gizli" : "");
+      on.classList.toggle("bos", !gorunen);
+    }
+  }
+  var el = document.getElementById("kr-ara-sonuc");
+  if (!el) return;
+  if (!aramaAcikMi()) { el.textContent = ""; el.className = ""; return; }
+  // 🔴 SIFIR SONUÇ SESSİZ GEÇMEZ. Boş bir liste "veri yok" ile "hepsi
+  //    süzüldü"yü ayırt ettirmez; kullanıcı atlası bozuk sanır. Bu satır
+  //    farkı söyler — ve süzgeç de açıksa onu da söyler, çünkü sonucu
+  //    daraltan arama olmayabilir.
+  var ek = (suzgecSecim || toprakSecim || baslikSecim) ? " · konu süzgeci de açık" : "";
+  if (!gorunen) {
+    el.className = "bos";
+    el.textContent = "eşleşen madde yok" + ek;
+  } else {
+    el.className = "";
+    el.textContent = gorunen + " madde eşleşti" + ek;
+  }
+}
+
+(function aramaKur() {
+  var kutu = document.getElementById("kr-ara");
+  if (!kutu) return;                          // markup yoksa sessizce geç
+  var pencere = document.getElementById("arama-pencere");
+  var olcutKap = document.getElementById("arama-olcutler");
+
+  // ── basit kutu ──────────────────────────────────────────────────────
+  // 🔴 GECİKMELİ (debounce) — her tuşta 8.000+ madde taranıp 8.000 satıra
+  //    sınıf yazılıyor. Ölçülmeden "hızlıdır" denmez; 160 ms yazarken
+  //    fark edilmez ama tuş başına bir tam süzme koşusunu engeller.
+  var zamanlayici = null;
+  function basitUygula() {
+    aramaAdresSorgu = kutu.value.trim();
+    aramaTerimler = window.ARAMA.basitAyristir(kutu.value);
+    suzgecUygula();
+  }
+  kutu.addEventListener("input", function () {
+    clearTimeout(zamanlayici);
+    zamanlayici = setTimeout(basitUygula, 160);
+  });
+  // Esc kutuyu temizler ve süzmeyi kaldırır (tarayıcının kendi ✕'i
+  // `input` üretir, o zaten yakalanıyor).
+  kutu.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { kutu.value = ""; clearTimeout(zamanlayici); basitUygula(); }
+  });
+
+  // ── gelişmiş pencere ────────────────────────────────────────────────
+  function satirKur(olcut) {
+    var satir = document.createElement("div");
+    satir.className = "arama-olcut";
+
+    var alan = document.createElement("select");
+    alan.className = "ar-alan";
+    // 🔴 SEÇENEKLER MOTORDAN OKUNUR — HTML'e yazılmaz (ikinci kopya olurdu).
+    window.ARAMA.ALANLAR.forEach(function (x) {
+      var o = document.createElement("option");
+      o.value = x.id; o.textContent = x.ad;
+      alan.appendChild(o);
+    });
+    alan.value = olcut.alan;
+
+    var op = document.createElement("select");
+    op.className = "ar-op";
+    window.ARAMA.OPERATORLER.forEach(function (x) {
+      var o = document.createElement("option");
+      o.value = x.id; o.textContent = x.ad;
+      op.appendChild(o);
+    });
+    op.value = olcut.op;
+
+    var metin = document.createElement("input");
+    metin.type = "search";
+    metin.className = "ar-metin";
+    metin.autocomplete = "off";
+    metin.value = olcut.metin || "";
+    metin.placeholder = "aranan metin";
+
+    var sil = document.createElement("button");
+    sil.type = "button";
+    sil.className = "ar-sil";
+    sil.textContent = "✕";
+    sil.title = "Bu ölçütü kaldır";
+
+    function oku() {
+      olcut.alan = alan.value; olcut.op = op.value; olcut.metin = metin.value;
+      gelismisUygula();
+    }
+    alan.addEventListener("change", oku);
+    op.addEventListener("change", oku);
+    var z = null;
+    metin.addEventListener("input", function () { clearTimeout(z); z = setTimeout(oku, 160); });
+    sil.addEventListener("click", function () {
+      var i = aramaOlcutler.indexOf(olcut);
+      if (i >= 0) aramaOlcutler.splice(i, 1);
+      satir.remove();
+      if (!aramaOlcutler.length) olcutEkle();     // pencere hiç boş kalmasın
+      gelismisUygula();
+    });
+
+    satir.appendChild(alan); satir.appendChild(op);
+    satir.appendChild(metin); satir.appendChild(sil);
+    olcutKap.appendChild(satir);
+  }
+
+  function olcutEkle(baslangic) {
+    var o = baslangic || { alan: "hepsi", op: "icerir", metin: "" };
+    aramaOlcutler.push(o);
+    satirKur(o);
+  }
+
+  function gelismisUygula() {
+    var r = document.querySelector('input[name="arama-baglac"]:checked');
+    aramaBaglac = r ? r.value : "ve";
+    // Önizlemeyi `suzgecUygula` → `aramaSonucYaz` yazıyor (tek kaynak).
+    // Liste pencerenin ARKASINDA kalıyor; yazarken ne olduğunu görmenin
+    // tek yolu o satır — ama sayıyı orada ÜRETMİYORUZ, okuyoruz.
+    suzgecUygula();
+  }
+
+  document.querySelectorAll('input[name="arama-baglac"]').forEach(function (r) {
+    r.addEventListener("change", gelismisUygula);
+  });
+  var ekleBtn = document.getElementById("arama-ekle");
+  if (ekleBtn) ekleBtn.addEventListener("click", function () { olcutEkle(); });
+  var temizleBtn = document.getElementById("arama-temizle");
+  if (temizleBtn) temizleBtn.addEventListener("click", function () {
+    aramaOlcutler.length = 0;
+    olcutKap.innerHTML = "";
+    olcutEkle();
+    gelismisUygula();
+  });
+
+  function pencereAc(ac) {
+    if (!pencere) return;
+    pencere.classList.toggle("gizli", !ac);
+    if (ac) gelismisUygula();
+  }
+  var gelismisBtn = document.getElementById("kr-ara-gelismis");
+  if (gelismisBtn) gelismisBtn.addEventListener("click", function () {
+    pencereAc(pencere.classList.contains("gizli"));
+  });
+  var kapatBtn = document.getElementById("arama-kapat");
+  if (kapatBtn) kapatBtn.addEventListener("click", function () { pencereAc(false); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && pencere && !pencere.classList.contains("gizli")) pencereAc(false);
+  });
+
+  // ── DURUMU EKRANA YANSIT ────────────────────────────────────────────
+  // ⚠️ Adres BURADA OKUNMAZ — `aramaAdresOku()` onu çoktan okudu (gerekçesi
+  //    orada). Burada yalnız o durumun görünen yüzü kuruluyor. İki yerde
+  //    ayrıştırmak, iki ayrıştırıcının ayrışması demekti.
+  if (aramaAdresSorgu) kutu.value = aramaAdresSorgu;
+  var rr = document.querySelector('input[name="arama-baglac"][value="' + aramaBaglac + '"]');
+  if (rr) rr.checked = true;
+  // Adresten gelen ölçütler dizide VAR ama satırları yok: diziyi boşaltıp
+  // `olcutEkle` ile TEK YOLDAN geri kur (satır ile ölçüt hep eşleşsin).
+  var adresten = aramaOlcutler.slice();
+  aramaOlcutler.length = 0;
+  adresten.forEach(function (o) { olcutEkle(o); });
+  if (!aramaOlcutler.length) olcutEkle();
+  if (aramaAcikMi()) suzgecUygula();
 })();
 
 // Titreme önleme: her tıkta 234 satırı yeniden boyamak yerine yalnızca eski ve
