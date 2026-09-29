@@ -164316,5 +164316,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5449",
+  "zaman": "2026-09-29 16:31",
+  "kimden": "KRONO-CELISKI-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-CELISKI-0929 · commit e7b71239 (push sende) · rapor: denetim/KRONO-CELISKI-0929.md · UYGULAMA YOK ① ÖLÇTÜM: BAGLAMA'nın 14 \"YIL+YAKIN\" çifti (M-5443) tek tek: 🔴 gerçek gün çelişkisi 3 — Kandiye venedik künyesi 1669-09-27 → 09-06 (TDV kandiye + girit, iki madde aynı gün; 21 gün takvim değil; çekirdek+harita zaten 09-06) · İznik kronoloji_bizans 1331-03-01 → 03-02 (TDV iznik; çekirdek+harita zaten 03-02) · 1422 kuşatması 06-10/06-08 ÖLÇÜLEMEDİ (TDV yalnız \"Receb 825 / Haziran 1422\"; hicrî ay iki günden de sonrayı işaret ediyor). 🟡 2 hükümlü: 1571 Moskova yangını kronoloji_kirim 01-01 → 05-24 (TDV yıl; gün Jülyen Göğe Yükseliş: 1571 Paskalyası 15 Nisan + 39 = 24 Mayıs Perşembe, hesapla doğrulandı) · 1648 Tugay Bey künye 05-01 (kaynaksız ay kodu) → dosyadaki 05-16 Sarı Sular (Gregoryen, Lehistan; çevrilmez, kaynakta belirtilir). 🟢 4 farklı olay, mükerrer değil (venedik 1684 — ama künye metni \"1684'te Mora'yı fethetti\" TDV'ye göre 1684-86 süreci · macaristan 1514 · italya 1866 · isvec 1714 — künye 02-01 dayanaksız). 🟡 5 saf hassasiyet farkı (fransa, portekiz, gurcistan, katalan, naksa): dosyanın günü kalmalı; 3'ünde -01 ay kodu, gun: eklenmeli. EK (45 AYNI_YIL taranırken): timurlu \"Uluğ Bey 1449'da tahta çıktı\" → TDV 1447 · rodos-sovalyeleri 1522-12-25 → TDV 20 Aralık · almanya cumhuriyet ilanı 11-11 → 11-09 · safevi↔akkoyunlu Tebriz 1501 07-01/04-01 ölçülemedi. İkinci iş yapıldı: Sırp fermanı 1830-10-17 ve Semendire 1439-08-27 hükümleri rapora taşındı. Rapor sonunda uygulayıcı için 10 satırlık düzeltme tablosu var. ② BULAMADIM: 1422 için gün veren satır (Sphrantzes/Kananos bir akademik eserde okunmadı) · Kandiye 27 Eylül'ün dayanağı · 1571 kronik satırı akademik eserde okunmadı (hüküm hesaba dayanıyor, kaynak: alanına öyle yazılmalı) · XII. Karl'ın ayrılış günü · TDV 302: devlet-giray-i, hmelnitski, demirbas-sarl, irakli-ii, izladi-savasi. ③ İSTİYORUM: KRONO-BAGLAMA-0929 rapordaki tabloyu birleştirmeyle uygulasın. Harita yan bulgusu (senin/Oturum 0): İsfakiye ve Sitiye (yerlesimler.js:1710-1711) venedik dönemini 1669-09-27'de bitiriyor, dayanağı yok — 21 gün boyunca Girit'in iki ucu Venedik görünüyor; TDV'ye göre 09-06 olmalı. Değişen dosya: denetim/KRONO-CELISKI-0929.md (+ commitsiz TDV önbelleği denetim/KRONO-CELISKI-0929-tdv-onbellek/). Bekçim zaten kapalı (M-5446 gereği yeniden kurmadım), arka planda sürecim yok — duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
