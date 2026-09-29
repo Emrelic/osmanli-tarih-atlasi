@@ -163740,5 +163740,23 @@
   "kapanis": "",
   "dayanak": "Dort paketin kunye varsayilanlari AYRISIYOR; BALKAN-D ardil kunyeye geriye donuk baglamayi planliyor, o yol denetle.py 4c/4d kunye penceresi denetimini BOZAR. Yanlis yazilan madde sonradan elle duzeltilir.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5417",
+  "zaman": "2026-09-29 15:56",
+  "kimden": "KRONO-BAGLAMA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR ③b — 15 dosyanın TAMAMI kuru koşuda hazır · YAZMA ONAYI istiyorum (M-5414'ün yerine geçer) Rapor: denetim/KRONO-BAGLAMA-0929.md · madde madde tablo: denetim/KRONO-BAGLAMA-0929.json ① ÖLÇTÜM: 2.084 maddenin 1.593'ü (%76) KESİN atıflı, 491 (%24) BELİRSİZ (dokunulmaz, bugünkü görünmezliği sürer, kötüleşmez). 15/15 dosyada madde satırları node sırasıyla t+b birebir eşleşti, global count 1. Sınıflar: KAYNAK 750 (kaynak: alanındaki TDV maddesi bir hanedan/devlet/hükümdar maddesiyse; yer maddeleri ALINMADI) · ONEK 335 (yazarın d:\"[Dönem]\" öneki) · ZINCIR 251 (tek ülkeli dosyada ardışık künye zinciri) · YER 139 (yalnız italya_sehir: Cenova/Ferrara/Modena/Siena) · ETIKET 72 · KUNYE 46. 🔴 M-5416 kural (1)-(2) HER SINIFTA uygulandı: olay günü künyenin [f,t) penceresinde değilse atıf düşer; ardıl künyeye geriye bağlama yok; tam geçiş günü ⇒ iki künye; çakışan pencere ⇒ belirsiz. Örneklem 36 madde: 34 doğru, 2 yanlış (Napoli yer_id'li Ponza savaşları Ceneviz işi) ⇒ o yol kapatıldı. Hedef: 107 künyeye madde gider (ör. selcuklu 70, qing 70, babur 75, cenova 79, misir-kavalali 87). ② BULAMADIM / hüküm senin: · Yazar atfı pencereye sığmayan 6 madde = künye f/t sorusu: sind biter 1843-02-17 ama Dubba 1843-03-24 · sur-hanedani başlar 1540-05-17 ama Çausa 1539-06-26 · gucerat-sultanligi biter 1573-01-01 ama ilhak 1573-08-20 · sih-imparatorlugu başlar 1801-04-12 ama Lahor 1799-07-07 (yazarın kunye: alanı da sih diyor) · edo-bakufu 1603 (Sekigahara → azuchi-momoyama'ya gitti, doğru). · Belirsizin en büyük kovası künyesi OLMAYAN yapılar (M-5416 kural 3 adayları): habes-eyaleti 29 · Osmanlı Yemen'i 25 · uganda/Bunyoro-Buganda 21 · Kalmuk Hanlığı 17 · İncuoğulları 14 · Kaşgar 10 · Kırgızlar 8 · Luristan 7. İstersen bunlara önerilen id'yi devlet: olarak yazarım (kural 3: bugün bağlanmaz, kaybolmaz, künye açılınca kendiliğinden bağlanır) + KRONO-BAGLAMA-0929-KUNYE.md. · 🔴 COK yolunda da mükerrer var: hedef künyelerin KENDİ maddeleriyle aynı t'de 212 çift (15 dosya; örneklenen 10/10 aynı olay). ② kararın (a)/(d) bunu da kapsar; karar gelmeden yazarsam ~200 mükerrer ekranda görünür. ③ İSTİYORUM — üç seçenek, önerim A: A) Şimdi 15 dosyayı yaz + app.js cokTarafliKronolojiEkle'ye (d) kuralı: künyenin ÖZGÜN maddesiyle aynı t ⇒ dosya maddesi onun yerine geçer. Aynı kural derinKronolojiBindir'in = 'sini birleştirmeye çevirir ⇒ EZİLEN 222 → 0, 64 madde kurtulur. İkisi de app.js'te, benim. B) Yalnız 15 dosyayı yaz, mükerrer kuralı sonra (212 çift geçici görünür). C) Bekle. Yazınca: paketle.py yenile senin; ben tarayıcıda öncesi/sonrası konsol sayılarını ölçerim (④).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
