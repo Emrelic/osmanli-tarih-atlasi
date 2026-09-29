@@ -1,0 +1,205 @@
+== C-ARTEFAKT-yil-temsili (58 grup)
+  1375-01-01  chimu-krallik -> chimu-krallik  | Túcume
+  1460-01-01  — -> inka-imparatorlugu  | Huánuco Pampa (Huánuco Viejo)
+  1465-01-01  — -> inka-imparatorlugu  | Cajamarca
+  1487-01-01  — -> inka-imparatorlugu  | Quito
+  1538-01-01  — -> ispanyol-peru  | Guayaquil (Santiago de Guayaquil)
+  1549-01-01  — -> ispanyol-peru  | Jaén de los Bracamoros
+  1580-01-01  — -> ispanyol-peru  | Putre
+  1590-01-01  — -> portekiz-brezilyasi  | São Cristóvão (Sergipe)
+  1597-01-01  — -> ispanyol-peru  | Portobelo (Puerto Bello)
+  1606-01-01  — -> ispanyol-peru  | Oruro (Villa de San Felipe de Austria)
+  1612-01-01  — -> ispanyol-peru  | Barbacoas
+  1631-01-01  — -> ispanyol-peru  | Tonua (Chinchao)
+  1635-01-01  — -> portekiz-brezilyasi  | Cametá (Tocantins)
+  1640-01-01  — -> ispanyol-peru  | Concepción de Xéveros (Jeberos)
+  1653-01-01  — -> ispanyol-peru  | Santa María de Ucayali
+  1661-01-01  — -> portekiz-brezilyasi  | Santarém (Tapajós)
+  1665-01-01  — -> ispanyol-peru  | San Miguel (Aushiri)
+  1669-01-01  — -> portekiz-brezilyasi  | Manaus (Forte de São José do Rio Negro); Tupinambarana (Parintins)
+  1670-01-01  — -> ispanyol-peru  | Santiago de la Laguna (Lagunas)
+  1686-01-01  — -> ispanyol-peru  | San Joaquín de Omaguas (Fritz)
+  1688-01-01  — -> portekiz-brezilyasi  | Tefé (Teffé de Aisuaris)
+  1690-01-01  — -> ispanyol-peru  | Tarija
+  1691-01-01  — -> ispanyol-peru  | Tariquea (Chiriguano misyonu)
+  1697-01-01  — -> portekiz-brezilyasi  | Óbidos (Pauxis)
+  1700-01-01  — -> ispanyol-peru  | Chiquiaca misyonları
+  1708-01-01  — -> ispanyol-peru  | Santo Tomé de los Andoas
+  1712-01-01  — -> ispanyol-peru  | Canelos (Bobonaza)
+  1712-01-01  — -> portekiz-brezilyasi  | Oeiras (Piauí)
+  1718-01-01  — -> portekiz-brezilyasi  | Itacaré (Barra do Rio de Contas)
+  1723-01-01  — -> portekiz-brezilyasi  | Borba (Madeira)
+  1733-01-01  — -> ispanyol-peru  | San José de los Nuevos Icaguates
+  1734-01-01  — -> portekiz-brezilyasi  | Diamantina (Arraial do Tijuco)
+  1753-01-01  — -> portekiz-brezilyasi  | Ourém (Pará)
+  1758-01-01  — -> portekiz-brezilyasi  | Barcelos (Mariuá); Chaves (Marajó); Macapá
+  1759-01-01  — -> portekiz-brezilyasi  | Itacoatiara (Serpa); São Paulo de Olivença
+  1766-01-01  — -> portekiz-brezilyasi  | Tabatinga
+  1776-01-01  — -> portekiz-brezilyasi  | São Fidélis (Paraíba do Sul)
+  1781-01-01  — -> portekiz-brezilyasi  | Aveiro (Tapajós)
+  1784-01-01  — -> portekiz-brezilyasi  | Panoré (São Gabriel da Cachoeira); Yavaraté (Vaupés)
+  1823-01-01  — -> brezilya-imparatorlugu  | Itaituba
+  1823-01-01  — -> arjantin-cumhuriyeti  | Tandil; Villaguay
+  1844-01-01  — -> kolombiya-cumhuriyeti  | Ituango
+  1850-01-01  — -> brezilya-imparatorlugu  | Nonohay (Yukarı Uruguay)
+  1852-01-01  — -> brezilya-imparatorlugu  | Caruru (Vaupés)
+  1855-01-01  — -> brezilya-imparatorlugu  | São Pedro de Alcântara (Tibagi)
+  1859-01-01  — -> venezuela-cumhuriyeti  | Elorza
+  1861-01-01  peru-cumhuriyeti -> —  | Sarayacu (Ucayali)
+  1862-01-01  — -> arjantin-cumhuriyeti  | Rivadavia (Salta)
+  1869-01-01  — -> peru-cumhuriyeti  | La Merced (Chanchamayo)
+  1875-01-01  — -> brezilya-imparatorlugu  | Caxias do Sul (Colônia de Caxias)
+  1887-01-01  — -> paraguay-cumhuriyeti  | Lengua misyonu (Paraguay Chaco)
+  1895-01-01  — -> kolombiya-cumhuriyeti  | Orocué
+  1901-01-01  — -> venezuela-cumhuriyeti  | Tucupita
+  1902-01-01  — -> ekvador-cumhuriyeti  | Puerto Villamil
+  1907-01-01  — -> brezilya-cumhuriyeti  | Tarauacá (Seabra)
+  1909-01-01  — -> brezilya-cumhuriyeti  | Ji-Paraná (Presidente Pena telgraf istasyonu); São Miguel do Tapuio
+  1918-01-01  — -> brezilya-cumhuriyeti  | Caçu
+  1922-01-01  — -> kolombiya-cumhuriyeti  | Puerto Carreño
+== D-OLCULEMEDI-yerlesim-kurulusu(tarih/onem dogrulanmadi) (126 grup)
+  1534-11-01  — -> ispanyol-peru  | Trujillo (Peru)
+  1538-11-30  — -> ispanyol-peru  | Sucre (La Plata / Chuquisaca)
+  1545-08-06  — -> ispanyol-peru  | Riohacha
+  1548-12-08  — -> ispanyol-peru  | Loja
+  1549-03-29  — -> portekiz-brezilyasi  | Salvador (Bahia)
+  1571-08-04  — -> ispanyol-peru  | Huancavelica (Villa Rica de Oropesa)
+  1572-06-19  — -> ispanyol-peru  | Carora
+  1641-04-10  — -> ispanyol-peru  | San Martín (Meta)
+  1643-03-04  — -> ispanyol-peru  | Honda (Tolima)
+  1691-04-21  — -> ispanyol-peru  | Cartago (Valle del Cauca)
+  1714-01-29  — -> portekiz-brezilyasi  | Serro (Vila do Príncipe)
+  1723-11-27  — -> portekiz-brezilyasi  | Rio de Contas (Minas do Rio de Contas)
+  1724-02-01  — -> ispanyol-peru  | Calabozo (Villa de Nuestra Señora de la Candelaria)
+  1754-08-10  — -> portekiz-brezilyasi  | Pirenópolis (Meia Ponte)
+  1757-07-08  — -> portekiz-brezilyasi  | Viana (Maranhão)
+  1758-02-22  — -> portekiz-brezilyasi  | Almeirim
+  1758-02-27  — -> portekiz-brezilyasi  | Monte Alegre (Pará)
+  1760-03-11  — -> ispanyol-peru  | San Carlos de Río Negro
+  1762-01-30  — -> portekiz-brezilyasi  | Santa Maria da Boa Vista
+  1776-06-20  — -> portekiz-brezilyasi  | Forte Príncipe da Beira
+  1777-05-01  — -> ispanyol-peru  | Montería
+  1795-12-11  — -> portekiz-brezilyasi  | Buíque
+  1811-08-09  — -> portekiz-brezilyasi  | Diamantino
+  1818-09-03  — -> portekiz-brezilyasi  | Canindé
+  1820-03-03  — -> portekiz-brezilyasi  | Cotegipe (Campo Largo)
+  1831-10-11  — -> brezilya-imparatorlugu  | Iguatu (Telha)
+  1831-10-25  — -> brezilya-imparatorlugu  | Carolina (Maranhão)
+  1831-11-11  — -> brezilya-imparatorlugu  | Porto Nacional
+  1832-07-06  — -> brezilya-imparatorlugu  | São Raimundo Nonato
+  1832-07-14  — -> brezilya-imparatorlugu  | Três Corações
+  1835-04-29  — -> brezilya-imparatorlugu  | Grajaú (Chapada)
+  1835-05-04  — -> peru-cumhuriyeti  | Quechualla
+  1835-07-23  — -> brezilya-imparatorlugu  | Flores de Goiás
+  1837-01-26  — -> kolombiya-cumhuriyeti  | David (Chiriquí)
+  1838-06-01  — -> brezilya-imparatorlugu  | Morro do Chapéu
+  1838-08-22  — -> brezilya-imparatorlugu  | Formosa (Goiás)
+  1838-09-22  — -> brezilya-imparatorlugu  | Bom Jesus (Piauí)
+  1843-10-30  — -> sili-cumhuriyeti  | Fuerte Bulnes
+  1845-07-31  — -> brezilya-imparatorlugu  | Ipameri (Entre Rios)
+  1847-11-13  — -> brezilya-imparatorlugu  | Lavras do Sul
+  1850-06-28  — -> brezilya-imparatorlugu  | Cáceres (São Luís de Cáceres)
+  1851-11-10  — -> brezilya-imparatorlugu  | Loreto (Maranhão)
+  1854-10-14  — -> brezilya-imparatorlugu  | Dianópolis (São José do Duro)
+  1855-04-24  — -> bolivya-cumhuriyeti  | Lagunillas (Cordillera)
+  1855-11-05  — -> brezilya-imparatorlugu  | Caiapônia (Torres do Rio Bonito)
+  1856-01-10  — -> brezilya-imparatorlugu  | Bertolínia (Aparecida)
+  1856-08-27  — -> brezilya-imparatorlugu  | Imperatriz
+  1857-01-02  — -> peru-cumhuriyeti  | Gorgor; Livitaca
+  1861-02-05  — -> peru-cumhuriyeti  | Lámud
+  1864-03-19  — -> brezilya-imparatorlugu  | Araranguá (Campinas)
+  1864-07-27  — -> venezuela-cumhuriyeti  | Maroa
+  1865-08-15  — -> brezilya-imparatorlugu  | Tonantins
+  1866-02-07  — -> peru-cumhuriyeti  | Pebas
+  1866-05-15  — -> brezilya-imparatorlugu  | Correntina
+  1866-11-14  — -> brezilya-imparatorlugu  | Pompéu
+  1867-11-27  — -> brezilya-imparatorlugu  | Francisco Sá (Brejo das Almas)
+  1868-08-28  — -> peru-cumhuriyeti  | Parobamba
+  1869-01-20  — -> peru-cumhuriyeti  | Marcapata
+  1869-11-06  — -> brezilya-imparatorlugu  | Bonfinópolis de Minas
+  1870-08-16  — -> brezilya-imparatorlugu  | Piripiri
+  1870-10-31  — -> brezilya-imparatorlugu  | Alcobaça (Tucuruí)
+  1871-05-08  — -> bolivya-cumhuriyeti  | Tocopilla
+  1871-06-08  — -> brezilya-imparatorlugu  | Alto Parnaíba
+  1872-06-24  — -> bolivya-cumhuriyeti  | Totora (Carrasco)
+  1872-11-06  — -> brezilya-imparatorlugu  | Coxim
+  1872-12-01  — -> sili-cumhuriyeti  | Taltal
+  1873-03-14  — -> brezilya-imparatorlugu  | Ladário
+  1874-04-22  — -> brezilya-imparatorlugu  | Santa Cecília
+  1874-05-01  — -> brezilya-imparatorlugu  | Coari; Codajás
+  1877-06-04  — -> brezilya-imparatorlugu  | Manicoré
+  1878-08-01  — -> brezilya-imparatorlugu  | Riachão do Jacuípe
+  1880-01-03  — -> brezilya-imparatorlugu  | Perdizes
+  1880-07-25  — -> brezilya-imparatorlugu  | Oliveira dos Brejinhos
+  1881-05-14  — -> brezilya-imparatorlugu  | Lábrea
+  1881-09-03  — -> venezuela-cumhuriyeti  | Guasipati
+  1882-02-09  — -> venezuela-cumhuriyeti  | Moitaco
+  1883-03-29  — -> brezilya-imparatorlugu  | Ribeirão Branco
+  1884-03-01  — -> arjantin-cumhuriyeti  | Valcheta
+  1884-07-01  — -> arjantin-cumhuriyeti  | Villa Ojo de Agua
+  1884-07-15  — -> arjantin-cumhuriyeti  | Puerto Deseado
+  1885-12-04  — -> bolivya-cumhuriyeti  | Colcha K
+  1887-05-12  — -> brezilya-imparatorlugu  | Urucará
+  1888-11-13  — -> brezilya-imparatorlugu  | Humaitá (Madeira)
+  1890-07-09  — -> brezilya-cumhuriyeti  | Boa Vista do Rio Branco
+  1890-10-20  — -> brezilya-cumhuriyeti  | Florânia (Flores)
+  1891-03-28  — -> brezilya-cumhuriyeti  | Fonte Boa
+  1891-10-10  — -> brezilya-cumhuriyeti  | Canutama
+  1891-12-22  — -> sili-cumhuriyeti  | San Clemente (Şili)
+  1893-10-23  — -> brezilya-cumhuriyeti  | Jaguarari
+  1894-02-03  — -> bolivya-cumhuriyeti  | Riberalta
+  1894-06-09  — -> brezilya-cumhuriyeti  | Oriximiná
+  1894-06-20  — -> sili-cumhuriyeti  | Porvenir
+  1894-09-20  — -> ekvador-cumhuriyeti  | Chone
+  1894-10-22  — -> bolivya-cumhuriyeti  | Santa Ana del Yacuma
+  1895-04-17  — -> brezilya-cumhuriyeti  | São Felipe (Eirunepé)
+  1896-06-06  — -> brezilya-cumhuriyeti  | Presidente Dutra (Curador)
+  1897-01-25  — -> sili-cumhuriyeti  | Lonquimay
+  1897-06-21  — -> arjantin-cumhuriyeti  | Sarmiento (Chubut)
+  1899-05-10  — -> brezilya-cumhuriyeti  | Araguaiana (Registro do Araguaia)
+  1899-07-05  — -> arjantin-cumhuriyeti  | Cushamen
+  1900-01-17  — -> brezilya-cumhuriyeti  | Maçambará (Recreio)
+  1901-10-22  — -> brezilya-cumhuriyeti  | Amapá (Montenegro)
+  1902-09-18  — -> brezilya-cumhuriyeti  | Boca do Acre
+  1902-09-26  — -> arjantin-cumhuriyeti  | San Antonio de los Cobres
+  1904-08-22  — -> brezilya-cumhuriyeti  | Rio Branco (Acre); Xapuri
+  1904-09-25  — -> brezilya-cumhuriyeti  | Sena Madureira
+  1904-09-28  — -> brezilya-cumhuriyeti  | Cruzeiro do Sul
+  1905-08-01  — -> kolombiya-cumhuriyeti  | San Vicente del Caguán
+  1906-02-25  — -> arjantin-cumhuriyeti  | Esquel
+  1906-08-01  — -> brezilya-cumhuriyeti  | Tanabi
+  1906-12-18  — -> brezilya-cumhuriyeti  | Aquidauana
+  1907-07-24  — -> brezilya-cumhuriyeti  | Santa Isabel do Rio Negro
+  1908-11-03  — -> brezilya-cumhuriyeti  | Conceição do Araguaia
+  1911-08-30  — -> brezilya-cumhuriyeti  | Águas Formosas
+  1911-11-06  — -> brezilya-cumhuriyeti  | Altamira
+  1912-12-26  — -> peru-cumhuriyeti  | Puerto Maldonado
+  1912-12-27  — -> brezilya-cumhuriyeti  | Carauari
+  1913-02-27  — -> brezilya-cumhuriyeti  | Marabá
+  1913-12-30  — -> brezilya-cumhuriyeti  | Lins
+  1914-03-14  — -> brezilya-cumhuriyeti  | Catanduvas (Paraná)
+  1914-06-12  — -> brezilya-cumhuriyeti  | Três Lagoas
+  1914-10-02  — -> brezilya-cumhuriyeti  | Porto Velho
+  1915-11-11  — -> brezilya-cumhuriyeti  | Bonito (Mato Grosso do Sul)
+  1920-10-08  — -> brezilya-cumhuriyeti  | Rondonópolis
+  1922-03-23  — -> arjantin-cumhuriyeti  | Gobernador Gregores
+  1923-08-15  — -> bolivya-cumhuriyeti  | Fortín Muñoz (General Díaz)
+== A-YAZILDI (16 grup)
+  1725-01-01  — -> mapuche-araukanya  | Beyan G34.5 B65.5; Beyan G35.5 B69.5; Beyan G36.5 B61.5
+  1727-01-01  ispanyol-peru -> —  | Chiquiaca misyonları; Tariquea (Chiriguano misyonu)
+  1727-01-01  — -> portekiz-brezilyasi  | Vila Boa de Goiás
+  1780-12-04  — -> ispanyol-peru  | Arauca
+  1814-10-25  — -> portekiz-brezilyasi  | Casa Branca
+  1816-07-09  ispanyol-peru -> arjantin-cumhuriyeti  | Pucará de Tilcara; Quilmes (Calchaquí Vadisi — Diaguita); Rinconada (Puna)
+  1819-12-17  ispanyol-peru -> gran-kolombiya  | Arauca; Bacatá (Bogotá); Barbacoas
+  1821-06-24  ispanyol-peru -> gran-kolombiya  | Barinas (Altamira de Cáceres); Calabozo (Villa de Nuestra Señora de la Candelaria); Carora
+  1821-11-28  ispanyol-peru -> gran-kolombiya  | Portobelo (Puerto Bello)
+  1822-05-24  ispanyol-peru -> gran-kolombiya  | Archidona (Napo); Canelos (Bobonaza); Guayaquil (Santiago de Guayaquil)
+  1853-03-10  — -> uruguay-cumhuriyeti  | Treinta y Tres
+  1853-04-05  — -> venezuela-cumhuriyeti  | Zaraza
+  1878-10-16  — -> brezilya-imparatorlugu  | Moura (Rio Negro)
+  1883-01-01  — -> arjantin-cumhuriyeti  | Beyan G39.5 B70.5; Beyan G41.5 B71.5; Beyan G42.5 B65.5
+  1884-10-31  peru-cumhuriyeti -> sili-cumhuriyeti  | Putre
+  1884-11-02  — -> bolivya-cumhuriyeti  | Inquisivi
+== E-OLCULEMEDI-devir(eslesen madde yok) (1 grup)
+  1888-07-13  bolivya-cumhuriyeti -> sili-cumhuriyeti  | San Pedro de Atacama; Tocopilla
