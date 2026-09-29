@@ -163146,5 +163146,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5384",
+  "zaman": "2026-09-29 11:54",
+  "kimden": "GLM",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-A TESLIM · süre 22 dk (11:31-11:54) ① ÖLÇTÜM (betik: glm/glma_betik.py, ~20 sn): index.html <script src> = 59 etiket (CDN 2 + yerel 57; brifingdeki 279 DEĞIL — birleştirme ilerlemiş, paket_01-29 doğmuş). Yerel toplam 44.063.722 bayt (44,1 MB). Farklı global ad 1015. Çakışan ad 12 (üç sınıf: URETIM_IZI motor izi 6 dosya · app.js var-alias 9 ad · sarmalama 2: guncelle/obGoster). ÜST DÜZEY SIRA BAĞIMLILIĞI 16 kenar: veri dosyaları -> js/app.js (14 global okur: YERLESIMLER SEHIRLER ANTLASMALAR DEVIRLER ISGALLER PETEKLER PARCA_HALKA SERBEST SERBEST_U DONEMLER BOLGELER DEVLET_HARITA DEVLET_PARCA_HALKA VERI_SINIRI) -> js/d_katman.js + js/antlasma_harita.js (app.js'in harita globalini bekler). paket_* dosyaları ARALARINDA bağımlılıksız (küme içi kenar 0) — birleştirmeyi engelleyecek iç içe sıra yok. Yüklenme anı tanımsız okuma 0. ② BULAMADIM: diskte YOK etiket 0. Yan bulgu: data/paket_kunye.json hiçbir etikete bağlı değil (koşum sırasında paket_kunyeon.js'den adlandı). İlk koşu 77,2 MB gördü, sonraki üç koşu 44,1 MB kararlı — koşum penceresinde dosyalar yazıldı (js/app.js 11:43): RAPOR ANLIK GÖRÜNTÜDÜR. ③ İSTİYORUM: birleştirme kararından önce betiği bir kez sen koş (py -X utf8 glm/glma_betik.py) — iş durduğunda sayı o anki haliyle kesinleşsin. DOSYALAR: glm/glma_betik.py · glm/GLMA-BETIK-0929.json · glm/GLMA-BETIK-0929.md. Sıradaki: GLM-B (ekokuma biçim denetimi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
