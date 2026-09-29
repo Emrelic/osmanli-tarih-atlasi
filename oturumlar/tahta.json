@@ -163992,5 +163992,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5431",
+  "zaman": "2026-09-29 16:08",
+  "kimden": "KRONO-BALKAN-D-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-BALKAN-D-0929 (Yunanistan · Bulgaristan) — rapor: denetim/KRONO-BALKAN-D-0929.md ① ÖLÇTÜM • Envanter: 721 ilgili madde / 70 dosya; ~49 GR + ~52 BG maddesi kronoloji_balkan'da (KOPYALANMADI, BAGLAMA bağlayacak — M-5416 onayı). 7 künye + 'bulgaristan' boya kimliğinin 107 harita kırılması tarandı: 55'inde yer eşleşen madde var, kalan gerçek boşluk 1912 Kuzey Ege adaları → yazıldı. • YAZILAN 22 madde, hepsi TDV dayanaklı (Yunanistan · Girit · Limni · Taşoz · Semadirek · Makedonya · Yanya · Mora · Vidin · Bulgaristan · Sofya): data/kronoloji_cok_yunanistan.js → window.KRONOLOJI_COK_YUNANISTAN · 16 madde (Epir 4 · Mora 2 · 1826 Petersburg · 1828 Kapodistrias · 1895 Trikupis · 1897 Girit filosu · 1904 Rum çeteleri · 1908 hâmî devletler · 1912 Girit birleşmesi · Limni/Taşoz/Semadirek işgalleri) data/kronoloji_cok_bulgaristan.js → window.KRONOLOJI_COK_BULGARISTAN · 6 madde (1365/1369 Vidin · 1392 Şişman-Sigismund · 1879 Sofya başşehir · 1895 Yüksek Makedonya Komitesi · 1923 Eylül Ayaklanması) • Denetim: SINA iki yönde (temiz / bilerek bozulmuş veride 8 kusur yakaladı) · odak_olc: 0 odaksız, 0 kırık atıf · denetle_kronoloji: iki dosya temiz · denetle.py: SONUÇ temiz · node --check ✓. • Bulgaristan'ın üç hukukî hâli haritada AYRI görünüyor (prenslik v: · şarkî rumeli v: 1878-85 · krallık s: 1908) — öneri gerekmedi. ② BULAMADIM • Günü kaynakta olmayan olaylar yazılmadı: 1912 Midilli/İmroz/Bozcaada (TDV yalnız yıl/mevsim), 1920 Venizelos seçim yenilgisi, 1922 Altılar idamı, Ekim 1923 darbe girişimi, Bulgaristan/Yunanistan'ın I. Balkan Savaşı'na giriş günü. • 1396-1878 Bulgar ve 1821 öncesi Yunan olayları için polity YOK: beş Bulgar olayı dört ayrı Osmanlı idari biriminde → tek künye toplamaz, ÇEKİRDEĞE aittir; yazmadım (liste -KUNYE.md ②). ③ İSTİYORUM a) index.html + paketle.py bağlaması → iki dosya bağlanmayı bekliyor. b) Künye aç (M-5416 (3)): epir-despotlugu (4 madde bekliyor) · vidin-carligi (2 madde bekliyor) — pencere/kaynak: denetim/KRONO-BALKAN-D-0929-KUNYE.md ①. İkisi de KUNYE-DUNYA eksik listesinde var. c) Hüküm: denetim/KRONO-BALKAN-D-0929-DUZELTME.md — 12 gün çelişkisi. En büyüğü: Tırnova'nın düşüşü atlasta 1393-07-17 (5 kayıt + harita), TDV Tırnova (Kiel 2012) \"17 Haziran 1393\" der. 🔴 Takvim tuzağı: TDV Selanik \"26 Ekim 1912\" = 8 Kasım Gregoryen; atlas DOĞRU, \"TDV esastır\" diye çevrilmemeli. d) Koşu için: denetim/KRONO-BALKAN-D-0929-YERLESIM-ONERI.md — Limni (1912-10-08→10-21), Taşoz (10-18→10-30), Semadirek (10-19→11-01): haritada Jülyen günleri var, TDV Gregoryen verir. Bozcaada 1912-10-07 savaş başlamadan önceki bir gün (kesin yanlış, kaynaklı gün bulunamadı). + 2 düşük öncelikli. Dosyalar: data/kronoloji_cok_yunanistan.js · data/kronoloji_cok_bulgaristan.js · denetim/ARAC-KRONO-BALKAN-D-0929-{URET.py,SINA.js,TDV.py} · denetim/KRONO-BALKAN-D-0929{,-KUNYE,-DUZELTME,-YERLESIM-ONERI}.md · denetim/KRONO-BALKAN-D-0929-tdv-onbellek/ (43 TDV maddesi) Commit: c5e33e2d (52 dosya, adıyla; push sende). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
