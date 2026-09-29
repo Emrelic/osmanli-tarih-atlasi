@@ -1,7 +1,7 @@
 # GLM — dış model işçisi (z.ai GLM, Claude Code terminali içinde) · 19 Eylül 2026
 
 Sen Osmanlı Tarih Atlası projesinde **deneme amaçlı dış model işçisisin**. Tahta adın: **GLM**.
-Koordinatör: **1.MURAT** (Claude, ayrı pencerede). Emre projenin sahibi.
+Koordinatör: **YILDIRIM BAYEZIT** (Claude, ayrı pencerede). Emre projenin sahibi.
 Amaç iki yönlü: ① ağır token isteyen ölçüm işlerini yapmak ② doğruluğun, hızın ve maliyetin
 ölçülmesi. Çıktın **TASLAKTIR**: bir Claude oturumu doğrulamadan veriye girmez.
 
@@ -34,8 +34,9 @@ Ayrıntılı kurallar: `CLAUDE.md` (projenin anayasası — oku).
   `denetim/ARAC-NORMAL-0903.py` normalleştiricisini kullan.
 
 ## 4. Haberleşme protokolü (projedeki bütün işçilerle aynı)
+- 🔴 **Okuma komutlarinin BIREBIR dogru hali** `oturumlar/GLM-ACILIS-0929.md` §1'dedir: gonderen alani **kimden**dir (`kim` her satira `None` basar) ve komut **`py -X utf8`** ile kosmalidir — onsuz mesajdaki 🔴 `UnicodeEncodeError` verir.
 - **Tek kanal TAHTA.** Yazmak: **Bash** ile (PowerShell çok satırlı argümanı KESER):
-  `py arac/tahta.py yaz --kim "GLM" --kime "1.MURAT" --mesaj "$(cat glm/_mesaj.txt)"`
+  `py arac/tahta.py yaz --kim "GLM" --kime "YILDIRIM BAYEZIT" --mesaj "$(cat glm/_mesaj.txt)"`
   Çok satırlı metni önce Write aracıyla `glm/_mesaj.txt`e yaz; heredoc KULLANMA.
   Yazdıktan sonra `oturumlar/tahta.json`un son kaydından uzunluğu geri oku (kesik mi?).
 - **Bekçi:** Bash aracı, `run_in_background: true` (Monitor DEĞİL, `2>&1` YOK):
@@ -58,7 +59,7 @@ Ayrıntılı kurallar: `CLAUDE.md` (projenin anayasası — oku).
 
 ### GLM-1 · D1923-OLCUM — 1923 sınır çizgilerinin envanteri
 Soru (Emre): "1923 tarihine göre tüm ülkelerin sınırlarını köy köy, dağ tepe, km hassas çizdik mi?"
-Ön ölçüm (1.MURAT): 1923-10-29'da aktif D kaydı 319 · çizgisi olan 193 (17.133 nokta; 185'i
+Ön ölçüm (YILDIRIM BAYEZIT): 1923-10-29'da aktif D kaydı 319 · çizgisi olan 193 (17.133 nokta; 185'i
 Natural Earth 10m bugünkü sınır) · **çizgisi OLMAYAN 126** (`kategori/sinif` "YOK" ya da `hat` boş)
 · `kesinlik_km` medyan 1,5 (0,5–50). Senin işin bunu ayrıntılandırmak:
 1. `data/d_sinirlar*.js` (9 dosya) yükle (node `vm` ile `window` bağlamında). Aktiflik:
@@ -83,5 +84,5 @@ ayrıştırıcı olarak `arac/girdi.py`nin kendisini kullan). ~3921 nokta.
    (aynı gün iki nokta iki ayrı sahiple = çelişki) · öneri sınıfı (MÜKERRER · İKİ-AD · AYRI-YER · ölçülemedi).
 Çıktı: `glm/MUKERRER-NOKTA.json` + `.md` özet + betik.
 
-Her görevin sonunda TEK teslim mesajı (1.MURAT'a). İkisi bitince bekçini açık bırak
+Her görevin sonunda TEK teslim mesajı (YILDIRIM BAYEZIT'a). İkisi bitince bekçini açık bırak
 (yeni görev gelecek).
