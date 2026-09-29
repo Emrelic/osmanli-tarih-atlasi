@@ -163830,5 +163830,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5422",
+  "zaman": "2026-09-29 16:02",
+  "kimden": "KRONO-BALKAN-B-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-BALKAN-B-0929 · commit 444be376 (push sende) · rapor: denetim/KRONO-BALKAN-B-0929.md ① ÖLÇTÜM: 103 madde, 4 dosya, hepsi KRONOLOJI_COK_* + devlet:/devletler: (M-5396): cok_sirbistan 36 · cok_arnavut 31 · cok_bosna 28 · cok_karadag 8. 79'u bugün var olan künyeye bağlı; 24'ü M-5416 kural 3 ile ÖNERİLEN id'lerde: bosna-eyaleti 14 · arnavutluk-osmanli 7 · iskodra-pasaligi 3 (id·ad·f/t·D205·kaynak·madde sayısı: -KUNYE.md §2). TDV birincil, 19 madde gövdesi okundu/önbelleklendi; TDV'nin susduğu XIX. yy için akademik eser adıyla (sayfa YAZILMADI, doğrulanmamış sayfa uydurma olurdu). 53 madde yıl kodlu + gun: açıklamalı. denetle_kronoloji: 4/4 ✓ temiz · odak_olc: 4 dosyada kırık 0, ODAKSIZ 0 (34 madde odak_yer ile) · denetle.py SONUÇ temiz. Mükerrer: künye kronolojileri + kronoloji_balkan + çekirdek tarandı, oralarda olan yazılmadı. 🔴 İLK İŞ — özerklik fermanı: TDV sirbistan \"17 Ekim 1830'da verilen bir imtiyaz fermanıyla\" — doğru gün 17 Ekim. olaylar_ek.js 1830-11-08'in gösterdiği kaynak (TDV sirbistan) 17 Ekim diyor; 30 Ağustos (savaslar.js + sirbistan-prensligi künyesi) ve 8 Kasım için kaynak bulunamadı. Öneri çekirdek+savaslar+künye+harita (Kragujevac/Çaçak/Yagodina) BİRLİKTE 1830-10-17: -DUZELTME §1, -YERLESIM-ONERI §1. Bağsız ek okuma kartı bu güne bağlanabilir. ② BULAMADIM: 1830-08-30/11-08 kaynağı · Tuzla 1460 ve Trebinye 1466 günleri (SENKRON açıkları) · Novo Brdo 1455 · Buşatlı İşkodra teslim günü · TDV 302: milos-obrenovic, karayorgi, busatlilar, prizren-cemiyeti, ismail-kemal, balkan-savaslari, cetine, ulgun, berat. ③ İSTİYORUM: (1) üç künyeyi aç (-KUNYE §2) — 24 madde kendiliğinden bağlanır. (2) -DUZELTME: §2 Semendire künye 1439-08-18 → TDV 27 Ağustos · §3 Kruya 06-15→06-16 · §4 çekirdek \"Hersek'in ilhakı\" 1483→1482 (TDV; Herseknovi açığını da kapatır) · §5 arnavutluk-bagimsiz künye metni Wied \"Ekim\"→\"Eylül\" (TDV 3 Eylül 1914) · §6 TDV'nin kendi içindeki 3 çelişki · §7 kronoloji_balkan 1912-10-08'de üçlü mükerrer. (3) YERLESIM-ONERI: yukarıdaki üçlü + Serez 1345-01-01→1345-09-25 + Akçahisar 06-16. (4) index.html + paketle.py: 4 dosya bağlanmayı bekliyor. (5) Evren: cok_* dosyaları Değişmez 2 evreninde yok (M-5398 ile aynı soru) — 1919-08-12 Prekmurje maddesi haritadaki açığı içerikte kapatıyor ama kapı görmüyor. (6) Bilgi: küresel ODAKSIZ 500 > tavan 485 — benim 4 dosyamın katkısı 0. Değişen dosyalar: data/kronoloji_cok_{sirbistan,arnavut,bosna,karadag}.js · denetim/KRONO-BALKAN-B-0929{,-KUNYE,-DUZELTME,-YERLESIM-ONERI}.md · (commitsiz önbellek) denetim/KRONO-BALKAN-B-0929-tdv-onbellek/ bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
