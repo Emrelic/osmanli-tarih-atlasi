@@ -164622,5 +164622,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5466",
+  "zaman": "2026-09-29 17:13",
+  "kimden": "KRONO-ASYA-UZAK-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-ASYA-UZAK-0929 · commit c39cf303 (push sende) ① ÖLÇTÜM: 122 aday (defter) → 121 satır (Doğu Asya'da defter 49, gruplamam 48; fark açıklanamadı). SINIF: GERÇEK 42 (%35: 33 madde yazıldı + 9 zaten var) · ARTEFAKT 50 (%41: 38 yerleşim DOĞUŞU + 7 künye penceresi/eksiği + 5 yıl-temsilî/harita hatası) · ÖLÇÜLEMEDİ 29 (%24). ÖNGÖRÜN TUTTU ve sertti: Okyanusya 19/19 (%100) yerleşim doğuşu (s: ilk günü = kur: günü, eski=—). Öbür bölgelerde doğuş: Doğu Asya 7/48 · Orta Asya 2/22 · GD Asya 7/16 · Güney Asya 3/16. 🔴 \"33 madde yazıldı\" kapattı DEMEK DEĞİL: yalnız 15'i ±30 gün içinde (+3 yıl-aynı); 15'i aynı savaşın/seferin şehir günleri, madde ile >30 gün uzak — açık olan olay değil şehir günü. 31 madde: dogu_asya 9 (Yunnan 1382/1659/1681/1729, Pingnan 1856/1872, Sarawak 1861/1882/1890) · orta_asya2 16 (Şeybânî 1503/05/06, Bedahşan, Hokand, Afgan 1859/1883, Kuça, Yâkub Bey ×3, Fârûkî ×2, Sih Derajat, Sambalpur, Nagpur) · okyanusya 6 (Auckland, Waikato, Hamilton, Fakfak, Merauke, Avustralya Federasyonu). node --check temiz · 31 madde 0 hata (yer_id çözümü, künye penceresi, 7.689 maddeyle t+b mükerreri) · odak_olc yeni kırık atıf 0 · denetle.py SONUÇ temiz (4 dk). ② BULAMADIM: TDV bu coğrafyayı vermedi (yakub-bey slug'ı Germiyanoğlu'na düşüyor; Osmanlı–Yâkub Bey 1873 bağı KAYNAKLANAMADI, madde yazılmadı). 🔴 KİTAP SAYFALARI HİÇBİRİNDE AÇILMADI: kaynak: alanı eser+yazar+yıl verir; günler web özetlerinden (çoğu Vikipedi, Britannica/Iranica/Te Ara destekledi) — yayına girmeden sınanmalı; gun:/ic_not_d: alanları hangisinin nasıl kaynaklandığını yazıyor. Vikipedi-tek-dayanak kuralının sınırındayız: itiraz varsa maddeleri kapı dışı tut. 29 satır ölçülemedi (Hunan-Jiangxi şehir günleri, Chhattisgarh, Issık Göl vb.) — tahminle madde yazılmadı. 🔴 8 Anadolu şehri (Aksaray, Burdur…) 1402-07-28 OSMANLI→timurlu, bölge etiketi orta-asya HATALI = KRONO-OSMANLI-CEVRE kapsamı. ③ İSTİYORUM: (a) index.html'e 3 satır + paketle.py: kronoloji_cok_dogu_asya.js · _orta_asya2.js · _okyanusya.js. (b) ŞARTNAME BOŞLUĞU: Güney Asya ve GD Asya için dosya adı yoktu — Güney Asya→_orta_asya2, Borneo→_dogu_asya, Yeni Gine→_okyanusya koydum (kronoloji_cok_guney_asya.js'e ayırmak istersen tek ad değişimi). (c) denetim/KRONO-ASYA-UZAK-0929-KUNYE.md: 3 MECBURÎ künye (kuca-hocalari, kunduz-hanligi, nagpur-bhonsle — taraflar'da yazılı, konsola düşer) + 9 öneri (wu-zhu-yuanzhang, herat-emirligi, avustralya-kolonileri…) + 5 künye ömrü şüphesi. (d) -YERLESIM-ONERI.md 12 kalem: en önemlisi HERAT (1826'da afganistan boyanıyor, oysa 1863'e dek Sadozay) ve HAREZM 1502→1505 (Hîve/Ürgenç/Küngrat) + Timur'un 18 şehri 1370-01-01→04-09. (e) -DUZELTME.md: Nerçinsk ÜÇ GÜN (cin/rusya 09-07 · sinir_asya 08-27 = Julian ⇒ Gregoryen 09-06) · San Fan başlangıcı 12-01↔künye 12-28 · pingnan f 1855→1856 · yakub-beg t 1878-03-16 kaynaksız (Kaşgar 1877-12-18). (f) Dalga 4 için not: \"net_olay_adayi\" olay değil şehir-günü sayar; 122 aday ≈ 33 farklı olay. Değişen: data/kronoloji_cok_dogu_asya.js · _orta_asya2.js · _okyanusya.js · denetim/KRONO-ASYA-UZAK-0929{.md,-SINIF.tsv,-YERLESIM-ONERI.md,-DUZELTME.md,-KUNYE.md} (8 dosya, git show --name-only doğrulandı). Bekçi kurulu değil (M-5451'den sonra yeniden kurmadım, arka plan sürecim yok), duruyorum. Devam varsa send_message.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
