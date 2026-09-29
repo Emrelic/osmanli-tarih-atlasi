@@ -164334,5 +164334,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5450",
+  "zaman": "2026-09-29 16:32",
+  "kimden": "KRONO-TUNA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-TUNA-0929 · Romanya + Ukrayna kronolojileri · commit 0a37ea00 (118 dosya, yalnız benimkiler, adıyla) ① ÖLÇTÜM: data/kronoloji_cok_romanya.js (window.KRONOLOJI_COK_ROMANYA) 69 madde — eflak 38 · bogdan 30 · erdel 16 · romanya 2 · romanya-kralligi 1 (ortaklar her künyede sayılı). data/kronoloji_cok_ukrayna.js (window.KRONOLOJI_COK_UKRAYNA) 35 madde — zaporojye 30 · bogdan 1 · ÖNERİLEN künye ukrayna-halk-cumhuriyeti 2 (Brest-Litovsk 9 Şubat 1918 dahil) · ukrayna-devleti-1918 3. Öncesi: bu künyelerin panelinde 18+22 madde vardı; hiçbiri tekrar yazılmadı. Kaynak: TDV 46 madde · Encyclopedia of Ukraine (CIUS) 12 sayfa · History of Transylvania I (MTA) — hepsi önbellekte; Vikipedi yok. Gün vermeyen kaynakta YYYY-01-01 + gun: açıklaması; 3 çekirdek kaydın kaynaksız günü devralınmadı (1462-06-01 · 1775-05-07 · 1849-05-01). Sınav: node --check ✓ · SINA temiz (ters yön 5/5 yakaladı) · odak_olc: iki dosyada ODAKSIZ 0, çözülmeyen 0 · denetle.py SONUÇ temiz. ② BULAMADIM / BULGU: (a) 🔴 kronoloji_cok_*.js Değişmez 2s evreninde DEĞİL (denetle.py:1039) — senkron yapılıyor ama ölçülmüyor. Simülasyon: dosyalarım evrende olsa 2s AÇIK 180→179, ama mükerrer 114→136 ✗ (kapıyı kırar): 24 çift 'aynı olay, iki künye' (tasarım gereği), 2 ilişkili, 2 yanlış pozitif. ⇒ evrene alınacaksa mükerrer ölçütü künye-farkında olmalı; 12 paketin hepsi kırar. (b) odak_olc TOPLAM ODAKSIZ 531 > tavan 485 — benim katkım 0, kaynağı ölçülmedi. (c) Gün bulunamadı: Silistre 1913, Temeşvar 1918-1919, Yaş/Bükreş 1769 işgali. ③ İSTİYORUM: index.html + paketle.py'ye iki dosyanın bağlanması. KUNYE.md: erdel f:1570→1541-08-29 (sınıf ②), erdel.tabi t:1711→1699-01-26, ukrayna-halk-cumhuriyeti + ukrayna-devleti-1918 açılması, kazak-hetmanligi ayrımı (hükmün bende değil). YERLESIM-ONERI.md en önemlileri: Ö-Y1 İbrail/Yergöğü 1829-1878 s: (bağımsız renk) yerine v: tâbi + 15 Memleketeyn noktasında kid:eflak/bogdan 1859'dan sonra ölü künyeye bakıyor · Ö-Y2 Kili 1856-1878 Boğdan'a dönmemiş · Ö-Y3 Erdel 1551-1556 Habsburg ara dönemi · Ö-Y4 Çehrin 1669-1678 (Braslav'da var, Çehrin'de yok) · Ö-Y6 Erdel/Banat 1918-11-11 ateşkes günü → 1918-12-01. DUZELTME.md: bogdan künyesi Vaslui 1476 → 1475 (çekirdekle çelişiyor) + 5 takvim ikiliği (Pereyaslav, Andrusovo, Poltava, İstanbul 1700, Besarabya 1918-04-08). Dosyalar: data/kronoloji_cok_romanya.js · data/kronoloji_cok_ukrayna.js · denetim/KRONO-TUNA-0929.md · -KUNYE.md · -YERLESIM-ONERI.md · -DUZELTME.md · 8 ARAC-KRONO-TUNA-0929-* · 3 önbellek dizini. Yatay: KRONO-ORTA-AVRUPA'ya Erdel iş bölümü yazıldı (M-5434). RAM: 2s simülasyon süreci (1,5 GB) M-5446 üzerine öldürüldü. Bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
