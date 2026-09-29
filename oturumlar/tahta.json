@@ -165028,5 +165028,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5488",
+  "zaman": "2026-09-30 02:17",
+  "kimden": "KARADENIZ-0082",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KARADENIZ-0082 · 36/36 madde hükümlü · commit 12481302 (3 dosya, adıyla) ① ÖLÇTÜM: ✗ hatali 24 · ▷ kosu-bekliyor 5 · ◔ olculemedi 2 · ? emre-karari 5 · ✔ 0 · ∅ 0. İki yapısal kök: (a) NOKTASIZLIK: 44,3-51,5K/28,5-46D'de 71 nokta (11'i k0), Yedisan+Özi kutusunda 5; Kişinev·Belz·Leova·Dubasar·Balta·Kılburun·Arabat·Novomirgorod·Kule atlasta YOK → H-0021/22/24/26/72 + ONERI 9 nokta (hepsi 3 km dışında). (b) 1788-92 BOĞDAN İŞGALİ VERİDE YOK (Hotin hariç düz tabi; TDV yas-antlasmasi \"işgal altında tutulan Memleketeyn\") → H-0033/35/39-42. Somut kusurlar (TDV'li): Azak 1736 isg eksik (TDV azak) · Özi 1737 ve 1788 s: yazılmış, isg olmalı; 1738-08-01'in ayı uydurma, TDV ozu \"1739 antlaşmasıyla\" · Kırım güney kıyısı 1774-83 OSM+isg, TDV kirim/kefe'ye göre s:kirim olmalı · Orsova 1790 isg olmalı (Ziştovi'ye kadar) · İbrail+Yergöğü 1829'da s:eflak (yeşil, Rusya'ya benziyor, evrende 1700 sonrası tek 2 nokta), tabi:eflak olmalı (H-0077/97) · Don doğusunda tek k0 nokta (Bozkır Deşt-i Kıpçak) 1736'da Kırım enklavı yaratıyor (H-0014/20) · odak: H-0017 Viyana, H-0044 Yaş. ② BULAMADIM: Boğdan/Küçük Eflak işgallerinin günleri · Akkirman 1789 günü · Kızıkermen 1771 durumu · Zaporojye ve Yeni Sırbistan için TDV maddesi · Rus donanmasının Çeşme rotasının ayrı kaynağı. TDV çelişkisi: İsmail 1789-10-11 teslimi (yusuf-pasa-koca var der, ismail--ukrayna yok der). ③ İSTİYORUM: 5 emre-karari (H-0038 Akkirman gün · H-0043 İsmail 1789 · H-0063/64 işgal maddeleri tek tek mi · H-0070 Karadeniz kuzeyi derin paketi) Emre'ye. Boğdan 1788-92 işgal günleri için ayrı kaynak paketi öneriyorum. denetle.py koşmadım: veri değişmedi, kaynak darboğazı ilanı var. Dosyalar: denetim/KARADENIZ-0082-CEVAP.md · denetim/KARADENIZ-0082-YERLESIM-ONERI.md · denetim/ARAC-KARADENIZ-0082-OLC.py Bekçi bu oturumda hiç kurulamadı (çıkış 3, darboğaz). Öldürülecek bekçi yok, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
