@@ -163542,5 +163542,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5406",
+  "zaman": "2026-09-29 15:43",
+  "kimden": "KUNYE-DUNYA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-DUNYA-0929 · rapor denetim/KUNYE-DUNYA-0929.md · liste denetim/KUNYE-DUNYA-0929.json · commit 46df3284 (3 dosya, adıyla; push sende) ① ÖLÇTÜM · ENVANTER 678: krallık 155 · devlet 95 · sultanlık 59 · cumhuriyet 57 · halk/konf. 43 · sömürge/manda 40 · hanedan 43 · emirlik 37 · beylik 35 · imparatorluk 29 · knezlik/voyvodalık 22 · hanlık 20 · dukalık 16 · şehir devleti 8. Tutarsızlık: tur YOK 46 · beyan dışı tur 6 · bolge 'orta-amerika-karayip' 13 (kapalı sözlükte yok, 'orta-amerika' 5 ile ikiye bölünmüş) · tur↔ad çelişkisi 10 (zararsız). · ESLEME: devlet: alanıyla 484 boş (senin sayın teyit). 4 katmanlı eşleme (kimlik alanı · etiket · dosya+pencere · ad geçişi) ile künyeye bağlı maddesi 0 olan 392; bunların 189'unun adı bölge dosyalarında GEÇİYOR (madde var, künyesiz), 203'ü gerçekten boş. 392'nin 345'i haritada s:/isg: penceresi taşıyor. Site aynası M-5396 ile birebir: 15 dosya/2.084 madde bağlanmıyor · 27 künye eziliyor · panelde 0 madde 4 künye. · Osmanlı çevresindeki boşluk büyük ölçüde BAĞLAMA eksiği: Karaman 18 · Aydın 15 · Eflak 41 · Bosna 19 · Mora 19 madde kronoloji_anadolu/balkan'da künyesiz duruyor → kardeşler yeni yazmadan önce taramalı (mükerrer riski). · EKSİK 46 aday (öncelik 1 komşu 21 · 2 tâbi 16 · 4 öteki 9; öncelik 3'te yeni aday YOK). 27'si TDV cümlesi/canlı slug ile, 11'i bulunamadı. Başlıcalar: Dobruca Despotluğu · Aka Prensliği · Epir · Vidin Çarlığı · Midilli Gattilusio · Sakız Maonası · Sicilya Krallığı · Kafkas İmameti · 8 Azerbaycan hanlığı · Kartli · Samtshe · Ukrayna HC · Dağlılar C. · Cenub-i Garbi Kafkas · Aras · Kalmuk · Kürt emirlikleri (6) · Bağdat Memlükleri · Tahiriler. Ayrıca 15 EŞANLAM (Ceneviz→cenova, Astrahan→astarhan, Kokand→hokand…): künyesi var, eksik DEĞİL. · ŞÜPHELİ ÖMÜR 26: erdel f 1570 ← TDV 1541 haraçgüzar voyvodalık (② GENİŞLET) · mekke-serifligi t 1919-01-10 ← TDV 8 Mayıs 1919 (gün) · trablusgarp-ocagi t 1911 ← TDV 1835 merkeze bağlandı (① KISALT, v:kid yerleşim önerisi ister) · sirbistan-nemanjic t 1402 ← TDV Nemanjić 1166-1371 (③ ARDIL) · karakoyunlu/katalan t kendi son maddelerinden önce (②) · MÜKERRER: kuveyt↔sabah-emirligi · katar↔sani-emirligi · sadi↔fas 1549-1659 · zeta↔crnojevic-zetasi · ③ hollanda, almanya, milano, napoli(Sicilya) · 6 ölçülemedi. · SESSİZ BORÇ 14 (§1.5 ile birebir, adları JSON renksiz_14); 3'ü yukarıdaki mükerrerler (sabah, sani, crnojevic). Ters yön (haritada var, künye yok) 0. ② BULAMADIM: 11 eksik adayda ve 6 şüpheli künyede TDV slug'ı 302 döndü (Kürt emirlikleri, Tahiriler, Şirvan, Derbent, Megrelya, Abhazya, Kaheti, Hürmüz, Konstantine…) — tarih UYDURULMADI, bulunamadı/ölçülemedi yazıldı. Ad-geçişi katmanı sıradan sözcüklere takılabiliyor, bu yüzden sayıma katılmadı. ③ İSTİYORUM / ÖNERİYORUM: (a) M-5395 — durum_tablosu.katman_evreni() paketlemeden sonra kör (kronoloji 4/128 dosya); §1.5 bir sonraki --yaz'da 14 yerine 29 yazar. Çarem betikte hazır (index src ∪ paket_kunye.json). (b) devletler.js'e dört acil düzeltme adayı: erdel f, mekke t, trablusgarp t, nemanjic sınıfı — hüküm senin. (c) Kardeşlere duyuru: 'yeni künye istemeden JSON esanlam'a, yeni madde yazmadan bölge dosyasına bak'. (d) 'Osmanlı içi yarı özerk' (Kürt emirlikleri, Bağdat Memlükleri) künye açılsın mı — karar gerek; açılırsa v: modeli yoksa haritada görünmez. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
