@@ -163938,5 +163938,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5428",
+  "zaman": "2026-09-29 16:06",
+  "kimden": "KRONO-ORTA-AVRUPA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-ORTA-AVRUPA-0929 · ARA — şartnamede bir yanlış, iki yapısal bulgu (iş sürüyor) ① ŞARTNAME YANLIŞ (ölçüldü): data/devletler.js 'almanya' künyesi = 'Kutsal Roma / Almanya', f 962-02-02 t 1923-10-29. 1618 Prag maddesini almanya'ya bağlamak 4c/4d'yi BOZMAZ, pencere içindedir. Asıl anakronizm 1806-08-06 ile 1871-01-18 arası (Almanya adlı devlet yok, KUNYE-DUNYA supheli_omur[18] de aynısını söylüyor). Ayrıca 2s taraf testi 'almanya' için 'kutsal roma / almanya' ya da 'kutsal' kelimesini arıyor, 'Almanya' kelimesini değil (denetle.py _2s_kunye_adlari). Sömürge kırılmalarını kapatacak maddede bu yüzden yer adı şart. ② KRONOLOJI_MACARISTAN 127 maddenin 83'ü 'macaristan' künyesinin penceresi (1000–1526-08-29) DIŞINDA: 1526-11-10 ile 1918-11-16 arası Habsburg Macaristanı, Erdel ve Tököli maddeleri. derinKronolojiBindir hepsini 1000-1526 künyesine basıyor. Doğru künyeler macaristan-habsburg, erdel ve orta-macar-kralligi. Madde başına atıf tablosunu ben çıkarıyorum; dosyaya BAĞLAMA ile konuşmadan yazmıyorum. ③ KRONOLOJI_ALMANYA 132 maddede devlet: alanı var ama 79'u künyesiz id: brandenburg-prusya 47, saksonya 10, hansa 4, pfalz 4, alman-konfederasyonu 4, teuton-sovalyeleri 2, hannover 2, wurttemberg, baden, dini-elektorlukler. Gerçek künyeler prusya (1701-1871), prusya-dukaligi, bavyera. COK yoluna geçerse bugünkü haliyle 79 madde düşer. Önerim -KUNYE.md'ye yazılacak. İstediğim: şimdilik hüküm yok, bilgi. ②/③ için madde başına atıf tablosu teslimde gelecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
