@@ -53,6 +53,7 @@ KULLANIM
 import gzip
 import math
 import os
+import re
 import sys
 import time
 
@@ -415,6 +416,82 @@ SHA_ADI = "window.__DP_SHA"
 DP_JS = "devlet_parcalar.js"
 UST_JS = "devlet_harita_ust.js"
 
+# ---------------------------------------------------------------------------
+# İKİ HEDEF — aynı algoritma, ayrı havuzlar (29 Eylül 2026)
+# ---------------------------------------------------------------------------
+# İlk hedef `devletler_harita.js`ti (169 MB, GitHub'ın 100 MB sınırına
+# sığmıyordu). İkincisi ölçülerek seçildi, benzerliğe bakılarak değil:
+#   donemler.js 54,79 MB · %73,9 rakam+nokta · %25,3 ayraç
+#   window.PARCALAR TEK BAŞINA 53,66 MB = dosyanın %97,9'u
+#   biçimi DEVLET_PARCALAR ile birebir aynı: [[[lon,lat],...],...]
+#   ölçülen kazanç 54,79 → 10,88 MB = 5,03× · gidiş-dönüş BİREBİR
+#   (nokta başına 15,67 → 2,85 bayt · 3.591.984 nokta, 4.765 halka)
+# ⚠️ Havuz adları AYRI olmak ZORUNDA (`__DP_*` vs `__PR_*`): ikisi de aynı
+#    sayfada, aynı küresel kapsamda yaşıyor. Aynı adı kullansalardı ikincisi
+#    birincisini EZER ve harita sessizce yanlış çizerdi.
+HEDEFLER = {
+    "devlet": {
+        "kaynak": "devletler_harita.js", "havuz": "window.DEVLET_PARCALAR = ",
+        "onek": "window.__DP_ONEK", "b64": "window.__DP_B64",
+        "sha": "window.__DP_SHA", "parca": "devlet_parcalar.js",
+        "ust": "devlet_harita_ust.js", "on": "devlet_harita_on.js",
+        "ne": "Devlet gövdelerinin",
+    },
+    "donem": {
+        "kaynak": "donemler.js", "havuz": "window.PARCALAR = ",
+        "onek": "window.__PR_ONEK", "b64": "window.__PR_B64",
+        "sha": "window.__PR_SHA", "parca": "donem_parcalar.js",
+        "ust": "donemler_ust.js", "on": "donemler_on.js",
+        "ne": "Dönem peteklerinin",
+    },
+}
+HEDEF = "devlet"
+ACIKLAMA = HEDEFLER["devlet"]["ne"]
+ON_JS = HEDEFLER["devlet"]["on"]
+
+# 🔴 ÖNEK DOSYASI — 29 Eylül 2026'da ölçülen SESSİZ VERİ KAYBININ çaresi
+# ---------------------------------------------------------------------------
+# İlk hedefte (devletler_harita.js) havuz dosyanın EN BAŞINDAYDI, yani önek
+# yalnız yorum satırlarıydı; base64'e gömülüp çalıştırılmaması zararsızdı.
+# İkinci hedefte (donemler.js) öyle DEĞİL — ölçüldü:
+#     konum    599  window.SERBEST        \
+#            83964  window.SERBEST_U       > ÖNEKTE, havuzdan ÖNCE
+#            85597  window.PETEKLER       /
+#           189182  window.PARCALAR      <- havuz burada başlıyor
+# Önek çalıştırılmayınca bu üç küresel BOŞ kaldı (SERBEST 303→0 · SERBEST_U
+# 303→0 · PETEKLER 4296→0) ve sayfa hatasız açıldı: hiçbir konsol hatası,
+# hiçbir istisna. Metin yeniden kurma sınavı da GEÇMİŞTİ — çünkü o sınav
+# "metin geri üretilebiliyor mu" diye sorar, "tarayıcı aynı küreselleri
+# görüyor mu" diye SORMAZ. Kusuru yalnız A/B ölçümü yakaladı.
+# ⇒ İki çare birlikte: ① önekin ÇALIŞTIRILABİLİR kısmı ayrı bir dosyaya
+#   yazılır ve index.html'e eklenir ② `kapi()` artık ÖZGÜN dosyadaki her
+#   `window.X` adının yayınlanan dosyalardan birinde bulunmasını ŞART koşar.
+#   ②'siz ① yetmez: yeni bir hedefte aynı tuzağa yine düşülürdü.
+KURESEL = re.compile(r"(?m)^\s*window\.([A-Za-z_]\w*)\s*=")
+
+
+def kodla_hedef_sec(ad):
+    """CLI için: hedefi seç, seçileni EKRANA BAS.
+
+    Sessizce seçmek tehlikeli: yanlış hedefle koşan biri, çıktı adlarına
+    bakana kadar yanlışı fark etmez.
+    """
+    hedef_sec(ad)
+    print("hedef: %s  (%s → %s + %s)"
+          % (ad, HEDEFLER[ad]["kaynak"], DP_JS, UST_JS))
+
+
+def hedef_sec(ad):
+    """Modülün hedefini değiştir. Algoritma aynı, yalnız adlar değişir."""
+    global HAVUZ_ADI, ONEK_ADI, B64_ADI, SHA_ADI, DP_JS, UST_JS, HEDEF
+    global ACIKLAMA, ON_JS
+    if ad not in HEDEFLER:
+        raise ValueError("bilinmeyen hedef: %s (%s)" % (ad, list(HEDEFLER)))
+    h = HEDEFLER[ad]
+    HEDEF, HAVUZ_ADI = ad, h["havuz"]
+    ONEK_ADI, B64_ADI, SHA_ADI = h["onek"], h["b64"], h["sha"]
+    DP_JS, UST_JS, ACIKLAMA, ON_JS = h["parca"], h["ust"], h["ne"], h["on"]
+
 
 def _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha=""):
     import base64
@@ -423,10 +500,11 @@ def _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha=""):
     u_yol = os.path.join(dizin, UST_JS)
     with open(p_yol, "w", encoding="utf-8", newline="") as f:
         f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py\n")
-        f.write("// Devlet gövdelerinin koordinat havuzu: delta + varint + base64.\n")
+        f.write("// %s koordinat havuzu: delta + varint + base64.\n" % ACIKLAMA)
         f.write("// Çözücü: js/geo_coz.js (senkron). Özgün metni geri üretmek:\n")
-        f.write("//   py arac/kodla.py coz-c data <cikti.js>\n")
-        f.write("// 🔴 __DP_ONEK, özgün devletler_harita.js'in BAŞLIĞIDIR (base64).\n")
+        f.write("//   py arac/kodla.py coz-c data <cikti.js> %s\n" % HEDEF)
+        f.write("// 🔴 %s, özgün %s'in BAŞLIĞIDIR (base64).\n"
+                % (ONEK_ADI, HEDEFLER[HEDEF]["kaynak"]))
         f.write("//    Tarayıcı kullanmaz; yalnız geri üretim için saklanır.\n")
         # 🔴 __DP_SHA — ÖZGÜN devletler_harita.js'in sha256'sı. TANIK budur.
         #    Niçin gerekli: depoda artık 169 MB'lık özgün dosya DURMUYOR
@@ -440,6 +518,25 @@ def _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha=""):
         f.write("%s=\"%s\";\n" % (B64_ADI, base64.b64encode(havuz_b).decode()))
     with open(u_yol, "w", encoding="utf-8", newline="") as f:
         f.write(sonek)
+
+    # 🔴 ÖNEKİN ÇALIŞTIRILABİLİR KISMI — bkz. dosya başındaki ÖNEK DOSYASI notu.
+    # Önek `...window.PARCALAR = ` ile biter; o son parça yarım bir atamadır ve
+    # tek başına geçerli JS değildir, atılır. Kalanında `window.X =` varsa o
+    # kısım YAYINLANMAK ZORUNDA, yoksa küreseller sessizce boş kalır.
+    on_calisir = onek[:-len(HAVUZ_ADI)] if onek.endswith(HAVUZ_ADI) else onek
+    o_yol = os.path.join(dizin, ON_JS)
+    if KURESEL.search(on_calisir):
+        with open(o_yol, "w", encoding="utf-8", newline="") as f:
+            f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py\n")
+            f.write("// %s ÖNEKİ: havuzdan ÖNCE tanımlanan küreseller.\n" % ACIKLAMA)
+            f.write("// 🔴 index.html'de %s'ten ÖNCE yüklenmeli.\n" % UST_JS)
+            f.write(on_calisir)
+        print("  ⚠️ önek küresel TANIMLIYOR (%s) → %s yazıldı"
+              % (", ".join(sorted(set(KURESEL.findall(on_calisir)))), ON_JS))
+        print("     🔴 index.html'e ŞU SATIR GEREKLİ: "
+              '<script src="data/%s?v=rNNNN"></script>' % ON_JS)
+    elif os.path.exists(o_yol):
+        os.remove(o_yol)          # önceki koşudan kalmasın
     return p_yol, u_yol
 
 
@@ -463,13 +560,39 @@ def _oku_c(dizin):
     return onek, havuz, sonek, sha
 
 
-def kapi(dizin):
-    """YAYIN KAPISI ÖLÇÜMÜ — iki dosyadan metni kur, __DP_SHA ile kıyasla.
+def kapi(dizin, hedef=None):
+    """YAYIN KAPISI ÖLÇÜMÜ — iki dosyadan metni kur, sha damgasıyla kıyasla.
 
     `denetle_yayin.py` bunu çağırır. Dönen: (ihlal_mi, satirlar).
     🔴 ÖLÇÜLEMEDİ ASLA TEMİZ SAYILMAZ — istisna da ihlaldir.
+
+    🔴 hedef VERİLMEZSE eserleri diskte DURAN BÜTÜN hedefler denetlenir.
+    Niçin böyle: 29 Eylül'de ikinci hedef (donemler.js) eklendi. Kapı tek
+    hedefe bakmayı sürdürseydi, ikincisi hiç denetlenmeden yayınlanırdı ve
+    bu tam da bu kapının ÖNLEMEK için yazıldığı kusur olurdu — sessiz
+    bozulma. Yeni bir hedef eklendiğinde kapı kendiliğinden kapsar;
+    `denetle_yayin.py`ye dokunmak GEREKMEZ, yani unutulacak bir adım yok.
     """
     import hashlib
+    if hedef is None:
+        eski = HEDEF
+        satirlar, ihlal_var, bulunan = [], False, 0
+        try:
+            for ad in HEDEFLER:
+                hedef_sec(ad)
+                if not os.path.isfile(os.path.join(dizin, HEDEFLER[ad]["parca"])):
+                    continue            # o hedef henüz geçilmemiş — eski düzen
+                bulunan += 1
+                i, sl = kapi(dizin, ad)
+                ihlal_var = ihlal_var or i
+                satirlar += sl
+        finally:
+            hedef_sec(eski)
+        if not bulunan:
+            return False, ["⚪ kodlama kapısı: hiçbir hedefin eseri yok — atlandı"]
+        return ihlal_var, satirlar
+
+    hedef_sec(hedef)
     s = []
     try:
         onek, havuz_b, sonek, sha = _oku_c(dizin)
@@ -479,8 +602,38 @@ def kapi(dizin):
         metin = onek + _metinle(_coz_havuz(havuz_b)) + sonek
         yeni = hashlib.sha256(metin.encode("utf-8")).hexdigest()
         if yeni == sha:
-            s.append("✓  kodlama kapısı: %s + %s → özgün metin, sha256 %s ✓"
-                     % (DP_JS, UST_JS, sha[:12]))
+            # ── 🔴 KÜRESEL KAPSAMA — metin doğru ama TARAYICI EKSİK GÖREBİLİR ──
+            # 29 Eylül 2026 vakası: donemler.js'te SERBEST · SERBEST_U ·
+            # PETEKLER havuzdan ÖNCE tanımlıydı, öneke düştü, önek base64'e
+            # gömülüp ÇALIŞTIRILMADI. Üç küresel BOŞ kaldı (303→0 · 303→0 ·
+            # 4296→0), sayfa hatasız açıldı, konsol sessizdi ve YUKARIDAKİ
+            # sha SINAVI GEÇTİ — çünkü o sınav "metin geri üretilebiliyor mu"
+            # diye sorar, "tarayıcı aynı küreselleri görüyor mu" diye SORMAZ.
+            # ⇒ Bu blok o ikinci soruyu sorar. Özgün metindeki her `window.X`
+            #   adı, yayınlanan ÇALIŞAN dosyalardan birinde bulunmalıdır.
+            #   Havuzun kendi adı muaftır: onu geo_coz.js kurar.
+            bekl = set(KURESEL.findall(metin))
+            havuz_kuresel = HAVUZ_ADI.strip().split("=")[0].strip()[len("window."):]
+            bekl.discard(havuz_kuresel)
+            var = set()
+            for ad in (UST_JS, ON_JS):
+                y = os.path.join(dizin, ad)
+                if os.path.isfile(y):
+                    with open(y, encoding="utf-8") as f:
+                        var |= set(KURESEL.findall(f.read()))
+            kayip = sorted(bekl - var)
+            if kayip:
+                s.append("✗  KODLAMA KAPISI — YAYINLANMAYAN KÜRESEL: %s"
+                         % ", ".join(kayip))
+                s.append("     bu adlar %s'te tanımlı ama %s / %s dosyalarının"
+                         % (HEDEFLER[HEDEF]["kaynak"], UST_JS, ON_JS))
+                s.append("     hiçbirinde YOK ⇒ tarayıcıda BOŞ kalırlar.")
+                s.append("     Sayfa hatasız açılır, konsol susar, sha sınavı")
+                s.append("     geçer — kusur ancak haritada görünür. YAYIN DURDU.")
+                return True, s
+            s.append("✓  kodlama kapısı: %s + %s → özgün metin, sha256 %s ✓ "
+                     "· %d küresel eksiksiz"
+                     % (DP_JS, UST_JS, sha[:12], len(bekl)))
             return False, s
         s.append("✗  KODLAMA KAPISI: kurulan metin damgayla UYUŞMUYOR")
         s.append("     beklenen %s" % sha[:24])
@@ -571,9 +724,26 @@ if __name__ == "__main__":
         sys.exit(coz(a[1], a[2]))
     if a[0] == "secenek" and len(a) == 2:
         sys.exit(secenek(a[1]))
-    if a[0] == "yay" and len(a) == 3:
+    # 🔴 HEDEF 4. argümandır ve VARSAYILANI YOKTUR — 'yay' 54 MB'lık bir
+    #    dosyayı iki esere çevirip aslını çöpe atmaya hazırlanır; yanlış
+    #    hedefle koşmak, bir havuzu ötekinin adlarıyla yazmak demektir.
+    #    Yazmak zorunda bırakmak, bir karakterlik bedelle o hatayı keser.
+    if a[0] == "yay" and len(a) == 4:
+        kodla_hedef_sec(a[3])
         sys.exit(yay(a[1], a[2]))
-    if a[0] == "coz-c" and len(a) == 3:
+    if a[0] == "coz-c" and len(a) in (3, 4):
+        if len(a) == 4:
+            kodla_hedef_sec(a[3])
         sys.exit(coz_c(a[1], a[2]))
+    if a[0] == "kapi" and len(a) == 2:
+        _i, _s = kapi(a[1])
+        for _x in _s:
+            print(_x)
+        sys.exit(1 if _i else 0)
+    if a[0] == "hedefler":
+        for _ad, _h in HEDEFLER.items():
+            print("  %-8s %-24s → %s + %s"
+                  % (_ad, _h["kaynak"], _h["parca"], _h["ust"]))
+        sys.exit(0)
     print(__doc__)
     sys.exit(2)

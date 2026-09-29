@@ -154,6 +154,21 @@ MUAF_TARAYICI_VAR_MOTOR_YOK = {
 TOHUM_DEGISKEN = {"YERLESIMLER"}
 
 
+def _kodlama_kaynaklari():
+    """kodla.py'nin hedeflerinin KAYNAK dosya adları — tek otorite orasıdır."""
+    try:
+        import os as _os
+        import sys as _sys
+        _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+        import kodla as _kd
+        return {h["kaynak"] for h in _kd.HEDEFLER.values()}
+    except Exception:                                       # noqa: BLE001
+        return set()
+
+
+_KODLAMA_KAYNAKLARI = _kodlama_kaynaklari()
+
+
 def index_dosyalari(yol):
     """index.html'in <script src="data/..."> ile yüklediği dosya adları.
 
@@ -302,6 +317,15 @@ def denetle(ayrinti=False):
         # kendi dersi geçerli: *gürültü üreten denetime kimse bakmaz.* Gerçek
         # çakışmalar 251 sahtenin arasında kaybolurdu.
         if os.path.basename(yol).startswith("paket_"):
+            continue
+        # 🔴 KODLAMA KAYNAKLARI DA TARANMAZ — aynı ilke (29 Eylül 2026).
+        # `devletler_harita.js` ve `donemler.js` artık YAYINA GİTMİYOR
+        # (.gitignore); yayına kodlanmış eserleri gidiyor. Ama araçlar için
+        # yerelde ÜRETİLDİKLERİNDEN diskte DURUYORLAR. Taranırlarsa eserleriyle
+        # "çakışıyor" görünürler — oysa aynı tanımın iki hâli. Ölçüldü:
+        # donemler.js diskteyken uyarı 3 → 10. Liste `kodla.py`den okunur,
+        # elle yazılmaz: yeni bir hedef eklendiğinde burası kendiliğinden bilir.
+        if os.path.basename(yol) in _KODLAMA_KAYNAKLARI:
             continue
         ham = open(yol, encoding="utf-8").read()
         ham = "\n".join(s for s in ham.split("\n")

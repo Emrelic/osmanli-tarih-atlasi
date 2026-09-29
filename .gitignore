@@ -27,6 +27,20 @@ __pycache__/
 #    yani çevrimdışı da üretilebilir ve sha256 tanığıyla doğrulanır.
 data/devletler_harita.js
 
+# ── İKİNCİ KODLANMIŞ ÇIKTI — donemler.js (29 Eylül 2026) ─────────────────
+# 54,79 MB'lık dosyanın %97,9'u (53,66 MB) tek bir koordinat havuzuydu:
+# window.PARCALAR, biçimi DEVLET_PARCALAR ile birebir aynı.
+# Kayıpsız kodlandı: 54,79 → 10,94 MB = ×5,03 · 3.591.984 nokta (AYNI) ·
+# 3 ondalık hane (AYNI) · gidiş-dönüş DİSKTEN sınandı, BİREBİR geçti.
+# GitHub 50 MB tavsiye eşiğini aştığı için her push'ta uyarı veriyordu.
+# Yayına giden: data/donem_parcalar.js + data/donemler_ust.js
+# Yerelde birebir geri üretim (araçlar bunu okur):
+#     py arac/kodla.py coz-c data data/donemler.js donem
+# ⚠️ Bu dosya `uret_petek.py`nin ÇIKTISIDIR — koşudan sonra yeniden doğar ve
+#    yeniden KODLANMASI GEREKİR; yoksa yayın eski dönemleri gösterir.
+#    Kapı bunu yakalar: `py arac/kodla.py kapi data` sha damgasını sınar.
+data/donemler.js
+
 # ── YÜKSEKLİK VERİSİ (ALTYAPI ①) — 183 MB, GitHub tavanı 100 MB ──────
 # 🔴 Depoya ALINMIYOR ama KAYBOLMUYOR: tek komutla yeniden üretilir
 #     py arac/yukseklik_indir.py

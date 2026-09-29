@@ -100,30 +100,50 @@
   kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz };
 
   // ── OTOMATİK BAĞLAMA ───────────────────────────────────────────────
-  // `data/devlet_parcalar.js` yalnız `window.__DP_B64` atar (tek satır).
-  // Bu dosya onu çözer ve `window.DEVLET_PARCALAR`a koyar — app.js'in
-  // okuduğu YER AYNI KALIR (`js/app.js:428`), app.js'e DOKUNULMAZ.
-  // 🔴 SIRA: index.html'de bu dosya `data/devlet_parcalar.js`ten SONRA,
+  // Her hedef bir satırlık base64 atar; bu dosya onu çözer ve app.js'in
+  // OKUDUĞU KÜRESEL ADA koyar. app.js'e DOKUNULMAZ (Emre'nin şartı).
+  // 🔴 SIRA: index.html'de bu dosya bütün `*_parcalar.js`lerden SONRA,
   //    `js/app.js`ten ÖNCE yüklenmeli.
-  if (kok.__DP_B64 && !kok.DEVLET_PARCALAR) {
+  //
+  // İKİ HEDEF (29 Eylül 2026):
+  //   __DP_B64 → DEVLET_PARCALAR   devletler_harita.js'ten (169 → 35 MB)
+  //   __PR_B64 → PARCALAR          donemler.js'ten        (54,8 → 10,9 MB)
+  // ⚠️ Adlar AYRI olmak zorunda: ikisi de aynı sayfada yaşıyor, aynı adı
+  //    kullansalardı ikincisi birincisini EZERDİ ve harita sessizce yanlış
+  //    çizilirdi — bu dosyanın başındaki uyarının tam olarak anlattığı kusur.
+  var HEDEFLER = [
+    { b64: "__DP_B64", kuresel: "DEVLET_PARCALAR", ms: "__DP_COZUM_MS",
+      hata: "__DP_HATA", ad: "devlet" },
+    { b64: "__PR_B64", kuresel: "PARCALAR", ms: "__PR_COZUM_MS",
+      hata: "__PR_HATA", ad: "dönem" }
+  ];
+
+  var cozulenVar = false;
+  for (var hi = 0; hi < HEDEFLER.length; hi++) {
+    var H = HEDEFLER[hi];
+    if (!kok[H.b64] || kok[H.kuresel]) continue;
+    cozulenVar = true;
     var t0 = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
     try {
-      kok.DEVLET_PARCALAR = havuzCoz(b64Coz(kok.__DP_B64));
-      kok.__DP_B64 = null;                    // 32 MB'lık dizgiyi bırak
+      kok[H.kuresel] = havuzCoz(b64Coz(kok[H.b64]));
+      kok[H.b64] = null;                      // büyük dizgiyi bırak
       if (t0) {
         var ms = Math.round(kok.performance.now() - t0);
-        // Ölçümü sakla: "tahmin 1-3 sn" demiştim, gerçeği burada görünür.
-        kok.__DP_COZUM_MS = ms;
-        if (kok.console) console.log("geo_coz: " +
-            kok.DEVLET_PARCALAR.length + " halka, " + ms + " ms");
+        kok[H.ms] = ms;
+        if (kok.console) console.log("geo_coz[" + H.ad + "]: " +
+            kok[H.kuresel].length + " halka, " + ms + " ms");
       }
     } catch (e) {
       // 🔴 HATA YUTULMAZ. Çözülemezse harita EKSİK çizilir; sessizce yanlış
       //    çizmek yerine konsola ve ekrana haykırması gerekir.
-      if (kok.console) console.error("🔴 geo_coz BAŞARISIZ:", e);
-      kok.__DP_HATA = String(e);
+      if (kok.console) console.error("🔴 geo_coz BAŞARISIZ [" + H.ad + "]:", e);
+      kok[H.hata] = String(e);
+      // Eski ad geriye dönük: dış ölçümler __DP_HATA'ya bakıyor.
+      if (!kok.__DP_HATA) kok.__DP_HATA = String(e);
     }
+  }
 
+  if (cozulenVar) {
     // ── 🔴 YERLEŞİM ONARIMI — ölçülmüş bir GERİLEMENİN çaresi ──────────
     // Bu blok bir "ihtiyaten" satırı değil; kıyaslamayla bulunmuş bir kusuru
     // kapatıyor. ÖLÇÜM (28 Eylül 2026, aynı pencere 1024×768):

@@ -925,6 +925,7 @@ def main():
         #   ayrı bir kapı sınıyor: `kodla.kapi()` iki dosyadan özgün metni
         #   kurar ve `__DP_SHA` damgasıyla kıyaslar; tutmazsa yayın DURUR.
         "data/devletler_harita.js":      "kodlandı — yayına devlet_parcalar.js + devlet_harita_ust.js gidiyor; bu dosya ARAÇ girdisi, yerelde `kodla.py coz-c` ile üretilir",
+        "data/donemler.js":              "kodlandı (29 Eyl 2026) — yayına donem_parcalar.js + donemler_ust.js gidiyor (54,79 → 10,94 MB, ×5,03, gidiş-dönüş BİREBİR); bu dosya ARAÇ girdisi, yerelde `py arac/kodla.py coz-c data data/donemler.js donem` ile üretilir",
         "data/ad_esanlam.js":            "eşanlamlı ad sözlüğü — ARAÇ girdisi (Budin↔Buda, Üsküp↔Skopje); tarayıcıya gitmez",
         "data/devletler_bk_ok106.js":    "`bk:` zamanlı başkent yaması — koordinatör işler, tarayıcıya gitmez",
         "data/gecitler.js":              "geçit verisi — motor/araç girdisi, tarayıcıya gitmez",
