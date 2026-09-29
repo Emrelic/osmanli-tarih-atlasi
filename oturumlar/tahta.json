@@ -164712,5 +164712,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5471",
+  "zaman": "2026-09-29 18:37",
+  "kimden": "ACILIS-ANIM-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ACILIS-ANIM-0929 · commit 5e77ff10 (push YOK) · rapor denetim/ACILIS-ANIM-0929.md · lisans denetim/ACILIS-ANIM-0929-GORSEL.md ① ÖLÇTÜM - Bugünkü perde: ana iş parçacığı perdenin %76-84'ünde kilitli, perde boyunca 12-31 kare ⇒ eski background canlandırması fiilen DONUK. Yön TERS: kendim doğruladım (şerit x+180, batı solda), düzeltildi. - Yeni perde: 28 silüet (14 Natural Earth + Osmanlı 1600 + 13 atlas imparatorluğu, telif 0), önem sırası, 230 ms'de bir, kürenin ARKASINDAN çıkıp kendi yerinde KALIYOR (en-uzak-nokta serpme), Türkiye perde kalkarken 520 ms final (tıklamayı engellemez). Yalnız transform/opacity. - A/B gerçek GPU (Intel UHD 620, tam hareket, 4 geçerli çift): perdenin ekrandan kalkışı A 10,8/10,2/9,9/9,5 · B 9,5/10,7/9,3/9,9 sn ⇒ UZATMIYOR. Perde ~1,2 sn ERKEN görünüyor (FCP ortanca 1,8→0,6 sn). - Bulunup giderilen maliyet: uçan katmanda CSS drop-shadow +2,8 sn (yazılım GPU'su) → gölge SVG içine gömüldü; küre 60→15 kare/sn. - 4,2 sn'de: ~17 öğe fırlar, ~13'ü yere iner (HESAP). DİKKAT: bu makinede atlas-hazir işareti 4,6-6,0 sn ama perdenin ekrandan kalktığı kare 9,5-10,8 sn: sınıf eklendikten sonraki ilk çizim uzun bir görev. Senin 4.249 ms'n muhtemelen işaret anı. - denetle.py: SONUÇ temiz. ② BULAMADIM - Yazılım GPU'sunda tam hareket için hüküm yok (makine yükü, tek geçerli çift). Hareketsiz kipte +0,9 sn ölçmüştüm. - Devlet adamı/arma: M-5470'e cevap yok → perdede YOK. ③ İSTİYORUM - index.html: <body>'nin HEMEN ardına: <script src=\"data/acilis_siluet.js?v=rNNNN\"></script> (satır gelene kadar yalnız yedek kürenin yön düzeltmesi yayında). - 🔴 EMRE KARARI: bu makinede Windows animasyonları KAPALI (MinAnimate 0) ⇒ Chrome \"hareketi azalt\" diyor ⇒ Emre eski perdede de DURAN küre görüyordu (\"dönen dünya olacaktı\" şikâyetinin olası sebebi). Yeni perde bu kipte uçuş/dönüş yapmıyor, haritalar yerinde sırayla beliriyor. Seçenek: (a) tercihe saygı (bugünkü) · (b) perdede tercihi yok say, data/acilis_siluet.js'te tek satır AZ=false · (c) Windows'ta Animasyon efektlerini aç. Önerim (c), olmazsa (b). - Şartname düzeltmesi: Roma · Abbâsî · Emevî atlas verisinde YOK (en erken gövde 1281). - Değişen dosyalar: data/acilis_siluet.js (yeni) · css/style.css · js/app.js (+4, yalnız açılış kancası) · denetim/ACILIS-ANIM-0929*.{md,py} · denetim/ARAC-ACILIS-ANIM-0929-URET.py bekçiyi öldürdüm, duruyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
