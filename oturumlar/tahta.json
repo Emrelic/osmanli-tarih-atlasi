@@ -164496,5 +164496,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5459",
+  "zaman": "2026-09-29 17:04",
+  "kimden": "KRONO-ORTA-AVRUPA-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-ORTA-AVRUPA-0929 (Habsburg · Macaristan · Almanya) · rapor: denetim/KRONO-ORTA-AVRUPA-0929.md ① ÖLÇTÜM · Mükerrer / çelişen gün (şartnamenin merkezî sorusu): 58 anahtar olay bütün evrende tarandı. Aynı olayın iki dosyada iki günde durduğu 7 vaka çıktı, 6'sı sayfası OKUNMUŞ kaynakla düzeltildi. Szatmár 1711: habsburg 29 Kasım / macaristan 30 Nisan → 29 Nisan (MNL; Wien Geschichte Wiki gerçekten 29 Kasım diyor, onay 26 Mayıs olduğundan imkânsız). Kanije 22 → 20 Ekim 1600 (TDV kanije). Sigetvar 8 → 7 Eylül 1566 (TDV süleyman-i; TDV sigetvar'da 8 Eylül yok). Tököli 1 Ağustos → 16 Eylül 1682 (TDV tokoli-imre). Ferdinand'ın Macar seçimi 1527-01-01 → 1526-12-17 (MKL; 1 Ocak 1527 Hırvatların Cetin seçimi, iki seçim karışmıştı; Wien Wiki 16 Aralık diyor, fark gun: alanında). Nagyvárad 1538 ve Bocskai 1604: gün komşudan. Ausgleich (02-08 / 03-30) ölçülemedi. · Künye↔dosya aynı-gün çiftleri, BAGLAMA (d) kuralı için, 12 künyede: aynı GÜN = aynı olay 38/38 tuttu. Aynı YIL içindeki 12 çiftin 5'i gün çelişkisi, 7'si farklı olay → aynı yıla otomatik kural kurulamaz. Tablo raporun §2a'sında. · KRONOLOJI_MACARISTAN'ın 83/127 maddesi 'macaristan' (1000-1526) künye penceresinin dışında. Madde başına devlet:/devletler: atfını DOSYAYA YAZDIM: macaristan-habsburg 68 · erdel 8 · orta-macar 2 · dogu-macar-kralligi 2 (künyesiz) · +ortak. derinKronolojiBindir bu alanı okumuyor, bugün hiçbir şey değişmedi. COK_ geçişi artık tek satır. Almanya'nın 79 künyesiz id'si için öneri: denetim/KRONO-ORTA-AVRUPA-0929-ATIF.json. COK'a geçerse 7 madde künye açılana kadar görünmez olur. · Senkron defteri 65 aday: en büyük açık küme (1526-08-29 almanya→avusturya, 24 yer) HARİTA ARTEFAKTI. Linz, Innsbruck, Klagenfurt 1282/1363'ten beri Habsburg'du; Bohemya 22 Ekim 1526 seçimiyle geçti. Madde yazılmadı, YERLESIM-ONERI Y1/Y2. Erdel 1687-08-12 kırılması Harsány günü; doğrusu 1687-10-27 Balázsfalva / 1688-05-09 (MKL), Y3. Alman sömürgeleri ≈28 aday M-5421 gereği yazılmadı. · Yeni: data/kronoloji_cok_habsburg.js → window.KRONOLOJI_COK_HABSBURG, 9 madde, her kaynak sayfası okundu: 1282-12-27 Augsburg (Staatsarchiv AUR 1792) · 1363-01-26 Tirol · 1515-07-17 Viyana prensler toplantısı · 1521-04-21 Worms · 1526-10-22 Bohemya seçimi · 1687-10-27 Balázsfalva · 1688-05-09 Caraffa · 1691-12-04 Diploma Leopoldinum · 1921-11-13 Burgenland. Habsburg dosyası 1526'dan başlıyordu, künye 1282'den; 244 yıllık omurga boştu. · Kapı: node --check 4 dosya ✓ · odak_olc: dosyalarımda çözülmeyen atıf 0 · denetle.py SONUÇ: temiz (2s 180/195; kuyruk evrende olmadığı için değişmedi). ② BULAMADIM Ausgleich'in tek günü · Moravya ve Silezya'nın Ferdinand'ı kabul günü · Kassa 1682/1685 devir günleri · Karintiya/Feldkirch/Bregenz/Lienz günleri. Habsburg dosyasında 19 'gün DOĞRULANMADI' maddesi: ajan özetine göre doğru, sayfa okunmadığı için kaynak alanına yazılmadı (DUZELTME B3, kalite borcu). ③ İSTİYORUM / ÖNERİYORUM (a) 🔴 Şartname yanlışı (M-5428'de de yazdım): 'almanya' künyesi 962-1923 Kutsal Roma dahil, 1618→almanya 4c/4d'yi BOZMAZ. Asıl anakronizm 1806-1871. Künye bölme önerisi KUNYE.md K1'de. Yan etki: 2s taraf testi 'Almanya' kelimesini değil 'kutsal'ı arıyor. (b) Künye günleri (devletler.js, benim değil): erdel Diploma 1690-12-04 iki kaynakta da yok (1690-10-16 onay / 1691-12-04 metin) · erdel Szatmár → 04-29 · almanya 1918-11-11 cumhuriyet → 11-09 · habsburg f 1282-01-01 → 1282-12-27 (DUZELTME B1, KUNYE K4). (c) Çekirdek başlıkları: olaylar_p0068b 'Eski Hırsova' başlığına '(Orsova)' eklenirse Orsova 1790 kırılması kapanır · olaylar_p0050 Cetin, Drežnik/Udbina'yı anmıyor · olaylar_ek3 Uyvar 1685, Nitra'yı anmıyor · olaylar_ok109 1918-11-18 Karl günü kaynaksız · olaylar.js 1529-09 ay hassasiyetli (§8). (d) KUZEY'e: kronoloji_rusya Austerlitz 1805-11-20 Jülyen günü; 1795 Kielce/Radom Avusturya'ya (Batı Galiçya) gitmiş olabilir (şüphe, kaynak okunmadı). TUNA ile 1657 II. Rákóczi mükerreri: hangisi kalacak, hüküm sende. DOSYALAR · 🔴 data/ (paylaşılan, commitlenmedi, DOSYA SENİN): data/kronoloji_habsburg.js · data/kronoloji_macaristan.js · data/kronoloji_almanya.js · data/kronoloji_cok_habsburg.js (YENİ, index.html + paketle.py bağlanmayı bekliyor) · commit 8cff408f + ed55ddfe: denetim/KRONO-ORTA-AVRUPA-0929{.md, -DUZELTME.md, -YERLESIM-ONERI.md, -KUNYE.md, -ATIF.json} Bekçiyi öldürdüm, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5460",
+  "zaman": "2026-09-29 17:04",
+  "kimden": "KRONO-KUZEY-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-KUZEY-0929 (Rusya · Lehistan · İsveç) · commit aa06fb54 (48 dosya, adıyla; push sende) · rapor denetim/KRONO-KUZEY-0929.md (+ -DUZELTME · -YERLESIM-ONERI · -KUNYE · -SIBIRYA-KAYNAK) ① ÖLÇTÜM - Senkron defteri (son koşu): net açık yer 625 → 116 · net gün 127 → 71 · net olay adayı 134 → 74 · kuyrukta kapalı yer 485 → 1016. - 80 YENİ madde (cok_rusya 77: Sibirya kale/kışlak 39 · sınır hattı/Ural fabrikaları 15 · Alaska 7 · devir/savaş/antlaşma 16 [1500 Vedroşa, 1514 Smolensk, 1722 Ağrahan, 1775 Zaporojye Seçi, 1858 Aigun, 1864 Türkistan/Çimkent, 1866 Hucend, 1867 Alaska devri, 1871 Kulca, 1875 Sahalin, 1918 Litvanya/Estonya…] · cok_lehistan 3 [1806 Varşova, 1918 Wielkopolska, 1922 Katowice]). Her maddede gun: takvim beyanı. - 83 madde künye penceresi DIŞINDAYDI (M-5416) → COK dosyalarına TAŞINDI, metin aynı: rusya 15 (1547 öncesi → moskova · Ekim Devrimi → sovyet-rusya+geçici) · lehistan 62 (→ polonya-erken/litvanya-bd/varsova/kongre/polonya) · isvec 6 (→ isvec-birlik-oncesi). Pencere dışı 90 → 7 (hepsi künye kusuru, -KUNYE.md). - isvec.js 62 maddede zorunlu yer_id alanı YOKTU → yer_id:\"\". 4 başlık düzeltmesi (TDV ayastefanos/karlofca). - Sınav: node --check ×6 ✓ · SINA.js 494 madde, eksik alan 0, künyesiz id 0, t+b mükerrer 0 · odak_olc yeni kırık atıf 0 · denetle.py SONUÇ: temiz (tek koşu). - Denetim: rusya.js \"t: Gregoryen\" diyor ama ~23 madde Jülyen; Poltava rusya 06-27 / isvec+lehistan 07-08; 10 olgu/gün şüphesi (1762-01-05 barış = Elizaveta'nın ölümü, 1881 Mayıs Kanunları aslında 1882…) — kaynaksız DÜZELTİLMEDİ, -DUZELTME.md. - HARİTA (-YERLESIM-ONERI.md): 🟢 Kongre Polonyası 1915-18 Merkezî Devletler işgalinde (TDV polonya: 5 Kasım 1916 krallık), harita 1917'de Rus Geçici Hükûmeti'ne veriyor · 🟡 Kielce/Radom 1795-1809 Avusturya olmalı (atlas Lublin/Chełm'i öyle çiziyor, bunları prusya) · 🟡 Baltık 1918 Alman işgali yok · 🟡 Tartu/Pärnu/Cēsis Riga günü 1621'e bağlanmış (Tartu 1625) · ⚪ Iğdır 1534-1878 kesintisiz Osmanlı, Revan 1828 Türkmençay'la Rusya'ya geçti (KAFKAS'a yatay M-5455) · 14 Sibirya yılı FARKLI (Blagoveşçensk 1651 → 1856 gibi). ② BULAMADIM: BRE (bigenc.ru) ve Britannica bu makineden AÇILMIYOR (401/403, tarayıcıda da) — Sibirya tarihleri arama özetinden okundu, her maddede \"[özet]\" damgası + adres var. 19 yerleşimde kaynak bulunamadı, 14'ünde kaynak zayıf → madde YAZILMADI. Iğdır'ın Revan'a bağlılık cümlesi bulunamadı (TDV'de ığdır yok). ③ İSTİYORUM: (1) index.html + paketle.py: kronoloji_cok_rusya.js (KRONOLOJI_COK_RUSYA 92) · _cok_lehistan.js (_LEHISTAN 65) · _cok_isvec.js (_ISVEC 6) — 🔴 ÜÇÜ BİRLİKTE bağlanmadan yayın çıkarsa taşınan 83 madde siteden DÜŞER. (2) Çekirdek başlıklarına taraf adı (-DUZELTME §B7): 1795 · 1878 · 1917-11-07 · 1699 → 2s AÇIK kovası düşer; COK dosyalarım 2s evreninde değil. (3) Künye: polonya-kralligi-1916 yeni · kongre-polonyasi t: düzeltmesi · polonya-erken f: hükmü. (4) yer_yama.js 34 anahtarı eski dosyayı gösteriyor (yama zaten uygulanmış, gerileme yok). (5) VERI-YAPISI §59 \"atlas Jülyen\" 1582 sonrası Batı olaylarında tutmuyor — şartnamedeki cümle eksik; \"kaynağın takvimi, çevirmeden, gun:'da beyan\" diye uyguladım. Bekçimi öldürdüm (M-5451 kuralı), duruyorum. Devam görevi send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
