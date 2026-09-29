@@ -562,7 +562,23 @@ window.EKOKUMA_DUNYA = [
   kisa:"Bir şehir üç tarafını denizle çevrelemişti ve yine de yiyecek sıkıntısı çekebiliyordu — çünkü o denizler bazen donuyordu ve ekmek gemiyle geliyordu.",
   metin:"BOĞAZ'IN DONMASI (Ocak-Şubat 1621). Osmanlı döneminin en sık anılan aşırı kış olayı budur. Dönemin tarihçisi Tûğî, Musîbetnâme adlı eserinde bu kışı bizzat tanık olarak kaydetmiştir: yaklaşık iki hafta süren kesintisiz kar yağışının ardından Boğaziçi TAMAMEN dondu; Üsküdar ile Beşiktaş arasındaki deniz karaya döndü ve halk Üsküdar'dan İstanbul'a yürüyerek geçti. Haliç de aynı şekilde dondu, Galata'ya da yürünerek ulaşılabiliyordu. Bu, yalnız tuhaf bir doğa olayı değil, gerçek bir FELAKETTİ: İstanbul'un beslenmesi büyük ölçüde deniz yoluyla gelen erzağa bağlıydı; donan sular gemilerin şehre ulaşmasını tamamen kesince fiyatlar kat kat arttı ve şehir ciddi bir kıtlık tehdidiyle karşılaştı — bir başkentin coğrafi avantajının (üç tarafı deniz) aynı zamanda en büyük kırılganlığına dönüşebildiğinin çarpıcı bir örneği.\n\nGÖKSU SELİ (1909). TDV'nin `bogazici` maddesinin verdiği somut bir örnek: 1909'da bir sel sırasında Göksu deresi taşıp kısmen dolmuş ve çevrede hasara yol açmıştır — Boğaziçi'nin küçük akarsularının bile, ani ve yoğun yağışlarda yerel bir felakete dönüşebildiğinin bir kaydı.\n\nDESEN — DENİZİN İKİ YÜZÜ. İstanbul'un konumu (iki deniz, bir boğaz, çok sayıda küçük dere) onu hem tarih boyunca stratejik ve ticari açıdan ayrıcalıklı kıldı hem de belirli koşullarda kırılgan bıraktı: aşırı soğukta donan sular ikmal hattını keserdi, ani yağışlarda dar dere yatakları taşardı. Bu üçüncü felaket türü (iklim kaynaklı), deprem ve yangın kadar sık olmasa da, şehrin günlük yaşamını (özellikle gıda tedarikini) doğrudan tehdit eden ayrı bir risk kategorisiydi.",
   kesinlik:"tartismali",
-  olay:["1621-01-24"],
+  // 🔴 29 Eylül 2026 — eski değer ["1621-01-24"] ve bu kart HİÇBİR maddeye
+  // bağlanmıyordu (GLM-C bulgusu, sınıf `madde_yok`): 1621-01-24'te kronoloji
+  // maddesi YOK. Ama asıl kusur bağ değil, SAHTE KESİNLİKTİ:
+  //   · kartın KENDİ metni "BOĞAZ'IN DONMASI (Ocak-Şubat 1621)" diyor — ay
+  //     aralığı, gün değil
+  //   · kartın kendi `kesinlik` alanı "tartismali"
+  //   · kartın kendi `kaynak` alanı "1621 Boğaz'ın donması TDV'de BULUNAMADI"
+  //   ⇒ 24 Ocak günü hiçbir yerden gelmiyordu. CLAUDE.md §4: "Sahte kesinlik
+  //     de yasak… kaynak yıl diyorsa yıl yazılır."
+  // Kronolojideki karşılığı ZATEN DOĞRU beyan edilmiş:
+  //   olaylar_kronoeksik_0921.js  t:"1621-01-01"  kesinlik:"yil"
+  //   b:"Görülmemiş kış — İstanbul Boğazı'nın donması"
+  //   gun:"1621 kışı (TDV gün/ay vermez)"
+  // ⇒ Tarih uydurulmadı; uydurulmuş olan ESKİ değerdi ve kaldırıldı. Kart
+  //   artık projenin "yıl biliniyor, gün bilinmiyor" sözleşmesine (YYYY-01-01)
+  //   bağlanıyor.
+  olay:["1621-01-01|Görülmemiş kış"],
   kaynak:"TDV: bogazici (1909 Göksu seli, gövde okundu). 1621 Boğaz'ın donması TDV'de bulunamadı; dönemin birincil kaynağı Tûğî'nin Musîbetnâme'sine dayanan, tarihçilikte yaygın kabul gören bir anlatıya (çapraz kontrol edilmiş ikincil literatür) dayanıyor — TDV diye sunulmadı.",
   ic_not:"🔴 1621 Boğaz donması olayının ÇEKİRDEK KRONOLOJİDE hiçbir maddesi yok (bu oturumda tarandı, bulunamadı) — `olay:` alanındaki 1621-01-24 tarihi bu yüzden haritada hiçbir kırılmayla eşleşmeyecek, yalnız tarihî referans olarak yazıldı. Bir kronoloji maddesi yazılması gerekiyorsa bu, HARİTA-VERI/kronoloji ekibinin işi — burada yalnız bulgu olarak kaydedildi, veri yazılmadı (§7 dosya sahipliği)." }
 

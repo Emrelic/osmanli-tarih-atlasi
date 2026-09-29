@@ -99,7 +99,24 @@ window.EKOKUMA_KURUM2 = [
   // KALDIRILDI — atlasın kapsamı 1281-1923, o tarihe hiçbir zaman madde gelmeyecek
   // ve kapsam dışı bir güne bağ kurmak öksüzlüğü KALICILAŞTIRIR. Okulun bugünkü
   // ardılı bilgisi kartın METNİNDE duruyor, bağ olarak durmasına gerek yok.
-  olay:["1795-01-01|Mühendishâne-i Berrî-i Hümâyun kuruldu","1883-01-01|Hendese-i Mülkiyye Mektebi açıldı"],
+  // 🔴 29 Eylül 2026 — BU KART HİÇBİR MADDEYE BAĞLANMIYORDU (GLM-C bulgusu,
+  // sınıf `gun_var_ayirt_etmedi`). Eski değer:
+  //   ["1795-01-01|Mühendishâne-i Berrî-i Hümâyun kuruldu",
+  //    "1883-01-01|Hendese-i Mülkiyye Mektebi açıldı"]
+  // `_ekBagEslesir` (app.js:10686) GÜNÜ BİREBİR, ayırt ediciyi ALT DİZGİ
+  // olarak arar. Ölçüldü: 1795-01-01'de 4 madde var (Arabistan · Balkan ·
+  // Gürcistan · İran) ve HİÇBİRİ mühendishane değil; 1883-01-01'de 1 madde
+  // var (Doğu Afrika) ve o da değil. Yani günler yanlıştı — ayırt edici değil.
+  // GERÇEK maddeler kronolojide VARDI, başka günde:
+  //   olaylar_ek14.js 1793-07-14 b:"Mühendishâne-i Berrî-i Hümâyun'un
+  //     inşaatına başlanması" — kendi metni: "Bina Eylül 1795'te tamamlanarak
+  //     eğitime açıldı", yani kartın anlattığı 1795 açılışı BU maddenin içinde
+  //   olaylar_kronoeksik_0921.js 1883-11-03 b:"Hendese-i Mülkiyye Mektebi'nin
+  //     kuruluşu" — kartın ikinci olayının TAM karşılığı
+  // ⇒ Tarih UYDURULMADI; iki gün de kronolojiden OKUNDU. Ayırt ediciler
+  //   başlıkların kesme işareti taşımayan parçası seçildi (normalleştirme
+  //   kenar durumuna girmemek için).
+  olay:["1793-07-14|Mühendishâne-i Berrî-i Hümâyun","1883-11-03|Hendese-i Mülkiyye Mektebi"],
   kaynak:"TDV: muhendishane-i-berri-i-humayun · muhendishane-i-bahri-i-humayun" },
 
 // ── H-0014 (DALGA-0068) · Nizâm-ı Cedîd ─────────────────────────────────────
