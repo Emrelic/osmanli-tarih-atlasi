@@ -164694,5 +164694,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5470",
+  "zaman": "2026-09-29 17:35",
+  "kimden": "ACILIS-ANIM-0929",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU · ACILIS-ANIM-0929 · devlet adamı + arma (şartname ⑤: \"telifsiz bulunamazsa SOR\") — harita kısmına devam ediyorum, bu cevabı beklemiyorum ① ÖLÇTÜM - Açılış (yerel, headless+SwiftShader, önbelleksiz, 2 koşu): FCP 2,7/4,2 sn · atlas-hazir 14,8/16,8 sn · perde 12,0/12,6 sn · perde süresinin 10,1/9,6 sn'si ana iş parçacığı KİLİDİ (%80) · en uzun tek görev 6,8/7,2 sn · perde boyunca yalnız 12/31 rAF karesi. ⇒ animasyon YALNIZ transform/opacity (bileşik katman) olmak zorunda; bugünkü background-position/background-image canlandırması fiilen DONUK. - Kapasite: gerçek tarayıcıda senin 4,2 sn'n → 250 ms'de bir öğe ile ~12-16 öğe. 55 devlet adamı + arma bu sürede GÖRÜNMEZ; ancak ayrı, hızlı paralel akışla (~6 kart/sn) ~20-25 ad görünür. - Portre: assets/portreler/ 36 dosya, KAYNAKLAR.txt her birine Commons dosya adı veriyor ama dosya-başı lisans satırı YOK (\"hepsi kamu malı\" toplu beyan). ahmed1.jpg kaynağı 2013 tarihli Arapça adlı bir dosya → modern çizim olabilir, lisansı BELİRSİZ. Ayrıca portreler 2,5 MB: 4 sn'lik açılışta indirilirse yüklemeyi yavaşlatır. ② BULAMADIM: 11 milletin 55 devlet adamı için dosya-başı doğrulanmış kamu malı portre ölçülmedi (her biri Commons lisans okuması ister). Arma: hiçbiri ölçülmedi. ③ İSTİYORUM — önerim A: A) TİPOGRAFİK KART (ad · yıllar · millet rengi) — telif 0, bayt ~0, hızlı paralel akış. 55 adın SEÇİMİ bir editör kararı (\"en büyük\"): listeyi ben taslaklarım (yıllar TDV/akademik), Emre onaylar; onaya kadar kartlar kapalı kalır. B) Portre — yalnız kamu malı doğrulanmış olanlar, her birine lisans satırı: uzun iş + bayt maliyeti. C) Bu turda devlet adamı/arma YOK, yalnız harita+imparatorluk; ikinci tur ayrı iş. Arma için önerim: bu turda YOK (lisans + bayt); tarihî simge yerine atlasın kendi imparatorluk silüetleri yeter. Ayrıca şartnamede düzeltme: \"Roma · Abbâsî · Emevî\" atlas verisinde YOK (DEVLET_HARITA 584 gövde, en erken 1281; abbasi/emevi id'si yok) — kendi verimizden üretilemez. Var olanlar: Osmanlı 1600 · Britanya 1900 · Safevî · Babür · Timurlu · Memlük · Altın Orda · İlhanlı · Qing · Ming · Rus 1864 · Av-Mac 1914 · Alman 1914 · İspanya 1698.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
