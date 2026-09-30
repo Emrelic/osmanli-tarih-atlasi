@@ -1043,22 +1043,22 @@ window.YERLESIMLER_EK14 = [
 // 🔴 DOSYANIN EN ÖNEMLİ İKİ KAYDI. Semerkant 1370-1500 arası Timurlu
 //    başkenti, 1500-1868 arası Özbek hanlarının; ikisi de haritada YOKTU.
 { ad:"Semerkant", tur:"sehir", lat:39.6542, lon:66.9758, g:0, k:2, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1868-05-14","d":"buhara"},{"f":"1868-05-14","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // Buhara Emirliği 1868'de Rus himayesine girdi ama ILGA EDİLMEDİ —
 // hanlık 1920'ye kadar ayrı bir devlet olarak durdu. Semerkant'ın 1868'de
 // Rus, Buhara'nın 1920'ye kadar Buhara olması bu yüzden ÇELİŞKİ DEĞİL:
 // biri ilhak edildi, öteki himaye altına alındı.
 { ad:"Buhara", tur:"sehir", lat:39.7681, lon:64.4210, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 { ad:"Karşi (Nahşeb)", tur:"sehir", lat:38.8600, lon:65.7950, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // Timur'un doğduğu yer (Kiş). Bir dönem yarı bağımsız beklik oldu ama
 // Buhara'nın dışına hiç çıkmadı — ayrı kimlik YAZILMADI.
 { ad:"Şehrisebz (Kiş)", tur:"sehir", lat:39.0580, lon:66.8330, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // ⚠️ TDV'de MÜSTAKİL MADDE YOK — `termiz` slug'ı "Arama" sayfası döndürüyor
 //    (`<title>` ile sınandı). Zinciri komşusu Hisar'dan alındı; Ceyhun'un
@@ -1066,21 +1066,21 @@ window.YERLESIMLER_EK14 = [
 //    Kayıt bir HÜKÜM taşımıyor, yalnız kuzey yakayı Kâbil'in 345 km'lik
 //    peteğinden kurtarıyor.
 { ad:"Termez", tur:"sehir", lat:37.2240, lon:67.2780, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // ── ② DOĞU BUHARA — emirliğin 1920'ye kadar tuttuğu dağlık kesim ────
 { ad:"Hisar", tur:"kale", lat:38.5200, lon:68.5500, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 { ad:"Külâb (Kulob)", tur:"sehir", lat:37.9100, lon:69.7800, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // ── ③ AÇLI SINIR — Buhara ile Rus Türkistanı'nın ayrıldığı yer ──────
 // 🔴 Cizzah bu dosyada Semerkant'tan AYRI bir gün taşıyor: Ruslar burayı
 //    Semerkant'tan iki yıl ÖNCE, 18 Ekim 1866'da aldı. Kopyala-yapıştır
 //    yapılsaydı iki yıl geç boyanacaktı.
 { ad:"Cizzah", tur:"kale", lat:40.1150, lon:67.8420, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1866-10-18",d:"buhara"},{f:"1866-10-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1866-10-18","d":"buhara"},{"f":"1866-10-18","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // ── ④ YEDİSU — zinciri Mâverâünnehir'inkinden BAŞKA ─────────────────
 // ⚠️ Bu kayıt öbür sekizin zincirini KOPYALAMIYOR ve sebebi coğrafî:
@@ -1162,24 +1162,24 @@ window.YERLESIMLER_EK15 = [
 // 🔴 Bugün Taşkent'i boyayan nokta KAŞGAR: 604,7 km doğuda ve 1912'ye
 //    kadar Qing. Yani Orta Asya'nın en büyük şehri haritada Çin renginde.
 { ad:"Taşkent", tur:"sehir", lat:41.3110, lon:69.2800, g:0, k:1,kd:[{f:"1867-01-01",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1503-01-01",d:"timurlu"},{f:"1503-01-01",t:"1809-01-01",d:"buhara"},{f:"1809-01-01",t:"1865-06-17",d:"hokand"},{f:"1865-06-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1503-01-01","d":"timurlu"},{"f":"1503-01-01","t":"1809-01-01","d":"buhara"},{"f":"1809-01-01","t":"1865-06-17","d":"hokand"},{"f":"1865-06-17","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // ── ② FERGANA HAVZASI — hanlığın çekirdeği ──────────────────────────
 { ad:"Hokand", tur:"sehir", lat:40.5290, lon:70.9430, g:0, k:2,kd:[{f:"1710-01-01",t:"1876-02-19",k:1,m:"Hokand"}], d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 { ad:"Andican", tur:"sehir", lat:40.7830, lon:72.3500, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 { ad:"Oş", tur:"sehir", lat:40.5140, lon:72.8040, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // 🔴 HUCEND ÜÇ NOKTADAN DA FARKLI GÜN TAŞIYOR — kopyalanmadı.
 //    Hokand'a 1802'de girdi (Fergana'nın üçünden sekiz yıl önce),
 //    Ruslara 24 Mayıs 1866'da düştü (hanlığın ilgasından on yıl önce).
 //    Zinciri kopyalasaydım şehir on yıl fazla Hokand görünecekti.
 { ad:"Hucend", tur:"sehir", lat:40.2840, lon:69.6220, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1802-01-01",d:"buhara"},{f:"1802-01-01",t:"1866-05-24",d:"hokand"},{f:"1866-05-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1802-01-01","d":"buhara"},{"f":"1802-01-01","t":"1866-05-24","d":"hokand"},{"f":"1866-05-24","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 // ── ③ SIRDERYA HATTI — Kazak hanlarından Hokand'a, oradan Rusya'ya ──
 // ⚠️ Bu ikisinin ortasında `buhara` DEĞİL `kazak-hanligi` var ve bu
@@ -1187,10 +1187,10 @@ window.YERLESIMLER_EK15 = [
 //    hanlarının makamıydı, Buhara'nın değil. Fergana zincirini buraya
 //    kopyalamak şehri iki yüzyıl yanlış hanlıkta gösterirdi.
 { ad:"Türkistan (Yesi)", tur:"sehir", lat:43.3020, lon:68.2530, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-06-12",d:"hokand"},{f:"1864-06-12",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-06-12","d":"hokand"},{"f":"1864-06-12","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 { ad:"Çimkent", tur:"kale", lat:42.3170, lon:69.5960, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-09-22",d:"hokand"},{f:"1864-09-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
 
 ];
 
@@ -1641,7 +1641,7 @@ window.YERLESIMLER_EK16 = [
 //    bu pencereyi atlamak kolaydı; atlanmadı çünkü Ceyhun'un iki yakası
 //    arasındaki gerçek çekişme tam orada.
 { ad:"Belh", tur:"sehir", lat:36.7580, lon:66.8970, g:0, k:2, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1506-01-01",d:"timurlu"},{f:"1506-01-01",t:"1509-01-01",d:"buhara"},{f:"1509-01-01",t:"1514-08-23",d:"safevi"},{f:"1514-08-23",t:"1751-01-01",d:"buhara"},{f:"1751-01-01",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1841-01-01",d:"buhara"},{f:"1841-01-01",t:"1923-10-29",d:"afganistan"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1506-01-01","d":"timurlu"},{"f":"1506-01-01","t":"1509-01-01","d":"buhara"},{"f":"1509-01-01","t":"1514-08-23","d":"safevi"},{"f":"1514-08-23","t":"1751-01-01","d":"buhara"},{"f":"1751-01-01","t":"1826-01-01","d":"afgan-durrani"},{"f":"1826-01-01","t":"1841-01-01","d":"buhara"},{"f":"1841-01-01","t":"1923-10-29","d":"afganistan"}] },
 
 ];
 
@@ -4179,7 +4179,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
-    s:[{f:"1484-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
@@ -4433,52 +4433,52 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ⚠️ Konum 37,166/10,190'dan taşındı: `denetle.konum_denetimi` noktayı
   // kara maskesinin 1,19 km DIŞINDA buldu — Ğâru'l-Melh gölünün üstüne
   // düşüyordu. Maskenin gösterdiği en yakın kara noktası kullanıldı.
-  { ad:"Ğâru'l-Melh (Porto Farina)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Ğâru'l-Melh (Porto Farina)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
   // 1609 Endülüs sürgünlerinin kurduğu Mecerde vadisi kasabası.
-  { ad:"Testûr",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Testûr",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Ğar Dimâv",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Ğar Dimâv",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Mekter (Maktar)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Mekter (Maktar)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Sübaytıla",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Sübaytıla",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Sîdî Bû Zeyd",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Sîdî Bû Zeyd",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Metlâvî",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Metlâvî",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
   // Nefzâve vahaları — Şott el-Cerîd'in güney kıyısı, noktasızdı.
-  { ad:"Kıbillî (Nefzâve)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Kıbillî (Nefzâve)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Dûz",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Dûz",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
 
   // ---------------------------------------------------------------------
@@ -6096,11 +6096,9 @@ window.YERLESIMLER_EK29 = [
 //   ve Erdel bir Osmanlı EYALETİ değil, haraçgüzâr voyvodalık/prenslik
 //   (TDV: "Osmanlı idaresinde muhtar bir voyvodalık"). k:1 yanlış olurdu.
 { ad:"Erdel Belgradı (Gyulafehérvár)", tur:"sehir", lat:46.0678, lon:23.5800, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
-     {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
-  v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
+  v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 // ═════════ ② ERDEL'İN İKİ SAKSON ŞEHRİ ═════════
 //
@@ -6114,18 +6112,14 @@ window.YERLESIMLER_EK29 = [
 //   RENK 3 rengi yazdıktan sonra `v:` dönemleri çevrilebilir.
 
 { ad:"Brassó (Braşov)", tur:"sehir", lat:45.6427, lon:25.5887, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
-     {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
-  v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
+  v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 { ad:"Segesvár (Sighişoara)", tur:"sehir", lat:46.2197, lon:24.7925, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
-     {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
-  v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
+  v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 // ═════════ ③ UYVAR EYALETİ — Osmanlı'nın 1663-1685 çıkıntısı ═════════
 //
@@ -6489,8 +6483,8 @@ window.YERLESIMLER_EK29 = [
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
-{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
-  v:[{f:"1830-11-08",t:"1878-07-13"}] },
+{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{"f":"1281-01-01","t":"1439-08-27","d":"sirbistan"},{"f":"1444-08-01","t":"1459-06-20","d":"sirp-despotlugu"},{"f":"1689-09-24","t":"1690-09-09","d":"avusturya"},{"f":"1717-08-18","t":"1739-09-18","d":"avusturya"},{"f":"1878-07-13","t":"1882-03-06","d":"sirbistan-prensligi"},{"f":"1882-03-06","t":"1918-12-01","d":"sirbistan-kralligi"},{"f":"1918-12-01","t":"1923-10-29","d":"yugoslavya"}],d:[{"f":"1439-08-27","t":"1444-08-01"},{"f":"1459-06-20","t":"1689-09-24"},{"f":"1690-09-09","t":"1717-08-18"},{"f":"1739-09-18","t":"1830-10-17"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
+  v:[{"f":"1830-10-17","t":"1878-07-13"}] },
 
 // PRAVİŞTE (Eleftheroupoli) — Kavala (13,8 km) çizgisiyle aynı.
 // ⚠️ 3 km kuralının DIŞINDA ama yakın; koordinatöre bildirildi (M-0084).

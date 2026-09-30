@@ -73,11 +73,9 @@ window.YERLESIMLER_EK29 = [
 //   ve Erdel bir Osmanlı EYALETİ değil, haraçgüzâr voyvodalık/prenslik
 //   (TDV: "Osmanlı idaresinde muhtar bir voyvodalık"). k:1 yanlış olurdu.
 { ad:"Erdel Belgradı (Gyulafehérvár)", tur:"sehir", lat:46.0678, lon:23.5800, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
-     {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
-  v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
+  v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 // ═════════ ② ERDEL'İN İKİ SAKSON ŞEHRİ ═════════
 //
@@ -91,18 +89,14 @@ window.YERLESIMLER_EK29 = [
 //   RENK 3 rengi yazdıktan sonra `v:` dönemleri çevrilebilir.
 
 { ad:"Brassó (Braşov)", tur:"sehir", lat:45.6427, lon:25.5887, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
-     {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
-  v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
+  v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 { ad:"Segesvár (Sighişoara)", tur:"sehir", lat:46.2197, lon:24.7925, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
-     {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
-  v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
+  v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 // ═════════ ③ UYVAR EYALETİ — Osmanlı'nın 1663-1685 çıkıntısı ═════════
 //
@@ -466,8 +460,8 @@ window.YERLESIMLER_EK29 = [
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
-{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
-  v:[{f:"1830-11-08",t:"1878-07-13"}] },
+{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{"f":"1281-01-01","t":"1439-08-27","d":"sirbistan"},{"f":"1444-08-01","t":"1459-06-20","d":"sirp-despotlugu"},{"f":"1689-09-24","t":"1690-09-09","d":"avusturya"},{"f":"1717-08-18","t":"1739-09-18","d":"avusturya"},{"f":"1878-07-13","t":"1882-03-06","d":"sirbistan-prensligi"},{"f":"1882-03-06","t":"1918-12-01","d":"sirbistan-kralligi"},{"f":"1918-12-01","t":"1923-10-29","d":"yugoslavya"}],d:[{"f":"1439-08-27","t":"1444-08-01"},{"f":"1459-06-20","t":"1689-09-24"},{"f":"1690-09-09","t":"1717-08-18"},{"f":"1739-09-18","t":"1830-10-17"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
+  v:[{"f":"1830-10-17","t":"1878-07-13"}] },
 
 // PRAVİŞTE (Eleftheroupoli) — Kavala (13,8 km) çizgisiyle aynı.
 // ⚠️ 3 km kuralının DIŞINDA ama yakın; koordinatöre bildirildi (M-0084).

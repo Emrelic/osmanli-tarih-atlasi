@@ -56,27 +56,108 @@ def kayit_bul(metin, ad):
     return bulunan
 
 
-def alan_yaz(kayit, alan, deger):
-    """Kayıttaki `alan:` dizisini `deger` ile değiştirir; alan yoksa EKLER."""
-    yeni = "%s:%s" % (alan, json.dumps(deger, ensure_ascii=False, separators=(",", ":")))
-    m = re.search(r'(?<![A-Za-z0-9_])' + alan + r'\s*:\s*\[', kayit)
-    if not m:
-        if not deger:
-            return kayit, "yok-bos"           # olmayan alanı boş yazmaya gerek yok
-        return kayit[:-1].rstrip().rstrip(",") + ", " + yeni + "}", "eklendi"
-    # dizinin dengeli kapanışını bul
-    i = kayit.index("[", m.start())
-    derinlik, j = 0, i
-    while j < len(kayit):
-        if kayit[j] == "[":
+def _ust_duzey_alanlar(kayit):
+    """Kayittaki alan adlarini DIZGI DISINDA ve derinlik 1'de bulur.
+    Verir: {alan: (ad_basi, iki_nokta_sonrasi)}.
+
+    🔴 NICIN: `neden:`/`kaynak:` metinleri kod ALINTISI tasiyabiliyor.
+    Zagem (Kaheti) kaydinin neden metninde `v:[{"f":"1578-08-24",...}]`
+    dizgi ICINDE geciyor; duz regex oraya vurup dosyayi bozdu (30 Eylul
+    2026, node --check yakaladi). Tarayici dizgiyi ATLAR."""
+    yerler, i, n = {}, 0, len(kayit)
+    derinlik = 0
+    while i < n:
+        c = kayit[i]
+        if c == '\\':
+            i += 2
+            continue
+        if c == '"' or c == "'":
+            q, i = c, i + 1
+            while i < n:
+                if kayit[i] == '\\':
+                    i += 2
+                    continue
+                if kayit[i] == q:
+                    i += 1
+                    break
+                i += 1
+            continue
+        if c in '{[':
             derinlik += 1
-        elif kayit[j] == "]":
+            i += 1
+            continue
+        if c in '}]':
+            derinlik -= 1
+            i += 1
+            continue
+        if derinlik == 1 and (c.isalpha() or c == '_'):
+            j = i
+            while j < n and (kayit[j].isalnum() or kayit[j] == '_'):
+                j += 1
+            k = j
+            while k < n and kayit[k] in ' \t':
+                k += 1
+            if k < n and kayit[k] == ':':
+                ad = kayit[i:j]
+                if ad not in yerler:
+                    yerler[ad] = (i, k + 1)
+                i = k + 1
+                continue
+            i = j
+            continue
+        i += 1
+    return yerler
+
+
+def _dengeli_son(kayit, i):
+    """kayit[i] bir '[' ya da '{'; dengeli kapanisin INDEKSINI verir.
+    Dizgi icindeki parantezler SAYILMAZ."""
+    acik = kayit[i]
+    kapa = ']' if acik == '[' else '}'
+    derinlik, j, n = 0, i, len(kayit)
+    while j < n:
+        c = kayit[j]
+        if c == '"' or c == "'":
+            q, j = c, j + 1
+            while j < n:
+                if kayit[j] == '\\':
+                    j += 2
+                    continue
+                if kayit[j] == q:
+                    j += 1
+                    break
+                j += 1
+            continue
+        if c == acik:
+            derinlik += 1
+        elif c == kapa:
             derinlik -= 1
             if derinlik == 0:
-                break
+                return j
         j += 1
-    return kayit[:m.start()] + yeni + kayit[j + 1:], "degisti"
+    return -1
 
+
+def alan_yaz(kayit, alan, deger):
+    """Kayittaki `alan:` dizisini `deger` ile degistirir; alan yoksa EKLER.
+    Alan YALNIZ dizgi disinda, derinlik 1'de aranir (_ust_duzey_alanlar)."""
+    yeni = "%s:%s" % (alan, json.dumps(deger, ensure_ascii=False, separators=(",", ":")))
+    yerler = _ust_duzey_alanlar(kayit)
+    if alan not in yerler:
+        if not deger:
+            return kayit, "yok-bos"           # olmayan alani bos yazmaya gerek yok
+        return kayit[:-1].rstrip().rstrip(",") + ", " + yeni + "}", "eklendi"
+    bas, sonra = yerler[alan]
+    k = sonra
+    while k < len(kayit) and kayit[k] in ' \t':
+        k += 1
+    if k >= len(kayit) or kayit[k] != '[':
+        # alan var ama dizi DEGIL (or. m:"Tiflis") — dokunmaz, rapora dusmesi icin
+        return kayit, "dizi-degil"
+    son = _dengeli_son(kayit, k)
+    if son < 0:
+        return kayit, "kapanis-yok"
+    return kayit[:bas] + yeni + kayit[son + 1:], "degisti"
 
 dosyalar, rapor = {}, {"uygulandi": [], "bulunamadi": [], "coklu": [], "degismedi": []}
 for ad, v in son.items():

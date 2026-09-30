@@ -299,6 +299,102 @@ def yenile():
 
 
 # ---------------------------------------------------------------------------
+# EKLE — yeni kaynak dosyayı MEVCUT bir pakete kat
+# ---------------------------------------------------------------------------
+def ekle():
+    """py arac/paketle.py ekle <paket_no> <dosya> [<dosya> ...]
+
+    🔴 NİÇİN AYRI BİR KOMUT: `kur` zaten paketli index.html'i REDDEDER
+    (ve etmeli — yeniden kurmak paket numaralarını kaydırır), `yenile` ise
+    yalnız künyede YAZILI kaynakları tazeler. Yeni bir dosyanın pakete
+    girmesi için üçüncü bir yol gerekiyordu; yoktu ve 30 Eylül 2026'da
+    12 kronoloji dosyası (419 madde) tam bu boşlukta kaldı.
+
+    Yaptığı üç şey, sırayla:
+      ① künyedeki paketin kaynak listesinin SONUNA ekler (sıra = anlam)
+      ② paketi yeniden üretir (_paket_yaz — tek gövde kaynağı)
+      ③ index.html'deki etiket bloğunun İÇİNDEKİLER yorumunu yeniler
+    ⚠️ index.html'e YENİ <script> EKLEMEZ — dosya pakete girer, istek sayısı
+    ARTMAZ. Zaten künyede olan dosya sessizce atlanır (mükerrer olmaz).
+    """
+    if len(sys.argv) < 4:
+        print(ekle.__doc__)
+        return 2
+    try:
+        no = int(sys.argv[2])
+    except ValueError:
+        print("🔴 ilk argüman paket NUMARASI olmalı (ör. 30)")
+        return 2
+    yeniler = [y.replace("\\", "/") for y in sys.argv[3:]]
+
+    k = _kunye_oku()
+    if not k:
+        print("🔴 künye yok — önce: py arac/paketle.py kur")
+        return 2
+    ad = "%s%02d.js" % (PAKET_ONEK, no)
+    pk = next((p for p in k["paketler"] if p["paket"] == ad), None)
+    if pk is None:
+        print("🔴 %s künyede YOK. Mevcut paketler: %s"
+              % (ad, ", ".join(p["paket"] for p in k["paketler"])))
+        return 2
+
+    var = [x["yol"] for x in pk["kaynak"]]
+    # BAŞKA bir pakette duruyor mu — iki pakete girerse ad alanı iki kez yüklenir
+    for p in k["paketler"]:
+        if p["paket"] == ad:
+            continue
+        for y in yeniler:
+            if y in [x["yol"] for x in p["kaynak"]]:
+                print("🔴 %s ZATEN %s içinde — iki pakete giremez. DURDUM."
+                      % (y, p["paket"]))
+                return 3
+    katilan, atlanan = [], []
+    for y in yeniler:
+        if y in var:
+            atlanan.append(y)
+            continue
+        if not os.path.exists(os.path.join(KOK, y.replace("/", os.sep))):
+            print("🔴 %s diskte YOK. DURDUM (yarım paket yazmam)." % y)
+            return 3
+        katilan.append(y)
+    if not katilan:
+        print("⚪ eklenecek yeni dosya yok (zaten künyede: %d)" % len(atlanan))
+        return 0
+
+    yollar = var + katilan
+    yeni_kayit = _paket_yaz(no, yollar)
+    pk["kaynak"] = yeni_kayit["kaynak"]
+    pk["bayt"] = yeni_kayit["bayt"]
+    _kunye_yaz(k["paketler"])
+
+    # index.html'deki etiket bloğu: <!-- ▼ <paket> … --> + <script …></script>
+    html = io.open(INDEX, encoding="utf-8").read()
+    i = html.find("<!-- ▼ %s" % ad)
+    if i < 0:
+        print("⚠️ %s'in etiket bloğu index.html'de BULUNAMADI — paket ve künye"
+              " yazıldı, yorum listesi ESKİ kaldı. Elle bak." % ad)
+        return 1
+    j = html.find("</script>", i)
+    if j < 0:
+        print("⚠️ etiket bloğunun </script>'i bulunamadı — yorum yenilenmedi.")
+        return 1
+    eski_blok = html[i:j + len("</script>")]
+    damga = _damga(html)
+    html = html.replace(eski_blok, _etiket_blogu_yeni(pk, yollar, damga), 1)
+    io.open(INDEX, "w", encoding="utf-8", newline="\n").write(html)
+
+    print("✓ %s: %d → %d kaynak · %d bayt" % (ad, len(var), len(yollar),
+                                              pk["bayt"]))
+    for y in katilan:
+        print("   + %s" % y)
+    if atlanan:
+        print("   ⚪ zaten vardı: %s" % ", ".join(atlanan))
+    print("  index.html etiket sayısı DEĞİŞMEDİ (dosyalar pakete girdi)")
+    print("  🔴 ŞİMDİ: py arac/paketle.py sina · py arac/surum_damgala.py")
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # SINA — kapının çağırdığı tazelik denetimi
 # ---------------------------------------------------------------------------
 def sina():
@@ -391,6 +487,8 @@ if __name__ == "__main__":
         sys.exit(kur())
     if islem == "yenile":
         sys.exit(yenile())
+    if islem == "ekle":
+        sys.exit(ekle())
     if islem == "sina":
         sys.exit(sina())
     if islem == "durum":

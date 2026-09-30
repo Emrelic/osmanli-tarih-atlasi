@@ -59,7 +59,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
-    s:[{f:"1484-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
@@ -313,52 +313,52 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ⚠️ Konum 37,166/10,190'dan taşındı: `denetle.konum_denetimi` noktayı
   // kara maskesinin 1,19 km DIŞINDA buldu — Ğâru'l-Melh gölünün üstüne
   // düşüyordu. Maskenin gösterdiği en yakın kara noktası kullanıldı.
-  { ad:"Ğâru'l-Melh (Porto Farina)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Ğâru'l-Melh (Porto Farina)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
   // 1609 Endülüs sürgünlerinin kurduğu Mecerde vadisi kasabası.
-  { ad:"Testûr",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Testûr",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Ğar Dimâv",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Ğar Dimâv",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Mekter (Maktar)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Mekter (Maktar)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Sübaytıla",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Sübaytıla",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Sîdî Bû Zeyd",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Sîdî Bû Zeyd",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Metlâvî",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Metlâvî",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
   // Nefzâve vahaları — Şott el-Cerîd'in güney kıyısı, noktasızdı.
-  { ad:"Kıbillî (Nefzâve)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Kıbillî (Nefzâve)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
-  { ad:"Dûz",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-    d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
+  { ad:"Dûz",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
+    s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+    d:[{"f":"1574-08-25","t":"1705-07-12"}],
+    v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
 
   // ---------------------------------------------------------------------

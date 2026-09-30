@@ -1407,8 +1407,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Antigua Guatemala (Santiago de los Caballeros)", tur:"sehir", lat:14.5586, lon:-90.7295, g:2, k:1,
   kur:"1543-01-01",
-  s:[{f:"1543-01-01",t:"1821-09-15",d:"yeni-ispanya"},
-     {f:"1821-09-15",t:"1923-10-29",d:"guatemala"}] },
+  s:[{"f":"1543-03-10","t":"1821-09-15","d":"yeni-ispanya"},{"f":"1821-09-15","t":"1923-10-29","d":"guatemala"}] },
 // kaynak: Real Audiencia de Guatemala kayıtları — şehir ÜÇÜNCÜ kez burada kuruldu (1543).
 // k gerekçesi: Guatemala Kaptanlığı'nın (1543-1773) başkenti — k:1
 

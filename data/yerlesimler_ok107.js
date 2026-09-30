@@ -220,8 +220,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
      {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[],
-  kaynak:"bulunamadı — TDV'de `taraz`/`talas`/`evliya-ata` maddesi YOK (üç slug da 302 ölçüldü); `turkistan` genel maddesi de kasabayı kapsamıyor (§4 tanecik boşluğu). Dönem günleri Çimkent kaydından (159 km) bölgesel hizalama ile alındı."
-},
+  kaynak:"bulunamadı — TDV'de `taraz`/`talas`/`evliya-ata` maddesi YOK (üç slug da 302 ölçüldü); `turkistan` genel maddesi de kasabayı kapsamıyor (§4 tanecik boşluğu). Dönem günleri Çimkent kaydından (159 km) bölgesel hizalama ile alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
 
 { ad:"Sayram (İsficâb)", tur:"kasaba", lat:42.303, lon:69.786, k:4, m:null,
   // 🔴 `sayram` · `sayram--sehir` · `isficab` sluglarının ÜÇÜ DE 302.
@@ -237,8 +236,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
      {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[],
-  kaynak:"bulunamadı — TDV'de `sayram`/`isficab` maddesi YOK (slug 302 ölçüldü). Dönem günleri Çimkent kaydından (16 km) alındı."
-},
+  kaynak:"bulunamadı — TDV'de `sayram`/`isficab` maddesi YOK (slug 302 ölçüldü). Dönem günleri Çimkent kaydından (16 km) alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
 
 // ─────────────────────────────────────────────── ④ KANEM-BORNU (4)
 // H-0014. Ölçtüm: kanem-bornu'nun atlastaki nokta sayısı İKİYDİ (Mao ·

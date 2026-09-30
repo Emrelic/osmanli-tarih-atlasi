@@ -63,10 +63,10 @@ window.YERLESIMLER_A78_AVRUPA = [
   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
   kaynak:"Saint-Germain 1919-09-10 md. 27: Gmünd istasyon mahallesi (České Velenice) Çekoslovakya'ya, kasaba Avusturya'da. Zincir Viyana emsali, künye penceresine göre." },
 { ad:"České Budějovice (Budweis)", tur:"sehir", lat:48.975, lon:14.474, g:1, k:0,
-  s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+  s:[{"f":"1281-01-01","t":"1526-10-22","d":"almanya"},{"f":"1526-10-22","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"cekoslovakya"}],
   kaynak:"Güney Bohemya; zincir Prag EMSALİ (Bohemya Tacı, aynı birim) — 1918-11-11 günü emsalden (cekoslovakya künyesi 1918-10-28). Saint-Germain 1919-09-10 ile Çekoslovakya'nın." },
 { ad:"Třeboň (Wittingau)", tur:"sehir", lat:49.004, lon:14.771, g:2, k:0,
-  s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+  s:[{"f":"1281-01-01","t":"1526-10-22","d":"almanya"},{"f":"1526-10-22","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"cekoslovakya"}],
   kaynak:"Güney Bohemya; České Budějovice ile aynı zincir (Prag emsali)." },
 
 // ---------------- ARNAVUTLUK–YUNANİSTAN (d1923-gr-al) ve Filorina boşluğu

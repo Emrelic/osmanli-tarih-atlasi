@@ -2275,9 +2275,7 @@ window.YERLESIMLER_A78_ASYA = [
   s:[{f:"1864-01-01", t:"1923-10-29", d:"sarawak-brooke", kesinlik:"yil", kaynak:"Sarawak Tourism Board: Fort Alice 1864; IBS 45: Batang Lupar 1853 sınırının içinde"}] },
 
 { ad:"Baram (bölge)", tur:"bolge", lat:4.18, lon:114.32, g:0, k:0,
-  s:[{f:"1281-01-01", t:"1368-01-01", d:"__BOSLUK__", kaynak:"brunei-sultanligi künyesi 1368'de başlıyor"},
-     {f:"1368-01-01", t:"1882-06-13", d:"brunei-sultanligi", kaynak:"IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"},
-     {f:"1882-06-13", t:"1923-10-29", d:"sarawak-brooke", kaynak:"Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"}],
+  s:[{"f":"1281-01-01","t":"1368-01-01","d":"__BOSLUK__","kaynak":"brunei-sultanligi künyesi 1368'de başlıyor"},{"f":"1368-01-01","t":"1882-01-01","d":"brunei-sultanligi","kaynak":"IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"},{"f":"1882-01-01","t":"1923-10-29","d":"sarawak-brooke","kaynak":"Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"}],
   not:"Dolgu noktası (Marudi/Claudetown konumu; istasyonun kuruluş yılı bulunamadı)." },
 
 { ad:"Limbang", tur:"sehir", lat:4.75, lon:115.01, g:0, k:0,
@@ -2466,9 +2464,7 @@ window.YERLESIMLER_A78_ASYA = [
   not:"Dolgu/bağlayıcı nokta — Karakul ↔ Oş (Rus Fergana gövdesi)." },
 
 { ad:"Niah kıyısı (bölge)", tur:"bolge", lat:3.8, lon:113.75, g:0, k:0,
-  s:[{f:"1281-01-01", t:"1368-01-01", d:"__BOSLUK__", kaynak:"brunei-sultanligi künyesi 1368'de başlıyor"},
-     {f:"1368-01-01", t:"1882-06-13", d:"brunei-sultanligi", kaynak:"IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"},
-     {f:"1882-06-13", t:"1923-10-29", d:"sarawak-brooke", kaynak:"Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"}],
+  s:[{"f":"1281-01-01","t":"1368-01-01","d":"__BOSLUK__","kaynak":"brunei-sultanligi künyesi 1368'de başlıyor"},{"f":"1368-01-01","t":"1882-01-01","d":"brunei-sultanligi","kaynak":"IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)"},{"f":"1882-01-01","t":"1923-10-29","d":"sarawak-brooke","kaynak":"Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'"}],
   not:"Dolgu/bağlayıcı nokta — Kidurong (1861 sınırı) ile Baram arası, 1882 devrinin içinde (IBS 45; Suffian Mansor)." },
 
 { ad:"Tomari kıyısı (bölge)", tur:"bolge", lat:48.0, lon:142.2, g:0, k:0,
@@ -2567,10 +2563,10 @@ window.YERLESIMLER_A78_AVRUPA = [
   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
   kaynak:"Saint-Germain 1919-09-10 md. 27: Gmünd istasyon mahallesi (České Velenice) Çekoslovakya'ya, kasaba Avusturya'da. Zincir Viyana emsali, künye penceresine göre." },
 { ad:"České Budějovice (Budweis)", tur:"sehir", lat:48.975, lon:14.474, g:1, k:0,
-  s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+  s:[{"f":"1281-01-01","t":"1526-10-22","d":"almanya"},{"f":"1526-10-22","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"cekoslovakya"}],
   kaynak:"Güney Bohemya; zincir Prag EMSALİ (Bohemya Tacı, aynı birim) — 1918-11-11 günü emsalden (cekoslovakya künyesi 1918-10-28). Saint-Germain 1919-09-10 ile Çekoslovakya'nın." },
 { ad:"Třeboň (Wittingau)", tur:"sehir", lat:49.004, lon:14.771, g:2, k:0,
-  s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+  s:[{"f":"1281-01-01","t":"1526-10-22","d":"almanya"},{"f":"1526-10-22","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"cekoslovakya"}],
   kaynak:"Güney Bohemya; České Budějovice ile aynı zincir (Prag emsali)." },
 
 // ---------------- ARNAVUTLUK–YUNANİSTAN (d1923-gr-al) ve Filorina boşluğu

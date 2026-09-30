@@ -61,8 +61,8 @@ window.YERLESIMLER_EK3 = [
 //    (Oran) ve Mersalkebîr'in İspanyollardan alınışı"` maddesi VAR ama
 //    haritada karşılığı olan bir yer YOKTU. Madde artık bir yere basıyor.
 { ad:"Mersa'l-Kebîr", tur:"liman", lat:35.728, lon:-0.709, g:0, k:4, m:"Oran",
-  s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya",enklav:true},{f:"1732-07-01",t:"1792-02-12",d:"ispanya",enklav:true},{f:"1831-01-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1708-04-04",t:"1732-07-01",y:"kusatma"},{f:"1792-02-12",t:"1831-01-04",y:"antlasma"}] },
+  s:[{"f":"1281-01-01","t":"1509-05-17","d":"zeyyani"},{"f":"1509-05-17","t":"1708-04-04","d":"ispanya","enklav":true},{"f":"1732-07-01","t":"1792-09-12","d":"ispanya","enklav":true},{"f":"1831-01-04","t":"1923-10-29","d":"fransa-cumhuriyet"}],
+  d:[{"f":"1708-04-04","t":"1732-07-01","y":"kusatma"},{"f":"1792-09-12","t":"1831-01-04","y":"antlasma"}] },
 
 // ── ② SEYREKLİK LİSTESİ 6-15 — ÜÇ SINIF UYGULANDI ───────────────────
 // Kendi listemin 6-15. sıraları neredeyse tamamen KARADENİZ KUZEYİ
@@ -120,13 +120,13 @@ window.YERLESIMLER_EK3 = [
   s:[{f:"1281-01-01",t:"1514-01-01",d:"merini"},{f:"1514-01-01",t:"1769-01-01",d:"portekiz",enklav:true},{f:"1769-01-01",t:"1923-10-29",d:"fas"}] },
 
 { ad:"Safi (Asfi)", tur:"liman", lat:32.299, lon:-9.237, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1488-01-01",d:"merini"},{f:"1488-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{"f":"1281-01-01","t":"1488-01-01","d":"merini"},{"f":"1488-01-01","t":"1541-01-01","d":"portekiz","enklav":true},{"f":"1541-01-01","t":"1549-01-01","d":"sadi"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}] },
 
 // Azemmûr alınış günü 1513-01-01 (yıl kodu) → 1513-09-03 — KIRILMASIZ-9, 19 Eyl 2026, 1.MURAT M-4632 (A).
 // Kaynak: Jorge Correia & Ana Lopes, "Azemmour, Morocco: Early Sixteenth-century Portuguese Defences"
 // (EAUM Univ. of Minho / CHAM): "…only to succeed five years later in 1513, on September 3rd."
 { ad:"Azemmûr", tur:"liman", lat:33.289, lon:-8.342, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1513-09-03",d:"merini"},{f:"1513-09-03",t:"1541-01-01",d:"portekiz",enklav:true,kaynak:"Correia & Lopes (UMinho/CHAM): 1513, on September 3rd"},{f:"1541-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{"f":"1281-01-01","t":"1513-09-03","d":"merini"},{"f":"1513-09-03","t":"1541-01-01","d":"portekiz","enklav":true,"kaynak":"Correia & Lopes (UMinho/CHAM): 1513, on September 3rd"},{"f":"1541-01-01","t":"1549-01-01","d":"sadi"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}] },
 
 { ad:"Arzila (Asilah)", tur:"liman", lat:35.466, lon:-6.036, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1471-01-01",d:"merini"},{f:"1471-01-01",t:"1549-01-01",d:"portekiz",enklav:true},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
