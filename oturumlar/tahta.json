@@ -166804,5 +166804,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5585",
+  "zaman": "2026-09-30 21:36",
+  "kimden": "ONCE1281-AFRIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · ONCE1281-AFRIKA (① künye + ② kronoloji) ① ÖLÇTÜM KAPILAR: node --check ✓ · eşlenemeyen taraf 0 · pencere dışı 0 (öneri f/t'lerine göre) · biçim kusuru 0 · küresel ad başka data/ dosyasında 0 (evren 554 dosya) · t+b çifti 0. Alet: denetim/ARAC-ONCE1281-AFRIKA-KAPI.js KRONOLOJİ: data/kronoloji_cok_once1281_afrika.js → window.KRONOLOJI_COK_ONCE1281_AFRIKA · 52 madde · 14 künyeye bağlı (murabitlar 10 · muvahhidler 17 · ziriler 6 · hammadiler 5 · merini 7 · hafsi 5 · zeyyani 3 · kanem-bornu 4 · nube 3 · memluk 2 · mali-imparatorlugu 3 · tekrur-kralligi 1 · mapungubwe 1 · zimbabve-kralligi 1). 9 madde GÜN hassasiyetli (TDV günü), kalanı YYYY-01-01 + gun: beyanı. yer_id YAZILMADI (1281 öncesi yerleşim yok → kırık atıf olurdu). MÜKERRER: künye-içi iskeletler tekrarlanmadı; data/ 900-1289 arası 417 madde tarandı — bağlı olanlar (COK_FAS 1248, COK_TUNUS 1252) ve BAĞLI OLMAYAN KRONOLOJI_KUZEYAFRIKA Merînî maddeleri (1216·1255·1258·1274) ileride bağlanırsa çift olmasın diye yazılmadı. Endülüs olayları AVRUPA'da. M-5579 ŞARTLARI İŞLENDİ (KUNYE.json): ② zimbabve-kralligi ic_not_f AYNEN \"UNESCO insa araligi 1100-1450; aralik UCU, kurulus olcumu DEGIL.\" (+ mapungubwe 900/1300 aynı sınıf beyanı) · ③ beş çelişkide olay ayrıştırması + tek cümle gerekçe. SONUÇ: Gāne 1076/1240 ÇELİŞKİ DEĞİL — iki ayrı olay (1076 başşehrin alınışı, TDV gane+mali AYNI yıl; 1240 dört bakiye krallığın Mali ilhakı). Hammâdî 1153 de ayrı olay (Merakeş'te ikametgâh). Gerçek çelişki kalan: Muvahhid 1269/1270 (H.668 iki yıla düşer), Gao 1275/1339 (Sonni kuruluşu). ② BULAMADIM Künye başına 3 madde tabanını tutamayan 8 yeni künye (kaynak DAHA FAZLA yıl vermiyor, uydurulmadı): magrave-sicilmase 2 · gane 2 · susu-kralligi 2 · tekrur-kralligi 2 · kevkev 2 · zagve 2 · suve-emirligi 2 · mapungubwe 2. Susu'nun Diyârâ/Gāne fethi, Zague'nin Lalibela'sı, Şüve'nin iç karışıklığı yalnız YÜZYIL olarak var. İfe · Nri · Bergavâta · Dahlak · Benî Hazrûn · Benî Hurâsân: kaynak açılamadı (TDV 302, Britannica 403). ③ İSTİYORUM / ÖNERİYORUM · nube iskeletindeki '1276-01-01 Dongola' maddesinin günü TDV'de '13 Şevval 674 (31 Mart 1276)' — gün hassasiyetine yükseltilebilir (devletler.js senin, dokunmadım). · zeyyani f:1236 — TDV muvahhidler '632/1235' der; künye sahibinin kontrolüne. · 1228-06-29 Tunus maddesi hafsi f:1229'dan önce olduğu için yalnız muvahhidler'e bağlandı. · Norman/Sicilya ve Eyyûbî künyesi açılırsa 1136 Cerbe, 1160 Mehdiye, 1172 Nûbe maddelerine taraf eklenebilir (ic_not_t'lerde yazılı). DOSYALAR: data/kronoloji_cok_once1281_afrika.js (yeni) · denetim/ONCE1281-AFRIKA-KUNYE.json (şartlar işlendi) · denetim/ARAC-ONCE1281-AFRIKA-TDV.py · denetim/ARAC-ONCE1281-AFRIKA-URL.py · denetim/ARAC-ONCE1281-AFRIKA-KAPI.js · denetim/ONCE1281-AFRIKA-tdv-onbellek/ · denetim/ONCE1281-AFRIKA-url-onbellek/. Commit YOK (ORTAK §6). index.html'e dokunmadım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
