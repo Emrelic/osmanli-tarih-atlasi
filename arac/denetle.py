@@ -606,7 +606,10 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 195
+BEKLENEN_ACIK_S = 191   # 1 EKIM 2026: 195 -> 191, gecenin kronoloji kampanyasi
+# 1788 yeni madde girdi ve DORT yabanci senkron acigini KAPATTI. Tavan asagi da
+# takip edilir (`§11`): indirilmezse yarinki gerileme "191 <= 195" diye sessizce
+# gecer ve acigin geri acilmasi GORUNMEZ olur.
 
 # 🟡 AYRI DEFTER — `YYYY-01-01` kırılmaları (bkz. yil_temsili_ayir).
 # İhlal DEĞİL: bunların çaresi madde yazmak değil GÜNÜ BULMAKTIR; ±30 günlük
@@ -617,6 +620,15 @@ BEKLENEN_ACIK_S = 195
 #   "yeni `YYYY-01-01` kırılması yazılmış olabilir" cümlesi burada YANILTIR;
 #   tavan bu yüzden güncellendi, yoksa sonraki oturum olmayan bir kaydı arar.
 BEKLENEN_2S_YIL_BORC = 151
+# 🔴 1 EKIM 2026 — BU SAYI TERS YONE GITTI: olculen 164 > tavan 151.
+# Tavani YUKSELTMIYORUM, cunku sebep bir kusur DEGIL bir ZORUNLULUK ve
+# gorunur kalmasi gerekiyor: gecenin 1281-oncesi ve Sahra-alti maddelerinde
+# gun hassasiyeti KAYNAKTA YOK, `D210` geregi `YYYY-01-01` yazildi ve her biri
+# "yil-temsili borc" olarak sayiliyor. Yani borc, DOGRU davranmanin bedeli.
+# ⇒ Uyari otmeye DEVAM EDECEK ve etmeli. Kapanma yolu tek: o maddelerin gunu
+#   kaynakta bulununca yazilir. Tavani yukseltmek borcu gizlemek olurdu.
+# 📌 Ve bu, gecenin OTEKI yedi tavanini INDIRIRKEN bunu indirMEMEnin gerekcesi:
+#   tavan iki yonde de takip edilir, ama YUKSELTME bir olcum degil bir AFTIR.
 
 # ═══ `Degismez 2i` — ISGAL kirilmasinin maddesi var mi ═══════════════════
 # 🔴 VERI KRONOLOJI 3 (7 Agustos 2026) olctu ve IKI VAKAYLA dogruladi:
@@ -632,7 +644,7 @@ BEKLENEN_2S_YIL_BORC = 151
 # OLCULDU: 88 isgal donemi / 82 kayit · 16 ayrik kirilma gunu · 3 ACIK
 #   Nis 1737-10-01 · Semendire 1789-10-13 · Bihac 1878-09-18
 # ⇒ Borc KUCUK ve kapatilabilir; tavan 3 ile giriyor ve inmesi beklenir.
-BEKLENEN_ACIK_ISG = 3
+BEKLENEN_ACIK_ISG = 1   # 1 EKIM 2026: 3 -> 1, olculdu (142 isgal kirilmasi, 1 acik)
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
@@ -690,7 +702,10 @@ BEKLENEN_ACIK_ISG = 3
 #     Tunus 1569/1573         gidis-gelisi modellenmemis
 # ⇒ Bunlari etiketten cikarmak `2t`yi dusurur ama GERCEK BOSLUGU GIZLER --
 #   ve o, olcutun onlemek icin var oldugu seydir. VERI isi, etiket isi degil.
-BEKLENEN_KIRILMASIZ = 42
+BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem kapatti
+# ⚠️ Buyuk bir dusus (42 -> 13) ve bilerek SIKI baglaniyor: 29 kalemlik iyilesme
+# kayda gecmezse, yarin biri 40 kirilmasiz madde yazsa denetim "40 <= 42" der ve
+# GECER. Tavan bir hedef degil, o gunun FOTOGRAFIDIR.
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
@@ -2061,7 +2076,7 @@ def degismez3(Y):
 #                  ⇒ ÇARE KAYDI SİLMEK DEĞİL: 1923-2026 ekseni açılınca
 #                     `fas` künyesi uzayacak ve hayalet KENDİLİĞİNDEN
 #                     düşecek. O güne kadar tavanda, GEREKÇESİYLE.
-BEKLENEN_HAYALET = 6
+BEKLENEN_HAYALET = 5   # 1 EKIM 2026: 6 -> 5, kunye 704 -> 863 genislemesi bir hayaleti kapatti
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
@@ -2158,7 +2173,11 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 128   # 10 EYLUL 2026: 138 -> 132, aletin KENDI uyarisi
+BEKLENEN_ASAN = 124   # 1 EKIM 2026: 128 -> 124 · 10 EYLUL: 138 -> 132, aletin KENDI uyarisi
+# 1 Ekim dususunun sebebi olculdu: KUNYE-1945-0930 kunye penceresi kesik olan
+# 90 kaydi sinifladi ve dordunun `t:`sini kaynakli gune cekti (yemen 1962-09-26
+# · kesmir 1947-10-26 · bulgaristan 1946-09-15 · sovyet 1991-12-25) ⇒ o donemler
+# artik devletin OLUMUNU ASMIYOR. Kalanlar `1945-09-02` pencere ucu (D210).
 # 🔴 Aradaki 6 puanlik gercek gerileme GORUNMEZ olurdu. Ayni turda dort
 #    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
 #    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
@@ -2240,7 +2259,13 @@ ATLAS_BASI = "1281-01-01"
 #   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
 #   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
 #   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
-BEKLENEN_ONCE = 409
+BEKLENEN_ONCE = 317   # 1 EKIM 2026: 409 -> 317, EN BUYUK tek gecelik iyilesme (92 kalem)
+# Sebep: 1281 oncesi kampanyasi 159 yeni kunye acti (kunye 704 -> 863) ve `f:`i
+# 1281'den geriye cekti. Once "devletin DOGUMUNDAN ONCE baslayan donem" sayilan
+# kayitlar artik kunyenin ICINDE. ⇒ Bu, kampanyanin haritaya en olculebilir
+# katkisi: 92 donem artik hayalet degil.
+# ⚠️ Tavan SIKI baglaniyor: 409'da kalsa, yarin 400 kalemlik bir gerileme
+# "400 <= 409" diye GECERDI.
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
@@ -2264,7 +2289,7 @@ BEKLENEN_ONCE = 409
 # 🔴 28 -> 6, 6 EYLÜL 2026 — aynı düzeltme. `4s` = `4c` ∩ `4d` KESİŞİMİ
 #   olduğu için en çok o daraldı: 14 dönem `4c`den çıkınca kesişimden de
 #   çıktı. Düşüşün büyüklüğü bir veri kaybı DEĞİL, kesişimin doğası.
-BEKLENEN_SARAN = 6
+BEKLENEN_SARAN = 5   # 1 EKIM 2026: 6 -> 5, kunye genislemesiyle biri kapandi
 
 
 def degismez4(Y):
@@ -4990,7 +5015,11 @@ def main():
     # her çifti tek tek oku, sahici olanı TEK maddeye indir, yanlış eşleşmeyi
     # ölçüte öğret. Sahibi: koordinatör (YILDIRIM BAYEZIT). Bu satır bir sonraki
     # ölçümde 114'ten KÜÇÜK değilse borç ödenmemiştir.
-    BEKLENEN_MUKERRER = 114
+    # 1 EKIM 2026: 114 -> 113. Gecenin 1788 maddesi tavani 115'e cikardi; iki
+    # yanlis pozitif `BILINEN_AYRI`ya girdi (Nyiginya/Kintu · Cahokia/Vestribygd)
+    # ve sayi 113'e DUSTU. Tavan asagi da takip edilir — yoksa 114'te kalsa
+    # yarin dogacak GERCEK bir mukerrer "114 <= 114" diye gecer.
+    BEKLENEN_MUKERRER = 113
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True
