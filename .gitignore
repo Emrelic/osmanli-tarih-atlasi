@@ -197,3 +197,26 @@ denetim/_govde/*.txt
 # `glm/_mesaj.txt`: tahtaya yazılmadan önceki taslak. Teslim tahtadadır.
 glm/_mesaj.txt
 data/ufuk_bantlari.js
+
+# ── GÖMÜLÜ DEPO — 1 Ekim 2026, ölçülmüş bir vakadan sonra ────────────
+# `ClaudEmre-kutu/` kendi `.git`ini taşıyan AYRI bir depodur. Atlas deposunun
+# içinde durması git için bir "embedded repository"dir: commitlenirse git onu
+# içeriğiyle değil bir gitlink olarak alır, klonlarda BOŞ görünür.
+#
+# 🔴 VAKA: koordinatör `git status --porcelain` çıktısını dosya listesi sanıp
+# `git add`e verdi — o çıktı izlenmeyen DİZİNLERİ tek satır olarak verir.
+# Sahnelenen 327 yerine **3530 dosya** oldu ve git "adding embedded git
+# repository: ClaudEmre-kutu" diye uyardı. Commit geri alındı (`git reset`),
+# pathspec dosya dosya yeniden kuruldu, üç kaçak sınavı eklendi.
+# ⇒ `D223`ün "dizin pathspec'i YASAK" kuralı tam bunun içindi ve kural
+#   YAZILIYDI; ihlal acele ederken oldu. Bu satır, kuralın unutulduğu anda
+#   da koruyan yapısal sigortadır — kural insanın, ignore makinenin hafızası.
+ClaudEmre-kutu/
+
+# ⚠️ `denetim/*-onbellek/` DİZİNLERİ BİLEREK İZLENİYOR (646 dosya, 52,8 MB) —
+# ignore EDİLMEDİ. Sebebi `CLAUDE.md §4`: alıntılar "önbellekteki gövdeden
+# kelimesi kelimesine" alınır, yani o gövdeler ALINTININ DELİLİDİR. Silinirse
+# hiçbir alıntı bir daha doğrulanamaz. Ağır ama kasıtlı.
+# ⚠️ `agy/` (890 dosya) izlenMİYOR, ama `gemini/` (25) ve `glm/` (24) izleniyor —
+# dış işçi çıktılarında tutarsızlık. Karar verilmedi, kalem açıldı: ya üçü de
+# izlenir ya üçü de ignore edilir; 890 dosyayı gözden geçirmeden eklemem.
