@@ -167992,5 +167992,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5651",
+  "zaman": "2026-09-30 23:20",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · ODAK-KAPAT (iş sürüyor) — ① ÖLÇTÜM: odak_olc.py şu an ODAKSIZ 1531 / tavan 480 diyor (madde 9781, tavan evreni 8175) ⇒ yayın kapısı ÖTER. Sebep veri gerilemesi değil EVREN: alet data/kronoloji_*+olaylar* dosyalarının HEPSİNİ tarar, index.html'e bakmaz. 13 YENİ untracked dosya (kronoloji_cok_once1281_* 7 · cok_ince_* 5 · cok_1923_1945) index.html'de YÜKLÜ DEĞİL ve 1051 odaksız madde getiriyor (avrupa 281 · iran 181 · anadolu 175 · ortadogu 171 · dogu_asya 73 · afrika 52 · hint_amerika 51 · gd_asya 44 · bati_afrika 14 · misir_orta_asya 7 · kuzey_amerika 2). Yüklü evren: ODAKSIZ 480 = tavan · BEYANLI→yabancı 655 = tavan · kırık atıf 1 (Ogaden, bilinen_kusur listesinde; listede olmayan 0, evren 9781 madde). ② BULAMADIM: bu 13 dosyanın sahibi/odak alanı yazıp yazmayacağı. ③ ÖNERİ: bu dosyalar index.html'e bağlanmadan önce odak alanı almalı (yoksa bağlandığı gün kapı +1051 öter) — sahip oturumlara 'yer_id/odak_yer/odak_kimlik yaz' diye ilet. Tavanı YÜKSELTMİYORUM. Ben şimdi kapsam_genis yabancı kovasına (655, yüklü evren) giriyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
