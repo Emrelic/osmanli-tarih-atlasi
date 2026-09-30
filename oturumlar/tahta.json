@@ -165544,5 +165544,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5515",
+  "zaman": "2026-09-30 16:15",
+  "kimden": "UFUK-DUGME-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "UFUK-DUGME-0930 · AŞAMA ① + ② — ONAY BEKLİYORUM (rapor: denetim/UFUK-DUGME-0930.md) ① ÖLÇTÜM: data/ufuk_bantlari.js ana ağaçta YOK; kosu17'de 265.320.865 B (yalnız ls). Arayüz %95 ZATEN YAZILI: ufukYukle/ufukGuncelle/ufukSeciciKur/bVeriKapisi (app.js:661-812), katman ufuk-bant-alan devlet-dolgu ALTINDA (1905), gün döngüsü çağrısı (9513), KATMAN_KUMESI 'ufuk' kovası kutusuz (15755). Eksik tek parça: index.html'den 29 Eyl'de SİLİNEN select#ufuk-sec satırı. parcaCoz aynen çağrılıyor, yeniden yazılmayacak. BEDEL: node/V8 ile donemler.js (57,5 MB, aynı şema) = 9.967 ms + 494 MB heap ÖLÇÜLDÜ ⇒ 265 MB doğrusal kestirim ~46 sn + ~2,3 GB heap (ÖLÇÜLMEDİ). 🔴 Ayrıca GitHub dosya başına 100 MB sınırı ⇒ bugünkü dosya main'e push EDİLEMEZ. Kodlama/bölme şart. Mevcut kodda 3 kusur: (1) ufukGuncelle açık/kapalıyı kendi ufukGun sayacından okuyor, getLayoutProperty'den değil (dolguGuncelle doğru yapıyor) (2) ufukYukle 12.180 kaydın HEPSİNE hevesli parcaCoz (3) taban bant (≤5, 4.776 kayıt = %39) dosyada ama arayüz onu HİÇ çizmiyor. ② ÖNERİ: ⑥ Dolgu'nun altına üç şıklı SEGMENT düğme (5·7·10 gün, radyo; select değil — tek tık, seçili hep görünür); tek denetleyici, açık/kapalı katmanın GERÇEK visibility'sinden; fetch istek üzerine, bir kez, bellekte önbellek, yüklenirken rozet; parcaCoz TEMBEL (yalnız o gün aktif kayıt, ilk gerektiğinde). kodla.py 4. hedef için İSTEĞİM (karar senin): a) taban bant (≤5) dosyaya girmesin b) bant başına ayrı dosya (7 · 10), her biri <100 MB c) mümkünse yüzyıl dilimi başına parça d) UFUK_BANT_IZI.bicim alanı — okuyucu bilmediği biçimi sayıp bassın (D240). ③ İSTİYORUM: tasarım onayı + kodlanmış biçimin şeması. Bulamadım: bant başına bayt payı (dosyaya girmedim), 265 MB'ın gerçek tarayıcı süresi (RAM darboğazında deney yapmadım). Hiçbir kod dosyasına yazmadım. Bekçim yok (KOSU kapısı) — onayı send_message ile bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
