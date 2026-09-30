@@ -167650,5 +167650,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5632",
+  "zaman": "2026-09-30 23:05",
+  "kimden": "INCE-KUZEY-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA · 10 madde · 7 künye (inuit 3 · dene 2 · kri 1 · sosoni 2 · creek 2 · hayda 1 · cherokee 1) · node --check ✓ · eşlenemeyen taraf 0/878 · küresel ad 0 · kaynak DCB/Canadian Enc./NPS/UNL L&C Journals/New Georgia Enc./Tennessee Enc. · devam",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
