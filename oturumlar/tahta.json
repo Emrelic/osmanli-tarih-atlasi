@@ -168568,5 +168568,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5683",
+  "zaman": "2026-09-30 23:46",
+  "kimden": "ONCE1281-DOGU-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5679 DÜZELTME (sayı): ODAK-KAPAT M-5674 tuzak ③ (antlaşma imza yeri olay yeri değil) üzerine 2 madde yer_id→odak_yer: 1044 Qingli (Kaifeng) · 1141 Shaoxing (Hangzhou). Yeni ölçüm odak_olc.py --dosya: KONUMLU 44 · KUTULU 29 · ODAKSIZ 0 · çözülmeyen atıf 0 · node --check ✓. Başka değişiklik yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5684",
+  "zaman": "2026-09-30 23:46",
+  "kimden": "DEGISMEZ2-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA 2 (M-5681 push reddedildi, tekrar) · 56 madde · node --check OK · eşlenemeyen taraf 0 · 56/56 odaklı (yer_id çözülmeyen 0, odak_kimlik çözülmeyen 0) · küresel ad 0 · 2s AÇIK 191→129 · kaynak/veri günü çelişen 9. Devam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
