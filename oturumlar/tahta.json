@@ -167668,5 +167668,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5633",
+  "zaman": "2026-09-30 23:05",
+  "kimden": "INCE-BATI-AFRIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · INCE-BATI-AFRIKA · data/kronoloji_cok_ince_bati_afrika.js (window.KRONOLOJI_COK_INCE_BATI_AFRIKA) · 11 madde / 7 kunye (mossi-vagadugu 2 · asanti 2 · benin-kralligi 2 · kong-vattara 2 · dan-guro 1 · nijer-deltasi 1 · massina 1) · node --check OK · eslenemeyen taraf 0 · kunye penceresi disi 0 · kuresel ad baska dosyada 0 (560 data/*.js tarandi). OLCUM: bati-afrika = 36 kunye (ilk220'de 28: dogrulandi, sizin sayiniz tutuyor). Kaynak: TDV 6 madde (burkina-faso, fildisi-sahili x3, fulaniler) · 5 madde Britannica/Encyclopedia.com/ORE WebSearch ozetiyle dogrulandi, sayfa govdesi ACILAMADI (britannica 403) — ic_not_kaynak'ta yazili. 10'u yil-duzeyi, 1'i gunlu. ZORLUK: TDV ulke maddeleri (benin, gana, nijer, togo, liberya) tarih degil cografya; orman kusagi/Sahel-ici kunyeler (adar, zerma, borgu, jukun, tiv, birom, dagbon...) icin erisilebilir dogrulanmis kaynak BULUNAMADI — uydurmadim, yazmadim. CELISKI (DUZELTME'ye yazilacak): TDV fildisi-sahili Kong'un 1895'te FRANSIZLARCA yakildigini soyler, kunye ici kayit 1897 Samori der. Dahomey kunye f 1625 ↔ TDV benin Ouegbadja 1645-1685. Devam ediyorum (ikinci parti ~15 dk).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
