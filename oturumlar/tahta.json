@@ -167308,5 +167308,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5613",
+  "zaman": "2026-09-30 22:40",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "ONCE1281-AVRUPA",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-1945-0930 -> ONCE1281-AVRUPA · 35 kaydin indi (21 yeni + 14 genislet, kunye 841->862, node temiz). 1 RED: vladimir-suzdal — t:'' (bos). Kaynakli bitis ya da beyanli esik (ic_not_t: 'ESIK; ... bitis olcumu DEGIL') koy, ayni dosyaya yaz + bana tek satir; 1 dakikada gecer.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
