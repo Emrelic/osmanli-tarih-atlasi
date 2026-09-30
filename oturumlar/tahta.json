@@ -167200,5 +167200,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5607",
+  "zaman": "2026-09-30 22:27",
+  "kimden": "YAMA-MOTOR-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · YAMA-MOTOR-0930 · rapor denetim/YAMA-MOTOR-0930.md (+ .json) 🔴 HÜKÜM: tam inşa koşusuna 2 yama biniyor — YAMA-MOTOR-0930-boyalar.diff + YAMA-MOTOR-0930-epok-yorum.diff (ikisi birlikte git apply --check TEMİZ). Tuzdaki 4 dosyaya YAZMADIM. ① ÖLÇTÜM - Görev ①, 11 bekleyen diff: \"bayat\" dediğin altısının (GOVDE-CAKISMA-0079 · MOTOR-LEGO ×2 · KORIDOR-0081 · YAMA-B3 · ACILIS-ANIM) altısı da ZATEN İNMİŞ. Kanıtı: git apply --check -R TEMİZ, içerikte + satırlarının tamamı dosyada (104/104 · 78/78 · 32/32 · 9/9 · 55/55). ACILIS: css/style.css:3082 360px. BOGAZ-OLCUM de inmiş (55dfa2b5). Hiçbiri koşuya binmez. Önerim: -INDI ekiyle yeniden adlandır, yoksa bir sonraki ölçen yine \"bayat\" der (dosyalar benim olmadığı için dokunmadım). - Tuz dışı: DEGISMEZ-0086-durum_tablosu.diff TEMİZ, uygulanmamış, koşu beklemez · TOBLER-0912 yama değil taslak (Tobler uygulanmamış, karar Emre'de) · DENETLE-ISG/HARITA-0905 bozuk diff (denetle.py), ISG içeriği 0/13 inmemiş. - Görev ②, 12 motor maddesi: 3'ü yamada (#114 kaheti-kralligi boyası · #188 ferrara etiketi \"Este Devleti (Ferrara / Modena)\" · #211 danimarka etiketi \"Danimarka Krallığı\"). #33 karakoyunlu: renk_olc yine macenta verdi (#e41ee4), şikâyeti çözmüyor, yazmadım. #93 atladım (H-0010 senin-kararin). #24 ve #32 motor yaması değil. 5 uret_petek maddesinin (#1 #16 #19 #23 #168) 5'i de diff boyutunda değil: GORUNUM-ABCD A/B tasarım aşamasında (app.js de değişir), kara-kara sürtünme ve 0,05° ızgara ölçüm koşusu gerektiriyor. - BOYA: ONCE1281 künye dosyalarında 131 farklı boya_gerekli kimlik var (tahminin 18+13'tü). 92'sinin künyesi var → yamada. 39'unun künyesi devletler.js'te YOK (ANADOLU 10 + ORTADOGU 30 satır) → alınmadı. Renkleri renk_olc --oner birlikte çözdü (denetim/oneri-20260930-222016.txt). Yamalı renkler.py import ediliyor, BOYALAR 608→701, yeni uyarı yok. - Görev ③: bugün 4296 nokta · 1669 kur: · 19 bit: · 752 sınır günü. Bedel kosu18.log:1467'den: petek_epok 236 çağrı, 54dk33sn, %21,9. Yorum yamada. ② BULAMADIM / ÖLÇEMEDİM - 🟡 92 yeni renk DÜŞÜK GÜVENLİ: 93'ünün de komşusu ölçülemedi (veride s:/isg: yok). Bugün delik açmıyorlar. Nokta inince renk_olc ile YENİDEN çözülmeli, uyarı yamanın içinde yazılı. - H-0079'un tam metni bulunamadı, etiketi künye adına göre seçtim. ③ İSTİYORUM - (a) 39 künyesiz kimlik: künyeleri inince ikinci BOYALAR yaması, ya da koşudan önce KUNYE-1945 inerse tek yamada birleştireyim. ⚠️ Aynı devlet iki yazımla geçiyor: antakya-prinkepsligi (ANADOLU) / antakya-prinkipsligi (ORTADOGU); urfa-kontlugu iki dosyada. Künye inmeden tek id seçilmeli. - (b) #33 için Emre'nin gözü ya da elle ton seçimi. - (c) 5 uret_petek maddesi için ayrı bir motor tasarım oturumu. DEĞİŞEN/YENİ DOSYALAR (hepsi denetim/): YAMA-MOTOR-0930.md · YAMA-MOTOR-0930.json · YAMA-MOTOR-0930-boyalar.diff · YAMA-MOTOR-0930-epok-yorum.diff · oneri-20260930-222016.txt · ARAC-YAMA-MOTOR-0930-{TAZELIK,BOYA,BOYALAR,EPOK,DIFF}.py bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
