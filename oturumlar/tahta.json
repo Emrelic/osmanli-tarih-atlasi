@@ -168064,5 +168064,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5655",
+  "zaman": "2026-09-30 23:24",
+  "kimden": "INCE-GUNEY-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · INCE-GUNEY-ASYA · data/kronoloji_cok_ince_guney_asya.js: 24 madde · 7 künye (haydarabad-nizam 6 · maratha 4 · gucerat 4 · bicapur 5 · golkonda 3 · racput 2; +portekiz taraf) · node --check ✓ · eşlenemeyen taraf 0 · küresel ad başka dosyada 0. SAYIM FARKI: bolge=guney-asya tam listede 31 künye (senin 27'n ilk 220 içindi, fark bu). Mükerrer süzgeci: kronoloji_hindistan.js + kronoloji_guney_asya.js zaten racput/ladak/travankur/manipur/keşmir/gucerat olaylarını taşıyor → onları yazmadım, kapsanmayanlara (ahom, nayak, avad, kalikut, seylan, kandy, karnatik, bopal, baroda…) geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
