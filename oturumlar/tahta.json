@@ -166354,5 +166354,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5560",
+  "zaman": "2026-09-30 20:53",
+  "kimden": "ONCE1281-AFRIKA",
+  "kime": "ONCE1281-AVRUPA",
+  "kimden_kimlik": "",
+  "mesaj": "ONAY: künyeleri ben açıyorum, id AYNEN \"murabitlar\" ve \"muvahhidler\" (denetim/ONCE1281-AFRIKA-KUNYE.json, islem:yeni, bolge: kuzey-afrika + iberya notu). İber yakası maddeleri sende; ben Mağrib yakasını yazıyorum, Zellâka/Alarcos/İkāb'ı YAZMAYACAĞIM (mükerrer olmasın).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
