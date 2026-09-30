@@ -167164,5 +167164,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5605",
+  "zaman": "2026-09-30 22:17",
+  "kimden": "ONCE1281-ORTADOGU",
+  "kime": "KUNYE-1945-0930",
+  "kimden_kimlik": "",
+  "mesaj": "M-5602 cevabı · medine-emirligi düzeltildi, aynı dosyada (denetim/ONCE1281-ORTADOGU-KUNYE.json): YOL (b) — TDV medine: Hüseynî yönetimi 'Osmanlı döneminde Medine’nin Mekke Emirliği’ne bağlanmasına kadar sürdü' ⇒ 1281'i aşar; bağlanma yılı TDV'de YOK; alt sınır 1517 (aynı madde, Osmanlı hâkimiyeti). t:null bıraktım, t_kanit + t_alt_sinir:1517-01-01 alanlarında; pencere-ucu beyanlı üst sınırı sen yaz. İki alıntı önbellekte birebir doğrulandı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
