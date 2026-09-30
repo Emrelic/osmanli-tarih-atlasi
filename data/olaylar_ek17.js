@@ -207,7 +207,7 @@ window.OLAYLAR_EK17 = [
   b:"Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
   gun:"Ağustos 1686 (yardım ordusu 29 Ağustos'ta bozuldu, şehir birkaç gün içinde teslim oldu)", ic_not_gun:"TDV yalnız yıl verir; gün ve ayrıntı akademik kaynağa göre",
   yer:"Anabolu (Nauplion), Mora", yer_id:"Anabolu (Nauplion)",
-  kisiler:"Francesco Morosini, Philipp Christian Königsmarck, İsmail Paşa",
+  kisiler:"Francesco Morosini, Philipp Christian Königsmarck, İsmail Paşa (Osmanlı yardım ordusu)", ic_not_kisiler:"önceki 'İsmail Paşa' kisiBul'da `ismail` (Şah İsmail, 1487-1524) kaydına eşleşiyordu — yanlış kart (0053/H-0015, KAPAT-ORTA). kisiler.js'te 1686 komutanı için kayıt yok ve UYGULA-KART-0930 TDV'de adını bulamadı; nitelik eklenerek eşleşme kesildi (node ile sınandı: → YOK). Nitelik maddenin kendi Setton atfından ('İsmail Paşa'nın taarruzu', yardım ordusu). app.js zaman koruması ayrı iş · UYGULA-OLAYLAR-0930",
   d:"TDV'nin Anabolu maddesine göre kuşatma sırasında şehirdeki müslüman halktan sağ kalabilenler civar adalara ve Anadolu'ya kaçtı (1686). Standart akademik kaynağa göre (Setton, Venice, Austria, and the Turks in the Seventeenth Century) Königsmarck'ın kuvvetleri iki hafta boyunca Osmanlı yardım ordusunun saldırılarını püskürttü; 29 Ağustos'ta İsmail Paşa'nın taarruzu ağır yenilgiyle sonuçlanınca kale birkaç gün içinde teslim oldu. Anabolu, 1540'ta antlaşmayla devralınmış Osmanlı toprağıydı; kaybıyla Mora yarımadasının Venedik'e geçişi hızlandı.", ic_not_d:"⚠️ Budin'in kaybıyla (1686-09-02) KARIŞTIRILMASIN — ayrı cephe, ayrı olay, yalnızca birkaç gün arayla üst üste düşüyor.",
   kaynak:"anabolu", duygu:["😔"] },
 

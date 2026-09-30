@@ -1,0 +1,916 @@
+{
+ "not": "renkler.py BOYALAR'a girmesi gereken kimlikler (tuz, §9.1 — tam inşa koşusuna biner). Tekilleştirilmiş.",
+ "sayi": 182,
+ "kimlikler": [
+  {
+   "id": "gane",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hammadiler",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kevkev",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "magrave-sicilmase",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "mapungubwe",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "murabitlar",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "muvahhidler",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "susu-kralligi",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "suve-emirligi",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "tekrur-kralligi",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "zagve",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ziriler",
+   "bolge_dosyasi": "AFRIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ahaya-prinkepsligi",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ahlatsahlar",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "cubukogullari",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "danismendli",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "dilmacogullari",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "epir-despotlugu",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "var olan künye, 1281 öncesi boyasız"
+  },
+  {
+   "id": "inalogullari",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "iznik-imparatorlugu",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "latin-imparatorlugu",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "mengucuklu",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "mervani",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "saltuklu",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "selanik-imparatorlugu",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "selanik-kralligi",
+   "bolge_dosyasi": "ANADOLU",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "vladimir-suzdal",
+   "bolge_dosyasi": "AVRUPA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "apulya-dukaligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "arles-kralligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "avusturya-dukaligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "barselona-kontlugu",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "birinci-bulgar",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "bohemya",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "genişletilen künye boyasız"
+  },
+  {
+   "id": "dubrovnik",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "var olan künye, 1281 öncesi boyasız"
+  },
+  {
+   "id": "duklja",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "endulus-emevi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "endulus-tavaif",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "flandre",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "galicya-volhinya",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "gwynedd",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hirvatistan-kralligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "idil-bulgar",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "var olan künye, 1281 öncesi boyasız"
+  },
+  {
+   "id": "izlanda-serbest-devleti",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kiev-rusu",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "leon-kralligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "livonya-tarikati",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "mayorka",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "var olan künye, 1281 öncesi boyasız"
+  },
+  {
+   "id": "normandiya",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "sicilya-emirligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "sicilya-kralligi",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "teuton-devleti",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "toulouse",
+   "bolge_dosyasi": "AVRUPA-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "bali-warmadewa",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "bati-xia",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "dali-kralligi",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "dongxia",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "guge",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hariphunchai",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "heian-japonya",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "jin-hanedani",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "var olan künye, 1281 öncesi boyasız"
+  },
+  {
+   "id": "kahuripan",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kediri",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "liao-hanedani",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ly-hanedani",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "medang",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "oshu-fujiwara",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "sakya",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "song",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "var olan künye, 1281 öncesi boyasız"
+  },
+  {
+   "id": "srivijaya",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "tien-le-hanedani",
+   "bolge_dosyasi": "DOGU-ASYA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ata-pueblo",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "bati-calukya",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "cahamana",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "candela",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "caulukya",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "cola",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "dogu-calukya",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "gahadavala",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "gurjara-pratihara",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hawaii-seflikleri",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kabace",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "pala",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "paramara",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "rapa-nui",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "sena",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "tahiti",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "toltek",
+   "bolge_dosyasi": "HINT-AMERIKA",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ahmedili",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "alamut-nizari",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "annazi",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "badusbani",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "bati-karahanli",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "bavendi",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "buveyhi",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "buyuk-selcuklu",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "dogu-karahanli",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "gazneli",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "gurlu",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "harizmsah",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ildenizli",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "irak-selcuklu",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kakuyi",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "karahanli",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "karahitay",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kerayit",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kipcak",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kirman-selcuklu",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "koco-uygur",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "musafiri",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "nayman",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "revvadi",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "salgurlu",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "samani",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "suriye-selcuklu",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "yezd-atabegligi",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ziyari",
+   "bolge_dosyasi": "IRAN",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ani-bagratli-kralligi",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "derbent-hasimi-emirligi",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "filaretos-devleti",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kars-vanand-kralligi",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "lori-kralligi",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "seddadiler-ani",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "seddadiler-gence",
+   "bolge_dosyasi": "KUNYE-1945-0930-ANADOLU-C",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "dogu-macar-kralligi",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kuca-hocalari",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "alman-konfederasyonu",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "baden",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "brandenburg-prusya",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hannover",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "pfalz",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "saksonya",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "teuton-sovalyeleri",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "wurttemberg",
+   "bolge_dosyasi": "KUNYE-1945-0930-BOSLUK15B",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "medine-emirligi",
+   "bolge_dosyasi": "KUNYE-1945-0930-MEDINE",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "abbasi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "antakya-prinkipsligi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "begteginli",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "beni-ammar-trablussam",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "benu-mehdi-zebid",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "boriler",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "eyyubi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "eyyubi-halep",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "eyyubi-hama",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "fatimi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hamdani-halep",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "hamdani-yemen",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "karmati",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "kudus-kralligi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "lului",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "mekke-serifligi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "genişletilen künye boyasız"
+  },
+  {
+   "id": "mezyedi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "mirdasi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "munkizogullari",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "necahi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "numeyri",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "resuli",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "suleyhi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "trablus-kontlugu",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "ukayli",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "urfa-kontlugu",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "uyuni",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "zengi-halep",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "zengi-musul",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "zureyi",
+   "bolge_dosyasi": "ORTADOGU-1",
+   "neden": "yeni künye"
+  },
+  {
+   "id": "almanya-muttefik-isgali",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "bohemya-moravya-protektorasi",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "endonezya-cumhuriyeti",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "filipin-commonwealth",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "guney-afrika-birligi",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "hatay-devleti",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "hirvatistan-bagimsiz",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "ingiliz-hondurasi",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "ispanya-milliyetci",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "italyan-dogu-afrikasi",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "mancukuo",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "nanjing-wang-jingwei",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "newfoundland-dominyonu",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "oniki-ada-italyan",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "saar-havzasi-mandasi",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "slovakya-cumhuriyeti",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "turkiye-cumhuriyeti",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  },
+  {
+   "id": "vichy-fransasi",
+   "bolge_dosyasi": "UFUK-1945",
+   "neden": "1923-1945 ufkunda yaşıyor, BOYALAR'da yok"
+  }
+ ]
+}

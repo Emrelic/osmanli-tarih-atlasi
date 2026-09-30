@@ -1,0 +1,637 @@
+{
+ "ad": "KAPAT-ORTA-0930",
+ "tarih": "2026-09-30",
+ "evren": "87 madde · parti-emrelic-0053/0054/0064/0066 · 16-17 Eylul'de hepsi 'sirada' dagitilmisti",
+ "yayindaki_kosu": "Kosu 18 · 2ddede3d (index.html 7f790990 ile geri alindi, veri kaldi)",
+ "partiler": {
+  "parti-emrelic-0053": {
+   "parti": "parti-emrelic-0053",
+   "madde": {
+    "H-0001": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "sebep-sonuc-bahcesaray-1681 canli (tur kayitli, dosya yukleyicide); 1678-08-21 + 1681-01-11 maddelerine bagli; antlasma maddeleri (Dinyeper siniri, Kiev, 20 yil, tahkimat yasagi) kartta.",
+     "delil": "data/ekokuma_rivayet.js:188 · 09533e72",
+     "sinif": "ek-okuma"
+    },
+    "H-0002": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "sirada",
+     "not": "Szatmar (Satu Mare) 1526-08-29→1918-11-11 kesintisiz avusturya, v:[] bos ⇒ 1682-85'te Orta Macar ile Osmanli Varad arasinda Habsburg adasi. Kayit Orta Macar donemini 'kaynak bulunamadi' diye bilerek yazmamis (TDV satmar slug'i 302). Sartnamedeki YAMA-0053-ORTAMACAR.json uretilmedi; HARITA-VERI'nin 0053 teslimi yok. Ayni sikayet 0027/H-0004'te de gelmis. YAPILACAK: Szatmar'in 1682-85 sahibi akademik kaynakla arastirilmali, bulunursa v:.",
+     "delil": "data/yerlesimler_ek_macaristan.js:254-284",
+     "sinif": "harita"
+    },
+    "H-0003": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "sirada",
+     "not": "Ek okuma kismi TAMAM: sebep-sonuc-2viyana-karar-sureci + 4 II. Viyana karti canli, 1683-07-14'e bagli. ACIK: II. Viyana'ya giden sureci anlatan cekirdek kronoloji maddesi yazilmadi (olaylar*.js 1682-09..1683-08 Viyana sureci 0; yalniz kuyrukta kronoloji_habsburg.js:275). YAPILACAK: sefer karari + yuruyus icin cekirdek madde.",
+     "delil": "data/ekokuma_vezir.js:270 · 6fef8907",
+     "sinif": "ek-okuma"
+    },
+    "H-0004": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "tartisma-2viyana-neden-viyana-degil-yanikkale canli, 1683-07-14'e bagli.",
+     "delil": "data/ekokuma_vezir.js:283 · 6fef8907",
+     "sinif": "ek-okuma"
+    },
+    "H-0005": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "tartisma-2viyana-bozgun-sebepleri canli, 1683-09-12, 5 madde.",
+     "delil": "data/ekokuma_vezir.js:294 · 6fef8907",
+     "sinif": "ek-okuma"
+    },
+    "H-0006": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "savas-hikayesi-parkan-1683 canli, 1683-10-09, 2 madde; kopru/nehir tuzagi mekanizmasi. Kaynak zayif (TDV'de ayrinti yok, kurumsal portal), kart kesinlik:tartismali.",
+     "delil": "data/ekokuma_vezir.js:304 · 6fef8907",
+     "sinif": "ek-okuma"
+    },
+    "H-0007": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "magazin-merzifonlu-idam-budin-beylerbeyi canli, 1683-12-25: Budin beylerbeyinin sozleri, idamin nasil oldugu, kibir/hirs tartismasi var; 'gobek atma' iddiasi kaynakta BULUNAMADI (mesru). Kafatasinin akibeti karsi-viyana-1683 kartinda (EKO-KARSI).",
+     "delil": "data/ekokuma_vezir.js:324 · data/ekokuma_karsi.js:115 · 6fef8907",
+     "sinif": "ek-okuma"
+    },
+    "H-0008": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "tekrar",
+     "not": "Ikizi 0053/H-0002 (acik). 1683-09-12 ve 1683-10-09'da Szatmar hala avusturya, ada gorunumu suruyor.",
+     "delil": "data/yerlesimler_ek_macaristan.js:280",
+     "sinif": "harita"
+    },
+    "H-0009": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "dunya2-kutsal-ittifak-sark-meselesi canli (tur tartisma), 1699-01-26 Karlofca, 9 madde.",
+     "delil": "data/ekokuma_dunya.js:294 · 81f4c781",
+     "sinif": "ek-okuma"
+    },
+    "H-0010": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "dunya2-osmanli-venedik-ele-gecirilemedi-tartisma canli: Venedik/Adriyatik ustunlugu + Otranto vizyonu; 1480 Otranto + 1538 Preveze.",
+     "delil": "data/ekokuma_dunya.js:307 · 81f4c781",
+     "sinif": "ek-okuma"
+    },
+    "H-0011": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "dunya2-venedik-osmanli-gidip-gelen-yerler-listesi canli (Korfu hic · Girit/Kibris bir kez · Mora/Nafplion uc kez), 1715-07-01 Mora.",
+     "delil": "data/ekokuma_dunya.js:320 · 81f4c781",
+     "sinif": "ek-okuma"
+    },
+    "H-0012": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "tartisma-macaristan-fetih-kayip-sureleri canli (fetih 15 yil; kayip 16 resmi/3-4 fiili), 1526 · 1686 · 1687 bagli.",
+     "delil": "data/ekokuma_rivayet.js:200 · 09533e72",
+     "sinif": "ek-okuma"
+    },
+    "H-0013": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "zaten-dogru",
+     "not": "Renk degisimi kaynakli: Orta Macar tabiligi Fulek/Ungvar/Kassa/Eperjes/Tokaj'da 1685-10-15'te bitiyor (TDV tokoli-imre: Tokoli tutuklandi, Munkacs disindaki kaleler teslim). Kronoloji maddesi var (kronoloji_macaristan.js:534). Veri 20 Agustos'tan beri boyle.",
+     "delil": "data/yerlesimler_ek.js:111-117 · data/kronoloji_macaristan.js:534 · 073df094",
+     "sinif": "harita"
+    },
+    "H-0014": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "sirada",
+     "not": "Onerilen 12 kisi kartinin 12'si genisletilmis olarak canli (yama a1cc8e5c, 17 Eyl). Ama sikayet GENEL: kisiler.js'teki 287 kaydin 227'si hala tek cumle (221'i <150 karakter). YAPILACAK: kalan tek cumlelik kartlari gorunurluk sirasiyla genisletmek.",
+     "delil": "data/kisiler.js:169 · a1cc8e5c · 7540e533",
+     "sinif": "veri"
+    },
+    "H-0015": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "sirada",
+     "not": "Kusur SURUYOR: canli kisiBul node ile kosturuldu — 'Ismail Pasa' → id:ismail (Sah Ismail 1487-1524); ozAdlar pasa/sah'i atiyor, esik 1 geciliyor. Anabolu 1686-08-30 maddesinde Sah Ismail karti cikiyor; kisiKartSatirlari'nda zaman korumasi yok. YAPILACAK: kisiBul'a zaman korumasi (kisinin f/t'si madde gununu kapsamali) ya da kisiler.js'e Ismail Pasa (1686) kaydi.",
+     "delil": "js/app.js:9894 · js/app.js:10155 · data/olaylar_ek17.js:209",
+     "sinif": "arayuz"
+    },
+    "H-0016": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "tartisma-macaristan-kale-kayiplari-ordu-1683-1699 canli, 1686-09-02 + 1687-08-12.",
+     "delil": "data/ekokuma_rivayet.js:211 · 09533e72",
+     "sinif": "ek-okuma"
+    },
+    "H-0017": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "tartisma-ikinci-mohac-1687-ayni-ova-ters-sonuc canli, 1526 · 1686 · 1687-08-12.",
+     "delil": "data/ekokuma_rivayet.js:222 · 09533e72",
+     "sinif": "ek-okuma"
+    },
+    "H-0018": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "zaten-dogru",
+     "not": "Munkacs'in ayri durmasi kaynakli ozel durum: v: 1682-09-16→1688-01-17 (Ilona Zrinyi savunmasi), otekiler 1685-10-15'te bitiyor (TDV tokoli-imre: 'Munkacs disinda'). Dusus maddesi var (olaylar_ek17.js:230).",
+     "delil": "data/yerlesimler_ek_macaristan.js:246-252 · data/olaylar_ek17.js:230",
+     "sinif": "harita"
+    },
+    "H-0019": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "sebep-sonuc-mehmed-iv-avcilik (1648 · 1687-08-01 · 1687-11-08) + tartisma-mehmed-iv-hal-olaylari (1687-08-01 · 1687-11-08) canli.",
+     "delil": "data/ekokuma_padisah.js:282,295 · 7540e533",
+     "sinif": "ek-okuma"
+    },
+    "H-0020": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "savas2-atina-1687-parthenon-patlamasi (1687-09-26 · 1688-04-01) + dunya2-venedigin-mora-talani (1685-06-01) canli.",
+     "delil": "data/ekokuma_dunya.js:331,349 · 81f4c781",
+     "sinif": "ek-okuma"
+    },
+    "H-0021": {
+     "parti": "parti-emrelic-0053",
+     "hukum": "cozuldu",
+     "not": "tartisma-suleyman-ii-ahmed-ii-kafes canli, 1687-11-08 + 1691-06-23; culus hikayeleri kartta; II. Ahmed'in kafes suresi TDV'de yok, kart cikarim olarak damgali.",
+     "delil": "data/ekokuma_padisah.js:272 · 7540e533",
+     "sinif": "ek-okuma"
+    }
+   }
+  },
+  "parti-emrelic-0054": {
+   "parti": "parti-emrelic-0054",
+   "madde": {
+    "H-0001": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "sirada",
+     "not": "HARITA-VERI-0916.md'de 0054/H-0001 satiri yok; sartnamenin istedigi YAMA-0053-ORTAMACAR.json yok. 1683-88 Tokaj/Kassa/Fulek/Ungvar/Eperjes kayiplarini anlatan kronoloji maddesi yok (olaylar*/kronoloji* tarandi; yalniz 1682-09-16 Fulek ve 1685-10-19 Solnok var). Yerlesim donemleri 1682-09-16..1685-10-15 kaynaksiz ('DEVRALDIM'). YAPILACAK: 1685-87 dususlerine kaynakli kronoloji maddeleri + donem uclarinin kaynaga baglanmasi.",
+     "delil": "data/olaylar_ek6.js:62 · data/yerlesimler_ek.js:111,117,123 · data/yerlesimler_ek_macaristan.js:188,209",
+     "sinif": "veri"
+    },
+    "H-0002": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "kimdir-koprulu-fazil-ahmed-pasa genisletildi (Saint Gotthard, Nabi, Hezarfen, kutuphane, siroz); tur kimdir kayitli, dosya yukleyicide, 1661-11-01 maddesine bagli.",
+     "delil": "data/ekokuma_vezir.js:185 · 9e39d681",
+     "sinif": "ek-okuma"
+    },
+    "H-0003": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "Yeni tartisma-malikane-avrupa-kiyaslama (Ferme Generale/Ingiltere, Johnson & Koyama 2014), 1695-01-01 malikane maddesine bagli; nedir/sebep/sonuc kismi iltizam-malikane-esham-zinciri (ekokuma_ekonomi.js:88) ile ayni maddede.",
+     "delil": "data/ekokuma_padisah.js:321 · 9b92117f",
+     "sinif": "ek-okuma"
+    },
+    "H-0004": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "savas-salankamen-1691 (savas-hikayesi, kayitli), 1691-08-19 iki maddeye bagli.",
+     "delil": "data/ekokuma_rivayet.js:233 · 01ae0703",
+     "sinif": "ek-okuma"
+    },
+    "H-0005": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "dunya3-giritin-gec-dusen-kaleleri (tartisma), Granbosa 1692 + Suda 1715, 3 maddeye bagli.",
+     "delil": "data/ekokuma_dunya.js:366 · 961427d9",
+     "sinif": "ek-okuma"
+    },
+    "H-0006": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "sirada",
+     "not": "Istenen: Kutsal Ittifak savasinda Erdel/Eflak/Bogdan/Kirim ne yapti. Yazilan dunya3-kutsal-ittifakin-dort-cephesi CEPHELERI anlatiyor; Erdel/Eflak/Bogdan/Tokoli/Brankovan 0 gecis; butun ekokuma*.js'te bu tutumu anlatan kart yok. YAPILACAK: 1683-99 dort tabinin tutumu uzerine kart.",
+     "delil": "data/ekokuma_dunya.js:378",
+     "sinif": "ek-okuma"
+    },
+    "H-0007": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "sirada",
+     "not": "dunya3-osmanli-venedik-deniz-savaslari var ama yalniz 1499 Sapienza'ya bagli; 1694-09-21 Sakiz maddesine (olaylar_ek3.js:35) bagli degil, Sakiz 1694 icerikte yok. Kart '1684-99'da buyuk deniz savasi yasanmadi' diyor, atlasin 1695-02-22 Koyun Adalari maddesiyle celisiyor. YAPILACAK: Sakiz 1694/donanma kiyasi karti + 1694-09-21 bagi + celiskili cumlenin duzeltilmesi.",
+     "delil": "data/ekokuma_dunya.js:390 · data/olaylar_ek3.js:35",
+     "sinif": "ek-okuma"
+    },
+    "H-0008": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "tartisma-mustafa-ii-bizzat-sefer, 1695-02-11 + 1697-09-11, 4 maddeye bagli. Yan acik: olaylar_ek7 'bizzat sefere cikan son sultan' cumlesi TDV'de bulunamamis.",
+     "delil": "data/ekokuma_padisah.js:332 · 9b92117f",
+     "sinif": "ek-okuma"
+    },
+    "H-0009": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "magazin-mezemorta-huseyin-pasa-lakap, 1695-02-22 Sakiz'in geri alinisi maddesine bagli; lakap aciklamasi kartta.",
+     "delil": "data/ekokuma_vezir.js:346 · 9e39d681",
+     "sinif": "ek-okuma"
+    },
+    "H-0010": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "tartisma-azak-kalesinin-onemi, 1696-07-19 iki maddeye bagli. Yan acik: teslim gunu kaynaklarda farkli (RGAVMF 18 Tem · EIU 19 Tem · TDV 6 Agu 1696), madde metnine not onerildi, uygulanmadi.",
+     "delil": "data/ekokuma_vezir.js:356 · 9e39d681",
+     "sinif": "ek-okuma"
+    },
+    "H-0011": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "sirada",
+     "not": "Cevap TKKIRIM raporu §2'de var (Don Ordasi 1671'den Rusya'ya tabi, 1696'da Ruslarla; Moskova→Voronej→Don) ama KART YAZILMAMIS; 1696'ya bagli tek Kazak karti (tartisma-karadeniz-kazaklar) koken anlatiyor. II. Azak seferi oku savaslar.js'e girmemis (grep 0). YAPILACAK: rapor §2'den kart + sefer kaydi.",
+     "delil": "denetim/TKKIRIM-P0054-H0011-H0021-0916.md · data/ekokuma_karadeniz.js:62",
+     "sinif": "ek-okuma"
+    },
+    "H-0012": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "Kronoloji maddesi zaten vardi (1569 Don-Volga; Rusya/Kirim/Ozbek kronolojileri). Yeni sebep-sonuc-don-volga-kanal-projesi 5 maddeye bagli.",
+     "delil": "data/ekokuma_vezir.js:366 · 9e39d681",
+     "sinif": "ek-okuma"
+    },
+    "H-0013": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "sirada",
+     "not": "dunya3-karadag-osmanli-iliskisi soruyu cevapliyor ama yalniz 1878-03-03 Ayastefanos'a bagli; Emre'nin okudugu 1697-01-01 Karadag vladika maddesinde (olaylar_ek6.js:82) GORUNMEZ. YAPILACAK: olay listesine '1697-01-01|Karadag' eklenmeli.",
+     "delil": "data/ekokuma_dunya.js:402 · data/olaylar_ek6.js:82",
+     "sinif": "ek-okuma"
+    },
+    "H-0014": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "dunya3-dalmaciyaya-neden-inilemedi, Karlofca + Pasarofca, 16 maddeye bagli.",
+     "delil": "data/ekokuma_dunya.js:413 · 961427d9",
+     "sinif": "ek-okuma"
+    },
+    "H-0015": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "dunya3-prens-eugen-kimdir (kimdir), Zenta + Belgrad 1717, 5 maddeye bagli; ayrica avusturya-prens-eugen-hafiza. Yan: kisiler.js:199 'eugen' kunyesi tek satir.",
+     "delil": "data/ekokuma_dunya.js:427 · 961427d9",
+     "sinif": "ek-okuma"
+    },
+    "H-0016": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "savas-zenta-1697, 1697-09-11 uc maddeye bagli.",
+     "delil": "data/ekokuma_rivayet.js:252 · 01ae0703",
+     "sinif": "ek-okuma"
+    },
+    "H-0017": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "tartisma-ordularin-nehir-gecisi-riski, Zenta dahil 4 maddeye bagli.",
+     "delil": "data/ekokuma_rivayet.js:271 · 01ae0703",
+     "sinif": "ek-okuma"
+    },
+    "H-0018": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "tartisma-ala-halihi-ilkesi, Vasvar + Karlofca, 11 maddeye bagli.",
+     "delil": "data/ekokuma_padisah.js:310 · 9b92117f",
+     "sinif": "ek-okuma"
+    },
+    "H-0019": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "cozuldu",
+     "not": "(1) gorusmeler: teknik-karlofca-yuvarlak-masa-protokolu, 1698-11-13 + 1699-01-26, 10 madde. (2) sebep-sonuc/onem/maddeler once vardi: sebep-sonuc-karlofca-1699 (13 madde) + antlasma-karlofca-1699.",
+     "delil": "data/ekokuma_rivayet.js:282 · 01ae0703 · data/ekokuma_antlasma2.js:431 · data/ekokuma.js:127",
+     "sinif": "ek-okuma"
+    },
+    "H-0020": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "sirada",
+     "not": "Antlasma haritasi altyapisi canli (js/antlasma_harita.js index.html:1900; veri paket_29 icinde) ama yalniz 4 kayit (Karlofca 1699 · Pasarofca 1718 · Ankara 1921 · Lehistan 1772); Emre 'tum baris anlasmalari' dedi. Tarama deseni yapilmadi (yari saydam dolgu, Emre onayi bekleniyor). YAPILACAK: oteki antlasma kayitlari + tarama deseni sorusu. Tarayicida olculmedi.",
+     "delil": "index.html:1900 · data/antlasma_haritalari.js · c3f76061",
+     "sinif": "harita"
+    },
+    "H-0021": {
+     "parti": "parti-emrelic-0054",
+     "hukum": "senin-kararin",
+     "not": "TKKIRIM cevabi: Bozkir (Dest-i Kipcak) noktasinda Kirim tasarrufu yok, toprak Don Kazak Ordasi'nin (Rusya'ya tabi); YAMA-BOZKIR-KAZAK-0915 hazir ama UYGULANMADI: yerlesimler.js:1319 hala v: Kirim gevsek 1502-03-01→1774-07-21, don-kazak donemi yok. Bu v: kaydi 'Emre karari D (13 Eyl)' dayanagini tasiyor ⇒ yama Emre'nin eski kararini geri almayi gerektiriyor; karar Emre'nin, sonra petek kosusu.",
+     "delil": "data/yerlesimler.js:1319 · denetim/YAMA-BOZKIR-KAZAK-0915.json",
+     "sinif": "harita"
+    }
+   }
+  },
+  "parti-emrelic-0064": {
+   "parti": "parti-emrelic-0064",
+   "madde": {
+    "H-0001": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "cozuldu",
+     "not": "(1) Guzergah arastirildi (1737: Kiev→Dinyeper→Bug→Ozi; Lehistan gecisi 1739'da; Zaporojye gecisini adiyla soyleyen kaynak bulunamadi; Yedisan'dan yurunerek gecilmis, isgal yok ⇒ harita degismez). (2) Savas baslangic maddesi canli (1736-03-24). (3) Ozi oku p0064-munih-ozi-1737 canli; Kosu 18'in atasi. Yan acik: Ozi'nin iadesi 1738-08-01 kaynaksiz (H-3 karari).",
+     "delil": "data/olaylar_p0917kosu13.js:68 · data/seferler_p0064.js:55 · 9b92117f · 951eafb7",
+     "sinif": "harita"
+    },
+    "H-0002": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "cozuldu",
+     "not": "Tarali serit Nis'in Avusturya isgali ve gercek (TDV nis). Kaba gunler 07-01→10-01 idi; canlida 1737-07-27→1737-10-16. Kosu 18'in atasi.",
+     "delil": "data/yerlesimler.js:358 · 9b92117f",
+     "sinif": "harita"
+    },
+    "H-0003": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "olculecek",
+     "not": "Enklav kismi KAPANDI (Novi 55a5b28 ile Osmanli; Dubica + Krupa eklendi 9b92117f; alet: 1737-08-04 kopuk parca 0). ACIK: 'sehirlere konan koyu halka ne' — UI-HARITA 'Esri altlik simgesi' dedi (M-4356) ama Kostaynice canli veride var, cevap supheli; aday koridor-dugum-daire katmani, tarayicida olculmeli. HE yil sapmalari (kalem 3) karar bekliyor.",
+     "delil": "data/yerlesimler_ek29.js:263,270,580 · 55a5b28 · 9b92117f",
+     "sinif": "harita"
+    },
+    "H-0004": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "(a) 'Emre' temizligi YAPILDI: 72 ekokuma dosyasinda okuyucu alaninda 'Emre' 0 (59 gecisin 50'si yorum, 9'u ic_not/kaynak). (b) Baslik YAPILMADI: satir basligi 60 karakterde kesiliyor; bu kart (avusturya-1736-1739-savasi-sebep-ozi) sebep-sonuc ama sebep/sonuc alani yok ⇒ ekKartHtml govdeye yalniz ' → ' basiyor, baslik govdede de yok. Ayni durumda 213 sebep-sonuc kartindan 52'si. YAPILACAK: sebep/sonuc yoksa k.baslik h4 basilmali.",
+     "delil": "js/app.js:11747 · data/ekokuma_avusturya.js:60-66",
+     "sinif": "ek-okuma"
+    },
+    "H-0005": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "senin-kararin",
+     "not": "Kragujevac/Cacak/Belgrad/Turnu Severin'in 1739'a kadar Avusturya'da olmasi dogru (TDV semendire). Semendire ile ana govde arasinda yalniz Yagodina kaliyor; Sik A (Yagodina 1738-08-01, gun Semendire'den) karar bekliyor, uygulanmadi ⇒ Semendire eksklavi 1738-08→1739-09 (13,5 ay) suruyor. KARAR-KUYRUGU-0930'da yok, kuyruga alinmali.",
+     "delil": "data/yerlesimler_ek29.js:463",
+     "sinif": "harita"
+    },
+    "H-0006": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "1736-37 Rus oklari INDI (seferler_p0064.js 6 kayit). Stavucani YAPILMADI: savaslar.js:964 rus-munih-hotin-yas-1739 ilk noktasi [25.683,48.508] Hotin'e 59 km uzak yanlis Stavcani; dogru nokta [26.403,48.390] yazilmadi; yerlesim noktasi yok (72 dosyada 0). YAPILACAK: ilk noktayi duzelt + Stavucani noktasi.",
+     "delil": "data/savaslar.js:964 · data/seferler_p0064.js:39-67 · 951eafb7",
+     "sinif": "veri"
+    },
+    "H-0007": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "Genel kural INDI: sabit liste kalkti, _dVasalMi yerlesimlerin v:kid pencerelerinden okuyor. AMA gerileme: hicbir yerlesimde v:kid 'erdel' yok (0) ⇒ d1606-hm-er ve d1571-hm-er Erdel hatlari artik acik kirmizi degil. YAPILACAK: Erdel yerlesimlerine v:kid erdel.",
+     "delil": "js/d_katman.js:93-122 · 6cfb7862",
+     "sinif": "arayuz"
+    },
+    "H-0008": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "bayat",
+     "not": "Bihac eksklavinin sebebi Novi'ydi; ARADA ayri is (KOSU13 Sava paketi 55a5b28) Novi'yi Osmanli 1556→1908 yapti; Kosu 18'in atasi. Bu partinin katkisi Novi 1788-91 isgali + Dubica (9b92117f). Knin zaten dogru (1739'da Venedik). Bosna Novi Osmanli'da.",
+     "delil": "55a5b28 · data/yerlesimler_ek29.js:270 · 9b92117f",
+     "sinif": "harita"
+    },
+    "H-0009": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "once-cozuldu",
+     "not": "Harita tiklamasi yalniz gorunen .s-ad kutusuna isabet testi; bos noktada hicbir sey acilmaz. DALGA-0063 madde 4 ile b2983f92'de (17 Eyl 10:31) indi.",
+     "delil": "js/app.js:6244-6250 · b2983f92",
+     "sinif": "arayuz"
+    },
+    "H-0010": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "Alet yapildi (ARAC-EKSKLAV-0917.py, iki yonde sinandi, 6 vakaya uygulandi) ama KURAL yazilmadi (CLAUDE.md ve dersler/'de 0), alet denetle.py/yayin kapisina bagli degil; B4 (Semendire-Yagodina) uygulanmadi. YAPILACAK: kurali ders yaz, aleti denetime bagla.",
+     "delil": "denetim/ARAC-EKSKLAV-0917.py · 36b64f16",
+     "sinif": "harita"
+    },
+    "H-0011": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "olculecek",
+     "not": "Dubrovnik'teki sari nokta: UI-HARITA 'Esri altlik simgesi' dedi, lejant eklenmedi. Dubrovnik atlas verisinde ve koridor_owtrad.js'te dugum ⇒ aday koridor-dugum-daire katmani (app.js:6234). queryRenderedFeatures ile tarayicida olculmeli.",
+     "delil": "",
+     "sinif": "arayuz"
+    },
+    "H-0012": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "olculecek",
+     "not": "Kostaynice/Novi halkasi: UI-HARITA 'Kostaynice data'da yok, Esri altlik' dedi — bugun YANLIS (yerlesimler_ek29.js'te var). 5 kaynakli_halka dosyasinda bu adlar 0; 'Kaynakli sahiplik' lejant satiri yalniz ayar 8 acikken. Hangi katman oldugu tarayicida olculmeli. H-0003'un halka alt sorusuyla ayni.",
+     "delil": "",
+     "sinif": "arayuz"
+    },
+    "H-0013": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "zaten-dogru",
+     "not": "Kesikli cizgi C katmani hukuki sinir karlofca-bosna-sava-1699 (Bosna Brod, Sava); kasitli, tiklayinca kaynak aciliyor; lejantta satiri var. Cevap M-4356'da verildi.",
+     "delil": "data/hukuki_sinirlar.js:312 · js/app.js:2902,2927",
+     "sinif": "arayuz"
+    },
+    "H-0014": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "cozuldu",
+     "not": "antlasma4-kapitulasyon-strateji-1352-1580 canli (sebep/sonuc dolu), 1352 · 1536 · 1580 baglari eslesiyor. 1536'nin onaylanmamis taslak celiskisi M-4344'te bildirildi.",
+     "delil": "data/ekokuma_antlasma4.js:1181 · 24654ffc",
+     "sinif": "ek-okuma"
+    },
+    "H-0015": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "Kismen: 3 km icinde tam boy savas isareti varsa kucuk ikon basilmiyor; yanip sonen hale once vardi. YAPILMAYAN: genel cakisma onleme/dagitma + simge alti etiket. Musul'da hala iki ok (savaslar.js:599/602 + p0064-nadir-musul-1743), hangisi kalacak karari verilmedi.",
+     "delil": "js/app.js:3860 · 2748b5d0",
+     "sinif": "arayuz"
+    },
+    "H-0016": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "Nadir'in Kerkuk→Erbil→Musul oku canli (TDV 5 Ekim 1743). Eksik: (1) eski savaslar.js:599/602 mukerrer kaynaksiz istasyonlar duruyor · (2) p0064 kayitlarinda devlet: 0 ⇒ sabit #0d7d8a, Iran rengi (koyu ton kurali) uygulanmiyor · (3) genel kural.",
+     "delil": "data/seferler_p0064.js:67 · data/savaslar.js:599 · 951eafb7",
+     "sinif": "veri"
+    },
+    "H-0017": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "dunya6-vehhabiler-kimdir-ve-arabistan-sinirlari icerik tam ama yalniz 1818-09-09 Dir'iye'ye bagli; sorunun soruldugu 1744-01-01 Dir'iye Ittifaki maddesine bag yok (72 dosyada 1744-01-01 bagi 0, EKOBAG_ONERI'de yok). YAPILACAK: olay'a '1744-01-01|Dir'iye' ekle.",
+     "delil": "data/ekokuma_dunya.js:499-505 · fb83e15b",
+     "sinif": "ek-okuma"
+    },
+    "H-0018": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "cozuldu",
+     "not": "antlasma4-kasrisirin-dayanak-sayimi canli; 1746-09-04 Kerden (Emre'nin sordugu madde) + 1639 + 1847 baglari eslesiyor. Kerden gunu 14/4 Eylul celiskisi bildirildi.",
+     "delil": "data/ekokuma_antlasma4.js:1205 · 24654ffc",
+     "sinif": "ek-okuma"
+    },
+    "H-0019": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "cozuldu",
+     "not": "dunya6-iran-turk-hanedanlari-afsar-zend-ayrimi canli (Afsarlar, Gazneli→Kacar, Zend istisnasi, Iran'da Turk nufusu), 1743-10-23 Musul/Nadir maddesine bagli.",
+     "delil": "data/ekokuma_dunya.js:512-517 · fb83e15b",
+     "sinif": "ek-okuma"
+    },
+    "H-0020": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "sirada",
+     "not": "Soruyu cevaplayan sentez karti camitarz-bes-donem ('Bes Uslup Donemi') olay:[] ile duruyor ⇒ HICBIR maddede gorunmez (EKOBAG_ONERI'de de yok). YAPILACAK: 1749-01-19 Nuruosmaniye maddesine (olaylar_ek14.js:52) bagla.",
+     "delil": "data/ekokuma_camitarz.js:15-28 · 0565cd55",
+     "sinif": "ek-okuma"
+    },
+    "H-0021": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "senin-kararin",
+     "not": "Arastirma yapildi: Dest-i Kipcak/Yedisan/Camboyluk/Yedickul atlasla uyumlu; Soci/Tuapse/Maykop Cerkez duzeltmesi INDI (2336d246, Kosu 18 atasi). Iki karar acik: Kabartay H-4 ((a) 1774'e dokunma / (b) fiili 1822) ve Ozi iadesi H-3. Ikisi KARAR-KUYRUGU-0930'da yok.",
+     "delil": "data/yerlesimler.js:612-613 · 2336d246 · denetim/YAMA-0064-KARADENIZ.json",
+     "sinif": "kaynak"
+    },
+    "H-0022": {
+     "parti": "parti-emrelic-0064",
+     "hukum": "cozuldu",
+     "not": "tartisma-i-mahmud-diri-gomulme-rivayeti canli, 1754-12-13 I. Mahmud'un olumu maddesine 1/1 bagli.",
+     "delil": "data/ekokuma_rivayet.js:333 · 08101d9d",
+     "sinif": "ek-okuma"
+    }
+   }
+  },
+  "parti-emrelic-0066": {
+   "parti": "parti-emrelic-0066",
+   "madde": {
+    "H-0001": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "SEFER-1768 yapti: p0065-panin-bender-1770 (Yelisavetgrad→Yedisan→Bender) + p0065-golitsin-toplanma-1769 (Kiev→Podolya); 'Lehistan'dan mi' cevabi YAMA-SEFER1768'de (Panin Yedisan'dan, Golitsin Lehistan icinden). Dosya paket_26 icinde yukleniyor; commit yayindaki Kosu 18'in (2ddede3d) atasi.",
+     "delil": "data/seferler_p0065.js:54 · data/paket_26.js:1598 · 443fd13d",
+     "sinif": "harita"
+    },
+    "H-0002": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozulemedi",
+     "not": "(1) Kirim istilasi 4 ok INDI · (2) Zaporojye rolu cevaplandi (Rus tarafinda; ayri kol bulunamadi) · (3) Kirim ici 6 kayit s:rusya→isg:rusya 1771→1774, Kerc/Taman isgal INDI · (4) Yedisan dususu isg 1770-08-12 + kronoloji maddesi INDI · (5) Yedickul/Camboyluk isgali GOSTERILMEDI: kaynak gun/yil vermiyor, tarih uydurulmadi · (6) Kizikermen isgal gunu bulunamadi. Hepsi Kosu 18'in atasi. Hukum (5)/(6) yuzunden: denendi, kaynak yok.",
+     "delil": "data/seferler_p0065.js:60-78 · data/yerlesimler_kirim.js:138-157 · data/yerlesimler_ek_bozkir.js:109 · data/yerlesimler_ek3.js:98,101 · 443fd13d · f8551b77",
+     "sinif": "harita"
+    },
+    "H-0003": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "bayat",
+     "not": "Tutarsizligin koku veriydi (Kirim ici s:rusya, kiyi kaleleri isg:rusya). UI-HARITA'ya verilmisti ama ARADA ayni partinin SEFER-1768 yamasi (f8551b77) cozdu: 6 kayit isg:rusya 1771→1774, Kerc/Taman/Yenikale isg 1771-07-12. Yayindaki devirler.js ISGALLER'de pencereler var (Kosu 18). Tarayicida gorulmedi.",
+     "delil": "data/yerlesimler_kirim.js:146 · data/yerlesimler.js:573 · f8551b77 · 2ddede3d",
+     "sinif": "harita"
+    },
+    "H-0004": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "olculecek",
+     "not": "D-KATMAN yalniz teshis yapti, kod degismedi; kaynagi app.js isgal taramasi diye TAHMIN edip ISGAL-TARAMA'ya devir onerdi, devrin cevabi bulunamadi. 1769-09-19 Hotin isgali ISGALLER'de #8e0b22 tasiyor, pembe degil ⇒ teshis bu kayitla uyusmuyor. Hangi katmanin cizdigi ancak tarayicida olculur.",
+     "delil": "denetim/ANTLASMA-HARITA-0916.md:196",
+     "sinif": "harita"
+    },
+    "H-0005": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "onay-bekliyor",
+     "not": "INDI: lehistan-1-paylasim-1772 uc payi (Habsburg/Rusya/Prusya) ayri dolgu+etiketle gosteriyor, kronoloji_lehistan.js:455 maddesiyle eslesiyor. AMA geometri kaba dikdortgen; Rusya/Prusya kutulari 1772+1793+1795 TOPLAMINI kapsiyor ⇒ 1772 Rus payi cok buyuk. Kabul ya da gercek 1772 sinirina yenileme karari Emre'de.",
+     "delil": "data/antlasma_haritalari.js:161 · data/paket_29.js:246 · js/antlasma_harita.js:136 · c3f76061",
+     "sinif": "arayuz"
+    },
+    "H-0006": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "tartisma-lehistan-paylasimlari-1772-1795 canli, 4 bagin 4'u eslesiyor (1768 · 1772 · 1793 · 1795).",
+     "delil": "data/ekokuma_tartisma.js:148 · 7545e36a",
+     "sinif": "ek-okuma"
+    },
+    "H-0007": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "sirada",
+     "not": "Kismen: Baron de Tott 1437 karakter; KISI-KART 44 kisiyi genisletti (4d809287). Ama Emre 'tum kisi kartlarini gez' dedi: 287 kaydin 221'i hala <150 karakter. YAPILACAK: kalan zayif kartlara kaynakli anlati. Ikizi 0053/H-0014 (ayni genel sikayet).",
+     "delil": "data/kisiler.js:453 · 4d809287",
+     "sinif": "veri"
+    },
+    "H-0008": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "once-cozuldu",
+     "not": "Ikizi 0065/H-0003: tartisma-iii-mustafa-borc-senedi (a7bbaffc), 1774-01-21 maddesine bagli; TDV'ye gore borc ogul Selim ve kiz Sah Sultan'dan; Mihrisah/senet ayrintisi populer kaynakta, kartta ayri damgali.",
+     "delil": "data/ekokuma_rivayet.js:354 · a7bbaffc",
+     "sinif": "ek-okuma"
+    },
+    "H-0009": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "sirada",
+     "not": "EKO-ANTLASMA bu maddeyi teslim etmedi (tahtada yalniz H-0015 teslimi M-4523). 'skandal' gecen Kaynarca karti 0 (ekokuma*.js); mevcut tartisma-kucuk-kaynarca-rivayetleri ve karsi-kaynarca-1774 sikayetten once. YAPILACAK: 'Kucuk Kaynarca bir diplomatik skandal miydi' tartisma karti.",
+     "delil": "",
+     "sinif": "ek-okuma"
+    },
+    "H-0010": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "sirada",
+     "not": "iltizam-malikane-esham-zinciri hala ciplak '1774-07-21' bagi tasiyor ⇒ o gunun butun maddelerine (Kucuk Kaynarca dahil) tutuyor; ekokuma_bag_oneri.js'te gecersiz kilma yok. YAPILACAK: bagi cikarmak ya da ayirt edici eklemek.",
+     "delil": "data/ekokuma_ekonomi.js:96",
+     "sinif": "ek-okuma"
+    },
+    "H-0011": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "olculecek",
+     "not": "app.js yorumu 'DUZELTILDI (DALGA-0066 H-0011)' diyor ama tek degisiklik isgal-dolgu opakligi 0.8→0.85 (2336d246); yorumdaki 'K buyutuluyor' INMEDI (isgalDesenleriKur K hala 8). Bolgenin kimligi ve saydamligin azalip azalmadigi ancak tarayicida olculur.",
+     "delil": "js/app.js:2586 · js/app.js:4691 · 2336d246",
+     "sinif": "arayuz"
+    },
+    "H-0012": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "sirada",
+     "not": "Soru cevaplandi (Kaynarca md.21 Kabartay'i Rusya'ya birakiyor ⇒ 1774 yesili dogru). KK-1 (1427 Yinal) + KK-3 (1763 Mozdok) INDI; KK-2 (1563 Terek Kalesi) bulunamadi. Y-1 INMEDI: Nalcik kaydi altinorda→kabartay kirilmasini hala 1441'de yapiyor, 1427 maddesiyle celisiyor. YAPILACAK: Y-1 (a/b) karari + KK-2.",
+     "delil": "data/olaylar_p0068.js:37,39 · denetim/YAMA-KARADENIZ-0917.json",
+     "sinif": "harita"
+    },
+    "H-0013": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "'Pasif kip — harita biraktiginiz yerde' uyarisi iki yerden kaldirildi; bugunku js/*.js ve index.html'de metin 0 (yalniz iki yorum satiri); 7f790990 index geri almasi getirmedi.",
+     "delil": "js/app.js:12611 · js/app.js:14969 · 2336d246",
+     "sinif": "arayuz"
+    },
+    "H-0014": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "teknik-muhendishane-i-bahri-i-humayun canli, 1775-04-29 bagi eslesiyor. Kucuk kusur: ikinci bag '1795-01-01|Muhendishane-i Berri' canlida eslesmiyor.",
+     "delil": "data/ekokuma_kurum2.js:34 · 9b92117f",
+     "sinif": "ek-okuma"
+    },
+    "H-0015": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "antlasma4-bukovina-1775 canli (sebep-sonuc, tartisma ekseni metinde), 3 bagin 3'u eslesiyor.",
+     "delil": "data/ekokuma_antlasma4.js:1137 · 7c76c69f",
+     "sinif": "ek-okuma"
+    },
+    "H-0016": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "teknik-osmanli-vergi-sistemi (seri/orfi vergiler, bolgesel fark) canli; 1775-06-01 Esham + 1856 Islahat.",
+     "delil": "data/ekokuma_kurum2.js:57 · 9b92117f",
+     "sinif": "ek-okuma"
+    },
+    "H-0017": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "tartisma-korfez-basra-1776-savas-ilani canli, 5 bagin 5'i; 1776-04-16 Basra maddesine tutuyor.",
+     "delil": "data/ekokuma_korfez.js:43 · 134e2539",
+     "sinif": "ek-okuma"
+    },
+    "H-0018": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "tartisma-murad-giray-1683-viyana canli, 1683-09-12 + 1683-12-25.",
+     "delil": "data/ekokuma_tartisma.js:161 · 7545e36a",
+     "sinif": "ek-okuma"
+    },
+    "H-0019": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "tartisma-sahin-giray-hain-mi canli, 1779 Aynalikavak + 1783 Kirim.",
+     "delil": "data/ekokuma_tartisma.js:174 · 7545e36a",
+     "sinif": "ek-okuma"
+    },
+    "H-0020": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "sirada",
+     "not": "Arastirma karti INDI (tartisma-korfez-basra-abadan-fav-sahiplik, 7 bag). Harita duzeltmesi INMEDI: YAMA-BASRA-0917 Y1-Y6 (Basra 1696-1701 Iran · Fav/Kurne 1914 · Abadan · Kuveyt) canlida yok (Basra kayitlarinda '1696' 0); K1-K4 kronoloji onerileri yok. YAPILACAK: YAMA-BASRA karari ve indirilmesi (sonra kosu).",
+     "delil": "data/ekokuma_korfez.js:56 · denetim/YAMA-BASRA-0917.json",
+     "sinif": "harita"
+    },
+    "H-0021": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "Uc Kuveyt karti canli (kimin · Basra isgali · petrol oncesi ekonomi), 1795-04-01 Kuveyt bagi eslesiyor.",
+     "delil": "data/ekokuma_korfez.js:69,83 · 134e2539",
+     "sinif": "ek-okuma"
+    },
+    "H-0022": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "Anapa peteginin %43'u Kuban'in kuzeyine tasiyordu (nokta yok). Y-3 'Kuban deltasi bozkiri' dolgu noktasi INDI; dosya GIRDI_DOSYALARI'nda; commit Kosu 18'in atasi. Simulasyonda kuzey pay 2.575→121 km²; kosu sonrasi govde olcumu YAPILMADI. Sogucak noktasi kaynak yok, yazilmadi.",
+     "delil": "data/yerlesimler_ek_bozkir.js:154 · 4d809287",
+     "sinif": "harita"
+    },
+    "H-0023": {
+     "parti": "parti-emrelic-0066",
+     "hukum": "cozuldu",
+     "not": "Yeni tur karsi-anlati EKOKUMA_TUR'da kayitli; ekokuma_karsi.js'te 12 kart (1453 · Kosova · Nigbolu · Caldiran · Mohac · Inebahti · Viyana · Karlofca · Kaynarca · Kirim · Karansebes...); olculen bağlar eslesiyor; ayrica ekokuma_bakis.js'te 19 karsi-anlati karti.",
+     "delil": "data/ekokuma_karsi.js:36,108 · 6f67e5e3",
+     "sinif": "ek-okuma"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "kaynak": "denetim\\KUNYE-1945-0930-BOSLUK15B-KUNYE.json",
+ "okunan": 8,
+ "kabul": [
+  {
+   "id": "brandenburg-prusya",
+   "islem": "yeni",
+   "f": "1415-01-01",
+   "t": "1701-01-18"
+  },
+  {
+   "id": "saksonya",
+   "islem": "yeni",
+   "f": "1281-01-01",
+   "t": "1918-11-13"
+  },
+  {
+   "id": "pfalz",
+   "islem": "yeni",
+   "f": "1214-01-01",
+   "t": "1803-12-31"
+  },
+  {
+   "id": "hannover",
+   "islem": "yeni",
+   "f": "1692-03-22",
+   "t": "1866-10-01"
+  },
+  {
+   "id": "baden",
+   "islem": "yeni",
+   "f": "1281-01-01",
+   "t": "1918-11-22"
+  },
+  {
+   "id": "wurttemberg",
+   "islem": "yeni",
+   "f": "1495-07-21",
+   "t": "1918-11-30"
+  },
+  {
+   "id": "alman-konfederasyonu",
+   "islem": "yeni",
+   "f": "1815-06-08",
+   "t": "1866-08-24"
+  },
+  {
+   "id": "teuton-sovalyeleri",
+   "islem": "yeni",
+   "f": "1281-01-01",
+   "t": "1525-04-08"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [],
+ "boya_gerekli": [
+  {
+   "id": "brandenburg-prusya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "saksonya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "pfalz",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "hannover",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "baden",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "wurttemberg",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "alman-konfederasyonu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "teuton-sovalyeleri",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  870,
+  878
+ ]
+}

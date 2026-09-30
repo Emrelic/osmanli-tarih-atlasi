@@ -1,0 +1,176 @@
+[
+ {
+  "grup": "A",
+  "t": "1055-12-18",
+  "b": "Tuğrul Bey Bağdat'a girdi; Büveyhî hâkimiyeti sona erdi",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_ortadogu.js: \"Tuğrul Bey Bağdat'a girdi ve Irak'taki Büveyhî hâkimiyetine son verdi\""
+  ]
+ },
+ {
+  "grup": "A",
+  "t": "1060-01-01",
+  "b": "Besâsîrî öldürüldü, Halife Bağdat'a döndü",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_ortadogu.js: \"Tuğrul Bey Besâsîrî işgalini sona erdirdi; Halife Kāim-Biemrillâh makamına döndü\""
+  ]
+ },
+ {
+  "grup": "A",
+  "t": "1086-06-04",
+  "b": "Aynüseylem Savaşı: Tutuş, Süleyman Şah'ı yendi",
+  "sorun": [
+   "dış mükerrer? kronoloji_anadolu.js: \"Süleyman Şah'ın Ayn Seylem'de ölümü\"",
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_anadolu.js: \"Süleyman Şah Halep yakınında Aynüseylem'de Tutuş'a yenilip öldü\" ; kronoloji_cok_once1281_ortadogu.js: \"Aynüseylem Savaşı: Tutuş, Süleyman Şah'ı yendi\""
+  ]
+ },
+ {
+  "grup": "B",
+  "t": "1029-01-01",
+  "b": "Mahmud Rey'i Büveyhîler'den aldı",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_ortadogu.js: \"Gazneli Mahmud Rey'i aldı; Büveyhîler'in Cibâl kolu sona erdi\""
+  ]
+ },
+ {
+  "grup": "B",
+  "t": "1059-01-01",
+  "b": "Selçuklu-Gazneli barışı",
+  "sorun": [
+   "gruplar arası mükerrer? (yıl+tür+taraf) [A] \"Çağrı Bey ile Gazneli İbrâhim arasında barış\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1012-01-01",
+  "b": "Bahâüddevle'nin ölümü; Büveyhî birliği dağıldı",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_ortadogu.js: \"Bahâüddevle'nin ölümüyle Büveyhî birliği parçalandı\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1021-01-01",
+  "b": "Müşerrifüddevle Türklerin desteğiyle Irak'a hâkim oldu",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_ortadogu.js: \"Müşerrifüddevle Irak'a hâkim oldu; Sultânüddevle Irak'tan çekildi\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1044-01-01",
+  "b": "Ebû Kâlîcâr Irak, Fars ve Kirman kollarını tek elde topladı",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_ortadogu.js: \"Ebû Kâlîcâr Büveyhîler'in Irak, Fars ve Kirman kollarını birleştirdi\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1194-01-01",
+  "b": "Kutluğ İnanç II. Tuğrul'u öldürdü; Irak Selçuklu hânedanı sona erdi",
+  "sorun": [
+   "künye-içi mükerrer? harizmsah: \"Tekiş Rey yakınında II. Tuğrul'u yenerek Irak Selçukluları'na son verdi, Irâk-ı Acem'i aldı\"",
+   "künye-içi mükerrer? harizmsah: \"Tekiş Rey yakınında II. Tuğrul'u yenerek Irak Selçukluları'na son verdi, Irâk-ı Acem'i aldı\"",
+   "künye-içi mükerrer? irak-selcuklu: \"Hârizmşah Tekiş Rey yakınında II. Tuğrul'u yendi ve öldürdü; Irak Selçukluları sona erdi\"",
+   "künye-içi mükerrer? irak-selcuklu: \"Hârizmşah Tekiş Rey yakınında II. Tuğrul'u yendi ve öldürdü; Irak Selçukluları sona erdi\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1068-01-01",
+  "b": "Şirvanşah Ferîburz Alparslan'a itaat etti",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_anadolu.js: \"Şirvanşah Ferîburz, Gürcistan seferindeki Alparslan'a itaat arzetti\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1120-01-01",
+  "b": "III. Menûçihr (Hâkān-ı Büzürg) Şirvanşah oldu",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_once1281_anadolu.js: \"III. Menûçihr Şirvanşah oldu (1120-1160); Irak Selçuklularına bağlıydı\""
+  ]
+ },
+ {
+  "grup": "C",
+  "t": "1257-01-01",
+  "b": "Kutbüddin öldü; Kutluğ Terken Hatun Kirman'ın fiilî hükümdarı oldu",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_ince_anadolu_iran.js: \"Kutluğ Terken Hatun Kirman hükümdarı oldu\""
+  ]
+ },
+ {
+  "grup": "D",
+  "t": "1231-01-01",
+  "b": "Curmagun Noyan İran'a gönderildi, Celâleddin Hârizmşah yenildi",
+  "sorun": [
+   "künye-içi mükerrer? harizmsah: \"Celâleddin Hârizmşah Âmid dağlarında öldürüldü; hânedan yıkıldı\"",
+   "künye-içi mükerrer? harizmsah: \"Celâleddin Hârizmşah Âmid dağlarında öldürüldü; hânedan yıkıldı\""
+  ]
+ },
+ {
+  "grup": "D",
+  "t": "1206-01-01",
+  "b": "Onon kurultayı — Timuçin Cengiz Han unvanıyla kağan ilan edildi",
+  "sorun": [
+   "künye-içi mükerrer? mogol-imparatorlugu: \"Timuçin, kurultayda Cengiz Han unvanıyla büyük han ilan edildi\""
+  ]
+ },
+ {
+  "grup": "D",
+  "t": "1260-01-01",
+  "b": "Kubilay kağan ilan edildi — Arıkboğa ile taht savaşı imparatorluğu böldü",
+  "sorun": [
+   "künye-içi mükerrer? mogol-imparatorlugu: \"Möngke'nin ölümü sonrası Kubilay-Arık Böke taht kavgasıyla imparatorluk fiilen dört hanlığa ayrıldı\""
+  ]
+ },
+ {
+  "grup": "D",
+  "t": "1256-11-19",
+  "b": "Alamut'ta Rükneddin Hûrşah Hülâgû'ya teslim oldu",
+  "sorun": [
+   "künye-içi mükerrer? alamut-nizari: \"Alamut Hülâgû'nun ordusuna teslim oldu; Nizârî devleti sona erdi\"",
+   "künye-içi mükerrer? alamut-nizari: \"Alamut Hülâgû'nun ordusuna teslim oldu; Nizârî devleti sona erdi\""
+  ]
+ },
+ {
+  "grup": "D",
+  "t": "1266-01-01",
+  "b": "Barak Mübârek Şah'ı devirip Çağatay hanı oldu",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_ince_misir_orta_asya.js: \"Kubilay destekli Barak Han, Mübârek Şah'ı indirip Çağatay tahtına çıktı\""
+  ]
+ },
+ {
+  "grup": "D",
+  "t": "1269-01-01",
+  "b": "Talas kurultayı — Çağatay Hanlığı Kaydu'nun nüfuzuna girdi",
+  "sorun": [
+   "dış mükerrer (bütün taraflar öteki dosyada) — kronoloji_cok_ince_misir_orta_asya.js: \"Talas kurultayı: yerleşik-göçebe çekişmesine geçici çözüm\""
+  ]
+ },
+ {
+  "grup": "E",
+  "t": "1246-01-01",
+  "b": "Şemseddin Kert Mültan'ı Moğol yağmasından kurtardı",
+  "sorun": [
+   "dış mükerrer? kronoloji_iran_ardillari.js: \"Şemseddin, Mültan'ı 100.000 dinar karşılığında yağmadan kurtardı\""
+  ]
+ },
+ {
+  "grup": "E",
+  "t": "1257-01-01",
+  "b": "Mültan Valisi Kaşlu Han, Şemseddin Kert'in aracılığıyla Moğol hâkimiyetine girdi",
+  "sorun": [
+   "dış mükerrer? kronoloji_iran_ardillari.js: \"Mültan Valisi Kaşlu Han, Şemseddin'in aracılığıyla Moğol hâkimiyetine girdi\""
+  ]
+ },
+ {
+  "grup": "E",
+  "t": "1265-01-01",
+  "b": "Şemseddin Kert Kuh-ı Cud ve Binban emîri Muhammed Karluk'a saldırdı; bölge Moğol hâkimiyetine girdi",
+  "sorun": [
+   "dış mükerrer? kronoloji_iran_ardillari.js: \"Şemseddin, Hülâgû'nun yanında yer aldı ve Muhammed Karluk'a saldırdı\""
+  ]
+ }
+]

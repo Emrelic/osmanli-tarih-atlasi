@@ -1,0 +1,1283 @@
+{
+ "grup": "B",
+ "kunyeler": [
+  {
+   "id": "gazneli",
+   "ad": "Gazneliler (Gazneli Devleti)",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "orta-asya",
+   "f": "963-01-01",
+   "t": "1186-01-01",
+   "baskent": "Gazne → Lahor",
+   "ozet": "Sâmânî kumandanı Alp Tegin'in Gazne'yi almasıyla temeli atılan, Sultan Mahmud devrinde Horasan, Hârizm, Irâk-ı Acem ve Kuzey Hindistan'a yayılan müslüman-Türk hânedanı. Dandanakan'dan (1040) sonra Afganistan ve Pencap'a çekildi, son merkezi Lahor 1186'da Gurlular'a geçti.",
+   "kaynak": "TDV: gazneliler (GAZNELİLER)",
+   "ic_not_f": "Alp Tegin Gazne'yi Levikler'den aldı: Zilhicce 351 / Ocak 963 (ay biliniyor, gün yok → 963-01-01). TDV 'Gazneli Devleti'nin temelleri atılmış oldu' der; 'gerçek kurucu' Sebük Tegin (366/977). f kuşak dışında (1000 öncesi), yalnız künye başlangıcı için.",
+   "ic_not_t": "Gurlular Hüsrev Melik'i esir alıp devlete son verdi (582/1186); gurlular maddesi de 'Hüsrev Melik 1186'ya kadar ... Lahor'u savundu' der. Gün yok → 1186-01-01. Gazne'nin terki (Hüsrev Şah, 1157 sonrası, Oğuz baskısı) TDV'de tarihsiz — 1157-1186 arası Gazneli toprağı yalnız Pencap/Lahor'dur, harita için önemli.",
+   "alinti_f": "mahallî bir hânedan olan Levikler’i uzaklaştırarak burayı ele geçirdi (Zilhicce 351 / Ocak 963). Bu şekilde Gazneli Devleti’nin temelleri atılmış oldu.",
+   "alinti_t": "Gurlular bir hile ile onu esir alarak Gazneli Devleti’ne son verdiler (582/1186).",
+   "kronoloji": [
+    {
+     "t": "963-01-01",
+     "tur": "kurulus",
+     "b": "Alp Tegin Gazne'yi Levikler'den alarak Gazneli Devleti'nin temelini attı",
+     "kaynak": "gazneliler"
+    },
+    {
+     "t": "1040-05-23",
+     "tur": "toprak-kayip",
+     "b": "Dandanakan yenilgisiyle Horasan Selçuklular'a geçti",
+     "kaynak": "dandanakan-savasi"
+    },
+    {
+     "t": "1186-01-01",
+     "tur": "yikilis",
+     "b": "Gurlular Lahor'da Hüsrev Melik'i esir alarak Gazneli Devleti'ne son verdi",
+     "kaynak": "gazneliler"
+    }
+   ]
+  },
+  {
+   "id": "gurlu",
+   "ad": "Gurlular (Şensebânîler)",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "orta-asya",
+   "f": "1000-01-01",
+   "t": "1215-01-01",
+   "baskent": "Estiyâ → Fîrûzkûh (Gazne ikinci merkez, 1173'ten)",
+   "ozet": "Orta Afganistan'ın dağlık Gur bölgesinde Gazneli ve Selçuklu tâbiiyetinde yükselen, 1148'de sultan unvanı alan Şensebânî hânedanı; Gıyâseddin ve Muizzüddin Muhammed devrinde Horasan'dan Bengal'e uzandı, 1206'dan sonra dağılıp 1215'te Hârizmşahlar'a yenik düştü.",
+   "kaynak": "TDV: gurlular (GURLULAR) · muhammed-b-tekis (MUHAMMED b. TEKİŞ)",
+   "ic_not_f": "TDV madde başlığı '(1000-1215)' der; 1000 yılı olgusal bir olayı tarihlemiyor, maddenin kapsam işaretidir. Gövdedeki ilk tarihli olay Mahmud'un seferi (1010). 1148'e kadar Gazneli/Selçuklu TÂBİİ (haraç veren reislik); bağımsızlık = 1148 sultan unvanı. Koordinatör harita için 1000-1148 arasını tâbi (v:) okumalı.",
+   "ic_not_t": "Başlık '(1000-1215)'; muhammed-b-tekis maddesi 'Gurlular'ın (1215) yıkılmasını sağladı' der; hükümdar cetvelinde son Gurlu Alâeddin Muhammed 611-612 (1214-1215), Bâmiyân kolu Celâleddin Ali 602-612 (1206-1215). Gün yok. [alinti_t slug: muhammed-b-tekis]",
+   "alinti_f": "Horasan, Afganistan ve Kuzey Hindistan’da hüküm süren bir İslâm hânedanı (1000-1215).",
+   "alinti_t": "Gurlular arasındaki iç çekişmelerden faydalanarak Gurlular’ın (1215) yıkılmasını sağladı.",
+   "kronoloji": [
+    {
+     "t": "1148-01-01",
+     "tur": "kurulus",
+     "b": "İzzeddin Hüseyin ve Seyfeddin Sûrî Gazneli Behram Şah'ı yenerek sultan unvanını aldı; Gur beyliği bağımsız sultanlığa dönüştü",
+     "kaynak": "gurlular"
+    },
+    {
+     "t": "1173-01-01",
+     "tur": "toprak-kazanc",
+     "b": "Gıyâseddin Muhammed Gazne'yi Oğuzlar'dan aldı, idaresini kardeşi Muizzüddin'e verdi",
+     "kaynak": "gurlular"
+    },
+    {
+     "t": "1206-01-01",
+     "tur": "hanedan",
+     "b": "Sultan Muizzüddin Muhammed İndus kıyısında bir İsmâilî fedaisince öldürüldü; Gurlu birliği dağıldı",
+     "kaynak": "gurlular"
+    },
+    {
+     "t": "1215-01-01",
+     "tur": "yikilis",
+     "b": "Hârizmşah Alâeddin Muhammed Gazne'yi aldı; Gurlu hânedanı sona erdi",
+     "kaynak": "muhammed-b-tekis"
+    }
+   ]
+  },
+  {
+   "id": "karahanli",
+   "ad": "Karahanlılar (bölünme öncesi birleşik devlet)",
+   "islem": "yeni",
+   "tur": "hanlik",
+   "bolge": "orta-asya",
+   "f": "840-01-01",
+   "t": "1041-01-01",
+   "baskent": "Balasagun / Kâşgar (Talas); batıda Özkent, Semerkant, Buhara",
+   "ozet": "Türkistan'da kurulan ilk müslüman Türk hânedanı; 999'da Sâmânî başşehri Buhara'yı alarak Mâverâünnehir'e hâkim oldu. Ali ve Hasan kolları arasındaki çekişmeler 1041'de devletin Doğu ve Batı Karahanlılar olarak ikiye ayrılmasıyla sonuçlandı.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "ic_not_f": "TDV madde başlığı '(840-1212)'; 840 Uygur Devleti'nin yıkılış yılıdır ve kuruluş faraziyeye bağlıdır (Pritsak/Genç tartışması, gövde). Kuşak dışı; yalnız künye başlangıcı.",
+   "ic_not_t": "BÖLÜNME KARARI: TDV bölünmeyi açıkça tarihliyor — Aynüddevle Muhammed ile Böri Tegin İbrâhim Mâverâünnehir'de 'bağımsız bir devlet kurdular (433/1041-42)' ve 'bu tarihten itibaren Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır'. Hicrî 433 iki mîlâdî yıla düştüğü için ilk yıl (1041) alındı. Not: fiilî ayrışma 998'den beri (Ali ve Hasan kolları) sürüyordu ve Doğu kolunun ilk hükümdarı Süleyman 'nın saltanatı TDV'de 423-448 (1032-1056) diye başlatılıyor — 1032-1041 arası iki kolun sınırı haritada ölçülemedi. Birleşik künye 1041'de bölünmeyle kapanır; iki ardıl künye aynı gün açılır (delik yok).",
+   "alinti_f": "Türkistan’da hüküm süren Türk-İslâm hânedanı (840-1212).",
+   "alinti_t": "Mâverâünnehir’in tamamına hâkim olup burada bağımsız bir devlet kurdular (433/1041-42).",
+   "kronoloji": [
+    {
+     "t": "840-01-01",
+     "tur": "kurulus",
+     "b": "Uygur Devleti'nin yıkılışından sonra Kâşgar-Balasagun yöresinde Karahanlı hânedanı ortaya çıktı",
+     "kaynak": "karahanlilar"
+    },
+    {
+     "t": "1041-01-01",
+     "tur": "yikilis",
+     "b": "Böri Tegin İbrâhim ve Aynüddevle Muhammed Mâverâünnehir'de bağımsız devlet kurdu; Karahanlılar Doğu ve Batı olarak ikiye ayrıldı",
+     "kaynak": "karahanlilar"
+    }
+   ]
+  },
+  {
+   "id": "dogu-karahanli",
+   "ad": "Doğu Karahanlılar",
+   "islem": "yeni",
+   "tur": "hanlik",
+   "bolge": "orta-asya",
+   "f": "1041-01-01",
+   "t": "1210-01-01",
+   "baskent": "Balasagun → Kâşgar",
+   "ozet": "1041 bölünmesinden sonra Balasagun, Kâşgar, Talas ve Fergana'da hüküm süren Karahanlı kolu; 1089'da Melikşah'ı metbû tanıdı, 1130'lardan itibaren Karahıtaylar'a tâbi oldu ve 1210'da Nayman Küçlük'ün Kâşgar'ı almasıyla sona erdi.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "ic_not_f": "Bölünme tarihi 433/1041-42 (bk. karahanli ic_not_t). İlk hükümdar Süleyman'ın saltanatı TDV'de 423-448 (1032-1056).",
+   "ic_not_t": "Son temsilci III. Muhammed Kâşgar'a varmadan öldürüldü (607/1210-11); hicrî yıl iki mîlâdî yıla düşüyor, ilk yıl alındı. 1141 sonrası Karahıtay tâbiidir (harita: v:karahitay düşünülmeli).",
+   "alinti_f": "bu tarihten itibaren Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır",
+   "alinti_t": "Karahanlılar’ın bu son temsilcisini daha Kâşgar’a varmadan yolda öldürdüler (607/1210-11). Bunun üzerine Güçlüg Han Kâşgar’ı da ele geçirip isyancıları öldürttü. Doğu Karahanlılar da bu şekilde sona ermiş oldu.",
+   "kronoloji": [
+    {
+     "t": "1041-01-01",
+     "tur": "kurulus",
+     "b": "Karahanlılar'ın ikiye bölünmesiyle Doğu Karahanlı kolu Balasagun ve Kâşgar merkezli ayrı devlet oldu",
+     "kaynak": "karahanlilar"
+    },
+    {
+     "t": "1089-01-01",
+     "tur": "hanedan",
+     "b": "Kâşgar hâkimi Buğra Kara Hakan Hasan Melikşah adına hutbe okutarak Selçuklu metbûluğunu tanıdı",
+     "kaynak": "karahanlilar"
+    },
+    {
+     "t": "1210-01-01",
+     "tur": "yikilis",
+     "b": "Nayman Küçlük Kâşgar'ı ele geçirdi; Doğu Karahanlılar sona erdi",
+     "kaynak": "karahanlilar"
+    }
+   ]
+  },
+  {
+   "id": "bati-karahanli",
+   "ad": "Batı Karahanlılar",
+   "islem": "yeni",
+   "tur": "hanlik",
+   "bolge": "orta-asya",
+   "f": "1041-01-01",
+   "t": "1212-01-01",
+   "baskent": "Özkent → Semerkant",
+   "ozet": "1041'de Mâverâünnehir'de bağımsızlaşan Karahanlı kolu; 1074'ten itibaren Selçuklu, 1141 Katvân savaşından sonra Karahıtay tâbiiyetinde yaşadı ve 1212'de Hârizmşah Alâeddin Muhammed'in Semerkant'ı alıp Osman Han'ı öldürtmesiyle sona erdi.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "ic_not_f": "433/1041-42 bölünmesi (bk. karahanli).",
+   "ic_not_t": "TDV iki sonu ayırıyor: Hasanî/İbrâhim soyunun II. Mahmud'la bitişi '(559/1164) Batı Karahanlılar sona ermiş oldu' — ama iktidar aynı devlette Ali Tegin ailesine geçti ve Semerkant tahtı 1212'ye kadar sürdü ('Karahanlılar tarihe karışmış oldu (608/1212)'; muhammed-b-tekis de 'Karahanlılar'ın (1212)' der). Aynı polity sürdüğü için t=1212 (D205 sınıf ②). Fergana/Özkent'te 1141 sonrası ayrı bir Karahanlı hanlığı TDV'de anılıyor — ayrı künye önerilmedi (bk. bulunamadi).",
+   "alinti_f": "Büyük Kağan Aynüddevle Muhammed Arslan Hakan, yardımcı kağan İbrâhim ise Tamgaç Buğra Kara Hakan unvanını almış",
+   "alinti_t": "Semerkant Hârizmşah Muhammed’in başşehri oldu. Böylece Karahanlılar tarihe karışmış oldu (608/1212).",
+   "kronoloji": [
+    {
+     "t": "1041-01-01",
+     "tur": "kurulus",
+     "b": "Aynüddevle Muhammed ile Böri Tegin İbrâhim Mâverâünnehir'de Batı Karahanlı devletini kurdu",
+     "kaynak": "karahanlilar"
+    },
+    {
+     "t": "1089-01-01",
+     "tur": "hanedan",
+     "b": "Melikşah Ahmed Han'ı esir alınca Batı Karahanlılar Selçuklular'a tâbi kılındı",
+     "kaynak": "karahanlilar"
+    },
+    {
+     "t": "1141-01-01",
+     "tur": "hanedan",
+     "b": "Katvân'dan sonra III. İbrâhim Karahıtay himayesinde Semerkant tahtına geçti",
+     "kaynak": "karahanlilar"
+    },
+    {
+     "t": "1212-01-01",
+     "tur": "yikilis",
+     "b": "Hârizmşah Alâeddin Muhammed Semerkant'ı aldı, Osman Han'ı öldürttü; Karahanlılar sona erdi",
+     "kaynak": "karahanlilar"
+    }
+   ]
+  },
+  {
+   "id": "karahitay",
+   "ad": "Karahıtaylar (Batı Liao)",
+   "islem": "yeni",
+   "tur": "devlet",
+   "bolge": "orta-asya",
+   "f": "1130-01-01",
+   "t": "1211-01-01",
+   "baskent": "Balasagun",
+   "ozet": "Liao hânedanından Yeh-lü Ta-şi'nin Türkistan'da kurduğu, başşehri Balasagun olan Moğol asıllı devlet; 1141 Katvân zaferiyle Mâverâünnehir'i ve Hârizm'i vergiye bağladı, 1211'de Nayman Küçlük tarafından yıkıldı.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "ic_not_f": "TDV: Kâşgar, Beşbalık ve Hoten'i tâbi kılıp 'başşehri Balasagun olan Karahıtay Devleti'ni kurdu (1130)'. ÇELİŞKİ: karahanlilar maddesi Balasagun'un Gürhan'a geçişini Doğu Karahanlı Ahmed'in muhtemel ölümünden (535/1141) sonraya koyuyor ('muhtemelen'). karahitaylar maddesi tarihli ve kesin; o esas alındı.",
+   "ic_not_t": "Küçlük kayınpederi Ch'e-lu-ku'yu esir ederek devlete son verdi (1211); muhammed-b-tekis de 'Karahıtaylar'ın (1211)' der. Gün yok.",
+   "alinti_f": "Kâşgar, Beşbalık ve Hoten’i de kendine tâbi kılıp başşehri Balasagun olan Karahıtay Devleti’ni kurdu (1130).",
+   "alinti_t": "Böylece Karahıtaylar’a son darbeyi vuran Küçlüğ kayınpederi Ch’e-lu-ku’yu esir ederek bu devlete son verdi (1211).",
+   "kronoloji": [
+    {
+     "t": "1130-01-01",
+     "tur": "kurulus",
+     "b": "Yeh-lü Ta-şi Balasagun'u merkez yaparak Karahıtay Devleti'ni kurdu",
+     "kaynak": "karahitaylar"
+    },
+    {
+     "t": "1210-01-01",
+     "tur": "toprak-kayip",
+     "b": "Hârizmşah Alâeddin Muhammed İlâmış sahrasında Karahıtay ordusunu yendi, Mâverâünnehir elden çıktı",
+     "kaynak": "harizmsahlar"
+    },
+    {
+     "t": "1211-01-01",
+     "tur": "yikilis",
+     "b": "Nayman Küçlük son gürhanı esir alarak Karahıtay Devleti'ne son verdi",
+     "kaynak": "karahitaylar"
+    }
+   ]
+  },
+  {
+   "id": "harizmsah",
+   "ad": "Hârizmşahlar (Anuştegin hânedanı)",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "orta-asya",
+   "f": "1097-01-01",
+   "t": "1231-01-01",
+   "baskent": "Gürgenç → Semerkant (1212) → Tebriz (Celâleddin, 1225)",
+   "ozet": "Selçuklu taştdârı Anuş Tegin'in soyundan gelen, 1097'de Hârizm valiliğiyle başlayıp Tekiş ve Alâeddin Muhammed devrinde Siriderya'dan Irak'a uzanan imparatorluğa dönüşen hânedan; Moğol istilâsıyla çöktü, Celâleddin'in 1231'de öldürülmesiyle sona erdi.",
+   "kaynak": "TDV: harizmsahlar (HÂRİZMŞAHLAR)",
+   "ic_not_f": "Kutbüddin Muhammed'in Hârizm valiliği: 'Böylece Hârizmşahlar hânedanı kurulmuş oldu (490/1097)'. 1097-1172 arası Selçuklu tâbii (Atsız 1138'de istiklâl ilân etti ama yenildi); 1141 sonrası ayrıca Karahıtay'a vergi. Bağımsız sultanlık fiilen Tekiş (1172/1194). Harita için 1097-1156 tâbi okunmalı.",
+   "ic_not_t": "Celâleddin Âmid dağlarında öldürüldü (628/1231). TDV günü vermiyor (celaleddin-harizmsah maddesi yalnız '(1231)'); 1231-01-01 sınır işareti. Kalıntı Hârizmli birlikler 1244'e dek Suriye-Filistin'de dolaştı — devlet değil, künyeye katılmadı.",
+   "alinti_f": "Taştdâr Anuş Tegin’in oğlu Kutbüddin Muhammed’i Hârizm valisi tayin etti. Böylece Hârizmşahlar hânedanı kurulmuş oldu (490/1097).",
+   "alinti_t": "sığındığı Âmid’in bir dağ köyünde öldürüldü (628/1231). Böylece Türk-İslâm tarihinde önemli rol oynayan Hârizmşahlar hânedanı yıkılmış oldu.",
+   "kronoloji": [
+    {
+     "t": "1097-01-01",
+     "tur": "kurulus",
+     "b": "Kutbüddin Muhammed Selçuklular adına Hârizm valisi oldu; Hârizmşahlar hânedanı kuruldu",
+     "kaynak": "harizmsahlar"
+    },
+    {
+     "t": "1194-01-01",
+     "tur": "toprak-kazanc",
+     "b": "Tekiş Rey yakınında II. Tuğrul'u yenerek Irak Selçukluları'na son verdi, Irâk-ı Acem'i aldı",
+     "kaynak": "tekis-alaeddin"
+    },
+    {
+     "t": "1220-01-01",
+     "tur": "hanedan",
+     "b": "Alâeddin Muhammed Âbeskûn adasında öldü, Celâleddin veliaht oldu",
+     "kaynak": "harizmsahlar"
+    },
+    {
+     "t": "1231-01-01",
+     "tur": "yikilis",
+     "b": "Celâleddin Hârizmşah Âmid dağlarında öldürüldü; hânedan yıkıldı",
+     "kaynak": "harizmsahlar"
+    }
+   ]
+  },
+  {
+   "id": "samani",
+   "ad": "Sâmânîler",
+   "islem": "yeni",
+   "tur": "emirlik",
+   "bolge": "orta-asya",
+   "f": "819-01-01",
+   "t": "1005-01-01",
+   "baskent": "Buhara",
+   "ozet": "Mâverâünnehir ve Horasan'da hüküm süren İslâm hânedanı; 999'da Karahanlılar'ın Buhara'yı almasıyla fiilen çöktü, son emîr İsmâil el-Müntasır'ın 1005'te öldürülmesiyle tarihe karıştı.",
+   "kaynak": "TDV: samaniler (SÂMÂNÎLER)",
+   "ic_not_f": "Me'mûn'un emriyle Esed'in oğullarına valilik verilmesi 204 (819); başlık '(819-1005)'. Kuşak dışı, yalnız künye başlangıcı.",
+   "ic_not_t": "Müntasır'ın ölümü 395/1005, TDV 'Onun ölümüyle Sâmânîler Devleti tarihe karışmış oldu'. UYARI HARİTA İÇİN: devlet fiilen Zilkade 389 / Ekim 999'da bitti; 1000-1005 arası Müntasır'ın gezici mücadelesidir, sabit toprak yok. Koordinatör ister künyeyi 1005'e uzatsın (bu öneri), ister haritada 999'dan sonra hiç s: yazmasın. ÇELİŞKİ: samaniler Müntasır'ın Buhara'yı geri almasını 'ertesi yıl' (390/1000) der, karahanlilar ise '1003 yılında Buhara'da el-Müntasır unvanıyla tahta çıkınca' der.",
+   "alinti_f": "Bu tarihten 204 (819) yılına kadar kaynaklarda Sâmânîler’e yer verilmemiştir.",
+   "alinti_t": "girdiği çölde sığındığı bir Arap kabilesi tarafından öldürüldü (395/1005). Onun ölümüyle Sâmânîler Devleti tarihe karışmış oldu.",
+   "kronoloji": [
+    {
+     "t": "819-01-01",
+     "tur": "kurulus",
+     "b": "Halife Me'mûn'un emriyle Sâmânhudât'ın torunlarına Mâverâünnehir'de valilik verildi",
+     "kaynak": "samaniler"
+    },
+    {
+     "t": "1005-01-01",
+     "tur": "yikilis",
+     "b": "Son emîr İsmâil el-Müntasır Merv çölünde öldürüldü; Sâmânîler tarihe karıştı",
+     "kaynak": "samaniler"
+    }
+   ]
+  }
+ ],
+ "maddeler": [
+  {
+   "t": "1000-01-01",
+   "k": "olay",
+   "b": "Müntasır Buhara'yı geri alıp Sâmânî tahtına çıktı",
+   "gun": "390 h. (1000); gün bilinmiyor",
+   "yer": "Buhara",
+   "kisiler": "İsmâil b. Nûh el-Müntasır",
+   "d": "Karahanlılar'ın 999'da Özkent'e sürdüğü Sâmânî ailesinden İsmâil b. Nûh hapisten kaçtı ve Buhara'yı yeniden ele geçirdi. Müntasır lakabıyla tahta çıkan son Sâmânî emîri, Karahanlılar ve Gazneliler'e karşı devleti diriltmeye çalıştı.",
+   "kaynak": "TDV: samaniler (SÂMÂNÎLER)",
+   "alinti": "II. Abdülmelik b. Nûh b. Mansûr 389 (999) II. İsmâil b. Nûh el-Müntasır 390-395 (1000-1005)",
+   "alinti_slug": "samaniler",
+   "taraflar": [
+    "samani",
+    "karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Tarih hükümdar cetvelinden (390 = 1000) ve gövdedeki 'ertesi yıl' ifadesinden. ÇELİŞKİ: karahanlilar maddesi Müntasır'ın Buhara'da tahta çıkışını 1003'e koyuyor ('1003 yılında Buhara'da el-Müntasır unvanıyla tahta çıkınca'). samaniler maddesi (daha yakın konu) esas alındı."
+  },
+  {
+   "t": "1001-01-01",
+   "k": "antlasma",
+   "b": "Gazneli-Karahanlı antlaşması: Ceyhun sınır oldu",
+   "gun": "391 h. (1001); gün bilinmiyor",
+   "yer": "Ceyhun (Amuderya)",
+   "kisiler": "Sultan Mahmud, İlig Han Nasr b. Ali",
+   "d": "Karahanlı Nasr b. Ali Buhara'yı aldıktan sonra Mahmud ile dostluk mektuplaştı ve Sâmânî mirası Ceyhun nehri sınır olmak üzere paylaşıldı: Mâverâünnehir Karahanlılar'a, Horasan Gazneliler'e kaldı.",
+   "kaynak": "TDV: mahmud-i-gaznevi (MAHMÛD-ı GAZNEVÎ)",
+   "alinti": "Karahanlı Hükümdarı Nasr b. Ali, Buhara’yı zaptettikten sonra Sultan Mahmud ile birbirlerine dostluk mesajları gönderdiler. Ardından iki devlet arasında Ceyhun nehri sınır kabul edildi (391/1001).",
+   "alinti_slug": "mahmud-i-gaznevi",
+   "taraflar": [
+    "gazneli",
+    "karahanli"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "karahanlilar maddesi aynı antlaşmayı 'Amuderya sınır olmak üzere' tarihsiz anar."
+  },
+  {
+   "t": "1007-01-01",
+   "k": "savas",
+   "b": "Belh Savaşı: Mahmud birleşik Karahanlı ordusunu yendi",
+   "gun": "Rebîülevvel 398 / Aralık 1007 (gün bilinmiyor)",
+   "yer": "Belh",
+   "kisiler": "Sultan Mahmud, İlig Han Nasr, Yûsuf Kadır Han",
+   "d": "Horasan'dan vazgeçmeyen Nasr b. Ali, Hoten hâkimi Yûsuf Kadır Han'dan yardım aldı. Mahmud birleşik Karahanlı ordusunu Belh civarında yendi; Karahanlılar'ın Horasan'a son teşebbüsü de böylece başarısız kaldı.",
+   "kaynak": "TDV: mahmud-i-gaznevi (MAHMÛD-ı GAZNEVÎ)",
+   "alinti": "Bu sebeple Karahanlı Yûsuf Kadır Han’dan yardım aldı. Mahmud birleşik Karahanlı ordusunu Belh civarında mağlûp etti (Rebîülevvel 398 / Aralık 1007).",
+   "alinti_slug": "mahmud-i-gaznevi",
+   "taraflar": [
+    "gazneli",
+    "karahanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "ÇELİŞKİ: karahanlilar maddesi aynı savaşı '(398/1008)' diye verir. Hicrî 398 = Eylül 1007-Eylül 1008; Rebîülevvel 398 Kasım-Aralık 1007'ye düşer, ay veren mahmud-i-gaznevi esas alındı."
+  },
+  {
+   "t": "1017-01-01",
+   "k": "fetih",
+   "b": "Mahmud Hârizm'i ilhak etti, Me'mûnîler sona erdi",
+   "gun": "408 h. (1017); gün bilinmiyor",
+   "yer": "Gürgenç (Hârizm)",
+   "kisiler": "Sultan Mahmud, Hârizmşah Ebü'l-Hâris Muhammed",
+   "d": "Gazneli tâbiiyetini kabul eden Hârizmşah Me'mûn'u kumandanları öldürünce Mahmud intikam bahanesiyle Hârizm'e yürüdü, başşehir Gürgenç'e girdi ve Me'mûnî hânedanına son verdi. Bölgeye Altuntaş el-Hâcib Hârizmşah unvanıyla vali atandı.",
+   "kaynak": "TDV: mahmud-i-gaznevi (MAHMÛD-ı GAZNEVÎ)",
+   "alinti": "Gazneli ordusu Hârizm kuvvetlerini yenerek bölgenin başşehri Gürgenç’e girdi, böylece Me’mûnîler hânedanına son verildi (408/1017).",
+   "alinti_slug": "mahmud-i-gaznevi",
+   "taraflar": [
+    "gazneli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Me'mûnîler (Hârizmşah, 995-1017). Altuntaş valiliği: harizmsahlar '1017'den 1041 yılına kadar'."
+  },
+  {
+   "t": "1018-12-20",
+   "k": "fetih",
+   "b": "Kannevc'in fethi",
+   "gun": "8 Şâban 409 / 20 Aralık 1018",
+   "yer": "Kannevc (Kanauj)",
+   "kisiler": "Sultan Mahmud",
+   "d": "Mahmud on ikinci Hint seferinde Sarsâva ve Mathûrâ'yı aldıktan sonra asıl hedefi olan Gangetik ovadaki Kannevc'i fethetti. Sefere Mâverâünnehir'den 20.000 gazi katılmıştı.",
+   "kaynak": "TDV: mahmud-i-gaznevi (MAHMÛD-ı GAZNEVÎ)",
+   "alinti": "Sultanın asıl hedefi olan Kannevc ise 8 Şâban 409’da (20 Aralık 1018) fethedildi.",
+   "alinti_slug": "mahmud-i-gaznevi",
+   "taraflar": [
+    "gazneli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Kannevc racalığı (Pratihâra)"
+  },
+  {
+   "t": "1029-01-01",
+   "k": "fetih",
+   "b": "Mahmud Rey'i Büveyhîler'den aldı",
+   "gun": "420 h. (1029); gün bilinmiyor",
+   "yer": "Rey",
+   "kisiler": "Sultan Mahmud",
+   "d": "Mahmud Büveyhîler'den Rey şehrini alarak Gazneli topraklarını batıda Irâk-ı Acem'e kadar genişletti.",
+   "kaynak": "TDV: mahmud-i-gaznevi (MAHMÛD-ı GAZNEVÎ)",
+   "alinti": "Mahmud, 420’de (1029) Büveyhîler’den Rey şehrini alarak Gazneli Devleti’nin topraklarını batı yönünde de genişletti.",
+   "alinti_slug": "mahmud-i-gaznevi",
+   "taraflar": [
+    "gazneli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Büveyhîler (Rey kolu)"
+  },
+  {
+   "t": "1030-04-30",
+   "k": "hanedan",
+   "b": "Sultan Mahmud Gazne'de öldü",
+   "gun": "23 Rebîülâhir 421 / 30 Nisan 1030",
+   "yer": "Gazne",
+   "kisiler": "Sultan Mahmud, Mesud, Muhammed",
+   "d": "Gazneli Devleti'ni Azerbaycan'dan Yukarı Ganj'a, Hârizm'den Hint Okyanusu'na uzanan imparatorluğa çeviren Mahmud öldü. Ardından oğulları arasında taht mücadelesi başladı ve Mesud kardeşi Muhammed'i yenerek tahta çıktı.",
+   "kaynak": "TDV: mahmud-i-gaznevi (MAHMÛD-ı GAZNEVÎ)",
+   "alinti": "Sultan Mahmud 23 Rebîülâhir 421’de (30 Nisan 1030) Gazne’de vefat etti.",
+   "alinti_slug": "mahmud-i-gaznevi",
+   "taraflar": [
+    "gazneli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1035-01-01",
+   "k": "savas",
+   "b": "Hisâr-ı Tâk'ta Gazneli ordusu Selçuklular'a yenildi",
+   "gun": "426 h. (1035); gün bilinmiyor",
+   "yer": "Hisâr-ı Tâk (Horasan)",
+   "kisiler": "Sultan Mesud, Hâcib Beg Toğdı",
+   "d": "1035 ilkbaharında Horasan'a göçüp Merv-Serahs-Ferâve arasına yerleşen Selçuklular'a karşı Mesud'un gönderdiği ordu ağır bir yenilgiye uğradı. 1037 ve 1038 yenilgileriyle Gazneliler'in Horasan hâkimiyeti sarsıldı.",
+   "kaynak": "TDV: gazneliler (GAZNELİLER)",
+   "alinti": "Sultan Mesud’un Selçuklular’a karşı gönderdiği Hâcib Beg Toğdı kumandasındaki ordu Hisâr-ı Tâk’ta ağır bir yenilgiye uğradı (426/1035).",
+   "alinti_slug": "gazneliler",
+   "taraflar": [
+    "gazneli"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf: Selçuklular henüz devlet değil (buyuk-selcuklu f=1040); taraflara yazılmadı."
+  },
+  {
+   "t": "1059-01-01",
+   "k": "antlasma",
+   "b": "Selçuklu-Gazneli barışı",
+   "gun": "451 h. (1059); gün bilinmiyor",
+   "yer": "",
+   "kisiler": "Sultan İbrâhim",
+   "d": "Ferruhzâd'ın ölümünden sonra tahta çıkan İbrâhim, uzun Selçuklu-Gazneli mücadelesini eşit şartlarda bir barışla bitirdi. Barış yaklaşık elli yıl sürdü ve evliliklerle pekiştirildi; sınır fiilen donmuş oldu.",
+   "kaynak": "TDV: gazneliler (GAZNELİLER)",
+   "alinti": "uzun yıllar devam eden Selçuklu-Gazneli mücadelesinin bir barışla sona erdirilmesidir (451/1059).",
+   "alinti_slug": "gazneliler",
+   "taraflar": [
+    "gazneli",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "buyuk-selcuklu devletler.js'te ŞU AN YOK (ölçüldü); grup A'nın önerisi olarak yazıldı."
+  },
+  {
+   "t": "1117-01-01",
+   "k": "hanedan",
+   "b": "Behram Şah Sencer'in desteğiyle Gazne tahtına çıktı",
+   "gun": "511 h. (1117); gün bilinmiyor",
+   "yer": "Gazne",
+   "kisiler": "Behram Şah, Arslanşah, Sencer",
+   "d": "III. Mesud'un ölümünden sonraki taht kavgasında Behram Şah, Horasan meliki Sencer'in yardımıyla kardeşi Arslanşah'ı devirip tahta geçti. Gazneliler bundan sonra Selçuklular'a vergi veren tâbi konumuna düştü.",
+   "kaynak": "TDV: gazneliler (GAZNELİLER)",
+   "alinti": "kardeşi Behram Şah, Horasan meliki olan Sencer’in yardımını sağlayarak Gazneliler tahtına sahip oldu (511/1117).",
+   "alinti_slug": "gazneliler",
+   "taraflar": [
+    "gazneli",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Harita: 1117'den sonra Gazneli, Selçuklu tâbii (yıllık vergi) — v: düşünülmeli."
+  },
+  {
+   "t": "1010-01-01",
+   "k": "savas",
+   "b": "Mahmud'un Gur seferi: Muhammed b. Sûrî esir alındı",
+   "gun": "1010 (gün bilinmiyor)",
+   "yer": "Âhengerân (Gur)",
+   "kisiler": "Sultan Mahmud, Muhammed b. Sûrî, Ebû Ali",
+   "d": "Gazneli topraklarına akın eden Gur reislerini cezalandırmak için Mahmud sefere çıktı. Âhengerân reisi Muhammed b. Sûrî yenilip esir alındı, yerine oğlu Ebû Ali reis yapıldı; Gur, Gazneli tâbiiyetine girdi.",
+   "kaynak": "TDV: gurlular (GURLULAR)",
+   "alinti": "Mahmûd-ı Gaznevî onları cezalandırmak için bir sefer düzenledi. Muhammed b. Sûrî yenilgiye uğratıldı ve esir alındı (1010).",
+   "alinti_slug": "gurlular",
+   "taraflar": [
+    "gazneli",
+    "gurlu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "ÇELİŞKİ: gazneliler maddesi ilk Gur seferini '401'de (1011)', mahmud-i-gaznevi '401'de (1010-11)' der. Olayı anlatan gurlular maddesinin 1010'u alındı."
+  },
+  {
+   "t": "1066-01-01",
+   "k": "hanedan",
+   "b": "Gazneli İbrâhim Emîr Muhammed'i Gur'un başına getirdi",
+   "gun": "458 h. (1066); gün bilinmiyor",
+   "yer": "Gur",
+   "kisiler": "Sultan İbrâhim, Abbas, Emîr Muhammed",
+   "d": "Haracı göndermeyen Gur reisi Abbas'a karşı sefere çıkan Gazneli Sultan İbrâhim, Abbas'ın oğlu Emîr Muhammed'i Gurlular'ın idaresine getirdi. Emîr Muhammed Gazne sarayına bağlı kaldı.",
+   "kaynak": "TDV: gurlular (GURLULAR)",
+   "alinti": "Abbas’ın iyi vasıflarıyla bilinen oğlu Emîr Muhammed’i Gurlular’ın idaresiyle görevlendirdi (458/1066).",
+   "alinti_slug": "gurlular",
+   "taraflar": [
+    "gazneli",
+    "gurlu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1150-01-01",
+   "k": "savas",
+   "b": "Gurlular Gazne'yi yaktı",
+   "gun": "545 h. (1150-51); gün bilinmiyor",
+   "yer": "Gazne",
+   "kisiler": "Alâeddin Hüseyin Cihânsûz, Behram Şah",
+   "d": "Kardeşlerinin öldürülmesinin intikamını almak için Gazne'ye yürüyen Gurlu Alâeddin Hüseyin, Behram Şah'ı Sîstan'a kaçırdı ve şehri yedi gün yakıp yıktı; 'Cihânsûz' lakabı buradan gelir. Behram Şah 1152'de Gazne'ye döndüyse de Gazneliler çöküşe girdi.",
+   "kaynak": "TDV: gazneliler (GAZNELİLER)",
+   "alinti": "Gittikçe kuvvetlenen Gurlular nihayet bir intikam vesilesiyle Gazne şehrini yaktılar (545/1150-51).",
+   "alinti_slug": "gazneliler",
+   "taraflar": [
+    "gurlu",
+    "gazneli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Hicrî 545 iki mîlâdî yıla düşüyor; ilk yıl (1150) alındı. Kalıcı el değişimi değil."
+  },
+  {
+   "t": "1152-01-01",
+   "k": "savas",
+   "b": "Sencer Gurlu Alâeddin Hüseyin'i yenip esir aldı",
+   "gun": "547 h. (1152); gün bilinmiyor",
+   "yer": "",
+   "kisiler": "Sultan Sencer, Alâeddin Hüseyin Cihânsûz",
+   "d": "Vergiyi kesip bağımsızlık ilân eden Alâeddin Hüseyin'e karşı Sencer sefere çıktı. Gurlu ordusundaki Türk askerlerinin Sencer'e geçmesiyle Gurlular yenildi; esir alınan Alâeddin affedilip Selçuklu tâbii olarak Gur'a gönderildi.",
+   "kaynak": "TDV: sencer (SENCER)",
+   "alinti": "Gurlular mağlûp oldu ve ağır kayıplar verdi (547/1152). Esir alınan Sultan Alâeddin affedildi ve Selçuklular’a tâbi olarak hüküm sürmek için Gur topraklarına gönderildi.",
+   "alinti_slug": "sencer",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "gurlu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Harita: 1152'den sonra Gurlu yine Selçuklu tâbii; Sencer'in Oğuz esareti (1153) ile fiilen serbest."
+  },
+  {
+   "t": "1175-01-01",
+   "k": "fetih",
+   "b": "Muizzüddin Mültan ve Yukarı Sind'i aldı",
+   "gun": "571 h. (1175-76); gün bilinmiyor",
+   "yer": "Mültan",
+   "kisiler": "Muizzüddin (Şehâbeddin) Muhammed",
+   "d": "Gazne'yi üs edinen Muizzüddin Muhammed Hindistan fetihlerine Mültan ve Yukarı Sind'deki Karmatî emirliğini alarak başladı.",
+   "kaynak": "TDV: gurlular (GURLULAR)",
+   "alinti": "Sultan Muizzüddin, önce Mültan ve Yukarı Sind Karmatî Krallığı’nın topraklarını ele geçirdi (571/1175-76)",
+   "alinti_slug": "gurlular",
+   "taraflar": [
+    "gurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Mültan Karmatîleri"
+  },
+  {
+   "t": "1191-01-01",
+   "k": "savas",
+   "b": "Birinci Tarain Savaşı: Muizzüddin Prithivi Raj'a yenildi",
+   "gun": "1191 (gün bilinmiyor)",
+   "yer": "Tarain ovası",
+   "kisiler": "Muizzüddin Muhammed, Prithivi Raj",
+   "d": "Tabarhinda Kalesi'nin Gurlular'ca alınması üzerine Ecmîr hükümdarı Prithivi Raj büyük bir orduyla geldi. Tarain ovasındaki savaşta subayları kaçan Muizzüddin yaralanarak geri çekildi.",
+   "kaynak": "TDV: gurlular (GURLULAR)",
+   "alinti": "1191’de Tarain ovasında iki ordu arasında şiddetli bir muharebe oldu.",
+   "alinti_slug": "gurlular",
+   "taraflar": [
+    "gurlu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Ecmîr/Delhi Çavhanları (Prithivi Raj)"
+  },
+  {
+   "t": "1192-01-01",
+   "k": "savas",
+   "b": "İkinci Tarain Savaşı: Prithivi Raj yenilip öldürüldü",
+   "gun": "1192 (gün bilinmiyor)",
+   "yer": "Tarain ovası",
+   "kisiler": "Muizzüddin Muhammed, Prithivi Raj",
+   "d": "Ordusunu yeniden düzenleyen Muizzüddin farklı bir taktikle Prithivi Raj'ı yendi; raca yakalanıp öldürüldü. Bu zaferle Gurlu hâkimiyeti Sind'den Bengal körfezine kadar yayıldı.",
+   "kaynak": "TDV: gurlular (GURLULAR)",
+   "alinti": "Yapılan savaşta Prithivi Raj mağlûp oldu ve yakalanarak öldürüldü. Bu zaferle Gurlular siyasî hâkimiyetlerini Sind’den Bengal körfezine kadar yaydılar.",
+   "alinti_slug": "gurlular",
+   "taraflar": [
+    "gurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Alıntı yılı taşımıyor; yıl bir önceki cümlede: 'hazırlıklarını tamamladıktan sonra 1192 yılında tekrar Prithivi Raj’a karşı savaşmaya başladı'. karşı taraf künyesiz: Çavhanlar."
+  },
+  {
+   "t": "1204-01-01",
+   "k": "savas",
+   "b": "Endhûd: Karahıtaylar Muizzüddin'i kuşattı",
+   "gun": "1204 (gün bilinmiyor)",
+   "yer": "Endhûd (Endhûy) Kalesi",
+   "kisiler": "Muizzüddin Muhammed, Tayangu, Semerkant Sultanı Osman",
+   "d": "Hârizm'i kuşatan Muizzüddin, Hârizmşah'a yardıma gelen Karahıtay ordusu karşısında çekilirken Endhûd Kalesi'ne sıkıştı. Karahanlı Osman'ın aracılığıyla hazine ve filler karşılığında barış yapıldı ve sultan Gazne'ye döndü.",
+   "kaynak": "TDV: gurlular (GURLULAR)",
+   "alinti": "Bunun üzerine Karahıtaylar’ın reisi hazineler ve filler karşılığında barış yapmaya razı oldu. Sultan Muizzüddin 1204 yılında Gazne’ye döndü.",
+   "alinti_slug": "gurlular",
+   "taraflar": [
+    "karahitay",
+    "gurlu",
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Yıl, sultanın Gazne'ye dönüşünü tarihliyor; karahitaylar maddesi 'Bu yenilgi 1204 yılından itibaren' bağlamında anlatır. Savaş ile dönüş aynı yıl kabul edildi. Hârizmşah taraflardan çıkarıldı (dolaylı taraf; sefer ona karşıydı)."
+  },
+  {
+   "t": "1205-01-01",
+   "k": "antlasma",
+   "b": "Gurlu-Hârizmşah antlaşması: Herat dışında Horasan Hârizmşahlar'a geçti",
+   "gun": "Cemâziyelevvel 601 / Ocak 1205 (gün bilinmiyor)",
+   "yer": "Horasan",
+   "kisiler": "Alâeddin Muhammed b. Tekiş, Muizzüddin Muhammed",
+   "d": "Uzun mücadelenin sonunda Hârizmşah Alâeddin Muhammed ile Gurlu Muizzüddin arasında imzalanan antlaşmayla Herat hariç bütün Horasan Hârizmşahlar'a bırakıldı.",
+   "kaynak": "TDV: muhammed-b-tekis (MUHAMMED b. TEKİŞ)",
+   "alinti": "Herat hariç bütün Horasan topraklarının Hârizmşahlar’ın hâkimiyetine geçmesi konusunda bir antlaşma imzaladı (Cemâziyelevvel 601 / Ocak 1205).",
+   "alinti_slug": "muhammed-b-tekis",
+   "taraflar": [
+    "harizmsah",
+    "gurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "toprak-kayip",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1012-01-01",
+   "k": "hanedan",
+   "b": "İlig Han Nasr öldü, Arslan İlig Mansûr yerine geçti",
+   "gun": "403 h. (1012-13); gün bilinmiyor",
+   "yer": "Özkent",
+   "kisiler": "İlig Han Nasr, Arslan İlig Han Mansûr",
+   "d": "Buhara fatihi İlig Han Nasr, ağabeyi Togan Han Ahmed'e karşı giriştiği bağımsızlık mücadelesinin ortasında öldü. Yerine geçen kardeşi Mansûr kısa sürede Talas, Şâş, Fergana ve Buhara'yı alarak kendini büyük kağan ilân etti.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Ancak çok geçmeden İlig Han Nasr öldü (403/1012-13). Yerine Arslan İlig Han sıfatıyla kardeşi Mansûr b. Ali geçti",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Hicrî 403 iki mîlâdî yıla düşüyor; ilk yıl alındı."
+  },
+  {
+   "t": "1016-01-01",
+   "k": "savas",
+   "b": "Karahanlılar Hıtay ilerleyişini Balasagun'da durdurdu",
+   "gun": "1016 (gün bilinmiyor)",
+   "yer": "Balasagun",
+   "kisiler": "",
+   "d": "1009'dan beri batıya yönelen Hıtaylar (Liao) Balasagun yakınında Karahanlılar'a yenildi; batıya ilerleyişleri bir yüzyıl gecikti.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "alinti": "Fakat Karahanlılar tarafından Balasagun yakınlarında bozguna uğratılarak (1016) batıya ilerleyişleri bir yüzyıl geciktirildi.",
+   "alinti_slug": "karahitaylar",
+   "taraflar": [
+    "karahanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Liao (Hıtay) İmparatorluğu"
+  },
+  {
+   "t": "1026-01-01",
+   "k": "hanedan",
+   "b": "Ali Tegin Mâverâünnehir'in müstakil hükümdarı oldu",
+   "gun": "417 h. (1026); gün bilinmiyor",
+   "yer": "Buhara-Semerkant",
+   "kisiler": "Ali Tegin",
+   "d": "Mahmud'un çekilmesinden sonra Buhara ve Semerkant'a yeniden hâkim olan Ali Tegin, Mâverâünnehir'in bağımsız hükümdarı oldu; 1032'de Tamgaç Buğra Kara Hakan unvanıyla bağımsızlığını ilân etti.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Ali Tegin, Gazneli Mahmud’un saldırılarından kurtulduktan sonra 417’de (1026) Mâverâünnehir’in müstakil hükümdarı oldu.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "karahanli"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1032-01-01",
+   "k": "hanedan",
+   "b": "Yûsuf Kadır Han Kâşgar'da öldü",
+   "gun": "Muharrem 424 / Aralık 1032 (gün bilinmiyor)",
+   "yer": "Kâşgar",
+   "kisiler": "Yûsuf Kadır Han, Arslan Han Süleyman, Buğra Han Muhammed",
+   "d": "Büyük kağanlık iddiasındaki Yûsuf Kadır Han öldü; yönetimi oğulları Arslan Han Süleyman ile Buğra Han Muhammed üstlendi. Süleyman'ın saltanatı TDV'de Doğu Karahanlılar'ın başlangıcı sayılır.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Yûsuf Kadır Han Muharrem 424’te (Aralık 1032) vefat etti ve Kâşgar’da Cenbezetülhâkāniyye denilen mezarlıkta gömüldü.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1056-01-01",
+   "k": "hanedan",
+   "b": "Arslan Han Süleyman kardeşi Muhammed'e esir düştü",
+   "gun": "448 h. (1056); gün bilinmiyor",
+   "yer": "",
+   "kisiler": "Arslan Han Süleyman, Buğra Han Muhammed",
+   "d": "Büyük kağan Süleyman, kardeşi Muhammed'in topraklarına sefer düzenlerken esir düşüp hapsedildi. Muhammed kendini büyük kağan ilân etti.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Arslan Han Süleyman, 448’de (1056) kardeşi Muhammed’in topraklarına düzenlediği sefer sırasında esir düştü ve hapsedildi.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "dogu-karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1059-01-01",
+   "k": "hanedan",
+   "b": "İbrâhim b. Muhammed öldürüldü, Tuğrul Karahan Mahmud büyük kağan oldu",
+   "gun": "451 h. (1059); gün bilinmiyor",
+   "yer": "Barsgan",
+   "kisiler": "İbrâhim b. Muhammed, Yinal Tegin, Tuğrul Karahan Mahmud",
+   "d": "Doğu Karahanlı kağanı İbrâhim b. Muhammed, Barsgan hâkimi Yinal Tegin'e yenilip öldürüldü. Bu karışıklıkta Batı Karahanlı Böri Tegin İbrâhim Fergana ve Şâş'ı aldı.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Barsgan şehri hâkimi Yinal Tegin üzerine yürüyen İbrâhim b. Muhammed bu Karahanlı prensi tarafından mağlûp edilerek öldürüldü (451/1059).",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "dogu-karahanli",
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "toprak-kayip"
+   ],
+   "ic_not": "Fergana ve Şâş kaybı: '451 (1059) yılından itibaren Şâş, Îlâk, Tünhas ve Fergana'da basılan sikkelerde onun adı mevcuttur' (Batı kağanı İbrâhim b. Nasr)."
+  },
+  {
+   "t": "1128-01-01",
+   "k": "savas",
+   "b": "Doğu Karahanlı Arslan Han Ahmed ilk Karahıtay akınını yendi",
+   "gun": "1128 (gün bilinmiyor)",
+   "yer": "Balasagun-Kâşgar",
+   "kisiler": "Arslan Han Ahmed b. Hasan, Yeh-lü Ta-şi",
+   "d": "Yeh-lü Ta-şi komutasındaki Karahıtay ordusu Balasagun, Hoten ve Kâşgar bölgesine ilk girdiğinde Doğu Karahanlı hükümdarı Ahmed tarafından yenildi.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "alinti": "Karahıtay ordusu 1128 yılında Balasagun, Hoten ve Kâşgar bölgesine ilk girdiğinde Doğu Karahanlı Hükümdarı Arslan Han Ahmed b. Hasan tarafından mağlûp edildi.",
+   "alinti_slug": "karahitaylar",
+   "taraflar": [
+    "dogu-karahanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Karahıtay devleti bu tarihte kurulmamıştı (f=1130); taraflara yazılmadı. karahanlilar maddesi '522'de (1128) veya daha sonraki bir tarihte' der — kesin tarihli karahitaylar alındı."
+  },
+  {
+   "t": "1158-01-01",
+   "k": "hanedan",
+   "b": "II. İbrâhim Karluk isyanında öldü",
+   "gun": "553 h. (1158); gün bilinmiyor",
+   "yer": "Mâverâünnehir",
+   "kisiler": "II. İbrâhim b. Ahmed",
+   "d": "Karahıtay Gürhanı'nın İlig-i Türkmen unvanı verdiği Kâşgar hükümdarı II. İbrâhim, isyan eden Karluk Türkmenleri'ne karşı Mâverâünnehir'e gönderildi ve muhtemelen orada öldü.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "İsyan eden Karluk Türkmenleri’ni bastırmak için Gürhan tarafından Mâverârünnehir’e gönderilen II. İbrâhim muhtemelen bu sırada şehid düştü (553/1158).",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "dogu-karahanli",
+    "karahitay"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": "TDV 'muhtemelen' diyor — kesinlik düşük."
+  },
+  {
+   "t": "1205-01-01",
+   "k": "hanedan",
+   "b": "Doğu Karahanlı Ebü'l-Muzaffer Yûsuf öldü",
+   "gun": "Receb 601 / Mart 1205 (gün bilinmiyor)",
+   "yer": "Kâşgar",
+   "kisiler": "Ebü'l-Muzaffer Yûsuf b. Muhammed",
+   "d": "Karahıtay tâbii Doğu Karahanlı hükümdarı Ebü'l-Muzaffer Yûsuf öldü ve Kâşgar'daki hükümdarlar mezarlığına gömüldü; oğlu III. Muhammed Karahıtaylar'ca tutuldu.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Torunu Ebü’l-Muzaffer Yûsuf b. Muhammed’in Receb 601’de (Mart 1205) öldüğü ve Kâşgar’da hükümdarlar mezarlığına gömüldüğü bilinmektedir.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "dogu-karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1072-01-01",
+   "k": "fetih",
+   "b": "II. Nasr Alparslan'ın ölümü üzerine Tirmiz ve Belh'i aldı",
+   "gun": "Rebîülâhir 465 / Aralık 1072 (gün bilinmiyor)",
+   "yer": "Tirmiz",
+   "kisiler": "Şemsülmülk II. Nasr b. İbrâhim",
+   "d": "Alparslan'ın Mâverâünnehir seferinde ölmesi üzerine Batı Karahanlı II. Nasr Selçuklular'dan Tirmiz'i, ardından Belh'i aldı.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Alparslan’ın Mâverâünnehir seferinde ölümü üzerine Tirmiz’i aldı (Rebîülâhir 465 / Aralık 1072), ardından Belh üzerine yürüyüp burayı da zaptetti.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "bati-karahanli",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1074-01-01",
+   "k": "antlasma",
+   "b": "Melikşah ile barış: Mâverâünnehir'de Selçuklu hâkimiyeti tanındı",
+   "gun": "466 h. (1074); gün bilinmiyor",
+   "yer": "Semerkant",
+   "kisiler": "Melikşah, II. Nasr, Nizâmülmülk",
+   "d": "Tirmiz'i geri alıp Semerkant'a yürüyen Melikşah karşısında II. Nasr barış istedi. Nizâmülmülk'ün aracılığıyla yapılan barışla Batı Karahanlılar Selçuklu hâkimiyetini tanıdı; iki hânedan evliliklerle bağlandı.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Nizâmülmülk’ün gayretleriyle barış sağlandı (466/1074) ve Mâverâünnehir’de Selçuklu hâkimiyeti tanındı.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "bati-karahanli",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "Harita: 1074'ten itibaren Batı Karahanlı Selçuklu tâbii sayılabilir; 1089 esaretiyle kesinleşir (künye iskeleti)."
+  },
+  {
+   "t": "1095-06-25",
+   "k": "hanedan",
+   "b": "Ahmed b. Hızır zındıklık suçlamasıyla idam edildi",
+   "gun": "18 Cemâziyelâhir 488 / 25 Haziran 1095",
+   "yer": "Semerkant",
+   "kisiler": "Ahmed Han b. Hızır, I. Mesud b. Muhammed",
+   "d": "Melikşah'ın tâbi olarak tahtına iade ettiği Ahmed Han, ulemânın İsmâilîlik ithamıyla yargılanıp idam edildi. Yerine amcazadesi Kılıç Tamgaç Han I. Mesud getirildi.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Bunun üzerine Ahmed yargılanıp idama mahkûm edildi (18 Cemâziyelâhir 488 / 25 Haziran 1095).",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1102-05-22",
+   "k": "hanedan",
+   "b": "Sencer Hârun Tegin'i idam edip Arslan Han Muhammed'i Semerkant'a atadı",
+   "gun": "2 Şâban 495 / 22 Mayıs 1102",
+   "yer": "Tirmiz-Semerkant",
+   "kisiler": "Sultan Sencer, Hârun Tegin, Arslan Han II. Muhammed",
+   "d": "Mâverâünnehir'i istilâ edip Tirmiz'i alan Hârun Tegin, Sencer'e esir düşüp idam edildi. Sencer yeğeni ve damadı II. Muhammed'i Arslan Han unvanıyla Batı Karahanlı tahtına oturttu; sikkelerde Sencer'in adı metbû olarak geçti.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Fakat Selçuklu Sultanı Sencer tarafından esir alınıp idam edildi (2 Şâban 495 / 22 Mayıs 1102).",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1130-01-01",
+   "k": "savas",
+   "b": "Sencer Semerkant'ı alıp Arslan Han Muhammed'i esir etti",
+   "gun": "524 h. (1130); gün bilinmiyor",
+   "yer": "Semerkant",
+   "kisiler": "Sultan Sencer, Arslan Han II. Muhammed, II. Ahmed",
+   "d": "Arslan Han Muhammed ve oğlu II. Ahmed ile ihtilâfa düşen Sencer Semerkant'ı zaptedip yönetime el koydu; Muhammed Merv'de esir olarak öldü.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Sencer Semerkant’ı zaptederek yönetime el koydu ve Arslan Han Muhammed’i esir aldı (524/1130).",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1137-01-01",
+   "k": "savas",
+   "b": "Hucend yenilgisi: Karahıtaylar Batı Karahanlı II. Mahmud'u yendi",
+   "gun": "Ramazan 531 / Haziran 1137 (gün bilinmiyor)",
+   "yer": "Hucend",
+   "kisiler": "II. Mahmud Han, Yeh-lü Ta-şi",
+   "d": "Sencer'in tayin ettiği Batı Karahanlı hükümdarı II. Mahmud, Hucend yakınında Karahıtaylar'a yenilerek Semerkant'a kaçtı. Mâverâünnehir halkını büyük endişeye düşüren yenilgi Katvân'ın habercisi oldu.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Hucend yakınlarındaki savaşta Karahıtaylar’a yenilerek Semerkant’a kaçtı (Ramazan 531 / Haziran 1137).",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "karahitay",
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1141-09-09",
+   "k": "savas",
+   "b": "Katvân Savaşı",
+   "gun": "5 Safer 536 / 9 Eylül 1141",
+   "yer": "Katvân sahrası (Semerkant yakını)",
+   "kisiler": "Yeh-lü Ta-şi (Gürhan), Sultan Sencer, II. Mahmud Han",
+   "d": "Karluklar'ı koruyan Gürhan Yeh-lü Ta-şi, Semerkant yakınındaki Katvân sahrasında Sencer ve Batı Karahanlı II. Mahmud'u ağır bir yenilgiye uğrattı. Sencer 30.000 kayıp verip Tirmiz'e kaçtı; Ceyhun'a kadar bütün Mâverâünnehir Karahıtaylar'a geçti, Hârizm yıllık 30.000 dinar vergiye bağlandı.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "alinti": "daha sonra da Sultan Sencer’i Katvân savaşında ağır bir bozguna uğrattı (5 Safer 536 / 9 Eylül 1141).",
+   "alinti_slug": "karahitaylar",
+   "taraflar": [
+    "karahitay",
+    "buyuk-selcuklu",
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Grup A (Büyük Selçuklu) de bu savaşı yazabilir — MÜKERRER riski; koordinatör tek maddede birleştirmeli. sencer maddesi aynı günü verir."
+  },
+  {
+   "t": "1164-01-01",
+   "k": "hanedan",
+   "b": "II. Mahmud'un ölümüyle İbrâhim soyu sona erdi, iktidar Ali Tegin ailesine geçti",
+   "gun": "559 h. (1164); gün bilinmiyor",
+   "yer": "Horasan",
+   "kisiler": "II. Mahmud Han, Müeyyed Ay-aba",
+   "d": "Sencer'den sonra Horasan'da Oğuzlar'ın başına geçen II. Mahmud ile oğlu Muhammed, Müeyyed Ay-aba'nın esiri olarak hapiste öldü. Batı Karahanlı tahtı Semerkant'ta Ali Tegin (Hasanî) kolunda devam etti.",
+   "kaynak": "TDV: karahanlilar (KARAHANLILAR)",
+   "alinti": "Ertesi yıl ikisi de hapishanede ölünce Batı Karahanlılar sona ermiş oldu (559/1164). Bundan sonra iktidar Ali Tegin ailesinin eline geçti.",
+   "alinti_slug": "karahanlilar",
+   "taraflar": [
+    "bati-karahanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": "TDV burada 'Batı Karahanlılar sona ermiş oldu' diyor ama aynı paragrafta iktidarın Ali Tegin ailesine geçtiğini ve 1212'ye kadar sürdüğünü anlatıyor — künye sonu değil, kol değişimi olarak işlendi."
+  },
+  {
+   "t": "1173-01-01",
+   "k": "hanedan",
+   "b": "Tekiş Karahıtay yardımıyla Hârizm tahtına çıktı",
+   "gun": "568 h. (1173); gün bilinmiyor",
+   "yer": "Gürgenç",
+   "kisiler": "Alâeddin Tekiş, Sultan Şah, Fu-ma",
+   "d": "İlarslan'ın ölümüyle başlayan taht kavgasında Tekiş, vergileri fazlasıyla ödeme vaadiyle Karahıtaylar'dan yardım istedi. Gürhan Çieng-tien'in kocası Fu-ma'nın ordusu Tekiş'i Hârizm'e getirdi, Sultan Şah kaçtı ve Tekiş tahta çıktı.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "alinti": "Fu-ma Gürgenç’e yaklaştığında orada bulunan Sultan Şah ve annesi Terken Hatun şehri terkettiler; sonuçta Tekiş tahta çıktı (568/1173).",
+   "alinti_slug": "karahitaylar",
+   "taraflar": [
+    "karahitay",
+    "harizmsah"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "ÇELİŞKİ: harizmsahlar hükümdar cetveli Tekiş'i '567 (1172)' verir; tahta çıkış olayını tarihleyen karahitaylar (568/1173) alındı."
+  },
+  {
+   "t": "1198-01-01",
+   "k": "savas",
+   "b": "Karahıtaylar Belh için Gurlular'a yenildi",
+   "gun": "1198 (gün bilinmiyor)",
+   "yer": "Belh-Cûzcân",
+   "kisiler": "Bahâeddin Sâm, Tayangu",
+   "d": "Gurlu Bahâeddin Sâm'ın Karahıtay tâbii bir Türk beyinden Belh'i alması üzerine Tayangu komutasındaki Karahıtay ordusu Ceyhun'u geçip Cûzcân'ı yağmaladı, fakat Gurlu ordusuna yenilip 12.000 kayıp verdi.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "alinti": "1198 yılında Gurlular’dan Bahâeddin Sâm b. Muhammed’in Karahıtaylar’a bağlı bir Türk beyi tarafından idare edilen Belh şehrini alması üzerine Karahıtay ordusu Tayangu’nun kumandasında Ceyhun ırmağını geçerek",
+   "alinti_slug": "karahitaylar",
+   "taraflar": [
+    "gurlu",
+    "karahitay"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1209-01-01",
+   "k": "olay",
+   "b": "Uygur İdikut Barçuk Karahıtaylar'dan ayrılıp Cengiz Han'a bağlandı",
+   "gun": "1209 (gün bilinmiyor)",
+   "yer": "Beşbalık-Turfan",
+   "kisiler": "İdikut Barçuk, Cengiz Han",
+   "d": "Karahıtaylar'ın tâbii Uygur hükümdarı İdikut Barçuk, Cengiz Han'ın hâkimiyetini tanıdı; Karahıtay devletinin doğu kanadı Moğollar'a geçti.",
+   "kaynak": "TDV: karahitaylar (KARAHITAYLAR)",
+   "alinti": "1209’da Karahıtaylar’ın tâbilerinden Uygur Hükümdarı İdikut Barçuk, Cengiz Han’a bağlandı.",
+   "alinti_slug": "karahitaylar",
+   "taraflar": [
+    "karahitay",
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-siyasi"
+   ],
+   "ic_not": "karşı taraf künyesiz: Uygur İdikutluğu (Beşbalık)"
+  },
+  {
+   "t": "1200-08-03",
+   "k": "hanedan",
+   "b": "Alâeddin Muhammed Gürgenç'te hârizmşah ilân edildi",
+   "gun": "20 Şevval 596 / 3 Ağustos 1200",
+   "yer": "Gürgenç",
+   "kisiler": "Alâeddin Muhammed b. Tekiş",
+   "d": "Tekiş'in ölümü üzerine Horasan valisi Muhammed, Gürgenç'te toplanan devlet adamları ve kumandanlarca Alâeddin unvanıyla hârizmşah ilân edildi.",
+   "kaynak": "TDV: muhammed-b-tekis (MUHAMMED b. TEKİŞ)",
+   "alinti": "Gürgenç’te toplanan devlet adamları ve kumandanlar tarafından Alâeddin unvanıyla hârizmşah ilân edildi (20 Şevval 596 / 3 Ağustos 1200).",
+   "alinti_slug": "muhammed-b-tekis",
+   "taraflar": [
+    "harizmsah"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1204-01-01",
+   "k": "fetih",
+   "b": "Alâeddin Muhammed Nîşâbur, Merv ve Serahs'ı Gurlular'dan aldı",
+   "gun": "1204 (gün bilinmiyor)",
+   "yer": "Horasan",
+   "kisiler": "Alâeddin Muhammed b. Tekiş",
+   "d": "Tekiş'in ölümünden sonra Gurlular'ın ele geçirdiği Horasan şehirlerini Alâeddin Muhammed geri aldı; bunun üzerine Muizzüddin Hârizm'e yürüdü.",
+   "kaynak": "TDV: harizmsahlar (HÂRİZMŞAHLAR)",
+   "alinti": "Merv ve Tûs’u zapteden Gurlular Horasan’ı ele geçirmek istiyorlardı. Alâeddin Nîşâbur, Merv ve Serahs’ı zaptetti (1204).",
+   "alinti_slug": "harizmsahlar",
+   "taraflar": [
+    "harizmsah",
+    "gurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1215-01-01",
+   "k": "fetih",
+   "b": "Alâeddin Muhammed Kıpçaklar'dan Sığnak'ı aldı",
+   "gun": "612 h. (1215); gün bilinmiyor",
+   "yer": "Sığnak",
+   "kisiler": "Alâeddin Muhammed b. Tekiş",
+   "d": "Kıpçak bozkırlarına başarılı seferler yapan Alâeddin Muhammed Siriderya boyundaki Sığnak'ı topraklarına kattı; aynı yıl Gazne'yi de alarak devletini en geniş sınırlarına ulaştırdı.",
+   "kaynak": "TDV: muhammed-b-tekis (MUHAMMED b. TEKİŞ)",
+   "alinti": "Kıpçaklar’a karşı yaptığı seferlerde başarılı sonuçlar elde ederek 612’de (1215) Sığnak’ı ele geçirdi.",
+   "alinti_slug": "muhammed-b-tekis",
+   "taraflar": [
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Kıpçaklar. Gazne'nin alınışı gurlu künye iskeletinde (1215 yıkılış) — tekrar edilmedi."
+  },
+  {
+   "t": "1219-01-01",
+   "k": "fetih",
+   "b": "Cengiz Han Otrar'ı aldı; Moğol istilâsı başladı",
+   "gun": "616 h. (1219); gün bilinmiyor",
+   "yer": "Otrar",
+   "kisiler": "Cengiz Han, Alâeddin Muhammed, Kayırhan",
+   "d": "Otrar valisinin Moğol kervanını katletmesi ve Hârizmşah'ın elçileri öldürtmesi üzerine Cengiz Han Otrar'a yürüyüp şehri birkaç ayda aldı. Hârizmşah ordusunu kalelere dağıtıp Horasan'a çekildi, bütün Mâverâünnehir Moğollar'a geçti.",
+   "kaynak": "TDV: muhammed-b-tekis (MUHAMMED b. TEKİŞ)",
+   "alinti": "Bunun üzerine Cengiz Han Otrar üzerine yürüdü ve birkaç ay içinde şehri zaptetti (616/1219).",
+   "alinti_slug": "muhammed-b-tekis",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Otrar kervan katliamı (1218) ayrı madde yapılmadı (toprak değişimi yok). harizmsahlar: 'Moğol orduları 1219 yılının sonlarına doğru Hârizmşahlar'ın topraklarına girdi'."
+  },
+  {
+   "t": "1220-01-01",
+   "k": "fetih",
+   "b": "Semerkant düştü; Mâverâünnehir Moğollar'a geçti",
+   "gun": "1220 (gün bilinmiyor)",
+   "yer": "Semerkant",
+   "kisiler": "Cengiz Han",
+   "d": "Otrar, Sığnak, Hucend ve Buhara'dan sonra Mâverâünnehir'in en güçlü savunma merkezi Semerkant da Moğollar'ın eline geçti; Cengiz ordusunu kollara ayırıp Hârizmşah vilâyetlerinin zaptına gönderdi.",
+   "kaynak": "TDV: harizmsahlar (HÂRİZMŞAHLAR)",
+   "alinti": "Mâverâünnehir’in en kuvvetli savunma merkezi olan Semerkant’ın zaptından sonra Cengiz, ordusunu kollara ayırarak bunları imparatorluğa tâbi vilâyetlerin zaptı ile görevlendirdi (1220).",
+   "alinti_slug": "harizmsahlar",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1221-01-01",
+   "k": "fetih",
+   "b": "Gürgenç Moğollar'a düştü",
+   "gun": "Safer 618 / Nisan 1221 (gün bilinmiyor)",
+   "yer": "Gürgenç",
+   "kisiler": "Humâr Tegin",
+   "d": "Başsız kalan Hârizmşah başşehri Gürgenç'i Humâr Tegin 90.000 kişilik orduyla savundu; şehir dört aylık kuşatmadan sonra Moğollar'ın eline geçti.",
+   "kaynak": "TDV: harizmsahlar (HÂRİZMŞAHLAR)",
+   "alinti": "şehir dört aylık bir kuşatmanın ardından Moğol kuvvetlerinin eline düştü (Safer 618 / Nisan 1221).",
+   "alinti_slug": "harizmsahlar",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1221-11-26",
+   "k": "savas",
+   "b": "Sind (İndus) Savaşı: Celâleddin Hindistan'a geçti",
+   "gun": "9 Şevval 618 / 26 Kasım 1221",
+   "yer": "Sind nehri kıyısı",
+   "kisiler": "Celâleddin Hârizmşah, Cengiz Han",
+   "d": "Parvan'da Moğollar'ı yenen Celâleddin'i takip eden Cengiz Han, Sind nehri kıyısında ordusunu çembere aldı. Yenilen Celâleddin nehri geçerek Hindistan'a sığındı; Gazne ve Afganistan Moğollar'a açıldı.",
+   "kaynak": "TDV: harizmsahlar (HÂRİZMŞAHLAR)",
+   "alinti": "Celâleddin, daha sonra Moğollar’ı üst üste mağlûp etmesine rağmen 9 Şevval 618’de (26 Kasım 1221) Hindistan’a sığınmak zorunda kaldı.",
+   "alinti_slug": "harizmsahlar",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1225-01-01",
+   "k": "fetih",
+   "b": "Celâleddin Tebriz'i alıp Azerbaycan'ı ilhak etti",
+   "gun": "Temmuz 1225 (gün bilinmiyor)",
+   "yer": "Tebriz",
+   "kisiler": "Celâleddin Hârizmşah, Özbek b. Pehlivân",
+   "d": "1224'te Hindistan'dan dönüp Kirman ve Irâk-ı Acem'e hâkim olan Celâleddin, Merâga'dan sonra Tebriz'i aldı; İldenizliler'in bütün toprakları Hârizmşahlar'a geçti ve Tebriz başşehir oldu.",
+   "kaynak": "TDV: celaleddin-harizmsah (CELÂLEDDİN HÂRİZMŞAH)",
+   "alinti": "Sonra Tebriz üzerine yürüdü ve 1225 Temmuzunda şehri zaptetti. Böylece Azerbaycan’ı ilhak eden sultan Gürcistan seferine",
+   "alinti_slug": "celaleddin-harizmsah",
+   "taraflar": [
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: İldenizliler (grup dışı)"
+  },
+  {
+   "t": "1230-01-01",
+   "k": "savas",
+   "b": "Yassıçimen Savaşı",
+   "gun": "Ağustos 1230 (gün bilinmiyor)",
+   "yer": "Yassıçimen (Erzincan yakını)",
+   "kisiler": "Celâleddin Hârizmşah, I. Alâeddin Keykubad, el-Melikü'l-Eşref",
+   "d": "Anadolu Selçuklu Sultanı I. Alâeddin Keykubad ile Eyyûbî el-Melikü'l-Eşref'in birleşik ordusu karşısında Celâleddin savaş alanını terk etti; Hârizmliler ağır kayıp verdi, hazine Selçuklular'a geçti. Yenilgi Hârizmşahlar'ın son gücünü kırdı.",
+   "kaynak": "TDV: celaleddin-harizmsah (CELÂLEDDİN HÂRİZMŞAH)",
+   "alinti": "İki ordu Yassı Çimen mevkiinde karşılaştı (Ağustos 1230).",
+   "alinti_slug": "celaleddin-harizmsah",
+   "taraflar": [
+    "selcuklu",
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Anadolu grubu da bu savaşı yazmış olabilir — mükerrer kontrolü koordinatörde. karşı taraf künyesiz: Eyyûbîler."
+  }
+ ],
+ "bulunamadi": [
+  "Fergana Karahanlı Hanlığı (Özkent, 1141 sonrası 'bağımsız bir Karahanlı Devleti', Tuğrul Kara Hakan unvanlı) — karahanlilar maddesinde anılıyor ama bitiş tarihi ve toprağı gövdede ölçülemedi; ayrı künye ÖNERİLMEDİ, koordinatör kararı.",
+  "Me'mûnîler (Hârizmşah, 995-1017) ve Altuntaşoğulları (Gazneli valisi Hârizmşahlar, 1017-1041) — harizmsahlar maddesinde tarihli; 1000-1041 kuşağında Hârizm'in sahibi. Grup B listesinde yoktu, künye önerilmedi; 1017'den sonrası gazneli toprağı sayılabilir. Me'mûnîler için ayrı TDV slug'ı denenmedi.",
+  "Hindûşâhî, Mültan Karmatîleri, Ecmîr/Delhi Çavhanları (Prithivi Raj), Kannevc racalığı — Gazneli/Gurlu maddelerinin karşı tarafı; devletler.js'te künyeleri YOK, TDV'de ayrı madde aranmadı (Hint yerli devletleri grup dışı).",
+  "Liao (Hıtay) İmparatorluğu, Uygur İdikutluğu, Nayman Hanlığı (Küçlük) — devletler.js'te YOK (ölçüldü: liao/nayman/uygur eşleşmesi 0). Önbellekte nayman.txt/naymanlar.txt ve uygurlar.txt var; Küçlük 1211-1218 Doğu Türkistan'ı tuttu — başka grup/parça işi olabilir.",
+  "Büveyhîler, Abbâsî Halifeliği, Irak Selçukluları, İldenizliler, Salgurlular, Eyyûbîler (ana künye) — devletler.js'te YOK (ölçüldü); taraflara yazılmadı, ic_not'ta anıldı. buyuk-selcuklu da ŞU AN devletler.js'te YOK — koordinatör talimatıyla taraf olarak yazıldı (grup A önerisi varsayıldı)."
+ ]
+}

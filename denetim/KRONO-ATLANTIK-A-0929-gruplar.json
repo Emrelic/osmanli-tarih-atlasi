@@ -1,0 +1,5441 @@
+[
+ {
+  "gun": "1324-01-01",
+  "eski": "ceneviz",
+  "yeni": "aragon",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Kalyari (Cagliari)",
+   "Sasari (Sassari)"
+  ],
+  "lat": 39.97,
+  "lon": 8.84,
+  "en_yakin_madde": "Akyazı ve İmralı Adası'nın fethi",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1415-01-01",
+  "eski": "merini",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Sebte (Ceuta)"
+  ],
+  "lat": 35.89,
+  "lon": -5.32,
+  "en_yakin_madde": "Manisa'nın Çelebi Mehmed idaresine girişi — Saruhanoğulları Manisa kolunun sonu",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1443-11-21",
+  "eski": "almanya",
+  "yeni": "burgonya",
+  "kol": "A",
+  "kova": "acik",
+  "n": 6,
+  "kapali_n": 0,
+  "yerler": [
+   "Arlon",
+   "Bastogne",
+   "Neufchâteau (Belçika)",
+   "St. Vith (Sankt Vith)",
+   "Virton",
+   "Wiltz"
+  ],
+  "lat": 49.89,
+  "lon": 5.76,
+  "en_yakin_madde": "İzladi bozgunu — 'Uzun Sefer'",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1444-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Gore (Gorée)"
+  ],
+  "lat": 14.68,
+  "lon": -17.43,
+  "en_yakin_madde": "İzladi bozgunu — 'Uzun Sefer'",
+  "fark_gun": 61,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1451-06-30",
+  "eski": "ingiltere",
+  "yeni": "fransa",
+  "kol": "ORTAK",
+  "kova": "acik",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Bordo"
+  ],
+  "lat": 44.84,
+  "lon": -0.58,
+  "en_yakin_madde": "Divan-ı Hümayun'un Fâtih kanunuyla kurumsallaşması",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1471-01-01",
+  "eski": "merini",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Arzila (Asilah)"
+  ],
+  "lat": 35.47,
+  "lon": -6.04,
+  "en_yakin_madde": "Alanya, Anamur ve Silifke'nin (İçel) ilhakı",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1479-01-20",
+  "eski": "aragon",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "acik",
+  "n": 7,
+  "kapali_n": 7,
+  "yerler": [
+   "Barselona",
+   "Kalyari (Cagliari)",
+   "Mayorka (Palma)",
+   "Menorka (Mahon)",
+   "Sasari (Sassari)",
+   "Valensiya",
+   "İbiza"
+  ],
+  "lat": 39.88,
+  "lon": 3.97,
+  "en_yakin_madde": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1479-01-20",
+  "eski": "kastilya",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "acik",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Madrid",
+   "Sevilla"
+  ],
+  "lat": 38.9,
+  "lon": -4.84,
+  "en_yakin_madde": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1482-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Elmina (São Jorge da Mina)"
+  ],
+  "lat": 5.08,
+  "lon": -1.35,
+  "en_yakin_madde": "Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1496-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Santo Domingo"
+  ],
+  "lat": 18.49,
+  "lon": -69.93,
+  "en_yakin_madde": "Cem Sultan'ın ölümü — on dört yıllık rehinenin sonu",
+  "fark_gun": 310,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1497-01-01",
+  "eski": "merini",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Melîle (Melilla)"
+  ],
+  "lat": 35.29,
+  "lon": -2.94,
+  "en_yakin_madde": "Melilla'nın alınması",
+  "fark_gun": 259,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1503-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Jaragua (Taino cacicazgosu)"
+  ],
+  "lat": 18.51,
+  "lon": -72.63,
+  "en_yakin_madde": "Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1504-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Higüey (Taino cacicazgosu)"
+  ],
+  "lat": 18.61,
+  "lon": -68.7,
+  "en_yakin_madde": "II. Bayezid'in Kırkpınar güreşçilerine büyük ödül vermesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1507-01-01",
+  "eski": "nebhani",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 4,
+  "kapali_n": 4,
+  "yerler": [
+   "Maskat",
+   "Sokotra",
+   "Suhâr",
+   "Sûr"
+  ],
+  "lat": 20.75,
+  "lon": 57.13,
+  "en_yakin_madde": "Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
+  "fark_gun": 31,
+  "bolge": "arabistan"
+ },
+ {
+  "gun": "1508-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Caparra"
+  ],
+  "lat": 18.43,
+  "lon": -66.11,
+  "en_yakin_madde": "Bağdat'ın Safevî'ye geçişi — Irâk-ı Arab el değiştirdi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1511-01-01",
+  "eski": "portekiz",
+  "yeni": "umman",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Sokotra"
+  ],
+  "lat": 12.51,
+  "lon": 53.87,
+  "en_yakin_madde": "Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1512-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Germán"
+  ],
+  "lat": 18.08,
+  "lon": -67.05,
+  "en_yakin_madde": "Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırılması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1514-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Camagüey bölgesi (Taino)"
+  ],
+  "lat": 21.38,
+  "lon": -77.92,
+  "en_yakin_madde": "Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1514-06-04",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Sancti Spíritus"
+  ],
+  "lat": 21.93,
+  "lon": -79.44,
+  "en_yakin_madde": "Çaldıran Zaferi",
+  "fark_gun": 58,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1515-07-25",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Santiago de Cuba"
+  ],
+  "lat": 20.02,
+  "lon": -75.82,
+  "en_yakin_madde": "Turnadağ Zaferi — Dulkadir Beyliği Osmanlı'ya tâbi oldu",
+  "fark_gun": 42,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1519-04-22",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Veracruz (Villa Rica de la Vera Cruz)"
+  ],
+  "lat": 19.17,
+  "lon": -96.13,
+  "en_yakin_madde": "Centla Muharebesi — Potonchán Maya beyliği düştü, Santa María de la Victoria kuruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1519-07-01",
+  "eski": "nahua-sehir-devletleri",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cempoala (Zempoala)"
+  ],
+  "lat": 19.41,
+  "lon": -96.39,
+  "en_yakin_madde": "Panamá kuruldu — Büyük Okyanus kıyısındaki ilk Avrupa şehri",
+  "fark_gun": 45,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1519-10-18",
+  "eski": "nahua-sehir-devletleri",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Cholula"
+  ],
+  "lat": 19.06,
+  "lon": -98.3,
+  "en_yakin_madde": "Hernán Cortés, Tenochtitlan'a girdi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1519-11-16",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Havana (La Habana)"
+  ],
+  "lat": 23.11,
+  "lon": -82.37,
+  "en_yakin_madde": "Hernán Cortés, Tenochtitlan'a girdi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1521-01-01",
+  "eski": "ispanya",
+  "yeni": "—",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Caparra"
+  ],
+  "lat": 18.43,
+  "lon": -66.11,
+  "en_yakin_madde": "Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1521-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "San Juan"
+  ],
+  "lat": 18.47,
+  "lon": -66.11,
+  "en_yakin_madde": "Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1521-08-13",
+  "eski": "aztek-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 4,
+  "kapali_n": 4,
+  "yerler": [
+   "Chalco",
+   "Texcoco",
+   "Tlacopan (Tacuba)",
+   "Xochimilco"
+  ],
+  "lat": 19.37,
+  "lon": -99.01,
+  "en_yakin_madde": "Uzun kuşatma sonunda Tenochtitlan düştü, son imparator Cuauhtémoc esir alındı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1521-08-13",
+  "eski": "nahua-sehir-devletleri",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Huexotzinco (Huejotzingo)",
+   "Tlaxcala"
+  ],
+  "lat": 19.23,
+  "lon": -98.32,
+  "en_yakin_madde": "Uzun kuşatma sonunda Tenochtitlan düştü, son imparator Cuauhtémoc esir alındı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1522-01-01",
+  "eski": "tututepec-krallik",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Tututepec (Yucu Dzaa)"
+  ],
+  "lat": 16.15,
+  "lon": -97.62,
+  "en_yakin_madde": "Bagirmi Sultanlığı kuruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1522-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Pánuco (Huasteca)"
+  ],
+  "lat": 22.05,
+  "lon": -98.18,
+  "en_yakin_madde": "Bagirmi Sultanlığı kuruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1523-01-01",
+  "eski": "zapotek-krallik",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Mitla",
+   "Zaachila"
+  ],
+  "lat": 16.95,
+  "lon": -96.55,
+  "en_yakin_madde": "Una vadisinde Ostrovica Kalesi'nin fethi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1524-07-25",
+  "eski": "maya-sehir-devletleri",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Iximché"
+  ],
+  "lat": 14.75,
+  "lon": -90.98,
+  "en_yakin_madde": "Mısır'da Hain Ahmed Paşa isyanı",
+  "fark_gun": 206,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1525-05-18",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Trujillo (Honduras)"
+  ],
+  "lat": 15.92,
+  "lon": -85.95,
+  "en_yakin_madde": "Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü",
+  "fark_gun": 40,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1527-01-01",
+  "eski": "ispanya",
+  "yeni": "—",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Iximché"
+  ],
+  "lat": 14.75,
+  "lon": -90.98,
+  "en_yakin_madde": "Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1530-01-01",
+  "eski": "maya-sehir-devletleri",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Acalán (Itzamkanac)"
+  ],
+  "lat": 18.2,
+  "lon": -90.97,
+  "en_yakin_madde": "Alâeddin Riâyet Şah Johor nehri kıyısında Cohor Sultanlığı'nı kurdu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1530-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Sena"
+  ],
+  "lat": -17.45,
+  "lon": 35.03,
+  "en_yakin_madde": "Alâeddin Riâyet Şah Johor nehri kıyısında Cohor Sultanlığı'nı kurdu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1530-02-14",
+  "eski": "purepecha-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Ihuatzio",
+   "Pátzcuaro",
+   "Tzintzuntzan"
+  ],
+  "lat": 19.57,
+  "lon": -101.6,
+  "en_yakin_madde": "Malta ve Trablus Saint Jean şövalyelerine verildi — Rodos'tan sürülen tarikatın yeni üssü",
+  "fark_gun": 38,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1531-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Culiacán (San Miguel de Culiacán)"
+  ],
+  "lat": 24.81,
+  "lon": -107.39,
+  "en_yakin_madde": "Malta ve Trablus Saint Jean şövalyelerine verildi — Rodos'tan sürülen tarikatın yeni üssü",
+  "fark_gun": 283,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1531-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Tete"
+  ],
+  "lat": -16.16,
+  "lon": 33.59,
+  "en_yakin_madde": "Malta ve Trablus Saint Jean şövalyelerine verildi — Rodos'tan sürülen tarikatın yeni üssü",
+  "fark_gun": 283,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1532-01-01",
+  "eski": "inka-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Tumbes"
+  ],
+  "lat": -3.57,
+  "lon": -80.45,
+  "en_yakin_madde": "Bitlis Safevî himayesine geçti — Ulama ve Fil Paşa kuşatmayı kaldırdı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1532-11-16",
+  "eski": "inka-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Chan Chan",
+   "Túcume"
+  ],
+  "lat": -7.31,
+  "lon": -79.45,
+  "en_yakin_madde": "Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp esir aldı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1533-01-01",
+  "eski": "inka-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Chucuito",
+   "Hatun Colla",
+   "Vilcashuamán"
+  ],
+  "lat": -15.01,
+  "lon": -71.25,
+  "en_yakin_madde": "İstanbul Antlaşması — Habsburglarla ilk barış",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1533-11-15",
+  "eski": "inka-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Cusco (Qosqo)"
+  ],
+  "lat": -13.53,
+  "lon": -71.97,
+  "en_yakin_madde": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+  "fark_gun": 47,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1534-01-01",
+  "eski": "inka-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Quito"
+  ],
+  "lat": -0.23,
+  "lon": -78.52,
+  "en_yakin_madde": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1534-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Spanish Town (Villa de la Vega)"
+  ],
+  "lat": 17.99,
+  "lon": -76.96,
+  "en_yakin_madde": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1534-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "İnhambane"
+  ],
+  "lat": -23.87,
+  "lon": 35.38,
+  "en_yakin_madde": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1534-05-27",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Porto Seguro"
+  ],
+  "lat": -16.44,
+  "lon": -39.06,
+  "en_yakin_madde": "Kars çevresinin bütünleşmesi: Arpaçay, Digor ve Iğdır'ın Osmanlı idaresine girmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1534-07-24",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Gaspé"
+  ],
+  "lat": 48.84,
+  "lon": -64.48,
+  "en_yakin_madde": "Tebriz'e ilk giriş — Irakeyn Seferi'nin açılışı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1536-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Archidona (Napo)"
+  ],
+  "lat": -0.91,
+  "lon": -77.81,
+  "en_yakin_madde": "Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1537-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cali"
+  ],
+  "lat": 3.44,
+  "lon": -76.52,
+  "en_yakin_madde": "Barbaros'un Ege adaları seferi — Nakşa Dükalığı Osmanlı kontrolüne girdi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1537-04-20",
+  "eski": "muisca-konfederasyonu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Bacatá (Bogotá)"
+  ],
+  "lat": 4.71,
+  "lon": -74.07,
+  "en_yakin_madde": "Klis Kalesi'nin fethi ve Dalmaçya sancağının kuruluşu",
+  "fark_gun": 39,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1537-07-01",
+  "eski": "inka-imparatorlugu",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Ollantaytambo"
+  ],
+  "lat": -13.26,
+  "lon": -72.26,
+  "en_yakin_madde": "Hunza'nın zaptı — zaque Quemuenchatocha'nın yenilgisi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1542-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Simití"
+  ],
+  "lat": 7.96,
+  "lon": -73.95,
+  "en_yakin_madde": "İspanyollar Tiho'yu (Mérida) alarak kuzeybatı Yucatán'daki Maya şehir-devletlerinin hâkimiyetine son verdi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1549-08-26",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "La Serena"
+  ],
+  "lat": -29.9,
+  "lon": -71.25,
+  "en_yakin_madde": "Lahsa ve Katîf'in ilhakı — Körfez'in Arabistan kıyısı",
+  "fark_gun": 128,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1552-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Valdivia"
+  ],
+  "lat": -39.81,
+  "lon": -73.25,
+  "en_yakin_madde": "Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağlanması, Tilimsan'ın kesin fethi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1553-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Santiago del Estero"
+  ],
+  "lat": -27.79,
+  "lon": -64.26,
+  "en_yakin_madde": "Lautaro onderligindeki Araukanlar Valdivia'yi yenip olduruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1554-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Ciudad Real del Guairá"
+  ],
+  "lat": -24.1,
+  "lon": -54.3,
+  "en_yakin_madde": "Kırkçeşme Suları isale hattının inşaatının başlaması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1557-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Pedro de Atacama"
+  ],
+  "lat": -22.91,
+  "lon": -68.2,
+  "en_yakin_madde": "Seydi Ali Reis'in Mir'âtü'l-Memâlik'i İstanbul'da tamamlaması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1561-03-02",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Mendoza"
+  ],
+  "lat": -32.89,
+  "lon": -68.83,
+  "en_yakin_madde": "Rüstem Paşa Külliyesi'nin (Camii) yapımı",
+  "fark_gun": 60,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1562-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Nuestra Señora de Caraballeda"
+  ],
+  "lat": 10.61,
+  "lon": -66.83,
+  "en_yakin_madde": "Mâlvâ, Ekber Şah döneminde kesin olarak Bâbürlü topraklarına katıldı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1565-09-08",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "St. Augustine"
+  ],
+  "lat": 29.89,
+  "lon": -81.31,
+  "en_yakin_madde": "Sokullu Mehmed Paşa sadrazamlığa yükseldi",
+  "fark_gun": 71,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1567-02-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Castro (Chiloé)"
+  ],
+  "lat": -42.48,
+  "lon": -73.76,
+  "en_yakin_madde": "Büyükçekmece Köprüsü'nün tamamlanması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1570-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cotagaita (Santiago de Cotagaita)"
+  ],
+  "lat": -20.82,
+  "lon": -65.66,
+  "en_yakin_madde": "IV. İvan'ın Don kazaklarına gramotası — Don Kazak Ordası'nın ilk güvenilir kaydı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1573-07-06",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Córdoba (Arjantin)"
+  ],
+  "lat": -31.42,
+  "lon": -64.19,
+  "en_yakin_madde": "Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
+  "fark_gun": 96,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1573-11-15",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Santa Fe (Arjantin)"
+  ],
+  "lat": -31.63,
+  "lon": -60.7,
+  "en_yakin_madde": "Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
+  "fark_gun": 36,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1580-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Buenos Aires"
+  ],
+  "lat": -34.6,
+  "lon": -58.38,
+  "en_yakin_madde": "Zal Mahmud Paşa Camii'nin tamamlanması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1583-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Massangano"
+  ],
+  "lat": -9.54,
+  "lon": 14.2,
+  "en_yakin_madde": "Meşaleler Savaşı — Şirvan kesin olarak Osmanlı'da",
+  "fark_gun": 128,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1585-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Concepción del Bermejo"
+  ],
+  "lat": -26.6,
+  "lon": -60.9,
+  "en_yakin_madde": "Büyük tağşiş — akçe krizi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1588-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kaşev (Cacheu)"
+  ],
+  "lat": 12.27,
+  "lon": -16.17,
+  "en_yakin_madde": "Hünernâme'nin II. cildinin tamamlanması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1588-04-03",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Corrientes"
+  ],
+  "lat": -27.48,
+  "lon": -58.83,
+  "en_yakin_madde": "Hünernâme'nin II. cildinin tamamlanması",
+  "fark_gun": 93,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1591-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "La Rioja (Arjantin)"
+  ],
+  "lat": -29.41,
+  "lon": -66.86,
+  "en_yakin_madde": "Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı",
+  "fark_gun": 102,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1592-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San José de Oruña (St. Joseph)"
+  ],
+  "lat": 10.65,
+  "lon": -61.41,
+  "en_yakin_madde": "Dâvud Ağa'nın hassa mimarbaşı olması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1595-05-21",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Santa Cruz de la Sierra"
+  ],
+  "lat": -17.78,
+  "lon": -63.18,
+  "en_yakin_madde": "Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi",
+  "fark_gun": 94,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1600-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Tadoussac"
+  ],
+  "lat": 48.15,
+  "lon": -69.72,
+  "en_yakin_madde": "Tura boyunda Turinsk kalesi kuruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1600-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "İbo (Kerimba)"
+  ],
+  "lat": -12.39,
+  "lon": 40.56,
+  "en_yakin_madde": "Tura boyunda Turinsk kalesi kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1604-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kambambe (Cambambe)"
+  ],
+  "lat": -9.75,
+  "lon": 14.48,
+  "en_yakin_madde": "Kardeş katli geleneğinin fiilen sona ermesi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1605-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Port Royal (Acadia)"
+  ],
+  "lat": 44.74,
+  "lon": -65.51,
+  "en_yakin_madde": "Revan'ın Şah Abbas'a kaybı",
+  "fark_gun": 207,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1608-07-03",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Quebec"
+  ],
+  "lat": 46.82,
+  "lon": -71.22,
+  "en_yakin_madde": "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması",
+  "fark_gun": 37,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1609-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Ignacio Guazú"
+  ],
+  "lat": -26.89,
+  "lon": -57.03,
+  "en_yakin_madde": "Rus kuvvetlerinin Kasım şehrini zaptı, Uraz Muhammed Han",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1612-09-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "São Luís"
+  ],
+  "lat": -2.53,
+  "lon": -44.3,
+  "en_yakin_madde": "Hollanda'ya ilk ahidnâme verilmesi",
+  "fark_gun": 57,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1615-03-25",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Encarnación (Itapúa)"
+  ],
+  "lat": -27.33,
+  "lon": -55.87,
+  "en_yakin_madde": "Lehistan'ın Yedisan uç hattında Uman'ın belirmesi",
+  "fark_gun": 282,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1615-11-04",
+  "eski": "fransa",
+  "yeni": "portekiz-brezilyasi",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "São Luís"
+  ],
+  "lat": -2.53,
+  "lon": -44.3,
+  "en_yakin_madde": "Lehistan'ın Yedisan uç hattında Uman'ın belirmesi",
+  "fark_gun": 58,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1617-05-17",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Benguela"
+  ],
+  "lat": -12.58,
+  "lon": 13.41,
+  "en_yakin_madde": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+  "fark_gun": 79,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1622-05-01",
+  "eski": "portekiz",
+  "yeni": "umman",
+  "kol": "A",
+  "kova": "acik",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Ras el-Hayme (Cülfâr)",
+   "Şârika"
+  ],
+  "lat": 25.57,
+  "lon": 55.67,
+  "en_yakin_madde": "II. Osman'ın katli (Hâile-i Osmâniye)",
+  "fark_gun": 31,
+  "bolge": "arabistan"
+ },
+ {
+  "gun": "1627-01-01",
+  "eski": "portekiz",
+  "yeni": "hollanda",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Gore (Gorée)"
+  ],
+  "lat": 14.68,
+  "lon": -17.43,
+  "en_yakin_madde": "Abaza Mehmed Paşa'nın Erzurum merkezli isyanının bastırılması",
+  "fark_gun": 630,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1631-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Saint John (NB)"
+  ],
+  "lat": 45.29,
+  "lon": -66.06,
+  "en_yakin_madde": "Angara boyunda Rus Bratsk kalesi kuruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1632-01-01",
+  "eski": "ispanya",
+  "yeni": "—",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Ciudad Real del Guairá",
+   "Concepción del Bermejo"
+  ],
+  "lat": -25.35,
+  "lon": -57.6,
+  "en_yakin_madde": "IV. Murad'ın çelişkileri: içkiye düşkün padişahın içki yasağı, güreşçi bileği, besteci kulağı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1634-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "La Baye (Green Bay)"
+  ],
+  "lat": 44.51,
+  "lon": -88.02,
+  "en_yakin_madde": "İlk şeyhülislâm idamı: Ahîzâde Hüseyin Efendi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1634-07-04",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Trois-Rivières"
+  ],
+  "lat": 46.34,
+  "lon": -72.54,
+  "en_yakin_madde": "İlk şeyhülislâm idamı: Ahîzâde Hüseyin Efendi",
+  "fark_gun": 177,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1635-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cerro de la Sal"
+  ],
+  "lat": -10.7,
+  "lon": -75.2,
+  "en_yakin_madde": "Nef'î'nin hicivleri yüzünden idam edilmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1637-01-01",
+  "eski": "portekiz",
+  "yeni": "hollanda",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Elmina (São Jorge da Mina)"
+  ],
+  "lat": 5.08,
+  "lon": -1.35,
+  "en_yakin_madde": "İstanbul'da veba salgını",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1642-05-17",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Montreal (Ville-Marie)"
+  ],
+  "lat": 45.5,
+  "lon": -73.57,
+  "en_yakin_madde": "Azak Kalesi'nin Kazaklardan geri alınışı",
+  "fark_gun": 80,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1643-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Cayenne",
+   "Tolanaro (Fort Dauphin)"
+  ],
+  "lat": -10.05,
+  "lon": -2.67,
+  "en_yakin_madde": "Azak Kalesi'nin Kazaklardan geri alınışı",
+  "fark_gun": 309,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1649-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Santa María de Huallaga"
+  ],
+  "lat": -6.9,
+  "lon": -76.1,
+  "en_yakin_madde": "Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü",
+  "fark_gun": 69,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1650-01-26",
+  "eski": "portekiz",
+  "yeni": "umman",
+  "kol": "A",
+  "kova": "acik",
+  "n": 3,
+  "kapali_n": 3,
+  "yerler": [
+   "Maskat",
+   "Suhâr",
+   "Sûr"
+  ],
+  "lat": 23.5,
+  "lon": 58.21,
+  "en_yakin_madde": "İltizam sisteminin askerî zümrenin tekeline girerek olgunlaşması",
+  "fark_gun": 31,
+  "bolge": "arabistan"
+ },
+ {
+  "gun": "1651-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Sept-Îles"
+  ],
+  "lat": 50.21,
+  "lon": -66.38,
+  "en_yakin_madde": "Büyük Vâlide Kösem Sultan'ın öldürülmesi",
+  "fark_gun": 244,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1655-05-10",
+  "eski": "ispanya",
+  "yeni": "ingiltere",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Spanish Town (Villa de la Vega)"
+  ],
+  "lat": 17.99,
+  "lon": -76.96,
+  "en_yakin_madde": "Kâtib Çelebi'nin Cihannümâ'yı yeni baştan yazmaya girişmesi",
+  "fark_gun": 160,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1656-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Mission San Luis (Apalaçi)"
+  ],
+  "lat": 30.45,
+  "lon": -84.31,
+  "en_yakin_madde": "Çınar Vak'ası (Vak'a-i Vakvakiye)",
+  "fark_gun": 63,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1659-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Saint-Louis (Ndar)"
+  ],
+  "lat": 16.03,
+  "lon": -16.51,
+  "en_yakin_madde": "Sa’dî hânedanının sonu — Fas’ta Alevî (Filâlî) devrinin başlaması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1661-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Nemiscau"
+  ],
+  "lat": 51.43,
+  "lon": -76.13,
+  "en_yakin_madde": "Llívia sözleşmesi — Llívia'nın Cerdanya'da İspanyol anklavı olarak kalması",
+  "fark_gun": 50,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1662-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Plaisance (Placentia)"
+  ],
+  "lat": 47.25,
+  "lon": -53.96,
+  "en_yakin_madde": "Tanca İngiltere'ye devredildi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1665-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Chequamegon (La Pointe)"
+  ],
+  "lat": 46.78,
+  "lon": -90.79,
+  "en_yakin_madde": "Vasvar Antlaşması",
+  "fark_gun": 145,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1668-06-16",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Garapan (Saipan)",
+   "Hagåtña (Agaña)"
+  ],
+  "lat": 14.33,
+  "lon": 145.25,
+  "en_yakin_madde": "Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi",
+  "fark_gun": 45,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1671-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Michilimackinac"
+  ],
+  "lat": 45.86,
+  "lon": -84.73,
+  "en_yakin_madde": "Cezayir'de dayı idaresinin başlaması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1671-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Pungo Andongo"
+  ],
+  "lat": -9.67,
+  "lon": 15.57,
+  "en_yakin_madde": "Cezayir'de dayı idaresinin başlaması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1673-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Fort Frontenac (Kingston)"
+  ],
+  "lat": 44.25,
+  "lon": -76.49,
+  "en_yakin_madde": "İspanya'nın el-Hüseyme (Alhucemas) adalarını işgali",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1674-01-01",
+  "eski": "fransa",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Tolanaro (Fort Dauphin)"
+  ],
+  "lat": -25.03,
+  "lon": 46.99,
+  "en_yakin_madde": "Kara Mustafa Paşa Uman'ı Lehistan'dan teslim aldı",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1676-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Chicoutimi"
+  ],
+  "lat": 48.43,
+  "lon": -71.07,
+  "en_yakin_madde": "Merzifonlu Kara Mustafa Paşa'nın sadrazamlığa atanması",
+  "fark_gun": 309,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1677-11-01",
+  "eski": "hollanda",
+  "yeni": "fransa",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Gore (Gorée)"
+  ],
+  "lat": 14.68,
+  "lon": -17.43,
+  "en_yakin_madde": "Çehrin Kalesi'nin fethi",
+  "fark_gun": 293,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1678-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Fort Nipigon"
+  ],
+  "lat": 49.02,
+  "lon": -88.27,
+  "en_yakin_madde": "Çehrin Kalesi'nin fethi",
+  "fark_gun": 232,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1679-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Fort Témiscamingue",
+   "Mingan"
+  ],
+  "lat": 48.8,
+  "lon": -71.73,
+  "en_yakin_madde": "Hâfız Osman'ın kendine özgü hat üslûbunu geliştirmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1680-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento"
+  ],
+  "lat": -34.47,
+  "lon": -57.84,
+  "en_yakin_madde": "Hâfız Osman'ın kendine özgü hat üslûbunu geliştirmesi",
+  "fark_gun": 365,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1681-12-20",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Belén"
+  ],
+  "lat": -27.65,
+  "lon": -67.03,
+  "en_yakin_madde": "Tököli İmre'ye Orta Macar krallığı beratının verilmesi",
+  "fark_gun": 270,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1682-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kakonda (Caconda)"
+  ],
+  "lat": -13.73,
+  "lon": 15.07,
+  "en_yakin_madde": "Tököli İmre'ye Orta Macar krallığı beratının verilmesi",
+  "fark_gun": 258,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1682-04-09",
+  "eski": "wicita",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Spiro"
+  ],
+  "lat": 35.31,
+  "lon": -94.57,
+  "en_yakin_madde": "Tököli İmre'ye Orta Macar krallığı beratının verilmesi",
+  "fark_gun": 160,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1684-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Loreto (Mojos)"
+  ],
+  "lat": -15.22,
+  "lon": -64.67,
+  "en_yakin_madde": "Merzifonlu Kara Mustafa Paşa'nın idamı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1685-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Miguel (Pachitea)"
+  ],
+  "lat": -8.8,
+  "lon": -74.55,
+  "en_yakin_madde": "Preveze ve Vonitsa'nın Venedik'e kaybı — Epir kıyısının açılışı",
+  "fark_gun": 94,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1687-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Assinie"
+  ],
+  "lat": 5.13,
+  "lon": -3.27,
+  "en_yakin_madde": "Segedin'in kaybı",
+  "fark_gun": 70,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1687-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Trinidad (Mojos)"
+  ],
+  "lat": -14.83,
+  "lon": -64.9,
+  "en_yakin_madde": "Segedin'in kaybı",
+  "fark_gun": 70,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1687-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Bissav (Bissau)"
+  ],
+  "lat": 11.86,
+  "lon": -15.6,
+  "en_yakin_madde": "Segedin'in kaybı",
+  "fark_gun": 70,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1689-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Ignacio de Moxos"
+  ],
+  "lat": -14.87,
+  "lon": -65.63,
+  "en_yakin_madde": "Mevlây İsmâil'in el-Arâiş'i İspanyollardan geri alışı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1690-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Concepción de Apolobamba"
+  ],
+  "lat": -14.75,
+  "lon": -68.5,
+  "en_yakin_madde": "Köprülüzâde Fâzıl Mustafa Paşa'nın sadrazamlığa atanması ve mali ıslahatları",
+  "fark_gun": 68,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1691-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Francisco Xavier (Chiquitos)"
+  ],
+  "lat": -16.27,
+  "lon": -62.5,
+  "en_yakin_madde": "Niş, Vidin ve Belgrad geri alındı",
+  "fark_gun": 114,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1697-09-20",
+  "eski": "ispanya",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Jaragua (Taino cacicazgosu)"
+  ],
+  "lat": 18.51,
+  "lon": -72.63,
+  "en_yakin_madde": "Zenta bozgunu — savaşın kaderi belirlendi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1698-11-17",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Pensacola"
+  ],
+  "lat": 30.42,
+  "lon": -87.22,
+  "en_yakin_madde": "Karlofça barış görüşmeleri başladı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1699-04-08",
+  "eski": "choctaw",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Moundville"
+  ],
+  "lat": 33.0,
+  "lon": -87.63,
+  "en_yakin_madde": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+  "fark_gun": 72,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1699-04-08",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Biloxi (Fort Maurepas)"
+  ],
+  "lat": 30.4,
+  "lon": -88.89,
+  "en_yakin_madde": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+  "fark_gun": 72,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1701-07-24",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Detroit (Fort Pontchartrain du Détroit)"
+  ],
+  "lat": 42.34,
+  "lon": -83.05,
+  "en_yakin_madde": "Naîmâ vakanüvis olarak tarihini Amcazâde Hüseyin Paşa'ya sundu",
+  "fark_gun": 161,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1702-01-01",
+  "eski": "timor-beylikleri",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Lifau (Oecussi)"
+  ],
+  "lat": -9.21,
+  "lon": 124.37,
+  "en_yakin_madde": "Naîmâ vakanüvis olarak tarihini Amcazâde Hüseyin Paşa'ya sundu",
+  "fark_gun": 31,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1702-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Mobile (Fort Louis de la Louisiane)"
+  ],
+  "lat": 30.69,
+  "lon": -88.04,
+  "en_yakin_madde": "Naîmâ vakanüvis olarak tarihini Amcazâde Hüseyin Paşa'ya sundu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1703-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kaskaskia"
+  ],
+  "lat": 37.92,
+  "lon": -89.92,
+  "en_yakin_madde": "Yenikale'nin inşası — Kerç Boğazı'nın kilitlenmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1705-01-01",
+  "eski": "portekiz",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento"
+  ],
+  "lat": -34.47,
+  "lon": -57.84,
+  "en_yakin_madde": "Tunus'ta Hüseynî hanedanının kurulması",
+  "fark_gun": 197,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1707-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Concepción (Chiquitos)"
+  ],
+  "lat": -16.14,
+  "lon": -62.03,
+  "en_yakin_madde": "Vahran (Oran) ve Mersalkebîr'in İspanyollardan alınışı",
+  "fark_gun": 459,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1713-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Louisbourg"
+  ],
+  "lat": 45.92,
+  "lon": -59.98,
+  "en_yakin_madde": "Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı",
+  "fark_gun": 174,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1713-04-11",
+  "eski": "fransa",
+  "yeni": "ingiltere",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Port Royal (Acadia)"
+  ],
+  "lat": 44.74,
+  "lon": -65.51,
+  "en_yakin_madde": "Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı",
+  "fark_gun": 74,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1714-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Natchitoches"
+  ],
+  "lat": 31.76,
+  "lon": -93.09,
+  "en_yakin_madde": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+  "fark_gun": 65,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1714-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "San Esteban de Miraflores"
+  ],
+  "lat": -25.3,
+  "lon": -64.2,
+  "en_yakin_madde": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+  "fark_gun": 65,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1715-01-01",
+  "eski": "ispanya",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento"
+  ],
+  "lat": -34.47,
+  "lon": -57.84,
+  "en_yakin_madde": "Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin silinmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1716-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Reyes (Maropa)",
+   "San José de Uchupiamonas"
+  ],
+  "lat": -14.3,
+  "lon": -67.67,
+  "en_yakin_madde": "İrtiş-Om kavşağında Rus Omsk kalesi kuruldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1718-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "New Orleans"
+  ],
+  "lat": 29.95,
+  "lon": -90.07,
+  "en_yakin_madde": "Nedîm'in Lâle Devri şiirinin öncüsü olarak öne çıkması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1720-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Port-la-Joye (Charlottetown)"
+  ],
+  "lat": 46.24,
+  "lon": -63.13,
+  "en_yakin_madde": "Levnî'nin Surnâme-i Vehbî'yi resimlemesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1720-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Zumbo"
+  ],
+  "lat": -15.61,
+  "lon": 30.45,
+  "en_yakin_madde": "Levnî'nin Surnâme-i Vehbî'yi resimlemesi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1725-12-15",
+  "eski": "abenaki",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Odanak (Abenaki)"
+  ],
+  "lat": 46.08,
+  "lon": -72.82,
+  "en_yakin_madde": "Gence'nin fethi — Kafkasya seferinin sonu",
+  "fark_gun": 94,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1726-12-24",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Montevideo"
+  ],
+  "lat": -34.9,
+  "lon": -56.16,
+  "en_yakin_madde": "Gedik sisteminin tekel esaslı esnaf düzeni olarak resmen yerleşmesi",
+  "fark_gun": 159,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1731-01-01",
+  "eski": "natchez",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Natchez (Grand Village)"
+  ],
+  "lat": 31.55,
+  "lon": -91.39,
+  "en_yakin_madde": "Humbaracı Ahmed Paşa (Bonneval) Humbaracı Ocağı'nın başına getirildi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1731-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Fort St. Pierre (Rainy Lake)"
+  ],
+  "lat": 48.61,
+  "lon": -93.4,
+  "en_yakin_madde": "Humbaracı Ahmed Paşa (Bonneval) Humbaracı Ocağı'nın başına getirildi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1732-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Vincennes (Poste Vincennes)"
+  ],
+  "lat": 38.68,
+  "lon": -87.53,
+  "en_yakin_madde": "Levnî'nin vefatı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1740-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Reducción de la Concepción (Salado)"
+  ],
+  "lat": -35.75,
+  "lon": -57.36,
+  "en_yakin_madde": "Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1740-08-03",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Felipe (Aconcagua)"
+  ],
+  "lat": -32.75,
+  "lon": -70.73,
+  "en_yakin_madde": "Kapitülasyonlar sürekli hâle getirildi",
+  "fark_gun": 65,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1741-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Ignacio de Zamucos"
+  ],
+  "lat": -19.5,
+  "lon": -60.0,
+  "en_yakin_madde": "Tabarka'nın Cenevizlilerden alınması — Lomellini mercan imtiyazının sonu",
+  "fark_gun": 162,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1743-10-05",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Rancagua"
+  ],
+  "lat": -34.17,
+  "lon": -70.74,
+  "en_yakin_madde": "Musul Savunması — Nâdir Şah'ın püskürtülmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1744-01-01",
+  "eski": "matamba",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Matamba"
+  ],
+  "lat": -9.3,
+  "lon": 16.0,
+  "en_yakin_madde": "Dir'iye İttifakı — Necid'de ilk Suûdî Emirliği'nin kuruluşu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1744-12-08",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Copiapó"
+  ],
+  "lat": -27.37,
+  "lon": -70.33,
+  "en_yakin_madde": "Dir'iye İttifakı — Necid'de ilk Suûdî Emirliği'nin kuruluşu",
+  "fark_gun": 342,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1747-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Nuestra Señora del Pilar (Mar del Plata)"
+  ],
+  "lat": -37.85,
+  "lon": -57.75,
+  "en_yakin_madde": "Kerden Antlaşması — Osmanlı-İran savaşlarının sonu",
+  "fark_gun": 119,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1748-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Jerónimo (Reconquista)"
+  ],
+  "lat": -29.15,
+  "lon": -59.65,
+  "en_yakin_madde": "Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
+  "fark_gun": 195,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1750-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Fernando (Resistencia)"
+  ],
+  "lat": -27.45,
+  "lon": -58.98,
+  "en_yakin_madde": "Fransızlar Toronto'da Humber üzerinde ticaret karakolu kurdu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1751-06-25",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San José de Jáchal"
+  ],
+  "lat": -30.24,
+  "lon": -68.75,
+  "en_yakin_madde": "Strömstad Sınır Antlaşması — Norveç–İsveç sınırı çizildi",
+  "fark_gun": 99,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1754-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Fort Duquesne (Pittsburgh)"
+  ],
+  "lat": 40.44,
+  "lon": -80.01,
+  "en_yakin_madde": "Aziz Yelizaveta Kalesi — Rusya'nın güney sınırının Osmanlı-Kırım akın hattına dayanması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1757-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Port of Spain (Puerto de España)"
+  ],
+  "lat": 10.65,
+  "lon": -61.5,
+  "en_yakin_madde": "Veliaht Şehzade Mehmed'in ölümü — zehirlenme iddiası tartışmalı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1761-01-01",
+  "eski": "maliseet",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Madawaska (Maliseet)"
+  ],
+  "lat": 47.35,
+  "lon": -68.32,
+  "en_yakin_madde": "Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi",
+  "fark_gun": 283,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1761-01-01",
+  "eski": "mikmak",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Listuguj (Restigouche)"
+  ],
+  "lat": 48.05,
+  "lon": -66.7,
+  "en_yakin_madde": "Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi",
+  "fark_gun": 283,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1762-01-01",
+  "eski": "portekiz",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento"
+  ],
+  "lat": -34.47,
+  "lon": -57.84,
+  "en_yakin_madde": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+  "fark_gun": 306,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1762-08-13",
+  "eski": "ispanya",
+  "yeni": "ingiltere",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Havana (La Habana)"
+  ],
+  "lat": 23.11,
+  "lon": -82.37,
+  "en_yakin_madde": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+  "fark_gun": 82,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1762-11-03",
+  "eski": "fransa",
+  "yeni": "yeni-ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 4,
+  "kapali_n": 0,
+  "yerler": [
+   "Biloxi (Fort Maurepas)",
+   "Mobile (Fort Louis de la Louisiane)",
+   "Natchitoches",
+   "Spiro"
+  ],
+  "lat": 32.04,
+  "lon": -91.15,
+  "en_yakin_madde": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-02-10",
+  "eski": "fransa",
+  "yeni": "ingiliz-kuzey-amerika",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 23,
+  "kapali_n": 23,
+  "yerler": [
+   "Chicoutimi",
+   "Fort Frontenac (Kingston)",
+   "Fort Nipigon",
+   "Fort St. Pierre (Rainy Lake)",
+   "Fort Témiscamingue",
+   "Gaspé",
+   "Listuguj (Restigouche)",
+   "Louisbourg"
+  ],
+  "lat": 47.47,
+  "lon": -71.45,
+  "en_yakin_madde": "Rusya'nın Kabartay'da Mozdok Kalesi'ni yapması",
+  "fark_gun": 40,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-02-10",
+  "eski": "fransa",
+  "yeni": "ingiltere",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 9,
+  "kapali_n": 9,
+  "yerler": [
+   "Chequamegon (La Pointe)",
+   "Detroit (Fort Pontchartrain du Détroit)",
+   "Fort Duquesne (Pittsburgh)",
+   "Kaskaskia",
+   "La Baye (Green Bay)",
+   "Michilimackinac",
+   "Moundville",
+   "Natchez (Grand Village)"
+  ],
+  "lat": 40.12,
+  "lon": -87.01,
+  "en_yakin_madde": "Rusya'nın Kabartay'da Mozdok Kalesi'ni yapması",
+  "fark_gun": 40,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-02-10",
+  "eski": "ingiltere",
+  "yeni": "ispanya",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Havana (La Habana)"
+  ],
+  "lat": 23.11,
+  "lon": -82.37,
+  "en_yakin_madde": "Rusya'nın Kabartay'da Mozdok Kalesi'ni yapması",
+  "fark_gun": 40,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-02-10",
+  "eski": "ispanya",
+  "yeni": "ingiltere",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 3,
+  "yerler": [
+   "Mission San Luis (Apalaçi)",
+   "Pensacola",
+   "St. Augustine"
+  ],
+  "lat": 30.26,
+  "lon": -84.28,
+  "en_yakin_madde": "Rusya'nın Kabartay'da Mozdok Kalesi'ni yapması",
+  "fark_gun": 40,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-02-10",
+  "eski": "ispanya",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento"
+  ],
+  "lat": -34.47,
+  "lon": -57.84,
+  "en_yakin_madde": "Rusya'nın Kabartay'da Mozdok Kalesi'ni yapması",
+  "fark_gun": 40,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-11-03",
+  "eski": "fransa",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "New Orleans"
+  ],
+  "lat": 29.95,
+  "lon": -90.07,
+  "en_yakin_madde": "Ragıp Paşa'nın vefatı",
+  "fark_gun": 209,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1763-12-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Quines"
+  ],
+  "lat": -32.23,
+  "lon": -65.81,
+  "en_yakin_madde": "Ragıp Paşa'nın vefatı",
+  "fark_gun": 237,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1767-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "San José de Chiquitos",
+   "Santa Magdalena (Itonama)"
+  ],
+  "lat": -15.59,
+  "lon": -62.44,
+  "en_yakin_madde": "Büyük İstanbul depremi ve Fâtih Camii'nin yıkılması",
+  "fark_gun": 245,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1772-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Fuerte Olimpo (Borbón)"
+  ],
+  "lat": -21.04,
+  "lon": -57.87,
+  "en_yakin_madde": "Kırım yarımadasının Rus işgali",
+  "fark_gun": 184,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1777-06-04",
+  "eski": "portekiz",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento"
+  ],
+  "lat": -34.47,
+  "lon": -57.84,
+  "en_yakin_madde": "Hammâmîzâde İsmail Dede Efendi'nin doğumu",
+  "fark_gun": 219,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1779-09-21",
+  "eski": "ingiltere",
+  "yeni": "ispanya",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Natchez (Grand Village)"
+  ],
+  "lat": 31.55,
+  "lon": -91.39,
+  "en_yakin_madde": "Basra'nın İran işgalinden geri alınışı",
+  "fark_gun": 173,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1780-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Floridablanca (San Julián)",
+   "Lacangayé"
+  ],
+  "lat": -37.43,
+  "lon": -63.86,
+  "en_yakin_madde": "Basra'nın İran işgalinden geri alınışı",
+  "fark_gun": 275,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1781-01-01",
+  "eski": "—",
+  "yeni": "fransa",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Georgetown (Stabroek)",
+   "Prairie du Chien"
+  ],
+  "lat": 24.93,
+  "lon": -74.65,
+  "en_yakin_madde": "Anapa Kalesi'nin inşası — Kafkas savunma hattı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1781-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Lourenço Marques"
+  ],
+  "lat": -25.97,
+  "lon": 32.58,
+  "en_yakin_madde": "Anapa Kalesi'nin inşası — Kafkas savunma hattı",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1781-05-08",
+  "eski": "ingiltere",
+  "yeni": "ispanya",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Pensacola"
+  ],
+  "lat": 30.42,
+  "lon": -87.22,
+  "en_yakin_madde": "Anapa Kalesi'nin inşası — Kafkas savunma hattı",
+  "fark_gun": 127,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1783-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Minas (Villa de la Concepción de las Minas)"
+  ],
+  "lat": -34.38,
+  "lon": -55.24,
+  "en_yakin_madde": "Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1783-09-03",
+  "eski": "fransa",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Prairie du Chien"
+  ],
+  "lat": 43.05,
+  "lon": -91.14,
+  "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+  "fark_gun": 137,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1783-09-03",
+  "eski": "ingiltere",
+  "yeni": "ispanya",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Mission San Luis (Apalaçi)",
+   "St. Augustine"
+  ],
+  "lat": 30.17,
+  "lon": -82.81,
+  "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+  "fark_gun": 137,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1784-01-01",
+  "eski": "fransa",
+  "yeni": "hollanda",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Georgetown (Stabroek)"
+  ],
+  "lat": 6.8,
+  "lon": -58.16,
+  "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+  "fark_gun": 257,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1784-01-01",
+  "eski": "ispanya",
+  "yeni": "—",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Floridablanca (San Julián)"
+  ],
+  "lat": -49.31,
+  "lon": -67.72,
+  "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+  "fark_gun": 257,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1786-07-14",
+  "eski": "ingiltere",
+  "yeni": "yeni-ispanya",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Río Tinto (Black River, Moskito kıyısı)"
+  ],
+  "lat": 15.85,
+  "lon": -84.85,
+  "en_yakin_madde": "Rus elçisine ültimatom — 1787-1792 Osmanlı-Rus Savaşı'na giden son adım",
+  "fark_gun": 378,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1786-11-11",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Río Cuarto (Villa de la Concepción del Río Cuarto)"
+  ],
+  "lat": -33.12,
+  "lon": -64.35,
+  "en_yakin_madde": "Rus elçisine ültimatom — 1787-1792 Osmanlı-Rus Savaşı'na giden son adım",
+  "fark_gun": 258,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1788-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Tacuatí (Ypané)"
+  ],
+  "lat": -23.45,
+  "lon": -56.3,
+  "en_yakin_madde": "Yılan Adası (Fidonisi) deniz muharebesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1790-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Sarayacu (Ucayali)"
+  ],
+  "lat": -6.73,
+  "lon": -75.1,
+  "en_yakin_madde": "Kalafat çıkarması ve püskürtülmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1795-07-22",
+  "eski": "ispanya",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Higüey (Taino cacicazgosu)",
+   "Santo Domingo"
+  ],
+  "lat": 18.55,
+  "lon": -69.32,
+  "en_yakin_madde": "Mühendishâne-i Berrî-i Hümâyun'un açılışı",
+  "fark_gun": 41,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1797-02-18",
+  "eski": "ispanya",
+  "yeni": "ingiltere",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Port of Spain (Puerto de España)",
+   "San José de Oruña (St. Joseph)"
+  ],
+  "lat": 10.65,
+  "lon": -61.46,
+  "en_yakin_madde": "Üçüncü paylaşmanın kesin düzenlemesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1798-04-07",
+  "eski": "ispanya",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Natchez (Grand Village)"
+  ],
+  "lat": 31.55,
+  "lon": -91.39,
+  "en_yakin_madde": "Malta şövalyelerinin tasfiyesi — Fransız donanmasının yoldaki durağı",
+  "fark_gun": 66,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1798-10-23",
+  "eski": "fransa-cumhuriyet",
+  "yeni": "OSMANLI",
+  "kol": "A",
+  "kova": "acik",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Butrint (Butrinto)"
+  ],
+  "lat": 39.75,
+  "lon": 20.02,
+  "en_yakin_madde": "Preveze'nin Fransızlardan alınışı — Nikopolis Muharebesi",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1803-04-30",
+  "eski": "ispanya",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "New Orleans"
+  ],
+  "lat": 29.95,
+  "lon": -90.07,
+  "en_yakin_madde": "Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1803-12-20",
+  "eski": "ispanya",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "New Orleans"
+  ],
+  "lat": 29.95,
+  "lon": -90.07,
+  "en_yakin_madde": "Birinci Sırp İsyanı'nın başlaması",
+  "fark_gun": 56,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1804-01-01",
+  "eski": "fransa-cumhuriyet",
+  "yeni": "haiti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Jaragua (Taino cacicazgosu)"
+  ],
+  "lat": 18.51,
+  "lon": -72.63,
+  "en_yakin_madde": "Birinci Sırp İsyanı'nın başlaması",
+  "fark_gun": 44,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1805-04-02",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "San Rafael (Fuerte San Rafael del Diamante)"
+  ],
+  "lat": -34.62,
+  "lon": -68.33,
+  "en_yakin_madde": "Kahire ulemâsı Mehmed Ali'yi vali ilan etti",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1806-02-10",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Esquina"
+  ],
+  "lat": -30.02,
+  "lon": -59.53,
+  "en_yakin_madde": "Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1809-01-01",
+  "eski": "italya-napolyon",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Cres (Cherso)",
+   "Krk (Veglia)",
+   "Rab (Arbe)"
+  ],
+  "lat": 44.91,
+  "lon": 14.59,
+  "en_yakin_madde": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1809-01-14",
+  "eski": "fransa-cumhuriyet",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cayenne"
+  ],
+  "lat": 4.93,
+  "lon": -52.33,
+  "en_yakin_madde": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1809-07-09",
+  "eski": "fransa-cumhuriyet",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Higüey (Taino cacicazgosu)",
+   "Santo Domingo"
+  ],
+  "lat": 18.55,
+  "lon": -69.32,
+  "en_yakin_madde": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+  "fark_gun": 70,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1809-10-14",
+  "eski": "avusturya",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 8,
+  "kapali_n": 0,
+  "yerler": [
+   "Cetin (Cetingrad)",
+   "Drežnik (Drežnik Grad)",
+   "Gospić",
+   "Karlovac",
+   "Kostayniçe (Kostajnica)",
+   "Ljubljana",
+   "Sisak",
+   "Udbina"
+  ],
+  "lat": 45.17,
+  "lon": 15.69,
+  "en_yakin_madde": "Schönbrunn Barışı: Batı Galiçya Varşova Dukalığı'na, Tarnopol Rusya'ya",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1810-05-25",
+  "eski": "ispanya",
+  "yeni": "arjantin-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 19,
+  "kapali_n": 1,
+  "yerler": [
+   "Belén",
+   "Buenos Aires",
+   "Corrientes",
+   "Córdoba (Arjantin)",
+   "Esquina",
+   "La Rioja (Arjantin)",
+   "Lacangayé",
+   "Mendoza"
+  ],
+  "lat": -30.75,
+  "lon": -62.83,
+  "en_yakin_madde": "Silistre'nin Ruslara teslimi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1811-05-14",
+  "eski": "ispanya",
+  "yeni": "paraguay-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 5,
+  "kapali_n": 5,
+  "yerler": [
+   "Asunción",
+   "Encarnación (Itapúa)",
+   "Fuerte Olimpo (Borbón)",
+   "San Ignacio Guazú",
+   "Tacuatí (Ypané)"
+  ],
+  "lat": -24.79,
+  "lon": -56.93,
+  "en_yakin_madde": "Silistre'nin tahliyesi — Tuna'nın orta kalesi surları yıkılarak bırakıldı",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1814-06-20",
+  "eski": "ispanya",
+  "yeni": "arjantin-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento",
+   "Minas (Villa de la Concepción de las Minas)",
+   "Montevideo"
+  ],
+  "lat": -34.58,
+  "lon": -56.41,
+  "en_yakin_madde": "Paris antlaşması: Tirol Avusturya'ya döndü",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1817-01-01",
+  "eski": "arjantin-cumhuriyeti",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Colonia del Sacramento",
+   "Minas (Villa de la Concepción de las Minas)",
+   "Montevideo"
+  ],
+  "lat": -34.58,
+  "lon": -56.41,
+  "en_yakin_madde": "İbrâhim Paşa Necid seferine çıktı",
+  "fark_gun": 122,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1817-01-01",
+  "eski": "betsimisaraka",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Maroantsetra",
+   "Sambava"
+  ],
+  "lat": -14.85,
+  "lon": 49.95,
+  "en_yakin_madde": "İbrâhim Paşa Necid seferine çıktı",
+  "fark_gun": 122,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1817-01-01",
+  "eski": "portekiz",
+  "yeni": "fransiz-guyanasi",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cayenne"
+  ],
+  "lat": 4.93,
+  "lon": -52.33,
+  "en_yakin_madde": "İbrâhim Paşa Necid seferine çıktı",
+  "fark_gun": 122,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1818-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Bakel"
+  ],
+  "lat": 14.9,
+  "lon": -12.46,
+  "en_yakin_madde": "Beaufort (Beaufort West) kasabası kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1818-02-12",
+  "eski": "ispanya",
+  "yeni": "sili-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 6,
+  "kapali_n": 6,
+  "yerler": [
+   "Castro (Chiloé)",
+   "Copiapó",
+   "La Serena",
+   "Rancagua",
+   "San Felipe (Aconcagua)",
+   "Valdivia"
+  ],
+  "lat": -34.41,
+  "lon": -71.68,
+  "en_yakin_madde": "Beaufort (Beaufort West) kasabası kuruldu",
+  "fark_gun": 42,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1821-06-24",
+  "eski": "ispanya",
+  "yeni": "gran-kolombiya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Nuestra Señora de Caraballeda"
+  ],
+  "lat": 10.61,
+  "lon": -66.83,
+  "en_yakin_madde": "Sennâr (Fûnc) Sultanlığı teslim oldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1821-07-10",
+  "eski": "ispanya",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Mission San Luis (Apalaçi)",
+   "St. Augustine"
+  ],
+  "lat": 30.17,
+  "lon": -82.81,
+  "en_yakin_madde": "Sennâr (Fûnc) Sultanlığı teslim oldu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1821-07-17",
+  "eski": "ispanya",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Pensacola"
+  ],
+  "lat": 30.42,
+  "lon": -87.22,
+  "en_yakin_madde": "Sennâr (Fûnc) Sultanlığı teslim oldu",
+  "fark_gun": 33,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1822-02-09",
+  "eski": "ispanya",
+  "yeni": "haiti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Higüey (Taino cacicazgosu)",
+   "Santo Domingo"
+  ],
+  "lat": 18.55,
+  "lon": -69.32,
+  "en_yakin_madde": "Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1822-09-07",
+  "eski": "portekiz",
+  "yeni": "brezilya-imparatorlugu",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 3,
+  "yerler": [
+   "Colonia del Sacramento",
+   "Minas (Villa de la Concepción de las Minas)",
+   "Montevideo"
+  ],
+  "lat": -34.58,
+  "lon": -56.41,
+  "en_yakin_madde": "Şendî'de İsmâil Paşa'nın öldürülmesi",
+  "fark_gun": 47,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1824-12-09",
+  "eski": "ispanya",
+  "yeni": "peru-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 5,
+  "kapali_n": 5,
+  "yerler": [
+   "Borja (Maynas)",
+   "Cerro de la Sal",
+   "San Miguel (Pachitea)",
+   "Santa María de Huallaga",
+   "Sarayacu (Ucayali)"
+  ],
+  "lat": -7.52,
+  "lon": -75.7,
+  "en_yakin_madde": "İbrâhim Paşa Modon'a çıktı",
+  "fark_gun": 77,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1824-12-09",
+  "eski": "ispanyol-peru",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Tarija"
+  ],
+  "lat": -21.53,
+  "lon": -64.73,
+  "en_yakin_madde": "İbrâhim Paşa Modon'a çıktı",
+  "fark_gun": 77,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1825-08-06",
+  "eski": "ispanya",
+  "yeni": "bolivya-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 15,
+  "kapali_n": 0,
+  "yerler": [
+   "Concepción (Chiquitos)",
+   "Concepción de Apolobamba",
+   "Cotagaita (Santiago de Cotagaita)",
+   "Loreto (Mojos)",
+   "Reyes (Maropa)",
+   "San Francisco Xavier (Chiquitos)",
+   "San Ignacio de Moxos",
+   "San Ignacio de Zamucos"
+  ],
+  "lat": -16.96,
+  "lon": -64.68,
+  "en_yakin_madde": "Tripoliçe geri alındı — Mora'nın merkezi düştü",
+  "fark_gun": 45,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1830-01-01",
+  "eski": "betsileo",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Ambositra"
+  ],
+  "lat": -20.53,
+  "lon": 47.25,
+  "en_yakin_madde": "Rusya İşim üzerinde Akmola kalesini kurdu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1833-07-28",
+  "eski": "abdulkadir",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Mustagānim"
+  ],
+  "lat": 35.93,
+  "lon": 0.09,
+  "en_yakin_madde": "Hünkâr İskelesi Antlaşması",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1837-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Ogooué havzası"
+  ],
+  "lat": -0.7,
+  "lon": 12.0,
+  "en_yakin_madde": "Hariciye Nezareti kuruldu",
+  "fark_gun": 214,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1839-05-13",
+  "eski": "tabi:Ahmed Bey'in Konstantin beyliği",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cicel"
+  ],
+  "lat": 36.82,
+  "lon": 5.77,
+  "en_yakin_madde": "Tıp okulunun Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne adını alması",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1840-08-04",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Mosamedes (Namibe)"
+  ],
+  "lat": -15.2,
+  "lon": 12.15,
+  "en_yakin_madde": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1842-09-09",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Papeete"
+  ],
+  "lat": -17.54,
+  "lon": -149.57,
+  "en_yakin_madde": "Ladakh–Tibet mektubu — 'eski sınırlar' teyit edildi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1844-03-04",
+  "eski": "abdulkadir",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 4,
+  "kapali_n": 0,
+  "yerler": [
+   "Ayn Temûşent",
+   "Bû Sa'âde",
+   "Dellîs",
+   "Mesîle"
+  ],
+  "lat": 35.78,
+  "lon": 2.87,
+  "en_yakin_madde": "Biskra'nın işgali — Sahra kapısının kaybı",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1844-03-04",
+  "eski": "tabi:Ahmed Bey'in Konstantin beyliği",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Batna",
+   "Sûk Ahrâs",
+   "Tebesse"
+  ],
+  "lat": 35.75,
+  "lon": 7.42,
+  "en_yakin_madde": "Biskra'nın işgali — Sahra kapısının kaybı",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1849-08-17",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Librevil (Libreville)"
+  ],
+  "lat": 0.39,
+  "lon": 9.45,
+  "en_yakin_madde": "Macar mültecileri meselesi: Kossuth ve arkadaşlarının Osmanlı'ya sığınması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1852-12-04",
+  "eski": "tabi:Sahra vahalarının özerk idaresi",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Gardâye"
+  ],
+  "lat": 32.49,
+  "lon": 3.67,
+  "en_yakin_madde": "Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılması",
+  "fark_gun": 31,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1854-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Noumea (Yeni Kaledonya)"
+  ],
+  "lat": -22.27,
+  "lon": 166.44,
+  "en_yakin_madde": "Sinop Baskını",
+  "fark_gun": 32,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1855-02-25",
+  "eski": "valo",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Nder (Valo)"
+  ],
+  "lat": 16.2,
+  "lon": -15.85,
+  "en_yakin_madde": "Tuggurt'un işgali — Cezayir'in tamamının elden çıkışı",
+  "fark_gun": 85,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1857-05-25",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Dakar"
+  ],
+  "lat": 14.69,
+  "lon": -17.45,
+  "en_yakin_madde": "Kişinev nihai senedi: Güney Besarabya sınırı işaretlendi",
+  "fark_gun": 44,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1858-01-01",
+  "eski": "bundu",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Bulebane (Bundu)"
+  ],
+  "lat": 14.32,
+  "lon": -12.7,
+  "en_yakin_madde": "Cañas–Jerez Antlaşması — Nikaragua–Kosta Rika sınırı",
+  "fark_gun": 104,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1860-06-14",
+  "eski": "sardinya",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Annemasse",
+   "Bourg-Saint-Maurice",
+   "Thonon"
+  ],
+  "lat": 46.06,
+  "lon": 6.49,
+  "en_yakin_madde": "Cebel-i Lübnan'da Dürzî-Mârûnî iç savaşı ve Şam olayları",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1861-03-18",
+  "eski": "dominik-cumhuriyeti",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Higüey (Taino cacicazgosu)",
+   "Santo Domingo"
+  ],
+  "lat": 18.55,
+  "lon": -69.32,
+  "en_yakin_madde": "İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1865-03-03",
+  "eski": "ispanya",
+  "yeni": "dominik-cumhuriyeti",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Higüey (Taino cacicazgosu)",
+   "Santo Domingo"
+  ],
+  "lat": 18.55,
+  "lon": -69.32,
+  "en_yakin_madde": "Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması",
+  "fark_gun": 61,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1874-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Lambarene"
+  ],
+  "lat": -0.7,
+  "lon": 10.23,
+  "en_yakin_madde": "Darüşşafaka okulunun eğitime başlaması",
+  "fark_gun": 187,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1880-10-03",
+  "eski": "tio",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Ouesso",
+   "İmpfondo"
+  ],
+  "lat": 1.62,
+  "lon": 17.05,
+  "en_yakin_madde": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
+  "fark_gun": 32,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1881-01-01",
+  "eski": "futa-toro",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Kaedi",
+   "Podor"
+  ],
+  "lat": 16.4,
+  "lon": -14.23,
+  "en_yakin_madde": "Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1881-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kita"
+  ],
+  "lat": 13.04,
+  "lon": -9.49,
+  "en_yakin_madde": "Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1883-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Puent-Nuar"
+  ],
+  "lat": -4.79,
+  "lon": 11.86,
+  "en_yakin_madde": "Ubeyyid'in düşüşü — Kordofan'ın Mehdî kuvvetlerine geçişi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1884-01-01",
+  "eski": "adal",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Tacûra"
+  ],
+  "lat": 11.79,
+  "lon": 42.88,
+  "en_yakin_madde": "Reji İdaresi kuruldu (tütün tekeli)",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1884-01-01",
+  "eski": "solima-yalunka",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Falaba"
+  ],
+  "lat": 9.85,
+  "lon": -11.3,
+  "en_yakin_madde": "Reji İdaresi kuruldu (tütün tekeli)",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1884-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Villa Cisneros (Dahla)"
+  ],
+  "lat": 23.69,
+  "lon": -15.94,
+  "en_yakin_madde": "Reji İdaresi kuruldu (tütün tekeli)",
+  "fark_gun": 31,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1885-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Konakri (Conakry)"
+  ],
+  "lat": 9.51,
+  "lon": -13.71,
+  "en_yakin_madde": "Hartum'un düşüşü — Sudan'ın tamamının kaybı",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1885-12-17",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Antseranana"
+  ],
+  "lat": -12.28,
+  "lon": 49.29,
+  "en_yakin_madde": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1886-10-27",
+  "eski": "kayor",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Mbul (Kayor)",
+   "Rufisque"
+  ],
+  "lat": 14.94,
+  "lon": -16.82,
+  "en_yakin_madde": "Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş işgali",
+  "fark_gun": 72,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1887-01-01",
+  "eski": "lunda-imparatorlugu",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Dundo",
+   "Saurimo"
+  ],
+  "lat": -8.52,
+  "lon": 20.61,
+  "en_yakin_madde": "Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş işgali",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1887-01-01",
+  "eski": "sine-salum",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Diahav (Sine)",
+   "Kahone (Salum)"
+  ],
+  "lat": 14.11,
+  "lon": -16.24,
+  "en_yakin_madde": "Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş işgali",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1887-03-14",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kolonia (Pohnpei)"
+  ],
+  "lat": 6.96,
+  "lon": 158.21,
+  "en_yakin_madde": "Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş işgali",
+  "fark_gun": 66,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1889-06-26",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Bangi (Bangui)"
+  ],
+  "lat": 4.37,
+  "lon": 18.56,
+  "en_yakin_madde": "İttihâd-ı Osmânî Cemiyeti'nin İstanbul'da kuruluşu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1891-01-01",
+  "eski": "manica",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Umtali (Mutare)"
+  ],
+  "lat": -18.97,
+  "lon": 32.67,
+  "en_yakin_madde": "Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1891-01-01",
+  "eski": "tekrur",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Dingiray (Dinguiraye)"
+  ],
+  "lat": 11.3,
+  "lon": -10.71,
+  "en_yakin_madde": "Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1893-01-01",
+  "eski": "dahomey",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Abomey"
+  ],
+  "lat": 7.19,
+  "lon": 1.99,
+  "en_yakin_madde": "Cenne Fransızlarca işgal edildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1893-01-01",
+  "eski": "tekrur",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Hamdullahi"
+  ],
+  "lat": 14.15,
+  "lon": -4.15,
+  "en_yakin_madde": "Cenne Fransızlarca işgal edildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1894-01-01",
+  "eski": "berabis",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Aravan"
+  ],
+  "lat": 18.9,
+  "lon": -3.53,
+  "en_yakin_madde": "Gweru askerî karakol olarak kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1895-01-01",
+  "eski": "yatenga",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Vahiguya (Yatenga)"
+  ],
+  "lat": 13.58,
+  "lon": -2.42,
+  "en_yakin_madde": "İngiliz–Rus Pamir notaları — Afgan–Rus sınırı Zorkul'a ve Pamir'e uzatıldı",
+  "fark_gun": 69,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1895-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Cikualakuala",
+   "Mabalane",
+   "Massangena"
+  ],
+  "lat": -22.35,
+  "lon": 32.4,
+  "en_yakin_madde": "İngiliz–Rus Pamir notaları — Afgan–Rus sınırı Zorkul'a ve Pamir'e uzatıldı",
+  "fark_gun": 69,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1896-01-01",
+  "eski": "futa-callon",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Labe",
+   "Timbo"
+  ],
+  "lat": 10.98,
+  "lon": -12.06,
+  "en_yakin_madde": "İngiliz–Fransız Deklarasyonu — Mekong Burma–Laos sınırı oldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1896-09-01",
+  "eski": "mossi-vagadugu",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 3,
+  "kapali_n": 1,
+  "yerler": [
+   "Bobo-Diulasso",
+   "Tenkodogo",
+   "Vagadugu (Ouagadougou)"
+  ],
+  "lat": 11.78,
+  "lon": -2.07,
+  "en_yakin_madde": "Osmanlı Bankası Baskını: Taşnak eylemcilerinin Galata eylemi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-01-01",
+  "eski": "gurma",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Fada Ngurma (Gurma)"
+  ],
+  "lat": 12.06,
+  "lon": 0.36,
+  "en_yakin_madde": "Bagirmi Sultanlığı Fransız himayesine girdi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-01-01",
+  "eski": "liptako",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Dori"
+  ],
+  "lat": 14.03,
+  "lon": -0.03,
+  "en_yakin_madde": "Bagirmi Sultanlığı Fransız himayesine girdi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-01-27",
+  "eski": "merina",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Antananarivo"
+  ],
+  "lat": -18.93,
+  "lon": 47.52,
+  "en_yakin_madde": "İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-02-28",
+  "eski": "antemoro",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Mananjary",
+   "Vohipeno (Antemoro)"
+  ],
+  "lat": -21.8,
+  "lon": 48.09,
+  "en_yakin_madde": "İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-02-28",
+  "eski": "merina",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 5,
+  "kapali_n": 0,
+  "yerler": [
+   "Ambohimanga",
+   "Antsirabe",
+   "Fianarantsoa",
+   "Toamasina (Tamatave)",
+   "Tsiroanomandidy"
+  ],
+  "lat": -19.4,
+  "lon": 47.43,
+  "en_yakin_madde": "İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-02-28",
+  "eski": "sakalava-boina",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Besalampy",
+   "Maevatanana",
+   "Mahacanga (Majunga)"
+  ],
+  "lat": -16.47,
+  "lon": 45.88,
+  "en_yakin_madde": "İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-02-28",
+  "eski": "sakalava-menabe",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Mahabo (Menabe)",
+   "Maintirano",
+   "Toliara (Tuléar)"
+  ],
+  "lat": -20.6,
+  "lon": 44.12,
+  "en_yakin_madde": "İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1897-05-01",
+  "eski": "kong-vattara",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Kong"
+  ],
+  "lat": 9.15,
+  "lon": -4.61,
+  "en_yakin_madde": "1897 Osmanlı-Yunan Savaşı'nın başlaması: Teselya cephesi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1898-01-01",
+  "eski": "dan-guro",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 5,
+  "kapali_n": 0,
+  "yerler": [
+   "Buake (Bouaké)",
+   "Daloa",
+   "Man",
+   "Nzerekore",
+   "Sassandra"
+  ],
+  "lat": 6.94,
+  "lon": -6.79,
+  "en_yakin_madde": "Gao Fransızlarca işgal edildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1898-01-01",
+  "eski": "zerma",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Say",
+   "Tera",
+   "Tillaberi"
+  ],
+  "lat": 13.77,
+  "lon": 1.52,
+  "en_yakin_madde": "Gao Fransızlarca işgal edildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1898-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Segu (Ségou)"
+  ],
+  "lat": 13.43,
+  "lon": -6.22,
+  "en_yakin_madde": "Gao Fransızlarca işgal edildi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1898-05-01",
+  "eski": "kenedugu",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Sikasso (Kenedugu)"
+  ],
+  "lat": 11.32,
+  "lon": -5.67,
+  "en_yakin_madde": "Gao Fransızlarca işgal edildi",
+  "fark_gun": 120,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1898-06-21",
+  "eski": "ispanya",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Hagåtña (Agaña)"
+  ],
+  "lat": 13.47,
+  "lon": 144.75,
+  "en_yakin_madde": "Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
+  "fark_gun": 73,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1898-09-29",
+  "eski": "vasulu",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 5,
+  "kapali_n": 0,
+  "yerler": [
+   "Beyla",
+   "Bisandugu",
+   "Kankan",
+   "Odienne",
+   "Seguela"
+  ],
+  "lat": 9.32,
+  "lon": -8.26,
+  "en_yakin_madde": "Kayzer II. Wilhelm'in İstanbul ve Kudüs ziyareti",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1898-12-10",
+  "eski": "ispanya",
+  "yeni": "abd",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 6,
+  "kapali_n": 0,
+  "yerler": [
+   "Baracoa",
+   "Camagüey bölgesi (Taino)",
+   "Havana (La Habana)",
+   "San Germán",
+   "San Juan",
+   "Santiago de Cuba"
+  ],
+  "lat": 20.24,
+  "lon": -73.96,
+  "en_yakin_madde": "Girit'e özerklik",
+  "fark_gun": 31,
+  "bolge": "amerika"
+ },
+ {
+  "gun": "1899-01-01",
+  "eski": "adar",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 4,
+  "kapali_n": 0,
+  "yerler": [
+   "Birni-N'Konni",
+   "Filingue",
+   "Madaoua",
+   "Tahoua"
+  ],
+  "lat": 14.28,
+  "lon": 4.95,
+  "en_yakin_madde": "Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1899-01-01",
+  "eski": "damagaram",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Goure"
+  ],
+  "lat": 13.98,
+  "lon": 10.27,
+  "en_yakin_madde": "Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1899-01-01",
+  "eski": "tuareg-adag",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Kidal"
+  ],
+  "lat": 18.44,
+  "lon": 1.41,
+  "en_yakin_madde": "Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1899-01-01",
+  "eski": "tuareg-ivellemmedan",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Menaka"
+  ],
+  "lat": 15.92,
+  "lon": 2.4,
+  "en_yakin_madde": "Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1899-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Cibanga",
+   "Muila (Mouila)",
+   "Sarh (Fort-Archambault)"
+  ],
+  "lat": 1.45,
+  "lon": 13.48,
+  "en_yakin_madde": "Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1900-01-01",
+  "eski": "antandroy",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Ambovombe (Antandroy)",
+   "İhosy (Bara)"
+  ],
+  "lat": -23.79,
+  "lon": 46.11,
+  "en_yakin_madde": "Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1900-01-01",
+  "eski": "tuareg-air",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Arlit",
+   "Fachi",
+   "In Gall"
+  ],
+  "lat": 17.88,
+  "lon": 8.63,
+  "en_yakin_madde": "Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1900-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 9,
+  "kapali_n": 0,
+  "yerler": [
+   "Cambala (Djambala)",
+   "Epena",
+   "Makoku (Makokou)",
+   "Moloundou",
+   "Ndjamena",
+   "Ovando",
+   "Sibiti",
+   "Suanke"
+  ],
+  "lat": 4.67,
+  "lon": 13.51,
+  "en_yakin_madde": "Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1900-01-01",
+  "eski": "—",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 4,
+  "kapali_n": 0,
+  "yerler": [
+   "Kuamba",
+   "Licinga",
+   "Montepuez",
+   "Mosimboa"
+  ],
+  "lat": -13.15,
+  "lon": 37.78,
+  "en_yakin_madde": "Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1902-01-01",
+  "eski": "kanem-bornu",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Bilma",
+   "Mao (Kanem)",
+   "Zinder"
+  ],
+  "lat": 15.49,
+  "lon": 12.41,
+  "en_yakin_madde": "Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri alması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1902-01-01",
+  "eski": "ovimbundu",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 12,
+  "kapali_n": 0,
+  "yerler": [
+   "Bailundo",
+   "Huambo (Wambu)",
+   "Kangamba",
+   "Kazombo",
+   "Kuangar",
+   "Kuito (Bié)",
+   "Kuito Kuanavale",
+   "Lubango"
+  ],
+  "lat": -13.54,
+  "lon": 18.07,
+  "en_yakin_madde": "Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri alması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1903-01-01",
+  "eski": "banda-gbaya",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Buar (Bouar)",
+   "Kaga-Bandoro"
+  ],
+  "lat": 6.46,
+  "lon": 17.39,
+  "en_yakin_madde": "Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1904-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Port-Étienne (Nouadhibou)"
+  ],
+  "lat": 20.91,
+  "lon": -17.05,
+  "en_yakin_madde": "Nakuru resmen kasaba olarak kuruldu",
+  "fark_gun": 31,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1909-01-01",
+  "eski": "moritanya-emirlikleri",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 5,
+  "kapali_n": 0,
+  "yerler": [
+   "Butilimit",
+   "Kiffa",
+   "Nema (Néma)",
+   "Râşid (Tagant)",
+   "Tişît (Tichitt)"
+  ],
+  "lat": 17.61,
+  "lon": -10.89,
+  "en_yakin_madde": "II. Meşrutiyet'in ilk Meclis-i Meb'ûsan'ının toplanması",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1909-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Atâr (Adrar)",
+   "Şinkît (Chinguetti)"
+  ],
+  "lat": 20.49,
+  "lon": -12.71,
+  "en_yakin_madde": "II. Meşrutiyet'in ilk Meclis-i Meb'ûsan'ının toplanması",
+  "fark_gun": 31,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1909-06-02",
+  "eski": "vaday",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 2,
+  "kapali_n": 2,
+  "yerler": [
+   "Biltine",
+   "Vara (Wara)"
+  ],
+  "lat": 14.29,
+  "lon": 20.96,
+  "en_yakin_madde": "Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1910-01-01",
+  "eski": "kasance",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Kasance (Kasanje)"
+  ],
+  "lat": -9.36,
+  "lon": 18.14,
+  "en_yakin_madde": "Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş",
+  "fark_gun": 90,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1911-01-01",
+  "eski": "tuareg-accer",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "İllîzî"
+  ],
+  "lat": 26.48,
+  "lon": 8.47,
+  "en_yakin_madde": "Fransızlar Canet'i (Djanet) işgal etti",
+  "fark_gun": 31,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1912-01-01",
+  "eski": "zende",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 4,
+  "kapali_n": 0,
+  "yerler": [
+   "Bangassu",
+   "Obo",
+   "Rafai",
+   "Zemio"
+  ],
+  "lat": 5.03,
+  "lon": 24.59,
+  "en_yakin_madde": "İtalya'nın tek taraflı ilhak kararnâmesi",
+  "fark_gun": 57,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1913-01-01",
+  "eski": "__BOSLUK__",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Iriba"
+  ],
+  "lat": 15.13,
+  "lon": 22.25,
+  "en_yakin_madde": "Bâb-ı Âli Baskını",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1913-01-01",
+  "eski": "kanem-tubu",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 0,
+  "yerler": [
+   "Ati",
+   "Faya-Largeau",
+   "Nguigmi"
+  ],
+  "lat": 15.13,
+  "lon": 16.85,
+  "en_yakin_madde": "Bâb-ı Âli Baskını",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1913-01-01",
+  "eski": "senusi",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Fada (Ennedi)",
+   "Ounianga"
+  ],
+  "lat": 18.12,
+  "lon": 21.05,
+  "en_yakin_madde": "Bâb-ı Âli Baskını",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1914-01-01",
+  "eski": "kongo-kralligi",
+  "yeni": "portekiz",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 1,
+  "kapali_n": 1,
+  "yerler": [
+   "Uije (Uíge)"
+  ],
+  "lat": -7.61,
+  "lon": 15.06,
+  "en_yakin_madde": "Anchorage Alaska Demiryolu merkezi olarak kuruldu",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1914-01-01",
+  "eski": "tubu-tibesti",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "yil_temsili",
+  "n": 3,
+  "kapali_n": 3,
+  "yerler": [
+   "Bardaî",
+   "Vûr",
+   "Zûâr"
+  ],
+  "lat": 21.05,
+  "lon": 16.5,
+  "en_yakin_madde": "Anchorage Alaska Demiryolu merkezi olarak kuruldu",
+  "fark_gun": 31,
+  "bolge": "diger"
+ },
+ {
+  "gun": "1916-01-01",
+  "eski": "hollanda-dogu-hint",
+  "yeni": "portekiz",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Maucatar"
+  ],
+  "lat": -9.24,
+  "lon": 125.23,
+  "en_yakin_madde": "Erzurum'un Rus işgaline düşmesi",
+  "fark_gun": 46,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1916-01-01",
+  "eski": "portekiz",
+  "yeni": "hollanda-dogu-hint",
+  "kol": "ORTAK",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Noemuti"
+  ],
+  "lat": -9.55,
+  "lon": 124.46,
+  "en_yakin_madde": "Erzurum'un Rus işgaline düşmesi",
+  "fark_gun": 46,
+  "bolge": "asya-okyanusya"
+ },
+ {
+  "gun": "1916-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Cabo Juby (Tarfaya)"
+  ],
+  "lat": 27.94,
+  "lon": -12.93,
+  "en_yakin_madde": "Erzurum'un Rus işgaline düşmesi",
+  "fark_gun": 46,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1916-02-16",
+  "eski": "almanya",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 7,
+  "kapali_n": 0,
+  "yerler": [
+   "Bertua (Bertoua)",
+   "Duala",
+   "Kribi",
+   "Moloundou",
+   "Notse",
+   "Yaunde",
+   "Yokadouma"
+  ],
+  "lat": 3.99,
+  "lon": 10.89,
+  "en_yakin_madde": "Erzurum'un Rus işgaline düşmesi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1916-02-16",
+  "eski": "bamum",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Fumban (Bamum)"
+  ],
+  "lat": 5.73,
+  "lon": 10.9,
+  "en_yakin_madde": "Erzurum'un Rus işgaline düşmesi",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ },
+ {
+  "gun": "1918-10-08",
+  "eski": "OSMANLI",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Deyrülkamer (Dayr al-Kamer)",
+   "Sûr (Tyre) — Lübnan"
+  ],
+  "lat": 33.48,
+  "lon": 35.38,
+  "en_yakin_madde": "Şam'ın kaybı",
+  "fark_gun": 31,
+  "bolge": "dogu-akdeniz"
+ },
+ {
+  "gun": "1918-10-13",
+  "eski": "OSMANLI",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Trablusşam"
+  ],
+  "lat": 34.44,
+  "lon": 35.84,
+  "en_yakin_madde": "Şam'ın kaybı",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1918-10-26",
+  "eski": "OSMANLI",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 2,
+  "kapali_n": 0,
+  "yerler": [
+   "Qaţţīnah",
+   "Rakka"
+  ],
+  "lat": 36.38,
+  "lon": 39.53,
+  "en_yakin_madde": "Halep'in Arap ve İngiliz kuvvetlerince işgali",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1918-10-30",
+  "eski": "OSMANLI",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "acik",
+  "n": 6,
+  "kapali_n": 0,
+  "yerler": [
+   "Babū",
+   "Jadlā’",
+   "Malikiye (Derik)",
+   "Mersin",
+   "Sincan",
+   "Ḩīmū"
+  ],
+  "lat": 36.9,
+  "lon": 39.01,
+  "en_yakin_madde": "Mondros Mütarekesi",
+  "fark_gun": 31,
+  "bolge": "metropol-avrupa"
+ },
+ {
+  "gun": "1920-01-01",
+  "eski": "—",
+  "yeni": "ispanya",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "La Agüera (La Güera)"
+  ],
+  "lat": 20.83,
+  "lon": -17.09,
+  "en_yakin_madde": "Japonya kuzey Sahalin'i işgal etti",
+  "fark_gun": 31,
+  "bolge": "magrib-sahra"
+ },
+ {
+  "gun": "1923-01-01",
+  "eski": "—",
+  "yeni": "fransa-cumhuriyet",
+  "kol": "A",
+  "kova": "kapsam_disi",
+  "n": 1,
+  "kapali_n": 0,
+  "yerler": [
+   "Mundu (Moundou)"
+  ],
+  "lat": 8.57,
+  "lon": 16.08,
+  "en_yakin_madde": "Hlučín kesiminde son karar: Haatsch Çekoslovakya'ya",
+  "fark_gun": 31,
+  "bolge": "sahra-alti-afrika"
+ }
+]

@@ -1,0 +1,92 @@
+{
+ "kaynak": "denetim\\KUNYE-1945-0930-ANADOLU-C-KUNYE.json",
+ "okunan": 7,
+ "kabul": [
+  {
+   "id": "ani-bagratli-kralligi",
+   "islem": "yeni",
+   "f": "884-01-01",
+   "t": "1045-01-01"
+  },
+  {
+   "id": "kars-vanand-kralligi",
+   "islem": "yeni",
+   "f": "962-01-01",
+   "t": "1064-01-01"
+  },
+  {
+   "id": "lori-kralligi",
+   "islem": "yeni",
+   "f": "982-01-01",
+   "t": "1101-01-01"
+  },
+  {
+   "id": "seddadiler-gence",
+   "islem": "yeni",
+   "f": "951-01-01",
+   "t": "1075-01-01"
+  },
+  {
+   "id": "seddadiler-ani",
+   "islem": "yeni",
+   "f": "1064-01-01",
+   "t": "1175-01-01"
+  },
+  {
+   "id": "derbent-hasimi-emirligi",
+   "islem": "yeni",
+   "f": "869-01-01",
+   "t": "1065-01-01"
+  },
+  {
+   "id": "filaretos-devleti",
+   "islem": "yeni",
+   "f": "1077-01-01",
+   "t": "1085-01-12"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [],
+ "boya_gerekli": [
+  {
+   "id": "ani-bagratli-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kars-vanand-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "lori-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "seddadiler-gence",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "seddadiler-ani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "derbent-hasimi-emirligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "filaretos-devleti",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  863,
+  870
+ ]
+}

@@ -1,0 +1,851 @@
+{
+ "olcum": "KAPSAM-1945-OLC-0930",
+ "tarih": "2026-09-30",
+ "not": "Yalnız okuma. Kova gerekçeleri MODEL BİLGİSİDİR, kaynak DEĞİLDİR; kesin hüküm araştırma kalemidir.",
+ "1_motor_siniri": {
+  "dosya": "arac/uret_petek.py",
+  "motor_tuzunda": true,
+  "tarih_tavani_satirlari": {
+   "4498": "tarihler = sorted(t for t in tarihler if EPOK <= t <= \"1923-11-01\")",
+   "4500": "if tarihler[-1] != \"1923-11-01\": tarihler.append(\"1923-11-01\")",
+   "6517": "_wts = sorted(t for t in _wts if EPOK <= t <= \"1923-11-01\")",
+   "6765": "ts = sorted(t for t in ts if EPOK <= t <= \"1923-11-01\")",
+   "6768": "if ts[-1] != \"1923-11-01\": ts.append(\"1923-11-01\")",
+   "7033": "ts = sorted(t for t in ts if EPOK <= t <= \"1923-11-01\")",
+   "7036": "if ts[-1] != \"1923-11-01\": ts.append(\"1923-11-01\")"
+  },
+  "tavan_satir_sayisi": 7,
+  "tavan_yeri_sayisi": 4,
+  "epok_satiri": {
+   "2878": "EPOK = \"1281-01-01\""
+  },
+  "tuzdaki_ikinci_dosya": {
+   "arac/girdi.py:705": "UFUK = (\"1281-01-01\", \"1923-10-29\")"
+  },
+  "motor_disi_sabit": {
+   "js/app.js:90": "var BITIS     = gunIdx(\"1923-10-29\");",
+   "js/app.js:9092": "zaman çubuğu etiketi <span>1923</span>",
+   "js/app.js '1923' geçen satır": 16,
+   "arac/denetle.py '1923' geçişi": 27,
+   "arac/ altında '1923' geçen dosya": 32
+  },
+  "tam_insa_koşusu": 1,
+  "olculen_sure_kosu18": "4 sa 10 dk",
+  "sure_uyarisi": "1923-45 kırılmaları eklendikçe koşu uzar; ne kadar uzayacağı ÖLÇÜLEMEDİ"
+ },
+ "2_kunye_1923_10_29": {
+  "evren": 90,
+  "kovalar": {
+   "bitti-1923": 2,
+   "bitti-1923-1945-arasi": 11,
+   "yasadi-1945": 70,
+   "olculemedi": 7
+  },
+  "yasadi_ama_isg_gerekir": 17,
+  "liste": {
+   "bitti-1923": [
+    {
+     "id": "oniki-ada-italyan",
+     "ad": "İtalya'nın Oniki Ada İşgali",
+     "f": "1912-05-04",
+     "nokta_1923": 0,
+     "gerekce": "Lozan (1923) ile 'işgal' statüsü İtalyan egemenliğine döndü; toprak İtalya'da kaldı — ardıl ya da `italya`ya devir (sınıf ③)"
+    },
+    {
+     "id": "tbmm-turkiye",
+     "ad": "Türkiye Büyük Millet Meclisi Hükûmeti",
+     "f": "1920-04-23",
+     "nokta_1923": 263,
+     "gerekce": "29 Ekim 1923 Cumhuriyet ilanıyla TBMM Hükûmeti adı sona erdi; aynı toprak ARDIL künyeye (Türkiye Cumhuriyeti) geçer — 3.5 sınıf ③"
+    }
+   ],
+   "bitti-1923-1945-arasi": [
+    {
+     "id": "arnavutluk-bagimsiz",
+     "ad": "Arnavutluk Prensliği (Bağımsız)",
+     "f": "1912-11-28",
+     "nokta_1923": 15,
+     "gerekce": "1928'de krallık oldu (ad), 1939 İtalyan işgali — bitiş günü sınıflandırılmalı"
+    },
+    {
+     "id": "hicaz-kralligi",
+     "ad": "Hicaz Krallığı (Şerif Hüseyin)",
+     "f": "1916-06-10",
+     "nokta_1923": 0,
+     "gerekce": "Suud fethiyle 1920'lerin ortasında sona erdi"
+    },
+    {
+     "id": "cimma-sultanligi",
+     "ad": "Cimma (Jimma) Sultanlığı",
+     "f": "1830-01-01",
+     "nokta_1923": 0,
+     "gerekce": "1930'larda Habeşistan'a katıldı"
+    },
+    {
+     "id": "cekoslovakya",
+     "ad": "Çekoslovakya Cumhuriyeti",
+     "f": "1918-10-28",
+     "nokta_1923": 19,
+     "gerekce": "1939 Alman işgaliyle parçalandı"
+    },
+    {
+     "id": "polonya",
+     "ad": "Polonya Cumhuriyeti (II. Cumhuriyet)",
+     "f": "1918-11-11",
+     "nokta_1923": 22,
+     "gerekce": "1939 Alman-Sovyet işgaliyle yıkıldı (sürgün hükûmeti toprak tutmaz)"
+    },
+    {
+     "id": "yugoslavya",
+     "ad": "Sırp-Hırvat-Sloven Krallığı (SHS)",
+     "f": "1918-12-01",
+     "nokta_1923": 79,
+     "gerekce": "SHS 1929'da Yugoslavya Krallığı adını aldı (aynı polity), 1941 Mihver işgaliyle parçalandı"
+    },
+    {
+     "id": "letonya",
+     "ad": "Letonya Cumhuriyeti",
+     "f": "1918-11-18",
+     "nokta_1923": 5,
+     "gerekce": "1940 Sovyet ilhakı"
+    },
+    {
+     "id": "litvanya",
+     "ad": "Litvanya Cumhuriyeti",
+     "f": "1918-02-16",
+     "nokta_1923": 4,
+     "gerekce": "1940 Sovyet ilhakı"
+    },
+    {
+     "id": "estonya",
+     "ad": "Estonya Cumhuriyeti",
+     "f": "1918-02-24",
+     "nokta_1923": 5,
+     "gerekce": "1940 Sovyet ilhakı"
+    },
+    {
+     "id": "avusturya-cumhuriyet",
+     "ad": "Avusturya Cumhuriyeti (I. Cumhuriyet)",
+     "f": "1918-11-12",
+     "nokta_1923": 12,
+     "gerekce": "1938 Anschluss"
+    },
+    {
+     "id": "tannu-tuva",
+     "ad": "Tannu Tuva Halk Cumhuriyeti",
+     "f": "1921-08-14",
+     "nokta_1923": 0,
+     "gerekce": "1944'te SSCB'ye katıldı"
+    }
+   ],
+   "yasadi-1945": [
+    {
+     "id": "sovyet-rusya",
+     "ad": "Sovyet Rusya / SSCB",
+     "f": "1917-11-07",
+     "nokta_1923": 428,
+     "gerekce": "künye adı zaten 'Sovyet Rusya / SSCB'; 1945'te sürüyor"
+    },
+    {
+     "id": "fransa-cumhuriyet",
+     "ad": "Fransa (1792 Sonrası — Cumhuriyet/İmparatorluk/Restorasyon)",
+     "f": "1792-09-22",
+     "nokta_1923": 269,
+     "gerekce": "polity sürdü; 1940-44 Alman işgali/Vichy = isg: + ardıl künye"
+    },
+    {
+     "id": "ingiltere",
+     "ad": "İngiltere / Büyük Britanya",
+     "f": "1066-01-01",
+     "nokta_1923": 296,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "isvec",
+     "ad": "İsveç Krallığı",
+     "f": "1523-06-06",
+     "nokta_1923": 30,
+     "gerekce": "sürdü, tarafsız"
+    },
+    {
+     "id": "fas",
+     "ad": "Fas (Sâdî / Alevî Şerifleri)",
+     "f": "1549-01-01",
+     "nokta_1923": 34,
+     "gerekce": "Alevî sultanlığı Fransız/İspanyol himayesi altında sürdü"
+    },
+    {
+     "id": "yemen-zeydi",
+     "ad": "Yemen Zeydî İmamlığı",
+     "f": "897-01-01",
+     "nokta_1923": 0,
+     "gerekce": "Mütevekkil İmamlığı olarak sürdü"
+    },
+    {
+     "id": "yunanistan",
+     "ad": "Yunanistan Krallığı",
+     "f": "1821-03-25",
+     "nokta_1923": 101,
+     "gerekce": "1924-35 cumhuriyet (ad), 1941-44 Mihver işgali = isg:"
+    },
+    {
+     "id": "bulgaristan-kralligi",
+     "ad": "Bulgaristan Krallığı (Çarlık)",
+     "f": "1908-10-05",
+     "nokta_1923": 24,
+     "gerekce": "1945'te sürüyor"
+    },
+    {
+     "id": "romanya-kralligi",
+     "ad": "Romanya Krallığı",
+     "f": "1881-03-26",
+     "nokta_1923": 42,
+     "gerekce": "1945'te sürüyor"
+    },
+    {
+     "id": "ispanya",
+     "ad": "İspanya (Kastilya-Aragon)",
+     "f": "1479-01-20",
+     "nokta_1923": 50,
+     "gerekce": "polity sürdü; 1931 cumhuriyet, 1936-39 iç savaş = rejim, sınır değil"
+    },
+    {
+     "id": "portekiz",
+     "ad": "Portekiz Krallığı",
+     "f": "1139-07-25",
+     "nokta_1923": 67,
+     "gerekce": "polity sürdü (künye adı 'Krallık' ama 1910'dan beri cumhuriyet — ad kusuru, ayrı kalem)"
+    },
+    {
+     "id": "hollanda",
+     "ad": "Hollanda (Birleşik Eyaletler Cumhuriyeti → 1815 Krallık)",
+     "f": "1581-07-26",
+     "nokta_1923": 8,
+     "gerekce": "sürdü; 1940-45 işgal = isg:"
+    },
+    {
+     "id": "danimarka",
+     "ad": "Danimarka Krallığı (1814'e kadar Danimarka-Norveç)",
+     "f": "1281-01-01",
+     "nokta_1923": 12,
+     "gerekce": "sürdü; 1940-45 işgal = isg:"
+    },
+    {
+     "id": "umman",
+     "ad": "Umman (Ya'rubî / Bû Saîd) Sultanlığı",
+     "f": "1624-01-01",
+     "nokta_1923": 19,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "habesistan",
+     "ad": "Habeşistan İmparatorluğu",
+     "f": "1270-01-01",
+     "nokta_1923": 64,
+     "gerekce": "sürdü; 1936-41 İtalyan işgali = isg: / İtalyan Doğu Afrikası"
+    },
+    {
+     "id": "italya",
+     "ad": "İtalya Krallığı",
+     "f": "1861-03-17",
+     "nokta_1923": 130,
+     "gerekce": "1945'te sürüyor (krallık 1946'ya kadar)"
+    },
+    {
+     "id": "liberya",
+     "ad": "Liberya Cumhuriyeti",
+     "f": "1822-04-25",
+     "nokta_1923": 5,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "kanada",
+     "ad": "Kanada Dominyonu",
+     "f": "1867-07-01",
+     "nokta_1923": 188,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "finlandiya",
+     "ad": "Finlandiya Cumhuriyeti",
+     "f": "1917-12-06",
+     "nokta_1923": 22,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "norvec",
+     "ad": "Norveç Krallığı (bağımsız)",
+     "f": "1905-06-07",
+     "nokta_1923": 20,
+     "gerekce": "sürdü; 1940-45 işgal = isg:"
+    },
+    {
+     "id": "kuveyt",
+     "ad": "Kuveyt (Sabah Şeyhliği)",
+     "f": "1752-01-01",
+     "nokta_1923": 1,
+     "gerekce": "sürdü (İngiliz himayesi)"
+    },
+    {
+     "id": "bahreyn",
+     "ad": "Bahreyn (Âl Halîfe Şeyhliği)",
+     "f": "1783-01-01",
+     "nokta_1923": 0,
+     "gerekce": "sürdü (İngiliz himayesi)"
+    },
+    {
+     "id": "katar",
+     "ad": "Katar (Âl Sânî Şeyhliği)",
+     "f": "1868-01-01",
+     "nokta_1923": 1,
+     "gerekce": "sürdü (İngiliz himayesi)"
+    },
+    {
+     "id": "macaristan-naiplik",
+     "ad": "Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)",
+     "f": "1918-11-16",
+     "nokta_1923": 20,
+     "gerekce": "1945'te sürüyor; 1944 Alman işgali = isg:"
+    },
+    {
+     "id": "meiji-japonya",
+     "ad": "Meiji ve Sonrası Japonya İmparatorluğu",
+     "f": "1868-01-03",
+     "nokta_1923": 65,
+     "gerekce": "1945'te sürüyor (Ağustos 1945 teslim)"
+    },
+    {
+     "id": "tibet-ganden-phodrang",
+     "ad": "Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)",
+     "f": "1642-01-01",
+     "nokta_1923": 4,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "siyam-chakri",
+     "ad": "Siyam Krallığı (Rattanakosin / Chakri Hanedanı)",
+     "f": "1782-04-06",
+     "nokta_1923": 24,
+     "gerekce": "sürdü (1939 'Tayland' adı)"
+    },
+    {
+     "id": "kamboc-kralligi",
+     "ad": "Kamboçya Krallığı (Post-Angkor)",
+     "f": "1431-01-01",
+     "nokta_1923": 0,
+     "gerekce": "Fransız himayesinde sürdü"
+    },
+    {
+     "id": "brunei-sultanligi",
+     "ad": "Brunei Sultanlığı",
+     "f": "1368-01-01",
+     "nokta_1923": 1,
+     "gerekce": "İngiliz himayesinde sürdü; 1941-45 Japon işgali = isg:"
+    },
+    {
+     "id": "buganda",
+     "ad": "Buganda Krallığı",
+     "f": "1300-01-01",
+     "nokta_1923": 1,
+     "gerekce": "İngiliz himayesinde sürdü"
+    },
+    {
+     "id": "abd",
+     "ad": "Amerika Birleşik Devletleri",
+     "f": "1776-07-04",
+     "nokta_1923": 224,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "meksika",
+     "ad": "Meksika (Bağımsız Dönem)",
+     "f": "1821-09-27",
+     "nokta_1923": 78,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "haiti",
+     "ad": "Haiti Cumhuriyeti",
+     "f": "1804-01-01",
+     "nokta_1923": 2,
+     "gerekce": "sürdü; 1915-34 ABD işgali = isg:"
+    },
+    {
+     "id": "tonga-kralligi",
+     "ad": "Tonga Krallığı",
+     "f": "1845-12-04",
+     "nokta_1923": 1,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "yeni-zelanda",
+     "ad": "Yeni Zelanda (İngiliz Kolonisi/Dominyonu)",
+     "f": "1840-02-06",
+     "nokta_1923": 21,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "avustralya",
+     "ad": "Avustralya Milletler Topluluğu",
+     "f": "1901-01-01",
+     "nokta_1923": 109,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "irlanda-serbest-devlet",
+     "ad": "İrlanda Serbest Devleti",
+     "f": "1922-12-06",
+     "nokta_1923": 11,
+     "gerekce": "polity sürdü; 1937'de 'Éire' adı"
+    },
+    {
+     "id": "isvicre",
+     "ad": "İsviçre Konfederasyonu",
+     "f": "1291-08-01",
+     "nokta_1923": 8,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "belcika",
+     "ad": "Belçika Krallığı",
+     "f": "1830-10-04",
+     "nokta_1923": 64,
+     "gerekce": "sürdü; 1940-44 işgal = isg:"
+    },
+    {
+     "id": "luksemburg",
+     "ad": "Lüksemburg Büyük Dükalığı",
+     "f": "1890-11-23",
+     "nokta_1923": 2,
+     "gerekce": "sürdü; 1940-44 işgal = isg:"
+    },
+    {
+     "id": "surakarta",
+     "ad": "Surakarta Sunanlığı",
+     "f": "1755-02-13",
+     "nokta_1923": 1,
+     "gerekce": "Hollanda himayesinde sürdü; 1942-45 Japon işgali = isg:"
+    },
+    {
+     "id": "yogyakarta",
+     "ad": "Yogyakarta Sultanlığı",
+     "f": "1755-02-13",
+     "nokta_1923": 1,
+     "gerekce": "aynı"
+    },
+    {
+     "id": "nepal",
+     "ad": "Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)",
+     "f": "1281-01-01",
+     "nokta_1923": 1,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "san-devletleri",
+     "ad": "Şan Beylikleri (Sawbwa'lıklar)",
+     "f": "1281-01-01",
+     "nokta_1923": 5,
+     "gerekce": "İngiliz Burma'sı altında sürdü; 1942-45 Japon işgali = isg:"
+    },
+    {
+     "id": "cohor-sultanligi",
+     "ad": "Cohor (Johor) Sultanlığı",
+     "f": "1528-01-01",
+     "nokta_1923": 3,
+     "gerekce": "İngiliz himayesinde sürdü; 1942-45 Japon işgali = isg:"
+    },
+    {
+     "id": "tidore-sultanligi",
+     "ad": "Tidore Sultanlığı (Moluk)",
+     "f": "1281-01-01",
+     "nokta_1923": 1,
+     "gerekce": "Hollanda idaresinde sürdü; Japon işgali = isg:"
+    },
+    {
+     "id": "cin-cumhuriyeti",
+     "ad": "Çin Cumhuriyeti",
+     "f": "1911-10-10",
+     "nokta_1923": 120,
+     "gerekce": "sürdü; 1937-45 Japon işgali = isg:"
+    },
+    {
+     "id": "afganistan",
+     "ad": "Afganistan (Bârekzâyî Emirliği)",
+     "f": "1823-01-01",
+     "nokta_1923": 8,
+     "gerekce": "sürdü (1926 krallık adı)"
+    },
+    {
+     "id": "izlanda",
+     "ad": "İzlanda",
+     "f": "1918-12-01",
+     "nokta_1923": 2,
+     "gerekce": "sürdü (1944 cumhuriyet adı); 1940-45 Müttefik işgali = isg:"
+    },
+    {
+     "id": "cammu-kesmir",
+     "ad": "Cammû-Keşmir (Dogra Hanedanı)",
+     "f": "1846-03-16",
+     "nokta_1923": 3,
+     "gerekce": "1947'ye kadar sürdü"
+    },
+    {
+     "id": "bhopal",
+     "ad": "Bopal (Bhopal) Devleti",
+     "f": "1708-01-01",
+     "nokta_1923": 1,
+     "gerekce": "1949'a kadar sürdü"
+    },
+    {
+     "id": "arjantin-cumhuriyeti",
+     "ad": "Arjantin Cumhuriyeti",
+     "f": "1810-05-25",
+     "nokta_1923": 54,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "bolivya-cumhuriyeti",
+     "ad": "Bolivya Cumhuriyeti",
+     "f": "1825-08-06",
+     "nokta_1923": 26,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "sili-cumhuriyeti",
+     "ad": "Şili Cumhuriyeti",
+     "f": "1818-02-12",
+     "nokta_1923": 26,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "paraguay-cumhuriyeti",
+     "ad": "Paraguay Cumhuriyeti",
+     "f": "1811-05-14",
+     "nokta_1923": 6,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "peru-cumhuriyeti",
+     "ad": "Peru Cumhuriyeti",
+     "f": "1824-12-09",
+     "nokta_1923": 37,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "uruguay-cumhuriyeti",
+     "ad": "Uruguay Doğu Cumhuriyeti",
+     "f": "1828-08-27",
+     "nokta_1923": 5,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "ekvador-cumhuriyeti",
+     "ad": "Ekvador Cumhuriyeti",
+     "f": "1830-05-13",
+     "nokta_1923": 9,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "venezuela-cumhuriyeti",
+     "ad": "Venezuela Cumhuriyeti",
+     "f": "1830-01-13",
+     "nokta_1923": 15,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "kolombiya-cumhuriyeti",
+     "ad": "Kolombiya Cumhuriyeti (Yeni Granada soyu)",
+     "f": "1831-01-01",
+     "nokta_1923": 18,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "brezilya-cumhuriyeti",
+     "ad": "Brezilya Birleşik Devletleri Cumhuriyeti",
+     "f": "1889-11-15",
+     "nokta_1923": 129,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "dominik-cumhuriyeti",
+     "ad": "Dominik Cumhuriyeti",
+     "f": "1844-02-27",
+     "nokta_1923": 2,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "kuba-cumhuriyeti",
+     "ad": "Küba Cumhuriyeti",
+     "f": "1902-05-19",
+     "nokta_1923": 4,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "guatemala",
+     "ad": "Guatemala Cumhuriyeti",
+     "f": "1821-09-15",
+     "nokta_1923": 3,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "panama-cumhuriyeti",
+     "ad": "Panama Cumhuriyeti",
+     "f": "1903-11-03",
+     "nokta_1923": 5,
+     "gerekce": "sürdü"
+    },
+    {
+     "id": "fransiz-guyanasi",
+     "ad": "Fransız Guyanası",
+     "f": "1817-01-01",
+     "nokta_1923": 1,
+     "gerekce": "sürdü (Fransız kolonisi)"
+    },
+    {
+     "id": "kosta-rika-cumhuriyeti",
+     "ad": "Kosta Rika Cumhuriyeti",
+     "f": "1838-01-01",
+     "nokta_1923": 0,
+     "gerekce": "sürdü; künye notu 't = pencere sonu' diyor"
+    },
+    {
+     "id": "honduras-cumhuriyeti",
+     "ad": "Honduras Cumhuriyeti",
+     "f": "1838-10-26",
+     "nokta_1923": 0,
+     "gerekce": "sürdü; künye notu 't = pencere sonu, bitiş iddiası DEĞİL'"
+    },
+    {
+     "id": "nikaragua-cumhuriyeti",
+     "ad": "Nikaragua Cumhuriyeti",
+     "f": "1838-04-30",
+     "nokta_1923": 0,
+     "gerekce": "sürdü; künye notu 't = pencere sonu'"
+    },
+    {
+     "id": "el-salvador-cumhuriyeti",
+     "ad": "El Salvador Cumhuriyeti",
+     "f": "1841-01-01",
+     "nokta_1923": 0,
+     "gerekce": "sürdü"
+    }
+   ],
+   "olculemedi": [
+    {
+     "id": "almanya",
+     "ad": "Kutsal Roma / Almanya",
+     "f": "962-02-02",
+     "nokta_1923": 38,
+     "gerekce": "tek künye 962'den 'Kutsal Roma / Almanya'; Weimar/Nazi için GENİŞLET mi ARDIL mı — §3.5 sınıf kararı, ölçülemedi"
+    },
+    {
+     "id": "somali",
+     "ad": "Somali Sultanlıkları",
+     "f": "1500-01-01",
+     "nokta_1923": 15,
+     "gerekce": "çoğul 'Somali Sultanlıkları'; sömürge altında hangisi sürdü — ölçülemedi"
+    },
+    {
+     "id": "senusi",
+     "ad": "Senûsî Tarikatı (Senûsiyye)",
+     "f": "1837-01-01",
+     "nokta_1923": 0,
+     "gerekce": "tarikat-devlet; İtalyan bastırması tarihi ve 'devlet' sayılma ölçütü — ölçülemedi"
+    },
+    {
+     "id": "umman-zengibar",
+     "ad": "Umman-Zengibar Sultanlığı",
+     "f": "1698-01-01",
+     "nokta_1923": 8,
+     "gerekce": "künye adı birleşik sultanlığı anlatıyor; 1856 bölünmesinden sonrası bu kimlik mi — pencere zaten şüpheli, ölçülemedi"
+    },
+    {
+     "id": "ingiliz-kuzey-amerika",
+     "ad": "İngiliz Kuzey Amerika (Kanada)",
+     "f": "1763-02-10",
+     "nokta_1923": 0,
+     "gerekce": "künyenin KENDİ kanada notu t:'nin 1867-07-01'e çekilmesi gerektiğini söylüyor — 1923 sorunu değil, mevcut örtüşme kusuru"
+    },
+    {
+     "id": "suriye-lubnan-mandasi",
+     "ad": "Fransız Suriye-Lübnan Manda İdaresi",
+     "f": "1920-07-01",
+     "nokta_1923": 25,
+     "gerekce": "Lübnan 1943, Suriye 1946 — 1945'te kısmen sürüyor; bölünme gerekebilir, ölçülemedi"
+    },
+    {
+     "id": "agadez-sultanligi",
+     "ad": "Agadez (Aïr) Sultanlığı — Tuareg",
+     "f": "1405-01-01",
+     "nokta_1923": 1,
+     "gerekce": "Fransız sömürgesi altında sultanlığın 'devlet' sayılıp sayılmayacağı — ölçülemedi"
+    }
+   ]
+  }
+ },
+ "2b_1923_sonrasi_biten_kunye": {
+  "evren": 59,
+  "1924-1944": 9,
+  "1945": 1,
+  "1946+": 49
+ },
+ "3_yeni_kunye": {
+  "kesin": 10,
+  "belirsiz": 18,
+  "tarama": "devletler.js 704 künye ad+id üzerinde anahtar kelime (türkiye, nazi, vichy, mançu, hırvat, slovak, hatay, suud, moğol, tuva…) — kesin listedekilerin HİÇBİRİ yok",
+  "kesin_liste": [
+   [
+    "turkiye-cumhuriyeti",
+    "1923-10-29'dan; tbmm-turkiye'nin ardılı"
+   ],
+   [
+    "suudi-arabistan-kralligi",
+    "1932; suud-ucuncu künyesi 1932-09-18'de bitiyor"
+   ],
+   [
+    "mogolistan-halk-cumhuriyeti",
+    "1924; mogolistan künyesi 1924-11-26'da bitiyor"
+   ],
+   [
+    "mancukuo",
+    "1932-1945 Japon kuklası"
+   ],
+   [
+    "vichy-fransasi",
+    "1940-1944"
+   ],
+   [
+    "italyan-dogu-afrikasi",
+    "1936-1941"
+   ],
+   [
+    "bagimsiz-hirvatistan-devleti",
+    "1941-1945"
+   ],
+   [
+    "slovakya-1939",
+    "1939-1945"
+   ],
+   [
+    "bohemya-moravya-protektorasi",
+    "1939-1945"
+   ],
+   [
+    "hatay-devleti",
+    "1938-1939"
+   ]
+  ],
+  "belirsiz_liste": [
+   [
+    "nazi/weimar almanyası",
+    "`almanya` künyesi GENİŞLETİLİR mi ARDIL mı — sınıf kararı"
+   ],
+   [
+    "polonya genel valiliği",
+    "künye mi isg: mi"
+   ],
+   [
+    "wang jingwei nanjing hükûmeti",
+    "Japon kuklası 1940-45; künye mi isg: mi"
+   ],
+   [
+    "mengjiang",
+    "Japon kuklası 1939-45"
+   ],
+   [
+    "burma devleti 1943",
+    "Japon kuklası"
+   ],
+   [
+    "filipin commonwealth 1935 + ii. filipin cumhuriyeti 1943",
+    "Filipinler bugün nasıl boyanıyor — taranmadı"
+   ],
+   [
+    "çin sovyet cumhuriyeti 1931-37",
+    "iç savaş bölgesi"
+   ],
+   [
+    "doğu türkistan islam cumhuriyeti 1933-34 / ikinci 1944-49",
+    "kısa ömürlü"
+   ],
+   [
+    "tanca uluslararası bölgesi 1924-40",
+    "petek ölçeğinde görünür mü"
+   ],
+   [
+    "ispanyol fas protektorası",
+    "bugün `fas` altında mı — taranmadı"
+   ],
+   [
+    "vatikan 1929",
+    "petek ölçeğinde anlamsız olabilir"
+   ],
+   [
+    "nedić sırbistanı / italyan karadağı",
+    "Mihver işgal idareleri"
+   ],
+   [
+    "helen devleti 1941-44",
+    "işbirlikçi hükûmet"
+   ],
+   [
+    "karpat ukraynası 1939",
+    "bir günlük devlet"
+   ],
+   [
+    "lübnan cumhuriyeti 1943 / suriye cumhuriyeti",
+    "suriye-lubnan-mandasi bölünmesi"
+   ],
+   [
+    "azad hind",
+    "toprak tutması tartışmalı"
+   ],
+   [
+    "hicaz-necid krallığı 1926-32",
+    "suud-ucuncu kapsıyor mu"
+   ],
+   [
+    "italyan libyası",
+    "bugün `italya` ile boyanıyor olabilir — taranmadı"
+   ]
+  ]
+ },
+ "3b_veri_isi_1945": {
+  "yerlesim_donemi_t_1923_10_29": {
+   "s": 4091,
+   "isg": 96,
+   "v": 36,
+   "toplam": 4223,
+   "nokta": 4127,
+   "ham_metin": 4499
+  },
+  "1923_10_28_sahipli_nokta": 4092,
+  "savas_cephesi_kunyelerinde_nokta": 1968,
+  "sinir_D_katmani_1923_10_29_gecisi": 753,
+  "sinir_dosyasi": 28,
+  "kronoloji_1924_1945_madde": 1,
+  "kronoloji_1900_1923_madde": 917,
+  "kronoloji_dosyasi": 165
+ },
+ "4_1281_oncesi": {
+  "kunye_f_1281_oncesi": 94,
+  "kunye_f_1281_oncesi_padsiz_dizgi_karsilastirmasi": 76,
+  "kunye_f_tam_1281_01_01": 142,
+  "yerlesim_donemi_f_1281_01_01": {
+   "s": 2521,
+   "d": 5,
+   "toplam_sahiplik_donemi": 2526,
+   "nokta": 2526,
+   "ham_metin_2807_ayrisimi": {
+    "s": 2519,
+    "kd": 277,
+    "d": 5,
+    "yorum_satiri": 2
+   },
+   "ilk_s_1281_ve_kur_yok": 2329
+  },
+  "kur_alani_tasiyan_nokta": 1669,
+  "koordinatorun_alinti_iddiasi": "uret_petek.py ~4650 kur:/bit: bölümünde '1281-01-01 = araştırılmamış' cümlesi BULUNAMADI. EPOK'un tek açıklaması 2875-2878: atlasın başlangıç tarihi (Ertuğrul vefatı). 'Pencere ucu ölçüm değil sınır işaretidir' hükmü CLAUDE.md §4'te (D210).",
+  "tam_insa_koşusu": 1
+ }
+}

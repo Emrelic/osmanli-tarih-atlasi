@@ -1,0 +1,8 @@
+ARA TESLİM · ① KÜNYE · ONCE1281-IRAN-TURKISTAN
+① ÖLÇTÜM: denetim/ONCE1281-IRAN-KUNYE.json — 39 kayıt: 30 yeni · 1 genislet · 8 dokunmadim.
+  YENİ: buyuk-selcuklu · kirman-selcuklu · suriye-selcuklu · irak-selcuklu · gazneli · gurlu · karahanli (840-1041) · dogu-karahanli · bati-karahanli (TDV 1041 bölünmesi) · karahitay · harizmsah · samani (→1005) · buveyhi · ziyari · kakuyi · revvadi · bavendi · salgurlu · ildenizli · ahmedili · yezd-atabegligi · alamut-nizari · annazi · musafiri · badusbani · kipcak · idil-bulgar · kerayit · nayman · koco-uygur.
+  GENİŞLET: kert f 1245→1244 (TDV herat "642'de (1244)"; künye-içi 1245 maddesi 1244'e çekilmeli).
+  DOKUNMADIM: sirvansah · lur-i-buzurg · lur-i-kucek · kutlughanli · mogol-imparatorlugu · ilhanli · altinorda · cagatay.
+  Yeni künyelerin alinti_f/alinti_t'si TDV önbelleğinde birebir sınandı (0 bulunamayan). Yıl yazımı devletler.js gibi pad'siz ("963-01-01").
+② BULAMADIM: Hasanveyhîler · Şebânkâre · Oğuz Yabgu (1003 öncesi yıkılmış) · Fergana Karahanlıları · Kerâyit/Nayman kuruluş yılı (f=ilk tanıklık 1199). Tam liste JSON 'bulunamadi' (24 satır).
+③ İSTİYORUM: 29 yeni künye harita:null + boya_gerekli:true. ⚠ kert künyesinde harita alanı YOK ama BOYALAR'da 'kert' VAR — öneride harita:"kert". buyuk-selcuklu/gazneli/gurlu/harizmsah başka oturumların dosyalarında da taraf (HINDISTAN-AMERIKA'ya gazneli·gurlu verildi, M-5565). Ayrıntı: denetim/ONCE1281-IRAN-TURKISTAN-0930.md

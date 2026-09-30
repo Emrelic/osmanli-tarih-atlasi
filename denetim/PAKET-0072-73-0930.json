@@ -1,0 +1,262 @@
+{
+ "ad": "PAKET-0072-73-0930",
+ "tarih": "2026-09-30",
+ "not": "Her kayitta parti alani ZORUNLU: iki partide de H-0001..H-0015 cakisir.",
+ "partiler": {
+  "parti-emrelic-0072": {
+   "parti": "parti-emrelic-0072",
+   "madde": {
+    "H-0001": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "Kolemen beyleri karti 'kolemen-beyleri-kimdir' canli; app.js tembel yukleyici listesinde; bag olay:['1811-03-01|Kolemen'] Kal'a Vakasi maddesine (olaylar_ek4.js:45, kronoloji_misir.js:113) dusuyor. TDV 'kolemenler' govdesiz (memlukler'e yonlendirme) — raporda beyanli.",
+     "delil": "data/ekokuma_kolemen.js:57 · js/app.js:11172 · data/olaylar_ek4.js:45 · 874c8a31 · 3b6c4b62",
+     "sinif": "ek-okuma"
+    },
+    "H-0002": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "sirada",
+     "not": "IKI KISIM. (a) EK OKUMA = cozuldu: 'tosun-pasa-kimdir' (ekokuma_kolemen.js:66) + 'tosun-pasa-film-mi-tarih-mi' (:76) canli, 1811-09-03 Hicaz seferi maddesine bagli (olaylar_ek4.js:51); film ayrimini dogrudan soyleyen akademik kaynak bulunamadi, kart bunu yaziyor. (b) OK = sirada: veride iki Tosun oku var, ikisi de tur:'sefer' duz kara hatti — seferler_ok103.js:144 (f 1811-03-01 tayin gunu, Suveys duragi kaynaksiz) ve savaslar.js:841 (Kahire→Yenbu, kavisli cizim Sina+Kizildeniz'i kesiyor); _mukerrerMi (app.js:5702) birini eler, hangisinin cizildigi tarayici olmadan olculemedi. Cevap SONRA bulundu: AKDENIZ-ARAP-0082-CEVAP.md:128-157 (Burckhardt II s.343-346): piyade Suveys→Yenbu DENIZDEN, Tosun suvariyle KARADAN (Akabe-Muveylih-Vech). Iki ok + mukerrerin dusurulmesi onerildi, VERIYE UYGULANMADI.",
+     "delil": "data/ekokuma_kolemen.js:66,76 · data/seferler_ok103.js:144 · data/savaslar.js:841 · denetim/AKDENIZ-ARAP-0082-CEVAP.md:128-157",
+     "sinif": "veri"
+    },
+    "H-0003": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "senin-kararin",
+     "not": "3 alt istek. (1) Anlami cevaplandi: sari noktalar kaynakli halka DEGIL, C katmani hukuki-sinir-nokta (karlofca-bosna-kaleler-1699, Habsburg #bdab3f). (2) Ayar bagi INDI: _KH_C_NOKTA_AYARA_BAGLI=true, ayar kapaliyken gizleniyor. (3) Zaman penceresi YAPILMADI: C kaydi hala 1699-01-26→1918-11-11; secenek A (halka sistemine goc) / B (nokta basina pencere) Emre'de. Yan bulgu acik: 'Bosna Novi'si' taraf:'habsburg' (Karlofca'ya gore Osmanli'da kaldi).",
+     "delil": "js/app.js:8897 · cef8f440 · data/hukuki_sinirlar.js:374,380",
+     "sinif": "arayuz"
+    },
+    "H-0004": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "zaten-dogru",
+     "not": "Cizgi C katmani hukuki-sinir-hat 'karlofca-bosna-sava-1699' (Brod→Bosut agzi duz hat); kosuya bagli degil, kusur degil (CIZGI-ANLAM-0072 §4c); lejantta C satiri var. 'Iki uc arasi duz cizilir' lejant ibaresi inmedi (grep 0) — kucuk acik. Lego sorusu ayri isle cevaplandi: geometri tuzu Kosu 16'da indi (_ONB_GEO_TUZ); kosular hala uzun (Kosu 16 6s20dk), onbellek kazanci bu turda olculmedi.",
+     "delil": "js/app.js:2902,2925 · arac/uret_petek.py:604 · 76351781",
+     "sinif": "motor"
+    },
+    "H-0005": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "olculecek",
+     "not": "(a) Cetinje/Karadag INDI: kunyeye tabi 1516→1852 osmanli (00ebda62). (c) Herceg Novi kronolojisi INDI: Avusturya 1797→1806 · Rusya 1806→1807 · Fransa 1807→1814 · Avusturya 1814→ (99207c4c); ikisi de yayindaki kosudan once. (b) Ust uste binme OLCULMEDI: raporda OSM×karadag 1106 nokta ≈1005 km²; bugunku donemler.js×devletler_harita.js cakismasi agir dosya, bu turda taranmadi.",
+     "delil": "data/devletler.js:1270 · 00ebda62 · 99207c4c",
+     "sinif": "harita"
+    },
+    "H-0006": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "'isyan-sirp-milli-anlati' (karsi-anlati) canli, 1815-04-23 Ikinci Sirp Isyani maddesine (olaylar_ek5.js:320) bagli.",
+     "delil": "data/ekokuma_isyan1821.js:71 · js/app.js:11171 · 874c8a31",
+     "sinif": "ek-okuma"
+    },
+    "H-0007": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "Cevap: pembe kesikli = D katmani d-sinir-hat-E, 'd1812-ru-bg-prut' (Bukres 1812); pembe = bir taraf Osmanli tabii (Bogdan). Lejanta D blogu eklendi, canli. Yan bulgu acik: D_VASAL_RENK ile himaye-serit-ic ayni renk #d4707d (ΔE 0) — ayirmak Emre karari.",
+     "delil": "js/app.js:2921-2926 · cef8f440 · bfa2c02f · js/d_katman.js:75",
+     "sinif": "arayuz"
+    },
+    "H-0008": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "senin-kararin",
+     "not": "Anlami cevaplandi (12 D/E/C kaydi, 8'inde taraf isvicre; lejant canli). 'Renkler uyumsuz' YAPILMADI: motor D hatlarini okumuyor (uret_petek.py grep 0); hat dolgunun icinden geciyor (d1816-alm-ah-4 %89). Cozum D-RENK-0073 (a/b/c) secenegine bagli, karar kaydi bulunamadi. 0073 H-0007 ile ayni is.",
+     "delil": "js/app.js:2921 · denetim/D-RENK-0073-OLCUM-0920.md §6",
+     "sinif": "harita"
+    },
+    "H-0009": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "kapsam_genis kalkti, odak_kimlik:'suud-birinci' yazildi; 1816-09-01'de 14 yerlesim bu kimlikle → odak cozuluyor. ODAK-TAVAN bilinen_kusur listesinde degil. Kamera ucusu tarayicida olculmedi.",
+     "delil": "data/olaylar_ek4.js:83 · 05900ef6",
+     "sinif": "veri"
+    },
+    "H-0010": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "_seferRengiCoz ulke oncelikli: devlet rengi koyuTon(taban,0.35); elle renk yalniz yedek; okunurluk icin krem kenar. Acik VERI borcu (kurali etkilemez): 4 kayitta devlet yok (Katalan 1303 · Kasrulkebir 1578 · Muttefik donanma 1840 · Edirne Vak'asi) ve Misir harekatlari (Tosun dahil) devlet alansiz → Osmanli kirmizisi.",
+     "delil": "js/app.js:5399-5411 · js/app.js:2446-2461 · 76bd7e00 · cef8f440",
+     "sinif": "arayuz"
+    },
+    "H-0011": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "Kutuda 5 sahipsiz nokta: Hail'e 'hail-ibn-ali' 1779→1836 kunyesi + renk yazildi, s: aldi (yayindaki kosudan once). Kalan 4 (Widyan · Vadi Sirhan · Dumetulcendel · Teyma) kasitli_bosluk beyanli; beyaz col noktasiz alan (§2). Tarayicida olculmedi.",
+     "delil": "data/devletler.js:1553 · arac/renkler.py:1004 · data/yerlesimler.js:1138 · 99207c4c",
+     "sinif": "veri"
+    },
+    "H-0012": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "kapsam_genis kalkti, odak_kimlik:['eflak','bogdan']; 1821-02-22'de 15 yerlesim → cozuluyor. Kamera ucusu tarayicida olculmedi.",
+     "delil": "data/olaylar_ek5.js:321 · 05900ef6",
+     "sinif": "veri"
+    },
+    "H-0013": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "Iki kart canli ve 1821-02-22 Eflak Isyani maddesine bagli: 'isyan-fenerli-voyvodalar' (sebep-sonuc) + 'isyan-ypsilanti' (kimdir). TDV'de mustakil madde yok (302), yer/kisi maddelerinden okundu.",
+     "delil": "data/ekokuma_isyan1821.js:83,97 · data/olaylar_ek5.js:321 · 874c8a31",
+     "sinif": "ek-okuma"
+    },
+    "H-0014": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "cozuldu",
+     "not": "4 alt istek 4 kart, hepsi 1821-03-25 Yunan Isyani maddesine (olaylar.js:133) bagli: sebepler · destekciler · filhelenizm · Yunan milli anlatisi.",
+     "delil": "data/ekokuma_yunan.js:78,87,94,101 · js/app.js:11157 · 316b0d68 · cef8f440",
+     "sinif": "ek-okuma"
+    },
+    "H-0015": {
+     "parti": "parti-emrelic-0072",
+     "hukum": "zaten-dogru",
+     "not": "Lugos 1554-04-07→1596-05-10 d:'__BOSLUK__' — kasitli bosluk beyani (kaynak gecis yilini vermiyor; boyamak tarih uydurmak olur). Kapanmasi 1554-1596 Erdel tanikligi + Erdel kunyesi (f:1570) genisletmesi ister: kaynak acigi, kusur degil.",
+     "delil": "data/yerlesimler.js:492",
+     "sinif": "harita"
+    }
+   }
+  },
+  "parti-emrelic-0073": {
+   "parti": "parti-emrelic-0073",
+   "madde": {
+    "H-0001": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "sirada",
+     "not": "5 alt istek: (1) kavis YAPILDI (seferKavisliYol, >200 km %6) · (3) ok ucu YAPILDI (v2 dolu ucgen, 0080 H-0012'den) · (4) kaynak-govde-uc var (sefer-kaynak katmani) · (2) sehirlerin uzerinden gecen hat YAPILMADI: 147 uzun parcanin 125'inde ±50 km'de ≥2 yerlesim; isci kaynaksiz guzergah uretir diye guzergah_kesinlik:'temsili' veri isi onerdi · (5) literatur guzergahi toplu is yapilmadi.",
+     "delil": "js/app.js:5426 · js/app.js:2525,2545 · js/sefer_ok.js:198 · 96b7ce27 · ac1a3c9b · denetim/OK-0073.md §5",
+     "sinif": "arayuz"
+    },
+    "H-0002": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "_ekKategoriUstYazi buyuk harf etiket, simgenin ustunde 7px/6px; isci sinavinda satir yuksekligi 26→26 px. 18 turun hepsi etiketleniyor. Emre'nin saydigi 'kultur sanat' turu kodda yok (bkz. H-0019).",
+     "delil": "js/app.js:11611-11662 · css/style.css:1961-1971 · 96b7ce27 · d03c9039 · e558737f",
+     "sinif": "arayuz"
+    },
+    "H-0003": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "Govde 9.0→4.5 (bugun kalinlik 3.18); ok basi v2 dolu ucgen govde sonuna capali; hat son yol noktasina kadar kademeli yuruyor. Yan etki: 0070 H-0006 'taramanin en az 3 kati' kurali artik saglanmiyor (~1.5×) — cakisma kodda yazili, karar Emre'nin.",
+     "delil": "js/app.js:5081 · js/app.js:2447 · js/app.js:2525 · js/app.js:5466 · 96b7ce27 · ac1a3c9b · 0cf2df8c",
+     "sinif": "arayuz"
+    },
+    "H-0004": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "'sebep-sonuc-bolge0073-misir-sudan-siyaseti' canli; 4 sebep; Habesistan/Cibuti/Eritre/Somali/Zeyla dosyada 34 kez; Sennar 1821-06-14 maddesine + 3 maddeye bagli (eslestirici node ile calistirildi).",
+     "delil": "data/ekokuma_bolge0073.js:82 · js/app.js:11159 · e0381644",
+     "sinif": "ek-okuma"
+    },
+    "H-0005": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "Onem ayari mevcut ('Dis olaylar' esigi, varsayilan 4). Orta Amerika kaydi kapsam:'dis', onem 4→3 → varsayilan esikte gizli; Amerika'dan gorunen madde 2→0. ±30 gun senkron istisnasinin 1821-09-15'te tetiklenip tetiklenmedigi tarayicisiz olculemedi.",
+     "delil": "data/olaylar_amerika_0920.js:128 · js/app.js:7440 · index.html:681 · aaba8387",
+     "sinif": "veri"
+    },
+    "H-0006": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "senin-kararin",
+     "not": "Maliyet olculdu: ~350 kunye · ~700 madde · ~5.700 yerlesim dilimi · kosu +%33. Durak uyusmazligi Emre'de: ONCELIK 1945/1989 ↔ sevk 1991; C'nin B'den once yapilmasi da soruldu. Baslanmadi: UFUK hala 1281→1923-10-29.",
+     "delil": "denetim/KAPSAM-2025-0073-MALIYET.md §1.2,§10 · arac/girdi.py:705",
+     "sinif": "kapsam"
+    },
+    "H-0007": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "senin-kararin",
+     "not": "Teshis: gorseldeki 'milimetrik' cizgi D hatti degil, petegin kiyi kenari (1821'de kutuda D/E hatti 0). Dunya geneli olculdu: 627/3874 govde kesiti hat penceresiyle cakisiyor. Uc secenek (a kes · b poligon · c karisik — onerilen), 7 soru Emre'de. Motor D hatlarini okumuyor, uygulanan yok. 0072 H-0008 ile ayni is.",
+     "delil": "denetim/D-RENK-0073-OLCUM-0920.md §5-6 · denetim/D-RENK-0073-YURURLUK-0921.md §6",
+     "sinif": "motor"
+    },
+    "H-0008": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "'tartisma-bolge0073-misir-osmanli-modernlesme' canli, 1822-06-28 Girit maddesine + 4 maddeye bagli.",
+     "delil": "data/ekokuma_bolge0073.js:96 · e0381644",
+     "sinif": "ek-okuma"
+    },
+    "H-0009": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "sirada",
+     "not": "(1) Masavva/Dahlak 1557→1865 ve (3) Zeyla 1559→1884 OSMANLI: 1822 gosterimi dogru. (2) Bosluk: gri alan Habesistan boyasi, beyaz alan Danakil (nokta 0, motorun ortulmeyen kara beyani). Isci senkron duzeltmelerini onerdi, YAPILMADI: K1 dort kaydin gunu 1557-01-01→1557-04-02 · K2 Zeyla 1875-06-01 Misir devri eksik; K3/K4 ertelendi (K4 TDV 1846↔1865 celiskisi). Isci K1+K2 icin yetki istemis — karar kaydi bulunamadi.",
+     "delil": "data/yerlesimler.js:855,992,1679 · denetim/KIZILDENIZ-0073-RAPOR.md",
+     "sinif": "veri"
+    },
+    "H-0010": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "Aynalama canli (cakisan etiket once .sol, AYNALA_TAVAN 20, z≥5.2); gorseldeki italik 'Dir'iye (Necid)' ikinci sehir degil halka etiketi — cakisinca .sade. Isci headless sinavi z6/z8/z10 cakisma 0. Acik: ~20 px'ten yakin noktalar elenir; z<5.2'de aynalama yok.",
+     "delil": "js/app.js:4228-4338 · css/style.css:1281-1287,2667 · e558737f",
+     "sinif": "arayuz"
+    },
+    "H-0011": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "'tartisma-bolge0073-1821-osmanli-ordusu-nerede' canli, 1822-12-12 Anabolu maddesine + 2 maddeye bagli.",
+     "delil": "data/ekokuma_bolge0073.js:109 · e0381644",
+     "sinif": "ek-okuma"
+    },
+    "H-0012": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "'yeniceri-ilga-cozulme-tartismasi' (tartisma) canli, Vak'a-i Hayriyye + 25 maddeye bagli.",
+     "delil": "data/ekokuma_yeniceri.js:126 · js/app.js:11158 · 0e921895",
+     "sinif": "ek-okuma"
+    },
+    "H-0013": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "'yeniceri-yozlasma-esame' canli, Vak'a-i Hayriyye + 8 maddeye bagli.",
+     "delil": "data/ekokuma_yeniceri.js:112 · 0e921895",
+     "sinif": "ek-okuma"
+    },
+    "H-0014": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "Iki kart canli ve Vak'a-i Hayriyye'ye bagli: 'yeniceri-vakai-hayriyye-gun-gun' (butun yonler) + 'yeniceri-mahmud-stratejisi' (II. Mahmud stratejisi).",
+     "delil": "data/ekokuma_yeniceri.js:83,97 · 0e921895",
+     "sinif": "ek-okuma"
+    },
+    "H-0015": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "cozuldu",
+     "not": "'tartisma-bolge0073-hurmuz-bogazi-el-degistirme' canli, 6 maddeye bagli (1515 · 1622 ×2 · 1650 · 1798). Gorseldeki 1824 Riyad maddesine bagli degil — madde bunu istemiyor.",
+     "delil": "data/ekokuma_bolge0073.js:122 · e0381644",
+     "sinif": "ek-okuma"
+    },
+    "H-0016": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "sirada",
+     "not": "Bugun maddeye bagli 9 kart (eslestirici ile). Alakasiz 5 karttan 4'u tasindi (matbaa · Feshane · idari yapi · gures). Kalan 'camitarz-nusretiye-camii' hala yalniz bu maddede, oysa kendi maddesi artik var (1826-04-08, olaylar_kronoeksik_0921.js:49) — tek bag degisikligi yapilmadi. H-0018'in ikizi (ayni madde, genel hali).",
+     "delil": "data/ekokuma_camitarz.js:46-56 · data/olaylar_kronoeksik_0921.js:49 · aee59f3a",
+     "sinif": "ek-okuma"
+    },
+    "H-0017": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "sirada",
+     "not": "Tam tarama yapildi: 627 kart, 2163 kart-madde cifti → A 1581 · B 498 · C 84; C'nin hepsi okundu. Duzeltilen: oksuz bag 36→13, Hayriyye'den 4 kart, 1944 ITU bagi. ACIK: B kovasi (~500 cift) elle okunmadi · ANTLASMALAR kayitlari yalniz gune bagli (Mondros karti Krakov maddesinde) · olcum aletinin cins isimleri ozne sayan yanlis-A sinifi · Nusretiye.",
+     "delil": "denetim/EKO-ILGI-0073.md · denetim/EKO-ILGI-0073-TUR2.md · aee59f3a",
+     "sinif": "ek-okuma"
+    },
+    "H-0018": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "sirada",
+     "not": "5 kart tek tek: 4'u cikti (Feshane→1833-06-01 · 'uc asir ayni cati'→1451 Divan · matbaa→1727/1808 · Guresci tekkeleri→Kirkpinar). Nusretiye hala burada (kendi maddesi 1826-04-08 var). Kategori hatasi DURUYOR: gures karti hala tur:'teknik-bilimsel'; onerilen 'kultur-sanat' ekokuma turu app.js'te yok.",
+     "delil": "data/ekokuma_camitarz.js:46 · data/ekokuma_tamamla.js:68-85 · aee59f3a",
+     "sinif": "ek-okuma"
+    },
+    "H-0019": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "sirada",
+     "not": "Kategori denetimi yapildi, plan hazir (TURPLAN: teknik-bilimsel 72 karttan 44'u tasinacak — 22 kultur-sanat · 17 tartisma · 3 sok-haberler · 2 dis-yankilar) ama UYGULANMADI. Bugun teknik-bilimsel 103 kart; 'kultur-sanat' ekokuma turu yok. Emre'ye acik soru: ~13 idari/kurumsal kart tartisma'ya mi, yeni kurum turu mu.",
+     "delil": "denetim/EKO-ILGI-0073-TURPLAN.json · denetim/EKO-ILGI-0073-TUR2.md §(a) · js/app.js:11393-11423",
+     "sinif": "ek-okuma"
+    },
+    "H-0020": {
+     "parti": "parti-emrelic-0073",
+     "hukum": "once-cozuldu",
+     "not": "Sag tik menusu parti tarihinden (20 Eyl 21:54) once vardi: ekKopyaMenusuAc 'Basligi kopyala' + 'Maddeyi kopyala', DALGA-0063 madde 3 ile 17 Eylul'de indi (b2983f92). EKO-UI-0073 kelime yapisma kusurunu onardi (innerText, d03c9039).",
+     "delil": "js/app.js:7335-7350 · js/app.js:11694-11699 · js/app.js:11855 · b2983f92 · d03c9039",
+     "sinif": "arayuz"
+    }
+   }
+  }
+ }
+}

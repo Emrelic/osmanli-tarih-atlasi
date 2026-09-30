@@ -120,6 +120,6 @@ window.YERLESIMLER_KDMACAR = [
      {f:"1692-06-05",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}],
   d:[{f:"1660-08-27",t:"1692-06-05"}],
-  v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal",kaynak:"kaydın kendi beyanı: zincir Varad kaydıyla BİREBİR — Varad (Oradea) bu iki pencereyi 1526-09-01 ve adlarıyla taşıyor; eski tek dönem Mohaç GÜNÜNDE (08-29) ve adsız başlıyordu (H-0004 görseli tam o gün) · KUNYE-ANADOLU-0081 H-0004"},{f:"1541-08-29",t:"1660-08-27",k:"Erdel Prensliği",statu:"vassal"}] },
+  v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal",kaynak:"kaydın kendi beyanı: zincir Varad kaydıyla BİREBİR — Varad (Oradea) bu iki pencereyi 1526-09-01 ve adlarıyla taşıyor; eski tek dönem Mohaç GÜNÜNDE (08-29) ve adsız başlıyordu (H-0004 görseli tam o gün) · KUNYE-ANADOLU-0081 H-0004"},{f:"1541-08-29",t:"1660-08-27",k:"Erdel Prensliği",statu:"vassal",kid:"erdel"}] },
 
 ];

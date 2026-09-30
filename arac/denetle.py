@@ -1213,6 +1213,39 @@ BEYAN_EDILEN_BOSLUK = {
     # dizin susuyor.
     # 🔜 BORÇ: `cizre-beyligi` künyesi (Bohtan) — yazılınca bu satır SİLİNİR.
     ("Cizre", "1508-01-01", "1515-09-19"),
+    # 🔴 Katar Yarımadası (iç, dolgu) 1670-1868 — 72.317 gün, ve NİÇİN BU GECE
+    # DOĞDUĞU bu satırın en öğretici yanı.
+    #
+    # Nokta ÖNCEDEN `s:[]` idi, yani HİÇ penceresi yoktu — ve bu dalın kendi
+    # yorumu diyor: *"Penceresi HİÇ OLMAYAN noktalar buraya girmez."* 30 Eylül
+    # 2026 gecesi `UYGULA-YERLESIM-0930` kayda iki pencere yazdı
+    # (`s:` 1868-01-01→1871-09-20 ve 1913-07-29→1923-10-29, TDV `katar`
+    # alıntılı). O an nokta `1b`nin EVRENİNE GİRDİ ve 1868 öncesi boşluğu
+    # ölçülebilir hâle geldi.
+    # ⇒ DERS: bir kaydın BİR KISMINI doldurmak, AYNI KAYITTA başka bir
+    #   denetimi ötebilir — çünkü kayıt bir denetim evreninden başkasına
+    #   taşınır. Kusur yeni doğmadı, GÖRÜNÜR oldu. (`§11` "denetim var ≠ o
+    #   soruyu soruyor" ailesinin tersi: soru vardı, kayıt sorunun dışındaydı.)
+    #
+    # BOŞLUK KAZA DEĞİL, kaydın kendi `neden:` alanında kaynağıyla yazılı:
+    #   "1559 öncesi ve 1670 sonrası … sahipsizlik KASITLI HÜKÜM DEĞİL:
+    #    bağlılık BULUNAMADI (TDV katar 1559'dan 1776'ya atlıyor)"
+    #   "1670 bitişi Lahsa/Ukayr benihalid geçişiyle hizalı; TDV riyad bu
+    #    değişimi yalnız 'XVII. yüzyılın ikinci yarısı' diye veriyor, YILIN
+    #    KENDİ KAYNAĞI BULUNAMADI"
+    # Kayıtta `bos:"devletsiz"` var ve `§4` şartlı-komşu ①'in TAM
+    # karşılanmadığı da beyanlı (rapor: `denetim/P06-ARAP-0914.md`).
+    #
+    # ⚠️ Bu nokta bir DOLGUDUR (`tur:"bolge"`, peteğin nerede biteceğini
+    # belirler), şehir değil — sahipsizliği bir şehrin sahipsizliğiyle aynı
+    # ağırlıkta değil. Ama `1b` dolgu/şehir ayrımı yapmıyor ve YAPMAMALI:
+    # boyanmayan toprak, hangi noktadan doğduğuna bakılmaksızın boyanmıyor.
+    #
+    # 🔜 BORÇ: Benî Hâlid / Âl Sânî öncesi Katar için künye yazılırsa ya da
+    #   TDV dışında kaynak bulunursa BU SATIR SİLİNİR. Komşu deseni hazır:
+    #   Doha'nın 1193 günlük deliği (1913-1916) `s:{d:"katar"}` ile kapatıldı
+    #   (ab1df42) — aynı yol buraya da açık, eksik olan kaynak.
+    ("Katar Yarımadası (iç, dolgu)", "1670-01-01", "1868-01-01"),
     # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
     # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
     # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
@@ -3002,6 +3035,45 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI YIL İŞARETİ + 'HANEDAN X KRALLIĞI KURDU' KALIBI" — 1 Ekim 2026,
+    # koordinatör (YILDIRIM BAYEZIT). Gece yazılan 1574 kronoloji maddesi
+    # tavanı 114 → 115 yaptı; doğan çift YANLIŞ POZİTİF.
+    #
+    #   Nyiginya hânedanı (RUANDA)  ↔  Kintu hânedanı (BUGANDA)
+    #   ikisi de t:"1300-01-01"  ·  ikisi de "hânedan … krallığı kurdu" kalıbı
+    #
+    # İki AYRI hanedan, iki AYRI krallık, Büyük Göller'in iki AYRI bölgesi.
+    # Ortak olan tek şey başlık kalıbı ve `1300-01-01` — ki o bir GÜN DEĞİL,
+    # `D210`un "gün bilinmiyorsa YYYY-01-01" kuralının damgası. Yıl işaretini
+    # paylaşan iki olay, aynı olay değildir; bu kalıp 1281 öncesi ve Sahra
+    # altı kronolojisinde SİSTEMATİK olarak üretilecek, çünkü orada gün
+    # hassasiyeti kaynakta yok.
+    #
+    # ⚠️ ÖNCE ŞUNU ÖLÇTÜM, çünkü yanlış pozitif sanıp GERÇEK mükerreri
+    # gizlemek bu kümenin tek tehlikesidir: başlıklar `data/devletler.js` VE
+    # `data/paket_05.js`te ikişer kez görünüyor — ama `paket_05.js`
+    # `devletler.js`in PAKETLENMİŞ KOPYASIDIR, veri mükerreri değil
+    # paketleme. Kayıtların kendisi tekil.
+    ("Nyiginya hânedanı krallığı kurdu", "Kintu hanedanı Buganda Krallığı'nı kurdu"),
+    # Aynı kalıbın ikinci vakası: iki AYRI kıtada iki AYRI terk edilme.
+    #   Cahokia (Mississippi kültürü, bugünkü Illinois)  ↔
+    #   Vestribygð / Batı Yerleşimi (Grönland İskandinav kolonisi)
+    # İkisi de ~1350 ve ikisi de "terk edildi" — ortak kök `terk`+`edildi`
+    # 6 harflik kırpmada eşleşiyor. Kaynakları, kıtaları, halkları ayrı.
+    ("Cahokia terk edildi",
+     "Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342)."),
+    # ⭐ "1918 İŞGAL/GERİ ALIŞ KALIBI, AYRI ŞEHİR" — 30 Eylül 2026, MUKERRER-KAPI-0930.
+    # `olaylar_p0917dunya.js`e Kerkük'ün iki maddesi (TDV kerkuk) inince tavan
+    # 114 → 117 oldu; üç çiftin üçü de YANLIŞ POZİTİF. Ortak olan yalnız başlık
+    # kalıbı ("geri alınışı" · "İngiliz işgali"), 6 harflik kök ölçütüyle J 0,40-0,50:
+    #   Batum 1918-04-14 (Brest-Litovsk sonrası, Acara)  ↔  Kerkük 1918-05-27
+    #          (20 günlük İngiliz işgalinden sonra) — iki şehir, iki cephe, 43 gün
+    #   Kerkük 1918-05-07 (kaynak kerkuk)  ↔  Eskişehir 1919-01-23 (kaynak eskisehir)
+    #   Kerkük 1918-05-07 (kaynak kerkuk)  ↔  Maraş 1919-02-22 (kaynak kahramanmaras)
+    # `yer_id`, `t`, `kaynak` üç çiftte de FARKLI ⇒ aynı şeyi anlatmıyorlar.
+    ("Batum'un geri alınışı", "Kerkük'ün geri alınışı"),
+    ("Kerkük'ün İngiliz işgali", "Eskişehir'in İngilizlerce işgali"),
+    ("Kerkük'ün İngiliz işgali", "Maraş'ın İngilizler tarafından işgali"),
     # ⭐ "AYNI İŞGALİN İKİ TESLİM GÜNÜ" — 20 Eylül 2026, SEFER-OK-0070
     # (NAPOLYON-MISIR-0070, koordinatör hükmü M-4735). `olaylar_misir1801.js`
     # inince bir çift doğdu: aynı yıl + ortak başlık kalıbı

@@ -367,6 +367,36 @@ window.EKOKUMA_P77B = [
   tartisma:"İki sayısal ayrışma var. ① BİTİŞ GÜNÜ: TDV'nin iki ayrı maddesi (Millî Mücadele ve Mustafa Kemal Atatürk) savaşın 12 Eylül'de düşmanın ağır yenilgisiyle sonuçlandığını yazar; akademik Birinci Dünya Savaşı ansiklopedisi savaşı 23 Ağustos - 13 Eylül 1921 olarak verir. Kaynağımıza göre esas alınması gereken TDV'dir; 13 Eylül ise yaygın kullanımda ve kronolojide yer alır. İki gün de Yunan ordusunun Sakarya'nın batısına çekildiği süreci tarihliyor olabilir; okunan kaynaklar farkı açıklamıyor. ② SÜRE: TDV yirmi bir gün yirmi bir gece der, akademik kaynak yirmi iki gün. Fark, bitiş gününün ve ilk günün sayılıp sayılmamasından doğuyor gibi görünüyor. Türk kuvvetlerinin sayısı ve kaybı okunan kaynaklarda verilmiyor.",
   kesinlik:"tartışmalı",
   olay:["1921-09-13|Sakarya"],
-  kaynak:"TDV: milli-mucadele (13 Haziran - 10 Temmuz 1921, Eskişehir'in boşaltılması, Başkumandanlık Kanunu, Tekâlîf-i Milliye oranları, Paris Konferansı ve Lloyd George, 13 Ağustos, 12 Eylül, müşirlik ve gazilik, Ankara Antlaşması) · TDV: mustafa-kemal-ataturk (23 Ağustos, sath-ı müdafaa emri, Kayseri hazırlığı, köprücük kemiği kırığı, 12 Eylül, 19 Eylül kararı ve teşekkür sözü) · Elçin Macar, Greco-Turkish War 1919-1922; 1914-1918-online. International Encyclopedia of the First World War, Freie Universität Berlin (Yunan stratejisi, 23 Ağustos - 13 Eylül, Papoulas, 20.000 kayıp, Fransız ve İtalyan çekilişi) — TDV'de müstakil Sakarya Meydan Muharebesi maddesi yok (slug ölü, sakarya maddesi boş)" }
+  kaynak:"TDV: milli-mucadele (13 Haziran - 10 Temmuz 1921, Eskişehir'in boşaltılması, Başkumandanlık Kanunu, Tekâlîf-i Milliye oranları, Paris Konferansı ve Lloyd George, 13 Ağustos, 12 Eylül, müşirlik ve gazilik, Ankara Antlaşması) · TDV: mustafa-kemal-ataturk (23 Ağustos, sath-ı müdafaa emri, Kayseri hazırlığı, köprücük kemiği kırığı, 12 Eylül, 19 Eylül kararı ve teşekkür sözü) · Elçin Macar, Greco-Turkish War 1919-1922; 1914-1918-online. International Encyclopedia of the First World War, Freie Universität Berlin (Yunan stratejisi, 23 Ağustos - 13 Eylül, Papoulas, 20.000 kayıp, Fransız ve İtalyan çekilişi) — TDV'de müstakil Sakarya Meydan Muharebesi maddesi yok (slug ölü, sakarya maddesi boş)" },
+
+// ── Avusturya-Macaristan'ın dağılışı (0077/H-0048 ek okuma yüzü) ────────────
+// UYGULA-KRONOLOJI-0930: bu kart paket dağıtımında hiçbir kola atanmamıştı
+// (PAKET-0077B-0930 bulgusu). Metnin HER cümlesi aşağıdaki TDV maddelerinden;
+// İtalya'ya ve Polonya'ya bırakılan topraklar okunan TDV metinlerinde YOK —
+// kart onları anlatmaz, `not`ta açıkça söyler.
+{ id:"p77b-avusturya-macaristan-dagilisi-1918", tur:"sebep-sonuc",
+  baslik:"Avusturya-Macaristan niçin ve nasıl parçalandı?",
+  kisa:"1918 sonbaharında imparatorluğun milletleri birer birer kendi devletlerini ilan etti; Avusturya Almanları da 30 Ekim'de geriye kalanı Avusturya Cumhuriyeti yaptı. Antlaşmalar bu dağılışı bir-iki yıl sonra hukuka geçirdi.",
+  sebep:{ b:"Çok milletli imparatorlukta Çekler ile Sırp-Hırvat-Slovenlerin 1918 bağımsızlık hareketleri ve savaşın yarattığı ekonomik çöküntü", t:"1918-10-18" },
+  sonuc:{ b:"Çekoslovakya, Sırp-Hırvat-Sloven Devleti, Macaristan ve Avusturya Cumhuriyeti'nin ayrı devletler olarak ortaya çıkışı", t:"1918-10-30" },
+  bag:"Osmanlı'nın yüzyıllarca kuzey komşusu olan Tuna Monarşisi, Mondros Mütarekesi'nin imzalandığı gün Avusturya Cumhuriyeti'ne dönüştü: iki imparatorluğun sonu takvimde yan yana düştü.",
+  metin:"■ ÇİFTE MONARŞİ\n"
+    +"Avusturya 1804-1867 arasında Avusturya İmparatorluğu, 1867-1918 arasında Avusturya-Macaristan İmparatorluğu adını taşıdı. TDV'ye göre 1867'deki eşit şartlı ikili devlet, Macar milliyetperverlerinin Avusturya idaresinden hoşnutsuzluğunu ayaklanmalarla dile getirip Viyana'yı buna zorlamasının sonucuydu. Yani imparatorluk daha 1867'de, milletlerinin talebiyle ikiye bölünmüş bir yapıydı.\n\n"
+    +"■ NİÇİN DAĞILDI?\n"
+    +"TDV nedeni iki kalemde sayar: imparatorluğun siyasi çatısı içindeki Çekler ile Sırp-Hırvat-Slovenlerin 1918'de bağımsızlık hareketlerini başlatması ve buna ülkenin içinde bulunduğu ekonomik zorlukların eklenmesi. Balkan tarafında Sırbistan'ın, monarşideki çok sayıda Güney Slav üzerinde sürdürdüğü 'Büyük Sırbistan' emelleri devleti TDV'nin deyişiyle 'Tuna'daki hasta adam' hâline getirmişti.\n\n"
+    +"■ EKİM 1918: BİRER BİRER İLANLAR\n"
+    +"18 Ekim 1918'de Paris'te Çeklerin kurduğu geçici hükümet Çekoslovakya'nın bağımsızlığını ilan etti; Macarlar 24 Ekim'de bağımsız bir devlet kurduklarını açıkladı. TDV'ye göre dağılma sürecine giren imparatorluğun savaşa devamı artık imkânsızdı. 29 Ekim'de Prag'da Çekoslovakya'nın, Zagreb'de Sırp-Hırvat-Sloven Devleti'nin kurulduğu ilan edildi; bunun üzerine Avusturya Almanları 30 Ekim'de Avusturya Cumhuriyeti'ni kurdu. İmparator Karl'ın 3 Kasım'da İtalyanlarla Villa Giusti'de mütareke imzalaması parçalanmayı daha da hızlandırdı.\n\n"
+    +"■ HANGİ TOPRAK KİME?\n"
+    +"• Çekoslovakya: bağımsızlığını 18 ve 29 Ekim'de ilan etti; Avusturya onu Saint-Germain Antlaşması ile tanıdı.\n"
+    +"• Sırp-Hırvat-Sloven Krallığı (Yugoslavya): imparatorluktan ayrılan Güney Slavlar 1 Aralık 1918'de Sırbistan'la birleşti.\n"
+    +"• Romanya: Transilvanya (Tımışvar Banatı dahil) ve Bukovina, halklarının kararıyla 1 Aralık 1918'de Romanya'ya katıldı.\n"
+    +"• Macaristan: 4 Haziran 1920 Trianon Antlaşması ile Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisini kaybetti; aralarında üç milyondan fazla Macar olmak üzere nüfusunun %60'ı sınır dışında kaldı, ordusu 35.000 kişiye indirildi.\n"
+    +"• Avusturya: 10 Eylül 1919 Saint-Germain Antlaşması ile Macaristan, Çekoslovakya ve Yugoslavya'nın bağımsızlığını tanıdı; Milletler Cemiyeti'nin muvafakati olmadan Almanya ile birleşmemeyi, mecburi askerliği kaldırmayı ve ordusunu 30.000 kişiyle sınırlamayı kabul etti.\n\n"
+    +"■ NEDEN ÜÇ DEĞİL, DAHA ÇOK PARÇA?\n"
+    +"Dağılış Viyana-Budapeşte-Prag üçlüsüyle bitmedi: toprağın bir kısmı mevcut devletlere (Romanya, Sırbistan) katıldı, bir kısmı yeni devletler (Çekoslovakya, Yugoslavya) doğurdu. Haritada bu ilanlar 11 Kasım 1918'de tek güne toplanır; ilanların kendisi 18 Ekim ile 1 Aralık arasına yayılır.",
+  not:"İki boşluk açıkça bildirilir: ① İtalya'ya bırakılan topraklar (Güney Tirol, Trieste, İstria) ve ② Galiçya'nın Polonya'ya geçişi — okunan TDV maddelerinde (avusturya · macaristan · birinci-dunya-savasi) bu devirleri tarihleyen cümle BULUNAMADI; kart bu yüzden onları anlatmaz. Çekoslovakya'nın bağımsızlık ilanı için TDV avusturya 18 Ekim (Paris'teki geçici hükümet) ile 29 Ekim (Prag) günlerini ayrı ayrı verir; kronolojideki 28 Ekim maddesi TDV cekoslovakya'dandır — üç gün üç ayrı olayı tarihliyor.",
+  kesinlik:"kesin",
+  olay:["1918-10-30|Avusturya Cumhuriyeti","1918-11-11|ardıl devletlere"],
+  kaynak:"TDV: avusturya (1804-1867 / 1867-1918 adları, 1867 ikili devletin sebebi, 'Tuna'daki hasta adam', Çekler ve Sırp-Hırvat-Slovenlerin 1918 hareketleri ve ekonomik zorluklar, 18 Ekim Paris, 24 Ekim Macarlar, 29 Ekim Prag ve Zagreb, 30 Ekim Avusturya Cumhuriyeti, 3 Kasım Villa Giusti, 10 Eylül 1919 Saint-Germain hükümleri) · macaristan (4 Haziran 1920 Trianon: 283.000 km², üçte iki, %60, 35.000) · romanya ve yugoslavya (1 Aralık 1918 birleşmeleri — bu dosyadaki p77b-buyuk-romanya-1918 ve p77b-sirp-hirvat-sloven-kralligi-yugoslavya-1918 kartlarının kaynağı)" },
 
 ];

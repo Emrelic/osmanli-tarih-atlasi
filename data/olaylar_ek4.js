@@ -48,10 +48,15 @@ window.OLAYLAR_EK4 = [
   kaynak:"memluk", duygu:["🗡"], yer_id:"Kahire" },
 
 // ---------- II. HİCAZ VE VEHHÂBÎ SEFERLERİ (1811-1818) ----------
-{ t:"1811-09-03", k:"sefer", etiket:["savas","konu-askeri"], b:"Hicaz seferi başladı: Tosun Paşa Yenbu'ya çıktı", gun:"Eylül 1811", yer:"Yenbu, Hicaz",
+{ t:"1811-09-03", k:"sefer", etiket:["savas","konu-askeri"], b:"Hicaz seferi başladı — ordu Süveyş'ten denizden ve hac yolundan karadan Yenbu'ya yürüdü", gun:"Eylül 1811", ic_not_b:"önceki başlık 'Tosun Paşa Yenbu'ya çıktı' yanlıştı (0082/H-0071): Eylül hareket ayıdır; Yenbu'ya çıkış Ekim 1811, ve Tosun oraya gemiyle değil karadan, iki hafta sonra vardı. Burckhardt, Notes on the Bedouins and Wahábys II (London 1831) s. 345-346 (archive.org india.history.resource.35601, bu oturumda yeniden okundu): 'ready for departure, at the end of August, 1811' · piyade 'embarked at Suez for Yembo' · 'The cavalry, with Tousoun Bey … proceeded by land'. Yenbu'nun teslimi ayrı madde. · UYGULA-OLAYLAR-0930", yer:"Yenbu, Hicaz",
   kisiler:"Tosun Paşa, Kavalalı Mehmed Ali",
   d:"1803'ten beri Suûdî-Vehhâbî idaresindeki Haremeyn'i geri almak II. Mahmud'un en büyük meşruiyet meselesiydi; Bâbıâli'nin gücü yetmeyince görev Mısır valisine verildi. Mehmed Ali on altı yaşındaki oğlu Tosun'u ordunun başında gönderdi.",
   kaynak:"vehhabilik", duygu:["🐎"], yer_id:"Yenbu" },
+{ t:"1811-10-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Yenbu teslim alındı — Hicaz seferinin ilk kıyı üssü", gun:"Ekim 1811", yer:"Yenbu, Hicaz", yer_id:"Yenbu",
+  kisiler:"Tosun Paşa, Kavalalı Mehmed Ali",
+  d:"Süveyş'ten yeni yapılmış gemilerle yola çıkan iki bin kadar Arnavut piyade Ekim 1811'de Yenbu yakınında karaya çıktı; kasaba iki günlük zayıf bir direnişten sonra teslim oldu. Tosun'un kumandasındaki süvariler hac yolunu karadan izleyip Akabe ve Vech üzerinden ancak iki hafta sonra Yenbu'ya ulaştı. Yenbu, Medine ve Mekke üzerine yürüyecek Mısır ordusunun Hicaz'daki ilk üssü oldu.",
+  ic_not_t:"Burckhardt 'In October 1811, the fleet arrived near Yembo … took possession, after a feeble resistance of two days, by capitulation. A fortnight afterwards, the cavalry arrived by land' — AY verir, gün vermez ⇒ 1811-10-01 + kesinlik:ay. TDV yenbu yalnız '(1811)'; tosun-pasa slug'ı ölü (302). ⚠️ Yenbu yerleşim kırılması (s:suud → v:misir-kavalali) 1811-11-01'de; bu madde 31 gün önde — kırılma günü kaynaksızsa Ekim 1811'e çekilmeli (UYGULA-YERLESIM-0930'a bildirildi). 0082/H-0071 · UYGULA-OLAYLAR-0930",
+  kaynak:"J. L. Burckhardt, Notes on the Bedouins and Wahábys II (London 1831) s. 345-346 · TDV yenbu", duygu:["⚔️"] },
 { t:"1811-12-01", k:"savas", etiket:["savas","konu-askeri"], b:"Safra-Cedîde boğazında ilk bozgun", gun:"Aralık 1811", yer:"Safra geçidi, Hicaz",
   kisiler:"Tosun Paşa, Abdullah b. Suûd",
   d:"Dar dağ geçitlerinde pusuya düşürülen Mısır öncü kuvveti dağıldı. Yenilgi seferin taktik dersi oldu: bedevî kabilelerin desteği alınmadan Hicaz'da yürümenin mümkün olmadığı anlaşıldı.",

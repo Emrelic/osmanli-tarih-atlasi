@@ -1,0 +1,33 @@
+{
+ "oturum": "KUNYE-1945-0930",
+ "not": "ONCE1281-ORTADOGU medine-emirligi, t eşik beyanıyla",
+ "kayitlar": [
+  {
+   "islem": "yeni",
+   "id": "medine-emirligi",
+   "ad": "Medine Emirliği (Hüseynî emîrler)",
+   "tur": "emirlik",
+   "bolge": "arabistan",
+   "f": "0969-01-01",
+   "t": "1517-01-01",
+   "baskent": "Medine",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Hz. Hüseyin soyundan emîrlerin Medine'yi Fâtımî, Abbâsî-Selçuklu, Eyyûbî ve Memlük nüfuzları arasında, zaman zaman Mekke emîrine bağlı olarak yönettiği yerel emirlik.",
+   "kaynak": "TDV: medine (MEDİNE)",
+   "ic_not_f": "TDV medine: \"358 (969) yılında tekrar Medine’ye hâkim olan Hüseynîler, Abbâsîler yerine Fâtımîler adına hutbe okutmaya başladılar (Makrîzî, I, 172).\" — 'tekrar': Hüseynîler 266/880'de de şehre hâkim olmuştu, arada Tolunoğlu/İhşîdî valileri var; sürekli emirlik başlangıcı olarak 969 alındı. Gün bilinmiyor.",
+   "ic_not_t": "EŞİK; ALT SINIR, bitiş ölçümü DEĞİL (D210): TDV medine emirliğin sonunu yılsız verir — \"Bu durum Osmanlı döneminde Medine’nin Mekke Emirliği’ne bağlanmasına kadar sürdü\". 1517 = Osmanlı döneminin başı, emirliğin en erken bitebileceği yıl; gerçek bitiş daha GEÇ olabilir. Öneren ONCE1281-ORTADOGU (M-5605, yol b); t değerini birleştiren KUNYE-1945-0930 yazdı.",
+   "kronoloji": [
+    {
+     "t": "0969-01-01",
+     "tur": "kurulus",
+     "b": "Hüseynîler Medine'ye yeniden hâkim olup Fâtımîler adına hutbe okuttu",
+     "kaynak": "TDV: medine"
+    }
+   ],
+   "t_kanit": "TDV: medine (\"İhşîdîler’den sonra Hüseynîler şehri genellikle kendi adlarına, zaman zaman da Hasenî Mekke emirlerine tâbi olarak idare ettiler. Bu durum Osmanlı döneminde Medine’nin Mekke Emirliği’ne bağlanmasına kadar sürdü (Abdülbâsıt Bedr, II, 342).\")",
+   "t_alt_sinir": "1517-01-01",
+   "t_alt_sinir_kanit": "TDV: medine — Osmanlı dönemi 1517'de başlar (\"Medine Osmanlı hâkimiyetine girmiş ve o tarihten itibaren hutbeler Osmanlı padişahları adına\" — Mısır'ın fethi 1517 sonrası). ⇒ Mekke Emirliği'ne bağlanma (emirliğin sonu) 1517'den ÖNCE olamaz. Bağlanmanın yılı TDV'de verilmiyor: bulunamadı."
+  }
+ ]
+}

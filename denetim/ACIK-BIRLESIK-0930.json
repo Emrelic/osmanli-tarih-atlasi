@@ -1,0 +1,1830 @@
+{
+ "dagilim": {
+  "tekrar": 8,
+  "cozuldu": 206,
+  "sirada": 175,
+  "bayat": 11,
+  "olculecek": 31,
+  "zaten-dogru": 9,
+  "senin-kararin": 40,
+  "once-cozuldu": 3,
+  "kosu-bekliyor": 3,
+  "onay-bekliyor": 2,
+  "cozulemedi": 1
+ },
+ "acik": [
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "BULGU-BAYAT-TARAMA ailesi (Kuzey Afrika çöl emilmesi, BULGU-VERI-ACIK). Ölçüm 1686-06-01, dar kutu 27,64-30,90K/23,28-26,14D: 2 nokta — Sîva OSM (yerlesimler_p0043libya.js:83, 04b02383, 12 Eyl; TDV misir yalnız VARLIK kaynaklı, tarih kardeş vahalardan) + Cağbûb (kur 1856, yok). Geniş kutu 25-33K/20-29D: 19 nokta, 3 kasıtlı boşluk dolgusu (Serîr, Serîr Kalanşû, Tâzirbû; 30 Tem'den beri). Artık boya"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Motor talebi (boş çölün Osmanlı kırmızısına emilmesini kaldır + girinti yumuşatma). uret_petek.py'de değişiklik yok: kasıtlı boşluk dolgu noktaları (kasitli_bosluk/bos:devletsiz) ve A1 200 km tavanı mevcut mekanizma; GEOMETRI-0916 Ⓒ'de çare GORUNUM-ABCD A/B tasarımı — uygulanmadı. Yapılacak: GORUNUM-ABCD A (tek sahiplik) / B (boşluk paylaştırma) motor işi."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kısmen düzeldi: Kusayr artık d 1517-04-13 (Nil vadisi Luksor/Edfû/Esna/Kına/Asvan ile aynı gün) — 'Osmanlı adası' tutarsızlığı kalktı. AÇIK: Sina güneyi ve Süveyş d 1517-02-15 (Kahire ile aynı gün, kaynaksız) iken El-Arîş (Sina Akdeniz kıyısı) d 1517-05-19 — 1517-02-20'de kuzey kıyı hâlâ s:memluk, güney Sina Osmanlı: Emre'nin 'güneyden mi geçti' gözlemi bugün de geçerli. Yapılacak: El-Arîş ve Süve"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "BULGU-BAYAT-TARAMA ailesi (grup-G). İkiz: parti-emrelic-0021/H-0028 (Ferhat Paşa 21 şehir, envanterde sirada) + parti-emrelic-0020/H-0012. Bugün: (30) Kutaisi artık s:imereti 1490-1810 + v 1555 — ÇÖZÜLDÜ. (28-29) kısmen: Şerur d 1586, Urmiye d 1585, Merend d 1588, Mahabad v 1585 eklendi; Serdeşt, Sakkız, Ahvaz, Dizfûl, Şüşter'de 1590 penceresi hâlâ YOK. (1) Doğubayazıt d 1514-09-06→1920 kesintisiz"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "İbrim hâlâ d 1517-04-13→1805 (yerlesimler.js:821). Metin kısmı 632a042 ile inmiş. Başlangıç günü açık: KARAR-KUYRUGU-0930.md:606 '0035/H-0065 B — İbrim' — gereken: Özdemir Paşa'nın Nûbe harekâtının yılı için akademik kaynak (Orhonlu, Habeş Eyaleti)."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "BULGU-BAYAT-TARAMA ailesi (grup-H, 0027/H-0004 — envanter açık listesinde değil). Szatmár (Satu Mare) hâlâ s:avusturya 1526-08-29→1918-11-11 kesintisiz (yerlesimler_ek_macaristan.js:280); istenen 7 nokta (Nagybánya, Kálló, Ecsed, Ónod, Szendrő, Huszt, Máramarossziget) 0/7 — yerleşim evreninde (4296) yok. Tökeli dönemi (1682-1685) sahibi için kaynak taraması yapılmadı."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "GEOMETRI-0916 (koşu 11) ölçümü: kutuda örtüşme 0 · geçersiz 3, sınıf 'uzun düz Voronoi kenarı', çare GORUNUM-ABCD A — uygulanmadı. R1 (89cd6815, 4 Eyl) yabancı havuz dikiş boşluğunu (Riga/Bohemya) kapattı ama bu maddenin kalan geçersiz kenarları A'ya bağlı. Gövde koşu 18 için yeniden ölçülmedi (1721, Baltık)."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Büyük kısmı indi: Nahçıvan d 1724-08-11→1735-06-19 (Yörük&Valiyev/Aktepe, 55a5b285) · Tebriz 1725-07-28 fethi, 1731-11-15 geri alınışı (madde olaylar_p0917kosu13.js:50), 1732-01-08 iade. AÇIK: antlaşma maddesi olaylar_ek5.js:274 hâlâ t:1732-01-10 — koordinatör hükmü 1732-01-08 (TDV hemedan), Tebriz kaydı 'G3-A6C-ANTLASMA kararına bağlı' diyor · Hoy d hâlâ 1730-08-12'de bitiyor (TDV hoy 1739 ayrışm"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Özi düşüş günü indi: Özi d bitiş 1737-07-11 ve madde olaylar_ek5.js:278 t:1737-07-11 (TDV 11 Temmuz). 1788 oku var (savaslar.js:983). AÇIK: 1737 Özi seferi oku yazılmadı — savaslar.js:958 'Yazılmayanlar … 1737 Özi (A6B TASLAK)' (Dinyeper geçiş yeri kaynakta adsız). Harita (bozkırın Rus görünmemesi) doğru."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Dir'iye noktası VAR (yerlesimler.js:767, 28 Tem'den beri; CEVAP 'Diriyye bulunamadı' ad kaçırmasıydı): s:suud 1744→1818. AÇIK: Hâil 1779-1836 s:hail-ibn-ali (künye devletler.js:1553, TDV residiler '1779'da Suûdî-Vehhâbî güçleri Hâil emirliğini ele geçirdikleri sırada…') — Suudi'ye bağlılık (v:) yazılmamış, Emre'nin sorusu cevapsız. 'Nefud çölü' dolgu noktası (yerlesimler.js:1222) 1744-1818 s:suud "
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Koridor katmanı mevcut ve arayüzde (index.html:109 '③ Yollar ve koridorlar'; koridor.js 64 + f5c9a5 53 + halka2 10 + yama 1 kenar; ilk sürüm a37bb4b8, 13 Ağu — şikâyetten önce). Emre'nin 8 katmanlı ilke listesi hiçbir kök belgede yazılı değil (BES-ALTYAPI/YOL-HARITASI/YAPILACAKLAR'da 'H-0087'/'8 katman' 0 isabet; YAPILACAKLAR:1073 başka bağlam). Yapılacak: 8 katman ilkesinin istişaresi/yazımı + yo"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kısmen indi: Gümrü d 1583-09-13→1604-06-08 (örtülü, Emre 13 Eyl) ve Eçmiyadzin d 1583-09-13→1604-06-08 (ek26.js:87,91). AÇIK: Kasr-ı Şîrîn hâlâ yalnız d 1723-10-01→1730-08-12, 1590'da s:safevi (yerlesimler.js:1843) — A0047-1/G-KASRISIRIN yaması inmedi, Bağdat–Kirmanşah arasındaki kama duruyor. 1724-35 Gümrü/Eçmiyadzin: ikisi de d 1724-10-03→1735-10-03, o dönemde kama yok."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "İlk parti canlı: olaylar_p0049.js:67 (1711-04-09 Prut Seferi) · :75 (1787-07-27 ültimatom) · olaylar_ek5.js:297 (1787-08-16 savaş ilanı). Sınıf iş (her Osmanlı-Rus savaşına ilan/yığınak/Eflak-Boğdan'a giriş maddesi, 1790 İsmail yürüyüşü oku) sürüyor; akademik kaynak (Aksan, Badem) gerek."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1799-03-01'de Mısır kutusunda (61 nokta) isg:fransa 7: Dimyat, Reşîd, İskenderiye, El-Arîş (1799-02-18, yeni), Kahire, Süveyş (1798-11-08, yeni), Asyut. Hâlâ taranmamış: Feyyûm, Minye, Benî Süveyf, Mansûre, Tanta, Demenhûr, Bilbîs, Ebûkîr, Katye, Sâlihiyye… Hangi noktanın isg hak ettiği listesi çıkarılmadı."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Rusçuk isg kısmı H-0097 ile indi (yerlesimler.js:365). Görsel 1812-12-03, 43,65-44,42K/25,03-26,66D: bugün kutuda (genişletilmiş 43,4-44,6K/24,8-27,0D) 4 nokta — Niğbolu OSM, Rusçuk OSM, Yergöğü OSM, Bükreş v:eflak; 0 Rus noktası, bütün Tuna isg'leri 1812-05-28'de bitiyor. Veride yeşil parçanın kaynağı yok; gövde ölçümü gerek: 1812-12-03, bu kutu, devletler_harita.js rusya gövdesi."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "GEOMETRI-0916 Ⓑ⑤: Buraymî 1820 hücresinin %24'ü (7.763 km²) boyanmıyor, şerit 10 km — mekanizma ÖLÇÜLEMEDİ; çare 'A büyük ihtimalle — sınanamaz'. Gövde ölçümü gerek: 1820-01-08 (Korsan Kıyısı devri), Ras el-Hayme–Buraymî kutusu, koşu 18."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "H-0047 ile aynı motor talebi (boş topraklarda Osmanlı kırmızısını engelleme); uret_petek.py'de emilme mekanizması değişmedi, çare GORUNUM-ABCD A/B (GEOMETRI-0916 Ⓒ) uygulanmadı. Yerel kasıtlı-boşluk dolguları (ör. Widyân/Nuhayb, Serîr) nokta nokta ilerliyor."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Master madde (boşluk + binme, 10 görsel). 10 görselin yer/günü okunmadı (pahalı) ⇒ madde bütünüyle ölçülmedi. Kardeş ölçümler bugünkü gövdede: H-0008 penceresinde (1323-01-01) bizans∩OSMANLI BİNME SÜRÜYOR 1996 km²; H-0013 (1346-06-01) ve H-0039 (1408-06-01) pencerelerinde binme yok (≤3 km²); 1352 Gelibolu'da bizans∩OSMANLI 182 km² ek binme. Boşluk kolu ('tavandan mı hatadan mı') ölçülmedi; B görün"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Sefer oku var: savaslar.js:684 'Katalan Kumpanyası'nın Anadolu seferi' f 1303-09-01 t 1305-06-01; madde olaylar_ek.js:91 t 1305-06-01 (ok bu maddede kırpma kuralına göre görünür — tarayıcıda sınanmadı). 1303 başlangıç maddesi indi (olaylar_p0049.js:31, t 1303-01-01) ama oku öne çekmiyor: app.js:5815 28 Eyl kuralı yalnız madde günü == sefer f (1303-09-01) ise kırpmayı kaldırır; 1303-01-01 ≠ 1303-09"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Motor değişmedi: uret_petek.py:3887 'kesin geometri geçerli — dokunma' kapısı duruyor ⇒ sürtünmeli Dijkstra (_kv_dijkstra :1662, EGIM_CARPANI 0.005 :671) yalnız düz hattı denizi kesen parçalara uygulanıyor; iki kara yerleşimi arası sınır hâlâ düz mesafe + dogal_hatta_yasla (:2842, nehir 0,30° / sırt 0,35°). Tuna'ya yaslanma yalnız yakınlık eşiğinde. İkinci yarı (akademik haritalarda Bulgaristan/Ef"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Çehrin (yerlesimler.js:1390) hâlâ s: litvanya-buyuk-dukalik 1281-01-01→1569-07-01. Yama P-CEH-1 (1281'de Litvanya değil; Kiev bölgesi ~1362) İNMEDİ. YAPILACAK: 1281-~1362 kimliği (Altınorda komşularıyla uyum) + başlangıç gününün kaynağı; doğrulanamazsa 'bulunamadı' damgası."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Görsel H-0008-1: 1323-01-01, 39.77-40.81K/28.40-30.18D (Bursa-İznik). Bugünkü gövdede BİNME SÜRÜYOR: bizans∩OSMANLI 1996 km² — en büyük parça 1444 km² (40.35K 29.30D, Gemlik-İznik), 448 km² (40.69K 30.00D), 77 km² (40.71K 30.34D); ayrıca bizans halkası kendi kendini kesiyor (28.58D 40.38K) ve germiyan∩OSMANLI 9 km². YAPILACAK: binme kaynağı (gövde kırpma sırası / bizans gövdesinin Osmanlı petekler"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Ana kusur düzeldi: Kemah (yerlesimler.js:1486) artık eretna 1335-1378 · mutahharten 1378-1401 (TDV kemah, commit 0db86f2a); Erzincan da eretna 1335 (yerlesimler.js:242). KALAN iki şey: ① olaylar_ek16.js:65 Celayirli 1340 maddesinin ic_not_d'si hâlâ 'Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; … kaynak bulunamadı' diyor — veriyle ÇELİŞİYOR, Y1'in 'cümle silinsin' kalemi yapılmadı; "
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "H-0005 ile aynı motor ölçümü: uret_petek.py:3887 kapısı değişmedi ⇒ kara-kara sınırda sürtünme yok, Kafkas sırtı yalnız 0,35° yaslanma eşiğinde çeker. Vladikafkas kuzeyi veri doğrulaması için kayıt bulunamadı. YAPILACAK: motor kararı + Vladikafkas kuzeyi sahiplik araştırması."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Mersin görünüm kısmı ikizinde çözüldü (0042/H-0033: kur 1671-01-01, yerlesimler_ek27.js:51, ec2873e+7e6049d). KALAN iki istek açık: ① 'Osmanlı kırmızısı yalnız odak devlete' renk politikası — renkler.py'de yalnız yorum düzeyinde ('kırmızı ailesi Osmanlı'ya ayrılmıştır' :1588, şerit 15-35° :1679), renk_olc.py'de zorlayan denetim YOK (şerit/rezerv araması 0 isabet); ② Mersin'in ayrıntılı kronolojisi"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Ege adası gövdelerinin kara maskesine oturma kalitesi ölçülmedi: gövde ∖ kara maskesi farkı için motor kara maskesi (veri-kaynak/motor_kara.geojson) ile ada gövdeleri karşılaştırılmalı. GEREK: Ege adaları (ör. 1330-1500 arası bir gün) için gövde ∖ kara km² ölçümü."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Trakya sırası KISMEN indi (commit f51242f8, 16 Eyl: Edirne 1361-05-05, Dimetoka 1361, Çorlu/Lüleburgaz/Keşan 1360, Kırklareli/Vize/Demirköy/Dereköy/Kofçaz 1369, Havsa/Lalapaşa 1361-05-05). HÂLÂ ATLAMA VAR: Ahtapolu, Rezve, İğneada d: 1361-01-01 (yerlesimler_ek24.js:133 vd.) — Edirne'den (1361-05-05) ve Kırklareli'den (1369) ÖNCE; kaydın kaynağı 'veri-içi sözleşme: Kırklareli' ama Kırklareli 1369 ⇒"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "f51242f8 T4'ü BEKLETTİ: Çirmen, Dedeağaç, Uzunköprü d: 1371-09-26; Gümülcine d: 1363-01-01 KAYNAKSIZ (dönemde kaynak alanı boş) ⇒ Gümülcine hâlâ aradaki Dedeağaç/Uzunköprü/Çirmen'den 8 yıl önce Osmanlı; Ferecik 1357 kaynaksız, Meriç 1361 (komşudan). YAPILACAK: Gümülcine ve T4 kümesinin fetih yılı/sırası TDV'den + haritaya senkron."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Emre kararı (açık ton) uygulanmadı: veride Bizans'a ait hiçbir v: kaydı yok (kid bizans / k 'Bizans' = 0); statu dağılımı vassal 518 · gevsek 22 · özerk 3 · boş 12 — haraçgüzâr 0. YAPILACAK: ① Bizans haraçgüzârlık pencereleri TDV'den (1371/73 · 1391-94 · 1403 · 1424) ② v: + statu ③ açık ton gövde rengi (motor)."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Üç cepten ① Zencan DÜZELDİ: celayirli 1340→1383, timurlu 1383→1410 (yerlesimler.js:1134, commit 9b92117f). ③ Râmhürmüz artık lur-i-buzurg 1335→1393, sonra timurlu 1393→1452 (Celayirli cebi yok; timurlu dönemi kaynaksız). ② Bağdat cebi SÜRÜYOR: 1393-06-01'de Bağdat tek başına timurlu, Kerkük·Tikrit·Sâmerrâ·Fellûce·Hille·Kerbelâ celayirli (tek hücrelik cep). YAPILACAK: Bağdat 1393 penceresi (H-0030 "
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bağdat (yerlesimler.js:740) s: timurlu 1393-01-01→1394-01-01 ama 'Timur Bağdat'ı zaptetti' maddesi 1393-08-29 (olaylar_ek5.js:43) ⇒ madde öncesi ~8 ay Timurlu enklavı SÜRÜYOR. İkinci işgal: s: timurlu 1401-01-01, madde olaylar_ek11.js:50 t 1401-01-01 (kuyrukta 1401-06-01). 1393'te komşular celayirli ⇒ tek hücre cep. YAPILACAK: 1393 başlangıcını 1393-08-29'a çek (kaynak TDV bagdat), komşu Irak şehi"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "İki ayrı işgal veride zaten var: Bağdat timurlu 1393→1394, celayirli 1394→1401, timurlu 1401→1405, celayirli 1405→1411 (zincir 84164a1f, 30 Ağu); çıkış/giriş maddeleri kronoloji_iran_ardillari.js:655 (1394) · :673 (1405) · olaylar_ek11.js:50 (1401). Kalan görüntü kusuru (madde öncesi başlangıç + tek hücrelik cep) ikizi 0042/H-0030'dadır ve o AÇIK."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Tek kimlik: 'timurlu' künyesi (devletler.js:1784), BOYALAR etiketi 'Timurlu valiliği' (renkler.py:1933) — Bağdat'ta ve Ankara'da aynı kimlik. Ankara (yerlesimler.js:164) s: timurlu 1402-07-28→1404-03-01, suleyman-celebi 1404-03-01→1411-02-17 — iki gün de KAYNAKSIZ (dönemlerde kaynak alanı yok). Emre'nin sorusu (Ankara'nın Emir Süleyman'a geçiş günü) cevaplanmadı. YAPILACAK: TDV (ankara · suleyman-"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "(a) Renk değişmedi: karakoyunlu #e018e0 (renkler.py:537) · gurcistan #e020b0 (renkler.py:570), son değişiklik eec5f3dd (12 Ağu, şikâyetten önce); ΔE76 25,7 (renk_olc eşiğini geçiyor ama ikisi de macenta, Emre ayırt edemedi). (b) Kars/Ardahan karakoyunlu 1406→1467 (kaynak alanı yalnız 'kars'/'ardahan'); Gürcistan'ın Karakoyunlu'ya bağlılığı sorusu için kayıt/araştırma bulunamadı. 1415-06-01 gövdede"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1787-92 savaşı için şema uygulandı (olaylar_p0068b.js, 37 madde, ① süreç ② başlangıç ③ olaylar ④ savaşın sonu ⑤ barış; index.html:1596 bağlı, commit 0d44ea9d/c2c93f9b). AMA Emre'nin istediği GENEL kural yazılmadı: VERI-YAPISI.md'de savas:/evre: alanı yok (grep 0), hiçbir data dosyasında evre: yok; SAVAS-ANLATI'nın ölçtüğü başlangıç maddesi hiç olmayan 5 savaş (1443-09-01 · 1603-09-01 · 1663-04-01 "
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Gövde ölçüldü (koşu 18 devletler_harita.js, 1790-12-22, kutu 28.1-32.2E/50.5-54.3N): lehistan 5.34 + rusya 9.22 der², AÇIK BOŞLUK 1.023 der² (29.0-30.4E, 51.96-53.45N) hâlâ var. Boşluğun motor_kara.geojson ile kesişimi 0.0007 der², göllerle 0 ⇒ motorun kara tavanı dışında kalmış: bölgede yerleşim noktası yok (kutudaki 5 nokta: Minsk, Jitomir [lehistan], Kiev, Çernigov, Smolensk [rusya]; Mogilev/Go"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kart YAZILDI (teknik-nizam-i-cedid, sebep/sonuç/etki; data/ekokuma_kurum2.js:123, commit 2f4207b) ama şikâyet edilen maddeye (1792-06-01 'Nizâm-ı Cedîd ıslahat programı', olaylar_ek7.js) BAĞLI DEĞİL: kartın olay'ı yalnız '1791-08-11|Kalas','1807-05-25|Kabakçı'; ekokuma_bag_oneri.js'de de yok. O maddede yalnız yeniçeri/antlaşma kartları görünüyor. YAPILACAK: kartın olay listesine '1792-06-01|Nizâm'"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "_maddeliMetniHtmle() artık \\n\\n ve daire rakama göre bölüyor (app.js:11521-11540, commit 4d809287) AMA şikâyet edilen kart 'tartisma-isyanciya-makam' (data/ekokuma_celali.js:82) metni \\n\\n 0 · daire 0 taşıyor; örnekleri TEK \\n + '•' ile ayrılmış. Bölücü tek \\n'i ve '•'i tanımıyor, #ekokuma-icerik'te pre-line yok (css/style.css:2122) ⇒ bu kart hâlâ tek paragraf. YAPILACAK: ya bölücü '\\n•' / tek \\n'"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kartlar YAZILDI (teknik-muhendishane-ardil-okullar data/ekokuma_kurum2.js:85 + teknik-muhendishane-i-bahri-i-humayun :34; commit 2f4207b) ama şikâyet edilen madde (1795-09-01 'Mühendishâne-i Berrî-i Hümâyun'un açılışı', olaylar_ek5.js:304) hiçbir karta bağlı değil: 72 ekokuma dosyasında '1795-09-01' 0 isabet. Ardıl kartı '1793-07-14' ve '1883-11-03'e, Bahrî kartı '1775-04-29' ve '1795-01-01|…ayrıl"
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Oklar VAR (savaslar.js 1799 kayıtları, seferler_ok103.js, seferler_p0068.js Celile oku; index.html:1530/1606). İşgal taraması YOK: 1799-03-20'de Gazze, Yafa, Han Yûnus, Akkâ çevresi, Nablus işgalsiz (OSM); kutudaki 65 noktanın yalnız 7'si isg (Mısır). YAMA-SEFER-NAPOLYON-0918.json (36 isg ekle + 7 değiştir) uygulanmamış. Celile'de nokta yok (Hayfa, Nâsıra, Safed). YAPILACAK: yamayı indir + Celile "
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Adım adım gösterim yarım: 7 sefer oku var ama Mısır işgali 5 geniş blok (İskenderiye, Delta/Reşid-Dimyat-Asyut bloğu 1798-07-01, Kahire, Süveyş, Arîş); Delta ve Yukarı Mısır'daki ~35 nokta (Demenhûr, Tanta, Mansûre, Bilbîs, Sâlihiyye, Tahtâ, Asvan…) işgalsiz; Suriye adımları (Gazze, Yafa) hiç yok. YAMA-SEFER-NAPOLYON-0918.json uygulanmadı."
+  },
+  {
+   "kaynak": "KAPAT-0035-42-68-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Suriye seferi maddelerinin haritada karşılığı hâlâ yok: Gazze/Yafa/Han Yûnus'ta 1799 isg kaydı 0; yalnız El-Arîş işgali var. YAMA-SEFER-NAPOLYON-0918.json'ın isg kayıtları indirilmeli."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Emre'nin TK Kırım oturumuna verilmişti; o oturumun bu madde için teslimi BULUNAMADI. Arada inenler: Kabartay künyesi, Çerkez künyesi + Soçi/Tuapse/Maykop (2336d246), yerlesimler_ek_bozkir.js GIRDI'de. Bugün 36-45D × 44-48K kutusunda 1700'de 16 noktanın 10'u sahipsiz. 11 bozkırın her biri tek tek teyit edilmedi."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "BUGÜN ÖLÇÜLDÜ: kisiBul, app.js'ten birebir alınıp canlı kisiler.js ile çalıştırıldı. 'Damad İbrahim Paşa' → `nevsehirli-damad-ibrahim-pasa` (Lâle Devri) ⇒ 1596 maddesinde yanlış kişi kartı SÜRÜYOR (olaylar_ek7.js:60 kisiler alanı). YAMA-RIVAYET-0916 önerisi (kisiler.js'e `damad-ibrahim-pasa-1601` kaydı) İNMEDİ (grep 0)."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Vladikavkaz hücresi (kasitli_bosluk + bos:'hata' kendi içinde çelişiyor) dağı aşan puanla boyanıyordu. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) ö"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kök: komşu eşleşmesi tâbi→Safevî ile Osmanlı→Safevî'yi farklı sayıyor. BUGÜN OKUNDU: js/suzgec.js:760-768 komşu adımı yalnız AYNI (önce, sonra) çiftini alıyor. Öneri 'Osmanlı ≡ tâbi' UYGULANMADI."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Kök sebep (150 km komşu eşiği) KALDIRILDI: js/suzgec.js:747-768, DALGA-0068 (18 Eylül). Bu maddenin 19 yerinin bugün kaçının seçildiği tarayıcıda ölçülmedi. Tâbi olan yerler H-0014 sınıfında hâlâ dışarıda kalıyor olabilir."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "BUGÜN ÖLÇÜLDÜ: Erbil safevi 1623-11-28→1638-12-25 duruyor, Musul ve Kerkük 1624→1625 ⇒ 13 yıllık adacık sürüyor. Erbil'i adıyla anan kaynak yok. Seçenekler: (A) Musul/Kerkük'e hizala, 3 dosya (M-3946 itirazı açık) · (B) yalnız 12-25 → 12-24."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kâtib Çelebi, Lâgarî ve Hezarfen görselleri YOK: data/gorsel_madde.js'te üçü de 0 (grep). Kamu malı görsel araması yapıldı ama indirme yapılmadı. İndirme Emre'nin açık onayını ister (kural: yeni görsel indirme yok)."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kısmen: tımar ↔ feodalizm kartı var. İstenen Avrupa karşılaştırması (kilise, burjuvazi, sanayi devrimi, aydınlanma) YOK: EKO-TOPLUM ve EKO-TAMAMLA ikisi de bulamadı (TDV kapsamıyor, Britannica 403). Akademik kaynak sevki gerekiyor."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Geliştirici notu yüzü çözüldü (H-0047, js/app.js:10940). Kalan: idam edilen şair/sanatçı/bilim adamı/din adamı genel kartı + kişi kartları. Havuzda yalnız `nefi-idami` var; `tartisma-idam-edilen-devlet-adamlari` yalnız devlet adamlarını kapsıyor."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Aynı Erbil adacığı (H-0021 seçenekleri). Koyu/açık renk ikiliği H-0014 sınıfı."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "EKO-PADISAH yalnız denetim yaptı, kart yazmadı. Aile/evlilik içerikli 4 `magazin` kartı bulundu: ibrahim-telli-haseki-nikahi · ibrahim-hasekiler-pasmaklik-eyaletler · ibrahim-cocuk-yastaki-kizlar-damat-vezirler · magazin-nurbanu-safiye-murad-iii. Bugün hâlâ `magazin` türünde ve app.js'te 'aile künyesi' türü yok (grep 0). Karar: (a) yeni `aile-kunyesi` türü açılsın ve 4 kart taşınsın · (b) mevcut h"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Rostov/Taganrog devir kenarları nehre yaslanmıyordu. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm ya"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "BUGÜN ÖLÇÜLDÜ: `hukum-alani-mesafe` kartında soru/baslik/ad alanı YOK ve data/ekokuma_baslik_oneri.js'te satırı YOK ⇒ _ekSatirBasligi (js/app.js) satır başlığını BOŞ basıyor. Metin paragraflı (EKO-KURUM ölçtü). Yapılacak: karta `baslik:` ya da EKOBASLIK_ONERI satırı (data/ekokuma.js sahibi)."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Doğu Katar 1610-1710'da Safevî boyanıyordu: puan dolgusu `_dordurcu` kasitli_bosluk bayrağına uymuyordu (GEOMETRI ⑥ Vladikavkaz ile aynı kök). Motor 16 Eylül'den beri çok değişti; o pencere koşu 16 gövdesinde ölçülmedi."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Sınır şeritlerinde örtüşme (1.139 km²). Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak. Pripyat'"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Colmar bugün hâlâ 1648-10-24'ten fransa (ölçüldü). Önerilen 1673-08-28 işgal gününün kaynağı ZAYIF (belediye kronolojisi, akademik teyit yok). Fransa/almanya renk borcu da duruyor. Karar: kaynak aransın mı, yoksa önerilen gün mü uygulansın?"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Liège, Tournai ve Edinburg şeritleri. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak. Yan kalem:"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "kosu-bekliyor",
+   "not": "B görünümünün dolgu motoru yazıldı ama VARSAYILAN KAPALI (uret_petek.py:7958-7962 MOTOR_B_DOLGU=1). data/dolgu.js ÜRETİLMEMİŞ (ls: yok). ⇒ B'de boşluk kapanması bayraklı bir koşuya bağlı."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "kosu-bekliyor",
+   "not": "H-0100 ile aynı: B dolgusu kapalı, dolgu.js yok."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Kazak bozkırında hücresiz şeritler: dış halka puanı dolduruyordu. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken "
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Aral kıyısında hücresiz alan. Çare motor değil, kıyı noktası (GEOMETRI ⑧). Bugün 57.5-62.5D × 43-47.5K'de 4 nokta var. GEOMETRI'nin andığı Emre kararı ('devasa boşluklar olacaksa olsun') bu maddeye özel olarak teyit edilmeli."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "kosu-bekliyor",
+   "not": "H-0100 ile aynı."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "200 km / 5 gün tavanı, saate bağlı tavan kararı (12 Eylül). Yürüyüş motoru sonradan üretime girdi; bu yerleşimlerde bugünkü çizim ölçülmedi. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölç"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Gauhati ve Sibsagar, H-0105 ile aynı."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Şan tek dönem 1281→1923; Chiang Mai payı. Bayat gövde sınıfı, kafes tek başına yetmez. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yaz"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Hainan'da bugün TEK nokta var: Qiongzhou (ölçüldü). Adanın kıyıya oturmaması tavan/noktasızlık kaynaklı; kaynaklı ek nokta gerekiyor."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "B2 kanadı (yarı genişlik ≤333 km) + hücresiz şerit. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yas"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Hong Kong hücresinin 1841 öncesi payı Makao'ya gidiyor. Çare (a) veri ya da (b) motor, karar gerekiyor. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) "
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Sibirya benekleri: B2 yalnız ana kütleye bağlıyor, zincirleme yok (MOTOR-0916). Zincir B2'nin sonradan yazılıp yazılmadığı ölçülmedi. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm alet"
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Palopo ve Bau-Bau noktaları YOK (ölçüldü). `luwu` ve `buton` künyesi de YOK (devletler.js grep 0). Sıra: önce künye + renk, sonra nokta."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "'Devletsiz' halka işareti bugün de zamansız çiziliyor (js/app.js:2692-2698, kendi yorumu 'ZAMAN BOYUTU YOK'). Yapılacak: işaret yalnız sahipsiz olduğu tarihlerde çizilsin."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Uman yaması İNDİ (d 1674-01-01→1699-01-26, ölçüldü). Çehrin İNMEDİ: bugün 1569→1678-08-21 lehistan. Önerilen 1672 sonrası Doroşenko (Osmanlı himayesi) ve 1676-09-19 Rus dönemi yazılmamış."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "H-0012 ile aynı hücre (1679 Gürcistan); uç boşluğu hiç ölçülmedi. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken "
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Cevap: Kabartay beylikleri vardı (künye `kabartay`, renk #0c5a84); Nalçik şehri yoktu (1818 Rus kalesi). Ama nokta hâlâ 'Kabartay (Nalçik)' adını taşıyor (yerlesimler.js:616). 1818 öncesi için anakronik; ad düzeltmesi yapılacak."
+  },
+  {
+   "kaynak": "KAPAT-0052-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "H-0002 ile aynı durum. Kısmi cevap kartlarda var: tartisma-karadeniz-cerkezler · tartisma-karadeniz-kirim-tatar-nogay. Kuban/Stavropol Nogay bozkırının o tarihteki bağlılığı madde tarihinde ölçülmedi."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: İsviçre 1830 D kaydı yok, renk E/C hatlarına oturmuyor (%10 iki yan doğru). D-RENK-0073 kararına bağlı — seçenekler CEVAP.json'da."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "H-0003 ile aynı sınıf ve aynı karar (Hollanda %15)."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "KARAR VERİLDİ (koordinatör, 30 Eyl): Emre 17 Ekim 1830'u (TDV) seçti. UYGULANMADI — bugün ölçüldü: madde hâlâ `1830-11-08` (data/olaylar_ek.js:73) · künye sirbistan-prensligi f:\"1817-01-01\" · Belgrad/Semendire d: Osmanlı →1867-04-18 (özerk gövdenin dışında) · 12 nahiye merkezinden Požarevac/Valjevo/Užice veride 0. Hazır olan: 12 nokta denetim/SIRP-NOKTA-0930.json (11'inde 3 bağımsız kaynak). Yapıl"
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Koordinatör ölçtü: basılan metinde 'Emre' 6 yer + 1 kasitli_bosluk.neden; dosyalarda ~250 geçiş, gerisi geliştirici defteri. Şıklar: (a) yalnız basılan 6+1 (b) hepsi. Öneri (a) + kural."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: `statu:\"asi\"` veride 0. Karar: renk tonu + Mısır eyaletinin bölünmesi."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Önerilen `baskasinin_petegini_cikar` motora HİÇ girmedi (uret_petek.py'de 0). Aynı sınıfın çaresi GOVDE-CAKISMA-0079 ('ekleme komşu toprağını kesmez') koşu 16'da indi (uret_petek.py:6572, 76351781) ve koşu 18 yayında (2ddede3d). Görselin günü (1832-03-01 Annaba) koşu 18 gövdesinde ÖLÇÜLMEDİ — alet (GOVDE-CAKISMA-0079-olc.py) donemler.js'in 29 Eylül kodlamasından ÖNCE yazıldı, okuyup okuyamadığı sı"
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Maraş v:misir-kavalali 1832-07-29→1841-02-25 (TDV '1833, on dokuz aya yakın'). Karar ② (UYGULAMA belgesi)."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Urfa v:misir-kavalali 1832-08-15→1841-02-25. Karar ①."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Mersin/Silifke/Ulukışla'da Mısır penceresi yok. Karar ④."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: lubnan-emirligi tabi tek parça (1516-10-01→1842-01-01 ust:osmanli, devletler.js:7718). Karar ⑥."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Han Yûnus d: Osmanlı 1516→1917, Mısır penceresi yok. Karar ④."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Karar ⑧-⑨ açık (odak kuralı B'ye genişlesin mi · 13 atlas-dışı yer). Bugün yeniden ölçülmedi."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Koşu 18 geçti, veri değişmedi — bugün ölçüldü: sirbistan s:29 · v:0 · sirbistan-prensligi s:10 · v:5 (tâbi yapılar hâlâ ayrı gövde). H-0005'le aynı kökten; o uygulamaya eklenmeli."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "onay-bekliyor",
+   "not": "Şematik Silistre tahliye oku CANLI (varış TDV'de yok, `kesinlik` söylüyor). Kalan yalnız Emre'nin 'şematik ok kalsın mı' onayı."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "'Kodu yazalım' yüzü: çakışma önleyici GOVDE-CAKISMA-0079 motorda (uret_petek.py:6572, koşu 16 · 76351781; koşu 18 yayında). Görselin günü (1837-10-13 Konstantin) canlı gövdede ÖLÇÜLMEDİ — H-0011 ile aynı alet sorunu."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Kütahya kapsamı cevaplandı; Halep günü TDV 15 Tem 1832 ↔ atlas 25 Haz — Mısır seferi karar paketiyle birlikte."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Değişmedi: arac/renkler.py'de misir-kavalali rengine 21 Eyl'den sonra dokunulmadı (son commitler başka kimlikler). H-0010 ile birlikte koşuya."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: devletler.js'te sisam künyesi YOK (0 eşleşme). Karar ⑦ (künye + v:kid · bitiş günü 13 Mart ↔ TDV 11 Kasım 1912)."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Mısır-Sudan 22. paralel kaydında dolgu hâlâ açık (hukuki_sinirlar.js:127, `dolgu` alanı yok) — bilerek: dolgu gerçek bilgi taşıyor. Üç şık koordinatörde."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "kesiri×kuayti çift boyaması; çakışma çaresi GOVDE-CAKISMA-0079 koşu 16'da indi. 1884 Hadramut penceresi koşu 18 gövdesinde ölçülmedi (H-0011 ile aynı alet sorunu)."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "H-0072 ile aynı gün, aynı çift, aynı ölçüm borcu."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Aynı polity iki kez çiziliyor (bulgaristan devlet gövdesi + Osmanlı tâbisi) — GOVDE-CAKISMA-0079'un sınıfı değil (ekleme değil çift kayıt). Çakışmayı soran değişmez önerisi: CLAUDE.md §3'te 8a/8b var, gövde×gövde çakışma sorusu YOK."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Sivri köşe = seyrek nokta. Pencerede bugün 3 nokta; kaynaklı yeni nokta yazılmadı."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Pencerede (40.46–45.05E · 18.27–21.14N) bugün 0 nokta; kaynaklı nokta yok."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Pencerede (41.68–46.90E · 18.72–21.27N) bugün 0 nokta."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Pencerede (23.0–23.6E · 39.0–39.65N) bugün 1 nokta."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Doha'nın katar tâbi penceresi 1871-09-20'de başlıyor (yerlesimler.js:1190, Temmuz'dan beri); madde günü 1871-04-20 ondan ÖNCE ⇒ o gün Doha hâlâ sahipsiz. 'Katar Yarımadası (iç, dolgu)' 1670'ten sonra sahipsiz. Kaynaklı gün gerekiyor."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bugün ölçüldü: 1878-01-04 Tuna penceresinde isg 0/58, Kars cephesi 0. Sofya v:bulgaristan-prensligi 1878-01-04'ten (prenslik Temmuz 1878) · Plevne s:rusya 1877-12-10 (sahiplik, işgal değil). Değişmedi."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "KISMEN ÇÖZÜLDÜ: Süveyş · Sefâce · Tûr · Sina güneyi artık kid:misir-kavalali (2e656b0d, NOKTA-ORTADOGU YAMA A). KALAN: Sîva (Siwa) v: hâlâ kid'siz (yerlesimler_p0043libya.js:83) · Cağbûb Osmanlı doğrudan 1856→1912 peteği Mısır'a taşıyor."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bugün ölçüldü — çelişki veride: Kebkâbiye · Cebel Merre · Zâlincî v:misir-kavalali 1874-11-02→1883-12-23 (Mısır ilhakı), ama Darfur noktası s:darfur 1695→1916 KESİNTİSİZ. Darfur noktası komşularının zincirini (1874 Mısır · 1883 Mehdi · 1898 darfur) almamış."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "H-0065'le aynı kök, artık ÖLÇÜLDÜ: Nühûd v:misir →1885-01-26 mehdi; Darfur noktası 1883-12-23'te mehdi'ye geçmiyor (komşuları geçiyor). Çare komşu zincirinin Darfur noktasına uygulanması; günler komşu kayıtlarda kaynaklı mı, uygulayıcı sınamalı."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "KISMEN: Banaluka isg avusturya 1878-07-29→1908-10-05 ve Bihaç 1878-09-18→1908 VAR. KALAN: Bosna Dubiçası · Bosna Novi'si · Bosna Brod'u · Krupa isg YOK (d: Osmanlı →1908)."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Değişmedi: Tekirdağ s:bulgaristan-kralligi 1912-11-01→1913-07-21 (Edirne 26 Mart 1913'te düştü). Kaynaklı gün gerekiyor. 'Adım adım gösterim' isteği ayrı kapsam kalemi."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Doğu Rumeli'nin altı sancağından İslimye · Burgaz · Hasköy veride hâlâ YOK (bugün ölçüldü). TDV koordinat vermez; koordinat kaynağı kararı gerekiyor."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Ras Ecdir noktası yok (0) · 1886 düzenlemesi için d_sinirlar kaydı yok (en eski d1910-libya-tunus-osmanli). H-0087 ile tek çözüm."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1886/1892 hattı yok (bugün tarandı: d_sinirlar_ortadogu+afrika'da libya/tunus/trablus için 18xx kaydı yalnız d1923-sudan-libya). 1910 geometrisini kopyalamak sahte kesinlik — kaynak gerek."
+  },
+  {
+   "kaynak": "KAPAT-0075-76-0930",
+   "parti": "?",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Refah-Taba hattı çizili ama Taba ve Refah noktası hâlâ yok (0). Koordinat atlastan alınamaz (§4)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kaheti hala boyasiz: arac/renkler.py'de `kaheti` 0 eslesme. Zagem (Kaheti) bugun yalniz 1917-1921 pencereleri icin degisti (KAF-1), bu maddeyle ilgisiz. Yapilacak: KAFKAS-KORFEZ-0081-uygula.py (BOYA tuza dokunur → tam insa kosusuna) + Gori/Telavi/Duseti noktalari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kars hala s:akkoyunlu 1467→1514-09-06 (oneri safevi 1502-01-01). SAFEVI-DOGU-0081-uygula.py kosturulmadi. Ardahan kolu Emre karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Yezd/Siraz/Kirmansah hala akkoyunlu →1508-01-01 (oneri TDV 1503, Yezd 1504-12-06). SAFEVI-DOGU uygulayicisi inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Oran maddesinin kaynak duzeltmesi (TDV vehran) inmedi; DUNYA-KRONO-0081 etiketi data/'da 0. Kronoloji isi — kosu ISTEMEZ, dogru hukum `sirada`. Ek okuma zaten var."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kart `tartisma-dunya-hint-okyanusu-portekiz` yalniz denetim/DUNYA-KRONO-0081-ekokuma_hint0081.js'te; data/ekokuma*.js'te 0. Yukleyici satiri da yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "GORSEL OLCULDU (1512-01-01 · 44,55-46,02N · 15,82-18,80E, Sisak-Banaluka arasi Slavonya). 🆕 Bos alanin ICINDE o gun 4 SAHIPLI nokta var: Kostajnica, Bos. Dubica, Jasenovac, Bos. Brod (hepsi s:macaristan, tur:kale, yerlesimler_ek29.js, 12 Eylul'den beri veride, ek29 15 Agustos'tan beri motor girdisinde). Yani noktasizlik DEGIL — sahipli noktalarin petegi kosu 16 ciktisinda BOYANMAMIS. uret_petek.py"
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "OLCULDU: Teke→Sivas duz oku bir sefer kaydi DEGIL; js/app.js:5151 `isyanYayilmaUret()` ayni onekli iki `tur:isyan` SAVASLAR kaydini (savaslar.js:371 Sahkulu (Teke) · :372 Sahkulu (Sivas)) OTOMATIK ardisik oka ceviriyor; kodun kendi notu `bugun bu desene uyan TEK zincir Sahkulu`. Bugun hala canli. Emre `kaldiralim` dedi (onceki p4/H-0012 istegiyle celisir — isyan yayilma okunu bizzat istemisti). Ya"
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "= H-0003 (Kars-Sarikamis-Ardahan). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Siirt d: 1514-09-06 hala (Tebriz gunu, kaynaksiz). Secenekler degismedi: (a) birak + kendi maddesi · (b) Bitlis ile birlikte. Tahtada 28 Eyl sonrasi karar bulunamadi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Nusaybin maddesi t 1515-09-19 duzeltmesi SAFEVI-DOGU uygulayicisinda; inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Diyarbakir d: hala 1515-09-10 (oneri 1515-09-19) · Harput hala 1516-05-01 (oneri 1516-03-26). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Urfa d: hala 1516-05-01 (oneri 1517-05-01). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Mardin d: 1517-05-01 zaten dogru; Kochisar basligi + yeni Mardin maddesi SAFEVI-DOGU'da, inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Acik karar: `--kahire` kolu (Kahire·Suveys 1517-01-23, oneri AC). Ikinci yarisi (ok basi kaba) BAYAT — bkz. H-0028."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Dogubayazit 1514-1534 adasi: sureklilik bulunamadi; Erzurum-Dogubayazit arasi noktasiz. Karar bekliyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "GORSEL OLCULDU (1517-05-19 · 30,52-32,39N · 22,55-24,79E, Marmarika/Tobruk). Kutuda o gun 0 nokta; cevre +1,5 derecede 5 nokta: Ayn el-Gazale (Bomba) OSM ~120 km · Sellum OSM ~140 km · Siva OSM · Derne s:ispanya · Calu. TOBRUK (Tubruk) NOKTASI YOK. Motor kosu 18'de col ufku `MOTOR_COL_UFUK_SAAT=56` ile kostu ⇒ bu kuru kiyida 120-140 km'yi kapatmamasi beklenir. Teshis: noktasizlik. Yapilacak: kayna"
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Tulmeyse d: hala 1517-05-19 (TDV berka 1517 ↔ TDV bingazi 1551). Oneri 1551-08-15. Karar bekliyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Doha hala yalniz 1871'den (v:katar 1871-09-20); 1521 ve 1670-1871 zinciri yok, Zubare noktasi yok. IKIZI: 0082/H-0101."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "BALKAN-MACAR-0081 uygulayicisi inmedi (etiket 0; Budin v: 1526-09-01 ESKI hali). Mohac gunu tabilik/Habsburg duzeltmesi bekliyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Gospic d: hala 1527-01-01 (oneri 1527-05-01). Kvarner noktasi yok. Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Estergon/Segedin/Pecuy duzeltmesi BALKAN-MACAR'da; Estergon hala s:macaristan →1543-08-10. Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Arpacay·Digor·Igdir·Beri d: hala 1534-01-01 (oneri 1534-06-01). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Halepce d: hala 1534-12-04 (Bagdat gunu; oneri 1535-01-01). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "KOD OKUNDU: kirpma mekanizmasi DURUYOR ve varsayilan ACIK — index.html `#ayar-kirpma-ac checked`, `#ayar-kirpma-adet` 2 (Emre'nin istedigi sayi); madde tiklaninca `maddeFarkiGoster` (js/app.js ~10929, `MADDE_FARK_ACIK=true`) ve antlasma farki (`vurus: 2`, app.js:10521). ⚠️ Kodun kendi notu: kirpma yalniz o gun gercek DEGISIM varsa calisir; baslangic/bitis gunleri atlanir. Emre `artik yanip sonmuyo"
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Sehrizor/Halepce 1550 kaybi maddesi hala yok (olaylar*'da `Sehrizor`+1550 0). Kronoloji isi, kosu istemez."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Guryel kiyisi tabiligi (--guryel) inmedi; Batum kismi Emre karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Mersiye maddesi hala t:\"1566-09-01\" (olumden 6 gun once siralaniyor). Kronoloji isi, kosu istemez."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "`Gyula (Gole) Kalesi'nin teslimi` maddesi olaylar*'da 0. Kronoloji isi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "`tartisma-karadeniz-ukraynalilar-kimdir` yalniz denetim/KAFKAS-KORFEZ-0081-ekokuma.js'te. data/ekokuma_karadeniz.js'teki `tartisma-karadeniz-ruslar-ukraynalilar` BASKA kart (1897 nufusu, 17 Eyl), soruyu cevaplamiyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bozkir (Desti Kipcak) (yerlesimler.js:1319) 1736'da hala v:kirim (oneri 1570'ten don-kazak). IKIZI 0082/H-0014 · H-0020 · H-0027."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Eski hukum YANLIS KELIMEYDI: not kendisi bir kapsam karari (8. boyut) diyor, kosuya hic bagli degil. (A) kopyala (onerilmiyor) · (B) `Dunyada` satiri olarak bagla (oneri)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Klicatak·Norapat hala s:safevi 1501→1736, Osmanli penceresi yok. IKIZI 0082/H-0008."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Ferhad Pasa 1590. Bane noktasi atlasta yok (evren 4296). Karar bekliyor: (1) bolge cumlesi · (2) Iranica/Kutukoglu oku (oneri)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1603-01-01'e yigilma suruyor (olaylar_p0048.js:50 · olaylar_ek14.js:43 hala t:\"1603-01-01\"). Kronoloji isi, kosu istemez."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0081",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Tiflis d: hala 1578-08-24→1606-01-01. Bugun Tiflis'e dokunan iki kalem (KAF-1 1917, KAF-6 1735) bu pencereye degmedi. Bitis gunu karari bekliyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Erbil safevi hala →1638-12-25 (oneri 12-24). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Kutsal Ittifak cizimi: (a) tek seferlik animasyon (oneri) · (b) kalici katman. Karar bulunamadi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Karlofca Bosna-Sava hatti: (1) kaldir · (2) Sava'ya oturt · (3) lejant. Karar bulunamadi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Klicatak/Norapat hala Osmanli penceresiz. IKIZI 0081/H-0045 (ayni uygulayici)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Karma: Klicatak/Norapat (0081 uygulayicisi) inmedi; Kotur/Serdest degismedi; Seyh Salu senin karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Kuba·Sabuiran 1725: A/B/C secenekleri, karar yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Urmiye'de yalniz d:1724-01-01→1730-08-12; 1731 geri alinisi yok. Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bozkir (Desti Kipcak) yerlesimler.js:1319 1736-07-14'te hala v:kirim. Ayni nokta 0081/H-0043'te; tek duzeltme ikisini kapatir."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Azak'ta 1736 isg: yok (s:rusya yalniz 1739-09-18'den). kronoloji_kirim.js:385 `Azak Kalesi geri alindi` basligi hala."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Ozi 1737 hala s:rusya 1737-07-11→1738-08-01 (oneri isg:, bitis 1739). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "olaylar_p0063.js:43 hala `odak_yer:[\"Viyana\"]`."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Nis'in dususu (1737-07-2x) maddesi olaylar*/kronoloji*'de 0."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "= H-0016 kaydi; Kilburun noktasi yok (evren 4296)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "Ayni `Kirim enklavi` sikayeti ikinci kez (1739-12-12). Ikizi: 0082/H-0014 (acik, sirada)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Novomirgorod noktasi yok; Yelisavetgrad s:rusya 1754'ten. BOLGELER tasmasi Degismez 8b sinifi (tavanli borc)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kok H-0021 noktasizligi — Novomirgorod yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1770 Yedisan kutusunda hala 3 nokta (Ozi, Hacibey, Yedisan bozkiri k0). Onerilen Yedisan noktalari yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Arabat noktasi yok. Kerc/Yenikale/Taman isg 1771-07-12 duruyor, gun kaynagi hala okunmadi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Coklu teyit; Desti Kipcak alt sorusu = H-0014 (acik). Zaporojye statusu Emre karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "0,05 derece izgara basamaklari: uret_petek.py'ye bu sinifa donuk commit bulunamadi (bugun inen motor yamasi yalniz BOGAZ-OLCUM `sudan gecen adim yasak`). Motor kalemi, tam insa."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kefe/Sudak/Yalta/Alusta hala d: →1783-04-19 + isg:rusya 1771-07-01→1783-04-19 (Kaynarca'da bitmiyor). Inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Mogilev/Rumyantsev 1788 oku seferler*'de 0."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Ozi 1788 hala s:rusya 1788-12-17'den (oneri isg: →1792-01-09). Kilburun noktasi yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Yas/Roman/Birlad'da 1788-1792 isg: yok. Bogdan isgali eklenmedi (gun kaynagi bulunamamisti)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Krayova'da 1789 isg:avusturya yok (bugun degisen Krayova kalemi baska pencere). Bukres'te isg avusturya 1789-11-01→1791-08-04 VAR ama Kucuk Eflak yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Hacibey'de 1789 isg: yok (d: 1538→1792)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Orsova hala s:avusturya 1790-04-16'dan (oneri isg: →1791-08-04 sonra s:)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "Ozi 1788 ikinci bildirim. Ikizi: 0082/H-0032 (acik, sirada)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Akkirman 1789: (a) isg 1789-01-01 · (b) gun bulunana dek yazma (oneri). Akkirman'da 1789 isg: yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kok H-0033 (Bogdan isgali eksik)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kok H-0033."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kok H-0033."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kok H-0033."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Ismail 1789 teslim maddesi: a/b/c. Karar yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "olaylar_p0068b.js:90 hala `odak_yer:[\"Yas\"]`."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Konstanz ve Freiburg hala s:almanya 1281→1923."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Gorz, Gradisca, Tarvisio, Villach, Belluno, Feltre, Cortina: 7/7 YOK (evren 4296)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Sondrio, Chiavenna, Chur, Lugano, Bellinzona, Locarno: 6/6 YOK."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Chambery s:sardinya →1860 · Nice s:sardinya 1388→1860 — 1792/93 Fransa penceresi yok. Akademik gun teyidi gerekir."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Piacenza, Guastalla YOK. Etiket: kunye `ferrara` adi `Este Devleti (Ferrara / Modena)` — renkler.py'de `Modena` 0; harita etiketi renkler.py'den geliyorsa hala eski."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Lucca noktasi YOK; Piombino noktasi YOK; Elba s:piombino 1399→1923 (kunye asimi suruyor)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Hazarecat noktasi yok (Bamyan 0). Kaynakli koordinat gerekir — kaynak sevki."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Ustyurt/Karakum: (1) col kalsin · (2) Turkmen otlagi boyansin. Karar yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Asyut'ta 1798-1801 isg:fransa yok (d: 1517→1805). Nil vadisi isg: hic eklenmemis."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bilbis, Salihiyye'de 1799 isg: yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "CEVAP'in kendi notu: `= H-0058 kusuru`. Ikizi: 0082/H-0058 (acik, sirada)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Resid/Dimyat/Asyut 1801 isg bitisleri — isg:'in kendisi yok, bitis de yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Mljet noktasi YOK. Dalmacya kimligi (italya-napolyon) alt sorusu Emre karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "1806 isgalleri: (a) her kirilmaya madde (oneri) · (b) ozet. Karar yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "= H-0063 karari (ozet madde EK olarak)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "seferler_p0071.js son degisim 9a76645e (22 Eyl); OSMANLI-IC-0082 29 Eyl'de hala Gelibolu'yu kestigini olctu. Duzeltilmis rota raporda hazir, inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "savaslar.js:894 `a4-alemdar-istanbul-1808` (Ruscuk'tan duz hat) hala var; seferler_ok103.js:125 Edirne oku da var ⇒ iki ok suruyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "arac/uret_devirler.py son degisim e53c86ae (27 Agu) — Kahul-Ismail duzeltmesi yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Karadeniz kuzeyi 1281-1923 program: (a) ayri derin paket (oneri) · (b) ONERI ile yetin."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Baslik hala `Tosun Pasa Yenbu'ya cikti` t:1811-09-03 (olaylar_ek4.js:51 · kronoloji_misir.js:115); iki ok duzeltmesi yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kisinev, Belz, Leova, Ungheni: 4/4 YOK."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Hail hala s:hail-ibn-ali 1779→1836 (oneri 1779-1818 suud, 1836→1835). Ek okuma istegi ayri."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Bise, Necran, Vadi'd-Devasir YOK; Doha 1670-1871 yok. Rub'ul-Hali bosluk dogru."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Culfa hala s:kacar 1794→1923 (oneri 1828-02-22'den rusya). Lenkeran rusya 1828-02-22'den (1813 onerisi Emre karari)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1828 Prut gecisi oku seferler*'de 0."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "GORSEL OLCULDU: kutu 1829-09-14 · 43,51-44,54N · 23,79-25,43E — Ibrail/Yergogu DEGIL, Turnu (Kule)-Nigbolu kesimi. Kutuda 3 nokta: Nigbolu OSM · Slatina, Krayova v:eflak. KULE (Turnu) NOKTASI YOK. Bugun Ibrail/Yergogu duzeldi (bkz. H-0097) ama bu gorseldeki bosluk ONLAR degil. Yapilacak: Kule noktasi. Ek: CEVAP'in `isg:rusya →1834` onerisi Ibrail/Yergogu'ye inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Koln, Aachen, Munster, Trier hala s:almanya 1281→1923; Dusseldorf, Koblenz YOK. Prusya Ren/Vestfalya eklenmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "= H-0079 + arac/renkler.py:837 hala `danimarka: Danimarka-Norvec`."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Krakov hala avusturya 1795→1815 (1809-1815 Varsova Dukaligi yok); Lemberg, Tarnow YOK — Galicya noktasizligi suruyor."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Lehistan'in cokusu karti yazilsin mi (oneri evet). Karar yok."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Tilimsan, Medea, Miliana, Blida, Sersel hala s:fransa 1830-07-05'ten. Dort sehir icin A/B Emre karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "KISMEN INDI: gun sorusu Emre'nin secimiyle (17 Ekim 1830) Cacak ve Kragujevac'a yazildi (yerlesimler.js:2287-2288, KRONO-BALKAN-B BLB-1, kosu 18 = 2ddede3d). ASIL SIKAYET ACIK: Sirbistan govdesi Belgrad/Semendire/Sabac'i kapsamiyor — Belgrad ve Semendire'de 1830 sirp penceresi yok, Sabac noktasi YOK. denetim/SIRP-NOKTA-0930.json'daki 12 nahiye merkezi (koordinatli, kaynakli) HAZIR ama inmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Dogrudan idare hatti kalinligi: (a) zoomla (oneri) · (b) + koyu renk · (c) dokunma."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Sam v: 1832-06-15 (TDV 16 Haziran) · Halep 1832-06-25 (TDV 15 Temmuz) · Hama/Trablussam 06-15 — degismedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Igdir/Beri hala d: 1534→1878 Osmanli (oneri 1604 sonrasi Safevi, 1828-1917 Rus). ⚠️ SAFEVI-DOGU ile SIRALI uygulanmali (her ikisi inmedi)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "CEVAP notu: `Kok = H-0093`. Ayni Igdir sikayeti. Ikizi: 0082/H-0093 (acik)."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Igdir kismi = H-0093 (acik); Hulo dogru (d: 1578→1878). E hattindan sapma Degismez 8a, kosu 18 govdesinde olculmedi."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Kutahya-Konya-Adana baglantisi: A koridor noktalari (oneri) · B etki katmani."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Teyma ve Dumetulcendel hala s:sammar 1836'dan. Teyma kunyesi (A yeni kunye · B __BOSLUK__) Emre karari."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Tashih-i sikke (olaylar_ek2.js:21) maddesine bagli kart 0; ekokuma*'da `Tashih`/`mecidiye` 0."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Asir sivri kose (Voronoi, nokta seyrekligi): Dogu Asir'e kaynakli nokta hala bulunamadi — kaynak sevki."
+  },
+  {
+   "kaynak": "KAPAT-0081-82-0930",
+   "parti": "parti-emrelic-0082",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Doha 1871 oncesi sahipsiz, Zubare YOK. IKIZI 0081/H-0024."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0053",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Szatmar (Satu Mare) 1526-08-29→1918-11-11 kesintisiz avusturya, v:[] bos ⇒ 1682-85'te Orta Macar ile Osmanli Varad arasinda Habsburg adasi. Kayit Orta Macar donemini 'kaynak bulunamadi' diye bilerek yazmamis (TDV satmar slug'i 302). Sartnamedeki YAMA-0053-ORTAMACAR.json uretilmedi; HARITA-VERI'nin 0053 teslimi yok. Ayni sikayet 0027/H-0004'te de gelmis. YAPILACAK: Szatmar'in 1682-85 sahibi akademi"
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0053",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Ek okuma kismi TAMAM: sebep-sonuc-2viyana-karar-sureci + 4 II. Viyana karti canli, 1683-07-14'e bagli. ACIK: II. Viyana'ya giden sureci anlatan cekirdek kronoloji maddesi yazilmadi (olaylar*.js 1682-09..1683-08 Viyana sureci 0; yalniz kuyrukta kronoloji_habsburg.js:275). YAPILACAK: sefer karari + yuruyus icin cekirdek madde."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0053",
+   "madde": "?",
+   "hukum": "tekrar",
+   "not": "Ikizi 0053/H-0002 (acik). 1683-09-12 ve 1683-10-09'da Szatmar hala avusturya, ada gorunumu suruyor."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0053",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Onerilen 12 kisi kartinin 12'si genisletilmis olarak canli (yama a1cc8e5c, 17 Eyl). Ama sikayet GENEL: kisiler.js'teki 287 kaydin 227'si hala tek cumle (221'i <150 karakter). YAPILACAK: kalan tek cumlelik kartlari gorunurluk sirasiyla genisletmek."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0053",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kusur SURUYOR: canli kisiBul node ile kosturuldu — 'Ismail Pasa' → id:ismail (Sah Ismail 1487-1524); ozAdlar pasa/sah'i atiyor, esik 1 geciliyor. Anabolu 1686-08-30 maddesinde Sah Ismail karti cikiyor; kisiKartSatirlari'nda zaman korumasi yok. YAPILACAK: kisiBul'a zaman korumasi (kisinin f/t'si madde gununu kapsamali) ya da kisiler.js'e Ismail Pasa (1686) kaydi."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "HARITA-VERI-0916.md'de 0054/H-0001 satiri yok; sartnamenin istedigi YAMA-0053-ORTAMACAR.json yok. 1683-88 Tokaj/Kassa/Fulek/Ungvar/Eperjes kayiplarini anlatan kronoloji maddesi yok (olaylar*/kronoloji* tarandi; yalniz 1682-09-16 Fulek ve 1685-10-19 Solnok var). Yerlesim donemleri 1682-09-16..1685-10-15 kaynaksiz ('DEVRALDIM'). YAPILACAK: 1685-87 dususlerine kaynakli kronoloji maddeleri + donem ucl"
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Istenen: Kutsal Ittifak savasinda Erdel/Eflak/Bogdan/Kirim ne yapti. Yazilan dunya3-kutsal-ittifakin-dort-cephesi CEPHELERI anlatiyor; Erdel/Eflak/Bogdan/Tokoli/Brankovan 0 gecis; butun ekokuma*.js'te bu tutumu anlatan kart yok. YAPILACAK: 1683-99 dort tabinin tutumu uzerine kart."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "dunya3-osmanli-venedik-deniz-savaslari var ama yalniz 1499 Sapienza'ya bagli; 1694-09-21 Sakiz maddesine (olaylar_ek3.js:35) bagli degil, Sakiz 1694 icerikte yok. Kart '1684-99'da buyuk deniz savasi yasanmadi' diyor, atlasin 1695-02-22 Koyun Adalari maddesiyle celisiyor. YAPILACAK: Sakiz 1694/donanma kiyasi karti + 1694-09-21 bagi + celiskili cumlenin duzeltilmesi."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Cevap TKKIRIM raporu §2'de var (Don Ordasi 1671'den Rusya'ya tabi, 1696'da Ruslarla; Moskova→Voronej→Don) ama KART YAZILMAMIS; 1696'ya bagli tek Kazak karti (tartisma-karadeniz-kazaklar) koken anlatiyor. II. Azak seferi oku savaslar.js'e girmemis (grep 0). YAPILACAK: rapor §2'den kart + sefer kaydi."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "dunya3-karadag-osmanli-iliskisi soruyu cevapliyor ama yalniz 1878-03-03 Ayastefanos'a bagli; Emre'nin okudugu 1697-01-01 Karadag vladika maddesinde (olaylar_ek6.js:82) GORUNMEZ. YAPILACAK: olay listesine '1697-01-01|Karadag' eklenmeli."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Antlasma haritasi altyapisi canli (js/antlasma_harita.js index.html:1900; veri paket_29 icinde) ama yalniz 4 kayit (Karlofca 1699 · Pasarofca 1718 · Ankara 1921 · Lehistan 1772); Emre 'tum baris anlasmalari' dedi. Tarama deseni yapilmadi (yari saydam dolgu, Emre onayi bekleniyor). YAPILACAK: oteki antlasma kayitlari + tarama deseni sorusu. Tarayicida olculmedi."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0054",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "TKKIRIM cevabi: Bozkir (Dest-i Kipcak) noktasinda Kirim tasarrufu yok, toprak Don Kazak Ordasi'nin (Rusya'ya tabi); YAMA-BOZKIR-KAZAK-0915 hazir ama UYGULANMADI: yerlesimler.js:1319 hala v: Kirim gevsek 1502-03-01→1774-07-21, don-kazak donemi yok. Bu v: kaydi 'Emre karari D (13 Eyl)' dayanagini tasiyor ⇒ yama Emre'nin eski kararini geri almayi gerektiriyor; karar Emre'nin, sonra petek kosusu."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Enklav kismi KAPANDI (Novi 55a5b28 ile Osmanli; Dubica + Krupa eklendi 9b92117f; alet: 1737-08-04 kopuk parca 0). ACIK: 'sehirlere konan koyu halka ne' — UI-HARITA 'Esri altlik simgesi' dedi (M-4356) ama Kostaynice canli veride var, cevap supheli; aday koridor-dugum-daire katmani, tarayicida olculmeli. HE yil sapmalari (kalem 3) karar bekliyor."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "(a) 'Emre' temizligi YAPILDI: 72 ekokuma dosyasinda okuyucu alaninda 'Emre' 0 (59 gecisin 50'si yorum, 9'u ic_not/kaynak). (b) Baslik YAPILMADI: satir basligi 60 karakterde kesiliyor; bu kart (avusturya-1736-1739-savasi-sebep-ozi) sebep-sonuc ama sebep/sonuc alani yok ⇒ ekKartHtml govdeye yalniz ' → ' basiyor, baslik govdede de yok. Ayni durumda 213 sebep-sonuc kartindan 52'si. YAPILACAK: sebep/so"
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Kragujevac/Cacak/Belgrad/Turnu Severin'in 1739'a kadar Avusturya'da olmasi dogru (TDV semendire). Semendire ile ana govde arasinda yalniz Yagodina kaliyor; Sik A (Yagodina 1738-08-01, gun Semendire'den) karar bekliyor, uygulanmadi ⇒ Semendire eksklavi 1738-08→1739-09 (13,5 ay) suruyor. KARAR-KUYRUGU-0930'da yok, kuyruga alinmali."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "1736-37 Rus oklari INDI (seferler_p0064.js 6 kayit). Stavucani YAPILMADI: savaslar.js:964 rus-munih-hotin-yas-1739 ilk noktasi [25.683,48.508] Hotin'e 59 km uzak yanlis Stavcani; dogru nokta [26.403,48.390] yazilmadi; yerlesim noktasi yok (72 dosyada 0). YAPILACAK: ilk noktayi duzelt + Stavucani noktasi."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Genel kural INDI: sabit liste kalkti, _dVasalMi yerlesimlerin v:kid pencerelerinden okuyor. AMA gerileme: hicbir yerlesimde v:kid 'erdel' yok (0) ⇒ d1606-hm-er ve d1571-hm-er Erdel hatlari artik acik kirmizi degil. YAPILACAK: Erdel yerlesimlerine v:kid erdel."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Alet yapildi (ARAC-EKSKLAV-0917.py, iki yonde sinandi, 6 vakaya uygulandi) ama KURAL yazilmadi (CLAUDE.md ve dersler/'de 0), alet denetle.py/yayin kapisina bagli degil; B4 (Semendire-Yagodina) uygulanmadi. YAPILACAK: kurali ders yaz, aleti denetime bagla."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Dubrovnik'teki sari nokta: UI-HARITA 'Esri altlik simgesi' dedi, lejant eklenmedi. Dubrovnik atlas verisinde ve koridor_owtrad.js'te dugum ⇒ aday koridor-dugum-daire katmani (app.js:6234). queryRenderedFeatures ile tarayicida olculmeli."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "Kostaynice/Novi halkasi: UI-HARITA 'Kostaynice data'da yok, Esri altlik' dedi — bugun YANLIS (yerlesimler_ek29.js'te var). 5 kaynakli_halka dosyasinda bu adlar 0; 'Kaynakli sahiplik' lejant satiri yalniz ayar 8 acikken. Hangi katman oldugu tarayicida olculmeli. H-0003'un halka alt sorusuyla ayni."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kismen: 3 km icinde tam boy savas isareti varsa kucuk ikon basilmiyor; yanip sonen hale once vardi. YAPILMAYAN: genel cakisma onleme/dagitma + simge alti etiket. Musul'da hala iki ok (savaslar.js:599/602 + p0064-nadir-musul-1743), hangisi kalacak karari verilmedi."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Nadir'in Kerkuk→Erbil→Musul oku canli (TDV 5 Ekim 1743). Eksik: (1) eski savaslar.js:599/602 mukerrer kaynaksiz istasyonlar duruyor · (2) p0064 kayitlarinda devlet: 0 ⇒ sabit #0d7d8a, Iran rengi (koyu ton kurali) uygulanmiyor · (3) genel kural."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "dunya6-vehhabiler-kimdir-ve-arabistan-sinirlari icerik tam ama yalniz 1818-09-09 Dir'iye'ye bagli; sorunun soruldugu 1744-01-01 Dir'iye Ittifaki maddesine bag yok (72 dosyada 1744-01-01 bagi 0, EKOBAG_ONERI'de yok). YAPILACAK: olay'a '1744-01-01|Dir'iye' ekle."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Soruyu cevaplayan sentez karti camitarz-bes-donem ('Bes Uslup Donemi') olay:[] ile duruyor ⇒ HICBIR maddede gorunmez (EKOBAG_ONERI'de de yok). YAPILACAK: 1749-01-19 Nuruosmaniye maddesine (olaylar_ek14.js:52) bagla."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0064",
+   "madde": "?",
+   "hukum": "senin-kararin",
+   "not": "Arastirma yapildi: Dest-i Kipcak/Yedisan/Camboyluk/Yedickul atlasla uyumlu; Soci/Tuapse/Maykop Cerkez duzeltmesi INDI (2336d246, Kosu 18 atasi). Iki karar acik: Kabartay H-4 ((a) 1774'e dokunma / (b) fiili 1822) ve Ozi iadesi H-3. Ikisi KARAR-KUYRUGU-0930'da yok."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "D-KATMAN yalniz teshis yapti, kod degismedi; kaynagi app.js isgal taramasi diye TAHMIN edip ISGAL-TARAMA'ya devir onerdi, devrin cevabi bulunamadi. 1769-09-19 Hotin isgali ISGALLER'de #8e0b22 tasiyor, pembe degil ⇒ teshis bu kayitla uyusmuyor. Hangi katmanin cizdigi ancak tarayicida olculur."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "onay-bekliyor",
+   "not": "INDI: lehistan-1-paylasim-1772 uc payi (Habsburg/Rusya/Prusya) ayri dolgu+etiketle gosteriyor, kronoloji_lehistan.js:455 maddesiyle eslesiyor. AMA geometri kaba dikdortgen; Rusya/Prusya kutulari 1772+1793+1795 TOPLAMINI kapsiyor ⇒ 1772 Rus payi cok buyuk. Kabul ya da gercek 1772 sinirina yenileme karari Emre'de."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Kismen: Baron de Tott 1437 karakter; KISI-KART 44 kisiyi genisletti (4d809287). Ama Emre 'tum kisi kartlarini gez' dedi: 287 kaydin 221'i hala <150 karakter. YAPILACAK: kalan zayif kartlara kaynakli anlati. Ikizi 0053/H-0014 (ayni genel sikayet)."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "EKO-ANTLASMA bu maddeyi teslim etmedi (tahtada yalniz H-0015 teslimi M-4523). 'skandal' gecen Kaynarca karti 0 (ekokuma*.js); mevcut tartisma-kucuk-kaynarca-rivayetleri ve karsi-kaynarca-1774 sikayetten once. YAPILACAK: 'Kucuk Kaynarca bir diplomatik skandal miydi' tartisma karti."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "iltizam-malikane-esham-zinciri hala ciplak '1774-07-21' bagi tasiyor ⇒ o gunun butun maddelerine (Kucuk Kaynarca dahil) tutuyor; ekokuma_bag_oneri.js'te gecersiz kilma yok. YAPILACAK: bagi cikarmak ya da ayirt edici eklemek."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "olculecek",
+   "not": "app.js yorumu 'DUZELTILDI (DALGA-0066 H-0011)' diyor ama tek degisiklik isgal-dolgu opakligi 0.8→0.85 (2336d246); yorumdaki 'K buyutuluyor' INMEDI (isgalDesenleriKur K hala 8). Bolgenin kimligi ve saydamligin azalip azalmadigi ancak tarayicida olculur."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Soru cevaplandi (Kaynarca md.21 Kabartay'i Rusya'ya birakiyor ⇒ 1774 yesili dogru). KK-1 (1427 Yinal) + KK-3 (1763 Mozdok) INDI; KK-2 (1563 Terek Kalesi) bulunamadi. Y-1 INMEDI: Nalcik kaydi altinorda→kabartay kirilmasini hala 1441'de yapiyor, 1427 maddesiyle celisiyor. YAPILACAK: Y-1 (a/b) karari + KK-2."
+  },
+  {
+   "kaynak": "KAPAT-ORTA-0930",
+   "parti": "parti-emrelic-0066",
+   "madde": "?",
+   "hukum": "sirada",
+   "not": "Arastirma karti INDI (tartisma-korfez-basra-abadan-fav-sahiplik, 7 bag). Harita duzeltmesi INMEDI: YAMA-BASRA-0917 Y1-Y6 (Basra 1696-1701 Iran · Fav/Kurne 1914 · Abadan · Kuveyt) canlida yok (Basra kayitlarinda '1696' 0); K1-K4 kronoloji onerileri yok. YAPILACAK: YAMA-BASRA karari ve indirilmesi (sonra kosu)."
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+TESLİM · ② KRONOLOJİ · ONCE1281-IRAN-TURKISTAN
+① ÖLÇTÜM: data/kronoloji_cok_once1281_iran.js → window.KRONOLOJI_COK_ONCE1281_IRAN — 181 madde, hepsi taraflar[]lı.
+  KAPILAR: node --check ✓ · taraf kimliği 289 (devletler.js 68 + yalnız önerimde 221) · EŞLENEMEYEN 0 · küresel ad başka dosyada 0 (evren 549 data/*.js) · t biçimi dışı 0/181 · kuşak dışı 0/181 · alıntı sınavı: her maddenin dayandığı TDV cümlesi önbellekte birebir, bulunamayan 0.
+  MÜKERRER: künye-içi + gruplar arası + yüklü 8261 dış madde tarandı; 11 uyarı → 6 red (RED.json) · 5 elle kabul (ELLE.json, gerekçeli). 1206 kurultay / 1260 bölünme / 1256 Alamut künye-içinde var diye DÜŞTÜ.
+  ilhanli: +9 madde (1256-1281; Bağdat/Aynicâlût/Hülâgû ölümü kronoloji_iran_ardillari.js'te zaten var, tekrarlanmadı).
+② BULAMADIM: yezd-atabegligi · kerayit · nayman · koco-uygur toplam 2 madde (<3) — TDV başka tarihli olay vermiyor. Kalka günü · Mohi 1241 · Batu'nun ölüm yılı yok.
+③ İSTİYORUM / DİKKAT: (a) yeni künyeler girmeden 221 bağ görünmez; (b) >15 olanlar (buyuk-selcuklu 38, mogol 29, gazneli 23, harizmsah 20) çok taraflı sayımdan — birincil ≤15; (c) ilhanli künye-içi Bağdat 13 Şubat → TDV hulagu 10 Şubat 1258 düzeltme adayı; (d) Aynüseylem 1086 selcuklu'ya da bağlı — KRONOLOJI_ANADOLU ileride selcuklu'ya bağlanırsa çift; (e) bavendi/buveyhi pencere boşlukları + gurlu/harizmsah/kakuyi tâbi dönemleri raporda §5-6.
+DOSYALAR: data/kronoloji_cok_once1281_iran.js · denetim/ONCE1281-IRAN-{KUNYE,RED,ELLE,PARCA-A..D}.json · denetim/ONCE1281-IRAN-TURKISTAN-0930.md · denetim/ARAC-ONCE1281-IRAN-{TDV.py,BIRLESTIR.js,KAPI.js,YIL.js} · denetim/ONCE1281-IRAN-tdv-onbellek/ · index.html'e dokunmadım, commit yok.
+bekçimi öldüreyim mi?

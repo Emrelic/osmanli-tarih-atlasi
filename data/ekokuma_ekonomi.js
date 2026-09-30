@@ -82,7 +82,7 @@ window.EKOKUMA_EKONOMI = [
   metin:"Tağşiş, sikkenin değerli maden (gümüş) oranını düşürüp aynı ağırlıkta daha fazla para basmaktır — devlete kısa vadede ek gelir sağlar ama halkın elindeki paranın alım gücünü eritir. 1585'te akçenin gümüş oranı keskin biçimde düşürüldü; ulûfesini (maaşını) akçeyle alan kapıkulu askeri bunu neredeyse anında hissetti, çünkü esnaf yeni akçeyle eski fiyattan mal satmayı reddediyordu. Sonuç zincirlemeydi: fiyatlar yükseldi (16. yüzyılın 'fiyat devrimi'), taşrada tımarlı sipahi düzeni geçim sıkıntısına girdi ve bu ortam Anadolu'daki asker kaçkını/eşkıya hareketlerini (Celâlî kargaşası) besleyen zeminlerden biri oldu — ama Celâlî isyanlarının İLK dalgası (1519, Şeyh Celâl ayaklanması) tağşişten önceye gittiği için, tağşişin etkisi 1590'lardan sonraki İKİNCİ ve daha büyük Celâlî dalgasıyla ilişkilendirilir, ilk dalgayla değil. 1589'da patlayan Beylerbeyi Vak'ası bu krizin İstanbul'a taşan yüzüydü: ulûfesi değersizleşen kapıkulu sarayı kuşattı, hesap sorulan isim şeyhülislam oldu.",
   kesinlik:"tartismali",
   zincir:["iltizam-malikane-esham-zinciri"],
-  olay:["1578-08-09","1585-01-01|tağşiş","1589-06-01","1599-01-01|Karayazıcı"],
+  olay:["1578-08-09|Çıldır","1585-01-01|tağşiş","1589-06-01","1599-01-01|Karayazıcı"],
   kaynak:"TDV: akce · abdulkadir-seyhi-efendi", ic_not_kaynak:"eski kaynak: TDV: akce · abdulkadir-seyhi-efendi · atlasın 1585-01-01 kaydının kendi metni (kaynak: akce) — Amerikan gümüşü bağlantısı ikinci bir TDV sayfasıyla ayrıca doğrulanmadı" },
 
 { id:"iltizam-malikane-esham-zinciri", tur:"sebep-sonuc",
@@ -93,7 +93,12 @@ window.EKOKUMA_EKONOMI = [
   metin:"Üç sistem de aynı sorunu — devletin sürekli büyüyen mali ihtiyacını, doğrudan vergi toplama kapasitesi olmadan karşılamak — farklı biçimde çözmeye çalıştı. İltizamda kısalık (bir-üç yıl) mültezimi sömürüye itiyordu; mâlikâne ömür boyu sabit vergiyle bunu yumuşattı ama yalnız askerî zümreye açıktı, bu da talebi sınırlıyordu; esham mâlikâne hakkını hisselere bölüp -teoride- herkese satılabilir hâle getirerek talebi genişletti. Ama esham da kendi krizini doğurdu: TDV'nin Esham maddesine göre sistem hızla büyüdü (yıllık faiz ödemesi on yılda 400.000 kuruştan 2 milyon kuruşa çıktı) ve 1780'lerde maliyeciler hesap yaptığında, ölen sehim sahiplerinin yeniden satılan paylarından gelen gelirin ödenen yıllık faizin ancak küçük bir bölümünü karşıladığı görüldü; hazine artan faiz yükü altına girdi ve 1792'den itibaren yeni satışlar durduruldu. Mâlikâne satışlarının kendisi de 1840'larda tamamen sona erdi. Üçü birden Osmanlı mâliyesinin 17-18. yüzyılda 'gelirini artırmak için giderek daha karmaşık finansal araçlar icat etme, her aracın kendi krizini doğurması' döngüsünü gösterir.",
   kesinlik:"kesin",
   zincir:["1585-tagsis-fiyat-devrimi"],
-  olay:["1650-01-01|İltizam","1695-01-01|Malikâne","1774-07-21","1775-06-01|Esham"],  // PAKET-A2 13 Eyl: 1650-01-01'de 6, 1775-06-01'de 2 madde vardı (Maskat, Kathakali, Ebu'z-Zeheb…)
+  // UYGULA-KART-0930 (0066/H-0010): çıplak "1774-07-21" bağı ÇIKARILDI — o günün
+  // tek çekirdek maddesi Küçük Kaynarca Antlaşması (olaylar.js:138) ve kart orada
+  // şikâyet konusuydu (antlaşma maddesinde vergi zinciri kartı). Kaynarca'nın
+  // tazminat yüküyle bağ esham maddesinde (1775-06-01) kurulu; ayırt edici
+  // eklemek aynı maddeye tutacağı için çare değildi.
+  olay:["1650-01-01|İltizam","1695-01-01|Malikâne","1775-06-01|Esham"],  // PAKET-A2 13 Eyl: 1650-01-01'de 6, 1775-06-01'de 2 madde vardı (Maskat, Kathakali, Ebu'z-Zeheb…)
   kaynak:"TDV: malikane · esham" },
 
 { id:"balta-limani-mehmed-ali-ticaret-acilimi", tur:"sebep-sonuc",
@@ -127,6 +132,32 @@ window.EKOKUMA_EKONOMI = [
   kesinlik:"tartismali",
   zincir:["balta-limani-mehmed-ali-ticaret-acilimi"],
   olay:["1352-01-01|kapitülasyon","1536-02-18","1580-01-01|İngiltere","1612-07-06","1740-05-30","1838-08-16","1914-09-09","1923-07-24"],  // PAKET-A2 13 Eyl: 1352-01-01'de Çimpe ve Kirman maddeleri de vardı
-  kaynak:"TDV: fransa · kapitulasyon · ahidname · baltalimani-muahedesi", ic_not_kaynak:"eski kaynak: TDV: fransa · kapitulasyon (kısa tanım sayfası, tam madde çekilemedi) · ahidname · baltalimani-muahedesi · atlasın 1536-02-18 ve 1740-05-30 kayıtlarının kendi metni" }
+  kaynak:"TDV: fransa · kapitulasyon · ahidname · baltalimani-muahedesi", ic_not_kaynak:"eski kaynak: TDV: fransa · kapitulasyon (kısa tanım sayfası, tam madde çekilemedi) · ahidname · baltalimani-muahedesi · atlasın 1536-02-18 ve 1740-05-30 kayıtlarının kendi metni" },
+
+// ── UYGULA-KART-0930 · 0082/H-0099 — Tashîh-i sikke, mecidiye ve çift metal düzeni ──
+// Emre: "çift metal sistemi nedir, mecidiye sistemi nedir, önemi nedir? Ek okuma yapalım."
+// Omurga OSMANLI-IC-0082'nin taslağından (denetim/OSMANLI-IC-0082-CEVAP.md §H-0099); TDV
+// kurus (Şevket Pamuk) ve mecidiye (DİA) gövdeleri bu oturumda YENİDEN okundu, alıntılar
+// tutuyor. Metin kopyalanmadı, yeniden yazıldı. Mükerrer taraması: havuzda "Tashih" 0,
+// "mecidiye" geçen 7 kartın hiçbiri para konusu değil (OSMANLI-IC-0082 ölçümü).
+{ id:"teknik-tashih-i-sikke-mecidiye-cift-metal", tur:"teknik-bilimsel",
+  baslik:"Mecidiye ve çift metal düzeni — 1844'te para neden yeniden kuruldu, niçin yetmiş yıl dayandı?",
+  kisa:"Bir kuruşun içindeki gümüş 1720'de 14,5 gramdı, 1844'te 1 grama inmişti. Tashîh-i sikke bu kaymayı durdurdu: gümüş kuruşu ve altın lirayı sabit bir orana bağladı — ve bu standart 1914'e kadar değişmedi.",
+  metin:"■ SORUN: AYARI BOZULMUŞ PARA\n"
+    +"Osmanlı kuruşu bir asırdan uzun süre boyunca sürekli değer kaybetmişti. Şevket Pamuk'un TDV'deki hesabına göre bir kuruştaki saf gümüş 1720'de 14,5 gram iken 1824'te 2,4 grama, 1844'te 1 grama düştü. Aynı dönemde, 1760'ların ortasından 1844'e kadar, İstanbul'da gıda fiyatları on-on beş kat arttı; en hızlı artış 1808-1840 arasındaydı. Piyasada farklı türde ve bir kısmı ayarı bozuk (mağşûş) çok sayıda sikke dolaşıyordu.\n\n"
+    +"■ KARAR VE UYGULAMA: DÖRT YIL SÜREN BİR DEĞİŞİM\n"
+    +"Yeni para düzeni 26 Safer 1256 (29 Nisan 1840) tarihli fermanla başlatıldı; darphâne için gerekli aletler Londra'dan sipariş edildi. Eski paralar 25 Cemâziyelâhir 1259'da (23 Temmuz 1843) kesin olarak tedavülden kaldırıldı. İlk mecidiye 22 Nisan 1844'te, yarım mecidiye 18 Mayıs, çeyrek mecidiye 19 Mayıs 1844'te basıldı. Pamuk işlemi '1844 tarihli tashîh-i sikke' diye adlandırır.\n\n"
+    +"■ ÇİFT METAL (BİMETALİZM) NEDİR?\n"
+    +"Hem altının hem gümüşün tam değerli para olarak dolaşması ve ikisi arasındaki oranın devletçe SABİTLENMESİ. 1844 standardında 1 kuruş 1 gram saf gümüş, 1 altın lira 6,6 gram saf altın içeriyordu ve 100 gümüş kuruş 1 altın liraya eşitti. Buradan çıkan oran: 100 / 6,6 = 15,1 — yani 1 gram altın 15,1 gram gümüş ediyordu. Pamuk'un ifadesiyle Osmanlı Devleti böylece 'sabit kurla belirlenmiş çift metalli para düzenine' geçmiş oldu.\n\n"
+    +"■ MECİDİYE NEDİR?\n"
+    +"Abdülmecid adına basılan yeni sikkelerin adı. TDV'ye göre bu ad özellikle 20 kuruşluk GÜMÜŞ sikke için genelleşti; altın mecidiyeler de basıldı. Abdülmecid'in ölümüne kadar 15.312.329 altın ve 54.987.960 gümüş mecidiye darbedildi.\n\n"
+    +"■ ÖNEMİ: KALICILIK\n"
+    +"Pamuk'a göre reformun asıl önemi, benimsenen sikke standartlarının öncekilerin aksine kalıcı olması ve 1914'e kadar korunabilmesidir: altı Osmanlı padişahı aynı standartla para bastırdı. Bir asırlık tağşîş (ayar düşürme) döneminden sonra bu, paranın değerini yeniden sabitleyen ilk kalıcı düzenlemeydi.\n\n"
+    +"■ SONU: GÜMÜŞÜN DÜŞÜŞÜ\n"
+    +"Çift metal düzeni sabit orana dayanıyordu; 1870'lerde dünyada gümüş bollaşıp değeri düşünce bu oran tutmaz oldu. Osmanlı Devleti de 1879'da çift maden düzenini kaldırmaya yöneldi.",
+  kesinlik:"kesin",
+  olay:["1844-01-01|Tashîh-i sikke"],
+  kaynak:"TDV: kurus (Şevket Pamuk — gümüş içeriği 1720/1824/1844, fiyatlar, 1844 standardı, 15,1 paritesi, 1914'e kadar kalıcılık, 1879) · mecidiye (DİA — mağşûş sikkeler, 29 Nisan 1840 fermanı, Londra aletleri, 23 Temmuz 1843, 22 Nisan / 18-19 Mayıs 1844, basım adetleri) — ikisi 30 Eylül 2026'da okundu",
+  ic_not:"Kronoloji maddesi (olaylar_ek2.js:21) d: 'altın lira (Mecidiye) esaslı' der; TDV mecidiye'ye göre ad asıl 20 kuruşluk GÜMÜŞ sikkede genelleşti — madde metni UYGULA-OLAYLAR/koordinatöre bildirildi, bu kart ona dokunmadı. Madde günü 1844-01-01 (yıl) Pamuk'un '1844 tarihli'siyle uyumlu; ilk mecidiyenin darbı 22 Nisan 1844 (DİA)." }
 
 ];

@@ -1,0 +1,235 @@
+{
+ "kaynak": "denetim\\ONCE1281-AVRUPA-KUNYE.json",
+ "okunan": 51,
+ "kabul": [
+  {
+   "id": "vladimir-suzdal",
+   "islem": "yeni",
+   "f": "1157-01-01",
+   "t": "1281-01-01"
+  }
+ ],
+ "red": [
+  {
+   "id": "endulus-emevi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "endulus-tavaif",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "leon-kralligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "kastilya",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "aragon",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "barselona-kontlugu",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "portekiz",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "ingiltere",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "irlanda",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "normandiya",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "flandre",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "toulouse",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "arles-kralligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "gwynedd",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "sicilya-emirligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "apulya-dukaligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "sicilya-kralligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "milano-dukaligi",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "avusturya-dukaligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "bohemya",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "polonya-erken",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "danimarka",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "norvec-kralligi",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "isvec-birlik-oncesi",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "izlanda-serbest-devleti",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "teuton-devleti",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "livonya-tarikati",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "litvanya-buyuk-dukalik",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "kiev-rusu",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "galicya-volhinya",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "birinci-bulgar",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "sirbistan-nemanjic",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "duklja",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "bosna-kralligi",
+   "islem": "genislet",
+   "sebep": "① genislet: ne f ne t verilmiş"
+  },
+  {
+   "id": "hirvatistan-kralligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  }
+ ],
+ "dokunmadim": [
+  "navarra",
+  "granada",
+  "mayorka",
+  "fransa",
+  "iskocya",
+  "bretanya",
+  "burgonya",
+  "almanya",
+  "macaristan",
+  "idil-bulgar",
+  "bulgar-carligi",
+  "dubrovnik",
+  "novgorod",
+  "ryazan",
+  "tver"
+ ],
+ "boya_gerekli": [
+  {
+   "id": "mayorka",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  },
+  {
+   "id": "vladimir-suzdal",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "idil-bulgar",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  },
+  {
+   "id": "dubrovnik",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  }
+ ],
+ "uyari": [
+  "idil-bulgar (dokunmadim) notu veriye taşınmadı: Çelişki bildirimi: TDV (iki madde) 1236 der; EU 'Tatars' 'Batu subdued the Volga Bulgars in 1237–8' der. TDV birincil → 1236 korunmalı; EU farkı ic_not_t'ye ekl"
+ ],
+ "kunye": [
+  862,
+  863
+ ]
+}

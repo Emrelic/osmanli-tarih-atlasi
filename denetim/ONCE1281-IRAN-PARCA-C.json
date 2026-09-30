@@ -1,0 +1,2042 @@
+{
+ "grup": "C",
+ "kunyeler": [
+  {
+   "id": "buveyhi",
+   "ad": "Büveyhîler",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "932-01-01",
+   "t": "1062-01-01",
+   "baskent": "Şîraz (Fars) · Rey / İsfahan / Hemedan (Cibâl) · Bağdat (Irak kolu)",
+   "ozet": "Deylem asıllı Şiî hânedan; Fars, Kirman, Cibâl ve Irak'ta dört kol hâlinde hüküm sürdü, 945'ten 1055'e kadar Bağdat'ta Abbâsî halifeliğini denetledi.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti_slug": "buveyhiler",
+   "ic_not_f": "TDV başlık '932-1062'; Ali'nin İsfahan'ı işgali (932). Gün yok.",
+   "ic_not_t": "Kavurd'un Şîraz'a girişi Temmuz 1062 (gün yok) → 1062-01-01. Fars'ta fiilî Büveyhî hâkimiyeti 1056'da Fazlûye ile bitti; 1056-1062 Şebânkâre (künyesiz). Kirman kolu 1048, Cibâl-Rey 1029, Hemedan-İsfahan 1028, Irak 1055'te düştü — koordinatör pencereleri kol kol kesmeli.",
+   "alinti_f": "İsfahan’ı işgal etti (932). Fakat Merdâvîc müttefiklerinin yardımıyla onu bölgeden uzaklaştırdı. Ali daha sonra Fars’ı ele geçirdi",
+   "alinti_t": "Melik Kavurd ise Fazlûye’yi mağlûp ederek Şîraz’a girdi ve hutbeyi Sultan Tuğrul Bey adına okuttu (Temmuz 1062).",
+   "kronoloji": [
+    {
+     "t": "932-01-01",
+     "tur": "kurulus",
+     "b": "Büveyhî Ali İsfahan'ı işgal etti; hânedan İran'ın batısında hâkimiyet kurmaya başladı",
+     "kaynak": "buveyhiler"
+    },
+    {
+     "t": "1055-12-18",
+     "tur": "toprak-kayip",
+     "b": "Tuğrul Bey Bağdat'a girdi; Irak'taki 110 yıllık Büveyhî hâkimiyeti sona erdi",
+     "kaynak": "annaziler"
+    },
+    {
+     "t": "1062-01-01",
+     "tur": "yikilis",
+     "b": "Kavurd Şîraz'a girdi; Büveyhî toprakları tümüyle Selçuklu hâkimiyetine geçti",
+     "kaynak": "buveyhiler"
+    }
+   ]
+  },
+  {
+   "id": "ziyari",
+   "ad": "Ziyârîler",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "928-01-01",
+   "t": "1090-01-01",
+   "baskent": "Cürcân (Gürgân) · Esterâbâd",
+   "ozet": "Gîlânlı Merdâvîc b. Ziyâr'ın Taberistan ve Cürcân'da kurduğu Sünnî Deylemli hânedan; XI. yüzyılda Gazneli, sonra Selçuklu tâbiiyetinde yaşadı.",
+   "kaynak": "TDV: ziyariler (ZİYÂRÎLER)",
+   "alinti_slug": "ziyariler",
+   "ic_not_f": "316/928; TDV '319 veya 320 (932)' görüşünü de anar — ilk görüş alındı.",
+   "ic_not_t": "'483 (1090) yılı civarında' — civarında; yıl yaklaşık. 1041-42'den sonra Selçuklu tâbii (v: adayı).",
+   "alinti_f": "Merdâvîc bağımsızlığını ilân ederek merkezi Cürcân (Gürgân) olan Ziyârîler hânedanını kurdu (316/928).",
+   "alinti_t": "483 (1090) yılı civarında Hasan Sabbâh’ın liderliğindeki Nizârî-İsmâilîler, Ziyârîler hânedanına son verdiler.",
+   "kronoloji": [
+    {
+     "t": "928-01-01",
+     "tur": "kurulus",
+     "b": "Merdâvîc Cürcân merkezli Ziyârî hânedanını kurdu",
+     "kaynak": "ziyariler"
+    },
+    {
+     "t": "1041-01-01",
+     "tur": "tabiiyet",
+     "b": "Tuğrul Bey Cürcân'ı aldı; Ziyârîler Selçuklulara tâbi oldu",
+     "kaynak": "ziyariler"
+    },
+    {
+     "t": "1090-01-01",
+     "tur": "yikilis",
+     "b": "Nizârî-İsmâilîler Ziyârî hânedanına son verdi (yıl yaklaşık)",
+     "kaynak": "ziyariler"
+    }
+   ]
+  },
+  {
+   "id": "kakuyi",
+   "ad": "Kâkûyîler (Kâkeveyhîler)",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "1007-01-01",
+   "t": "1141-01-01",
+   "baskent": "İsfahan (1051'e dek) · Yezd (1051-1141)",
+   "ozet": "Büveyhîlerle akraba Deylemli hânedan; İsfahan ve Hemedan'da hüküm sürdü, 1051'de İsfahan'ı Selçuklulara bırakıp Yezd'de Selçuklu tâbii olarak devam etti.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER) · TDV: yezd (YEZD)",
+   "alinti_slug": "kakuyiler",
+   "ic_not_f": "TDV: temeller '398'den (1007) önceki bir tarihte' atıldı — 1007 terminus ante quem, gerçek kuruluş daha erken olabilir. Yıl bilinmiyor; koordinatör 1007'yi tutup tutmamaya karar versin.",
+   "ic_not_t": "Cibâl hâkimiyeti Muharrem 443 (Mayıs-Haziran 1051) sona erdi; Yezd kolu Selçuklu tâbii olarak Katvân savaşına (536/1141) kadar sürdü, yerine Yezd Atabegleri geçti. 1051-1141 arası v: (Selçuklu tâbii) olarak çizilmeli. ÇELİŞKİ: kakuyiler Katvân'da ölenin Ferâmurz b. Ali, yezd maddesi Gerşâsb olduğunu söyler.",
+   "alinti_f": "Bundan dolayı Kâkûyî hânedanının temelleri, Alâüddevle’nin 398’den (1007) önceki bir tarihte Seyyide tarafından İsfahan’a vali olarak tayin edilmesiyle atılmıştır.",
+   "alinti_t": "Selçuklular’la Karahıtaylar arasında cereyan eden Katvân savaşında öldürülmüş, erkek çocuğu olmadığı için Sultan Sencer Yezd’i onun iki kızına iktâ ederek kumandanlarından birini bu kızlara atabeg tayin etmiştir.",
+   "kronoloji": [
+    {
+     "t": "1007-01-01",
+     "tur": "kurulus",
+     "b": "Alâüddevle Muhammed İsfahan'a vali tayin edildi; Kâkûyî hânedanının temeli atıldı (1007'den önce)",
+     "kaynak": "kakuyiler"
+    },
+    {
+     "t": "1051-01-01",
+     "tur": "toprak-kayip",
+     "b": "Ferâmurz bir yıllık kuşatmadan sonra İsfahan'ı Selçuklulara teslim etti; Cibâl hâkimiyeti bitti, Yezd iktâ olarak kaldı",
+     "kaynak": "kakuyiler"
+    },
+    {
+     "t": "1141-01-01",
+     "tur": "yikilis",
+     "b": "Son Kâkûyî Katvân savaşında öldü; Yezd'de yerlerini Yezd Atabegleri aldı",
+     "kaynak": "kakuyiler"
+    }
+   ]
+  },
+  {
+   "id": "revvadi",
+   "ad": "Revvâdîler",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "979-01-01",
+   "t": "1071-01-01",
+   "baskent": "Tebriz",
+   "ozet": "Ezd asıllı, zamanla Kürtleşmiş hânedan; Müsâfirîlerden sonra Tebriz merkezli Azerbaycan'a hâkim oldu, 1054'ten itibaren Selçuklulara tâbi.",
+   "kaynak": "TDV: revvadiler (REVVÂDÎLER)",
+   "alinti_slug": "revvadiler",
+   "ic_not_f": "Bağımsızlık 'muhtemelen 368 veya 369’da (979 veya 980)' — ilk yıl alındı. Tebriz'e hâkimiyet 956 (Müsâfirî tâbiiyeti altında).",
+   "ic_not_t": "'Malazgirt Savaşı’ndan (463/1071) sonra' Tebriz hâkimiyetine son verildiği kaydedilir — 1071 terminus post quem, gerçek bitiş sonrası olabilir; kesin yıl yok. 1054/1062'den sonra Selçuklu tâbii.",
+   "alinti_f": "muhtemelen 368 veya 369’da (979 veya 980) bağımsızlığını kazanmıştır.",
+   "alinti_t": "Malazgirt Savaşı’ndan (463/1071) sonra Ebû Nasr Memlân’ın Tebriz hâkimiyetine son verildiği kaydedilmekte, Revvâdîler’in bu tarihten sonraki durumları hakkında bilgi bulunmamaktadır.",
+   "kronoloji": [
+    {
+     "t": "979-01-01",
+     "tur": "kurulus",
+     "b": "Tebriz hâkimi Ebü'l-Heycâ Hüseyin Müsâfirîlerden bağımsızlığını kazandı (979 veya 980)",
+     "kaynak": "revvadiler"
+    },
+    {
+     "t": "1062-01-01",
+     "tur": "tabiiyet",
+     "b": "Tuğrul Bey Azerbaycan'a döndü ve Revvâdîleri itaat altına aldı",
+     "kaynak": "revvadiler"
+    },
+    {
+     "t": "1071-01-01",
+     "tur": "yikilis",
+     "b": "Malazgirt'ten sonra Ebû Nasr Memlân'ın Tebriz hâkimiyetine son verildi",
+     "kaynak": "revvadiler"
+    }
+   ]
+  },
+  {
+   "id": "bavendi",
+   "ad": "Bâvendîler",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "665-01-01",
+   "t": "1349-04-17",
+   "baskent": "Firîm / Şehriyârkûh (Keyûsiyye) · Sârî (İspehbediyye) · Âmül (Kinhâriyye)",
+   "ozet": "Sâsânî soylu olduğunu iddia eden Taberistan (Mâzenderan) hânedanı; birbirini kesintili izleyen üç kol hâlinde hüküm sürdü.",
+   "kaynak": "TDV: bavendiler (BÂVENDÎLER)",
+   "alinti_slug": "bavendiler",
+   "ic_not_f": "Hükümdar listesi: Bâv b. Şâpûr 45 (665).",
+   "ic_not_t": "Fahrüddevle Hasan'ın öldürülmesi 27 Muharrem 750 / 17 Nisan 1349. ⚠️ 1000-1281 KUŞAĞINDA KOLLAR KESİNTİLİ: Keyûsiyye III. Rüstem ölümüyle (Ağustos 1028) gücünü kaybetti (bir rivayete göre dağlarda Selçuklu istilâsına dek sürdü — tarih yok); İspehbediyye 466/1074 – Nisan 1210; Kinhâriyye 635/1238 – 1349. Boşluklar 1028-1074 ve 1210-1238. Öneri: tek künye + 'kollar' pencereleri; boşluk yıllarında Taberistan Selçuklu/Harizmşah boyasına düşmeli.",
+   "kollar": [
+    {
+     "kol": "Keyûsiyye",
+     "f": "665-01-01",
+     "t": "1028-01-01",
+     "not": "III. Rüstem 396-419 (1006-1028); ölümü Receb 419 / Ağustos 1028 (gün yok)"
+    },
+    {
+     "kol": "İspehbediyye",
+     "f": "1074-01-01",
+     "t": "1210-01-01",
+     "not": "Hüsâmüddevle Şehriyâr 466 (1074); II. Şah Gazi öldürüldü Şevval 606 / Nisan 1210"
+    },
+    {
+     "kol": "Kinhâriyye",
+     "f": "1238-01-01",
+     "t": "1349-04-17",
+     "not": "Hüsâmüddevle Erdeşîr b. Kinhâr 635 (1238)"
+    }
+   ],
+   "alinti_f": "BÂVENDÎ HÜKÜMDARLARI 1. KEYÛSİYYE Bâv b. Şâpûr 45 (665) Valaş, fetret devri 60 (680)",
+   "alinti_t": "Âmül âlimleri ve fakihlerinden aldıkları fetva ile Fahrüddevle Hasan’ı öldürdüler (27 Muharrem 750 / 17 Nisan 1349). Böylece Bâvendîler hânedanı sona ermiş oldu.",
+   "kronoloji": [
+    {
+     "t": "665-01-01",
+     "tur": "kurulus",
+     "b": "Bâv b. Şâpûr Taberistan halkınca hükümdar seçildi; Bâvendî hânedanı kuruldu",
+     "kaynak": "bavendiler"
+    },
+    {
+     "t": "1028-01-01",
+     "tur": "hanedan",
+     "b": "III. Rüstem'in ölümüyle Keyûsiyye kolu gücünü kaybetti",
+     "kaynak": "bavendiler"
+    },
+    {
+     "t": "1074-01-01",
+     "tur": "hanedan",
+     "b": "Hüsâmüddevle Şehriyâr b. Kārin ile Sârî merkezli İspehbediyye kolu başladı",
+     "kaynak": "bavendiler"
+    },
+    {
+     "t": "1210-01-01",
+     "tur": "hanedan",
+     "b": "II. Şah Gazi Rüstem öldürüldü; Mâzenderan Harizmşahlara bağlandı, İspehbediyye kolu sona erdi",
+     "kaynak": "bavendiler"
+    },
+    {
+     "t": "1238-01-01",
+     "tur": "hanedan",
+     "b": "Erdeşîr b. Kinhâr Taberistan'da hükümdar seçildi; Âmül merkezli Kinhâriyye kolu başladı",
+     "kaynak": "bavendiler"
+    }
+   ]
+  },
+  {
+   "id": "salgurlu",
+   "ad": "Salgurlular (Fars Atabegleri)",
+   "islem": "yeni",
+   "tur": "atabeglik",
+   "bolge": "iran",
+   "f": "1148-01-01",
+   "t": "1286-12-29",
+   "baskent": "Şîraz",
+   "ozet": "Oğuzların Salur boyundan Atabeg Sungur'un Fars'ta kurduğu atabeglik; Irak Selçuklu, sonra Harizmşah ve Moğol-İlhanlı tâbiiyetinde yaşadı.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti_slug": "salgurlular",
+   "ic_not_f": "543/1148, gün yok.",
+   "ic_not_t": "Âbiş Hatun'un ölümü 11 Zilkade 685 / 29 Aralık 1286 (kuşak dışı — kronoloji maddesi yazılmadı). 1263-64'ten sonra fiilen Moğol şahneleri yönetti (v:ilhanli adayı).",
+   "alinti_f": "Melikşah’ı yenilgiye uğratıp Şîraz’ı ele geçirerek Salgurlular veya Fars Atabegleri adıyla bilinen hânedanın temellerini attı (543/1148).",
+   "alinti_t": "Âbiş Hatun’un Tebriz yakınlarındaki Çerendâb’da 11 Zilkade 685’te (29 Aralık 1286) ölümüyle Salgurlu hâkimiyeti sona erdi ve bölge tamamen Moğol idaresi altına girdi.",
+   "kronoloji": [
+    {
+     "t": "1148-01-01",
+     "tur": "kurulus",
+     "b": "Atabeg Sungur Selçuklu meliki Melikşah'ı yenip Şîraz'ı aldı; Salgurlu atabegliği kuruldu",
+     "kaynak": "salgurlular"
+    },
+    {
+     "t": "1165-01-01",
+     "tur": "tabiiyet",
+     "b": "Zengî Arslanşah ve İldeniz'e itaat etti; Salgurlular resmen Irak Selçuklularına tâbi oldu",
+     "kaynak": "salgurlular"
+    },
+    {
+     "t": "1226-01-01",
+     "tur": "hanedan",
+     "b": "Sa'd b. Zengî öldü; Ebû Bekir tahta geçip Ögedey Han'a itaatini bildirdi",
+     "kaynak": "salgurlular"
+    }
+   ]
+  },
+  {
+   "id": "ildenizli",
+   "ad": "İldenizliler (Azerbaycan Atabegleri)",
+   "islem": "yeni",
+   "tur": "atabeglik",
+   "bolge": "iran",
+   "f": "1148-01-01",
+   "t": "1225-01-01",
+   "baskent": "Nahcıvan · Tebriz · Hemedan",
+   "ozet": "Şemseddin İldeniz'in kurduğu Azerbaycan atabegliği; Irak Selçuklu sultanlarını fiilen yönetti, Gürcülere karşı İslâm sınırını korudu.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti_slug": "ildenizliler",
+   "ic_not_f": "543/1148 Azerbaycan valiliği; gün yok.",
+   "ic_not_t": "Özbek 622/1225'te öldü; II. Kızılarslan (Hâmûş) Celâleddin onayıyla geçti ama 'hânedan Özbek'in ölümüyle fiilen tarihe karışmıştır'. Celâleddin Tebriz'i 1225'te merkez yaptı (tarih kaynağı: hükümdar listesi 607-622 (1210-1225)).",
+   "alinti_f": "Diğer adı Azerbaycan Atabegleri olan hânedanın temelleri, Şemseddin İldeniz’in 543’te (1148) Azerbaycan valiliğine tayiniyle atılmıştır.",
+   "alinti_t": "Nusretüddin Ebû Bekir 591 (1195) Muzafferüddin Özbek 607-622 (1210-1225)",
+   "kronoloji": [
+    {
+     "t": "1148-01-01",
+     "tur": "kurulus",
+     "b": "Şemseddin İldeniz Azerbaycan valiliğine tayin edildi; İldenizli atabegliğinin temeli atıldı",
+     "kaynak": "ildenizliler"
+    },
+    {
+     "t": "1160-01-01",
+     "tur": "olay",
+     "b": "İldeniz üvey oğlu Arslanşah'ın atabegi oldu; Irak Selçuklu sultanlığını fiilen denetimine aldı",
+     "kaynak": "ildenizliler"
+    },
+    {
+     "t": "1225-01-01",
+     "tur": "yikilis",
+     "b": "Celâleddin Hârizmşah Tebriz'i aldı; Özbek'in ölümüyle hânedan fiilen sona erdi",
+     "kaynak": "ildenizliler"
+    }
+   ]
+  },
+  {
+   "id": "ahmedili",
+   "ad": "Ahmedîlîler (Merâga Atabegleri)",
+   "islem": "yeni",
+   "tur": "atabeglik",
+   "bolge": "iran",
+   "f": "1116-01-01",
+   "t": "1227-01-01",
+   "baskent": "Merâga · (sonra) Revândiz Kalesi",
+   "ozet": "Revvâdî soylu Merâga emîri Ahmedîl'in gulâmlarının kurduğu hânedan; İldenizlilerle rekabet etti, 1208-09'da Merâga'yı onlara kaptırdı.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti_slug": "ahmedililer",
+   "ic_not_f": "Ahmedîl'in öldürülmesi 510/1116, yerine gulâmı Aksungur geçti.",
+   "ic_not_t": "Celâleddin Hârizmşah'ın veziri Revândiz'i 1227'de kuşattı, hânedan sona erdi. Merâga 605/1208-09'dan beri İldenizlilerde — 1209-1227 arası yalnız Revândiz kalesi (harita için pencereyi 1209'da bitirmek düşünülebilir).",
+   "alinti_f": "Ahmedîl, Dımaşk Atabegi Tuğtegin ile beraber Bağdat’ta sultanın sarayında bulunduğu sırada Bâtınî fedaileri tarafından hançerlenerek öldürüldü (510/1116).",
+   "alinti_t": "Celâleddin Hârizmşah’ın veziri Şerefülmülk 1227’de Revândiz’i kuşattığı zaman kalede muhtemelen Alâeddin Körpearslan’ın kız torunlarından biri bulunuyordu",
+   "kronoloji": [
+    {
+     "t": "1116-01-01",
+     "tur": "kurulus",
+     "b": "Merâga emîri Ahmedîl öldürüldü; gulâmı Aksungur yerine geçerek Ahmedîlî hânedanını sürdürdü",
+     "kaynak": "ahmedililer"
+    },
+    {
+     "t": "1208-01-01",
+     "tur": "toprak-kayip",
+     "b": "İldenizli Ebû Bekir Merâga'nın geri kalanını da zaptetti (605/1208-09)",
+     "kaynak": "ahmedililer"
+    },
+    {
+     "t": "1227-01-01",
+     "tur": "yikilis",
+     "b": "Celâleddin Hârizmşah'ın veziri Revândiz'i kuşattı; Ahmedîlî hânedanı sona erdi",
+     "kaynak": "ahmedililer"
+    }
+   ]
+  },
+  {
+   "id": "yezd-atabegligi",
+   "ad": "Yezd Atabegleri",
+   "islem": "yeni",
+   "tur": "atabeglik",
+   "bolge": "iran",
+   "f": "1141-01-01",
+   "t": "1318-01-01",
+   "baskent": "Yezd",
+   "ozet": "Kâkûyîlerin Yezd'deki mirasına Sencer'in atadığı atabeglerle kurulan mahallî hânedan; Moğol ve İlhanlı tâbiiyetinde Muzafferîlere kadar yaşadı.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER) · TDV: yezd (YEZD)",
+   "alinti_slug": "kakuyiler",
+   "ic_not_f": "⚠️ TDV İÇ ÇELİŞKİ: kakuyiler → Katvân (536/1141) sonrası Sencer kızlara atabeg atadı (Rükneddin Sâm) ⇒ f 1141. yezd → 'Arslanşah b. Tuğrul zamanında (1161-1177) Yezd’i Gerşâsb’ın iki kızı idare etmekteydi. Daha sonra Rükneddin Sâm ... atabeg tayin edildi' ⇒ f 1161 sonrası. Kâkûyî maddesi (daha ayrıntılı) esas alındı; koordinatör seçsin. Kendi maddesi TDV'de yok (yezd-atabegleri boş).",
+   "ic_not_t": "yezd: 'Hacı Şah döneminde 718’de (1318) Muzafferîler tarafından yıkıldı' (kuşak dışı).",
+   "alinti_f": "Önce Rükneddin Sâm, ardından kardeşi İzzeddin Lenger atabeg olmuş, böylece Kâkûyîler’in Yezd’deki varlığı sona ermiş, onların yerini Yezd Atabegleri almıştır.",
+   "alinti_t_slug": "yezd",
+   "alinti_t": "Yezd Atabegleri hânedanı Hacı Şah döneminde 718’de (1318) Muzafferîler tarafından yıkıldı.",
+   "kronoloji": [
+    {
+     "t": "1141-01-01",
+     "tur": "kurulus",
+     "b": "Sencer Yezd'i son Kâkûyînin kızlarına iktâ edip Rükneddin Sâm'ı atabeg atadı; Yezd Atabegleri başladı",
+     "kaynak": "kakuyiler"
+    },
+    {
+     "t": "1275-01-01",
+     "tur": "hanedan",
+     "b": "Yezd'deki büyük selden sonra Atabeg Alâüddevle öldü, yerine kardeşi Yûsufşah geçti",
+     "kaynak": "yezd"
+    }
+   ]
+  },
+  {
+   "id": "alamut-nizari",
+   "ad": "Nizârî İsmâilî Devleti (Alamut)",
+   "islem": "yeni",
+   "tur": "devlet",
+   "bolge": "iran",
+   "f": "1090-09-04",
+   "t": "1256-11-19",
+   "baskent": "Alamut Kalesi (Rûdbâr)",
+   "ozet": "Hasan Sabbâh'ın Alamut'ta kurduğu, Elburz ve Kuhistan kalelerine dayanan Nizârî İsmâilî devleti; Hülâgû'ya teslim olana dek Selçuklu kuşatmalarına direndi.",
+   "kaynak": "TDV: hasan-sabbah (HASAN SABBÂH) · TDV: alamut (ALAMUT) · TDV: nizariyye (NİZÂRİYYE)",
+   "alinti_slug": "hasan-sabbah",
+   "ic_not_f": "6 Receb 483 / 4 Eylül 1090 (hasan-sabbah ve alamut ikisi de 4 Eylül 1090).",
+   "ic_not_t": "alamut: '19 Kasım 1256’da ... boyun eğmek zorunda kaldı'. Nizârî kaleleri (Kuhistan, Girdkûh) dağınık — harita için yalnız Rûdbâr/Alamut noktası gerçekçi.",
+   "alinti_f": "Rûdbâr vadisinde kendisine karargâh seçtiği ve “beldetü’l-ikbâl” dediği müstahkem Alamut Kalesi’ne yerleşerek Nizârî-İsmâilî Devleti’ni kurdu (6 Receb 483 / 4 Eylül 1090).",
+   "alinti_t_slug": "alamut",
+   "alinti_t": "Uzun süre Bâtınîler’in (İsmâilîler) elinde bulunan Alamut Kalesi nihayet 19 Kasım 1256’da Moğol Hükümdarı Hülâgû’nun askerlerine boyun eğmek zorunda kaldı.",
+   "kronoloji": [
+    {
+     "t": "1090-09-04",
+     "tur": "kurulus",
+     "b": "Hasan Sabbâh Alamut Kalesi'ni ele geçirip Nizârî-İsmâilî Devleti'ni kurdu",
+     "kaynak": "hasan-sabbah"
+    },
+    {
+     "t": "1124-05-23",
+     "tur": "hanedan",
+     "b": "Hasan Sabbâh Alamut'ta öldü",
+     "kaynak": "hasan-sabbah"
+    },
+    {
+     "t": "1256-11-19",
+     "tur": "yikilis",
+     "b": "Alamut Hülâgû'nun ordusuna teslim oldu; Nizârî devleti sona erdi",
+     "kaynak": "alamut"
+    }
+   ]
+  },
+  {
+   "id": "annazi",
+   "ad": "Annâzîler",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "991-01-01",
+   "t": "1117-01-01",
+   "baskent": "Hulvân · Sîrvân Kalesi",
+   "ozet": "Şâzencan aşiretinden Kürt hânedan; Hulvân, Karmîsîn (Kirmanşah), Dînever ve Şehrizor çevresinde hüküm sürdü, 1050'den sonra Selçuklulara tâbi oldu.",
+   "kaynak": "TDV: annaziler (ANNÂZÎLER)",
+   "alinti_slug": "annaziler",
+   "ic_not_f": "'991-1010 yılları arasında Hulvân’da hüküm sürmüştür' — başlangıç 991.",
+   "ic_not_t": "İbnü'l-Esîr'e göre 130 yıl; '511 (1117) yılında yıkılan bu hânedan' (TDV çıkarımı, 'belki'). 1055 sonrası kaynak sessiz. BÖLGE: Hulvân, Karmîsîn, Dînever İran Zagros'u; Dakūkā/Şehrizor Irak — ağırlık İran tarafında olduğu için 'iran' yazıldı, koordinatör mezopotamya da diyebilir.",
+   "alinti_f": "Hânedanın kurucusu olan Ebü’l-Feth Muhammed b. Annâz 991-1010 yılları arasında Hulvân’da hüküm sürmüştür.",
+   "alinti_t": "İbnü’l-Esîr Annâzîler’in 130 yıl hüküm sürdüklerini kaydeder ki buna göre Ebû Mansûr, 511 (1117) yılında yıkılan bu hânedanın belki de son emîridir.",
+   "kronoloji": [
+    {
+     "t": "991-01-01",
+     "tur": "kurulus",
+     "b": "Ebü'l-Feth Muhammed b. Annâz Hulvân'da hüküm sürmeye başladı",
+     "kaynak": "annaziler"
+    },
+    {
+     "t": "1050-01-01",
+     "tur": "tabiiyet",
+     "b": "Mühelhil Tuğrul Bey'e itaat etti; Tuğrul Annâzîleri Sîrvân, Dakūkā, Şehrizor ve Samgan'a yeniden yerleştirdi",
+     "kaynak": "annaziler"
+    },
+    {
+     "t": "1117-01-01",
+     "tur": "yikilis",
+     "b": "Annâzî hânedanı sona erdi (İbnü'l-Esîr'in 130 yıl kaydına göre)",
+     "kaynak": "annaziler"
+    }
+   ]
+  },
+  {
+   "id": "musafiri",
+   "ad": "Müsâfirîler (Sellârîler, Kengerîler)",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "942-01-01",
+   "t": "1062-01-01",
+   "baskent": "Şemîrân Kalesi (Târum) · Erdebil (Azerbaycan kolu, 979/980'e dek)",
+   "ozet": "Deylemli hânedan; X. yüzyılda Azerbaycan ve Arrân'a hâkim oldu, Revvâdîlere kaybettikten sonra Târum'da (Kazvin kuzeyi) Selçuklu vergisi ödeyerek sürdü.",
+   "kaynak": "TDV: musafiriler (MÜSÂFİRÎLER)",
+   "alinti_slug": "musafiriler",
+   "ic_not_f": "⚠️ Kuruluş yılı TDV'de yok; 330/942 oğulların Şemîrân'ı alıp idareyi üstlenmesi — ilk tarihli hânedan olayı. Muhammed b. Müsâfir daha önce (928/931 civarı) bölgede. Kuşak için önemli değil (1000'de yalnız Târum kolu var).",
+   "ic_not_t": "454/1062 Tuğrul'un vergi koyduğu 'Melik Müsâfir' kaynaklarda adı geçen son hükümdar. Bitiş Alamut İsmâilîlerinin Şemîrân'ı tahribi — YIL YOK. t=1062 son tanıklıktır, bitiş değil. 1042-43'ten sonra Selçuklu tâbii.",
+   "alinti_f": "Târum bölgesi Vehsûdân’da, diğer topraklar Merzübân’da kaldı (330/942).",
+   "alinti_t": "İbnü’l-Esîr de 454 (1062) yılında Tuğrul Bey’in Târum Kalesi’ne bir sefer düzenlediğini ve Melik Müsâfir’e 100.000 dinar, 1000 elbise vergi koyduğunu söyler",
+   "kronoloji": [
+    {
+     "t": "942-01-01",
+     "tur": "kurulus",
+     "b": "Vehsûdân ve Merzübân babalarını indirip Şemîrân'da idareyi aldı; Târum ve Azerbaycan kolları ayrıldı",
+     "kaynak": "musafiriler"
+    },
+    {
+     "t": "979-01-01",
+     "tur": "toprak-kayip",
+     "b": "Azerbaycan Revvâdîlerin eline geçti; Müsâfirîler Târum'a çekildi (979 veya 980)",
+     "kaynak": "musafiriler"
+    },
+    {
+     "t": "1062-01-01",
+     "tur": "tabiiyet",
+     "b": "Tuğrul Bey Târum'a sefer yapıp Melik Müsâfir'e ağır vergi koydu (son tanıklık)",
+     "kaynak": "musafiriler"
+    }
+   ]
+  },
+  {
+   "id": "badusbani",
+   "ad": "Bâdüsbânîler (Rûyân üstândârları)",
+   "islem": "yeni",
+   "tur": "hanedanlik",
+   "bolge": "iran",
+   "f": "723-01-01",
+   "t": "1598-01-01",
+   "baskent": "Rûyân · (sonra) Kucur ve Nur",
+   "ozet": "Sâsânî Taberistan valisinin soyundan Rûyân (batı Taberistan) hânedanı; Büveyhî, Selçuklu, Harizmşah ve Moğol tâbiiyetinde Safevîlere dek yaşadı.",
+   "kaynak": "TDV: badusbaniler (BÂDÜSBÂNÎLER)",
+   "alinti_slug": "badusbaniler",
+   "ic_not_f": "⚠️ Kuruluş yılı TDV'de YOK; 105 (723-24) hânedanın başında II. Bâdüsbân'ın bulunduğu ilk tarihli tanıklıktır — kuruluş değil. Koordinatör f'yi 'ölçülemedi' işaretiyle tutsun. Grup C'nin kapsam listesinde yoktu; Kuzey İran yerel hânedanı olduğu için eklendi.",
+   "ic_not_t": "Şah I. Abbas iki kola da son verdi (1598); kuşak dışı.",
+   "alinti_f": "105 (723-24) yılında hânedanın başında II. Bâdüsbân vardı.",
+   "alinti_t": "Safevî Hükümdarı Şah I. Abbas devrinde her iki kolun hâkimiyetine son verildi (1598).",
+   "kronoloji": [
+    {
+     "t": "723-01-01",
+     "tur": "kurulus",
+     "b": "Bâdüsbânî hânedanı Taberistan'da hüküm sürüyordu (ilk tarihli tanıklık)",
+     "kaynak": "badusbaniler"
+    },
+    {
+     "t": "1223-01-01",
+     "tur": "hanedan",
+     "b": "Çocuk yaştaki Fahrüddevle Nâmâver Bâdüsbânî tahtına geçti",
+     "kaynak": "badusbaniler"
+    }
+   ]
+  },
+  {
+   "id": "kert",
+   "ad": "Kertler (Herat)",
+   "islem": "dokunmadim",
+   "f": "1245-01-01",
+   "kaynak": "TDV: kert (KERT)",
+   "alinti_slug": "kert",
+   "ic_not_f": "GERİ ALINDI (1 Ekim, M-5702): TDV kert maddesi VAR (slug kert) ve \"hükümdar oldu (643/1245)\" der; TDV herat 642/1244 tayin + 653/1255 onay der — TDV kendiyle çelişiyor, hânedanın kendi maddesi esas: f 1245 (eski künye). Önceki \"ayrı madde yok\" notu yanlıştı. devletler.js'e 1244 inmiş — koordinatörden geri alma istendi.",
+   "alinti_f": "Zamanla gücünü arttıran Şemseddin melik unvanını aldı ve hükümdar oldu (643/1245).",
+   "harita": "kert",
+   "harita_not": "BOYALAR'da kert VAR ama devletler.js kert künyesinde harita alanı YOK (ölçüldü 1 Ekim) — alan eklenmeli."
+  },
+  {
+   "id": "sirvansah",
+   "ad": "Şirvanşahlar",
+   "islem": "dokunmadim",
+   "ic_not": "f 861 TDV ile uyumlu ('247’de (861) ... Şirvanşah unvanıyla bağımsızlığını ilân etti'). 1000-1281 kuşağı için TDV sirvansahlar maddesi çok az tarihli olay veriyor; etlendirici 2 madde yazılabildi (EN AZ 3 şartı karşılanamadı)."
+  },
+  {
+   "id": "lur-i-buzurg",
+   "ad": "Lür-i Büzürg Atabegliği (Hazaraspîler)",
+   "islem": "dokunmadim",
+   "ic_not": "f 550/1155 TDV ile uyumlu. NOT: künye-içi '1203 Hezâresb tahta geçti (600 AH)' maddesine karşı TDV lur-i-buzurg 'Nusreddin Hezâresb geçti (1204-1229)' der — 1 yıl fark, koordinatöre bildirilir, düzeltmedim. TDV slug: lur-i-buzurg (hezaresbiler → bk. LUR-ı BÜZÜRG)."
+  },
+  {
+   "id": "lur-i-kucek",
+   "ad": "Lür-i Küçek Atabegliği",
+   "islem": "dokunmadim",
+   "ic_not": "f 580/1184 TDV ile uyumlu. TDV slug: lur-i-kucek."
+  },
+  {
+   "id": "kutlughanli",
+   "ad": "Kutluğhanlılar",
+   "islem": "dokunmadim",
+   "ic_not": "f 1222 TDV ile uyumlu ('ertesi yıl Kirman’a hâkim oldu' — 1221'in ertesi)."
+  }
+ ],
+ "maddeler": [
+  {
+   "t": "1012-01-01",
+   "k": "hanedan",
+   "b": "Bahâüddevle'nin ölümü; Büveyhî birliği dağıldı",
+   "gun": "1012 (gün bilinmiyor)",
+   "yer": "Irak / Fars",
+   "kisiler": "Bahâüddevle, Sultânüddevle",
+   "d": "Hânedanın birliğini bir ölçüde sağlayan Bahâüddevle öldü. Oğulları arasında uzun bir taht mücadelesi başladı ve Büveyhîlerin kurduğu birlik parçalandı.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti": "Bahâüddevle’nin 1012’de ölümüyle oğulları arasında uzun süren bir hâkimiyet mücadelesi başladı ve Büveyhîler’in büyük gayretlerle kurdukları birlik parçalandı.",
+   "alinti_slug": "buveyhiler",
+   "taraflar": [
+    "buveyhi"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1021-01-01",
+   "k": "hanedan",
+   "b": "Müşerrifüddevle Türklerin desteğiyle Irak'a hâkim oldu",
+   "gun": "1021 (gün bilinmiyor)",
+   "yer": "Bağdat",
+   "kisiler": "Müşerrifüddevle, Sultânüddevle",
+   "d": "Irak'ta Deylemli ve Türk askerler arasındaki çatışmada Türklerin desteklediği Müşerrifüddevle üstün geldi. Sultânüddevle Irak üzerindeki hâkimiyetinden vazgeçmek zorunda kaldı.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti": "Sonuçta Türkler’in desteklediği Müşerrifüddevle b. Bahâüddevle Irak’a hâkim oldu (1021).",
+   "alinti_slug": "buveyhiler",
+   "taraflar": [
+    "buveyhi"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Irak kolu künye dışı kalırsa bu madde Mezopotamya'ya düşer."
+  },
+  {
+   "t": "1023-01-01",
+   "k": "fetih",
+   "b": "Kâkûyî Alâüddevle Hemedan'ı Büveyhîlerden aldı",
+   "gun": "414/1023-24 (gün bilinmiyor)",
+   "yer": "Hemedan",
+   "kisiler": "Alâüddevle Muhammed, Semâüddevle",
+   "d": "İsfahan'daki Alâüddevle Muhammed, Burûcird hâkiminin kendisine sığınmasını bahane ederek Hemedan'a yürüdü ve Büveyhî Semâüddevle'nin buradaki hâkimiyetine son verdi.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER)",
+   "alinti": "414’te (1023-24), Burûcird hâkimi Ferhâd b. Merdâvîc’in kendisine sığınmasını bahane ederek Hemedan’a yürüyen Alâüddevle Muhammed, Büveyhîler’den Semâüddevle’nin buradaki hâkimiyetine son verdi.",
+   "alinti_slug": "kakuyiler",
+   "taraflar": [
+    "kakuyi",
+    "buveyhi"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "⚠️ ÇELİŞKİ: buveyhiler hükümdar tablosu 'Kâkûye hânedanı hâkimiyeti 419 (1028)' der (Hemedan-İsfahan şubesi). kakuyiler 414/1023-24 der ve ayrıntılıdır; kakuyiler esas alındı."
+  },
+  {
+   "t": "1029-01-01",
+   "k": "fetih",
+   "b": "Gazneli Mahmud Rey'i aldı, Büveyhî Cibâl koluna son verdi",
+   "gun": "420/1029 (gün bilinmiyor)",
+   "yer": "Rey",
+   "kisiler": "Gazneli Mahmud, Mecdüddevle",
+   "d": "Ömrünün son yıllarında batıya yönelen Gazneli Mahmud Rey şehrine hâkim oldu. Büveyhîlerin Cibâl (Rey) kolu sona erdi; Kâkûyî Alâüddevle de İsfahan'ı boşaltıp Hûzistan'a kaçtı.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti": "Gazneli Mahmud ise ömrünün son yıllarında batıya yöneldi ve Rey şehrine hâkim olarak Büveyhîler’in Cibâl koluna son verdi (1029).",
+   "alinti_slug": "buveyhiler",
+   "taraflar": [
+    "gazneli",
+    "buveyhi",
+    "kakuyi"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "toprak-kayip",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1044-01-01",
+   "k": "hanedan",
+   "b": "Ebû Kâlîcâr Irak, Fars ve Kirman kollarını tek elde topladı",
+   "gun": "1044 (gün bilinmiyor)",
+   "yer": "Bağdat",
+   "kisiler": "Ebû Kâlîcâr, Celâlüddevle",
+   "d": "Celâlüddevle'nin ölümüyle Bağdat'ta hutbe Ebû Kâlîcâr adına okundu. Böylece Büveyhîlerin Irak, Fars ve Kirman kolları son kez tek idare altında birleşti.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti": "Celâlüddevle’nin 1044’te ölümüyle Bağdat’ta hutbe Ebû Kâlîcâr adına okundu. Böylece Ebû Kâlîcâr Büveyhîler’in Irak, Fars ve Kirman kollarını tek bir idare altında toplamış oluyordu.",
+   "alinti_slug": "buveyhiler",
+   "taraflar": [
+    "buveyhi"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1048-01-01",
+   "k": "fetih",
+   "b": "Kavurd Kirman'daki Büveyhî hâkimiyetine son verdi",
+   "gun": "1048 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Kavurd, Ebû Kâlîcâr",
+   "d": "Dandanakan'dan sonra Kirman payı kendisine verilen Çağrı Bey'in oğlu Kavurd bölgeye yürüdü ve Büveyhî hâkimiyetini bitirdi. Aynı yıl Ebû Kâlîcâr öldü; Kirman Selçuklularının temeli atıldı.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti": "Daha sonra Kavurd Kirman üzerine yürüyerek bu bölgedeki Büveyhî hâkimiyetine son verdi (1048).",
+   "alinti_slug": "buveyhiler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "buveyhi"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf Kirman Selçukluları künyesiz (başka grup). Taraf olarak buyuk-selcuklu yazıldı."
+  },
+  {
+   "t": "1056-01-01",
+   "k": "hanedan",
+   "b": "Şebânkâre emîri Fazlûye Fars'taki Büveyhî hâkimiyetine son verdi",
+   "gun": "1056 (gün bilinmiyor)",
+   "yer": "Şîraz",
+   "kisiler": "Fazlûye, Ebû Mansûr Fülâd Sütûn",
+   "d": "Şîraz'da Tuğrul Bey adına hutbe okutan son Büveyhî Fülâd Sütûn, Şebânkâre emîrlerinden Fazlûye'ye yenilip öldürüldü. Fars Şebânkâre emirinin eline geçti.",
+   "kaynak": "TDV: buveyhiler (BÜVEYHÎLER)",
+   "alinti": "Ancak Şebânkâre emîrlerinden Fazlûye, Ebû Mansûr’u mağlûp ederek öldürttü (1056) ve Fars’taki Büveyhî hâkimiyetine son verdi.",
+   "alinti_slug": "buveyhiler",
+   "taraflar": [
+    "buveyhi"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "yikilis",
+    "konu-siyasi"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Şebânkâre Emirliği (TDV maddesi yok)."
+  },
+  {
+   "t": "1012-01-01",
+   "k": "hanedan",
+   "b": "Kābûs tahttan indirildi, oğlu Menûçihr Ziyârî tahtına çıktı",
+   "gun": "402/1012 (gün bilinmiyor)",
+   "yer": "Cürcân",
+   "kisiler": "Kābûs b. Veşmgîr, Menûçihr",
+   "d": "Zalimane davranışları yüzünden ordu tarafından tahttan uzaklaştırılan Kābûs öldürüldü, yerine oğlu Menûçihr getirildi. Menûçihr, kardeşini destekleyen Gazneli Mahmud'a tâbi oldu.",
+   "kaynak": "TDV: ziyariler (ZİYÂRÎLER)",
+   "alinti": "Kābûs zalimane davranışları yüzünden Ziyârî ordusu tarafından tahtından uzaklaştırıldı ve yerine “Felekülmeâlî” lakabıyla oğlu Menûçihr getirildi (402/1012).",
+   "alinti_slug": "ziyariler",
+   "taraflar": [
+    "ziyari",
+    "gazneli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1029-01-01",
+   "k": "olay",
+   "b": "Menûçihr Gazneli Mahmud'a 500.000 dinar ödedi ve öldü",
+   "gun": "420/1029 (gün bilinmiyor)",
+   "yer": "Cürcân / Taberistan",
+   "kisiler": "Menûçihr, Gazneli Mahmud, Enûşirvân",
+   "d": "Rey seferine çıkan Gazneli Mahmud'a düşmanca tavır takınan Menûçihr'in ülkesi Gazneli hâkimiyetine alındı. Tahtta kalmak için 500.000 dinar ödeyen Menûçihr kısa süre sonra öldü; yerine Enûşirvân geçti.",
+   "kaynak": "TDV: ziyariler (ZİYÂRÎLER)",
+   "alinti": "Menûçihr, sultanın geri çekilmesiyle hânedanın başında kalabilmesini sağlamak için 500.000 dinar ödemek zorunda kaldı; kısa bir süre sonra da öldü (420/1029).",
+   "alinti_slug": "ziyariler",
+   "taraflar": [
+    "ziyari",
+    "gazneli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1035-01-01",
+   "k": "savas",
+   "b": "Gazneli Mesud'un Hazar seferi: Cürcân ve Taberistan işgal edildi",
+   "gun": "426/1035 (gün bilinmiyor)",
+   "yer": "Cürcân, Taberistan",
+   "kisiler": "Gazneli Mesud, Ebû Kâlîcâr, Enûşirvân",
+   "d": "Vergiyi düzenli ödemeyen Ziyârî yönetimine karşı Sultan Mesud Hazar kıyılarına sefer yaptı; Gazneli ordusu Cürcân ve Taberistan'ı ele geçirdi. Kaçan Ebû Kâlîcâr sonunda af diledi ve vergi ödemeye söz verdi.",
+   "kaynak": "TDV: ziyariler (ZİYÂRÎLER)",
+   "alinti": "Ebû Kâlîcâr, Enûşirvân ve diğer emîrlerle beraber Gazneli ordusunun önünden sürekli kaçtı; sonunda Sultan Mes‘ûd’dan af diledi (426/1035)",
+   "alinti_slug": "ziyariler",
+   "taraflar": [
+    "gazneli",
+    "ziyari"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1049-01-01",
+   "k": "hanedan",
+   "b": "Keykâvus b. İskender Ziyârî tahtına geçti",
+   "gun": "441/1049 (gün bilinmiyor; 435/1043-44 de olabilir)",
+   "yer": "Cürcân",
+   "kisiler": "Keykâvus b. İskender, Enûşirvân",
+   "d": "Enûşirvân'ın ölümünün ardından Kâbûsnâme'nin yazarı Keykâvus b. İskender hükümdar oldu. Ziyârîler bu dönemde Selçuklulara tâbi olarak varlıklarını sürdürdü.",
+   "kaynak": "TDV: ziyariler (ZİYÂRÎLER)",
+   "alinti": "Yerine Keykâvus b. İskender b. Kābûs geçti (1049-1087 [?]).",
+   "alinti_slug": "ziyariler",
+   "taraflar": [
+    "ziyari"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "TDV: Enûşirvân 'muhtemelen 435 (1043-44) veya 441 (1049)' yılında öldü; Keykâvus listesi 1049 veriyor."
+  },
+  {
+   "t": "1030-01-01",
+   "k": "fetih",
+   "b": "Kâkûyî Alâüddevle Yezd'i ele geçirip adına para bastırdı",
+   "gun": "421/1030 (gün bilinmiyor)",
+   "yer": "Yezd",
+   "kisiler": "Alâüddevle Muhammed",
+   "d": "Gazneli ordusu çekilince eski topraklarına dönen Alâüddevle sınırlarını doğuda Yezd'e doğru genişletti ve kendi adına sikke bastırdı.",
+   "kaynak": "TDV: yezd (YEZD)",
+   "alinti": "Kâkûyî hânedanının kurucusu Alâüddevle Muhammed b. Rüstem Düşmenziyâr, Yezd’i ele geçirerek kendi adına para bastırdı (421/1030).",
+   "alinti_slug": "yezd",
+   "taraflar": [
+    "kakuyi"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1033-01-01",
+   "k": "antlasma",
+   "b": "Gazneli Mesud Alâüddevle'yi vergili İsfahan emîri olarak tanıdı",
+   "gun": "424/1033 (gün bilinmiyor)",
+   "yer": "İsfahan",
+   "kisiler": "Gazneli Mesud, Alâüddevle Muhammed",
+   "d": "Sultan Mesud, Alâüddevle'nin vergi ödemesi şartıyla İsfahan emîrliğini kabul etti. Alâüddevle ertesi yıl yeniden isyan etti.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER)",
+   "alinti": "Sultan Mesud, 424’te (1033) Alâüddevle’nin vergiye bağlı olarak İsfahan emîri olmasını kabul etti.",
+   "alinti_slug": "kakuyiler",
+   "taraflar": [
+    "gazneli",
+    "kakuyi"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1036-01-01",
+   "k": "antlasma",
+   "b": "Alâüddevle Gazneli Mesud'la barıştı, İsfahan'a döndü",
+   "gun": "Safer 428 / Aralık 1036 (gün bilinmiyor)",
+   "yer": "İsfahan",
+   "kisiler": "Alâüddevle Muhammed, Gazneli Mesud",
+   "d": "Gazneli ordusunun İsfahan'ı aldığı yenilgiden sonra Hûzistan'dan dönen Alâüddevle, şehri geri alamayınca barış istedi. Sultan Mesud İsfahan'daki eski mevkiini ona geri verdi.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER)",
+   "alinti": "İsfahan’ı tekrar ele geçirmek istediyse de başarılı olamadı ve Safer 428’de (Aralık 1036) Sultan Mesud’a barış teklifinde bulundu.",
+   "alinti_slug": "kakuyiler",
+   "taraflar": [
+    "kakuyi",
+    "gazneli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1038-01-01",
+   "k": "fetih",
+   "b": "Alâüddevle Rey'i geçici olarak ele geçirdi",
+   "gun": "Cemâziyelevvel 429 / Şubat 1038 (gün bilinmiyor)",
+   "yer": "Rey",
+   "kisiler": "Alâüddevle Muhammed",
+   "d": "Irak Oğuzlarının Azerbaycan'a gitmesiyle boşalan Rey'i Alâüddevle ele geçirdi, ancak kısa süre sonra şehri terk edip İsfahan'ı surlarla tahkim etti.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER)",
+   "alinti": "Alaüddevle Rey’i ele geçirdiyse de (Cemâziyelevvel 429 / Şubat 1038) daha sonra şehri terketti.",
+   "alinti_slug": "kakuyiler",
+   "taraflar": [
+    "kakuyi"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1041-01-01",
+   "k": "hanedan",
+   "b": "Alâüddevle Muhammed öldü; Ferâmurz İsfahan tahtına geçti",
+   "gun": "Muharrem 433 / Eylül 1041 (gün bilinmiyor)",
+   "yer": "İsfahan",
+   "kisiler": "Alâüddevle Muhammed, Ebû Mansûr Ferâmurz, Ebû Kâlîcâr Gerşâsb",
+   "d": "Annâzîlerden Dînever'i barış yoluyla alıp dönerken Alâüddevle öldü. İsfahan'da büyük oğlu Ferâmurz, Nihâvend'de ona bağlı olarak Gerşâsb yönetime geçti.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER)",
+   "alinti": "Alâüddevle Muhammed, Annâzîler’den Dînever şehrini barış yoluyla aldığı seferden dönerken vefat etti (Muharrem 433 / Eylül 1041).",
+   "alinti_slug": "kakuyiler",
+   "taraflar": [
+    "kakuyi",
+    "annazi"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "toprak-kazanc"
+   ]
+  },
+  {
+   "t": "1047-01-01",
+   "k": "fetih",
+   "b": "Kinkever Kalesi Selçuklulara teslim oldu; Gerşâsb bütün topraklarını kaybetti",
+   "gun": "439/1047 (gün bilinmiyor)",
+   "yer": "Kinkever / Hemedan",
+   "kisiler": "Ebû Kâlîcâr Gerşâsb, İbrâhim Yinal",
+   "d": "İbrâhim Yinal'ın seferleriyle Hemedan kesin olarak Selçuklulara bağlandı, ardından Kinkever Kalesi de teslim oldu. Kâkûyî Gerşâsb Büveyhî Hûzistan'ına sürgüne gitti.",
+   "kaynak": "TDV: kakuyiler (KÂKÛYÎLER)",
+   "alinti": "Hemedan’ın kesin olarak Selçuklular’a bağlanmasının ardından Ebû Kâlîcâr Gerşâsb’ın elindeki Kinkever Kalesi de teslim oldu (439/1047).",
+   "alinti_slug": "kakuyiler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "kakuyi"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1001-01-01",
+   "k": "hanedan",
+   "b": "Revvâdî Memlân öldü, oğlu Ebû Nasr Hüseyin geçti",
+   "gun": "391/1001 (gün bilinmiyor)",
+   "yer": "Tebriz",
+   "kisiler": "Memlân, Ebû Nasr Hüseyin",
+   "d": "998'de Ermeni-Gürcü ordularına ağır yenilen Revvâdî emîri Memlân öldü. Yerine oğlu Ebû Nasr Hüseyin geçti; onun dönemi hakkında kaynaklarda bilgi yoktur.",
+   "kaynak": "TDV: revvadiler (REVVÂDÎLER)",
+   "alinti": "388’de (998) müttefik Ermeni ve Gürcü orduları karşısında ağır bir hezimete uğrayan Memlân 391’de (1001) vefat etti.",
+   "alinti_slug": "revvadiler",
+   "taraflar": [
+    "revvadi"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1029-01-01",
+   "k": "olay",
+   "b": "Azerbaycan'a ilk Oğuz göçü; 2000 çadır Vehsûdân'ın ordusuna katıldı",
+   "gun": "420/1029 (gün bilinmiyor)",
+   "yer": "Azerbaycan",
+   "kisiler": "Ebû Mansûr Vehsûdân",
+   "d": "Revvâdî Vehsûdân döneminde bölgeye ilk Oğuz muhacereti başladı; gelen 2000 çadırlık Oğuz halkı Revvâdî ordusuna katıldı.",
+   "kaynak": "TDV: revvadiler (REVVÂDÎLER)",
+   "alinti": "420 (1029) yılında bölgeye gelen 2000 çadırlık Oğuz halkı Vehsûdân’ın ordusuna katıldı.",
+   "alinti_slug": "revvadiler",
+   "taraflar": [
+    "revvadi"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1041-01-01",
+   "k": "olay",
+   "b": "Vehsûdân Oğuz liderlerini ziyafette öldürttü",
+   "gun": "432/1041 (gün bilinmiyor)",
+   "yer": "Tebriz / Urmiye",
+   "kisiler": "Vehsûdân",
+   "d": "1038'deki ikinci Oğuz göçünden sonra bölgede kalan Oğuz liderleri Vehsûdân'ın ziyafetinde öldürüldü. Urmiye'deki Oğuzlar bunun üzerine Musul'a göçtü.",
+   "kaynak": "TDV: revvadiler (REVVÂDÎLER)",
+   "alinti": "Vehsûdân 432’de (1041) bölgede kalan Oğuz liderlerini bir ziyafet esnasında öldürttü.",
+   "alinti_slug": "revvadiler",
+   "taraflar": [
+    "revvadi"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1054-01-01",
+   "k": "antlasma",
+   "b": "Revvâdî Vehsûdân Tuğrul Bey'e itaat etti",
+   "gun": "446/1054 (gün bilinmiyor)",
+   "yer": "Azerbaycan",
+   "kisiler": "Tuğrul Bey, Vehsûdân",
+   "d": "Azerbaycan'a gelen Selçuklu Sultanı Tuğrul Bey'e itaat arz eden mahallî hükümdarlar arasında Revvâdî Vehsûdân da vardı.",
+   "kaynak": "TDV: revvadiler (REVVÂDÎLER)",
+   "alinti": "446’da (1054) Azerbaycan’a gelen Selçuklu Sultanı Tuğrul Bey’e itaatini arzeden mahallî hükümdarlar arasında Vehsûdân da vardı.",
+   "alinti_slug": "revvadiler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "revvadi"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1060-01-01",
+   "k": "savas",
+   "b": "Tuğrul Bey Tebriz kuşatmasında başarısız oldu",
+   "gun": "452/1060 (gün bilinmiyor)",
+   "yer": "Tebriz",
+   "kisiler": "Tuğrul Bey, Ebû Nasr Memlân",
+   "d": "1059'da Selçuklulara baş kaldıran Vehsûdân'ın oğlu Ebû Nasr Memlân'a karşı Tuğrul Bey Tebriz'i kuşattı, fakat şehri alamadı.",
+   "kaynak": "TDV: revvadiler (REVVÂDÎLER)",
+   "alinti": "Vehsûdân’ın oğlu Ebû Nasr Memlân 451’de (1059) Selçuklular’a baş kaldırdı. Tuğrul Bey Tebriz’i muhasara ettiyse de başarılı olamadı (452/1060).",
+   "alinti_slug": "revvadiler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "revvadi"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1006-01-01",
+   "k": "hanedan",
+   "b": "Bâvendî İspehbed III. Şehriyâr Kābûs'a isyan edip öldürüldü",
+   "gun": "1006 (gün bilinmiyor)",
+   "yer": "Taberistan",
+   "kisiler": "III. Şehriyâr, Kābûs b. Veşmgîr",
+   "d": "Daha önce müttefiki olduğu Ziyârî Kābûs'a karşı ayaklanan Keyûsiyye kolundan İspehbed III. Şehriyâr yakalanarak öldürüldü; yerine III. Rüstem geçti.",
+   "kaynak": "TDV: bavendiler (BÂVENDÎLER)",
+   "alinti": "Bu hânedandan İspehbed III. Şehriyâr ise daha önce müttefiki olduğu Ziyârîler’den Kābûs b. Veşmgîr’e karşı isyan etmiş, fakat yakalanarak öldürülmüştür (1006).",
+   "alinti_slug": "bavendiler",
+   "taraflar": [
+    "bavendi",
+    "ziyari"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1132-01-01",
+   "k": "savas",
+   "b": "Dînever Savaşı'na Bâvendî kuvvetleri de katıldı",
+   "gun": "1132 (gün bilinmiyor)",
+   "yer": "Dînever",
+   "kisiler": "Sultan Sencer, Mesud, II. Tuğrul, Alâüddevle Ali",
+   "d": "Sencer'in II. Tuğrul'u Irak Selçuklu tahtına çıkarmak için Mesud'la yaptığı Dînever Savaşı'nda Bâvendî Alâüddevle Ali'nin kuvvetleri de yer aldı.",
+   "kaynak": "TDV: bavendiler (BÂVENDÎLER)",
+   "alinti": "Sultan Sencer’in II. Tuğrul’u tahta çıkarmak için Mesud ile yaptığı Dînever Savaşı’na Bâvendî kuvvetleri de iştirak etti (1132).",
+   "alinti_slug": "bavendiler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "irak-selcuklu",
+    "bavendi"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1157-01-01",
+   "k": "savas",
+   "b": "Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı",
+   "gun": "1157 (gün bilinmiyor)",
+   "yer": "Alamut, Cürcân, Kūmis",
+   "kisiler": "Şah Gazi Rüstem",
+   "d": "Büyük Selçuklu'nun çözülmesiyle bağımsız siyaset izleyen Bâvendî Şah Gazi Rüstem, Alamut İsmâilîlerine sefer düzenleyip kaleyi tahrip etti; Cürcân ve Kūmis'i ele geçirdi. Alamut kalesi ise düşmedi.",
+   "kaynak": "TDV: bavendiler (BÂVENDÎLER)",
+   "alinti": "1157’de Alamut’u tahrip ederek Cürcân ve Kūmis’i ele geçirdi, kuvvet ve kudretini Mugan’a kadar yaydı.",
+   "alinti_slug": "bavendiler",
+   "taraflar": [
+    "bavendi",
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "alamut maddesi aynı olayı '552’de (1157) ... kuşatıldıysa da fethi mümkün olmadı' diye verir — tahrip ≠ fetih."
+  },
+  {
+   "t": "1173-01-01",
+   "k": "savas",
+   "b": "Bâvendî Alâüddevle Hasan Horasan ordusunu yendi, sonra öldürüldü",
+   "gun": "1173 (gün bilinmiyor)",
+   "yer": "Taberistan",
+   "kisiler": "Alâüddevle Hasan, Müeyyed Ay-aba, Sultan Şah",
+   "d": "Müeyyed Ay-aba ile Harizmşah şehzadesi Sultan Şah Taberistan'ı istilâ edip Sârî ve Temîşe'yi yağmaladı. Alâüddevle Hasan bu orduyu dağlarda yendi, fakat aynı yıl gulâmlarınca öldürüldü; yerine Erdeşîr geçti.",
+   "kaynak": "TDV: bavendiler (BÂVENDÎLER)",
+   "alinti": "Alâüddevle buna karşılık Horasan’ı tahrip etmek için bir ordu gönderdiyse de içki yüzünden çevresindekilere kötü davranınca gulâm ları tarafından öldürüldü (1173).",
+   "alinti_slug": "bavendiler",
+   "taraflar": [
+    "bavendi"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Müeyyed Ay-aba (Horasan emîrliği)."
+  },
+  {
+   "t": "1169-01-01",
+   "k": "fetih",
+   "b": "Zengî Fars'ı Afşar Şümle'den geri aldı",
+   "gun": "564/1169 (gün bilinmiyor)",
+   "yer": "Fars",
+   "kisiler": "Muzafferüddin Zengî, Şümle",
+   "d": "Zengî'nin kötü yönetiminden bıkan halkın davetiyle Fars'a giren Hûzistan hâkimi Afşar Şümle de halka zulmedince Zengî Fars'ı yeniden ele geçirdi.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "Fars’a hâkim olan Şümle de halka kötü davranınca Zengî Fars’ı tekrar ele geçirdi (564/1169).",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "salgurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Hûzistan Afşarları (Şümle)."
+  },
+  {
+   "t": "1204-01-01",
+   "k": "fetih",
+   "b": "Salgurlu Sa'd Kirman'da hâkimiyet kurdu ve İsfahan'ı aldı",
+   "gun": "600/1204 (gün bilinmiyor)",
+   "yer": "Berdesîr, İsfahan",
+   "kisiler": "Sa'd b. Zengî",
+   "d": "Berdesîr'i işgal eden Oğuzlar şehri Salgurlu ordusuna teslim etti; Kirman'da Salgurlu hâkimiyetinin temeli atıldı. Sa'd aynı yıl direnişsiz İsfahan'ı da alarak İldenizlilerle karşı karşıya geldi.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "Böylece Kirman’da Salgurlu hâkimiyetinin temelleri atılmış oldu (600/1204). Atabeg Sa‘d aynı yıl bir mukavemetle karşılaşmadan İsfahan’ı ele geçirdi.",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "salgurlu",
+    "ildenizli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1209-01-09",
+   "k": "olay",
+   "b": "Atabeg Sa'd Kirman'ın başşehri Berdesîr'de Kavurd'un tahtına oturdu",
+   "gun": "1 Receb 605 / 9 Ocak 1209",
+   "yer": "Berdesîr (Kirman)",
+   "kisiler": "Sa'd b. Zengî",
+   "d": "Sa'd b. Zengî Kirman'ın merkezine giderek eski Kirman Selçuklu tahtına oturdu, beş aya yakın kalıp bölgenin büyük kısmını itaat altına aldı.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "Sa‘d ardından Kirman’ın başşehri Berdesîr’e gidip Kavurd’un tahtına oturdu (1 Receb 605 / 9 Ocak 1209).",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "salgurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1213-01-01",
+   "k": "fetih",
+   "b": "Kirman Salgurlulardan Harizmşahlara geçti",
+   "gun": "610/1213 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Sa'd b. Zengî",
+   "d": "Salgurluların ihmal ettiği Kirman Harizmşahların eline geçti; Harizmşah akıncıları Fars'ta Şîraz'a kadar ilerledi.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "Ancak bölge daha sonra ihmal edilince Hârizmşahlar’ın eline geçti (610/1213).",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "harizmsah",
+    "salgurlu"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1217-01-01",
+   "k": "antlasma",
+   "b": "Sa'd b. Zengî Rey yakınında Harizmşah'a esir düştü; ağır şartlı antlaşma",
+   "gun": "614/1217 (gün bilinmiyor)",
+   "yer": "Rey civarı",
+   "kisiler": "Sa'd b. Zengî, Alâeddin Muhammed Harizmşah",
+   "d": "Irâk-ı Acem'e hâkim olmak isteyen Sa'd Harizmşah Alâeddin Muhammed'e yenilip esir düştü. Affedilen Sa'd; Eşkenvan ve İstahr kalelerini bırakmayı, gelirin üçte birini haraç vermeyi ve Harizmşah adına hutbe okutmayı kabul etti.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "Hârizmşah Alâeddin Muhammed b. Tekiş ile Rey civarında yaptığı savaşta esir düştü (614/1217).",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "harizmsah",
+    "salgurlu"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1230-01-01",
+   "k": "fetih",
+   "b": "Salgurlu Ebû Bekir Kays adasını aldı",
+   "gun": "627/1230 (gün bilinmiyor)",
+   "yer": "Kays adası (Basra körfezi)",
+   "kisiler": "Ebû Bekir b. Sa'd",
+   "d": "Moğollara itaat ederek Fars'ı koruyan Atabeg Ebû Bekir Kays adasına ordu gönderip burayı ele geçirdi ve Basra körfezi hâkimiyetini Arabistan kıyılarına kadar genişletti.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "daha sonra Kays adasına bir ordu sevkederek burayı ele geçirdi (627/1230) ve Basra körfezi hâkimiyetini Arabistan sahillerine kadar genişletti.",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "salgurlu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1260-01-01",
+   "k": "hanedan",
+   "b": "Ebû Bekir b. Sa'd öldü; Salgurlu tahtı taht kavgasına düştü",
+   "gun": "658/1260 (gün bilinmiyor)",
+   "yer": "Şîraz",
+   "kisiler": "Ebû Bekir b. Sa'd, II. Sa'd, Adudüddin Muhammed, Terken Hatun",
+   "d": "Uzun süren saltanatın ardından Ebû Bekir öldü; oğlu II. Sa'd on iki gün sonra ölünce çocuk yaştaki Muhammed tahta çıkarıldı, nâibliği annesi Terken Hatun üstlendi.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "“Sultânü’l-ber ve’l-bahr, muzafferü’d-dünyâ ve’d-dîn, âdil-i cihan” unvanlarıyla anılan Ebû Bekir 658’de (1260) vefat etti.",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "salgurlu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1263-01-01",
+   "k": "hanedan",
+   "b": "Selçuk Şah Hülâgû'nun emriyle öldürüldü; Fars fiilen Moğol denetimine girdi",
+   "gun": "662/1263-64 (gün bilinmiyor)",
+   "yer": "Kâzerûn",
+   "kisiler": "Selçuk Şah, Hülâgû, Âbiş Hatun",
+   "d": "Moğollarla savaşmayı seçen Atabeg Selçuk Şah Hülâgû'nun emriyle Kâzerûn'da yakalanıp öldürüldü. Ardından Âbiş Hatun atabeg ilân edildi; Fars resmen Moğol ülkeleri arasında sayıldı ve İlhanlı şahneleri yönetti.",
+   "kaynak": "TDV: salgurlular (SALGURLULAR)",
+   "alinti": "Moğollar’la savaşı tercih eden Selçuk Şah, Hülâgû’nun emriyle Kâzerûn şehrinde yakalanarak öldürüldü (662/1263-64).",
+   "alinti_slug": "salgurlular",
+   "taraflar": [
+    "ilhanli",
+    "salgurlu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1161-01-01",
+   "k": "savas",
+   "b": "Ahmedîlî Arslanapa Sefîdrûd'da İldenizli Pehlivan'ı bozguna uğrattı",
+   "gun": "1161 (gün bilinmiyor)",
+   "yer": "Sefîdrûd (Kızılözen)",
+   "kisiler": "Arslanapa, Pehlivan, İldeniz",
+   "d": "İldeniz'in Sultan Arslanşah'a itaat talebini reddeden Merâga hâkimi Arslanapa, Ahlatşahların desteğiyle İldeniz'in oğlu Pehlivan'ı Sefîdrûd'da ağır bir yenilgiye uğrattı.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti": "Ahlatşahlar’ın da desteğiyle İldeniz’in oğlu Pehlivan’ı Sefîdrûd’da (Kızılözen) ağır bir bozguna uğrattı (1161).",
+   "alinti_slug": "ahmedililer",
+   "taraflar": [
+    "ahmedili",
+    "ildenizli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Ahlatşahlar künyesi yok (Anadolu grubu)."
+  },
+  {
+   "t": "1168-01-01",
+   "k": "savas",
+   "b": "Pehlivan Arslanapa'yı Merâga'da kuşatıp Selçuklu tâbiiyetine aldı",
+   "gun": "563/1167-68 (gün bilinmiyor)",
+   "yer": "Merâga",
+   "kisiler": "Pehlivan, Arslanapa",
+   "d": "Halifenin Arslanapa'nın yanındaki şehzade Dâvud adına hutbe okutması üzerine İldeniz, Pehlivan'ı büyük bir orduyla gönderdi; yenilen Arslanapa Merâga'ya kaçtı, kuşatma anlaşmayla bitti.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Pehlivan, babasının sağlığında 556 (1161) ve 563’te (1168) Sultan Arslanşah’a baş kaldıran Merâga hâkimi Ahmedîlî Arslanapa’nın (II. Aksungur) isyanını bastırmakla görevlendirilmiş, ilkinde hezimete uğrarken ikincisinde onu Selçuklu tâbiiyetine almaya muvaffak olmuştu.",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli",
+    "ahmedili"
+   ],
+   "etiket": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "ic_not": "ahmedililer aynı olayı 563/1167-68 verir; ildenizliler 1168. 1168 alındı."
+  },
+  {
+   "t": "1175-01-01",
+   "k": "hanedan",
+   "b": "Atabeg İldeniz öldü; Pehlivan atabeg oldu, Kızılarslan Azerbaycan'a getirildi",
+   "gun": "571/1175 (gün bilinmiyor)",
+   "yer": "Nahcıvan",
+   "kisiler": "İldeniz, Cihan Pehlivan, Kızılarslan",
+   "d": "İldeniz'in ölümüyle oğlu Pehlivan Nahcıvan'a gelerek kendini atabeg ilân etti ve kardeşi Kızılarslan'ı Azerbaycan'ın başına getirdi. Arslanapa'nın ölümünden sonra Tebriz de barışla İldenizlilere geçti.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Nusretüddin Cihan Pehlivan Muhammed 571 (1175)",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": "Tarih hükümdar listesinden; anlatı metninde İldeniz'in ölüm yılı ayrıca geçmiyor."
+  },
+  {
+   "t": "1177-01-01",
+   "k": "hanedan",
+   "b": "Irak Selçuklu Sultanı Arslanşah öldü; Pehlivan II. Tuğrul'u tahta çıkardı",
+   "gun": "Receb 572 / Ocak 1177 (gün bilinmiyor)",
+   "yer": "Hemedan",
+   "kisiler": "Arslanşah, Cihan Pehlivan, II. Tuğrul",
+   "d": "Atabeglerin baskısından kurtulmaya çalışan Sultan Arslanşah öldü (Pehlivan tarafından öldürüldüğü de rivayet edilir). Pehlivan yanında tuttuğu Tuğrul'u sultan yaptı.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Fakat bundan çok kısa bir süre sonra Receb 572’de (Ocak 1177) öldü; onun üvey kardeşi ve atabegi Pehlivan tarafından öldürüldüğüne dair rivayetler de bulunmaktadır",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "irak-selcuklu",
+    "ildenizli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1186-01-01",
+   "k": "hanedan",
+   "b": "Atabeg Pehlivan öldü; Kızılarslan atabeg oldu",
+   "gun": "Zilhicce 581 / Mart 1186 (gün bilinmiyor)",
+   "yer": "Hemedan",
+   "kisiler": "Cihan Pehlivan, Kızılarslan, II. Tuğrul",
+   "d": "Selâhaddîn'e karşı savaş hazırlığındayken hastalanan Pehlivan öldü. Sultan II. Tuğrul atabeglerden kurtulamadı ve Kızılarslan'ı Hemedan'a davet ederek eski düzeni sürdürmek zorunda kaldı.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Ancak çok geçmeden hastalandı ve Zilhicce 581’de (Mart 1186) öldü.",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1190-01-01",
+   "k": "hanedan",
+   "b": "Kızılarslan II. Tuğrul'u hapsetti ve kendini sultan ilân etti",
+   "gun": "Şevval 586 / Kasım 1190 (gün bilinmiyor)",
+   "yer": "Hemedan / Azerbaycan",
+   "kisiler": "Kızılarslan, II. Tuğrul",
+   "d": "Uzun mücadeleden sonra yenilen II. Tuğrul oğluyla birlikte Azerbaycan'da bir kaleye kapatıldı. Kızılarslan halifenin teşvikiyle Selçuklu tahtına kendisi çıktı.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Fakat Kızılarslan, onu türbeden çıkararak oğluyla birlikte Azerbaycan’da bir kaleye kapattı (Şevval 586 / Kasım 1190)",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1191-01-01",
+   "k": "hanedan",
+   "b": "Kızılarslan çadırında öldürüldü; Azerbaycan atabegliği bölündü",
+   "gun": "Şâban 587 / Eylül 1191 (gün bilinmiyor)",
+   "yer": "Hemedan",
+   "kisiler": "Kızılarslan, İnanç Hatun, Ebû Bekir, Kutluğ İnanç",
+   "d": "İnanç Hatun ile iş birliği yapan emîrler Kızılarslan'ı uykusunda öldürttü. Yeğeni Ebû Bekir Azerbaycan'da atabegliğini ilân etti, İnanç Hatun'un oğulları ise onu tanımadı.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Şâban 587’de (Eylül 1191) onu bir gece çadırında uyurken öldürttüler",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1194-01-01",
+   "k": "yikilis",
+   "b": "Kutluğ İnanç II. Tuğrul'u öldürdü; Irak Selçuklu hânedanı sona erdi",
+   "gun": "Cemâziyelâhir 590 / Haziran 1194 (gün bilinmiyor)",
+   "yer": "Rey yakınları",
+   "kisiler": "Kutluğ İnanç, II. Tuğrul, Alâeddin Tekiş",
+   "d": "Kutluğ İnanç'ın çağırdığı Harizmşah Tekiş Irâk-ı Acem'e yöneldi; onun öncü kuvvetlerine kumanda eden Kutluğ İnanç Tuğrul'u yenip başını kestirdi ve Irak Selçuklu hânedanına son verdi.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Kutluğ İnanç, Tuğrul’u yenip başını kestirerek Irak Selçuklu hânedanına son verdi (Cemâziyelâhir 590 / Haziran 1194).",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "harizmsah",
+    "ildenizli",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "yikilis",
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1210-01-01",
+   "k": "hanedan",
+   "b": "İldenizli Ebû Bekir öldü; kardeşi Özbek geçti",
+   "gun": "607/1210 (gün bilinmiyor)",
+   "yer": "Tebriz",
+   "kisiler": "Ebû Bekir, Özbek",
+   "d": "Gürcüler karşısında âciz kalıp bir Gürcü prensesiyle evlenen Ebû Bekir aynı yıl öldü. Arrân-Azerbaycan tahtına kardeşi Özbek geçti.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Sonuçta özellikle Gürcüler karşısında âciz kalan Ebû Bekir çareyi bir Gürcü prensesiyle evlenmekte bulduysa da aynı yıl içerisinde öldü (607/1210).",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli",
+    "gurcistan"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1224-01-01",
+   "k": "olay",
+   "b": "Özbek Harizmli kaçakları önce korudu, sonra Moğollara teslim etti",
+   "gun": "621/1224 (gün bilinmiyor)",
+   "yer": "Azerbaycan",
+   "kisiler": "Özbek",
+   "d": "Cengiz Han'dan kaçan Harizmlileri himayesine alan Özbek, Moğol baskısı üzerine onları teslim etmek zorunda kaldı. Ertesi yıl Celâleddin Harizmşah Tebriz'e yürüdü.",
+   "kaynak": "TDV: ildenizliler (İLDENİZLİLER)",
+   "alinti": "Özbek, 621’de (1224) İran’ı istilâ eden Cengiz Han’dan kaçan Hârizmliler’i önce himayesine aldı; fakat sonra Moğollar’ın baskısı üzerine onları teslime mecbur kaldı.",
+   "alinti_slug": "ildenizliler",
+   "taraflar": [
+    "ildenizli",
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1120-01-01",
+   "k": "olay",
+   "b": "Aksungur el-Ahmedîlî Merâga'ya gönderildi",
+   "gun": "1120 (gün bilinmiyor)",
+   "yer": "Merâga",
+   "kisiler": "Aksungur el-Ahmedîlî, Sultan Mahmud",
+   "d": "Sultan Mahmud, kardeşi Mesud'un atabegi Porsukī'nin Merâga'ya atandığını duyunca Bağdat'taki Aksungur el-Ahmedîlî'yi derhal Merâga'ya gönderdi.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti": "o sırada Bağdat’ta bulunan Aksungur el-Ahmedîlî’yi derhal Merâga’ya gönderdi (1120).",
+   "alinti_slug": "ahmedililer",
+   "taraflar": [
+    "irak-selcuklu",
+    "ahmedili"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1132-01-01",
+   "k": "savas",
+   "b": "Aksungur Hemedan önünde yenildi; Tuğrul Merâga ve Tebriz'i aldı",
+   "gun": "1132 (gün bilinmiyor)",
+   "yer": "Hemedan, Merâga, Tebriz",
+   "kisiler": "Aksungur el-Ahmedîlî, Sultan Dâvud, II. Tuğrul (Selçuklu)",
+   "d": "Şehzade Dâvud'la Azerbaycan'a hâkim olan Aksungur Hemedan'daki Tuğrul'a yürüdü, ancak yenildi. Tuğrul Merâga ve Tebriz'i ele geçirdi; Aksungur Dâvud ile Bağdat'a kaçtı.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti": "Hemedan’da bulunan Tuğrul üzerine yürüdü, fakat mağlûp oldu (1132). Tuğrul, Merâga ve Tebriz’i ele geçirdi.",
+   "alinti_slug": "ahmedililer",
+   "taraflar": [
+    "irak-selcuklu",
+    "ahmedili"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1133-01-01",
+   "k": "hanedan",
+   "b": "Aksungur el-Ahmedîlî Bâtınîlerce öldürüldü",
+   "gun": "527/1133 (gün bilinmiyor)",
+   "yer": "Karategin çayırı",
+   "kisiler": "Aksungur el-Ahmedîlî, Arslanapa",
+   "d": "Tuğrul'u yenip Hemedan'ı alan Aksungur kısa süre sonra Bâtınî fedaileri tarafından öldürüldü. Yerine oğlu Arslanapa (II. Aksungur) geçti.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti": "Kısa bir müddet sonra da Karategin çayırında Bâtınîler tarafından öldürüldü (527/1133).",
+   "alinti_slug": "ahmedililer",
+   "taraflar": [
+    "ahmedili",
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": "Bâtınî faillerin Alamut devletine bağlılığı TDV'de açık değil; taraf 'alamut-nizari' koordinatörce kaldırılabilir."
+  },
+  {
+   "t": "1205-01-01",
+   "k": "antlasma",
+   "b": "Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû Bekir'e bıraktı",
+   "gun": "602/1205-1206 (gün bilinmiyor)",
+   "yer": "Merâga, Urmiye, Uşnu",
+   "kisiler": "Alâeddin Körpearslan, Ebû Bekir",
+   "d": "Erbil hâkimi Kökböri ile ittifak kuran Alâeddin'e karşı İldenizli Ebû Bekir Merâga'ya yürüdü; Alâeddin Urmiye ve Uşnu karşılığında şehri terk etti.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti": "Alâeddin 602 (1205-1206) yılında İldenizli Ebû Bekir’e karşı Erbil hâkimi Muzafferüddin Kökböri ile ittifak yaptı",
+   "alinti_slug": "ahmedililer",
+   "taraflar": [
+    "ildenizli",
+    "ahmedili"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "toprak-kazanc",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1221-01-01",
+   "k": "fetih",
+   "b": "Moğollar Merâga'yı zaptetti",
+   "gun": "1221 (gün bilinmiyor)",
+   "yer": "Merâga",
+   "kisiler": "",
+   "d": "Moğol akınında Merâga düştü; o sırada Ahmedîlî hânedanının başında Revândiz Kalesi'nde oturan bir kadın bulunuyordu.",
+   "kaynak": "TDV: ahmedililer (AHMEDÎLÎLER)",
+   "alinti": "İbnü’l-Esîr, Moğollar Merâga’yı zaptettikleri sırada (1221) hânedanın başında bir kadın bulunduğunu ve Revândiz Kalesi’nde ikamet ettiğini belirtir.",
+   "alinti_slug": "ahmedililer",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "ahmedili"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Merâga 1208-09'dan beri İldenizlilerde; Moğol zaptı İldenizli kaybıdır, ildenizli de taraf olabilir."
+  },
+  {
+   "t": "1091-01-01",
+   "k": "savas",
+   "b": "Melikşah'ın Alamut kuşatması sonuçsuz kaldı",
+   "gun": "484/1091 (gün bilinmiyor)",
+   "yer": "Alamut",
+   "kisiler": "Sultan Melikşah, Yoruntaş, Hasan Sabbâh",
+   "d": "Melikşah'ın emriyle Alamut'u kuşatan Yoruntaş'ın ölümü harekâtı sonuçsuz bıraktı. Ardından Nizâmülmülk'ün bir fidâîce öldürülmesi ve Melikşah'ın ölümü (1092) yeni seferi de durdurdu.",
+   "kaynak": "TDV: hasan-sabbah (HASAN SABBÂH)",
+   "alinti": "Yoruntaş’ın Alamut’u kuşattığı bir sırada ölmesi (484/1091) harekâtın sonuçsuz kalmasına sebep oldu.",
+   "alinti_slug": "hasan-sabbah",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1094-01-01",
+   "k": "olay",
+   "b": "Nizârî-Müsta'lî ayrılığı: Hasan Sabbâh Fâtımîlerle ilişkiyi kesti",
+   "gun": "487/1094 (gün bilinmiyor)",
+   "yer": "Alamut",
+   "kisiler": "Hasan Sabbâh, Müsta'lî-Billâh, Nizâr",
+   "d": "Fâtımî Halifesi Müstansır'ın ölümüyle tahta Müsta'lî geçirilince Hasan Sabbâh isyan edip Nizâr adına hutbe okuttu. Doğu İsmâilîleri Nizârî adıyla Kahire'den koptu.",
+   "kaynak": "TDV: hasan-sabbah (HASAN SABBÂH)",
+   "alinti": "Müstansır’ın ölümü üzerine yerine Efdal b. Bedr el-Cemâlî ve diğer devlet adamlarının desteklediği Müsta‘lî-Billâh geçti (487/1094).",
+   "alinti_slug": "hasan-sabbah",
+   "taraflar": [
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Fâtımîler (fatimi YOK)."
+  },
+  {
+   "t": "1117-07-13",
+   "k": "savas",
+   "b": "Sultan Muhammed Tapar'ın büyük Alamut kuşatması",
+   "gun": "11 Rebîülevvel 511 / 13 Temmuz 1117",
+   "yer": "Alamut",
+   "kisiler": "Muhammed Tapar, Anuş Tegin Şîrgîr, Hasan Sabbâh",
+   "d": "Anuş Tegin Şîrgîr komutasındaki Selçuklu ordusu Alamut'u Nisan 1118'e kadar kuşatıp Nizârîleri açlığa düşürdü. Kale düşmek üzereyken Sultan Muhammed Tapar'ın ölüm haberi geldi ve kuşatma kaldırıldı.",
+   "kaynak": "TDV: hasan-sabbah (HASAN SABBÂH)",
+   "alinti": "11 Rebîülevvel 511’de (13 Temmuz 1117) başlayan Alamut kuşatması Zilhicce ayına (Nisan 1118) kadar sürdü.",
+   "alinti_slug": "hasan-sabbah",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1164-08-08",
+   "k": "olay",
+   "b": "Hasan Alâ Zikrihisselâm 'kıyamet'i ilân etti",
+   "gun": "17 Ramazan 559 / 8 Ağustos 1164",
+   "yer": "Alamut",
+   "kisiler": "Hasan Alâ Zikrihisselâm",
+   "d": "Dördüncü Alamut hâkimi Hasan, Nizâr soyundan imam olduğunu ve kıyamet devrinin başladığını ilân ederek şer'î yükümlülükleri kaldırdı. 1166'da öldürüldü.",
+   "kaynak": "TDV: nizariyye (NİZÂRİYYE)",
+   "alinti": "Dördüncü Alamut hâkimi Hasan Alâ Zikrihisselâm, 17 Ramazan 559 (8 Ağustos 1164) tarihinde kendisinin Nizâr’ın neslinden gelen imam olduğunu",
+   "alinti_slug": "nizariyye",
+   "taraflar": [
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1198-01-01",
+   "k": "savas",
+   "b": "Harizmşah Tekiş'in Alamut kuşatması başarısız oldu",
+   "gun": "595/1198-99 (gün bilinmiyor)",
+   "yer": "Alamut",
+   "kisiler": "Alâeddin Tekiş",
+   "d": "Harizmşah Tekiş de Alamut'u kuşattı, fakat kale düşmedi.",
+   "kaynak": "TDV: alamut (ALAMUT)",
+   "alinti": "552’de (1157) Bâvendîler’den Taberistan Hükümdarı Gazi Rüstem b. Ali b. Şehriyâr, 595’te (1198-99) de Hârizmşah Tekiş tarafından kuşatıldıysa da fethi mümkün olmadı.",
+   "alinti_slug": "alamut",
+   "taraflar": [
+    "harizmsah",
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1010-01-01",
+   "k": "hanedan",
+   "b": "Ebü'l-Feth öldü; Ebü'ş-Şevk Fâris Annâzî başına geçti",
+   "gun": "1010 (gün bilinmiyor)",
+   "yer": "Hulvân",
+   "kisiler": "Ebü'l-Feth Muhammed, Ebü'ş-Şevk Fâris, Mühelhil, Sürhâb",
+   "d": "Hânedanın kurucusu Hulvân'da öldü; yerine oğlu Hüsâmüddevle Ebü'ş-Şevk geçti. Kardeşlerinden Mühelhil Şehrizor'da, Sürhâb Bendenîcîn'de bağımsız hüküm sürdü.",
+   "kaynak": "TDV: annaziler (ANNÂZÎLER)",
+   "alinti": "Ebü’l-Feth 1010’da Hulvân’da öldü, yerine oğlu Hüsâmüddevle Ebü’ş-Şevk Fâris (1010-1046) geçti.",
+   "alinti_slug": "annaziler",
+   "taraflar": [
+    "annazi"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1038-01-01",
+   "k": "fetih",
+   "b": "Ebü'ş-Şevk Karmîsîn, Hulencân ve Erenbe'yi işgal etti",
+   "gun": "430/1038-39 (gün bilinmiyor)",
+   "yer": "Karmîsîn (Kirmanşah)",
+   "kisiler": "Ebü'ş-Şevk Fâris",
+   "d": "Oğuzları durdurup Ukaylîlerden Dakūkā'yı alan Ebü'ş-Şevk, ardından Karmîsîn ile Hulencân ve Erenbe kalelerini yeniden işgal etti.",
+   "kaynak": "TDV: annaziler (ANNÂZÎLER)",
+   "alinti": "430’da (1038-39) ise tekrar Karmîsîn’i, Hulencân ve Erenbe kalelerini işgal etti.",
+   "alinti_slug": "annaziler",
+   "taraflar": [
+    "annazi"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1046-01-01",
+   "k": "hanedan",
+   "b": "Ebü'ş-Şevk Sîrvân Kalesi'nde öldü; Selçuklu baskısı arttı",
+   "gun": "Ramazan 437 / Nisan 1046 (gün bilinmiyor)",
+   "yer": "Sîrvân Kalesi",
+   "kisiler": "Ebü'ş-Şevk Fâris, İbrâhim Yinal, Mühelhil",
+   "d": "İbrâhim Yinal'ın ordusu Hulvân ve Mâhîdeşt'i alırken Dînever'den kaçıp Sîrvân'a sığınan Ebü'ş-Şevk öldü; Annâzîler Mühelhil'in çevresinde toplandı.",
+   "kaynak": "TDV: annaziler (ANNÂZÎLER)",
+   "alinti": "Ebü’ş-Şevk bundan kısa bir süre sonra Sîrvân’da öldü (Ramazan 437 / Nisan 1046).",
+   "alinti_slug": "annaziler",
+   "taraflar": [
+    "annazi",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "toprak-kayip"
+   ]
+  },
+  {
+   "t": "1047-01-01",
+   "k": "fetih",
+   "b": "İbrâhim Yinal Sürhâb'ın Annâzî topraklarını ele geçirdi",
+   "gun": "Aralık 1047 (gün bilinmiyor)",
+   "yer": "Bendenîcîn / Diz-i Mâhkî",
+   "kisiler": "İbrâhim Yinal, Sürhâb",
+   "d": "Selçuklu komutanı İbrâhim Yinal gönderdiği kuvvetlerle Annâzî Sürhâb'ın topraklarını aldı; Annâzîlerin önemli kalesi Sîrvân da kuşatmadan sonra düştü.",
+   "kaynak": "TDV: annaziler (ANNÂZÎLER)",
+   "alinti": "İbrâhim Yinal gönderdiği kuvvetlerle Aralık 1047’de Sürhâb’ın topraklarını da ele geçirdi.",
+   "alinti_slug": "annaziler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "annazi"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1101-01-01",
+   "k": "savas",
+   "b": "Salgurlu Türkmenleri Annâzî ülkesini Dakūkā ve Şehrizor dışında ele geçirdi",
+   "gun": "495/1101-1102 (gün bilinmiyor)",
+   "yer": "Huftîzgān",
+   "kisiler": "Sürhâb b. Bedr, Karabuli",
+   "d": "Huftîzgān Kalesi'ni alan Sürhâb b. Bedr, Salgurlu Türkmenlerinden Karabuli'ye yenilip dağa kaçtı; Türkmenler Dakūkā ve Şehrizor dışında bütün ülkesini ele geçirdi.",
+   "kaynak": "TDV: annaziler (ANNÂZÎLER)",
+   "alinti": "Türkmenler’in, Dakūkā ile Şehrizor hariç, bütün ülkesini ele geçirdiklerini kaydeder.",
+   "alinti_slug": "annaziler",
+   "taraflar": [
+    "annazi"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Salgurlu Türkmen boyu (Fars Salgurlu atabegliği değil; salgurlu 1148'de kuruluyor — taraflara YAZILMADI)."
+  },
+  {
+   "t": "1029-01-01",
+   "k": "savas",
+   "b": "Gazneli Mesud Târum Sellârı İbrâhim'i ele geçirip vergiye bağladı",
+   "gun": "420/1029 (gün bilinmiyor)",
+   "yer": "Kazvin / Sercihan",
+   "kisiler": "Gazneli Mesud, Sellâr İbrâhim b. Merzübân",
+   "d": "Gazneli ordusunu Kazvin'den çıkaran Sellâr İbrâhim'e karşı Rey'deki Mesud yürüdü; ilk karşılaşmada başarısız olsa da sonraki saldırıda onu yakalayıp vergiye bağladı.",
+   "kaynak": "TDV: musafiriler (MÜSÂFİRÎLER)",
+   "alinti": "ilk karşılaşmada başarısız olduysa da ardından gerçekleştirdiği saldırı sonunda (420/1029) onu ele geçirip vergiye bağladı",
+   "alinti_slug": "musafiriler",
+   "taraflar": [
+    "gazneli",
+    "musafiri"
+   ],
+   "etiket": [
+    "konu-askeri",
+    "toprak-kayip"
+   ]
+  },
+  {
+   "t": "1042-01-01",
+   "k": "antlasma",
+   "b": "Târum Sellârı Tuğrul Bey'i metbû tanıdı",
+   "gun": "434/1042-43 (gün bilinmiyor)",
+   "yer": "Târum",
+   "kisiler": "Tuğrul Bey",
+   "d": "Selçukluların Rey'e ve Cibâl vilâyetlerine hâkim olması üzerine Târum'daki Müsâfirî hükümdarı Tuğrul Bey'e bağlanıp vergi vermeyi kabul etti.",
+   "kaynak": "TDV: musafiriler (MÜSÂFİRÎLER)",
+   "alinti": "Selçuklular’ın 434 (1042-43) yılında Rey’e ve Cibâl vilâyetlerine hâkim olması üzerine Târum Sellârı Tuğrul Bey’i metbû tanımayı ve ona vergi vermeyi kabul etti",
+   "alinti_slug": "musafiriler",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "musafiri"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1158-01-01",
+   "k": "hanedan",
+   "b": "Bâdüsbânî Şehrîveş öldü, Keykâvus geçti; Bâvendîlerle savaş başladı",
+   "gun": "553/1158 (gün bilinmiyor)",
+   "yer": "Rûyân",
+   "kisiler": "Şehrîveş b. Hezâresb, Keykâvus, Şah Gazi Rüstem",
+   "d": "Şehrîveş'in ölümüyle kardeşi Keykâvus Rûyân'ın başına geçti. Keykâvus ile Bâvendî Şah Gazi Rüstem arasında şiddetli savaşlar çıktı.",
+   "kaynak": "TDV: badusbaniler (BÂDÜSBÂNÎLER)",
+   "alinti": "Şehrîveş’in ölümüyle (553/1158) yerine kardeşi Keykâvus (ö. 580/1184 [?]) geçti.",
+   "alinti_slug": "badusbaniler",
+   "taraflar": [
+    "badusbani",
+    "bavendi"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1185-01-01",
+   "k": "savas",
+   "b": "Bâvendî Erdeşîr Bâdüsbânî Hezâresb'i yendi; Rûyân'a kendi adayını atadı",
+   "gun": "tahminî 581/1185",
+   "yer": "Rûyân",
+   "kisiler": "Hezâresb b. Şehrîveş, Hüsâmüddevle Erdeşîr",
+   "d": "Bâvendî Şah Erdeşîr'e yenilen Hezâresb, Hemedan'daki Irak Selçuklu Sultanı Tuğrul'a sığındı ve ülkesine dönemeden öldü. Erdeşîr Rûyân'a Keykâvus'un torunu Zerrînkemer'i hükümdar tayin etti.",
+   "kaynak": "TDV: badusbaniler (BÂDÜSBÂNÎLER)",
+   "alinti": "Hezâresb Bâvendîler’den Şah Erdeşîr’e yenilince, kardeşiyle beraber Hemedan’da bulunan Irak Selçuklu Sultanı Tuğrul’un yanına sığındı (tahminî 581/1185).",
+   "alinti_slug": "badusbaniler",
+   "taraflar": [
+    "bavendi",
+    "badusbani"
+   ],
+   "etiket": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "ic_not": "TDV yılı 'tahminî' diye veriyor."
+  },
+  {
+   "t": "1272-01-01",
+   "k": "hanedan",
+   "b": "Bâdüsbânî Şehrâkim öldü",
+   "gun": "671/1272-73 (gün bilinmiyor)",
+   "yer": "Rûyân",
+   "kisiler": "Şehrâkim b. Nâmâver, Abaka Han",
+   "d": "Hülâgû ve Abaka'nın seferlerine katılıp sonra Moğol ordusunu terk eden, Abaka'nın gönderdiği Gazan Bahadır'dan özür dileyerek yarlık alan Şehrâkim öldü; yerine oğlu Şah Gazi geçti.",
+   "kaynak": "TDV: badusbaniler (BÂDÜSBÂNÎLER)",
+   "alinti": "Bâdüsbânîler’den Şehrâkim b. Nâmâver (ö. 671/1272-73), Hülâgû ile Abaka’nın İran’daki istilâ harekâtına katıldı.",
+   "alinti_slug": "badusbaniler",
+   "taraflar": [
+    "badusbani",
+    "ilhanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1068-01-01",
+   "k": "antlasma",
+   "b": "Şirvanşah Ferîburz Alparslan'a itaat etti",
+   "gun": "1068 (gün bilinmiyor)",
+   "yer": "Şirvan",
+   "kisiler": "Ferîburz, Sultan Alparslan",
+   "d": "Sultan Alparslan'ın Gürcistan seferi sırasında Şirvanşah Ferîburz Selçuklu sultanına itaat arz etti; Şirvanşahlar XI. yüzyılda Selçuklu sultanlarını metbû tanıyıp sikkelerine onların adını koydu.",
+   "kaynak": "TDV: sirvansahlar (ŞİRVANŞAHLAR)",
+   "alinti": "1068’de Gürcistan seferi sırasında Sultan Alparslan’a itaat arzeden Ferîburz ve Ferîdun.",
+   "alinti_slug": "sirvansahlar",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "sirvansah"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "TDV bu bilgiyi Müneccimbaşı'ya dayandırır."
+  },
+  {
+   "t": "1120-01-01",
+   "k": "hanedan",
+   "b": "III. Menûçihr (Hâkān-ı Büzürg) Şirvanşah oldu",
+   "gun": "1120 (gün bilinmiyor)",
+   "yer": "Şemâhî",
+   "kisiler": "III. Menûçihr",
+   "d": "Tabaka-i ulyânın en ünlü hükümdarı III. Menûçihr tahta geçti; Irak Selçuklularına bağlıydı, Bakü Kalesi surlarını yaptırdı ve Hâkānî-yi Şirvânî'yi himaye etti.",
+   "kaynak": "TDV: sirvansahlar (ŞİRVANŞAHLAR)",
+   "alinti": "el-Melikü’l-Muazzam Hâkān-ı Büzürg (Hâkān-ı Ekber) unvanıyla tanınan III. Menûçihr (1120-1160) olduğunu",
+   "alinti_slug": "sirvansahlar",
+   "taraflar": [
+    "sirvansah",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1229-01-01",
+   "k": "hanedan",
+   "b": "Lür-i Büzürg atabegi Hezâresb öldü",
+   "gun": "626/1229 (gün bilinmiyor)",
+   "yer": "Îzec",
+   "kisiler": "Nusreddin Hezâresb, İmâdüddin Pehlivan, Tukli",
+   "d": "Îzec'i başşehir yapıp emirliğin sınırlarını genişleten ve halifeden atabeg unvanı alan Hezâresb öldü; yerine bazı kaynaklara göre İmâdüddin Pehlivan, çoğuna göre Tukli geçti.",
+   "kaynak": "TDV: lur-i-buzurg (LUR-ı BÜZÜRG)",
+   "alinti": "Hezâresb 626’da (1229) öldükten sonra bazı tarihçilere göre yerine oğlu İmâdüddin Pehlivan geçti",
+   "alinti_slug": "lur-i-buzurg",
+   "taraflar": [
+    "lur-i-buzurg"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1258-01-01",
+   "k": "olay",
+   "b": "Lür-i Büzürg atabegi Tukli Hülâgû'nun katliamından kurtulamadı",
+   "gun": "656/1258 (gün bilinmiyor)",
+   "yer": "Luristan",
+   "kisiler": "Tukli, Hülâgû",
+   "d": "Bağdat seferinde ordusunu Hülâgû'ya katan Tukli, katliamdan korkup Luristan'a kaçtı ama kurtulamadı. Moğollar tahta kardeşi Şemseddin Alp Argun'u geçirdi.",
+   "kaynak": "TDV: lur-i-buzurg (LUR-ı BÜZÜRG)",
+   "alinti": "fakat Hülâgû’nun katliamından onun da kurtulamadığını (656/1258) yazmaktadır.",
+   "alinti_slug": "lur-i-buzurg",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "lur-i-buzurg"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ],
+   "ic_not": "1258'de İlhanlı künyesi (f 1256) de var; Hülâgû için ilhanli yazılabilir."
+  },
+  {
+   "t": "1274-01-01",
+   "k": "hanedan",
+   "b": "Alp Argun öldü; Abaka Han'ın sarayında yetişen Yûsuf Şah Lür-i Büzürg'ün başına getirildi",
+   "gun": "672/1274 (gün bilinmiyor)",
+   "yer": "Luristan",
+   "kisiler": "Şemseddin Alp Argun, Yûsuf Şah, Abaka Han",
+   "d": "Moğolların tahrip ettiği yerleri imar eden Alp Argun öldü. Abaka Han Yûsuf Şah'a sonra Huzistan, Kuhgîlûye ve Gülpâyigân'ın yönetimini de verdi.",
+   "kaynak": "TDV: lur-i-buzurg (LUR-ı BÜZÜRG)",
+   "alinti": "Argun’un 672’de (1274) ölümü üzerine emirliğe, gençlik dönemini İlhanlı Hükümdarı Abaka",
+   "alinti_slug": "lur-i-buzurg",
+   "taraflar": [
+    "lur-i-buzurg",
+    "ilhanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1224-01-01",
+   "k": "hanedan",
+   "b": "Lür-i Küçek kurucusu Şücâüddin Hurşîd öldü",
+   "gun": "621/1224 (gün bilinmiyor)",
+   "yer": "Hürremâbâd",
+   "kisiler": "Şücâüddin Hurşîd, Seyfeddin Rüstem",
+   "d": "Yeğeni Seyfeddin'in oğlu Bedreddin'i hileyle öldürmesinden sonra yüz yaşındaki Şücâüddin kederinden öldü; yerine Seyfeddin Rüstem geçti.",
+   "kaynak": "TDV: lur-i-kucek (LUR-ı KÜÇEK)",
+   "alinti": "Yeğeni Seyfeddin hileyle oğlu Bedreddin’i öldürünce 100 yaşına varmış olan Şücâüddin oğlunun üzüntüsünden vefat etti (621/1224).",
+   "alinti_slug": "lur-i-kucek",
+   "taraflar": [
+    "lur-i-kucek"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1278-01-01",
+   "k": "hanedan",
+   "b": "Abaka Han Tâceddin'i Lür-i Küçek atabegi tayin etti",
+   "gun": "677/1278-79 (gün bilinmiyor)",
+   "yer": "Hürremâbâd",
+   "kisiler": "Abaka Han, Tâceddin b. Hüsâmeddin Halîl",
+   "d": "Taht kavgalarıyla geçen dönemden sonra İlhanlı Abaka Han Tâceddin'i atabeg atadı; Lür-i Küçek İlhanlı tâbiiyetinde sürdü.",
+   "kaynak": "TDV: lur-i-kucek (LUR-ı KÜÇEK)",
+   "alinti": "Abaka Han, Tâceddin b. Hüsâmeddin Halîl’i atabeg tayin etti (677/1278-79).",
+   "alinti_slug": "lur-i-kucek",
+   "taraflar": [
+    "ilhanli",
+    "lur-i-kucek"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1228-01-01",
+   "k": "hanedan",
+   "b": "Kutluğ Han Barak Gıyâseddin Pîrşah'ı Kirman'a çağırıp annesiyle evlendi",
+   "gun": "1228 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Barak Hâcib, Gıyâseddin Pîrşah",
+   "d": "Moğollara tâbi olan Barak, ağabeyi Celâleddin'le anlaşmazlığa düşen Harizmşah şehzadesi Gıyâseddin'i Kirman'a davet edip annesiyle evlendi; zehirleme planını öğrenince ikisini de öldürttü ve halifeden Kutluğ Sultan unvanı aldı.",
+   "kaynak": "TDV: kutlughanlilar (KUTLUĞHANLILAR)",
+   "alinti": "Kendisi de ağabeyi Celâleddin Hârizmşah ile anlaşmazlığa düşen Gıyâseddin Pîrşah’ı Kirman’a davet edip annesiyle evlendi (1228).",
+   "alinti_slug": "kutlughanlilar",
+   "taraflar": [
+    "kutlughanli",
+    "harizmsah"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1235-01-01",
+   "k": "hanedan",
+   "b": "Barak öldü; Kutbüddin Muhammed geçti, Moğollar Rükneddin'i tahta çıkardı",
+   "gun": "1235 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Barak Hâcib, Kutbüddin Muhammed, Rükneddin Mübârek Hoca",
+   "d": "Sîstan'ı almaya çalışan Moğol ordusuna yardım eden Barak öldü. Yerine yeğeni Kutbüddin geçti, ama kısa süre sonra Moğollar Barak'ın oğlu Rükneddin'i tahta çıkardı.",
+   "kaynak": "TDV: kutlughanlilar (KUTLUĞHANLILAR)",
+   "alinti": "1235’te Sîstan’ı zaptetmeye çalışan Moğol ordusuna yardım eden Barak aynı yıl öldü.",
+   "alinti_slug": "kutlughanlilar",
+   "taraflar": [
+    "kutlughanli",
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1252-01-01",
+   "k": "hanedan",
+   "b": "Kutbüddin Kirman'a döndü; Rükneddin kaçtı",
+   "gun": "650/1252 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Kutbüddin Muhammed, Rükneddin Mübârek Hoca, Mengü Han",
+   "d": "Mengü Han döneminde Kirman'a gelen Kutbüddin tahtı geri aldı; kaçan Rükneddin halifeden, Lur atabeginden ve Mengü Han'dan yardım istediyse de sonuç alamadı ve öldürüldü.",
+   "kaynak": "TDV: kutlughanlilar (KUTLUĞHANLILAR)",
+   "alinti": "Kutbüddin’in 650 (1252) yılında Kirman’a gelmesi üzerine kaçmak zorunda kalan Rükneddin",
+   "alinti_slug": "kutlughanlilar",
+   "taraflar": [
+    "kutlughanli",
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1257-01-01",
+   "k": "hanedan",
+   "b": "Kutbüddin öldü; Kutluğ Terken Hatun Kirman'ın fiilî hükümdarı oldu",
+   "gun": "655/1257 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Kutbüddin Muhammed, Kutluğ Terken Hatun, Haccâc",
+   "d": "Kutbüddin'in ölümüyle oğlu Haccâc küçük olduğundan Kirman ileri gelenleri ve Moğol beyleri Terken Hatun'un hükümdarlığına karar verdi; saltanat resmen Haccâc'ın, fiilen onun elindeydi.",
+   "kaynak": "TDV: kutlughanlilar (KUTLUĞHANLILAR)",
+   "alinti": "Kutbüddin ölünce (655/1257) Kirman’ın ileri gelenleriyle bazı Moğol beylerinin de bulunduğu bir mecliste",
+   "alinti_slug": "kutlughanlilar",
+   "taraflar": [
+    "kutlughanli"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1255-01-01",
+   "k": "olay",
+   "b": "Hülâgû Şemseddin Kert'in Herat hâkimliğini onayladı",
+   "gun": "653/1255 (gün bilinmiyor)",
+   "yer": "Herat",
+   "kisiler": "Şemseddin Kert, Hülâgû",
+   "d": "Moğolların 1244'te Herat'a atadığı Şemseddin Kert'in hâkimiyeti Hülâgû tarafından onaylandı; şehirde Kert hânedanı yerleşti.",
+   "kaynak": "TDV: herat (HERAT)",
+   "alinti": "bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu.",
+   "alinti_slug": "herat",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "kert"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "Kert için TDV'de başka tarihli 1281 öncesi olay bulunamadı (EN AZ 3 şartı karşılanamadı)."
+  }
+ ],
+ "bulunamadi": [
+  "Hasanveyhîler (Hasanûyîler) — TDV'de madde yok (302: hasanveyhiler, hasenveyhiler, hasneveyhiler, hasnuyeler; arama 'Hasanveyh'/'Hasenveyh' boş). Yalnız annaziler maddesinde 'Bedr b. Hasanveyh 979-1014 Hemedan ve Dînever' cümlesi var — künye için yetmez.",
+  "Şebânkâre Emirliği (Fars, 1056-XIV. yy) — TDV'de madde yok (302: sebankare, sebankareler, sebankare-atabegleri, sebankareliler; arama boş). buveyhiler/selcuklular/kavurd-bey maddelerinde Fazlûye'nin 1056'da Fars'ı alışı ve 1062'de Kavurd'a yenilişi geçiyor; kuruluş/bitiş tarihi yok.",
+  "Kertler — ayrı TDV maddesi yok (302: kertler, kert-hanedani, kurt-hanedani; arama boş); herat maddesinden çalışıldı.",
+  "Lur-i Büzürg için 'lur'/'hazaraspiler' 302/boş; doğru slug 'lur-i-buzurg' (hezaresbiler → bk. LUR-ı BÜZÜRG), Lur-i Küçek 'lur-i-kucek'.",
+  "BAŞKA BÖLGE / BAŞKA GRUP (eklemedim): Kirman Selçukluları (kirman-selcuklulari 'bk.' yönlendirmesi; Selçuklu grubu) · Şeddâdîler · Mervânîler · Mezyedîler (Irak) · Sâcoğulları (1000 öncesi biter)."
+ ]
+}

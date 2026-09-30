@@ -1,0 +1,1166 @@
+{
+ "oturum": "ONCE1281-ORTADOGU",
+ "tarih": "2026-09-30",
+ "kusak": "1000-01-01 → 1281-01-01",
+ "bolge": "Irak · el-Cezîre · Suriye · Mısır · Arabistan · Yemen · Haçlı devletleri",
+ "sayim": {
+  "yeni": 30,
+  "genislet": 2,
+  "dokunmadim": 6
+ },
+ "kunyeler": [
+  {
+   "islem": "yeni",
+   "id": "abbasi",
+   "ad": "Abbâsî Hilâfeti",
+   "tur": "hilafet",
+   "bolge": "mezopotamya",
+   "f": "0749-11-28",
+   "t": "1258-02-10",
+   "baskent": "Kûfe → Bağdat",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "750-1258 arasında hüküm süren, merkezi Bağdat olan Sünnî hilâfet. 945-1055 Büveyhî, 1055 sonrası Selçuklu vesâyetinde kaldı; Müsterşid ve Nâsır-Lidînillâh dönemlerinde dünyevî güç yeniden kazanıldı; 1258'de Hülâgû Bağdat'ı alınca yıkıldı.",
+   "kaynak": "TDV: abbasiler (ABBÂSÎLER); bagdat; mustasim-billah",
+   "ic_not_f": "TDV abbasiler: \"28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi.\" (koordinatör ölçümü, devralındı)",
+   "ic_not_t": "TDV bagdat: \"İki yıl sonra 10 Şubat 1258’de Moğollar Bağdat’a saldırdılar\"; TDV mustasim-billah: \"… Müsta‘sım-Billâh 4 Safer 656 (10 Şubat 1258) tarihinde üç oğluyla beraber teslim oldu.\" DİKKAT: aynı maddede halifenin ölümü \"(20 Muharrem 656 / 27 Ocak 1258)\" diye yazılmış — teslimden önceki bir gün; TDV kendi içinde çelişiyor (tuzak ⑥), t teslim günüdür.",
+   "kronoloji": [
+    {
+     "t": "0749-11-28",
+     "tur": "kurulus",
+     "b": "Kûfe'de Ebü'l-Abbas'a biat edildi; Abbâsî hilâfeti kuruldu",
+     "kaynak": "TDV: abbasiler"
+    },
+    {
+     "t": "1258-02-10",
+     "tur": "son",
+     "b": "Halife Müsta‘sım Hülâgû'ya teslim oldu; Bağdat düştü, Abbâsî hilâfeti yıkıldı",
+     "kaynak": "TDV: mustasim-billah; bagdat",
+     "taraflar": [
+      "abbasi",
+      "ilhanli"
+     ]
+    }
+   ]
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "buveyhi",
+   "f": "932-01-01",
+   "t": "1062-01-01",
+   "ic_not_f": "Künye bu oturum çalışırken başka bir oturumun önerisiyle devletler.js'e girdi (evren 721→779). Yeniden AÇILMADI. Bu oturumun ölçümü: f 0932-01-01 · t 1056-01-01 · TDV buveyhiler başlık: \"932-1062 yılları arasında İran ve Irak’ta hüküm süren Deylem asıllı bir hânedan.\"; gövde: Ali \"güneye inerek İsfahan’ı işgal etti (932).\" Gün yok → 0932-01-01 (TDV yıl verir). · TDV buveyhiler: \"Ancak Şebânkâre emîrlerinden Fazlûye, Ebû Mansûr’u mağlûp ederek öldürttü (1056) ve Fars’taki Büveyhî hâkimiyetine son verdi.\" Başlıktaki 1062, Kavurd'un Şîraz'ı FAZLÛYE'den alışıdır (Temmuz 1062), Büveyhî'den değil — gövde 1056'yı Büveyhî'nin sonu olarak tarihliyor. Koordinatör başlığı (1062) tercih ederse 1056-1062 Fars'ın sahibi Şebânkâre (kimliği yok) sorusu doğar. Gün yok → 1056-01-01."
+  },
+  {
+   "islem": "yeni",
+   "id": "ukayli",
+   "ad": "Ukaylîler",
+   "tur": "emirlik",
+   "bolge": "mezopotamya",
+   "f": "0990-01-01",
+   "t": "1096-01-01",
+   "baskent": "Musul",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Musul merkezli, Irak, el-Cezîre ve Kuzey Suriye'de hüküm süren Arap (Benî Ukayl) hânedanı. Önce Büveyhîler'e, sonra Selçuklular'a tâbi oldu; Musul hâkimiyeti 1096'da Kürboğa'nın şehri almasıyla bitti, küçük kolları XII. yüzyıla kadar sürdü.",
+   "kaynak": "TDV: ukayliler (UKAYLÎLER)",
+   "ic_not_f": "TDV ukayliler: \"Cezîretü İbn Ömer ve Beled’i de alan Ebü’z-Zevvâd, Ebû Tâhir İbrâhim ve oğlunu öldürüp Musul’u ele geçirdi (380/990) ve Musul’da Büveyhîler’e bağlı Ukaylîler hânedanı kuruldu.\" Gün yok → 0990-01-01.",
+   "ic_not_t": "TDV ukayliler: \"… Ukaylîler’in Musul’daki hâkimiyeti böylece sona erdi (Zilkade 489 / Kasım 1096).\" Ay biliniyor, gün yok → 1096-01-01, gun: Kasım 1096. Ca‘ber-Rakka kolu 564'te (1169) Zengîler tarafından kaldırıldı — künye t'si Musul koluna göredir (bkz. notlar).",
+   "kronoloji": [
+    {
+     "t": "0990-01-01",
+     "tur": "kurulus",
+     "b": "Ebü'z-Zevvâd Musul'u aldı; Ukaylî hânedanı kuruldu",
+     "kaynak": "TDV: ukayliler"
+    },
+    {
+     "t": "1096-01-01",
+     "tur": "son",
+     "b": "Kürboğa Musul'u aldı; Ukaylîler'in Musul hâkimiyeti sona erdi",
+     "kaynak": "TDV: ukayliler",
+     "gun": "Kasım 1096 (gün bilinmiyor)"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "mezyedi",
+   "ad": "Mezyedîler",
+   "tur": "emirlik",
+   "bolge": "mezopotamya",
+   "f": "0997-01-01",
+   "t": "1163-01-01",
+   "baskent": "Nîl / Câmiayn → Hille (1102)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Benî Esed'in Nâşire koluna mensup, Merkezî Irak'ta (Hille) hüküm süren Şiî Arap emirliği. Büveyhî ve Selçuklu dönemlerinde yarı bağımsız kaldı; I. Sadaka zamanında Vâsıt, Basra ve Tikrît'e yayıldı; 1163'te Halife Müstencid'in birlikleri Hille'yi alarak hânedanı ortadan kaldırdı.",
+   "kaynak": "TDV: mezyediler (MEZYEDÎLER); mustencid-billah",
+   "ic_not_f": "TDV mezyediler: \"Böylece Büveyhîler’in hizmetine giren Senâüddevle Ali b. Mezyed, Bahâüddevle tarafından 387’de (997) muhtemelen Nîl, Fellûce ve Câmiayn’ı içine alan toprakların emîri olarak tanındı.\"",
+   "ic_not_t": "TDV mezyediler: \"Bu sırada Mezyedîler’den 4000 kişi öldürüldü (558/1163)\"; TDV mustencid-billah: \"Batîha ve çevresi yardımlarından ötürü İbn Ma‘rûf’a verildi (558/1163).\" Hicrî 558 = Aralık 1162-Kasım 1163; TDV 1163 yazıyor. Not: 545-558 (1150-1163) arası TDV tablosu \"Selçuklu ve Abbâsî hâkimiyeti altında\" der — Hille 1150'de Sâlârkerd'e, 1156'da Sultan Muhammed'in kumandanlarına geçti.",
+   "kronoloji": [
+    {
+     "t": "0997-01-01",
+     "tur": "kurulus",
+     "b": "Ali b. Mezyed Büveyhîler tarafından emîr tanındı",
+     "kaynak": "TDV: mezyediler"
+    },
+    {
+     "t": "1163-01-01",
+     "tur": "son",
+     "b": "Halife Müstencid'in birlikleri Hille'yi aldı; Mezyedîler ortadan kaldırıldı",
+     "kaynak": "TDV: mezyediler; mustencid-billah",
+     "taraflar": [
+      "mezyedi",
+      "abbasi"
+     ]
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "zengi-musul",
+   "ad": "Zengîler (Musul Atabegliği)",
+   "tur": "atabeglik",
+   "bolge": "mezopotamya",
+   "f": "1127-01-01",
+   "t": "1233-01-01",
+   "baskent": "Musul",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "İmâdüddin Zengî'nin 1127'de Musul valiliğiyle kurduğu Türk atabegliği; Zengî'nin 1146'daki ölümünden sonra ana kol Musul'da kaldı, Suriye Nûreddin Mahmud'un Halep koluna geçti. 1186'da Selâhaddin'e tâbi oldu; 1211 sonrası Bedreddin Lü'lü'ün tahakkümüne girdi, 1233'te son atabegin öldürülmesiyle sona erdi.",
+   "kaynak": "TDV: zengiler (ZENGÎLER)",
+   "ic_not_f": "TDV zengiler: \"İmâdüddin Zengî’nin 521 (1127) yılında Musul valiliğine tayin edilmesiyle kurulan Musul Atabegliği onun el-Cezîre ve Suriye’yi birleştirme mücadelesi sonunda geniş sınırlara ulaştı.\" Gün yok → 1127-01-01.",
+   "ic_not_t": "TDV zengiler: \"… Lü’lü’ tarafından feci şekilde öldürüldü (Rebîülevvel 631 / Aralık 1233).\" + \"Böylece Zengîler hânedanının ana kolu tarihe karışmış oldu.\" Ay biliniyor, gün yok → 1233-01-01, gun: Aralık 1233.",
+   "kronoloji": [
+    {
+     "t": "1127-01-01",
+     "tur": "kurulus",
+     "b": "İmâdüddin Zengî Musul valiliğine atandı; Musul Atabegliği kuruldu",
+     "kaynak": "TDV: zengiler"
+    },
+    {
+     "t": "1233-01-01",
+     "tur": "son",
+     "b": "Son Musul atabegi I. Nâsırüddin Mahmûd Lü'lü' tarafından öldürüldü; Zengîler'in ana kolu sona erdi",
+     "kaynak": "TDV: zengiler",
+     "gun": "Aralık 1233 (gün bilinmiyor)",
+     "taraflar": [
+      "zengi-musul",
+      "lului"
+     ]
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "zengi-halep",
+   "ad": "Zengîler (Halep kolu – Nûreddin Mahmud)",
+   "tur": "atabeglik",
+   "bolge": "suriye-filistin",
+   "f": "1146-01-01",
+   "t": "1183-06-12",
+   "baskent": "Halep (1154'ten sonra Dımaşk da)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "İmâdüddin Zengî'nin ölümünden sonra oğlu Nûreddin Mahmud'un Halep'te kurduğu kol; 1154'te Dımaşk'ı alarak Suriye'yi birleştirdi, Haçlılar'a karşı İslâm cephesinin merkezi oldu. Nûreddin'in 1174'teki ölümünden sonra Selâhaddin Suriye'yi aldı; Halep 12 Haziran 1183'te Eyyûbîler'e geçti.",
+   "kaynak": "TDV: zengiler (ZENGÎLER); sam--suriye; halep",
+   "ic_not_f": "TDV zengiler: \"Onun ölümü üzerine oğullarından Nûreddin Mahmud Zengî Halep’e, büyük oğlu I. Seyfeddin Gazi Musul’a hâkim oldu ve Habur nehri aralarında sınır kabul edildi.\" Zengî'nin ölümü \"(541/1146)\"; gün yok → 1146-01-01 (TDV yıl verir).",
+   "ic_not_t": "TDV zengiler: \"18 Safer 579’da (12 Haziran 1183) Halep’i ele geçiren ve rakipsiz duruma gelen Selâhaddîn-i Eyyûbî, …\" Not: Halep son aylarında (1182-83) Sincar karşılığında II. İmâdüddin Zengî'nin (Sincar kolu) elindeydi.",
+   "kronoloji": [
+    {
+     "t": "1146-01-01",
+     "tur": "kurulus",
+     "b": "İmâdüddin Zengî Ca‘ber kuşatmasında öldürüldü; ülke bölündü, Nûreddin Mahmud Halep'e, Seyfeddin Gazi Musul'a hâkim oldu",
+     "kaynak": "TDV: zengiler",
+     "taraflar": [
+      "zengi-halep",
+      "zengi-musul"
+     ]
+    },
+    {
+     "t": "1183-06-12",
+     "tur": "son",
+     "b": "Selâhaddîn-i Eyyûbî Halep'i aldı; Zengîler'in Halep hâkimiyeti sona erdi",
+     "kaynak": "TDV: zengiler",
+     "taraflar": [
+      "zengi-halep",
+      "eyyubi"
+     ]
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "begteginli",
+   "ad": "Begteginliler (Erbil Atabegliği)",
+   "tur": "beylik",
+   "bolge": "mezopotamya",
+   "f": "1144-01-01",
+   "t": "1232-06-29",
+   "baskent": "Erbil",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Zeynüddin Ali Küçük'ün kurduğu, merkezi Erbil olan Türk beyliği; Şehrizor, Hakkâri, Harran ve Urfa'ya da hükmetti. En parlak dönemini Muzafferüddin Kökböri (1190-1232) zamanında yaşadı; Kökböri'nin 1232'de erkek evlat bırakmadan ölümüyle Erbil Abbâsî halifeliğine geçti.",
+   "kaynak": "TDV: begteginliler (BEGTEGİNLİLER); erbil",
+   "ic_not_f": "TDV begteginliler başlık: \"1144-1232 yılları arasında merkezi Erbil olmak üzere Şehrizor, Hakkâri, Tikrît, Sincar, Harran, Urfa ve civarında hüküm süren bir Türk beyliği.\" ÇELİŞKİ: TDV erbil \"Musul Atabeği İmâdüddin Zengî 1132 yılında Erbil’i ele geçirince burayı kumandanlarından Zeynüddin Ali Küçük b. Begtegin’e iktâ etti.\" der. 1144 başlık yılı alındı (1167'ye kadar Ali Küçük Zengî nâibidir; Erbil 1132-1144 arası zengi-musul içinde sayılabilir).",
+   "ic_not_t": "TDV begteginliler: \"Kendisine halef olabilecek bir erkek evladı olmayan Kökböri 29 Haziran 1232’de Erbil’de öldü.\" TDV erbil: \"Oğlu olmayan Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti (1232).\" Erbil halkının bir süre direnişinin günü verilmiyor.",
+   "kronoloji": [
+    {
+     "t": "1144-01-01",
+     "tur": "kurulus",
+     "b": "Zeynüddin Ali Küçük'ün beyliği (Erbil Atabegliği) başladı",
+     "kaynak": "TDV: begteginliler"
+    },
+    {
+     "t": "1232-06-29",
+     "tur": "son",
+     "b": "Kökböri Erbil'de öldü; Erbil vasiyetle Abbâsî halifeliğine geçti",
+     "kaynak": "TDV: begteginliler; erbil",
+     "taraflar": [
+      "begteginli",
+      "abbasi"
+     ]
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "lului",
+   "ad": "Lü'lü' Hânedanı (Musul)",
+   "tur": "sultanlik",
+   "bolge": "mezopotamya",
+   "f": "1233-01-01",
+   "t": "1259-07-26",
+   "baskent": "Musul",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Zengî atabeglerinin nâibi Bedreddin Lü'lü'ün, son Zengî atabeginin ölümünden sonra el-Melikü'r-Rahîm unvanıyla sultan tanınarak Musul'da kurduğu hâkimiyet. Eyyûbîler'le mücadele etti, Bağdat'ın düşüşünden sonra Hülâgû'ya bağlılık bildirdi; 1259'da öldü.",
+   "kaynak": "TDV: lulu-bedreddin (LÜ’LÜ’, Bedreddin); zengiler",
+   "ic_not_f": "TDV lulu-bedreddin: \"… kendisine saltanat menşuruyla birlikte el-Melikü’r-Rahîm unvanı verilerek sultan ilân edildi (Rebîülevvel 631 / Aralık 1233).\" Gün yok → 1233-01-01, gun: Aralık 1233.",
+   "ic_not_t": "TDV lulu-bedreddin: \"Musul’a döndükten kısa bir süre sonra seksen küsur yaşında vefat etti (3 Şâban 657 / 26 Temmuz 1259) …\" — oğullarının 1259 sonrası hâkimiyeti ve Moğol'a geçiş tarihi (brifteki \"1262 civarı\") TDV'de BULUNAMADI (bkz. bulunamadi). t Lü'lü'ün ölüm günüdür; genişletme akademik kaynak ister.",
+   "kronoloji": [
+    {
+     "t": "1233-01-01",
+     "tur": "kurulus",
+     "b": "Bedreddin Lü'lü' el-Melikü'r-Rahîm unvanıyla Musul sultanı tanındı",
+     "kaynak": "TDV: lulu-bedreddin",
+     "gun": "Aralık 1233 (gün bilinmiyor)"
+    },
+    {
+     "t": "1259-07-26",
+     "tur": "son",
+     "b": "Bedreddin Lü'lü' Musul'da öldü",
+     "kaynak": "TDV: lulu-bedreddin"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "hamdani-halep",
+   "ad": "Hamdânîler (Halep kolu)",
+   "tur": "emirlik",
+   "bolge": "suriye-filistin",
+   "f": "0944-10-29",
+   "t": "1004-01-01",
+   "baskent": "Halep",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Seyfüddevle Ali'nin 944'te Halep'te kurduğu Hamdânî kolu; Bizans'a karşı gazâlarıyla tanındı. 1002'de hâcib Lü'lü' Saîdüddevle'yi zehirleyip yönetimi ele geçirdi, 1004'te Hamdânî prenslerini sürerek kola son verdi.",
+   "kaynak": "TDV: hamdaniler (HAMDÂNÎLER)",
+   "ic_not_f": "TDV hamdaniler: \"Seyfüddevle, 8 Rebîülevvel 333’te (29 Ekim 944) şehre girerek Halife Müstekfî-Billâh ve kendi kardeşi Nâsırüddevle adına hutbe okuttu;\"",
+   "ic_not_t": "TDV hamdaniler: \"… diğer kardeşleri Ebü’l-Heycâ ise ülkeyi terkederek Bizans imparatoruna sığındı (394/1004).\" + \"Böylece Hamdânîler’in Halep koluna son veren Lü’lü’ idareyi tek başına ele geçirmiş oldu.\" Hicrî 394 = Ekim 1003-Ekim 1004; TDV 1004 yazıyor → 1004-01-01.",
+   "kronoloji": [
+    {
+     "t": "0944-10-29",
+     "tur": "kurulus",
+     "b": "Seyfüddevle Halep'e girdi; Hamdânîler'in Halep kolu kuruldu",
+     "kaynak": "TDV: hamdaniler"
+    },
+    {
+     "t": "1004-01-01",
+     "tur": "son",
+     "b": "Lü'lü' Hamdânî prenslerini sürdü; Halep kolu sona erdi",
+     "kaynak": "TDV: hamdaniler",
+     "ic_not_t": "hicrî 394 = 1003-04, TDV 1004 verir"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "numeyri",
+   "ad": "Nümeyrîler (Nümeyroğulları)",
+   "tur": "emirlik",
+   "bolge": "mezopotamya",
+   "f": "0991-01-01",
+   "t": "1083-01-01",
+   "baskent": "Harran",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Benî Nümeyr b. Âmir kabilesinden, Hamdânî valisi Vessâb b. Sâbık'ın 991'de bağımsızlık ilânıyla Harran'da kurulan Arap emirliği; 1025'e kadar Urfa'yı da elinde tuttu. Harran 1083'te Ukaylî Şerefüddevle Müslim b. Kureyş'in eline geçti.",
+   "kaynak": "TDV: harran (HARRAN); sanliurfa; cezire",
+   "ic_not_f": "TDV harran: \"991’de Sa‘düddevle ölünce Halep’e bağlı valiler istiklâllerini ilân ettiler.\" + \"Bu sırada Harran valiliği yapan Vessâb b. Sâbık en-Nümeyrî de istiklâlini ilân etti.\" Gün yok → 0991-01-01.",
+   "ic_not_t": "TDV harran: \"1083’te şehir Halep hâkimi Şerefüddevle Müslim b. Kureyş’in eline geçti.\" ÇELİŞKİ: aynı madde \"Harran, 991-1085 yılları arasında Nümeyroğulları’nın (Benî Nümeyr b. Âmir) elinde kaldı.\" der; olay cümlesi (1083) esas alındı, 1085 genel aralık. Rakka'daki Nümeyrî hâkimiyeti TDV rakka maddesinde geçmiyor (ölçüldü: 0 eşleşme).",
+   "kronoloji": [
+    {
+     "t": "0991-01-01",
+     "tur": "kurulus",
+     "b": "Harran valisi Vessâb b. Sâbık en-Nümeyrî bağımsızlığını ilân etti",
+     "kaynak": "TDV: harran"
+    },
+    {
+     "t": "1083-01-01",
+     "tur": "son",
+     "b": "Harran Ukaylî Şerefüddevle Müslim b. Kureyş'in eline geçti; Nümeyrî hâkimiyeti sona erdi",
+     "kaynak": "TDV: harran",
+     "taraflar": [
+      "numeyri",
+      "ukayli"
+     ]
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "fatimi",
+   "ad": "Fâtımî Devleti",
+   "tur": "hilafet",
+   "bolge": "misir-sudan",
+   "f": "0909-01-01",
+   "t": "1171-09-13",
+   "baskent": "Rakkāde → Mehdiye → Sabra (Mansûriye) → Kahire",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "İfrîkıye'de kurulup 969'da Mısır'ı alan, Kahire merkezli İsmâilî-Şiî hilâfeti; XI. yüzyılda Suriye'yi Mirdâsîler, Selçuklular ve Haçlılar karşısında adım adım kaybetti, 1171'de Selâhaddin'in Abbâsî hutbesiyle sona erdi.",
+   "kaynak": "TDV: fatimiler (FÂTIMÎLER, Eymen Fuâd Seyyid); son: TDV eyyubiler",
+   "ic_not_f": "TDV fatimiler başlığı '909-1171'; TDV: fatimiler (\"297 (909) yılında İfrîkıye’de Fâtımî halifeliğini kuran Ubeydullah el-Mehdî’den önce\") — halife ilânı 29 Rebîülâhir 297 / 15 Ocak 910 (Rakkāde); kuşak 1000 sonrası olduğundan f yalnız künye için, gün uydurulmadı.",
+   "ic_not_t": "TDV: eyyubiler (\"Daha sonra Fâtımî hilâfetini ortadan kaldırıp Mısır’da Abbâsîler adına hutbe okuttu (10 Muharrem 567 / 13 Eylül 1171).\")",
+   "kronoloji": [
+    {
+     "t": "0909-01-01",
+     "tur": "kurulus",
+     "b": "Fâtımî halifeliği İfrîkıye'de kuruldu (Ubeydullah el-Mehdî)",
+     "kaynak": "TDV: fatimiler",
+     "gun": "909 (TDV yıl verir; halife ilânı 15 Ocak 910)",
+     "ic_not_t": "1000 öncesi — yalnız künye iskeleti, kronoloji kuşağına girmez"
+    },
+    {
+     "t": "1171-09-13",
+     "tur": "son",
+     "b": "Mısır'da hutbe Abbâsî halifesi adına okundu; Fâtımî hilâfeti sona erdi",
+     "kaynak": "TDV: eyyubiler",
+     "gun": "10 Muharrem 567 / 13 Eylül 1171"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "mirdasi",
+   "ad": "Mirdâsîler",
+   "tur": "emirlik",
+   "bolge": "suriye-filistin",
+   "f": "1024-01-01",
+   "t": "1080-06-18",
+   "baskent": "Halep",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Benî Kilâb kabilesinden Sâlih b. Mirdâs'ın 1024'te Halep'te kurduğu Şiî Arap emirliği; Fâtımîler ile Bizans arasında denge siyaseti güttü, 1080'de Ukaylî Müslim b. Kureyş şehri alınca sona erdi.",
+   "kaynak": "TDV: mirdasiler (MİRDÂSÎLER, Erdoğan Merçil)",
+   "ic_not_f": "TDV: mirdasiler (\"415 (1024) yılında Halep’i ele geçirdi ve Mirdâsîler hânedanının temellerini attı\") — hicrî 415 = Mart 1024-Şubat 1025; TDV 1024 yazar, gün yok.",
+   "ic_not_t": "t = şehrin düştüğü GÜN-KESİN tarih: TDV: mirdasiler (\"(26 Zilhicce 472 / 18 Haziran 1080)\"); hânedanın hukukî sonu iç kalenin teslimidir: TDV: mirdasiler (\"Böylece Müslim, Rebîülâhir 473 (Ekim 1080) tarihinde iç kaleyi alıp Mirdâsîler’in hâkimiyetine son verdi.\") Ay-hassasiyetli tarih kural gereği 1080-01-01'e düşerdi ve şehrin Haziran'daki el değiştirmesinden ÖNCEYE kayardı; bu yüzden en geç gün-kesin tarih seçildi. Koordinatör 1080-01-01 isterse değiştirsin (brif öyle önermişti).",
+   "kronoloji": [
+    {
+     "t": "1024-01-01",
+     "tur": "kurulus",
+     "b": "Sâlih b. Mirdâs Halep'i aldı; Mirdâsî emirliği kuruldu",
+     "kaynak": "TDV: mirdasiler",
+     "gun": "415 (1024) (TDV yıl verir)",
+     "ic_not_t": "hicrî 415 = 1024-25; TDV 1024 yazar"
+    },
+    {
+     "t": "1080-06-18",
+     "tur": "son",
+     "b": "Ukaylî Müslim b. Kureyş Halep'e girdi; Mirdâsî hâkimiyeti sona erdi (iç kale Ekim 1080)",
+     "kaynak": "TDV: mirdasiler",
+     "taraflar": [
+      "mirdasi",
+      "ukayli"
+     ],
+     "gun": "26 Zilhicce 472 / 18 Haziran 1080"
+    }
+   ]
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "suriye-selcuklu",
+   "f": "1079-01-01",
+   "t": "1117-01-01",
+   "ic_not_f": "Künye bu oturum çalışırken başka bir oturumun önerisiyle devletler.js'e girdi (evren 721→779). Yeniden AÇILMADI. Bu oturumun ölçümü: f 1079-01-01 · t 1117-01-01 · TDV: selcuklular (\"Böylece Suriye Selçuklu Devleti kurulmuş oldu (471/1079).\") — hicrî 471 = Temmuz 1078-Haziran 1079; TDV 1079 yazar (tutus maddesi de 471/1079, İbn Asâkir'e göre 472/1079). Gün yok. · TDV: selcuklular (\"Böylece Suriye Selçukluları’nın Halep kolu sona erdi (511/1117).\") — halep maddesi aynı olayı '(511/1117-18)' diye verir: hicrî 511 = Mayıs 1117-Nisan 1118, yıl belirsiz; ilk yıl yazıldı. TDV 'suriye-selcuklulari' slug'ı boilerplate (2170 kr.) — bölüm selcuklular#8'den okundu."
+  },
+  {
+   "islem": "yeni",
+   "id": "boriler",
+   "ad": "Dımaşk Atabegliği (Tuğteginliler / Börîler)",
+   "tur": "atabeglik",
+   "bolge": "suriye-filistin",
+   "f": "1104-06-06",
+   "t": "1154-04-25",
+   "baskent": "Dımaşk",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Dukak'ın atabegi Tuğtegin'in 1104'te Dımaşk'ta kurduğu, Büyük Selçuklu parçalanmasından doğan ilk atabeglik; elli yıl Haçlılara karşı Dımaşk'ı korudu, 1154'te Nûreddin Mahmud Zengî şehri alınca sona erdi.",
+   "kaynak": "TDV: tugteginliler (Gülay Öğün Bezer); tugtegin; selcuklular#8",
+   "ic_not_f": "f = Dukak'ın ölüm günü (Tuğtegin fiilen yönetimi aldı): TDV: selcuklular (\"Dukak’ın ölümüyle (10 Ramazan 497 / 6 Haziran 1104) atabeg Tuğtegin onun yerine çok küçük yaştaki oğlu II. Tutuş’u geçirdi.\") Hânedanın kendi adına kuruluşu: tugtegin '(498/1104)'; Dımaşk Selçuklu melikliğinin resmî sonu Safer 498 / Ekim-Kasım 1104. 1104-01-01 yazılsaydı Dukak'ın sağlığıyla çakışırdı. TDV 'boriler' slug'ı boilerplate (2246 kr.), 'buriler' HTTP 302; madde 'tugteginliler' slug'ında.",
+   "ic_not_t": "TDV: zengiler (\"25 Nisan 1154’te Dımaşk’ı zapteden Nûreddin, Halep ve Dımaşk’ı kendi hâkimiyeti altında birleştirmek suretiyle bölgenin en güçlü hükümdarı oldu.\") · TDV: tugteginliler ay verir (\"Safer 549’da (Nisan 1154)\") — ikisi uyumlu; gün ikinci TDV maddesinden. (Birleştirmede 1154-01-01'den düzeltildi: yıl başı, Dımaşk'ı 4 ay erken zengi-halep'e verirdi.)",
+   "kronoloji": [
+    {
+     "t": "1104-06-06",
+     "tur": "kurulus",
+     "b": "Dukak öldü; Atabeg Tuğtegin Dımaşk'ta yönetimi aldı (Tuğteginliler)",
+     "kaynak": "TDV: selcuklular",
+     "taraflar": [
+      "boriler",
+      "suriye-selcuklu"
+     ],
+     "gun": "10 Ramazan 497 / 6 Haziran 1104"
+    },
+    {
+     "t": "1154-04-25",
+     "tur": "son",
+     "b": "Nûreddin Mahmud Zengî Dımaşk'ı aldı; Tuğteginliler sona erdi",
+     "kaynak": "TDV: tugteginliler",
+     "taraflar": [
+      "boriler",
+      "zengi-halep"
+     ],
+     "gun": "25 Nisan 1154 (gün TDV zengiler'den; tugteginliler yalnız 'Safer 549 / Nisan 1154' verir)"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "munkizogullari",
+   "ad": "Şeyzer Münkızoğulları Emirliği",
+   "tur": "emirlik",
+   "bolge": "suriye-filistin",
+   "f": "1081-01-01",
+   "t": "1157-01-01",
+   "baskent": "Şeyzer",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Kinânî Münkızoğulları'nın Âsi kıyısındaki Şeyzer kalesinde 1081'de kurduğu küçük Arap emirliği; Haçlı, Bizans ve Türk kuşatmalarına direndi, 1157 depreminde ailenin tamamı ölünce sona erdi.",
+   "kaynak": "TDV: seyzer (ŞEYZER); ibn-munkiz",
+   "ic_not_f": "TDV: seyzer (\"Bizans’a tâbi Bâre piskoposunun elindeki Şeyzer’i alıp burada Münkızoğulları Emirliği’ni kurdu (Receb 474 / Aralık 1081).\") — ay biliniyor gün yok ⇒ 1081-01-01. 'munkizogullari' ve 'munkiz-ogullari' slug'ları HTTP 302.",
+   "ic_not_t": "TDV: seyzer (\"Şeyzer, Receb 552’de (Ağustos 1157) meydana gelen depremde büyük yıkıma uğradı, Münkızoğulları’nın tamamı ve daha birçok kişi hayatını kaybetti.\") — ay biliniyor gün yok ⇒ 1157-01-01.",
+   "kronoloji": [
+    {
+     "t": "1081-01-01",
+     "tur": "kurulus",
+     "b": "Sedîdülmülk Ali Şeyzer'i alıp Münkızoğulları emirliğini kurdu",
+     "kaynak": "TDV: seyzer",
+     "gun": "Receb 474 / Aralık 1081 (gün bilinmiyor)"
+    },
+    {
+     "t": "1157-01-01",
+     "tur": "son",
+     "b": "Şeyzer depreminde Münkızoğulları'nın tamamı öldü; şehri Nûreddin Mahmud Zengî tahkim edip kendi valisine verdi",
+     "kaynak": "TDV: seyzer",
+     "taraflar": [
+      "munkizogullari",
+      "zengi-halep"
+     ],
+     "gun": "Receb 552 / Ağustos 1157 (gün bilinmiyor)"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "beni-ammar-trablussam",
+   "ad": "Ammâroğulları (Trablusşam Benî Ammâr Kadıları)",
+   "tur": "emirlik",
+   "bolge": "suriye-filistin",
+   "f": "1070-01-01",
+   "t": "1109-07-23",
+   "baskent": "Trablusşam",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Fâtımî valisinin ölümüyle 1070'te bağımsızlığını ilân eden Trablusşam kadısı İbn Ammâr'ın ailesi; Cebele'den Beyrut'a kıyıyı tuttu, Haçlı kuşatmalarına yıllarca direndi, 1109'da Trablusşam ve Cebele'nin düşmesiyle sona erdi.",
+   "kaynak": "TDV: trablussam; ibn-ammar-fahrulmulk (Abdülkerim Özaydın)",
+   "ic_not_f": "TDV: trablussam (\"Fâtımî valisi Muhtârüddevle’nin 462’de (1070) ölümü üzerine Trablusşam Kadısı Emînüddevle Hasan b. Ammâr bağımsızlığını ilân ederek Ammâroğulları hânedanını kurdu.\") — hicrî 462 = 1069-70; TDV 1070 yazar. 'ammarogullari' slug'ı HTTP 302 (TDV'de AMMÂROĞULLARI maddesi var ama bu slug'la açılmıyor; ilişkili madde künyesi '1070-1109').",
+   "ic_not_t": "TDV: ibn-ammar-fahrulmulk (\"23 Temmuz 1109’da Cebele’yi de ele geçiren Haçlılar Ammâroğulları hânedanına son verdiler.\") ⚠️ Trablusşam şehri 501 (1108)'de Fâtımî hâkimiyetine girmişti (trablussam); 1108-1109 arası hânedanın elinde yalnız Cebele kalmıştı.",
+   "kronoloji": [
+    {
+     "t": "1070-01-01",
+     "tur": "kurulus",
+     "b": "Kadı Emînüddevle İbn Ammâr Trablusşam'da bağımsızlık ilân etti",
+     "kaynak": "TDV: trablussam",
+     "gun": "462 (1070) (TDV yıl verir)",
+     "ic_not_t": "hicrî 462 = 1069-70; TDV 1070 yazar"
+    },
+    {
+     "t": "1109-07-23",
+     "tur": "son",
+     "b": "Haçlılar Cebele'yi aldı; Ammâroğulları hânedanı sona erdi",
+     "kaynak": "TDV: ibn-ammar-fahrulmulk",
+     "taraflar": [
+      "beni-ammar-trablussam",
+      "antakya-prinkipsligi"
+     ],
+     "gun": "23 Temmuz 1109"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "kudus-kralligi",
+   "ad": "Kudüs Haçlı Krallığı",
+   "tur": "krallik",
+   "bolge": "suriye-filistin",
+   "f": "1099-07-15",
+   "t": "1291-05-18",
+   "baskent": "Kudüs (1099-1187) → Akkâ (1191-1291; 1229-1244 Kudüs yeniden elde)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "I. Haçlı Seferi'nin 1099'da Kudüs'ü Fâtımîlerden almasıyla kurulan Latin krallığı; 1187 Hıttîn'den sonra Akkâ merkezli kıyı devletine dönüştü, 1291'de Memlükler Akkâ'yı alınca sona erdi.",
+   "kaynak": "TDV: kudus #3 (Haçlılar Dönemi, Işın Demirkent); haclilar",
+   "ic_not_f": "TDV: kudus (\"Böylece beş hafta süren kuşatmadan sonra şehir düştü (23 Şâban 492 / 15 Temmuz 1099).\") — haclilar başlığı 'Kudüs Krallığı (1099-1291)'.",
+   "ic_not_t": "TDV: haclilar (\"Bir buçuk ay süren çatışmalardan sonra 18 Mayıs 1291’de Akkâ fethedildi.\") — t kuşak sınırı 1281'i aşar; künye t'si gerçek tarihtir (brif).",
+   "kronoloji": [
+    {
+     "t": "1099-07-15",
+     "tur": "kurulus",
+     "b": "Haçlılar Kudüs'ü Fâtımîlerden aldı; Kudüs Krallığı kuruldu",
+     "kaynak": "TDV: kudus",
+     "taraflar": [
+      "kudus-kralligi",
+      "fatimi"
+     ],
+     "gun": "23 Şâban 492 / 15 Temmuz 1099"
+    },
+    {
+     "t": "1291-05-18",
+     "tur": "son",
+     "b": "Memlükler Akkâ'yı fethetti; Kudüs Krallığı sona erdi",
+     "kaynak": "TDV: haclilar",
+     "taraflar": [
+      "kudus-kralligi",
+      "memluk"
+     ],
+     "gun": "18 Mayıs 1291",
+     "ic_not_t": "1281 sonrası — kuşak dışı, yalnız künye iskeleti"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "antakya-prinkipsligi",
+   "ad": "Antakya Prinkepsliği",
+   "tur": "prenslik",
+   "bolge": "suriye-filistin",
+   "f": "1098-06-03",
+   "t": "1268-05-18",
+   "baskent": "Antakya",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "I. Haçlı Seferi'nde Antakya'nın alınmasıyla Bohemund'un kurduğu Norman prinkepsliği; Halep ve Zengîlerle sürekli savaştı, 1268'de Memlük Sultanı Baybars Antakya'yı alınca sona erdi (kalan Lazkiye 1287'de düştü).",
+   "kaynak": "TDV: haclilar (Antakya Prinkepsliği 1098-1268); antakya",
+   "ic_not_f": "TDV: haclilar (\"Fîrûz’un ihaneti sonucunda Antakya Haçlılar’ın eline geçti (3 Haziran 1098).\")",
+   "ic_not_t": "TDV: antakya (\"18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi\") — haclilar: prinkepsliğin son şehri Lazkiye 1287'de alındı; künye t Antakya'nın düşüşüdür.",
+   "kronoloji": [
+    {
+     "t": "1098-06-03",
+     "tur": "kurulus",
+     "b": "Haçlılar Antakya'yı aldı; Bohemund Antakya Prinkepsliği'ni kurdu",
+     "kaynak": "TDV: haclilar",
+     "gun": "3 Haziran 1098",
+     "ic_not_t": "Selçuklu emîri Yağısıyan'ın şehri; Büyük Selçuklu kimliği taraflar listesinde yok"
+    },
+    {
+     "t": "1268-05-18",
+     "tur": "son",
+     "b": "Baybars Antakya'yı aldı; Antakya Prinkepsliği sona erdi",
+     "kaynak": "TDV: antakya",
+     "taraflar": [
+      "antakya-prinkipsligi",
+      "memluk"
+     ],
+     "gun": "18 Mayıs 1268"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "urfa-kontlugu",
+   "ad": "Urfa (Edessa) Haçlı Kontluğu",
+   "tur": "kontluk",
+   "bolge": "mezopotamya",
+   "f": "1098-03-10",
+   "t": "1150-01-01",
+   "baskent": "Urfa (1098-1144) → Tel Bâşir (1144-1150)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Baudouin de Boulogne'un 1098'de Urfa'da kurduğu ilk Haçlı devleti; 1144'te Zengî Urfa'yı fethetti, Fırat'ın batısında Tel Bâşir merkezli kalıntısı 1150'de II. Josselin'in esir düşmesiyle dağıldı.",
+   "kaynak": "TDV: haclilar (Urfa Kontluğu 1098-1144, Işın Demirkent)",
+   "ic_not_f": "TDV: haclilar (\"Urfa Kontluğu Doğu’daki ilk Haçlı devleti oldu.\") kuruluş: '(10 Mart 1098)'.",
+   "ic_not_t": "TDV: haclilar (\"Bununla beraber Haçlılar, II. Josselin’in idaresinde Tel Bâşir merkez olmak üzere Fırat’ın batısında 1150-1151’e kadar varlıklarını sürdürdüler.\") + '1150 yılı ilkbaharında Urfa Kontu II. Josselin Nûreddin’e esir düşünce' (haclilar) ⇒ t = 1150-01-01 (mevsim biliniyor, gün yok). Urfa şehrinin kaybı 1144-12-24 ayrı madde.",
+   "kronoloji": [
+    {
+     "t": "1098-03-10",
+     "tur": "kurulus",
+     "b": "Baudouin de Boulogne Urfa'da hâkimiyetini ilân etti; ilk Haçlı devleti kuruldu",
+     "kaynak": "TDV: haclilar",
+     "gun": "10 Mart 1098"
+    },
+    {
+     "t": "1150-01-01",
+     "tur": "son",
+     "b": "II. Josselin Nûreddin'e esir düştü; kontluğun Fırat batısındaki kalıntısı Bizans'a satılıp dağıldı",
+     "kaynak": "TDV: haclilar",
+     "taraflar": [
+      "urfa-kontlugu",
+      "zengi-halep"
+     ],
+     "gun": "1150 ilkbaharı (gün bilinmiyor)"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "trablus-kontlugu",
+   "ad": "Trablus Haçlı Kontluğu",
+   "tur": "kontluk",
+   "bolge": "suriye-filistin",
+   "f": "1109-07-12",
+   "t": "1289-04-26",
+   "baskent": "Trablusşam",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Raymond de Saint-Gilles'in başlattığı kuşatmanın 1109'da Trablusşam'ın düşmesiyle sonuçlanmasıyla kurulan dördüncü Haçlı devleti; genellikle Kudüs Krallığı'na bağlı kaldı, 1289'da Kalavun şehri alınca sona erdi.",
+   "kaynak": "TDV: haclilar (Trablus Kontluğu 1109-1289); trablussam",
+   "ic_not_f": "TDV: trablussam (\"501 (1108) yılında Fâtımî hâkimiyetine giren şehir 11 Zilhicce 502’de (12 Temmuz 1109) Haçlılar’ın eline geçti ve burada bir Haçlı kontluğu kuruldu (1109).\")",
+   "ic_not_t": "TDV: haclilar (\"Ardından büyük bir orduyla Trablus’u kuşatan Kalavun 26 Nisan 1289’da şehri zaptetti\") — kuşak dışı, künye t'si gerçek tarih.",
+   "kronoloji": [
+    {
+     "t": "1109-07-12",
+     "tur": "kurulus",
+     "b": "Haçlılar Trablusşam'ı aldı; Trablus Kontluğu kuruldu",
+     "kaynak": "TDV: trablussam",
+     "taraflar": [
+      "trablus-kontlugu",
+      "fatimi"
+     ],
+     "gun": "11 Zilhicce 502 / 12 Temmuz 1109",
+     "ic_not_t": "Şehir 1108'den beri Fâtımî hâkimiyetindeydi (trablussam)"
+    },
+    {
+     "t": "1289-04-26",
+     "tur": "son",
+     "b": "Kalavun Trablusşam'ı fethetti; Trablus Kontluğu sona erdi",
+     "kaynak": "TDV: haclilar",
+     "taraflar": [
+      "trablus-kontlugu",
+      "memluk"
+     ],
+     "gun": "26 Nisan 1289",
+     "ic_not_t": "1281 sonrası — kuşak dışı, yalnız künye iskeleti"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "eyyubi",
+   "ad": "Eyyûbî Sultanlığı",
+   "tur": "sultanlik",
+   "bolge": "misir-sudan",
+   "f": "1171-09-13",
+   "t": "1250-04-30",
+   "baskent": "Kahire (Dımaşk ile birlikte; el-Melikü'l-Kâmil'den itibaren Kahire)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Selâhaddîn-i Eyyûbî'nin Fâtımî hilâfetini kaldırmasıyla Mısır'da kurulan, Suriye, el-Cezîre ve Yemen'e yayılan Sünnî sultanlık; Hıttîn ve Kudüs'ün fethiyle Haçlı devletlerini kıyıya sıkıştırdı, 1250'de Turan Şah'ın öldürülmesiyle Mısır'da Memlüklere geçti. Dımaşk, Kerek, Humus ve el-Cezîre kolları bu kimlik altında izlenir.",
+   "kaynak": "TDV: eyyubiler (EYYÛBÎLER, Ramazan Şeşen)",
+   "ic_not_f": "TDV: eyyubiler (\"Daha sonra Fâtımî hilâfetini ortadan kaldırıp Mısır’da Abbâsîler adına hutbe okuttu (10 Muharrem 567 / 13 Eylül 1171).\") — hükümdar listesi 'el-Melikü’n-Nâsır Selâhaddin 567 (1171)'.",
+   "ic_not_t": "TDV: eyyubiler (\"Onun öldürülmesiyle Mısır’da Eyyûbîler devri sona erdi.\") tarih aynı cümlenin öncesinde: '30 Nisan 1250 tarihinde sultanı öldürdüler'. ⚠️ Suriye kolları bu tarihten sonra da sürdü (Dımaşk Mart 1260'a dek Halep'in Yûsuf'unda, Kerek ve Humus 661/1263'e dek) — notlar'a bak.",
+   "kronoloji": [
+    {
+     "t": "1171-09-13",
+     "tur": "kurulus",
+     "b": "Selâhaddin Mısır'da hutbeyi Abbâsîler adına okuttu; Eyyûbî iktidarı başladı",
+     "kaynak": "TDV: eyyubiler",
+     "gun": "10 Muharrem 567 / 13 Eylül 1171"
+    },
+    {
+     "t": "1250-04-30",
+     "tur": "son",
+     "b": "Turan Şah Mansûre'de öldürüldü; Mısır'da Eyyûbî devri sona erdi",
+     "kaynak": "TDV: eyyubiler",
+     "taraflar": [
+      "eyyubi",
+      "memluk"
+     ],
+     "gun": "30 Nisan 1250"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "eyyubi-halep",
+   "ad": "Halep Eyyûbîleri",
+   "tur": "hanedanlik",
+   "bolge": "suriye-filistin",
+   "f": "1186-01-01",
+   "t": "1260-01-01",
+   "baskent": "Halep (1250-1260 Dımaşk da)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Selâhaddin'in oğlu el-Melikü'z-Zâhir Gāzî'nin 1186'dan itibaren yönettiği Halep kolu; Âdil soyunun merkezî sultanlığından bağımsız kaldı, 1250'de Dımaşk'ı da aldı, 1260'ta Hülâgû Halep'i zaptedince sona erdi.",
+   "kaynak": "TDV: halep; eyyubiler (hükümdar listesi 3. Halep Kolu)",
+   "ic_not_f": "TDV: halep (\"Üç yıl sonra el-Melikü’z-Zâhir tekrar Halep’e tayin edildi (582/1186).\") — hicrî 582 = 1186-87, TDV 1186 yazar. ⚠️ eyyubiler hükümdar listesi Halep kolunu 'I. el-Melikü’l-Âdil Seyfeddin 579 (1183)' ile başlatır; 1183-1186 arası Halep merkezî Selâhaddin tayinlilerindeydi (Zâhir, sonra Âdil) — o dilim eyyubi kimliğinde kalmalı; kol 1186'dan.",
+   "ic_not_t": "TDV: eyyubiler (\"1260 yılı başlarında da Halep’i zaptetti.\") — gün yok ⇒ 1260-01-01; son melik Yûsuf 1260'ta Hülâgû tarafından öldürüldü: 'Böylece Eyyûbîler’in Halep kolu da sona erdi.'",
+   "kronoloji": [
+    {
+     "t": "1186-01-01",
+     "tur": "kurulus",
+     "b": "el-Melikü'z-Zâhir Gāzî Halep'e tayin edildi; Halep Eyyûbî kolu başladı",
+     "kaynak": "TDV: halep",
+     "gun": "582 (1186) (TDV yıl verir)",
+     "ic_not_t": "hicrî 582 = 1186-87; TDV 1186 yazar"
+    },
+    {
+     "t": "1260-01-01",
+     "tur": "son",
+     "b": "Hülâgû Halep'i zaptetti; Halep Eyyûbî kolu sona erdi",
+     "kaynak": "TDV: eyyubiler",
+     "taraflar": [
+      "eyyubi-halep",
+      "ilhanli"
+     ],
+     "gun": "1260 başları (gün bilinmiyor)"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "eyyubi-hama",
+   "ad": "Hama Eyyûbîleri",
+   "tur": "beylik",
+   "bolge": "suriye-filistin",
+   "f": "1178-01-01",
+   "t": "1342-01-01",
+   "baskent": "Hama",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Selâhaddin'in yeğeni el-Melikü'l-Muzaffer Takıyyüddin Ömer'e bırakılan Hama'da kurulan Eyyûbî beyliği; XIII. yüzyıl ortasından itibaren Memlüklere tâbi oldu, aralıklarla 1342'ye dek sürdü (tarihçi Ebü'l-Fidâ son bağımsız hükümdarı).",
+   "kaynak": "TDV: hama; eyyubiler",
+   "ic_not_f": "TDV: hama (\"Hama 570’te (1174-75) Selâhaddîn-i Eyyûbî’nin eline geçti.\") + TDV: hama (\"Selâhaddin dört yıl sonra burayı yeğeni el-Melikü’l-Muzaffer Ömer’e bıraktı.\") ⇒ 570+4 = 574 (Haziran 1178-Mayıs 1179) TÜRETİLMİŞ yıl; TDV açık yıl vermez. Paralel Humus kolu açık yazılı: humus--suriye '574’te (1179)'. Yıl ±1 belirsiz; koordinatör kaynağı yetersiz sayarsa f'yi 1179 (Humus'la aynı tayin dalgası) seçebilir.",
+   "ic_not_t": "TDV: eyyubiler (\"Hama Eyyûbîleri bazı aralıklarla 1342 yılına kadar devam etti.\") ⚠️ hama maddesi: 698 (1298-99)'da doğrudan Memlük idaresine girdi, 710/1310'da Ebü'l-Fidâ nâib, 712/1312'de melik — yani 1299-1310 arası kesinti var. Kuşak dışı.",
+   "kronoloji": [
+    {
+     "t": "1178-01-01",
+     "tur": "kurulus",
+     "b": "Selâhaddin Hama'yı yeğeni el-Melikü'l-Muzaffer Ömer'e bıraktı; Hama Eyyûbî kolu kuruldu",
+     "kaynak": "TDV: hama",
+     "gun": "574 (1178-79) — TDV '570 + dört yıl sonra' der, yıl türetilmiş",
+     "ic_not_t": "hicrî 574 = 1178-79, yıl belirsiz; ilk yıl yazıldı; TÜRETİLMİŞ"
+    },
+    {
+     "t": "1342-01-01",
+     "tur": "son",
+     "b": "Hama Eyyûbî beyliği sona erdi",
+     "kaynak": "TDV: eyyubiler",
+     "gun": "1342 (TDV yıl verir)",
+     "ic_not_t": "1281 sonrası — kuşak dışı, yalnız künye iskeleti"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "karmati",
+   "ad": "Bahreyn Karmatî Devleti",
+   "tur": "devlet",
+   "bolge": "arabistan",
+   "f": "0899-01-01",
+   "t": "1076-01-01",
+   "baskent": "Lahsâ (Ahsâ)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Ebû Saîd el-Cennâbî'nin Ahsâ bölgesinde kurduğu müstakil Karmatî devleti. 1067'de Bahreyn adası ile Katîf'i yerel isyanlarla kaybetti; Abdullah b. Ali el-Uyûnî'nin yedi yıllık kuşatması sonunda Lahsâ'nın düşmesiyle (1076) sona erdi.",
+   "kaynak": "TDV: karmatiler (KARMATÎLER); TDV: katif; TDV: lahsa",
+   "ic_not_f": "TDV katif: \"Ebû Saîd el-Cennâbî idaresindeki Karmatîler tarafından zaptedildi (286/899)\" — Katîf dahil bölgenin zaptı; kuruluş için tek yıllı TDV verisi budur. Gün bilinmiyor (TDV yıl verir). TDV karmatiler kuruluşu yılsız anlatır.",
+   "ic_not_t": "TDV karmatiler: \"Yedi yıl süren kuşatmanın sonunda şehir ele geçirildi (469/1076) ve buradaki Karmatî hâkimiyetine kesin olarak son verildi.\" — hicrî 469 = 1076-77, ilk yıl yazıldı; gün bilinmiyor.",
+   "kronoloji": [
+    {
+     "t": "0899-01-01",
+     "tur": "kurulus",
+     "b": "Ebû Saîd el-Cennâbî'nin Karmatîleri Katîf ve Ahsâ bölgesini zaptetti",
+     "kaynak": "TDV: katif"
+    },
+    {
+     "t": "1076-01-01",
+     "tur": "son",
+     "b": "Lahsâ Uyûnîler'e düştü, Bahreyn Karmatî devleti sona erdi",
+     "kaynak": "TDV: karmatiler"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "uyuni",
+   "ad": "Uyûnîler",
+   "tur": "emirlik",
+   "bolge": "arabistan",
+   "f": "1076-01-01",
+   "t": "1236-01-01",
+   "baskent": "Lahsâ (Ahsâ); son dönemde Katîf ve Uvâl (Bahreyn adası)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Abdülkays kabilesinden Abdullah b. Ali el-Uyûnî'nin Karmatîler'i Lahsâ'da yenerek kurduğu doğu Arabistan emirliği. XII. yüzyıldaki hanedan içi bölünmelerle zayıfladı; Lahsâ ve Katîf'i Ukaylî (Usfûrî) bedevîlere, son kalesi Uvâl adasını 1236'da Fars Atabegi Ebû Bekir'e (Salgurlular) kaybetti.",
+   "kaynak": "TDV: karmatiler; TDV: lahsa (uyuniler slug'ı 302 ölü) + akademik: Faisal Adel Ahmad Alwazzan, Politics, Economy and Religion in a Near Eastern Periphery: The Region of Baḥrayn in East Arabia c. 1050 – c. 1400 CE, PhD tezi, University of Edinburgh 2015 (era.ed.ac.uk)",
+   "ic_not_f": "TDV karmatiler: \"Yedi yıl süren kuşatmanın sonunda şehir ele geçirildi (469/1076) ve buradaki Karmatî hâkimiyetine kesin olarak son verildi.\" ⚠️ ÇELİŞKİ: TDV lahsa \"Abdülkays kabilesinden Abdullah b. Ali el-Uyûnî, Karmatîler’e karşı girdiği mücadeleden galip çıktı ve 1073 yılında Uyûnîler Devleti’ni kurdu.\" der; Alwazzan tezi 1077 verir (bölüm başlığı 'ʿUyūnid emirate (1077-1230s CE)'); el-Müdeyris'in eseri 466/1073. Lahsâ'nın düşüşü (TDV karmatiler, daha ayrıntılı madde) esas alındı.",
+   "ic_not_t": "TDV'de BULUNAMADI (uyuniler 302; bahreyn, lahsa, katif, selcuklular, abbasiler, buveyhiler tarandı — son yıl yok). Akademik kaynak Alwazzan 2015, s. 129 (PDF sayfa 130): \"Vaṣṣāf writes that on the third of Dhū al-Ḥijja 633 [August 1236 CE], Abū Bakr invaded Uwāl, defeated and expelled the last ʿUyūnid emir.\" Gün miladîye çevrilmedi (türetme yasağı) → 1236-01-01, 'Ağustos 1236 (gün bilinmiyor)'. Aynı tez Şerhu Dîvân ekinin 633 ve 636/1238 diye iki tarih verdiğini not eder; el-Müdeyris başlığı 466/1073-636/1238. Brifteki '1238/1253?' alternatifleri: 1238 = Şerhu Dîvân'ın ikinci tarihi; 1253 = Usfûrîler'in Bahreyn'deki varlığının ilk tanıklığı, Uyûnî sonu değil.",
+   "kronoloji": [
+    {
+     "t": "1076-01-01",
+     "tur": "kurulus",
+     "b": "Abdullah b. Ali el-Uyûnî Lahsâ'yı alarak Uyûnî emirliğini kurdu",
+     "kaynak": "TDV: karmatiler"
+    },
+    {
+     "t": "1236-01-01",
+     "tur": "son",
+     "b": "Fars Atabegi Ebû Bekir Uvâl'i aldı, son Uyûnî emîri çıkarıldı",
+     "kaynak": "akademik: Alwazzan 2015 (Vaṣṣāf'a dayanarak)"
+    }
+   ]
+  },
+  {
+   "islem": "genislet",
+   "id": "usfuri",
+   "f_eski": "1281-01-01",
+   "f": "1229-01-01",
+   "kaynak": "akademik: Faisal Adel Ahmad Alwazzan, Politics, Economy and Religion in a Near Eastern Periphery: The Region of Baḥrayn in East Arabia c. 1050 – c. 1400 CE, PhD tezi, University of Edinburgh 2015 — TDV'de 'Usfûrî' adı YOK (usfuriler, usfurlular 302; künyedeki 10 Ağustos notu ile aynı sonuç)",
+   "ic_not_f": "Alwazzan 2015, bölüm 4.3 başlığı: \"The Fall of the ʿUyūnid Emirate in al-Aḥsāʾ to the ʿUqaylids in c.1229 CE.\" — tez Lahsâ'nın gerçek hâkimlerini \"ʿUṣfūr ibn Rāshid ibn ʿUmayra and the leaders of the ʿUqaylid tribe\" olarak verir ve Müneccimbaşı'ya dayanarak Usfûr'un 1229'dan ÖNCE resmen emîr olduğunu çıkarır ('If we were to accept it'). ⚠️ 'c.' = yaklaşık; yıl akademisyenin tahminidir, kesin değildir. ALTERNATİF: EI2 (Rentz-Mulligan 'al-Baḥrayn'; G. R. Smith 'ʿUṣfūrids') 651/1253 verir — tezin aktardığına göre bu, İbn Saîd el-Mağribî'nin Benî Usfûr'u 1253'te Bahreyn hâkimi olarak ANMASINA dayanır (kuruluş değil, ilk tanıklık). EI2 metni doğrudan açılamadı (Brill 403). Tez ayrıca 'Usfûrî' yerine 'Ukaylî emirliği' adını önerir — künye adı meselesi koordinatörde.",
+   "kronoloji": [
+    {
+     "t": "1229-01-01",
+     "tur": "kurulus",
+     "b": "Usfûr b. Râşid önderliğindeki Ukaylî bedevîleri Lahsâ'da Uyûnîler'in yerini aldı (yaklaşık tarih)",
+     "kaynak": "akademik: Alwazzan 2015, §4.3"
+    }
+   ]
+  },
+  {
+   "islem": "genislet",
+   "id": "mekke-serifligi",
+   "f_eski": "1281-01-01",
+   "f": "0969-01-01",
+   "kaynak": "TDV: mekke (MEKKE)",
+   "ic_not_f": "TDV mekke: \"Hz. Hasan’ın dokuzuncu kuşaktan torunu Ca‘fer b. Muhammed’in Mekke’yi hâkimiyeti altına alıp hutbeyi Fâtımîler adına okutmasıyla (358/969) şehir Abbâsîler’in kontrolünden çıktı\" — TDV Mûsevîler (Benî Ca‘fer) emirliğini 969-1062 diye tarihler. Gün bilinmiyor (TDV yıl verir).",
+   "kronoloji": [
+    {
+     "t": "0969-01-01",
+     "tur": "kurulus",
+     "b": "Hasenî Ca‘fer b. Muhammed Mekke'ye hâkim oldu, şerif emirliği başladı",
+     "kaynak": "TDV: mekke"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "suleyhi",
+   "ad": "Suleyhîler",
+   "tur": "hanedanlik",
+   "bolge": "arabistan",
+   "f": "1047-01-01",
+   "t": "1138-01-01",
+   "baskent": "San‘a → Zûcible",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Ali b. Muhammed es-Suleyhî'nin Fâtımî halifesine sembolik bağlılıkla kurduğu İsmâilî Yemen hanedanı; Yemen'i birleştirdi, 1063'te Mekke'ye hâkim oldu. Seyyide Hürre Ervâ'nın uzun naipliğinden sonra 1138'de onun ölümüyle topraklarının çoğu Zürey‘îler'e geçti.",
+   "kaynak": "TDV: suleyhiler (SULEYHÎLER)",
+   "ic_not_f": "TDV suleyhiler: \"Bu durum karşısında Suleyhî isyan etti ve Cebelimesâr’ı ele geçirerek İsmâilî davetini yaymak için oraya yerleşti (439/1047 veya 429/1038).\" — madde başlığı 1047-1138; alternatif 1038 not edildi. Gün bilinmiyor.",
+   "ic_not_t": "TDV suleyhiler: \"Seyyide Hürre Ervâ 532 (1138) yılında doksan yaşlarında öldüğünde Suleyhîler’e ait şehir ve kalelerin birçoğu Zürey‘îler’in eline geçmişti.\" — bazı Suleyhî emîrleri XII. yüzyıl sonuna dek birkaç kaleyi tuttu (haritaya yansımaz). Gün bilinmiyor.",
+   "kronoloji": [
+    {
+     "t": "1047-01-01",
+     "tur": "kurulus",
+     "b": "Ali es-Suleyhî Cebelimesâr'ı alarak isyan etti, Suleyhî hanedanı kuruldu",
+     "kaynak": "TDV: suleyhiler"
+    },
+    {
+     "t": "1138-01-01",
+     "tur": "son",
+     "b": "Seyyide Hürre Ervâ öldü; Suleyhî toprakları çoğunlukla Zürey‘îler'e geçti",
+     "kaynak": "TDV: suleyhiler"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "zureyi",
+   "ad": "Zürey‘îler",
+   "tur": "hanedanlik",
+   "bolge": "arabistan",
+   "f": "1080-01-01",
+   "t": "1175-01-01",
+   "baskent": "Aden",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Suleyhîler'in Aden'e yerleştirdiği Hemdânî asıllı İsmâilî dâî ailesi; 1110'da bağımsızlaşıp Güney Arabistan'a yayıldı. Eyyûbîlerin Yemen seferiyle 1175'te sona erdi.",
+   "kaynak": "TDV: zureyiler (ZÜREY‘ÎLER)",
+   "ic_not_f": "TDV zureyiler: \"el-Melikü’l-Mükerrem Ahmed b. Ali komutasındaki ordu Ma‘nîler’i şehirden sürdü (473/1080)\" → Abbas ve Mes‘ûd Aden yönetimine getirildi, \"Böylece Zürey‘îler hânedanının temelleri atılmış oldu.\" Gün bilinmiyor.",
+   "ic_not_t": "TDV zureyiler: \"Böylece bölgeye 100 yıla yakın bir süre hâkim olan Zürey‘îler hânedanı tarihe karıştı (571/1175).\" — brifteki 1174 değil 1175; TDV yemen de 571/1175 der. Dümlüve nâibi Cevher 1188'e kadar tek kale tuttu (haritaya yansımaz).",
+   "kronoloji": [
+    {
+     "t": "1080-01-01",
+     "tur": "kurulus",
+     "b": "Suleyhîler Ma‘nîler'i Aden'den sürüp yönetimi Zürey‘î ailesine verdi",
+     "kaynak": "TDV: zureyiler"
+    },
+    {
+     "t": "1175-01-01",
+     "tur": "son",
+     "b": "Eyyûbîler Aden'de Yâsir b. Bilâl'i idam etti, Zürey‘îler sona erdi",
+     "kaynak": "TDV: zureyiler"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "necahi",
+   "ad": "Necâhîler (Benî Necâh)",
+   "tur": "hanedanlik",
+   "bolge": "arabistan",
+   "f": "1022-01-01",
+   "t": "1159-08-01",
+   "baskent": "Zebîd",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Ziyâdîler'in Habeş asıllı âzatlılarından Necâh'ın Tihâme'de Zebîd merkezli kurduğu Sünnî-Şâfiî hanedan. Suleyhîlerle bir asır Zebîd için savaştı; 1159'da Ali b. Mehdî'nin Zebîd'i almasıyla sona erdi.",
+   "kaynak": "TDV: necahiler (NECÂHÎLER)",
+   "ic_not_f": "TDV necahiler: \"Bunun üzerine Necâh onunla mücadeleye girerek kendisini ve başından beri destekçisi olan Vezir Mercân’ı öldürüp tahta çıktı (Zilkade 412 / Şubat 1022).\" — ay biliniyor, gün bilinmiyor: 1022-01-01, gun 'Şubat 1022 (gün bilinmiyor)'.",
+   "ic_not_t": "TDV necahiler: \"Zebîd’i almaya muvaffak olan Ali b. Mehdî, Necâhî hâkimiyetini sona erdirdi (14 Receb 554 / 1 Ağustos 1159)\" — gün kaynaklı.",
+   "kronoloji": [
+    {
+     "t": "1022-01-01",
+     "tur": "kurulus",
+     "b": "Necâh Zebîd'de tahta çıktı, Necâhî devleti kuruldu",
+     "kaynak": "TDV: necahiler"
+    },
+    {
+     "t": "1159-08-01",
+     "tur": "son",
+     "b": "Ali b. Mehdî Zebîd'e girdi, Necâhî hâkimiyeti sona erdi",
+     "kaynak": "TDV: necahiler"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "hamdani-yemen",
+   "ad": "Yemen Hemdânîleri (San‘a)",
+   "tur": "hanedanlik",
+   "bolge": "arabistan",
+   "f": "1098-01-01",
+   "t": "1174-01-01",
+   "baskent": "San‘a",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Hemdan kabilesinden üç ailenin (Benî Hâtim, Benî Kubeyb, ikinci Benî Hâtim) Fâtımî desteğiyle San‘a'da sürdürdüğü İsmâilî hanedan. Hâtim b. Ahmed döneminde Sa‘de dışında kuzey Yemen'e hâkim oldu; 1174'te Turan Şah San‘a'yı alınca sona erdi.",
+   "kaynak": "TDV: hemdaniler (HEMDÂNÎLER — Yemen); TDV: yemen",
+   "ic_not_f": "TDV hemdaniler: \"Hemdânîler’den Hâtim b. Gaşîm (Ali) el-Mugallisî, San‘a ve civarını ele geçirip kendini sultan ilân ederek (1098) Hemdânîler hânedanını kurdu.\" ⚠️ Sebe b. Ahmed'in ölümü: hemdaniler ve yemen 492 (1098), suleyhiler 491 (1098) der — miladî yıl aynı.",
+   "ic_not_t": "TDV hemdaniler: \"569’da (1174) Selâhaddîn-i Eyyûbî’nin Yemen’i fethetmesi için gönderdiği kardeşi Turan Şah San‘a’yı ele geçirerek Hemdânî saltanatına son verdi.\" — TDV yemen aynı olayı 570/1174 diye verir (hicrî yıl çelişkisi, miladî aynı). Ali b. Hâtim 1203'e kadar birkaç kaleyi tuttu (haritaya yansımaz).",
+   "kronoloji": [
+    {
+     "t": "1098-01-01",
+     "tur": "kurulus",
+     "b": "Hâtim b. Gaşîm San‘a'yı ele geçirip sultanlığını ilân etti",
+     "kaynak": "TDV: hemdaniler"
+    },
+    {
+     "t": "1174-01-01",
+     "tur": "son",
+     "b": "Turan Şah San‘a'yı aldı, Hemdânî saltanatı sona erdi",
+     "kaynak": "TDV: hemdaniler"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "benu-mehdi-zebid",
+   "ad": "Mehdîler (Benî Mehdî, Zebîd)",
+   "tur": "hanedanlik",
+   "bolge": "arabistan",
+   "f": "1159-08-01",
+   "t": "1174-01-01",
+   "baskent": "Zebîd",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Ali b. Mehdî'nin Necâhîler'i yıkarak Zebîd'de kurduğu kısa ömürlü, muhtemelen Hâricî eğilimli hanedan. Oğlu Abdünnebî Aden dışında Yemen'in hemen tamamını aldı; Turan Şah'ın 1174'te Zebîd'i almasıyla sona erdi.",
+   "kaynak": "TDV: mehdiler--yemen (MEHDÎLER); TDV: yemen",
+   "ic_not_f": "TDV mehdiler--yemen: \"Bunun üzerine Ali b. Mehdî, 14 Receb 554’te (1 Ağustos 1159) Zebîd’e girmeyi ve Necâhî (Benî Necâh) Devleti’ne son vermeyi başardı.\" — gün kaynaklı.",
+   "ic_not_t": "TDV yemen: \"Bu hânedan da Eyyûbîler’in 569’da (1174) başşehirleri Zebîd’i ele geçirmesiyle son buldu.\" ⚠️ TDV mehdiler--yemen aynı olayı (569/1173-74) diye verir; kural gereği ilk yıl 1173 olurdu, ama TDV yemen tek yıl (1174) verdiği ve Hemdânî sonu ile aynı seferi tarihlediği için 1174 seçildi. Gün bilinmiyor.",
+   "kronoloji": [
+    {
+     "t": "1159-08-01",
+     "tur": "kurulus",
+     "b": "Ali b. Mehdî Zebîd'i alarak Mehdî hanedanını kurdu",
+     "kaynak": "TDV: mehdiler--yemen"
+    },
+    {
+     "t": "1174-01-01",
+     "tur": "son",
+     "b": "Eyyûbîler Zebîd'i aldı, Mehdîler sona erdi",
+     "kaynak": "TDV: yemen"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "resuli",
+   "ad": "Resûlîler",
+   "tur": "sultanlik",
+   "bolge": "arabistan",
+   "f": "1229-01-01",
+   "t": "1454-01-01",
+   "baskent": "Taiz / Zebîd (sultanlar Cened, Taiz, Zebîd arasında)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Muhtemelen Oğuz asıllı Resûl ailesinden Nûreddin Ömer'in Yemen Eyyûbîleri'nin ardından kurduğu Sünnî sultanlık; Mekke'den Hadramut'a uzandı. 1454'te Tâhirîler'e yenilerek sona erdi.",
+   "kaynak": "TDV: resuliler (RESÛLÎLER)",
+   "ic_not_f": "TDV resuliler: \"Bunlardan Mekke Valisi Nûreddin Ömer b. Ali, Yemen Eyyûbîleri’nin son hükümdarı el-Melikü’l-Mes‘ûd Selâhaddin Atsız’ın ölümünden (626/1229) sonra Yemen’i atabeg sıfatıyla idaresi altına aldı.\" — madde başlığı 1229-1454. Bağımsızlık ilânı 632/1235 (ayrı madde). Gün bilinmiyor.",
+   "ic_not_t": "TDV resuliler: \"Nihayet bu durumdan yararlanarak Aden’e saldıran Tâhirîler 858 (1454) yılında Resûlî topraklarının tamamını ele geçirip hânedana son verdiler.\" — t kuşak dışında; kuşak kronolojisi yalnız 1281'e kadar yazıldı. Var olan `tahiri` künyesiyle bitişiklik koordinatörce sınanmalı.",
+   "kronoloji": [
+    {
+     "t": "1229-01-01",
+     "tur": "kurulus",
+     "b": "Nûreddin Ömer Yemen'i atabeg sıfatıyla idaresine aldı, Resûlî hanedanı başladı",
+     "kaynak": "TDV: resuliler"
+    }
+   ]
+  },
+  {
+   "islem": "yeni",
+   "id": "medine-emirligi",
+   "ad": "Medine Emirliği (Hüseynî emîrler)",
+   "tur": "emirlik",
+   "bolge": "arabistan",
+   "f": "0969-01-01",
+   "t": null,
+   "baskent": "Medine",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Hz. Hüseyin soyundan emîrlerin Medine'yi Fâtımî, Abbâsî-Selçuklu, Eyyûbî ve Memlük nüfuzları arasında, zaman zaman Mekke emîrine bağlı olarak yönettiği yerel emirlik.",
+   "kaynak": "TDV: medine (MEDİNE)",
+   "ic_not_f": "TDV medine: \"358 (969) yılında tekrar Medine’ye hâkim olan Hüseynîler, Abbâsîler yerine Fâtımîler adına hutbe okutmaya başladılar (Makrîzî, I, 172).\" — 'tekrar': Hüseynîler 266/880'de de şehre hâkim olmuştu, arada Tolunoğlu/İhşîdî valileri var; sürekli emirlik başlangıcı olarak 969 alındı. Gün bilinmiyor.",
+   "ic_not_t": "Hüseynî Medine emirliği 1281 penceresini aşar. Bitiş = Osmanlı döneminde Mekke Emirliği'ne bağlanma, yılı bilinmiyor; alt sınır 1517. 1281 SOL kenar işaretidir, t olarak YAZILMADI (D210).",
+   "kronoloji": [
+    {
+     "t": "0969-01-01",
+     "tur": "kurulus",
+     "b": "Hüseynîler Medine'ye yeniden hâkim olup Fâtımîler adına hutbe okuttu",
+     "kaynak": "TDV: medine"
+    }
+   ],
+   "t_durum": "YOL (b) — emirlik 1281 SONRASINA yaşadı, kaynaklı; kesin bitiş yılı TDV'de YOK. Pencere-ucu beyanlı üst sınırı koordinatör yazar (M-5602).",
+   "t_kanit": "TDV: medine (\"İhşîdîler’den sonra Hüseynîler şehri genellikle kendi adlarına, zaman zaman da Hasenî Mekke emirlerine tâbi olarak idare ettiler. Bu durum Osmanlı döneminde Medine’nin Mekke Emirliği’ne bağlanmasına kadar sürdü (Abdülbâsıt Bedr, II, 342).\")",
+   "t_alt_sinir": "1517-01-01",
+   "t_alt_sinir_kanit": "TDV: medine — Osmanlı dönemi 1517'de başlar (\"Medine Osmanlı hâkimiyetine girmiş ve o tarihten itibaren hutbeler Osmanlı padişahları adına\" — Mısır'ın fethi 1517 sonrası). ⇒ Mekke Emirliği'ne bağlanma (emirliğin sonu) 1517'den ÖNCE olamaz. Bağlanmanın yılı TDV'de verilmiyor: bulunamadı."
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "memluk",
+   "ad": "Memlûk Sultanlığı (Mısır-Suriye)",
+   "f": "1250-01-01",
+   "t": "1517-04-13",
+   "ic_not_f": "Künye f yıl hassasiyetinde (1250-01-01) ve TDV ile çelişmiyor. TDV 'eyyubiler' (R. Şeşen): \"Böylece 3 Temmuz 1250 tarihinde Mısır’da Memlükler devri resmen başlamış oldu.\" — gün isteyen olursa dayanak budur; değiştirmedim. Tanecik ölçümü: TDV 'memlukler' (İ. Yiğit) tek devlet, iki DÖNEM: \"Bahrî Memlükleri (Bahriyye, Birinci Memlükler; 1250-1382) ve Burcî Memlükleri (Burciyye, İkinci Memlükler; 1382-1517)\" — paralel kol yok ⇒ tek künye yeterli.",
+   "ic_not_krono": "1250-1281 Memlük iç olayları için bu dosyaya madde YAZILMADI: data/kronoloji_memluk.js (Memlük künyesinin kendi kronolojisi) zaten var; mükerrer riski. Yalnız Eyyûbî/Haçlı/Moğol ile ortak olaylarda memluk taraf olarak eklendi."
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "kibris-krallik",
+   "ad": "Kıbrıs Krallığı (Lüzinyan)",
+   "f": "1192-01-01",
+   "t": "1489-02-26",
+   "ic_not_f": "Kuşakta yaşıyor, künyesi var ve f'si 1281'den önce ⇒ genişletme gerekmiyor. bolge alanı 'anadolu' (Osmanlı komşuluğu mantığı); değiştirmedim."
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "yemen-zeydi",
+   "ad": "Yemen Zeydî İmamlığı",
+   "f": "897-01-01",
+   "t": "1962-09-26",
+   "ic_not_f": "Kuşağı zaten kapsıyor (f 897). Künyeye dokunulmadı; 1000-1281 olaylarından TDV'nin tarihlediği birkaç madde kronoloji dosyasına yemen-zeydi taraflı eklendi (varsa)."
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "eyyubi-hisnikeyfa",
+   "ad": "Hısnıkeyfâ Eyyûbîleri",
+   "f": "1232-01-01",
+   "t": "1462-01-01",
+   "ic_not_f": "Eyyûbî kolu; künyesi var ve bolge 'anadolu'. TDV 'eyyubiler': el-Melikü’l-Kâmil 630 (1232) yılında \"Önce Âmid’i, daha sonra Hısnıkeyfâ’yı zaptederek Artuklular’ın Hısnıkeyfâ koluna son verdi\" — f 1232 ile uyumlu. Dokunmadım (ANADOLU oturumunun kapsamı olabilir)."
+  }
+ ],
+ "bulunamadi": [
+  "[A] Nümeyrîler müstakil TDV maddesi — slug'lar numeyriler, numeyr, benu-numeyr, numeyrogullari (HTTP 302, ölü) · ara 'numeyr' sonuç vermedi · rakka (200) gövdesinde Nümeyr geçmiyor — künye TDV harran + sanliurfa + cezire maddelerinden kuruldu (bulundu, ama devlet maddesi yok)",
+  "[A] Lü'lü' oğullarının 1259 sonrası Musul hâkimiyeti ve Moğollar'a geçiş tarihi (brifteki '1262 civarı') — lulu-bedreddin, zengiler, hulagu (200), ilhanlilar (200) gövdelerinde Musul/Lü'lü' 1259 sonrası olayı yok; musul, musul--sehir, musul-sehir, musul-lulu, musul-atabegligi HTTP 302 · yalnız zengiler bibliyografyasında Patton'ın 'A.D. 1127-1262' tez başlığı geçiyor (kaynak cümlesi değil) → lului t = Lü'lü'ün ölümü 1259-07-26",
+  "[A] Lü'lü'ün Hülâgû'ya Merâga'da bağlılık bildirmesinin yılı — TDV lulu-bedreddin olayı 'Moğollar’ın Bağdat’ı ele geçirmesi üzerine' diye tarihsiz verir; yıl yazılmadığı için madde yazılmadı",
+  "[A] Kişi maddeleri (Nûreddin Mahmud, İmâdüddin Zengî, Kökböri, Ali Küçük) — slug'lar nureddin-mahmud-zengi, nureddin-mahmud-b-zengi, nureddin-zengi, imadueddin-zengi, imadeddin-zengi-i, zengi, zengi-imadueddin, kokburi, muzafferuddin-kokburi, sencer-sah (302), ali-kucuk (000 taşıma arızası — ölü değil, yeniden denenmedi) → bilgiler zengiler/begteginliler/sam--suriye/halep maddelerinden alındı; Nûreddin'in ölüm günü bu yüzden yalnız yıl (569/1174)",
+  "[B] Suriye Selçukluları müstakil TDV maddesi — 'suriye-selcuklulari' slug'ı HTTP 200 ama boilerplate (2170 kr.) — içerik selcuklular#8 (IV. SURİYE SELÇUKLULARI 1079-1117) bölümünden okundu; künye YAZILDI (bulunamadı değil, bildirim).",
+  "[B] Börîler müstakil slug — 'boriler' boilerplate (2246 kr.), 'buriler' HTTP 302 — madde 'tugteginliler' slug'ında bulundu; künye YAZILDI.",
+  "[B] Ammâroğulları müstakil maddesi — 'ammarogullari', 'ammar-ogullari', 'ammaroglu', 'ibn-ammar' hepsi HTTP 302; TDV'de madde var (ilişkili madde künyesi '1070-1109') ama slug'ı bulunamadı; içerik trablussam + ibn-ammar-fahrulmulk'tan; künye YAZILDI.",
+  "[B] Münkızoğulları müstakil maddesi — 'munkizogullari', 'munkiz-ogullari' HTTP 302; 'usame-b-munkiz' boilerplate (2051); içerik seyzer'den; künye YAZILDI.",
+  "[B] 'hums' slug'ı YANLIŞ MADDE (TDV tuzağı ②: Kureyş'in 'hums' dinî zümresi) — şehir maddesi 'humus--suriye' (20483 kr.); 'humus' HTTP 302, 'hims' boilerplate.",
+  "[B] Selâhaddin'in Dımaşk'a girdiği GÜN (1174) — eyyubiler yalnız Mısır'dan hareket günü (12 Ekim 1174), sam--suriye '570/1174' — bulunamadı.",
+  "[B] Hama Eyyûbî kolunun açık kuruluş yılı — hama '570 + dört yıl sonra' (türetilmiş 574), eyyubiler hükümdar listesinde Hama kolu YOK — bulunamadı (türetildi, işaretlendi).",
+  "[B] Kerek Eyyûbî kolunun kuruluş yılı — kerek '(1188)' iktâ, eyyubiler 'el-Melikü’l-Âdil zamanında ... Kerek emirlikleri meydana getirildi' (yıl yok), sam--suriye Dâvûd'un Dımaşk'tan çıkarılışı 626/1229 — açık kuruluş yılı bulunamadı.",
+  "[B] Hülâgû'nun Halep'i aldığı gün/ay — eyyubiler '1260 yılı başlarında', halep '1260’ta' — gün bulunamadı.",
+  "[B] Kerek'in Haçlılardan alınış günü (1188) ve Antakya/Trablus topraklarının 1187-88 kaybının günleri — TDV'de yıl düzeyinde; ayrı madde yazılmadı.",
+  "[C] uyuni künyesinin t'si — TDV: uyuniler (302), bahreyn, lahsa, katif, karmatiler, selcuklular, abbasiler, buveyhiler, salgurlular tarandı; TDV Uyûnî sonunu yılla vermiyor. Akademik kaynakla (Alwazzan 2015, Edinburgh PhD) dolduruldu: 1236.",
+  "[C] usfuri künyesinin gerçek kuruluşu TDV'de — usfuriler, usfurlular (302); 'Usfûr' TDV önbelleğinin hiçbir maddesinde geçmiyor. Akademik kaynakla c.1229 (alternatif EI2: 651/1253 — EI2 metni Brill 403 nedeniyle açılamadı, yalnız tez aracılığıyla aktarılıyor).",
+  "[C] medine-emirligi künyesinin t'si — TDV medine emirliğin sonunu yılsız verir; 'Benî Mühennâ' TDV medine'de geçmiyor. t: null bırakıldı.",
+  "[C] İbnü'l-Mukarreb el-Uyûnî TDV maddesi — ibnul-mukarreb, ibn-mukarreb, ibnul-mukarrab slug'ları 302; ara 'mukarreb' sonuç vermedi.",
+  "[C] Uyûnî ve Usfûrî için TDV araması ('ara uyuni', 'ara usfuri') — yalnız site menü bağlantıları döndü, madde yok."
+ ],
+ "notlar": [
+  "[A] TANECİK — zengi-musul kolları (brif gereği ayrı künye yapılmadı): TDV zengiler: \"Zengîler’in iki büyük kolu Musul ve Halep dışında Sincar (1170-1220), Cezîre-i İbn Ömer (1180-1251) ve Şehrizor’da (1211-1245) hüküm süren üç küçük kolu daha vardır.\" Sincar kolu Ocak 1171'de Nûreddin'in Sincar'ı II. İmâdüddin Zengî'ye iktâsıyla kuruldu, Temmuz 1220'de el-Melikü'l-Eşref'le bitti (maddesi var). Cizre kolu II. Seyfeddin Gazi'nin oğlu Sencer Şah tarafından 576/1180'de kuruldu, 1251'e kadar sürdü — zengi-musul t'si (1233) Cizre'yi kapsamaz: Cizre 1233-1251 arası sahipsiz kalabilir, harita için ayrı karar gerekir. Şehrizor kolu (III. İmâdüddin Zengî, 1211-1245) Lü'lü' ile çatıştı. Ana Musul kolunun bitişi: I. Nâsırüddin Mahmûd'un öldürülmesi Rebîülevvel 631 / Aralık 1233; Lü'lü' aynı ay sultan tanındı (lulu-bedreddin) → zengi-musul t ile lului f aynı olay.",
+  "[A] ÇELİŞKİ (TDV kendi içinde): Ali Küçük'ün ölümü — zengiler \"11 Zilkade 563’te (17 Ağustos 1168) vefat etti\", begteginliler \"çok geçmeden de öldü (Eylül 1167)\". Hükümdar değişimi maddesi bu yüzden YAZILMADI.",
+  "[A] ÇELİŞKİ: begteginli başlangıcı — begteginliler başlık 1144, erbil maddesi Zengî'nin Erbil'i 1132'de alıp Ali Küçük'e iktâ ettiğini söyler. Künye f 1144 (başlık); 1132-1144 Erbil zengi-musul'dan boyanmalı.",
+  "[A] ÇELİŞKİ: mustasim-billah halifenin ölümünü 27 Ocak 1258 verirken teslimi 10 Şubat 1258 verir (ölüm teslimden önce görünüyor) — abbasi t = teslim günü 1258-02-10; ölüm günü kullanılmadı.",
+  "[A] ÇELİŞKİ: harran maddesi Nümeyrî hâkimiyetini '991-1085' diye özetler ama olay cümlesi 1083'te Ukaylî Müslim'in şehri aldığını söyler → numeyri t 1083-01-01.",
+  "[A] ÇELİŞKİ (başlık × gövde): buveyhiler başlığı 932-1062 der; gövde Fars'taki Büveyhî hâkimiyetinin 1056'da Şebânkâre Fazlûye ile bittiğini, 1062'nin Kavurd'un Şîraz'ı Fazlûye'den alışı olduğunu söyler → buveyhi t 1056-01-01. Irak kolunun sonu 21 Aralık 1055 (kaim-biemrillah). buveyhi bolge 'iran' seçildi (Fars/Cibâl/Kirman çekirdek); Irak kolu için ayrı boyama gerekebilir.",
+  "[A] hamdani-halep: kuşakta (1000 sonrası) yalnız 2 olay var (1002 zehirleme, 1004 son) — kuşakta yeterli olay yok, 3 madde şartı karşılanamadı. Mirdâsîlere geçiş hamdaniler maddesinde yok: TDV hamdaniler 1004'ten sonra Lü'lü'ün 399/1008'de ölüp yerine oğlu Mansûr'un geçtiğini ve Fâtımî hutbesi okuttuğunu söyler; Mirdâsî (B grubu, mirdasi) Halep'i sonra aldı. 1004-Mirdâsî arası Halep Lü'lü'/Mansûr (Fâtımî tâbi) elindedir — kimliği yok, B ajanıyla eşgüdüm gerekir. Dikkat: Hamdânî hâcibi Lü'lü' (Halep, ö. 1008) ile Bedreddin Lü'lü' (Musul, ö. 1259) FARKLI kişilerdir; lului kimliği yalnız Musul'dakidir.",
+  "[A] lului: kuşakta 3 madde (1233 kuruluş, 1257 Aybeg, 1259 son) — Lü'lü'ün 1219-1233 nâiblik dönemi zengi-musul maddelerinde. 1218 maddesinde lului taraf yazıldı ama künye 1233'te başlıyor — pencere dışı, koordinatör düşürebilir.",
+  "[A] ukayli: Ca‘ber ve Rakka'daki Ukaylî kolu TDV ukayliler: \"Ca‘ber ve Rakka’daki kol 564’te (1169) Zengîler tarafından ortadan kaldırıldı.\" (hicrî 564 = 1168-69, yıl belirsiz; TDV hangi Zengî kolunu demiyor) — künye t Musul'a göre 1096; Ca‘ber noktası 1096-1168 arasında ukayli ile boyanacaksa künye genişletme ya da ayrı kol gerekir. Madde yazılmadı (künye penceresi dışında kalıyordu).",
+  "[A] numeyri: 'Rakka' hâkimiyeti TDV'de ölçülemedi (rakka maddesi X-XI. yy'da Nümeyr geçirmiyor). Nümeyrî toprak kapsamı ölçülen: Harran (991-1083), Urfa (?-1025).",
+  "[A] TARAF OLARAK EKLENMELİ, KİMLİĞİ BENDE YOK: Büyük Selçuklu / Tuğrul Bey (1055-12-21, 1057-01-19, 1058-12-27, 1060-01-01, 1084-01-01 maddeleri) · Irak Selçukluları (1108-03-04 Muhammed Tapar, 1135-06-24 ve 1135-09-25 Sultan Mesud, 1157-01-01 Muhammed b. Mahmûd) · Mervânîler (1025-01-01) · Bizans (1036-01-01) · Gazneliler (1029-01-01) · Kirman Selçukluları/Kavurd (1048-01-01) · Oğuzlar/Yabgulular (1044-04-21) · Tuğteginliler/Dımaşk Atabegliği — B grubunda 'boriler' kimliği bu yapı ise 1154 maddesinde doğru; değilse düzeltilmeli · Hârizmşahlar (1195-01-01, 1225-01-01) · Şebânkâre/Fazlûye (buveyhi sonu) · Benî Müntefik (1163 mezyedi sonu) · Moğol/Hülâgû için 'ilhanli' kullanıldı (1256→ künyesi, 1258 olayları içinde).",
+  "[A] B grubuyla çakışma riski: 1144 Urfa (urfa-kontlugu), 1146 Urfa, 1154 Dımaşk (boriler), 1164 Hârim (Hârim Antakya Prinkipsliği'nindi ama TDV zengiler yalnız 'Haçlılar' diyor — antakya-prinkipsligi taraflara eklenmedi), 1174 Selâhaddin'in Suriye fetihleri, 1175, 1182, 1183 Halep, 1186 Musul tâbiliği (eyyubi) — B ajanı aynı olayları eyyubi tarafından yazarsa TEKİLLEŞTİRİLMELİ. 1058-12-27 ve 1010 maddeleri fatimi'yi içerir.",
+  "[A] begteginli 1210 maddesi: TDV 'Anadolu Selçuklu Sultanı I. İzzeddin Keykâvus' der; Keykâvus'un tahta çıkışı 1211'dir — cümle aynen aktarıldı, yıl/ad uyumu şüpheli.",
+  "[A] Abbâsî 1055 giriş günü (18 Aralık) ayrı madde yapılmadı; Büveyhî'nin Irak'taki sonuyla (21 Aralık) tek maddede birleştirildi (aynı olay). Abbâsî kronolojisindeki halifeye bağlı olmayan Bağdat şehir olayları (yangın, sel) süs sayılıp yazılmadı.",
+  "[A] Büveyhî künyesi 932'de kurulduğu için kronoloji yalnız 1000 sonrası; Abbâsî için de öyle. Toplam künye başına kronoloji (iskelet + dosya maddesi, taraflarda geçme): abbasi 14, buveyhi 8, ukayli 10, mezyedi 13, zengi-musul 15, zengi-halep 11, begteginli 11, lului 4 (1218 dahil), hamdani-halep 3 (kurulus 944 dahil; 1000 sonrası 2), numeyri 5.",
+  "[B] TANECİK — Eyyûbî kollarının kuruluşu (ÖLÇÜLDÜ, koordinatör hükmüyle ayrı künye AÇILMADI): Dımaşk kolu 'el-Melikü’l-Efdal Nûreddin Ali 582 (1186)' (eyyubiler listesi; fiilî ayrılık 589/1193 Selâhaddin'in ölümüyle), Âdil soyundan Muazzam 1201 paylaşımıyla; Halep kolu listede 579 (1183), fiilen Zâhir Gāzî 582 (1186) → künye eyyubi-halep; Hama kolu 570+4 ≈ 574 (1178-79) türetilmiş (hama) → künye eyyubi-hama; Humus kolu '574’te (1179)' Nâsırüddin Muhammed b. Şîrkûh (humus--suriye); Ba'lebek kolu (Ferruhşah) eyyubiler'de yıl yok ('Böylece Eyyûbîler’in Hama, Humus, Ba‘lebek kolları kurulmuş oldu' — 1176 antlaşmasından sonra); Kerek kolu: 1188 iktâ (kerek), emirlik 'Âdil zamanında' (eyyubiler), Dâvûd'un yarı bağımsız Kerek'i 626/1229 sonrası (sam--suriye) — kesin yıl YOK; Meyyâfârikîn-el-Cezîre kolu: şehir '581’de (1185)' (meyyafarikin) ve listede 'I. el-Melikü’n-Nâsır Selâhaddin 581 (1185)', müstakil kol 'el-Melikü’l-Evhad Necmeddin Eyyûb 596 (1200)', Eşref 607 (1210), el-Cezîre 1201 paylaşımında Eşref'e; Hısnıkeyfâ kolu 629 (1232) = mevcut eyyubi-hisnikeyfa ile tutarlı.",
+  "[B] TANECİK — kolların sonu: Dımaşk 'Rebîülevvel 658 / Mart 1260' (sam--suriye; 1250-1260 arası Halep'in Yûsuf'unda ⇒ eyyubi-halep kimliğiyle yazıldı); Halep 1260 başı; Meyyâfârikîn 658 (1260) [eyyubiler 1259 der — çelişki bildirildi]; Kerek ve Humus 661 (1263); Hama 1342 (1299-1310 kesintili); Hısnıkeyfâ 1462.",
+  "[B] 🔴 KÜNYE PENCERESİ SORUNU: eyyubi t = 1250-04-30 (brif), ama koordinatör 'Dımaşk, Kerek, Humus, Cezîre kollarının olaylarını eyyubi taraflı yaz' dedi. 1250-04-30 sonrası Kerek/Humus (1263'e dek) ve Meyyâfârikîn (1260'a dek) toprakları eyyubi kimliğiyle boyanırsa künye aşımı (CLAUDE.md §3.5 sınıf ②/③) doğar. Bu yüzden 1260 Meyyâfârikîn ve 1263 Kerek-Humus maddelerine eyyubi taraf YAZILMADI (ilhanli / memluk yazıldı). Seçenekler: (a) eyyubi t'yi 1263-01-01'e uzat (Suriye kalıntısı dahil) — Mısır'ın 1250 sonu kronolojiyle anlatılır; (b) Kerek, Humus, Meyyâfârikîn için ayrı künye; (c) bu toprakların 1250-1263 yerleşim s: pencerelerini Dımaşk gibi eyyubi-halep'e bağlamak (yalnız Dımaşk için TDV dayanağı var). Önerim (a): tek satırlık değişiklik, TDV 'Baybars 661 (1263) yılında Kerek ve Humus’taki Eyyûbî hâkimiyetine son verdi' cümlesi dayanak.",
+  "[B] Hama t=1342 ve Kudüs/Antakya/Trablus t'leri kuşak sınırını (1281) aşar — künye t'si gerçek tarih (brif gereği).",
+  "[B] Mirdâsî t tercihi: brif Rebîülâhir 473 / Ekim 1080 dedi; kural (ay biliniyor gün yok ⇒ 1080-01-01) şehrin 18 Haziran 1080'deki Ukaylî geçişinden ÖNCEYE düşürürdü. Gün-kesin 1080-06-18 seçildi; ic_not_t'de gerekçeli. Koordinatör isterse 1080-01-01 yapsın.",
+  "[B] Börîler f tercihi: kural 1104-01-01 verirdi ama Dukak 6 Haziran 1104'e dek yaşıyordu (Suriye Selçuklu Dımaşk kolu). f = Dukak'ın ölüm günü 1104-06-06 (selcuklular, gün-kesin). Dımaşk Selçuklu melikliğinin resmî sonu Safer 498 / Ekim-Kasım 1104; kısa örtüşme atabeg-melik ilişkisidir.",
+  "[B] Urfa künyesi t = 1150-01-01 (Tel Bâşir kalıntısı; haclilar '1150-1151’e kadar'); Urfa ŞEHRİ 1144-12-24'te zengi-musul'a geçer — yerleşim s: pencereleri ona göre bölünmeli. bolge 'mezopotamya' seçildi (Urfa el-Cezîre/Diyar-ı Mudar); koordinatör 'anadolu' isterse değiştirsin. Antakya 'suriye-filistin' seçildi (ortaçağ Kuzey Suriye).",
+  "[B] Grup A kimlik varsayımı: İmâdüddin Zengî (Musul+Halep, 1127-1146) olayları 'zengi-musul', Nûreddin Mahmud (Halep/Dımaşk 1146-1174) ve el-Melikü's-Sâlih İsmâil olayları 'zengi-halep' taraflı yazıldı. Grup A başka ayrım yaptıysa taraflar düzeltilmeli. Musul Arslanşah (1209) 'zengi-musul'.",
+  "[B] Taraf olarak eklenmesi gereken ama kimliği bende olmayan devletler: Büyük Selçuklu (1070 Mirdâsî tâbiiyeti, 1075 Atsız'ın Suriye'yi alışı, 1086-12-03 Melikşah'ın Halep'i alışı, 1094 Aksungur-Bozan, 1095 Berkyaruk, 1104 Harran'da Çökürmüş, 1111 Mevdûd, 1113 Mevdûd); Bizans (1030 Azâz, 1075 Menbic, 1138 Şeyzer kuşatması); Hârizmliler (1244); Fransa krallığı (1249 VII. Haçlı); Kerek-Şevbek Haçlı senyörlüğü; Erbil/Kökböri (1209, Grup A 'erbil' kimliği varsa).",
+  "[B] Künye başına 15 madde tavanı nedeniyle bazı taraflar bilinçli olarak YAZILMADI (ic_not_t'de işaretli): fatimi → 1042, 1105-08-27, 1171-09-13 eyyubi kuruluş iskeleti; eyyubi → 1171 fatimi son iskeleti, 1207, 1209, 1244-07-11, (1250-04-07 Mansûre ayrı madde yazılmadı); kudus-kralligi → 1169-01-18, 1219-11-05, 1221-08-29. Sayım (iskelet dahil): eyyubi 15, kudus-kralligi 15, fatimi 15 — tavan tam dolu; koordinatör tavanı gevşetirse bu taraflar eklenmeli.",
+  "[B] ÇELİŞKİLER (hepsi TDV içi, bildirildi): ① 1192 barışı: eyyubiler 21 Şâban 588 / 1 Eylül 1192 (üç yıl sekiz ay) ↔ kudus 22 Şâban 588 / 2 Eylül 1192, haclilar 2 Eylül 1192 (beş yıllık). ② Tutuş'un ölümü: selcuklular 16 Safer 488 / 25 Şubat 1095 ↔ tutus 'esas savaş 17 Safer 488 (26 Şubat 1095) başladı'. ③ Kont Pons 1137: tugteginliler 'esir alındı' ↔ haclilar 'savaşta ölünce'. ④ Zâhir Gāzî'nin ölümü: halep 'devrinde (1186-1212)' ↔ eyyubiler listesi halefi 613 (1216). ⑤ Meyyâfârikîn'in düşüşü: eyyubiler 1259 ↔ meyyafarikin ve liste 658/1260. ⑥ Mısır'ın Şîrkûh'a geçişi: kudus '8 Ocak 1169' ↔ fatimiler/eyyubiler vezirlik 18 Ocak 1169. ⑦ Cebele: tugtegin 1101'de Tuğtegin'e teslim ↔ ibn-ammar-fahrulmulk 1108-09'da hâlâ Ammâroğulları'nda (arada geri alınış yazılı değil). ⑧ Halep kolunun başlangıcı: liste 579 (1183, Âdil) ↔ halep 582/1186 (Zâhir).",
+  "[B] ÇAKIŞMA RİSKLERİ (başka ajanlar): Besâsîrî 1058 (Grup A abbasi) · Halep 1183 (Grup A zengi-halep/zengi-musul) · Urfa 1144 ve İnab 1149 (Grup A zengi) · Aynicâlût 1260 (memluk dosyası) · Yemen seferi 1174 (Grup C; eyyubi Yemen kolu 569/1174-626/1229 — bende madde YOK, C'nin zureyi/benu-mehdi-zebid maddelerine eyyubi taraf eklenebilir) · 1260 Hülâgû olayları (ilhanli dosyası). Mükerrer kontrolü TEK madde ilkesiyle koordinatörde.",
+  "[B] Değişmez 2 (±30 gün) uyarısı: 1174-10-12 maddesi Dımaşk'ın gerçek teslim gününden (TDV'de yok) birkaç hafta önce olabilir; 1251-01-30 maddesi Filistin paylaşımının gününü vermez; 'YYYY-01-01' tarihli pek çok madde (TDV yalnız yıl/ay veriyor) toprak değişimlerini yıl başına çeker — senkron kurulurken yerleşim pencereleri de aynı kaba tarihe bağlanmalı.",
+  "[B] Önbelleğe bu oturumda eklenen slug'lar: tugteginliler, ibn-ammar-fahrulmulk, tugtegin, tutus, selahaddin-i-eyyubi, humus--suriye, meyyafarikin, silvan (boilerplate 2066), ridvan (boilerplate 2327), usame-b-munkiz (boilerplate), hims (boilerplate). 302 dönenler: buriler, ammarogullari, ammar-ogullari, ibn-ammar, ammaroglu, munkizogullari, munkiz-ogullari, nureddin-mahmud-zengi, tutus-b-alparslan, dukak, kamil-el-melikul-kamil, adil-el-melikul-adil, zahir-gazi, zengi-imadueddin, humus, kerek-sevbek.",
+  "[C] KAYNAK: Uyûnî/Usfûrî için TDV yetmedi; akademik kaynak: Faisal Adel Ahmad Alwazzan, 'Politics, Economy and Religion in a Near Eastern Periphery: The Region of Baḥrayn in East Arabia c. 1050 – c. 1400 CE', PhD tezi, University of Edinburgh, 2015 (era.ed.ac.uk bitstream 25d268cc-de0c-409b-9b75-5ad8af38ddd8). Alıntılar PDF metninden kopyalandı; pypdf çıkarımında bazı kelimelerde fazladan boşluk vardı (ör. 'Mu ḥammad'), alıntılar o boşluklar olmadan tırnaklandı — kelimeler aynı. Tezin İngilizce alıntıları TDV önbelleğinde değil, doğrulayıcı script için ayrı tutulmalı. Metin dökümü: scratchpad/tez.txt.",
+  "[C] KİMLİK ADI: Alwazzan 'Usfûrî emirliği' yerine 'Ukaylî emirliği' adını önerir (Usfûr b. Râşid kurucu, ama liderlik sonra başka Ukaylî kollarına geçti). Var olan usfuri künyesinin 10 Ağustos notu TDV'nin bu dönemi 'Cervânîler' diye adlandırdığını söylüyor — isim meselesi koordinatörde; ben künye adına dokunmadım.",
+  "[C] ÇAKIŞMA RİSKİ (A ajanı): Mekke'de 1069 ve Medine'de 1089 maddeleri Abbâsî taraflıdır (abbasi, A listesi); A ajanı Alparslan-Mekke hutbesini ayrıca yazarsa mükerrer olur.",
+  "[C] ÇAKIŞMA RİSKİ (B ajanı): 1063 Suleyhî-Mekke, 1011 Ebü'l-Fütûh, 1076/1092 Mekke hutbeleri fatimi taraflıdır; 1174 Yemen fethi ve 1175 Aden, 1229 Resûlî devri eyyubi taraflıdır — B ajanı Eyyûbî künyesinde Turan Şah'ın Yemen seferini yazarsa tek maddeye indirilmeli.",
+  "[C] EKSİK TARAF: Salgurlular (Fars Atabegleri) kimliği yok — 1236 Uvâl, 1244 Katîf, 1256 Katîf maddelerine 'salgurlu' taraf olarak eklenmeli, kimliği bende yok. Büyük Selçuklu kimliği yok — 1069 Mekke ve 1089/1092 Medine maddelerine eklenmeli. Zengî (Nûreddin Mahmud) — 1174 Haremeyn hutbesi maddesine uygun Zengî kimliği (A: zengi-halep?) eklenmeli; emin olmadığım için yazmadım. Ziyâdîler (Necâhîlerin selefi) ve Ma‘nîler (Aden) kimliği yok.",
+  "[C] TDV İÇ ÇELİŞKİLERİ: (1) Suleyhî Mekke seferi: suleyhiler Zilhicce 454/Aralık 1062, mekke 6 Zilhicce 455/30 Kasım 1063. (2) Sebe b. Ahmed'in ölümü: suleyhiler 491, hemdaniler/yemen 492 (ikisi de 1098). (3) Hemdânî sonu: hemdaniler 569/1174, yemen 570/1174. (4) Mehdî sonu: yemen 569 (1174), mehdiler--yemen 569/1173-74. (5) Zürey‘î sonu: TDV 571/1175 (brifteki 1174 değil). (6) Uyûnî kuruluşu: karmatiler 469/1076, lahsa 1073. (7) TDV katif 'Salgurlu Ebû Bekir b. Sa‘d 598/1201-02'de Katîf ve Ahsâ'yı aldı' der ama TDV salgurlular Ebû Bekir'in tahta çıkışını 623/1226 verir — katif'teki 598 büyük ihtimalle hatalı; akademik kaynak Uvâl 1236, Katîf 1244 verir.",
+  "[C] HARİTA NOTU: Karmatîler Bahreyn adasını ve Katîf'i 1067'de yerel isyanlarla kaybetti; ada 1067-~1200 arası Âl-i Zeccâc / Âl-i Abbâs gibi yerel emirliklerin elinde (Alwazzan bölüm 2). Bu yapılar için kimlik yok; ada 1067 sonrası karmati ile boyanmamalı. Uyûnîler Uvâl'i yalnız bazı dönemlerde tuttu.",
+  "[C] USFURI KÜNYESİ: f 1229'a çekilince var olan künyenin ozet'indeki '1281 atlas penceresi' cümlesi ve künye iskeletinin tek maddesi güncellenmeli; ayrıca uyuni t (1236) ile usfuri f (1229) örtüşür — Lahsâ 1229'da Usfûrî, Uvâl 1236'ya dek Uyûnî: iki yapı 1229-1236 arası bölge bazında yan yana. Katîf 1236-1256 arası Salgurlu (kimlik yok).",
+  "[C] RESULI: t 1454 kuşak dışı; var olan tahiri künyesi (1454-1517) ile bitişikliği kontrol edilmeli. Resûlî 1250 sonrası Mekke'ye de hâkim oldu (I. Yûsuf 'Mekke gibi bölge ve şehirleri tekrar hâkimiyet altına aldı') ama yıl yok — madde yazılmadı.",
+  "[C] MEKKE: brifteki 'Katâde ~1201' yerine TDV günü 13 Mayıs 1200 kullanıldı. mekke-serifligi f 0969'a çekilince künye türü alanı (tur) künyede yok — koordinatör 'emirlik' ekleyebilir.",
+  "[C] ZEYDÎ: yemen-zeydi taraflı 6 madde yazıldı (1052, 1138, 1150, 1158, 1247, 1278 — 1150 ve 1158 başka künyelerle ortak). Künyeye dokunulmadı.",
+  "[C] Künye iskeletleriyle aynı olayı taşıyan dosya maddeleri (1076 Lahsâ, 1159 Zebîd, 1229 Resûlî, 1174 fetih) b metinleri farklı yazıldı ama OLAY aynı — birleştirmede künye iskeleti ile dosya maddesi tek madde sayılmalı."
+ ]
+}

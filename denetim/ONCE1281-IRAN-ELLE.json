@@ -1,0 +1,10 @@
+{
+ "not": "Birleştiricinin 'mükerrer?' uyarısını elle inceleyip KABUL ettiğim maddeler (t + başlık başı). Gerekçe her satırda.",
+ "zorla_kabul": [
+  {"t":"1071-08-26","b_bas":"Malazgirt Savaşı","neden":"kronoloji_anadolu.js'teki madde KRONOLOJI_ANADOLU'da; 'anadolu' künyesi yok, bugün hiçbir künyeye bağlı değil. Bu madde buyuk-selcuklu + bizans'a bağlanır; selcuklu tarafı YOK (künye-içinde var)."},
+  {"t":"1086-06-04","b_bas":"Aynüseylem Savaşı","neden":"kronoloji_anadolu.js 'Süleyman Şah'ın Ayn Seylem'de ölümü' bağlanmamış dosyada. KRONOLOJI_ANADOLU ileride selcuklu'ya bağlanırsa selcuklu tarafında çift olur — teslimde bildirildi."},
+  {"t":"1121-01-01","b_bas":"Gürcüler Selçuklu ordusunu","neden":"kronoloji_gurcistan.js gurcistan'a bağlı; bu maddenin taraflarından gurcistan ÇIKARILDI (irak-selcuklu + artuklu kaldı), çift oluşmaz."},
+  {"t":"1209-01-01","b_bas":"Uygur İdikut Barçuk","neden":"yanlış alarm: eşleşen 'Batı Xia Cengiz'e tâbi' ayrı olay. koco-uygur künye-içi 1209 itaat maddesi var ama bu maddenin taraflarında koco-uygur YOK."},
+  {"t":"1256-01-01","b_bas":"Berke Han Altın Orda","neden":"yanlış alarm: eşleşen Pagan (Burma) taht maddesi."}
+ ]
+}

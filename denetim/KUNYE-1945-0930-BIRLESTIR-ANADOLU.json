@@ -1,0 +1,197 @@
+{
+ "kaynak": "denetim/ONCE1281-ANADOLU-KUNYE.json",
+ "okunan": 29,
+ "kabul": [
+  {
+   "id": "danismendli",
+   "islem": "yeni",
+   "f": "1071-01-01",
+   "t": "1178-10-25"
+  },
+  {
+   "id": "saltuklu",
+   "islem": "yeni",
+   "f": "1071-01-01",
+   "t": "1202-06-25"
+  },
+  {
+   "id": "mengucuklu",
+   "islem": "yeni",
+   "f": "1118-01-01",
+   "t": "1228-01-01"
+  },
+  {
+   "id": "ahlatsahlar",
+   "islem": "yeni",
+   "f": "1100-01-01",
+   "t": "1208-01-01"
+  },
+  {
+   "id": "mervani",
+   "islem": "yeni",
+   "f": "983-01-01",
+   "t": "1085-08-30"
+  },
+  {
+   "id": "inalogullari",
+   "islem": "yeni",
+   "f": "1098-01-01",
+   "t": "1183-04-29"
+  },
+  {
+   "id": "dilmacogullari",
+   "islem": "yeni",
+   "f": "1085-01-01",
+   "t": "1394-01-01"
+  },
+  {
+   "id": "cubukogullari",
+   "islem": "yeni",
+   "f": "1085-01-01",
+   "t": "1119-01-01"
+  },
+  {
+   "id": "latin-imparatorlugu",
+   "islem": "yeni",
+   "f": "1204-04-13",
+   "t": "1261-07-25"
+  },
+  {
+   "id": "iznik-imparatorlugu",
+   "islem": "yeni",
+   "f": "1204-04-13",
+   "t": "1261-07-25"
+  },
+  {
+   "id": "ahaya-prinkepsligi",
+   "islem": "yeni",
+   "f": "1205-01-01",
+   "t": "1430-01-01"
+  },
+  {
+   "id": "selanik-kralligi",
+   "islem": "yeni",
+   "f": "1205-01-01",
+   "t": "1225-01-01"
+  },
+  {
+   "id": "selanik-imparatorlugu",
+   "islem": "yeni",
+   "f": "1225-01-01",
+   "t": "1246-01-01"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [
+  "selcuklu",
+  "artuklu",
+  "karaman",
+  "mentese",
+  "inancogullari",
+  "sahibata",
+  "pervane",
+  "esrefogullari",
+  "cobanogullari",
+  "eyyubi-hisnikeyfa",
+  "germiyan",
+  "bizans",
+  "trabzon-rum",
+  "epir-despotlugu",
+  "atina-dukaligi",
+  "naksa-dukaligi"
+ ],
+ "boya_gerekli": [
+  {
+   "id": "danismendli",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "saltuklu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "mengucuklu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ahlatsahlar",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "mervani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "inalogullari",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "dilmacogullari",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "cubukogullari",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "latin-imparatorlugu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "iznik-imparatorlugu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ahaya-prinkepsligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "selanik-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "selanik-imparatorlugu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "epir-despotlugu",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  }
+ ],
+ "uyari": [
+  "selcuklu (dokunmadim) notu veriye taşınmadı: TDV bölüm başlığı ve hükümdar tablosu ('I. Süleyman Şah 467 (1075)') f=1075 ile UYUŞUYOR. ⚠️ Tablo 'Fetret devri 479 (1086)' ve 'Fetret devri 500 (1107)' kayıtl",
+  "artuklu (dokunmadim) notu veriye taşınmadı: f=1102 TDV'nin en erken Anadolu kolu (Hısnıkeyfâ, Sökmen) ile uyuşuyor; Mardin kolu 1106-1409. Artuk Bey'in önceki dönemi (Tutuş'un verdiği Kudüs iktâsı, Artuk'",
+  "karaman (dokunmadim) notu veriye taşınmadı: f=1256 TDV ile uyuşuyor (654/1256).",
+  "mentese (dokunmadim) notu veriye taşınmadı: 🔴 f=1280 TDV'DE DAYANAKSIZ. TDV beylik maddesi kuruluş yılı vermez (başlık 'XIII. yüzyıl sonlarında'); ilk tarihli anılış 'Bizans kaynaklarında Menteşe Bey’in a",
+  "inancogullari (dokunmadim) notu veriye taşınmadı: TDV başlığıyla uyuşuyor; TDV'nin kendisi 'yaklaşık' der.",
+  "sahibata (dokunmadim) notu veriye taşınmadı: TDV başlığıyla uyuşuyor.",
+  "pervane (dokunmadim) notu veriye taşınmadı: TDV başlığıyla uyuşuyor.",
+  "esrefogullari (dokunmadim) notu veriye taşınmadı: 🟡 TDV başlığı 'XIII. yüzyıl sonlarına doğru' der, kuruluş yılı vermez. 1277 TDV'de KONYA SALDIRISININ yılıdır (Karaman-Menteşe), Eşrefoğlu'nun kuruluşunu tarihl",
+  "cobanogullari (dokunmadim) notu veriye taşınmadı: f=1211 TDV'nin KESİN dediği ilk tarih; 'XII. yüzyıl sonları' yıl vermediği için geri çekilmedi (yıl uydurulmaz).",
+  "eyyubi-hisnikeyfa (dokunmadim) notu veriye taşınmadı: 1232 hem eyyubiler tablosu hem artuklular ('Hısnıkeyfâ Kolu (1102-1232)') ile uyuşuyor. NOT: devletler.js'te bu kaydın 'harita' alanı YOK, oysa renkler.py BOYAL",
+  "germiyan (dokunmadim) notu veriye taşınmadı: 1281 öncesi Germiyanlılar TDV'de bir AŞİRETTİR: 1239'da 'Selçuklu Devleti hizmetinde Malatya civarında', 1264-1277 arası batıya geliş, Denizli için Sâhib Ata il",
+  "bizans (dokunmadim) notu veriye taşınmadı: SINANDI ✓: TDV '11 Mayıs 330' — gün tutuyor.",
+  "trabzon-rum (dokunmadim) notu veriye taşınmadı: SINANDI ✓ (yıl): TDV 1204. ⚠ İNCELİK: TDV trabzon kuruluşu 'Latin idaresinin kurulması üzerine' diye bağlar; TDV bizans ise 'İstanbul’un Latinler’ce zaptı ile i",
+  "epir-despotlugu (dokunmadim) notu veriye taşınmadı: SINANDI ✓: f kuruluşun alt sınırıdır (künye notu zaten bunu söylüyor); Britannica 'established effective control after 1204'. Değişiklik gerekmez.",
+  "atina-dukaligi (dokunmadim) notu veriye taşınmadı: SINANDI ~: TDV şehrin Haçlılarca zaptını 1204'e koyar; künye 1205. 1204-01-01'e çekmek İstanbul'un zaptından (1204-04-13) ÖNCE bir Latin dukalığı gösterir — sah",
+  "naksa-dukaligi (dokunmadim) notu veriye taşınmadı: SINANDI ✓: dukalık unvanı 1207 (TDV; Britannica 'established in 1207 ... by Marco Sanudo'). Fiilî zapt 1205 — f'yi 1205'e çekmek 'genişlet' olur; 1205-1207 aras"
+ ],
+ "kunye": [
+  781,
+  794
+ ]
+}

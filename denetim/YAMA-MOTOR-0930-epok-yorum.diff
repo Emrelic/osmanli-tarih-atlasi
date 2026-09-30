@@ -1,0 +1,23 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 668f1a28..3002068b 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -4655,8 +4655,16 @@ else:
+ # ZAMAN DİLİMLİ VORONOI'YE GEREK YOK. Diyagramı 441 kırılma için yeniden
+ # hesaplamak pahalı ve gereksiz; ADA KURALI'nın kullandığı makine yeterli:
+ # kurulmamış peteğin payı, o tarihte SAHNEDE OLAN en yakın komşuya devredilir.
+-# Varlık kümesi yalnız kur:/bit: günlerinde değiştiği için sonuç önbelleklenir —
+-# 917 nokta içinde 34 kur: + 3 bit: var, yani en çok ~37 ayrı epok.
++# Varlık kümesi yalnız kur:/bit: günlerinde değiştiği için sonuç önbelleklenir.
++# 🔴 SAYILAR BAYATLADI (YAMA-MOTOR-0930, 30 Eylül 2026). Bu satır ilk yazıldığında
++#   "917 nokta içinde 34 kur: + 3 bit: var, yani en çok ~37 ayrı epok" diyordu.
++#   Bugün (girdi.yukle() evreni, `denetim/ARAC-YAMA-MOTOR-0930-EPOK.py`):
++#     4296 nokta · 1669 kur: (744 farklı gün) · 19 bit: (17 farklı gün)
++#     ⇒ en çok 752 ayrı sınır günü — eski yorumun ~20 katı.
++#   Bedeli kosu18.log:1467'de ölçülü: `varlık devri (petek_epok)` 236 çağrı ·
++#   54 dk 33 sn = koşunun %21,9'u. Doğruluk etkilenmez (devir kuralı epok
++#   sayısından bağımsız), etkilenen SÜREdir. ⚠️ Sayıyı buraya yeniden elle
++#   yazmak onu yeniden bayatlatır; güncelini EPOK betiği verir.
+ #
+ # ⚠️ EN ÖNEMLİ KISIT: devir YALNIZ YANLIŞ BOYANAN peteklere uygulanır.
+ # Ölçüt "kurulmamış" değil, "kurulmamış VE o tarihte bir sahibi yazılı".

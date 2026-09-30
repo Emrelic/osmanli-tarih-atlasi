@@ -538,7 +538,7 @@ window.EKOKUMA_ANTLASMA4 = [
   baslik:"Ahmed Paşa Antlaşması (1732)",
   kisa:"Bağdat valisi zaferden sonra barış imzaladı ve Tebriz'i İran'a bıraktı; padişah antlaşmayı tanımadı, barışı yapanları görevden aldı ve savaş yeniden başladı.",
   sebep:{ b:"II. Tahmasb'ın Safevî gücünü toparlayıp Batı İran'daki Osmanlı kazanımlarına saldırması", t:"1730" },
-  sonuc:{ b:"Ahmed Paşa ile Muhammed Rızâ Kulı arasında barış antlaşması", t:"1732-01-10" },
+  sonuc:{ b:"Ahmed Paşa ile Muhammed Rızâ Kulı arasında barış antlaşması", t:"1732-01-08" },
   bag:"Önemi: Osmanlı'nın 1724-1727 kazanımlarının bir kısmından vazgeçtiği ilk antlaşma. Tebriz'in bırakılması İstanbul'da kabul görmedi; antlaşma barış getirmek yerine yeni bir savaşın ve Nâdir'in yükselişinin başlangıcı oldu.",
   surec:"Safevîler 1730'da Hemedan'ı geri aldı. Şark seraskerliğine getirilen Bağdat Valisi Ahmed Paşa 15 Eylül 1731'de (TDV hemedan: 16 Eylül, Korican) İranlıları yendi ve Hemedan'a yeniden girdi; Hekimoğlu Ali Paşa da Urmiye ve Tebriz'i aldı. Ardından Ahmed Paşa ile İran tarafından Muhammed Rızâ Kulı arasında barış imzalandı. TDV ahmed-pasa'ya göre Ahmed Paşa bu seferde önce Kirmanşah ve Erdelân'ı almıştı.",
   hukumler:[
@@ -548,9 +548,9 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"I. Mahmud Tebriz'in İran'a bırakılmasına karşı çıktı; barış taraftarı Sadrazam Topal Osman Paşa ile Şeyhülislâm Paşmakçızâde Abdullah Efendi'yi görevden aldı, Beşir Ağa'nın telkiniyle Hekimoğlu Ali Paşa'yı sadrazam yaptı ve 6 Ekim 1733'te İran'a savaş ilân edildi. Kandehar'dan dönen Nâdir de anlaşmayı tanımadı, II. Tahmasb'ı azledip III. Abbas'ı tahta çıkardı (1732), Kerkük'e saldırıp Bağdat'ı sekiz ay kuşattı; kuşatma Erzurum Valisi Osman Paşa'nın yardımıyla kaldırıldı. Hemedan ise bu antlaşmayla kalıcı olarak İran'da kaldı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1732-01-10|Ahmed Paşa"],
+  olay:["1732-01-08|Ahmed Paşa"],
   kaynak:"TDV: mahmud-i--osmanli (15 Eylül 1731 zaferi, 12 Receb 1144 / 10 Ocak 1732 antlaşması ve paylaşımı, I. Mahmud'un itirazı, aziller, 6 Ekim 1733 savaş ilânı, Nâdir'in reddi, Bağdat kuşatması) · TDV: hemedan (16 Eylül 1731 Korican, 10 Receb 1144 / 8 Ocak 1732, Hemedan'ın İran'a bırakılışı) · TDV: ahmed-pasa (1732 antlaşmasında kısmî muhafaza) · TDV: iran (III. Abbas'ın tahta çıkarılışı 1732)",
-  ic_not:"🔴 GÜN FARKI, TDV içinde: mahmud-i--osmanli '12 Receb 1144 / 10 Ocak 1732', hemedan '10 Receb 1144 / 8 Ocak 1732' (zafer günü de 15/16 Eylül 1731 diye bir gün farklı). Madde t:1732-01-10. Kuşatmayı kaldıran TDV'de 'Erzurum Valisi Osman Paşa'; Topal Osman Paşa ile aynı kişi olup olmadığı bu kartta iddia edilmedi." },
+  ic_not:"🔴 GÜN FARKI, TDV içinde: mahmud-i--osmanli '12 Receb 1144 / 10 Ocak 1732', hemedan '10 Receb 1144 / 8 Ocak 1732' (zafer günü de 15/16 Eylül 1731 diye bir gün farklı). Madde t: 30 Eylül 2026'da 1732-01-10'dan 1732-01-08'e çekildi (UYGULA-OLAYLAR-0930, TDV hemedan); kartın t'si ve bağı ona taşındı (UYGULA-KART-0930). Kuşatmayı kaldıran TDV'de 'Erzurum Valisi Osman Paşa'; Topal Osman Paşa ile aynı kişi olup olmadığı bu kartta iddia edilmedi." },
 
 // ── 1736 İSTANBUL ANTLAŞMASI (NÂDİR ŞAH) ────────────────────────────────────
 { id:"antlasma4-istanbul-iran-1736", tur:"sebep-sonuc",

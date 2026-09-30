@@ -1,0 +1,153 @@
+{
+ "kaynak": "denetim/ONCE1281-AFRIKA-KUNYE.json",
+ "okunan": 13,
+ "kabul": [
+  {
+   "id": "murabitlar",
+   "islem": "yeni",
+   "f": "1056-01-01",
+   "t": "1147-03-23"
+  },
+  {
+   "id": "muvahhidler",
+   "islem": "yeni",
+   "f": "1130-01-01",
+   "t": "1269-01-01"
+  },
+  {
+   "id": "ziriler",
+   "islem": "yeni",
+   "f": "972-01-01",
+   "t": "1148-01-01"
+  },
+  {
+   "id": "hammadiler",
+   "islem": "yeni",
+   "f": "1015-01-01",
+   "t": "1152-01-01"
+  },
+  {
+   "id": "magrave-sicilmase",
+   "islem": "yeni",
+   "f": "976-01-01",
+   "t": "1053-01-01"
+  },
+  {
+   "id": "gane",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1076-01-01"
+  },
+  {
+   "id": "susu-kralligi",
+   "islem": "yeni",
+   "f": "1076-01-01",
+   "t": "1235-01-01"
+  },
+  {
+   "id": "tekrur-kralligi",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1281-01-01"
+  },
+  {
+   "id": "kevkev",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1324-01-01"
+  },
+  {
+   "id": "zagve",
+   "islem": "yeni",
+   "f": "1137-01-01",
+   "t": "1270-01-01"
+  },
+  {
+   "id": "suve-emirligi",
+   "islem": "yeni",
+   "f": "896-01-01",
+   "t": "1285-01-01"
+  },
+  {
+   "id": "mapungubwe",
+   "islem": "yeni",
+   "f": "900-01-01",
+   "t": "1300-01-01"
+  },
+  {
+   "id": "zimbabve-kralligi",
+   "islem": "genislet",
+   "f": "1281-01-01→1100-01-01",
+   "t": "1450-01-01→1450-01-01"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [],
+ "boya_gerekli": [
+  {
+   "id": "murabitlar",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "muvahhidler",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ziriler",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "hammadiler",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "magrave-sicilmase",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "gane",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "susu-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "tekrur-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kevkev",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "zagve",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "suve-emirligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "mapungubwe",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  721,
+  733
+ ]
+}

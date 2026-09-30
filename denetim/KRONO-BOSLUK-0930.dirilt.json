@@ -1,0 +1,5648 @@
+{
+ "olcum": "KRONO-BOSLUK-OLC-0930 · DİRİLT · 30 Eylül 2026",
+ "dosyalar": [
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "madde": 281,
+   "atanan": 253,
+   "kunye": {
+    "karaman": 45,
+    "selcuklu": 83,
+    "artuklu": 41,
+    "dulkadir": 33,
+    "aydin": 24,
+    "kilikya-ermeni": 27
+   }
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "madde": 60,
+   "atanan": 43,
+   "kunye": {
+    "yemen-zeydi": 24,
+    "umman": 19
+   }
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "madde": 177,
+   "atanan": 125,
+   "kunye": {
+    "zeta": 11,
+    "karadag": 32,
+    "bulgar-carligi": 7,
+    "bulgaristan-prensligi": 6,
+    "bulgaristan-kralligi": 5,
+    "bosna-kralligi": 16,
+    "yunanistan": 48
+   }
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "madde": 218,
+   "atanan": 190,
+   "kunye": {
+    "evfat": 9,
+    "adal": 28,
+    "habesistan": 76,
+    "svahili-sehirleri": 28,
+    "makdisu-sultanligi": 2,
+    "somali": 28,
+    "buganda": 19
+   }
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "madde": 155,
+   "atanan": 108,
+   "kunye": {
+    "ilhanli": 41,
+    "celayirli": 17,
+    "muzafferi": 14,
+    "incu": 4,
+    "serbedariler": 20,
+    "kert": 10,
+    "lur-i-buzurg": 1,
+    "lur-i-kucek": 1
+   }
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "madde": 186,
+   "atanan": 170,
+   "kunye": {
+    "cenova": 111,
+    "ferrara": 36,
+    "siena": 23
+   }
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "madde": 83,
+   "atanan": 65,
+   "kunye": {
+    "merini": 20,
+    "sadi": 18,
+    "hafsi": 9,
+    "zeyyani": 12,
+    "trablusgarp-ocagi": 6
+   }
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "madde": 205,
+   "atanan": 136,
+   "kunye": {
+    "kazan": 28,
+    "astarhan": 4,
+    "nogay": 12,
+    "sibir-hanligi": 19,
+    "kazak-hanligi": 43,
+    "mogulistan": 6,
+    "yarkent-hanligi": 2,
+    "yakub-beg": 10,
+    "cungar": 3,
+    "turkmen": 10
+   }
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "madde": 73,
+   "atanan": 61,
+   "kunye": {
+    "buhara": 34,
+    "hive": 16,
+    "hokand": 11
+   }
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "madde": 35,
+   "atanan": 16,
+   "kunye": {
+    "sirbistan-nemanjic": 1,
+    "sirp-despotlugu": 2,
+    "sirbistan-eyaleti": 4,
+    "sirbistan-prensligi": 7,
+    "sirbistan-kralligi": 2
+   }
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "madde": 136,
+   "atanan": 124,
+   "kunye": {
+    "yuan-hanedani": 11,
+    "ming-hanedani": 42,
+    "qing-hanedani": 64,
+    "cin-cumhuriyeti": 8
+   }
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "madde": 120,
+   "atanan": 111,
+   "kunye": {
+    "misir-eyaleti": 27,
+    "misir-kavalali": 83,
+    "misir-sultanligi": 1
+   }
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "madde": 71,
+   "atanan": 62,
+   "kunye": {
+    "kamakura": 2,
+    "muromachi": 8,
+    "azuchi-momoyama": 8,
+    "edo-bakufu": 19,
+    "meiji-japonya": 25
+   }
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "madde": 131,
+   "atanan": 101,
+   "kunye": {
+    "delhi-sultanligi": 22,
+    "babur-imparatorlugu": 56,
+    "maratha": 4,
+    "meysur": 4,
+    "behmeni": 3,
+    "golkonda": 3,
+    "bicapur": 2,
+    "ahmednagar": 2,
+    "gucerat-sultanligi": 2,
+    "malva-sultanligi": 1,
+    "bengal-sultanligi": 2,
+    "sind": 1,
+    "sih-imparatorlugu": 2
+   }
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "madde": 153,
+   "atanan": 133,
+   "kunye": {
+    "sind": 28,
+    "delhi-sultanligi": 1,
+    "babur-imparatorlugu": 17,
+    "nepal": 28,
+    "racput": 33,
+    "ladak": 10,
+    "travankur": 18,
+    "meysur": 1,
+    "manipur": 16
+   }
+  }
+ ],
+ "atanmayan": [
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1256-01-01",
+   "b": "Karaman Bey, Ermenek-Mut yöresinde beyliğin temelini attı",
+   "sebep": "mükerrer-riski(karaman)",
+   "kaynak": "bölüm@125"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1277-05-13",
+   "b": "Mehmed Bey Konya'yı ele geçirip Türkçeyi resmî dil ilan etti",
+   "sebep": "mükerrer-riski(karaman)",
+   "kaynak": "bölüm@125"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1366-01-01",
+   "b": "Alâeddin Bey, Konya'yı kalıcı olarak ele geçirip başkent yaptı",
+   "sebep": "mükerrer-riski(karaman)",
+   "kaynak": "bölüm@125"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1397-01-01",
+   "b": "Akçay'da yenilgi; Konya kuşatılıp alındı",
+   "sebep": "mükerrer-riski(karaman)",
+   "kaynak": "bölüm@125"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1402-07-28",
+   "b": "Ankara Savaşı sonrası Timur, Alâeddin'in oğullarına toprakları geri verdi",
+   "sebep": "mükerrer-riski(karaman)",
+   "kaynak": "bölüm@125"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1487-01-01",
+   "b": "Mahmud Bey Halep'e kaçtı; Karamanoğulları tarihe karıştı",
+   "sebep": "mükerrer-riski(karaman)",
+   "kaynak": "bölüm@125"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1071-08-26",
+   "b": "Malazgirt zaferi Anadolu'nun kapısını açtı",
+   "sebep": "pencere-dışı(selcuklu)",
+   "kaynak": "bölüm@433"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1086-06-04",
+   "b": "Süleyman Şah'ın Ayn Seylem'de ölümü",
+   "sebep": "mükerrer-riski(selcuklu)",
+   "kaynak": "bölüm@433"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1230-01-01",
+   "b": "Yassıçemen Savaşı",
+   "sebep": "mükerrer-riski(selcuklu)",
+   "kaynak": "bölüm@433"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1308-01-01",
+   "b": "Son Selçuklu sultanının ölümüyle devlet fiilen sona erdi",
+   "sebep": "mükerrer-riski(selcuklu)",
+   "kaynak": "bölüm@433"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1063-01-01",
+   "b": "Artuk Bey Sultan Alparslan'ın hizmetine girdi",
+   "sebep": "pencere-dışı(artuklu)",
+   "kaynak": "bölüm@958"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1102-01-01",
+   "b": "Sökmen Bey Hasankeyf'i ele geçirip Artuklu kolunu kurdu",
+   "sebep": "mükerrer-riski(artuklu)",
+   "kaynak": "bölüm@958"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1232-01-01",
+   "b": "El-Melikü'l-Kâmil Hasankeyf'i ilhak etti, Hasankeyf kolu sona erdi",
+   "sebep": "mükerrer-riski(artuklu)",
+   "kaynak": "bölüm@958"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1409-01-01",
+   "b": "Mardin Karakoyunlu Kara Yûsuf'a teslim edildi, Artuklu Beyliği sona erdi",
+   "sebep": "mükerrer-riski(artuklu)",
+   "kaynak": "bölüm@958"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1338-01-01",
+   "b": "Elbistan beyliğin başkenti oldu",
+   "sebep": "mükerrer-riski(dulkadir)",
+   "kaynak": "bölüm@1231"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1515-06-12",
+   "b": "Turnadağ Savaşı'nda Alâüddevle Yavuz'a yenilip öldürüldü",
+   "sebep": "mükerrer-riski(dulkadir)",
+   "kaynak": "bölüm@1231"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1522-01-01",
+   "b": "Maraş merkezli Osmanlı eyaleti kuruldu",
+   "sebep": "mükerrer-riski(dulkadir)",
+   "kaynak": "bölüm@1231"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1307-01-01",
+   "b": "Birgi'nin fethi",
+   "sebep": "pencere-dışı(aydin)",
+   "kaynak": "bölüm@1450"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1308-01-01",
+   "b": "Aydınoğulları Beyliği'nin kuruluşu",
+   "sebep": "mükerrer-riski(aydin)",
+   "kaynak": "bölüm@1450"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1329-01-01",
+   "b": "İzmir Liman Kalesi'nin (Aşağı Kale) fethi",
+   "sebep": "mükerrer-riski(aydin)",
+   "kaynak": "bölüm@1450"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1344-10-28",
+   "b": "İzmir Liman Kalesi'nin Haçlılar tarafından alınması",
+   "sebep": "mükerrer-riski(aydin)",
+   "kaynak": "bölüm@1450"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1390-01-01",
+   "b": "İsa Bey'in Yıldırım Bayezid'e tabi olması, ilk ilhak",
+   "sebep": "mükerrer-riski(aydin)",
+   "kaynak": "bölüm@1450"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1402-07-28",
+   "b": "Ankara Savaşı sonrası Timur'un toprakları iadesi, yeniden kuruluş",
+   "sebep": "mükerrer-riski(aydin)",
+   "kaynak": "bölüm@1450"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1199-01-06",
+   "b": "Levon (I/II), Tarsus'ta taç giyip ilk kral oldu",
+   "sebep": "mükerrer-riski(kilikya-ermeni)",
+   "kaynak": "bölüm@1633"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1247-01-01",
+   "b": "Kral Hetum I, Karakurum'a elçi gönderip Moğollarla ilk temas kurdu",
+   "sebep": "mükerrer-riski(kilikya-ermeni)",
+   "kaynak": "bölüm@1633"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1260-01-01",
+   "b": "Ayn Câlût sonrası Memlük akınları başladı",
+   "sebep": "mükerrer-riski(kilikya-ermeni)",
+   "kaynak": "bölüm@1633"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1375-06-01",
+   "b": "Kilikya Ermenilerinin Kıbrıs'a göçü",
+   "sebep": "pencere-dışı(kilikya-ermeni)",
+   "kaynak": "bölüm@1633"
+  },
+  {
+   "dosya": "kronoloji_anadolu.js",
+   "t": "1382-10-01",
+   "b": "VI. Levon Kahire esaretinden fidyeyle kurtuldu",
+   "sebep": "pencere-dışı(kilikya-ermeni)",
+   "kaynak": "bölüm@1633"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1849-01-01",
+   "b": "İkinci Osmanlı dönemi başladı — Tihâme kıyısı yeniden alındı",
+   "sebep": "mükerrer-riski(yemen-zeydi)",
+   "kaynak": "bölüm@203"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1507-01-01",
+   "b": "Portekiz, Uman kıyı şehirlerini işgale başladı",
+   "sebep": "pencere-dışı(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1620-01-01",
+   "b": "Nâsır b. Mürşid'e biat edildi — Ya'rubî imameti kuruldu",
+   "sebep": "pencere-dışı(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1650-01-26",
+   "b": "Maskat, Portekiz'den geri alındı",
+   "sebep": "mükerrer-riski(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1749-06-10",
+   "b": "Bû Saîd hanedanı resmen kuruldu",
+   "sebep": "mükerrer-riski(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1798-01-18",
+   "b": "İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı",
+   "sebep": "mükerrer-riski(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1856-01-01",
+   "b": "Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü",
+   "sebep": "mükerrer-riski(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1862-01-01",
+   "b": "Zengibar ve Uman ayrı devletler olarak tanındı",
+   "sebep": "mükerrer-riski(umman)",
+   "kaynak": "bölüm@267"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1547-01-01",
+   "b": "Osmanlı, Lahsa'yı Basra beylerbeyiliğine bağladı",
+   "sebep": "pencere-dışı(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1553-01-01",
+   "b": "Lahsa beylerbeyiliğe yükseltildi",
+   "sebep": "pencere-dışı(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1670-01-01",
+   "b": "Berrâk b. Guraybir, Hufuf'u alarak Benî Hâlid emirliğini kurdu",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1691-01-01",
+   "b": "Muhammed b. Berrâk, Necid'e akınlarını sürdürdü",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1744-01-01",
+   "b": "Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınması — Suûdîlerle husumet başladı",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1752-01-01",
+   "b": "Süleyman el-Hamîdî tahttan indirildi — iç çekişmeler başladı",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1795-01-01",
+   "b": "Abdülazîz b. Suûd, Lahsa'yı alıp emirliği ilk kez tasfiye etti",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1818-01-01",
+   "b": "İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_arabistan.js",
+   "t": "1830-01-01",
+   "b": "Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi",
+   "sebep": "mükerrer-riski(benihalid)",
+   "kaynak": "bölüm@425"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1356-01-01",
+   "b": "Balšić ailesi Sırp Krallığı'nın dağılmasında bağımsızlaştı",
+   "sebep": "mükerrer-riski(zeta)",
+   "kaynak": "bölüm@79"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1385-01-01",
+   "b": "Osmanlı ile ilk çarpışma",
+   "sebep": "mükerrer-riski(zeta)",
+   "kaynak": "bölüm@79"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1482-01-01",
+   "b": "İvan Crnojević merkezi Cetine'ye taşıdı",
+   "sebep": "mükerrer-riski(zeta)",
+   "kaynak": "bölüm@79"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1514-01-01",
+   "b": "İskender Bey yönetiminde Karadağ ayrı bir sancak olarak kuruldu — Zeta'nın sonu",
+   "sebep": "mükerrer-riski(zeta)",
+   "kaynak": "bölüm@79"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1852-01-01",
+   "b": "II. Danilo dinî unvanı bırakıp laik kalıtsal prensliğe dönüştü",
+   "sebep": "mükerrer-riski(karadag)",
+   "kaynak": "bölüm@158"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1858-05-13",
+   "b": "Grahova Savaşı — Osmanlı kuvvetleri yenildi",
+   "sebep": "mükerrer-riski(karadag)",
+   "kaynak": "bölüm@158"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1878-07-13",
+   "b": "Berlin Kongresi — bağımsızlık kesinleşti, topraklar genişledi",
+   "sebep": "mükerrer-riski(karadag)",
+   "kaynak": "bölüm@158"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1910-08-28",
+   "b": "I. Nikola kral ilan edildi — prenslik krallığa dönüştü",
+   "sebep": "mükerrer-riski(karadag)",
+   "kaynak": "bölüm@158"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1918-11-26",
+   "b": "Podgorica Meclisi Sırbistan'la birleşmeyi oyladı — Karadağ Krallığı sona erdi",
+   "sebep": "mükerrer-riski(karadag)",
+   "kaynak": "bölüm@158"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1185-01-01",
+   "b": "Asen kardeşler Bizans'a isyan etti — İkinci Bulgar İmparatorluğu kuruldu",
+   "sebep": "mükerrer-riski(bulgar-carligi)",
+   "kaynak": "bölüm@348"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1230-03-09",
+   "b": "Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı",
+   "sebep": "mükerrer-riski(bulgar-carligi)",
+   "kaynak": "bölüm@348"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1371-01-01",
+   "b": "İvan Aleksandır'ın ölümü — devlet Tırnova ve Vidin çarlıklarına bölündü",
+   "sebep": "mükerrer-riski(bulgar-carligi)",
+   "kaynak": "bölüm@348"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1393-07-17",
+   "b": "Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi",
+   "sebep": "mükerrer-riski(bulgar-carligi)",
+   "kaynak": "bölüm@348"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1396-09-25",
+   "b": "NİĞBOLU — Avrupa'nın son büyük haçlı seferi bozguna uğradı",
+   "sebep": "pencere-dışı(bulgar-carligi)",
+   "kaynak": "bölüm@348"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1396-10-01",
+   "b": "Vidin'in düşüşü — Bulgar Çarlığı sona erdi",
+   "sebep": "pencere-dışı(bulgar-carligi)",
+   "kaynak": "bölüm@348"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1444-11-10",
+   "b": "Varna Savaşı — Haçlı ordusu Bulgaristan topraklarında bozguna uğradı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1688-09-01",
+   "b": "Chiprovtsi (Kiprovça) İsyanı — Katolik Bulgarların ayaklanması",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1762-01-01",
+   "b": "Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başlangıcı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1835-01-02",
+   "b": "Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1860-04-03",
+   "b": "Bulgar-Rum kilise ayrılığı fiilen başladı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1864-10-01",
+   "b": "Midhat Paşa Tuna Vilâyeti valisi oldu — reform dönemi başladı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1870-03-11",
+   "b": "Bulgar Eksarhlığı kuruldu — Bulgar kilisesi bağımsızlığını kazandı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1873-02-18",
+   "b": "Vasil Levski Sofya'da idam edildi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1876-05-02",
+   "b": "Nisan İsyanı — Batak katliamı ve Avrupa kamuoyunun tepkisi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1877-04-24",
+   "b": "93 Harbi başladı — Rusya Osmanlı'ya savaş ilan etti",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1877-08-21",
+   "b": "Şıpka Geçidi Savunması — Bulgar gönüllüleri ve Rus ordusu geçidi tuttu",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1877-12-10",
+   "b": "Plevne'nin düşüşü — Gazi Osman Paşa teslim oldu",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1878-01-04",
+   "b": "Sofya Rus kuvvetlerince işgal edildi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@431"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1878-03-03",
+   "b": "Ayastefanos Antlaşması — 'Büyük Bulgaristan' kısa ömürlü ilan edildi",
+   "sebep": "pencere-dışı(bulgaristan-prensligi)",
+   "kaynak": "bölüm@515"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1878-07-13",
+   "b": "Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu",
+   "sebep": "mükerrer-riski(bulgaristan-prensligi)",
+   "kaynak": "bölüm@515"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1885-09-18",
+   "b": "Doğu Rumeli ilhak edildi — Bulgaristan birleşti",
+   "sebep": "mükerrer-riski(bulgaristan-prensligi)",
+   "kaynak": "bölüm@515"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1908-10-05",
+   "b": "Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1912-10-08",
+   "b": "Birinci Balkan Savaşı'na giriş",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1913-05-30",
+   "b": "Londra Antlaşması — I. Balkan Savaşı sona erdi",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1913-06-29",
+   "b": "İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1913-08-10",
+   "b": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1915-10-14",
+   "b": "Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1918-09-29",
+   "b": "Selanik Mütarekesi — Bulgaristan savaştan çekildi",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1918-10-03",
+   "b": "Ferdinand tahttan çekildi — III. Boris çar oldu",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1919-11-27",
+   "b": "Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi",
+   "sebep": "mükerrer-riski(bulgaristan-kralligi)",
+   "kaynak": "bölüm@574"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1377-01-01",
+   "b": "Tvrtko I'in taç giymesi — Bosna Krallığı'nın ilanı",
+   "sebep": "mükerrer-riski(bosna-kralligi)",
+   "kaynak": "bölüm@663"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1391-01-01",
+   "b": "Tvrtko I'in ölümü — taht kavgalarının başlaması",
+   "sebep": "mükerrer-riski(bosna-kralligi)",
+   "kaynak": "bölüm@663"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1414-01-01",
+   "b": "Osmanlı'ya ilk haraç kabulü",
+   "sebep": "mükerrer-riski(bosna-kralligi)",
+   "kaynak": "bölüm@663"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1461-11-01",
+   "b": "Stjepan Tomašević'in tahta çıkışı — haracı reddedip Papalık'tan yardım istemesi",
+   "sebep": "mükerrer-riski(bosna-kralligi)",
+   "kaynak": "bölüm@663"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1463-05-01",
+   "b": "Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı",
+   "sebep": "mükerrer-riski(bosna-kralligi)",
+   "kaynak": "bölüm@663"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1821-02-22",
+   "b": "İpsilantis'in Eflak-Boğdan'a girişi",
+   "sebep": "pencere-dışı(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1827-10-20",
+   "b": "Navarin Deniz Savaşı",
+   "sebep": "mükerrer-riski(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1830-02-03",
+   "b": "Bağımsızlığın Londra Protokolü ile tanınması",
+   "sebep": "mükerrer-riski(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1912-10-08",
+   "b": "Balkan Savaşları'na giriş",
+   "sebep": "mükerrer-riski(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1913-08-10",
+   "b": "Bükreş Antlaşması",
+   "sebep": "mükerrer-riski(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1919-05-15",
+   "b": "İzmir'in işgali",
+   "sebep": "mükerrer-riski(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "t": "1923-07-24",
+   "b": "Lozan Antlaşması'nın imzalanması",
+   "sebep": "mükerrer-riski(yunanistan)",
+   "kaynak": "bölüm@774"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1285-01-01",
+   "b": "Ali b. Ömer Veleşma', Şüve Emirliği'ni ilhak ederek Evfât Emirliği'ni kurdu",
+   "sebep": "mükerrer-riski(evfat)",
+   "kaynak": "bölüm@96"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1332-01-01",
+   "b": "Amda Sion Zeyla' limanını ve Evfât topraklarının büyük kısmını aldı",
+   "sebep": "mükerrer-riski(evfat)",
+   "kaynak": "bölüm@96"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1386-01-01",
+   "b": "II. Hakkuddin Habeş kralına yenilerek öldürüldü",
+   "sebep": "mükerrer-riski(evfat)",
+   "kaynak": "bölüm@96"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1415-01-01",
+   "b": "II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi",
+   "sebep": "mükerrer-riski(evfat)",
+   "kaynak": "bölüm@96"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1529-03-09",
+   "b": "Şimbra Kure Muharebesi — Habeş ordusunun bozguna uğratılması",
+   "sebep": "mükerrer-riski(adal)",
+   "kaynak": "bölüm@166"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1543-02-21",
+   "b": "Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü",
+   "sebep": "mükerrer-riski(adal)",
+   "kaynak": "bölüm@166"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1577-01-01",
+   "b": "Vebi nehri bozgunu — Harar Emirliği'nin ileri gelenleri öldürüldü",
+   "sebep": "mükerrer-riski(adal)",
+   "kaynak": "bölüm@166"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1887-01-07",
+   "b": "Şeleneko Muharebesi — Harar Emirliği'nin sonu",
+   "sebep": "pencere-dışı(adal)",
+   "kaynak": "bölüm@166"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1911-01-01",
+   "b": "Harar'da Osmanlı maslahatgüzarlığının açılması",
+   "sebep": "pencere-dışı(adal)",
+   "kaynak": "bölüm@166"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1913-01-01",
+   "b": "Osmanlı temsilciliğinin Harar'dan Adisababa'ya nakli",
+   "sebep": "pencere-dışı(adal)",
+   "kaynak": "bölüm@166"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1270-01-01",
+   "b": "Yekuno Amlak Zagwe hânedanına son verip Süleymanî hânedanını yeniden kurdu",
+   "sebep": "mükerrer-riski(habesistan)",
+   "kaynak": "bölüm@341"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1636-01-01",
+   "b": "Gondar'ın başkent yapılması",
+   "sebep": "mükerrer-riski(habesistan)",
+   "kaynak": "bölüm@341"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1769-01-01",
+   "b": "Zemene Mesafint (Prensler Çağı) başladı — merkezî otoritenin çöküşü",
+   "sebep": "mükerrer-riski(habesistan)",
+   "kaynak": "bölüm@341"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1855-02-11",
+   "b": "II. Tewodros'un taç giymesi — Etiyopya'nın yeniden birleşmesi",
+   "sebep": "mükerrer-riski(habesistan)",
+   "kaynak": "bölüm@341"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1889-05-02",
+   "b": "Wichale (Uccialli) Antlaşması — Menelik'in İtalya ile anlaşması",
+   "sebep": "mükerrer-riski(habesistan)",
+   "kaynak": "bölüm@341"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1896-03-01",
+   "b": "Adva Muharebesi — İtalya'nın yenilgisi ve Etiyopya bağımsızlığının korunması",
+   "sebep": "mükerrer-riski(habesistan)",
+   "kaynak": "bölüm@341"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1530-01-01",
+   "b": "Kilve tarihinin João de Barros tarafından tercümesi — 'Kilve Kroniği'",
+   "sebep": "mükerrer-riski(svahili-sehirleri)",
+   "kaynak": "bölüm@757"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1698-12-13",
+   "b": "Fort Jesus'un düşüşü — Portekiz çağının sonu, Svahili kıyısının Umman nüfuzuna girmesi",
+   "sebep": "mükerrer-riski(svahili-sehirleri)",
+   "kaynak": "bölüm@757"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1281-01-01",
+   "b": "Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması",
+   "sebep": "mükerrer-riski(makdisu-sultanligi)",
+   "kaynak": "bölüm@915"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1500-01-01",
+   "b": "Ecuran (Ajuran) Sultanlığı'nın güney Somali'de hâkimiyet kurması",
+   "sebep": "mükerrer-riski(makdisu-sultanligi,somali)",
+   "kaynak": "bölüm@915"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1700-01-01",
+   "b": "Ecuran Sultanlığı'nın dağılması ve Geledi ile yerel sultanlıkların doğuşu",
+   "sebep": "mükerrer-riski(somali)",
+   "kaynak": "bölüm@915"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1390-01-01",
+   "b": "Minjo hânedanının Kaffa Krallığı'nı kurması",
+   "sebep": "mükerrer-riski(kaffa-kralligi)",
+   "kaynak": "bölüm@1086"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1830-01-01",
+   "b": "Cimma (Jimma) Sultanlığı'nın kurulması",
+   "sebep": "mükerrer-riski(cimma-sultanligi)",
+   "kaynak": "bölüm@1086"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1894-01-17",
+   "b": "Vollayta (Wolaita) Krallığı'nın Menelik tarafından ilhakı",
+   "sebep": "mükerrer-riski(vollayta-kralligi)",
+   "kaynak": "bölüm@1086"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1897-01-01",
+   "b": "Sidamo krallıklarının Etiyopya'ya katılması",
+   "sebep": "mükerrer-riski(sidamo-kralliklari)",
+   "kaynak": "bölüm@1086"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1897-09-10",
+   "b": "Kaffa Krallığı'nın düşüşü — son kral Gaki Şeroço'nun esir alınması",
+   "sebep": "mükerrer-riski(kaffa-kralligi)",
+   "kaynak": "bölüm@1086"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1300-01-01",
+   "b": "Kintu hânedanının Buganda Krallığı'nı kurması",
+   "sebep": "mükerrer-riski(buganda)",
+   "kaynak": "bölüm@1122"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "t": "1894-06-18",
+   "b": "İngiltere ile himaye antlaşmasının imzalanması",
+   "sebep": "mükerrer-riski(buganda)",
+   "kaynak": "bölüm@1122"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1253-01-01",
+   "b": "Büyük Han Mengü, kardeşi Hülâgû'yu batıya görevlendirdi",
+   "sebep": "pencere-dışı(ilhanli)",
+   "kaynak": "bölüm@192"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1256-01-01",
+   "b": "Alamut Kalesi'nin zaptı ve İlhanlılığın ilânı",
+   "sebep": "mükerrer-riski(ilhanli)",
+   "kaynak": "bölüm@192"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1265-01-01",
+   "b": "Abaka İlhanlı Kurultayı tarafından seçildi",
+   "sebep": "mükerrer-riski(ilhanli)",
+   "kaynak": "bölüm@230"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1295-01-01",
+   "b": "Kefe-Trabzon-Tebriz ticaret yolu önem kazandı",
+   "sebep": "mükerrer-riski(ilhanli)",
+   "kaynak": "bölüm@288"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1335-12-15",
+   "b": "Arpa Han ilhan ilân edildi — kukla ilhanlar devri başladı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1336-01-01",
+   "b": "Arpa Han, İncûlu Şerefeddin Mahmud Şah'ı öldürttü",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1336-01-01",
+   "b": "Aladağ Savaşı — Hasan-ı Büzürg, Uyrat Ali Pâdişah'ı yendi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1336-01-01",
+   "b": "Hasan-ı Büzürg Tebriz'i pâyitaht yaptı — beş emîr onu metbû tanıdı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1337-01-01",
+   "b": "Horasan emîrleri Toğa Timur'u ilhan seçti — doğuda rakip taht",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1337-01-01",
+   "b": "Merâga bozgunu — Hasan-ı Büzürg, Toğa Timur ve Mûsâ'yı yendi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1338-01-01",
+   "b": "Şehrinev Savaşı — Hasan-ı Kûçek Tebriz ve Sultâniye'yi yağmaladı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1338-01-01",
+   "b": "Hasan-ı Büzürg Azerbaycan'ı terk etti — Bağdat'a çekiliş",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1339-01-01",
+   "b": "Sâtî Beg Hatun ilhan ilân edildi — Çobanlı adayı bir kadın hükümdar",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1340-01-01",
+   "b": "CELÂYİRLİ DEVLETİ'NİN KURULUŞU — Hasan-ı Büzürg Bağdat'ta",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1340-01-01",
+   "b": "Celâyirliler Memlük sultanı adına hutbe okutup sikke kestirdi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1340-01-01",
+   "b": "Çobanî Pîr Hüseyin Şîraz'ı aldı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1341-01-01",
+   "b": "Ebû İshak, Melik Eşref'in yardımıyla Şîraz'ı geri aldı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1343-01-01",
+   "b": "Mesud Şah öldürüldü — İncû hânedanında iç savaşın sonu",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1343-01-01",
+   "b": "Hasan-ı Kûçek öldü — Melik Eşref Çobanlıların başına geçti",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1344-01-01",
+   "b": "Nûşirevân son kukla ilhan olarak tahta çıkarıldı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1347-01-01",
+   "b": "Kara Ölüm İran'a ulaştı — Tebriz ve Bağdat'ta veba",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1353-12-13",
+   "b": "Toğa Timur öldürüldü — Cengiz soyunun İran'daki saltanatı bitti",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1355-01-01",
+   "b": "Melik Eşref dönemi kapandı — Çobanlıların Azerbaycan hâkimiyeti sona erdi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@474"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1382-01-01",
+   "b": "Hüseyin'in ölümü — devlet Ahmed ile Bayezid arasında bölündü",
+   "sebep": "mükerrer-riski(celayirli)",
+   "kaynak": "bölüm@603"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1405-01-01",
+   "b": "Timur'un ölümünden sonra Ahmed yeniden Bağdat'a hâkim oldu",
+   "sebep": "mükerrer-riski(celayirli)",
+   "kaynak": "bölüm@603"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1431-01-01",
+   "b": "Hille Kalesi düştü — Celâyirli hânedanı son buldu",
+   "sebep": "mükerrer-riski(celayirli)",
+   "kaynak": "bölüm@603"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1291-01-01",
+   "b": "Şerefeddin Muzaffer, Gāzân Han'ın hizmetine girdi",
+   "sebep": "pencere-dışı(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1313-01-01",
+   "b": "Şerefeddin Muzaffer öldü — aile bölgede itibar kazanmıştı",
+   "sebep": "pencere-dışı(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1318-01-01",
+   "b": "Mübârizüddin Muhammed'e Yezd emirliği verildi — hânedanın kuruluşu",
+   "sebep": "mükerrer-riski(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1357-01-01",
+   "b": "Kirman Muzafferî topraklarına katıldı — Kutluğhanlı prensesle evlilik",
+   "sebep": "mükerrer-riski(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1358-01-01",
+   "b": "Mübârizüddin Tebriz'i istilâ etti ama elinde tutamadı",
+   "sebep": "mükerrer-riski(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1358-01-01",
+   "b": "Şah Şücâ' babasını hal'edip gözlerine mil çektirdi",
+   "sebep": "mükerrer-riski(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1393-01-01",
+   "b": "Şah Mansûr Şîraz önünde yenildi — Muzafferî hânedanının sonu",
+   "sebep": "mükerrer-riski(muzafferi)",
+   "kaynak": "bölüm@727"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1303-01-01",
+   "b": "Şerefeddin Mahmud Şah incû arazilerinin idaresiyle görevlendirildi",
+   "sebep": "pencere-dışı(incu)",
+   "kaynak": "bölüm@857"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1325-01-01",
+   "b": "Şerefeddin Mahmud Şah fiilen bağımsız hükümdar oldu",
+   "sebep": "mükerrer-riski(incu)",
+   "kaynak": "bölüm@857"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1337-03-13",
+   "b": "Abdürrezzâk Baştın'da isyan etti — Serbedârî hareketinin doğuşu",
+   "sebep": "pencere-dışı(serbedariler)",
+   "kaynak": "bölüm@904"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1381-01-01",
+   "b": "Timur Sebzevâr'a yürüdü — Hâce Ali itaat ederek iktidarını korudu",
+   "sebep": "mükerrer-riski(serbedariler)",
+   "kaynak": "bölüm@904"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1386-01-01",
+   "b": "Hâce Ali öldürüldü — Serbedârî hânedanı sona erdi",
+   "sebep": "mükerrer-riski(serbedariler)",
+   "kaynak": "bölüm@904"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1405-01-01",
+   "b": "Sultan Ali'nin diriltme girişimi Herat'ta bastırıldı",
+   "sebep": "pencere-dışı(serbedariler)",
+   "kaynak": "bölüm@904"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1245-01-01",
+   "b": "Şemseddin Muhammed melik unvanını aldı — Kert hânedanının kuruluşu",
+   "sebep": "mükerrer-riski(kert)",
+   "kaynak": "bölüm@1056"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1381-01-01",
+   "b": "Timur Herat'ı işgal etti — Kert hânedanı vasal oldu",
+   "sebep": "mükerrer-riski(kert)",
+   "kaynak": "bölüm@1056"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1389-01-01",
+   "b": "Timur Kert hânedanını ortadan kaldırdı",
+   "sebep": "mükerrer-riski(kert)",
+   "kaynak": "bölüm@1056"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1155-01-01",
+   "b": "Lur-ı Büzürg Atabegliği (Hazaraspîler) kuruldu",
+   "sebep": "mükerrer-riski(lur-i-buzurg)",
+   "kaynak": "bölüm@1138"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1184-01-01",
+   "b": "Lur-ı Küçek Atabegliği kuruldu — Bersekiyân idaresinin sonu",
+   "sebep": "mükerrer-riski(lur-i-kucek)",
+   "kaynak": "bölüm@1138"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1393-01-01",
+   "b": "Timur Luristan'a hâkim oldu ve Şûs'ta ikamet etti",
+   "sebep": "belirsiz(lur-i-buzurg,lur-i-kucek)",
+   "kaynak": "bölüm@1138"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1424-01-01",
+   "b": "Lur-ı Büzürg Atabegliği sona erdi",
+   "sebep": "mükerrer-riski(lur-i-buzurg)",
+   "kaynak": "bölüm@1138"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "t": "1603-01-01",
+   "b": "Şah I. Abbas Luristan'ı Safevîlere tam olarak bağladı",
+   "sebep": "pencere-dışı(lur-i-buzurg,lur-i-kucek)",
+   "kaynak": "bölüm@1138"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1284-08-06",
+   "b": "Meloria Deniz Savaşı — Tirreni'de tek rakibin tasfiyesi",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@34"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1347-01-01",
+   "b": "Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@34"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1380-06-24",
+   "b": "Chioggia'da Ceneviz ordusunun teslim olması — üstünlüğün kırıldığı gün",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@172"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1381-08-08",
+   "b": "Torino Barışı — Bozcaada meselesinin kapanması",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@172"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1453-05-29",
+   "b": "Galata'nın anahtarlarının teslim edilmesi — koloninin sonu, ticaretin devamı",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@270"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1461-08-15",
+   "b": "Amasra kolonisinin Osmanlı'ya düşmesi",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@270"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1528-09-12",
+   "b": "Andrea Doria'nın anayasası — oligarşik cumhuriyetin doğuşu",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@464"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1566-04-14",
+   "b": "Sakız Adası'nın Osmanlı'ya ilhakı — son koloninin kaybı",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@610"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1746-12-05",
+   "b": "Balilla İsyanı — bir çocuğun attığı taşla başlayan ayaklanma",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@732"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1768-05-15",
+   "b": "Korsika'nın Fransa'ya devredilmesi — son toprağın satılması",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@732"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1797-06-14",
+   "b": "Cumhuriyetin ilgası — Ligurya Cumhuriyeti'nin kurulması",
+   "sebep": "mükerrer-riski(cenova)",
+   "kaynak": "bölüm@732"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1805-06-04",
+   "b": "Ligurya'nın Fransa'ya ilhakı — devlet olarak varlığın bitişi",
+   "sebep": "pencere-dışı(cenova)",
+   "kaynak": "bölüm@732"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1815-06-09",
+   "b": "Viyana Kongresi — Cenova'nın Sardinya-Piyemonte'ye verilmesi",
+   "sebep": "pencere-dışı(cenova)",
+   "kaynak": "bölüm@732"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1859-06-11",
+   "b": "Son dükün kaçışı — Este devletinin sonu",
+   "sebep": "pencere-dışı(ferrara)",
+   "kaynak": "bölüm@1043"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1555-04-17",
+   "b": "Siena'nın teslim olması — bir cumhuriyetin sonu",
+   "sebep": "mükerrer-riski(siena)",
+   "kaynak": "bölüm@1353"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "t": "1559-08-03",
+   "b": "Montalcino'daki son cumhuriyetin sona ermesi ve Siena'nın Floransa'ya devri",
+   "sebep": "pencere-dışı(siena)",
+   "kaynak": "bölüm@1353"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1196-01-01",
+   "b": "Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu",
+   "sebep": "mükerrer-riski(merini)",
+   "kaynak": "bölüm@48"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1274-01-01",
+   "b": "Tanca ve Sebte zaptedildi",
+   "sebep": "mükerrer-riski(merini)",
+   "kaynak": "bölüm@48"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1415-01-01",
+   "b": "Portekiz Sebte'yi işgal etti",
+   "sebep": "mükerrer-riski(merini)",
+   "kaynak": "bölüm@48"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1511-01-01",
+   "b": "Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi",
+   "sebep": "mükerrer-riski(sadi)",
+   "kaynak": "bölüm@167"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1549-01-01",
+   "b": "Fas şehrine girilip Vattâsî hâkimiyetine son verildi",
+   "sebep": "mükerrer-riski(sadi)",
+   "kaynak": "bölüm@167"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1591-04-13",
+   "b": "Tondibi zaferiyle Songhay İmparatorluğu yıkıldı, Sudan fethedildi",
+   "sebep": "mükerrer-riski(sadi)",
+   "kaynak": "bölüm@167"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1659-01-01",
+   "b": "Ahmed el-Abbas öldürülerek Sâdî hanedanı sona erdi",
+   "sebep": "mükerrer-riski(sadi)",
+   "kaynak": "bölüm@167"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1229-01-01",
+   "b": "Ebû Zekeriyyâ Tunus'u fethetti, Hafsî hanedanı kuruldu",
+   "sebep": "mükerrer-riski(hafsi)",
+   "kaynak": "bölüm@281"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1249-01-01",
+   "b": "Şemmâiyye Medresesi inşa edildi",
+   "sebep": "mükerrer-riski(hafsi)",
+   "kaynak": "bölüm@281"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1235-01-01",
+   "b": "Yağmurasen b. Zeyyân Tilimsan'da hanedanını kurdu",
+   "sebep": "pencere-dışı(zeyyani)",
+   "kaynak": "bölüm@340"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1337-01-01",
+   "b": "Merînîler Tilimsan'ı ele geçirdi",
+   "sebep": "mükerrer-riski(zeyyani)",
+   "kaynak": "bölüm@340"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1554-01-01",
+   "b": "Sâlih Reis Tilimsan'ı kesin olarak fethetti, hanedan sona erdi",
+   "sebep": "pencere-dışı(zeyyani)",
+   "kaynak": "bölüm@340"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1551-08-15",
+   "b": "Sinan Paşa'nın donanması Trablus'u fethetti",
+   "sebep": "mükerrer-riski(trablusgarp-ocagi)",
+   "kaynak": "bölüm@419"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1911-10-09",
+   "b": "Trablus şehri İtalyan işgaline düştü",
+   "sebep": "mükerrer-riski(trablusgarp-ocagi)",
+   "kaynak": "bölüm@419"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1911-10-16",
+   "b": "Derne İtalyan işgaline girdi",
+   "sebep": "pencere-dışı(trablusgarp-ocagi)",
+   "kaynak": "bölüm@419"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1911-10-21",
+   "b": "Bingazi İtalyan işgaline girdi",
+   "sebep": "pencere-dışı(trablusgarp-ocagi)",
+   "kaynak": "bölüm@419"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1911-12-01",
+   "b": "Enver Bey direniş karargâhını üstlendi",
+   "sebep": "pencere-dışı(trablusgarp-ocagi)",
+   "kaynak": "bölüm@419"
+  },
+  {
+   "dosya": "kronoloji_kuzeyafrika.js",
+   "t": "1912-10-18",
+   "b": "Uşi Antlaşması — Osmanlı hâkimiyeti resmen sona erdi",
+   "sebep": "pencere-dışı(trablusgarp-ocagi)",
+   "kaynak": "bölüm@419"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1552-10-15",
+   "b": "Kazan'ın düşüşü — Orta İdil'de dokuz asırlık Türk hâkimiyeti bitti",
+   "sebep": "pencere-dışı(kazan)",
+   "kaynak": "bölüm@100"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1552-10-16",
+   "b": "Kazan direnişi şehrin düşüşünden sonra da sürdü",
+   "sebep": "pencere-dışı(kazan)",
+   "kaynak": "bölüm@100"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1556-06-02",
+   "b": "Astarhan hanedanı Buhara'ya sığındı — Canoğulları hânedanı doğdu",
+   "sebep": "pencere-dışı(astarhan)",
+   "kaynak": "bölüm@285"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1557-01-01",
+   "b": "Hac yolu kapandı — Orta Asya müslümanları İstanbul'a elçi gönderdi",
+   "sebep": "pencere-dışı(astarhan)",
+   "kaynak": "bölüm@285"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1569-04-01",
+   "b": "Don-Volga kanalı projesi arazide çöktü",
+   "sebep": "pencere-dışı(astarhan)",
+   "kaynak": "bölüm@285"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1578-01-01",
+   "b": "III. Murad'ın Rus çarı nezdindeki teşebbüsleri sonuç vermedi",
+   "sebep": "pencere-dışı(astarhan)",
+   "kaynak": "bölüm@285"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1420-06-01",
+   "b": "Edige'nin ölümü — oğulları Mangıt beyliğini kurdu",
+   "sebep": "pencere-dışı(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1557-01-01",
+   "b": "KÜÇÜK NOGAY ORDASI kuruldu — Kadı Mirza İdil'i geçti",
+   "sebep": "mükerrer-riski(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1586-01-01",
+   "b": "Moskova, Nogayları kuşatmak için Samara ve Ufa'yı kurdu",
+   "sebep": "mükerrer-riski(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1783-07-01",
+   "b": "SUVAROV KIYIMI — Nogay direnişi ezildi",
+   "sebep": "pencere-dışı(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1850-01-01",
+   "b": "Kuban ve Stavropol Nogaylarının Osmanlı topraklarına göçü başladı",
+   "sebep": "pencere-dışı(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1865-01-01",
+   "b": "Kitlesel göç sona erdi — Nogaylar Anadolu'ya iskân edildi",
+   "sebep": "pencere-dışı(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1922-04-01",
+   "b": "Nogay kurultayı Açikulak'ta toplandı — Dağıstan'da kalma kararı",
+   "sebep": "pencere-dışı(nogay)",
+   "kaynak": "bölüm@337"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1420-01-02",
+   "b": "Şeybânî Hacı Muhammed Tura'da hanlığı kurdu",
+   "sebep": "pencere-dışı(sibir-hanligi)",
+   "kaynak": "bölüm@455"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1563-01-01",
+   "b": "KÜÇÜM HAN İsker'i ele geçirdi — Şeybânî hânedanı geri döndü",
+   "sebep": "mükerrer-riski(sibir-hanligi)",
+   "kaynak": "bölüm@455"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1598-08-20",
+   "b": "KÜÇÜM HAN'IN SON SAVAŞI — Sibir Hanlığı sona erdi",
+   "sebep": "mükerrer-riski(sibir-hanligi)",
+   "kaynak": "bölüm@455"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1601-01-01",
+   "b": "Küçüm Han Nogayların yanında öldürüldü",
+   "sebep": "pencere-dışı(sibir-hanligi)",
+   "kaynak": "bölüm@455"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1604-01-01",
+   "b": "Sibirya'nın zaptı tamamlandı — çarın unvanına yeni bir ibare eklendi",
+   "sebep": "pencere-dışı(sibir-hanligi)",
+   "kaynak": "bölüm@455"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1847-01-01",
+   "b": "KENASARI KIRGIZLAR TARAFINDAN ÖLDÜRÜLDÜ — Kazak Hanlığı bitti",
+   "sebep": "mükerrer-riski(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1848-01-01",
+   "b": "Sultan Sâdık 20.000 aile ile Hokand Hanlığı'na katıldı",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1854-06-22",
+   "b": "I. NİKOLA FERMANI — bütün Kazak toprakları Rusya'ya bağlandı",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1873-06-01",
+   "b": "Sultan Sâdık Kâşgar'dan Hîve'ye geçip Ruslara karşı savundu",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1868-01-01",
+   "b": "1867-1868 nizamnameleri — toprak devlet malı ilân edildi",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1870-01-01",
+   "b": "Orenburg'da dinî okullar açıldı — İslâm Kazaklar arasında yaygınlaştı",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1891-01-01",
+   "b": "1891 nizamnamesi — Rus idaresinin son çerçevesi",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1905-11-01",
+   "b": "1905 Rus devrimi Kazak siyasî hayatını açtı",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1916-07-01",
+   "b": "1916 AYAKLANMASI — seferberlik fermanı bozkırı ateşe verdi",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1917-04-01",
+   "b": "Orenburg'da ilk Umumi Kazak Kurultayı toplandı",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1917-12-13",
+   "b": "ALAŞ ORDA — Kazakistan muhtariyetini ilân etti",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1919-01-01",
+   "b": "Kızılordu Kazakistan'ı işgal etti — Alaş Orda dağıtıldı",
+   "sebep": "pencere-dışı(kazak-hanligi)",
+   "kaynak": "bölüm@602"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1207-01-01",
+   "b": "Kırgızlar Cengiz Han'a itaat eden ilk Türk kavmi oldu",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1218-01-01",
+   "b": "Cuci Kırgız direnişini bastırdı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1580-01-01",
+   "b": "Seyfi Çelebi Kırgızları Osmanlı okuruna tanıttı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1650-01-01",
+   "b": "Kırgızların İslâmlaşması tamamlandı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1862-01-01",
+   "b": "Kırgız kumandanı Sâdık Bey Kâşgar'a girdi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1864-01-01",
+   "b": "Kırgızlar Rus hâkimiyetine girdi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1911-01-01",
+   "b": "İlk Kırgızca kitaplar basıldı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1916-06-25",
+   "b": "II. Nikola'nın fermanı Kırgız ayaklanmasını başlattı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@939"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1678-01-01",
+   "b": "ÂFÂK HOCA Kalmuk desteğiyle emîr oldu — HOCALAR DÖNEMİ başladı",
+   "sebep": "belirsiz(mogulistan,yarkent-hanligi)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1705-01-01",
+   "b": "Yarkent Hanlığı fiilen sona erdi",
+   "sebep": "mükerrer-riski(yarkent-hanligi)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1759-06-01",
+   "b": "Çin Tarım havzasını işgal etti, merkezi Yârkend olan yönetim kuruldu",
+   "sebep": "pencere-dışı(mogulistan,yarkent-hanligi,yakub-beg)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1867-01-01",
+   "b": "Yâkub Beg kendini ATALIK GAZİ BA-DEVLET ilân etti",
+   "sebep": "mükerrer-riski(yakub-beg)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1872-01-01",
+   "b": "Kâşgar elçilik heyeti İstanbul'a geldi — Abdülaziz'e biat",
+   "sebep": "mükerrer-riski(yakub-beg)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1877-05-29",
+   "b": "YÂKUB BEG VEFAT ETTİ — cevabı öğrenemeden",
+   "sebep": "mükerrer-riski(yakub-beg)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1884-11-18",
+   "b": "Çin Doğu Türkistan (Sinkiang) vilâyetini kurdu",
+   "sebep": "pencere-dışı(mogulistan,yarkent-hanligi,yakub-beg)",
+   "kaynak": "bölüm@992"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1416-01-02",
+   "b": "TOGAN HAN bütün Oyratları tek devlet otoritesi altında topladı",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1418-01-01",
+   "b": "Togan Han Çağatay Hanı Muhammed Veys'i üç defa yendi",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1434-01-01",
+   "b": "Togan Han, Halha lideri Arugtay'ı öldürdü",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1439-01-01",
+   "b": "ESEN TAYŞİ bütün Moğolları birleştirdi — Oyrat Hanlığı zirvede",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1447-01-01",
+   "b": "Esen Tayşi Özbek Hanı Ebülhayr'ı vergiye bağladı, İli Kazaklarını sürdü",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1604-01-01",
+   "b": "Torgut beyi Horluk Hârizm'i istilâ etti — batıya göç başladı",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1632-01-01",
+   "b": "İDİL KALMUKLARI HANLIĞI kuruldu",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1697-01-01",
+   "b": "Sevang Rabdan tahta çıktı — Taşkent dahil bütün Orta Asya",
+   "sebep": "mükerrer-riski(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1758-01-01",
+   "b": "CUNGAR HALKININ İMHASI — 500.000'den fazla kişi kılıçtan geçirildi",
+   "sebep": "mükerrer-riski(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1770-01-01",
+   "b": "UBAŞİ GÖÇÜ — 300.000 Kalmuk yola çıktı, 70.000'i vardı",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1774-01-01",
+   "b": "Geride kalan Kalmuklar Pugaçev ayaklanmasına katıldı",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1890-01-01",
+   "b": "Sart Kalmuklar İslâm'a girip Isık Göl civarına yerleşti",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1920-11-04",
+   "b": "Astarhan yöresinde özerk Kalmuk bölgesi kuruldu",
+   "sebep": "pencere-dışı(cungar)",
+   "kaynak": "bölüm@1142"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1314-01-01",
+   "b": "Ersarı Bay, Şeyh Şeref'e Muînü'l-mürîd'i yazdırdı",
+   "sebep": "pencere-dışı(turkmen)",
+   "kaynak": "bölüm@1242"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1500-01-02",
+   "b": "Mangışlak Salurları İçki ve Taşkı diye ikiye ayrıldı",
+   "sebep": "pencere-dışı(turkmen)",
+   "kaynak": "bölüm@1242"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1560-01-03",
+   "b": "Nogay akınları Teke ve Yomutları Küren dağına göçürdü",
+   "sebep": "pencere-dışı(turkmen)",
+   "kaynak": "bölüm@1242"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1575-01-01",
+   "b": "CEYHUN YATAK DEĞİŞTİRDİ — bütün Türkmenlerin ekonomisi darbe yedi",
+   "sebep": "pencere-dışı(turkmen)",
+   "kaynak": "bölüm@1242"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1879-09-01",
+   "b": "BİRİNCİ GÖKTEPE — Türkmenler Rus ordusunu ağır yenilgiye uğrattı",
+   "sebep": "mükerrer-riski(turkmen)",
+   "kaynak": "bölüm@1242"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1250-01-01",
+   "b": "Kâşgar'da Mesûdiye Medresesi yaptırıldı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@1340"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1733-01-01",
+   "b": "MAHTUMKULU doğdu — Türkmen edebî dilinin kurucusu",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@1340"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1783-01-02",
+   "b": "Mahtumkulu'nun ölümü — beş yüz şiir, tek bir halkın sesi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@1340"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1842-01-01",
+   "b": "Mahtumkulu'nun şiirlerinin yayımlanması başladı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@1340"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1856-01-01",
+   "b": "Çokan Velihanoğlu MANAS DESTANI'nın bir varyantını derledi",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@1340"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "t": "1885-01-01",
+   "b": "Radloff Manas derlemelerini Petersburg'da yayımladı",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@1340"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1500-01-01",
+   "b": "Şeybânî Han Buhara'yı ele geçirdi, Şeybânî devletinin kuruluşu",
+   "sebep": "mükerrer-riski(buhara)",
+   "kaynak": "bölüm@22"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1599-01-01",
+   "b": "Şeybânî hanedanının sonu — Canoğulları (Astrahanlılar) iktidara geldi",
+   "sebep": "mükerrer-riski(buhara)",
+   "kaynak": "bölüm@22"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1785-01-01",
+   "b": "Canoğulları hanedanının sonu — Mangıt emirliğinin kuruluşu",
+   "sebep": "mükerrer-riski(buhara)",
+   "kaynak": "bölüm@192"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1920-09-02",
+   "b": "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi",
+   "sebep": "mükerrer-riski(buhara)",
+   "kaynak": "kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1512-01-01",
+   "b": "Yadigâroğulları Harzem'i (Hîve) fethetti — hanlığın kuruluşu",
+   "sebep": "mükerrer-riski(hive)",
+   "kaynak": "bölüm@332"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1920-04-26",
+   "b": "Harezm Halk Cumhuriyeti ilan edildi",
+   "sebep": "mükerrer-riski(hive)",
+   "kaynak": "bölüm@332"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1710-01-01",
+   "b": "Şahruh Bey Hokand'ı kurdu",
+   "sebep": "mükerrer-riski(hokand)",
+   "kaynak": "bölüm@478"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1808-01-01",
+   "b": "Âlim Han, Taşkent'i fethetti",
+   "sebep": "mükerrer-riski(hokand)",
+   "kaynak": "bölüm@478"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1868-01-01",
+   "b": "Hudayâr Han, Rusya ile antlaşma imzaladı",
+   "sebep": "mükerrer-riski(hokand)",
+   "kaynak": "bölüm@478"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1876-02-19",
+   "b": "Hokand Hanlığı ilhak edildi ⭐ (dunya paylaşılan olay)",
+   "sebep": "mükerrer-riski(hokand)",
+   "kaynak": "bölüm@478"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1569-01-01",
+   "b": "Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@600"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "t": "1779-01-01",
+   "b": "Buhara'dan Osmanlı'ya ilk büyük elçilik",
+   "sebep": "bölümün-künyesi-yok",
+   "kaynak": "bölüm@600"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1217-01-01",
+   "b": "Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)",
+   "sebep": "mükerrer-riski(sirbistan-nemanjic)",
+   "kaynak": "bölüm@98"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1346-04-16",
+   "b": "Duşan imparatorluk tacı giydi (Üsküp meclisi)",
+   "sebep": "mükerrer-riski(sirbistan-nemanjic)",
+   "kaynak": "bölüm@98"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1355-12-20",
+   "b": "Duşan'ın ani ölümü, imparatorluğun parçalanması başladı",
+   "sebep": "mükerrer-riski(sirbistan-nemanjic)",
+   "kaynak": "bölüm@98"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1371-09-26",
+   "b": "Çirmen (Meriç) Savaşı — ağır yenilgi",
+   "sebep": "mükerrer-riski(sirbistan-nemanjic)",
+   "kaynak": "bölüm@98"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1389-06-15",
+   "b": "I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi",
+   "sebep": "mükerrer-riski(sirbistan-nemanjic)",
+   "kaynak": "bölüm@98"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1402-01-01",
+   "b": "Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)",
+   "sebep": "mükerrer-riski(sirp-despotlugu)",
+   "kaynak": "bölüm@136"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1427-01-01",
+   "b": "Đurađ Branković despot oldu, başkent Semendire'ye taşındı",
+   "sebep": "mükerrer-riski(sirp-despotlugu)",
+   "kaynak": "bölüm@136"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1444-08-15",
+   "b": "Edirne-Segedin Antlaşması ile Semendire ve despotluk toprakları iade edildi",
+   "sebep": "mükerrer-riski(sirp-despotlugu)",
+   "kaynak": "bölüm@136"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1459-06-20",
+   "b": "Semendire'nin düşüşü — Sırp Despotluğu'nun sonu",
+   "sebep": "mükerrer-riski(sirp-despotlugu)",
+   "kaynak": "kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1739-09-18",
+   "b": "Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü",
+   "sebep": "mükerrer-riski(sirbistan-eyaleti)",
+   "kaynak": "kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1804-02-14",
+   "b": "Birinci Sırp Ayaklanması başladı (Kara Yorgi)",
+   "sebep": "mükerrer-riski(sirbistan-prensligi)",
+   "kaynak": "bölüm@206"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1815-04-23",
+   "b": "İkinci Sırp Ayaklanması (Miloš Obrenović)",
+   "sebep": "mükerrer-riski(sirbistan-prensligi)",
+   "kaynak": "bölüm@206"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1830-10-17",
+   "b": "Özerklik fermanı (Hatt-ı Şerif) yayımlandı",
+   "sebep": "mükerrer-riski(sirbistan-prensligi)",
+   "kaynak": "bölüm@206"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1878-07-13",
+   "b": "Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı",
+   "sebep": "mükerrer-riski(sirbistan-prensligi)",
+   "kaynak": "bölüm@206"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1882-03-06",
+   "b": "Sırbistan Krallığı ilan edildi (I. Milan)",
+   "sebep": "mükerrer-riski(sirbistan-kralligi)",
+   "kaynak": "bölüm@274"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1908-10-06",
+   "b": "Bosna-Hersek'in ilhakı — Sırbistan'ın savaş tehdidi",
+   "sebep": "mükerrer-riski(sirbistan-kralligi)",
+   "kaynak": "bölüm@274"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1912-10-08",
+   "b": "Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı",
+   "sebep": "mükerrer-riski(sirbistan-kralligi)",
+   "kaynak": "bölüm@274"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1913-08-10",
+   "b": "Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti",
+   "sebep": "mükerrer-riski(sirbistan-kralligi)",
+   "kaynak": "bölüm@274"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "t": "1918-12-01",
+   "b": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme",
+   "sebep": "mükerrer-riski(sirbistan-kralligi)",
+   "kaynak": "kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1351-01-01",
+   "b": "Sarı Nehir'in Jia Lu'ya yönlendirilmesi",
+   "sebep": "mükerrer-riski(yuan-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1636-05-15",
+   "b": "Hong Taiji hanedan adını \"Qing\" ilan etti",
+   "sebep": "mükerrer-riski(qing-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1644-04-25",
+   "b": "Li Zicheng Pekin'i aldı, son Ming imparatoru intihar etti",
+   "sebep": "mükerrer-riski(ming-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1644-06-06",
+   "b": "Qing orduları Pekin'i aldı, Dorgon nâip oldu",
+   "sebep": "mükerrer-riski(qing-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1662-01-01",
+   "b": "Yongli yakalanıp idam edildi — Güney Ming direnişi bitti",
+   "sebep": "mükerrer-riski(guney-ming)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1729-01-01",
+   "b": "Askerî Danışma Kurulu (Grand Council) kuruldu",
+   "sebep": "mükerrer-riski(qing-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1860-10-24",
+   "b": "Pekin Sözleşmesi — Kowloon devredildi, afyon meşrulaştı",
+   "sebep": "mükerrer-riski(qing-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1865-01-01",
+   "b": "Jiangnan Tersanesi ve Cephanesi kuruldu",
+   "sebep": "mükerrer-riski(qing-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1911-10-10",
+   "b": "Wuchang Ayaklanması — Xinhai Devrimi başladı",
+   "sebep": "belirsiz(qing-hanedani,cin-cumhuriyeti)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1912-02-12",
+   "b": "Puyi tahttan feragat etti — Qing hanedanı sona erdi",
+   "sebep": "mükerrer-riski(cin-cumhuriyeti,qing-hanedani)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1912-11-01",
+   "b": "Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilan etti",
+   "sebep": "mükerrer-riski(cin-cumhuriyeti)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_cin.js",
+   "t": "1916-06-06",
+   "b": "Yuan Shikai öldü — savaş ağaları dönemi başladı",
+   "sebep": "mükerrer-riski(cin-cumhuriyeti)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1517-01-22",
+   "b": "Ridâniye — Memlük Devleti'nin sonu, Mısır'ın Osmanlı'ya katılışı",
+   "sebep": "pencere-dışı(misir-eyaleti,misir-kavalali,misir-sultanligi,misir-kralligi)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1517-01-22",
+   "b": "Süveyş'in Osmanlı idaresine geçişi — Kızıldeniz kapısı",
+   "sebep": "pencere-dışı(misir-eyaleti,misir-kavalali,misir-sultanligi,misir-kralligi)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1517-01-24",
+   "b": "Osmanlı birliklerinin Kahire'ye ilk girişi",
+   "sebep": "pencere-dışı(misir-eyaleti,misir-kavalali,misir-sultanligi,misir-kralligi)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1517-02-08",
+   "b": "Canbirdi Gazâlî'nin Osmanlı hizmetine alınması — Memlük kadrolarının sisteme dâhili",
+   "sebep": "pencere-dışı(misir-eyaleti,misir-kavalali,misir-sultanligi,misir-kralligi)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1798-07-21",
+   "b": "Ehramlar (İmbâbe) Muharebesi — Kölemen süvarisinin dağılması",
+   "sebep": "mükerrer-riski(misir-eyaleti)",
+   "kaynak": "kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1805-07-03",
+   "b": "Bâbıâli'nin Mehmed Ali'ye vezirlik rütbesiyle valilik fermanı",
+   "sebep": "mükerrer-riski(misir-kavalali)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1831-10-31",
+   "b": "İbrâhim Paşa'nın Suriye'ye girmesi — Birinci Mısır Meselesi başladı",
+   "sebep": "mükerrer-riski(misir-kavalali)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1899-01-19",
+   "b": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "sebep": "mükerrer-riski(misir-kavalali)",
+   "kaynak": "bölüm@null"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "t": "1914-12-18",
+   "b": "Mısır'ın İngiliz himayesine alınması — Osmanlı hükümranlığının sonu",
+   "sebep": "mükerrer-riski(misir-kavalali)",
+   "kaynak": "kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1333-07-04",
+   "b": "Kamakura Şogunluğu yıkıldı, İmparator Go-Daigo doğrudan iktidara döndü",
+   "sebep": "mükerrer-riski(kamakura,kenmu)",
+   "kaynak": "önek:Kamakura Şogunluğu → Kenmu"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1582-06-21",
+   "b": "Honnō-ji Vakası: Nobunaga suikaste kurban gitti",
+   "sebep": "mükerrer-riski(azuchi-momoyama)",
+   "kaynak": "önek:Azuchi-Momoyama"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1600-10-21",
+   "b": "Sekigahara Savaşı: Tokugawa Ieyasu üstünlüğü kesin olarak ele geçirdi",
+   "sebep": "mükerrer-riski(azuchi-momoyama)",
+   "kaynak": "önek:Azuchi-Momoyama → Edo"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1603-03-24",
+   "b": "Tokugawa Ieyasu, Edo'da şogunluğunu kurdu",
+   "sebep": "mükerrer-riski(edo-bakufu)",
+   "kaynak": "önek:Edo Şogunluğu"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1853-07-08",
+   "b": "Komodor Perry'nin \"Kara Gemileri\" Uraga'ya demirledi",
+   "sebep": "mükerrer-riski(edo-bakufu)",
+   "kaynak": "önek:Edo Şogunluğu"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1868-01-03",
+   "b": "Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı",
+   "sebep": "mükerrer-riski(meiji-japonya)",
+   "kaynak": "önek:Meiji dönemi"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1895-04-17",
+   "b": "Şimonoseki Antlaşması imzalandı — Tayvan Japonya'ya geçti",
+   "sebep": "mükerrer-riski(meiji-japonya)",
+   "kaynak": "önek:Meiji dönemi"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1905-09-05",
+   "b": "Portsmouth Antlaşması Rus-Japon Savaşı'nı sona erdirdi",
+   "sebep": "mükerrer-riski(meiji-japonya)",
+   "kaynak": "önek:Meiji dönemi"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "t": "1910-08-29",
+   "b": "Japonya Kore'yi ilhak etti",
+   "sebep": "mükerrer-riski(meiji-japonya)",
+   "kaynak": "önek:Meiji dönemi"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1526-04-21",
+   "b": "Birinci Pânipat Savaşı: Bâbür, Delhi Sultanlığı'na son verdi",
+   "sebep": "mükerrer-riski(babur-imparatorlugu)",
+   "kaynak": "önek:Bâbürlü"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1542-01-01",
+   "b": "Şîr Şah Sûrî Delhi-Bengal karayolunu (bugünkü Grand Trunk Road) yeniden imar etti",
+   "sebep": "önek-künyesiz(Sûrî)",
+   "kaynak": "bölüm@176"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1761-01-14",
+   "b": "Üçüncü Pânipat Savaşı: Ahmed Şah Dürrânî Marathaları bozguna uğrattı",
+   "sebep": "mükerrer-riski(afgan-durrani,maratha)",
+   "kaynak": "önek:Maratha + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1799-05-04",
+   "b": "Dördüncü Anglo-Mysore Savaşı: Seringapatam düştü, Tîpû Sultan savaşarak öldü",
+   "sebep": "mükerrer-riski(meysur)",
+   "kaynak": "önek:Meysûr"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1425-01-01",
+   "b": "Behmenî başkenti Gülberge'den Bîdar'a taşındı",
+   "sebep": "mükerrer-riski(behmeni)",
+   "kaynak": "önek:Behmenî"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1591-01-01",
+   "b": "Muhammed Kulî Kutub Şah, Haydarâbâd şehrini kurdu",
+   "sebep": "mükerrer-riski(golkonda)",
+   "kaynak": "önek:Golkonda"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1509-01-01",
+   "b": "Krişnadevarâya, Vijayanagara tahtına çıktı",
+   "sebep": "mükerrer-riski(vijayanagara)",
+   "kaynak": "önek:Vijayanagara"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1339-01-01",
+   "b": "Şah Mîr, Keşmir Sultanlığı'nı kurdu",
+   "sebep": "mükerrer-riski(kesmir)",
+   "kaynak": "önek:Keşmir"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1420-01-01",
+   "b": "Zeynelâbidin, Keşmir'de tahta çıktı",
+   "sebep": "mükerrer-riski(kesmir)",
+   "kaynak": "önek:Keşmir"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1407-01-01",
+   "b": "Zafer Han (I. Muzaffer Şah), bağımsız Gucerât Sultanlığı'nı kurdu",
+   "sebep": "mükerrer-riski(gucerat-sultanligi)",
+   "kaynak": "önek:Gucerât"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1411-01-01",
+   "b": "Ahmed Şah, Ahmedâbâd şehrini kurdu",
+   "sebep": "mükerrer-riski(gucerat-sultanligi)",
+   "kaynak": "önek:Gucerât"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1573-08-20",
+   "b": "Gucerât Sultanlığı, Ekber Şah tarafından ilhak edildi",
+   "sebep": "pencere-dışı(açık)",
+   "kaynak": "önek:Gucerât"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1531-01-01",
+   "b": "Gucerât Sultanı Bahadır Şah, Mâlvâ'yı ilhak etti",
+   "sebep": "mükerrer-riski(malva-sultanligi)",
+   "kaynak": "önek:Mâlvâ"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1538-04-06",
+   "b": "Şîr Şah Sûrî, Bengal Sultanlığı'nı fethetti",
+   "sebep": "mükerrer-riski(bengal-sultanligi)",
+   "kaynak": "önek:Bengal"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1674-06-06",
+   "b": "Şivâcî, Raygad'da kral olarak taç giydi",
+   "sebep": "mükerrer-riski(maratha)",
+   "kaynak": "önek:Maratha"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1707-01-01",
+   "b": "Maratha gücü Peşvalar önderliğinde gevşek bir konfederasyona dönüştü",
+   "sebep": "mükerrer-riski(maratha)",
+   "kaynak": "önek:Maratha"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1761-01-14",
+   "b": "Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı",
+   "sebep": "mükerrer-riski(afgan-durrani,maratha)",
+   "kaynak": "önek:Maratha + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1799-07-07",
+   "b": "Rançit Singh Lahor'u ele geçirdi",
+   "sebep": "pencere-dışı(açık)",
+   "kaynak": "önek:Sih + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1801-04-12",
+   "b": "Rançit Singh, Mahâracâ unvanıyla taç giydi",
+   "sebep": "mükerrer-riski(sih-imparatorlugu)",
+   "kaynak": "önek:Sih + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1839-06-27",
+   "b": "Rançit Singh öldü",
+   "sebep": "mükerrer-riski(sih-imparatorlugu)",
+   "kaynak": "önek:Sih + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1846-03-09",
+   "b": "Birinci Anglo-Sih Savaşı, Lahor Antlaşması'yla sona erdi",
+   "sebep": "mükerrer-riski(sih-imparatorlugu)",
+   "kaynak": "önek:Sih"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1761-01-01",
+   "b": "Haydar Ali, Meysûr'da fiilî iktidarı ele geçirdi",
+   "sebep": "mükerrer-riski(meysur)",
+   "kaynak": "önek:Meysûr + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1782-12-07",
+   "b": "Haydar Ali öldü, yerine oğlu Tîpû Sultan geçti",
+   "sebep": "mükerrer-riski(meysur)",
+   "kaynak": "önek:Meysûr + kunye-alanı"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1499-01-01",
+   "b": "Guru Nanak, Sihizm'in temellerini attı",
+   "sebep": "önek-künyesiz(bölge — Pencap)",
+   "kaynak": "bölüm@645"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1518-01-01",
+   "b": "Bhaktî şairi Kabîr öldü",
+   "sebep": "önek-künyesiz(bölge — Bhaktî hareketi)",
+   "kaynak": "bölüm@645"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1545-05-22",
+   "b": "Şîr Şah Sûrî'nin türbesi Sâsârâm'da tamamlandı",
+   "sebep": "önek-künyesiz(Sûrî)",
+   "kaynak": "bölüm@645"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1562-01-01",
+   "b": "Müzisyen Tansen, Ekber Şah'ın sarayına katıldı",
+   "sebep": "mükerrer-riski(babur-imparatorlugu)",
+   "kaynak": "önek:Bâbürlü"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1574-01-01",
+   "b": "Tulsîdâs, Râmçeritmânas'ı yazmaya başladı",
+   "sebep": "önek-künyesiz(bölge — Bhaktî hareketi)",
+   "kaynak": "bölüm@645"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1674-07-04",
+   "b": "Fransızlar Pondişeri'yi kurdu",
+   "sebep": "önek-künyesiz(bölge — dış)",
+   "kaynak": "bölüm@645"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "t": "1700-01-01",
+   "b": "Velî Deccanî, Urduca gazeller yazarak dîvân oluşturdu",
+   "sebep": "önek-künyesiz(bölge — Dekken)",
+   "kaynak": "bölüm@645"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1351-01-01",
+   "b": "Semmâ hânedanı Sind'de hâkimiyeti ele geçirdi",
+   "sebep": "mükerrer-riski(sind)",
+   "kaynak": "önek:Sind — Semmâ"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1520-01-01",
+   "b": "Şah Beg Ergun Tatta'yı ele geçirdi; Sind Türk asıllı Ergun hânedanına geçti",
+   "sebep": "mükerrer-riski(sind)",
+   "kaynak": "önek:Sind — Ergunlu"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1783-01-01",
+   "b": "Talpur sülâlesinden Mîr Feth Ali Han Sind'e hâkim oldu",
+   "sebep": "mükerrer-riski(sind)",
+   "kaynak": "önek:Sind — Talpur"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1843-02-17",
+   "b": "Miyânî Muharebesi: Talpur ordusu Napier karşısında bozguna uğradı",
+   "sebep": "mükerrer-riski(sind)",
+   "kaynak": "önek:Sind — Talpur"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1843-03-24",
+   "b": "Dubba Muharebesi Sind'in fethini tamamladı",
+   "sebep": "pencere-dışı(açık)",
+   "kaynak": "önek:Sind"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1768-09-25",
+   "b": "Pritvi Narayan Şah Katmandu'yu ele geçirdi",
+   "sebep": "mükerrer-riski(nepal)",
+   "kaynak": "önek:Nepal — Gorkha"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1769-01-01",
+   "b": "Patan ve Bhaktapur da alındı; vadi tek yönetimde birleşti",
+   "sebep": "mükerrer-riski(nepal)",
+   "kaynak": "önek:Nepal — Gorkha"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1816-03-04",
+   "b": "Sugauli Antlaşması onaylandı; Terai'nin büyük kısmı İngilizler'e geçti",
+   "sebep": "mükerrer-riski(nepal)",
+   "kaynak": "önek:Nepal — Gorkha"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1856-03-24",
+   "b": "Thapathali Antlaşması Nepal-Tibet savaşını bitirdi",
+   "sebep": "mükerrer-riski(nepal)",
+   "kaynak": "önek:Nepal — Rana"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1460-01-01",
+   "b": "Lhaçen Bhagan Namgyal hânedanını kurdu",
+   "sebep": "mükerrer-riski(ladak)",
+   "kaynak": "önek:Ladakh — Namgyal"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1684-01-01",
+   "b": "Tingmosgang Antlaşması Ladakh-Tibet sınırını çizdi",
+   "sebep": "mükerrer-riski(ladak)",
+   "kaynak": "önek:Ladakh — Namgyal"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1834-01-01",
+   "b": "Zorâver Singh'in Dogra ordusu Ladakh'ı fethetti",
+   "sebep": "mükerrer-riski(ladak)",
+   "kaynak": "önek:Ladakh — Namgyal"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1729-01-01",
+   "b": "Marthanda Varma tahta çıktı; Travankur Krallığı kuruldu",
+   "sebep": "mükerrer-riski(travankur)",
+   "kaynak": "önek:Travankur"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1741-08-10",
+   "b": "Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi",
+   "sebep": "mükerrer-riski(travankur)",
+   "kaynak": "önek:Travankur"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1805-01-01",
+   "b": "Travankur İngilizler'le tâbilik antlaşması imzaladı",
+   "sebep": "mükerrer-riski(travankur)",
+   "kaynak": "önek:Travankur"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1819-01-01",
+   "b": "Yedi Yıllık Yıkım (Çahi Taret Khuntakpa) başladı: Burma işgali",
+   "sebep": "mükerrer-riski(manipur)",
+   "kaynak": "önek:Manipûr — Ningthouca"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1826-02-24",
+   "b": "Yandabo Antlaşması Manipûr'un bağımsızlığını tanıdı",
+   "sebep": "mükerrer-riski(manipur)",
+   "kaynak": "önek:Manipûr — Ningthouca"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1891-08-13",
+   "b": "Tikendracît Singh ve Thangal General idam edildi",
+   "sebep": "mükerrer-riski(manipur)",
+   "kaynak": "önek:Manipûr — Ningthouca"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1853-01-01",
+   "b": "Sindî için Arap alfabesine dayalı resmî yazı düzeni kabul edildi",
+   "sebep": "pencere-dışı(açık)",
+   "kaynak": "önek:Sind"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "t": "1891-01-01",
+   "b": "Çeitharol Kumbaba vakayinâmesi kesintisiz kaydını sürdürdü",
+   "sebep": "mükerrer-riski(manipur)",
+   "kaynak": "önek:Manipûr"
+  }
+ ],
+ "mukerrer_atlanan": [
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 0,
+   "id": "karaman",
+   "t": "1256-01-01",
+   "yeni": "Karaman Bey, Ermenek-Mut yöresinde beyliğin temelini attı",
+   "var": "Karaman Bey, Ermenek-Mut yöresinde faaliyete başladı (kardeşi Nûre Sûfî ile)",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 3,
+   "id": "karaman",
+   "t": "1277-05-13",
+   "yeni": "Mehmed Bey Konya'yı ele geçirip Türkçeyi resmî dil ilan etti",
+   "var": "Mehmed Bey Konya'yı kısa süreliğine ele geçirip Türkçeyi resmî dil ilan etti",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 19,
+   "id": "karaman",
+   "t": "1366-01-01",
+   "yeni": "Alâeddin Bey, Konya'yı kalıcı olarak ele geçirip başkent yaptı",
+   "var": "Konya'yı kalıcı olarak ele geçirip başkent yaptı (İlhanlı/Selçuklu mirası sonrası)",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 25,
+   "id": "karaman",
+   "t": "1397-01-01",
+   "yeni": "Akçay'da yenilgi; Konya kuşatılıp alındı",
+   "var": "Yıldırım Bayezid beyliği ilk kez ilhak etti",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 27,
+   "id": "karaman",
+   "t": "1402-07-28",
+   "yeni": "Ankara Savaşı sonrası Timur, Alâeddin'in oğullarına toprakları geri verdi",
+   "var": "Ankara Savaşı sonrası Timur'un desteğiyle yeniden kuruldu",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 45,
+   "id": "karaman",
+   "t": "1487-01-01",
+   "yeni": "Mahmud Bey Halep'e kaçtı; Karamanoğulları tarihe karıştı",
+   "var": "Son Karamanoğlu direnişleri bastırıldı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 58,
+   "id": "selcuklu",
+   "t": "1086-06-04",
+   "yeni": "Süleyman Şah'ın Ayn Seylem'de ölümü",
+   "var": "Aynüseylem Savaşı: Tutuş, Süleyman Şah'ı yendi",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 104,
+   "id": "selcuklu",
+   "t": "1230-01-01",
+   "yeni": "Yassıçemen Savaşı",
+   "var": "Yassıçimen Savaşı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 137,
+   "id": "selcuklu",
+   "t": "1308-01-01",
+   "yeni": "Son Selçuklu sultanının ölümüyle devlet fiilen sona erdi",
+   "var": "Son Selçuklu sultanının ölümüyle devlet fiilen sona erdi, toprakları beyliklere kaldı",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 139,
+   "id": "artuklu",
+   "t": "1102-01-01",
+   "yeni": "Sökmen Bey Hasankeyf'i ele geçirip Artuklu kolunu kurdu",
+   "var": "Artuk Bey'in oğulları Hasankeyf ve Mardin kollarını kurdu",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 166,
+   "id": "artuklu",
+   "t": "1232-01-01",
+   "yeni": "El-Melikü'l-Kâmil Hasankeyf'i ilhak etti, Hasankeyf kolu sona erdi",
+   "var": "Hasankeyf kolu Eyyûbîler tarafından ilhak edildi",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 182,
+   "id": "artuklu",
+   "t": "1409-01-01",
+   "yeni": "Mardin Karakoyunlu Kara Yûsuf'a teslim edildi, Artuklu Beyliği sona erdi",
+   "var": "Mardin kolu, Karakoyunlu Kara Yûsuf'a teslim oldu",
+   "benz": 0.71
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 184,
+   "id": "dulkadir",
+   "t": "1338-01-01",
+   "yeni": "Elbistan beyliğin başkenti oldu",
+   "var": "Dulkadiroğulları Karaca Bey Darende'yi Eretna Beyliği'nden aldı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 212,
+   "id": "dulkadir",
+   "t": "1515-06-12",
+   "yeni": "Turnadağ Savaşı'nda Alâüddevle Yavuz'a yenilip öldürüldü",
+   "var": "Turnadağ Savaşı'nda Yavuz'a yenildi",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 218,
+   "id": "dulkadir",
+   "t": "1522-01-01",
+   "yeni": "Maraş merkezli Osmanlı eyaleti kuruldu",
+   "var": "Kanunî tarafından kesin ilhak edildi",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 220,
+   "id": "aydin",
+   "t": "1308-01-01",
+   "yeni": "Aydınoğulları Beyliği'nin kuruluşu",
+   "var": "Aydınoğlu Mehmed Bey tarafından Birgi merkezli kuruldu",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 223,
+   "id": "aydin",
+   "t": "1329-01-01",
+   "yeni": "İzmir Liman Kalesi'nin (Aşağı Kale) fethi",
+   "var": "Umur Bey İzmir'i ele geçirdi, beyliğin donanma üssü oldu",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 229,
+   "id": "aydin",
+   "t": "1344-10-28",
+   "yeni": "İzmir Liman Kalesi'nin Haçlılar tarafından alınması",
+   "var": "Latin Haçlı donanması İzmir'i aldı",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 239,
+   "id": "aydin",
+   "t": "1390-01-01",
+   "yeni": "İsa Bey'in Yıldırım Bayezid'e tabi olması, ilk ilhak",
+   "var": "Yıldırım Bayezid ilk kez ilhak etti",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 241,
+   "id": "aydin",
+   "t": "1402-07-28",
+   "yeni": "Ankara Savaşı sonrası Timur'un toprakları iadesi, yeniden kuruluş",
+   "var": "Timur sonrası kısa süreli yeniden kuruldu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 249,
+   "id": "kilikya-ermeni",
+   "t": "1199-01-06",
+   "yeni": "Levon (I/II), Tarsus'ta taç giyip ilk kral oldu",
+   "var": "Levon (I/II), Tarsus Katedrali'nde Kutsal Roma İmparatoru VI. Heinrich'in gönderdiği tacı giyip Kilikya Ermeni Krallığı'nın ilk kralı oldu; papalık temsilcisi tarafından kutsandı (Bournoutian 2006, s.32)",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 255,
+   "id": "kilikya-ermeni",
+   "t": "1247-01-01",
+   "yeni": "Kral Hetum I, Karakurum'a elçi gönderip Moğollarla ilk temas kurdu",
+   "var": "Kral Hetum I, kardeşi Sempad'ı Karakurum'a gönderip Möngke Han'ın kardeşiyle Memlüklere karşı ittifak kurdu — Moğol İmparatorluğu ile resmî ittifakın başlangıcı (Bournoutian 2006, s.45)",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_anadolu.js",
+   "k": 259,
+   "id": "kilikya-ermeni",
+   "t": "1260-01-01",
+   "yeni": "Ayn Câlût sonrası Memlük akınları başladı",
+   "var": "İlhanlı Moğolları Memlüklere yenilip Persia'ya çekilince, Memlükler Kilikya'ya saldırıp ülkeyi tahrip etti — Memlük saldırılarının fiilî başlangıcı (Bournoutian 2006, s.45)",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 15,
+   "id": "yemen-zeydi",
+   "t": "1849-01-01",
+   "yeni": "İkinci Osmanlı dönemi başladı — Tihâme kıyısı yeniden alındı",
+   "var": "Osmanlı, Tihâme kıyısını yeniden ele geçirdi",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 29,
+   "id": "umman",
+   "t": "1650-01-26",
+   "yeni": "Maskat, Portekiz'den geri alındı",
+   "var": "Maskat, Portekiz'den alındı",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 36,
+   "id": "umman",
+   "t": "1749-06-10",
+   "yeni": "Bû Saîd hanedanı resmen kuruldu",
+   "var": "Bû Saîd hanedanı kuruldu",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 38,
+   "id": "umman",
+   "t": "1798-01-18",
+   "yeni": "İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı",
+   "var": "İngiltere ile 'kavilnâme' adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı; Uman-İngiliz ilişkileri başladı",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 47,
+   "id": "umman",
+   "t": "1856-01-01",
+   "yeni": "Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü",
+   "var": "Seyyid Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 48,
+   "id": "umman",
+   "t": "1862-01-01",
+   "yeni": "Zengibar ve Uman ayrı devletler olarak tanındı",
+   "var": "İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 53,
+   "id": "benihalid",
+   "t": "1670-01-01",
+   "yeni": "Berrâk b. Guraybir, Hufuf'u alarak Benî Hâlid emirliğini kurdu",
+   "var": "Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son verdi",
+   "benz": 0.38
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 54,
+   "id": "benihalid",
+   "t": "1691-01-01",
+   "yeni": "Muhammed b. Berrâk, Necid'e akınlarını sürdürdü",
+   "var": "Berrâk'ın oğlu Muhammed, Necid'e akınlarını sürdürdü",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 55,
+   "id": "benihalid",
+   "t": "1744-01-01",
+   "yeni": "Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınması — Suûdîlerle husumet başladı",
+   "var": "Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınmasıyla Suûdîlerle husumet başladı",
+   "benz": 0.83
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 56,
+   "id": "benihalid",
+   "t": "1752-01-01",
+   "yeni": "Süleyman el-Hamîdî tahttan indirildi — iç çekişmeler başladı",
+   "var": "Süleyman el-Hamîdî tahttan indirildi, iç çekişmeler başladı",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 57,
+   "id": "benihalid",
+   "t": "1795-01-01",
+   "yeni": "Abdülazîz b. Suûd, Lahsa'yı alıp emirliği ilk kez tasfiye etti",
+   "var": "Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 58,
+   "id": "benihalid",
+   "t": "1818-01-01",
+   "yeni": "İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu",
+   "var": "İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_arabistan.js",
+   "k": 59,
+   "id": "benihalid",
+   "t": "1830-01-01",
+   "yeni": "Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi",
+   "var": "Mâcid el-Ureyyir Aklâ savaşında öldü; Lahsa Suûd ailesinin denetimine geçti, emirlik kesin olarak sona erdi",
+   "benz": 0.88
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 0,
+   "id": "zeta",
+   "t": "1356-01-01",
+   "yeni": "Balšić ailesi Sırp Krallığı'nın dağılmasında bağımsızlaştı",
+   "var": "Balšić ailesi Sırp Krallığı'nın çözülüşünde Zeta'da bağımsızlaştı",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 1,
+   "id": "zeta",
+   "t": "1385-01-01",
+   "yeni": "Osmanlı ile ilk çarpışma",
+   "var": "Osmanlı ile ilk çatışma yaşandı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 6,
+   "id": "zeta",
+   "t": "1482-01-01",
+   "yeni": "İvan Crnojević merkezi Cetine'ye taşıdı",
+   "var": "Merkez Cetine'ye (Cetinje) taşındı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 14,
+   "id": "zeta",
+   "t": "1514-01-01",
+   "yeni": "İskender Bey yönetiminde Karadağ ayrı bir sancak olarak kuruldu — Zeta'nın sonu",
+   "var": "İskender Bey (Crnojevićlerden) döneminde Zeta doğrudan Osmanlı sancağına dönüştürüldü",
+   "benz": 0.22
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 33,
+   "id": "karadag",
+   "t": "1852-01-01",
+   "yeni": "II. Danilo dinî unvanı bırakıp laik kalıtsal prensliğe dönüştü",
+   "var": "II. Danilo dinî unvanı bırakıp laik kalıtsal prensliğe dönüştürdü",
+   "benz": 0.88
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 37,
+   "id": "karadag",
+   "t": "1858-05-13",
+   "yeni": "Grahova Savaşı — Osmanlı kuvvetleri yenildi",
+   "var": "Grahovo'da Osmanlı ordusunu yenerek fiilî sınırlarını genişletti",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 44,
+   "id": "karadag",
+   "t": "1878-07-13",
+   "yeni": "Berlin Kongresi — bağımsızlık kesinleşti, topraklar genişledi",
+   "var": "Berlin Kongresi'nde bağımsızlığı resmen tanındı, toprakları genişledi",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 44,
+   "id": "karadag",
+   "t": "1878-07-13",
+   "yeni": "Berlin Kongresi — bağımsızlık kesinleşti, topraklar genişledi",
+   "var": "Berlin Antlaşması: Bosna-Hersek A-M işgaline, Sırbistan ve Karadağ bağımsız",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 47,
+   "id": "karadag",
+   "t": "1910-08-28",
+   "yeni": "I. Nikola kral ilan edildi — prenslik krallığa dönüştü",
+   "var": "I. Nikola kral ilan edildi, prenslik krallığa dönüştü",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 51,
+   "id": "karadag",
+   "t": "1918-11-26",
+   "yeni": "Podgorica Meclisi Sırbistan'la birleşmeyi oyladı — Karadağ Krallığı sona erdi",
+   "var": "Podgorica Meclisi Sırbistan'la birleşmeyi oyladı; Karadağ Krallığı sona erdi",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 51,
+   "id": "karadag",
+   "t": "1918-11-26",
+   "yeni": "Podgorica Meclisi Sırbistan'la birleşmeyi oyladı — Karadağ Krallığı sona erdi",
+   "var": "Karadağ Sırbistan'la birleşti: 1913 sınırı devletlerarası olmaktan çıktı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 52,
+   "id": "bulgar-carligi",
+   "t": "1185-01-01",
+   "yeni": "Asen kardeşler Bizans'a isyan etti — İkinci Bulgar İmparatorluğu kuruldu",
+   "var": "Asen kardeşler (İvan Asen ve Petâr) Bizans'a isyan ederek imparatorluğu yeniden kurdu",
+   "benz": 0.56
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 54,
+   "id": "bulgar-carligi",
+   "t": "1230-03-09",
+   "yeni": "Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı",
+   "var": "Klokotnitsa zaferiyle II. İvan Asen döneminde imparatorluk en geniş sınırlarına ulaştı",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 58,
+   "id": "bulgar-carligi",
+   "t": "1371-01-01",
+   "yeni": "İvan Aleksandır'ın ölümü — devlet Tırnova ve Vidin çarlıklarına bölündü",
+   "var": "İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü",
+   "benz": 0.88
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 61,
+   "id": "bulgar-carligi",
+   "t": "1393-07-17",
+   "yeni": "Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi",
+   "var": "Tırnova düştü",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 79,
+   "id": "bulgaristan-prensligi",
+   "t": "1878-07-13",
+   "yeni": "Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu",
+   "var": "Berlin Kongresi ile özerk prenslik statüsü kazandı",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 82,
+   "id": "bulgaristan-prensligi",
+   "t": "1885-09-18",
+   "yeni": "Doğu Rumeli ilhak edildi — Bulgaristan birleşti",
+   "var": "Doğu Rumeli'yi ilhak etti",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 87,
+   "id": "bulgaristan-kralligi",
+   "t": "1908-10-05",
+   "yeni": "Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı",
+   "var": "Ferdinand, Bulgaristan'ın tam bağımsızlığını ve kendi Çarlığını ilan etti",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 87,
+   "id": "bulgaristan-kralligi",
+   "t": "1908-10-05",
+   "yeni": "Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı",
+   "var": "Bulgaristan bağımsızlığını ilan etti — Romanya ile sınırı artık bağımsız krallığın sınırı",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 87,
+   "id": "bulgaristan-kralligi",
+   "t": "1908-10-05",
+   "yeni": "Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı",
+   "var": "Bulgaristan bağımsızlığını ilan etti — Osmanlı-Bulgar hattı fiilen devletler arası sınır oldu",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 89,
+   "id": "bulgaristan-kralligi",
+   "t": "1912-10-08",
+   "yeni": "Birinci Balkan Savaşı'na giriş",
+   "var": "Balkan Savaşları'na girdi",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 92,
+   "id": "bulgaristan-kralligi",
+   "t": "1913-05-30",
+   "yeni": "Londra Antlaşması — I. Balkan Savaşı sona erdi",
+   "var": "Londra Antlaşması — Enez-Midye hattının batısı Balkan müttefiklerine bırakıldı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 93,
+   "id": "bulgaristan-kralligi",
+   "t": "1913-06-29",
+   "yeni": "İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı",
+   "var": "II. Balkan Savaşı'nda eski müttefiklerine yenilip toprak kaybetti",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 95,
+   "id": "bulgaristan-kralligi",
+   "t": "1913-08-10",
+   "yeni": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi",
+   "var": "Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 95,
+   "id": "bulgaristan-kralligi",
+   "t": "1913-08-10",
+   "yeni": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi",
+   "var": "Bükreş Antlaşması: Yunanistan–Bulgaristan sınırı Belasica'dan Rodoplar'a çizildi",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 96,
+   "id": "bulgaristan-kralligi",
+   "t": "1915-10-14",
+   "yeni": "Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi",
+   "var": "Bulgaristan Sırbistan'a savaş ilan ederek Merkezî Devletler yanında savaşa girdi",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 97,
+   "id": "bulgaristan-kralligi",
+   "t": "1918-09-29",
+   "yeni": "Selanik Mütarekesi — Bulgaristan savaştan çekildi",
+   "var": "Üsküp'ün düşüşü — Bulgar direnişi çöktü",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 98,
+   "id": "bulgaristan-kralligi",
+   "t": "1918-10-03",
+   "yeni": "Ferdinand tahttan çekildi — III. Boris çar oldu",
+   "var": "Çar Ferdinand tahttan çekildi — III. Boris çar oldu",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 99,
+   "id": "bulgaristan-kralligi",
+   "t": "1919-11-27",
+   "yeni": "Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi",
+   "var": "Neuilly Antlaşması — Bulgaristan ile barış",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 101,
+   "id": "bosna-kralligi",
+   "t": "1377-01-01",
+   "yeni": "Tvrtko I'in taç giymesi — Bosna Krallığı'nın ilanı",
+   "var": "Tvrtko I tarafından krallık ilan edildi",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 106,
+   "id": "bosna-kralligi",
+   "t": "1391-01-01",
+   "yeni": "Tvrtko I'in ölümü — taht kavgalarının başlaması",
+   "var": "Tvrtko I'in ölümüyle taht kavgaları ve derebeylik parçalanması başladı",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 111,
+   "id": "bosna-kralligi",
+   "t": "1414-01-01",
+   "yeni": "Osmanlı'ya ilk haraç kabulü",
+   "var": "Osmanlı'ya ilk kez haraç ödemeyi kabul etti",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 120,
+   "id": "bosna-kralligi",
+   "t": "1461-11-01",
+   "yeni": "Stjepan Tomašević'in tahta çıkışı — haracı reddedip Papalık'tan yardım istemesi",
+   "var": "Son kral Stjepan Tomašević, Osmanlı'ya bağlılığı reddederek Papalık'tan yardım istedi",
+   "benz": 0.44
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 121,
+   "id": "bosna-kralligi",
+   "t": "1463-05-01",
+   "yeni": "Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı",
+   "var": "Fatih'in seferiyle ilhak edildi",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 129,
+   "id": "yunanistan",
+   "t": "1827-10-20",
+   "yeni": "Navarin Deniz Savaşı",
+   "var": "Navarin'de müttefik donanma Osmanlı-Mısır filosunu yendi",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 131,
+   "id": "yunanistan",
+   "t": "1830-02-03",
+   "yeni": "Bağımsızlığın Londra Protokolü ile tanınması",
+   "var": "Londra Protokolü ile bağımsızlık tanındı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 161,
+   "id": "yunanistan",
+   "t": "1912-10-08",
+   "yeni": "Balkan Savaşları'na giriş",
+   "var": "Balkan Savaşları'nda Selanik ve Girit'i aldı",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 166,
+   "id": "yunanistan",
+   "t": "1913-08-10",
+   "yeni": "Bükreş Antlaşması",
+   "var": "Bükreş Antlaşması: Yunanistan–Sırbistan sınırı doğdu",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 166,
+   "id": "yunanistan",
+   "t": "1913-08-10",
+   "yeni": "Bükreş Antlaşması",
+   "var": "Bükreş Antlaşması: Yunanistan–Bulgaristan sınırı Belasica'dan Rodoplar'a çizildi",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 169,
+   "id": "yunanistan",
+   "t": "1919-05-15",
+   "yeni": "İzmir'in işgali",
+   "var": "İzmir'i işgal etti (Millî Mücadele'nin başlangıç noktalarından)",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_balkan.js",
+   "k": 176,
+   "id": "yunanistan",
+   "t": "1923-07-24",
+   "yeni": "Lozan Antlaşması'nın imzalanması",
+   "var": "Lozan Antlaşması — Türk-Yunan sınırı Meriç ve Karaağaç dirseğiyle belirlendi",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 0,
+   "id": "evfat",
+   "t": "1285-01-01",
+   "yeni": "Ali b. Ömer Veleşma', Şüve Emirliği'ni ilhak ederek Evfât Emirliği'ni kurdu",
+   "var": "Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'ni kurdu (684)",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 4,
+   "id": "evfat",
+   "t": "1332-01-01",
+   "yeni": "Amda Sion Zeyla' limanını ve Evfât topraklarının büyük kısmını aldı",
+   "var": "Habeş İmparatoru Amda Sion, Zeyla' ve Evfât topraklarının büyük kısmını ele geçirdi",
+   "benz": 0.78
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 9,
+   "id": "evfat",
+   "t": "1386-01-01",
+   "yeni": "II. Hakkuddin Habeş kralına yenilerek öldürüldü",
+   "var": "Sa'deddîn II, Evfât'ın son büyük hükümdarı olarak tahta çıktı (yaklaşık 1386-1403/1410 hüküm sürdü)",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 12,
+   "id": "evfat",
+   "t": "1415-01-01",
+   "yeni": "II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi",
+   "var": "Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıstırılıp öldürüldü; emirlik sona erdi",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 19,
+   "id": "adal",
+   "t": "1529-03-09",
+   "yeni": "Şimbra Kure Muharebesi — Habeş ordusunun bozguna uğratılması",
+   "var": "Ahmed Gran önderliğinde Habeş istilası başladı",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 19,
+   "id": "adal",
+   "t": "1529-03-09",
+   "yeni": "Şimbra Kure Muharebesi — Habeş ordusunun bozguna uğratılması",
+   "var": "Ahmed Gran'ın Şimbra Kure zaferiyle Adal'ın Habeşistan istilası başladı",
+   "benz": 0.29
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 29,
+   "id": "adal",
+   "t": "1543-02-21",
+   "yeni": "Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü",
+   "var": "Ahmed Gran öldü, istila çöktü",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 29,
+   "id": "adal",
+   "t": "1543-02-21",
+   "yeni": "Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü",
+   "var": "Wayna Daga'da Portekiz destekli Habeş ordusu Ahmed Gran'ı yenip öldürdü, Adal istilası çöktü",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 37,
+   "id": "adal",
+   "t": "1577-01-01",
+   "yeni": "Vebi nehri bozgunu — Harar Emirliği'nin ileri gelenleri öldürüldü",
+   "var": "Devlet dağıldı, Harar emirliği ardıl kaldı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 47,
+   "id": "habesistan",
+   "t": "1270-01-01",
+   "yeni": "Yekuno Amlak Zagwe hânedanına son verip Süleymanî hânedanını yeniden kurdu",
+   "var": "Yekuno Amlak, Zagwe hanedanına son verip Süleymanî hanedanını yeniden kurdu",
+   "benz": 0.78
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 84,
+   "id": "habesistan",
+   "t": "1636-01-01",
+   "yeni": "Gondar'ın başkent yapılması",
+   "var": "Fasilidas, Gondar'ı başkent yaptı",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 93,
+   "id": "habesistan",
+   "t": "1769-01-01",
+   "yeni": "Zemene Mesafint (Prensler Çağı) başladı — merkezî otoritenin çöküşü",
+   "var": "Zemene Mesafint (Prensler Çağı) başladı, merkezi otorite fiilen çöktü",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 98,
+   "id": "habesistan",
+   "t": "1855-02-11",
+   "yeni": "II. Tewodros'un taç giymesi — Etiyopya'nın yeniden birleşmesi",
+   "var": "II. Tewodros taç giyerek ülkeyi yeniden birleştirdi",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 116,
+   "id": "habesistan",
+   "t": "1889-05-02",
+   "yeni": "Wichale (Uccialli) Antlaşması — Menelik'in İtalya ile anlaşması",
+   "var": "Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 120,
+   "id": "habesistan",
+   "t": "1896-03-01",
+   "yeni": "Adva Muharebesi — İtalya'nın yenilgisi ve Etiyopya bağımsızlığının korunması",
+   "var": "Adva'da İtalya'yı yenerek bağımsızlığını korudu",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 144,
+   "id": "svahili-sehirleri",
+   "t": "1530-01-01",
+   "yeni": "Kilve tarihinin João de Barros tarafından tercümesi — 'Kilve Kroniği'",
+   "var": "Portekizli Rui Lourenço Ravasco, Zengibar'ı abluka altına alıp bombaladı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 158,
+   "id": "svahili-sehirleri",
+   "t": "1698-12-13",
+   "yeni": "Fort Jesus'un düşüşü — Portekiz çağının sonu, Svahili kıyısının Umman nüfuzuna girmesi",
+   "var": "Umman kuvvetleri Mombasa'daki Fort Jesus'u alarak Portekiz'i kovdu, kıyı Umman nüfuzuna girdi",
+   "benz": 0.45
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 159,
+   "id": "makdisu-sultanligi",
+   "t": "1281-01-01",
+   "yeni": "Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması",
+   "var": "Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (VII./XIII. yüzyıl, kesin yıl yok)",
+   "benz": 0.38
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 162,
+   "id": "makdisu-sultanligi",
+   "t": "1500-01-01",
+   "yeni": "Ecuran (Ajuran) Sultanlığı'nın güney Somali'de hâkimiyet kurması",
+   "var": "Yönetim Muzaffer sülâlesinin eline geçti",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 162,
+   "id": "somali",
+   "t": "1500-01-01",
+   "yeni": "Ecuran (Ajuran) Sultanlığı'nın güney Somali'de hâkimiyet kurması",
+   "var": "Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 164,
+   "id": "somali",
+   "t": "1700-01-01",
+   "yeni": "Ecuran Sultanlığı'nın dağılması ve Geledi ile yerel sultanlıkların doğuşu",
+   "var": "Ecuran Sultanlığı dağıldı, yerine Geledi ve diğer yerel sultanlıklar kuruldu",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 192,
+   "id": "kaffa-kralligi",
+   "t": "1390-01-01",
+   "yeni": "Minjo hânedanının Kaffa Krallığı'nı kurması",
+   "var": "Minjo hanedanı tarafından kuruldu (gelenek)",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 193,
+   "id": "cimma-sultanligi",
+   "t": "1830-01-01",
+   "yeni": "Cimma (Jimma) Sultanlığı'nın kurulması",
+   "var": "Abba Cifar I, İslâm'ı kabul ederek Kaffa vasallığından koptu ve sultanlığı kurdu",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 194,
+   "id": "vollayta-kralligi",
+   "t": "1894-01-17",
+   "yeni": "Vollayta (Wolaita) Krallığı'nın Menelik tarafından ilhakı",
+   "var": "Ras Wolde Giyorgis komutasındaki Habeş ordusu Kral Tona'yı yenip krallığı ilhak etti",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 195,
+   "id": "sidamo-kralliklari",
+   "t": "1897-01-01",
+   "yeni": "Sidamo krallıklarının Etiyopya'ya katılması",
+   "var": "II. Menelik'in seferleriyle Habeşistan'a katıldı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 196,
+   "id": "kaffa-kralligi",
+   "t": "1897-09-10",
+   "yeni": "Kaffa Krallığı'nın düşüşü — son kral Gaki Şeroço'nun esir alınması",
+   "var": "Ras Wolde Giyorgis komutasındaki Habeş ordusu son kral Gaki Şeroço'yu esir aldı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 197,
+   "id": "buganda",
+   "t": "1300-01-01",
+   "yeni": "Kintu hânedanının Buganda Krallığı'nı kurması",
+   "var": "Kintu hanedanı Buganda Krallığı'nı kurdu",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_dogu_afrika.js",
+   "k": 213,
+   "id": "buganda",
+   "t": "1894-06-18",
+   "yeni": "İngiltere ile himaye antlaşmasının imzalanması",
+   "var": "İngiltere ile himaye antlaşması imzalandı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 1,
+   "id": "ilhanli",
+   "t": "1256-01-01",
+   "yeni": "Alamut Kalesi'nin zaptı ve İlhanlılığın ilânı",
+   "var": "Hülâgû Han tarafından kuruldu",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 6,
+   "id": "ilhanli",
+   "t": "1265-01-01",
+   "yeni": "Abaka İlhanlı Kurultayı tarafından seçildi",
+   "var": "Abaka ile Berke Kür ırmağında karşı karşıya geldi",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 30,
+   "id": "ilhanli",
+   "t": "1295-01-01",
+   "yeni": "Kefe-Trabzon-Tebriz ticaret yolu önem kazandı",
+   "var": "Gazan Han tahta çıktı, İslam'ı resmî din ilan etti",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 69,
+   "id": "celayirli",
+   "t": "1382-01-01",
+   "yeni": "Hüseyin'in ölümü — devlet Ahmed ile Bayezid arasında bölündü",
+   "var": "Sultan Ahmed tahta çıktı; saltanatı Timur baskısı altında geçti",
+   "benz": 0.14
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 75,
+   "id": "celayirli",
+   "t": "1405-01-01",
+   "yeni": "Timur'un ölümünden sonra Ahmed yeniden Bağdat'a hâkim oldu",
+   "var": "Timur'un ölümünden sonra Sultan Ahmed Bağdat'ı geri aldı",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 81,
+   "id": "celayirli",
+   "t": "1431-01-01",
+   "yeni": "Hille Kalesi düştü — Celâyirli hânedanı son buldu",
+   "var": "Karakoyunlu Şah Muhammed son Celâyirli hükümdarını ortadan kaldırdı",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 86,
+   "id": "muzafferi",
+   "t": "1318-01-01",
+   "yeni": "Mübârizüddin Muhammed'e Yezd emirliği verildi — hânedanın kuruluşu",
+   "var": "Sultan Ebû Saîd, Yezd emirliğini Mübârizüddin Muhammed'e verdi (718)",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 93,
+   "id": "muzafferi",
+   "t": "1357-01-01",
+   "yeni": "Kirman Muzafferî topraklarına katıldı — Kutluğhanlı prensesle evlilik",
+   "var": "Mübârizüddin, İncûlu Ebû İshak'ı İsfahan'da öldürterek bu hânedanı ortadan kaldırdı, Fars ve Irâk-ı Acem'in büyük kısmına hâkim oldu (758)",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 94,
+   "id": "muzafferi",
+   "t": "1358-01-01",
+   "yeni": "Mübârizüddin Tebriz'i istilâ etti ama elinde tutamadı",
+   "var": "Mübârizüddin, kendi oğlu Şah Şücâ‘ tarafından tahttan indirilip gözlerine mil çektirildi (759)",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 95,
+   "id": "muzafferi",
+   "t": "1358-01-01",
+   "yeni": "Şah Şücâ' babasını hal'edip gözlerine mil çektirdi",
+   "var": "Mübârizüddin, kendi oğlu Şah Şücâ‘ tarafından tahttan indirilip gözlerine mil çektirildi (759)",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 104,
+   "id": "muzafferi",
+   "t": "1393-01-01",
+   "yeni": "Şah Mansûr Şîraz önünde yenildi — Muzafferî hânedanının sonu",
+   "var": "Timur'un kuvvetleri Şah Mansûr'u yenip öldürdü; hânedanın tamamı tasfiye edildi (795)",
+   "benz": 0.14
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 106,
+   "id": "incu",
+   "t": "1325-01-01",
+   "yeni": "Şerefeddin Mahmud Şah fiilen bağımsız hükümdar oldu",
+   "var": "Şerefeddin Mahmud Şah İncû, Fars'ta fiilî hâkimiyetini kurdu",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 131,
+   "id": "serbedariler",
+   "t": "1381-01-01",
+   "yeni": "Timur Sebzevâr'a yürüdü — Hâce Ali itaat ederek iktidarını korudu",
+   "var": "Timur Horasan'a girdi, Serbedârî toprakları elden çıkmaya başladı",
+   "benz": 0.13
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 132,
+   "id": "serbedariler",
+   "t": "1386-01-01",
+   "yeni": "Hâce Ali öldürüldü — Serbedârî hânedanı sona erdi",
+   "var": "Hânedan tamamen ortadan kalktı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 135,
+   "id": "kert",
+   "t": "1245-01-01",
+   "yeni": "Şemseddin Muhammed melik unvanını aldı — Kert hânedanının kuruluşu",
+   "var": "Şemseddin Muhammed Kert Herat'ta hâkimiyet kurdu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 145,
+   "id": "kert",
+   "t": "1381-01-01",
+   "yeni": "Timur Herat'ı işgal etti — Kert hânedanı vasal oldu",
+   "var": "Timur Herat'ı aldı, Kert hâkimiyeti fiilen sona erdi",
+   "benz": 0.38
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 146,
+   "id": "kert",
+   "t": "1389-01-01",
+   "yeni": "Timur Kert hânedanını ortadan kaldırdı",
+   "var": "Hânedan mensupları ortadan kaldırıldı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 148,
+   "id": "lur-i-buzurg",
+   "t": "1155-01-01",
+   "yeni": "Lur-ı Büzürg Atabegliği (Hazaraspîler) kuruldu",
+   "var": "Hazarasp hanedanı atabegliği kurdu",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 149,
+   "id": "lur-i-kucek",
+   "t": "1184-01-01",
+   "yeni": "Lur-ı Küçek Atabegliği kuruldu — Bersekiyân idaresinin sonu",
+   "var": "Atabeglik kuruldu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_iran_ardillari.js",
+   "k": 152,
+   "id": "lur-i-buzurg",
+   "t": "1424-01-01",
+   "yeni": "Lur-ı Büzürg Atabegliği sona erdi",
+   "var": "Atabeglik sona erdi",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 1,
+   "id": "cenova",
+   "t": "1284-08-06",
+   "yeni": "Meloria Deniz Savaşı — Tirreni'de tek rakibin tasfiyesi",
+   "var": "Meloria Deniz Savaşı — Pisa'nın deniz gücü olarak sonu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 13,
+   "id": "cenova",
+   "t": "1347-01-01",
+   "yeni": "Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
+   "var": "Kefe kuşatması ve Kara Ölüm'ün Avrupa'ya taşınması",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 24,
+   "id": "cenova",
+   "t": "1380-06-24",
+   "yeni": "Chioggia'da Ceneviz ordusunun teslim olması — üstünlüğün kırıldığı gün",
+   "var": "Chioggia Savaşı'nda Venedik'e yenildi, deniz üstünlüğü Venedik'e geçti",
+   "benz": 0.14
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 25,
+   "id": "cenova",
+   "t": "1381-08-08",
+   "yeni": "Torino Barışı — Bozcaada meselesinin kapanması",
+   "var": "Torino Barışı — Chioggia Savaşı'nın sona ermesi",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 39,
+   "id": "cenova",
+   "t": "1453-05-29",
+   "yeni": "Galata'nın anahtarlarının teslim edilmesi — koloninin sonu, ticaretin devamı",
+   "var": "İstanbul'un fethi — Galata'nın (Pera) Osmanlı'ya bağlanması",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 47,
+   "id": "cenova",
+   "t": "1461-08-15",
+   "yeni": "Amasra kolonisinin Osmanlı'ya düşmesi",
+   "var": "Amasra kolonisi Osmanlı'ya düştü",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 59,
+   "id": "cenova",
+   "t": "1528-09-12",
+   "yeni": "Andrea Doria'nın anayasası — oligarşik cumhuriyetin doğuşu",
+   "var": "Andrea Doria, Fransız nüfuzunu kırıp aristokratik cumhuriyet anayasasını kurdu",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 59,
+   "id": "cenova",
+   "t": "1528-09-12",
+   "yeni": "Andrea Doria'nın anayasası — oligarşik cumhuriyetin doğuşu",
+   "var": "Andrea Doria'nın anayasa reformu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 71,
+   "id": "cenova",
+   "t": "1566-04-14",
+   "yeni": "Sakız Adası'nın Osmanlı'ya ilhakı — son koloninin kaybı",
+   "var": "Sakız Adası Osmanlı'ya ilhak edildi — son Ege kolonisi kayboldu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 71,
+   "id": "cenova",
+   "t": "1566-04-14",
+   "yeni": "Sakız Adası'nın Osmanlı'ya ilhakı — son koloninin kaybı",
+   "var": "Sakız Adası'nın Osmanlı'ya ilhakı — son Ege kolonisinin kaybı",
+   "benz": 0.83
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 89,
+   "id": "cenova",
+   "t": "1746-12-05",
+   "yeni": "Balilla İsyanı — bir çocuğun attığı taşla başlayan ayaklanma",
+   "var": "Balilla İsyanı — Avusturya işgaline karşı halk ayaklanması",
+   "benz": 0.29
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 92,
+   "id": "cenova",
+   "t": "1768-05-15",
+   "yeni": "Korsika'nın Fransa'ya devredilmesi — son toprağın satılması",
+   "var": "Korsika'nın Fransa'ya satılması",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 94,
+   "id": "cenova",
+   "t": "1797-06-14",
+   "yeni": "Cumhuriyetin ilgası — Ligurya Cumhuriyeti'nin kurulması",
+   "var": "Napolyon tarafından ilga edildi",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 94,
+   "id": "cenova",
+   "t": "1797-06-14",
+   "yeni": "Cumhuriyetin ilgası — Ligurya Cumhuriyeti'nin kurulması",
+   "var": "Napolyon'un cumhuriyeti ilga etmesi — Ligurya Cumhuriyeti'nin kuruluşu",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 184,
+   "id": "siena",
+   "t": "1555-04-17",
+   "yeni": "Siena'nın teslim olması — bir cumhuriyetin sonu",
+   "var": "Uzun kuşatma sonunda Floransa-İspanya kuvvetlerine teslim oldu",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_italya_sehir.js",
+   "k": 184,
+   "id": "siena",
+   "t": "1555-04-17",
+   "yeni": "Siena'nın teslim olması — bir cumhuriyetin sonu",
+   "var": "Siena'nın Floransa-İspanyol kuvvetlerine teslimi",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 0,
+   "id": "merini",
+   "t": "1196-01-01",
+   "yeni": "Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu",
+   "var": "Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu (henüz Muvahhid hizmetinde)",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 5,
+   "id": "merini",
+   "t": "1274-01-01",
+   "yeni": "Tanca ve Sebte zaptedildi",
+   "var": "Merînîler Sicilmâse'yi Abdülvâdîler'den geri alıp Mağrib-i Aksâ'nın tamamına hâkim oldu",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 17,
+   "id": "merini",
+   "t": "1415-01-01",
+   "yeni": "Portekiz Sebte'yi işgal etti",
+   "var": "Portekiz Septe'yi (Ceuta) aldı, kıyı şehirleri kaybı başladı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 23,
+   "id": "sadi",
+   "t": "1511-01-01",
+   "yeni": "Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi",
+   "var": "Muhammed, elli kadar kabile reisinden Sûs bölgesinin cihad emîri olarak biat aldı (916)",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 29,
+   "id": "sadi",
+   "t": "1549-01-01",
+   "yeni": "Fas şehrine girilip Vattâsî hâkimiyetine son verildi",
+   "var": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956)",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 36,
+   "id": "sadi",
+   "t": "1591-04-13",
+   "yeni": "Tondibi zaferiyle Songhay İmparatorluğu yıkıldı, Sudan fethedildi",
+   "var": "Ahmed el-Mansûr'un ordusu Tondibi zaferiyle Songhay İmparatorluğu'nu yıktı",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 41,
+   "id": "sadi",
+   "t": "1659-01-01",
+   "yeni": "Ahmed el-Abbas öldürülerek Sâdî hanedanı sona erdi",
+   "var": "İç çekişmeler sonucu son Sâdî sultanı öldürüldü, hanedan sona erdi (1069)",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 45,
+   "id": "hafsi",
+   "t": "1229-01-01",
+   "yeni": "Ebû Zekeriyyâ Tunus'u fethetti, Hafsî hanedanı kuruldu",
+   "var": "Ebû Zekeriyyâ Yahyâ, Muvahhidler'den ayrılıp İfrîkıye'de bağımsızlığını ilan etti",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 46,
+   "id": "hafsi",
+   "t": "1249-01-01",
+   "yeni": "Şemmâiyye Medresesi inşa edildi",
+   "var": "Ebû Zekeriyyâ öldü; yerine oğlu Muhammed el-Müstansır geçti",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 60,
+   "id": "zeyyani",
+   "t": "1337-01-01",
+   "yeni": "Merînîler Tilimsan'ı ele geçirdi",
+   "var": "Merinîler Tilimsan'ı kısa süreliğine ele geçirdi",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 71,
+   "id": "trablusgarp-ocagi",
+   "t": "1551-08-15",
+   "yeni": "Sinan Paşa'nın donanması Trablus'u fethetti",
+   "var": "Turgut Reis, Malta Şövalyelerinden Trablus'u aldı",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_kuzeyafrika.js",
+   "k": 78,
+   "id": "trablusgarp-ocagi",
+   "t": "1911-10-09",
+   "yeni": "Trablus şehri İtalyan işgaline düştü",
+   "var": "İtalya işgal etti (Trablusgarp Savaşı)",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 41,
+   "id": "nogay",
+   "t": "1557-01-01",
+   "yeni": "KÜÇÜK NOGAY ORDASI kuruldu — Kadı Mirza İdil'i geçti",
+   "var": "Osmanlı yanlısı Yûsuf Mirza ile Moskova yanlısı İsmâil Mirza arasındaki çekişme konfederasyonu ikiye böldü",
+   "benz": 0.13
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 46,
+   "id": "nogay",
+   "t": "1586-01-01",
+   "yeni": "Moskova, Nogayları kuşatmak için Samara ve Ufa'yı kurdu",
+   "var": "Moskova'nın Samara, Tsaritsın ve Saratov kalelerini kurmasıyla akınları sınırlandı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 63,
+   "id": "sibir-hanligi",
+   "t": "1563-01-01",
+   "yeni": "KÜÇÜM HAN İsker'i ele geçirdi — Şeybânî hânedanı geri döndü",
+   "var": "Şeybânî Küçüm Han Tayboğa soyunu yenip tahtı ele geçirdi",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 76,
+   "id": "sibir-hanligi",
+   "t": "1598-08-20",
+   "yeni": "KÜÇÜM HAN'IN SON SAVAŞI — Sibir Hanlığı sona erdi",
+   "var": "Küçüm Han'ın son yenilgisi — hanlık sona erdi, Batı Sibirya Rusya'ya geçti",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 124,
+   "id": "kazak-hanligi",
+   "t": "1847-01-01",
+   "yeni": "KENASARI KIRGIZLAR TARAFINDAN ÖLDÜRÜLDÜ — Kazak Hanlığı bitti",
+   "var": "Son bağımsız han Kenesarı'nın ölümüyle hanlık fiilen sona erdi",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 152,
+   "id": "yarkent-hanligi",
+   "t": "1705-01-01",
+   "yeni": "Yarkent Hanlığı fiilen sona erdi",
+   "var": "Cungar hâkimiyetinin pekişmesiyle hanlık fiilen sona erdi",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 156,
+   "id": "yakub-beg",
+   "t": "1867-01-01",
+   "yeni": "Yâkub Beg kendini ATALIK GAZİ BA-DEVLET ilân etti",
+   "var": "Nominal hükümdar Bûzürg Han Töre'yi bertaraf edip \"Atalık Gazi\" unvanıyla bağımsızlığını ilan etti",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 159,
+   "id": "yakub-beg",
+   "t": "1872-01-01",
+   "yeni": "Kâşgar elçilik heyeti İstanbul'a geldi — Abdülaziz'e biat",
+   "var": "Sultan Abdülaziz'e elçi gönderip \"Emir\" unvanını ve askerî yardım aldı, hutbe onun adına okundu",
+   "benz": 0.14
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 165,
+   "id": "yakub-beg",
+   "t": "1877-05-29",
+   "yeni": "YÂKUB BEG VEFAT ETTİ — cevabı öğrenemeden",
+   "var": "Yâkub Bey öldü (muhtemelen suikast)",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 176,
+   "id": "cungar",
+   "t": "1697-01-01",
+   "yeni": "Sevang Rabdan tahta çıktı — Taşkent dahil bütün Orta Asya",
+   "var": "Tsevang Rabtan döneminde hanlık Taşkent'e kadar genişleyip zirveye ulaştı",
+   "benz": 0.11
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 179,
+   "id": "cungar",
+   "t": "1758-01-01",
+   "yeni": "CUNGAR HALKININ İMHASI — 500.000'den fazla kişi kılıçtan geçirildi",
+   "var": "Qing orduları Cungar nüfusunu büyük ölçüde kırıp hanlığı ortadan kaldırdı",
+   "benz": 0.14
+  },
+  {
+   "f": "kronoloji_orta_asya.js",
+   "k": 197,
+   "id": "turkmen",
+   "t": "1879-09-01",
+   "yeni": "BİRİNCİ GÖKTEPE — Türkmenler Rus ordusunu ağır yenilgiye uğrattı",
+   "var": "Ruslar Göktepe'de ilk seferde ağır bir yenilgiye uğradı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 0,
+   "id": "buhara",
+   "t": "1500-01-01",
+   "yeni": "Şeybânî Han Buhara'yı ele geçirdi, Şeybânî devletinin kuruluşu",
+   "var": "Şeybânî Han, Mâverâünnehir'i alarak hanlığı kurdu",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 20,
+   "id": "buhara",
+   "t": "1599-01-01",
+   "yeni": "Şeybânî hanedanının sonu — Canoğulları (Astrahanlılar) iktidara geldi",
+   "var": "Şeybânî hanedanı sona erdi, yerine Canoğulları (Astrahanlılar) geçti",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 26,
+   "id": "buhara",
+   "t": "1785-01-01",
+   "yeni": "Canoğulları hanedanının sonu — Mangıt emirliğinin kuruluşu",
+   "var": "Mangıt hanedanı iktidarı ele geçirip emirlik unvanını kullandı",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 37,
+   "id": "buhara",
+   "t": "1920-09-02",
+   "yeni": "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi",
+   "var": "Kızıl Ordu Buhara'yı ele geçirdi, Buhara Halk Sovyet Cumhuriyeti ilan edildi",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 38,
+   "id": "hive",
+   "t": "1512-01-01",
+   "yeni": "Yadigâroğulları Harzem'i (Hîve) fethetti — hanlığın kuruluşu",
+   "var": "Yadigâroğulları İlbars ve Bilbars, Özbek-Türkmen güçleriyle Harzem'i ele geçirdi",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 55,
+   "id": "hive",
+   "t": "1920-04-26",
+   "yeni": "Harezm Halk Cumhuriyeti ilan edildi",
+   "var": "Harzem Halk Cumhuriyeti ilan edilerek hanlığa son verildi",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 56,
+   "id": "hokand",
+   "t": "1710-01-01",
+   "yeni": "Şahruh Bey Hokand'ı kurdu",
+   "var": "Ming boyundan Şahruh, Hokand'ı başkent yaparak hanlığını kurdu",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 59,
+   "id": "hokand",
+   "t": "1808-01-01",
+   "yeni": "Âlim Han, Taşkent'i fethetti",
+   "var": "Âlim Han, Taşkent'i alarak hanlığı genişletti",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 68,
+   "id": "hokand",
+   "t": "1868-01-01",
+   "yeni": "Hudayâr Han, Rusya ile antlaşma imzaladı",
+   "var": "Hudayâr Han, Rusya ile antlaşma imzalayıp toprak kaybetti",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_ozbek.js",
+   "k": 70,
+   "id": "hokand",
+   "t": "1876-02-19",
+   "yeni": "Hokand Hanlığı ilhak edildi ⭐ (dunya paylaşılan olay)",
+   "var": "Rusya hanlığı tamamen ilhak edip Fergana vilayeti yaptı",
+   "benz": 0.29
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 0,
+   "id": "sirbistan-nemanjic",
+   "t": "1217-01-01",
+   "yeni": "Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)",
+   "var": "Stefan Prvovenčani (İlk Taçlı) Sırbistan Krallığı'nı ilan etti",
+   "benz": 0.83
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 2,
+   "id": "sirbistan-nemanjic",
+   "t": "1346-04-16",
+   "yeni": "Duşan imparatorluk tacı giydi (Üsküp meclisi)",
+   "var": "Üsküp'te resmî imparatorluk tacı giydi, başkenti Serez'e taşıdı",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 3,
+   "id": "sirbistan-nemanjic",
+   "t": "1355-12-20",
+   "yeni": "Duşan'ın ani ölümü, imparatorluğun parçalanması başladı",
+   "var": "Duşan'ın ani ölümüyle imparatorluk parçalanmaya başladı",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 4,
+   "id": "sirbistan-nemanjic",
+   "t": "1371-09-26",
+   "yeni": "Çirmen (Meriç) Savaşı — ağır yenilgi",
+   "var": "Çirmen (Meriç) Savaşı'nda ağır yenilgi",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 5,
+   "id": "sirbistan-nemanjic",
+   "t": "1389-06-15",
+   "yeni": "I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi",
+   "var": "I. Kosova Savaşı sonrası Osmanlı'ya haraca bağlandı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 6,
+   "id": "sirp-despotlugu",
+   "t": "1402-01-01",
+   "yeni": "Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)",
+   "var": "Stefan Lazarević tarafından kuruldu, Osmanlı vasalı",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 7,
+   "id": "sirp-despotlugu",
+   "t": "1427-01-01",
+   "yeni": "Đurađ Branković despot oldu, başkent Semendire'ye taşındı",
+   "var": "Đurađ Branković despot oldu, başkenti Belgrad'dan Smederevo'ya taşıdı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 9,
+   "id": "sirp-despotlugu",
+   "t": "1444-08-15",
+   "yeni": "Edirne-Segedin Antlaşması ile Semendire ve despotluk toprakları iade edildi",
+   "var": "Segedin Antlaşması ile Semendire ve despotluk toprakları geri verildi",
+   "benz": 0.71
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 11,
+   "id": "sirp-despotlugu",
+   "t": "1459-06-20",
+   "yeni": "Semendire'nin düşüşü — Sırp Despotluğu'nun sonu",
+   "var": "Smederevo'nun düşüşüyle despotluk sona erdi",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 15,
+   "id": "sirbistan-eyaleti",
+   "t": "1739-09-18",
+   "yeni": "Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü",
+   "var": "Belgrad Antlaşması ile Kuzey Sırbistan (Belgrad dahil) Osmanlı'ya iade edildi",
+   "benz": 0.71
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 17,
+   "id": "sirbistan-prensligi",
+   "t": "1804-02-14",
+   "yeni": "Birinci Sırp Ayaklanması başladı (Kara Yorgi)",
+   "var": "Birinci Sırp İsyanı (Kara Yorgi)",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 20,
+   "id": "sirbistan-prensligi",
+   "t": "1815-04-23",
+   "yeni": "İkinci Sırp Ayaklanması (Miloš Obrenović)",
+   "var": "İkinci Sırp İsyanı (Miloš Obrenović)",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 23,
+   "id": "sirbistan-prensligi",
+   "t": "1830-10-17",
+   "yeni": "Özerklik fermanı (Hatt-ı Şerif) yayımlandı",
+   "var": "Özerklik fermanla tanındı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 27,
+   "id": "sirbistan-prensligi",
+   "t": "1878-07-13",
+   "yeni": "Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı",
+   "var": "Berlin Kongresi'nde tam bağımsızlık tanındı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 27,
+   "id": "sirbistan-prensligi",
+   "t": "1878-07-13",
+   "yeni": "Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı",
+   "var": "Berlin Antlaşması: Bosna-Hersek A-M işgaline, Sırbistan ve Karadağ bağımsız",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 28,
+   "id": "sirbistan-kralligi",
+   "t": "1882-03-06",
+   "yeni": "Sırbistan Krallığı ilan edildi (I. Milan)",
+   "var": "I. Milan kendini kral ilan etti",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 31,
+   "id": "sirbistan-kralligi",
+   "t": "1908-10-06",
+   "yeni": "Bosna-Hersek'in ilhakı — Sırbistan'ın savaş tehdidi",
+   "var": "Avusturya-Macaristan Bosna-Hersek'i ilhak etti",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 32,
+   "id": "sirbistan-kralligi",
+   "t": "1912-10-08",
+   "yeni": "Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı",
+   "var": "Balkan Savaşları'na girdi, Kosova ve Makedonya'yı aldı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 33,
+   "id": "sirbistan-kralligi",
+   "t": "1913-08-10",
+   "yeni": "Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti",
+   "var": "Bükreş Antlaşması: Yunanistan–Sırbistan sınırı doğdu",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_sirbistan.js",
+   "k": 34,
+   "id": "sirbistan-kralligi",
+   "t": "1918-12-01",
+   "yeni": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme",
+   "var": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşti",
+   "benz": 0.83
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 9,
+   "id": "yuan-hanedani",
+   "t": "1351-01-01",
+   "yeni": "Sarı Nehir'in Jia Lu'ya yönlendirilmesi",
+   "var": "Kızıl Sarıklı isyanı başladı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 12,
+   "id": "yuan-hanedani",
+   "t": "1368-09-14",
+   "yeni": "Ming orduları Pekin'i aldı, Yuan sarayı kuzeye çekildi",
+   "var": "Zhu Yuanzhang Pekin'i aldı, Ming'i ilan etti; Moğollar kuzeye çekildi (Kuzey Yuan)",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 12,
+   "id": "kuzey-yuan",
+   "t": "1368-09-14",
+   "yeni": "Ming orduları Pekin'i aldı, Yuan sarayı kuzeye çekildi",
+   "var": "Toghon Temür Dadu'yu (Pekin) bırakıp bozkıra çekildi, Yuan sarayı kuzeyde sürdü",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 52,
+   "id": "qing-hanedani",
+   "t": "1636-05-15",
+   "yeni": "Hong Taiji hanedan adını \"Qing\" ilan etti",
+   "var": "Hong Taiji, hanedan adını \"Qing\" olarak ilan etti",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 54,
+   "id": "ming-hanedani",
+   "t": "1644-04-25",
+   "yeni": "Li Zicheng Pekin'i aldı, son Ming imparatoru intihar etti",
+   "var": "Li Zicheng'in köylü ordusu Pekin'i aldı, son imparator intihar etti (Güney Ming 1662'ye dek direndi)",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 55,
+   "id": "qing-hanedani",
+   "t": "1644-06-06",
+   "yeni": "Qing orduları Pekin'i aldı, Dorgon nâip oldu",
+   "var": "Pekin'i alarak Çin'e hâkim oldu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 57,
+   "id": "guney-ming",
+   "t": "1645-06-08",
+   "yeni": "Nanjing düştü — Güney Ming direnişi güneye çekildi",
+   "var": "Qing kuvvetleri Nanking'i aldı, direniş güneye çekildi",
+   "benz": 0.29
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 59,
+   "id": "guney-ming",
+   "t": "1662-01-01",
+   "yeni": "Yongli yakalanıp idam edildi — Güney Ming direnişi bitti",
+   "var": "Yongli teslim alınıp idam edildi, Ming direnişi anakarada bitti",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 74,
+   "id": "qing-hanedani",
+   "t": "1729-01-01",
+   "yeni": "Askerî Danışma Kurulu (Grand Council) kuruldu",
+   "var": "Ortai'nin «toprak yönetimine geçiş» reformu — Yunnan sınırındaki yerel beylikler kaldırıldı, Pu'er (Ning'er) vilayeti kuruldu",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 98,
+   "id": "qing-hanedani",
+   "t": "1860-10-24",
+   "yeni": "Pekin Sözleşmesi — Kowloon devredildi, afyon meşrulaştı",
+   "var": "Peking Konvansiyonu — Kowloon İngiltere'ye bırakıldı",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 104,
+   "id": "qing-hanedani",
+   "t": "1865-01-01",
+   "yeni": "Jiangnan Tersanesi ve Cephanesi kuruldu",
+   "var": "Yâkub Bey Hokand'dan Kaşgar'a girdi — Doğu Türkistan'da yeni iktidarın başlangıcı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 126,
+   "id": "qing-hanedani",
+   "t": "1912-02-12",
+   "yeni": "Puyi tahttan feragat etti — Qing hanedanı sona erdi",
+   "var": "Son imparator Puyi tahttan feragat etti, Çin Cumhuriyeti ilan edildi",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 126,
+   "id": "cin-cumhuriyeti",
+   "t": "1912-02-12",
+   "yeni": "Puyi tahttan feragat etti — Qing hanedanı sona erdi",
+   "var": "Son imparator Puyi tahttan çekildi, Qing hanedanı sona erdi",
+   "benz": 0.75
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 128,
+   "id": "cin-cumhuriyeti",
+   "t": "1912-11-01",
+   "yeni": "Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilan etti",
+   "var": "Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilân etti",
+   "benz": 0.83
+  },
+  {
+   "f": "kronoloji_cin.js",
+   "k": 131,
+   "id": "cin-cumhuriyeti",
+   "t": "1916-06-06",
+   "yeni": "Yuan Shikai öldü — savaş ağaları dönemi başladı",
+   "var": "Yuan Shikai'nin ölümü: savaş ağaları dönemi başladı",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_misir.js",
+   "k": 24,
+   "id": "misir-eyaleti",
+   "t": "1798-07-21",
+   "yeni": "Ehramlar (İmbâbe) Muharebesi — Kölemen süvarisinin dağılması",
+   "var": "Napolyon Bonapart komutasındaki Fransız ordusu Ehram Muharebesi'ni kazanıp Kahire'yi ele geçirdi, Mısır fiilen Fransız işgaline girdi",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_misir.js",
+   "k": 32,
+   "id": "misir-kavalali",
+   "t": "1805-07-03",
+   "yeni": "Bâbıâli'nin Mehmed Ali'ye vezirlik rütbesiyle valilik fermanı",
+   "var": "Kavalalı Mehmed Ali, Bâbıâli tarafından Mısır valiliğine getirildi (oldubittinin tanınması)",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_misir.js",
+   "k": 61,
+   "id": "misir-kavalali",
+   "t": "1831-10-31",
+   "yeni": "İbrâhim Paşa'nın Suriye'ye girmesi — Birinci Mısır Meselesi başladı",
+   "var": "Birinci Mısır Krizi — Suriye'nin işgali (bkz. seri: misir)",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_misir.js",
+   "k": 116,
+   "id": "misir-kavalali",
+   "t": "1899-01-19",
+   "yeni": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "var": "Anglo-Mısır Kondominyum Antlaşması — İngiliz Sudanı kuruldu",
+   "benz": 0.57
+  },
+  {
+   "f": "kronoloji_misir.js",
+   "k": 118,
+   "id": "misir-kavalali",
+   "t": "1914-12-18",
+   "yeni": "Mısır'ın İngiliz himayesine alınması — Osmanlı hükümranlığının sonu",
+   "var": "İngiltere Mısır'ı resmen himayesine aldı, Hidivlik yerine sultanlık ilan edildi — nominal Osmanlı bağı sona erdi",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 2,
+   "id": "kamakura",
+   "t": "1333-07-04",
+   "yeni": "Kamakura Şogunluğu yıkıldı, İmparator Go-Daigo doğrudan iktidara döndü",
+   "var": "Kenmu Restorasyonu ile şogunluk yıkıldı, imparator kısa süreliğine doğrudan iktidara döndü",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 2,
+   "id": "kenmu",
+   "t": "1333-07-04",
+   "yeni": "Kamakura Şogunluğu yıkıldı, İmparator Go-Daigo doğrudan iktidara döndü",
+   "var": "Kamakura Şogunluğu devrildi, İmparator Go-Daigo doğrudan yönetimi geri aldı",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 3,
+   "id": "kenmu",
+   "t": "1336-11-07",
+   "yeni": "Ashikaga Takauji, Muromachi Şogunluğu'nu kurdu — Nanboku-chō bölünmesi başladı",
+   "var": "Ashikaga Takauji Kenmu Kanunnâmesi'ni ilan etti, Muromachi Şogunluğu'nu kurdu",
+   "benz": 0.63
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 15,
+   "id": "azuchi-momoyama",
+   "t": "1582-06-21",
+   "yeni": "Honnō-ji Vakası: Nobunaga suikaste kurban gitti",
+   "var": "Honnō-ji olayında Nobunaga öldürüldü, mirası Hideyoshi'ye geçti",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 20,
+   "id": "azuchi-momoyama",
+   "t": "1600-10-21",
+   "yeni": "Sekigahara Savaşı: Tokugawa Ieyasu üstünlüğü kesin olarak ele geçirdi",
+   "var": "Sekigahara Savaşı'nda Tokugawa Ieyasu üstünlüğü ele geçirdi",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 21,
+   "id": "edo-bakufu",
+   "t": "1603-03-24",
+   "yeni": "Tokugawa Ieyasu, Edo'da şogunluğunu kurdu",
+   "var": "İmparatordan şogun unvanını alarak Edo'da şogunluğunu kurdu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 37,
+   "id": "edo-bakufu",
+   "t": "1853-07-08",
+   "yeni": "Komodor Perry'nin \"Kara Gemileri\" Uraga'ya demirledi",
+   "var": "Komodor Perry'nin ABD filosu Japonya'yı dışa açılmaya zorladı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 42,
+   "id": "meiji-japonya",
+   "t": "1868-01-03",
+   "yeni": "Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı",
+   "var": "Meiji Restorasyonu ilan edildi, imparator fiilî iktidara döndü",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 59,
+   "id": "meiji-japonya",
+   "t": "1895-04-17",
+   "yeni": "Şimonoseki Antlaşması imzalandı — Tayvan Japonya'ya geçti",
+   "var": "Birinci Çin-Japon Savaşı'nı kazanıp Tayvan'ı aldı",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 63,
+   "id": "meiji-japonya",
+   "t": "1905-09-05",
+   "yeni": "Portsmouth Antlaşması Rus-Japon Savaşı'nı sona erdirdi",
+   "var": "Rus-Japon Savaşı'nı kazanarak büyük güç statüsü kazandı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 63,
+   "id": "meiji-japonya",
+   "t": "1905-09-05",
+   "yeni": "Portsmouth Antlaşması Rus-Japon Savaşı'nı sona erdirdi",
+   "var": "Portsmouth Antlaşması — Sahalin 50. paralelden bölündü",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_japonya.js",
+   "k": 64,
+   "id": "meiji-japonya",
+   "t": "1910-08-29",
+   "yeni": "Japonya Kore'yi ilhak etti",
+   "var": "Kore'yi ilhak etti",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 21,
+   "id": "babur-imparatorlugu",
+   "t": "1526-04-21",
+   "yeni": "Birinci Pânipat Savaşı: Bâbür, Delhi Sultanlığı'na son verdi",
+   "var": "Bâbür, Birinci Panipat Savaşı'nda Lûdî sultanlığını yenerek imparatorluğu kurdu",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 66,
+   "id": "maratha",
+   "t": "1761-01-14",
+   "yeni": "Üçüncü Pânipat Savaşı: Ahmed Şah Dürrânî Marathaları bozguna uğrattı",
+   "var": "Üçüncü Panipat Savaşı'nda Afgan Ahmed Şah Dürrânî'ye ağır yenilgi aldı",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 66,
+   "id": "afgan-durrani",
+   "t": "1761-01-14",
+   "yeni": "Üçüncü Pânipat Savaşı: Ahmed Şah Dürrânî Marathaları bozguna uğrattı",
+   "var": "Pânîpat: Merathalar'a karşı kazanılan zafer",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 72,
+   "id": "meysur",
+   "t": "1799-05-04",
+   "yeni": "Dördüncü Anglo-Mysore Savaşı: Seringapatam düştü, Tîpû Sultan savaşarak öldü",
+   "var": "Dördüncü Anglo-Mysore Savaşı'nda Seringapatam düştü, Tipu Sultan savaşarak öldü",
+   "benz": 0.9
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 74,
+   "id": "behmeni",
+   "t": "1425-01-01",
+   "yeni": "Behmenî başkenti Gülberge'den Bîdar'a taşındı",
+   "var": "Başkent Gulbarga'dan Bidar'a taşındı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 78,
+   "id": "golkonda",
+   "t": "1591-01-01",
+   "yeni": "Muhammed Kulî Kutub Şah, Haydarâbâd şehrini kurdu",
+   "var": "Muhammed Kulı, Haydarâbâd'ı kurup başkenti Golkonda'dan oraya taşıdı",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 80,
+   "id": "vijayanagara",
+   "t": "1509-01-01",
+   "yeni": "Krişnadevarâya, Vijayanagara tahtına çıktı",
+   "var": "Krişnadevaraya döneminde imparatorluk zirvesine ulaştı",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 83,
+   "id": "kesmir",
+   "t": "1339-01-01",
+   "yeni": "Şah Mîr, Keşmir Sultanlığı'nı kurdu",
+   "var": "Şah Mîr, Lohara hânedanının yerine geçip müslüman sultanlığı kurdu",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 84,
+   "id": "kesmir",
+   "t": "1420-01-01",
+   "yeni": "Zeynelâbidin, Keşmir'de tahta çıktı",
+   "var": "Zeynelâbidîn dönemi Keşmir'in kültür bakımından en parlak çağı oldu",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 85,
+   "id": "gucerat-sultanligi",
+   "t": "1407-01-01",
+   "yeni": "Zafer Han (I. Muzaffer Şah), bağımsız Gucerât Sultanlığı'nı kurdu",
+   "var": "Zafer Han, Muzaffer Şah unvanıyla bağımsızlığını ilân etti",
+   "benz": 0.33
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 86,
+   "id": "gucerat-sultanligi",
+   "t": "1411-01-01",
+   "yeni": "Ahmed Şah, Ahmedâbâd şehrini kurdu",
+   "var": "Ahmed Şah devleti pekiştirdi, Ahmedâbâd başkent oldu",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 91,
+   "id": "malva-sultanligi",
+   "t": "1531-01-01",
+   "yeni": "Gucerât Sultanı Bahadır Şah, Mâlvâ'yı ilhak etti",
+   "var": "Gucerât Sultanı Bahadır Şah, Mândû'yu işgal edip Mâlvâ'yı ilhak etti",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 94,
+   "id": "bengal-sultanligi",
+   "t": "1538-04-06",
+   "yeni": "Şîr Şah Sûrî, Bengal Sultanlığı'nı fethetti",
+   "var": "Afgan komutan Şir Şah Sûrî, Gaur'u ele geçirdi; son Hüseyin Şahi hükümdarı Gıyâseddin Mahmud Şah yenilip kısa süre sonra öldü, hânedan sona erdi",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 96,
+   "id": "maratha",
+   "t": "1674-06-06",
+   "yeni": "Şivâcî, Raygad'da kral olarak taç giydi",
+   "var": "Şivâcî, Reygad'da kral olarak taç giydi",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 98,
+   "id": "maratha",
+   "t": "1707-01-01",
+   "yeni": "Maratha gücü Peşvalar önderliğinde gevşek bir konfederasyona dönüştü",
+   "var": "Evrengzîb'in ölümünden sonra Maratha gücü Peşvalar önderliğinde bir konfederasyona dönüştü",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 100,
+   "id": "maratha",
+   "t": "1761-01-14",
+   "yeni": "Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı",
+   "var": "Üçüncü Panipat Savaşı'nda Afgan Ahmed Şah Dürrânî'ye ağır yenilgi aldı",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 100,
+   "id": "afgan-durrani",
+   "t": "1761-01-14",
+   "yeni": "Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı",
+   "var": "Pânîpat: Merathalar'a karşı kazanılan zafer",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 103,
+   "id": "sih-imparatorlugu",
+   "t": "1801-04-12",
+   "yeni": "Rançit Singh, Mahâracâ unvanıyla taç giydi",
+   "var": "Rançit Singh, Lahor'da Maharaca olarak taç giydi",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 105,
+   "id": "sih-imparatorlugu",
+   "t": "1839-06-27",
+   "yeni": "Rançit Singh öldü",
+   "var": "Rançit Singh öldü, ardından taht kavgaları başladı",
+   "benz": 1
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 106,
+   "id": "sih-imparatorlugu",
+   "t": "1846-03-09",
+   "yeni": "Birinci Anglo-Sih Savaşı, Lahor Antlaşması'yla sona erdi",
+   "var": "Birinci Anglo-Sih Savaşı sonunda Lahor Antlaşması ile toprak kaybetti",
+   "benz": 0.71
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 108,
+   "id": "meysur",
+   "t": "1761-01-01",
+   "yeni": "Haydar Ali, Meysûr'da fiilî iktidarı ele geçirdi",
+   "var": "Haydar Ali, Vodeyar racasından fiilî iktidarı ele geçirdi",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 110,
+   "id": "meysur",
+   "t": "1782-12-07",
+   "yeni": "Haydar Ali öldü, yerine oğlu Tîpû Sultan geçti",
+   "var": "Haydar Ali öldü, yerine oğlu Tipu Sultan geçti",
+   "benz": 0.86
+  },
+  {
+   "f": "kronoloji_hindistan.js",
+   "k": 116,
+   "id": "babur-imparatorlugu",
+   "t": "1562-01-01",
+   "yeni": "Müzisyen Tansen, Ekber Şah'ın sarayına katıldı",
+   "var": "Mâlvâ, Ekber Şah döneminde kesin olarak Bâbürlü topraklarına katıldı",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 4,
+   "id": "sind",
+   "t": "1351-01-01",
+   "yeni": "Semmâ hânedanı Sind'de hâkimiyeti ele geçirdi",
+   "var": "Samma hânedanı Sûmraların yerini aldı, merkez Tatta oldu",
+   "benz": 0.2
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 10,
+   "id": "sind",
+   "t": "1520-01-01",
+   "yeni": "Şah Beg Ergun Tatta'yı ele geçirdi; Sind Türk asıllı Ergun hânedanına geçti",
+   "var": "Şah Beg Ergun Sind'i alıp Ergunlu (Argun) idaresini kurdu",
+   "benz": 0.29
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 25,
+   "id": "sind",
+   "t": "1783-01-01",
+   "yeni": "Talpur sülâlesinden Mîr Feth Ali Han Sind'e hâkim oldu",
+   "var": "Talpur emîrleri Kalhoraları devirip Sind'e hâkim oldu",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 28,
+   "id": "sind",
+   "t": "1843-02-17",
+   "yeni": "Miyânî Muharebesi: Talpur ordusu Napier karşısında bozguna uğradı",
+   "var": "Miyânî Savaşı'nda İngilizlere yenilen Talpurlar Sind'i kaybetti",
+   "benz": 0.14
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 43,
+   "id": "nepal",
+   "t": "1768-09-25",
+   "yeni": "Pritvi Narayan Şah Katmandu'yu ele geçirdi",
+   "var": "Prithvi Narayan Şah Katmandu'yu alıp vadiyi Gorkha yönetiminde birleştirdi",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 43,
+   "id": "nepal",
+   "t": "1768-09-25",
+   "yeni": "Pritvi Narayan Şah Katmandu'yu ele geçirdi",
+   "var": "Prithvi Narayan Shah, Kathmandu'yu alıp Nepal Krallığı'nın kuruluşunu resmen ilân etti; başkentini Gorkha'dan Kathmandu'ya taşıdı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 44,
+   "id": "nepal",
+   "t": "1769-01-01",
+   "yeni": "Patan ve Bhaktapur da alındı; vadi tek yönetimde birleşti",
+   "var": "Bhaktapur Savaşı'nda Prithvi Narayan Shah zafer kazanıp Kathmandu Vadisi'nin tamamının denetimini ele geçirdi",
+   "benz": 0.17
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 49,
+   "id": "nepal",
+   "t": "1816-03-04",
+   "yeni": "Sugauli Antlaşması onaylandı; Terai'nin büyük kısmı İngilizler'e geçti",
+   "var": "Sugauli Antlaşması ile İngilizlere toprak verildi, sınırlar bugünkü hâline yaklaştı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 49,
+   "id": "nepal",
+   "t": "1816-03-04",
+   "yeni": "Sugauli Antlaşması onaylandı; Terai'nin büyük kısmı İngilizler'e geçti",
+   "var": "Sugauli Antlaşması yürürlükte — Nepal ovalarını İngilizlere bıraktı",
+   "benz": 0.29
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 52,
+   "id": "nepal",
+   "t": "1856-03-24",
+   "yeni": "Thapathali Antlaşması Nepal-Tibet savaşını bitirdi",
+   "var": "Nepal–Tibet barışı — sınır çizilmedi",
+   "benz": 0.4
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 65,
+   "id": "babur-imparatorlugu",
+   "t": "1562-01-01",
+   "yeni": "Amber Racası Bhâra Mel kızını Ekber Şah'a vererek Bâbürlü ittifakını kurdu",
+   "var": "Mâlvâ, Ekber Şah döneminde kesin olarak Bâbürlü topraklarına katıldı",
+   "benz": 0.25
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 85,
+   "id": "ladak",
+   "t": "1460-01-01",
+   "yeni": "Lhaçen Bhagan Namgyal hânedanını kurdu",
+   "var": "Bhagan, Leh halkıyla ittifak kurup Maryul kralı Lodrö Chokden'i tahttan indirerek 'Namgyal' (muzaffer) soyadını aldı ve hanedanı kurdu (Luciano Petech, 'The Kingdom of Ladakh, c. 950-1842 A.D.', 1977)",
+   "benz": 0.6
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 93,
+   "id": "ladak",
+   "t": "1684-01-01",
+   "yeni": "Tingmosgang Antlaşması Ladakh-Tibet sınırını çizdi",
+   "var": "Savaş, Tingmosgang (Temisgam) Antlaşması ile sona erdi: sınır Demchok'a çekildi, Ladakh'a pashmina tekeli verildi, karşılığında Lhasa'ya üç yılda bir haraç ve Tibet Budizmi'ni koruma yükümlülüğü getirildi",
+   "benz": 0.67
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 94,
+   "id": "ladak",
+   "t": "1834-01-01",
+   "yeni": "Zorâver Singh'in Dogra ordusu Ladakh'ı fethetti",
+   "var": "Zorâver Singh'in Dogra seferi krallığı sona erdirdi",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 99,
+   "id": "travankur",
+   "t": "1729-01-01",
+   "yeni": "Marthanda Varma tahta çıktı; Travankur Krallığı kuruldu",
+   "var": "Marthanda Varma tahta geçip küçük beylikleri birleştirdi",
+   "benz": 0.43
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 100,
+   "id": "travankur",
+   "t": "1741-08-10",
+   "yeni": "Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi",
+   "var": "Kolaçel'de Hollanda Doğu Hindistan Şirketi kuvvetleri yenildi",
+   "benz": 0.71
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 104,
+   "id": "travankur",
+   "t": "1805-01-01",
+   "yeni": "Travankur İngilizler'le tâbilik antlaşması imzaladı",
+   "var": "Krallık İngiliz himâyesine girdi, tahtı korundu",
+   "benz": 0
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 119,
+   "id": "manipur",
+   "t": "1819-01-01",
+   "yeni": "Yedi Yıllık Yıkım (Çahi Taret Khuntakpa) başladı: Burma işgali",
+   "var": "Birmanya işgali 'Yedi Yıllık Yıkım' diye anılan dönemi başlattı",
+   "benz": 0.44
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 120,
+   "id": "manipur",
+   "t": "1826-02-24",
+   "yeni": "Yandabo Antlaşması Manipûr'un bağımsızlığını tanıdı",
+   "var": "Yandabo Antlaşması'nın 2. maddesiyle Ava Kralı Manipûr üzerindeki iddialarından vazgeçip Gambhir Singh'i bağımsız hükümdar tanıdı; Birmanya işgali resmen sona erdi",
+   "benz": 0.8
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 124,
+   "id": "manipur",
+   "t": "1891-08-13",
+   "yeni": "Tikendracît Singh ve Thangal General idam edildi",
+   "var": "Anglo-Manipûr Savaşı'nın ardından Senapati Tikendrajit Singh ve Thangal General İmphal'da halka açık şekilde asıldı; bugün Manipûr'da Vatanseverler Günü olarak anılır",
+   "benz": 0.5
+  },
+  {
+   "f": "kronoloji_guney_asya.js",
+   "k": 152,
+   "id": "manipur",
+   "t": "1891-01-01",
+   "yeni": "Çeitharol Kumbaba vakayinâmesi kesintisiz kaydını sürdürdü",
+   "var": "Anglo-Manipûr Savaşı'ndan sonra krallık İngiliz himâyesine alındı",
+   "benz": 0
+  }
+ ],
+ "eslenemeyen_taraf_tum_cok_sinir": {
+  "trablus-cumhuriyeti": 1,
+  "murabitlar": 10,
+  "muvahhidler": 17,
+  "ziriler": 6,
+  "hammadiler": 5,
+  "tekrur-kralligi": 1,
+  "mapungubwe": 1,
+  "bati-xia": 4,
+  "ly-hanedani": 4,
+  "liao-hanedani": 4,
+  "dongxia": 1,
+  "dali-kralligi": 1,
+  "heian-japonya": 5,
+  "oshu-fujiwara": 1,
+  "tien-le-hanedani": 2,
+  "srivijaya": 1,
+  "kahuripan": 1,
+  "guge": 1,
+  "sakya": 2,
+  "samani": 1,
+  "karahanli": 7,
+  "gazneli": 20,
+  "revvadi": 5,
+  "bavendi": 6,
+  "ziyari": 5,
+  "idil-bulgar": 3,
+  "gurlu": 11,
+  "annazi": 6,
+  "buveyhi": 6,
+  "kakuyi": 7,
+  "musafiri": 2,
+  "buyuk-selcuklu": 36,
+  "dogu-karahanli": 5,
+  "bati-karahanli": 10,
+  "kirman-selcuklu": 7,
+  "kipcak": 6,
+  "suriye-selcuklu": 4,
+  "alamut-nizari": 7,
+  "irak-selcuklu": 14,
+  "ahmedili": 7,
+  "karahitay": 8,
+  "badusbani": 3,
+  "ildenizli": 11,
+  "salgurlu": 8,
+  "harizmsah": 16,
+  "kunduz-hanligi": 1,
+  "kuca-hocalari": 1,
+  "osmanli": 15
+ },
+ "kunye_kazanc": {
+  "cenova": 107,
+  "misir-kavalali": 83,
+  "selcuklu": 80,
+  "habesistan": 76,
+  "babur-imparatorlugu": 73,
+  "qing-hanedani": 64,
+  "yunanistan": 47,
+  "karaman": 44,
+  "kazak-hanligi": 43,
+  "ilhanli": 41,
+  "artuklu": 41,
+  "ming-hanedani": 41,
+  "ferrara": 36,
+  "buhara": 34,
+  "racput": 33,
+  "dulkadir": 31,
+  "karadag": 31,
+  "sind": 29,
+  "adal": 28,
+  "kazan": 28,
+  "somali": 28,
+  "svahili-sehirleri": 28,
+  "nepal": 28,
+  "misir-eyaleti": 27,
+  "kilikya-ermeni": 26,
+  "aydin": 24,
+  "yemen-zeydi": 24,
+  "meiji-japonya": 24,
+  "delhi-sultanligi": 23,
+  "siena": 23,
+  "serbedariler": 20,
+  "merini": 20,
+  "umman": 19,
+  "edo-bakufu": 19,
+  "buganda": 19,
+  "sibir-hanligi": 19,
+  "sadi": 18,
+  "travankur": 18,
+  "celayirli": 17,
+  "bosna-kralligi": 16,
+  "hive": 16,
+  "manipur": 16,
+  "muzafferi": 14,
+  "nogay": 12,
+  "zeyyani": 12,
+  "hokand": 11,
+  "yuan-hanedani": 11,
+  "kert": 10,
+  "turkmen": 10,
+  "yakub-beg": 10,
+  "ladak": 10,
+  "evfat": 9,
+  "zeta": 9,
+  "hafsi": 9,
+  "muromachi": 8,
+  "azuchi-momoyama": 8,
+  "cin-cumhuriyeti": 8,
+  "bulgar-carligi": 7,
+  "trablusgarp-ocagi": 6,
+  "bulgaristan-prensligi": 6,
+  "mogulistan": 6,
+  "bulgaristan-kralligi": 5,
+  "meysur": 5,
+  "incu": 4,
+  "astarhan": 4,
+  "maratha": 4,
+  "cungar": 3,
+  "behmeni": 3,
+  "golkonda": 3,
+  "makdisu-sultanligi": 2,
+  "kamakura": 2,
+  "gucerat-sultanligi": 2,
+  "bicapur": 2,
+  "ahmednagar": 2,
+  "yarkent-hanligi": 2,
+  "bengal-sultanligi": 2,
+  "lur-i-buzurg": 1,
+  "lur-i-kucek": 1,
+  "sih-imparatorlugu": 1,
+  "malva-sultanligi": 1,
+  "misir-sultanligi": 1
+ },
+ "benzetim": {
+  "once": {
+   "eslenemeyen_degisken": 15,
+   "ezilen": [
+    "akkoyunlu",
+    "almanya",
+    "altinorda",
+    "atina-dukaligi",
+    "bizans",
+    "fransa",
+    "gurcistan",
+    "habsburg",
+    "hollanda",
+    "ingiltere",
+    "iran",
+    "ispanya",
+    "isvec",
+    "karakoyunlu",
+    "katalan",
+    "kirim",
+    "lehistan",
+    "macaristan",
+    "memluk",
+    "naksa-dukaligi",
+    "portekiz",
+    "rodos-sovalyeleri",
+    "rusya",
+    "safevi",
+    "timurlu",
+    "venedik"
+   ],
+   "eklenen": 2778,
+   "bizden": 0,
+   "eslenemeyen_taraf": {
+    "trablus-cumhuriyeti": 1,
+    "murabitlar": 10,
+    "muvahhidler": 17,
+    "ziriler": 6,
+    "hammadiler": 5,
+    "tekrur-kralligi": 1,
+    "mapungubwe": 1,
+    "bati-xia": 4,
+    "ly-hanedani": 4,
+    "liao-hanedani": 4,
+    "dongxia": 1,
+    "dali-kralligi": 1,
+    "heian-japonya": 5,
+    "oshu-fujiwara": 1,
+    "tien-le-hanedani": 2,
+    "srivijaya": 1,
+    "kahuripan": 1,
+    "guge": 1,
+    "sakya": 2,
+    "samani": 1,
+    "karahanli": 7,
+    "gazneli": 20,
+    "revvadi": 5,
+    "bavendi": 6,
+    "ziyari": 5,
+    "idil-bulgar": 3,
+    "gurlu": 11,
+    "annazi": 6,
+    "buveyhi": 6,
+    "kakuyi": 7,
+    "musafiri": 2,
+    "buyuk-selcuklu": 36,
+    "dogu-karahanli": 5,
+    "bati-karahanli": 10,
+    "kirman-selcuklu": 7,
+    "kipcak": 6,
+    "suriye-selcuklu": 4,
+    "alamut-nizari": 7,
+    "irak-selcuklu": 14,
+    "ahmedili": 7,
+    "karahitay": 8,
+    "badusbani": 3,
+    "ildenizli": 11,
+    "salgurlu": 8,
+    "harizmsah": 16,
+    "kunduz-hanligi": 1,
+    "kuca-hocalari": 1,
+    "osmanli": 15
+   },
+   "toplam_kunye_madde": 7806
+  },
+  "sonra": {
+   "eslenemeyen_degisken": 0,
+   "ezilen": [
+    "akkoyunlu",
+    "almanya",
+    "altinorda",
+    "atina-dukaligi",
+    "bizans",
+    "fransa",
+    "gurcistan",
+    "habsburg",
+    "hollanda",
+    "ingiltere",
+    "iran",
+    "ispanya",
+    "isvec",
+    "karakoyunlu",
+    "katalan",
+    "kirim",
+    "lehistan",
+    "macaristan",
+    "memluk",
+    "naksa-dukaligi",
+    "portekiz",
+    "rodos-sovalyeleri",
+    "rusya",
+    "safevi",
+    "timurlu",
+    "venedik"
+   ],
+   "eklenen": 4441,
+   "bizden": 1703,
+   "eslenemeyen_taraf": {
+    "trablus-cumhuriyeti": 1,
+    "murabitlar": 10,
+    "muvahhidler": 17,
+    "ziriler": 6,
+    "hammadiler": 5,
+    "tekrur-kralligi": 1,
+    "mapungubwe": 1,
+    "bati-xia": 4,
+    "ly-hanedani": 4,
+    "liao-hanedani": 4,
+    "dongxia": 1,
+    "dali-kralligi": 1,
+    "heian-japonya": 5,
+    "oshu-fujiwara": 1,
+    "tien-le-hanedani": 2,
+    "srivijaya": 1,
+    "kahuripan": 1,
+    "guge": 1,
+    "sakya": 2,
+    "samani": 1,
+    "karahanli": 7,
+    "gazneli": 20,
+    "revvadi": 5,
+    "bavendi": 6,
+    "ziyari": 5,
+    "idil-bulgar": 3,
+    "gurlu": 11,
+    "annazi": 6,
+    "buveyhi": 6,
+    "kakuyi": 7,
+    "musafiri": 2,
+    "buyuk-selcuklu": 36,
+    "dogu-karahanli": 5,
+    "bati-karahanli": 10,
+    "kirman-selcuklu": 7,
+    "kipcak": 6,
+    "suriye-selcuklu": 4,
+    "alamut-nizari": 7,
+    "irak-selcuklu": 14,
+    "ahmedili": 7,
+    "karahitay": 8,
+    "badusbani": 3,
+    "ildenizli": 11,
+    "salgurlu": 8,
+    "harizmsah": 16,
+    "kunduz-hanligi": 1,
+    "kuca-hocalari": 1,
+    "osmanli": 15
+   },
+   "toplam_kunye_madde": 9469
+  }
+ }
+}

@@ -29,7 +29,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Özbek boylarının başındaki Muhammed Şeybânî Han, çökmekte olan Timurlu hâkimiyetindeki Mâverâünnehir'e girip Buhara'yı aldı; 905-913/1500-1507 arasında bölgenin hemen bütün şehirleri sırayla Şeybânî hâkimiyetine geçecekti. Bu, Timurlu-sonrası Orta Asya'da üç asır sürecek Özbek hanlıkları çağının başlangıcıdır.",
   kaynak:"TDV, madde: seybaniler" },
 
-{ t:"1501-01-01",
+{ taraflar:["buhara"], t:"1501-01-01",
   b:"Semerkant'ın fethi — Bâbür Mirza'nın kovulması",
   tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -37,7 +37,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Şeybânî Han, Timurlu hânedanının son direnişçilerinden Bâbür Mirza'yı (sonraki Babür İmparatorluğu'nun kurucusu) Semerkant'tan çıkardı; şehrin bu ikinci kaybı Bâbür'ü Kâbil ve ardından Hindistan'a yönelmeye itecek zincirin ilk halkasıydı.",
   kaynak:"TDV, madde: seybaniler" },
 
-{ t:"1507-01-01",
+{ taraflar:["buhara"], t:"1507-01-01",
   b:"Herat'ın fethi — Horasan Şeybânî hâkimiyetine girdi",
   tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -45,7 +45,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Şeybânî Han, son Timurlu hükümdarı Hüseyin Baykara'nın ölümünün ardından Herat'ı alarak Horasan'ı hâkimiyetine kattı; Timurlu devletinin son kalıntısı da böylece ortadan kalktı ve Şeybânî devleti Mâverâünnehir'den Horasan'a kadar uzanan bir güç hâline geldi.",
   kaynak:"TDV, madde: seybaniler" },
 
-{ t:"1510-12-02",
+{ taraflar:["buhara"], t:"1510-12-02",
   b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi ⭐ (dunya paylaşılan olay)",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","hukumdar","buhara","konu-askeri","konu-kisiler","konu-hanedan"],
@@ -53,7 +53,7 @@ window.KRONOLOJI_OZBEK = [
   d:"[Şeybânî/Buhara] Safevî Şahı İsmail, Şeybânî Han'ı Merv yakınında ağır bir yenilgiye uğratıp öldürdü; Horasan bir gecede Safevî'ye geçti. Bu, henüz on yıllık Şeybânî devleti için beklenmedik bir darbeydi ve ardından on yılı bulan bir hükümdar istikrarsızlığı dönemi getirdi.", ic_not_d:"`dunya` değeri kronoloji_iran.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: seybaniler + kronoloji_iran.js ile çapraz doğrulandı" },
 
-{ t:"1525-01-01",
+{ taraflar:["buhara"], t:"1525-01-01",
   b:"Ubeydullah Han Merv'i fethetti",
   tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -61,7 +61,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Kaşgar ve Buhara kolları arasındaki en yetenekli Şeybânî prenslerinden Ubeydullah, on beş yıl önce kaybedilen Merv'i Safevî'den geri aldı; bu, Şeybânîlerin Horasan'daki toparlanma sürecinin ilk somut adımıydı.",
   kaynak:"TDV, madde: seybaniler" },
 
-{ t:"1529-01-01",
+{ taraflar:["buhara"], t:"1529-01-01",
   b:"Ubeydullah Han Herat'ı fethetti",
   tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -69,7 +69,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ubeydullah, Merv'in ardından Herat'ı da kısa süreliğine Şeybânî hâkimiyetine kattı; şehir birkaç kez el değiştirecek olsa da bu, Horasan üzerindeki Özbek-Safevî rekabetinin süreceğinin habercisiydi.",
   kaynak:"TDV, madde: seybaniler" },
 
-{ t:"1533-01-01",
+{ taraflar:["buhara"], t:"1533-01-01",
   b:"Ubeydullah Han bütün Mâverâünnehir Şeybânîlerinin lideri oldu",
   tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-hanedan"],
@@ -77,7 +77,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebû Saîd Han'ın ölümü üzerine Ubeydullah, dağınık Şeybânî kollarını birleştirip Buhara'yı başkent yaptı; şehrin bilim ve kültür merkezi olarak yükselişi bu dönemde hızlandı — çok sayıda cami, medrese, kervansaray ve kanal inşa ettirdi.",
   kaynak:"TDV, madde: ubeydullah-han" },
 
-{ t:"1536-01-01",
+{ taraflar:["buhara"], t:"1536-01-01",
   b:"Mîr-i Arab Medresesi tamamlandı",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["mimari","din","buhara","imar","konu-din","konu-imar","konu-egitim"],
@@ -85,7 +85,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ubeydullah Han'ın mânevî hocası Şeyh Seyyid Abdullah el-Yemânî'nin ('Mîr-i Arab') adını taşıyan medrese, Ubeydullah'ın finansmanıyla tamamlandı; bugün de faal olan yapı, Buhara'nın Şeybânî dönemindeki en önemli dinî-ilmî kurumlarından biri oldu. İnşa tarihi kaynaklarda 1530-1536 arasında tartışmalıdır.",
   kaynak:"standart akademik kaynak (yapı tarihi literatürü) — TDV'de 'mir-i-arab' sluğu bu oturumda çekilemedi (302), madde 'ubeydullah-han' içinde dolaylı geçiyor" },
 
-{ t:"1538-01-01",
+{ taraflar:["buhara"], t:"1538-01-01",
   b:"Ubeydullah Han Harzem (Hîve) topraklarını işgal etti",
   tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hive","konu-askeri"],
@@ -93,7 +93,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ubeydullah, komşu Yadigâroğulları Hanlığı'nın (Hîve) topraklarına girip bölgeyi geçici olarak ele geçirdi; işgal kalıcı olmadı ve birkaç yıl içinde Hîve hanları bölgeyi geri aldı. Bu, iki Özbek hanlığı arasında üç asır sürecek rekabetin ilk büyük çatışmasıydı.",
   kaynak:"TDV, madde: ubeydullah-han" },
 
-{ t:"1539-01-01",
+{ taraflar:["buhara"], t:"1539-01-01",
   b:"Ubeydullah Han'ın ölümü",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","buhara","konu-kisiler","konu-hanedan"],
@@ -101,7 +101,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ubeydullah Han, kısa süre önce kaybettiği Harzem'in üzüntüsüyle Buhara'da öldü; kendisinden sonra Buhara'nın bilim ve kültür merkezi kimliği kalıcılaştı ama siyasi birlik zayıfladı.",
   kaynak:"TDV, madde: ubeydullah-han" },
 
-{ t:"1557-05-01",
+{ taraflar:["buhara"], t:"1557-05-01",
   b:"II. Abdullah Han Buhara'yı ele geçirip başkent yaptı",
   tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"ic",
   etiket:["askeri","siyaset","hukumdar","buhara","konu-askeri","konu-siyasi","konu-hanedan"],
@@ -109,7 +109,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Henüz babası İskender adına savaşan genç Abdullah, Buhara'yı ele geçirip fiilî iktidarı eline aldı. Bu zaferde, Cüybârî ailesinin başındaki Hâce Sa'd Cüybârî'nin arabuluculuğu belirleyici oldu — 16. yüzyıl Buhara siyasetinin en nüfuzlu dinî-sosyal ailesi olan Cüybârîler, hanlar ile rakip beyler arasında sürekli arabuluculuk yaparak devletin gerçek iktidar dengesinde yer aldı.",
   kaynak:"Encyclopaedia Iranica, madde: JUYBARIS + TDV, madde: abdullah-han" },
 
-{ t:"1561-05-01",
+{ taraflar:["buhara"], t:"1561-05-01",
   b:"İskender Han nominal Şeybânî tahtına çıkarıldı",
   tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-hanedan"],
@@ -117,7 +117,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdullah'ın babası İskender, oğlunun fiilî iktidarı altında nominal 'ulu han' ilan edildi; bu düzenleme, Abdullah'ın kendi resmî cülûsuna (1583) kadar sürecek yirmi iki yıllık bir 'perde arkası hükümdarlık' dönemi açtı.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1574-01-01",
+{ taraflar:["buhara"], t:"1574-01-01",
   b:"Belh'in fethi",
   tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -125,7 +125,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdullah, güneydeki Belh'i alarak Şeybânî topraklarını genişletti; şehir sonraki yüzyıllarda Buhara hanlığının güney sınır kalesi işlevini gördü.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1578-01-01",
+{ taraflar:["buhara"], t:"1578-01-01",
   b:"Semerkant'ın ele geçirilmesi",
   tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -133,7 +133,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdullah, iç rakip Şeybânî prenslerini bertaraf ederek Semerkant'ı da doğrudan hâkimiyetine kattı; Mâverâünnehir'in iki büyük şehri (Buhara-Semerkant) artık tek elde birleşmişti.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1582-01-01",
+{ taraflar:["buhara"], t:"1582-01-01",
   b:"Taşkent ve kuzey Seyhun bölgesinin fethi",
   tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","konu-askeri"],
@@ -141,7 +141,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdullah'ın orduları Taşkent ve Seyhun'un (Sirderya) kuzeyindeki bölgeyi ele geçirdi; hanlığın sınırları böylece bugünkü Özbekistan'ın çekirdeğini büyük ölçüde kapsar hâle geldi.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1583-06-22",
+{ taraflar:["buhara"], t:"1583-06-22",
   b:"II. Abdullah Han resmen tahta çıktı",
   tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-hanedan"],
@@ -149,7 +149,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Babası İskender'in ölümüyle Abdullah resmen Şeybânî tahtına çıktı; 1598'e kadar sürecek saltanatı, hanedanın en güçlü ve en geniş sınırlara ulaştığı dönem oldu. İdarî ve malî reformlar (para birimi düzenlemeleri dahil) yaptı, ticareti geliştirdi, köprü-çeşme-kervansaray inşasını destekledi.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1588-01-01",
+{ taraflar:["buhara"], t:"1588-01-01",
   b:"Taşkent isyanının bastırılması ve Herat'ın yeniden fethi",
   tur:"isyan", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","isyan","toprak-kazanc","buhara","konu-askeri","konu-isyan"],
@@ -157,7 +157,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdullah Han aynı yıl içinde hem Taşkent'teki bir ayaklanmayı bastırdı hem de güneyde Herat'ı yeniden ele geçirdi; hanlık bu yılda en geniş sınırlarına ulaştı.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1594-01-01",
+{ taraflar:["buhara"], t:"1594-01-01",
   b:"Osmanlı payitahtına elçi gönderilmesi",
   tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","diplomasi","osmanli-temasi","buhara","konu-siyasi","konu-diplomasi"],
@@ -165,7 +165,7 @@ window.KRONOLOJI_OZBEK = [
   d:"II. Abdullah Han, Safevî İran'ına karşı Osmanlı ile ortak doğu-batı cephesi arayışının bir parçası olarak İstanbul'a elçi gönderdi; iki Sünni gücün Şiî Safevî'ye karşı mektuplaşması, 16. yüzyıl boyunca aralıklarla süren bir diplomatik gelenekti.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1596-01-01",
+{ taraflar:["buhara"], t:"1596-01-01",
   b:"Harzem'in (Hîve) yeniden fethi",
   tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hive","konu-askeri"],
@@ -173,7 +173,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdullah Han, Hîve hanlarıyla süregelen rekabette Harzem'i bir kez daha ele geçirdi; ama bu da 1538'deki gibi kalıcı olmadı, bölge kısa süre içinde tekrar bağımsız Hîve hanlarının eline geçti.",
   kaynak:"TDV, madde: abdullah-han" },
 
-{ t:"1598-01-01",
+{ taraflar:["buhara"], t:"1598-01-01",
   b:"II. Abdullah Han'ın ölümü ve taht kavgaları",
   tur:"son", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -191,7 +191,7 @@ window.KRONOLOJI_OZBEK = [
 
 // ══════════════ BUHARA — CANOĞULLARI / ASTRAHANLI DÖNEMİ (1599-1785) ══════════════
 
-{ t:"1611-01-01",
+{ taraflar:["buhara"], t:"1611-01-01",
   b:"İmam Kulı Han döneminde hanlık zirveye ulaştı",
   tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","toprak-kazanc","buhara","konu-askeri","konu-siyasi","konu-hanedan"],
@@ -199,7 +199,7 @@ window.KRONOLOJI_OZBEK = [
   d:"İmam Kulı Han'ın otuz iki yıllık saltanatı (1611-1643) boyunca Canoğulları hanlığı Semerkant, Buhara, Fergana, Bedahşan ve Belh'i kapsayan geniş bir alanı denetledi; bu, Astrahanlı döneminin en istikrarlı evresiydi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1636-01-01",
+{ taraflar:["buhara"], t:"1636-01-01",
   b:"Şîrdâr Medresesi tamamlandı (Semerkant, Registan)",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["mimari","kultur","buhara","imar","konu-kultur","konu-imar","konu-egitim"],
@@ -207,7 +207,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Semerkant valisi Yalangtûş Bahadır'ın himayesinde, Uluğ Bey Medresesi'nin karşısına simetrik olarak inşa edilen Şîrdâr Medresesi tamamlandı; Registan Meydanı'nın üç yapılık ünlü kompozisyonunun ikinci parçasıydı.",
   kaynak:"standart akademik kaynak (mimarlık tarihi literatürü)" },
 
-{ t:"1660-01-01",
+{ taraflar:["buhara"], t:"1660-01-01",
   b:"Tillâkârî Medresesi tamamlandı — Registan üçlemesi tamam",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["mimari","kultur","buhara","imar","konu-kultur","konu-imar","konu-egitim"],
@@ -215,7 +215,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Yine Yalangtûş Bahadır'ın himayesinde inşa edilen, altın yaldızlı iç mekânıyla ünlü Tillâkârî Medresesi tamamlanarak Registan Meydanı'nın üç anıtsal yapısı (Uluğ Bey · Şîrdâr · Tillâkârî) bir araya geldi.",
   kaynak:"standart akademik kaynak (mimarlık tarihi literatürü)" },
 
-{ t:"1710-01-01",
+{ taraflar:["buhara"], t:"1710-01-01",
   b:"Hokand ayrılıp bağımsız hanlık kurdu",
   tur:"bolunme", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","toprak-kayip","buhara","hokand","konu-askeri","konu-siyasi"],
@@ -223,7 +223,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Fergana vadisindeki Ming boyundan Şahruh Bey, merkezi zayıflayan Canoğulları hanlığından ayrılıp Hokand'ı başkent yaparak bağımsız bir hanlık kurdu (bkz. ayrı madde). Bu, Mâverâünnehir'in artık üç rakip Özbek hanlığına (Buhara, Hîve, Hokand) bölündüğü çağın başlangıcıydı.",
   kaynak:"TDV, madde: hokand-hanligi" },
 
-{ t:"1740-01-01",
+{ taraflar:["buhara"], t:"1740-01-01",
   b:"Nâdir Şah'ın istilası — Buhara ve Hîve nominal vassal oldu",
   tur:"vassal", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","vassal","buhara","hive","konu-askeri","konu-siyasi"],
@@ -241,7 +241,7 @@ window.KRONOLOJI_OZBEK = [
 
 // ══════════════ BUHARA — MANGIT EMİRLİĞİ (1785-1920) ══════════════
 
-{ t:"1800-01-01",
+{ taraflar:["buhara"], t:"1800-01-01",
   b:"Şah Murad'ın ölümü, Emir Haydar'ın tahta çıkışı",
   tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -249,7 +249,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Mangıt hanedanının kurucusu Şah Murad'ın ölümüyle oğlu Emir Haydar tahta çıktı; yirmi altı yıl sürecek saltanatında emirlik nispeten istikrarlı kaldı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1826-01-01",
+{ taraflar:["buhara"], t:"1826-01-01",
   b:"Nasrullah Han'ın kanlı taht kavgasıyla iktidara gelişi",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-hanedan"],
@@ -257,7 +257,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Emir Haydar'ın ölümü üzerine oğlu Nasrullah Han, kardeşlerini bertaraf ederek tahta çıktı; acımasız yönetim tarzı ona 'Kasap' lakabını kazandırdı, otuz dört yıl sürecek saltanatı boyunca emirliği merkezîleştirdi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1842-06-24",
+{ taraflar:["buhara"], t:"1842-06-24",
   b:"Nasrullah Han, İngiliz subayları Stoddart ve Conolly'yi idam ettirdi",
   tur:"diger", onem:4, dunya:3, kapsam:"dis",
   etiket:["siyaset","diplomasi","buhara","konu-siyasi","konu-diplomasi"],
@@ -265,7 +265,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Birinci Afgan Savaşı'ndaki İngiliz bozgunundan cesaret alan Nasrullah Han, dört yıldır tutsak tuttuğu İngiliz subayları Charles Stoddart ve Arthur Conolly'yi casusluk suçlamasıyla Registan Meydanı'nda idam ettirdi. Olay, Britanya ile Rusya arasındaki Orta Asya nüfuz mücadelesini ('Büyük Oyun') derinden etkiledi ve Buhara'yı Avrupa kamuoyunda uzun süre 'vahşet' simgesi hâline getirdi.",
   kaynak:"standart akademik kaynak (Peter Hopkirk, 'The Great Game'; olayın tarihi çok sayıda bağımsız akademik kaynakta doğrulanmıştır)" },
 
-{ t:"1842-01-01",
+{ taraflar:["buhara"], t:"1842-01-01",
   b:"Nasrullah Han'ın Hokand'ı geçici olarak ilhakı",
   tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hokand","konu-askeri"],
@@ -273,7 +273,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Aynı yıl Nasrullah Han, komşu Hokand Hanlığı'nı istila edip hükümdarı Muhammed Ali Han'ı idam ettirdi ve hanlığı kısa süreliğine Buhara'ya bağladı; ancak Hokandlılar aynı yıl içinde ayaklanıp bağımsızlıklarını yeniden kazandı. Bu, üç Özbek hanlığı arasındaki rekabetin en şiddetli anlarından biriydi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1860-01-01",
+{ taraflar:["buhara"], t:"1860-01-01",
   b:"Nasrullah Han'ın ölümü, Muzafferüddin'in tahta çıkışı",
   tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -281,7 +281,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Nasrullah Han'ın ölümüyle oğlu Muzafferüddin tahta çıktı; saltanatı, Rus istilasının başlayıp emirliğin bağımsızlığını kaybettiği döneme denk geldi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1868-06-02",
+{ taraflar:["buhara"], t:"1868-06-02",
   b:"Buhara Emirliği Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","buhara","konu-askeri","konu-siyasi"],
@@ -289,7 +289,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Semerkant'ın Rus kuvvetlerince ele geçirilmesinin ardından Emir Muzafferüddin, Rusya'nın himayesini kabul eden bir antlaşma imzaladı; Buhara dış politikada Rusya'ya bağlı ama iç yönetiminde özerk bir vasal devlet olarak 1920'ye kadar varlığını sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: buhara-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
-{ t:"1885-01-01",
+{ taraflar:["buhara"], t:"1885-01-01",
   b:"Muzafferüddin'in ölümü, Abdülahad Han'ın tahta çıkışı",
   tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -297,7 +297,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Muzafferüddin'in ölümüyle oğlu Abdülahad Han tahta çıktı; Rus himayesi altındaki emirlik onun döneminde de idari özerkliğini korudu.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1900-01-01",
+{ taraflar:["buhara"], t:"1900-01-01",
   b:"Buhara'da ilk usûl-i cedîd okulları açıldı",
   tur:"diger", onem:3, dunya:2, kapsam:"dis",
   etiket:["egitim","sosyal","buhara","islahat","konu-egitim","konu-islahat","konu-sosyal"],
@@ -305,7 +305,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Kırımlı Gaspıralı İsmâil Bey'in 1883'te başlattığı ve Tercüman gazetesiyle yaydığı Cedîdcilik (usûl-i cedîd) eğitim reformu hareketi, 1893'teki Türkistan gezisinin ardından Buhara'ya da ulaştı; şehirde ilk modern okullar açıldı. Bu hareket, sonraki yirmi yılda Buhara'nın genç aydın kadrosunu (Buhara Cedîdcileri) doğuracaktı.",
   kaynak:"TDV, madde: cedidcilik" },
 
-{ t:"1910-01-01",
+{ taraflar:["buhara"], t:"1910-01-01",
   b:"Abdülahad Han'ın ölümü — son emir Alim Han tahta çıktı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","buhara","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -313,7 +313,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Abdülahad Han'ın ölümüyle oğlu Alim Han tahta çıktı; Buhara Emirliği'nin son hükümdarı olacaktı, 1920'de Kızıl Ordu'nun şehri almasıyla Afganistan'a kaçacaktı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1910-01-01",
+{ taraflar:["buhara"], t:"1910-01-01",
   b:"Buhara ulemasının Osmanlı'ya yardım çağrısı",
   tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["din","siyaset","diplomasi","osmanli-temasi","buhara","konu-siyasi","konu-diplomasi","konu-din"],
@@ -339,7 +339,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Şeybânî soyundan Arabşah'ın torunları İlbars ve Bilbars, Özbek-Türkmen kuvvetleriyle Harzem'i ele geçirip 'Yadigâroğulları' ya da 'Arabşahlılar' olarak anılan yeni bir Özbek hanlığı kurdu; başkent önce Köhne Ürgenç (Gürgenç) oldu.",
   kaynak:"TDV, madde: hive-hanligi" },
 
-{ t:"1603-01-01",
+{ taraflar:["hive"], t:"1603-01-01",
   b:"Başkentin Ürgenç'ten Hîve'ye taşınması",
   tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","sehircilik","hive","konu-idari","konu-hanedan","konu-imar"],
@@ -347,7 +347,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Arap Muhammed Han döneminde hanlığın başkenti Ürgenç'ten (Ceyhun'un yatak değiştirmesiyle giderek elverişsizleşen bir konumdan) güneydeki Hîve şehrine taşındı; hanlık bu tarihten sonra 'Hîve Hanlığı' adıyla anılır oldu. Ebulgazi Bahadır Han'ın kendi biyografisi, bu taşınmanın 1619'dan önce tamamlanmış olduğunu doğrular.",
   kaynak:"TDV, madde: hive-hanligi + TDV, madde: ebulgazi-bahadir-han (çapraz doğrulama)" },
 
-{ t:"1626-01-01",
+{ taraflar:["hive"], t:"1626-01-01",
   b:"Ebulgazi'nin iktidar mücadelesinde başarısızlığı",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hive","konu-siyasi"],
@@ -355,7 +355,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Genç şehzade Ebulgazi, kardeşiyle giriştiği iktidar mücadelesinde tutunamayıp Yesi'deki (Türkistan) Kazak hanı İşim Han'a sığındı; bu, onun yıllarca sürecek çalkantılı gençlik döneminin bir parçasıydı.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1629-01-01",
+{ taraflar:["hive"], t:"1629-01-01",
   b:"Ebulgazi başkent Hîve'yi geçici olarak ele geçirdi",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","askeri","hive","konu-askeri","konu-siyasi"],
@@ -363,7 +363,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi bir baskınla Hîve'yi ele geçirdiyse de kardeşi İsfendiyar Han kısa sürede şehri geri aldı; Ebulgazi bunun ardından on yıl sürecek bir İran esaretine düşecekti.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1639-01-01",
+{ taraflar:["hive"], t:"1639-01-01",
   b:"Ebulgazi'nin on yıllık İran esaretinden kaçışı",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hive","konu-siyasi"],
@@ -371,7 +371,7 @@ window.KRONOLOJI_OZBEK = [
   d:"On yıldır Safevî İran'ında tutsak tutulan Ebulgazi, kaçarak Harzem'e döndü; birkaç yıl içinde hanlığın en etkili hükümdarlarından biri olacaktı.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1642-01-01",
+{ taraflar:["hive"], t:"1642-01-01",
   b:"Ebulgazi Bahadır Han'ın Gürgenç'te han ilan edilmesi",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
@@ -379,7 +379,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Kardeşi İsfendiyar Han'ın aynı yıl ölümü üzerine Ebulgazi, Gürgenç'te han ilan edildi; yirmi bir yıl sürecek saltanatının başlangıcıydı.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1645-01-01",
+{ taraflar:["hive"], t:"1645-01-01",
   b:"Ebulgazi tüm Harzem'in hâkimi oldu",
   tur:"hukumdar", onem:5, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
@@ -387,7 +387,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, Hîve'ye girip bölgenin tamamını hâkimiyeti altına aldı; TDV'nin ifadesiyle hanlığı 'Orta Asya'nın en güçlü devletlerinden biri' hâline getirdiği dönem başladı.",
   kaynak:"TDV, madde: hive-hanligi" },
 
-{ t:"1648-01-01",
+{ taraflar:["hive"], t:"1648-01-01",
   b:"Ebulgazi'nin Türkmen ve Kalmuklara karşı seferleri (1648-1656)",
   tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","hive","konu-askeri"],
@@ -395,7 +395,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, saltanatı boyunca (1648, 1651, 1653, 1656) Türkmen boylarına karşı ve (1649, 1653, 1656) Kalmuk akınlarına karşı üst üste seferler düzenledi; hanlığın Harzem'deki otoritesini bu askerî üstünlükle pekiştirdi.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1655-01-01",
+{ taraflar:["hive"], t:"1655-01-01",
   b:"Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","hive","buhara","konu-askeri"],
@@ -403,7 +403,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, 1655 ve 1662'de komşu Buhara hanlığı topraklarına akınlar düzenledi; iki hanlık arasındaki sınır çatışmaları bu dönemde de sürdü.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1659-01-01",
+{ taraflar:["hive"], t:"1659-01-01",
   b:"Ebulgazi Bahadır Han'ın Şecere-i Terâkime'yi tamamlaması",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","kultur","hive","konu-kultur"],
@@ -411,7 +411,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Bizzat kalemiyle tarih yazan nadir Orta Asya hükümdarlarından Ebulgazi Bahadır Han, Türkmen boylarının soy kütüğünü ve tarihini anlatan Şecere-i Terâkime adlı eserini tamamladı; Çağatay Türkçesi tarih yazıcılığının en önemli örneklerinden biridir.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ t:"1663-01-01",
+{ taraflar:["hive"], t:"1663-01-01",
   b:"Ebulgazi Bahadır Han'ın ölümü",
   tur:"son", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hive","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -419,7 +419,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
   kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV bu oturumda doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
-{ t:"1825-01-01",
+{ taraflar:["hive"], t:"1825-01-01",
   b:"Allahkulı Han döneminde hanlığın parlak çağı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","hive","konu-idari","konu-hanedan","konu-kultur"],
@@ -427,7 +427,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Allahkulı Han'ın on yedi yıllık saltanatı (1825-1842), hanlığın imar ve ticaret bakımından en parlak dönemlerinden biri oldu; bu dönemin saray tarihçileri Munis ve devamcısı Âgehî, Ebulgazi'nin başlattığı tarih yazıcılığı geleneğini sürdürerek Firdevs-i İkbâl adlı vekayinâmeyi kaleme aldı.",
   kaynak:"standart akademik kaynak (Orta Asya tarihyazımı literatürü, Munis-Âgehî vekayinâmesi üzerine)" },
 
-{ t:"1855-01-01",
+{ taraflar:["hive"], t:"1855-01-01",
   b:"Serahs'ta Türkmenlere yenilgi, Muhammed Emin Han'ın ölümü",
   tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hive","konu-askeri","konu-kisiler"],
@@ -435,7 +435,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Hîve Hanı Muhammed Emin, Serahs yakınında Teke Türkmenlerine karşı giriştiği seferde ağır bir yenilgiye uğrayıp öldürüldü; bu yenilgi, hanlığın güneydoğu sınırındaki Türkmen boyları üzerindeki nüfuzunun kalıcı biçimde zayıflamasına yol açtı.",
   kaynak:"standart akademik kaynak (TDV 'ozbekler' maddesinde de bu olaya kısaca değiniliyor)" },
 
-{ t:"1864-01-01",
+{ taraflar:["hive"], t:"1864-01-01",
   b:"Seyyid Muhammed Rahim Bahadır Han'ın tahta çıkışı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
@@ -443,7 +443,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilasının arifesinde tahta çıkan Seyyid Muhammed Rahim Bahadır Han, hanlığın Rus himayesine girişine (1873) ve devamında kırk altı yıl sürecek saltanatına şahitlik etti.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1873-08-12",
+{ taraflar:["hive"], t:"1873-08-12",
   b:"Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
@@ -451,7 +451,7 @@ window.KRONOLOJI_OZBEK = [
   d:"General Kaufmann'ın seferi Hîve'yi 29 Mayıs 1873'te teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: hive-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
-{ t:"1873-01-01",
+{ taraflar:["hive"], t:"1873-01-01",
   b:"Osmanlı'nın Hîve'ye ittifak girişimi",
   tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["siyaset","diplomasi","osmanli-temasi","hive","konu-siyasi","konu-diplomasi"],
@@ -459,7 +459,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilası sırasında Osmanlı devleti, Müslüman dünyasının önderi sıfatıyla önce Kâbil'e, ardından Buhara ve Hîve'ye elçiler göndererek Rusya'ya karşı bir ittifak kurmaya çalıştı; girişim, Rus askeri üstünlüğü karşısında sonuçsuz kaldı.",
   kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
 
-{ t:"1920-02-02",
+{ taraflar:["hive"], t:"1920-02-02",
   b:"Son Han Seyyid Abdullah'ın tahttan çekilmesi",
   tur:"son", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","son","hive","konu-siyasi"],
@@ -485,7 +485,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Fergana vadisindeki yerel Ming boyu beyi Şahruh, Buhara'nın merkezi zayıflarken bağımsızlığını ilan edip Hokand'ı başkent yaptı; bu, üç Özbek hanlığından üçüncüsünün, Mâverâünnehir'in en doğu ucunda doğuşuydu.",
   kaynak:"TDV, madde: hokand-hanligi" },
 
-{ t:"1721-01-01",
+{ taraflar:["hokand"], t:"1721-01-01",
   b:"Şahruh Bey'in ölümü, Abdülkerim'in tahta çıkışı",
   tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hokand","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -493,7 +493,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Kurucu Şahruh Bey'in ölümüyle kardeşi Abdülkerim tahta çıktı; genç hanlık ilk hükümdar geçişini nispeten sorunsuz atlattı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1758-01-01",
+{ taraflar:["hokand"], t:"1758-01-01",
   b:"Erdene Bey döneminde sınırların genişlemesi",
   tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak-kazanc","hokand","konu-askeri"],
@@ -509,7 +509,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Âlim Han, Taşkent, Çimkent ve Sayram'ı fethederek Hokand'ı bölgenin en güçlü hanlığı hâline getirdi; Taşkent'in kazanılması hanlığa hem ticari hem stratejik büyük bir avantaj sağladı.",
   kaynak:"TDV, madde: hokand-hanligi" },
 
-{ t:"1812-01-01",
+{ taraflar:["hokand"], t:"1812-01-01",
   b:"Muhammed Ömer Han'ın Rusya ile diplomatik ilişki başlatması",
   tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["siyaset","diplomasi","hokand","konu-siyasi","konu-diplomasi"],
@@ -517,7 +517,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Âlim Han'ın halefi Muhammed Ömer Han, Rusya ile ilk resmî diplomatik temasları başlattı; ertesi yıl bir Rus heyeti Hokand'a geldi. Bu, hanlığın altmış yıl sonra tamamen Rusya'ya bağlanacağı sürecin ilk uzak habercisiydi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1822-01-01",
+{ taraflar:["hokand"], t:"1822-01-01",
   b:"Muhammed Ali Han'ın tahta çıkışı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hokand","konu-siyasi","konu-hanedan"],
@@ -525,7 +525,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Âlim Han'ın oğlu Muhammed Ali Han (Medeli Han) tahta çıktı; yirmi yıllık saltanatı hanlığın en geniş sınırlarına ulaştığı ama aynı zamanda Buhara ile yıkıcı bir savaşla sona ereceği dönem oldu.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1826-01-01",
+{ taraflar:["hokand"], t:"1826-01-01",
   b:"Doğu Türkistan'a askerî destek gönderilmesi",
   tur:"sefer", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","hokand","konu-askeri"],
@@ -533,7 +533,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Muhammed Ali Han, Doğu Türkistan'daki (Kaşgar bölgesi) Çin karşıtı ayaklanmalara askerî destek gönderip Gülbağ kalesini güvence altına aldı; Hokand'ın Çin sınırındaki nüfuzunu artırma girişimiydi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1831-01-01",
+{ taraflar:["hokand"], t:"1831-01-01",
   b:"Çin (Qing) ile antlaşma — Doğu Türkistan'dan çekiliş",
   tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","antlasma","hokand","konu-siyasi","konu-diplomasi"],
@@ -541,7 +541,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi.", ic_not_d:"(kronoloji_cin.js) · Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1840-01-01",
+{ taraflar:["hokand"], t:"1840-01-01",
   b:"Buhara'ya karşı yenilgi",
   tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","hokand","buhara","konu-askeri"],
@@ -549,7 +549,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Muhammed Ali Han, komşu Buhara Emirliği'ne karşı giriştiği çatışmada yenilgiye uğradı; bu, iki yıl sonra Buhara Emiri Nasrullah'ın Hokand'ı doğrudan istila etmesinin zeminini hazırladı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1842-06-01",
+{ taraflar:["hokand"], t:"1842-06-01",
   b:"Muhammed Ali Han'ın Buhara Emiri tarafından idamı",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","hukumdar","hokand","buhara","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -557,7 +557,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Buhara Emiri Nasrullah Han'ın istilası sırasında Muhammed Ali Han yakalanıp idam edildi; Hokand kısa süreliğine Buhara'ya bağlandıysa da aynı yıl içinde bir halk ayaklanmasıyla bağımsızlığını geri kazandı (bkz. Buhara dosyasındaki karşılık gelen madde).",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1864-01-01",
+{ taraflar:["hokand"], t:"1864-01-01",
   b:"Rus ilerleyişi — Evliyaata ve Çimkent'in kaybı",
   tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hokand","konu-askeri"],
@@ -565,7 +565,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus kuvvetleri Evliyaata ve Çimkent'i ele geçirerek Taşkent'e doğru son kuşatma hattını kurdu; hanlığın en değerli şehrinin düşmesine (1865) giden sürecin başlangıcıydı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ t:"1865-06-29",
+{ taraflar:["hokand"], t:"1865-06-29",
   b:"Taşkent'in fethi ⭐ (dunya paylaşılan olay)",
   tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hokand","konu-askeri"],
@@ -581,7 +581,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Taşkent'in kaybından sonra tahtta kalan Hudayâr Han, Rusya ile bir antlaşma imzalayıp daha fazla toprak kaybederek fiilen bir Rus vasalı konumuna düştü; hanlığın nominal bağımsızlığı sekiz yıl daha sürecekti.",
   kaynak:"TDV, madde: hokand-hanligi" },
 
-{ t:"1873-01-01",
+{ taraflar:["hokand"], t:"1873-01-01",
   b:"Hokand'da büyük halk ayaklanması başladı",
   tur:"isyan", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","isyan","hokand","konu-siyasi","konu-isyan"],

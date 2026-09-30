@@ -20,8 +20,22 @@ window.OLAYLAR_P0036 = [
   d:"Sudan'da Mehdî hareketinin yayılması sürerken, Nil kıyısındaki Berber kasabası ve çevresi Mayıs 1884'te Mehdî'ye bağlı kuvvetlerin eline geçti.", ic_not_d:"TDV'nin `mehdiler--sudan` maddesine göre bu, Nil boyunca kuzeye giden ana yolun kesilmesine yol açtı — Hartum'daki General Gordon'un kuzeyle bağlantısını koparan kritik bir dönüm noktasıydı. Berber o güne kadar Mısır (Kavalalı hânedanı) tâbiliğinde bir sancaktı; TDV yalnız ay veriyor, gün belirtmiyor.",
   kaynak:"mehdiler--sudan", duygu:["😔"] },
 
+// UYGULA-OLAYLAR-0930 · UYGULA-YERLESIM-0930 M-5608 B4: Doha + Katar dolgusu 1868'den s:katar — maddesizdi.
+{ t:"1868-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"], b:"Katar'da Âl-i Sânî öne çıktı — İngiliz müdahalesi ve Bahreyn'e vergi", gun:"1868 sonbaharı", yer:"Doha, Katar", yer_id:"Doha", kisiler:"Muhammed b. Sânî",
+  d:"Bahreyn Şeyhliği ile Suud Emirliği adına bölgede vergi tahsildarlığı yapan Âl-i Sânî 1860'lardan itibaren Katar siyasetinde belirleyici oldu. Necid'deki Suud ailesi ile Bahreyn'deki Halîfe ailesi içindeki çekişmeler Katar'ı İngilizler için önemli kılınca İngiltere 1868 sonbaharında Katar'a gemi gönderdi ve Muhammed b. Sânî'yi Bahreyn emîrlerine vergi ödemeye mecbur bıraktı. Bu müdahale, Bağdat valisi Midhat Paşa'nın 1871 Lahsâ seferine giden süreci başlattı.",
+  ic_not_t:"TDV katar: 'İngilizler … 1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar' — mevsim verir, ay/gün vermez ⇒ 1868-01-01 + kesinlik:yil (sonbahar metinde). ⚠️ TDV cümlesi Katar'ın BAHREYN nüfuzunda tutulduğunu söyler; yerleşim tarafının s:katar kararı bu cümleye değil Âl-i Sânî'nin 1860'lardaki yükselişine dayanıyorsa kimlik tartışması UYGULA-YERLESIM-0930'ındır.",
+  kaynak:"katar", duygu:["⚓"] },
+
 { t:"1913-07-29", k:"antlasma", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi","konu-diplomasi"], b:"Katar'dan Osmanlı feragati — Londra Sözleşmesi", gun:"29 Temmuz 1913", yer:"Londra, Katar (Doha)", yer_id:"Doha (Katar)", kisiler:"Şeyh Kāsım b. Sânî",
   d:"29 Temmuz 1913'te Londra'da imzalanan İngiliz-Osmanlı sözleşmesiyle Osmanlı Devleti, Katar yarımadası üzerindeki bütün taleplerinden feragat etti; yarımadanın Şeyh Kāsım b. Sânî ve haleflerince yönetilmesi kabul edildi.", ic_not_d:"TDV'nin `katar` maddesine göre sözleşme resmen yürürlüğe girmedi ama fiilî durumu tescil etti — Osmanlı garnizonunun bölgeden tam çekilişi I. Dünya Savaşı ile tamamlandı. Doha (Bida) kaydında bu tarih zaten bir `v:` döneminin bitişi olarak duruyordu; bu madde o kırılmanın kaynağını taşır.",
-  kaynak:"katar", duygu:["😔"] }
+  kaynak:"katar", duygu:["😔"] },
+
+// UYGULA-OLAYLAR-0930 (0081/H-0040): yukarıdaki başlık notunun "Gyula (Göle) 1566 için
+// TDV/akademik kaynak BULUNAMADI" hükmü AŞILDI — TDV `gyula`/`gole` slug'ları ölü (302) ama
+// olay YERİN değil KİŞİNİN maddesinde duruyor (CLAUDE.md §4, D217): TDV `pertev-pasa`.
+{ t:"1566-09-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Gyula (Göle) Kalesi'nin teslimi — Pertev Paşa'nın Tımışvar serhaddi seferi", gun:"15 Safer 974 (1 Eylül 1566)", yer:"Gyula (Göle), Tımışvar serhaddi", yer_id:"Gyula (Göle)", kisiler:"Pertev Paşa",
+  d:"Kanûnî Sultan Süleyman'ın Zigetvar seferi sırasında Pertev Paşa, Tımışvar vilâyeti sınırındaki kalelerden Göle'yi (Gyula) almak üzere serdar tayin edildi; Tımışvar beylerbeyi ile Belgrad sancakbeyinin bütün kuvvetleri emrine verildi. Mayıs 1566'da yeniçeri, silâhdar ve topçularla İstanbul'dan ayrılan Pertev Paşa, bir aydan uzun süren kuşatmanın ardından Göle'yi ve çevresindeki birkaç kaleyi 1 Eylül 1566'da ele geçirdi. Savaşta yararlılık gösterenlerin tımar ve zeametleri artırıldı.",
+  ic_not_t:"TDV pertev-pasa: '15 Safer 974'te (1 Eylül 1566) Göle ve civarındaki birkaç kaleyi bir aydan fazla süren kuşatmanın ardından ele geçirdi'. ⚠️ Harita kırılması Gyula d:1566-09-02 (yerlesimler_ek5.js, kaynaksız) — TDV günü 09-01; UYGULA-YERLESIM-0930'a bildirildi.",
+  kaynak:"pertev-pasa", duygu:["⚔️"] }
 
 ];

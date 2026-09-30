@@ -89,7 +89,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"1718-1730 arasındaki Lâle Devri boyunca Nedîm, ifade sadeliği ve nükteli üslûbuyla yeni bir şiir tarzı geliştirdi. Nevşehirli Damad İbrahim Paşa'nın çevresinde gelişen bu tarz, divan şiirinde \"yerlileşme\" akımının en büyük temsilcisi sayılır — soyut mazmunlar yerine İstanbul'un günlük hayatı ve eğlence kültürü şiire girdi.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
-    kesinlik:"kesin", olay:["1718-01-01","1718-05-09"],
+    kesinlik:"kesin", olay:["1718-01-01|Nedîm","1718-05-09"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nedîm\" (Muhsin Macit) — https://islamansiklopedisi.org.tr/nedim--divan-sairi" },
 
   { id:"nedim-olumu", tur:"edebiyat",

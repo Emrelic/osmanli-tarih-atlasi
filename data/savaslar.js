@@ -596,11 +596,17 @@ window.SEFERLER = [
 // püskürtülmesi haritada oklar ile animasyon olarak gösterilmeli".
 // Nâdir Şah Kerkük üzerinden Musul'a yürüdü, kırk gün kuşattı, Hâcı Hüseyin
 // Paşa'nın savunması karşısında kuşatmayı kaldırıp Kirmanşah'a çekildi.
-{ ad:"Nâdir Şah'ın Musul kuşatması (1743)", tur:"kusatma", sonuc:"zafer", taraf:"dusman", renk:"#0d7d8a",
-  f:"1743-09-14", t:"1743-10-23",
-  yol:[[47.07,34.31],[45.43,35.56],[44.39,35.47],[43.13,36.34]] },
-{ ad:"Nâdir Şah'ın Musul'dan çekilişi (1743)", tur:"cekilme", sonuc:"zafer", taraf:"dusman", renk:"#0d7d8a",
-  f:"1743-10-23", t:"1743-12-01",
+// UYGULA-KART-0930 (0064/H-0015 · H-0016): Musul'da İKİ ok vardı. Buradaki
+// "Nâdir Şah'ın Musul kuşatması (1743)" kaydı KALDIRILDI — kaynaksızdı ve
+// TDV'li ikizi seferler_p0064.js `p0064-nadir-musul-1743` (Kerkük→Erbil→Musul,
+// musul--irak + kerkuk TDV) aynı yürüyüşü çiziyor. Eski değer:
+//   f:"1743-09-14", t:"1743-10-23",
+//   yol:[[47.07,34.31],[45.43,35.56],[44.39,35.47],[43.13,36.34]]
+// Çekiliş oku KALDI (ikizi yok); f'si TDV'ye hizalandı: musul--irak "15 Şâban'da
+// (4 Ekim 1743) … ertesi gün kuşatmayı kaldırdı" ⇒ 1743-10-05 (eski 1743-10-23,
+// kaynaksız). ⚠️ Çekiliş güzergâhı ve t hâlâ KAYNAKSIZ.
+{ ad:"Nâdir Şah'ın Musul'dan çekilişi (1743)", tur:"cekilme", sonuc:"zafer", taraf:"dusman", devlet:"afsar", renk:"#0d7d8a",
+  f:"1743-10-05", t:"1743-12-01",
   yol:[[43.13,36.34],[44.39,35.47],[45.43,35.56],[47.07,34.31]] },
 // hatalar 2.docx madde 2 — kullanıcı: "Osmanlı memlük savaşı maddesinde oklar
 // ile haritada memlük ve osmanlı ordularının aksiyonunu gösterebiliriz".
@@ -838,10 +844,32 @@ window.SEFERLER = [
 // 🔴 Süveyş ara noktası ÇIKARILDI: okunan kaynakların hiçbiri 1811 seferi için Süveyş
 // adını vermiyor (Değirmenci 2016 yalnız 1813'te Mehmed Ali için "Süveyş yoluyla" der).
 // Koordinatlar: OpenStreetMap Nominatim (gazetteer).
+// 🔴 UYGULA-KART-0930 (0082/H-0071, AKDENIZ-ARAP-0082 ölçümü): ① Aynı sefer
+// seferler_ok103.js'te İKİNCİ kez çiziliyordu (f 1811-03-01 = Tosun'a verilen
+// davetin günü, sefer değil) — o kayıt kaldırıldı, sefer yalnız buradadır.
+// ② Kahire→Yenbu DÜZ hattı Sina'yı ve Kızıldeniz'i kuş uçuşu kesiyordu. Kaynak
+// (Burckhardt, Notes on the Bedouins and Wahábys, London 1831, II, s. 993-995 —
+// archive.org metni bu oturumda okundu) seferi İKİ KOLA ayırıyor: süvari Tosun'la
+// KARADAN hac yolu kaleleri üzerinden, piyade Süveyş'ten GEMİYLE. Bu kayıt artık
+// süvari kolunu (Tosun'un kendi yolu) ve devamını çizer; deniz kolu aşağıdaki
+// ayrı kayıttır. Eski yol: [[31.236,30.044],[38.069,24.089],[39.611,24.471],[39.827,21.421]]
+// Yeni istasyonlar Burckhardt'ın saydığı kaleler: "Adjeroud, Nakhel, Akaba,
+// Moeyleh, and el Wodj" — koordinatlar OpenStreetMap Nominatim (Acrûd kalesi
+// arkeolojik alan kaydı; öbürleri yerleşim kaydı).
+// ⚠️ Yukarıdaki "Süveyş kaynakta yok" notu artık eskidir: Burckhardt piyadenin
+// "embarked at Suez for Yembo" dediğini yazar.
 { id:"a4-tosun-hicaz-1811", ad:"Tosun Paşa'nın Hicaz seferi (1811-13)", tur:"sefer", sonuc:"zafer", f:"1811-09-01", t:"1813-01-23",
-  tarih_hassasiyet:"f: AY (Eylül 1811) · t: GÜN",
-  kaynak:"Kevser Değirmenci, \"Vehhabi İsyanının Bastırılmasında ve Sonrasında Mekke Muhafızı Hasan Paşa'nın Faaliyetleri\", Sosyal Bilimler Dergisi 49 (Temmuz 2016): \"oğlu Tosun Paşa'nın kumandasında … 3.500 kişilik bir kuvveti, Eylül 1811'de Hicaz'a hareket ettirdi (Jorga, 2009: 201)\" · yenbu (TDV): \"Tosun ve İbrâhim paşaların öncülüğünde Yenbu' tekrar Osmanlı egemenliğine sokuldu (1811)\" · medine (TDV): \"iki hafta kadar süren bir kuşatmanın ardından 3 Aralık 1812'de Medine geri alındı\" · mekke (TDV): \"Mekke'ye yönelerek … şehre girdi (23 Ocak 1813)\"",
-  yol:[[31.236,30.044],[38.069,24.089],[39.611,24.471],[39.827,21.421]] },
+  tarih_hassasiyet:"f: AY (Eylül 1811) · t: GÜN · Yenbu'ya varış: süvari filodan 'a fortnight afterwards' (Burckhardt) — gün yok",
+  kaynak:"Kevser Değirmenci, \"Vehhabi İsyanının Bastırılmasında ve Sonrasında Mekke Muhafızı Hasan Paşa'nın Faaliyetleri\", Sosyal Bilimler Dergisi 49 (Temmuz 2016): \"oğlu Tosun Paşa'nın kumandasında … 3.500 kişilik bir kuvveti, Eylül 1811'de Hicaz'a hareket ettirdi (Jorga, 2009: 201)\" · yenbu (TDV): \"Tosun ve İbrâhim paşaların öncülüğünde Yenbu' tekrar Osmanlı egemenliğine sokuldu (1811)\" · medine (TDV): \"iki hafta kadar süren bir kuşatmanın ardından 3 Aralık 1812'de Medine geri alındı\" · mekke (TDV): \"Mekke'ye yönelerek … şehre girdi (23 Ocak 1813)\" · J. L. Burckhardt, Notes on the Bedouins and Wahábys II (London 1831), s. 993-995: \"ready for departure at the end of August, 1811\" · \"The cavalry, with Tousoun Bey and Ahmed Bonaparte … proceeded by land\" · \"In October 1811, the fleet arrived near Yembo … A fortnight afterwards, the cavalry arrived by land\" · s. ~990: \"The castles on the hadj road, between Cairo and Yembo, (Adjeroud, Nakhel, Akaba, Moeyleh, and el Wodj,)\"",
+  yol:[[31.236,30.044],[32.395,30.070],[33.746,29.911],[35.008,29.527],[35.476,27.682],[36.453,26.244],[38.069,24.089],[39.611,24.471],[39.827,21.421]] },
+// UYGULA-KART-0930 (0082/H-0071): seferin DENİZ kolu — piyade Süveyş'ten gemiyle
+// Yenbu'ya. `rota` yalnız deniz geometrisidir (Süveyş Körfezi ekseni + Kızıldeniz);
+// ne_10m_land'e karşı ölçüldü: karada 5,5 km, hepsi iki liman ucunda (düz hat 406 km).
+{ id:"a4-tosun-piyade-deniz-1811", ad:"Hicaz seferinin piyade kolu: Süveyş'ten Yenbu'ya deniz yolu (1811)", tur:"deniz", sonuc:"zafer", f:"1811-09-01", t:"1811-10-01",
+  tarih_hassasiyet:"f: AY (Eylül 1811 — Değirmenci 2016 hareket ayı; Burckhardt 'end of August' hazırlık) · t: AY (Ekim 1811 — filonun Yenbu önüne varışı; gün kaynakta YOK, ayın 1'ine kodlandı)",
+  kaynak:"J. L. Burckhardt, Notes on the Bedouins and Wahábys II (London 1831), s. 994-995: \"The infantry, composed principally of Arnaut soldiers amounting to fifteen hundred or two thousand effective men, under Saleh Aga and Omar Aga, embarked at Suez for Yembo\" · \"In October 1811, the fleet arrived near Yembo, the troops landed at a short distance from the town, of which they took possession, after a feeble resistance of two days, by capitulation\" · yenbu (TDV): Yenbu 1811'de yeniden Osmanlı egemenliğine sokuldu",
+  rota:[[32.537,29.974],[32.56,29.9],[32.6,29.7],[32.72,29.45],[32.95,29.05],[33.35,28.3],[34.2,27.6],[35.3,26.5],[36.5,25.2],[37.3,24.4],[37.9,24.0],[38.069,24.089]],
+  yol:[[32.537,29.974],[38.069,24.089]] },
 // PAKET-A4 — parti-emrelic-0035/H-0093 (Emre: "napolyonun akka harekatı ile ilgili
 // harekat okları konulabilir"). İki ok: yürüyüş (Osmanlı açısından yenilgi — Arîş,
 // Gazze, Yafa, Hayfa düştü) ve Akkâ'dan çekiliş (Osmanlı açısından zafer).
@@ -894,7 +922,13 @@ window.SEFERLER = [
 { id:"a4-alemdar-istanbul-1808", ad:"Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü (1808)", tur:"sefer", sonuc:"belirsiz", renk:"#6b2d8a",
   f:"1808-01-01", t:"1808-07-19", tarih_hassasiyet:"f: YIL (Rusçuk'tan çıkış günü bulunamadı) · t: GÜN",
   kaynak:"alemdar-mustafa-pasa (TDV): \"mütareke sebebiyle ordu ile birlikte Edirne'de bulunan Sadrazam Çelebi Mustafa Paşa'yı … elde etmeyi başaran Alemdar\" · \"sadrazamın maiyetinde Edirne'den yola çıkıldı. İstanbul'da Dâvud Paşa sahrasına varıldığında ordu ve sancak-ı şerif bizzat IV. Mustafa tarafından karşılandı (19 Temmuz 1808)\" · mustafa-iv (TDV): \"Alemdar'ın orduyla birlikte İstanbul'a gelmesi üzerine (25 Cemâziyelevvel 1223 / 19 Temmuz 1808)\" · Rusçuk başlangıcı: TDV \"Rusçuk âyanı\"; Silvart Malhasyan & Aysel Yıldız, Cihannüma III/1 (2017): \"Mustafa Paşa Rusçuk'tan ayrıldıktan sonra\"",
-  yol:[[25.954,43.848],[26.559,41.676],[28.891,41.026]] },
+  // UYGULA-KART-0930 (0082/H-0066): Edirne→İstanbul ayağı seferler_ok103.js'teki
+  // TDV'li "Alemdar Mustafa Paşa'nın İstanbul'a yürüyüşü (1808)" okuyla (7 istasyon,
+  // f 1808-07-01) AYNI yolu ikinci kez çiziyordu ⇒ iki ok. Bu kayıt artık yalnız
+  // Rusçuk→Edirne ayağını çizer; iki ok Edirne'de birleşir. Eski yol:
+  //   [[25.954,43.848],[26.559,41.676],[28.891,41.026]]
+  // f/t'ye dokunulmadı (Rusçuk çıkışı ve Edirne'ye varış günü kaynakta yok).
+  yol:[[25.954,43.848],[26.559,41.676]] },
 // PAKET-A4 — parti-emrelic-0035/H-0081 (Emre: "çeşme baskını konusunda … ne rus
 // filosunun geçip geldiği kesik kesik çizgiler var"). tur:"deniz" = kesikli çizgi.
 // İSTASYONLAR (adı kaynakta geçenler): Baltık (TDV küçük-kaynarca) · Akdeniz ·
@@ -956,6 +990,16 @@ window.SEFERLER = [
 // Tarihler GREGORYEN. Rus kaynaklarının (ESBE, Kashirin, Babilunga, BSE) Jülyen günleri çevrildi
 //   (18. yy +11 · 19. yy +12 gün) — çevirme PAKET-RUS'undur (D110 takvim tuzağı). Rapor: denetim/PAKET-RUS-0913.md
 // Yazılmayanlar (başlangıç noktası kaynakta ADSIZ): 1737 Özi (A6B TASLAK) · 1828 Prut geçişi · 1853 Prut geçişi.
+// UYGULA-KART-0930 (0054/H-0011): II. Azak seferi oku yoktu (grep 0). Güzergâh
+// Voronej tersanesinden Don aşağı Azak'a; Çerkassk ara noktası Don üzerindedir
+// (nehir geometrisi) — orada uğrak iddiası TKKIRIM raporundaki RGAVMF alıntısına
+// dayanır (denetim/TKKIRIM-P0054-H0011-H0021-0916.md §②), bu oturumda o kaynak
+// DOĞRULANAMADI. Koordinatlar OpenStreetMap Nominatim (Voronej · Starocherkasskaya ·
+// Azov); atlas noktası kullanılmadı. Takvim: ESBE günleri Jülyen, ÇEVRİLMEDİ (VERI-YAPISI).
+{ id:"rus-azak-1696", ad:"I. Petro'nun II. Azak seferi — Voronej'den Don aşağı (1696)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
+  f:"1696-05-01", t:"1696-07-19", tarih_hassasiyet:"f: AY (ESBE 'В мае флот двинулся к Азову' — gün yok, ayın 1'ine kodlandı) · t: GÜN — kronoloji maddesinin günü (olaylar_ek3.js 1696-07-19 'Azak Kalesi'nin kaybı'); ESBE teslimi 18 Temmuz (Jülyen) verir, TDV azak '6 Ağustos 1696' — takvim varyantı, ÇEVRİLMEDİ",
+  kaynak:"ЭСБЕ, «Турецкие войны России» (т. XXXIV, 1901): \"началась постройка судов в Москве, Воронеже, Козлове, Добром, Сокольске. К апрелю — были спущены в воду 2 корабля, 23 галеры и 4 брандера. В мае флот двинулся к Азову. В устье Дона он загородил дорогу Т. кораблям\" · \"16 июня началась осада и Азова\" · \"18 июля 1696 г. турки сдали Азов\" · azak (TDV, Mustafa L. Bilge): \"I. Petro Don nehrinde bir donanma oluşturdu ve Azak Kalesi’ni karadan ve denizden 31.000 asker ve 170 topla muhasara ederek teslim aldı (6 Ağustos 1696)\"",
+  yol:[[39.2005,51.6605],[40.0388,47.2484],[39.4259,47.1139]] },
 { id:"rus-prut-1711", ad:"I. Petro'nun Prut seferi — Rus ordusunun Stănilești'ye inişi (1711)", tur:"sefer", sonuc:"zafer", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1711-07-05", t:"1711-07-20", tarih_hassasiyet:"f: GÜN (ordunun Prut kıyısında Zagarancea'ya varışı, 24 Haziran Jülyen) · t: GÜN (kolorduların Stănilești'de birleşmesi, 9 Temmuz Jülyen)",
   kaynak:"ЭСБЕ, «Прутский поход Петра Великого в 1711 г.»: \"войска были двинуты вперед и 24 июня прибыли к Загаранче, на берегу Прута, а затем спустились левым берегом реки до Чечоры, где соединились с отрядом Шереметева\" · \"Петр, между тем, съездил в Яссы\" · \"Петр перевел свои войска на правый берег Прута\" · \"9 июля, ранним утром, все корпуса наши соединились у деревни Станилешти\" · baltaci-mehmed-pasa (TDV): \"18 Temmuz 1711 günü Prut nehri bataklıkları civarında Rus kuvvetleriyle karşılaştı\" — ÇELİŞKİ: bogdan (TDV) çevrilme gününü \"11 Temmuz 1711\" veriyor",
@@ -963,7 +1007,10 @@ window.SEFERLER = [
 { id:"rus-munih-hotin-yas-1739", ad:"Münnich'in Hotin ve Yaş harekâtı (1739)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1739-08-28", t:"1739-09-12", tarih_hassasiyet:"f: GÜN (Stavuçani muharebesi, 17 Ağustos Jülyen) · t: GÜN (Yaş'a giriş, 1 Eylül Jülyen)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (т. XXXIV, 1901, с. 122—159): \"у мст. Ставучан, возле Хотина, 17 августа русское войско встретилось с Т. 90-тысячным отрядом\" · \"Вслед за ставучанской битвой пал и Хотин, а 1 сентября русские войска вступили в Яссы\" · ЭСБЕ, «Ставчаны» (XXXI, 396): \"Следствием победы при С. было овладение крепостью Хотином, сдавшейся через два дня после сражения\" · hotin (TDV): \"kale 1739'da Mareşal Münnich idaresindeki Rus ordusunun eline geçti\" — ÇELİŞKİ ESBE içinde: muharebe «Турецкие войны»da bir yerde 17, bir yerde 27 Ağustos; «Ставчаны»da 28 Ağustos (17 J = 28 G ile uyumlu)",
-  yol:[[25.683,48.508],[26.486,48.507],[27.584,47.162]] },
+  // UYGULA-KART-0930 (0064/H-0006): ilk nokta [25.683,48.508] Hotin'e 59 km uzak YANLIŞ bir
+  // Stavçani idi; muharebe köyü Ставчани (Çernivtsi, Dnistrovskyi r.) 48.38861K 26.40639D
+  // (uk.wikipedia, köy maddesi; muharebe orada anılıyor) — Hotin'in ~14 km güneybatısı.
+  yol:[[26.406,48.389],[26.486,48.507],[27.584,47.162]] },
 { id:"rus-golitsin-hotin-1769", ad:"Golitsın'ın Hotin seferi — Podolya'dan Dinyester'e (1769)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1769-04-25", t:"1769-09-19", tarih_hassasiyet:"f: GÜN (harekât başı, 14 Nisan Jülyen) · t: GÜN (Hotin'in terki, 8/9 Eylül Jülyen gecesi)",
   kaynak:"Kashirin V. B., «Днестровский поход генерала князя А. М. Голицына в 1769 г.», Славяноведение 2024/1, с. 5-30 (DOI 10.31857/S0869544X24010012): \"главные силы 1-й армии А. М. Голицына сосредотачивались в лагере у деревень Минковцы и Антоновка в 40 км к северо-востоку от Каменца-Подольского\" · \"В ночь с 8 на 9 сентября 1769 г. турки оставили Хотин без боя\" · ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"15 апреля он перешел Днестр, но перед движением в Яссы попытался овладеть Хотиным\" · \"9 сентября Хотин был занят русскими войсками\" — PAKET-A6B SEF-HOT-1769 önerisi; Kalus köprüsünün koordinatı bulunamadı, yola konmadı",

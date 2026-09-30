@@ -149,7 +149,7 @@ window.YERLESIMLER_EK = [
        {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
        {f:"1409-01-01",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
-       {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+       {f:"1918-11-11",t:"1920-11-12",d:"yugoslavya"},{f:"1920-11-12",t:"1923-10-29",d:"italya",kaynak:"Rapallo Antlaşması md. 2 — 'Zara and the territory referred to below shall be recognised as forming part of the Kingdom of Italy' (imza 12 Kasım 1920; LNTS c.18 s.397-403, metin: forost.ungarisches-institut.de/pdf/19201112-1.pdf) · LZMK 'zadar': 'Rapallskim ugovorom 1920. bio je … pripojen Italiji kao enklava' · 1918-11 → 1920-11-12 İtalyan işgalinin günü BULUNAMADI, o pencere yugoslavya olarak KALDI (AVRUPA-SINIR-0077)"}] },
 // Şibenik: teslim sözleşmesi 30 Ekim 1412; Venedik 1412-1797.
 { ad:"Şibenik (Sebenico)", tur:"liman", lat:43.734, lon:15.894, g:0, k:3,kd:[{f:"1412-10-30",t:"1797-10-17",k:2,m:null}], d:[],
     s:[{f:"1281-01-01",t:"1412-10-30",d:"macaristan"},

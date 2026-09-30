@@ -1,0 +1,743 @@
+{
+  "_meta": {
+    "oturum": "ONCE1281-DOGU-ASYA",
+    "tarih": "2026-09-30",
+    "kusak": "1000-01-01 → 1281-01-01",
+    "bolge": "Çin · Kore · Japonya · Tibet (Guge/Sakya) · Güneydoğu Asya (anakara + adalar)",
+    "olcum": "data/devletler.js 721 künye tarandı (id + ad, node ile yüklendi). bolge dogu-asya|guneydogu-asya 93 künye; bunların 1000-1281 arasında GERÇEKTEN yaşayanı 13 (f parseInt ile kıyaslandı, dizgi kıyası YOK — '849' < '1000' tuzağı). 17 künye f:'1281-01-01' taşıyor = motor penceresinin alt ucu (ölçüm değil sınır işareti).",
+    "kaynak_durumu": "TDV bu coğrafyada birincil OLAMAZ ve ölçüldü: cin--ulke 200 (Song/Yuan yalnız yıl aralığı) · japonya 200 (Heian 794-1185, 1016, 1192, 1221, 1232, 1274 — KULLANILDI) · kore-cumhuriyeti 200 (Koryo 936-1392, 1231) · karahitaylar 200 (Hıtay/Liao 916 — KULLANILDI) · kambocya 200 (Kimer IX-XV. yy, 1432) · tibet 200 (yüzyıl düzeyi) · myanmar 200 (1057, 1287) · tayland 200 (1238, 1275-1317) · endonezya 200 · filipinler 200 · malezya 200 · kore/vietnam/laos/hitay/tangutlar/kubilay/kuzey-kore 302 (ÖLÜ slug) · kitanlar/kara-hitaylar/mogollar/cin 503 (hız sınırı — ölü DEĞİL, açılamadı). Britannica WebFetch + curl: 403 (açılamadı). ⇒ Akademik eserler ADIYLA verildi; kitap sayfaları bu oturumda AÇILMADI — 'kaynak' alanı eser+yazar+yıl verir, sayfa vermez (KRONO-ASYA-UZAK-0929 deseni).",
+    "pencere_isareti": "f:'1000-01-01' yazılan iki kayıt (guge, hariphunchai) KURULUŞ YILI DEĞİLDİR: kaynaklar kuruluşa yıl vermiyor, kuşağın alt ucu pencere işareti olarak kondu (CLAUDE.md §4: pencere uçları ölçüm değeri değil sınır işaretidir). ic_not_f'de beyanlı.",
+    "boya": "harita:null + boya_gerekli:true = renkler.py BOYALAR'da anahtar YOK (grep ile ölçüldü). Var olanlar: pagan · singhasari · tran-hanedani · sukhothai · sunda-pajajaran · kamakura · poni · goryeo · lan-na · campa · angkor-kmer · filipin-racaliklari · ternate-sultanligi · yuan-hanedani. YOK: song · jin-hanedani (dokunmadim kayıtlarında da boya_gerekli beyan edildi).",
+    "sayilar": {
+      "yeni": 16,
+      "genislet": 3,
+      "dokunmadim": 30
+    },
+    "bulunamadi": "Künye ÖNERİLMEDİ (kaynaklı yıl ya da kimlik kurulamadı): Janggala (1042-~1135, Kediri'ye katıldı) · Tambralinga / Ligor (bitiş yılı yok) · Lavo (Kmer'e bağlı, bağımsızlık dönemi ölçülemedi) · Thaton Mon krallığı (Aung-Thwin 2005 varlığını tartışmalı sayar) · Tsongkha (Gusiluo, Qinghai ~1008-1104 — yıllar doğrulanamadı) · Phayao · Muang Sua (Lan Xang öncesi) · Tamna (Jeju) · Doğu Liao (1213-1269, Moğol tâbisi) · Orta Tibet 1000-1264 (TEK devlet yok, 'parçalanma dönemi' — künye AÇILMADI, __BOSLUK__ da DEĞİL: 1281 öncesi henüz boyanmıyor; pencere açılınca Değişmez 1 ölçerek karar verilecek — M-5577 (c)) · Doğu Cava 1016-1019 arası (Pralaya sonrası, künyesiz).",
+    "yerlesim_onerisi": [
+      "Sakya (Orta Tibet) yerleşimleri 1271-1354 arası Yuan'a tâbi: `v:` alanı yuan-hanedani (data/yerlesimler*.js — bu oturumun dosyası DEĞİL, koordinatör ilgili dalgaya verir; M-5577 (d)). Kaynak: Petech 1990."
+    ],
+    "hukum": "M-5577 (30 Eylül 2026) uygulandı: (a) srivijaya eşik beyanı · (b) ternate genişletmesi REDDEDİLDİ → dokunmadim · (c) Orta Tibet künyesiz, _meta.bulunamadi · (d) sakya tabi → _meta.yerlesim_onerisi"
+  },
+  "kayitlar": [
+    {
+      "islem": "yeni",
+      "id": "liao-hanedani",
+      "ad": "Liao Hanedanı (Kitan / Hıtay)",
+      "tur": "hanedanlik",
+      "bolge": "dogu-asya",
+      "f": "916-01-01",
+      "t": "1125-01-01",
+      "baskent": "Shangjing (Linhuang) · beş başkent sistemi (Nanjing = Pekin dahil)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Moğolistan'ın doğusu, Mançurya ve Kuzey Çin'in 'On Altı Vilayet'ine hâkim olan Kitan (Hıtay) devleti; Song'dan haraç aldı, Jurchen Jin'e yenilerek yıkıldı, kalıntısı batıda Karahıtay Devleti'ni kurdu.",
+      "kaynak": "TDV: karahitaylar (KARAHITAYLAR) — kuruluş cümlesi · Denis Twitchett & Klaus-Peter Tietze, 'The Liao', The Cambridge History of China Vol. 6 (Cambridge UP, 1994). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "TDV karahitaylar, birebir: 'Yeh-lü A-pao-chi (Apaoki) adlı Hıtay reisi, kavminin bütün boylarını itaat altına alarak Moğolistan’ın büyük bir kısmına hâkim oldu ve 916 yılında kendini hükümdar ilân etti.' Gün yok → 916-01-01. 'Liao' hanedan adı sonradan (TDV: Te Kuang 926-947 döneminde) alındı; künye kimliği 916'dan başlar.",
+      "ic_not_t": "1125 = son imparator Tianzuo'nun Jin'e esir düşmesi (CHC6). Gün kaynaktan alınmadı → 1125-01-01. Jin (1115) ile 1115-1125 arası ÖRTÜŞME gerçektir (iki devlet savaş hâlinde bir arada).",
+      "kronoloji": [
+        {
+          "t": "916-01-01",
+          "tur": "kurulus",
+          "b": "Hıtay reisi Apaoki (Yelü Abaoji) kendini hükümdar ilan etti",
+          "kaynak": "TDV: karahitaylar"
+        },
+        {
+          "t": "1005-01-01",
+          "tur": "antlasma",
+          "b": "Chanyuan Antlaşması: Song, Liao'ya yıllık gümüş ve ipek ödemeyi kabul etti",
+          "kaynak": "CHC6 (Twitchett & Tietze 1994)"
+        },
+        {
+          "t": "1125-01-01",
+          "tur": "son",
+          "b": "Son Liao imparatoru Tianzuo Jin'e esir düştü, hanedan yıkıldı",
+          "kaynak": "CHC6 (Twitchett & Tietze 1994)"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "bati-xia",
+      "ad": "Batı Xia (Tangut) Devleti",
+      "tur": "imparatorluk",
+      "bolge": "dogu-asya",
+      "f": "1038-01-01",
+      "t": "1227-01-01",
+      "baskent": "Xingqing (Zhongxing; bugün Yinchuan)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Hexi koridoru ve Ordos'ta Tangutların kurduğu, kendi yazısını geliştiren devlet; Song, Liao ve Jin arasında denge kurdu, Cengiz Han'ın son seferinde yıkıldı.",
+      "kaynak": "Ruth Dunnell, 'The Hsi Hsia', The Cambridge History of China Vol. 6 (Cambridge UP, 1994) · Ruth Dunnell, The Great State of White and High (Hawaii UP, 1996). Sayfa verilmedi (bu oturumda açılmadı). TDV: tangutlar 302 (ölü slug).",
+      "ic_not_f": "1038 = Li Yuanhao'nun kendini imparator ilan etmesi (Dunnell). Ay takvimi gününün Gregoryen karşılığı kaynaktan alınmadı → 1038-01-01. Tangut beyliği Song'a bağlı vali olarak 982'den beri fiilen vardı — künye imparatorluk ilanından başlar.",
+      "ic_not_t": "1227 = başkentin Moğollara teslimi, son hükümdarın öldürülmesi (Cengiz'in ölümüyle aynı yaz). Gün → 1227-01-01.",
+      "kronoloji": [
+        {
+          "t": "1038-01-01",
+          "tur": "kurulus",
+          "b": "Li Yuanhao kendini imparator ilan etti, Büyük Xia devleti kuruldu",
+          "kaynak": "Dunnell, CHC6 1994"
+        },
+        {
+          "t": "1044-01-01",
+          "tur": "antlasma",
+          "b": "Qingli barışı: Song, Xia'ya yıllık hediye ödemeyi kabul etti",
+          "kaynak": "Dunnell, CHC6 1994"
+        },
+        {
+          "t": "1227-01-01",
+          "tur": "son",
+          "b": "Moğollar Zhongxing'i aldı, Batı Xia yıkıldı",
+          "kaynak": "Dunnell, CHC6 1994"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "dali-kralligi",
+      "ad": "Dali Krallığı (Yunnan)",
+      "tur": "krallik",
+      "bolge": "dogu-asya",
+      "f": "937-01-01",
+      "t": "1253-01-01",
+      "baskent": "Dali (Yangjümie)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Nanzhao'nun ardılı olarak Yunnan'da Duan ailesinin kurduğu Budist krallık; Song'la haraç ilişkisi sürdürdü, Kubilay'ın 1253 seferiyle Moğol idaresine girdi, Duan ailesi Yuan altında yerel yönetici olarak kaldı.",
+      "kaynak": "Bin Yang, Between Winds and Clouds: The Making of Yunnan (Columbia UP, 2009) · Charles Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (Cambridge UP, 1981). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "937 = Duan Siping'in tahta çıkışı (Yang 2009). Gün yok.",
+      "ic_not_t": "1253 = Kubilay'ın Dali şehrine girişi (sefer 1253 sonbaharı-kışı; bazı eserlerde başkentin alınışı Ocak 1254'e düşer — ay takvimi farkı, ölçülemedi). Duan ailesi 1382'ye kadar Yuan'ın yerel yöneticisi olarak sürdü: künye bağımsız krallığın ömrüdür.",
+      "kronoloji": [
+        {
+          "t": "937-01-01",
+          "tur": "kurulus",
+          "b": "Duan Siping Dali Krallığı'nı kurdu",
+          "kaynak": "Yang 2009"
+        },
+        {
+          "t": "1253-01-01",
+          "tur": "son",
+          "b": "Kubilay Han Dali'yi aldı, krallık Moğol idaresine girdi",
+          "kaynak": "Yang 2009 · CHC6"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "dongxia",
+      "ad": "Doğu Xia (Dongxia / Dazhen) Devleti",
+      "tur": "devlet",
+      "bolge": "dogu-asya",
+      "f": "1215-01-01",
+      "t": "1233-01-01",
+      "baskent": "Nanjing (Mançurya doğusu; bugün Yanji yöresi — kesin yer tartışmalı)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Jin'in Liaodong komutanı Puxian Wannu'nun Moğol baskısı sırasında Jin'den koparak doğu Mançurya'da kurduğu kısa ömürlü Jurchen devleti; Moğollarca ortadan kaldırıldı.",
+      "kaynak": "Herbert Franke, 'The Chin dynasty', The Cambridge History of China Vol. 6 (Cambridge UP, 1994). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "1215 = Puxian Wannu'nun Jin'den kopuşu (ad önce 'Dazhen', sonra 'Dongxia'; ad değişiminin yılı 1217 diye de geçer). Gün yok.",
+      "ic_not_t": "1233 = Moğolların Puxian Wannu'yu yakalaması (CHC6). Gün yok. ⚠️ Küçük yapı — haritada nokta yoksa boyanmaz (petek kuralı); önce yerleşim yoğunluğu.",
+      "kronoloji": [
+        {
+          "t": "1215-01-01",
+          "tur": "kurulus",
+          "b": "Jin komutanı Puxian Wannu Liaodong'da Jin'den koptu, Doğu Xia'yı kurdu",
+          "kaynak": "Franke, CHC6 1994"
+        },
+        {
+          "t": "1233-01-01",
+          "tur": "son",
+          "b": "Moğollar Puxian Wannu'yu yakaladı, Doğu Xia sona erdi",
+          "kaynak": "Franke, CHC6 1994"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "tien-le-hanedani",
+      "ad": "Erken Lê Hanedanı (Đại Cồ Việt)",
+      "tur": "hanedanlik",
+      "bolge": "guneydogu-asya",
+      "f": "980-01-01",
+      "t": "1009-01-01",
+      "baskent": "Hoa Lư",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Đinh hanedanının yerini alan Lê Hoàn'ın kurduğu Vietnam hanedanı; 981'de Song istilasını püskürttü, 1009'da tahtı Lý Công Uẩn'a bıraktı.",
+      "kaynak": "K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). Sayfa verilmedi (bu oturumda açılmadı). TDV: vietnam 302 (ölü slug).",
+      "ic_not_f": "980 = Lê Hoàn'ın tahta çıkışı (Taylor 2013). Gün yok.",
+      "ic_not_t": "1009 = Lý Công Uẩn'ın tahta çıkışı (ay takvimiyle yıl sonu; Gregoryen gün alınmadı). ly-hanedani f ile AYNI gün → boşluk/örtüşme yok. Kuşakta yalnız 1000-1009 dilimi kalır; künye Vietnam'ın 1000'deki deliğini kapatır.",
+      "kronoloji": [
+        {
+          "t": "980-01-01",
+          "tur": "kurulus",
+          "b": "Lê Hoàn tahta çıktı, Erken Lê hanedanı başladı",
+          "kaynak": "Taylor 2013"
+        },
+        {
+          "t": "1009-01-01",
+          "tur": "son",
+          "b": "Lý Công Uẩn tahta çıktı, Erken Lê hanedanı sona erdi",
+          "kaynak": "Taylor 2013"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "ly-hanedani",
+      "ad": "Lý Hanedanı (Đại Việt)",
+      "tur": "hanedanlik",
+      "bolge": "guneydogu-asya",
+      "f": "1009-01-01",
+      "t": "1225-01-01",
+      "baskent": "Thăng Long (Hanoi)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Başkenti Thăng Long'a taşıyıp devlete 'Đại Việt' adını veren, Song'a karşı 1075-77 savaşını kazanan ve Champa'dan kuzey vilayetleri alan Vietnam hanedanı; tahtın Trần ailesine geçmesiyle sona erdi.",
+      "kaynak": "K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). Sayfa verilmedi (bu oturumda açılmadı). TDV: vietnam 302 (ölü slug).",
+      "ic_not_f": "1009 = Lý Công Uẩn (Lý Thái Tổ) tahta çıktı. Gün yok.",
+      "ic_not_t": "1225 = Lý Chiêu Hoàng'ın tahtı kocası Trần Cảnh'a bırakması. tran-hanedani f:1225-01-01 ile AYNI → bitişik.",
+      "kronoloji": [
+        {
+          "t": "1009-01-01",
+          "tur": "kurulus",
+          "b": "Lý Công Uẩn tahta çıktı, Lý hanedanı kuruldu",
+          "kaynak": "Taylor 2013"
+        },
+        {
+          "t": "1054-01-01",
+          "tur": "idari",
+          "b": "Lý Thánh Tông devletin adını Đại Việt yaptı",
+          "kaynak": "Taylor 2013"
+        },
+        {
+          "t": "1225-01-01",
+          "tur": "son",
+          "b": "Lý Chiêu Hoàng tahtı Trần Cảnh'a bıraktı, Lý hanedanı sona erdi",
+          "kaynak": "Taylor 2013"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "heian-japonya",
+      "ad": "Japonya — Heian Dönemi İmparatorluk Sarayı",
+      "tur": "imparatorluk",
+      "bolge": "dogu-asya",
+      "f": "794-01-01",
+      "t": "1185-01-01",
+      "baskent": "Heian-kyō (Kyoto)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Başkentin Heian'a (Kyoto) taşınmasıyla başlayan, Fujiwara naipliği ve emekli imparatorlar (insei) idaresiyle geçen saray dönemi; Genpei Savaşı'nda Minamoto'nun zaferiyle fiilî iktidar Kamakura'daki askerî hükûmete geçti.",
+      "kaynak": "TDV: japonya (JAPONYA) — dönem sınırları · Donald H. Shively & William H. McCullough (ed.), The Cambridge History of Japan Vol. 2: Heian Japan (Cambridge UP, 1999). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "TDV japonya, birebir: '794-1185 yılları arasında ise yeni başşehir yapılan Heian’dan (Kyoto) adını alan dönem başladı.' Gün yok.",
+      "ic_not_t": "1185 = TDV'nin dönem sonu; kamakura künyesi f:1185-01-01 ile bitişik. ⚠️ KİMLİK NOTU: imparatorluk sarayı 1185'te yok olmadı — Kyoto'daki saray Kamakura altında sürdü. Künye bir DÖNEM kimliğidir (kamakura, muromachi, edo-bakufu deseniyle aynı). Kuzey Honshu 1087-1189 arası ayrı: oshu-fujiwara.",
+      "kronoloji": [
+        {
+          "t": "794-01-01",
+          "tur": "kurulus",
+          "b": "Başkent Heian'a (Kyoto) taşındı, Heian dönemi başladı",
+          "kaynak": "TDV: japonya"
+        },
+        {
+          "t": "1016-01-01",
+          "tur": "siyaset",
+          "b": "Fujiwara no Michinaga iktidarı ele geçirdi, aristokrat naiplik zirveye ulaştı",
+          "kaynak": "TDV: japonya"
+        },
+        {
+          "t": "1185-01-01",
+          "tur": "son",
+          "b": "Genpei Savaşı Minamoto zaferiyle bitti, fiilî iktidar Kamakura'ya geçti",
+          "kaynak": "TDV: japonya"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "oshu-fujiwara",
+      "ad": "Ōshū Fujiwara (Kuzey Fujiwara) Hanedanlığı",
+      "tur": "hanedanlik",
+      "bolge": "dogu-asya",
+      "f": "1087-01-01",
+      "t": "1189-01-01",
+      "baskent": "Hiraizumi",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Gosannen Savaşı'ndan sonra kuzey Honshu'da (Mutsu-Dewa) Hiraizumi merkezli fiilen bağımsız bir bölgesel güç kuran üç kuşaklık aile; Minamoto no Yoshitsune'ye sığınak verdiği için Yoritomo'nun 1189 seferiyle yok edildi.",
+      "kaynak": "Mimi Hall Yiengpruksawan, Hiraizumi: Buddhist Art and Regional Politics in Twelfth-Century Japan (Harvard UP, 1998) · Cambridge History of Japan Vol. 2 (1999). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "1087 = Gosannen Savaşı'nın bitişi, Fujiwara no Kiyohira'nın bölgeye hâkim olması. Gün yok.",
+      "ic_not_t": "1189 = Yoritomo'nun Ōshū seferi, Fujiwara no Yasuhira'nın ölümü. Gün yok. ⚠️ TABİİYET: resmen imparatorluk sarayının valisi (chinjufu shōgun unvanı), fiilen özerk — `tabi` alanı önerilmedi, koordinatörün kararı. Haritada kuzey Honshu'da nokta yoksa boyanmaz.",
+      "kronoloji": [
+        {
+          "t": "1087-01-01",
+          "tur": "kurulus",
+          "b": "Gosannen Savaşı sonunda Fujiwara no Kiyohira kuzey Honshu'ya hâkim oldu",
+          "kaynak": "Yiengpruksawan 1998"
+        },
+        {
+          "t": "1189-01-01",
+          "tur": "son",
+          "b": "Minamoto no Yoritomo'nun Ōshū seferiyle Hiraizumi düştü, Kuzey Fujiwara sona erdi",
+          "kaynak": "Yiengpruksawan 1998 · CHJ2"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "srivijaya",
+      "ad": "Srivicaya (Śrīvijaya) Krallığı",
+      "tur": "krallik",
+      "bolge": "guneydogu-asya",
+      "f": "683-01-01",
+      "t": "1275-01-01",
+      "baskent": "Palembang → Jambi (Melayu)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Malaka ve Sunda boğazlarının ticaretini denetleyen, Budist ilim merkezi Sumatra deniz devleti; 1025 Çola baskınından sonra zayıfladı, merkezi Jambi'ye (Melayu) kaydı, 13. yüzyılda Cava'nın Singhasari'si karşısında bağımsızlığını yitirdi.",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (East-West Center Press, 1968) · Kenneth R. Hall, A History of Early Southeast Asia (Rowman & Littlefield, 2011). Sayfa verilmedi (bu oturumda açılmadı). TDV: endonezya maddesi Srivicaya'yı ANMIYOR (ölçüldü).",
+      "ic_not_f": "683 = Kedukan Bukit yazıtı (Coedès). Kuruluş değil, en eski tarihli belge. Gün yok.",
+      "ic_not_t": "EŞİK; kesin yıkılış yılı kaynakta YOK (koordinatör hükmü M-5577 (a), D210). 1275 = Singhasari'nin Pamalayu seferi (singhasari iskeletinde de var); Srivicaya-Melayu'nun bağımsızlığının kaynakça verilen son eşiği olarak kondu, ölçüm DEĞİL. Çin kayıtlarında 'Sanfoqi' elçilikleri 1370'lere kadar sürer. Palembang'ın sonraki boyası palembang-sultanligi (f:1281 pencere işareti).",
+      "kronoloji": [
+        {
+          "t": "683-01-01",
+          "tur": "kurulus",
+          "b": "Kedukan Bukit yazıtı: Srivicaya'nın bilinen ilk tarihli belgesi",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "1025-01-01",
+          "tur": "savas",
+          "b": "Çola hükümdarı I. Rajendra'nın deniz seferi Srivicaya limanlarını yağmaladı",
+          "kaynak": "Coedès 1968 · Hall 2011"
+        },
+        {
+          "t": "1275-01-01",
+          "tur": "son",
+          "b": "Singhasari'nin Pamalayu seferiyle Melayu-Srivicaya Cava üstünlüğüne girdi",
+          "kaynak": "Coedès 1968"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "medang",
+      "ad": "Medang (Mataram) Krallığı (Cava)",
+      "tur": "krallik",
+      "bolge": "guneydogu-asya",
+      "f": "732-01-01",
+      "t": "1016-01-01",
+      "baskent": "Orta Cava (Mataram) → Doğu Cava (Watugaluh, 929 sonrası)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Borobudur ve Prambanan'ı inşa eden Hindu-Budist Cava krallığı; 929'da merkezi Doğu Cava'ya taşındı, 1016'da Wurawari'nin saldırısıyla (Pralaya) başkent yıkılıp kral Dharmawangsa öldürüldü.",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (1968) · Kenneth R. Hall, A History of Early Southeast Asia (2011). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "732 = Canggal yazıtı (Sanjaya). Gün yok. ⚠️ Ad: 'Mataram' adı mataram-sultanligi (1587) ile karışmasın diye id 'medang'.",
+      "ic_not_t": "1016 = Pralaya (Coedès; eski eserlerde 1006). Gün yok. Kuşakta yalnız 1000-1016 dilimi kalır.",
+      "kronoloji": [
+        {
+          "t": "732-01-01",
+          "tur": "kurulus",
+          "b": "Canggal yazıtı: Sanjaya'nın Orta Cava'daki krallığı belgelendi",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "929-01-01",
+          "tur": "idari",
+          "b": "Mpu Sindok krallığın merkezini Doğu Cava'ya taşıdı",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "1016-01-01",
+          "tur": "son",
+          "b": "Pralaya: Wurawari saldırısında başkent yıkıldı, Dharmawangsa öldürüldü",
+          "kaynak": "Coedès 1968"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "kahuripan",
+      "ad": "Kahuripan Krallığı (Airlangga, Doğu Cava)",
+      "tur": "krallik",
+      "bolge": "guneydogu-asya",
+      "f": "1019-01-01",
+      "t": "1042-01-01",
+      "baskent": "Kahuripan",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Pralaya'dan kurtulan Airlangga'nın Doğu Cava'yı yeniden birleştirdiği krallık; ölümünden önce ülkeyi Janggala ve Panjalu (Kediri) olarak ikiye böldü.",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (1968). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "1019 = Airlangga'nın taç giyme yılı (Pucangan yazıtı, 1041 tarihli, bu yılı verir — Coedès). Gün yok. 1016-1019 arası Doğu Cava: künyesiz (Pralaya sonrası kargaşa) — ölçülemedi.",
+      "ic_not_t": "1042 = krallığın bölünmesi (Coedès; bazı eserler 1045). Gün yok.",
+      "kronoloji": [
+        {
+          "t": "1019-01-01",
+          "tur": "kurulus",
+          "b": "Airlangga tahta çıktı, Kahuripan krallığı kuruldu",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "1042-01-01",
+          "tur": "bolunme",
+          "b": "Airlangga ülkesini Janggala ve Panjalu (Kediri) olarak ikiye böldü",
+          "kaynak": "Coedès 1968"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "kediri",
+      "ad": "Kediri (Panjalu) Krallığı (Doğu Cava)",
+      "tur": "krallik",
+      "bolge": "guneydogu-asya",
+      "f": "1042-01-01",
+      "t": "1222-01-01",
+      "baskent": "Daha (Kediri)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Airlangga mirasının batı yarısında kurulan, Janggala'yı da içine alarak Doğu Cava'ya hâkim olan, Cava edebiyatının klasik çağını yaşayan krallık; Ken Arok'un Ganter zaferiyle yerini Singhasari'ye bıraktı.",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (1968). Sayfa verilmedi (bu oturumda açılmadı). TDV endonezya yalnız 16. yy Kediri'sini anıyor (ölçüldü).",
+      "ic_not_f": "1042 = Kahuripan'ın bölünmesi. Gün yok. Janggala ayrı künye olarak ÖNERİLMEDİ (kaynak yoğunluğu yetmedi; bkz. rapor 'bulunamadı').",
+      "ic_not_t": "1222 = Ganter savaşı (Coedès). singhasari f:1222-01-01 ile bitişik.",
+      "kronoloji": [
+        {
+          "t": "1042-01-01",
+          "tur": "kurulus",
+          "b": "Kahuripan'ın bölünmesiyle Panjalu (Kediri) krallığı doğdu",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "1135-01-01",
+          "tur": "hukumdar",
+          "b": "Jayabhaya tahta çıktı, Kediri'nin zirve dönemi başladı",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "1222-01-01",
+          "tur": "son",
+          "b": "Ken Arok Ganter'de Kertajaya'yı yendi, Kediri sona erdi",
+          "kaynak": "Coedès 1968"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "bali-warmadewa",
+      "ad": "Bali Krallığı (Warmadewa Hanedanı)",
+      "tur": "krallik",
+      "bolge": "guneydogu-asya",
+      "f": "914-01-01",
+      "t": "1284-01-01",
+      "baskent": "Bedulu–Pejeng yöresi",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Bali'de yazıtlarla bilinen Warmadewa hanedanının krallığı; Airlangga'nın babası Udayana bu hanedandandır. 1284'te Singhasari kralı Kertanagara adayı aldı.",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (1968). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "914 = Blanjong sütun yazıtı (Sri Kesari Warmadewa). Gün yok.",
+      "ic_not_t": "1284 = Kertanagara'nın Bali seferi (Nagarakertagama'ya dayanan Coedès). bali-kralliklari-pejeng f:1292 → 1284-1292 arası Bali singhasari'dir (singhasari t:1292 — tutarlı).",
+      "kronoloji": [
+        {
+          "t": "914-01-01",
+          "tur": "kurulus",
+          "b": "Blanjong yazıtı: Sri Kesari Warmadewa Bali'de belgelendi",
+          "kaynak": "Coedès 1968"
+        },
+        {
+          "t": "1284-01-01",
+          "tur": "son",
+          "b": "Singhasari kralı Kertanagara Bali'yi fethetti",
+          "kaynak": "Coedès 1968"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "hariphunchai",
+      "ad": "Hariphunchai (Haripuñjaya) Krallığı",
+      "tur": "krallik",
+      "bolge": "guneydogu-asya",
+      "f": "1000-01-01",
+      "t": "1292-01-01",
+      "baskent": "Lamphun",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Kuzey Tayland'da Lamphun merkezli Mon krallığı; Lan Na'yı kuran Mangrai tarafından alındı.",
+      "kaynak": "David K. Wyatt, Thailand: A Short History (2. bs., Yale UP, 2003). Sayfa verilmedi (bu oturumda açılmadı). TDV tayland maddesi Hariphunchai'yi ANMIYOR (ölçüldü).",
+      "ic_not_f": "🔴 PENCERE İŞARETİ — kuruluş yılı DEĞİL. Kuruluş (Kraliçe Camadevi) efsanevîdir, yıllık yazıt yok; kuşağın alt ucu kondu (CLAUDE.md §4).",
+      "ic_not_t": "1292 = Mangrai'nin Lamphun'u alışı (Wyatt). ⚠️ Tay kronikleri 1281 der — kaynak çelişkisi, Wyatt'a uyuldu. lan-na künyesi (f:1262) aynı bölgenin ardılı.",
+      "kronoloji": [
+        {
+          "t": "1292-01-01",
+          "tur": "son",
+          "b": "Mangrai Lamphun'u aldı, Hariphunchai Lan Na'ya katıldı",
+          "kaynak": "Wyatt 2003"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "guge",
+      "ad": "Guge Krallığı (Batı Tibet)",
+      "tur": "krallik",
+      "bolge": "dogu-asya",
+      "f": "1000-01-01",
+      "t": "1630-01-01",
+      "baskent": "Tsaparang · Tholing",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Tibet İmparatorluğu'nun çöküşünden sonra kraliyet soyunun batıya kaçan kolunun Ngari'de kurduğu krallık; Budizmin Tibet'te yeniden canlanmasının (Atisha'nın daveti) merkezi oldu, 1630'da Ladakh'a yenildi.",
+      "kaynak": "TDV: tibet (TİBET) — yüzyıl düzeyi ('XI. yüzyılın ortalarında meşhur Hintli rahip Atisa’nın Tibet’e davet edilmesinin ardından Budizm tekrar canlanmaya başladı') · Matthew T. Kapstein, The Tibetans (Blackwell, 2006). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "🔴 PENCERE İŞARETİ — kuruluş yılı DEĞİL. Kaynaklar kuruluşu '10. yüzyıl' diye verir, yıl vermez; kuşağın alt ucu kondu.",
+      "ic_not_t": "1630 = Ladakh kralı Sengge Namgyal'in Guge'yi alışı (Kapstein). Gün yok. ⚠️ Ladakh / Maryul HINDISTAN oturumunda (kronoloji_guney_asya 1281 maddesi 'Batı Tibet hânedanı' der) — 1630 maddesi o künyeye de dokunur, çakışma olabilir.",
+      "kronoloji": [
+        {
+          "t": "1042-01-01",
+          "tur": "din",
+          "b": "Hintli rahip Atisha Guge hükümdarının davetiyle Batı Tibet'e geldi",
+          "kaynak": "TDV: tibet (yüzyıl) · Kapstein 2006 (yıl)"
+        },
+        {
+          "t": "1630-01-01",
+          "tur": "son",
+          "b": "Ladakh Guge'yi aldı, krallık sona erdi",
+          "kaynak": "Kapstein 2006"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "sakya",
+      "ad": "Sakya Yönetimi (Moğol-Yuan himayesinde Tibet)",
+      "tur": "devlet",
+      "bolge": "dogu-asya",
+      "f": "1264-01-01",
+      "t": "1354-01-01",
+      "baskent": "Sakya",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Kubilay Han'ın Sakya tarikatının başı Phagpa'yı imparatorluk hocası yapıp Tibet'in idaresini Sakya'ya bırakmasıyla kurulan, Yuan himayesindeki Tibet yönetimi; Phagmodrupa'nın yükselişiyle sona erdi.",
+      "kaynak": "TDV: tibet (TİBET) — 'Bu dönemde Tibet, Çin İmparatorluğu’nun bir parçası halinde doğrudan doğruya Yüan (Kubilay) hânedanı tarafından idare edildi' · Luciano Petech, Central Tibet and the Mongols: The Yüan–Sa-skya Period of Tibetan History (IsMEO, Roma, 1990). Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "1264 = Kubilay'ın Budist ve Tibet işleri dairesini (Zongzhi yuan) kurup Phagpa'yı başına koyması. ⚠️ Eşik tartışmalı: 1247 (Sakya Pandita–Köten görüşmesi), 1260 (Phagpa imparatorluk hocası), 1268 (nüfus sayımı) da kullanılır. 1000-1264 Orta Tibet: TEK devlet yok (parçalanma dönemi) — künye önerilmedi, bkz. rapor.",
+      "ic_not_t": "1354 = tibet künyesi f:1354-01-01 ile bitişik (TDV tibet: 'idarenin başına geçti (1354)').",
+      "kronoloji": [
+        {
+          "t": "1264-01-01",
+          "tur": "kurulus",
+          "b": "Kubilay Tibet idaresini Phagpa'ya ve Sakya tarikatına bıraktı",
+          "kaynak": "Petech 1990"
+        },
+        {
+          "t": "1354-01-01",
+          "tur": "son",
+          "b": "Phagmodrupa idareyi ele geçirdi, Sakya yönetimi sona erdi",
+          "kaynak": "TDV: tibet"
+        }
+      ]
+    },
+    {
+      "islem": "genislet",
+      "id": "angkor-kmer",
+      "f_eski": "1281-01-01",
+      "f": "802-01-01",
+      "harita": "angkor-kmer",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (1968) · David Chandler, A History of Cambodia (4. bs., Westview, 2008). Sayfa verilmedi (bu oturumda açılmadı). TDV: kambocya — 'IX-XV. yüzyıllar arasında ... Kimer (Angkor) İmparatorluğu' (yüzyıl düzeyi, ölçüldü).",
+      "ic_not_f": "802 = II. Jayavarman'ın Kulen dağında cakravartin olarak kutsanması (Sdok Kak Thom yazıtına dayanan standart tarih; Coedès, Chandler). Gün yok. f:'1281-01-01' eski değer motor penceresinin alt ucuydu (sınıf ②: aynı polity sürüyor → GENİŞLET). ⚠️ TDV kambocya yıkılışı 1432 der, künye t:1431 — küçük fark, t'ye dokunulmadı (kuşak dışı).",
+      "kronoloji": [
+        {
+          "t": "802-01-01",
+          "tur": "kurulus",
+          "b": "II. Jayavarman Kulen dağında kutsanıp Kmer krallığını Cava'dan bağımsız ilan etti",
+          "kaynak": "Coedès 1968 · Chandler 2008"
+        }
+      ]
+    },
+    {
+      "islem": "genislet",
+      "id": "campa",
+      "f_eski": "1281-01-01",
+      "f": "1000-01-01",
+      "harita": "campa",
+      "kaynak": "George Coedès, The Indianized States of Southeast Asia (1968) · Georges Maspero, Le Royaume de Champa (1928). Sayfa verilmedi (bu oturumda açılmadı). TDV: kambocya maddesi Çampa'yı İslâm tarihi yönüyle anar, kuruluş yılı VERMEZ (ölçüldü).",
+      "ic_not_f": "⚠️ 1000 = başkentin Indrapura'dan Vijaya'ya taşınması (Coedès: 1000). Künyenin baskent alanı 'Vijaya → Panduranga' dediği için künye kimliği Vijaya dönemiyle hizalandı. Champa bundan ÇOK eskidir (Çin kayıtlarında Linyi 192); daha eski kuşaklar açıldığında bu f yeniden geriye çekilmeli — ve o zaman 1000 değeri bir pencere işareti gibi okunmamalı, Vijaya'ya taşınmanın tarihidir.",
+      "kronoloji": [
+        {
+          "t": "1000-01-01",
+          "tur": "idari",
+          "b": "Champa'nın başkenti Indrapura'dan Vijaya'ya taşındı",
+          "kaynak": "Coedès 1968"
+        }
+      ]
+    },
+    {
+      "islem": "genislet",
+      "id": "filipin-racaliklari",
+      "f_eski": "1281-01-01",
+      "f": "1001-01-01",
+      "harita": "filipin-racaliklari",
+      "kaynak": "William Henry Scott, Barangay: Sixteenth-Century Philippine Culture and Society (Ateneo de Manila UP, 1994) · Song Shi (Song Tarihi) kaydı, Scott aracılığıyla. Sayfa verilmedi (bu oturumda açılmadı).",
+      "ic_not_f": "1001 = Butuan'ın ('Puduan') Song sarayına ilk haraç heyeti — racalıkların ilk yazılı tarihi. Kuruluş değil ilk belge; gün yok. Laguna Bakır Levhası (900) daha eskidir ama siyasi yapıyı tarihlemez.",
+      "kronoloji": [
+        {
+          "t": "1001-01-01",
+          "tur": "diplomasi",
+          "b": "Butuan racalığı Song sarayına ilk haraç heyetini gönderdi",
+          "kaynak": "Scott 1994"
+        }
+      ]
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "ternate-sultanligi",
+      "ic_not_f": "yerel gelenek 1257 der (ilk kolano Baab Mashur Malamo; Andaya 1993 geleneği aktarır); akademik dayanak bulunamadı. f:1281-01-01 ufuk işareti olarak KALIR (koordinatör hükmü M-5577 (b)). Kaynak bulunursa tahtaya yazılır, o zaman çekilir."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "song",
+      "boya_gerekli": true,
+      "not": "960→1279 kuşağı zaten kapsıyor. BOYALAR'da 'song' YOK (ölçüldü) → 1281 öncesi haritada Çin'in ana gövdesi BOYANMAZ: boya kalemine alınmalı. Kuzey/Güney Song tek künyede (TDV cin--ulke 'Güney Sung devrinden (1127-1279)' — alt dönem, ayrı künye önerilmedi)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "jin-hanedani",
+      "boya_gerekli": true,
+      "not": "1115→1234 tamam. BOYALAR'da YOK → boya kalemine."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "yuan-hanedani",
+      "not": "1271→1368; kuşakta 1271-1281. Boya var."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "mogol-imparatorlugu",
+      "not": "ONCE1281-IRAN-TURKISTAN'ın payı (tahtada M-5562 ile bildirildi)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "goryeo",
+      "not": "918→1392. ⚠️ TDV kore-cumhuriyeti 'Koryo Krallığı’nı kurdu (936-1392)' der — 936 Kore'nin birleşmesidir, 918 kuruluş. TDV bu coğrafyada birincil değil; kuşağı etkilemez (ikisi de 1000'den önce)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "kamakura",
+      "not": "1185→1333 (TDV japonya 1192'yi şogun ilanı olarak verir; künye iskeletinde zaten var)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "pagan",
+      "not": "849→1297."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "singhasari",
+      "not": "1222→1292."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "tran-hanedani",
+      "not": "1225→1400."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "sukhothai",
+      "not": "1238→1438. ⚠️ TDV tayland '1238’de Angkor’u alıp gücünü arttırdı' der — bağımsızlık kastediliyor olmalı; Angkor 1431'e kadar Kmer'dir. Çelişki bildirildi, düzeltme önerilmedi."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "lan-na",
+      "not": "1262→1558. ⚠️ İskelette 1296-04-12 ve 1296-01-01 İKİ kuruluş/başkent maddesi var — aynı olay çift (kuşak dışı, bildirildi)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "sunda-pajajaran",
+      "not": "669→1527. ⚠️ İskeletin 'kurulus' maddesi 1482 (Pajajaran birleşmesi) — künye f:669 ile ayrışıyor (kuşak içi; bildirildi, dokunulmadı)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "poni",
+      "not": "977→1405."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "arakan",
+      "not": "f:1281 pencere işareti; künye Mrauk U (1430) kimliği. Daha eski Arakan krallıkları (Pyinsa/Launggyet) aynı polity mi — ölçülemedi, genişletme önerilmedi."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "lan-xang",
+      "not": "f:1281 pencere işareti; gerçek kuruluş 1353 (künyenin kendi iskeleti). Kuşak dışı — ⚠️ sınıf ① adayı (künye 72 yıl erken başlıyor), ayrı iş."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "san-devletleri",
+      "not": "f:1281 pencere işareti; 1281 öncesi Şan (Möng Mao) yapıları için kaynaklı yıl bulunamadı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "samudra-pasai",
+      "not": "f:1281, TDV endonezya '1280’li yıllarda' der — tutarlı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "timor-beylikleri",
+      "not": "f:1281 pencere işareti; 1281 öncesi için kaynaklı yapı bulunamadı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "malay-sultanliklari",
+      "not": "f:1281 pencere işareti; sultanlıklar 15. yy sonrası."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "palembang-sultanligi",
+      "not": "f:1281 pencere işareti; gerçek kuruluş 1659 (künye iskeleti) — ⚠️ sınıf ① adayı. 1275 öncesi Palembang = srivijaya (yeni)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "pagaruyung",
+      "not": "f:1281; Adityawarman 1347. Kuşak dışı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "gova-makassar",
+      "not": "f:1281; kuşak dışı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "tidore-sultanligi",
+      "not": "f:1281; kaynaklı erken tarih bulunamadı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "banda-adalari",
+      "not": "f:1281; kuşak dışı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "magindanao-sultanligi",
+      "not": "f:1281; kuşak dışı (1515)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "tibet",
+      "not": "1354→1642; sakya (yeni) ile bitişik."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "edo-bakufu",
+      "not": "1603 — kuşak dışı (koordinatörün ince künye notu: DOKUNMA)."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "majapahit",
+      "not": "1293 — kuşak dışı."
+    },
+    {
+      "islem": "dokunmadim",
+      "id": "kamboc-kralligi",
+      "not": "1431 — kuşak dışı."
+    }
+  ]
+}

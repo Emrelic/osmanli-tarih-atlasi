@@ -1,0 +1,687 @@
+{
+ "grup": "A",
+ "kunyeler": [
+  {
+   "id": "buyuk-selcuklu",
+   "ad": "Büyük Selçuklu Devleti",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "iran",
+   "f": "1040-05-23",
+   "t": "1157-01-01",
+   "baskent": "Nîşâbur → Rey → İsfahan → Merv",
+   "ozet": "Oğuzlar'ın Kınık boyundan Selçuklu ailesinin Dandanakan zaferiyle Horasan'da kurduğu, Melikşah döneminde Kâşgar'dan Ege'ye uzanan sultanlık; Sencer'in ölümüyle sona erdi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR); TDV: sencer (SENCER)",
+   "ic_not_f": "Dandanakan zaferi 8 Ramazan 431 / 23 Mayıs 1040; TDV: 'Tuğrul Bey, Büyük Selçuklu Devleti'nin ilk hükümdarı oldu (1040-1063)'. Başkent sırası: Nîşâbur (1040) → Rey (434/1042-43) → İsfahan (Melikşah dönemi; önbellekte bu geçişin tarihli cümlesi okunmadı) → Merv (Sencer).",
+   "ic_not_t": "Sencer 14 veya 24 Rebîülevvel 552 = 26 Nisan VEYA 6 Mayıs 1157'de öldü; TDV iki gün veriyor, seçilmedi → 1157-01-01 (yıl hassasiyeti). Koordinatör 1157-04-26 isterse ilk rivayet. Irak Selçukluları (1118-1194) ayrı künye.",
+   "alinti_f": "Üç gün devam eden savaş neticesinde Selçuklular kesin bir zafer kazandı (8 Ramazan 431 Cuma / 23 Mayıs 1040).",
+   "alinti_t": "Sencer’in ölümüyle Büyük Selçuklu Devleti tarih sahnesinden çekilmiş oldu.",
+   "kronoloji": [
+    {
+     "t": "1040-05-23",
+     "tur": "kurulus",
+     "b": "Dandanakan zaferiyle Gazneliler Horasan'dan atıldı; Tuğrul Bey Büyük Selçuklu Devleti'nin ilk hükümdarı oldu",
+     "kaynak": "selcuklular"
+    },
+    {
+     "t": "1157-01-01",
+     "tur": "yikilis",
+     "b": "Sultan Sencer Merv'de öldü; Büyük Selçuklu Devleti sona erdi",
+     "kaynak": "sencer"
+    }
+   ]
+  },
+  {
+   "id": "kirman-selcuklu",
+   "ad": "Kirman Selçukluları",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "iran",
+   "f": "1048-01-01",
+   "t": "1187-01-01",
+   "baskent": "Berdesîr (Kirman) → Nermâsîr (son dönem)",
+   "ozet": "Çağrı Bey'in oğlu Kavurd Bey'in Büveyhîler'den aldığı Kirman'da kurulan Selçuklu kolu; Uman'a ve Fars'a uzandı, Oğuz reisi Melik Dînâr'ın istilâsıyla sona erdi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR) [Kirman Selçukluları bölümü]",
+   "ic_not_f": "440/1048 — yalnız yıl; gün yok.",
+   "ic_not_t": "583/1187 — yalnız yıl (583 H. Mart 1187-Mart 1188'e düşer; TDV 1187 diyor).",
+   "alinti_f": "Leşkersitân şehri Kavurd Bey’e teslim etti; böylece Kirman Selçuklu Devleti’nin temelleri atılmış oldu (440/1048).",
+   "alinti_t": "Melik Dînâr başşehir Nermâsîr’i istilâ edip Kirman Selçukluları Devleti’ne son verdi (583/1187).",
+   "kronoloji": [
+    {
+     "t": "1048-01-01",
+     "tur": "kurulus",
+     "b": "Kavurd Bey Berdesîr'i Büveyhî valisinden aldı; Kirman Selçuklu Devleti'nin temeli atıldı",
+     "kaynak": "selcuklular"
+    },
+    {
+     "t": "1187-01-01",
+     "tur": "yikilis",
+     "b": "Oğuz reisi Melik Dînâr başşehir Nermâsîr'i aldı; Kirman Selçukluları sona erdi",
+     "kaynak": "selcuklular"
+    }
+   ]
+  },
+  {
+   "id": "suriye-selcuklu",
+   "ad": "Suriye Selçukluları",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "suriye-filistin",
+   "f": "1079-01-01",
+   "t": "1117-01-01",
+   "baskent": "Dımaşk → Halep (1095 sonrası iki melik: Halep ve Dımaşk)",
+   "ozet": "Melikşah'ın kardeşi Tutuş'un Dımaşk'ı alarak kurduğu Selçuklu kolu; Tutuş'un ölümünden sonra Halep ve Dımaşk melikliklerine ayrıldı, Haçlı baskısı altında sona erdi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR) [Suriye Selçukluları bölümü]",
+   "ic_not_f": "471/1079 — yalnız yıl (471 H. Temmuz 1078-Haziran 1079; TDV 1079 diyor).",
+   "ic_not_t": "Halep kolu 511/1117'de Artuklu İlgazi'ye geçti; Dımaşk kolu 1104'te bitmişti. Yalnız yıl.",
+   "alinti_f": "Tutuş kendisini karşılamakta geç kaldığını bahane ederek Atsız’ı öldürüp şehri ele geçirdi.",
+   "alinti_t": "Böylece Suriye Selçukluları’nın Halep kolu sona erdi (511/1117).",
+   "kronoloji": [
+    {
+     "t": "1079-01-01",
+     "tur": "kurulus",
+     "b": "Tutuş Dımaşk'ı Atsız'dan aldı; Suriye Selçuklu Devleti kuruldu",
+     "kaynak": "selcuklular"
+    },
+    {
+     "t": "1117-01-01",
+     "tur": "yikilis",
+     "b": "Mardin Artuklu hükümdarı İlgazi Halep'e hâkim oldu; Suriye Selçuklularının Halep kolu sona erdi",
+     "kaynak": "selcuklular"
+    }
+   ]
+  },
+  {
+   "id": "irak-selcuklu",
+   "ad": "Irak Selçukluları",
+   "islem": "yeni",
+   "tur": "sultanlik",
+   "bolge": "iran",
+   "f": "1118-05-06",
+   "t": "1194-01-01",
+   "baskent": "İsfahan → Hemedan",
+   "ozet": "Muhammed Tapar'ın ölümünden sonra oğlu Mahmud'la başlayan, Irâk-ı Acem ve Azerbaycan'da hüküm süren Selçuklu kolu; 1161'den sonra İldenizli atabeglerin gölgesinde kaldı, Hârizmşah Tekiş'e yenilerek sona erdi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR) [Irak Selçukluları bölümü]; TDV: harizmsahlar (HÂRİZMŞAHLAR)",
+   "ic_not_f": "Mahmud 13 Muharrem 512 / 6 Mayıs 1118'de halife tarafından sultan ilân edildi (TDV). Alternatif: TDV Büyük Selçuklu bölümü 'Böylece Irak Selçuklu Devleti kurulmuş oldu' cümlesini Sâve sonrası Şâban 513 / Kasım 1119 antlaşmasına bağlıyor. Bölüm başlığı 1118-1194 olduğu için 1118 seçildi.",
+   "ic_not_t": "590/1194, Rey yakınında II. Tuğrul (Batı literatüründe III. Tuğrul) öldürüldü; gün önbellekte yok (tekis slug'ı 302).",
+   "alinti_f": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118) Abbâsî Halifesi Müstazhir-Billâh tarafından sultan ilân edildi ve adına hutbe okundu.",
+   "alinti_t": "1194’te Rey civarındaki savaşta II. Tuğrul’u yenerek Irak Selçukluları’na son verip İran ve Irâk-ı Acem’de hâkimiyeti ele geçirdi.",
+   "kronoloji": [
+    {
+     "t": "1118-05-06",
+     "tur": "kurulus",
+     "b": "Muhammed Tapar'ın oğlu Mahmud halife tarafından sultan ilân edildi; Irak Selçuklu dönemi başladı",
+     "kaynak": "selcuklular"
+    },
+    {
+     "t": "1194-01-01",
+     "tur": "yikilis",
+     "b": "Hârizmşah Tekiş Rey yakınında II. Tuğrul'u yendi ve öldürdü; Irak Selçukluları sona erdi",
+     "kaynak": "harizmsahlar"
+    }
+   ]
+  }
+ ],
+ "maddeler": [
+  {
+   "t": "1051-01-01",
+   "k": "fetih",
+   "b": "Tuğrul Bey İsfahan'ı aldı",
+   "gun": "443/1051 (gün bilinmiyor)",
+   "yer": "İsfahan",
+   "kisiler": "Tuğrul Bey",
+   "d": "Daha önce vergiye bağlanan İsfahan, Tuğrul Bey tarafından doğrudan ülkeye katıldı. Şehir sonraki dönemde Selçuklu başkentlerinden biri oldu.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "443’te (1051) İsfahan’ı ülkesine katan Tuğrul Bey, 446 (1054) yılında Azerbaycan ve Arrân emîrlerini kendine tâbi kıldıktan sonra",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Kâkûyîler (İsfahan hâkimi, adı önbellek cümlesinde geçmiyor)."
+  },
+  {
+   "t": "1055-12-18",
+   "k": "fetih",
+   "b": "Tuğrul Bey Bağdat'a girdi; Büveyhî hâkimiyeti sona erdi",
+   "gun": "18 Aralık 1055",
+   "yer": "Bağdat",
+   "kisiler": "Tuğrul Bey; Halife Kāim-Biemrillâh; el-Melikü'r-Rahîm",
+   "d": "Halife Kāim-Biemrillâh'ın daveti üzerine Tuğrul Bey Bağdat'a geldi. Şehirdeki karışıklıklardan sorumlu tuttuğu Büveyhî hükümdarı el-Melikü'r-Rahîm'i hapsettirdi; onun ölümüyle Büveyhîler'in siyasî hâkimiyeti bitti ve Irak Selçuklu hâkimiyetine girdi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Tuğrul Bey, Halife Kāim-Biemrillâh’ın davetiyle Bağdat’a gitti (25 Ramazan 447 / 18 Aralık 1055).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Büveyhîler, Abbâsî hilâfeti (devletler.js'te yok; Büveyhî başka grupta önerilecek olabilir)."
+  },
+  {
+   "t": "1059-01-01",
+   "k": "antlasma",
+   "b": "Çağrı Bey ile Gazneli İbrâhim arasında barış",
+   "gun": "451/1059 (gün bilinmiyor)",
+   "yer": "Horasan / Tohâristan",
+   "kisiler": "Çağrı Bey; Gazneli İbrâhim",
+   "d": "Uzun Gazneli mücadelesinde Belh, Tohâristan, Tirmiz ve çevresini ülkesine katan Çağrı Bey, Gazneli hükümdarı İbrâhim ile barış imzaladı. Taraflar ellerindeki yerleri koruyacak, birbirlerine saldırmayacaktı; doğu sınırı böylece belirlendi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Vahş şehirlerini ülkesine kattı ve Gazneli Hükümdarı İbrâhim ile barış antlaşması imzaladı (451/1059).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "gazneli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1060-01-01",
+   "k": "savas",
+   "b": "Besâsîrî öldürüldü, Halife Bağdat'a döndü",
+   "gun": "Zilhicce 451 / Ocak 1060 (gün bilinmiyor)",
+   "yer": "Bağdat",
+   "kisiler": "Tuğrul Bey; Arslan el-Besâsîrî",
+   "d": "Tuğrul Bey İbrâhim Yinal isyanıyla uğraşırken Büveyhî kumandanı Besâsîrî Bağdat'ı işgal edip Fâtımî halifesi adına hutbe okutmuştu. Tuğrul Bey harekete geçerek halifeyi Bağdat'a geri getirdi, Besâsîrî yakalanıp öldürüldü.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Tuğrul Bey harekete geçip halifenin Bağdat’a getirilmesini sağladı, Arslan el-Besâsîrî yakalanıp öldürüldü (Zilhicce 451 / Ocak 1060).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Fâtımîler, Abbâsî hilâfeti."
+  },
+  {
+   "t": "1063-09-04",
+   "k": "hanedan",
+   "b": "Tuğrul Bey öldü; Alparslan tahtı ele geçirdi",
+   "gun": "4 Eylül 1063",
+   "yer": "Rey",
+   "kisiler": "Tuğrul Bey; Alparslan; Kutalmış; Süleyman",
+   "d": "Çocuğu olmayan Tuğrul Bey Rey'de öldü. Vezir Kündürî'nin tahta çıkardığı Süleyman'ı ve saltanat iddia eden Kutalmış'ı saf dışı bırakan Alparslan, babası Çağrı Bey'in ve amcasının topraklarını birleştirerek Ceyhun'dan Dicle'ye uzanan ülkenin tek hükümdarı oldu.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sultan aynı yıl Rey’de vefat etti (8 Ramazan 455 / 4 Eylül 1063).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Alparslan'ın halife tarafından sultan ilânı 27 Nisan 1064 (TDV). Kutalmış'a karşı Damgan zaferinin günü önbellekte yok."
+  },
+  {
+   "t": "1071-08-26",
+   "k": "savas",
+   "b": "Malazgirt Savaşı",
+   "gun": "26 Ağustos 1071",
+   "yer": "Malazgirt",
+   "kisiler": "Sultan Alparslan; İmparator Romanos Diogenes",
+   "d": "Mısır seferine giden Alparslan, Romanos Diogenes'in büyük bir orduyla yürüdüğünü öğrenince geri döndü ve Malazgirt ovasında Bizans ordusunu ağır bir yenilgiye uğrattı. Zafer Anadolu'nun Türkler tarafından fethinin yolunu açtı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "İki hükümdar Malazgirt ovasında karşılaştı (27 Zilkade 463 / 26 Ağustos 1071).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "bizans"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "MÜKERRER RİSKİ: `selcuklu` (Anadolu) künyesinin kronolojisinde aynı olay var (1071-08-26 'Malazgirt zaferi Anadolu'nun kapısını açtı') — o madde Anadolu Selçuklu f:1075'ten ÖNCE ve savaşı yapan devlet Büyük Selçuklu. Koordinatör: ya o iskelet maddesi buyuk-selcuklu'ya taşınır ya bu madde düşer."
+  },
+  {
+   "t": "1072-11-24",
+   "k": "hanedan",
+   "b": "Alparslan öldürüldü; Melikşah tahta geçti",
+   "gun": "24 Kasım 1072",
+   "yer": "Ceyhun kıyısı",
+   "kisiler": "Sultan Alparslan; Melikşah",
+   "d": "Mâverâünnehir seferindeki Alparslan Ceyhun kıyısında bir suikaste kurban gitti. Yerine veliaht tayin ettiği oğlu Melikşah geçti; genç sultanın tahta çıkışını fırsat bilen Karahanlılar ve Gazneliler Selçuklu topraklarına saldırdı, Kavurd Bey ise saltanat iddiasıyla ayaklandı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sultan ertesi yıl Ceyhun taraflarında bir cinayete kurban gitti (24 Kasım 1072).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1092-11-19",
+   "k": "hanedan",
+   "b": "Melikşah öldü; taht kavgaları başladı",
+   "gun": "19 Kasım 1092",
+   "yer": "Bağdat",
+   "kisiler": "Sultan Melikşah; Berkyaruk; Terken Hatun; Mahmud",
+   "d": "Vezir Nizâmülmülk'ün Bâtınîler tarafından öldürülmesinden yaklaşık bir ay sonra Melikşah Bağdat'ta öldü. Onun döneminde ülke Kâşgar'dan Ege adalarına, Kafkasya'dan Yemen'e uzanmıştı. Ölümünün ardından Berkyaruk ile Terken Hatun'un oğlu Mahmud arasında saltanat mücadelesi başladı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sultan bu olaydan yaklaşık bir ay sonra Bağdat’ta vefat etti (16 Şevval 485 / 19 Kasım 1092).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1104-01-01",
+   "k": "hanedan",
+   "b": "Berkyaruk öldü; Muhammed Tapar ülkeyi yeniden birleştirdi",
+   "gun": "Rebîülâhir 498 / Aralık 1104 (gün bilinmiyor)",
+   "yer": "İsfahan",
+   "kisiler": "Berkyaruk; Muhammed Tapar",
+   "d": "On iki yıl süren taht mücadelesi Haçlıların ilerlemesine ve Bâtınîlerin güçlenmesine yol açmıştı. Berkyaruk'un ölümünden sonra onun küçük oğlu Melikşah'ı bertaraf eden Muhammed Tapar, bölünmüş Selçuklu ülkesini yeniden tek elde topladı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Rebîülâhir 498’de (Aralık 1104) vefat eden Berkyaruk’un küçük yaştaki oğlu Melikşah’ı bertaraf ederek tahta geçen Muhammed Tapar, Selçuklu Devleti’ni yeniden birleştirmeyi başardı.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Ay biliniyor (Aralık 1104), gün yok. Yer 'İsfahan' önbellek cümlesinde geçmiyor — yer alanı boş bırakılabilir."
+  },
+  {
+   "t": "1117-01-01",
+   "k": "olay",
+   "b": "Muhammed Tapar Gaznelileri tâbi kıldı",
+   "gun": "511/1117 (gün bilinmiyor)",
+   "yer": "Gazne",
+   "kisiler": "Muhammed Tapar; Behram Şah",
+   "d": "Gazneli hânedanındaki taht kavgalarına müdahale eden Muhammed Tapar, Behram Şah'ın sultan ilân edilmesini sağladı. Böylece Gazneli Devleti Büyük Selçuklulara tâbi oldu.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Muhammed Tapar, Gazneliler arasındaki taht kavgalarına müdahale ederek Behram Şah’ın sultan ilân edilmesini sağladı, böylece Gazneliler’i de kendine tâbi kıldı (511/1117).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "gazneli"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1119-09-10",
+   "k": "savas",
+   "b": "Sâve Savaşı: Sencer yeğeni Mahmud'u yendi",
+   "gun": "10 Eylül 1119",
+   "yer": "Sâve",
+   "kisiler": "Sultan Sencer; Sultan Mahmud",
+   "d": "Muhammed Tapar'ın ölümünden sonra oğlu Mahmud'un sultanlığını tanımayan Horasan meliki Sencer, Sâve'de onu yendi. Sencer Mahmud'u kendine tâbi kıldı; Mâzenderan, Taberistan, Kūmis, Damgan ve Rey bölgelerini kendi ülkesine kattı, Kasım 1119 antlaşmasıyla Irak Selçuklu kolu tâbi melikliğe dönüştü.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sâve civarında yapılan meydan savaşında Mahmud yenildi (2 Cemâziyelâhir 513 / 10 Eylül 1119).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1153-01-01",
+   "k": "savas",
+   "b": "Sencer Oğuzlara yenilip esir düştü",
+   "gun": "Muharrem 548 / Nisan 1153 (gün bilinmiyor)",
+   "yer": "Belh yöresi",
+   "kisiler": "Sultan Sencer; Emîr Kamaç; Müeyyed Ay-aba",
+   "d": "Belh valisinin tahsildarının öldürülmesiyle başlayan anlaşmazlıkta Oğuzları cezalandırmak isteyen Sencer savaşı kaybetti ve esir düştü. Oğuzlar onu Merv'e götürüp şeklen hükümdar tanımaya devam ettiler; Sencer ancak Nisan 1156'da kurtarılabildi.",
+   "kaynak": "TDV: sencer (SENCER)",
+   "alinti": "Muharrem 548’de (Nisan 1153) meydana gelen savaşta Sencer mağlûp oldu ve esir düştü.",
+   "alinti_slug": "sencer",
+   "taraflar": [
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Oğuzlar (devlet değil). Yer 'Belh yöresi' anlatıdan çıkarım (Belh valisi Kamaç bağlamı); savaş yeri önbellek cümlesinde açıkça yok."
+  },
+  {
+   "t": "1062-01-01",
+   "k": "fetih",
+   "b": "Şîraz Kavurd Bey'e teslim edildi",
+   "gun": "454/1062 (gün bilinmiyor)",
+   "yer": "Şîraz",
+   "kisiler": "Kavurd Bey",
+   "d": "Kirman'da tutunan Kavurd Bey'e Şîraz ve çevresi Türk askerleri ve Deylemliler tarafından teslim edildi. Kavurd Bey Şebânkâre emîri Fazlûye'yi yenerek Fars'taki durumunu sağlamlaştırdı ve hutbeyi amcası Tuğrul Bey adına okuttu.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Şîraz ve civarı da Türk askerleri ve Deylemliler tarafından Kavurd Bey’e teslim edildi (454/1062).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Şebânkâre (önbellekte boş gövde)."
+  },
+  {
+   "t": "1067-01-01",
+   "k": "savas",
+   "b": "Alparslan Kirman'a yürüdü; Kavurd Bey itaat etti",
+   "gun": "459/1067 (gün bilinmiyor)",
+   "yer": "Kirman / Cîruft",
+   "kisiler": "Sultan Alparslan; Kavurd Bey",
+   "d": "Saltanat iddiasına kalkışan Kavurd Bey'in üzerine Alparslan Kirman'a yürüdü. Öncü kuvvetinin yenildiğini gören Kavurd Cîruft'a kaçıp af diledi; Alparslan onu bağışlayıp ülkesini geri verdi.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Kavurd Bey tahriklere kapılarak saltanat davasına kalkışınca Alparslan 459 (1067) yılında Kirman’a yürüdü.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "konu-askeri",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1073-01-01",
+   "k": "savas",
+   "b": "Kavurd Bey Melikşah'a yenilip öldürüldü",
+   "gun": "Şâban 465 / Nisan 1073 (gün bilinmiyor)",
+   "yer": "Hemedan yöresi",
+   "kisiler": "Kavurd Bey; Sultan Melikşah; Nizâmülmülk",
+   "d": "Alparslan'ın ölümü üzerine saltanat iddiasıyla Hemedan'a yürüyen Kavurd Bey, Türkmen boylarını kendi tarafına çeken Melikşah ve Nizâmülmülk karşısında yenildi, Hemedan dağlarında yakalanıp öldürüldü. Kirman'da yerine oğlu Kirmanşah geçti.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Buna rağmen Kavurd Bey savaşa girişmekten çekinmeyip yiğitçe savaştı, uğradığı bozgunun ardından Hemedan dağlarında yakalanarak öldürüldü (Şâban 465 / Nisan 1073).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1079-01-01",
+   "k": "olay",
+   "b": "Melikşah'ın Kirman seferi; Sultan Şah itaat etti",
+   "gun": "472 başı / Temmuz 1079 (gün bilinmiyor)",
+   "yer": "Berdesîr",
+   "kisiler": "Sultan Melikşah; Sultan Şah",
+   "d": "Melikşah'ın Kirman üzerine yürüdüğünü öğrenen Kirman meliki Sultan Şah, Berdesîr'den çıkıp sultanı karşıladı ve itaatini bildirdi. Memnun kalan Melikşah onu kızıyla evlendirip Kirman'dan ayrıldı; Kirman kolu Büyük Selçuklu tâbiliğinde yaşamaya devam etti.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Büyük Selçuklu Sultanı Melikşah’ın 472 yılı başında (Temmuz 1079) Kirman üzerine yürüdüğünü haber alan Sultan Şah, Berdesîr’den çıkarak Melikşah’ı karşılayıp itaatini bildirdi",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1142-01-01",
+   "k": "hanedan",
+   "b": "Muhammed Şah babası I. Arslanşah'ı hapsederek tahta geçti",
+   "gun": "Safer 537 / Eylül 1142 (gün bilinmiyor)",
+   "yer": "Berdesîr",
+   "kisiler": "I. Arslanşah; I. Muhammed Şah",
+   "d": "Kırk iki yıl Kirman'ı yöneten, Fars'ı zapteden ve Yezd'i ülkesine katan I. Arslanşah, oğlu Muhammed tarafından hapsedildi. Muhammed Şah tahta geçti.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Safer 537’de (Eylül 1142) Arslanşah’ın oğlu Muhammed babasını hapsederek Kirman Selçuklu tahtına geçti.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1170-01-01",
+   "k": "hanedan",
+   "b": "Tuğrul Şah öldü; oğulları arasında yedi yıllık taht kavgası",
+   "gun": "565/1170 (gün bilinmiyor)",
+   "yer": "Kirman",
+   "kisiler": "Tuğrul Şah; Behram Şah; II. Arslanşah; Türkân Şah; II. Turan Şah",
+   "d": "Tuğrul Şah'ın ölümüyle dört oğlu arasında yedi yıl süren saltanat mücadelesi başladı. Kirman harap oldu ve Kirman Selçuklularının fetret devri açıldı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "565’te (1170) vefat eden Tuğrul Şah’ın Arslanşah, Türkân Şah, Turan Şah ve Behram Şah adlı dört oğlu yedi yıl süren saltanat mücadelesine girişti.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ]
+  },
+  {
+   "t": "1179-01-01",
+   "k": "savas",
+   "b": "Oğuzlar Kirman-Fars kuvvetlerini yendi",
+   "gun": "575/1179 (gün bilinmiyor)",
+   "yer": "Kirman / Cîruft",
+   "kisiler": "II. Turan Şah; Salgurlu Tekele",
+   "d": "Sencer'i esir alan Oğuzlardan kalabalık bir grup Kirman'a girmişti. II. Turan Şah'ın Salgurlu Tekele ile birlikte onları çıkarma girişimi Oğuzların zaferiyle bitti; Oğuzlar Cîruft'u yağmaladı ve ülkede kalıcı bir güç oldular.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Oğuzlar, Kirman-Fars kuvvetlerini ağır bir yenilgiye uğrattıktan sonra (575/1179) güneye inip Cîruft şehrini yağmaladılar.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "kirman-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Oğuzlar; müttefik Salgurlular (başka grupta önerilecek olabilir, id bilinmiyor)."
+  },
+  {
+   "t": "1086-06-04",
+   "k": "savas",
+   "b": "Aynüseylem Savaşı: Tutuş, Süleyman Şah'ı yendi",
+   "gun": "4 Haziran 1086",
+   "yer": "Aynüseylem (Halep yakını)",
+   "kisiler": "Tutuş; I. Süleyman Şah",
+   "d": "Halep'e hâkim olma meselesi yüzünden Tutuş ile Anadolu Selçuklu sultanı Süleyman Şah karşı karşıya geldi. Halep yakınlarındaki savaşı Tutuş kazandı, Süleyman Şah hayatını kaybetti.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Halep yakınlarında Aynüseylem denilen yerde meydana gelen savaş Tutuş’un galibiyeti ve Süleyman Şah’ın ölümüyle sonuçlandı (18 Safer 479 / 4 Haziran 1086).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "suriye-selcuklu",
+    "selcuklu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1095-02-25",
+   "k": "savas",
+   "b": "Tutuş Berkyaruk'a yenilip öldü; Suriye Selçukluları ikiye bölündü",
+   "gun": "25 Şubat 1095",
+   "yer": "Rey yakını",
+   "kisiler": "Tutuş; Berkyaruk; Rıdvân; Dukak",
+   "d": "Melikşah'ın ölümünden sonra Musul, Halep ve Diyarbekir'i ele geçiren Tutuş, Büyük Selçuklu tahtı için Berkyaruk'la savaştı; askerlerinin bir kısmı karşı tarafa geçince yenildi ve öldü. Ülkesi oğulları arasında paylaşıldı: Rıdvân Halep'te, Dukak Dımaşk'ta hüküm sürmeye başladı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Ancak Büyük Selçuklu tahtı için giriştiği mücadele sırasında Berkyaruk ile yaptığı savaşta hayatını kaybetti (16 Safer 488 / 25 Şubat 1095).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "suriye-selcuklu",
+    "buyuk-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "Aynı maddenin Büyük Selçuklu bölümü yalnız 'Safer 488 / Şubat 1095' der; gün Suriye bölümünden."
+  },
+  {
+   "t": "1097-08-28",
+   "k": "olay",
+   "b": "Rıdvân Halep'te Fâtımî halifesi adına hutbe okuttu",
+   "gun": "28 Ağustos 1097",
+   "yer": "Halep",
+   "kisiler": "Melik Rıdvân",
+   "d": "Fâtımîlerin desteğini sağlamak isteyen Halep meliki Rıdvân, hutbeyi Fâtımî halifesi adına okuttu; bir Selçuklu melikinin Fâtımî halifesini metbû tanıdığı ilk durumdu. Sünnî dünyanın tepkisi üzerine dört hafta sonra, 22 Eylül 1097'de, hutbe yeniden Abbâsî halifesi ve Selçuklu sultanı adına okunmaya başladı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Rıdvân, Fâtımîler’in desteğini sağlamak için Fâtımî halifesi adına hutbe okuttu (17 Ramazan 490 / 28 Ağustos 1097); ancak Sünnî İslâm dünyasından gelen tepkiler üzerine dört hafta sonra bu kararından vazgeçti (12 Şevval 490 / 22 Eylül 1097).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "suriye-selcuklu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Fâtımîler. Toprak değişimi yok — süs olay sayılırsa düşürülebilir."
+  },
+  {
+   "t": "1104-01-01",
+   "k": "yikilis",
+   "b": "Dımaşk Selçuklu melikliği sona erdi; Börîler dönemi başladı",
+   "gun": "Safer 498 / Ekim-Kasım 1104 (gün bilinmiyor)",
+   "yer": "Dımaşk",
+   "kisiler": "Atabeg Tuğtegin; Ertaş (Bektaş); II. Tutuş",
+   "d": "Dukak'ın 6 Haziran 1104'te ölümünden sonra atabeg Tuğtegin önce küçük II. Tutuş'u, sonra Ertaş'ı tahta oturttu. Tuğtegin'den korkan Ertaş'ın şehirden kaçmasıyla Dımaşk Selçuklu melikliği bitti; şehirde Börîler (Dımaşk Atabegleri) hüküm sürmeye başladı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Ertaş’ın Tuğtegin’in kendisini öldüreceğinden korkup annesi ve bir emîrle birlikte şehirden gizlice ayrılmasıyla (Safer 498 / Ekim-Kasım 1104) Dımaşk Selçuklu Melikliği de sona ermiş oldu.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "suriye-selcuklu"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "hanedan-degisimi"
+   ],
+   "ic_not": "Karşı taraf künyesiz: Dımaşk Atabegleri (Börîler)."
+  },
+  {
+   "t": "1121-01-01",
+   "k": "savas",
+   "b": "Gürcüler Selçuklu ordusunu yenip Tiflis'i aldı",
+   "gun": "515/1121 (gün bilinmiyor)",
+   "yer": "Tiflis",
+   "kisiler": "Arrân Meliki Tuğrul; Atabeg Gündoğdu; Artuklu İlgazi",
+   "d": "Sultan Mahmud'un zayıflığından yararlanan Gürcüler Kıpçaklarla ittifak ederek İslâm topraklarına akınlara başladı. Arrân meliki Tuğrul, Artuklu İlgazi ve Dübeys b. Sadaka'nın bulunduğu Türk ordusunu yenip Tiflis'i ele geçirdiler.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sadaka’nın bulunduğu Türk ordusunu ağır bir yenilgiye uğrattılar ve Tiflis’i ele geçirip korkunç bir şekilde yağmaladılar (515/1121).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "irak-selcuklu",
+    "artuklu"
+   ],
+   "etiket": [
+    "toprak-kayip",
+    "konu-askeri"
+   ],
+   "ic_not": "TDV savaşı '514 (1120) yılında' diye başlatıp Tiflis'in alınmasını 515/1121'e bağlıyor; madde 1121 = Tiflis'in düşüşü. Tiflis o sırada Selçuklu değil yerel emirlik olabilir — 'toprak-kayip' Selçuklu cephesi için genel. Kıpçaklar künyesiz. · gurcistan tarafı düşürüldü: künye-içi Didgori maddesi var (mükerrer olmasın)."
+  },
+  {
+   "t": "1132-05-25",
+   "k": "savas",
+   "b": "Dînever Savaşı: Sencer yeğenlerini yendi, Tuğrul'u tahta çıkardı",
+   "gun": "25 Mayıs 1132",
+   "yer": "Dînever",
+   "kisiler": "Sultan Sencer; Mesud; Selçuk Şah; I. Tuğrul",
+   "d": "Mahmud'un ölümünden sonra halife ile ittifak kuran Mesud ve Selçuk Şah, amcaları Sencer'e karşı çıktı. Sencer onları Dînever yakınında bozguna uğrattı; Mesud'a Arrân'ı verip kardeşi Tuğrul'u Irak Selçuklu tahtına geçirdi ve Horasan'a döndü.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sultan Sencer, kendisiyle savaşmaktan çekinerek Azerbaycan’a gitmekte olan yeğenlerini Dînever yakınlarında bozguna uğrattı (8 Receb 526 / 25 Mayıs 1132).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "buyuk-selcuklu",
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-askeri"
+   ]
+  },
+  {
+   "t": "1134-01-01",
+   "k": "hanedan",
+   "b": "Mesud Irak Selçuklu tahtına geçti",
+   "gun": "Muharrem 529 / Kasım 1134 (gün bilinmiyor)",
+   "yer": "Hemedan",
+   "kisiler": "Sultan Mesud; I. Tuğrul",
+   "d": "Mücadeleyi sürdüren Mesud, kardeşi Tuğrul'un ölümü üzerine Irak Selçuklu tahtına geçti. Ardından kendisine karşı yürüyen Halife Müsterşid'i esir aldı; halife kısa süre sonra Bâtınîlerce öldürüldü.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Mücadeleyi sürdüren Mesud, bir ara Hemedan’da hükümdarlık tahtını elde ettikten sonra Tuğrul’un vefatı üzerine onun yerine geçti (Muharrem 529 / Kasım 1134).",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ]
+  },
+  {
+   "t": "1152-10-02",
+   "k": "hanedan",
+   "b": "Sultan Mesud öldü",
+   "gun": "2 Ekim 1152",
+   "yer": "Hemedan",
+   "kisiler": "Sultan Mesud; III. Melikşah",
+   "d": "Emîrleri tahakkümden kurtardıktan sonra güçlü bir hükümdar olarak saltanat süren Mesud öldü. İbnü'l-Esîr onu son büyük Selçuklu hükümdarı sayar; ardından tahta çıkarılan sultanlar kabiliyetsiz kaldı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Sultan Mesud, kendisine tahakküm etmek isteyen emîrleri ortadan kaldırdıktan (542/1147) sonra güçlü bir hükümdar olarak saltanat sürdü ve 1 Receb 547 (2 Ekim 1152) tarihinde vefat etti.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi"
+   ],
+   "ic_not": "Yer 'Hemedan' önbellek cümlesinde yok (çıkarım) — boş bırakılabilir."
+  },
+  {
+   "t": "1161-01-01",
+   "k": "hanedan",
+   "b": "Arslanşah tahta çıktı; İldeniz atabegliği başladı",
+   "gun": "556/1161 (gün bilinmiyor)",
+   "yer": "Hemedan",
+   "kisiler": "Arslanşah; Şemseddin İldeniz",
+   "d": "Kabiliyetsiz Süleyman Şah yerine emîrler, Arrân ve Azerbaycan'da bulunan İldeniz'in yanındaki Arslanşah'ı tahta çıkardı. İldeniz onun atabegi oldu; böylece Irak Selçuklularında fiilî gücün atabeglere geçtiği dönem başladı.",
+   "kaynak": "TDV: selcuklular (SELÇUKLULAR)",
+   "alinti": "Arslanşah tahta çıkarıldı (556/1161), İldeniz de onun atabegi oldu.",
+   "alinti_slug": "selcuklular",
+   "taraflar": [
+    "irak-selcuklu"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Karşı taraf/ortak künyesiz: İldenizliler (başka grupta önerilecek olabilir)."
+  }
+ ],
+ "bulunamadi": [
+  "melikşah — TDV slug meliksah ve melikshah 302 (ölü); `ara` denenmedi, olaylar selcuklular maddesinden alındı.",
+  "tekis — slug 302; Irak Selçuklularının sonu (1194) için gün bulunamadı (yalnız yıl).",
+  "Büyük Selçuklu başkentinin İsfahan'a taşınma tarihi — önbellekte tarihli cümle bulunamadı.",
+  "Alparslan'ın Ani fethi (1064) — selcuklular maddesinde yıl yazılmamış; madde yazılmadı.",
+  "Abbâsî, Fâtımî, Büveyhî, Karahıtay, Karahanlı, Hârizmşah, İldenizli, Salgurlu, Börî künyeleri devletler.js'te YOK (ölçüldü) — taraflara yazılmadı."
+ ]
+}

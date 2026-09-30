@@ -1,0 +1,256 @@
+{
+ "kaynak": "denetim/ONCE1281-DOGU-ASYA-KUNYE.json",
+ "okunan": 49,
+ "kabul": [
+  {
+   "id": "liao-hanedani",
+   "islem": "yeni",
+   "f": "916-01-01",
+   "t": "1125-01-01"
+  },
+  {
+   "id": "bati-xia",
+   "islem": "yeni",
+   "f": "1038-01-01",
+   "t": "1227-01-01"
+  },
+  {
+   "id": "dali-kralligi",
+   "islem": "yeni",
+   "f": "937-01-01",
+   "t": "1253-01-01"
+  },
+  {
+   "id": "dongxia",
+   "islem": "yeni",
+   "f": "1215-01-01",
+   "t": "1233-01-01"
+  },
+  {
+   "id": "tien-le-hanedani",
+   "islem": "yeni",
+   "f": "980-01-01",
+   "t": "1009-01-01"
+  },
+  {
+   "id": "ly-hanedani",
+   "islem": "yeni",
+   "f": "1009-01-01",
+   "t": "1225-01-01"
+  },
+  {
+   "id": "heian-japonya",
+   "islem": "yeni",
+   "f": "794-01-01",
+   "t": "1185-01-01"
+  },
+  {
+   "id": "oshu-fujiwara",
+   "islem": "yeni",
+   "f": "1087-01-01",
+   "t": "1189-01-01"
+  },
+  {
+   "id": "srivijaya",
+   "islem": "yeni",
+   "f": "683-01-01",
+   "t": "1275-01-01"
+  },
+  {
+   "id": "medang",
+   "islem": "yeni",
+   "f": "732-01-01",
+   "t": "1016-01-01"
+  },
+  {
+   "id": "kahuripan",
+   "islem": "yeni",
+   "f": "1019-01-01",
+   "t": "1042-01-01"
+  },
+  {
+   "id": "kediri",
+   "islem": "yeni",
+   "f": "1042-01-01",
+   "t": "1222-01-01"
+  },
+  {
+   "id": "bali-warmadewa",
+   "islem": "yeni",
+   "f": "914-01-01",
+   "t": "1284-01-01"
+  },
+  {
+   "id": "hariphunchai",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1292-01-01"
+  },
+  {
+   "id": "guge",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1630-01-01"
+  },
+  {
+   "id": "sakya",
+   "islem": "yeni",
+   "f": "1264-01-01",
+   "t": "1354-01-01"
+  },
+  {
+   "id": "angkor-kmer",
+   "islem": "genislet",
+   "f": "1281-01-01→802-01-01",
+   "t": "1431-01-01→1431-01-01"
+  },
+  {
+   "id": "campa",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1832-01-01→1832-01-01"
+  },
+  {
+   "id": "filipin-racaliklari",
+   "islem": "genislet",
+   "f": "1281-01-01→1001-01-01",
+   "t": "1571-06-24→1571-06-24"
+  },
+  {
+   "id": "ternate-sultanligi",
+   "islem": "dokunmadim+ic_not_f",
+   "f": "1281-01-01",
+   "t": "1663-01-01"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [
+  "ternate-sultanligi",
+  "song",
+  "jin-hanedani",
+  "yuan-hanedani",
+  "mogol-imparatorlugu",
+  "goryeo",
+  "kamakura",
+  "pagan",
+  "singhasari",
+  "tran-hanedani",
+  "sukhothai",
+  "lan-na",
+  "sunda-pajajaran",
+  "poni",
+  "arakan",
+  "lan-xang",
+  "san-devletleri",
+  "samudra-pasai",
+  "timor-beylikleri",
+  "malay-sultanliklari",
+  "palembang-sultanligi",
+  "pagaruyung",
+  "gova-makassar",
+  "tidore-sultanligi",
+  "banda-adalari",
+  "magindanao-sultanligi",
+  "tibet",
+  "edo-bakufu",
+  "majapahit",
+  "kamboc-kralligi"
+ ],
+ "boya_gerekli": [
+  {
+   "id": "liao-hanedani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "bati-xia",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "dali-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "dongxia",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "tien-le-hanedani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ly-hanedani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "heian-japonya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "oshu-fujiwara",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "srivijaya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "medang",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kahuripan",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kediri",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "bali-warmadewa",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "hariphunchai",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "guge",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "sakya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "song",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": "960→1279 kuşağı zaten kapsıyor. BOYALAR'da 'song' YOK (ölçüldü) → 1281 öncesi haritada Çin'in ana gövdesi BOYANMAZ: boya kalemine alınmalı. Kuzey/Güney Song tek künyede (TDV cin--ulke 'Güney Sung devrinden (1127-1279)' — alt dönem, ayrı künye önerilmedi)."
+  },
+  {
+   "id": "jin-hanedani",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": "1115→1234 tamam. BOYALAR'da YOK → boya kalemine."
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  733,
+  749
+ ]
+}

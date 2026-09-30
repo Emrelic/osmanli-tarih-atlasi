@@ -1,0 +1,188 @@
+{
+ "kaynak": "denetim\\ONCE1281-ORTADOGU-KUNYE.json",
+ "okunan": 38,
+ "kabul": [],
+ "red": [
+  {
+   "id": "abbasi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "ukayli",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "mezyedi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "zengi-musul",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "zengi-halep",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "begteginli",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "lului",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "hamdani-halep",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "numeyri",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "fatimi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "mirdasi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "boriler",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "munkizogullari",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "beni-ammar-trablussam",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "kudus-kralligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "antakya-prinkipsligi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "urfa-kontlugu",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "trablus-kontlugu",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "eyyubi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "eyyubi-halep",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "eyyubi-hama",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "karmati",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "uyuni",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "usfuri",
+   "islem": "genislet",
+   "sebep": "④ genislet f GERİ çekmiyor: 1229-01-01 ≥ mevcut 1229-01-01 (kısaltma bu yoldan yapılmaz)"
+  },
+  {
+   "id": "mekke-serifligi",
+   "islem": "genislet",
+   "sebep": "④ genislet f GERİ çekmiyor: 0969-01-01 ≥ mevcut 0969-01-01 (kısaltma bu yoldan yapılmaz)"
+  },
+  {
+   "id": "suleyhi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "zureyi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "necahi",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "hamdani-yemen",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "benu-mehdi-zebid",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "resuli",
+   "islem": "yeni",
+   "sebep": "② id ZATEN VAR — 'yeni' olamaz"
+  },
+  {
+   "id": "medine-emirligi",
+   "islem": "yeni",
+   "sebep": "③ tarih biçimi: f=0969-01-01 t=None"
+  }
+ ],
+ "dokunmadim": [
+  "buveyhi",
+  "suriye-selcuklu",
+  "memluk",
+  "kibris-krallik",
+  "yemen-zeydi",
+  "eyyubi-hisnikeyfa"
+ ],
+ "boya_gerekli": [],
+ "uyari": [
+  "buveyhi (dokunmadim) notu veriye taşınmadı: Künye bu oturum çalışırken başka bir oturumun önerisiyle devletler.js'e girdi (evren 721→779). Yeniden AÇILMADI. Bu oturumun ölçümü: f 0932-01-01 · t 1056-01-01",
+  "suriye-selcuklu (dokunmadim) notu veriye taşınmadı: Künye bu oturum çalışırken başka bir oturumun önerisiyle devletler.js'e girdi (evren 721→779). Yeniden AÇILMADI. Bu oturumun ölçümü: f 1079-01-01 · t 1117-01-01",
+  "memluk (dokunmadim) notu veriye taşınmadı: Künye f yıl hassasiyetinde (1250-01-01) ve TDV ile çelişmiyor. TDV 'eyyubiler' (R. Şeşen): \"Böylece 3 Temmuz 1250 tarihinde Mısır’da Memlükler devri resmen başl",
+  "kibris-krallik (dokunmadim) notu veriye taşınmadı: Kuşakta yaşıyor, künyesi var ve f'si 1281'den önce ⇒ genişletme gerekmiyor. bolge alanı 'anadolu' (Osmanlı komşuluğu mantığı); değiştirmedim.",
+  "yemen-zeydi (dokunmadim) notu veriye taşınmadı: Kuşağı zaten kapsıyor (f 897). Künyeye dokunulmadı; 1000-1281 olaylarından TDV'nin tarihlediği birkaç madde kronoloji dosyasına yemen-zeydi taraflı eklendi (var",
+  "eyyubi-hisnikeyfa (dokunmadim) notu veriye taşınmadı: Eyyûbî kolu; künyesi var ve bolge 'anadolu'. TDV 'eyyubiler': el-Melikü’l-Kâmil 630 (1232) yılında \"Önce Âmid’i, daha sonra Hısnıkeyfâ’yı zaptederek Artuklular’"
+ ],
+ "kunye": [
+  840,
+  840
+ ]
+}

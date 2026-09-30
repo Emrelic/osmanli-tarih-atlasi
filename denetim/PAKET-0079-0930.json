@@ -1,0 +1,104 @@
+{
+  "parti": "parti-emrelic-0079",
+  "oturum": "PAKET-0079-0930",
+  "tarih": "2026-09-30",
+  "dagilim": {"cozuldu": 7, "olculecek": 3, "senin-kararin": 4, "zaten-dogru": 1, "sirada": 1},
+  "madde": {
+    "H-0001": {
+      "hukum": "olculecek",
+      "sinif": "motor · harita görünümü (gövde çakışması)",
+      "not": "Kök sebep GOVDE-CAKISMA-0079 §0 (kapama/B2/B3 ekleme adımları komşu toprağını görmüyor). ÇARE İNDİ: yama `denetim/GOVDE-CAKISMA-0079-yama.diff` Koşu 16 ile motora girdi — `git apply --check` REDDİ bayatlık değil, yama ZATEN İÇERİDE (`git apply --check -R` temiz; `arac/uret_petek.py:6603 _gun_sahipleri`, `:6629 _komsu_toprak_cikar`, çağrı `:6820` ve `:7072`). Koşu 16 sonrası bu pencerede (Cizre 1281) çakışma ÖLÇÜLMEDİ; yamanın öngörüsü ≥%80 düşüş, sıfır değil. Ölçüm: `py denetim/GOVDE-CAKISMA-0079-olc.py` H-79:1 penceresi, koşu 18 bitince (RAM). kd: çaresi YOK (CLAUDE.md §3).",
+      "delil": "commit 76351781 (KOSU 16 — tam insa, 4 motor yamasi: GOVDE-CAKISMA-0079-yama.diff) · arac/uret_petek.py:6629"
+    },
+    "H-0002": {
+      "hukum": "olculecek",
+      "sinif": "motor · harita görünümü (gövde çakışması)",
+      "not": "H-0001 ile aynı sınıf (Trabzon 1281, trabzon-rum × ilhanlı; görsel Koşu 15 inişinden 28 sn sonra = büyük olasılıkla eski gövde). Emre'nin 'yaptın mı' sorusunun cevabı: kök sebep bulundu (GOVDE-CAKISMA-0079) ve yama Koşu 16'da İNDİ; canlı gövdede etkisi bu pencerede ölçülmedi.",
+      "delil": "commit 76351781 · arac/uret_petek.py:6603-6633"
+    },
+    "H-0003": {
+      "hukum": "senin-kararin",
+      "sinif": "veri (künye aşımı / hayalet devlet)",
+      "not": "BUGÜN ölçüldü (girdi.yukle, 4296 nokta): 1281-01-01 kutuda 3 nokta hâlâ `d:\"iran\"` — Tarki 1281→1501-07-01, Ağraham burnu 1281→1501-07-01, Derbend 1281→1509-01-01 (data/yerlesimler.js:667, :632). `iran` künyesi f:1925-12-12 (data/devletler.js:179-180). Bütün veride künye öncesi `iran` 5 pencere (+Dihistan ovası, Kızılarvat 1507-1510). Etiket BOYALAR adından geliyor (arac/renkler.py:273). Seçenekler ASYA-0079 §H-79:3: ① 3 pencere → `__BOSLUK__` (önerilen; TDV 'el değiştirdi') · ② Derbend 1382-1501 sirvansah (zayıf dayanak) · ③ ilhanli (TDV 'kaleyi ele geçiremedi' → yanlış) · ④ Kumuk şamhallığı geriye (yıl bulunamadı). Karar verilmemiş, veri değişmemiş. Sessiz borç 12 listesinde DEĞİL.",
+      "delil": ""
+    },
+    "H-0004": {
+      "hukum": "zaten-dogru",
+      "sinif": "veri · kapsam (bölge kronolojisi)",
+      "not": "ASYA-0079 §H-79:4 ölçtü, bugün tekrar: 1281 kutuda (38.4-47.2K × 49.5-64.5D) altinorda 7 · cagatay 3 · ilhanli 2 · sahipsiz 7 (Karakum, Uzboy, Üstyurt×2, Krasnovodsk, Yeni Ürgenç, Guryev). Siyasi yapılar çiziliyor (İlhanlı→Serbedâr→Timurlu→Şeybânî/Safevî→Hîve/Kaçar/Rusya); TDV `turkmenler`: bozkırda kalıcı Türkmen devleti kurulmadı. Boş görünen yer çöl iç kesimi. 'Dört aşiret' = data/bos_alanlar.js'in 4 zamansız `kabile` beneği. ALT BORÇLAR (senin-kararin, ASYA-0079): ① Hârizm Sûfîleri künyesi YOK (bugün devletler.js'te 'sufi' 0 eşleşme; KUNYE-UYGULA-0930 açmamış) · ② bos_alanlar beneklerine f/t/kaynak · ③ Dihistan/Kızılarvat 1507-1510 `iran`.",
+      "delil": ""
+    },
+    "H-0005": {
+      "hukum": "senin-kararin",
+      "sinif": "motor · tasarım (B2 köprü şekli)",
+      "not": "GOVDE-CAKISMA-0079 §1b/§5④: kutu sınıfı DEĞİL, çakışma yok; düz çizgi/üçgenler B2 enklav köprüsünün kavisli yamuk kuralı (29 Ağu) + puan kapısı/kara maskesi kesimi + 101 noktalı Yuan'ın seyrek Voronoi'si. Seçenekler: (a) olduğu gibi · (b) B2 komşuya değmesin — bu kısım Koşu 16 yamasıyla FİİLEN indi (şekil kalır) · (c) seyrek bölgede B2 kapat (tasarım değişikliği, ölçülmedi). Karar bulunamadı.",
+      "delil": ""
+    },
+    "H-0006": {
+      "hukum": "olculecek",
+      "sinif": "motor · harita görünümü (gövde çakışması)",
+      "not": "GOVDE-CAKISMA-0079: Yuan × Tran 4.555 km² çakışma, %75'i B2 köprüsü; yama sınavında 0. Yama Koşu 16'da İNDİ; canlı gövdede G. Çin 1281 penceresi ölçülmedi (GOVDE-CAKISMA-0079-olc.py, koşu 18 sonrası).",
+      "delil": "commit 76351781 · arac/uret_petek.py:6820"
+    },
+    "H-0007": {
+      "hukum": "cozuldu",
+      "sinif": "veri (devlet var, yeri yanlış — D204)",
+      "not": "DUNYA-0079 yama A (16 nokta, 'yeni-ispanya → meksika → 1923' kalıbı) İNDİ. BUGÜN ölçüldü: 1873-01-01 ABD kutusunda (25.75-41.68K × 96.97-73.52B) meksika sahipli nokta 0 (abd 56, sahipsiz 2); canlı devletler_harita.js `meksika` 1869-05-14→1879-09-29 dönemi 101 parça, görseldeki üç lekenin (Doğu Teksas · Florida · St. Louis) yerinde halka YOK. YAN BORÇ (olculecek, bu maddenin görselinde değil): Corpus Christi kıyısında 11 köşeli küçük meksika halkası (97.3-97.1B, 27.9-28.0K) ve ana gövdenin 32.8°K üstüne 68 köşeyle taşması (113.4-103.2B, ≤33.4K) — sebebi ölçülmedi; DUNYA-0079'un El Paso del Norte / La Junta yanlış yaka koordinatları da açık.",
+      "delil": "commit 2e656b0d (Koşu 16 öncesi veri indi — DUNYA-0079) + 76351781 (Koşu 16 gövde) · girdi.yukle 1873 ABD kutusu meksika=0 · data/devletler_harita.js meksika dnm 1869-05-14→1879-09-29"
+    },
+    "H-0008": {
+      "hukum": "cozuldu",
+      "sinif": "arayüz",
+      "not": "Tarihe git kutusu odak devletin kronolojisinde arıyor. Tarayıcıda ölçülmedi (koşu sürüyor); delil canlı kod + commit.",
+      "delil": "commit 7a909771 (ARAYUZ-0077-B) · js/app.js:14089 'H-79:8 — odakta başka devlet varsa ONUN kronolojisinde ara' · js/app.js:11939 ODAK GEZİNTİ KAPISI"
+    },
+    "H-0009": {
+      "hukum": "cozuldu",
+      "sinif": "arayüz",
+      "not": "3 sn hareketsiz bekleyince ipucu balonu; metin IPUCU_EK + title. Tarayıcıda ölçülmedi.",
+      "delil": "commit 7a909771 · js/app.js:15047 'H-79:9 — İPUCU BALONU (3 sn hareketsiz bekleyince)' · css/style.css:45"
+    },
+    "H-0010": {
+      "hukum": "senin-kararin",
+      "sinif": "veri (hayalet devlet — Tuna 1281)",
+      "not": "Metinsiz; H-0011'in görseli (1281 Tuna ağzı). Hüküm ve delil H-0011 ile aynı.",
+      "delil": ""
+    },
+    "H-0011": {
+      "hukum": "senin-kararin",
+      "sinif": "veri (hayalet devlet — Tuna 1281)",
+      "not": "1281'de ne Boğdan (1359) ne Eflak (1330) var. DUNYA-0079 yama B İNDİ, BUGÜN ölçüldü (1281, 44.27-46.17K × 26.43-29.92D): Kili · Kalas · İsmail · Kahul → altinorda (TDV bucak/akkirman) · İbrail · Buzău · Rimnik → macaristan (TDV eflak) · bogdan/eflak 0. AÇIK KALAN iki karar (DUNYA-0079 'senin kararın'): B3 — Babadağı ve İshakçı hâlâ `bulgaristan` (TDV dobruca 'Moğol hâkimiyetine giren Dobruca'; `--dobruca` uygulanmamış), Dobruca'nın bitiş günü bulunamadı · B2 — İbrail/Buzău/Rimnik Bărăgan kenarı. Köstence 1281 `bulgaristan` (kutu dışında, aynı B3 sorusu).",
+      "delil": "kısmi iniş: commit 2e656b0d · data/yerlesimler (İbrail s: 1281-1330 macaristan 'TDV eflak … — DUNYA-0079')"
+    },
+    "H-0012": {
+      "hukum": "sirada",
+      "sinif": "veri (noktasızlık)",
+      "not": "CLAUDE.md §2 ilk soru: noktası var mı? 1281 kutuda (46.5-48.77K × 12.18-15.2D) yalnız 5 nokta (Freistadt, Linz, Gmünd, Lienz, Klagenfurt — hepsi `almanya`). Salzburg bütün veride yerleşim DEĞİL (yalnız sınır/kronoloji/yama metinlerinde geçiyor). Hohe Tauern/Salzburg havzası en yakın noktalardan uzak ⇒ sahipsiz kalıyor. İş: nokta kolu (Salzburg vb., kaynaklı, yakın mükerrer taraması). Sessiz borç 12 listesinde değil.",
+      "delil": ""
+    },
+    "H-0013": {
+      "hukum": "cozuldu",
+      "sinif": "veri (künye dar — sınıf ②)",
+      "not": "DUNYA-0079 yama C İNDİ: Moskova noktası 1283-01-01'den `moskova` (ESBE 'не позднее 1283'), künye f 1325→1283. Görsel 27 Eyl 11:59, veri 13:59'da indi. Canlı gövde Koşu 16'da üretildi. Yan borç (DUNYA-0079, olculecek): 14 nokta aynı gün 1325'te blok kopya altinorda→moskova.",
+      "delil": "data/yerlesimler.js:1113 s:{f:1283-01-01,d:moskova} · data/devletler.js:295 moskova f:1283-01-01 · data/devletler_harita.js moskova dnm f:1283-01-01 · commit 2e656b0d + 76351781"
+    },
+    "H-0014": {
+      "hukum": "cozuldu",
+      "sinif": "arayüz",
+      "not": "Devlet kronolojisi satırlarına Osmanlı satırlarının aynı sağ tık kopyala menüsü bağlandı. Tarayıcıda ölçülmedi.",
+      "delil": "commit 7a909771 · js/app.js:14855-14857 'H-79:14 — sağ tık kopyala menüsü devlet kronolojisinde HİÇ bağlı değildi'"
+    },
+    "H-0015": {
+      "hukum": "cozuldu",
+      "sinif": "arayüz",
+      "not": "⏮ ⏭ · tarihe git · olay olay oynatma odak devletin kronolojisinde çalışıyor (ODAK_GEZINTI kapısı). Tarayıcıda ölçülmedi.",
+      "delil": "commit 7a909771 · js/app.js:11939-11946 ODAK GEZİNTİ KAPISI · js/app.js:11968 · js/app.js:13966, 13980"
+    },
+    "H-0016": {
+      "hukum": "cozuldu",
+      "sinif": "arayüz",
+      "not": "Çoklu devlet havuzu: '+ ek' ile birden çok devletin kronolojisi odağınkiyle aynı havuza katılıyor; H-79:16 ile Osmanlı da odak/ek olabiliyor. Tarayıcıda ölçülmedi.",
+      "delil": "commit 7a909771 · js/app.js:14399 'H-79:16: Osmanlı da odak olabilir' · js/app.js:14468, 14502 · js/app.js:14664 · css/style.css:109"
+    }
+  }
+}

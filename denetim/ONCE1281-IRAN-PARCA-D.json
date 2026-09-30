@@ -1,0 +1,943 @@
+{
+ "grup": "D",
+ "kunyeler": [
+  {
+   "id": "mogol-imparatorlugu",
+   "ad": "Moğol İmparatorluğu (bölünmemiş)",
+   "islem": "dokunmadim",
+   "tur": "imparatorluk",
+   "bolge": "dogu-asya",
+   "f": "1206-01-01",
+   "t": "1260-01-01",
+   "kaynak": "TDV: cengiz-han (CENGİZ HAN) · mogollar (MOĞOLLAR)",
+   "ic_not_f": "f 1206 kurultayı TDV ile uyumlu; dokunulmadı.",
+   "ic_not_t": "t 1260 (Mengü'nün 1259 ölümü sonrası taht kavgası) TDV kubilay-kagan ile uyumlu; dokunulmadı.",
+   "alinti_f": "Timuçin 1206 yılında, Nayman Tayang Han, Ong Han ve Kutuku-Beki başta olmak üzere bütün bozkır hükümdarlarını hâkimiyeti altında toplamıştı.",
+   "alinti_t": "1259’da Mengü Kağan’ın vefatı üzerine Sung Devleti ile barış yaparak Moğolistan’a döndü ve en küçük kardeşi Arıkboğa ile (Arık Buka) taht mücadelesine girişti.",
+   "alinti_t_slug": "kubilay-kagan",
+   "kronoloji": []
+  },
+  {
+   "id": "ilhanli",
+   "ad": "İlhanlı Devleti",
+   "islem": "dokunmadim",
+   "tur": "devlet",
+   "bolge": "iran",
+   "f": "1256-01-01",
+   "t": "1353-01-01",
+   "kaynak": "TDV: ilhanlilar (İLHANLILAR) · hulagu (HÜLÂGÛ)",
+   "ic_not_f": "f 1256 TDV 'kurulan (1256)' ile uyumlu. İstenirse güne inebilir: Alamut teslimi 19 Kasım 1256 (hulagu) — ama ilhanlılık ilanını TDV sikke/Alamut sonrası diye YILLA verir; f'yi güne çekmek sahte kesinlik olur, dokunulmadı.",
+   "ic_not_t": "t 1353 bu grubun kuşağı dışında; dokunulmadı.",
+   "alinti_f": "Bu suretle başşehri Tebriz olmak üzere İran’da kurulan (1256) ve 1295 yılından itibaren tam bağımsız hale gelen devlet",
+   "alinti_t": "",
+   "kronoloji": []
+  },
+  {
+   "id": "altinorda",
+   "ad": "Altın Orda (Deşt-i Kıpçak Hanlığı)",
+   "islem": "dokunmadim",
+   "tur": "hanlik",
+   "bolge": "sibirya-bozkir",
+   "f": "1242-01-01",
+   "t": "1502-01-01",
+   "kaynak": "TDV: batu-han (BATU HAN) · altin-orda-hanligi (ALTIN ORDA HANLIĞI)",
+   "ic_not_f": "TDV'de iki yıl: altin-orda-hanligi 'Batu Han ... 1241 yılında İdil nehrinin aşağı mecrasına dönerek Orda merkezini kurdu', batu-han '1242 yılında yurduna döndü'. Künyedeki 1242 batu-han'a dayanıyor; iki madde çelişiyor, dokunulmadı — koordinatör hükmü.",
+   "ic_not_t": "kuşak dışı; dokunulmadı.",
+   "alinti_f": "Bu sefer sonunda, babasının adıyla anılan Cuci ulusunun ve bu ulusun batı kanadını teşkil eden Altın Orda Hanlığı’nın gerçek kurucusu Batu Han olmuştur.",
+   "alinti_t": "",
+   "kronoloji": []
+  },
+  {
+   "id": "cagatay",
+   "ad": "Çağatay Hanlığı",
+   "islem": "dokunmadim",
+   "tur": "hanlik",
+   "bolge": "orta-asya",
+   "f": "1227-01-01",
+   "t": "1370-01-01",
+   "kaynak": "TDV: cagatay-hanligi (ÇAĞATAY HANLIĞI)",
+   "ic_not_f": "1227 Cengiz'in ölümü/pay; TDV ile uyumlu, dokunulmadı.",
+   "ic_not_t": "kuşak dışı.",
+   "alinti_f": "",
+   "alinti_t": "",
+   "kronoloji": []
+  },
+  {
+   "id": "kipcak",
+   "ad": "Kıpçaklar (Kumanlar) — Deşt-i Kıpçak",
+   "islem": "yeni",
+   "tur": "boylar-birligi",
+   "bolge": "sibirya-bozkir",
+   "f": "1054-01-01",
+   "t": "1239-01-01",
+   "baskent": "yok (başbuğ yurtları: Orta Asya, İtil-Yayık, Don-Donets, Aşağı Dinyeper, Tuna)",
+   "ozet": "Kimeklerin İşim-Tobol kolundan çıkıp XI. yüzyıl ortasında Güney Rusya bozkırına yerleşen Kıpçak-Kuman boyları, Balkaş'tan Tuna ağzına uzanan Deşt-i Kıpçak'a hâkim oldular. 1223 Kalka yenilgisi ve 1237-1239 Batu seferiyle dağıldılar.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR)",
+   "ic_not_f": "f = Rus yıllıklarında ilk anılış (1054), Güney Rusya'ya gelişlerinin TDV'deki ilk YILLI tanıklığı. Kuruluş değildir: TDV 'devlet kuramamışlar' der — künye bir boylar birliğidir (tur alanı bu yüzden 'boylar-birligi'). 1054 öncesi Kimek içinde İrtiş/Balkaş sahasındaydılar (yılsız).",
+   "ic_not_t": "t = Köten'in Don-Donets'te dağıtılıp kaçabilenlerin Macaristan'a sığınması (1239); batu-han da '1239'da Kıpçaklar'ın ... son direnişleri de kırıldı' der. Alternatif t=1241 (Altın Orda kuruluşu sonrası 'hiçbir rolü kalmadı') — koordinatör seçer.",
+   "alinti_f": "Rus yıllıklarında ilk defa 1054 yılında “Polovtsı” adıyla zikredilen Kıpçaklar bu dönemde hâkimiyet sahalarını Dinyeper’e kadar genişlettiler.",
+   "alinti_t": "Başbuğ Köten kumandasındaki Kıpçak kuvvetleri Don ve Donets havzasında darmadağın oldu, kaçabilenler Macaristan’a sığındılar (1239).",
+   "kronoloji": [
+    {
+     "t": "1054-01-01",
+     "tur": "kurulus",
+     "b": "Kıpçaklar Güney Rusya bozkırında ilk kez anıldı (Polovtsı)",
+     "kaynak": "kipcaklar"
+    },
+    {
+     "t": "1239-01-01",
+     "tur": "yikilis",
+     "b": "Köten'in Kıpçakları Batu karşısında dağıldı, kalanlar Macaristan'a sığındı",
+     "kaynak": "kipcaklar"
+    }
+   ]
+  },
+  {
+   "id": "idil-bulgar",
+   "ad": "İdil (Volga) Bulgar Hanlığı",
+   "islem": "yeni",
+   "tur": "hanlik",
+   "bolge": "sibirya-bozkir",
+   "f": "0965-01-01",
+   "t": "1236-01-01",
+   "baskent": "Bulgar",
+   "ozet": "Orta İdil-Kama havzasında, 922'de İslâm'ı kabul eden ve 965'te Hazar üstünlüğünden kurtulan ticaret devleti. 1236'da Batu Han'ın seferiyle yakılıp yıkıldı; sonra Altın Orda'ya yarı bağımlı yaşadı.",
+   "kaynak": "TDV: idil-bulgar-hanligi (İDİL BULGAR HANLIĞI) · bulgar (BULGAR)",
+   "ic_not_f": "f = Hazar üstünlüğünden tam bağımsızlık (965). Yerleşme VII-VIII. yy, İslâm 922 — künye kuşağı (1000+) için bağımsızlık yılı seçildi. Dört haneli yazım (0965) pad kuralı için.",
+   "ic_not_t": "t = Batu Han'ın 1236 seferiyle ülkenin yakılıp yıkılması (iki TDV maddesi de 1236 der). ⚠️ TDV: 'Altın Orda Devleti zamanında yarı bağımlı da olsa siyasî varlıklarını devam ettirdiler' (1361 Pulat Timur, 1437 Kazan). Atlas bunu tâbi (v:) olarak göstermek isterse t uzatılmalı — koordinatör hükmü; bu öneri bağımsız varlığı kapatıyor.",
+   "alinti_f": "bu hakanlığın doğudan gelen Peçenek ve Kuman-Kıpçak akınları ve Ruslar’dan yediği ağır bir darbe neticesinde zayıflaması üzerine 965 yılında tam olarak bağımsızlıklarını kazandılar.",
+   "alinti_t": "Batu Han bu yenilginin intikamını almak için 1236’da İdil Bulgarları’nın üzerine sefere çıkarak ülkeyi baştan başa yakıp yıktı.",
+   "kronoloji": [
+    {
+     "t": "0965-01-01",
+     "tur": "kurulus",
+     "b": "İdil Bulgarları Hazar üstünlüğünden kurtulup tam bağımsız oldu",
+     "kaynak": "idil-bulgar-hanligi"
+    },
+    {
+     "t": "1236-01-01",
+     "tur": "yikilis",
+     "b": "Batu Han İdil Bulgar ülkesini yakıp yıktı",
+     "kaynak": "idil-bulgar-hanligi"
+    }
+   ]
+  },
+  {
+   "id": "kerayit",
+   "ad": "Kerâyitler (Ong Han ülkesi)",
+   "islem": "yeni",
+   "tur": "hanlik",
+   "bolge": "orta-asya",
+   "f": "1199-01-01",
+   "t": "1203-01-01",
+   "baskent": "bulunamadı",
+   "ozet": "Hükümdarları Ong Han (Tuğrul) Timuçin'in babası Yesügey'in ve gençliğinde Timuçin'in müttefikiydi. 1203'te Timuçin'e karşı suikast tertiplemesi üzerine Kerâyit ülkesi baskınla yağmalandı ve Moğol birliğine katıldı.",
+   "kaynak": "TDV: cengiz-han (CENGİZ HAN) — ayrı madde yok (302: kerayit, kerayitler, kereyitler, ong-han)",
+   "ic_not_f": "⚠️ f KURULUŞ DEĞİL: TDV Kerâyit için kuruluş yılı vermiyor. 1199 = Ong Han'ın TDV'deki ilk YILLI tanıklığı (Timuçin'le birlikte Nayman Buyruk Han'a karşı). Kerâyitler şüphesiz daha eskidir ama yıl yazılmadı (uydurma yasağı). Koordinatör ya bu tanıklık f'sini kabul eder ya künyeyi haritasız bırakır.",
+   "ic_not_t": "t = 1203: Timuçin'in Ong Han'ın yurdunu ve Kerayit ülkesini yağmalaması, Ong Han ile oğlunun kaçması. Gün/ay yok.",
+   "alinti_f": "1199’da Ong Han’la beraber Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han’ı bozguna uğrattı.",
+   "alinti_t": "Fakat bunu önceden haber alan Timuçin âni bir baskınla Ong Han’ın yurdunu ve Kerayit ülkesini yağmaladı. Ong Han ile oğlu kaçtılar.",
+   "kronoloji": [
+    {
+     "t": "1199-01-01",
+     "tur": "savas",
+     "b": "Ong Han ve Timuçin Nayman Buyruk Han'ı bozguna uğrattı",
+     "kaynak": "cengiz-han"
+    },
+    {
+     "t": "1203-01-01",
+     "tur": "yikilis",
+     "b": "Timuçin Kerâyit ülkesini yağmaladı, Ong Han kaçtı",
+     "kaynak": "cengiz-han"
+    }
+   ]
+  },
+  {
+   "id": "nayman",
+   "ad": "Naymanlar",
+   "islem": "yeni",
+   "tur": "hanlik",
+   "bolge": "orta-asya",
+   "f": "1199-01-01",
+   "t": "1204-01-01",
+   "baskent": "bulunamadı",
+   "ozet": "Batı Moğolistan'daki Nayman hakanlığı (Buyruk Han, Tayang Han) Timuçin'in en güçlü rakiplerindendi; 1204'te Merkit ittifakıyla birlikte dağıtıldı. Tayang Han'ın oğlu Güçlüg Karahıtay'a sığınıp orada hâkim oldu.",
+   "kaynak": "TDV: cengiz-han (CENGİZ HAN) · mogollar (MOĞOLLAR) — ayrı madde yok (302: nayman, naymanlar, tayang-han)",
+   "ic_not_f": "⚠️ f KURULUŞ DEĞİL: TDV Nayman için kuruluş yılı vermiyor; 1199 = ilk YILLI TDV tanıklığı (Buyruk Han'ın bozgunu). Kerâyit ile aynı çekince.",
+   "ic_not_t": "t = 1204: Tayang Han-Merkit ittifakının yurtlarında basılıp dağıtılması. mogollar ise 'sırasıyla Kırgız, Merkit, Nayman ve Uygurlar'ı 1209'a kadar' idaresine aldı der (toplu, yılsız sıra). 1208 Güçlüg-Merkit yenilgisi artçı çatışmadır.",
+   "alinti_f": "1199’da Ong Han’la beraber Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han’ı bozguna uğrattı.",
+   "alinti_t": "1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını",
+   "kronoloji": [
+    {
+     "t": "1199-01-01",
+     "tur": "savas",
+     "b": "Nayman Hakanı Buyruk Han Kişil-Baş'ta bozguna uğradı",
+     "kaynak": "cengiz-han"
+    },
+    {
+     "t": "1204-01-01",
+     "tur": "yikilis",
+     "b": "Tayang Han'ın Nayman-Merkit ittifakı Timuçin tarafından dağıtıldı",
+     "kaynak": "cengiz-han"
+    }
+   ]
+  },
+  {
+   "id": "koco-uygur",
+   "ad": "Koço (Turfan) Uygur Devleti — İdikutlar",
+   "islem": "yeni",
+   "tur": "devlet",
+   "bolge": "orta-asya",
+   "f": "0911-01-01",
+   "t": "1209-01-01",
+   "baskent": "Koço (yazlık) · Beşbalık (kışlık)",
+   "ozet": "840'ta Ötüken Uygur Kağanlığı yıkılınca Turfan-Beşbalık bölgesine göçen Uygurların kurduğu, ticaret yolu üzerinde Budist-Maniheist kültür merkezi devlet. XII. yüzyılda Karahıtaylara bağlandı, 1209'da Barçuk İdikut Cengiz Han'a itaat etti.",
+   "kaynak": "TDV: uygurlar (UYGURLAR) · turfan (TURFAN)",
+   "ic_not_f": "f = uygurlar '911'de bağımsız hale gelen Uygur Devleti'. turfan 'Uygur Devleti 850 dolaylarında mevcuttu' der (yaklaşık — yazılmadı). Kuşak 1000+ olduğu için fark haritada görünmez.",
+   "ic_not_t": "t = 1209 bağımsızlık sonu (turfan: '1209 yılına kadar bağımsız kalmayı başardı'). ⚠️ İdikut sülâlesi Moğol tâbiiyetinde sürdü: uygurlar '1368 yılına kadar Moğol idaresinde', turfan '1353 ... Hos-hang devrinde İdikut sülâlesi sona erdi' / '1550'lere kadar bir şekilde'. Atlas tâbi (v:) gösterecekse t uzatılır — kaynaklar kendi aralarında uyuşmuyor, koordinatör hükmü. Ayrıca XII. yy Karahıtay tâbiiyeti yılsız.",
+   "alinti_f": "911’de bağımsız hale gelen Uygur Devleti güneyde Tibet, Batı Türkistan’da Karluk bölgesiyle sınırlıydı.",
+   "alinti_t": "Turfan civarındaki Uygur Devleti 1209 yılına kadar bağımsız kalmayı başardı.",
+   "alinti_t_slug": "turfan",
+   "kronoloji": [
+    {
+     "t": "0911-01-01",
+     "tur": "kurulus",
+     "b": "Turfan Uygur Devleti bağımsız hâle geldi",
+     "kaynak": "uygurlar"
+    },
+    {
+     "t": "1209-01-01",
+     "tur": "tabiiyet",
+     "b": "Barçuk İdikut Cengiz Han'a itaat etti",
+     "kaynak": "turfan"
+    }
+   ]
+  }
+ ],
+ "maddeler": [
+  {
+   "t": "1078-01-01",
+   "k": "savas",
+   "b": "Kıpçaklar Peçeneklerle birlikte Edirne'yi kuşattı",
+   "gun": "1078 (gün/ay bilinmiyor)",
+   "yer": "Edirne",
+   "kisiler": "",
+   "d": "Bizans'a isyan eden Peçeneklerle birleşen Kıpçaklar Edirne'yi muhasara ettiler. Bu tarihten sonra 1083-1096 ve 1109-1114 yıllarında Bizans topraklarına akınlar düzenlediler.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR)",
+   "alinti": "1078’de Bizans’a isyan eden Peçenekler’le birlikte Edirne’yi muhasara ettiler.",
+   "alinti_slug": "kipcaklar",
+   "taraflar": [
+    "kipcak",
+    "bizans"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Peçenekler künyesiz (karşı taraf/müttefik künyesiz: Peçenekler)."
+  },
+  {
+   "t": "1091-01-01",
+   "k": "savas",
+   "b": "Kıpçaklar Macaristan'a, ertesi yıl Lehistan'a girdi",
+   "gun": "1091 (gün/ay bilinmiyor)",
+   "yer": "Macaristan",
+   "kisiler": "",
+   "d": "Batıya yayılan Kıpçaklar 1091'de Macaristan'a, 1092'de Lehistan'a akın ettiler; 1093'te Bizans topraklarında göründüler.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR)",
+   "alinti": "1091’de Macaristan’a, 1092’de Lehistan’a giren Kıpçaklar 1093’te Bizans topraklarında göründüler.",
+   "alinti_slug": "kipcaklar",
+   "taraflar": [
+    "kipcak",
+    "macaristan"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Lehistan 1092 için karşı taraf künyesiz (polonya-erken 1320'de başlıyor)."
+  },
+  {
+   "t": "1118-01-01",
+   "k": "olay",
+   "b": "Gürcü kralı Kıpçaklardan 40.000 kişilik atlı ordu kurdu",
+   "gun": "1118 (gün/ay bilinmiyor)",
+   "yer": "Gürcistan",
+   "kisiler": "Kral II. David, Başbuğ Atrak",
+   "d": "Başbuğ Atrak'ın kızının II. David ile evlenmesinden sonra Kıpçaklar Gürcistan'a geldi; kral Çoruh ve Kür dolaylarına yerleşen Kıpçaklardan büyük bir atlı ordu kurdu. Atrak 1125'te yurduna döndü, Kıpçakların çoğu Gürcistan'da kaldı.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR)",
+   "alinti": "Gürcü kralı 1118’de Çoruh, Kür dolaylarına yerleşen Kuman Kıpçakları’ndan 40.000 kişilik mükemmel bir atlı ordu oluşturdu.",
+   "alinti_slug": "kipcaklar",
+   "taraflar": [
+    "kipcak",
+    "gurcistan"
+   ],
+   "etiket": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1185-01-01",
+   "k": "savas",
+   "b": "Kayalı ırmağında İgor Svyatoslaviç'in ordusu imha edildi",
+   "gun": "1185 (gün/ay bilinmiyor)",
+   "yer": "Aşağı Don, Kayalı ırmağı",
+   "kisiler": "Novgorod-Seversk Knezi İgor Svyatoslaviç",
+   "d": "1184'te güney Rus knezliklerine yenilen Kıpçaklar, ertesi yıl üzerlerine yürüyen Novgorod-Seversk Knezi İgor'u Aşağı Don'da kuşatıp ordusunu imha ettiler. Olay 'İgor Bölüğü Destanı'na konu oldu.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR)",
+   "alinti": "Bu sefere katılmayan Novgorod-Seversk Knezi İgor Svyatoslaviç 1185 yılında Kıpçaklar’a karşı sefere çıktı, ancak Aşağı Don sahasındaki Kayalı ırmağı kıyısında kuşatılarak imha edildi.",
+   "alinti_slug": "kipcaklar",
+   "taraflar": [
+    "kipcak"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Novgorod-Seversk Knezliği (rus-knezlikleri künyesi yok; novgorod künyesi Novgorod Cumhuriyeti'dir, bu DEĞİL)."
+  },
+  {
+   "t": "1221-01-01",
+   "k": "savas",
+   "b": "Kıpçak-Rus kuvvetleri Selçuklu Suğdak'ını geri alamadı",
+   "gun": "1221 (gün/ay bilinmiyor)",
+   "yer": "Suğdak (Sudak), Kırım",
+   "kisiler": "",
+   "d": "Anadolu Selçuklularının Kırım'daki ticaret merkezi Suğdak'ı zaptetmesi üzerine Kıpçak ve Rus kuvvetleri şehri geri almak için birlikte harekete geçtiler, ancak Selçuklu savunmasını kıramadılar.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR)",
+   "alinti": "Anadolu Selçukluları, 1221 yılında Karadeniz’in büyük ticaret merkezi olan Kırım’daki Suğdak (Sudak) şehrini zaptedince Kıpçak ve Rus kuvvetleri şehri geri almak için birlikte hareket ettilerse de Selçuklu müdafaası karşısında başarılı olamadılar.",
+   "alinti_slug": "kipcaklar",
+   "taraflar": [
+    "selcuklu",
+    "kipcak"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "⚠️ Suğdak seferinin yılı literatürde tartışmalı (1221/1225); TDV kipcaklar 1221 der. devletler.js'te bir künyede '1224 Kırım'da Suğdak limanını Moğollardan geri aldı' maddesi var — çakışma/çelişki kontrolü koordinatörde. Rus tarafı künyesiz."
+  },
+  {
+   "t": "1223-01-01",
+   "k": "savas",
+   "b": "Kalka Savaşı — Moğollar Rus-Kıpçak ordusunu bozdu",
+   "gun": "1223 (gün/ay TDV'de yok)",
+   "yer": "Kalka ırmağı",
+   "kisiler": "Cebe Noyan, Sübütay",
+   "d": "Cebe ve Sübütay kumandasındaki iki Moğol tümeni, Kafkasları aşıp Karadeniz'in kuzeyine geçtikten sonra Ruslarla ittifak yapan Kıpçakları Kalka'da yendi. Dönüşte İdil Bulgarları Moğol ordusuna ağır bir darbe vurdu.",
+   "kaynak": "TDV: kipcaklar (KIPÇAKLAR) · idil-bulgar-hanligi",
+   "alinti": "Kıpçaklar, doğudan gelen Moğol istilâsı karşısında Ruslar’la yeniden askerî iş birliği yapmalarına rağmen 1223 yılında meydana gelen Kalka savaşında Cebe-Noyan ile Sübütay kumandasındaki iki Moğol askerî tümenine mağlûp olmaktan kurtulamadılar.",
+   "alinti_slug": "kipcaklar",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "kipcak"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Gün TDV'de yok (yaygın 31 Mayıs 1223 YAZILMADI). Rus knezlikleri künyesiz."
+  },
+  {
+   "t": "1223-01-01",
+   "k": "savas",
+   "b": "İdil Bulgarları Kalka dönüşü Moğol ordusunu yendi",
+   "gun": "1223 (gün/ay bilinmiyor)",
+   "yer": "İdil Bulgar ülkesi",
+   "kisiler": "",
+   "d": "Kalka'da Rus ve Kıpçak ordularını bozan Moğol birlikleri dönüş yolunda İdil Bulgarlarının saldırısına uğrayıp ağır kayıp verdi. Bu yenilgi 1236'daki Batu seferinin gerekçesi oldu.",
+   "kaynak": "TDV: idil-bulgar-hanligi (İDİL BULGAR HANLIĞI)",
+   "alinti": "1223 yılında Rus ve Kuman-Kıpçak ordularını Kalka Savaşı’nda bozguna uğratan Moğol ordusu İdil Bulgarları tarafından imha edildi.",
+   "alinti_slug": "idil-bulgar-hanligi",
+   "taraflar": [
+    "idil-bulgar",
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "TDV bulgar maddesi 'yenmeleri' der, idil-bulgar-hanligi 'imha edildi' — ikisi de Bulgar zaferi. Kalka maddesiyle aynı gün: ayrı olay (dönüş yolu)."
+  },
+  {
+   "t": "1006-01-01",
+   "k": "antlasma",
+   "b": "İdil Bulgarları ile Kiev Rus Knezliği ticaret antlaşması yaptı",
+   "gun": "1006 (gün/ay bilinmiyor)",
+   "yer": "Bulgar",
+   "kisiler": "",
+   "d": "964 ve 985'teki Kiev Rus saldırılarını savuşturan İdil Bulgarları 1006'da Ruslarla bir ticaret antlaşması imzaladılar; Bulgar şehri Arap, İran, Rus ve İskandinav tüccarlarının buluştuğu büyük bir pazar oldu.",
+   "kaynak": "TDV: idil-bulgar-hanligi (İDİL BULGAR HANLIĞI)",
+   "alinti": "İdil Bulgar ülkesi 964 ve 985 yılında iki defa Kiev Rus Knezliği’nin istilâsına uğradıysa da bu hücumlar etkisiz hale getirildi. 1006 yılında iki ülke arasında ticaret anlaşması imzalandı.",
+   "alinti_slug": "idil-bulgar-hanligi",
+   "taraflar": [
+    "idil-bulgar"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "karşı taraf künyesiz: Kiev Rus Knezliği."
+  },
+  {
+   "t": "1183-01-01",
+   "k": "savas",
+   "b": "Vladimir Knezi Vsevolod İdil Bulgar topraklarına ordu gönderdi",
+   "gun": "1183; ikinci sefer 1205 (gün/ay bilinmiyor)",
+   "yer": "İdil Bulgar ülkesi",
+   "kisiler": "Rus Prensi Vsevolod, Yuri",
+   "d": "Kürk ticareti yüzünden Ruslarla uzun süren mücadelede Prens Vsevolod 1183 ve 1205'te İdil Bulgar topraklarına ordular gönderdi; oğlu Yuri 1221'de sınırda Nijni Novgorod kalesini kurdurdu.",
+   "kaynak": "TDV: idil-bulgar-hanligi (İDİL BULGAR HANLIĞI)",
+   "alinti": "1183 ve 1205’te Rus Prensi Vsevolod, İdil Bulgar topraklarına ordular gönderdi. Onun oğlu Yuri de 1221’de Nijni Novgorod (Gorki) Kalesi’ni inşa ettirdi.",
+   "alinti_slug": "idil-bulgar-hanligi",
+   "taraflar": [
+    "idil-bulgar"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Vladimir-Suzdal Knezliği. Tek madde üç tarihi taşıyor (1183/1205/1221); gerekirse koordinatör 1205 ve 1221'i ayrı madde yapar."
+  },
+  {
+   "t": "1218-01-01",
+   "k": "fetih",
+   "b": "Cebe Noyan Güçlüg'ün elindeki Karahıtay topraklarını aldı",
+   "gun": "1218 (gün/ay bilinmiyor)",
+   "yer": "Karahıtay ülkesi (Balasagun-Kâşgar)",
+   "kisiler": "Cebe Noyan, Nayman Güçlüg",
+   "d": "Nayman Tayang Han'ın oğlu Güçlüg Karahıtay Gürhanını devirip ülkeye hâkim olmuştu. Cengiz Han'ın kumandanı Cebe Noyan 1218'de bu toprakları ele geçirdi; Moğollar böylece batıda Hârizmşahlara komşu oldu.",
+   "kaynak": "TDV: mogollar (MOĞOLLAR)",
+   "alinti": "Moğolistan’a tam anlamıyla hâkim olarak Cebe Noyan vasıtasıyla eski düşmanı Güçlüg’ün (Güçlüğ, Küçlük) yönetimine giren Karahıtay topraklarını ele geçirdi (1218).",
+   "alinti_slug": "mogollar",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "karahitay"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "yikilis",
+    "konu-askeri"
+   ],
+   "ic_not": "karahitay künyesi başka grupta (devletler.js'te YOK) — onun yıkılış maddesiyle mükerrer olabilir. Karahıtay grubu başka t verirse bu madde 'Moğol tarafı' olarak kalır."
+  },
+  {
+   "t": "1220-02-10",
+   "k": "fetih",
+   "b": "Buhara Moğollara teslim oldu",
+   "gun": "10 Şubat 1220",
+   "yer": "Buhara",
+   "kisiler": "Cengiz Han",
+   "d": "Otrar kuşatmasını oğullarına bırakan Cengiz Han Buhara üzerine yürüdü ve şehri üç günlük kuşatmadan sonra aldı; mart ayında Semerkant da teslim oldu. Mâverâünnehir'in düşmesiyle Hârizmşah Alâeddin Muhammed batıya kaçtı.",
+   "kaynak": "TDV: cengiz-han (CENGİZ HAN)",
+   "alinti": "Üç günlük bir kuşatmadan sonra 10 Şubat 1220’de Buhara alındı. Mart ayında Semerkant da teslim oldu.",
+   "alinti_slug": "cengiz-han",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "harizmsah"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Hârizmşah grubunun maddeleriyle çakışabilir — mükerrer kontrolü birleştirmede. harizmsah başka grubun önerisi (devletler.js'te YOK)."
+  },
+  {
+   "t": "1227-01-01",
+   "k": "olay",
+   "b": "Cengiz Han Tangut seferinde öldü",
+   "gun": "Ağustos 1227 (gün bilinmiyor)",
+   "yer": "Tangut ülkesi",
+   "kisiler": "Cengiz Han, Ögedey, Çağatay, Tuluy",
+   "d": "1226'da Tangut hükümdarını ve ileri gelenlerini öldürten Cengiz Han, Tangut başşehrine yeni bir sefer sırasında hastalanıp öldü. Vasiyetiyle Ögedey veliaht oldu, yasa işleri Çağatay'a, ordu Tuluy'a bırakıldı; ülke oğulları arasında pay edildi.",
+   "kaynak": "TDV: cengiz-han (CENGİZ HAN)",
+   "alinti": "Aynı yıl Tangut’un başşehrine bir sefer düzenledi. Ancak sefer sırasında tekrar hastalandı ve Ağustos 1227’de öldü.",
+   "alinti_slug": "cengiz-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "Tangut (Batı Xia) künyesiz. cagatay künye-içi 1227 'pay' maddesi ile yakın ama ayrı olay (ölüm)."
+  },
+  {
+   "t": "1229-01-01",
+   "k": "hanedan",
+   "b": "Ögedey Kodege kurultayında büyük han oldu",
+   "gun": "1229 ilkbaharı (gün bilinmiyor)",
+   "yer": "Kerulen nehri, Kodege adası",
+   "kisiler": "Ögedey Han, Çağatay, Otçigin Noyan",
+   "d": "Cengiz Han'ın ölümünden sonra devleti geçici olarak Tuluy yönetti. Kerulen nehrindeki kurultayda Ögedey büyük han unvanıyla tahta oturtuldu ve duraklayan seferleri yeniden başlattı.",
+   "kaynak": "TDV: ogedey-han (ÖGEDEY HAN)",
+   "alinti": "Ögedey ancak 1229 yılı ilkbaharında, Kerulen nehrindeki Kodege adasında toplanan büyük kurultaydan sonra ağabeyi Çağatay ile amcası Otçigin Noyan tarafından görkemli bir cülûs töreninin ardından “büyük han” unvanıyla tahta oturtuldu.",
+   "alinti_slug": "ogedey-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "batu-han maddesi kurultayı 1228 der; ogedey-han 1229 ilkbaharı — ayrıntılı kişi maddesi esas alındı."
+  },
+  {
+   "t": "1231-01-01",
+   "k": "savas",
+   "b": "Curmagun Noyan İran'a gönderildi, Celâleddin Hârizmşah yenildi",
+   "gun": "1231 (gün/ay bilinmiyor)",
+   "yer": "Azerbaycan / Arrân",
+   "kisiler": "Curmagun Noyan, Celâleddin Hârizmşah",
+   "d": "Ögedey Yakındoğu seferi için Curmagun Noyan'ı İran'a gönderdi. Curmagun, Yassıçimen'de zayıflamış Celâleddin'i yendi; Mugan ve Arrân'a yerleşip 1232'de Gürcistan'ı, 1235'te Gence'yi ele geçirdi.",
+   "kaynak": "TDV: ogedey-han (ÖGEDEY HAN)",
+   "alinti": "Cengiz Han zamanında planlanan Yakındoğu seferi için 1231 yılında Curmagun Noyan’ı İran’a gönderirken kendisi Çin’e yürüdü.",
+   "alinti_slug": "ogedey-han",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "harizmsah",
+    "gurcistan"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Hârizmşah grubunun 1231 yıkılış maddesiyle çakışabilir. gurcistan'da 1231 'Moğol istilası başladı' (kronoloji_gurcistan) var — Gürcistan'ın alınışı (1232/1235) bu maddede yalnız anlatıda."
+  },
+  {
+   "t": "1238-01-01",
+   "k": "fetih",
+   "b": "Batu Han'ın ordusu Moskova'yı yağmaladı",
+   "gun": "Şubat 1238 (gün bilinmiyor)",
+   "yer": "Moskova",
+   "kisiler": "Batu Han",
+   "d": "1237 sonunda kış ortasında Rus knezliklerine giren Batu Han'ın ordusu iki üç ay içinde pek çok şehri aldı; 1238 Şubatında Moskova, 1239'da Çernigov yağmalandı.",
+   "kaynak": "TDV: batu-han (BATU HAN)",
+   "alinti": "Pek çok şehir ele geçirildikten sonra 1238 Şubatında Moskova, 1239’da Çernikov yağmalandı.",
+   "alinti_slug": "batu-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Vladimir-Suzdal / Rus knezlikleri. ryazan künyesinde 1237-12-21 Ryazan maddesi zaten var — bu madde onun devamı, mükerrer değil."
+  },
+  {
+   "t": "1240-01-01",
+   "k": "fetih",
+   "b": "Kiev Moğollarca zaptedilip tahrip edildi",
+   "gun": "Aralık 1240 (gün TDV'de yok)",
+   "yer": "Kiev",
+   "kisiler": "Batu Han",
+   "d": "Kumanları yurtlarından sürdükten sonra Ukrayna bozkırlarına inen Batu Han, bölgenin en büyük knezliği Kiev'i aldı. TDV'ye göre batı seferinin asıl hedefi Kiev'in zaptıyla tamamlandı; sonraki Polonya-Macaristan harekâtı yağmaya dönüştü.",
+   "kaynak": "TDV: batu-han (BATU HAN) · altin-orda-hanligi",
+   "alinti": "1240 Aralık ayında Kiev zaptedilerek tahrip edildi.",
+   "alinti_slug": "batu-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "⚠️ HASSASİYET: ay (Aralık) biliniyor, gün yok → talimat gereği 1240-01-01 + gun beyanı; sıralamada olay ~11 ay erken görünür. karşı taraf künyesiz: Kiev Knezliği."
+  },
+  {
+   "t": "1241-04-09",
+   "k": "savas",
+   "b": "Liegnitz yakınında Moğollar Alman-Leh ordusunu yendi",
+   "gun": "9 Nisan 1241",
+   "yer": "Liegnitz (Legnica)",
+   "kisiler": "Batu Han'ın kumandanları",
+   "d": "Batu Han'ın orduları Polonya, Macaristan, Avusturya ve Dalmaçya'ya kadar ilerledi ve Liegnitz yakınında karşılarına çıkan kuvvetleri yendi. Aralık 1241'de Ögedey'in ölüm haberi gelince sefer sona erdi.",
+   "kaynak": "TDV: batu-han (BATU HAN)",
+   "alinti": "9 Nisan 1241’de Liegnitz yakınında karşılarına çıkan Alman kuvvetlerini de yendiler.",
+   "alinti_slug": "batu-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "TDV karşı tarafı 'Alman kuvvetleri' der; Silezya/Leh dükalığı künyesiz (polonya-erken 1320'de başlar). almanya künyesi var ama taraf olarak YAZILMADI (TDV ifadesi devlet değil, kuvvet). Mohi/Macaristan savaşı TDV'de tarihli değil — yazılmadı."
+  },
+  {
+   "t": "1241-12-11",
+   "k": "olay",
+   "b": "Ögedey Han öldü, batı seferi durdu",
+   "gun": "11 Aralık 1241",
+   "yer": "Moğolistan",
+   "kisiler": "Ögedey Han, Töregene Hatun, Batu Han",
+   "d": "Ögedey'in ölümüyle bütün Moğol başbuğlarının dönmesi gerekti ve Avrupa seferi sona erdi. Töregene Hatun yaklaşık beş yıl nâibe olarak yönetti. Aynı yıl Çağatay da ölmüştü; Batu Cengiz'in torunlarının en yaşlısı oldu.",
+   "kaynak": "TDV: ogedey-han (ÖGEDEY HAN)",
+   "alinti": "Yaklaşık on iki yıllık icraatının genel bir değerlendirmesini yaptığı 1240 yılının yedinci ayındaki kurultayın ardından Ögedey Han 11 Aralık 1241 tarihinde alkol komasına girerek öldü.",
+   "alinti_slug": "ogedey-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1241-01-01",
+   "k": "fetih",
+   "b": "Tâir Bahadır Herat, Sîstan ve Lahor'u ele geçirdi",
+   "gun": "639 / 1241-42 (gün/ay bilinmiyor)",
+   "yer": "Herat · Sîstan · Lahor",
+   "kisiler": "Tâir Bahadır",
+   "d": "Ögedey'in dördüncü cephesi olan Gûr, Gazne ve Afganistan'a gönderilen Tâir Bahadır kumandasındaki Moğol ordusu Herat, Sîstan ve Lahor dahil bütün bölgeyi aldı.",
+   "kaynak": "TDV: mogollar (MOĞOLLAR) · ogedey-han",
+   "alinti": "639 (1241-42) yılında Afganistan’a gönderilen Tair Bahadır kumandasındaki bir ordu da Herat, Sîstan ve Lahor’u ele geçirdi",
+   "alinti_slug": "mogollar",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Hicrî 639 iki mîlâdî yıla düşüyor; ilk yıl yazıldı. Lahor karşı tarafı delhi-sultanligi olabilir ama TDV bu cümlede devlet adı vermiyor — taraf yazılmadı."
+  },
+  {
+   "t": "1246-01-01",
+   "k": "hanedan",
+   "b": "Güyük kurultayda büyük han seçildi",
+   "gun": "Ağustos 1246 (gün bilinmiyor)",
+   "yer": "Moğolistan",
+   "kisiler": "Güyük Han, Töregene Hatun, Batu Han",
+   "d": "Beş yıla yakın naiplikten sonra toplanan kurultay Ögedey'in oğlu Güyük'ü büyük han seçti. Batu Han kurultaya katılmadı; Güyük onun Azerbaycan'daki kumandanlarını azletti ve 1248'de Batu üzerine yürürken öldü.",
+   "kaynak": "TDV: batu-han (BATU HAN)",
+   "alinti": "Beş yıla yakın bir mücadeleden sonra kurultay nihayet 1246 Ağustosunda toplanabildi. Batu Han mazeret beyan ederek kurultaya katılmadı, vekâleten kardeşlerini gönderdi.",
+   "alinti_slug": "batu-han",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "altinorda"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1251-01-01",
+   "k": "hanedan",
+   "b": "Mengü büyük han seçildi — hanlık Tuluy soyuna geçti",
+   "gun": "Temmuz 1251 (gün bilinmiyor)",
+   "yer": "Moğolistan",
+   "kisiler": "Mengü (Möngke) Kağan, Batu Han",
+   "d": "Güyük'ün 1248'deki ölümünden sonra Batu Han'ın isteğiyle toplanan kurultay Tuluy'un büyük oğlu Mengü'yü kağan seçti; Ögedey soyu hâkimiyeti kaybetti. Mengü kardeşi Kubilay'ı Çin'e, Hülâgû'yu İran'a gönderdi.",
+   "kaynak": "TDV: batu-han (BATU HAN) · mogollar",
+   "alinti": "Toplanan kurultay Batu Han’ın isteğine uyarak Temmuz 1251’de Mengü’yü kağan seçti. Böylece Ögedey Kağan evlâdı hâkimiyeti kaybetmiş ve Tuluy evlâdı kağanlık makamını ele geçirmiş oldu.",
+   "alinti_slug": "batu-han",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "altinorda"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1206-01-01",
+   "k": "kurulus",
+   "b": "Onon kurultayı — Timuçin Cengiz Han unvanıyla kağan ilan edildi",
+   "gun": "1206 (gün/ay bilinmiyor)",
+   "yer": "Onon ırmağı kıyısı",
+   "kisiler": "Cengiz Han (Timuçin)",
+   "d": "Kerâyit, Nayman ve Merkit hükümdarlarını ortadan kaldırıp bütün bozkır kavimlerini birleştiren Timuçin, Onon kıyısındaki kurultayda dokuz parçalı ak tuğ diktirdi ve Cengiz unvanıyla kağan ilan edildi. Aynı kurultayda Moğol töresini derleyen yasaya ilaveler yapıp resmen yürürlüğe koydu.",
+   "kaynak": "TDV: cengiz-han (CENGİZ HAN)",
+   "alinti": "Onon ırmağı kıyısında aynı yıl yapılan kurultayda dokuz parçalı ak tuğ diktirdi; kurultay sonunda “Cengiz” (cihan hükümdarı, göklerin oğlu, güçlü, mükemmel savaşçı) unvanıyla kağan ilân edildi",
+   "alinti_slug": "cengiz-han",
+   "taraflar": [
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "kurulus",
+    "konu-siyasi"
+   ],
+   "ic_not": "⚠️ mogol-imparatorlugu künye-içi 1206 iskeletiyle AYNI olay; koordinatör 'SEN yaz: 1206 kurultayı' dediği için anlatı maddesi olarak yazıldı — talimattaki 'künye-içini tekrarlama' kuralıyla çelişir, birleştirmede biri tutulur."
+  },
+  {
+   "t": "1260-01-01",
+   "k": "hanedan",
+   "b": "Kubilay kağan ilan edildi — Arıkboğa ile taht savaşı imparatorluğu böldü",
+   "gun": "1260 (gün/ay TDV'de yok)",
+   "yer": "Moğolistan / Kuzey Çin",
+   "kisiler": "Kubilay, Arıkboğa, Algu, Hülâgû",
+   "d": "Mengü'nün ölümünden sonra Kubilay taraftarlarınca kağan ilan edildi ve 1261'de Gobi yakınında Arıkboğa'yı yendi. Kavga sırasında Çağatay ulusunda Algu, İran'da Hülâgû kendi hesabına hareket etti; Hülâgû ve Kubilay Karakorum'a dönmeyip merkeze bağlı ama ayrı devletler kurdular.",
+   "kaynak": "TDV: kubilay-kagan (KUBİLAY KAĞAN) · hulagu · cagatay-hanligi",
+   "alinti": "Taraftarlarınca 1260’ta kağan ilân edildikten sonra Gobi çölü yakınlarında yapılan savaşta kardeşi Arıkboğa’yı mağlûp etti (1261).",
+   "alinti_slug": "kubilay-kagan",
+   "taraflar": [
+    "mogol-imparatorlugu",
+    "cagatay",
+    "ilhanli"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "⚠️ mogol-imparatorlugu künye-içi 1260 iskeletiyle AYNI olay; koordinatör '1260 bölünmesi SENDE' dediği için anlatı olarak yazıldı. Möngke'nin 1259 ölümü ONCE1281-DOGU-ASYA'da — burada yazılmadı."
+  },
+  {
+   "t": "1256-01-01",
+   "k": "hanedan",
+   "b": "Berke Han Altın Orda tahtına çıktı",
+   "gun": "1256 sonu (gün/ay bilinmiyor)",
+   "yer": "Saray",
+   "kisiler": "Berke Han, Sertak, Ulakçı",
+   "d": "Batu Han'ın 1255 sonu-1256 başındaki ölümünden sonra oğulları Sertak ve Ulakçı kısa aralıklarla öldü ve Batu'nun müslüman kardeşi Berke tahta geçti. Berke Galiçya isyanını bastırdı, Polonya'ya akınlar yaptırdı.",
+   "kaynak": "TDV: berke-han (BERKE HAN)",
+   "alinti": "Sertak ve Ulakçı’nın kısa saltanatlarından sonra 1256 yılı sonunda Altın Orda tahtına geçti.",
+   "alinti_slug": "berke-han",
+   "taraflar": [
+    "altinorda"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "'1256 sonu' — ay kesin değil; 1256-01-01 yazıldı ve gun'de beyan edildi. Batu'nun ölüm tarihi TDV'de kesin değil ('1255 sonları veya 1256 başları') — ayrı madde yazılmadı."
+  },
+  {
+   "t": "1259-01-01",
+   "k": "isyan",
+   "b": "Rus şehirlerindeki vergi isyanları bastırıldı",
+   "gun": "1259 (gün/ay bilinmiyor)",
+   "yer": "Novgorod · Rostov · Suzdal · Yaroslavl",
+   "kisiler": "Berke Han, Aleksandr Yaroslaviç (Nevski)",
+   "d": "Vergi meselesinden çıkan ayaklanmalar Rus knezlikleriyle dostluğu bozdu; Novgorod, Rostov, Suzdal ve Yaroslavl'daki isyanlar bastırıldı ve Knez Aleksandr Berke'nin üstünlüğünü kabul etti.",
+   "kaynak": "TDV: berke-han (BERKE HAN)",
+   "alinti": "1259’da Novgorod Rostov, Suzdal ve Yaroslav gibi şehirlerdeki isyanlar derhal bastırıldı. Knez Yaroslav oğlu Aleksandr Berke Han’ın üstünlüğünü kabul etmek zorunda kaldı.",
+   "alinti_slug": "berke-han",
+   "taraflar": [
+    "altinorda",
+    "novgorod"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "novgorod künyesi (Novgorod Cumhuriyeti) VAR; Rostov/Suzdal/Yaroslavl knezlikleri künyesiz."
+  },
+  {
+   "t": "1263-01-01",
+   "k": "savas",
+   "b": "Terek Savaşı — Berke Han Hülâgû'yu ağır yenilgiye uğrattı",
+   "gun": "Rebîülevvel 661 / Ocak 1263 (gün bilinmiyor)",
+   "yer": "Terek ırmağı",
+   "kisiler": "Berke Han, Hülâgû",
+   "d": "İlhanlıların Azerbaycan'ı alıp sınırı Derbend'e dayaması ve Altın Ordalı tüccarları öldürmesi iki Cengizli devleti savaşa sürükledi. Memlük Sultanı Baybars ile anlaşan Berke, Terek'te Hülâgû'yu bozguna uğrattı; Altın Orda-Memlük ittifakı İlhanlıları iki cepheye böldü.",
+   "kaynak": "TDV: hulagu (HÜLÂGÛ) · berke-han",
+   "alinti": "Hülâgû, Altın Orda Hükümdarı Berke Han ile yaptığı Terek Savaşı’nda ağır bir bozguna uğradı (Rebîülevvel 661 / Ocak 1263).",
+   "alinti_slug": "hulagu",
+   "taraflar": [
+    "altinorda",
+    "ilhanli"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "Ay biliniyor (Ocak), gün yok → 1263-01-01 + gun beyanı (talimat kuralı). Altın Orda-İlhanlı savaşı İlhanlı künyesini de etlendirir."
+  },
+  {
+   "t": "1265-01-01",
+   "k": "savas",
+   "b": "Abaka ile Berke Kür ırmağında karşı karşıya geldi",
+   "gun": "1265 (gün/ay bilinmiyor)",
+   "yer": "Kür ırmağı",
+   "kisiler": "Abaka Han, Berke Han",
+   "d": "Hülâgû'nun yerine geçen Abaka, Kuzey Azerbaycan için Altın Orda ile mücadeleyi sürdürdü ve Kür ırmağı kıyısına set kurdurdu. İki ordu ırmağın iki yakasında beklerken Berke nehri Tiflis tarafından geçmeye yöneldi, ama 1266'da öldü ve mücadele sona erdi.",
+   "kaynak": "TDV: berke-han (BERKE HAN) · abaka (ABAKA)",
+   "alinti": "Hülâgû’nun 1265’te ölümü üzerine yerine geçen Abaka Han da Berke’ye karşı aynı siyaseti devam ettirdi. Aynı yıl Kür nehri sahilinde İlhanlılar ile Altın Orda kuvvetleri karşı karşıya geldiler.",
+   "alinti_slug": "berke-han",
+   "taraflar": [
+    "ilhanli",
+    "altinorda"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": "⚠️ TDV İÇ ÇELİŞKİ: altin-orda-hanligi 'Abaka Han ile yaptığı savaşta yenilgiye uğradı' der; berke-han ve abaka ise meydan savaşı anlatmaz (karşılıklı bekleyiş, set). Madde tarafsız yazıldı ('karşı karşıya geldi'), sonuç verilmedi."
+  },
+  {
+   "t": "1266-01-01",
+   "k": "hanedan",
+   "b": "Berke Han öldü, Mengü Timur Altın Orda hanı oldu",
+   "gun": "1266 (altin-orda-hanligi: 'yılı başlarında'; gün yok)",
+   "yer": "Saray",
+   "kisiler": "Berke Han, Mengü Timur",
+   "d": "İlk müslüman Altın Orda hükümdarı Berke, İlhanlılara karşı seferde öldü ve Saray'a gömüldü. Oğlu olmadığından Batu'nun torunu Mengü Timur han ilan edildi. TDV'ye göre Berke zamanında Altın Orda büyük kağanlıktan ayrılıp kendi adına sikke bastırdı.",
+   "kaynak": "TDV: berke-han (BERKE HAN)",
+   "alinti": "Ancak ömrü buna yetmedi; 1266’da vefat etti. Berke’nin cenazesi töre gereğince başşehir Saray’a götürüldü ve burada toprağa verildi. Oğlu olmadığı için yerine Batu’nun torunu Mengü Timur han ilân edildi.",
+   "alinti_slug": "berke-han",
+   "taraflar": [
+    "altinorda"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1256-11-19",
+   "k": "fetih",
+   "b": "Alamut'ta Rükneddin Hûrşah Hülâgû'ya teslim oldu",
+   "gun": "19 Kasım 1256",
+   "yer": "Alamut",
+   "kisiler": "Hülâgû, Rükneddin Hûrşah",
+   "d": "Mayıs 1253'te harekete geçen öncü birlikler Hülâgû gelmeden birçok İsmâilî kalesini almıştı. Nizârî reisi Rükneddin Hûrşah Alamut'ta teslim oldu; kale yerle bir edildi, Hûrşah Karakorum dönüşünde Mengü'nün emriyle öldürüldü. Kalan kaleler Otçiğin Noyan'a bırakıldı.",
+   "kaynak": "TDV: hulagu (HÜLÂGÛ)",
+   "alinti": "İsmâilîler Moğollar karşısında tutunamadılar; merkezleri Alamut’ta oturan reisleri Rükneddin Hûrşah 19 Kasım 1256 tarihinde Hülâgû’ya teslim oldu.",
+   "alinti_slug": "hulagu",
+   "taraflar": [
+    "ilhanli",
+    "alamut-nizari"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "yikilis",
+    "konu-askeri"
+   ],
+   "ic_not": "⚠️ MÜKERRER ADAYI: data/kronoloji_iran_ardillari.js'te t:\"1256-01-01\" 'Alamut Kalesi'nin zaptı ve İlhanlılığın ilânı' (yıl hassasiyeti) var. Bu madde GÜN hassasiyetli iyileştirmedir — ya o madde güne çekilir ya bu atılır. alamut-nizari başka grubun önerisi (devletler.js'te YOK)."
+  },
+  {
+   "t": "1259-09-12",
+   "k": "savas",
+   "b": "Hülâgû Suriye seferine çıktı — Halep ve Dımaşk düştü",
+   "gun": "12 Eylül 1259 (Tebriz'den hareket)",
+   "yer": "Tebriz → Halep",
+   "kisiler": "Hülâgû, Ketboğa Noyan",
+   "d": "Ketboğa'nın öncü birliklerinin ardından Hülâgû Tebriz'den hareket etti. Ortak cephe kuramayan Suriye şehirlerinden Urfa, Harran, Hama, Humus ve Dımaşk teslim oldu; Ermeni ve Haçlı destekli ordu Halep'i kuşatıp aldı, ardından Hârim kalesi düşürüldü.",
+   "kaynak": "TDV: hulagu (HÜLÂGÛ)",
+   "alinti": "Hülâgû, Suriye seferi için gereken hazırlıkları tamamladıktan sonra Ketboğa Noyan idaresindeki öncü birliklerini gönderdi, kendisi de 12 Eylül 1259 tarihinde Tebriz’den hareket etti.",
+   "alinti_slug": "hulagu",
+   "taraflar": [
+    "ilhanli",
+    "kilikya-ermeni"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "konu-askeri"
+   ],
+   "ic_not": "Halep/Dımaşk düşüş günleri TDV hulagu'da yok; madde sefere çıkış gününe bağlı. Karşı taraf (Suriye Eyyûbîleri) künyesiz; kilikya-ermeni Moğol MÜTTEFİKİ olarak taraflarda."
+  },
+  {
+   "t": "1260-01-01",
+   "k": "fetih",
+   "b": "Yeşmut Meyyâfârikîn'i alıp Eyyûbîlerin bu koluna son verdi",
+   "gun": "658 / 1260 (gün/ay bilinmiyor)",
+   "yer": "Meyyâfârikîn (Silvan)",
+   "kisiler": "Yeşmut, el-Melikü'l-Kâmil Muhammed",
+   "d": "Hülâgû'nun oğlu Yeşmut'un kuvvetleri Meyyâfârikîn'i işgal edip el-Melikü'l-Kâmil Muhammed'i öldürdü; Eyyûbîlerin Meyyâfârikîn, Cebel ve Sincar kolu sona erdi.",
+   "kaynak": "TDV: hulagu (HÜLÂGÛ)",
+   "alinti": "Hülâgû’nun oğullarından Yeşmut’un emrindeki kuvvetler de 658’de (1260) Meyyâfârikīn’ı işgal ederek el-Melikü’l-Kâmil Muhammed b. Şehâbeddin Muzaffer Gāzî’yi öldürüp Eyyûbîler’in Meyyâfârikīn, Cebel ve Sincar koluna son verdiler",
+   "alinti_slug": "hulagu",
+   "taraflar": [
+    "ilhanli"
+   ],
+   "etiket": [
+    "toprak-kazanc",
+    "yikilis",
+    "konu-askeri"
+   ],
+   "ic_not": "karşı taraf künyesiz: Meyyâfârikîn Eyyûbîleri (eyyubi-hisnikeyfa AYRI koldur, yazılmadı). kronoloji_anadolu.js'te 1257 'Hülâgû Meyyâfârikīn'in fethini emretti' var — kuşatma başı; bu madde sonu."
+  },
+  {
+   "t": "1270-01-01",
+   "k": "savas",
+   "b": "Herat yakınında Abaka Çağatay Hanı Barak'ı yendi",
+   "gun": "1270 (gün/ay bilinmiyor)",
+   "yer": "Herat",
+   "kisiler": "Abaka Han, Barak Han, Yesudar Oğul",
+   "d": "Horasan'da hak iddia eden Çağatay Hanı Barak büyük bir orduyla Horasan'a girdi ve Abaka'nın barış teklifini reddetti. Herat yakınındaki savaşta yenildi; Abaka Horasan valiliğine kardeşi Yesudar'ı atadı, Yesudar sonra Buhara çevresini yağmaladı.",
+   "kaynak": "TDV: abaka (ABAKA)",
+   "alinti": "Bunun üzerine 1270 yılında Herat yakınlarında meydana gelen savaşta onu mağlûp ederek Horasan valiliğine kardeşi Yesudar Oğul’u tayin etti.",
+   "alinti_slug": "abaka",
+   "taraflar": [
+    "ilhanli",
+    "cagatay"
+   ],
+   "etiket": [
+    "konu-askeri"
+   ],
+   "ic_not": ""
+  },
+  {
+   "t": "1266-01-01",
+   "k": "hanedan",
+   "b": "Barak Mübârek Şah'ı devirip Çağatay hanı oldu",
+   "gun": "Eylül 1266 (Hucend'in alınışı; gün yok)",
+   "yer": "Hucend",
+   "kisiler": "Barak Han, Mübârek Şah, Kubilay Kağan",
+   "d": "Algu'nun 1266'da ölümünden sonra İslâm'ı kabul eden ilk Çağatay hanı Mübârek Şah tahta çıktı. Kubilay'ın yarlık verdiği Barak onu yenip Hucend'i aldı ve kendini han ilan etti.",
+   "kaynak": "TDV: kubilay-kagan (KUBİLAY KAĞAN) · cagatay-hanligi",
+   "alinti": "Ancak Barak Han mücadeleye girdiği Mübârek Şah’ı mağlûp edip Hucend’i ele geçirdi (Eylül 1266)",
+   "alinti_slug": "kubilay-kagan",
+   "taraflar": [
+    "cagatay"
+   ],
+   "etiket": [
+    "hanedan-degisimi",
+    "konu-siyasi"
+   ],
+   "ic_not": "Ay biliniyor, gün yok → 1266-01-01 + gun beyanı. Kubilay'ın EI2'ye atfı TDV gövdesinde; dayanak TDV kubilay-kagan."
+  },
+  {
+   "t": "1269-01-01",
+   "k": "olay",
+   "b": "Talas kurultayı — Çağatay Hanlığı Kaydu'nun nüfuzuna girdi",
+   "gun": "1269 (gün/ay bilinmiyor)",
+   "yer": "Talas ovası",
+   "kisiler": "Barak Han, Kaydu",
+   "d": "Talas'taki kurultayda yerleşik-göçebe çatışmasına geçici çözüm bulundu: şehzadeler şehir idaresine karışmayacak, sürülerini ekili topraklardan uzak tutacaktı. Kurultaydan sonra Ögedey soyundan Kaydu Çağatay Hanlığı üzerinde mutlak hâkimiyet kurdu; sonraki hanlar onun vasalı oldu.",
+   "kaynak": "TDV: cagatay-hanligi (ÇAĞATAY HANLIĞI)",
+   "alinti": "1269’da Talas ovasında toplanan kurultayda, hanlığın kuruluşundan beri bir iç mesele halinde devam eden “yerleşik-göçebe mücadelesi”ne geçici de olsa bir çözüm bulunabildi.",
+   "alinti_slug": "cagatay-hanligi",
+   "taraflar": [
+    "cagatay"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": "Kaydu'nun devleti (Ögedey ulusu) künyesiz. Çağatay'ın Kaydu'ya vasallığı haritada tâbiiyet olarak işlenecekse ayrı karar."
+  },
+  {
+   "t": "1251-01-01",
+   "k": "hanedan",
+   "b": "Kara Hülâgû Çağatay hanlığına döndü, Ergene Hatun nâibe oldu",
+   "gun": "1251 (gün/ay bilinmiyor)",
+   "yer": "Almalığ",
+   "kisiler": "Kara Hülâgû, Ergene Hatun, Mübârek Şah",
+   "d": "Mengü'nün büyük han seçildiği 1251 kurultayında Kara Hülâgû yeniden Çağatay Hanlığı'nın başına getirildi; aynı yıl ölünce eşi Ergene Hatun oğlu Mübârek Şah adına nâibe olarak yönetimi aldı.",
+   "kaynak": "TDV: cagatay-hanligi (ÇAĞATAY HANLIĞI)",
+   "alinti": "Nitekim 1251’de toplanan kurultayda Toluy’un oğlu Mengü’nün büyük han seçilmesiyle Kara Hülâgû tekrar Çağatay Hanlığı’nın başına getirildi; ancak aynı yıl ölümü üzerine karısı Ergene Hatun oğlu Mübârek Şah adına nâibe olarak ülkenin yönetimini eline aldı.",
+   "alinti_slug": "cagatay-hanligi",
+   "taraflar": [
+    "cagatay",
+    "mogol-imparatorlugu"
+   ],
+   "etiket": [
+    "konu-siyasi"
+   ],
+   "ic_not": ""
+  }
+ ],
+ "bulunamadi": [
+  "Oğuz Yabgu Devleti (oguz-yabgu) — KÜNYE AÇILMADI: TDV oguzlar 'Oğuz Yabgu Devleti'nin 1003 yılından önce yıkılmış olduğunu göstermektedir' der; 1000 sonrası yaşadığına dair TDV tanıklığı yok (şart sağlanmadı). Not: aynı maddede Mangışlak Oğuz Yabgu Devleti var ('Alparslan devrinde ... Kafşut', Atsız 1128'den önce son verdi) — kuruluş yılı yok, bitiş 'önce' ile verilmiş; künye kurulamadı, istenirse ayrı araştırma.",
+  "Kerâyitler — TDV'de ayrı madde YOK (302: kerayit, kerayitler, kereyitler, ong-han). Künye cengiz-han gövdesinden kuruldu; KURULUŞ YILI bulunamadı (f=ilk yıllı tanıklık 1199).",
+  "Naymanlar — TDV'de ayrı madde YOK (302: nayman, naymanlar, tayang-han). Künye cengiz-han/mogollar gövdesinden kuruldu; KURULUŞ YILI bulunamadı (f=ilk yıllı tanıklık 1199).",
+  "Kalka Savaşı günü — TDV'de yok (kipcaklar, idil-bulgar-hanligi, batu-han yalnız 1223 der; kalka/kalka-savasi 302).",
+  "Mohi (Şayo) Savaşı 1241 — TDV batu-han/altin-orda-hanligi Macaristan'ı yağma listesinde anar, savaş adı/tarihi yok; madde yazılmadı.",
+  "Batu Han'ın ölüm tarihi — TDV batu-han 'kesin olarak bilinmemektedir ... 1255 sonları veya 1256 başları'; madde yazılmadı.",
+  "Berke-Bizans seferi (İzzeddin Keykâvus'un Enez'den kurtarılması) — TDV berke-han yıl vermiyor; madde yazılmadı.",
+  "Kişi maddeleri: abaka-han, ogedey, ugedey, mengu-kaan, mengu, mengu-han, kubilay, arik-boga, ong-han, tayang-han 302. TUTAN slug'lar: abaka, ogedey-han, kubilay-kagan, batu-han, berke-han. kumanlar 503 (önbellekteki 2 KB yönlendirme gövdesi 503 ile SİLİNDİ — içerik 'bk. Kıpçaklar' yönlendirmesiydi, kipcaklar okundu).",
+  "Kiev Rus / Vladimir-Suzdal / Rus knezlikleri (rus-knezlikleri), Abbâsî (abbasi), Tangut/Batı Xia, Peçenekler, Kaydu ulusu, Polonya (1320 öncesi) — devletler.js'te künye YOK; taraflara yazılmadı, ic_not'ta beyan edildi."
+ ],
+ "yazilmadi_mukerrer": [
+  "1258-02-10 Bağdat'ın zaptı — ilhanli künye-içi (1258-02-13) + kronoloji_iran_ardillari.js (1258-02-10) ZATEN VAR. ⚠️ Gün çelişkisi: künye-içi 13 Şubat, TDV hulagu '4 Safer 656 (10 Şubat 1258)' teslim; kuyruk maddesi 10 Şubat. Künye-içi 13 Şubat TDV'ye göre düzeltilmeli mi — koordinatör.",
+  "1260-09-03 Aynicâlût — kronoloji_iran_ardillari.js'te ZATEN VAR (ve memluk künyesinde).",
+  "1265-02-08 Hülâgû'nun ölümü — kronoloji_iran_ardillari.js'te ZATEN VAR.",
+  "1265 Abaka'nın seçimi — kronoloji_iran_ardillari.js'te ZATEN VAR.",
+  "1277-04-15 Elbistan — kronoloji_iran_ardillari.js'te ZATEN VAR (kronoloji_anadolu.js'te de 1277-04-01).",
+  "1253 Hülâgû'nun batıya görevlendirilmesi — kronoloji_iran_ardillari.js'te ZATEN VAR.",
+  "1259 Selçuklu ülkesinin Mengü kararıyla bölünmesi (hulagu: 1258 taksim) — kronoloji_anadolu.js'te ZATEN VAR.",
+  "1243 Kösedağ — kronoloji_anadolu.js'te ZATEN VAR.",
+  "1237-12-21 Ryazan — ryazan künyesinde ZATEN VAR."
+ ]
+}

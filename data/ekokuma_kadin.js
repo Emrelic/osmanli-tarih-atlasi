@@ -76,7 +76,7 @@ window.EKOKUMA_KADIN = [
   kisa:"İngiltere Kraliçesi I. Elizabeth'le doğrudan mektuplaşan tek Osmanlı vâlide sultanı.",
   metin:"III. Murad'ın hasekisi, III. Mehmed'in annesiydi. 1595'te oğlunun cülûsuyla vâlide sultan oldu; TDV'nin ifadesiyle sadrazamdan şeyhülislâma kadar birçok atamada söz sahibi oldu. Kraliçe I. Elizabeth ile doğrudan mektuplaşan ve hediye teâtisinde bulunan (1593'te mücevherli bir portre karşılığında işlemeli kumaşlar gönderdiği) tek Osmanlı vâlide sultanıdır — bu yazışma dönemin İngiliz-Osmanlı ticaret diplomasisinin bir parçasıydı. 1598'de Eminönü'nde Yeni Cami'nin inşasını başlattı, ama 1603'te oğlunun ölümüyle saraydan uzaklaştırılınca inşaat yarım kaldı; yapı ancak altmış yılı aşkın süre sonra, 1665'te başka bir vâlide sultan olan Turhan Hatice tarafından tamamlanacaktı. Ocak 1619'da öldü.",
   kesinlik:"kesin",
-  olay:["1595-01-16","1595-02-01","1598-04-09","1603-01-01|Yeni Cami","1603-12-22","1665-10-30"],
+  olay:["1595-01-16","1595-02-01","1598-04-09","1603-12-22|Yeni Cami","1603-12-22","1665-10-30"],
   kaynak:"TDV: safiye-sultan" },
 
 { id:"kimdir-kosem-sultan", tur:"kimdir",

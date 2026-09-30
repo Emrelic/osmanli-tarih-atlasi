@@ -205,7 +205,7 @@ window.EKOKUMA_MIMARI = [
   "olay": [
     "1598-04-09",
     "1598-09-01",
-    "1603-01-01|Yeni Cami",
+    "1603-12-22|Yeni Cami",
     "1665-10-30"
   ],
   "kisa": "Temeli 1598'de atılıp 67 yıl sonra ibadete açılan cami. Deniz kıyısındaki zemin kurşun kuşaklı kazıklarla sağlamlaştırıldı; plan klasik şemayı XVII. yüzyılda sürdürür, külliyenin geliri Mısır Çarşısı'ndan gelir.",

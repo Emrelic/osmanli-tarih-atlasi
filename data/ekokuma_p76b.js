@@ -189,7 +189,7 @@ window.EKOKUMA_P76B = [
     +"■ AÇIK KALAN\n"
     +"Gemi yolculuğunun ara limanları, Belçika-Prusya-Avusturya ayağındaki şehirler ve o duraklardaki günler, başvurulan ansiklopedi maddesinde ve incelenen iki akademik makalede gün gün verilmiyor; bu ayrıntı için seyahate ayrılmış müstakil bir monografi gerekir. Burada uydurulmuş bir güzergâh YAZILMADI.",
   kesinlik:"kesin",
-  olay:["1867-06-21","1867-07-01"],
+  olay:["1867-06-21","1867-07-01|Abdülaziz"],
   kaynak:"TDV: abdulaziz (Cevdet Küçük) · Aziz Tekdemir, “1867 Paris Sergisi ve Sultan Abdülaziz'in Sergiyi Ziyareti”, Trakya Üniversitesi Edebiyat Fakültesi Dergisi 3/6 (Temmuz 2013), s. 1-19 (Ruznamçe-i Cerîde-i Havâdis ve Ahmed Lütfî Efendi Vak'anüvis tarihine dayanarak). Ayrıntılı güzergâh için işaret edilen monografi: Nihat Karaer, Paris, Londra, Viyana: Abdülaziz'in Avrupa Seyahati, Ankara 2007" },
 
 { id:"seyahat-abdulaziz-1867-ingiltere", tur:"sebep-sonuc",
@@ -205,7 +205,7 @@ window.EKOKUMA_P76B = [
     +"■ NİÇİN ÖNEMLİ\n"
     +"Bu ayrıntılar bir gezi programından ibaret değildir. Bir Osmanlı padişahının İngiliz donanmasının gücünü bizzat, denizin üstünde izlemesi ve İngiltere'nin en eski şövalyelik nişanını alması, Kırım Savaşı'ndan beri sürdürülen İngiliz-Osmanlı yakınlığının en görünür anıydı. On bir yıl sonra aynı İngiltere Kıbrıs'ın idaresini alacaktı.",
   kesinlik:"kesin",
-  olay:["1867-07-01","1867-06-21"],
+  olay:["1867-07-01|Abdülaziz","1867-06-21"],
   kaynak:"Emel Demir Görür, “Reception, Accommodation, and Farewell of the Sultan Abdülaziz in Britain”, Tarih Dergisi / Turkish Journal of History 83 (2024/2), s. 111-144, DOI 10.26650/iutd.1446043 (dönemin İngiliz gazetelerine — Illustrated London News, Essex Standard, Punch, Christian Times, Levant Herald — dayanarak) · TDV: abdulaziz (Cevdet Küçük)" },
 
 { id:"seyahat-abdulaziz-1867-avrupa-basini", tur:"dis-yankilar",
@@ -223,7 +223,7 @@ window.EKOKUMA_P76B = [
     +"■ OKURA NOT\n"
     +"Bu kart bir gazete derlemesidir, bir hüküm değil. Dönemin basınının ne söylediğini gösterir; söylediğinin doğru olup olmadığını değil.",
   kesinlik:"kesin",
-  olay:["1867-06-21","1867-07-01"],
+  olay:["1867-06-21","1867-07-01|Abdülaziz"],
   kaynak:"Emel Demir Görür, “Reception, Accommodation, and Farewell of the Sultan Abdülaziz in Britain”, Tarih Dergisi 83 (2024/2), s. 111-144 (Punch, Christian Times, Illustrated London News, Essex Standard, Huddersfield Chronicle, Glasgow Daily Herald, Pall Mall Gazette künyeleriyle)" },
 
 { id:"seyahat-abdulaziz-1867-onemi", tur:"tartisma",
@@ -508,7 +508,7 @@ window.EKOKUMA_P76B = [
     +"■ NİÇİN HATIRLANIR\n"
     +"Plevne, kaybedilen bir savaşın içinden çıkan tek büyük gurur kaynağıydı ve bu yüzden Osman Paşa'nın adı bir savunma taktiğinin değil, bir tutumun adı oldu. Yenilginin ağırlığı ne kadar büyükse, o tutumun sembolik değeri de o kadar büyüdü.",
   kesinlik:"kesin",
-  olay:["1877-07-19","1877-12-10"],
+  olay:["1877-07-19|Plevne","1877-12-10"],
   kaynak:"TDV: gazi-osman-pasa (Metin Hülagü) · abdulhamid-ii (Cevdet Küçük) · doksanuc-harbi (Mahir Aydın)" },
 
 { id:"kimdir-gazi-ahmed-muhtar-pasa", tur:"kimdir",

@@ -37,8 +37,9 @@ window.YERLESIMLER_ANADOLU_0914 = [
      {f:"1410-01-01",t:"1422-01-01",d:"karakoyunlu"},
      {f:"1422-01-01",t:"1501-07-01",d:"akkoyunlu"},
      {f:"1501-07-01",t:"1514-10-23",d:"safevi"},
+     {f:"1916-07-16",t:"1917-03-15",d:"rusya",kaynak:"Çaykıran 2021 · Sarı (TÜBA, Millî Mücadele'nin Yerel Tarihi 1918-1923 c.9 böl.7 Bayburt): Rus işgali 16 Temmuz 1916; Selvi (aynı cilt böl.6) '17 Temmuz' — azınlık · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-19",d:"transkafkasya",kaynak:"Sarı (TÜBA c.9 böl.7 Bayburt): Bayburt'un geri alınışı 19 Şubat 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},
      {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1514-10-23",t:"1920-04-23"}] },
+  d:[{f:"1514-10-23",t:"1916-07-16"},{f:"1918-02-19",t:"1920-04-23"}] },
 
 { ad:"Zamantı (Pınarbaşı)", tur:"kale", lat:38.7331, lon:36.2228, g:0, k:4,
   neden:"0016/H-0002 · 0017/H-0001 · 0030/H-0018 · Kayseri–Elbistan arasındaki keskin 'üçgen' (Emre'nin görselleri: 1335-01-01 · 1337-09-09 · 1392-01-01, kutu 38,19-38,97K / 36,17-36,64D). ÖLÇÜLDÜ: kutuda 0 nokta; en yakınlar Kayseri 79 km · Elbistan 90,5 km · Darende 98,3 km — iki komşu petek boşluğa KAMA gibi açılıyordu (§2). Bu nokta üçgenin tam içinde.",

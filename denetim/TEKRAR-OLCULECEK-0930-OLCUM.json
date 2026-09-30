@@ -1,0 +1,1513 @@
+{
+ "aciklama": "TEKRAR-OLCULECEK-0930 ham gövde ölçümleri — koşu 18 (2ddede3d). motor_kara: motorun ÇIKTI karası (yalnız binme için geçerli) · ne: ne_10m_land − ne_10m_lakes (boşluk için esas). Aletler: denetim/ARAC-TEKRAR-OLCULECEK-0930-{GOVDE,TOPLU,CIZ,PETEK}.py; önce `py arac/kodla.py coz-c data <yol> donem|devlet|govde`.",
+ "motor_kara": [
+  {
+   "id": "0052/H-0012",
+   "gun": "1605-10-03",
+   "kutu": [
+    40.76,
+    45.33,
+    39.93,
+    48.92
+   ],
+   "kutu_km2": 369569,
+   "kara_km2": 287710,
+   "katman": {
+    "tabi(OSM)": 104992,
+    "OSMANLI": 88902,
+    "rusya": 44156,
+    "kabartay": 28443,
+    "safevi": 6418
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "safevi",
+     1007
+    ],
+    [
+     "tabi(OSM)",
+     "rusya",
+     127
+    ],
+    [
+     "tabi(OSM)",
+     "kabartay",
+     10
+    ],
+    [
+     "rusya",
+     "kabartay",
+     2
+    ]
+   ],
+   "binme_toplam": 1146,
+   "boyanmayan_kara": 20660,
+   "denize_tasan_boya": 4714
+  },
+  {
+   "id": "0052/H-0124",
+   "gun": "1679-01-01",
+   "kutu": [
+    42.91,
+    45.04,
+    44.12,
+    46.59
+   ],
+   "kutu_km2": 46602,
+   "kara_km2": 46597,
+   "katman": {
+    "rusya": 25651,
+    "kabartay": 8892,
+    "tabi(OSM)": 902,
+    "safevi": 138
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "rusya",
+     22
+    ],
+    [
+     "rusya",
+     "kabartay",
+     2
+    ]
+   ],
+   "binme_toplam": 24,
+   "boyanmayan_kara": 11043,
+   "denize_tasan_boya": 5
+  },
+  {
+   "id": "0052/H-0069",
+   "gun": "1642-02-26",
+   "kutu": [
+    45.62,
+    48.26,
+    37.07,
+    44.12
+   ],
+   "kutu_km2": 156413,
+   "kara_km2": 141913,
+   "katman": {
+    "don-kazak": 62049,
+    "tabi(OSM)": 54930,
+    "OSMANLI": 13251,
+    "rusya": 7101
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "don-kazak",
+     44
+    ],
+    [
+     "tabi(OSM)",
+     "don-kazak",
+     37
+    ]
+   ],
+   "binme_toplam": 81,
+   "boyanmayan_kara": 4670,
+   "denize_tasan_boya": 8
+  },
+  {
+   "id": "0052/H-0097-1",
+   "gun": "1672-10-18",
+   "kutu": [
+    50.98,
+    53.7,
+    27.74,
+    31.07
+   ],
+   "kutu_km2": 68116,
+   "kara_km2": 59491,
+   "katman": {
+    "lehistan": 35697,
+    "rusya": 24604
+   },
+   "binme": [
+    [
+     "lehistan",
+     "rusya",
+     5
+    ]
+   ],
+   "binme_toplam": 5,
+   "boyanmayan_kara": 72,
+   "denize_tasan_boya": 878
+  },
+  {
+   "id": "0052/H-0097-2",
+   "gun": "1672-10-18",
+   "kutu": [
+    50.21,
+    50.84,
+    16.15,
+    18.24
+   ],
+   "kutu_km2": 10303,
+   "kara_km2": 10303,
+   "katman": {
+    "avusturya": 10303
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0097-3",
+   "gun": "1672-10-18",
+   "kutu": [
+    53.83,
+    54.63,
+    16.2,
+    17.26
+   ],
+   "kutu_km2": 6101,
+   "kara_km2": 5438,
+   "katman": {
+    "lehistan": 4477,
+    "isvec": 960
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 4,
+   "denize_tasan_boya": 3
+  },
+  {
+   "id": "0052/H-0097-4",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.05,
+    50.02,
+    30.85,
+    33.24
+   ],
+   "kutu_km2": 18519,
+   "kara_km2": 18275,
+   "katman": {
+    "rusya": 11014,
+    "lehistan": 7296
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 12,
+   "denize_tasan_boya": 47
+  },
+  {
+   "id": "0052/H-0097-5",
+   "gun": "1672-10-18",
+   "kutu": [
+    44.2,
+    45.18,
+    44.19,
+    45.56
+   ],
+   "kutu_km2": 11748,
+   "kara_km2": 11744,
+   "katman": {
+    "rusya": 6003,
+    "kabartay": 4746,
+    "tabi(OSM)": 1023
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "rusya",
+     22
+    ],
+    [
+     "rusya",
+     "kabartay",
+     2
+    ]
+   ],
+   "binme_toplam": 24,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 5
+  },
+  {
+   "id": "0052/H-0099-1",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.73,
+    50.4,
+    4.95,
+    6.21
+   ],
+   "kutu_km2": 6670,
+   "kara_km2": 6670,
+   "katman": {
+    "ispanya": 6057,
+    "almanya": 613
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0099-2",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.65,
+    50.26,
+    3.07,
+    3.53
+   ],
+   "kutu_km2": 2222,
+   "kara_km2": 2222,
+   "katman": {
+    "fransa": 1963,
+    "ispanya": 258
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 1,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0099-3",
+   "gun": "1672-10-18",
+   "kutu": [
+    54.67,
+    56.2,
+    -4.27,
+    -2.61
+   ],
+   "kutu_km2": 17736,
+   "kara_km2": 15701,
+   "katman": {
+    "iskocya": 8382,
+    "ingiltere": 7250
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 146,
+   "denize_tasan_boya": 77
+  },
+  {
+   "id": "0052/H-0102",
+   "gun": "1672-08-27",
+   "kutu": [
+    48.11,
+    53.66,
+    61.77,
+    68.96
+   ],
+   "kutu_km2": 309869,
+   "kara_km2": 190277,
+   "katman": {
+    "kazak-hanligi": 222440,
+    "rusya": 22671
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 636,
+   "denize_tasan_boya": 55470
+  },
+  {
+   "id": "0052/H-0107",
+   "gun": "1672-08-27",
+   "kutu": [
+    17.62,
+    20.68,
+    95.69,
+    99.31
+   ],
+   "kutu_km2": 128800,
+   "kara_km2": 116186,
+   "katman": {
+    "toungoo": 86451,
+    "san-devletleri": 31818,
+    "ayutthaya": 883
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 174,
+   "denize_tasan_boya": 3139
+  },
+  {
+   "id": "0052/H-0109",
+   "gun": "1672-08-27",
+   "kutu": [
+    23.22,
+    24.77,
+    103.88,
+    107.46
+   ],
+   "kutu_km2": 62398,
+   "kara_km2": 37805,
+   "katman": {
+    "qing-hanedani": 25294,
+    "mac-hanedani": 12750
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 151,
+   "denize_tasan_boya": 391
+  },
+  {
+   "id": "0052/H-0110",
+   "gun": "1672-08-27",
+   "kutu": [
+    21.89,
+    23.26,
+    113.14,
+    115.43
+   ],
+   "kutu_km2": 35657,
+   "kara_km2": 18087,
+   "katman": {
+    "qing-hanedani": 18432,
+    "portekiz": 209
+   },
+   "binme": [
+    [
+     "portekiz",
+     "qing-hanedani",
+     1
+    ]
+   ],
+   "binme_toplam": 1,
+   "boyanmayan_kara": 338,
+   "denize_tasan_boya": 891
+  },
+  {
+   "id": "0052/H-0092",
+   "gun": "1650-06-15",
+   "kutu": [
+    24.4,
+    26.2,
+    50.6,
+    51.8
+   ],
+   "kutu_km2": 24037,
+   "kara_km2": 13659,
+   "katman": {
+    "tabi(OSM)": 13522,
+    "OSMANLI": 64,
+    "safevi": 58
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 34,
+   "denize_tasan_boya": 19
+  },
+  {
+   "id": "0035/H-0101",
+   "gun": "1820-01-08",
+   "kutu": [
+    24.0,
+    26.0,
+    55.3,
+    56.5
+   ],
+   "kutu_km2": 26773,
+   "kara_km2": 21618,
+   "katman": {
+    "umman": 11522,
+    "ingiltere": 10072
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 126,
+   "denize_tasan_boya": 102
+  },
+  {
+   "id": "0042/H-0002-1323",
+   "gun": "1323-01-01",
+   "kutu": [
+    39.5,
+    41.5,
+    26.0,
+    31.5
+   ],
+   "kutu_km2": 102955,
+   "kara_km2": 79299,
+   "katman": {
+    "bizans": 34975,
+    "OSMANLI": 18882,
+    "karesi": 15921,
+    "candar": 7630,
+    "germiyan": 4011
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "bizans",
+     2009
+    ],
+    [
+     "OSMANLI",
+     "germiyan",
+     9
+    ],
+    [
+     "OSMANLI",
+     "candar",
+     4
+    ]
+   ],
+   "binme_toplam": 2022,
+   "boyanmayan_kara": 242,
+   "denize_tasan_boya": 340
+  },
+  {
+   "id": "0042/H-0002-1346",
+   "gun": "1346-06-01",
+   "kutu": [
+    39.5,
+    41.5,
+    26.0,
+    31.5
+   ],
+   "kutu_km2": 102955,
+   "kara_km2": 79299,
+   "katman": {
+    "OSMANLI": 54916,
+    "bizans": 19426,
+    "germiyan": 4011,
+    "candar": 1228
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "germiyan",
+     156
+    ],
+    [
+     "OSMANLI",
+     "candar",
+     5
+    ]
+   ],
+   "binme_toplam": 161,
+   "boyanmayan_kara": 316,
+   "denize_tasan_boya": 436
+  },
+  {
+   "id": "0042/H-0002-1352",
+   "gun": "1352-06-01",
+   "kutu": [
+    40.0,
+    41.0,
+    26.0,
+    27.5
+   ],
+   "kutu_km2": 14039,
+   "kara_km2": 9665,
+   "katman": {
+    "bizans": 5725,
+    "OSMANLI": 4093
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "bizans",
+     181
+    ]
+   ],
+   "binme_toplam": 181,
+   "boyanmayan_kara": 109,
+   "denize_tasan_boya": 81
+  },
+  {
+   "id": "0042/H-0002-1408",
+   "gun": "1408-06-01",
+   "kutu": [
+    39.5,
+    42.0,
+    26.0,
+    31.5
+   ],
+   "kutu_km2": 128213,
+   "kara_km2": 88626,
+   "katman": {
+    "suleyman-celebi": 73056,
+    "candar": 7601,
+    "bizans": 3659,
+    "germiyan": 2270,
+    "karaman": 1726,
+    "ceneviz": 250
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 583,
+   "denize_tasan_boya": 519
+  },
+  {
+   "id": "0042/H-0016",
+   "gun": "1400-06-15",
+   "kutu": [
+    35.0,
+    40.5,
+    23.0,
+    28.5
+   ],
+   "kutu_km2": 294403,
+   "kara_km2": 91034,
+   "katman": {
+    "OSMANLI": 55437,
+    "venedik": 14092,
+    "sovalye": 6171,
+    "atinadukaligi": 5639,
+    "bizans": 4843,
+    "ceneviz": 3500,
+    "naksa-dukaligi": 589,
+    "aydin": 318,
+    "mora-despotlugu": 290
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "ceneviz",
+     3
+    ],
+    [
+     "OSMANLI",
+     "sovalye",
+     38
+    ],
+    [
+     "OSMANLI",
+     "aydin",
+     55
+    ],
+    [
+     "OSMANLI",
+     "atinadukaligi",
+     4
+    ],
+    [
+     "bizans",
+     "mora-despotlugu",
+     37
+    ]
+   ],
+   "binme_toplam": 137,
+   "boyanmayan_kara": 2119,
+   "denize_tasan_boya": 1827
+  },
+  {
+   "id": "0075/H-0011",
+   "gun": "1832-03-01",
+   "kutu": [
+    35.9,
+    37.3,
+    6.8,
+    8.8
+   ],
+   "kutu_km2": 27668,
+   "kara_km2": 20676,
+   "katman": {
+    "tabi(OSM)": 18989,
+    "fransa-cumhuriyet": 1840
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "fransa-cumhuriyet",
+     101
+    ]
+   ],
+   "binme_toplam": 101,
+   "boyanmayan_kara": 28,
+   "denize_tasan_boya": 80
+  },
+  {
+   "id": "0075/H-0024",
+   "gun": "1837-10-13",
+   "kutu": [
+    35.3,
+    37.2,
+    5.5,
+    8.0
+   ],
+   "kutu_km2": 47150,
+   "kara_km2": 40540,
+   "katman": {
+    "tabi(OSM)": 25672,
+    "fransa-cumhuriyet": 15124
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "fransa-cumhuriyet",
+     310
+    ]
+   ],
+   "binme_toplam": 310,
+   "boyanmayan_kara": 96,
+   "denize_tasan_boya": 41
+  },
+  {
+   "id": "0076/H-0072",
+   "gun": "1884-01-01",
+   "kutu": [
+    13.8,
+    17.0,
+    46.8,
+    51.0
+   ],
+   "kutu_km2": 159489,
+   "kara_km2": 90842,
+   "katman": {
+    "kesiri-sultanligi": 81660,
+    "kuayti-sultanligi": 36558
+   },
+   "binme": [
+    [
+     "kesiri-sultanligi",
+     "kuayti-sultanligi",
+     35485
+    ]
+   ],
+   "binme_toplam": 35485,
+   "boyanmayan_kara": 9665,
+   "denize_tasan_boya": 1556
+  },
+  {
+   "id": "0081/H-0008",
+   "gun": "1512-01-01",
+   "kutu": [
+    44.55,
+    46.02,
+    15.82,
+    18.8
+   ],
+   "kutu_km2": 37937,
+   "kara_km2": 37937,
+   "katman": {
+    "macaristan": 34755,
+    "OSMANLI": 3206
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "macaristan",
+     25
+    ]
+   ],
+   "binme_toplam": 25,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  }
+ ],
+ "ne": [
+  {
+   "id": "0052/H-0012",
+   "gun": "1605-10-03",
+   "kutu": [
+    40.76,
+    45.33,
+    39.93,
+    48.92
+   ],
+   "kutu_km2": 369569,
+   "kara_km2": 295762,
+   "katman": {
+    "tabi(OSM)": 104992,
+    "OSMANLI": 88902,
+    "rusya": 44156,
+    "kabartay": 28443,
+    "safevi": 6418
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "safevi",
+     1007
+    ],
+    [
+     "tabi(OSM)",
+     "rusya",
+     127
+    ],
+    [
+     "tabi(OSM)",
+     "kabartay",
+     10
+    ],
+    [
+     "rusya",
+     "kabartay",
+     2
+    ]
+   ],
+   "binme_toplam": 1146,
+   "boyanmayan_kara": 24670,
+   "denize_tasan_boya": 672
+  },
+  {
+   "id": "0052/H-0124",
+   "gun": "1679-01-01",
+   "kutu": [
+    42.91,
+    45.04,
+    44.12,
+    46.59
+   ],
+   "kutu_km2": 46602,
+   "kara_km2": 46602,
+   "katman": {
+    "rusya": 25651,
+    "kabartay": 8892,
+    "tabi(OSM)": 902,
+    "safevi": 138
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "rusya",
+     22
+    ],
+    [
+     "rusya",
+     "kabartay",
+     2
+    ]
+   ],
+   "binme_toplam": 24,
+   "boyanmayan_kara": 11043,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0069",
+   "gun": "1642-02-26",
+   "kutu": [
+    45.62,
+    48.26,
+    37.07,
+    44.12
+   ],
+   "kutu_km2": 156413,
+   "kara_km2": 139760,
+   "katman": {
+    "don-kazak": 62049,
+    "tabi(OSM)": 54930,
+    "OSMANLI": 13251,
+    "rusya": 7101
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "don-kazak",
+     44
+    ],
+    [
+     "tabi(OSM)",
+     "don-kazak",
+     37
+    ]
+   ],
+   "binme_toplam": 81,
+   "boyanmayan_kara": 4670,
+   "denize_tasan_boya": 2160
+  },
+  {
+   "id": "0052/H-0097-1",
+   "gun": "1672-10-18",
+   "kutu": [
+    50.98,
+    53.7,
+    27.74,
+    31.07
+   ],
+   "kutu_km2": 68116,
+   "kara_km2": 67845,
+   "katman": {
+    "lehistan": 35697,
+    "rusya": 24604
+   },
+   "binme": [
+    [
+     "lehistan",
+     "rusya",
+     5
+    ]
+   ],
+   "binme_toplam": 5,
+   "boyanmayan_kara": 7819,
+   "denize_tasan_boya": 271
+  },
+  {
+   "id": "0052/H-0097-2",
+   "gun": "1672-10-18",
+   "kutu": [
+    50.21,
+    50.84,
+    16.15,
+    18.24
+   ],
+   "kutu_km2": 10303,
+   "kara_km2": 10303,
+   "katman": {
+    "avusturya": 10303
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0097-3",
+   "gun": "1672-10-18",
+   "kutu": [
+    53.83,
+    54.63,
+    16.2,
+    17.26
+   ],
+   "kutu_km2": 6101,
+   "kara_km2": 5437,
+   "katman": {
+    "lehistan": 4477,
+    "isvec": 960
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 4,
+   "denize_tasan_boya": 3
+  },
+  {
+   "id": "0052/H-0097-4",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.05,
+    50.02,
+    30.85,
+    33.24
+   ],
+   "kutu_km2": 18519,
+   "kara_km2": 16428,
+   "katman": {
+    "rusya": 11014,
+    "lehistan": 7296
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 13,
+   "denize_tasan_boya": 1895
+  },
+  {
+   "id": "0052/H-0097-5",
+   "gun": "1672-10-18",
+   "kutu": [
+    44.2,
+    45.18,
+    44.19,
+    45.56
+   ],
+   "kutu_km2": 11748,
+   "kara_km2": 11748,
+   "katman": {
+    "rusya": 6003,
+    "kabartay": 4746,
+    "tabi(OSM)": 1023
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "rusya",
+     22
+    ],
+    [
+     "rusya",
+     "kabartay",
+     2
+    ]
+   ],
+   "binme_toplam": 24,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0099-1",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.73,
+    50.4,
+    4.95,
+    6.21
+   ],
+   "kutu_km2": 6670,
+   "kara_km2": 6670,
+   "katman": {
+    "ispanya": 6057,
+    "almanya": 613
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0099-2",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.65,
+    50.26,
+    3.07,
+    3.53
+   ],
+   "kutu_km2": 2222,
+   "kara_km2": 2222,
+   "katman": {
+    "fransa": 1963,
+    "ispanya": 258
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 1,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0099-3",
+   "gun": "1672-10-18",
+   "kutu": [
+    54.67,
+    56.2,
+    -4.27,
+    -2.61
+   ],
+   "kutu_km2": 17736,
+   "kara_km2": 15702,
+   "katman": {
+    "iskocya": 8382,
+    "ingiltere": 7250
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 147,
+   "denize_tasan_boya": 77
+  },
+  {
+   "id": "0052/H-0102",
+   "gun": "1672-08-27",
+   "kutu": [
+    48.11,
+    53.66,
+    61.77,
+    68.96
+   ],
+   "kutu_km2": 309869,
+   "kara_km2": 307941,
+   "katman": {
+    "kazak-hanligi": 222440,
+    "rusya": 22671
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 63345,
+   "denize_tasan_boya": 515
+  },
+  {
+   "id": "0052/H-0107",
+   "gun": "1672-08-27",
+   "kutu": [
+    17.62,
+    20.68,
+    95.69,
+    99.31
+   ],
+   "kutu_km2": 128800,
+   "kara_km2": 128800,
+   "katman": {
+    "toungoo": 86451,
+    "san-devletleri": 31818,
+    "ayutthaya": 883
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 9648,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0109",
+   "gun": "1672-08-27",
+   "kutu": [
+    23.22,
+    24.77,
+    103.88,
+    107.46
+   ],
+   "kutu_km2": 62398,
+   "kara_km2": 62398,
+   "katman": {
+    "qing-hanedani": 25294,
+    "mac-hanedani": 12750
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 24354,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0052/H-0110",
+   "gun": "1672-08-27",
+   "kutu": [
+    21.89,
+    23.26,
+    113.14,
+    115.43
+   ],
+   "kutu_km2": 35657,
+   "kara_km2": 18891,
+   "katman": {
+    "qing-hanedani": 18432,
+    "portekiz": 209
+   },
+   "binme": [
+    [
+     "portekiz",
+     "qing-hanedani",
+     1
+    ]
+   ],
+   "binme_toplam": 1,
+   "boyanmayan_kara": 410,
+   "denize_tasan_boya": 159
+  },
+  {
+   "id": "0052/H-0092",
+   "gun": "1650-06-15",
+   "kutu": [
+    24.4,
+    26.2,
+    50.6,
+    51.8
+   ],
+   "kutu_km2": 24037,
+   "kara_km2": 13659,
+   "katman": {
+    "tabi(OSM)": 13522,
+    "OSMANLI": 64,
+    "safevi": 58
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 40,
+   "denize_tasan_boya": 25
+  },
+  {
+   "id": "0035/H-0101",
+   "gun": "1820-01-08",
+   "kutu": [
+    24.0,
+    26.0,
+    55.3,
+    56.5
+   ],
+   "kutu_km2": 26773,
+   "kara_km2": 21620,
+   "katman": {
+    "umman": 11522,
+    "ingiltere": 10072
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 128,
+   "denize_tasan_boya": 102
+  },
+  {
+   "id": "0042/H-0002-1323",
+   "gun": "1323-01-01",
+   "kutu": [
+    39.5,
+    41.5,
+    26.0,
+    31.5
+   ],
+   "kutu_km2": 102955,
+   "kara_km2": 79296,
+   "katman": {
+    "bizans": 34975,
+    "OSMANLI": 18882,
+    "karesi": 15921,
+    "candar": 7630,
+    "germiyan": 4011
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "bizans",
+     2009
+    ],
+    [
+     "OSMANLI",
+     "germiyan",
+     9
+    ],
+    [
+     "OSMANLI",
+     "candar",
+     4
+    ]
+   ],
+   "binme_toplam": 2022,
+   "boyanmayan_kara": 249,
+   "denize_tasan_boya": 351
+  },
+  {
+   "id": "0042/H-0002-1346",
+   "gun": "1346-06-01",
+   "kutu": [
+    39.5,
+    41.5,
+    26.0,
+    31.5
+   ],
+   "kutu_km2": 102955,
+   "kara_km2": 79296,
+   "katman": {
+    "OSMANLI": 54916,
+    "bizans": 19426,
+    "germiyan": 4011,
+    "candar": 1228
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "germiyan",
+     156
+    ],
+    [
+     "OSMANLI",
+     "candar",
+     5
+    ]
+   ],
+   "binme_toplam": 161,
+   "boyanmayan_kara": 322,
+   "denize_tasan_boya": 446
+  },
+  {
+   "id": "0042/H-0002-1352",
+   "gun": "1352-06-01",
+   "kutu": [
+    40.0,
+    41.0,
+    26.0,
+    27.5
+   ],
+   "kutu_km2": 14039,
+   "kara_km2": 9665,
+   "katman": {
+    "bizans": 5725,
+    "OSMANLI": 4093
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "bizans",
+     181
+    ]
+   ],
+   "binme_toplam": 181,
+   "boyanmayan_kara": 111,
+   "denize_tasan_boya": 83
+  },
+  {
+   "id": "0042/H-0002-1408",
+   "gun": "1408-06-01",
+   "kutu": [
+    39.5,
+    42.0,
+    26.0,
+    31.5
+   ],
+   "kutu_km2": 128213,
+   "kara_km2": 88623,
+   "katman": {
+    "suleyman-celebi": 73056,
+    "candar": 7601,
+    "bizans": 3659,
+    "germiyan": 2270,
+    "karaman": 1726,
+    "ceneviz": 250
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 588,
+   "denize_tasan_boya": 526
+  },
+  {
+   "id": "0042/H-0016",
+   "gun": "1400-06-15",
+   "kutu": [
+    35.0,
+    40.5,
+    23.0,
+    28.5
+   ],
+   "kutu_km2": 294403,
+   "kara_km2": 91141,
+   "katman": {
+    "OSMANLI": 55437,
+    "venedik": 14092,
+    "sovalye": 6171,
+    "atinadukaligi": 5639,
+    "bizans": 4843,
+    "ceneviz": 3500,
+    "naksa-dukaligi": 589,
+    "aydin": 318,
+    "mora-despotlugu": 290
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "ceneviz",
+     3
+    ],
+    [
+     "OSMANLI",
+     "sovalye",
+     38
+    ],
+    [
+     "OSMANLI",
+     "aydin",
+     55
+    ],
+    [
+     "OSMANLI",
+     "atinadukaligi",
+     4
+    ],
+    [
+     "bizans",
+     "mora-despotlugu",
+     37
+    ]
+   ],
+   "binme_toplam": 137,
+   "boyanmayan_kara": 2196,
+   "denize_tasan_boya": 1797
+  },
+  {
+   "id": "0075/H-0011",
+   "gun": "1832-03-01",
+   "kutu": [
+    35.9,
+    37.3,
+    6.8,
+    8.8
+   ],
+   "kutu_km2": 27668,
+   "kara_km2": 20677,
+   "katman": {
+    "tabi(OSM)": 18989,
+    "fransa-cumhuriyet": 1840
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "fransa-cumhuriyet",
+     101
+    ]
+   ],
+   "binme_toplam": 101,
+   "boyanmayan_kara": 30,
+   "denize_tasan_boya": 81
+  },
+  {
+   "id": "0075/H-0024",
+   "gun": "1837-10-13",
+   "kutu": [
+    35.3,
+    37.2,
+    5.5,
+    8.0
+   ],
+   "kutu_km2": 47150,
+   "kara_km2": 40541,
+   "katman": {
+    "tabi(OSM)": 25672,
+    "fransa-cumhuriyet": 15124
+   },
+   "binme": [
+    [
+     "tabi(OSM)",
+     "fransa-cumhuriyet",
+     310
+    ]
+   ],
+   "binme_toplam": 310,
+   "boyanmayan_kara": 98,
+   "denize_tasan_boya": 42
+  },
+  {
+   "id": "0076/H-0072",
+   "gun": "1884-01-01",
+   "kutu": [
+    13.8,
+    17.0,
+    46.8,
+    51.0
+   ],
+   "kutu_km2": 159489,
+   "kara_km2": 131017,
+   "katman": {
+    "kesiri-sultanligi": 81660,
+    "kuayti-sultanligi": 36558
+   },
+   "binme": [
+    [
+     "kesiri-sultanligi",
+     "kuayti-sultanligi",
+     35485
+    ]
+   ],
+   "binme_toplam": 35485,
+   "boyanmayan_kara": 48284,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "0081/H-0008",
+   "gun": "1512-01-01",
+   "kutu": [
+    44.55,
+    46.02,
+    15.82,
+    18.8
+   ],
+   "kutu_km2": 37937,
+   "kara_km2": 37937,
+   "katman": {
+    "macaristan": 34755,
+    "OSMANLI": 3206
+   },
+   "binme": [
+    [
+     "OSMANLI",
+     "macaristan",
+     25
+    ]
+   ],
+   "binme_toplam": 25,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  }
+ ],
+ "nokta_kutulari_ne": [
+  {
+   "id": "Vladikavkaz-1605",
+   "gun": "1605-10-03",
+   "kutu": [
+    42.97,
+    43.07,
+    44.63,
+    44.73
+   ],
+   "kutu_km2": 90,
+   "kara_km2": 90,
+   "katman": {},
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 90,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "Vladikavkaz-1679",
+   "gun": "1679-01-01",
+   "kutu": [
+    42.97,
+    43.07,
+    44.63,
+    44.73
+   ],
+   "kutu_km2": 90,
+   "kara_km2": 90,
+   "katman": {},
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 90,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "DoguKatar-Doha-1650",
+   "gun": "1650-06-15",
+   "kutu": [
+    25.2,
+    25.4,
+    51.4,
+    51.6
+   ],
+   "kutu_km2": 445,
+   "kara_km2": 339,
+   "katman": {
+    "tabi(OSM)": 339
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 0,
+   "denize_tasan_boya": 0
+  },
+  {
+   "id": "KatarBati-1650",
+   "gun": "1650-06-15",
+   "kutu": [
+    24.4,
+    26.2,
+    50.66,
+    50.9
+   ],
+   "kutu_km2": 4807,
+   "kara_km2": 2104,
+   "katman": {
+    "tabi(OSM)": 2099
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 9,
+   "denize_tasan_boya": 3
+  },
+  {
+   "id": "Bahreyn-1650",
+   "gun": "1650-06-15",
+   "kutu": [
+    25.8,
+    26.3,
+    50.4,
+    50.7
+   ],
+   "kutu_km2": 1659,
+   "kara_km2": 626,
+   "katman": {
+    "safevi": 581
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 87,
+   "denize_tasan_boya": 42
+  },
+  {
+   "id": "KatarDogu-1650",
+   "gun": "1650-06-15",
+   "kutu": [
+    24.4,
+    26.2,
+    50.9,
+    51.8
+   ],
+   "kutu_km2": 18027,
+   "kara_km2": 11076,
+   "katman": {
+    "tabi(OSM)": 11077
+   },
+   "binme": [],
+   "binme_toplam": 0,
+   "boyanmayan_kara": 8,
+   "denize_tasan_boya": 9
+  }
+ ],
+ "petek_taban": {
+  "Çamdo": 20623,
+  "Gauhâtî": 46612,
+  "Sibsâgar": 49465,
+  "kaynak": "PETEK_GOVDE (koşu 18), MOTOR-0916 öngörüsü 20815/48195/50585"
+ }
+}

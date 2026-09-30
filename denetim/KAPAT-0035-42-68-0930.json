@@ -1,0 +1,661 @@
+{
+ "oturum": "KAPAT-0035-42-68-0930",
+ "tarih": "2026-09-30",
+ "partiler": {
+  "parti-emrelic-0035": {
+   "madde": {
+    "H-0001": {
+     "hukum": "tekrar",
+     "not": "BULGU-BAYAT-TARAMA ailesi (Kuzey Afrika çöl emilmesi, BULGU-VERI-ACIK). Ölçüm 1686-06-01, dar kutu 27,64-30,90K/23,28-26,14D: 2 nokta — Sîva OSM (yerlesimler_p0043libya.js:83, 04b02383, 12 Eyl; TDV misir yalnız VARLIK kaynaklı, tarih kardeş vahalardan) + Cağbûb (kur 1856, yok). Geniş kutu 25-33K/20-29D: 19 nokta, 3 kasıtlı boşluk dolgusu (Serîr, Serîr Kalanşû, Tâzirbû; 30 Tem'den beri). Artık boyamanın bir noktası var (Sîva peteği) ama çölün Osmanlı kırmızısıyla emilmesi mekanizması aynı; ikiz H-0047 (motor emilme talebi) AÇIK. Gövde ölçülmedi.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "tekrar"
+    },
+    "H-0013": {
+     "hukum": "cozuldu",
+     "not": "CEVAP'ın 'Taygan yerleşim kaydı yok' ölçümü ad kaçırmasıydı: nokta 'Taganrog' adıyla 8 Ağu'dan beri var (d5e8fc54). Prut sonrası dilim 14 Eyl'de kaynaklı düzeltildi: s:__BOSLUK__ 1711-07-21→1739-09-18 (TDV prut-antlasmasi: Taygan yıkılacak, iki taraf kale yapmayacak; eskiden kaynaksız s:kirim). Madde 1711-07-21 Azak ve Taygan'ı anıyor, kırılma aynı gün.",
+     "delil": "data/yerlesimler_h2_rusya.js:440 · commit 07235d99 (2026-09-14)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0020": {
+     "hukum": "cozuldu",
+     "not": "Koordinatör hükmü indi: Şamahı d:1722-24 değil v: 1722-11-01→1735-06-19 kesinlik ay, kimlik 'Şirvan Hanlığı — Hacı Dâvud (tâbi)', TDV sirvan alıntılı; madde 'Hacı Dâvud'un Şirvan hâkimiyetinin Osmanlı'ca tanınması' 1722-11-01 kesinlik ay. Kalıntı: olaylar_ek5.js:548 '1723 İran Seferi' t:1723-08-01 gun:'1723' (yıl hassas, ay-gün sahte) hâlâ duruyor; Kuba 1722-28 bulunamadı.",
+     "delil": "data/yerlesimler.js:663 · data/olaylar_p0917kosu13.js:48 · commit 9b92117f (2026-09-17)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0021": {
+     "hukum": "cozuldu",
+     "not": "Aradaki topraklar artık kaynaklı 1724 pencereleriyle var: Culfa d 1724-08-11 (Nahçıvan'la aynı gün, Bilgili 2016 TD 905) · Hoy d 1724-09-28 · Mâku d 1724-10-03 · Şerur d 1724-10-03 (Bilgili 2016 TD 901) · Merend/Merâga 1725-07-28. BULGU-BAYAT-TARAMA'nın 'Culfa/Merend/Meraga KAYITLI BORÇ' notu veride kapanmış. Kalan: Kotur'un 1724-35 penceresi YOK (yalnız 1548-1639) — kaynak bulunamadı; Nahçıvan 08-11 ile Hoy 09-28 arası küçük enklav kaynaklı günlerin sonucu.",
+     "delil": "data/yerlesimler.js:1826 (Culfa) · :1823 (Hoy) · :1830 (Mâku) · data/yerlesimler_kalite4.js:56 (Şerur) · commit 55a5b285 (2026-09-17)",
+     "sinif": "veri",
+     "eski_hukum": "tekrar"
+    },
+    "H-0035": {
+     "hukum": "cozuldu",
+     "not": "Hotin s:rusya → isg: oldu: isg rusya 1769-09-19→1774-07-21 (ESBE) + 1739, 1788-92 (avusturya), 1806-12 isgalleri; Hotin artık Boğdan içinde egemen Rus adası değil taralı işgal. Bender 1770-09-27 ve Akkirman 1770-10-09 isg de var. Koordinatör hükmü (Hotin s→isg + 1739 + 1788-92) tam. Kalan ayrı kalem P-BOG: Yaş ve Boğdan şehirlerine 1769-10-07→1774-07-21 isg YOK (Yaş isg yalnız 1739·1806·1828).",
+     "delil": "data/yerlesimler.js:1376 (Hotin) · :1377 (Bender) · commit 9b92117f (2026-09-17)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0047": {
+     "hukum": "sirada",
+     "not": "Motor talebi (boş çölün Osmanlı kırmızısına emilmesini kaldır + girinti yumuşatma). uret_petek.py'de değişiklik yok: kasıtlı boşluk dolgu noktaları (kasitli_bosluk/bos:devletsiz) ve A1 200 km tavanı mevcut mekanizma; GEOMETRI-0916 Ⓒ'de çare GORUNUM-ABCD A/B tasarımı — uygulanmadı. Yapılacak: GORUNUM-ABCD A (tek sahiplik) / B (boşluk paylaştırma) motor işi.",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0052": {
+     "hukum": "cozuldu",
+     "not": "Koordinatör hükmü indi: Yergöğü d 1420-1427 · s:eflak 1427→1450 (TDV yergogu kaynaklı) · d 1450-01-01'den (853 H yıl). İki madde yazıldı: 1427-01-01 'Yergöğü'nün Eflak'a geçişi' ve 1450-01-01 'Yergöğü'nün yeniden Osmanlı kontrolüne girişi (853/1449-50)'. Görsel 1'deki Silistre güneybatısı üçgeni ölçülmedi.",
+     "delil": "data/yerlesimler.js:2312 · data/olaylar_p0917kosu13.js:32,34 · commit 9b92117f (2026-09-17)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0053": {
+     "hukum": "sirada",
+     "not": "Kısmen düzeldi: Kusayr artık d 1517-04-13 (Nil vadisi Luksor/Edfû/Esna/Kına/Asvan ile aynı gün) — 'Osmanlı adası' tutarsızlığı kalktı. AÇIK: Sina güneyi ve Süveyş d 1517-02-15 (Kahire ile aynı gün, kaynaksız) iken El-Arîş (Sina Akdeniz kıyısı) d 1517-05-19 — 1517-02-20'de kuzey kıyı hâlâ s:memluk, güney Sina Osmanlı: Emre'nin 'güneyden mi geçti' gözlemi bugün de geçerli. Yapılacak: El-Arîş ve Süveyş'in düşüş günü için akademik kaynak, El-Arîş'in Ridaniye öncesine çekilmesi.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "olculecek"
+    },
+    "H-0054": {
+     "hukum": "cozuldu",
+     "not": "Şikâyet (1517-07-06, Tebük–Medine arası noktasız bej kama) için bu partiye özel dosya yazılıp bağlandı: yerlesimler_ok101.js (parti-emrelic-0035 H-0054+H-0055): el-Ulâ, Medâin-i Sâlih, el-Vech (1517-07-06'da OSM), Hayber (v:mekke-serifligi); + Bedir (ok107). Canlı yükleyici bu dosyaları okuyor (4296 kayıt içinde). Koridor ağında Şam hac yolu kenarı yok (koridor.js yalnız Mekke–Medine).",
+     "delil": "data/yerlesimler_ok101.js:1-4,80-103 · commit 13188d01 (2026-09-02)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0055": {
+     "hukum": "cozuldu",
+     "not": "H-0054 ile aynı dosya: Tebük–Yenbu–Medine arasına el-Ulâ, Medâin-i Sâlih, el-Vech, Hayber noktaları (ok101) + Bedir (ok107) eklendi, canlı. 'Yol nereden geçiyor' kısmı: koridor.js'te Tebük–Medine hac yolu kenarı YOK (grep 0) — koridor katmanı işi olarak kalıyor.",
+     "delil": "data/yerlesimler_ok101.js:80-103 · commit 13188d01 (2026-09-02)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0057": {
+     "hukum": "tekrar",
+     "not": "BULGU-BAYAT-TARAMA ailesi (grup-G). İkiz: parti-emrelic-0021/H-0028 (Ferhat Paşa 21 şehir, envanterde sirada) + parti-emrelic-0020/H-0012. Bugün: (30) Kutaisi artık s:imereti 1490-1810 + v 1555 — ÇÖZÜLDÜ. (28-29) kısmen: Şerur d 1586, Urmiye d 1585, Merend d 1588, Mahabad v 1585 eklendi; Serdeşt, Sakkız, Ahvaz, Dizfûl, Şüşter'de 1590 penceresi hâlâ YOK. (1) Doğubayazıt d 1514-09-06→1920 kesintisiz (TDV 1514 yılı kaynaklı; Safevî geri alışı araştırılmadı) — açık. Kalan ~25 alt soru parçalanmadı.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "tekrar"
+    },
+    "H-0059": {
+     "hukum": "cozuldu",
+     "not": "Germiyan kısmı indi: Denizli ve bütün Germiyan grubu (Kütahya, Karahisâr-ı Sâhib, Simav, Tavşanlı, Emet, Uşak, Alaşehir, Denizli — 8 nokta) s:germiyan →1429-01-01, d 1429-01-01'den (TDV denizli: 1429'da Osmanlı idaresine geçti) — 1425 'ilk aşama' artık yok, ilhak tek aşama. Metin kısmı (Teke çıkarıldı) 632a042 ile önceden inmişti.",
+     "delil": "data/yerlesimler.js:184 (Denizli) · commit f51242f8 (2026-09-16) · 632a042",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0063": {
+     "hukum": "cozuldu",
+     "not": "Koordinatör hükmü indi: Herseknovi isg ispanya 1538-01-01→1539-08-10 (TDV barbaros-hayreddin-pasa); iki madde yazıldı: 1538-01-01 kesinlik yıl 'Herseknovi (Castelnuovo) Andrea Doria tarafından zaptedildi' ve 1539-08-10 'Herseknovi'nin Barbaros Hayreddin Paşa tarafından geri alınması'. Başlangıç ay/günü bulunamadı (kaynak yıl veriyor, uydurulmadı).",
+     "delil": "data/yerlesimler_ek.js:241 · data/olaylar_p0055.js:54,65 (index.html:1344 yüklüyor)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0064": {
+     "hukum": "bayat",
+     "not": "Görsel 1554-01-01, 29,66-32,28K/40,73-44,06D (Necef güneybatısı çölü). Kutuya iki kasıtlı boşluk dolgusu eklendi: Widyân ve Nuhayb (1554'te sahipsiz) — 0038/H-0002 işi, şikâyetten 5 gün sonra. Noktasız bölgenin Osmanlı peteğine emilmesinin veri kaynağı kapandı. Gövde (koşu 18) ölçülmedi.",
+     "delil": "data/yerlesimler_ek4.js:82,85 · commit 738e43e0 (2026-08-31)",
+     "sinif": "harita",
+     "eski_hukum": "tekrar"
+    },
+    "H-0065": {
+     "hukum": "sirada",
+     "not": "İbrim hâlâ d 1517-04-13→1805 (yerlesimler.js:821). Metin kısmı 632a042 ile inmiş. Başlangıç günü açık: KARAR-KUYRUGU-0930.md:606 '0035/H-0065 B — İbrim' — gereken: Özdemir Paşa'nın Nûbe harekâtının yılı için akademik kaynak (Orhonlu, Habeş Eyaleti).",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0068": {
+     "hukum": "sirada",
+     "not": "BULGU-BAYAT-TARAMA ailesi (grup-H, 0027/H-0004 — envanter açık listesinde değil). Szatmár (Satu Mare) hâlâ s:avusturya 1526-08-29→1918-11-11 kesintisiz (yerlesimler_ek_macaristan.js:280); istenen 7 nokta (Nagybánya, Kálló, Ecsed, Ónod, Szendrő, Huszt, Máramarossziget) 0/7 — yerleşim evreninde (4296) yok. Tökeli dönemi (1682-1685) sahibi için kaynak taraması yapılmadı.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "tekrar"
+    },
+    "H-0072": {
+     "hukum": "sirada",
+     "not": "GEOMETRI-0916 (koşu 11) ölçümü: kutuda örtüşme 0 · geçersiz 3, sınıf 'uzun düz Voronoi kenarı', çare GORUNUM-ABCD A — uygulanmadı. R1 (89cd6815, 4 Eyl) yabancı havuz dikiş boşluğunu (Riga/Bohemya) kapattı ama bu maddenin kalan geçersiz kenarları A'ya bağlı. Gövde koşu 18 için yeniden ölçülmedi (1721, Baltık).",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0074": {
+     "hukum": "cozuldu",
+     "not": "BULGU-BAYAT-TARAMA ailesi (grup-G). Görselin kutusu (1727-10-04, 34,66-40,24K/43,45-48,21D) bugün: 57 noktanın 49'u OSM. Görseldeki pembe (Safevî) alanın noktaları artık Osmanlı: Mâku, Şerur, Hoy, Urmiye, Mahabad, Sakkız, Bâne, Merîvan, Senendec, Mîyandoab, Merâga (kaynaklı 1723-25 pencereleri). Kalan safevi: Kotur, Serdeşt, Sero, Rāzhān, Şeyh Salû-yi Ulyâ, Norapat (6 sınır noktası) — küçük kama kalabilir. Gövde ölçülmedi.",
+     "delil": "data/yerlesimler.js:1830 (Mâku) · :1135 (Urmiye) · :1833 (Sakkız) · :1832 (Mîyandoab) · data/yerlesimler_kalite4.js:36 (Mahabad) · commit 55a5b285 (2026-09-17)",
+     "sinif": "veri",
+     "eski_hukum": "tekrar"
+    },
+    "H-0076": {
+     "hukum": "sirada",
+     "not": "Büyük kısmı indi: Nahçıvan d 1724-08-11→1735-06-19 (Yörük&Valiyev/Aktepe, 55a5b285) · Tebriz 1725-07-28 fethi, 1731-11-15 geri alınışı (madde olaylar_p0917kosu13.js:50), 1732-01-08 iade. AÇIK: antlaşma maddesi olaylar_ek5.js:274 hâlâ t:1732-01-10 — koordinatör hükmü 1732-01-08 (TDV hemedan), Tebriz kaydı 'G3-A6C-ANTLASMA kararına bağlı' diyor · Hoy d hâlâ 1730-08-12'de bitiyor (TDV hoy 1739 ayrışması) · Ordubad 1730-08-12 (kaynak yok).",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0077": {
+     "hukum": "sirada",
+     "not": "Özi düşüş günü indi: Özi d bitiş 1737-07-11 ve madde olaylar_ek5.js:278 t:1737-07-11 (TDV 11 Temmuz). 1788 oku var (savaslar.js:983). AÇIK: 1737 Özi seferi oku yazılmadı — savaslar.js:958 'Yazılmayanlar … 1737 Özi (A6B TASLAK)' (Dinyeper geçiş yeri kaynakta adsız). Harita (bozkırın Rus görünmemesi) doğru.",
+     "delil": "",
+     "sinif": "kronoloji",
+     "eski_hukum": "sirada"
+    },
+    "H-0079": {
+     "hukum": "sirada",
+     "not": "Dir'iye noktası VAR (yerlesimler.js:767, 28 Tem'den beri; CEVAP 'Diriyye bulunamadı' ad kaçırmasıydı): s:suud 1744→1818. AÇIK: Hâil 1779-1836 s:hail-ibn-ali (künye devletler.js:1553, TDV residiler '1779'da Suûdî-Vehhâbî güçleri Hâil emirliğini ele geçirdikleri sırada…') — Suudi'ye bağlılık (v:) yazılmamış, Emre'nin sorusu cevapsız. 'Nefud çölü' dolgu noktası (yerlesimler.js:1222) 1744-1818 s:suud — Nefud'u Suudi boyayan bu; kimlik için kaynak yazılı değil. Yapılacak: Hâil 1779-1818 statüsü + Nefud dolgusunun kimliği kaynakla.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "olculecek"
+    },
+    "H-0084": {
+     "hukum": "cozuldu",
+     "not": "Veri tersine döndü: Abâdân artık d 1546-01-01→1847-05-31 (TDV abadan: 'Uzun süre Osmanlı hâkimiyetinde kalan Abadan, 1847 Erzurum Antlaşması ile İran'a geçmiştir'); 1779 Basra geri alınışında Abadan Osmanlı. Eski 'Abadan hep İran' hükmü bayat. Kalıntı: 1776-04-16→1779-04-01 Zend işgalinde Basra s:zend iken Abadan d (OSM) kalıyor — Emre'nin 'Basra'ya hâkim olan Abadan'a da hâkim' önermesi bu 3 yıl için yazılmadı, kaynak aranmadı.",
+     "delil": "data/yerlesimler.js:1935 · commit aaadabf5 (2026-09-02)",
+     "sinif": "veri",
+     "eski_hukum": "tekrar"
+    },
+    "H-0087": {
+     "hukum": "sirada",
+     "not": "Koridor katmanı mevcut ve arayüzde (index.html:109 '③ Yollar ve koridorlar'; koridor.js 64 + f5c9a5 53 + halka2 10 + yama 1 kenar; ilk sürüm a37bb4b8, 13 Ağu — şikâyetten önce). Emre'nin 8 katmanlı ilke listesi hiçbir kök belgede yazılı değil (BES-ALTYAPI/YOL-HARITASI/YAPILACAKLAR'da 'H-0087'/'8 katman' 0 isabet; YAPILACAKLAR:1073 başka bağlam). Yapılacak: 8 katman ilkesinin istişaresi/yazımı + yol ağı kapsamının genişletilmesi.",
+     "delil": "",
+     "sinif": "kapsam",
+     "eski_hukum": "sirada"
+    },
+    "H-0088": {
+     "hukum": "sirada",
+     "not": "Kısmen indi: Gümrü d 1583-09-13→1604-06-08 (örtülü, Emre 13 Eyl) ve Eçmiyadzin d 1583-09-13→1604-06-08 (ek26.js:87,91). AÇIK: Kasr-ı Şîrîn hâlâ yalnız d 1723-10-01→1730-08-12, 1590'da s:safevi (yerlesimler.js:1843) — A0047-1/G-KASRISIRIN yaması inmedi, Bağdat–Kirmanşah arasındaki kama duruyor. 1724-35 Gümrü/Eçmiyadzin: ikisi de d 1724-10-03→1735-10-03, o dönemde kama yok.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0090": {
+     "hukum": "sirada",
+     "not": "İlk parti canlı: olaylar_p0049.js:67 (1711-04-09 Prut Seferi) · :75 (1787-07-27 ültimatom) · olaylar_ek5.js:297 (1787-08-16 savaş ilanı). Sınıf iş (her Osmanlı-Rus savaşına ilan/yığınak/Eflak-Boğdan'a giriş maddesi, 1790 İsmail yürüyüşü oku) sürüyor; akademik kaynak (Aksan, Badem) gerek.",
+     "delil": "",
+     "sinif": "kronoloji",
+     "eski_hukum": "sirada"
+    },
+    "H-0092": {
+     "hukum": "sirada",
+     "not": "1799-03-01'de Mısır kutusunda (61 nokta) isg:fransa 7: Dimyat, Reşîd, İskenderiye, El-Arîş (1799-02-18, yeni), Kahire, Süveyş (1798-11-08, yeni), Asyut. Hâlâ taranmamış: Feyyûm, Minye, Benî Süveyf, Mansûre, Tanta, Demenhûr, Bilbîs, Ebûkîr, Katye, Sâlihiyye… Hangi noktanın isg hak ettiği listesi çıkarılmadı.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0097": {
+     "hukum": "cozuldu",
+     "not": "Dokuz Tuna kalesinden sekizine isg:rusya yazıldı: Rusçuk 1810-09-26→1811-07-04 (6f8aa0d2, TDV) · Silistre 1810-06-10→1811-05-01 · Niğbolu 1810-10-01→1811-04-01 · Yergöğü 1810-09-27→1812-05-28 · Bender · İsmail 1809-09-26 · Kili · Turnu Severin 1806-12-25 — İbrail zaten vardı. Vidin'de yok (1806-12'de Rus eline geçmedi). Taralı desenin yalnız işgal için kullanılacağı Emre kararı 13 Eyl.",
+     "delil": "data/yerlesimler.js:365 (Rusçuk) · :363 (Silistre) · :364 (Niğbolu) · :452 (Kili) · :1377 (Bender) · :1378 (İsmail) · :2297 (Turnu Severin) · :2312 (Yergöğü) · commit 6f8aa0d2 (2026-08-31)",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0100": {
+     "hukum": "olculecek",
+     "not": "Rusçuk isg kısmı H-0097 ile indi (yerlesimler.js:365). Görsel 1812-12-03, 43,65-44,42K/25,03-26,66D: bugün kutuda (genişletilmiş 43,4-44,6K/24,8-27,0D) 4 nokta — Niğbolu OSM, Rusçuk OSM, Yergöğü OSM, Bükreş v:eflak; 0 Rus noktası, bütün Tuna isg'leri 1812-05-28'de bitiyor. Veride yeşil parçanın kaynağı yok; gövde ölçümü gerek: 1812-12-03, bu kutu, devletler_harita.js rusya gövdesi.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0101": {
+     "hukum": "olculecek",
+     "not": "GEOMETRI-0916 Ⓑ⑤: Buraymî 1820 hücresinin %24'ü (7.763 km²) boyanmıyor, şerit 10 km — mekanizma ÖLÇÜLEMEDİ; çare 'A büyük ihtimalle — sınanamaz'. Gövde ölçümü gerek: 1820-01-08 (Korsan Kıyısı devri), Ras el-Hayme–Buraymî kutusu, koşu 18.",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0102": {
+     "hukum": "sirada",
+     "not": "H-0047 ile aynı motor talebi (boş topraklarda Osmanlı kırmızısını engelleme); uret_petek.py'de emilme mekanizması değişmedi, çare GORUNUM-ABCD A/B (GEOMETRI-0916 Ⓒ) uygulanmadı. Yerel kasıtlı-boşluk dolguları (ör. Widyân/Nuhayb, Serîr) nokta nokta ilerliyor.",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    }
+   },
+   "dagilim": {
+    "tekrar": 2,
+    "cozuldu": 12,
+    "sirada": 13,
+    "bayat": 1,
+    "olculecek": 2
+   }
+  },
+  "parti-emrelic-0042": {
+   "madde": {
+    "H-0002": {
+     "hukum": "olculecek",
+     "not": "Master madde (boşluk + binme, 10 görsel). 10 görselin yer/günü okunmadı (pahalı) ⇒ madde bütünüyle ölçülmedi. Kardeş ölçümler bugünkü gövdede: H-0008 penceresinde (1323-01-01) bizans∩OSMANLI BİNME SÜRÜYOR 1996 km²; H-0013 (1346-06-01) ve H-0039 (1408-06-01) pencerelerinde binme yok (≤3 km²); 1352 Gelibolu'da bizans∩OSMANLI 182 km² ek binme. Boşluk kolu ('tavandan mı hatadan mı') ölçülmedi; B görünümü paylaştırma önerisi (0041/H-0001) karar kaydı bulunamadı. GEREK: 10 görselin pencere+gün listesi ile gövde binme/boşluk ölçümü.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0004": {
+     "hukum": "sirada",
+     "not": "Sefer oku var: savaslar.js:684 'Katalan Kumpanyası'nın Anadolu seferi' f 1303-09-01 t 1305-06-01; madde olaylar_ek.js:91 t 1305-06-01 (ok bu maddede kırpma kuralına göre görünür — tarayıcıda sınanmadı). 1303 başlangıç maddesi indi (olaylar_p0049.js:31, t 1303-01-01) ama oku öne çekmiyor: app.js:5815 28 Eyl kuralı yalnız madde günü == sefer f (1303-09-01) ise kırpmayı kaldırır; 1303-01-01 ≠ 1303-09-01 ⇒ ok hâlâ ~1304-07-16'dan (yarıçap kuralı app.js:5806) görünür. KALAN: kırpma çapası kararı (YAMA-A3 son kalemi) ya da sefer f/1303 madde günü hizası.",
+     "delil": "",
+     "sinif": "arayüz",
+     "eski_hukum": "sirada"
+    },
+    "H-0005": {
+     "hukum": "sirada",
+     "not": "Motor değişmedi: uret_petek.py:3887 'kesin geometri geçerli — dokunma' kapısı duruyor ⇒ sürtünmeli Dijkstra (_kv_dijkstra :1662, EGIM_CARPANI 0.005 :671) yalnız düz hattı denizi kesen parçalara uygulanıyor; iki kara yerleşimi arası sınır hâlâ düz mesafe + dogal_hatta_yasla (:2842, nehir 0,30° / sırt 0,35°). Tuna'ya yaslanma yalnız yakınlık eşiğinde. İkinci yarı (akademik haritalarda Bulgaristan/Eflak sınırı) araştırması için kayıt bulunamadı. YAPILACAK: kara-kara sınırda sürtünme/nehir bedeli (motor, Oturum 0 + Emre kararı) + kaynak araştırması.",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0006": {
+     "hukum": "sirada",
+     "not": "Çehrin (yerlesimler.js:1390) hâlâ s: litvanya-buyuk-dukalik 1281-01-01→1569-07-01. Yama P-CEH-1 (1281'de Litvanya değil; Kiev bölgesi ~1362) İNMEDİ. YAPILACAK: 1281-~1362 kimliği (Altınorda komşularıyla uyum) + başlangıç gününün kaynağı; doğrulanamazsa 'bulunamadı' damgası.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0007": {
+     "hukum": "cozuldu",
+     "not": "İki devlet modeli indi: Varşova s: polonya-erken 1281→1569-07-01, lehistan 1569→1795; polonya-erken rengi var. 1308'de lehistan boyanan kayıt kalmadı (ölçüm 1308-06-01, 53.5-58.5K/18-28D: Gdansk, Elbing, Riga, Cēsis, Tartu, Pärnu, Daugavpils almanya/novgorod/litvanya — hiçbiri lehistan). Ölçülmedi: 1440-47 ve 1492-1501 taht ayrılığı.",
+     "delil": "data/yerlesimler.js:1109 (Varşova, commit 58e9a412) · arac/renkler.py:3234 polonya-erken",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0008": {
+     "hukum": "sirada",
+     "not": "Görsel H-0008-1: 1323-01-01, 39.77-40.81K/28.40-30.18D (Bursa-İznik). Bugünkü gövdede BİNME SÜRÜYOR: bizans∩OSMANLI 1996 km² — en büyük parça 1444 km² (40.35K 29.30D, Gemlik-İznik), 448 km² (40.69K 30.00D), 77 km² (40.71K 30.34D); ayrıca bizans halkası kendi kendini kesiyor (28.58D 40.38K) ve germiyan∩OSMANLI 9 km². YAPILACAK: binme kaynağı (gövde kırpma sırası / bizans gövdesinin Osmanlı peteklerini örtmesi) motor tarafında bulunup giderilmeli.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0009": {
+     "hukum": "bayat",
+     "not": "Pelekanon penceresi (DONEMLER 1329-06-01→1330-06-01) bugünkü gövdede Osmanlı Boğaz'ı GEÇMİYOR: Bebek (41.08/29.04), Sarıyer (41.17/29.05), Beşiktaş (41.04/29.00), İstanbul → bizans; Üsküdar kontrol noktası → OSMANLI. Rumeli yakasında 'Boğaziçi (Rumeli yakası)' dolgu noktası ve İstanbul bizans kaydı var. Motorda Boğaz ölçümüyle gelen kapı değişikliği mevcut.",
+     "delil": "data/devletler_harita.js + data/donemler.js (koşu 18, 30 Eyl 17:54), app.js parcaCoz mantığıyla çözüldü (scratchpad/p0042/dh.js + geo*.py) · arac/uret_petek.py:3888 (BOGAZ-OLCUM-0081 bloğu)",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0011": {
+     "hukum": "sirada",
+     "not": "Ana kusur düzeldi: Kemah (yerlesimler.js:1486) artık eretna 1335-1378 · mutahharten 1378-1401 (TDV kemah, commit 0db86f2a); Erzincan da eretna 1335 (yerlesimler.js:242). KALAN iki şey: ① olaylar_ek16.js:65 Celayirli 1340 maddesinin ic_not_d'si hâlâ 'Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; … kaynak bulunamadı' diyor — veriyle ÇELİŞİYOR, Y1'in 'cümle silinsin' kalemi yapılmadı; ② Kemah 1402-07-28→1502 tek akkoyunlu bloğu kaynaksız (TDV sırası Mutahharten→Karakoyunlu→Akkoyunlu).",
+     "delil": "",
+     "sinif": "kronoloji",
+     "eski_hukum": "sirada"
+    },
+    "H-0012": {
+     "hukum": "sirada",
+     "not": "H-0005 ile aynı motor ölçümü: uret_petek.py:3887 kapısı değişmedi ⇒ kara-kara sınırda sürtünme yok, Kafkas sırtı yalnız 0,35° yaslanma eşiğinde çeker. Vladikafkas kuzeyi veri doğrulaması için kayıt bulunamadı. YAPILACAK: motor kararı + Vladikafkas kuzeyi sahiplik araştırması.",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0013": {
+     "hukum": "bayat",
+     "not": "Görsel H-0013-1: 1346-06-01, 40.70-41.49K/43.83-45.67D (Gümrü-Gürcistan). Bugünkü gövdede celayirli∩gurcistan kesişimi 0 km² (görseldeki üçgen binmeler yok); iki gövde arası dar boşluk ~69 km² (0,05° tampon ölçümü, tavan/kara maskesi ayrımı yapılmadı).",
+     "delil": "data/devletler_harita.js + data/donemler.js (koşu 18, 30 Eyl 17:54), app.js parcaCoz mantığıyla çözüldü (scratchpad/p0042/dh.js + geo*.py)",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0014": {
+     "hukum": "sirada",
+     "not": "Mersin görünüm kısmı ikizinde çözüldü (0042/H-0033: kur 1671-01-01, yerlesimler_ek27.js:51, ec2873e+7e6049d). KALAN iki istek açık: ① 'Osmanlı kırmızısı yalnız odak devlete' renk politikası — renkler.py'de yalnız yorum düzeyinde ('kırmızı ailesi Osmanlı'ya ayrılmıştır' :1588, şerit 15-35° :1679), renk_olc.py'de zorlayan denetim YOK (şerit/rezerv araması 0 isabet); ② Mersin'in ayrıntılı kronolojisinin araştırılması — kayıt bulunamadı.",
+     "delil": "",
+     "sinif": "arayüz",
+     "eski_hukum": "kosu-bekliyor"
+    },
+    "H-0015": {
+     "hukum": "bayat",
+     "not": "Çimpe penceresi (DONEMLER 1352-03-01→1354-03-02) bugünkü gövdede Osmanlı Saros'u GEÇMİYOR: Saroz kuzey kıyısı (40.65/26.70) hiçbir gövdede değil, 40.68/26.55 ve 40.70/26.40 → bizans, Keşan ve Enez → bizans; Osmanlı köşelerinin en kuzeyi 40.515K. Ek bulgu (binme sınıfı, H-0008'e ait): aynı pencerede bizans∩OSMANLI 182 km² (40.38K 26.56D, Gelibolu yarımadası).",
+     "delil": "data/devletler_harita.js + data/donemler.js (koşu 18, 30 Eyl 17:54), app.js parcaCoz mantığıyla çözüldü (scratchpad/p0042/dh.js + geo*.py)",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0016": {
+     "hukum": "olculecek",
+     "not": "Ege adası gövdelerinin kara maskesine oturma kalitesi ölçülmedi: gövde ∖ kara maskesi farkı için motor kara maskesi (veri-kaynak/motor_kara.geojson) ile ada gövdeleri karşılaştırılmalı. GEREK: Ege adaları (ör. 1330-1500 arası bir gün) için gövde ∖ kara km² ölçümü.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0018": {
+     "hukum": "sirada",
+     "not": "Trakya sırası KISMEN indi (commit f51242f8, 16 Eyl: Edirne 1361-05-05, Dimetoka 1361, Çorlu/Lüleburgaz/Keşan 1360, Kırklareli/Vize/Demirköy/Dereköy/Kofçaz 1369, Havsa/Lalapaşa 1361-05-05). HÂLÂ ATLAMA VAR: Ahtapolu, Rezve, İğneada d: 1361-01-01 (yerlesimler_ek24.js:133 vd.) — Edirne'den (1361-05-05) ve Kırklareli'den (1369) ÖNCE; kaydın kaynağı 'veri-içi sözleşme: Kırklareli' ama Kırklareli 1369 ⇒ çelişik. Mustafapaşa 1361-01-01 kaynaksız (Edirne'den önce). Commit bunları 'BEKLETILDI — yıl bulunamadı, Emre sorusu' diye bıraktı. Pençik maddesi 1361-01-01 günü bu üç kıyı noktası Osmanlı.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0019": {
+     "hukum": "sirada",
+     "not": "f51242f8 T4'ü BEKLETTİ: Çirmen, Dedeağaç, Uzunköprü d: 1371-09-26; Gümülcine d: 1363-01-01 KAYNAKSIZ (dönemde kaynak alanı boş) ⇒ Gümülcine hâlâ aradaki Dedeağaç/Uzunköprü/Çirmen'den 8 yıl önce Osmanlı; Ferecik 1357 kaynaksız, Meriç 1361 (komşudan). YAPILACAK: Gümülcine ve T4 kümesinin fetih yılı/sırası TDV'den + haritaya senkron.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0021": {
+     "hukum": "cozuldu",
+     "not": "Kronolojide artık anılıyor: Çirmen sonrası kırmızıya dönen Dejanoviç toprakları (Köprülü·İştip·Ustrumca·Doyran·Köstendil v: 1371-09-26) için madde 'Dejanoviç Prensliği (Kostadin-ili) Osmanlı vasalı oldu' t 1371-09-26 (TDV kostendil/ustrumca/doyran/koprulu). Çirmen'in kendi kırılması da Çirmen Savaşı maddesinde (olaylar_ek.js:23). Ayrı açık: Çirmen kasabasının 1366/1371 tarihi (T4, 'Emre sorusu') bekliyor — H-0019 kapsamında.",
+     "delil": "data/olaylar_p0055.js:32 (commit 8b061de9) · data/yerlesimler.js:312 Köstendil v:",
+     "sinif": "kronoloji",
+     "eski_hukum": "olculecek"
+    },
+    "H-0022": {
+     "hukum": "sirada",
+     "not": "Emre kararı (açık ton) uygulanmadı: veride Bizans'a ait hiçbir v: kaydı yok (kid bizans / k 'Bizans' = 0); statu dağılımı vassal 518 · gevsek 22 · özerk 3 · boş 12 — haraçgüzâr 0. YAPILACAK: ① Bizans haraçgüzârlık pencereleri TDV'den (1371/73 · 1391-94 · 1403 · 1424) ② v: + statu ③ açık ton gövde rengi (motor).",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0025": {
+     "hukum": "cozuldu",
+     "not": "Vodina artık d: 1387-01-01 (TDV vodina 1386-87 kışı) ve 'Vodina'nın fethi (1386-1387 kışı)' maddesi var. Ölçüm 1387-06-08 (40.2-41.6K/21.3-23.0D): Vodina, Karaferye, Selanik, Filorina OSMANLI — Sırp cebi kalmadı.",
+     "delil": "data/yerlesimler_ok107.js:468 (commit 9b92117f) · data/olaylar_p0917kosu13.js:28",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0027": {
+     "hukum": "cozuldu",
+     "not": "Vodina Üsküp'ten ayrıldı: d: 1387-01-01 + ayrı fetih maddesi; Üsküp d: 1392-01-06 (TDV uskup, kaynak alanı yazılı); Üsküp maddesinde 'Katılım: Vodina' artık yok (olaylar*.js tarandı, 0).",
+     "delil": "data/yerlesimler_ok107.js:468 · data/olaylar_p0917kosu13.js:28 · data/yerlesimler.js:369 Üsküp (commit 9b92117f) · data/olaylar_ek.js:37",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0028": {
+     "hukum": "cozuldu",
+     "not": "Köstendil (prenslik başkenti) artık v: dejanovic-prensligi 1371-09-26→1395-05-17 (doğrudan değil tâbi); künye devletler.js:7704 f 1371-09-26 t 1395-05-17. Ayrı küçük kalem Y10 (Pirlepe noktası) yok — veride 'Pirlepe/Prilep' adlı kayıt 0 (4296 yerleşim tarandı).",
+     "delil": "data/yerlesimler.js:312 (commit c2dd9ec1) · data/devletler.js:7704",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0029": {
+     "hukum": "sirada",
+     "not": "Üç cepten ① Zencan DÜZELDİ: celayirli 1340→1383, timurlu 1383→1410 (yerlesimler.js:1134, commit 9b92117f). ③ Râmhürmüz artık lur-i-buzurg 1335→1393, sonra timurlu 1393→1452 (Celayirli cebi yok; timurlu dönemi kaynaksız). ② Bağdat cebi SÜRÜYOR: 1393-06-01'de Bağdat tek başına timurlu, Kerkük·Tikrit·Sâmerrâ·Fellûce·Hille·Kerbelâ celayirli (tek hücrelik cep). YAPILACAK: Bağdat 1393 penceresi (H-0030 ile ortak).",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0030": {
+     "hukum": "sirada",
+     "not": "Bağdat (yerlesimler.js:740) s: timurlu 1393-01-01→1394-01-01 ama 'Timur Bağdat'ı zaptetti' maddesi 1393-08-29 (olaylar_ek5.js:43) ⇒ madde öncesi ~8 ay Timurlu enklavı SÜRÜYOR. İkinci işgal: s: timurlu 1401-01-01, madde olaylar_ek11.js:50 t 1401-01-01 (kuyrukta 1401-06-01). 1393'te komşular celayirli ⇒ tek hücre cep. YAPILACAK: 1393 başlangıcını 1393-08-29'a çek (kaynak TDV bagdat), komşu Irak şehirlerinin 1393 durumu kaynaktan.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "olculecek"
+    },
+    "H-0032": {
+     "hukum": "tekrar",
+     "not": "İki ayrı işgal veride zaten var: Bağdat timurlu 1393→1394, celayirli 1394→1401, timurlu 1401→1405, celayirli 1405→1411 (zincir 84164a1f, 30 Ağu); çıkış/giriş maddeleri kronoloji_iran_ardillari.js:655 (1394) · :673 (1405) · olaylar_ek11.js:50 (1401). Kalan görüntü kusuru (madde öncesi başlangıç + tek hücrelik cep) ikizi 0042/H-0030'dadır ve o AÇIK.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "olculecek"
+    },
+    "H-0034": {
+     "hukum": "cozuldu",
+     "not": "Şehirköy (Pirot) Fetret'te artık şehzade bölgesinde: suleyman-celebi 1402-07-28→1410-02-13, musa-celebi …→1412-01-01, sonra sirp-despotlugu 1412→1428; 1402-1413 d: bloğu kaldırıldı (P04-BALKAN notu kayıtta). 1403-06-01 ölçüm: suleyman-celebi.",
+     "delil": "data/yerlesimler_serhat.js:140 (commit 8a128bcb)",
+     "sinif": "veri",
+     "eski_hukum": "kosu-bekliyor"
+    },
+    "H-0042": {
+     "hukum": "cozuldu",
+     "not": "Çamurlu günü (1413-07-06) Pirot ve Niş sirp-despotlugu (harita:sirbistan, devletler.js:879); gövde ölçümü: Pirot ve Niş aynı tek 'sirbistan' poligonunun içinde, Sırbistan ana gövdesiyle BİTİŞİK — enklav yok. Pirot 1412 Sırp zaptı TDV sehirkoy'a dayanıyor (kayıt notu).",
+     "delil": "data/yerlesimler_serhat.js:140 (commit 8a128bcb) · data/devletler_harita.js + data/donemler.js (koşu 18, 30 Eyl 17:54), app.js parcaCoz mantığıyla çözüldü (scratchpad/p0042/dh.js + geo*.py)",
+     "sinif": "harita",
+     "eski_hukum": "kosu-bekliyor"
+    },
+    "H-0037": {
+     "hukum": "sirada",
+     "not": "Tek kimlik: 'timurlu' künyesi (devletler.js:1784), BOYALAR etiketi 'Timurlu valiliği' (renkler.py:1933) — Bağdat'ta ve Ankara'da aynı kimlik. Ankara (yerlesimler.js:164) s: timurlu 1402-07-28→1404-03-01, suleyman-celebi 1404-03-01→1411-02-17 — iki gün de KAYNAKSIZ (dönemlerde kaynak alanı yok). Emre'nin sorusu (Ankara'nın Emir Süleyman'a geçiş günü) cevaplanmadı. YAPILACAK: TDV (ankara · suleyman-celebi-emir · fetret-devri) ile geçiş tarihi; Timur Mart 1403'te Anadolu'dan çekildi ⇒ 1404-03-01'e kadar timurlu sürmesi sınanmalı.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "olculecek"
+    },
+    "H-0038": {
+     "hukum": "sirada",
+     "not": "(a) Renk değişmedi: karakoyunlu #e018e0 (renkler.py:537) · gurcistan #e020b0 (renkler.py:570), son değişiklik eec5f3dd (12 Ağu, şikâyetten önce); ΔE76 25,7 (renk_olc eşiğini geçiyor ama ikisi de macenta, Emre ayırt edemedi). (b) Kars/Ardahan karakoyunlu 1406→1467 (kaynak alanı yalnız 'kars'/'ardahan'); Gürcistan'ın Karakoyunlu'ya bağlılığı sorusu için kayıt/araştırma bulunamadı. 1415-06-01 gövdede Kars bölgesinde karakoyunlu tek poligon. YAPILACAK: renk ayrıştırma + Gürcistan-Karakoyunlu ilişkisi kaynak araştırması.",
+     "delil": "",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    },
+    "H-0039": {
+     "hukum": "bayat",
+     "not": "Görsel H-0039-1: 1408-06-01, 35.64-38.56K/39.32-43.30D. Bugünkü gövdede binme yok (en büyük memluk∩artuklu 3 km², akkoyunlu/eyyubi-hisnikeyfa ile artuklu kesişimi 0) ve pencerede geçersiz (kendi kendini kesen) halka yok. 1409-01-01 (madde günü) de binme ≤3 km², Mardin → karakoyunlu. YAN BULGU (ayrı iş): artuklu künyesi t 1409-01-01 iken Harput·Çemişgezek·Palu s: artuklu 1281→1465 (künye aşımı); mutahharten halkası 1409'da kendi kendini kesiyor (39.31D 40.53K, pencere dışı).",
+     "delil": "data/devletler_harita.js + data/donemler.js (koşu 18, 30 Eyl 17:54), app.js parcaCoz mantığıyla çözüldü (scratchpad/p0042/dh.js + geo*.py)",
+     "sinif": "harita",
+     "eski_hukum": "olculecek"
+    },
+    "H-0043": {
+     "hukum": "cozuldu",
+     "not": "Manisa saruhan 1402-08-17→1415-01-01, d: 1415-01-01 (kaynak: 'saruhanogullari (1411 sonrası-1415 öncesi; en geç uç) · manisa (818/1415 biraz önce)'); madde 'Saruhan ülkesinin Çelebi Mehmed idaresine girişi — Saruhanoğulları Manisa kolunun sonu' eklendi; Torlak Kemal maddesinden toprak-kazanc kaldırıldı (olaylar_ek5.js:60).",
+     "delil": "data/yerlesimler.js:171 (commit 9b92117f) · data/olaylar_p0917kosu13.js:30",
+     "sinif": "veri",
+     "eski_hukum": "sirada"
+    }
+   },
+   "dagilim": {
+    "olculecek": 2,
+    "sirada": 14,
+    "cozuldu": 8,
+    "bayat": 4,
+    "tekrar": 1
+   }
+  },
+  "parti-emrelic-0068": {
+   "madde": {
+    "H-0001": {
+     "hukum": "cozuldu",
+     "not": "İşgal deseni çevrildi: isgalDesenleriKur() şeridi 8'de 5 işgalci (baskın), 8'de 3 sahip (ince); lejant da aynı oran. Canlı kodda duruyor. [koordinasyon düzeltmesi: satır 4703→4745, kod bugün orada]",
+     "delil": "js/app.js:4745 (isgalci = ((x-y+K)%K) < 5) · js/app.js:4749 lejant · commit 4d809287",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0002": {
+     "hukum": "cozuldu",
+     "not": "Dubica isg:avusturya 1788-08-26→1791-08-04 veride VE yayındaki ISGALLER'de (1788-08-26 kaydı); madde yer_id bağlı.",
+     "delil": "data/yerlesimler_ek29.js:263 · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) avusturya 1788-08-26 · data/olaylar_p0917kosu13.js:72 yer_id 'Bosna Dubiçası'",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0003": {
+     "hukum": "cozuldu",
+     "not": "Bosna Novi'si isg:avusturya 1788-10-03→1791-08-04 veride ve ISGALLER'de; madde yer_id bağlı.",
+     "delil": "data/yerlesimler_ek29.js:270 · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) avusturya 1788-10-03 · data/olaylar_p0917kosu13.js:74",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0004": {
+     "hukum": "cozuldu",
+     "not": "① Gün içi sıra: gs alanı (ölüm 10 · cülus 20 · Nizâm-ı Cedîd 30) + app.js ikincil sıralama anahtarı canlı; 1789-04-07 artık ölüm→cülus→reform. ② Ek okuma: I. Abdülhamid'in Özi haberiyle felci kartı (1789-04-07'ye bağlı), belgesiz kısım 'bulunamadı' damgalı.",
+     "delil": "data/olaylar_ek17.js:162 gs:10 · data/olaylar_ek7.js:128 gs:20 · data/olaylar.js:142 gs:30 · js/app.js:7001-7016 · commit c7b1dfdc · data/ekokuma_rivayet.js:387 (commit 081aad32)",
+     "sinif": "kronoloji",
+     "eski_hukum": "sirada"
+    },
+    "H-0005": {
+     "hukum": "zaten-dogru",
+     "not": "Görseldeki taralı iki leke (Boğurdelen isg 1788-04-24, Semendire isg 1789-10-13) kaynaklı ve doğru; savaş Ziştovi'ye (1791-08-04) kadar sürüyordu. Yan kusur (Belgrad'ın işgalsiz kalması) da giderildi: Belgrad isg:avusturya 1789-10-13→1791-08-04 veride ve ISGALLER'de; tarihleyen madde olaylar_p0068.js:34.",
+     "delil": "data/yerlesimler.js:443-445 Semendire isg · data/yerlesimler.js:444 Belgrad isg (commit 4d809287) · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) avusturya 1788-04-24 / 1789-10-13 · data/olaylar_p0068.js:34",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0006": {
+     "hukum": "sirada",
+     "not": "1787-92 savaşı için şema uygulandı (olaylar_p0068b.js, 37 madde, ① süreç ② başlangıç ③ olaylar ④ savaşın sonu ⑤ barış; index.html:1596 bağlı, commit 0d44ea9d/c2c93f9b). AMA Emre'nin istediği GENEL kural yazılmadı: VERI-YAPISI.md'de savas:/evre: alanı yok (grep 0), hiçbir data dosyasında evre: yok; SAVAS-ANLATI'nın ölçtüğü başlangıç maddesi hiç olmayan 5 savaş (1443-09-01 · 1603-09-01 · 1663-04-01 · 1672-06-01 · 1683-07-14) açık. YAPILACAK: şemayı VERI-YAPISI.md'ye kural olarak yaz, öteki savaşlara uygula.",
+     "delil": "",
+     "sinif": "kronoloji",
+     "eski_hukum": "sirada"
+    },
+    "H-0007": {
+     "hukum": "zaten-dogru",
+     "not": "Soru: 1789'da Avusturya bu bölgeleri işgal etmiş miydi, savaş sürüyor muydu — evet, savaş 1791-08-04 Ziştovi'ye kadar sürüyordu; gösterilen işgaller kaynaklı (Semendire TDV günü, Boğurdelen). Eksik olan Belgrad işgali sonradan eklendi.",
+     "delil": "data/yerlesimler.js:444-445 (Belgrad · Semendire isg 1789-10-13) · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) · data/olaylar_p0068.js:34",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0008": {
+     "hukum": "cozuldu",
+     "not": "Bükreş isg:avusturya 1789-11-01→1791-08-04 veride ve ISGALLER'de (sahipRenk #b2384a tâbi); madde yer_id 'Bükreş'.",
+     "delil": "data/yerlesimler.js:449 · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) avusturya 1789-11-01 · data/olaylar_p0917kosu13.js:56",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0009": {
+     "hukum": "cozuldu",
+     "not": "Bender isg:rusya 1789-11-14→1792-01-09 ve Kili isg:rusya 1790-10-24→1792-01-09 veride ve ISGALLER'de; iki madde de yer_id'li.",
+     "delil": "data/yerlesimler.js:1377 Bender · data/yerlesimler.js:452 Kili · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) rusya 1789-11-14 / 1790-10-24 · data/olaylar_p0917kosu13.js:58,60",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0010": {
+     "hukum": "sirada",
+     "not": "Gövde ölçüldü (koşu 18 devletler_harita.js, 1790-12-22, kutu 28.1-32.2E/50.5-54.3N): lehistan 5.34 + rusya 9.22 der², AÇIK BOŞLUK 1.023 der² (29.0-30.4E, 51.96-53.45N) hâlâ var. Boşluğun motor_kara.geojson ile kesişimi 0.0007 der², göllerle 0 ⇒ motorun kara tavanı dışında kalmış: bölgede yerleşim noktası yok (kutudaki 5 nokta: Minsk, Jitomir [lehistan], Kiev, Çernigov, Smolensk [rusya]; Mogilev/Gomel/Bobruysk/Mozır yok). Veri kusuru: NOKTASIZLIK + tavan. YAPILACAK: bölgeye kaynaklı nokta(lar) (Mogilev, Gomel, Bobruysk vb.; 1772 sonrası rusya) — nokta işi.",
+     "delil": "",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0011": {
+     "hukum": "cozuldu",
+     "not": "Bender, Kili ve İsmail üçü de isg:rusya (İsmail'in eski s:rusya dönemi isg'e çevrilmiş), ISGALLER'de üç kayıt aynı desenle; Bükreş isg:avusturya ISGALLER'de.",
+     "delil": "data/yerlesimler.js:1377, :452, :1378 · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) rusya 1789-11-14 / 1790-10-24 / 1790-12-22 · avusturya 1789-11-01",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0012": {
+     "hukum": "cozuldu",
+     "not": "Ölçüldü (koşu 18 devletler_harita.js, 1792-01-10): Rus gövdesinin güney kenarı Kuban'a (ne_10m_rivers) yaslanıyor — boylam 37.5: kenar 45.172 / nehir 45.171 · 37.7: 45.146/45.149 · 37.9: 45.119/45.136 · 38.1: 45.130/45.151. Anapa 37.32/44.9 ve Kuban güneyi Rus gövdesi dışında; Temrük ve nehir kuzeyi 38.0/45.4 Rus. Kaynak düzeltme: Kuban deltası bozkırı dolgu noktası (45.50/37.80, s:rusya) eklendi.",
+     "delil": "data/yerlesimler_ek_bozkir.js 'Kuban deltası bozkırı' (commit 4d809287) · data/devletler_harita.js (commit 2ddede3d) ölçümü",
+     "sinif": "motor",
+     "eski_hukum": "sirada"
+    },
+    "H-0013": {
+     "hukum": "cozuldu",
+     "not": "Vehrân'ın askerî/idarî/stratejik önemi kartı yazıldı, '1792-02-12|Oran' ile maddeye bağlı, yükleyicide kayıtlı.",
+     "delil": "data/ekokuma_akdeniz.js:39 (commit 19c0494a) · js/app.js:11149 _EKOKUMA_DOSYA_ADLARI",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0014": {
+     "hukum": "sirada",
+     "not": "Kart YAZILDI (teknik-nizam-i-cedid, sebep/sonuç/etki; data/ekokuma_kurum2.js:123, commit 2f4207b) ama şikâyet edilen maddeye (1792-06-01 'Nizâm-ı Cedîd ıslahat programı', olaylar_ek7.js) BAĞLI DEĞİL: kartın olay'ı yalnız '1791-08-11|Kalas','1807-05-25|Kabakçı'; ekokuma_bag_oneri.js'de de yok. O maddede yalnız yeniçeri/antlaşma kartları görünüyor. YAPILACAK: kartın olay listesine '1792-06-01|Nizâm' eklemek.",
+     "delil": "",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0015": {
+     "hukum": "cozuldu",
+     "not": "maddeDegisimleri() '④ komşu' adımındaki ≤150 km şartı kaldırıldı; aynı (önce,sonra) çiftini taşıyan bütün Fransa yerleşimleri madde farkına giriyor.",
+     "delil": "js/suzgec.js:748-771 · commit 4d809287",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0016": {
+     "hukum": "cozuldu",
+     "not": "① Renk: aynı suzgec.js düzeltmesiyle Rus payları da (Minsk, Kamaniçe, Bar… + komşu yoluyla) farkta boyanıyor. ② Ek okuma: Lehistan'ın ikinci paylaşımı sebep/sonuç kartı '1793-01-23|İkinci' ile bağlı.",
+     "delil": "js/suzgec.js:748 (commit 4d809287) · data/ekokuma_tartisma.js:214 (commit f8551b77)",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0017": {
+     "hukum": "cozuldu",
+     "not": "Zend→Kaçar maddesi artık ülke çapında tek çifti (zend→kacar) taşıyan bütün İran yerleşimlerini seçiyor; iki leke yerine bütün İran.",
+     "delil": "js/suzgec.js:748-771 · commit 4d809287",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0018": {
+     "hukum": "sirada",
+     "not": "_maddeliMetniHtmle() artık \\n\\n ve daire rakama göre bölüyor (app.js:11521-11540, commit 4d809287) AMA şikâyet edilen kart 'tartisma-isyanciya-makam' (data/ekokuma_celali.js:82) metni \\n\\n 0 · daire 0 taşıyor; örnekleri TEK \\n + '•' ile ayrılmış. Bölücü tek \\n'i ve '•'i tanımıyor, #ekokuma-icerik'te pre-line yok (css/style.css:2122) ⇒ bu kart hâlâ tek paragraf. YAPILACAK: ya bölücü '\\n•' / tek \\n'e göre de bölsün ya kartın metni \\n\\n ile yeniden bölünsün.",
+     "delil": "",
+     "sinif": "arayüz",
+     "eski_hukum": "sirada"
+    },
+    "H-0019": {
+     "hukum": "cozuldu",
+     "not": "Petrol öncesi körfez ekonomisi kartı (inci, hurma, ticaret; Lorimer + TDV) '1795-04-01|Kuveyt' maddesine bağlı, yükleyicide kayıtlı.",
+     "delil": "data/ekokuma_korfez.js:96 (commit ce29adeb) · js/app.js:11144",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0020": {
+     "hukum": "sirada",
+     "not": "Kartlar YAZILDI (teknik-muhendishane-ardil-okullar data/ekokuma_kurum2.js:85 + teknik-muhendishane-i-bahri-i-humayun :34; commit 2f4207b) ama şikâyet edilen madde (1795-09-01 'Mühendishâne-i Berrî-i Hümâyun'un açılışı', olaylar_ek5.js:304) hiçbir karta bağlı değil: 72 ekokuma dosyasında '1795-09-01' 0 isabet. Ardıl kartı '1793-07-14' ve '1883-11-03'e, Bahrî kartı '1775-04-29' ve '1795-01-01|…ayrıldı'ya bağlı — 1795-01-01 günlü mühendishane maddesi YOK (ölü bağ). YAPILACAK: iki kartın olay'ına '1795-09-01|Mühendishâne-i Berrî' eklenmesi, ölü bağın düzeltilmesi.",
+     "delil": "",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0021": {
+     "hukum": "cozuldu",
+     "not": "Kaçar sonrası İran/Pehlevi, yönetimin Perslere geçişi kartı yazıldı; 1921-02-21 ve 1923-10-28 maddelerine bağlı.",
+     "delil": "data/ekokuma_tartisma.js:227 (commit f8551b77)",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0022": {
+     "hukum": "cozuldu",
+     "not": "Venedik'in paylaşımı/düşüşü/sonuçları kartı (terraferma Avusturya'ya, İyon adaları Fransa'ya) '1797-10-17' ile Campo Formio maddelerine bağlı.",
+     "delil": "data/ekokuma_ihtilal.js:147 (commit 536c4f68)",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0023": {
+     "hukum": "cozuldu",
+     "not": "Mükerrer kimlik giderildi: yayındaki ISGALLER'de 1798-1801 Mısır kayıtlarının beşi de id fransa-cumhuriyet, renk #00297c, sahipRenk #8e0b22 ⇒ tek desen. Eski ikinci kayıt (id 'fransa', #c0d028) artık yok.",
+     "delil": "data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) (1798-06-30, 1798-07-01, 1798-07-22, 1798-11-08, 1799-02-18 kayıtları)",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0024": {
+     "hukum": "cozuldu",
+     "not": "Napolyon'un Mısır'ı işgal amacı kartı '1798-07-01|Mısır' ile maddeye bağlı.",
+     "delil": "data/ekokuma_ihtilal.js:163 (commit 536c4f68)",
+     "sinif": "ek-okuma",
+     "eski_hukum": "sirada"
+    },
+    "H-0025": {
+     "hukum": "cozuldu",
+     "not": "'Yakıp söndür' düğmesi prefers-reduced-motion açıkken önce↔sonra arasında gidip geliyor (eskiden hep aynı hâle dönüp işlevsiz görünüyordu).",
+     "delil": "js/app.js:10550-10558 · commit 4d809287",
+     "sinif": "arayüz",
+     "eski_hukum": "sirada"
+    },
+    "H-0026": {
+     "hukum": "cozuldu",
+     "not": "El-Arîş isg:fransa-cumhuriyet 1799-02-18→1799-11-17 veride ve ISGALLER'de; madde yer_id 'El-Arîş'.",
+     "delil": "data/yerlesimler_afrika.js:186 · data/devirler.js:10 window.ISGALLER (koşu 18, commit 2ddede3d) fransa-cumhuriyet 1799-02-18 · data/olaylar_p0055.js:90",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0027": {
+     "hukum": "sirada",
+     "not": "Oklar VAR (savaslar.js 1799 kayıtları, seferler_ok103.js, seferler_p0068.js Celile oku; index.html:1530/1606). İşgal taraması YOK: 1799-03-20'de Gazze, Yafa, Han Yûnus, Akkâ çevresi, Nablus işgalsiz (OSM); kutudaki 65 noktanın yalnız 7'si isg (Mısır). YAMA-SEFER-NAPOLYON-0918.json (36 isg ekle + 7 değiştir) uygulanmamış. Celile'de nokta yok (Hayfa, Nâsıra, Safed). YAPILACAK: yamayı indir + Celile noktaları.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0028": {
+     "hukum": "sirada",
+     "not": "Adım adım gösterim yarım: 7 sefer oku var ama Mısır işgali 5 geniş blok (İskenderiye, Delta/Reşid-Dimyat-Asyut bloğu 1798-07-01, Kahire, Süveyş, Arîş); Delta ve Yukarı Mısır'daki ~35 nokta (Demenhûr, Tanta, Mansûre, Bilbîs, Sâlihiyye, Tahtâ, Asvan…) işgalsiz; Suriye adımları (Gazze, Yafa) hiç yok. YAMA-SEFER-NAPOLYON-0918.json uygulanmadı.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    },
+    "H-0029": {
+     "hukum": "sirada",
+     "not": "Suriye seferi maddelerinin haritada karşılığı hâlâ yok: Gazze/Yafa/Han Yûnus'ta 1799 isg kaydı 0; yalnız El-Arîş işgali var. YAMA-SEFER-NAPOLYON-0918.json'ın isg kayıtları indirilmeli.",
+     "delil": "",
+     "sinif": "harita",
+     "eski_hukum": "sirada"
+    }
+   },
+   "dagilim": {
+    "cozuldu": 19,
+    "zaten-dogru": 2,
+    "sirada": 8
+   }
+  }
+ },
+ "dagilim": {
+  "tekrar": 3,
+  "cozuldu": 39,
+  "sirada": 35,
+  "bayat": 5,
+  "olculecek": 4,
+  "zaten-dogru": 2
+ }
+}

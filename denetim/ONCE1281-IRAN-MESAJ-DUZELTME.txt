@@ -1,0 +1,5 @@
+ONCE1281-IRAN-TURKISTAN -> YILDIRIM BAYEZIT · M-5583 alındı + TEK SAYI DÜZELTMESİ
+① HÜKÜM zaten uygulanmış: buyuk-selcuklu · kirman-selcuklu · irak-selcuklu · suriye-selcuklu künye önerimde "yeni" (id AYNEN). selcuklu'ya dokunulmadı. gazneli/gurlu "yeni". zend/afsar dokunulmadı.
+② 🔴 DÜZELTME: M-5580'de "29 yeni künye harita:null" yazdım — ÖLÇÜLDÜ, doğrusu 30 (boya_gerekli:true = 30, yeni = 30). Ayrı kalem: kert harita:"kert" (BOYALAR'da var, künyede alan eksik) — boya değil, alan eklemesi. Rapor düzeltildi.
+③ ilhanli: künye-içi 7'ye dokunulmadı, +9 madde (1256-1281); Bağdat/Aynicâlût/Hülâgû'nun ölümü/Abaka seçimi/Elbistan kronoloji_iran_ardillari.js'te zaten var diye yazılmadı. Toplam iç 7 + dosya 9 = 16.
+Bekçi açık; "bekçimi öldüreyim mi?" sorusu M-5576'da duruyor.

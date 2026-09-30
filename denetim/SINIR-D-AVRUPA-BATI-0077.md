@@ -59,5 +59,12 @@ Tarayıcı uyarısı: `şerit kurulamadı (atlandı): d1923-be-nl-2@100, d1923-b
 - es-gib: çitin 1923'ten beri kaymadığına kaynak **bulunamadı** (hat ~1 km, yaslama eşiği 10 km altı).
 - it-shs · it-shs-zara · fr-it-DEGISTI ×5: 1947 öncesi hattın koordinatı çevrimdışı YOK. Öneri: CShapes 2.0
   (ETH Zürih, hakemli) 1920-1941 İtalya–Yugoslavya ve 1947 öncesi FR–IT hattı — indirme izni gerekir; C olarak.
+- **CShapes 2.0 sınandı (24 Eyl, Emre'nin izniyle indirildi · `CShapes-2.0.geojson` 26.344.671 bayt ·
+  https://icr.ethz.ch/data/cshapes/ · CC BY-NC-SA 4.0 · Schvitz vd. 2022, JCR 66(1)) — KULLANILAMAZ.**
+  Nokta-içinde sınaması: Yugoslavya 1920-06-03 → 1991 çokgeni Pula, Rijeka, Postojna'yı İÇERİYOR
+  (1920-47 İtalyan); Fransa 1919 → 2019 çokgeni Tende ve Mont-Cenis'i İÇERİYOR (1947'ye dek İtalyan);
+  İtalya çokgeni hiçbirini içermiyor. ⇒ Derleme 1947 sonrası hattı geriye yaymış; 1923 hattını
+  vermiyor. İt-shs · zara · fr-it-DEGISTI ×5 YOK'ta kaldı. Alet ateşliyor (Tende'yi bir çokgende buldu).
+  Dosya işe yaramadığı için silindi, commitlenmedi.
 - 62 tarihî YOK (1606-1920): ölçüye (1923-09-01) etkisi sıfır; dokunulmadı.
   Fr–Es 1659-1868 için Capdevila (IGN) PDF'i 10 MB sınırını aştı, okunamadı.

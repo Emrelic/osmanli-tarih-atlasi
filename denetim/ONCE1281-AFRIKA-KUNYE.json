@@ -1,0 +1,480 @@
+{
+  "oturum": "ONCE1281-AFRIKA",
+  "tarih": "2026-09-30",
+  "kusak": "1000-01-01 → 1281-01-01",
+  "tarama": "data/devletler.js 721 künye; bolge ∈ {kuzey-afrika, misir-sudan, dogu-afrika, bati-afrika, orta-afrika, guney-afrika} = 184 künye; ayrıca id+ad üzerinden 60+ ad kalıbıyla tarandı (murab, muvah, ziri, hammad, gana/gane, tekrur, zagve, kilve, sosso, kevkev/gao, şüve, mapung ...). Yeni açılan 11 kimliğin HİÇBİRİ devletler.js'te yok (ölçüldü).",
+  "harita_notu": "arac/renkler.py BOYALAR'da yeni 11 kimliğin hiçbirinin anahtarı YOK (grep ölçüldü) ⇒ hepsi harita:null + boya_gerekli:true.",
+  "kaynak_onbellegi": "denetim/ONCE1281-AFRIKA-tdv-onbellek/<slug>.txt (TDV ham metin) · denetim/ONCE1281-AFRIKA-url-onbellek/<ad>.txt (UNESCO)",
+  "kayitlar": [
+    {
+      "islem": "yeni",
+      "id": "murabitlar",
+      "ad": "Murâbıtlar Devleti",
+      "tur": "devlet",
+      "bolge": "kuzey-afrika",
+      "f": "1056-01-01",
+      "t": "1147-03-23",
+      "baskent": "Ağmât → Merakeş",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Sanhâce Berberîleri'nin Abdullah b. Yâsîn'in ribâtından doğan, Mağrib'i ve Endülüs'ü Mâlikî çizgide birleştiren hânedanı; Muvahhidler Merakeş'i alınca sona erdi. (kaynak: TDV, madde: murabitlar)",
+      "kaynak": "TDV: murabitlar (MURÂBITLAR, İsmail Yiğit)",
+      "ic_not_f": "TDV: 'Ağmât’ı Zenâte’nin elinden aldılar ve burayı geçici başşehir edinerek Murâbıtlar Devleti’ni kurdular (448/1056)' — YIL. 434/1042-43 tebliğ hareketi başlangıcıdır, devlet değil.",
+      "ic_not_t": "TDV: '… Murâbıtlar’ı ortadan kaldırdılar (18 Şevval 541 / 23 Mart 1147)' — GÜN kaynaktan. Endülüs'te 543/1148'e, Benî Gāniye kolu Balear/İfrîkıye'de XIII. yy'a sürdü (künye dışı).",
+      "ic_not_bolge": "İBER yakası ONCE1281-AVRUPA'da (M-5559/M-5560 mutabakatı): kimlik TEK, Endülüs maddelerini AVRUPA `taraflar:[\"murabitlar\"]` ile yazıyor. Koordinatör bolge'yi 'kuzey-afrika' bırakıp ozet'te Endülüs'ü anabilir ya da iberya'yı ikinci bölge yapabilir — sözlük tek değer mi dizi mi, ben karar vermedim.",
+      "kronoloji": [
+        {
+          "t": "1056-01-01",
+          "tur": "kurulus",
+          "b": "Murâbıtlar Ağmât'ı Zenâte'den alıp geçici başşehir yaptı; devlet kuruldu"
+        },
+        {
+          "t": "1106-09-04",
+          "tur": "hukumdar",
+          "b": "Yûsuf b. Tâşfîn Merakeş'te öldü; yerine oğlu Ali b. Yûsuf geçti",
+          "kaynak": "TDV murabitlar: '(3 Muharrem 500 / 4 Eylül 1106)'"
+        },
+        {
+          "t": "1147-03-23",
+          "tur": "son",
+          "b": "Muvahhidler Merakeş'i alıp İshak b. Ali ile İbrâhim b. Tâşfîn'i öldürdü; Murâbıt devleti sona erdi"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "muvahhidler",
+      "ad": "Muvahhidler Devleti",
+      "tur": "devlet",
+      "bolge": "kuzey-afrika",
+      "f": "1130-01-01",
+      "t": "1269-01-01",
+      "baskent": "Tinmel → Merakeş",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "İbn Tûmert'in ıslah hareketinden doğan, Abdülmü'min el-Kûmî'nin Mağrib-i Aksâ, Mağrib-i Evsat, İfrîkıye ve Endülüs'ü birleştirdiği Masmûde hânedanı; İkāb yenilgisinden sonra çözüldü, Merînîler Merakeş'e girince sona erdi. (kaynak: TDV, madde: muvahhidler)",
+      "kaynak": "TDV: muvahhidler (MUVAHHİDLER)",
+      "ic_not_f": "TDV: 'Devletin resmen teşekkülü ise … onun ölümünün (14 Ramazan 524 / 21 Ağustos 1130) ardından Abdülmü’min el-Kûmî tarafından gerçekleştirildi' — 21 Ağustos 1130 İbn Tûmert'in ÖLÜM günüdür, kuruluşun günü DEĞİL ⇒ YIL yazıldı. Mehdîlik ilânı Ramazan 515 / Kasım 1121.",
+      "ic_not_t": "AYNI OLAY (Merînîler'in Merakeş'e girişi), iki TDV maddesi farklı yıl: TDV muvahhidler '(667/1269)' ve '668’de (1269)'; TDV meriniler '(668/1270)'. Hicrî 668 = Eylül 1269-Ağustos 1270, yani iki milâdî yıla düşer. Gerekçe: Muvahhid devletinin KENDİ maddesi iki yerde 1269 dediği ve var olan `merini` iskeleti de 1269-01-01 taşıdığı için 1269 seçildi; 1270 BİLDİRİLDİ.",
+      "ic_not_bolge": "İBER yakası ONCE1281-AVRUPA'da (Alarcos 1195, İkāb 1212 onun dosyasında).",
+      "kronoloji": [
+        {
+          "t": "1130-01-01",
+          "tur": "kurulus",
+          "b": "İbn Tûmert'in ölümünün ardından Abdülmü'min el-Kûmî devleti resmen kurdu",
+          "gun": "1130 (TDV yıl verir; 21 Ağustos 1130 İbn Tûmert'in ölüm günü)"
+        },
+        {
+          "t": "1147-03-23",
+          "tur": "toprak-kazanc",
+          "b": "Merakeş alındı, Murâbıt devletine son verildi"
+        },
+        {
+          "t": "1269-01-01",
+          "tur": "son",
+          "b": "Merînîler Merakeş'e girdi, Muvahhid devleti sona erdi",
+          "gun": "1269 (TDV yıl verir; meriniler maddesi 668/1270 der)"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "ziriler",
+      "ad": "Zîrîler (Kuzey Afrika)",
+      "tur": "hanedanlik",
+      "bolge": "kuzey-afrika",
+      "f": "972-01-01",
+      "t": "1148-01-01",
+      "baskent": "Kayrevan → Mehdiye",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Sanhâce'den Zîrî b. Menâd soyunun Fâtımî valiliğinden fiilen bağımsızlaşarak İfrîkıye'de kurduğu hânedan; Benî Hilâl istilâsıyla sahile sıkıştı, Normanlar Mehdiye'yi alınca sona erdi. Endülüs (Gırnata) Zîrîleri ayrı koldur, bu künyede DEĞİL. (kaynak: TDV, madde: ziriler)",
+      "kaynak": "TDV: ziriler (ZÎRÎLER)",
+      "ic_not_f": "TDV: 'Fâtımî Halifesi Muiz-Lidînillâh, Bulukkîn’i Mağrib valiliğine tayin ederek Kayrevan’a yerleştirdi (361/972)' — YIL. Başlık da '(972-1148)'.",
+      "ic_not_t": "TDV: '543’te (1148) Norman donanmasının kuşattığı başşehir Mehdiye bir süre sonra teslim oldu, böylece Kuzey Afrika’da Zîrîler dönemi nihayete erdi' — YIL.",
+      "kronoloji": [
+        {
+          "t": "972-01-01",
+          "tur": "kurulus",
+          "b": "Bulukkîn b. Zîrî, Fâtımî halifesince Mağrib valiliğine getirilip Kayrevan'a yerleşti"
+        },
+        {
+          "t": "1057-01-01",
+          "tur": "toprak-kayip",
+          "b": "Benî Hilâl kuşatması üzerine Muiz b. Bâdîs Kayrevan'ı bırakıp Mehdiye'ye çekildi"
+        },
+        {
+          "t": "1148-01-01",
+          "tur": "son",
+          "b": "Norman donanmasının kuşattığı Mehdiye teslim oldu; Zîrî hâkimiyeti sona erdi"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "hammadiler",
+      "ad": "Hammâdîler",
+      "tur": "hanedanlik",
+      "bolge": "kuzey-afrika",
+      "f": "1015-01-01",
+      "t": "1152-01-01",
+      "baskent": "Kal‘atü Benî Hammâd → Bicâye",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Zîrî soyundan Hammâd b. Bulukkîn'in Mağrib-i Evsat'ta kurduğu hânedan; merkezini Kal‘a'dan Bicâye'ye taşıdı, Muvahhid Abdülmü'min el-Kûmî'nin seferiyle sona erdi. (kaynak: TDV, madde: hammadiler)",
+      "kaynak": "TDV: hammadiler (HAMMÂDÎLER)",
+      "ic_not_f": "TDV: '… Hammâdîler adıyla bağımsız bir devlet kurdu (405/1015)' (ziriler maddesi) ve emîr listesi 'Hammâd 405 (1015)' — YIL.",
+      "ic_not_t": "AYNI SÜREÇ, iki tarih aynı TDV maddesinde: emîr listesi 'Yahyâ 515-547 (1121-1152)' ve dönemleme '1067-1152'; metin 'Abdülmü’min Yahyâ’ya iyi davrandı ve kendisine Merakeş’te bir ikametgâh verdi (548/1153). Böylece Hammâdî hânedanı ortadan kalkmış oldu' der. OLAY AYRIŞTIRMASI: 548/1153 Yahyâ'ya Merakeş'te ikametgâh VERİLMESİNİ tarihler (yenilgiden SONRAKİ muamele); saltanatın sonu 547/1152. Gerekçe: devletin sonu = son hükümdarın saltanat sonu, TDV iki yerde 1152 der ⇒ 1152.",
+      "kronoloji": [
+        {
+          "t": "1015-01-01",
+          "tur": "kurulus",
+          "b": "Hammâd b. Bulukkîn, Zîrîler'den ayrılıp Kal‘atü Benî Hammâd merkezli bağımsız devletini kurdu"
+        },
+        {
+          "t": "1068-01-01",
+          "tur": "hukumdar",
+          "b": "Nâsır b. Alennâs hükümet merkezini kurduğu Bicâye'ye taşıdı",
+          "gun": "461 (1068-69) — TDV yıl verir"
+        },
+        {
+          "t": "1152-01-01",
+          "tur": "son",
+          "b": "Abdülmü'min el-Kûmî'nin Muvahhid ordusu Hammâdîler'i yendi; hânedan sona erdi"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "magrave-sicilmase",
+      "ad": "Mağrâve Emirliği (Sicilmâse)",
+      "tur": "beylik",
+      "bolge": "kuzey-afrika",
+      "f": "976-01-01",
+      "t": "1053-01-01",
+      "baskent": "Sicilmâse",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Endülüs Emevîleri adına hareket eden Zenâte'nin Mağrâve kolundan Hazrûn b. Fülfûl'ün Midrârîler'e son vererek Sicilmâse'de kurduğu emirlik; Murâbıtlar şehri alınca sona erdi. (kaynak: TDV, madde: sicilmase)",
+      "kaynak": "TDV: sicilmase (SİCİLMÂSE)",
+      "ic_not_f": "TDV: 'Mağrâve Emîri Hazrûn b. Fülfûl, Fâtımî egemenliğini tanıyan Midrârî emîrini öldürüp bu hânedana son verdi (366/976)' — YIL.",
+      "ic_not_t": "TDV: 'Murâbıtlar 445’te (1053) Sicilmâse’yi ele geçirdiler' — YIL. ⚠️ Emirliğin 976-1053 arası kesintisiz sürdüğünü TDV açıkça yazmaz; TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026 'Hazrûn' → yalnız 'ibn-hazrun' (Endülüs'te Erküş emîri, 1012-1066 — BAŞKA hânedan); Sicilmâse Mağrâvesi için müstakil madde YOK. Kuşak içi bir yapı olduğu için künye önerildi; zayıf görülürse düşürülebilir.",
+      "kronoloji": [
+        {
+          "t": "976-01-01",
+          "tur": "kurulus",
+          "b": "Mağrâve emîri Hazrûn b. Fülfûl Midrârî emîrini öldürüp Sicilmâse'ye hâkim oldu"
+        },
+        {
+          "t": "1053-01-01",
+          "tur": "son",
+          "b": "Murâbıtlar Sicilmâse'yi ele geçirdi"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "gane",
+      "ad": "Gāne (Gana) Devleti",
+      "tur": "devlet",
+      "bolge": "bati-afrika",
+      "f": "1000-01-01",
+      "t": "1076-01-01",
+      "baskent": "Gāne (Kumbîsâlih harabeleri sanılıyor)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Sahrâ ile Nijer ve Senegal nehirleri arasında altın ticaretini denetleyen, Ortaçağ Batı Sudan'ının ilk büyük devleti; Murâbıtlar başşehri alınca çöktü, bakiyesi Susu ve Mali'ye geçti. Bugünkü Gana Cumhuriyeti ile toprak bağı yoktur. (kaynak: TDV, madde: gane)",
+      "kaynak": "TDV: gane (GĀNE); yardımcı: TDV mali",
+      "ic_not_f": "KUŞAK UCU, ölçüm DEĞİL (D210). TDV: 'Kuruluşu hakkında bilgi bulunmamakla birlikte … milâttan sonra İlkçağ’lardan itibaren siyasî bir varlık' — kuruluş yılı YOK. Devlet 1000'de VARDI (TDV: 'X ve XI. yüzyıllarda en yüksek refah seviyesine ulaşan Gāne Devleti').",
+      "ic_not_t": "OLAY AYRIŞTIRMASI (TDV tuzağı ⑧): 1076 ile 1240 AYNI OLAY DEĞİL. 1076 = Murâbıtlar'ın başşehir Gāne'yi alışı — TDV gane: 'Murâbıtlar 1054 yılında … Evdeguşt’u, 1076 yılında da Gāne şehrini ele geçirdiler'; TDV mali AYNI olayı aynı yılla verir: 'Ömer devlet merkezi Kumbîsâlih’i 1076 yılında alınca Batı Afrika’nın bu ilk imparatorluğu yıkıldı'. 1240 = Gāne'nin parçalandığı DÖRT küçük krallığın (Mema Tunkara, Susu Kante, Hingui Niakhaté, Diara) Mali'ce ilhakı — TDV mali: 'Gāne, 1240 yılında Mali İmparatorluğu tarafından topraklarının tamamının ele geçirilmesiyle tarih sahnesinden silindi'. ⇒ İki TDV maddesi ÇELİŞMİYOR; devletin sonu 1076, 1240 bakiye krallıkların sonudur (kronoloji dosyasında mali-imparatorlugu maddesi). Kalan TEK gerilim: TDV murabitlar 1076-77 için 'İslâmiyet’i kabul eden kralını makamında bıraktı' der ⇒ 1076 sonrası TÂBİ bir Gāne kralı vardır; gerekçe: iki TDV maddesi (gane, mali) 'yıkıldı/ele geçirdiler' dediği için bağımsız devletin sonu 1076 seçildi.",
+      "kronoloji": [
+        {
+          "t": "1054-01-01",
+          "tur": "toprak-kayip",
+          "b": "Murâbıtlar Sanhâce Emirliği'nin eski başşehri Evdeguşt'u (Avdagost) aldı"
+        },
+        {
+          "t": "1076-01-01",
+          "tur": "son",
+          "b": "Murâbıtlar başşehir Gāne'yi ele geçirdi; Batı Sudan'ın ilk büyük devleti çöktü"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "susu-kralligi",
+      "ad": "Susu (Sosso) Krallığı",
+      "tur": "krallik",
+      "bolge": "bati-afrika",
+      "f": "1076-01-01",
+      "t": "1235-01-01",
+      "baskent": "Susu (yeri kaynakta yok)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Gāne'ye vergi ödeyen Susu hâkimlerinin Gāne'nin düşüşüyle bağımsızlaşarak kurduğu, XIII. yüzyıl başında Gāne başşehrini de alan krallık; Suncata Keita'nın Kirina zaferiyle yerini Mali'ye bıraktı. (kaynak: TDV, madde: gane · mali)",
+      "kaynak": "TDV: gane (GĀNE) + TDV: mali (MALİ)",
+      "ic_not_f": "TDV gane: 'Gāne’nin 1076’da düşmesi üzerine daha önce uzun yıllar Gāne Devleti’ne vergi ödeyen Susu hâkimleri bağımsızlıklarını ilân ettiler' — 'üzerine' = sonrası; yıl 1076 alındı, gün yok.",
+      "ic_not_t": "TDV mali: '1235 yılında Susu Kralı Sumaoro Kante’ye karşı Suncata Keita’nın yaptığı … Kirina savaşı'. TDV gane 'XIII. yüzyılın ortasında Susu Krallığı’nın da ortadan kalkmasıyla' der — Kirina (1235) ile tutarlı. `mali-imparatorlugu` künyesi f:1235-01-01 ⇒ uç uca.",
+      "kronoloji": [
+        {
+          "t": "1076-01-01",
+          "tur": "kurulus",
+          "b": "Gāne'nin düşmesi üzerine Susu hâkimleri bağımsızlıklarını ilân etti"
+        },
+        {
+          "t": "1235-01-01",
+          "tur": "son",
+          "b": "Kirina Savaşı'nda Suncata Keita, Susu Kralı Sumaoro Kante'yi yendi"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "tekrur-kralligi",
+      "ad": "Tekrûr Krallığı (Senegal vadisi)",
+      "tur": "krallik",
+      "bolge": "bati-afrika",
+      "f": "1000-01-01",
+      "t": "1281-01-01",
+      "baskent": "Tekrûr",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Aşağı Senegal vadisinde IX. yüzyılda kurulan, XI. yüzyılda İslâm'ı kabul ederek Murâbıtlar'la birlikte savaşan ilk Batı Afrika müslüman krallığı; XIII. yüzyılda güç kaybedip Mali himayesine girdi. XIX. yüzyıldaki Umarî Tekrûr devleti (`tekrur`) ile KARIŞTIRILMAMALI. (kaynak: TDV, madde: tekrur)",
+      "kaynak": "TDV: tekrur (TEKRÛR)",
+      "ic_not_f": "KUŞAK UCU, ölçüm DEĞİL (D210). TDV: 'Bilinen ilk Tekrûr Krallığı IX. yüzyılda Aşağı Senegal nehri dolaylarında Tekrûr şehrinde kuruldu' — yıl yok; krallık 1000'de VARDI ('IX ve X. yüzyıllarda bölgede büyük bir nüfuza sahipti').",
+      "ic_not_t": "KUŞAK UCU, ölçüm DEĞİL. TDV: 'XIII. yüzyılda … mühim bir güç kaybına uğradı; ardından Gana Krallığı’nın ve XIII. yüzyılın sonlarından itibaren Mali İmparatorluğu’nun himayesi altına girdi' — YIL YOK. Gerçek son 1281'den SONRA ve kaynakta yıl olarak yok ⇒ koordinatör ya 1281 kuşak ucunu tutar ya da `mali-imparatorlugu` tâbiyeti olarak çözer. ⚠️ `tekrur` kimliği (1852-1893 Umarî devleti) DOLU olduğu için yeni kimlik `tekrur-kralligi`.",
+      "kronoloji": [
+        {
+          "t": "1056-01-01",
+          "tur": "antlasma",
+          "b": "Vâr Câbî'nin oğlu Labbi, Murâbıt kumandanının emrine askerî birlik gönderdi"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "kevkev",
+      "ad": "Kevkev (Gao) Krallığı — Songay Zâ Hânedanı",
+      "tur": "krallik",
+      "bolge": "bati-afrika",
+      "f": "1000-01-01",
+      "t": "1324-01-01",
+      "baskent": "Kukia → Gao (1009-10)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Nijer kıyısında IX. yüzyılda ortaya çıkan, Songay Zâ hânedanının merkezini Gao'ya taşıdığı krallık; 1324'te Mali'ye biat etti, 1339'da Sonni hânedanıyla yeniden bağımsızlaştı (bkz. `songhay-imparatorlugu`). (kaynak: TDV, madde: gao)",
+      "kaynak": "TDV: gao (GAO); yardımcı: TDV mali",
+      "ic_not_f": "KUŞAK UCU, ölçüm DEĞİL. TDV gao: 'IX. yüzyılda ortaya çıkan Kevkev Krallığı' — yıl yok; 1000'de VARDI.",
+      "ic_not_t": "GERÇEK ÇELİŞKİ, AYNI OLAY (Sünnî/Sonni hânedanının Ali Kolon/Kolen tarafından kuruluşu): TDV gao '1339-1493' ve 'on beş yıl sonra … Ali Kolen kaçarak Gao’ya döndü' (1324+15); TDV mali 'Dia Bada 1275’te Ali Kolon … tarafından tahtından indirildi'. Mali'ye bağlılık: TDV gao '1324 yılında Songay Sultanı Asibay … Gongon Mûsâ’ya biat etti'; TDV mali '1285’te Sünnî hânedanı tekrar Mali Sultanlığı’na bağlandı'. Gerekçe: şehrin/devletin MÜSTAKİL maddesi (gao) mali maddesinin bir yan cümlesinden daha özgül olduğu için t:1324 (gao) seçildi; 1275/1285 BİLDİRİLDİ. 1324 sonrası tâbilik; `songhay-imparatorlugu` f:1464 ⇒ 1339-1464 boşluğu kuşak dışı ayrı kalem (M-5579 ⑤).",
+      "kronoloji": [
+        {
+          "t": "1009-01-01",
+          "tur": "hukumdar",
+          "b": "Zâ hânedanının on beşinci hükümdarı Kosoy müslüman olup idare merkezini Kukia'dan Gao'ya taşıdı",
+          "gun": "400 (1009-10) — TDV yıl verir"
+        },
+        {
+          "t": "1324-01-01",
+          "tur": "son",
+          "b": "Songay Sultanı Asibay, Mali Sultanı Mense Mûsâ'ya biat etti"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "zagve",
+      "ad": "Zague (Zagwe) Hânedanı — Etiyopya",
+      "tur": "hanedanlik",
+      "bolge": "dogu-afrika",
+      "f": "1137-01-01",
+      "t": "1270-01-01",
+      "baskent": "Roha (Lalibela)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "1137-1270 arasında Etiyopya Krallığı'nı yöneten hıristiyan hânedan; Lalibela kaya kiliseleri bu dönemin eseridir. 1270'te Süleymanî hânedan iktidarı devraldı (bkz. `habesistan`). (kaynak: TDV, madde: etiyopya)",
+      "kaynak": "TDV: etiyopya (ETİYOPYA); yardımcı: UNESCO Dünya Mirası 'Rock-Hewn Churches, Lalibela' (whc.unesco.org/en/list/18)",
+      "ic_not_f": "TDV etiyopya: 'Bu dönemde Etiyopya Krallığı’nı 1137’den 1270’e kadar Zague, bu tarihten XVI. yüzyıla kadar da Şüve’de hüküm süren Süleyman sülâlesi yönetmiştir' — YIL. Müstakil madde: TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026 'Zâgve'·'Zağve'·'Zague'·'Lalibela' → BAŞLIK 0 ⇒ TDV'de müstakil Zague maddesi YOK; kaynak etiyopya maddesi.",
+      "ic_not_t": "Aynı TDV cümlesi; `habesistan` künyesi f:1270-01-01 ⇒ uç uca.",
+      "kronoloji": [
+        {
+          "t": "1137-01-01",
+          "tur": "kurulus",
+          "b": "Zague hânedanı Etiyopya Krallığı'nın yönetimini ele geçirdi"
+        },
+        {
+          "t": "1270-01-01",
+          "tur": "son",
+          "b": "Yönetim Şüve'de hüküm süren Süleymanî hânedana geçti"
+        }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "suve-emirligi",
+      "ad": "Şüve (Shoa) Mahzûmî Emirliği",
+      "tur": "beylik",
+      "bolge": "dogu-afrika",
+      "f": "896-01-01",
+      "t": "1285-01-01",
+      "baskent": "Doğu Şüve (kaynakta şehir adı yok)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Emevî baskısından kaçan Mahzûmîler'in Harar'ın kuzeybatısında kurduğu, TDV'nin 'Afrika'daki ilk müslüman devlet' dediği emirlik; XIII. yüzyıldaki iç karışıklıklarla zayıflayıp Evfât'a katıldı (bkz. `evfat`). (kaynak: TDV, madde: etiyopya · evfat)",
+      "kaynak": "TDV: etiyopya (ETİYOPYA) + TDV: evfat (EVFÂT)",
+      "ic_not_f": "TDV etiyopya: 'Mahzûmîler, Harar’ın kuzeybatısında Afrika’daki ilk müslüman devlet olan Şüve Emirliği’ni kurdular (896)' — YIL. TDV evfat aynı kuruluşu 'Rivayete göre' diye verir.",
+      "ic_not_t": "TDV etiyopya: 'bu küçük devlet 1280-1285 yılları arasında Evfât Emirliği tarafından ortadan kaldırılmıştır'; TDV evfat: 'Ali Şüve’yi de topraklarına katarak Evfât Emirliği’ni kurdu (684/1285)' ⇒ 1285 (iki maddede). `evfat` künyesi f:1285-01-01 ⇒ uç uca.",
+      "kronoloji": [
+        {
+          "t": "896-01-01",
+          "tur": "kurulus",
+          "b": "Mahzûmîler Harar'ın kuzeybatısında Şüve Emirliği'ni kurdu"
+        },
+        {
+          "t": "1285-01-01",
+          "tur": "son",
+          "b": "Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'ni kurdu"
+        }
+      ],
+      "ic_not_kaynak": "TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026: 'Şüve'·'Mahzûmî' → müstakil emirlik maddesi YOK (dönen başlıklar başka maddeler); dayanak etiyopya + evfat."
+    },
+    {
+      "islem": "yeni",
+      "id": "mapungubwe",
+      "ad": "Mapungubwe Krallığı",
+      "tur": "krallik",
+      "bolge": "guney-afrika",
+      "f": "900-01-01",
+      "t": "1300-01-01",
+      "baskent": "Mapungubwe (Limpopo-Shashe birleşimi)",
+      "harita": null,
+      "boya_gerekli": true,
+      "ozet": "Limpopo ile Shashe nehirlerinin birleştiği yerde yükselen, Güney Afrika'nın ilk yerli krallığı; yağışların azalmasıyla XIII. yüzyıl sonunda dağıldı, merkez ağırlık Büyük Zimbabve'ye kaydı. TDV kapsamı dışı. (kaynak: UNESCO Dünya Mirası 'Mapungubwe Cultural Landscape')",
+      "kaynak": "UNESCO Dünya Mirası: Mapungubwe Cultural Landscape (whc.unesco.org/en/list/1099) — TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026 'Mapungubwe' → BAŞLIK 0; güney Afrika TDV'nin birincil OLAMADIĞI bölge (M-5694 hükmü)",
+      "ic_not_f": "UNESCO aralik UCU 900 (900-1300), kurulus olcumu DEGIL. UNESCO: 'demonstrates the rise and fall of the first indigenous kingdom in Southern Africa between 900 and 1,300 AD'.",
+      "ic_not_t": "UNESCO aralik UCU 1300, yikilis olcumu DEGIL. UNESCO: 'Until its demise at the end of the 13th century AD' · 'When rainfall decreased after 1300 AD … the inhabitants were obliged to disperse'; aynı sayfanın özet cümlesi 'abandoned in the 14th century' der.",
+      "kronoloji": [
+        {
+          "t": "1300-01-01",
+          "tur": "son",
+          "b": "Yağışların azalmasıyla nüfus dağıldı, Mapungubwe terk edildi",
+          "gun": "XIII. yüzyıl sonu (kaynak yıl vermez; UNESCO 'after 1300 AD')"
+        }
+      ]
+    },
+    {
+      "islem": "genislet",
+      "id": "zimbabve-kralligi",
+      "f_eski": "1281-01-01",
+      "f": "1100-01-01",
+      "kaynak": "UNESCO Dünya Mirası: Great Zimbabwe National Monument (whc.unesco.org/en/list/364)",
+      "ic_not_f": "UNESCO insa araligi 1100-1450; aralik UCU, kurulus olcumu DEGIL. (UNESCO: 'The property, built between 1100 and 1450 AD' · aynı sayfa 'Great Zimbabwe was founded in the 11th century' der.) Eski f:1281 künyenin kendi notunda 'atlasın ufku, kaynak değil' diye beyanlıydı. t:1450 ('About 1450, the capital was abandoned') DOKUNULMADI.",
+      "ic_not_komsu": "Mapungubwe (yeni) t:1300 ile örtüşür (1100-1300) — ikisi aynı anda var olan ayrı merkezlerdir, boya ayrışmalı.",
+      "ic_not_kaynak": "TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026: TDV 'zimbabve' maddesi VAR (ülke maddesi) ama Büyük Zimbabve için yıl VERMİYOR (yalnız 'Karanga medeniyeti … milâttan önce XI. yüzyıldan beri'); UNESCO dayanağı korunur."
+    }
+  ],
+  "dokunmadim": [
+    {
+      "id": "nube",
+      "neden": "f:543 kuşağı zaten kapsıyor; kaynak TDV nube (kuşak içi: 1172 Turan Şah seferi, 1276 Dongola)"
+    },
+    {
+      "id": "kanem-bornu",
+      "neden": "f:800 kapsıyor; TDV kanim kuşak içi hükümdar yıllarını veriyor (kronoloji dosyasında)"
+    },
+    {
+      "id": "hausa-sehir-devletleri",
+      "neden": "f:1000 kapsıyor"
+    },
+    {
+      "id": "svahili-sehirleri",
+      "neden": "f:1000 kapsıyor; Kilve Sultanlığı ayrı künye AÇILMADI — bu künyenin kapsamında (TDV kilve 975 kuruluşu künyeden önce; f'i 975'e çekmek ayrı karar, önermedim)"
+    },
+    {
+      "id": "benin-kralligi",
+      "neden": "f:1180 — kaynaksız ('bulunamadı' künyesi); kuşak içi olay kaynağı bulunamadı"
+    },
+    {
+      "id": "merini",
+      "neden": "f:1196 TDV ile uyumlu ('592/1196')"
+    },
+    {
+      "id": "hafsi",
+      "neden": "f:1229 TDV ile uyumlu ('627 yılı başında (Aralık 1229)')"
+    },
+    {
+      "id": "zeyyani",
+      "neden": "f:1236 — TDV muvahhidler '632’de (1235)' der; 1 yıl fark, künyenin kaynağı TDV tilimsan. Değiştirmedim, BİLDİRİYORUM."
+    },
+    {
+      "id": "mali-imparatorlugu",
+      "neden": "f:1235 TDV mali (Kirina) ile uyumlu"
+    },
+    {
+      "id": "dacu",
+      "neden": "f:1200 künye notunda yüzyıl konvansiyonu olarak beyanlı"
+    },
+    {
+      "id": "habesistan",
+      "neden": "f:1270 TDV etiyopya ile uyumlu (Zague→Süleymanî)"
+    },
+    {
+      "id": "makdisu-sultanligi",
+      "neden": "f:1281 ufuk; TDV makdisu hânedan için yalnız 'XIII. yüzyıl' der — kitâbeler 1238/1268/1269 ŞEHRE aittir, sultanlığın kuruluşu değil ⇒ genişletme için kaynaklı yıl YOK"
+    },
+    {
+      "id": "evfat",
+      "neden": "f:1285 kuşak dışı; öncülü suve-emirligi (yeni) ile uç uca"
+    },
+    {
+      "id": "memluk",
+      "neden": "Mısır — ONCE1281-ORTADOGU kapsamı"
+    },
+    {
+      "id": "f:1281 UFUK künyeleri (38)",
+      "neden": "sidamo-kralliklari · vollayta-kralligi · gambiya-mandinka · mossi-vagadugu · gurma · zerma · dagbon · eve-notse · borgu · nijer-deltasi · jukun-kvararafa · tiv · birom-plato · adar · tuareg-adag · tuareg-ivellemmedan · dan-guro · kru-grebo · kanem-tubu · banda-gbaya · tio · matamba · bunyoro · nyamvezi · fipa-nyakyusa · kaonde-ila · kenya-kuzey-halklari · kamba · manica · herero · nama-orlam · xhosa · betsileo · antandroy · merina-oncesi · tuareg-ahaggar · tuareg-accer · tubu-tibesti — f:1281 atlas ufkudur; bu turda 1281 öncesi KAYNAKLI yıl ÖLÇÜLMEDİ (çoğu halk/sözlü gelenek yapısı). Genişletme yapılmadı; uydurma yerine boş bırakıldı."
+    }
+  ],
+  "bulunamadi": [
+    {
+      "yapi": "Bergavâta (Tâmesnâ)",
+      "not": "TDV murabitlar varlığını teyit eder ('putperest Bergavâta kabileleri'; Ebû Bekir b. Ömer 1059 sonrası 'itaat altına aldı'), ama kuruluş/son YILI yok. TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026 'Bergavâta'·'Bergavata'·'Berguvâta' → BAŞLIK 0. Künye AÇILMADI."
+    },
+    {
+      "yapi": "Zenâte emirlikleri (Fas Mağrâvesi, Benî İfren)",
+      "not": "TDV murabitlar yalnız 'V. (XI.) yüzyılın ilk yarısında Zenâte kabilesinden müstakil emirlikler' der — adsız, yılsız. AÇILMADI."
+    },
+    {
+      "yapi": "Benî Hazrûn (Trablus) · Benî Hurâsân (Tunus)",
+      "not": "TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026 'Hazrûn' → yalnız ibn-hazrun (Endülüs, başka hânedan); 'Hurâsânîler' → BAŞLIK 0. Müstakil madde YOK."
+    },
+    {
+      "yapi": "Benî Gāniye (İfrîkıye yakası 1184-1233)",
+      "not": "🆕 TDV maddesi VAR: ganiye-beni-ganiye (çekildi, denetim/ONCE1281-AFRIKA-tdv-onbellek/). Merkez Balear ⇒ ONCE1281-AVRUPA'ya bildirildi; künye AÇMADIM."
+    },
+    {
+      "yapi": "Norman 'Afrika Krallığı' (Mehdiye 1148-1160)",
+      "not": "Sicilya künyesi devletler.js'te YOK (ölçüldü); AVRUPA kapsamı. Mehdiye 1160 Muvahhid geri alışı kronoloji dosyasında yalnız muvahhidler tarafıyla."
+    },
+    {
+      "yapi": "Dahlak Sultanlığı",
+      "not": "🆕 TDV maddesi VAR: dehlek. Ama bağımsız meliklik için yalnız 'VI. (XII.) yüzyıldan itibaren de kendi meliklerince bağımsız olarak yönetilmiştir' — YIL YOK ⇒ f yazılamaz, künye AÇILMADI (D210)."
+    },
+    {
+      "yapi": "İfe · Nri · Igbo-Ukwu",
+      "not": "TDV arama ucu (ajax_search_auto, M-5694) 1 Ekim 2026 'Ife'·'Yoruba'·'Nri' → BAŞLIK 0 (yoruba maddesi önbellekte de boş). Britannica 403. Künye yok."
+    },
+    {
+      "yapi": "Kânim'in Benî Dûkū (Zegāve) öncülü",
+      "not": "TDV kanim var (son hâkim Abdülcelîl 1071-1075), ama `kanem-bornu` künyesi f:800 zaten aynı polity'yi kapsıyor ⇒ ayrı künye gereksiz."
+    }
+  ],
+  "kaynak_celiskileri": [
+    "Muvahhid sonu — AYNI olay, TDV muvahhidler 667-668/1269 · TDV meriniler 668/1270 (H.668 iki milâdî yıla düşer) → 1269 (devletin kendi maddesi + merini iskeleti)",
+    "Hammâdî sonu — AYNI madde içinde 1152 (saltanat sonu) · 548/1153 (Merakeş'te ikametgâh verilmesi = AYRI OLAY) → 1152",
+    "Gāne 1076/1240 — ÇELİŞKİ DEĞİL, İKİ OLAY: 1076 başşehrin Murâbıtlarca alınışı (TDV gane + mali aynı yıl) · 1240 dört bakiye krallığın Mali'ce ilhakı → devlet sonu 1076",
+    "Gao/Sonni — GERÇEK çelişki, AYNI olay: TDV gao 1339 (Sonni) + 1324 (Mali'ye biat) · TDV mali 1275 (Ali Kolon) + 1285 (Mali'ye bağlanış) → gao maddesi esas",
+    "Zeyyânî kuruluşu — TDV muvahhidler 632/1235 · devletler.js zeyyani f:1236 (TDV tilimsan, künye notu) → dokunmadım, BİLDİRİLDİ (H.632 = Eki 1234-Eyl 1235; 1236 iki TDV maddesiyle de uyuşmuyor olabilir, künye sahibinin kontrolüne)"
+  ],
+  "sartlar_M5579": "② zimbabve-kralligi + mapungubwe aralık ucu beyanı ic_not_f/t'ye işlendi · ③ beş çelişkide 'hangi olay' ayrıştırması + tek cümle gerekçe işlendi (Gāne çelişki DEĞİL çıktı)",
+  "slug_gozden_gecirme_M5694": "302 alan 17 slug arama ucuyla yeniden denendi: 3 TDV maddesi BULUNDU (dehlek · ganiye-beni-ganiye · zimbabve) + sevahili; hiçbiri kaynak DEĞİŞTİRMEDİ (dehlek/zimbabve yıl vermiyor, Gāniye AVRUPA kapsamı). Bergavâta · Zague · Lalibela · Mapungubwe · İfe · Nri · Kevkev · Sofala → BAŞLIK 0 (TDV'de yok, ÖLÇÜLDÜ). Alet: denetim/ARAC-ONCE1281-AFRIKA-TDVARA.py"
+}

@@ -163,6 +163,36 @@ dış hattı (Başkale/Bacirge petekleri İran'a ≥24 km). Tarayıcıda doğrul
 | **H-0088** NL-BE-LU-CH-FR-DE sınırları | **sirada** | Benim dosyam; D hatları DOĞRU konumda (be-lu hat koordinatı sınırın üstünde, doğrulandı). Kusur A katmanında: Kuzeybatı Lüksemburg Belçika (LU yanı %0, Wiltz çakışık), Zeeuws-Vlaanderen Belçika (NL yanı %0), Hollanda Limburg'u (Roermond) ve Twente (Enschede) Almanya, Belçika'nın güney kenarı Fransa'ya ≥24 km. Çare: nokta (Terneuzen, Hulst, Roermond, Enschede, Clervaux…) — p77 dosyası onay alırsa yazarım. |
 | **H-78:4** Venedik = Milano Dükalığı | **senin-kararin** | §3: nokta var; kusur ① gövde çakışması (motor, 1281–1405) ② milanoduka hayaleti (sınıflandırıldı, yama.txt). Her ikisi de M-5219 gereği koordinatörde. |
 
+## 4b. TARAYICI ÖLÇÜMÜ — üç `olculecek` madde (M-5257, 27 Eyl)
+
+Alet: `SINIR-D-ORTADOGU-0077-olc.js` (`SDO_YASLA`: yaslamanın KENDİ kodu `_dYaslaGuncelle`,
+bölme gizli olduğu için kaynak yazımı taklitli) + `SINIR-D-ASYA-0077-olc.js` (5 km iki yan,
+adım 5 km; `ham` = petek gövdesi, `son` = yaslanmış gövde). Önizleme `arac/sunucu.py`, koşu 15 verisi.
+
+| hat | gün | ham | **son (ekran)** | yaslandı | kalan yanlış örnek |
+|---|---|---|---|---|---|
+| d1923-tr-ir-1 (126 km) | 1921-03-28 · 1923-09-01 | %66 | **%100** | ✓ | — |
+| d1923-tr-ir-2 (52 km) | aynı | %60 | **%100** | ✓ | — |
+| d1923-tr-ir-3 (31 km) | aynı | %66,7 | **%75** | ✓ | 3 örnek üçlü noktada: `ingiltere` (1921) / `irak-kralligi` (1923) + 1 `kacar` |
+| d1923-bg-shs-1 (297 km) | 1920-01-28 · 1923-09-01 | %51,7 | **%99,2** | ✓ | 1 (22.374, 42.276 yugoslavya) |
+| d1923-bg-shs-2 (141 km) | aynı | %67,9 | **%98,2** | ✓ | 1 (22.977, 41.314 yunanistan — üçlü nokta) |
+
+**Yaslama süresi (bu makine, soğuk):** 1923-09-01 → **64,9 sn** (120 hat) · 1920-01-28 → **39,2 sn**
+(83 hat). (1921-03-28 satırı `sn:0` döndü — imza önbelleği; sayılar 1923 koşusuyla birebir aynı
+olduğu için geçerli sayıldı.)
+
+**Hüküm:** yaslama BİTTİĞİNDE dolgu bu üç maddenin hatlarına oturuyor (tr-ir-1/2 %100, bg-shs
+%98–99). Emre'nin H-0015/0084/0065 görsellerindeki taşma, ham gövdenin ölçtüğüm taşmasıyla
+(Başkale/Bacirge ≥24 km, Köstendil/Pirot ≥24 km) birebir örtüşüyor ⇒ en olası açıklama
+**görüntünün yaslama tamamlanmadan (40–65 sn) alınmış olması**; yani kullanıcı zaman çubuğunu her
+oynattığında ilk ~bir dakika ham gövdeyi görür. Bu bir VERİ kusuru değil, BAŞARIM kusurudur
+(`js/d_katman.js`, benim dosyam değil). "İkinci çizgi" = aynı ham gövdenin kenarı; yaslama bitince
+kaybolması beklenir — görünür bölmede ekran görüntüsüyle DOĞRULANMADI (bölme gizliydi, MapLibre
+çizmedi). tr-ir-3'ün kalan %25'i üçlü noktadaki üçüncü devlet (Irak), kusur değil.
+Hükümler güncellendi: H-0015 → **zaten-dogru** (yaslama sonrası %100; gecikme ayrı kalem) ·
+H-0084 → **zaten-dogru** (aynı) · H-0065 → **zaten-dogru** (%98–99; `f:"1920-01-01"` kayıt kusuru
+ayrıca duruyor, dosya komsu).
+
 ## 5. Bulunamadı
 - Oberwart/Güssing'in Avusturya'ya geçiş günü (yalnız Vikipedi türevleri: 25–28 Kasım 1921).
 - Zadar'ın 1918 İtalyan işgal günü (Rapallo'da yok; LZMK 'zadar' 1918'i anmıyor).

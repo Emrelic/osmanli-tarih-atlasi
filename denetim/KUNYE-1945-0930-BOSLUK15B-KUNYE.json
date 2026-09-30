@@ -1,0 +1,110 @@
+{
+  "oturum": "KUNYE-1945-0930",
+  "tarih": "2026-09-30",
+  "not": "BOSLUK15 ikinci parti — kronoloji_almanya.js'te künyesiz kalan Alman kimlikleri. Kaynaklar WebFetch ile açıldı; 'V' = kelimesi kelimesine, 'P' = özet. f:1281-01-01 olanlar PENCERE İŞARETİDİR (koordinatör M-5577 ternate hükmüyle aynı anlam: 'araştırılmamış', ölçüm değil). Açılmayanlar: hansa (iki uç da yalnız arama özeti), trablus-cumhuriyeti (kuruluş günü yalnız Vikipedi), kunduz-hanligi (TDV'de yok).",
+  "kayitlar": [
+    {
+      "islem": "yeni", "id": "brandenburg-prusya", "ad": "Brandenburg Elektörlüğü (Hohenzollern)", "tur": "prenslik",
+      "bolge": "orta-avrupa", "f": "1415-01-01", "t": "1701-01-18", "baskent": "Berlin-Cölln",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "Nürnberg burgrafı VI. Friedrich'in 1415'te Brandenburg markını ve elektörlüğü alıp 1417'de resmen tımarlandığı Hohenzollern devleti; 1618'den Prusya Dükalığı ile şahsî birlik, 1701'de elektör III. Friedrich'in Königsberg'de kral olarak taç giymesiyle Prusya Krallığı'na dönüştü. Ardılı [[prusya]].",
+      "kaynak": "HLB Hohenzollern, Fränkische (V): '…Burggraf Friedrich VI. 1415 … die Mark Brandenburg mit der Kur … zu übertragen … 1417 … rechtsförmlich in seinen neuen Besitz ein.' · NDB sfz52985 (V): 'Am 18.4.1417 belehnte ihn Sigmund auf dem Konzil von Konstanz … mit der Mark Brandenburg' · DHM preussen1701 (V): '…am 18. Januar 1701, krönte sich der brandenburgische Markgraf und Kurfürst Friedrich III. in Königsberg zum König Friedrich I. in Preußen.'",
+      "ic_not_f": "YIL hassasiyeti: HLB 1415 devri YILLA verir; resmî tımar 18 Nisan 1417 (NDB). Kronolojideki 1415-04-30 günü kronoloji_almanya.js'in kendi kaydıdır, dayanak DEĞİL. Brandenburg markı 1415'ten ÇOK eskidir (Askanî 1157) — bu künye yalnız Hohenzollern elektörlüğüdür; 1281-1415 arası ayrı künye ister (ölçülmedi).",
+      "ic_not_t": "DHM gün verir. Ardıl [[prusya]] f: 1701-01-18 — pencere tutuyor (§3.5 ③). 1701 SONRASI kronoloji maddeleri 'prusya'ya aittir (KRONO-BOSLUK-OLC-0930'a M-5596 ile yazıldı).",
+      "kronoloji": [
+        { "t": "1415-01-01", "tur": "kurulus", "b": "Burgraf VI. Friedrich'e Brandenburg markı ve elektörlük devredildi", "gun": "1415 (HLB yıl verir)", "kaynak": "HLB Hohenzollern, Fränkische" },
+        { "t": "1417-04-18", "tur": "hukumdar", "b": "İmparator Sigismund Konstanz Konsili'nde Friedrich'i Brandenburg markı ile resmen tımarladı", "kaynak": "NDB sfz52985" },
+        { "t": "1701-01-18", "tur": "son", "b": "Elektör III. Friedrich Königsberg'de 'Prusya'da Kral' I. Friedrich olarak taç giydi", "kaynak": "DHM preussen1701" }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "saksonya", "ad": "Saksonya (Wettin: Meissen Markgraflığı → Elektörlük → Krallık)", "tur": "prenslik",
+      "bolge": "orta-avrupa", "f": "1281-01-01", "t": "1918-11-13", "baskent": "Meissen → Wittenberg → Dresden",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "Wettin hânedanının Meissen markgraflığından doğan, 1423'te Saksonya elektörlüğünü alan, 1806'da krallığa yükselen ve 1918'de son kralın tahttan feragatiyle sona eren Orta Alman devleti.",
+      "kaynak": "SäBi (Sächsische Biografie, ISGV) Friedrich August III. (V): 'Am 13.11.1918 verzichtete der König … auf den sächsischen Thron.' · 1423 elektörlük: leipzig-lexikon.de Friedrich der Streitbare (P — yalnız arama özeti, sayfa açılmadı)",
+      "ic_not_f": "PENCERE İŞARETİ, ölçüm DEĞİL (M-5577 ternate hükmüyle aynı anlam): Wettin Meissen'i 1281'den önce tutuyordu ama kuruluş günü bu turda KURUMSAL kaynakla ölçülmedi. 1423 elektörlük yılı yalnız özette (P).",
+      "ic_not_t": "SäBi gün verir (V). 1806 krallık yılı bu turda doğrulanmadı.",
+      "kronoloji": [
+        { "t": "1918-11-13", "tur": "son", "b": "Kral III. Friedrich August Saksonya tahtından feragat etti", "kaynak": "SäBi Friedrich August III." }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "pfalz", "ad": "Ren Pfalzı (Kurpfalz — Wittelsbach Elektörlüğü)", "tur": "prenslik",
+      "bolge": "orta-avrupa", "f": "1214-01-01", "t": "1803-12-31", "baskent": "Heidelberg → Mannheim",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "1214'te Wittelsbach'lara geçen, 1356 Altın Boğa'yla elektörlük hakkı pfalzgraf koluna tanınan Ren Pfalzı; 1777'de Bavyera ile birleşti, 1803 Reichsdeputationshauptschluss ile müstakil toprak olarak sona erdi.",
+      "kaynak": "HLB Kurpfalz: Politische Geschichte (V): '…1214 der wittelsbachische Herzog von Bayern, Ludwig I., als Vormund für seinen Sohn Otto II. belehnt.' · 'In der Goldenen Bulle wies Kaiser Karl IV. das alleinige Wahlrecht der pfalzgräflichen Linie der Wittelsbacher zu.' · '1777 wurde die Kurpfalz … mit Bayern vereinigt.' · 'Der Reichsdeputationshauptschluss von 1803 besiegelte das Ende der Kurpfalz als eigenständiges Territorium.'",
+      "ic_not_f": "YIL hassasiyeti (HLB 1214).",
+      "ic_not_t": "ÜST SINIR, gün değil: HLB yalnız YIL verir (1803); t yılın son günü seçildi ki künye gerçek bitişten ÖNCE kesilmesin. 1777 Bavyera birleşmesi şahsî birliktir, bitiş sayılmadı.",
+      "kronoloji": [
+        { "t": "1214-01-01", "tur": "kurulus", "b": "Bavyera dükü I. Ludwig oğlu II. Otto adına Pfalz ile tımarlandı; Wittelsbach dönemi başladı", "gun": "1214 (HLB yıl verir)", "kaynak": "HLB Kurpfalz" },
+        { "t": "1356-01-01", "tur": "siyaset", "b": "Altın Boğa elektörlük hakkını Wittelsbach'ların pfalzgraf koluna tanıdı", "gun": "1356 (HLB yıl verir)", "kaynak": "HLB Kurpfalz" },
+        { "t": "1777-01-01", "tur": "birlesme", "b": "Bavyera hattı sönünce Kurpfalz Bavyera ile birleşti", "gun": "1777 (HLB yıl verir)", "kaynak": "HLB Kurpfalz" }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "hannover", "ad": "Hannover (Elektörlük → Krallık, Welf)", "tur": "prenslik",
+      "bolge": "orta-avrupa", "f": "1692-03-22", "t": "1866-10-01", "baskent": "Hannover",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "1692 Kurtraktat'ıyla dokuzuncu elektörlüğü alan Welf devleti; 1714-1837 arası Britanya tacıyla şahsî birlik, Viyana Kongresi'yle krallık, 1866'da Prusya'ya ilhak edildi.",
+      "kaynak": "NDB sfz52917 (V): 'am 22. März 1692, den Kaiser zur Unterzeichnung des sogenannten Kurtractats, der die neunte Kur an Hannover übertrug' · DHM LeMO preussische-annexionen-1866 (V): 'Am 1. Oktober 1866 wurde … Hannover die preußische Verfassung von 1850 oktroyiert und das Land als Provinz Hannover ins Königreich Preußen eingegliedert.'",
+      "ic_not_f": "NDB gün verir: Kurtraktat imzası. Kurkolleg'e kabul 1708 (yalnız özet).",
+      "ic_not_t": "DHM gün verir: Prusya'ya fiilî katılış. İlhak yasası 20 Eylül 1866 yalnız niedersachsen.de özetinde (P) — ÇELİŞKİ değil, iki ayrı adım; açılan kaynağın günü esas alındı.",
+      "kronoloji": [
+        { "t": "1692-03-22", "tur": "kurulus", "b": "Kurtraktat ile dokuzuncu elektörlük Hannover'e verildi", "kaynak": "NDB sfz52917" },
+        { "t": "1866-10-01", "tur": "son", "b": "Hannover Prusya'ya eyalet olarak katıldı", "kaynak": "DHM LeMO" }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "baden", "ad": "Baden (Markgraflık → Büyük Dükalık)", "tur": "prenslik",
+      "bolge": "orta-avrupa", "f": "1281-01-01", "t": "1918-11-22", "baskent": "Baden-Baden → Durlach → Karlsruhe",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "Zähringen soyundan Baden markgraflığı; 1806'da büyük dükalığa yükseldi, 1918'de son büyük dükün tahttan feragatiyle sona erdi.",
+      "kaynak": "LEO-BW Thronverzicht von Großherzog Friedrich II. von Baden (V): 'Am 22. November 1918 erklärte Friedrich II. den endgültigen Thronverzicht'",
+      "ic_not_f": "PENCERE İŞARETİ, ölçüm DEĞİL: markgraflık 1281'den eskidir; kuruluş (1112?) kurumsal kaynakta BULUNAMADI. Büyük dükalık 1806 yalnız özette (P).",
+      "ic_not_t": "LEO-BW gün verir (V). 14 Kasım 1918 desteklenmedi.",
+      "kronoloji": [
+        { "t": "1918-11-22", "tur": "son", "b": "Büyük Dük II. Friedrich tahttan kesin olarak feragat etti", "kaynak": "LEO-BW" }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "wurttemberg", "ad": "Württemberg (Dükalık → Krallık)", "tur": "prenslik",
+      "bolge": "orta-avrupa", "f": "1495-07-21", "t": "1918-11-30", "baskent": "Stuttgart",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "1495 Worms Reichstag'ında dükalığa yükseltilen Württemberg; 1 Ocak 1806'da krallık oldu, 1918'de son kralın tahttan çekilmesiyle sona erdi.",
+      "kaynak": "NDB sfz56796 (V): '…Maximilian während des Wormser Reichstags am 21.7.1495 zum Herzog von Württemberg … erhob' · LEO-BW Haus Württemberg (V): '…am 1. Januar 1806 zum König erhobene…' · LEO-BW Abdankung König Wilhelms II. (V): 'Am 30. November 1918 dankte der württembergische Monarch, König Wilhelm II., … ab.'",
+      "ic_not_f": "NDB gün verir. Künye DÜKALIKTAN başlar; önceki Württemberg kontluğu ayrı künye ister (ölçülmedi).",
+      "kronoloji": [
+        { "t": "1495-07-21", "tur": "kurulus", "b": "İmparator Maximilian Worms Reichstag'ında Württemberg'i dükalığa yükseltti", "kaynak": "NDB sfz56796" },
+        { "t": "1806-01-01", "tur": "siyaset", "b": "Württemberg krallığa yükseltildi", "kaynak": "LEO-BW Haus Württemberg" },
+        { "t": "1918-11-30", "tur": "son", "b": "Kral II. Wilhelm tahttan çekildi", "kaynak": "LEO-BW" }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "alman-konfederasyonu", "ad": "Alman Konfederasyonu (Deutscher Bund)", "tur": "devlet",
+      "bolge": "orta-avrupa", "f": "1815-06-08", "t": "1866-08-24", "baskent": "Frankfurt (Bundesversammlung)",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "Viyana Kongresi'nde Alman devletlerini birleştiren konfederasyon; 1866 Alman Savaşı'ndan sonra Bundesversammlung son oturumunda kendini sona ermiş saydı.",
+      "kaynak": "DHM LeMO Bundesakte (V): 'Am 10. Juni 1815 die formelle Unterzeichnung der auf den 8. Juni datierten Deutschen Bundesakte…' · HLB Bundesversammlung (Deutscher Bund) (V): 'Am 24. August 1866 erklärte die Bundesversammlung in ihrer letzten Sitzung in Stuttgart, dass der Deutsche Bund als erloschen anzusehen sei…'",
+      "ic_not_f": "Senedin TARİHİ 8 Haziran; resmî imza 10 Haziran 1815 (DHM).",
+      "ic_not_t": "HLB gün verir. 23 Ağustos 1866 Prag Barışı feshi yalnız tanıdı (DHM) — bitiş günü değil.",
+      "kronoloji": [
+        { "t": "1815-06-08", "tur": "kurulus", "b": "Alman Federal Senedi (Bundesakte) tarihlendi; 10 Haziran'da imzalandı", "kaynak": "DHM LeMO Bundesakte" },
+        { "t": "1866-08-24", "tur": "son", "b": "Bundesversammlung Stuttgart'taki son oturumunda Konfederasyonu sona ermiş ilan etti", "kaynak": "HLB Bundesversammlung" }
+      ]
+    },
+    {
+      "islem": "yeni", "id": "teuton-sovalyeleri", "ad": "Töton Tarikatı Devleti (Prusya'da)", "tur": "devlet",
+      "bolge": "dogu-avrupa", "f": "1281-01-01", "t": "1525-04-08", "baskent": "Marienburg (Malbork) → Königsberg",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "Töton Şövalyeleri Tarikatı'nın Prusya'da kurduğu tarikat devleti; 1410 Grunwald yenilgisinden sonra geriledi, 1525'te büyük üstat Albrecht'in tarikattan ayrılıp Polonya'ya tâbi Prusya Dükalığı'nı almasıyla sona erdi. Ardılı [[prusya-dukaligi]].",
+      "kaynak": "HLB Deutscher Orden: Politische Geschichte (Mittelalter) (V): 'Am 8. April 1525 verließ er den Orden, unterschrieb den Friedensvertrag mit König Sigismund von Polen … und ließ sich mit dem nunmehrigen Herzogtum Preußen belehnen' · NDB sfz56560 (V): '…den Frieden unterzeichnet, der das Ordensland Preußen als ein von Polen lehnbares Herzogthum … übertrug'",
+      "ic_not_f": "PENCERE İŞARETİ, ölçüm DEĞİL: tarikat devleti 1281'den eskidir; 1226 Rimini / 1230 Kulm yalnız özette (P) — kurumsal kaynakta kelimesi kelimesine BULUNAMADI.",
+      "ic_not_t": "HLB gün verir. Ardıl prusya-dukaligi f: 1525-04-08 — pencere birebir tutuyor. Kronolojideki '1525-04-10 sekülerleşme' maddesi 2 gün DIŞARIDA kalıyor (10 Nisan biat günü kurumsal kaynakta bulunamadı) — kronoloji_almanya.js sahibine bildirilecek.",
+      "kronoloji": [
+        { "t": "1525-04-08", "tur": "son", "b": "Büyük üstat Albrecht tarikattan ayrıldı, Polonya ile barış imzalayıp Prusya Dükalığı ile tımarlandı", "kaynak": "HLB Deutscher Orden" }
+      ]
+    }
+  ]
+}

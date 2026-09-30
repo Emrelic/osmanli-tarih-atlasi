@@ -1,0 +1,1078 @@
+{
+ "_": {
+  "gorev": "SIRP-NOKTA-0930",
+  "tarih": "2026-09-30",
+  "yazan": "SIRP-NOKTA-0930",
+  "evren": "girdi.GIRDI_DOSYALARI — 93 dosya, 4296 yerleşim",
+  "koordinat_kurali": "yazılan lat/lon = kaynak-1 (GeoNames; Sokol'da OSM) değeri, 4 haneye yuvarlandı. Ortalama ALINMADI.",
+  "uyari": "Uygulanmadı. data/ donmuş (koşu 18). Kayıt metinleri teklif; sahiplik zincirinin kaynak durumu her kayıtta 'donem_kaynak' altında."
+ },
+ "noktalar": [
+  {
+   "ad": "Pasarofça (Požarevac)",
+   "grup": "1830",
+   "koordinat": {
+    "yazilan": [
+     44.6213,
+     21.1878
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "786827",
+     "lat": 44.62132645906254,
+     "lon": 21.187820434570312,
+     "not": "seat of a second-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/1582764486",
+     "lat": 44.6199926,
+     "lon": 21.1854,
+     "not": "place=city · wikidata=Q199942"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q199942",
+     "lat": 44.62,
+     "lon": 21.189722222222,
+     "not": "city in Serbia"
+    },
+    "ayrisma_km_1_2": 0.24,
+    "ayrisma_km_1_3": 0.21,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Semendire 20.9 km (yerlesimler.js)",
+     "Belgrad 61.8 km (yerlesimler.js)",
+     "Kragujevac 71.2 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": {
+    "ad": "Pasarofça (Požarevac)",
+    "tur": "sehir",
+    "lat": 44.6213,
+    "lon": 21.1878,
+    "g": 0,
+    "k": 4,
+    "m": "Belgrad",
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1439-08-27",
+      "d": "sirbistan"
+     },
+     {
+      "f": "1444-08-15",
+      "t": "1459-06-20",
+      "d": "sirp-despotlugu"
+     },
+     {
+      "f": "1718-07-21",
+      "t": "1739-09-18",
+      "d": "avusturya"
+     },
+     {
+      "f": "1878-07-13",
+      "t": "1882-03-06",
+      "d": "sirbistan-prensligi"
+     },
+     {
+      "f": "1882-03-06",
+      "t": "1918-12-01",
+      "d": "sirbistan-kralligi"
+     },
+     {
+      "f": "1918-12-01",
+      "t": "1923-10-29",
+      "d": "yugoslavya"
+     }
+    ],
+    "d": [
+     {
+      "f": "1439-08-27",
+      "t": "1444-08-15",
+      "y": "kusatma"
+     },
+     {
+      "f": "1459-06-20",
+      "t": "1718-07-21",
+      "y": "kusatma"
+     },
+     {
+      "f": "1739-09-18",
+      "t": "1830-10-17",
+      "y": "antlasma"
+     }
+    ],
+    "v": [
+     {
+      "f": "1830-10-17",
+      "t": "1878-07-13",
+      "k": "Sırbistan Prensliği",
+      "statu": "vassal",
+      "kid": "sirbistan-prensligi"
+     }
+    ]
+   },
+   "donem_kaynak": {
+    "1439-08-27": "TDV semendire: Semendire 'alındı (16 Rebîülevvel 843 / 27 Ağustos 1439)' — GÜN · ⚠️ BÖLGESEL: despotluk başkentinin düşüşü, noktaya özel tanıklık yok",
+    "1444-08-15": "TDV semendire: '15 Ağustos 1444'te … Semendire'yi ve işgal altındaki diğer Sırp topraklarını geri verdi' — GÜN, bölge açıkça kapsanıyor · ⚠️ atlas komşuları 1444-08-01 taşıyor (kaynaksız) — ÇELİŞKİ, TDV esas",
+    "1459-06-20": "TDV semendire: '20 Haziran 1459'da … kaleyi Osmanlılar'a teslim etti' + TDV sirbistan Semendire sancağına bağlı nahiyeler (Rudnik adıyla sayılıyor) · ⚠️ BÖLGESEL",
+    "1718-07-21": "TDV pasarofca-antlasmasi: '21 Temmuz 1718 … imzalandı', 'Sırbistan'ın Belgrad dahil kuzey kısmı … Avusturya'ya' — GÜN · ⚠️ BÖLGESEL ('kuzey kısmı' noktayı adıyla saymıyor) · ⚠️ atlas komşuları Avusturya'yı 1717-08-18'de başlatıyor ⇒ bu teklif 11 aylık Osmanlı adası çizer — koordinatör kararı",
+    "1739-09-18": "⚠️ GÜN KAYNAKSIZ: TDV belgrad/pasarofca yalnız 'Belgrad Antlaşması (1739)' — YIL. Gün, atlas komşularıyla (Belgrad/Kragujevac/Çaçak 1739-09-18) HİZA için yazıldı; atlas dayanak değildir ⇒ ya bir kaynaktan gün bulunur ya 1739-01-01 (YIL) yazılır — koordinatör kararı",
+    "1830-10-17": "TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti' — GÜN (Emre kararı 30 Eyl)",
+    "1878-07-13": "Berlin Antlaşması — künye sirbistan-prensligi tabi.t ile aynı; TDV sirbistan '1878 Berlin' (YIL, gün künyeden) ⚠️ künye günü kaynak değildir",
+    "1882-03-06": "künye sirbistan-kralligi f (künye kronolojisinde kaynaksız) ⚠️ kaynak değil, kimlik geçişi (aynı polity)",
+    "1918-12-01": "TDV belgrad: '1 Aralık 1918'de Yugoslavya Krallığı'nın' başşehri — GÜN",
+    "1923-10-29": "pencere ucu (ölçüm değeri değil)"
+   },
+   "acik_sorular": [
+    "1689-1690 Avusturya ara dönemi ve 1789-1791 işgali YAZILMADI: noktaya özel kaynak yok (komşu Kragujevac/Çaçak kendi kayıtlarında 'kaynak: bulunamadı' diyor → zincirleme devralma yasak)",
+    "1804-1813 Birinci Sırp İsyanı dönemi YAZILMADI (atlas yalnız Böğürdelen'de s:sirbistan-prensligi 1806-1813 çiziyor; komşular çizmiyor)"
+   ],
+   "durum": "UYGULANABİLİR-ŞARTLI (koordinat kaynaklı · 1830-10-17 kaynaklı · 1718/1739 uçları koordinatör kararı)",
+   "hedef_dosya": "YENİ parti öner: data/yerlesimler_sirp0930.js (window.YERLESIMLER_SIRP0930) + girdi.GIRDI_DOSYALARI satırı — yerlesimler.js Oturum 0'ındır; seçim koordinatörün"
+  },
+  {
+   "ad": "Valjevo",
+   "grup": "1830",
+   "koordinat": {
+    "yazilan": [
+     44.2751,
+     19.8982
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "3188402",
+     "lat": 44.2751349336275,
+     "lon": 19.89821434021,
+     "not": "seat of a second-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/307649772",
+     "lat": 44.2708719,
+     "lon": 19.8863297,
+     "not": "place=city · wikidata=Q208015"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q208015",
+     "lat": 44.266666666667,
+     "lon": 19.883333333333,
+     "not": "city in Serbia"
+    },
+    "ayrisma_km_1_2": 1.06,
+    "ayrisma_km_1_3": 1.52,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Böğürdelen (Šabac) 55.3 km (yerlesimler.js)",
+     "Çaçak 56.0 km (yerlesimler.js)",
+     "İzvornik (Zvornik) 64.5 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": {
+    "ad": "Valjevo",
+    "tur": "sehir",
+    "lat": 44.2751,
+    "lon": 19.8982,
+    "g": 0,
+    "k": 4,
+    "m": "Belgrad",
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1439-08-27",
+      "d": "sirbistan"
+     },
+     {
+      "f": "1444-08-15",
+      "t": "1459-06-20",
+      "d": "sirp-despotlugu"
+     },
+     {
+      "f": "1718-07-21",
+      "t": "1739-09-18",
+      "d": "avusturya"
+     },
+     {
+      "f": "1878-07-13",
+      "t": "1882-03-06",
+      "d": "sirbistan-prensligi"
+     },
+     {
+      "f": "1882-03-06",
+      "t": "1918-12-01",
+      "d": "sirbistan-kralligi"
+     },
+     {
+      "f": "1918-12-01",
+      "t": "1923-10-29",
+      "d": "yugoslavya"
+     }
+    ],
+    "d": [
+     {
+      "f": "1439-08-27",
+      "t": "1444-08-15",
+      "y": "kusatma"
+     },
+     {
+      "f": "1459-06-20",
+      "t": "1718-07-21",
+      "y": "kusatma"
+     },
+     {
+      "f": "1739-09-18",
+      "t": "1830-10-17",
+      "y": "antlasma"
+     }
+    ],
+    "v": [
+     {
+      "f": "1830-10-17",
+      "t": "1878-07-13",
+      "k": "Sırbistan Prensliği",
+      "statu": "vassal",
+      "kid": "sirbistan-prensligi"
+     }
+    ]
+   },
+   "donem_kaynak": {
+    "1439-08-27": "TDV semendire: Semendire 'alındı (16 Rebîülevvel 843 / 27 Ağustos 1439)' — GÜN · ⚠️ BÖLGESEL: despotluk başkentinin düşüşü, noktaya özel tanıklık yok",
+    "1444-08-15": "TDV semendire: '15 Ağustos 1444'te … Semendire'yi ve işgal altındaki diğer Sırp topraklarını geri verdi' — GÜN, bölge açıkça kapsanıyor · ⚠️ atlas komşuları 1444-08-01 taşıyor (kaynaksız) — ÇELİŞKİ, TDV esas",
+    "1459-06-20": "TDV semendire: '20 Haziran 1459'da … kaleyi Osmanlılar'a teslim etti' + TDV sirbistan Semendire sancağına bağlı nahiyeler (Rudnik adıyla sayılıyor) · ⚠️ BÖLGESEL",
+    "1718-07-21": "TDV pasarofca-antlasmasi: '21 Temmuz 1718 … imzalandı', 'Sırbistan'ın Belgrad dahil kuzey kısmı … Avusturya'ya' — GÜN · ⚠️ BÖLGESEL ('kuzey kısmı' noktayı adıyla saymıyor) · ⚠️ atlas komşuları Avusturya'yı 1717-08-18'de başlatıyor ⇒ bu teklif 11 aylık Osmanlı adası çizer — koordinatör kararı",
+    "1739-09-18": "⚠️ GÜN KAYNAKSIZ: TDV belgrad/pasarofca yalnız 'Belgrad Antlaşması (1739)' — YIL. Gün, atlas komşularıyla (Belgrad/Kragujevac/Çaçak 1739-09-18) HİZA için yazıldı; atlas dayanak değildir ⇒ ya bir kaynaktan gün bulunur ya 1739-01-01 (YIL) yazılır — koordinatör kararı",
+    "1830-10-17": "TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti' — GÜN (Emre kararı 30 Eyl)",
+    "1878-07-13": "Berlin Antlaşması — künye sirbistan-prensligi tabi.t ile aynı; TDV sirbistan '1878 Berlin' (YIL, gün künyeden) ⚠️ künye günü kaynak değildir",
+    "1882-03-06": "künye sirbistan-kralligi f (künye kronolojisinde kaynaksız) ⚠️ kaynak değil, kimlik geçişi (aynı polity)",
+    "1918-12-01": "TDV belgrad: '1 Aralık 1918'de Yugoslavya Krallığı'nın' başşehri — GÜN",
+    "1923-10-29": "pencere ucu (ölçüm değeri değil)"
+   },
+   "acik_sorular": [
+    "1689-1690 Avusturya ara dönemi ve 1789-1791 işgali YAZILMADI: noktaya özel kaynak yok (komşu Kragujevac/Çaçak kendi kayıtlarında 'kaynak: bulunamadı' diyor → zincirleme devralma yasak)",
+    "1804-1813 Birinci Sırp İsyanı dönemi YAZILMADI (atlas yalnız Böğürdelen'de s:sirbistan-prensligi 1806-1813 çiziyor; komşular çizmiyor)"
+   ],
+   "durum": "UYGULANABİLİR-ŞARTLI (koordinat kaynaklı · 1830-10-17 kaynaklı · 1718/1739 uçları koordinatör kararı)",
+   "hedef_dosya": "YENİ parti öner: data/yerlesimler_sirp0930.js (window.YERLESIMLER_SIRP0930) + girdi.GIRDI_DOSYALARI satırı — yerlesimler.js Oturum 0'ındır; seçim koordinatörün"
+  },
+  {
+   "ad": "Öziçe (Užice)",
+   "grup": "1862",
+   "koordinat": {
+    "yazilan": [
+     43.8586,
+     19.8488
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "3188434",
+     "lat": 43.85860622186,
+     "lon": 19.8487758636475,
+     "not": "seat of a second-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/848084912",
+     "lat": 43.8564957,
+     "lon": 19.840273,
+     "not": "place=city · wikidata=Q59473"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q59473",
+     "lat": 43.85,
+     "lon": 19.85,
+     "not": "city in Serbia"
+    },
+    "ayrisma_km_1_2": 0.72,
+    "ayrisma_km_1_3": 0.96,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Çaçak 40.4 km (yerlesimler.js)",
+     "Vişegrad 45.8 km (yerlesimler_seyrek.js)",
+     "İzvornik (Zvornik) 83.7 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": {
+    "ad": "Öziçe (Užice)",
+    "tur": "sehir",
+    "lat": 43.8586,
+    "lon": 19.8488,
+    "g": 0,
+    "k": 4,
+    "m": "Belgrad",
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1463-01-01",
+      "d": "sirbistan"
+     },
+     {
+      "f": "1878-07-13",
+      "t": "1882-03-06",
+      "d": "sirbistan-prensligi"
+     },
+     {
+      "f": "1882-03-06",
+      "t": "1918-12-01",
+      "d": "sirbistan-kralligi"
+     },
+     {
+      "f": "1918-12-01",
+      "t": "1923-10-29",
+      "d": "yugoslavya"
+     }
+    ],
+    "d": [
+     {
+      "f": "1463-01-01",
+      "t": "1862-01-01",
+      "kesinlik": {
+       "f": "yil",
+       "t": "yil"
+      }
+     }
+    ],
+    "v": [
+     {
+      "f": "1862-01-01",
+      "t": "1878-07-13",
+      "k": "Sırbistan Prensliği",
+      "statu": "vassal",
+      "kid": "sirbistan-prensligi"
+     }
+    ],
+    "isg": [
+     {
+      "f": "1737-09-01",
+      "t": "1738-06-01",
+      "d": "avusturya",
+      "kesinlik": "ay",
+      "kaynak": "TDV ozice: '1737 Eylülünde … Seckendorf kumandasındaki Habsburg ordusu Öziçe'yi tekrar kuşatarak ele geçirdi; … 1738 Haziranında çıkarılıncaya kadar' — AY"
+     }
+    ]
+   },
+   "donem_kaynak": {
+    "1463-01-01": "🔴 TDV KENDİYLE ÇELİŞİYOR (ozice): 'Sırp kaynaklarında … 1445' · 'son olarak 863'te (1459) alındığı tahmin edilir' · 'Kâtib Çelebi … 867'de (1463)'. Teklif 1463 (tek adıyla tarihli tanıklık); 1459 da savunulabilir — koordinatör kararı. sirbistan→sirp-despotlugu geçişi yazılmadı (Užice'nin 1439-1459 statüsü kaynakta yok)",
+    "1862-01-01": "TDV ozice: '1862'de büyük devletlerin baskısı sonucu Öziçe Osmanlı idaresinden çıkarılıp Sırbistan'a dahil edildi' — YIL. 🔴 MODEL UYARISI: Öziçe'yi 1830-1862 d: yazmak, Belgrad'ı 1867'ye kadar d: tutan AYNI mekanizmadır — Užice nahiyesinin kırsalı 1830'dan beri özerkti; tek nokta ikisini ayıramaz. Seçenek B: v: 1830-10-17'den (nahiye olarak) — koordinatör kararı",
+    "1878-07-13": "Berlin Antlaşması — künye sirbistan-prensligi tabi.t ile aynı; TDV sirbistan '1878 Berlin' (YIL, gün künyeden) ⚠️ künye günü kaynak değildir",
+    "1882-03-06": "künye sirbistan-kralligi f (künye kronolojisinde kaynaksız) ⚠️ kaynak değil, kimlik geçişi (aynı polity)",
+    "1918-12-01": "TDV belgrad: '1 Aralık 1918'de Yugoslavya Krallığı'nın' başşehri — GÜN",
+    "1923-10-29": "pencere ucu (ölçüm değeri değil)"
+   },
+   "acik_sorular": [
+    "1688 / 1716-1718 Habsburg işgalleri YAZILMADI: TDV 'iki defa işgal etti' / 'savaşlarında işgaline uğradı' diyor, gün/ay yok",
+    "1805 Ağustos–1813 Sırp isyancı hâkimiyeti YAZILMADI (TDV ozice: '1805 Temmuzunda … ağustos ayında zaptettiler' · 1807 Haziran · 1813) — komşu kayıtlar çizmiyor",
+    "Değişmez 2: 1862 kırılması için ±30 gün içinde kronoloji maddesi YOK (olaylar*/kronoloji_sirbistan 1861-1863 taraması boş) — madde de gerekir"
+   ],
+   "durum": "ŞARTLI — iki model seçeneği (1862 d: / 1830 v:) koordinatörde",
+   "hedef_dosya": "aynı yeni parti"
+  },
+  {
+   "ad": "Ćuprija",
+   "grup": "1830",
+   "koordinat": {
+    "yazilan": [
+     43.9275,
+     21.37
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "791678",
+     "lat": 43.9275,
+     "lon": 21.37,
+     "not": "seat of a third-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/1599441293",
+     "lat": 43.9335612,
+     "lon": 21.3712355,
+     "not": "place=town · wikidata=Q336475"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q336475",
+     "lat": 43.923055555556,
+     "lon": 21.368611111111,
+     "not": "town and municipality in Serbia"
+    },
+    "ayrisma_km_1_2": 0.68,
+    "ayrisma_km_1_3": 0.51,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [
+     "Köprühisar (Yenişehir) (yerlesimler.js)",
+     "Köprülü (Veles) (yerlesimler_ok107.js)",
+     "Uzunköprü (yerlesimler_ek24.js)"
+    ],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Yagodina (Jagodina) 10.3 km (yerlesimler_ek29.js)",
+     "Kragujevac 38.0 km (yerlesimler.js)",
+     "Alacahisar (Kruševac) 38.8 km (yerlesimler_serhat.js)"
+    ],
+    "hukum": "BAK"
+   },
+   "kayit": {
+    "ad": "Ćuprija",
+    "tur": "sehir",
+    "lat": 43.9275,
+    "lon": 21.37,
+    "g": 0,
+    "k": 4,
+    "m": "Belgrad",
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1439-08-27",
+      "d": "sirbistan"
+     },
+     {
+      "f": "1444-08-15",
+      "t": "1459-06-20",
+      "d": "sirp-despotlugu"
+     },
+     {
+      "f": "1718-07-21",
+      "t": "1739-09-18",
+      "d": "avusturya"
+     },
+     {
+      "f": "1878-07-13",
+      "t": "1882-03-06",
+      "d": "sirbistan-prensligi"
+     },
+     {
+      "f": "1882-03-06",
+      "t": "1918-12-01",
+      "d": "sirbistan-kralligi"
+     },
+     {
+      "f": "1918-12-01",
+      "t": "1923-10-29",
+      "d": "yugoslavya"
+     }
+    ],
+    "d": [
+     {
+      "f": "1439-08-27",
+      "t": "1444-08-15",
+      "y": "kusatma"
+     },
+     {
+      "f": "1459-06-20",
+      "t": "1718-07-21",
+      "y": "kusatma"
+     },
+     {
+      "f": "1739-09-18",
+      "t": "1830-10-17",
+      "y": "antlasma"
+     }
+    ],
+    "v": [
+     {
+      "f": "1830-10-17",
+      "t": "1878-07-13",
+      "k": "Sırbistan Prensliği",
+      "statu": "vassal",
+      "kid": "sirbistan-prensligi"
+     }
+    ]
+   },
+   "donem_kaynak": {
+    "1439-08-27": "TDV semendire: Semendire 'alındı (16 Rebîülevvel 843 / 27 Ağustos 1439)' — GÜN · ⚠️ BÖLGESEL: despotluk başkentinin düşüşü, noktaya özel tanıklık yok",
+    "1444-08-15": "TDV semendire: '15 Ağustos 1444'te … Semendire'yi ve işgal altındaki diğer Sırp topraklarını geri verdi' — GÜN, bölge açıkça kapsanıyor · ⚠️ atlas komşuları 1444-08-01 taşıyor (kaynaksız) — ÇELİŞKİ, TDV esas",
+    "1459-06-20": "TDV semendire: '20 Haziran 1459'da … kaleyi Osmanlılar'a teslim etti' + TDV sirbistan Semendire sancağına bağlı nahiyeler (Rudnik adıyla sayılıyor) · ⚠️ BÖLGESEL",
+    "1718-07-21": "TDV pasarofca-antlasmasi: '21 Temmuz 1718 … imzalandı', 'Sırbistan'ın Belgrad dahil kuzey kısmı … Avusturya'ya' — GÜN · ⚠️ BÖLGESEL ('kuzey kısmı' noktayı adıyla saymıyor) · ⚠️ atlas komşuları Avusturya'yı 1717-08-18'de başlatıyor ⇒ bu teklif 11 aylık Osmanlı adası çizer — koordinatör kararı",
+    "1739-09-18": "⚠️ GÜN KAYNAKSIZ: TDV belgrad/pasarofca yalnız 'Belgrad Antlaşması (1739)' — YIL. Gün, atlas komşularıyla (Belgrad/Kragujevac/Çaçak 1739-09-18) HİZA için yazıldı; atlas dayanak değildir ⇒ ya bir kaynaktan gün bulunur ya 1739-01-01 (YIL) yazılır — koordinatör kararı",
+    "1830-10-17": "TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti' — GÜN (Emre kararı 30 Eyl)",
+    "1878-07-13": "Berlin Antlaşması — künye sirbistan-prensligi tabi.t ile aynı; TDV sirbistan '1878 Berlin' (YIL, gün künyeden) ⚠️ künye günü kaynak değildir",
+    "1882-03-06": "künye sirbistan-kralligi f (künye kronolojisinde kaynaksız) ⚠️ kaynak değil, kimlik geçişi (aynı polity)",
+    "1918-12-01": "TDV belgrad: '1 Aralık 1918'de Yugoslavya Krallığı'nın' başşehri — GÜN",
+    "1923-10-29": "pencere ucu (ölçüm değeri değil)"
+   },
+   "acik_sorular": [
+    "1689-1690 Avusturya ara dönemi ve 1789-1791 işgali YAZILMADI: noktaya özel kaynak yok (komşu Kragujevac/Çaçak kendi kayıtlarında 'kaynak: bulunamadı' diyor → zincirleme devralma yasak)",
+    "1804-1813 Birinci Sırp İsyanı dönemi YAZILMADI (atlas yalnız Böğürdelen'de s:sirbistan-prensligi 1806-1813 çiziyor; komşular çizmiyor)"
+   ],
+   "durum": "UYGULANABİLİR-ŞARTLI (koordinat kaynaklı · 1830-10-17 kaynaklı · 1718/1739 uçları koordinatör kararı)",
+   "hedef_dosya": "YENİ parti öner: data/yerlesimler_sirp0930.js (window.YERLESIMLER_SIRP0930) + girdi.GIRDI_DOSYALARI satırı — yerlesimler.js Oturum 0'ındır; seçim koordinatörün"
+  },
+  {
+   "ad": "Paraćin",
+   "grup": "1833",
+   "koordinat": {
+    "yazilan": [
+     43.8608,
+     21.4078
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "787215",
+     "lat": 43.8608333,
+     "lon": 21.4077778,
+     "not": "seat of a third-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/1599441250",
+     "lat": 43.8636301,
+     "lon": 21.4099615,
+     "not": "place=town · wikidata=Q714643"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q714643",
+     "lat": 43.866666666667,
+     "lon": 21.416666666667,
+     "not": "town and municipality in Serbia"
+    },
+    "ayrisma_km_1_2": 0.36,
+    "ayrisma_km_1_3": 0.96,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Yagodina (Jagodina) 17.5 km (yerlesimler_ek29.js)",
+     "Alacahisar (Kruševac) 31.9 km (yerlesimler_serhat.js)",
+     "Kragujevac 43.3 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "1833": "🔴 BU NOKTA 1830 FERMANINA DEĞİL 1833'E AİT OLABİLİR. TDV alacahisar: 'Kruşevac … 1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' (YIL) · TDV edirne-antlasmasi md.6: 'Sırbistan'dan ayrılmış olan altı nahiyeyi de geri verecekti' (liste YOK, yıl YOK). Altı nahiyenin ADLARI (Krajina=Negotin · Crna Reka=Zaječar · Paraćin · Kruševac · Stari Vlah · Jadar-Rađevina=Loznica) elimde yalnız Vikipedi 'Administrative divisions of the Principality of Serbia'da ve tam metnine erişemediğim (academia.edu 403) bir makalede ⇒ §4 gereği TEK DAYANAK OLAMAZ",
+    "1281-1833": "bulunamadı — fetih/Osmanlı öncesi zinciri bu noktalar için kaynakta YOK (Belgrad paşalığı dışındalar: Negotin/Zaječar Vidin tarafı, Aleksinac/Ražanj Niş tarafı, Loznica Drina/İzvornik tarafı; Semendire tarihleri buraya TAŞINAMAZ)"
+   },
+   "acik_sorular": [
+    "Değişmez 2: 1833 kırılması için kronoloji maddesi YOK (1832-1834 taraması boş)"
+   ],
+   "durum": "KOORDİNAT KAYNAKLI · KAYIT YOK — sahiplik zinciri bulunamadı",
+   "hedef_dosya": null
+  },
+  {
+   "ad": "Rudnik",
+   "grup": "1830",
+   "koordinat": {
+    "yazilan": [
+     44.1398,
+     20.494
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "786203",
+     "lat": 44.13982,
+     "lon": 20.49398,
+     "not": "Rudnik, Serbia (Wikidata P1566 ile bağlı kayıt)"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/355059927",
+     "lat": 44.1407115,
+     "lon": 20.4983279,
+     "not": "place=village · wikidata=Q2479848"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q2479848",
+     "lat": 44.14083333,
+     "lon": 20.49888889,
+     "not": "Rudnik, Gornji Milanovac — village in Moravica District"
+    },
+    "ayrisma_km_1_2": 0.36,
+    "ayrisma_km_1_3": 0.41,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Çaçak 30.0 km (yerlesimler.js)",
+     "Kragujevac 36.2 km (yerlesimler.js)",
+     "Yagodina (Jagodina) 64.0 km (yerlesimler_ek29.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": {
+    "ad": "Rudnik",
+    "tur": "kasaba",
+    "lat": 44.1398,
+    "lon": 20.494,
+    "g": 0,
+    "k": 4,
+    "m": "Belgrad",
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1439-08-27",
+      "d": "sirbistan"
+     },
+     {
+      "f": "1444-08-15",
+      "t": "1459-06-20",
+      "d": "sirp-despotlugu"
+     },
+     {
+      "f": "1718-07-21",
+      "t": "1739-09-18",
+      "d": "avusturya"
+     },
+     {
+      "f": "1878-07-13",
+      "t": "1882-03-06",
+      "d": "sirbistan-prensligi"
+     },
+     {
+      "f": "1882-03-06",
+      "t": "1918-12-01",
+      "d": "sirbistan-kralligi"
+     },
+     {
+      "f": "1918-12-01",
+      "t": "1923-10-29",
+      "d": "yugoslavya"
+     }
+    ],
+    "d": [
+     {
+      "f": "1439-08-27",
+      "t": "1444-08-15",
+      "y": "kusatma"
+     },
+     {
+      "f": "1459-06-20",
+      "t": "1718-07-21",
+      "y": "kusatma"
+     },
+     {
+      "f": "1739-09-18",
+      "t": "1830-10-17",
+      "y": "antlasma"
+     }
+    ],
+    "v": [
+     {
+      "f": "1830-10-17",
+      "t": "1878-07-13",
+      "k": "Sırbistan Prensliği",
+      "statu": "vassal",
+      "kid": "sirbistan-prensligi"
+     }
+    ]
+   },
+   "donem_kaynak": {
+    "1439-08-27": "TDV semendire: Semendire 'alındı (16 Rebîülevvel 843 / 27 Ağustos 1439)' — GÜN · ⚠️ BÖLGESEL: despotluk başkentinin düşüşü, noktaya özel tanıklık yok",
+    "1444-08-15": "TDV semendire: '15 Ağustos 1444'te … Semendire'yi ve işgal altındaki diğer Sırp topraklarını geri verdi' — GÜN, bölge açıkça kapsanıyor · ⚠️ atlas komşuları 1444-08-01 taşıyor (kaynaksız) — ÇELİŞKİ, TDV esas",
+    "1459-06-20": "TDV semendire: '20 Haziran 1459'da … kaleyi Osmanlılar'a teslim etti' + TDV sirbistan Semendire sancağına bağlı nahiyeler (Rudnik adıyla sayılıyor) · ⚠️ BÖLGESEL",
+    "1718-07-21": "TDV pasarofca-antlasmasi: '21 Temmuz 1718 … imzalandı', 'Sırbistan'ın Belgrad dahil kuzey kısmı … Avusturya'ya' — GÜN · ⚠️ BÖLGESEL ('kuzey kısmı' noktayı adıyla saymıyor) · ⚠️ atlas komşuları Avusturya'yı 1717-08-18'de başlatıyor ⇒ bu teklif 11 aylık Osmanlı adası çizer — koordinatör kararı",
+    "1739-09-18": "⚠️ GÜN KAYNAKSIZ: TDV belgrad/pasarofca yalnız 'Belgrad Antlaşması (1739)' — YIL. Gün, atlas komşularıyla (Belgrad/Kragujevac/Çaçak 1739-09-18) HİZA için yazıldı; atlas dayanak değildir ⇒ ya bir kaynaktan gün bulunur ya 1739-01-01 (YIL) yazılır — koordinatör kararı",
+    "1830-10-17": "TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti' — GÜN (Emre kararı 30 Eyl)",
+    "1878-07-13": "Berlin Antlaşması — künye sirbistan-prensligi tabi.t ile aynı; TDV sirbistan '1878 Berlin' (YIL, gün künyeden) ⚠️ künye günü kaynak değildir",
+    "1882-03-06": "künye sirbistan-kralligi f (künye kronolojisinde kaynaksız) ⚠️ kaynak değil, kimlik geçişi (aynı polity)",
+    "1918-12-01": "TDV belgrad: '1 Aralık 1918'de Yugoslavya Krallığı'nın' başşehri — GÜN",
+    "1923-10-29": "pencere ucu (ölçüm değeri değil)"
+   },
+   "acik_sorular": [
+    "1689-1690 Avusturya ara dönemi ve 1789-1791 işgali YAZILMADI: noktaya özel kaynak yok (komşu Kragujevac/Çaçak kendi kayıtlarında 'kaynak: bulunamadı' diyor → zincirleme devralma yasak)",
+    "1804-1813 Birinci Sırp İsyanı dönemi YAZILMADI (atlas yalnız Böğürdelen'de s:sirbistan-prensligi 1806-1813 çiziyor; komşular çizmiyor)"
+   ],
+   "durum": "UYGULANABİLİR-ŞARTLI (koordinat kaynaklı · 1830-10-17 kaynaklı · 1718/1739 uçları koordinatör kararı)",
+   "hedef_dosya": "YENİ parti öner: data/yerlesimler_sirp0930.js (window.YERLESIMLER_SIRP0930) + girdi.GIRDI_DOSYALARI satırı — yerlesimler.js Oturum 0'ındır; seçim koordinatörün"
+  },
+  {
+   "ad": "Sokol (Soko Grad)",
+   "grup": "ACIK",
+   "koordinat": {
+    "yazilan": [
+     44.2701,
+     19.4288
+    ],
+    "kaynak_1": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/7417544190",
+     "lat": 44.2701028,
+     "lon": 19.4288323,
+     "not": "historic=fort 'Соко град' · wikidata=Q7555131 (ayrıca way/793805020 fortress 44.2704598,19.4293463)"
+    },
+    "kaynak_2": {
+     "kurum": "Wikidata",
+     "kimlik": "Q7555131",
+     "lat": 44.27012,
+     "lon": 19.42882,
+     "not": "Soko Grad — near the town of Ljubovija, Serbia"
+    },
+    "kaynak_3": null,
+    "ayrisma_km_1_2": 0.0,
+    "ayrisma_km_1_3": null,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "İzvornik (Zvornik) 29.0 km (yerlesimler.js)",
+     "Vişegrad 55.4 km (yerlesimler_seyrek.js)",
+     "Böğürdelen (Šabac) 57.4 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "tümü": "bulunamadı — TDV'de Sokol maddesi YOK (slug sokol 302; arama boş). Sokol'un 1862'de Užice ile birlikte boşaltıldığı bilgisi elimde yalnız akademik olmayan/okunmamış kaynaklarda — YAZILMADI"
+   },
+   "acik_sorular": [
+    "🔴 KOORDİNAT ZAYIF: iki kaynak (OSM node/7417544190 · Wikidata Q7555131) 0,00 km ayrışıyor — biri ötekinden kopyalanmış olabilir, BAĞIMSIZ DEĞİL. GeoNames'te Soko Grad (Ljubovija) kaydı YOK (yalnız 'Sokolske Planine' dağ, 3190366, 44.3033/19.4042 — 4,5 km)",
+    "🔴 AD TUZAĞI: GeoNames/Wikidata'da ikinci bir 'Soko Grad' var — Sokobanja (43.6354/21.8931, GeoNames 837194 · Q839031). O Banja nahiyesidir, Belgrad paşalığının Sokol nahiyesi DEĞİL. Teklif Drina kıyısındaki (Ljubovija) Sokol'dur",
+    "Sahiplik zinciri tamamen bulunamadı ⇒ kayıt YAZILMADI"
+   ],
+   "durum": "KOORDİNAT VAR (zayıf) · KAYIT YOK — bulunamadı",
+   "hedef_dosya": null
+  },
+  {
+   "ad": "Loznica",
+   "grup": "1833",
+   "koordinat": {
+    "yazilan": [
+     44.5312,
+     19.2427
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "3196153",
+     "lat": 44.531179,
+     "lon": 19.242668,
+     "not": "seat of a third-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/254036981",
+     "lat": 44.5309221,
+     "lon": 19.2237478,
+     "not": "place=city · wikidata=Q648489"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q648489",
+     "lat": 44.53333,
+     "lon": 19.22583,
+     "not": "city in Serbia"
+    },
+    "ayrisma_km_1_2": 1.5,
+    "ayrisma_km_1_3": 1.36,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "İzvornik (Zvornik) 19.6 km (yerlesimler.js)",
+     "Böğürdelen (Šabac) 43.3 km (yerlesimler.js)",
+     "Tuzla (Bosna) 45.0 km (yerlesimler_seyrek.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "1833": "🔴 BU NOKTA 1830 FERMANINA DEĞİL 1833'E AİT OLABİLİR. TDV alacahisar: 'Kruşevac … 1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' (YIL) · TDV edirne-antlasmasi md.6: 'Sırbistan'dan ayrılmış olan altı nahiyeyi de geri verecekti' (liste YOK, yıl YOK). Altı nahiyenin ADLARI (Krajina=Negotin · Crna Reka=Zaječar · Paraćin · Kruševac · Stari Vlah · Jadar-Rađevina=Loznica) elimde yalnız Vikipedi 'Administrative divisions of the Principality of Serbia'da ve tam metnine erişemediğim (academia.edu 403) bir makalede ⇒ §4 gereği TEK DAYANAK OLAMAZ",
+    "1281-1833": "bulunamadı — fetih/Osmanlı öncesi zinciri bu noktalar için kaynakta YOK (Belgrad paşalığı dışındalar: Negotin/Zaječar Vidin tarafı, Aleksinac/Ražanj Niş tarafı, Loznica Drina/İzvornik tarafı; Semendire tarihleri buraya TAŞINAMAZ)"
+   },
+   "acik_sorular": [
+    "Değişmez 2: 1833 kırılması için kronoloji maddesi YOK (1832-1834 taraması boş)"
+   ],
+   "durum": "KOORDİNAT KAYNAKLI · KAYIT YOK — sahiplik zinciri bulunamadı",
+   "hedef_dosya": null
+  },
+  {
+   "ad": "Negotin",
+   "grup": "1833",
+   "koordinat": {
+    "yazilan": [
+     44.2264,
+     22.5308
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "787718",
+     "lat": 44.2263889,
+     "lon": 22.5308333,
+     "not": "seat of a third-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/317236520",
+     "lat": 44.2271199,
+     "lon": 22.5308921,
+     "not": "place=town · wikidata=Q649168"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q649168",
+     "lat": 44.21667,
+     "lon": 22.51667,
+     "not": "town and municipality in Serbia"
+    },
+    "ayrisma_km_1_2": 0.08,
+    "ayrisma_km_1_3": 1.56,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Vidin 37.8 km (yerlesimler.js)",
+     "Turnu Severin 46.2 km (yerlesimler.js)",
+     "Orsova (Eski Orsova) 55.9 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "1833": "🔴 BU NOKTA 1830 FERMANINA DEĞİL 1833'E AİT OLABİLİR. TDV alacahisar: 'Kruşevac … 1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' (YIL) · TDV edirne-antlasmasi md.6: 'Sırbistan'dan ayrılmış olan altı nahiyeyi de geri verecekti' (liste YOK, yıl YOK). Altı nahiyenin ADLARI (Krajina=Negotin · Crna Reka=Zaječar · Paraćin · Kruševac · Stari Vlah · Jadar-Rađevina=Loznica) elimde yalnız Vikipedi 'Administrative divisions of the Principality of Serbia'da ve tam metnine erişemediğim (academia.edu 403) bir makalede ⇒ §4 gereği TEK DAYANAK OLAMAZ",
+    "1281-1833": "bulunamadı — fetih/Osmanlı öncesi zinciri bu noktalar için kaynakta YOK (Belgrad paşalığı dışındalar: Negotin/Zaječar Vidin tarafı, Aleksinac/Ražanj Niş tarafı, Loznica Drina/İzvornik tarafı; Semendire tarihleri buraya TAŞINAMAZ)"
+   },
+   "acik_sorular": [
+    "Değişmez 2: 1833 kırılması için kronoloji maddesi YOK (1832-1834 taraması boş)"
+   ],
+   "durum": "KOORDİNAT KAYNAKLI · KAYIT YOK — sahiplik zinciri bulunamadı",
+   "hedef_dosya": null
+  },
+  {
+   "ad": "Zaječar",
+   "grup": "1833",
+   "koordinat": {
+    "yazilan": [
+     43.9036,
+     22.2641
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "784024",
+     "lat": 43.903582097412894,
+     "lon": 22.26405143737793,
+     "not": "seat of a second-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/281664933",
+     "lat": 43.9031075,
+     "lon": 22.2785496,
+     "not": "place=city · wikidata=Q144495"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q144495",
+     "lat": 43.90417,
+     "lon": 22.28472,
+     "not": "city in Serbia"
+    },
+    "ayrisma_km_1_2": 1.16,
+    "ayrisma_km_1_3": 1.66,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Vidin 49.8 km (yerlesimler.js)",
+     "Niş 71.3 km (yerlesimler.js)",
+     "Yagodina (Jagodina) 80.8 km (yerlesimler_ek29.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "1833": "🔴 BU NOKTA 1830 FERMANINA DEĞİL 1833'E AİT OLABİLİR. TDV alacahisar: 'Kruşevac … 1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' (YIL) · TDV edirne-antlasmasi md.6: 'Sırbistan'dan ayrılmış olan altı nahiyeyi de geri verecekti' (liste YOK, yıl YOK). Altı nahiyenin ADLARI (Krajina=Negotin · Crna Reka=Zaječar · Paraćin · Kruševac · Stari Vlah · Jadar-Rađevina=Loznica) elimde yalnız Vikipedi 'Administrative divisions of the Principality of Serbia'da ve tam metnine erişemediğim (academia.edu 403) bir makalede ⇒ §4 gereği TEK DAYANAK OLAMAZ",
+    "1281-1833": "bulunamadı — fetih/Osmanlı öncesi zinciri bu noktalar için kaynakta YOK (Belgrad paşalığı dışındalar: Negotin/Zaječar Vidin tarafı, Aleksinac/Ražanj Niş tarafı, Loznica Drina/İzvornik tarafı; Semendire tarihleri buraya TAŞINAMAZ)"
+   },
+   "acik_sorular": [
+    "Değişmez 2: 1833 kırılması için kronoloji maddesi YOK (1832-1834 taraması boş)"
+   ],
+   "durum": "KOORDİNAT KAYNAKLI · KAYIT YOK — sahiplik zinciri bulunamadı",
+   "hedef_dosya": null
+  },
+  {
+   "ad": "Aleksinac",
+   "grup": "1833?",
+   "koordinat": {
+    "yazilan": [
+     43.5417,
+     21.7078
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "793138",
+     "lat": 43.5416667,
+     "lon": 21.7077778,
+     "not": "seat of a third-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/1599387453",
+     "lat": 43.5405235,
+     "lon": 21.70884,
+     "not": "place=town · wikidata=Q966804"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q966804",
+     "lat": 43.53833,
+     "lon": 21.70472,
+     "not": "town and municipality in Serbia"
+    },
+    "ayrisma_km_1_2": 0.15,
+    "ayrisma_km_1_3": 0.45,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Niş 28.9 km (yerlesimler.js)",
+     "Alacahisar (Kruševac) 31.0 km (yerlesimler_serhat.js)",
+     "Yagodina (Jagodina) 60.3 km (yerlesimler_ek29.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "1833": "🔴 BU NOKTA 1830 FERMANINA DEĞİL 1833'E AİT OLABİLİR. TDV alacahisar: 'Kruşevac … 1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' (YIL) · TDV edirne-antlasmasi md.6: 'Sırbistan'dan ayrılmış olan altı nahiyeyi de geri verecekti' (liste YOK, yıl YOK). Altı nahiyenin ADLARI (Krajina=Negotin · Crna Reka=Zaječar · Paraćin · Kruševac · Stari Vlah · Jadar-Rađevina=Loznica) elimde yalnız Vikipedi 'Administrative divisions of the Principality of Serbia'da ve tam metnine erişemediğim (academia.edu 403) bir makalede ⇒ §4 gereği TEK DAYANAK OLAMAZ",
+    "1281-1833": "bulunamadı — fetih/Osmanlı öncesi zinciri bu noktalar için kaynakta YOK (Belgrad paşalığı dışındalar: Negotin/Zaječar Vidin tarafı, Aleksinac/Ražanj Niş tarafı, Loznica Drina/İzvornik tarafı; Semendire tarihleri buraya TAŞINAMAZ)"
+   },
+   "acik_sorular": [
+    "Aleksinac/Ražanj: Vikipedi'nin kendi iki listesi çelişiyor — altılı listede YOK, genişletilmiş (Ključ, Krajina, Crna Reka, Gurgusovac, Banja, Svrljig, Aleksinac, Ražanj …) listede VAR",
+    "Değişmez 2: 1833 kırılması için kronoloji maddesi YOK (1832-1834 taraması boş)"
+   ],
+   "durum": "KOORDİNAT KAYNAKLI · KAYIT YOK — sahiplik zinciri bulunamadı",
+   "hedef_dosya": null
+  },
+  {
+   "ad": "Ražanj",
+   "grup": "1833?",
+   "koordinat": {
+    "yazilan": [
+     43.6722,
+     21.5494
+    ],
+    "kaynak_1": {
+     "kurum": "GeoNames",
+     "kimlik": "786390",
+     "lat": 43.6722222,
+     "lon": 21.5494444,
+     "not": "seat of a third-order administrative division"
+    },
+    "kaynak_2": {
+     "kurum": "OpenStreetMap",
+     "kimlik": "node/2258265756",
+     "lat": 43.6724063,
+     "lon": 21.5489925,
+     "not": "place=village · wikidata=Q2477932"
+    },
+    "kaynak_3": {
+     "kurum": "Wikidata",
+     "kimlik": "Q2477932",
+     "lat": 43.66667,
+     "lon": 21.55,
+     "not": "village and municipality in Serbia"
+    },
+    "ayrisma_km_1_2": 0.04,
+    "ayrisma_km_1_3": 0.62,
+    "esik_2km_asildi": false
+   },
+   "mukerrer": {
+    "ad_normal_eslesme": [],
+    "3km_icinde": [],
+    "en_yakin_3": [
+     "Alacahisar (Kruševac) 20.7 km (yerlesimler_serhat.js)",
+     "Yagodina (Jagodina) 41.1 km (yerlesimler_ek29.js)",
+     "Niş 48.1 km (yerlesimler.js)"
+    ],
+    "hukum": "TEMİZ"
+   },
+   "kayit": null,
+   "donem_kaynak": {
+    "1833": "🔴 BU NOKTA 1830 FERMANINA DEĞİL 1833'E AİT OLABİLİR. TDV alacahisar: 'Kruşevac … 1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' (YIL) · TDV edirne-antlasmasi md.6: 'Sırbistan'dan ayrılmış olan altı nahiyeyi de geri verecekti' (liste YOK, yıl YOK). Altı nahiyenin ADLARI (Krajina=Negotin · Crna Reka=Zaječar · Paraćin · Kruševac · Stari Vlah · Jadar-Rađevina=Loznica) elimde yalnız Vikipedi 'Administrative divisions of the Principality of Serbia'da ve tam metnine erişemediğim (academia.edu 403) bir makalede ⇒ §4 gereği TEK DAYANAK OLAMAZ",
+    "1281-1833": "bulunamadı — fetih/Osmanlı öncesi zinciri bu noktalar için kaynakta YOK (Belgrad paşalığı dışındalar: Negotin/Zaječar Vidin tarafı, Aleksinac/Ražanj Niş tarafı, Loznica Drina/İzvornik tarafı; Semendire tarihleri buraya TAŞINAMAZ)"
+   },
+   "acik_sorular": [
+    "Aleksinac/Ražanj: Vikipedi'nin kendi iki listesi çelişiyor — altılı listede YOK, genişletilmiş (Ključ, Krajina, Crna Reka, Gurgusovac, Banja, Svrljig, Aleksinac, Ražanj …) listede VAR",
+    "Değişmez 2: 1833 kırılması için kronoloji maddesi YOK (1832-1834 taraması boş)"
+   ],
+   "durum": "KOORDİNAT KAYNAKLI · KAYIT YOK — sahiplik zinciri bulunamadı",
+   "hedef_dosya": null
+  }
+ ],
+ "ferman_1830": {
+  "karar": "1830-10-17 (Emre, 30 Eyl 2026 — TDV sirbistan)",
+  "degismeyecek_zaten_1017": [
+   "data/devletler.js:1250 sirbistan-prensligi kronoloji t:'1830-10-17' (kaynaklı)",
+   "data/kronoloji_sirbistan.js:244 t:'1830-10-17'",
+   "data/d_sinirlar_avrupa_orta.js:193 d1830-hm-sr-tuna-sp f:'1830-10-17' (dayanak TDV; notunda 'atlas maddesi 1830-11-08 — ÇELİŞKİ')",
+   "data/sinir_sinif_dizini.js:655 f:'1830-10-17'",
+   "girdi: Kragujevac · Çaçak (yerlesimler.js) · Yagodina (yerlesimler_ek29.js) — d: t / v: f '1830-10-17'"
+  ],
+  "cekilecek": [
+   {
+    "yer": "data/olaylar_ek.js:73",
+    "simdi": "t:'1830-11-08' (gun:'1830')",
+    "not": "Değişmez 2 çekirdeği. Kırılmalar 1830-10-17'de, madde 22 gün sonra — ±30 içinde, bugün İHLAL DEĞİL ama yanlış gün. `statu_vasal:['Kragujevac','Çaçak']` — yeni noktalar eklenirse bu listeye de girer"
+   },
+   {
+    "yer": "data/savaslar.js:550",
+    "simdi": "t:'1830-08-30' 'Sırbistan özerklik fermanı'",
+    "not": "'30 Ağustos'un TEK canlı kaynağı BURASI — künye DEĞİL"
+   },
+   {
+    "yer": "data/ekokuma_isyan1821.js:73",
+    "simdi": "olay:['…','1830-11-08|özerklik fermanı']",
+    "not": "olaylar_ek.js maddesine BAĞ — madde 1017'ye çekilirse bu bağ da çekilmezse KOPAR"
+   },
+   {
+    "yer": "data/yer_yama_vassal_kid_0906.js:152,153,313 · data/yer_yama_kid20_0907.js:358 · data/yer_yama_ok110.js:82-83",
+    "simdi": "1830-11-08",
+    "not": "eski yama dosyaları; canlı girdi bunları zaten 1830-10-17 ile taşıyor — girdi.GIRDI_DOSYALARI'nda DEĞİLLER (ölçüm: 4296 noktalık yükte Kragujevac v.f=1830-10-17) ⇒ ölü; yeniden uygulanırlarsa 1017'yi 1108'e geri çeker"
+   },
+   {
+    "yer": "data/paket_01.js · paket_12.js · paket_05.js · paket_14.js · paket_13.js · paket_28.js",
+    "simdi": "kaynak dosyaların kopyası",
+    "not": "index.html bunları yüklüyor (ÜRETİLMİŞ paketler) — kaynak düzeltilince yeniden paketlenmeli"
+   },
+   {
+    "yer": "data/donemler_ust.js (ÜRETİLMİŞ, yayın r10675)",
+    "simdi": "'Katılım: Kragujevac, Çaçak, Yagodina' penceresi f:'1830-11-08'",
+    "not": "yayındaki harita girdiden BAYAT (girdi 1017 diyor) — koşu 18 düzeltir, elle dokunulmaz"
+   }
+  ],
+  "kunye_deligi_sorusu": {
+   "olcum": "devletler.js:1243 sirbistan-prensligi f:'1804-02-14' t:'1882-03-06' · tabi:[{f:'1817-01-01', t:'1878-07-13', ust:'osmanli'}]. Künyenin f: alanı 30 Ağustos DEĞİL; 1830-08-30 künyede yalnız YEDEKTE (devletler.js.yedek:1245, kronoloji satırı) ve savaslar.js:550'de duruyor",
+   "cevap": "48 GÜNLÜK DELİK AÇILMAZ — çekilecek bir künye f: YOK. savaslar.js:550 bir savaş/antlaşma kaydıdır, hiçbir yerleşimin sahipliğini belirlemez",
+   "o_48_gun_sahibi": "1830-08-30 → 1830-10-17 arasında Sırp çekirdeğinin 13 (kutuda 21) noktasının hepsi yazılı sahipli: Kragujevac/Çaçak/Yagodina d: (Osmanlı) 1739-09-18→1830-10-17 · Belgrad/Semendire/Böğürdelen d: →1867-04-18 · Alacahisar d: 1454→1878 · Niş d: 1690→1878. Sahipsiz nokta 0. 1830-08-30 tarihini taşıyan yerleşim dönemi ucu: 0 (tarandı: data/ altında '1830-08-30' yalnız savaslar.js, paket_12.js kopyası, devletler.js.yedek)",
+   "sinif": "§3.5.1 sınıflaması gerekmiyor: künye aşımı yok. Yalnız savaslar.js:550'nin günü düzeltilecek (kayıt düzeltmesi, sahiplik değişmez)"
+  },
+  "yan_bulgular": [
+   "🔴 Alacahisar (Kruševac) — yerlesimler_serhat.js:152: d: 1454-01-01→1878-07-13 KESİNTİSİZ Osmanlı. TDV alacahisar '1833'te ise Muhtar Sırbistan Prensliği'ne devredildi' diyor ⇒ 1833-1878 v: sirbistan-prensligi EKSİK (45 yıl yanlış renk). Bu dosya benim değil",
+   "🔴 Belgrad özerk gövdenin dışında kalıyor ama sebebin YARISI noktasızlık değil: Belgrad · Semendire · Böğürdelen kendi kayıtlarında d: →1867-04-18 (TDV: garnizonlar 1867'de çekildi). Pasarofça noktası Semendire'nin doğusundaki boşluğu kapatır, ama Belgrad'ın KENDİ peteği 1867'ye kadar Osmanlı kalır — bu bir model kararıdır (kale muhafızı mı, şehir mi), nokta eklemek onu çözmez",
+   "TDV semendire 1444 iadesini '15 Ağustos 1444' diye günlüyor; atlas komşuları 1444-08-01 taşıyor (kaynaksız)"
+  ]
+ }
+}

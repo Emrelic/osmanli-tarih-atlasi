@@ -1,0 +1,345 @@
+{
+ "oturum": "ONCE1281-HINDISTAN-AMERIKA",
+ "tarih": "2026-09-30",
+ "kusak": ["1000-01-01", "1281-01-01"],
+ "not": "ÖNERİ — devletler.js'e koordinatör birleştirir. alinti_* alanları açılan sayfadan BİREBİR kopyadır: Britannica sayfaları tarayıcıda açıldı (curl/urllib 403 veriyor), TDV + UNESCO + Europe PMC + INAH + Armada de Chile gövdeleri denetim/ONCE1281-HINT-AMERIKA-onbellek/ altında. Dört haneli yıl: 1000 öncesi f/t '0850-01-01' biçiminde PAD'li (D205). f:'1000-01-01' yazılan her kayıtta bu KUŞAK UCUDUR, kuruluş değil — kaynak devleti 1000'den önce var gösteriyor, sınır işaretidir (D210). Gazneli/Gurlu künyeleri ONCE1281-IRAN-TURKISTAN'da (M-5565 anlaşması); bu dosya onlara yalnız taraf olarak değinir.",
+ "kunyeler": [
+  {
+   "id": "cola", "ad": "Çola (Chola) İmparatorluğu", "islem": "yeni", "tur": "imparatorluk", "bolge": "guney-asya",
+   "f": "0850-01-01", "t": "1279-01-01", "baskent": "Tancavur (Thanjavur) → Gangaikondaçolapuram",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Kâverî vadisinden doğup X-XI. yüzyılda Güney Hindistan'ı, Seylan'ın kuzeyini, Maldivleri ve Lakşadvip'i tutan, Srivicaya'ya deniz seferi düzenleyen Tamil imparatorluğu; XIII. yüzyılda Hoysala ve Pandya baskısıyla çözüldü, 1279'da sona erdi.",
+   "kaynak": "Britannica, «Chola dynasty» (britannica.com/topic/Chola-dynasty) + «India: The Rajputs / Southern India» (britannica.com/place/India/The-Rajputs) — TDV'de müstakil madde aranmadı: Hindu hanedanı, TDV kapsamı dışı",
+   "alinti_f": "Vijayalaya He initiated the occupation of Pallava territory around 850–870 CE.",
+   "ic_not_alinti": "alinti_f Britannica sayfasının 'important rulers' listesinden birebir (liste biçimi yüzünden 'Vijayalaya He' bitişik). Ana metnin cümlesi sayfada '(reigned c. 850–870) initiated the occupation of the Pallavas territory' diye başlıyor; başı çekilen metinde kesik.",
+   "alinti_t": "The Chola dynasty ended in 1279.",
+   "ic_not_f": "Britannica cümlesi 'c. 850–870' — YIL YAKLAŞIK; f bu aralığın alt ucu. Kuşak 1000'dir, künye daha erken başlar.",
+   "ic_not_t": "Kaynak yalnız yıl verir → 1279-01-01. Pandya fethi 1257 (kronoloji dosyasında).",
+   "kronoloji": [
+    {"t": "0850-01-01", "tur": "kurulus", "b": "Vijayalaya Pallava topraklarını işgale başladı; Tancavur merkezli Çola gücü doğdu", "kaynak": "Britannica «Chola dynasty»"},
+    {"t": "1279-01-01", "tur": "son", "b": "Çola hanedanı sona erdi", "kaynak": "Britannica «Chola dynasty»: 'The Chola dynasty ended in 1279.'"}
+   ]
+  },
+  {
+   "id": "bati-calukya", "ad": "Batı Çalukya (Kalyani Çalukyaları)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "0973-01-01", "t": "1189-01-01", "baskent": "Manyakheta → Kalyani",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Raştrakutaların yıkılışında II. Taila'nın kurduğu, Batı Dekken'i tutan ikinci Çalukya hanedanı; Çolalarla Vengi ve Tungabhadra hattında yüz yıl savaştı, 1156-1167 arasında Kalaçuri gaspına uğradı, 1189'da topraklarını Yâdava, Hoysala ve Kâkatiyalara bırakarak sona erdi.",
+   "kaynak": "Britannica, «Chalukya dynasty» (britannica.com/topic/Chalukya-dynasty) + «India: Southern India» (britannica.com/place/India/Southern-India)",
+   "alinti_f": "Taila II (reigned 973–997), who traced his ancestry to the earlier Chalukyas of Vatapi, ruled a small part of Bijapur. Upon the weakening of Rashtrakuta power, he defeated the king, declared his independence, and founded what has come to be called the Later Chalukya dynasty.",
+   "alinti_t": "The Chalukya dynasty was restored in the person of Someshvara IV, who, however, lost the empire in 1189 to the Yadavas (or Sevunas) of Devagiri, the Hoysalas of Dorasamudra, and the Kakatiyas of Warangal",
+   "ic_not_f": "⚠️ Britannica kendi içinde iki biçim veriyor: 'Chalukya dynasty' sayfası 'about 975', 'India' sayfası 'Taila II (reigned 973–997)'. f = saltanat başı 973; fark 2 yıl, bildirildi.",
+   "kronoloji": [
+    {"t": "0973-01-01", "tur": "kurulus", "b": "II. Taila, Raştrakuta kralını yenip bağımsızlığını ilan etti; Kalyani Çalukya hanedanı kuruldu", "kaynak": "Britannica «India: Southern India»"},
+    {"t": "1189-01-01", "tur": "son", "b": "IV. Someşvara imparatorluğu Yâdava, Hoysala ve Kâkatiyalara kaptırdı; Batı Çalukya hanedanı sona erdi", "kaynak": "Britannica «Chalukya dynasty»"}
+   ]
+  },
+  {
+   "id": "dogu-calukya", "ad": "Doğu Çalukya (Vengi Çalukyaları)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "0624-01-01", "t": "1070-01-01", "baskent": "Vengi",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Godavari-Krişna deltasında (Vengi) hüküm süren Çalukya kolu; Batı Çalukyalarla Çolalar arasında piyon oldu, 1070'te I. Kulottunga'nın şahsında Çola tacıyla birleşti.",
+   "kaynak": "Britannica, «Chalukya dynasty» (britannica.com/topic/Chalukya-dynasty) + «Chola dynasty»",
+   "alinti_f": "The Eastern Chalukyas ruled in Vengi (in eastern Andhra Pradesh state) from about 624 to about 1070.",
+   "alinti_t": "The Cholas eventually adopted the Chalukya family, and the two countries were united under Kulottunga I (Rajendra II), whose reign began in 1070.",
+   "ic_not_f": "'about 624' — yıl yaklaşık. ⚠️ Kaynak üçüncü bir yıllı kırılma vermiyor; kronoloji 2 maddede kaldı (alt sınır 3) — BİLDİRİLDİ, uydurulmadı.",
+   "kronoloji": [
+    {"t": "0624-01-01", "tur": "kurulus", "b": "Doğu Çalukya kolu Vengi'de hüküm sürmeye başladı", "kaynak": "Britannica «Chalukya dynasty»"},
+    {"t": "1070-01-01", "tur": "son", "b": "Vengi, I. Kulottunga'nın tahta çıkışıyla Çola tacıyla birleşti; Doğu Çalukya ayrı devlet olarak sona erdi", "kaynak": "Britannica «Chalukya dynasty»"}
+   ]
+  },
+  {
+   "id": "pala", "ad": "Pâla Hanedanı (Bengal-Bihar)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "0750-01-01", "t": "1120-01-01", "baskent": "Mudgagiri (Munger)",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "VIII-XII. yüzyıllarda Bengal ve Bihar'ı yöneten Budist hanedan; I. Mahipala ile yeniden güçlendi, Ramapala'dan sonra Senaların yükselişiyle gölgede kaldı. Pâla kralları güney Bihar'da kırk yıl kadar daha hüküm sürdü.",
+   "kaynak": "Britannica, «Pala dynasty» (britannica.com/topic/Pala-dynasty) + «India: Southern India»",
+   "alinti_f": "They are associated with Pundravardhana (near Bogra, Bangladesh), and their first ruler, Gopala (reigned c. 750–770), included Vanga in his kingdom",
+   "alinti_t": "On his death, however, the dynasty was virtually eclipsed by the rising power of the Senas, though Pala kings continued to rule in southern Bihar for 40 years.",
+   "ic_not_t": "t = Ramapala'nın saltanat sonu (c. 1077–1120). Güney Bihar'daki '40 yıl' KASITLI OLARAK t'ye eklenmedi: 1120+40 türetilmiş sayıdır, kaynak yıl vermiyor (D213). Koordinatör kalıntı dönemi isterse t=1160 TÜRETİLMİŞ olarak işaretlenmeli.",
+   "kronoloji": [
+    {"t": "0750-01-01", "tur": "kurulus", "b": "Yerel bir reis olan Gopala anarşi döneminde iktidara geldi; Pâla hanedanı kuruldu", "kaynak": "Britannica «Pala dynasty»"},
+    {"t": "1120-01-01", "tur": "son", "b": "Ramapala'nın ölümüyle Pâla gücü Senalar karşısında fiilen söndü; hanedan güney Bihar'da küçük bir kalıntıya indi", "kaynak": "Britannica «Pala dynasty»"}
+   ]
+  },
+  {
+   "id": "sena", "ad": "Sena Hanedanı (Bengal)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1095-01-01", "t": "1202-01-01", "baskent": "Nadia (Navadvipa)",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Pâla tâbisi olarak doğup Vijayasena ile bütün Bengal'i ve kuzey Bihar'ı tutan Hindu hanedanı; son büyük kral Lakşmanasena 1202'de Nadia'dan Muhammed Bahtiyar Halacî tarafından çıkarıldı. Sena kralları doğu Bengal'de birkaç on yıl daha hüküm sürdü.",
+   "kaynak": "Britannica, «Sena dynasty» (britannica.com/topic/Sena-dynasty)",
+   "alinti_f": "His successor, Vijayasena (reigned c. 1095–1158), built an empire on the ruins of that of the Palas, gaining control of all Bengal and northern Bihar.",
+   "alinti_t": "Lakshmanasena was expelled from Nadia in 1202 by the Turkish chief Muḥammad Bakhtyār Khaljī and died about three years later.",
+   "ic_not_f": "Kurucu Hemantasena bağımsızlığını 'mid-11th century' ilan etti — YIL YOK, yazılmadı. f = Vijayasena'nın saltanat başı (c. 1095), imparatorluk ölçeğine geçiş.",
+   "ic_not_t": "⚠️ 1202 = Nadia'nın kaybı. Britannica: 'Sena kings continued to rule in eastern Bengal for some decades' — yıl vermiyor, doğu Bengal kalıntısı künyeye alınmadı. Bazı kaynaklar Nadia için 1204 der; Britannica 1202.",
+   "kronoloji": [
+    {"t": "1095-01-01", "tur": "kurulus", "b": "Vijayasena tahta çıktı ve Pâla topraklarının yıkıntısı üzerinde bütün Bengal'i kapsayan Sena imparatorluğunu kurdu", "kaynak": "Britannica «Sena dynasty»"},
+    {"t": "1202-01-01", "tur": "son", "b": "Muhammed Bahtiyar Halacî Lakşmanasena'yı Nadia'dan çıkardı; Bengal'de siyasî güç Müslümanlara geçti", "kaynak": "Britannica «Sena dynasty»"}
+   ]
+  },
+  {
+   "id": "gahadavala", "ad": "Gâhadavâla Hanedanı (Kannauj-Varanasi)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1089-01-01", "t": "1197-01-01", "baskent": "Kannauj · Varanasi",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "XI. yüzyıl sonunda Varanasi, Ayodhya, Kannauj ve Delhi'yi (Indrasthaniyaka) tutan Kuzey Hindistan hanedanı; Cayçandra 1194'te Çandavar'da Gurlu Muizzüddin Muhammed'e yenilip öldü, hanedan 1197'ye kadar Kannauj-Jaunpur-Mirzapur yöresinde sürdü.",
+   "kaynak": "Britannica, «Gahadavala dynasty» (britannica.com/topic/Gahadavala-dynasty)",
+   "alinti_f": "The dynastic power became gradually consolidated in the period of the first three rulers: Yashovigraha, Mahichandra, and Chandradeva (c. 1089–1103).",
+   "alinti_t": "Although the Gahadavalas lingered in Harishchandra’s reign (c. 1194–?) in the Kannauj, Jaunpur, and Mirzapur regions until 1197, the buildup of Muslim expansion in the areas was steady through the early 13th century.",
+   "ic_not_f": "f = Candradeva saltanatının başı (c. 1089); ilk iki hükümdarın yılı verilmiyor.",
+   "kronoloji": [
+    {"t": "1089-01-01", "tur": "kurulus", "b": "Candradeva döneminde Gâhadavâla gücü Varanasi, Ayodhya ve Kannauj'da pekişti", "kaynak": "Britannica «Gahadavala dynasty»"},
+    {"t": "1197-01-01", "tur": "son", "b": "Hariçandra döneminde Kannauj-Jaunpur-Mirzapur yöresinde tutunan Gâhadavâla hâkimiyeti sona erdi", "kaynak": "Britannica «Gahadavala dynasty»"}
+   ]
+  },
+  {
+   "id": "cahamana", "ad": "Çavhan (Çâhamâna) Hanedanı — Şakambhari/Ecmîr", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1000-01-01", "t": "1192-01-01", "baskent": "Şakambhari → Ecmîr (Ajayameru) · Delhi",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Sambhar gölü çevresinden çıkıp XI. yüzyılda Ecmîr'i kuran, XII. yüzyılda Delhi'yi Tomaralardan alan Racput hanedanı; III. Pritvirac 1191'de Taraori'de Gurlu Muizzüddin'i yendi, 1192'de aynı sahada yenilip öldürüldü.",
+   "kaynak": "Britannica, «India: The Rajputs» (britannica.com/place/India/The-Rajputs) + «Battles of Taraori» (britannica.com/event/Battles-of-Taraori) + TDV: delhi (DELHİ) — 'Çavhanlar'",
+   "alinti_f": "By the end of the 10th century the Pratihara feudatories—Chauhans (Chahamanas), Chandelas, Guhilas, Kalachuris, Paramaras, and Chaulukyas (also called Solankis)—were asserting their independence",
+   "alinti_t": "Prithviraja, however, was defeated at a second battle in the same place in 1192; the defeat ushered in Turkic rule in northern India.",
+   "ic_not_f": "🔴 f = KUŞAK UCU, kuruluş değil. Kaynak hanedanı X. yüzyıl sonunda bağımsızlaşan Pratihara tâbileri arasında sayıyor; kuruluş yılı bulunamadı.",
+   "ic_not_t": "1192 = İkinci Taraori (Tarain). Ranthambhor'daki Çavhan kolu sonra da sürdü; o kalıntı mevcut `racput` künyesinin kapsamındadır.",
+   "kronoloji": [
+    {"t": "1192-01-01", "tur": "son", "b": "III. Pritvirac İkinci Taraori Savaşı'nda Gurlu Muizzüddin Muhammed'e yenilip öldürüldü; Çavhan gücü kırıldı", "kaynak": "Britannica «Battles of Taraori»"}
+   ]
+  },
+  {
+   "id": "paramara", "ad": "Paramâra Hanedanı (Mâlva)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1000-01-01", "t": "1305-01-01", "baskent": "Dhâr · Ujjain",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Raştrakuta tâbisi olarak doğup Bhoja döneminde parlayan Mâlva hanedanı; 1143'te Çaulukya saldırısıyla zayıfladı, XIII. yüzyılda Yâdava ve Delhi baskısı altında kaldı, 1305'te Delhi Sultanlığı'nca ortadan kaldırıldı.",
+   "kaynak": "Britannica, «India: The Rajputs» (britannica.com/place/India/The-Rajputs)",
+   "alinti_f": "The Paramaras emerged as feudatories of the Rashtrakutas and rose to eminence during the reign of Bhoja.",
+   "alinti_t": "In the 13th century the Paramaras were threatened by both rising Yadava power in the Deccan and the Turkic kingdom at Delhi (see below The coming of the Turks); the latter conquered the Paramaras in 1305.",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Bhoja'nın saltanat yılları bu kaynakta verilmiyor.",
+   "ic_not_kronoloji": "⚠️ Kaynakta yıllı yalnız iki kırılma var (1143 · 1305); alt sınır 3'e ulaşılamadı — uydurulmadı.",
+   "kronoloji": [
+    {"t": "1305-01-01", "tur": "son", "b": "Delhi Sultanlığı Paramâraları fethetti; Mâlva hanedanı sona erdi", "kaynak": "Britannica «India: The Rajputs»"}
+   ]
+  },
+  {
+   "id": "caulukya", "ad": "Çaulukya (Solanki) Hanedanı — Gucerat", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1000-01-01", "t": "1297-01-01", "baskent": "Anahilapataka (Patan)",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Gucerat'ı üs alarak Racputâne ve Avanti'ye yayılan hanedan (Solanki); Kumarapala döneminde pekişti, Caynizmin himayecisi oldu. Ardılı Vaghela kolu dahil, Alâeddin Halacî'nin Gucerat fethiyle sona erdi.",
+   "kaynak": "Britannica, «India: The Rajputs» (britannica.com/place/India/The-Rajputs) + «Delhi sultanate» (britannica.com/topic/Delhi-sultanate)",
+   "alinti_f": "By the 11th century they were using Gujarat as a base and attempting to annex neighboring portions of Rajasthan and Avanti.",
+   "alinti_t": "Ala al-Din (reigned 1296–1316) conquered Gujarat (c. 1297) and the principal fortified places in Rajasthan (1301–12)",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Hanedan X. yüzyıl sonunda bağımsızlaşan Pratihara tâbileri arasında (bkz. cahamana alinti_f).",
+   "ic_not_t": "'c. 1297' — yıl yaklaşık. Vaghela kolu (Karnadeva Vaghela) bu künyenin içinde sayıldı; ayrı künye önerilmedi.",
+   "kronoloji": [
+    {"t": "1297-01-01", "tur": "son", "b": "Alâeddin Halacî Gucerat'ı fethetti; Çaulukya-Vaghela hâkimiyeti sona erdi", "kaynak": "Britannica «Delhi sultanate»"}
+   ]
+  },
+  {
+   "id": "candela", "ad": "Çandela (Candella) Hanedanı — Bundelkhand", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1000-01-01", "t": "1203-01-01", "baskent": "Khajuraho → Mahoba · Kâlincar",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Bundelkhand'ı yöneten, Khajuraho tapınaklarıyla tanınan Racput hanedanı; Gazneli Mahmud'a karşı Pencap kralı Caypal'e katıldı, 1023'te Kâlincar'ı kaybetti, 1082'de Ecmîr'e tâbi oldu, 1182-83'te III. Pritvirac'ın, 1202-03'te Delhi Sultanlığı'nın istilâsına uğradı; hanedan XVI. yüzyıla kadar küçük reisler olarak sürdü.",
+   "kaynak": "Britannica, «Chandela» (britannica.com/topic/Chandela) + «India: The Rajputs»",
+   "alinti_f": "Among the important rulers was Dhanga (reigned c. 950–1008), who issued a large number of inscriptions and was generous in donations to Jain and Hindu temples.",
+   "alinti_t": "Although Paramardi temporarily regained control, the Delhi sultanate invaded in 1202–03. Paramardi chose to surrender and pay tribute but died before fulfilling this agreement.",
+   "ic_not_f": "🔴 f = KUŞAK UCU (Dhanga c. 950–1008 döneminde hanedan zaten hâkim).",
+   "ic_not_t": "🟡 KARAR GEREKLİ. t=1203 Delhi istilâsı ve Paramardi'nin teslimidir. Aynı kaynak: 'the Chandellas survived until the 16th century as minor chieftains' (India: The Rajputs). Sınıf ① mi (devlet öldü) ② mi (küçülerek sürdü) — kaynak XIII-XV. yüzyıl için yıl vermiyor. Önerim 1203 (bağımsız krallığın sonu); kalıntı reislik 1281 sonrası `racput` kapsamına düşer.",
+   "kronoloji": [
+    {"t": "1203-01-01", "tur": "son", "b": "Delhi Sultanlığı Çandela ülkesini istilâ etti; Paramardi teslim olup haraç ödemeyi kabul etti, hanedan kırıldı", "kaynak": "Britannica «Chandela»", "gun": "1202-03 (kaynak iki yıllık aralık verir)"}
+   ]
+  },
+  {
+   "id": "gurjara-pratihara", "ad": "Gürcara-Pratihâra Hanedanı (Kannauj)", "islem": "yeni", "tur": "hanedanlik", "bolge": "guney-asya",
+   "f": "1000-01-01", "t": "1027-01-01", "baskent": "Kannauj",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "VIII-XI. yüzyıllarda Kuzey Hindistan'ın en önemli hanedanı; X. yüzyıl sonunda yalnız Gang-Yamuna arasına sıkıştı, son önemli kral Racyapala 1018'de Gazneli Mahmud tarafından Kannauj'dan çıkarıldı, son Pratiharalar 1027'ye kadar sürdü.",
+   "kaynak": "Britannica, «Gurjara-Pratihara dynasty» (britannica.com/topic/Gurjara-Pratihara-dynasty) + «India: Southern India»",
+   "alinti_f": "Their feudatories became more and more powerful, one by one throwing off their allegiance until by the end of the 10th century the Pratiharas controlled little more than the Gangetic doab.",
+   "alinti_t": "By the end of the 10th century the Pratihara feudatories—Chauhans (Chahamanas), Chandelas, Guhilas, Kalachuris, Paramaras, and Chaulukyas (also called Solankis)—were asserting their independence, although the last of the Pratiharas survived until 1027.",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Hanedan VIII. yüzyılda (I. Nagabhata) başlar; bu turda yalnız 1000-1027 kalıntısı önerildi.",
+   "ic_not_t": "⚠️ Britannica iki sayfada iki ifade: 'survived until 1027' (India) ve 'For about a generation longer a small Pratihara principality apparently survived in the area of Allahabad' (Gurjara-Pratihara). Yıllı olan 1027 alındı.",
+   "kronoloji": [
+    {"t": "1027-01-01", "tur": "son", "b": "Son Pratiharalar ortadan kalktı", "kaynak": "Britannica «India: Southern India»"}
+   ]
+  },
+  {
+   "id": "kabace", "ad": "Nâsırüddin Kabâce Devleti (Mültan-Uç-Sind)", "islem": "yeni", "tur": "devlet", "bolge": "guney-asya",
+   "f": "1206-01-01", "t": "1228-01-01", "baskent": "Mültan · Uç",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Gurlu Muizzüddin Muhammed'in 1206'da öldürülmesinden sonra kumandanı Nâsırüddin Kabâce'nin Mültan ve Sind'de kurduğu, yirmi iki yıl süren bağımsız idare; Mültan Orta Asya'dan kaçan âlimlerle ilim merkezi oldu. İltutmış 1228'de Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı.",
+   "kaynak": "TDV: multan (MÜLTAN); TDV: sind (SİND)",
+   "alinti_f": "Nihayet 571’de (1175-76) Gurlular’dan Muizzüddin Muhammed b. Sâm bölgede kesin Sünnî hâkimiyetini tesis etti. Delhi Sultanlığı döneminin başlarında Mültan bölgesi, zamanla bağımsız bir idare kuran ve yirmi iki yıl hüküm süren Nâsırüddin Kabâce’nin idaresinde kaldı",
+   "alinti_t": "626 (1228) yılında Sultan İltutmış burayı eyalet merkezi yaptı.",
+   "ic_not_f": "TDV 'sind': 'onun yönetimi 1206’da bir İsmâilî fedaisi tarafından öldürülmesine kadar sürdü. Ardından Sind bir süre kumandanlarından Nâsırüddin Kabâce’nin idaresinde kaldıysa' — f = 1206, yıl hassasiyeti. 1206 + 22 = 1228 TDV'nin 'yirmi iki yıl'ıyla TUTARLI (türetilmiş sayı f/t'ye YAZILMADI, iki uç ayrı ayrı TDV'den).",
+   "kronoloji": [
+    {"t": "1206-01-01", "tur": "kurulus", "b": "Muizzüddin Muhammed'in öldürülmesinden sonra Sind ve Mültan Nâsırüddin Kabâce'nin idaresine geçti", "kaynak": "TDV: sind"},
+    {"t": "1228-01-01", "tur": "son", "b": "İltutmış Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı; Kabâce'nin bağımsız idaresi sona erdi", "kaynak": "TDV: multan"}
+   ]
+  },
+  {
+   "id": "toltek", "ad": "Toltek Devleti (Tollan/Tula)", "islem": "yeni", "tur": "devlet", "bolge": "orta-amerika",
+   "f": "0900-01-01", "t": "1150-01-01", "baskent": "Tollan (Tula, Hidalgo)",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "X-XII. yüzyıllarda orta Meksika'ya hâkim olan Nahuatl dilli halkın Tollan (Tula) merkezli devleti; Chichén Itzá'daki Maya-Toltek sentezinin kaynağı sayılır.",
+   "kaynak": "INAH, Boletín 123 (inah.gob.mx/boletines/el-inah-descubre-altar-y-ofrendas-a-las-afueras-de-la-zona-arqueologica-de-tula-en-hidalgo) + Britannica, «Toltec» (britannica.com/topic/Toltec)",
+   "alinti_f": "Los vestigios del monumento, que data de la fase Tollan (900-1150 d.C.), permitirán comprender mejor la traza urbana de la capital tolteca",
+   "alinti_t": "Toltec, Nahuatl-speaking tribe who held sway over what is now central Mexico from the 10th to the 12th century ce.",
+   "ic_not_f": "f/t = INAH'ın Tollan evresinin arkeolojik sınırları (900-1150). Bunlar faz sınırıdır, olay günü DEĞİL; Britannica aynı aralığı yüzyıl hassasiyetinde (10.-12. yy) doğruluyor.",
+   "ic_not_kronoloji": "⚠️ Açılan kaynaklarda yıllı üçüncü kırılma yok (Britannica makalesi kesik/ücretli). 2 madde — uydurulmadı.",
+   "kronoloji": [
+    {"t": "0900-01-01", "tur": "kurulus", "b": "Tollan (Tula) evresi başladı; Toltekler orta Meksika'nın hâkim gücü oldu", "kaynak": "INAH Boletín 123"},
+    {"t": "1150-01-01", "tur": "son", "b": "Tollan evresi sona erdi; Toltek başkenti gücünü yitirdi", "kaynak": "INAH Boletín 123"}
+   ]
+  },
+  {
+   "id": "ata-pueblo", "ad": "Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde", "islem": "yeni", "tur": "devlet", "bolge": "kuzey-amerika",
+   "f": "0850-01-01", "t": "1300-01-01", "baskent": "Chaco Kanyonu (Pueblo Bonito)",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Dört Köşe bölgesinde Chaco Kanyonu'nu 850-1250 arasında tören, ticaret ve siyaset merkezi yapan, 1150'den sonra Mesa Verde'de kaya evleri kuran halk sahası (merkezî devlet DEĞİL — `inuit` emsali); 1300'e kadar güneye, bugünkü Yeni Meksika ve Arizona'ya göçtü. Bugünkü Hopi, Zuni, Acoma ve Laguna Pueblolarının ataları.",
+   "kaynak": "UNESCO WHC, «Chaco Culture» (whc.unesco.org/en/list/353) + Britannica, «Chaco Culture National Historical Park» · «Mesa Verde National Park» · «Ancestral Pueblo culture»",
+   "alinti_f": "Chaco Canyon, a major centre of ancestral Pueblo culture between 850 and 1250, was a focus for ceremonials, trade and political activity for the prehistoric Four Corners area.",
+   "alinti_t": "By 1300, most of the people had left Mesa Verde, moving south into what is now New Mexico and Arizona.",
+   "ic_not_f": "HALK SAHASI: f = Chaco merkezinin başlangıcı, 'kuruluş' değil. Pueblo halkları bölgede 2000 yıldan uzun yaşadı (UNESCO).",
+   "ic_not_t": "t = Dört Köşe'nin terki ('By 1300'); göçenler Rio Grande ve Arizona Pueblolarına katıldı — ardıl künye `zuni` (f 1281, atlas ufku) zaten var. Terk sebebi 'possibly due to the Great Drought' (Britannica) — sebep kesin değil.",
+   "kronoloji": [
+    {"t": "0850-01-01", "tur": "kurulus", "b": "Chaco Kanyonu Dört Köşe bölgesinin tören, ticaret ve siyaset merkezi olmaya başladı", "kaynak": "UNESCO WHC «Chaco Culture»"},
+    {"t": "1300-01-01", "tur": "son", "b": "Mesa Verde ve Dört Köşe büyük ölçüde terk edildi; halk güneye, Rio Grande ve Arizona'ya göçtü", "kaynak": "Britannica «Mesa Verde National Park»"}
+   ]
+  },
+  {
+   "id": "rapa-nui", "ad": "Rapa Nui (Paskalya Adası) Soyları", "islem": "yeni", "tur": "devlet", "bolge": "okyanusya",
+   "f": "1200-01-01", "t": "1888-09-09", "baskent": "Anakena",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Doğu Polinezya'nın en uç adasına ~1200'de yerleşen, ahu ve moai anıtlarıyla bilinen soy gruplarının (mata) halk sahası; merkezî devlet kurmadı (`inuit` emsali). 9 Eylül 1888'de Şili adayı resmen topraklarına kattı.",
+   "kaynak": "Hunt & Lipo, «Late colonization of Easter Island», Science 311 (2006):1603-1606 (Europe PMC özeti) + Armada de Chile, «Policarpo Toro Hurtado» (armada.cl/nuestros-heroes/policarpo-toro-hurtado)",
+   "alinti_f": "Radiocarbon dates for the earliest stratigraphic layers at Anakena, Easter Island, and analysis of previous radiocarbon dates imply that the island was colonized late, about 1200 A.D.",
+   "alinti_t": "El 9 de septiembre de 1888 tomó posesión oficial de Isla de Pascua en nombre del Gobierno de Chile, marcando así la incorporación de la isla al territorio nacional.",
+   "ic_not_f": "'about 1200' — radyokarbon tahmini, YIL YAKLAŞIK.",
+   "ic_not_catisma": "🟡 KARAR GEREKLİ: yerleşim kaydı 'Rapa Nui (Paskalya Adası)' `kasitli_bosluk:true, bos:\"kabile\"` taşıyor ve gerekçesi 'merkezî tek bir devlet 1722 Avrupa temasına kadar hiç kurulmadı'. Bu künye onunla ÇELİŞMEZ (halk sahası beyanlı) ama kaydın `bos:` kararını değiştirip değiştirmemek koordinatörün. Koordinatörün listesi Rapa Nui'yi istedi.",
+   "kronoloji": [
+    {"t": "1200-01-01", "tur": "kurulus", "b": "Polinezyalılar Rapa Nui'ye yerleşti; Anakena'daki en eski katmanlar bu döneme tarihleniyor", "kaynak": "Hunt & Lipo 2006, Science"},
+    {"t": "1888-09-09", "tur": "son", "b": "Kaptan Policarpo Toro Şili adına Paskalya Adası'nı resmen teslim aldı; ada Şili topraklarına katıldı", "kaynak": "Armada de Chile «Policarpo Toro Hurtado»"}
+   ]
+  },
+  {
+   "id": "tahiti", "ad": "Tahiti ve Cemiyet Adaları Şeflikleri (→ Pomare Krallığı)", "islem": "yeni", "tur": "devlet", "bolge": "okyanusya",
+   "f": "1025-01-01", "t": "1842-09-09", "baskent": "Papeete (Pomare dönemi)",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Doğu Polinezya'nın ilk yerleşilen takımadası Cemiyet Adaları'nın şeflikleri; 1815'te II. Pomare rakip Tahiti hükümdarlarını yenip adayı tek krallıkta topladı. 9 Eylül 1842'de Fransız himayesine girdi.",
+   "kaynak": "Wilmshurst, Hunt, Lipo & Anderson, «High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia», PNAS 108 (2011):1815-1820 (Europe PMC özeti) + Britannica, «Tahiti» (britannica.com/place/Tahiti)",
+   "alinti_f": "the colonization of East Polynesia occurred in two distinct phases: earliest in the Society Islands A.D. ∼1025-1120, four centuries later than previously assumed",
+   "alinti_t": "After Queen Pomare IV deported two French Roman Catholic missionary priests in 1836, the French dispatched a warship in 1842 to demand reparations and to arrange a French protectorate.",
+   "ic_not_f": "f = Wilmshurst aralığının ALT UCU (~1025-1120). Yıl yaklaşık.",
+   "ic_not_t": "Britannica yalnız '1842' der. Gün komşudan: yerleşim 'Papeete' (`s:` f 1842-09-09) · kaynağı FranceArchives 'Demande de protectorat de la reine Pomaré (9 septembre 1842)' — FranceArchives sayfasını ben AÇAMADIM (JS ile yükleniyor, gövde 1 karakter). Aynı olay, aynı yer, zincirleme devralma yok. 📌 Bu künye Papeete kaydının 'kasitli_bosluk: 1842 öncesi Tahiti (Pomare krallığı) için atlasta künye YOK' notunu KAPATIR.",
+   "kronoloji": [
+    {"t": "1025-01-01", "tur": "kurulus", "b": "Polinezyalılar Cemiyet Adaları'na yerleşti; Doğu Polinezya'nın ilk iskân evresi", "kaynak": "Wilmshurst vd. 2011, PNAS"},
+    {"t": "1842-09-09", "tur": "son", "b": "Kraliçe IV. Pomare Fransız himayesini kabul etti; Tahiti Fransız protektoratı oldu", "kaynak": "Britannica «Tahiti» (yıl) · gün komşu kayıttan (Papeete · FranceArchives)"}
+   ]
+  },
+  {
+   "id": "hawaii-seflikleri", "ad": "Hawaii Şeflikleri (Birleşme Öncesi)", "islem": "yeni", "tur": "devlet", "bolge": "okyanusya",
+   "f": "1190-01-01", "t": "1795-01-01", "baskent": "—",
+   "harita": null, "boya_gerekli": true,
+   "ozet": "Hawaii adalarında I. Kamehameha'nın birleştirmesinden önceki rakip ali'i (şef) yönetimleri; toprak hakları üzerine süregelen çatışmalarla bilinir. Ardılı `hawaii-kralligi` (1795).",
+   "kaynak": "🟡 ÇELİŞKİLİ: Wilmshurst vd. 2011, PNAS (Europe PMC özeti) ↔ Britannica, «Hawaii: History» (britannica.com/place/Hawaii-state/History)",
+   "alinti_f": "then after 70-265 y, dispersal continued in one major pulse to all remaining islands A.D. ∼1190-1290.",
+   "alinti_f_karsi": "The first inhabitants of Hawaii may have reached the islands as early as 300 ce from the Marquesas Islands. Contact with and settlement by Tahitians began in the 9th century ce.",
+   "ic_not_f": "🔴 KARAR GEREKLİ — iki akademik kaynak ÇELİŞİYOR: Britannica ilk yerleşimi 300'e, Tahiti temasını IX. yüzyıla koyar; Wilmshurst 2011 (1.434 radyokarbon tarihinin meta-analizi) Hawaii'yi 'kalan adalar' arasında ~1190-1290'a koyar. ⚠️ Wilmshurst'un cümlesi BÖLGESELDİR ('all remaining islands'), Hawaii'yi adıyla anmaz — bölgeden adaya taşıma riski BEYAN EDİLDİ. f=1190 geçici öneri. Koordinatör ya bu künyeyi bu turda almaz ya da f'yi seçer.",
+   "ic_not_t": "t = `hawaii-kralligi` künyesinin f'si (1795-01-01) ile HİZALAMA; gün bağımsız doğrulanmadı (tui-tonga emsali).",
+   "kronoloji": [
+    {"t": "1795-01-01", "tur": "son", "b": "Rakip şeflikler I. Kamehameha'nın birleştirmesiyle Hawaii Krallığı'na katıldı", "kaynak": "hizalama: hawaii-kralligi f — gün doğrulanmadı"}
+   ]
+  },
+
+  {
+   "id": "seylan-sinhala", "islem": "genislet", "f_eski": "1281-01-01", "f": "1070-01-01",
+   "kaynak_ek": "Britannica, «Sri Lanka: Conversion to Buddhism» · «The fall of Polonnaruwa» (britannica.com/place/Sri-Lanka/...)",
+   "alinti_f": "The Colas occupied Sri Lanka until 1070, when Vijayabahu liberated the island and reestablished Sinhalese power. He shifted the capital eastward to Polonnaruwa",
+   "ic_not_f": "Sınıf ②: aynı Sinhala krallık geleneği (Polonnaruva → Dambadeniya → Yapahuva → Kurunegala → Gampola → Kotte). 1017-1070 Çola işgali künyenin DIŞINDA kalır (cola). 1214-1255 Magha dönemi künye İÇİNDEDİR — Kalinga kökenli Magha Polonnaruva tahtındaydı; ayrı künye önerilmedi.",
+   "ozet_onerisi": "Çola işgalini 1070'te sona erdiren I. Vijayabahu'dan Portekiz'in gelişine kadar birbirini izleyen Sinhala krallıkları (Polonnaruva, Dambadeniya, Gampola, Kotte) — kolektif kimlik. ⚠️ '1281 pencere başlangıcıdır' notu KALDIRILMALI."
+  },
+  {
+   "id": "kesmir", "islem": "genislet", "f_eski": "1281-01-01", "f": "1000-01-01",
+   "kaynak_ek": "TDV: kesmir (KEŞMİR)",
+   "alinti_f": "Bunun ardından Keşmir sırasıyla Utpala ve Lahora hânedanları tarafından yönetildi. Gazneli Mahmud 1015 ve 1021’de iki defa burayı zaptetme girişiminde bulunduysa da -Büyük İskender gibi- bölgenin zor tabiat şartlarını aşamadı ve geri dönmek zorunda kaldı.",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Sınıf ③ SORUSU AÇIK: Lahora (Hindu) → Şah Mîr (1338/1339) ardıl yapıdır; mevcut künye 1281-1339 Hindu dönemini ZATEN kapsıyor (ozet: 'Lohara krallığının yerini alan'). Ayrı `lohara` künyesi 1000-1339'u tutup `kesmir`in 1281-1339'uyla ÇAKIŞIRDI; genişletme mevcut kararın tutarlı devamıdır.",
+   "ozet_onerisi": "Utpala ve Lahora hânedanlarının Hindu krallığından (Gazneli Mahmud'un 1015 ve 1021 seferlerini püskürttü) Şah Mîr'in 1338'de kurduğu sultanlığa geçen Himalaya vadisi devleti; Ekber'in seferiyle Bâbürlü eyaleti oldu. Ad önerisi: 'Keşmir (Lahora → Şah Mîr Sultanlığı)'."
+  },
+  {
+   "id": "orissa", "islem": "genislet", "f_eski": "1281-01-01", "f": "1000-01-01",
+   "kaynak_ek": "Britannica, «Ganga dynasty» (britannica.com/topic/Ganga-dynasty)",
+   "alinti_f": "The Eastern Gangas ruled Kalinga starting about 498 ce and then going on to establish an almost 400-year rule over the region known as Trikalinga from 1038 to 1434–35.",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Sınıf ②: künye 'Doğu Ganga ve Gacapati' — Doğu Gangalar Kalinga'da ~498'den beri hüküm sürüyor."
+  },
+  {
+   "id": "racput", "islem": "genislet", "f_eski": "1281-01-01", "f": "1000-01-01",
+   "kaynak_ek": "Britannica, «India: Southern India» (britannica.com/place/India/Southern-India)",
+   "alinti_f": "By the end of the 10th century the Pratihara feudatories—Chauhans (Chahamanas), Chandelas, Guhilas, Kalachuris, Paramaras, and Chaulukyas (also called Solankis)—were asserting their independence",
+   "ic_not_f": "🔴 f = KUŞAK UCU. ⚠️ Çakışma BEYANI: 1000-1281 arasında Çavhan, Paramâra, Çaulukya, Çandela bu dosyada AYRI künye olarak öneriliyor; `racput` o dönemde yalnız bunların dışındaki kolları (Guhila/Mevar vb.) temsil eder. İstenmezse `racput` genişletilmez, yalnız dört ayrı künye alınır — koordinatör seçer."
+  },
+  {
+   "id": "nepal", "islem": "genislet", "f_eski": "1281-01-01", "f": "1000-01-01",
+   "kaynak_ek": "Britannica, «Nepal: History» (britannica.com/place/Nepal/History)",
+   "alinti_f": "The middle period in Nepalese history is usually considered coterminous with the rule of the Malla dynasty (10th–18th century) in Nepal Valley and surrounding areas.",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Sınıf ②: künye 'Malla Krallıkları → Gorkha' — Malla dönemi X. yüzyıldan başlar."
+  },
+  {
+   "id": "maya-sehir-devletleri", "islem": "genislet", "f_eski": "1200-01-01", "f": "1000-01-01",
+   "kaynak_ek": "Britannica, «Mayapán» (britannica.com/place/Mayapan) + «Chichén Itzá» (britannica.com/place/Chichen-Itza)",
+   "alinti_f": "It became one of the most important cities of that region in the early Postclassic period (c. ad 900–1519).",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Sınıf ②: Post-Klasik Maya şehir devletleri ~900'den başlar; Chichén Itzá X. yüzyılda Toltek etkili yabancılarca ele geçirildi (Britannica). ⚠️ ÇELİŞKİ (dokunulmadı, bildirildi): künye-içi 1441 Mayapán terki ↔ Britannica 'The despotic Cocom rulers of Mayapán were finally overthrown about 1450, when the city was abandoned.'"
+  },
+  {
+   "id": "norse-gronland", "islem": "genislet", "f_eski": "1281-01-01", "f": "0985-01-01",
+   "kaynak_ek": "Britannica, «Erik the Red» (britannica.com/biography/Erik-the-Red) + Kuitems vd., «Evidence for European presence in the Americas in AD 1021», Nature 601 (2022):388-391 (Europe PMC özeti, doi 10.1038/s41586-021-03972-8)",
+   "alinti_f": "Erik the Red (flourished 10th century, Norway?) was the founder of the first European settlement on Greenland (c. 985) and the father of Leif Erikson",
+   "ic_not_f": "Künyenin kendi ozeti '~985'te kuruldu' diyor; f artık onu karşılıyor. Britannica ikinci cümlede 'Erik returned to Iceland in 985 or 986' — yıl ±1. ozet'teki '🔴 f:1281-01-01 ATLAS PENCERESİNİN BAŞIDIR' notu KALDIRILMALI."
+  },
+  {
+   "id": "inuit", "islem": "genislet", "f_eski": "1281-01-01", "f": "1000-01-01",
+   "kaynak_ek": "Britannica, «Thule culture» (britannica.com/topic/Thule-culture)",
+   "alinti_f": "Starting about 900 ce, it spread eastward rapidly and reached Greenland (Kalaallit Nunaat) by the 12th century.",
+   "ic_not_f": "🔴 f = KUŞAK UCU (Thule ~900'den beri var). ⚠️ Künye-içi '1281-01-01 kurulus — Thule geleneğinden gelen İnuit toplulukları Arktik boyunca yerleşik' maddesi artık KURULUŞ DEĞİL, ufuk artefaktı; silinmesi ya da tur'unun 'olay'a çevrilmesi önerilir (koordinatör). Grönland'a varış 'by the 12th century' — YIL YOK, madde yazılmadı."
+  },
+  {
+   "id": "tui-tonga-imparatorlugu", "islem": "genislet", "f_eski": "1220-01-01", "f": "1000-01-01",
+   "kaynak_ek": "Britannica, «Tonga: History» (britannica.com/place/Tonga/History)",
+   "alinti_f": "From at least the 10th century ce Tonga was ruled by a line of sacred kings and queens, the Tu‘i Tonga.",
+   "ic_not_f": "🔴 f = KUŞAK UCU. Sınıf ②: aynı hanedan çizgisi; 1220 Muʻa'nın başkent oluşudur, kuruluş değil. Künye-içi 1220 maddesinin tur'u 'kurulus' → 'olay' önerilir."
+  },
+
+  {"id": "delhi-sultanligi", "islem": "dokunmadim", "not": "f 1206 TDV ve Britannica ile tutarlı; Hint yakası etlendirme kronoloji dosyasında."},
+  {"id": "hoysala", "islem": "dokunmadim", "not": "f 1026 bu turda sınanmadı; etlendirme (1173 · 1189 · 1216) dosyada."},
+  {"id": "kakatiya", "islem": "dokunmadim", "not": "1189 Çalukya mirası maddesine taraf."},
+  {"id": "yadava", "islem": "dokunmadim", "not": "1189 ve Simhana maddelerine taraf."},
+  {"id": "pandya", "islem": "dokunmadim", "not": "1257 Çola fethi maddesine taraf."},
+  {"id": "kocin", "islem": "dokunmadim", "not": "f 1102 bu turda sınanmadı."},
+  {"id": "cahokia", "islem": "dokunmadim", "not": "⚠️ ÇELİŞKİ bildirildi: künye f 1050 (EBSCO: kentleşme ~1050) ↔ Britannica 'Cahokia Mounds': 'flourishing from about 950 to 1350 CE' / 'occupied from 700 to 1350 CE'. Kentleşme ile iskân farklı şeyler olabilir; karar koordinatörde."},
+  {"id": "chimu-krallik", "islem": "dokunmadim", "not": "🔴 ÇELİŞKİ — genişletme YAPILMADI: Britannica 'Chimú': 'Their state apparently began to take shape in the first half of the 14th century ad' ↔ Britannica 'Chan Chan': 'the capital of the Chimú kingdom (c. 1100–1470 ce)'. İki Britannica sayfası çelişiyor; künyenin mevcut f 1281'i ilkine göre ZATEN erken olabilir (sınıf ① sorusu). Ayrıca bitiş: 'In 1465–70 ... conquered by the Inca'."},
+  {"id": "yafna", "islem": "dokunmadim", "not": "🔴 ÇELİŞKİ bildirildi: künye-içi '1215 Kalinga Magha'nın istilasıyla ... Yafna Krallığı kuruldu' ↔ Britannica 'The fall of Polonnaruwa': 'In 1214 Magha of the Kalingas invaded Sri Lanka' ve Arya Çakravarti Tamil krallığı 'By the beginning of the 14th century' kuruldu. Magha Polonnaruva'da hüküm sürdü (1214/1215-1255); Yafna'nın kuruluşu XIV. yüzyıl başına düşebilir — künye f 1281 ZATEN erken olabilir. Sınıflandırma koordinatörde."},
+  {"id": "sind", "islem": "dokunmadim", "not": "🔴 TDV 'sind' maddesinde 'Sûmra' HİÇ GEÇMİYOR (0 eşleşme, gövde 13.801); TDV sırası: Hebbârîler → Gazneli 1010 → Gurlu 1175 → Kabâce → Hârizmşah 1221-1223 → Semmâ 1351. `sumreler` slug'ı 302. Künye adındaki 'Sûmra' TDV'de dayanaksız; 1281 öncesine genişletmek Gazneli/Gurlu/Kabâce/Delhi ile çakışırdı."},
+  {"id": "ahom", "islem": "dokunmadim", "not": "Britannica 'Ahom': 'tribe that ruled much of Assam from the 13th century' — 1228 yılı açılan kaynakta YOK. Yıl yazılmadı."},
+  {"id": "ladak", "islem": "dokunmadim", "not": "Künyenin kendi atfı Petech, 'The Kingdom of Ladakh, c. 950-1842 A.D.' — kitabı açamadım; başlıktan f çekilmedi."},
+  {"id": "tututepec-krallik", "islem": "dokunmadim", "not": "Künye atfı '11.yy'da Sekiz Geyik Jaguar Pençesi' — yıl yok, açılan kaynakta yıllı cümle bulunamadı."},
+  {"id": "moundville", "islem": "dokunmadim", "not": "Britannica slug 404; yıllı kaynak açılamadı."},
+  {"id": "etowah", "islem": "dokunmadim", "not": "Yıllı kaynak açılamadı."},
+  {"id": "spiro", "islem": "dokunmadim", "not": "Yıllı kaynak açılamadı."},
+  {"id": "dene", "islem": "dokunmadim", "not": "Britannica 'Athabaskan-languages' 404; 1281 öncesi yıllı kırılma bulunamadı. Halk sahası — kuruluş günü uydurulmadı."},
+  {"id": "kri", "islem": "dokunmadim", "not": "Britannica 'Cree' sayfasında 1281 öncesi yıllı cümle 0."},
+  {"id": "sosoni", "islem": "dokunmadim", "not": "Britannica 'Shoshone-people' ve 'Numic-languages' sayfalarında 1281 öncesi yıllı cümle 0. Numik yayılma hipotezi açılan kaynakta yok."},
+  {"id": "zapotek-krallik", "islem": "dokunmadim", "not": "Britannica 'Zapotec' yalnız etnografik; yıllı cümle 0."},
+  {"id": "nahua-sehir-devletleri", "islem": "dokunmadim", "not": "1281 öncesi yıllı dayanak bulunamadı; Toltek ayrı künye olarak önerildi."}
+ ],
+ "bulunamadi": [
+  {"aday": "Tiwanaku", "sonuc": "kuşakta yaşadığı KANITLANAMADI — UNESCO: 'reached its apogee between 500 and 900 AD'; çöküş yılı açılan kaynaklarda yok (Britannica makalesi kesik)."},
+  {"aday": "Wari (Huari)", "sonuc": "kuşak DIŞI sayıldı — Britannica: 'Middle Horizon (c. ad 600–1000)'."},
+  {"aday": "Māori (Aotearoa)", "sonuc": "kuşak DIŞI — Britannica: 'archaeological discoveries, which have dated Māori arrival in New Zealand to about 1300 ce'. Aynı sayfanın özet kutusu 'early 13th century' diyor; ana metin esas alındı."},
+  {"aday": "Kalaçuri (Tripuri)", "sonuc": "Britannica 11. yy'da güç olduğunu söylüyor (Gangeyadeva, Lakşmikarna) ama bitiş yılı yok; slug'lar 404. Künye önerilmedi."},
+  {"aday": "Hindu Şahîler (Pencap/Caypal)", "sonuc": "Britannica 'Chandela': 'The Chandela king Gandadeva assisted Jaipal, the ruler of the Punjab, at Lahore ... the great defeat of 1001 near Peshawar' — künye f/t için kaynak açılamadı."},
+  {"aday": "İnka öncesi Cusco (Killke)", "sonuc": "Britannica 'Inca' sayfasında yıllı Cusco cümlesi 0."},
+  {"aday": "Sicán (Lambayeque)", "sonuc": "Britannica slug 404; kaynak açılamadı."},
+  {"aday": "Mikstek beylikleri (Tilantongo)", "sonuc": "Britannica 'Mixtec' yalnız etnografik."},
+  {"aday": "Tomara (Delhi)", "sonuc": "yalnız 'in the 12th century they captured Dhillika (Delhi) from the Tomaras' — yıl yok."},
+  {"aday": "Samoa · Markiz · diğer Polinezya şeflikleri", "sonuc": "bu turda aranmadı."},
+  {"aday": "Kadamba (Goa) · Kamarupa · Hohokam · Mogollon", "sonuc": "bu turda aranmadı."}
+ ]
+}

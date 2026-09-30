@@ -1,0 +1,292 @@
+{
+ "oturum": "KUNYE-1945-0930",
+ "kaynak_dosya": "denetim/ONCE1281-ANADOLU-KUNYE.json (22:06 sürümü, C bölümü)",
+ "not": "antakya-prinkepsligi DIŞARIDA: aynı devlet 'antakya-prinkipsligi' id'siyle devletler.js'te VAR (1098-06-03→1268-05-18) — mükerrer açılmaz, taraf kimliği düzeltilir.",
+ "kayitlar": [
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "ani-bagratli-kralligi",
+   "ad": "Ani Bagratlı Ermeni Krallığı",
+   "tur": "krallik",
+   "bolge": "kafkasya",
+   "f": "884-01-01",
+   "t": "1045-01-01",
+   "baskent": "Ani (962'den; önce Bagaran, Kars)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "I. Aşot'un 884'te krallığa dönüştürdüğü Bagratlı Ermenistanı; III. Aşot merkezi Ani'ye taşıdı, son kral II. Gagik 1045'te İstanbul'da tahttan feragate zorlanınca Bizans'a katıldı.",
+   "kaynak": "Encyclopaedia Iranica, C. Toumanoff, 'BAGRATIDS' — https://www.iranicaonline.org/articles/bagratids-dynasty/ ; TDV: kars (KARS) Ani'ye taşınma. TDV'de 'ani' maddesi yok (slug 302; ani--sehir, ani-sehri, ani--kars, ani--kale 302; arama isabetsiz).",
+   "alinti": "in 1045, the last king of Armenia, Gagik II, was inveigled into Constantinople",
+   "ic_not_f": "Iranica BAGRATIDS (tarayıcıda birebir): 'the Bagratids monopolized the office of presiding prince and then, in 884, converted it into kingship' — yıl; gün yok.",
+   "ic_not_t": "Iranica yıl verir (1045); gün yok. Alıntı tarayıcıda birebir doğrulandı.",
+   "kronoloji": [
+    {
+     "t": "884-01-01",
+     "tur": "kurulus",
+     "b": "Bagratlı Aşot prensliği krallığa dönüştürdü",
+     "kaynak": "Iranica, Toumanoff, BAGRATIDS"
+    },
+    {
+     "t": "962-01-01",
+     "tur": "hukumdar",
+     "b": "III. Aşot krallığın merkezini Ani'ye taşıdı, Vanand'ı (Kars) kardeşi Muşeg'e verdi",
+     "kaynak": "TDV: kars (Iranica arama özeti 961 der — TDV esas)"
+    },
+    {
+     "t": "1045-01-01",
+     "tur": "son",
+     "b": "Son kral II. Gagik İstanbul'a çağrılıp tahttan feragate zorlandı, Ani Bizans'a geçti",
+     "kaynak": "Iranica, Toumanoff, BAGRATIDS"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  },
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "kars-vanand-kralligi",
+   "ad": "Kars (Vanand) Ermeni Krallığı",
+   "tur": "krallik",
+   "bolge": "kafkasya",
+   "f": "962-01-01",
+   "t": "1064-01-01",
+   "baskent": "Kars",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Bagratlı III. Aşot'un kardeşi Muşeg'e verdiği Vanand (Kars) Bagratlı kolu; son hükümdar Gagik 1064'te Alparslan'a itaat etti, ardından ülkesini Zamantı çevresi karşılığında Bizans'a devretti.",
+   "kaynak": "TDV: kars (KARS); Encyclopaedia Iranica, Toumanoff, 'BAGRATIDS' ('the kings of Kars (962-1064)')",
+   "alinti": "III. Aşot, 962’de beyliğinin merkezini Ani’ye taşıdıktan sonra kardeşi Muşeg’e merkezi Kars olmak üzere Vanand bölgesini verdi",
+   "ic_not_f": "TDV yıl verir (962); Iranica 962 ile uyuşur. Gün yok.",
+   "ic_not_t": "TDV: 456/1064'te Gagik Alparslan'a itaat, Kars 'askerî harekât olmadan Selçuklu topraklarına katıldı'; Bizans'a devir yılı TDV'de yok. Iranica BAGRATIDS (tarayıcıda birebir): 'the kings of Kars (962-1064)' ve 'In 1064, the king of Kars ceded his state to the emperor.'",
+   "kronoloji": [
+    {
+     "t": "962-01-01",
+     "tur": "kurulus",
+     "b": "III. Aşot Vanand bölgesini merkezi Kars olmak üzere kardeşi Muşeg'e verdi",
+     "kaynak": "TDV: kars"
+    },
+    {
+     "t": "1064-01-01",
+     "tur": "tabi",
+     "b": "Vanand Prensi Gagik, Ani'ye yürüyen Alparslan'a itaatini bildirdi",
+     "kaynak": "TDV: kars"
+    },
+    {
+     "t": "1064-01-01",
+     "tur": "son",
+     "b": "Gagik, Zamantı çevresindeki kasabalar karşılığında ülkesini Bizans'a devretti",
+     "kaynak": "TDV: kars (yıl Iranica BAGRATIDS)"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  },
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "lori-kralligi",
+   "ad": "Taşir-Dzoraget (Lori) Ermeni Krallığı",
+   "tur": "krallik",
+   "bolge": "kafkasya",
+   "f": "982-01-01",
+   "t": "1101-01-01",
+   "baskent": "Lori",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Bagratlıların Taşir'de Lori merkezli kolu (Kiurikyanlar); 982'de krallık, XII. yüzyıl başında sona erdi.",
+   "kaynak": "Encyclopaedia Iranica, C. Toumanoff, 'BAGRATIDS' — https://www.iranicaonline.org/articles/bagratids-dynasty/",
+   "alinti": "the kings of Lorī (982, surviving until ca. 1101)",
+   "ic_not_f": "Iranica yıl verir (982); gün yok. TDV'de madde yok (Lori yalnız Osmanlı sancağı olarak geçiyor).",
+   "ic_not_t": "🟡 Iranica BAGRATIDS (tarayıcıda birebir): 'the kings of Lorī (982, surviving until ca. 1101)' — YAKLAŞIK yıl. Aynı madde 'The Armenian Bagratids (of the house of Lorī) disappear from history in the thirteenth century' der (hânedan, krallık değil). Brifingdeki 1118 hiçbir açılmış kaynakta yok. Koordinatör 'ca.' ucunu kabul etmezse kayıt bulunamadi'ya taşınmalı.",
+   "kronoloji": [
+    {
+     "t": "982-01-01",
+     "tur": "kurulus",
+     "b": "Taşir'de Lori merkezli Bagratlı krallığı kuruldu",
+     "kaynak": "Iranica, Toumanoff, BAGRATIDS"
+    },
+    {
+     "t": "1101-01-01",
+     "tur": "son",
+     "b": "Lori krallığı XII. yüzyıl başında sona erdi (yaklaşık yıl)",
+     "kaynak": "Iranica, Toumanoff, BAGRATIDS ('ca. 1101')"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  },
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "seddadiler-gence",
+   "ad": "Şeddâdîler (Gence/Arrân kolu)",
+   "tur": "emirlik",
+   "bolge": "kafkasya",
+   "f": "951-01-01",
+   "t": "1075-01-01",
+   "baskent": "Dvin, 971'den Gence",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Muhammed b. Şeddâd'ın 951'de Dvin'de kurduğu, 971'de Gence'yi alarak Arrân'a yayılan Kürt asıllı hânedan; 1054'te Tuğrul Bey'e tâbi oldu, Melikşah'ın emîri Savtegin'in Arrân'ı zaptıyla sona erdi.",
+   "kaynak": "TDV: seddadiler (ŞEDDÂDÎLER, G. Öğün Bezer); Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS' — https://www.iranicaonline.org/articles/shaddadids/",
+   "alinti": "Muhammed b. Şeddâd bu durumdan yararlanarak Dvin’i ele geçirdi ve Şeddâdîler hânedanını kurdu (951)",
+   "ic_not_f": "TDV yıl verir (951). Iranica SHADDADIDS (tarayıcıda birebir): 'to establish himself in Dvin in Armenia ... in about 951'. Gün yok. Iranica'ya göre Gence 969 ya da 970'te alındı (TDV 360/971) — kronolojide TDV.",
+   "ic_not_t": "TDV '468/1075-76'; Iranica SHADDADIDS (tarayıcıda birebir): 'Sav Tegin, who seized the region by force from Fażlun in 1075, ending the dynasty’s reign.' Milâdî yıl Iranica'dan. Gün yok.",
+   "kronoloji": [
+    {
+     "t": "951-01-01",
+     "tur": "kurulus",
+     "b": "Muhammed b. Şeddâd Dvin'i ele geçirip hânedanı kurdu",
+     "kaynak": "TDV: seddadiler"
+    },
+    {
+     "t": "971-01-01",
+     "tur": "toprak-kazanc",
+     "b": "Fazl ile Ali el-Leşkerî Gence'yi ele geçirdi",
+     "kaynak": "TDV: seddadiler (360/971)"
+    },
+    {
+     "t": "1054-01-01",
+     "tur": "tabi",
+     "b": "Tuğrul Bey Gence önlerine gelince Ebü'l-Esvâr Selçuklulara itaat arzetti",
+     "kaynak": "TDV: seddadiler"
+    },
+    {
+     "t": "1075-01-01",
+     "tur": "son",
+     "b": "Melikşah'ın emîri Savtegin Arrân'ı zaptetti; Gence kolu sona erdi",
+     "kaynak": "TDV: seddadiler (468/1075-76); Iranica SHADDADIDS (1075)"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  },
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "seddadiler-ani",
+   "ad": "Şeddâdîler (Ani kolu)",
+   "tur": "emirlik",
+   "bolge": "kafkasya",
+   "f": "1064-01-01",
+   "t": "1175-01-01",
+   "baskent": "Ani",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Alparslan'ın 1064'te fethettiği Ani'nin idaresini Ebü'l-Esvâr'ın oğlu Menûçihr'e vermesiyle doğan Selçuklu vasalı emirlik; Gürcüler şehri üç kez aldı (1124, 1161, 1175), üçüncüsünde kol sona erdi.",
+   "kaynak": "TDV: seddadiler (ŞEDDÂDÎLER); Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS'",
+   "alinti": "Gürcü Kralı Giorgi 1175’te Ani’yi üçüncü defa zaptedip Şehinşah’ı Tiflis’e götürdü. Böylece Şeddâdîler’in Ani kolu da sona ermiş oldu",
+   "ic_not_f": "TDV: '456'da (1064) Ani'yi fetheden Sultan Alparslan şehrin idaresini ... Menûçihr'e verdi'; Iranica SHADDADIDS (tarayıcıda birebir): 'the Taʾriḵ Bāb al-abwāb dates the establishment of Shaddadid rule in Ani to 1064'. Gün yok.",
+   "ic_not_t": "TDV yıl verir (1175). ⚠️ Iranica (tarayıcıda birebir) farklı yıllar verir: Gürcü teslimi 1124 (TDV 1123), geri alış 1126, İldeniz'in geri alışı 1164 (TDV 1163), Şâhanşâh'ın kaybı 1174 (TDV 1175); son anılış 595/1198-9 kitâbesi, 'by 1200' şehir Mkhargrzdeli'lere. TDV esas → 1175.",
+   "kronoloji": [
+    {
+     "t": "1064-01-01",
+     "tur": "kurulus",
+     "b": "Ani'yi fetheden Alparslan şehrin idaresini Şeddâdî Menûçihr'e verdi",
+     "kaynak": "TDV: seddadiler"
+    },
+    {
+     "t": "1123-01-01",
+     "tur": "toprak-kayip",
+     "b": "Hıristiyan ahali Ani'yi Gürcü Kralı David'e teslim etti; II. Şâvur tutuklanıp Gürcistan'a gönderildi",
+     "kaynak": "TDV: seddadiler (1123; TDV gurcistan Didgori sonrası 1121-1122 der — çelişki notlarda)"
+    },
+    {
+     "t": "1161-01-01",
+     "tur": "toprak-kayip",
+     "b": "Din adamları ayaklanıp Ani'yi Gürcü kralına teslim etti; V. Fazl'ın emirliği sona erdi",
+     "kaynak": "TDV: seddadiler"
+    },
+    {
+     "t": "1163-01-01",
+     "tur": "toprak-kazanc",
+     "b": "Arslanşah ve İldeniz'in ordusu Giorgi'yi yendi; Ani iade edildi, Şehinşah vali oldu",
+     "kaynak": "TDV: seddadiler (558/1163)"
+    },
+    {
+     "t": "1175-01-01",
+     "tur": "son",
+     "b": "Gürcü Kralı Giorgi Ani'yi üçüncü kez zaptedip Şehinşah'ı Tiflis'e götürdü; Ani kolu sona erdi",
+     "kaynak": "TDV: seddadiler"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  },
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "derbent-hasimi-emirligi",
+   "ad": "Derbend (Bâbülebvâb) Hâşimî Emirliği",
+   "tur": "emirlik",
+   "bolge": "kafkasya",
+   "f": "869-01-01",
+   "t": "1065-01-01",
+   "baskent": "Derbend (Bâbülebvâb)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Abbâsî zaafında Hâşim b. Sürâka'nın Derbend'de kurduğu Arap asıllı emirlik; son emîr Mansûr b. Abdülmelik'in 1065'te öldürülmesinden sonra ülke Şirvanşahlar'ın, ardından en azından adıyla Selçukluların eline geçti.",
+   "kaynak": "TDV: derbend--dagistan (DERBEND); Encyclopaedia Iranica, C. Cahen, 'ĀL-E HĀŠEM' — https://www.iranicaonline.org/articles/al-e-hasem-3rd-5th-9th-11th-century-local-dynasty-of-the-region-of-darband-bab-al-abwab/",
+   "alinti": "Derbend, Arap asıllı Hâşimî hânedanının kurduğu emirliğin merkezi oldu (869)",
+   "ic_not_f": "TDV yıl verir (869); Iranica ĀL-E HĀŠEM (tarayıcıda birebir) 'proclaimed his independence at Bāb-al-abwāb (ca. 255/869)'. Gün yok. TDV 'derbend'/'derbent' slug'ları 302; madde `derbend--dagistan` slug'ında.",
+   "ic_not_t": "TDV bitişi VERMİYOR. Iranica ĀL-E HĀŠEM (tarayıcıda birebir): 'Manṣūr b. ʿAbd-al-Malek (revolts; killed 457/1065). The country was soon occupied by the Šervānšāhs, then, at least nominally, by the Saljuqs.' Milâdî yıl Iranica'dan; devir 'soon' — kesin yıl yok.",
+   "kronoloji": [
+    {
+     "t": "869-01-01",
+     "tur": "kurulus",
+     "b": "Hâşim b. Sürâka Derbend'de bağımsızlığını ilân etti",
+     "kaynak": "TDV: derbend--dagistan; Iranica ĀL-E HĀŠEM"
+    },
+    {
+     "t": "1065-01-01",
+     "tur": "son",
+     "b": "Son Hâşimî emîri Mansûr b. Abdülmelik öldürüldü; ülke kısa sürede Şirvanşahlar'ın eline geçti",
+     "kaynak": "Iranica, Cahen, ĀL-E HĀŠEM"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  },
+  {
+   "grup": "C",
+   "islem": "yeni",
+   "id": "filaretos-devleti",
+   "ad": "Filaretos Brakamios Devleti",
+   "tur": "devlet",
+   "bolge": "anadolu",
+   "f": "1077-01-01",
+   "t": "1085-01-12",
+   "baskent": "bulunamadı (kaynak merkez vermiyor)",
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Bizans'a tâbi Ermeni kumandan Philaretos Brachamios'un Maraş'tan Malatya'ya, Urfa ve Antakya'ya uzanan kısa ömürlü müstakil hâkimiyeti; Antakya'nın Kutalmışoğlu Süleyman Şah'a düşmesiyle çözüldü.",
+   "kaynak": "TDV: sanliurfa (ŞANLIURFA); TDV: antakya (ANTAKYA); TDV: malatya (MALATYA); TDV: misis (MİSİS)",
+   "alinti": "Philaretos Brachamios adlı bir Ermeni hâkimiyet sahasını Maraş’tan Malatya’ya kadar genişleterek bağımsızlığını ilân etti",
+   "ic_not_f": "🟡 TDV `sanliurfa`: '1077'de Urfa civarında bir Bizans ordusunu mağlûp etti. Bu sırada ... bağımsızlığını ilân etti' — rakam Selçuklu zaferini tarihliyor, bağımsızlık 'bu sırada' ile ona bağlanıyor ⇒ YIL ÇIKARIMLI. TDV `malatya` 1074'te Malatya'yı 'Bizans'ın temsilcisi süsü vererek' aldığını söyler (yani 1074'te fiilen hâkim, adıyla Bizans). Brifingteki 1071 hiçbir açılmış kaynakta yok.",
+   "ic_not_t": "TDV `antakya` gün verir: şehir 12 Aralık 1084'te Süleyman Şah'a geçti, 'bir müddet direnen kale ise 12 Ocak 1085'te düştü'. t kalenin düşüşü. Urfa'nın 1087 Mart'ta Bozan'a geçişi (TDV sanliurfa) Filaretos'a mı ait, TDV söylemiyor — bulunamadı.",
+   "kronoloji": [
+    {
+     "t": "1074-01-01",
+     "tur": "toprak-kazanc",
+     "b": "Philaretos Bizans'ın temsilcisi süsüyle Malatya'yı zaptetti",
+     "kaynak": "TDV: malatya"
+    },
+    {
+     "t": "1077-01-01",
+     "tur": "kurulus",
+     "b": "Hâkimiyetini Maraş'tan Malatya'ya genişletip bağımsızlığını ilân etti (yıl çıkarımlı)",
+     "kaynak": "TDV: sanliurfa"
+    },
+    {
+     "t": "1084-12-12",
+     "tur": "toprak-kayip",
+     "b": "Kutalmışoğlu Süleyman Şah Antakya şehrini ele geçirdi",
+     "kaynak": "TDV: antakya"
+    },
+    {
+     "t": "1085-01-12",
+     "tur": "son",
+     "b": "Antakya kalesi de Süleyman Şah'a düştü",
+     "kaynak": "TDV: antakya"
+    }
+   ],
+   "alinti_dogrulama": "birebir"
+  }
+ ]
+}

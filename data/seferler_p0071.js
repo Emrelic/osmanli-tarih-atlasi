@@ -38,7 +38,15 @@ window.SEFERLER_P0071 = [
   // 🔴 `rota` — SEFER-OK-0075/H-0033: Boğaz'ın dar kesiminde (~1,3 km) `yol`ün ara
   // noktaları karaya değiyordu; ne_10m_land'e karşı 0.01°'lik ızgarayla yeniden
   // yönlendirildi (denetim/ARAC-SEFER-OK-DENIZ-ROTA-0075.py, 3 aşamalı çözünürlük).
-  rota:[[26.17,40.02],[26.409,40.147],[26.154,40.282],[26.304,40.462],[26.544,40.552],[26.68,40.42],[27.6,40.72],[28.9,40.87]],
+  // 🔴 UYGULA-KART-0930 (0082/H-0065): yukarıdaki alet dar boğazda kanalı kaybedip
+  // Saros'a atlıyor, Bolayır berzahını geçiyordu — ne_10m_land'e göre 22,2 km KARADA
+  // (OSMANLI-IC-0082 ölçümü, denetim/OSMANLI-IC-0082-CEVAP.md §H-0065). Eski rota:
+  //   [[26.17,40.02],[26.409,40.147],[26.154,40.282],[26.304,40.462],[26.544,40.552],[26.68,40.42],[27.6,40.72],[28.9,40.87]]
+  // Yeni hat o raporun kanal ortası çizgisi (0,006-0,007° ızgara) — karada 0,00 km.
+  // Ara noktalar yalnız DENİZ GEOMETRİSİDİR, uğrak yeri değildir.
+  rota:[[26.17,40.02],[26.30,40.08],[26.385,40.135],[26.378,40.17],[26.39,40.197],[26.43,40.212],
+        [26.47,40.232],[26.50,40.252],[26.53,40.276],[26.57,40.30],[26.61,40.324],[26.64,40.348],
+        [26.665,40.372],[26.69,40.396],[26.75,40.42],[26.80,40.444],[26.87,40.47],[27.6,40.72],[28.9,40.87]],
   yol:[[26.17,40.02],[26.409,40.147],[26.68,40.42],[27.60,40.72],[28.90,40.87]] },
 
 // ═══ ② H-0007 — YURT İÇİ HAREKÂT OKLARI ══════════════════════════════════

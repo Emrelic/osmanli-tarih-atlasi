@@ -1,0 +1,4201 @@
+[
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1374-01-01",
+  "b": "Sultan Üveys'in ölümü — Celâyirli baskısı gevşedi",
+  "tur": "siyaset",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "olum",
+   "siyaset",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "776 (1374) yılında Celâyirli Sultan Üveys'in ölümüyle Celâyirli Devleti'nin Doğu Anadolu üzerindeki denetimi zayıfladı. Bayram Hoca'nın kaybettiği toprakları geri alma girişimlerinin önü bu ölümle açıldı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1382-01-01",
+  "b": "Kara Mehmed, Celâyirli Şehzade Ali'yi beş bin kişiyle yendi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "784 (1382) yılında Kara Mehmed, emrindeki beş bin kişilik kuvvetle Celâyirli Şehzade Ali'yi mağlûp etti. Sayıca küçük bir orduyla kazanılan bu zafer, Karakoyunlu Türkmen süvarisinin bölgedeki askerî ağırlığını gösterdi.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1389-04-01",
+  "b": "Kara Mehmed öldü",
+  "tur": "hukumdar",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "olum",
+   "taht-degisikligi",
+   "ic-savas",
+   "konu-askeri",
+   "konu-kisiler",
+   "konu-isyan",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Rebîülâhir 791 (Nisan 1389) ayında Kara Mehmed, Pîr Hasan ile giriştiği mücadelede hayatını kaybetti. Ölümü hanedan içinde bir taht kavgası başlattı ve Karakoyunlu birliği birkaç yıl boyunca bölünmüş kaldı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1390-01-01",
+  "b": "Döğer Sâlim Bey'in arabuluculuğu ve Pîr Hasan'ın ölümü",
+  "tur": "siyaset",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ic-savas",
+   "siyaset",
+   "olum",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-kisiler",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "792 (1390) yılında Döğer Sâlim Bey, Kara Mehmed'in ölümünden sonra hanedan içinde bölünen taraflar arasında arabuluculuk yaptı; aynı yıl Pîr Hasan öldü. Bu iki gelişme, Kara Yûsuf'un rakipsiz kalarak Karakoyunlu'nun başına geçmesinin önünü açtı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1394-07-31",
+  "b": "Timur Avnik Kalesi'ni 43 günlük kuşatmadan sonra aldı",
+  "tur": "kayip",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "kusatma",
+   "toprak-kayip",
+   "timur",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Timur, Karakoyunlu'nun kilit müstahkem mevkii Avnik Kalesi'ni kuşattı; kale kumandanı Mısır Hoca kırk üç günlük direnişin ardından 2 Şevval 796 (31 Temmuz 1394) günü teslim oldu. Gün hassasiyetli bu kayıt, Timur'un Doğu Anadolu'yu sistematik olarak tasfiye ettiği seferin en somut halkasıdır.",
+  "ic_not_d": "⚠️ Avnik Kalesi'nin atlas verisinde yerleşim kaydı YOKTUR, bu yüzden `yer_id` boş bırakıldı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1395-01-01",
+  "b": "Kara Yûsuf, Avnik kumandanı Atlamış'ı esir aldı",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "timur",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "797 (1395) yılında Kara Yûsuf, Timur'un Avnik'e tayin ettiği kumandan Atlamış'ı esir aldı. Timurlu hâkimiyetine karşı kazanılan bu başarı, Kara Yûsuf'un bölgede hâlâ etkili bir kuvvet olduğunu gösterdi ve Timur'un dikkatini bir kez daha Azerbaycan'a çevirdi.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1400-01-01",
+  "b": "Kara Yûsuf Osmanlı topraklarına sığındı",
+  "tur": "siyaset",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "surgun",
+   "osmanli",
+   "konu-siyasi",
+   "konu-demografi"
+  ],
+  "yer_id": "",
+  "d": "802 (1400) yılında Timur karşısında tutunamayan Kara Yûsuf, Osmanlı topraklarına sığındı. Yıldırım Bayezid'in Kara Yûsuf'u teslim etmeyi reddetmesi, Timur ile Osmanlı arasındaki gerginliğin ve iki yıl sonraki Ankara Savaşı'nın sebeplerinden biri sayılır — yani Karakoyunlu hükümdarının şahsî kaderi, çağın en büyük savaşının fitillerinden biri olmuştur.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1402-07-28",
+  "b": "ANKARA SAVAŞI — Kara Yûsuf'un sığındığı Osmanlı devleti çöktü",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "timur",
+   "osmanli",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Timur'un Yıldırım Bayezid'i Ankara'da yenmesi, Kara Yûsuf'un sığındığı gücü ortadan kaldırdı ve onu yeniden yollara düşürdü. Karakoyunlu açısından bu savaş bir yenilgi ya da zafer değil, Timurlu hâkimiyetinin artık Anadolu'yu da kapsadığının ilânıdır.",
+  "ic_not_d": "⚠️ `dunya:4` değeri var olan kronoloji dosyalarından DEVRALINDI, bu oturumda yeniden takdir edilmedi.",
+  "kaynak": "karakoyunlular (Kara Yûsuf bağlamı) — savaşın kendisi için var olan atlas kaydı"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1405-02-18",
+  "b": "Timur'un ölümü — Karakoyunlu'nun önündeki engel kalktı",
+  "tur": "siyaset",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "olum",
+   "siyaset",
+   "timur",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "Timur'un ölümü, on sekiz yıldır Karakoyunlu'yu topraklarından süren baskıyı ortadan kaldırdı. Kara Yûsuf'un bir yıl içinde Azerbaycan'a dönüp iki büyük zafer kazanması doğrudan bu ölümün açtığı boşlukla mümkün olmuştur.",
+  "ic_not_d": "⚠️ `dunya:2` değeri var olan kronoloji dosyalarından DEVRALINDI.",
+  "kaynak": "karakoyunlular (bağlam) — tarih için var olan atlas kaydı"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1405-07-01",
+  "b": "Kara Yûsuf dönüş yoluna çıktı",
+  "tur": "siyaset",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "askeri",
+   "konu-askeri",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "Muharrem 808 (Temmuz 1405) ayında Yûsuf Bey, Memlük topraklarından Azerbaycan'a dönüş yoluna çıktı. Beş yıllık sürgün böylece sona erdi; bundan sonraki on beş yıl Karakoyunlu'nun en güçlü dönemi olacaktır.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1406-10-15",
+  "b": "Aras kıyısında Ebû Bekir Mirza'ya karşı zafer",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "timur",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "2 Cemâziyelevvel 809 (15 Ekim 1406) günü Kara Yûsuf, Aras nehri kıyısında Timurlu şehzadesi Ebû Bekir Mirza'yı mağlûp etti. Sürgünden dönüşünün ilk büyük zaferidir ve Karakoyunlu'nun Azerbaycan'a yeniden yerleşmesinin başlangıcı sayılır.",
+  "ic_not_d": "⚠️ Savaş bir nehir kıyısında geçtiği için `yer_id` boş bırakıldı; atlas verisinde nehir kaydı yoktur.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1412-01-01",
+  "b": "Kür boyunda Gürcü-Şirvan-Şeki ittifakı yenildi",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "kafkas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "815 (1412) yılında Kara Yûsuf, Gürcü, Şirvan ve Şeki hükümdarlarının kurduğu ittifakı Kür nehri boyunda mağlûp etti. Zafer Karakoyunlu'nun kuzey sınırını güvenceye aldı ve Kafkasya hükümdarlarını hanedanın nüfuzunu tanımaya zorladı.",
+  "ic_not_d": "⚠️ Çarpışma bir nehir hattında geçtiği için `yer_id` boş bırakıldı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1418-09-20",
+  "b": "Mercidâbık'ta Karayülük'e karşı ikinci zafer",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "akkoyunlu",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "18 Şâban 821 (20 Eylül 1418) günü Kara Yûsuf, Karayülük Osman Bey'i Mercidâbık'ta ikinci kez yendi; Karayülük Halep'e kaçmak zorunda kaldı.",
+  "ic_not_d": "⚠️ Mercidâbık'ın atlas verisinde yerleşim kaydı YOKTUR — aynı mevki bir asır sonra 1516 Osmanlı-Memlük savaşının da sahnesidir, yani atlas için iki ayrı dönemde gerekli bir noktadır.",
+  "kaynak": "karakoyunlular · akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1418-10-01",
+  "b": "Pîr Budak'ın ölüm haberi",
+  "tur": "hukumdar",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "olum",
+   "hanedan",
+   "konu-kisiler",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Ramazan 821 (Ekim 1418) ayında Kara Yûsuf, sultan ilân ettiği oğlu Pîr Budak'ın öldüğü haberini aldı. Hanedanın veraset düzeni böylece bozuldu ve Kara Yûsuf'un iki yıl sonraki ölümünde açılacak taht kavgasının zemini hazırlanmış oldu.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1420-11-13",
+  "b": "Kara Yûsuf Ucan'da öldü",
+  "tur": "hukumdar",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "olum",
+   "taht-degisikligi",
+   "hukumdar",
+   "konu-kisiler",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "7 Zilkade 823 (13 Kasım 1420) günü Kara Yûsuf, Şâhruh'un yaklaşan ordusuna karşı sefere çıkmışken Ucan yakınlarında öldü. Sürgünden dönüp Azerbaycan, Irak ve Doğu Anadolu'yu tek elde toplayan hükümdarın ölümü, devleti en güçlü olduğu anda başsız bıraktı.",
+  "ic_not_d": "⚠️ Ucan'ın atlas verisinde yerleşim kaydı YOKTUR; hanedanın kurucusunun öldüğü yer olduğu için nokta yazılması gereken bir mevkidir.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1421-04-01",
+  "b": "İskender, Karayülük'ü Şeyhkendi'de yendi",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "akkoyunlu",
+   "konu-askeri",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Rebîülâhir 824 (Nisan 1421) ayında Kara Yûsuf'un oğlu İskender, Akkoyunlu hükümdarı Karayülük Osman Bey'i Şeyhkendi'de mağlûp etti. Babasının ölümünden sonra hanedanın başına geçen İskender, ilk işi olarak batı sınırındaki Akkoyunlu tehdidini bastırdı.",
+  "kaynak": "karakoyunlular · akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1421-07-30",
+  "b": "Eleşkirt'te Şâhruh'a yenilgi",
+  "tur": "kayip",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "timur",
+   "toprak-kayip",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "29 Receb - 1 Şâban 824 (30 Temmuz - 1 Ağustos 1421) günlerinde İskender, Timurlu hükümdarı Şâhruh'un kuvvetleri karşısında Eleşkirt'te ağır bir yenilgi aldı. Bu yenilgi, Karakoyunlu'nun Timurlu vesâyetine yeniden girdiği ve İskender'in bütün saltanatı boyunca Şâhruh ile mücadele edeceği dönemi başlattı.",
+  "ic_not_d": "⚠️ Eleşkirt'in atlas verisinde yerleşim kaydı YOKTUR.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1434-11-01",
+  "b": "Şâhruh'un üçüncü seferi — Cihan Şah desteklendi",
+  "tur": "siyaset",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "siyaset",
+   "timur",
+   "hanedan",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Rebîülâhir 838 (Kasım 1434) ayında Şâhruh üçüncü Azerbaycan seferine çıktı ve İskender'e karşı kardeşi Cihan Şah'ı destekledi. Timurlu hükümdarının hanedan içi bir rakibi öne sürmesi, Karakoyunlu'nun sonraki otuz yılını belirleyecek olan Cihan Şah devrini fiilen başlattı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1436-05-01",
+  "b": "Şâhruh, Cihan Şah'ı Azerbaycan valiliğine tayin etti",
+  "tur": "idari",
+  "onem": 5,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "idari",
+   "siyaset",
+   "timur",
+   "konu-siyasi",
+   "konu-idari"
+  ],
+  "yer_id": "",
+  "d": "Şevval 839 (Mayıs 1436) ayında Şâhruh Ucan'a ulaştı, Cihan Şah'ı Azerbaycan valiliğine tayin ederek Horasan'a döndü. Cihan Şah böylece Timurlu onayıyla iktidara yerleşti; hükümdarlığının ilk yılları bir Timurlu tâbiiyeti olarak başladı ve ancak Şâhruh'un 1447'deki ölümünden sonra tam bağımsızlığa dönüştü.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1438-05-01",
+  "b": "İskender, oğlu Şah Kubâd tarafından Alıncak Kalesi'nde öldürüldü",
+  "tur": "hukumdar",
+  "onem": 5,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "olum",
+   "taht-degisikligi",
+   "hanedan",
+   "taht-kavgasi",
+   "konu-kisiler",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Zilkade 841 (Mayıs 1438) ayında İskender, kendi oğlu Şah Kubâd tarafından Alıncak Kalesi'nde öldürüldü. On sekiz yıl boyunca Timurlu baskısına direnen hükümdarın bir dış düşman eliyle değil hanedan içinden gelen bir suikastle ölmesi, Karakoyunlu veraset düzeninin kırılganlığının en açık örneğidir.",
+  "ic_not_d": "⚠️ Alıncak Kalesi'nin atlas verisinde yerleşim kaydı YOKTUR.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1467-11-10",
+  "b": "BİNGÖL BASKINI — Cihan Şah öldürüldü",
+  "tur": "kayip",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "olum",
+   "akkoyunlu",
+   "donum-noktasi",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "12 Rebîülâhir 872 (10 Kasım 1467) günü Cihan Şah, Bingöl-Kiğı arasında Uzun Hasan'ın şafak baskınında öldürüldü; altı bin asker, iki oğlu (Muhammedî ve Yûsuf) ve bütün emîrleri esir düştü. Cesedi Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü. Yirmi dokuz yıllık saltanatın ve fiilen Karakoyunlu Devleti'nin sonudur: hanedan bundan sonra iki yıl daha yaşayacak ama bir daha toparlanamayacaktır.",
+  "ic_not_d": "⚠️ Bingöl ve Kiğı'nın atlas verisinde yerleşim kaydı YOKTUR — bir hanedanın bittiği yerin haritada karşılığı bulunmuyor. `dunya:2` var olan kayıttan DEVRALINDI.",
+  "kaynak": "karakoyunlular · cihan-sah · uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1468-07-01",
+  "b": "Hasan Ali'nin yenilgisi",
+  "tur": "kayip",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "akkoyunlu",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Zilhicce 872 (Temmuz 1468) ayında Cihan Şah'ın oğlu Hasan Ali, babasının ölümünden sonra hanedanı toparlama çabasında yenilgiye uğradı. Karakoyunlu artık bir devlet değil, kaçan bir hanedan kalıntısıdır.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1469-06-01",
+  "b": "Yûsuf Mirza öldürüldü, son direniş kırıldı",
+  "tur": "kayip",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "olum",
+   "askeri",
+   "akkoyunlu",
+   "konu-askeri",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "873 (1469) yılında Uğurlu Mehmed, Karakoyunlu hanedanının son mukavemet odağı olan Yûsuf Mirza'yı yenip öldürdü. Hanedandan geriye yalnız Irak'taki Hille valiliği kaldı.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1438-04-19",
+  "b": "Dört halife adına para basımı — Sünnî çizginin sürdüğünün delili",
+  "gun": "Karakoyunlu devri",
+  "tur": "din",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "din",
+   "ekonomi",
+   "sosyal",
+   "konu-ekonomi",
+   "konu-din",
+   "konu-sosyal"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Karakoyunlu hükümdarları dört halifenin adını taşıyan sikkeler bastırdılar. Bu, aynı dönemde Şeyh Cüneyd-i Safevî gibi isimlerin öncülüğünde Şiî hareketlerin bölgede yayılmasına rağmen hanedanın resmî çizgisinde Sünnî unsurların sürdüğünü gösterir. Karakoyunlu'nun mezhep kimliği bu yüzden tek renkli değildir: sikke Sünnî, çevredeki tarikat hareketi Şiîdir ve ikisi aynı devlette yan yana durmaktadır.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_karakoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1446-01-01",
+  "b": "Malî teşkilât: muhassıl ve tahvildarlar eliyle şer'î ve örfî vergi düzeni",
+  "gun": "Karakoyunlu devri",
+  "tur": "idari",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "ekonomi",
+   "hukuk",
+   "konu-idari",
+   "konu-ekonomi",
+   "konu-hukuk"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Karakoyunlu Devleti, muhassıl ve tahvildar gibi malî görevliler eliyle hem şer'î hem örfî vergileri toplayan bir maliye teşkilâtı işletiyordu; bu gelirler geniş saray bürokrasisini ve orduyu finanse ediyordu.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
+  "kaynak": "karakoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1402-07-28",
+  "b": "ANKARA SAVAŞI — Karayülük Timur'un safında",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "timur",
+   "osmanli",
+   "ittifak",
+   "konu-askeri",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Karayülük Osman Bey, Timur'un yanında Ankara Seferi'ne katıldı ve Yıldırım Bayezid'e karşı savaştı. Akkoyunlu'nun Timur'la kurduğu ittifak, hanedana Diyarbekir bölgesindeki hâkimiyetini pekiştirme imkânı verdi; buna karşılık rakip Karakoyunlu bu dönemde Timur'un düşmanı olarak sürgüne gitti. İki Türkmen hanedanının kaderi, Timur karşısında aldıkları ters tavırlarla ayrıştı.",
+  "ic_not_d": "⚠️ `dunya:4` var olan kayıtlardan DEVRALINDI.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1412-01-01",
+  "b": "Ergani yakınında Kara Yûsuf'a yenilgi",
+  "tur": "kayip",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "karakoyunlu",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Karayülük Osman Bey, Ergani yakınlarında Kara Yûsuf karşısında yenildi. Karakoyunlu'nun Timur sonrası yükselişi, Akkoyunlu'yu otuz yıl sürecek bir savunma konumuna itti.",
+  "ic_not_d": "⚠️ Ergani'nin atlas verisinde yerleşim kaydı YOKTUR.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1421-04-01",
+  "b": "Şeyhkendi'de İskender'e yenilgi",
+  "tur": "kayip",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "karakoyunlu",
+   "konu-askeri",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Rebîülâhir 824 (Nisan 1421) ayında Karayülük Osman Bey, Kara Yûsuf'un oğlu İskender tarafından Şeyhkendi'de mağlûp edildi. Karakoyunlu'nun yeni hükümdarı, ilk işi olarak Akkoyunlu'yu bastırmıştı.",
+  "kaynak": "karakoyunlular · akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1429-01-01",
+  "b": "Memlükler, Karayülük'ün oğlu Hâbil'i esir aldı",
+  "tur": "kayip",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "memluk",
+   "hanedan",
+   "konu-askeri",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "832 (1429) yılında Memlükler, Karayülük Osman Bey'in oğlu Hâbil'i esir aldı. Bir zamanlar sığınılan Memlük Devleti'nin artık bir tehdit hâline gelmesi, Akkoyunlu'nun güneyde de sıkıştığını gösterir.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1431-01-01",
+  "b": "Memlükler'e tâbi kalma şartıyla barış yapıldı",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "tabiiyet",
+   "memluk",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "834 (1431) yılında Akkoyunlu, Memlükler'e bağlı kalma şartıyla barış yaptı. Hanedanın resmen bir başka devletin tâbiiyetine girdiği bu anlaşma, Uzun Hasan'ın bağımsız imparatorluk kuracağı dönemin ne kadar uzaktan başladığını gösterir. İmparatorluk çapında bir siyasî statü değişimi olduğu için belirli bir yere bağlanmadı.",
+  "kaynak": "akkoyunlular",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1462-01-01",
+  "b": "Hasankeyf alındı, Eyyûbî kalıntısı sona erdi; Bayburt katıldı",
+  "tur": "fetih",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak",
+   "fetih",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "866 (1462) yılında Uzun Hasan Hısnıkeyfâ'yı (Hasankeyf) ele geçirerek buradaki Eyyûbî hanedan kalıntısına son verdi ve Bayburt'u topraklarına kattı. Aynı yıl ikinci Gürcistan seferi de düzenlendi.",
+  "ic_not_d": "⚠️ Hasankeyf ve Bayburt'un atlas verisinde yerleşim kaydı YOKTUR; ikisi de Akkoyunlu sahasının içindedir.",
+  "kaynak": "uzun-hasan · akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1467-11-10",
+  "b": "BİNGÖL BASKINI — Cihan Şah öldürüldü, Karakoyunlu çöktü",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "karakoyunlu",
+   "donum-noktasi",
+   "toprak",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "12 Rebîülâhir 872 (10 Kasım 1467) günü Uzun Hasan, Karakoyunlu hükümdarı Cihan Şah'ı Bingöl civarında bir şafak baskınıyla öldürdü; altı bin asker, Cihan Şah'ın iki oğlu (Muhammedî ve Yûsuf) ile bütün emîrleri esir alındı. Bir asırdır Akkoyunlu'nun önünü kesen rakip hanedan bu tek gecede tasfiye edildi ve Azerbaycan, Irak ve İran'ın kapıları açıldı.",
+  "ic_not_d": "⚠️ Bingöl'ün atlas kaydı YOKTUR. `dunya:2` var olan kayıttan DEVRALINDI.",
+  "kaynak": "uzun-hasan · karakoyunlular · cihan-sah"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1469-01-29",
+  "b": "Timurlu Ebû Said Mirza Han yenildi ve idam edildi",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "timur",
+   "olum",
+   "konu-askeri",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "15 Receb 873 (29 Ocak 1469) günü Uzun Hasan, Çağatay hükümdarı Ebû Said Mirza Han'ı yenerek idam ettirdi. Timurlu hanedanının başındaki hükümdarın bir Türkmen hükümdarı eliyle idam edilmesi, İran'da Timurlu çağının kapandığı ve Akkoyunlu çağının açıldığı andır.",
+  "kaynak": "uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1472-01-01",
+  "b": "Venedik'e elçi gönderildi — ateşli silâh talebi",
+  "tur": "siyaset",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "ittifak",
+   "teknoloji",
+   "venedik",
+   "osmanli",
+   "konu-siyasi",
+   "konu-diplomasi",
+   "konu-bilim"
+  ],
+  "yer_id": "",
+  "d": "877 (1472) yılında Uzun Hasan, Hacı Muhammed'i elçi olarak Venedik'e göndererek ateşli silâh istedi. Bir Türkmen hükümdarının Osmanlı'ya karşı Avrupa'dan top ve tüfek talep etmesi, Otlukbeli'nde belirleyici olacak teknoloji farkının Akkoyunlu tarafından da GÖRÜLDÜĞÜNÜ kanıtlar; sorun bilgisizlik değil, silâhların zamanında ulaşmamasıydı. İmparatorluk çapında bir dış siyaset kararı olduğu için belirli bir yere bağlanmadı.",
+  "kaynak": "uzun-hasan",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1472-08-01",
+  "b": "Yûsufça Mirza Eflâtunpınarı'nda yenildi",
+  "tur": "kayip",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "osmanli",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Rebîülevvel 877 (Ağustos 1472) ayında Uzun Hasan'ın sürgündeki Karamanoğlu şehzadelerini desteklemek için gönderdiği yirmi bin kişilik kuvvetin bir kolu, Osmanlı Anadolu Beylerbeyi Koca Dâvud Paşa tarafından Eflâtunpınarı'nda bozguna uğratıldı. Otlukbeli'nden bir yıl önceki bu yenilgi, Osmanlı ordusunun üstünlüğünün ilk somut işaretiydi.",
+  "ic_not_d": "⚠️ Eflâtunpınarı'nın atlas kaydı YOKTUR.",
+  "kaynak": "otlukbeli-savasi · uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1473-02-01",
+  "b": "Venedik on altı top ve bin tüfek gönderdi — hiçbiri ulaşmadı",
+  "tur": "teknoloji",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "teknoloji",
+   "ittifak",
+   "venedik",
+   "askeri",
+   "konu-askeri",
+   "konu-diplomasi",
+   "konu-bilim"
+  ],
+  "yer_id": "",
+  "d": "Şubat 1473'te Venedik, Uzun Hasan'ın talebi üzerine on altı top ve bin tüfeği gemiyle yola çıkardı; sevkiyat Akkoyunlu'ya HİÇ ULAŞMADI. Altı ay sonra Otlukbeli'nde Akkoyunlu ordusu tam da bu silâhların yokluğu yüzünden Osmanlı topçusu karşısında çözüldü.",
+  "ic_not_d": "📌 Bu madde, bir savaşın sonucunu belirleyen şeyin bazen savaş alanında değil bir lojistik başarısızlıkta olduğunu gösterdiği için ayrı yazıldı.",
+  "kaynak": "uzun-hasan",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1473-08-11",
+  "b": "OTLUKBELİ SAVAŞI — Osmanlı topçusu karşısında ağır yenilgi",
+  "tur": "kayip",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "osmanli",
+   "donum-noktasi",
+   "teknoloji",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-bilim"
+  ],
+  "yer_id": "",
+  "d": "16 Rebîülevvel 878 (11 Ağustos 1473 Çarşamba) günü Tercan yakınlarındaki Otlukbeli'nde (Üçağızlı) Akkoyunlu ordusu, Fâtih Sultan Mehmed'in ateşli silâhlarla donanmış ordusu karşısında ağır bir yenilgi aldı. Akkoyunlu tarafında yaklaşık 70.000 kişi vardı (40.000'i mızraklı zırhlı süvari); sağ kanadı yöneten Kör Zeynel Mirza savaş sırasında öldürüldü, sol kanatta Uğurlu Mehmed Mirza bulunuyordu. Angiolello'ya göre Akkoyunlu 10.000, Osmanlı yalnızca 1.000 kayıp verdi; Uzun Hasan'ın nişancısı Hoca Seyyid Mehmed Münşî dâhil çok sayıda kişi esir düştü. Savaş, klasik Türkmen süvari ordularının artık ateşli silâhlı düzenli birliklerle baş edemeyeceğini gösterdi ve Akkoyunlu bir daha toparlanamadı.",
+  "ic_not_d": "⚠️ Otlukbeli ve Tercan'ın atlas verisinde yerleşim kaydı YOKTUR — Osmanlı-Akkoyunlu ilişkisinin dönüm noktasının haritada karşılığı yok. `dunya:2` var olan kayıttan DEVRALINDI (kendi kanaatim 3'tü, bildirildi).",
+  "kaynak": "otlukbeli-savasi · uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1475-07-01",
+  "b": "Uzun Hasan'ın kardeşi Üveys isyanda idam edildi",
+  "tur": "isyan",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "isyan",
+   "olum",
+   "hanedan",
+   "konu-kisiler",
+   "konu-isyan",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Rebîülevvel 880 (Temmuz 1475) ayında Uzun Hasan'ın kardeşi Üveys, isyanı sebebiyle idam edildi. Hanedan içi tasfiyeler Uzun Hasan'ın son yıllarını belirledi.",
+  "kaynak": "uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1493-01-01",
+  "b": "Baysungur mağlûp edilip öldürüldü",
+  "tur": "ic-savas",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ic-savas",
+   "olum",
+   "hanedan",
+   "taht-kavgasi",
+   "konu-askeri",
+   "konu-kisiler",
+   "konu-isyan",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "898 (1493) yılında Baysungur mağlûp edilerek öldürüldü. Hanedan üyelerinin birbirini ortadan kaldırdığı bu döngü, Safevî hareketinin güçlenmesi için gereken boşluğu yarattı.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1499-01-01",
+  "b": "Aziz Kendi savaşı — Muhammedî Mirza kazandı, İbe Sultan öldü",
+  "tur": "ic-savas",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ic-savas",
+   "savas",
+   "olum",
+   "konu-askeri",
+   "konu-kisiler",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "904 (1499) yılında Aziz Kendi'de yapılan savaşta Muhammedî Mirza galip geldi ve İbe Sultan öldü.",
+  "ic_not_d": "⚠️ Aziz Kendi'nin atlas verisinde yerleşim kaydı YOKTUR.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1500-01-01",
+  "b": "DEVLET RESMEN İKİYE BÖLÜNDÜ — Elvend ve Murad",
+  "tur": "siyaset",
+  "onem": 5,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "ic-savas",
+   "donum-noktasi",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "905 (1500) yılında Akkoyunlu Devleti resmen ikiye ayrıldı: Elvend'e Âmid, Azerbaycan ve Arrân; Murad'a Irakeyn, Kirman ve Fars düştü.",
+  "ic_not_d": "🔴 Bu bölünme, bir yıl sonra Şah İsmâil'in iki parçayı ayrı ayrı yenmesini mümkün kıldı — birleşik bir Akkoyunlu ordusu karşısında Safevî hareketinin başarı şansı çok daha düşük olurdu. İmparatorluk çapında bir yapı değişimi olduğu için belirli bir yere bağlanmadı.",
+  "kaynak": "akkoyunlular",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1505-01-01",
+  "b": "Elvend öldü",
+  "tur": "hukumdar",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "olum",
+   "hanedan",
+   "konu-kisiler",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "911 (1505) yılında Tebriz'i kaybeden Elvend öldü. Bölünmüş devletin iki kolundan biri böylece sahipsiz kaldı ve geriye yalnız Murad'ın Irak kolu kaldı.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1514-01-01",
+  "b": "MURAD ÖLDÜRÜLDÜ — Akkoyunlu Devleti tarih sahnesinden silindi",
+  "tur": "kayip",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "olum",
+   "donum-noktasi",
+   "toprak-kayip",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "920 (1514) yılında son Akkoyunlu hükümdarı Murad öldürüldü ve Akkoyunlu Devleti tarih sahnesinden silindi. Tur Ali Bey'in 1340'ta Trabzon'a düzenlediği akınlarla başlayan yüz yetmiş dört yıllık hanedan böylece sona erdi. ⚠️ Aynı yıl Çaldıran'da Osmanlı ile Safevî karşı karşıya geldi: Akkoyunlu'nun bıraktığı boşluk artık iki büyük imparatorluk arasında paylaşılacaktır.",
+  "ic_not_d": "TDV gün vermiyor, `YYYY-01-01` yazıldı — uydurulmadı.",
+  "kaynak": "akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1452-09-01",
+  "b": "HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi",
+  "gun": "Uzun Hasan devri",
+  "tur": "hukuk",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "ic",
+  "etiket": [
+   "hukuk",
+   "idari",
+   "ekonomi",
+   "reform",
+   "konu-idari",
+   "konu-hanedan",
+   "konu-ekonomi",
+   "konu-islahat",
+   "konu-hukuk"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Uzun Hasan, 'Hasan Padişah Kanunları' adıyla bilinen bir vergi kanunnâmesi düzenletti; çiftçiden, esnaftan, sanatkârdan ve tüccardan alınan vergilerin âdil biçimde tarh ve tahsili esasına dayanıyordu. 🔴 Bu kanunnâmenin önemi Akkoyunlu'yu aşar: Osmanlılar doğu eyaletlerinde fetihten sonra uzun süre bu kanunları uygulamayı sürdürdü, Safevîler de İran'da uzun süre kullandı. Yani hanedan yıkıldıktan sonra da hukuku yaşadı — Akkoyunlu'nun en kalıcı eseri bir kale ya da cami değil, bir vergi düzenidir.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
+  "kaynak": "uzun-hasan · akkoyunlular"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1452-09-01",
+  "b": "'Hasanbegî' sikkesi bastırıldı",
+  "gun": "Uzun Hasan devri",
+  "tur": "ekonomi",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "idari",
+   "para",
+   "konu-idari",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Uzun Hasan, iki akçe değerinde 'hasanbegî' adlı sikkeler bastırdı. Kendi adını taşıyan bir para birimi çıkarmak, Memlük tâbiiyetinden çıkan hanedanın egemenlik iddiasının iktisadî ilânıdır.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
+  "kaynak": "uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1452-09-01",
+  "b": "Bayındır damgası devlet arması yapıldı — Oğuz soy iddiası",
+  "gun": "Uzun Hasan devri",
+  "tur": "kultur",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "kultur",
+   "siyaset",
+   "sosyal",
+   "kimlik",
+   "konu-siyasi",
+   "konu-kultur",
+   "konu-sosyal"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Uzun Hasan, Oğuz Han ve Bayındır Han soyundan gelişini vurguladı ve Bayındır damgasını sikkelerde, belgelerde ve sancaklarda kullanılan devlet arması hâline getirdi. Bir Türkmen konfederasyonunun kendini boy şeceresiyle meşrulaştırması, İslâm dünyasında hanedan meşruiyetinin İslâmî olduğu kadar SOY temelli de kurulabildiğini gösterir.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak yıl vermiyor; iktidara geliş tarihine bağlandı, bir tercihtir.",
+  "kaynak": "uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_akkoyunlu.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1452-09-01",
+  "b": "Cami, medrese, zâviye ve kervansaray imar programı",
+  "gun": "Uzun Hasan devri",
+  "tur": "mimari",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "mimari",
+   "kultur",
+   "din",
+   "ekonomi",
+   "imar",
+   "konu-ekonomi",
+   "konu-din",
+   "konu-kultur",
+   "konu-imar",
+   "konu-egitim"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Uzun Hasan cami, medrese, zâviye ve kervansaray olmak üzere birçok eser yaptırdı. 🔴 Bu eserlerin BÜYÜK KISMI GÜNÜMÜZE ULAŞMADI: Safevîler Tebriz'deki Akkoyunlu yapılarının çoğunu KASITLI olarak yıktı. Bir hanedanın mimarî mirasının ardılı tarafından bilerek silinmesi, Akkoyunlu'nun bugün Karakoyunlu'dan (Gökmescid ayakta) daha az görünür olmasının sebebidir — yani kaynak azlığı bir tesadüf değil, bir siyasetin sonucudur.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
+  "kaynak": "akkoyunlular · uzun-hasan"
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1271-01-01",
+  "b": "Baybars'ın başarısız Kıbrıs deniz seferi",
+  "tur": "savas",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Filistin ve Suriye'de Haçlılara ait son kale ve şehirleri ele geçirmekte olan Sultan Baybars, 1271'de Kıbrıs üzerine on yedi gemiden oluşan bir filo gönderdi. Filo, çıkan fırtına yüzünden adaya ulaşamadan dağıldı ve sefer sonuçsuz kaldı. Bu erken teşebbüs, Bahrî Memlüklerin bir yüzyıl sonra I. Petro'nun İskenderiye baskınıyla (1365) doruğa çıkacak Kıbrıs Krallığı'yla gergin ilişkisinin ilk halkalarından biridir.",
+  "kaynak": "tdv-kibris",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1298-01-01",
+  "b": "Sultan Lâçin toprakları yeniden ölçtürdü — er-Ravkü'l-Hüsâmî",
+  "tur": "idari",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "mali",
+   "konu-idari",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Eyyûbîler döneminden beri yapılmamış kapsamlı bir arazi tahririyle (revk) Mısır'ın iktâ gelirleri yeniden hesaplandı; akademik kaynağa göre sultanın payı bir yılda 24 kırat üzerinden 4'ten 13'e çıkarıldı ve büyük iktâlar küçültülerek ecnâdü'l-halkanın toprakları azaltıldı. Kıdemli emîrlerin iktâlarını kalıtsal bir imtiyaz saydığı bu reform büyük hoşnutsuzluk yarattı; Sultan Lâçin ertesi yıl bir grup memlük tarafından öldürüldü.",
+  "kaynak": "ikta (TDV — \"Sultan Lâçin'in yaptırdığı tahrirle ecnâdü'l-halkanın iktâları azaltıldı\") + akademik (kesin kırat oranı ve tarih için: al-Rawk al-Husami, 697/1298)"
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1301-01-01",
+  "b": "Gayrimüslimlere karşı ayrımcı kararname çıkarıldı",
+  "tur": "sosyal",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "sosyal",
+   "din",
+   "azinlik",
+   "konu-din",
+   "konu-sosyal"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Mısır'ın çeşitli şehirlerinde yükselen tepki üzerine hükümet, Hıristiyanların mavi, Sâmirîler'in kırmızı, Yahudilerin sarı sarık giymesini zorunlu kıldı; Kahire'de kiliseler ve havralar kapatıldı, Bilbeys'teki bütün Yahudi cemaati dahil pek çok kişi İslâm'a girmeye zorlandı. Kararname Kıptî cemaatinin devlet bürokrasisindeki ağırlığını kırmayı ve fakihlerin desteğini kazanmayı amaçlıyordu; izleyen on yıllarda kitlesel ihtida dalgası hızlandı.",
+  "kaynak": "bulunamadı — TDV'nin `ehl-i-zimme`/`zimmi` maddeleri genel tanım veriyor, Memlük dönemine özgü müstakil madde yok. Dayanak: standart akademik kaynak — jstage, \"Oriento\" 49-2 (2006), 1301 kararnamesi üzerine; Cambridge/SOAS, \"Coptic conversion to Islam under the Baḥrī mamlūks, 692-755/1293-1354\""
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1315-01-01",
+  "b": "Nâsır Muhammed büyük toprak tahririni tamamlattı — er-Ravkü'n-Nâsırî",
+  "tur": "idari",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "mali",
+   "konu-idari",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Üçüncü saltanatında (1310-1341) el-Melikü'n-Nâsır Muhammed, Mısır'ın bütün tarım arazilerini yeniden ölçtürüp sulama ve verim kayıtlarını çıkarttı; geniş iktâlar küçültülüp sultanın doğrudan gelirleri artırıldı. El-Makrîzî'ye göre tahrir 715'te (1315), el-Kalkaşendî'ye göre 716'da (1316) başladı; ülke Aşağı Mısır'da on iki, Yukarı Mısır'da dokuz idari bölgeye ayrıldı ve reform hazine gelirlerini önemli ölçüde artırdı, fakat uzun vadede iktâ suistimallerinin de önünü açtı.",
+  "kaynak": "ikta (TDV — Nâsır Muhammed'in üçüncü saltanatında yapılan tahriri doğruluyor, kesin yıl vermiyor) + akademik (el-Makrîzî/el-Kalkaşendî tarih ihtilafı ve idari bölünme için: Al-Ruk al-Nasiri)"
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1318-01-01",
+  "b": "Yasavur istilası sırasında Memlük akını",
+  "tur": "savas",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Çağatay prensi Yasavur'un Horasan'a saldırdığı ve İlhanlı ordularının onu püskürtmekle meşgul olduğu sırada, Sultan I. en-Nâsır Muhammed'in gönderdiği Memlük kuvvetleri Doğu Anadolu'da İlhanlı topraklarına ait bazı yerleşim yerlerini yağmaladı. Akın, İlhanlıların iç meşguliyetinden yararlanan fırsatçı bir sınır harekâtıdır ve 1323 barış antlaşmasına kadar süren düşük yoğunluklu çatışmaların bir parçasıdır.",
+  "kaynak": "tdv-ebu-said-bahadir-han",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1370-01-01",
+  "b": "Memlük-Kıbrıs barış antlaşması",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "1365'teki İskenderiye baskınının ardından Memlükler için kökü kazınması gereken bir düşman hâline gelen Kıbrıs Krallığı ile ilişkiler, baskının sorumlusu Kral I. Petro'nun 1369'da öldürülmesinin ardından yumuşadı. İki devlet arasında 1370'te bir barış antlaşması imzalandı. Antlaşma, on beş yıl sonra gerçekleşecek Sis'in fethiyle (1375) Memlüklerin dikkatini kuzeye, Kilikya Ermenileri'ne çevirebilmesini kolaylaştırdı.",
+  "kaynak": "tdv-kibris",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1372-01-01",
+  "b": "Habeş kralı Memlük kervanlarına sınırı kapattı",
+  "tur": "siyaset",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "1372-1382 yılları arasında hüküm süren Habeş Kralı Nevaya Krestos, Mısır'dan gelen kervanların ülke sınırlarından içeri girmesini yasakladı. Bu tutum, Memlük sultanlarına resmî bağlılık bildiren önceki Habeş krallarının siyasetinden bir kopuşu ve iki ülke arasında gerilimli bir dönemin başlangıcını işaret ediyordu.",
+  "kaynak": "etiyopya",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1386-01-01",
+  "b": "Ceneviz ile barış antlaşması",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "ekonomi",
+   "ticaret",
+   "ceneviz",
+   "konu-diplomasi",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "d": "Venedik ile 1351-1355 arası süren savaşın ardından Ceneviz'in Memlük Sultanlığı ile de sürtüşmesi devam etmiş; taraflar bu yıl imzalanan bir barış antlaşmasıyla İskenderiye ve Şam'daki Ceneviz ticaretini yeniden güvence altına aldı. Antlaşma, Cenevizli tüccarlara İskenderiye'de fondaco (ticaret kolonisi) işletme hakkını teyit etti.",
+  "kaynak": "WebSearch çapraz doğrulama (ikincil kaynak) — birincil antlaşma metnine ulaşılamadı",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1409-05-01",
+  "b": "Şeyh el-Mahmûdî'nin Sarhad'da mağlûp edilmesi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "savas",
+   "isyan",
+   "konu-askeri",
+   "konu-isyan",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Nevrûz ve Şeyh el-Mahmûdî'nin kendisine karşı isyanları veya birbirleriyle mücadeleleriyle uğraşan Sultan Ferec, Mayıs 1409'da Şeyh el-Mahmûdî üzerine yürüyerek onu Sarhad'da mağlûp etti. Ancak devlet adamı Tağrîberdî'nin araya girmesiyle Şeyh el-Mahmûdî affedildi ve Trablus nâibliğine tayin edildi. Bu af, bir yıl sonra Suriye'de yeniden baş gösterecek isyanın zeminini hazırlamış oldu.",
+  "kaynak": "islamansiklopedisi.org.tr/ferec (Asri Çubukçu, TDV İslâm Ansiklopedisi, c.12, 1995, s.370-371)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1416-01-01",
+  "b": "Memlük-Osmanlı dostluk ve ticaret antlaşması",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "ittifak",
+   "ticaret",
+   "konu-diplomasi",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "d": "Şeyh el-Mahmûdî ile Osmanlı hükümdarı Çelebi Mehmed arasında 1416-1420 yılları arasında dostane ilişkiler kuruldu; taraflar antlaşma yapıp hediye teâtisinde bulundu, ticarî ilişkilerin kolaylaştırılması amaçlandı. Bu dönem, iki devlet arasında barışçıl bir coğrafi paylaşımı yansıtıyordu.",
+  "kaynak": "tdv:seyh-el-mahmudi (yıl aralığı 1416-1420 teyitli, kesin gün yok)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1420-01-01",
+  "b": "Şeyh el-Mahmûdî Karamanoğulları'nı itaate zorladı",
+  "tur": "siyaset",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Şeyh el-Mahmûdî döneminde Memlük otoritesi Anadolu'nun güneyine doğru gösterişli biçimde hissettirildi: Karamanoğulları itaate zorlandı ve bağımsızlık arayışındaki Türkmen beylikleri denetim altına alındı. Bu politika, Memlük-Osmanlı-Türkmen beylikleri üçgeninde Kahire'nin bölgesel nüfuzunu korumaya yönelikti.",
+  "kaynak": "tdv:memlukler (yıl aralığı 1412-1421 saltanatı içinde, gün/kesin yıl vermiyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1424-01-01",
+  "b": "Barsbay'ın birinci Kıbrıs seferi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Barsbay, Kıbrıs Krallığı'na karşı 1424'te ilk deniz seferini düzenledi. Bu sefer, adayı Memlük nüfuzu altına almayı hedefleyen üç aşamalı bir askerî sürecin başlangıcıydı.",
+  "kaynak": "tdv:barsbay (yıl teyitli, gün vermiyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1425-01-01",
+  "b": "Barsbay'ın ikinci Kıbrıs seferi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "1425'te Barsbay'ın ikinci Kıbrıs seferi düzenlendi; Memlük donanması adaya yeniden çıkarma yaparak baskıyı artırdı. Kesin sonuç ise bir yıl sonraki üçüncü seferle gelecekti.",
+  "kaynak": "tdv:barsbay (yıl teyitli, gün vermiyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1425-06-01",
+  "b": "Kârimîlere ağır vergi ve korsanlık baskısı",
+  "tur": "ekonomi",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "ticaret",
+   "karimi",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "d": "Barsbay'ın tahta çıkışının hemen ardından Kârimî tüccarlar hem artan vergi yükü hem de Kızıldeniz'de yoğunlaşan korsanlık faaliyetiyle sıkıştı. TDV İslâm Ansiklopedisi bu baskıları, birkaç yıl sonra gelecek devlet tekelinin zeminini hazırlayan gelişmeler olarak aktarır.",
+  "kaynak": "karimi + barsbay (TDV İslâm Ansiklopedisi)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1430-01-01",
+  "b": "Kârimî tüccarların çöküşü",
+  "tur": "ekonomi",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "ticaret",
+   "karimi",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "d": "Barsbay'ın baharat tekeli, ağır vergilendirme ve artan korsanlık baskısı bir araya gelince asırlardır Kızıldeniz-Hint Okyanusu ticaretine hâkim olan Kârimî tüccar zümresi hızla güç kaybetti. TDV İslâm Ansiklopedisi bu süreci Kârimîlerin tarihsel çöküşünün başlangıcı olarak tarif eder; zümre 15. yüzyılın ikinci yarısında bağımsız bir ticaret gücü olarak neredeyse ortadan kalktı.",
+  "kaynak": "karimi (TDV İslâm Ansiklopedisi)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1438-01-01",
+  "b": "Zara Yakob'dan Barsbay'a dostane mektup",
+  "tur": "siyaset",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "din",
+   "konu-siyasi",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Habeş Kralı Zara Yakob, 1437-1438'de Memlük Sultanı Barsbay'a bir mektup göndererek Mısır'daki Kıptî hıristiyanlarına iyi davranılmasını istedi. Mektup uzlaşmacı bir üslup taşıyordu ve iki devlet arasındaki ilişkilerin henüz açık bir gerilime dönüşmediğini gösteriyordu.",
+  "kaynak": "bulunamadı — TDV bu olayı kapsamıyor, dayanak: Taddesse Tamrat, Church and State in Ethiopia 1270-1527, Oxford: Clarendon Press, 1972, s. 262-263",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1441-01-01",
+  "b": "Zara Yakob'dan Çakmak'a Nil tehdidi içeren protesto",
+  "tur": "siyaset",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "din",
+   "konu-siyasi",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Habeş Kralı Zara Yakob, 1441'de Memlük Sultanı Çakmak'ın emriyle Mısır'daki Debre Mitmak manastırının yıkıldığını öğrenince sultana sert bir protesto mektubu gönderdi. Ülkesindeki müslüman tebaaya adil davrandığını hatırlatarak Nil'in mecrasını değiştirme gücüne sahip olduğunu ama insanların çekeceği acı yüzünden bunu yapmadığını bildirdi; Çakmak hediyelerle karşılık verse de yıkılan kiliseleri yeniden inşa etmeyi reddetti.",
+  "kaynak": "bulunamadı — TDV bu olayı kapsamıyor (cakmak-el-melikuz-zahir maddesi konuyu içermiyor, kontrol edildi), dayanak: Taddesse Tamrat, Church and State in Ethiopia 1270-1527, Oxford: Clarendon Press, 1972, s. 262-263; Verena Krebs, 'Crusading Threats? Ethiopian-Egyptian Relations in the 1440s', Les Croisades en Afrique (ed. B. Weber), Toulouse: Presses Universitaires du Midi, 2019, s. 245-274",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1484-01-01",
+  "b": "Osmanlı-Dulkadir birleşik kuvvetlerinin Memlük ordusunu yenmesi",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "1484'te, Yâkub Paşa kumandasında Memlük Sultanı Kayıtbay'a karşı yardıma gönderilen Osmanlı kuvvetleri Dulkadiroğulları ile birleşerek Memlük ordusunu büyük bir yenilgiye uğrattı. Bu, Osmanlı-Memlük ilişkilerinde açık askerî çatışmaya giden yolun ilk büyük adımlarından biriydi.",
+  "kaynak": "tdv:dulkadirogullari (yıl teyitli, gün/yer vermiyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_memluk.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1491-01-01",
+  "b": "On beş yıllık Osmanlı-Memlük barış antlaşması",
+  "tur": "antlasma",
+  "onem": 5,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "896/1491'de Osmanlı ve Memlük Devleti arasında on beş yıl süreli bir barış antlaşması imzalandı. Çatışmanın odağındaki Dulkadiroğulları beyliği ve Çukurova bölgesi üzerindeki gerginlik böylece geçici olarak dindirildi, ancak mesele kökten çözülmemişti.",
+  "kaynak": "tdv:kayitbay (yıl teyitli, kesin gün vermiyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1500-12-01",
+  "b": "Şirvanşah Ferruh Yesar'ın yenilgisi — ilk büyük Kızılbaş zaferi",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "askeri",
+   "toprak",
+   "konu-askeri"
+  ],
+  "d": "İsmail'in yedi bin kişilik Kızılbaş kuvveti, babası Şeyh Haydar'ın 1488'de öldüğü Şirvan'a intikam seferiyle girdi; Gülistan Kalesi önünde Şirvanşah Ferruh Yesar'ı yenip öldürdü. Bu zafer, on üç yaşında bir hareketin artık ciddi bir askerî güç olduğunu gösteren ilk kanıttı.",
+  "kaynak": "Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ; sirvan (TDV, doğrulanmış)",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1508-10-01",
+  "b": "Cebel Âmil'den Şiî ulemanın İran'a davet edilmesi başladı",
+  "tur": "din",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "din",
+   "kultur",
+   "konu-din",
+   "konu-kultur"
+  ],
+  "d": "Yeni kurulan Şiî devletin kendi ülkesinde yetişmiş yeterli sayıda Oniki İmam fıkıh âlimi yoktu; İsmail, bugünkü Lübnan'daki Cebel Âmil bölgesinden Arap Şiî ulemasını (başlarında sonradan Muhakkik-i Kerekî) İran'a davet etmeye başladı. Bu göç dalgası, bir asır içinde İran'da yerli bir Şiî fıkıh geleneğinin kurulmasının temel taşı oldu.",
+  "kaynak": "Encyclopaedia Iranica, madde: JABAL ʿĀMEL",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1512-11-01",
+  "b": "Gucduvan Muharebesi — Necm-i Sâni'nin ölümü, Mâverâünnehir'in kaybı",
+  "tur": "kayip",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "kayip",
+   "konu-askeri",
+   "konu-kisiler"
+  ],
+  "d": "İsmail'in Mâverâünnehir'e (bugünkü Özbekistan) gönderdiği ordu, Özbek Ubeydullah Han karşısında Gucduvan'da bozguna uğradı; kumandan Necm-i Sânî öldürüldü. Bu yenilgi, Safevî'nin Mâverâünnehir'e kalıcı egemenlik kurma umudunu sona erdirdi ve doğu sınırını Amuderya'ya çekti — Çaldıran'dan iki yıl önce gelen ilk ciddi askerî darbe.",
+  "kaynak": "Encyclopaedia Iranica, madde: NAJM-E ṮĀNI",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1612-11-20",
+  "b": "Nasuh Paşa Antlaşması — 1555 sınırının teyidi",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "d": "Uzun savaşın ardından imzalanan bu antlaşma, esas olarak Amasya (1555) sınırını teyit etti ve Safevî'nin 1603-1607 arası kazanımlarını resmen tanıdı; ancak barış kısa sürdü, altı yıl sonra (1618) savaş yeniden alevlendi.",
+  "kaynak": "Cambridge History of Iran, c.6",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1613-08-01",
+  "b": "Birinci Kahetî (Gürcistan) seferi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "d": "Şah Abbas, tâbiiyetten çıkmaya çalışan Kahetî Kralı I. Teimuraz'a karşı sefer düzenledi; Gürcistan'ın Hıristiyan krallıkları (Kartli, Kahetî) üzerindeki Safevî hâkimiyeti bu ve izleyen 1616 seferiyle kanlı biçimde yeniden tesis edildi.",
+  "kaynak": "Encyclopaedia Iranica, madde: GEORGIA xi. Georgia-Iran Relations",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1616-01-01",
+  "b": "İkinci Kahetî seferi — büyük kıyım ve tehcir",
+  "tur": "kayip",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "askeri",
+   "goc",
+   "konu-askeri",
+   "konu-demografi"
+  ],
+  "d": "Teimuraz'ın yeniden isyanı üzerine Şah Abbas'ın ikinci seferi çok daha kanlı geçti; Gürcü kaynakları on binlerce kişinin öldürüldüğünü, çok sayıda Gürcünün de İran'ın iç bölgelerine sürgün edildiğini kaydeder. Bu olay Gürcü tarihyazımında \"büyük felaket\" (didi ghmerto) olarak anılan en ağır travmalardan biridir.",
+  "kaynak": "Encyclopaedia Iranica, madde: GEORGIA xi. Georgia-Iran Relations",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1618-09-10",
+  "b": "Serav Antlaşması — savaşın 1555 sınırına dönerek bitmesi",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "d": "1618'de yeniden alevlenen savaş, Serav (Selmas yakını) Antlaşması'yla sona erdi; sınır esas olarak Nasuh Paşa çizgisinde kaldı, ama Osmanlı savaş tazminatı ile ipek ihracı üzerinde ayrıcalıklar talep etti — bu madde bir sonraki on yılın gerginliğinin tohumunu attı.",
+  "kaynak": "Cambridge History of Iran, c.6",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1598-06-01",
+  "b": "Tüfekçi (Tofangchi) ve Kurçi ocaklarının kurumsallaşması",
+  "tur": "reform",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "askeri",
+   "reform",
+   "konu-askeri",
+   "konu-islahat"
+  ],
+  "d": "Gulâm süvarisiyle eşzamanlı olarak Şah Abbas, ateşli silahlı piyade (tüfekçi) ve şaha bağlı muhafız süvarisi (kurçi) birliklerini de yeniden düzenledi; üç birlik birlikte, Kızılbaş boy ordularının yerini alan merkezî, maaşlı bir daimi ordunun temelini oluşturdu — Osmanlı yeniçeri-sipahi ikilisine benzer bir yapı.",
+  "kaynak": "Encyclopaedia Iranica, madde: ARMY iv. Safavid Period",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1600-01-01",
+  "b": "Vilayetlerin \"has\" (hâlisa) topraklara dönüştürülmesi",
+  "tur": "reform",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "reform",
+   "konu-idari",
+   "konu-islahat"
+  ],
+  "d": "Şah Abbas, Kızılbaş emîrlerinin elindeki büyük eyaletlerin (Şirvan, Kirman, Fars gibi) bir kısmını doğrudan hazineye bağlı has topraklara çevirerek merkezî hazinenin gelirini artırdı ve aynı zamanda taşra emîrlerinin ekonomik gücünü kırdı; bu, gulâm reformunun malî ayağıydı.",
+  "kaynak": "Encyclopaedia Iranica, madde: ʿABBĀS I",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1611-01-01",
+  "b": "Sikke reformu — abbasî gümüş parasının standardizasyonu",
+  "tur": "ekonomi",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "islahat",
+   "konu-ekonomi",
+   "konu-islahat"
+  ],
+  "d": "Devletin adını taşıyan yeni bir gümüş sikke (abbasî) standart ağırlık ve ayarla basılmaya başlandı; bu, ipek ticaretinin getirdiği gümüş akışını düzenli bir para sistemine bağlama çabasının parçasıydı ve 18. yüzyıla dek İran'ın temel para birimi olarak kaldı.",
+  "kaynak": "Encyclopaedia Iranica, madde: COINAGE iv. Safavid",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1623-01-01",
+  "b": "Bender Abbas limanının kurulması",
+  "tur": "idari",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "ekonomi",
+   "imar",
+   "islahat",
+   "konu-idari",
+   "konu-ekonomi",
+   "konu-imar",
+   "konu-islahat"
+  ],
+  "d": "Hürmüz'ün Portekizlilerden alınmasının hemen ardından şah, ticareti karşı kıyıdaki yeni kurulan ve kendi adını taşıyan Bender Abbas limanına yönlendirdi; şehir kısa sürede Basra Körfezi'nin en önemli ticaret limanı hâline geldi ve Hürmüz'ün stratejik rolünü kalıcı olarak devraldı.",
+  "kaynak": "Encyclopaedia Iranica, madde: BANDAR ʿABBAS",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1598-01-01",
+  "b": "Kervan yolu ve kervansaray ağının genişletilmesi",
+  "tur": "ekonomi",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "idari",
+   "imar",
+   "konu-idari",
+   "konu-ekonomi",
+   "konu-imar"
+  ],
+  "d": "Şah Abbas, İsfahan'ı merkez alan ana ticaret yolları üzerine yüzlerce yeni kervansaray, köprü ve su kemeri inşa ettirdi (rivayete göre 999 kervansaray); bu altyapı yatırımı ipek ve diğer malların iç ve dış ticaretini büyük ölçüde kolaylaştırdı ve İsfahan'ın uluslararası bir ticaret merkezine dönüşmesini sağladı.",
+  "kaynak": "Encyclopaedia Iranica, madde: CARAVANSARY",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1600-01-01",
+  "b": "Safevî halı sanatının Avrupa'ya ihracı — \"Polonaise\" halıları",
+  "tur": "ekonomi",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "kultur",
+   "ekonomi",
+   "konu-ekonomi",
+   "konu-kultur"
+  ],
+  "d": "İsfahan ve Kâşân atölyelerinde ipek ve altın telle dokunan lüks halılar, Avrupa saraylarına (özellikle Polonya-Litvanya Birliği aristokrasisine, bu yüzden yanlışlıkla \"Polonaise\" adıyla anılırlar) ihraç edildi; bu ticaret Safevî sarayının uluslararası prestijinin ve devlet atölyesi (kârhâne) sisteminin bir göstergesiydi.",
+  "kaynak": "Encyclopaedia Iranica, madde: CARPETS xi. Safavid Period",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1600-01-01",
+  "b": "Meraga geleneğinin İsfahan'da devamı — özel rasathane çalışmaları",
+  "tur": "bilim",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "bilim",
+   "imar",
+   "konu-bilim",
+   "konu-imar"
+  ],
+  "d": "Timurlu Uluğ Bey rasathanesinin (Semerkant) mirasını taşıyan İranlı astronomlar, Safevî sarayında resmî bir kurumsal rasathane olmasa da takvim hesaplamaları ve zîc (yıldız cetveli) derlemeleri üzerinde çalışmaya devam etti; bu alan Safevî bilim tarihinin, mimarî ve tıbba göre nispeten az araştırılmış bir köşesidir.",
+  "kaynak": "ölçmedim — konu Encyclopaedia Iranica'nın ASTRONOMY maddesinde genel geçer biçimde anılıyor, Safevî'ye özel müstakil bir kaynak bu turda taranmadı",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1651-01-01",
+  "b": "Rus (Kazak) baskınlarının Hazar kıyısına ulaşması",
+  "tur": "savas",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "d": "Rusya'nın henüz devlet düzeyinde değil ama Kazak akıncı grupları eliyle Hazar Denizi güney kıyısına (Mâzenderân, Gîlân) yönelik ilk baskınları bu dönemde başladı; bu erken temaslar, bir asır sonra Petro'nun 1722-1723 Hazar seferiyle devlet düzeyine çıkacak Rus-İran ilişkisinin en eski işaretleridir.",
+  "kaynak": "Encyclopaedia Iranica, madde: RUSSIA i. Russo-Iranian Relations",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1714-01-01",
+  "b": "Sünni Afgan ve Belûclara yönelik zorla ihtida baskısı",
+  "tur": "din",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "din",
+   "isyan",
+   "konu-isyan",
+   "konu-din"
+  ],
+  "d": "Sultan Hüseyin döneminde doğu eyaletlerindeki Sünni Gilzai ve Abdâlî Afgan kabilelerine ve Belûc topluluklarına yönelik zorla Şiîleştirme girişimleri şiddetlendi; bu baskı politikası, 1709'daki Mir Veys isyanının ve onu izleyen büyük Afgan istilasının doğrudan tetikleyicilerinden biri olarak kaynaklarda geçer.",
+  "kaynak": "Encyclopaedia Iranica, madde: AFGHANISTAN v. AFGHANS IN SAFAVID PERIOD",
+  "yer_id": "",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1729-02-01",
+  "b": "Tahmasb II'nin Nadir'in gölgesinde nominal şahlığı",
+  "tur": "hukumdar",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi",
+   "konu-hanedan"
+  ],
+  "d": "Şah Sultan Hüseyin'in oğlu Tahmasb, Afgan istilasından Mazenderan'a kaçıp kendini şah ilan etmişti; Nadir onun adına savaşarak Afganları yendiyse de fiilî iktidarı hiçbir zaman Tahmasb'a bırakmadı — Safevî hânedanının artık yalnız SEMBOLİK bir meşruiyet kaynağı olarak kullanıldığı dönem burada başlar.",
+  "kaynak": "Encyclopaedia Iranica, madde: ṬAHMĀSP II",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_safevi.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1732-08-01",
+  "b": "Nadir'in Tahmasb II'yi tahttan indirip bebek III. Abbas'ı şah ilan etmesi",
+  "tur": "darbe",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "darbe",
+   "darbe-askeri",
+   "konu-siyasi",
+   "konu-darbe"
+  ],
+  "d": "Nadir, kendi otoritesini artık tam anlamıyla gölgeleyen Tahmasb'ı sarhoşluk ve beceriksizlik bahanesiyle tahttan indirip yerine sekiz aylık oğlu III. Abbas'ı nominal şah ilan etti; bir bebeğin adına naiplik yapmak, Nadir'e dört yıl sonra kendi hânedanını kurana dek gerekli meşruiyet örtüsünü sağladı.",
+  "kaynak": "Encyclopaedia Iranica, madde: ʿABBĀS III",
+  "yer_id": ""
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1381-01-01",
+  "b": "Timur'un İran seferleri başladı",
+  "tur": "sefer",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "sefer",
+   "konu-askeri"
+  ],
+  "d": "[Timurlu] Orta Asya'dan yükselen Timur (Aksak Timur), on yıl içinde bütün fetret dönemi hânedanlarını (Muzafferî, Celâyirli, Kertler) birer birer yıkarak İran'ı yeniden tek bir hâkimiyet altında birleştirdi; İsfahan'ın 1387'deki katliamı bu seferlerin en acımasız hâdisesiydi. İran tarihyazımında bu, bir buçuk asırlık parçalanmanın kesin sonu sayılır.",
+  "kaynak": "timur (TDV, doğrulanmış — data/olaylar*.js kullanıyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1578-01-01",
+  "b": "Osmanlı-Safevî Savaşı başladı (1590'a dek)",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "d": "[Safevî] Safevî'deki veraset krizinden yararlanan III. Murad, Kafkasya ve Azerbaycan'a sefer düzenledi; on iki yıl süren savaş Safevî için ağır toprak kayıplarıyla, Ferhad Paşa Antlaşması'yla sonuçlandı.",
+  "kaynak": "ferhad-pasa-antlasmasi (TDV — MÜSTAKİL MADDESİ YOK, hükümleri luristan maddesinden derlendi, CLAUDE.md §4'te belgeli)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1598-01-01",
+  "b": "Gulâm ordu reformu — Kızılbaş gücünün dengelenmesi",
+  "tur": "reform",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "askeri",
+   "reform",
+   "konu-askeri",
+   "konu-islahat"
+  ],
+  "d": "[Safevî] Şah Abbas, Kafkas kökenli (Gürcü, Ermeni, Çerkes) devşirme kölelerden (gulâm) oluşan, doğrudan şaha bağlı yeni bir ordu ve bürokrasi kurarak Kızılbaş Türkmen boylarının siyasi tekelini kırdı — Osmanlı yeniçeri sisteminin bir benzeri. Bu reform, Safevî devletinin merkezî otoritesini kalıcı olarak güçlendiren en önemli kurumsal dönüşüm sayılır.",
+  "kaynak": "Encyclopaedia Iranica, madde: ḠOLĀM",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1723-06-24",
+  "b": "Osmanlı, İran'ın batı topraklarını işgale başladı",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "d": "[Afgan işgali / Safevî çöküşü] Safevî otoritesinin çökmesinden yararlanan Osmanlı Devleti, Hemedan, Kirmanşah ve Tebriz dahil batı İran'ı işgal etti; aynı dönemde Rusya da Petro'nun Hazar seferiyle kuzey kıyılarını (Bakü, Derbend) ele geçirdi — İran topraklarının iki büyük komşusu arasında fiilen paylaşıldığı bir dönem.",
+  "kaynak": "Encyclopaedia Iranica, madde: OTTOMAN-PERSIAN RELATIONS",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1750-01-01",
+  "b": "Kerim Han Zend'in yükselişi başladı",
+  "tur": "kurulus",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "kurulus",
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "d": "[Zend] Nadir Şah'ın ölümünden sonraki kargaşada Lur kökenli Kerim Han, rakip iddiacıları bertaraf ederek İran'ın büyük kısmında hâkimiyet kurdu; kendini \"şah\" değil \"vekîl-i re'âyâ\" (halkın vekili) olarak adlandırması, İran tarihyazımında istisnai bir alçakgönüllülük örneği olarak hatırlanır.",
+  "kaynak": "Encyclopaedia Iranica, madde: KARIM KHAN ZAND",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1826-07-19",
+  "b": "İkinci Rus-İran Savaşı başladı (1828'e dek)",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "d": "[Kaçar] Veliaht Abbas Mirza'nın Batı tarzı orduyla yeniden toparlanma umuduyla açtığı savaş, yine ağır bir Rus üstünlüğüyle sonuçlandı; Tebriz bile kısa süreliğine işgal edildi. İran tarihyazımında bu, Gülistan'ın kaybını telafi etme umudunun tamamen söndüğü ikinci ve son büyük travmadır.",
+  "kaynak": "Encyclopaedia Iranica, madde: RUSSIA vii. Russo-Persian Wars",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1891-12-01",
+  "b": "Tütün İsyanı — büyük fetva ve kitlesel boykot",
+  "tur": "isyan",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "ic",
+  "etiket": [
+   "isyan",
+   "din",
+   "konu-isyan",
+   "konu-din"
+  ],
+  "d": "[Kaçar] Büyük müctehid Mirza Hasan Şirazi'nin tütün kullanımını yasaklayan fetvası, sarayın kendi hareminden en yoksul köylere kadar bütün ülkede kitlesel bir boykota dönüştü; şah imtiyazı iptal etmek zorunda kaldı. İran tarihyazımında bu, ulemâ-tüccar-halk ittifakının yabancı ekonomik nüfuza karşı ilk BAŞARILI kitlesel direnişi ve 1906 Meşrutiyet Devrimi'ne giden yolun ilk büyük adımı sayılır — Rusya'daki 1905'in İran'daki 1917 düzeyinde bir öncü provası.",
+  "kaynak": "Encyclopaedia Iranica, madde: TOBACCO PROTEST",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1907-08-31",
+  "b": "1907 İngiliz-Rus Antlaşması — İran nüfuz bölgelerine bölündü",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "diplomasi",
+   "konu-diplomasi"
+  ],
+  "d": "[Kaçar] İngiltere ve Rusya, İran'ın rızası alınmadan ülkeyi kuzeyde Rus, güneydoğuda İngiliz nüfuz bölgesi ve ortada tarafsız bir kuşak olmak üzere fiilen üçe böldü; bu antlaşma \"Büyük Oyun\"un resmî sonu ve İran egemenliğinin iki büyük güç tarafından açıkça hiçe sayıldığı, ülkenin bağımsızlığına en ağır darbelerden biri sayılır — aynı zamanda dünya sisteminde İngiliz-Rus rekabetini WWI öncesi ittifak yapısına (Fransa-Rusya-İngiltere) doğru kaydıran bölgesel bir güç dengesi antlaşmasıdır.",
+  "kaynak": "Encyclopaedia Iranica, madde: ANGLO-RUSSIAN CONVENTION OF 1907",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1555-01-01",
+  "b": "İran halı ve ipek dokuma sanayii zirveye ulaştı",
+  "tur": "kultur",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "kultur",
+   "ekonomi",
+   "konu-ekonomi",
+   "konu-kultur",
+   "konu-sanayi"
+  ],
+  "d": "[Safevî] I. Tahmasb döneminde saray atölyelerinde üretilen İran halıları (bugün Ardebil Halısı gibi örnekleriyle dünya müzelerinde), Safevî sanatının ve ekonomisinin Avrupa'ya kadar ulaşan itibarının simgesi oldu.",
+  "kaynak": "Encyclopaedia Iranica, madde: CARPETS",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1618-09-26",
+  "b": "Osmanlı-Safevî Savaşı (Nasuh Paşa sonrası) yeniden alevlendi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "d": "[Safevî] 1612 Nasuh Paşa Antlaşması'nın kısa ömürlü barışının ardından savaş yeniden başladı; Şah Abbas'ın orduları Van ve Kars bölgesinde yeni kazanımlar elde etti, 1618 Serav Antlaşması'yla sınır büyük ölçüde korunarak barış yeniden tesis edildi.",
+  "kaynak": "Encyclopaedia Iranica, madde: OTTOMAN-PERSIAN RELATIONS",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1600-01-01",
+  "b": "İpek ticareti devlet tekeline alındı",
+  "tur": "ekonomi",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "konu-ekonomi"
+  ],
+  "d": "[Safevî] Şah Abbas, Gîlân ve Mâzenderân'ın ham ipek üretimini devlet tekeline alıp Avrupa (özellikle İngiliz ve Hollanda Doğu Hindistan şirketleri) ile doğrudan ticaret anlaşmaları yaptı; bu, Safevî hazinesinin en büyük gelir kaynaklarından birini oluşturdu.",
+  "kaynak": "Encyclopaedia Iranica, madde: SILK TRADE",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1699-01-01",
+  "b": "Belûc ve Afgan sınır boylarında merkezî otoritenin zayıflaması",
+  "tur": "idari",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "konu-idari"
+  ],
+  "d": "[Safevî] Şah Sultan Hüseyin döneminde doğu sınırındaki Gilzai ve Abdâlî Afgan kabileleri üzerindeki merkezî denetim iyice zayıfladı; bu boşluk on yıl içinde Mir Veys'in isyanına ve nihayetinde 1722 İsfahan işgaline giden yolu açtı.",
+  "kaynak": "Encyclopaedia Iranica, madde: AFGHANISTAN v. AFGHANS IN SAFAVID PERIOD",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1730-01-01",
+  "b": "Osmanlı ile savaş yeniden başladı (1736'ya dek, aralıklı)",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "d": "[Afşar / geçiş dönemi] Nadir'in İran'ı toparlama sürecinde Osmanlı, batı eyaletlerindeki (Hemedan, Kirmanşah, Tebriz) işgalini korumaya çalıştı; Nadir'in art arda kazandığı zaferlerle bu topraklar adım adım geri alındı ve 1736'da Kerden'de teyit edilen sınıra dönüldü.",
+  "kaynak": "Encyclopaedia Iranica, madde: OTTOMAN-PERSIAN RELATIONS",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1873-01-01",
+  "b": "Nâsırüddin Şah'ın ilk Avrupa seyahati",
+  "tur": "diplomasi",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "kultur",
+   "konu-diplomasi",
+   "konu-kultur"
+  ],
+  "d": "[Kaçar] Nâsırüddin Şah, bir İran hükümdarının Avrupa'ya yaptığı ilk resmî seyahatte Rusya, Almanya, İngiltere ve Fransa'yı ziyaret etti; seyahat notları İran'da yayımlanarak aydınlar arasında Batı'yla karşılaştırmalı bir modernleşme tartışmasını ateşledi.",
+  "kaynak": "Encyclopaedia Iranica, madde: NĀṢER-AL-DIN SHAH QAJAR ii. TRAVEL DIARIES",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1909-04-14",
+  "b": "Anglo-Persian Oil Company kuruldu",
+  "tur": "ekonomi",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "ekonomi",
+   "konu-ekonomi"
+  ],
+  "d": "[Kaçar] Mesced-i Süleyman keşfinin ardından kurulan şirket (bugünkü BP'nin atası), İran petrolünün işletilmesini uzun on yıllar boyunca İngiliz kontrolüne verdi; bu, 1951 millîleştirme krizine kadar uzanacak bir egemenlik tartışmasının başlangıcıdır.",
+  "kaynak": "Encyclopaedia Iranica, madde: ANGLO-PERSIAN OIL COMPANY",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1917-01-01",
+  "b": "1917-1919 büyük kıtlığı",
+  "tur": "diger",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "diger",
+   "ekonomi",
+   "konu-ekonomi",
+   "afet",
+   "afet-kitlik"
+  ],
+  "d": "[Kaçar] Savaşın yol açtığı ticaret kesintisi, ordu ikmali için el konulan tahıl stokları ve kuraklığın birleşmesiyle İran, tahminen nüfusunun beşte birini kaybettiği bir kıtlık yaşadı; bu felaket İran tarihyazımında modern dönemin en ağır insani felaketlerinden biri olarak, merkezî devletin savaş yıllarındaki tam çöküşünün kanıtı sayılır.",
+  "kaynak": "Encyclopaedia Iranica, madde: FAMINE ii. IN THE QAJAR PERIOD",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1922-01-01",
+  "b": "Şeyh Hazal ve Simko Kürt isyanlarının bastırılması",
+  "tur": "isyan",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "isyan",
+   "askeri",
+   "konu-askeri",
+   "konu-isyan",
+   "konu-din"
+  ],
+  "d": "[Kaçar] Rıza Han'ın komutasındaki yeni merkezî ordu, Huzistan'da yarı bağımsız Şeyh Hazal'ı ve kuzeybatıda Simko Şikak'ın Kürt isyanını bastırarak eyaletler üzerindeki merkezî denetimi yeniden kurdu; bu askerî başarılar Rıza Han'ın 1921 darbesinden sonraki iktidarını pekiştiren temel dayanaklardan biriydi.",
+  "kaynak": "Encyclopaedia Iranica, madde: REZA SHAH",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1253-01-01",
+  "b": "Büyük Han Mengü, kardeşi Hülâgû'yu batıya görevlendirdi",
+  "tur": "siyaset",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "askeri",
+   "kurulus",
+   "konu-askeri",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "Moğol Büyük Hanı Mengü, 1253 yılında bir kurultay kararıyla kardeşi Hülâgû'yu İran, Irak, Suriye, Mısır, Kafkasya ve Anadolu'yu ele geçirip buraları kendisine tâbi bir 'ilhan' (il+han, bölge hükümdarı) olarak idare etmek üzere görevlendirdi. İlhanlı Devleti'nin siyasî doğum belgesi bu kurultay kararıdır; devlet adını da Hülâgû'nun taşıdığı bu unvandan alacaktır. Karargâhı Karakorum'da olan bir sefer emri, yüz yıl sürecek bir devlete dönüşmüştür.",
+  "kaynak": "ilhanlilar"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1260-09-03",
+  "b": "Aynicâlût Savaşı — Moğol ilerleyişi Memlükler karşısında durdu",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 5,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak-kayip",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Hülâgû, ağabeyi Mengü'nün ölümü üzerine Karakorum'a giderken ordusunu Ketboğa Noyan'a bıraktı. Filistin'de Aynicâlût'ta Memlük Sultanı Kutuz Moğol ordusunu bozguna uğrattı (3 Eylül 1260) ve Ketboğa öldürüldü. İlhanlı kuvvetleri Fırat kıyılarına çekildi; Suriye, Filistin ve Kuzey Irak tahliye edildi. Moğol istilâsı Mısır ve Mağrib'e hiç ulaşamadı — İslâm dünyasının batı yarısı bu savaşla kurtuldu.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Aynicâlût (Ayn Câlût) veride kayıtlı değildir.",
+  "kaynak": "ilhanlilar"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1277-04-15",
+  "b": "Elbistan Savaşı — Baybars Anadolu'da İlhanlı ordusunu yendi",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Memlük Sultanı I. Baybars Anadolu'ya girdi ve Elbistan'da İlhanlı ordusunu yendi (1277). Abaka'nın buna cevabı, Baybars'ı davet eden Selçuklu ümerâsına duyduğu öfkeyle binlerce insanı öldürtmek oldu; bu kıyım müslümanların hâfızasında yıllarca silinmeyen bir iz bıraktı. Anadolu'nun İlhanlı'ya karşı duyduğu husumetin kökeni bu olaydadır.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Elbistan veride kayıtlı değildir.",
+  "kaynak": "ilhanlilar"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1295-06-19",
+  "b": "Gāzân Han Lâr vadisinde müslüman oldu ve Mahmud adını aldı",
+  "tur": "din",
+  "onem": 5,
+  "dunya": 4,
+  "kapsam": "ic",
+  "etiket": [
+   "din",
+   "hukumdar",
+   "donusum",
+   "konu-hanedan",
+   "konu-din",
+   "konu-islahat"
+  ],
+  "yer_id": "",
+  "d": "Gāzân, kumandanlarından halasının kocası Nevrûz Bey'in teşvikiyle Elburz'da Lâr vadisinde müslüman oldu ve Mahmud adını aldı (19 Haziran 1295). Yanındaki 100.000 asker de onunla birlikte ihtidâ etti. Bu, bir hükümdarın kişisel tercihinden çok bir ordunun din değiştirmesidir ve İran'ın Moğol fâtihlerinin İslâm dünyasına eklemlenmesinin dönüm noktasıdır.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Elburz'daki Lâr vadisi veride kayıtlı değildir; Fars'taki 'Lâr' ile karıştırılmaması için yer_id boş bırakıldı.",
+  "kaynak": "gazan-han"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1299-12-22",
+  "b": "Vâdilhâzindâr Savaşı — Moğol ordusu Dımaşk'a girdi",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Memlük Sultanı Kalavun'un halefi 1299 Eylülünde Mısır'dan hareket etti; Hama-Humus arasındaki Vâdilhâzindâr'da meydana gelen savaşı Moğol ordusu kazandı (22 Aralık 1299) ve ileri harekâta devam ederek Ocak 1300'de Dımaşk'a girdi. Aynicâlût'tan otuz dokuz yıl sonra Moğol ordusunun Suriye'ye girdiği tek andır; ama işgal birkaç ay sürecektir.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Vâdilhâzindâr veride kayıtlı değildir.",
+  "kaynak": "gazan-han"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1302-04-12",
+  "b": "Gāzân Han Papa VIII. Bonifacius'a mektup yazdı",
+  "tur": "diplomasi",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "din",
+   "konu-diplomasi",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Suriye ve Mısır'a hâkim olma arzusundan vazgeçmeyen Gāzân Han, 12 Nisan 1302'de Papa VIII. Bonifacius'a mektup yazarak Memlüklere karşı hıristiyan devletlerinin desteğini sağlamaya çalıştı, fakat sonuç alamadı. Müslüman olmuş bir Moğol hükümdarının papalıkla ittifak araması, İlhanlı dış siyasetinin dinî değil jeopolitik olduğunu gösterir.",
+  "ic_not_d": "`kapsam_genis` — muhatabı Avrupa'dır, tek bir yere bağlanamaz.",
+  "kaynak": "gazan-han",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1303-04-20",
+  "b": "Dımaşk yenilgisi — Suriye ümidi kesin olarak bitti",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak-kayip",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Moğol ordusuyla Memlük kuvvetleri arasında Dımaşk yakınlarında meydana gelen savaş Memlükler'in zaferiyle neticelendi (2 Ramazan 702 / 20 Nisan 1303). Bu yenilgi İlhanlı'nın Suriye üzerindeki elli yıllık iddiasını fiilen sona erdirdi; Gāzân Han üzüntüsünden yeni bir sefere çıkma imkânı bulamadan öldü.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Dımaşk (Şam) bu atlasın penceresi içinde ama madde İran ardılları dosyasında olduğu için yer_id boş bırakıldı — savaş alanı şehrin kendisi değildir.",
+  "kaynak": "gazan-han"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1303-08-01",
+  "b": "Gāzân Han'ın toprak tahriri ve iktâ dağıtımı",
+  "tur": "reform",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "reform",
+   "idari",
+   "toprak",
+   "mali",
+   "konu-askeri",
+   "konu-idari",
+   "konu-ekonomi",
+   "konu-islahat"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.",
+  "ic_not_d": "İmparatorluk çapında olduğu için `yer_id` boştur.",
+  "kaynak": "incu"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1300-01-01",
+  "b": "Gāzân Han'ın vergi ve posta reformu — menzilhâneler",
+  "tur": "reform",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "reform",
+   "idari",
+   "mali",
+   "ulasim",
+   "konu-idari",
+   "konu-ekonomi",
+   "konu-islahat",
+   "konu-ulastirma"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Gāzân Han âdeta soygun derecesine ulaşan vergileri düzene koydu, kanun ve teamülleri gözden geçirip bazılarını kaldırdı, vergilerin âdil tahsili için görevlilere ağır cezaî hükümler getirdi. Posta teşkilâtını ıslah için menzilhâneler yaptırarak ulakların buralarda dinlenmesini sağladı ve böylece halkı tâciz etmelerini engelledi. Kumandanlara hizmet karşılığı dirlik verdi.",
+  "ic_not_d": "⚠️ TARİH HAKKINDA: kaynak bu düzenlemelerin yıl yıl sırasını vermiyor; madde saltanatın reform yılları olan dönemin ortasına bağlandı, bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
+  "kaynak": "ilhanlilar"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1305-01-01",
+  "b": "Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh",
+  "gun": "Olcaytu devri",
+  "tur": "diplomasi",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "ittifak",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Olcaytu, Memlük düşmanlığını sürdürürken Avrupa'ya yaklaştı ve Anadolu'da Selçuklu Devleti'nin yerini alan Türkmen beyliklerine karşı Bizans'ın yardımına gitti; II. Andronikos Palaiologos'un kızı ile evlendi. Bir Moğol ilhanının Bizans'la akrabalık kurması, Anadolu'daki Türkmen yükselişinin iki eski rakibi aynı safta buluşturduğunu gösterir.",
+  "ic_not_d": "TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
+  "kaynak": "ilhanlilar"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1323-01-01",
+  "b": "Memlüklerle barış antlaşması — altmış yıllık savaş bitti",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "diplomasi",
+   "baris",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Memlükler ile yıllardır devam eden mücadeleye 1323'te yapılan bir antlaşmayla son verildi. Aynicâlût'tan (1260) beri altmış üç yıl süren düşmanlık böylece kapandı; iki devlet arasında ticaret ve hac yolları yeniden açıldı.",
+  "ic_not_d": "`kapsam_genis` — antlaşma iki devletin bütün sınırını bağlar.",
+  "kaynak": "ilhanlilar",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1402-07-28",
+  "b": "Ankara Savaşı — Celâyirli ve Karakoyunlu sığınmacıları savaşın sebeplerinden",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "diplomasi",
+   "konu-askeri",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Timur'un, yanına sığınan Ahmed Celâyir ile Kara Yûsuf'un kendisine teslim edilmesini istemesi ve bu isteğin Yıldırım Bayezid tarafından reddedilmesi, Ankara Savaşı'na (1402) sebebiyet veren olaylardan biridir.",
+  "ic_not_d": "📌 `dunya:4` puanı `data/kronoloji_akkoyunlu.js`ten DEVRALINDI. ⚠️ YER HAKKINDA: savaş alanı Ankara'dır ve bu dosyanın konusu değildir; madde yalnız sebep zincirini taşıdığı için `yer_id` boş bırakıldı.",
+  "kaynak": "celayirliler"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1391-01-01",
+  "b": "Şah Mansûr, Zeynelâbidîn'i Rey'de yakalatıp gözlerine mil çektirdi",
+  "tur": "ic-savas",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ic-savas",
+   "siyaset",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "Zeynelâbidîn'in yokluğunda Şîraz'da tahta oturan Mansûr b. Şerefeddin Muzaffer, onu tuzağa düşürüp zindana attı; kurtulup İsfahan'a giden Zeynelâbidîn'in saldırısı sonuçsuz kaldı. Bütün Irak'a hâkim olan Şah Mansûr 793 (1391) yılında onu Horasan'a kadar takip ettirdi ve Rey'de yakalandığında gözlerine mil çektirdi.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Rey (Reyy) veride KAYITLI DEĞİLDİR — bu eksik koordinatöre sayıyla bildirilmiştir.",
+  "kaynak": "muzafferiler"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1246-01-01",
+  "b": "Şemseddin, Mültan'ı 100.000 dinar karşılığında yağmadan kurtardı",
+  "tur": "diplomasi",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "aracilik",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Şemseddin, Moğollar'la ilişkisini hiç gerginleştirmedi; ancak kendisinden yardım isteyen müslüman şehirleri adına onlara tavassutta bulunurdu. Mültan kuşatması sırasında (644/1246) valinin ricasıyla Moğollar'ı ikna etmiş ve 100.000 dinar karşılığında şehri yağmalanmaktan kurtarmıştır.",
+  "ic_not_d": "📌 Kert hânedanının bütün siyaseti bu tek cümlede özetlenir: Moğol'a itaat ederek müslümanı korumak. ⚠️ YER HAKKINDA: Mültan bu atlasın penceresi dışındadır.",
+  "kaynak": "kert"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1257-01-01",
+  "b": "Mültan Valisi Kaşlu Han, Şemseddin'in aracılığıyla Moğol hâkimiyetine girdi",
+  "tur": "diplomasi",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "siyaset",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "655'te (1257) Delhi sultanı ile arası açılan Mültan Valisi İzzeddin Balban Kaşlu Han, Şemseddin'in gayretleriyle Moğol hâkimiyetine girdi. Kert meliki bölgedeki melikler ve valiler arasında Moğol nüfuzunun yayılması için de çalışıyordu; aracılık hem koruma hem genişletme aracıydı.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Mültan bu atlasın penceresi dışındadır.",
+  "kaynak": "kert"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1265-01-01",
+  "b": "Şemseddin, Hülâgû'nun yanında yer aldı ve Muhammed Karluk'a saldırdı",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "siyaset",
+   "konu-askeri",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "1260'tan itibaren Cengiz Han'ın torunları arasında başlayan mücadelede Şemseddin'in müslüman Berke Han'ı desteklemesi beklenirken siyasî sebeplerle Hülâgû'nun yanında yer aldı; hatta onun emriyle Moğollar'a direnen bazı müslüman emirlikleriyle savaştı. Delhi sultanına yardım eden Kuh-ı Cud ve Binban Emîri Muhammed Karluk bu sebeple onun hücumuna uğradı (1265) ve bölge Moğol hâkimiyetine girdi.",
+  "ic_not_d": "⚠️ YER HAKKINDA: Kuh-ı Cud ve Binban bu atlasın penceresi dışındadır.",
+  "kaynak": "kert"
+ },
+ {
+  "dosya": "kronoloji_iran_ardillari.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1184-01-01",
+  "b": "Lur-ı Küçek Atabegliği kuruldu — Bersekiyân idaresinin sonu",
+  "tur": "kurulus",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "kurulus",
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "Selçuklular zamanında Bersekiyân adlı bir Türk aşireti Luristan'da yönetimi ele geçirmiş ve hâkimiyetini Lur-ı Kûçek hânedanı zamanına (1184-1597) kadar sürdürmüştü. Luristan'ın kuzey ve batısında kurulan bu atabeglik dört yüz on üç yıl yaşamış, İlhanlı'yı, Timurlu'yu ve Akkoyunlu'yu görmüş, ancak Safevîler'in merkezîleşmesine dayanamamıştır.",
+  "ic_not_d": "🔴 YER HAKKINDA: Lur-ı Kûçek'in merkezi Hürremâbâd'dır ve BU AD VERİDE KAYITLI DEĞİLDİR (2610 yerleşim adı tarandı, eşleşme yok). Uydurma yapılmadı, `yer_id` boş bırakıldı ve eksik koordinatöre sayıyla bildirildi.",
+  "kaynak": "luristan"
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1567-01-01",
+  "b": "Mutahhar isyanı — Yemen ikiye bölündü",
+  "tur": "isyan",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "isyan",
+   "savas",
+   "konu-askeri",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "Yerel lider Mutahhar b. Şerefeddin'in başlattığı geniş çaplı ayaklanma, Osmanlı idaresini Yemen'in büyük kısmından sürdü; ülke fiilen Osmanlı'nın elinde kalan bölge ile isyancıların denetimindeki bölge olarak ikiye ayrıldı. Bu, imamet çevresindeki direnç ağının Osmanlı'ya karşı ilk büyük başarısıydı.",
+  "kaynak": "TDV `yemen`: '1567: Mutahhar isyan etti, Yemen ikiye bölündü.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1608-01-01",
+  "b": "İmam Kāsım b. Muhammed ile on yıllık antlaşma",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Kāsımî hanedanının kurucusu İmam el-Mansûr Kāsım b. Muhammed ile Osmanlı beylerbeyi Câfer Paşa arasında on yıllık bir barış anlaşması imzalandı — imamet artık Osmanlı idaresiyle resmî düzeyde pazarlık edebilecek kadar güçlenmişti.",
+  "kaynak": "TDV `yemen`: '1608: İmam Kāsım b. Muhammed ile on senelik antlaşma yapıldı.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1619-01-01",
+  "b": "Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "İlk antlaşmanın süresi dolunca beylerbeyi Mehmed Paşa ile Zeydî imamet arasında yeni bir on yıllık barış imzalandı; ama bu kez denge imametten yanaydı — bir sonraki imam Müeyyed döneminde barış tek taraflı bozulacaktı.",
+  "kaynak": "TDV `yemen`: '1028/1619: Mehmed Paşa ve Zeydîler arasında on yıllık antlaşma imzalandı.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1630-08-01",
+  "b": "Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma",
+  "tur": "antlasma",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Vezir ve serasker Kansu Paşa'nın kethüdâsı kuşatılıp zor durumda kalınca, Muharrem 1040'ta (Ağustos 1630) İmam Müeyyed ile geçici bir anlaşma yapıldı; ancak barış üç yıl sonra (1633) yeniden bozulacaktı — Osmanlı çekilişinin artık kaçınılmaz olduğunun işareti.",
+  "kaynak": "TDV `yemen`: 'Muharrem 1040 (Ağustos 1630): Kansu Paşa İmam Müeyyed ile anlaşma yaptı.' · '1043/1633: Anlaşma bozuldu.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1681-01-01",
+  "b": "Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası",
+  "tur": "siyaset",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "Bir dönem imamet içi bir yönetici olan Ahmed b. Hasan, Yemen'i Osmanlı padişahı adına yönettiğini ileri sürdü — Osmanlı'nın fiilen yıllardır Yemen'de bulunmadığı bir dönemde bu iddianın pratikte bir karşılığı olmadığı, sembolik/diplomatik bir jest olduğu anlaşılıyor.",
+  "kaynak": "TDV `yemen`: '1681: Ahmed b. Hasan Yemen'i Osmanlı adına yönettiğini belirtti.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1889-01-01",
+  "b": "Zeydîler isyan etti",
+  "tur": "isyan",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "isyan",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "Vilâyet idaresine karşı yaygın bir Zeydî ayaklanması patlak verdi; imamet hattı, doğrudan Osmanlı idaresi altında bile direniş kapasitesini korumaya devam ediyordu.",
+  "kaynak": "TDV `yemen`: '1889: Zeydîler isyan etti.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1895-01-01",
+  "b": "Hüseyin Hilmi Paşa isyanı bastırdı",
+  "tur": "savas",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "savas",
+   "konu-askeri",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "1889 isyanının uzantısı olan direniş, Hüseyin Hilmi Paşa'nın seferiyle bastırıldı; ama bastırma kalıcı olmayacak, yedi yıl sonra çok daha büyük bir ayaklanma (İmam Yahyâ'nınki) başlayacaktı.",
+  "kaynak": "TDV `yemen`: '1895: Hüseyin Hilmi Paşa isyanı bastırdı.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1507-01-01",
+  "b": "Portekiz, Uman kıyı şehirlerini işgale başladı",
+  "tur": "isgal",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "isgal",
+   "savas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Afonso de Albuquerque komutasındaki Portekiz donanması, Hint Okyanusu ticaret yolunu denetlemek amacıyla Uman'ın kıyı şehirlerini (Maskat dahil) ele geçirmeye başladı; yerli Nebhânî hâkimiyeti bu baskı altında sarsıldı ve bir asırdan uzun sürecek Portekiz varlığının önü açıldı.",
+  "kaynak": "TDV `uman`: '1507: Portekizli general Portekiz baskısı başladı.' (madde metninde Portekiz kıyı işgalinin başlangıcı olarak 1507 veriliyor)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1728-01-01",
+  "b": "İç savaş sona erdi, II. Seyf'in imameti kabul edildi",
+  "tur": "antlasma",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "antlasma",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Sekiz yıllık iç çatışmanın ardından kabileler II. Seyf'in imametini nihayet kabul etti; ama barış kalıcı olmayacak, on beş yıl sonra imamet Ya'rubî hanedanının elinden tamamen çıkacaktı.",
+  "kaynak": "TDV `yarubiler`: '1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1749-06-10",
+  "b": "Bû Saîd hanedanı resmen kuruldu",
+  "tur": "kurulus",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "kurulus",
+   "hukumdar",
+   "konu-siyasi",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Ahmed b. Saîd'in imamet makamını resmen ve kalıcı olarak devralmasıyla, bugüne (site ufkunun ötesine, 2020'lere) kadar sürecek Bû Saîd hanedanı kuruldu.",
+  "ic_not_d": "Tarih devletler.js'teki `umman` künyesinin kendi f: alanıyla birebir aynıdır.",
+  "kaynak": "devletler.js `umman` künyesi: '{ t:\"1749-06-10\", tur:\"hukumdar\", b:\"Bû Saîd hanedanı kuruldu\" }' — TDV `uman` maddesiyle uyumlu.",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1806-01-01",
+  "b": "Kuzeni Bedr b. Seyf bertaraf edildi",
+  "tur": "siyaset",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "Suûdîler'in desteklediği kuzeni Bedr b. Seyf'i bertaraf ederek Saîd b. Sultân kendi iktidarını sağlamlaştırdı — Uman'ın kuzey Arabistan'daki Vehhâbî nüfuzuyla ilk doğrudan sürtüşmelerinden biri.",
+  "kaynak": "TDV `said-b-sultan`: '1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı.'"
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1821-01-01",
+  "b": "Kardeşi Sâlim'in ölümüyle tek hükümdar oldu",
+  "tur": "hukumdar",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "hukumdar",
+   "konu-kisiler",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "On yedi yıl süren ortak yönetimin ardından kardeşi Sâlim'in ölümüyle Saîd b. Sultân, Uman ve Zengibar topraklarının tek hâkimi oldu.",
+  "kaynak": "TDV `said-b-sultan`: '1821 - Kardeşi Sâlim'in ölümüyle tek hükümdar oldu.'"
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1856-01-01",
+  "b": "Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü",
+  "tur": "bolunme",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "bolunme",
+   "olum",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "Elli iki yıllık hükümdarlığın ardından Saîd b. Sultân Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü ve Zengibar'a gömüldü. Mirası oğulları arasında bölündü: Mâcid Zengibar'da, Süveynî (Thuwaini) Maskat'ta kaldı — Uman ve Zengibar'ın iki ayrı devlete dönüşme sürecinin fiilî başlangıcı.",
+  "kaynak": "TDV `uman`: '1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı.' · TDV `said-b-sultan`: '1856 - Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü, Zengibar'a gömüldü.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1862-01-01",
+  "b": "Zengibar ve Uman ayrı devletler olarak tanındı",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "bolunme",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "İngiltere, Fransa ve Almanya'nın ortak kararıyla Zengibar ve Uman birbirinden tamamen bağımsız iki ayrı devlet olarak resmen tanındı — 1856'daki fiilî bölünme, altı yıl sonra uluslararası hukuken de kesinleşti.",
+  "kaynak": "TDV `uman`: '1862: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Uman birbirinden bağımsız iki ayrı devlet olarak tanındı.'",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1868-01-01",
+  "b": "Azzam b. Kays, Bû Saîd hattından son imam oldu",
+  "tur": "hukumdar",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "hukumdar",
+   "din",
+   "konu-hanedan",
+   "konu-din"
+  ],
+  "yer_id": "",
+  "d": "Azzam b. Kays'ın imamet makamına gelmesiyle Bû Saîd hattından gelen son İbâdî imam tahta çıktı; bu tarihten sonra Maskat sultanlığı fiilen dünyevi bir monarşiye dönüşecekti.",
+  "kaynak": "TDV `uman`: '1868: Azzam b. Kays becomes last imam from Bu Said line.'"
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1691-01-01",
+  "b": "Muhammed b. Berrâk, Necid'e akınlarını sürdürdü",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "savas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Kurucunun oğlu Muhammed, emirliğin nüfuzunu iç Necid'e doğru akınlarla genişletmeye devam etti — Benî Hâlid'in bölgesel bir güç olarak konumunu pekiştiren bir dönem.",
+  "kaynak": "devletler.js `benihalid` künyesi (devralındı, bkz. yukarıdaki not).",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_arabistan.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1830-01-01",
+  "b": "Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi",
+  "tur": "son",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "olum",
+   "son",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "Mâcid el-Ureyyir'in Aklâ savaşında ölmesiyle Lahsa, II. Suûdî Devleti'nin (Necid Emirliği) denetimine geçti ve Benî Hâlid emirliği 160 yıllık varlığının ardından kesin olarak sona erdi.",
+  "kaynak": "devletler.js `benihalid` künyesi: '1830: Mâcid el-Ureyyir Aklâ savaşında öldü; Lahsa Suûd ailesinin denetimine geçti, emirlik kesin olarak sona erdi.'"
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1476-01-01",
+  "b": "Altın Orda Hanı Seyyid Ahmed Kırım'ı istila etti",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Yıkılmakta olan Altın Orda'nın son büyük hanlarından Seyyid Ahmed, Kırım'a bir istila seferi düzenledi; genç hanlığın Osmanlı himayesine rağmen hâlâ eski süzereninden gelen tehditle karşı karşıya olduğunu gösterir.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1476-07-01",
+  "b": "Eminek Mirza komutasındaki Kırım birliği Boğdan'a (Moldavya) sefer düzenledi",
+  "tur": "savas",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Kırım kuvvetleri, Osmanlı'nın Boğdan Voyvodası Ştefan cel Mare ile mücadelesinde tarafını Osmanlı'dan yana koyarak sefere katıldı.",
+  "kaynak": "giray (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1511-01-01",
+  "b": "Moskova Knezliği'ne karşı Yagellonlar'la (Lehistan-Litvanya) sıkı ittifak siyaseti benimsendi",
+  "tur": "ittifak",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "ittifak",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Kırım, yükselen Moskova Knezliği'ne karşı Lehistan-Litvanya Birliği'yle uzun soluklu bir ittifak siyaseti izlemeye başladı; bu siyaset onlarca yıl (1520'de yenilenerek) sürecektir.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1520-01-01",
+  "b": "Yagellonlar'la ittifak yenilendi",
+  "tur": "diplomasi",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "ittifak",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "1511'de kurulan Kırım-Lehistan/Litvanya ittifakı yeniden teyit edildi; Moskova'ya karşı ortak cephe bir on yıl daha sürdürüldü.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1523-01-01",
+  "b": "I. Mehmed Giray, Nogaylar'ın baskınında öldürüldü",
+  "tur": "diger",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "Moskova'ya karşı akınlarıyla tanınan I. Mehmed Giray, bozkırdaki rakip güç Nogaylar'ın düzenlediği bir baskında hayatını kaybetti; hanlığın bozkır komşularıyla ilişkisinin ne denli kırılgan olduğunu gösteren bir olaydır.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1524-01-01",
+  "b": "Saadet Giray han oldu",
+  "tur": "hukumdar",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "taht",
+   "konu-siyasi",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "I. Mehmed Giray'ın ölümünün ardından Saadet Giray tahta çıktı ve 1532'ye kadar hüküm sürdü.",
+  "kaynak": "giray (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1532-01-01",
+  "b": "Eski Kazan hanı Sâhib Giray, Osmanlı desteğiyle Kırım tahtına çıktı; sekban vergisi başladı",
+  "tur": "hukumdar",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "tabiiyet",
+   "konu-siyasi",
+   "konu-hanedan",
+   "konu-ekonomi"
+  ],
+  "yer_id": "",
+  "d": "İstanbul'dan Sâhib Giray'a 60 topçu, 300 cebeci ve 1000 sekban gönderildi; bu askerî desteğin karşılığı olarak halktan \"sekban akçesi\" adıyla yeni bir vergi toplanmaya başlandı. Osmanlı'nın bir hanı doğrudan askerî güçle tahta oturtması, tâbiiyetin artık kâğıt üzerinde değil fiilen işlediğinin göstergesidir.",
+  "kaynak": "giray, kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1534-01-01",
+  "b": "Osmanlı metbûluğu Kırım'da kesin biçimde yerleşti",
+  "tur": "idari",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "siyaset",
+   "tabiiyet",
+   "konu-siyasi",
+   "konu-idari"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Sâhib Giray'ın tahta oturtulmasından iki yıl sonra Osmanlı üstünlüğü hanlığın idari ve askerî düzeninde tartışmasız biçimde yerleşti; bundan sonraki han değişiklikleri büyük ölçüde İstanbul'un onayına bağlı kalacaktır.",
+  "kaynak": "giray (TDV)"
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1565-01-01",
+  "b": "Devlet Giray, Osmanlı topçularının da bulunduğu ordusuyla kış aylarında Rusya'ya sefer düzenledi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Kazan ve Astarhan'ın kaybından sonra Devlet Giray, Osmanlı desteğini de alarak Moskova'ya karşı düzenli akın siyasetini sürdürdü.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1594-04-01",
+  "b": "II. Gazi Giray, Rusya ile bir barış antlaşması imzaladı",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "1591 seferinin ardından Kırım ile Rusya arasında geçici bir barış dönemi başladı.",
+  "kaynak": "gazi-giray-ii (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1648-01-01",
+  "b": "İslâm Giray, 1653'e dek birkaç kez Lehistan'a sefer düzenledi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Hmelnitski ittifakının parçası olarak Kırım kuvvetleri, izleyen beş yıl boyunca Lehistan topraklarına yönelik birkaç sefere daha katıldı; ittifak Kazakların çıkarlarıyla Kırım'ın çıkarları çatıştıkça zaman zaman gerginleşti.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1770-01-01",
+  "b": "Rus orduları Bucak bölgesini işgal etti",
+  "tur": "isgal",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Savaşın ikinci yılında Rus kuvvetleri, Kırım Hanlığı'nın batı ucundaki Bucak bozkırını işgal etti.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1782-10-01",
+  "b": "General Potemkin, Kırım'ın fiilî Rus işgalini başlattı",
+  "tur": "isgal",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "isgal",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Şâhin Giray'ın çöküşünün ardından General Potemkin, Ekim 1782'de Kırım'ın fiilî işgalini başlattı; ilhaka giden son adımdı.",
+  "kaynak": "sahin-giray (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1782-01-01",
+  "b": "Kırım'dan padişaha durumu bildiren mahzarlar (dilekçeler) gönderildi",
+  "tur": "diplomasi",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "diplomasi",
+   "konu-diplomasi",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "Rus işgali karşısında Kırım halkından bir kısmı, durumu bildirip yardım isteyen dilekçeleri (mahzar) İstanbul'a gönderdi; ancak Osmanlı Devleti bu aşamada askerî müdahale gücünden yoksundu.",
+  "kaynak": "kirim (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_kirim.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1792-01-01",
+  "b": "Yaş Antlaşması sonrası Osmanlı, Kırım Hanlığı'nı yeniden canlandırma fikrinden vazgeçti",
+  "tur": "son",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "1787-1792 Osmanlı-Rus Savaşı'nı bitiren Yaş Antlaşması'nın ardından Osmanlı Devleti, Kuban'daki sembolik hanlıkları da terk ederek Kırım Hanlığı'nı yeniden kurma fikrinden nihai olarak vazgeçti — hanedanın siyasi tarihinin gerçek kapanışı. Kapsam dışı (1783 sonrası) epilog maddesidir.",
+  "kaynak": "giray (TDV)",
+  "kapsam_genis": true
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1314-05-11",
+  "b": "Özbek Han İlhanlı hükümdarı Olcaytu'ya elçi gönderdi",
+  "tur": "diplomasi",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "siyaset",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Cülûsunun hemen ardından Özbek Han, Altın Orda'nın güneydeki büyük rakibi İlhanlılar'a elçi yolladı. İki Moğol devleti arasındaki Azerbaycan-Kafkasya çekişmesi Berke Han'dan beri sürüyordu; elçilik bu çekişmeyi bir süreliğine diplomasi zeminine çekme girişimidir.",
+  "ic_not_d": "yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
+  "kaynak": "TDV, madde: ozbek-han (11 Mayıs 1314 tarihli elçilik)"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1314-01-01",
+  "b": "Kahire'ye 174 kişilik büyük elçilik heyeti gönderildi — Memlük ittifakının tazelenmesi",
+  "tur": "diplomasi",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "siyaset",
+   "ittifak",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "d": "Özbek Han, Berke Han'dan beri süren Altın Orda-Memlük yakınlaşmasını yüz yetmiş dört kişilik olağanüstü kalabalık bir heyetle tazeledi. İki devleti birleştiren şey ortak düşmandı: İlhanlılar. Bu eksen, Kıpçak bozkırından Mısır'a giden köle (memlük) akışının da siyasî çerçevesidir. Gün bilinmediği için yıl başına yazıldı.",
+  "kaynak": "TDV, madde: ozbek-han — 174 kişilik Kahire elçiliği (GÜN VERİLMİYOR)"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1319-01-01",
+  "b": "Altın Orda kuvvetleri Trakya'yı yağmaladı — yağma kırk gün sürdü",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "yagma",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Altın Orda süvarileri Tuna'yı aşıp Bizans'ın Trakya topraklarına girdi ve TDV'nin ifadesiyle 'yağma kırk gün devam etti'. Özbek Han'ın kızkardeşi Bizans imparatoruyla evliydi; akın, hanlığın Balkanlar'daki nüfuzunun askerî yüzüdür.",
+  "ic_not_d": "yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
+  "kaynak": "TDV, madde: ozbek-han — 1319-1320 Trakya akını, 'yağma kırk gün devam etti'"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1320-05-16",
+  "b": "Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması",
+  "tur": "diplomasi",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "ittifak",
+   "sosyal",
+   "konu-diplomasi",
+   "konu-hanedan",
+   "konu-sosyal"
+  ],
+  "yer_id": "",
+  "d": "Memlük ittifakı bir evlilikle mühürlendi. Hanedanlar arası evlilik bozkır diplomasisinde bir anlaşma metninden daha bağlayıcıdır; İslâm'ın kabulüyle aynı yıla düşmesi de tesadüf değildir — Altın Orda artık Memlük Mısır'ıyla yalnız siyasî değil dinî bir ortaklık da kuruyordu.",
+  "kaynak": "TDV, madde: ozbek-han (16 Mayıs 1320)"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1380-09-08",
+  "b": "Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak-kayip",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Batı Deşt-i Kıpçak'ın hâkimi Mamay Mirza, Don'a dökülen Nepryadva boyundaki Kulikovo sahasında Moskova Knezi Dmitri'ye yenildi. Askerî sonucu kalıcı olmadı — iki yıl sonra Toktamış Moskova'yı yakıp haracı yeniden dayattı — ama Rus tarihyazımı bu günü Tatar boyunduruğuna direnişin sembolik başlangıcı sayar.",
+  "ic_not_d": "🔴 Altın Orda açısından asıl önemi şudur: yenilen han değil bir BEYDİ, ve yenilgisi Toktamış'a kapıyı açtı. yer_id boş: muharebe sahasının atlasta yerleşim kaydı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",
+  "kaynak": "TDV, madde: toktamis-han — '8 Eylül 1380 tarihinde Kulikovskaya savaşında Ruslar'a yenilerek Kırım'a dönen ... Mamay Mirza'; dunya:2 kronoloji_rusya.js:83'ten OKUNDU"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1380-01-01",
+  "b": "Toktamış, Kalka boyunda Mamay'ı yendi — yirmi yıllık kargaşa sona erdi, devlet yeniden birleşti",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "ic",
+  "etiket": [
+   "askeri",
+   "siyaset",
+   "ic-savas",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. 🔴 Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır.",
+  "ic_not_d": "⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil.",
+  "kaynak": "TDV, madde: toktamis-han — 'Don nehrine dökülen Kalka ırmağı boyunda mağlûp etti' (GÜN VERİLMİYOR)"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1391-06-01",
+  "b": "Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı",
+  "ic_not_b": "eski b öneki: 🔴",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak-kayip",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "d": "Toktamış'ı tahta çıkaran Timur'la arası Azerbaycan meselesi yüzünden açılmıştı. İki ordu Receb 793'te (Haziran 1391) Kunduzca (Kondurça) ırmağı boyunda karşılaştı; Toktamış ağır bir yenilgi aldı. Bu, Altın Orda'nın belini kıran iki seferin birincisidir.",
+  "ic_not_d": "⚠️ Kaynak ay veriyor, gün vermiyor — 06-01 ayın başına yazıldı, ölçülmüş gün değildir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok.",
+  "kaynak": "TDV, madde: toktamis-han — 'Receb 793 (Haziran 1391)' Kundurzha; TDV, madde: altin-orda-hanligi — '1391'de Kondurca'da' (GÜN VERİLMİYOR)"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1393-01-01",
+  "b": "Toktamış Han, Lehistan-Litvanya Kralı Jagiello'ya yarlık gönderdi — bozkır diplomasisinin belgesi",
+  "tur": "diplomasi",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "idari",
+   "hukuk",
+   "konu-idari",
+   "konu-diplomasi",
+   "konu-hukuk"
+  ],
+  "yer_id": "",
+  "d": "Toktamış Han'ın 1393'te Jagiello'ya gönderdiği yarlık, Altın Orda diplomasisinin günümüze ulaşan somut örneklerindendir. Yarlık, Türk-Moğol devletlerinde hükümdar buyruğudur ve Altın Orda'da iki türü vardı: tâbi ülke hükümdarlarına gönderilen DİPLOMATİK yarlıklar, ve vergiden ve devlet hizmetinden muafiyet tanıyan TARHANLIK yarlıkları. Her yeni han, seleflerinin yarlıklarını ya onaylar ya iptal ederdi — yani yarlık aynı zamanda bir meşruiyet tazeleme aracıydı.",
+  "ic_not_d": "🔴 TDV'nin hükmü açıktır: yarlıklar, Altın Orda'nın siyasî, iktisadî, askerî ve idarî yapısını anlamanın başlıca kaynağıdır. ⚠️ Yarlığın GÜNÜ kaynakta yok, yıl başına yazıldı.",
+  "kaynak": "TDV, madde: yarlik — '1393 tarihli Toktamış'ın Jagiello'ya yarlığı'; yarlık türleri ve tarhanlık aynı maddeden (GÜN VERİLMİYOR)"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1399-01-01",
+  "b": "Edigü Mirza, Toktamış ve Litvanya ordusunu yendi — beylerin hanlar üzerindeki hâkimiyeti kesinleşti",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "siyaset",
+   "ic-savas",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-isyan"
+  ],
+  "yer_id": "",
+  "d": "Tahtını geri almak için Litvanya Büyük Dukası Vytautas ile ittifak kuran Toktamış, Mangıt beyi Edigü ve Timur Kutluk'un kuvvetlerine yenildi (Vorskla ırmağı). Yenilgi iki şeyi birden belirledi: Toktamış bir daha tahta dönemedi, ve Litvanya'nın bozkıra yayılma girişimi durdu.",
+  "ic_not_d": "🔴 Asıl sonuç kurumsaldır — Cengiz soyundan OLMAYAN Edigü, han olamadığı hâlde devleti fiilen yönetmeye başladı.",
+  "kaynak": "TDV, madde: toktamis-han — 'Edigey'in kuvvetlerine 1399'da yenilmesi'; TDV, madde: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1405-01-01",
+  "b": "Toktamış Han öldürüldü — devleti son kez birleştiren hanın sonu",
+  "tur": "hukumdar",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "hukumdar",
+   "konu-siyasi",
+   "konu-kisiler",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "1399'daki yenilgiden sonra kaçak yaşayan Toktamış, 1405'te takip edildiği sırada Karaton ırmağı yakınında bir uçuruma düşerek öldü. Altın Orda'yı bir bütün olarak yöneten SON han odur; ondan sonra taht, beylerin elinde bir araç hâline geldi.",
+  "kaynak": "TDV, madde: toktamis-han — '1405 yılına kadar' kaçak yaşamı ve Karaton yakınındaki ölümü"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1419-01-01",
+  "b": "Edigü'nün yirmi yıllık fiilî idaresi sona erdi",
+  "tur": "hukumdar",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "idari",
+   "konu-siyasi",
+   "konu-idari",
+   "konu-hanedan"
+  ],
+  "yer_id": "",
+  "d": "TDV: 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti.' Cengiz soyundan gelmediği için han unvanı alamayan, ama hanları tayin eden bir beyin yirmi yıl süren idaresi, Altın Orda'da meşruiyetin nasıl aşındığının en açık göstergesidir.",
+  "kaynak": "TDV, madde: altin-orda-hanligi — 'Edige Mirza ... 1419'a kadar devleti idare etti'"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1420-01-01",
+  "b": "Edigü öldü — oğulları Nogay Ordası'nın çekirdeğini kurdu",
+  "tur": "bolunme",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "bolunme",
+   "konu-siyasi",
+   "konu-kisiler"
+  ],
+  "yer_id": "",
+  "d": "TDV, Nogaylar maddesinde tarihi birebir verir: 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' Deşt-i Kıpçak'ta çeşitli hanların emirleri olarak siyasete devam etti. Nogay Ordası bu mirastan doğdu — Altın Orda'dan kopan beş yapının kronolojik olarak İLKİDİR ve ötekilerden farkı, bir HANEDANDAN değil bir BEY AİLESİNDEN doğmuş olmasıdır (bkz. [[nogay]]).",
+  "kaynak": "TDV, madde: nogaylar — 'Edige'nin ... 823'te (1420) ölümünden sonra oğulları'"
+ },
+ {
+  "dosya": "kronoloji_altinorda.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1480-11-11",
+  "b": "Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi",
+  "ic_not_b": "eski b öneki: 🔴",
+  "tur": "savas",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "toprak-kayip",
+   "siyaset",
+   "konu-askeri",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "d": "Ahmed Han'ın kuvvetleriyle III. İvan'ın orduları Ugra ırmağı kıyısında aylarca karşı karşıya durdu; çatışma olmadan Ahmed Han geri çekildi.",
+  "ic_not_d": "🔴 Bir muharebe yaşanmadan bir imparatorluk ilişkisi sona erdi: 1237'den beri süren Rus knezliklerinin haraç yükümlülüğü fiilen bitti. Rus tarihyazımı bu günü 'Tatar boyunduruğunun sonu' ve Moskova'nın bağımsız bir güç olarak doğuşu sayar. Altın Orda mirası açısından ise gelir kaynaklarının sonuncusunun da kaybedilmesidir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",
+  "kaynak": "data/kronoloji_rusya.js:98 (Riasanovsky & Steinberg, A History of Russia); dunya:3 aynı kayıttan OKUNDU"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1553-08-28",
+  "devlet": "osmanli",
+  "taraflar": [
+   "osmanli",
+   "safevi"
+  ],
+  "b": "Kanunî'nin üçüncü İran (Nahçıvan) seferine çıkışı",
+  "tur": "sefer",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "askeri",
+   "sefer",
+   "osmanli",
+   "safevi",
+   "konu-askeri"
+  ],
+  "d": "Safevîlerin Doğu Anadolu'daki akınlarının öcünü almak ve Şah Tahmasb'ı barışa zorlamak için Kanunî Sultan Süleyman İstanbul'dan ayrıldı. Halep'te kışlayan ordu Nisan 1554'te yeniden yola çıktı ve Nahçıvan'a kadar ilerledi; şehir alınıp tahrip edildi. Tahmasb meydan savaşına girmedi, yolları yakıp suları kirleterek ordunun ikmalini kesti. Osmanlı kaynaklarında bu harekât 'Nahcıvan seferi' diye anılır.",
+  "kaynak": "TDV suleyman-i ('18 Ramazan 960'ta (28 Ağustos 1553) İstanbul'dan ayrılan' · Halep'ten 9 Nisan 1554'te hareket) · TDV nahcivan ('Nahcıvan seferi … şehir ele geçirildi ve yağmalanıp tahrip edildi') · TDV amasya-antlasmasi (pasif direniş)",
+  "sinir_id": [],
+  "sinif": null,
+  "not": "sınır değişikliği değil — Amasya 1555'in öncülü; hat kaydı yok"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1886-01-01",
+  "devlet": "osmanli",
+  "taraflar": [
+   "osmanli",
+   "tunus-beyligi-fransiz"
+  ],
+  "b": "Fransız–Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+  "tur": "antlasma",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "antlasma",
+   "sinir",
+   "osmanli",
+   "tunus-beyligi-fransiz",
+   "konu-diplomasi"
+  ],
+  "d": "Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak iç kesimde kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmediği için haritada çizilmedi.",
+  "kaynak": "IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary … for a limited distance')",
+  "sinir_id": [],
+  "sinif": "E",
+  "not": "hat kaydı YOK — geometri kaynakta yok"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1892-01-01",
+  "devlet": "osmanli",
+  "taraflar": [
+   "osmanli",
+   "tunus-beyligi-fransiz"
+  ],
+  "b": "Fransız–Osmanlı düzenlemesi — Tunus–Trablusgarp sınırı Gadames'e kadar uzatıldı",
+  "tur": "antlasma",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "antlasma",
+   "sinir",
+   "osmanli",
+   "tunus-beyligi-fransiz",
+   "konu-diplomasi"
+  ],
+  "d": "İkinci bir Fransız–Osmanlı düzenlemesi Tunus ile Trablusgarp arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge 1910 Trablus Sözleşmesi'dir. Kaynak yalnız yılı veriyor; 1892 hattının koordinatları bilinmediği için haritada çizilmedi.",
+  "kaynak": "IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy … as far as Ghudamis')",
+  "sinir_id": [],
+  "sinif": "E",
+  "not": "hat kaydı YOK — geometri kaynakta yok"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1906-10-01",
+  "devlet": "osmanli",
+  "taraflar": [
+   "osmanli",
+   "misir-kavalali"
+  ],
+  "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah–Taba hattı tarif edildi",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "antlasma",
+   "sinir",
+   "osmanli",
+   "misir-kavalali",
+   "ingiltere",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "d": "1906 Akabe–Taba bunalımının ardından Osmanlı ve Hidiv komiserleri Refah'ta bir 'idarî ayırma hattı' üzerinde anlaştı: hat Akabe Körfezi'ndeki Ras Taba'dan kuzeybatıya adlı tepeler üzerinden Refah'taki iki sütunun ortasına ve oradan Akdeniz'e uzanıyordu. Karma heyet 31 Aralık 1906 ile 9 Şubat 1907 arasında hat boyunca 91 kâgir sütun dikti. Bu hat bugünkü Mısır–İsrail ve Mısır–Gazze sınırıdır.",
+  "kaynak": "Taba hakem kararı, RIAA XX (1988) Ek B s.114-116 (anlaşma metni) ve §54-59 (dikim) · IBS 46",
+  "sinir_id": [
+   "d1906-filistin-misir-hidivlik"
+  ],
+  "sinif": "E"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1910-05-19",
+  "devlet": "osmanli",
+  "taraflar": [
+   "osmanli",
+   "tunus-beyligi-fransiz"
+  ],
+  "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "antlasma",
+   "sinir",
+   "osmanli",
+   "tunus-beyligi-fransiz",
+   "cezayir-fransiz",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "d": "Fransa ile Osmanlı Devleti arasında Trablus'ta imzalanan sözleşme, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz'deki Ras Ecdir'den vadiler, sırtlar ve kuyular boyunca Gadames'in güneyine kadar tarif etti; Gadames'in batısındaki son kesim Cezayir sınırı oldu. Karma komisyon 1910-1911'de hattı 31'den 233'e kadar numaralı taşlarla işaretledi. Hat bugün de Libya–Tunus sınırıdır. Sözleşmenin günü kaynaklarda 12 ve 19 Mayıs olarak iki türlü geçer; iki kaynağın verdiği 19 Mayıs esas alındı.",
+  "kaynak": "IBS 121 (1972) s.2-5 · Martens, Nouveau Recueil Général 3. seri c.VII s.91-93 · IBS 001 (1961) s.2, s.6 ('12 May 1910')",
+  "sinir_id": [
+   "d1910-libya-tunus-osmanli",
+   "d1910-libya-cezayir-gadames-osmanli"
+  ],
+  "sinif": "E"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1912-10-18",
+  "devlet": "italya",
+  "taraflar": [
+   "italya",
+   "osmanli"
+  ],
+  "b": "Uşi Antlaşması — Libya'nın Tunus ve Cezayir sınırları Osmanlı'dan İtalya'ya geçti",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "antlasma",
+   "sinir",
+   "italya",
+   "osmanli",
+   "tunus-beyligi-fransiz",
+   "cezayir-fransiz",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "d": "Trablusgarp Savaşı'nı bitiren nihaî barış antlaşması 18 Ekim 1912'de Lozan yakınlarındaki Uşi'de imzalandı ve Trablusgarp ile Bingazi'deki Osmanlı idaresi sona erdi. Aynı süreçte, Müslüman kamuoyuna yönelik olarak 15 Ekim tarihiyle düzenlenen ayrı bir padişah fermanı iki vilâyete muhtariyet verip bir saltanat nâibi ve kadı tayin etti; bu yüzden kaynaklarda iki gün birlikte geçer. 1910 sözleşmesiyle çizilip taşlarla işaretlenen Tunus ve Cezayir sınırları aynı hat üzerinde kaldı; hattın doğu yakasındaki taraf artık İtalya'ydı.",
+  "kaynak": "TDV trablusgarp-savasi ('18 Ekim'de … Uşi (Ouchy) kasabasında … nihaî bir barış antlaşması imzalandı' · '15 Ekim tarihli olarak düzenlenen diğer bir belgeyle … muhtariyet veren … padişah emri') · IBS 121 s.2 ('October 12, 1912' — TDV esas)",
+  "sinir_id": [
+   "d1910-libya-tunus-osmanli",
+   "d1910-libya-cezayir-gadames-osmanli",
+   "d1923-libya-tunus",
+   "d1923-libya-cezayir-gadames"
+  ],
+  "sinif": "E"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1914-12-18",
+  "devlet": "misir-sultanligi",
+  "taraflar": [
+   "misir-sultanligi",
+   "osmanli"
+  ],
+  "b": "İngiltere Mısır'da Osmanlı hükümranlığını kaldırdı — Refah (1906) hattının Osmanlı–Mısır hukukî dayanağı düştü",
+  "tur": "siyaset",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "siyaset",
+   "sinir",
+   "misir-sultanligi",
+   "osmanli",
+   "misir-kavalali",
+   "konu-siyasi"
+  ],
+  "d": "Osmanlı Devleti'nin savaşa girmesinin ardından İngiltere, 18 Aralık 1914'te Mısır üzerindeki Osmanlı hükümranlık haklarını tek taraflı olarak kaldırıp ülkeyi himayesine aldı. Osmanlı ile Hidiv hükümetinin 1906'da birlikte çizip işaretlediği Refah–Taba hattı artık iki tarafın ortak kabulüne dayanmıyordu; sonraki üç yıl bu hat bir cephe hattına dönüştü ve Osmanlı kuvvetleri Sina'ya ilerleyip iki kez Süveyş Kanalı'nı geçmeye çalıştı.",
+  "kaynak": "TDV misir ('18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp' · Cemal Paşa'nın iki kanal harekâtı) · RIAA XX §54-59",
+  "sinir_id": [
+   "d1906-filistin-misir-hidivlik"
+  ],
+  "sinif": "E→YOK"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1917-10-31",
+  "devlet": "ingiltere",
+  "taraflar": [
+   "ingiltere",
+   "misir-sultanligi"
+  ],
+  "b": "Birüssebi'nin düşüşü — Refah hattının iki yakası İngiliz elinde, hat fiilî sınır olarak yeniden",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "savas",
+   "sinir",
+   "ingiltere",
+   "misir-sultanligi",
+   "osmanli",
+   "konu-siyasi",
+   "konu-askeri"
+  ],
+  "d": "Allenby kumandasındaki İngiliz ordusu 31 Ekim 1917'de Birüssebi yöresini ele geçirdi; Gazze de aynı yıl düştü ve Filistin'de İngiliz askerî idaresi kuruldu. Böylece 1906 Refah–Taba hattının iki yakası da İngiliz denetimine girdi ve hat, hukuken Osmanlı toprağı sayılan Filistin ile İngiliz himayesindeki Mısır arasında fiilî bir sınır olarak yeniden işledi. Gazze'nin alınış günü kaynakta yoktur.",
+  "kaynak": "TDV filistin ('31 Ekim 1917'de … Bi'rüssebi' yöresini ele geçirdi' · '1917'den itibaren … askerî bir idare') · TDV gazze ('1917'de General Allenby Gazze'yi aldı')",
+  "sinir_id": [
+   "d1917-filistin-misir-askeri-idare"
+  ],
+  "sinif": "D"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1920-07-01",
+  "devlet": "filistin-mandasi",
+  "taraflar": [
+   "filistin-mandasi",
+   "misir-sultanligi"
+  ],
+  "b": "Filistin'de sivil manda yönetimi — Refah (1906) hattının Filistin yakası askerî idareden çıkıyor",
+  "tur": "idari",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "idari",
+   "sinir",
+   "filistin-mandasi",
+   "misir-sultanligi",
+   "konu-siyasi",
+   "konu-idari"
+  ],
+  "d": "İngiltere, 1917'den beri askerî idare altında tuttuğu Filistin'de Temmuz 1920'de bir yüksek komiser eliyle sivil manda yönetimi kurdu. Mısır ile arasındaki sınır, 1906'da Osmanlı ve Mısır komiserlerinin sütunlarla işaretlediği Refah–Taba hattı olarak kaldı; hat fiilen kesin ama Mısır ile manda devleti arasında henüz hukuken teyit edilmiş değildi. Kaynak yalnız ayı veriyor; ayın 1'i manda künyesinden alınmıştır.",
+  "kaynak": "TDV filistin ('Temmuz 1920 tarihinden itibaren … sivil manda yönetimi') · Taba hakem kararı RIAA XX §54-59",
+  "sinir_id": [
+   "d1917-filistin-misir-askeri-idare",
+   "d1920-filistin-misir-manda"
+  ],
+  "sinif": "D"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1922-03-15",
+  "devlet": "misir-kralligi",
+  "taraflar": [
+   "misir-kralligi",
+   "filistin-mandasi"
+  ],
+  "b": "Mısır Krallığı ilân edildi — Refah–Taba hattının Mısır yakası krallığa geçiyor",
+  "tur": "siyaset",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "siyaset",
+   "sinir",
+   "misir-kralligi",
+   "filistin-mandasi",
+   "konu-siyasi"
+  ],
+  "d": "İngiltere'nin 28 Şubat 1922'de Mısır'ı tek taraflı olarak bağımsız ilân etmesinin ardından Sultan Ahmed Fuâd 15 Mart 1922'de kral unvanını aldı. Filistin ile sınır 1906 Refah hattı olarak sürdü; bu hattın iki devlet arasında uluslararası sınır sayılması 1926 mektuplaşmasına kaldı.",
+  "kaynak": "TDV misir ('28 Şubat 1922' · 'Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı') · RIAA XX §76",
+  "sinir_id": [
+   "d1920-filistin-misir-manda",
+   "d1923-filistin-misir"
+  ],
+  "sinif": "D"
+ },
+ {
+  "dosya": "kronoloji_sinir_ortadogu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1922-12-02",
+  "devlet": "kuveyt",
+  "taraflar": [
+   "kuveyt",
+   "suud-ucuncu"
+  ],
+  "b": "Ukayr Protokolü — Necid–Küveyt sınırı ve Tarafsız Bölge çizildi",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "antlasma",
+   "sinir",
+   "kuveyt",
+   "suud-ucuncu",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "d": "İngiliz aracılığıyla Ukayr'da imzalanan protokol, Necid ile Küveyt arasındaki sınırı Vadi el-Avca ile Vadi el-Bâtın'ın kavşağından 29. paralele düz bir hat ve oradan kıyıya uzanan, Küveyt kasabası merkezli 40 millik yarım daire olarak tarif etti. Bu hattın güneyinde, batıda eş-Şak çöküntüsü ve güneyde Ayn el-Abd hattıyla çevrili bir bölge iki tarafın eşit hakkına bırakıldı (Tarafsız Bölge; 1969'da bölündü).",
+  "kaynak": "TDV kuveyt ('Suudi Arabistan ile antlaşma imzalayarak (2 Aralık 1922)') · IBS 103 s.4 (protokol metni)",
+  "sinir_id": [
+   "d1923-necid-kuveyt-bati",
+   "d1923-necid-kuveyt-yay",
+   "d1923-necid-kuveyt-tarafsiz-bati",
+   "d1923-necid-kuveyt-tarafsiz-guney"
+  ],
+  "sinif": "E"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1231-01-01",
+  "b": "Moğol istilası başladı",
+  "tur": "isgal",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "isgal",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Moğol orduları 1231'de Gürcistan'a girdi; krallık bir asırdan uzun sürecek bir zayıflama ve parçalanma sürecine girdi. TDV'nin 'gurcistan' maddesi bu tarihi birebir veriyor.",
+  "ic_not_d": "(devletler.js künyesindeki 1220 tarihinden farklıdır, bu dosyada TDV'nin doğrudan verdiği tarih esas alındı)",
+  "kaynak": "gurcistan (TDV, madde: gurcistan — 'Moğollar 1231'de Gürcistan'a girdiler')"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1386-01-01",
+  "b": "Timur'un birinci Gürcistan seferi",
+  "tur": "isgal",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "isgal",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Timur, 'üç yıllık sefer'i sırasında Gürcistan üzerinden Azerbaycan'a geçti; ülke bu geçişte ağır tahribata uğradı. TDV'nin 'gurcistan' maddesi Timur'un seferlerini dört ayrı tarihte (1386, 1399-1400, 1402, 1403) sayıyor; bu dosyada her biri ayrı madde olarak yazıldı.",
+  "kaynak": "gurcistan (TDV, madde: gurcistan)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1399-01-01",
+  "b": "Timur'un ikinci Gürcistan seferi (1399-1400)",
+  "tur": "isgal",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "isgal",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Timur'un art arda gerçekleştirdiği seferlerin ikincisi 1399-1400 yıllarına tarihlenir; krallığın toparlanma çabaları her seferinde yeniden kesintiye uğradı.",
+  "kaynak": "gurcistan (TDV, madde: gurcistan)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1402-01-01",
+  "b": "Timur'un üçüncü Gürcistan seferi",
+  "tur": "isgal",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "isgal",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Ankara Savaşı'nın kazanıldığı yıl Timur, doğuya dönerek Gürcistan'a üçüncü kez sefer düzenledi; imparatorluğun batı ve doğu cephelerindeki eş zamanlı harekâtı, dönemin en geniş askerî menzile sahip gücü olduğunu gösterir.",
+  "kaynak": "gurcistan (TDV, madde: gurcistan)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1403-01-01",
+  "b": "Timur'un dördüncü ve son Gürcistan seferi",
+  "tur": "isgal",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "isgal",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Timur'un dördüncü seferi krallığın 15. yüzyıl başındaki çöküşünü kesinleştirdi; art arda dört istila, 1490'daki üçe bölünmenin doğrudan zeminini hazırladı.",
+  "kaynak": "gurcistan (TDV, madde: gurcistan)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1490-01-01",
+  "b": "Krallığın Kartli, Kaheti ve İmereti'ye bölünmesi",
+  "tur": "bolunme",
+  "onem": 5,
+  "dunya": 2,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "bolunme",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "I. Alexandre'ın (1412-1442) ölümünden sonraki veraset kavgaları krallığı üçe böldü: Kartli, Kaheti ve İmereti. TDV bölünmeyi kesin bir güne bağlamıyor, genel olarak Alexandre sonrası dönemi işaret ediyor; 1490 standart akademik tarihyazımının kabul ettiği kesinleşme tarihidir.",
+  "kaynak": "gurcistan (TDV — 'Fakat daha sonra Gürcistan üç krallığa [Kartliya, Kahetya, İmeretiya] ve beş beyliğe ayrıldı') + devletler.js gurcistan/imereti künyeleri"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1555-05-29",
+  "b": "Amasya Antlaşması — Gürcistan'ın Osmanlı-Safevî nüfuz bölgelerine bölünmesi",
+  "tur": "antlasma",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "diplomasi",
+   "toprak",
+   "konu-askeri",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Osmanlı ile Safevî arasındaki ilk resmî barış antlaşması Gürcistan'ı da taksim etti: batısı (İmereti ve Kartli'nin bir kısmı) Osmanlı, doğusu (Kaheti ve Kartli'nin çoğu) Safevî nüfuz bölgesi sayıldı. Gürcü tarafının hiç katılmadığı bu taksim, ülkenin kendi rızası dışında iki imparatorluk arasında paylaşılmasının ilk resmî belgesidir.",
+  "kaynak": "amasya-antlasmasi (TDV, zaten doğrulanmış — bkz. data/kronoloji_iran.js)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1590-03-21",
+  "b": "Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı",
+  "gun": "998 (1590)",
+  "tur": "toprak-kayip",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "toprak-kayip",
+   "konu-askeri",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "On iki yıllık savaşı bitiren antlaşmayla Azerbaycan, Şirvan, Karabağ, Gürcistan'ın büyük kısmı ve Luristan'ın bir bölümü Osmanlı'ya bırakıldı; imparatorluk doğuda tarihinin en geniş sınırlarına ulaştı. Gürcü toprakları için bu, 1723'e kadar sürecek en yaygın Osmanlı hâkimiyeti dönemidir.",
+  "ic_not_d": "eski kaynak: ferhad-pasa-antlasmasi (TDV — müstakil maddesi yok, hükümleri luristan maddesinden derlenmiştir; zaten doğrulanmış, bkz. data/kronoloji_iran.js)",
+  "kaynak": "TDV luristan · safeviler · murad-iii — hükümler bu maddelerden; ferhad-pasa-antlasmasi slugu ÖLÜ (302). 21 Mart günü bu maddelerde YOK (yalnız 998/1590)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1724-06-24",
+  "b": "İstanbul Mukâsemenâmesi — Gürcistan'ın Osmanlı-Rusya arasında paylaşılması",
+  "tur": "toprak-kayip",
+  "onem": 5,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "diplomasi",
+   "toprak-kayip",
+   "konu-askeri",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için imzalanan taksim antlaşmasıyla Gürcistan, Şirvan ve Azerbaycan Osmanlı'ya, Hazar'ın batı-güney kıyıları Rusya'ya bırakıldı. Gürcistan'ın kendi rızası olmaksızın iki büyük gücün masasında paylaşılması, ülkenin 18. yüzyıldaki konumunu özetleyen bir andır.",
+  "kaynak": "ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)"
+ },
+ {
+  "dosya": "kronoloji_gurcistan.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1736-09-01",
+  "b": "İstanbul Antlaşması — Osmanlı'nın on üç yıllık işgalin ardından Gürcistan'dan çekilmesi",
+  "tur": "siyaset",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "antlasma",
+   "siyaset",
+   "konu-siyasi",
+   "konu-diplomasi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Nadir Şah'ın zaferleriyle sonuçlanan ikinci İran savaşını bitiren antlaşmayla Osmanlı, 1723'ten beri elinde tuttuğu bütün Güney Kafkasya topraklarından, dolayısıyla Gürcistan'dan da çekildi; ülke yeniden İran nüfuz alanına girdi.",
+  "kaynak": "osmanlilar (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1601-01-01",
+  "b": "Büyük kıtlık başladı (1603'e dek)",
+  "tur": "diger",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "konu-ekonomi",
+   "afet",
+   "afet-kitlik"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Üç yıl süren olağanüstü soğuk yaz ve kötü hasatlar, tarihte kayıtlı en büyük kıtlıklardan birine yol açtı; tahminen nüfusun üçte biri etkilendi. Kıtlık, Godunov rejiminin meşruiyetini daha da zayıflatarak Smuta'nın patlak vermesini hızlandırdı.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1697-03-09",
+  "b": "Büyük Elçilik seferi başladı (1698'e dek)",
+  "tur": "diplomasi",
+  "onem": 4,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "diplomasi",
+   "kultur",
+   "konu-diplomasi",
+   "konu-kultur"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "I. Petro, kimliğini gizleyerek Batı Avrupa'yı (Hollanda, İngiltere, Avusturya) gezen büyük bir heyetle gemi yapımını, teknolojiyi ve idareyi bizzat öğrendi. Bu gezi, Rusya'nın sonraki radikal Batılılaşma reformlarının doğrudan ilham kaynağı olarak Rus tarihyazımında sembolik bir dönüm noktasıdır.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1700-01-01",
+  "b": "Büyük Kuzey Savaşı başladı (1721'e dek) ⭐",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Rusya, Danimarka ve Saksonya-Polonya ile ittifak kurup İsveç'e karşı savaş açtı; savaş 21 yıl sürdü ve Rusya'nın Baltık'a kalıcı olarak açılmasıyla, büyük bir Avrupa gücü hâline gelmesiyle sonuçlandı.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia — devletler.js:290'dan taşındı, doğrulandı"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1735-06-01",
+  "b": "Osmanlı ile savaş başladı (1739'a dek)",
+  "tur": "savas",
+  "onem": 2,
+  "dunya": 3,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Rusya, Avusturya ile ittifak hâlinde Osmanlı'ya karşı savaşa girdi; Azak'ı yeniden ele geçirdi ama Belgrad Antlaşması'yla (1739) tahkimatsız biçimde elinde tutabildi ve Karadeniz'de donanma bulundurma hakkı kazanamadı.",
+  "kaynak": "belgrad-antlasmalari (TDV, doğrulanmış — data/olaylar*.js kullanıyor)"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1756-08-29",
+  "b": "Yedi Yıl Savaşları'na girdi",
+  "tur": "savas",
+  "onem": 3,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Rusya, Fransa ve Avusturya ile ittifak kurarak Prusya'ya karşı savaşa girdi; 1760'ta Rus kuvvetleri kısa süreliğine Berlin'i işgal etti. Rusya'nın Avrupa güç dengesindeki artan ağırlığının erken bir göstergesiydi.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1839-01-01",
+  "b": "Devlet köylülerinin reformu (Kiselev reformu)",
+  "tur": "reform",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "reform",
+   "idari",
+   "konu-idari",
+   "konu-islahat"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Devlet Bakanı Pavel Kiselev, devlete ait köylülerin (özel toprak sahiplerine değil doğrudan devlete bağlı köylüler) yönetimini iyileştiren bir dizi reform başlattı; bu, tam serflik kaldırılışının (1861) öncesindeki en kapsamlı kısmi düzenlemeydi.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1874-01-01",
+  "b": "\"Halka Gitme\" (Hojdeniye v narod) hareketi",
+  "tur": "siyaset",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "siyaset",
+   "konu-siyasi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Binlerce genç narodnik (halkçı) aydın, köylüleri devrimci fikirlerle bilinçlendirmek amacıyla kırsala göç etti; hareket köylülerin ilgisizliği ve devlet baskısıyla büyük ölçüde başarısız oldu, ama Rus devrimci hareketinin sonraki, daha radikal (terörist) aşamalarına zemin hazırladı.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1877-04-24",
+  "b": "93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş ⭐",
+  "tur": "savas",
+  "onem": 4,
+  "dunya": 4,
+  "kapsam": "dis",
+  "etiket": [
+   "askeri",
+   "savas",
+   "konu-askeri"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Balkan Slavları'na destek (Pan-Slavizm) söylemiyle başlayan savaş, Tuna ve Kafkas cephelerinde geçti; Rus tarihyazımında \"kardeş Slav halklarını\" Osmanlı boyunduruğundan kurtarma misyonunun zirvesi sayılır ve dönemin Rus kamuoyunda büyük bir millî coşkuyla karşılandı.",
+  "kaynak": "ayastefanos-antlasmasi (TDV, doğrulanmış) — devletler.js:298'den taşındı, doğrulandı"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1891-01-01",
+  "b": "1891-92 kıtlığı — Volga bölgesi büyük açlık",
+  "tur": "diger",
+  "onem": 3,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "ekonomi",
+   "diger",
+   "konu-ekonomi",
+   "afet",
+   "afet-kitlik"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Kötü hasat ve devletin geç ve yetersiz müdahalesi, Volga havzasında yarım milyona yakın insanın ölümüyle sonuçlanan büyük bir kıtlığa yol açtı; genç Tolstoy ve birçok zemstvo gönüllüsünün de katıldığı sivil yardım seferberliği, hükümetin yetersizliğini kamuoyunda görünür kılarak 1890'ların radikalleşmesine katkıda bulundu.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_rusya.js",
+  "sinif_simdi": "BEYANLI",
+  "t": "1897-01-28",
+  "b": "İlk genel nüfus sayımı yapıldı",
+  "tur": "idari",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "ic",
+  "etiket": [
+   "idari",
+   "ekonomi",
+   "islahat",
+   "konu-idari",
+   "konu-ekonomi",
+   "konu-islahat",
+   "konu-demografi"
+  ],
+  "yer_id": "",
+  "kapsam_genis": true,
+  "d": "Rusya İmparatorluğu tarihinde ilk kez bilimsel yöntemlerle yürütülen tek seferlik genel nüfus sayımı yapıldı; sonuçlar imparatorluğun nüfusunu 125 milyonun üzerinde, okuryazarlık oranını ise yalnız %21 civarında gösterdi — bu düşük oran, sonraki eğitim reform tartışmalarının istatistiksel dayanağı oldu.",
+  "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1923-03-07",
+  "devlet": "filistin-mandasi",
+  "devletler": [
+   "filistin-mandasi",
+   "suriye-lubnan-mandasi"
+  ],
+  "sinir_id": "d1923-fi-lb",
+  "b": "Paulet–Newcombe sınır raporu imzalandı — Filistin ile Suriye-Lübnan arasındaki hat",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "filistin-mandasi",
+   "suriye-lubnan-mandasi"
+  ],
+  "d": "23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
+  "kaynak": "IBS No. 75 Israel–Lebanon (Cmd. 1910; 22 LNTS 364; 'erected in 1922 by a mixed Anglo-French commission') · PalQuest 'Palestine-Lebanon border'"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1813-10-24",
+  "devlet": "kacar",
+  "devletler": [
+   "kacar",
+   "rusya"
+  ],
+  "sinir_id": "g5-rus-ir-DEGISTI-gulistan",
+  "b": "Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı",
+  "tur": "toprak-kayip",
+  "onem": 5,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "kacar",
+   "rusya"
+  ],
+  "d": "1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. İmza günü 24 Ekim 1813'tür: Encyclopaedia Iranica 29 Şevval 1228 / 24 Ekim 1813 veriyor ve IBS 25'in 12 Ekim'ini (Hurewitz) ayrıca anıyor — 12 Ekim Jülyen karşılığıdır (onay 15 Eylül 1814, Tiflis). TDV feth-ali-sah 24 Kasım 1813 diyor; bu fark çözülmedi. Hattın koordinatı elde yok.",
+  "kaynak": "Encyclopaedia Iranica 'GOLESTĀN TREATY' (E. L. Daniel): 'concluded on 29 Šawwāl 1228/24 October 1813 (12 October according to Hurewitz, I, p. 197; 21 October in Pakravan, p. 156)' · IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1828-02-22",
+  "devlet": "kacar",
+  "devletler": [
+   "kacar",
+   "rusya"
+  ],
+  "sinir_id": "g4-rus-ir-DEGISTI-aras-talis",
+  "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+  "tur": "toprak-kayip",
+  "onem": 5,
+  "dunya": 4,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "kacar",
+   "rusya"
+  ],
+  "d": "1826–1828 savaşını bitiren Türkmençay Antlaşması (md. IV) ile Revan ve Nahçıvan hanlıkları Rusya'ya geçti. Aras nehri Hazar'ın batısında iki devletin sınırı oldu. Rusya'ya Abbasabad karşısında Aras'ın sağ kıyısında bir köprübaşı bırakıldı; burası 1893'e kadar Rusya'da kaldı. TDV ve IBS 10 Şubat 1828 veriyor; bu Rus (Jülyen) takvimidir, 19. yüzyılda +12 gün ile Gregoryen 22 Şubat 1828 eder. Bugünkü hat 1954–1970 değişiklikleri yüzünden 1828 hattını göstermez.",
+  "kaynak": "TDV feth-ali-sah ('Türkmençay Antlaşması imzalandı (10 Şubat 1828)') · TDV revan · IBS No. 25 s.4, 11 (BFSP 15:669)"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1869-12-13",
+  "devlet": "kacar",
+  "devletler": [
+   "kacar",
+   "rusya"
+  ],
+  "sinir_id": "g4-rus-ir-DEGISTI-atrek",
+  "b": "Rus-İran anlaşması: aşağı Atrek nehri Hazar doğusunda sınır sayıldı",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "kacar",
+   "rusya"
+  ],
+  "d": "Rusya'nın Hazar ötesindeki ilerleyişi İran sınırına dayanınca 13 Aralık 1869 tarihli anlaşma aşağı Atrek'i, Hazar kıyısından doğuya yaklaşık 30 millik bir kesimde, iki devletin sınırı olarak tanıdı. Tarih IBS'te tek yazılmıştır, Jülyen olabilir.",
+  "kaynak": "IBS No. 25 s.4, 12 ('recognizing the Atrek River as the boundary, December 13, 1869')"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1881-12-21",
+  "devlet": "kacar",
+  "devletler": [
+   "kacar",
+   "rusya"
+  ],
+  "sinir_id": "g4-rus-ir-DEGISTI-hazar-serahs",
+  "b": "Ahal-Horasan Sözleşmesi: Rus-İran sınırı Babadurmaz'a kadar çizildi",
+  "tur": "antlasma",
+  "onem": 4,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "kacar",
+   "rusya"
+  ],
+  "d": "9/21 Aralık 1881 sözleşmesinin I. maddesi Hazar doğusundaki sınırı Atrek'ten Aşkabat'ın doğusundaki Babadurmaz'a kadar çizdi ve 1869 Atrek hattını teyit etti. Ardından gelen protokoller küçük toprak değişiklikleri ve daha ayrıntılı tahdit getirdi.",
+  "kaynak": "IBS No. 25 s.4, 12 ('Convention between Persia and Russia of December 9 - 21, 1881')"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1723-09-23",
+  "devlet": "safevi",
+  "devletler": [
+   "safevi",
+   "rusya"
+  ],
+  "sinir_id": "g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
+  "b": "Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın güney kıyıları Rusya'ya bırakıldı",
+  "tur": "toprak-kayip",
+  "onem": 4,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "safevi",
+   "rusya"
+  ],
+  "d": "İran'daki karışıklıktan yararlanan I. Petro Ağustos 1722'de Derbend'i işgal etti. 12 Eylül 1723'te Petersburg'da imzalanan antlaşma ile Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya bırakıldı. TDV'nin dagistan maddesi bu antlaşmayı 1724'e koyuyor. Gün: TDV derbend--dagistan '12 Eylül 1723' veriyor; bu Rus (Jülyen) takvimidir, 18. yüzyılda +11 gün ile Gregoryen 23 Eylül 1723 eder. Hattın koordinatı yok.",
+  "kaynak": "TDV derbend--dagistan ('12 Eylül 1723’te Petersburg’da imzalanan antlaşma') · TDV baku ('1723’te I. Petro tarafından Rus topraklarına katıldı') · TDV dagistan (1724 — çelişki)"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1732-01-01",
+  "devlet": "safevi",
+  "devletler": [
+   "safevi",
+   "rusya"
+  ],
+  "sinir_id": "g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+  "b": "Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların bir kısmını İran'a iade etti",
+  "tur": "toprak-kazanc",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "safevi",
+   "rusya",
+   "nadir-sah"
+  ],
+  "d": "Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız YIL düzeyindedir.",
+  "kaynak": "TDV dagistan ('1732’de imzalanan Reşt Antlaşması’yla') · TDV derbend--dagistan (iade 1735 — çelişki)"
+ },
+ {
+  "dosya": "kronoloji_sinir_komsu.js",
+  "sinif_simdi": "ODAKSIZ",
+  "t": "1735-01-01",
+  "devlet": "safevi",
+  "devletler": [
+   "safevi",
+   "rusya"
+  ],
+  "sinir_id": "g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+  "b": "Gence Antlaşması: Rusya Hazar kıyısından çekildi",
+  "tur": "toprak-kazanc",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer_id": "",
+  "etiket": [
+   "sinir",
+   "antlasma",
+   "konu-siyasi",
+   "safevi",
+   "rusya",
+   "nadir-sah"
+  ],
+  "d": "Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız YIL düzeyindedir.",
+  "kaynak": "TDV derbend--dagistan ('1735 Gence Antlaşması’nı imzalamaya zorladı') · TDV dagistan ('1735 tarihli antlaşma ile de Sulak ve Kura')"
+ }
+]

@@ -1,0 +1,639 @@
+{
+ "dagilim": {
+  "cozuldu": 72,
+  "sirada": 44,
+  "senin-kararin": 17,
+  "zaten-dogru": 6,
+  "olculecek": 12,
+  "once-cozuldu": 1,
+  "bayat": 3,
+  "cozulemedi": 3,
+  "kosu-bekliyor": 1,
+  "tekrar": 3
+ },
+ "rapor_say": {
+  "PAKET-0072-73-0930.json": 35,
+  "PAKET-0074-78-0930.json": 23,
+  "PAKET-0077A-0930.json": 44,
+  "PAKET-0077B-0930.json": 44,
+  "PAKET-0079-0930.json": 16
+ },
+ "acik": [
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0072",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "IKI KISIM. (a) EK OKUMA = cozuldu: 'tosun-pasa-kimdir' (ekokuma_kolemen.js:66) + 'tosun-pa"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0072",
+   "madde": "H-0003",
+   "hukum": "senin-kararin",
+   "sinif": "arayuz",
+   "baslik": "3 alt istek. (1) Anlami cevaplandi: sari noktalar kaynakli halka DEGIL, C katmani hukuki-s"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0072",
+   "madde": "H-0005",
+   "hukum": "olculecek",
+   "sinif": "harita",
+   "baslik": "(a) Cetinje/Karadag INDI: kunyeye tabi 1516→1852 osmanli (00ebda62). (c) Herceg Novi krono"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0072",
+   "madde": "H-0008",
+   "hukum": "senin-kararin",
+   "sinif": "harita",
+   "baslik": "Anlami cevaplandi (12 D/E/C kaydi, 8'inde taraf isvicre; lejant canli). 'Renkler uyumsuz' "
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "sinif": "arayuz",
+   "baslik": "5 alt istek: (1) kavis YAPILDI (seferKavisliYol, >200 km %6) · (3) ok ucu YAPILDI (v2 dolu"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0006",
+   "hukum": "senin-kararin",
+   "sinif": "kapsam",
+   "baslik": "Maliyet olculdu: ~350 kunye · ~700 madde · ~5.700 yerlesim dilimi · kosu +%33. Durak uyusm"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0007",
+   "hukum": "senin-kararin",
+   "sinif": "motor",
+   "baslik": "Teshis: gorseldeki 'milimetrik' cizgi D hatti degil, petegin kiyi kenari (1821'de kutuda D"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "(1) Masavva/Dahlak 1557→1865 ve (3) Zeyla 1559→1884 OSMANLI: 1822 gosterimi dogru. (2) Bos"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "sinif": "ek-okuma",
+   "baslik": "Bugun maddeye bagli 9 kart (eslestirici ile). Alakasiz 5 karttan 4'u tasindi (matbaa · Fes"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "sinif": "ek-okuma",
+   "baslik": "Tam tarama yapildi: 627 kart, 2163 kart-madde cifti → A 1581 · B 498 · C 84; C'nin hepsi o"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "sinif": "ek-okuma",
+   "baslik": "5 kart tek tek: 4'u cikti (Feshane→1833-06-01 · 'uc asir ayni cati'→1451 Divan · matbaa→17"
+  },
+  {
+   "rapor": "PAKET-0072-73-0930.json",
+   "parti": "parti-emrelic-0073",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "sinif": "ek-okuma",
+   "baslik": "Kategori denetimi yapildi, plan hazir (TURPLAN: teknik-bilimsel 72 karttan 44'u tasinacak "
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0074",
+   "madde": "H-0006",
+   "hukum": "olculecek",
+   "sinif": "harita-gorunumu",
+   "baslik": "IKI YARI. (1) `bu mavi cizgiler sinir mi, o sene gecerli mi` — CEVAPLANDI VE INDI: iki hat"
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0074",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "sinif": "motor",
+   "baslik": "Ust uste binen topraklar = GOVDE CAKISMASI sinifi. 21 Eylul olcumu: 1850'de 379 kimlik cif"
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0074",
+   "madde": "H-0009",
+   "hukum": "senin-kararin",
+   "sinif": "harita-gorunumu",
+   "baslik": "Gorseldeki hat Osmanli-Iran Kerden hatti (1828-02-22). IKI KUSUR vardi: (a) HAYALET TARAF "
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0074",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "sinif": "veri-yerlesim + motor",
+   "baslik": "Poti kiyisi (1829-09-14): 21 Eylul'de OSM-dogrudan + rusya govdesi 1.873 km2 ust uste olcu"
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0078",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "sinif": "arayuz",
+   "baslik": "`5 gun / 7 gun / 10 gun B gorunumu ayarlarini tiklayamiyorum` — sikayet BUGUN HALA GECERLI"
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0078",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "sinif": "harita-gorunumu",
+   "baslik": "Bosna/Slavonya 1281 boslugu (44,41-45,62N · 16,14-18,69E). ONCEKI HUKUM YANLIS KELIMEYDI: "
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0078",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "sinif": "veri-yerlesim + motor",
+   "baslik": "1281'de Venedik cevresi `Milano Dukaligi` renginde. BUGUN HALA OYLE (olculdu): 6 nokta `mi"
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0078",
+   "madde": "H-0005",
+   "hukum": "olculecek",
+   "sinif": "harita-gorunumu",
+   "baslik": "Aydin 1281 boslugu (37,56-37,87N · 27,65-28,25E; gorsel artik diskte — ARAYUZ-0077 `diskte"
+  },
+  {
+   "rapor": "PAKET-0074-78-0930.json",
+   "parti": "parti-emrelic-0078",
+   "madde": "H-0006",
+   "hukum": "olculecek",
+   "sinif": "motor",
+   "baslik": "Hisnikeyfa Eyyubileri iki renk ust uste. Gorsel artik diskte ve TARIHI VERIYOR: 1281-01-01"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0002",
+   "hukum": "senin-kararin",
+   "sinif": "arayüz",
+   "baslik": "Açılış perdesi CANLI: dönen küre + 10 silüet + 'Atlas yükleniyor' (css/style.css atlas-haz"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0003",
+   "hukum": "senin-kararin",
+   "sinif": "harita görünümü (D sınırı yaslama)",
+   "baslik": "TR-GR 1922-11-17: çizilen hat d1922-mudanya-meric D sınıfı; hukukî görünümde yalnız E/F ya"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "sinif": "veri (işgal günleri)",
+   "baslik": "Kürne/Basra doğusundaki kırmızı şerit koşu 15'te gitti (NOKTA-ORTADOGU: 38→0 hücre). Kalan"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "sinif": "harita görünümü + veri",
+   "baslik": "İki sebep, biri çözüldü: ① 'Sina/Kızıldeniz kıyısı Britanya' → YAMA A indi (2e656b0d): bug"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "sinif": "harita görünümü (noktasızlık + gövde çakışması)",
+   "baslik": "Niğbolu 1915: Bulgaristan gövdesi Tuna'nın kuzeyine taşıyor. ① Noktasızlık: bugün ölçüldü,"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0014",
+   "hukum": "senin-kararin",
+   "sinif": "harita görünümü (C sınırı)",
+   "baslik": "İran-Rusya: hat d1923-sscb-ir-DEGISTI-aras-talis C sınıfı ⇒ hiçbir görünümde yaslanmaz (js"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0015",
+   "hukum": "olculecek",
+   "sinif": "harita görünümü (yaslama başarımı)",
+   "baslik": "Aynı yerde eşzamanlı iki D kaydı YOK (AVRUPA-SINIR ölçtü). Tarayıcı ölçümü (§4b): yaslama "
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "sinif": "harita görünümü + veri",
+   "baslik": "'Standardize edelim': üç görünümün üç sebebi. Britanya görünen kıyı → YAMA A ile düzeldi ("
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "sinif": "arayüz (yeni özellik)",
+   "baslik": "Altyapı İNDİ: derin pencere + zoom + mini kronoloji (`alt_kronoloji`/`alt_kutu` şeması, js"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0025",
+   "hukum": "sirada",
+   "sinif": "harita görünümü (veri) + ek okuma",
+   "baslik": "Ek okuma yüzü indi (kart `p77a-trabzon-1916-sahil-sirasi`, ae100838). Harita yüzü AÇIK, bu"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0028",
+   "hukum": "sirada",
+   "sinif": "harita görünümü (veri) + süreç isteği",
+   "baslik": "Ek okuma yüzü indi (kart `p77a-erzincan-1916-oncesi`). Harita: bugün 1916-08-01'de Erzinca"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0029",
+   "hukum": "sirada",
+   "sinif": "veri (noktasızlık + zincir)",
+   "baslik": "Bugün ölçüldü, 1916-12-01: `Katar Yarımadası (iç, dolgu)` SAHİPSİZ (tek dönemi 1559-1670),"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0031",
+   "hukum": "sirada",
+   "sinif": "veri (işgal günleri) + sınır çizgisi rengi",
+   "baslik": "Kırmızı dar bölgeler koşu 15'te gitti. Kalan, bugün ölçüldü: 1917-06-01'de Halepçe·Hânekîn"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0032",
+   "hukum": "olculecek",
+   "sinif": "harita görünümü (gövde çakışması + boşluk)",
+   "baslik": "Bindirme kökü bulundu (GOVDE-CAKISMA-0079: kapama/B2/B3 ekleme adımları komşu toprağını gö"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0033",
+   "hukum": "sirada",
+   "sinif": "veri (işgal günleri) + kronoloji",
+   "baslik": "Erbil enklavı: bugün 1920-01-01 ve 1917-06-01'de Erbil `ingiltere`, Kerkük 1918-10-30'a ka"
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0039",
+   "hukum": "kosu-bekliyor",
+   "sinif": "renk paleti (motor tuzu)",
+   "baslik": "Cevap: üç renk üç ayrı yapıdır — `rusya` #4f7d4f (çarlık, yeşil) · `rusya-gecici-hukumet` "
+  },
+  {
+   "rapor": "PAKET-0077A-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0041",
+   "hukum": "sirada",
+   "sinif": "veri (kronoloji günü + Elviye-i Selâse zinciri)",
+   "baslik": "Bugün ölçüldü: kronoloji data/olaylar_ek5.js:560 hâlâ `1918-05-25` 'Kars ve Ardahan'ın ger"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0046",
+   "hukum": "sirada",
+   "sinif": "harita",
+   "baslik": "Cevap: Ceylanpınar sınır şehri DEĞİL; koridoru 4,3 km yandaki Qaţţīnah peteği çiziyor. Qaţ"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0048",
+   "hukum": "sirada",
+   "sinif": "harita+veri",
+   "baslik": "HARİTA YÜZÜ ÇÖZÜLDÜ: Avusturya Cumhuriyeti koşu 15'te (Viyana…Bregenz ✓); Maribor+Eisensta"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0049",
+   "hukum": "sirada",
+   "sinif": "harita+arayüz",
+   "baslik": "Teyit: Maribor/Eisenstadt indi (koşu 16). Kalan, bugün ölçüldü: Zadar (Zara) yerlesimler_e"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0054",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "EK OKUMA YÜZÜ ÇÖZÜLDÜ: data/ekokuma_p77b.js:238 p77b-mustafa-kemal-samsun-yolculugu-1919. "
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0057",
+   "hukum": "sirada",
+   "sinif": "harita+veri",
+   "baslik": "Bugün ölçüldü, kusur sürüyor: Batum d: 1918-04-14→1918-12-01 (yerlesimler.js:962); Hopa, A"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0058",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "Cevap: Artvin Mart 1918'de geri alındı (TDV artvin, gün bulunamadı), Hopa 1918-03-14, Şavş"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0059",
+   "hukum": "tekrar",
+   "sinif": "harita",
+   "baslik": "İkizi H-0049 (aynı gün 1918-11-11, aynı A-M parçalanma haritası; görsel aynı sahne). Hüküm"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0060",
+   "hukum": "tekrar",
+   "sinif": "harita",
+   "baslik": "İkizi H-0053 (Marmaris-Bodrum-Kuşadası İtalyan çıkarması; kolun kendi notu 'aynı üç yer, a"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0061",
+   "hukum": "senin-kararin",
+   "sinif": "veri",
+   "baslik": "Burdur isg yok (ölçüldü). Başlangıç 1919-06-28 kesin (TDV isparta), bitiş TDV burdur'da ya"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0062",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "Cevap: HAYIR, 1919-07-23'te Osmanlı'da değildi (Mondros tahliyesi) — ama Sovyet de değildi"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0064",
+   "hukum": "senin-kararin",
+   "sinif": "veri",
+   "baslik": "Batı Trakya: TDV bati-trakya Fransız işgali 15 Ekim 1919, Yunan 22 Mayıs 1920. Veride Fran"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0065",
+   "hukum": "olculecek",
+   "sinif": "harita",
+   "baslik": "Kol 'zaten-dogru' dedi: gizli bölmede yaslama SONRASI bg-shs-1 %99,2 / bg-shs-2 %98,2. Ama"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0066",
+   "hukum": "senin-kararin",
+   "sinif": "harita",
+   "baslik": "d1923-bg-ro-tuna sınıf C (d_sinirlar_komsu.js:21) ⇒ hiçbir görünümde yaslanmaz (js/d_katma"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0069",
+   "hukum": "sirada",
+   "sinif": "motor",
+   "baslik": "KURAL YÜZÜ ÇÖZÜLDÜ: Değişmez 8 (8a/8b) yazıldı — commit 595e9947, CLAUDE.md §3 madde 8, de"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0070",
+   "hukum": "senin-kararin",
+   "sinif": "harita",
+   "baslik": "Emre'nin teşhisi doğru: g1-osm-ir tarafları bugün de osmanli/kacar (d_sinirlar_komsu.js:52"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0071",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "Kısmen indi: Balıkesir isg 1920-06-30→1922-09-06 (b2c28ac9, devirler koşu 16). Kalan: Alaş"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0072",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "İzmir→Bursa: Balıkesir indi (b2c28ac9); Bergama/Birgi yalnız yıl; Mihaliç/Kirmasti/Mudanya"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0073",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "Doğu Trakya kısmen indi: Tekirdağ isg 1920-06-20→1922-11-13 (fa5422b4), Gelibolu 1920-08-0"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0074",
+   "hukum": "sirada",
+   "sinif": "harita+veri",
+   "baslik": "Görsel 1 (Kars/Nahçıvan 1920-07-28): 'ayrı toprak' Revan'ın peteği = ermenistan-DC (tek ED"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0075",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "① bayat çarlık penceresi SÜRÜYOR: Sohum rusya 1810→1923, Tuapse rusya 1838→1923, Derbend 1"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0076",
+   "hukum": "tekrar",
+   "sinif": "harita",
+   "baslik": "İkizi H-0074 görsel 2 (Derbend, 1920-07-28; 'üst üste iki renk' = rusya peteği ile sovyet-"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0077",
+   "hukum": "sirada",
+   "sinif": "harita",
+   "baslik": "Avusturya batısı koşu 15'te düzeldi (Feldkirch/Bregenz/Innsbruck/Freistadt avusturya-cumhu"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0078",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "Kısmen indi: Tire 1919-05-28→1922-09-04, Ayasuluk 1919-05-22→1922-09-08 (b2c28ac9). Uşak e"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0080",
+   "hukum": "sirada",
+   "sinif": "veri",
+   "baslik": "1920-12-03: Kars/Sarıkamış TBMM (veride doğru); ama Hopa TBMM olmalı, Artvin Gürcü — verid"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0081",
+   "hukum": "sirada",
+   "sinif": "harita+veri",
+   "baslik": "Toplam madde. 7 isg penceresi indi (Balıkesir, Tire, Ayasuluk, İnegöl, Yenişehir, Tekirdağ"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0082",
+   "hukum": "sirada",
+   "sinif": "motor+veri",
+   "baslik": "İki kök: ① Kova B — sovyet-rusya ile tbmm-turkiye gövdeleri ortak kenar paylaşmıyor (koşu "
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0083",
+   "hukum": "sirada",
+   "sinif": "motor",
+   "baslik": "Kova B: Kars kuzeyindeki düz köşegen = iki gövdenin ayrı kenarları arasındaki üçgen (43.31"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0084",
+   "hukum": "olculecek",
+   "sinif": "harita",
+   "baslik": "Kol 'zaten-dogru' dedi: gizli bölmede yaslama sonrası tr-ir-1/2 %100. Görseldeki Başkale/B"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0086",
+   "hukum": "sirada",
+   "sinif": "motor",
+   "baslik": "'Genel kural olarak yazalım' YÜZÜ ÇÖZÜLDÜ: Değişmez 8 (595e9947, CLAUDE.md §3-8, dersler/D"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0087",
+   "hukum": "senin-kararin",
+   "sinif": "motor",
+   "baslik": "Kattâra'daki yeşil şerit = işgal taraması mesafe tavanı: uret_devirler.py isgalleri_uret()"
+  },
+  {
+   "rapor": "PAKET-0077B-0930.json",
+   "parti": "parti-emrelic-0077",
+   "madde": "H-0088",
+   "hukum": "sirada",
+   "sinif": "harita",
+   "baslik": "D hatları doğru yerde; kusur A katmanında (noktasızlık): Zeeuws-Vlaanderen Belçika, Hollan"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0001",
+   "hukum": "olculecek",
+   "sinif": "motor · harita görünümü (gövde çakışması)",
+   "baslik": "Kök sebep GOVDE-CAKISMA-0079 §0 (kapama/B2/B3 ekleme adımları komşu toprağını görmüyor). Ç"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "sinif": "motor · harita görünümü (gövde çakışması)",
+   "baslik": "H-0001 ile aynı sınıf (Trabzon 1281, trabzon-rum × ilhanlı; görsel Koşu 15 inişinden 28 sn"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0003",
+   "hukum": "senin-kararin",
+   "sinif": "veri (künye aşımı / hayalet devlet)",
+   "baslik": "BUGÜN ölçüldü (girdi.yukle, 4296 nokta): 1281-01-01 kutuda 3 nokta hâlâ `d:\"iran\"` — Tarki"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0005",
+   "hukum": "senin-kararin",
+   "sinif": "motor · tasarım (B2 köprü şekli)",
+   "baslik": "GOVDE-CAKISMA-0079 §1b/§5④: kutu sınıfı DEĞİL, çakışma yok; düz çizgi/üçgenler B2 enklav k"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0006",
+   "hukum": "olculecek",
+   "sinif": "motor · harita görünümü (gövde çakışması)",
+   "baslik": "GOVDE-CAKISMA-0079: Yuan × Tran 4.555 km² çakışma, %75'i B2 köprüsü; yama sınavında 0. Yam"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0010",
+   "hukum": "senin-kararin",
+   "sinif": "veri (hayalet devlet — Tuna 1281)",
+   "baslik": "Metinsiz; H-0011'in görseli (1281 Tuna ağzı). Hüküm ve delil H-0011 ile aynı."
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0011",
+   "hukum": "senin-kararin",
+   "sinif": "veri (hayalet devlet — Tuna 1281)",
+   "baslik": "1281'de ne Boğdan (1359) ne Eflak (1330) var. DUNYA-0079 yama B İNDİ, BUGÜN ölçüldü (1281,"
+  },
+  {
+   "rapor": "PAKET-0079-0930.json",
+   "parti": "parti-emrelic-0079",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "sinif": "veri (noktasızlık)",
+   "baslik": "CLAUDE.md §2 ilk soru: noktası var mı? 1281 kutuda (46.5-48.77K × 12.18-15.2D) yalnız 5 no"
+  }
+ ]
+}

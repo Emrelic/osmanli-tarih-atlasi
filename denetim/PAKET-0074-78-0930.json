@@ -1,0 +1,185 @@
+{
+  "paket": "PAKET-0074-78-0930",
+  "tarih": "2026-09-30",
+  "koordinator": "YILDIRIM BAYEZIT",
+  "sartname": "oturumlar/PAKET-HUKUM-0930-ORTAK.md",
+  "not": "Iki partide de H-0001..H-0006 var ve AYNI MADDE DEGIL — her kayitta `parti` alani yazili. 0074 maddeleri 21 Eylul DALGA-0074 dalgasinda (oturumlar/DALGA-0074.md) islenmis, 0078 maddeleri 27 Eylul ARAYUZ-0077 ve AVRUPA-SINIR-0077 raporlarinda `H-78:N` adiyla islenmis; ikisinin de CEVAP.json'u hic yazilmamis. Hukumler BUGUNKU canli dosyaya karsi yeniden olculdu; onceki raporlarin hukmu delil sayilmadi. Tarayici olcumu ve denetle.py kosu 18 yuzunden YAPILMADI.",
+  "partiler": [
+    {
+      "parti": "parti-emrelic-0074",
+      "madde": {
+        "H-0001": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "arayuz",
+          "hukum": "cozuldu",
+          "not": "`#btn-zoom` (Oto) zaman cubugundan `#menu-butonlar`a tasindi; id ayni, app.js'te 0 satir degisti. Bugun canli: index.html:158 `<button id=btn-zoom>`, `#menu-butonlar` blogu index.html:40-198 arasinda — dugme blogun ICINDE. 29 Eylul ARAYUZ-SADELESTIR (20d49298) dort dugme sildi ama Oto'yu silmedi.",
+          "delil": "commit 1b17ff80 (DALGA-0074 arayuz partisi) · index.html:158 (#menu-butonlar 40-198 icinde) · HEAD'de de ayni satir"
+        },
+        "H-0002": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "ek-okuma",
+          "hukum": "cozuldu",
+          "not": "Iki ek okuma karti yazilmis ve 1826-06-19 `Bektasi tarikati kapatildi` maddesine bagli: `bektasi-bektasilik-nedir` (bag `1826-06-19|Bektasi`) ve `bektasi-yeniceri-baglantisi`. Dosya tembel yukleyicide listeli. Kaynak TDV `bektasilik` (kart govdesinde).",
+          "delil": "commit 33f22b51 · data/ekokuma_yeniceri.js:170 ve :185 (olay bagi 1826-06-19|Bektasi) · js/app.js:11158 (`ekokuma_yeniceri` yukleyici listesinde) · madde data/olaylar_ek7.js:145"
+        },
+        "H-0003": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "arayuz",
+          "hukum": "cozuldu",
+          "not": "D gorunum anahtari (Hukuki/Fiili) haritanin sag ust kosesinden Butonlar alanindaki `#d-gorunum-grup` yuvasina tasindi; eski yerde MapLibre denetimiyle 1632 px2 ortusme vardi ve dugme merkezinden tiklanamiyordu (commit mesajinda olculmus). Bugun canli: yuva index.html:170, d_katman.js:1089 onu dolduruyor.",
+          "delil": "commit 1b17ff80 · index.html:170 `<div id=d-gorunum-grup>` · js/d_katman.js:1089"
+        },
+        "H-0004": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "veri-kronoloji-odak",
+          "hukum": "cozuldu",
+          "not": "`Timar sisteminin tasfiyesi` (1827-02-01) maddesine `odak_yer:\"Istanbul\"` yazilmis (Emre'nin istedigi gibi); kamera artik imparatorluk kutusuna degil Istanbul'a (0,70x0,70 derece) gidiyor (KRONO-YER-0072 olcumu).",
+          "delil": "data/olaylar_ek5.js:334 (`kapsam_genis:true` + `odak_yer:\"Istanbul\"`) · denetim/KRONO-YER-0072-0074.md:64,113"
+        },
+        "H-0005": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "ek-okuma",
+          "hukum": "cozuldu",
+          "not": "Kart `tartisma-bolge0073-timar-dunyadaki-benzerleri` yazildi: pronoia, ikta, tiyul, soyurgal, cagir ile karsilastirma + saliyaneli eyalet istisnasi; Avrupa feodalizmi ekseni mukerrer olmasin diye mevcut `timar-avrupa-feodalizm-farki` kartina zincirle bagli. Kaynak TDV `timar` · `ikta`. Kartin kendi notunda bulunamadi: Memluk iktasi ayri bolum olarak TDV'de yok; `iltizam` slug'i 302.",
+          "delil": "commit 7c39ebf6 · data/ekokuma_bolge0073.js:148 · js/app.js:11159 (`ekokuma_bolge0073` yukleyicide)"
+        },
+        "H-0006": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "harita-gorunumu",
+          "hukum": "olculecek",
+          "not": "IKI YARI. (1) `bu mavi cizgiler sinir mi, o sene gecerli mi` — CEVAPLANDI VE INDI: iki hat da E sinifi ve 1827-07-06'da yururlukte (`d1923-nl-de` 1824-07-02→1923-10-29 · `dg4-nl-fr-kortrijk` 1820-03-28→1830-10-04); cizgiye tiklayinca antlasmanin adi + gecerlilik + dayanak + `renk petekten gelir` uyarisi veren balon yazildi (commit 1b17ff80, d_katman.js _dPopupHtml). (2) `renkler cizgiye birebir oturmuyor` — 21 Eylul'de olculmustu (kenarin %83-89'unda hat tek devletin icinden geciyordu, medyan sapma 11-17 km). 23 Eylul'de YASLAMA indi (commit 1119a369 `renk antlasma hattina dayanir`, js/d_katman.js:331 `_D_YASLA_SINIF_HUKUKI = {F,E}`) ve iki hat da E sinifi ⇒ bugun yaslanmasi BEKLENIR. AMA bu hat/gun icin yaslama sonrasi oran OLCULMEDI (tarayici yasak, kosu 18). AVRUPA-SINIR-0077 §4b baska E hatlarinda yaslama sonrasi %98-100 olctu ve yaslamanin 40-65 sn surdugunu buldu. Olculecek: 1827-07-06 Hollanda kutusunda yaslama BITTIKTEN sonra iki yan orani (alet hazir: SINIR-D-ASYA-0077-olc.js). %95+ cikarsa hukum `bayat`.",
+          "delil": ""
+        },
+        "H-0007": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "harita-gorunumu",
+          "hukum": "bayat",
+          "not": "Sikayet dogruydu: 21 Eylul'de gorsel kutusunda (1827-07-06 · 49,84-51,10N · 15,73-18,09E, Bohemya/Silezya) o gun var olan yerlesim noktasi 0 idi, en yakin nokta 141-179 km, kara hucrelerinin %34,3'u cizilmiyordu (HARITA-DURUM-0074 §1, sebep noktasizlik + ufuk). BUGUN ayni kutuda 5 sahipli nokta var: Hradec Kralove, Broumov, Jesenik (avusturya) · Glatz, Oppeln (prusya); cevre +1 derecede 8 nokta daha. Noktalar 24 Eylul'de eklendi ve kosu 15/16 girdisinde. ⚠️ Sebebin kalktigi olculdu; motor CIKTISINDA o kutunun piksel olcumu YAPILMADI (kosu 18, tarayici yasak).",
+          "delil": "commit f8c6d9b9 (A katmani: Silezya'da 400 km'lik nokta deligi kapandi) + 4ff97898 (Orta Polonya + Bohemya ara noktalari) · data/yerlesimler.js (5 nokta, bu oturumun kutu olcumu) · ciktiya giris: commit 76351781 KOSU 16"
+        },
+        "H-0008": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "motor",
+          "hukum": "sirada",
+          "not": "Ust uste binen topraklar = GOVDE CAKISMASI sinifi. 21 Eylul olcumu: 1850'de 379 kimlik cifti / 2,43 milyon km2; Emre'nin gorselindeki gri leke kacar+rusya 1.939 km2 (Nahcivan-Culfa-Ordubad, 1828-02-22). Kayit tarafi TEMIZ (iki sahipli nokta 0); kusur govde uretiminde, seyrek kimligin govdesi yogun komsunun ustune tasiyor (CLAUDE.md §3: `kd:` dusurmez). 21 Eylul'den bu yana uret_petek.py'de cakismayi hedefleyen commit BULUNAMADI (git log taramasi). Sinif koşu 15 sonrasinda da yasiyor: ARAYUZ-0077 %1,3 (92/6897, Kafkas penceresi) olctu, ve 0078/H-0006 (27 Eylul gorseli) ayni sinifin yeni vakasi. Ikizleri: 0076/H-0069 · 0076/H-0072 (ikisi de `sirada`). Kalem Oturum 0 (motor). Olcum aleti hazir: denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py (~13 dk, kosu istemez) — kosu 18 ciktisinda yeniden kosulmali.",
+          "delil": ""
+        },
+        "H-0009": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "harita-gorunumu",
+          "hukum": "senin-kararin",
+          "not": "Gorseldeki hat Osmanli-Iran Kerden hatti (1828-02-22). IKI KUSUR vardi: (a) HAYALET TARAF — kayit 1746→1847 `afsar` diyordu, Afsar 1796'da bitmisti. BU DUZELDI: hat bugun ucu parcali — `d1746-osm-afsar-kerden` 1746→1751 · `d1751-osm-zend-kerden` 1751→1794 · `d1794-osm-kacar-kerden` 1794→1847 (data/d_sinirlar.js:46-48). (b) RENK HATTA OTURMUYOR — hattin yalniz %18'i gercekten iki devleti ayiriyordu. Bu kisim COZULMEDI ve kuralla COZULEMEZ: hat C sinifi (`kaba belgeli`), yaslama ise yalniz E/F'ye uygulaniyor (js/d_katman.js:331 `_D_YASLA_SINIF_HUKUKI = {F,E}`). SECENEKLER: (A) kaynakla C→E terfisi — TDV `erzurum-antlasmasi` (1823) / Kerden (1746) hattin koordinat kesinligini tasiyorsa; kaynak isi, olcum isi degil. (B) C hatlarina da yaslama kurali — kaba belgeye koordinat kesinligi atfetme riski (D-RENK-0073 §5.3 buna karsi). (C) oldugu gibi kalsin, balonda `C = kaba hat, renk petekten` uyarisi yeter. Ayni karar bekleyen ikizler: 0077/H-0014 ve 0077/H-0066 (ikisi de C hatti, `senin-kararin`). Onerim (A): hat kaynakla E'ye cikabiliyorsa kural bozulmadan cozulur.",
+          "delil": ""
+        },
+        "H-0010": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "veri-kronoloji-odak",
+          "hukum": "cozuldu",
+          "not": "`1828-1829 Osmanli-Rus Savasi'nin baslamasi` (1828-04-26) maddesine `odak_yer:[\"Yas\",\"Anapa\"]` yazilmis — iki cephe; kutu imparatorluk kutusunun ~%1,6'si (KRONO-YER-0072 olcumu). Emre'nin ikinci cumlesi (`noktasi olmayan TUM maddeler taransin`) bir SINIF isidir ve surekli: odak nobetcisi yayin kapisina bagli, ODAKSIZ tavan bugun 485 (CLAUDE.md §9) — bu madde o sinifin disinda.",
+          "delil": "data/olaylar_ek5.js:345 (`kapsam_genis:true` + `odak_yer:[\"Yas\",\"Anapa\"]`) · denetim/KRONO-YER-0072-0074.md:115"
+        },
+        "H-0011": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "veri-sefer",
+          "hukum": "cozulemedi",
+          "not": "DENENDI: SEFER-OK-0070 Anapa'nin teslimi (1828-06-24) icin ok yazmaya calisti. OLMADI, SEBEBI KAYNAK: TDV `anapa` gunu veriyor (24 Haziran 1828) ama guzergah vermiyor; ayni gövdedeki `karadan ve denizden hucum` cumlesi 1809 kusatmasina ait (TDV tuzagi ⑧); TDV `edirne-antlasmasi` yalniz sonuc sayiyor. Guzergah uydurulmadi. Ayni savastan kaynagi olan tek guzergah (Dibic, Silistre→Edirne 1829-06-30→1829-08-22) ok olarak yazildi ve yukleniyor. `Bu tur maddelerde` sinifi (penceredeki 6 el degistirme maddesi) SEFER-OK-0075 ile devam etti. Anapa icin yeniden deneme ancak yeni kaynakla (akademik harekat tarihi) — istenirse ayri kaynak sevki.",
+          "delil": "denetim/OK-0074B.md §2 (kaynak tablosu) · data/seferler_p0074.js (Dibic oku) · index.html:1613 · data/paket_26.js"
+        },
+        "H-0012": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "arayuz",
+          "hukum": "cozuldu",
+          "not": "`Antlasmanin haritadaki karsiligi` kutusu, el degistiren toprak YOKKEN artik hic basilmiyor; teshis metni `console.debug`e iniyor. Olcum (commit mesaji): 137 antlasma maddesinin 71'i (%52) bu gelistirici notunu basiyordu; alti ic not sinifi kaldirildi, 66 madde gercek kutusunu hala basiyor.",
+          "delil": "commit 1b17ff80 · js/app.js:10676-10681 (`if (!r.f) { console.debug(...); return; }`)"
+        },
+        "H-0013": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "arayuz",
+          "hukum": "cozuldu",
+          "not": "Uc kademe indi: `◀◀ Savastan once` → (fiili) → antlasmadan sonra, ve `⏵ Uc kademe` oynatma dugmesi. Olculen tespit: eski `Oncesi` savasin basini degil SONUNU gosteriyordu (80-5867 gun fark). Edirne (1829-09-14) kapsamda: data/savaslar.js:484 `savas_basi:\"1828-04-26\"`. SINIRLAR (yazili): (1) ① dugmesi yalniz `savas_basi` olan kayitta cikar — `tum antlasmalar` henuz degil (21 Eylul'de 137 antlasma maddesinin 44'u bagliydi); (2) `savas_basi` gunleri kaynaksiz oldugu icin ekrana gun basilmiyor (1.MURAT hukmu M-4893). Emre'nin gorseldeki dort renk sorusunun cevabi: taralı = isgal · acik yesil = RUSYA (sahipsiz degil, HARITA-DURUM §2) · koyu yesil = Edirne'yle birakilan kaleler · turkuaz = Cerkes.",
+          "delil": "commit edb73484 (ANTLASMA-KADEME-0074) · js/app.js:10420-10429 ve :10803-10825 · data/savaslar.js:484"
+        },
+        "H-0014": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "veri-yerlesim + motor",
+          "hukum": "sirada",
+          "not": "Poti kiyisi (1829-09-14): 21 Eylul'de OSM-dogrudan + rusya govdesi 1.873 km2 ust uste olculmustu (H-0008 sinifi). 🆕 BUGUNKU OLCUM KOKU BULDU: gorsel kutusunda (41,82-42,64N · 41,35-42,70E) o gun tek nokta var — Kutaisi (rusya). POTI (Fas) NOKTASI ATLASTA HIC YOK (`ad:\"Poti`/`Fas` taramasi bos; yalniz Batum data/yerlesimler.js:962). Yani Poti kiyisi Batum (Osmanli) ile Kutaisi (Rusya) petekleri arasinda paylasiliyor; TDV Edirne gövdesi Poti'nin Rusya'ya birakildigini yaziyor. Cozum iki kalem: (1) Poti/Fas noktasi — kaynakli (kale; 1828 Rus zapti, 1829 Edirne ile terk) → yerlesim kolu, KAYNAK SEVKI gerekir; (2) kalan govde cakismasi → H-0008 ile birlikte motor. Nokta once gelmeli (§6 sirasi).",
+          "delil": ""
+        },
+        "H-0015": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "veri-yerlesim",
+          "hukum": "zaten-dogru",
+          "not": "`Edirne'den sonra Eflak-Bogdan hala isgalli gorunuyor, boyle bir madde mi vardi` — EVET VARDI. TDV `edirne-antlasmasi`: Eflak-Bogdan ile Silistre savas tazminati odenene kadar REHIN olarak Ruslar'da kalacakti. Veri tam bunu diyor: 10 yerlesim `isg:` rusya 1828-05-07→1834-01-01 (+ Silistre →1836). Ustelik Emre'nin istedigi aciklama kronolojiye de yazilmis (Edirne maddesi: `rehin olarak Rus idaresinde kaldi — haritada bu yerlerin 1829'dan sonra da isgal altinda gorunmesinin sebebi budur`). Ikinci soru (`acik yesil topraklar hangi sehrin`) — acik yesil SAHIPSIZ DEGIL, RUSYA'nin yumusak kipteki rengi (HARITA-DURUM-0074 §2; #a6bb8f = rusya #4f7d4f @0,44). Yumusak kip opakligi 0,44→0,60 onerisi uygulanmadi (js/app.js:15588 hala 0,44); varsayilan kip SERT (opak) oldugu icin varsayilanda bu karisiklik yok.",
+          "delil": "data/yerlesimler.js (10 kayit `\"1828-05-07\",\"t\":\"1834-01-01\",\"d\":\"rusya\"`, bu oturumda sayildi) · data/olaylar_ek.js:72 (rehin cumlesi) · denetim/HARITA-DURUM-0074-0921.md §3"
+        },
+        "H-0016": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "ek-okuma",
+          "hukum": "cozuldu",
+          "not": "Kart `tartisma-bolge0073-cezayir-ordusu-1830` yazildi: ocagin kendi gucu (15-20.000, TDV `garp-ocaklari`; `cezayir` govdesindeki bozuk `1520.000` dizgisi KULLANILMADI) ve merkezin 1830'daki durumu ayri ayri; 1830-08-09 Dayi Huseyin maddesine bagli; mevcut statu kartina zincirli (mukerrer degil).",
+          "delil": "commit 7c39ebf6 · data/ekokuma_bolge0073.js:161 · js/app.js:11159"
+        },
+        "H-0017": {
+          "parti": "parti-emrelic-0074",
+          "sinif": "veri-kronoloji-odak",
+          "hukum": "cozuldu",
+          "not": "`Osmanli'da ilk duzenli nufus sayimi` (1830-12-01) maddesine `odak_yer:\"Istanbul\"` yazildi; artik imparatorluk gorunumune gecmiyor. `Tum maddelere nokta` sinif istegi: H-0010 notu (ODAKSIZ tavan 485, surekli is).",
+          "delil": "commit 3a80130a (KRONO-YER-0075: 53 maddeye harita capasi) · data/olaylar_ek14.js:129"
+        }
+      }
+    },
+    {
+      "parti": "parti-emrelic-0078",
+      "madde": {
+        "H-0001": {
+          "parti": "parti-emrelic-0078",
+          "sinif": "arayuz",
+          "hukum": "sirada",
+          "not": "`5 gun / 7 gun / 10 gun B gorunumu ayarlarini tiklayamiyorum` — sikayet BUGUN HALA GECERLI: 7/10 gun sikki veri yokken bilerek pasif (bVeriKapisi) cunku `data/ufuk_bantlari.js` ana agacta YOK (ls: No such file, bu oturumda olculdu). Gecmis: 27 Eylul ARAYUZ-0077 pasifligi aciklamali yapti; 29 Eylul secici index.html'den silindi; 30 Eylul UFUK-DUGME-0930 asama 1 ile uc sikli segment dugme geri kondu (index.html:130-133 `#ufuk-sec`, 5 varsayilan) — ama bu degisiklik COMMITLENMEMIS (git status: index.html · js/app.js · css/style.css `M`) ve YAYINDA DEGIL. Kalan is bizim, Emre'nin onayi degil (tasarim onaylandi, varsayilan 5 gun Emre'nin secimi): (1) kosu 17'nin 265 MB bant dosyasinin kodlanmasi/bolunmesi (GitHub 100 MB siniri — kodla.py 4. hedef), (2) asama 2 bicim okuyucusu + tarayici olcumu, (3) commit + surum damgasi + yayin. Neden `onay-bekliyor` degil: onaylanacak hazir bir sonuc yok, 7/10 bugun de calismiyor. Neden `kosu-bekliyor` degil: bant dosyasi kosu 17'de ZATEN uretildi; bekleyen makine degil kodlama isi.",
+          "delil": ""
+        },
+        "H-0002": {
+          "parti": "parti-emrelic-0078",
+          "sinif": "harita-gorunumu",
+          "hukum": "olculecek",
+          "not": "Bosna/Slavonya 1281 boslugu (44,41-45,62N · 16,14-18,69E). ONCEKI HUKUM YANLIS KELIMEYDI: ARAYUZ-0077 `kapsam-disi` yazmis ama gerekcesi `benim kalemim degil, sevk` — bu `kapsam-disi` degildir (proje bu isi yapiyor). Bugun olcum: kutuda 1281'de 10 sahipli nokta var (Banaluka, Srebrenik, Tuzla = bosna; Sisak, Kostajnica, Bos. Dubica, Jasenovac, Bos. Novi, Bos. Brod, Krupa = macaristan). Sava hattindaki 7 kale noktasi 12 Eylul'den beri veride (58e9a412) ve ek29 15 Agustos'tan beri motor girdisinde ⇒ Emre'nin 27 Eylul gorseli bu noktalar VARKEN alinmis. Bosluk Slavonya'nin ici (Pozega / Pakrac / Nova Gradiska / Slav. Brod) — orada nokta 0, ama en yakin noktalar (Jasenovac, Bos. Brod, Sisak) ~70 km icinde, yani 5 gunluk yuruyus ufkunun ICINDE. ⇒ Emre'nin sorusu (`5 gunluk yuruyusten yakin degil mi`) haklı gorunuyor ve noktasizlik TEK BASINA aciklamiyor; sebep motorun yuruyus/surtunme hesabinda olabilir. OLCULECEK: kosu 18 ciktisinda 1281-01-01 bu kutunun cizilmeyen kara hucreleri ve en yakin noktaya YURUYUS (km degil gun) mesafesi (alet: ARAC-HARITA-DURUM-0074-SAHIPSIZ.py'nin yuruyus surumu). Not: 30 Eylul BOGAZ-OLCUM yamasi (`sudan gecen adim YASAK`, 55dfa2b5) Sava kiyisinda sonucu degistirebilir.",
+          "delil": ""
+        },
+        "H-0003": {
+          "parti": "parti-emrelic-0078",
+          "sinif": "arayuz",
+          "hukum": "cozuldu",
+          "not": "Simgeler SAVAS degil 🏰 KALE simgesi (Dreznik, Bihac, Udbina `tur:\"kale\"`). Kusur: kale simgesi `fetihten sonra 550 gun` penceresine bagliydi ama atlasin baslangic damgasi (1281-01-01, gercek fetih degil) ayiklanmiyordu ⇒ 725 kale noktasinin 412'si acilista `yeni fethedilmis` gorunuyordu. Cozum: pencereye `e` (epok) bayragi, 🏰 epokta basilmiyor. Iki yonde sinanmis (epokta 0 · Aydos 1329 fethinde gorunuyor). Savas isaretlerinin hepsinde zaman penceresi var (`butun zamanlarda` gosterilen savas isareti yok).",
+          "delil": "commit 46aaf6e7 (ARAYUZ-0077 ... epok kale simge) · js/app.js:3424-3432 (`e: dn.f === EPOK_DAMGASI`) · HEAD'de de var"
+        },
+        "H-0004": {
+          "parti": "parti-emrelic-0078",
+          "sinif": "veri-yerlesim + motor",
+          "hukum": "sirada",
+          "not": "1281'de Venedik cevresi `Milano Dukaligi` renginde. BUGUN HALA OYLE (olculdu): 6 nokta `milanoduka` 1281-01-01'den basliyor — Milano, Verona, Padova, Brescia, Bergamo, Parma — oysa `milano-dukaligi` kunyesi f:1395-05-11 (data/devletler.js:2063-2064) ⇒ 114 yillik HAYALET (§3.5). Venedik noktasi var ve dogru (s:venedik); ama Mestre/Padova karasi milanoduka peteginde, Venedik noktasi 1281-1405 arasi iki govdenin icinde (AVRUPA-SINIR-0077 §3, govde cakismasi). Emre'nin gorsel-2 tahmini DOGRU: Udine/Trento acik yesili = `almanya` (Kutsal Roma). DURUM: koordinatorun istedigi uygulama betigi HAZIR ve sinanmis (denetim/AVRUPA-SINIR-0077-uygula.py, M-5285: Verona/Padova/Brescia/Bergamo/Parma'nin 1281→1395 kismi `__BOSLUK__` beyani + Zadar; kuru/uygula/idempotent sinandi) ama KOSULMAMIS — veri degismemis, ve kosu 18 surdugu icin `data/` donmus. Sira: kosu 18 bitince betik → sonraki kosu. ACIK KALAN iki alt karar: (a) Milano kaydinin kendisi (1281'den milanoduka) — kunye GENISLETME Emre'nin karari (M-5277), betige konmadi; (b) Venedik noktasinin govde cakismasi — H-0008 motor sinifi. 🆕 YAN BULGU (olculdu, kaynak okunmadi): ayni gorsellerde Iskodra (1281→1479), Drac (1281→1501) ve Korfu (1281→1797) `venedik` — tarihen suphe var (Korfu 1386, Iskodra 1396, Drac 1392 Venedik'e gecti); kunye asimi degil ama §3.5 `yer yanlis` adayi → kaynak sevki gerekir. Ayrica M-5285: 4d bu 5 hayalet donemi SAYMIYOR (kunye id `milano-dukaligi` ≠ harita `milanoduka`) — denetimin gormedigi sinif.",
+          "delil": ""
+        },
+        "H-0005": {
+          "parti": "parti-emrelic-0078",
+          "sinif": "harita-gorunumu",
+          "hukum": "olculecek",
+          "not": "Aydin 1281 boslugu (37,56-37,87N · 27,65-28,25E; gorsel artik diskte — ARAYUZ-0077 `diskte yok` demisti). Onceki `kapsam-disi` hukmu H-0002'deki gibi yanlis kelime. Bugun olcum: kutuda tek nokta Aydin (bizans); cevre +0,4 derecede 8 nokta (Soke, Kusadasi, Selcuk, Tire, Birgi = bizans; Milas, Balat, Mugla = mentese). Bosluk Aydin'in guneydogusu (Buyuk Menderes ovasi / Cine yonu) — orada nokta YOK: Cine, Karpuzlu, Kocarli, Bozdogan, Nazilli taramada cikmadi. Ama en yakin noktalar ~40-60 km ⇒ 5 gun ufkunun icinde; H-0002 ile ayni soru. Bu bolgede 1281 icin D hatti YOK (d_sinir taramasi bos) ⇒ yaslama sebebi degil. OLCULECEK: kosu 18 ciktisinda 1281-01-01 kutunun cizilmeyen hucreleri + yuruyus mesafesi. Noktasizlik payi varsa Cine/Nazilli yerlesim kolu.",
+          "delil": ""
+        },
+        "H-0006": {
+          "parti": "parti-emrelic-0078",
+          "sinif": "motor",
+          "hukum": "olculecek",
+          "not": "Hisnikeyfa Eyyubileri iki renk ust uste. Gorsel artik diskte ve TARIHI VERIYOR: 1281-01-01 · 37,46-37,84N · 40,86-41,96E (ARAYUZ-0077 gorsel/tarih yoktu diye 1300/1400/1450'de olcmustu: 0 · 0 · 2 karakoyunlu — 1281 olculmedi). Bugun: `eyyubi-hisnikeyfa` TEK noktali (Hasankeyf, yerlesimler_ok107.js), cevresindeki 17 nokta artuklu/ilhanli ⇒ tam H-0008'in tarif ettigi desen (seyrek kimligin govdesi komsunun ustune tasiyor). Gorselde ince uzun bir govde batiya 40,86E'ye kadar uzaniyor ve sagda ikinci bir kenar gorunuyor. OLCULECEK: kosu 18 govdesinde 1281-01-01 bu kutuda cakisan ciftler (alet ARAC-HARITA-DURUM-0074-CAKISMA.py). Cakisma cikarsa hukum `tekrar` (ikizi 0074/H-0008) ve sinifla birlikte motora. Emre'nin sorusunun cevabi: bu bilincli bir `katman` gosterimi DEGIL; yumusak kipte (opaklik 0,44) iki govde ust uste binince alfa harmani iki rengi birden gosterir.",
+          "delil": ""
+        }
+      }
+    }
+  ],
+  "dagilim": {
+    "parti-emrelic-0074": {"cozuldu": 10, "bayat": 1, "zaten-dogru": 1, "sirada": 2, "olculecek": 1, "senin-kararin": 1, "cozulemedi": 1},
+    "parti-emrelic-0078": {"cozuldu": 1, "sirada": 2, "olculecek": 3},
+    "toplam": {"cozuldu": 11, "bayat": 1, "zaten-dogru": 1, "sirada": 4, "olculecek": 4, "senin-kararin": 1, "cozulemedi": 1}
+  }
+}

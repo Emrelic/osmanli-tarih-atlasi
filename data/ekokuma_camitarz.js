@@ -25,7 +25,9 @@ window.EKOKUMA_CAMITARZ = [
       "Beş dönem art arda gelse de birbirini tümüyle silmedi: klasik dönem kompozisyon ilkeleri (merkezî kubbe, çift minare) sonraki dönemlerde de korunurken, yalnız cephe bezemesi ve süsleme dili değişti.",
     not: "Bu kart bir sentezdir; her dönemin somut örnek yapısı ayrı kartlarda anlatılır: klasik dönem için Üç Şerefeli Camii, Şehzade Camii, Süleymaniye, Selimiye; Osmanlı barok için Nuruosmaniye, Fatih Camii; Lâle Devri bağlamı için Sadâbad; erken Osmanlı ve ampir/eklektik için bu dosyadaki Bursa Ulucami ve Nusretiye Camii kartları.",
     kesinlik: "kesin",
-    olay: [],
+    // UYGULA-KART-0930 (0064/H-0020): olay:[] ile hiçbir maddede görünmüyordu;
+    // soru 1749-01-19 Nuruosmaniye maddesinde (olaylar_ek14.js:52) soruldu.
+    olay: ["1749-01-19|Nuruosmaniye"],
     kaynak: "TDV İslâm Ansiklopedisi: ulucami, nuruosmaniye-kulliyesi, sultan-ahmed-camii-ve-kulliyesi, nusretiye-camii — burada ve ilgili ek okuma kartlarında ayrı ayrı kaynaklanmış maddelerin sentezi.",
   },
   {
@@ -53,7 +55,9 @@ window.EKOKUMA_CAMITARZ = [
       "Nusretiye Camii, klasik/Sinan döneminin sade geometrik dili ile Osmanlı barokunun (Nuruosmaniye) kavisli cephelerinin ötesine geçip Avrupa'nın 19. yüzyıl üslup repertuarını doğrudan camiye taşıyan bir dönemin örneğidir; aynı üslup anlayışı birkaç on yıl sonra bir saray yapısı olarak Dolmabahçe'de de sürecektir.",
     not: "Kart yalnız camiyi anlatır; Dolmabahçe Sarayı (aynı üslup dönemi, ama bir saray) ayrı bir kartta işlenmiştir, burada tekrarlanmadı.",
     kesinlik: "kesin",
-    olay: ["1826-06-15|Hayriyye"],
+    // UYGULA-KRONOLOJI-0930 · 0073/H-0016: kart kendi maddesine taşındı (1826-04-08,
+    // olaylar_kronoeksik_0921.js:49); Vak'a-i Hayriyye maddesinde alakasız kalıyordu.
+    olay: ["1826-04-08|Nusretiye"],
     kaynak: "TDV İslâm Ansiklopedisi, \"Nusretiye Camii\" — https://islamansiklopedisi.org.tr/nusretiye-camii",
   },
 ];

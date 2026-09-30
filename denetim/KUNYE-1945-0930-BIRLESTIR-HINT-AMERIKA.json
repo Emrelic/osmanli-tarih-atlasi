@@ -1,0 +1,278 @@
+{
+ "kaynak": "denetim/ONCE1281-HINT-AMERIKA-KUNYE.json",
+ "okunan": 47,
+ "kabul": [
+  {
+   "id": "cola",
+   "islem": "yeni",
+   "f": "0850-01-01",
+   "t": "1279-01-01"
+  },
+  {
+   "id": "bati-calukya",
+   "islem": "yeni",
+   "f": "0973-01-01",
+   "t": "1189-01-01"
+  },
+  {
+   "id": "dogu-calukya",
+   "islem": "yeni",
+   "f": "0624-01-01",
+   "t": "1070-01-01"
+  },
+  {
+   "id": "pala",
+   "islem": "yeni",
+   "f": "0750-01-01",
+   "t": "1120-01-01"
+  },
+  {
+   "id": "sena",
+   "islem": "yeni",
+   "f": "1095-01-01",
+   "t": "1202-01-01"
+  },
+  {
+   "id": "gahadavala",
+   "islem": "yeni",
+   "f": "1089-01-01",
+   "t": "1197-01-01"
+  },
+  {
+   "id": "cahamana",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1192-01-01"
+  },
+  {
+   "id": "paramara",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1305-01-01"
+  },
+  {
+   "id": "caulukya",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1297-01-01"
+  },
+  {
+   "id": "candela",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1203-01-01"
+  },
+  {
+   "id": "gurjara-pratihara",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1027-01-01"
+  },
+  {
+   "id": "kabace",
+   "islem": "yeni",
+   "f": "1206-01-01",
+   "t": "1228-01-01"
+  },
+  {
+   "id": "toltek",
+   "islem": "yeni",
+   "f": "0900-01-01",
+   "t": "1150-01-01"
+  },
+  {
+   "id": "ata-pueblo",
+   "islem": "yeni",
+   "f": "0850-01-01",
+   "t": "1300-01-01"
+  },
+  {
+   "id": "rapa-nui",
+   "islem": "yeni",
+   "f": "1200-01-01",
+   "t": "1888-09-09"
+  },
+  {
+   "id": "tahiti",
+   "islem": "yeni",
+   "f": "1025-01-01",
+   "t": "1842-09-09"
+  },
+  {
+   "id": "hawaii-seflikleri",
+   "islem": "yeni",
+   "f": "1190-01-01",
+   "t": "1795-01-01"
+  },
+  {
+   "id": "seylan-sinhala",
+   "islem": "genislet",
+   "f": "1281-01-01→1070-01-01",
+   "t": "1518-01-01→1518-01-01"
+  },
+  {
+   "id": "kesmir",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1586-10-01→1586-10-01"
+  },
+  {
+   "id": "orissa",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1568-01-01→1568-01-01"
+  },
+  {
+   "id": "racput",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1947-08-15→1947-08-15"
+  },
+  {
+   "id": "nepal",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1945-09-02→1945-09-02"
+  },
+  {
+   "id": "maya-sehir-devletleri",
+   "islem": "genislet",
+   "f": "1200-01-01→1000-01-01",
+   "t": "1697-03-13→1697-03-13"
+  },
+  {
+   "id": "norse-gronland",
+   "islem": "genislet",
+   "f": "1281-01-01→0985-01-01",
+   "t": "1450-01-01→1450-01-01"
+  },
+  {
+   "id": "inuit",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1880-09-01→1880-09-01"
+  },
+  {
+   "id": "tui-tonga-imparatorlugu",
+   "islem": "genislet",
+   "f": "1220-01-01→1000-01-01",
+   "t": "1845-12-04→1845-12-04"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [
+  "delhi-sultanligi",
+  "hoysala",
+  "kakatiya",
+  "yadava",
+  "pandya",
+  "kocin",
+  "cahokia",
+  "chimu-krallik",
+  "yafna",
+  "sind",
+  "ahom",
+  "ladak",
+  "tututepec-krallik",
+  "moundville",
+  "etowah",
+  "spiro",
+  "dene",
+  "kri",
+  "sosoni",
+  "zapotek-krallik",
+  "nahua-sehir-devletleri"
+ ],
+ "boya_gerekli": [
+  {
+   "id": "cola",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "bati-calukya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "dogu-calukya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "pala",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "sena",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "gahadavala",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "cahamana",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "paramara",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "caulukya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "candela",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "gurjara-pratihara",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kabace",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "toltek",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ata-pueblo",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "rapa-nui",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "tahiti",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "hawaii-seflikleri",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  794,
+  811
+ ]
+}

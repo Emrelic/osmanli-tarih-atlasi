@@ -1,0 +1,26 @@
+{
+ "kaynak": "denetim\\KUNYE-1945-0930-MEDINE-KUNYE.json",
+ "okunan": 1,
+ "kabul": [
+  {
+   "id": "medine-emirligi",
+   "islem": "yeni",
+   "f": "0969-01-01",
+   "t": "1517-01-01"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [],
+ "boya_gerekli": [
+  {
+   "id": "medine-emirligi",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  840,
+  841
+ ]
+}

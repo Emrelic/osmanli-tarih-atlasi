@@ -1,0 +1,260 @@
+{
+  "oturum": "DEVLET-500-1000",
+  "tarih": "2026-09-30",
+  "kusak": "0500-01-01 → 1000-01-01",
+  "parti": "1 (İslâm dünyası + bozkır, TDV birincil) — ARA TESLİM",
+  "tarama": "data/devletler.js 878 künye, node ile yüklenip f<1000 & t>500 süzüldü (16 künye) + id/ad üzerinden ~90 ad kalıbıyla tarandı (emev, sasan, tahir, saffar, sac, tolun, ihşid, ağleb, idris, rüstem, midrar, hamdan, hazar, uygur, ziyad …). Aşağıdaki 16 yeni kimliğin HİÇBİRİ devletler.js'te yok; denetim/*.json bekleyen önerilerde de yok (grep ölçüldü; yalnız hamdani-halep ve hamdani-yemen var — ayrı kollar).",
+  "harita_notu": "arac/renkler.py'de (3823 satır) emev|sasan|abbas|samani|fatim|hazar|uygur grep'i hiçbir boya anahtarı vermedi ⇒ 16 yeni kimliğin hepsi harita:null + boya_gerekli:true.",
+  "kaynak_onbellegi": "denetim/DEVLET-500-1000-tdv-onbellek/<slug>.txt (araç: denetim/ARAC-DEVLET-500-1000-TDV.py)",
+  "kayitlar": [
+    {
+      "islem": "yeni", "id": "hulefa-yi-rasidin", "ad": "Hulefâ-yi Râşidîn Devri (Medine Hilâfeti)",
+      "tur": "devlet", "bolge": "arabistan", "f": "0632-01-01", "t": "0661-01-01",
+      "baskent": "Medine → Kûfe", "harita": null, "boya_gerekli": true,
+      "ozet": "Hz. Peygamber'in vefatından sonra Hz. Ebû Bekir, Ömer, Osman ve Ali'nin hilâfetleriyle süren ilk dört halife devri; Hz. Hasan'ın Muâviye'ye biatıyla sona erdi. (kaynak: TDV, madde: hulefa-yi-rasidin)",
+      "kaynak": "TDV: hulefa-yi-rasidin (HULEFÂ-yi RÂŞİDÎN)",
+      "ic_not_f": "TDV başlığı: 'Hz. Peygamber’den sonraki ilk dört halife (632-661)' — YIL. Gün yazılmadı; başlangıç Ebû Bekir'e biat.",
+      "ic_not_t": "TDV emeviler: 'Hz. Hasan’ın … kendisine biat etmesiyle 41 yılı Rebîülevvel ayının sonlarında (Temmuz 661)' — AY biliniyor, gün yok ⇒ YYYY-01-01 (ay yazılmaz, CLAUDE.md §8).",
+      "kronoloji": [
+        {"t": "0632-01-01", "tur": "kurulus", "b": "Hz. Peygamber'in vefatının ardından Hz. Ebû Bekir'e biat edildi", "kaynak": "TDV hulefa-yi-rasidin (yıl)"},
+        {"t": "0661-01-01", "tur": "son", "b": "Hz. Ali şehit edildi; Hz. Hasan'ın Muâviye'ye biatıyla Râşid halifeler devri sona erdi (Temmuz 661)", "kaynak": "TDV emeviler: '41 yılı Rebîülevvel ayının sonlarında (Temmuz 661)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "emevi", "ad": "Emevî Hilâfeti (Benî Ümeyye)",
+      "tur": "devlet", "bolge": "suriye-filistin", "f": "0661-01-01", "t": "0750-08-05",
+      "baskent": "Dımaşk", "harita": null, "boya_gerekli": true,
+      "ozet": "Muâviye b. Ebû Süfyân'ın kurduğu, Dımaşk merkezli ilk İslâm hânedan-devleti; Abbâsî ihtilâliyle yıkıldı, son halife II. Mervân Mısır'da öldürüldü. (kaynak: TDV, madde: emeviler)",
+      "kaynak": "TDV: emeviler (EMEVÎLER)",
+      "ic_not_f": "TDV: '41 yılı Rebîülevvel ayının sonlarında (Temmuz 661) İslâm dünyasının tamamını hâkimiyeti altına aldı' — AY; gün yok ⇒ 0661-01-01.",
+      "ic_not_t": "TDV: 'Mervân en sonunda Mısır’da öldürüldü (26 Zilhicce 132 / 5 Ağustos 750). Onun ölümüyle Emevîler tar…' — GÜN kaynaktan. abbasi künyesi 0749-11-28'de başlıyor; 9 aylık örtüşme iç savaş dönemidir (beyan). Endülüs Emevîleri ayrı künye (endulus-emevi, 756).",
+      "kronoloji": [
+        {"t": "0661-01-01", "tur": "kurulus", "b": "Hz. Hasan'ın biatıyla Muâviye bütün İslâm dünyasına hâkim oldu; Emevî Devleti kuruldu (Temmuz 661)", "kaynak": "TDV emeviler: '(Temmuz 661)'"},
+        {"t": "0750-08-05", "tur": "son", "b": "Zap yenilgisinden sonra kaçan II. Mervân Mısır'da öldürüldü; Emevî Hilâfeti sona erdi", "kaynak": "TDV emeviler: '(26 Zilhicce 132 / 5 Ağustos 750)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "sasani", "ad": "Sâsânî İmparatorluğu",
+      "tur": "imparatorluk", "bolge": "iran", "f": "0226-01-01", "t": "0651-01-01",
+      "baskent": "Medâin (Ktesifon)", "harita": null, "boya_gerekli": true,
+      "ozet": "Erdeşîr-i Bâbekân'ın kurduğu İran hânedanı; Kādisiye ve Nihâvend yenilgilerinden sonra III. Yezdicerd'in Merv'de öldürülmesiyle sona erdi. (kaynak: TDV, madde: sasaniler)",
+      "kaynak": "TDV: sasaniler (SÂSÂNÎLER)",
+      "ic_not_f": "TDV başlığı: '226-651 yılları arasında hüküm süren bir İran hânedanı' — YIL. Kuşak 500'de başlar; f kuşak dışı ama künyenin gerçek başlangıcıdır (kırpılmadı).",
+      "ic_not_t": "TDV: '651 yılında düşmanları tarafından Merv’de öldürülen Yezdicerd' — YIL.",
+      "kronoloji": [
+        {"t": "0226-01-01", "tur": "kurulus", "b": "Erdeşîr-i Bâbekân Sâsânî hânedanını kurdu", "kaynak": "TDV sasaniler başlığı: '226-651' (yıl)"},
+        {"t": "0651-01-01", "tur": "son", "b": "Son Sâsânî hükümdarı III. Yezdicerd Merv'de öldürüldü; imparatorluk sona erdi", "kaynak": "TDV sasaniler (yıl)"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "tahiri-horasan", "ad": "Tâhirîler (Horasan)",
+      "tur": "hanedanlik", "bolge": "iran", "f": "0821-01-01", "t": "0873-01-01",
+      "baskent": "Merv → Nîşâbur", "harita": null, "boya_gerekli": true,
+      "ozet": "Tâhir b. Hüseyin'in Abbâsî valisi olarak Horasan'da kurduğu yarı bağımsız hânedan; Ya'kūb b. Leys Nîşâbur'u alınca sona erdi. (kaynak: TDV, madde: tahiriler--horasan)",
+      "kaynak": "TDV: tahiriler--horasan (TÂHİRÎLER)",
+      "ic_not_f": "TDV başlığı: 'Horasan ve Mâverâünnehir’de hüküm süren bir hânedan (821-873)' — YIL. 'tahiriler' slug'ı 302 (ölü); canlı madde 'tahiriler--horasan'. 'tahiri' id'si Yemen Tâhirîleri'ne (1454) ait — karıştırma.",
+      "ic_not_t": "TDV: 'Ya‘kūb b. Leys, Şevval 259 (Ağustos 873) tarihinde Nîşâbur’u da alarak Tâhirîler’in Horasan’daki hâkimiyetine son verdi' — AY; gün yok ⇒ 0873-01-01.",
+      "kronoloji": [
+        {"t": "0821-01-01", "tur": "kurulus", "b": "Tâhir b. Hüseyin Horasan valiliğine tayin edildi; Tâhirî hânedanı başladı", "kaynak": "TDV tahiriler--horasan (yıl)"},
+        {"t": "0844-01-01", "tur": "hukumdar", "b": "Abdullah b. Tâhir öldü; yerine oğlu II. Tâhir geçti", "kaynak": "TDV tahiriler--horasan: '(230/844)'"},
+        {"t": "0873-01-01", "tur": "son", "b": "Saffârî Ya'kūb b. Leys Nîşâbur'u aldı; Tâhirîler'in Horasan hâkimiyeti sona erdi (Ağustos 873)", "kaynak": "TDV tahiriler--horasan: 'Şevval 259 (Ağustos 873)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "saffari", "ad": "Saffârîler",
+      "tur": "hanedanlik", "bolge": "iran", "f": "0861-01-01", "t": "1003-01-01",
+      "baskent": "Zerenc", "harita": null, "boya_gerekli": true,
+      "ozet": "Ya'kūb b. Leys es-Saffâr'ın Sîstan'da kurduğu hânedan; Horasan'dan Fars'a yayıldı, Sâmânîler'e ve sonunda Gazneli Mahmud'a yenilerek sona erdi. (kaynak: TDV, madde: saffariler)",
+      "kaynak": "TDV: saffariler (SAFFÂRÎLER)",
+      "ic_not_f": "TDV: 'Ya‘kūb b. Leys es-Saffâr, 247’de (861) Sîstan’a hâkim olduktan sonra' — YIL.",
+      "ic_not_t": "TDV: 'Sultan Mahmud onu ele geçirdi … Böylece Saffârîler hânedanı sona erdi (393/1003)' — YIL. t kuşak dışı (1003); gerçek son, kırpılmadı. Ara kesinti: Leysîler kolu 'Receb 298 / Mart 911' Sâmânîler'e düştü.",
+      "kronoloji": [
+        {"t": "0861-01-01", "tur": "kurulus", "b": "Ya'kūb b. Leys Sîstan'a hâkim oldu; Saffârî hânedanı kuruldu", "kaynak": "TDV saffariler: '247’de (861)'"},
+        {"t": "0879-06-09", "tur": "hukumdar", "b": "Ya'kūb b. Leys öldü; yerine kardeşi Amr b. Leys geçti", "kaynak": "TDV saffariler: '(14 Şevval 265 / 9 Haziran 879)'"},
+        {"t": "1003-01-01", "tur": "son", "b": "Gazneli Mahmud Sîstan'ı alıp Halef'i ele geçirdi; Saffârîler sona erdi", "kaynak": "TDV saffariler: '(393/1003)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "sacogullari", "ad": "Sâcoğulları (Azerbaycan)",
+      "tur": "hanedanlik", "bolge": "kafkasya", "f": "0889-01-01", "t": "0929-01-01",
+      "baskent": "Merâga → Erdebîl", "harita": null, "boya_gerekli": true,
+      "ozet": "Üsrûşene kökenli Ebü's-Sâc ailesinin Abbâsî valisi sıfatıyla Azerbaycan ve Ermenistan'da kurduğu Türk-İslâm hânedanı. (kaynak: TDV, madde: sacogullari)",
+      "kaynak": "TDV: sacogullari (SÂCOĞULLARI)",
+      "ic_not_f": "TDV başlığı: 'Azerbaycan’da hüküm süren bir Türk-İslâm hânedanı (889-929)' — YIL. bolge 'kafkasya' mı 'iran' mı: merkez Merâga (İran Azerbaycanı) — koordinatör seçsin.",
+      "ic_not_t": "TDV başlığı (929) — YIL; gövdede son cümle ayrıca ölçülmedi.",
+      "kronoloji": [
+        {"t": "0889-01-01", "tur": "kurulus", "b": "Muhammed b. Ebü's-Sâc Azerbaycan valisi oldu; Sâcoğulları hânedanı başladı", "kaynak": "TDV sacogullari (yıl)"},
+        {"t": "0893-01-01", "tur": "baskent", "b": "Muhammed b. Ebü's-Sâc Merâga'yı alıp idare merkezi yaptı", "kaynak": "TDV sacogullari: '(280/893)'"},
+        {"t": "0929-01-01", "tur": "son", "b": "Sâcoğulları hânedanı sona erdi", "kaynak": "TDV sacogullari başlığı (yıl)"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "tolunogullari", "ad": "Tolunoğulları",
+      "tur": "hanedanlik", "bolge": "misir-sudan", "f": "0868-01-01", "t": "0905-01-01",
+      "baskent": "Fustat → Katâi", "harita": null, "boya_gerekli": true,
+      "ozet": "Ahmed b. Tolun'un Mısır'da kurduğu, İslâm döneminde Mısır'ın ilk müstakil hânedanı; Suriye'ye yayıldı, Abbâsî ordusu Fustat'a girince yıkıldı. (kaynak: TDV, madde: tolunogullari)",
+      "kaynak": "TDV: tolunogullari (TOLUNOĞULLARI)",
+      "ic_not_f": "TDV: 'Mısır Valisi Bayık Bey’in vekili sıfatıyla Mısır’a girdi, bu vesileyle hânedanın temellerini attı (254/868)' — YIL. 'tulunogullari' slug'ı 302.",
+      "ic_not_t": "TDV: 'Şeybân … teslim oldu (Rebîülevvel 292 / Ocak 905). Ertesi gün Abbâsî ordusu Fustat’a girdi' — AY; gün yok ⇒ 0905-01-01 (tesadüfen Ocak; ay hassasiyeti ic_not'ta).",
+      "kronoloji": [
+        {"t": "0868-01-01", "tur": "kurulus", "b": "Ahmed b. Tolun vali vekili olarak Mısır'a girdi; Tolunoğulları'nın temelleri atıldı", "kaynak": "TDV tolunogullari: '(254/868)'"},
+        {"t": "0893-06-14", "tur": "toprak-kazanc", "b": "Halife Mu'tazıd'ın fermanıyla Fırat'tan Berka'ya kadar topraklar Humâreveyh'e verildi", "kaynak": "TDV tolunogullari: '14 Haziran 893’te Mısır’a yolladığı fermanla'"},
+        {"t": "0905-01-01", "tur": "son", "b": "Şeybân b. Ahmed teslim oldu, Abbâsî ordusu Fustat'a girdi; Tolunoğulları yıkıldı (Ocak 905)", "kaynak": "TDV tolunogullari: '(Rebîülevvel 292 / Ocak 905)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "ihsidi", "ad": "İhşîdîler",
+      "tur": "hanedanlik", "bolge": "misir-sudan", "f": "0935-01-01", "t": "0969-07-06",
+      "baskent": "Fustat", "harita": null, "boya_gerekli": true,
+      "ozet": "Fergana kökenli Muhammed b. Tuğç el-İhşîd'in Mısır, Suriye ve Filistin'de kurduğu Türk hânedanı; Fâtımî kumandanı Cevher Fustat'a girince sona erdi. (kaynak: TDV, madde: ihsidiler)",
+      "kaynak": "TDV: ihsidiler (İHŞÎDÎLER)",
+      "ic_not_f": "TDV: 'Mısır’da İhşîdîler döneminin temelleri atılmış oldu (Ramazan 323 / Ağustos 935)' — AY ⇒ 0935-01-01.",
+      "ic_not_t": "TDV: '(17 Şâban 358 / 6 Temmuz 969). Cevher aynı gün Fustat’a girdi. Böylece İhşîdîler Devleti sona erdi.' — GÜN kaynaktan. fatimi künyesinin Mısır'a geçişiyle aynı gün.",
+      "kronoloji": [
+        {"t": "0935-01-01", "tur": "kurulus", "b": "Muhammed b. Tuğç yeniden Mısır valiliğine atandı; İhşîdî dönemi başladı (Ağustos 935)", "kaynak": "TDV ihsidiler: '(Ramazan 323 / Ağustos 935)'"},
+        {"t": "0969-07-06", "tur": "son", "b": "İhşîdî ileri gelenleri Cevher es-Sıkıllî'ye bağlılık bildirdi, Cevher Fustat'a girdi; İhşîdîler sona erdi", "kaynak": "TDV ihsidiler: '(17 Şâban 358 / 6 Temmuz 969)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "aglebi", "ad": "Ağlebîler",
+      "tur": "hanedanlik", "bolge": "kuzey-afrika", "f": "0800-01-01", "t": "0909-03-18",
+      "baskent": "Kayrevan → Rakkāde", "harita": null, "boya_gerekli": true,
+      "ozet": "İbrâhim b. Ağleb'in Abbâsî valisi olarak İfrîkıye'de kurduğu hânedan; Sicilya'yı fethetti, Fâtımî dâîsi Ebû Abdullah eş-Şiî karşısında yıkıldı. (kaynak: TDV, madde: aglebiler)",
+      "kaynak": "TDV: aglebiler (AĞLEBÎLER)",
+      "ic_not_f": "TDV başlığı ve emîr listesi: '1. İbrâhim b. Ağleb 184 (800)' — YIL.",
+      "ic_not_t": "TDV: 'Ziyâdetullah … 18 Mart 909’da götürebileceği kadar eşyayı yanına alarak Mısır’a kaçtı' — GÜN kaynaktan (son emîrin kaçışı; Fâtımîler 'başşehre giren' — giriş günü ayrı verilmemiş). fatimi künyesi 0909-01-01 (yıl) — tutarlı.",
+      "kronoloji": [
+        {"t": "0800-01-01", "tur": "kurulus", "b": "İbrâhim b. Ağleb İfrîkıye valiliğine getirildi; Ağlebî hânedanı kuruldu", "kaynak": "TDV aglebiler: '184 (800)'"},
+        {"t": "0909-03-18", "tur": "son", "b": "Son Ağlebî emîri III. Ziyâdetullah Fâtımîler önünden Mısır'a kaçtı; Ağlebî devleti sona erdi", "kaynak": "TDV aglebiler: '18 Mart 909’da'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "idrisi", "ad": "İdrîsîler",
+      "tur": "hanedanlik", "bolge": "kuzey-afrika", "f": "0789-01-01", "t": "0985-01-01",
+      "baskent": "Velîlâ → Fas → Hacerünnesr", "harita": null, "boya_gerekli": true,
+      "ozet": "Hz. Hasan soyundan I. İdrîs'in Berberî Evrebe kabilesinin desteğiyle Fas'ta kurduğu ilk İslâm hânedanı; Fâtımî ve Endülüs Emevî baskısı arasında sona erdi. (kaynak: TDV, madde: idrisiler)",
+      "kaynak": "TDV: idrisiler (İDRÎSÎLER)",
+      "ic_not_f": "TDV: 'Velîlâ merkez olmak üzere İdrîsîler’in temelleri atılmıştı (172/789)' — YIL.",
+      "ic_not_t": "TDV: 'Hâcib İbn Ebû Âmir el-Mansûr tarafından gönderilen adamlar tarafından öldürüldü (375/985). II. Hasan’ın ölümüyle Mağrib-i Aksâ’da hüküm süren İdrîsî hânedanı sona ermiş oldu' — YIL. Ara kesinti: Mesâle b. Habbûs Fas'ı alıp İdrîsî yönetimine son verdi, Haccâm geri aldı (künye kesintisiz tutuldu).",
+      "kronoloji": [
+        {"t": "0789-01-01", "tur": "kurulus", "b": "I. İdrîs'e Velîlâ'da Evrebe kabilesince biat edildi; İdrîsî devleti kuruldu", "kaynak": "TDV idrisiler: '(172/789)'"},
+        {"t": "0985-01-01", "tur": "son", "b": "Son İdrîsî II. Hasan, Hâcib el-Mansûr'un adamlarınca öldürüldü; hânedan sona erdi", "kaynak": "TDV idrisiler: '(375/985)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "rustemi", "ad": "Rüstemîler",
+      "tur": "hanedanlik", "bolge": "kuzey-afrika", "f": "0777-01-01", "t": "0909-01-01",
+      "baskent": "Tâhert", "harita": null, "boya_gerekli": true,
+      "ozet": "Abdurrahman b. Rüstem'in İbâzî-Berberî kabilelerin imamı seçilmesiyle Tâhert merkezli kurulan İbâzî imamet devleti; Fâtımî dâîsi Ebû Abdullah eş-Şiî Tâhert'i alınca sona erdi. (kaynak: TDV, madde: rustemiler)",
+      "kaynak": "TDV: rustemiler (RÜSTEMÎLER)",
+      "ic_not_f": "TDV: 'imam seçildi ve Rüstemîler Devleti’ni resmen kurmuş oldu (160/777)' — YIL.",
+      "ic_not_t": "TDV: 'Rüstemî hânedanını sona erdirdi (Şevval 296 / Temmuz 909)' — AY ⇒ 0909-01-01.",
+      "kronoloji": [
+        {"t": "0777-01-01", "tur": "kurulus", "b": "Abdurrahman b. Rüstem İbâzî imamı seçildi; Rüstemî devleti kuruldu, Tâhert merkez oldu", "kaynak": "TDV rustemiler: '(160/777)'"},
+        {"t": "0909-01-01", "tur": "son", "b": "Fâtımî kumandanı Ebû Abdullah eş-Şiî Tâhert'e girdi; Rüstemî hânedanı sona erdi (Temmuz 909)", "kaynak": "TDV rustemiler: '(Şevval 296 / Temmuz 909)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "midrari", "ad": "Midrârîler (Sicilmâse)",
+      "tur": "hanedanlik", "bolge": "kuzey-afrika", "f": "0772-01-01", "t": "0976-01-01",
+      "baskent": "Sicilmâse", "harita": null, "boya_gerekli": true,
+      "ozet": "Zenâte'nin Miknâse koluna mensup Benî Midrâr'ın Sicilmâse'de kurduğu Sufrî hânedan; Endülüs Emevîleri adına hareket eden Mağrâve emîri Hazrûn b. Fülfûl'e yenilerek sona erdi. (kaynak: TDV, madde: midrariler)",
+      "kaynak": "TDV: midrariler (MİDRÂRÎLER)",
+      "ic_not_f": "TDV başlığı '772-976'; gövde: 'Ebü’l-Kāsım idareyi tekrar kendisi üstlendi (155/772). Midrârîler bu tarihten 976 yılına kadar Sicilmâse’ye hâkim olmayı başardılar' — YIL. (Sicilmâse'nin kuruluşu 140/757 civarı; TDV hânedanı 772'den sayıyor.)",
+      "ic_not_t": "TDV: 'Hazrûn b. Fülfûl … Midrârî hânedanına son verdi (366/976)' — YIL.",
+      "kronoloji": [
+        {"t": "0772-01-01", "tur": "kurulus", "b": "Ebü'l-Kāsım b. Semkû Sicilmâse'de idareyi yeniden üstlendi; Midrârî hâkimiyeti başladı", "kaynak": "TDV midrariler: '(155/772)'"},
+        {"t": "0976-01-01", "tur": "son", "b": "Mağrâve emîri Hazrûn b. Fülfûl Sicilmâse'yi alıp son Midrârî emîrini öldürdü; şehir Endülüs Emevîleri'ne geçti", "kaynak": "TDV midrariler: '(366/976)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "hamdani-musul", "ad": "Hamdânîler (Musul kolu)",
+      "tur": "hanedanlik", "bolge": "mezopotamya", "f": "0905-01-01", "t": "0979-01-01",
+      "baskent": "Musul", "harita": null, "boya_gerekli": true,
+      "ozet": "Tağlib kabilesinden Hamdân ailesinin Musul ve el-Cezîre'de hüküm süren kolu; Büveyhî baskısı ve Ebû Tağlib Gazanfer'in ölümüyle fiilen sona erdi. (kaynak: TDV, madde: hamdaniler)",
+      "kaynak": "TDV: hamdaniler (HAMDÂNÎLER)",
+      "ic_not_f": "TDV başlığı '905-1004' (iki kol birlikte); gövde: 'Ebü’l-Heycâ 293’te (905-906) Musul … valiliğine getirilmiştir' — YIL (293 H. = 905-906; 905 alındı). Kol ayrımı 929'dan sonradır ('Onun ölümünden sonra Hamdânîler iki ayrı kol halinde'); Halep kolu hamdani-halep (944) — örtüşmez.",
+      "ic_not_t": "TDV: 'Remle Emîri Müferric b. Dağfel’e yenilerek öldürüldü (369/979); onun ölümüyle de Hamdânîler’in el-Cezîre ve Musul’daki hâkimiyetleri fiilen sona erdi' — YIL. Kardeşler 380/990'da Ukaylîler'ce bertaraf edildi (ukayli künyesi 990 — tutarlı).",
+      "kronoloji": [
+        {"t": "0905-01-01", "tur": "kurulus", "b": "Ebü'l-Heycâ Abdullah b. Hamdân Musul valiliğine getirildi", "kaynak": "TDV hamdaniler: '293’te (905-906) Musul'"},
+        {"t": "0929-03-02", "tur": "hukumdar", "b": "Ebü'l-Heycâ öldü; hânedan Musul ve Halep kollarına ayrıldı, Musul'da Nâsırüddevle Hasan öne çıktı", "kaynak": "TDV hamdaniler: '(17 Muharrem 317 / 2 Mart 929)'"},
+        {"t": "0979-01-01", "tur": "son", "b": "Ebû Tağlib Gazanfer Remle'de öldürüldü; Hamdânîler'in Musul ve el-Cezîre hâkimiyeti fiilen sona erdi", "kaynak": "TDV hamdaniler: '(369/979)'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "hazar-kaganligi", "ad": "Hazar Kağanlığı",
+      "tur": "hanlik", "bolge": "sibirya-bozkir", "f": "0630-01-01", "t": "0965-01-01",
+      "baskent": "Belencer → İtil", "harita": null, "boya_gerekli": true,
+      "ozet": "Batı Göktürk Devleti'nin yıkılışıyla bağımsızlaşan, Karadeniz ile Hazar denizi arasındaki bozkırda ve İdil boyunda hüküm süren Türk devleti; Rus saldırıları karşısında çöktü. (kaynak: TDV, madde: hazarlar)",
+      "kaynak": "TDV: hazarlar (HAZARLAR)",
+      "ic_not_f": "TDV: 'Batı Göktürk Devleti yıkılınca Hazarlar bağımsızlıklarını ilân ettiler (630)' — YIL.",
+      "ic_not_t": "⚠️ TDV devletin sonunu KESİN tarihlemiyor; başlık 'VII-XI. yüzyıllar'. Tek yıl: 'X. yüzyılda Ruslar karşısında güç duruma düşmeleri ve 965’te hakanın Hârizmliler’e sığınması'. t=965 bu cümleye dayanır ve 'devletin sonu' değil 'çöküşün ölçülebilir anı'dır. Koordinatör: kabul etmezse t'yi boş bırakmak şema izin vermiyorsa künyeyi bekletin.",
+      "kronoloji": [
+        {"t": "0630-01-01", "tur": "kurulus", "b": "Batı Göktürk Devleti yıkılınca Hazarlar bağımsızlıklarını ilân etti", "kaynak": "TDV hazarlar: '(630)'"},
+        {"t": "0965-01-01", "tur": "son", "b": "Rus saldırıları karşısında Hazar hakanı Hârizmliler'e sığındı; kağanlık çöktü", "kaynak": "TDV hazarlar: '965’te hakanın Hârizmliler’e sığınması'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "uygur-kaganligi", "ad": "Uygur Kağanlığı (Ötüken)",
+      "tur": "hanlik", "bolge": "sibirya-bozkir", "f": "0745-01-01", "t": "0840-01-01",
+      "baskent": "Ordu-Balık (Ötüken)", "harita": null, "boya_gerekli": true,
+      "ozet": "İkinci Göktürk Devleti'nin yıkılışından sonra Basmıl kağanlığını deviren Uygur yabgusunun Ötüken'de kurduğu kağanlık; Kırgız saldırısıyla sona erdi. (kaynak: TDV, madde: uygurlar)",
+      "kaynak": "TDV: uygurlar (UYGURLAR)",
+      "ic_not_f": "TDV: '745 yılında Uygur yabgusu Basmıl kağanını …' — YIL. (742-743 Karluk-Basmıl-Uygur ittifakı Göktürk kağanı Ozmış'ı öldürür; TDV karluklar 'İkinci Göktürk Devleti’nin yıkılmasında (745)'.)",
+      "ic_not_t": "TDV: '840 yılındaki Kırgız saldırısı kağanlığın sonunu getirdi' — YIL. Ardılı koco-uygur (911) künyede VAR; 840-911 arası Turfan/Kansu Uygur yapıları için ayrı künye açılmadı (bulunamadı bölümüne bakın).",
+      "kronoloji": [
+        {"t": "0745-01-01", "tur": "kurulus", "b": "Uygur yabgusu Basmıl kağanını yendi; Uygur Kağanlığı kuruldu", "kaynak": "TDV uygurlar: '745 yılında'"},
+        {"t": "0840-01-01", "tur": "son", "b": "Kırgız saldırısı Uygur Kağanlığı'nın sonunu getirdi; Uygurlar dağıldı", "kaynak": "TDV uygurlar: '840 yılındaki Kırgız saldırısı kağanlığın sonunu getirdi'"}
+      ]
+    },
+    {
+      "islem": "yeni", "id": "ziyadi", "ad": "Ziyâdîler (Yemen Tihâmesi)",
+      "tur": "hanedanlik", "bolge": "arabistan", "f": "0818-01-01", "t": "1017-01-01",
+      "baskent": "Zebîd", "harita": null, "boya_gerekli": true,
+      "ozet": "Muhammed b. Abdullah b. Ziyâd'ın Abbâsî adına Yemen Tihâmesi'nde kurduğu hânedan; köle vezirlerin mücadelesinde son emîrin öldürülmesiyle sona erdi, yerini Necâhîler aldı. (kaynak: TDV, madde: ziyadiler)",
+      "kaynak": "TDV: ziyadiler (ZİYÂDÎLER, Mustafa L. Bilge)",
+      "ic_not_f": "TDV: '202 (818) yılında isyanı bastırmak üzere' + başlık '(818-1017)' — YIL.",
+      "ic_not_t": "TDV: 'Nefîs’in Ziyâdî hânedanının son temsilcisi … İbrâhim b. Abdullah’ı … öldürerek tahtı ele geçirmesiyle neticelendi (407/1017)' — YIL. Ardıl necahi künyesi 1022 (TDV '412/1022') — 1017-1022 Nefîs aralığı künyesiz (boşluk BEYAN).",
+      "kronoloji": [
+        {"t": "0818-01-01", "tur": "kurulus", "b": "Muhammed b. Ziyâd Tihâme isyanını bastırmak üzere Yemen'e gönderildi; Ziyâdî hânedanı kuruldu", "kaynak": "TDV ziyadiler: '202 (818)'"},
+        {"t": "1017-01-01", "tur": "son", "b": "Köle Nefîs son Ziyâdî emîri İbrâhim b. Abdullah'ı öldürüp tahtı ele geçirdi", "kaynak": "TDV ziyadiler: '(407/1017)'"}
+      ]
+    }
+  ],
+  "dokunmadim": [
+    {"id": "abbasi", "neden": "f:0749-11-28 kuşağı kapsıyor"},
+    {"id": "fatimi", "neden": "f:0909-01-01 kapsıyor"},
+    {"id": "samani", "neden": "f:0819 kapsıyor"},
+    {"id": "buveyhi", "neden": "f:0932 kapsıyor"},
+    {"id": "ziyari", "neden": "f:0928 kapsıyor"},
+    {"id": "musafiri", "neden": "f:0942 kapsıyor"},
+    {"id": "karahanli", "neden": "f:0840 kapsıyor"},
+    {"id": "gazneli", "neden": "f:0963 kapsıyor"},
+    {"id": "endulus-emevi", "neden": "f:0756-05-15 kapsıyor"},
+    {"id": "hamdani-halep", "neden": "f:0944-10-29 kapsıyor"},
+    {"id": "mervani", "neden": "f:0983 kapsıyor"},
+    {"id": "karmati", "neden": "f:0899 kapsıyor"},
+    {"id": "idil-bulgar", "neden": "f:0965 kapsıyor"},
+    {"id": "koco-uygur", "neden": "f:0911 kapsıyor"},
+    {"id": "sicilya-emirligi", "neden": "f:0947 kapsıyor"},
+    {"id": "mekke-serifligi", "neden": "f:0969 kapsıyor"},
+    {"id": "medine-emirligi", "neden": "f:0969 kapsıyor"},
+    {"id": "bizans", "neden": "f:0330 kapsıyor"},
+    {"id": "birinci-bulgar", "neden": "f:0681 kapsıyor"},
+    {"id": "nube", "neden": "f:0543 kapsıyor"},
+    {"id": "kanem-bornu", "neden": "f:0800 kapsıyor"}
+  ],
+  "genislet_adayi_olculmedi": [
+    {"id": "gane", "not": "f:1000-01-01 kuşak sınırına KIRPILMIŞ görünüyor; TDV 'gana' maddesi modern ülke — Gāne devletinin kuruluş yılı bu gövdede ölçülmedi. Bu partide dokunulmadı."},
+    {"id": "gurjara-pratihara", "not": "f:1000-01-01 kırpılmış görünüyor; akademik kaynak henüz açılmadı."},
+    {"id": "cahamana · paramara · caulukya · candela · gurlu · hausa-sehir-devletleri · tekrur-kralligi · kevkev · guge · hariphunchai", "not": "hepsinde f:1000-01-01 — büyük olasılıkla kuşak kırpması; her biri kaynakla ölçülmeden genişletilmez."}
+  ],
+  "bulunamadi": [
+    {"yapi": "Göktürk Kağanlığı (I. ve II.)", "not": "TDV 'gokturkler', 'gokturk', 'kokturkler', 'kok-turkler' slug'ları 302. M-5694 sonrası ajax başlık araması (denetim/ARAC-DEVLET-500-1000-ARA.py) ile yeniden ölçüldü: 'göktürk' → yalnız dokuz-oguzlar, kipcaklar; 'köktürk' başlık 0 ⇒ ayrı madde YOK (302 yanıltmadı). Künye AÇILMADI; akademik kaynak gerekir."},
+    {"yapi": "Büyük Bulgar (Magna Bulgaria)", "not": "TDV hazarlar: 'kuruldu (635)' ama sonu '665 yılından sonra Hazarlar tarafından y[ıkıldı]' — yıl değil ⇒ t yazılamaz (D210). AÇILMADI."},
+    {"yapi": "Karluk Yabguluğu", "not": "TDV karluklar: '766 yılında … bir devlet kurdular' — f var, sonu (Karahanlı'ya dönüşüm) yılsız. AÇILMADI."},
+    {"yapi": "Oğuz Yabguluğu", "not": "TDV oguzlar yabguları anlatıyor, kuruluş/son yılı vermiyor (tek yıl 392/1002 ittifak). AÇILMADI."},
+    {"yapi": "Yu'firîler (San'a)", "not": "TDV 'yufiriler' ve varyantları 302. M-5694 sonrası ajax başlık araması: 'yu'fir', 'yufir', 'yafur', 'ya'fur' → başlık 0 ⇒ ayrı madde YOK. AÇILMADI."},
+    {"yapi": "Avar Kağanlığı (Pannonya)", "not": "TDV 'avarlar' maddesi Dağıstan Avarları'dır (modern kavim) — Pannonya Avarları için TDV kaynağı değil; akademik kaynak bu partide açılmadı."}
+  ]
+}

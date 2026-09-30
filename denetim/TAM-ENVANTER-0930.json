@@ -1,0 +1,4425 @@
+{
+ "dagilim": {
+  "cozuldu": 467,
+  "zaten-dogru": 178,
+  "sirada": 514,
+  "tekrar": 14,
+  "gerek-yok": 9,
+  "olculecek": 43,
+  "bayat": 2,
+  "kapsam-disi": 2,
+  "kosu-bekliyor": 120,
+  "senin-kararin": 39,
+  "onay-bekliyor": 3,
+  "once-cozuldu": 1,
+  "cozulemedi": 12
+ },
+ "cevapsiz": [
+  "parti-emrelic-0072",
+  "parti-emrelic-0073",
+  "parti-emrelic-0074",
+  "parti-emrelic-0077",
+  "parti-emrelic-0078",
+  "parti-emrelic-0079"
+ ],
+ "acik": [
+  {
+   "parti": "parti-0002",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "GÖRSELİ AÇTIM VE ÖLÇTÜM — \"KOYU EK ALAN\" BİR KATMAN DEĞİL, **BİZANS\nGÖVDESİ**; VE SORUN RENGİN KENDİSİNDE.\n\nKünye: `1331-01-01 · 40,35-41,18K · 29,44-"
+  },
+  {
+   "parti": "parti-0002",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "NICIN: veri kaydi DEGIL, SEMA degisikligi. devletler.js'te `baskent` alani TEK DEGER, penceresi yok; 'Sogut>Bursa>Edirne>Istanbul' zinciri icin f:/t: "
+  },
+  {
+   "parti": "parti-0002",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "🔴🔴 ÖLÇTÜM — VE BU ŞİKÂYET **BAYAT DEĞİL, CANLI.** KÖKÜ BULUNDU.\n\nMotorda bu iş için İKİ koruma var ve ikisi de yerinde:\n```\nADA KURALI              ur"
+  },
+  {
+   "parti": "parti-0003",
+   "madde": "H-0008",
+   "hukum": "tekrar",
+   "not": "parti-0002/H-0025 ile BIREBIR AYNI kayit (notun kendisi soyluyor). Orada olculdu ve 'ilan edildi, uygulanmadi' damgasi konuldu."
+  },
+  {
+   "parti": "parti-0003",
+   "madde": "H-0022",
+   "hukum": "tekrar",
+   "not": "parti-0003/H-0015 ile ayni; notun kendisi 'orada olculdu ve care yazildi' diyor. Ayri is degil."
+  },
+  {
+   "parti": "parti-0004",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ㉑): '(a) DEVLET KÜNYELERİNİN ZAMAN PENCERELİ HÂLE GELMESİ İŞİYLE BİRLEŞTİR — AYNI KÖKTEN İŞ.' 🟢 Şema o gece YAZILDI: bk"
+  },
+  {
+   "parti": "parti-0006",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Üç parçalı madde. (a) Katîf/Basra `iran` etiketi kısmen düzeldi (commit 47aa386, 3 "
+  },
+  {
+   "parti": "parti-0006",
+   "madde": "H-0008",
+   "hukum": "tekrar",
+   "not": "parti-0006/H-0007 ile AYNI kayit (Yanikkale enklavi) — orada cozuldu."
+  },
+  {
+   "parti": "parti-0006",
+   "madde": "H-0010",
+   "hukum": "tekrar",
+   "not": "parti-0006/H-0007 ile AYNI kayit (Yanikkale enklavi) — orada cozuldu."
+  },
+  {
+   "parti": "parti-emrelic-0008",
+   "madde": "H-0001",
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: Germiyan'in iki parca gorunumu GERCEK ve savunulur (Sivrihisar ana kumeden kopuk, arada Afyon/sahibata var). Kalan kusur: `sahibata` 128"
+  },
+  {
+   "parti": "parti-emrelic-0008",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "🔴 BU PARTİNİN EN DEĞERLİ MADDESİ ve bir hata raporu değil BİR MOTOR KURALI. Sizin cümleniz aynen ALTYAPI.md'ye kural olarak girdi: 'toprağın boyanması"
+  },
+  {
+   "parti": "parti-emrelic-0012",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (a) enklav doldurma UYGULANSIN - parametresiz, risksiz. UYGULANMADI - motor (arac/uret_petek.py) isi, dosya KILITLI (kosu "
+  },
+  {
+   "parti": "parti-emrelic-0012",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (b) cok yonlu takviye ONAYLANMADI - AYRI kalem, once (a) kossun, ETKISI OLCULSUN, sonra (b) tartisilsin. (a) uygulanip olc"
+  },
+  {
+   "parti": "parti-emrelic-0014",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ⑦): '(c) SEÇİCİ İNCE' — 0016/H-0003 ile aynı karar. ⚠️ Ve ölçülmemiş bir yan bulgu kayıtta duruyor: Aral Gölü 20. yüzyı"
+  },
+  {
+   "parti": "parti-emrelic-0014",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "HÜKÜM (1.MURAT, 2 Eylül): NOKTA İŞİ — ve ölçütü Emre'nin bugünkü ilkesi. Ölçülen: Polesya kutusunda (50,99-59,07K / 18,37-30,58D) 1281-01-01'de 17 nok"
+  },
+  {
+   "parti": "parti-emrelic-0016",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / "
+  },
+  {
+   "parti": "parti-emrelic-0016",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ⑦): '(c) SEÇİCİ İNCE.' Yalnız Osmanlı çekirdeğindeki göller ince çözünürlükle. ⚠️ BEDELİ BİLİNEREK: bir kaynağı kısmen "
+  },
+  {
+   "parti": "parti-emrelic-0016",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "🔴🔴 ÖLÇTÜM — VE BU ŞİKÂYET **BAYAT DEĞİL, CANLI.** KÖKÜ BULUNDU.\n\nMotorda bu iş için İKİ koruma var ve ikisi de yerinde:\n```\nADA KURALI              ur"
+  },
+  {
+   "parti": "parti-emrelic-0016",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / "
+  },
+  {
+   "parti": "parti-emrelic-0017",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "KUME: emilme. OLCTUM — CARE HALA UYGULANMAMIS. Notun onerdigi dort nokta (Pinarbasi · Sariz · Gurun · Darende) `py arac/_yer_ara.py` ile tek tek arand"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. OLCTUM — HEX'LER DEGISMEMIS. arac/renkler.py:553 gurcistan '#e020b0' · :520 karakoyunlu '#e018e0'. Ikisi de magenta ailesi, devrali"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. Kok 0016/H-0004'te BEN DE OLCTUM ve dogrulandi (Canakkale ve Istanbul bogazlari hem motor_kara.geojson'da hem ne_10m_land GIRDIS"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. BASKA ISE BAGLI — 0019/H-0018'in koku (bogaz maskesi) kapanmadan bu maddenin veri tarafini duzeltmek GORUNUR BIR DEGISIKLIK URET"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0045",
+   "hukum": "sirada",
+   "not": "🟡 ÇÖZÜLMEDİ — önceki 'cozuldu' damgası YANLIŞTI (P15-DAMGA, 14 Eyl 2026 ölçümü): düzeltme veriye hiç inmemiş. data/olaylar_ek5.js:158 (1516-08-28 'Hal"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0047",
+   "hukum": "tekrar",
+   "not": "H-0045 ile AYNI SINIF (kronoloji basliginda o gun kirilan oteki yerlesimlerin anilmasi — burada Hama ve Humus). Ayri is degil; H-0045'in cozumu bunu d"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0050",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — (1) ILERI HAREKAT GERCEK, AMA ARADAKI SEHIRLER ZATEN OSMANLI'YDI; VERI YANLIS (76f8f42, PAKET-A6A). TDV selim-i: 27 Eylul'de Sam'a u"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0061",
+   "hukum": "sirada",
+   "not": "🔴 EMRE'NİN KARARI (2 Eylül): 'MOHAÇ SONRASI MACARİSTAN HİMAYE OLSUN — MACARİSTAN ETRAFINI OSMANLI KIRMIZISI İLE ÇEVRELEYELİM, İÇ BÖLGE KENDİ RENGİ OLS"
+  },
+  {
+   "parti": "parti-emrelic-0019",
+   "madde": "H-0062",
+   "hukum": "tekrar",
+   "not": "H-0041 ile AYNI KALEM: 'planlanmis ama henuz yapilmamis yurayus/seferler SARI KESIKLI (koyu sari/turuncumsu) gosterilsin'. Emre burada rengi de belirt"
+  },
+  {
+   "parti": "parti-emrelic-0020",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "MALTA KIYI ÖRTÜŞMESİ — sebep 14 Ağustos'ta ölçülmüştü, BUGÜN DEĞİŞMEDİĞİ ölçüldü.\n\nÖLÇÜM (`arac/uret_petek.py` bugünkü hâli):\n  KARA_TOL = 0.002   (sa"
+  },
+  {
+   "parti": "parti-emrelic-0020",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "FERHAT PAŞA SINIRLARI — şüphen yerinde ve BUGÜN SAYIYLA GÖSTERİLDİ.\n\nÖLÇÜM (1590-03-21, kutu 32,46-44,76K / 37,73-52,45D, merkez 38,61/45,09):\n  hüküm"
+  },
+  {
+   "parti": "parti-emrelic-0020",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "MADDE INDI, YERLESIM GUNU KOSU SONRASI. 632a042 (PAKET-A3, olaylar_p0049.js): 1578-08-09 'Ahiska atabegliginin Osmanli idaresine girmesi — Altunkale, "
+  },
+  {
+   "parti": "parti-emrelic-0020",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "DOĞU SEFERİ 1578-1590 — üç sorunun üçü de ölçüldü.\n\nÖLÇÜM (1590-03-21, kutu 32,43-44,82K / 37,69-52,12D, merkez 38,63/44,91):\n  hüküm RAKİP · Hoy 10 k"
+  },
+  {
+   "parti": "parti-emrelic-0021",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — USTTEKI BOSLUK MOTOR, ALTTAKI OLCULEMEDI (76f8f42, PAKET-A6A; gorsel okundu, 1594-11-13). Sezgin dogru: 200 km tavani sebep DEGIL — "
+  },
+  {
+   "parti": "parti-emrelic-0021",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "BAGDAT'IN KUZEYI. OLCTUM (1638-12-24, IV. Murad'in Bagdat'i aldigi gun): Bagdat OSMANLI · Musul OSMANLI · Erbil safevi · Kerkuk safevi · Samerra safev"
+  },
+  {
+   "parti": "parti-emrelic-0021",
+   "madde": "H-0027",
+   "hukum": "sirada",
+   "not": "'Tebriz alinmis ama Van'in dogusundaki topraklar alinmamis mi'. Verinin kendi iddiasi bu: Tebriz/Nahcivan/Revan OSMANLI, aralarindaki Hoy/Merend/Culfa"
+  },
+  {
+   "parti": "parti-emrelic-0021",
+   "madde": "H-0028",
+   "hukum": "sirada",
+   "not": "FERHAT PASA — 21 SEHIR. Koordinatorun 1590-03-21 dokumu: OSMANLI 7 (Kars · Van · Tebriz · Nahcivan · Revan · Gence · Hemedan) · safevi 15 · iran 4 (Ca"
+  },
+  {
+   "parti": "parti-emrelic-0021",
+   "madde": "H-0030",
+   "hukum": "sirada",
+   "not": "YARISINDAN FAZLASI INDI, KALUGERAN ISARETI VE ERDEL ACIK. (1) SEFER OKU INDI (e3b4255, PAKET-A4, data/savaslar.js): Koca Sinan Pasa'nin 1595 Eflak sef"
+  },
+  {
+   "parti": "parti-emrelic-0022",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "YEDI BOZKIR + KAFKAS KIYISI, 1678. Emre'nin dort sorusunun DORDU DE cevaplanmis: ① sistem uc kuralla karar veriyor (Voronoi → A1 yaricap tavani k1=700"
+  },
+  {
+   "parti": "parti-emrelic-0023",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "0027/H-0006 ILE TEK IS — PLAN YAZILDI, KOD YOK (fbbb2f9 raporu §7, PAKET-A1). Tek seferlik vurgu tasarimi: ittifakin f gununde rozetlere var olan odak"
+  },
+  {
+   "parti": "parti-emrelic-0024",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "BASRA'YI CAPRAZLAMA GECEN SAFEVI DILI. Gorselin kunyesi: 1703-08-22 · 27,08-29,83 K · 45,35-48,98 D. Koordinatorun teshisi: pencerede TEK nokta (Kuvey"
+  },
+  {
+   "parti": "parti-emrelic-0024",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "ST. PETERSBURG / INGRIYA. Gorselin kunyesi: 1703-05-27 · 58,67-61,35 K · 28,79-30,58 D · Madde: St. Petersburg'un kurulusu. Koordinatorun teshisi: 'ik"
+  },
+  {
+   "parti": "parti-emrelic-0025",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "ÖLÇTÜM — **KOPUKLUK GERÇEK, VE TARİHEN DE DOĞRU. AMA ETİKET YANLIŞ.**\n\n1711-07-19 · Kafkasya kutusu · 22 nokta:\n```\nOSMANLI  16   Trabzon · Rize · Bat"
+  },
+  {
+   "parti": "parti-emrelic-0025",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "ÖLÇTÜM — GÖRSELİN KUTUSUNDA **TEK NOKTA VAR**, VE ETİKETİ ANAKRONİK.\n\nKünye (`kutu_serit`): `1561-11-28 · 54,77-57,66K · 21,19-22,71D · z6,1`\nMadde: *"
+  },
+  {
+   "parti": "parti-emrelic-0025",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — "
+  },
+  {
+   "parti": "parti-emrelic-0025",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ 2. TUR — 'toplu yuvarlak tarih' sorununun bir örneği daha (1361-06-15 civarı Trakya yığını). Bu sınıf ZATEN kapsamlıca belgelenmiş (denet"
+  },
+  {
+   "parti": "parti-emrelic-0027",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "PLAN YAZILDI, KOD YOK — ENGEL VERI (fbbb2f9 raporu §7, PAKET-A1). Cizimin tek eksik parcasi data/ittifaklar.js (uyeler · katilis gunleri · hedef · kay"
+  },
+  {
+   "parti": "parti-emrelic-0028",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit "
+  },
+  {
+   "parti": "parti-emrelic-0029",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit "
+  },
+  {
+   "parti": "parti-emrelic-0030",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "KÖK ÖLÇÜLDÜ VE EMRE'NİN TEŞHİSİ ÇÜRÜDÜ — kusur topografyada değil, NOKTASIZLIKTA. ÖLÇTÜĞÜM (_yer_ara.py --kutu 39.80 36.80 41.30 39.40 --gun 1340-06-1"
+  },
+  {
+   "parti": "parti-emrelic-0030",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "🔴 ÖNCEKİ RAPOR BAŞKA BİR ÜÇGENİ ÖLÇMÜŞ — Emre'nin 'ne yaptın bilmiyorum' sorusunun cevabı üç parçalı. ① ÖNCEKİ BİLDİRİM İŞLENDİ: denetim/BULGULAR-UCGE"
+  },
+  {
+   "parti": "parti-emrelic-0030",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Pelakanon (1329) sonrasi Bogazici'nin Rumeli yakasi er"
+  },
+  {
+   "parti": "parti-emrelic-0030",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "ÖLÇÜLDÜ VE DOĞRULANDI — Emre haklı. Lalapaşa · Kofçaz · Vize · Dereköy (Kırklareli) dördü de 1361-01-01'de Osmanlı oluyor ve ±30 günde TEK madde var: "
+  },
+  {
+   "parti": "parti-emrelic-0031",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NE OLCULECEK: goruntudeki taranmis/cizgili sekil isgal"
+  },
+  {
+   "parti": "parti-emrelic-0031",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / "
+  },
+  {
+   "parti": "parti-emrelic-0031",
+   "madde": "H-0022",
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / "
+  },
+  {
+   "parti": "parti-emrelic-0032",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ⑲): '(b) YİNE DE KUSUR SAY, ARAŞTIRILSIN.' Karakoyunlu çöküşü sahnesinde çevrenin Akkoyunlu renginde görünmesi — veri k"
+  },
+  {
+   "parti": "parti-emrelic-0032",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: MADDE GUNU YANLIS, OLAY MAHALLI KAYNAKTA YOK (632a042 raporu, PAKET-A3). TDV karakoyunlular: Hasan Ali'nin ordusu Zilhicce 87"
+  },
+  {
+   "parti": "parti-emrelic-0032",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "ARANDI, BULUNAMADI (1a0254c raporu §2, PAKET-A2). Commons'taki II. Mehmed sikkeleri CC-BY-SA (lisans kirmizi cizgisi geregi RED); tek kabul aday 'Altu"
+  },
+  {
+   "parti": "parti-emrelic-0032",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "IS SURUYOR — OLCULDU VE PLANLANDI (1a0254c raporu §5, PAKET-A2). Cekirdek 1357 maddede en az bir karti olan 224 -> 256 (%16,5 -> %18,9, A2 sonrasi olc"
+  },
+  {
+   "parti": "parti-emrelic-0032",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "NICIN: gorseldeki kutuda (1493-01-01, 47.20-47.97K/32.25-33.50D, Bug-Dinyester arasi step/Yedisan civari) sifir nokta var, en yakin nokta (Zaporojye S"
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "Çağatay Hanlığı'nın yuvarlak petek görünümü, bölgede tek/seyrek nokta olmasından (Voronoi organik sınır bulamıyor); NE ölçülecek: Orta Asya hanlık mer"
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "Kazak Hanlığı — nokta yoğunluğu düşük, YENİ NOKTA gerektiriyor (bozkır nokta partisi). yer_yama ile çözülmüyor, devredildi."
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "Sibir Hanlığı — H-0007 ile aynı aile, YENİ NOKTA gerektiriyor, devredildi."
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "Nogay Ordası-Buhara arası (Aral/Üstyurt) boş şerit — YENİ NOKTA gerektiriyor, kasıtlı boşluk değil. Devredildi."
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0010",
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Kandehar'ın pergel görünümü nokta yoğunluğu düşüklüğün"
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0013",
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Görsel Songhay'ın büyük pergel dairesini gösteriyor (H"
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "Kanem-Bornu — atlasta yalnız 2 nokta (Mao, Birni N'gazargamu, ~500 km ayrı), YENİ NOKTA gerektiriyor. Devredildi."
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ⑱): '(a) KARTLİ, KAHETİ, İMERETİ, SAMTSKHE DİYE BÖL — TASARIM İŞİ.' Gürcistan tek künyeden alt krallıklara ayrılacak. 🔴"
+  },
+  {
+   "parti": "parti-emrelic-0033",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "GUZERGAH INDI, KALELER KOSU SONRASI. e3b4255 (PAKET-A4, data/savaslar.js): Yavuz'un 1514 seferi uc kayit — gidis Edirne · Uskudar · Izmit · Yenisehir "
+  },
+  {
+   "parti": "parti-emrelic-0034",
+   "madde": "H-0023",
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: H-0011/H-0017 ile aynı kök (gurcistan tek kimlik) — Ti"
+  },
+  {
+   "parti": "parti-emrelic-0034",
+   "madde": "H-0028",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ㉔): '(b)' — çöl tavanı reçetesi MALİYET-MESAFE işini BEKLESİN; o iş bittiğinde bu kalem gereksiz kalabilir. Aynı sorunu"
+  },
+  {
+   "parti": "parti-emrelic-0034",
+   "madde": "H-0036",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — VERI DOGRU, SEYREKLIK KASITLI, UC KALE EKSIK (76f8f42, PAKET-A6A; gorsel 1637-06-18 Azak'in kaybi). Kutuda 44 nokta: 9'u bozkir dolg"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0001",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Boş alan, yerleşim yok, kesik çizgilerle çevrili, kıpkırmızı boyanıyor — Kirenaika/Batı Mısır çölü, 1686 | ÖLÇÜM: "
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "ÖLÇÜLDÜ — madde DOĞRU, EKSİK OLAN NOKTA. Azak'ın Prut dönüşü tam gününde ve maddesi Taygan'ı ADIYLA anıyor: 1711-07-21 'Prut Antlaşması — Azak ve Tayg"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — ENKLAV GERCEK BIR VERI DURUMU, AMA KIMLIK VE GUN YANLIS (b7ab563, PAKET-A6C). Onceki olcum 1730'u olcmustu; gorselin gunu 24 Haziran"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0021",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Nahcıvan alınmadan önce aradaki topraklar (Maku, Şerur, Kotur, Hoy, Culfa) alınmıyor mu? | ÖLÇÜM: Bu, BAYAT AVCISI"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0035",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HOTIN GERCEKTEN RUS ELINDEYDI AMA YALNIZ DEGILDI; VERI YANLIS CINSTE (fc3c030, PAKET-A6B). TDV hotin: 1769'da Golitsin zaptetti, 177"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0047",
+   "hukum": "sirada",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Boş arazilerin Osmanlı kırmızısına boyanmasını sağlayan yapı ELDEN KALDIRILSIN — ama 200km tavanlı yerleşimlerin ç"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0052",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: TOPRAK BOS DEGIL, YERGOGU'NUN PETEGI; GIRIP CIKMA TARIHSEL, KUSUR ANLATIDA (76f8f42, PAKET-A6A). 1448-10-20 / 1449-01-01 kutu"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0053",
+   "hukum": "olculecek",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Yavuz Sultan Selim Mısır'a girerken Sina/Akdeniz kıyısı güneyden mi geçildi, Süveyş Kahire'den önce mi alındı, Süv"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0054",
+   "hukum": "sirada",
+   "not": "SIRADA — NICIN: BES-ALTYAPI.md'nin BESINCI unsuru (koridor agi) ve zaten planli bir is; yeni is degil, var olan kalemin parcasi."
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0055",
+   "hukum": "sirada",
+   "not": "SIRADA — NICIN: BES-ALTYAPI.md'nin BESINCI unsuru (koridor agi) ve zaten planli bir is; yeni is degil, var olan kalemin parcasi."
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0057",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): 30 alt-sorulu dev madde — Kahire'de Abbasi hilafetinin sonu ile başlayıp Ferhad Paşa Antlaşması'na kadar TÜM Osman"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0059",
+   "hukum": "sirada",
+   "not": "METIN KISMI INDI, GERMIYAN KISMI ACIK. 632a042 (PAKET-A3): 1425 maddesinin basligi 'Bati Anadolu beyliklerinin yeniden ilhaki: Mentese ve Aydin' oldu,"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0063",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HATA: ISGAL IKI UCTAN DA YIL YUVARLAK; BITIS GUNU KAYNAKLI BULUNDU (b7ab563, PAKET-A6C). Tarali alan Herseknovi'nin isg: ispanya 153"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0064",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Kuzey Afrika'daki gibi anlamsız bir boşluk boyanması meselesi burada da var sanki | ÖLÇÜM: Kullanıcının KENDİSİ bu"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0065",
+   "hukum": "sirada",
+   "not": "SEBEP BULUNDU VE METIN DUZELDI, IBRIM'IN BASLANGIC GUNU ACIK. Harita kipirdamiyor cunku atlas Ibrim'i 1517-04-13'ten beri Osmanli gosteriyor (CLAUDE.m"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0068",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Satu Mare arada kalmış — Orta Macar olarak Tökeli İmre'ye mi bağlı, yoksa Osmanlı ya da Avusturya'ya mı? | ÖLÇÜM: "
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0072",
+   "hukum": "sirada",
+   "not": "NICIN: MOTOR (arac/uret_petek.py govde-basina yumusatma adimi, T-junction dikisi) - Nystad Antlasmasi ne DEVIRLER ne ISGALLER'de, sradan govde-govde s"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0074",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Hemedan barışı sonrasında, tıpkı Ferhad Paşa Antlaşması'nda olduğu gibi, ortada kocaman bir alan kimin olduğu bell"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0076",
+   "hukum": "sirada",
+   "not": "TARAMA KISMI COZULDU, ARASTIRMA YENI BIR VERI KUSURU BULDU (b7ab563, PAKET-A6C). (1) Misir · Derbend gibi alakasiz yerlerin taranmasi e53c86a (27 Agu)"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0077",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — CEHRIN'DEN DEGIL; HARITA DOGRU, EKSIK OLAN OKTU (fc3c030, PAKET-A6B). 1737: Rus ordusu Sol Yaka'dan cikip Dinyeper'i gecti, bozkiri "
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0079",
+   "hukum": "olculecek",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Suudi-Vehhabi devleti kurulduğunda Hail şehrinde/Nefud çölünde bir koridor/egemenlik boşluğu var mı? | ÖLÇÜM: Riya"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0084",
+   "hukum": "tekrar",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Basra Osmanlı tarafından geri alınmış ama Basra'yı alan Abadan'ı da almış olmuyor mu? Abadan ayrı müstakil İran şe"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0087",
+   "hukum": "sirada",
+   "not": "SEVK: MOTOR. Yerlesimler arasi yol agi/koridor katmaninin haritaya yeni bir katman olarak eklenmesi, uret_petek.py tasarim/uretim gerektiriyor, buyuk "
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0088",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HATA, TARIHI GERCEK DEGIL; FERHAT PASA BIRLESIK YAMASINA DEVREDILDI (b7ab563, PAKET-A6C). 1590-03-21'deki 'SAFEVI IRAN' yazan kamala"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0090",
+   "hukum": "sirada",
+   "not": "ILK PARTI INDI, SINIF IS SURUYOR (632a042, PAKET-A3). Olcum: cekirdekte sekiz Osmanli-Rus savasinin baslangic maddeleri tarandi (1710-11 · 1735-39 · 1"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0092",
+   "hukum": "sirada",
+   "not": "🔴 OLCULDU, IKI AYRI CEVAP: 'taranan dogru mu' EVET (7 nokta: Kahire·Iskenderiye·Resid·Dimyat·Asyut·Suveys·Sina guneyi). 'TARANMAYAN dogru mu' HAYIR — "
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0097",
+   "hukum": "sirada",
+   "not": "🔴 OLCULDU, GERCEK KUSUR: 1806-1812 Rus savasinda Tuna hattinda YALNIZ Ibrail'in isg:rusya kaydi var (1809-12-02→1812-05-28); Ruscuk·Silistre·Bender·Is"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0100",
+   "hukum": "sirada",
+   "not": "🔴 OLCULDU, GERCEK KUSUR: 1806-1812 Rus savasinda Tuna hattinda YALNIZ Ibrail'in isg:rusya kaydi var (1809-12-02→1812-05-28); Ruscuk·Silistre·Bender·Is"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0101",
+   "hukum": "sirada",
+   "not": "NICIN: MOTOR (arac/uret_petek.py) - Umman'in Korsan Kiyisi kaybi (1820) da DEVIRLER/ISGALLER'de yok, ayni T-junction/Chaikin-dikisi deseni (H-0072 ile"
+  },
+  {
+   "parti": "parti-emrelic-0035",
+   "madde": "H-0102",
+   "hukum": "sirada",
+   "not": "VERİ SAHİPLİK (27-28 Ağustos 2026): Bu anlamsız boş topraklardaki Osmanlı kırmızısına nasıl engel olacağımızı araştıralım | ÖLÇÜM: H-0047 ile AYNI TAL"
+  },
+  {
+   "parti": "parti-emrelic-0037",
+   "madde": "H-0010",
+   "hukum": "tekrar",
+   "not": "H-0008 İLE AYNI KÖK — Rusya'nın Eflak-Boğdan işgali `isg:` taralı örtüsüyle gösterilmeli. Emre burada ikinci bir yol daha öneriyor: 'gerek harekât okl"
+  },
+  {
+   "parti": "parti-emrelic-0038",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "HÜKÜM (1.MURAT, 2 Eylül): MOTOR KUYRUĞUNA — ve ön koşulu artık YOK. Ölçüm doğrulanmıştı: enklav köprü kuralının üçü de (en yakın nokta bağlantısı · ay"
+  },
+  {
+   "parti": "parti-emrelic-0038",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "H-0003 ile TEK sevk. Ölçülmüş kusur: köprü rengi bağlanan parçanın KATMANINI almalı (tâbi→tâbi, doğrudan→doğrudan) ama şu an HEP DOĞRUDAN yazılıyor. G"
+  },
+  {
+   "parti": "parti-emrelic-0038",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EMRE'NİN KARARI (2 Eylül, soru ⑳): '(a) ÇIKARIMLA DOLDUR — VE KAYNAK ALANINA \"ÇIKARIM\" DİYE AÇIKÇA YAZ.' Gümrü'nün Revan ile aynı kaderi paylaştığı çı"
+  },
+  {
+   "parti": "parti-emrelic-0038",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "Emre: 'bu aradaki koridor ve enklavlar Osmanli alani olup olmadigini ogrenmemis miydik, EN SON DURUM NE OLDU'. Gorsel 1590-03-21 · 35,02-41,48K / 43,1"
+  },
+  {
+   "parti": "parti-emrelic-0038",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "HÜKÜM (1.MURAT, 2 Eylül): KAYNAK ARAŞTIRMA DALGASINA — Emre bugün (soru ⑪) 'tek dalga' dedi ve bu madde tam o türden. Ölçülmüş durum: TDV `kasr-i-siri"
+  },
+  {
+   "parti": "parti-emrelic-0039",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "DOĞU + GÜNEY SINIR KOLLARI AÇIK — ve kendi ilk çıkarımımı çürüttüm. Önce 'iki dosya da girdi.py'de BAĞLI ⇒ iş büyük ölçüde ödenmiş' demiştim; dosyalar"
+  },
+  {
+   "parti": "parti-emrelic-0039",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "SAKARYA · BÜYÜK TAARRUZ — gün be gün Yunan ilerleyişi ve Türk kurtarışı. Bu, Balkan Savaşları işinin İSTİKLÂL HARBİ karşılığı ve aynı yapıyı kullanır."
+  },
+  {
+   "parti": "parti-emrelic-0039",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "ILK PARTI INDI (632a042, PAKET-A3, olaylar_p0049.js — index.html'de bagli): 10 madde, hepsi TDV gunuyle — 1919-04-12 Kars'in Ingiliz isgali · 1919-04-"
+  },
+  {
+   "parti": "parti-emrelic-0039",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "🔴 ÖLÇTÜM VE EMRE HAKLI — HEM DE TAHMİN ETTİĞİNDEN FAZLA. `isg:` işgal örtüsü aktif kayıt sayısı, 1921-06-15 kesitinde: **SIFIR**. Yani Yunan işgali (B"
+  },
+  {
+   "parti": "parti-emrelic-0039",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "🔴 EMRE HAKLI VE KUSUR TAHMİN ETTİĞİNDEN DERİN. Ölçüm: 1923'te `kutsal-roma` diye bir kimlik YOK — ama `devletler.js`te **`almanya` künyesi `962-02-02 "
+  },
+  {
+   "parti": "parti-emrelic-0039",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "ÜÇ KALEMİN İKİSİ KAPANDI (Suçava·Çernovitz·Cres 3/3 indi; 'macaristan 1923'te sıfır nokta' iddiası çürütüldü — macaristan-naiplik 20 nokta). AYAKTA KA"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0001",
+   "hukum": "olculecek",
+   "not": "KÜME A · GÖVDE KENARI — 7 MADDE TEK İŞ (0040/H-0001 H-0003 · 0042/H-0002 H-0008 H-0013 H-0016 H-0039). 🔴 VE İLK BULGU BİR AYIRIM: bu madde İKİ AYRI KU"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "KÜME B · SÜRTÜNME/DENİZ AŞIRI — 7 MADDE (0040/H-0002 H-0006 H-0007 · 0042/H-0005 H-0009 H-0012 H-0015). ÖLÇÜM (bu oturum, `arac/uret_petek.py` OKUNDU)"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0003",
+   "hukum": "olculecek",
+   "not": "KÜME A · boşluk kolu — H-0001 ile AYNI İŞ. ÖLÇÜM: `TAVAN_KM = {1:200, 2:200, 3:200, 4:200, 0:200}` (`uret_petek.py:900`) — her yerleşimin gövdesi kend"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "KÜME D · RENK — 4 MADDE (0040/H-0004 H-0005 · 0042/H-0014 H-0038). İki ayrı iş: (a) DENİZ rengini AÇMAK — `css/style.css` / altlık katmanı, koşu GEREK"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "KÜME D · RENK — H-0004 ile aynı iş. Adı verilen üç kimlik: `ilhanli` (deniz tonuna yakın) · `novgorod` (Emre: *'rezalet'*) · bosna/sırbistan (Emre: *'"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0007",
+   "hukum": "olculecek",
+   "not": "KÜME B · Aral gölü. ÖLÇÜM (bu oturum, `arac/uret_petek.py` OKUNDU): motor sınırı ÜÇ ayrı mekanizmayla belirliyor ve ÜÇÜ FARKLI YERDE devreye giriyor —"
+  },
+  {
+   "parti": "parti-emrelic-0040",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: KISMEN EVET (fc3c030, PAKET-A6B). Cehrin 1569-1648 ve 1699-1793 Lehistan'in (Tac tarafi; Lublin'de Kiev voyvodaligi Polonya'y"
+  },
+  {
+   "parti": "parti-emrelic-0041",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "🔴🔴 KÜLLİYATIN EN BÜYÜK TEK MADDESİ — ve DÖRT GÜNDÜR CEVAPSIZ. 0042/H-0002 bunun üstüne inşa ediyor (*'B görünümünde bu boşlukları paylaştırmamız gerek"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "🔴 KÜME A · MASTER MADDE — 10 ekran görüntüsüyle en ayrıntılı döküm. 7 madde tek iş (0040/H-0001 H-0003 · 0042/H-0002 H-0008 H-0013 H-0016 H-0039). 🔴 V"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "MADDE INDI, OK ICIN KOD KARARI ACIK. Sefer oku veride zaten var (Katalan Kumpanyasi'nin Anadolu seferi 1303-1305). 632a042 (PAKET-A3, olaylar_p0049.js"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "KÜME B · SÜRTÜNME. 🟢 EMRE'NİN ŞÜPHESİ DOĞRU ÇIKTI — *'kuş uçuşu bir mantıkla mı'* diye sormuş, CEVAP EVET. ÖLÇÜM (bu oturum, `arac/uret_petek.py` OKUN"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: 1308'DE HAYIR, VERI YANLIS (fc3c030, PAKET-A6B). Cehrin 1281'den litvanya-buyuk-dukalik boyaniyor, komsulari Lubni · Poltava "
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — CEVAP: 1385-1569 IKI AYRI DEVLET, 1569-1795 TEK BIRLESIK DEVLET (fc3c030, PAKET-A6B). Krevo 1385 bir sahsi birlik: Jogaila Polonya k"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0008",
+   "hukum": "olculecek",
+   "not": "KÜME A · ÜSTÜNE BİNME kolu. ⚠️ Bu, H-0002'nin BOŞLUK kolundan AYRI bir kusurdur ve çaresi TERSTİR (kırpma ↔ paylaştırma). Aynı ölçümde bakılır ama ayn"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0009",
+   "hukum": "olculecek",
+   "not": "KÜME B · DENİZ AŞIRI — 0040/H-0002 (Tallinn) ve H-0015 (Çimpe) ile AYNI SINIF. ÖLÇÜM (bu oturum, `arac/uret_petek.py` OKUNDU): motor sınırı ÜÇ ayrı me"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: VERI YANLIS, KEMAH'IN AKKOYUNLU KAYDININ TEMELI YOK (76f8f42, PAKET-A6A). TDV kemah: Ilhanli -> Eretnaogullari -> bir ara Mut"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "KÜME B · SÜRTÜNME · KAFKASYA. 🟢 EMRE'NİN SORUSUNUN CEVABI: *'sürtünme uygulamıyor mu, sınırlar Kafkas dağlarına yaslanmıyor mu'* — İKİ KARA yerleşimi "
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0013",
+   "hukum": "olculecek",
+   "not": "KÜME A · örnek dökümü — H-0002 ile aynı iş, ayrı hüküm yazılmaz."
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0014",
+   "hukum": "kosu-bekliyor",
+   "not": "🔴🔴 KÜME I · MERSİN — TEŞHİS ZATEN KONDU VE EMRE ONU BAĞIMSIZ GÖRDÜ. Dün gece ölçüldü: `Mersin` kaydında MÜKERRER `s:`/`d:` ANAHTARI var ve sonuç **164"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0015",
+   "hukum": "olculecek",
+   "not": "KÜME B · DENİZ AŞIRI — H-0009 (Boğaz) ve 0040/H-0002 (Tallinn) ile AYNI SINIF, üçü tek ölçümde bakılır. 🟢 VE EMRE'NİN AKIL YÜRÜTMESİ MOTORUNKİYLE AYNI"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0016",
+   "hukum": "olculecek",
+   "not": "KÜME A · ÜÇÜNCÜ KOL: kıyı KIRPMA KALİTESİ. ⚠️ Bu ne boşluk ne binme — ADA GÖVDELERİNİN kara maskesine ne kadar sıkı oturduğu. `uret_petek.py`de ADA KU"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "🔴 KÜME H · TRAKYA FETİH SIRASI — 3 MADDE TEK İŞ (H-0018 H-0019 H-0021). VE BU KÜLLİYATIN EN AĞIR VERİ KUSURU OLABİLİR: Emre 18 yerleşim sayıyor (Dimet"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "KÜME H · H-0018 ile TEK İŞ. Gümülcine · Uzunköprü · Meriç · Dedeağaç · Enez · Çirmen sırası. ⚠️ Enez burada İKİNCİ KEZ geçiyor (H-0015'te de var, orad"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0021",
+   "hukum": "olculecek",
+   "not": "KÜME H · ÇİRMEN. Emre iki şey söylüyor ve İKİNCİSİ ÖLÇÜLEBİLİR: *'kronolojide de bahsedilmiyor.'* ⇒ Bu bir `Değişmez 2` iddiasıdır ve doğrudan sınanır"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0022",
+   "hukum": "sirada",
+   "not": "🟢 EMRE KARAR VERDİ (10 Eylül): *'Bizans vassallığını tam Osmanlı vassal rengi olmasa da o renkten bir AÇIK TON ile gösterelim, vassalımsı olmuş gibi.'"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0025",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: ENKLAV YANLIS (76f8f42, PAKET-A6A). 1387-06-08'de Vodina tek basina Sirp cebi cunku veri Vodina'yi 1392'ye kadar sirbistan tu"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0027",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: USKUP'LE DEGIL, YAKLASIK 5 YIL ONCE; VERI YANLIS (76f8f42, PAKET-A6A). TDV vodina kronikleri siraliyor (Nesri 1389'dan hemen "
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0028",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: VASSAL DOGRU, BASKENTI YANLIS BOYANIYOR (76f8f42, PAKET-A6A). Uc TDV maddesi (kostendil · koprulu · ustrumca, govde okundu): "
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0029",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — UC ENKLAVDAN BIRI VERI YANLIS, BIRI YIL KODU ARTEFAKTI, BIRI KAYNAKSIZ (76f8f42, PAKET-A6A; gorseller paket klasorunde okundu, 1393-"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0030",
+   "hukum": "olculecek",
+   "not": "KÜME K · BAĞDAT/TİMURLU ENKLAVI — H-0032 ile TEK İŞ. Emre iki maddede de *'Timurlu valiliği'* enklavı görüyor ve *'şehir etrafı sarılsa da düşmemiş mi"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0032",
+   "hukum": "olculecek",
+   "not": "KÜME K · H-0030 ile TEK İŞ. 🔴 VE BU MADDE DAHA KESKİN BİR İDDİA TAŞIYOR: *'Timur Bağdat'ı 8 yıl arayla İKİ KEZ aldı ama haritada sürekli enklavmış gib"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0034",
+   "hukum": "kosu-bekliyor",
+   "not": "KÜME J · PİROT/ŞEHİRKÖY — H-0042 ile TEK İŞ. 🟢 VE EMRE'NİN KENDİ TEŞHİSİ: *'tıpkı Mersin gibi.'* Haklı: aynı belirti (anlamsız Osmanlı kırmızısı, Fetr"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0037",
+   "hukum": "olculecek",
+   "not": "KÜME N · ANKARA / EMİR SÜLEYMAN. 🔴 VE BU MADDE H-0030/H-0032 İLE BAĞLI: Emre *'Ankara bir önceki maddede TİMURLU VALİLİĞİ olarak görünüyordu'* diyor —"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0038",
+   "hukum": "sirada",
+   "not": "KÜME D · RENK + KÜME N · VERİ — İKİ AYRI SORU tek maddede. (a) RENK: `karakoyunlu` ile `gurcistan` ayırt edilemiyor ⇒ `renkler.py` + `renk_olc.py` işi"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0039",
+   "hukum": "olculecek",
+   "not": "KÜME A · ÜSTÜNE BİNME — ve EN AĞIR TARİFLİ ÖRNEK: *'birbiri üstüne binmiş KIVRILMIŞ ÇAPRAZLANMIŞ renkler.'* 🔴 'Çaprazlanmış' bir poligonun KENDİ KENDİ"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0042",
+   "hukum": "kosu-bekliyor",
+   "not": "KÜME J · H-0034 ile TEK İŞ. Çamurlu savaşı maddesinde Pirot ETRAFININ enklav görünmesi. ⚠️ H-0034 'Osmanlı kırmızısı' diyor, bu madde 'enklav' diyor —"
+  },
+  {
+   "parti": "parti-emrelic-0042",
+   "madde": "H-0043",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BITTI — HUKUM: 1415'TE SARUHANOGULLARI MANISA'DA ARTIK YOKTU; VERI YANLIS (76f8f42, PAKET-A6A). TDV saruhanogullari: '1411'den sonra ve 1415"
+  },
+  {
+   "parti": "parti-emrelic-0043",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "🟢 VERI VE MOTOR HAZIR, HARITAYA KOSU 11 ILE INER (14 Eylul). Motor himaye govdelerini uretiyor (8ba093e: gevsek acik ton #e8a2aa + serit + lejant). Ve"
+  },
+  {
+   "parti": "parti-emrelic-0043",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "🟢 KARAR H-0003 ILE VERILDI (D, uc ton, 13 Eylul): Kefe sancagi (Taman · Kerc dahil) dogrudan kirmizi · yarimada vassal kirmizisi · Nogay bozkiri gevse"
+  },
+  {
+   "parti": "parti-emrelic-0043",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "GURCISTAN UCE BOLUNDU AMA IKI PARCA GORUNUYOR — KUSUR VERIDE DEGIL KUNYEDE. Olculdu: `gurcistan` 16 donemde, `imereti` 1 donemde kullaniliyor; `kartli"
+  },
+  {
+   "parti": "parti-emrelic-0043",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "CIZRE'DE ARADA BOSLUK BIR BOLUM VAR — 🟢 GOZLEMIN DOGRU, AMA BUYUKLUGU VE SEBEBI ILK RAPORDA YANLIS YAZILDI, VE ONU YAZAN ISCI KENDI CURUTTU (commit 9b"
+  },
+  {
+   "parti": "parti-emrelic-0043",
+   "madde": "H-0017",
+   "hukum": "olculecek",
+   "not": "ISINSAL CIKINTILARIN (yildiz/kirpi deseni) SEBEBI — IKI KARE, IKI AYRI CEVAP, ve koordinatorun ilk teshisi YARIM CURUDU. Ikisi de 1517-09-10 damgali. "
+  },
+  {
+   "parti": "parti-emrelic-0044",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "MOHAC SONRASI YERLESIMSIZ PARCA — DOGRUDAN DEGIL TABI KIRMIZISI, AMA BASLANGIC YILI SORGULANIYOR. KITA 19 olctu: parca Debrecen'in petegi (en yakin no"
+  },
+  {
+   "parti": "parti-emrelic-0044",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "KARARIN KODA INDI (commit 8e14a50): himaye edilen devlet kendi renginde; sinirlari boyunca iki parcali ince serit — dis yarisi Osmanli kirmizisi, ic y"
+  },
+  {
+   "parti": "parti-emrelic-0044",
+   "madde": "H-0011",
+   "hukum": "olculecek",
+   "not": "BASRA KIYISINDAKI ISINSAL BOZULMALAR — GEOMETRI ARTEFAKTI; MEKANIZMASI MOTOR KOSUSUNDA OLCULECEK. Iki kare de 1546 Basra maddesi: Fav kutusunda 2 nokt"
+  },
+  {
+   "parti": "parti-emrelic-0044",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "DUZELTMEN ISLENDI: KOTUR ve BARGIRI (Muradiye) — ikisinin de haritada noktasi var ve 25 Agustos 1548'de Van ile ayni gun Osmanli'ya geciyor; TDV van i"
+  },
+  {
+   "parti": "parti-emrelic-0045",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "UCUNCU DALGA INDI, IS SURUYOR. 1a0254c (PAKET-A2): 5 savas hikayesi — Budin 1541 · Hacova 1596 · Prut 1711 · Cesme 1770 · Plevne 1877 (15 bag; TDV gov"
+  },
+  {
+   "parti": "parti-emrelic-0045",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "IKI DALGA DAHA INDI, IS SURUYOR. 1a0254c (PAKET-A2): 8 kart — Istanbul 1700 · Ferhad Pasa 1590 · Prut 1711 · Hunkar Iskelesi 1833 · Ayastefanos 1878 ·"
+  },
+  {
+   "parti": "parti-emrelic-0045",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "UCUNCU DALGA INDI, IS SURUYOR (1a0254c, PAKET-A2): 11 padisah magazin/komplo karti — Bayezid'in Aksehir esareti 1403 · III. Mehmed'in culus gecesi 159"
+  },
+  {
+   "parti": "parti-emrelic-0045",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "IKINCI DALGA INDI, IS SURUYOR (1a0254c, PAKET-A2): 8 mimari kart — Topkapi Sarayi mimari + tartisma · Dolmabahce · Fatih Camii · Rumelihisari · Sehzad"
+  },
+  {
+   "parti": "parti-emrelic-0045",
+   "madde": "H-0012",
+   "hukum": "olculecek",
+   "not": "FIZAN SONRASI ORTADAKI BOSLUK — NOKTASIZ COL; BOSLUK BUYUK OLASILIKLA DOGRU, MEKANIZMA OLCULECEK. Trablus kiyisi (Derc, Gadames, Mizde) ile Fizan vaha"
+  },
+  {
+   "parti": "parti-emrelic-0046",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "REVAN ALINIRKEN GUMRU VE ECMIYADZIN — KITA 29 OLCUYOR. Ilk bulgular: atlas Revan'i 1583-06-01'de Osmanli gosteriyor; TDV revan 'Eylul 1583 ortasi', yu"
+  },
+  {
+   "parti": "parti-emrelic-0046",
+   "madde": "H-0010b",
+   "hukum": "sirada",
+   "not": "NAHCIVAN / ORDUBAD 1590 (paketteki ikinci H-0010) — KITA 29 OLCUYOR. 1590-03-21 kesitinde atlas saydigin adlardan Osmanli 4 (Revan · Nahcivan · Orduba"
+  },
+  {
+   "parti": "parti-emrelic-0046",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "FERHAT PASA ILE CALDIRAN, BASKALE, GUMRU, ECMIYADZIN, MAKU, SERUR, MEREND, SELMAS — KITA 29 OLCUYOR. Atlas 1590'da sekizini de Safevi gosteriyor. Olcu"
+  },
+  {
+   "parti": "parti-emrelic-0047",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "ARASTIRMA BASLADI: Kasr-i Sirin, Zencan, Sultaniye, Bicar, Merivan, Sakiz, Bane, Serdest ve Mahabad icin 1590 (Ferhat Pasa) ve 1603 kesitinde atlas ne"
+  },
+  {
+   "parti": "parti-emrelic-0048",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "BEYAZ BOLGE (1590, Ustyurt-Karakum-Asagi Yayik) — UC MEKANIZMA USTUSTE, PAKET-ARAS0048 olctu: (1) buyuk kismi KASITLI bos: gocer Turkmen boylarinin yu"
+  },
+  {
+   "parti": "parti-emrelic-0048",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "TUHAF SEKIL (1602, Katar dogusu) — MOTOR KUSURU, PAKET-ARAS0048 olctu: Doha'nin henuz kurulmamis noktasinin petegi 'dolgu' kurali yuzunden Safevi govd"
+  },
+  {
+   "parti": "parti-emrelic-0048",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "GORUNTU BOZULMASI (1602, Katar batisi) — BILINEN UCGEN KUSURU (BULGULAR-UCGEN-19AGU): sinir hattinin bir parcasinda 0,3 km ile 257 km arasi degisen de"
+  },
+  {
+   "parti": "parti-emrelic-0048",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "DOHA/KATAR 1602 SAFEVIDE DEGILDI — HARITA YANLIS, PAKET-ARAS0048 olctu: TDV katar, 1559'da Katar sancagi kuruldugunu ve bolgenin 'tartismasiz Osmanli "
+  },
+  {
+   "parti": "parti-emrelic-0048",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "IKI PARCA. (1) KARTLAR — ILK DALGA INDI (d778798, PAKET-EK2): olcum listedeki 12 onemli antlasmanin 12'sinde hukum karti zaten vardi; onem/sebep-sonuc"
+  },
+  {
+   "parti": "parti-emrelic-0049",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "🟢 VERIDE DUZELDI (ARAS-CALDIRAN, denetim/ARASTIRMA-CALDIRAN-0913.md): ikisi de Safevi 1502 -> 24 Agustos 1548 · Osmanli 1548 -> 1920 · TBMM 1920-1923;"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "PAKET-EK-A: yeni ek okuma dosyasi (Rus tarih yaziminda Kirim Hanligi) — Moskova akinlari (1571 Moskova'nin yakilmasi, 1572 Molodi), 'Tatar boyundurugu"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "ARAS-BAGDAT: 1623 -> 1638 -> 1639 kesitlerinde Bagdat eyaletinin (Bagdat, Hille, Kerbela, Necef, Derne-Badra-Mendeli, Zengabad, Kerkuk, Sehrizor, Hale"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "IKI PARCA. (1) PAKET-EK-B: I. Mustafa'nin 1618 hal'inde Kizlar Agasi Mustafa Aga'nin rolu ek okuma karti olarak yaziliyor ve hal' maddesine baglaniyor"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "PAKET-TEMIZ: okura cizilen butun metin alanlari (madde basligi, anlatim, gun metni, ek okuma ve kisi kartlari) gelistirici kaliplari icin taraniyor (d"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "PAKET-EK-A: yeni ek okuma dosyasi (Kasr-i Sirin) — arka plan (1623-1638), muzakere ve imza (Zohab, 17 Mayis 1639), sinir maddeleri, kaliciligi (1746 K"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "ARAS-BAGDAT: antlasmanin sinir maddeleri (Bedre, Cessan, Mendeli, Derne, Dertenk, Zencir kalesi, Zengabad, Kasr-i Sirin, Zohab, Sehrizor kaleleri) tek"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "IKI PARCA. (1) ICERIK — PAKET-EK-B: magazin kartlari 'kisinin ozel hayati ve ilginc hikayeleri' ilkesine gore gozden geciriliyor; 'nasil bilirdiniz' v"
+  },
+  {
+   "parti": "parti-emrelic-0050",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "PAKET-EK-B: yeni ek okuma dosyasi (I. Ibrahim) — saydigin her olay icin kart: samur vergisi · Varvar Ali Pasa isyani · Sisman Kadin · Cinci Hoca'nin n"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET: siralama yamasi · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH: 0052 H-0045 ile birlikte · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA: Otuz Yil Savaslari + Vestfalya ek okuma; harita odagi UI · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "GEOMETRI: katman ust uste binmesi teshisi · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET: Katib Celebi ek okuma (0052 H-0027/H-0082 ile) · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET: 0052 H-0083 ile ayni madde · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "HARITA-VERI: 0052 H-0015 ile ayni (Levant ozerk gorunumu) · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0051",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "HARITA-VERI: 0052 H-0092 ile ayni (Lahsa-Katar desen) · sartname oturumlar/DALGA-0052.md §2b"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0031",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0032",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0051",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0052",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0055",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0056",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0075",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0085",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0086",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0087",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0091",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0093",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0094",
+   "hukum": "sirada",
+   "not": "EKO-KURUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0029",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0033",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0034",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0053",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0054",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0115",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0116",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0117",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0118",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0119",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0120",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0121",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0127",
+   "hukum": "sirada",
+   "not": "EKO-TOPLUM oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0035",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0036",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0037",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0038",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0040",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0041",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0070",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0078",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0079",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0088",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0090",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0023",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0026",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0030",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0046",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0059",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0060",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0061",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0062",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0063",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0064",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0065",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0066",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0067",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0068",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0073",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0080",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0045",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0048",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0049",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0050",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0057",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0058",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0074",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0024",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0025",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0027",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0028",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0039",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0042",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0044",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0071",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0072",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0076",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0082",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0083",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0047",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0084",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0089",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0096",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0122",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0128",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0129",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0021",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0043",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0077",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0081",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0092",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0095",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0098",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0111",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0113",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0114",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0123",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0125",
+   "hukum": "sirada",
+   "not": "HARITA-VERI (kaynakli arastirma, yama UYGULA oturumunda) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0100",
+   "hukum": "sirada",
+   "not": "MOTOR (nehir surtunmesi kodlamasi ile birlikte) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0101",
+   "hukum": "sirada",
+   "not": "MOTOR (nehir surtunmesi kodlamasi ile birlikte) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0104",
+   "hukum": "sirada",
+   "not": "MOTOR (nehir surtunmesi kodlamasi ile birlikte) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0105",
+   "hukum": "sirada",
+   "not": "MOTOR (nehir surtunmesi kodlamasi ile birlikte) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0106",
+   "hukum": "sirada",
+   "not": "MOTOR (nehir surtunmesi kodlamasi ile birlikte) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0112",
+   "hukum": "sirada",
+   "not": "MOTOR (nehir surtunmesi kodlamasi ile birlikte) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0069",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0097",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0099",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0102",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0103",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0107",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0108",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0109",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0110",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0124",
+   "hukum": "sirada",
+   "not": "GEOMETRI (teshis, care MOTOR/HARITA-VERI) oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "Emre'nin TK Kirim oturumu oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0052",
+   "madde": "H-0126",
+   "hukum": "sirada",
+   "not": "Emre'nin TK Kirim oturumu oturumunda · sartname oturumlar/DALGA-0052.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "HARITA-VERI oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "HARITA-VERI oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "HARITA-VERI oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "UI oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "HARITA-VERI oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0053",
+   "madde": "H-0021",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0053.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "HARITA-VERI oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "TK Kirim (Emre'nin oturumu) oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "D-KATMAN oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0054",
+   "madde": "H-0021",
+   "hukum": "sirada",
+   "not": "TK Kirim (Emre'nin oturumu) oturumunda · sartname oturumlar/DALGA-0054.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "D-KATMAN oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "D-KATMAN oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "TK Kirim (Emre'nin oturumu) oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0055",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0055.md"
+  },
+  {
+   "parti": "parti-emrelic-0056",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET oturumunda · sartname oturumlar/DALGA-0056.md"
+  },
+  {
+   "parti": "parti-emrelic-0056",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR + EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0056.md"
+  },
+  {
+   "parti": "parti-emrelic-0056",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH oturumunda · sartname oturumlar/DALGA-0056.md"
+  },
+  {
+   "parti": "parti-emrelic-0056",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA oturumunda · sartname oturumlar/DALGA-0056.md"
+  },
+  {
+   "parti": "parti-emrelic-0056",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "TK Kirim (Emre'nin oturumu) oturumunda · sartname oturumlar/DALGA-0056.md"
+  },
+  {
+   "parti": "parti-emrelic-0056",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "TK Kirim (Emre'nin oturumu) oturumunda · sartname oturumlar/DALGA-0056.md"
+  },
+  {
+   "parti": "parti-emrelic-0057",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · sartname oturumlar/DALGA-0057.md"
+  },
+  {
+   "parti": "parti-emrelic-0057",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · sartname oturumlar/DALGA-0057.md"
+  },
+  {
+   "parti": "parti-emrelic-0057",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "D5-AMERIKA · sartname oturumlar/DALGA-0057.md"
+  },
+  {
+   "parti": "parti-emrelic-0057",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "D5-AMERIKA · sartname oturumlar/DALGA-0057.md"
+  },
+  {
+   "parti": "parti-emrelic-0057",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "Kesik cizgi hukuki sinir katmani (Karlofca 1699 Sava hatti). Dolgu yanlis: Bosna Brodu Sava'nin guney kiyisinda ama kayit 1699-1918 avusturya diyor. D"
+  },
+  {
+   "parti": "parti-emrelic-0057",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "D-GEOARAC (355 ek okuma baslik/ilgililik denetimi) · sartname oturumlar/DALGA-0057.md"
+  },
+  {
+   "parti": "parti-emrelic-0058",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "D5-ASYA · yeni data/ekokuma_lale.js (app.js'e baglandi) · sartname oturumlar/DALGA-0058.md"
+  },
+  {
+   "parti": "parti-emrelic-0058",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR · kimdir-nevsehirli-damad-ibrahim-pasa karti genisletilecek · sartname oturumlar/DALGA-0058.md"
+  },
+  {
+   "parti": "parti-emrelic-0058",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "Ek okuma UYGULA (ekokuma_antlasma4, oncelikli); harita D-GEOARAC veri + D-KATMAN gosterim, uc tarafli etiket · sartname oturumlar/DALGA-0058.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "Gorsel seckisi D4-AFRIKA (kamu mali), albüm gosterimi D-KATMAN · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "D5-OKYANUSYA · yeni data/ekokuma_yenilesme.js · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "D5-OKYANUSYA · yeni data/ekokuma_yenilesme.js · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "D5-ASYA · ekokuma_lale.js + kisi karti onerisi · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "D5-AMERIKA · yeni data/ekokuma_diplomasi.js · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · yeni data/ekokuma_kiyas.js · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0059",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "D4-ORTADOGU (G3 sonrasi) · Hazar seferi harita kontrolu + yeni data/ekokuma_rusiran.js · sartname oturumlar/DALGA-0059.md"
+  },
+  {
+   "parti": "parti-emrelic-0060",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "D4-ORTADOGU · ek okuma: Osmanli ve Rusya Iran'i nicin bolustu (1724 Mukasemenamesi) · sartname oturumlar/DALGA-0060.md"
+  },
+  {
+   "parti": "parti-emrelic-0060",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "TK Ferhatpasa · Gumru, Ecmiyadzin, Serur, Maku 1723-27 kaynakla teyit, beraber alindiysa beraber boyanacak (yama, kosu 13) · sartname oturumlar/DALGA-"
+  },
+  {
+   "parti": "parti-emrelic-0061",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "D4-ORTADOGU · Osmanli Iran seferi ile Rusya'nin Iran icindeki ilerleyisi (1722-1735) kronolojide birlikte islenecek · sartname oturumlar/DALGA-0060.md"
+  },
+  {
+   "parti": "parti-emrelic-0062",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "TK Ferhatpasa · ic koridor (Bane, Bicar, Mahabad, Gumru, Ecmiyadzin, Maku, Serur) Osmanli egemenligi teyidi (yama, kosu 13) · sartname oturumlar/DALGA"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "TK Ferhatpasa (Osmanli yani) + D4-ORTADOGU (Rus isgali Hazar kiyisi) · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "D5-OKYANUSYA · Ibrahim Muteferrika + matbaa · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "UI-ETKILESIM (yeni oturum) · sag tik kopyala menusu · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "UI-ETKILESIM · bos noktaya tiklayinca sayfa acilmasin · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "TK Ferhatpasa · Merend, Culfa, Maku, Serur, Gumru, Ecmiyadzin, Kotur, Selmas, Urmiye teyidi (yama, kosu 13) · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "D5-ASYA · Patrona Halil kimdir · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "UI-ETKILESIM · resim buyutme · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "UI-ETKILESIM · cetvel etiketi + cok durak · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "D5-ASYA · I. Mahmud'un isyancilari derdest etmesi + isyancilarin yaptiklari · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "D4-ORTADOGU · Iran'in Ruslari cikarmasi kronolojide · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0063",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "D5-AMERIKA · 1736-39 savasinin sebebi, Ozi · sartname oturumlar/DALGA-0063.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "D2-KOMSU · 1736-37 Rus harekati guzergahi + savas baslangic maddesi · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA / D2-KOMSU (gorsele gore) · isgal teyidi · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · enklav teyidi; koyu halka anlami UI-HARITA · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "UI-HARITA (ek okuma basligi tepede) + EKO-TEMIZ (son okuyucu metninden 'Emre' ifadeleri) · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · Semendire enklavi, Cacak/Kragujevac/Jagodina/Turnu Severin · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "D1-TURKIYE · sefer oklari verisi (1735-39 Rus, Stavucani) · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "D-KATMAN · vasal siniri acik kirmizi genel kural · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · Bihac, Knin, Bosna Novi · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "UI-HARITA · r8887'de duzeltildi, canlida yeniden dogrulanacak · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "D3-AVRUPA-ORTA · eksklav karar agaci kural + olcum aleti · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "UI-HARITA · sari nokta anlami + lejant · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "UI-HARITA · yesil halka anlami + lejant · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "UI-HARITA · kesikli cizgi anlami · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "EKO-ANTLASMA · kapitulasyonlar ek okuma · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "UI-HARITA · simge cakismasi + etiket + yanip sonen hale · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "D1-TURKIYE · Nadir Musul seferi oku; genel sefer oku kurali · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA · Vehhabiler, Necid/Guney Arabistan/Umman · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "EKO-ANTLASMA · Kasr-i Sirin'in kaliciligi · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA · Afsarlar, Iran'i yoneten Turk hanedanlari, Iran'da Turk nufusu · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR · cami mimarisi tarzlari · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0021",
+   "hukum": "sirada",
+   "not": "D2-KOMSU · Dest-i Kipcak, Kabartay, Camboyluk, Yedickul, Yedisan, Kuban · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0064",
+   "madde": "H-0022",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET · I. Mahmud'un olumu rivayeti · sartname oturumlar/DALGA-0064.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR · Ragip Pasa portresi (PD/CC0) / yanlis portre · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "EKO-PADISAH · unlu sozler ek okumasi (ekokuma_vecize) · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET · III. Mustafa fal, borc senedi, savas hirsi, Venedik notasi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-TEMIZ · Ragip Pasa vefat maddesindeki gelistirici notlari · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EKO-TEMIZ · butun kronoloji/ek okuma metinlerinde editor turu · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "UI-HARITA · dugme paneli analizi (istisare raporu) · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "UI-HARITA · otomatik odak ayari panele; gereksiz dugmeler analizi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "EKO-DUNYA · Istanbul depremleri, yanginlari, selleri, Bogaz'in donmasi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKO-ANTLASMA · 1768-1774 savasinin sebebi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "D1-TURKIYE (19:30 sonrasi) · sefer oklari devlet rengiyle, 1769 Dinyester · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "D2-KOMSU (19:30 sonrasi) · 1769 Hotin, Podolya/Kamanice teyidi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "D1-TURKIYE (donanma rotasi) + UI-HARITA (simge/etiket cakismasi) · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR · Cesme Baskini hikayesi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "UI-HARITA · butun haritada etiket/simge cakismasi · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "EKO-VEZIR · Kartal (Kagul) bozgunu · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0065",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "SAVAS-KUNYE (19:30 sonrasi) · savas kunyesi semasi + ilk 20 muharebe · sartname oturumlar/DALGA-0065.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "HARITA-KARADENIZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "HARITA-KARADENIZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "UI-HARITA · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "D-KATMAN · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "D-KATMAN · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-TARTISMA (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "KISI-KART (yeni Sonnet) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "EKO-RIVAYET · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKO-ANTLASMA · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "EKO-TEMIZ · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "UI-HARITA · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "HARITA-KARADENIZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "UI-HARITA · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "EKO-KURUM2 · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "EKO-ANTLASMA · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "EKO-KURUM2 · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "BASRA-KORFEZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "EKO-TARTISMA (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "EKO-TARTISMA (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "BASRA-KORFEZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0021",
+   "hukum": "sirada",
+   "not": "BASRA-KORFEZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0022",
+   "hukum": "sirada",
+   "not": "HARITA-KARADENIZ (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0066",
+   "madde": "H-0023",
+   "hukum": "sirada",
+   "not": "EKO-KARSI (yeni Opus) · sartname oturumlar/DALGA-0066.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "KARADENIZ-KAFKAS · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "BAGLAMA · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "EKO-IHTILAL (yeni Sonnet) · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "EKO-TARTISMA · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "BAGLAMA + D2-KOMSU · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "BAGLAMA · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "EKO-KARSI · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0067",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "KISI-KART · sartname oturumlar/DALGA-0067.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "ISGAL-TARAMA (yeni Sonnet) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0002",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "SAVAS-ANLATI (sira) + EKO-RIVAYET (Abdulhamid felc ek okumasi) · oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "SAVAS-ANLATI (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "MOTOR-YURUYUS · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "MOTOR-YURUYUS · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0013",
+   "hukum": "sirada",
+   "not": "EKO-AKDENIZ (yeni Sonnet) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "EKO-KURUM2 · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0015",
+   "hukum": "sirada",
+   "not": "ISGAL-TARAMA (yeni Sonnet) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0016",
+   "hukum": "sirada",
+   "not": "ISGAL-TARAMA (renk gosterimi) + EKO-TARTISMA (sebep-sonuc ek okumasi) · oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "ISGAL-TARAMA (yeni Sonnet) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "BAGLAMA · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0019",
+   "hukum": "sirada",
+   "not": "BASRA-KORFEZ · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "EKO-KURUM2 · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0021",
+   "hukum": "sirada",
+   "not": "EKO-TARTISMA · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0022",
+   "hukum": "sirada",
+   "not": "EKO-IHTILAL · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0023",
+   "hukum": "sirada",
+   "not": "ISGAL-TARAMA (yeni Sonnet) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0024",
+   "hukum": "sirada",
+   "not": "EKO-IHTILAL · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0025",
+   "hukum": "sirada",
+   "not": "BAGLAMA · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0026",
+   "hukum": "sirada",
+   "not": "ISGAL-1787 (yeni Opus) · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0027",
+   "hukum": "sirada",
+   "not": "SEFER-1768 · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0028",
+   "hukum": "sirada",
+   "not": "SEFER-1768 · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0068",
+   "madde": "H-0029",
+   "hukum": "sirada",
+   "not": "SEFER-1768 · sartname oturumlar/DALGA-0068.md"
+  },
+  {
+   "parti": "parti-emrelic-0069",
+   "madde": "H-0002",
+   "hukum": "kosu-bekliyor",
+   "not": "BIHAC-ENKLAV-0069 olctu (denetim/BIHAC-ENKLAV-0919.md): 1804te Bihac Osmanli Bosnasina BITISIKTI (TDV bihac, zistovi-antlasmasi). Yayindaki kopukluk N"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "EKOKUMA-SIMGE-0070 · ek okuma satirinda kategori simgesi + ipucu + baslik; Campo Formio kartlarinin kategori uyumu olculecek"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "NAPOLYON-MISIR-0070 · 1798-07-21 kesitinde Fransiz denetiminin fiili sinirlari kaynakla karsilastirilacak, yama onerilecek"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0003",
+   "hukum": "olculecek",
+   "not": "SINIR-DIS-0070 · sinir boyundaki isinsal ucgen disler; once kaynak asama olculecek (col tavani / petek emilmesi / yuruyus izgarasi), sonra care oneril"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0004",
+   "hukum": "olculecek",
+   "not": "SINIR-DIS-0070 ile ayni kusur (H-0003 ile birlikte)"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "ELE-GECIRME-ANIM-0070 · Ebukir 1798-08-01 noktasina deniz savasi simgesi"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "SEFER-OK-0070 · harekat oklari; data/seferler_p0068.js tabanindan genellestirilecek, guzergah verisi olmayan sefer icin ok uydurulmayacak"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "ELE-GECIRME-ANIM-0070 · olay alani yanip sonen simgeyle"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "ELE-GECIRME-ANIM-0070 · standart: odaklanma + koyu renkte iki kez yanip sonme + ucunculde yeni sahibin rengi; butun devletler ve tarihler icin tek kur"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKOKUMA-SIMGE-0070 · 1805-05-13 Mehmed Ali'nin vali ilani, Misir tarih anlatisinda yeri (TDV + akademik)"
+  },
+  {
+   "parti": "parti-emrelic-0070",
+   "madde": "H-0010",
+   "hukum": "senin-kararin",
+   "not": "TERIM-STANDART-0070 · isgal/fetih/ilhak/istila/harekat icin olculebilir tanim ve gosterim standardi ONERISI hazirlanacak (A/B/C secenekli); hukum Emre"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "EKO-1806 (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 1 · 1806 savasinin sebebi ve Rusya'nin bahanesi"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0002",
+   "hukum": "olculecek",
+   "not": "ISGAL-1806 (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 3 · Eflak-Bogdan isgalinin haritadaki dogrulugu ve kopukluklar; Napolyon-Misir vakasi "
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0003",
+   "hukum": "sirada",
+   "not": "SEFER-OK-0070 (mevcut oturum) · sartname oturumlar/DALGA-0071.md son bolum · Duckworth harekati, deniz guzergahi KESIKLI cizgi"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0004",
+   "hukum": "sirada",
+   "not": "SEFER-OK-0070 (mevcut oturum) · sartname oturumlar/DALGA-0071.md son bolum · Resid 1807 olay yeri iki kez yanip sonsun (sahne dilinin olay alani fazi)"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0005",
+   "hukum": "sirada",
+   "not": "EKO-1806 (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 1 · yenilesme karsiti ayaklanmalar toplu ek okuma (Kabakci, Patrona Halil, 31 Mart, Genc"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "EKO-1806 (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 1 · IV. Mustafa'nin sahsiyeti, karsit gorusler kunyesiyle"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "SEFER-OK-0070 (mevcut oturum) · sartname oturumlar/DALGA-0071.md son bolum · Alemdar'in Rusculk-Istanbul yuruyusu + YURT ICI harekatlarda ok standardi"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0008",
+   "hukum": "sirada",
+   "not": "EKO-ALEMDAR (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 2 · 28 Temmuz 1808 kargasasi, III. Selim'in katli, II. Mahmud'un kurtarilmasi"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0009",
+   "hukum": "sirada",
+   "not": "EKO-ALEMDAR (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 2 · Alemdar Mustafa Pasa'nin sahsiyeti"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0010",
+   "hukum": "sirada",
+   "not": "EKO-ALEMDAR (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 2 · ayanlar: liste, konum, atanma bicimi; Sened-i Ittifak baglamiyla"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0011",
+   "hukum": "sirada",
+   "not": "EKO-ALEMDAR (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 2 · Alemdar vakasi ve II. Mahmud'un tavri (tartisma turu)"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0012",
+   "hukum": "olculecek",
+   "not": "ISGAL-1806 (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 3 · Imereti ilhakiyla Soci-Anapa kara baglantisi kesildi mi (haritadan olcum + kaynak)"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0013",
+   "hukum": "olculecek",
+   "not": "ISGAL-1806 (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 3 · Sohum el degistirme animasyonu oynamiyor; sebep veri mi kod mu"
+  },
+  {
+   "parti": "parti-emrelic-0071",
+   "madde": "H-0014",
+   "hukum": "sirada",
+   "not": "EKO-ALEMDAR (yeni Opus) · sartname oturumlar/DALGA-0071.md bolum 2 · Osmanli Ruslara nicin direnemedi (tartisma, tek sebebe indirgeme yok)"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0001",
+   "hukum": "sirada",
+   "not": "Tahliye oku türü `HAREKET.tahliye` olarak ZATEN vardı ama 0 kayıt taşıyordu ve deseni çekilme ile aynıydı. Desen ayrıştırıldı, Mora→Girit kaydı taslak"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0002",
+   "hukum": "kosu-bekliyor",
+   "not": "Fes kartı + fes öncesi başlıklar (sarık·külah·kavuk·kalpak). TDV'de kalpak maddesi YOK, külâh TAÇ'a yönlendiriyor; ulemâ/esnaf tepkisi ve fes dışı kıy"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0003",
+   "hukum": "senin-kararin",
+   "not": "'D kalite'nin tanımı bulundu (GORUNUM-ABCD-0916: D fiilî, E hukukî; ESKİ D = bugünkü E). İsviçre 1830'da D kaydı SIFIR; görseldeki mavi çizgiler E/C h"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0004",
+   "hukum": "senin-kararin",
+   "not": "Hollanda: 2 hat (Kortrijk 462 km + Aachen/Meppen 476 km), Belçika-Prusya kenarı YOK. 187 noktanın %15'i iki yan doğru; Hollanda rengi Fransa'ya medyan"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0005",
+   "hukum": "senin-kararin",
+   "not": "🔴 BELGRAD GERÇEKTEN DIŞARIDA VE SEBEBİ NOKTASIZLIK. TDV: ferman 17 EKİM 1830 (atlas maddesi 8 Kasım, künye 30 Ağustos, d_sinirlar 17 Ekim — ÜÇ AYRI GÜ"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0006",
+   "hukum": "kosu-bekliyor",
+   "not": "İlk nüfus sayımı kartı yazıldı. TDV 33 madde gövdesi okundu; Avrupa'daki ilk basılı gazetelerin ayrıntısı BULUNAMADI."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0007",
+   "hukum": "senin-kararin",
+   "not": "🔴 KAPSAM KARARI GEREKİYOR. Ölçüldü: EKRANA BASILAN 'Emre' 6 yer (5 ek okuma kartı + 1 kronoloji `gun` alanı) + 1 `kasitli_bosluk.neden`. Geliştirici s"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0008",
+   "hukum": "kosu-bekliyor",
+   "not": "Takvîm-i Vekāyi / resmî gazete kartı yazıldı: ne olduğu, hangi gerekliliğe doğduğu, ondan önce işi hangi kurumun gördüğü."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0009",
+   "hukum": "kosu-bekliyor",
+   "not": "Gazetecilik kartı yazıldı: doğuşu, klasik dönemdeki karşılığı, ilk Osmanlı gazeteleri ve gazetecileri."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0010",
+   "hukum": "senin-kararin",
+   "not": "🔴 YENİ ALAN GEREKMİYOR — ölçüldü: `v:`in mevcut `statu` alanına yeni değer `asi` yeter; renk hattı 13 Eylül'de zaten kurulu (`statu:gevsek`+`himaye:tr"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0011",
+   "hukum": "kosu-bekliyor",
+   "not": "Üst üste binmenin sebebi bulundu (bkz. H-0024). Önleyici kod yazıldı ve 8/8 sentetik iki yönlü sınavı geçti ama motora BAĞLANMADI, tam koşuda SINANMAD"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0012",
+   "hukum": "sirada",
+   "not": "Kademe mekanizması eklendi (`seferHat`, `kademe:[[gün,i],…]`). Tarayıcıda okun ucu 1832-05-27 Akkâ · 06-16 Şam · 06-26 Halep · 07-29 Belen · Adana → K"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0013",
+   "hukum": "senin-kararin",
+   "not": "TDV + 3 hakemli makale okundu. Adana ve Tarsus ALINDI (Belen sonrası, Ağu 1832 başı; atlasın 1832-07-29'u Belen'in günü). Maraş: TDV '1833'te işgal, o"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0014",
+   "hukum": "senin-kararin",
+   "not": "Urfa ALINMADI: TDV yalnız '1839'da kısa süre', Kutluoğlu Urfa'yı Kütahya kapsamı DIŞINDA sayıyor. Atlasın 1832-08-15→1841 kaydının kaldırılması öneril"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0015",
+   "hukum": "senin-kararin",
+   "not": "Koridor kopukluğunun sebebi kayıt kusuru, ölçüldü: Urfa fazla · Mersin/Silifke/Ulukışla eksik · Ereğli-Konya·Pozantı·Gülek·Osmaniye·Ceyhan·Kozan NOKTA"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0016",
+   "hukum": "kosu-bekliyor",
+   "not": "Feshâne ve ilk sanayi kuruluşları kartı yazıldı. Hereke/Bakırköy/Bursa ipek fabrikalarının kuruluş yılları BULUNAMADI (TDV'de ayrı madde yok)."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0017",
+   "hukum": "kosu-bekliyor",
+   "not": "🔴 ÖNCEKİ TEŞHİS ÇÜRÜDÜ: yeşil RUSYA DEĞİL EFLAK (ΔE eflak 1,8-2,2 · rusya 15,1-15,7; etiket 'EFLAK VOYVODALIĞI'). Sahipsiz hücre %0,05-0,14, toprak bo"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0018",
+   "hukum": "senin-kararin",
+   "not": "TDV: Lübnan 1832-1840 Mısır idaresinde, Emîr Beşîr İbrâhim Paşa'nın isteklerinden öte işlev göremedi ⇒ 'merkezî idareye bağlı değil' DOĞRU. Zincir Osm"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0019",
+   "hukum": "senin-kararin",
+   "not": "Han Yûnus teşhisi DOĞRU: El-Arîş ile Gazze arasında ada gibi kalıyor. Ama yere özel kaynak BULUNAMADI; eklenmesi dolaylı tanıklıkla olur, karar Emre'd"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0020",
+   "hukum": "sirada",
+   "not": "Redif maddesinin noktasızlığı doğrulandı; merkezî karar sınıfına girdiği için `odak_yer` İstanbul önerildi."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0021",
+   "hukum": "senin-kararin",
+   "not": "🔴 ÖLÇÜLDÜ VE 'HEPSİNE İSTANBUL' YANLIŞ ÇIKTI: Osmanlı listesinde 94/1736 madde noktasız (%5,4) ve merkezî karar yalnız 4'ü. Sınıflar: yeri belli-bağla"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0022",
+   "hukum": "kosu-bekliyor",
+   "not": "Aynı sınıf: iki toprak da sahipsiz değil, `s:` ile ayrı gövde çizilen tâbi kimlikler. Toplam 14 nokta-pencere / 4 kimlik — ve koordinatör ölçümüne gör"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0023",
+   "hukum": "senin-kararin",
+   "not": "Silistre'nin boşaltılması için tahliye oku yazıldı AMA varış yeri TDV'de YOK (yalnız yıl); ok şematik ve `kesinlik:` alanı bunu söylüyor. P0074 benzer"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0024",
+   "hukum": "kosu-bekliyor",
+   "not": "🔴 SEBEP ÖLÇÜLDÜ: motor Osmanlı×yabancı ve yabancı×yabancı gövdeyi birbirinden habersiz kuruyor; değişmez yalnız d×v çiftinde (uret_petek.py:7053). Göv"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0025",
+   "hukum": "senin-kararin",
+   "not": "Kütahya kararı (3-6 May 1833): Şam+Halep eyaletleri Mehmed Ali'ye, Adana muhassıllığı İbrahim'e. Kilis·Halep·Payas·İskenderun·Erzin·Dörtyol·Yumurtalık"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0026",
+   "hukum": "kosu-bekliyor",
+   "not": "Soçi/Tuapse + Çerkes sürgünü kartı. TDV'nin 'etnik temizlik' atfı korundu; 'soykırım' kartın hükmü DEĞİL. Rusya'nın resmî tutumu okunan kaynaklarda bu"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0027",
+   "hukum": "kosu-bekliyor",
+   "not": "İki kart: klasik kurumlar (sadaret·defterdarlık·kazaskerlik·nişancılık) + Maliye Nezâreti. 🔴 TDV KENDİ İÇİNDE ÇELİŞİYOR: ceride-nezareti '28 Şub 1838'"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0028",
+   "hukum": "kosu-bekliyor",
+   "not": "Meclis-i Vâlâ kartı yazıldı; modern karşılığı ve öncesi anlatıldı. Şûrâ-yı Devlet günü TDV'de 5 ↔ 6 Mart 1868."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0029",
+   "hukum": "sirada",
+   "not": "Mısır idaresinin açık kırmızısı bir tık açılacak. `arac/renkler.py` koordinatörde; ölçüm `renk_olc.py` ile ΔE eşiğine karşı yapılacak. H-0010'un `asi`"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0030",
+   "hukum": "kosu-bekliyor",
+   "not": "Balta Limanı kartı. Yerli sanayiye etkisi TDV'de işlenmiyor. 🔴 MEVCUT KARTTA HATA ŞÜPHESİ: balta-limani kartı 'ithalatta %5 (artı %2)' diyor, TDV %3 +"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0031",
+   "hukum": "kosu-bekliyor",
+   "not": "Nizip kartı: hata üç katmanda (komuta · birleşme · siyaset), Moltke tek tanık uyarısıyla."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0032",
+   "hukum": "kosu-bekliyor",
+   "not": "Donanmanın teslimi kartı + 'Osmanlı donanmasının en büyük felaketleri' kartı. Dönmez 2016 hakemli."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0033",
+   "hukum": "sirada",
+   "not": "🔴 ÖLÇÜLDÜ: 13 deniz okunun 8'i karayı kesiyordu (405 km); 16 kayıtta toplam 546 km. Gerçek kara `ne_10m_land` ile (motor_kara DEĞİL — o çıktı) A* deni"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0034",
+   "hukum": "kosu-bekliyor",
+   "not": "Ahmed Fevzi Paşa kimdir + TARTIŞMA kartı. Hüsrev'in donanmayı Rusya'ya devretme girişimine BELGE YOK; iki taraf eşit ağırlıkta, hüküm verilmedi."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0035",
+   "hukum": "kosu-bekliyor",
+   "not": "Tanzimat kartı: maddeleri, sebep-sonuç, hukuk/edebiyat/idare/bilim/sosyal etkiler. 'Gâvura gâvur denmeyecek' anekdotu TDV'de bulunamadı, yalnız itiraz"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0036",
+   "hukum": "kosu-bekliyor",
+   "not": "Kâime / kâğıt para kartı yazıldı; dünyadaki örnekler von Glahn ve merkez bankası müzelerinden."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0037",
+   "hukum": "sirada",
+   "not": "Mısır ordusunun Suriye ve Çukurova'yı boşaltması için tahliye oku taslakta. ⚠️ Maddede `yer_id` YOK → ok animasyonu tetiklenmez; H-0021 kapsamında."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0038",
+   "hukum": "kosu-bekliyor",
+   "not": "Boğazlar Sözleşmesi kartı: kim açık kim kapalı ister, stratejik plan."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0039",
+   "hukum": "sirada",
+   "not": "🔴 SEBEP BULUNDU VE EMSALİ EMRE'NİN KENDİ ŞİKÂYETİ: C katmanı `ii-erzurum-sattularap-1847` 79.947 km²lik OPAK DİKDÖRTGEN boyuyor, 1847→1923 = 76 yıl. Ç"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0040",
+   "hukum": "kosu-bekliyor",
+   "not": "Yemen kartı. I. Dünya Savaşı sorusuna TDV'nin doğrudan cevabı bulunamadı; olgular + 'sayfanın yorumlaması' damgalı çıkarım yazıldı."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0041",
+   "hukum": "kosu-bekliyor",
+   "not": "1848 İhtilalleri kartı. Avrupa'nın genel seyri için TDV dışı ikincil özet kullanıldı ve kartta AÇIKÇA 'ikincil özet' diye işaretlendi."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0042",
+   "hukum": "kosu-bekliyor",
+   "not": "Harfûş ailesi kartı. Gücün kaynağı için TDV tek cümle veriyor; 1865 sürgün bilgisi akademik dayanağa bağlanamadı. 🔴 MEVCUT KAYIT ŞÜPHESİ: olaylar_ek2 "
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0043",
+   "hukum": "kosu-bekliyor",
+   "not": "Üç kart: Şirket-i Hayriyye öncesi Boğaz yolculuğu · Galata Köprüsü · Tünel. 🔴 İKİ TARİH TARTIŞMALI: Galata Köprüsü 1844 (bezmialem) ↔ 1845 (haliç), aç"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0044",
+   "hukum": "kosu-bekliyor",
+   "not": "Kırım Savaşı: ittifak · şehir hayatı · Nightingale · dış borçlar. Nightingale ölüm-oranı sayıları tek yerden doğrulanamadığı için YAZILMADI."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0045",
+   "hukum": "kosu-bekliyor",
+   "not": "Kırım cepheleri kartı. Yarımada muharebelerinin (Alma·Balıklava·İnkerman·Sivastopol) ayrıntısı hakemli kaynakta okunamadı (Badem 2010 bot duvarı) — ka"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0046",
+   "hukum": "kosu-bekliyor",
+   "not": "🔴 SORUNUN CEVABI 'BULUNAMADI' VE KARTIN HÜKMÜ BU: Sinop 1853 · Çeşme 1770 · Navarin 1827 · İnebahtı 1571'i tek sebebe bağlayan kaynak yok. Uydurma tez"
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0047",
+   "hukum": "kosu-bekliyor",
+   "not": "Dış borç kartı yazıldı: klasik dönemde dış borç kurumu yok, modern zaman meselesi."
+  },
+  {
+   "parti": "parti-emrelic-0075",
+   "madde": "H-0048",
+   "hukum": "senin-kararin",
+   "not": "TDV: Sisam 10 Aralık 1832'de özerk, vasal prenslik, Ortodoks prens, dış işlerde Osmanlı'ya bağlı. Atlasın `v:` günü TDV ile BİREBİR, rengi (tâbi) DOĞR"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0096",
+   "hukum": "onay-bekliyor",
+   "not": "KÖK SEBEP A — C çizim katmanı (js/app.js:1873 `hukuki-sinir-dolgu`, `fill-opacity:1`) `kapsama.kutu`yu EKSEN HİZALI OPAK DİKDÖRTGEN olarak boyuyor; di"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0147",
+   "hukum": "onay-bekliyor",
+   "not": "KÖK SEBEP A — C çizim katmanı (js/app.js:1873 `hukuki-sinir-dolgu`, `fill-opacity:1`) `kapsama.kutu`yu EKSEN HİZALI OPAK DİKDÖRTGEN olarak boyuyor; di"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0139",
+   "hukum": "onay-bekliyor",
+   "not": "KÖK SEBEP A — C çizim katmanı (js/app.js:1873 `hukuki-sinir-dolgu`, `fill-opacity:1`) `kapsama.kutu`yu EKSEN HİZALI OPAK DİKDÖRTGEN olarak boyuyor; di"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0148",
+   "hukum": "senin-kararin",
+   "not": "KÖK SEBEP A — C çizim katmanı (js/app.js:1873 `hukuki-sinir-dolgu`, `fill-opacity:1`) `kapsama.kutu`yu EKSEN HİZALI OPAK DİKDÖRTGEN olarak boyuyor; di"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0072",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP B — GÖVDE ÇAKIŞMASI. Hadramut penceresinde (41–60E · 8–24N, 1884-01-01, 0.1° ızgara) boyalı 10768 hücrenin 314'ü (%2.92) İKİ gövde tarafında"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0073",
+   "hukum": "sirada",
+   "not": "H-0072 ile AYNI kök sebep, aynı gün (1884-01-01), aynı iki gövde (`kesiri-sultanligi` ve `kuayti-sultanligi`). \"Deniz tarafından yutulmuş gibi\" tarifi"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0069",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP B — GÖVDE ÇAKIŞMASI, Emre'nin tarifinin birebir karşılığı (\"ne üst üste binmeli ne de arada boşluk kalmalı\"). ÖLÇÜM (21.4–25.5E · 41.9–44.6N"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0075",
+   "hukum": "kosu-bekliyor",
+   "not": "KÖK SEBEP C — PETEK KENARINDA SİVRİ KÖŞE. Emre'nin sorusuna doğrudan cevap (\"motor hesaplaması mı, sürtünmeli yürüyüş hesaplaması mı?\"): İKİSİ DE DEĞİ"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0022",
+   "hukum": "kosu-bekliyor",
+   "not": "KÖK SEBEP C. ÖLÇÜM (1871-01-01, 40.46–45.05E · 18.27–21.14N): `osmanli` gövdesinde iç açı 3.7°, kenar 0.161° (~18 km), 44.731E 20.733N. 3.7°'lik bir k"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0071",
+   "hukum": "kosu-bekliyor",
+   "not": "KÖK SEBEP C. ÖLÇÜM (1884-01-01, 41.68–46.90E · 18.72–21.27N): `vassal` gövdesinde iç açı 3.2°, kenar 0.179°, 45.257E 20.926N. H-0022 ile aynı bölge ve"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0093",
+   "hukum": "kosu-bekliyor",
+   "not": "KÖK SEBEP C'nin küçük ölçekli hâli — \"ince kırmızı şerit\". ÖLÇÜM (1897-05-17, 23.0–23.6E · 39.0–39.65N): `osmanli` 27.8° @ 23.299E 39.259N ve `yunanis"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0023",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D — YERLEŞİM SAHİPLİK PENCERESİ. ÖLÇÜM (1871-04-20, Katar yarımadası 49.60–52.15E · 23.48–26.71N): pencerede YALNIZ 5 nokta var. `Doha (Kata"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0038",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D. ÖLÇÜM (1878-01-04, 21.55–30.33E · 42.06–47.79N, 58 nokta) Emre'nin DÖRT şıkkının dördünü de doğruluyor: ① `Eflak` (11 nokta) ve `Boğdan` "
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0064",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D. ÖLÇÜM (1882-09-13, 24–34E · 22–31.5N, 54 nokta): 51 nokta tâbi (Mısır), `Cağbûb` TEK BAŞINA OSMANLI DOĞRUDAN → Emre'nin gördüğü \"ufak tef"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0065",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D — ve Emre'nin sorusunun ölçülmüş cevabı. ÖLÇÜM (1883-01-19, 22.52–25.24E · 12.07–14.09N): pencerede YALNIZ 4 nokta. `Darfur` noktası kendi"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0068",
+   "hukum": "olculecek",
+   "not": "KÖK SEBEP D. ÖLÇÜM (1883-12-23, 22.90–29.99E · 11.44–14.39N, 17 nokta): 15 nokta `mehdi`, `Darfur` hâlâ `darfur`, `Nühûd` hâlâ `tâbi:misir-kavalali`. "
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0095",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D — ve Emre haklı. ÖLÇÜM (1899-11-27, 14.95–18.16E · 44.68–45.78N, 12 nokta): ALTI nokta 1899'da HÂLÂ OSMANLI DOĞRUDAN — `Banaluka` · `Bihaç"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0121",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D. ÖLÇÜM (1911-10-08, 32.87–35.32E · 27.83–29.86N): BÜTÜN SİNA YARIMADASI İKİ NOKTADAN boyanıyor — `Tûr (Sînâ)` ve `Sina güneyi` — ve İKİSİN"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0136",
+   "hukum": "sirada",
+   "not": "KÖK SEBEP D (+ B'den ikincil belirti). ÖLÇÜM (1913-03-06, 27.06–27.91E · 40.64–41.35N): pencerede İKİ nokta — `Çorlu` OSMANLI, `Tekirdağ` = `bulgarist"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0070",
+   "hukum": "olculecek",
+   "not": "OLCULDU, HARITA YANLIS DEGIL. s: kirilmalari bati->dogu siralandi: Kordofan lon29.5 -> mehdi 1882-09-07 | TOKAR lon37.7 -> mehdi 1884-01-01 enklav:tru"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0081",
+   "hukum": "senin-kararin",
+   "not": "EMRE'NIN SAYDIGI UC YERIN UCU DE HARITADA VAR -- eksik olan BASKA uc sancak merkezi. 🔴 ONCE BIR DUZELTME: ilk olcumumde \"Eski Zagra yerlesim noktasi Y"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0082",
+   "hukum": "kosu-bekliyor",
+   "not": "IKI AYRI EKSIK OLCULDU. (1) NOKTA: Emre'nin \"bu maddenin haritada noktasi yok, koyalim\" dedigi yer RAS ECDIR'dir (1886 duzenlemesinin konusu olan Akde"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0087",
+   "hukum": "kosu-bekliyor",
+   "not": "OLCULDU: EMRE HAKLI, D KATEGORISI BIR SINIR TARIF EDILIYOR AMA HARITADA YOK. \"Bu anlasmada belirlenen koordinatlar haritada karsilik buluyor mu ve gos"
+  },
+  {
+   "parti": "parti-emrelic-0076",
+   "madde": "H-0103",
+   "hukum": "kosu-bekliyor",
+   "not": "EMRE'NIN TAHMINI DOGRU CIKTI, HAT ZATEN CIZILI -- eksik olan NOKTALAR. \"Bu madde de Misir'in D kategori sinirini tarif ediyor saniyorum\" -> EVET. OLCU"
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0002",
+   "hukum": "kosu-bekliyor",
+   "not": "7/10 gün ufuk bantları: mekanizma 21 Eylül'de motorda, koşu 16 bayraksız koştu. Koşu 17 MOTOR_UFUK_BANT=40,56,80 ile başlatıldı (GECE-0928); data/ufuk"
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0006",
+   "hukum": "sirada",
+   "not": "Şehzade Halil iki kartı yazıldı (ekokuma_p77a.js, yükleyicide); yayın inince görünür. Madde t:1357-08-01 sahte kesinlik şüphesi bildirildi."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0008",
+   "hukum": "senin-kararin",
+   "not": "Uzunköprü 1443'te kuruldu; kur: yazılınca Değişmez 5a ihlali, geri alındı. Kural kararı: 5a istisnası mı, motor devri mi — koordinatör/Emre."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0009",
+   "hukum": "kosu-bekliyor",
+   "not": "Üsküdar'ın Avrupa yakasındaki 13,6 km² parçası 200 km² tabanı yüzünden ızgaraya sorulmuyor. Yama (sudan geçen adım yasağı) 55dfa2b5 ile İNDİ; etkisi t"
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0010",
+   "hukum": "kosu-bekliyor",
+   "not": "Aynı parça: 1453 öncesi Beşiktaş kıyısı Osmanlı boyanıyor. Yama 55dfa2b5 indi, koşu çıktısını bekliyor."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0011",
+   "hukum": "senin-kararin",
+   "not": "Gümülcine: TDV kendi içinde üç tarih (1361/1363/1371) — seçim koordinatörün. Dedeağaç kaynak bulunamadı, Örmen noktasız."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0014",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok; GECE-0928-DURUM ④ 'aynı gün iki kırılma — hüküm (i), not yazılacak (olaylar_p0055.js)' diye koordinatörde duran kalem sayıyo"
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0017",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok (PAKET-0080-BOLUSUM D sınıfı, ARAYUZ-0077'ye atanmıştı) — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0019",
+   "hukum": "olculecek",
+   "not": "Tüm eksklav/enklav taraması: 725'lik kova; KORIDOR-0081 bilerek açmadı (önce ölçüt), PAKET-0080-BOLUSUM ⑥ tek mesajla verilmeyecek diyor — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0020",
+   "hukum": "kosu-bekliyor",
+   "not": "Tiflis'in kuzey üçgeni: 5 günlük yürüyüş koşu 16'da KAPALIYDI; sebep noktasızlık (Tiflis·Zagem·Vladikavkaz). Çare veri: Kartli-Kaheti noktaları (KAFKA"
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0021",
+   "hukum": "kosu-bekliyor",
+   "not": "= H-0002: ek koşu gerekmez, tek koşu üç bandı üretir; data/ufuk_bantlari.js bugün diskte YOK."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0022",
+   "hukum": "sirada",
+   "not": "Tahrir defterleri kartı diskte (ekokuma_p80b). Sonradan 3147afce 'ekokuma_p80b yükleyiciye bağlandı' (GECE-0928) — cozuldu'ya çevrilmesi koordinatörün"
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0023",
+   "hukum": "sirada",
+   "not": "Tımar sistemi kartı ekokuma_p77c.js'e eklendi, yükleyicide bağlı; yayın koordinatörde."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0024",
+   "hukum": "senin-kararin",
+   "not": "Şehirköy 1443-01-01 yıl kodu haçlıyı 10 ay önce Pirot'a koyuyor; Kasım'a çekmek zincirleme devralmaya takılıyor — koordinatör hükmü. Güzergâh: Morava "
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0026",
+   "hukum": "sirada",
+   "not": "Saray ovası kartı yazıldı. Harita yüzü koordinatörde: ada DOĞRU, çevresindeki Bosna ve Sırp Despotluğu v: (tâbi) eksik."
+  },
+  {
+   "parti": "parti-emrelic-0080",
+   "madde": "H-0027",
+   "hukum": "sirada",
+   "not": "Derin pencere (alt_kronoloji) genişler; eksik dört şey ölçüldü (büyüme animasyonu, kısmî panel …). app.js + veri, koşu istemez."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0001",
+   "hukum": "kosu-bekliyor",
+   "not": "Kök kimliksizlik: Kaheti'ye boya yok (kaheti-kralligi künyesi var, renkler.py'de yok). Çare künye + BOYA (tuz, tam inşa diff'i) + Gori/Telavi/Duşeti n"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0003",
+   "hukum": "kosu-bekliyor",
+   "not": "Kars·Sarıkamış akkoyunlu →1514 kaynaksız; TDV kars 907/1501 ⇒ safevi 1502-01-01. Ardahan kolu (--ardahan) senin kararın. uygulayıcı SAFEVI-DOGU-0081-u"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0004",
+   "hukum": "kosu-bekliyor",
+   "not": "Şiraz/Kirman/Yezd/Zencan/Hemedan/Kirmanşah akkoyunlu →1508-1510 kaynaksız; TDV 1503 (Yezd 1504-12-06). uygulayıcı SAFEVI-DOGU-0081-uygula.py hazır (61"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0006",
+   "hukum": "kosu-bekliyor",
+   "not": "Ek okuma ZATEN VAR; asıl hata maddenin kaynağı: TDV vehran 17 Mayıs 1509'u doğruluyor, madde 'bulunamadı' + Vikipedi benzeri kaynak yazıyor. uygulayıc"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0007",
+   "hukum": "sirada",
+   "not": "Hint Okyanusu siyaseti kartı yazıldı (denetim/DUNYA-KRONO-0081-ekokuma_hint0081.js); data/ + app.js yükleyici satırı uygulayıcıda."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0008",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok; GECE-0928-DURUM ④ koordinatörde duran kalem diyor — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0009",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok; GECE-0928-DURUM ④ koordinatörde duran kalem diyor — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0010",
+   "hukum": "kosu-bekliyor",
+   "not": "= H-0003: künye doğru, kusur üç noktanın s: dönemi. uygulayıcı SAFEVI-DOGU-0081-uygula.py hazır (6165543d), veri İNMEDİ."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0011",
+   "hukum": "senin-kararin",
+   "not": "Siirt d: 1514-09-06 kaynaksız (Tebriz günü) ⇒ ada. ⓐ bırak + kendi maddesi · ⓑ Bitlis ile birlikte — ikisi de gün uydurmadan olmaz."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0012",
+   "hukum": "kosu-bekliyor",
+   "not": "Madde t:1515-01-01 hicrî 921 dışında; TDV nusaybin '921 sonları' ⇒ t 1515-09-19. uygulayıcı SAFEVI-DOGU-0081-uygula.py hazır (6165543d), veri İNMEDİ."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0014",
+   "hukum": "kosu-bekliyor",
+   "not": "Diyarbakır 19 Eylül 1515, Harput 26 Mart 1516 (TDV) U; Erzurum 1518 doğru; Palu/Çemişgezek bulunamadı; madde yer: metni senin kararın. uygulayıcı SAFE"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0015",
+   "hukum": "kosu-bekliyor",
+   "not": "Koçhisar Urfa/Harput'u alıyor; TDV sırası: Urfa 1517-05-01. uygulayıcı SAFEVI-DOGU-0081-uygula.py hazır (6165543d), veri İNMEDİ."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0018",
+   "hukum": "kosu-bekliyor",
+   "not": "Koçhisar maddesi başlığı/cümlesi düzeltildi, yeni madde 1517-05-01 Mardin Kalesi'nin teslimi. uygulayıcı SAFEVI-DOGU-0081-uygula.py hazır (6165543d), "
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0020",
+   "hukum": "senin-kararin",
+   "not": "Ridaniye gününde haritada 0 değişim; kol --kahire: Kahire·Süveyş 1517-01-23 (TDV ridaniye-savasi 'ertesi günü'). Öneri AÇ."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0021",
+   "hukum": "senin-kararin",
+   "not": "Doğubayazıt 1514-1534 adası: süreklilik bulunamadı; Erzurum-Doğubayazıt arası 240 km noktasız. Raporun ⑤ listesinde K kalemi."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0022",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok; GECE-0928-DURUM ④ koordinatörde duran kalem diyor — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0023",
+   "hukum": "senin-kararin",
+   "not": "Tulmeyse 1517 eksklavı: TDV berka 1517 ↔ TDV bingazi 1551. Taraf seçilmedi; öneri Tulmeyse 1551-08-15'e (Merc ile)."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0024",
+   "hukum": "sirada",
+   "not": "Katar 'yarım': NOKTA-ORTADOGU-0077 H-0029 zinciri bekliyor, kapatılmadı. 1521 için sahip bulunamadı."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0026",
+   "hukum": "kosu-bekliyor",
+   "not": "Mohaç GÜNÜ tâbilik/Habsburg geçişi: künye + 54 s:avusturya + 10 Szapolyai v: kaydı düzeltmesi. uygulayıcı BALKAN-MACAR-0081-uygula.py hazır (c27ea3ae)"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0027",
+   "hukum": "kosu-bekliyor",
+   "not": "Gospić d: başı 1527-01-01 yıl damgası Cetin günüyle çakışıyor ⇒ 1527-05-01; Kvarner kıyısı noktasız (nokta şart). uygulayıcı BALKAN-MACAR-0081-uygula."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0028",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok; GECE-0928-DURUM ④ koordinatörde duran kalem diyor — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0029",
+   "hukum": "kosu-bekliyor",
+   "not": "Budin doğru, çevresi yanlış: macaristan künyesi 19 kayıtta 1527-1566'ya uzuyor; Estergon/Segedin/Peçuy düzeltildi, ~12 kayıt bulunamadı. uygulayıcı BA"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0030",
+   "hukum": "kosu-bekliyor",
+   "not": "Arpaçay·Digor·Iğdır·Beri·Küçükperveli d: 1534-01-01 = yıl kodu ⇒ 1534-06-01 (madde üçünü adıyla sayıyor). uygulayıcı SAFEVI-DOGU-0081-uygula.py hazır "
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0031",
+   "hukum": "kosu-bekliyor",
+   "not": "Koyu görünen Halepçe (Bağdat günü, kaynaksız) ⇒ 1535-01-01 Şehrizor ile (TDV sehrizor). Kasr-ı Şîrîn doğru. uygulayıcı SAFEVI-DOGU-0081-uygula.py hazı"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0032",
+   "hukum": "olculecek",
+   "not": "Hiçbir raporda hüküm yok; GECE-0928-DURUM ④ koordinatörde duran kalem diyor — ölçülmedi."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0035",
+   "hukum": "kosu-bekliyor",
+   "not": "Şehrizor/Halepçe 1550 kaybı veride doğru, maddesi YOK (Değişmez 2 yanlış temizi); uygulayıcı A madde ekliyor. uygulayıcı KAFKAS-KORFEZ-0081-uygula.py "
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0038",
+   "hukum": "kosu-bekliyor",
+   "not": "Amasya 1555: Güryel kıyısı (Batum, Murvaneti) tâbi olmalı; uygulayıcı C --guryel, Batum bölgeden şehre ⇒ senin kararın. uygulayıcı KAFKAS-KORFEZ-0081-"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0039",
+   "hukum": "kosu-bekliyor",
+   "not": "Mersiye maddesi ölümden 6 gün önce sıralanıyor (Eylül ayın 1'ine kodlanmış) ⇒ t 1566-09-07 + gs. uygulayıcı DUNYA-KRONO-0081-uygula.py hazır (c7eae8db"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0040",
+   "hukum": "kosu-bekliyor",
+   "not": "Gyula 1566-09-02 kırılması Zigetvar maddesine yapışık; yeni madde (Bánlaky). uygulayıcı DUNYA-KRONO-0081-uygula.py hazır (c7eae8db), veri İNMEDİ."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0042",
+   "hukum": "sirada",
+   "not": "Don/Zaporojye kartı zaten bağlı; 'Ukraynalılar' kartı yazıldı (denetim/KAFKAS-KORFEZ-0081-ekokuma.js), ekokuma_karadeniz.js'e eklenecek."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0043",
+   "hukum": "kosu-bekliyor",
+   "not": "Bozkır (Deşt-i Kıpçak) 1570'ten don-kazak olmalı (uygulayıcı B --don; Emre kararı D'yi değiştirir, bayrakla). uygulayıcı KAFKAS-KORFEZ-0081-uygula.py "
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0044",
+   "hukum": "senin-kararin",
+   "not": "Dünya olayları 48/50 veride ama kuyrukta. (A) kopyala (önerilmiyor) · (B) 'Dünyada' satırı olarak bağla (öneri) — 8. boyut/kapsam kararı."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0045",
+   "hukum": "kosu-bekliyor",
+   "not": "Kliçatak·Norapat dönemleri Gümrü/Eçmiyadzin'den kopya, Osmanlı pencereleri düşmüş; Emre kararıyla iki pencere. uygulayıcı SAFEVI-DOGU-0081-uygula.py h"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0046",
+   "hukum": "senin-kararin",
+   "not": "Ferhad Paşa 1590: Sakkız/Bâne/Merîvan/Serdeşt/Kasr-ı Şîrîn. ① bölge cümlesi yeterli say · ② Iranica/Kütükoğlu oku (öneri ②). Uygulayıcıya konmadı."
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0050",
+   "hukum": "kosu-bekliyor",
+   "not": "1603'ün üç maddesi 1603-01-01 yıl koduna yığılmış: Deli Hasan 1603-03-01, Yeni Cami 1603-12-20. III. Mehmed vefatı TDV 20 / atlas 22 Aralık. uygulayıc"
+  },
+  {
+   "parti": "parti-emrelic-0081",
+   "madde": "H-0051",
+   "hukum": "senin-kararin",
+   "not": "Tiflis d: →1606 kaynaksız, TDV 1603; bitiş günü seçimi koordinatörün (Tebriz 1603-10-21 adayı). Gence doğru."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0001",
+   "hukum": "kosu-bekliyor",
+   "not": "Erbil'in dönüşü Bağdat'tan 1 gün geç (12-25 ↔ 12-24); öneri Erbil safevi t: ve d: başı 1638-12-24. Koşu gerekir. Ek: Erbil 1625-1638 Safevî dönemi kay"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0003",
+   "hukum": "senin-kararin",
+   "not": "Kutsal İttifak verisi hazır (data/ittifaklar.js), çizim yok. (a) tek seferlik animasyon (öneri) · (b) 1684-1699 kalıcı katman. 5 Mart günü kaynaksız ("
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0004",
+   "hukum": "senin-kararin",
+   "not": "Çizgi Karlofça Bosna-Sava hukukî sınırı (anlamı doğru) ama iki uçtan düz kiriş + 1699-1918 açık. (1) hattı kaldır · (2) Sava geometrisine oturt · (3) "
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0008",
+   "hukum": "kosu-bekliyor",
+   "not": "Kliçatak·Norapat deliği gerçek; karar 0081'de verildi (SAFEVI-DOGU-0081 H-0045), uygulayıcı 6165543d hazır, veri İNMEDİ."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0010",
+   "hukum": "kosu-bekliyor",
+   "not": "Karma: Kliçatak·Norapat ▷ (0081 uygulayıcısı) · Kotur ◔ · Şeyh Salû ve Rāzhān senin kararın · Serdeşt ◔."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0011",
+   "hukum": "senin-kararin",
+   "not": "Kuba·Şâbüran 1725: Ⓐ Kuba tâbi + Şâbüran Rus · Ⓑ ikisi tâbi · Ⓒ bırak. Öneri yok (bölgeden şehre taşıma)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0012",
+   "hukum": "kosu-bekliyor",
+   "not": "Urmiye'nin 1731 geri alınışı yok: Urmiye d: 1731-11-15→1732-01-08 (TDV hekimoglu-ali-pasa 'önce Rûmiye'; gün üst sınır)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0014",
+   "hukum": "kosu-bekliyor",
+   "not": "Don-İdil'deki Kırım 'enklavı' tek k0 dolgu noktasının peteği; 1736'da orası Don Kazak/Kalmuk bölgesi. Gün kaynağı bulunamadı; noktayı taşımak ayrıca s"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0015",
+   "hukum": "kosu-bekliyor",
+   "not": "Azak 1736 düşüşü yok: öneri isg:rusya 1736-07-13→1739-09-18 + yer_id. Ek: kronoloji_kirim.js:385 'geri alındı' başlığı TDV'ye ters."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0016",
+   "hukum": "kosu-bekliyor",
+   "not": "Özi 1737: s: yerine isg:rusya olmalı; bitiş TDV'ye göre 1739 (veri 1738-08-01, ay uydurma)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0017",
+   "hukum": "sirada",
+   "not": "Kamera Viyana'ya dalıyor: odak_yer kaldırılıp odak_kimlik/cephe kutusu konmalı. Rapor: 'yalnız kronoloji dosyasında, koşu istemez'."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0018",
+   "hukum": "sirada",
+   "not": "Niş'in düşüşünün (07-27) ayrı maddesi yok — ayrı madde önerildi; gün kaynağı bulunamadı (TDV nis yalnız Temmuz 1737). Yalnız kronoloji maddesi."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0019",
+   "hukum": "kosu-bekliyor",
+   "not": "= H-0016 kaydı; görünmezliğin sebebi noktasızlık (Kılburun/Yedisan noktası önerildi)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0020",
+   "hukum": "kosu-bekliyor",
+   "not": "1739-12-12 aynı enklav = H-0014."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0021",
+   "hukum": "kosu-bekliyor",
+   "not": "Yelisavetgrad: Osmanlı BOLGELER çokgeni yabancı gövdeye taşıyor (8b sınıfı) + Yeni Sırbistan noktasız (Novomirgorod önerildi)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0022",
+   "hukum": "kosu-bekliyor",
+   "not": "Çehrin 'araya girme' görüntüsü H-0021 noktasızlığından; Novomirgorod noktası, koşu sonrası yeniden bakılmalı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0024",
+   "hukum": "kosu-bekliyor",
+   "not": "Yedisan'daki ince kırmızı şerit Özi/Kızıkermen peteği ya da BOLGELER dili (8a/8b); Yedisan noktaları önerildi."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0026",
+   "hukum": "kosu-bekliyor",
+   "not": "Arabat'ın noktası yok (maddenin baş öznesi boyanamıyor); Kerç/Yenikale/Taman 07-12 gününün kaynağı okunamadı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0027",
+   "hukum": "kosu-bekliyor",
+   "not": "Çoklu teyit: Deşt-i Kıpçak = H-0014 (✗). Alt sorular: Zaporojye statüsü senin kararın; Çehrin ◔; Yelisavetgrad ▷; Hotin güzergâhı ✔; Kızıkermen ◔; Cam"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0028",
+   "hukum": "kosu-bekliyor",
+   "not": "YENİ SINIF: 0,05° sahiplik ızgarasının basamak kenarları gövde sınırı olarak çiziliyor (Özi 1774). Motor kalemi, tam inşa koşusu ister."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0029",
+   "hukum": "kosu-bekliyor",
+   "not": "Kaynarca sonrası Kırım güney kıyısı 7 nokta OSM+isg kalıyor; 1774-07-21'den s:kirim olmalı, isg bitmeli (TDV kirim, kefe)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0031",
+   "hukum": "sirada",
+   "not": "Rumyantsev'in 1788 Mogilev geçişi okla yok: yeni sefer kaydı. Sefer dosyaları motor girdisi değil (girdi.GIRDI_DOSYALARI yalnız yerleşim) ⇒ koşu istem"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0032",
+   "hukum": "kosu-bekliyor",
+   "not": "Özi 1788-12-17→1792-01-09 isg:rusya olmalı (Yaş'a kadar hukuken Osmanlı) + noktasızlık (Kılburun)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0033",
+   "hukum": "kosu-bekliyor",
+   "not": "1788-1792 Boğdan işgali veride yok (TDV yas-antlasmasi); isg eklenmeli, gün kaynağı bulunamadı — ayrı paket önerisi."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0034",
+   "hukum": "kosu-bekliyor",
+   "not": "Küçük Eflak'ın Avusturya işgali eksik (TDV zistovi); isg:avusturya, gün bulunamadı. Coburg güzergâhı TDV'de yok."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0035",
+   "hukum": "kosu-bekliyor",
+   "not": "Bender doğru; Hacıbey isg:rusya 1789→1792 eksik (gün bulunamadı), öteki eksikler H-0032/33/38'de."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0036",
+   "hukum": "kosu-bekliyor",
+   "not": "Eski Orsova 1790-04-16→1791-08-04 isg:avusturya olmalı, sonra s:avusturya (TDV zistovi-antlasmasi)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0037",
+   "hukum": "kosu-bekliyor",
+   "not": "= H-0032 (Özi 1788, ikinci bildirim)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0038",
+   "hukum": "senin-kararin",
+   "not": "Akkirman 1789 işgali veride yok, TDV yalnız yıl. (a) isg 1789-01-01→1792 · (b) gün kaynağı bulunana dek yazma (öneri b)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0039",
+   "hukum": "kosu-bekliyor",
+   "not": "Kalas 1789: kuzeydeki Boğdan işgalde olmalı — H-0033 kökü."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0040",
+   "hukum": "kosu-bekliyor",
+   "not": "Fokşani 1789: kuzeyi işgalsiz — H-0033 kökü."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0041",
+   "hukum": "kosu-bekliyor",
+   "not": "Boğdan kırmızı görünüyor — H-0033 kökü."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0042",
+   "hukum": "kosu-bekliyor",
+   "not": "Rimnik 1789: kuzey kırmızı — H-0033 kökü."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0043",
+   "hukum": "senin-kararin",
+   "not": "İsmail 1789 'teslim' maddesi kırılmasız, TDV ismail zaptı kaydetmiyor (TDV içi çelişki). (a) madde kalsın + çelişki metne (öneri) · (b) kaldır · (c) A"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0044",
+   "hukum": "sirada",
+   "not": "Potemkin'in ölümünde kamera Yaş'a iniyor: odak_kimlik:bogdan ya da kutu. Rapor: 'Koşu istemez; odak_olc kapısı'."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0046",
+   "hukum": "kosu-bekliyor",
+   "not": "Kısmî: Vorderösterreich eksik — Konstanz ve Freiburg 1793'te Habsburg (1805-12-26 Pressburg ile Baden'e). Öneri iki noktaya s: avusturya →1805-12-26."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0048",
+   "hukum": "kosu-bekliyor",
+   "not": "Kısmî: Venedik'in kuzey dili (Gail vadisi) ve Görz-Gradisca taşması; noktasızlık. Öneri Görz, Gradisca, Tarvisio, Villach, Belluno, Feltre, Cortina no"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0049",
+   "hukum": "kosu-bekliyor",
+   "not": "Kısmî: Valtellina/Chiavenna 1793'te Graubünden tâbi toprağı, Bergamo peteğine emiliyor. Öneri Sondrio, Chiavenna, Chur, Lugano, Bellinzona, Locarno no"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0050",
+   "hukum": "kosu-bekliyor",
+   "not": "Savoya (27 Kas 1792) + Nice (31 Oca 1793) Fransa'ya ilhak edilmişti; atlas hâlâ Sardinya. Öneri fransa-cumhuriyet 1792/93→1814-05-30 pencereleri; günl"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0052",
+   "hukum": "kosu-bekliyor",
+   "not": "Etiket: 1598 sonrası 'Modena ve Reggio Dükalığı (Este)' olmalı (renkler.py = motor tuzu, tam inşa). Parma gövdesi doğru ama Piacenza/Guastalla noktası"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0053",
+   "hukum": "kosu-bekliyor",
+   "not": "Kısmî: Lucca Cumhuriyeti yok (yeni künye + nokta), Massa-Carrara ve Stato dei Presidi emiliyor, Elba/Piombino künye aşımı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0056",
+   "hukum": "kosu-bekliyor",
+   "not": "Dürrânî 1794 çapraz şerit: 0° iğne, sebep Hazârecât noktasızlığı. Kaynaklı nokta gerekir (koordinat+kaynak bulunamadı)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0057",
+   "hukum": "senin-kararin",
+   "not": "Üstyurt/Karakum boşluğu kasıtlı çöl beyanı. (1) çöl kalsın · (2) göçebe Türkmen otlağı boyansın (4-5 s: + koşu)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0058",
+   "hukum": "kosu-bekliyor",
+   "not": "Asyut işgal günü 1798-12-25 (Juillet); Nil vadisi noktalarında isg: yok. Kaynaklı günler tabloda; 11 kasabanın günü bulunamadı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0059",
+   "hukum": "kosu-bekliyor",
+   "not": "1799-05-20'de iç Delta 16 noktada isg: yok; Bilbîs/Sâlihiyye kaynaklı, 14'ü için komşu günü seçeneği (öneri 🅐)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0060",
+   "hukum": "kosu-bekliyor",
+   "not": "= H-0058 kusuru (Kahire-Asyut arası)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0061",
+   "hukum": "kosu-bekliyor",
+   "not": "1801'de Reşîd (19 Nisan), Dimyat (≤27 Haziran), Asyut (27 Haziran, komşu günü) bitişleri; Reşîd günü NAPO-3 gövdesinden okunmalı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0062",
+   "hukum": "kosu-bekliyor",
+   "not": "Mljet 1410'dan Dubrovnik (LZMK) — zinciri Dubrovnik'i izlemeli. Ek soru senin kararın: Dalmaçya'nın kimliği 🅐 italya-napolyon (öneri) · 🅑 bırak; anakr"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0063",
+   "hukum": "senin-kararin",
+   "not": "1806 işgalleri: (a) her kırılmaya ayrı madde (Değişmez 2 zorunlu kılıyor, öneri) · (b) tek özet madde."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0064",
+   "hukum": "senin-kararin",
+   "not": "= H-0063 kararı; özet madde ayrı maddeleri silmeden EK olarak eklenebilir."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0065",
+   "hukum": "sirada",
+   "not": "Duckworth oku Gelibolu yarımadasını kesiyor (22,2 km karada); düzeltilmiş rota hazır (0,0 km). Yalnız seferler_p0071.js rota alanı; rapor: petek koşus"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0066",
+   "hukum": "sirada",
+   "not": "Alemdar yürüyüşü iki kayıtta: savaslar.js düz hattı kalksın, Sağ Kol oku kalsın; f:1808-07-01 §4 ihlali. Rusçuk kolu için ayrıca senin kararın (öneri "
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0069",
+   "hukum": "sirada",
+   "not": "Kahul-İsmail taramasız şerit: işgal örtüsü zamansız petekten kuruluyor (Bolgrad kur 1821). Düzeltme üretici arac/uret_devirler.py + onun koşusu; rapor"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0070",
+   "hukum": "senin-kararin",
+   "not": "Karadeniz kuzeyi 1281-1923 baştan sona denetim bir program: (a) ayrı derin paket (öneri) · (b) bu paketin ONERI'siyle yetin."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0071",
+   "hukum": "sirada",
+   "not": "Tosun Paşa: başlık yanlış (Yenbu'ya çıkış Ekim 1811), mükerrer ok, güzergâh iki ok olmalı (Burckhardt). Kronoloji + sefer kayıtları, motor girdisi değ"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0072",
+   "hukum": "kosu-bekliyor",
+   "not": "Prut çizgisi doğru, boya yanlış: Kişinev/Belz/Leova/Ungheni noktasız. Koşu ister."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0073",
+   "hukum": "kosu-bekliyor",
+   "not": "Hâil 1779-1818 Suûdî olmalı; 1836→1835 düzeltmesi; Nefud dolgu noktası Hâil zincirini izlemeli (TDV residiler). Ek okuma isteği koordinatöre sevk."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0074",
+   "hukum": "kosu-bekliyor",
+   "not": "1824 boşluğu: Rub'ül-Hâlî gerçekten boş (doğru); Vâdi'd-Devâsir/Bîşe/Necrân noktasız; Doha 1670-1871 sahipsiz delik."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0075",
+   "hukum": "kosu-bekliyor",
+   "not": "Culfa 1828-02-22'den rusya olmalı; Lenkeran 1813'te Rusya'ya geçti (gün senin kararın, öneri 1813-10-24); madde başlığı 'Talış'ın geçişi' TDV'ye ters;"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0076",
+   "hukum": "sirada",
+   "not": "1828 Prut geçişi okla yok: yeni sefer kaydı. Sefer dosyaları motor girdisi değil ⇒ koşu istemez."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0077",
+   "hukum": "kosu-bekliyor",
+   "not": "İbrail ve Yergöğü 1829'dan s:eflak (bağımsız yeşil) — v kid:eflak + isg:rusya →1834 olmalı; Kule noktası yok. Koşu ister."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0079",
+   "hukum": "kosu-bekliyor",
+   "not": "Anakronik etiket 'Kutsal Roma' (1806'da ilga; 1815-1866 Alman Konfederasyonu, renkler.py) + Prusya Ren/Vestfalya yok: 8 nokta prusya 1815-06-09→1871-0"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0082",
+   "hukum": "kosu-bekliyor",
+   "not": "Kısmî: Prusya'nın batı yarısı yok (= H-0079) + 'Danimarka-Norveç' etiketi 1814 sonrası 'Danimarka' olmalı (renkler.py)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0083",
+   "hukum": "kosu-bekliyor",
+   "not": "Kraków Serbest Şehri ~11-12× büyük (Galiçya noktasızlığı; 12 nokta önerildi) + 1809-1815 Varşova Dükalığı dönemi eksik. Başlangıç/bitiş günleri kaynak"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0084",
+   "hukum": "senin-kararin",
+   "not": "Harita teyidi değil ek okuma isteği: Lehistan'ın çöküşü kartı yazılsın mı? Öneri evet (TDV + iki akademik kaynak, tarafsız dil)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0089",
+   "hukum": "kosu-bekliyor",
+   "not": "Tilimsan ve Medea/Miliana/Blida/Şerşel 1830-07-05'ten Fransız yazılmış; TDV yalnız Cezayir şehrini tarihliyor. Tilimsan zinciri önerildi; dört şehir i"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0090",
+   "hukum": "kosu-bekliyor",
+   "not": "Özerk Sırbistan Belgrad·Semendire·Şabac'ı İÇERİR (TDV sirbistan); atlas gövdesi 37 km güneyde bitiyor — noktasızlık + kale/şehir aynı nokta. Düzeltme "
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0091",
+   "hukum": "senin-kararin",
+   "not": "Doğrudan idarenin koyu hattı VAR ama 1,8 px sabit. (a) zoomla kalınlaştır (öneri) · (b) + daha koyu renk · (c) dokunma. Yalnız app.js, koşu yok."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0092",
+   "hukum": "kosu-bekliyor",
+   "not": "Birinci Mısır krizi: Hama ve Trablusşam günleri yanlış, Şam 16 Haziran, Halep 15 Temmuz 1832 (TDV); Maraş/Urfa parti-0075 hükümleri uygulanmamış."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0093",
+   "hukum": "kosu-bekliyor",
+   "not": "Iğdır ve Beri Revan'a bağlı: 1604 sonrası Safevî/İran, 1828-1917 Rus (TDV igdir--sehir). ⚠️ SAFEVI-DOGU-0081-uygula.py ile SIRALI uygulanmalı, yoksa e"
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0094",
+   "hukum": "kosu-bekliyor",
+   "not": "Kök = H-0093: Iğdır 1833'te gerçekten Rusya'daydı, veri Osmanlı yazıyor."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0095",
+   "hukum": "kosu-bekliyor",
+   "not": "Iğdır ✗ (= H-0093), Hulo ✔. Bordo çizginin E hattından sapması 8a sınıfı, koşu sonrası ölçülür."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0096",
+   "hukum": "senin-kararin",
+   "not": "Kütahya-Konya-Adana bağlantısı: 🅐 kaynaklı koridor noktaları (öneri) · 🅑 ayrı 'ordu etki koridoru' katmanı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0097",
+   "hukum": "kosu-bekliyor",
+   "not": "= H-0077 (1836)."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0098",
+   "hukum": "kosu-bekliyor",
+   "not": "1838'de Dûmetülcendel Şammar'da değildi, Teymâ 1830'dan Rummân emirleri (TDV). Teymâ için ek karar: 🅐 yeni künye · 🅑 __BOSLUK__."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0099",
+   "hukum": "sirada",
+   "not": "Tashîh-i sikke maddesine bağlı kart 0; TDV kurus/mecidiye/sikke okundu, kart taslağı raporda."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0100",
+   "hukum": "kosu-bekliyor",
+   "not": "Asîr 1871 sivri köşe = H-0022 (Kova C, Voronoi kenarı, nokta seyrekliği). Doğu Asîr'e kaynaklı nokta bulunamadı."
+  },
+  {
+   "parti": "parti-emrelic-0082",
+   "madde": "H-0101",
+   "hukum": "kosu-bekliyor",
+   "not": "Katar 1871: Doha ve iç dolgu o gün sahipsiz; iç dolgu Doha zincirini izlesin + Zübâre noktası + Doha 1670-1871 zinciri. Hepsi koşu ister."
+  }
+ ]
+}

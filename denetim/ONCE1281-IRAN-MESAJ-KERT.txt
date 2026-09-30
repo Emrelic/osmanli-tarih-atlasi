@@ -1,0 +1,13 @@
+ONCE1281-IRAN-TURKISTAN -> YILDIRIM BAYEZIT · M-5694 GÖZDEN GEÇİRME · 🔴 BİR HATAMI GERİ ALIYORUM: kert f
+① ÖLÇTÜM (ajax arama ucu + nitelikli slug, 1 Ekim):
+  • KERT — TDV'de AYRI MADDE VAR (slug 'kert', HTTP 200, gövde 7223). Önerimdeki "TDV'de ayrı kertler maddesi yok (302)" notu YANLIŞ — ve bu not devletler.js:598 kert ic_not_f'ye AYNEN inmiş.
+    TDV kert: "Zamanla gücünü arttıran Şemseddin melik unvanını aldı ve hükümdar oldu (643/1245)."
+    TDV herat: "Moğollar'ın 642'de (1244) … Şemseddin Kert'i Herat hâkimi olarak tayin etmeleri ve bu durumun 653'te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu."
+    ⇒ TDV kendiyle çelişiyor (§4 ⑥); hânedanın KENDİ maddesi 1245 veriyor ve eski künye (f 1245) buna dayanıyordu.
+  • ÖNERİM: kert f'yi 1245-01-01'e GERİ AL, ic_not_f'yi şöyle düzelt: "TDV kert: hükümdar oldu (643/1245). TDV herat 642/1244 tayin + 653/1255 onay der — çelişki beyanlı; hânedan maddesi esas alındı." Künye-içi 1245 kuruluş maddesine DOKUNMA (benim "1244'e çek" önerim geri çekildi). devletler.js senin dosyan, ben yazmıyorum.
+  • Melikşah TDV'de VAR (meliksah--buyuk-selcuklu) · Tekiş VAR (tekis-alaeddin) — ikisinde de olaylar zaten TDV 'selcuklular'/'harizmsahlar'dan, kaynak alanı zaten TDV; değişiklik gerekmedi.
+② BULAMADIM (şimdi arama ucuyla DOĞRULANDI): Hasanveyh · Kerâyit · Nayman · Ong Han · Yezd Atabeg → TDV başlık araması "sonuç bulunamadı". Şebânkâre → yalnız ŞEBÂNKÂREÎ (kişi, şair-tarihçi), hânedan maddesi yok.
+  Dosyamda "TDV 302 → akademik kaynağa geçtim" diye yazılmış madde YOK: 169 maddenin 169'u TDV kaynaklı (akademik/açılamadı beyanı 0).
+  Kert için üç ek madde (1246 Mültan, 1257 Kaşlu Han, 1265 Karluk) denedim — üçü de kronoloji_iran_ardillari.js'te ZATEN VAR, mükerrer diye düştü. Dosya 169 madde, değişmedi.
+③ İSTİYORUM: kert f 1244 → 1245 geri alma + ic_not düzeltmesi (yukarıda). Rapor denetim/ONCE1281-IRAN-TURKISTAN-0930.md'ye de işliyorum.
+bekçimi öldüreyim mi?

@@ -1,0 +1,44 @@
+--- a/js/app.js
++++ b/js/app.js
+@@ -2789,7 +2789,17 @@
+         // glifi ve hover'daki adı her hâlükârda durur. Yerleşim etiketi o
+         // tarihte çizilmiyorsa halka adı GÖRÜNÜR kalır — bilgi kaybolmaz.
+         if (!window.BOSLUK_HALKALARI) window.BOSLUK_HALKALARI = [];
+-        window.BOSLUK_HALKALARI.push({ el: kutu, lon: k.lon, lat: k.lat, ad: k.ad });
++        // 🔴 ARAYUZ-MADDE-0930 · paket 0052 H-0114 (Emre: "buradaki şehirlerin
++        // üstüne tıklayınca devletsiz …"). Yukarıdaki "ZAMAN BOYUTU YOK"
++        // borcunun kapanışı: halka, 1 km içindeki AYNI yerin yerleşim kaydına
++        // bağlanır (`y`); `sehirGuncelle` o gün yerleşim SAHİPLİ ise halkayı
++        // gizler. Ölçüldü (denetim/ARAYUZ-MADDE-0930-OLC-HALKA.py): 92 halkanın
++        // 91'i 1 km içinde bir yerleşimle eşleşiyor, 89'u EN AZ BİR tarihte
++        // sahipli (Dir'iye 1818-24 Osmanlı tâbi iken "devletsiz" halkası
++        // basılıyordu). Eşleşmeyen (y:null) halka eskisi gibi zamansız kalır.
++        var _hy = _enYakinYerlesim(k.lat, k.lon);
++        window.BOSLUK_HALKALARI.push({ el: kutu, lon: k.lon, lat: k.lat, ad: k.ad,
++                                       y: (_hy && _hy.km < 1) ? _hy.y : null });
+         kacHalka++;
+         return;
+       }
+@@ -4357,6 +4367,22 @@
+   // hata bir kez yapıldı ve sınavda sayfayı kilitledi.
+   var halkalar = window.BOSLUK_HALKALARI || [];
+   if (halkalar.length) {
++    // ARAYUZ-MADDE-0930 · H-0114 — o gün sahipli olan yerin halkası GİZLENİR
++    // (`boslukKur` notu). Sahiplik `_yerlesimSerit`/`sahipAnahtari`nın dizgi
++    // kuralıyla: f <= gün < t, d/v/s/isg'nin herhangi biri. Gizli halka
++    // aşağıdaki çakışma elemesine girmez (genişliği 0 → `continue`).
++    var _ht = idxTarih(t);
++    var _hgs = String(_ht.y).padStart(4, "0") + "-" + String(_ht.a).padStart(2, "0") +
++               "-" + String(_ht.g).padStart(2, "0");
++    for (var hz = 0; hz < halkalar.length; hz++) {
++      var hy = halkalar[hz].y, sahipli = false;
++      if (hy) {
++        ["d", "v", "s", "isg"].forEach(function (a) {
++          (hy[a] || []).forEach(function (p) { if (p.f <= _hgs && _hgs < p.t) sahipli = true; });
++        });
++      }
++      halkalar[hz].el.style.display = sahipli ? "none" : "";
++    }
+     for (var hi = 0; hi < halkalar.length; hi++) halkalar[hi].el.classList.remove("sade");
+     var hkutu = [];
+     for (var hj = 0; hj < halkalar.length; hj++) {

@@ -1,0 +1,387 @@
+{
+ "kaynak": "denetim\\ONCE1281-AVRUPA-KUNYE.json",
+ "okunan": 51,
+ "kabul": [
+  {
+   "id": "endulus-emevi",
+   "islem": "yeni",
+   "f": "756-05-15",
+   "t": "1031-01-01"
+  },
+  {
+   "id": "endulus-tavaif",
+   "islem": "yeni",
+   "f": "1009-01-01",
+   "t": "1110-01-01"
+  },
+  {
+   "id": "leon-kralligi",
+   "islem": "yeni",
+   "f": "910-01-01",
+   "t": "1230-09-23"
+  },
+  {
+   "id": "kastilya",
+   "islem": "genislet",
+   "f": "1230-09-23→1035-01-01",
+   "t": "1479-01-20→1479-01-20"
+  },
+  {
+   "id": "aragon",
+   "islem": "genislet",
+   "f": "1164-01-01→1035-01-01",
+   "t": "1479-01-20→1479-01-20"
+  },
+  {
+   "id": "barselona-kontlugu",
+   "islem": "yeni",
+   "f": "801-01-01",
+   "t": "1164-01-01"
+  },
+  {
+   "id": "portekiz",
+   "islem": "genislet",
+   "f": "1139-07-25→1097-01-01",
+   "t": "1945-09-02→1945-09-02"
+  },
+  {
+   "id": "ingiltere",
+   "islem": "genislet",
+   "f": "1066-01-01→927-01-01",
+   "t": "1945-09-02→1945-09-02"
+  },
+  {
+   "id": "irlanda",
+   "islem": "genislet",
+   "f": "1200-01-01→1000-01-01",
+   "t": "1603-03-30→1603-03-30"
+  },
+  {
+   "id": "normandiya",
+   "islem": "yeni",
+   "f": "911-01-01",
+   "t": "1204-01-01"
+  },
+  {
+   "id": "flandre",
+   "islem": "yeni",
+   "f": "862-01-01",
+   "t": "1384-01-30"
+  },
+  {
+   "id": "toulouse",
+   "islem": "yeni",
+   "f": "849-01-01",
+   "t": "1271-01-01"
+  },
+  {
+   "id": "arles-kralligi",
+   "islem": "yeni",
+   "f": "933-01-01",
+   "t": "1032-09-06"
+  },
+  {
+   "id": "gwynedd",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1283-10-03"
+  },
+  {
+   "id": "sicilya-emirligi",
+   "islem": "yeni",
+   "f": "947-01-01",
+   "t": "1091-01-01"
+  },
+  {
+   "id": "apulya-dukaligi",
+   "islem": "yeni",
+   "f": "1059-01-01",
+   "t": "1128-01-01"
+  },
+  {
+   "id": "sicilya-kralligi",
+   "islem": "yeni",
+   "f": "1072-01-01",
+   "t": "1282-03-30"
+  },
+  {
+   "id": "milano-dukaligi",
+   "islem": "genislet",
+   "f": "1395-05-11→1097-01-01",
+   "t": "1859-11-10→1859-11-10"
+  },
+  {
+   "id": "avusturya-dukaligi",
+   "islem": "yeni",
+   "f": "1156-09-17",
+   "t": "1276-11-21"
+  },
+  {
+   "id": "bohemya",
+   "islem": "genislet",
+   "f": "1198-01-01→1000-01-01",
+   "t": "1526-08-29→1526-08-29"
+  },
+  {
+   "id": "polonya-erken",
+   "islem": "genislet",
+   "f": "1320-01-20→966-01-01",
+   "t": "1569-07-01→1569-07-01"
+  },
+  {
+   "id": "danimarka",
+   "islem": "genislet",
+   "f": "1281-01-01→950-01-01",
+   "t": "1945-09-02→1945-09-02"
+  },
+  {
+   "id": "norvec-kralligi",
+   "islem": "genislet",
+   "f": "1281-01-01→872-01-01",
+   "t": "1537-01-01→1537-01-01"
+  },
+  {
+   "id": "isvec-birlik-oncesi",
+   "islem": "genislet",
+   "f": "1281-01-01→1000-01-01",
+   "t": "1523-06-06→1523-06-06"
+  },
+  {
+   "id": "izlanda-serbest-devleti",
+   "islem": "yeni",
+   "f": "930-01-01",
+   "t": "1262-01-01"
+  },
+  {
+   "id": "teuton-devleti",
+   "islem": "yeni",
+   "f": "1230-01-01",
+   "t": "1525-04-08"
+  },
+  {
+   "id": "livonya-tarikati",
+   "islem": "yeni",
+   "f": "1202-01-01",
+   "t": "1561-01-01"
+  },
+  {
+   "id": "litvanya-buyuk-dukalik",
+   "islem": "genislet",
+   "f": "1253-07-06→1236-01-01",
+   "t": "1569-07-01→1569-07-01"
+  },
+  {
+   "id": "kiev-rusu",
+   "islem": "yeni",
+   "f": "882-01-01",
+   "t": "1240-12-06"
+  },
+  {
+   "id": "galicya-volhinya",
+   "islem": "yeni",
+   "f": "1199-01-01",
+   "t": "1340-01-01"
+  },
+  {
+   "id": "birinci-bulgar",
+   "islem": "yeni",
+   "f": "681-01-01",
+   "t": "1018-01-01"
+  },
+  {
+   "id": "sirbistan-nemanjic",
+   "islem": "genislet",
+   "f": "1217-01-01→1166-01-01",
+   "t": "1402-01-01→1402-01-01"
+  },
+  {
+   "id": "duklja",
+   "islem": "yeni",
+   "f": "1036-01-01",
+   "t": "1186-01-01"
+  },
+  {
+   "id": "bosna-kralligi",
+   "islem": "genislet",
+   "f": "1377-01-01→1180-01-01",
+   "t": "1463-05-01→1463-05-01"
+  },
+  {
+   "id": "hirvatistan-kralligi",
+   "islem": "yeni",
+   "f": "925-01-01",
+   "t": "1102-01-01"
+  }
+ ],
+ "red": [
+  {
+   "id": "vladimir-suzdal",
+   "islem": "yeni",
+   "sebep": "③ tarih biçimi: f=1157-01-01 t="
+  }
+ ],
+ "dokunmadim": [
+  "navarra",
+  "granada",
+  "mayorka",
+  "fransa",
+  "iskocya",
+  "bretanya",
+  "burgonya",
+  "almanya",
+  "macaristan",
+  "idil-bulgar",
+  "bulgar-carligi",
+  "dubrovnik",
+  "novgorod",
+  "ryazan",
+  "tver"
+ ],
+ "boya_gerekli": [
+  {
+   "id": "endulus-emevi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "endulus-tavaif",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "leon-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "barselona-kontlugu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "mayorka",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  },
+  {
+   "id": "normandiya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "flandre",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "toulouse",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "arles-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "gwynedd",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "sicilya-emirligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "apulya-dukaligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "sicilya-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "avusturya-dukaligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "bohemya",
+   "neden": "genişletilen künye boyasız",
+   "not": ""
+  },
+  {
+   "id": "izlanda-serbest-devleti",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "teuton-devleti",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "livonya-tarikati",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kiev-rusu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "galicya-volhinya",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "idil-bulgar",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  },
+  {
+   "id": "birinci-bulgar",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "duklja",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "hirvatistan-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "dubrovnik",
+   "neden": "var olan künye, 1281 öncesi boyasız",
+   "not": ""
+  }
+ ],
+ "uyari": [
+  "④ portekiz genişleyince aynı boya anahtarlı portekiz-mozambik (1505-01-01→1975-06-25) ile örtüşüyor",
+  "④ portekiz genişleyince aynı boya anahtarlı portekiz-angola (1575-01-01→1975-11-11) ile örtüşüyor",
+  "④ portekiz genişleyince aynı boya anahtarlı portekiz-gine (1879-01-01→1974-09-10) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı guneybati-afrika-mandasi (1920-12-17→1990-03-21) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-tanganika-mandasi (1922-07-20→1961-12-09) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-nijerya (1861-01-01→1960-10-01) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-becuanaland (1885-09-30→1966-09-30) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-kenya-kolonisi (1895-07-01→1963-12-12) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-guney-rodezya (1890-01-01→1980-04-18) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-altin-kiyisi (1874-07-24→1957-03-06) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-kuzey-rodezya (1890-01-01→1964-10-24) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-nyasaland (1891-05-14→1964-07-06) ile örtüşüyor",
+  "④ ingiltere genişleyince aynı boya anahtarlı ingiliz-siyera-leon (1808-01-01→1961-04-27) ile örtüşüyor",
+  "idil-bulgar (dokunmadim) notu veriye taşınmadı: Çelişki bildirimi: TDV (iki madde) 1236 der; EU 'Tatars' 'Batu subdued the Volga Bulgars in 1237–8' der. TDV birincil → 1236 korunmalı; EU farkı ic_not_t'ye ekl"
+ ],
+ "kunye": [
+  841,
+  862
+ ]
+}

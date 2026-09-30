@@ -33,7 +33,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 /* ═══════════════════ I. DENİZ İMPARATORLUĞUNUN ZİRVESİ (1281-1350) ══════════ */
 
-{ t:"1281-01-01",
+{ taraflar:["cenova"], t:"1281-01-01",
   b:"XIII. yüzyıl sonunda Cenova — Batı Akdeniz'in ve Karadeniz'in efendisi", ic_not_b:"eski b: Atlasın açılışında Cenova — Batı Akdeniz'in ve Karadeniz'in efendisi",
   tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
   etiket:["denizcilik","ticaret","kurulus","konu-askeri","konu-siyasi","konu-ekonomi"],
@@ -49,7 +49,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Oberto Doria komutasındaki Ceneviz donanması Meloria açıklarında Pisa filosunu imha etti; on bini aşkın Pisalı esir Cenova'ya getirildi ve şehirde yıllarca tutuldu. Pisa bir daha deniz gücü olarak toparlanamadı. Cenova böylece Tirreni denizinde tek başına kaldı ve bütün gücünü Venedik'e çevirebildi.",
   kaynak:"Epstein, Genoa and the Genoese; TDV 'ceneviz'" },
 
-{ t:"1291-05-01",
+{ taraflar:["cenova"], t:"1291-05-01",
   b:"Vivaldi kardeşlerin Atlantik seferi — Hindistan'a deniz yolu arayışının ilk denemesi",
   tur:"bilim", onem:4, dunya:3, kapsam:"dis",
   etiket:["kesif","denizcilik","teknoloji","konu-askeri","konu-bilim","konu-kesif"],
@@ -57,7 +57,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Ugolino ve Vadino Vivaldi kardeşler iki kadırgayla Cebelitarık'tan Atlantik'e açıldı; amaçları Afrika'yı dolaşarak Hindistan'a ulaşmaktı. Bir daha haber alınamadı. Sefer başarısız oldu ama fikri iki yüzyıl boyunca Cenevizli denizcilerde yaşadı ve Kolomb'un tasarısının uzak atasıdır.",
   kaynak:"Epstein, Genoa and the Genoese; Michel Balard, La Romanie génoise (Rome, 1978)" },
 
-{ t:"1298-09-08",
+{ taraflar:["cenova"], t:"1298-09-08",
   b:"Curzola deniz zaferi — Venedik rekabetinin zirvesi",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","denizcilik","rekabet","konu-askeri"],
@@ -65,7 +65,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Lamba Doria komutasındaki Ceneviz donanması Adriyatik'te, Korçula (Curzola) açıklarında Venedik filosunu bozguna uğrattı ve yaklaşık yedi bin esir aldı. Esirler arasında Marco Polo da vardı; seyahatnamesini Cenova hapishanesinde yazdırdı. Zafer askerî olarak parlaktı ama Venedik'i kırmadı — iki cumhuriyet bir asır daha birbirini yıpratacaktı.",
   kaynak:"Epstein, Genoa and the Genoese; TDV 'venedik'" },
 
-{ t:"1299-05-25",
+{ taraflar:["cenova"], t:"1299-05-25",
   b:"Milano Barışı — Venedik ile ilk büyük savaşın sonu",
   tur:"antlasma", onem:4, dunya:2, kapsam:"dis",
   etiket:["diplomasi","ticaret","konu-diplomasi","konu-ekonomi"],
@@ -73,7 +73,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Curzola zaferinden sekiz ay sonra iki cumhuriyet Milano'da barış imzaladı. Ne toprak el değiştirdi ne de bir taraf ticarî üstünlük kazandı; savaş, iki tarafı da yormaktan başka bir sonuç vermedi. Bu, Ceneviz-Venedik rekabetinin değişmez deseni olacaktı: kesin zafer, kalıcı sonuç üretmez.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1306-01-01",
+{ taraflar:["cenova"], t:"1306-01-01",
   b:"Cenevizlilerin Trabzon'dan çıkarılması",
   tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis",
   etiket:["ticaret","koloni","konu-askeri","konu-siyasi","konu-ekonomi"],
@@ -81,7 +81,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Trabzon Rum İmparatorluğu, şehirdeki Ceneviz kolonisinin ayrıcalıklarından rahatsız olarak tüccarları kovdu. Cenova, Karadeniz'in güney kıyısındaki en değerli ara istasyonunu geçici olarak yitirdi. Koloni sonradan yeniden kuruldu ama Trabzon hiçbir zaman Kefe kadar güvenli bir üs olmadı.",
   kaynak:"TDV 'karadeniz'" },
 
-{ t:"1308-01-01",
+{ taraflar:["cenova"], t:"1308-01-01",
   b:"Kefe'nin geçici olarak terk edilmesi — Altın Orda ile ilk büyük kriz",
   tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["ticaret","koloni","kriz","konu-askeri","konu-siyasi","konu-ekonomi"],
@@ -89,7 +89,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Altın Orda hanı Tokta ile Cenevizliler arasındaki köle ticareti anlaşmazlığı savaşa dönüştü ve Cenevizliler Kefe'yi boşaltmak zorunda kaldı. Şehir birkaç yıl sonra geri alındı. Vaka, Ceneviz koloni sisteminin temel zaafını gösterdi: kolonilerin hepsi kara sahibi bir devletin izniyle yaşıyordu.",
   kaynak:"TDV 'karadeniz'; Balard, La Romanie génoise" },
 
-{ t:"1311-01-01",
+{ taraflar:["cenova"], t:"1311-01-01",
   b:"Cenova'nın İmparator VII. Henry'ye teslim olması — bağımsızlığın ilk askıya alınışı",
   tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["hizip","siyaset","konu-siyasi","konu-idari","konu-isyan"],
@@ -97,7 +97,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Guelf-Gibelin hizip savaşları şehri yönetilemez hâle getirince Cenovalılar kendi kendilerini yönetmekten vazgeçip Kutsal Roma İmparatoru VII. Henry'yi yirmi yıllığına şehrin efendisi ilan ettiler. Bu, Cenova tarihinde tekrar tekrar görülecek bir çarenin ilkiydi: iç savaşı durdurmak için dışarıdan bir hâkim çağırmak. Cumhuriyetin 1797'ye kadarki tarihi, bu teslimiyetlerle bağımsızlık dönemlerinin nöbetleşmesidir.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1312-01-01",
+{ taraflar:["cenova"], t:"1312-01-01",
   b:"Lanzarotto Malocello'nun Kanarya Adaları'na ulaşması",
   tur:"bilim", onem:3, dunya:3, kapsam:"dis",
   etiket:["kesif","denizcilik","konu-askeri","konu-bilim","konu-kesif"],
@@ -105,7 +105,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli denizci Lanzarotto Malocello Atlantik'e açılarak Kanarya takımadalarına vardı; adalardan biri bugün hâlâ onun adını taşır (Lanzarote). Keşif, Avrupa'nın Atlantik adalarını yeniden bulmasının başlangıcıdır. Cenevizli denizciler bu bilgiyi bir asır sonra Portekiz ve Kastilya hizmetine taşıyacaktı.",
   kaynak:"Epstein, Genoa and the Genoese; Felipe Fernández-Armesto, Before Columbus (Macmillan, 1987)" },
 
-{ t:"1318-01-01",
+{ taraflar:["cenova"], t:"1318-01-01",
   b:"Şehrin Napoli Kralı Robert'a ve Papa'ya bırakılması",
   tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["hizip","siyaset","konu-siyasi","konu-idari","konu-isyan"],
@@ -113,7 +113,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Gibelin sürgünler şehri kuşatınca Guelf kanadı Cenova'yı Napoli Kralı Robert ile Papa XXII. John'un ortak hâkimiyetine verdi. Yabancı yönetim on yıldan fazla sürdü ve Ceneviz donanmasının Angevin siyasetine koşulması sonucunu doğurdu. Şehrin ticareti bu dönemde daraldı, çünkü hükümdar seçimini tüccarlar değil hizipler yapıyordu.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1339-09-23",
+{ taraflar:["cenova"], t:"1339-09-23",
   b:"Simone Boccanegra'nın ilk 'doge' seçilmesi — halk rejiminin kuruluşu",
   tur:"anayasa", onem:5, dunya:2, kapsam:"ic",
   etiket:["kurulus","siyaset","idari","konu-siyasi","konu-idari","konu-islahat","konu-hukuk"],
@@ -121,7 +121,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Aristokrat hiziplerin otuz yıllık boğuşmasından bıkan halk (popolo) ayaklandı ve Simone Boccanegra'yı ömür boyu doge ilan etti; Venedik'ten alınan unvan Cenova'da ilk kez kullanılıyordu. Yeni rejim eski soylu aileleri kamu görevlerinden dışladı. Kurum 1797'ye kadar yaşadı ama Boccanegra'nın umduğu istikrarı hiç getirmedi.",
   kaynak:"Epstein, Genoa and the Genoese; Giovanna Petti Balbi, Simon Boccanegra e la Genova del '300 (Napoli, 1991)" },
 
-{ t:"1344-01-01",
+{ taraflar:["cenova"], t:"1344-01-01",
   b:"Ceneviz kadırgalarının Portekiz ve Kastilya donanmalarını kurması",
   tur:"ekonomi", onem:3, dunya:3, kapsam:"dis",
   etiket:["denizcilik","teknoloji","ticaret","konu-askeri","konu-bilim","konu-ekonomi"],
@@ -129,7 +129,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli amiraller ve gemi ustaları XIV. yüzyıl boyunca İberya krallıklarına kiralandı; Pessagno ailesi Portekiz'de kalıtsal amirallik makamını elinde tuttu. Kadırga inşa tekniği, portolan haritacılığı ve pusula kullanımı bu yolla Atlantik'e taşındı. Keşifler çağının teknik altyapısı, bir Ceneviz ihracatıdır.",
   kaynak:"Balard, La Romanie génoise; Fernández-Armesto, Before Columbus" },
 
-{ t:"1346-06-15",
+{ taraflar:["cenova"], t:"1346-06-15",
   b:"Sakız Adası'nın alınması ve Maona şirketinin kurulması — devlet adına şirket idaresi",
   tur:"idari", onem:5, dunya:3, kapsam:"dis",
   etiket:["koloni","ticaret","kurulus","konu-siyasi","konu-idari","konu-ekonomi"],
@@ -145,7 +145,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Altın Orda ordusunun kuşattığı Kefe'den kaçan Ceneviz kadırgaları vebayı önce Messina'ya, ardından Cenova'ya taşıdı. Şehir nüfusunun yarıya yakınını kaybetti; koloni ağını ayakta tutan denizci ve tüccar kuşağı silindi. Cenova'nın Karadeniz ticaretinden kazandığı üstünlük, aynı yoldan gelen salgınla ödendi.",
   kaynak:"TDV 'kefe'; Epstein, Genoa and the Genoese" },
 
-{ t:"1347-10-23",
+{ taraflar:["cenova"], t:"1347-10-23",
   b:"Bilinen en eski deniz sigortası poliçesinin Cenova'da düzenlenmesi",
   tur:"ekonomi", onem:4, dunya:4, kapsam:"ic",
   etiket:["ticaret","hukuk","finans","konu-ekonomi","konu-hukuk"],
@@ -153,7 +153,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenovalı Giorgio Lecavello, Santa Clara gemisinin Cenova-Mayorka seferi için bugün elimizdeki en eski deniz sigortası sözleşmesini noter huzurunda düzenletti. Belge, riskin para karşılığı devredilebilen bir mal hâline geldiği anı gösterir. Modern sigortacılık bu Ceneviz noter defterlerinden doğmuştur.",
   kaynak:"Federigo Melis, Origini e sviluppi delle assicurazioni in Italia (Roma, 1975); Cambridge Economic History of Europe, c. III" },
 
-{ t:"1348-01-01",
+{ taraflar:["cenova"], t:"1348-01-01",
   b:"Galata Kulesi'nin inşası — koloninin surla çevrilmesi",
   tur:"mimari", onem:4, dunya:2, kapsam:"dis",
   etiket:["koloni","mimari","askeri","imar","konu-askeri","konu-siyasi","konu-imar"],
@@ -161,7 +161,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizliler Bizans'ın izni olmadan Galata'yı surlarla çevirdi ve tepeye 'Christea Turris' adını verdikleri kuleyi dikti. Yapı, bir ticaret kolonisinin fiilen müstakil bir şehir devletine dönüştüğünün taş hâlidir. Kule bugün ayaktadır ve İstanbul'daki en görünür Ceneviz mirasıdır.",
   kaynak:"TDV 'galata'" },
 
-{ t:"1349-05-01",
+{ taraflar:["cenova"], t:"1349-05-01",
   b:"Bizans ile Galata savaşı — gümrük gelirinin zorla alınması",
   tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["koloni","askeri","ticaret","konu-askeri","konu-siyasi","konu-ekonomi"],
@@ -171,7 +171,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 /* ═══════════════════ II. OSMANLI İLE KOMŞULUK VE İÇ ÇÖKÜŞ (1350-1400) ══════ */
 
-{ t:"1352-02-13",
+{ taraflar:["cenova"], t:"1352-02-13",
   b:"Boğaz Savaşı — Venedik-Bizans-Aragon ittifakına karşı direniş",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","denizcilik","ittifak","konu-askeri","konu-diplomasi"],
@@ -179,7 +179,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Paganino Doria'nın filosu, İstanbul önlerinde Venedik-Aragon-Bizans birleşik donanmasıyla fırtına altında çarpıştı. İki taraf da ağır kayıp verdi, kimse kesin üstünlük sağlayamadı; ama Bizans savaştan çekilip Cenova ile ayrı barış yapmak zorunda kaldı. Osmanlı'nın Rumeli'ye geçmesinden iki yıl önce, Boğaz'ın iki yakasında Batılı devletler birbirini kırıyordu.",
   kaynak:"Epstein, Genoa and the Genoese; TDV 'galata'" },
 
-{ t:"1352-05-01",
+{ taraflar:["cenova"], t:"1352-05-01",
   b:"Orhan Gazi ile antlaşma — Osmanlı ile ilk resmî bağ",
   tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["diplomasi","ticaret","osmanli","konu-diplomasi","konu-ekonomi"],
@@ -187,7 +187,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bizans ve Venedik'e karşı sıkışan Galata Cenevizlileri, Orhan Gazi'den erzak ve askerî destek sağlayan bir antlaşma kopardı. Bu, Osmanlı Devleti'nin bir Batılı devletle yaptığı ilk ticarî-siyasî anlaşmalardandır. Cenova bundan böyle, Bizans'ın yanında değil Osmanlı'nın yanında durarak ayakta kalmayı seçecektir.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1353-08-27",
+{ taraflar:["cenova"], t:"1353-08-27",
   b:"Alghero bozgunu ve Milano'ya teslim olma",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","denizcilik","hizip","konu-askeri","konu-isyan"],
@@ -195,7 +195,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Sardinya'nın Alghero açıklarında Aragon-Venedik donanması Ceneviz filosunu imha etti. Yenilgi şehirde rejimi devirdi; Cenova kendini Milano hükümdarı Giovanni Visconti'ye teslim etti ve üç yıl Milano'nun bir eyaleti olarak yaşadı. Bir deniz yenilgisinin kara devletine teslimiyetle sonuçlanması, Cenova'nın yapısal kırılganlığını özetler.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1356-11-15",
+{ taraflar:["cenova"], t:"1356-11-15",
   b:"Bağımsızlığın geri alınması ve Boccanegra'nın ikinci dogeliği",
   tur:"kurulus", onem:5, dunya:1, kapsam:"ic",
   etiket:["siyaset","idari","konu-siyasi","konu-idari"],
@@ -203,7 +203,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Visconti valisinin kovulmasıyla cumhuriyet yeniden kuruldu ve Simone Boccanegra ikinci kez doge oldu. İkinci dogeliğinde soylu aileleri sistemin dışında tutan sert bir çizgi izledi. 1363'te bir ziyafette zehirlenerek öldü; Verdi'nin operası bu ölümü ölümsüzleştirmiştir.",
   kaynak:"Petti Balbi, Simon Boccanegra e la Genova del '300" },
 
-{ t:"1373-10-01",
+{ taraflar:["cenova"], t:"1373-10-01",
   b:"Magosa'nın ele geçirilmesi — Kıbrıs'ın ticaret kapısının alınması",
   tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
   etiket:["koloni","askeri","ticaret","konu-askeri","konu-siyasi","konu-ekonomi"],
@@ -211,7 +211,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kıbrıs kralının taç töreninde Cenevizli ve Venedikli tüccarlar arasında çıkan kavga bahane edildi; Cenova bir donanma gönderip adayı çiğnedi ve Doğu Akdeniz'in en zengin limanı Magosa'yı aldı. Şehir 1464'e kadar Ceneviz elinde kaldı. Lusignan Kıbrıs'ı bu darbeden sonra bir daha toparlanamadı ve yavaşça Venedik'in kucağına düştü.",
   kaynak:"Balard, La Romanie génoise; Epstein, Genoa and the Genoese" },
 
-{ t:"1376-01-01",
+{ taraflar:["cenova"], t:"1376-01-01",
   b:"Andronikos'un Ceneviz yardımıyla tahta çıkarılması",
   tur:"diplomasi", onem:4, dunya:2, kapsam:"dis",
   etiket:["diplomasi","koloni","konu-siyasi","konu-diplomasi","konu-hanedan"],
@@ -219,7 +219,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenova, Venedik'in desteklediği V. Ioannes'e karşı IV. Andronikos'u destekledi ve onu tahta çıkardı; karşılığında Bozcaada'nın kendilerine verilmesini istedi. Bizans tahtı artık iki İtalyan cumhuriyetinin nöbetleşe devirdiği bir makamdır. Bu hamle doğrudan Chioggia Savaşı'nı doğurdu.",
   kaynak:"TDV 'ceneviz'; TDV 'venedik'" },
 
-{ t:"1379-08-16",
+{ taraflar:["cenova"], t:"1379-08-16",
   b:"Chioggia'nın ele geçirilmesi — Venedik lagününe girilmesi",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","denizcilik","rekabet","konu-askeri"],
@@ -243,7 +243,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Savoya Kontu Amedeo'nun arabuluculuğuyla imzalanan barışta iki tarafın da uğruna savaştığı Bozcaada'nın tahkimatı yıkıldı ve ada boşaltıldı. Cenova, Venedik'i Levant'tan atma hedefinden vazgeçti. Antlaşma iki cumhuriyet arasındaki yüz yirmi yıllık büyük savaşlar çağını kapatır.",
   kaynak:"TDV 'ceneviz'; Epstein, Genoa and the Genoese" },
 
-{ t:"1387-06-08",
+{ taraflar:["cenova"], t:"1387-06-08",
   b:"I. Murad ile dostluk ve ticaret antlaşması — Osmanlı topraklarında serbest ticaret",
   tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["diplomasi","ticaret","osmanli","konu-diplomasi","konu-ekonomi"],
@@ -251,7 +251,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenova, I. Murad ile imzaladığı antlaşmayla Osmanlı topraklarında ticaret yapma hakkı ve gümrük kolaylığı elde etti. Bizans'ın çözüldüğünü gören cumhuriyet, ticaretinin geleceğini yeni güce bağlamayı tercih etti. Bu tercih Cenova'yı 1453'te Venedik'ten çok daha az zararla çıkaracaktır.",
   kaynak:"TDV 'italya'; TDV 'ceneviz'" },
 
-{ t:"1396-09-25",
+{ taraflar:["cenova"], t:"1396-09-25",
   b:"Niğbolu bozgunu ve Cenova'nın ödediği fidye",
   tur:"savas", onem:3, dunya:4, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli","konu-askeri","konu-diplomasi"],
@@ -259,7 +259,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Haçlı ordusunun bozgunundan sonra Cenova, Osmanlı ile ticarî ilişkisini sürdürebilmek için 10.000 duka ödedi. Cumhuriyet Haçlı seferine katılmamış, tarafsız kalmayı seçmişti. Cenova'nın Osmanlı siyaseti tutarlıdır: din değil ticaret güzergâhı belirleyicidir.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1396-11-25",
+{ taraflar:["cenova"], t:"1396-11-25",
   b:"Cenova'nın Fransa Kralı VI. Charles'a teslim edilmesi",
   tur:"idari", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","hizip","konu-siyasi","konu-idari","konu-isyan"],
@@ -269,7 +269,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 /* ═══════════════════ III. BANKA ÇAĞI VE KOLONİLERİN KAYBI (1400-1480) ═══════ */
 
-{ t:"1402-07-28",
+{ taraflar:["cenova"], t:"1402-07-28",
   b:"Ankara Savaşı'nda Ceneviz gemilerinin Osmanlı'yı Rumeli'ye geçirmesi",
   tur:"diplomasi", onem:4, dunya:4, kapsam:"dis",
   etiket:["denizcilik","osmanli","diplomasi","konu-askeri","konu-diplomasi"],
@@ -277,7 +277,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Timur'un zaferinden sonra Cenevizli gemiciler, Anadolu'da sıkışan Osmanlı kuvvetlerini ücret karşılığı Boğaz'dan geçirdi. Aynı Cenevizliler Timur'a da haraç ödeyip Galata'ya onun sancağını çekmişti. Cumhuriyetin ilkesi açıktır: kazanana hizmet, ticarete devam.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1403-01-20",
+{ taraflar:["cenova"], t:"1403-01-20",
   b:"Gelibolu Antlaşması'na Cenova'nın taraf olması",
   tur:"antlasma", onem:4, dunya:2, kapsam:"dis",
   etiket:["diplomasi","ticaret","osmanli","konu-diplomasi","konu-ekonomi"],
@@ -285,7 +285,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fetret devrine giren Osmanlı ile Bizans, Venedik, Cenova ve Rodos şövalyeleri arasında imzalanan antlaşmaya Cenova da katıldı ve ticarî ayrıcalıklarını yeniletti. Devletin çökmesi Ceneviz için bir fırsat değil bir risktir — istikrarsız bir komşu ticareti keser. Bu yüzden Cenova, Fetret boyunca ortalığı yatıştırma tarafında durdu.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1407-04-27",
+{ taraflar:["cenova"], t:"1407-04-27",
   b:"Casa di San Giorgio'nun kurulması — Avrupa'nın ilk büyük devlet bankası",
   tur:"ekonomi", onem:5, dunya:4, kapsam:"ic",
   etiket:["finans","kurulus","idari","konu-siyasi","konu-idari","konu-ekonomi"],
@@ -293,7 +293,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Devletin ödeyemediği borçları tek çatı altında toplamak için, alacaklıların ortaklığı olan Casa delle Compere e dei Banchi di San Giorgio kuruldu. Kurum kısa sürede vergileri toplamaya, para basmaya ve sonunda kolonileri yönetmeye başladı. Devlet içinde devlet olan bu banka, modern kamu borcu ve merkez bankacılığının atası sayılır; Machiavelli onun için 'Cenova'da hakikî devlet budur' demiştir.",
   kaynak:"Cambridge Economic History of Europe, c. III; Epstein, Genoa and the Genoese" },
 
-{ t:"1409-09-06",
+{ taraflar:["cenova"], t:"1409-09-06",
   b:"Fransız idaresinin devrilmesi ve Montferrat markisine teslim",
   tur:"isyan", onem:4, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -301,7 +301,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Boucicaut'nun Milano seferi sırasında halk ayaklandı, Fransız garnizonu kovuldu ve şehir bu kez Montferrat markisi Theodore'a bırakıldı. Dört yıl sonra o da kovulacaktı. Bir asır boyunca Cenova'nın bağımsızlık dönemleri ortalama on yıldan kısa sürmüştür.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1421-11-02",
+{ taraflar:["cenova"], t:"1421-11-02",
   b:"Milano'ya yeniden teslim olma — Filippo Maria Visconti dönemi",
   tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","hizip","konu-siyasi","konu-idari","konu-isyan"],
@@ -309,7 +309,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenova on dört yıllığına Milano dükü Filippo Maria Visconti'nin hâkimiyetine girdi. Visconti, Ceneviz donanmasını kendi İtalya siyasetinde kullandı ve limanı Milano'nun deniz kapısına çevirdi. Cumhuriyetin ticarî sınıfı bu dönemde kendi dış siyasetini yürütemedi.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1423-01-01",
+{ taraflar:["cenova"], t:"1423-01-01",
   b:"Pammatone Hastanesi'nin kurulması — şehir hayır sisteminin merkezileşmesi",
   tur:"idari", onem:3, dunya:2, kapsam:"ic",
   etiket:["sosyal","saglik","kurulus","islahat","imar","konu-siyasi","konu-idari","konu-bilim","konu-imar","konu-islahat","konu-sosyal"],
@@ -317,7 +317,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Tüccar Bartolomeo Bosco'nun vasiyetiyle kurulan Pammatone, şehirdeki dağınık küçük hastaneleri tek bir kurumda topladı. Yoksul bakımı, buluntu çocuklar ve salgın yönetimi buradan yürütüldü. Kurum XX. yüzyıla kadar Cenova'nın ana hastanesi olarak yaşadı.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1435-08-05",
+{ taraflar:["cenova"], t:"1435-08-05",
   b:"Ponza Deniz Savaşı — Aragon kralının esir alınması",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","denizcilik","konu-askeri"],
@@ -325,7 +325,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Biagio Assereto komutasındaki Ceneviz donanması Ponza açıklarında Aragon filosunu yendi ve Kral V. Alfonso ile kardeşlerini esir aldı. Bu, bir İtalyan cumhuriyetinin bir kralı savaş alanında esir aldığı ender vakadır. Ancak esirleri Milano düküne teslim etmek zorunda kaldılar; Visconti Alfonso'yu serbest bırakınca Cenova hem zaferini hem sabrını yitirdi.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1435-12-27",
+{ taraflar:["cenova"], t:"1435-12-27",
   b:"Milano'ya karşı ayaklanma ve cumhuriyetin yeniden ilanı",
   tur:"isyan", onem:5, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -333,7 +333,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Ponza esirlerinin elden çıkmasına öfkelenen Cenovalılar Visconti valisini kovdu ve cumhuriyeti yeniden kurdu. Bu, Cenova'nın kendi zaferinin meyvesini yiyemediği için isyan ettiği tek örnektir. Bağımsızlık bu kez yirmi altı yıl sürecekti.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1447-08-13",
+{ taraflar:["cenova"], t:"1447-08-13",
   b:"Ambrosian Cumhuriyeti'nin ilanı sırasında Cenova'nın Milano'dan kopması",
   tur:"siyaset", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
@@ -341,7 +341,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Son Visconti dükünün ölümüyle Milano'da cumhuriyet ilan edilince, Cenova kuzeydeki baskıdan geçici olarak kurtuldu. Fakat Francesco Sforza'nın 1450'de Milano'yu ele geçirmesi tehdidi geri getirdi. Cenova'nın iç istikrarı her zaman Milano'daki iktidarın gücüne ters orantılıdır.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1451-01-01",
+{ taraflar:["cenova"], t:"1451-01-01",
   b:"Kristof Kolomb'un Cenova'da doğması",
   tur:"kultur", onem:4, dunya:4, kapsam:"ic",
   etiket:["kesif","denizcilik","kultur","konu-askeri","konu-kultur","konu-kesif"],
@@ -357,7 +357,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İstanbul düşerken Galata podestası Angelo Giovanni Lomellino, savaşmadan şehrin anahtarlarını Fâtih Sultan Mehmed'e teslim etti. Ceneviz gönüllüleri kuşatma boyunca surlarda Bizans safında çarpışmıştı — Giovanni Giustiniani Longo savunmanın komutanıydı — ama koloninin resmî tutumu tarafsızlıktı. İki yüz yıllık müstakil Ceneviz şehri, bir günde Osmanlı mahallesine dönüştü.",
   kaynak:"TDV 'galata'; TDV 'ceneviz'" },
 
-{ t:"1453-06-01",
+{ taraflar:["cenova"], t:"1453-06-01",
   b:"Galata ahidnâmesi — imtiyazların Osmanlı tarafından yenilenmesi",
   tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["osmanli","ticaret","hukuk","konu-diplomasi","konu-ekonomi","konu-hukuk"],
@@ -365,7 +365,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fetihten üç gün sonra verilen ahidnâme Peralılara ticaret serbestisi, din özgürlüğü ve can-mal güvenliği tanıdı; buna karşılık surların bir bölümü yıkıldı ve podesta idaresi kaldırıldı. Cenevizliler bundan böyle kendi seçtikleri bir kethüdâ ile temsil edilecekti. Cenova siyasî varlığını kaybetti ama ticarî varlığını sürdürdü — cumhuriyetin klasik pazarlığı.",
   kaynak:"TDV 'galata'; TDV 'ceneviz'" },
 
-{ t:"1453-06-28",
+{ taraflar:["cenova"], t:"1453-06-28",
   b:"Podestalığın resmen sona ermesi — Franco Giustiniani'nin görevinin bitişi",
   tur:"son", onem:4, dunya:2, kapsam:"dis",
   etiket:["osmanli","idari","koloni","konu-siyasi","konu-idari"],
@@ -373,7 +373,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Galata'nın son podestası Franco Giustiniani'nin görev süresi resmen sona erdi ve yerine kimse atanmadı. Böylece 1267'den beri süren müstakil Ceneviz idaresi kâğıt üzerinde de bitti. Osmanlı, kurumu kaldırırken cemaati korudu.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1453-11-15",
+{ taraflar:["cenova"], t:"1453-11-15",
   b:"Karadeniz kolonilerinin Banco di San Giorgio'ya devredilmesi",
   tur:"idari", onem:5, dunya:2, kapsam:"dis",
   etiket:["finans","koloni","idari","konu-siyasi","konu-idari","konu-ekonomi"],
@@ -381,7 +381,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İstanbul'un düşmesiyle Karadeniz kolonilerini savunamayacağını anlayan cumhuriyet, Kefe ve bağlı yerleşmelerin yönetimini Banco di San Giorgio'ya bıraktı. Bir devletin sömürgelerini kendi bankasına devretmesi Avrupa tarihinde ilktir ve iki asır sonraki Doğu Hindistan şirketlerinin habercisidir. Banka yirmi iki yıl boyunca Kırım'da bayrak, vali ve garnizon sahibi oldu.",
   kaynak:"Balard, La Romanie génoise; Cambridge Economic History of Europe, c. III" },
 
-{ t:"1455-12-01",
+{ taraflar:["cenova"], t:"1455-12-01",
   b:"Eski ve Yeni Foça'nın kaybedilmesi — şap tekelinin sonu",
   tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["osmanli","ticaret","toprak-kayip","konu-askeri","konu-ekonomi"],
@@ -389,7 +389,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fâtih Sultan Mehmed, Ceneviz Maonası'nın elindeki Foça'yı aldı; buradaki şap madenleri Avrupa dokuma sanayiinin boya sabitleyicisini karşılıyor ve Cenova'ya tekel kârı sağlıyordu. Tekelin kırılması, on yıl sonra Papalık'ın Tolfa şap yataklarını işletmesiyle kalıcı hâle geldi. TDV'nin 'ceneviz' maddesi kaybı 1455'e, 'foça' maddesi ise Osmanlı idaresine geçişi 1465'e koyar.", ic_not_d:"iki tarih arasındaki fark bu maddede açıkça bırakılmıştır.",
   kaynak:"TDV 'ceneviz' (1455) ile TDV 'foca' (1465) ÇELİŞİYOR — çelişki gizlenmedi; ayrıca Balard, La Romanie génoise" },
 
-{ t:"1456-01-01",
+{ taraflar:["cenova"], t:"1456-01-01",
   b:"Enez'in kaybedilmesi",
   tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis",
   etiket:["osmanli","toprak-kayip","koloni","konu-askeri","konu-siyasi"],
@@ -397,7 +397,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli Gattilusio ailesinin elindeki Enez, Osmanlı idaresine geçti. Kuzey Ege'deki Ceneviz aile beyliklerinin tasfiyesi böyle başladı. Gattilusiolar bir devlet değil, cumhuriyetin himayesindeki hânedanlardı; Osmanlı onları tek tek topladı.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1458-05-11",
+{ taraflar:["cenova"], t:"1458-05-11",
   b:"Cenova'nın yeniden Fransa'ya teslim edilmesi",
   tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","hizip","konu-siyasi","konu-idari","konu-isyan"],
@@ -405,7 +405,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Doge Pietro Campofregoso, Aragon tehdidine karşı şehri Fransa Kralı VII. Charles'ın hâkimiyetine verdi. Üç yıl sonra halk Fransızları kovacaktı. Cenova'nın XV. yüzyılı, bağımsızlık ile teslimiyet arasında sekiz kez gidip gelmiştir.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1461-03-09",
+{ taraflar:["cenova"], t:"1461-03-09",
   b:"Fransızların kovulması — cumhuriyetin yeniden kurulması",
   tur:"isyan", onem:4, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -421,7 +421,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fâtih'in Trabzon seferi sırasında donanma Amasra'yı teslim aldı; şehir savaşmadan verildi. Karadeniz'in güney kıyısındaki Ceneviz varlığı böylece bitti. Kefe artık ana karadan tamamen kopmuş, yalnız denizden beslenen bir adaya dönüşmüştü.",
   kaynak:"TDV 'ceneviz'; TDV 'karadeniz'" },
 
-{ t:"1462-09-15",
+{ taraflar:["cenova"], t:"1462-09-15",
   b:"Midilli'nin kaybedilmesi — Gattilusio beyliğinin sonu",
   tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["osmanli","koloni","toprak-kayip","konu-askeri","konu-siyasi"],
@@ -429,7 +429,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Osmanlı donanması Midilli'yi kuşattı ve Cenevizli Gattilusio hânedanının son beyi teslim oldu. Kuzey Ege'de Ceneviz bayrağı taşıyan tek yer kalmadı. Sakız, Maona'nın haraç ödeme siyaseti sayesinde yüz yıl daha yaşayacaktı.",
   kaynak:"TDV 'ceneviz'" },
 
-{ t:"1464-01-13",
+{ taraflar:["cenova"], t:"1464-01-13",
   b:"Magosa'nın Kıbrıs'a iadesi ve şehrin Milano'ya teslimi",
   tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["koloni","siyaset","toprak-kayip","konu-askeri","konu-siyasi"],
@@ -437,7 +437,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kıbrıs Kralı II. Yakup Magosa'yı Cenevizlilerden geri aldı; aynı yıl Cenova kendini Milano dükü Francesco Sforza'ya teslim etti. Doğu Akdeniz'deki son büyük ticaret üssü ile bağımsızlık aynı yıl kaybedildi. Cumhuriyet artık bir deniz imparatorluğu değil, bir liman şehridir.",
   kaynak:"Epstein, Genoa and the Genoese; Balard, La Romanie génoise" },
 
-{ t:"1471-01-01",
+{ taraflar:["cenova"], t:"1471-01-01",
   b:"Cenova'da yüksek öğretimin kurumsallaşması",
   tur:"bilim", onem:3, dunya:2, kapsam:"ic",
   etiket:["egitim","bilim","kurulus","konu-siyasi","konu-bilim","konu-egitim"],
@@ -445,7 +445,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Ligurya asıllı Papa IV. Sixtus'un beratıyla şehirde ilâhiyat derecesi verme yetkisi tanındı; Cenova Üniversitesi kuruluşunu bu tarihe bağlar. Cumhuriyet uzun süre kendi hukukçularını Bologna ve Pavia'ya göndermişti. Ticaret şehri, geç de olsa kendi eğitim kurumunu kurdu.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Epstein, Genoa and the Genoese ve Università di Genova kuruluş tarihçesi (kurum yayını)" },
 
-{ t:"1475-06-06",
+{ taraflar:["cenova"], t:"1475-06-06",
   b:"Kefe'nin düşüşü — Ceneviz Karadeniz imparatorluğunun sonu",
   tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis",
   etiket:["osmanli","koloni","toprak-kayip","konu-askeri","konu-siyasi"],
@@ -453,7 +453,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Gedik Ahmed Paşa'nın yüz parçalık donanması Kefe'yi kuşattı; Banco di San Giorgio'nun yönettiği şehir birkaç günde teslim oldu ve bütün Kırım sahili Osmanlı'ya geçti. İki yüz yıldır Cenova'nın en kârlı hattı olan Karadeniz kapandı. Bu, cumhuriyetin doğudaki varlığının kesin sonudur; Sakız'dan başka koloni kalmadı.",
   kaynak:"TDV 'kefe'; TDV 'karadeniz'" },
 
-{ t:"1478-11-01",
+{ taraflar:["cenova"], t:"1478-11-01",
   b:"Milano hâkimiyetinden çıkış — kısa bir bağımsızlık aralığı",
   tur:"isyan", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","isyan","konu-siyasi","konu-isyan"],
@@ -463,7 +463,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 /* ═══════════════════ IV. YABANCI HÂKİMİYET VE DORIA DÖNÜŞÜ (1480-1560) ══════ */
 
-{ t:"1488-01-01",
+{ taraflar:["cenova"], t:"1488-01-01",
   b:"Cenova'nın yeniden Milano'ya bağlanması",
   tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hizip","konu-siyasi","konu-idari","konu-isyan"],
@@ -471,7 +471,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Ludovico Sforza'nın baskısıyla cumhuriyet bir kez daha Milano hâkimiyetini kabul etti. Bu bağ, 1499'da Fransa Milano'yu alınca otomatik olarak Fransız hâkimiyetine dönüşecekti. Cenova'nın kaderi artık kendi kararlarına değil Milano'nun kimin elinde olduğuna bağlıdır.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1492-10-12",
+{ taraflar:["cenova"], t:"1492-10-12",
   b:"Cenevizli Kolomb'un Amerika'ya ulaşması — cumhuriyetin dışında kalan çağ",
   tur:"kesif", onem:4, dunya:5, kapsam:"dis",
   etiket:["kesif","denizcilik","ekonomi","konu-askeri","konu-ekonomi","konu-kesif"],
@@ -479,7 +479,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenova'da doğup Ceneviz gemilerinde yetişen Kolomb, Kastilya bayrağı altında Atlantik'i geçti. Cenevizli sermayedarlar seferi Sevilla'dan finanse eden çevrenin içindeydi, ama cumhuriyetin kendisi hiçbir pay almadı. Akdeniz'in en büyük denizci şehri, okyanus çağını başkalarının hesabına açtı.",
   kaynak:"Epstein, Genoa and the Genoese; TDV 'ceneviz'" },
 
-{ t:"1499-10-06",
+{ taraflar:["cenova"], t:"1499-10-06",
   b:"Fransız hâkimiyetine geçiş — XII. Louis'nin Milano'yu alması",
   tur:"isgal", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","isgal","konu-askeri","konu-siyasi"],
@@ -487,7 +487,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransa Milano'yu ele geçirince Cenova da doğrudan Fransız tacına bağlandı. Şehir bir Fransız valisi tarafından yönetilmeye başladı ve limanı Fransız donanmasına açıldı. Bundan sonraki otuz yıl, Cenova'nın Fransa ile İspanya arasında el değiştirdiği en istikrarsız dönemdir.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1506-09-01",
+{ taraflar:["cenova"], t:"1506-09-01",
   b:"Halk ayaklanması — zanaatkârların soylulara karşı isyanı",
   tur:"isyan", onem:4, dunya:1, kapsam:"ic",
   etiket:["isyan","sosyal","konu-isyan","konu-sosyal"],
@@ -495,7 +495,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İpekçi ve boyacı loncaları soylu ailelerin kamu görevlerindeki tekeline karşı ayaklandı; bir boyacı, Paolo da Novi, doge ilan edildi. Ayaklanma Cenova tarihinde bir zanaatkârın devlet başkanı olduğu tek andır. Fransız ordusu 1507'de şehri basıp isyanı ezdi ve Paolo da Novi idam edildi.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1507-04-28",
+{ taraflar:["cenova"], t:"1507-04-28",
   b:"XII. Louis'nin Cenova'ya girmesi ve şehrin cezalandırılması",
   tur:"isgal", onem:4, dunya:2, kapsam:"ic",
   etiket:["isgal","isyan","konu-askeri","konu-isyan"],
@@ -503,7 +503,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransa kralı ordusuyla şehre girdi, ayrıcalıkları kaldırdı ve limanı denetleyen La Briglia kalesini yaptırdı. Cenova'nın kendi kendini yönetme hakkı resmen askıya alındı. Kale, halkın gözünde kırk yıl boyunca yabancı boyunduruğunun simgesi olarak durdu.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1522-05-30",
+{ taraflar:["cenova"], t:"1522-05-30",
   b:"Cenova'nın yağmalanması — İmparatorluk ordusunun şehri basması",
   tur:"kriz", onem:5, dunya:2, kapsam:"ic",
   etiket:["askeri","kriz","felaket","konu-askeri","konu-siyasi"],
@@ -519,7 +519,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransız hizmetinden ayrılıp V. Karl'ın yanına geçen amiral Andrea Doria, Fransızları kovdu ve şehre yeni bir düzen verdi: doge iki yıllığına seçilecek, bütün soylu ve zengin aileler yirmi sekiz 'albergo' altında toplanacaktı. Cenova bir daha kimseye teslim olmadı ve 1797'ye kadar bu anayasayla yaşadı. Doria kendisi hiç doge olmadı — gücünü makamdan değil donanmadan aldı.",
   kaynak:"Kirk, Genoa and the Sea; Epstein, Genoa and the Genoese" },
 
-{ t:"1528-09-13",
+{ taraflar:["cenova"], t:"1528-09-13",
   b:"İspanya ile fiilî ittifak — Ceneviz sermayesinin Habsburg maliyesine bağlanması",
   tur:"ittifak", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","ittifak","ticaret","konu-diplomasi","konu-ekonomi"],
@@ -527,7 +527,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Doria'nın taraf değiştirmesiyle Cenova, İspanya'nın Akdeniz'deki kadırga tedarikçisi ve bankeri hâline geldi. Amerikan gümüşü Sevilla'dan Cenova'ya akmaya, Cenova'dan Flandre'daki İspanyol ordusuna kredi olarak gitmeye başladı. Cumhuriyet siyasî bağımsızlığını malî bağımlılıkla takas etti ve bu takas onu bir asır boyunca zengin etti.",
   kaynak:"Fernand Braudel, La Méditerranée et le monde méditerranéen (Paris, 1949); Kirk, Genoa and the Sea" },
 
-{ t:"1529-01-01",
+{ taraflar:["cenova"], t:"1529-01-01",
   b:"Villa del Principe'nin tamamlanması — Ceneviz saray mimarisinin başlangıcı",
   tur:"mimari", onem:3, dunya:2, kapsam:"ic",
   etiket:["mimari","kultur","imar","konu-kultur","konu-imar"],
@@ -535,7 +535,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Andrea Doria'nın Fassolo'daki sarayı, Perino del Vaga'nın freskleriyle donatıldı ve İtalya dışındaki hükümdarlara da örnek olan bir 'deniz kenarı prens konağı' tipi yarattı. Yapı, bir cumhuriyet vatandaşının krallara denk görünme iddiasıdır. Cenova soyluları bundan sonra sarayla rekabet edecekti.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: George L. Gorse, 'The Villa of Andrea Doria in Genoa', Art Bulletin 68 (1986)" },
 
-{ t:"1535-06-14",
+{ taraflar:["cenova"], t:"1535-06-14",
   b:"Tunus seferine Ceneviz donanmasının katılması",
   tur:"savas", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","denizcilik","osmanli","konu-askeri"],
@@ -543,7 +543,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Andrea Doria'nın kadırgaları V. Karl'ın Tunus seferinin omurgasını oluşturdu; Barbaros Hayreddin Paşa'nın üssü alındı. Ceneviz gemileri artık cumhuriyetin ticaretini değil İspanya'nın savaşını taşıyordu. Kadırga kiralamak, XVI. yüzyılda Cenova'nın en istikrarlı gelir kalemlerindendir.",
   kaynak:"Kirk, Genoa and the Sea; TDV 'ceneviz'" },
 
-{ t:"1538-09-28",
+{ taraflar:["cenova"], t:"1538-09-28",
   b:"Preveze'de Doria'nın çekilmesi — Akdeniz'in Osmanlı'ya bırakılması",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","denizcilik","osmanli","konu-askeri"],
@@ -551,7 +551,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kutsal İttifak donanmasının başında bulunan Andrea Doria, Barbaros Hayreddin Paşa karşısında meydan savaşına girmekten kaçındı ve filoyu geri çekti. Venedik onu ihanetle suçladı; Doria kendi kadırgalarını riske atmamayı tercih etmişti, çünkü gemiler devletin değil onun mülküydü. Özel mülk donanmanın stratejik mahzuru bu savaşta görüldü.",
   kaynak:"Kirk, Genoa and the Sea; TDV 'venedik'" },
 
-{ t:"1543-01-01",
+{ taraflar:["cenova"], t:"1543-01-01",
   b:"Lanterna'nın yeniden inşası — Akdeniz'in en yüksek deniz fenerinin dikilmesi",
   tur:"mimari", onem:3, dunya:2, kapsam:"ic",
   etiket:["mimari","denizcilik","teknoloji","imar","konu-askeri","konu-bilim","konu-imar"],
@@ -559,7 +559,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Limanın girişindeki fener kulesi, 1514'te top ateşiyle yıkıldıktan sonra bugünkü hâliyle yeniden yapıldı; yetmiş yedi metrelik gövdesiyle yüzyıllarca dünyanın en yüksek deniz feneri kaldı. Yapı hem seyir yardımcısı hem de cumhuriyetin arması oldu. Lanterna bugün de Cenova'nın simgesidir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Kirk, Genoa and the Sea" },
 
-{ t:"1547-01-02",
+{ taraflar:["cenova"], t:"1547-01-02",
   b:"Fieschi Komplosu — Doria düzenine karşı başarısız darbe",
   tur:"kriz", onem:5, dunya:2, kapsam:"ic",
   etiket:["hizip","darbe","siyaset","darbe-siyasi","konu-siyasi","konu-isyan","konu-darbe"],
@@ -567,7 +567,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Genç kont Gian Luigi Fieschi, Fransa'nın desteğiyle Doria ailesini devirmek için gece limanı bastı; Andrea Doria'nın yeğeni Giannettino öldürüldü. Fieschi bir kadırgadan denize düşüp boğulunca komplo dağıldı ve aile tümüyle tasfiye edildi. Vaka, Cenova'da 1528 düzenine karşı son ciddi meydan okumadır; Schiller ve Verdi'ye konu olmuştur.",
   kaynak:"Kirk, Genoa and the Sea; Epstein, Genoa and the Genoese" },
 
-{ t:"1548-05-01",
+{ taraflar:["cenova"], t:"1548-05-01",
   b:"Giulio Cybo komplosunun bastırılması ve Doria düzeninin pekişmesi",
   tur:"kriz", onem:3, dunya:1, kapsam:"ic",
   etiket:["hizip","siyaset","konu-siyasi","konu-isyan"],
@@ -575,7 +575,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fieschi'nin ardından Giulio Cybo'nun düzenlediği ikinci komplo da açığa çıkarıldı ve elebaşı idam edildi. İki başarısız darbe, muhalefetin belini kırdı. Cenova bundan sonra iç savaşla değil kurumsal hizipleşmeyle yönetilecekti.",
   kaynak:"Kirk, Genoa and the Sea" },
 
-{ t:"1552-08-05",
+{ taraflar:["cenova"], t:"1552-08-05",
   b:"Ponza'da Turgut Reis'in Doria filosunu bozması",
   tur:"savas", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","denizcilik","osmanli","konu-askeri"],
@@ -583,7 +583,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Turgut Reis ve Sinan Paşa komutasındaki Osmanlı donanması, Ponza açıklarında Andrea Doria'nın kadırgalarını bozguna uğrattı ve yedi gemisini aldı. Ceneviz kadırgalarının Osmanlı'ya karşı üstün olmadığı açıkça görüldü. Cumhuriyetin kıyıları bundan sonra her yaz korsan akınına açıktı.",
   kaynak:"Kirk, Genoa and the Sea; TDV 'ceneviz'" },
 
-{ t:"1558-01-01",
+{ taraflar:["cenova"], t:"1558-01-01",
   b:"Strada Nuova'nın açılması — Avrupa'nın ilk planlı saray caddesi",
   tur:"mimari", onem:5, dunya:4, kapsam:"ic",
   etiket:["mimari","sehircilik","kultur","imar","konu-kultur","konu-imar"],
@@ -591,7 +591,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cumhuriyet, en zengin ailelerin saraylarını tek bir eksende toplamak için Galeazzo Alessi'nin planına göre yeni bir cadde açtı; bugünkü Via Garibaldi. Cadde, bir şehrin soylu konutlarını devlet eliyle planladığı ilk Avrupa örneğidir ve Rubens'in 1622'de yayımladığı albümle bütün kıtaya yayıldı. Saraylar, resmî konuk ağırlama sırasına göre kayda geçirildi — 'Rolli' sistemi.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Ennio Poleggi, Strada Nuova, una lottizzazione del Cinquecento a Genova (Genova, 1968)" },
 
-{ t:"1560-05-11",
+{ taraflar:["cenova"], t:"1560-05-11",
   b:"Cerbe bozgunu — Ceneviz kadırgalarının Osmanlı donanmasına kaybedilmesi",
   tur:"savas", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","denizcilik","osmanli","konu-askeri"],
@@ -599,7 +599,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Giovanni Andrea Doria'nın da bulunduğu Hıristiyan donanması Cerbe adası açıklarında Piyâle Paşa tarafından imha edildi; İspanyol-Ceneviz filosunun yarıya yakını battı ya da esir alındı. Cenova bir yılda yıllık gelirine denk kadırga kaybetti. Akdeniz'de Osmanlı üstünlüğü İnebahtı'ya kadar tartışılmadı.",
   kaynak:"Kirk, Genoa and the Sea" },
 
-{ t:"1560-11-25",
+{ taraflar:["cenova"], t:"1560-11-25",
   b:"Andrea Doria'nın ölümü — kurucu neslin sonu",
   tur:"olum", onem:5, dunya:2, kapsam:"ic",
   etiket:["hukumdar","siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -617,7 +617,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kaptanıderyâ Piyâle Paşa, haraç ödemekte geciken Maona idaresine son verip adayı çatışmasız zaptetti (24 Ramazan 973) ve müstakil sancak hâline getirdi. Cenova'nın Doğu Akdeniz'deki iki yüz yirmi yıllık varlığı böylece bitti. Cumhuriyet bir daha denizaşırı toprak sahibi olmadı; bundan sonraki serveti gemilerden değil kredilerden gelecekti.",
   kaynak:"TDV 'sakiz-adasi'; TDV 'ceneviz'" },
 
-{ t:"1571-10-07",
+{ taraflar:["cenova"], t:"1571-10-07",
   b:"İnebahtı'da Ceneviz filosunun sağ kanadı",
   tur:"savas", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","denizcilik","osmanli","konu-askeri"],
@@ -625,7 +625,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kutsal İttifak donanmasının sağ kanadını Giovanni Andrea Doria komuta etti; Uluç Ali Paşa'nın manevrasıyla kanat açıldı ve Malta kadırgaları ezildi. Doria'nın temkinli tutumu yine tartışma konusu oldu. Zafer ortak olsa da Cenova'nın Akdeniz'deki ticarî konumunu değiştirmedi — kaybettiği kolonileri geri getirmedi.",
   kaynak:"Kirk, Genoa and the Sea; TDV 'venedik'" },
 
-{ t:"1575-04-01",
+{ taraflar:["cenova"], t:"1575-04-01",
   b:"Eski ve yeni soylular arasında iç savaş",
   tur:"isyan", onem:5, dunya:1, kapsam:"ic",
   etiket:["hizip","isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -633,7 +633,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"1528 anayasasının 'eski' (nobili vecchi) ve 'yeni' (nobili nuovi) soyluları arasındaki denge bozuldu ve şehir silahlı çatışmaya sürüklendi; yeni soylular Savona'da ayrı bir hükümet kurdu. İspanya, Papalık ve İmparatorluk arabuluculuk yaptı. Kriz, malî gücün eski unvanlara değil yeni bankerlere geçtiğini gösterdi.",
   kaynak:"Kirk, Genoa and the Sea; Carlo Bitossi, Il governo dei magnifici (Genova, 1990)" },
 
-{ t:"1576-03-17",
+{ taraflar:["cenova"], t:"1576-03-17",
   b:"Leges Novae — cumhuriyetin ikinci anayasası",
   tur:"anayasa", onem:5, dunya:1, kapsam:"ic",
   etiket:["anayasa","hukuk","idari","islahat","konu-idari","konu-islahat","konu-hukuk"],
@@ -641,7 +641,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İç savaşı bitiren uzlaşma, 'albergo' sistemini kaldırdı ve bütün soyluları tek bir Altın Kitap'a (Liber Nobilitatis) kaydetti; her yıl yeni aileler alınabilecekti. Doge iki yıllık kaldı, Büyük ve Küçük Konsey yetkileri netleşti. Bu anayasa 1797'ye kadar hiç değişmeden yürürlükte kaldı — Cenova tarihinin en uzun ömürlü kurumsal düzenidir.",
   kaynak:"Bitossi, Il governo dei magnifici; Kirk, Genoa and the Sea" },
 
-{ t:"1579-01-01",
+{ taraflar:["cenova"], t:"1579-01-01",
   b:"Piacenza panayırlarının kurulması — Avrupa kredi piyasasının merkezi",
   tur:"ekonomi", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","ticaret","kurulus","konu-siyasi","konu-ekonomi"],
@@ -649,7 +649,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli bankerler, Besançon'dan taşıdıkları poliçe panayırlarını Piacenza'da yılda dört kez toplanacak biçimde yeniden kurdu. Burada nakit değil senet mahsuplaşıyor, Avrupa'nın bütün büyük ödemeleri birkaç günde kapanıyordu. 1579-1621 arası bütün kıtanın faiz oranı fiilen bu masalarda belirlendi; Braudel bu döneme 'Cenevizlilerin Yüzyılı' adını verir. Olayın mahalli Piacenza'dır.", ic_not_d:"Piacenza yerleşim havuzunda yok, yer_id boş bırakıldı — uydurulmadı · harfiyen: (Olayın mahalli PIACENZA'dır; yerleşim havuzunda karşılığı YOKTUR, bu yüzden yer_id boş bırakıldı — uydurulmadı.)",
   kaynak:"Braudel, La Méditerranée; Cambridge Economic History of Europe, c. IV" },
 
-{ t:"1590-01-01",
+{ taraflar:["cenova"], t:"1590-01-01",
   b:"Büyük kıtlık ve tahıl ithalatının Baltık'a kayması",
   tur:"kriz", onem:4, dunya:3, kapsam:"ic",
   etiket:["kitlik","ticaret","sosyal","konu-siyasi","konu-ekonomi","konu-sosyal","afet","afet-kitlik"],
@@ -657,7 +657,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Akdeniz'i vuran kuraklık Cenova'yı açlıkla karşı karşıya bıraktı; cumhuriyet ilk kez Hollanda ve Hansa gemileriyle Baltık buğdayı getirtti. Kuzey Avrupa gemilerinin Akdeniz'e girişi böyle başladı. Kıtlık geçti ama kuzeyli tüccarlar bir daha çıkmadı.",
   kaynak:"Braudel, La Méditerranée; Kirk, Genoa and the Sea" },
 
-{ t:"1607-11-09",
+{ taraflar:["cenova"], t:"1607-11-09",
   b:"İspanyol iflası — Ceneviz bankerlerinin ilk büyük yıkımı",
   tur:"kriz", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","kriz","ekonomi","konu-siyasi","konu-ekonomi"],
@@ -665,7 +665,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İspanya kısa vadeli borçlarını ödeyemeyeceğini ilan edince (medio general), Ceneviz bankerlerinin elindeki asiento alacakları düşük faizli devlet tahvillerine (juros) çevrildi. Kayıp devasaydı ama sistem çökmedi; bankerler yeni krediyle geri döndü. Cenova'nın serveti bundan böyle bir imparatorluğun ödeme gücüne bağlıdır ve o imparatorluk her yirmi yılda bir iflas edecektir.",
   kaynak:"Braudel, La Méditerranée; Cambridge Economic History of Europe, c. IV" },
 
-{ t:"1607-01-01",
+{ taraflar:["cenova"], t:"1607-01-01",
   b:"Rubens'in Cenova'ya gelişi — Barok resmin şehre girmesi",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["kultur","kultur","konu-kultur"],
@@ -673,7 +673,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Peter Paul Rubens Cenova'da soylu ailelerin portrelerini yaptı ve şehrin saraylarını inceledi. 1622'de Anvers'te yayımladığı 'Palazzi di Genova' albümü, Ceneviz saray tipini Kuzey Avrupa'ya taşıdı. Bir mimarlık üslubunun kitapla ihraç edildiği erken bir örnektir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Poleggi, Strada Nuova; Rubens, Palazzi di Genova (Antwerpen, 1622)" },
 
-{ t:"1621-01-01",
+{ taraflar:["cenova"], t:"1621-01-01",
   b:"Van Dyck'in Cenova yılları — aristokrat portreciliğin zirvesi",
   tur:"kultur", onem:3, dunya:3, kapsam:"ic",
   etiket:["kultur","kultur","konu-kultur"],
@@ -681,7 +681,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Anthony van Dyck altı yıl boyunca Cenova'da yaşadı ve Brignole-Sale, Doria, Lomellini ailelerinin tam boy portrelerini yaptı. Bu tablolar, sonradan İngiliz aristokrat portreciliğinin şablonu oldu. Cenova'nın kültürel etkisi, siyasî gücünün çok ötesine geçti.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Susan J. Barnes vd., Van Dyck: A Complete Catalogue (Yale UP, 2004)" },
 
-{ t:"1625-03-28",
+{ taraflar:["cenova"], t:"1625-03-28",
   b:"Savoya-Fransız saldırısının püskürtülmesi",
   tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","savunma","konu-askeri"],
@@ -689,7 +689,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Savoya Dükü I. Carlo Emanuele, Fransa ile birleşip cumhuriyeti ortadan kaldırmak üzere Ligurya'yı işgal etti; Cenova İspanyol yardımıyla direndi ve saldırı geri püskürtüldü. Savaş, Cenova'nın kendi başına savunulamayacağını gösterdi. Cumhuriyet bunun üzerine yeni bir sur sistemine karar verdi.",
   kaynak:"Kirk, Genoa and the Sea" },
 
-{ t:"1632-01-01",
+{ taraflar:["cenova"], t:"1632-01-01",
   b:"Mura Nuove'nin tamamlanması — Avrupa'nın en uzun şehir surlarından biri",
   tur:"mimari", onem:4, dunya:2, kapsam:"ic",
   etiket:["mimari","askeri","sehircilik","imar","konu-askeri","konu-imar"],
@@ -697,7 +697,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"1625 saldırısından sonra başlatılan yeni surlar, şehrin arkasındaki tepeleri de içine alarak yaklaşık yirmi kilometrelik bir hat oluşturdu. Maliyet, cumhuriyetin yıllık gelirinin katlarına ulaştı ve borçlanmayla karşılandı. Sur bir daha ciddi bir kuşatmaya uğramadı; en pahalı yatırımı hiç sınanmadı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Kirk, Genoa and the Sea" },
 
-{ t:"1637-03-25",
+{ taraflar:["cenova"], t:"1637-03-25",
   b:"Meryem Ana'nın Cenova Kraliçesi ilan edilmesi — taçsız cumhuriyetin tacı",
   tur:"din", onem:4, dunya:1, kapsam:"ic",
   etiket:["din","siyaset","toren","konu-siyasi","konu-din","konu-kultur"],
@@ -705,7 +705,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cumhuriyet, Avrupa protokolünde krallıkların gerisinde kalmamak için Meryem Ana'yı şehrin kraliçesi ilan etti ve doge'ye kraliyet unvanı ('Serenissimo') tanıdı. Böylece taç bir insana değil bir azizeye verildi, cumhuriyetçi ilke bozulmadan hükümdarlık statüsü elde edildi. Diplomatik bir sorunun dinî bir çözümle aşılmasıdır.",
   kaynak:"Kirk, Genoa and the Sea; Bitossi, Il governo dei magnifici" },
 
-{ t:"1656-07-01",
+{ taraflar:["cenova"], t:"1656-07-01",
   b:"Büyük veba — nüfusun yarısının ölümü",
   tur:"salgin", onem:5, dunya:2, kapsam:"ic",
   etiket:["salgin","demografi","felaket","konu-kisiler","konu-demografi","afet","afet-salgin"],
@@ -713,7 +713,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Napoli'den yayılan veba Cenova'ya ulaştı ve bir yıl içinde yaklaşık altmış bin kişiyi, yani şehir nüfusunun yarısını öldürdü. Liman aylarca kapandı, panayır trafiği durdu. Salgın, Ceneviz malî üstünlüğünün zaten aşınmakta olan temelini kalıcı olarak zayıflattı.",
   kaynak:"Kirk, Genoa and the Sea" },
 
-{ t:"1684-05-17",
+{ taraflar:["cenova"], t:"1684-05-17",
   b:"Fransız donanmasının Cenova'yı bombalaması",
   tur:"kriz", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","felaket","konu-askeri","konu-siyasi","konu-diplomasi"],
@@ -721,7 +721,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"XIV. Louis, cumhuriyetin İspanya'ya kadırga satmasını bahane ederek Abraham Duquesne'in filosunu gönderdi; on gün boyunca şehre on üç bini aşkın gülle atıldı ve merkez harap oldu. Cenova teslim olmak zorunda kaldı. Bir tarafsız cumhuriyetin büyük güçler çağında ne kadar savunmasız olduğunun en açık örneğidir.",
   kaynak:"Kirk, Genoa and the Sea" },
 
-{ t:"1685-05-15",
+{ taraflar:["cenova"], t:"1685-05-15",
   b:"Doge Lercari'nin Versailles'da özür dilemesi — cumhuriyetin diz çökmesi",
   tur:"diplomasi", onem:5, dunya:2, kapsam:"dis",
   etiket:["diplomasi","toren","kriz","konu-siyasi","konu-diplomasi","konu-kultur"],
@@ -731,7 +731,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 /* ═══════════════════ VI. KORSİKA, ÇÖKÜŞ VE SON (1700-1797) ══════════════════ */
 
-{ t:"1729-12-01",
+{ taraflar:["cenova"], t:"1729-12-01",
   b:"Korsika isyanının başlaması — kırk yıllık sömürge savaşı",
   tur:"isyan", onem:5, dunya:2, kapsam:"dis",
   etiket:["isyan","koloni","askeri","konu-askeri","konu-siyasi","konu-isyan"],
@@ -739,7 +739,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Yeni bir vergi yüzünden başlayan köylü ayaklanması bütün adaya yayıldı ve Cenova'nın Korsika'daki iki yüz yıllık idaresini sarstı. Cumhuriyet isyanı kendi gücüyle bastıramadı, önce Avusturya sonra Fransa'dan asker istedi. Adayı elde tutmanın maliyeti, adadan alınan gelirin katlarına çıktı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Kirk, Genoa and the Sea; Antoine-Marie Graziani, Histoire de Gênes (Fayard, 2009)" },
 
-{ t:"1735-01-30",
+{ taraflar:["cenova"], t:"1735-01-30",
   b:"Korsikalıların bağımsızlık ilanı — Corte anayasası",
   tur:"anayasa", onem:4, dunya:2, kapsam:"dis",
   etiket:["isyan","koloni","anayasa","islahat","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
@@ -747,7 +747,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Corte'de toplanan Korsika meclisi Cenova'dan ayrıldığını ilan etti ve kendi anayasasını kabul etti. Cumhuriyet ilanı Avrupa'da tanınmadı ama ada fiilen elden çıktı. Cenova bundan sonra yalnız kıyı kalelerini tutabildi.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Graziani, Histoire de Gênes" },
 
-{ t:"1746-09-06",
+{ taraflar:["cenova"], t:"1746-09-06",
   b:"Avusturya ordusunun Cenova'yı işgali",
   tur:"isgal", onem:5, dunya:2, kapsam:"ic",
   etiket:["isgal","askeri","kriz","konu-askeri","konu-siyasi"],
@@ -763,7 +763,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Avusturyalı askerler bir havan topunu çamurdan çıkarmak için halkı zorlarken, Giovan Battista Perasso ('Balilla') adlı çocuğun attığı taşla mahalle ayaklandı; beş gün içinde işgal ordusu şehirden atıldı. Halk, soylu hükümetin başaramadığını başardı. Olay, İtalyan birleşme hareketinin ilk halk kahramanlığı efsanesi olarak XIX. yüzyılda yeniden keşfedildi.",
   kaynak:"Graziani, Histoire de Gênes; Kirk, Genoa and the Sea" },
 
-{ t:"1747-07-06",
+{ taraflar:["cenova"], t:"1747-07-06",
   b:"Avusturya kuşatmasının kaldırılması — bağımsızlığın korunması",
   tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["askeri","savunma","konu-askeri"],
@@ -771,7 +771,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Geri dönen Avusturya-Piyemonte ordusu şehri yeniden kuşattı, ancak Fransız yardımı ve halkın direnişiyle kuşatma kırıldı. Aix-la-Chapelle Barışı Cenova'nın toprak bütünlüğünü tanıdı. Bu, cumhuriyetin kendi başına kazandığı son askerî başarıdır.",
   kaynak:"Graziani, Histoire de Gênes" },
 
-{ t:"1755-11-18",
+{ taraflar:["cenova"], t:"1755-11-18",
   b:"Paoli'nin Korsika Cumhuriyeti ve anayasası",
   tur:"anayasa", onem:4, dunya:3, kapsam:"dis",
   etiket:["koloni","anayasa","isyan","islahat","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
@@ -787,7 +787,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Versailles Antlaşması'yla Cenova, isyanı bastıramadığı Korsika üzerindeki haklarını borçlarına karşılık Fransa'ya devretti. Ertesi yıl Napolyon Bonapart Fransız tebaası olarak Korsika'da doğacaktı. Cumhuriyet, denizaşırı son toprağını savaşarak değil satarak kaybetti.",
   kaynak:"TDV 'ceneviz'; Graziani, Histoire de Gênes" },
 
-{ t:"1782-10-27",
+{ taraflar:["cenova"], t:"1782-10-27",
   b:"Niccolò Paganini'nin Cenova'da doğması",
   tur:"kultur", onem:3, dunya:3, kapsam:"ic",
   etiket:["muzik","kultur","konu-sanat","konu-kultur"],
@@ -824,7 +824,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
  * Yukarıdaki altı bölüm ağırlıkla siyasî-askerîdir; bu bölüm dengeyi kurar.
  * Kronolojik sıra korunur, ayrı bölüm olması yalnız yazım düzenidir.        */
 
-{ t:"1311-01-02",
+{ taraflar:["cenova"], t:"1311-01-02",
   b:"Pietro Vesconte'nin portolan haritası — imzalı ve tarihli ilk deniz haritası",
   tur:"bilim", onem:4, dunya:4, kapsam:"ic",
   etiket:["teknoloji","denizcilik","bilim","konu-askeri","konu-bilim"],
@@ -832,7 +832,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli haritacı Pietro Vesconte, elimizdeki en eski imzalı ve tarihli portolan haritasını çizdi. Rüzgârgülü ağıyla örülmüş bu haritalar, pusulayla birlikte kullanıldığında açık denizde rota tutmayı mümkün kılıyordu. Vesconte ve ardılları Akdeniz kıyı çizgisini öyle doğru verdiler ki, çizimleri XVIII. yüzyıla kadar aşılamadı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Tony Campbell, 'Portolan Charts from the Late Thirteenth Century to 1500', The History of Cartography, c. I (University of Chicago Press, 1987)" },
 
-{ t:"1320-01-01",
+{ taraflar:["cenova"], t:"1320-01-01",
   b:"Ceneviz kadife ve ipekçiliğinin kurumsallaşması",
   tur:"ekonomi", onem:3, dunya:2, kapsam:"ic",
   etiket:["zanaat","ticaret","lonca","konu-ekonomi","konu-sanat"],
@@ -840,7 +840,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Lucca'dan gelen usta göçüyle Cenova'da ipek dokumacılığı lonca düzenine kavuştu; 'velluto di Genova' Avrupa saraylarında aranan bir mal oldu. Şehir bundan böyle yalnız taşıyıcı değil üretici olarak da kazanıyordu. Dokuma, XIX. yüzyıla kadar limandan sonraki en büyük istihdam alanı olarak kaldı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Cambridge Economic History of Europe, c. II; Epstein, Genoa and the Genoese" },
 
-{ t:"1381-09-01",
+{ taraflar:["cenova"], t:"1381-09-01",
   b:"Savaş borçlarının tek bir gövdede toplanması — 'compere' sisteminin olgunlaşması",
   tur:"ekonomi", onem:4, dunya:3, kapsam:"ic",
   etiket:["finans","hukuk","idari","konu-idari","konu-ekonomi","konu-hukuk"],
@@ -848,7 +848,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Chioggia Savaşı'nın devi bitirdiği hazine, alacaklılara belirli vergilerin gelirini rehin veren 'compere' ortaklıklarıyla ayakta tutuldu; bu paylar el değiştirebiliyor, yani devlet borcu alınıp satılabilen bir menkul kıymete dönüşüyordu. Cenova, kamu borcunu piyasalaştıran ilk Avrupa devletidir. Bu sistem yirmi altı yıl sonra Banco di San Giorgio'da tek çatı altında toplanacaktı.",
   kaynak:"Cambridge Economic History of Europe, c. III; Epstein, Genoa and the Genoese" },
 
-{ t:"1410-01-01",
+{ taraflar:["cenova"], t:"1410-01-01",
   b:"Cenevizli sermayenin Atlantik şeker plantasyonlarını kurması",
   tur:"ekonomi", onem:4, dunya:4, kapsam:"dis",
   etiket:["ticaret","finans","teknoloji","konu-bilim","konu-ekonomi"],
@@ -856,7 +856,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Sakız ve Kıbrıs'ta öğrenilen şekerkamışı işletmeciliği, Cenevizli tüccarların parası ve teknik adamlarıyla önce Madeira'ya sonra Kanarya'ya taşındı. Plantasyon + köle emeği + uzak pazar birleşimi burada denendi ve sonra Atlantik'in öbür yakasına geçti. Cenova, sömürge plantasyon iktisadının patent sahibi olmasa da mucididir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Fernández-Armesto, Before Columbus; Cambridge Economic History of Europe, c. IV" },
 
-{ t:"1456-01-01",
+{ taraflar:["cenova"], t:"1456-01-01",
   b:"Antonio da Noli'nin Yeşilburun Adaları'na ulaşması",
   tur:"bilim", onem:3, dunya:3, kapsam:"dis",
   etiket:["kesif","denizcilik","konu-askeri","konu-bilim","konu-kesif"],
@@ -864,7 +864,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli kaptan Antonio da Noli, Portekiz hizmetinde Atlantik'e açılıp Yeşilburun (Cabo Verde) adalarını buldu ve adaların ilk valisi oldu. Cenevizli denizciler Portekiz keşiflerinin her aşamasında vardı ama hiçbirinde kendi cumhuriyetlerinin bayrağını taşımadılar. Cenova insanını ihraç etti, seferini değil.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Fernández-Armesto, Before Columbus" },
 
-{ t:"1457-01-02",
+{ taraflar:["cenova"], t:"1457-01-02",
   b:"Cenova dünya haritası — Asya'nın Batı'da yeniden çizilmesi",
   tur:"bilim", onem:4, dunya:3, kapsam:"ic",
   etiket:["teknoloji","kesif","bilim","konu-bilim","konu-kesif"],
@@ -872,7 +872,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bugün Floransa'da saklanan ve 'Cenova haritası' diye anılan dünya haritası, Niccolò de' Conti'nin Hint Okyanusu anlatısını kullanarak Afrika'nın güneyden dolaşılabileceğini gösterdi. Harita, Ptolemaios'un kapalı Hint Okyanusu tasavvurunu terk eden ilk örneklerdendir. Kolomb kuşağının coğrafî hayal gücü bu tür haritalarla beslendi.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Campbell, The History of Cartography, c. I" },
 
-{ t:"1471-06-01",
+{ taraflar:["cenova"], t:"1471-06-01",
   b:"Cenova'da matbaanın kurulması",
   tur:"bilim", onem:3, dunya:3, kapsam:"ic",
   etiket:["teknoloji","kultur","bilim","imar","islahat","konu-bilim","konu-kultur","konu-imar","konu-islahat"],
@@ -880,7 +880,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Alman gezgin basımcılar Ligurya'ya gelip ilk baskıları yaptı; şehir Venedik'in gerisinde kalsa da matbaayı erken tanıdı. Cenova'nın basım hayatı ticarî oldu: kanun derlemeleri, hesap kitapları, deniz hukuku metinleri. Edebî yayıncılıkta hiçbir zaman Venedik'e yaklaşamadı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Epstein, Genoa and the Genoese" },
 
-{ t:"1492-08-02",
+{ taraflar:["cenova"], t:"1492-08-02",
   b:"İspanya'dan sürülen Yahudilerin Cenova limanına gelmesi",
   tur:"din", onem:3, dunya:3, kapsam:"ic",
   etiket:["goc","din","sosyal","konu-din","konu-sosyal","konu-demografi"],
@@ -888,7 +888,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Alhambra Fermanı'yla sürülen Sefarad Yahudilerinin bir bölümü Cenova'ya sığındı; cumhuriyet onlara yalnız birkaç günlük konaklama izni verdi ve iskele üzerinde bekletti. Kalıcı yerleşime izin verilmedi, gemiler doğuya yönlendirildi. Aynı kafileleri Osmanlı Devleti kabul edip iskân etti — iki devletin aynı olaya verdiği cevap keskin biçimde ayrışır.",
   kaynak:"bulunamadı — TDV 'yahudiler' maddesi bu ayrıntıyı vermiyor; dayanak: Rossana Urbani – Guido Nathan Zazzu, The Jews in Genoa (Brill, 1999)" },
 
-{ t:"1510-09-15",
+{ taraflar:["cenova"], t:"1510-09-15",
   b:"Cenovalı Katerina'nın ölümü — hastane hizmetinin azizeye dönüşmesi",
   tur:"din", onem:3, dunya:2, kapsam:"ic",
   etiket:["din","sosyal","saglik","konu-kisiler","konu-bilim","konu-din","konu-sosyal"],
@@ -896,7 +896,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Soylu bir aileden gelen Caterina Fieschi Adorno, hayatının otuz yılını Pammatone Hastanesi'nde veba hastalarına bakarak geçirdi ve hastanenin yöneticiliğini yaptı. 'Arafa Dair İnceleme' adlı mistik risalesi Katolik ilâhiyatında etkili oldu. Cenova'nın ürettiği en tanınmış dinî şahsiyettir; 1737'de aziz ilan edildi.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Catherine of Genoa, Purgation and Purgatory (Paulist Press neşri, 1979) ve Epstein, Genoa and the Genoese" },
 
-{ t:"1528-10-01",
+{ taraflar:["cenova"], t:"1528-10-01",
   b:"Yirmi sekiz 'albergo' — soyluluğun mühendislikle yeniden kurulması",
   tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","sosyal","hukuk","konu-idari","konu-sosyal","konu-hukuk"],
@@ -904,7 +904,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Yeni anayasa, şehirdeki bütün siyasî hakları yirmi sekiz yapay 'aile'ye (albergo) dağıttı; küçük soylular ve zengin tüccarlar bu çatılardan birine girip adını değiştirmek zorunda kaldı. Yüzlerce aile böylece Doria, Spinola, Grimaldi gibi adları aldı. Toplumsal mühendisliğin erken ve açık bir örneğidir: hizip savaşını bitirmek için akrabalık icat edildi.",
   kaynak:"Kirk, Genoa and the Sea; Bitossi, Il governo dei magnifici" },
 
-{ t:"1535-01-02",
+{ taraflar:["cenova"], t:"1535-01-02",
   b:"Besançon panayırlarının kurulması — Ceneviz kredisinin Avrupa'ya açılması",
   tur:"ekonomi", onem:4, dunya:3, kapsam:"dis",
   etiket:["finans","ticaret","kurulus","konu-siyasi","konu-ekonomi"],
@@ -912,7 +912,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"V. Karl, Cenevizli bankerlerin poliçe panayırlarını imparatorluk toprağı Besançon'da toplamalarına izin verdi; böylece Lyon'daki Fransız denetiminden kurtuldular. Panayır adını korudu ama zamanla Savoya'ya, sonra 1579'da Piacenza'ya taşındı. Adı bir yerde, kendisi başka yerde olan bu kurum, Ceneviz finansının fiziksel mekândan bağımsızlaştığının işaretidir.",
   kaynak:"Braudel, La Méditerranée; Cambridge Economic History of Europe, c. IV" },
 
-{ t:"1550-04-02",
+{ taraflar:["cenova"], t:"1550-04-02",
   b:"Yahudilerin cumhuriyet topraklarından çıkarılması",
   tur:"din", onem:3, dunya:1, kapsam:"ic",
   etiket:["din","sosyal","goc","konu-din","konu-sosyal","konu-demografi"],
@@ -920,7 +920,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Senato, kısa süre önce yerleşmelerine izin verdiği Yahudi ailelerin cumhuriyet topraklarını terk etmesine karar verdi. Karar tüccar loncalarının rekabet kaygısıyla alındı, dinî gerekçe ikincildi. Yüz yıldan uzun bir aradan sonra 1660'ta bir getto düzeniyle geri dönüşe izin verilecekti.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Urbani – Zazzu, The Jews in Genoa" },
 
-{ t:"1552-01-02",
+{ taraflar:["cenova"], t:"1552-01-02",
   b:"Carignano Bazilikası'nın inşasına başlanması — Alessi'nin merkezî planı",
   tur:"mimari", onem:3, dunya:2, kapsam:"ic",
   etiket:["mimari","din","kultur","imar","konu-din","konu-kultur","konu-imar"],
@@ -928,7 +928,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Sauli ailesinin bağışıyla, Galeazzo Alessi'nin tasarladığı merkezî planlı Santa Maria Assunta kilisesinin temeli atıldı. Yapı, Bramante'nin Aziz Petrus için düşündüğü Yunan haçı şemasının gerçekten inşa edilmiş en olgun örneklerindendir. Bir ailenin parasıyla dikilen kilise, cumhuriyette servetin nasıl prestije çevrildiğini gösterir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Poleggi, Strada Nuova; standart Rönesans mimarlığı el kitapları" },
 
-{ t:"1565-01-01",
+{ taraflar:["cenova"], t:"1565-01-01",
   b:"Luca Cambiaso'nun freskleri — Ceneviz resim okulunun doğuşu",
   tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["kultur","kultur","konu-sanat","konu-kultur","konu-egitim"],
@@ -936,7 +936,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Luca Cambiaso, Strada Nuova saraylarının tavanlarını geometrik biçimlere indirgenmiş figürleriyle donattı; bu 'kübik' çizimler dört yüz yıl sonra modern ressamların ilgisini çekecekti. Cenova ilk kez ithal değil kendi yetiştirdiği ustayla anılır oldu. Cambiaso ömrünün sonunda İspanya'ya çağrıldı ve Escorial'de öldü.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Jonathan Bober (ed.), Luca Cambiaso 1527-1585 (Silvana, 2006)" },
 
-{ t:"1590-06-01",
+{ taraflar:["cenova"], t:"1590-06-01",
   b:"Serbest liman uygulaması — tahılın gümrüksüz girişi",
   tur:"ekonomi", onem:3, dunya:2, kapsam:"ic",
   etiket:["ticaret","idari","kitlik","konu-idari","konu-ekonomi","afet","afet-kitlik"],
@@ -944,7 +944,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kıtlık sırasında cumhuriyet, tahıl getiren her gemiye gümrük muafiyeti tanıyarak limanı fiilen serbest bölgeye çevirdi. Uygulama kalıcılaştı ve Cenova'yı Livorno ile rekabet edebilir kıldı. Bir acil durum tedbirinin kalıcı bir iktisat siyasetine dönüşmesidir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Kirk, Genoa and the Sea" },
 
-{ t:"1600-01-01",
+{ taraflar:["cenova"], t:"1600-01-01",
   b:"Ceneviz bankerlerinin İspanyol asientolarındaki tekeli",
   tur:"ekonomi", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","ticaret","konu-ekonomi"],
@@ -952,7 +952,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Yüzyılın başında İspanya tacının kısa vadeli borçlanmalarının (asiento) neredeyse tamamı Cenevizli evlerin elindeydi; Sevilla'ya inen Amerikan gümüşü, Flandre'daki orduya Ceneviz poliçesiyle ulaşıyordu. Bir liman şehri, bir kıta imparatorluğunun nakit akışını yönetiyordu. Braudel'in 'Cenevizlilerin Yüzyılı' dediği dönemin zirvesi budur.",
   kaynak:"Braudel, La Méditerranée; Cambridge Economic History of Europe, c. IV" },
 
-{ t:"1627-01-31",
+{ taraflar:["cenova"], t:"1627-01-31",
   b:"İkinci İspanyol iflası — Ceneviz finans üstünlüğünün kırılması",
   tur:"kriz", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","kriz","ekonomi","konu-siyasi","konu-ekonomi"],
@@ -960,7 +960,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Olivares hükümeti borç ödemelerini durdurdu ve bu kez Cenevizlilerin yerine Portekizli dönme bankerlerle çalışmayı tercih etti. Ceneviz evleri tacın tek kredi kaynağı olmaktan çıktı. Cumhuriyetin serveti tükenmedi ama Avrupa maliyesindeki merkez konumu bir daha geri gelmedi.",
   kaynak:"Braudel, La Méditerranée; Cambridge Economic History of Europe, c. IV" },
 
-{ t:"1630-01-02",
+{ taraflar:["cenova"], t:"1630-01-02",
   b:"Bernardo Strozzi'nin Venedik'e gitmesi — Ceneviz Barok'unun ihracı",
   tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["kultur","kultur","goc","konu-kultur","konu-demografi"],
@@ -968,7 +968,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Kapuçin rahibi ve ressam Bernardo Strozzi, cumhuriyetle arası bozulunca Venedik'e yerleşti ve orada Barok resmin önde gelen ismi oldu. Cenova, yetiştirdiği sanatçıyı Venedik'e kaptırdı. Kültürel sermaye de tıpkı malî sermaye gibi şehri terk edebiliyordu.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: standart İtalyan Barok resmi el kitapları (Rudolf Wittkower, Art and Architecture in Italy 1600-1750)" },
 
-{ t:"1638-01-02",
+{ taraflar:["cenova"], t:"1638-01-02",
   b:"Baliani'nin 'De motu naturali gravium' kitabı — emme tulumbasının sınırı",
   tur:"bilim", onem:4, dunya:4, kapsam:"ic",
   etiket:["bilim","teknoloji","konu-bilim"],
@@ -976,7 +976,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenevizli senatör ve fizikçi Giovanni Battista Baliani, düşen cisimler üzerine kitabını yayımladı ve Galileo'ya yazdığı mektupta emme tulumbalarının suyu belirli bir yükseklikten fazla çekemediğini bildirdi. Bu gözlem, havanın ağırlığı fikrinin ve Torricelli'nin barometresinin doğrudan öncülüdür. Cenova'nın bilim tarihine en açık katkısı budur.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: W. E. Knowles Middleton, The History of the Barometer (Johns Hopkins Press, 1964)" },
 
-{ t:"1647-10-01",
+{ taraflar:["cenova"], t:"1647-10-01",
   b:"Üçüncü İspanyol iflasının Cenova'ya yansıması",
   tur:"kriz", onem:4, dunya:3, kapsam:"dis",
   etiket:["finans","kriz","konu-siyasi","konu-ekonomi"],
@@ -984,7 +984,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İspanya'nın yeni ödeme durdurması, Ceneviz ailelerinin elindeki alacakları bir kez daha düşük getirili tahvile çevirdi. Bankerler artık İspanya'dan çıkıp Roma, Venedik ve Papalık tahvillerine, giderek de toprak ve gayrimenkule yöneldi. Faal sermaye rantiye servetine dönüştü — cumhuriyetin iktisadî canlılığı bu geçişte söndü.",
   kaynak:"Cambridge Economic History of Europe, c. IV; Kirk, Genoa and the Sea" },
 
-{ t:"1660-01-02",
+{ taraflar:["cenova"], t:"1660-01-02",
   b:"Getto düzeniyle Yahudi cemaatinin geri dönüşü",
   tur:"din", onem:3, dunya:1, kapsam:"ic",
   etiket:["din","sosyal","ticaret","konu-ekonomi","konu-din","konu-sosyal"],
@@ -992,7 +992,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Livorno'nun serbest limanına akan ticareti geri çekmek isteyen cumhuriyet, belirli bir mahalle ile sınırlı kalmak şartıyla Yahudi tüccarların dönüşüne izin verdi. Karar ticarî hesapla alındı, tıpkı 1550'deki çıkarma kararı gibi. Cenova'nın hoşgörüsü de hoşgörüsüzlüğü de aynı kaynaktan beslenir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Urbani – Zazzu, The Jews in Genoa" },
 
-{ t:"1667-02-04",
+{ taraflar:["cenova"], t:"1667-02-04",
   b:"Alessandro Magnasco'nun doğumu — geç Ceneviz resminin son büyük adı",
   tur:"kultur", onem:2, dunya:2, kapsam:"ic",
   etiket:["kultur","kultur","konu-kisiler","konu-kultur"],
@@ -1000,7 +1000,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fırtınalı manzaraları, dilenci ve keşiş kalabalıklarıyla tanınan Magnasco Cenova'da doğdu; hayatının çoğunu Milano'da geçirip yaşlılığında memleketine döndü. Resimlerindeki karanlık ve tedirgin atmosfer, çöküş hâlindeki bir cumhuriyetin ruh hâline benzetilir. Cenova'nın büyük ressamlar çıkardığı çağ onunla kapanır.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Wittkower, Art and Architecture in Italy 1600-1750" },
 
-{ t:"1684-06-01",
+{ taraflar:["cenova"], t:"1684-06-01",
   b:"Bombardıman sonrası şehrin yeniden inşası",
   tur:"mimari", onem:3, dunya:1, kapsam:"ic",
   etiket:["mimari","sehircilik","kriz","imar","konu-siyasi","konu-imar"],
@@ -1008,7 +1008,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransız güllelerinin yıktığı mahalleler, Banco di San Giorgio'nun açtığı krediyle yeniden yapıldı ve bu vesileyle bazı dar sokaklar genişletildi. Yıkım, şehircilik açısından istemeden bir yenilenme fırsatı oldu. Ama borç yükü cumhuriyetin son yüzyılına miras kaldı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Graziani, Histoire de Gênes" },
 
-{ t:"1704-01-02",
+{ taraflar:["cenova"], t:"1704-01-02",
   b:"İspanya Veraset Savaşı'nda tarafsızlık kararı",
   tur:"diplomasi", onem:4, dunya:2, kapsam:"dis",
   etiket:["diplomasi","savunma","konu-askeri","konu-diplomasi"],
@@ -1016,7 +1016,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cumhuriyet, iki yüz yıllık İspanya bağlılığına rağmen savaşta taraf tutmayıp tarafsızlığını ilan etti ve limanını her iki tarafa da kapattı. Karar ticareti korudu ama Cenova'yı büyük güçlerin gözünde önemsizleştirdi. Tarafsızlık, güçlü olanın değil güçsüzün siyasetidir ve korunma garantisi getirmez — 1746 işgali bunu gösterecekti.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Graziani, Histoire de Gênes; Kirk, Genoa and the Sea" },
 
-{ t:"1713-01-02",
+{ taraflar:["cenova"], t:"1713-01-02",
   b:"Finale Ligure'nin satın alınması — cumhuriyetin son toprak kazancı",
   tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis",
   etiket:["toprak-kazanc","finans","diplomasi","konu-askeri","konu-diplomasi","konu-ekonomi"],
@@ -1024,7 +1024,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cenova, Ligurya kıyısındaki İspanyol markiliği Finale'yi İmparator VI. Karl'dan büyük bir meblağ ödeyerek satın aldı ve kıyı hattındaki son boşluğu kapattı. Toprağın savaşla değil parayla alınması, cumhuriyetin geç dönemdeki karakterini özetler. Bu, Cenova'nın tarihindeki son toprak kazancıdır; bundan sonra yalnız kaybedecektir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Graziani, Histoire de Gênes" },
 
-{ t:"1751-01-02",
+{ taraflar:["cenova"], t:"1751-01-02",
   b:"Accademia Ligustica'nın kurulması — sanat eğitiminin kurumsallaşması",
   tur:"kultur", onem:2, dunya:1, kapsam:"ic",
   etiket:["egitim","kultur","kurulus","konu-siyasi","konu-kultur","konu-egitim"],
@@ -1032,7 +1032,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Soylu bir grubun girişimiyle güzel sanatlar akademisi kuruldu; resim, heykel ve mimarlık eğitimi lonca çıraklığından çıkıp okula taşındı. Kurum, cumhuriyetin son yarım yüzyılındaki en dikkate değer kültür yatırımıdır. Bugün de aynı adla faaliyettedir.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: Graziani, Histoire de Gênes" },
 
-{ t:"1786-01-02",
+{ taraflar:["cenova"], t:"1786-01-02",
   b:"Cumhuriyetin son nüfus ve gelir dökümü — küçülmüş bir devletin bilançosu",
   tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["demografi","idari","ekonomi","konu-idari","konu-ekonomi","konu-demografi"],
@@ -1054,7 +1054,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
  * = 0,007 madde/yıl. Siena ile birlikte külliyatın EN AÇ iki künyesi.
  * ═════════════════════════════════════════════════════════════════════════ */
 
-{ t:"1281-01-02",
+{ taraflar:["ferrara"], t:"1281-01-02",
   b:"XIII. yüzyıl sonunda Este Devleti — Po ovasının efendisi", ic_not_b:"eski b: Atlasın açılışında Este Devleti — Po ovasının efendisi",
   tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
   etiket:["kurulus","idari","konu-siyasi","konu-idari"],
@@ -1062,7 +1062,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Atlas açıldığında Este ailesi kırk yıldır Ferrara'nın efendisidir ve Modena ile Reggio'ya doğru genişlemektedir. Aile, unvanını ne imparatordan ne papadan almıştır; şehir meclisinin kendisine verdiği 'signore' sıfatıyla yönetir. İtalya'nın komün cumhuriyetlerinden senyörlüklere geçişinin en erken ve en kalıcı örneğidir.",
   kaynak:"bulunamadı — TDV'de `ferrara`/`este` maddesi YOK (302, ölçüldü); dayanak: Trevor Dean, Land and Power in Late Medieval Ferrara (Cambridge UP, 1988)" },
 
-{ t:"1288-06-01",
+{ taraflar:["ferrara"], t:"1288-06-01",
   b:"Modena'nın Este hâkimiyetine girmesi — iki başlı devletin doğuşu",
   tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis",
   etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
@@ -1070,7 +1070,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Modena komünü, kendi hizip savaşlarını bitirmek için Obizzo II d'Este'yi senyör olarak çağırdı; ertesi yıl Reggio da aynı yolu izledi. Este devleti bundan böyle iki merkezli yaşayacak — Ferrara papalık, Modena imparatorluk toprağı sayıldığı için hukukî statüleri bile farklıydı. Bu ikilik 1598'de devletin hayatını kurtaracaktır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1308-09-01",
+{ taraflar:["ferrara"], t:"1308-09-01",
   b:"Ferrara Savaşı — Venedik'in şehri işgali",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","rekabet","kriz","konu-askeri","konu-siyasi"],
@@ -1078,7 +1078,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Este hânedanında veraset kavgası çıkınca Venedik, Po ağzındaki tuz ve nehir ticaretini denetlemek için Ferrara'ya asker soktu. Papalık şehri kendi tımarı sayıyordu ve müdahaleyi tanımadı. Venedik'in kara İtalyası'na ilk büyük müdahalesi budur ve ağır bir bedelle sonuçlanacaktır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1309-03-27",
+{ taraflar:["ferrara"], t:"1309-03-27",
   b:"Venedik'in aforoz edilmesi ve Ferrara'dan çıkarılması",
   tur:"din", onem:5, dunya:3, kapsam:"dis",
   etiket:["din","diplomasi","askeri","konu-askeri","konu-diplomasi","konu-din"],
@@ -1086,7 +1086,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papa V. Clement Venedik'i aforoz etti, Venedikli tüccarların malını bütün Hıristiyan âleminde haczedilebilir ilan etti ve şehre karşı haçlı seferi çağrısı yaptı. Venedik ertesi yıl Ferrara'yı boşaltmak zorunda kaldı. Dinî yaptırımın bir ticaret devletini dize getirdiği ender vakalardandır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara; Frederic C. Lane, Venice: A Maritime Republic (Johns Hopkins UP, 1973)" },
 
-{ t:"1332-01-02",
+{ taraflar:["ferrara"], t:"1332-01-02",
   b:"Este'lerin papalık vekili olarak tanınması — hukukî statünün kurulması",
   tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","hukuk","din","konu-idari","konu-din","konu-hukuk"],
@@ -1094,7 +1094,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Uzun çekişmeden sonra papalık, Este'leri Ferrara'nın 'vicarius' u olarak tanıdı; aile artık kilisenin kiracısı sıfatıyla, yıllık vergi ödeyerek meşru biçimde yönetiyordu. Statü hem koruma hem tuzaktı: erkek soy tükenirse toprak papalığa dönecekti. 1598'de tam bu madde işleyecektir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1391-03-04",
+{ taraflar:["ferrara"], t:"1391-03-04",
   b:"Ferrara Üniversitesi'nin kurulması",
   tur:"bilim", onem:4, dunya:3, kapsam:"ic",
   etiket:["egitim","bilim","kurulus","konu-siyasi","konu-bilim","konu-egitim"],
@@ -1102,7 +1102,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papalık beratıyla Ferrara'da hukuk, tıp ve sanat okutan bir studium generale açıldı. Küçük bir devletin üniversite kurması, Este siyasetinin özetidir: askerî güçle yarışamayacağı için itibarla yarışacaktır. Üniversite bir asır içinde Avrupa'nın en aranan tıp okullarından biri olacaktı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara; Hilde de Ridder-Symoens (ed.), A History of the University in Europe, c. I (Cambridge UP, 1992)" },
 
-{ t:"1425-05-21",
+{ taraflar:["ferrara"], t:"1425-05-21",
   b:"Parisina Malatesta ve Ugo d'Este'nin idamı — hânedan içi trajedi",
   tur:"kriz", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -1110,7 +1110,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Marki Niccolò III, karısı Parisina ile üvey oğlu Ugo'nun ilişkisini öğrenince ikisini de kale zindanında başlattı. Olay bütün İtalya'da anlatıldı ve yüzyıllar boyunca şiire, operaya, romana konu oldu. Byron'ın 'Parisina'sı bu vakadır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1429-01-02",
+{ taraflar:["ferrara"], t:"1429-01-02",
   b:"Guarino da Verona'nın Ferrara'ya çağrılması — hümanist sarayın kuruluşu",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["egitim","kultur","felsefe","konu-din","konu-kultur","konu-imar","konu-egitim"],
@@ -1118,7 +1118,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Niccolò III, Yunanca bilen hümanist Guarino'yu oğlu Leonello'nun hocası olarak getirtti; Guarino Ferrara'da otuz yıl ders verdi ve bütün Avrupa'dan öğrenci çekti. Buradan yetişenler İngiltere'den Macaristan'a kadar saraylara dağıldı. Ferrara, İtalyan hümanizminin Floransa'dan sonraki ikinci merkezidir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Ridder-Symoens (ed.), A History of the University in Europe, c. I; Dean, Land and Power" },
 
-{ t:"1438-01-08",
+{ taraflar:["ferrara"], t:"1438-01-08",
   b:"Ferrara Konsili'nin açılması — Doğu ve Batı kiliselerinin şehirde buluşması",
   tur:"din", onem:5, dunya:4, kapsam:"dis",
   etiket:["din","diplomasi","kultur","konu-diplomasi","konu-din","konu-kultur","konu-kesif"],
@@ -1126,7 +1126,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bizans İmparatoru VIII. Ioannes, Patrik II. Iosephos ve yedi yüz kişilik Doğu heyeti Ferrara'ya geldi; kilise birliği görüşmeleri burada başladı. Veba yüzünden konsil ertesi yıl Floransa'ya taşındı ama açılış ve ilk oturumlar Ferrara'nındır. Küçük bir markilik, birkaç ay boyunca Hıristiyan dünyasının merkezi oldu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Joseph Gill, The Council of Florence (Cambridge UP, 1959)" },
 
-{ t:"1452-05-18",
+{ taraflar:["ferrara"], t:"1452-05-18",
   b:"Borso d'Este'nin Modena ve Reggio dükü ilan edilmesi",
   tur:"hukumdar", onem:5, dunya:2, kapsam:"dis",
   etiket:["hanedan","diplomasi","idari","konu-idari","konu-diplomasi","konu-hanedan"],
@@ -1134,7 +1134,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İmparator III. Friedrich, Roma'ya taç giymeye giderken Ferrara'da ağırlandı ve Borso'yu imparatorluk toprağı olan Modena ile Reggio'nun dükü ilan etti. Este ailesi böylece ilk kez hükümdar unvanı taşıdı. Borso, unvanı satın almış olmaktan gurur duyar ve bunu resmî tarihlerine yazdırırdı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1470-01-02",
+{ taraflar:["ferrara"], t:"1470-01-02",
   b:"Schifanoia Sarayı'nın Aylar Salonu — Rönesans'ın en büyük seküler fresk döngüsü",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["kultur","kultur","bilim","konu-bilim","konu-kultur","konu-imar"],
@@ -1142,7 +1142,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cosmè Tura, Francesco del Cossa ve Ercole de' Roberti, Borso'nun köşkünde on iki ayı burçlar, tanrılar ve saray hayatı sahneleriyle resmetti. Dinî değil astrolojik ve dünyevî bir program izleyen bu döngü, Rönesans resminin en özgün işlerindendir. Aby Warburg'un ikonografi yöntemi bu duvarlar üzerinde doğdu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Aby Warburg, 'Italienische Kunst und internationale Astrologie im Palazzo Schifanoia zu Ferrara' (1912); Wittkower ve standart Rönesans el kitapları" },
 
-{ t:"1471-04-14",
+{ taraflar:["ferrara"], t:"1471-04-14",
   b:"Ferrara dükalığının papalıkça tanınması",
   tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["hanedan","din","idari","konu-idari","konu-hanedan","konu-din"],
@@ -1150,7 +1150,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papa II. Paul, Borso'yu Ferrara dükü ilan etti; aile böylece hem imparatorluk hem papalık tarafından hükümdar sayıldı. Borso törenden birkaç ay sonra öldü ve yerine kardeşi Ercole geçti. İki efendiye birden bağlı olmak Este'nin hem gücü hem kırılganlığıydı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1482-05-03",
+{ taraflar:["ferrara"], t:"1482-05-03",
   b:"Tuz Savaşı — Venedik ve Papalığın Ferrara'ya saldırması",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","ticaret","ittifak","konu-askeri","konu-diplomasi","konu-ekonomi"],
@@ -1158,7 +1158,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Comacchio tuzlalarının işletilmesi yüzünden Venedik, Papa IV. Sixtus'la birleşip Ferrara'ya savaş açtı; şehir kuşatıldı, kırsalı yakıldı. Dük Ercole I ölümcül hastalanırken karısı Eleonora d'Aragona savunmayı yönetti. Bir tuz anlaşmazlığının bütün İtalya'yı savaşa sokması, yarımadanın denge sisteminin ne kadar kırılgan olduğunu gösterir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; Lane, Venice: A Maritime Republic" },
 
-{ t:"1484-08-07",
+{ taraflar:["ferrara"], t:"1484-08-07",
   b:"Bagnolo Barışı — Polesine'nin Venedik'e bırakılması",
   tur:"antlasma", onem:5, dunya:2, kapsam:"dis",
   etiket:["diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -1166,7 +1166,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Savaşı bitiren barışla Este devleti, Po'nun kuzeyindeki verimli Polesine bölgesini Venedik'e bıraktı. Toprak kaybı devletin tahıl üretim kapasitesini kalıcı olarak düşürdü. Ferrara bundan sonra genişlemeyi bırakıp bataklık kurutmaya ve kültürel prestije yatırım yapacaktır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ t:"1492-09-02",
+{ taraflar:["ferrara"], t:"1492-09-02",
   b:"Addizione Erculea — Avrupa'nın ilk modern şehir genişletme planı",
   tur:"mimari", onem:5, dunya:4, kapsam:"ic",
   etiket:["sehircilik","mimari","teknoloji","islahat","imar","konu-bilim","konu-imar","konu-islahat"],
@@ -1174,7 +1174,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Dük Ercole I, mimar Biagio Rossetti'ye şehri kuzeye doğru iki katına çıkaran bir plan yaptırdı: geniş ve düz caddeler, planlı meydanlar, yeni surlar. Ortaçağ şehrine yamanan değil baştan tasarlanan bu genişleme, modern şehirciliğin ilk örneği sayılır ve Ferrara'nın UNESCO listesine girmesinin sebebidir. Bir dükalığın en kalıcı eseri savaşı değil planı oldu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bruno Zevi, Saper vedere l'urbanistica: Ferrara di Biagio Rossetti (Torino, 1960)" },
 
-{ t:"1492-11-20",
+{ taraflar:["ferrara"], t:"1492-11-20",
   b:"İspanya'dan sürülen Yahudilerin Ferrara'ya kabul edilmesi",
   tur:"din", onem:4, dunya:3, kapsam:"ic",
   etiket:["goc","din","sosyal","ticaret","konu-ekonomi","konu-din","konu-sosyal","konu-demografi"],
@@ -1182,7 +1182,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Dük Ercole I, Alhambra Fermanı'yla sürülen Sefarad ailelerini davet edip yerleşme, ticaret ve ibadet izni verdi. Ferrara böylece İtalya'daki en büyük Sefarad merkezlerinden biri oldu; 1553'te İbranice ve Ladino basımevleri burada çalışıyordu. Aynı yıl aynı kafileleri Cenova iskelede bekletip geri çevirmişti — iki İtalyan devletinin aynı olaya verdiği cevap taban tabana zıttır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Robert Bonfil, Jewish Life in Renaissance Italy (University of California Press, 1994)" },
 
-{ t:"1493-01-02",
+{ taraflar:["ferrara"], t:"1493-01-02",
   b:"Palazzo dei Diamanti'nin inşası — cephe mimarisinde bir buluş",
   tur:"mimari", onem:3, dunya:2, kapsam:"ic",
   etiket:["mimari","kultur","sehircilik","imar","konu-kultur","konu-imar","konu-kesif"],
@@ -1190,7 +1190,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Rossetti'nin planladığı yeni mahallenin köşesine, cephesi sekiz binden fazla elmas kesimli mermer blokla kaplı saray dikildi. Işığı köşegen kıran bu yüzey, bir sokağın perspektifini bilerek vurgulayan ilk tasarımlardandır. Yapı bugün Ferrara'nın simgesidir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Zevi, Saper vedere l'urbanistica" },
 
-{ t:"1502-02-02",
+{ taraflar:["ferrara"], t:"1502-02-02",
   b:"Lucrezia Borgia'nın Ferrara'ya gelin gelmesi",
   tur:"diplomasi", onem:4, dunya:2, kapsam:"dis",
   etiket:["hanedan","diplomasi","kultur","konu-diplomasi","konu-hanedan","konu-kultur"],
@@ -1198,7 +1198,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papa VI. Alexander'ın kızı Lucrezia, veliaht Alfonso d'Este ile evlendirildi; Este ailesi bu evliliği papalık baskısı altında kabul etti. Beklenenin aksine Lucrezia Ferrara'da sevilen bir düşes oldu, sarayı şair ve müzisyenlerle doldurdu. Siyasî bir mecburiyet, kültürel bir kazanca dönüştü.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; standart Rönesans İtalyası el kitapları" },
 
-{ t:"1503-05-31",
+{ taraflar:["ferrara"], t:"1503-05-31",
   b:"Kopernik'in Ferrara'da doktora alması",
   tur:"bilim", onem:3, dunya:4, kapsam:"ic",
   etiket:["egitim","bilim","konu-bilim","konu-egitim"],
@@ -1206,7 +1206,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Nicolaus Copernicus, Bologna ve Padova'daki öğreniminin ardından kanon hukuku doktorasını Ferrara Üniversitesi'nden aldı; küçük üniversite hem ucuz hem hızlıydı. Güneş merkezli sistemin kurucusu, resmî diplomasını bu şehirden taşıdı. Ferrara'nın bilim tarihindeki en tanınmış mezunudur.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Ridder-Symoens (ed.), A History of the University in Europe, c. I; Edward Rosen, Copernicus and His Successors (Hambledon, 1995)" },
 
-{ t:"1509-12-22",
+{ taraflar:["ferrara"], t:"1509-12-22",
   b:"Polesella Deniz Savaşı — Venedik nehir filosunun topla imhası",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","teknoloji","denizcilik","konu-askeri","konu-bilim"],
@@ -1214,7 +1214,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Dük Alfonso I, Po kıyısına gizlice yerleştirdiği toplarla Venedik nehir donanmasını birkaç saatte batırdı. Alfonso topçuluğa saplantı derecesinde meraklıydı, kendi tunç dökümhanesini kurmuştu ve topları bizzat tasarlıyordu. Savaş, sahra topçuluğunun bir donanmayı tek başına yok edebildiği ilk açık örneklerdendir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; Bert S. Hall, Weapons and Warfare in Renaissance Europe (Johns Hopkins UP, 1997)" },
 
-{ t:"1512-04-11",
+{ taraflar:["ferrara"], t:"1512-04-11",
   b:"Ravenna Savaşı'nda Ferrara topçusunun belirleyici rolü",
   tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","teknoloji","ittifak","konu-askeri","konu-diplomasi","konu-bilim"],
@@ -1222,7 +1222,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransız ordusunun yanında savaşan Alfonso I, toplarını İspanyol siperlerinin yanına sürerek düşman saflarını biçti; savaş kazanıldı ama Fransız komutan Gaston de Foix öldü. Çağdaşlar bu muharebeyi topçunun meydan savaşını belirlediği ilk gün olarak andı. Küçük bir dükalık, teknolojiyle büyük güçlerin dengesine ağırlık koyabiliyordu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hall, Weapons and Warfare in Renaissance Europe" },
 
-{ t:"1516-04-22",
+{ taraflar:["ferrara"], t:"1516-04-22",
   b:"Ariosto'nun 'Çılgın Orlando'sunun Ferrara'da basılması",
   tur:"kultur", onem:5, dunya:4, kapsam:"ic",
   etiket:["edebiyat","kultur","konu-kultur"],
@@ -1230,7 +1230,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Este sarayının memuru Ludovico Ariosto, kırk canto'luk destanının ilk baskısını Ferrara'da yayımladı; eser yüzyılın en çok okunan İtalyanca kitabı oldu ve Avrupa edebiyatını Cervantes'e kadar besledi. Şair, patronlarının cimriliğinden yakınarak yazdı. Ferrara'nın dünya kültürüne en büyük katkısı bu kitaptır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart İtalyan edebiyatı el kitapları (Cambridge History of Italian Literature)" },
 
-{ t:"1528-06-28",
+{ taraflar:["ferrara"], t:"1528-06-28",
   b:"Fransa Prensesi Renée'nin gelin gelmesi — sarayda Protestan sığınağı",
   tur:"din", onem:4, dunya:3, kapsam:"ic",
   etiket:["din","diplomasi","hanedan","konu-diplomasi","konu-hanedan","konu-din","konu-imar"],
@@ -1238,7 +1238,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"XII. Louis'nin kızı Renée, Ercole II ile evlenip Ferrara'ya geldi ve sarayında reform yanlılarını korudu; Jean Calvin 1536'da takma adla onu ziyaret etti. Engizisyon baskısı artınca düşes önce direndi, sonunda Fransa'ya döndü. Katolik İtalya'nın göbeğinde bir Protestan salonun on yıllarca yaşaması, küçük devletlerin sağladığı manevra alanını gösterir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bonfil, Jewish Life in Renaissance Italy; standart Reform tarihi el kitapları (Diarmaid MacCulloch, Reformation, 2003)" },
 
-{ t:"1541-01-02",
+{ taraflar:["ferrara"], t:"1541-01-02",
   b:"Canano'nun anatomi atlası — kasların bakırbaskıyla resmedilmesi",
   tur:"bilim", onem:3, dunya:3, kapsam:"ic",
   etiket:["bilim","tip","teknoloji","konu-bilim"],
@@ -1246,7 +1246,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Ferraralı hekim Giovanni Battista Canano, kol kaslarını gravürle gösteren küçük bir atlas yayımladı; toplardamar kapakçıklarını fark eden ilk anatomistlerdendir. Kitap Vesalius'un büyük eserinden iki yıl önce çıktı ve baskı tekniğiyle onu etkiledi. Ferrara tıp okulunun Avrupa çapındaki itibarı bu kuşakta zirveye çıktı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Charles D. O'Malley, Andreas Vesalius of Brussels (University of California Press, 1964)" },
 
-{ t:"1570-11-17",
+{ taraflar:["ferrara"], t:"1570-11-17",
   b:"Ferrara depremi — şehrin ve sarayın sarsılması",
   tur:"felaket", onem:4, dunya:1, kapsam:"ic",
   etiket:["felaket","sehircilik","demografi","konu-imar","konu-demografi","afet","afet-deprem"],
@@ -1254,7 +1254,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Aylarca süren bir deprem dizisi şehri vurdu; saraylar ve kiliseler hasar gördü, halkın büyük kısmı bahçelerde çadırda yaşadı ve birçok aile şehri terk etti. Este sarayının parlak dönemi bu sarsıntıyla fiilen sona erdi. Nüfus bir daha eski düzeyine çıkmadı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Emanuela Guidoboni, Catalogue of Ancient Earthquakes in the Mediterranean Area (ING-SGA, Roma)" },
 
-{ t:"1581-01-02",
+{ taraflar:["ferrara"], t:"1581-01-02",
   b:"Tasso'nun 'Kurtarılmış Kudüs'ü ve şairin Ferrara'da hapsi",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["edebiyat","kultur","konu-sanat","konu-kultur"],
@@ -1262,7 +1262,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Torquato Tasso'nun Haçlı seferini anlatan destanı, şair Sant'Anna hastanesinde kapalıyken izinsiz basıldı; Alfonso II onu yedi yıl akıl hastası olarak alıkoymuştu. Eser Avrupa'da hemen ün kazandı ve opera librettolarının en verimli kaynağı oldu. Ferrara sarayı hem en büyük iki İtalyan destanını doğurdu hem de ikinci şairini hapsetti.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Cambridge History of Italian Literature" },
 
-{ t:"1594-01-02",
+{ taraflar:["ferrara"], t:"1594-01-02",
   b:"Concerto delle donne — profesyonel kadın şarkıcı topluluğunun kurumsallaşması",
   tur:"kultur", onem:3, dunya:3, kapsam:"ic",
   etiket:["muzik","kultur","sosyal","konu-sanat","konu-kultur","konu-sosyal"],
@@ -1270,7 +1270,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Alfonso II'nin sarayında ücretli profesyonel kadın şarkıcılardan oluşan bir topluluk kuruldu; virtüöz süslemeleriyle söyledikleri madrigaller bütün İtalya'da taklit edildi. Kadın icracının saray hizmetlisi değil sanatçı sayılması müzik tarihinde bir dönüm noktasıdır. Monteverdi kuşağının üslubu bu deneyden beslendi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Anthony Newcomb, The Madrigal at Ferrara 1579-1597 (Princeton UP, 1980)" },
 
-{ t:"1598-01-28",
+{ taraflar:["ferrara"], t:"1598-01-28",
   b:"Ferrara'nın papalığa devri — devletin başkentini kaybetmesi",
   tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis",
   etiket:["hanedan","din","toprak-kayip","konu-askeri","konu-hanedan","konu-din"],
@@ -1278,7 +1278,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Alfonso II meşru erkek vâris bırakmadan ölünce papalık, 1332 vekâletindeki hükmü işletip Ferrara'yı doğrudan kendine bağladı; Este ailesi imparatorluk toprağı olan Modena'ya çekildi. Şehir bir hânedan başkenti olmaktan çıkıp taşra kasabasına döndü, saray ve kütüphane taşındı. İki farklı hukukî statüye sahip olmak, devleti yarı yarıya kurtardı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; standart erken modern İtalya el kitapları" },
 
-{ t:"1598-02-01",
+{ taraflar:["ferrara"], t:"1598-02-01",
   b:"Modena'nın başkent olması — küçülmüş Este devletinin yeniden kurulması",
   tur:"kurulus", onem:5, dunya:1, kapsam:"ic",
   etiket:["idari","kurulus","sehircilik","konu-siyasi","konu-idari","konu-imar"],
@@ -1286,7 +1286,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Este hânedanı Modena'yı başkent yaptı ve devlet dairelerini, kütüphaneyi, koleksiyonları oraya taşıdı. Yeni dükalık eskisinin yarısı büyüklüğündeydi ama 1859'a kadar yaşadı. Bir devletin başkent değiştirerek hayatta kalması İtalya'da ender görülmüştür.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart erken modern İtalya el kitapları" },
 
-{ t:"1634-01-02",
+{ taraflar:["ferrara"], t:"1634-01-02",
   b:"Modena Dük Sarayı'nın inşasına başlanması",
   tur:"mimari", onem:3, dunya:1, kapsam:"ic",
   etiket:["mimari","kultur","imar","konu-kultur","konu-imar"],
@@ -1294,7 +1294,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Francesco I, Bartolomeo Avanzini'ye yeni başkente yakışır bir saray yaptırdı; yapı, taşra kasabası görünümündeki Modena'yı bir hükümdar şehrine çevirmeyi amaçlıyordu. Bernini ve Borromini'nin tasarıma görüş verdiği kaydedilir. Este'nin küçülen gücü, mimarîde telafi arıyordu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Wittkower, Art and Architecture in Italy 1600-1750" },
 
-{ t:"1650-01-02",
+{ taraflar:["ferrara"], t:"1650-01-02",
   b:"Bernini'nin Francesco I büstü — Barok portre heykelinin şaheseri",
   tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["kultur","kultur","konu-sanat","konu-kultur"],
@@ -1302,7 +1302,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Gian Lorenzo Bernini, dükü hiç görmeden yalnızca tablolara bakarak mermer büstünü yaptı ve eser Modena'ya gönderildi. Rüzgârda dalgalanan pelerin ve kıvrılan bakış, Barok heykelin hareket anlayışını özetler. Küçük bir dükalık, çağın en pahalı heykeltıraşını ısmarlayacak kadar itibar peşindeydi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Rudolf Wittkower, Gian Lorenzo Bernini (Phaidon, 1955)" },
 
-{ t:"1702-08-15",
+{ taraflar:["ferrara"], t:"1702-08-15",
   b:"Luzzara Muharebesi — Este topraklarının savaş alanına dönmesi",
   tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
@@ -1310,7 +1310,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İspanya Veraset Savaşı'nda Fransız ve Avusturya orduları Modena topraklarında çarpıştı; dük ülkesini terk edip Bologna'ya sığındı. Küçük devletin tarafsızlığı hiçbir tarafça tanınmadı. Este dükalığı XVIII. yüzyıl boyunca büyük güçlerin geçiş yolu olarak kaldı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart erken modern Avrupa el kitapları" },
 
-{ t:"1737-01-02",
+{ taraflar:["ferrara"], t:"1737-01-02",
   b:"Muratori ve Este Kütüphanesi — modern tarih yönteminin doğduğu yer",
   tur:"bilim", onem:4, dunya:4, kapsam:"ic",
   etiket:["bilim","kultur","egitim","imar","konu-kisiler","konu-bilim","konu-kultur","konu-imar","konu-egitim"],
@@ -1318,7 +1318,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Este arşivinin kütüphanecisi Ludovico Antonio Muratori, ortaçağ İtalyası'nın kaynaklarını 'Rerum Italicarum Scriptores' adıyla toplu hâlde yayımlıyordu; belgeyi eleştirerek kullanma ilkesini kurdu. Modern tarih yazımının belge temelli yöntemi bu masada olgunlaştı. Bir dükalığın arşivi, bir bilim dalının doğum yeri oldu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart tarih yazımı el kitapları (Ernst Breisach, Historiography, University of Chicago Press)" },
 
-{ t:"1796-06-19",
+{ taraflar:["ferrara"], t:"1796-06-19",
   b:"Napolyon'un Modena'yı işgali ve Cispadan Cumhuriyeti",
   tur:"isgal", onem:5, dunya:3, kapsam:"ic",
   etiket:["isgal","son","anayasa","konu-askeri","konu-siyasi","konu-islahat","konu-hukuk"],
@@ -1326,7 +1326,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransız ordusu dükalığı işgal etti, dük kaçtı ve topraklar ertesi yıl Cispadan Cumhuriyeti'ne katıldı; İtalyan üç renkli bayrağı ilk kez bu cumhuriyette kabul edildi. Este devleti beş yüz elli altı yıl sonra ilk kez ortadan kalktı. Napolyon Este koleksiyonlarının bir bölümünü Paris'e taşıttı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart Napolyon dönemi İtalya el kitapları" },
 
-{ t:"1814-07-15",
+{ taraflar:["ferrara"], t:"1814-07-15",
   b:"Este-Habsburg hânedanının Modena'da restorasyonu",
   tur:"kurulus", onem:4, dunya:1, kapsam:"ic",
   etiket:["restorasyon","hanedan","konu-siyasi","konu-hanedan","konu-imar"],
@@ -1334,7 +1334,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Viyana düzeniyle dükalık yeniden kuruldu ama tahta bu kez Avusturya arşidükü IV. Francesco geçti — eski Este soyu kadın hattından Habsburglara bağlanmıştı. Yeni dük İtalya'nın en sert muhafazakâr yöneticilerinden oldu. Bağımsız görünen dükalık artık fiilen bir Avusturya uydusuydu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart Risorgimento el kitapları (Denis Mack Smith, The Making of Italy, 1968)" },
 
-{ t:"1831-02-04",
+{ taraflar:["ferrara"], t:"1831-02-04",
   b:"Modena ayaklanması ve Ciro Menotti'nin idamı",
   tur:"isyan", onem:4, dunya:2, kapsam:"ic",
   etiket:["isyan","siyaset","konu-siyasi","konu-kisiler","konu-isyan"],
@@ -1359,7 +1359,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
  * Açılış ölçümü: mevcut külliyatta Siena'ya ait 2 madde / 274 yıl = 0,007/yıl.
  * ═════════════════════════════════════════════════════════════════════════ */
 
-{ t:"1281-01-03",
+{ taraflar:["siena"], t:"1281-01-03",
   b:"XIII. yüzyıl sonunda Siena — Dokuzlar rejiminin arifesinde bir banker cumhuriyeti", ic_not_b:"eski b: Atlasın açılışında Siena — Dokuzlar rejiminin arifesinde bir banker cumhuriyeti",
   tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
   etiket:["kurulus","finans","idari","konu-siyasi","konu-idari","konu-ekonomi"],
@@ -1367,7 +1367,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Atlas açıldığında Siena, papalığın parasını işleten bankerleriyle Avrupa'nın en zengin şehirlerinden biridir; Bonsignori ailesinin 'Gran Tavola'sı kıtanın en büyük bankasıdır. Şehir Floransa ile toprak ve yol rekabeti içindedir. Altı yıl sonra kurulacak Dokuzlar hükümeti, cumhuriyetin altın çağını açacaktır.",
   kaynak:"bulunamadı — TDV'de `siena` maddesi YOK (302, ölçüldü); dayanak: William M. Bowsky, A Medieval Italian Commune: Siena under the Nine, 1287-1355 (University of California Press, 1981)" },
 
-{ t:"1287-01-02",
+{ taraflar:["siena"], t:"1287-01-02",
   b:"Dokuzlar hükümetinin kurulması — Siena'nın altın çağı",
   tur:"anayasa", onem:5, dunya:2, kapsam:"ic",
   etiket:["anayasa","idari","kurulus","konu-siyasi","konu-idari","konu-islahat","konu-hukuk"],
@@ -1375,7 +1375,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Şehir, iki ayda bir değişen dokuz kişilik bir kurul tarafından yönetilmeye başlandı; büyük soylu aileler ve en yoksul zanaatkârlar kurulun dışında tutuldu, yönetim orta tabaka tüccarlara bırakıldı. Altmış sekiz yıl süren bu rejim Siena'nın en istikrarlı ve en yaratıcı dönemidir. Katedral, Campo meydanı ve büyük fresk döngüleri hep bu hükümetin eseridir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bowsky, Siena under the Nine" },
 
-{ t:"1298-10-01",
+{ taraflar:["siena"], t:"1298-10-01",
   b:"Gran Tavola'nın iflası — ortaçağın en büyük bankasının çöküşü",
   tur:"ekonomi", onem:5, dunya:3, kapsam:"dis",
   etiket:["finans","kriz","ticaret","konu-siyasi","konu-ekonomi"],
@@ -1383,7 +1383,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bonsignori ailesinin bankası, Fransa kralına ve papalığa açtığı krediler geri dönmeyince ödemelerini durdurdu. Avrupa'nın en büyük finans kuruluşunun batışı Siena'nın uluslararası bankacılıktaki üstünlüğünü bitirdi ve o üstünlük Floransa'ya geçti. Siena bundan sonra bir finans merkezi değil, bir bölge devleti olarak yaşayacaktır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Cambridge Economic History of Europe, c. III; Bowsky, Siena under the Nine" },
 
-{ t:"1309-11-02",
+{ taraflar:["siena"], t:"1309-11-02",
   b:"1309 Costituto'su — halkın okuyabilmesi için İtalyanca yazılan ilk devlet anayasası",
   tur:"anayasa", onem:5, dunya:3, kapsam:"ic",
   etiket:["hukuk","anayasa","kultur","islahat","konu-kultur","konu-islahat","konu-hukuk"],
@@ -1391,7 +1391,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Dokuzlar, şehrin kanunlarını Latince değil halk dilinde yazdırdı ve gerekçesini metne koydu: yoksullar ve okuma bilmeyenler kendi haklarını öğrenebilsin diye. Bir devletin resmî hukuk metnini bilerek halk diline çevirmesi Avrupa'da ilklerdendir. Metin bugün de İtalyanca'nın en erken resmî belgelerinden sayılır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bowsky, Siena under the Nine" },
 
-{ t:"1311-06-09",
+{ taraflar:["siena"], t:"1311-06-09",
   b:"Duccio'nun Maestà'sının katedrale taşınması — şehrin tabloyla yürüyüşü",
   tur:"kultur", onem:5, dunya:4, kapsam:"ic",
   etiket:["kultur","din","kultur","konu-din","konu-kultur"],
@@ -1399,7 +1399,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Duccio di Buoninsegna'nın üç yılda tamamladığı dev sunak panosu, bütün şehir halkının katıldığı bir alayla atölyeden katedrale taşındı; dükkânlar kapandı, çanlar çaldı. Eser, Bizans ikonasının katılığından çıkıp figürlere hacim ve duygu veren Siena okulunun manifestosudur. Şehir kendini Meryem'in mülkü sayardı; tablo bu inancın resmî belgesiydi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: John White, Duccio: Tuscan Art and the Medieval Workshop (Thames & Hudson, 1979)" },
 
-{ t:"1315-06-01",
+{ taraflar:["siena"], t:"1315-06-01",
   b:"Simone Martini'nin Palazzo Pubblico Maestà'sı — dinî resmin devlet dairesine girmesi",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["kultur","siyaset","kultur","konu-siyasi","konu-kultur"],
@@ -1407,7 +1407,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Simone Martini, belediye sarayının meclis salonuna Meryem'i taht üzerinde resmetti ve Meryem'in ağzından yöneticilere adalet öğüdü veren dizeler yazdı. Kutsal figürün bir hükümet salonunda, siyasî bir uyarıyla konuşturulması yenidir. Siena'da sanat, süs değil yönetim aracıydı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Diana Norman, Siena and the Virgin: Art and Politics in a Late Medieval City State (Yale UP, 1999)" },
 
-{ t:"1338-02-01",
+{ taraflar:["siena"], t:"1338-02-01",
   b:"Lorenzetti'nin İyi ve Kötü Yönetim freskleri — siyaset felsefesinin duvara yazılması",
   tur:"felsefe", onem:5, dunya:4, kapsam:"ic",
   etiket:["kultur","felsefe","siyaset","konu-siyasi","konu-din","konu-kultur"],
@@ -1415,7 +1415,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Ambrogio Lorenzetti, Dokuzlar'ın toplandığı odanın üç duvarına iyi yönetimin ve zorbalığın sonuçlarını resmetti: bir yanda ekilen tarlalar, dans eden şehirliler, güvenli yollar; öbür yanda yakılmış köyler ve zincirlenmiş Adalet. Ortaçağın en kapsamlı seküler fresk programıdır ve bir yönetim kurulunun kendi kendine astığı uyarı levhasıdır. Siyasal düşünce tarihinin görsel başyapıtı sayılır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Quentin Skinner, 'Ambrogio Lorenzetti: The Artist as Political Philosopher', Proceedings of the British Academy 72 (1986)" },
 
-{ t:"1339-01-23",
+{ taraflar:["siena"], t:"1339-01-23",
   b:"Duomo Nuovo'nun başlaması — Hıristiyan âleminin en büyük katedrali iddiası",
   tur:"mimari", onem:4, dunya:2, kapsam:"ic",
   etiket:["mimari","din","sehircilik","imar","konu-din","konu-imar"],
@@ -1423,7 +1423,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Siena, mevcut katedrali yeni bir devasa yapının yalnızca yan kanadı yapacak bir genişletmeye girişti; amaç Floransa'yı geçmekti. Kara Ölüm ve yapısal hesap hataları yüzünden inşaat 1357'de durdu ve yarım kalan duvarlar bugün de ayakta. Bitirilememiş bu iskelet, bir şehir devletinin gücünün sınırını taş üzerinde gösteren en açık anıttır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Norman, Siena and the Virgin" },
 
-{ t:"1348-06-01",
+{ taraflar:["siena"], t:"1348-06-01",
   b:"Kara Ölüm'ün Siena'yı vurması — Dokuzlar rejiminin can damarının kesilmesi",
   tur:"salgin", onem:5, dunya:5, kapsam:"ic",
   etiket:["salgin","demografi","kriz","konu-siyasi","konu-demografi","afet","afet-salgin"],
@@ -1431,7 +1431,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Salgın birkaç ay içinde şehir nüfusunun yarısından fazlasını öldürdü; vakanüvis Agnolo di Tura kendi beş çocuğunu eliyle gömdüğünü yazdı. Katedral genişletmesi durdu, vergi tabanı çöktü, Dokuzlar'ı ayakta tutan orta tabaka eridi. Siena, Kara Ölüm'ün Avrupa'da en ağır vurduğu büyük şehirdir ve ortaçağdaki nüfusuna bir daha hiç ulaşmadı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bowsky, Siena under the Nine; William M. Bowsky, 'The Impact of the Black Death upon Sienese Government and Society', Speculum 39 (1964)" },
 
-{ t:"1355-03-25",
+{ taraflar:["siena"], t:"1355-03-25",
   b:"Dokuzlar rejiminin devrilmesi — altın çağın sonu",
   tur:"isyan", onem:5, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","kriz","konu-siyasi","konu-isyan"],
@@ -1439,7 +1439,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İmparator IV. Karl'ın şehre gelişini fırsat bilen soylular ve halk birleşip Dokuzlar'ı devirdi, saray yağmalandı. Altmış sekiz yıllık istikrar bitti; Siena bundan sonra iki yüz yıl boyunca birbirini deviren rejimlerle yönetilecek. Kara Ölüm'ün yıkımı, siyasî çöküşü yedi yıl geriden takip etti.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bowsky, Siena under the Nine" },
 
-{ t:"1377-01-02",
+{ taraflar:["siena"], t:"1377-01-02",
   b:"Sienalı Katerina'nın papalığı Roma'ya döndürmesi",
   tur:"din", onem:4, dunya:4, kapsam:"dis",
   etiket:["din","diplomasi","kultur","konu-diplomasi","konu-din","konu-kultur"],
@@ -1447,7 +1447,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bir boyacının kızı olan Caterina Benincasa, Avignon'a giderek Papa XI. Gregory'yi Roma'ya dönmeye ikna eden çevrenin başında yer aldı. Okuma yazması sınırlı bir kadının Avrupa siyasetinin en üst düzeyinde etkili olması çağı için olağanüstüdür. Mektupları İtalyan nesrinin klasikleri arasındadır; 1461'de aziz, 1970'te kilise doktoru ilan edildi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Catherine of Siena, The Letters (standart neşir, Suzanne Noffke); Norman, Siena and the Virgin" },
 
-{ t:"1399-09-11",
+{ taraflar:["siena"], t:"1399-09-11",
   b:"Şehrin Milano dükü Gian Galeazzo Visconti'ye teslim olması",
   tur:"idari", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","isgal","konu-askeri","konu-siyasi","konu-idari"],
@@ -1455,7 +1455,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Floransa baskısından bunalan Siena, kendi kendini yönetmekten vazgeçip Milano dükünün himayesine girdi. Visconti'nin 1402'de ölmesiyle şehir bağımsızlığını geri aldı. Küçük cumhuriyetlerin büyük bir efendi seçerek hayatta kalma taktiği Cenova'da olduğu gibi burada da denendi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: standart geç ortaçağ İtalyası el kitapları (John Larner, Italy in the Age of Dante and Petrarch)" },
 
-{ t:"1419-10-20",
+{ taraflar:["siena"], t:"1419-10-20",
   b:"Jacopo della Quercia'nın Fonte Gaia'sı — Campo'nun anıtsal çeşmesi",
   tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["kultur","mimari","sehircilik","konu-kultur","konu-imar"],
@@ -1463,7 +1463,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"On yıl süren çalışmadan sonra şehrin ana meydanına, Erdemler ve Yaratılış sahneleriyle bezenmiş mermer çeşme yerleştirildi. Suyu, on dördüncü yüzyılda kazılan yeraltı kanalları (bottini) getiriyordu. Heykeltıraşın kabartmaları Michelangelo'nun gençliğinde incelediği eserler arasındadır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: James H. Beck, Jacopo della Quercia (Columbia UP, 1991)" },
 
-{ t:"1427-08-15",
+{ taraflar:["siena"], t:"1427-08-15",
   b:"Bernardino'nun Campo vaazları — meydanın açık hava mahkemesine dönmesi",
   tur:"din", onem:4, dunya:3, kapsam:"ic",
   etiket:["din","sosyal","hukuk","konu-din","konu-sosyal","konu-hukuk"],
@@ -1471,7 +1471,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Fransisken vaiz Bernardino, Campo meydanında haftalarca süren vaazlar verdi; hizipleşmeye, tefeciliğe ve kan davasına karşı konuştu, dinleyiciler stenografla kaydedildi. Vaazlarından sonra şehir kanunlarında değişiklik yapıldı. Bir vaizin doğrudan yasama etkisi doğurması, Siena'da dinî ve siyasî hayatın ne kadar iç içe olduğunu gösterir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Franco Mormando, The Preacher's Demons: Bernardino of Siena (University of Chicago Press, 1999)" },
 
-{ t:"1433-01-02",
+{ taraflar:["siena"], t:"1433-01-02",
   b:"Taccola'nın 'De ingeneis' defterleri — makine mühendisliğinin resimli doğuşu",
   tur:"bilim", onem:4, dunya:3, kapsam:"ic",
   etiket:["teknoloji","bilim","muhendislik","konu-bilim","konu-sanat"],
@@ -1479,7 +1479,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Mariano di Jacopo, lakabıyla Taccola, su pompalarından kuşatma makinelerine ve dalgıç donanımına kadar yüzlerce düzeneği çizip anlattı. Makineyi metinle değil çizimle anlatma geleneği burada kurumsallaştı ve Leonardo da Vinci'nin defterlerinin doğrudan öncülüdür. Siena, XV. yüzyılda İtalya'nın mühendislik okuluydu.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bertrand Gille, Les ingénieurs de la Renaissance (Paris, 1964); Frank D. Prager – Gustina Scaglia, Mariano Taccola and His Book De Ingeneis (MIT Press, 1972)" },
 
-{ t:"1458-08-19",
+{ taraflar:["siena"], t:"1458-08-19",
   b:"Sienalı Piccolomini'nin papa seçilmesi — II. Pius",
   tur:"din", onem:5, dunya:3, kapsam:"dis",
   etiket:["din","siyaset","kultur","konu-siyasi","konu-din","konu-kultur"],
@@ -1487,7 +1487,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Hümanist şair ve diplomat Enea Silvio Piccolomini papa oldu ve doğduğu köyü Pienza adıyla planlı bir Rönesans kasabasına çevirtti. Siena, papalık nezdinde ilk kez doğrudan bir kayırma kanalına kavuştu. Piccolomini'nin kendi hayatını anlattığı 'Commentarii', bir papanın kaleminden çıkmış tek otobiyografidir.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: R. J. Mitchell, The Laurels and the Tiara: Pope Pius II (Doubleday, 1963)" },
 
-{ t:"1472-03-04",
+{ taraflar:["siena"], t:"1472-03-04",
   b:"Monte dei Paschi'nin kurulması — bugün ayakta olan en eski banka",
   tur:"ekonomi", onem:5, dunya:4, kapsam:"ic",
   etiket:["finans","sosyal","kurulus","konu-siyasi","konu-ekonomi","konu-sosyal"],
@@ -1495,7 +1495,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cumhuriyet, yoksulları tefecilere karşı korumak için rehin karşılığı düşük faizli kredi veren bir 'monte di pietà' kurdu; sonradan devletin Maremma otlaklarından (paschi) aldığı gelirle güvenceye bağlandığı için bu adı aldı. Kurum beş buçuk asırdır kesintisiz çalışmaktadır ve dünyanın hâlâ faaliyette olan en eski bankasıdır. Bir sosyal yardım fikri, bir bankacılık kurumuna dönüştü.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Cambridge Economic History of Europe, c. III; Monte dei Paschi di Siena kurumsal tarihçesi (arşiv yayını)" },
 
-{ t:"1480-01-02",
+{ taraflar:["siena"], t:"1480-01-02",
   b:"Francesco di Giorgio'nun mimarlık ve mühendislik risalesi",
   tur:"bilim", onem:4, dunya:3, kapsam:"ic",
   etiket:["teknoloji","mimari","bilim","imar","konu-bilim","konu-imar"],
@@ -1503,7 +1503,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Sienalı mimar, heykeltıraş ve askerî mühendis Francesco di Giorgio Martini, şehir planlamasından tabya tasarımına ve makinelere uzanan risalesini yazdı. Top ateşine dayanıklı alçak ve eğimli burç fikrini geliştiren kuşağın başındadır. Leonardo eserinin bir nüshasını satın alıp kenarına notlar düşmüştür.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Gille, Les ingénieurs de la Renaissance; standart Rönesans mimarlığı el kitapları" },
 
-{ t:"1487-07-22",
+{ taraflar:["siena"], t:"1487-07-22",
   b:"Pandolfo Petrucci'nin iktidarı ele geçirmesi — cumhuriyetin perde arkası hükümdarı",
   tur:"hukumdar", onem:5, dunya:1, kapsam:"ic",
   etiket:["siyaset","hizip","konu-siyasi","konu-isyan","konu-hanedan"],
@@ -1511,7 +1511,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Sürgünden dönen Petrucci ailesi rakip hizipleri tasfiye etti ve Pandolfo, cumhuriyet kurumlarını kaldırmadan şehrin fiilî efendisi oldu. Machiavelli onu, gücünü gizlemeyi bilen hükümdar örneği olarak anar. Siena, adı cumhuriyet kalan bir senyörlüğe dönüştü.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Judith Hook, Siena: A City and Its History (Hamish Hamilton, 1979)" },
 
-{ t:"1502-01-02",
+{ taraflar:["siena"], t:"1502-01-02",
   b:"Pinturicchio'nun Piccolomini Kütüphanesi freskleri",
   tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["kultur","kultur","din","konu-din","konu-kultur"],
@@ -1519,7 +1519,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Katedrale bitişik kütüphanenin duvarlarına, II. Pius'un hayatı on panoda resmedildi; canlı renkleri ve altın yaldızıyla geç Rönesans'ın en gösterişli fresk döngülerindendir. Genç Raphael'in tasarım aşamasına katkıda bulunduğu kabul edilir. Siena, Floransa'nın gölgesinde kendi resim üslubunu sürdürmeye devam etti.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Norman, Siena and the Virgin; standart Rönesans resmi el kitapları" },
 
-{ t:"1526-07-25",
+{ taraflar:["siena"], t:"1526-07-25",
   b:"Camollia Muharebesi — küçük cumhuriyetin Papalık ordusunu yenmesi",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","savunma","konu-askeri"],
@@ -1527,7 +1527,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papa VII. Clement'in Floransa destekli ordusu şehrin Camollia kapısı önünde beklenmedik bir yenilgiye uğradı; Sienalılar zaferi Meryem'e adadı ve her yıl andı. Bu, cumhuriyetin son askerî başarısıdır. Otuz yıl sonra aynı kapılardan İspanyol topları girecekti.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
 
-{ t:"1552-07-26",
+{ taraflar:["siena"], t:"1552-07-26",
   b:"İspanyol garnizonunun kovulması — son bağımsızlık hamlesi",
   tur:"isyan", onem:5, dunya:2, kapsam:"ic",
   etiket:["isyan","savunma","diplomasi","konu-askeri","konu-diplomasi","konu-isyan"],
@@ -1535,7 +1535,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Sienalılar, Fransa'nın desteğiyle ayaklanıp şehre yerleşmiş İspanyol askerlerini kovdu ve onların yaptırdığı kaleyi taş taş yıktı. Karar cesurdu ama şehri V. Karl'ın doğrudan hedefi hâline getirdi. Bu isyan, cumhuriyetin ölüm fermanını kendi eliyle imzalamasıydı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
 
-{ t:"1554-01-26",
+{ taraflar:["siena"], t:"1554-01-26",
   b:"Siena kuşatmasının başlaması — on beş aylık açlık",
   tur:"kusatma", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","kusatma","sosyal","konu-askeri","konu-sosyal"],

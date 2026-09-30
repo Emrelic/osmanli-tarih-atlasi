@@ -1,0 +1,1419 @@
+{
+ "oturum": "ONCE1281-AVRUPA",
+ "tarih": "2026-09-30",
+ "kusak": "1000-01-01 → 1281-01-01",
+ "kunyeler": [
+  {
+   "islem": "yeni",
+   "id": "endulus-emevi",
+   "ad": "Endülüs Emevîleri (Kurtuba Emirliği / Hilâfeti)",
+   "tur": "hilafet",
+   "bolge": "iberya",
+   "f": "756-05-15",
+   "t": "1031-01-01",
+   "baskent": "Kurtuba (Córdoba)",
+   "ozet": "I. Abdurrahman'ın 756'da Kurtuba'da kurduğu, 929'da III. Abdurrahman'ın halifelik unvanı almasıyla hilâfete dönüşen Endülüs devleti; 1009'dan itibaren iç savaşa (fitne) düştü ve 1031'de Kurtuba halkının hilâfeti ilgasıyla sona erdi.",
+   "kaynak": "TDV İslâm Ansiklopedisi — 'ENDÜLÜS' — https://islamansiklopedisi.org.tr/endulus ; 'ABDURRAHMAN I' — https://islamansiklopedisi.org.tr/abdurrahman-i ; 'ABDURRAHMAN III' — https://islamansiklopedisi.org.tr/abdurrahman-iii",
+   "alinti_f": "Gece karanlığından faydalanarak bütün birliklerini nehrin karşı tarafına geçirdi ve 15 Mayıs sabahı Yûsuf el-Fihrî’nin üzerine saldırdı.",
+   "alinti_t": "Böylece 756’da bağımsız bir emirlik olarak kurulan Endülüs Emevî Devleti yıkılmış oldu (422/1031).",
+   "ic_not_f": "f = 756, 929 DEĞİL. Gerekçe: TDV 'Endülüs' maddesi devleti tek başlık altında 'Endülüs Emevîleri (756-1031). a) Emirlik Dönemi (756-929)' diye verir; 929 aynı hanedanın aynı başşehirde unvan değiştirmesidir (TDV Abdurrahman III: '929 yılında ... ilk defa “halife” ve “emîrü’l-mü’minîn” unvanını almıştır'), yeni polity değil (sınıf ② mantığı). Gün: TDV Abdurrahman I, Musâre savaşını 15 Mayıs (756) verir ve 'bu zafer ona Kurtuba’nın kapılarını açtı. Böylece Endülüs Emevî Devleti’nin temelleri atılmış oldu' der; bağımsız emirlik ilanının ayrı günü açtığım sayfalarda yok. Üç haneli yıl: pad() ile 0756 yazıldı. Künye f kuşak (1000) öncesidir — atlasın yerleşim/harita katmanı 756'ya inmiyorsa koordinatör f'yi kırpabilir, künye ömrü olarak 756 doğrudur.",
+   "ic_not_t": "Kaynak yalnız yıl verir (422 H. = Aralık 1030 – Aralık 1031); gün bilinmediği için 1031-01-01. TDV Kurtuba III. Hişâm'ı '(1027-1031)' verir. 1009-1031 arası hanedan fiilen yalnız Kurtuba çevresine sıkıştı; tâifeler 1009'dan itibaren ayrıştı (bkz. endulus-tavaif, f 1009) — iki künye 1009-1031 arasında bilerek ÜST ÜSTE biner, harita sahipliği yerleşim dönemleriyle ayrılmalı. 1016-1027 arası Kurtuba tahtında aralıklarla Şiî Hammûdîler vardı (TDV Endülüs tablosu: 407 (1016), 408-413 (1018-1022), 416-418 (1025-1027)); ayrı künye açılmadı, maddeye yazıldı.",
+   "siniflandirma": "Yeni künye. Emirlik (756-929) ve hilâfet (929-1031) aynı polity, tek künye.",
+   "kronoloji": [
+    {
+     "t": "0756-05-15",
+     "tur": "kurulus",
+     "b": "I. Abdurrahman Musâre'de Yûsuf el-Fihrî'yi yendi, Kurtuba'ya girdi: Endülüs Emevî emirliği kuruldu"
+    },
+    {
+     "t": "0929-01-01",
+     "tur": "hukumdar",
+     "b": "III. Abdurrahman 'halife' ve 'emîrü'l-mü'minîn' unvanını aldı: Kurtuba Hilâfeti"
+    },
+    {
+     "t": "1031-01-01",
+     "tur": "son",
+     "b": "Kurtuba ileri gelenleri hilâfeti ilga etti, Emevî sülâlesi sürgün edildi"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "endulus-tavaif",
+   "ad": "Mülûkü't-tavâif (Endülüs tâife emirlikleri)",
+   "tur": "emirlik",
+   "bolge": "iberya",
+   "f": "1009-01-01",
+   "t": "1110-01-01",
+   "baskent": "yok (toplu künye) — başlıca merkezler: İşbîliye, Tuleytula, Sarakusta, Batalyevs, Gırnata, Belensiye, Kurtuba",
+   "ozet": "Endülüs Emevî otoritesinin 1009'da çöküşüyle ortaya çıkan, 1031'den sonra Endülüs'ü paylaşan yirmi civarında küçük devletin toplu künyesi: İşbîliye Abbâdîleri, Tuleytula Zünnûnîleri, Sarakusta Hûdîleri, Batalyevs Eftasîleri, Gırnata Zîrîleri, Belensiye Âmirîleri, Kurtuba Cehverîleri vb. 1090-1110 arasında Murâbıtlar tarafından ilhak edildiler.",
+   "kaynak": "TDV İslâm Ansiklopedisi — 'MÜLÛKÜ’t-TAVÂİF' — https://islamansiklopedisi.org.tr/mulukut-tavaif ; 'SARAKUSTA' — https://islamansiklopedisi.org.tr/sarakusta",
+   "alinti_f": "Âmirî ailesinin 400 (1009) yılında iktidardan uzaklaştırılmasının ardından Emevî şehzadelerinin Kurtuba’da (Córdoba) taht kavgalarıyla uğraşmaları sırasında meydana gelen otorite boşluğu",
+   "alinti_t": "Belensiye Valisi Ebû Abdullah Muhammed el-Lemtûnî’nin gelmesiyle şehir Murâbıtlar’ın Endülüs’te hâkimiyet altına aldıkları son merkez oldu (503/1110).",
+   "ic_not_f": "f 1009 mu 1031 mi: TDV ikisini de verir — emirliklerin ortaya çıkışı 1009 fitnesiyle başlar, ama 'mülûkü’t-tavâif dönemi' TDV'ye göre resmen 422 (1031)'de başlar ('Böylece ülkede merkezî idarenin yıkılma, beyliklerin kurulma süreci bitmiş ve mülûkü’t-tavâif dönemi başlamış oldu'). Haritada tâifeler 1009-1031 arasında fiilen var olduğundan (ör. Belensiye 401/1010-11'de Âmirî âzatlılarına geçti, İşbîliye 1023'te Abbâdî merkezi oldu) f = 1009 önerildi; gün bilinmiyor → 01-01. Koordinatör 1031'i seçerse 1009-1031 arası tâife toprakları endulus-emevi'ye düşer ki bu tarihsel olarak yanlış olur.",
+   "ic_not_t": "Kaynak yalnız yıl verir. Son büyük tâife Sarakusta Hûdîleri: emîr Ahmed el-Müstaîn 24 Ocak 1110'da öldü (TDV Hûdîler), ardından şehir 503/1110'da Murâbıtlara geçti; t = 1110-01-01 bu ölümden önceye düşer — gün kaynaksız. İlhak kademelidir: Gırnata 8 Eylül 1090, İşbîliye 1091, Batalyevs 1094/1095, Belensiye 1102, Sarakusta 1110 (maddelerde). Hûdîler 1110-1146 arası Rota'da Kastilya himayesinde küçük bir kalıntı olarak sürdü (TDV Hûdîler) — haritada ihmal edilebilir. 1144-1172 'ikinci tâifeler' dönemi (ör. İbn Merdenîş, Mürsiye/Belensiye 1147-1172; TDV Mürsiye, Üşbûne) bu künyeye DAHİL EDİLMEDİ; gerekirse ayrı künye.",
+   "siniflandirma": "Yeni, toplu künye. Tâifeler ayrı künye olarak açılmadı (şartname gereği).",
+   "kronoloji": [
+    {
+     "t": "1009-01-01",
+     "tur": "kurulus",
+     "b": "Âmirîlerin düşüşü ve Kurtuba fitnesi: Endülüs'te bağımsız emirlikler ortaya çıkmaya başladı"
+    },
+    {
+     "t": "1031-01-01",
+     "tur": "bolunme",
+     "b": "Emevî hilâfetinin ilgası: Kurtuba da tâifelerden biri oldu, mülûkü't-tavâif dönemi tam başladı"
+    },
+    {
+     "t": "1110-01-01",
+     "tur": "son",
+     "b": "Sarakusta Murâbıtlara geçti: son büyük tâife de ilhak edildi"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "leon-kralligi",
+   "ad": "León Krallığı",
+   "tur": "krallik",
+   "bolge": "iberya",
+   "f": "910-01-01",
+   "t": "1230-09-23",
+   "baskent": "León",
+   "ozet": "Asturias Krallığı'nın Duero vadisine uzanan devamı olarak 910'da III. Alfonso'nun ölümüyle ayrı krallık oldu; 1037-1157 arası (1065-1072 hariç) Kastilya ile aynı hükümdar altındaydı, 1157-1230 arası yeniden bağımsızdı ve 1230'da III. Fernando döneminde Kastilya ile kesin olarak birleşti.",
+   "kaynak": "Gran Enciclopèdia Catalana — 'regne de Lleó' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti_f": "A la mort d’Alfons III la divisió del regne entre els seus fills donà origen al regne lleonès, en succeir-lo, en terres de Lleó, Àlaba i Castella, Garcia I (910-914)",
+   "alinti_t": "Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230).",
+   "ic_not_f": "Kaynak yalnız yıl verir (III. Alfonso'nun ölümü / I. García'nın tahta çıkışı, 910). Gün bilinmediği için 0910-01-01 (pad). Şartnamede anılan 914 (başkentin León'a taşınması / II. Ordoño) kaynakta krallık kuruluşu olarak geçmiyor.",
+   "ic_not_t": "Kaynak yalnız YIL (1230) verir. 1230-09-23 günü KAYNAK DEĞİLDİR: atlastaki kastilya künyesinin f günüdür ve boşluk açmamak için DEVRALINDI (D213: kaba tarih künye penceresi dışına düşerse künyenin günü devralınır, kaynaksızlığı bildirilir). Kastilya f'sinin kendi kaynağı doğrulanmadı — koordinatör kontrol etmeli. ŞAHSÎ BİRLİK DÖNEMLERİ (GEC 'regne de Lleó'): 1037-1065 I. Fernando (Kastilya+León); 1065-1072 II. Alfonso ayrı León kralı ('a excepció dels anys de regnat lleonès d’Alfons VI (1065-72)'); 1072-1157 Kastilya ile birlikte (VI. Alfonso, Urraca, VII. Alfonso); 1157-1230 bağımsız (II. Fernando 1157-88, IX. Alfonso 1188-1230). Harita için öneri: 1037-1065 ve 1072-1157 arası León toprakları kastilya kimliğiyle (ya da ortak renk) boyanmalı; künye yine de 910-1230 tek parça tutulur (unvan ve krallık süreklidir).",
+   "siniflandirma": "Yeni künye. Kastilya'dan ayrı polity (ayrı krallık, ayrı taç; yalnız şahsî birlik dönemleri var).",
+   "kronoloji": [
+    {
+     "t": "0910-01-01",
+     "tur": "kurulus",
+     "b": "III. Alfonso'nun ölümüyle Asturias bölündü, I. García León kralı oldu"
+    },
+    {
+     "t": "1188-01-01",
+     "tur": "hukumdar",
+     "b": "IX. Alfonso León tahtına çıktı (1188-1230)"
+    },
+    {
+     "t": "1230-09-23",
+     "tur": "birlesme",
+     "b": "III. Fernando León ve Kastilya'yı kesin olarak birleştirdi: León Krallığı Kastilya Tacı'na katıldı"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "kastilya",
+   "ad": "Kastilya Krallığı (1230'dan itibaren Kastilya Tacı)",
+   "tur": "krallik",
+   "bolge": "iberya",
+   "f": "1035-01-01",
+   "f_eski": "1230-09-23",
+   "baskent": "Burgos / Toledo (gezici saray)",
+   "ozet": "Kastilya kontluğu üzerine I. Fernando döneminde kurulan krallık; 1037'de León'u da ele geçirdi, 1085'te Toledo'yu alarak sınırı Tajo'ya taşıdı, 1230'da León ile kesin olarak birleşip Kastilya Tacı'nı oluşturdu.",
+   "kaynak": "Gran Enciclopèdia Catalana — 'Portugal' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/portugal-0 ; 'Ferran I de Castella' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/ferran-i-de-castella ; 'regne de Castella' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-castella",
+   "alinti_f": "Ferran I de Castella i Lleó (1035-1065) realitzà l’ocupació definitiva de les terres del S del Douro",
+   "alinti_t": "",
+   "ic_not_f": "GEC kendi içinde iki yıl verir: 'Ferran I de Castella' maddesi 'Mort el seu pare, prengué el títol de rei de Castella' (babası III. Sancho 1035'te öldü) ve 'Portugal' maddesi saltanatı (1035-1065) verir; 'regne de Castella' maddesi ise 'Regne constituït sobre la base del comtat de Castella després de l’entronització de Ferran I (1037-65)' der. 1035 = kral unvanı, 1037 = León'un ilhakıyla fiilî krallık/taç giyme. Öneri 1035 (unvan); gün kaynakta yok → 01-01. 1035 öncesi Kastilya KONTLUĞU (León'a, 1029-35 Navarra'ya bağlı) bu künyeye dahil değildir.",
+   "ic_not_t": "t alanı YAZILMADI — var olan t aynen kalmalı; bu grup t'yi araştırmadı.",
+   "siniflandirma": "Sınıf ② — aynı polity sürüyor → GENİŞLET. 1230 'Kastilya Tacı' yeni bir devlet değil, Kastilya Krallığı'nın León'u kesin olarak katmasıdır (GEC 'corona de Castella': 'Estat format originàriament amb la unió definitiva (1230), sota Ferran III, dels regnes de Lleó ... i de Castella'). Hanedan sürekliliği: I. Fernando → ... → VIII. Alfonso → I. Enrique → Berenguela → III. Fernando, taht aralıksız. Genişletme olmazsa 1035-1230 arası Kastilya'nın yaptığı bütün fetihler (Toledo 1085, Kurtuba 1236 hariç hepsi) künyesiz kalır; aşağıdaki maddelerde taraf 'kastilya' bu genişletmeye bağlıdır. León ayrı künye (leon-kralligi) olarak açıldı; 1037-1065 ve 1072-1157 arası iki taç aynı kişidedir (bkz. leon-kralligi ic_not_t).",
+   "kronoloji": [
+    {
+     "t": "1035-01-01",
+     "tur": "kurulus",
+     "b": "III. Sancho'nun ölümüyle I. Fernando Kastilya kralı unvanını aldı"
+    }
+   ],
+   "t": "1479-01-20",
+   "harita": "kastilya"
+  },
+  {
+   "islem": "genislet",
+   "id": "aragon",
+   "ad": "Aragon Krallığı (1164'ten itibaren Aragon Tacı)",
+   "tur": "krallik",
+   "bolge": "iberya",
+   "f": "1035-01-01",
+   "f_eski": "1164-01-01",
+   "baskent": "Jaca / Huesca, 1118'den sonra Zaragoza",
+   "ozet": "III. Sancho'nun 1035'teki ölümüyle oğlu I. Ramiro'ya krallık olarak bırakılan Aragon; 1076-1134 arası Navarra ile aynı hükümdar altında, 1118'de Zaragoza'yı aldı, 1137'de Barselona Kontluğu ile hanedan birliğine girdi ve 1164'ten itibaren Aragon Tacı'nın çekirdeği oldu.",
+   "kaynak": "Gran Enciclopèdia Catalana — 'Ramir I d’Aragó' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/ramir-i-darago",
+   "alinti_f": "El seu pare, en morir (1035), li deixà Aragó, elevat a la categoria de regne.",
+   "alinti_t": "",
+   "ic_not_f": "Kaynak yalnız yıl verir; gün bilinmiyor → 1035-01-01. 1035-1045 arası Sobrarbe ve Ribagorza ayrı (kardeşi Gonzalo) idi, 1045'te Aragon'a katıldı (aynı GEC maddesi).",
+   "ic_not_t": "t alanı YAZILMADI — var olan t aynen kalmalı; bu grup t'yi araştırmadı.",
+   "siniflandirma": "Sınıf ② — aynı polity → GENİŞLET. 1164 'Aragon Tacı' yeni devlet değil: Aragon Krallığı'nın tahtına Barselona kontu hanedanından II. Alfonso'nun (Katalan numarasıyla Alfons I) annesi Peronella'nın hak devriyle tam kral olarak geçmesidir (GEC 'Peronella I d’Aragó'). Krallık, unvan ve başşehir 1035'ten beri kesintisizdir; 1137-1164 arası Aragon 'prens' Ramon Berenguer IV yönetiminde ama yine Aragon Krallığı'dır (GEC 'Ramir II d’Aragó': kral unvanını elinde tuttu). Barselona Kontluğu ayrı künye (barselona-kontlugu, 801-1164). 1076-1134 arası Navarra ile şahsî birlik (bkz. maddeler).",
+   "kronoloji": [
+    {
+     "t": "1035-01-01",
+     "tur": "kurulus",
+     "b": "III. Sancho'nun ölümüyle Aragon krallık olarak I. Ramiro'ya kaldı"
+    }
+   ],
+   "t": "1479-01-20",
+   "harita": "aragon"
+  },
+  {
+   "islem": "yeni",
+   "id": "barselona-kontlugu",
+   "ad": "Barselona Kontluğu (Katalan kontlukları)",
+   "tur": "kontluk",
+   "bolge": "iberya",
+   "f": "801-01-01",
+   "t": "1164-01-01",
+   "baskent": "Barselona",
+   "ozet": "801'de Frank fethiyle kurulan sınır kontluğu (marka); 878'den itibaren I. Guifré soyunda babadan oğula geçti, 10. yüzyıl sonunda Frank krallığıyla bağını fiilen kopardı ve çevresindeki Katalan kontluklarını topladı. 1137'de Aragon ile hanedan birliğine girdi; 1164'te kontluk unvanı Aragon Tacı'nın içinde ikinci plana düştü.",
+   "kaynak": "Gran Enciclopèdia Catalana — 'comtat de Barcelona' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/comtat-de-barcelona ; 'Peronella I d’Aragó' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/peronella-i-darago",
+   "alinti_f": "Amb la reconquesta de Barcelona per Lluís el Piadós (801), el qual ajudaren hispans i gots, l’imperi franc intentava sens dubte de dominar el comtat fronterer més segur",
+   "alinti_t": "cosa que féu després de cedir a aquells tots els seus drets el 1164 a Barcelona.",
+   "ic_not_f": "Kaynak yıl verir (801); gün yok → 0801-01-01. ALTERNATİFLER (aynı GEC maddesi): 878 — Guifré I'e verilişi, kontluğun hanedana bağlanması ('A Troyes, aquell any, el comtat de Barcelona fou atribuït a un personatge del país, Guifré I el Pelós (878-897)'); 10. yy sonu — Borrell II Frank bağını fiilen kopardı ('Borrell II trencà llavors definitivament el lligam de Barcelona i dels comtats catalans amb el regne franc'), cümlede yıl yok, bağlam 985 yağmasından sonra Capet hanedanına geçiştir (987). 801-~988 arası kontluk Frank krallığına tâbidir: atlasta fransa künyesi 987'de başladığı için 801-987 çakışması yoktur, ama 987-988 civarı tâbiyet sorusu koordinatörün kararıdır. Kuşak 1000'de başladığından pratikte f her üç seçenekte de kuşağı kapsar.",
+   "ic_not_t": "Kaynak yalnız yıl verir → 1164-01-01. Süreç: 1137 nişan ve hükümranlık devri (Barbastro), 1162 Ramon Berenguer IV'ün ölümü — Alfons (Aragon'da II. Alfonso) hem Aragon'u hem Barselona'yı miras aldı; 1164 Peronella'nın hak devri. GEC 'Alfons I de Catalunya' 'Primer rei de Catalunya-Aragó (1162-96)' der ve hak devrini 'l’any següent' (1163) diye verir; 'Peronella' maddesi 1164 der — GEC kendi içinde 1163/1164 çelişir. 1164 seçildi çünkü atlasın aragon 1164 birleşme maddesiyle aynı olaydır. t, aragon künyesinin var olan 1164 f değeriyle aynı güne hizalanmalı (koordinatör).",
+   "siniflandirma": "Yeni künye. Aragon'dan ayrı polity (1137'ye kadar tamamen ayrı hükümdar; 1137-1164 aynı kişide iki ayrı unvan).",
+   "kronoloji": [
+    {
+     "t": "0801-01-01",
+     "tur": "kurulus",
+     "b": "Dindar Louis Barselona'yı aldı: Frank sınır kontluğu kuruldu"
+    },
+    {
+     "t": "0878-01-01",
+     "tur": "hanedan",
+     "b": "Troyes'ta Barselona kontluğu Guifré I'e verildi; kontluk bu soyda babadan oğula geçti"
+    },
+    {
+     "t": "1164-01-01",
+     "tur": "birlesme",
+     "b": "Peronella haklarını devretti; Barselona kontu aynı zamanda tam yetkili Aragon kralı oldu"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "portekiz",
+   "ad": "Portekiz Kontluğu / Krallığı",
+   "tur": "krallik",
+   "bolge": "iberya",
+   "f": "1097-01-01",
+   "f_eski": "1139-07-25",
+   "baskent": "Guimarães → Coimbra → Lizbon (1147'den sonra)",
+   "ozet": "VI. Alfonso'nun damadı Burgonyalı Henri'ye 1097'de irsî kontluk olarak verilen Terra Portucalensis; Henri'nin oğlu Afonso Henriques 1139'da Ourique zaferinin ardından kral ilan edildi, 1143 Zamora antlaşmasıyla Kastilya-León'dan bağımsızlığı tanındı.",
+   "kaynak": "Gran Enciclopèdia Catalana — 'Portugal' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/portugal-0 ; TDV İslâm Ansiklopedisi — 'PORTEKİZ' — https://islamansiklopedisi.org.tr/portekiz",
+   "alinti_f": "lliurà a ambdós la Terra Portucalensis, situada entre el Minho i la comarca de Coïmbra i Santarém, amb caràcter hereditari i amb el títol comtal (1097)",
+   "alinti_t": "",
+   "ic_not_f": "Kaynaklar çelişir: GEC 'Portugal' 1097 (kontluk bağışı); TDV 'Portekiz' 'Portekiz’in müstakil bir devlet haline gelişi 1095’ten itibaren başladı'; GEC 'Enric de Borgonya' evliliği 'vers el 1094' verir. 1097 seçildi çünkü bağışı açıkça tarihleyen tek cümle odur; gün yok → 01-01. Şartnamedeki '1096 civarı' hiçbir açtığım kaynakta geçmiyor. 1097-1128 arası kontluk León-Kastilya hükümdarına tâbidir (hükümdarı Henri, sonra dul Teresa 1114-28); harita için bu dönem tâbi (v:kid) olarak işlenebilir.",
+   "siniflandirma": "Sınıf ② — aynı polity → GENİŞLET. Aynı hanedan (Burgonya evi: Henri → Teresa → Afonso Henriques), aynı toprak çekirdeği, kesintisiz; 1139 kontun kral unvanı almasıdır, yeni devlet değil (GEC: 'El moviment independentista fou ampliat pel seu fill Alfons Henriques'). Genişletme yapılmazsa 1097-1139 arası Portekiz toprağı ya León'a ya da komşuya emilir. t'ye dokunulmadı.",
+   "kronoloji": [
+    {
+     "t": "1097-01-01",
+     "tur": "kurulus",
+     "b": "VI. Alfonso Terra Portucalensis'i Henri ve Teresa'ya irsî kontluk olarak verdi"
+    },
+    {
+     "t": "1128-01-01",
+     "tur": "hukumdar",
+     "b": "Afonso Henriques kontluğun yönetimini annesi Teresa'dan aldı"
+    }
+   ],
+   "t": "1945-09-02",
+   "harita": "portekiz"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "navarra",
+   "ad": "Navarra Krallığı",
+   "tur": "krallik",
+   "bolge": "iberya",
+   "ozet": "Künyeye dokunulmadı; yalnız kuşak içi maddelerde (1076 Aragon ile birlik, 1134 ayrılış, 1212 Las Navas) taraf.",
+   "kronoloji": [],
+   "f": "824-01-01",
+   "t": "1620-10-19",
+   "harita": "navarra"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "granada",
+   "ad": "Gırnata Nasrî Emirliği",
+   "tur": "emirlik",
+   "bolge": "iberya",
+   "ozet": "Künyeye dokunulmadı; yalnız 1246 Ceyyân antlaşması maddesinde taraf.",
+   "kronoloji": [],
+   "f": "1238-05-12",
+   "t": "1492-01-02",
+   "harita": "granada"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "mayorka",
+   "ad": "Mayorka Krallığı",
+   "tur": "krallik",
+   "bolge": "iberya",
+   "ozet": "Künyeye dokunulmadı. 1229 Mayorka fethi künyenin (1276) öncesidir — maddede taraf olarak YAZILMADI, taraf aragon.",
+   "kronoloji": [],
+   "f": "1276-07-27",
+   "t": "1349-10-25",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "fransa",
+   "ad": "Fransa Krallığı",
+   "tur": "krallik",
+   "bolge": "bati-avrupa",
+   "f": "987-01-01",
+   "t": "1792-09-22",
+   "baskent": "Paris",
+   "ozet": "Capet hanedanı krallığı; künyeye dokunulmadı, yalnız 1000-1281 kuşağı maddeleri eklendi.",
+   "kaynak": "—",
+   "kronoloji": [],
+   "harita": "fransa"
+  },
+  {
+   "islem": "genislet",
+   "id": "ingiltere",
+   "ad": "İngiltere Krallığı",
+   "tur": "krallik",
+   "bolge": "bati-avrupa",
+   "f": "927-01-01",
+   "f_eski": "1066-01-01",
+   "t": "1945-09-02",
+   "baskent": "Winchester / Londra",
+   "ozet": "Wessex kralı Athelstan'ın 927'de York'u ilhakıyla bütün İngiltere'ye hükmeden krallık; 1016-42 Danimarka hanedanı, 1066 Norman, 1154 Plantagenet hanedanları aynı tacı devraldı.",
+   "kaynak": "Encyclopaedia Britannica — 'Athelstan' — https://www.britannica.com/biography/Athelstan",
+   "alinti_f": "He annexed the Viking kingdom of York in 927.",
+   "alinti_t": "",
+   "ic_not_f": "Kaynak yalnız yıl verir (927). Aynı madde taç giyme için 'Crowned king of the whole country at Kingston on Sept. 4, 925' der; krallığın 'bütün İngiltere' kapsamı York ilhakıyla (927) tamamlanır. Atlas kuşağı 1000'den başladığı için koordinatör f'yi 1000-01-01 pencere işaretine de çekebilir; 927 kaynaklı alt sınırdır.",
+   "ic_not_t": "t'ye dokunulmadı.",
+   "siniflandirma": "Sınıf ② — aynı polity sürüyor. Britannica Knut'u 'Danish king of England (1016–35)', Edward'ı 'king of England from 1042 to 1066', Hastings'i 'established the Normans as the rulers of England' diye anlatır: 1016, 1042, 1066 ve 1154 aynı krallığın taht/hanedan değişimleridir, yeni devlet kuruluşu değil. Çare: künyeyi GENİŞLET (f geri). Angevin İmparatorluğu ayrı künye DEĞİL, ingiltere maddelerinde.",
+   "kronoloji": [],
+   "harita": "ingiltere"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "iskocya",
+   "ad": "İskoçya Krallığı",
+   "tur": "krallik",
+   "bolge": "bati-avrupa",
+   "f": "843-01-01",
+   "t": "1707-05-01",
+   "baskent": "Scone / Perth / Edinburgh",
+   "ozet": "Künyeye dokunulmadı; maddeler eklendi.",
+   "kaynak": "—",
+   "kronoloji": [],
+   "harita": "iskocya"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "bretanya",
+   "ad": "Bretanya Dükalığı",
+   "tur": "dukalik",
+   "bolge": "bati-avrupa",
+   "f": "939-01-01",
+   "t": "1532-08-13",
+   "baskent": "Rennes / Nantes",
+   "ozet": "Künyeye dokunulmadı; maddeler eklendi.",
+   "kaynak": "—",
+   "kronoloji": [],
+   "harita": "bretanya"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "burgonya",
+   "ad": "Burgonya Dükalığı",
+   "tur": "dukalik",
+   "bolge": "bati-avrupa",
+   "f": "1032-01-01",
+   "t": "1482-03-27",
+   "baskent": "Dijon",
+   "ozet": "Künyeye dokunulmadı; 1032 kuruluş maddesi atlasta var. Kuşakta yalnız künye öncesi 1015 Fransa ilhakı bulundu.",
+   "kaynak": "—",
+   "kronoloji": [],
+   "harita": "burgonya"
+  },
+  {
+   "islem": "genislet",
+   "id": "irlanda",
+   "ad": "İrlanda Gal Beylikleri ve Krallığı",
+   "tur": "krallik",
+   "bolge": "bati-avrupa",
+   "f": "1000-01-01",
+   "f_eski": "1200-01-01",
+   "t": "1603-03-30",
+   "baskent": "Tara / Cashel / Dublin (değişken)",
+   "ozet": "Gal (Gaelic) krallıkları ve yüksek krallık (high-kingship) 1000'den önce de vardı: Brian Bórama 1014'te Clontarf'ta düştü, Ruaidrí Ua Conchobair 1166'da yüksek krallığı aldı. Anglo-Norman müdahalesi 1169'da başladı.",
+   "kaynak": "Dictionary of Irish Biography — 'Brian Bórama (Bóruma, Boru)' — https://www.dib.ie/biography/brian-borama-boruma-boru-a0954",
+   "alinti_f": "Notwithstanding this, such was the power of the Munster king that his opponent agreed to come to terms with him in 997",
+   "alinti_t": "",
+   "ic_not_f": "1000-01-01 bir KURULUŞ tarihi değil, atlas kuşağının PENCERE UCUDUR (sınır işareti). Gal krallıkları 1000'den çok önce vardır (DIB, 997 Brian–Máel-Sechnaill uzlaşması, 999 Glenn Máma). Kaynaklı tek kuruluş günü yoktur; künye kuşak başına çekildi.",
+   "ic_not_t": "t'ye dokunulmadı.",
+   "siniflandirma": "Sınıf ② — aynı polity (Gal krallıkları/yüksek krallık) 1000'den önce sürüyor; 1200 başlangıcı sahte kesinlik. Kuşak içi maddeler (1014 Clontarf, 1166, 1175 Windsor) künyeye ancak f geri çekilirse bağlanabilir. NOT: aşağıdaki 1014/1166/1175 maddelerinde taraf 'irlanda' bu genişletmeye bağlıdır.",
+   "kronoloji": [],
+   "harita": "irlanda"
+  },
+  {
+   "islem": "yeni",
+   "id": "normandiya",
+   "ad": "Normandiya Dükalığı",
+   "tur": "dukalik",
+   "bolge": "bati-avrupa",
+   "f": "911-01-01",
+   "t": "1204-01-01",
+   "baskent": "Rouen",
+   "ozet": "Fransa kralı III. Charles'ın Saint-Clair-sur-Epte Antlaşması'yla (911) Viking reisi Rollo'ya bıraktığı Aşağı Seine toprağı; 1066'dan sonra İngiltere tacıyla birleşik, 1204'te Philippe Auguste tarafından Fransa'ya ilhak edildi.",
+   "kaynak": "Encyclopaedia Britannica — 'Normandy' — https://www.britannica.com/place/Normandy",
+   "alinti_f": "ceded the territory around Rouen and the mouth of the Seine River to Rollo, the chief of the largest band of Vikings, in the Treaty of St. Clair-sur-Epte (911).",
+   "alinti_t": "culminated in the complete conquest and annexation of Normandy by Philip in 1204.",
+   "ic_not_f": "Kaynak yalnız yıl verir (911); gün bilinmiyor.",
+   "ic_not_t": "Kaynak yıl verir. Britannica 'Philip II' maddesi: Château-Gaillard Mart 1204'te düştü, 'Rouen, the Norman capital, surrendered in June, after 40 days' resistance.' — yani fiilî son HAZİRAN 1204. Önerilen 24 Haziran 1204 günü akademik/kurumsal kaynakta DOĞRULANAMADI (yalnız Vikipedi/medievalists.net'te geçiyor) → yazılmadı. Kural gereği 1204-01-01; koordinatör gün kaynağı bulursa düzeltmeli (01-01, Rouen düşmeden altı ay önce bitirir). Resmî İngiliz feragati Paris Antlaşması 1259.",
+   "siniflandirma": "Yeni künye — atlasta Normandiya için kimlik yok (Fransa'nın vassalı ama ayrı yönetimli dükalık; 1066-1204 İngiltere kralının şahsında).",
+   "kronoloji": [
+    {
+     "t": "911-01-01",
+     "tur": "kurulus",
+     "b": "Saint-Clair-sur-Epte Antlaşması: Rouen ve Seine ağzı Rollo'ya bırakılır"
+    },
+    {
+     "t": "1035-01-01",
+     "tur": "hukumdar",
+     "b": "Guillaume (sonraki Fatih William) Normandiya dükü olur"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "flandre",
+   "ad": "Flandre Kontluğu",
+   "tur": "kontluk",
+   "bolge": "bati-avrupa",
+   "f": "862-01-01",
+   "t": "1384-01-30",
+   "baskent": "Brugge (Bruges)",
+   "ozet": "Fransa ile Alman krallıkları arasında yarı bağımsız kontluk; I. Baudouin'in 862'de kont atanmasıyla başlar, 1384'te II. Louis'nin ölümüyle kızı Margaret aracılığıyla Burgonya dükü Philippe le Hardi'ye geçer.",
+   "kaynak": "Encyclopaedia Britannica — 'Flanders (medieval principality)' — https://www.britannica.com/place/Flanders-medieval-principality-and-historical-region-Europe ; 'Louis II (count of Flanders)' — https://www.britannica.com/biography/Louis-II-count-of-Flanders",
+   "alinti_f": "Baldwin I Iron-Arm, married the Western Frankish king Charles II the Bald's daughter in 862 and was appointed count of Flanders.",
+   "alinti_t": "Louis II (born Nov. 29, 1330, Mâle Castle, near Bruges, Flanders—died Jan. 30, 1384, Saint-Omer, Flanders) was the count of Flanders, Nevers, and Réthel (1346–84)",
+   "ic_not_f": "Kaynak yalnız yıl verir (862).",
+   "ic_not_t": "Gün = II. Louis'nin ölümü (Britannica). Flanders maddesi: 'Louis II died in 1384, leaving Flanders to his daughter Margaret, whose second husband, Philip the Bold, duke of Burgundy, thereby succeeded to the county of Flanders.' Atlastaki burgonya 1384 maddesiyle eşlenmeli.",
+   "siniflandirma": "Yeni künye — atlasta Flandre kimliği yok.",
+   "kronoloji": [
+    {
+     "t": "862-01-01",
+     "tur": "kurulus",
+     "b": "I. Baudouin Flandre kontu atanır"
+    },
+    {
+     "t": "1128-01-01",
+     "tur": "hanedan",
+     "b": "Alsace hanedanı (Thierry d'Alsace) Flandre kontluğunda"
+    },
+    {
+     "t": "1384-01-30",
+     "tur": "son",
+     "b": "II. Louis ölür; Flandre Burgonya dükü Philippe le Hardi'ye geçer"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "toulouse",
+   "ad": "Toulouse Kontluğu",
+   "tur": "kontluk",
+   "bolge": "bati-avrupa",
+   "f": "849-01-01",
+   "t": "1271-01-01",
+   "baskent": "Toulouse",
+   "ozet": "Güney Fransa'nın (Languedoc) büyük kontluğu; Albigens Haçlı Seferi (1209-29) ile zayıfladı, 1229 antlaşmasıyla mirası Capet'lere bağlandı, 1271'de Alphonse de Poitiers'nin ölümüyle Fransa tacına katıldı.",
+   "kaynak": "Encyclopaedia Britannica — 'Toulouse (medieval county)' — https://www.britannica.com/place/Toulouse-medieval-county-France ; 'Alphonse of Poitiers' — https://www.britannica.com/biography/Alphonse-of-Poitiers",
+   "alinti_f": "The great dynasty, however, dates from 849, when Count Fredelon, a vassal of King Pippin II of Aquitaine, delivered Toulouse to Charles II the Bald of France, who thereupon confirmed him as count.",
+   "alinti_t": "and when he and his wife died without issue in 1271, their enormous inheritance reverted to the royal domain.",
+   "ic_not_f": "Aynı kaynak 'The countship can be dated from ad 778' der; 778 Karolenj idarî kontluk, 849 hanedan kontluğunun başı. 849 seçildi (kaynak yalnız yıl).",
+   "ic_not_t": "Kaynak yalnız yıl verir (1271). Alphonse'un ölüm günü açılan Britannica sayfalarında yok → 1271-01-01 (fiilî devir yılın içinde; gün kaynağı bulunursa düzeltilmeli).",
+   "siniflandirma": "Yeni künye — atlasta Toulouse kimliği yok.",
+   "kronoloji": [
+    {
+     "t": "849-01-01",
+     "tur": "kurulus",
+     "b": "Kont Fredelon Toulouse'u Kel Charles'a teslim eder, kont olarak onaylanır"
+    },
+    {
+     "t": "1222-01-01",
+     "tur": "hukumdar",
+     "b": "VII. Raymond Toulouse kontu olur"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "arles-kralligi",
+   "ad": "Burgonya (Arles) Krallığı",
+   "tur": "krallik",
+   "bolge": "bati-avrupa",
+   "f": "933-01-01",
+   "t": "1032-09-06",
+   "baskent": "Arles / Vienne",
+   "ozet": "Aşağı Burgonya (Provence) ile Yukarı (Jura ötesi) Burgonya'nın 933'te birleşmesiyle oluşan krallık; son bağımsız kral III. Rudolf'un 1032'de ölümüyle Kutsal Roma imparatoru II. Konrad'a geçti.",
+   "kaynak": "Encyclopaedia Britannica — 'Burgundy summary' — https://www.britannica.com/summary/Burgundy ; 'Rudolf III' — https://www.britannica.com/biography/Rudolf-III-king-of-Burgundy",
+   "alinti_f": "It was later divided into Cisjurane (Lower) Burgundy, or Provence (founded 879), and Transjurane (Upper) Burgundy (founded 888); they united in 933 to form the kingdom of Burgundy.",
+   "alinti_t": "Rudolf III (born c. 970—died Sept. 5/6, 1032) was the last of the independent kings of Burgundy (993–1032).",
+   "ic_not_f": "Kaynak yalnız yıl verir (933).",
+   "ic_not_t": "Kaynak ölüm gününü '5/6 Eylül 1032' diye belirsiz verir; 6 Eylül (geç uç) seçildi. Burgonya prensleri II. Konrad'a ancak 1 Ağustos 1034'te Zürih'te biat etti (bkz. madde). 'Kingdom of Arles' Britannica sayfası içerik döndürmedi (boş şablon).",
+   "siniflandirma": "Yeni künye — atlastaki 'burgonya' 1032 kuruluşlu DÜKALIK'tır, ayrı polity. Krallık 1032'de almanya (Kutsal Roma) tacına katıldı.",
+   "kronoloji": [
+    {
+     "t": "933-01-01",
+     "tur": "kurulus",
+     "b": "Aşağı ve Yukarı Burgonya birleşerek Burgonya (Arles) Krallığı'nı oluşturur"
+    },
+    {
+     "t": "993-01-01",
+     "tur": "hukumdar",
+     "b": "III. Rudolf Burgonya kralı olur"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "gwynedd",
+   "ad": "Gwynedd Krallığı / Galler Prensliği",
+   "tur": "prenslik",
+   "bolge": "bati-avrupa",
+   "f": "1000-01-01",
+   "t": "1283-10-03",
+   "baskent": "Aberffraw / Garth Celyn",
+   "ozet": "Kuzey Galler krallığı; Gruffudd ap Llywelyn (1039-63) ve Llywelyn ap Gruffudd (Galler Prensi, 1258) dönemlerinde bütün Galler'e hükmetti; I. Edward'ın fethi 1282-83'te sona erdirdi.",
+   "kaynak": "Dictionary of Welsh Biography — 'DAFYDD (DAVID) ap GRUFFYDD (died 1283), prince of Gwynedd' — https://biography.wales/article/s-DAFY-APG-1283",
+   "alinti_f": "",
+   "alinti_t": "Eventually he was brought to trial at Shrewsbury, and there, on 3 October 1283, David III, on account of his broken allegiance to England's king, suffered a traitor's death.",
+   "ic_not_f": "1000-01-01 kuruluş değil PENCERE UCUDUR: Gwynedd 1000'den çok önce vardır; kaynaklı kuruluş günü bulunamadı (bkz. bulunamadi).",
+   "ic_not_t": "Son Gwynedd prensi Dafydd'in idam günü (DWB). Aynı madde: 'he held out until the following June' — silahlı direniş Haziran 1283'te bitti (Britannica Wales: 'finally collapsed in the summer of 1283'). Koordinatör toprak için Haziran 1283'ü tercih ederse gün kaynağı yok → 1283-01-01 olur; 3 Ekim kaynaklı gündür.",
+   "siniflandirma": "Yeni künye — atlasta Gwynedd/Galler kimliği yok.",
+   "kronoloji": [
+    {
+     "t": "1039-01-01",
+     "tur": "hukumdar",
+     "b": "Gruffudd ap Llywelyn Gwynedd ve Powys kralı olur"
+    },
+    {
+     "t": "1258-01-01",
+     "tur": "hukumdar",
+     "b": "Llywelyn ap Gruffudd 'Galler Prensi' unvanını alır, öteki prensler biat eder"
+    },
+    {
+     "t": "1283-10-03",
+     "tur": "son",
+     "b": "Son prens Dafydd ap Gruffudd Shrewsbury'de idam edilir; Gwynedd İngiltere'ye geçer"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "sicilya-emirligi",
+   "ad": "Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)",
+   "tur": "emirlik",
+   "bolge": "italya",
+   "f": "947-01-01",
+   "t": "1091-01-01",
+   "baskent": "Palermo (Belerm)",
+   "ozet": "Fâtımîler adına yarı bağımsız yöneten Kelbî valileri (947-1053) ve onların yıkılışından sonra adayı bölüşen mahallî emirlikler; Normanlar 1061-1091 arasında adayı aldı.",
+   "alinti_f": "Fâtımî Halifesi Mansûr-Billâh’ın Benî Taberî isyanını bastırmak için Hasan b. Ali el-Kelbî’yi yarı müstakil idare yetkisi vererek Sicilya’ya göndermesi (335/947)",
+   "alinti_t": "1091’de Noto’nun zaptıyla İslâm hâkimiyeti sona erdi.",
+   "ic_not_f": "TDV yalnız yıl verir (335/947); 335 H. yılı Ağustos 946 - Temmuz 947 arasıdır, gün bilinmiyor. Görevde önerilen 948 Treccani'nin (Kalbiti: \"948-1040\") yılıdır; TDV birincil olduğu için 947 yazıldı.",
+   "ic_not_t": "SON TARİHİ SEÇİMİ: Kelbî hanedanı 1053'te (TDV 445/1053; Treccani 1040 der — çelişki) yıkıldı, fakat ada 1053-1091 arasında da müslüman mahallî emirliklerin elindeydi; t=1053 alınsaydı 1053-1091 arası müslüman toprağı sahipsiz kalırdı (sınıf ③ ardılı olmayan delik). Bu yüzden künye \"Sicilya Emirliği\" olarak 1091 (Noto; TDV ve Treccani Ruggero I ikisi de 1091) ile kapatıldı. Palermo 1072 devletin sonu DEĞİL: güney/doğu (Enna, Siraküza, Noto) 1091'e kadar müslümandı. Gün bilinmiyor (kaynak yalnız yıl verir).",
+   "siniflandirma": "Yeni künye. Kelbî dönemi ile 1053-1091 mahallî emirlikleri tek künyede tutuldu (aynı müslüman Sicilya siyasî alanı, başkent Palermo 1072'ye kadar); istenirse 1053 bölünmesi kronoloji maddesiyle gösterilir.",
+   "kronoloji": [
+    {
+     "t": "947-01-01",
+     "tur": "kurulus",
+     "b": "Hasan b. Ali el-Kelbî Sicilya valisi: Kelbî emirliği başlar"
+    },
+    {
+     "t": "1091-01-01",
+     "tur": "son",
+     "b": "Noto'nun Normanlarca alınışı: Sicilya'da İslâm hâkimiyetinin sonu"
+    }
+   ],
+   "kaynak": "TDV İslâm Ansiklopedisi — 'KELBÎLER' (İ. Altan) — https://islamansiklopedisi.org.tr/kelbiler · TDV İslâm Ansiklopedisi — 'SİCİLYA' (M. H. Şakiroğlu) — https://islamansiklopedisi.org.tr/sicilya",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "apulya-dukaligi",
+   "ad": "Apulya ve Calabria Dükalığı (Norman)",
+   "tur": "dukalik",
+   "bolge": "italya",
+   "f": "1059-01-01",
+   "t": "1128-01-01",
+   "baskent": "Melfi, sonra Salerno",
+   "ozet": "Hauteville (Altavilla) Normanlarının Güney İtalya'daki dükalığı; Robert Guiscard 1059'da papaca dük tanındı, 1127'de soyu tükenince dükalık Sicilya kontu II. Roger'e geçti.",
+   "alinti_f": "ingrandita poi con le conquiste di Roberto il Guiscardo e trasformata in ducato di Puglia e Calabria (1059)",
+   "alinti_t": "Morto (1127) il duca Guglielmo senza eredi, R. avanzò i suoi diritti;",
+   "ic_not_f": "Kaynak yalnız yıl verir. \"Melfi\" (Ağustos 1059 Melfi konsili) adı açılan Treccani maddelerinde GEÇMİYOR; yalnız \"papaca dük tanındı (1059)\" okunuyor. 1042 Apulya kontluğu (Treccani Altavilla) öncül yapıdır; istenirse f 1042'ye genişletilebilir (aynı hanedan, aynı toprak çekirdeği).",
+   "ic_not_t": "Dük Guillaume 1127'de mirassız öldü; Treccani Ruggero II: papa dükalığı ona 1128'de vermek zorunda kaldı (\"lo stesso pontefice dovette concedergli il ducato (1128)\"). t=1128-01-01 yıl hassasiyetinde (gün bilinmiyor). Görevde önerilen 1130 değil 1128 seçildi çünkü sicilya-kralligi künyesi Sicilya Kontluğunu da kapsıyor (aşağıda): toprak 1128'de aynı hükümdarın (II. Roger) eline geçti.",
+   "siniflandirma": "Yeni künye. Norman Sicilya Kontluğu (1072-1130) bu künyeye DEĞİL sicilya-kralligi'ne verildi (bkz. o künye). 1061-1072 arasında adada Normanların aldığı yerler (Messina vb.) TDV'ye göre I. Roger tarafından \"ağabeyinin adına\" alındığından bu künyeye (apulya-dukaligi) aittir.",
+   "kronoloji": [
+    {
+     "t": "1059-01-01",
+     "tur": "kurulus",
+     "b": "Robert Guiscard papaca Apulya ve Calabria dükü tanınır"
+    },
+    {
+     "t": "1128-01-01",
+     "tur": "birlesme",
+     "b": "Dükalık Sicilya kontu II. Roger'e geçer"
+    }
+   ],
+   "kaynak": "Treccani Enciclopedia on line — 'Altavilla' — https://www.treccani.it/enciclopedia/altavilla/ · Treccani Enciclopedia on line — 'Ruggero II re di Sicilia' — https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "sicilya-kralligi",
+   "ad": "Sicilya Krallığı (Norman Sicilya Kontluğu dahil)",
+   "tur": "krallik",
+   "bolge": "italya",
+   "f": "1072-01-01",
+   "t": "1282-03-30",
+   "baskent": "Palermo",
+   "ozet": "Hauteville hanedanının Sicilya kontluğundan doğan, 1130'da krallığa yükselen devlet; 1194'te Hohenstaufen, 1266'da Anjou hanedanına geçti, 1282 Sicilya Vesperleri ile ada Anjou'dan koptu.",
+   "alinti_f": "I. Ruggero 1061’de Messina’yı, 1071’de Catania’yı (Katâniye) ve 1072’de Palermo’yu ağabeyinin adına ele geçirdi;",
+   "alinti_t": "Insurrezione scoppiata (1282) a Palermo all'ora del vespro del lunedì di Pasqua contro il malgoverno di Carlo I d'Angiò.",
+   "ic_not_f": "KARAR: Sicilya Kontluğu (1072-1130) ayrı künye DEĞİL, bu künyenin öncül evresi sayıldı (sınıf ② — aynı polity): Treccani \"Regno di Sicilia\" krallığı \"11° sec. dai normanni\" kurulmuş sayar ve \"L'organismo territoriale iniziò a definirsi nel corso dell'occupazione dell'isola\" der; II. Roger kont olarak başlayıp aynı kişi olarak kral oldu, başkent Palermo değişmedi. Görevdeki f 1130-12-25 (taç giyme, Treccani Ruggero II: \"(Natale 1130) veniva solennemente incoronato a Palermo\") kronolojide hukumdar/kuruluş maddesi olarak durur; koordinatör kontluğu ayrı istemezse f=1130-12-25 alternatiftir, o durumda 1072-1130 Norman Sicilya'sına ayrı \"sicilya-kontlugu\" künyesi gerekir (yoksa delik). Palermo tarihi: TDV 1072, Treccani Ruggero I 1071 (\"Palermo cedette nel 1071\") — çelişki; TDV birincil, gün bilinmiyor (1072-01-01).",
+   "ic_not_t": "Treccani kendiyle çelişiyor: \"Vespri siciliani\" maddesi \"lunedì di Pasqua\" (1282 Paskalyası 29 Mart → Pazartesi 30 Mart) der, \"Regno di Sicilia\" maddesi \"iniziata il 31 marzo 1282\" der. Atlastaki napoli f=1282-03-30 ile uyum için 30 Mart yazıldı; 31 Mart iddiası bildirildi. Not: Vesper yalnız adanın koptuğu gündür; anakara (Napoli Krallığı) Anjou'da kaldı — napoli künyesi o günden başlıyor.",
+   "siniflandirma": "Yeni künye. Hanedan değişimleri (Hauteville → Hohenstaufen 1194 → Anjou 1266) aynı devletin içindedir, künye bölünmez (Treccani Regno: \"Successivamente governato da varie dinastie\").",
+   "kronoloji": [
+    {
+     "t": "1072-01-01",
+     "tur": "kurulus",
+     "b": "Palermo'nun alınışıyla I. Roger'in Sicilya kontluğu kurulur"
+    },
+    {
+     "t": "1130-12-25",
+     "tur": "hukumdar",
+     "b": "II. Roger Palermo'da Sicilya kralı olarak taç giyer"
+    },
+    {
+     "t": "1282-03-30",
+     "tur": "son",
+     "b": "Sicilya Vesperleri: ada Anjou yönetiminden kopar"
+    }
+   ],
+   "kaynak": "TDV İslâm Ansiklopedisi — 'SİCİLYA' (M. H. Şakiroğlu) — https://islamansiklopedisi.org.tr/sicilya · Treccani Enciclopedia on line — 'Vespri siciliani' — https://www.treccani.it/enciclopedia/vespri-siciliani/",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "milano-dukaligi",
+   "ad": "Milano Komünü / Senyörlüğü / Dükalığı",
+   "tur": "dukalik",
+   "bolge": "italya",
+   "f": "1097-01-01",
+   "f_eski": "1395-05-11",
+   "t": "1859-11-10",
+   "baskent": "Milano",
+   "ozet": "Milano şehir devleti: 11. yüzyıl sonunda komün, 1277'den Visconti senyörlüğü, 1395'ten dükalık; üç evre aynı şehir devletinin kurumsal dönüşümüdür.",
+   "alinti_f": "portarono all’istituzione del Comune di Milano, un processo che si può credere concluso nel 1097.",
+   "ic_not_f": "Kaynak yalnız yıl verir ve \"si può credere\" (tahminî) der; gün yok. 1097 öncesi Milano başpiskoposluk yönetiminde, İtalya Krallığı (almanya künyesi) içindedir. 1162-1166 arası şehir yıkılıp halk surların dışında yaşadı (Treccani Milano) — haritada şehir noktası o yıllarda da Milano künyesinde kalabilir ama kronoloji maddesi var.",
+   "siniflandirma": "GENİŞLET (sınıf ② aynı polity). Treccani Milano: Visconti senyörlüğü komünü ortadan kaldırmadı, \"il governo comunale divenne il cuore di un organismo regionale\"; 1395 dükalığı da aynı devletin unvan değişimidir (\"L’11 maggio 1395 Gian Galeazzo ottenne il titolo di duca di M.\"). Aynı başkent, aynı kurumsal süreklilik; ayrı milano-komunu künyesi açmak iki künye arasında yapay bir kırılma (1277 veya 1395) üretir. Künye adının \"Milano Dükalığı\" kalması 1097-1395 için yanıltıcı — ad alanına dönem notu önerilir (ad değişikliği koordinatörün).",
+   "kronoloji": [],
+   "kaynak": "Treccani Enciclopedia on line — 'Milano' (Storia) — https://www.treccani.it/enciclopedia/milano/",
+   "harita": "milanoduka"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "almanya",
+   "ad": "Kutsal Roma / Almanya",
+   "tur": "imparatorluk",
+   "bolge": "orta-avrupa",
+   "f": "962-02-02",
+   "t": "1945-06-05",
+   "ozet": "Künyeye dokunulmadı; kuşak içi 12 madde (Salier 1024 → Dürnkrut 1278) 'maddeler'de.",
+   "siniflandirma": "Künye kuşağı zaten kapsıyor; değişiklik gerekmiyor.",
+   "harita": "almanya"
+  },
+  {
+   "islem": "yeni",
+   "id": "avusturya-dukaligi",
+   "ad": "Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)",
+   "tur": "dukalik",
+   "bolge": "orta-avrupa",
+   "f": "1156-09-17",
+   "t": "1276-11-21",
+   "baskent": "Viyana",
+   "ozet": "Babenberg uç beyliğinin 1156'da Bavyera'dan ayrılarak dükalığa yükseltilmesiyle doğan Avusturya Dükalığı; 1192'den Steiermark'ı da kapsadı, 1246'da Babenberg soyu sönünce 1251'den Bohemya kralı II. Ottokar'ın eline geçti, 1276 Viyana barışıyla Ottokar Avusturya'dan vazgeçti.",
+   "alinti_f": "erst auf dem Reichstage zu Regensburg (17. September 1156) beendigt.",
+   "alinti_t": "Im Frieden von Wien (21.11.1276), zu dem er auch durch einen Adelsaufstand in Böhmen (angeführt v. Riesenburgern u. Witigonen) gezwungen war, mußte er auf Österreich, Steiermark",
+   "ic_not_f": "17.9.1156 ADB 'Heinrich II. Jasomirgott' ve ADB 'Friedrich I.' ('Am 17. Sept. 1156 gab der Babenberger zu Regensburg dem Kaiser Baiern zurück … erhielt Heinrich Jasomirgott Oesterreich jetzt als ein völlig von Baiern getrenntes Herzogthum'); NDB aynı maddede yalnız 'im September 1156' der. Öncesi: Babenberg uç beyliği (Mark, geleneksel 976) — bu turda kaynakla ÖLÇÜLMEDİ; o dönem Bavyera/Kutsal Roma (almanya) içinde bir mark olarak kalır, ayrı künye önerilmez.",
+   "ic_not_t": "BOŞLUK 1276-11-21 → 1282: Viyana barışından sonra Avusturya ülkeleri Kral I. Rudolf'un doğrudan (Reich) idaresinde kaldı; Rudolf oğullarına 1282'de tımar verdi (habsburg künyesi f=1282-01-01, gün kaynaksız). Bu 6 yıl almanya'ya (Kutsal Roma) düşmeli — kasıtlı; Dürnkrut 1278 bu aralıktadır. 1251-1276 arası hükümdar Bohemya kralı II. Ottokar'dır ama polity Avusturya Dükalığı olarak sürdü (NDB: 'Herzog von Österreich (1251-76)') — bu yüzden bohemya'ya katılmadı; Steiermark 1254-1260 Macar elindeydi (NDB: 'der Steiermark (1251–54 u. 1260-76)') — yerleşim düzeyinde koordinatör karar vermeli.",
+   "siniflandirma": "YENİ künye: 1156-1276 arası bağımsız dük soyu/dükalık, ne almanya (çatı) ne habsburg (1282'den) kapsıyor. habsburg künyesinin öncülü.",
+   "kronoloji": [
+    {
+     "t": "1156-09-17",
+     "tur": "kurulus",
+     "b": "Privilegium Minus: Avusturya Bavyera'dan ayrılıp dükalık oldu"
+    },
+    {
+     "t": "1251-01-01",
+     "tur": "hanedan",
+     "b": "Babenberg mirasında Avusturya soyluları II. Ottokar'a biat etti"
+    },
+    {
+     "t": "1276-11-21",
+     "tur": "son",
+     "b": "Viyana Barışı: II. Ottokar Avusturya, Steiermark, Karintiya ve Kraina'dan vazgeçti"
+    }
+   ],
+   "kaynak": "f: Deutsche Biographie (ADB) — 'Heinrich II. Jasomirgott' — https://www.deutsche-biographie.de/sfz70077.html · t: Deutsche Biographie (NDB) — 'Přemysl Otakar II.' — https://www.deutsche-biographie.de/sfz74566.html",
+   "kronoloji_kaynak": "1251: NDB 'Přemysl Otakar II.' — 'konnte sich P. durchsetzen, dem 1251 die österr. Stände huldigten' (gün yok)",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "bohemya",
+   "ad": "Bohemya Dükalığı / Krallığı (Přemysl → 1526)",
+   "tur": "krallik",
+   "bolge": "orta-avrupa",
+   "f": "1000-01-01",
+   "f_eski": "1198-01-01",
+   "t": "1526-08-29",
+   "baskent": "Prag",
+   "ozet": "Přemysl hanedanının 900'lü yıllarda oluşan Bohemya dükalığı; 1029'dan Moravya ile birleşik, 1198'de kalıtsal krallık (1212 Altın Bulla ile onaylı), 1526'ya dek aynı siyasî birim.",
+   "alinti_f": "de historiske rødder til vore dages Tjekkiet rækker tilbage til 900-tallet, da et fyrstendømme opstod i Bøhmen",
+   "ic_not_f": "pencere ucu, ölçüm değil (D210): kaynaklar dükalığın kuruluşuna YIL vermiyor — lex 'Tjekkiets historie' '900-tallet', snl 'Tsjekkias historie' 'Kongeriket Böhmen utviklet seg til en egen stat på 900-tallet', lex 'přemysliderne' ilk bilinen Přemysl Bořivoj'u 'sidste del af 800-t.' koyar. Yıl uydurulmadı; f kuşak başına (1000-01-01) çekildi. Koordinatör kuşak öncesine inecekse Bořivoj/Václav (929) için yeni kaynak gerekir.",
+   "ic_not_t": "t değişmedi.",
+   "siniflandirma": "SINIF ② — aynı polity sürüyor: lex 'Bøhmen' 'et fyrstendømme og fra 1198 et kongerige' der; 1198 unvan yükselmesidir, devletin doğumu değil. Künyeyi GENİŞLET; ad önerisi 'Bohemya Dükalığı/Krallığı'. Var olan 1198 kurulus maddesinin turu 'hukumdar'/'unvan' olarak düzeltilmeli (kuruluş değil).",
+   "kaynak": "f: Den Store Danske (lex.dk) — 'Tjekkiets historie' — https://lex.dk/Tjekkiets_historie",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "polonya-erken",
+   "ad": "Polonya (Piast Dükalığı/Krallığı ve Birlik Öncesi Krallık)",
+   "tur": "krallik",
+   "bolge": "dogu-avrupa",
+   "f": "966-01-01",
+   "f_eski": "1320-01-20",
+   "t": "1569-07-01",
+   "baskent": "Gnezno → Krakov (1038)",
+   "ozet": "966'da Mieszko I'in vaftiziyle geleneksel olarak kurulmuş sayılan Piast Polonyası; 1025'te krallık, 1138-1320 arası Piast dükleri arasında parçalı, 1320'de yeniden birleşik krallık.",
+   "alinti_f": "I 966 lot han seg døpe og gikk inn for å kristne sitt rike. Dette året regnes tradisjonelt som grunnleggelsen av Polen som stat",
+   "ic_not_f": "966 'geleneksel' kuruluş yılıdır (snl); lex 'Mieszko 1.' Mieszko'yu 'hertug af Polen fra ca. 960' yazar; künyenin eski özeti 963 der — kaynaksız, düzeltilmeli. Gün bilinmiyor.",
+   "ic_not_t": "t değişmedi.",
+   "siniflandirma": "SINIF ② ÖNERİSİ (şartlı): snl 'Polens historie' parçalanmayı aynı ülkenin bölünmesi olarak anlatır ('Polen forble splittet til 1320', 'Polen ble samlet igjen … frem til 1320') — 1320 yeni devletin doğumu değil yeniden birleşmedir ⇒ GENİŞLET. UYARI: 1138-1320 arası tek hükümdar yok; Silezya düklükleri 1289-1335'te Bohemya'ya kaydı, Pomeranya/Chełmno Töton'a geçti. Haritada bu dönemde 'polonya-erken' kıdemli Krakov dükalığı + Piast düklükleri toplamını temsil eder; Silezya gibi kopan parçalar için ayrı künye gerekebilir — bu turda ÖLÇÜLMEDİ. Alternatif (ayrı 'polonya-piast' 966-1138 + düklükler) daha çok künye ve delik riski getirir; önerilmez.",
+   "kaynak": "f: Store norske leksikon — 'Polens historie' — https://snl.no/Polens_historie",
+   "harita": "polonya-erken"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "tur": "krallik",
+   "bolge": "orta-avrupa",
+   "f": "1000-01-01",
+   "t": "1526-08-29",
+   "ozet": "Künyeye dokunulmadı; 7 madde (1038-1241) 'maddeler'de. TDV 'macaristan' taç giymeyi '1000-1001' verir (künye 1000-01-01 ile uyumlu, gün kaynaksız).",
+   "siniflandirma": "Künye kuşağı kapsıyor.",
+   "harita": "macaristan"
+  },
+  {
+   "islem": "genislet",
+   "id": "danimarka",
+   "ad": "Danimarka Krallığı (1814'e kadar Danimarka-Norveç)",
+   "tur": "krallik",
+   "bolge": "kuzey-avrupa",
+   "f": "950-01-01",
+   "f_eski": "1281-01-01",
+   "t": "1945-09-02",
+   "baskent": "Roskilde → Kopenhag",
+   "ozet": "Gorm'un oğlu Harald Blåtand'ın (y. 950-987) bütün Danimarka'ya hükmeden ilk kral sayıldığı birleşik Danimarka krallığı; 1018-1035 Knut'un Kuzey Denizi imparatorluğu, 1157-1241 Valdemarlar çağı.",
+   "alinti_f": "Harald Blåtand regnes som den første konge, der regerede over hele Danmark. Han regerede fra ca. 950 til sin død i senest 987",
+   "ic_not_f": "Kaynak 'ca. 950' (yaklaşık) der; lex aynı maddede Roskildekrøniken'e göre Harald'ın 940'larda babasıyla ortak kral olabileceğini de yazar. snl 'Harald Blåtann' da 'fra rundt 950'. ÇELİŞKİ/NOT: TDV 'danimarka' 'VI. yüzyılda … Danlar Zealand adasında ilk Danimarka devletini kurdular' der ve künyenin mevcut özeti buna dayanır; TDV burada birincil değildir (İslâm dünyası/Osmanlı komşusu değil) ve VI. yüzyıl yapısı birleşik krallıkla aynı polity sayılamaz — f 'bütün Danimarka' kralından verildi.",
+   "ic_not_t": "t değişmedi.",
+   "siniflandirma": "SINIF ② — 1281 YAPAY sınırdır (künye notu da bunu söylüyor); aynı krallık 950'den beri kesintisiz. GENİŞLET.",
+   "kaynak": "f: Den Store Danske (lex.dk) — 'Harald Blåtand' — https://lex.dk/Harald_Bl%C3%A5tand",
+   "harita": "danimarka"
+  },
+  {
+   "islem": "genislet",
+   "id": "norvec-kralligi",
+   "ad": "Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)",
+   "tur": "krallik",
+   "bolge": "kuzey-avrupa",
+   "f": "872-01-01",
+   "f_eski": "1281-01-01",
+   "t": "1537-01-01",
+   "baskent": "Nidaros/Trondheim → Bergen → Oslo",
+   "ozet": "Geleneğe göre Harald Hårfagre'nin Hafrsfjord zaferiyle (872) başlayan, Aziz Olav'a dek süren bir süreçle birleşen Norveç krallığı; 1130-1240 iç savaşlar, 1240 sonrası 'büyüklük çağı' (Grönland 1261, İzlanda 1262).",
+   "alinti_f": "Tradisjonelt er han blitt framstilt som den første kongen over hele Norge etter å ha slått sine motstandere i slaget i Hafrsfjord i år 872.",
+   "ic_not_f": "872 GELENEKSEL yıldır; snl: 'Slaget i Hafrsfjord, foreslått til å ha stått i år 872' ve 'rikssamlingen var en langvarig prosess, som varte minst til og med Olav den helliges kongedømme'. 1000-1015 ve 1028-1035 Danimarka üst egemenliği (Svolder, Knut) — polity sürer, bu dönemler madde olarak işlendi.",
+   "ic_not_t": "t değişmedi.",
+   "siniflandirma": "SINIF ② — 1281 YAPAY sınır; aynı krallık. GENİŞLET. Not: 1028-1035 Knut döneminde toprak danimarka'ya boyanmak istenirse ayrı pencere gerekir (madde 1028 hazır).",
+   "kaynak": "f: Store norske leksikon — 'Harald Hårfagre' — https://snl.no/Harald_H%C3%A5rfagre",
+   "harita": "norvec-kralligi"
+  },
+  {
+   "islem": "genislet",
+   "id": "isvec-birlik-oncesi",
+   "ad": "İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)",
+   "tur": "krallik",
+   "bolge": "kuzey-avrupa",
+   "f": "1000-01-01",
+   "f_eski": "1281-01-01",
+   "t": "1523-06-06",
+   "baskent": "Uppsala/Sigtuna → Stockholm",
+   "ozet": "Svea ve Göta'ya birlikte hükmeden ilk kral sayılan Olof Skötkonung'un (990'lar-1022) krallığı; çekirdek bölgeler 1100'lerde tek kral altında kesinleşti, 1250'den Bjälbo hanedanı.",
+   "alinti_f": "Olof Skötkonung var svensk konge fra 990-årene til 1022.",
+   "ic_not_f": "pencere ucu, ölçüm değil (D210): kaynak yalnız ON YIL verir ('990-årene'); görevlendirmedeki '~995' kaynakta YOK, yıl uydurulmadı ⇒ f kuşak başına (1000-01-01) çekildi. snl aynı maddede 'Olof var visstnok den første konge over både svear og gøter' (visstnok = 'rivayete göre'). ÇELİŞKİ riski: snl 'Sveriges historie' 'De svenske kjerneområdene – Svealand og Götaland – ble samlet under en felles konge på 1100-tallet' — yani kalıcı birlik 1100'lerde; 1000-1100 arası haritada Götaland'ın ayrı boyanıp boyanmayacağı koordinatörün kararı (bu turda ÖLÇÜLMEDİ).",
+   "ic_not_t": "t değişmedi.",
+   "siniflandirma": "SINIF ② — 1281 YAPAY sınır; künyenin kendi notu 'hânedanın kuruluşu değil' diyor. GENİŞLET.",
+   "kaynak": "f: Store norske leksikon — 'Olof Skötkonung' — https://snl.no/Olof_Sk%C3%B6tkonung",
+   "harita": "isvec-birlik-oncesi"
+  },
+  {
+   "islem": "yeni",
+   "id": "izlanda-serbest-devleti",
+   "ad": "İzlanda Serbest Devleti (Althing dönemi)",
+   "tur": "devlet",
+   "bolge": "kuzey-avrupa",
+   "f": "930-01-01",
+   "t": "1262-01-01",
+   "baskent": "Þingvellir (Althing; başkent yok)",
+   "ozet": "Kralsız, yıllık Althing meclisi ve dört 'çeyrek' mahkemesiyle yönetilen İzlanda toplumu; 1220-1262 Sturlung çağı iç savaşlarından sonra Gamli sáttmáli ile Norveç kralına tâbi oldu.",
+   "alinti_f": "I 930 ble «Ulvljots-lovene», som hadde Gulatingsloven som mønster, etter tradisjonen vedtatt på det første allting",
+   "alinti_t": "Gamli sáttmáli er en avtale fra 1262 mellom islendingene og den norske konge Håkon Håkonsson om islandsk underkastelse under Norge som skattland.",
+   "ic_not_f": "930 GELENEKSEL yıldır ('etter tradisjonen'; aynı maddede 'rundt 930'). Gün yok.",
+   "ic_not_t": "Kaynak yalnız yıl verir; snl 'Islands historie' ve 'Håkon 4.' tâbiliği 1261–1264 ve 1262–1264 süreci olarak da verir. atlasta 'izlanda' künyesinde 1262 maddesi VAR — ardıl olarak norvec-kralligi gelir (harita: 1262'den İzlanda yerleşimleri norvec-kralligi).",
+   "siniflandirma": "YENİ künye: atlas 'izlanda' 1918'den başlıyor; 930-1262 kralsız ayrı polity.",
+   "kronoloji": [
+    {
+     "t": "0930-01-01",
+     "tur": "kurulus",
+     "b": "İlk Althing toplandı, Ulfljótr yasaları kabul edildi"
+    },
+    {
+     "t": "1262-01-01",
+     "tur": "son",
+     "b": "Serbest Devlet sona erdi: İzlanda bir vergi ülkesi (skattland) olarak Norveç tacına bağlandı"
+    }
+   ],
+   "kaynak": "f: Store norske leksikon — 'Islands historie' — https://snl.no/Islands_historie · t: Store norske leksikon — 'Gamli sáttmáli' — https://snl.no/Gamli_s%C3%A1ttm%C3%A1li",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "teuton-devleti",
+   "ad": "Töton Şövalyeleri Devleti (Prusya)",
+   "tur": "tarikat-devleti",
+   "bolge": "orta-avrupa",
+   "f": "1230-01-01",
+   "t": "1525-04-08",
+   "baskent": "Kulm → Marienburg (1309) → Königsberg (1457)",
+   "ozet": "Mazovya dükünün çağrısıyla Kulm toprağına yerleşen Töton Tarikatı'nın Prusyalıları fethederek kurduğu tarikat devleti; 1237'den Livonya kolunu da kapsadı, 1525'te laikleşerek Polonya'ya tâbi Prusya Dükalığı'na dönüştü.",
+   "alinti_f": "1230 pirmieji VO daliniai atsikėlė į Kulmo žemę ir pradėjo pulti prūsus",
+   "alinti_t": "mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches we",
+   "ic_not_f": "f seçimi: Rimini Altın Bullası (1226) toprak VERMEZ, yalnız hak tanır (VLE: '1226 ir 1230 Aukso bulės'; snl 'Tyske orden': 'i 1226 fikk den det ennå hedenske Preussen som misjonsmark'); fiilî toprak sahipliği ilk birliklerin Kulm'a yerleşmesiyle 1230'da başlar ⇒ harita için 1230. Gün kaynakta yok. Fetih 1231'de başlar (lex).",
+   "ic_not_t": "Krakov barışı 8.4.1525 (NDB 'Albrecht'); VLE aynı olayda vasal yemininin '1525 04 10' olduğunu yazar. Ardıl prusya-dukaligi f=1525-04-08 ⇒ boşluk yok. Livonya kolu ayrı künye (livonya-tarikati).",
+   "siniflandirma": "YENİ künye; prusya-dukaligi'nin öncülü (sınıf ③ ardıl zinciri).",
+   "kronoloji": [
+    {
+     "t": "1230-01-01",
+     "tur": "kurulus",
+     "b": "Töton Tarikatı'nın ilk birlikleri Kulm toprağına yerleşti"
+    },
+    {
+     "t": "1283-01-01",
+     "tur": "toprak-kazanc",
+     "b": "Prusyalı, Yotving ve batı Litvan toprakları fethedildi, Neman aşağı yatağına ulaşıldı"
+    },
+    {
+     "t": "1525-04-08",
+     "tur": "son",
+     "b": "Krakov Barışı: son büyük magistr Albrecht tarikat devletini laik Prusya Dükalığı'na çevirdi"
+    }
+   ],
+   "kaynak": "f: Visuotinė lietuvių enciklopedija — 'Vokiečių ordinas' — https://www.vle.lt/straipsnis/vokieciu-ordinas/ · t: Deutsche Biographie (NDB) — 'Albrecht (Herzog in Preußen)' — https://www.deutsche-biographie.de/sfz56560.html",
+   "kronoloji_kaynak": "1283: VLE 'Vokiečių ordinas' — 'Iki 1283 VO … užkariavo prūsų, jotvingių, vakarų lietuvių (nadruvių, skalvių) žemes ir pasiekė Nemuno žemupį' (lex 'Den Tyske Orden' fethin bitişini 1285 verir — çelişki)",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "livonya-tarikati",
+   "ad": "Kılıç Kardeşleri / Livonya Tarikatı",
+   "tur": "tarikat-devleti",
+   "bolge": "dogu-avrupa",
+   "f": "1202-01-01",
+   "t": "1561-01-01",
+   "baskent": "Riga / Wenden (Cēsis) — merkez bu turda kaynakla ölçülmedi",
+   "ozet": "Riga piskoposu Albert'in kurduğu Kılıç Kardeşleri tarikatı ve 1237'den onun ardılı olan, Töton Tarikatı'nın özerk kolu Livonya Tarikatı; Livonya ve Kurland'ın büyük kısmına hükmetti, 1561'de Litvanya'ya teslim oldu.",
+   "alinti_f": "I 1202 stiftede han Sværdridderordenen , ved hvis hjælp det meste af Livland i de efterfølgende årtier blev erobret.",
+   "alinti_t": "LO, kaip ir visa Livonija, nesugebėjo gintis nuo 1558 Livonijos karą pradėjusios Rusijos ir 1561 pasidavė Lietuvos Didžiajai Kunigaikštystei",
+   "ic_not_f": "1202 tarikatın KURULUŞ yılıdır (lex, snl, VLE üçü de 1202; VLE: papa onayı 1204). Toprak devleti 1207-1210 paylaşımıyla doğar (madde 1210) — haritada ilk yerleşim dönemleri 1207/1210'dan başlatılmalı; 1202-1207 arası Livonya toprağı piskoposluğundur (künyesi YOK, bu grubun kapsamında da değil). Gün yok.",
+   "ic_not_t": "Kaynak yalnız yıl verir (Vilnius antlaşması Kasım 1561 — gün bu turda kaynakla ölçülmedi); VLE: '1562 paskutinis krašto magistras Gotthardas Kettleris … paskelbė apie LO panaikinimą'. Ardıl: Kurland Dükalığı ve Litvanya/Polonya Livonyası — atlas künyeleri bu grubun kapsamı dışında, kontrol EDİLMEDİ.",
+   "siniflandirma": "YENİ künye. Kılıç Kardeşleri (1202-1237) ile Livonya Tarikatı (1237-1561) tek künyede: 1237'de kalıntı aynı topraklarda aynı kurumla sürdü (VLE: 'Kalavijuočių ordinas tapo Vokiečių ordino autonomine šaka – Livonijos ordinu'). Alternatif iki künye gereksiz.",
+   "kronoloji": [
+    {
+     "t": "1202-01-01",
+     "tur": "kurulus",
+     "b": "Piskopos Albert Riga'da Kılıç Kardeşleri tarikatını kurdu"
+    },
+    {
+     "t": "1561-01-01",
+     "tur": "son",
+     "b": "Livonya Savaşı'nda tarikat Litvanya Büyük Dükalığı'na teslim oldu; 1562'de feshedildi"
+    }
+   ],
+   "kaynak": "f: Den Store Danske (lex.dk) — 'Albert af Riga' — https://lex.dk/Albert_af_Riga · t: Visuotinė lietuvių enciklopedija — 'Livonijos ordinas' — https://www.vle.lt/straipsnis/livonijos-ordinas/",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "litvanya-buyuk-dukalik",
+   "ad": "Litvanya Büyük Dükalığı",
+   "tur": "dukalik",
+   "bolge": "dogu-avrupa",
+   "f": "1236-01-01",
+   "f_eski": "1253-07-06",
+   "t": "1569-07-01",
+   "baskent": "Vilnius (künyedeki değer; 13. yy. merkezi bu turda ölçülmedi)",
+   "ozet": "Mindaugas'ın 1230'larda Litvanya boylarını birleştirmesiyle doğan devlet; 1253'te tek taç giyme (atlasta VAR), 1263 suikastinden sonra iç savaş, Traidenis ile toparlanma.",
+   "alinti_f": "Lokale fyrstedømmer på 1000- og 1100-tallet gikk forut for den første politiske samlingen av litauerne i 1236 av fyrst Mindaugas.",
+   "ic_not_f": "snl 1236 verir; VLE 'Mindaugas' 'Lietuvos didysis kunigaikštis (nuo 13 a. 4 dešimtmečio)' (1230'lardan) ve 'Kaip visos Lietuvos valdovas Mindaugas pirmą kartą minimas apie 1245'; lex 'første halvdel af 1200-tallet'. Gün yok.",
+   "ic_not_t": "t değişmedi.",
+   "siniflandirma": "SINIF ② — 1253 taç giyme aynı Mindaugas devletinin unvan yükselmesidir, doğumu değil (VLE: büyük dük 1230'lardan, kral 1253–63). GENİŞLET. Var olan 1253-07-06 'kurulus' maddesinin turu 'hukumdar' olmalı. Saule 1236 (Samogitler) ve Durbe 1260 bu künyeye TARAF yazılmadı: Samogitya o tarihlerde Mindaugas'a sıkı bağlı değildi (VLE: 1261'de Litvanya savaşa girip Samogitya'yı kattı).",
+   "kaynak": "f: Store norske leksikon — 'Litauens historie' — https://snl.no/Litauens_historie",
+   "harita": "litvanya-buyuk-dukalik"
+  },
+  {
+   "islem": "yeni",
+   "id": "kiev-rusu",
+   "ad": "Kiev Rus'u (Kiev Büyük Knezliği)",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "882-01-01",
+   "t": "1240-12-06",
+   "baskent": "Kiev",
+   "ozet": "Rurik hanedanından Oleg'in 882'de Kiev'i alarak kurduğu Doğu Slav devleti; Yaroslav (1036-54) döneminde doruğa ulaştı, 1054 sonrası ve özellikle 1132'den itibaren knezliklere parçalandı. Batu Han'ın 1240 Aralık'ında Kiev'i almasıyla sona erdi.",
+   "kaynak": "Encyclopedia of Ukraine — 'Kyivan Rus'' — https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CY%5CKyivanRushDA.htm · Encyclopedia of Ukraine — 'Tatars' — https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CT%5CA%5CTatars.htm · TDV — 'RUSYA' — https://islamansiklopedisi.org.tr/rusya",
+   "alinti_f": "In 882 they were killed by Prince Oleh, the son of Riuryk of Novgorod.",
+   "alinti_t": "After taking Kyiv he massacred its residents on 6 December 1240 and laid waste the city.",
+   "ic_not_f": "Kaynak yalnız yıl verir (882) → 0882-01-01 (dört hane, pad kuralı). EU: Askold ve Dir'i öldüren Oleh (Oleg). TDV rusya kuruluş yılı vermez, yalnız 'Rurik’in (ö. 879) kurduğu hânedanın idaresi altında ortaya çıkan' der.",
+   "ic_not_t": "Gün EU 'Tatars' maddesinden (6 December 1240). TDV rusya ve TDV batu-han yalnız 'Aralık 1240' der; EU 'Kyiv' 'In December 1240' der — çelişki yok, gün yalnız EU'da. PARÇALANMA (ic_not): EU 'Kyivan Rus'': Mstislav I (1125-32) ve Yaropolk II (1132-9) döneminden itibaren 'The Kyivan Rus’ federation continued to disintegrate and Kyiv itself lost its primacy'; EU 'Kyiv principality': 'existed as an independent entity until the mid-12th century, when it became an appanage principality'. 1132 sonrası künye fiilen Kiev knezliği + gevşek federasyondur; Novgorod (1136), Ryazan (1129), Vladimir-Suzdal (1157), Galiçya-Volhinya (1199) ayrı künyelerdir. Kiev 1240 sonrası Altın Orda tâbiiyetinde varlığını sürdürdü (EU Kyiv principality: 1362'de Litvanya'ya geçti) — künye bağımsız devleti kapatıyor.",
+   "kronoloji": [
+    {
+     "t": "0882-01-01",
+     "tur": "kurulus",
+     "b": "Oleg Askold ve Dir'i öldürüp Kiev'i aldı; Rurik hanedanı Kiev'de"
+    },
+    {
+     "t": "1132-01-01",
+     "tur": "bolunme",
+     "b": "Mstislav I'in ölümü: Kiev Rus'u knezliklere dağılmaya başladı"
+    },
+    {
+     "t": "1240-12-06",
+     "tur": "son",
+     "b": "Batu Han Kiev'i aldı ve halkını kılıçtan geçirdi"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "vladimir-suzdal",
+   "ad": "Vladimir-Suzdal Büyük Knezliği",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "1157-01-01",
+   "t": "1281-01-01",
+   "baskent": "Vladimir",
+   "ozet": "Kiev Rus'unun kuzeydoğusunda, Andrey Bogolyubski'nin 1157'de Rostov-Suzdal'ı alıp Vladimir'i başkent yaptığı knezlik; 1169'da Kiev'i yağmaladı, 1238'de Tatarlarca yakıldı ve Altın Orda tâbiiyetinde 'Büyük Vladimir Knezliği' olarak sürdü.",
+   "kaynak": "Hrvatska enciklopedija — 'Vladimir (grad)' — https://www.enciklopedija.hr/clanak/vladimir-grad · Encyclopedia of Ukraine — 'Andrei Bogoliubskii' — https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CA%5CN%5CAndreiBogoliubskii.htm",
+   "alinti_f": "a 1157., za vladavine Andreja Bogoljupskoga (1157–74), postao je prijestolnicom Vladimirsko-Suzdaljske Kneževine (poslije Velike Vladimirske Kneževine)",
+   "alinti_t": "",
+   "ic_not_f": "HE: 1157 Vladimir başkent oldu. EU aynı yılı başka cümleyle verir: 'After his father's death in 1157, he became the prince of Rostov and Suzdal.' EU'ya göre Andrey 1155'te Vladimir'e geçmişti ('In 1155 he left Vyshhorod and became ruler of Vladimir in the north') — künye 1157 (knezliğin birleşmesi) alındı. Gün yok.",
+   "ic_not_t": "ESIK; kuşak sınırı 1281-01-01, bitiş ölçümü DEĞİL. Açılan hiçbir kaynak (Hrvatska enciklopedija, Encyclopedia of Ukraine; Britannica 403) knezliğin bitiş gününü/yılını vermiyor. Adaylar: 1238 Moğol işgali (knezlik Altın Orda tâbiliğinde SÜRDÜ, bitiş değil) · 14. yy büyük knezlik unvanının Tver/Moskova'ya geçişi (yıl kaynaklı ölçülmedi). Eşik, 1281 öncesi kuşakta sahipsizlik açmamak için konuldu; 1281 sonrası toprak mevcut tver/moskova verisindedir. Önceki not: ⚠️ t BULUNAMADI — boş bırakıldı, uydurulmadı. Açılan kaynaklar bitiş tarihi vermez: HE yalnız 'Iako su 1238. grad zaposjeli i spalili Tatari' (1238 Tatar işgali, devlet sürdü) ve 'Nakon preseljenja prijestolnice u Moskvu' (TARİHSİZ). Britannica 'Vladimir-Suzdal' 403 döndü (açılamadı); EU'da ayrı madde yok (Vladimir6Suzdalprincipality, VladimirSuzdalprincipality, Suzdal, RostovSuzdalprincipality → boş sayfa). KOORDİNATÖR HÜKMÜ: ① bağımsızlığın sonu = 1238 Tatar işgali (HE, yıl) → t 1238-01-01 (ama 1238 Şubat Moskova maddesiyle aynı yıl, gün yok) · ② Altın Orda tâbiiyetinde tver (1246) / moskova (1283) ardıl künyelerine devir. Atlas künye günü (moskova 1283) DAYANAK OLAMAZ (§4).",
+   "kronoloji": [
+    {
+     "t": "1157-01-01",
+     "tur": "kurulus",
+     "b": "Andrey Bogolyubski Rostov-Suzdal'ı birleştirdi, Vladimir başkent oldu"
+    },
+    {
+     "t": "1238-01-01",
+     "tur": "toprak-kayip",
+     "b": "Tatarlar Vladimir'i işgal edip yaktı; knezlik Moğol tâbiiyetine girdi"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "galicya-volhinya",
+   "ad": "Galiçya-Volhinya Knezliği (Rus Krallığı)",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "1199-01-01",
+   "t": "1340-01-01",
+   "baskent": "Halych → Kholm (1241 sonrası) → Lviv (1272)",
+   "ozet": "Volhinya knezi Roman Mstislaviç'in 1199'da Galiçya ile Volhinya'yı birleştirerek kurduğu devlet; Danilo Romanoviç 1253'te papadan taç aldı. Romanoviç hanedanı 1340'ta sona erince toprakları Polonya-Litvanya rekabetine düştü.",
+   "kaynak": "Encyclopedia of Ukraine — 'Galicia-Volhynia, Principality of' — https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CG%5CA%5CGalicia6VolhyniaPrincipalityof.htm",
+   "alinti_f": "A state founded in 1199 by Roman Mstyslavych, the prince of Volhynia from 1170, who united Galicia and Volhynia under his rule.",
+   "alinti_t": "The Romanovych dynasty ruled the state until its demise in 1340.",
+   "ic_not_f": "Kaynak yalnız yıl verir. EU 'Roman Mstyslavych' aynı yılı teyit eder: 'After the death in 1199 of the last prince of the Rostyslavych house of the Halych principality, Volodymyr Yaroslavych, Roman took power'.",
+   "ic_not_t": "⚠️ Görev tanımı t 1349 (Polonya-Litvanya bölüşümü) diyordu; EU devletin sonunu 1340 verir (son knez Yurii II Boleslav zehirlendi, aynı yıl Kazimierz III Lviv'e saldırdı; 'the period of Lithuanian-Polish rivalry over Galicia-Volhynia began'). 1349 için kaynak AÇILAMADI (Britannica 403). Künye kuşak (1000-1281) dışında biter — koordinatör 1340 ile 1349 arasında seçmeli; 1340-1349 arası Litvanya/Polonya çekişmesi ayrı kuşak işidir.",
+   "kronoloji": [
+    {
+     "t": "1199-01-01",
+     "tur": "kurulus",
+     "b": "Roman Mstislaviç Galiçya ile Volhinya'yı birleştirdi"
+    },
+    {
+     "t": "1238-01-01",
+     "tur": "birlesme",
+     "b": "Danilo Romanoviç Galiçya'yı ele geçirip devleti yeniden birleştirdi"
+    },
+    {
+     "t": "1340-01-01",
+     "tur": "son",
+     "b": "Romanoviç hanedanı sona erdi; Polonya-Litvanya çekişmesi başladı"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "idil-bulgar",
+   "ad": "İdil (Volga) Bulgar Hanlığı",
+   "tur": "hanedanlik",
+   "bolge": "dogu-avrupa",
+   "f": "965-01-01",
+   "t": "1236-01-01",
+   "ozet": "Künye bu araştırma sırasında data/devletler.js çalışma kopyasında ZATEN VAR bulundu (f 0965-01-01, t 1236-01-01, TDV idil-bulgar-hanligi) — yeni künye yazılmadı. Aşağıdaki maddeler mevcut kronolojiyle çakışmayacak şekilde seçildi.",
+   "kaynak": "TDV — 'İDİL BULGAR HANLIĞI' — https://islamansiklopedisi.org.tr/idil-bulgar-hanligi · TDV — 'BULGAR' — https://islamansiklopedisi.org.tr/bulgar",
+   "ic_not_t": "Çelişki bildirimi: TDV (iki madde) 1236 der; EU 'Tatars' 'Batu subdued the Volga Bulgars in 1237–8' der. TDV birincil → 1236 korunmalı; EU farkı ic_not_t'ye eklenebilir.",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "yeni",
+   "id": "birinci-bulgar",
+   "ad": "Birinci Bulgar Devleti (Tuna Bulgar Devleti; Samuil dönemi)",
+   "tur": "devlet",
+   "bolge": "balkanlar",
+   "f": "681-01-01",
+   "t": "1018-01-01",
+   "baskent": "Pliska → Preslav; 971 sonrası Sredets → Prespa → Ohri",
+   "ozet": "Asparuh'un 681'de Bizans'a kabul ettirdiği Tuna Bulgar devleti; 971'de doğu toprakları Bizans'a geçince batıda Samuil'in devleti olarak sürdü. 1014 yenilgisinin ardından 1018'de II. Basileios'un Ohri'ye girmesiyle Bizans'a ilhak edildi.",
+   "kaynak": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo",
+   "alinti_f": "Asparuh’la anlaşma yaparak Slav-Bulgar Devleti’ne yıllık vergi ödemeyi kabul etti, dolayısıyla bu devletin varlığını tanıdı (681).",
+   "alinti_t": "1018’de ise İmparator Vasiliy’in Bulgar başşehri Ohri’ye girmesiyle Bulgar toprakları tamamıyla Bizans hâkimiyetine girmiş",
+   "ic_not_f": "Yalnız yıl (681). TDV idil-bulgar-hanligi aynı yılı verir ('681 yılında Tuna Bulgar Devleti’ni kurdu').",
+   "ic_not_t": "Yalnız yıl (1018); TDV ve HE ('pod bizantskim pritiskom 1018. palo je Samuilovo carstvo') uyuşur. ⚠️ Sınıflandırma notu: HE Samuil devletini 'Makedonsko Carstvo' (976'dan) diye ayrı adlandırır; TDV ise 971 sonrası batı Bulgar topraklarının 'bağımsızlığını korumuş' olduğunu söyler — atlas için tek künye (681-1018) önerildi, 971-976 arası kopukluk koordinatöre bildirilir.",
+   "kronoloji": [
+    {
+     "t": "0681-01-01",
+     "tur": "kurulus",
+     "b": "Bizans, Asparuh'un Slav-Bulgar devletini tanıyıp vergi ödemeyi kabul etti"
+    },
+    {
+     "t": "0971-01-01",
+     "tur": "toprak-kayip",
+     "b": "Trakya ve Kuzey Bulgaristan Bizans'a geçti; devlet batıda sürdü"
+    },
+    {
+     "t": "1018-01-01",
+     "tur": "son",
+     "b": "II. Basileios Ohri'ye girdi; Bulgar toprakları Bizans'a ilhak edildi"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "bulgar-carligi",
+   "ad": "İkinci Bulgar Çarlığı",
+   "ozet": "Künyeye dokunulmadı; yalnız maddeler. Bildirim: TDV bulgaristan Bizans'ın ikinci Bulgar devletini 1187 barışıyla tanıdığını yazar (ayaklanma 1185) — künye f 1185 ayaklanma yılıdır, çelişki değil.",
+   "f": "1185-01-01",
+   "t": "1396-01-01",
+   "harita": "bulgaristan"
+  },
+  {
+   "islem": "genislet",
+   "id": "sirbistan-nemanjic",
+   "ad": "Sırbistan (Raşka Büyük Župan'lığı → Sırbistan Krallığı, Nemanjić Hanedanı)",
+   "tur": "krallik",
+   "bolge": "balkanlar",
+   "f": "1166-01-01",
+   "f_eski": "1217-01-01",
+   "t": "1402-01-01",
+   "baskent": "Ras",
+   "ozet": "Stefan Nemanja'nın 1160'larda Raşka'da kurduğu hanedan devleti; 1186'da Duklja'yı aldı, 1217'de oğlu Stefan'ın taç giymesiyle krallık oldu.",
+   "kaynak": "TDV — 'SIRBİSTAN' — https://islamansiklopedisi.org.tr/sirbistan · Hrvatska enciklopedija — 'Nemanjići' — https://www.enciklopedija.hr/clanak/nemanjici · Hrvatska enciklopedija — 'Stefan Nemanja' — https://www.enciklopedija.hr/clanak/stefan-nemanja",
+   "alinti_f": "1160’larda Stefan Nemanja (yaklaşık 1166-1196) yeni bir hânedanlık kurdu.",
+   "ic_not_f": "TDV 'yaklaşık 1166' der ve hanedanı 'Nemanjići hânedanı: 1166-1371' diye tarihler. Kaynaklar çelişir: HE 'Nemanjići' 'kojega je 1165. kao velikoga župana potvrdio bizantski car Emanuel I. Komnen' ve saltanatı '(1168–96)'; HE 'Stefan Nemanja' 'Vladao od 1168.' TDV birincil → 1166, 'yaklaşık'. Gün/ay yok.",
+   "siniflandirma": "Sınıf ② — aynı polity, aynı hanedan: 1166-1217 arası Nemanja ve oğlu Stefan 'büyük župan' olarak aynı Raşka devletini yönetti; HE: Stefan Prvovenčani 'vladao najprije kao veliki župan, a 1217. okrunio se za kralja'. 1217 bir UNVAN değişimidir, yeni devlet değil; başkent (Ras) aynı. Künye adı 'Raşka/Sırbistan' olarak genişletilmeli. ⚠️ 1172-1180 arası Bizans vasallığı (HE) — tâbi dönemi, künye kesilmez.",
+   "kronoloji": [],
+   "harita": "sirbistan"
+  },
+  {
+   "islem": "yeni",
+   "id": "duklja",
+   "ad": "Duklja (Zeta) Prensliği/Krallığı",
+   "tur": "krallik",
+   "bolge": "balkanlar",
+   "f": "1036-01-01",
+   "t": "1186-01-01",
+   "baskent": "bulunamadı (kaynak başkent adı vermez; HE: merkez Skadar gölü çevresi kıyı bölgesi, 1089'dan metropolitlik Bar'da)",
+   "ozet": "Bugünkü Karadağ'da Stefan Vojislav'ın Bizans'a karşı kurduğu Sırp-Slav devleti; 1077'de krallık oldu, Kral Bodin döneminde Bosna ve Raşka'ya uzandı. Stefan Nemanja 1186'da Duklja şehirlerini alarak ülkeyi Raşka'ya kattı.",
+   "kaynak": "TDV — 'SIRBİSTAN' — https://islamansiklopedisi.org.tr/sirbistan · Hrvatska enciklopedija — 'Vojislav, Stefan' — https://www.enciklopedija.hr/clanak/vojislav-stefan · Hrvatska enciklopedija — 'Stefan Nemanja' — https://www.enciklopedija.hr/clanak/stefan-nemanja · Hrvatska enciklopedija — 'Duklja' — https://www.enciklopedija.hr/clanak/duklja",
+   "alinti_f": "1036 yılında bugünkü Karadağ bölgesinde Stefan Vojislav, Bizans imparatoruna bağlılığı reddederek Roma’ya tâbi olduğunu bildirdi",
+   "alinti_t": "a osvajanje gradova u Duklji (Zeti) završio je 1186.",
+   "ic_not_f": "TDV birincil: 1036. HE 'Vojislav, Stefan' farklı kronoloji verir: 'Oko 1031. poveo je ustanak protiv Bizanta', 'Pobjegavši iz zatočeništva (oko 1038)', 'oko 1040. porazio dračkoga stratega'. Görev tanımındaki ~1040 HE'ye yakın. Önceki knez Jovan Vladimir (ö. 1016, HE) Samuil'e tâbi idi — künye onu kapsamaz.",
+   "ic_not_t": "HE: Nemanja 1185'te Duklja şehirlerini (Skadar, Ulcinj vb.) yıktı, fethi 1186'da tamamladı; Bar 'oko 1189' düştü. Nemanja'nın oğlu Vukan sonra 'kralj Duklje' unvanıyla Nemanjić tâbi hanedan kolu olarak yönetti (HE Nemanjići) — ayrı devlet değil. Atlastaki 'zeta' künyesi (1356, Balšić) ayrı ve sonraki polity'dir.",
+   "kronoloji": [
+    {
+     "t": "1036-01-01",
+     "tur": "kurulus",
+     "b": "Stefan Vojislav Bizans'a bağlılığı reddetti, Duklja'da Slav boylarını topladı"
+    },
+    {
+     "t": "1077-01-01",
+     "tur": "hukumdar",
+     "b": "Duklja (Zeta) Konstantin Bodin yönetiminde krallık oldu"
+    },
+    {
+     "t": "1186-01-01",
+     "tur": "son",
+     "b": "Stefan Nemanja Duklja'nın fethini tamamladı; ülke Raşka'ya katıldı"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "genislet",
+   "id": "bosna-kralligi",
+   "ad": "Bosna Banlığı → Bosna Krallığı",
+   "tur": "krallik",
+   "bolge": "balkanlar",
+   "f": "1180-01-01",
+   "f_eski": "1377-01-01",
+   "t": "1463-05-01",
+   "baskent": "bulunamadı (1180-1377 arası için kaynak başkent vermez)",
+   "ozet": "Ban Kulin (1180-1204) ile Bizans vesayetinden çıkıp Drina'dan Grmeç'e uzanan Bosna banlığı; Macar üstünlüğü altında yarı bağımsız sürdü, 1377'de Ban Tvrtko'nun taç giymesiyle krallık oldu.",
+   "kaynak": "Hrvatska enciklopedija — 'Bosna i Hercegovina' — https://www.enciklopedija.hr/clanak/bosna-i-hercegovina · Hrvatska enciklopedija — 'Kulin' — https://www.enciklopedija.hr/clanak/kulin",
+   "alinti_f": "Kada je nakon kratkotrajne bizantske vlasti (1166–80) Bosnom zavladao ban Kulin (1180–1204), ona se razvila u zemlju s razvijenim gospodarstvom",
+   "ic_not_f": "TDV 'bosna-hersek' 1377 öncesi banlık dönemini ANLATMAZ (yalnız Tvrtko 1353-1391 ve Osmanlı akınları) — bu yüzden HE kullanıldı; TDV 'bosna' slug'ı 302. Banlığın erken tanığı: Ban Borić 1154 (HE, Macar vasalı olarak atanmış) — ama 1166-80 Bizans hâkimiyeti arayı kestiği için süreklilik 1180'den (Kulin) alındı. HE 'Kulin' maddesi 'oko 1170' (yaklaşık) verir; ülke maddesi 1180. Gün yok.",
+   "siniflandirma": "Sınıf ② — aynı polity: 1377'de taç giyen Tvrtko I aynı banlığın 1353'ten beri banıydı (TDV: 'Kral I. Tvrtko (1353-1391)'; HE: 'U jesen 1377. uzima kraljevsku krunu'); 1377 bir unvan yükseltmesidir, devlet değişimi değil. ⚠️ Çekince: banlık Macar tacına vasaldı (HE: 'ugarska vazalna, polusamostalna država'); 1253-54'te Bela IV ülkeyi 'pokorio je i podijelio' — Usora ve Soli ayrı banlık oldu. Harita için 1253 sonrası toprak daralması ayrı madde olarak verildi. Künye adı 'Bosna Banlığı/Krallığı' yapılmalı.",
+   "kronoloji": [],
+   "harita": "bosna"
+  },
+  {
+   "islem": "yeni",
+   "id": "hirvatistan-kralligi",
+   "ad": "Hırvatistan Krallığı",
+   "tur": "krallik",
+   "bolge": "balkanlar",
+   "f": "925-01-01",
+   "t": "1102-01-01",
+   "baskent": "Knin · Biograd (kaynak sabit başkent vermez; HE 'Petar': 'Prijestolnica mu je bila u Kninu')",
+   "ozet": "Tomislav'ın papa mektubunda 'Hırvatların kralı' diye anıldığı 925'ten itibaren krallık; Trpimirović ve Svetoslavić hanedanları yönetti. Son kral Petar'ın 1097'de Gvozd'da ölümünden sonra Macar kralı Koloman 1102'de Biograd'da Hırvatistan ve Dalmaçya kralı olarak taç giydi.",
+   "kaynak": "Hrvatska enciklopedija — 'Tomislav' — https://www.enciklopedija.hr/clanak/tomislav · Hrvatska enciklopedija — 'Koloman' — https://www.enciklopedija.hr/clanak/koloman · Hrvatska enciklopedija — 'Pacta conventa' — https://www.enciklopedija.hr/clanak/pacta-conventa",
+   "alinti_f": "sadržava bilješke o splitskim crkvenim saborima 925. i 928. te prijepise tom prigodom upućenih pisama papa Ivana X. i Lava VI.",
+   "alinti_t": "a 1102. ponovno se okrenuo politici prodora na jug pa je, kako je zabilježeno u Kartularu samostana sv. Marije u Zadru, u Biogradu bio okrunjen za kralja Hrvatske i Dalmacije",
+   "ic_not_f": "⚠️ 925 bir TAÇ GİYME tarihi değildir: HE, 925 taç giyme tezinin 19. yy tarihçiliğine ait olduğunu ve Duvno taç giymesi tezinin 'u potpunosti odbačena' olduğunu yazar. 925 = Split kilise meclisi ve papa mektubunda Tomislav'ın 'kralju Hrvata' diye anılması. Tomislav'ın tek kesin tarihi 914 (dux). Krallık başlangıcı olarak 925 kaynaklı ama TEMSİLÎ bir eşiktir; kuşak (1000+) dışında kalır.",
+   "ic_not_t": "HE 'Koloman': Biograd taç giymesi 1102 (gün yok). 'Pacta conventa' anlaşmasının sahiciliği HE'ye göre tartışmalı ('Najnoviji radovi ... uglavnom odbacuju Pacta conventa kao autentičan dokument'); bu yüzden t Pacta conventa'ya değil taç giymeye bağlandı. TDV 'hirvatistan' tarih vermez, yalnız 'XI. yüzyılın sonunda meydana gelen hânedan kavgaları Macaristan’la birleşmeye yol açtı' der. 1102 sonrası Hırvatistan Macar tacına şahsi birlikle bağlıdır — harita için macaristan.",
+   "kronoloji": [
+    {
+     "t": "0925-01-01",
+     "tur": "kurulus",
+     "b": "Papa X. Ioannes'in mektubunda Tomislav 'Hırvatların kralı' diye anıldı"
+    },
+    {
+     "t": "1074-01-01",
+     "tur": "hanedan",
+     "b": "Trpimirović hanedanının kesintisiz ana kolu sona erdi"
+    },
+    {
+     "t": "1102-01-01",
+     "tur": "son",
+     "b": "Hırvat tacı Arpad hanedanına geçti; Macaristan ile şahsi birlik"
+    }
+   ],
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "dubrovnik",
+   "ad": "Dubrovnik (Ragusa)",
+   "ozet": "Künyeye dokunulmadı; madde: 1204 Venedik hâkimiyeti.",
+   "f": "700-01-01",
+   "t": "1808-01-31",
+   "harita": null,
+   "boya_gerekli": true
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "novgorod",
+   "ad": "Novgorod",
+   "ozet": "Yeni madde yazılmadı (bkz. bulunamadi).",
+   "f": "1136-01-01",
+   "t": "1478-01-15",
+   "harita": "novgorod"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "ryazan",
+   "ad": "Ryazan",
+   "ozet": "Yeni madde yazılmadı (bkz. bulunamadi).",
+   "f": "1129-01-01",
+   "t": "1521-01-01",
+   "harita": "ryazan"
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "tver",
+   "ad": "Tver",
+   "ozet": "Yeni madde yazılmadı (bkz. bulunamadi).",
+   "f": "1246-01-01",
+   "t": "1485-09-12",
+   "harita": "tver"
+  }
+ ],
+ "bulunamadi": [
+  {
+   "ne": "Britannica (bütün Hıristiyan krallık/savaş sayfaları)",
+   "denenen": "britannica.com/place/Leon-historical-kingdom-Spain, /place/Castile-historical-region-Spain, /place/Aragon-historical-kingdom-Spain, /event/Battle-of-Las-Navas-de-Tolosa, /event/Battle-of-Alarcos (curl ve WebFetch)",
+   "not": "HTTP 403 — erişim engelli. Yerine Gran Enciclopèdia Catalana ve TDV kullanıldı."
+  },
+  {
+   "ne": "Treccani",
+   "denenen": "treccani.it/enciclopedia/ourique, battaglia-di-ourique, alfonso-i-re-di-portogallo, alarcos, ucles",
+   "not": "Her URL aynı 3,9 MB'lık genel sayfayı döndürdü / zaman aşımı; kullanılmadı."
+  },
+  {
+   "ne": "TDV ölü / yanlış slug'lar",
+   "denenen": "endulus-emeviler (302), muluku-t-tavaif (302), muluk-ut-tavaif (302), tavaif (302), zellaka (302), uklis (302), ceyyan (302), useybune (302), mayorka (302), balear-adalari (302), merdenis (302); endulus-emevileri = 'bk. ENDÜLÜS' yönlendirmesi; lizbon = 'bk. ÜŞBÛNE'; ikab = YANLIŞ MADDE (kelâm terimi 'ceza', savaş değil)",
+   "not": "Doğruları: mulukut-tavaif, zellaka-savasi, endulus, usbune. Uclés ve Las Navas için TDV'de ayrı madde bulunamadı; olaylar 'Murâbıtlar'/'Muvahhidler' içinden kaynaklandı."
+  },
+  {
+   "ne": "Gün bilgisi (kaynaklarda yalnız yıl var)",
+   "denenen": "TDV + GEC ilgili maddeler",
+   "not": "Şu yaygın günler açtığım HİÇBİR kaynakta yok, yıl-01-01 yazıldı: Tamarón 4 Eyl 1037 · Uclés 29 May 1108 · Barbastro nişanı 11 Ağu 1137 · Ourique 25 Tem 1139 (atlastaki portekiz f günü de bu — kaynaksız) · Zamora 5 Eki 1143 · Alarcos 18 Tem 1195 · Kurtuba 29 Haz 1236 · Almizra 26 Mar 1244 · İşbîliye 23 Kas 1248. Toledo için şartnamedeki 25 Mayıs 1085 bulunamadı; TDV 8 Mayıs 1085 teslim günü verir."
+  },
+  {
+   "ne": "León–Kastilya 1230 birleşme GÜNÜ",
+   "denenen": "GEC 'regne de Lleó', 'regne de Castella', 'corona de Castella', 'Ferran III de Castella-Lleó'",
+   "not": "Hepsi yalnız 1230 der. leon-kralligi t = 1230-09-23 atlastaki kastilya f'sinden DEVRALINDI (kaynaksız, beyanlı)."
+  },
+  {
+   "ne": "Kaynak kendi içinde çelişki / hata (bildirim)",
+   "denenen": "GEC 'regne de Castella'; TDV 'Abbâdîler'; GEC Peronella / Alfons I; GEC corona 1076-1131",
+   "not": "① GEC 'regne de Castella' 1230 birleşmesini yapanı 'Ferran II (1217-52)' yazar — doğrusu III. Fernando (GEC 'regne de Lleó' ve 'Ferran III' maddeleri 'Ferran III' der); dizgi hatası. ② TDV 'Abbâdîler' başlık 1091, gövde 1092. ③ GEC Peronella'nın hak devri: 'Peronella' 1164, 'Alfons I de Catalunya' 1163. ④ GEC 'corona catalanoaragonesa' Aragon'un Navarra'yı elinde tuttuğu dönemi 1076-1131 verir, 'Ramir II' ayrılışı 1134'e bağlar. ⑤ TDV 'Muvahhidler' 1183 Lizbon kuşatmasını Abdülmü'min'e bağlıyor gibi okunur (o 1163'te ölmüştü; seferi yapan Ebû Ya'kūb Yûsuf) — bu maddeler kullanılmadı."
+  },
+  {
+   "ne": "Künyesiz kalan İber müslüman yapıları (harita delik/yanlış sahip riski)",
+   "denenen": "TDV 'Mürsiye', 'İbn Merdenîş', 'Nasrîler', 'Hûdîler'",
+   "not": "Bu grup künye AÇMADI (şartname yalnız endulus-tavaif toplu künyesini istedi): ① İkinci tâifeler / İbn Merdenîş beyliği, Doğu Endülüs 1147-1172 · ② İbn Hûd devleti 1228-1238 (Endülüs'ün çoğu) · ③ Mürsiye tâbi emirliği 1243-1266 · ④ Cid'in Belensiye'si 1094-1102 · ⑤ Balear'da Benî Gāniye 1148-1203. endulus-tavaif 1110'da bittiğinden bu dilimlerin toprağı başka kimliğe emilir — koordinatör kararı (ayrı künye ya da endulus-tavaif'i 'ikinci tâifeler' için ikinci pencereyle beyan)."
+  },
+  {
+   "ne": "Portekiz kontluğu kuruluş yılı '1096'",
+   "denenen": "GEC 'Portugal', 'Enric de Borgonya'; TDV 'Portekiz'",
+   "not": "1096 hiçbir kaynakta yok; kaynaklar 1094 (evlilik, GEC Enric 'vers'), 1095 (TDV süreç başı), 1097 (GEC bağış) verir. 1097 seçildi."
+  },
+  {
+   "ne": "gwynedd künyesinin kaynaklı kuruluş tarihi (f)",
+   "denenen": "Britannica 'Gruffudd ap Llywelyn', 'Wales/Llywelyn-ap-Iorwerth'; DWB 'GRUFFUDD ap LLYWELYN (died 1063)'",
+   "not": "Gwynedd 5.-6. yy.dan beri var; açılan kaynaklarda tarihli kuruluş cümlesi yok. f=1000-01-01 pencere ucudur."
+  },
+  {
+   "ne": "irlanda künyesinin kaynaklı kuruluş tarihi",
+   "denenen": "DIB 'Brian Bórama', 'Ua Conchobair, Ruaidrí'",
+   "not": "Gal krallıkları için tek kuruluş günü yok; f=1000-01-01 pencere ucu."
+  },
+  {
+   "ne": "Rouen'ın düşüş günü (24 Haziran 1204)",
+   "denenen": "Britannica 'Philip II' (yalnız 'June'), 'Normandy' (yalnız 1204); web araması yalnız Vikipedi/medievalists.net",
+   "not": "normandiya t ve 1204 maddesi 1204-01-01 kaldı."
+  },
+  {
+   "ne": "Alphonse de Poitiers'nin ölüm günü (1271)",
+   "denenen": "Britannica 'Alphonse of Poitiers' (derleme sayfası), 'Toulouse (medieval county)' (sayfa 1271 cümlesini döndürmedi), 'Philip III'",
+   "not": "toulouse t = 1271-01-01."
+  },
+  {
+   "ne": "Paris Antlaşması 1229 günü (12 Nisan 1229)",
+   "denenen": "Britannica 'Treaty of Paris 1229', 'Albigensian Crusade'",
+   "not": "yalnız yıl."
+  },
+  {
+   "ne": "II. Henry'nin taç giyme günü (19 Aralık 1154)",
+   "denenen": "Britannica 'Henry II', 'Stephen'",
+   "not": "madde Stephen'ın ölüm gününe (25 Ekim 1154) bağlandı."
+  },
+  {
+   "ne": "Carham 1018 kesin yılı",
+   "denenen": "Britannica 'Malcolm II' (c. 1016), 'Battle of Carham' derlemesi (1016/18)",
+   "not": "1016 yazıldı, çelişki ic_not_t'de."
+  },
+  {
+   "ne": "Britannica bazı kısa sayfaları boş döndü",
+   "denenen": "'Kingdom of Arles', 'Rollo', 'Treaty of Saint-Clair-sur-Epte', 'Brian Boru', 'Thierry of Alsace', 'Burgundy-historical-region', 'Baldwin I count of Flanders'",
+   "not": "İçerik JS ile yükleniyor/boş şablon; aynı bilgi başka Britannica sayfalarından (Normandy, Burgundy summary, Rudolf III, Flanders) alındı."
+  },
+  {
+   "ne": "burgonya (dükalık) için 1032-1281 arası büyük olay",
+   "denenen": "Britannica 'Robert II (king of France)', 'Burgundy summary'",
+   "not": "Kuşakta yalnız künye öncesi 1015 ilhakı bulundu; hedef 4 maddenin altında kaldı."
+  },
+  {
+   "ne": "Venedik-Bizans 1082 hrisobulu (I. Aleksios'un Venedik'e ticaret ayrıcalığı)",
+   "denenen": "Treccani crisobolla (yalnız genel tanım), alessio-i-comneno-imperatore-d-oriente (Venedik yardımı var, hrisobul yok), domenico-selvo (slug ana sayfaya düştü); Britannica britannica.com curl ve WebFetch ile HTTP 403",
+   "not": "Tarih ve içerik kaynaksız yazılmadı."
+  },
+  {
+   "ne": "Robert Guiscard biyografisi (Dizionario Biografico / Enciclopedia Italiana) — Melfi 1059, ölüm 1085",
+   "denenen": "treccani roberto-il-guiscardo_(Dizionario-Biografico), roberto-d-altavilla-detto-il-guiscardo_(Dizionario-Biografico), roberto-il-guiscardo_(Enciclopedia-Italiana): sayfa istemci tarafında yükleniyor, gövde okunamadı (curl 161 karakter; tarayıcı paneli zaman aşımı). Ölçülemedi ≠ yok.",
+   "not": "1059 dükalık Treccani Altavilla ve Normanni maddelerinden alındı; Melfi adı hiçbir açılan maddede 1059 ile birlikte geçmiyor."
+  },
+  {
+   "ne": "Britannica (Kingdom of Sicily, Roger I, Roger II, Robert Guiscard)",
+   "denenen": "britannica.com/biography/Roger-I, /Robert-Guiscard, /Roger-II, /place/Kingdom-of-Sicily",
+   "not": "HTTP 403 (bot engeli) — ikinci kaynak olarak kullanılamadı."
+  },
+  {
+   "ne": "Cenova-Piza Sardinya çekişmesi (1000-1281)",
+   "denenen": "Treccani giudicati (slug ana sayfaya düştü); sardegna denenmedi/okunamadı",
+   "not": "Yalnız Korsika tarafı (1092 Piza, 1195 Bonifacio) Treccani Corsica'dan yazıldı."
+  },
+  {
+   "ne": "Benevento 1266 sonrası Floransa'da Guelf dönüşü",
+   "denenen": "Treccani carlo-i-d-angio-re-di-sicilia, manfredi-re-di-sicilia",
+   "not": "Olay tarihiyle birlikte açılan kaynakta yok; floransa taraf yazılmadı."
+  },
+  {
+   "ne": "TDV'de Palermo / Noto / Normanlar ayrı maddeleri",
+   "denenen": "islamansiklopedisi.org.tr/palermo, /akleb (503 sonra denenmedi), arama \"normanlar\", \"belerm\", \"ruggero\" (arama sonuçları istemci tarafında, curl ile boş)",
+   "not": "TDV Sicilya ve Kelbîler maddeleri yeterli dayanak verdi."
+  },
+  {
+   "ne": "Muhi (Şayó) Savaşı'nın günü (11 Nisan 1241)",
+   "denenen": "TDV 'macaristan', TDV 'batu-han', TDV 'altin-orda', Hrvatska enciklopedija 'bela-iv-arpadovic', 'mongoli', 'tatari', 'tatarska-provala', 'bitka-na-saju', 'mohi'",
+   "not": "Hepsi yalnız 1241 yılı verir; madde 1241-01-01 yazıldı. Britannica Cloudflare 403 (curl ve WebFetch) — açılamadı."
+  },
+  {
+   "ne": "Rudolf von Habsburg'un seçim günü 1 Ekim 1273",
+   "denenen": "NDB/ADB 'Rudolf I.' (sfz74667)",
+   "not": "NDB: 1.9.1273'te aday, 'bir ay sonra' seçim; ADB: seçim günü 29 Eylül olarak belirlenmişti. 1 Ekim birebir yok ⇒ madde kesin taç giyme günü 24.10.1273 ile yazıldı."
+  },
+  {
+   "ne": "Bohemya dükalığının kuruluş YILI; İsveç krallığının kuruluş YILI (~995)",
+   "denenen": "lex 'přemysliderne', 'Bøhmen', 'Tjekkiets historie'; snl 'přemyslidene', 'Tsjekkias historie', 'Olof Skötkonung', 'Sveriges historie'; TDV 'cek-cumhuriyeti' (yanlış/boş madde), TDV 'isvec'",
+   "not": "Kaynaklar yüzyıl/onyıl veriyor ('900-tallet', '990-årene'); iki künyede f=1000-01-01 pencere ucu olarak yazıldı (D210)."
+  },
+  {
+   "ne": "Babenberg Uç Beyliği 976",
+   "denenen": "NDB 'Leopold V.', 'Heinrich II. Jasomirgott'; TDV 'avusturya' (tarih bölümü Habsburg'dan başlıyor)",
+   "not": "976 bu turda kaynakla ölçülmedi; künye 1156 Privilegium Minus'tan başlatıldı."
+  },
+  {
+   "ne": "Largs (2 Ekim 1263), Hova (1275), Grathe Hede (23 Ekim 1157), Bautzen (30 Ocak 1018), Sicilya Altın Bullası (26 Eylül 1212), Kressenbrunn (12 Temmuz 1260) günleri",
+   "denenen": "snl/lex/NDB ilgili maddeler",
+   "not": "Kaynaklar yalnız yıl veriyor; maddeler YYYY-01-01 ile yazıldı — Değişmez 2 (±30 gün) senkronu için bu maddeler gün kaynağı bekler."
+  },
+  {
+   "ne": "Britannica, Historisches Lexikon der Schweiz",
+   "denenen": "britannica.com (curl + WebFetch), hls-dhs-dss.ch arama",
+   "not": "İkisi de 403 döndü (Cloudflare/bot engeli); hiçbir alıntı bunlardan alınmadı. Yerine NDB/ADB, snl, lex.dk, Hrvatska enciklopedija, VLE (Visuotinė lietuvių enciklopedija), TDV kullanıldı."
+  },
+  {
+   "ne": "Britannica (bütün maddeler)",
+   "denenen": "britannica.com/event/Battle-of-the-Kalka-River, place/Vladimir-Suzdal, topic/Kyivan-Rus, biography/Samuel-tsar-of-Bulgaria, event/Battle-of-Kleidion, biography/Stefan-Nemanja, place/Zeta-historical-state-Europe, biography/Tomislav, biography/Kulin, biography/Kaloyan, place/Volga-Bulgaria, biography/Daniel-Romanovich (curl + WebFetch)",
+   "not": "Hepsi HTTP 403 — açılamadı, hiçbir alıntı Britannica'ya dayanmıyor."
+  },
+  {
+   "ne": "Kalka Savaşı gün (31 Mayıs 1223)",
+   "denenen": "EU 'Kalka River', 'Mstyslav Mstyslavych', 'Mstyslav Romanovych', 'Kotian', 'Tatars'; TDV kalka (302); Britannica (403)",
+   "not": "Madde ZATEN VAR (kronoloji_cok_once1281_iran.js, t 1223-01-01, taraflar mogol-imparatorlugu+kipcak) — tekrarlanmadı. Öneri: taraflara 'kiev-rusu' eklensin. EU 'Mstyslav Mstyslavych' 'the debacle at the Kalka River and the death of nine princes in June 1223' der, 'Mstyslav Romanovych' ölüm günü 'd 6 June 1223' — 31 Mayıs hiçbir açılan kaynakta yok; EU 'June' ile çelişir, gün yazılmamalı."
+  },
+  {
+   "ne": "Kiev'in düşüşü 1240 maddesi",
+   "denenen": "—",
+   "not": "Madde ZATEN VAR (kronoloji_cok_once1281_iran.js, t 1240-01-01, gün 'Aralık 1240 (gün TDV'de yok)'). Öneri: EU 'Tatars' gün verir — 'After taking Kyiv he massacred its residents on 6 December 1240' → t 1240-12-06, taraflara 'kiev-rusu' eklensin. Tekrarlanmadı."
+  },
+  {
+   "ne": "İdil Bulgar 1223 zaferi, 1006 ticaret antlaşması, 1183/1205 Vsevolod seferleri, 1238 Moskova yağması",
+   "denenen": "—",
+   "not": "Hepsi ZATEN VAR (kronoloji_cok_once1281_iran.js) — tekrarlanmadı. 1183 maddesinin taraflarına 'vladimir-suzdal' eklenebilir (ic_not: 'karşı taraf künyesiz: Vladimir-Suzdal')."
+  },
+  {
+   "ne": "idil-bulgar künyesi",
+   "denenen": "C:\\atlas\\data\\devletler.js çalışma kopyası",
+   "not": "Künye (f 0965, t 1236) başka bir oturumca zaten yazılmış (commit edilmemiş değişiklik) — 'yeni' yerine 'dokunmadim' işaretlendi."
+  },
+  {
+   "ne": "Vladimir-Suzdal bitiş tarihi",
+   "denenen": "HE vladimir-grad; EU Vladimir6Suzdalprincipality, VladimirSuzdalprincipality, Suzdal, RostovSuzdalprincipality, VladimirontheKliazma, Vladimir (hepsi boş sayfa); TDV vladimir, suzdal, moskova (302); Britannica (403)",
+   "not": "t boş bırakıldı; ayrıntı künye ic_not_t'de."
+  },
+  {
+   "ne": "Galiçya-Volhinya 1349 bölüşümü",
+   "denenen": "EU 'Galicia-Volhynia'; Britannica (403)",
+   "not": "EU sonu 1340 verir; 1349 kaynakla doğrulanamadı."
+  },
+  {
+   "ne": "Kleidion 29 Temmuz 1014 ve Edirne 14 Nisan 1205 günleri",
+   "denenen": "TDV bulgaristan; HE samuilo, kalojan, asenovci; Britannica (403)",
+   "not": "Kaynaklar yalnız yıl verir — günler yazılmadı."
+  },
+  {
+   "ne": "TDV sluglar",
+   "denenen": "bulgarlar, bosna, kiev, kiyef, bulgar--sehir, kulin-ban, vladimir, suzdal, moskova, kalka, altin-orda",
+   "not": "Hepsi 302 (ölü slug). Çalışanlar: bulgar, bulgaristan, idil-bulgar-hanligi, sirbistan, hirvatistan, dubrovnik, rusya, bosna-hersek, batu-han."
+  },
+  {
+   "ne": "Novgorod / Ryazan / Tver yeni maddeleri",
+   "denenen": "TDV rusya, batu-han; EU Mstyslav Mstyslavych",
+   "not": "Kuşak içinde VAR OLANLARLA çakışmayan, kaynaklı toprak/hanedan olayı bulunamadı. TDV rusya '1260’ta Novgorod da aynı âkıbete uğradı' der, ama mevcut 1259 'Rus şehirlerindeki vergi isyanları' maddesiyle muhtemel mükerrer — yazılmadı, koordinatöre bildirilir."
+  },
+  {
+   "ne": "Vladimir-Suzdal madde sayısı",
+   "denenen": "—",
+   "not": "Hedef 3-12; yalnız 2 madde + 2 iskelet (1157, 1238). 1183/1205/1221 İdil Bulgar seferleri mevcut maddede, 1238 Moskova mevcut. Andrey'in 1155 Vladimir'e geçişi künye f'sinden önce."
+  }
+ ]
+}

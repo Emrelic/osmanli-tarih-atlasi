@@ -141,21 +141,17 @@ window.SEFERLER_OK103 = [
   // H-0098 — "tosun paşanın hicaz seferi oklar ile harekat okları ile
   //           gösterilmeli"
   // ══════════════════════════════════════════════════════════════════
-  { ad: "Tosun Paşa'nın Hicaz seferi (1811-1813)", tur: "sefer",
-    sonuc: "zafer",
-    f: "1811-03-01", t: "1813-01-23",
-    yol: [[31.24, 30.05], [32.53, 29.97], [38.06, 24.09], [39.61, 24.47],
-          [39.83, 21.42]],
-    kaynak: "TDV \"KAVALALI MEHMED ALİ PAŞA\" — sefer Tosun kumandasında " +
-      "başladı, \"Tosun'un şerefine 1 Mart 1811'de düzenlediği büyük davette\". " +
-      "TDV \"YENBU'\" — \"Yenbu' tekrar Osmanlı egemenliğine sokuldu (1811)\". " +
-      "TDV \"MEDİNE\" — \"iki hafta kadar süren bir kuşatmanın ardından " +
-      "3 Aralık 1812'de Medine geri alındı\". TDV \"MEKKE\" — \"23 Ocak 1813\" " +
-      "Tosun Paşa, Şerîf Gālib'in yardımıyla Mekke'ye girdi. " +
-      "⚠️ SÜVEYŞ ara durağı TDV'de doğrulanamadı (bulunamadı — bu tanecik " +
-      "kapsanmıyor); Mısır kuvvetlerinin Kızıldeniz'e Süveyş'ten açıldığı " +
-      "standart akademik kabuldür ve okun DENİZDEN gitmesi için gereklidir. " +
-      "Karadan çizilseydi güzergâh Nüfûd çölünden geçecekti — açıkça yanlış." },
+  // 🔴 UYGULA-KART-0930 (0082/H-0071): bu kayıt KALDIRILDI — aynı sefer
+  // data/savaslar.js `a4-tosun-hicaz-1811`de de çiziliyordu (MÜKERRER OK, iki
+  // ucu ve günü farklı olduğu için app.js'in aynı-uçlu eleyicisi ikisini de
+  // çiziyordu). Buradaki f "1811-03-01" Tosun'a verilen DAVETİN günüydü, seferin
+  // değil; Kahire→Süveyş→Yenbu hattı da Sina'yı kesiyordu. Sefer artık yalnız
+  // savaslar.js'te: süvari kolu karadan hac yolu kaleleri üzerinden
+  // (`a4-tosun-hicaz-1811`) + piyade kolu Süveyş'ten denizden
+  // (`a4-tosun-piyade-deniz-1811`) — kaynak Burckhardt 1831 II s. 993-995.
+  // Eski değer: f "1811-03-01" t "1813-01-23" yol [[31.24,30.05],[32.53,29.97],
+  //   [38.06,24.09],[39.61,24.47],[39.83,21.42]] · kaynak TDV kavalali-mehmed-ali-pasa
+  //   · yenbu · medine · mekke.
 
   // ══════════════════════════════════════════════════════════════════
   // H-0081 — "çeşme baskını konusunda ne bir işaretleme var ne rus

@@ -1,0 +1,8 @@
+TESLİM · ODAK (M-5662) · ONCE1281-IRAN-TURKISTAN — data/kronoloji_cok_once1281_iran.js 2. tur
+① ÖLÇTÜM: py arac/odak_olc.py --ayrinti → kronoloji_cok_once1281_iran.js 169 madde · KONUMLU 77 · KUTULU 92 · BEYANLI 0 · kırık atıf ✓0 · ODAKSIZ 0 (%0,0). kapsam_genis hiç yok.
+  Yöntem: odak_cozum.js'in sehirler havuzu (d/v/s taşıyan 4146 ad) dışa alındı; 76 madde yer alanından otomatik, 93 madde elle eşlendi (denetim/ONCE1281-IRAN-ODAK-ELLE.json, uydurma ad 0). yer_id yalnız olay TAM oradaysa; antlaşma ve "X'e yürüdü/gönderildi/döndü/seferi" → odak_yer (ODAK-KAPAT tuzağı ③). Havuzda olmayan olay yeri (Rey, Alamut, Malazgirt, Otrar, Dînever, Cürcân, Taberistan, Kalka…) → en yakın havuz yerleşimi odak_yer (Tahran, Kazvin, Erciş+Bitlis, Türkistan+Sığnak…), yer_id DEĞİL.
+  MÜKERRER 2. TUR: komşu kampanya dosyaları (once1281_ortadogu/anadolu, cok_ince_*) geldi; ortak TARAFLI çiftler ayıklandı → 181 → 169 madde (12 madde düştü, 5 maddede yalnız çakışan taraf düştü; 1059 Selçuklu-Gazneli barışı iki kez yazılmıştı, biri düştü). Ayrıntı RED.json + rapor.
+  Kapılar: node --check ✓ · taraf 269 · eşlenemeyen 0 (künyeler devletler.js'e girmiş, 269/269) · küresel ad 0 (evren 565) · t biçimi/kuşak dışı 0/169.
+② BULAMADIM: yok (odaksız 0).
+③ İSTİYORUM: index.html bağlantısı sende. Rapor güncel: denetim/ONCE1281-IRAN-TURKISTAN-0930.md. KUNYE.json değişmedi (boya_gerekli 30 · kert harita:"kert").
+bekçimi öldüreyim mi?

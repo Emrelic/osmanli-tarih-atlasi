@@ -1,0 +1,136 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 09c753da..99804900 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -834,7 +834,7 @@ BOYALAR = {
+     "isvec":      ("İsveç",                  "#48eac3"),
+     # ↑ Baltık kümesi (bkz. `isvec` üstündeki blok) · ton kayması 10,9° —
+     #   mor kimliği korundu, en yakın engel ΔE 12,1 · altlıktan 31,1
+-    "danimarka":  ("Danimarka-Norveç",       "#b484e7"),
++    "danimarka":  ("Danimarka Krallığı",     "#b484e7"),
+     # Eski #b55b6b gül kırmızısıydı (H=349°, S=0.38) — kırmızı tonları Osmanlı
+     # ailesine ayrılmıştır, yabancı devlete verilmez. Mora çekildi.
+     "ingiltere":  ("Britanya",               "#7e3d8f"),
+@@ -2155,7 +2155,7 @@ BOYALAR = {
+     "bretanya":      ("Bretanya Dukalığı",         "#36693f"),
+     "burgonya":      ("Burgonya Dukalığı",         "#781840"),
+     # ferrara  #ae7e4b → #300c93  (toplu tur)
+-    "ferrara": ("Ferrara Dukalığı", "#300c93"),
++    "ferrara": ("Este Devleti (Ferrara / Modena)", "#300c93"),
+     # 27 Ağu 2026 — GERİLEME KAPATILDI. #ea8751 ↔ ispanya #d59f63 ΔE 8,6;
+     # ikisi de ten/turuncu ailesindeydi. Kayma küçük (ΔE 11,5) — aile
+     # değişti, kimlik korundu — kayma yalnız ΔE 5,7.
+@@ -3241,6 +3241,113 @@ BOYALAR = {
+     # renk_olc.py --dogrula ile YENİDEN ölçülmeden güvenilmemeli.
+     "kumuk-samhalligi":        ("Kumuk Şamhallığı",                    "#6c24d2"),
+ 
++    # ═══ YAMA-MOTOR-0930 · 30 Eylül 2026 — 93 YENİ KİMLİK ═══════════════
++    # Kaynak: ONCE1281-{AFRIKA,ANADOLU,DOGU-ASYA,HINT-AMERIKA,IRAN}-KUNYE.json
++    # `boya_gerekli:true` + künyesi devletler.js'te OLAN kalemler, ve
++    # `kaheti-kralligi` (KAFKAS-KORFEZ-0081 · H-0001: kök sebep kimliksizlik).
++    # Renk: `py arac/renk_olc.py --oner` BİRLİKTE çözdü, artefakt
++    # `denetim/oneri-20260930-222016.txt`. Etiket = künyenin `ad:`ı.
++    # 🟡 DÜŞÜK GÜVEN — araç kendisi söyledi: 93 kimliğin 93'ünün de
++    #   "komşusu ölçülemeyen kimlik" (girdi.py'nin okuduğu dosyalarda
++    #   verisi YOK) ⇒ öneri yalnız altlık + Osmanlı ikilisine ve AYNI
++    #   BÖLGE varsayımına dayanır. Yerleşim noktaları indikten sonra
++    #   `renk_olc.py --dogrula` ile YENİDEN ölçülmeden güvenilmemeli.
++    #   Bugün haritada DELİK AÇMIYORLAR (hiçbiri s:/isg: alanında yok);
++    #   yama, veri indiğinde delik açılmasın diye önceden taşınır.
++    "kaheti-kralligi":      ("Kaheti Krallığı", "#5ad224"),
++    "murabitlar":           ("Murâbıtlar Devleti", "#6cd224"),
++    "muvahhidler":          ("Muvahhidler Devleti", "#c024d2"),
++    "ziriler":              ("Zîrîler (Kuzey Afrika)", "#96d224"),
++    "hammadiler":           ("Hammâdîler", "#d26024"),
++    "magrave-sicilmase":    ("Mağrâve Emirliği (Sicilmâse)", "#9cd224"),
++    "gane":                 ("Gāne (Gana) Devleti", "#a2d224"),
++    "susu-kralligi":        ("Susu (Sosso) Krallığı", "#a8d224"),
++    "tekrur-kralligi":      ("Tekrûr Krallığı (Senegal vadisi)", "#c624d2"),
++    "kevkev":               ("Kevkev (Gao) Krallığı — Songay Zâ Hânedanı", "#d28a24"),
++    "zagve":                ("Zague (Zagwe) Hânedanı — Etiyopya", "#aed224"),
++    "suve-emirligi":        ("Şüve (Shoa) Mahzûmî Emirliği", "#cc24d2"),
++    "mapungubwe":           ("Mapungubwe Krallığı", "#d224b4"),
++    "danismendli":          ("Dânişmendliler", "#d2ae24"),
++    "saltuklu":             ("Saltuklular (Saltukoğulları)", "#2424d8"),
++    "mengucuklu":           ("Mengücüklüler (Mengücekoğulları)", "#244ed8"),
++    "ahlatsahlar":          ("Ahlatşahlar (Sökmenliler, Şâh-i Ermenler)", "#24ccd8"),
++    "mervani":              ("Mervânîler (Mervanoğulları)", "#d2b424"),
++    "inalogullari":         ("İnaloğulları (Âmid)", "#24d824"),
++    "dilmacogullari":       ("Dilmaçoğulları (Bitlis-Erzen)", "#24d85a"),
++    "cubukogullari":        ("Çubukoğulları (Harput)", "#24d890"),
++    "latin-imparatorlugu":  ("Latin İstanbul İmparatorluğu", "#d2c024"),
++    "iznik-imparatorlugu":  ("İznik (Laskaris) İmparatorluğu", "#24d896"),
++    "ahaya-prinkepsligi":   ("Ahaya (Mora) Prinkepsliği", "#242ad8"),
++    "selanik-kralligi":     ("Latin Selânik Krallığı", "#2454d8"),
++    "selanik-imparatorlugu":("Selânik İmparatorluğu (Komnenos Dukas kolu)", "#245ad8"),
++    "epir-despotlugu":      ("Epir (Yanya) Despotluğu — Tocco dönemi dâhil", "#24d2d8"),
++    "samtshe-atabegligi":   ("Samçhe (Meskheti, Ahıska/Çıldır) Atabekliği", "#2430d8"),
++    "liao-hanedani":        ("Liao Hanedanı (Kitan / Hıtay)", "#2436d8"),
++    "bati-xia":             ("Batı Xia (Tangut) Devleti", "#243cd8"),
++    "dali-kralligi":        ("Dali Krallığı (Yunnan)", "#2442d8"),
++    "dongxia":              ("Doğu Xia (Dongxia / Dazhen) Devleti", "#2466d8"),
++    "tien-le-hanedani":     ("Erken Lê Hanedanı (Đại Cồ Việt)", "#2448d8"),
++    "ly-hanedani":          ("Lý Hanedanı (Đại Việt)", "#2460d8"),
++    "heian-japonya":        ("Japonya — Heian Dönemi İmparatorluk Sarayı", "#246cd8"),
++    "oshu-fujiwara":        ("Ōshū Fujiwara (Kuzey Fujiwara) Hanedanlığı", "#24d82a"),
++    "srivijaya":            ("Srivicaya (Śrīvijaya) Krallığı", "#24d830"),
++    "medang":               ("Medang (Mataram) Krallığı (Cava)", "#24d836"),
++    "kahuripan":            ("Kahuripan Krallığı (Airlangga, Doğu Cava)", "#24d83c"),
++    "kediri":               ("Kediri (Panjalu) Krallığı (Doğu Cava)", "#24d842"),
++    "bali-warmadewa":       ("Bali Krallığı (Warmadewa Hanedanı)", "#24d848"),
++    "hariphunchai":         ("Hariphunchai (Haripuñjaya) Krallığı", "#24d878"),
++    "guge":                 ("Guge Krallığı (Batı Tibet)", "#24d860"),
++    "sakya":                ("Sakya Yönetimi (Moğol-Yuan himayesinde Tibet)", "#24d89c"),
++    "song":                 ("Song Hanedanı (Çin)", "#24d84e"),
++    "jin-hanedani":         ("Jin Hanedanı (Jurchen, Kuzey Çin)", "#24d8a2"),
++    "cola":                 ("Çola (Chola) İmparatorluğu", "#24d854"),
++    "bati-calukya":         ("Batı Çalukya (Kalyani Çalukyaları)", "#24d88a"),
++    "dogu-calukya":         ("Doğu Çalukya (Vengi Çalukyaları)", "#2a24d8"),
++    "pala":                 ("Pâla Hanedanı (Bengal-Bihar)", "#4ed824"),
++    "sena":                 ("Sena Hanedanı (Bengal)", "#3024d8"),
++    "gahadavala":           ("Gâhadavâla Hanedanı (Kannauj-Varanasi)", "#7e24d8"),
++    "cahamana":             ("Çavhan (Çâhamâna) Hanedanı — Şakambhari/Ecmîr", "#96d824"),
++    "paramara":             ("Paramâra Hanedanı (Mâlva)", "#cc24d8"),
++    "caulukya":             ("Çaulukya (Solanki) Hanedanı — Gucerat", "#d8246c"),
++    "candela":              ("Çandela (Candella) Hanedanı — Bundelkhand", "#d824a2"),
++    "gurjara-pratihara":    ("Gürcara-Pratihâra Hanedanı (Kannauj)", "#7824d8"),
++    "kabace":               ("Nâsırüddin Kabâce Devleti (Mültan-Uç-Sind)", "#24d8a8"),
++    "toltek":               ("Toltek Devleti (Tollan/Tula)", "#24d866"),
++    "ata-pueblo":           ("Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde", "#24d86c"),
++    "rapa-nui":             ("Rapa Nui (Paskalya Adası) Soyları", "#24d872"),
++    "tahiti":               ("Tahiti ve Cemiyet Adaları Şeflikleri (→ Pomare Krallığı)", "#24d8ae"),
++    "hawaii-seflikleri":    ("Hawaii Şeflikleri (Birleşme Öncesi)", "#2ad824"),
++    "buyuk-selcuklu":       ("Büyük Selçuklu Devleti", "#24d87e"),
++    "kirman-selcuklu":      ("Kirman Selçukluları", "#24d8b4"),
++    "suriye-selcuklu":      ("Suriye Selçukluları", "#24d884"),
++    "irak-selcuklu":        ("Irak Selçukluları", "#30d824"),
++    "gazneli":              ("Gazneliler (Gazneli Devleti)", "#3624d8"),
++    "gurlu":                ("Gurlular (Şensebânîler)", "#36d824"),
++    "karahanli":            ("Karahanlılar (bölünme öncesi birleşik devlet)", "#3c24d8"),
++    "dogu-karahanli":       ("Doğu Karahanlılar", "#4224d8"),
++    "bati-karahanli":       ("Batı Karahanlılar", "#84d824"),
++    "karahitay":            ("Karahıtaylar (Batı Liao)", "#9024d8"),
++    "harizmsah":            ("Hârizmşahlar (Anuştegin hânedanı)", "#ccd824"),
++    "samani":               ("Sâmânîler", "#3cd824"),
++    "buveyhi":              ("Büveyhîler", "#42d824"),
++    "ziyari":               ("Ziyârîler", "#4824d8"),
++    "kakuyi":               ("Kâkûyîler (Kâkeveyhîler)", "#4e24d8"),
++    "revvadi":              ("Revvâdîler", "#48d824"),
++    "bavendi":              ("Bâvendîler", "#5424d8"),
++    "salgurlu":             ("Salgurlular (Fars Atabegleri)", "#5a24d8"),
++    "ildenizli":            ("İldenizliler (Azerbaycan Atabegleri)", "#7ed824"),
++    "ahmedili":             ("Ahmedîlîler (Merâga Atabegleri)", "#a824d8"),
++    "yezd-atabegligi":      ("Yezd Atabegleri", "#c6d824"),
++    "alamut-nizari":        ("Nizârî İsmâilî Devleti (Alamut)", "#d82478"),
++    "annazi":               ("Annâzîler", "#54d824"),
++    "musafiri":             ("Müsâfirîler (Sellârîler, Kengerîler)", "#5ad824"),
++    "badusbani":            ("Bâdüsbânîler (Rûyân üstândârları)", "#6024d8"),
++    "kipcak":               ("Kıpçaklar (Kumanlar) — Deşt-i Kıpçak", "#60d824"),
++    "idil-bulgar":          ("İdil (Volga) Bulgar Hanlığı", "#6624d8"),
++    "kerayit":              ("Kerâyitler (Ong Han ülkesi)", "#d8247e"),
++    "nayman":               ("Naymanlar", "#d824b4"),
++    "koco-uygur":           ("Koço (Turfan) Uygur Devleti — İdikutlar", "#66d824"),
++
+ }
+ 
+ 

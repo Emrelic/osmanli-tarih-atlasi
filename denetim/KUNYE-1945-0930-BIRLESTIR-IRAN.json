@@ -1,0 +1,369 @@
+{
+ "kaynak": "denetim/ONCE1281-IRAN-KUNYE.json",
+ "okunan": 39,
+ "kabul": [
+  {
+   "id": "buyuk-selcuklu",
+   "islem": "yeni",
+   "f": "1040-05-23",
+   "t": "1157-01-01"
+  },
+  {
+   "id": "kirman-selcuklu",
+   "islem": "yeni",
+   "f": "1048-01-01",
+   "t": "1187-01-01"
+  },
+  {
+   "id": "suriye-selcuklu",
+   "islem": "yeni",
+   "f": "1079-01-01",
+   "t": "1117-01-01"
+  },
+  {
+   "id": "irak-selcuklu",
+   "islem": "yeni",
+   "f": "1118-05-06",
+   "t": "1194-01-01"
+  },
+  {
+   "id": "gazneli",
+   "islem": "yeni",
+   "f": "963-01-01",
+   "t": "1186-01-01"
+  },
+  {
+   "id": "gurlu",
+   "islem": "yeni",
+   "f": "1000-01-01",
+   "t": "1215-01-01"
+  },
+  {
+   "id": "karahanli",
+   "islem": "yeni",
+   "f": "840-01-01",
+   "t": "1041-01-01"
+  },
+  {
+   "id": "dogu-karahanli",
+   "islem": "yeni",
+   "f": "1041-01-01",
+   "t": "1210-01-01"
+  },
+  {
+   "id": "bati-karahanli",
+   "islem": "yeni",
+   "f": "1041-01-01",
+   "t": "1212-01-01"
+  },
+  {
+   "id": "karahitay",
+   "islem": "yeni",
+   "f": "1130-01-01",
+   "t": "1211-01-01"
+  },
+  {
+   "id": "harizmsah",
+   "islem": "yeni",
+   "f": "1097-01-01",
+   "t": "1231-01-01"
+  },
+  {
+   "id": "samani",
+   "islem": "yeni",
+   "f": "819-01-01",
+   "t": "1005-01-01"
+  },
+  {
+   "id": "buveyhi",
+   "islem": "yeni",
+   "f": "932-01-01",
+   "t": "1062-01-01"
+  },
+  {
+   "id": "ziyari",
+   "islem": "yeni",
+   "f": "928-01-01",
+   "t": "1090-01-01"
+  },
+  {
+   "id": "kakuyi",
+   "islem": "yeni",
+   "f": "1007-01-01",
+   "t": "1141-01-01"
+  },
+  {
+   "id": "revvadi",
+   "islem": "yeni",
+   "f": "979-01-01",
+   "t": "1071-01-01"
+  },
+  {
+   "id": "bavendi",
+   "islem": "yeni",
+   "f": "665-01-01",
+   "t": "1349-04-17"
+  },
+  {
+   "id": "salgurlu",
+   "islem": "yeni",
+   "f": "1148-01-01",
+   "t": "1286-12-29"
+  },
+  {
+   "id": "ildenizli",
+   "islem": "yeni",
+   "f": "1148-01-01",
+   "t": "1225-01-01"
+  },
+  {
+   "id": "ahmedili",
+   "islem": "yeni",
+   "f": "1116-01-01",
+   "t": "1227-01-01"
+  },
+  {
+   "id": "yezd-atabegligi",
+   "islem": "yeni",
+   "f": "1141-01-01",
+   "t": "1318-01-01"
+  },
+  {
+   "id": "alamut-nizari",
+   "islem": "yeni",
+   "f": "1090-09-04",
+   "t": "1256-11-19"
+  },
+  {
+   "id": "annazi",
+   "islem": "yeni",
+   "f": "991-01-01",
+   "t": "1117-01-01"
+  },
+  {
+   "id": "musafiri",
+   "islem": "yeni",
+   "f": "942-01-01",
+   "t": "1062-01-01"
+  },
+  {
+   "id": "badusbani",
+   "islem": "yeni",
+   "f": "723-01-01",
+   "t": "1598-01-01"
+  },
+  {
+   "id": "kert",
+   "islem": "genislet",
+   "f": "1245-01-01→1244-01-01",
+   "t": "1389-01-01→1389-01-01"
+  },
+  {
+   "id": "kipcak",
+   "islem": "yeni",
+   "f": "1054-01-01",
+   "t": "1239-01-01"
+  },
+  {
+   "id": "idil-bulgar",
+   "islem": "yeni",
+   "f": "965-01-01",
+   "t": "1236-01-01"
+  },
+  {
+   "id": "kerayit",
+   "islem": "yeni",
+   "f": "1199-01-01",
+   "t": "1203-01-01"
+  },
+  {
+   "id": "nayman",
+   "islem": "yeni",
+   "f": "1199-01-01",
+   "t": "1204-01-01"
+  },
+  {
+   "id": "koco-uygur",
+   "islem": "yeni",
+   "f": "911-01-01",
+   "t": "1209-01-01"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [
+  "sirvansah",
+  "lur-i-buzurg",
+  "lur-i-kucek",
+  "kutlughanli",
+  "mogol-imparatorlugu",
+  "ilhanli",
+  "altinorda",
+  "cagatay"
+ ],
+ "boya_gerekli": [
+  {
+   "id": "buyuk-selcuklu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kirman-selcuklu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "suriye-selcuklu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "irak-selcuklu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "gazneli",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "gurlu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "karahanli",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "dogu-karahanli",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "bati-karahanli",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "karahitay",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "harizmsah",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "samani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "buveyhi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ziyari",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kakuyi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "revvadi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "bavendi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "salgurlu",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ildenizli",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "ahmedili",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "yezd-atabegligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "alamut-nizari",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "annazi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "musafiri",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "badusbani",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kipcak",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "idil-bulgar",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kerayit",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "nayman",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "koco-uygur",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [
+  "sirvansah (dokunmadim) notu veriye taşınmadı: f 861 TDV ile uyumlu ('247’de (861) ... Şirvanşah unvanıyla bağımsızlığını ilân etti'). 1000-1281 kuşağı için TDV sirvansahlar maddesi çok az tarihli olay veriy",
+  "lur-i-buzurg (dokunmadim) notu veriye taşınmadı: f 550/1155 TDV ile uyumlu. NOT: künye-içi '1203 Hezâresb tahta geçti (600 AH)' maddesine karşı TDV lur-i-buzurg 'Nusreddin Hezâresb geçti (1204-1229)' der — 1 y",
+  "lur-i-kucek (dokunmadim) notu veriye taşınmadı: f 580/1184 TDV ile uyumlu. TDV slug: lur-i-kucek.",
+  "kutlughanli (dokunmadim) notu veriye taşınmadı: f 1222 TDV ile uyumlu ('ertesi yıl Kirman’a hâkim oldu' — 1221'in ertesi).",
+  "mogol-imparatorlugu (dokunmadim) notu veriye taşınmadı: f 1206 kurultayı TDV ile uyumlu; dokunulmadı.",
+  "ilhanli (dokunmadim) notu veriye taşınmadı: f 1256 TDV 'kurulan (1256)' ile uyumlu. İstenirse güne inebilir: Alamut teslimi 19 Kasım 1256 (hulagu) — ama ilhanlılık ilanını TDV sikke/Alamut sonrası diye YI",
+  "altinorda (dokunmadim) notu veriye taşınmadı: TDV'de iki yıl: altin-orda-hanligi 'Batu Han ... 1241 yılında İdil nehrinin aşağı mecrasına dönerek Orda merkezini kurdu', batu-han '1242 yılında yurduna döndü'",
+  "cagatay (dokunmadim) notu veriye taşınmadı: 1227 Cengiz'in ölümü/pay; TDV ile uyumlu, dokunulmadı."
+ ],
+ "kunye": [
+  749,
+  779
+ ]
+}

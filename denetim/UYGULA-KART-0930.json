@@ -1,0 +1,369 @@
+{
+  "ad": "UYGULA-KART-0930",
+  "tarih": "2026-09-30",
+  "evren": "denetim/KAPAT-*-0930.json içinde hukum=sirada 175 madde; notunda savaslar/kisiler/sehirler/padisahlar/ekokuma/seferler/kart/ok/sefer geçen 44 aday; 29'u bu oturumun dosyalarında, 15'i başka sahipte",
+  "maddeler": [
+    {
+      "parti": "parti-emrelic-0068",
+      "madde": "H-0014",
+      "kaynak": "KAPAT-0035-42-68-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "teknik-nizam-i-cedid olay'ına '1792-06-01|Nizâm-ı Cedîd ıslahat' + baslik; canlı bağ ölçümü: 1792-06-01 maddesinde kart görünüyor",
+      "dosya": "data/ekokuma_kurum2.js",
+      "satir": 152
+    },
+    {
+      "parti": "parti-emrelic-0068",
+      "madde": "H-0020",
+      "kaynak": "KAPAT-0035-42-68-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "Bahrî kartının ölü '1795-01-01|…ayrıldı' bağı '1795-09-01|Mühendishâne-i Berrî-i Hümâyun' oldu; ardıl kartına aynı bağ eklendi; ikisine baslik; 1795-09-01 maddesinde 2 kart ölçüldü",
+      "dosya": "data/ekokuma_kurum2.js",
+      "satir": 59
+    },
+    {
+      "parti": "parti-emrelic-0068",
+      "madde": "H-0018",
+      "kaynak": "KAPAT-0035-42-68-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "tartisma-isyanciya-makam metninde 7 '\\n•' → '\\n\\n•' (önce \\n\\n 0, sonra 7) — app.js bölücüsüne dokunulmadı",
+      "dosya": "data/ekokuma_celali.js",
+      "satir": 82
+    },
+    {
+      "parti": "parti-emrelic-0052",
+      "madde": "H-0087",
+      "kaynak": "KAPAT-0052-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "hukum-alani-mesafe kartına baslik alanı ('Bir başkent ne kadar uzağa hükmedebilir? …')",
+      "dosya": "data/ekokuma.js",
+      "satir": 160
+    },
+    {
+      "parti": "parti-emrelic-0054",
+      "madde": "H-0013",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "dunya3-karadag-osmanli-iliskisi olay'ına '1697-01-01|Karadağ'; 1697-01-01 maddesinde ölçüldü",
+      "dosya": "data/ekokuma_dunya.js",
+      "satir": 406
+    },
+    {
+      "parti": "parti-emrelic-0064",
+      "madde": "H-0017",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "dunya6-vehhabiler… olay'ına '1744-01-01|Dir'iye'; 1744-01-01 maddesinde ölçüldü",
+      "dosya": "data/ekokuma_dunya.js",
+      "satir": 509
+    },
+    {
+      "parti": "parti-emrelic-0064",
+      "madde": "H-0020",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "camitarz-bes-donem olay:[] → ['1749-01-19|Nuruosmaniye']; 1749-01-19 maddesinde ölçüldü",
+      "dosya": "data/ekokuma_camitarz.js",
+      "satir": 30
+    },
+    {
+      "parti": "parti-emrelic-0066",
+      "madde": "H-0010",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "iltizam-malikane-esham-zinciri çıplak '1774-07-21' bağı çıkarıldı (o günün tek çekirdek maddesi Küçük Kaynarca; ayırt edici aynı maddeye tutardı); Kaynarca maddesinde artık yok — ölçüldü",
+      "dosya": "data/ekokuma_ekonomi.js",
+      "satir": 101
+    },
+    {
+      "parti": "parti-emrelic-0081",
+      "madde": "H-0007",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "tartisma-dunya-hint-okyanusu-portekiz denetim/DUNYA-KRONO-0081-ekokuma_hint0081.js'ten BİREBİR yüklenen EKOKUMA_DUNYA dizisine taşındı (app.js yükleyicisi gerekmez); 5 maddede görünüyor (1511-08-10 · 1517-04-18 · 1538-06-13 · 1538-08-03 · 1567-10-01)",
+      "dosya": "data/ekokuma_dunya.js",
+      "satir": 592
+    },
+    {
+      "parti": "parti-emrelic-0081",
+      "madde": "H-0042",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "tartisma-karadeniz-ukraynalilar-kimdir denetim/KAFKAS-KORFEZ-0081-ekokuma.js'ten BİREBİR EKOKUMA_KARADENIZ'e taşındı; 1570-01-01 ve 1654-01-08 maddelerinde görünüyor",
+      "dosya": "data/ekokuma_karadeniz.js",
+      "satir": 138
+    },
+    {
+      "parti": "parti-emrelic-0054",
+      "madde": "H-0007",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "dunya3-osmanli-venedik-deniz-savaslari: '1694-09-21|Sakız' + '1695-02-22|Sakız' bağları; 'büyük deniz savaşı YAŞANMADI' cümlesi ve DESEN cümlesi TDV sakiz-adasi (Örenç) + mezemorta-huseyin-pasa (Bostan) ile düzeltildi (Sakız 1694-95, Zeytinburnu 1695, Andıra/Bozcaada 1696-97, İmroz/Midilli 1698)",
+      "dosya": "data/ekokuma_dunya.js",
+      "satir": 393
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0099",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "YENİ kart teknik-tashih-i-sikke-mecidiye-cift-metal (TDV kurus/Pamuk + mecidiye/DİA, ikisi bu oturumda okundu); '1844-01-01|Tashîh-i sikke' maddesinde görünüyor",
+      "dosya": "data/ekokuma_ekonomi.js",
+      "satir": 143
+    },
+    {
+      "parti": "parti-emrelic-0052",
+      "madde": "H-0007",
+      "kaynak": "KAPAT-0052-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "kisiler.js yeni kayıt damad-ibrahim-pasa-1601 (TDV damad-ibrahim-pasa, Nezihi Aykut); madde tarafı UYGULA-OLAYLAR-0930. app.js kisiBul node'da: 'Damad İbrâhim Paşa (ö. 1601)' → damad-ibrahim-pasa-1601 · yan kazanç: 1600-10-20 Kanije maddesinin 'Damad İbrâhim Paşa'sı da artık bu kayda gidiyor",
+      "dosya": "data/kisiler.js",
+      "satir": 51
+    },
+    {
+      "parti": "parti-emrelic-0053",
+      "madde": "H-0015",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "UYGULA-OLAYLAR-0930 madde kisiler'ini 'İsmail Paşa (Osmanlı yardım ordusu)' yaptı; kisiBul node'da → YOK (Şah İsmail kartı kalktı). Kişi kaydı AÇILMADI: TDV anabolu ve mora maddelerinde 1686 Osmanlı komutanı adı yok (bulunamadı). app.js zaman koruması ayrı js işi",
+      "dosya": "data/olaylar_ek17.js",
+      "satir": 210
+    },
+    {
+      "parti": "parti-emrelic-0064",
+      "madde": "H-0006",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "rus-munih-hotin-yas-1739 ilk noktası [25.683,48.508] → [26.406,48.389] (Ставчани, Çernivtsi; uk.wikipedia köy maddesi, muharebe orada anılıyor). Stavuçani YERLEŞİM noktası bu oturumun dosyası değil (yerlesimler)",
+      "dosya": "data/savaslar.js",
+      "satir": 1013
+    },
+    {
+      "parti": "parti-emrelic-0064",
+      "madde": "H-0016",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "(1) kaynaksız 'Nâdir Şah'ın Musul kuşatması (1743)' kaydı kaldırıldı (TDV'li ikizi seferler_p0064.js p0064-nadir-musul-1743); çekiliş okunun f'si TDV musul--irak'a hizalandı 1743-10-23→1743-10-05, devlet:afsar · (2) seferler_p0064.js 6 kayda devlet: (5 rusya, 1 afsar) — app.js _seferRengiCoz ülke rengini türetir",
+      "dosya": "data/savaslar.js",
+      "satir": 609
+    },
+    {
+      "parti": "parti-emrelic-0064",
+      "madde": "H-0015",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "VERİ yarısı çözüldü: Musul'daki iki ok teke indi (bkz. H-0016). KALAN app.js: genel çakışma önleme/dağıtma + simge altı etiket — js/ bu dalgada dokunulmaz",
+      "dosya": "js/app.js",
+      "satir": 3860
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0065",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "p0071-duckworth-1807 rota'sı OSMANLI-IC-0082 kanal hattıyla değişti (19 nokta, rapordaki ONERI ile birebir — json karşılaştırması True); denetim/ARAC-OSMANLI-IC-0082-ROTA.py koşturuldu: eski 22,17 km karada → yeni 0,00 km",
+      "dosya": "data/seferler_p0071.js",
+      "satir": 47
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0066",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozuldu",
+      "delil": "a4-alemdar-istanbul-1808 yalnız Rusçuk→Edirne ayağını çiziyor; Edirne→İstanbul ayağı seferler_ok103.js'teki TDV'li okta (iki ok Edirne'de birleşir, aynı yol iki kez çizilmez)",
+      "dosya": "data/savaslar.js",
+      "satir": 931
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0071",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "SEFER yarısı çözüldü: ok103 mükerreri (f 1811-03-01 = davet günü) kaldırıldı; a4-tosun-hicaz-1811 süvari kolu karadan Acrûd-Nahl-Akabe-Muveylih-Vech (Burckhardt 1831 II s.990-995, archive.org metni bu oturumda okundu) + YENİ a4-tosun-piyade-deniz-1811 Süveyş→Yenbu deniz rotası (karada 5,5 km, yalnız liman uçları; düz hat 406 km). KALAN kronoloji başlığı (olaylar_ek4.js:51) UYGULA-OLAYLAR'a bildirildi (M-5621)",
+      "dosya": "data/savaslar.js",
+      "satir": 868
+    },
+    {
+      "parti": "parti-emrelic-0035",
+      "madde": "H-0077",
+      "kaynak": "KAPAT-0035-42-68-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "bayat",
+      "delil": "1737 Özi seferi oku 17 Eylül'den beri VAR: seferler_p0064.js p0064-munih-ozi-1737 (Kremençuk→Özi, f 1737-05-01 t 1737-07-11, VE+ESBE+TDV), paket_26.js ile yükleniyor. KAPAT notu yalnız savaslar.js:958'e bakmıştı",
+      "dosya": "data/seferler_p0064.js",
+      "satir": 58
+    },
+    {
+      "parti": "parti-emrelic-0054",
+      "madde": "H-0011",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "SEFER yarısı çözüldü: YENİ rus-azak-1696 (Voronej→Çerkassk→Azak, f 1696-05-01 AY · t 1696-07-19 madde günü; ESBE «Турецкие войны России» + TDV azak ham metinden). KALAN: Don Kazakları kartı yazılmadı — rapordaki RGAVMF/EIU kaynakları bu oturumda açılamadı (EIU sayfası boş döndü, wikisource ESBE 'Азовские походы' Wikimedia Error)",
+      "dosya": "data/savaslar.js",
+      "satir": 999
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0031",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozulemedi",
+      "delil": "Denendi: ESBE «Турецкие войны России» yalnız 'главные же силы Украинской армии 20 июня перешли через Днестр у Могилева' ve 'все лето проведено в маневрированиях' der — varış noktası YOK. KARADENIZ-0082 önerisi de 'varış uydurulmamalı' diyor. Akademik kaynak (Petrov vb.) gerek",
+      "dosya": "data/savaslar.js",
+      "satir": 0
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0076",
+      "kaynak": "KAPAT-0081-82-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "cozulemedi",
+      "delil": "Denendi: ESBE yalnız '25 апр. 6-й пех. корпус вступил в княжества' (Jülyen 25 Nisan = madde 1828-05-07) ve Geismar öncüsünün Küçük Eflak'a yönünü verir; Prut geçiş yeri ve Yaş/Bükreş günleri YOK",
+      "dosya": "data/savaslar.js",
+      "satir": 0
+    },
+    {
+      "parti": "parti-emrelic-0052",
+      "madde": "H-0033",
+      "kaynak": "KAPAT-0052-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "Denenmedi — kaydın kendisi akademik kaynak SEVKİ istiyor (TDV kapsamıyor, Britannica 403)",
+      "dosya": "data/ekokuma_toplum.js",
+      "satir": 77
+    },
+    {
+      "parti": "parti-emrelic-0052",
+      "madde": "H-0039",
+      "kaynak": "KAPAT-0052-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "Denenmedi — yeni araştırma kartı (idam edilen şair/sanatçı/âlim)",
+      "dosya": "",
+      "satir": 0
+    },
+    {
+      "parti": "parti-emrelic-0054",
+      "madde": "H-0006",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "Denenmedi — yeni araştırma kartı (1683-99 Erdel/Eflak/Boğdan/Kırım tutumu)",
+      "dosya": "",
+      "satir": 0
+    },
+    {
+      "parti": "parti-emrelic-0066",
+      "madde": "H-0009",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "Denenmedi — yeni tartışma kartı ('Küçük Kaynarca bir diplomatik skandal mıydı'); akademik kaynak gerekir",
+      "dosya": "",
+      "satir": 0
+    },
+    {
+      "parti": "parti-emrelic-0053",
+      "madde": "H-0014",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "Denenmedi — 287 kişi kaydının ~221'i tek cümle; kaynaklı genişletme ayrı bir oturum ölçeğinde iş",
+      "dosya": "data/kisiler.js",
+      "satir": 0
+    },
+    {
+      "parti": "parti-emrelic-0066",
+      "madde": "H-0007",
+      "kaynak": "KAPAT-ORTA-0930",
+      "eski_hukum": "sirada",
+      "yeni_hukum": "sirada",
+      "delil": "Denenmedi — 0053/H-0014 ikizi (aynı genel kişi kartı genişletme)",
+      "dosya": "data/kisiler.js",
+      "satir": 0
+    }
+  ],
+  "baskasinin": [
+    {
+      "parti": "parti-emrelic-0068",
+      "madde": "H-0027 · H-0028 · H-0029",
+      "sahip": "UYGULA-YERLESIM-0930",
+      "neden": "YAMA-SEFER-NAPOLYON-0918 = yerleşim isg kayıtları; oklar zaten var"
+    },
+    {
+      "parti": "parti-emrelic-0035",
+      "madde": "H-0088",
+      "sahip": "UYGULA-YERLESIM-0930",
+      "neden": "Kasr-ı Şîrîn yerleşim yaması"
+    },
+    {
+      "parti": "parti-emrelic-0042",
+      "madde": "H-0038",
+      "sahip": "motor (renkler.py) + araştırma",
+      "neden": "renk ayrıştırma tuza dokunur"
+    },
+    {
+      "parti": "parti-emrelic-0082",
+      "madde": "H-0014 · H-0072 · H-0093",
+      "sahip": "UYGULA-YERLESIM-0930",
+      "neden": "yerleşim noktası/dönemi"
+    },
+    {
+      "parti": "parti-emrelic-0066",
+      "madde": "H-0020",
+      "sahip": "UYGULA-YERLESIM-0930",
+      "neden": "YAMA-BASRA harita yarısı"
+    },
+    {
+      "parti": "parti-emrelic-0053",
+      "madde": "H-0003",
+      "sahip": "UYGULA-OLAYLAR-0930",
+      "neden": "çekirdek kronoloji maddesi"
+    },
+    {
+      "parti": "parti-emrelic-0035",
+      "madde": "H-0090",
+      "sahip": "UYGULA-OLAYLAR-0930",
+      "neden": "kronoloji sınıf işi (1790 İsmail oku ancak ondan sonra)"
+    },
+    {
+      "parti": "parti-emrelic-0081",
+      "madde": "H-0009",
+      "sahip": "js (UFUK-DUGME)",
+      "neden": "isyanYayilmaUret köprüsü app.js"
+    },
+    {
+      "parti": "parti-emrelic-0042",
+      "madde": "H-0004",
+      "sahip": "js (UFUK-DUGME)",
+      "neden": "ok kırpma çapası app.js"
+    },
+    {
+      "parti": "parti-emrelic-0064",
+      "madde": "H-0004",
+      "sahip": "js (UFUK-DUGME)",
+      "neden": "sebep/sonuc'suz kartta k.baslik h4 — app.js"
+    }
+  ]
+}

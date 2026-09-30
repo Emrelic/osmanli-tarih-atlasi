@@ -88,7 +88,7 @@ window.YERLESIMLER_P0043LIBYA = [
        {f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},
        {f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
     d:[{f:"1517-04-13",t:"1805-07-03"}],
-    v:[{f:"1805-07-03",t:"1914-12-18"}],
+    v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı",statu:"vassal",kid:"misir-kavalali",kaynak:"kid/statu kardeş vahalarla aynı (Dâhile · Hârice · Ferâfire · Bahriye); tarih DEĞİŞMEDİ · UYGULA-YERLESIM-0930 (0076/H-0064)"}],
     isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere"},
          {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}] }
 

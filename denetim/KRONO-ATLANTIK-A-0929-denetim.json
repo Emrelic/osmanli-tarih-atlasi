@@ -1,0 +1,1038 @@
+{
+ "fransa": {
+  "madde": 184,
+  "kunye": "fransa",
+  "kunye_f": "987-01-01",
+  "kunye_t": "1792-09-22",
+  "kunye_kendi_kronoloji": 3,
+  "alanlar": {},
+  "eksik_alan": [],
+  "tarih_bicim": [],
+  "pencere_disi": [
+   {
+    "i": 92,
+    "t": "1792-09-22",
+    "b": "I. Fransız Cumhuriyeti'nin ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 93,
+    "t": "1793-01-21",
+    "b": "XVI. Louis'nin idamı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 94,
+    "t": "1793-04-06",
+    "b": "Kamu Selameti Komitesi'nin kurulması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 95,
+    "t": "1793-07-13",
+    "b": "Marat'nın suikastı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 96,
+    "t": "1793-08-01",
+    "b": "Metrik sistemin kabulü",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 97,
+    "t": "1793-08-10",
+    "b": "Louvre'un halka açık müze olarak açılması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 98,
+    "t": "1793-09-05",
+    "b": "Terör Dönemi'nin resmen ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 99,
+    "t": "1793-10-16",
+    "b": "Marie Antoinette'in idamı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 100,
+    "t": "1794-06-08",
+    "b": "Yüce Varlık Bayramı — Robespierre'in yeni devlet dini",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 101,
+    "t": "1794-07-28",
+    "b": "Thermidor Tepkisi — Robespierre'in idamı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 102,
+    "t": "1794-03-11",
+    "b": "École Polytechnique'in kurulması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 103,
+    "t": "1795-08-22",
+    "b": "Yıl III Anayasası ve Direktuvar'ın kurulması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 104,
+    "t": "1796-04-12",
+    "b": "Napolyon Bonapart'ın İtalya Seferi'nin başlaması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 105,
+    "t": "1797-10-17",
+    "b": "Campo Formio Antlaşması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 106,
+    "t": "1798-07-01",
+    "b": "Napolyon'un Mısır Seferi'nin başlaması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 107,
+    "t": "1799-11-09",
+    "b": "18 Brumaire Darbesi — Napolyon'un iktidara gelişi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 108,
+    "t": "1800-01-18",
+    "b": "Fransa Bankası'nın (Banque de France) kurulması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 109,
+    "t": "1801-07-15",
+    "b": "Napolyon-Papalık Konkordatosu",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 110,
+    "t": "1802-05-19",
+    "b": "Légion d'Honneur nişanının kurulması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 111,
+    "t": "1802-03-25",
+    "b": "Amiens Barışı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 112,
+    "t": "1802-05-01",
+    "b": "Lise (Lycée) sisteminin kurulması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 113,
+    "t": "1804-03-21",
+    "b": "Napolyon Kanunu'nun (Code civil) yürürlüğe girmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 114,
+    "t": "1804-12-02",
+    "b": "Napolyon Notre-Dame'da taç giydi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 115,
+    "t": "1805-12-02",
+    "b": "Austerlitz Savaşı — 'Üç İmparator Muharebesi'",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 116,
+    "t": "1806-08-06",
+    "b": "Kutsal Roma-Germen İmparatorluğu'nun sona ermesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 117,
+    "t": "1806-11-21",
+    "b": "Kıta Ablukası'nın (Berlin Kararnamesi) ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 118,
+    "t": "1807-07-07",
+    "b": "Tilsit Antlaşması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 119,
+    "t": "1808-09-27",
+    "b": "Erfurt Kongresi — Napolyon-Çar Aleksandr görüşmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 120,
+    "t": "1809-05-17",
+    "b": "Papalık topraklarının Fransa'ya ilhakı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 121,
+    "t": "1812-06-24",
+    "b": "Napolyon'un Rusya Seferi'nin başlaması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 122,
+    "t": "1813-10-19",
+    "b": "Leipzig Savaşı — 'Milletler Savaşı'",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 123,
+    "t": "1814-04-06",
+    "b": "Napolyon'un tahttan feragati ve Elba'ya sürgünü",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 124,
+    "t": "1815-03-20",
+    "b": "Napolyon'un Elba'dan dönüşü — Yüz Gün",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 125,
+    "t": "1815-06-18",
+    "b": "Waterloo Savaşı — Napolyon'un kesin yenilgisi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 126,
+    "t": "1815-06-09",
+    "b": "Viyana Kongresi Nihaî Senedi'nin imzalanması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 127,
+    "t": "1824-09-16",
+    "b": "X. Charles'ın tahta çıkışı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 128,
+    "t": "1827-10-20",
+    "b": "Navarin Deniz Savaşı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 129,
+    "t": "1829-04-24",
+    "b": "Yunanistan bağımsızlığının Bâbıâli'ye kabul ettirilmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 130,
+    "t": "1830-06-14",
+    "b": "Fransa'nın Cezayir'i işgali",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 131,
+    "t": "1830-07-28",
+    "b": "Temmuz Devrimi ('Üç Şanlı Gün')",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 132,
+    "t": "1830-08-09",
+    "b": "Louis Philippe'in tahta çıkışı — Temmuz Monarşisi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 133,
+    "t": "1830-02-25",
+    "b": "'Hernani Savaşı' — Victor Hugo ve Romantizmin zaferi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 134,
+    "t": "1833-07-08",
+    "b": "Hünkâr İskelesi Antlaşması'nın imzalanması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 135,
+    "t": "1840-07-15",
+    "b": "Londra Antlaşması — Osmanlı toprak bütünlüğünün Avrupa güvencesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 136,
+    "t": "1848-02-24",
+    "b": "Şubat Devrimi — II. Cumhuriyet'in ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 137,
+    "t": "1848-04-27",
+    "b": "Fransız sömürgelerinde köleliğin kaldırılması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 138,
+    "t": "1848-12-10",
+    "b": "Louis-Napoléon Bonapart'ın cumhurbaşkanı seçilmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 139,
+    "t": "1852-12-02",
+    "b": "III. Napolyon'un imparator ilan edilmesi — II. İmparatorluk",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 140,
+    "t": "1854-03-27",
+    "b": "Fransa Rusya'ya savaş ilan etti — Kırım Savaşı'na Osmanlı yanında giriş",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 141,
+    "t": "1855-05-15",
+    "b": "Paris Dünya Sergisi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 142,
+    "t": "1856-02-18",
+    "b": "Islahat Fermanı'nın ilanı — Paris Kongresi'nin gölgesinde",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 143,
+    "t": "1857-08-20",
+    "b": "Baudelaire'in 'Kötülük Çiçekleri' davası",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 144,
+    "t": "1859-06-24",
+    "b": "Solferino Savaşı — İtalyan birliği için Fransız desteği",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 145,
+    "t": "1863-06-10",
+    "b": "Meksika Seferi — Maximilian'ın imparator ilanı hazırlığı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 146,
+    "t": "1863-05-15",
+    "b": "'Çayırda Öğle Yemeği' skandalı — Manet ve modern resmin doğuşu",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 147,
+    "t": "1869-11-17",
+    "b": "Süveyş Kanalı'nın açılışı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 148,
+    "t": "1870-07-19",
+    "b": "Fransa-Prusya Savaşı'nın başlaması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 149,
+    "t": "1870-09-02",
+    "b": "Sedan Savaşı — III. Napolyon'un esir düşmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 150,
+    "t": "1870-09-04",
+    "b": "III. Cumhuriyet'in ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 151,
+    "t": "1871-01-18",
+    "b": "Alman İmparatorluğu'nun Versay'da ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 152,
+    "t": "1871-03-18",
+    "b": "Paris Komünü'nün ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 153,
+    "t": "1871-05-21",
+    "b": "'Kanlı Hafta' — Paris Komünü'nün bastırılması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 154,
+    "t": "1871-05-10",
+    "b": "Frankfurt Antlaşması — Alsace-Lorraine'in kaybı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 155,
+    "t": "1875-02-25",
+    "b": "III. Cumhuriyet Anayasa Yasaları'nın kabulü",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 156,
+    "t": "1882-03-28",
+    "b": "Jules Ferry Yasası — ilköğretim zorunlu ve laik oldu",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 157,
+    "t": "1881-05-12",
+    "b": "Bardo Antlaşması — Tunus'un Fransız himayesine girmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 158,
+    "t": "1885-07-06",
+    "b": "Pasteur'ün ilk kuduz aşısı uygulaması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 159,
+    "t": "1889-05-06",
+    "b": "Eyfel Kulesi'nin açılışı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 160,
+    "t": "1889-01-27",
+    "b": "Boulanger Krizi'nin doruğu",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 161,
+    "t": "1894-12-22",
+    "b": "Alfred Dreyfus'un vatana ihanetten mahkûm edilmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 162,
+    "t": "1895-12-28",
+    "b": "Lumière Kardeşler'in ilk sinema gösterimi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 163,
+    "t": "1898-01-13",
+    "b": "Émile Zola'nın 'İtham Ediyorum' (J'accuse) mektubu",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 164,
+    "t": "1898-12-26",
+    "b": "Curie çiftinin polonyum ve radyumu keşfi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 165,
+    "t": "1904-04-08",
+    "b": "İtilâf-ı Müselles'in temeli — İngiltere-Fransa Antant Cordiale'i",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 166,
+    "t": "1905-12-09",
+    "b": "Kilise ve Devletin Ayrılması Yasası",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 167,
+    "t": "1911-11-04",
+    "b": "İkinci Fas Krizi — Agadir Krizi'nin çözümü",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 168,
+    "t": "1912-03-30",
+    "b": "Fas Antlaşması — Fransız himayesinin resmîleşmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 169,
+    "t": "1914-07-31",
+    "b": "Jean Jaurès'in suikastı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 170,
+    "t": "1914-08-03",
+    "b": "Almanya'nın Fransa'ya savaş ilanı",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 171,
+    "t": "1914-09-05",
+    "b": "Marne Savaşı — Paris'in kurtarılması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 172,
+    "t": "1916-02-21",
+    "b": "Verdun Savaşı'nın başlaması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 173,
+    "t": "1916-05-16",
+    "b": "Sykes-Picot Antlaşması'nın imzalanması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 174,
+    "t": "1916-09-15",
+    "b": "İlk tank saldırısı — Somme Muharebesi'nde",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 175,
+    "t": "1917-04-16",
+    "b": "Nivelle Taarruzu ve Fransız ordusu isyanları",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 176,
+    "t": "1917-04-17",
+    "b": "Saint-Jean-de-Maurienne Antlaşması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 177,
+    "t": "1918-11-11",
+    "b": "Compiègne Ateşkesi — I. Dünya Savaşı'nın Batı Cephesi'nde sona ermesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 178,
+    "t": "1919-06-28",
+    "b": "Versay Antlaşması'nın imzalanması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 179,
+    "t": "1920-04-25",
+    "b": "San Remo Konferansı — manda paylaşımının kesinleşmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 180,
+    "t": "1920-07-24",
+    "b": "Meysalun Savaşı — Fransa'nın Şam'ı işgali",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 181,
+    "t": "1920-08-10",
+    "b": "Sevr Antlaşması'nın imzalanması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 182,
+    "t": "1921-10-20",
+    "b": "Ankara Antlaşması — Fransa'nın Anadolu'daki savaşı sona erdirmesi",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   },
+   {
+    "i": 183,
+    "t": "1923-07-24",
+    "b": "Lozan Antlaşması'nın imzalanması",
+    "kunye": "fransa",
+    "f": "987-01-01",
+    "tt": "1792-09-22"
+   }
+  ],
+  "kaynak_zayif": [],
+  "kaynaksiz": [],
+  "yuzyil": {
+   "13": 1,
+   "14": 14,
+   "15": 14,
+   "16": 20,
+   "17": 18,
+   "18": 41,
+   "19": 57,
+   "20": 19
+  },
+  "gun_01_01": 9,
+  "tur": {
+   "hukumdar": 13,
+   "kriz": 11,
+   "din": 11,
+   "hanedan": 2,
+   "savas": 31,
+   "toprak-kayip": 3,
+   "isyan": 9,
+   "antlasma": 24,
+   "olum": 10,
+   "reform": 14,
+   "toprak-kazanc": 4,
+   "bilim": 11,
+   "evlilik": 1,
+   "diplomasi": 6,
+   "ittifak": 3,
+   "kesif": 1,
+   "idari": 3,
+   "siyaset": 5,
+   "kurulus": 5,
+   "kultur": 6,
+   "ekonomi": 3,
+   "kanun": 1,
+   "son": 2,
+   "isgal": 4,
+   "mimari": 1
+  },
+  "anahtarlar": {
+   "t": 184,
+   "b": 184,
+   "tur": 184,
+   "onem": 184,
+   "dunya": 184,
+   "kapsam": 184,
+   "yer_id": 184,
+   "etiket": 184,
+   "d": 184,
+   "kaynak": 184,
+   "yer_kon": 38,
+   "kapsam_genis": 10,
+   "gun": 4,
+   "ic_not_d": 6
+  }
+ },
+ "ispanya": {
+  "madde": 158,
+  "kunye": "ispanya",
+  "kunye_f": "1479-01-20",
+  "kunye_t": "1923-10-29",
+  "kunye_kendi_kronoloji": 5,
+  "alanlar": {},
+  "eksik_alan": [],
+  "tarih_bicim": [],
+  "pencere_disi": [
+   {
+    "i": 0,
+    "t": "1340-10-30",
+    "b": "Río Salado Savaşı — Merînî-Nasrî ittifakının kesin yenilgisi",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   },
+   {
+    "i": 1,
+    "t": "1385-08-14",
+    "b": "Aljubarrota Savaşı — Portekiz bağımsızlığı Kastilya karşısında pekişti",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   },
+   {
+    "i": 2,
+    "t": "1391-06-04",
+    "b": "Sevilla'da başlayan toplu Yahudi katliamları bütün Kastilya'ya yayıldı",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   },
+   {
+    "i": 3,
+    "t": "1412-06-24",
+    "b": "Caspe Uzlaşması — Aragon tahtına Trastámara hanedanı geçti",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   },
+   {
+    "i": 4,
+    "t": "1469-10-19",
+    "b": "İsabel ile Fernando'nun evliliği — iki taç aynı hanedanda birleşti",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   },
+   {
+    "i": 5,
+    "t": "1474-12-13",
+    "b": "İsabel, Kastilya kraliçesi ilan edildi",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   },
+   {
+    "i": 6,
+    "t": "1478-11-01",
+    "b": "İspanyol Engizisyonu kuruldu",
+    "kunye": "ispanya",
+    "f": "1479-01-20",
+    "tt": "1923-10-29"
+   }
+  ],
+  "kaynak_zayif": [],
+  "kaynaksiz": [
+   {
+    "i": 76,
+    "t": "1702-05-15",
+    "b": "İspanya Veraset Savaşı başladı",
+    "kaynak": "Encyclopaedia Britannica, 'War of the Spanish Succession': Büyük İttifak 15 Mayıs 1702'de savaş ilan etti · H. Kamen, The War of Succession in Spain 1700-15 (1969) · (1 Mayıs 1701 için dayanak bulunamadı)"
+   }
+  ],
+  "yuzyil": {
+   "14": 3,
+   "15": 14,
+   "16": 49,
+   "17": 20,
+   "18": 34,
+   "19": 31,
+   "20": 7
+  },
+  "gun_01_01": 26,
+  "tur": {
+   "savas": 25,
+   "din": 8,
+   "hanedan": 11,
+   "birlesme": 2,
+   "toprak-kazanc": 10,
+   "antlasma": 15,
+   "kesif": 5,
+   "bilim": 13,
+   "kultur": 15,
+   "ekonomi": 7,
+   "olum": 3,
+   "hukuk": 2,
+   "isyan": 12,
+   "felsefe": 3,
+   "idari": 1,
+   "toprak-kayip": 8,
+   "reform": 9,
+   "ittifak": 2,
+   "isgal": 2,
+   "kurulus": 3,
+   "sosyal": 2
+  },
+  "anahtarlar": {
+   "t": 158,
+   "b": 158,
+   "tur": 158,
+   "onem": 158,
+   "dunya": 158,
+   "kapsam": 158,
+   "yer_id": 158,
+   "etiket": 158,
+   "d": 158,
+   "kaynak": 158,
+   "yer_kon": 40,
+   "ic_not_d": 14,
+   "kapsam_genis": 16,
+   "gun": 8
+  }
+ },
+ "portekiz": {
+  "madde": 86,
+  "kunye": "portekiz",
+  "kunye_f": "1139-07-25",
+  "kunye_t": "1923-10-29",
+  "kunye_kendi_kronoloji": 4,
+  "alanlar": {},
+  "eksik_alan": [],
+  "tarih_bicim": [],
+  "pencere_disi": [],
+  "kaynak_zayif": [],
+  "kaynaksiz": [
+   {
+    "i": 7,
+    "t": "1449-05-20",
+    "b": "Alfarrobeira Savaşı — naiplik krizi kanlı bitti",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, TDV bu taneciği kapsamıyor, dayanak: standart akademik kaynak"
+   },
+   {
+    "i": 8,
+    "t": "1460-11-13",
+    "b": "Denizci Henrique'in ölümü",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, yıl standart akademik kronolojiyle teyitli"
+   },
+   {
+    "i": 14,
+    "t": "1495-10-25",
+    "b": "I. Manuel tahta çıktı",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, yıl standart akademik kronolojiyle teyitli"
+   },
+   {
+    "i": 19,
+    "t": "1501-01-01",
+    "b": "Jerónimos Manastırı'nın inşaatı başladı — Manuelino üslubunun anıtı",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, TDV bu taneciği kapsamıyor, dayanak: standart akademik kaynak (yapının 1501'de başlayıp on yıllar süren inşası)"
+   },
+   {
+    "i": 27,
+    "t": "1512-01-01",
+    "b": "Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, TDV bu taneciği kapsamıyor, dayanak: standart akademik kaynak"
+   },
+   {
+    "i": 32,
+    "t": "1521-12-13",
+    "b": "I. Manuel öldü, III. João tahta çıktı",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, yıl standart akademik kronolojiyle teyitli"
+   },
+   {
+    "i": 67,
+    "t": "1808-01-28",
+    "b": "Brezilya limanları dost uluslara açıldı",
+    "kaynak": "bulunamadı — gün DOĞRULANMADI, TDV bu taneciği kapsamıyor, dayanak: standart akademik kaynak (Transfer of the Portuguese court to Brazil bağlamı)"
+   }
+  ],
+  "yuzyil": {
+   "13": 2,
+   "14": 2,
+   "15": 13,
+   "16": 35,
+   "17": 7,
+   "18": 7,
+   "19": 14,
+   "20": 6
+  },
+  "gun_01_01": 20,
+  "tur": {
+   "kurulus": 1,
+   "bilim": 8,
+   "kriz": 7,
+   "savas": 16,
+   "toprak-kazanc": 9,
+   "olum": 1,
+   "antlasma": 6,
+   "hukumdar": 2,
+   "din": 4,
+   "reform": 14,
+   "kultur": 3,
+   "idari": 3,
+   "askeri": 1,
+   "kusatma": 1,
+   "birlesme": 3,
+   "toprak-kayip": 2,
+   "ekonomi": 1,
+   "isyan": 1,
+   "bolunme": 1,
+   "diplomasi": 1,
+   "diger": 1
+  },
+  "anahtarlar": {
+   "t": 86,
+   "b": 86,
+   "ic_not_b": 2,
+   "tur": 86,
+   "onem": 86,
+   "dunya": 86,
+   "kapsam": 86,
+   "yer_id": 86,
+   "kapsam_genis": 10,
+   "etiket": 86,
+   "d": 86,
+   "kaynak": 86,
+   "ic_not_d": 1,
+   "gun": 5
+  }
+ }
+}

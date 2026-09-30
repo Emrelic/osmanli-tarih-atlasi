@@ -1,0 +1,33 @@
+{
+  "oturum": "YAMA-MOTOR-0930",
+  "tarih": "2026-09-30",
+  "tam_insa_yama_sayisi": 2,
+  "tam_insa_yamalari": ["denetim/YAMA-MOTOR-0930-boyalar.diff", "denetim/YAMA-MOTOR-0930-epok-yorum.diff"],
+  "eski_yamalar": [
+    {"yama": "GOVDE-CAKISMA-0079-yama.diff", "hukum": "bayat", "delil": "git apply --check -R TEMIZ (index) · +104/104 satir dosyada"},
+    {"yama": "MOTOR-LEGO-0925-yama.diff", "hukum": "bayat", "delil": "git apply --check -R TEMIZ (index) · +78/78"},
+    {"yama": "MOTOR-LEGO-0925-ayikla.diff", "hukum": "bayat", "delil": "git apply --check -R TEMIZ (index) · +32/32"},
+    {"yama": "KORIDOR-0081-girdi.diff", "hukum": "bayat", "delil": "git apply --check -R TEMIZ (index) · +9/9"},
+    {"yama": "YAMA-B3-UYGULANMIS-0912.diff", "hukum": "bayat", "delil": "arac/uret_petek.py:3104 _B3_KALAN_IHLAL · +55/55"},
+    {"yama": "ACILIS-ANIM-0081-yon.diff", "hukum": "bayat", "delil": "css/style.css:3082 360px 50%"},
+    {"yama": "BOGAZ-OLCUM-0081-yama.diff", "hukum": "bayat", "delil": "55dfa2b5 · -R TEMIZ · +61/61"},
+    {"yama": "DEGISMEZ-0086-durum_tablosu.diff", "hukum": "hazir", "delil": "git apply --check TEMIZ · tuz disi"},
+    {"yama": "TASLAK-YAMA-TOBLER-0912.diff", "hukum": "taslak-uygulanmamis", "delil": "gecersiz diff · uret_petek.py'de math.exp(-3.5 0"},
+    {"yama": "YAMA-DENETLE-ISG-0905.diff", "hukum": "uygulanmamis-bozuk", "delil": "corrupt patch satir 19 · +0/13"},
+    {"yama": "YAMA-DENETLE-HARITA-0905.diff", "hukum": "kismen-inmis-bozuk", "delil": "corrupt patch satir 54 · +15/51"}
+  ],
+  "maddeler": [
+    {"kaynak": "KAPAT-0081-82-0930", "parti": "parti-emrelic-0081", "acik_ix": 114, "eski_hukum": "sirada", "yeni_hukum": "kosu-bekliyor", "delil": "denetim/YAMA-MOTOR-0930-boyalar.diff (kaheti-kralligi)", "dosya": "arac/renkler.py", "satir": null},
+    {"kaynak": "KAPAT-0081-82-0930", "parti": "parti-emrelic-0082", "acik_ix": 188, "eski_hukum": "sirada", "yeni_hukum": "kosu-bekliyor", "delil": "boyalar.diff ferrara etiketi", "dosya": "arac/renkler.py", "satir": 2158},
+    {"kaynak": "KAPAT-0081-82-0930", "parti": "parti-emrelic-0082", "acik_ix": 211, "eski_hukum": "sirada", "yeni_hukum": "kosu-bekliyor", "delil": "boyalar.diff danimarka etiketi", "dosya": "arac/renkler.py", "satir": 837},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 33, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "renk_olc --oner karakoyunlu #e41ee4 (yine macenta) — elle ton secimi gerekli", "dosya": "arac/renkler.py", "satir": 537},
+    {"kaynak": "KAPAT-0075-76-0930", "parti": "?", "acik_ix": 93, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "atlandi: H-0010 senin-kararin", "dosya": "arac/renkler.py", "satir": null},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 24, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "motor yamasi degil: renk_olc.py denetimi + Mersin kronolojisi", "dosya": "arac/renk_olc.py", "satir": null},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 32, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "motor yamasi degil: TDV + yerlesimler.js", "dosya": "data/yerlesimler.js", "satir": 164},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 1, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "tasarim isi: oturumlar/GORUNUM-ABCD-0916.md A/B (tasarim asamasi)", "dosya": "arac/uret_petek.py", "satir": null},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 16, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "#1 ile ayni", "dosya": "arac/uret_petek.py", "satir": null},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 19, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "motor karari: kara-kara surtunme, olcum kosusu gerekli", "dosya": "arac/uret_petek.py", "satir": null},
+    {"kaynak": "KAPAT-0035-42-68-0930", "parti": "?", "acik_ix": 23, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "#19 ile ayni + Vladikafkas veri arastirmasi", "dosya": "arac/uret_petek.py", "satir": null},
+    {"kaynak": "KAPAT-0081-82-0930", "parti": "parti-emrelic-0082", "acik_ix": 168, "eski_hukum": "sirada", "yeni_hukum": "sirada", "delil": "motor karari: KV_ADIM cozunurlugu, olcum gerekli", "dosya": "arac/uret_petek.py", "satir": null}
+  ]
+}

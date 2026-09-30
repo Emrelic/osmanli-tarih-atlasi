@@ -63,8 +63,32 @@ window.OLAYLAR_EK16 = [
   gun:"1340", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Tebriz, Merağa, Erdebil, Nahçıvan, Hoy, Urmiye, Selmâs (Dilman), Sultâniye, Şuşa, Culfa, Merend",
   yer_id:"Tebriz", kisiler:"Hasan-ı Büzürg",
-  d:"TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir.", ic_not_d:"⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı.",
+  d:"TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir.", ic_not_d:"Önceki notun 'Kemah erken Akkoyunlu' cümlesi silindi (Y1 kalemi): veri artık Kemah'ı 1335-1378 eretna · 1378-1401 mutahharten gösteriyor (TDV kemah, 0db86f2a) — not veriyle çelişiyordu. UYGULA-OLAYLAR-0930",
   kaynak:"celayirliler", duygu:["👑"] },
+
+// UYGULA-OLAYLAR-0930 · UYGULA-YERLESIM-0930'ın yatay bildirimi (M-5608 B): Erzincan/Kemah
+// s: kırılmaları 1422 · 1450 · 1457 veride vardı ve MADDESİZDİ (Değişmez 2s). Üçü de TDV'de YIL.
+{ t:"1422-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+  kapsam:"dis", onem:3, b:"Erzincan ve Kemah Akkoyunlu'ya geçti — Karayülük Osman Bey",
+  gun:"1422", ic_not_gun:"TDV yıl verir, ay/gün vermez",
+  yer:"Erzincan, Kemah", yer_id:"Erzincan", kisiler:"Karayülük Osman Bey, Yâr Ali",
+  d:"Kara Yûsuf'un ölümünden sonra Erzincan halkının isteğiyle Mutahharten'in torunu Yâr Ali şehrin valisi olmuştu. Onun zamanında Akkoyunlu beyi Karayülük Osman Erzincan'ı alarak Akkoyunlu topraklarına kattı. Bu tarihten sonra Erzincan kâh Akkoyunlular ile Karakoyunlular, kâh Akkoyunlu şehzadeleri arasında el değiştiren bir yer oldu.",
+  ic_not_d:"TDV erzincan: 'Erzincan Karayülük Osman tarafından alınarak Akkoyunlu topraklarına katıldı (1422)'. Kemah aynı güne yerleşim tarafında bağlandı (UYGULA-YERLESIM-0930); Kemah için ayrı TDV cümlesi bu oturumda okunmadı.",
+  kaynak:"erzincan", duygu:["⚔️"] },
+
+{ t:"1450-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+  kapsam:"dis", onem:3, b:"Cihan Şah Erzincan'ı aldı — Karakoyunlu hâkimiyeti",
+  gun:"854 (1450)", ic_not_gun:"TDV hicrî yıl verir, ay/gün vermez",
+  yer:"Erzincan, Kemah", yer_id:"Erzincan", kisiler:"Cihan Şah, Cihangir Mirza, Uzun Hasan",
+  d:"Karakoyunlu hükümdarı Cihan Şah 854'te (1450) Erzincan'a ordu göndererek şehri Akkoyunlular'dan aldı. Bu kayıp, Akkoyunlu beyi Cihangir Mirza ile kardeşi Hasan Bey'in (Uzun Hasan) arasının açılmasına yol açtı.",
+  kaynak:"uzun-hasan", duygu:["⚔️"] },
+
+{ t:"1457-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+  kapsam:"dis", onem:3, b:"Uzun Hasan Erzincan'ı geri aldı — yeniden Akkoyunlu",
+  gun:"1457", ic_not_gun:"TDV yıl verir, ay/gün vermez",
+  yer:"Erzincan, Kemah", yer_id:"Erzincan", kisiler:"Uzun Hasan",
+  d:"Uzun Hasan Karakoyunlular'ı yenerek Erzincan'ı yeniden Akkoyunlu hâkimiyetine aldı. Şehir, 1473 Otlukbeli Savaşı'ndan sonra da Akkoyunlu sınırları içinde kaldı.",
+  kaynak:"erzincan", duygu:["⚔️"] },
 
 { t:"1411-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   kapsam:"dis", onem:3, b:"Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi",

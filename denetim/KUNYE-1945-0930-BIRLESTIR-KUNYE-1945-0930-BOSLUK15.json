@@ -1,0 +1,37 @@
+{
+ "kaynak": "denetim/KUNYE-1945-0930-BOSLUK15-KUNYE.json",
+ "okunan": 2,
+ "kabul": [
+  {
+   "id": "dogu-macar-kralligi",
+   "islem": "yeni",
+   "f": "1526-08-29",
+   "t": "1541-08-29"
+  },
+  {
+   "id": "kuca-hocalari",
+   "islem": "yeni",
+   "f": "1864-01-01",
+   "t": "1867-12-31"
+  }
+ ],
+ "red": [],
+ "dokunmadim": [],
+ "boya_gerekli": [
+  {
+   "id": "dogu-macar-kralligi",
+   "neden": "yeni künye",
+   "not": ""
+  },
+  {
+   "id": "kuca-hocalari",
+   "neden": "yeni künye",
+   "not": ""
+  }
+ ],
+ "uyari": [],
+ "kunye": [
+  779,
+  781
+ ]
+}

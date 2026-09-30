@@ -1,0 +1,316 @@
+{
+ "parti": "parti-emrelic-0077",
+ "pay": "H-0045…H-0088",
+ "oturum": "PAKET-0077B-0930",
+ "tarih": "2026-09-30",
+ "madde": {
+  "H-0045": {
+   "hukum": "cozuldu",
+   "not": "Filistin bozgunu + geri çekiliş ek okuma kartı canlı ve yükleyiciye bağlı.",
+   "delil": "data/ekokuma_p77a.js:359 id p77a-filistin-bozgunu-1918-nablus-sam · js/app.js:11191 \"ekokuma_p77a\" (3f4420ee) · kart commit ae100838",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-A"
+  },
+  "H-0046": {
+   "hukum": "sirada",
+   "not": "Cevap: Ceylanpınar sınır şehri DEĞİL; koridoru 4,3 km yandaki Qaţţīnah peteği çiziyor. Qaţţīnah bugün hâlâ fransa-cumhuriyet 1918-10-26→1920-07-24 (Halep'in günü; Ras'ülayn için kaynak yok). Önerilen YAMA D (1920-04-23'e dek Osmanlı → tbmm → 1921-10-20 manda) UYGULANMADI; Ceylanpınar isg kaynağı 'bulunamadı' ⇒ onay koordinatörde.",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "NOKTA-ORTADOGU-0077"
+  },
+  "H-0047": {
+   "hukum": "cozulemedi",
+   "not": "İtilaf ilerleyiş okları: varış yeri/günü kaynakta var, ÇIKIŞ yeri yok — ok uydurulmadı (SEFER-OK-0077 §3). İşgaller haritada isg: taraması olarak görünüyor. Ölçüldü: İskenderun s: fransa-cumhuriyet 1918-10-30'dan (TDV: 9 Kas İngiliz, 10 Kas Fransız — ≤10 gün fark, bildirildi); Batum İngiliz isg 1918-12-24 veride YOK (YERLESIM-BIRLESTIR-0930 KAF-3 şüphe kovasında). Ok istenirse ATASE/Mondros sonrası işgal kaynağı ayrı sevk.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "SEFER-OK-0077"
+  },
+  "H-0048": {
+   "hukum": "sirada",
+   "not": "HARİTA YÜZÜ ÇÖZÜLDÜ: Avusturya Cumhuriyeti koşu 15'te (Viyana…Bregenz ✓); Maribor+Eisenstadt yerlesimler_p77_avrupa.js'te, girdi_listesi.py:719'da bağlı, data/donemler.js'te mevcut (koşu 16, 76351781). 🔴 EK OKUMA YÜZÜ YETİM: 'A-M neden üçe bölündü, hangi topraklar kime' kartı HİÇBİR KOLA ATANMADI (PAKET-0077-BOLME §1'de 48 yalnız AVRUPA-SINIR'da; o kol 'EKOKUMA'nın dedi; EKOKUMA-A/B listelerinde 48 yok). data/ekokuma*.js taraması: A-M dağılış kartı 0, yalnız antlasma6-trianon-1920 var ⇒ ek okuma sevki gerekiyor.",
+   "delil": "",
+   "sinif": "harita+veri",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0049": {
+   "hukum": "sirada",
+   "not": "Teyit: Maribor/Eisenstadt indi (koşu 16). Kalan, bugün ölçüldü: Zadar (Zara) yerlesimler_ek.js hâlâ yugoslavya 1918-11-11→1923 (Rapallo md.2: İtalya); Pola/İstria, Opava (Çek Silezyası), Subotica (Kuzey Bačka), Terneuzen… NOKTA YOK (ad taraması 0); Rijeka künyesiz. Aşama aşama buton yüzü FAZ 2'ye ertelendi (PAKET-0077-BOLME §6c; ARAYUZ-0077-B `alt_kronoloji` şema kararı bekliyor).",
+   "delil": "",
+   "sinif": "harita+arayüz",
+   "kol": "AVRUPA-SINIR-0077 · ARAYUZ-0077-B"
+  },
+  "H-0050": {
+   "hukum": "bayat",
+   "not": "Alp dağlık boşluğu A/B sürtünmesi değil gövde üretimiydi; koşu 15 ile kapandı (1918-11-11 Tirol boş hücre 274→3; 1900'de 276→2 — NOKTA-ORTADOGU-0077 §H-0050). Bu maddenin kolu iş yapmadı, koşu çözdü ⇒ bayat. ⚠️ Koşu 16 gövdesinde yeniden ölçülmedi. İkinci soru (C/D/E hat): bölge 1918-11-11'de it-at hattının kuzeyinde; hat sorusu ayrıca açılmadı.",
+   "delil": "commit 9ce6c942 (Koşu 15 çıktısı main'e indi) · sonraki koşu 76351781",
+   "sinif": "harita",
+   "kol": "NOKTA-ORTADOGU-0077"
+  },
+  "H-0051": {
+   "hukum": "cozuldu",
+   "not": "Fahreddin Paşa kartı canlı.",
+   "delil": "data/ekokuma_p77b.js:178 p77b-kimdir-fahreddin-pasa-medine-mudafii · commit 8fccc0a1 · app.js yükleyici 3f4420ee",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B"
+  },
+  "H-0052": {
+   "hukum": "cozuldu",
+   "not": "Büyük Romanya + SHS Krallığı iki kart canlı. ⚠️ Romanya kartının çapası çıplak 1918-12-01 (kolun kendi notu).",
+   "delil": "data/ekokuma_p77b.js:197 p77b-buyuk-romanya-1918 · :219 p77b-sirp-hirvat-sloven-kralligi-yugoslavya-1918 · 8fccc0a1",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B"
+  },
+  "H-0053": {
+   "hukum": "cozulemedi",
+   "not": "Marmaris 05-05 · Bodrum 05-11 · Kuşadası 05-13 başlangıçları TDV'de var; İtalyan BOŞALTMA günü TDV'de ve doğrulanabilen akademik kaynakta YOK ⇒ isg: t: uydurulmadı. Bugün ölçüldü: üçünde de isg YOK; Muğla italya 1919-07-23→1921-07-05 ve Antalya 1919-04-29→1921-06-01 VAR. Kapanması kaynak işi (Çelebi 2008 alt ajanca okundu, doğrulanmadı).",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0054": {
+   "hukum": "sirada",
+   "not": "EK OKUMA YÜZÜ ÇÖZÜLDÜ: data/ekokuma_p77b.js:238 p77b-mustafa-kemal-samsun-yolculugu-1919. 🔴 SEFER OKU YÜZÜ DÜŞMÜŞ KALEM: PAKET-0077-BOLME 'SEFER-OK + 54'ün ok yüzü' diyor, ama SEFER-OK-0077 şartnamesi/raporu 5 madde (54 yok); data/seferler_*.js'te Samsun 1919 kaydı 0. ⇒ ok sevki gerekiyor.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B · SEFER-OK-0077"
+  },
+  "H-0055": {
+   "hukum": "zaten-dogru",
+   "not": "Manisa isg yunanistan 1919-05-26→1922-09-09, Aydın 1919-05-27→06-30 ve 07-04→1922-09-07 veride (girdi.yukle ölçümü); H-0081 görselinde ikisi taralı.",
+   "delil": "data/yerlesimler.js Manisa/Aydın isg:",
+   "sinif": "harita",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0056": {
+   "hukum": "cozuldu",
+   "not": "Alsas-Loren kartı canlı (TDV dışı: Britannica + 1914-1918-online, açıkça).",
+   "delil": "data/ekokuma_p77b.js:260 p77b-alsas-loren-tarih-strateji-ekonomi · 8fccc0a1",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B"
+  },
+  "H-0057": {
+   "hukum": "sirada",
+   "not": "Bugün ölçüldü, kusur sürüyor: Batum d: 1918-04-14→1918-12-01 (yerlesimler.js:962); Hopa, Artvin (yerlesimler_ek27.js:41,37) sovyet-rusya 1917-11-07→1921-10-13 ⇒ Batum eksklav. Kaynaklı çare NOKTA-KAFKAS-0077 §6-B'de (Hopa 1918-03-14, Artvin Mart 1918) UYGULANMADI; YERLESIM-BIRLESTIR-0930'da Batum KAF-3 şüphe kovasında. 'Batum ilerisindeki ince şerit' olculecek (Batum–Kutaisi arası nokta yok, §2 emilme olası).",
+   "delil": "",
+   "sinif": "harita+veri",
+   "kol": "NOKTA-KAFKAS-0077"
+  },
+  "H-0058": {
+   "hukum": "sirada",
+   "not": "Cevap: Artvin Mart 1918'de geri alındı (TDV artvin, gün bulunamadı), Hopa 1918-03-14, Şavşat/Borçka Artvin'le, Digor Kars'la; Iğdır Elviye-i Selâse DEĞİL ama 1918-05-20'de alındı. Veride hiçbiri yok (Hopa/Artvin sovyet-rusya →1921-10-13 ölçüldü). §6-B uygulanmadı.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "NOKTA-KAFKAS-0077"
+  },
+  "H-0059": {
+   "hukum": "tekrar",
+   "not": "İkizi H-0049 (aynı gün 1918-11-11, aynı A-M parçalanma haritası; görsel aynı sahne). Hüküm ve kalan iş H-0049'da.",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0060": {
+   "hukum": "tekrar",
+   "not": "İkizi H-0053 (Marmaris-Bodrum-Kuşadası İtalyan çıkarması; kolun kendi notu 'aynı üç yer, aynı sebep').",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0061": {
+   "hukum": "senin-kararin",
+   "not": "Burdur isg yok (ölçüldü). Başlangıç 1919-06-28 kesin (TDV isparta), bitiş TDV burdur'da yalnız YIL 1921. A: t:1921-01-01 (§4; İtalyan varlığını ~6 ay kısa gösterir, 2i +1 açık) · B: kaynak bekle. Kolun önerisi B.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0062": {
+   "hukum": "sirada",
+   "not": "Cevap: HAYIR, 1919-07-23'te Osmanlı'da değildi (Mondros tahliyesi) — ama Sovyet de değildi: Batum İngiliz (1918-12-24), Artvin İngiliz (1918-12-17), Kars Ermeni idaresi (1919-04-30), Ardahan Gürcü (1919-04-20). Veri bugün: Kars d: 1918-05-25→1920-04-23 OSMANLI (yerlesimler.js:244, yanlış), Batum GDC 1918-12-01, Artvin sovyet. YERLESIM-BIRLESTIR-0930 KAF-2 (Kars) ve KAF-3 (Batum) ŞÜPHE kovasında, uygulanmadı.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "NOKTA-KAFKAS-0077"
+  },
+  "H-0063": {
+   "hukum": "zaten-dogru",
+   "not": "İki tarama = iki işgalci: fransa-cumhuriyet (lacivert) + ingiltere (mor; Maraş-Antep-Urfa). Urfa isg ingiltere 1919-01-01→1919-10-29 → fransa (ölçüldü). Karışıklık yaratan lejanttı, düzeltildi.",
+   "delil": "lejant düzeltmesi ARAYUZ-0077 (js/app.js, 46aaf6e7) · Urfa isg data/yerlesimler.js",
+   "sinif": "harita",
+   "kol": "ARAYUZ-0077"
+  },
+  "H-0064": {
+   "hukum": "senin-kararin",
+   "not": "Batı Trakya: TDV bati-trakya Fransız işgali 15 Ekim 1919, Yunan 22 Mayıs 1920. Veride Fransız/İtilaf evresi YOK; Gümülcine bulgaristan-kralligi →1920-05-27 yunanistan (ölçüldü), komşuları 05-14/05-27 iki değerli. Kapsam kolun Batı Anadolu'su dışında kaldı; karar: Fransız evresi isg: olarak eklensin mi + Yunan günü 22'ye çekilsin mi.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0065": {
+   "hukum": "olculecek",
+   "not": "Kol 'zaten-dogru' dedi: gizli bölmede yaslama SONRASI bg-shs-1 %99,2 / bg-shs-2 %98,2. Ama ① görünür bölmede ekran görüntüsüyle DOĞRULANMADI, ② yaslama 40-65 sn sürüyor ve kullanıcı o sürede ham gövdeyi görüyor (js/d_katman.js 27 Eyl'den beri değişmedi) — Emre'nin gördüğü bu. ③ bg-shs-1/2 f:1920-01-01 yıl-temsilî (Neuilly 1919-11-27/1920-08-09). Koşu bitince görünür tarayıcı ölçümü.",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0066": {
+   "hukum": "senin-kararin",
+   "not": "d1923-bg-ro-tuna sınıf C (d_sinirlar_komsu.js:21) ⇒ hiçbir görünümde yaslanmaz (js/d_katman.js:331-332, bugün de aynı). Romanya yanı %35; Romen kıyısında nokta seyrek. Seçenek: Tuna'nın Romen kıyısına nokta · C→E (kaynakla) · C yaslaması kuralı.",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0067": {
+   "hukum": "cozuldu",
+   "not": "İstanbul'un resmî işgali kartı canlı.",
+   "delil": "data/ekokuma_p77b.js:283 p77b-istanbulun-resmi-isgali-1920-sebep-sonuc · 8fccc0a1",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B"
+  },
+  "H-0068": {
+   "hukum": "cozuldu",
+   "not": "Meclis-i Mebusan dağıtılması + Misak-ı Millî iki kart canlı.",
+   "delil": "data/ekokuma_p77b.js:309 p77b-son-meclis-i-mebusan-neden-dagitildi · :332 p77b-misak-i-milli-nedir · 8fccc0a1",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B"
+  },
+  "H-0069": {
+   "hukum": "sirada",
+   "not": "KURAL YÜZÜ ÇÖZÜLDÜ: Değişmez 8 (8a/8b) yazıldı — commit 595e9947, CLAUDE.md §3 madde 8, denetle.py. DÜZELTME YÜZÜ YAPILMADI: taşma tavanda donduruldu (onay değil); ölçüm 1920-04-23 d1920-tbmm-bg 10 petek aşıyor (Edirne 20, Lalapaşa 10, Demirköy 9 km TR→BG; Mustafapaşa/Malko Tırnova ≥24 BG→TR).",
+   "delil": "",
+   "sinif": "motor",
+   "kol": "AVRUPA-SINIR-0077 · koordinatör"
+  },
+  "H-0070": {
+   "hukum": "senin-kararin",
+   "not": "Emre'nin teşhisi doğru: g1-osm-ir tarafları bugün de osmanli/kacar (d_sinirlar_komsu.js:52), 1920-05-27'de Irak yanı 405 örneğin 271'i ingiltere, 0'ı osmanli ⇒ yaslama tarafı bulamıyor. Seçenek: işgal dönemi için ingiltere-kacar tarafları taşıyan kayıt (komsu dosyası) · yaslamanın tarafı isg:'den çözmesi (d_katman.js).",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0071": {
+   "hukum": "sirada",
+   "not": "Kısmen indi: Balıkesir isg 1920-06-30→1922-09-06 (b2c28ac9, devirler koşu 16). Kalan: Alaşehir isg yok (TDV 4 Eylül 1921 kurtuluş — yıl hatası şüphesi, doğrulanamadı); Akhisar, Soma, Kırkağaç NOKTA YOK (ad taraması 0) ⇒ B yolu (yeni nokta dosyası + koşu).",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0072": {
+   "hukum": "sirada",
+   "not": "İzmir→Bursa: Balıkesir indi (b2c28ac9); Bergama/Birgi yalnız yıl; Mihaliç/Kirmasti/Mudanya/Gemlik için gün veren kaynak bulunamadı; Akhisar–Soma noktası yok. Tam kapanma B yoluna bağlı.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0073": {
+   "hukum": "sirada",
+   "not": "Doğu Trakya kısmen indi: Tekirdağ isg 1920-06-20→1922-11-13 (fa5422b4), Gelibolu 1920-08-04→1922-10-03 (b2c28ac9). Kalan ~25 nokta isg'siz (ölçüldü: Çorlu, Lüleburgaz isg yok) — TDV maddeleri 302 ya da yalnız '1918-1922'.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0074": {
+   "hukum": "sirada",
+   "not": "Görsel 1 (Kars/Nahçıvan 1920-07-28): 'ayrı toprak' Revan'ın peteği = ermenistan-DC (tek EDC noktası); çevresi sovyet-rusya boyalı (H-0075 ②). Görsel 2: Derbend s: rusya 1813-10-24→1923-10-29 (yerlesimler.js:667), künye rusya 1917-03-15'te bitiyor ⇒ hayalet/ardıl sınıf ③. ORTADOGU kolu KAFKAS'a devretti, KAFKAS 8 maddesine almadı; kalemler H-0075'te. Tiflis+Zagem GDC düzeltmesi bugün indi (17cd2f98, KAF-1), koşu 18 bekliyor; Revan çevresi ve Derbend yok.",
+   "delil": "",
+   "sinif": "harita+veri",
+   "kol": "NOKTA-ORTADOGU-0077 → NOKTA-KAFKAS-0077"
+  },
+  "H-0075": {
+   "hukum": "sirada",
+   "not": "① bayat çarlık penceresi SÜRÜYOR: Sohum rusya 1810→1923, Tuapse rusya 1838→1923, Derbend 1813→1923 (ölçüldü). ② Gürcistan kısmen indi: Tiflis GDC 1918-05-26→1921-02-25 (17cd2f98, YERLESIM-BIRLESTIR KAF-1; koşu 18 bekliyor); Azerbaycan (Şamahı, Şeki, Kuba…) ve Ermenistan (Eçmiyadzin, Gümrü) noktaları olculecek/yok; Dağıstan ve K. Kafkas Cumhuriyeti künyesi M-5231 ile AÇILMAYACAK.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "NOKTA-KAFKAS-0077"
+  },
+  "H-0076": {
+   "hukum": "tekrar",
+   "not": "İkizi H-0074 görsel 2 (Derbend, 1920-07-28; 'üst üste iki renk' = rusya peteği ile sovyet-rusya çevresi). Kalem H-0075 ①'de.",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "ARAYUZ-0077"
+  },
+  "H-0077": {
+   "hukum": "sirada",
+   "not": "Avusturya batısı koşu 15'te düzeldi (Feldkirch/Bregenz/Innsbruck/Freistadt avusturya-cumhuriyet, Brixen italya). Çekoslovakya: Opava 1923'te almanya — Çek Silezyası'nda nokta yok (ad taraması 0).",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0078": {
+   "hukum": "sirada",
+   "not": "Kısmen indi: Tire 1919-05-28→1922-09-04, Ayasuluk 1919-05-22→1922-09-08 (b2c28ac9). Uşak eksklavının asıl sebebi NOKTASIZLIK (§2): Salihli, Turgutlu, Kula, Eşme, Ödemiş, Nazilli noktası yok (ölçüldü); Alaşehir isg yok.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0079": {
+   "hukum": "cozuldu",
+   "not": "İnegöl ve Yenişehir (Bursa) isg yunanistan 1920-10-25→1922-09-06 (TDV milli-mucadele + Selvi TTK 2024); tarama katmanı koşu 16'da yeniden üretildi.",
+   "delil": "data/yerlesimler.js İnegöl:71, Yenişehir (Bursa):69 isg · commit b2c28ac9 · devirler 76351781",
+   "sinif": "veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0080": {
+   "hukum": "sirada",
+   "not": "1920-12-03: Kars/Sarıkamış TBMM (veride doğru); ama Hopa TBMM olmalı, Artvin Gürcü — veride ikisi de sovyet-rusya →1921-10-13 (ölçüldü). Iğdır giriş günü bulunamadı. Gümrü günü TDV'de çelişkili (2/3/20 Aralık). §6-B uygulanmadı.",
+   "delil": "",
+   "sinif": "veri",
+   "kol": "NOKTA-KAFKAS-0077"
+  },
+  "H-0081": {
+   "hukum": "sirada",
+   "not": "Toplam madde. 7 isg penceresi indi (Balıkesir, Tire, Ayasuluk, İnegöl, Yenişehir, Tekirdağ, Gelibolu); enklav/boşlukların kalanı B yolu (Akhisar–Soma–Salihli–Kula noktaları) + gün veren kaynak ister.",
+   "delil": "",
+   "sinif": "harita+veri",
+   "kol": "ISGAL-BATI-0077"
+  },
+  "H-0082": {
+   "hukum": "sirada",
+   "not": "İki kök: ① Kova B — sovyet-rusya ile tbmm-turkiye gövdeleri ortak kenar paylaşmıyor (koşu 15'te 6897 hücrenin 92'si iki gövdede); gövde üretimi Oturum 0. ② Hopa/Arhavi sahipliği yanlış (sovyet →1921-10-13; H-0057). Görseldeki turkuaz şeritler Hopa çevresinde.",
+   "delil": "",
+   "sinif": "motor+veri",
+   "kol": "ARAYUZ-0077"
+  },
+  "H-0083": {
+   "hukum": "sirada",
+   "not": "Kova B: Kars kuzeyindeki düz köşegen = iki gövdenin ayrı kenarları arasındaki üçgen (43.31,40.68→43.05,40.90). Gövde üretimi Oturum 0; yazılmış motor yaması yok.",
+   "delil": "",
+   "sinif": "motor",
+   "kol": "ARAYUZ-0077"
+  },
+  "H-0084": {
+   "hukum": "olculecek",
+   "not": "Kol 'zaten-dogru' dedi: gizli bölmede yaslama sonrası tr-ir-1/2 %100. Görseldeki Başkale/Bacirge taşması ham gövdeyle birebir ⇒ görüntü yaslama bitmeden alınmış olabilir; görünür bölmede doğrulanmadı ve 40-65 sn gecikme ayrı kusur olarak duruyor (H-0065 ile aynı).",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  },
+  "H-0085": {
+   "hukum": "cozuldu",
+   "not": "Sakarya Meydan Muharebesi kartı canlı.",
+   "delil": "data/ekokuma_p77b.js:355 p77b-sakarya-meydan-muharebesi-1921 · 8fccc0a1",
+   "sinif": "veri",
+   "kol": "EKOKUMA-0077-B"
+  },
+  "H-0086": {
+   "hukum": "sirada",
+   "not": "'Genel kural olarak yazalım' YÜZÜ ÇÖZÜLDÜ: Değişmez 8 (595e9947, CLAUDE.md §3-8, dersler/D237). Görseldeki kusur (1921-10-13 Kars: Posof/Hanak/Iğdır bölge çizgileri turkuaz hattı aşıyor) 8b sınıfı; tavanda donduruldu, DÜZELTİLMEDİ.",
+   "delil": "",
+   "sinif": "motor",
+   "kol": "koordinatör (Z)"
+  },
+  "H-0087": {
+   "hukum": "senin-kararin",
+   "not": "Kattâra'daki yeşil şerit = işgal taraması mesafe tavanı: uret_devirler.py isgalleri_uret() taramayı yalnız isg'li noktaların PETEK_GOVDE'sinden kuruyor, gövde ise petek dışı dolguyu da içeriyor (en yakın nokta 120-192 km). 52 noktanın 52'sinde isg var — kayıt kusuru değil. Seçenek: M1 (uret_devirler.py düzeltmesi, motor tuzunda değil, koşu istemez — kolun önerisi) · nokta (kaynaklı yerleşim bulunamadı). Ölçüldü: uret_devirler.py son değişiklik e53c86ae (27 Ağu) ⇒ M1 uygulanmadı.",
+   "delil": "",
+   "sinif": "motor",
+   "kol": "NOKTA-ORTADOGU-0077"
+  },
+  "H-0088": {
+   "hukum": "sirada",
+   "not": "D hatları doğru yerde; kusur A katmanında (noktasızlık): Zeeuws-Vlaanderen Belçika, Hollanda Limburg'u ve Twente Almanya, KB Lüksemburg Belçika (Wiltz çakışık). Terneuzen, Hulst, Roermond, Enschede, Clervaux için veride kayıt 0 (ölçüldü) ⇒ nokta yazılmadı.",
+   "delil": "",
+   "sinif": "harita",
+   "kol": "AVRUPA-SINIR-0077"
+  }
+ }
+}

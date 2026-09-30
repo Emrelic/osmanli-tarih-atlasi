@@ -38,9 +38,9 @@ window.YERLESIMLER_EK27 = [
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
-{ ad:"Hopa", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"liman", lat:41.390, lon:41.427, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
+{ ad:"Hopa", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1915-02-23",t:"1918-03-14",k:0,m:null},{f:"1920-04-23",t:"1923-10-29",k:0,m:null}], tur:"liman", lat:41.390, lon:41.427, g:0, k:3, m:"Erzurum",
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1915-02-23",t:"1917-03-15",d:"rusya",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): Rus işgali 23 Şubat 1915; Çaykıran: Rusların 'Batum'dan Arhavi istikametinde' ilerleyişi · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-03-14",d:"transkafkasya",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): geri alınış 14 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1551-01-01",t:"1915-02-23",kaynak:"1878-1915 rusya penceresi SİLİNDİ: Yücetürk 2020 (Karadeniz Araştırmaları XVII/65, 73-95): 'Arhavi, Hopa ve Yusufeli ise Osmanlı Devleti'nde kalmıştır' · TDV lazlar: XX. yy başında 'Pazar ve Hopa kazaları' Lazistan sancağında · Hopa Kaymakamlığı: 1878 sınırı Kemalpaşa bucağı (Hopa'nın DOĞUSU) · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1918-03-14",t:"1920-04-23",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): geri alınış 14 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"}], v:[] },
 
 // Sarp — sınırın Karadeniz'e kavuştuğu nokta (Türkiye yakası)
 { ad:"Sarp", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"koy", lat:41.520, lon:41.545, g:0, k:3, m:"Erzurum",

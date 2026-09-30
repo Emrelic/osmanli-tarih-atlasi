@@ -32,6 +32,8 @@ window.EKOKUMA_KURUM2 = [
 
 // ── H-0014 · Mühendishâne-i Bahrî-i Hümâyun (1775) ──────────────────────────
 { id:"teknik-muhendishane-i-bahri-i-humayun", tur:"teknik-bilimsel",
+  // UYGULA-KART-0930: soru/baslik/ad yoktu ve EKOBASLIK_ONERI'de satırı yoktu ⇒ satır başlığı BOŞ basılıyordu.
+  baslik:"Mühendishâne-i Bahrî-i Hümâyun (1775): Çeşme'den doğan ilk modern okul",
   kisa:"Çeşme'de yanan bir donanmanın külünden bir okul doğdu — ilk müdürü Osmanlı değil, Macar asıllı bir Fransız baronuydu.",
   metin:"■ NİÇİN KURULDU\n"
     +"1768-1774 Osmanlı-Rus savaşındaki teknik yetersizlikler ve özellikle 1770 Çeşme baskınının donanmayı neredeyse yok etmesi, eğitimli denizci subay ihtiyacını açıkça ortaya koydu. Mühendishâne-i Bahrî-i Hümâyun bu ihtiyaca cevap olarak I. Abdülhamid döneminde, Sadrazam Derviş Mehmed Paşa'nın üçüncü sadâreti sırasında kuruldu.\n\n"
@@ -50,7 +52,11 @@ window.EKOKUMA_KURUM2 = [
     +"■ TARİHSEL ÖNEMİ\n"
     +"TDV, kurumu Türk eğitim tarihinde 'modern anlamda ilk defa kurulan mektep' olarak nitelendiriyor; bugünkü Deniz Harp Okulu'nun temelini oluşturur.",
   kesinlik:"kesin",
-  olay:["1775-04-29|Mühendishâne","1795-01-01|Mühendishâne-i Berrî-i Hümâyun ayrıldı"],
+  // UYGULA-KART-0930 (0068/H-0020): "1795-01-01|…ayrıldı" ÖLÜ BAĞDI — o gün
+  // mühendishane maddesi yok (1795-01-01'deki 4 madde Arabistan/Balkan/Gürcistan/
+  // İran). Berrî'nin açılış maddesi olaylar_ek5.js:304 t:"1795-09-01"; kart
+  // metni de ayrılışı 1210/1795 diye anlatıyor ⇒ bağ o maddeye taşındı.
+  olay:["1775-04-29|Mühendishâne","1795-09-01|Mühendishâne-i Berrî-i Hümâyun"],
   kaynak:"TDV: muhendishane-i-bahri-i-humayun" },
 
 // ── H-0016 · Osmanlı vergi sistemi ──────────────────────────────────────────
@@ -83,6 +89,8 @@ window.EKOKUMA_KURUM2 = [
 
 // ── H-0020 · Mühendishânelerin sonraki hayatı ───────────────────────────────
 { id:"teknik-muhendishane-ardil-okullar", tur:"teknik-bilimsel",
+  // UYGULA-KART-0930: soru/baslik/ad yoktu ve EKOBASLIK_ONERI'de satırı yoktu ⇒ satır başlığı BOŞ basılıyordu.
+  baslik:"İki mühendishanenin sonraki hayatı: İTÜ, Harbiye ve Deniz Harp Okulu",
   kisa:"İki mühendishaneden biri bugünkü bir üniversitenin, öteki bugünkü bir harp okulunun ilk çekirdeği oldu — ve ikisi de aynı Nizâm-ı Cedîd rüzgârından doğdu.",
   metin:"■ MÜHENDİSHÂNE-İ BERRÎ-İ HÜMÂYUN (1795) — İTÜ'NÜN VE HARBİYE'NİN ORTAK KÖKÜ\n"
     +"Deniz mühendishanesinden yirmi yıl sonra, 1210'da (1795) Hasköy'de kara mühendisleri yetiştirmek için kuruldu; TDV'nin kendi ifadesiyle 'Nizâm-ı Cedîd'in en önemli kurumlarından biri'ydi. İlk hocalar tamamen Türk'tü — başlarında Abdurrahman Efendi vardı, yabancı öğretmen YOKTU; 1801'de ihtida etmiş bir İngiliz mühendis (Selim/Bailey adıyla anılan) kadroya katıldı. Müfredat istihkâm, harita/arazi ölçümü (kadastro), topçuluk ve diferansiyel-integral hesaba kadar uzanan ileri matematik, ayrıca Fransızca ve Arapça dersleriydi.\n\n"
@@ -116,11 +124,15 @@ window.EKOKUMA_KURUM2 = [
   // ⇒ Tarih UYDURULMADI; iki gün de kronolojiden OKUNDU. Ayırt ediciler
   //   başlıkların kesme işareti taşımayan parçası seçildi (normalleştirme
   //   kenar durumuna girmemek için).
-  olay:["1793-07-14|Mühendishâne-i Berrî-i Hümâyun","1883-11-03|Hendese-i Mülkiyye Mektebi"],
+  // UYGULA-KART-0930 (0068/H-0020): şikâyet edilen açılış maddesi
+  // (olaylar_ek5.js:304, 1795-09-01) hiçbir karta bağlı değildi — eklendi.
+  olay:["1793-07-14|Mühendishâne-i Berrî-i Hümâyun","1795-09-01|Mühendishâne-i Berrî-i Hümâyun","1883-11-03|Hendese-i Mülkiyye Mektebi"],
   kaynak:"TDV: muhendishane-i-berri-i-humayun · muhendishane-i-bahri-i-humayun" },
 
 // ── H-0014 (DALGA-0068) · Nizâm-ı Cedîd ─────────────────────────────────────
 { id:"teknik-nizam-i-cedid", tur:"teknik-bilimsel",
+  // UYGULA-KART-0930: soru/baslik/ad yoktu ve EKOBASLIK_ONERI'de satırı yoktu ⇒ satır başlığı BOŞ basılıyordu.
+  baslik:"Nizâm-ı Cedîd (1792-1807): sebebi, içeriği, direnişi ve sonu",
   kisa:"Bir ordu savaş meydanında değil, oy birliğiyle ateşkes isteyerek yenildiğini kabul etti — ve o toplantıdan bütün bir reform çağı doğdu.",
   metin:"■ SEBEP — ŞUMNU'DAKİ OY BİRLİĞİ\n"
     +"1787-1792 Osmanlı-Rus/Avusturya savaşındaki ağır yenilgiler ve Ziştovi (Avusturya ile) Antlaşması, ordunun ve devlet erkânının kurumsal zaafını açıkça ortaya koydu. Ordu ve idare üst kademesi 11 Ağustos 1791'de Şumnu'da toplanıp savaşa devam edilemeyeceğine OY BİRLİĞİYLE karar verdi — III. Selim'i kapsamlı bir ıslahat programına iten doğrudan dönüm noktası budur.\n\n"
@@ -135,7 +147,9 @@ window.EKOKUMA_KURUM2 = [
     +"■ İLGİNÇ AYRINTI — VERGİDEN DEĞİL YENİ BİR HAZİNEDEN\n"
     +"Reformun finansmanı mevcut tekâlif sistemine (bk. ayrı kart: Osmanlı vergi sistemi) ek yük bindirmek yerine AYRI bir hazine (İrâd-ı Cedîd) kurularak sağlandı — yani III. Selim, yeni orduyu eski vergi düzenine dokunmadan, kendi kendine yetecek bir mali yapı içinde finanse etmeye çalıştı.",
   kesinlik:"kesin",
-  olay:["1791-08-11|Kalas","1807-05-25|Kabakçı"],
+  // UYGULA-KART-0930 (0068/H-0014): şikâyet edilen madde olaylar_ek7.js:129
+  // t:"1792-06-01" "Nizâm-ı Cedîd ıslahat programı…" bağlı değildi — eklendi.
+  olay:["1791-08-11|Kalas","1792-06-01|Nizâm-ı Cedîd ıslahat","1807-05-25|Kabakçı"],
   kaynak:"TDV: nizam-i-cedid" }
 
 ];

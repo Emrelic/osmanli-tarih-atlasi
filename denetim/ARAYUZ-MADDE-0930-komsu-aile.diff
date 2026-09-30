@@ -1,0 +1,54 @@
+--- a/js/suzgec.js
++++ b/js/suzgec.js
+@@ -729,6 +729,23 @@
+ //   o yerleşimi BIRAKIR. Ölçüldü: 1534-12-04 "Fuzûlî'nin … kasidesi" (k:kultur,
+ //   yer_id Bağdat) Bağdat fethinin 10 yerleşimini ikinci kez alıyordu.
+ function _ydIkincil(m) { var g = maddeGrubu(m); return g === "kultur" || g === "iktisat"; }
++// ④ komşu adımı için sahiplik AİLESİ: "osmanli" ve Osmanlı-süzerenli "tabi:<kid>"
++// → "osmanli"; öteki anahtarlar kendisi. Yabancı süzerenli kimlikler künyeden
++// bir kez okunur (app.js `_KID_YABANCI_UST` kuralı).
++var _ydYabanciUst = null;
++function _ydAile(a) {
++  if (a === "osmanli" || !a || a.indexOf("tabi:") !== 0) return a;
++  if (!_ydYabanciUst) {
++    _ydYabanciUst = {};
++    var D = (typeof window !== "undefined" && window.DEVLETLER) || [];
++    for (var i = 0; i < D.length; i++) {
++      var dv = D[i];
++      if (dv && dv.id && dv.tabi && dv.tabi.length && dv.tabi[0].ust && dv.tabi[0].ust !== "osmanli")
++        _ydYabanciUst[dv.id] = true;
++    }
++  }
++  return _ydYabanciUst[a.slice(5)] ? a : "osmanli";
++}
+ function maddeDegisimleri(o, gs, Y, ix, kardesler) {
+   var deg = gunDegisimleri(Y, ix, gs), secilen = [], alindi = {}, kardesAl = {}, kardesAsil = {}, n, k;
+   for (k = 0; k < (kardesler || []).length; k++) {
+@@ -760,12 +777,26 @@
+   // ⚠️ Kalıntı risk: teorik olarak böyle bir tesadüf olursa madde YANLIŞ bir
+   // yerleşimi de kardeş sayar — ölçülmedi, gözlem istenirse `komsuKm` geri
+   // eklenebilir (sabit hâlâ burada duruyor, okunmuyor).
++  // 🔴 ARAYUZ-MADDE-0930 · paket 0052 H-0014 (Emre: "Şirvan'ın Şamahı, Bakü
++  // ve Derbend'in kaybı maddesinde Derbend …"). Aynı gün aynı Safevî fethi:
++  // bir yerleşim `osmanli`→`s:safevi`, öteki `tabi:<kid>`→`s:safevi` taşıyor;
++  // birebir çift şartı ikisini FARKLI olay sayıyordu. `_ydAile` Osmanlı'nın
++  // doğrudan ve tâbi hâlini TEK aileye indirir — ama YALNIZ aile DIŞINA
++  // (ya da dışarıdan içeri) bir el değiştirmede. Aile İÇİ geçiş
++  // (doğrudan↔tâbi) birebir çift arar: o başka bir olaydır (idarî statü).
++  // Yabancı süzerenli `kid` (künyede `tabi[0].ust` ≠ "osmanli", app.js
++  // `_KID_YABANCI_UST` ile AYNI kural) aileye KATILMAZ.
++  // ⚠️ Uçlardan biri SAHİPSİZ ("") ise aile eşitliği UYGULANMAZ — ölçüldü:
++  // 1482-01-01 Cetinje (""→tabi:zeta) ile Kırcaali (""→osmanli) 500 km
++  // arayla "aynı olay" sayılıyordu. Boştan kazanç zayıf bir bağdır.
+   for (n = 0; n < deg.length; n++) {
+     var d = deg[n];
+     if (alindi[d.i] || kardesAl[d.i]) continue;
++    var dAo = _ydAile(d.once), dAs = _ydAile(d.sonra), dDis = dAo !== dAs && !!d.once && !!d.sonra;
+     for (k = 0; k < dogrudan.length; k++) {
+       var s = dogrudan[k];
+-      if (s.once === d.once && s.sonra === d.sonra) {
++      if ((s.once === d.once && s.sonra === d.sonra) ||
++          (dDis && _ydAile(s.once) === dAo && _ydAile(s.sonra) === dAs)) {
+         secilen.push({ i: d.i, once: d.once, sonra: d.sonra, yol: "komsu" }); alindi[d.i] = true; break;
+       }
+     }

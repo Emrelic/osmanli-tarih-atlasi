@@ -1,0 +1,920 @@
+{
+ "parti": "parti-emrelic-0052",
+ "oturum": "KAPAT-0052-0930",
+ "tarih": "2026-09-30",
+ "evren": {
+  "cevap_madde": 129,
+  "acik_girdi": 128,
+  "zaten_kapali": [
+   "H-0022"
+  ]
+ },
+ "dagilim": {
+  "cozuldu": 87,
+  "bayat": 2,
+  "sirada": 12,
+  "senin-kararin": 4,
+  "once-cozuldu": 1,
+  "zaten-dogru": 3,
+  "olculecek": 16,
+  "kosu-bekliyor": 3
+ },
+ "madde": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Voyvodalık başkentlerinde isyan ateşi 🔥.",
+   "delil": "js/app.js:4898 function isyanAtesGuncelle",
+   "baslik": "üç vassal voyvodalık eflak boğdan ve erdelin üçünün isyan et"
+  },
+  "H-0002": {
+   "hukum": "olculecek",
+   "sinif": "veri (bozkır sahipliği)",
+   "not": "Emre'nin TK Kırım oturumuna verilmişti; o oturumun bu madde için teslimi BULUNAMADI. Arada inenler: Kabartay künyesi, Çerkez künyesi + Soçi/Tuapse/Maykop (2336d246), yerlesimler_ek_bozkir.js GIRDI'de. Bugün 36-45D × 44-48K kutusunda 1700'de 16 noktanın 10'u sahipsiz. 11 bozkırın her biri tek tek teyit edilmedi.",
+   "delil": "",
+   "baslik": "kırım bozkırları bu haritada görünen alanların hakikaten kır"
+  },
+  "H-0003": {
+   "hukum": "cozuldu",
+   "sinif": "kronoloji + ek okuma",
+   "not": "1594 üç voyvodalık isyanı: kronoloji maddesi + kart, ayrıca başkentlerde 🔥 işareti (UI H-0001).",
+   "delil": "data/olaylar_p0059.js (canlı demet data/paket_15.js:1505, '1594-11-13' 2 kez) · data/ekokuma_rivayet.js:28 `sebep-sonuc-1594-uc-voyvodalik-isyani`",
+   "baslik": "üç voyvodalığın birden isyan başlatması maddesini göremedim"
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Nurbânû/Safiye.",
+   "delil": "data/ekokuma_padisah.js:56 `magazin-nurbanu-safiye-murad-iii` · data/ekokuma_kadin.js:66 `kimdir-nurbanu-sultan` · data/ekokuma_kadin.js:74 `kimdir-safiye-sultan`",
+   "baslik": "3. muratın annesi nurbanu sultanın oğlu 3.murata her yerden"
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "III. Mehmed'in oğlunu öldürtmesi (TDV günü çapraz bulgusuyla).",
+   "delil": "data/ekokuma_padisah.js:67 `tartisma-sehzade-mahmud-tarih-bulgusu` · data/ekokuma_hanedan.js:31 `sebep-sonuc-1595-on-dokuz-sehzade`",
+   "baslik": "3. mehmetin kendi oğlunu da boğdurması hikayesini ek okumala"
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Şartname en çok 10 büyük savaş diyordu. EKO-DUNYA 3 savaş kartı yazdı; bugün havuzda `savas-hikayesi` türünde 51 kart var (node ile sayıldı). 'Bütün savaşlar' anlamında kapsama taraması yapılmadı.",
+   "delil": "data/ekokuma_dunya.js:210 `savas-viyana-karlofca-1683-1699` · data/ekokuma_dunya.js:233 `savas-kirim-savasi-1853-1856` · data/ekokuma_dunya.js:251 `savas-93-harbi-1877-1878`",
+   "baslik": "tüm savaşların başlama sebebleri savaş başlangıcı savaşın ad"
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "sinif": "veri (kişi eşleşmesi)",
+   "not": "BUGÜN ÖLÇÜLDÜ: kisiBul, app.js'ten birebir alınıp canlı kisiler.js ile çalıştırıldı. 'Damad İbrahim Paşa' → `nevsehirli-damad-ibrahim-pasa` (Lâle Devri) ⇒ 1596 maddesinde yanlış kişi kartı SÜRÜYOR (olaylar_ek7.js:60 kisiler alanı). YAMA-RIVAYET-0916 önerisi (kisiler.js'e `damad-ibrahim-pasa-1601` kaydı) İNMEDİ (grep 0).",
+   "delil": "",
+   "baslik": "3. mehmet sefere çıkması 20 haziran 1596 kronoloji maddesi i"
+  },
+  "H-0008": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kanije / Tiryaki Hasan Paşa: belgeli ve anlatı katmanları ayrı.",
+   "delil": "data/ekokuma_rivayet.js:40 `menkibe-tiryaki-hasan-pasa-kanije`",
+   "baslik": "tiryaki hasan paşa ve kanije savunması konusunda değişik hik"
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Yanıp sönme ve öncesi/sonrası düğmeleri paket öncesinden vardı (UI ölçtü).",
+   "delil": "js/app.js:10542 '↻ Yakıp söndür' · :10719 _farkKutusuCiz",
+   "baslik": "bir toprak bir devlet tarafından alındığında şu andaki uygul"
+  },
+  "H-0010": {
+   "hukum": "zaten-dogru",
+   "sinif": "harita (cevap)",
+   "not": "HARITA-VERI kaynakla ölçtü: harita doğru. Gence/Karabağ doğrudan Safevî; Kartli/Kaheti kendi krallarıyla Safevî tâbisi (TDV gence, karabag, gurculer · Iranica). Açık kalan tek şey Emre'nin şema kararı: Safevî tâbilik şeridi olsun mu? Bu bir kusur değil.",
+   "delil": "",
+   "baslik": "gence karadağ ve tiflis elden çıktığında tiflis gürcistan re"
+  },
+  "H-0011": {
+   "hukum": "cozuldu",
+   "sinif": "renk",
+   "not": "Kabartay rengi değişti (#d058e8 → #0c5a84).",
+   "delil": "arac/renkler.py:3096 \"kabartay\" #0c5a84",
+   "baslik": "kabartay kabardey beylikleri rengi gürcistana çok yakın bir"
+  },
+  "H-0012": {
+   "hukum": "olculecek",
+   "sinif": "motor (dolgu)",
+   "not": "Vladikavkaz hücresi (kasitli_bosluk + bos:'hata' kendi içinde çelişiyor) dağı aşan puanla boyanıyordu. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "nalçik şehrinin doğusundaki üçken alan hangi şehrim bölgesi"
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "sinif": "renk",
+   "not": "Venedik rengi değişti (#deed93 → #fcfc06).",
+   "delil": "arac/renkler.py:899 \"venedik\" #fcfc06",
+   "baslik": "venediğin sarı rengi ile avusturyanın rengi birbirine çok ya"
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "sinif": "arayüz (madde–harita eşleşmesi)",
+   "not": "Kök: komşu eşleşmesi tâbi→Safevî ile Osmanlı→Safevî'yi farklı sayıyor. BUGÜN OKUNDU: js/suzgec.js:760-768 komşu adımı yalnız AYNI (önce, sonra) çiftini alıyor. Öneri 'Osmanlı ≡ tâbi' UYGULANMADI.",
+   "delil": "",
+   "baslik": "şirvanın şamahı bakü ve derbendin kaybı maddesinde derbend d"
+  },
+  "H-0015": {
+   "hukum": "zaten-dogru",
+   "sinif": "harita (cevap)",
+   "not": "Baalbek'in özerk görünümü kaynaklı: v:harfusogullari 1521-1850 (TDV balebek, harfus).",
+   "delil": "",
+   "baslik": "baalebek  baalbek harfusoğulları"
+  },
+  "H-0016": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "I. Mustafa'nın davranışları.",
+   "delil": "data/ekokuma_padisah.js:28 `tartisma-mustafa-i-davranislari`",
+   "baslik": "1.mustafanın tahta çıkması ve padişahın garip tuhaf davranış"
+  },
+  "H-0017": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Genç Osman: reform, kardeş katli, hac.",
+   "delil": "data/ekokuma_padisah.js:220 `tartisma-osman-ii-reform-imaji` · data/ekokuma_padisah.js:229 `olum-sehzade-mehmed-osman-ii-1621` · data/ekokuma_padisah.js:238 `tartisma-padisahlar-hac-gitmemesi`",
+   "baslik": "genç osmanın reform ve yenileşme hareketleri vizyonu ile ilg"
+  },
+  "H-0018": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kızlarağası rivayeti.",
+   "delil": "data/ekokuma_padisah.js:37 `tartisma-mustafa-i-kizlaragasi`",
+   "baslik": "1. msutafanın hallli konusunda kızlarağasının etkisi ile ala"
+  },
+  "H-0019": {
+   "hukum": "olculecek",
+   "sinif": "arayüz (madde–harita eşleşmesi)",
+   "not": "Kök sebep (150 km komşu eşiği) KALDIRILDI: js/suzgec.js:747-768, DALGA-0068 (18 Eylül). Bu maddenin 19 yerinin bugün kaçının seçildiği tarayıcıda ölçülmedi. Tâbi olan yerler H-0014 sınıfında hâlâ dışarıda kalıyor olabilir.",
+   "delil": "",
+   "baslik": "bağdadın safevilere kaybı maddesinde bağdat ile beraber osma"
+  },
+  "H-0020": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "1623 Bağdat: savaş ilanı yok tartışması.",
+   "delil": "data/ekokuma_rivayet.js:61 `tartisma-bagdat-1623-savas-ilani-mi`",
+   "baslik": "bağdadın safevielre kaybı savaşında iranın savaş ilanı filan"
+  },
+  "H-0021": {
+   "hukum": "senin-kararin",
+   "sinif": "veri (yerleşim)",
+   "not": "BUGÜN ÖLÇÜLDÜ: Erbil safevi 1623-11-28→1638-12-25 duruyor, Musul ve Kerkük 1624→1625 ⇒ 13 yıllık adacık sürüyor. Erbil'i adıyla anan kaynak yok. Seçenekler: (A) Musul/Kerkük'e hizala, 3 dosya (M-3946 itirazı açık) · (B) yalnız 12-25 → 12-24.",
+   "delil": "",
+   "baslik": "musul kerkük safevilerden osmanlı egemenliğine geçer iken er"
+  },
+  "H-0023": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Evliya Çelebi kişi kartı.",
+   "delil": "data/ekokuma_vezir.js:44 `kimdir-evliya-celebi`",
+   "baslik": "evliya çelebi ile ilgili kişi kartı oluşturup ek okuma kartı"
+  },
+  "H-0024": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz (geliştirici notu)",
+   "not": "Şikâyet maddenin sonundaki 'hiçbiri bu maddeye bağlanamadı' notuydu; UI H-0047 çaresi bütün maddelerde kaldırdı. Kod bugün okundu.",
+   "delil": "js/app.js:10940-10955 (eşleşme yoksa '🗺 haritadaki karşılığı' kutusu basılmıyor, teşhis console.debug'a gidiyor) · UI-0916 H-0047",
+   "baslik": "1 Ocak 1632"
+  },
+  "H-0025": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz (geliştirici notu)",
+   "not": "Aynı not, H-0024 ile aynı çare.",
+   "delil": "js/app.js:10940-10955 (eşleşme yoksa '🗺 haritadaki karşılığı' kutusu basılmıyor, teşhis console.debug'a gidiyor) · UI-0916 H-0047",
+   "baslik": "1 Ocak 1632"
+  },
+  "H-0026": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Evliya Çelebi eleştiri/tartışma.",
+   "delil": "data/ekokuma_vezir.js:54 `tartisma-evliya-celebi-guvenilirlik`",
+   "baslik": "evliya çelebi ile ilgili tartışma eleştiri ek okuması yapıp"
+  },
+  "H-0027": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz (geliştirici notu)",
+   "not": "Aynı not (Kâtib Çelebi maddesi), aynı çare.",
+   "delil": "js/app.js:10940-10955 (eşleşme yoksa '🗺 haritadaki karşılığı' kutusu basılmıyor, teşhis console.debug'a gidiyor) · UI-0916 H-0047",
+   "baslik": "1043 (1633)"
+  },
+  "H-0028": {
+   "hukum": "sirada",
+   "sinif": "görsel",
+   "not": "Kâtib Çelebi, Lâgarî ve Hezarfen görselleri YOK: data/gorsel_madde.js'te üçü de 0 (grep). Kamu malı görsel araması yapıldı ama indirme yapılmadı. İndirme Emre'nin açık onayını ister (kural: yeni görsel indirme yok).",
+   "delil": "",
+   "baslik": "katip çelebi lagari hasan çelebi hezarfen gibi figürlerin ma"
+  },
+  "H-0029": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kahve/kahvehane + tütün (EKO-TOPLUM) · spor + içki (EKO-TAMAMLA).",
+   "delil": "data/ekokuma_toplum.js:53 `kahve-kahvehane-yasagi` · data/ekokuma_toplum.js:64 `tutun-yasagi-kaldirilmasi` · data/ekokuma_tamamla.js:68 `teknik-osmanli-spor-gelenekleri` · data/ekokuma_tamamla.js:91 `tartisma-selim-ii-kibris-sarap-efsanesi`",
+   "baslik": "4. muratın kahve  ve tütün yasağı ile alakalı maddesi var. t"
+  },
+  "H-0030": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İdam edilen devlet adamları.",
+   "delil": "data/ekokuma_vezir.js:64 `tartisma-idam-edilen-devlet-adamlari` · data/ekokuma_vezir.js:74 `kimdir-ahizade-huseyin-efendi`",
+   "baslik": "osmanlıda idam edilen devlet adamları sadrazamalr vezirler p"
+  },
+  "H-0031": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Devlet kademeleri kartı; altı başlık ayrı ■ bölümde (EKO-TAMAMLA ayrıca doğruladı).",
+   "delil": "data/ekokuma_kurum.js:46 `teknik-osmanli-devlet-kademeleri` · yükleyici js/app.js:11119-11124/11137 (_EKOKUMA_DOSYA_ADLARI)",
+   "baslik": "osmanlıdaki veziriazamlık sadrazamlık veirlk paşalık kethüda"
+  },
+  "H-0032": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İdari yapının değişimi kartı.",
+   "delil": "data/ekokuma_kurum.js:66 `teknik-osmanli-idari-yapi-degisimi`",
+   "baslik": "osmanlıda idari yapı ve bunun yenileşmesi değişmesi konusund"
+  },
+  "H-0033": {
+   "hukum": "sirada",
+   "sinif": "ek okuma",
+   "not": "Kısmen: tımar ↔ feodalizm kartı var. İstenen Avrupa karşılaştırması (kilise, burjuvazi, sanayi devrimi, aydınlanma) YOK: EKO-TOPLUM ve EKO-TAMAMLA ikisi de bulamadı (TDV kapsamıyor, Britannica 403). Akademik kaynak sevki gerekiyor.",
+   "delil": "data/ekokuma_toplum.js:77 `timar-avrupa-feodalizm-farki`",
+   "baslik": "osmanlıda ekonomi ye dair ek okumalar yapalım osmanlı ekonom"
+  },
+  "H-0034": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Sosyal yaşam: mahalle teşkilatı + kıyafet/statü (EKO-TAMAMLA) + kahvehane, şenlik, harem, lonca kartları.",
+   "delil": "data/ekokuma_toplum.js:88 `mahalle-teskilati-sorumluluk` · data/ekokuma_tamamla.js:105 `teknik-osmanli-kiyafet-statu`",
+   "baslik": "osmanlı devletinde sosyal yaşam konusunda ek okumalar yapalı"
+  },
+  "H-0035": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Yemen + Hürmüz.",
+   "delil": "data/ekokuma_dunya.js:41 `dunya-yemende-osmanli-hakimiyeti` · data/ekokuma_dunya.js:49 `dunya-hurmuz-bogazi-onemi`",
+   "baslik": "yemende osmanlı hakimiyeti yemenin coğrafi önemi buradaki de"
+  },
+  "H-0036": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İpek Yolu.",
+   "delil": "data/ekokuma_dunya.js:61 `dunya-ipek-yolu-tarihi`",
+   "baslik": "tarihi ipek yolu ve doğu batı arasındaki ticaret yolu hakkın"
+  },
+  "H-0037": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Coğrafi keşifler.",
+   "delil": "data/ekokuma_dunya.js:72 `dunya-cografi-kesifler`",
+   "baslik": "yeni dünyanın keşifleri ve coğrafi keşifler konusunda ek oku"
+  },
+  "H-0038": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İcatlar, iki kart.",
+   "delil": "data/ekokuma_dunya.js:84 `dunya-icatlar-erken-donem` · data/ekokuma_dunya.js:91 `dunya-icatlar-sinai-donem`",
+   "baslik": "çeşitli icat ve buluşlar konusunda ek okumalar yapalım"
+  },
+  "H-0039": {
+   "hukum": "sirada",
+   "sinif": "ek okuma + arayüz",
+   "not": "Geliştirici notu yüzü çözüldü (H-0047, js/app.js:10940). Kalan: idam edilen şair/sanatçı/bilim adamı/din adamı genel kartı + kişi kartları. Havuzda yalnız `nefi-idami` var; `tartisma-idam-edilen-devlet-adamlari` yalnız devlet adamlarını kapsıyor.",
+   "delil": "",
+   "baslik": "1044 Şâban / Ocak 1635"
+  },
+  "H-0040": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İran topraklarının elde tutulamaması.",
+   "delil": "data/ekokuma_dunya.js:102 `dunya-iran-topraklari-tartisma`",
+   "baslik": "iran toprakalrının nedne elde tutulamadığı ve osmanlı çekili"
+  },
+  "H-0041": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kuzey Karadeniz halkları / Kazak adı karışıklığı.",
+   "delil": "data/ekokuma_dunya.js:116 `dunya-kuzey-karadeniz-halklari-kazak-karisikligi`",
+   "baslik": "karadenizin kuzeyinde kırım taraları haricinde hangi halklar"
+  },
+  "H-0042": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma + kronoloji",
+   "not": "Kart var. Mükerrer yama da indi: bugün yalnız olaylar_ek7.js:76 '1638 dolayı … (rivayet)' kaydı var, 1632-06-01 kaydı yok (grep).",
+   "delil": "data/ekokuma_rivayet.js:50 `tartisma-hezarfen-ahmed-celebi-tarihlendirme` · data/olaylar_ek7.js:76",
+   "baslik": "1638 hezarfen ahmet çelebinin galata kulesinden uçuşu maddes"
+  },
+  "H-0043": {
+   "hukum": "senin-kararin",
+   "sinif": "veri + arayüz",
+   "not": "Aynı Erbil adacığı (H-0021 seçenekleri). Koyu/açık renk ikiliği H-0014 sınıfı.",
+   "delil": "",
+   "baslik": "bağdat tekrar fethedilir iken ele geçen ırak topraklarının b"
+  },
+  "H-0044": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz (geliştirici notu)",
+   "not": "Aynı not (Kemankeş 1638), aynı çare.",
+   "delil": "js/app.js:10940-10955 (eşleşme yoksa '🗺 haritadaki karşılığı' kutusu basılmıyor, teşhis console.debug'a gidiyor) · UI-0916 H-0047",
+   "baslik": "24 Aralık 1638"
+  },
+  "H-0045": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Şüpheli ölümler: 13 madde 13 kart (10 `supheli-olum-*` + Osman II, İbrahim, Kösem).",
+   "delil": "data/ekokuma_padisah.js:92 `supheli-olum-osman-dundar-1299` · data/ekokuma_padisah.js:117 `supheli-olum-cem-sultan-1495` · data/ekokuma_padisah.js:165 `supheli-olum-abdulaziz-1876` · data/ekokuma_padisah.js:189 `olum-kosem-sultan-1651`",
+   "baslik": "tartışmalı"
+  },
+  "H-0046": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "① Kemankeş kartı tam biyografiyle zenginleştirildi. ② Kasr-ı Şirin kartlarının 'hikâye/hükümler' ayrımı ZATEN VARDI: EKO-TAMAMLA ekokuma_kasrisirin.js'yi okuyup doğruladı (data/ekokuma_tamamla.js başlık notu §H-0046).",
+   "delil": "data/ekokuma_vezir.js:84 `kimdir-kemankes-mustafa-pasa` · data/ekokuma_tamamla.js:24-38",
+   "baslik": "kasrı şirin nalaşmasının içinde ek okuma olarak kemankeş kar"
+  },
+  "H-0047": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Geliştirici notu son kullanıcıya basılmıyor.",
+   "delil": "js/app.js:10940-10955 (eşleşme yoksa '🗺 haritadaki karşılığı' kutusu basılmıyor, teşhis console.debug'a gidiyor) · UI-0916 H-0047",
+   "baslik": "🗺 Bu maddenin haritadaki karşılığı"
+  },
+  "H-0048": {
+   "hukum": "senin-kararin",
+   "sinif": "ek okuma türü",
+   "not": "EKO-PADISAH yalnız denetim yaptı, kart yazmadı. Aile/evlilik içerikli 4 `magazin` kartı bulundu: ibrahim-telli-haseki-nikahi · ibrahim-hasekiler-pasmaklik-eyaletler · ibrahim-cocuk-yastaki-kizlar-damat-vezirler · magazin-nurbanu-safiye-murad-iii. Bugün hâlâ `magazin` türünde ve app.js'te 'aile künyesi' türü yok (grep 0). Karar: (a) yeni `aile-kunyesi` türü açılsın ve 4 kart taşınsın · (b) mevcut hâl kalsın.",
+   "delil": "",
+   "baslik": "padişah kronoloji maddelerinin içinde bazı magazin başlıklı"
+  },
+  "H-0049": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Lakaplar + sanat/zanaat.",
+   "delil": "data/ekokuma_padisah.js:247 `kimdir-padisah-lakaplari` · data/ekokuma_padisah.js:257 `kimdir-padisah-sanat-zanaat`",
+   "baslik": "padişah ek okuma maddelerine padişahın lakabı ile ilgili ek"
+  },
+  "H-0050": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İbrahim'in cülus rivayeti.",
+   "delil": "data/ekokuma_padisah.js:198 `tartisma-ibrahim-culus-rivayeti` · data/ekokuma_ibrahim.js:45 `ibrahim-culus-iki-kez-bakti-1640`",
+   "baslik": "ibrahimin tahta çıkışı ile ilgili anlatılan rivayetlerle ilg"
+  },
+  "H-0051": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Narh defterleri kartı.",
+   "delil": "data/ekokuma_kurum.js:84 `teknik-narh-defterleri`",
+   "baslik": "narh defterleri konusunda ek okuma maddeleri yapabiliriz. ve"
+  },
+  "H-0052": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Tahrir defterleri kartı.",
+   "delil": "data/ekokuma_kurum.js:101 `teknik-tahrir-defterleri`",
+   "baslik": "tahrir defterleri gibi nüfusun kaydedildiği defterlere dair"
+  },
+  "H-0053": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Mehter kartı.",
+   "delil": "data/ekokuma_toplum.js:99 `mehter-yeniceriyle-birlikte-lagvi`",
+   "baslik": "mehter bölüğü gibi ordu bandosu şeklinde iş yapan mehter mar"
+  },
+  "H-0054": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Matbaacılık (EKO-TOPLUM) + topçuluk ve gemicilik (EKO-TAMAMLA Tophane-Tersane). Dokuma ve el zanaatları için Feshane, lonca ve İznik çinisi kartları.",
+   "delil": "data/ekokuma_toplum.js:112 `muteferrika-matbaasi-kurulusu` · data/ekokuma_tamamla.js:122 `teknik-tophane-tersane-amire` · data/ekokuma_toplum.js:189 `feshane-osmanli-sanayilesme-girisimi` · data/ekokuma_toplum.js:205 `lonca-esnaf-teskilati`",
+   "baslik": "topçuluk gemicilik matbaacılık dokumacılık atölyecilik el za"
+  },
+  "H-0055": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Eğitim sistemi kartı.",
+   "delil": "data/ekokuma_kurum.js:118 `teknik-osmanli-egitim-sistemi`",
+   "baslik": "osmanlı devletinde eğitim konusunda ek okumalar yazıp ilgili"
+  },
+  "H-0056": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Hukuk sistemi kartı.",
+   "delil": "data/ekokuma_kurum.js:133 `teknik-osmanli-hukuk-sistemi`",
+   "baslik": "osmanlı devletinde hukuk sistemi ile ilgili ek okuma kartlar"
+  },
+  "H-0057": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İbrahim skandalları.",
+   "delil": "data/ekokuma_padisah.js:209 `tartisma-ibrahim-skandal-figurleri` · data/ekokuma_ibrahim.js:56 `ibrahim-cinci-hoca-nefes-ve-dam-1642`",
+   "baslik": "1.ibrahimin skandallarına dair ek okumalar yazalım."
+  },
+  "H-0058": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "'Deli' padişahlar.",
+   "delil": "data/ekokuma_padisah.js:47 `tartisma-deli-padisahlar-karsilastirma`",
+   "baslik": "osmanlının deli yada akıl hastası padişahları ve deli diye a"
+  },
+  "H-0059": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kemankeş Mustafa Paşa zenginleştirme.",
+   "delil": "data/ekokuma_vezir.js:84 `kimdir-kemankes-mustafa-pasa`",
+   "baslik": "kemankeş mustafa paşa maddesini ek okuma oalrak zenginleştir"
+  },
+  "H-0060": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Gedik Ahmed Paşa.",
+   "delil": "data/ekokuma_vezir.js:94 `kimdir-gedik-ahmed-pasa`",
+   "baslik": "gedik ahmet paşa hakkında devlete faydaları kişiliği ve idam"
+  },
+  "H-0061": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Sokullu.",
+   "delil": "data/ekokuma_vezir.js:104 `kimdir-sokullu-mehmed-pasa`",
+   "baslik": "sokullu mehmet paşa ek okuma yapalım devlete faydaları icraa"
+  },
+  "H-0062": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Pargalı.",
+   "delil": "data/ekokuma_vezir.js:114 `kimdir-pargali-ibrahim-pasa`",
+   "baslik": "pargalı ibrahim paşa hakkında idamı ve devlete faydaları kon"
+  },
+  "H-0063": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Rüstem + Koca Ragıp (idam sorusu düzeltmesiyle).",
+   "delil": "data/ekokuma_vezir.js:124 `kimdir-rustem-pasa` · data/ekokuma_vezir.js:134 `kimdir-koca-ragib-pasa`",
+   "baslik": "rüstem paşa ve koca ragıp paşa hakkında devlete faydaları id"
+  },
+  "H-0064": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Çandarlı'nın idamı (ad düzeltmesi: Halil).",
+   "delil": "data/ekokuma_vezir.js:144 `tartisma-candarli-halil-pasa-idami`",
+   "baslik": "çandarlı mehmet paşanın idamı sebeb sonuç ek okuması atrtışm"
+  },
+  "H-0065": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Nevşehirli Damad İbrahim.",
+   "delil": "data/ekokuma_vezir.js:154 `kimdir-nevsehirli-damad-ibrahim-pasa`",
+   "baslik": "nevşehirli damat ibrahim paşa hakkında faydaları icraatleri"
+  },
+  "H-0066": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kuyucu Murad.",
+   "delil": "data/ekokuma_vezir.js:165 `kimdir-kuyucu-murad-pasa`",
+   "baslik": "kuyucu murat paşa hakkında ek okumalar icraatleri yaşamı kon"
+  },
+  "H-0067": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Köprülüler, üç kart.",
+   "delil": "data/ekokuma_vezir.js:175 `kimdir-koprulu-mehmed-pasa` · data/ekokuma_vezir.js:185 `kimdir-koprulu-fazil-ahmed-pasa` · data/ekokuma_vezir.js:195 `kimdir-merzifonlu-kara-mustafa-pasa`",
+   "baslik": "köprülüler"
+  },
+  "H-0068": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Reşid · Âli · Midhat.",
+   "delil": "data/ekokuma_vezir.js:205 `kimdir-mustafa-resid-pasa` · data/ekokuma_vezir.js:215 `kimdir-ali-pasa-mehmed-emin` · data/ekokuma_vezir.js:225 `kimdir-midhat-pasa`",
+   "baslik": "mithatpaşa ali paşa msutafa reşit paşa hakkında ek okuma tar"
+  },
+  "H-0069": {
+   "hukum": "olculecek",
+   "sinif": "motor (yaslama)",
+   "not": "Rostov/Taganrog devir kenarları nehre yaslanmıyordu. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "bu azak kalesindeki üçkensel görüntü kusuruun sebebi nedir ç"
+  },
+  "H-0070": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Girit seferinin bedeli (H-0090 ile birleşik kart).",
+   "delil": "data/ekokuma_dunya.js:128 `dunya-girit-seferinin-bedeli`",
+   "baslik": "girit seferi için ek okuma yapalım giritin alınamsı nedne bu"
+  },
+  "H-0071": {
+   "hukum": "once-cozuldu",
+   "sinif": "ek okuma",
+   "not": "Samur vakası kartı bu paketten ÖNCE vardı (EKO-RIVAYET ölçtü, yeni kart yazmadı). Emre 'III. Selim' demişti, olay Sultan İbrahim dönemine ait.",
+   "delil": "data/ekokuma_ibrahim.js:89 `ibrahim-samur-meraki-falci-hikayesi`",
+   "baslik": "samur vergisi ve samur vakası ile alakalı ek okuma yapalım."
+  },
+  "H-0072": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Cihannümâ.",
+   "delil": "data/ekokuma_rivayet.js:71 `teknik-cihannuma-katib-celebi`",
+   "baslik": "CİHANNÜMA İLE İLGİLİ EK OKUMA YAZIP İLGİLİ MADDEYE KOYALIM"
+  },
+  "H-0073": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "İpşir 'deyyus' (sebebi kaynakta bulunamadı, kartta açık).",
+   "delil": "data/ekokuma_vezir.js:235 `magazin-ipsir-mustafa-pasa-deyyus`",
+   "baslik": "DEYYUSU EKBER İPŞİR MSUTAFA PAŞA İLE İLGİLİ EK OKUMA MAAGZİN"
+  },
+  "H-0074": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "IV. Mehmed'in cülus ağlaması: kart var, rivayetin kaynağı bulunamadı ve kartta açıkça damgalı.",
+   "delil": "data/ekokuma_padisah.js:77 `tartisma-mehmed-iv-culus-aglamasi`",
+   "baslik": "4.MEHMETİN CULSU TÖRENNDE KORKUP AĞLAMASI OLAYINI EK OKUMA M"
+  },
+  "H-0075": {
+   "hukum": "bayat",
+   "sinif": "ek okuma",
+   "not": "İltizam kartı EKO-KURUM'da; eksik kalan 'diğer devletlerle kıyas' sonradan EKO-PADISAH'ın mâlikâne–Ferme Générale kartıyla geldi.",
+   "delil": "data/ekokuma_kurum.js:148 `teknik-iltizam-sistemi` · data/ekokuma_padisah.js:321 `tartisma-malikane-avrupa-kiyaslama`",
+   "baslik": "İLTİZAM SİSTEMİ HAKKINDA EK OKUMA YAPALIM. BU DÖNEMDE BU İŞL"
+  },
+  "H-0076": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Çınar Vak'ası.",
+   "delil": "data/ekokuma_rivayet.js:96 `sebep-sonuc-cinar-vakasi-1656`",
+   "baslik": "ÇINAR VAKASI İLE ALAKALI EK OKUMALAR YAOALIM İLGİNÇ OLAYLAR"
+  },
+  "H-0077": {
+   "hukum": "cozuldu",
+   "sinif": "veri (yerleşim)",
+   "not": "Limni ve Semadirek Venedik'e 1656-07-13'te geçiyor (eskiden kaynaksız 08-21 idi; gün komşudan: Bozcaada).",
+   "delil": "girdi.yukle() Limni: d →1656-07-13 · s venedik 1656-07-13→1657-11-15 (data/yerlesimler.js)",
+   "baslik": "maddede bozcaada limni semadirek elden çıktı diye bahsediyor"
+  },
+  "H-0078": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Çanakkale bozgunu 1656.",
+   "delil": "data/ekokuma_dunya.js:141 `savas-canakkale-bozgunu-1656`",
+   "baslik": "13 temmuz 1656 da çanakkale bozgunu deniz yenilgisi ile alak"
+  },
+  "H-0079": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Donanma, üç kart.",
+   "delil": "data/ekokuma_dunya.js:163 `dunya-donanmanin-talihsiz-anlari` · data/ekokuma_dunya.js:171 `dunya-donanmanin-buyuk-zaferleri` · data/ekokuma_dunya.js:179 `dunya-donanma-avrupa-kiyaslama`",
+   "baslik": "osmanlıda denizcilik ile ilgili osmanlı donanması ile ilgili"
+  },
+  "H-0080": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "En başarılı sadrazamlar (11 isim).",
+   "delil": "data/ekokuma_vezir.js:245 `tartisma-en-basarili-sadrazamlar`",
+   "baslik": "osmanlının en başarılı 10 sadrazamı ek okuması yapalım. bu s"
+  },
+  "H-0081": {
+   "hukum": "cozuldu",
+   "sinif": "veri (yerleşim)",
+   "not": "Limni 1657-11-15'te Osmanlı'ya dönüyor. Semadirek de aynı gün dönüyor; Semadirek'in kendi geri alış günü kaynakta BULUNAMADI.",
+   "delil": "girdi.yukle() Limni/Semadirek d 1657-11-15→",
+   "baslik": "bozcaadayı ve limniyi aldığımız söyleniyor ama limni adası k"
+  },
+  "H-0082": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Keşfü'z-Zünûn.",
+   "delil": "data/ekokuma_rivayet.js:79 `teknik-kesfuzzunun-katib-celebi`",
+   "baslik": "Keşfü'z-zunûn bibliyografyası ile ilgili ek okuma yapalım"
+  },
+  "H-0083": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Yanova → Varad → Vasvar zinciri.",
+   "delil": "data/ekokuma_rivayet.js:397 `sebep-sonuc-rakoczi-erdel-seferi-1658-1664`",
+   "baslik": "Yanova'nın (Ineu) fethi ve Erdel seferi"
+  },
+  "H-0084": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Tâbi iç dolgusu Osmanlı kırmızısı, dışta tâbi renkli şerit.",
+   "delil": "js/app.js:2036-2041 (vassal-serit-dis #b2384a · vassal-dolgu #8e0b22)",
+   "baslik": "tabi devletlerin bölgelerinin sınırlarını tabi renk ile ince"
+  },
+  "H-0085": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Doğrudan olmayan yönetim statüleri kartı.",
+   "delil": "data/ekokuma_kurum.js:163 `teknik-osmanli-tabi-statu-listesi`",
+   "baslik": "osmanlıda direkt merkezi yönetim oalrak değilde ek farklı st"
+  },
+  "H-0086": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Eflak-Boğdan-Erdel hakları kartı (asker yükümlülüğü rakamı kaynakta yok, kartta 'ölçülemedi').",
+   "delil": "data/ekokuma_kurum.js:183 `teknik-eflak-bogdan-erdel-haklari`",
+   "baslik": "eflak boğdan ve erdelin tam oalrak nasıl hakları vardı iç iş"
+  },
+  "H-0087": {
+   "hukum": "sirada",
+   "sinif": "ek okuma + arayüz",
+   "not": "BUGÜN ÖLÇÜLDÜ: `hukum-alani-mesafe` kartında soru/baslik/ad alanı YOK ve data/ekokuma_baslik_oneri.js'te satırı YOK ⇒ _ekSatirBasligi (js/app.js) satır başlığını BOŞ basıyor. Metin paragraflı (EKO-KURUM ölçtü). Yapılacak: karta `baslik:` ya da EKOBASLIK_ONERI satırı (data/ekokuma.js sahibi).",
+   "delil": "",
+   "baslik": "l"
+  },
+  "H-0088": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Savaş stili karşılaştırması.",
+   "delil": "data/ekokuma_dunya.js:191 `dunya-savas-stili-karsilastirma`",
+   "baslik": "osmanlının savaş stili ile avrupalı devletlerin savaş stiler"
+  },
+  "H-0089": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "①–⑳ işaretli metin ayrı paragraflarda.",
+   "delil": "js/app.js:11521 function _maddeliMetniHtmle",
+   "baslik": "vasvar anlaşması hüükümleri metin üstüste yığılmış halbuki h"
+  },
+  "H-0090": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Girit muhasarasının bedeli. H-0070 ile aynı kart; insan ve mali kayıp sayısı TDV'de bulunamadı.",
+   "delil": "data/ekokuma_dunya.js:128 `dunya-girit-seferinin-bedeli`",
+   "baslik": "girit muhasarası girit seferi osmanlıan nelere maloldu. bu s"
+  },
+  "H-0091": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Genel tarihçilik kaynakları kartı + Neşrî · Naîmâ · Ahmed Cevdet kişi kartları. Vecihî Hasan Efendi: TDV slug 302, bulunamadı.",
+   "delil": "data/ekokuma_kurum.js:201 `teknik-osmanli-tarihciligi-kaynaklari` · data/ekokuma_kurum.js:216 `kimdir-nesri` · data/ekokuma_kurum.js:226 `kimdir-naima` · data/ekokuma_kurum.js:236 `kimdir-ahmed-cevdet-pasa`",
+   "baslik": "osmanlı tarihinin dayandığı tarihi kişileri ve kaynakları bi"
+  },
+  "H-0092": {
+   "hukum": "olculecek",
+   "sinif": "motor",
+   "not": "Doğu Katar 1610-1710'da Safevî boyanıyordu: puan dolgusu `_dordurcu` kasitli_bosluk bayrağına uymuyordu (GEOMETRI ⑥ Vladikavkaz ile aynı kök). Motor 16 Eylül'den beri çok değişti; o pencere koşu 16 gövdesinde ölçülmedi.",
+   "delil": "",
+   "baslik": "bu tarihte katar ve manama bahreyn safevileremi ait idi bunu"
+  },
+  "H-0093": {
+   "hukum": "bayat",
+   "sinif": "ek okuma",
+   "not": "Dayılık kartı EKO-KURUM'da; eksik kalan Tunus/Libya/Mısır/Doğu Afrika kıyası sonradan EKO-RIVAYET'in iki kartıyla geldi.",
+   "delil": "data/ekokuma_kurum.js:251 `teknik-cezayir-dayilik` · data/ekokuma_rivayet.js:302 `teknik-dogu-afrika-eyaletleri-idari-yapi` · data/ekokuma_rivayet.js:290 `sebep-sonuc-tunus-huseyniler-1705` · data/ekokuma_rivayet.js:320 `sebep-sonuc-trablusgarp-karamanlilar-1711`",
+   "baslik": "cezayirde dayı idaresinin başlaması maddesi ile anlatılan ey"
+  },
+  "H-0094": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Osmanlı-Fas ilişkileri kartı.",
+   "delil": "data/ekokuma_kurum.js:272 `teknik-osmanli-fas-iliskileri`",
+   "baslik": "osmanlı fas ilişkilerini kısaca anlatan bir ek okuma yapalım"
+  },
+  "H-0095": {
+   "hukum": "cozuldu",
+   "sinif": "veri (yerleşim)",
+   "not": "Bar koordinatı düzeltildi; yeni noktalar Vinnitsa · Braslav · Kostantinov · Jitomir · Berdiçev.",
+   "delil": "data/yerlesimler.js Bar (Podolya) 27.674 · data/yerlesimler_ukrayna_0916.js (5 nokta, GIRDI'de)",
+   "baslik": "podolyanın fethi maddesi sonrasında harita bu şekilde görünü"
+  },
+  "H-0096": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "'Kaynaklar ayrışmıyor' boş etiketi süzülüyor.",
+   "delil": "js/app.js:11548 function _tartismaVarMi",
+   "baslik": "27 Ağustos 1672 — Kamaniçe'nin fethi ve Podolya Eyaleti'nin"
+  },
+  "H-0097": {
+   "hukum": "olculecek",
+   "sinif": "motor + nokta",
+   "not": "Sınır şeritlerinde örtüşme (1.139 km²). Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak. Pripyat'taki hücresiz alan ayrı: 27-30D × 51-52.5K'de bugün 0 nokta (ölçüldü).",
+   "delil": "",
+   "baslik": "haritanın birbiri ile örtüşmediği veya üstüste bindiği bu ye"
+  },
+  "H-0098": {
+   "hukum": "senin-kararin",
+   "sinif": "veri + renk",
+   "not": "Colmar bugün hâlâ 1648-10-24'ten fransa (ölçüldü). Önerilen 1673-08-28 işgal gününün kaynağı ZAYIF (belediye kronolojisi, akademik teyit yok). Fransa/almanya renk borcu da duruyor. Karar: kaynak aransın mı, yoksa önerilen gün mü uygulansın?",
+   "delil": "",
+   "baslik": "colmaz şehrinin orada bölgenin kime ait olduğu belli değil n"
+  },
+  "H-0099": {
+   "hukum": "olculecek",
+   "sinif": "motor + veri",
+   "not": "Liège, Tournai ve Edinburg şeritleri. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak. Yan kalem: Edinburg bugün de 1281→1923 `ingiltere` (1707 öncesi İskoçya olmalı), kaynakla sınanmadı.",
+   "delil": "",
+   "baslik": "haritanın birbiri ile uç uca örtüşmemesi ve üstüste binmesi"
+  },
+  "H-0100": {
+   "hukum": "kosu-bekliyor",
+   "sinif": "motor (B görünümü)",
+   "not": "B görünümünün dolgu motoru yazıldı ama VARSAYILAN KAPALI (uret_petek.py:7958-7962 MOTOR_B_DOLGU=1). data/dolgu.js ÜRETİLMEMİŞ (ls: yok). ⇒ B'de boşluk kapanması bayraklı bir koşuya bağlı.",
+   "delil": "",
+   "baslik": "bu boş alanlar B görünümüne geçince düzelecek değilmi B görü"
+  },
+  "H-0101": {
+   "hukum": "kosu-bekliyor",
+   "sinif": "motor (B görünümü)",
+   "not": "H-0100 ile aynı: B dolgusu kapalı, dolgu.js yok.",
+   "delil": "",
+   "baslik": "buraalrdaki boşluklar ve enklavlar ve iki ülke arası sahipsi"
+  },
+  "H-0102": {
+   "hukum": "olculecek",
+   "sinif": "motor",
+   "not": "Kazak bozkırında hücresiz şeritler: dış halka puanı dolduruyordu. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "bu saçma ince uzun görünümün sebebi nedir"
+  },
+  "H-0103": {
+   "hukum": "sirada",
+   "sinif": "nokta",
+   "not": "Aral kıyısında hücresiz alan. Çare motor değil, kıyı noktası (GEOMETRI ⑧). Bugün 57.5-62.5D × 43-47.5K'de 4 nokta var. GEOMETRI'nin andığı Emre kararı ('devasa boşluklar olacaksa olsun') bu maddeye özel olarak teyit edilmeli.",
+   "delil": "",
+   "baslik": "renklendirme haritamızı aral gölünün kıyılarına 4. derece ka"
+  },
+  "H-0104": {
+   "hukum": "kosu-bekliyor",
+   "sinif": "motor (B görünümü)",
+   "not": "H-0100 ile aynı.",
+   "delil": "",
+   "baslik": "B tipi haritalama ile bu aradaki boşluk ve ülkeler arası sah"
+  },
+  "H-0105": {
+   "hukum": "olculecek",
+   "sinif": "motor (tavan)",
+   "not": "200 km / 5 gün tavanı, saate bağlı tavan kararı (12 Eylül). Yürüyüş motoru sonradan üretime girdi; bu yerleşimlerde bugünkü çizim ölçülmedi. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "bu yerleşim etrafına 200 km ve 5 günlük yürüme djikstrası il"
+  },
+  "H-0106": {
+   "hukum": "olculecek",
+   "sinif": "motor (tavan)",
+   "not": "Gauhati ve Sibsagar, H-0105 ile aynı.",
+   "delil": "",
+   "baslik": "gauhati ve sibsagar şehirleri etrafına bölge yayar iken 5 gü"
+  },
+  "H-0107": {
+   "hukum": "olculecek",
+   "sinif": "motor",
+   "not": "Şan tek dönem 1281→1923; Chiang Mai payı. Bayat gövde sınıfı, kafes tek başına yetmez. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "burada birbiri üzerine binmiş ve ufak tefekde boşluk kalmış"
+  },
+  "H-0108": {
+   "hukum": "sirada",
+   "sinif": "nokta",
+   "not": "Hainan'da bugün TEK nokta var: Qiongzhou (ölçüldü). Adanın kıyıya oturmaması tavan/noktasızlık kaynaklı; kaynaklı ek nokta gerekiyor.",
+   "delil": "",
+   "baslik": "neden adanın kıyıalrına birebir örtümemiş renk yayılımı ve h"
+  },
+  "H-0109": {
+   "hukum": "olculecek",
+   "sinif": "motor",
+   "not": "B2 kanadı (yarı genişlik ≤333 km) + hücresiz şerit. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "bu ince uzun bozuk görüntülerin sebebi nedir"
+  },
+  "H-0110": {
+   "hukum": "olculecek",
+   "sinif": "motor + karar",
+   "not": "Hong Kong hücresinin 1841 öncesi payı Makao'ya gidiyor. Çare (a) veri ya da (b) motor, karar gerekiyor. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "haritanın birbiri üzerine örtüşmemesi ve birbiri üzerine bin"
+  },
+  "H-0111": {
+   "hukum": "zaten-dogru",
+   "sinif": "harita (cevap)",
+   "not": "Amur/Mançurya tenhalığı gerçek: kaynaklı yeni nokta BULUNAMADI, 14 noktanın 5'i sonradan kurulmuş, 3'ü beyanlı boşluk (HARITA-VERI). Boşluk Emre'nin 'boşluk olsun' kararıyla uyumlu.",
+   "delil": "",
+   "baslik": "bu alanda başka hiç yerleşim yok mu bu kadar tenha mı bu top"
+  },
+  "H-0112": {
+   "hukum": "olculecek",
+   "sinif": "motor (B2 zinciri)",
+   "not": "Sibirya benekleri: B2 yalnız ana kütleye bağlıyor, zincirleme yok (MOTOR-0916). Zincir B2'nin sonradan yazılıp yazılmadığı ölçülmedi. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "b görünümü etkinleştirilince enklavları birleştirme fonksiyo"
+  },
+  "H-0113": {
+   "hukum": "sirada",
+   "sinif": "veri (nokta + künye)",
+   "not": "Palopo ve Bau-Bau noktaları YOK (ölçüldü). `luwu` ve `buton` künyesi de YOK (devletler.js grep 0). Sıra: önce künye + renk, sonra nokta.",
+   "delil": "",
+   "baslik": "bu adayı bölüşeek kadar yerleşim yokmuymuş bu adada"
+  },
+  "H-0114": {
+   "hukum": "sirada",
+   "sinif": "arayüz",
+   "not": "'Devletsiz' halka işareti bugün de zamansız çiziliyor (js/app.js:2692-2698, kendi yorumu 'ZAMAN BOYUTU YOK'). Yapılacak: işaret yalnız sahipsiz olduğu tarihlerde çizilsin.",
+   "delil": "",
+   "baslik": "buradaki şehirlerin sütüne tıklayınca devletsiz eşhir idarei"
+  },
+  "H-0115": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Sünnet düğünü (1582), doğum şenliği (Hibetullah Sultan, EKO-TAMAMLA), nikâh ve düğün (Telli Haseki).",
+   "delil": "data/ekokuma_toplum.js:125 `sehzade-mehmed-sunnet-dugunu-1582` · data/ekokuma_tamamla.js:137 `sebep-sonuc-hibetullah-sultan-dogum-senligi` · data/ekokuma_ibrahim.js:100 `ibrahim-telli-haseki-nikahi`",
+   "baslik": "padişahların sünnet düğünleri evlilik düğünleri gibi şenlikl"
+  },
+  "H-0116": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Hanedan evlilik/cariyelik kartı.",
+   "delil": "data/ekokuma_toplum.js:138 `hanedan-evlilik-cariyelik-nikahi`",
+   "baslik": "osmanlı hanedanı konusunda evlilik müessesesi ve nikah cariy"
+  },
+  "H-0117": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Harem hiyerarşisi kartı.",
+   "delil": "data/ekokuma_toplum.js:150 `darussaade-agasi-harem-hiyerarsisi`",
+   "baslik": "harem teşkilatını anlatan ek okumalar yapalım harem nasıl bi"
+  },
+  "H-0118": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Kölelik kartı.",
+   "delil": "data/ekokuma_toplum.js:163 `kolelik-pencik-kanunundan-kalkisa`",
+   "baslik": "osmanlı toplumunda kölelik ile ilgili ek okumalar yazalım. k"
+  },
+  "H-0119": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Ticaret kartı.",
+   "delil": "data/ekokuma_toplum.js:176 `osmanli-ingiliz-ticaret-mekanizmasi-1580`",
+   "baslik": "osmanlıda ticaret konusunda ek okuma yapalım"
+  },
+  "H-0120": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Sanayi kartı.",
+   "delil": "data/ekokuma_toplum.js:189 `feshane-osmanli-sanayilesme-girisimi`",
+   "baslik": "osmanlıda sanayi konusunda ek okuma yapalım"
+  },
+  "H-0121": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Esnaf/lonca kartı.",
+   "delil": "data/ekokuma_toplum.js:205 `lonca-esnaf-teskilati`",
+   "baslik": "osmanlıda esnaf ve zanaatkarlar ile ilgili ek okuma yapalım"
+  },
+  "H-0122": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Madde görseli kırpılmıyor.",
+   "delil": "css/style.css:1797-1809 .ob-madde-gorsel-kart img { object-fit: contain }",
+   "baslik": "merzifonlu kara msuatfa paşanın sadrazamlığa atanması maddes"
+  },
+  "H-0123": {
+   "hukum": "sirada",
+   "sinif": "veri (yerleşim)",
+   "not": "Uman yaması İNDİ (d 1674-01-01→1699-01-26, ölçüldü). Çehrin İNMEDİ: bugün 1569→1678-08-21 lehistan. Önerilen 1672 sonrası Doroşenko (Osmanlı himayesi) ve 1676-09-19 Rus dönemi yazılmamış.",
+   "delil": "",
+   "baslik": "çehrin kalesi düştüğünde böyle ortada bir uman şehri ve lehi"
+  },
+  "H-0124": {
+   "hukum": "olculecek",
+   "sinif": "motor",
+   "not": "H-0012 ile aynı hücre (1679 Gürcistan); uç boşluğu hiç ölçülmedi. Motor 16 Eylül'den beri değişti: yürüyüş motoru (koşu 6/14), GOVDE-CAKISMA-0079 'ekleme komşu toprağını kesmez' (uret_petek.py:6572, koşu 16 76351781; GEOMETRI'nin KAFES reçetesiyle aynı çare), BOGAZ-OLCUM (55dfa2b5). Bu vaka koşu 16 gövdesinde ÖLÇÜLMEDİ: ölçüm aleti kayıpsız kodlama (f312269b) öncesi biçime yazılmış, koşu sürerken ağır ölçüm yasak.",
+   "delil": "",
+   "baslik": "bu kzueye uzanan üçken bölge en ucunda da bir boşluk var old"
+  },
+  "H-0125": {
+   "hukum": "sirada",
+   "sinif": "veri (ad)",
+   "not": "Cevap: Kabartay beylikleri vardı (künye `kabartay`, renk #0c5a84); Nalçik şehri yoktu (1818 Rus kalesi). Ama nokta hâlâ 'Kabartay (Nalçik)' adını taşıyor (yerlesimler.js:616). 1818 öncesi için anakronik; ad düzeltmesi yapılacak.",
+   "delil": "",
+   "baslik": "kabartay nalçik şehri ve beyliği bu tarihte var imiş mi teyi"
+  },
+  "H-0126": {
+   "hukum": "olculecek",
+   "sinif": "kaynak sorusu",
+   "not": "H-0002 ile aynı durum. Kısmi cevap kartlarda var: tartisma-karadeniz-cerkezler · tartisma-karadeniz-kirim-tatar-nogay. Kuban/Stavropol Nogay bozkırının o tarihteki bağlılığı madde tarihinde ölçülmedi.",
+   "delil": "",
+   "baslik": "anapa tuapse soçi yekaterinodar kuban maykop çerkezyakuban n"
+  },
+  "H-0127": {
+   "hukum": "cozuldu",
+   "sinif": "ek okuma",
+   "not": "Hat · ebru · çini, üç kart.",
+   "delil": "data/ekokuma_toplum.js:218 `hat-sanati-sheyh-hamdullah-hafiz-osman` · data/ekokuma_toplum.js:229 `ebru-sanati-ipek-yolundan-istanbula` · data/ekokuma_toplum.js:240 `iznik-cinicilik-cokusu`",
+   "baslik": "hat sanatı ebru sanatı çini sanatı ile ilgili ek okuma madde"
+  },
+  "H-0128": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Portreye tıklayınca albüm açılıyor. Bugün padişah başına tek görsel var; mimari birden çok görsele hazır.",
+   "delil": "js/app.js:6864 function portreAlbumuAc",
+   "baslik": "padişah resmine tıklanınca o padişah ile ilgili resim albümü"
+  },
+  "H-0129": {
+   "hukum": "cozuldu",
+   "sinif": "arayüz",
+   "not": "Sağ tık mesafe ölçer.",
+   "delil": "js/app.js:3030 function _olcumMesafeYazi",
+   "baslik": "mesafe ölç isminde bir cetvel yapalım haritaya sağ tıklayınc"
+  }
+ }
+}

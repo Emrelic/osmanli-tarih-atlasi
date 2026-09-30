@@ -154,6 +154,10 @@ window.EKOKUMA = [
 // "niçin tam burada durdu?"
 ,{ id:"hukum-alani-mesafe",
    tur:"teknik-bilimsel",
+   // UYGULA-KART-0930 (0052/H-0087): soru/baslik/ad alanı yoktu ve
+   // EKOBASLIK_ONERI'de satırı yoktu ⇒ _ekSatirBasligi satır başlığını BOŞ
+   // basıyordu. Başlık kartın kendi metninin ilk sorusundan alındı.
+   baslik:"Bir başkent ne kadar uzağa hükmedebilir? Menzil, konak ve sefer mevsimi",
    olay:["1529-09","1663-09-24","1683-09-12"],
    kisa:"Viyana çok uzak değildi — çok geçti. Bir imparatorluğun sınırını mesafe değil takvim çizdi.",
    metin:"Bir başkent, kendisinden ne kadar uzaktaki toprağa gerçekten hükmedebilir? Osmanlılar bu soruyu kilometreyle değil SAATLE cevaplıyordu — ve bıraktıkları kayıtlar bugün ölçülebiliyor.\n\n"

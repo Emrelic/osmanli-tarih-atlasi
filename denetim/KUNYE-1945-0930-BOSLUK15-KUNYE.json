@@ -1,0 +1,39 @@
+{
+  "oturum": "KUNYE-1945-0930",
+  "tarih": "2026-09-30",
+  "not": "KRONO-BOSLUK-OLC-0930'un ölçtüğü 15 künyesiz taraf kimliğinden kaynağı yetenler. Aynı BIRLESTIR kapılarından geçer. Öteki 13 kimliğin hükmü denetim/KUNYE-1945-0930.md §BOSLUK15.",
+  "kayitlar": [
+    {
+      "islem": "yeni",
+      "id": "dogu-macar-kralligi", "ad": "Doğu Macar Krallığı (Szapolyai / Zapolya)", "tur": "krallik",
+      "bolge": "orta-avrupa",
+      "f": "1526-08-29", "t": "1541-08-29",
+      "baskent": "Buda → Gyulafehérvár",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "Mohaç bozgunundan sonra Szapolyai János'un (I. János) Habsburg Ferdinand'a karşı rakip kral olarak yönettiği, Osmanlı desteğine dayanan doğu Macar krallığı; I. János'un 1540'ta ölümünden sonra Budin beylerbeyiliğe dönüştü, doğusu 1541'de Osmanlı'ya bağlı Erdel oldu. Öncülü [[macaristan]], ardılı [[erdel]].",
+      "kaynak": "TDV erdel — 'Onun 1540'ta ölümünden sonra Osmanlılar Budin'i beylerbeyilik merkezi haline getirip doğrudan' · 'Böylece 1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi.' · TDV macaristan — '1540'ta I. János ölünce Budin merkezli bir Osmanlı beylerbeyiliği kuruldu.'",
+      "ic_not_f": "gün komşudan: macaristan (t: 1526-08-29, Mohaç — o künyenin ozet'i günü taşır) · TDV rakip kral seçilmesini GÜNLEMİYOR (erdel/macaristan maddeleri; zapolya maddesi YOK). Kronolojideki 1526-11-10 seçilme günü kronoloji_macaristan.js'in kendi kaydıdır, burada dayanak DEĞİL.",
+      "ic_not_t": "gün komşudan: erdel (f: 1541-08-29 — o künye TDV erdel'e dayanıyor, 29 Eylül 2026 KUNYE-BIRLESTIR-0929) · TDV bu künye için yalnız YIL verir (1541). Ardıl künyenin penceresi TUTUYOR (§3.5 ③).",
+      "kronoloji": [
+        { "t": "1540-01-01", "tur": "hukumdar", "b": "I. János (Szapolyai) öldü; Budin Osmanlı beylerbeyiliğine dönüştü", "gun": "1540 (TDV yıl verir)", "kaynak": "TDV macaristan: '1540'ta I. János ölünce Budin merkezli bir Osmanlı beylerbeyiliği kuruldu.'" },
+        { "t": "1541-08-29", "tur": "son", "b": "Erdel Osmanlı'ya bağlı haraçgüzar voyvodalık oldu", "gun": "1541 (TDV yıl verir; gün komşudan: erdel)", "kaynak": "TDV erdel" }
+      ]
+    },
+    {
+      "islem": "yeni",
+      "id": "kuca-hocalari", "ad": "Kuça Hocaları (Döngen-Uygur Birleşik Hükûmeti)", "tur": "devlet",
+      "bolge": "orta-asya",
+      "f": "1864-01-01", "t": "1867-12-31",
+      "baskent": "Kuça",
+      "harita": null, "boya_gerekli": true,
+      "ozet": "1864 Müslüman ayaklanmasıyla Kuça'da kurulan Döngen-Uygur birleşik hükûmeti; Yâkub Beg 1867'de Kuça'yı ele geçirince sona erdi. Ardılı [[yakub-beg]].",
+      "kaynak": "TDV dongen — '1864'te Kuça'da Döngen-Uygur Birleşik Hükümeti'nin kurulmasına imkân vermiş' · TDV turfan — 'Yâkub Beg 1866'da Hoten'i, 1867'de Kuça'yı ele geçirdikten sonra 1868'de Turfan ve Kumul'u kendine bağladı.'",
+      "ic_not_f": "YIL hassasiyeti: TDV dongen yalnız 1864 verir.",
+      "ic_not_t": "ÜST SINIR, gün değil: TDV turfan yalnız YIL verir (1867); t yılın son günü seçildi ki künye gerçek bitişten önce kesilmesin. Ardıl yakub-beg (f 1865) penceresiyle örtüşür — Yâkub Beg 1865'te Kaşgar'da kuruldu, Kuça'yı 1867'de aldı; örtüşme GERÇEKTİR (iki ayrı merkez).",
+      "kronoloji": [
+        { "t": "1864-01-01", "tur": "kurulus", "b": "Kuça'da Döngen-Uygur Birleşik Hükûmeti kuruldu", "gun": "1864 (TDV yıl verir)", "kaynak": "TDV dongen" },
+        { "t": "1867-01-01", "tur": "son", "b": "Yâkub Beg Kuça'yı ele geçirdi", "gun": "1867 (TDV yıl verir)", "kaynak": "TDV turfan" }
+      ]
+    }
+  ]
+}

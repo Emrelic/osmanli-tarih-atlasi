@@ -1,0 +1,26 @@
+--- a/js/app.js
++++ b/js/app.js
+@@ -5148,11 +5148,21 @@
+ // kayıtları tarihe göre sıralanıp ardışık ikili ok'a çevriliyor. Bugün bu
+ // desene uyan TEK zincir Şahkulu (Teke → Sivas); veri değişirse (yeni bir
+ // çok-noktalı isyan eklenirse) kod ELLE DOKUNULMADAN yeni oku üretir.
++// 🔴 ARAYUZ-MADDE-0930 · paket 0081 H-0009 — Emre: Teke→Sivas düz okunu
++// "kaldıralım". Ölçüldü: ok bir sefer kaydı DEĞİL, bu köprünün AD ÖNEKİNDEN
++// ÜRETTİĞİ tek zincir (savaslar.js Şahkulu (Teke) · Şahkulu (Sivas)). Ad
++// benzerliği bir YAYILMA BEYANI değildir — iki ayrı çatışma yeri aynı isyana
++// ait olabilir, ama aralarında bir güzergâh olduğunu kaynak söylemedikçe düz
++// ok UYDURMADIR. ⇒ Köprü artık yalnız AÇIK beyanla çalışır: kayıtta
++// `yayilma:"<zincir-adı>"` alanı olmalı; aynı zincir adını taşıyan kayıtlar
++// tarih sırasıyla bağlanır. Ölçüldü: bugün bu alanı taşıyan kayıt 0 ⇒ ok
++// üretilmez. p4/H-0012 kapasitesi (desen, glif, renk) SİLİNMEDİ — kaynağı
++// yayılmayı yazan bir isyan için alan eklemek yeter.
+ function isyanYayilmaUret() {
+   var grup = {};
+   savaslar.forEach(function (s) {
+-    if (s.tur !== "isyan" || !s.lat || s.ad.indexOf(" (") < 0) return;
+-    var kok = s.ad.split(" (")[0];
++    if (s.tur !== "isyan" || !s.lat || !s.yayilma) return;
++    var kok = String(s.yayilma);
+     (grup[kok] = grup[kok] || []).push(s);
+   });
+   var out = [];

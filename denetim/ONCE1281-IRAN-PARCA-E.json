@@ -1,0 +1,24 @@
+{
+ "grup": "E",
+ "not": "M-5694 sonrası ek tur (ONCE1281-IRAN-TURKISTAN, 1 Ekim 2026): TDV ajax araması 'KERT' maddesini buldu (slug kert, 200) — önceki turda 'kertler/kert-hanedani 302' diye yok sanılmıştı. Maddeler bu gövdeden.",
+ "kunyeler": [],
+ "maddeler": [
+  {"t":"1246-01-01","k":"olay","b":"Şemseddin Kert Mültan'ı Moğol yağmasından kurtardı","gun":"644/1246 (TDV yıl verir)","yer":"Mültan",
+   "kisiler":"Şemseddin Muhammed Kert","d":"Moğolların Mültan kuşatması sırasında şehrin valisi Herat hâkimi Şemseddin Kert'ten aracılık istedi. Şemseddin Moğolları ikna etti; şehir 100.000 dinar karşılığında yağmadan kurtuldu. Kert meliki böylece Moğol hâkimiyetinin Hint sınırındaki aracısı konumuna yükseldi.",
+   "kaynak":"TDV: kert (KERT)","alinti":"Nitekim Mültan kuşatması sırasında (644/1246) valinin ricasıyla Moğollar’ı ikna etmiş ve 100.000 dinar karşılığında şehri yağmalanmaktan kurtarmıştır.","alinti_slug":"kert",
+   "taraflar":["kert","mogol-imparatorlugu"],"etiket":["konu-siyasi"],"ic_not":"Toprak değişimi yok; Kert'in Moğol vasallığındaki rolünü gösteren tek 1246 kaydı. Kuşatan Moğol kolu TDV'de adıyla yok."},
+  {"t":"1257-01-01","k":"olay","b":"Mültan Valisi Kaşlu Han, Şemseddin Kert'in aracılığıyla Moğol hâkimiyetine girdi","gun":"655/1257 (TDV yıl verir)","yer":"Mültan",
+   "kisiler":"Şemseddin Muhammed Kert, İzzeddin Balban Kaşlu Han","d":"Delhi sultanıyla arası açılan Mültan Valisi İzzeddin Balban Kaşlu Han, Herat'taki Kert meliki Şemseddin'in gayretleriyle Moğol hâkimiyetini tanıdı. Mültan böylece Delhi Sultanlığı'ndan kopup Moğol nüfuz alanına geçti.",
+   "kaynak":"TDV: kert (KERT)","alinti":"655’te (1257) Delhi sultanı ile arası açılan Mültan Valisi İzzeddin Balban Kaşlu Han onun gayretleriyle Moğol hâkimiyetine girdi.","alinti_slug":"kert",
+   "taraflar":["kert","delhi-sultanligi","mogol-imparatorlugu"],"etiket":["toprak-kayip","konu-siyasi"],"ic_not":"toprak-kayip Delhi Sultanlığı açısından; Moğol tarafı için kazanç."},
+  {"t":"1265-01-01","k":"savas","b":"Şemseddin Kert Kuh-ı Cud ve Binban emîri Muhammed Karluk'a saldırdı; bölge Moğol hâkimiyetine girdi","gun":"1265 (TDV yıl verir)","yer":"Kuh-ı Cud ve Binban",
+   "kisiler":"Şemseddin Muhammed Kert, Muhammed Karluk","d":"Hülâgû'nun yanında yer alan Şemseddin Kert, Moğol vasallığını seçen Lahor ve Mültan valilerine karşı Delhi sultanına yardım eden Kuh-ı Cud ve Binban emîri Muhammed Karluk'a saldırdı. Sonuçta bölge Moğol hâkimiyetine girdi.",
+   "kaynak":"TDV: kert (KERT)","alinti":"Nitekim Moğollar’ın vasallığını seçen Lahor ve Mültan valilerine karşı Delhi sultanına yardım eden Kuh-ı Cud ve Binban Emîri Muhammed Karluk bu sebepten Şemseddin’in hücumuna uğramış (1265) ve sonuçta bölge Moğol hâkimiyetine girmiştir.","alinti_slug":"kert",
+   "taraflar":["kert","ilhanli"],"etiket":["toprak-kazanc","konu-askeri"],"ic_not":"'Moğol hâkimiyeti' 1265'te İlhanlı üst hâkimiyeti olarak okundu (TDV: Şemseddin 1260 sonrası Hülâgû'nun yanında). Karşı taraf künyesiz: Karluk emirliği (Kuh-ı Cud = Tuz Sıradağları)."}
+ ],
+ "bulunamadi": [
+  "M-5694 ajax araması (1 Ekim): Hasanveyh · Kerâyit · Nayman · Ong Han · Yezd Atabeg için TDV madde başlığı YOK (ajax 'sonuç bulunamadı') — 'bulunamadı' hükmü artık arama ucuyla da doğrulandı. Şebânkâre: yalnız 'ŞEBÂNKÂREÎ' (şair-tarihçi, kişi) — hânedan maddesi yok.",
+  "Melikşah: TDV maddesi VAR (meliksah--buyuk-selcuklu, 200) — önceki 'slug 302' notu yanlıştı; olaylar selcuklular gövdesinden alınmıştı, kaynak zaten TDV, değişiklik gerekmedi.",
+  "Tekiş: TDV maddesi VAR (tekis-alaeddin, grup B önbelleğinde) — Irak Selçuklu sonu 1194 için gün yine yok."
+ ]
+}
