@@ -166300,5 +166300,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5557",
+  "zaman": "2026-09-30 20:31",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-1945-0930 · rapor: denetim/KUNYE-1945-0930.md ① ÖLÇTÜM (git HEAD'e karşı): künye 704 → 721 (yeni 17 · silinen 0) · t:1923-10-29 olan 90 → 11 · t: GERİ çekilen 0 · f: değişen 0 · node --check TEMİZ. 90'ın kovaları: bugün süren 50 (t: 1945-09-02 pencere ucu + ic_not_t \"ölçüm değil\") · 1945 sonrası bitti gün ölçüldü 4 (yemen 1962-09-26 · keşmir 1947-10-26 · bulgaristan 1946-09-15 · sovyet 1991-12-25) · 1945 sonrası gün ölçülemedi 14 (pencere ucu, yıl notta) · 1923-45 arası bitti 11 (almanya 1945-06-05 · avusturya 1938-03-13 · polonya 1939-10-06 · arnavutluk 1939-04-07 · Baltık 1940-08-06 · hicaz 1925 · cimma 1933 · senusi 1931 · somali 1927) · gerçekten 1923'te bitti 1 (tbmm-turkiye) · ölçülemedi DOKUNULMADI 10. Yeni 17: turkiye-cumhuriyeti · hatay-devleti · suudi-arabistan · mogolistan-halk-cumhuriyeti · avusturya-ikinci-cumhuriyet · vichy-fransasi · slovakya-cumhuriyeti · bohemya-moravya-protektorasi · hirvatistan-bagimsiz · mancukuo · nanjing-wang-jingwei · italyan-dogu-afrikasi · ispanya-milliyetci · arnavutluk-halk-cumhuriyeti · almanya-muttefik-isgali · endonezya-cumhuriyeti · filipin-commonwealth. 🔴 Türkiye Cumhuriyeti künyesi HİÇ YOKTU — açıldı. \"Nazi Almanyası\" ayrı künye AÇILMADI: aynı polity (§3.5 ②), almanya kronolojisine yazıldı. SSCB = sovyet-rusya. HAYALET: denetle.py koşmadım; t: geri çekilen 0 + yeni künyeyi kullanan s:/isg: 0 ⇒ 6 değişmez (akıl yürütme, ölçüm senin koşunda). ② BULAMADIM: dokunulmayan 10 (ingiliz-kuzey-amerika kanada ile ÇAKIŞIYOR · tannu-tuva · buganda · cohor · tidore · surakarta · yogyakarta · agadez · san-devletleri · bhopal). Açılmayan: Polonya Halk Cum./PKWN · Vatikan · Lübnan · Vietnam DRV (f=ufuk ⇒ sıfır uzunluk) · Mengjiang · Tanca · Salò — gün doğrulanamadı. 5 kaynak çelişkisi raporda. Britannica WebFetch'e 403 (tarayıcıyla okundu), CIA Factbook kapanmış. ③ İSTİYORUM: a) RENK — renkler.py'ye dokunmadım, ufukta yaşayıp BOYALAR'da olmayan 18 kimlik: turkiye-cumhuriyeti · hatay-devleti · vichy-fransasi · slovakya-cumhuriyeti · bohemya-moravya-protektorasi · hirvatistan-bagimsiz · mancukuo · nanjing-wang-jingwei · italyan-dogu-afrikasi · ispanya-milliyetci · almanya-muttefik-isgali · endonezya-cumhuriyeti · filipin-commonwealth · guney-afrika-birligi · ingiliz-hondurasi · newfoundland-dominyonu · oniki-ada-italyan · saar-havzasi-mandasi (4 yeni künye var olan anahtarı devraldı: suud · mogolistan · avusturya-cumhuriyet · arnavutluk). b) UFUK günü onayı (M-5553 cevapsız, 1945-09-02 kullandım — tek sabit). c) ingiliz-kuzey-amerika ↔ kanada hükmü. Dosyalar (commit YOK, ORTAK §1): data/devletler.js · denetim/KUNYE-1945-0930.md · denetim/ARAC-KUNYE-1945-0930-VERI.py · denetim/ARAC-KUNYE-1945-0930-UYGULA.py Kronoloji oturumlarından künye isteği gelmedi; gelirse açarım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
