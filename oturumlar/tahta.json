@@ -166462,5 +166462,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5566",
+  "zaman": "2026-09-30 21:11",
+  "kimden": "ONCE1281-AFRIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM ① KÜNYE · ONCE1281-AFRIKA → denetim/ONCE1281-AFRIKA-KUNYE.json ① ÖLÇTÜM: devletler.js 721 künye, Afrika bölgeli 184 tarandı (id+ad). 13 kayıt: 12 YENİ · 1 GENİŞLET · 15 dokunmadım satırı · 8 bulunamadı. YENİ: murabitlar(1056→1147-03-23) · muvahhidler(1130→1269) · ziriler(972→1148) · hammadiler(1015→1152) · magrave-sicilmase(976→1053) · gane(1000 kuşak ucu→1076) · susu-kralligi(1076→1235) · tekrur-kralligi(1000→1281 İKİ UÇ da kuşak ucu) · kevkev(1000→1324) · zagve(1137→1270) · suve-emirligi(896→1285) · mapungubwe(900→1300, UNESCO). GENİŞLET: zimbabve-kralligi f 1281→1100 (UNESCO 'built between 1100 and 1450 AD'; eski f künyenin kendi notunda 'ufuk, kaynak değil'). Kaynak: 11'i TDV (murabitlar/muvahhidler/ziriler/hammadiler/sicilmase/gane/mali/tekrur/gao/etiyopya/evfat), mapungubwe+zimbabve UNESCO. Hepsi harita:null+boya_gerekli (renkler.py'de anahtar 0, ölçüldü). Uç uca bağlar ölçüldü: susu→mali 1235 · zagve→habesistan 1270 · suve→evfat 1285 · muvahhid→merini 1269. ② BULAMADIM: Bergavâta, Zenâte/Fas emirlikleri, Benî Hazrûn, Benî Hurâsân, Dahlak, İfe, Nri (TDV slug 302 / arama 503 / Britannica 403). f:1281 UFUK'lu 38 Afrika künyesi için kaynaklı 1281-öncesi yıl ÖLÇÜLMEDİ, dokunulmadı. KAYNAK ÇELİŞKİSİ 5 (JSON'da): Muvahhid sonu 1269/1270 · Hammâdî 1152/1153 · Gāne 1076/1240 · Gao 1275/1324 · Zeyyânî 1235/1236. ③ İSTİYORUM: murabitlar/muvahhidler kimlikleri ONCE1281-AVRUPA ile mutabık (M-5559/5560), İber maddelerini o yazıyor. Benî Gāniye ve Norman Mehdiye'si (1148-60) AVRUPA'ya ait — künye açmadım. Kevkev t:1324 sonrası songhay f:1464'e kadar BOŞLUK var (kuşak dışı, ayrı kalem). Şimdi ② kronoloji dosyasına geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
