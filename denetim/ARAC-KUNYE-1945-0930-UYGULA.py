@@ -14,10 +14,30 @@ YOL = os.path.join(KOK, "data", "devletler.js")
 KURU = "--kuru" in sys.argv
 NL = "\r\n"
 
-spec = importlib.util.spec_from_file_location(
-    "veri", os.path.join(KOK, "denetim", "ARAC-KUNYE-1945-0930-VERI.py"))
+# 🔴 1 EKIM 2026 — VERI YOLU ARTIK PARAMETRIK.
+# Once sabit kodluydu ve bu araci TEK KULLANIMLIK yapiyordu: ikinci bir kunye
+# dalgasi icin kosturulunca "YENI id zaten var" diye duruyordu, cunku hep ayni
+# 1945 verisini okuyordu. Oysa arac SINANMIS (blok siniri dizgi-bilen parantez
+# eslemesiyle bulunuyor, her degisiklik oncekinin tuttugunu sinar) ve yeniden
+# kullanilmasi gerekiyordu.
+# ⇒ `--veri <yol>` ile baska bir VERI dosyasi verilebilir. Varsayilan degismedi.
+# 📌 `dersler/D244`: "bir kurali gereksiz kilan arac ne olurdu?" — burada
+#   cevap, araci ikinci kez YAZMAK degil PARAMETRIK kilmakti.
+_VYOL = os.path.join(KOK, "denetim", "ARAC-KUNYE-1945-0930-VERI.py")
+if "--veri" in sys.argv:
+    _i = sys.argv.index("--veri")
+    if _i + 1 >= len(sys.argv):
+        raise SystemExit("--veri bir yol ister")
+    _VYOL = sys.argv[_i + 1]
+    if not os.path.isabs(_VYOL):
+        _VYOL = os.path.join(KOK, _VYOL)
+    if not os.path.exists(_VYOL):
+        raise SystemExit("VERI dosyasi yok: " + _VYOL)
+
+spec = importlib.util.spec_from_file_location("veri", _VYOL)
 V = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(V)
+print("VERI: " + os.path.basename(_VYOL))
 
 
 def js(s):
@@ -100,7 +120,25 @@ def yeni_blok(y):
     s += '  f:%s, t:%s, baskent:%s' % (js(y["f"]), js(y["t"]), js(y["baskent"]))
     if y.get("harita"):
         s += ', harita:%s' % js(y["harita"])
+    # 🔴 1 EKIM 2026 — `boya_gerekli` ALAN KUMESINE EKLENDI, ve sebebi olculmus
+    # bir KAYIP: 8 kunye onerisinde 197 kez `boya_gerekli` vardi, bu arac onu
+    # yazmadigi icin `data/devletler.js`e SIFIR indi. Sonuc:
+    # `durum_tablosu.py` 154 BEYANLI boya borcunu "GERCEK SESSIZ BORC" saydi
+    # ve sayi 12 -> 172 diye sicradi. Beyanli borc, sessiz borctan FARKLIDIR.
+    #
+    # Bu, `denetle.py`nin kendi yorumundaki TIMBUKTU vakasinin BIREBIR
+    # AYNISI: "`_sahiplik_uygula.py` yalniz d·s·v·isg·m·kaynak yazar ⇒ `bos:`
+    # ve `neden:` HICBIR KUMEDE YOK, sessizce DUSTU. `s:` ve `kaynak:` indi,
+    # beyan inmedi — YAMANIN YARISI INDI, YARISI DUSTU."
+    # ⇒ Ayni gece, farkli arac, ayni kusur (bkz. `dersler/D244`).
+    if y.get("boya_gerekli"):
+        s += ', boya_gerekli:true'
     s += ",\n"
+    # `ic_not_f` de eksikti — kaynagin GUN vermedigi kunyelerde `f:`in nicin
+    # YYYY-01-01 oldugu bu alanda yaziyor (`D210`). Yazilmazsa sahte kesinlik
+    # gibi gorunur.
+    if y.get("ic_not_f"):
+        s += '  ic_not_f:%s,\n' % js(y["ic_not_f"])
     if y.get("ic_not_t"):
         s += '  ic_not_t:%s,\n' % js(y["ic_not_t"])
     s += '  ozet:%s,\n' % js(y["ozet"])
@@ -131,8 +169,11 @@ def main():
         onu = m[:son].rstrip()
         if not onu.endswith(","):
             onu += ","
-        yeni = ("\n// ── KUNYE-1945-0930 (30 Eylül 2026): 1923-1945 ufku için açılan künyeler ──\n"
-                + ",\n".join(parca) + "\n")
+        # Banner de parametrik: VERI dosyasi `BANNER` tanimlarsa o kullanilir.
+        # Sabit kodlu "1923-1945 ufku" baslıgı baska bir kusak icin YALAN olurdu.
+        _ban = getattr(V, "BANNER",
+                       "KUNYE-1945-0930 (30 Eylül 2026): 1923-1945 ufku için açılan künyeler")
+        yeni = ("\n// ── " + _ban + " ──\n" + ",\n".join(parca) + "\n")
         m = onu + yeni.replace("\n", NL) + m[son:]
     n1 = len(re.findall(r'\{\s*id:"', m))
     print("künye (id: sayımı, kronoloji maddesi değil):", n0, "->", n1,

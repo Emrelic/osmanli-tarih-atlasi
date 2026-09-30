@@ -504,6 +504,29 @@ def olc():
     #    (sınır/kronoloji/savaş/kişi). `kul` DEĞİŞMEDİ; `o["renksiz_sessiz"]` toplam kalır.
     _kat, o["katman_dosya"] = katman_evreni()
     o["renksiz_baska"], o["renksiz_gercek"] = sessiz_bol(o["renksiz_sessiz"], _kat)
+    # 🆕 1 EKİM 2026 — `boya_gerekli:true` BEYANLI kova AYRILDI.
+    #
+    # 🔴 Sebep ölçülmüş bir KAYIP: 1281-öncesi ve 500-1000 kampanyaları 170
+    # künye açtı ve her birine `boya_gerekli:true` yazdı — yani "bu künyenin
+    # boyası YOK ve bunu BİLİYORUM, tam inşa koşusunu bekliyor" beyanı.
+    # Ama bu dal o alanı okumuyordu ve 170'ini "GERÇEK SESSİZ BORÇ" sayıyordu:
+    # sayı 12 → 188 diye sıçradı ve sabah bakan biri bunu ÇÖKÜŞ sanırdı.
+    #
+    # `CLAUDE.md §11` "boş küme her öngörüyü doğrular" ailesinin tersi:
+    # burada DOLU bir beyan, okunmadığı için bir kusur gibi görünüyordu.
+    # Beyanlı borç ile sessiz borç AYNI ŞEY DEĞİLDİR:
+    #   beyanlı → kayda geçmiş bir BEKLEYİŞ (boya koşuyu bekliyor)
+    #   sessiz  → görülmemiş bir DELİK
+    # İkisini tek sayıda toplamak, ikinciyi birincinin içinde gizler.
+    _beyan = set()
+    try:
+        for k in girdi.oku_devletler():
+            if k.get("boya_gerekli"):
+                _beyan.add(k["id"])
+    except Exception:                                          # noqa: BLE001
+        _beyan = set()
+    o["renksiz_beyanli"] = sorted(i for i in o["renksiz_gercek"] if i in _beyan)
+    o["renksiz_gercek"] = [i for i in o["renksiz_gercek"] if i not in _beyan]
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
@@ -593,7 +616,7 @@ def tablo(o):
     # yalnız başka katmanda · hiçbir yerde (gerçek borç). Toplanmaz, ayrı okunur.
     kd = o["katman_dosya"]
     s.append("| Renksiz künye — HARİTA DELİĞİ | %s **%d** kimlik haritada "
-             "(`s:`/`isg:`) kullanılıyor ama BOYANMIYOR%s%s%s · *kapsam: künye `id` ∪ "
+             "(`s:`/`isg:`) kullanılıyor ama BOYANMIYOR%s%s%s%s · *kapsam: künye `id` ∪ "
              "veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · "
              "katman evreni: `index.html`in yüklediği %d sınır · %d kronoloji/olay · "
              "%d savaş · %d kişi dosyası (kimlik alanları `durum_tablosu.py`de) · "
@@ -602,6 +625,9 @@ def tablo(o):
                 len(o["renksiz_delik"]),
                 (" · 🟡 **%d** hiçbir yerde (gerçek sessiz borç)"
                  % len(o["renksiz_gercek"])) if o["renksiz_gercek"] else "",
+                (" · 🟢 %d BEYANLI boya borcu (`boya_gerekli:true` — tam inşa "
+                 "koşusunu bekliyor, sessiz DEĞİL)"
+                 % len(o.get("renksiz_beyanli") or [])) if o.get("renksiz_beyanli") else "",
                 (" · ⚪ %d yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil)"
                  % len(o["renksiz_baska"])) if o["renksiz_baska"] else "",
                 (" · ⚪ %d tâbi-çizili (yalnız `v:kid`, delik değil)"

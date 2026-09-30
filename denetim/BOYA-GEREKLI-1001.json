@@ -1,0 +1,965 @@
+{
+ "olcum": "BOYA-GEREKLI kurtarma · 1 Ekim 2026 · YILDIRIM BAYEZIT",
+ "sebep": "8 kunye onerisinde 197 kez boya_gerekli vardi, devletler.js'e SIFIR indi. Beyan birlestirmede dustu; durum_tablosu.py bu kunyeleri \"gercek sessiz borc\" sayiyor (12 -> 172). Beyanli borc sessiz borctan FARKLIDIR.",
+ "kaynak_dosyalar": [
+  "DEVLET-500-1000-KUNYE.json",
+  "ONCE1281-AFRIKA-KUNYE.json",
+  "ONCE1281-ANADOLU-KUNYE.json",
+  "ONCE1281-AVRUPA-KUNYE.json",
+  "ONCE1281-DOGU-ASYA-KUNYE.json",
+  "ONCE1281-HINT-AMERIKA-KUNYE.json",
+  "ONCE1281-IRAN-KUNYE.json",
+  "ONCE1281-ORTADOGU-KUNYE.json"
+ ],
+ "sayilar": {
+  "oneride": 172,
+  "devletler_js_te_var": 154,
+  "devletler_js_te_yok": 18
+ },
+ "kimlikler": {
+  "abbasi": {
+   "ad": "Abbâsî Hilâfeti",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ahaya-prinkepsligi": {
+   "ad": "Ahaya (Mora) Prinkepsliği",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ahlatsahlar": {
+   "ad": "Ahlatşahlar (Sökmenliler, Şâh-i Ermenler)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ahmedili": {
+   "ad": "Ahmedîlîler (Merâga Atabegleri)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "alamut-nizari": {
+   "ad": "Nizârî İsmâilî Devleti (Alamut)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ani-bagratli-kralligi": {
+   "ad": "Ani Bagratlı Ermeni Krallığı",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "annazi": {
+   "ad": "Annâzîler",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "antakya-prinkipsligi": {
+   "ad": "Antakya Prinkepsliği",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "apulya-dukaligi": {
+   "ad": "Apulya ve Calabria Dükalığı (Norman)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "arles-kralligi": {
+   "ad": "Burgonya (Arles) Krallığı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ata-pueblo": {
+   "ad": "Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "avusturya-dukaligi": {
+   "ad": "Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "badusbani": {
+   "ad": "Bâdüsbânîler (Rûyân üstândârları)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "bali-warmadewa": {
+   "ad": "Bali Krallığı (Warmadewa Hanedanı)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "barselona-kontlugu": {
+   "ad": "Barselona Kontluğu (Katalan kontlukları)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "bati-calukya": {
+   "ad": "Batı Çalukya (Kalyani Çalukyaları)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "bati-karahanli": {
+   "ad": "Batı Karahanlılar",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "bati-xia": {
+   "ad": "Batı Xia (Tangut) Devleti",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "bavendi": {
+   "ad": "Bâvendîler",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "begteginli": {
+   "ad": "Begteginliler (Erbil Atabegliği)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "beni-ammar-trablussam": {
+   "ad": "Ammâroğulları (Trablusşam Benî Ammâr Kadıları)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "benu-mehdi-zebid": {
+   "ad": "Mehdîler (Benî Mehdî, Zebîd)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "birinci-bulgar": {
+   "ad": "Birinci Bulgar Devleti (Tuna Bulgar Devleti; Samuil dönemi)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "bohemya": {
+   "ad": "Bohemya Dükalığı / Krallığı (Přemysl → 1526)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "genislet"
+  },
+  "boriler": {
+   "ad": "Dımaşk Atabegliği (Tuğteginliler / Börîler)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "buveyhi": {
+   "ad": "Büveyhîler",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "buyuk-selcuklu": {
+   "ad": "Büyük Selçuklu Devleti",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "cahamana": {
+   "ad": "Çavhan (Çâhamâna) Hanedanı — Şakambhari/Ecmîr",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "candela": {
+   "ad": "Çandela (Candella) Hanedanı — Bundelkhand",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "caulukya": {
+   "ad": "Çaulukya (Solanki) Hanedanı — Gucerat",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "cola": {
+   "ad": "Çola (Chola) İmparatorluğu",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "cubukogullari": {
+   "ad": "Çubukoğulları (Harput)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "dali-kralligi": {
+   "ad": "Dali Krallığı (Yunnan)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "danismendli": {
+   "ad": "Dânişmendliler",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "derbent-hasimi-emirligi": {
+   "ad": "Derbend (Bâbülebvâb) Hâşimî Emirliği",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "dilmacogullari": {
+   "ad": "Dilmaçoğulları (Bitlis-Erzen)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "dogu-calukya": {
+   "ad": "Doğu Çalukya (Vengi Çalukyaları)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "dogu-karahanli": {
+   "ad": "Doğu Karahanlılar",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "dongxia": {
+   "ad": "Doğu Xia (Dongxia / Dazhen) Devleti",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "dubrovnik": {
+   "ad": "Dubrovnik (Ragusa)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "dokunmadim"
+  },
+  "duklja": {
+   "ad": "Duklja (Zeta) Prensliği/Krallığı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "endulus-emevi": {
+   "ad": "Endülüs Emevîleri (Kurtuba Emirliği / Hilâfeti)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "endulus-tavaif": {
+   "ad": "Mülûkü't-tavâif (Endülüs tâife emirlikleri)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "epir-despotlugu": {
+   "ad": "Epir (Yanya) Despotluğu — Tocco dönemi dâhil",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "dokunmadim"
+  },
+  "eyyubi": {
+   "ad": "Eyyûbî Sultanlığı",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "eyyubi-halep": {
+   "ad": "Halep Eyyûbîleri",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "eyyubi-hama": {
+   "ad": "Hama Eyyûbîleri",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "fatimi": {
+   "ad": "Fâtımî Devleti",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "filaretos-devleti": {
+   "ad": "Filaretos Brakamios Devleti",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "flandre": {
+   "ad": "Flandre Kontluğu",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "gahadavala": {
+   "ad": "Gâhadavâla Hanedanı (Kannauj-Varanasi)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "galicya-volhinya": {
+   "ad": "Galiçya-Volhinya Knezliği (Rus Krallığı)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "gane": {
+   "ad": "Gāne (Gana) Devleti",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "gazneli": {
+   "ad": "Gazneliler (Gazneli Devleti)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "guge": {
+   "ad": "Guge Krallığı (Batı Tibet)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "gurjara-pratihara": {
+   "ad": "Gürcara-Pratihâra Hanedanı (Kannauj)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "gurlu": {
+   "ad": "Gurlular (Şensebânîler)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "gwynedd": {
+   "ad": "Gwynedd Krallığı / Galler Prensliği",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "hamdani-halep": {
+   "ad": "Hamdânîler (Halep kolu)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "hamdani-yemen": {
+   "ad": "Yemen Hemdânîleri (San‘a)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "hammadiler": {
+   "ad": "Hammâdîler",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "hariphunchai": {
+   "ad": "Hariphunchai (Haripuñjaya) Krallığı",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "harizmsah": {
+   "ad": "Hârizmşahlar (Anuştegin hânedanı)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "hawaii-seflikleri": {
+   "ad": "Hawaii Şeflikleri (Birleşme Öncesi)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "heian-japonya": {
+   "ad": "Japonya — Heian Dönemi İmparatorluk Sarayı",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "hirvatistan-kralligi": {
+   "ad": "Hırvatistan Krallığı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "idil-bulgar": {
+   "ad": "İdil (Volga) Bulgar Hanlığı",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ildenizli": {
+   "ad": "İldenizliler (Azerbaycan Atabegleri)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "inalogullari": {
+   "ad": "İnaloğulları (Âmid)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "irak-selcuklu": {
+   "ad": "Irak Selçukluları",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "izlanda-serbest-devleti": {
+   "ad": "İzlanda Serbest Devleti (Althing dönemi)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "iznik-imparatorlugu": {
+   "ad": "İznik (Laskaris) İmparatorluğu",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "jin-hanedani": {
+   "ad": "",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "dokunmadim"
+  },
+  "kabace": {
+   "ad": "Nâsırüddin Kabâce Devleti (Mültan-Uç-Sind)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kahuripan": {
+   "ad": "Kahuripan Krallığı (Airlangga, Doğu Cava)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kakuyi": {
+   "ad": "Kâkûyîler (Kâkeveyhîler)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "karahanli": {
+   "ad": "Karahanlılar (bölünme öncesi birleşik devlet)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "karahitay": {
+   "ad": "Karahıtaylar (Batı Liao)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "karmati": {
+   "ad": "Bahreyn Karmatî Devleti",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kars-vanand-kralligi": {
+   "ad": "Kars (Vanand) Ermeni Krallığı",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kediri": {
+   "ad": "Kediri (Panjalu) Krallığı (Doğu Cava)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kerayit": {
+   "ad": "Kerâyitler (Ong Han ülkesi)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kevkev": {
+   "ad": "Kevkev (Gao) Krallığı — Songay Zâ Hânedanı",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kiev-rusu": {
+   "ad": "Kiev Rus'u (Kiev Büyük Knezliği)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kipcak": {
+   "ad": "Kıpçaklar (Kumanlar) — Deşt-i Kıpçak",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kirman-selcuklu": {
+   "ad": "Kirman Selçukluları",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "koco-uygur": {
+   "ad": "Koço (Turfan) Uygur Devleti — İdikutlar",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "kudus-kralligi": {
+   "ad": "Kudüs Haçlı Krallığı",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "latin-imparatorlugu": {
+   "ad": "Latin İstanbul İmparatorluğu",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "leon-kralligi": {
+   "ad": "León Krallığı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "liao-hanedani": {
+   "ad": "Liao Hanedanı (Kitan / Hıtay)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "livonya-tarikati": {
+   "ad": "Kılıç Kardeşleri / Livonya Tarikatı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "lori-kralligi": {
+   "ad": "Taşir-Dzoraget (Lori) Ermeni Krallığı",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "lului": {
+   "ad": "Lü'lü' Hânedanı (Musul)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ly-hanedani": {
+   "ad": "Lý Hanedanı (Đại Việt)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "magrave-sicilmase": {
+   "ad": "Mağrâve Emirliği (Sicilmâse)",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "mapungubwe": {
+   "ad": "Mapungubwe Krallığı",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "mayorka": {
+   "ad": "Mayorka Krallığı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "dokunmadim"
+  },
+  "medang": {
+   "ad": "Medang (Mataram) Krallığı (Cava)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "medine-emirligi": {
+   "ad": "Medine Emirliği (Hüseynî emîrler)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "mengucuklu": {
+   "ad": "Mengücüklüler (Mengücekoğulları)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "mervani": {
+   "ad": "Mervânîler (Mervanoğulları)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "mezyedi": {
+   "ad": "Mezyedîler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "mirdasi": {
+   "ad": "Mirdâsîler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "munkizogullari": {
+   "ad": "Şeyzer Münkızoğulları Emirliği",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "murabitlar": {
+   "ad": "Murâbıtlar Devleti",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "musafiri": {
+   "ad": "Müsâfirîler (Sellârîler, Kengerîler)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "muvahhidler": {
+   "ad": "Muvahhidler Devleti",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "nayman": {
+   "ad": "Naymanlar",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "necahi": {
+   "ad": "Necâhîler (Benî Necâh)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "normandiya": {
+   "ad": "Normandiya Dükalığı",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "numeyri": {
+   "ad": "Nümeyrîler (Nümeyroğulları)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "oshu-fujiwara": {
+   "ad": "Ōshū Fujiwara (Kuzey Fujiwara) Hanedanlığı",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "pala": {
+   "ad": "Pâla Hanedanı (Bengal-Bihar)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "paramara": {
+   "ad": "Paramâra Hanedanı (Mâlva)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "rapa-nui": {
+   "ad": "Rapa Nui (Paskalya Adası) Soyları",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "resuli": {
+   "ad": "Resûlîler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "revvadi": {
+   "ad": "Revvâdîler",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "sakya": {
+   "ad": "Sakya Yönetimi (Moğol-Yuan himayesinde Tibet)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "salgurlu": {
+   "ad": "Salgurlular (Fars Atabegleri)",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "saltuklu": {
+   "ad": "Saltuklular (Saltukoğulları)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "samani": {
+   "ad": "Sâmânîler",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "samtshe-atabegligi": {
+   "ad": "Samçhe (Meskheti, Ahıska/Çıldır) Atabekliği",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "genislet"
+  },
+  "seddadiler-ani": {
+   "ad": "Şeddâdîler (Ani kolu)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "seddadiler-gence": {
+   "ad": "Şeddâdîler (Gence/Arrân kolu)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "selanik-imparatorlugu": {
+   "ad": "Selânik İmparatorluğu (Komnenos Dukas kolu)",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "selanik-kralligi": {
+   "ad": "Latin Selânik Krallığı",
+   "dosya": "ONCE1281-ANADOLU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "sena": {
+   "ad": "Sena Hanedanı (Bengal)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "sicilya-emirligi": {
+   "ad": "Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "sicilya-kralligi": {
+   "ad": "Sicilya Krallığı (Norman Sicilya Kontluğu dahil)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "song": {
+   "ad": "",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "dokunmadim"
+  },
+  "srivijaya": {
+   "ad": "Srivicaya (Śrīvijaya) Krallığı",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "suleyhi": {
+   "ad": "Suleyhîler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "suriye-selcuklu": {
+   "ad": "Suriye Selçukluları",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "susu-kralligi": {
+   "ad": "Susu (Sosso) Krallığı",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "suve-emirligi": {
+   "ad": "Şüve (Shoa) Mahzûmî Emirliği",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "tahiti": {
+   "ad": "Tahiti ve Cemiyet Adaları Şeflikleri (→ Pomare Krallığı)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "tekrur-kralligi": {
+   "ad": "Tekrûr Krallığı (Senegal vadisi)",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "teuton-devleti": {
+   "ad": "Töton Şövalyeleri Devleti (Prusya)",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "tien-le-hanedani": {
+   "ad": "Erken Lê Hanedanı (Đại Cồ Việt)",
+   "dosya": "ONCE1281-DOGU-ASYA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "toltek": {
+   "ad": "Toltek Devleti (Tollan/Tula)",
+   "dosya": "ONCE1281-HINT-AMERIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "toulouse": {
+   "ad": "Toulouse Kontluğu",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "trablus-kontlugu": {
+   "ad": "Trablus Haçlı Kontluğu",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ukayli": {
+   "ad": "Ukaylîler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "urfa-kontlugu": {
+   "ad": "Urfa (Edessa) Haçlı Kontluğu",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "uyuni": {
+   "ad": "Uyûnîler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "vladimir-suzdal": {
+   "ad": "Vladimir-Suzdal Büyük Knezliği",
+   "dosya": "ONCE1281-AVRUPA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "yezd-atabegligi": {
+   "ad": "Yezd Atabegleri",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "zagve": {
+   "ad": "Zague (Zagwe) Hânedanı — Etiyopya",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "zengi-halep": {
+   "ad": "Zengîler (Halep kolu – Nûreddin Mahmud)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "zengi-musul": {
+   "ad": "Zengîler (Musul Atabegliği)",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ziriler": {
+   "ad": "Zîrîler (Kuzey Afrika)",
+   "dosya": "ONCE1281-AFRIKA-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "ziyari": {
+   "ad": "Ziyârîler",
+   "dosya": "ONCE1281-IRAN-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  },
+  "zureyi": {
+   "ad": "Zürey‘îler",
+   "dosya": "ONCE1281-ORTADOGU-KUNYE.json",
+   "harita": null,
+   "islem": "yeni"
+  }
+ },
+ "devletler_js_te_olmayan": [
+  "aglebi",
+  "antakya-prinkepsligi",
+  "emevi",
+  "hamdani-musul",
+  "hazar-kaganligi",
+  "hulefa-yi-rasidin",
+  "idrisi",
+  "ihsidi",
+  "midrari",
+  "rustemi",
+  "sacogullari",
+  "saffari",
+  "sasani",
+  "tahiri-horasan",
+  "tolunogullari",
+  "uygur-kaganligi",
+  "vaspurakan-kralligi",
+  "ziyadi"
+ ]
+}
