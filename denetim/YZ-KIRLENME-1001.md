@@ -64,3 +64,78 @@ Britannica sayfalarında editör makalesinin (`p.topic-paragraph`) yanında **YZ
 1. **#172 ve hint_amerika #47:** alıntı kaldırılmalı. Olay editör metninde başka cümleyle destekleniyorsa o cümle yazılmalı, desteklenmiyorsa `bulunamadı`.
 2. **avrupa #255:** "29 Eylül" gününün dayanağı yeniden açılmalı. Britannica yalnız yılı veriyor.
 3. **Kalıcı süzgeç:** modern siteden metin alan her araç ya da oturum, YZ kutularını DOM seviyesinde dışarıda bırakmalı. Britannica için seçici `p.topic-paragraph` olmalı ve `.ai-qna-module` / `.answer-content` atası taşıyan her şey dışarıda kalmalı. `get_page_text` ve WebFetch bu ayrımı yapmıyor.
+
+---
+
+## ⚠️ EK 2 düzeltmesi — #255
+EK 2'de avrupa #255 için "gün Britannica'dan gelmiyor ⇒ günü yeniden kaynaklanmalı" dedim. **Bu çıkarım fazla ağırdı.**
+- Kaydın kendi `ic_not_t`si günün **RCAHMW**'den geldiğini zaten yazıyordu.
+- Kusur günde değildi, alıntının **yanlış kaynağa** yazılmasındaydı.
+- `ic_not_t`yi okumadan hüküm önerdim. Koordinatör alıntıyı RCAHMW'ye taşıdı (`2578d5e0`).
+- 📌 **Ders:** bir alıntı "yok" çıktığında önce kaydın kendi `ic_not_*` alanları okunur.
+
+---
+
+# EK 3 — Açık uçlar: SSL alanları · kapsam dışı 38 dosya · URL'siz alıntılar
+
+🔴 **İSTEMCİ TARAFINDA SONRADAN YÜKLENEN YZ KUTULARI HAM HTML'DE GÖRÜNMEZ; "0 İŞARET" ≠ "YZ YOK".** Bu ekte tarayıcıyla açılan sayfalarda **işlenmiş DOM** da tarandı. Bu, ham HTML'den güçlü bir ölçümdür ama yalnız o sayfalar için geçerlidir.
+
+## ① SSL hatası veren 7 alan — tarayıcı içinden, aynı kaynaktan `fetch`
+| Alan | Atıf | Alıntı | Sonuç |
+|---|---|---|---|
+| enciklopedija.hr | 34 | 30 | **27 alıntı Hırvat sayfasında birebir var.** 3 Türkçe alıntı (#3 · #10 · #164) TDV «Bulgaristan» maddesinde birebir var, ama kayıtta Hırvat ansiklopedisi atfının arkasına yazılmış ⇒ **yanlış kaynağa yazılmış** (#255 sınıfı, hafif) |
+| deutsche-biographie.de | 16 | 16 | **16/16 birebir** |
+| luxembourg.public.lu | 5 | 5 | **5/5** |
+| hdgoe.at | 3 | 2 | **2/2** |
+| persee.fr · mjp.univ-perp.fr | 3 | 0 | Açıldı, alıntı yok |
+| ojs.utlib.ee | 1 | 1 | **ÖLÇÜLEMEDİ** — adres bir PDF indirmesi, izinsiz dosya indirilmedi |
+
+- İşlenmiş DOM'da YZ işareti: **6 alanda da 0.**
+- Sonuç: **53 alıntının 53'ü kaynağında var.**
+
+## ② Kapsam dışı 38 dosya / 1280 madde
+- Britannica'ya atıf: 29 madde. Yalnız **1'inde** gerçek içerik alıntısı var (öteki 28'inde tırnak içinde yalnız başlık var).
+  - `ingiltere` #5 «Crimean War» → **EDITOR** (p.topic-paragraph).
+- Modern site kaynaklı 79 madde: alan örneklemesi EK 2'dekiyle aynı.
+
+## ③ URL'siz alıntılar — "hiç iz bırakmayan" kova
+### ③a TDV'ye atfedilmiş alıntılar — TÜM EVREN (56 dosya)
+TDV'nin kendi gövdesiyle birebir sınandı: **310 TDV maddesi** çekildi, **1130 alıntı birimi** ölçüldü.
+| Sonuç | Sayı |
+|---|---|
+| Atfedilen maddede birebir var | **1047** (URL'siz 21 alıntı dahil; bunlar gövde taranarak eşlendi) |
+| **Uydurma** (hiçbir TDV gövdesinde yok) | **0** |
+| **Yanlış TDV maddesine yazılmış** (metin başka maddede birebir var) | **11**: `once1281_ortadogu` #92 · 109 · 110 · 112 · 114 · 142 · `gurcistan` #7 · 24 · 28 · `ermeni` #8 · `once1281_avrupa` #204 (metin «İdil Bulgar Hanlığı»nda, «Bulgar» maddesine yazılmış) |
+| Kelime sırası değiştirilmiş | **1**: `ince_bati_afrika` #0. TDV: "İslâm dini, Mosi Kralı Naaba Dulugu'nun (1769-1823) yönetimi döneminde sarayda…" · kayıt: "Mosi Kralı … döneminde İslâm dini sarayda…" |
+| Cümle ortasında kesilip nokta konmuş (içerik birebir) | ~8: `venedik` #2 · 4 · 5 · `sirbistan` #6 · 9 · `katar` · `samori-ture` · `mali` |
+| Ayrıştırma artığı | ~60. Türkçe kesme işareti ("1528'ten") tırnak sanıldı; tırnak içinde yalnız başlık var; TDV segmentine düşmüş TDV dışı metin var |
+
+⇒ **TDV alıntılarında YZ ya da uydurma izi yok.** Kusur sınıfı yalnız **yanlış maddeye/kaynağa yazmak**: 11 TDV→TDV ve 3 TDV→Hrvatska kaydı.
+
+### ③b TDV dışı, URL'siz alıntılar
+- TDV dışı kaynağa atfedilmiş alıntı taşıyan madde: **305**. Bunların **218**'inde maddenin hiçbir yerinde URL ya da alan adı yok.
+- Yöntem beyanına göre dağılım:
+| Beyan | Madde |
+|---|---|
+| **BEYANSIZ**: nereden okunduğu yazılmamış | **182** |
+| Arama özeti ya da "(özet)" beyanlı | 20 |
+| Açıldı/okundu beyanlı | 11 |
+| Açılmadı beyanlı | 5 |
+- BEYANSIZ kümenin dosyalara dağılımı: `ince_avrupa_amerika` 40 (Novgorod Kroniği, Hume Brown…) · `once1281_hint_amerika` 32 (Britannica, URL'siz; **EK 2'de ölçüldü**) · `ispanya` 27 · `fransa` 14 · `portekiz` 13 · `1923_1945` 10 · `ince_kuzey_amerika` 10 · …
+- **Ölçülebilen örneklem:** "LoC <ülke> NN.htm" atıfları countrystudies.us'e çözüldü → **13 alıntının 13'ü birebir var.**
+- **Kalan ~135 BEYANSIZ alıntı ÖLÇÜLEMEDİ.** Basılı eserler, RAH DB~e, Novgorod Kroniği gibi kaynaklar tek tek açılmadı.
+
+### ③c "Arama özeti de model metnidir" kovası
+- **Sıkı beyan** ("arama özeti/özetinden/WebSearch"): **84 madde**. Dağılım: `rusya` 77 · `lehistan` 3 · `fransa` 2 · `ince_kuzey_amerika` 2.
+  - Bunların içerik alıntısı taşıyanı yalnız `ince_kuzey_amerika` #4. Kaynağı açıldı: The Canadian Encyclopedia «Treaty 4» → "signed on 15 September 1874 at Fort Qu'Appelle" **birebir var.**
+  - 🔴 **`rusya` 77 madde:** hepsi "sayfa açılamadı (401/403), arama özetinden okundu" diyor (BRE old.bigenc.ru, mil.ru, cyberleninka, prlib.ru). Alıntı taşımıyorlar, ama **bilgi (tarih/gün) model özetinden geliyor.** Bu, Britannica'nın 403 durumunun aynısı ⇒ **tarayıcı yolu denenmeli.**
+- WebFetch beyanlı: 1 madde (`1923_1945`). WebFetch de metni küçük bir modelden geçirir; alıntı birebir olmayabilir.
+
+## ④ Toplam hüküm tablosu (EK 2 + EK 3)
+| Kova | Ölçülen | Kirli |
+|---|---|---|
+| Britannica alıntıları | 94 | **3 YZ kutusundan** (avrupa#172, hint#47 ×2) — koordinatör kaldırdı |
+| SSL alanları | 53 | 0 |
+| TDV alıntıları (tüm evren) | 1130 | 0 uydurma · **14 yanlış maddeye/kaynağa yazılmış** · 1 kelime sırası |
+| LoC örneklemi | 13 | 0 |
+| **ÖLÇÜLEMEDİ** | ~135 BEYANSIZ TDV dışı alıntı · 24 alıntısız Britannica maddesi · 77 rusya özet maddesi · 1 PDF | — |
