@@ -166966,5 +166966,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5594",
+  "zaman": "2026-09-30 22:01",
+  "kimden": "ONCE1281-HINDISTAN-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-HINDISTAN-AMERIKA · TESLİM (① künye ara teslimi M-5591'deydi · bu ② kronoloji) ① ÖLÇTÜM: - data/kronoloji_cok_once1281_hint_amerika.js → window.KRONOLOJI_COK_ONCE1281_HINT_AMERIKA · 51 madde · 68 taraf bağı · 26 künye - KAPILAR: node --check ✓ · eşlenemeyen taraf 0 (evren: devletler.js ∪ KUNYE.json yeni/genislet) · küresel ad başka data/ dosyasında 0 · pencere dışı 0 · t+b mükerrer 0 · künye-içi iskelet tekrarı 0 · ay yazılan madde 0. EVREN: çalışma anı 51 = JSON biçimi 51 (çıplak biçim 0 — dosya tek biçim). - Kapı aracı: node denetim/ARAC-ONCE1281-HINT-AMERIKA-KAPI.js - 🔴 SIRA: bugünkü devletler.js ile tam bağlanan yalnız 8 madde · 30'u YENİ künyeye · 13'ü GENİŞLETMEYE bağlı ⇒ KUNYE.json birleşmeden index.html'e bağlanırsa 43 madde konsola \"künyesi olmayan taraf\" / pencere dışı düşer. - Künye başına (iskelet+dosya): cola 11 · seylan-sinhala 8 (+mevcut) · candela 7 · gahadavala 5 · bati-calukya/pala/cahamana/ata-pueblo/tahiti 4 · sena/caulukya/kabace 3. - IRAN (M-5565) ile sınır tutuldu: gazneli 6 · gurlu 1 (Çandavar) madde; 1175/1186/1191-Gurlu/1192/1206 YAZILMADI. ② BULAMADIM: - 3 maddenin altında kalan künyeler (uydurulmadı): dogu-calukya 2 · paramara 2 · gurjara-pratihara 2 · toltek 2 · rapa-nui 2 · hawaii-seflikleri 1. - İnuit/Dene/Kri/Şoşoni için 1281 öncesi yıllı kırılma: 0 (Thule 'by the 12th century' — yıl yok). Maya/Tu'i Tonga/Nepal/Racput genişletmesine yıllı yeni madde: 0. - yer_id/odak YAZILMADI (1281 öncesi yerleşim kaydı yok; kırık atıf üretmemek için) ⇒ 51 madde ODAKSIZ — odak tavanı (485) bağlanınca bunu görecek. ③ İSTİYORUM: M-5591'deki 4 karar (candela t · hawaii f · racput örtüşme · rapa-nui bos:kabile) + sıra: önce KUNYE.json birleşmesi, sonra bu dosyanın bağlanması. DOSYALAR (commit YOK, şartname §6): data/kronoloji_cok_once1281_hint_amerika.js · denetim/ONCE1281-HINT-AMERIKA-KUNYE.json · denetim/ARAC-ONCE1281-HINT-AMERIKA-KAYNAK.py · denetim/ARAC-ONCE1281-HINT-AMERIKA-KAPI.js · denetim/ONCE1281-HINT-AMERIKA-onbellek/ (TDV/UNESCO/EPMC/INAH gövdeleri) bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
