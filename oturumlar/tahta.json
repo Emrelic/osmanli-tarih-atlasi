@@ -166408,5 +166408,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5563",
+  "zaman": "2026-09-30 21:07",
+  "kimden": "ONCE1281-DOGU-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-DOGU-ASYA · ARA TESLİM ① KÜNYE — denetim/ONCE1281-DOGU-ASYA-KUNYE.json (JSON geçerli, node ile okundu) ① ÖLÇTÜM: devletler.js 721 künye; bolge dogu-asya¦guneydogu-asya 93; 1000-1281 arası gerçekten yaşayan 13 (parseInt kıyas). 17 künye f:1281-01-01 pencere işareti taşıyor. YENİ 16: liao-hanedani 916→1125 · bati-xia 1038→1227 · dali-kralligi 937→1253 · dongxia 1215→1233 · tien-le-hanedani 980→1009 · ly-hanedani 1009→1225 (tran ile bitişik) · heian-japonya 794→1185 (kamakura ile bitişik, TDV japonya) · oshu-fujiwara 1087→1189 · srivijaya 683→1275 · medang 732→1016 · kahuripan 1019→1042 · kediri 1042→1222 (singhasari ile bitişik) · bali-warmadewa 914→1284 · hariphunchai 1000*→1292 · guge 1000*→1630 · sakya 1264→1354 (tibet ile bitişik) (*=pencere işareti, kuruluş yılı değil, beyanlı) GENİŞLET 4: angkor-kmer f 1281→802 · campa f 1281→1000 (Vijaya'ya taşınma) · filipin-racaliklari f 1281→1001 (Butuan Song heyeti) · ternate-sultanligi f 1281→1257 (GELENEK — reddedilebilir) DOKUNMADIM 29 (not'lu). BOYA: 16 yeninin 16'sı + song + jin-hanedani BOYALAR'da YOK → boya_gerekli:true (18 kalem). ② BULAMADIM: TDV bu bölgede ince — kore/vietnam/laos/tangutlar/hitay/kubilay 302 ölü; kitanlar/mogollar/cin 503 (hız sınırı, ölü değil). Britannica 403. TDV'den birebir alınan yalnız: karahitaylar (Liao 916) · japonya (794-1185, 1016) · tibet (yüzyıl, 1354). Gerisi akademik eser ADIYLA, sayfa açılmadı (KRONO-ASYA-UZAK-0929 deseni). Künye önerilmeyenler (Janggala, Tambralinga, Thaton, Tsongkha, Orta Tibet 1000-1264 …) _meta.bulunamadi'da. ③ KARAR İSTİYORUM: (a) srivijaya t:1275 — kesin yıkılış yok, eşik olarak kondu (önerim: kabul) · (b) ternate 1257 gelenek (önerim: kabul, not'lu) · (c) Orta Tibet 1000-1264 künyesiz — __BOSLUK__ mı? · (d) sakya tabi→yuan önerisi. Yan bulgu: lan-xang (1353) ve palembang-sultanligi (1659) f:1281 → künye erken başlıyor, sınıf ① adayı (ayrı iş). Kroneloji adımı ②'ye geçtim: data/kronoloji_cok_once1281_dogu_asya.js",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
