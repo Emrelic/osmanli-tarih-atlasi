@@ -115,7 +115,7 @@ window.KRONOLOJI_COK_INCE_MISIR_ORTA_ASYA = [
     kaynak:"TDV: cagatay-hanligi (ÇAĞATAY HANLIĞI, Abdülkadir Yuvalı) — 'Fakat aynı yıl içinde Kubilay Han tarafından desteklenen … Barak Han, Mübârek Şah'ı tahttan indirerek kendisini Çağatay hanı ilân etti (1266-1271).'",
     ic_not_t:"TDV yalnız yıl verir.",
     taraflar:["cagatay"], etiket:["konu-siyasi"] },
-  { t:"1269-01-01", yer_id:"Taraz", k:"siyasi", b:"Talas kurultayı: yerleşik-göçebe çekişmesine geçici çözüm",
+  { t:"1269-01-01", yer_id:"Taraz (Evliya-Ata)", k:"siyasi", b:"Talas kurultayı: yerleşik-göçebe çekişmesine geçici çözüm",
     gun:"(kaynak yıl verir)", yer:"Talas ovası", kisiler:"Barak Han · Kaydu",
     d:"Talas ovasında toplanan kurultayda hanlığın kuruluşundan beri süren yerleşik-göçebe mücadelesine geçici de olsa bir çözüm bulundu. Barak'tan sonraki Nikibey ve Buka Timur hanlar Ögedeyli Kaydu'nun vasalı durumuna düştü.",
     kaynak:"TDV: cagatay-hanligi — '1269'da Talas ovasında toplanan kurultayda … 'yerleşik-göçebe mücadelesi'ne geçici de olsa bir çözüm bulunabildi.'",
@@ -196,7 +196,7 @@ window.KRONOLOJI_COK_INCE_MISIR_ORTA_ASYA = [
     taraflar:["kazan","rusya"], etiket:["konu-siyasi"] },
 
   // ── SİBİR HANLIĞI ──
-  { t:"1493-01-01", yer_id:"Tümen", k:"siyasi", b:"İbak Han öldürüldü; Tümen/Sibir tahtı Şeybânîlerden Tayboğa soyuna geçti",
+  { t:"1493-01-01", yer_id:"Tümen (Çimgi-Tura)", k:"siyasi", b:"İbak Han öldürüldü; Tümen/Sibir tahtı Şeybânîlerden Tayboğa soyuna geçti",
     gun:"(kaynak yıl verir)", yer:"Tümen", kisiler:"İbak Han · Muhammed Tayboğa",
     d:"Büyük Orda hanı Ahmed'le mücadele eden (1481) ve Moskova ile ittifak kuran (1483) İbak Han, Muhammed Tayboğa tarafından öldürüldü; hanlık tahtı Şeybânî soyundan Tayboğa soyuna geçti.",
     kaynak:"TDV: sibir-hanligi (SİBİR HANLIĞI) — 'Ancak 1493'te Muhammed Tayboğa tarafından öldürüldü, böylece Tümen Hanlığı tahtı Şeybânîler'den Tayboğa soyuna mensup hanların eline geçti.'",

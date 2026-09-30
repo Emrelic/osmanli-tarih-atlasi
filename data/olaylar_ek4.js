@@ -125,7 +125,7 @@ window.OLAYLAR_EK4 = [
   kaynak:"sudan", duygu:["✊"], yer_id:"Şendî" },
 
 // ---------- IV. MORA VE NAVARİN (1822-1830) ----------
-{ t:"1822-06-28", k:"sefer", etiket:["savas","isyan","konu-askeri","konu-isyan"], b:"Girit'e Mısır kuvvetleri çıktı", gun:"Haziran 1822", yer:"Girit", yer_id:"Girit",
+{ t:"1822-06-28", k:"sefer", etiket:["savas","isyan","konu-askeri","konu-isyan"], b:"Girit'e Mısır kuvvetleri çıktı", gun:"Haziran 1822", yer:"Girit", yer_id:"Girit (Resmo)",
   kisiler:"Hasan Paşa, Kavalalı Mehmed Ali",
   d:"Rum isyanı Girit'e sıçrayınca Bâbıâli adaya Mısır kuvveti gönderilmesini istedi. Mehmed Ali'nin adadaki nüfuzu bu müdahaleyle başladı ve sekiz yıl sonra Girit valiliğinin ona verilmesiyle sonuçlandı.",
   kaynak:"girit", duygu:["🐎"] },
@@ -162,7 +162,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Son birlikler gemilere bindirildi; yarımada fiilen elden çıktı ve 1830 Londra Protokolü'yle bağımsız Yunanistan'ın çekirdeği oldu. Mehmed Ali ise vaad edilen Mora valiliğini alamamış, karşılığında büyük bir donanma ve ordu kaybetmişti. Aynı tarihte elden çıkan diğer yerleşimler: Modon, Koron.",
   kaynak:"mora", duygu:["😔"] },
-{ t:"1830-11-01", k:"idari", etiket:["siyaset","bilim","konu-siyasi","konu-idari","konu-bilim"], b:"Girit'in idaresi Mehmed Ali'ye bırakıldı", gun:"1830", yer:"Girit", yer_id:"Girit",
+{ t:"1830-11-01", k:"idari", etiket:["siyaset","bilim","konu-siyasi","konu-idari","konu-bilim"], b:"Girit'in idaresi Mehmed Ali'ye bırakıldı", gun:"1830", yer:"Girit", yer_id:"Girit (Resmo)",
   kisiler:"Kavalalı Mehmed Ali, II. Mahmud",
   d:"Mora kaybının telâfisi olarak Girit valiliği Mehmed Ali'ye verildi. Ada on yıl boyunca Kahire'den yönetildi; haritada bu süre boyunca tâbi tonda görünür. Aynı tarihte katılan öteki yerler: Kandiye (Girit).", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:",
   statu_vasal:["Hanya","İsfakiye (Sfakia)","Sitiye (Sitia)"],

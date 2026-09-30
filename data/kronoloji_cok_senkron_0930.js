@@ -389,7 +389,7 @@ window.KRONOLOJI_COK_SENKRON_0930 = [
     gun:"15 Haziran 1775 (Jülyen: 4 Haziran)", yer:"Zaporojye Siçi (Dinyeper)", kisiler:"II. Katerina · General Tekeli",
     d:"Küçük Kaynarca'dan sonra artık sınır bekçiliğine gerek görmeyen II. Katerina'nın emriyle General Tekeli Zaporojye Siçi'ni kuşatıp dağıttı; Zaporojye toprakları Yeni Rusya eyaletine katıldı.",
     kaynak:"Serhii Plokhy, The Cossack Myth (Cambridge 2012) · Orest Subtelny, Ukraine: A History (Toronto 1988)",
-    taraflar:["zaporojye","rusya"], odak_kimlik:"zaporojye", etiket:["konu-siyasi"],
+    taraflar:["zaporojye","rusya"], yer_id:"Zaporojye Seçi", etiket:["konu-siyasi"],
     ic_not_t:"Veri 16 Haziran; Gregoryen 15 Haziran (1 gün).", ic_not_k:"Künyeyle anıldı; sayfa açılmadı." },
   { t:"1500-07-14", k:"siyasi", b:"Vedroşa Savaşı: Moskova Litvanya Büyük Dükalığı'nı yener",
     gun:"14 Temmuz 1500", yer:"Vedroşa (Dorogobuj yakını)", kisiler:"III. İvan",

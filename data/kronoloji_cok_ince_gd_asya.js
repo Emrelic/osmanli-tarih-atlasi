@@ -15,7 +15,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── EDO (TOKUGAWA) ŞOGUNLUĞU ───────────────────────────────────────
 { t:"1615-01-01", k:"askeri", b:"Osaka Kalesi düştü — Toyotomi hanedanı sona erdi, Tokugawa'nın karşısında rakip kalmadı",
-  gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", yer:"Osaka",
+  gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", yer:"Osaka", yer_id:"Osaka",
   kisiler:"Tokugawa Ieyasu, Toyotomi Hideyori",
   d:"Ieyasu, Sekigahara'dan (1600) sonra bile Osaka Kalesi'nde oturan Toyotomi Hideyori'yi 1614 kış ve 1615 yaz seferleriyle kuşattı. Kale 1615 yazında düştü, Hideyori ve annesi intihar etti. Bu, şogunluğa karşı örgütlü tek ciddi rakibin ortadan kalkması ve iki buçuk yüzyıllık «Tokugawa barışı»nın başlangıcıdır.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · John Whitney Hall (ed.), The Cambridge History of Japan, cilt 4: Early Modern Japan (Cambridge UP, 1991). Sayfa verilmedi.",
@@ -23,7 +23,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"Yıl kaynaklı; gün ay takvimidir, çevrim uydurulmadı." },
 
 { t:"1635-01-01", k:"siyasi", b:"Sankin-kotai (nöbetleşe Edo ikameti) zorunlu hale geldi — daimyo'lar Edo'ya bağlandı",
-  gun:"1635 (yıl)", yer:"Edo", kisiler:"Tokugawa Iemitsu",
+  gun:"1635 (yıl)", yer:"Edo", yer_id:"Edo (Tokyo)", kisiler:"Tokugawa Iemitsu",
   d:"Üçüncü şogun Iemitsu, 1635'te yenilenen «buke shohatto» (savaşçı hanedan yasaları) ile daimyo'ların yılın yarısını Edo'da geçirmesini ve ailelerini orada bırakmasını zorunlu kıldı. Bu düzen daimyo'ları borçlandırarak şogunluğa bağımlı kıldı ve yolların, konaklama şehirlerinin gelişmesini sağladı.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · John Whitney Hall (ed.), The Cambridge History of Japan, cilt 4 (Cambridge UP, 1991). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-siyasi","konu-idari"] },
@@ -43,13 +43,13 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["edo-bakufu"], etiket:["konu-diplomasi","konu-siyasi"] },
 
 { t:"1858-07-29", k:"siyasi", b:"Harris Antlaşması — eşitsiz ticaret antlaşmaları dönemi başladı",
-  gun:"29 Temmuz 1858", yer:"Edo", kisiler:"Townsend Harris, Ii Naosuke",
+  gun:"29 Temmuz 1858", yer:"Edo", yer_id:"Edo (Tokyo)", kisiler:"Townsend Harris, Ii Naosuke",
   d:"Amerikan konsolosu Townsend Harris ile imzalanan ticaret antlaşması, yeni limanları (Kanagawa, Nagasaki, Niigata, Hyōgo) ticarete açtı, yabancılara konsolosluk yargısı ve düşük gümrük verdi. Hükûmet imparatorun onayını almadan imzaladığı için karşı çıkanlar şogunluğu gayrimeşru ilan etti ve Sonnō jōi hareketi güçlendi.",
   kaynak:"William G. Beasley, The Meiji Restoration (Stanford UP, 1972) · Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-diplomasi","konu-siyasi"] },
 
 { t:"1867-01-01", k:"siyasi", b:"Tokugawa Yoshinobu yönetimi imparatora geri verdi (Taisei Hōkan)",
-  gun:"Kasım 1867 (Japon ay takvimi; Gregoryen çevrim sınanmadı)", yer:"Kyoto", kisiler:"Tokugawa Yoshinobu",
+  gun:"Kasım 1867 (Japon ay takvimi; Gregoryen çevrim sınanmadı)", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Tokugawa Yoshinobu",
   d:"Son şogun Yoshinobu, Satsuma ve Chōshū'nun darbe hazırlığı karşısında 1867 sonbaharında yönetimi imparatora iade etti ve şogunluk devlet işlerinden fiilen çekildi. Bu, ocak 1868'deki Meiji Restorasyonu ilanından (künyenin bitiş günü) önceki son adımdır; Boshin Savaşı yine de çıkmıştır.",
   kaynak:"William G. Beasley, The Meiji Restoration (Stanford UP, 1972) · Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-siyasi"],
@@ -57,7 +57,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── TİMOR BEYLİKLERİ ───────────────────────────────────────────────
 { t:"1653-01-01", k:"siyasi", b:"Hollanda Doğu Hindistan Şirketi Kupang'ı ele geçirdi — Batı Timor'da ikinci sömürge odağı",
-  gun:"1653 (yıl)", yer:"Kupang",
+  gun:"1653 (yıl)", yer:"Kupang", yer_id:"Kupang",
   d:"VOC, Portekiz-Topasse egemenliğindeki Timor'a karşı 1653'te Kupang'da Concordia Kalesi'ni kurdu. Adanın batısı Hollanda, doğusu Portekiz etki alanına ayrıldı; iki sömürge gücü arasındaki rekabet, yerel liurai'leri iki kampa böldü. Bu ikilik 20. yüzyıla dek Timor'un sınırını belirledi.",
   kaynak:"Hans Hägerdal, Lords of the Land, Lords of the Sea: Conflict and Adaptation in Early Colonial Timor, 1600–1800 (KITLV Press, 2012). Sayfa verilmedi.",
   taraflar:["timor-beylikleri","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-askeri"] },
@@ -70,26 +70,26 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["kamboc-kralligi","ayutthaya"], etiket:["konu-askeri","konu-siyasi"] },
 
 { t:"1887-10-17", k:"idari", b:"Hindiçini Birliği kuruldu — Kamboçya Fransız Hindiçini'ne katıldı",
-  gun:"17 Ekim 1887", yer:"Hanoi",
+  gun:"17 Ekim 1887", yer:"Hanoi", yer_id:"Hanoi (Thăng Long)",
   d:"Fransa, Cochinchina, Annam, Tonkin ve Kamboçya'yı 1887'de tek bir genel valilik altında «Hindiçini Birliği» olarak topladı. 1863'te protektora kabul etmiş olan Kamboçya böylece Fransız idari sisteminin parçası oldu; Laos 1893'te eklendi.",
   kaynak:"David Chandler, A History of Cambodia (Westview Press, 4. bs., 2008) · Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
   taraflar:["kamboc-kralligi","fransiz-cinhindi"], etiket:["konu-siyasi","konu-idari"] },
 
 { t:"1945-03-13", k:"siyasi", b:"Sihanouk Japon baskısıyla Kamboçya'nın bağımsızlığını ilan etti",
-  gun:"13 Mart 1945", yer:"Phnom Penh", kisiler:"Norodom Sihanouk",
+  gun:"13 Mart 1945", yer:"Phnom Penh", yer_id:"Phnom Penh", kisiler:"Norodom Sihanouk",
   d:"Japon kuvvetleri 9 Mart 1945'te Fransız idaresini devirince, Japonların isteğiyle Kral Sihanouk Fransa ile protektora antlaşmalarının feshedildiğini ve Kamboçya'nın bağımsız olduğunu açıkladı. Bağımsızlık Japon himayesinde kaldı; Japonya'nın teslimiyle Fransa ülkeyi yeniden aldı (künyenin bitişi 1945-09-02).",
   kaynak:"David Chandler, A History of Cambodia (Westview Press, 4. bs., 2008). Sayfa verilmedi.",
   taraflar:["kamboc-kralligi"], etiket:["konu-siyasi"] },
 
 // ── MALAY SULTANLIKLARI ────────────────────────────────────────────
 { t:"1786-08-11", k:"siyasi", b:"Francis Light Penang'ı Kedah Sultanı adına aldı — İngiltere'nin yarımadadaki ilk üssü",
-  gun:"11 Ağustos 1786", yer:"Penang", kisiler:"Francis Light, Sultan Abdullah",
+  gun:"11 Ağustos 1786", yer:"Penang", yer_id:"Penang (George Town)", kisiler:"Francis Light, Sultan Abdullah",
   d:"İngiliz Doğu Hindistan Şirketi adına Francis Light, Kedah Sultanı'ndan Penang adasının devrini, Siyam ve Burma tehdidine karşı askerî koruma vaadi karşılığında aldı. Söz yerine getirilmedi; yine de ada İngiltere'nin Malay Yarımadası'ndaki ilk kalıcı üssü oldu ve ileride Malaka Boğazı'na egemenliğin temelini attı.",
   kaynak:"Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 2. bs., 2001). Sayfa verilmedi.",
   taraflar:["malay-sultanliklari","ingiltere"], etiket:["konu-siyasi","konu-diplomasi"] },
 
 { t:"1824-03-17", k:"siyasi", b:"Anglo-Hollanda Antlaşması — Malay dünyası İngiliz ve Hollanda etki alanlarına bölündü",
-  gun:"17 Mart 1824", yer:"Londra",
+  gun:"17 Mart 1824", yer:"Londra", yer_id:"Londra",
   d:"İngiltere ve Hollanda, Boğaz'ın kuzeyindeki Malay yarımadasını İngiliz, güneydeki adalar dünyasını (Sumatra, Riau-Lingga, Cava) Hollanda etki alanı kabul eden bir antlaşma imzaladı; Malaka Hollanda'dan İngiltere'ye geçti. Tek bir Malay kültür alanı böylece iki sömürge sınırına bölündü; bugünkü Malezya-Endonezya sınırının kökeni budur.",
   kaynak:"Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 2. bs., 2001). Sayfa verilmedi.",
   taraflar:["malay-sultanliklari","hollanda-dogu-hint","ingiltere"], etiket:["konu-diplomasi","konu-siyasi"] },
@@ -123,14 +123,14 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── LAN XANG ───────────────────────────────────────────────────────
 { t:"1638-01-01", k:"siyasi", b:"Sulinya Vongsa tahta çıktı — Lan Xang'ın son büyük dönemi başladı",
-  gun:"1638 (yıl)", yer:"Vientiane", kisiler:"Sulinya Vongsa",
+  gun:"1638 (yıl)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Sulinya Vongsa",
   d:"Lan Xang, Sulinya Vongsa'nın uzun hükümdarlığında (1638 sonrası) iç barışa, ticarete ve Budist kültürün gelişmesine kavuştu; 1641'de Hollanda VOC elçisi Vientiane'i ziyaret etti. Kral, kuzeyde Burma ve güneyde Siyam ile dengeli ilişkiler kurdu.",
   kaynak:"Martin Stuart-Fox, The Lao Kingdom of Lan Xang: Rise and Decline (White Lotus, 1998). Sayfa verilmedi.",
   taraflar:["lan-xang"], etiket:["konu-siyasi"],
   ic_not_t:"Başlangıç yılı ve hükümdarlık süresi (1638-1695) kaynakta; gün yok." },
 
 { t:"1694-01-01", k:"olum", b:"Sulinya Vongsa öldü — Lan Xang veraset krizine girdi ve parçalanmaya gitti",
-  gun:"1694 (yıl; bazı kaynaklar 1695)", yer:"Vientiane", kisiler:"Sulinya Vongsa",
+  gun:"1694 (yıl; bazı kaynaklar 1695)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Sulinya Vongsa",
   d:"Sulinya Vongsa'nın ölümünden sonra erkek varis bulunamadı, taht kavgaları çıktı. Bu kriz 1707'de krallığın Luang Prabang ve Vientiane'e bölünmesine yol açtı (Champasak da ayrıldı).",
   kaynak:"Martin Stuart-Fox, The Lao Kingdom of Lan Xang: Rise and Decline (White Lotus, 1998). Sayfa verilmedi.",
   taraflar:["lan-xang"], etiket:["konu-siyasi"],
@@ -144,13 +144,13 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["nguyen-hanedani","fransiz-cinhindi"], etiket:["konu-siyasi","konu-diplomasi"] },
 
 { t:"1883-08-25", k:"siyasi", b:"Harmand Antlaşması — Fransa Annam ve Tonkin üzerinde protektorayı dayattı",
-  gun:"25 Ağustos 1883", yer:"Huế",
+  gun:"25 Ağustos 1883", yer:"Huế", yer_id:"Huế (Phú Xuân)",
   d:"Tonkin'de Fransız ilerleyişi ve Hanoi'nin alınmasıyla Huế sarayı, Harmand antlaşmasını imzaladı: Fransa'nın Annam ve Tonkin üzerinde protektorası kabul edildi, Binh Thuan Cochinchina'ya katıldı. 1884 Huế Antlaşması (künye içindeki madde) bunu düzenledi ve Çin'in yönetim üzerindeki iddiasını da sona erdirdi.",
   kaynak:"Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
   taraflar:["nguyen-hanedani","fransiz-cinhindi"], etiket:["konu-siyasi","konu-diplomasi"] },
 
 { t:"1945-03-11", k:"siyasi", b:"Bảo Đại Japon baskısıyla Vietnam'ın bağımsızlığını ilan etti",
-  gun:"11 Mart 1945", yer:"Huế", kisiler:"Bảo Đại",
+  gun:"11 Mart 1945", yer:"Huế", yer_id:"Huế (Phú Xuân)", kisiler:"Bảo Đại",
   d:"Japonya'nın 9 Mart 1945'te Fransız yönetimini devirmesinin ardından, İmparator Bảo Đại Fransa ile antlaşmaların feshedildiğini ve Vietnam'ın Japon himayesinde bağımsız olduğunu ilan etti. Ağustos 1945'te Việt Minh ayaklanması sırasında Bảo Đại tahttan çekildi (künyenin bitişi).",
   kaynak:"Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
   taraflar:["nguyen-hanedani"], etiket:["konu-siyasi"] },
@@ -172,20 +172,20 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── TERNATE SULTANLIĞI ─────────────────────────────────────────────
 { t:"1512-01-01", k:"siyasi", b:"Portekizliler Ternate'ye ulaştı — baharat adalarında Avrupa ticaret savaşı başladı",
-  gun:"1512 (yıl)", yer:"Ternate", kisiler:"Francisco Serrão",
+  gun:"1512 (yıl)", yer:"Ternate", yer_id:"Ternate", kisiler:"Francisco Serrão",
   d:"Malaka'nın 1511'de alınmasından sonra Portekizli Francisco Serrão 1512'de Ternate'ye ulaştı ve sultanla ticaret ve ittifak kurdu. Baharatın (karanfil) tekeli için Ternate ile rakibi Tidore, Portekiz ve İspanya'nın yanında safa dizildi.",
   kaynak:"Leonard Y. Andaya, The World of Maluku: Eastern Indonesia in the Early Modern Period (University of Hawaii Press, 1993). Sayfa verilmedi.",
   taraflar:["ternate-sultanligi","portekiz"], etiket:["konu-siyasi","konu-ekonomi"] },
 
 { t:"1606-01-01", k:"askeri", b:"İspanya Ternate'yi işgal etti, Sultan Said'i Manila'ya sürdü",
-  gun:"1606 (yıl)", yer:"Ternate", kisiler:"Sultan Said",
+  gun:"1606 (yıl)", yer:"Ternate", yer_id:"Ternate", kisiler:"Sultan Said",
   d:"İspanyol Manila valisinin seferi 1606'da Ternate'yi alıp sultanı esir olarak Filipinler'e götürdü; bu, Hollanda'nın bölgeye girişine karşı İspanya'nın karşı hamlesiydi. Hollandalılar ve Ternate halkı 1663'te İspanyolların çekilmesine kadar adayı dönüşümlü kontrol etti.",
   kaynak:"Leonard Y. Andaya, The World of Maluku (University of Hawaii Press, 1993). Sayfa verilmedi.",
   taraflar:["ternate-sultanligi","ispanya"], etiket:["konu-askeri","konu-siyasi"] },
 
 // ── PAGARUYUNG ─────────────────────────────────────────────────────
 { t:"1821-02-10", k:"siyasi", b:"Minangkabau soyluları Hollanda ile antlaşma yaptı — Padri Savaşı Hollanda'nın müdahalesine açıldı",
-  gun:"10 Şubat 1821", yer:"Padang",
+  gun:"10 Şubat 1821", yer:"Padang", yer_id:"Padang",
   d:"Padri hareketine karşı zayıf düşen Minangkabau soyluları ve Pagaruyung kraliyet ailesi, Padang'da Hollanda ile antlaşma imzalayıp Minangkabau topraklarını Hollanda'ya devrederek yardım istedi. Hollanda müdahalesi Padri Savaşı'nı (1803-1837) iç savaştan sömürge savaşına çevirdi ve krallığın sonunu hazırladı.",
   kaynak:"Christine Dobbin, Islamic Revivalism in a Changing Peasant Economy: Central Sumatra, 1784–1847 (Curzon, 1983). Sayfa verilmedi.",
   taraflar:["pagaruyung","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-diplomasi"] },
@@ -198,7 +198,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["goryeo"], etiket:["konu-siyasi"] },
 
 { t:"1259-01-01", k:"siyasi", b:"Goryeo Moğollarla barış yaptı — Gaegyeong'a dönüş ve vasallık yolu açıldı",
-  gun:"1259 (yıl)", yer:"Ganghwa",
+  gun:"1259 (yıl)", yer:"Ganghwa", yer_id:"Ganghwa",
   d:"Moğol istilalarının otuz yılı aşan baskısı karşısında Goryeo sarayı 1259'da Moğollarla barışı kabul etti; Choe ailesinin hükümeti devrildi ve 1270'te başkent Ganghwa'dan Gaegyeong'a döndü. Goryeo bundan sonra Yuan'ın tâbi krallığı ve damat devleti oldu.",
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
   taraflar:["goryeo","mogol-imparatorlugu"], etiket:["konu-siyasi","konu-diplomasi"] },
@@ -211,14 +211,14 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── KAMAKURA ŞOGUNLUĞU ─────────────────────────────────────────────
 { t:"1221-01-01", k:"askeri", b:"Jōkyū Savaşı — emekli imparator Go-Toba'nın şogunluğa karşı ayaklanması bastırıldı",
-  gun:"1221 (yıl; yaz, Japon ay takvimi)", yer:"Kyoto", kisiler:"Go-Toba, Hōjō Yoshitoki",
+  gun:"1221 (yıl; yaz, Japon ay takvimi)", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Go-Toba, Hōjō Yoshitoki",
   d:"Emekli İmparator Go-Toba, Kamakura'nın naibi Hōjō Yoshitoki'yi devirmek için 1221'de orduyu çağırdı; şogunluk birlikleri haftalar içinde Kyoto'yu aldı, imparatoru ve iki oğlunu sürgüne gönderdi. Bu zaferle Kamakura, sarayın mallarını ve veraset kararlarını denetleyerek iktidarını pekiştirdi.",
   kaynak:"John Whitney Hall & Jeffrey P. Mass (eds.), Medieval Japan: Essays in Institutional History (Yale UP, 1974) · Thomas D. Conlan, In Little Need of Divine Intervention (Cornell East Asia Series, 2001). Sayfa verilmedi.",
   taraflar:["kamakura"], etiket:["konu-askeri","konu-siyasi"],
   ic_not_t:"Yıl kaynaklı; gün ay takvimidir, çevrim uydurulmadı." },
 
 { t:"1274-01-01", k:"askeri", b:"Birinci Moğol (Bun'ei) seferi — Hakata Körfezi'ne çıkarma",
-  gun:"1274 (yıl; sonbahar, Japon ay takvimi)", yer:"Hakata",
+  gun:"1274 (yıl; sonbahar, Japon ay takvimi)", yer:"Hakata", yer_id:"Hakata (Fukuoka)",
   d:"Yuan ve Goryeo gemileri 1274 sonbaharında Tsushima ve Iki'yi alıp Hakata Körfezi'ne çıktı; Kamakura savaşçılarıyla yapılan çatışmadan sonra fırtına filonun büyük kısmını batırdı ve sefer başarısız kaldı. 1281'deki ikinci sefer de yenilince savunma giderleri ödenemeyen vassalları (gokenin) tatmin edememesi Kamakura'nın zayıflamasına yol açtı.",
   kaynak:"Thomas D. Conlan, In Little Need of Divine Intervention: Takezaki Suenaga's Scrolls of the Mongol Invasions of Japan (Cornell East Asia Series, 2001). Sayfa verilmedi.",
   taraflar:["kamakura","yuan-hanedani"], etiket:["konu-askeri","konu-siyasi"],
@@ -246,7 +246,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── THONBURI ───────────────────────────────────────────────────────
 { t:"1778-01-01", k:"askeri", b:"Taksin Vientiane'i aldı — Siyam Laos krallıklarına üstün geldi",
-  gun:"1778 (yıl; bazı kaynaklar 1778-79)", yer:"Vientiane", kisiler:"Taksin, Chao Phraya Chakri",
+  gun:"1778 (yıl; bazı kaynaklar 1778-79)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Taksin, Chao Phraya Chakri",
   d:"Thonburi Kralı Taksin, generali Chao Phraya Chakri (sonradan Rama I) komutasında Laos krallığı Vientiane'i 1778-79'da aldı; Emerald Buddha ve Phra Bang heykelleri Siyam'a taşındı. Laos krallıkları bundan sonra Siyam'a tâbi oldu.",
   kaynak:"David K. Wyatt, Thailand: A Short History (Yale UP, 2. bs., 2003) · Martin Stuart-Fox, A History of Laos (Cambridge UP, 1997). Sayfa verilmedi.",
   taraflar:["tonburi","laos-kralliklari"], etiket:["konu-askeri","konu-siyasi"],
@@ -266,13 +266,13 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
 { t:"1840-10-08", k:"siyasi", b:"Hawaii ilk anayasasını yayımladı — mutlak monarşi sınırlandı",
-  gun:"8 Ekim 1840", yer:"Honolulu", kisiler:"Kamehameha III",
+  gun:"8 Ekim 1840", yer:"Honolulu", yer_id:"Honolulu", kisiler:"Kamehameha III",
   d:"Kamehameha III, 1840 anayasasıyla Hawaii'ye yazılı bir hukuk düzeni, iki meclisli bir yasama organı ve bağımsız yargı getirdi. Arazi sistemi (Mahele, 1848) ve yabancıların toprak edinmesi bu çerçevede gelişti.",
   kaynak:"Ralph S. Kuykendall, The Hawaiian Kingdom, cilt 1 (University of Hawaii Press, 1938). Sayfa verilmedi.",
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
 { t:"1893-01-17", k:"siyasi", b:"Kraliçe Liliuokalani devrildi — Hawaii Krallığı sona erdi",
-  gun:"17 Ocak 1893", yer:"Honolulu", kisiler:"Liliuokalani, Sanford Dole",
+  gun:"17 Ocak 1893", yer:"Honolulu", yer_id:"Honolulu", kisiler:"Liliuokalani, Sanford Dole",
   d:"Amerikalı iş adamlarından oluşan Emniyet Komitesi ve Amerikan denizcilerinin desteğiyle Kraliçe Liliuokalani tahttan indirildi; geçici hükûmet kuruldu ve Amerika ile ilhak için müzakere etti. Hawaii 1894'te Cumhuriyet, 1898'de Amerikan ilhakıyla (künye bitişi) Birleşik Devletler toprağı oldu.",
   kaynak:"Noenoe K. Silva, Aloha Betrayed: Native Hawaiian Resistance to American Colonialism (Duke UP, 2004) · Lilikalā Kameʻeleihiwa. Sayfa verilmedi.",
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
@@ -302,7 +302,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── PALEMBANG ──────────────────────────────────────────────────────
 { t:"1821-01-01", k:"askeri", b:"Hollanda Palembang'ı işgal etti — Sultan Mahmud Badaruddin II sürgüne gönderildi",
-  gun:"1821 (yıl)", yer:"Palembang", kisiler:"Mahmud Badaruddin II",
+  gun:"1821 (yıl)", yer:"Palembang", yer_id:"Palembang", kisiler:"Mahmud Badaruddin II",
   d:"Sultan Mahmud Badaruddin II, 1819'da Hollanda seferini geri püskürtmüş, 1821'de yenilmişti. Hollanda 1821'de Palembang'ı alıp sultanı Ternate'ye sürdü; sultanlık kısa bir süre daha kukla sultanlarla sürdü ve 1825'te kaldırıldı.",
   kaynak:"Barbara Watson Andaya, To Live as Brothers: Southeast Sumatra in the Seventeenth and Eighteenth Centuries (University of Hawaii Press, 1993) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
   taraflar:["palembang-sultanligi","hollanda-dogu-hint"], etiket:["konu-askeri","konu-siyasi"],
@@ -310,7 +310,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── LAOS KRALLIKLARI ───────────────────────────────────────────────
 { t:"1828-01-01", k:"askeri", b:"Siyam Vientiane'i yıktı — Anouvong isyanı bastırıldı, Laos krallıkları Siyam'a bağlandı",
-  gun:"1828 (yıl)", yer:"Vientiane", kisiler:"Anouvong",
+  gun:"1828 (yıl)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Anouvong",
   d:"Kral Anouvong'un 1827'deki Siyam karşıtı ayaklanması bastırıldı; 1828'de Siyam orduları Vientiane'i yakıp yıktı, halkın büyük kısmını Siyam'ın kuzeydoğusuna sürdü. Vientiane krallığı fiilen sona erdi, Luang Prabang ve Champasak Siyam'a doğrudan bağlı kaldı.",
   kaynak:"Martin Stuart-Fox, A History of Laos (Cambridge UP, 1997) · David K. Wyatt, Thailand: A Short History (Yale UP, 2. bs., 2003). Sayfa verilmedi.",
   taraflar:["laos-kralliklari","siyam-chakri"], etiket:["konu-askeri","konu-siyasi"] }

@@ -21,7 +21,7 @@ window.OLAYLAR_P0036 = [
   kaynak:"mehdiler--sudan", duygu:["😔"] },
 
 // UYGULA-OLAYLAR-0930 · UYGULA-YERLESIM-0930 M-5608 B4: Doha + Katar dolgusu 1868'den s:katar — maddesizdi.
-{ t:"1868-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"], b:"Katar'da Âl-i Sânî öne çıktı — İngiliz müdahalesi ve Bahreyn'e vergi", gun:"1868 sonbaharı", yer:"Doha, Katar", yer_id:"Doha", kisiler:"Muhammed b. Sânî",
+{ t:"1868-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"], b:"Katar'da Âl-i Sânî öne çıktı — İngiliz müdahalesi ve Bahreyn'e vergi", gun:"1868 sonbaharı", yer:"Doha, Katar", yer_id:"Doha (Katar)", kisiler:"Muhammed b. Sânî",
   d:"Bahreyn Şeyhliği ile Suud Emirliği adına bölgede vergi tahsildarlığı yapan Âl-i Sânî 1860'lardan itibaren Katar siyasetinde belirleyici oldu. Necid'deki Suud ailesi ile Bahreyn'deki Halîfe ailesi içindeki çekişmeler Katar'ı İngilizler için önemli kılınca İngiltere 1868 sonbaharında Katar'a gemi gönderdi ve Muhammed b. Sânî'yi Bahreyn emîrlerine vergi ödemeye mecbur bıraktı. Bu müdahale, Bağdat valisi Midhat Paşa'nın 1871 Lahsâ seferine giden süreci başlattı.",
   ic_not_t:"TDV katar: 'İngilizler … 1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar' — mevsim verir, ay/gün vermez ⇒ 1868-01-01 + kesinlik:yil (sonbahar metinde). ⚠️ TDV cümlesi Katar'ın BAHREYN nüfuzunda tutulduğunu söyler; yerleşim tarafının s:katar kararı bu cümleye değil Âl-i Sânî'nin 1860'lardaki yükselişine dayanıyorsa kimlik tartışması UYGULA-YERLESIM-0930'ındır.",
   kaynak:"katar", duygu:["⚓"] },

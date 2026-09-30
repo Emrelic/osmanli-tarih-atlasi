@@ -43,7 +43,7 @@ window.KRONOLOJI_COK_500_1000 = [
     taraflar:["emevi"], etiket:["konu-askeri"] },
 
   { t:"0787-01-01", k:"hukumdar", b:"Rüstemî imamı Abdurrahman b. Rüstem öldü",
-    gun:"171 H. / 787 (TDV yıl verir)", yer:"Tâhert", yer_id:"Tâhert", kisiler:"Abdurrahman b. Rüstem · Abdülvehhâb",
+    gun:"171 H. / 787 (TDV yıl verir)", yer:"Tâhert", yer_id:"Tâhert (Tiaret)", kisiler:"Abdurrahman b. Rüstem · Abdülvehhâb",
     d:"Tâhert'i kurup merkez yapan Abdurrahman'ın on bir yıllık yönetimi barış içinde geçti; ölmeden önce yerine geçecek imamı seçme yetkisini altı kişilik bir şûraya bıraktı.",
     kaynak:"TDV: rustemiler — 'Abdurrahman’ın 171 (787) yılında ölümüne kadar on bir yıl süren yönetim dönemi'",
     taraflar:["rustemi"], etiket:["konu-siyasi"] },
@@ -80,7 +80,7 @@ window.KRONOLOJI_COK_500_1000 = [
     taraflar:["tolunogullari"], etiket:["konu-siyasi"] },
 
   { t:"0911-01-01", k:"toprak-kayip", b:"Sâmânîler Zerenc'i aldı; Saffârîler'in Leysî kolu sona erdi",
-    gun:"Receb 298 / Mart 911 (gün bilinmiyor)", yer:"Zerenc", yer_id:"Zerenc",
+    gun:"Receb 298 / Mart 911 (gün bilinmiyor)", yer:"Zerenc", yer_id:"Zerenc (Sîstan)",
     d:"Emîr Ahmed'in gönderdiği Sâmânî ordusu Zerenc'i ele geçirdi; Muhammed ve Muaddel tutuklanıp Bağdat'a gönderildi, Sîstan Sâmânî idaresine girdi.",
     kaynak:"TDV: saffariler — 'Böylece Saffârîler’in Leysîler denilen kolu sona erdi (Receb 298 / Mart 911)'",
     taraflar:["saffari","samani"], etiket:["toprak-kayip","konu-askeri"] },
@@ -104,7 +104,7 @@ window.KRONOLOJI_COK_500_1000 = [
     taraflar:["hamdani-musul","buveyhi"], etiket:["konu-askeri"] },
 
   { t:"0963-01-01", k:"vassal", b:"Fâtımî ordusu Sicilmâse'de Semkû'yu devirip Fâtımî nüfuzunu tanıyan el-Mu'tez'i emîr yaptı",
-    gun:"352 H. / 963 (TDV yıl verir)", yer:"Sicilmâse", yer_id:"Sicilmâse", kisiler:"Semkû el-Müntasır · Ebû Muhammed el-Mu'tez",
+    gun:"352 H. / 963 (TDV yıl verir)", yer:"Sicilmâse", yer_id:"Sicilmâse (Tâfilelt)", kisiler:"Semkû el-Müntasır · Ebû Muhammed el-Mu'tez",
     d:"Fâtımî halifesinin gönderdiği ordu Semkû el-Müntasır'ı bertaraf etti; yerine Fâtımî nüfuzunu tanıyan kardeşi Ebû Muhammed Abdullah el-Mu'tez Midrârî emîri yapıldı.",
     kaynak:"TDV: midrariler — 'Fâtımî nüfuzunu tanıyan kardeşi … Midrârî emirliğine getirildi (352/963)'",
     taraflar:["midrari","fatimi"], etiket:["konu-siyasi"] },

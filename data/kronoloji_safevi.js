@@ -237,7 +237,7 @@ window.KRONOLOJI_SAFEVI = [
 { t:"1623-01-01", b:"Bender Abbas limanının kurulması", gun:"1623 — yıl hassasiyeti · TDV `safeviler`, `abbas-i`, `sah-ismail` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:2, kapsam:"ic",
   etiket:["idari","ekonomi","imar","islahat","konu-idari","konu-ekonomi","konu-imar","konu-islahat"],
   d:"Hürmüz'ün Portekizlilerden alınmasının hemen ardından şah, ticareti karşı kıyıdaki yeni kurulan ve kendi adını taşıyan Bender Abbas limanına yönlendirdi; şehir kısa sürede Basra Körfezi'nin en önemli ticaret limanı hâline geldi ve Hürmüz'ün stratejik rolünü kalıcı olarak devraldı.",
-  kaynak:"Encyclopaedia Iranica, madde: BANDAR ʿABBAS", yer_id:"Bender Abbas" },
+  kaynak:"Encyclopaedia Iranica, madde: BANDAR ʿABBAS", yer_id:"Bender Abbas (Gamrûn)" },
 { t:"1598-01-01", b:"Kervan yolu ve kervansaray ağının genişletilmesi", gun:"1598 — yıl hassasiyeti · TDV `safeviler`, `abbas-i`, `sah-ismail` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic",
   etiket:["ekonomi","idari","imar","konu-idari","konu-ekonomi","konu-imar"],
   d:"Şah Abbas, İsfahan'ı merkez alan ana ticaret yolları üzerine yüzlerce yeni kervansaray, köprü ve su kemeri inşa ettirdi (rivayete göre 999 kervansaray); bu altyapı yatırımı ipek ve diğer malların iç ve dış ticaretini büyük ölçüde kolaylaştırdı ve İsfahan'ın uluslararası bir ticaret merkezine dönüşmesini sağladı.",

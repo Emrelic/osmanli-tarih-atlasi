@@ -145,7 +145,7 @@ window.KRONOLOJI_COK_INCE_DG_AFRIKA = [
     d:"Muhammed eş-Şerîf 1850'de Vârâ'dan ayrıldı ve 70 km güneyde, ticaret kervanlarının geçtiği bir arazideki Ebîşe'yi (Abeşe) başşehir edindi.",
     kaynak:"TDV: veday (VEDÂY — Ahmet Kavas)",
     ic_not_t:"Gün yok.",
-    yer_id:"Abeşe", taraflar:["vaday"], etiket:["konu-idari"] },
+    yer_id:"Abeşe (Abéché)", taraflar:["vaday"], etiket:["konu-idari"] },
   { t:"1858-01-01", k:"siyasi", b:"Kolak Ali Vaday tahtına geçti",
     gun:"(kaynak yıl verir)", yer:"Ebîşe",
     kisiler:"Ali",

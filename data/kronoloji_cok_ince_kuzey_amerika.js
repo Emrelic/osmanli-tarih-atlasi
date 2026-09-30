@@ -37,7 +37,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
 { t:"1771-01-01", k:"din", b:"Moravya misyonerleri Labrador'da Nain'i kurdu",
   gun:"1771 (kaynak yıl verir)",
   ic_not_t:"The Canadian Encyclopedia 'Nain' yalnız yılı verir.",
-  yer:"Nain (Labrador)", yer_kon:[56.54,-61.69],
+  yer:"Nain (Labrador)", yer_id:"Nain (Labrador)", yer_kon:[56.54,-61.69],
   d:"Moravya Kilisesi misyonerleri Labrador kıyısında ilk kalıcı misyon istasyonları olarak Nain'i kurdu. Misyon, mevsimlik göç yollarını izleyen avcı ve balıkçıların uğradığı kalıcı bir ticaret merkezine dönüştü. Labrador İnuit'inin Hristiyanlaşmasının ve Avrupa ticaretine bağlanmasının başlangıç noktalarından biridir.",
   kaynak:"The Canadian Encyclopedia (Historica Canada), 'Nain': \"chosen by the MORAVIANS in 1771 as their first mission\"",
   taraflar:["inuit"], etiket:["konu-din","konu-ekonomi"] },
@@ -59,7 +59,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
 
 { t:"1874-09-15", k:"antlasma", b:"4 Numaralı Antlaşma (Qu'Appelle) — Ova Krileri ve Saulteaux toprak devretti",
   gun:"15 Eylül 1874 (The Canadian Encyclopedia; görüşmeler 8 Eylül'de başladı — Encyclopedia of Saskatchewan)",
-  yer:"Fort Qu'Appelle", yer_kon:[50.77,-103.79], kisiler:"Alexander Morris",
+  yer:"Fort Qu'Appelle", yer_id:"Fort Qu'Appelle", yer_kon:[50.77,-103.79], kisiler:"Alexander Morris",
   d:"Kanada hükümeti adına Vali Alexander Morris başkanlığındaki komisyon, Fort Qu'Appelle'de Kri, Saulteaux ve Assiniboine önderleriyle görüştü. Günlerce süren gerginlikten sonra on üç şef antlaşmaya imza koydu ve bugünkü güney Saskatchewan'ın büyük kısmı ile komşu toprakları kapsayan yaklaşık 195.000 km² Kanada'ya bırakıldı. Karşılığında rezerv toprağı, yıllık ödeme, okul ve tarım aletleri vaat edildi.",
   kaynak:"The Canadian Encyclopedia, 'Treaty 4' (arama özeti: \"signed on 15 September 1874 at Fort Qu'Appelle\"; 195.000 km²) · Encyclopedia of Saskatchewan (Univ. of Regina), 'Treaty 4': görüşmelerin \"September 8, 1874\"te başlaması, \"thirteen chiefs placed their 'x' on the treaty\"",
   ic_not_d:"İmza günü TCE'nin arama özetinden; eSask sayfası günü açık yazmıyor ('That afternoon').",

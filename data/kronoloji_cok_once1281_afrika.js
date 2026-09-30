@@ -78,7 +78,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1084-01-01", b:"Murâbıtlar Sebte'yi (Ceuta) ele geçirdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer:"Sebte", taraflar:["murabitlar"],
-  yer_id:"Sebte",
+  yer_id:"Sebte (Ceuta)",
   d:"Boğazın Afrika yakasındaki son önemli kale Sebte'nin alınmasıyla Murâbıtlar Mağrib-i Aksâ kıyısının tamamına hâkim oldu. İki yıl sonraki Endülüs geçişinin üssü bu kıyı oldu.",
   kaynak:"TDV: murabitlar — 'Daha sonra Sebte’ye (Ceuta) hâkim oldu (477/1084)'",
   gun:"477 (1084) — TDV yıl verir" },
@@ -218,14 +218,14 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1271-01-01", b:"Merînîler Tâze Geçidi'nde Abdülvâdîler'e karşı büyük bir zafer kazandı", tur:"savas", onem:2, dunya:1, kapsam:"ic",
   etiket:["savas","konu-askeri"], yer:"Tâze Geçidi", taraflar:["merini","zeyyani"],
-  yer_id:"Tâze",
+  yer_id:"Tâze (Taza)",
   d:"Muvahhidler'in yıkılışından sonra bölgedeki isyanları bastıran Merînîler, doğudaki rakipleri Abdülvâdîler'i Tâze Geçidi'nde ağır bir yenilgiye uğrattı ve iki hânedan arasındaki sınır mücadelesinde üstünlüğü ele geçirdi.",
   kaynak:"TDV: meriniler — '670 (1271-72) yılında Tâze Geçidi’nde Abdülvâdîler’e karşı büyük bir zafer kazandılar'",
   gun:"670 (1271-72) — TDV yıl verir; ilk milâdî yıl yazıldı" },
 
 { t:"1274-01-01", b:"Merînîler Sicilmâse'yi Abdülvâdîler'den geri alıp Mağrib-i Aksâ'nın tamamına hâkim oldu", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer:"Sicilmâse", taraflar:["merini","zeyyani"],
-  yer_id:"Sicilmâse",
+  yer_id:"Sicilmâse (Tâfilelt)",
   d:"Sahrâ ticaretinin kapısı Sicilmâse, bir ara Abdülvâdîler'in eline geçmişti. Ebû Yûsuf Ya'kūb şehri geri alarak Mağrib-i Aksâ'nın her tarafına hâkim oldu; Sicilmâse bu tarihten sonra kesin biçimde Merînî idaresinde kaldı.",
   kaynak:"TDV: meriniler — 'Abdülvâdîler’in eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu'; TDV: sicilmase — '673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi'",
   gun:"673 (1274-75) — TDV yıl verir; ilk milâdî yıl yazıldı" },
@@ -300,7 +300,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1062-01-01", b:"Hammâdî hükümdarı Bulukkîn b. Muhammed Fas şehrini ele geçirdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer:"Fas", taraflar:["hammadiler"],
-  yer_id:"Fas",
+  yer_id:"Fas (Fez)",
   d:"Biskre reislerini itaat altına alan Bulukkîn b. Muhammed, Fas'taki Zenâte kabilesi üzerine yürüyerek Fas şehrini zaptetti. Hammâdîler bu mücadelede Mağrib'e yeni yerleşen Benî Hilâl'in Esbec ve Adî kollarından destek gördü, ama zamanla onların kuklası hâline geldi.",
   kaynak:"TDV: hammadiler — 'Fas’taki Zenâte kabilesi üzerine yürüyüp Fas şehrini de ele geçirdi (454/1062)'",
   gun:"454 (1062) — TDV yıl verir" },
@@ -328,7 +328,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1136-01-01", b:"Sicilya Kralı II. Ruggero Zîrîler'in elindeki Cerbe adasını ele geçirdi", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"ic",
   etiket:["toprak-kayip","konu-askeri"], yer:"Cerbe", taraflar:["ziriler"],
-  yer_id:"Cerbe",
+  yer_id:"Cerbe (Djerba)",
   d:"Zîrî donanmasının akınlarına karşı Kuzey Afrika kıyılarına yönelen Sicilya Kralı II. Ruggero, Cerbe adasını aldı; Zîrî Emîri Hasan b. Ali bunu engelleyemedi. Adanın kaybı, 1148'de Mehdiye'nin düşüşüyle sonuçlanacak Norman ilerleyişinin ilk halkasıydı.",
   kaynak:"TDV: ziriler — 'Zîrîler, II. Ruggero’nun 530 (1136) veya 531 (1137) yılında Cerbe’yi ele geçirmesini de engelleyemediler'",
   gun:"530 (1136) veya 531 (1137) — TDV İKİ yıl verir; erken olan yazıldı",
@@ -370,7 +370,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1068-01-01", b:"Kânim hükümdarı Hava İslâm'ı kabul etti (Dîvân rivayeti)", tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-dini"], yer:"Kânim (Çad gölü kuzeydoğusu)", taraflar:["kanem-bornu"],
-  yer_id:"Mao",
+  yer_id:"Mao (Kanem)",
   d:"Kaynakların çoğu İslâm'ı ilk kabul eden Kânim sultanının Hummay olduğunu söylerken, Kânim-Bornu tarihinin en önemli kaynağı olan Dîvân Benî Dûkū hükümdarı Hava'nın 1068'de bu dine girdiğini kaydeder.",
   kaynak:"TDV: kanim (KÂNİM) — 'Dîvân ’da Hava’nın 1068’de bu dine girdiğinden bahsedilmektedir'",
   gun:"1068 — TDV (Dîvân'a dayanarak) yıl verir",
@@ -378,7 +378,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1075-01-01", b:"Benî Dûkū'nun yerine Hummay ile Seyfiyye (Benî Seyf) hânedanı başladı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-siyasi"], yer:"Kânim", taraflar:["kanem-bornu"],
-  yer_id:"Mao",
+  yer_id:"Mao (Kanem)",
   d:"Zegāveler'in kurduğu Benî Dûkū Krallığı'nın son hâkimi Abdülcelîl'in (1071-1075) ardından oğlu Hummay tahta geçti ve bölge tarihinde yeni bir devir açtı. Devlet ona nisbetle Benî Hummay, soy efsanesine göre Seyfiyye hânedanı diye anıldı; Fizan'daki İbâzî Benî Hattâb Emirliği ile ilk ilişkiler bu dönemde kuruldu.",
   kaynak:"TDV: kanim — 'Benî Dûkū’nun son hâkimi Abdülcelîl olup (1071-1075) bölge tarihinde yeni bir devir açan bunun oğlu Hummay’dır (1075-1086)'",
   gun:"1075 — TDV yalnız saltanat aralığı verir",
@@ -386,7 +386,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1086-01-01", b:"Dûneme b. Hummay Kânim tahtına geçti", tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-askeri"], yer:"Kânim", taraflar:["kanem-bornu"],
-  yer_id:"Mao",
+  yer_id:"Mao (Kanem)",
   d:"Seyfiyye hânedanının en güçlülerinden sayılan Dûneme b. Hummay (1086-1140) uzun yıllar Sahrâ'nın güçlü kavmi Tîbûlar'la savaştı. Son hac dönüşünde Mısırlılar tarafından bindiği gemiden denize atılarak öldürüldü; halefleri döneminde Çad gölü havzasının tamamı ele geçirildi.",
   kaynak:"TDV: kanim — 'Dûneme b. Hummay (1086-1140), sahip olduğu ordusuyla Seyfiyye hânedanının en güçlülerinden kabul edilmektedir'",
   gun:"1086 — TDV yalnız saltanat aralığı verir" },
