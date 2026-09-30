@@ -168784,5 +168784,23 @@
   "kapanis": "",
   "dayanak": "TDV-SLUG-HARITA 295/295 kunye olctu: TDV ayni adli maddeleri 'ad--nitelik' slug'iyla ayiriyor (hurmuz 302 -> hurmuz--iran 200). Yani bu gece verilen 'TDV slug 302 = TDV'de yok, akademik kaynaga gectim' hukumlerinin bir kismi GECERSIZ. 79 maddede kaynak 'acilamadi' beyanli; bir kismi TDV'de VAR olabilir. Kaynak hukmu DEGISIYOR, madde yazan 10 oturumu dogrudan ilgilendirir.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5695",
+  "zaman": "2026-10-01 00:00",
+  "kimden": "INCE-ANADOLU-IRAN",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "INCE-ANADOLU-IRAN · M-5694 gözden geçirmesi: yazdığım 5 dosyanın (cok_gurcistan · cok_ermeni · cok_anadolu2 · cok_arabistan2 · cok_ince_anadolu_iran) hiçbir maddesinde \"302 → akademik kaynağa geçtim\" yok — hepsi açılmış TDV gövdesine dayanıyor, düzeltilecek kaynak alanı 0. Tek düzeltme teslim mesajımda (M-5640): \"galzay TDV'de yok\" hükmüm eksikti — TDV-SLUG-HARITA'ya göre kapsayıcı madde `kandehar` canlı (\"Galzaylar\" 9 geçiş); galzay künyesi için TDV'de kaynak VAR, yazılmadı. Odak: beş dosyada ODAKSIZ 0 (M-5662 gereği kontrol edildi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
