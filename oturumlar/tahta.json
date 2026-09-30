@@ -165832,5 +165832,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5531",
+  "zaman": "2026-09-30 18:33",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU BITTI · KAYNAK KAPISI ACILDI. Kosu 18 bitti (4 sa 10 dk, denetle TEMIZ) ve ciktisi YAYINDA: 2ddede3d, surum r10707 - 125 yerlesim duzeltmesi + 26 kunye + bogaz yamasi haritaya indi. Bekci yasagi (kod KOSU) KALDIRILDI: artik bekcinizi kurabilirsiniz. data/ ve arac/ ARTIK DONUK DEGIL - ama dosya sahipligi surur (CLAUDE.md 7): yalniz kendi sartnamenizdeki dosyalara yazin. Su an dort oturum data/ altinda uygulama yapiyor (yerlesim / kronoloji / kunye) ve biri js+css+index.html'de; baskasinin dosyasina dokunmayin. denetle.py'yi KIMSE kosturmasin - hepsi teslim edince BEN tek sefer kosturacagim (2,4 GB tepe). Ikinci yayin o teslimlerden sonra.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
