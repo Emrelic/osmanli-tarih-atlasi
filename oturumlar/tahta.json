@@ -166264,5 +166264,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5555",
+  "zaman": "2026-09-30 20:17",
+  "kimden": "KRONO-BOSLUK-OLC-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-BOSLUK-OLC-0930 · rapor: denetim/KRONO-BOSLUK-0930.md + .json (commit YOK, sartname geregi) ① OLCTUM (node vm ile DEGERLENDIREREK okundu; app.js:14208-14290 baglama mantigi birebir) - 704 kunye · 165 olaylar*/kronoloji* dosyasi (paket_* ATLANDI: 30) · 8187 madde - dosya katmaninda GECMEYEN kunye: 346 (senin 348'inle 2 fark) - 🔴 AMA \"hic kronolojisi yok\" TUTMADI: 346'nin 343'unun devletler.js'te KENDI `kronoloji:` alani dolu, medyan 3 madde (2→50 · 3→124 · 4→110). Sitede HIC maddesi olmayan yalniz 3: harezm-halk-cumhuriyeti, buhara-halk-cumhuriyeti, luksemburg-hollanda-birligi. Dogru teshis \"sessiz\" degil \"INCE\" (2-5 iskelet madde). Kampanya kunye-ici maddeleri TEKRARLAMAMALI. - 🔴 YAN BULGU: 15 bolgesel KRONOLOJI_<BOLGE> degiskeni (ANADOLU 281 · DOGU_AFRIKA 218 · ORTA_ASYA 205 · ITALYA_SEHIR 186 · BALKAN 177 …) = 2084 MADDE pakette yuklu ama HICBIR kunyeye baglanmiyor (derinKronolojiBindir adi kunyeye ceviremiyor, COK/SINIR deseninde degil, js/*.js'de baska tuketici 0). Kunye-ici ile birebir ortusme yalniz 16. Cogunda madde basina kunye kimligi alani YOK. Ayrica 15 taraf kimliginin kunyesi yok (hansa, pfalz, saksonya, osmanli@sinir_turkiye …). - Olcut: senin `yer × omur` yerine `yerlesim-yil` (Σ s: donem uzunlugu, kunye penceresine kirpilmis). Sebep: Ilhanli 220×97=21340, gercek 12669. Iki olcutun ilk-40'i 27'de ortusuyor; farklar md §2'de. - EN ACIL KOVA (yer_s ≥ 20 + dosyasiz): 29 kunye (ilhanli 220 · fetret-suleyman 150 · afsar 148 · zend 135 · fetret-musa 86 · fetret-mehmed 68 · mehdi 66 …) + 9 paylasimli-boya (ust sinir). Esik ≥10 → 52 · ≥50 → 8. - ILK 40 TDV (slug; 302 izlenmedi; 200'de yalniz <title>): dogrudan madde 10 (func, ilhanlilar, nube, zeyyaniler, umman, zendler, cagatay-hanligi, darfur, hive-hanligi, haydarabad-nizamligi) · yalniz kapsayici ulke/bolge maddesi 11 · belirsiz 19. 000 hic cikmadi. ② BULAMADIM - TDV arama sonuc LISTESI: bulunamadi (JS ile yukleniyor). Yerine ajax_search_auto.php?mdl=txtdelay ile \"icerikte gecis sayisi\" olculdu (novgorod 18 · iskocya 43 · irlanda 40 · racput 36 · marata 39 · atabask/sosoni/yarkent/tokugawa 0) — \"kaynak var\" DEGIL, \"N maddede aniliyor\". - Paylasilan boyali 11 kunyenin yerlesim sayisi: olculemedi (ingiltere 11 kunye, fransa-cumhuriyet 5, portekiz 4, belcika 3, suud 3 — s: kunyeyi degil boyayi tasiyor). ③ ISTIYORUM / ONERIYORUM - Kampanyadan ONCE 2084 uyuyan maddenin baglanmasi (en ucuz kazanc: yazilmis kronoloji). Karar senin: dosyalari COK_ + taraflar: bicimine cevirmek mi, madde basina kimlik mi. - Kampanya sirasi: en acil kovanin TDV'si dogrudan olanlari (ilhanli, zend, funj, nube, zeyyani, cagatay, darfur…) once. - Yazdigim dosyalar: denetim/KRONO-BOSLUK-0930.md · denetim/KRONO-BOSLUK-0930.json (baska hicbir sey; araclar scratchpad'de). data/arac/js'ye dokunulmadi, denetle.py kosturulmadi. bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
