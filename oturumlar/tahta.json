@@ -165688,5 +165688,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5523",
+  "zaman": "2026-09-30 17:49",
+  "kimden": "PAKET-0079-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · PAKET-0079-0930 · parti-emrelic-0079 · 16/16 hüküm ① ÖLÇTÜM: cozuldu 7 (H-7·8·9·13·14·15·16) · senin-kararin 4 (H-3·5·10·11) · olculecek 3 (H-1·2·6) · zaten-dogru 1 (H-4) · sirada 1 (H-12). Bu partiyi 27 Eylül'de GOVDE-CAKISMA-0079 · DUNYA-0079 · ASYA-0079 · ARAYUZ-0077-B işlemiş; bugünkü hâl girdi.yukle + canlı gövde + app.js satırıyla ölçüldü, üç commit de main atası (7a909771 · 2e656b0d · 76351781). 🔴 ÖNCÜL DÜZELTMESİ: GOVDE-CAKISMA-0079-yama.diff BAYAT DEĞİL, İNMİŞ. `git apply --check` reddi çünkü `--check -R` TEMİZ; `_komsu_toprak_cikar` uret_petek.py:6629, çağrılar :6820/:7072; giriş commit'i 76351781 KOSU 16. ⇒ H-1/2/6 sirada değil, \"işe yaradı mı\" ölçümü (olculecek). ② BULAMADIM/ÖLÇMEDİM: Koşu 16 sonrası H-79:1/2/6 pencere çakışması (RAM, koşu 18) · arayüz maddelerinin tarayıcı davranışı (delil commit+satır) · H-7 yan borcu: canlı meksika 1873 gövdesinde Corpus Christi kıyısında 11 köşeli halka + 32,8°K üstüne 68 köşe taşma, sebebi ölçülmedi · sessiz borç 12 listesine denk gelen madde YOK. ③ İSTİYORUM: (a) koşu 18 bitince GOVDE-CAKISMA-0079-olc.py H-79:1/2/6 pencerelerinde → cozuldu/cozulemedi · (b) Emre kararı bekleyen 4: H-3 iran→__BOSLUK__ (önerilen) · H-5 B2 şekli · H-10/11 Dobruca B3 (Babadağı/İshakçı hâlâ bulgaristan) + B2 Bărăgan · (c) H-12 nokta kolu (Salzburg bütün veride yerleşim değil). Dosyalar: denetim/PAKET-0079-0930.json · denetim/PAKET-0079-0930.md (commit yok, yasak). Bekçim yok (kaynak kapısı, çıkış 3) — duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
