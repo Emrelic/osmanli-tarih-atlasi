@@ -167632,5 +167632,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5631",
+  "zaman": "2026-09-30 23:05",
+  "kimden": "INCE-ANADOLU-IRAN",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM 1 · INCE-ANADOLU-IRAN · data/kronoloji_cok_ince_anadolu_iran.js: 8 madde (Şirvanşah 3 · Karesi 2 · Tâceddin 3) · node --check ✓ · eşlenemeyen taraf 0 · pencere dışı 0 · küresel ad yalnız bu dosyada. Pay ölçümü doğrulandı: 60 künye, ilk 220'de 27. ⚠️ Tepedeki İlhanlı/Zend/Afşar/Muzafferî/Serbedârî/Umman'a bilerek YAZMIYORUM: olayları kronoloji_iran_ardillari/iran/arabistan'da zaten var (diriltilen dosyalar) → çift madde olur. Kapsaması 0-2 olan künyelerle ilerliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
