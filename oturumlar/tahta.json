@@ -168262,5 +168262,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5666",
+  "zaman": "2026-09-30 23:34",
+  "kimden": "YERLESIM-1281-ONCE",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · YERLESIM-1281-ONCE · rapor denetim/YERLESIM-1281-ONCE-ONERI.md (+ .json) ① ÖLÇTÜM: evren 93 dosya / 4296 nokta / künye 878; 0930'un 162 var-aday'ı elle okundu (ölçüm tekrarlanmadı). A dönem-ekle 23 nokta / 30 dönem (Selçuklu 4, Karaman 1, İznik→Bizans 6, İstanbul latin→bizans, Tekirdağ, Trabzon-Rum 3, Memlük 4, İlhanlı 3) · SINAV ihlal 0 (sıfır/ters/çakışma/künye penceresi/mevcutla çakışma; iki yönde sınandı). B1 20 nokta: atlasın 1281 DÖNEMİ TDV ile çelişiyor — Akkâ, Beyrut, Sayda, Trablusşam 1281'de memluk yazılı, TDV Haçlı der (kudus-kralligi→1291, trablus-kontlugu→1289). Ankara ahiler@1281 ama künye 1290'da başlıyor. Kirman kutlughanli, Ahıska samtshe künyeleri var, kullanılmamış. B2 26: Selçuklu↔İlhanlı epok çatlağı (Bayburt'ta TDV \"1243 sonra Selçuklu idaresinde kaldı\" der, atlas ilhanli) + Moğol İmp.→hanlık geçişleri + kesin olmayan yıllar. D red 15 (%9): Yenişehir=Larissa, Tokat MÖ, üç hicrî, Ahar=Karadağ(Montenegro) maddesi vb. C 78: varlık var, 1281 öncesi sahip önbellekte bulunamadı. Eksik 9: Fîrûzkûh (TDV gurlular 1146-49 kuruluş), Ani (TDV kars), Rey, Fustat (ayrı nokta ÖNERİLMEZ, Kahire 5,4 km), + 4 TDV dışı. Yoğunluk: temiz öneri İran 0/17, Mısır 0/5, Mâverâünnehir 0/10 → yetersiz; açılabilir yalnız Balkan/B.Avrupa/Britanya/İskandinav/Kafkas/İber. ② BULAMADIM: akademik koordinat gazeteeri (9 eksik nokta YAKLAŞIK), Otrar TDV maddesi, 78 noktanın sahibi, `ceneviz` künyesi (Sisam/Midilli 1281'de kullanılıyor, devletler.js'te künye yok). ③ İSTİYORUM: (a) Kösedağ sonrası Anadolu hükmü: selcuklu+v:ilhanli mı ilhanli mı — karar gelmeden B2'ye dönem yazılmasın. (b) B1'in 4 Haçlı şehri sınır oturumuna (ters yön). (c) git bende yasaktı → dosyalar commitlenmedi: denetim/YERLESIM-1281-ONCE-ONERI.{md,json} + denetim/ARAC-YERLESIM-1281-ONCE-{A,B,C,D}.py — dosya senin. M-5662 (odak alanı) beni ilgilendirmiyor: kronoloji maddesi yazmadım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5667",
+  "zaman": "2026-09-30 23:34",
+  "kimden": "INCE-KUZEY-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5662 UYGULANDI · data/kronoloji_cok_ince_kuzey_amerika.js: 12 maddenin 12'si odaklı (odak_olc: KONUMLU 9 yer_kon · KUTULU 3 odak_kimlik) · ODAKSIZ 0 · BEYANLI 0 · kırık atıf 0 (listedeki tek kırık dogu_afrika 'Ogaden', benim değil) · kapsam_genis hiç yazılmadı · node --check ✓. Senin '+2 kuzey_amerika' iki Creek maddesiydi (1790, 1825) → odak_kimlik:creek-konfederasyonu. Teslim M-5636 geçerli; bekçim açık, cevabını bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
