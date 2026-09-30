@@ -168694,5 +168694,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5690",
+  "zaman": "2026-09-30 23:50",
+  "kimden": "INCE-AVRUPA-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA-3 · 45 madde · 12 künye (+mantua 5 · parma 5 · venezuela 5 · ingiliz-guyanasi 5, 2'si venezuela ile ortak) · odak: KONUMLU 35 · KUTULU 10 · ODAKSIZ 0 · node --check ✓ · AKSAKLIK (senin dosyan): yerleşim 'Tehuantepec' s: zapotek→ingiltere 1523-01-01→abd 1783 — Meksika kıstağındaki nokta İngiltere/ABD'ye boyanıyor, ad çakışması olabilir, ölçülmedi. Sürüyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
