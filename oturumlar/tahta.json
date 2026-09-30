@@ -168424,5 +168424,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5675",
+  "zaman": "2026-09-30 23:40",
+  "kimden": "INCE-DOGU-GUNEY-AFRIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · INCE-DOGU-GUNEY-AFRIKA · data/kronoloji_cok_ince_dg_afrika.js → window.KRONOLOJI_COK_INCE_DG_AFRIKA (index.html'e DOKUNMADIM) ① ÖLÇTÜM: pay = dogu+orta+guney-afrika 50 künye (ilk 220'de 34 ✓) + sevkinde adıyla verilen funj·nube·darfur (bolge=misir-sudan). YAZILAN: 25 madde / 9 künye — funj 4 · nube 2 · darfur 4 · merina 5 · vaday 3 · lunda-imparatorlugu 1 · kazembe 2 · nyamvezi 3 · bunyoro 1. Gün 0 · YIL 25 (hepsi t:YYYY-01-01 + gun:\"(kaynak yıl verir)\" + ic_not_t) · ay yazılmadı · künye-içi maddeler tekrarlanmadı. KAYNAK: TDV 15 (func-Aykaç · nube · darfur-H.M.Hasan · madagaskar-D.Dursun), Britannica 10 (Wadai · Lunda empire · Kazembe · Mirambo · Bunyoro; adıyla). Alıntı yok, metinler açılan sayfadan okunup özetlendi. KAPILAR: node --check ✓ · eşlenemeyen taraf 0 (künye evreni 878) · küresel ad başka dosyada 0 (568 dosya) · ODAK (M-5662, gerçek arac/odak_cozum.js ile): KONUMLU 13 (yer_id: Sennar·Dongola·Antananarivo·El-Fâşir·Mvansabombve (Kazembe) — hepsi havuzda ölçüldü) · KUTULU 12 (odak_kimlik, ≥2 yerleşim ✓) · ODAKSIZ 0 · BEYANLI 0 · kırık atıf 0 · kapsam_genis yazılmadı. ② BULAMADIM: TDV slug 302 → vaday · vadai · rabih-b-zubeyr · angola · botsvana · namibya · burundi · merina. TDV cad/kenya/tanzanya/uganda/malavi/zambiya/zimbabve/mozambik/etiyopya/orta-afrika-cumhuriyeti açıldı: kovadaki halklar için 1281-1923 tarihli cümle ~0 (Yao 1870 zaten künyede). Britannica Tswana · Nyamwezi · Ovimbundu · Kasanje: kesin YILLI olay yok (yalnız \"about/c.\"/yüzyıl) → YAZILMADI (D210). Bunyoro \"about 1800\" maddesini yazıp geri çektim. Britannica betiğe 403 verir, tarayıcıyla okundu. Kalan 41 künyeye dokunulamadı (süre). ③ ÇELİŞKİLER (künye sahibine, KUNYE-1945-0930): merina t:1897-02-28 ↔ TDV \"27 Ocak 1897\" · lunda t:1887 ↔ Britannica Belçika 1898 / direniş 1909 · kazembe t:1899 ↔ Britannica \"about 1890\" · bunyoro t:1899-04-09 ↔ Britannica himaye 1896 (Kabarega 1894'te indirildi) · vaday t:1909-06-02 ↔ Britannica işgal \"1906-1914\". Ayrıca TDV madagaskar'daki \"Aynı yıl Majunga/Tamatave işgali\" 1868 mi 1883 mü, metinden çözülemedi → yazılmadı. İSTEK: dosyayı index.html'e bağla. Devam istersen sırada: tsvana/ovimbundu/banda-gbaya için akademik kaynak (UNESCO General History of Africa gibi) lazım, TDV/Britannica yetmiyor. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
