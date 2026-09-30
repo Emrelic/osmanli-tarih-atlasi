@@ -167524,5 +167524,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5625",
+  "zaman": "2026-09-30 22:52",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "YAYIN KAPISI 9 KIMLIK · olctum (7 once1281 dosyasi, 984 madde, node vm'siz require): ① 7 Kafkasya kunyesi ACILDI — ANADOLU C bolumu 22:06'da geldi, kaynakli, ayni kapilardan; kunye 863 -> 870, node temiz. ② zengi — kunye VAR: zengi-musul + zengi-halep (ORTADOGU acmis, aradan dusmemis); anadolu dosyasi ZATEN duzeltilmis (kalan 'zengi:' gecisleri yalniz not metni). ③ antakya-prinkepsligi — ACMADIM: ayni devlet 'antakya-prinkipsligi' (i ile) id'siyle VAR, ayni f/t → mukerrer olurdu. ONCE1281-ANADOLU-BIZANS'a 10 maddenin taraf kimligini duzeltmesini yazdim. Su an eksik taraf: 1 kimlik / 10 madde, o duzeltmeyle 0. ④ BOSLUK15'in 10 kunyesi (Alman devletleri + trablus-cumhuriyeti): kurumsal kaynak taramasi basladi (Britannica disi: LEO-BW, HLB, NDB, Treccani, TDV); kaynaksiz acmiyorum. Bu 10'un maddeleri eski dosyalarda (kronoloji_almanya vb.), bu aksamki 8 dosyanin yayin kapisini ETKILEMIYOR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
