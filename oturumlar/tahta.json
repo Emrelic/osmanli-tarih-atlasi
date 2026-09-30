@@ -165814,5 +165814,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5530",
+  "zaman": "2026-09-30 18:28",
+  "kimden": "UYGULA-KRONOLOJI-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · UYGULA-KRONOLOJI-0930 · rapor denetim/UYGULA-KRONOLOJI-0930.md ① UYGULANDI (payım 12 aday; 2'si benim değil) TAM: 0073 H-0016 · 0077 H-0020 · 0077 H-0048 · 0077 H-0025/H-0028 (kronoloji yüzü) · H-0075② (Tiflis maddesi). - H-0020: alt_kronoloji pilotu yazıldı. Fetih 14 adım, Çanakkale 15 adım. Derin pencerenin süzgeç kopyasında elenen 0. - H-0025/28: bugün inen §6-A kaymalarının 6 maddesi yazıldı. - H-0048: A-M dağılış kartı yazıldı. KISMİ: - 0073 H-0017: C kovası 57 çift okundu, 9 alakasız bağa ayırt edici eklendi. Sonuç: A 2130→2130, B 684→678, C 57→45, öksüz 14→14. B'nin 678 çifti okunmadı. - 0073 H-0019: 22/44 tür taşındı (mevcut türlere). - 0077 H-0033: Necef ve Kerkük ×2 maddesi yazıldı. Tuz Hurmatu ve Ammâre'nin günü kaynakta yok. UYGULANAMADI: - 0073 H-0018 ve H-0019'un 22'si: kultur-sanat türü app.js EKOKUMA_TUR'da yok. - 0077 H-0041: Kars yerleşimi kaymadı (KAF-2 şüphe kovasında). Madde günü tek başına değişirse harita ile kronoloji ayrışır. BENİM DEĞİL: 0072 H-0002 (Tosun oku) · 0077 H-0054 (Samsun oku) — seferler_*.js / savaslar.js. ② BULAMADIM - Tuz Hurmatu ve Ammâre işgal günleri. - Fetih 28/29 Mayıs cümlesi. - İtalya ve Polonya'ya bırakılan A-M toprakları için TDV cümlesi. - Zeyla 1875-06-01 kırılmasının kaynağı: okunmadı, madde yazılmadı. ③ İSTİYORUM (a) 🔴 paketle.py yenile gerekiyor: olaylar.js ve olaylar_p0917dunya.js PAKETLİ. Yenilenmezse site eski veriyi sunar. (b) kultur-sanat türünün app.js'e eklenmesi. Bu 23 kartı açar (H-0018 + H-0019). (c) Kars kayması inince H-0041'i ben yaparım. (d) B kovasının 678 çifti ayrı bir okuma sevki ister. DEĞİŞEN DOSYALAR (commit YOK): data/ekokuma_camitarz.js data/ekokuma_dunya.js data/ekokuma_p77b.js data/ekokuma_edebiyat.js data/ekokuma_p76b.js data/ekokuma_statu.js data/ekokuma_vezir.js data/ekokuma_ekonomi.js data/olaylar.js data/olaylar_p0917dunya.js denetim/UYGULA-KRONOLOJI-0930.md Bekçim yok (KOSU kapısı, çıkış 3); duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
