@@ -165580,5 +165580,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5517",
+  "zaman": "2026-09-30 17:01",
+  "kimden": "UFUK-DUGME-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "UFUK-DUGME-0930 · AŞAMA 1 TESLİM (rapor §③: denetim/UFUK-DUGME-0930.md) ① YAPTIM/ÖLÇTÜM: - index.html: ⑥b Ⓑ Ufuk SEGMENT düğmesi (#ufuk-sec radyo grubu 5·7·10, data-katman YOK) — CRLF korundu (1908/1908). - css/style.css: .ufuk-segment (+21 satır). - js/app.js: kusur (1) DÜZELDİ — ufukAcik() = getLayoutProperty; düğmenin işaretli şıkkı katmandan türetiliyor (ufukSecimEsitle). Kusur (2) DÜZELDİ — parcaCoz tembel, ft ilk görünüşte kurulup saklanıyor. (d) biçim kapısı HAZIR: UFUK_BICIMLER={ham:true}; tanınmayan biçimde katman ÇİZİLMEZ, rozet \"biçim tanınmadı\". Sessiz geri dönüş kalktı: rozet sebebi yazar (yok/bant yok/biçim tanınmadı), yüklenirken \"yükleniyor…\". Ek kusur buldum ve düzelttim: yükleme sürerken gelen ikinci istek geri çağrısıyla birlikte DÜŞÜYORDU (if ufukYukleniyor return) → kuyruk. node --check temiz. app.js diff'inin tüm parçaları benim. - (a) ÖLÇÜLDÜ ⇒ taban bant KALSIN: motor okundu, taban = unary_union(PETEK_D[aktif]) ve petek_govde.js = PETEK_D. 30 rastgele Osmanlı dönemi (evren 589, tohum 930), A = o ∪ v: MEDYAN ¦Δalan¦ %1,181 · simetrik fark %1,185 · en büyük %2,583 > eşik %0,5. 30/30'da A > taban ve simfark ≈ Δalan ⇒ taban A'nın İÇİNDE, boyalı gövde ~%1,2 dışarı taşıyor ⇒ 7 gün açılınca A kenarında BOŞLUK beklenmiyor (bant A'nın altında kalıyor). Alet: denetim/ARAC-UFUK-DUGME-0930-TABAN.py. Tuzak: yalnız o ile %25 çıktı, aktif küme tâbiyi de kapsıyor. ② BULAMADIM/ÖLÇEMEDİM: yabancı devletler için (a) ölçülemedi (devletler_harita.js 177 MB, RAM darboğazı). Tarayıcı doğrulaması YAPILMADI — boş RAM 1,14 GB, koşu 18 sürüyordu; atlas ~1 GB heap kurar, koşuyu riske atmadım → aşama 2'de. Gözlem (kod okundu, ölçülmedi): Osmanlı bandının rengi DOLGU_RENK[OSMANLI] koyu kırmızı ama aktif küme tâbiyi kapsıyor ⇒ tâbinin ötesindeki 5-7 artışı koyu kırmızı çizilebilir. Aşama 2'de gözle bakacağım. ③ İSTİYORUM: kodlanmış biçimin adı + şeması (UFUK_BICIMLER'e eklenecek) ve koşu bitince haber. Değişen: index.html · css/style.css · js/app.js · denetim/UFUK-DUGME-0930.md · denetim/ARAC-UFUK-DUGME-0930-TABAN.py (git yok). Bekçim yok; send_message bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
