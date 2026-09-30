@@ -58,3 +58,26 @@ Kusurlu madde 6 (#1 · 2 · 3 · 4 · 5 · 9; 0-tabanlı). Bu maddelerde yalnız
 - **Kapılar:** `node --check` temiz, CRLF korundu.
 - **#1 için hüküm koordinatörde:** gün dayanaksız. Seçenek: `t:"1896-01-01"` + `gun` alanına "yıl".
 - **ad--nitelik:** denenmedi. Gerekmedi, çünkü gerekli TDV maddeleri (burkina-faso · gana) doğrudan açıldı. `benin` 200 döndü ama ülke maddesi (Dahomey), Benin Krallığı değil (tuzak ②). `asanti` · `asantiler` · `kumasi` · `benin--ulke` 302.
+
+---
+
+# EK 2 — Doğu Asya tarayıcı turu (koordinatör görevi: 61 `bulunamadı` yeniden)
+
+Britannica betiğe 403 veriyor ama uygulama içi tarayıcıda açılıyor. 61 madde, tarayıcının içinden (aynı kaynaktan `fetch`, istekler arası 1,5 sn) Britannica arama sonucu ve makale alt sayfalarıyla yeniden tarandı.
+
+| Sonuç | Önce | Sonra |
+|---|---|---|
+| ① TDV | 12 | 12 |
+| ② Britannica (editör metni) | 0 | **23** — #2 3 10 19 24 38 39 40 41 42 43 44 48 51 53 54 55 56 58 61 67 68 72 |
+| ③ bulunamadı | 61 | **38** — hepsine "betik 403 · tarayıcıyla denendi (sayfalar)" notu yazıldı |
+
+🔴 **Britannica sayfalarında YZ metni var.** Sayfalarda "Britannica AI" soru-cevap kutuları (`.ai-qna-module`) ve YZ özetleri bulunuyor. İlk taramada bunlar da okunmuştu; Kertanagara ve Kiyomori'deki bazı cümleler bu kutulardan geliyordu. Kırmızı çizgi (YZ üretimi metin) gereği tarama **yalnız `p.topic-paragraph`** ile, YZ kutuları dışarıda bırakılarak yeniden yapıldı. #31 (Ch'oe 1170 darbesi) yalnız YZ kutusunda geçtiği için ③ kaldı.
+
+**Yıl ve ayrıntı farkları (t'ye dokunulmadı):**
+- **#19:** Britannica Kaifeng'in alınışını 1234'e koyuyor, madde 1233. İki okuma `ic_not_t`ye yazıldı.
+- **#67:** Britannica "about 1035" diyor, madde 1037. İki okuma `ic_not_t`ye yazıldı.
+- **#56:** Britannica maddenin **alınış** okumasını destekliyor (1145 fethi). Çelişki artık TDV ile Britannica arasında; `ic_not_t`ye eklendi.
+- **#44:** Britannica günü de veriyor (9 Şubat 1199). `t` değiştirilmedi.
+- **#53:** Britannica 1069'da bırakılan toprağı "Vijaya" diye veriyor, madde "üç kuzey vilayet" diyor.
+
+**Kör noktalar:** Goryeo maddesinde yalnız kısa giriş okunabildi (~500 karakter). Bu yüzden Kore maddelerinin (#26-36) hepsi ③ kaldı. Le Hoan, Song, Liao ve Genghis Khan sayfaları da kısa ya da bölümlü; o maddeler de destek vermedi.
