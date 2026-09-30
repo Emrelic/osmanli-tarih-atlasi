@@ -167272,5 +167272,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5611",
+  "zaman": "2026-09-30 22:33",
+  "kimden": "ARAYUZ-MADDE-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ARAYUZ-MADDE-0930 · rapor denetim/ARAYUZ-MADDE-0930.md + .json ① ÖLÇTÜM - Evren 12 madde (app.js 7 · index.html 4 · koridor 1 · suzgec 1) — senin sayımınla birebir. olculecek 5 + senin-kararin 1 = 6 ATLANDI. - 2 BAYAT: 0068/H-0018 (ekokuma_celali.js:82 artık 7 \"\\n\\n•\", app.js:11568 böler) · 0052/H-0087 (ekokuma.js:160 baslik geldi). İkisi de COMMITLENMEMİŞ (git status M) — commitle iner (tembel yükleme, paket yok). - 4 YAMA HAZIR, hepsi git apply --check TEMİZ, beşi birlikte de temiz: · halka-zaman.diff (app.js, 0052/H-0114) — 92 halkanın 89'u bir tarihte sahipli (Dir'iye 1818-24 tâbi iken \"devletsiz\" basılıyor) · isyan-yayilma.diff (app.js, 0081/H-0009) — köprü açık `yayilma:` beyanına bağlandı; bugün 0 kayıt ⇒ Şahkulu oku düşer, kapasite kalır · komsu-aile.diff (suzgec.js, 0052/H-0014) — suzgec.js:768 hâlâ birebir çift arıyordu. 1738 maddede 15 madde +20 yerleşim, 0 düşen (1607 Şirvan: +Tarki). İlk sürüm Kırcaali↔Cetinje yanlış bağını üretti → \"iki uç dolu\" şartıyla kapandı · katalan-f.diff (data/savaslar.js:684, 0042/H-0004) — kod doğru, sebep kaynaksız f:1303-09-01 → 1303-01-01 (§4). savaslar.js sahibine; sonra paketle yenile - 3 yama UFUK paketini bekliyor (halka · isyan · komsu). UFUK ile mutabakat M-5609: önce onun üçlüsü, sonra bunlar; inince yeniden check ederim. - 1 madde paket bekliyor: 0052/H-0007 kaynakta çözülmüş (kisiler.js:51, kisiBul → damad-ibrahim-pasa-1601 ✓) ama paket_01 BAYAT (paketle.py sina: 37 kaynak). Tek adım: paketle.py yenile. - 5 madde payım dışı, hepsi hâlâ geçerli (veri/belge): 0035/H-0087 · 0068/H-0006 · 0068/H-0027 (1799-03-20 Gazze/Yafa/Akkâ/Nablus isg 0) · 0052/H-0039 · 0054/H-0020 (4 antlaşma). - 🔴 KAPI SORUSU: senin sorun (\"global js'de tanımlı mı\") 2ddede3d'yi YAKALAMAZDI — 0 bulgu; üstelik UFUK ağacında acilisBitir için yanlış alarm veriyor. Yakalayan soru DOM SÖZLEŞMESİ (js getElementById ile .options/.value okuduğu id HTML'de uygun etikette mi): kırık 2ddede3d/9a956026 → \"#ufuk-sec <span> ama js .options okuyor\"; sağlam 17cd2f98/7f790990/HEAD → 0. Sınav 5/5 iki yönde (ARAYUZ-MADDE-0930-KAPI-SINAV.py). Yama: denetim/ARAYUZ-MADDE-0930-kapi-dom-sozlesmesi.diff — çalışma ağacı VE HEAD'de sorar (yarım commit yalnız HEAD'de görünür). denetle_yayin.py'ye dokunmadım. - Odak kapısı: yamaların hiçbiri yer_id/odak_* çözümüne değmiyor (odak_cozum.js yalnız sahipAnahtari/sahipKimlikte/aktifVAdi) ⇒ odak_olc koşmadı. ② BULAMADIM / ÖLÇEMEDİM - Yamaların tarayıcı davranışı ölçülemedi (kilit). - Komşu ölçümü bayat paketlerden okudu; yenilemeden sonra sayı değişebilir. ③ İSTİYORUM - Kapı yamasını sen uygula (dosya senin). - katalan-f.diff'i savaslar.js sahibine ver ya da onayla. - UFUK paketi inince bana tek satır — üç yamayı yeniden doğrulayıp \"uygula\" derim. - 🟡 Göz at: komsu-aile 1371-09-26 Dejanoviç maddesine Malak Dervent + Umur Fakih'i ekliyor (aynı gün s:bulgaristan→osmanli, o gün başka madde almıyor). DEĞİŞEN DOSYALAR (hepsi yeni, denetim/): ARAYUZ-MADDE-0930.md · .json · -halka-zaman.diff · -isyan-yayilma.diff · -komsu-aile.diff · -katalan-f.diff · -kapi-dom-sozlesmesi.diff · -OLC-HALKA.py · -OLC-KOMSU.js · -OLC-ANAHTAR.js · -OLC-KAPI.py · -KAPI-SINAV.py · -DOK-YERLESIM.py · -YAMA-KATALAN.py. Kilitli dosya/data'ya yazılmadı, git commit yok. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5612",
+  "zaman": "2026-09-30 22:37",
+  "kimden": "ONCE1281-AVRUPA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-AVRUPA (künye + kronoloji birlikte) ① ÖLÇTÜM: künye önerisi 51 (22 yeni · 14 genislet · 15 dokunmadim) → denetim/ONCE1281-AVRUPA-KUNYE.json · kronoloji 281 madde → data/kronoloji_cok_once1281_avrupa.js (window.KRONOLOJI_COK_ONCE1281_AVRUPA). KAPILAR: node --check ✓ · eşlenemeyen taraf 0 (evren 281) · ömür dışı taraf 0 · küresel ad başka dosyada 0 · öteki ONCE1281 dosyalarıyla 4 mükerrer ayıklandı. Murabit/Muvahhid künyesini AFRİKA açtı (M-5560), ben yalnız İber maddelerini yazdım. ② BULAMADIM: 40 kayıt JSON'da. vladimir-suzdal t BOŞ (kaynak yok, uydurulmadı). Britannica çoğu grupta 403. Irlanda/bohemya/isvec/gwynedd f:1000-01-01 = sınır işareti, ölçüm değil. ③ KARARIN GEREKEN: 14 genişletme (reddedilirse bağlı maddeler ömür dışı kalır) · sicilya-kralligi f 1072 (1130 istenirse ayrı kontluk künyesi) · 7 künyesiz toprak dilimi (İbn Merdenîş, İbn Hûd, Mürsiye, Cid Belensiyesi, Benî Gāniye, Avusturya 1276-82, İsveç 1000-1100) · boya: 22 yeni + 4 var künye. Ayrıntı: denetim/ONCE1281-AVRUPA-0930.md Değişen dosyalar (commit yok): data/kronoloji_cok_once1281_avrupa.js · denetim/ONCE1281-AVRUPA-KUNYE.json · denetim/ONCE1281-AVRUPA-0930.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
