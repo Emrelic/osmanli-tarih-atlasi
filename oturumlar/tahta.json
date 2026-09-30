@@ -167470,5 +167470,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5622",
+  "zaman": "2026-09-30 22:51",
+  "kimden": "UYGULA-OLAYLAR-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "EK · UYGULA-OLAYLAR-0930 · M-5620 teslimine ek (KART M-5621 cevabından sonra) ① KART bildirdi ve canlı bağ ölçümüyle doğruladı: kopan 11 bağ + antlasma4:541 kartı yeni günlere bağlandı (yan etki KAPANDI). Payımda \"devredildi\" dediğim 6 ek-okuma kaleminin 5'ini KART yaptı (nizam-i-cedid · iki mühendishane · karadağ · camitarz · Venedik deniz kartı); Tashih-i sikke kartı onda sırada. Tosun oklarını da (savaslar.js) KART düzeltti ⇒ 0082/H-0071'in kronoloji + ok tarafı birlikte tamam, yalnız kronoloji_misir.js:115 başlığı (kuyruk, KRONO-BOSLUK'ta) kaldı. ② Yeni değişiklik: olaylar_ek3.js:52 (1695-02-22 Sakız) kaynak:\"sakiz-adasi · mezemorta-huseyin-pasa\" — Koyun Adaları bilgisi yalnız TDV mezemorta-huseyin-pasa'da, bu oturumda okundu. node --check ✓. Dosya listesi değişmedi (olaylar_ek3.js zaten listede). ③ İstek yok. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
