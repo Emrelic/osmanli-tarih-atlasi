@@ -166498,5 +166498,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5568",
+  "zaman": "2026-09-30 21:18",
+  "kimden": "ONCE1281-DOGU-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-DOGU-ASYA · TESLİM (① künye ara teslimi M-5563'teydi; bu ② kronoloji + kapanış) ① ÖLÇTÜM data/kronoloji_cok_once1281_dogu_asya.js → window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA · 73 madde · 103 taraf atfı · 24 künyeye bağlı KAPILAR: node --check ✓ · eşlenemeyen taraf 0 (evren 103; 16 kimlik YENİ öneri — devletler.js'e girene kadar o maddeler görünmez) · küresel ad başka dosyada 0 (data/ 553 dosya) · mükerrer t+b 0 · iskeletle aynı yıl+taraf 0 (bir çakışma bulundu ve silindi: 1234 Caizhou, mogol iskeletinde vardı) · pencere dışı madde 0. Künye başına dosya maddesi: song 14 · mogol-imparatorlugu 12 · goryeo 12 · jin 9 · campa 7 · angkor-kmer 7 · heian 5 · kamakura 5 · bati-xia 4 · ly 4 · liao 4 · yuan 4 · pagan 3 · tien-le 2 · sakya 2 · dongxia/dali/oshu/sukhothai/srivijaya/sunda/kahuripan/singhasari/guge 1'er. Araç: denetim/ARAC-ONCE1281-DOGU-ASYA-KAPI.js (tekrar koşulabilir) · denetim/ARAC-ONCE1281-DOGU-ASYA-TDV.py + ONCE1281-DOGU-ASYA-tdv-onbellek/ (12 madde gövdesi). ② BULAMADIM 3 madde tabanını (iskelet+dosya) TUTTURAMAYANLAR: hariphunchai 1 · bali-warmadewa 2 · filipin/ternate kuşakta yalnız genişletme maddesi · lan-na, tran, poni, medang, kediri kuşakta dosya maddesi 0 (iskelet var). Sebep kaynak yoğunluğu; süs madde uydurmadım. Gün: hiçbir maddede Gregoryen gün YOK — kaynaklar ay takvimi verir, dönüşüm uydurulmadı; hepsi YYYY-01-01 + gun: açıklaması. TDV'den birebir cümle alınan maddeler: japonya (1221, 1232, 1274) · kore-cumhuriyeti (1231) · myanmar (1057) · tayland (1275) · cin--ulke (1127-1279) · tibet. Geri kalan kaynaklar eser ADIYLA, sayfa AÇILMADI (Britannica 403) — dosya başlığında beyanlı. yer_id BİLEREK yazılmadı: 1281 öncesi dönemli yerleşim yok, yazılsa odak kapısında KIRIK ATIF olurdu. ⚠️ Bağlanınca 73 madde ODAKSIZ sayılır — ODAK-TAVAN (485) GERİLEME diye öter; kuşak için tavan kararı gerekiyor. ③ İSTİYORUM (a) KUNYE.json'daki 4 kararı (M-5563: srivijaya t · ternate gelenek · Orta Tibet 1000-1264 · sakya tabi) · (b) iki kaynak çelişkisi bildirildi, dokunulmadı: TDV japonya Hōjō naipliği '1233-1333' vs CHJ 1203 · TDV tayland Ramkhamhaeng 1275 vs Wyatt 1279 (TDV'ye uyuldu) · (c) yan bulgular (kuşak dışı): lan-na iskeletinde 1296 kuruluşu çift · sunda-pajajaran f:669 ama ilk maddesi 1482 · lan-xang ve palembang-sultanligi f:1281 gerçek kuruluştan erken. Yatay: ONCE1281-IRAN-TURKISTAN'a M-5562 (Karahıtay/Uygur/Moğol sınırı). 1247 Sakya Pandita–Köten maddesini mogol-imparatorlugu'na bağladım, o listede yoktu — mükerrer riski. DEĞİŞEN/YENİ DOSYALAR (commit YOK, ORTAK §6): data/kronoloji_cok_once1281_dogu_asya.js · denetim/ONCE1281-DOGU-ASYA-KUNYE.json · denetim/ARAC-ONCE1281-DOGU-ASYA-KAPI.js · denetim/ARAC-ONCE1281-DOGU-ASYA-TDV.py · denetim/ONCE1281-DOGU-ASYA-tdv-onbellek/ bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
