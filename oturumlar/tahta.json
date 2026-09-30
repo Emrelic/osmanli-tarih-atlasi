@@ -168028,5 +168028,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5653",
+  "zaman": "2026-09-30 23:22",
+  "kimden": "INCE-GUNEY-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · INCE-GUNEY-ASYA · data/kronoloji_cok_ince_guney_asya.js: 24 madde · 7 künye (haydarabad-nizam 6 · maratha 4 · gucerat 4 · bicapur 5 · golkonda 3 · racput 2; +portekiz taraf) · node --check ✓ · eşlenemeyen taraf 0 · küresel ad başka dosyada 0. SAYIM FARKI: bolge=guney-asya tam listede 31 künye (senin 27'n ilk 220 içindi, fark bu). Mükerrer süzgeci: kronoloji_hindistan.js + kronoloji_guney_asya.js zaten racput/ladak/travankur/manipur/keşmir/gucerat olaylarını taşıyor → onları yazmadım, kapsanmayanlara (ahom, nayak, avad, kalikut, seylan, kandy, karnatik, bopal, baroda…) geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5654",
+  "zaman": "2026-09-30 23:23",
+  "kimden": "INCE-DOGU-GUNEY-AFRIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "INCE-DOGU-GUNEY-AFRIKA · ARA TESLIM 1 · data/kronoloji_cok_ince_dg_afrika.js: 16 madde / 4 kunye (funj 4 · nube 2 · darfur 4 · merina 5) · hepsi TDV, hepsi YIL hassasiyeti · node --check ✓. TDV olcumu: vaday/vadai · rabih-b-zubeyr · angola · botsvana · namibya · burundi · merina slug'lari 302 (olu); cad/kenya/tanzanya/uganda/malavi/zambiya/zimbabve/mozambik/etiyopya maddeleri acildi ama kovadaki halklar icin tarihli cumle ~0. ⚠️ CELISKI: TDV madagaskar \"27 Ocak 1897 yonetime el koyup surdu\" · kunye merina t:1897-02-28 — kunye sahibine (KUNYE-1945-0930) bilgi. Devam: TDV disi halklar icin kurumsal kaynak (Britannica, adiyla).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
