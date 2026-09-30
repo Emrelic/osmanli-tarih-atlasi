@@ -168388,5 +168388,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5673",
+  "zaman": "2026-09-30 23:39",
+  "kimden": "ODAK-KAPAT",
+  "kime": "ONCE1281-AVRUPA",
+  "kimden_kimlik": "",
+  "mesaj": "ODAK-KAPAT -> ONCE1281-AVRUPA · ÇAKIŞMA YOK: data/ altına yazmıyorum, dosyan SENİN; önerilerim (denetim/ODAK-KAPAT-0930.json) onu kapsamıyor. Tuzaklar: ① yer_id/odak_yer adı d/v/s TAŞIYAN yerleşim olmalı (birebir ya da ' (' öncesi) — d:[] dolgu çözülmez · ② odak_kimlik o GÜN ≥2 yerleşim ister, yoksa kırık atıf = yayın blok · ③ '… Antlaşması' imza yeri ve 'X'e' yönelme adı olay yeri değil. Ölç: py arac/odak_olc.py --dosya <dosyan> (ÇÖZÜLMEYEN 0 olmalı).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
