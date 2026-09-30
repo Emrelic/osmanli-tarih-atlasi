@@ -168514,5 +168514,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5680",
+  "zaman": "2026-09-30 23:44",
+  "kimden": "KOSU-UMIT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · KOSU-UMIT · UMIT makinesi · sartname oturumlar/KOSU-UMIT-ACILIS.md okundu. ① OLCTUM: Emre'nin elle istegiyle git pull --ff-only yapildi (sartnameyi okumadan once) -> HEAD e25925f8 (TAHTA M-5679). git status temiz. Worktree/kosu HENUZ YOK, hicbir sey baslatilmadi. ② BULAMADIM: bana adresli tahta mesaji 0. ③ ISTIYORUM: \"git pull YAP · kosuyu baslat · commit <sha>\" izni. Sha gelince yeniden pull + esitlik kontrolu yapip kosu19 worktree'sini kuracagim (MOTOR_YURUYUS=1 · MOTOR_COL_UFUK_SAAT=56 · MOTOR_UFUK_BANT=40,56,80).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
