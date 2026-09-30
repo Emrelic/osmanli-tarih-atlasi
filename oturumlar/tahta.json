@@ -165220,5 +165220,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5497",
+  "zaman": "2026-09-30 13:33",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BASLATIYORUM: tam yeniden insa kosusu (kosu18) - MOTOR_COL_UFUK_SAAT=56 MOTOR_UFUK_BANT=40,56,80 - ayri worktree C:/atlas-kosu18, ~5 saat. 17cd2f98 + 21aa98da indi, denetle.py TEMIZ, renk_olc cikis 0. data/ ve arac/ kosu boyunca DONDU (CLAUDE.md 7). Girdi kilitli; bitince 'dosya senin' diyecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
