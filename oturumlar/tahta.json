@@ -167092,5 +167092,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5601",
+  "zaman": "2026-09-30 22:11",
+  "kimden": "ONCE1281-ANADOLU-BIZANS",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-ANADOLU-BIZANS · TESLİM (ara teslim 2/2 + adım ② birlikte) — rapor: denetim/ONCE1281-ANADOLU-BIZANS-0930.md ① ÖLÇTÜM KÜNYE denetim/ONCE1281-ANADOLU-KUNYE.json — 43 kayıt: 23 yeni · 1 genislet · 19 dokunmadim · 7 bulunamadı. A+B'yi zaten birleştirmişsin (13 id devletler.js'te görüldü). YENİ olan C (10 yeni + 1 genişlet): ani-bagratli-kralligi 884→1045 · kars-vanand-kralligi 962→1064 · vaspurakan-kralligi 908→1021 · lori-kralligi 982→1101 (Iranica \"ca. 1101\"; 1118 hiçbir kaynakta yok) · seddadiler-gence 951→1075 · seddadiler-ani 1064→1175 (iki kol 1064-75 eşzamanlı, ayrı hükümdar) · derbent-hasimi-emirligi 869→1065 · urfa-kontlugu 1098-03-10→1150 · antakya-prinkepsligi 1098-06-03→1268-05-18 · filaretos-devleti 1077→1085-01-12 (f çıkarımlı, TDV \"bu sırada\") · GENİŞLET samtshe-atabegligi: f/t aynı, 5 maddelik iskelet eklendi (boştu). Hepsi harita:null + boya_gerekli:true. Kaynak: TDV + Encyclopaedia Iranica (BAGRATIDS, ARTSRUNI, SHADDADIDS, ĀL-E HĀŠEM — tarayıcıda açılıp BİREBİR doğrulandı; her kayıtta alinti_dogrulama alanı). KRONOLOJİ data/kronoloji_cok_once1281_anadolu.js → window.KRONOLOJI_COK_ONCE1281_ANADOLU — 175 madde · 322 taraf atfı · 48 künye. KAPILAR (dosya YÜKLENEREK ölçüldü): node --check ✓ · tarafsız 0 · biçim 0 · kuşak dışı 0 · küresel ad başka dosyada 0 (557 dosya) · 🟡 EŞLENEMEYEN TARAF 8 atıf / 2 kimlik: zengi 5 · eyyubi 3 — ikisi ORTADOGU önerisinden bekleniyor. eyyubi = senin M-5569'daki id; zengi id'si DOĞRULANMADI (ORTADOGU künye dosyası yok). Farklı çıkarsa iki kelimelik değişiklik, söyle yaparım. AYIKLAMA: grup arası 4 mükerrer birleştirildi · iskeletle aynı olay 1 düştü · pencere dışı kilikya-ermeni tarafı 2 maddeden çıktı · künyesiz bulgar-birinci/pecenekler tarafı çıktı. ② BULAMADIM: Çaka Beyliği (başlangıç yılı yok) · Erzurum Selçukluları (selcuklu içi) · Eğriboz Lombard · Rodos/Gabalas · Alan Krallığı (kuruluş yılı yok) · Sünik (f yalnız Vikipedi) · Kaheti-Hereti (yıl yok). 3'ün altında madde: vaspurakan 0 · samtshe 0 (iskelet dışında) · ani/kars/lori/naksa/mengucuklu/inanc 1-2 · germiyan/mentese/esref/pervane 0 (pencerede olay yok) — gerekçeler raporda. ③ KARAR İSTEDİKLERİM (dokunmadım; M-5589'dakilere ek): a) Taraf atfıyla 15 tavanı aşan: selcuklu 35 · gurcistan 24 · artuklu 21 · bizans 19 · danismendli 17 — çoğu ortak savaş maddesi; \"birincil taraf\" sayılırsa tavanda. Düşürülecek aday listesi raporda. b) cubukogullari t=1119 ↔ TDV artuklular Belek'in Harput'u 1112'de aldığını söyler ⇒ 1112-1119 arası Harput'un İKİ sahibi. Öneri t→1112 (iki TDV maddesi > Belleten'in ihtimal cümlesi). c) karaman iskeleti Konya 1277-05-13; TDV iki maddede 14 Mayıs 1277 (9 Zilhicce 675). d) kilikya-ermeni: TDV haclilar taç yılı 1198 (künye 1199-01-06); Rubenî baronluğu 1080 genişletmesi DAYANAKSIZ — önermedim. e) Ani'nin Gürcülerce alınışı TDV'de 1123 (seddadiler) / Didgori 1121 sonrası (gurcistan); Iranica 1124 · Şeddâdî Ani sonu TDV 1175, Iranica 1199-1200 — TDV esas. f) 1123 Gürcülerin Şirvan'ı ilhakı TDV sirvansahlar'da YOK; 1266 Mari savaşı Memlük yağması, toprak kaybı değil — ikisi haritaya işlenmemeli. g) Önerilen taraf eklemeleri (iskelet maddelerine): selcuklu 1071/1097/1176 → +bizans · seddadiler-ani 1161/1163 → +gurcistan. Değişen/yeni dosyalar: data/kronoloji_cok_once1281_anadolu.js · denetim/ONCE1281-ANADOLU-KUNYE.json · denetim/ONCE1281-ANADOLU-BIZANS-0930.md · denetim/ARAC-ONCE1281-ANADOLU-TDV.py · denetim/ONCE1281-ANADOLU-tdv-onbellek/. index.html / devletler.js / git'e DOKUNMADIM. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
