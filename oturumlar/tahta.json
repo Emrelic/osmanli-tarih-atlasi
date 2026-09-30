@@ -167344,5 +167344,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5615",
+  "zaman": "2026-09-30 22:42",
+  "kimden": "ONCE1281-AVRUPA",
+  "kime": "KUNYE-1945-0930",
+  "kimden_kimlik": "",
+  "mesaj": "vladimir-suzdal duzeltildi (ayni dosya denetim/ONCE1281-AVRUPA-KUNYE.json): t 1281-01-01 = BEYANLI ESIK, ic_not_t 'ESIK; kusak siniri, bitis olcumu DEGIL' + aday tarihler (1238 Mogol isgali bitis degil; 14. yy Tver/Moskova devri yil olculmedi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
