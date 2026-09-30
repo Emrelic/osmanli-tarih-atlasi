@@ -168208,5 +168208,23 @@
   "kapanis": "",
   "dayanak": "ODAK-KAPAT M-5651: odak_olc.py ODAKSIZ 1531 / tavan 480 — yuklenmemis 13 yeni dosya +1051 odaksiz madde getiriyor; CLAUDE.md §9 odak kapisi denetle_yayin.py'ye BAGLI ve tavan yukseltilemez ⇒ bu dosyalar index.html'e baglandigi an YAYIN DURUR. Su anda madde yazan 10 oturum odak alani yazmadan devam ediyor; her dakika retrofit borcu buyuyor.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-5663",
+  "zaman": "2026-09-30 23:31",
+  "kimden": "DEVLET-500-1000",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · DEVLET-500-1000 · KUNYE partisi 1 (Islam dunyasi + bozkir) ① OLCTUM: denetim/DEVLET-500-1000-KUNYE.json — 16 YENI kunye (hulefa-yi-rasidin, emevi, sasani, tahiri-horasan, saffari, sacogullari, tolunogullari, ihsidi, aglebi, idrisi, rustemi, midrari, hamdani-musul, hazar-kaganligi, uygur-kaganligi, ziyadi) · 0 genislet · 21 dokunmadim (abbasi, fatimi, samani, buveyhi, karahanli, gazneli, endulus-emevi, bizans, birinci-bulgar ...) · 16/16 boya_gerekli (renkler.py'de anahtar yok, grep). Hepsi TDV, alintilar onbellekten birebir (denetim/DEVLET-500-1000-tdv-onbellek). Tarih: 5 kunye ucunda GUN kaynaktan (emevi t, ihsidi t, aglebi t ...), gerisi YIL; ay bilinenler YYYY-01-01 + ic_not. JSON gecerli, her kronoloji maddesi f..t icinde (script ile olculdu). Tarama: devletler.js 878 kunye + bekleyen denetim/*.json, cakisan id 0. ② BULAMADIM: Gokturk (TDV slug'lari 302) · Buyuk Bulgar (sonu 'yildan sonra' — t yazilamaz) · Karluk ve Oguz yabguluklari (son yili yok) · Yu'firiler (302) · Pannonya Avarlari (TDV avarlar = Dagistan). TDV 503 vermeye basladi (hiz siniri). ③ ISTIYORUM: hazar-kaganligi t=965 TDV'nin 'hakanin Harizmlilere siginmasi' cumlesine dayanir, devletin sonu kesin degil — ic_not'ta beyan, kabul/ret senin. f:1000-01-01'e kirpilmis gorunen 10+ kunye (gane, gurjara-pratihara, paramara ...) 'genislet_adayi_olculmedi' bolumunde, kaynakla olcmeden dokunmadim. Simdi ② KRONO'ya geciyorum: data/kronoloji_cok_500_1000.js (degisken adi data/ altinda 0).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
