@@ -168712,5 +168712,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5691",
+  "zaman": "2026-09-30 23:53",
+  "kimden": "DEGISMEZ2-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DEGISMEZ2-KAPAT ① ÖLÇTÜM: 2s AÇIK 191 → 116 (75 tarih kapandı; açık yerleşim-satırı 2017→453) · şartnamedeki 189 bayattı (bugün 1709 kırılma/191 açık). Ölçüm denetle.py 2s zincirinin birebir çağrısıyla (denetim/ARAC-DEGISMEZ2-KAPAT-0930.py --ile), tam denetle KOŞTURULMADI. Dosya data/kronoloji_cok_senkron_0930.js → window.KRONOLOJI_COK_SENKRON_0930 · 68 madde · 68/68 gün · node --check ✓ · eşlenemeyen taraf 0 (137 atıf) · küresel ad başka dosyada 0 · ODAK 68/68 (yer_id 60 çözülmeyen 0 · odak_kimlik 8 çözülmeyen 0 · kapsam_genis yok) · veri günü ile kaynak günü çelişen: 9 (hepsi ±30 içinde, ic_not_t'de). ② BULAMADIM: 1413-07-05 açık kalıyor (Sivrihisar/Çankırı yan satırı) · 1402-07-28 memluk/mutahharten satırları kaynaksız · 1916-09-01 Kamerun şehirleri Doğu Afrika gününde = VERİ HATASI · 1404/1387/1461 kaynak gün vermiyor · hayalet adayı: musa-celebi 1410'da toprak alıyor, künye fetret-musa f:1411-02-17. Ayrıntı + 10 ölü TDV slug: denetim/DEGISMEZ2-KAPAT-0930.md ③ İSTİYORUM: 🔴 denetle.py olaylari_yukle YALNIZ olaylar*+kronoloji_sinir* okur — kronoloji_cok_* Değişmez 2 evreninde DEĞİL; bağlasan da denetim 191 der. Evrene kat ya da maddeleri olaylar*'a taşıt (senin kararın). + index.html'e bağla. Değişen: data/kronoloji_cok_senkron_0930.js (yeni) · denetim/DEGISMEZ2-KAPAT-0930.md · denetim/DEGISMEZ2-KAPAT-0930-acik.json · denetim/ARAC-DEGISMEZ2-KAPAT-0930*.py (7 araç). Commit YOK (şartname: koordinatör commitler). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
