@@ -166840,5 +166840,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5587",
+  "zaman": "2026-09-30 21:41",
+  "kimden": "KRONO-BOSLUK-OLC-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DIRILT · KRONO-BOSLUK-OLC-0930 · rapor: denetim/KRONO-BOSLUK-0930.dirilt.md + .dirilt.json (commit YOK) ① OLCTUM — KAPILAR - ① node --check once 15/15 ✓ · sonra 15/15 ✓ - ③ baglanan madde 0 → 1698 / 2084 (1703 madde×kunye eklemesi; app.js:14208-14290 mantigiyla BENZETIM, degiskenler KRONOLOJI_COK_<X> sayilarak). 81 kunye madde kazaniyor, 34'u 346'lik INCE listede. - ④ ezilen kunye 26 → 26: 26'si BUGUNUN durumu (derinKronolojiBindir su an 26 kunyenin kendi kronolojisini `=` ile eziyor, konsol basiyor). Bu is 0 ezme ekledi. - ② eslenemeyen taraf 48 → 48 (senin 15'in eksikti; tum COK/SINIR dosyalari taraninca 48 — tam liste md §5, KUNYE-1945-0930 icin). Bu is 0 ekledi. - aynı kunye + aynı gun cakismasi: 0. - A mi B mi: 15 dosyanin HICBIRI tek kunyeli degil (en dar sirbistan bile 5 kunye) ⇒ B 0/15, yol A. - Kimlik kaynagi: d: koseli onek yalniz 3 dosyada (guney_asya 153 · hindistan 131 · japonya 71); mevcut `kunye:` alani 50 maddede (cokTarafli onu OKUMUYOR, o da bagli degildi); oteki 11 dosya kunye kunye BOLUM basligiyla yazilmis, madde→bolum esleme dize/yorum farkinda tarayiciyla, sayi dizi uzunluguyla sinandi 15/15. cin/misir: hanedan pencereleri ayrik, tarih secer. HER atamada kunye penceresi SART. - Dogrulama: her dosya yeniden degerlendirildi, taraflar disinda her madde ozgunuyle JSON-birebir; git diff 1698 satir = 1698 eklenen alan. 🔴 AMA SITE BUGUN 0 FAZLA MADDE GOSTERIYOR. Degisken adini DEGISTIRMEDIM: arac/denetle_kronoloji.py:147 degisken adini DOSYA ADINDAN turetip bekliyor ve kosu_yayin.py:157 ⑥b'de kosuyor ⇒ kronoloji_balkan.js icinde KRONOLOJI_COK_BALKAN = 15 ihlal, yayin kapisi kirilir. ② BULAMADIM / BAGLAMADIM — 386 madde - mukerrer-riski 245: hedef kunyede AYNI GUN baska baslikla madde var (255 cift; cogu ayni olay: karadag 1918-11-26 Podgorica ↔ Podgorica). Baslik benzerligi ayirt edemiyor (0,17 ile ayni olay) ⇒ baglamadim. - pencere-disi 83: (a) kunye gunu kronolojiyle celisiyor — kazan t:1552-10-02 ama dusus 1552-10-15 · zeyyani f:1236, kurulus 1235 · trablusgarp-ocagi t:1911-10-09, Usi 1912-10-18 · serbedariler f:1337-09-09, dogus 1337-03-13 (KUNYE-1945-0930 isi); (b) devletin disi (Kazak 1847 sonrasi 11 · Oyrat/Idil Kalmuk 11). - kunyesi yok 48 (dosyanin kendi beyani): Osmanli Bulgaristan'i 13 · Cobanli/Toga Timurlu fetreti 19 · Kirgiz 8 · kultur kesiti 6 · ozbek 2. onek-kunyesiz 7 (Suri, \"bolge —\"). belirsiz 3. ③ ISTIYORUM — biri SENIN karar - SWITCH (onerim S1): 15 dosyayi kronoloji_cok_<x>.js'e git mv + degisken KRONOLOJI_COK_<X> + data/paket_kunye.json yollari + paketle.py yenile. denetle_kronoloji kendiliginden tutar (kronoloji_cok_fas emsali); arac/app.js/index.html DOKUNULMAZ. Alternatif S2: yalniz degisken adi + denetle_kronoloji.py:147'ye COK_ takma adi (arac degisir, motor tuzuna girmez). Degisken satirini dosya adiyla ayni elde degistirmeye hazirim — git mv ve paket senin. - ⚠️ PAKET BAYAT: 15 kaynak degisti ⇒ `paketle.py sina` simdi BAYAT der; S1/S2'den bagimsiz `paketle.py yenile` sart ve UFUK-DUGME-0930'in yayiniyla ayni pakete duser — siralamayi sen ver. - Degisen dosyalar: data/kronoloji_{anadolu,arabistan,balkan,cin,dogu_afrika,guney_asya,hindistan,iran_ardillari,italya_sehir,japonya,kuzeyafrika,misir,orta_asya,ozbek,sirbistan}.js (yalniz ` taraflar:[…],` eklendi) · denetim/KRONO-BOSLUK-0930.dirilt.md · .dirilt.json. js/ index.html devletler.js arac/ YAZILMADI; denetle.py kosturulmadi. bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
