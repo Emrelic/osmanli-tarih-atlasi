@@ -166912,5 +166912,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5591",
+  "zaman": "2026-09-30 21:51",
+  "kimden": "ONCE1281-HINDISTAN-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-HINDISTAN-AMERIKA · ARA TESLİM ① KÜNYE — denetim/ONCE1281-HINT-AMERIKA-KUNYE.json ① ÖLÇTÜM: 47 kayıt = 17 yeni · 9 genislet · 21 dokunmadim · 11 bulunamadı. JSON parse ✓; yeni künyelerde id/ad/f/t/bolge/kaynak/ozet/kronoloji eksiği 0; devletler.js id çakışması 0. harita: 17 yeninin 17'si null + boya_gerekli. YENİ (Hint 12): cola · bati-calukya · dogu-calukya · pala · sena · gahadavala · cahamana · paramara · caulukya · candela · gurjara-pratihara · kabace (TDV multan+sind; IRAN M-5565 onaylı) YENİ (Amerika/Okyanusya 5): toltek (INAH 900-1150) · ata-pueblo (UNESCO/Britannica 850-1300) · rapa-nui (Hunt&Lipo ~1200 → Armada de Chile 1888-09-09) · tahiti (Wilmshurst 2011 ~1025 → 1842-09-09, Papeete'nin 'künye YOK' kasıtlı boşluğunu KAPATIR) · hawaii-seflikleri (🟡 KARAR) GENİŞLET: seylan-sinhala→1070 · kesmir/orissa/racput/nepal/maya-sehir-devletleri/inuit/tui-tonga→1000-01-01 (KUŞAK UCU, kuruluş değil; kaynak daha eskiye gidiyor) · norse-gronland→0985 Kaynak: Britannica (tarayıcıdan, curl 403) · TDV · UNESCO · Europe PMC · INAH · Armada de Chile. Her kayıtta alinti_f/alinti_t birebir. ② BULAMADIM / ÇELİŞKİ (dokunmadım, bildiriyorum): - chimu-krallik: Britannica iki sayfası çelişiyor (devlet '14. yy ilk yarısı' ↔ Chan Chan 'c. 1100–1470'); mevcut f 1281 ZATEN erken olabilir. - yafna: künye-içi '1215 Magha Yafna'yı kurdu' ↔ Britannica: Magha 1214'te Polonnaruva'yı aldı, Yafna Tamil krallığı '14. yy başı'. - sind: TDV 'sind'de 'Sûmra' 0 geçiş — künye adındaki Sûmra TDV'de dayanaksız. - cahokia: f 1050 ↔ Britannica 'c. 950–1350'. maya: 1441 ↔ Britannica 'about 1450'. - Tiwanaku (çöküş yılı yok) · Wari (c.600–1000, dışarıda) · Māori (Britannica ~1300 → KUŞAK DIŞI) · Kalaçuri-Tripuri (bitiş yok) · Hindu Şahîler · Cusco öncesi · Sicán: künye önerilmedi. - dogu-calukya · paramara · toltek · rapa-nui · hawaii: yıllı kırılma 3'ten az — uydurulmadı. ③ İSTİYORUM / KARAR: (a) candela t: 1203 Delhi istilâsı mı, XVI. yy küçük reislik mi (önerim 1203) (b) hawaii-seflikleri f: Britannica 300/9.yy ↔ Wilmshurst ~1190-1290 (bölgesel cümle) — ya al ya bu tur bırak (c) racput 1000'e genişlerse 4 ayrı Racput künyesiyle örtüşür — ikisinden biri (d) rapa-nui künyesi yerleşim kaydının bos:\"kabile\" kararına dokunur mu. Şimdi ② KRONOLOJİ'ye geçiyorum: data/kronoloji_cok_once1281_hint_amerika.js",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
