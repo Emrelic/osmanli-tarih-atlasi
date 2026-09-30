@@ -35,3 +35,26 @@
 - Denenen TDV maddeleri: `cin--ulke` · `cengiz-han` · `mogollar` · `kubilay-kagan` · `karahitaylar` · `mogolistan` · `kore-cumhuriyeti` · `japonya` · `camlar` · `kambocya` · `myanmar` · `tayland` · `sumatra` · `cava` · `endonezya` · `tibet` · `budizm` (hepsi 200).
 - Başlık araması (`ajax_search_auto.php`) 0 sonuç verenler: tangut · cürçen · kitan · möngke · ögeday · angkor · kmer · pagan · sriv · dalay.
 - Her maddede TDV cümlesi, olayla **ve** yılla birlikte eşleşirse ① sayıldı. Yalnız yüzyıl ya da dönem veren cümleler (ör. "XI. yüzyılda", "1127-1279") desteğe sayılmadı ve ③'ün notuna yazıldı.
+
+---
+
+# EK — Batı Afrika devri: `data/kronoloji_cok_ince_bati_afrika.js`
+
+Kusurlu madde 6 (#1 · 2 · 3 · 4 · 5 · 9; 0-tabanlı). Bu maddelerde yalnız WebSearch özeti okunmuştu, sayfa gövdesi açılmamıştı.
+
+| # | Madde | Sonuç | Açılan gövde |
+|---|---|---|---|
+| 1 | 1896-07-30 Voulet-Chanoine Bandiagara'dan çıkış | ③ | TDV burkina-faso + Encyclopedia.com «Burkina Faso» yılı ve Uagadugu'ya girişi veriyor, **30 Temmuz gününü vermiyor** |
+| 2 | 1896 Prempeh tutuklanıp sürüldü | ② | Encyclopedia.com: Women in World History «Yaa Asantewaa» · Encyclopedia of Western Colonialism «Asante Wars» |
+| 3 | 1900 Yaa Asantewaa savaşı | ② | Women in World History «Yaa Asantewaa» (Nisan 1900) + TDV gana (1901) |
+| 4 | 1481 Ozolua oba oldu | ② | Britannica «Ozolua» |
+| 5 | 1897 İngiliz heyeti öldürüldü | ② | Britannica «Ovonramwen» (Ocak 1897) |
+| 9 | 1870 Jaja Opobo'yu ilân etti | ② | Encyclopedia of World Biography «Ja Ja of Opobo» |
+
+- **Britannica:** betikle (urllib) 403 verdi, uygulama içi tarayıcıda açıldı. Metin `get_page_text` ile okundu.
+- **Açılamayanlar:** Oxford RE (403) · encyclopedia.com'un Asante Wars eski adresi (404).
+- **Alıntı kapısı:** Her Encyclopedia.com ve TDV alıntısı çekilen gövdede birebir arandı (`assert`).
+- **Değişen alanlar:** yalnız `kaynak` ve `ic_not_kaynak`. Fark ölçümüyle doğrulandı: 14 maddenin öteki alanlarında fark 0.
+- **Kapılar:** `node --check` temiz, CRLF korundu.
+- **#1 için hüküm koordinatörde:** gün dayanaksız. Seçenek: `t:"1896-01-01"` + `gun` alanına "yıl".
+- **ad--nitelik:** denenmedi. Gerekmedi, çünkü gerekli TDV maddeleri (burkina-faso · gana) doğrudan açıldı. `benin` 200 döndü ama ülke maddesi (Dahomey), Benin Krallığı değil (tuzak ②). `asanti` · `asantiler` · `kumasi` · `benin--ulke` 302.
