@@ -118,7 +118,16 @@ def katman_evreni():
     Anahtar tırnaklı (`"taraflar":`, JSON) ya da tırnaksız (`taraf:`) olabilir.
     `(?<![\\w"])` + `"?ad"?\\s*:` — `devlet` alanı `devletler:` ile karışmaz
     (ad'dan hemen sonra `:` şart)."""
-    canli = set(re.findall(r'src="data/([^"?]+\.js)', _oku("index.html")))
+    # 🔴 PAKET AÇILIR — yoksa evren BOŞ görünür. Ölçüldü (30 Eylül 2026):
+    # kendi regexi `src="data/..."` arıyordu, dosyalar `paket_NN.js` içine
+    # girdiği için index.html'de ADIYLA geçmiyor ⇒ evren "0 sınır · 4
+    # kronoloji" çıktı ve sessiz borç 14 → 54 GÖRÜNDÜ. Gerileme değil
+    # ARTEFAKT. `_bagli_mi.index_dosyalari()` bunu 29 Eylül'de çözmüştü;
+    # üçüncü bir liste yazmak yerine ONA bağlanıyoruz — iki tüketici
+    # listesi ayrışırsa denetim kendi modelinin eksikliğini VERİYE yazar.
+    from _bagli_mi import index_dosyalari as _idx
+    canli = set(f for f in _idx(os.path.join(KOK, "index.html"))
+                if f.endswith(".js"))
     kat, dosya = {}, {}
     for ad, onekler, dizi, dize in KATMAN_ALANLARI:
         c = collections.Counter()

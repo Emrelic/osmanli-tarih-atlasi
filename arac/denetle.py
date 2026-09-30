@@ -177,7 +177,7 @@ BEKLENEN_YERLESIM = 968
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 324   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla)
+BEKLENEN_SAHIPSIZ = 309   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla)
 # 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
 #    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
 #    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
@@ -2028,7 +2028,7 @@ def degismez3(Y):
 #                  ⇒ ÇARE KAYDI SİLMEK DEĞİL: 1923-2026 ekseni açılınca
 #                     `fas` künyesi uzayacak ve hayalet KENDİLİĞİNDEN
 #                     düşecek. O güne kadar tavanda, GEREKÇESİYLE.
-BEKLENEN_HAYALET = 9
+BEKLENEN_HAYALET = 6
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
@@ -2125,7 +2125,7 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 132   # 10 EYLUL 2026: 138 -> 132, aletin KENDI uyarisi
+BEKLENEN_ASAN = 128   # 10 EYLUL 2026: 138 -> 132, aletin KENDI uyarisi
 # 🔴 Aradaki 6 puanlik gercek gerileme GORUNMEZ olurdu. Ayni turda dort
 #    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
 #    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
