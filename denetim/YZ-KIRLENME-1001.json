@@ -1,0 +1,1705 @@
+{
+ "olcum": "YZ-KIRLENME-1001 · YAZICI-KASA (KAYNAK-DOGRULA-DOGUASYA) · 01.10.2026",
+ "evren": {
+  "kronoloji_cok_dosya_tum": 56,
+  "kronoloji_cok_madde_tum": 3084,
+  "kapsam_deseni": "kronoloji_cok_(ince_*|once1281_*|1923_1945|500_1000|senkron_0930).js",
+  "kapsam_dosya": 18,
+  "kapsam_madde": 1804,
+  "modern_site_kaynakli": 873,
+  "url_tasiyan_atif": 963,
+  "alan_adi": 68,
+  "britannica_atifli_madde": 149,
+  "britannica_alintili": 125,
+  "britannica_alintisiz_olculemedi": 24,
+  "olculen_britannica_kaydi": 93,
+  "olculen_britannica_alintisi": 94,
+  "britannica_sayfa_cekilen": 60,
+  "britannica_sayfa_yz_kutulu": 53
+ },
+ "hukum_sayim_kayit": {
+  "EDITOR": 88,
+  "YZ": 2,
+  "SAYFA-DISI": 1,
+  "YANLIŞ-ATIF": 1,
+  "YAKIN": 1
+ },
+ "yontem": "Tarayıcı içinden (britannica.com kökeni) fetch; sayfa + alt sayfalar; metin üçe ayrıldı: EDITOR = p.topic-paragraph (YZ atası yok) · YZ = .ai-qna-module/.answer-content/[class*=ai-qna] · SAYFA = gövdenin kalanı. Alıntı '…' ile parçalanıp her parça normalize (tırnak/tire/boşluk) edilerek arandı. Bayraklı 7 kayıt DOM zinciriyle elle incelendi.",
+ "kayitlar": [
+  {
+   "madde": "ince_bati_afrika#4",
+   "dosya": "data/kronoloji_cok_ince_bati_afrika.js",
+   "sira": 4,
+   "sayfa": [
+    "britannica.com/biography/Ozolua"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "ince_bati_afrika#5",
+   "dosya": "data/kronoloji_cok_ince_bati_afrika.js",
+   "sira": 5,
+   "sayfa": [
+    "britannica.com/biography/Ovonramwen"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#5",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 5,
+   "sayfa": [
+    "britannica.com/biography/Malcolm-II"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#9",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 9,
+   "sayfa": [
+    "britannica.com/biography/Canute-I"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#11",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 11,
+   "sayfa": [
+    "britannica.com/event/Battle-of-Clontarf"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#13",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 13,
+   "sayfa": [
+    "britannica.com/biography/Robert-II-king-of-France"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#14",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 14,
+   "sayfa": [
+    "britannica.com/biography/Malcolm-II"
+   ],
+   "olcum_ham": [
+    "YOK:80"
+   ],
+   "hukum": "EDITOR",
+   "not": "Yanlış alarm: editör metni '(c. 1016)', kayıt '( c. 1016)' — yalnız boşluk farkı. İçerik birebir editör metninde."
+  },
+  {
+   "madde": "once1281_avrupa#15",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 15,
+   "sayfa": [
+    "britannica.com/biography/Rudolf-III-king-of-Burgundy"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#17",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 17,
+   "sayfa": [
+    "britannica.com/biography/Canute-I"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#18",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 18,
+   "sayfa": [
+    "britannica.com/biography/Canute-I"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#29",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 29,
+   "sayfa": [
+    "britannica.com/biography/Robert-II-king-of-France"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#32",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 32,
+   "sayfa": [
+    "britannica.com/topic/Battle-of-Carham"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#42",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 42,
+   "sayfa": [
+    "britannica.com/biography/Edward-king-of-England-1002-1066",
+    "britannica.com/biography/Hardecanute"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#44",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 44,
+   "sayfa": [
+    "britannica.com/biography/William-I-king-of-England"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#49",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 49,
+   "sayfa": [
+    "britannica.com/biography/Henry-I-king-of-France"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#52",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 52,
+   "sayfa": [
+    "britannica.com/biography/Gruffudd-ap-Llywelyn"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#54",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 54,
+   "sayfa": [
+    "britannica.com/biography/Edward-king-of-England-1002-1066"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#55",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 55,
+   "sayfa": [
+    "britannica.com/event/Battle-of-Hastings"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#60",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 60,
+   "sayfa": [
+    "britannica.com/biography/Robert-I-count-of-Flanders"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#76",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 76,
+   "sayfa": [
+    "britannica.com/biography/Robert-II-duke-of-Normandy",
+    "britannica.com/biography/William-I-king-of-England"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#91",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 91,
+   "sayfa": [
+    "britannica.com/biography/Robert-II-duke-of-Normandy"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#93",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 93,
+   "sayfa": [
+    "britannica.com/biography/Philip-I-king-of-France"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#103",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 103,
+   "sayfa": [
+    "britannica.com/biography/Charles-count-of-Flanders"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#108",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 108,
+   "sayfa": [
+    "britannica.com/biography/Louis-VI"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#114",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 114,
+   "sayfa": [
+    "britannica.com/biography/Geoffrey-IV-count-of-Anjou"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#122",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 122,
+   "sayfa": [
+    "britannica.com/biography/Eleanor-of-Aquitaine"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#125",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 125,
+   "sayfa": [
+    "britannica.com/biography/Stephen-king-of-England",
+    "britannica.com/biography/Henry-II-king-of-England"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#130",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 130,
+   "sayfa": [
+    "britannica.com/biography/Geoffrey-IV-duke-of-Brittany"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#137",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 137,
+   "sayfa": [
+    "britannica.com/place/Angevin-empire"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#140",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 140,
+   "sayfa": [
+    "britannica.com/biography/William-I-king-of-Scotland"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#147",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 147,
+   "sayfa": [
+    "britannica.com/biography/Louis-VII"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#156",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 156,
+   "sayfa": [
+    "britannica.com/topic/Quitclaim-of-Canterbury"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#159",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 159,
+   "sayfa": [
+    "britannica.com/place/Flanders-medieval-principality-and-historical-region-Europe"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#167",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 167,
+   "sayfa": [
+    "britannica.com/biography/Philip-II-king-of-France"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#172",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 172,
+   "sayfa": [
+    "britannica.com/biography/Philip-II-king-of-France",
+    "britannica.com/place/Normandy"
+   ],
+   "olcum_ham": [
+    "YZ"
+   ],
+   "hukum": "YZ",
+   "not": "Alıntı 'Normandy fell to the Capetian in 1204. Maine, Anjou, and Touraine fell rapidly (1204–06)…' Britannica «Philip II» sayfasında YALNIZ YZ soru-cevap kutusunda (DOM: P › DIV.answer-content › DIV.ai-qna-answer › LI.ai-qna-item › DIV.ai-qna-module). Kaynakta gösterilen /place/Normandy editör metninde YOK."
+  },
+  {
+   "madde": "once1281_avrupa#175",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 175,
+   "sayfa": [
+    "britannica.com/event/Albigensian-Crusade"
+   ],
+   "olcum_ham": [
+    "SAYFA-DISI"
+   ],
+   "hukum": "SAYFA-DISI",
+   "not": "'Massacre at Béziers July 21, 1209 - July 22, 1209' editör paragrafı değil, sayfanın 'Key events' zaman çizelgesi bileşeni (DIV.timeline-slide). YZ değil; Britannica'nın yapılandırılmış verisi."
+  },
+  {
+   "madde": "once1281_avrupa#179",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 179,
+   "sayfa": [
+    "britannica.com/biography/Peter-I-duke-or-count-of-Brittany"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#180",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 180,
+   "sayfa": [
+    "britannica.com/biography/Raymond-VI"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#182",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 182,
+   "sayfa": [
+    "britannica.com/event/Battle-of-Bouvines-1214"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#183",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 183,
+   "sayfa": [
+    "britannica.com/topic/Magna-Carta"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#187",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 187,
+   "sayfa": [
+    "britannica.com/biography/Raymond-VI"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#193",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 193,
+   "sayfa": [
+    "britannica.com/biography/Louis-VIII"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#195",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 195,
+   "sayfa": [
+    "britannica.com/biography/Louis-VIII"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#200",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 200,
+   "sayfa": [
+    "britannica.com/event/Albigensian-Crusade"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#208",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 208,
+   "sayfa": [
+    "britannica.com/biography/Alexander-II-king-of-Scotland"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#230",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 230,
+   "sayfa": [
+    "britannica.com/biography/Raymond-VII"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#242",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 242,
+   "sayfa": [
+    "britannica.com/place/France/Louis-IX"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#255",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 255,
+   "sayfa": [
+    "britannica.com/place/Wales/Llywelyn-ap-Iorwerth"
+   ],
+   "olcum_ham": [
+    "YOK:0"
+   ],
+   "hukum": "YANLIŞ-ATIF",
+   "not": "Alıntı 'On 29 September 1267, the ford at Rhydwhiman was the site of the signing of the historic Treaty of Montgomery.' Britannica «Wales» sayfasının hiçbir yerinde (editör, YZ, sayfa) YOK. Editör metni yalnız '…formally acknowledged by henry iii in 1267 by the treaty of montgomery…' der. Gün (29 Eylül) ve 'Rhydwhiman' Britannica'da geçmiyor ⇒ alıntı başka kaynaktan, Britannica'ya yanlış atfedilmiş."
+  },
+  {
+   "madde": "once1281_avrupa#259",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 259,
+   "sayfa": [
+    "britannica.com/biography/Louis-IX"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#260",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 260,
+   "sayfa": [
+    "britannica.com/biography/Alphonse-of-Poitiers"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_avrupa#267",
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "sira": 267,
+   "sayfa": [
+    "britannica.com/biography/Guy-count-of-Flanders"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#0",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 0,
+   "sayfa": [
+    "britannica.com/topic/Pala-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#1",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 1,
+   "sayfa": [
+    "britannica.com/topic/Chandela"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#4",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 4,
+   "sayfa": [
+    "britannica.com/topic/Chola-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#6",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 6,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/Conversion-to-Buddhism"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#7",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 7,
+   "sayfa": [
+    "britannica.com/place/India/The-Rajputs"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#8",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 8,
+   "sayfa": [
+    "britannica.com/topic/Gurjara-Pratihara-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#10",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 10,
+   "sayfa": [
+    "britannica.com/topic/Chandela"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#11",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 11,
+   "sayfa": [
+    "britannica.com/topic/Chola-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#12",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 12,
+   "sayfa": [
+    "britannica.com/place/India/The-Rajputs"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#13",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 13,
+   "sayfa": [
+    "britannica.com/topic/Ganga-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#14",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 14,
+   "sayfa": [
+    "britannica.com/topic/Chola-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#15",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 15,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/Conversion-to-Buddhism"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#16",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 16,
+   "sayfa": [
+    "britannica.com/topic/Chola-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#17",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 17,
+   "sayfa": [
+    "britannica.com/topic/Pala-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#18",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 18,
+   "sayfa": [
+    "britannica.com/topic/Chandela"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#20",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 20,
+   "sayfa": [
+    "britannica.com/place/India/The-Rajputs"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#21",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 21,
+   "sayfa": [
+    "britannica.com/place/India/The-Rajputs"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#22",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 22,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/Conversion-to-Buddhism"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#23",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 23,
+   "sayfa": [
+    "britannica.com/topic/Chalukya-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#24",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 24,
+   "sayfa": [
+    "britannica.com/topic/Chandela"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#25",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 25,
+   "sayfa": [
+    "britannica.com/topic/Gahadavala-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#26",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 26,
+   "sayfa": [
+    "britannica.com/place/India/The-Rajputs"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#27",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 27,
+   "sayfa": [
+    "britannica.com/topic/Sena-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#28",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 28,
+   "sayfa": [
+    "britannica.com/topic/Chandela"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#29",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 29,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/The-fall-of-Polonnaruwa"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#30",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 30,
+   "sayfa": [
+    "britannica.com/topic/Chalukya-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#31",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 31,
+   "sayfa": [
+    "britannica.com/event/Battles-of-Taraori"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#32",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 32,
+   "sayfa": [
+    "britannica.com/topic/Gahadavala-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#33",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 33,
+   "sayfa": [
+    "britannica.com/place/India/The-Rajputs"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#34",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 34,
+   "sayfa": [
+    "britannica.com/place/Delhi-sultanate"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#35",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 35,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/The-fall-of-Polonnaruwa"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#36",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 36,
+   "sayfa": [
+    "britannica.com/topic/Chola-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#40",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 40,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/The-fall-of-Polonnaruwa"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#41",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 41,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/The-fall-of-Polonnaruwa"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#42",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 42,
+   "sayfa": [
+    "britannica.com/topic/Chola-dynasty"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#43",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 43,
+   "sayfa": [
+    "britannica.com/place/Delhi-sultanate"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#44",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 44,
+   "sayfa": [
+    "britannica.com/place/Sri-Lanka/The-fall-of-Polonnaruwa"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#45",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 45,
+   "sayfa": [
+    "britannica.com/biography/Erik-the-Red"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#47",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 47,
+   "sayfa": [
+    "britannica.com/topic/Ancestral-Pueblo-culture"
+   ],
+   "olcum_ham": [
+    "YZ",
+    "YOK:0"
+   ],
+   "hukum": "YZ",
+   "not": "İki alıntının İKİSİ de YZ kutusundan: ① 'Around 1150 CE, they began constructing cliff dwellings…' → «Ancestral Pueblo culture» DIV.ai-qna-module · ② 'Between 1150 and 1200, the Ancestral Pueblo peoples moved from mesa tops to alcoves…' → kaynakta anılan «Mesa Verde National Park» sayfasının DIV.ai-qna-module kutusu. İkisi de editör metninde YOK."
+  },
+  {
+   "madde": "once1281_hint_amerika#49",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 49,
+   "sayfa": [
+    "britannica.com/place/Tahiti"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#50",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 50,
+   "sayfa": [
+    "britannica.com/place/Tahiti"
+   ],
+   "olcum_ham": [
+    "EDITOR"
+   ],
+   "hukum": "EDITOR",
+   "not": ""
+  },
+  {
+   "madde": "once1281_hint_amerika#32b",
+   "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+   "sira": 32,
+   "sayfa": [
+    "britannica.com/place/Delhi-sultanate"
+   ],
+   "olcum_ham": [
+    "SAYFA-DISI"
+   ],
+   "hukum": "YAKIN",
+   "not": "Editör metni 'particularly to victories at the battles of Taraori in 1192 and Chandawar in 1194'; kayıttaki alıntı 'particularly to THE victories…' — tek kelime eklenmiş. İçerik editör metninden, birebir değil."
+  }
+ ],
+ "diger_alanlar_ornekleme": {
+  "countrystudies.us": {
+   "n": 136,
+   "alintili": 127,
+   "ornek": "http://countrystudies.us/nepal/15.htm",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "history.state.gov": {
+   "n": 125,
+   "alintili": 95,
+   "ornek": "https://history.state.gov/historicaldocuments/frus1924v02/d261",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "encyclopedia.ushmm.org": {
+   "n": 69,
+   "alintili": 69,
+   "ornek": "https://encyclopedia.ushmm.org/content/en/article/1933-key-dates",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "avalon.law.yale.edu": {
+   "n": 44,
+   "alintili": 44,
+   "ornek": "https://avalon.law.yale.edu/20th_century/locarno_001.asp",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "enciklopedija.hr": {
+   "n": 34,
+   "alintili": 34,
+   "ornek": "https://www.enciklopedija.hr/clanak/samuilo",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "treccani.it": {
+   "n": 31,
+   "alintili": 31,
+   "ornek": "https://www.treccani.it/enciclopedia/pietro-ii-orseolo/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "snl.no": {
+   "n": 30,
+   "alintili": 30,
+   "ornek": "https://snl.no/Islands_historie",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "enciclopedia.cat": {
+   "n": 23,
+   "alintili": 23,
+   "ornek": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/comtat-de-barcelona",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "encyclopediaofukraine.com": {
+   "n": 20,
+   "alintili": 20,
+   "ornek": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CY%5CA%5CYaroslavtheWise.htm",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "api.parliament.uk": {
+   "n": 18,
+   "alintili": 17,
+   "ornek": "https://api.parliament.uk/historic-hansard/commons/1924/jan/22/mr-baldwins-announcement",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "deutsche-biographie.de": {
+   "n": 16,
+   "alintili": 16,
+   "ornek": "https://www.deutsche-biographie.de/sfz57382.html",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "ebsco.com": {
+   "n": 15,
+   "alintili": 15,
+   "ornek": "https://www.ebsco.com/research-starters/history/haile-selassie-crowned-emperor-ethiopia",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "lex.dk": {
+   "n": 12,
+   "alintili": 12,
+   "ornek": "https://lex.dk/Boles%C5%82aw_1._den_Tapre",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "library.law.fsu.edu": {
+   "n": 10,
+   "alintili": 10,
+   "ornek": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs065.pdf",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "vle.lt": {
+   "n": 8,
+   "alintili": 8,
+   "ornek": "https://www.vle.lt/straipsnis/kalavijuociu-ordinas/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "hls-dhs-dss.ch": {
+   "n": 7,
+   "alintili": 7,
+   "ornek": "https://hls-dhs-dss.ch/de/articles/016572/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "dib.ie": {
+   "n": 7,
+   "alintili": 7,
+   "ornek": "https://www.dib.ie/biography/brian-borama-boruma-boru-a0954",
+   "status": 307,
+   "ai_isaret": []
+  },
+  "penelope.uchicago.edu": {
+   "n": 6,
+   "alintili": 6,
+   "ornek": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Lithuania/_Topics/history/_Texts/CHASOL/28*.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "monarchie.be": {
+   "n": 5,
+   "alintili": 5,
+   "ornek": "https://www.monarchie.be/en/royal-family/history/king-albert-i",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "luxembourg.public.lu": {
+   "n": 5,
+   "alintili": 5,
+   "ornek": "https://luxembourg.public.lu/en/society-and-culture/history/second-world-war.html",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "congreso.es": {
+   "n": 4,
+   "alintili": 4,
+   "ornek": "https://www.congreso.es/es/cem/iirepesp",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "irishstatutebook.ie": {
+   "n": 4,
+   "alintili": 4,
+   "ornek": "https://www.irishstatutebook.ie/eli/1936/act/57/enacted/en/print.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "thecanadianencyclopedia.ca": {
+   "n": 4,
+   "alintili": 4,
+   "ornek": "https://www.thecanadianencyclopedia.ca/en/article/second-world-war-wwii",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "government.is": {
+   "n": 4,
+   "alintili": 4,
+   "ornek": "https://www.government.is/ministries/diplomatic-missions/washington-d-c-united-states-of-america/iceland-and-the-us/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "nationalww2museum.org": {
+   "n": 4,
+   "alintili": 4,
+   "ornek": "https://www.nationalww2museum.org/war/articles/battle-amba-alagi-1941",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "ime.gr": {
+   "n": 3,
+   "alintili": 3,
+   "ornek": "https://www.ime.gr/chronos/14/en/1923_1940/domestic_policy/facts/06.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "foundingdocs.gov.au": {
+   "n": 3,
+   "alintili": 2,
+   "ornek": "https://www.foundingdocs.gov.au/item-sdid-95.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "geschichtewiki.wien.gv.at": {
+   "n": 3,
+   "alintili": 3,
+   "ornek": "https://www.geschichtewiki.wien.gv.at/Justizpalastbrand",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "dalailama.com": {
+   "n": 3,
+   "alintili": 3,
+   "ornek": "https://www.dalailama.com/the-dalai-lama/events-and-awards/chronology-of-events",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "hdgoe.at": {
+   "n": 3,
+   "alintili": 3,
+   "ornek": "https://hdgoe.at/dsd_themensammlung",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "okupacijasmuzejs.lv": {
+   "n": 3,
+   "alintili": 3,
+   "ornek": "https://okupacijasmuzejs.lv/en/history",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "awm.gov.au": {
+   "n": 3,
+   "alintili": 2,
+   "ornek": "https://www.awm.gov.au/articles/blog/fallofrabaul",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "en.natmus.dk": {
+   "n": 3,
+   "alintili": 3,
+   "ornek": "https://en.natmus.dk/historical-knowledge/denmark/german-occupation-1940-1945/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "muzeumpilsudski.pl": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://muzeumpilsudski.pl/en/jozef-pilsudski-1867-1935-2/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "peo.gov.au": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "legal.un.org": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://legal.un.org/riaa/cases/vol_III/1657-1667.pdf",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "persee.fr": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://www.persee.fr/doc/outre_1631-0438_2011_num_98_370_4532",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "worldcourts.com": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://www.worldcourts.com/pcij/eng/decisions/1933.04.05_greenland.htm",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "aramco.com": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://www.aramco.com/en/about-us/our-history",
+   "status": "The read operation timed out",
+   "ai_isaret": []
+  },
+  "tibet.prm.ox.ac.uk": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://tibet.prm.ox.ac.uk/biography_291.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "jmss.org": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://jmss.org/article/download/58010/43657/157857",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "presidentti.fi": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://www.presidentti.fi/en/presidency/election-of-the-president/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "searchculture.gr": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://www.searchculture.gr/aggregator/portal/thematicCollections/liberation?language=en",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "belleten.gov.tr": {
+   "n": 2,
+   "alintili": 1,
+   "ornek": "https://belleten.gov.tr/tam-metin/2413/tur",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "biography.wales": {
+   "n": 2,
+   "alintili": 2,
+   "ornek": "https://biography.wales/article/arc_s-GRUF-APL-1063.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "thegurkhamuseum.co.uk": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://thegurkhamuseum.co.uk/blog/the-anglo-nepal-treaty-of-1923/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "sysselmesteren.no": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.sysselmesteren.no/en/news/2025/07/celebrating-the-100th-anniversary-of-the-svalbard-act-on-14-august",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "vatican.va": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19290211_patti-lateranensi_it.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "federalreservehistory.org": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "journals.openedition.org": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://journals.openedition.org/cal/10573",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "legislation.gov.uk": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/enacted",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "parlament.gv.at": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.parlament.gv.at/aktuelles/news/4.-Maerz-1933-Oesterreichs-Parlament-wird-ausgeschaltet",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "saeima.lv": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.saeima.lv/en/about-saeima/history-of-the-legislature",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "treaties.un.org": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://treaties.un.org/Pages/showDetails.aspx?objid=08000002800667a7",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "ojs.utlib.ee": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://ojs.utlib.ee/index.php/EAA/article/download/588/573/1294",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "clacs.berkeley.edu": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://clacs.berkeley.edu/node/962",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "difp.ie": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.difp.ie/volume-5/1938/british-irish-tripartite-agreement-on-trade-finance-and-defence/2321/",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "president.ie": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://president.ie/en/the-president/douglas-hyde",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "sorpolen2011.npolar.no": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://sorpolen2011.npolar.no/en/did-you-know/2011-10-23-dronning-maud-land-unexplored-until-recently.html",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "archives.gov": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.archives.gov/milestone-documents/lend-lease-act",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "archivonacional.go.cr": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://www.archivonacional.go.cr/index.php/component/content/article/117-un-momento-con-la-historia/317-mayo-2023?Itemid=437",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "guides.loc.gov": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://guides.loc.gov/brazil-us-relations/brazil-world-war-ii",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "mjp.univ-perp.fr": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://mjp.univ-perp.fr/constit/ma1944.htm",
+   "status": "<urlopen error [SSL: CERTIFICA",
+   "ai_isaret": []
+  },
+  "frihedsmuseet.dk": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://frihedsmuseet.dk/en/knowledge/the-danish-occupation",
+   "status": 200,
+   "ai_isaret": []
+  },
+  "rcahmw.gov.uk": {
+   "n": 1,
+   "alintili": 1,
+   "ornek": "https://rcahmw.gov.uk/images-to-mark-the-seven-hundred-and-fiftieth-anniversary-of-the-treaty-of-montgomery/",
+   "status": 200,
+   "ai_isaret": []
+  }
+ },
+ "websearch_ozeti_beyanli": [
+  "data/kronoloji_cok_ince_kuzey_amerika.js #4 (Treaty 4 — \"arama özeti\")",
+  "data/kronoloji_cok_ince_kuzey_amerika.js #5 (Lewis & Clark — \"arama özetinden okundu\")"
+ ]
+}
