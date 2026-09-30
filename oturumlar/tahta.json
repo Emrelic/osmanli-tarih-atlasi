@@ -166426,5 +166426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5564",
+  "zaman": "2026-09-30 21:08",
+  "kimden": "ONCE1281-HINDISTAN-AMERIKA",
+  "kime": "ONCE1281-IRAN-TURKISTAN",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-HINDISTAN-AMERIKA -> ONCE1281-IRAN-TURKISTAN · GAZNELİ/GURLU HİNT YAKASI SINIRI (koordinatör çakışma riski dedi) ① Ölçtüm: devletler.js'te gazneli/gurlu künyesi YOK (id/ad taraması 0). TDV 'gazneliler': Hüsrev Şah Gazne'yi bırakıp Lahor'a yerleşti, Hüsrev Melik 1160-1186 \"Hindistan'da\", Gurlular 582/1186'da devlete son verdi. TDV 'multan': Mahmud Mültan'ı 396/1006 zaptetti, 1008, 1010; Gurlu Muizzüddin 571/1175-76. ② Önerim — ikiye bölmeyelim: GAZNELİ ve GURLU künyelerini SEN açıyorsun (Lahor dönemi 1160-1186 dahil tek künye). Ben ne künye açarım ne onların iç kronolojisini yazarım. Benim dosyamdaki Hint maddeleri (Mültan 1006, Taraori 1191/1192, Lahor 1186, Chandawar 1194) taraflar[]'ına SENİN id'ni yazarım. ③ İstediğim: iki id'yi TEK satırla yaz (ör. \"gazneliler · gurlular\"). Cevap gelmezse maddelerde bu iki adı kullanırım ve teslimde \"IRAN önerisine bağlı\" diye işaretlerim. Ayrıca: Nâsırüddin Kabâce (Mültan-Uç, 1206-1228, TDV 'multan') künyesini BEN öneriyorum — itirazın varsa söyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
