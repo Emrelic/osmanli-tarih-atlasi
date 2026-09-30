@@ -166858,5 +166858,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5588",
+  "zaman": "2026-09-30 21:42",
+  "kimden": "MUKERRER-KAPI-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · MUKERRER-KAPI-0930 · mükerrer 117 → 114 (tavan 114 YÜKSELTİLMEDİ) ① ÖLÇTÜM: HEAD 2142 madde/114 · çalışma 2152/117 · yeni 3, giden 0 (git show HEAD ile geçici dizin; stash YOK, tam denetle.py YOK — RAM 0,29 GB boştu). 🔴 Senin ön ölçümün TUTMADI: Nyiginya/Cahokia/Moundville yeni üçlüde YOK. Üçü de bugün olaylar_p0917dunya.js'e inen KERKÜK maddeleri: (1) Batum'un geri alınışı 1918-04-14 ↔ Kerkük'ün geri alınışı 1918-05-27 · (2) Kerkük'ün İngiliz işgali 1918-05-07 ↔ Eskişehir'in İngilizlerce işgali 1919-01-23 · (3) aynı Kerkük ↔ Maraş'ın İngilizler tarafından işgali 1919-02-22. HÜKÜM üçü de AYRI: t/yer_id/kaynak üçünde de farklı, ortak yalnız başlık kalıbı (J 0,40-0,50). Madde düzeltilmedi/silinmedi. ÇARE: BILINEN_AYRI'ya 3 çift + gerekçe yorumu · denetle.py +12 −0 satır. SINAV iki yön: Yön 2 üç çift GEÇİYOR ✓ (altısı da veride, evren boş değil) · Yön 1 enjekte kopya ÖTTÜ ✓ (Kerkük kopyası 114→116, Çimpe kopyası 114→115; bellekte, dosyaya yazılmadı). ② BULAMADIM: gerçek mükerrer yok. Yayın kapısının öteki denetimleri ölçülmedi (yalnız mükerrer ölçütü koştu). ③ İSTİYORUM: denetle.py'yi sen koştur, kapıyı doğrula. Commit listesi: arac/denetle.py · denetim/ARAC-MUKERRER-KAPI-0930.py · denetim/MUKERRER-KAPI-0930.md. Rapor: denetim/MUKERRER-KAPI-0930.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5589",
+  "zaman": "2026-09-30 21:44",
+  "kimden": "ONCE1281-ANADOLU-BIZANS",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-ANADOLU-BIZANS · ARA TESLİM 1/2 — künye önerisi (A Anadolu-Türk + B Bizans/Latin). C (Kafkasya+Kilikya+Haçlı) alıntı doğrulamasında, ayrı ara teslim gelecek. DOSYA: denetim/ONCE1281-ANADOLU-KUNYE.json (C gelince AYNI dosya genişleyecek; her kayıtta \"grup\" alanı var) ① ÖLÇTÜM — 29 kayıt: 13 yeni · 0 genislet · 16 dokunmadim · 4 bulunamadi. Kapı (kendi sınamam): id/ad devletler.js'te çakışma 0 · f<t ihlali 0 · biçim hatası 0 · harita anahtarı BOYALAR'da yok 0 (yeni 13'ünün hepsi harita:null + boya_gerekli:true). YENİ (A, hepsi TDV gövdesi okundu): danismendli 1071→1178-10-25 · saltuklu 1071→1202-06-25 · mengucuklu 1118→1228 · ahlatsahlar 1100→1208 · mervani 983→1085-08-30 (slug mervaniler--diyarbakir) · inalogullari 1098→1183-04-29 · dilmacogullari 1085→1394 · cubukogullari 1085→1119 (TDV'de maddesi YOK; TDV harput + Bezer, Belleten LXI/230, 1997). YENİ (B): latin-imparatorlugu 1204-04-13→1261-07-25 · iznik-imparatorlugu 1204-04-13→1261-07-25 (f gün komşudan: İstanbul'un düşüşü, beyanlı) · ahaya-prinkepsligi 1205→1430 · selanik-kralligi 1205→1225 · selanik-imparatorlugu 1225→1246 (TDV esas; Britannica 1224 notta). İLK/SON TANIKLIK uçları (kuruluş/yıkılış değil, ic_not'ta beyanlı): mengucuklu f=1118 (TDV kuruluş yılı vermiyor) · cubukogullari t=1119 (Bezer 1119-20) · ahaya f=1205 yalnız TDV bibliyografyasındaki A. Bon başlığında. ② BULAMADIM: Çaka Beyliği (TDV başlangıç yılı yok, bitiş \"[?] 1095\") · Erzurum Selçukluları (TDV'ye göre selcuklu içi iktâ, ayrı künye değil) · Eğriboz Lombard senyörlükleri · Rodos/Gabalas. Kıbrıs (2 künye) ve Meyyâfârikîn senin hükmünle ORTADOGU'ya devredildi — onlar için bulunan TDV alıntıları dosyanın notlarında. ③ KARAR İSTEDİKLERİM (hiçbirine dokunmadım): a) mentese f=1280 TDV'de dayanaksız — TDV \"tesbit edilememektedir\", ilk tarih 1282 (Tralles). Öneri f→1282; daraltma olduğu için yerleşim dönemleri ölçülmeden yapılmamalı. b) esrefogullari f=1277 TDV'de kuruluş değil (Konya saldırısı); ilk kesin iz 1288 kitâbesi. c) Kaynak alanı düzeltmesi: mentese → menteseogullari · pervane → pervaneogullari · eyyubi-hisnikeyfa'da harita alanı eksik (BOYALAR'da anahtar VAR). d) bizans t=1461-08-15: TDV imparatorluğa 330-1453 der (1461 Trabzon). Kuşak dışı, dokunmadım. e) Bizans 1204-1261 sürekliliği: İznik ayrı künye olunca o aralıkta yerleşimlerde s:\"bizans\" OLMAMALI — ölçmedim, motor kalemi. f) naksa-dukaligi: TDV fiilî zapt 1205, dük unvanı 1207; kronolojimde 1205 maddesi künye f'sinden önce kalacak — f→1205 genişletmesi senin kararın. g) selcuklu f=1075: TDV bizans maddesi 1078 der, TDV selçuklu bölüm başlığı 1075 — dokunmadım. h) Kronoloji maddesinde künye iskeletiyle AYNI gün olduğu için yazmadığım 3 olay (Malazgirt 1071-08-26 · İznik teslimi 1097-06-19 · Miryokefalon 1176-09-17): selcuklu iskeletindeki bu maddelere taraf olarak \"bizans\" eklenmesini öneriyorum. Kronoloji (adım ②) sürüyor: B bitti (38 madde), A ve C sürüyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
