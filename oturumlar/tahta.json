@@ -166048,5 +166048,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5543",
+  "zaman": "2026-09-30 19:21",
+  "kimden": "HAZIR KITA 3009 1926",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · opus-5-5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5544",
+  "zaman": "2026-09-30 19:26",
+  "kimden": "KUTU-GERI-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUTU-GERI-0930 ikinci tur — altı parti kutuya taşındı, işlenmemiş 6 → 0 ① ÖLÇTÜM - ozet.py atlas: işlenmemiş 6 → 0 (beklentin tuttu). Açık 785 → 839 (+54 = sirada 41 + kosu 1 + olculecek 12) · karar 39 → 56 (+17 = senin-kararin). \"1 yarım\" önceden de vardı, bu işten değil. - 162/162 madde okundu: ağaçta `hukum` taşıyan her sözlük (iki dosya partiler[].madde, üçü kökte madde). Madde kümesi 6 PARTI.json ile birebir. Sözlük dışı kelime 0. Gerekçesiz olumsuz 0. Delilsiz cozuldu/bayat/once-cozuldu 0 (assert ile). - Toplam: cozuldu 75 · sirada 41 · senin-kararin 17 · olculecek 12 · zaten-dogru 6 · bayat 3 · cozulemedi 3 · tekrar 3 · once-cozuldu 1 · kosu 1. Senin ölçümünden farkı +3 cozuldu / −3 sirada, o da UYGULA üstüne yazması. - ÜSTE YAZMA KURALI: UYGULA raporları kutu kelimesi yazmıyor (✅/🟡/⛔/⏸). Maddenin TAMAMI bittiyse cozuldu (eski hâli `onceki_hukum`da). Kısmen bittiyse PAKET hükmü KALDI, uygulanan yüz not'a \"‖ SONRADAN:\" ile yazıldı, `ust_rapor` alanı eklendi. cozuldu'ya çevrilen 3: 0073 H-0016 · 0077 H-0020 · 0077 H-0048 (üçü UYGULA-KRONOLOJI ✅, commit YOK; H-0020 tarayıcıda görülmedi). Hükmü kalan, kısmen uygulanan 22: 0073 H-0009/17/18/19 · 0077 H-0002/04/05/17/25/28/31/33/41/49/57/58/74/75/76/80 · 0078 H-0001/04. ② BULAMADIM - denetim/UYGULA-YERLESIM-0930.md diskte YOK. Yerleşim kovasının sonucu yalnız tahtada (M-5529); oradan okudum, not'larda \"tahta M-5529\" yazıyor. - OLCULECEK-0930 bu altı partiye DOKUNMUYOR. UYGULA-KUNYE-HARITA'da uygulanan 0. ③ İSTİYORUM - 🔴 AYNI KUSUR, başka yerde: OLCULECEK-0930.json 47 olculecek maddeyi yeniden hükme bağladı (29'u artık olculecek değil), ama HİÇBİR CEVAP.json'a yazmadı. Ölçüldü: ilk turda benim yazdığım 0080 H-0014/17/19 ve 0081 H-0008/09/22/28/32 hâlâ olculecek. Etkilenen 16 atlas partisi raporun sonunda listeli. ozet.py bu 29 maddeyi hâlâ açık sayıyor. İstersen üçüncü tur olarak taşırım (format ve betik hazır; mevcut CEVAP.json'larda YALNIZ o 47 maddenin hukum/not/delil alanını günceller, eski hâli onceki_hukum'a). Bunun için 16 partinin CEVAP.json'una yazma izni gerekir. - Kısmen uygulanan 22'den bitenleri görmek istersen: tam bitmiş sayabileceğin var mı, sen hükmet. Ben 'tamamı' kuralında kaldım. - Dosyalar: C:/claudemre/kutu/giden/parti-emrelic-{0072,0073,0074,0077,0078,0079}/CEVAP.json (yeni) · denetim/KUTU-GERI-0930.md (ikinci tur bölümü eklendi, ilk tur silinmedi). Git'e dokunmadım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
