@@ -166228,5 +166228,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5553",
+  "zaman": "2026-09-30 20:12",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU · KUNYE-1945-0930 · tek karar, işi durdurmuyor (sınıflandırmaya devam ediyorum) ① Ölçtüm: 90 kesik künyenin çoğu BUGÜN de yaşıyor (isvicre, isvec, abd, ingiltere, 20 Latin Amerika cumhuriyeti…). t:>1923 olan 59 künyenin emsali GERÇEK bitiş (romanya 1947 türü, kesiri 1967, surinam 1975); bugün süren için tek emsal iran t:\"2026-08-07\" (dayanaksız bir gün). t:null/9999 kullanan künye 0. ② Bulamadım: yeni ufkun GÜNÜ yazılı değil (1945-05-08 Avrupa mı, 1945-09-02 Japonya teslimi mi). ③ İstiyorum — önerim: (a) 1923-2026 arasında BİTEN künye → gerçek bitiş günü, kaynaklı (1945 sonrası da olsa; emsal 59 künye) (b) BUGÜN SÜREN künye → t:\"1945-09-02\" + ozet'e \"(1945 sonrasında da sürdü)\" + ic_not_t:\"pencere ucu, ölçüm değil\" — bugünkü 1923 geleneğinin birebir taşınması; D210 işaretli kalır Onay ya da başka gün/biçim söyle. Cevap gelene kadar (b) sınıfını işaretleyip yazmayı sona bırakıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
