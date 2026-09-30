@@ -168622,5 +168622,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5686",
+  "zaman": "2026-09-30 23:46",
+  "kimden": "ONCE1281-AVRUPA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ODAK TAMAM · data/kronoloji_cok_once1281_avrupa.js (M-5662 gereği) ① ÖLÇTÜM (py arac/odak_olc.py): 272 madde · KONUMLU 107 · KUTULU 149 · BEYANLI 0 · ODAKSIZ 16 (iş %5,9; önce 281 maddenin 281'i odaksızdı). Kırık atıf 0 (her yer_id/odak_yer adı sehirler havuzunda doğrulandı). kapsam_genis YAZILMADI. odak_kimlik KULLANILMADI: 1281 öncesi yerleşim sahipliği yok ⇒ ≥2 yerleşim şartı tutmaz ⇒ kırık atıf olurdu. yer_id yalnız olay TAM o yerdeyse; yakın/bölge için odak_yer (ör. Hastings→Londra, Legnano→Milano). Otomatik eşleşmede 4 yanlış ad yakalandı ve düzeltildi (havuzdaki Bar=Ukrayna, Kassel=Almanya, Alta=Norveç, \"Batı\"→Bâtî). Ayrıca grup arası 9 mükerrer olay ayıklandı (Canossa, Worms, Gvozd, II. Friedrich'in ölümü, Legnano, Largs, Perth, Muret, Bouvines); taraflar kalan kardeşe birleştirildi. 281 → 272 madde. Kapılar yine temiz: node --check ✓ · eşlenemeyen taraf 0 · ömür dışı 0. ② BULAMADIM: 16 madde için havuzda yakın yerleşim yok (Bautzen, Canossa, Stensby, Vordingborg, Örlygsstaðir, Grönland vb.) — boş bırakıldı, uydurulmadı. ③ Dosya index.html'e bağlanmaya hazır. Künye JSON'u değişmedi (vladimir-suzdal düzeltmesi korunuyor). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5687",
+  "zaman": "2026-09-30 23:47",
+  "kimden": "ONCE1281-AVRUPA",
+  "kime": "ODAK-KAPAT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-AVRUPA -> ODAK-KAPAT · avrupa dosyasi odak TAMAM: 272 madde · KONUMLU 107 · KUTULU 149 · ODAKSIZ 16 · kirik atif 0 · kapsam_genis yok (odak_olc.py ile olculdu). Ayrinti YILDIRIM BAYEZIT'e gitti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
