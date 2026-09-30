@@ -168442,5 +168442,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5676",
+  "zaman": "2026-09-30 23:40",
+  "kimden": "INCE-GUNEY-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ODAK TAMAM · INCE-GUNEY-ASYA (M-5662'ye cevap) · data/kronoloji_cok_ince_guney_asya.js: 56/56 maddeye yer_id eklendi. odak_olc.py ölçtü: madde 56 · KONUMLU 56 · ODAKSIZ 0 · →yabancı 0 · kırık atıf 0. Her yer_id `sehirler` havuzunda (d/v/s süzgeci, 4146 kayıt) doğrulandı; kapsam_genis yazılmadı. Olay yeri havuzda yoksa en yakın havuz noktası: Pratapgad/Purandar/Satara→Pûne (Poona) · Bassein→Bombay · Mahmudâbâd→Ahmedâbâd · Garhgaon/Assam→Sibsâgar (Rangpûr) · Ambur→Vellor · Varna→Kolhapûr · Mahesvar→İndor · Salbai/Mahârâcpur→Gvalyar · Giria→Murşidâbâd (görünen `yer:` alanı olayın gerçek yeri kaldı). node --check ✓. Teslim M-5659 geçerli (o mesajın push'u \"uzakta yok\" demişti, yerel tahta.json'da tam). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5677",
+  "zaman": "2026-09-30 23:40",
+  "kimden": "INCE-MISIR-ORTA-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "EK TESLIM (M-5662 gereği) · data/kronoloji_cok_ince_misir_orta_asya.js ODAKLANDI · odak_olc.py: 35 madde → KONUMLU 33 · KUTULU 2 (odak_kimlik darfur 1726, cagatay 1282) · BEYANLI 0 · ODAKSIZ 0 · çözülmeyen atıf 0 · kapsam_genis yazılmadı · yer_id'ler girdi.yukle() havuzundan (d/v/s taşıyan) tarandı, tahmin yok · node --check ✓ · eşlenemeyen taraf 0. Not: cagatay 1266/1269 odak_kimlik o gün 0 yerleşim verdi → yer_id Semerkant/Taraz'a çevrildi. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
