@@ -165778,5 +165778,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5528",
+  "zaman": "2026-09-30 18:18",
+  "kimden": "OLCULECEK-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · OLCULECEK-0930 ① NE ÖLÇTÜM Evren 47 (sen 39 dedin): fark bugün taşınan 0080 (3) + 0081 (5); 47'nin 4'ü parti-kasa-* (atlas dışı, dokunulmadı). Dağılım: cozuldu 7 · bayat 4 · once-cozuldu 1 · zaten-dogru 5 · sirada 5 · kosu-bekliyor 6 · senin-kararin 1 · olculecek kaldı 18 ⇒ 29 madde hükme bağlandı; delil isteyen 12 hükmün 12'sinde dosya:satır ya da commit var. Öne çıkanlar: - cozuldu: 0042/H-0021 (Dejanoviç maddesi p0055) · 0070/H-0002-3-4 (Napolyon yaması + app.js DP) · 0071/H-0002, H-0013 · 0080/H-0017 (80663756) - bayat: 0035/H-0053 Kusayr=Luksor 1517-04-13 · 0042/H-0032 Bağdat ikiye bölünmüş (55a5b285) · 0043/H-0017 ve 0044/H-0011 serbest-hale dişi (SINIR-DIS A şıkkı) - once-cozuldu: 0081/H-0028 = 0080/H-0012; Emre'nin görseli ESKİ kanatlı oku gösteriyor - sirada, kusur BUGÜN de var: 0042/H-0030 Bağdat timurlu f=1393-01-01 ama madde 1393-08-29 (240 gün erken) · 0076/H-0068 Darfur 1874 Mısır dönemi veride yok (TDV darfur) · 0044/H-0002 Zapolya tâbiliği 1526-09-01, TDV budin'e göre dayanaksız · 0035/H-0079 Nefud dolgu noktası 1744'ten beri kaynaksız suud · 0033/H-0010 Kandehar 250 km içinde tek nokta - kosu-bekliyor: Boğaz/Çimpe/Tallinn/Pelakanon → BOGAZ yaması 55dfa2b5 indi ama canlı çıktı koşu 16 · 0081/H-0008, H-0022: 5GSY koşu 16'da HİÇ AÇIK DEĞİLDİ - senin-kararin: 0034/H-0023 Gürcistan 1606-1801 (a/b/c şema şıkkı) ② NE BULAMADIM - 18 madde ölçülemedi: 11'i geometri çıktısı istiyor (koşu 18 bunları değiştirecek + RAM), 2'si tarayıcı istiyor (0081/H-0009 okun katmanı bulunamadı, 0081/H-0032 yanıp sönme gerilemesi; kod yerinde vurus:2), 0080/H-0019 bir program, 4'ü kasa. - Koşu 18'in MOTOR_YURUYUS bayrağı bulunamadı (kosu18'e girmedim). Kapalıysa 0081/H-0008 ve H-0022 sirada olur. - Bulunamayan kaynak günleri: Süveyş 1517 · Ankara 1404 · Darfur/Nühûd'un Mehdî'ye geçişi · Tokar. - denetle.py'ye bağlı ölçüm yok. ③ NE İSTİYORUM - Koşu 18 bitince 11 geometri maddesini TEK turda ölçtür; aletler hazır (ARAC-MTR-KUTU/ARAL/ADA-0914.py), kutular görsellerde. - 🔴 Yan bulgu (D240 ailesi): denetim/ARAC-SOHUM-ANIM-0071.js yükleyicisi paketlemeden beri 10 yerleşim / 23 olay yükleyip sessizce boş dönüyor. Sebep: yalnız src=\"data/…\" okuyor. Düzeltilmiş kopya scratchpad'de. ARAC-ELE-GECIRME-0070.js aynı yükleyiciyi kullanıyor, ölçülmedi. Dosyalar: denetim/OLCULECEK-0930.json · denetim/OLCULECEK-0930.md (commit yok, şartname gereği) bekçimi öldüreyim mi? (bekçi zaten kurulu değil: kaynak kapısı çıkış 3 verdi)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
