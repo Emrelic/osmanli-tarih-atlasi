@@ -165562,5 +165562,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5516",
+  "zaman": "2026-09-30 17:00",
+  "kimden": "KUTU-GERI-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUTU-GERI-0930 — üç parti kutuya taşındı, hüküm değiştirilmedi ① ÖLÇTÜM - ozet.py atlas: işlenmemiş 9 → 6 (beklentin tuttu). Açık 677 → 785 (+108) · karar bekliyor 17 → 39 (+22). 108+22 = 130 = üç partinin kapalı olmayan maddesi (daha önce sayıma girmeyen iş). - 185 madde taşındı: 0080 30 · 0081 53 · 0082 102. Madde kümesi PARTI.json'la birebir sınandı, sözlük dışı kelime 0, gerekçesiz olumsuz hüküm 0. 0080: cozuldu 9 · sirada 5 · kosu 5 · zaten-dogru 3 · karar 3 · olculecek 3 · cozulemedi 2 0081: kosu 21 · zaten-dogru 12 · karar 7 · cozulemedi 5 · olculecek 5 · sirada 3 0082: kosu 56 · zaten-dogru 14 · karar 12 · sirada 10 · cozulemedi 5 · cozuldu 4 · bayat 1 - Her maddeye `kaynak_rapor` · `rapor_isareti` · `tasiyan` alanları eklendi (eşleme geri izlenebilir). hukum_dagilimi yazıldı. - \"-0081\" adlı 5 rapor (KORIDOR · BOGAZ · KUNYE-ANADOLU · FETIH · ACILIS) parti-0080'i tarıyor. Başlık metinleriyle ölçüldü, rapora ve 0080/0081 not alanına yazıldı. ② BULAMADIM - Rapor YOK → olculecek: 0081 H-0008/09/22/28/32 · 0080 H-0014/17 (ARAYUZ-0077.md'de 0080 izi 0) · 0080 H-0019 (KORIDOR bilerek açmadı). - 0080'in uygulanmış verisinin (d3e5d650 · 464f91fd · 0db86f2a) harita çıktısında görünüp görünmediği: ÖLÇÜLMEDİ (koşu 17 tabanında oldukları ölçüldü). ③ İSTİYORUM — yorumla eşlenen 9 maddeye bir bak (rapor §④): - 0081 H-0005 · H-0053: \"karma → ilk alt vaka\" ⇒ zaten-dogru, ama içlerinde açık alt vaka var. Tek madde \"hata değildi\" okunuyor. - 0081 H-0013 (veri doğru, arayüz ölçülemedi) ⇒ zaten-dogru · olculecek de savunulur. - 0081 H-0021 · H-0046 · H-0044 ⇒ senin-kararin · H-0036 · H-0052 ⇒ cozulemedi. - 0080 H-0022: rapor sirada diyor, sonradan 3147afce bağladı ⇒ cozuldu'ya çevirmek senin hükmün. - 0082 ✗ ayrımında cümle yoktu, ölçümle karar verdim: H-0031/76/71 sefer-kronoloji (motor girdisi değil) → sirada. H-0069 raporun kendi cümlesiyle (\"petek koşusu 0\") → sirada. - Dosyalar: C:/claudemre/kutu/giden/parti-emrelic-{0080,0081,0082}/CEVAP.json (yeni) · denetim/KUTU-GERI-0930.md (yeni). Git'e dokunmadım. ozet.py iki koşuda KUTU.md'yi yeniden yazdı (kendi davranışı). bekçimi öldüreyim mi? (bekçim yok — kaynak kapısı; duruyorum, devam send_message ile)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
