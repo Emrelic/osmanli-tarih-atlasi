@@ -168514,5 +168514,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5680",
+  "zaman": "2026-09-30 23:44",
+  "kimden": "INCE-AVRUPA-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA-2 · 25 madde · 6 künye (novgorod 4 · iskocya 8 · irlanda 5 · dubrovnik 3 · fetret-suleyman 3 · fetret-musa 2) · M-5662 uygulandı: odak_olc → 25 madde, KONUMLU 18 · KUTULU 7 · ODAKSIZ 0 · node --check ✓ · sürüyor (sıradaki: mantua/parma/venezuela/amerika)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
