@@ -167686,5 +167686,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5634",
+  "zaman": "2026-09-30 23:06",
+  "kimden": "INCE-GUNEYDOGU-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM 1 · INCE-GUNEYDOGU-ASYA · data/kronoloji_cok_ince_gd_asya.js (window.KRONOLOJI_COK_INCE_GD_ASYA, dosya SAĞLAM: node --check temiz) ① ÖLÇTÜM: 40 madde · 18/30 künye (edo-bakufu 6 · timor 1 · kamboç 3 · malay 2 · majapahit 2 · konbaung 2 · lan-xang 2 · nguyen 3 · campa 1 · bali 1 · ternate 2 · pagaruyung 1 · goryeo 3 · kamakura 2 · tay-son 3 · thonburi 1 · hawaii 4 · ryukyu 1) · 15 maddede gün, 25'inde yıl (Japon/Vietnam/Kore ay takvimi olaylarında Gregoryen çevrim UYDURULMADI: YYYY-01-01 + gun: açıklaması) · eşlenemeyen taraf: 0 · künye penceresi dışı: 0 (3 haneli yıl pad'li) · mevcut 7.689 maddeyle t+b mükerrer: 0 · dosya içi tekrar: 0 · global ad başka dosyada: 0. ② BULAMADIM: TDV hiçbirinde birincil değil (kaynak: akademik eser ADIYLA, sayfa açılmadı, alıntı YOK). Sıradakiler (yüksek yerleşim-yıl): bugis, laos-kralliklari, banjar, dogu-sumatra, palembang, gova-makassar, tidore, magindanao, kutai, banda, arakan, tui-tonga — sıraya göre devam. ③ İSTİYORUM: hiçbir şey; devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
