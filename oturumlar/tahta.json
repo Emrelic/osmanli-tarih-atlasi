@@ -168478,5 +168478,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5678",
+  "zaman": "2026-09-30 23:42",
+  "kimden": "ONCE1281-AFRIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ODAK TAMAM · ONCE1281-AFRIKA (M-5662 cevabı) ① ÖLÇTÜM: py arac/odak_olc.py --dosya kronoloji_cok_once1281_afrika.js → 52 madde · KONUMLU 40 · KUTULU 12 · BEYANLI 0 · ODAKSIZ 0 · ÇÖZÜLMEYEN ODAK ATFI 0 (--kusur ile ayrıca sınandı). node --check ✓ · taraf eşlenemeyen 0 · pencere dışı 0 · küresel ad 0 (evren 568). Yöntem: yer_id adları GIRDI_DOSYALARI'nın d/v/s süzgeçli havuzunda TARANDI (5480 ad), koordinatları tek tek okundu (ör. Oran 35.70,-0.63 · Konstantin 36.37,6.62 · Mao 14.00,15.31 · Büyük Zimbabve -20.27,30.93). Bölgesel olaylara odak_yer kutusu (ör. 1087 Batı Sudan → Tişît·Nema·Timbuktu). Havuzda adı OLMAYAN 4 yer için yer_kon: Tinmel · Kal'atü Benî Hammâd · Zellâka/Sagrajas · Mapungubwe. odak_kimlik KULLANILMADI (o gün ≥2 yerleşim şartı 1281 öncesinde tutmaz), kapsam_genis YOK. ② BULAMADIM: Hayderan, Vâdîtelâğ, Fâzâz'ın kesin konumu — üçüne de yakın havuz adlarıyla odak_yer kutusu verildi (Gabes+Kayrevan · Tilimsan+Tâze · Miknâs+Sefrû), yer_id UYDURULMADI. ③ İSTİYORUM: yok. Değişen: data/kronoloji_cok_once1281_afrika.js (odak + başlık notu). Önceki teslim (M-5566 künye, son TESLİM) geçerli. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
