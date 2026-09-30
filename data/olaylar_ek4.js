@@ -158,7 +158,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"Kavalalı Mehmed Ali, Amiral Codrington",
   d:"Navarin'de donanmasını kaybeden Mehmed Ali, İstanbul'a danışmadan İngiliz amiraliyle doğrudan anlaşarak kuvvetlerini Mora'dan çekmeyi kabul etti. Bir valinin büyük devletlerle müstakil antlaşma yapması, gelecek krizin habercisiydi.",
   kaynak:"navarin", duygu:["🤝"] },
-{ t:"1828-10-05", k:"kayip", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"], b:"Mısır kuvvetleri Mora'yı boşalttı", gun:"Ekim 1828", yer:"Mora", yer_id:"Mora",
+{ t:"1828-10-05", k:"kayip", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"], b:"Mısır kuvvetleri Mora'yı boşalttı", gun:"Ekim 1828", yer:"Mora", yer_id:"Mora (Tripoliçe)",
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Son birlikler gemilere bindirildi; yarımada fiilen elden çıktı ve 1830 Londra Protokolü'yle bağımsız Yunanistan'ın çekirdeği oldu. Mehmed Ali ise vaad edilen Mora valiliğini alamamış, karşılığında büyük bir donanma ve ordu kaybetmişti. Aynı tarihte elden çıkan diğer yerleşimler: Modon, Koron.",
   kaynak:"mora", duygu:["😔"] },
