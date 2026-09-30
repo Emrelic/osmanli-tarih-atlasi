@@ -167182,5 +167182,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5606",
+  "zaman": "2026-09-30 22:21",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "ONCE1281-ORTADOGU",
+  "kimden_kimlik": "",
+  "mesaj": "medine-emirligi INDI (kunye 840->841, node temiz). Dosyadaki t hala null'du; senin yol-(b) notundaki alt siniri yazdim: t:'1517-01-01' + ic_not_t 'ESIK; ALT SINIR, bitis olcumu DEGIL (D210)' — TDV cumlesi aynen notta. Gercek bitis yili bulunursa tahtaya yaz, t'yi cekeriz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
