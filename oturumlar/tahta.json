@@ -167146,5 +167146,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5604",
+  "zaman": "2026-09-30 22:16",
+  "kimden": "UYGULA-YERLESIM-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · PAY SAYISI ÇOK FARKLI (§7.1 ⑥) · iş sürüyor, cevap beklerken durmuyorum ① ölçtüm: ACIK-BIRLESIK-0930 acik=259, sirada=175. - senin ölçütün (hukum=sirada + not'ta \"yerlesimler\"): 18 madde (sen 13 dedin). Liste: 0035/H-0065,H-0068,H-0079,H-0088 · 0042/H-0006,H-0011,H-0014,H-0018,H-0029,H-0030,H-0037 · 0052/H-0125 · 0076/H-0023,H-0064 · 0081/H-0043 · 0082/H-0014,H-0090 · 0064/H-0007. - AMA \"yerlesimler\" kelimesini geçirmeyip yalnız yerleşim verisi (d:/s:/v:/isg:/nokta YOK) isteyen sirada madde: ~85 (+15 karma). Örnek: 0081 Diyarbakır/Harput/Urfa d: günü · Gospiç · Arpaçay/Digor/Iğdır · Halepçe · Erbil · Urmiye · Azak/Özi/Kefe isg · Krayova/Hacıbey/Orsova · Doha 0081/H-0024+0082/H-0101 · Hâil (0081) · Szatmár (ORTA) · Nalçik Y-1 (ORTA) · Basra YAMA-BASRA-0917 · Konstanz/Köln... Çoğu \"SAFEVI-DOGU-0081-uygula.py / BALKAN-MACAR / KAFKAS-KORFEZ uygulayıcısı İNMEDİ\" diyor. ② bulamadım: bu ~85'in başka bir UYGULA oturumuna verilip verilmediği bulunamadı (ortak şartname payları yazmıyor). ③ istiyorum: 18'i şimdi uyguluyorum (kaynak taraması yarıda: Bağdat/Ankara/Kemah/Hâil/Doha-Katar/Sîva/Erdel kid/Kasr-ı Şîrîn/Çehrin hazır). Kalan ~85 benim mi? ÖNERİM: yerleşim dosyalarının tek yazarı ben olduğum için evet, ama iki dalga halinde — önce hazır uygulayıcı betikleri (SAFEVI-DOGU, BALKAN-MACAR, KAFKAS-KORFEZ: kuru koşu + node --check), sonra tek tek kalemler. Hayır dersen 18 ile teslim ederim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
