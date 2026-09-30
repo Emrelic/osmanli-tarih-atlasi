@@ -1,0 +1,10997 @@
+{
+ "olcum": "TDV-SLUG-HARITA-0930",
+ "evren": 295,
+ "olculen": 295,
+ "sure_sn": 1137,
+ "hukum_dagilimi": {
+  "KAPSAYICI": 63,
+  "BELIRSIZ": 161,
+  "VAR": 37,
+  "AD-MADDESI": 27,
+  "YANLIS?": 7
+ },
+ "kunyeler": [
+  {
+   "id": "mossi-vagadugu",
+   "ad": "Mossi Krallığı (Vagadugu)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 1847,
+   "sira": 41,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "burkina-faso"
+   ],
+   "baslik": [
+    "BURKİNA FASO"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mossi-vagadugu",
+    "mossi-kralligi",
+    "mossi",
+    "mossiler",
+    "vagadugu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mossi": 7
+   },
+   "hukum_slug": [
+    "burkina-faso"
+   ]
+  },
+  {
+   "id": "nguyen-hanedani",
+   "ad": "Nguyễn Hanedanı (Vietnam)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1835,
+   "sira": 42,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nguyen-hanedani",
+    "nguyen",
+    "nguyenlar",
+    "nguyenler",
+    "vietnam",
+    "hue"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nguyễn": 0,
+    "nguyen": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Nguyễn",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "nguyen",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Vietnam",
+     "n": 1,
+     "ilk": [
+      [
+       "camlar",
+       "ÇAMLAR"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "nyamvezi",
+   "ad": "Nyamvezi Şeflikleri (Unyanyembe · Mirambo)",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 1830,
+   "sira": 43,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tanzanya"
+   ],
+   "baslik": [
+    "TANZANYA"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nyamvezi",
+    "nyamvezi-seflikleri",
+    "nyamveziler",
+    "unyanyembe-mirambo",
+    "tabora"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nyamvezi": 0
+   },
+   "hukum_slug": [
+    "tanzanya"
+   ]
+  },
+  {
+   "id": "benin-kralligi",
+   "ad": "Benin Krallığı (Nijerya)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 1813,
+   "sira": 44,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "nijerya"
+   ],
+   "baslik": [
+    "NİJERYA"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "benin",
+     "baslik": "BENİN",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "benin-kralligi",
+    "beninler",
+    "benin-sehri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Benin": 53
+   },
+   "hukum_slug": [
+    "nijerya"
+   ],
+   "elle_not": "BENİN bugünkü Benin Cumhuriyeti — Nijerya'daki Benin Krallığı DEĞİL"
+  },
+  {
+   "id": "campa",
+   "ad": "Champa Krallığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1734,
+   "sira": 45,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "campa",
+    "champa-kralligi",
+    "champa",
+    "champalar",
+    "campalar",
+    "vijaya-panduranga"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Champa": 15
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Champa",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "artuklu",
+   "ad": "Artukoğulları (Artuklu Beyliği)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 1726,
+   "sira": 46,
+   "hukum": "VAR",
+   "canli_slug": [
+    "artuklular",
+    "hasankeyf",
+    "mardin",
+    "harput"
+   ],
+   "baslik": [
+    "ARTUKLULAR",
+    "HASANKEYF",
+    "MARDİN",
+    "HARPUT"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici",
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "artuklu",
+    "artukogullari",
+    "artuklu-beyligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "artuklular"
+   ]
+  },
+  {
+   "id": "afsar",
+   "ad": "Afşar Devleti (Nadir Şah)",
+   "bolge": "iran",
+   "yerlesim_yil": 1721,
+   "sira": 47,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "afsar",
+    "meshed"
+   ],
+   "baslik": [
+    "AFŞAR",
+    "MEŞHED"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "afsar-devleti",
+    "afsarlar",
+    "nadir-sah"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Afşar": 82
+   },
+   "hukum_slug": [
+    "afsar"
+   ]
+  },
+  {
+   "id": "bali-kralliklari",
+   "ad": "Bali Krallıkları (Gelgel, Klungkung, Karangasem)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1701,
+   "sira": 48,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "bali",
+     "baslik": "BÂLÎ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "bali-kralliklari",
+    "baliler",
+    "kralliklari",
+    "gelgel",
+    "klungkung",
+    "karangasem",
+    "gelgel-klungkung"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bali": 438
+   },
+   "hukum_slug": [],
+   "elle_not": "BÂLÎ ≠ Bali adası",
+   "baslik_arama": [
+    {
+     "q": "Bali",
+     "n": 5,
+     "ilk": [
+      [
+       "bali-sultan",
+       "BALI SULTAN"
+      ],
+      [
+       "bali",
+       "BÂLÎ بالي"
+      ],
+      [
+       "bali-bey-camii",
+       "BÂLÎ BEY CAMİİ"
+      ],
+      [
+       "bali-bey-hani",
+       "BÂLÎ BEY HANI"
+      ],
+      [
+       "bali-efendi-sarhos",
+       "BÂLÎ EFENDİ, Sarhoş"
+      ]
+     ]
+    },
+    {
+     "q": "Gelgel",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "bali-sultan",
+     "baslik": "BALI SULTAN"
+    },
+    {
+     "slug": "bali",
+     "baslik": "BÂLÎ بالي"
+    },
+    {
+     "slug": "bali-bey-camii",
+     "baslik": "BÂLÎ BEY CAMİİ"
+    },
+    {
+     "slug": "bali-bey-hani",
+     "baslik": "BÂLÎ BEY HANI"
+    },
+    {
+     "slug": "bali-efendi-sarhos",
+     "baslik": "BÂLÎ EFENDİ, Sarhoş"
+    }
+   ]
+  },
+  {
+   "id": "dacu",
+   "ad": "Dâcû (Daju) Hanedanlığı",
+   "bolge": "misir-sudan",
+   "yerlesim_yil": 1666,
+   "sira": 49,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dacu",
+    "dacu-hanedanligi",
+    "dacular",
+    "daju"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dâcû": 4
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dâcû",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "dacu",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Daju",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "vaday",
+   "ad": "Vaday Sultanlığı",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 1647,
+   "sira": 50,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "cad",
+    "veday"
+   ],
+   "baslik": [
+    "ÇAD",
+    "VEDÂY"
+   ],
+   "canli_tur": [
+    "atif",
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "vaday",
+    "vaday-sultanligi",
+    "vadaylar",
+    "abese"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Vaday": 0
+   },
+   "hukum_slug": [
+    "cad",
+    "veday"
+   ],
+   "elle_not": "VEDÂY = Vaday sultanlığı (yazım farkı)"
+  },
+  {
+   "id": "ternate-sultanligi",
+   "ad": "Ternate Sultanlığı (Moluk)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1635,
+   "sira": 51,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ternate-sultanligi",
+    "ternate",
+    "ternateler",
+    "moluk"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ternate": 6
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ternate",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Moluk",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "sirvansah",
+   "ad": "Şirvanşahlar",
+   "bolge": "kafkasya",
+   "yerlesim_yil": 1600,
+   "sira": 52,
+   "hukum": "VAR",
+   "canli_slug": [
+    "sirvansahlar"
+   ],
+   "baslik": [
+    "ŞİRVANŞAHLAR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sirvansah",
+    "samahi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "sirvansahlar"
+   ]
+  },
+  {
+   "id": "karaman",
+   "ad": "Karamanoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 1590,
+   "sira": 53,
+   "hukum": "VAR",
+   "canli_slug": [
+    "karaman",
+    "karamanogullari",
+    "larende"
+   ],
+   "baslik": [
+    "KARAMAN",
+    "KARAMANOĞULLARI",
+    "LÂRENDE"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "karamanlar",
+    "ermenek-konya"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "karamanogullari"
+   ]
+  },
+  {
+   "id": "pagaruyung",
+   "ad": "Pagaruyung (Minangkabau) Krallığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1550,
+   "sira": 54,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pagaruyung",
+    "pagaruyung-kralligi",
+    "pagaruyunglar",
+    "minangkabau"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Pagaruyung": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Pagaruyung",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Minangkabau",
+     "n": 1,
+     "ilk": [
+      [
+       "pedriler",
+       "PEDRİLER"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "merina-oncesi",
+   "ad": "İmerina Krallıkları (Merina birleşmesi öncesi)",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 1518,
+   "sira": 55,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "madagaskar"
+   ],
+   "baslik": [
+    "MADAGASKAR"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "merina-oncesi",
+    "imerina-kralliklari",
+    "imerina",
+    "imerinalar",
+    "kralliklari",
+    "merina",
+    "merinalar",
+    "merina-birlesmesi-oncesi",
+    "ambohimanga"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İmerina": 0
+   },
+   "hukum_slug": [
+    "madagaskar"
+   ]
+  },
+  {
+   "id": "nahua-sehir-devletleri",
+   "ad": "Nahua Şehir-Devletleri (Altepetl'ler)",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 1477,
+   "sira": 56,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nahua-sehir-devletleri",
+    "nahua-devletleri",
+    "nahua",
+    "nahualar",
+    "devletleri",
+    "altepetl-ler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nahua": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Nahua",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Altepetl'ler",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "muzafferi",
+   "ad": "Muzafferî Hanedanı",
+   "bolge": "iran",
+   "yerlesim_yil": 1471,
+   "sira": 57,
+   "hukum": "VAR",
+   "canli_slug": [
+    "muzafferiler",
+    "siraz"
+   ],
+   "baslik": [
+    "MUZAFFERÎLER",
+    "ŞÎRAZ"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "muzafferi",
+    "muzafferi-hanedani"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "muzafferiler"
+   ]
+  },
+  {
+   "id": "goryeo",
+   "ad": "Goryeo Hanedanı (Kore)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 1448,
+   "sira": 58,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "goryeo",
+    "goryeo-hanedani",
+    "goryeolar",
+    "kore",
+    "kaesong"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Goryeo": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Goryeo",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Kore",
+     "n": 1,
+     "ilk": [
+      [
+       "kore-cumhuriyeti",
+       "KORE CUMHURİYETİ"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": [
+    {
+     "slug": "kore-cumhuriyeti",
+     "baslik": "KORE CUMHURİYETİ"
+    }
+   ],
+   "hukum_elle": "KAPSAYICI",
+   "elle_not": "başlık aramasıyla: yalnız KORE CUMHURİYETİ ülke maddesi"
+  },
+  {
+   "id": "gucerat-sultanligi",
+   "ad": "Gucerât Sultanlığı",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 1444,
+   "sira": 59,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "gucerat",
+    "ahmedabad"
+   ],
+   "baslik": [
+    "GUCERÂT",
+    "AHMEDÂBÂD"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gucerat-sultanligi",
+    "guceratlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gucerât": 174
+   },
+   "hukum_slug": [
+    "gucerat"
+   ]
+  },
+  {
+   "id": "nogay",
+   "ad": "Nogay Ordası",
+   "bolge": "sibirya-bozkir",
+   "yerlesim_yil": 1418,
+   "sira": 60,
+   "hukum": "VAR",
+   "canli_slug": [
+    "nogaylar"
+   ],
+   "baslik": [
+    "NOGAYLAR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nogay",
+    "nogay-ordasi",
+    "ordasi",
+    "bozkirda-gocebe",
+    "sabit-baskent-yok"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "nogaylar"
+   ]
+  },
+  {
+   "id": "bicapur",
+   "ad": "Âdilşâhî Sultanlığı (Bîcâpûr)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 1361,
+   "sira": 61,
+   "hukum": "VAR",
+   "canli_slug": [
+    "bicapur",
+    "adilsahi",
+    "adilsahiler"
+   ],
+   "baslik": [
+    "BÎCÂPÛR",
+    "ÂDİLŞÂHÎ",
+    "ÂDİLŞÂHÎLER"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "adilsahi-sultanligi",
+    "bicapurlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "adilsahiler"
+   ]
+  },
+  {
+   "id": "lunda-imparatorlugu",
+   "ad": "Lunda İmparatorluğu",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 1332,
+   "sira": 62,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "lunda-imparatorlugu",
+    "lunda",
+    "lundalar",
+    "musumba"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Lunda": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Lunda",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "creek-konfederasyonu",
+   "ad": "Creek (Mvskoke) Konfederasyonu",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 1286,
+   "sira": 63,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "creek-konfederasyonu",
+    "creek",
+    "creekler",
+    "mvskoke"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Creek": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Creek",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Mvskoke",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tuareg-accer",
+   "ad": "Kel Accer Tuareg Konfederasyonu",
+   "bolge": "kuzey-afrika",
+   "yerlesim_yil": 1260,
+   "sira": 64,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tuareg"
+   ],
+   "baslik": [
+    "TUAREG"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tuareg-accer",
+    "kel-accer-tuareg-konfederasyonu",
+    "kel-accer-tuareg",
+    "kel",
+    "keller",
+    "tuaregler",
+    "canet"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kel": 7000
+   },
+   "hukum_slug": [
+    "tuareg"
+   ]
+  },
+  {
+   "id": "kibris-krallik",
+   "ad": "Kıbrıs Krallığı (Lüzinyan)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 1249,
+   "sira": 65,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "kibris"
+   ],
+   "baslik": [
+    "KIBRIS"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kibris-krallik",
+    "kibris-kralligi",
+    "kibrislar",
+    "kibrisler",
+    "luzinyan",
+    "lefkosa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kıbrıs": 454
+   },
+   "hukum_slug": [
+    "kibris"
+   ],
+   "elle_not": "KIBRIS ada maddesi"
+  },
+  {
+   "id": "herero",
+   "ad": "Herero Halkı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 1246,
+   "sira": 66,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "herero",
+    "herero-halki",
+    "hererolar",
+    "okahandja"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Herero": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Herero",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tuareg-ahaggar",
+   "ad": "Kel Ahaggar Tuareg Konfederasyonu",
+   "bolge": "kuzey-afrika",
+   "yerlesim_yil": 1243,
+   "sira": 67,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tuareg"
+   ],
+   "baslik": [
+    "TUAREG"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tuareg-ahaggar",
+    "kel-ahaggar-tuareg-konfederasyonu",
+    "kel-ahaggar-tuareg",
+    "kel",
+    "keller",
+    "tuaregler",
+    "tamanrasset"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kel": 7000
+   },
+   "hukum_slug": [
+    "tuareg"
+   ]
+  },
+  {
+   "id": "antandroy",
+   "ad": "Antandroy ve Bara Halkları",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 1238,
+   "sira": 68,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "madagaskar"
+   ],
+   "baslik": [
+    "MADAGASKAR"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "antandroy",
+    "antandroy-ve-bara-halklari",
+    "antandroy-bara",
+    "antandroylar",
+    "bara"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Antandroy": 0
+   },
+   "hukum_slug": [
+    "madagaskar"
+   ]
+  },
+  {
+   "id": "jukun-kvararafa",
+   "ad": "Kvararafa (Jukun) Krallığı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 1238,
+   "sira": 69,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "jukun-kvararafa",
+    "kvararafa-kralligi",
+    "kvararafa",
+    "kvararafalar",
+    "jukun",
+    "jukunlar",
+    "vukari"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kvararafa": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kvararafa",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Jukun",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kaonde-ila",
+   "ad": "Kaonde ve İla Halkları",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 1238,
+   "sira": 70,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "ila",
+     "baslik": "ÎLÂ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "kaonde-ila",
+    "kaonde-ve-ila-halklari",
+    "kaonde",
+    "kaondeler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kaonde": 0
+   },
+   "hukum_slug": [],
+   "elle_not": "ÎLÂ Arapça edat/terim",
+   "baslik_arama": [
+    {
+     "q": "Kaonde",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bunyoro",
+   "ad": "Bunyoro-Kitara Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 1237,
+   "sira": 71,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "uganda"
+   ],
+   "baslik": [
+    "UGANDA"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bunyoro",
+    "bunyoro-kitara-kralligi",
+    "bunyoro-kitara",
+    "bunyorolar",
+    "kitara",
+    "hoima"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bunyoro": 2
+   },
+   "hukum_slug": [
+    "uganda"
+   ]
+  },
+  {
+   "id": "borgu",
+   "ad": "Borgu Bariba Krallıkları (Nikki · Busa)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 1234,
+   "sira": 72,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "borgu",
+    "borgu-bariba-kralliklari",
+    "borgular",
+    "kralliklari",
+    "nikki-busa",
+    "nikki"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Borgu": 9
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Borgu",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Nikki",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "fipa-nyakyusa",
+   "ad": "Fipa ve Nyakyusa Halkları",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 1220,
+   "sira": 73,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "fipa-nyakyusa",
+    "fipa-ve-nyakyusa-halklari",
+    "fipa",
+    "fipalar",
+    "nyakyusa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Fipa": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Fipa",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "arakan",
+   "ad": "Arakan (Mrauk U) Krallığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1215,
+   "sira": 74,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "arakan"
+   ],
+   "baslik": [
+    "ARAKAN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "arakan-kralligi",
+    "arakanlar",
+    "mrauk-u"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Arakan": 9
+   },
+   "hukum_slug": [
+    "arakan"
+   ]
+  },
+  {
+   "id": "nijer-deltasi",
+   "ad": "Nijer Deltası Şehir Devletleri (Kalabar · Bonny)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 1207,
+   "sira": 75,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "nijer"
+   ],
+   "baslik": [
+    "NİJER"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nijer-deltasi",
+    "nijer-deltasi-sehir-devletleri",
+    "nijer-deltasi-devletleri",
+    "nijerler",
+    "devletleri",
+    "kalabar-bonny",
+    "eski-kalabar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nijer": 129
+   },
+   "hukum_slug": [
+    "nijer"
+   ],
+   "elle_not": "NİJER ülke/nehir maddesi"
+  },
+  {
+   "id": "payut",
+   "ad": "Payut (Paiute)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 1182,
+   "sira": 76,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "payut",
+    "payutlar",
+    "paiute",
+    "bishop"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Payut": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Payut",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Paiute",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "hayda",
+   "ad": "Hayda",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 1155,
+   "sira": 77,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hayda",
+    "haydalar",
+    "skidegate"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Hayda": 1543
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hayda",
+     "n": 5,
+     "ilk": [
+      [
+       "haydar",
+       "HAYDAR حيدر"
+      ],
+      [
+       "haydar-kutbuddin",
+       "HAYDAR, Kutbüddin قطب الدين حيدر"
+      ],
+      [
+       "haydar-ali-han",
+       "HAYDAR ALİ HAN"
+      ],
+      [
+       "haydar-el-amuli",
+       "HAYDAR el-ÂMÜLÎ حيدر الآملي"
+      ],
+      [
+       "haydar-bammat",
+       "HAYDAR BAMMAT"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "haydar",
+     "baslik": "HAYDAR حيدر"
+    },
+    {
+     "slug": "haydar-kutbuddin",
+     "baslik": "HAYDAR, Kutbüddin قطب الدين حيدر"
+    },
+    {
+     "slug": "haydar-ali-han",
+     "baslik": "HAYDAR ALİ HAN"
+    },
+    {
+     "slug": "haydar-el-amuli",
+     "baslik": "HAYDAR el-ÂMÜLÎ حيدر الآملي"
+    },
+    {
+     "slug": "haydar-bammat",
+     "baslik": "HAYDAR BAMMAT"
+    }
+   ]
+  },
+  {
+   "id": "bugis-kralliklari",
+   "ad": "Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 1151,
+   "sira": 78,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "bone"
+   ],
+   "baslik": [
+    "BONE"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bugis-kralliklari",
+    "bugis",
+    "bugisler",
+    "kralliklari",
+    "wajo",
+    "soppeng-tellumpoccoe"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bugis": 2
+   },
+   "hukum_slug": [
+    "bone"
+   ]
+  },
+  {
+   "id": "venezuela-cumhuriyeti",
+   "ad": "Venezuela Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "yerlesim_yil": 1145,
+   "sira": 79,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "venezuela-cumhuriyeti",
+    "venezuela",
+    "venezuelalar",
+    "caracas"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Venezuela": 12
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Venezuela",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ojibwe",
+   "ad": "Ojibwe (Anişinabe)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 1139,
+   "sira": 80,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ojibwe",
+    "ojibweler",
+    "anisinabe",
+    "chequamegon"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ojibwe": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ojibwe",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Anişinabe",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "fetret-suleyman",
+   "ad": "Emîr Süleyman Çelebi Saltanatı (Rumeli)",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 1126,
+   "sira": 81,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "fetret",
+    "rumeli",
+    "edirne"
+   ],
+   "baslik": [
+    "FETRET",
+    "RUMELİ",
+    "EDİRNE"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "emir",
+     "baslik": "EMİR",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "fetret-suleyman",
+    "emir-suleyman-celebi-saltanati",
+    "emirler",
+    "saltanati",
+    "fetretler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Emîr": 4711
+   },
+   "hukum_slug": [
+    "fetret",
+    "rumeli",
+    "edirne"
+   ],
+   "elle_not": "EMİR genel terim maddesi"
+  },
+  {
+   "id": "ahom",
+   "ad": "Ahom Krallığı (Assam)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 1072,
+   "sira": 82,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ahom",
+    "ahom-kralligi",
+    "ahomlar",
+    "assam",
+    "caraideo-rangpur"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ahom": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ahom",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Assam",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "serbedariler",
+   "ad": "Serbedârîler",
+   "bolge": "iran",
+   "yerlesim_yil": 1060,
+   "sira": 83,
+   "hukum": "VAR",
+   "canli_slug": [
+    "serbedariler",
+    "sebzevar"
+   ],
+   "baslik": [
+    "SERBEDÂRÎLER",
+    "SEBZEVÂR"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "serbedariler"
+   ]
+  },
+  {
+   "id": "bambara",
+   "ad": "Bambara Krallıkları (Segu ve Kaarta)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 1056,
+   "sira": 84,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "mali"
+   ],
+   "baslik": [
+    "MALİ"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bambara",
+    "bambara-kralliklari",
+    "bambaralar",
+    "kralliklari",
+    "segu-ve-kaarta",
+    "segu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bambara": 17
+   },
+   "hukum_slug": [
+    "mali"
+   ]
+  },
+  {
+   "id": "cherokee",
+   "ad": "Cherokee Ulusu",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 1021,
+   "sira": 85,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cherokee",
+    "cherokee-ulusu",
+    "cherokeeler",
+    "ulusu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Cherokee": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Cherokee",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "sibir-hanligi",
+   "ad": "Sibir Hanlığı",
+   "bolge": "orta-asya",
+   "yerlesim_yil": 1012,
+   "sira": 86,
+   "hukum": "VAR",
+   "canli_slug": [
+    "sibir-hanligi"
+   ],
+   "baslik": [
+    "SİBİR HANLIĞI"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sibir",
+    "sibirler",
+    "cimgi-tura-sibir"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "sibir-hanligi"
+   ]
+  },
+  {
+   "id": "nayak-devletleri",
+   "ad": "Nâyak Beylikleri (Madurai, Tancûr, Cinci, Keladi)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 1008,
+   "sira": 87,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "cinci"
+   ],
+   "baslik": [
+    "CİNCİ"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nayak-devletleri",
+    "nayak-beylikleri",
+    "nayak",
+    "nayaklar",
+    "beylikleri",
+    "madurai",
+    "tancur",
+    "keladi",
+    "madurai-tancur-cinci-keladi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nâyak": 0
+   },
+   "hukum_slug": [
+    "cinci"
+   ]
+  },
+  {
+   "id": "alutiiq",
+   "ad": "Alutiiq (Sugpiaq)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 1007,
+   "sira": 88,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "alutiiq",
+    "alutiiqler",
+    "sugpiaq",
+    "kodiak"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Alutiiq": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Alutiiq",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Sugpiaq",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "laos-kralliklari",
+   "ad": "Laos Krallıkları (Luang Prabang, Vientiane, Champasak)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 999,
+   "sira": 89,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "laos-kralliklari",
+    "laos",
+    "laoslar",
+    "kralliklari",
+    "luang-prabang",
+    "vientiane",
+    "champasak"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Laos": 11
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Laos",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Luang Prabang",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bemba",
+   "ad": "Bemba Krallığı (Citimukulu)",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 995,
+   "sira": 90,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "zambiya"
+   ],
+   "baslik": [
+    "ZAMBİYA"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bemba",
+    "bemba-kralligi",
+    "bembalar",
+    "citimukulu",
+    "kasama"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bemba": 0
+   },
+   "hukum_slug": [
+    "zambiya"
+   ]
+  },
+  {
+   "id": "golkonda",
+   "ad": "Kutubşâhî Sultanlığı (Golkonda)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 975,
+   "sira": 91,
+   "hukum": "VAR",
+   "canli_slug": [
+    "golkonda",
+    "kutubsahiler"
+   ],
+   "baslik": [
+    "GOLKONDA",
+    "KUTUBŞÂHÎLER"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kutubsahi-sultanligi",
+    "kutubsahi",
+    "golkondalar",
+    "golkonda-haydarabad"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kutubsahiler"
+   ]
+  },
+  {
+   "id": "banjar-sultanligi",
+   "ad": "Bancar (Banjar) Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 973,
+   "sira": 92,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "banjar-sultanligi",
+    "bancar-sultanligi",
+    "bancar",
+    "bancarlar",
+    "banjar",
+    "banjarlar",
+    "bancarmasin"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bancar": 6
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Bancar",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Banjar",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mazenderan-marasi",
+   "ad": "Mar'aşî Seyyidleri (Mâzenderan)",
+   "bolge": "iran",
+   "yerlesim_yil": 952,
+   "sira": 93,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "mazenderan"
+   ],
+   "baslik": [
+    "MÂZENDERAN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mazenderan-marasi",
+    "mar-asi-seyyidleri",
+    "mar-asi",
+    "mar-asiler",
+    "seyyidleri",
+    "mazenderanlar",
+    "amul-sari"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mar": 6170
+   },
+   "hukum_slug": [
+    "mazenderan"
+   ]
+  },
+  {
+   "id": "mehdi",
+   "ad": "Mehdî Devleti (Sudan)",
+   "bolge": "misir-sudan",
+   "yerlesim_yil": 943,
+   "sira": 94,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "sudan"
+   ],
+   "baslik": [
+    "SUDAN"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "mehdi",
+     "baslik": "MEHDÎ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "mehdi-devleti",
+    "mehdiler",
+    "ubeyyid-omdurman"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mehdî": 1412
+   },
+   "hukum_slug": [
+    "sudan"
+   ],
+   "elle_not": "MEHDÎ kavram maddesi, Mehdî Devleti değil"
+  },
+  {
+   "id": "kazan",
+   "ad": "Kazan Hanlığı",
+   "bolge": "sibirya-bozkir",
+   "yerlesim_yil": 920,
+   "sira": 95,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kazan",
+    "kazan-hanligi"
+   ],
+   "baslik": [
+    "KAZAN",
+    "KAZAN HANLIĞI"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kazanlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kazan-hanligi"
+   ]
+  },
+  {
+   "id": "kamakura",
+   "ad": "Kamakura Şogunluğu (Japonya)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 893,
+   "sira": 96,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "japonya"
+   ],
+   "baslik": [
+    "JAPONYA"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kamakura",
+    "kamakura-sogunlugu",
+    "kamakuralar",
+    "sogunlugu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kamakura": 0
+   },
+   "hukum_slug": [
+    "japonya"
+   ]
+  },
+  {
+   "id": "travankur",
+   "ad": "Travankur Krallığı (Venâd)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 864,
+   "sira": 97,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "travankur",
+    "travankur-kralligi",
+    "travankurlar",
+    "venad",
+    "padmanabhapuram-trivandrum"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Travankur": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Travankur",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Venâd",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "dogu-sumatra-sultanliklari",
+   "ad": "Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 847,
+   "sira": 98,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "deli",
+     "baslik": "DELİ",
+     "tur": "kapsayici"
+    }
+   ],
+   "olu_slug": [
+    "dogu-sumatra-sultanliklari",
+    "dogu",
+    "dogular",
+    "sultanliklari",
+    "jambi",
+    "siyak",
+    "indragiri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sumatra": 67
+   },
+   "hukum_slug": [],
+   "elle_not": "DELİ Osmanlı süvari sınıfı, Deli Sultanlığı değil",
+   "baslik_arama": [
+    {
+     "q": "Sumatra",
+     "n": 3,
+     "ilk": [
+      [
+       "sumatra",
+       "SUMATRA"
+      ],
+      [
+       "semseddin-i-sumatrani",
+       "ŞEMSEDDÎN-i SUMATRÂNÎ"
+      ],
+      [
+       "ace",
+       "AÇE"
+      ]
+     ]
+    },
+    {
+     "q": "Jambi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "sumatra",
+     "baslik": "SUMATRA"
+    }
+   ]
+  },
+  {
+   "id": "choctaw",
+   "ad": "Choctaw Konfederasyonu",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 799,
+   "sira": 99,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "choctaw",
+    "choctaw-konfederasyonu",
+    "choctawlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Choctaw": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Choctaw",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "palembang-sultanligi",
+   "ad": "Palembang Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 790,
+   "sira": 100,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "palembang-sultanligi",
+    "palembang",
+    "palembanglar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Palembang": 12
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Palembang",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "gova-makassar",
+   "ad": "Gova (Makassar) Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 774,
+   "sira": 101,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gova-makassar",
+    "gova-sultanligi",
+    "gova",
+    "govalar",
+    "makassar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gova": 4
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Gova",
+     "n": 1,
+     "ilk": [
+      [
+       "alaeddin-tumenanga",
+       "ALÂEDDİN TUMENANGA"
+      ]
+     ]
+    },
+    {
+     "q": "Makassar",
+     "n": 1,
+     "ilk": [
+      [
+       "yusuf-el-makassari",
+       "YÛSUF el-MAKASSARÎ يوسف المقصّري"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "avad",
+   "ad": "Avad Nevablığı (Oudh)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 730,
+   "sira": 102,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "avad",
+    "avad-nevabligi",
+    "avadlar",
+    "nevabligi",
+    "oudh",
+    "faizabad-lucknow"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Avad": 80
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Avad",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Oudh",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "zapotek-krallik",
+   "ad": "Zapotek Krallığı",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 726,
+   "sira": 103,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "zapotek-krallik",
+    "zapotek-kralligi",
+    "zapotek",
+    "zapotekler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Zapotek": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Zapotek",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kalikut",
+   "ad": "Kalikut Zamorinliği",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 709,
+   "sira": 104,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kalikut",
+    "kalikut-zamorinligi",
+    "kalikutlar",
+    "zamorinligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kalikut": 3
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kalikut",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "hurmuz-sultanligi",
+   "ad": "Hürmüz Sultanlığı",
+   "bolge": "iran",
+   "yerlesim_yil": 687,
+   "sira": 105,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hurmuz-sultanligi",
+    "hurmuz",
+    "hurmuzler",
+    "hurmuzlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Hürmüz": 138
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hürmüz",
+     "n": 5,
+     "ilk": [
+      [
+       "ehrimen",
+       "EHRİMEN أهرمن"
+      ],
+      [
+       "hurmuz--sasaniler",
+       "HÜRMÜZ هرمز"
+      ],
+      [
+       "hurmuz--zerdustilik",
+       "HÜRMÜZ هرمز"
+      ],
+      [
+       "hurmuz--iran",
+       "HÜRMÜZ هرمز"
+      ],
+      [
+       "abdurrahman-b-hurmuz",
+       "ABDURRAHMAN b. HÜRMÜZ عبد الرحمن بن هرمز"
+      ]
+     ]
+    },
+    {
+     "q": "hurmuz",
+     "n": 5,
+     "ilk": [
+      [
+       "ehrimen",
+       "EHRİMEN أهرمن"
+      ],
+      [
+       "hurmuz--sasaniler",
+       "HÜRMÜZ هرمز"
+      ],
+      [
+       "hurmuz--zerdustilik",
+       "HÜRMÜZ هرمز"
+      ],
+      [
+       "hurmuz--iran",
+       "HÜRMÜZ هرمز"
+      ],
+      [
+       "abdurrahman-b-hurmuz",
+       "ABDURRAHMAN b. HÜRMÜZ عبد الرحمن بن هرمز"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": [
+    {
+     "slug": "hurmuz--iran",
+     "baslik": "HÜRMÜZ هرمز"
+    }
+   ],
+   "hukum_elle": "AD-MADDESI",
+   "elle_not": "başlık aramasıyla: `hurmuz--iran` (çıplak `hurmuz` 302)"
+  },
+  {
+   "id": "zende",
+   "ad": "Zende (Azande) Sultanlıkları",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 648,
+   "sira": 106,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "zende",
+    "zende-sultanliklari",
+    "zendeler",
+    "sultanliklari",
+    "azande"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Zende": 48
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Zende",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Azande",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tidore-sultanligi",
+   "ad": "Tidore Sultanlığı (Moluk)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 643,
+   "sira": 107,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tidore-sultanligi",
+    "tidore",
+    "tidoreler",
+    "moluk"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tidore": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tidore",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Moluk",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "purepecha-imparatorlugu",
+   "ad": "Purépecha (Tarasko) İmparatorluğu",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 640,
+   "sira": 108,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "purepecha-imparatorlugu",
+    "purepecha",
+    "purepechalar",
+    "tarasko",
+    "tzintzuntzan"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Purépecha": 0,
+    "purepecha": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Purépecha",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "purepecha",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Tarasko",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "manipur",
+   "ad": "Manipûr Krallığı",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 636,
+   "sira": 109,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "manipur",
+    "manipur-kralligi",
+    "manipurlar",
+    "imphal"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Manipûr": 3
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Manipûr",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "manipur",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tui-tonga-imparatorlugu",
+   "ad": "Tuʻi Tonga İmparatorluğu",
+   "bolge": "okyanusya",
+   "yerlesim_yil": 626,
+   "sira": 110,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tui-tonga-imparatorlugu",
+    "tu-i-tonga-imparatorlugu",
+    "tu-i-tonga",
+    "tu-i",
+    "tu-iler",
+    "tonga",
+    "tongalar",
+    "mu-a"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tuʻi": 0,
+    "tuʻi": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tuʻi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "benihalid",
+   "ad": "Benî Hâlid Emirliği (Lahsa)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 625,
+   "sira": 111,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "lahsa",
+    "hufuf"
+   ],
+   "baslik": [
+    "LAHSÂ",
+    "HÜFÛF"
+   ],
+   "canli_tur": [
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "benihalid",
+    "beni-halid-emirligi",
+    "beni-halid",
+    "beni",
+    "beniler",
+    "halid",
+    "benihalidler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Benî": 4711
+   },
+   "hukum_slug": [
+    "lahsa",
+    "hufuf"
+   ]
+  },
+  {
+   "id": "birom-plato",
+   "ad": "Jos Platosu Halkları (Birom · Jarava)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 622,
+   "sira": 112,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "birom-plato",
+    "jos-platosu-halklari",
+    "jos-platosu",
+    "jos",
+    "joslar",
+    "platosu",
+    "birom",
+    "biromlar",
+    "birom-jarava"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Jos": 547
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Jos",
+     "n": 5,
+     "ilk": [
+      [
+       "aschbach-joseph-ritter-von",
+       "ASCHBACH, Joseph Ritter von"
+      ],
+      [
+       "derenbourg-joseph-naphtali",
+       "DERENBOURG, Joseph Naphtali"
+      ],
+      [
+       "hell-josef",
+       "HELL, Josef"
+      ],
+      [
+       "horovitz-josef-chajim",
+       "HOROVITZ, Josef (Chajim)"
+      ],
+      [
+       "karabacek-josef-ritter-von",
+       "KARABACEK, Josef Ritter von"
+      ]
+     ]
+    },
+    {
+     "q": "Birom",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "aydin",
+   "ad": "Aydınoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 621,
+   "sira": 113,
+   "hukum": "VAR",
+   "canli_slug": [
+    "aydin",
+    "aydinogullari",
+    "tire",
+    "ayasuluk"
+   ],
+   "baslik": [
+    "AYDIN",
+    "AYDINOĞULLARI",
+    "TİRE",
+    "AYASULUK"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan",
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "aydinler",
+    "birgi-izmir"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "aydinogullari"
+   ]
+  },
+  {
+   "id": "sakalava-boina",
+   "ad": "Boina Sakalava Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 621,
+   "sira": 114,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "madagaskar"
+   ],
+   "baslik": [
+    "MADAGASKAR"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sakalava-boina",
+    "boina-sakalava-kralligi",
+    "boina-sakalava",
+    "boina",
+    "boinalar",
+    "sakalava",
+    "sakalavalar",
+    "mahacanga"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Boina": 0
+   },
+   "hukum_slug": [
+    "madagaskar"
+   ]
+  },
+  {
+   "id": "tiv",
+   "ad": "Tiv Halkı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 619,
+   "sira": 115,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tiv",
+    "tiv-halki",
+    "tivler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tiv": 17
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tiv",
+     "n": 2,
+     "ilk": [
+      [
+       "el-ahbarut-tival",
+       "el-AHBÂRÜ’t-TIVÂL الأخبار الطوال"
+      ],
+      [
+       "es-sebut-tival",
+       "es-SEB‘U’t-TIVÂL السبع الطوال"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "dagbon",
+   "ad": "Dagbon Krallığı (Dagomba)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 618,
+   "sira": 116,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dagbon",
+    "dagbon-kralligi",
+    "dagbonlar",
+    "dagomba",
+    "yendi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dagbon": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dagbon",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Dagomba",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tuareg-adag",
+   "ad": "Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 618,
+   "sira": 117,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tuareg"
+   ],
+   "baslik": [
+    "TUAREG"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tuareg-adag",
+    "kel-adag-tuareg-konfederasyonu",
+    "kel-adag-tuareg",
+    "kel",
+    "keller",
+    "tuaregler",
+    "adrar-des-ifoghas",
+    "kidal"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kel": 7000
+   },
+   "hukum_slug": [
+    "tuareg"
+   ]
+  },
+  {
+   "id": "tuareg-ivellemmedan",
+   "ad": "İvellemmedan Tuareg Konfederasyonu",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 618,
+   "sira": 118,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tuareg"
+   ],
+   "baslik": [
+    "TUAREG"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tuareg-ivellemmedan",
+    "ivellemmedan-tuareg-konfederasyonu",
+    "ivellemmedan-tuareg",
+    "ivellemmedan",
+    "ivellemmedanlar",
+    "tuaregler",
+    "menaka"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İvellemmedan": 0
+   },
+   "hukum_slug": [
+    "tuareg"
+   ]
+  },
+  {
+   "id": "gurma",
+   "ad": "Gurma Krallığı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 616,
+   "sira": 119,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "burkina-faso"
+   ],
+   "baslik": [
+    "BURKİNA FASO"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gurma",
+    "gurma-kralligi",
+    "gurmalar",
+    "fada-ngurma"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gurma": 9
+   },
+   "hukum_slug": [
+    "burkina-faso"
+   ]
+  },
+  {
+   "id": "sidamo-kralliklari",
+   "ad": "Sidamo Krallıkları",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 616,
+   "sira": 120,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sidamo-kralliklari",
+    "sidamo",
+    "sidamolar",
+    "kralliklari",
+    "cesitli-merkezler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sidamo": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Sidamo",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kamba",
+   "ad": "Kamba Halkı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 614,
+   "sira": 121,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kamba",
+    "kamba-halki",
+    "kambalar",
+    "kitui"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kamba": 17
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kamba",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "gambiya-mandinka",
+   "ad": "Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 613,
+   "sira": 122,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gambiya-mandinka",
+    "gambiya-mandinka-devletcikleri",
+    "gambiya",
+    "gambiyalar",
+    "devletcikleri",
+    "niumi-kombo-vuli"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gambiya": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Gambiya",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Niumi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "vollayta-kralligi",
+   "ad": "Vollayta (Wolaita) Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 613,
+   "sira": 123,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "vollayta-kralligi",
+    "vollayta",
+    "vollaytalar",
+    "wolaita",
+    "dalgac"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Vollayta": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Vollayta",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Wolaita",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kesmir",
+   "ad": "Keşmir Sultanlığı (Şah Mîr Hânedanı)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 612,
+   "sira": 124,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "kesmir"
+   ],
+   "baslik": [
+    "KEŞMİR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kesmir-sultanligi",
+    "kesmirler",
+    "sah-mir-hanedani",
+    "srinagar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Keşmir": 166
+   },
+   "hukum_slug": [
+    "kesmir"
+   ]
+  },
+  {
+   "id": "lakota",
+   "ad": "Lakota (Teton Sioux)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 610,
+   "sira": 125,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "lakota",
+    "lakotalar",
+    "teton-sioux",
+    "kara-tepeler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Lakota": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Lakota",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Teton Sioux",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "manica",
+   "ad": "Manica Krallığı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 610,
+   "sira": 126,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "mozambik"
+   ],
+   "baslik": [
+    "MOZAMBİK"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "manica",
+    "manica-kralligi",
+    "manicalar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Manica": 0
+   },
+   "hukum_slug": [
+    "mozambik"
+   ]
+  },
+  {
+   "id": "magindanao-sultanligi",
+   "ad": "Magindanao Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 607,
+   "sira": 127,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "magindanao-sultanligi",
+    "magindanao",
+    "magindanaolar",
+    "kotabato"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Magindanao": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Magindanao",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "eve-notse",
+   "ad": "Eve (Ewe) Notse Birliği",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 604,
+   "sira": 128,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "eve-notse",
+    "eve-notse-birligi",
+    "eve",
+    "eveler",
+    "notse",
+    "notseler",
+    "ewe"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Eve": 361
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Eve",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Ewe",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ute",
+   "ad": "Ute (Núuchiu)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 599,
+   "sira": 129,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ute",
+    "uteler",
+    "nuuchiu",
+    "uncompahgre"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ute": 47
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ute",
+     "n": 2,
+     "ilk": [
+      [
+       "uteka",
+       "UTEKĀ"
+      ],
+      [
+       "uteybe-beni-uteybe",
+       "UTEYBE (Benî Uteybe) بنو عتيبة"
+      ]
+     ]
+    },
+    {
+     "q": "Núuchiu",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "uteka",
+     "baslik": "UTEKĀ"
+    },
+    {
+     "slug": "uteybe-beni-uteybe",
+     "baslik": "UTEYBE (Benî Uteybe) بنو عتيبة"
+    }
+   ]
+  },
+  {
+   "id": "nez-perce",
+   "ad": "Nez Perce (Nimíipuu)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 597,
+   "sira": 130,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nez-perce",
+    "nez",
+    "nezler",
+    "perce",
+    "perceler",
+    "nimiipuu",
+    "lapwai"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nez": 2257
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Nez",
+     "n": 5,
+     "ilk": [
+      [
+       "nezir--adak",
+       "NEZİR"
+      ],
+      [
+       "nezir--inzar",
+       "NEZÎR"
+      ],
+      [
+       "nezir-huseyin",
+       "NEZÎR HÜSEYİN نذير حسين"
+      ],
+      [
+       "nezrulislam",
+       "NEZRÜLİSLÂM نذر الإسلام"
+      ],
+      [
+       "nezir-ahmed-dihlevi",
+       "NEZÎR AHMED DİHLEVÎ نذير احمد دهلوى"
+      ]
+     ]
+    },
+    {
+     "q": "Nimíipuu",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "nezir--adak",
+     "baslik": "NEZİR"
+    },
+    {
+     "slug": "nezir--inzar",
+     "baslik": "NEZÎR"
+    },
+    {
+     "slug": "nezir-huseyin",
+     "baslik": "NEZÎR HÜSEYİN نذير حسين"
+    },
+    {
+     "slug": "nezrulislam",
+     "baslik": "NEZRÜLİSLÂM نذر الإسلام"
+    },
+    {
+     "slug": "nezir-ahmed-dihlevi",
+     "baslik": "NEZÎR AHMED DİHLEVÎ نذير احمد دهلوى"
+    }
+   ]
+  },
+  {
+   "id": "xhosa",
+   "ad": "Xhosa Krallıkları",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 597,
+   "sira": 131,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "xhosa",
+    "xhosa-kralliklari",
+    "xhosalar",
+    "kralliklari"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Xhosa": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Xhosa",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "meskalero-apaci",
+   "ad": "Meskalero Apaçileri",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 592,
+   "sira": 132,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "meskalero-apaci",
+    "meskalero-apacileri",
+    "meskalero",
+    "meskalerolar",
+    "apacileri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Meskalero": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Meskalero",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "yavapai",
+   "ad": "Yavapai",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 592,
+   "sira": 133,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yavapai",
+    "yavapailer",
+    "prescott"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Yavapai": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Yavapai",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "navaho",
+   "ad": "Navaho (Diné)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 587,
+   "sira": 134,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "navaho",
+    "navaholar",
+    "dine",
+    "tsegi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Navaho": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Navaho",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Diné",
+     "n": 5,
+     "ilk": [
+      [
+       "dinet-alphonse-etienne",
+       "DINET, Alphonse Etienne"
+      ],
+      [
+       "dinever",
+       "DÎNEVER دينور"
+      ],
+      [
+       "dineveri-ebu-hanife",
+       "DÎNEVERÎ, Ebû Hanîfe أبو حنيفة الدينوري"
+      ],
+      [
+       "dineveri-ebul-abbas",
+       "DÎNEVERÎ, Ebü’l-Abbas أبو العبّاس الدينوري"
+      ],
+      [
+       "dineveri-nasr-b-yakub",
+       "DÎNEVERÎ, Nasr b. Ya‘kūb نصر بن يعقوب الدينوري"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "dinet-alphonse-etienne",
+     "baslik": "DINET, Alphonse Etienne"
+    },
+    {
+     "slug": "dinever",
+     "baslik": "DÎNEVER دينور"
+    },
+    {
+     "slug": "dineveri-ebu-hanife",
+     "baslik": "DÎNEVERÎ, Ebû Hanîfe أبو حنيفة الدينوري"
+    },
+    {
+     "slug": "dineveri-ebul-abbas",
+     "baslik": "DÎNEVERÎ, Ebü’l-Abbas أبو العبّاس الدينوري"
+    },
+    {
+     "slug": "dineveri-nasr-b-yakub",
+     "baslik": "DÎNEVERÎ, Nasr b. Ya‘kūb نصر بن يعقوب الدينوري"
+    }
+   ]
+  },
+  {
+   "id": "tlingit",
+   "ad": "Tlingit",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 587,
+   "sira": 135,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tlingit",
+    "tlingitler",
+    "klukwan"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tlingit": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tlingit",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "yupik",
+   "ad": "Yupik",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 587,
+   "sira": 136,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yupik",
+    "yupikler",
+    "hooper-bay"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Yupik": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Yupik",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mohave",
+   "ad": "Mohave (Aha Macav)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 584,
+   "sira": 137,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mohave",
+    "mohaveler",
+    "aha-macav",
+    "fort-mohave"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mohave": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Mohave",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Aha Macav",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "klamath",
+   "ad": "Klamath (Maklaks)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 583,
+   "sira": 138,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "klamath",
+    "klamathlar",
+    "maklaks",
+    "fort-klamath",
+    "klamath-batakligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Klamath": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Klamath",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Maklaks",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "nuu-cah-nulth",
+   "ad": "Nuu-chah-nulth (Mowachaht)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 578,
+   "sira": 139,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nuu-cah-nulth",
+    "nuu-chah-nulth",
+    "nuu",
+    "nuular",
+    "nulth",
+    "nulthlar",
+    "mowachaht",
+    "yuquot"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nuu": 7
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Nuu",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Mowachaht",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "nuxalk",
+   "ad": "Nuxalk (Bella Coola)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 578,
+   "sira": 140,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "nuxalk",
+    "nuxalklar",
+    "bella-coola"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Nuxalk": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Nuxalk",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Bella Coola",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "secwepemc",
+   "ad": "Secwépemc (Shuswap)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 578,
+   "sira": 141,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "secwepemc",
+    "secwepemcler",
+    "shuswap"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Secwépemc": 0,
+    "secwepemc": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Secwépemc",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "secwepemc",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Shuswap",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "pavni",
+   "ad": "Pavni (Pawnee)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 577,
+   "sira": 142,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pavni",
+    "pavniler",
+    "pawnee",
+    "pavni-koyleri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Pavni": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Pavni",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Pawnee",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ponka",
+   "ad": "Ponka (Ponca)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 577,
+   "sira": 143,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ponka",
+    "ponkalar",
+    "ponca",
+    "ponca-koyleri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ponka": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ponka",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Ponca",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "sahaptin",
+   "ad": "Sahaptin (Orta Columbia halkları)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 574,
+   "sira": 144,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sahaptin",
+    "sahaptinler",
+    "orta-columbia-halklari",
+    "wayam"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sahaptin": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Sahaptin",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Orta Columbia halkları",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kutai",
+   "ad": "Kutai Sultanlığı (Doğu Borneo)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 573,
+   "sira": 145,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yetersiz",
+    "kutai",
+    "kutai-sultanligi",
+    "kutailer",
+    "dogu-borneo",
+    "tenggarong"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kutai": 4
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kutai",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Doğu Borneo",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "hidatsa",
+   "ad": "Hidatsa",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 571,
+   "sira": 146,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hidatsa",
+    "hidatsalar",
+    "knife-river"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Hidatsa": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hidatsa",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "karga",
+   "ad": "Karga (Apsáalooke)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 571,
+   "sira": 147,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "karga",
+    "kargalar",
+    "apsaalooke",
+    "crow-agency"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Karga": 384
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Karga",
+     "n": 3,
+     "ilk": [
+      [
+       "gurabiyye",
+       "GURÂBİYYE الغرابيّة"
+      ],
+      [
+       "fiten-ve-melahim",
+       "FİTEN ve MELÂHİM الفتن والملاحم"
+      ],
+      [
+       "fitne",
+       "FİTNE الفتنة"
+      ]
+     ]
+    },
+    {
+     "q": "Apsáalooke",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mandan",
+   "ad": "Mandan",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 571,
+   "sira": 148,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mandan",
+    "mandanlar",
+    "on-a-slant"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mandan": 6
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Mandan",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ladak",
+   "ad": "Ladakh Krallığı (Namgyal Hânedanı)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 553,
+   "sira": 149,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "leh"
+   ],
+   "baslik": [
+    "LEH"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ladak",
+    "ladakh-kralligi",
+    "ladakh",
+    "ladakhlar",
+    "ladaklar",
+    "namgyal-hanedani"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ladakh": 2
+   },
+   "hukum_slug": [
+    "leh"
+   ]
+  },
+  {
+   "id": "sauk",
+   "ad": "Sauk (Asakiwaki)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 552,
+   "sira": 150,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sauk",
+    "sauklar",
+    "asakiwaki",
+    "saukenuk"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sauk": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Sauk",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Asakiwaki",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "betsileo",
+   "ad": "Betsileo Krallıkları",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 549,
+   "sira": 151,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "madagaskar"
+   ],
+   "baslik": [
+    "MADAGASKAR"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "betsileo",
+    "betsileo-kralliklari",
+    "betsileolar",
+    "kralliklari",
+    "fianarantsoa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Betsileo": 0
+   },
+   "hukum_slug": [
+    "madagaskar"
+   ]
+  },
+  {
+   "id": "beothuk",
+   "ad": "Beothuk",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 548,
+   "sira": 152,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "beothuk",
+    "beothuklar",
+    "kizil-kizilderili-golu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Beothuk": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Beothuk",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "usfuri",
+   "ad": "Usfûrîler (Benî Usfûr)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 544,
+   "sira": 153,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "katif",
+    "lahsa"
+   ],
+   "baslik": [
+    "KATÎF",
+    "LAHSÂ"
+   ],
+   "canli_tur": [
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "usfuri",
+    "usfuriler",
+    "beni-usfur"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Usfûrîler": 0
+   },
+   "hukum_slug": [
+    "katif",
+    "lahsa"
+   ]
+  },
+  {
+   "id": "gond-kralliklari",
+   "ad": "Gond Krallıkları (Garha-Mandla, Deogarh)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 541,
+   "sira": 154,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gond-kralliklari",
+    "gond",
+    "gondlar",
+    "kralliklari",
+    "garha-mandla",
+    "deogarh",
+    "mandla"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gond": 27
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Gond",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Garha-Mandla",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kru-grebo",
+   "ad": "Kru ve Grebo Halkları",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 541,
+   "sira": 155,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kru-grebo",
+    "kru-ve-grebo-halklari",
+    "kru",
+    "krular",
+    "grebo",
+    "grebolar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kru": 126
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kru",
+     "n": 3,
+     "ilk": [
+      [
+       "kruya",
+       "KRUYA"
+      ],
+      [
+       "alacahisar",
+       "ALACAHİSAR"
+      ],
+      [
+       "akcahisar",
+       "AKÇAHİSAR"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "kruya",
+     "baslik": "KRUYA"
+    }
+   ]
+  },
+  {
+   "id": "selcuklu",
+   "ad": "Anadolu (Türkiye) Selçuklu Devleti",
+   "bolge": "anadolu",
+   "yerlesim_yil": 537,
+   "sira": 156,
+   "hukum": "VAR",
+   "canli_slug": [
+    "anadolu",
+    "selcuklular",
+    "turkiye"
+   ],
+   "baslik": [
+    "ANADOLU",
+    "SELÇUKLULAR",
+    "TÜRKİYE"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "selcuklu",
+    "anadolu-selcuklu-devleti",
+    "anadolu-selcuklu",
+    "anadolular",
+    "iznik-konya"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "anadolu"
+   ],
+   "elle_not": "elle denendi: `turkiye-selcuklulari` 200 TÜRKİYE SELÇUKLULARI"
+  },
+  {
+   "id": "merina",
+   "ad": "Merina Krallığı (Madagaskar)",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 533,
+   "sira": 157,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "madagaskar"
+   ],
+   "baslik": [
+    "MADAGASKAR"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "merina",
+    "merina-kralligi",
+    "merinalar",
+    "antananarivo"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Merina": 0
+   },
+   "hukum_slug": [
+    "madagaskar"
+   ]
+  },
+  {
+   "id": "cebri",
+   "ad": "Cebrîler (Benî Cebr)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 532,
+   "sira": 158,
+   "hukum": "VAR",
+   "canli_slug": [
+    "cebriler",
+    "hufuf"
+   ],
+   "baslik": [
+    "CEBRÎLER",
+    "HÜFÛF"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cebri",
+    "beni-cebr"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "cebriler"
+   ]
+  },
+  {
+   "id": "miami",
+   "ad": "Miami (Myaamia)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 515,
+   "sira": 159,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "miami",
+    "miamiler",
+    "myaamia",
+    "kekionga"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Miami": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Miami",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Myaamia",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "savni",
+   "ad": "Şavni (Shawnee)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 515,
+   "sira": 160,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "savni",
+    "savniler",
+    "shawnee",
+    "chillicothe"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Şavni": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Şavni",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "savni",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Shawnee",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bengal-nevabligi",
+   "ad": "Bengal Nevablığı",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 486,
+   "sira": 161,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "bengal"
+   ],
+   "baslik": [
+    "BENGAL"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bengal-nevabligi",
+    "bengallar",
+    "nevabligi",
+    "murshidabad"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bengal": 179
+   },
+   "hukum_slug": [
+    "bengal"
+   ]
+  },
+  {
+   "id": "maliseet",
+   "ad": "Maliseet (Wolastoqiyik)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 480,
+   "sira": 162,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "maliseet",
+    "maliseetler",
+    "wolastoqiyik",
+    "madawaska"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Maliseet": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Maliseet",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Wolastoqiyik",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mikmak",
+   "ad": "Mikmak (Mi'kmaq)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 480,
+   "sira": 163,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mikmak",
+    "mikmaklar",
+    "mi-kmaq",
+    "listuguj"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mikmak": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Mikmak",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Mi'kmaq",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "lur-i-buzurg",
+   "ad": "Lür-i Büzürg Atabegliği (Hazaraspîler)",
+   "bolge": "iran",
+   "yerlesim_yil": 471,
+   "sira": 164,
+   "hukum": "VAR",
+   "canli_slug": [
+    "lur-i-buzurg",
+    "buzurg"
+   ],
+   "baslik": [
+    "LUR-ı BÜZÜRG",
+    "BÜZÜRG"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "lur-i-buzurg-atabegligi",
+    "lur-buzurg",
+    "lur",
+    "lurler",
+    "buzurglar",
+    "hazaraspiler",
+    "izeh"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "lur-i-buzurg",
+    "buzurg"
+   ],
+   "elle_not": "LUR-ı BÜZÜRG doğrudan madde"
+  },
+  {
+   "id": "abenaki",
+   "ad": "Abenaki (Wabanaki)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 471,
+   "sira": 165,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "abenaki",
+    "abenakiler",
+    "wabanaki",
+    "norridgewock"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Abenaki": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Abenaki",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Wabanaki",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "apaci-ovalar",
+   "ad": "Ovalar Apaçileri (Plains Apache)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 469,
+   "sira": 166,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "apaci-ovalar",
+    "ovalar-apacileri",
+    "ovalar",
+    "apacileri",
+    "apaci",
+    "apaciler",
+    "plains-apache"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ovalar": 124
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ovalar",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Plains Apache",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "astarhan",
+   "ad": "Astarhan (Ejderhan) Hanlığı",
+   "bolge": "sibirya-bozkir",
+   "yerlesim_yil": 468,
+   "sira": 167,
+   "hukum": "VAR",
+   "canli_slug": [
+    "astarhan-hanligi"
+   ],
+   "baslik": [
+    "ASTARHAN HANLIĞI"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "astarhan",
+    "astarhanlar",
+    "ejderhan"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "astarhan-hanligi"
+   ]
+  },
+  {
+   "id": "matamba",
+   "ad": "Matamba Krallığı",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 463,
+   "sira": 168,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "matamba",
+    "matamba-kralligi",
+    "matambalar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Matamba": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Matamba",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "don-kazak",
+   "ad": "Don Kazak Ordası",
+   "bolge": "sibirya-bozkir",
+   "yerlesim_yil": 458,
+   "sira": 169,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "kazaklar"
+   ],
+   "baslik": [
+    "KAZAKLAR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "don-kazak",
+    "don-kazak-ordasi",
+    "don",
+    "donlar",
+    "ordasi",
+    "kazak",
+    "razdory-cerkassk"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kazaklar"
+   ]
+  },
+  {
+   "id": "natchez",
+   "ad": "Natchez (Grand Village)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 450,
+   "sira": 170,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "natchez",
+    "natchezler",
+    "grand-village"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Natchez": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Natchez",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Grand Village",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ryukyu",
+   "ad": "Ryukyu Krallığı",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 450,
+   "sira": 171,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ryukyu",
+    "ryukyu-kralligi",
+    "ryukyular",
+    "suri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ryukyu": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ryukyu",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "karesi",
+   "ad": "Karesioğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 432,
+   "sira": 172,
+   "hukum": "VAR",
+   "canli_slug": [
+    "karesiogullari"
+   ],
+   "baslik": [
+    "KARESİOĞULLARI"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "karesi",
+    "karesiler",
+    "balikesir-erdek",
+    "biga",
+    "edremit",
+    "bergama-ya-kadar-hakim"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "karesiogullari"
+   ]
+  },
+  {
+   "id": "seylan-sinhala",
+   "ad": "Seylan Sinhala Krallıkları (Portekiz Öncesi)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 425,
+   "sira": 173,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "seylan"
+   ],
+   "baslik": [
+    "SEYLAN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "seylan-sinhala",
+    "seylan-sinhala-kralliklari",
+    "seylanlar",
+    "kralliklari",
+    "portekiz-oncesi",
+    "dambadeniya-gampola-kotte"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Seylan": 54
+   },
+   "hukum_slug": [
+    "seylan"
+   ]
+  },
+  {
+   "id": "venda",
+   "ad": "Venda Krallığı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 396,
+   "sira": 174,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "venda",
+    "venda-kralligi",
+    "vendalar",
+    "dzata"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Venda": 6
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Venda",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "occaneechi",
+   "ad": "Occaneechi",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 395,
+   "sira": 175,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "occaneechi",
+    "occaneechiler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Occaneechi": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Occaneechi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mantua",
+   "ad": "Mantua Dukalığı (Gonzaga)",
+   "bolge": "italya",
+   "yerlesim_yil": 380,
+   "sira": 176,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mantua",
+    "mantua-dukaligi",
+    "mantualar",
+    "gonzaga"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mantua": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Mantua",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Gonzaga",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "vendat",
+   "ad": "Vendat (Huron) Konfederasyonu",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 378,
+   "sira": 177,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "vendat",
+    "vendat-konfederasyonu",
+    "vendatlar",
+    "huron",
+    "ossossane"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Vendat": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Vendat",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Huron",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "asanti",
+   "ad": "Aşanti İmparatorluğu",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 374,
+   "sira": 178,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "asanti",
+    "asanti-imparatorlugu",
+    "asantiler",
+    "kumasi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Aşanti": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Aşanti",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "asanti",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "teke",
+   "ad": "Tekeoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 366,
+   "sira": 179,
+   "hukum": "VAR",
+   "canli_slug": [
+    "tekeogullari",
+    "antalya"
+   ],
+   "baslik": [
+    "TEKEOĞULLARI",
+    "ANTALYA"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "teke",
+    "tekeler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "tekeogullari"
+   ]
+  },
+  {
+   "id": "powhatan",
+   "ad": "Powhatan Konfederasyonu (Tsenacomoco)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 366,
+   "sira": 180,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "powhatan",
+    "powhatan-konfederasyonu",
+    "powhatanlar",
+    "tsenacomoco"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Powhatan": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Powhatan",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Tsenacomoco",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tay-son",
+   "ad": "Tay Sơn Hanedanı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 352,
+   "sira": 181,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "tay",
+     "baslik": "TAY",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "tay-son",
+    "tay-son-hanedani",
+    "taylar",
+    "son",
+    "phu-xuan"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tay": 6178
+   },
+   "hukum_slug": [],
+   "elle_not": "TAY — Tây Sơn değil",
+   "baslik_arama": [
+    {
+     "q": "Tay",
+     "n": 5,
+     "ilk": [
+      [
+       "tay-beni-tay",
+       "TAY (Benî Tay) بنو طيّ"
+      ],
+      [
+       "tay",
+       "TAY طيّ"
+      ],
+      [
+       "tayalisi",
+       "TAYÂLİSÎ الطيالسي"
+      ],
+      [
+       "tayfuriyye",
+       "TAYFÛRİYYE الطيفوريّة"
+      ],
+      [
+       "tayland",
+       "TAYLAND"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "tay-beni-tay",
+     "baslik": "TAY (Benî Tay) بنو طيّ"
+    },
+    {
+     "slug": "tay",
+     "baslik": "TAY طيّ"
+    },
+    {
+     "slug": "tayalisi",
+     "baslik": "TAYÂLİSÎ الطيالسي"
+    },
+    {
+     "slug": "tayfuriyye",
+     "baslik": "TAYFÛRİYYE الطيفوريّة"
+    },
+    {
+     "slug": "tayland",
+     "baslik": "TAYLAND"
+    }
+   ]
+  },
+  {
+   "id": "kandy",
+   "ad": "Kandy Krallığı (Seylan)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 346,
+   "sira": 182,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "seylan"
+   ],
+   "baslik": [
+    "SEYLAN"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kandy",
+    "kandy-kralligi",
+    "kandylar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kandy": 3
+   },
+   "hukum_slug": [
+    "seylan"
+   ]
+  },
+  {
+   "id": "banda-adalari",
+   "ad": "Banda Adaları (Orang Kaya Meclisleri)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 340,
+   "sira": 183,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "banda-adalari"
+   ],
+   "baslik": [
+    "BANDA ADALARI"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "banda",
+    "bandalar",
+    "adalari",
+    "orang-kaya-meclisleri",
+    "banda-neira"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Banda": 26
+   },
+   "hukum_slug": [
+    "banda-adalari"
+   ]
+  },
+  {
+   "id": "yafna",
+   "ad": "Yafna (Jaffna) Krallığı",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 338,
+   "sira": 184,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yafna",
+    "yafna-kralligi",
+    "yafnalar",
+    "jaffna",
+    "nallur"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Yafna": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Yafna",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Jaffna",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kabartay",
+   "ad": "Kabartay (Kabardey) Beylikleri",
+   "bolge": "kafkasya",
+   "yerlesim_yil": 334,
+   "sira": 185,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kabartaylar"
+   ],
+   "baslik": [
+    "KABARTAYLAR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kabartay",
+    "kabartay-beylikleri",
+    "beylikleri",
+    "kabardey",
+    "beylikler-halinde",
+    "sabit-baskent-yok"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kabartaylar"
+   ]
+  },
+  {
+   "id": "ramazanoglu",
+   "ad": "Ramazanoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 329,
+   "sira": 186,
+   "hukum": "VAR",
+   "canli_slug": [
+    "ramazanogullari",
+    "adana"
+   ],
+   "baslik": [
+    "RAMAZANOĞULLARI",
+    "ADANA"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ramazanoglu",
+    "ramazanoglular"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "ramazanogullari"
+   ]
+  },
+  {
+   "id": "parma",
+   "ad": "Parma Dukalığı (Farnese / Bourbon)",
+   "bolge": "italya",
+   "yerlesim_yil": 315,
+   "sira": 187,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "parma",
+    "parma-dukaligi",
+    "parmalar",
+    "farnese",
+    "bourbon"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Parma": 579
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Parma",
+     "n": 4,
+     "ilk": [
+      [
+       "parmak",
+       "PARMAK"
+      ],
+      [
+       "parmaksizoglu-ismet",
+       "PARMAKSIZOĞLU, İsmet"
+      ],
+      [
+       "kabza",
+       "KABZA القبضة"
+      ],
+      [
+       "isba--parmak",
+       "ISBÂ‘"
+      ]
+     ]
+    },
+    {
+     "q": "Farnese",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "parmak",
+     "baslik": "PARMAK"
+    },
+    {
+     "slug": "parmaksizoglu-ismet",
+     "baslik": "PARMAKSIZOĞLU, İsmet"
+    }
+   ]
+  },
+  {
+   "id": "hawaii-kralligi",
+   "ad": "Hawaii Krallığı",
+   "bolge": "okyanusya",
+   "yerlesim_yil": 311,
+   "sira": 188,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hawaii-kralligi",
+    "hawaii",
+    "hawaiiler",
+    "honolulu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Hawaii": 5
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hawaii",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "futa-callon",
+   "ad": "Futa Callon İmamlığı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 298,
+   "sira": 189,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "gine"
+   ],
+   "baslik": [
+    "GİNE"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "futa-callon",
+    "futa-callon-imamligi",
+    "futa",
+    "futalar",
+    "callon",
+    "timbo"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Futa": 53
+   },
+   "hukum_slug": [
+    "gine"
+   ]
+  },
+  {
+   "id": "yao",
+   "ad": "Yao Sultanlıkları",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 297,
+   "sira": 190,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "malavi"
+   ],
+   "baslik": [
+    "MALAVİ"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yao",
+    "yao-sultanliklari",
+    "yaolar",
+    "sultanliklari",
+    "mvembe"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Yao": 13
+   },
+   "hukum_slug": [
+    "malavi"
+   ]
+  },
+  {
+   "id": "kasance",
+   "ad": "Kasance (Kasanje) Krallığı",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 290,
+   "sira": 191,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kasance",
+    "kasance-kralligi",
+    "kasanceler",
+    "kasanje"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kasance": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kasance",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Kasanje",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tonburi",
+   "ad": "Thonburi Krallığı (Siyam)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 285,
+   "sira": 192,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "siyam"
+   ],
+   "baslik": [
+    "SİYAM"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tonburi",
+    "thonburi-kralligi",
+    "thonburi",
+    "thonburiler",
+    "tonburiler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Thonburi": 0
+   },
+   "hukum_slug": [
+    "siyam"
+   ]
+  },
+  {
+   "id": "ingiliz-guyanasi",
+   "ad": "İngiliz Guyanası",
+   "bolge": "guney-amerika",
+   "yerlesim_yil": 278,
+   "sira": 193,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ingiliz-guyanasi",
+    "ingiliz",
+    "ingilizler",
+    "guyanasi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İngiliz": 2449
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Guyanası",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "guyanasi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kuba",
+   "ad": "Kuba Krallığı",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 275,
+   "sira": 194,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kuba",
+    "kuba-kralligi",
+    "kubalar",
+    "nsheng"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kuba": 280
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kuba",
+     "n": 5,
+     "ilk": [
+      [
+       "kuba--azerbaycan",
+       "KUBA"
+      ],
+      [
+       "kuba--medine",
+       "KUBÂ قباء"
+      ],
+      [
+       "kuba-mescidi",
+       "KUBÂ MESCİDİ"
+      ],
+      [
+       "mescid-i-kuba",
+       "MESCİD-i KUBÂ مسجد قباء"
+      ],
+      [
+       "kubadabad-sarayi",
+       "KUBÂDÂBÂD SARAYI"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": [],
+   "hukum_elle": "YANLIS?",
+   "elle_not": "`kuba--azerbaycan` Azerbaycan'daki Kuba — Kongo'daki Kuba Krallığı DEĞİL"
+  },
+  {
+   "id": "dahomey",
+   "ad": "Dahomey Krallığı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 268,
+   "sira": 195,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "dahomey"
+   ],
+   "baslik": [
+    "DAHOMEY"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dahomey-kralligi",
+    "dahomeyler",
+    "abomey"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dahomey": 7
+   },
+   "hukum_slug": [
+    "dahomey"
+   ]
+  },
+  {
+   "id": "karnatik",
+   "ad": "Karnatik Nevablığı (Arcot)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 265,
+   "sira": 196,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "karnatik",
+    "karnatik-nevabligi",
+    "karnatikler",
+    "nevabligi",
+    "arcot"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Karnatik": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Karnatik",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Arcot",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "fetret-mehmed",
+   "ad": "Çelebi Mehmed Saltanatı (Amasya/Anadolu)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 254,
+   "sira": 197,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "fetret",
+    "amasya",
+    "anadolu"
+   ],
+   "baslik": [
+    "FETRET",
+    "AMASYA",
+    "ANADOLU"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "celebi",
+     "baslik": "ÇELEBİ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "fetret-mehmed",
+    "celebi-mehmed-saltanati",
+    "celebiler",
+    "saltanati",
+    "fetretler",
+    "amasya-bursa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Çelebi": 2968
+   },
+   "hukum_slug": [
+    "fetret",
+    "amasya",
+    "anadolu"
+   ],
+   "elle_not": "ÇELEBİ unvan maddesi"
+  },
+  {
+   "id": "teodoro",
+   "ad": "Theodoro (Gotya) Prensliği",
+   "bolge": "dogu-avrupa",
+   "yerlesim_yil": 253,
+   "sira": 198,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "teodoro",
+    "theodoro-prensligi",
+    "theodoro",
+    "theodorolar",
+    "teodorolar",
+    "gotya",
+    "mankup"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Theodoro": 40
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Theodoro",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Gotya",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kenedugu",
+   "ad": "Kenedugu Krallığı (Sikasso)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 248,
+   "sira": 199,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kenedugu",
+    "kenedugu-kralligi",
+    "kenedugular",
+    "sikasso"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kenedugu": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kenedugu",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Sikasso",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tututepec-krallik",
+   "ad": "Tututepec Krallığı (Yucu Dzaa)",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 241,
+   "sira": 200,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tututepec-krallik",
+    "tututepec-kralligi",
+    "tututepec",
+    "tututepecler",
+    "yucu-dzaa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tututepec": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tututepec",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Yucu Dzaa",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "pandya",
+   "ad": "Pandya Hanedanı (İkinci İmparatorluk)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 240,
+   "sira": 201,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pandya",
+    "pandya-hanedani",
+    "pandyalar",
+    "ikinci-imparatorluk",
+    "madurai"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Pandya": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Pandya",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "İkinci İmparatorluk",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "burundi",
+   "ad": "Burundi Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 236,
+   "sira": 202,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "burundi",
+    "burundi-kralligi",
+    "burundiler",
+    "gitega"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Burundi": 6
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Burundi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "pedi",
+   "ad": "Pedi Krallığı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 230,
+   "sira": 203,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pedi",
+    "pedi-kralligi",
+    "pediler",
+    "tjate"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Pedi": 7
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Pedi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bate",
+   "ad": "Baté Mandinka Devleti (Kankan)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 229,
+   "sira": 204,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "gine"
+   ],
+   "baslik": [
+    "GİNE"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bate",
+    "bate-mandinka-devleti",
+    "bate-mandinka",
+    "batelar",
+    "mandinka",
+    "bateler",
+    "kankan"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Baté": 23
+   },
+   "hukum_slug": [
+    "gine"
+   ]
+  },
+  {
+   "id": "bhopal",
+   "ad": "Bopal (Bhopal) Devleti",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 216,
+   "sira": 205,
+   "hukum": "VAR",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bhopal",
+    "bopal-devleti",
+    "bopal",
+    "bopallar",
+    "bhopallar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bopal": 31
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Bopal",
+     "n": 5,
+     "ilk": [
+      [
+       "bopal--devlet",
+       "BOPAL"
+      ],
+      [
+       "bopal--sehir",
+       "BOPAL"
+      ],
+      [
+       "iskender-begum",
+       "İSKENDER BEGÜM"
+      ],
+      [
+       "sah-cihan-begum",
+       "ŞAH CİHAN BEGÜM"
+      ],
+      [
+       "cihan-begum",
+       "CİHAN BEGÜM"
+      ]
+     ]
+    },
+    {
+     "q": "Bhopal",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": [
+    {
+     "slug": "bopal--devlet",
+     "baslik": "BOPAL"
+    }
+   ],
+   "hukum_elle": "VAR",
+   "elle_not": "başlık aramasıyla: `bopal--devlet` doğrudan devlet maddesi (+ `bopal--sehir`)"
+  },
+  {
+   "id": "kolhapur",
+   "ad": "Kolhapur Devleti (Şivâcî'nin İkinci Kolu)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 214,
+   "sira": 206,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kolhapur",
+    "kolhapur-devleti",
+    "kolhapurlar",
+    "sivaci-nin-ikinci-kolu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kolhapur": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kolhapur",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Şivâcî'nin İkinci Kolu",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "aro-konfederasyonu",
+   "ad": "Aro Konfederasyonu",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 212,
+   "sira": 207,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "aro-konfederasyonu",
+    "aro",
+    "arolar",
+    "arocukvu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Aro": 41
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Aro",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "futa-toro",
+   "ad": "Futa Toro Almamiliği",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 210,
+   "sira": 209,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "senegal"
+   ],
+   "baslik": [
+    "SENEGAL"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "futa-toro",
+    "futa-toro-almamiligi",
+    "futa",
+    "futalar",
+    "almamiligi",
+    "podor"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Futa": 53
+   },
+   "hukum_slug": [
+    "senegal"
+   ]
+  },
+  {
+   "id": "betsimisaraka",
+   "ad": "Betsimisaraka Konfederasyonu",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 210,
+   "sira": 208,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "madagaskar"
+   ],
+   "baslik": [
+    "MADAGASKAR"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "betsimisaraka",
+    "betsimisaraka-konfederasyonu",
+    "betsimisarakalar",
+    "toamasina"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Betsimisaraka": 0
+   },
+   "hukum_slug": [
+    "madagaskar"
+   ]
+  },
+  {
+   "id": "buna",
+   "ad": "Buna Krallığı (Kulango)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 207,
+   "sira": 210,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "buna",
+    "buna-kralligi",
+    "bunalar",
+    "kulango"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Buna": 5172
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Buna",
+     "n": 5,
+     "ilk": [
+      [
+       "ibn-buna",
+       "İBN BÛNÂ"
+      ],
+      [
+       "bunama",
+       "BUNAMA"
+      ],
+      [
+       "bunan-b-muhammed",
+       "BÜNÂN b. MUHAMMED بنان بن محمد"
+      ],
+      [
+       "sabit-el-bunani",
+       "SÂBİT el-BÜNÂNÎ ثابت البناني"
+      ],
+      [
+       "gur-i-emir",
+       "GÛR-ı EMÎR گور أمير"
+      ]
+     ]
+    },
+    {
+     "q": "Kulango",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "bunama",
+     "baslik": "BUNAMA"
+    },
+    {
+     "slug": "bunan-b-muhammed",
+     "baslik": "BÜNÂN b. MUHAMMED بنان بن محمد"
+    }
+   ]
+  },
+  {
+   "id": "gyaaman",
+   "ad": "Gyaaman Krallığı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 205,
+   "sira": 211,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gyaaman",
+    "gyaaman-kralligi",
+    "gyaamanlar",
+    "bondugu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gyaaman": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Gyaaman",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "baroda",
+   "ad": "Baroda Devleti (Gaikvad Hanedanı)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 203,
+   "sira": 213,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "baroda",
+    "baroda-devleti",
+    "barodalar",
+    "gaikvad-hanedani"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Baroda": 90
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Baroda",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Gaikvad Hanedanı",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "fetret-musa",
+   "ad": "Musa Çelebi Saltanatı (Rumeli)",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 203,
+   "sira": 212,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "fetret",
+    "rumeli",
+    "edirne"
+   ],
+   "baslik": [
+    "FETRET",
+    "RUMELİ",
+    "EDİRNE"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "fetret-musa",
+    "musa-celebi-saltanati",
+    "musa",
+    "musalar",
+    "saltanati",
+    "fetretler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Musa": 3506
+   },
+   "hukum_slug": [
+    "fetret",
+    "rumeli",
+    "edirne"
+   ]
+  },
+  {
+   "id": "meysur",
+   "ad": "Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 198,
+   "sira": 214,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "meysur",
+    "tipu-sultan"
+   ],
+   "baslik": [
+    "MEYSÛR",
+    "TÎPÛ SULTAN"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "meysur-sultanligi",
+    "meysurlar",
+    "haydar-ali",
+    "seringapatam"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Meysûr": 29
+   },
+   "hukum_slug": [
+    "meysur"
+   ]
+  },
+  {
+   "id": "indor",
+   "ad": "İndor Devleti (Holkar Hanedanı)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 191,
+   "sira": 216,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "indor",
+    "indor-devleti",
+    "indorlar",
+    "holkar-hanedani"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İndor": 3
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "İndor",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "indor",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Holkar Hanedanı",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bharatpur-cat",
+   "ad": "Bharatpur Krallığı (Jat)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 191,
+   "sira": 215,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bharatpur-cat",
+    "bharatpur-kralligi",
+    "bharatpur",
+    "bharatpurlar",
+    "jat"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bharatpur": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Bharatpur",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Jat",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "incu",
+   "ad": "İncû Hanedanı",
+   "bolge": "iran",
+   "yerlesim_yil": 190,
+   "sira": 217,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "incu",
+    "siraz"
+   ],
+   "baslik": [
+    "İNCÜ",
+    "ŞÎRAZ"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "incu-hanedani",
+    "incular"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İncû": 24
+   },
+   "hukum_slug": [
+    "incu"
+   ]
+  },
+  {
+   "id": "kong-vattara",
+   "ad": "Kong Devleti (Vattara)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 187,
+   "sira": 218,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kong-vattara",
+    "kong-devleti",
+    "kong",
+    "konglar",
+    "vattara"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kong": 996
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kong",
+     "n": 5,
+     "ilk": [
+      [
+       "kongo-demokratik-cumhuriyeti",
+       "KONGO DEMOKRATİK CUMHURİYETİ"
+      ],
+      [
+       "balikesir-kongreleri",
+       "BALIKESİR KONGRELERİ"
+      ],
+      [
+       "erzurum-kongresi",
+       "ERZURUM KONGRESİ"
+      ],
+      [
+       "musluman-kongreleri",
+       "MÜSLÜMAN KONGRELERİ"
+      ],
+      [
+       "sivas-kongresi",
+       "SİVAS KONGRESİ"
+      ]
+     ]
+    },
+    {
+     "q": "Vattara",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": [],
+   "hukum_elle": "YANLIS?",
+   "elle_not": "KONGO ≠ Kong (Fildişi)"
+  },
+  {
+   "id": "eyyubi-hisnikeyfa",
+   "ad": "Hısnıkeyfâ Eyyûbîleri",
+   "bolge": "anadolu",
+   "yerlesim_yil": 181,
+   "sira": 219,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "hisnikeyfa",
+    "eyyubiler"
+   ],
+   "baslik": [
+    "HISNIKEYFÂ",
+    "EYYÛBÎLER"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "eyyubi-hisnikeyfa",
+    "hisnikeyfa-eyyubileri",
+    "hisnikeyfalar",
+    "eyyubileri",
+    "eyyubi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "hisnikeyfa"
+   ]
+  },
+  {
+   "id": "alaiye",
+   "ad": "Alâiye Beyliği (Alanya)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 178,
+   "sira": 220,
+   "hukum": "VAR",
+   "canli_slug": [
+    "alaiye",
+    "alaiye-beyligi",
+    "alanya"
+   ],
+   "baslik": [
+    "ALÂİYE",
+    "ALÂİYE BEYLİĞİ",
+    "ALANYA"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "alaiyeler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "alaiye-beyligi"
+   ]
+  },
+  {
+   "id": "prusya-dukaligi",
+   "ad": "Prusya Dükalığı",
+   "bolge": "orta-avrupa",
+   "yerlesim_yil": 176,
+   "sira": 223,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "prusya"
+   ],
+   "baslik": [
+    "PRUSYA"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "prusya-dukaligi",
+    "prusyalar",
+    "konigsberg"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Prusya": 124
+   },
+   "hukum_slug": [
+    "prusya"
+   ]
+  },
+  {
+   "id": "cunagadh",
+   "ad": "Cunagadh (Junagadh) Nevablığı",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 176,
+   "sira": 222,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cunagadh",
+    "cunagadh-nevabligi",
+    "cunagadhlar",
+    "nevabligi",
+    "junagadh"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Cunagadh": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Cunagadh",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Junagadh",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bahavelpur",
+   "ad": "Bahavelpur Emirliği (Dâvudpotralar)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 176,
+   "sira": 221,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "bahavelpur"
+   ],
+   "baslik": [
+    "BAHÂVELPÛR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bahavelpur-emirligi",
+    "bahavelpurlar",
+    "davudpotralar",
+    "bahawalpur"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bahavelpur": 17
+   },
+   "hukum_slug": [
+    "bahavelpur"
+   ]
+  },
+  {
+   "id": "damagaram",
+   "ad": "Damagaram Sultanlığı (Zinder)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 168,
+   "sira": 225,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "damagaram",
+    "damagaram-sultanligi",
+    "damagaramlar",
+    "zinder"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Damagaram": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Damagaram",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Zinder",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bundu",
+   "ad": "Bundu Emirliği",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 168,
+   "sira": 224,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bundu",
+    "bundu-emirligi",
+    "bundular",
+    "bulebane"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bundu": 27
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Bundu",
+     "n": 2,
+     "ilk": [
+      [
+       "bundukdari",
+       "BUNDUKDÂRÎ"
+      ],
+      [
+       "baybars-i-camii",
+       "BAYBARS I CAMİİ"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "bundukdari",
+     "baslik": "BUNDUKDÂRÎ"
+    }
+   ]
+  },
+  {
+   "id": "solima-yalunka",
+   "ad": "Solima Yalunka Krallığı",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 164,
+   "sira": 226,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "solima-yalunka",
+    "solima-yalunka-kralligi",
+    "solima",
+    "solimalar",
+    "yalunka",
+    "falaba"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Solima": 24
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Solima",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "yogyakarta",
+   "ad": "Yogyakarta Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 163,
+   "sira": 227,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yogyakarta",
+    "yogyakarta-sultanligi",
+    "yogyakartalar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Yogyakarta": 19
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Yogyakarta",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kazembe",
+   "ad": "Mvata Kazembe Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 159,
+   "sira": 228,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kazembe",
+    "mvata-kazembe-kralligi",
+    "mvata-kazembe",
+    "mvata",
+    "mvatalar",
+    "kazembeler",
+    "mvansabombve"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mvata": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Mvata",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "cerkez",
+   "ad": "Çerkez Kabile Birlikleri — Batı Grubu (Adige)",
+   "bolge": "kafkasya",
+   "yerlesim_yil": 155,
+   "sira": 229,
+   "hukum": "VAR",
+   "canli_slug": [
+    "cerkezler"
+   ],
+   "baslik": [
+    "ÇERKEZLER"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cerkez",
+    "cerkez-kabile-birlikleri-bati-grubu",
+    "grubu",
+    "adige",
+    "kabile-birlikleri-halinde",
+    "sabit-merkez-yok"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "cerkezler"
+   ]
+  },
+  {
+   "id": "lur-i-kucek",
+   "ad": "Lür-i Küçek Atabegliği",
+   "bolge": "iran",
+   "yerlesim_yil": 154,
+   "sira": 230,
+   "hukum": "VAR",
+   "canli_slug": [
+    "lur-i-kucek"
+   ],
+   "baslik": [
+    "LUR-ı KÛÇEK"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "lur-i-kucek-atabegligi",
+    "lur-kucek",
+    "lur",
+    "lurler",
+    "kucek",
+    "kucekler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "lur-i-kucek"
+   ],
+   "elle_not": "LUR-ı KÛÇEK doğrudan madde"
+  },
+  {
+   "id": "dominik-cumhuriyeti",
+   "ad": "Dominik Cumhuriyeti",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 151,
+   "sira": 231,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dominik-cumhuriyeti",
+    "dominik",
+    "dominikler",
+    "santo-domingo"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dominik": 41
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dominik",
+     "n": 2,
+     "ilk": [
+      [
+       "martini-raymundus",
+       "MARTINI, Raymundus"
+      ],
+      [
+       "anawati-georges-chehata",
+       "ANAWATI, Georges Chehata"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "rozvi",
+   "ad": "Rozvi İmparatorluğu (Changamire)",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 150,
+   "sira": 232,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "rozvi",
+    "rozvi-imparatorlugu",
+    "rozviler",
+    "changamire",
+    "danangombe"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Rozvi": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Rozvi",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Changamire",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "piombino",
+   "ad": "Piombino Prensliği (Appiani hânedanı)",
+   "bolge": "italya",
+   "yerlesim_yil": 149,
+   "sira": 233,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "piza",
+    "kapsam",
+    "piombino",
+    "piombino-prensligi",
+    "piombinolar",
+    "appiani-hanedani"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Piombino": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Piombino",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Appiani hânedanı",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "griqua",
+   "ad": "Griqua Devletleri (Griqualand Batı ve Doğu)",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 148,
+   "sira": 234,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "griqua",
+    "griqua-devletleri",
+    "griqualar",
+    "devletleri",
+    "griqualand-bati-ve-dogu",
+    "griquatown"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Griqua": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Griqua",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Griqualand Batı ve Doğu",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "taceddin",
+   "ad": "Tâceddinoğulları (Canik)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 144,
+   "sira": 235,
+   "hukum": "VAR",
+   "canli_slug": [
+    "taceddinogullari",
+    "niksar"
+   ],
+   "baslik": [
+    "TÂCEDDİNOĞULLARI",
+    "NİKSAR"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "taceddin",
+    "taceddinler",
+    "canik"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "taceddinogullari"
+   ]
+  },
+  {
+   "id": "burhaneddin",
+   "ad": "Kadı Burhâneddin Devleti (Sivas)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 143,
+   "sira": 236,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kadi-burhaneddin",
+    "sivas"
+   ],
+   "baslik": [
+    "KADI BURHÂNEDDİN",
+    "SİVAS"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "kadi",
+     "baslik": "KADI",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "burhaneddin",
+    "kadi-burhaneddin-devleti",
+    "kadilar",
+    "burhaneddinler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kadi-burhaneddin",
+    "sivas"
+   ],
+   "elle_not": "KADI BURHÂNEDDİN kişi maddesi devleti kapsar; KADI kurum maddesi"
+  },
+  {
+   "id": "kilikya-ermeni",
+   "ad": "Kilikya Ermeni Krallığı",
+   "bolge": "anadolu",
+   "yerlesim_yil": 142,
+   "sira": 237,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "sis"
+   ],
+   "baslik": [
+    "ŞÎS"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kilikya-ermeni",
+    "kilikya-ermeni-kralligi",
+    "kilikya",
+    "kilikyalar",
+    "ermeni"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kilikya": 48
+   },
+   "hukum_slug": [
+    "sis"
+   ]
+  },
+  {
+   "id": "gvalyar",
+   "ad": "Gvalyar Devleti (Sindiya Hanedanı)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 140,
+   "sira": 238,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "gvalyar",
+    "gvalyar-devleti",
+    "gvalyarlar",
+    "sindiya-hanedani"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Gvalyar": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Gvalyar",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Sindiya Hanedanı",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ngoni",
+   "ad": "Ngoni Devletleri",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 126,
+   "sira": 239,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "malavi"
+   ],
+   "baslik": [
+    "MALAVİ"
+   ],
+   "canli_tur": [
+    "atif"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ngoni",
+    "ngoni-devletleri",
+    "ngoniler",
+    "devletleri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ngoni": 2
+   },
+   "hukum_slug": [
+    "malavi"
+   ]
+  },
+  {
+   "id": "komanci",
+   "ad": "Komançi (Comanchería)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 125,
+   "sira": 241,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "komanci",
+    "komanciler",
+    "comancheria",
+    "merkezi-yok-gocebe",
+    "son-direnis-noktasi-palo-duro-kanyonu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Komançi": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Komançi",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "komanci",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Comanchería",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mutahharten",
+   "ad": "Erzincan-Kemah Beyliği (Mutahharten)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 125,
+   "sira": 240,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "erzincan",
+    "akkoyunlular",
+    "kemah"
+   ],
+   "baslik": [
+    "ERZİNCAN",
+    "AKKOYUNLULAR",
+    "KEMAH"
+   ],
+   "canli_tur": [
+    "atif",
+    "atif",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mutahharten",
+    "erzincan-kemah-beyligi",
+    "erzincan-kemah",
+    "erzincanlar",
+    "mutahhartenler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Erzincan": 245
+   },
+   "hukum_slug": [
+    "erzincan"
+   ]
+  },
+  {
+   "id": "surakarta",
+   "ad": "Surakarta Sunanlığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 107,
+   "sira": 243,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "surakarta",
+    "surakarta-sunanligi",
+    "surakartalar",
+    "sunanligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Surakarta": 5
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Surakarta",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "fransiz-guyanasi",
+   "ad": "Fransız Guyanası",
+   "bolge": "guney-amerika",
+   "yerlesim_yil": 107,
+   "sira": 242,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "fransiz-guyanasi",
+    "fransiz",
+    "fransizlar",
+    "guyanasi",
+    "fransizler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Fransız": 2447
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Guyanası",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "guyanasi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tekrur",
+   "ad": "Toucouleur Devleti (Umarî / Segu Tukulor)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 101,
+   "sira": 244,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "tekrur"
+   ],
+   "baslik": [
+    "TEKRÛR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "toucouleur-devleti",
+    "toucouleur",
+    "toucouleurlar",
+    "tekrurlar",
+    "umari",
+    "segu-tukulor",
+    "segu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Toucouleur": 0
+   },
+   "hukum_slug": [
+    "tekrur"
+   ],
+   "elle_not": "TEKRÛR"
+  },
+  {
+   "id": "transvaal",
+   "ad": "Transvaal (Güney Afrika Cumhuriyeti — Zuid-Afrikaansche Republiek)",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 100,
+   "sira": 245,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "transvaal",
+    "transvaallar",
+    "guney-afrika-cumhuriyeti-zuid-afrikaansche-republiek",
+    "pretoria"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Transvaal": 3
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Transvaal",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Güney Afrika Cumhuriyeti — Zuid-Afrikaansche Republiek",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "cimma-sultanligi",
+   "ad": "Cimma (Jimma) Sultanlığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 94,
+   "sira": 247,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "cimma"
+   ],
+   "baslik": [
+    "CİMMÂ"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cimma-sultanligi",
+    "cimmalar",
+    "jimma",
+    "ciren"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Cimma": 3
+   },
+   "hukum_slug": [
+    "cimma"
+   ]
+  },
+  {
+   "id": "cikasav",
+   "ad": "Çikasav (Chickasaw)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 94,
+   "sira": 246,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cikasav",
+    "cikasavlar",
+    "chickasaw",
+    "cikasav-yarlari"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Çikasav": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Çikasav",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "cikasav",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Chickasaw",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "basuto",
+   "ad": "Basuto (Basotho) Krallığı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 92,
+   "sira": 248,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "basuto",
+    "basuto-kralligi",
+    "basutolar",
+    "basotho",
+    "thaba-bosiu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Basuto": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Basuto",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Basotho",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "esrefogullari",
+   "ad": "Eşrefoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 90,
+   "sira": 249,
+   "hukum": "VAR",
+   "canli_slug": [
+    "esrefogullari",
+    "beysehir"
+   ],
+   "baslik": [
+    "EŞREFOĞULLARI",
+    "BEYŞEHİR"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "esrefogullari"
+   ]
+  },
+  {
+   "id": "saruhan",
+   "ad": "Saruhanoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 89,
+   "sira": 250,
+   "hukum": "VAR",
+   "canli_slug": [
+    "saruhanogullari",
+    "manisa"
+   ],
+   "baslik": [
+    "SARUHANOĞULLARI",
+    "MANİSA"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "saruhan",
+    "saruhanlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "saruhanogullari"
+   ]
+  },
+  {
+   "id": "svazi",
+   "ad": "Svazi Krallığı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 88,
+   "sira": 252,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "svazi",
+    "svazi-kralligi",
+    "svaziler",
+    "lobamba"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Svazi": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Svazi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "hosut",
+   "ad": "Hoşut (Kokonor) Hanlığı",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 88,
+   "sira": 251,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hosut",
+    "hosut-hanligi",
+    "hosutlar",
+    "kokonor"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Hoşut": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hoşut",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "hosut",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Kokonor",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "liptako",
+   "ad": "Liptako Emirliği (Dori)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 87,
+   "sira": 254,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "liptako",
+    "liptako-emirligi",
+    "liptakolar",
+    "dori"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Liptako": 3
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Liptako",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Dori",
+     "n": 1,
+     "ilk": [
+      [
+       "preveze-deniz-muharebesi",
+       "PREVEZE DENİZ MUHAREBESİ"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "inancogullari",
+   "ad": "İnançoğulları (Denizli/Lâdik Beyliği)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 87,
+   "sira": 253,
+   "hukum": "VAR",
+   "canli_slug": [
+    "inancogullari",
+    "denizli",
+    "ladik-beyligi"
+   ],
+   "baslik": [
+    "İNANÇOĞULLARI",
+    "DENİZLİ",
+    "LÂDİK BEYLİĞİ"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "isparta-alaiye-denizli"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "inancogullari"
+   ]
+  },
+  {
+   "id": "massina",
+   "ad": "Masina Halifeliği (Hamdullahi)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 85,
+   "sira": 255,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "massina",
+    "masina-halifeligi",
+    "masina",
+    "masinalar",
+    "halifeligi",
+    "massinalar",
+    "hamdullahi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Masina": 16
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Masina",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Hamdullahi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "cobanogullari",
+   "ad": "Çobanoğulları",
+   "bolge": "anadolu",
+   "yerlesim_yil": 84,
+   "sira": 256,
+   "hukum": "VAR",
+   "canli_slug": [
+    "cobanogullari",
+    "kastamonu"
+   ],
+   "baslik": [
+    "ÇOBANOĞULLARI",
+    "KASTAMONU"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "cobanogullari"
+   ]
+  },
+  {
+   "id": "pontianak",
+   "ad": "Pontianak Sultanlığı (Borneo)",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 83,
+   "sira": 257,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "borneo"
+   ],
+   "baslik": [
+    "BORNEO"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pontianak",
+    "pontianak-sultanligi",
+    "pontianaklar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Pontianak": 4
+   },
+   "hukum_slug": [
+    "borneo"
+   ]
+  },
+  {
+   "id": "mangbetu",
+   "ad": "Mangbetu Krallığı",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 80,
+   "sira": 258,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mangbetu",
+    "mangbetu-kralligi",
+    "mangbetular",
+    "nangazizi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Mangbetu": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Mangbetu",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tonga-kralligi",
+   "ad": "Tonga Krallığı",
+   "bolge": "okyanusya",
+   "yerlesim_yil": 78,
+   "sira": 260,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tonga-kralligi",
+    "tonga",
+    "tongalar",
+    "nuku-alofa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tonga": 17
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tonga",
+     "n": 1,
+     "ilk": [
+      [
+       "tonga-alp-er",
+       "TONGA ALP ER"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "tonga-alp-er",
+     "baslik": "TONGA ALP ER"
+    }
+   ]
+  },
+  {
+   "id": "bahreyn",
+   "ad": "Bahreyn (Âl Halîfe Şeyhliği)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 78,
+   "sira": 259,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "bahreyn"
+   ],
+   "baslik": [
+    "BAHREYN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bahreynler",
+    "al-halife-seyhligi",
+    "manama"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bahreyn": 352
+   },
+   "hukum_slug": [
+    "bahreyn"
+   ]
+  },
+  {
+   "id": "kert",
+   "ad": "Kertler (Herat)",
+   "bolge": "iran",
+   "yerlesim_yil": 74,
+   "sira": 262,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kert",
+    "herat"
+   ],
+   "baslik": [
+    "KERT",
+    "HERAT"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kertler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kert",
+    "herat"
+   ],
+   "elle_not": "KERT hanedan maddesi (Kertler)"
+  },
+  {
+   "id": "tungning",
+   "ad": "Tungning Krallığı (Zheng / Koxinga)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 74,
+   "sira": 261,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "tungning",
+    "tungning-kralligi",
+    "tungningler",
+    "zheng",
+    "koxinga",
+    "amoy-tainan"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tungning": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Tungning",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Zheng",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "toro",
+   "ad": "Toro Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 70,
+   "sira": 263,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "toro",
+    "toro-kralligi",
+    "torolar",
+    "fort-portal"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Toro": 175
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Toro",
+     "n": 1,
+     "ilk": [
+      [
+       "ceracime",
+       "CERÂCİME الجراجمة"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ibadan",
+   "ad": "İbadan Devleti",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 65,
+   "sira": 264,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "ibadan"
+   ],
+   "baslik": [
+    "İBADAN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ibadan-devleti",
+    "ibadanlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İbadan": 6
+   },
+   "hukum_slug": [
+    "ibadan"
+   ]
+  },
+  {
+   "id": "ahiler",
+   "ad": "Ahi Birliği (Ankara)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 64,
+   "sira": 266,
+   "hukum": "VAR",
+   "canli_slug": [
+    "ankara"
+   ],
+   "baslik": [
+    "ANKARA"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "ahi",
+     "baslik": "AHÎ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "yetersiz",
+    "ahiler",
+    "ahi-birligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "ankara"
+   ],
+   "elle_not": "AHÎ yanlış madde; elle denendi: `ahilik` 200 AHÎLİK"
+  },
+  {
+   "id": "darul-kuti",
+   "ad": "Dârü'l-Kûtî Sultanlığı (Senûsî)",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 64,
+   "sira": 265,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "darul-kuti",
+    "daru-l-kuti-sultanligi",
+    "daru-l-kuti",
+    "daru-l",
+    "daru-ller",
+    "kuti",
+    "darul",
+    "darullar",
+    "senusi",
+    "ndele"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dârü": 2469
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dârü",
+     "n": 5,
+     "ilk": [
+      [
+       "daruga",
+       "DARUGA"
+      ],
+      [
+       "darul-asaril-arabiyye",
+       "DÂRÜ’l-ÂSÂRİ’l-ARABİYYE"
+      ],
+      [
+       "darul-hikmetil-islamiyye",
+       "DÂRÜ’l-HİKMETİ’l-İSLÂMİYYE دار الحكمة الإسلامية"
+      ],
+      [
+       "darul-hilafetil-aliyye-medresesi",
+       "DÂRÜ’l-HİLÂFETİ’l-ALİYYE MEDRESESİ"
+      ],
+      [
+       "darul-kutubil-misriyye",
+       "DÂRÜ’l-KÜTÜBİ’l-MISRİYYE دار الكتب المصرية"
+      ]
+     ]
+    },
+    {
+     "q": "daru",
+     "n": 5,
+     "ilk": [
+      [
+       "daruga",
+       "DARUGA"
+      ],
+      [
+       "darul-asaril-arabiyye",
+       "DÂRÜ’l-ÂSÂRİ’l-ARABİYYE"
+      ],
+      [
+       "darul-hikmetil-islamiyye",
+       "DÂRÜ’l-HİKMETİ’l-İSLÂMİYYE دار الحكمة الإسلامية"
+      ],
+      [
+       "darul-hilafetil-aliyye-medresesi",
+       "DÂRÜ’l-HİLÂFETİ’l-ALİYYE MEDRESESİ"
+      ],
+      [
+       "darul-kutubil-misriyye",
+       "DÂRÜ’l-KÜTÜBİ’l-MISRİYYE دار الكتب المصرية"
+      ]
+     ]
+    },
+    {
+     "q": "Senûsî",
+     "n": 5,
+     "ilk": [
+      [
+       "senusi-ahmed-serif",
+       "SENÛSÎ, Ahmed Şerîf أحمد الشريف السنوسي"
+      ],
+      [
+       "senusi-muhammed-b-ali",
+       "SENÛSÎ, Muhammed b. Ali محمّد بن علي السنوسي"
+      ],
+      [
+       "senusi-muhammed-mehdi",
+       "SENÛSÎ, Muhammed Mehdî محمّد المهدي السنوسي"
+      ],
+      [
+       "senusi-muhammed-b-osman",
+       "SENÛSÎ, Muhammed b. Osman محمّد بن عثمان السنوسي"
+      ],
+      [
+       "senusi-muhammed-b-yusuf",
+       "SENÛSÎ, Muhammed b. Yûsuf محمّد بن يوسف السنوسي"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "daruga",
+     "baslik": "DARUGA"
+    },
+    {
+     "slug": "darul-asaril-arabiyye",
+     "baslik": "DÂRÜ’l-ÂSÂRİ’l-ARABİYYE"
+    },
+    {
+     "slug": "darul-hikmetil-islamiyye",
+     "baslik": "DÂRÜ’l-HİKMETİ’l-İSLÂMİYYE دار الحكمة الإسلامية"
+    },
+    {
+     "slug": "darul-hilafetil-aliyye-medresesi",
+     "baslik": "DÂRÜ’l-HİLÂFETİ’l-ALİYYE MEDRESESİ"
+    },
+    {
+     "slug": "darul-kutubil-misriyye",
+     "baslik": "DÂRÜ’l-KÜTÜBİ’l-MISRİYYE دار الكتب المصرية"
+    },
+    {
+     "slug": "senusi-ahmed-serif",
+     "baslik": "SENÛSÎ, Ahmed Şerîf أحمد الشريف السنوسي"
+    },
+    {
+     "slug": "senusi-muhammed-b-ali",
+     "baslik": "SENÛSÎ, Muhammed b. Ali محمّد بن علي السنوسي"
+    },
+    {
+     "slug": "senusi-muhammed-mehdi",
+     "baslik": "SENÛSÎ, Muhammed Mehdî محمّد المهدي السنوسي"
+    },
+    {
+     "slug": "senusi-muhammed-b-osman",
+     "baslik": "SENÛSÎ, Muhammed b. Osman محمّد بن عثمان السنوسي"
+    },
+    {
+     "slug": "senusi-muhammed-b-yusuf",
+     "baslik": "SENÛSÎ, Muhammed b. Yûsuf محمّد بن يوسف السنوسي"
+    }
+   ]
+  },
+  {
+   "id": "kenmu",
+   "ad": "Kenmu Restorasyonu (Japonya)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 57,
+   "sira": 267,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "japonya"
+   ],
+   "baslik": [
+    "JAPONYA"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kenmu",
+    "kenmu-restorasyonu",
+    "kenmular",
+    "restorasyonu",
+    "kyoto"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kenmu": 0
+   },
+   "hukum_slug": [
+    "japonya"
+   ]
+  },
+  {
+   "id": "taiping",
+   "ad": "Taiping Cennetsel Krallığı",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 56,
+   "sira": 268,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "taiping",
+    "taiping-cennetsel-kralligi",
+    "taiping-cennetsel",
+    "taipingler",
+    "cennetsel",
+    "nanjing"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Taiping": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Taiping",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "matabele",
+   "ad": "Matabele (Ndebele) Krallığı",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 54,
+   "sira": 269,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "matabele",
+    "matabele-kralligi",
+    "matabeleler",
+    "ndebele",
+    "bulavayo"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Matabele": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Matabele",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Ndebele",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "hehe",
+   "ad": "Hehe Krallığı",
+   "bolge": "dogu-afrika",
+   "yerlesim_yil": 49,
+   "sira": 270,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hehe",
+    "hehe-kralligi",
+    "heheler",
+    "kalenga"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Hehe": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hehe",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "oranj",
+   "ad": "Oranj Hür Devleti (Oranje Vrijstaat)",
+   "bolge": "guney-afrika",
+   "yerlesim_yil": 48,
+   "sira": 271,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "oranj",
+    "oranj-hur-devleti",
+    "oranj-hur",
+    "oranjlar",
+    "hur",
+    "oranje-vrijstaat",
+    "bloemfontein"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Oranj": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Oranj",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Oranje Vrijstaat",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "kuayti-sultanligi",
+   "ad": "Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 43,
+   "sira": 272,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kuayti-sultanligi",
+    "kuayti",
+    "kuaytiler",
+    "sihr-mukella",
+    "hadramut-kiyisi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kuaytî": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kuaytî",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "kuayti",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Şihr-Mükellâ",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "pervane",
+   "ad": "Pervâneoğulları (Sinop)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 41,
+   "sira": 273,
+   "hukum": "VAR",
+   "canli_slug": [
+    "pervane",
+    "pervaneogullari",
+    "sinop"
+   ],
+   "baslik": [
+    "PERVÂNE",
+    "PERVÂNEOĞULLARI",
+    "SİNOP"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pervaneler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "pervaneogullari"
+   ]
+  },
+  {
+   "id": "fetret-isa",
+   "ad": "İsa Çelebi Saltanatı (Bursa)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 39,
+   "sira": 274,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "fetret",
+    "bursa"
+   ],
+   "baslik": [
+    "FETRET",
+    "BURSA"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "isa",
+     "baslik": "ÎSÂ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "fetret-isa",
+    "isa-celebi-saltanati",
+    "isalar",
+    "saltanati",
+    "fetretler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İsa": 3467
+   },
+   "hukum_slug": [
+    "fetret",
+    "bursa"
+   ],
+   "elle_not": "ÎSÂ peygamber maddesi"
+  },
+  {
+   "id": "yeke",
+   "ad": "Yeke Krallığı (Msiri)",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 36,
+   "sira": 276,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yeke",
+    "yeke-kralligi",
+    "yekeler",
+    "msiri",
+    "bunkeya"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Yeke": 35
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Yeke",
+     "n": 2,
+     "ilk": [
+      [
+       "yeken-fethi",
+       "YEKEN, Fethî فتحي يكن"
+      ],
+      [
+       "veliyyuddin-yeken",
+       "VELİYYÜDDİN YEKEN وليّ الدين يكن"
+      ]
+     ]
+    },
+    {
+     "q": "Msiri",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "yeken-fethi",
+     "baslik": "YEKEN, Fethî فتحي يكن"
+    }
+   ]
+  },
+  {
+   "id": "pueblo-bagimsizligi",
+   "ad": "Pueblo Bağımsızlığı",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 36,
+   "sira": 275,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "pueblo-bagimsizligi",
+    "pueblo",
+    "pueblolar",
+    "bagimsizligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Pueblo": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Pueblo",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "krakow-serbest-sehri",
+   "ad": "Krakov Serbest Şehri",
+   "bolge": "dogu-avrupa",
+   "yerlesim_yil": 32,
+   "sira": 277,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "krakow-serbest-sehri",
+    "krakov-serbest-sehri",
+    "krakov-serbest",
+    "krakov",
+    "krakovlar",
+    "serbest",
+    "krakow",
+    "krakowlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Krakov": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Krakov",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "zeta",
+   "ad": "Zeta Prensliği (Balšić / Crnojević)",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 31,
+   "sira": 278,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "zeta",
+    "zeta-prensligi",
+    "zetalar",
+    "balsic",
+    "crnojevic",
+    "skadar-cetine"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Zeta": 9
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Zeta",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Balšić",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "galzay",
+   "ad": "Galzaylar (Hotakî Afgan Devleti)",
+   "bolge": "iran",
+   "yerlesim_yil": 29,
+   "sira": 279,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "kandehar"
+   ],
+   "baslik": [
+    "KANDEHAR"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "galzay",
+    "galzaylar",
+    "hotaki-afgan-devleti"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Galzaylar": 9
+   },
+   "hukum_slug": [
+    "kandehar"
+   ]
+  },
+  {
+   "id": "rabih",
+   "ad": "Râbih b. Zübeyr Devleti",
+   "bolge": "orta-afrika",
+   "yerlesim_yil": 14,
+   "sira": 280,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "cad",
+    "zubeyr"
+   ],
+   "baslik": [
+    "ÇAD",
+    "ZÜBEYR"
+   ],
+   "canli_tur": [
+    "atif",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "rabih",
+    "rabih-b-zubeyr-devleti",
+    "rabih-zubeyr",
+    "rabihler",
+    "dikva"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Râbih": 27
+   },
+   "hukum_slug": [
+    "cad",
+    "zubeyr"
+   ]
+  },
+  {
+   "id": "dashun",
+   "ad": "Dashun (Li Zicheng)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 13,
+   "sira": 281,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dashun",
+    "dashunlar",
+    "li-zicheng",
+    "xi-an-pekin"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dashun": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dashun",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Li Zicheng",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "sutayogullari",
+   "ad": "Sutayogullari",
+   "bolge": "anadolu",
+   "yerlesim_yil": 10,
+   "sira": 284,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sutayogullari"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sutayogullari": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Sutayogullari",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "katar",
+   "ad": "Katar (Âl Sânî Şeyhliği)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 10,
+   "sira": 283,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "katar",
+    "devha"
+   ],
+   "baslik": [
+    "KATAR",
+    "DEVHA"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "katarlar",
+    "al-sani-seyhligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Katar": 328
+   },
+   "hukum_slug": [
+    "katar"
+   ]
+  },
+  {
+   "id": "izlanda",
+   "ad": "İzlanda",
+   "bolge": "kuzey-avrupa",
+   "yerlesim_yil": 10,
+   "sira": 282,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "izlanda",
+    "izlandalar",
+    "reykjavik"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İzlanda": 13
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "İzlanda",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "izlanda",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "danzig-serbest-sehri-1807",
+   "ad": "Danzig Serbest Şehri (Napolyon Dönemi)",
+   "bolge": "dogu-avrupa",
+   "yerlesim_yil": 7,
+   "sira": 285,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "danzig-serbest-sehri-1807",
+    "danzig-serbest-sehri",
+    "danzig-serbest",
+    "danzig",
+    "danzigler",
+    "serbest",
+    "napolyon-donemi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Danzig": 7
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Danzig",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Napolyon Dönemi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "dukagin",
+   "ad": "Dukagin (Dukagjini) Prensliği",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 6,
+   "sira": 286,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dukagin",
+    "dukagin-prensligi",
+    "dukaginler",
+    "dukagjini"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dukagin": 7
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dukagin",
+     "n": 4,
+     "ilk": [
+      [
+       "dukakinzade-ahmed-bey",
+       "DUKAKİNZÂDE AHMED BEY"
+      ],
+      [
+       "dukakinzade-ahmed-pasa",
+       "DUKAKİNZÂDE AHMED PAŞA"
+      ],
+      [
+       "ahmed-bey-dukakinzade",
+       "AHMED BEY, Dukakinzâde"
+      ],
+      [
+       "ahmed-pasa-dukakinzade",
+       "AHMED PAŞA, Dukakinzâde"
+      ]
+     ]
+    },
+    {
+     "q": "Dukagjini",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "urdun-emirligi",
+   "ad": "Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 5,
+   "sira": 287,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "urdun"
+   ],
+   "baslik": [
+    "ÜRDÜN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "urdun-emirligi",
+    "sarki-urdun-emirligi",
+    "sarki-urdun",
+    "sarki",
+    "sarkiler",
+    "urdunlar",
+    "abdullah-bin-huseyin"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Şarkî": 1109
+   },
+   "hukum_slug": [
+    "urdun"
+   ]
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "ad": "Buhara Halk Sovyet Cumhuriyeti",
+   "bolge": "orta-asya",
+   "yerlesim_yil": 3,
+   "sira": 288,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "buhara"
+   ],
+   "baslik": [
+    "BUHARA"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "hanl",
+    "buhara-halk-cumhuriyeti",
+    "buhara-halk-sovyet-cumhuriyeti",
+    "buhara-sovyet",
+    "buharalar",
+    "sovyet"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Buhara": 569
+   },
+   "hukum_slug": [
+    "buhara"
+   ]
+  },
+  {
+   "id": "rif-cumhuriyeti",
+   "ad": "Rif Cumhuriyeti (Abdülkerim el-Hattâbî)",
+   "bolge": "kuzey-afrika",
+   "yerlesim_yil": 2,
+   "sira": 289,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "abdulkerim-el-hattabi"
+   ],
+   "baslik": [
+    "ABDÜLKERÎM el-HATTÂBÎ"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kapsam",
+    "rif-cumhuriyeti",
+    "rif",
+    "rifler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Rif": 1142
+   },
+   "hukum_slug": [
+    "abdulkerim-el-hattabi"
+   ]
+  },
+  {
+   "id": "aiz",
+   "ad": "Âiz Emirliği (Ebhâ / Asîr)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 1,
+   "sira": 290,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "ebha"
+   ],
+   "baslik": [
+    "EBHÂ"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "aiz",
+    "aiz-emirligi",
+    "aizler",
+    "asir"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Âiz": 41
+   },
+   "hukum_slug": [
+    "ebha"
+   ]
+  },
+  {
+   "id": "topia",
+   "ad": "Topia (Thopia) Beyliği",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 335,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "topia",
+    "topia-beyligi",
+    "topialar",
+    "thopia"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Topia": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Topia",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Thopia",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "tannu-tuva",
+   "ad": "Tannu Tuva Halk Cumhuriyeti",
+   "bolge": "sibirya-bozkir",
+   "yerlesim_yil": 0,
+   "sira": 334,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tuva"
+   ],
+   "baslik": [
+    "TUVA"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kapsam",
+    "tannu-tuva",
+    "tannu-tuva-halk-cumhuriyeti",
+    "tannu",
+    "tannular"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Tannu": 9
+   },
+   "hukum_slug": [
+    "tuva"
+   ]
+  },
+  {
+   "id": "suriye-arap-kralligi",
+   "ad": "Suriye Arap Krallığı (Faysal)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 0,
+   "sira": 333,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "suriye"
+   ],
+   "baslik": [
+    "SURİYE"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "arap",
+     "baslik": "ARAP",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "suriye-arap-kralligi",
+    "suriye-arap",
+    "suriyeler",
+    "faysal",
+    "sam"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Suriye": 1964
+   },
+   "hukum_slug": [
+    "suriye"
+   ],
+   "elle_not": "ARAP halk maddesi; SURİYE ülke maddesi"
+  },
+  {
+   "id": "song",
+   "ad": "Song Hanedanı (Çin)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 0,
+   "sira": 332,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "cin"
+   ],
+   "baslik": [
+    "CİN"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "song",
+    "song-hanedani",
+    "songlar",
+    "bianjing-lin-an"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Song": 96
+   },
+   "hukum_slug": [
+    "cin"
+   ]
+  },
+  {
+   "id": "sarki-rumeli",
+   "ad": "Şarkî Rumeli Vilayeti (Özerk)",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 331,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "filibe"
+   ],
+   "baslik": [
+    "FİLİBE"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yetersiz",
+    "sarki-rumeli",
+    "sarki-rumeli-vilayeti",
+    "sarki",
+    "sarkiler",
+    "vilayeti",
+    "ozerk"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Şarkî": 1109
+   },
+   "hukum_slug": [
+    "filibe"
+   ]
+  },
+  {
+   "id": "sanzan",
+   "ad": "Sanzan Dönemi (Üç Krallık, Okinawa)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 0,
+   "sira": 330,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sanzan",
+    "sanzan-donemi",
+    "sanzanlar",
+    "donemi",
+    "uc-krallik",
+    "okinawa",
+    "uc-ayri-merkez-nakijin",
+    "urasoe",
+    "shuri",
+    "ozato"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sanzan": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Sanzan",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Üç Krallık",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "sani-emirligi",
+   "ad": "Âl-i Sânî Emirliği (Katar)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 0,
+   "sira": 329,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "katar"
+   ],
+   "baslik": [
+    "KATAR"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "sani",
+     "baslik": "SÂNİ‘",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "sani-emirligi",
+    "al-i-sani-emirligi",
+    "saniler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sânî": 573
+   },
+   "hukum_slug": [
+    "katar"
+   ],
+   "elle_not": "SÂNİ‘ ≠ Âl-i Sânî"
+  },
+  {
+   "id": "sabah-emirligi",
+   "ad": "Sabah Emirliği (Kuveyt)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 0,
+   "sira": 328,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "kuveyt"
+   ],
+   "baslik": [
+    "KÜVEYT"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "sabah-emirligi",
+    "sabah",
+    "sabahlar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Sabah": 908
+   },
+   "hukum_slug": [
+    "kuveyt"
+   ]
+  },
+  {
+   "id": "ranquel",
+   "ad": "Ranquel Konfederasyonu",
+   "bolge": "guney-amerika",
+   "yerlesim_yil": 0,
+   "sira": 327,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ranquel",
+    "ranquel-konfederasyonu",
+    "ranqueller"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ranquel": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Ranquel",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "orta-macar-kralligi",
+   "ad": "Orta Macar Krallığı (Tököli İmre)",
+   "bolge": "orta-avrupa",
+   "yerlesim_yil": 0,
+   "sira": 326,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "tokoli-imre"
+   ],
+   "baslik": [
+    "TÖKÖLİ, İmre"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "orta-macar-kralligi",
+    "orta-macar",
+    "orta",
+    "ortalar",
+    "macar"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Macar": 607
+   },
+   "hukum_slug": [
+    "tokoli-imre"
+   ]
+  },
+  {
+   "id": "oniki-ada-italyan",
+   "ad": "İtalya'nın Oniki Ada İşgali",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 325,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "rodos"
+   ],
+   "baslik": [
+    "RODOS"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "oniki-ada-italyan",
+    "italya-nin-oniki-ada-isgali",
+    "italya-nin",
+    "italya-ninlar",
+    "isgali",
+    "oniki",
+    "onikiler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İtalya": 1016
+   },
+   "hukum_slug": [
+    "rodos"
+   ]
+  },
+  {
+   "id": "norvec-isvec-birligi",
+   "ad": "Norveç Krallığı (İsveç ile Birlik)",
+   "bolge": "kuzey-avrupa",
+   "yerlesim_yil": 0,
+   "sira": 324,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "norvec-isvec-birligi",
+    "norvec-kralligi",
+    "norvec",
+    "norvecler",
+    "isvec-ile-birlik",
+    "christiania"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Norveç": 32
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Norveç",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "norvec",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "İsveç ile Birlik",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "newfoundland-dominyonu",
+   "ad": "Newfoundland (Sorumlu Hükûmet → Dominyon)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 0,
+   "sira": 323,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "newfoundland-dominyonu",
+    "newfoundland",
+    "newfoundlandlar",
+    "sorumlu-hukumet-dominyon",
+    "st-john-s"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Newfoundland": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Newfoundland",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Sorumlu Hükûmet → Dominyon",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "mogol-imparatorlugu",
+   "ad": "Moğol İmparatorluğu (bölünmemiş)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 0,
+   "sira": 322,
+   "hukum": "VAR",
+   "canli_slug": [
+    "mogollar"
+   ],
+   "baslik": [
+    "MOĞOLLAR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "mogol-imparatorlugu",
+    "mogol",
+    "bolunmemis",
+    "karakurum"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "mogollar"
+   ]
+  },
+  {
+   "id": "misir-eyaleti",
+   "ad": "Osmanlı Mısır Eyaleti",
+   "bolge": "misir-sudan",
+   "yerlesim_yil": 0,
+   "sira": 321,
+   "hukum": "VAR",
+   "canli_slug": [
+    "osmanlilar",
+    "misir"
+   ],
+   "baslik": [
+    "OSMANLILAR",
+    "MISIR"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "misir-eyaleti",
+    "osmanli-misir-eyaleti",
+    "osmanli",
+    "eyaleti",
+    "misirler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "osmanlilar"
+   ]
+  },
+  {
+   "id": "meysur-racaligi",
+   "ad": "Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)",
+   "bolge": "guney-asya",
+   "yerlesim_yil": 0,
+   "sira": 320,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "meysur"
+   ],
+   "baslik": [
+    "MEYSÛR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "meysur-racaligi",
+    "meysurlar",
+    "wodeyar-hanedani",
+    "ingiliz-himayesinde"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Meysûr": 29
+   },
+   "hukum_slug": [
+    "meysur"
+   ]
+  },
+  {
+   "id": "luksemburg-hollanda-birligi",
+   "ad": "Lüksemburg Büyük Dükalığı (Hollanda ile Şahsî Birlik)",
+   "bolge": "bati-avrupa",
+   "yerlesim_yil": 0,
+   "sira": 319,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "luksemburg-hollanda-birligi",
+    "luksemburg-buyuk-dukaligi",
+    "luksemburg-buyuk",
+    "luksemburg",
+    "luksemburglar",
+    "buyuk",
+    "hollanda-ile-sahsi-birlik"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Lüksemburg": 11
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Lüksemburg",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "luksemburg",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Hollanda ile Şahsî Birlik",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "lubnan-emirligi",
+   "ad": "Lübnan Emirliği (Ma'noğulları · Şihaboğulları)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 0,
+   "sira": 318,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "lubnan"
+   ],
+   "baslik": [
+    "LÜBNAN"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yaln",
+    "lubnan-emirligi",
+    "lubnanlar",
+    "ma-nogullari-sihabogullari",
+    "dayr-al-kamer-beyteddin"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Lübnan": 479
+   },
+   "hukum_slug": [
+    "lubnan"
+   ]
+  },
+  {
+   "id": "kutlughanli",
+   "ad": "Kutluğhanlılar",
+   "bolge": "iran",
+   "yerlesim_yil": 0,
+   "sira": 317,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kutlughanlilar",
+    "kirman"
+   ],
+   "baslik": [
+    "KUTLUĞHANLILAR",
+    "KİRMAN"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kutlughanli",
+    "kutlughanliler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kutlughanlilar"
+   ]
+  },
+  {
+   "id": "kumuk-samhalligi",
+   "ad": "Kumuk Şamhallığı (Tarki)",
+   "bolge": "kafkasya",
+   "yerlesim_yil": 0,
+   "sira": 316,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kumuklar"
+   ],
+   "baslik": [
+    "KUMUKLAR"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kumuk-samhalligi",
+    "kumuk",
+    "samhalligi",
+    "tarki"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kumuklar"
+   ]
+  },
+  {
+   "id": "kuba-hanligi",
+   "ad": "Kuba Hanlığı",
+   "bolge": "kafkasya",
+   "yerlesim_yil": 0,
+   "sira": 315,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kuba-hanligi",
+    "kuba",
+    "kubalar",
+    "hudad-kalesi-kuba-sehri"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kuba": 280
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kuba",
+     "n": 5,
+     "ilk": [
+      [
+       "kuba--azerbaycan",
+       "KUBA"
+      ],
+      [
+       "kuba--medine",
+       "KUBÂ قباء"
+      ],
+      [
+       "kuba-mescidi",
+       "KUBÂ MESCİDİ"
+      ],
+      [
+       "mescid-i-kuba",
+       "MESCİD-i KUBÂ مسجد قباء"
+      ],
+      [
+       "kubadabad-sarayi",
+       "KUBÂDÂBÂD SARAYI"
+      ]
+     ]
+    }
+   ],
+   "baslik_isabet": [
+    {
+     "slug": "kuba--azerbaycan",
+     "baslik": "KUBA"
+    }
+   ],
+   "hukum_elle": "AD-MADDESI",
+   "elle_not": "başlık aramasıyla: `kuba--azerbaycan` (çıplak `kuba` 302)"
+  },
+  {
+   "id": "konstantin-beyligi",
+   "ad": "Konstantin Beyliği (Ahmed Bey)",
+   "bolge": "kuzey-afrika",
+   "yerlesim_yil": 0,
+   "sira": 314,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "ahmed-bey"
+   ],
+   "baslik": [
+    "AHMED BEY"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "konstantin-beyligi",
+    "konstantin",
+    "konstantinler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Konstantin": 332
+   },
+   "hukum_slug": [
+    "ahmed-bey"
+   ]
+  },
+  {
+   "id": "kibris-ingiliz",
+   "ad": "Kıbrıs'ın İngiliz İdaresi",
+   "bolge": "anadolu",
+   "yerlesim_yil": 0,
+   "sira": 313,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "kibris"
+   ],
+   "baslik": [
+    "KIBRIS"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kibris-ingiliz",
+    "kibris-in-ingiliz-idaresi",
+    "kibris-in",
+    "kibris-inlar",
+    "idaresi",
+    "kibrisler",
+    "lefkosa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kıbrıs": 454
+   },
+   "hukum_slug": [
+    "kibris"
+   ]
+  },
+  {
+   "id": "kasim",
+   "ad": "Kasım Hanlığı (Kasimov)",
+   "bolge": "sibirya-bozkir",
+   "yerlesim_yil": 0,
+   "sira": 312,
+   "hukum": "VAR",
+   "canli_slug": [
+    "kasim-hanligi"
+   ],
+   "baslik": [
+    "KĀSIM HANLIĞI"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kasim",
+    "kasimlar",
+    "kasimler",
+    "kasimov"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {},
+   "hukum_slug": [
+    "kasim-hanligi"
+   ]
+  },
+  {
+   "id": "kaheti-kralligi",
+   "ad": "Kaheti Krallığı",
+   "bolge": "kafkasya",
+   "yerlesim_yil": 0,
+   "sira": 311,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "kaheti-kralligi",
+    "kaheti",
+    "kahetiler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Kaheti": 6
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Kaheti",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "jin-hanedani",
+   "ad": "Jin Hanedanı (Jurchen, Kuzey Çin)",
+   "bolge": "dogu-asya",
+   "yerlesim_yil": 0,
+   "sira": 310,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "jin-hanedani",
+    "jin",
+    "jinler",
+    "jurchen",
+    "kuzey-cin",
+    "zhongdu"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Jin": 38
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Jin",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Jurchen",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "ingiliz-hondurasi",
+   "ad": "İngiliz Hondurası (Belize)",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 0,
+   "sira": 309,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ingiliz-hondurasi",
+    "ingiliz",
+    "ingilizler",
+    "hondurasi",
+    "belize"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "İngiliz": 2449
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Hondurası",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "hondurasi",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Belize",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "harfusogullari",
+   "ad": "Harfûşoğulları (Baalbek Emirliği)",
+   "bolge": "arabistan",
+   "yerlesim_yil": 0,
+   "sira": 308,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yaln",
+    "maddesi",
+    "harfusogullari",
+    "baalbek-emirligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Harfûşoğulları": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Harfûşoğulları",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "harfusogullari",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Baalbek Emirliği",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "ad": "Harezm Halk Sovyet Cumhuriyeti",
+   "bolge": "orta-asya",
+   "yerlesim_yil": 0,
+   "sira": 307,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "ozbekistan",
+    "harezm"
+   ],
+   "baslik": [
+    "ÖZBEKİSTAN",
+    "HÂREZM"
+   ],
+   "canli_tur": [
+    "atif",
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "harezm-halk-cumhuriyeti",
+    "harezm-halk-sovyet-cumhuriyeti",
+    "harezm-sovyet",
+    "harezmler",
+    "sovyet"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Harezm": 84
+   },
+   "hukum_slug": [
+    "harezm"
+   ]
+  },
+  {
+   "id": "fransiz-misir-seferi",
+   "ad": "Napolyon'un Mısır Seferi",
+   "bolge": "misir-sudan",
+   "yerlesim_yil": 0,
+   "sira": 306,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "kahire"
+   ],
+   "baslik": [
+    "KAHİRE"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "yetersiz",
+    "fransiz-misir-seferi",
+    "napolyon-un-misir-seferi",
+    "napolyon-un",
+    "napolyon-unlar",
+    "seferi",
+    "fransiz",
+    "fransizler"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Napolyon": 190
+   },
+   "hukum_slug": [
+    "kahire"
+   ]
+  },
+  {
+   "id": "el-salvador-cumhuriyeti",
+   "ad": "El Salvador Cumhuriyeti",
+   "bolge": "orta-amerika-karayip",
+   "yerlesim_yil": 0,
+   "sira": 305,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "el-salvador-cumhuriyeti",
+    "salvador",
+    "salvadorlar",
+    "san-salvador"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Salvador": 12
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Salvador",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "dubrovnik",
+   "ad": "Dubrovnik (Ragusa) Cumhuriyeti",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 304,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "dubrovnik"
+   ],
+   "baslik": [
+    "DUBROVNİK"
+   ],
+   "canli_tur": [
+    "dogrudan"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dubrovnik-cumhuriyeti",
+    "dubrovnikler",
+    "ragusa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dubrovnik": 71
+   },
+   "hukum_slug": [
+    "dubrovnik"
+   ]
+  },
+  {
+   "id": "dejanovic-prensligi",
+   "ad": "Dejanović Prensliği (Kostadin-ili)",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 303,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "dejanovic-prensligi",
+    "dejanovic",
+    "dejanovicler",
+    "kostadin-ili"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Dejanović": 7
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Dejanović",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "dejanovic",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Kostadin-ili",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "crnojevic-zetasi",
+   "ad": "Crnojević Zetası",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 302,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "crnojevic-zetasi",
+    "crnojevic",
+    "crnojevicler",
+    "zetasi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Crnojević": 3
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Crnojević",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "crnojevic",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "charrua",
+   "ad": "Charrúa (Minuan · Guenoa)",
+   "bolge": "guney-amerika",
+   "yerlesim_yil": 0,
+   "sira": 301,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "charrua",
+    "charrualar",
+    "minuan-guenoa"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Charrúa": 0,
+    "charrua": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Charrúa",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "charrua",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Minuan",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "cemisgezek-beyligi",
+   "ad": "Cemisgezek Beyligi (Melkisi)",
+   "bolge": "anadolu",
+   "yerlesim_yil": 0,
+   "sira": 300,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cemisgezek-beyligi",
+    "cemisgezek",
+    "cemisgezekler",
+    "melkisi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Cemisgezek": 10
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Cemisgezek",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Melkisi",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "cebel-i-lubnan-mutasarrifligi",
+   "ad": "Cebel-i Lübnan Mutasarrıflığı",
+   "bolge": "arabistan",
+   "yerlesim_yil": 0,
+   "sira": 299,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "cebel-i-lubnan-mutasarrifligi",
+    "cebel-lubnan-mutasarrifligi",
+    "cebel",
+    "cebeller",
+    "mutasarrifligi",
+    "beyteddin"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Cebel": 550
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Cebel",
+     "n": 5,
+     "ilk": [
+      [
+       "ibn-kadil-cebel",
+       "İBN KĀDİ’l-CEBEL ابن قاضي الجبل"
+      ],
+      [
+       "muaz-b-cebel",
+       "MUÂZ b. CEBEL معاذ بن جبل"
+      ],
+      [
+       "cebele",
+       "CEBELE جبلة"
+      ],
+      [
+       "cebele-b-eyhem",
+       "CEBELE b. EYHEM جبلة بن الأيهم"
+      ],
+      [
+       "cebele-b-harise",
+       "CEBELE b. HÂRİSE جبلة بن حارثة"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "cebele",
+     "baslik": "CEBELE جبلة"
+    },
+    {
+     "slug": "cebele-b-eyhem",
+     "baslik": "CEBELE b. EYHEM جبلة بن الأيهم"
+    },
+    {
+     "slug": "cebele-b-harise",
+     "baslik": "CEBELE b. HÂRİSE جبلة بن حارثة"
+    }
+   ]
+  },
+  {
+   "id": "bonacolsi",
+   "ad": "Bonacolsi Senyörlüğü (Mantova)",
+   "bolge": "italya",
+   "yerlesim_yil": 0,
+   "sira": 298,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bonacolsi",
+    "bonacolsi-senyorlugu",
+    "bonacolsiler",
+    "senyorlugu",
+    "mantova"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bonacolsi": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Bonacolsi",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Mantova",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bavyera",
+   "ad": "Bavyera (Dükalık → Elektörlük → Krallık)",
+   "bolge": "orta-avrupa",
+   "yerlesim_yil": 0,
+   "sira": 297,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "bavyera",
+    "bavyeralar",
+    "dukalik-elektorluk-krallik",
+    "munih"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bavyera": 25
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Bavyera",
+     "n": 1,
+     "ilk": [
+      [
+       "schiltberger-hans-johannes",
+       "SCHILTBERGER, Hans Johannes"
+      ]
+     ]
+    },
+    {
+     "q": "Dükalık → Elektörlük → Krallık",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "bali-kralliklari-pejeng",
+   "ad": "Bali Pejeng Krallığı",
+   "bolge": "guneydogu-asya",
+   "yerlesim_yil": 0,
+   "sira": 296,
+   "hukum": "YANLIS?",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [
+    {
+     "slug": "bali",
+     "baslik": "BÂLÎ",
+     "tur": "dogrudan"
+    }
+   ],
+   "olu_slug": [
+    "bali-kralliklari-pejeng",
+    "bali-pejeng-kralligi",
+    "bali-pejeng",
+    "baliler",
+    "pejeng"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Bali": 438
+   },
+   "hukum_slug": [],
+   "elle_not": "BÂLÎ ≠ Bali adası",
+   "baslik_arama": [
+    {
+     "q": "Bali",
+     "n": 5,
+     "ilk": [
+      [
+       "bali-sultan",
+       "BALI SULTAN"
+      ],
+      [
+       "bali",
+       "BÂLÎ بالي"
+      ],
+      [
+       "bali-bey-camii",
+       "BÂLÎ BEY CAMİİ"
+      ],
+      [
+       "bali-bey-hani",
+       "BÂLÎ BEY HANI"
+      ],
+      [
+       "bali-efendi-sarhos",
+       "BÂLÎ EFENDİ, Sarhoş"
+      ]
+     ]
+    }
+   ],
+   "baslik_gurultu": [
+    {
+     "slug": "bali-sultan",
+     "baslik": "BALI SULTAN"
+    },
+    {
+     "slug": "bali",
+     "baslik": "BÂLÎ بالي"
+    },
+    {
+     "slug": "bali-bey-camii",
+     "baslik": "BÂLÎ BEY CAMİİ"
+    },
+    {
+     "slug": "bali-bey-hani",
+     "baslik": "BÂLÎ BEY HANI"
+    },
+    {
+     "slug": "bali-efendi-sarhos",
+     "baslik": "BÂLÎ EFENDİ, Sarhoş"
+    }
+   ]
+  },
+  {
+   "id": "arua",
+   "ad": "Aruã (Marajó)",
+   "bolge": "guney-amerika",
+   "yerlesim_yil": 0,
+   "sira": 295,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "arua",
+    "arualar",
+    "marajo"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Aruã": 0,
+    "arua": 2
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Aruã",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "arua",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Marajó",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "arma",
+   "ad": "Arma Paşalığı (Tinbüktü)",
+   "bolge": "bati-afrika",
+   "yerlesim_yil": 0,
+   "sira": 294,
+   "hukum": "AD-MADDESI",
+   "canli_slug": [
+    "arma",
+    "tinbuktu"
+   ],
+   "baslik": [
+    "ARMA",
+    "TİNBÜKTÜ"
+   ],
+   "canli_tur": [
+    "dogrudan",
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ikisini",
+    "arma-pasaligi",
+    "armalar",
+    "pasaligi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Arma": 1061
+   },
+   "hukum_slug": [
+    "arma"
+   ]
+  },
+  {
+   "id": "ammarogullari",
+   "ad": "Ammâroğulları (Trablusgarp)",
+   "bolge": "kuzey-afrika",
+   "yerlesim_yil": 0,
+   "sira": 293,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "trablusgarp"
+   ],
+   "baslik": [
+    "TRABLUSGARP"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "ammarogullari",
+    "trablus"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Ammâroğulları": 15
+   },
+   "hukum_slug": [
+    "trablusgarp"
+   ]
+  },
+  {
+   "id": "aleut",
+   "ad": "Aleut (Unangax̂)",
+   "bolge": "kuzey-amerika",
+   "yerlesim_yil": 0,
+   "sira": 292,
+   "hukum": "BELIRSIZ",
+   "canli_slug": [],
+   "baslik": [],
+   "canli_tur": [],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "aleut",
+    "aleutlar",
+    "unangax",
+    "unalaska"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Aleut": 0
+   },
+   "hukum_slug": [],
+   "baslik_arama": [
+    {
+     "q": "Aleut",
+     "n": 0,
+     "ilk": []
+    },
+    {
+     "q": "Unangax̂",
+     "n": 0,
+     "ilk": []
+    }
+   ],
+   "baslik_isabet": []
+  },
+  {
+   "id": "garbi-trakya",
+   "ad": "Garbî Trakya Hükûmet-i Müstakillesi",
+   "bolge": "balkanlar",
+   "yerlesim_yil": 0,
+   "sira": 291,
+   "hukum": "KAPSAYICI",
+   "canli_slug": [
+    "gumulcine"
+   ],
+   "baslik": [
+    "GÜMÜLCİNE"
+   ],
+   "canli_tur": [
+    "kapsayici"
+   ],
+   "yanlis_madde_supheli": [],
+   "olu_slug": [
+    "garbi-trakya",
+    "garbi-trakya-hukumet-i-mustakillesi",
+    "garbi-trakya-hukumet-mustakillesi",
+    "garbi",
+    "garbiler",
+    "mustakillesi"
+   ],
+   "ariza": [],
+   "icerik_gecisi": {
+    "Garbî": 262
+   },
+   "hukum_slug": [
+    "gumulcine"
+   ]
+  }
+ ],
+ "iscı": 2,
+ "baslik_aramasi_evreni": 172
+}
