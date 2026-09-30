@@ -166120,5 +166120,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5547",
+  "zaman": "2026-09-30 19:39",
+  "kimden": "KAPAT-0052-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAPAT-0052-0930 · parti-emrelic-0052, 128 açık madde (H-0022 zaten kapalıydı) ① ÖLÇTÜM — 93/128 KAPANDI · 35 açık cozuldu 87 · bayat 2 · once-cozuldu 1 · zaten-dogru 3 ¦ olculecek 16 · sirada 12 · senin-kararin 4 · kosu-bekliyor 3 Yöntem: CEVAP notu yalnız akım adı veriyordu → DALGA-0052.md dağılımı → 11 akım raporu (denetim/*-0916.md) → canlı veri. - Kartlar: 72 ekokuma dosyası node ile GERÇEKTEN yüklendi, 778 kart sayıldı. Böylece üç yazım biçimi tuzağı yok. Her cozuldu'nun delili dosya:satır (115 kart satırı). - Yükleyiciler: js/app.js:11119-11124 ve 11137. - Arayüz maddeleri: işlevler app.js'te satırıyla bulundu. - Yerleşim maddeleri: girdi.yukle() ile o günün sahibi soruldu. Yama sonrası kapananlar (hepsi ölçüldü): - H-0075 ve H-0093 BAYAT: eksik kıyas kısımlarını sonradan PADISAH/RIVAYET kartları kapattı. - H-0029/34/54/115/046 tam: EKO-TAMAMLA'nın 5 kartı eksiklerini kapattı. - H-0024/25/27/44: geliştirici notu kutusu artık basılmıyor (app.js:10940). - H-0042: 1632'deki mükerrer Hezarfen kaydı gitti. - H-0077/81 Limni 1656-07-13 · H-0095 Bar ve 5 Ukrayna noktası · H-0011/13 renkler.py. AÇIK KALANLAR, iş sınıfıyla: - sirada 12: · H-0007 ÖLÇÜLDÜ: kisiBul app.js'ten birebir çalıştırıldı, 'Damad İbrahim Paşa' hâlâ Nevşehirli'ye gidiyor. · H-0087: hukum-alani-mesafe'nin satır başlığı BOŞ basılıyor (başlık alanı yok, öneri sözlüğünde de yok). · H-0033: Avrupa ekonomi kıyası için kaynak yok. · H-0039: idam edilen sanatçılar kartı yok. · H-0028: görsel indirme Emre'nin onayını ister. · H-0014: arayüzde komşu eşleşmesi Osmanlı≡tâbi saymıyor. · H-0114: devletsiz halka işareti zamansız. · H-0113: Palopo/Bau-Bau için önce luwu/buton künyesi. · H-0123: Çehrin inmedi (Uman indi). · H-0125: nokta hâlâ 'Kabartay (Nalçik)' adını taşıyor. · H-0103 Aral · H-0108 Hainan (tek nokta). - senin-kararin 4: H-0021/43 Erbil adacığı (yama A mı B mi) · H-0048 'aile künyesi' türü açılsın mı · H-0098 Colmar (kaynak zayıf). - kosu-bekliyor 3: H-0100/101/104. B dolgusu MOTOR_B_DOLGU ile varsayılanda kapalı, data/dolgu.js üretilmemiş. - olculecek 16: · 11 GEOMETRI/MOTOR vakası: GOVDE-CAKISMA/KAFES çaresi koşu 16'da indi ama vaka başına ölçülmedi. · H-0019: 150 km eşiği kaldırıldı (suzgec.js:747); sonuç tarayıcıda ölçülmedi. · H-0092 Katar puan dolgusu. · H-0002/H-0126 TK Kırım: o oturumun teslimi bulunamadı. ② BULAMADIM: TK Kırım oturumunun H-0002/126 teslimi · Vecihî Hasan Efendi (TDV 302) · Avrupa ekonomi kıyası kaynağı · koşu 16 gövdesinde 11 vakanın ölçümü (alet kodlama öncesi biçime yazılmış, koşu sürüyor). ③ İSTİYORUM: (a) Koşu bitince tek bir gövde/tarayıcı turu: 16 olculecek'in 12'sini kapatır. (b) Ucuz uygulama sevki: H-0087 (tek satır başlık) · H-0007 (kisiler.js kaydı) · H-0123 Çehrin · H-0125 ad. (c) 4 senin-kararin Emre'ye. (d) CEVAP.json güncellemesi senin. DOSYALAR: denetim/KAPAT-0052-0930.json · denetim/KAPAT-0052-0930.md. Başka hiçbir şeye yazılmadı, git yok. Bekçim kurulu değil (önceki kurulum çıkış 3 vermişti). Devam varsa send_message ile çağır.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
