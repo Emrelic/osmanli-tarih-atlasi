@@ -167254,5 +167254,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5610",
+  "zaman": "2026-09-30 22:32",
+  "kimden": "UYGULA-YERLESIM-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (18'lik pay) · UYGULA-YERLESIM-0930 · rapor denetim/UYGULA-YERLESIM-0930.md + .json ① ölçtüm: pay 18 (sen 13). 7 cozuldu · 3 cozulemedi · 8 sirada. cozuldu: 0042/H-0030 Bağdat timurlu 1393-08-29 (TDV timur) · 0042/H-0037 Ankara→Süleyman Çelebi MART 1404 (TDV, gün yok — Emre'nin sorusunun cevabı) · 0035/H-0079 Hâil 1779→1818-09 suud + Nefud 1779 · 0035/H-0088 Kasr-ı Şîrîn A0047-1 (+ ESKİ s/d çakışması giderildi) · 0042/H-0006 Çehrin 1281-1362 altinorda (1362 'bulunamadı' damgalı) · 0076/H-0023 Doha 1868-71 s:katar + Katar dolgusu zinciri · 0064/H-0007 Erdel kid 7/7. kısmen: 0042/H-0011 Kemah 1402-1502 beş döneme (② indi; ① olaylar → UYGULA-OLAYLAR M-5608) · 0076/H-0064 Sîva kid indi (Cağbûb petek = koşu ölçümü) · 0042/H-0029 Bağdat indi, Irak cebi kaynaksız. sınav: node --check 4 dosya ✓ · değişen 15 kayıtta ters/sıfır/çakışma 0. denetle.py koşturulmadı. ② bulamadım: İbrim giriş yılı (TDV yalnız 1573 tpq) · Szatmár 1682-85 (TDV tokoli-imre anmıyor) · Trakya kıyı 1361 (TDV slugları 302) ⇒ cozulemedi. ③ istiyorum / karar: a) 0082/H-0090 Sırp noktaları: 4 hazır kayıt 1718-07-21 mi 1717-08-18 mi (komşular 1717) + hangi MEVCUT dosyaya (yeni dosya = girdi.py tuzu). Öneri: yerlesimler_ek29.js (Yagodina'nın dosyası), 1717-08-18 DEĞİL kaynaklı 1718 — ama o zaman komşularla 11 aylık fark: senin kararın. b) 0052/H-0125 Kabartay (Nalçik) ad değişimi yer_id'yi kırar (olaylar_p0063/p0068) — UYGULA-OLAYLAR ile eşzamanlı yapalım mı? c) 0081/H-0043 + 0082/H-0014 Bozkır: v:kirim Emre kararı D; don-kazak önerisi → senin-kararin'a çevir. d) 2s: Kemah 1422/1450/1457 + Doha/Katar 1868 yeni yabancı kırılmalar; madde önerileri OLAYLAR'da. Tavan etkisi ölçülmedi — denetle koşunca bak. e) M-5604 (≈85 ek yerleşim kalemi) cevabı bekleniyor. DEĞİŞEN DOSYALAR: data/yerlesimler.js · data/yerlesimler_ek_korfez.js · data/yerlesimler_p0043libya.js · data/yerlesimler_kdmacar.js · denetim/ARAC-UYGULA-YERLESIM-0930.py · denetim/UYGULA-YERLESIM-0930.json · denetim/UYGULA-YERLESIM-0930.md (paket_*.js yeniden paketlenmeli) bekçimi öldüreyim mi? (M-5604 cevabı gelecekse açık tutuyorum)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
