@@ -166084,5 +166084,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5545",
+  "zaman": "2026-09-30 19:35",
+  "kimden": "KAPAT-0075-76-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAPAT-0075-76-0930 · rapor denetim/KAPAT-0075-76-0930.md (+ .json) ① ÖLÇTÜM — 72 madde, her biri bugünkü veride arandı Toplam: cozuldu 34 · sirada 18 · senin-kararin 14 · olculecek 4 · onay-bekliyor 1 · zaten-dogru 1. - 0075 (48): cozuldu 30 · senin-kararin 12 · sirada 3 · olculecek 2 · onay-bekliyor 1. - 0076 (24): sirada 15 · cozuldu 4 · senin-kararin 2 · olculecek 2 · zaten-dogru 1. Ana bulgu: 0075'in 27 \"kosu-bekliyor\" maddesinin 23'ü hiç koşu beklemiyordu. Hepsi ek okuma kartı; ekokuma_p75a/b/c'de 30 kart var, commit 874c8a31, yükleyicide, bağ çözümü öksüz 0. İş 22 Eylül'de bitmiş, defter güncellenmemiş. Arada çözülenler (delilli): - 0075/H-0017: İbrail ve Yergöğü v:eflak (17cd2f98 · koşu 18). - 0075/H-0001, H-0012, H-0033, H-0037: tahliye okları, kademe, deniz rotası (b82744b6 · 2027e0b2). - 0075/H-0020: Redif odağı. - 0075/H-0039 ve 0076/H-0096 · 0147 · 0139: C dolgusu kapatıldı (c43bc80a). - 0076/H-0121: Sina kid (2e656b0d). - 0076/H-0070: zaten-dogru (enklav beyanlı + Osman Dikne kartı). Hâlâ açık, bugün ölçüldü: - 0075/H-0005: karar verildi (17 Ekim 1830) ama veri hiç değişmedi. Madde olaylar_ek.js:73'te hâlâ 1830-11-08; 12 nokta yalnız SIRP-NOKTA-0930.json'da. - 0075/H-0022: sirbistan s:29 v:0, değişmedi. H-0005 uygulamasına eklenmeli. - 0076/H-0038: 1878 Tuna penceresinde isg 0/58. - 0076/H-0065 ve H-0068 (Darfur): veride çelişki. Komşular 1874'te Mısır'a, 1883'te Mehdi'ye geçiyor; Darfur noktası 1695→1916 kesintisiz darfur. - 0076/H-0095: 6 Bosna noktasının 2'sinde isg var, 4'ünde yok. - 0076/H-0064: 5 kid'in 4'ü düzeldi. Sîva kid'siz, Cağbûb sorunu sürüyor. - 0076/H-0023: Doha penceresi 1871-09-20'de başlıyor, madde günü 1871-04-20'den sonra; madde günü Doha hâlâ sahipsiz. ② BULAMADIM / ÖLÇEMEDİM - Motor çakışması (0075/H-0011 · H-0024, 0076/H-0072 · H-0073): - Önerilen baskasinin_petegini_cikar motora HİÇ girmedi. - Aynı sınıfın çaresi GOVDE-CAKISMA-0079 koşu 16'da indi. - Görsellerin gününde koşu 18 gövdesi ölçülmedi. Ölçüm aleti donemler.js kodlamasından (29 Eyl) önce yazılmış; hâlâ okuyabildiği sınanmadı (D240). Bu yüzden olculecek. - Sivri köşe maddelerinde açı yeniden ölçülmedi; yalnız pencere nokta sayıları var (3 · 0 · 0 · 1). - Tarayıcı ölçümü yok. ③ İSTİYORUM (a) Önerim: H-0005 ile H-0022'yi tek Sırbistan uygulamasına ver (madde günü + künye + 12 nokta + tâbi pencereleri → koşu). (b) GOVDE-CAKISMA-0079-olc.py'nin kodlanmış donemler.js ile koşup koşmadığı bir kez sınansın. Sınanırsa dört olculecek maddesi tek koşuda kapanır. (c) Darfur noktasının zinciri kaynak beklemeden uygulanabilir mi, kararın senin. Komşuların günleri kayıtlı, gerekçe o. Dosyalar: denetim/KAPAT-0075-76-0930.json · denetim/KAPAT-0075-76-0930.md — uygulama YOK, commit YOK. Bekçim yok (kurulu değil); duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5546",
+  "zaman": "2026-09-30 19:36",
+  "kimden": "KAPAT-KUYRUK-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KAPAT-KUYRUK-0930 · KAPSAM ÖLÇÜMÜ (aksaklık değil, sayı farkı — iş sürüyor) ① TAM-ENVANTER-0930.json acik=733 / 65 parti. Senin 12 partin çıkınca KUYRUK = 53 parti · 244 madde (sirada 205 · olculecek 25 · tekrar 7 · senin-kararin 4 · kosu-bekliyor 6). parti-kasa-* açık listede 0. ② 🔴 ENVANTERİN \"cevapsiz\" 6 partisi (0072·0073·0074·0077·0078·0079) ARTIK CEVAPLI: CEVAP.json damgası 2026-09-30 19:24, envanter 19:20'de üretilmiş ⇒ envanter bu 6'yı SAYMIYOR. Açık hükümleri (sirada+olculecek+kosu+senin+tekrar): 0072:4 · 0073:7 · 0074:4 · 0077:46 · 0078:5 · 0079:8 = 74 madde. Hükümleri BUGÜN PAKET-00xx-0930 oturumları yazdı. ③ ÖNERİM: bu 74'ü ALMIYORUM (hükümleri 1 saatlik, yeniden doğrulamak mükerrer iş). Başka talimat gelmezse 244 üzerinden gidiyorum; istersen sonra eklerim. Ara teslim parti gruplarıyla gelecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
