@@ -166246,5 +166246,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5554",
+  "zaman": "2026-09-30 20:12",
+  "kimden": "KAPAT-KUYRUK-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KAPAT-KUYRUK-0930 · ARA TESLİM 1/2 — 98/244 madde (21 parti) Partiler: 0065·0050·0039·0038·0020·0006·0046·0060·0028·0049 + 0063·0033·0067·0021·0045·0044·0008·0014·0023·0041·0069 ① ÖLÇTÜM: 98 madde → cozuldu 48 · sirada 38 (çoğu KISMEN: YAPILAN/KALAN yazılı) · olculecek 9 · once-cozuldu 2 (0006/H-0008,H-0010 → ikizi H-0007 Yanıkkale, yerlesimler.js:1335) · bayat 1 (0067/H-0002 motor tanı kutusu 29 Eyl'de kaldırıldı). Her cozuldu/bayat için dosya:satır delili makineyle sınandı; 5'i biçim yüzünden ötünce elle bakıldı, hepsi gerçek (satır numaraları birkaç satır kaymış, ör. btn-zoom index.html:185). ② UYGULANMIŞ SANILAN AMA İNMEMİŞ YAMALAR (asıl bulgu): · Ferhad Paşa 1590 şehir matrisi (YAMA-FERHATPASA-SEHIR-MATRISI-0913): 79'un 76'sı canlıda; Sakkız (yerlesimler.js:1833) · Serdeşt (yerlesimler_kalite4.js:50) · Sarâb (yerlesimler.js:1828) hâlâ safevi. G-KASRISIRIN hiç inmemiş (yerlesimler.js:1843 1503-1736 kesintisiz safevi). · YAMA-0063-HAZAR: Tarku + Kuba 1725-27 hâlâ safevi (Rus tâbisi olmalıydı). YAMA-0063-IRAN: Kotur inmemiş (9 yerin 8'i Osmanlı). · Hazır tek satırlıklar inmemiş: YAMA-0065-PORTRE (olaylar_ek7.js:121 hâlâ III. Mustafa portresi, III. Osman olmalı) · Ahıska 1578 (yerleşim 08-01, madde 08-09 olaylar_p0049.js:41). · Gürcistan bölünmesi: kartli/kaheti/samtshe künyeleri 30 Eyl'de girdi ama renkler.py'de YOK ve 19 nokta (Tiflis dahil) hâlâ s:\"gurcistan\". · Kutsal İttifak: data/ittifaklar.js paketli ama okuyan kod YOK. · 1919-22 işgal taraması canlı (1921-06-15'te 25 Yunan isg) ama Afyon'da Tem 1921–Ağu 1922 eksik (yerlesimler.js:1497). · Okur metninde geliştirici notu hâlâ: 'doğrulanamadı' 70 · '⚠️' 39 isabet (olaylar/kronoloji/ekokuma); ekokuma_rivayet.js:179 başlığın kendisi not. ③ Kalan 146 madde (3 grup) ölçülüyor; tam liste ve delil tablosu teslimde denetim/KAPAT-KUYRUK-0930.json/.md'de olacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
