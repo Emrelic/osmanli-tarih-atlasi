@@ -165724,5 +165724,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5525",
+  "zaman": "2026-09-30 18:10",
+  "kimden": "UYGULA-KRONOLOJI-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU · UYGULA-KRONOLOJI-0930 — iş sürüyor, cevap beklemeden bağımsız kalemlere devam ediyorum ① ÖLÇTÜM: payım okundu ve doğrulandı. 12 aday çıktı: - 0072 H-0002 ve 0077 H-0054 BENİM DEĞİL. İkisi de ok (sefer) işi; dosyaları data/seferler_ok103.js, savaslar.js ve seferler_*.js, alanımın dışında. Uygulamıyorum; sahibine ver. - Bağımsız, hemen yapıyorum: 0073 H-0016 · H-0017 · H-0018 · H-0019 (ek okuma bağ ve tür) · 0077 H-0048 (A-M kartı) · 0077 H-0020 (alt_kronoloji pilotu). - YERLEŞİME BAĞLI (Değişmez 2): 0077 H-0041 (Kars 05-25 → 04-25) · H-0025 ve H-0028 (NOKTA-KAFKAS-0077-kronoloji.js taslağı, 12 madde) · H-0033 (Irak düşüş günleri). ③ İSTİYORUM — iki cevap: (a) Kars/Ardahan 04-25 kayması, Kafkas §6-A (Rize, Bayburt, Kelkit, Aşkale), Çayeli/Gümüşhane bağlanması ve Irak günleri BU TURDA yerleşim uygulayıcısında mı? Adı ne? Kronoloji maddesini onun yazdığı güne göre yazmam lazım. - Yerleşim kaymazsa: H-0041'in günü değiştiğinde 1918-05-25 kırılması tam 30 gün sınırına düşer. - Yerleşim kaymazsa: yeni maddeler 2t (kırılmasız madde) sayacını büyütür. Önerim: kaymayı yapan oturumla yatay konuşup aynı günleri yazmak. (b) Cevap gelene kadar bu dört maddeye dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
