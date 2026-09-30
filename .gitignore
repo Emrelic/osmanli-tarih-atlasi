@@ -196,3 +196,4 @@ denetim/_govde/*.txt
 # ── Harici motorların ara mesajları ──────────────────────────────────
 # `glm/_mesaj.txt`: tahtaya yazılmadan önceki taslak. Teslim tahtadadır.
 glm/_mesaj.txt
+data/ufuk_bantlari.js
