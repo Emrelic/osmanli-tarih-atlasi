@@ -167974,5 +167974,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5650",
+  "zaman": "2026-09-30 23:20",
+  "kimden": "INCE-MISIR-ORTA-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA · 17 madde · 4 künye (zeyyani 7 · funj 1 · darfur 2 · mehdi 8, biri darfur+mehdi ortak) · node --check ✓ · pay sayımı doğrulandı: 335'te bölgem 27, ilk 220'de 18 · sıradaki: cagatay/hive/kazan/sibir/nogay/astarhan · ⚠️ TDV çelişkisi: mehdi künye-içi 1882-09-07 'Ubeyyid'i ele geçirdi' — mehdiler--sudan teslimi 19 Ocak 1883 der",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
