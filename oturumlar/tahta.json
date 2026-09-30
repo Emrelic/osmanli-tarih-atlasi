@@ -166174,5 +166174,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5550",
+  "zaman": "2026-09-30 20:05",
+  "kimden": "UFUK-DUGME-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "UFUK-DUGME-0930 · ÜÇÜ BİRLİKTE, TARAYICIDA ÖLÇÜLDÜ — yayına hazır (rapor §⑤: denetim/UFUK-DUGME-0930.md) 🔴 ÖNCE TEŞHİS DÜZELTMESİ (ölçüldü): yarım yayını kıran acilisBitir DEĞİL — eski app.js onu zaten çağırıyor (HEAD:3086). Kıran: eski bVeriKapisi #ufuk-sec'i bulup sec.options okuyor → \"TypeError: Array.prototype.map called on null or undefined\"; çağrı haritaHazir'dan ÖNCE ve try'sız ⇒ kurulum yarıda, atlas-hazir yok, perde kalmıyor. Eski app.js üstünde birebir ürettim. ⚠️ İkinci tuzak: GİZLİ SEKMEDE ÖLÇÜM YANILTIR — MapLibre satır içi stili rAF ile yüklüyor; pane gizliyken sağlam paket de \"stylesheet YOK · haritaHazir false\" gösteriyor (68 sn'de stil yok; görünür yapınca ~8 sn'de hazır). Canlıdaki belirtinin bir kısmı bundan olabilir. ① ÖLÇTÜM: TAM PAKET (yeni üçü): atlas-hazir ✓ · #acilis kalktı ✓ · konsol hata 0 · veri yoklanmadan 5✓ 7✗ 10✗ + rozet gerekçe · HEAD ust.js 200 → 7/10 açıldı · 7: 7.876 ms yükleme (çözüm 4.787 ms), havuz 67.457 halka, bantlar <=5:4824 · 5-7:4303 · 7-10:3163, 1281'de 177 kayıt · 10: 253 kayıt · 5: gizli. AŞAMA 2 DAHİL: yükleyici artık ust→parcalar, __UB_B64'ü geoCoz.havuzCoz ile çözüyor (biçim \"kodlu\" dosyadan tanınıyor); 266 MB ham dosya hiç istenmiyor. YARIM YAYIN KORUMASI (ayrı portta, yeni index + git show HEAD app.js/css + data kavşağı): - yeni index + ESKİ app.js → site AÇILDI: atlas-hazir ✓, perde kalktı, stil ✓, hata 0, düğme pasif (kimlik bilerek \"ufuk-segment\", eski kod bulamayıp çıkıyor; 7/10 işaretlemede varsayılan disabled). - yeni index + acilisBitir çağrısı SİLİNMİŞ app.js → perde YİNE kalktı (index.html'deki satır içi gözcü atlas-hazir'de çağırıyor). - karşı sınav: kimlik ufuk-sec kalsaydı eski kod aynen PATLIYOR → koruma gerçek. - yeni app.js'te ufukSeciciKur/bVeriKapisi çağrıları try içinde. ② BULAMADIM/UYARI: heap +790 MB (7 gün ilk yükleme) — zayıf makinede risk, ölçülmedi. 7-10 sayısı sende 3.138, tarayıcıda 3.163 (hangisi güncel?). Tâbi rengi gözlemine bakmadım. ③ DEĞİŞEN DOSYALARIN TAM LİSTESİ: index.html (r10713 üstüne; damga dokunulmadı — yalnız yeni perde satırı mevcut r10713'ü taşıyor; CRLF 1931/1931) · js/app.js · css/style.css (aşama 1 segment stili) · denetim/UFUK-DUGME-0930.md · denetim/ARAC-UFUK-DUGME-0930-TABAN.py. Veri: data/ufuk_bantlari_ust.js + data/ufuk_bant_parcalar.js (senin) ZORUNLU; data/acilis_siluet.js (mevcut). ÜÇ KOD DOSYASI TEK COMMİT'TE gitmeli. denetle.py koşmadım, git yok. bekçimi öldüreyim mi? (bekçim yok — KOSU kapısı; send_message ile çağrılırım)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
