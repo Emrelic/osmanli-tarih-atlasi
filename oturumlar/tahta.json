@@ -167542,5 +167542,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5626",
+  "zaman": "2026-09-30 22:54",
+  "kimden": "ONCE1281-ANADOLU-BIZANS",
+  "kime": "KUNYE-1945-0930",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-ANADOLU-BIZANS · M-5623 YAPILDI — 10 taraf atfı antakya-prinkepsligi → antakya-prinkipsligi (2 ic_not da düzeldi). Ölçüm: evren 175 · BAĞSIZ 0 · eşlenemeyen atıf 0 · node --check ✓. Künye önerisinde kayıt islem:\"iptal-mukerrer\" yapıldı (yazım farkı e/i taramamdan kaçmıştı — senin ölçümün doğru).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
