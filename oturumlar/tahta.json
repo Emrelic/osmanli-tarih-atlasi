@@ -168748,5 +168748,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5693",
+  "zaman": "2026-09-30 23:54",
+  "kimden": "INCE-AVRUPA-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · INCE-AVRUPA-AMERIKA · data/kronoloji_cok_ince_avrupa_amerika.js → window.KRONOLOJI_COK_INCE_AVRUPA_AMERIKA ① ÖLÇTÜM - Pay: 6 bölge süzüldü, 335 kayıttan 35 künye; ilk 220'de 14 (senin sayınla aynı). Listenin sonuna kadar (sıra 334) indim ama seçerek. - 48 madde · 12 künye: novgorod 4 · iskocya 8 · irlanda 5 · mantua 5 · parma 5 · venezuela-cumhuriyeti 7 (2'si ingiliz-guyanasi ile ortak) · ingiliz-guyanasi 5 · dubrovnik 3 · fetret-suleyman 3 · fetret-musa 2 · fransiz-guyanasi 2 · krakow-serbest-sehri 1 - İlk 220'deki 14 künyenin 9'u yapıldı; yapılmayan 5: nahua · zapotek · purepecha · tututepec · teodoro - Tarih: 15 madde günlü · 33 madde yıl ya da ay (t:YYYY-01-01, ay gun: alanında; AY YAZILMADI) · uydurma gün 0 · atlastan/künyeden alınan gün 0 - KAPILAR: ① node --check ✓ · ② eşlenemeyen taraf 0 (evren: 878 künye; odak_kimlik dahil) · ③ küresel ad başka dosyada 0 (data/ js/ index.html) - M-5662 ODAK: odak_olc.py → 48 madde · KONUMLU 38 · KUTULU 10 · ODAKSIZ 0 · kırık atıf 0 · kapsam_genis yazılmadı - Kaynaklar, hepsi adıyla ve metni açılıp satırı okunarak: TDV musa-celebi · suleyman-celebi-emir · dubrovnik ¦ Michell & Forbes (çev.), Chronicle of Novgorod 1016-1471 (Camden 3. seri, 1914) ¦ Hume Brown, History of Scotland I (CUP 1902) ¦ Bagwell, Ireland under the Tudors I, III (1885-90) ¦ EB 1911 Mantua · Gonzaga · Parma · Guiana · Cracow ¦ LoC Country Study Venezuela (1990) · Guyana (1992). Vikipedi 0 · YZ metni 0. ② BULAMADIM - teodoro: TDV'de Mankup slug'ları 302 (menkup/mengub/mankub); 'kirim' maddesinde Mankup/Theodoro/Gotya 0 geçiş → bulunamadı - Mezoamerika 4 künyesi: açık erişimli akademik metin bu turda bulunamadı (sıra dışı bırakıldı, uydurma yok) - britannica.com 403 (curl ve WebFetch) → EB 1911 metni Wikisource'tan okundu - Novgorod: Orekhov'un geri alınış günü kronikte iki bayrama bağlanıyor, çelişkili → yazılmadı · 1456 Yajelbitsı kronikte yok - Maroni hakemliğinin yılı EB 1911 cümlesinde yok → yazılmadı ③ BİLDİRİYORUM / İSTİYORUM - 🔴 Tehuantepec yerleşimi: s: zapotek-krallik → 'ingiltere' 1523-01-01 → 'abd' 1783-09-03. Meksika'daki nokta İngiltere/ABD'ye boyanıyor (sanırım ad ya da kayıt çakışması, ölçmedim). Sahibi sensin. - Parma: atlasta 1545-1860 arası kesintisiz 'parma'; EB 1911'e göre 1802-1815 Fransa'ya katılmış. Haritada bu yok (madde 1802 yazıldı, senkron kırılmasına denk gelmez). - Kirkwall (Orkney) kırılması 1472-02-20; kaynağım yalnız 'February 1472' diyor, gün devralınmadı → madde 1472-01-01'de, ±30 gün penceresine düşmüyor. - Kaynak künyeden ayrılıyor, ic_not_t'ye yazıldı: Kilkenny 1367 (güncel literatür 1366) · Mantua markiliği 1432 (literatür 1433) · Berwick 1318 (aynı kitabın içindekiler kısmı 1319 diyor). - İrlanda 1601-02 günleri Bagwell'e göre ESKİ ÜSLUP; ic_not'ta yeni üslup karşılıkları var. - index.html'e dokunmadım, bağlamak sende. - Devamı istenirse: Mezoamerika 4 + teodoro, ve listenin alt kısmındaki balkan künyeleri (zeta · dukagin · topia · dejanovic · sarki-rumeli · garbi-trakya · oniki-ada · crnojevic). commit YOK (şartname §6). Değişen tek dosya: data/kronoloji_cok_ince_avrupa_amerika.js (yeni, untracked). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
