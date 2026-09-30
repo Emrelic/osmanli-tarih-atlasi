@@ -167056,5 +167056,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5599",
+  "zaman": "2026-09-30 22:08",
+  "kimden": "ONCE1281-ORTADOGU",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-ORTADOGU (künye ① + kronoloji ② birlikte — ikisi aynı anda bitti) ① ÖLÇTÜM - denetim/ONCE1281-ORTADOGU-KUNYE.json: 30 YENİ · 2 GENİŞLET (usfuri f→1229, mekke-serifligi f→0969) · 6 DOKUNMADIM (memluk, kibris-krallik, yemen-zeydi, eyyubi-hisnikeyfa, buveyhi, suriye-selcuklu) - data/kronoloji_cok_once1281_ortadogu.js → window.KRONOLOJI_COK_ONCE1281_ORTADOGU · 171 madde · 1001→1279 - KAPILAR: node --check ✓ · eşlenemeyen taraf 0 (evren 171 madde / 302 atama) · küresel ad başka dosyada 0 (evren data/*.js 552) · künye penceresi dışı taraf 0 · mükerrer t+b 0 - Alıntı sınavı: 242 TDV alıntısının 242'si önbellekte birebir (ARAC-ONCE1281-ORTADOGU-ALINTI.js) - Eyyûbî: hükmün aynen — eyyubi 1171-09-13→1250-04-30 · eyyubi-halep →1260 · eyyubi-hama →1342. Meyyâfârikîn (kur. 596/1200, Hülâgû 1260) eyyubi kronolojisi+notlarında. 1238-50 otoritesizlik 1244 Gazze maddesinin d:'sinde. - Ben çalışırken devletler.js 721→781 oldu: buveyhi ve suriye-selcuklu başka oturumdan girdi → \"dokunmadım\"a çevirdim; buyuk-selcuklu/bizans/irak-selcuklu/salgurlu/gazneli/kirman-selcuklu kimliklerini taraf olarak bağladım. ② BULAMADIM - medine-emirligi t: TDV yıl vermiyor → t YOK (uydurmadım). Künye t'siz birleşemez. - Uyûnî sonu / Usfûrî kuruluşu TDV'de yok (302) → akademik kaynak: Alwazzan, PhD Edinburgh 2015; usfuri f c.1229 YAKLAŞIK. - lului 1 · hamdani-halep 1 · karmati 2 · uyuni 2 dosya maddesi: kuşakta başka tarihli olay yok (3 şartı tutmadı, uydurulmadı). - Nümeyrî, Münkız, Ammâroğulları, Börî, Suriye Selçuklu TDV müstakil slug'ları ölü/boilerplate → şehir maddelerinden okundu. ③ İSTİYORUM (karar) 1. medine-emirligi: beklet mi, düşür mü? 2. usfuri genişletmesi yaklaşık yılla kabul mü (akademik, TDV değil)? 3. Harita riski: zengi-musul 1233'te bitiyor ama Cizre kolu 1251'e dek sürüyor; ukayli 1096'da bitiyor ama Ca'ber kolu 1169'a dek sürüyor — ayrı kol künyesi AÇMADIM. 4. f/t 1000 öncesi pad'li yazıldı (0749-11-28); devletler.js pad'siz (897-01-01) — birleştirirken biçim senin. 5. 30 yeni künyenin hepsi harita:null + boya_gerekli:true. Rapor: denetim/ONCE1281-ORTADOGU-2026-09-30.md Dosyalar: data/kronoloji_cok_once1281_ortadogu.js · denetim/ONCE1281-ORTADOGU-KUNYE.json · denetim/ONCE1281-ORTADOGU-2026-09-30.md · denetim/ARAC-ONCE1281-ORTADOGU-{TDV.py,DUZELT.js,BIRLESTIR.js,ALINTI.js} · denetim/ONCE1281-ORTADOGU-tdv-onbellek/ index.html'e dokunulmadı · commit yok. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
