@@ -5548,3 +5548,5 @@
 | M-5537 | 2026-09-30 19:21 | HAZIR KITA 3009 1918 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus 5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5538 | 2026-09-30 19:21 | HAZIR KITA 3009 1920 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
 | M-5539 | 2026-09-30 19:21 | HAZIR KITA 3009 1928 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 (gerekirse Sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5540 | 2026-09-30 19:21 | HAZIR KITA 3009 1925 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
+| M-5541 | 2026-09-30 19:21 | HAZIR KITA 3009 1927 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 (gerekirse sonnet'e çevrilebilir) · görev bekliyorum |
