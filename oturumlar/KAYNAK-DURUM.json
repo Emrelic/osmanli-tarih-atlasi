@@ -1,19 +1,14 @@
 {
  "bekci_yasak": true,
- "kod": "RAM-DARBOGAZI",
- "ilan": "2026-09-30 02:25",
+ "kod": "KOSU",
+ "ilan": "2026-09-30 15:28",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "30 Eylul 02:55 — bos RAM 1,21 GB · claude 21 surec / 7,76 GB · pagefile 638 MB (takas SAKIN)",
- "gerekce": "Gece nobeti. Calisan paketler muaf. Uc paket teslim etti (ERKEN-SIRP · AVRUPA-TEYID · ARAYUZ) ve bekcileri zaten kurulamamisti; ARAYUZ devam gorevi aliyor, o yuzden muafa girdi.",
+ "olcum": "",
+ "gerekce": "Petek koşusu sürüyor; makine koşuya ayrıldı.",
  "muaf": [
   "YILDIRIM BAYEZIT",
-  "KARADENIZ-0082",
-  "IRAN-KAFKAS-0082",
-  "AKDENIZ-ARAP-0082",
-  "OSMANLI-IC-0082",
-  "YERLESIM-BIRLESTIR-0930",
-  "ARAYUZ-0082",
-  "ODAK-0930",
-  "KUNYE-UYGULA-0930"
+  "GEMINI",
+  "AGY",
+  "GLM"
  ]
 }
