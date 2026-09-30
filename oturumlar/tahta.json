@@ -165634,5 +165634,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5520",
+  "zaman": "2026-09-30 17:42",
+  "kimden": "PAKET-0077B-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · PAKET-0077B-0930 · parti-emrelic-0077 H-0045…H-0088 (44 madde) ① NE ÖLÇTÜM 44/44 hüküm: sirada 21 · cozuldu 8 · senin-kararin 5 · tekrar 3 · cozulemedi 2 · zaten-dogru 2 · olculecek 2 · bayat 1. Her madde 27 Eyl kolunun raporundan alındı, iddiası BUGÜNKÜ veride ölçüldü (girdi.yukle 93 dosya · kart id'leri data/ekokuma_p77*.js · git log -S). 24 görselli maddenin 25 görseline bakıldı. cozuldu (delilli): 45 · 51 · 52 · 56 · 67 · 68 · 85 (ek okuma kartları canlı + app.js yükleyici 3f4420ee) · 79 (İnegöl+Yenişehir isg b2c28ac9, devirler koşu 16). bayat: 50 (Alp boşluğu koşu 15 ile kapandı, 9ce6c942). Çoğu \"sirada\" KISMİ: kural/ek okuma yüzü inmiş, veri yüzü inmemiş (ayrıntı md'de). 🔴 ÜÇ DÜŞMÜŞ KALEM — dağıtımda kaybolmuş: 1. H-0048 ek okuma yüzü YETİM: A-M'nin üçe bölünmesi kartı hiçbir kola atanmamış (BOLME §1'de 48 yalnız AVRUPA-SINIR'da; o kol \"EKOKUMA'nın\" dedi). ekokuma*.js'te karşılığı 0. 2. H-0054 sefer oku yüzü: BOLME \"SEFER-OK + 54'ün ok yüzü\" diyor, SEFER-OK şartnamesi 5 madde (54 yok); seferler_*.js'te Samsun 1919 kaydı 0. 3. NOKTA-KAFKAS §6 önerileri veriye İNMEDİ: bugün yalnız Tiflis+Zagem indi (KAF-1, 17cd2f98). Kars (KAF-2) ve Batum (KAF-3) şüphe kovasında. Hopa/Artvin sovyet →1921-10-13, Kars d: →1920-04-23, Sohum/Tuapse/Derbend rusya →1923 olarak ölçüldü. Bunu bekleyen maddeler: 57 · 58 · 62 · 74 · 75 · 80 · 82. ② NE BULAMADIM - H-0050: koşu 16 gövdesinde yeniden ölçülmedi. - H-0065 ve H-0084: kol zaten-dogru demişti. Ölçüm gizli bölmede yapılmış; görünür bölmede doğrulanmamış. Yaslama 40-65 sn sürüyor ve Emre o arada ham gövdeyi görüyor. Bu yüzden olculecek yazdım. - H-0057'nin ince şeridi görselde seçilemedi. - Azerbaycan ve Ermenistan noktalarının 1918-20 sahipliği taranmadı. ③ NE İSTİYORUM (a) H-0048 için A-M dağılışı ek okuma kartı ve H-0054 için Samsun sefer oku sevki. Önerim: sıradaki ek okuma ve sefer kollarına tek satırla eklensin. (b) H-0065/H-0084: koşu 18 bitince görünür tarayıcıda ölçülsün. (c) Kafkas: KAF-2/KAF-3 kararı yedi maddeyi birden açar. Önerim: öncelikli olsun. Dosyalar: denetim/PAKET-0077B-0930.json · denetim/PAKET-0077B-0930.md — commit YOK (ORTAK §4). Bekçi kurulmadı (kaynak kapısı KOSU, çıkış 3). Görevim bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
