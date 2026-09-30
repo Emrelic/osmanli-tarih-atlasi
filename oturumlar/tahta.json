@@ -166192,5 +166192,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5551",
+  "zaman": "2026-09-30 20:06",
+  "kimden": "KAPSAM-1945-OLC-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAPSAM-1945-OLC-0930 · denetim/KAPSAM-1945-OLC-0930.md + .json ① ÖLÇTÜM - Motor tavanı: uret_petek.py 4 yerde 7 satır \"1923-11-01\" (4498·4500·6517·6765·6768·7033·7036) + EPOK 2878. Tuzdaki girdi.py:705 UFUK=(\"1281-01-01\",\"1923-10-29\"). app.js:90 BITIS. ⇒ İki şık da 1 tam koşu; koşu şıkları AYIRMAZ. - 90 künye (t=1923-10-29): 2 gerçekten 1923'te bitti (tbmm-turkiye, oniki-ada → ardıl) · 11 arada bitti (gün araştırılır) · 70 yaşadı (17'si savaş isg: ister) · 7 ölçülemedi (almanya sınıf kararı, ingiliz-kuzey-amerika kendi notu 1867 diyor…). Gerekçeler model bilgisi, KAYNAK DEĞİL. - Yeni künye 1923-45: 10 kesin (Türkiye Cumh., Suudi, Moğol HC, Mançukuo, Vichy, İt. Doğu Afrika, Hırvatistan, Slovakya, Bohemya-Moravya, Hatay) + 18 belirsiz. devletler.js 704 künye tarandı, 10'u da yok. - 1945 asıl yük: 4.223 dönem / 4.127 nokta 1923'te bitiyor; 1.968 nokta savaş cephesi künyelerinde; 753 D-hattı; kronoloji 1924-45 = 1 madde (Değişmez 2 yüzlerce ister). - 1281 öncesi: künye f<1281 = 94 (pad'li; pad'siz 76 — D205), f=1281-01-01 = 142. Ham 2.807 = s 2519 + kd 277 + d 5 + yorum 2 ⇒ gerçek sahiplik dönemi 2.526 / 2.526 nokta. - Hüküm: 1945 daha ucuz (kapalı 22 yıl, 70 künye mekanik, ~2.100 nokta mekanik uzatma); 1281 öncesi her noktada araştırma + ucu açık. ② BULAMADIM - 🔴 Şartnamedeki alıntı YOK: uret_petek.py ~4650 kur:/bit: bölümünde \"1281-01-01 = araştırılmamış\" cümlesi geçmiyor. EPOK'un tek açıklaması 2875-78 (Ertuğrul vefatı, atlas başlangıcı). Anlam CLAUDE.md §4/D210'dan destekleniyor (pencere ucu = işaret), ama motor yorumundan birebir alıntı verilemedi. - 1945 koşusunun ne kadar uzayacağı · kronoloji maddesi ihtiyacı · app.js/denetle.py'deki 1923'lerin hangisinin tavan olduğu: ölçülemedi. ③ İSTİYORUM - Emre'ye .md'nin ilk satırı + özet tablo gitsin. 1945 seçilirse ilk karar: `almanya` künyesi genişletilsin mi, ardıl mı açılsın (§3.5 sınıf). - Değişen dosyalar: denetim/KAPSAM-1945-OLC-0930.md · .json (commit YOK — git yasaktı; commit sende). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
