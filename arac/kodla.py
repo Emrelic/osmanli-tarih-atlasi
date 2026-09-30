@@ -530,6 +530,38 @@ HEDEFLER = {
         "ust": "petek_govde_ust.js", "on": "petek_govde_on.js",
         "ne": "Petek gövdelerinin", "yuva": 1,
     },
+    # 🔴 DÖRDÜNCÜ HEDEF — Ⓑ UFUK BANTLARI (30 Eylül 2026, Emre'nin isteği:
+    # "5 gün 7 gün 10 günlük veri elimizde olsun ve bir switch ile görüntüyü
+    # değiştirebilmek istiyorum"). Motor bu dosyayı ZATEN üretiyor; eksik
+    # olan boyutu: 253 MB ham, GitHub'ın 100 MB/dosya sert sınırının çok
+    # üstünde bir tek-dosya değil ama depoya ve Pages'e ağır.
+    #
+    # ÖLÇÜLDÜ, VARSAYILMADI (koşu 17b çıktısı, ilk 4 MB):
+    #   window.UFUK_BANT_PARCALAR = [[[-2.953,58.84],[-2.907,58.838],...
+    #   baştan üst üste '[' sayısı = 3  ⇒  [ halka, ... ] · halka = [[lon,lat],...]
+    # Yani `devlet` hedefiyle AYNI derinlik. `govde`deki fazladan yuva
+    # (poligon = [halka,...]) BURADA YOK ⇒ `yuva` VERİLMEZ.
+    # 📌 Bu satır tam da `govde`nin yorumundaki uyarı yüzünden ölçülerek
+    #    yazıldı: "Aynı biçim diye varsayıp geçseydim ayrıştırıcı sessizce
+    #    yanlış halkalar üretirdi."
+    #
+    # Ondalık hane dağılımı (381.162 sayı örneği): 3 hane %87,6 · 2 hane
+    # %9,2 · 1 hane %3,2 · EN ÇOK 3 ⇒ OLCEK=1000 birebir yeter.
+    #
+    # ⚠️ Bu dosya AÇILIŞTA YÜKLENMİYOR (`index.html` onu hiç anmıyor):
+    #    Ⓑ anahtarı açılınca fetch edilir. Kodlamanın ilk açılış süresine
+    #    etkisi SIFIRDIR; kazanç depo boyutu ve Ⓑ'nin açılış hızıdır.
+    # ⚠️ `ust` dosyasına giden üç değişken: UFUK_BANT_PARCA (parça → halka
+    #    indeksleri) · UFUK_BANT (bant × devlet-dönem) · UFUK_BANT_IZI
+    #    (taban_saat / col_ufuk_saat / bant listesi — koşunun damgası).
+    #    Havuz YALNIZ UFUK_BANT_PARCALAR'dır.
+    "bant": {
+        "kaynak": "ufuk_bantlari.js", "havuz": "window.UFUK_BANT_PARCALAR = ",
+        "onek": "window.__UB_ONEK", "b64": "window.__UB_B64",
+        "sha": "window.__UB_SHA", "parca": "ufuk_bant_parcalar.js",
+        "ust": "ufuk_bantlari_ust.js", "on": "ufuk_bantlari_on.js",
+        "ne": "Ⓑ ufuk bantlarının",
+    },
 }
 HEDEF = "devlet"
 ACIKLAMA = HEDEFLER["devlet"]["ne"]
