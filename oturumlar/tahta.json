@@ -166138,5 +166138,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5548",
+  "zaman": "2026-09-30 19:58",
+  "kimden": "KAPAT-0081-82-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAPAT-0081-82-0930 · 114/114 madde (0081: 36 · 0082: 78) rapor: denetim/KAPAT-0081-82-0930.md · makine: denetim/KAPAT-0081-82-0930.json (her maddede parti + eski hüküm) ① ÖLÇTÜM DAĞILIM: sirada 87 · senin-kararin 19 · tekrar 4 · olculecek 2 · bayat 2 · cozuldu 0 0081 → sirada 26 · senin-kararin 7 · olculecek 2 (H-8, H-32) · bayat 1 (H-28) 0082 → sirada 61 · senin-kararin 12 · tekrar 4 (H-20=14, H-37=32, H-60=58, H-94=93) · bayat 1 (H-97) 🔴 ANA BULGU: 114 maddenin 112'si hâlâ AÇIK, çünkü öneriler hazır ama VERİYE HİÇ İNMEMİŞ. - 0081'in dört uygulayıcısı da uygulanmamış. Etiketleri canlı data/*.js'te (paket_* hariç) aradım: SAFEVI-DOGU-0081 0 · BALKAN-MACAR-0081 0 · DUNYA-KRONO-0081 0 · KAFKAS-KORFEZ-0081 1 (o tek eşleşme bir kaynak atfı, uygulama değil). Örnekle doğruladım: Kars, Harput/Urfa 1516-05-01, Diyarbakır 1515-09-10, Gospić, mersiye 1566-09-01 hepsi ESKİ hâlinde; Gyula maddesi yok; kaheti boyası yok. - Koşu 18'in 125 yerleşimi 16 KRONO-*-0929 dosyasından geldi; 0081/0082 raporlarından hiçbiri kaynak alınmadı. Bu partilere yalnız iki yan etki indi: 82/H-97 (İbrail ve Yergöğü v:eflak) ve 82/H-90'ın gün kısmı (Çaçak/Kragujevac 1830-10-17). - ⇒ 76 kosu-bekliyor maddeyi `sirada`ya çevirdim. Koşu 18 bu veriler olmadan koştu; bekleyen şey makine değil uygulama. 🆕 Ölçümle çıkan dört bulgu: (a) 81/H-0008: 1512 Slavonya boşluğunun İÇİNDE 4 sahipli kale noktası var (Kostajnica, Dubica, Jasenovac, Bos. Brod) ve boyanmamışlar. Yani noktasızlık değil, motor sorusu. İkizi 78/H-0002. (b) 81/H-0009: Teke→Sivas oku bir sefer kaydı değil. app.js:5151 isyanYayilmaUret() onu savaslar.js:371-372'den otomatik üretiyor. (c) 82/H-0077: görsel İbrail/Yergöğü'yü değil Turnu/Kule kesimini gösteriyor ve Kule noktası yok. H-0097 bayat, H-0077 açık. (d) 81/H-0022: Marmarika kutusunda 0 nokta, en yakın nokta 120-140 km. Tobruk noktası yok. ② BULAMADIM / ÖLÇEMEDİM - Uygulayıcıların KURU koşusunu izin katmanı REDDETTİ; yeniden denemedim, etiket aramasıyla ölçtüm. Kuru koşu gerekiyorsa sen koşturmalısın. - denetle.py ve tarayıcı koşmadı ⇒ 81/H-8 (koşu 18 gövdesi) ve 81/H-32 (yanıp sönme: kod var, varsayılan açık, adet 2) olculecek kaldı. - 19 senin-kararin maddesinin hiçbirinde 28 Eyl sonrası tahtada Emre kararı bulamadım (yalnız Sırbistan günü var). - 🔴 Yan gözlem: 7f790990 geri alması ARAYUZ-0082'yi (H-80/86/87/88) BOZMADI, HEAD'de duruyor. Ama UFUK-DUGME'nin Ⓑ düğmesi yayından çıktı. ③ İSTİYORUM (1) Dört uygulayıcıyı koşturacak bir sevk. KAFKAS-KORFEZ BOYA'ya dokunduğu için tuzu değiştirir ⇒ tam inşa koşusuna. DUNYA-KRONO koşu istemez, hemen gidebilir. (2) Koşusuz yapılabilen 8 madde hemen verilebilir: 82/H-17, 18, 44, 65, 66, 71, 99 · 81/H-9. (3) Kaynak sevki: Tobruk, Kule, Hazârecât, Doğu Asîr, Arabat, Kılburun, Novomirgorod noktaları. (4) SIRP-NOKTA-0930 12 noktası (82/H-90) yerleşim uygulamasına. Değişen dosyalar: denetim/KAPAT-0081-82-0930.json · denetim/KAPAT-0081-82-0930.md (commit YOK) bekçimi öldüreyim mi? — kurulu bekçim yok (önceki kapı kodu 3); devam işi olursa send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
