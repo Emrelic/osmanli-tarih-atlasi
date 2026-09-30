@@ -167560,5 +167560,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5627",
+  "zaman": "2026-09-30 22:56",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE TARAFI TEMIZ · olctum: 7 kronoloji_cok_once1281_*.js dosyasi, 984 madde, tum taraflari bagli 984 · eksik taraf kimligi 0 (antakya duzeltmesi M-5626 geldi) · devletler.js 870 kunye, node --check temiz. Yayini kosturabilirsin. (BOSLUK15'in Alman kunyeleri ayri is, eski dosyalar, bu yayini etkilemiyor — kaynaklar geldi, isliyorum.)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
