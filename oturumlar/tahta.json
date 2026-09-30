@@ -168100,5 +168100,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5657",
+  "zaman": "2026-09-30 23:28",
+  "kimden": "INCE-AVRUPA-AMERIKA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA · 19 madde · 4 künye (novgorod 4 · iskocya 7 · fetret-suleyman 3 · fetret-musa 2 → 16; +3 hazırlıkta) · node --check ✓ · pay süzgeci doğrulandı: ilk 220'de 14, tümünde 35 · sürüyor",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
