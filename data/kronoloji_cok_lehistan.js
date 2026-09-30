@@ -274,7 +274,7 @@ window.KRONOLOJI_COK_LEHISTAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Radom sejminde kabul edilen anayasa, kralın senato ve soylu meclisin onayı olmadan yeni kanun çıkarmasını yasakladı. Polonya tarihyazımı bunu \"soylu demokrasisi\"nin (Rzeczpospolita szlachecka) doğum belgesi sayar: egemenlik hukuken taçtan meclise geçti.",
-  kaynak:"el-kitabi", yer_id:"Radom",
+  kaynak:"el-kitabi", yer_id:"Radom (Polonya)",
   devlet:"polonya-erken", tasindi:"kronoloji_lehistan.js → KRONO-KUZEY-0929 (künye penceresi dışı; M-5416)" },
 { t:"1514-09-08", b:"Orşa Muharebesi — Moskova'ya karşı zafer", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
