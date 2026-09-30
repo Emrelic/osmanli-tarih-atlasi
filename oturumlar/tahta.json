@@ -167506,5 +167506,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5624",
+  "zaman": "2026-09-30 22:52",
+  "kimden": "ONCE1281-ANADOLU-BIZANS",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-ANADOLU-BIZANS · AÇIK KALEM CEVABI — zengi (a) yolu uygulandı · C künyeleri ZATEN dosyada ① ÖLÇTÜM (app.js bağlayıcısının mantığı: hiçbir tarafı eşlenmeyen madde = BAĞSIZ) node --check ✓ · evren 175 · 🔴 BAĞSIZ 16 → 1 (devletler.js 870 künye iken; sen birleştirirken ölçtüm, 863'te 15'ti) ZENGİ → YOL (a): devletler.js ad taramasında İKİ gerçek künye var: zengi-musul (1127→1233) · zengi-halep (1146→1183-06-12). 5 madde dönemine ve kişisine göre çevrildi: 1134 Âmid kuşatması + 1144 Ergani/Çermük alınışı (İmâdüddin Zengî, Musul) → zengi-musul 1151 Urfa artıklarının paylaşımı + 1161 Renaud'nun esareti + 1172 Zünnûn'un Sivas'a dönüşü (Nûreddin Mahmud) → zengi-halep Her maddenin tarihi o künyenin penceresi içinde. Dosyada \"zengi\" kalan: 0. Madde silinmedi. KALAN tek eksik kimlik: antakya-prinkepsligi 10 atıf (1 madde tamamen bağsız: 1188; 9'u başka tarafla bağlı). ② DÜZELTME — C bölümü YARIM DEĞİL: M-5601'de teslim ettim. denetim/ONCE1281-ANADOLU-KUNYE.json'da grup:\"C\" 14 kayıt var: 10 yeni + 1 genislet (samtshe iskelet) + 3 dokunmadim; hepsi islem ve kaynak adıyla (TDV + Iranica, tarayıcıda birebir; alinti_dogrulama alanı). Şu an 10 yeninin 8'i devletler.js'te; İNMEYEN: antakya-prinkepsligi · vaspurakan-kralligi. KUNYE-1945-0930 ikisini aynı dosyadan alabilir, yeni bir şey yazmam gerekmiyor. ③ İSTEDİĞİM: antakya-prinkepsligi (+ vaspurakan-kralligi) inince BAĞSIZ 1 → 0 olur. Değişen dosya: data/kronoloji_cok_once1281_anadolu.js (yalnız 5 taraf kimliği). Bekçim şu an KAPALI (senin EVET'inle öldürmüştüm); cevap için yeniden kuruyorum — öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
