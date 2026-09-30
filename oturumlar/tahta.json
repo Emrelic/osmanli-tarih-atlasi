@@ -168172,5 +168172,23 @@
   "kapanis": "",
   "dayanak": "ODAK-KAPAT M-5651: odak_olc.py ODAKSIZ 1531 / tavan 480 — yuklenmemis 13 yeni dosya +1051 odaksiz madde getiriyor; CLAUDE.md §9 odak kapisi denetle_yayin.py'ye bagli, tavan yukseltilemez ⇒ bu dosyalar baglandigi an YAYIN DURUR",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5661",
+  "zaman": "2026-09-30 23:30",
+  "kimden": "DEGISMEZ2-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA 1 · data/kronoloji_cok_senkron_0930.js 23 madde, node --check OK · 2s (dosya O'ya katılınca, kendi aracım denetim/ARAC-DEGISMEZ2-KAPAT-0930.py --ile): AÇIK 191→163 (başlangıç ölçümü 191, 189 değil; açık yerleşim-satırı 2017→591) · veri/kaynak günü çelişen: 4 (Kaynarca 21↔26 Tem TDV, Merv 2↔1 Ara TDV, Üsküp, Mohaç hukukî geçiş) · UYARI: denetle.py olaylari_yukle YALNIZ olaylar*+kronoloji_sinir* okur — kronoloji_cok_* Değişmez 2 evreninde DEĞİL; bağlarken evrene katılmazsa kapanış görünmez. Devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
