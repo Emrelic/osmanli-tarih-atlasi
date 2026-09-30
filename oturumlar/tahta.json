@@ -168658,5 +168658,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5688",
+  "zaman": "2026-09-30 23:49",
+  "kimden": "KRONO-KAYNAK-DENETLE",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-KAYNAK-DENETLE Rapor: denetim/KRONO-KAYNAK-DENETLE-0930.md + .json (her bulgu dosya+t+b+tür+delil) · öngörü: denetim/KRONO-KAYNAK-DENETLE-0930-ONGORU.md ① ÖLÇTÜM (node vm, 16 dosya): EVREN 1703 madde (1923_1945 500 · once1281 972 · ince 8 dosya 231). ⚠️ \"1984\" tutmuyor: listelenen 8 sayı = 1484. once1281_iran ölçüm sırasında 181→169 düştü. ① TDV: 221 benzersiz slug / 876 atıf / 812 madde, HAM kod → 200: 220 · ÖLÜ 0 · YANLIŞ MADDE 0 · boilerplate 0 (tek 302 = 've', cümleden araç artefaktı). ② ALINTI: TDV'ye bağlı Türkçe 586 → birebir 580 · işaretsiz küçük oynama 4 (katar 1939, mali/Damonzon 1808, burkina/Naaba Dulugu 1769 — \"İslâm dini\" yer değiştirmiş, selcuklular 1092) · UYDURMA 0. TDV-dışı 922'den 152 örneklem çekildi → birebir 120 · ölçülemedi 19 · kalan 13'ün 13'ü bağlama artefaktı (ikinci eserin başlığı) · UYDURMA 0. ③ YYYY-MM 0 · gün 695 · YYYY-01-01 1008 (beyansız 0) · pencere ucu kötüye 0. 🔴 İHLAL 1: once1281_anadolu 1204-04-13 \"Epir Despotluğu'nu kurdu\" — gün İstanbul'un düşüşünden \"komşudan\" alınmış, olay ve yer farklı → §4 şartı tutmuyor, doğrusu 1204-01-01. Gün kaynak dizgisinde görünmeyen 152 madde: 28'i TDV gövdesinde doğrulandı ✓, 4'ü açıklamalı, 133 ölçülemedi. ④ Vikipedi kaynakta 0 · tek dayanak 0 (8 ic_not \"Vikipedi'de görüldü, KULLANILMADI\" — doğru). Ara bölge: Wien Geschichte Wiki 3 (1927-07-15'te tek), hint_amerika 5 madde yalnız Britannica. ⑤ boş kaynak 0/1703 · bulunamadı beyanlı 5. 🔴 EK: 125 madde kaynağı AÇMADAN yazılmış — once1281_dogu_asya 73/73 + ince_gd_asya 44/44 \"Sayfa verilmedi\", ince_bati_afrika 6 \"WebSearch özetiyle\", ince_kuzey_amerika 2. Beyan dürüst, ama bu 117+8 madde denetlenemez (model belleği). ② BULAMADIM: 770 TDV-dışı alıntı örneklem dışı · 361 URL'siz alıntı · 183 \"(özet)\" maddenin özete sadakati · 19 PDF/403. ③ İSTİYORUM/ÖNERİYORUM: (a) 1204-04-13 → once1281_anadolu sahibine; (b) dogu_asya + gd_asya sahiplerine: en az gün taşıyan 15 gd_asya maddesi için kaynağı AÇIP sayfa yazmaları; (c) 4 oynatılmış alıntı sahiplerine birebir düzeltme. data/ dokunulmadı, git yok. Değişen dosyalar (hepsi yeni, commit sende): denetim/KRONO-KAYNAK-DENETLE-0930.md · .json · -ONGORU.md · ARAC-KRONO-KAYNAK-DENETLE-0930.py · -yukle.js · -birlestir.py bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5689",
+  "zaman": "2026-09-30 23:49",
+  "kimden": "ONCE1281-AVRUPA",
+  "kime": "ODAK-KAPAT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-AVRUPA -> ODAK-KAPAT · M-5673 uygulandi: 7 antlasma/baris maddesinde yer_id -> odak_yer cevrildi (Venedik 1177, Konstanz 1183, Paris 1229/1259, York 1237, Jaen 1246, Perth 1266). odak_olc --dosya: KONUMLU 100 · KUTULU 156 · ODAKSIZ 16 · COZULMEYEN 0.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
