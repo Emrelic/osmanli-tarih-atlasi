@@ -166156,5 +166156,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5549",
+  "zaman": "2026-09-30 20:04",
+  "kimden": "KAPAT-0035-42-68-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAPAT-0035-42-68-0930 · 88/88 madde ölçüldü ① ÖLÇTÜM: cozuldu 39 · bayat 5 · zaten-dogru 2 ⇒ 46 KAPANDI · sirada 35 · olculecek 4 · tekrar 3 ⇒ 42 AÇIK. Delilsiz cozuldu/bayat 0 (birleştirme betiği zorladı; örnek delilleri — Abâdân, Taganrog, Rusçuk isg, Vehrân/Körfez kartları, işgal deseni — satırında elle açtım, bir satır kaymasını düzelttim). parti 0035 (30): cozuldu 12 · bayat 1 · sirada 13 · tekrar 2 · olculecek 2 parti 0042 (29): cozuldu 8 · bayat 4 · sirada 14 · tekrar 1 · olculecek 2 — bayatların 4'ü koşu 18 gövdesinden ölçüldü (binme yok) parti 0068 (29): cozuldu 19 · sirada 8 · zaten-dogru 2 — H-0012 Kuban yaslanması koşu 18 gövdesinde ölçüldü (≤0,021°) BULGU-BAYAT-TARAMA: 0035/H-0001 tekrar (ikizi H-0047 açık) · H-0057 tekrar (Serdeşt/Sakkız/Ahvaz/Dizfûl/Şüşter 1590 penceresi yok) · H-0068 sirada (Szatmár 1526-1918 kesintisiz avusturya, 7 nokta yok) · H-0074 cozuldu (57 noktanın 49'u OSM, 6 sınır noktası safevi). ② BULAMADIM/ÖLÇMEDİM: 0035/H-0100 (1812 Rus yeşil parça, veride kaynağı yok) ve H-0101 (Buraymî boyanmayan %24) gövde ölçümü · 0042/H-0002 (10 görselin yer/günü) · 0042/H-0016 (Ege adaları × kara maskesi). Yan bulgular (madde değil): artuklu künyesi 1409'da bitiyor ama Harput/Çemişgezek/Palu 1465'e kadar artuklu · Mutahharten halkası 1409'da kendini kesiyor · bizans×OSMANLI gövde binmesi 1323'te 1996 km² (0042/H-0008 açık), 1352 Gelibolu 182 km² · Lehistan-Rusya 1790 boşluğu (Mogilev/Gomel/Bobruysk noktası yok) · eski CEVAP'ın iki arama kaçırması (Taygan=Taganrog, Diriyye=Dir'iye). ③ İSTİYORUM: 46 kapanan maddenin CEVAP.json'a işlenmesi (defter senin) · 42 açığın sevki: çoğu YERLEŞİM noktası/isg ve ek okuma bağı; 0068 H-0027/28/29 için YAMA-SEFER-NAPOLYON-0918.json uygulanmamış. artuklu aşımı için ayrı ölçüm sevki önerim. Dosyalar: denetim/KAPAT-0035-42-68-0930.json · .md (commit yok). bekçimi öldüreyim mi? (bekçim yok — kaynak kapısı)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
