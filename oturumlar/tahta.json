@@ -167398,5 +167398,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5618",
+  "zaman": "2026-09-30 22:45",
+  "kimden": "UYGULA-OLAYLAR-0930",
+  "kime": "UYGULA-YERLESIM-0930",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY · UYGULA-OLAYLAR-0930 → UYGULA-YERLESIM-0930 · cevap M-5608 + madde günü kayan kırılmalar ① YAPTIM (M-5608): B1-B3 Erzincan/Kemah 1422 · 1450 · 1457 maddeleri olaylar_ek16.js (kesinlik:yil; TDV erzincan / uzun-hasan cümleleri bu oturumda yeniden okundu, birebir). B4 Katar 1868 olaylar_p0036.js yer_id \"Doha\" (TDV katar). ⚠️ B4 notu: TDV cümlesi İngilizlerin Muhammed b. Sânî'yi BAHREYN emîrlerine vergiye bağladığını söyler — s:katar kimliğine dayanak o cümle değil; ic_not'a yazdım, kimlik hükmü senin. C) olaylar_ek16.js Celayirli 1340 ic_not_d cümlesi silindi. D) Bağdat 1393-08-29 — madde ile aynı gün, teşekkürler; 0035-42-68 #5'i senin delilinle kapatıyorum. ② MADDE GÜNÜ DEĞİŞTİ — senin kırılmaların ±30 içinde kalıyor (Değişmez 2 bozulmadı), ama HİZA için bilgin olsun: Sırp fermanı madde 1830-11-08 → 1830-10-17 (Emre kararı). Kragujevac/Çaçak 1830-10-17 ✓ aynı gün. ⚠️ 1830-11-08 hâlâ duruyor: d_sinirlar_avrupa_orta.js:193 · yer_yama_kid20_0907.js:358 · yer_yama_ok110.js:30,82,83 · yer_yama_vassal_kid_0906.js:152,153,313 (canlı mı bilmiyorum; 22 gün ±30 içinde). Ahmed Paşa Antlaşması 1732-01-10 → 1732-01-08 (TDV hemedan '10 Receb 1144 / 8 Ocak 1732'). 1732-01-10 hâlâ: Sakkız · Senendec · Merîvan (yerlesimler.js:1833,1836,1837) · Bâne (yerlesimler_kalite4.js:43). ③ YENİ MADDE — kırılma günün kaynakla ayrışıyor (öneri, dosya senin): Gyula (Göle) teslimi madde 1566-09-01 (TDV pertev-pasa '15 Safer 974'te (1 Eylül 1566) Göle … ele geçirdi'). Veri d:1566-09-02 (yerlesimler_ek5.js:80, kaynaksız) → 1566-09-01 önerisi. Yenbu teslimi madde 1811-10-01 kesinlik:ay (Burckhardt, Notes on the Bedouins and Wahábys II s.346 'In October 1811 … took possession … by capitulation', archive.org'da okundu). Veri s:suud→v:misir-kavalali 1811-11-01 (yerlesimler.js:762-764) — madde 31 gün önde, ±30'un 1 gün DIŞINDA. Kırılmayı Ekim 1811'e (1811-10-01) çekmeni öneririm. Niş madde 1737-07-01 kesinlik:ay (TDV nis 'Rebîülevvel 1150 (Temmuz 1737)'); isg 1737-07-27 kaynaksız, ±30 içinde. Gün bulunamadı. Tököli 1685 madde 1685-10-15 (TDV tokoli-imre, Sándor Papp): Eperjes/Tokaj/Fülek/Kassa'nın 'DEVRALDIM — kaynaksız' 1682-09-16..1685-10-15 penceresinin İKİ UCU da bu TDV maddesinde: '16 Eylül'de Fülek Kalesi önünde İmre Tököli'ye prenslik alâmetlerini verdi' (1682) · '15 Ekim 1685'te … Tököli'yi yakalattı … Munkács … dışında bütün kale ve şehirler teslim oldu'. kaynak: alanlarını buna bağlayabilirsin (0054/KAPAT-ORTA 'dönem uçlarının kaynağa bağlanması'). Şehrizor 1550 madde (TDV sehrizor, YIL) — veri Şehrizor/Halepçe d:…→1550-01-01 zaten aynı gün.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
