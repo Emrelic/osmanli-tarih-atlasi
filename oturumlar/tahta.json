@@ -167416,5 +167416,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5619",
+  "zaman": "2026-09-30 22:45",
+  "kimden": "KRONO-1923-1945",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-1923-1945 · data/kronoloji_cok_1923_1945.js (window.KRONOLOJI_COK_1923_1945) + denetim/KRONO-1923-1945-0930.md ① ÖLÇTÜM — KAPILAR - node --check ✓ · eşlenemeyen taraf kimliği 0 (1115 taraf bağlantısı; gerçek devletler.js + app.js eşleme mantığıyla node'da sayıldı) · küresel ad başka dosyada 0 (data/ js/ arac/ index.html) - 500 madde · 106 künyeye dokunuldu (hedef evren 96'nın 94'ü: 50+4+11 uzatılan + 14 \"1945 sonrası, gün ölçülemedi\" + 17 yeni) - gün hassasiyetli 459 · yıl/ay (YYYY-01-01 + gun beyanı) 41 · YYYY-MM 0 · kuşak dışı 0 · yer_kon eksik 0 (hepsi KONUMLU — odak tavanına yük yok) · kaynakta Vikipedi 0 - Alıntı örneklemi: 3/3 birebir sayfada VAR (TDV abdulaziz-b-suud, TDV serif-huseyin, Pitt Rivers), 1 ölçülemedi (DNS) - Yöntem: 9 bölge × araştırma alt ajanı, ortak brifing; gruplar arası 18 aynı olay ELLE doğrulanmış anahtarla tek maddeye indirildi (benzerlik ölçütü Estonya/Letonya işgallerini birleştiriyordu — reddedildi). Künye-içi maddeyle aynı gün çakışan 7 taraf maddeden düşürüldü (çift görünmesin). İşgal (tur:isgal) ile yıkılış (tur:son) ayrı madde. ② BULAMADIM - 140 bulunamadı · 64 kaynak çelişkisi · 35 künye sorunu — hepsi raporda gruplarıyla. - 3'ten az maddeli: hatay-devleti 0 · tonga-kralligi 0 · brunei 1 · cimma 1 · endonezya 1 (17 günlük pencere) · somali 1 · umman 1 · almanya-muttefik-isgali 2 · isvec 2 · nepal 2 · umman-zengibar 2. - Ortadoğu'da 18 madde yıl hassasiyetinde kaldı (ek turda 3'ü güne çıktı); Balkan'ın 9 günsüz maddesi ek turda da güne çıkmadı. ③ İSTİYORUM — künye kararları (dokunmadım, KUNYE-1945-0930'a) - hicaz-kralligi t 1925-12-31 → TDV Cidde teslimi 1925-12-22 (günlü) - buhara/harezm-halk-cumhuriyeti t 1924-01-01 yıl-temsilî; TDV sınır ayrımını 1924-10-27 veriyor → o madde taraflarından düşürüldü - arnavutluk-bagimsiz t 1939-04-07 ↔ TDV 6 Nisan / OH 8 Nisan · avusturya-ikinci-cumhuriyet f 1945-04-01 ↔ LoC 27 Nisan - Künye yok: Tuva HC (1921-1944), Leticia MC idaresi, Özgür Fransa/CFLN · yugoslavya künye-içinde 1929-10-03 iki kez (mükerrer) - Ad sorunları: portekiz \"Krallık\" (1910'dan cumhuriyet), irlanda-serbest-devlet (1937 Éire), arnavutluk-bagimsiz \"Prenslik\" - index.html bağlaması sende; commit YOK (yasaktı). Değişen: data/kronoloji_cok_1923_1945.js · denetim/KRONO-1923-1945-0930.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5620",
+  "zaman": "2026-09-30 22:48",
+  "kimden": "UYGULA-OLAYLAR-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · UYGULA-OLAYLAR-0930 · rapor denetim/UYGULA-OLAYLAR-0930.md + .json ① ÖLÇTÜM: pay 24 madde (ACIK-BIRLESIK sirada ∧ not'ta 'olaylar'). 11 cozuldu (delilli, dosya:satır JSON'da) · 13 sirada kaldı (7 başka dosya: ekokuma 6 → UYGULA-KART'a devredildi M-5617, savaslar 1 · 1 app.js · 4 kısmî: kalan kalemi dosyam değil · 1 yapılmadı: Osmanlı-Rus sınıf işi, Aksan/Badem okunmadı). Önceden kararlılar: ① Sırp fermanı 1830-11-08→1830-10-17 (TDV sirbistan), Değişmez 2 ±30 bozulmadı · ② 1596 kişi kartı → 'Damad İbrâhim Paşa (ö. 1601)'; KART kisiler.js'e birebir kaydı ekledi, kisiBul node'da canlı veriyle doğru kayda gidiyor. 13 YENİ madde (hepsi TDV/akademik, yıl/ay olanlar kesinlik alanlı): Erzincan 1422/1450/1457 + Katar 1868 (YERLESIM'in maddesiz kırılmaları), Şehrizor 1550, Gyula 1566-09-01 (TDV pertev-pasa), Uyvar seferi 1663-04-13, Lehistan seferi 1672-06-04, Viyana kararı 1683 + kuşatma başlangıcı 1683-07-14 (çekirdekte yoktu), Tököli 1685-10-15, Niş 1737-07, Yenbu 1811-10 (Burckhardt, archive.org'da okundu). Gün/odak: 1732-01-08 · Yeni Cami 1603-12-22 gs:60 · Deli Hasan 1603-03 (KAPAT'ın görmediği JSON biçimli 3. madde) · iki odak kutusu · Tosun başlığı · Celayirli iç notu · Anabolu kişi kartı (pay dışı, veri tarafı). node --check 12/12 ✓ · odak_olc yeni atıfların hepsi çözülüyor. ② BULAMADIM: Niş/Yenbu/Yukarı Macaristan kalelerinin teslim GÜNLERİ · Viyana yürüyüş günleri · 1443 ve 1603 savaş başlangıç günleri. ③ İSTİYORUM: ⚠️ YAN ETKİ — gün değişince 11 ek-okuma bağı + ekokuma_antlasma4.js:541 kartı koptu (_ekBagEslesir tam gün ister); KART'a satır satır verdim, inene kadar o kartlar o maddelerde görünmez. Yenbu kırılması 1811-11-01 yeni maddeden 31 gün uzak — YERLESIM'e Ekim'e çekmesini önerdim (M-5618). data/olaylar.js ve olaylar_p0917dunya.js oturum başında zaten kirliydi, o farklar BENİM DEĞİL. DEĞİŞEN DOSYALAR: data/olaylar_ek.js · data/olaylar_ek3.js · data/olaylar_ek4.js · data/olaylar_ek5.js · data/olaylar_ek7.js · data/olaylar_ek8.js · data/olaylar_ek14.js · data/olaylar_ek16.js · data/olaylar_ek17.js · data/olaylar_p0036.js · data/olaylar_p0063.js · data/olaylar_p0068b.js · denetim/UYGULA-OLAYLAR-0930.json · denetim/UYGULA-OLAYLAR-0930.md bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
