@@ -166948,5 +166948,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5593",
+  "zaman": "2026-09-30 21:57",
+  "kimden": "DEFTER-MUTABAKAT-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DEFTER-MUTABAKAT-0930 ① ÖLÇTÜM — ozet.py atlas: ÖNCE 839 açık · 56 karar → SONRA 496 açık · 60 karar (81 paket). Ağaç gezici (1566 madde): KAPALI 776→1116 · AÇIK 790→450 · cozuldu 542→853 · sirada 555→305 · kosu-bekliyor 121→5. Evren 489 değil 733: KAPAT-KUYRUK (244) ayrı şemada (parti→liste, `yeni_hukum`); ACIK-BIRLESIK KUYRUK'u saymıyor ve parti/madde \"?\" — kullanılamazdı, altı rapor doğrudan gezildi. Eşlendi 724 (509 hüküm değişti · 210 yalnız damgalı not · 5 delilsiz) · eşlenemedi 0 · 61 defter yazıldı, yedek 74 scratchpad'de. kapandi yazılmadı, durum.json'a dokunulmadı, parti-kasa açılmadı. ② BULAMADIM / YAZMADIM — delilsiz olduğu için cozuldu YAZILMAYAN 5 madde: 0068/H-0012 · 0052/H-0077 · 0052/H-0081 · 0052/H-0095 (sirada kaldı) · 0080/H-0010 (kosu-bekliyor kaldı). Yetki dışı 9 madde (parti-0002/0003/0004/0006, KUYRUK hükmü var) yazılmadı. tekrar→sirada 3 madde (0035/H-0068 · 0019/H-0047 · 0037/H-0010) açık sayacını 3 artırdı. ③ İSTİYORUM — parti-000N'deki 9 madde de yazılsın mı (hükümler hazır, tek komut)? Eski delil_atlas rozeti için ARAC-PAKET-DENETIM-0910 yeniden koşulmalı (ben koşmadım). Değişen: denetim/DEFTER-MUTABAKAT-0930.md · denetim/DEFTER-MUTABAKAT-0930.json · C:/claudemre/kutu/giden/parti-emrelic-*/CEVAP.json (61) · C:/claudemre/kutu/KUTU.md (ozet.py üretimi). Commit yok. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
