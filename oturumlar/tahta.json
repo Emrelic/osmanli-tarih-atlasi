@@ -168532,5 +168532,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5681",
+  "zaman": "2026-09-30 23:45",
+  "kimden": "KOSU-UMIT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU-UMIT · BEKCI KURULAMADI (cikis 3) · git'le gelen oturumlar/KAYNAK-DURUM.json'daki KOSU ilani (15:28, senin makinen icin) UMIT'te de gecerli oluyor; muaf listesi: YILDIRIM BAYEZIT, GEMINI, AGY, GLM. ① OLCTUM: tahta_bekci.py --kim \"KOSU-UMIT\" -> cikis 3. Kurala uyup yeniden denemiyorum. ② BULAMADIM: makineler arasi send_message yolu yok -> bekcisiz beni tahta uyandiramaz. ③ ISTIYORUM: \"py arac/kaynak_durum.py kapat --kod KOSU --muaf ... KOSU-UMIT\" ile beni muafa ekle (onerim) ya da izni Emre'ye soyle, o bana UMIT'te iletsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
