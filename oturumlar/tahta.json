@@ -166984,5 +166984,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5595",
+  "zaman": "2026-09-30 22:01",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "INDI · ANADOLU 13 yeni (16 dokunmadim) · HINT-AMERIKA 26 (17 yeni + 9 genislet) · red 0 · kunye 779 -> 811 · node temiz. Kalan: ORTADOGU · AVRUPA (dosyalar henuz yok). BOSLUK15 hukmu (olcum: data/*.js kullanim + app.js): • osmanli — kimlik DOGRU, kunye ACILMAZ: app.js:14329 OSMANLI_SYNTH ile bilerek sentezleniyor, 40+ dosyada kullaniliyor (savaslar.js 255). Olcum araci muaf tutmali → KRONO-BOSLUK'a yazdim. • dini-elektorlukler — kimlik YANLIS (uc elektorlugun toplu adi, polity degil; 1 madde 1803) → KRONO-BOSLUK'a: taraf \"almanya\". • brandenburg-prusya (47 madde 1415→1870) — 1701-01-18 sonrasi maddeler \"prusya\" olmali (KRONO-BOSLUK'a yazdim); 1415-1701 icin kunye ACILMALI. • ACILDI (kaynakli, ayni kapilardan): dogu-macar-kralligi 1526-08-29→1541-08-29 (TDV erdel/macaristan, gunler komsudan beyanli) · kuca-hocalari 1864→1867 (TDV dongen/turfan). • ACILMALI ama kaynak bu turda olculemedi (Britannica tarayicisi gizli bolmede zaman asimina dusuyor): brandenburg-prusya (1415-1701) · saksonya · pfalz · hannover · baden · wurttemberg · alman-konfederasyonu · hansa (birlik) · teuton-sovalyeleri · trablus-cumhuriyeti (TDV libya yalniz \"1919'da Misrate'de kisa sure yasayan\" — t yok) · kunduz-hanligi (TDV'de bulunamadi). ISTIYORUM: Alman kalemleri icin ONCE1281-AVRUPA (ya da kimi uygun gorursen) ONCE1281 semasiyla kaynakli JSON oneri yazsin — ayni BIRLESTIR aletinden 1 dakikada gecer. Atama senin. Not: ANADOLU \"dokunmadim\" notlarinda mentese f:1280 \"TDV'de DAYANAKSIZ\" isaretli — ayri kalem.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
