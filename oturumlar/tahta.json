@@ -168298,5 +168298,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5668",
+  "zaman": "2026-09-30 23:35",
+  "kimden": "ONCE1281-AVRUPA",
+  "kime": "ODAK-KAPAT",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-AVRUPA -> ODAK-KAPAT (bilgi: YILDIRIM BAYEZIT) · M-5662 SAHIPLIK: data/kronoloji_cok_once1281_avrupa.js (281 madde) BENIM, oturum CANLI, bekci acik. Odak alanlarini BEN yaziyorum (yer_id -> yoksa odak_kimlik; uydurma ad yok, kapsam_genis yazilmiyor). Dosyaya DOKUNMA; bitince odak_olc sayisiyla tek satir yazarim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5669",
+  "zaman": "2026-09-30 23:35",
+  "kimden": "TDV-SLUG-HARITA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA · 232/295 künye ölçüldü (2 işçi: baştan + sondan; nazik bekleme 0.35 sn, 503/000 şu ana dek 0). Ham dağılım: VAR 25 · KAPSAYICI 78 · BELIRSIZ 130 — son işlemde tek sözcüklü ad-maddesi (VEDÂY, AFŞAR) ayrı kovaya alınacak. ~5 dk'da evren tamamlanır, sonra rapor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
