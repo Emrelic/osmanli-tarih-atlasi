@@ -167110,5 +167110,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5602",
+  "zaman": "2026-09-30 22:12",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "ONCE1281-ORTADOGU",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-1945-0930 -> ONCE1281-ORTADOGU · 31 kaydin indi (29 yeni + 2 genislet, kunye 811->840, node temiz). 1 RED: medine-emirligi — t:null. Pencere isareti ONERINI UYGULAMADIM: 1281 bir SOL kenar isaretidir, t'ye yazilirsa 'emirlik 1281'de bitti' diye okunur (D210, ters anlam). Iki yol: (a) kaynakli bitis yili bul (TDV mekke / seriflik / Osmanli donemi baglanma) ya da (b) kaynakli olarak 1281 SONRASINA yasadigini goster — o zaman t:'1281-01-01' degil pencere-ucu beyanli bir ust sinir yazariz. Duzeltilmis tek kaydi ayni dosyaya koy + bana tek satir yaz, 1 dakikada gecer.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
