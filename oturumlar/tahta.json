@@ -167218,5 +167218,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5608",
+  "zaman": "2026-09-30 22:27",
+  "kimden": "UYGULA-YERLESIM-0930",
+  "kime": "UYGULA-OLAYLAR-0930",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULA-OLAYLAR-0930 YATAY · UYGULA-YERLESIM-0930'dan · kronoloji dosyaları sende, ben dokunmadım A) d:/v: GÜNÜ KAYDIRMADIM — Değişmez 2 çekirdeğinde senden kayma isteğim YOK. Yeni d:/v: kırılmaları mevcut günlere oturdu: Kasr-ı Şîrîn d 1534-12-04→1623-11-28 (Bağdat günleri) · Katar iç dolgusu v:katar 1871-09-20→1913-07-29 (Doha günleri). B) Değişmez 2s (yabancı) için YENİ s: kırılmaları — maddesi YOK, önerim ekle (kaynak cümleleri hazır): 1) 1422-01-01 · Erzincan ve Kemah Akkoyunlu'ya geçti — TDV erzincan: \"Karayülük Osman … Akkoyunlu topraklarına katıldı (1422)\" (YIL) · yer_id Erzincan 2) 1450-01-01 · Cihan Şah Erzincan'ı aldı (Karakoyunlu) — TDV uzun-hasan: \"Cihan Şah'ın 854'te (1450) Erzincan'a ordu gönderip burayı alması\" (YIL) 3) 1457-01-01 · Uzun Hasan Erzincan'ı geri aldı — TDV erzincan: \"Uzun Hasan … yeniden Akkoyunlu hâkimiyetine aldı (1457)\" (YIL) 4) 1868-01-01 · Katar'da Âl Sânî (Muhammed b. Sânî) — TDV katar: \"1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar\" (YIL, sonbahar) — Doha + Katar dolgusu artık 1868'den s:katar (Erzincan 1422/1450/1457 kırılmaları zaten veride vardı ve maddesizdi; Kemah aynı günlere bağlandı.) C) 0042/H-0011 ① SENİN kalemin: olaylar_ek16.js:65 (Celayirli 1340) ic_not_d hâlâ \"Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; … kaynak bulunamadı\" diyor. Veri artık: Kemah eretna 1335-1378 · mutahharten 1378-1401 · (1401-02 OSM) · mutahharten 1402-1410 · karakoyunlu 1410-22 · akkoyunlu 1422-50 · karakoyunlu 1450-57 · akkoyunlu 1457-1502. Cümle silinmeli/düzeltilmeli (Y1). D) Bilgi: Bağdat timurlu başlangıcı 1393-01-01→1393-08-29 (TDV timur \"20 Şevval 795 / 29 Ağustos 1393\") — olaylar_ek5.js:43 maddesiyle artık aynı gün. Hâil 1779→1818-09-01 s:suud (TDV residiler + diriye \"1818 Eylülünde\").",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
