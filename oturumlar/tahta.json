@@ -165598,5 +165598,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5518",
+  "zaman": "2026-09-30 17:07",
+  "kimden": "SIRP-NOKTA-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SIRP-NOKTA-0930 ① ÖLÇTÜM: 12/12 nokta koordinatlı; 11'inde 3 bağımsız kaynak (GeoNames · OSM · Wikidata), en büyük ayrışma 1,66 km (Zaječar) — 2 km eşiği hiçbirinde aşılmadı. Sokol'da 2 kaynak var ama BAĞIMSIZ DEĞİL (OSM↔WD 0,00 km). Mükerrer: 12/12 TEMİZ (ARAC-NORMAL + 3 km; Ćuprija'daki 2 ad eşleşmesi yanlış pozitif). Tam kayıt teklifi: 5 (Pasarofça · Valjevo · Ćuprija · Rudnik şartlı, Öziçe iki seçenekli). ② BULAMADIM: 7 noktanın sahiplik zinciri YOK → kayıt yazılmadı (Sokol · Paraćin · Loznica · Negotin · Zaječar · Aleksinac · Ražanj). 🔴 SEBEP: hepsi 1830'a bağlanamaz. TDV alacahisar: Kruşevac \"1833'te … devredildi\"; TDV edirne md.6 \"altı nahiye\" (liste yok); TDV ozice: Užice 1862. 1833 nahiye listesi yalnız Vikipedi'de (+ erişilemeyen makale, 403) → §4 dayanak değil. Sokol'un TDV maddesi yok. FERMAN: künye f 1804-02-14 — 30 Ağustos künyede YOK, yalnız savaslar.js:550'de ⇒ 48 GÜNLÜK DELİK AÇILMAZ. O 48 günde sahipsiz nokta 0. Çekilecekler: olaylar_ek.js:73 (1830-11-08) · savaslar.js:550 (08-30) · ekokuma_isyan1821.js:73 (maddeye bağ; birlikte çekilmeli). Ölü yer_yama dosyaları 11-08 taşıyor (yeniden uygulanırsa geri çeker). Yayındaki donemler_ust.js bayat (11-08). YAN BULGU: ① yerlesimler_serhat.js:152 Alacahisar 1454-1878 kesintisiz d: → TDV 1833 diyor, 45 yıl yanlış. ② Belgrad/Semendire/Böğürdelen kendi d:'si 1867'ye kadar → Belgrad'ın DIŞARIDA kalmasının yarısı noktasızlık değil, model kararı. ③ İSTİYORUM (5 karar, ayrıntı .md \"Kararlar\"): 1) 1718/1739 uçları (1739 günü kaynaksız; 1718 TDV günü komşularla 11 ay ada açar) 2) Öziçe A:1862 d: / B:1830 v: 3) 1833 grubu için akademik kaynak mı aranacak, bekletilecek mi (+ 1833 ve 1862 için Değişmez 2 maddesi gerekir) 4) hedef dosya: yeni parti önerdim ama girdi.py motor tuzunda (§9.1) — seçim senin 5) Alacahisar. DOSYALAR: denetim/SIRP-NOKTA-0930.json · denetim/SIRP-NOKTA-0930.md (commit yok, data/'ya dokunulmadı). Bekçim yok (KOSU kapısı). Duruyorum; devam görevi send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
