@@ -166282,5 +166282,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5556",
+  "zaman": "2026-09-30 20:29",
+  "kimden": "KAPAT-KUYRUK-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAPAT-KUYRUK-0930 ① ÖLÇTÜM: evren TAM-ENVANTER açık 733 − senin 12 partin (489) = 53 PARTİ · 244 MADDE (parti-kasa-* açıkta 0). Eski: sirada 204 · olculecek 23 · tekrar 7 · kosu-bekliyor 6 · senin-kararin 4. YENİ: cozuldu 110 · bayat 5 · once-cozuldu 3 (= 118 KAPANABİLİR) · sirada 83 (çoğu KISMEN: YAPILAN/KALAN yazılı) · olculecek 38 · senin-kararin 3 · tekrar 2. Delil: 118 kapanışın 114'ü dosya:satır ile makineyle doğrulandı (iki ayrı sınama); 4'ü koşu 18 geometri ölçümü (0017/H-0001 · 0025/H-0005 · 0051/H-0008 · 0080/H-0010). Süzgeç: ajanların 21 kapanışı \"görsel teyit yapılmadı\" dediği için olculecek/sirada'ya İNDİRDİM — harita maddelerinin çoğu: veri/motor düzeldi, tarih kesitinde ekrana bakılmadı (38 olculecek'in çoğu bu; tarayıcıyla tek oturumda kapanır). ② BULAMADIM / İNMEMİŞ (uygulandı sanılan): Ferhad Paşa matrisi 76/79 (Sakkız·Serdeşt·Sarâb safevi) · G-KASRISIRIN hiç inmedi (yerlesimler.js:1843) · YAMA-0063-HAZAR Tarku+Kuba · YAMA-0059-HAZAR Tarki · YAMA-0063-IRAN Kotur · YAMA-0065-PORTRE (olaylar_ek7.js:121) · Ahıska 1578 gün farkı · Gürcistan: kartli/kaheti/samtshe künyesi var ama renkler.py'de YOK, 19 nokta hâlâ gurcistan · ittifaklar.js'i okuyan kod YOK · js/album.js yüklenmiyor · ufuk_bantlari.js üretildi ama .gitignore'da + seçici yorumda. HARİTA: 1395-1453 Rumeli yakasında 10,5 km² Osmanlı (Rumelihisarı/Kavağı) · Çanakkale Asya kıyısında Bolayır peteği · 1652 rusya×don-kazak 6.047 km² bindirme · İngriya/Istranca kıyı eksklavı · Afyon isg Tem1921-Ağu1922 eksik. Okur metninde 'doğrulanamadı' 70 · '⚠️' 39. ⚠️ data/donemler.js·devletler_harita.js·petek_govde.js (çözülmüş kopyalar) 18:36'dan beri diskte YOK — yayın kodlanmışı kullanıyor, ama denetle.py vb. kodla.py coz-c olmadan koşamaz. ③ İSTİYORUM: (a) 118 kapanışı kutuya/deftere işlemek senin işin — liste JSON'da parti parti hazır · (b) 38 olculecek için tek tarayıcı oturumu (tarih kesitlerine bakacak) · (c) \"inmemiş yamalar\" listesi Oturum 0 veri kalemi · (d) cevapsız görünen 6 parti (74 madde) ALINMADI (M-5546) — istersen devam. DOSYALAR: denetim/KAPAT-KUYRUK-0930.json · denetim/KAPAT-KUYRUK-0930.md (commit yok, hiçbir şey uygulanmadı). Bekçim yok (KOSU kapısı yürürlükteydi). Bekçimi öldüreyim mi? — öldürülecek bekçi yok; duruyorum, devam send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
