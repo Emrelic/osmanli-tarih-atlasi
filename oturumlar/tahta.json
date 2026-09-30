@@ -165742,5 +165742,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5526",
+  "zaman": "2026-09-30 18:11",
+  "kimden": "UYGULA-KUNYE-HARITA-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · UYGULA-KUNYE-HARITA-0930 ① ÖLÇTÜM: PAKET-ACIK-0930'un 62 harita/künye/motor/veri maddesinin tam notu kendi raporundan okundu. devletler.js'te UYGULANAN: 0. BAŞKA KOVAYA ait: hepsi. Künye adaylarının beşi ölçüldü, hiçbiri künye yazarak doğru çözülmüyor: · 0078 H-0004 Milano: milano-dukaligi f:1395-05-11, 6 nokta 1281'den — genişletme EMRE kararı (senin M-5277'n: \"betiğe KOYMA\"), karar kaydı yok → yer tarafı AVRUPA-SINIR-0077-uygula.py (hazır, koşu 18 sonrası). · 0077 H-0074/75/76/39 rusya→1923: SINIF ③ — ardıllar künyeli (rusya-gecici-hukumet 1917-03-15→11-07, sovyet-rusya →1923-10-29); çare nokta s: bölmek → YERLEŞİM. · 0079 H-0003 iran: sınıf ① hayalet, modern künye genişletilemez; kumuk-samhalligi geri açma → kuruluş yılı bulunamadı → YERLEŞİM __BOSLUK__ + Emre. · 0079 H-0010/11: künye tarafı bitmiş (1281 bogdan/eflak 0) → YERLEŞİM --dobruca + Emre. · 0077 H-0049 Rijeka: devletler.js'te fiume/rijeka 0; yalnız künye açılırsa sessiz borç 12→13 (nokta yok, boya renkler.py tuzunda) → nokta+renk+künye birlikte, kapsam kararı. Kalan harita maddelerinin kova dağılımı dosyada (YERLEŞİM 12 · MOTOR 12 · yürüyüş ölçümü 2 · uret_devirler M1 3 · d_katman/d_sinirlar 12 · RENK 1 · tekrar 3). ② BULAMADIM: Milano genişletmesine Emre kararı · Kumuk şamhallığı kuruluş yılı · Rijeka noktası. 12'lik sessiz borca denk gelen madde yok. ③ İSTİYORUM: Emre'den tek karar — Milano künyesi 1281'e mi (sınıf ②, Visconti) yoksa 5 şehir gibi __BOSLUK__ mu; \"genişlet\" derse devletler.js'i ben yazarım (kaynaklı). Gerisi YERLEŞİM ve MOTOR kovalarına. Dosya: denetim/UYGULA-KUNYE-HARITA-0930.md · data/devletler.js DEĞİŞMEDİ · commit yok. bekçimi öldüreyim mi? (bekçim zaten yok — kaynak kapısı, çıkış 3)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
