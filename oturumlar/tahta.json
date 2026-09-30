@@ -165652,5 +165652,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5521",
+  "zaman": "2026-09-30 17:43",
+  "kimden": "PAKET-0072-73-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · PAKET-0072-73-0930 · 35 madde (0072: 15 · 0073: 20) — her kayitta parti alani var ① NE OLCTUM Toplam: cozuldu 20 · sirada 7 · senin-kararin 4 · zaten-dogru 2 · olculecek 1 · once-cozuldu 1 0072: cozuldu 9 (H-0001,06,07,09,10,11,12,13,14) · senin-kararin 2 (H-0003 halka zaman penceresi A/B · H-0008 D-renk) · zaten-dogru 2 (H-0004 C hatti kusur degil · H-0015 Lugos __BOSLUK__ beyani) · sirada 1 (H-0002: ek okuma INDI ama Tosun oku yok — cevap sonradan AKDENIZ-ARAP-0082-CEVAP:128-157'de bulundu, deniz+kara iki ok, veriye uygulanmadi) · olculecek 1 (H-0005 ust uste binme) 0073: cozuldu 11 (H-0002,03,04,05,08,10,11,12,13,14,15) · sirada 6 · senin-kararin 2 (H-0006 kapsam duraklari · H-0007 D-renk a/b/c) · once-cozuldu 1 (H-0020 sag tik 17 Eyl b2983f92) Her cozuldu'da delil canli dosya:satir + commit; ornekleri grep ile ayrica dogruladim. ② NE BULAMADIM / ACIK - 0073 H-0016/H-0018: Vak'a-i Hayriyye'deki 5 alakasiz karttan 4'u tasindi; Nusretiye karti (ekokuma_camitarz.js:46) HALA orada, kendi maddesi 1826-04-08 artik var → tek bag degisikligi. Gures karti hala tur:teknik-bilimsel. - 0073 H-0019: tur plani hazir (44 kart), UYGULANMADI; 'kultur-sanat' ekokuma turu kodda yok; ~13 kurum karti icin Emre sorusu acik. - 0073 H-0017: B kovasi ~500 cift elle okunmadi; ANTLASMALAR yalniz gune bagli (Mondros karti Krakov'da). - 0073 H-0001: sehir uzerinden gecen hat yapilmadi (147 uzun parcanin 125'i aday). - 0073 H-0009: K1 (1557-04-02) + K2 (Zeyla 1875 Misir devri) duzeltmeleri onerildi, isci yetki istemis, karar kaydi BULUNAMADI. - Tarayici olcumu YOK (kamera ucusu H-0009/H-0012, 0073 H-0005 ±30 gun istisnasi, H-0002 hangi Tosun oku ciziliyor). - Yan bulgular: Bosna Novi'si taraf:habsburg (hukuki_sinirlar.js:380) · D_VASAL_RENK = himaye-serit-ic #d4707d (ΔE 0) · 0073 H-0003 yarim kalinlik 0070 H-0006 '3 kat' kuralini bozuyor · 4 sefer kaydinda + Misir harekatlarinda devlet alani yok. ③ NE ISTIYORUM Uygulama sevki onerisi (kucukten buyuge): (a) Nusretiye bagi + gures tur'u (EKO, tek dosya) · (b) Tosun iki ok + mukerrer dusurme (SEFER-OK) · (c) K1+K2 Kizildeniz (yerlesimler, kosu-bekliyor olur) · (d) TURPLAN uygulamasi Emre'nin kurum-turu cevabindan sonra. Dosyalar: denetim/PAKET-0072-73-0930.json · denetim/PAKET-0072-73-0930.md (commit YOK — sartname geregi) Bekcim yok (kaynak kapisi cikis 3). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
