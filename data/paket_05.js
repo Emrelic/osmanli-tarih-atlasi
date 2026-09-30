@@ -553,7 +553,7 @@ window.DEVLETLER = [
 },
 
 { id:"karakoyunlu", ad:"Karakoyunlu Devleti", tur:"devlet", bolge:"iran",
-  f:"1351-01-01", t:"1469-01-01", baskent:"Van-Erciş → Tebriz", harita:"karakoyunlu",
+  f:"1351-01-01", t:"1469-12-19", baskent:"Van-Erciş → Tebriz", harita:"karakoyunlu",
   ozet:"Türkmen devleti (hanedan ömrü); Bayram Hoca'nın 1351'de Sutaylar hükümdarını öldürüp bağımsızlığını kazanmasıyla doğdu, tarihî düşmanı Akkoyunlu'ya (Uzun Hasan) yenilerek 1469'da son hükümdar Hasan Ali'nin öldürülmesiyle sona erdi.",
   kaynak:"karakoyunlular",
   kronoloji:[
@@ -566,7 +566,8 @@ window.DEVLETLER = [
     { t:"1438-01-01", tur:"hukumdar", b:"Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı" },
     { t:"1447-01-01", tur:"antlasma", b:"Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu" },
     { t:"1458-01-01", tur:"toprak-kazanc", b:"Timurlu iç kargaşasından yararlanıp Herat'ı kısa süreliğine aldı" },
-    { t:"1469-01-01", tur:"son", b:"Akkoyunlu'ya yenilerek yıkıldı" }
+    { t:"1469-04-01", tur:"toprak-kayip", b:"Akkoyunlu'ya yenildi; son hükümdar Hasan Ali öldürüldü", kaynak:"TDV karakoyunlular / uzun-hasan: Şevval 873 (Nisan 1469) — AY hassasiyeti" },
+    { t:"1469-12-19", tur:"son", b:"Bağdat'taki son Karakoyunlu kolu da düştü; hanedan sona erdi", kaynak:"TDV karakoyunlular: 14 Cemâziyelâhir 874 / 19 Aralık 1469 (KRONO-DOGU-ISLAM-0929)" }
   ]
 },
 
@@ -900,7 +901,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1402-01-01", tur:"kurulus", b:"Stefan Lazarević tarafından kuruldu, Osmanlı vasalı" },
     { t:"1427-01-01", tur:"hukumdar", b:"Đurađ Branković despot oldu, başkenti Belgrad'dan Smederevo'ya taşıdı" },
-    { t:"1439-08-18", tur:"toprak-kayip", b:"Semendire ilk kez Osmanlı'ya düştü" },
+    { t:"1439-08-27", tur:"toprak-kayip", b:"Semendire ilk kez Osmanlı'ya düştü", kaynak:"TDV semendire: 27 Ağustos 1439 (KRONO-BALKAN-B-0929 §2)" },
     { t:"1444-08-15", tur:"toprak-kazanc", b:"Segedin Antlaşması ile Semendire ve despotluk toprakları geri verildi" },
     { t:"1459-06-20", tur:"son", b:"Smederevo'nun düşüşüyle despotluk sona erdi" }
   ]
@@ -962,16 +963,16 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1359-01-01", tur:"kurulus", b:"Bogdan I tarafından kuruldu" },
     { t:"1420-01-01", tur:"savas", b:"İlk Osmanlı akını Akkerman çevresine ulaştı" },
-    { t:"1476-01-10", tur:"savas", b:"Ştefan cel Mare, Vaslui'de Osmanlı'yı yendi (Valea Albă'da kısa süre sonra yenildi)" },
+    { t:"1475-01-10", tur:"savas", b:"Ştefan cel Mare, Vaslui'de Osmanlı'yı yendi (Valea Albă'da ertesi yıl yenildi)", kaynak:"TDV bogdan · romanya: Vaslui yenilgisi 1475 — YIL; gün 01-10 eski kayıttan (KRONO-TUNA-0929 A1)" },
     { t:"1512-01-01", tur:"antlasma", b:"Osmanlı vasalı statüsü kesinleşti" },
     { t:"1538-09-14", tur:"savas", b:"Kanunî'nin seferiyle Petru Rareş tahttan indirildi, vasallık sıkılaştırıldı" },
     { t:"1859-01-24", tur:"birlesme", b:"Eflak ile birleşerek Romanya'nın temelini attı" }
   ]
 },
 { id:"erdel", ad:"Erdel Prensliği (Transilvanya)", tur:"prenslik", bolge:"orta-avrupa",
-  f:"1570-01-01", t:"1711-04-30", baskent:"Gyulafehérvár",
-  tabi:[{f:"1570-01-01", t:"1711-04-30", ust:"osmanli"}],
-  ozet:"Mohaç sonrası Macaristan'ın üçe bölünmesiyle doğan, Osmanlı vasalı özerk prenslik. Tâbiiyeti kaydın kendi ömrünü aynalıyor (kayıt zaten Speyer Antlaşması'yla başlayıp Habsburg'a bağlanmayla bitiyor, arada özerk vasallık dışında bir dönem yok — bkz. oturumlar/ARABISTAN-DUZELTMELER.md §AJ/§AK, A5'in önerdiği 1541 başlangıcı kaydın kendi f:'sinden 29 yıl önceye düştüğü için burada kullanılmadı).",
+  f:"1541-08-29", t:"1711-04-29", baskent:"Gyulafehérvár",
+  tabi:[{f:"1541-08-29", t:"1699-01-26", ust:"osmanli"}],
+  ozet:"Mohaç sonrası Macaristan'ın üçe bölünmesiyle doğan, Osmanlı vasalı özerk prenslik. Tâbiiyeti kaydın kendi ömrünü aynalıyor (kayıt zaten Speyer Antlaşması'yla başlayıp Habsburg'a bağlanmayla bitiyor, arada özerk vasallık dışında bir dönem yok — bkz. oturumlar/ARABISTAN-DUZELTMELER.md §AJ/§AK, 29 Eylül 2026 KUNYE-BIRLESTIR-0929: f: 1541-08-29'a GENİŞLETİLDİ — TDV `erdel` 1541 haraçgüzar voyvodalık, 1570 Speyer yalnız unvan değişimi; tâbilik 1699 Karlofça'da bitti).",
   kaynak:"erdel",
   kronoloji:[
     { t:"1570-08-16", tur:"kurulus", b:"Speyer Antlaşması ile bağımsız prenslik statüsü kazandı" },
@@ -979,8 +980,8 @@ window.DEVLETLER = [
     { t:"1613-10-23", tur:"hukumdar", b:"Bethlen Gábor tahta çıktı, prensliğin altın çağı başladı" },
     { t:"1660-08-27", tur:"toprak-kayip", b:"II. Rákóczi György'nin izinsiz Polonya seferi üzerine Osmanlı Várad'ı (Oradea) aldı" },
     { t:"1683-09-12", tur:"toprak-kayip", b:"II. Viyana bozgunu sonrası Habsburg baskısı arttı" },
-    { t:"1690-12-04", tur:"antlasma", b:"Diploma Leopoldinum ile Habsburg üstünlüğü altında özerklik tanındı" },
-    { t:"1711-04-30", tur:"son", b:"Szatmár Antlaşması ile kesin olarak Habsburg'a bağlandı" }
+    { t:"1691-12-04", tur:"antlasma", b:"Diploma Leopoldinum ile Habsburg üstünlüğü altında özerklik tanındı", kaynak:"Magyar Katolikus Lexikon 'Diploma Leopoldinum': 'I. 1691. XII. 4' (KRONO-ORTA-AVRUPA-0929 B1)" },
+    { t:"1711-04-29", tur:"son", b:"Szatmár Antlaşması ile kesin olarak Habsburg'a bağlandı", kaynak:"Magyar Nemzeti Levéltár 'A szatmári béke': '1711. április 29-én Nagykárolyban írta alá' (KRONO-ORTA-AVRUPA-0929 A1)" }
   ]
 },
 { id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
@@ -1005,14 +1006,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"katalan", ad:"Katalan Dukalığı (Atina-Neopatras Kumpanyası)", tur:"dukalik", bolge:"balkanlar",
-  f:"1311-03-15", t:"1388-01-01", baskent:"Thebai (Tebai) → Atina", harita:"katalan",
+  f:"1311-03-15", t:"1388-05-02", baskent:"Thebai (Tebai) → Atina", harita:"katalan",
   ozet:"Bizans'ın Anadolu'da Türklere karşı kiraladığı, sonra kendisine düşman kesilen Katalan paralı asker kumpanyasının Frank Atina Dukalığı'nı ele geçirip Aragon/Sicilya tacı himayesinde kurduğu kısa ömürlü devlet.",
   kaynak:"atina",
   kronoloji:[
     { t:"1303-01-01", tur:"kurulus", b:"Roger de Flor'un Katalan Kumpanyası, Bizans hizmetine Anadolu'da Türklere karşı savaşmak üzere girdi" },
     { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
     { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
-    { t:"1388-01-01", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
+    { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
   ]
 },
 { id:"naksa-dukaligi", ad:"Naxos (Nakşa) Dukalığı", tur:"dukalik", bolge:"balkanlar",
@@ -1181,7 +1182,7 @@ window.DEVLETLER = [
   kaynak:"tunus",
   kronoloji:[
     { t:"1574-01-01", tur:"kurulus", b:"Osmanlı, İspanya'dan Tunus'u kesin olarak aldı" },
-    { t:"1705-01-01", tur:"hukumdar", b:"Hüseyin bin Ali, kalıcı bey hanedanını kurdu (Osmanlı'ya bağlı özerklik)" },
+    { t:"1705-07-12", tur:"hukumdar", b:"Hüseyin bin Ali, kalıcı bey hanedanını kurdu (Osmanlı'ya bağlı özerklik)", kaynak:"TDV huseyin-pasa-tunus-beyi: '20 Rebîülevvel 1117 (12 Temmuz 1705) tarihinde … Hüseyin'i de bey seçti'" },
     { t:"1881-05-12", tur:"son", b:"Bardo Antlaşması ile Fransız protektorası kuruldu" }
   ]
 },
@@ -1191,8 +1192,8 @@ window.DEVLETLER = [
   kaynak:"trablusgarp-savasi",
   kronoloji:[
     { t:"1551-08-15", tur:"kurulus", b:"Turgut Reis, Malta Şövalyelerinden Trablus'u aldı" },
-    { t:"1711-01-01", tur:"hukumdar", b:"Ahmed Karamanlı özerk hanedanlığını kurdu" },
-    { t:"1835-01-01", tur:"toprak-kazanc", b:"Osmanlı doğrudan idareyi yeniden tesis etti (Karamanlı hanedanına son)" },
+    { t:"1711-07-29", tur:"hukumdar", b:"Ahmed Karamanlı özerk hanedanlığını kurdu", kaynak:"TDV karamanli: 'Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)'" },
+    { t:"1835-05-27", tur:"toprak-kazanc", b:"Osmanlı doğrudan idareyi yeniden tesis etti (Karamanlı hanedanına son)", kaynak:"TDV karamanli: 'Bunlar 27 Mayıs'ta Trablusgarp'ta karaya çıktılar. Ertesi gün … tutuklandı' — çekirdek 1835-05-26 (1 gün fark, bildirildi)" },
     { t:"1911-10-09", tur:"son", b:"İtalya işgal etti (Trablusgarp Savaşı)" }
   ]
 },
@@ -1216,11 +1217,11 @@ window.DEVLETLER = [
   ozet:"Osmanlı'ya hiçbir dönemde bağlanmayan tek Kuzey Afrika devleti; komşu ama daima bağımsız (1923 sonrasında da sürdü). ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: kronolojideki \"1666 bölünme\" satırı 1664'e çekildi ve olay adı değiştirildi — TDV'de üç AYRI tarih var, karıştırılmasın: **1659** = Sâdî hanedanının kendi içten çöküşü (bkz. [[sadi]], harita sınırı bu tarihte kalıyor, dokunulmadı), **1664** = TDV `fas` maddesinin verdiği \"başa geçen Mevlây Reşîd\" tarihi (BU satır), **1666** TDV'nin hiçbir maddesinde geçmiyordu, kaynağı belirsizdi.",
   kaynak:"fas",
   kronoloji:[
-    { t:"1549-01-01", tur:"kurulus", b:"Sâdî hanedanı, Vattâsîleri yenerek Fas ve Marakeş'i aldı" },
+    { t:"1549-01-31", tur:"kurulus", b:"Sâdî hanedanı, Vattâsîleri yenerek Fas ve Marakeş'i aldı", kaynak:"TDV vattasiler: '(2 Muharrem 956 / 31 Ocak 1549)' — künye f: 1549-01-01 YIL kodlu kaldı" },
     { t:"1578-08-04", tur:"savas", b:"Üç Kral Savaşı'nda Osmanlı destekli aday tahta çıktı, bağımsızlık korundu" },
     { t:"1591-04-13", tur:"toprak-kazanc", b:"Tondibi zaferiyle Songhay İmparatorluğu'nu yıkıp Timbuktu'yu ele geçirdi" },
-    { t:"1664-01-01", tur:"hukumdar", b:"Mevlây Reşîd başa geçti; Alevî (Filalî) hanedanı fiilen iktidara geldi (şehirlerin tam ele geçirilişi onun döneminde, sonraki 20 yıl içinde tamamlandı)" },
-    { t:"1672-01-01", tur:"hukumdar", b:"Mevlây İsmâil tahta çıktı, merkezi otoriteyi güçlendirdi (1727'ye dek)" },
+    { t:"1664-08-02", tur:"hukumdar", kaynak:"TDV mevlay-resid: '(9 Muharrem 1075 / 2 Ağustos 1664)'", b:"Mevlây Reşîd başa geçti; Alevî (Filalî) hanedanı fiilen iktidara geldi (şehirlerin tam ele geçirilişi onun döneminde, sonraki 20 yıl içinde tamamlandı)" },
+    { t:"1672-04-13", tur:"hukumdar", b:"Mevlây İsmâil tahta çıktı, merkezi otoriteyi güçlendirdi (1727'ye dek)", kaynak:"TDV mevlay-ismail: '15 Zilhicce 1082 (13 Nisan 1672) tarihinde tamamlanan merasimde' (biat)" },
     { t:"1844-08-14", tur:"savas", b:"Isly Savaşı'nda Fransa'ya yenildi" },
     { t:"1912-03-30", tur:"antlasma", b:"Fes Antlaşması ile Fransız himayesine girdi" }
   ]
@@ -1265,7 +1266,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1804-02-14", tur:"isyan", b:"Birinci Sırp İsyanı (Kara Yorgi)" },
     { t:"1815-04-23", tur:"isyan", b:"İkinci Sırp İsyanı (Miloš Obrenović)" },
-    { t:"1830-08-30", tur:"antlasma", b:"Özerklik fermanla tanındı" },
+    { t:"1830-10-17", tur:"antlasma", b:"Özerklik fermanla tanındı", kaynak:"TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti.'" },
     { t:"1878-07-13", tur:"son", b:"Berlin Kongresi'nde tam bağımsızlık tanındı" },
     { t:"1882-03-06", tur:"hukumdar", b:"Krallık ilan edildi" }
   ]
@@ -1336,7 +1337,7 @@ window.DEVLETLER = [
   ozet:"Büyük güçlerin garantörlüğünde kurulan özerk devlet (geçici ara dönem, hanedansız); TDV'nin verdiği karar tarihi 1897-12-18'dir, fiilî yönetim 22 Aralık 1898'de Prens George'un görevine başlamasıyla kuruldu; Balkan Savaşları sonunda Yunanistan'a katıldı.",
   kaynak:"girit",
   kronoloji:[
-    { t:"1898-12-09", tur:"kurulus", b:"Büyük güçler garantisinde özerk Girit Devleti kuruldu, Osmanlı bayrağı sembolik kaldı" },
+    { t:"1898-12-22", tur:"kurulus", kaynak:"TDV girit (Tukin 1996): Prens George 22 Aralık 1898'de göreve başladı — eski 1898-12-09 kaynaksızdı (KRONO-BALKAN-D-0929 ④)", b:"Büyük güçler garantisinde özerk Girit Devleti kuruldu, Osmanlı bayrağı sembolik kaldı" },
     { t:"1908-10-12", tur:"isyan", b:"Yunanistan'a katılım tek taraflı ilan edildi (tanınmadı)" },
     { t:"1913-05-30", tur:"son", b:"Londra Antlaşması ile Yunanistan'a resmen katıldı" }
   ]
@@ -1389,7 +1390,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1832-11-22", tur:"kurulus", b:"Batı Cezayir kabileleri tarafından emîrü'l-mü'minîn ilan edildi" },
     { t:"1837-05-30", tur:"antlasma", b:"Tafna Antlaşması ile Fransa iç bölgedeki hâkimiyetini tanıdı" },
-    { t:"1839-11-01", tur:"savas", b:"Antlaşma bozuldu, tam ölçekli Fransız-Cezayir savaşı yeniden başladı" },
+    { t:"1839-11-19", tur:"savas", b:"Antlaşma bozuldu, tam ölçekli Fransız-Cezayir savaşı yeniden başladı", kaynak:"TDV abdulkadir-el-cezairi: '19 Kasımda cihâd-ı mukaddes ilân eden Abdülkādir' (1839)" },
     { t:"1843-05-16", tur:"toprak-kayip", b:"Smala'nın (gezici başkent) baskınla ele geçirilmesi üzerine Fas'a sığınmak zorunda kaldı" },
     { t:"1844-08-14", tur:"savas", b:"Fas, Isly Savaşı'nda Fransa'ya yenildi; Sultan Abdurrahman desteğini kesti" },
     { t:"1847-12-23", tur:"son", b:"Fransızlara teslim oldu; sonradan Şam'a sürgün edildi" }
@@ -1457,7 +1458,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1912-11-28", tur:"kurulus", b:"İsmail Kemal Vlorë'de bağımsızlığı ilan etti" },
     { t:"1913-07-29", tur:"antlasma", b:"Londra Konferansı sınırları uluslararası tanıdı" },
-    { t:"1914-03-07", tur:"hukumdar", b:"Prens Wilhelm zu Wied tahta çıktı (Ekim'de I. Dünya Savaşı kargaşasında ülkeyi terk etti)" },
+    { t:"1914-03-07", tur:"hukumdar", b:"Prens Wilhelm zu Wied tahta çıktı (3 Eylül 1914'te I. Dünya Savaşı kargaşasında ülkeyi terk etti — TDV; eski metin 'Ekim'de')" },
     { t:"1920-01-21", tur:"kurulus", b:"Lushnjë Kongresi ile fiilî hükûmet yeniden kuruldu" }
   ]
 },
@@ -1511,7 +1512,7 @@ window.DEVLETLER = [
     { t:"1918-11-11", tur:"son", b:"İmparatorluk yıkıldı, cumhuriyet ilan edildi" }
   ]
 },
-{ id:"hollanda", ad:"Hollanda Cumhuriyeti", tur:"cumhuriyet", bolge:"bati-avrupa",
+{ id:"hollanda", ad:"Hollanda (Birleşik Eyaletler Cumhuriyeti → 1815 Krallık)", tur:"cumhuriyet", bolge:"bati-avrupa",
   f:"1581-07-26", t:"1923-10-29", baskent:"Amsterdam / Lahey", harita:"hollanda",
   ozet:"İspanya'dan bağımsızlığını ilan eden ticaret cumhuriyeti; 1612'de Osmanlı'dan kapitülasyon aldı (1923 sonrasında da sürdü).",
   kaynak:"hollanda",
@@ -2363,14 +2364,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"zeyyani", ad:"Zeyyânîler (Tilimsan)", tur:"sultanlik", bolge:"kuzey-afrika",
-  f:"1236-01-01", t:"1554-01-01", baskent:"Tilimsan (Tlemcen)", harita:"zeyyani",
+  f:"1236-01-01", t:"1553-01-01", baskent:"Tilimsan (Tlemcen)", harita:"zeyyani",
   ozet:"Merinî ve Hafsî baskısı arasında sıkışan Tilimsan merkezli Berberî (Abdülvâdî) hanedanı; İspanya-Osmanlı çekişmesinin ardından Osmanlı'ya katıldı. (kaynak: TDV, madde: zeyyaniler)",
   kaynak:"tilimsan",
   kronoloji:[
     { t:"1236-01-01", tur:"kurulus", b:"Yağmurasen b. Zeyyân, Tilimsan'da hanedanını kurdu" },
     { t:"1337-01-01", tur:"toprak-kayip", b:"Merinîler Tilimsan'ı kısa süreliğine ele geçirdi" },
     { t:"1509-01-01", tur:"antlasma", b:"İspanya'nın baskısıyla haraca bağlandı" },
-    { t:"1554-01-01", tur:"son", b:"Osmanlı beylerbeyi Salih Reis Tilimsan'ı alarak hanedana son verdi" }
+    { t:"1553-01-01", tur:"son", b:"Osmanlı beylerbeyi Salih Reis Tilimsan'ı alarak hanedana son verdi", kaynak:"TDV tilimsan: '960'ta (1553) … kesin biçimde ele geçirildi. Böylece … Zeyyânî hâkimiyeti sona ermiş' — YIL (H.960 = Ara 1552-Ara 1553)" }
   ]
 },
 { id:"mehdi", ad:"Mehdî Devleti (Sudan)", tur:"devlet", bolge:"misir-sudan",
@@ -5204,7 +5205,7 @@ window.DEVLETLER = [
   kaynak:"amerika",
   kronoloji:[
     { t:"1542-11-20", tur:"kurulus", b:"Peru Genel Valiliği resmen kuruldu" },
-    { t:"1780-01-01", tur:"isyan", b:"Tupac Amaru II'nin büyük yerli isyanı bastırıldı" },
+    { t:"1780-01-01", tur:"isyan", b:"Tupac Amaru II'nin büyük yerli isyanı başladı (1781-83'te bastırıldı)", kaynak:"YIL: isyanın başlangıcı 1780 — eski metin 'bastırıldı' olgusal hataydı (KRONO-AMERIKA-G-0929 §1; Burkholder & Johnson, Colonial Latin America — sayfa doğrulanmadı)" },
     { t:"1824-12-09", tur:"son", b:"Ayacucho Savaşı'nda İspanyol ordusu kesin yenilgiye uğradı" }
   ]
 },
@@ -6927,7 +6928,7 @@ window.DEVLETLER = [
           { t:"1865-05-01", tur:"savas", b:"Arjantin, Brezilya ve Uruguay Uclu Ittifak'i kurup Paraguay'a savas ilan etti", kaynak:"EB-UIS — AYNEN: «together they declared war on Paraguay on May 1, 1865»" },
           { t:"1866-09-01", tur:"savas", b:"Curupayty'de Paraguay zaferi muttefik taarruzunu bir yil durdurdu", kaynak:"EB-UIS — AYNEN: «the most notable, won by the Paraguayans at Curupayty in September 1866, inhibited any allied offensive for nearly a year»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI, ayin 1'ine yazildi (olcut: gun bilinmiyorsa YYYY-01-01; burada ay biliniyor, gun degil)" },
           { t:"1868-02-01", tur:"isgal", b:"Brezilya zirhlilari Humaita kalesini gecip Asuncion'u bombaladi", kaynak:"EB-UIS — AYNEN: «In February Brazilian armoured vessels broke through Paraguayan defenses at the river fortress of Humaitá … and pressed on to bombard Asunción, the capital»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI" },
-          { t:"1870-01-01", tur:"hukumdar", b:"Francisco Solano Lopez oldurulunce Paraguay'in savasi sona erdi", kaynak:"EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»  🔴 HASSASIYET DUZELTILDI (kalem 3): savasin bitis GUNUNE yazmistim, ama ilhak o gun olmadi — kaynak ilhaki hic tarihlendirmiyor. Yil'a indirildi." },
+          { t:"1870-03-01", tur:"hukumdar", b:"Francisco Solano Lopez oldurulunce Paraguay'in savasi sona erdi", kaynak:"EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»  🔴 HASSASIYET DUZELTILDI (kalem 3): savasin bitis GUNUNE yazmistim, ama ilhak o gun olmadi — kaynak ilhaki hic tarihlendirmiyor. Yil'a indirildi." },
           { t:"1870-03-01", tur:"toprak-kayip", b:"Savasin sonunda Arjantin ve Brezilya yaklasik 140.000 km2 Paraguay toprağini ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina and Brazil annexed about 55,000 square miles (140,000 square km) of Paraguayan territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi. Ilhaki kesinlestiren sinir ANTLASMALARININ gunlerini BULAMADIM (Brezilya ve Arjantin ile ayri ayri, savas sonrasi yillarda). Kaynak yalniz '1876'ya kadar isgal' diyor." }
         ]
 },
@@ -7512,8 +7513,8 @@ window.DEVLETLER = [
   ozet:"2 Eylül 1920'de Kızıl Ordu'nun Buhara Emirliği'ni yıkmasının ardından 8 Ekim 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
   kaynak:"TDV, ozbekistan (gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «1920'de Buhara Halk Sovyet Cumhuriyeti ile Hîve'de Hârizm Halk Cumhuriyeti teşkil edildi» (YIL) · TDV, buhara — AYNEN: «1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu'nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920'de Buhara Hanlığı ilga edildi». ⚠️ f: 8 Ekim 1920 GÜNÜ TDV'de YOK (TDV hanlığın ilgası için 6 Ekim diyor, cumhuriyetin ilanına gün vermiyor); akademik kaynakta da BULUNAMADI — gün yalnız Wikipedia'da; t: 1924 YIL. Eski tek dayanak (Wikipedia 'Bukharan People's Soviet Republic') kaynak olarak KALDIRILDI.",
   kronoloji:[] },
-{ id:"rif-cumhuriyeti", ad:"Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", bolge:"kuzey-afrika", f:"1921-09-18", t:"1926-05-27",
-  ozet:"22 Temmuz 1921 Annual zaferinin ardından 18 Eylül 1921'de Kuzey Fas'ta ilan edilen, İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",
+{ id:"rif-cumhuriyeti", ad:"Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", bolge:"kuzey-afrika", f:"1921-09-19", t:"1926-05-27",
+  ozet:"22 Temmuz 1921 Annual zaferinin ardından 19 Eylül 1921'de Kuzey Fas'ta ilan edilen (TDV `fas`: 'bağımsızlığını ilân etti (19 Eylül 1921)'; 30 Eylül 2026'ya dek künye 18 Eylül diyordu), İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",
   kaynak:"bulunamadı — TDV kapsam dışı (bu spesifik siyasi yapı için doğrudan aranmadı, ama Fas'ın modern direniş tarihinin TDV'de zayıf kaldığı `§4`'te zaten belgeli). Britannica, 'Republic of the Rif' (place madde).",
   kronoloji:[
     { t:"1923-02-01", tur:"kurulus", b:"Abdülkerim el-Hattabi liderliğinde Rif Cumhuriyeti ilan edildi (Şubat 1923, gün bilinmiyor).", kaynak:"Encyclopaedia Britannica 'Republic of the Rif' — WebSearch özetinden (403)" },
@@ -7665,9 +7666,9 @@ window.DEVLETLER = [
     { t:"1466-01-01", tur:"bolunme", b:"Fâtih Sultan Mehmed'in İlbasan Kalesi'ni inşa ettirmesinin ardından Arvanid-ili sancağı yeniden yapılandırıldı; güneyde Avlonya, doğuda Ohri, kuzeyde İşkodra sancakları ayrı birer sancak olarak kuruldu", kaynak:"TDV arnavutluk — \"1466 yılına kadar Arnavutluk, Osmanlı idare sisteminde Arvanid-ili adı altında bir sancak olarak görülmektedir\"; İlbasan Kalesi inşasından sonra bölgenin yeni sancak(lar)a bölünmesi, Avlonya/Ohri/İşkodra sancaklarının kuruluşu. 🔴 ÖNEMLİ: bu bulgu künyenin kendi t:'sinin (1537, zaten 'kaynaksız DOĞRULANMADI' işaretli) YANLIŞ olabileceğini düşündürüyor — Arvanid-ili sancağı TEK PARÇA olarak asıl 1466'da SONA ERMİŞ görünüyor. t: değişikliği UYGULA'nın yetkisi dışında (§7), 1.MURAT'a AYRICA bildiriliyor." },
     { t:"1537-08-25", tur:"son", b:"Veriden devralınan bitiş tarihi (TDV bu günü doğrudan vermiyor, kaynaksız — ayrıca araştırılmalı)", kaynak:"künyenin kendi ozet alanı — 'kaynaksız' olarak işaretli, DOĞRULANMADI" }
   ] },
-{ id:"mekke-serifligi", ad:"Mekke Şerifliği", bolge:"arabistan", f:"1281-01-01", t:"1919-01-10",
+{ id:"mekke-serifligi", ad:"Mekke Şerifliği", bolge:"arabistan", f:"1281-01-01", t:"1919-05-08",
   ozet:"Mekke'yi ve Hicaz'ın kutsal şehirlerini idare eden Hâşimî şerifleri. 1517'de Osmanlı hâkimiyetini tanıdılar ve dört yüzyıl boyunca Osmanlı adına idareyi sürdürdüler.",
-  kaynak:"TDV `haremeyn` — «Mısır'ın fethiyle birlikte (1517) Memlükler'in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı. O sıradaki Mekke Emîri Şerîf…» 🟡 `f:` ATLAS PENCERESİ KONVANSİYONU — şeriflik atlas penceresinden ESKİ (TDV `mekke`, 133.872 kar.), bir kuruluş iddiası DEĞİL. 🔴 `t:` İLK YAZIMDA 1916-06-10 (Şerif Hüseyin'in isyanı) İDİ ve kapsama sınavım ÇÜRÜTTÜ: veri `1919-01-10`a kadar gidiyor — Medine'nin teslim günü. `t:` veriye göre açıldı, gün KAYNAKSIZ. ⚠️ Ve bu `t:` bir POLITY SONU DEĞİL, ATLAS KULLANIM SONU: şeriflik o gün sona ermedi, Hicaz Krallığı olarak sürdü.",
+  kaynak:"TDV `haremeyn` — «Mısır'ın fethiyle birlikte (1517) Memlükler'in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı. O sıradaki Mekke Emîri Şerîf…» 🟡 `f:` ATLAS PENCERESİ KONVANSİYONU — şeriflik atlas penceresinden ESKİ (TDV `mekke`, 133.872 kar.), bir kuruluş iddiası DEĞİL. 🔴 `t:` İLK YAZIMDA 1916-06-10 (Şerif Hüseyin'in isyanı) İDİ ve kapsama sınavım ÇÜRÜTTÜ: veri `1919-01-10`a kadar gidiyor — Medine'nin teslim günü. `t:` veriye göre açıldı, gün KAYNAKSIZ. ⚠️ Ve bu `t:` bir POLITY SONU DEĞİL, ATLAS KULLANIM SONU: şeriflik o gün sona ermedi, Hicaz Krallığı olarak sürdü. 30 Eylül 2026 KUNYE-UYGULA-0930: t: 1919-05-08'e GENİŞLETİLDİ (②) — TDV `mekke`: '8 Mayıs 1919'da çıkarılan Meclis-i Vükelâ kararı ve irâde-i seniyye ile emirlik unvanı kaldırılıp…'; artık gün KAYNAKLI.",
   kronoloji:[
     { t:"1517-01-01", tur:"vassal", b:"Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı", kaynak:"TDV haremeyn (künyenin kendi kaynak alanından)" },
     { t:"1803-01-01", tur:"toprak-kayip", b:"I. Suûdî Devleti (Vehhâbî) kuvvetleri Mekke'yi ele geçirdi; Şerif Galib şehri terk etmek zorunda kaldı", kaynak:"standart akademik/ansiklopedik (Suûdî-Vehhâbî Mekke'nin alınışı, 1803, kesin gün BULUNAMADI) — TDV kapsam dışı, ayrıca doğrulanmalı" },
@@ -7705,7 +7706,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1607-01-01", tur:"son", b:"Künyenin t: alanı burada kapanıyor; TDV bu günü doğrudan vermiyor, veriden devralındı — DOĞRULANMADI", kaynak:"künyenin kendi ozet alanı, kaynaksız" }
   ] },
-{ id:"kaheti-kralligi", ad:"Kaheti Krallığı", bolge:"kafkasya", f:"1578-08-09", t:"1606-01-01",
+{ id:"kaheti-kralligi", ad:"Kaheti Krallığı", bolge:"kafkasya", f:"1578-08-09", t:"1762-01-01",
   ozet:"Doğu Gürcistan'da Bagratoğulları'nın üç krallığından biri. 1578 Osmanlı seferinden sonra ocaklık olarak eski hâkimine bırakıldı ve haraca bağlandı.",
   kaynak:"TDV `gurcistan` — «Bagratoğulları'ndan I. Alexandre (1412-1442) Gürcistan'da hâkimiyet tesis edip birliği sağlamaya muvaffak oldu. Fakat daha sonra Gürcistan üç krallığa…». 🟢 `f:` DESTEKLENİYOR: bu gece KÜRE GÖRÜNÜM aynı günü TDV `sirvan` gövdesinden «Ağustos 1578» ile eşledi (Kahet ülkesi ocaklık olarak Alexandre'a bırakıldı). 🟡 GÜN (08-09) veriden. `t:` (1606-01-01) kaynaksız.",
   kronoloji:[
@@ -8215,7 +8216,160 @@ window.DEVLETLER = [
     { t:"1886-01-01", tur:"antlasma", b:"Fransa ile sınır antlaşması (yıl)", kaynak:"TDV gine-bissau" },
     { t:"1973-09-24", tur:"isyan", b:"PAIGC Gine Bissau'nun bağımsızlığını ilan etti", kaynak:"TDV gine-bissau" },
     { t:"1974-09-10", tur:"son", b:"Portekiz bağımsızlığı tanıdı", kaynak:"TDV gine-bissau" }
-  ] }
+  ] },
+{ id:"bosna-eyaleti", ad:"Osmanlı Bosna'sı (sancak → 1580 eyalet → 1866 vilâyet)", tur:"eyalet", bolge:"balkanlar",
+  f:"1463-06-01", t:"1878-07-29",
+  ozet:"Bosna Krallığı'nın yıkılışından Avusturya-Macaristan işgaline kadar Bosna'nın doğrudan Osmanlı idaresindeki dönemi; önce sancak, 1580'den beylerbeyilik, 1866'dan vilâyet. sirbistan-eyaleti emsaline göre açıldı. Harita rengi KASITLI OLARAK verilmedi — toprak haritada OSMANLI.",
+  kaynak:"f: çekirdek olaylar_ek.js 1463-06-01 (ay hassasiyetli; TDV yalnız yıl verir) · TDV `bosna-eyaleti`: 'önce sancak beyliği iken 1580'den itibaren beylerbeyilik' · t: TDV `bosna-hersek`: işgal '29 Temmuz'da başlayan' (1878). Öneren: KRONO-BALKAN-B-0929.",
+  not:"🟡 f: bosna-kralligi t: (1463-05-01) ile bir ay açık; t: bosna-isgal f: (1878-07-13, Berlin) ile 16 gün örtüşür — hukukî/fiilî ayrım, koordinatör kararı.",
+  kronoloji:[] },
+{ id:"iskodra-pasaligi", ad:"İşkodra Paşalığı (Buşatlılar)", tur:"eyalet", bolge:"balkanlar",
+  f:"1756-01-01", t:"1831-04-21",
+  ozet:"Buşatlı ailesinin İşkodra merkezli yarı özerk paşalığı; Tepedelenli Ali Paşa'nın Yanya'sının kuzeydeki eşi. Mustafa Paşa Buşatlı'nın 1831'de Babuna'da yenilmesiyle sona erdi. Harita rengi KASITLI OLARAK verilmedi.",
+  kaynak:"TDV `iskodra`: 'Buşatlı ailesinin hükümranlığı 1756-1831' · t: TDV `mustafa-pasa-busatli` (Babuna, 21 Nisan 1831). Öneren: KRONO-BALKAN-B-0929.",
+  not:"🟡 f: YIL kodlu (TDV yalnız yıl). t: TDV'nin verdiği son GÜNLÜ olay; kalenin teslim günü (1831 sonbaharı) bulunamadı — bulunursa ② genişlet.",
+  kronoloji:[] },
+{ id:"arnavutluk-osmanli", ad:"Osmanlı Arnavutluğu (İşkodra/Yanya/Manastır/Kosova sancak ve vilâyetleri)", tur:"eyalet", bolge:"balkanlar",
+  f:"1537-08-25", t:"1912-11-28",
+  ozet:"Arvanid Sancağı döneminin sonundan 1912 istiklâline kadar Arnavutluk'un Osmanlı idaresindeki dönemi (İşkodra, Yanya, Manastır, Kosova sancak ve vilâyetleri). Harita rengi KASITLI OLARAK verilmedi.",
+  kaynak:"TDV `arnavutluk` (Osmanlı idaresi; 28 Kasım 1912 istiklâl). f: arvanid-sancagi t: ile ardışık — o uç KAYNAKSIZ. Öneren: KRONO-BALKAN-B-0929.",
+  not:"🔴 f: KAYNAKSIZ (arvanid-sancagi t:'sine yaslı). Alternatif f:1479-01-25 (Kastriota direnişinin sonu) — o zaman arvanid-sancagi ile 1479-1537 örtüşür.",
+  kronoloji:[] },
+{ id:"samtshe-atabegligi", ad:"Samçhe (Meskheti, Ahıska/Çıldır) Atabekliği", tur:"devlet", bolge:"kafkasya",
+  f:"1268-01-01", t:"1578-08-09",
+  ozet:"Ahıska merkezli Gürcü atabekleri yönetimi; 1578 Çıldır zaferiyle Osmanlı'ya geçti ve Çıldır eyaleti kuruldu.",
+  kaynak:"f: TDV `ahiska`: 'atabegler, 1268-1578 tarihleri arasında bölgenin yönetimini ellerinde tuttular' (yıl) · t: TDV `cildir-eyaleti`: Çıldır zaferi, 'Atabeg ülkesinin geri kalan kısımlarının fethi tamamlanmış oldu'. Öneren: KRONO-KAFKAS-0929.",
+  not:"f: YIL kodlu.",
+  kronoloji:[] },
+{ id:"revan-hanligi", ad:"Revan (Erivan) Hanlığı", tur:"hanlik", bolge:"kafkasya",
+  f:"1747-01-01", t:"1828-04-02",
+  ozet:"Nâdir Şah'ın ölümünden sonra Mîr Mehdî'nin kurduğu müstakil Revan Hanlığı; 1828 Türkmençay sürecinde Rus çarının emriyle ilga edildi. Safevî dönemindeki Çukursaad beylerbeyiliği ayrı bir yapıdır (eyalet).",
+  kaynak:"f: TDV `revan`: '1747'de öldürülünce Mîr Mehdî müstakil bir Revan Hanlığı oluşturdu' (yıl) · t: TDV `revan`: 'çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi'. Öneren: KRONO-KAFKAS-0929.",
+  not:"f: YIL kodlu. Harita bugün 1747-1751 arasını künyesi o tarihte olmayan `zend` ile boyuyor.",
+  kronoloji:[] },
+{ id:"cenub-i-garbi-kafkas", ad:"Cenûb-ı Garbî Kafkas Hükûmet-i Muvakkate-i Milliyesi (Kars)", tur:"gecici-hukumet", bolge:"kafkasya",
+  f:"1918-11-05", t:"1919-04-12",
+  ozet:"Mondros sonrası Kars'ta kurulan millî geçici hükûmet (önce Kars İslâm Şûrası); İngiliz işgaliyle dağıtıldı.",
+  kaynak:"f: TDV `kars`: '5 Kasım 1918'de Kars İslâm Şûrası kuruldu' (ad değişikliği 17-18 Ocak 1919) · t: TDV `kars`: İngiliz işgali, 'Hükümet dağıtıldı'. Öneren: KRONO-KAFKAS-0929.",
+  kronoloji:[] },
+{ id:"ukrayna-devleti-1918", ad:"Ukrayna Devleti (Skoropadski Hetmanlığı)", tur:"devlet", bolge:"dogu-avrupa",
+  f:"1918-04-29", t:"1918-12-14",
+  ozet:"Skoropadski'nin 29 Nisan 1918 darbesiyle kurulan, Alman desteğine dayanan Hetmanlık rejimi; Aralık 1918'de sona erdi. Osmanlı elçisi Ahmed Murad Bey 12 Ekim 1918'de kabul edildi.",
+  kaynak:"Encyclopedia of Ukraine 'Hetman government' (darbe 29 Nisan 1918; çekilme 14 Aralık 1918) · TDV `hatman`: 'Skoropadski son Ukrayna hatmanıdır'. Öneren: KRONO-TUNA-0929.",
+  kronoloji:[] },
+{ id:"epir-despotlugu", ad:"Epir (Yanya) Despotluğu — Tocco dönemi dâhil", tur:"prenslik", bolge:"balkanlar",
+  f:"1204-04-13", t:"1430-10-01",
+  ozet:"IV. Haçlı Seferi sonrası Epir'de kurulan Bizans ardılı despotluk; Sırp, Arnavut ve Tocco yönetimlerinden geçerek 1430'da Yanya'nın Osmanlı'ya teslimiyle sona erdi. Harita rengi verilmedi (Yanya haritada bizans boyasıyla — ayrı iş).",
+  kaynak:"TDV `yanya`: '1204'teki IV. Haçlı Seferi'nden sonra Despot I. Mikael Angelos (Komnenos) 1430'a kadar yaşayan bağımsız Yunan Epiros Despotluğu'nu kurdu' · t: TDV `yanya`: 'Sphrantzes'e göre Yanya 1430'un Ekim ayında … Sinan Paşa'ya teslim oldu' · Britannica 'Greece — Despotate of Epirus': 'established effective control after 1204'. Öneren: KRONO-BALKAN-D-0929 + KUNYE-DUNYA-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: '1204'ten SONRA' — yıl kaynakta yok; f = IV. Haçlı'nın İstanbul'u alış günü (bizans künyesi 1204-04-13), kuruluşun ALT sınırı. t: AY hassasiyeti (Ekim 1430); çekirdekteki 1430-10-09 günü TDV'de yok. Britannica ana maddesi 1204-1337 der (1337 Bizans'a dönüş); bu künye Tocco dönemini de kapsar.",
+  kronoloji:[] },
+{ id:"vidin-carligi", ad:"Vidin Çarlığı (İvan Sracimir)", tur:"prenslik", bolge:"balkanlar",
+  f:"1360-01-01", t:"1396-09-25",
+  ozet:"İvan Aleksandr'ın Vidin ve çevresini oğlu İvan Sracimir'e vermesiyle doğan yarı bağımsız Bulgar çarlığı; Niğbolu'dan sonra Yıldırım Bayezid onu Osmanlı'ya kattı. bulgar-carligi künyesi Vidin'i de taşımayı sürdürür (Ç2 hükmü koordinatörde).",
+  kaynak:"TDV `vidin` (M. Kiel): 'İvan Aleksandr 1360'tan kısa bir süre önce Vidin'i ve çevresini oğlu İvan Sratsimir'e … vererek bölgeyi yarı bağımsız bir prenslik haline getirdi' · 'Yıldırım Bayezid, Niğbolu'da Haçlı ordularını bozguna uğratınca Sracimir'i Bursa'ya götürdü, Vidin Prensliği'ni de kendi imparatorluğuna kattı' · TDV `nigbolu-savasi`: '(25 Eylül 1396)'. Öneren: KRONO-BALKAN-D-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: kuruluş '1360'tan kısa bir süre önce' — 1360 başında VARDI. t: ilhak Niğbolu'dan SONRA (gün kaynakta yok) — 25 Eylül 1396'da hâlâ VARDI. Atlasın 1396-10-01'i kaynaksız, kullanılmadı.",
+  kronoloji:[] },
+{ id:"kartli-kralligi", ad:"Kartli Krallığı (1762'den Kartli-Kaheti)", tur:"krallik", bolge:"kafkasya",
+  f:"1484-01-01", t:"1801-09-12",
+  ozet:"Gürcistan'ın 15. yüzyıl sonunda bölünmesinden doğan Tiflis merkezli krallık; 1762'de Kaheti ile birleşti, 1801'de Rusya'ya ilhak edildi. gurcistan künyesi (1008-1801) aynı toprağı taşımayı sürdürür; harita rengi verilmedi.",
+  kaynak:"f: Encyclopaedia Iranica 'KARTLI': 'From 1484 to 1762 Kartli was as a distinct political entity mostly dominated by Persia' (YIL) · t: TDV `gurcistan`: 'I. Pavel, 1800'de Kartli ve Kahet çarlığını feshedip 12 Eylül 1801 tarihli emirle Rusya'nın bir eyaleti ilân ederek'. Öneren: KRONO-KAFKAS-0929 + KUNYE-DUNYA-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: YIL kodlu ('ayrı siyasî birim' yılı, taç giyme günü değil). 0929 önerisinin 1490'ı hiçbir güvenilir kaynakta bulunamadı, kullanılmadı.",
+  kronoloji:[] },
+{ id:"megrelya-prensligi", ad:"Megrelya (Dadyan / Odişi) Prensliği", tur:"prenslik", bolge:"kafkasya",
+  f:"1578-08-09", t:"1857-01-01",
+  ozet:"Batı Gürcistan'da Dadyan (Dadiani) hanedanının prensliği; 1578'de Osmanlı'ya tâbiliğini bildirdi, 1803'te Rus himayesine girdi, Kırım Harbi'nden sonra feshedildi.",
+  kaynak:"f (tanıklık): TDV `gurcistan` 3. bölüm: 'Lala Mustafa Paşa'nın gönderdiği itaat mektubunu kabul eden Dadyan ve Güryel melikleri … Osmanlılar'a tâbi olduklarını bildirdiler' (1578) · t: Britannica 'Georgia — Turkish and Persian domination': 'Imereti was annexed in 1810, followed by Guria, Mingrelia, Svaneti, and Abkhazia in 1829, 1857, 1858, and 1864, respectively' (YIL) · TDV `gurcistan`: 'Kırım Harbi'nden sonra Megreliya, Svanetiya ve Abhaz knezlikleri feshedildi'. Öneren: KRONO-KAFKAS-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: kuruluş yılı TDV/Britannica/Iranica'da BULUNAMADI ('beş beyliğe ayrıldı', yılsız); f = prensliği adıyla anan ilk kaynaklı gün (1578 tâbilik bildirimi). t: YIL kodlu. TDV'nin 1803'ü himaye/birleşmedir, ilga değil.",
+  kronoloji:[] },
+{ id:"guria-prensligi", ad:"Guria (Güryel) Prensliği", tur:"prenslik", bolge:"kafkasya",
+  f:"1508-01-01", t:"1829-01-01",
+  ozet:"Batı Gürcistan'da Karadeniz kıyısındaki Güryel prensliği; 1508'de Osmanlı'ya haraca bağlandı, 1804'te Rus himayesine girdi, 1829'da ilhak edildi.",
+  kaynak:"f (tanıklık): TDV `gurcistan` 3. bölüm: 'Yavuz Sultan Selim Trabzon valisi iken 1508'de Güryel ve İmeret (Açıkbaş) Krallığı'nı Osmanlılar'a itaat ettirip haraca bağlamıştı' · t: Britannica 'Georgia — Turkish and Persian domination': '… followed by Guria, Mingrelia, Svaneti, and Abkhazia in 1829, 1857, 1858, and 1864, respectively' (YIL). Öneren: KRONO-KAFKAS-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: kuruluş yılı BULUNAMADI; f = prensliği adıyla anan ilk kaynaklı YIL (1508 haraç). t: YIL kodlu. TDV'nin 'Guriya (1804)'ü himayedir, ilhak değil.",
+  kronoloji:[] },
+{ id:"abhazya-prensligi", ad:"Abhazya (Şervaşidze / Çaçba) Prensliği", tur:"prenslik", bolge:"kafkasya",
+  f:"1463-01-01", t:"1864-01-01",
+  ozet:"Karadeniz kıyısında Sohum merkezli prenslik; 1463'te Gürcistan'dan bağımsızlaştı, 16. yüzyılda Osmanlı hâkimiyetine girdi, 1810'da Rus himayesini tanıdı, 1864'te ilhak edildi.",
+  kaynak:"Britannica 'Abkhazia': 'Later a part of Georgia, it secured its independence in 1463 only to come under the rule of the Ottoman Empire in the 16th century' · 'In 1810 a treaty with Russia was signed acknowledging a protectorate. Russia annexed Abkhazia in 1864' (iki uç YIL) · TDV `sohum`: 'şehir 1864'te doğrudan Rusya'ya bağlandı'. Öneren: KRONO-KAFKAS-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: 1463 Gürcistan'dan BAĞIMSIZLIK yılıdır; Şervaşidze hanedanının prenslik olarak kuruluşu ayrıca belgelenmemiş. İki uç YIL kodlu.",
+  kronoloji:[] },
+{ id:"ukrayna-halk-cumhuriyeti", ad:"Ukrayna Halk Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1917-11-20", t:"1920-11-21",
+  ozet:"Merkezî Rada'nın Üçüncü Üniversal'iyle ilan edilen Ukrayna devleti; 9 Şubat 1918 Brest-Litovsk'ta Osmanlı'nın antlaşma tarafı. 29 Nisan - 14 Aralık 1918 arası Skoropadski Hetmanlığı (ukrayna-devleti-1918) iktidardaydı; 1920'de hükûmet sürgüne gitti.",
+  kaynak:"Encyclopedia of Ukraine 'Ukrainian National Republic': 'first proclaimed in the Third of the Universals of the Central Rada on 20 November 1917' · 'existed on Ukrainian territory until 1920, when the head of the Directory and the government of the UNR went into exile' · gün: EoU 'Army of the Ukrainian National Republic': 'On 21 November the UNR Army crossed the Zbruch River and was interned by the Polish authorities'. Öneren: KRONO-TUNA-0929 Ö-4 + KUNYE-DUNYA-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 t: ana madde YIL verir; gün aynı ansiklopedinin ordu maddesinden. ÇELİŞKİ: EoU savaş maddesi 'continued fighting until 21 October' der — muhtemelen yazım hatası, bildirildi. 1918 Hetmanlık dönemiyle örtüşme BİLİNÇLİ (Ç4).",
+  kronoloji:[] },
+{ id:"tahiri", ad:"Tâhirîler (Yemen)", tur:"hanedanlik", bolge:"arabistan",
+  f:"1454-07-01", t:"1517-04-15",
+  ozet:"Yemen'de Resûlîler'den sonra hüküm süren Sünnî hanedan; Memlük seferinin ardından son hükümdar II. Âmir'in öldürülmesiyle sona erdi.",
+  kaynak:"TDV `tahiriler--yemen`: 'Yemen'de Resûlîler'den sonra 1454-1517 yılları arasında hüküm süren Sünnî bir hânedan' · f: 'Aden'i ele geçirdiler (Receb 858/Temmuz 1454)' · t: 'el-Melikü'z-Zâfir II. Âmir öldürüldü (23 Rebîülevvel 923/15 Nisan 1517). … Böylece Tâhirîler hânedanına son verildi'. Öneren: KRONO-DOGU-ISLAM-0929 (+ KUNYE-DUNYA 'tahiriler').",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: AY hassasiyeti (Receb 858 = Temmuz 1454). Doğru TDV slug'ı `tahiriler--yemen` (`tahiriler` 302). Harita Zebîd'i `s:{d:\"yemen\"}` ile boyuyor — ayrı iş, künye haritayı değiştirmez.",
+  kronoloji:[] },
+{ id:"yeni-granada-valiligi", ad:"Yeni Granada Genel Valiliği", tur:"gecici-isgal", bolge:"guney-amerika",
+  f:"1717-05-27", t:"1810-07-20",
+  ozet:"Bogotá merkezli İspanyol genel valiliği (bugünkü Kolombiya, Ekvador, Panama ve 1777'ye dek Venezuela); 1723'te kaldırılıp 1739'da yeniden kuruldu; 1810 bağımsızlık hareketleriyle dağıldı.",
+  kaynak:"Diccionario de Historia de Venezuela (Fundación Empresas Polar) 'Nueva Granada, Virreinato de': 'Por real cédula del 27 de mayo de 1717 determinó el rey Felipe V crear el virreinato' · 'La orden de supresión se dio por real cédula de 5 de noviembre de 1723' · 'por real cédula del 20 de agosto [1739], volver a crear el virreinato' · 'movimiento emancipador del 20 de julio de 1810' · Britannica 'Viceroyalty of New Granada': 'began to disintegrate in 1810'. Öneren: KRONO-AMERIKA-G-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 1723-11-05 → 1739-08-20 arası valilik YOKTU (Yeni Granada Peru'ya bağlı audiencia) — künye tek pencere, ara boşluk BEYANLI. t: 1810 dağılma; valilik 1816'da yeniden kuruldu, Boyacá (1819) sonrası sona erdi — o dönem bu künyenin DIŞINDA.",
+  kronoloji:[] },
+{ id:"rio-de-la-plata-valiligi", ad:"Río de la Plata Genel Valiliği", tur:"gecici-isgal", bolge:"guney-amerika",
+  f:"1776-01-01", t:"1810-05-25",
+  ozet:"Buenos Aires merkezli İspanyol genel valiliği (bugünkü Arjantin, Uruguay, Paraguay, Bolivya); Peru valiliğinden ayrıldı, 1810 Mayıs Devrimi'yle sona erdi.",
+  kaynak:"Britannica 'Viceroyalty of the Río de la Plata': 'the new viceroyalty (established in 1776)' · 'In 1810 the Creoles created a provisional junta and exiled the viceroy … thereby ending the Viceroyalty of the Río de la Plata' (iki uç YIL) · gün komşudan: arjantin-cumhuriyeti f: 1810-05-25 · Encyclopedia.com / EB-LA 'In May 1810 prominent Creoles in Buenos Aires … forced the last Spanish viceroy there to consent'. Öneren: KRONO-AMERIKA-G-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: YIL kodlu (1776-08-01 ve 1777-10-27 yalnız Vikipedi'de). t: gün komşudan: arjantin-cumhuriyeti · Mayıs Devrimi (aynı olay). ÇELİŞKİ: Gran Enciclopèdia Catalana 1777/1814 der. Montevideo 1814'e dek kralcı kaldı — kronoloji_cok_guney_amerika.js 1811-05-18 Las Piedras maddesi bu yüzden pencere DIŞINDA.",
+  kronoloji:[] },
+{ id:"venezuela-genel-kaptanligi", ad:"Venezuela Genel Kaptanlığı", tur:"gecici-isgal", bolge:"guney-amerika",
+  f:"1777-09-08", t:"1810-04-19",
+  ozet:"Caracas merkezli Bourbon idari birliği; Venezuela eyaletleri Yeni Granada valiliğinden idarî ve askerî bakımdan ayrıldı; 19 Nisan 1810 Caracas cuntasıyla sona erdi.",
+  kaynak:"Diccionario de Historia de Venezuela (Fundación Empresas Polar) 'Capitanía General': 'Del 8 de septiembre de 1777 al 19 de abril de 1810 : el jefe de la provincia de Venezuela (o Caracas) seguirá siendo gobernador en su provincia y capitán general en la suya y en las demás'. Öneren: KRONO-AMERIKA-G-0929.",
+  kronoloji:[] },
+{ id:"hollanda-brezilyasi", ad:"Hollanda Brezilyası (Nieuw Holland)", tur:"gecici-isgal", bolge:"guney-amerika",
+  f:"1630-02-16", t:"1654-01-26",
+  ozet:"Hollanda Batı Hindistan Şirketi'nin Pernambuco merkezli Brezilya sömürgesi; Olinda'nın alınmasıyla başladı, Campina do Taborda teslimiyle sona erdi.",
+  kaynak:"f: Olinda Belediyesi 'Nossa cidade': 'Em 16 de fevereiro de 1630, a Holanda invadiu Olinda e conquistou Pernambuco' · RTP Ensina: 'Olinda … foi tomada pelos holandeses em 16 de fevereiro de 1630' · t: Brezilya Ordusu DPHCEx: '26 DE JANEIRO - Capitulação Final dos Invasores Holandeses na Campina do Taborda, Pernambuco, 1654' · Britannica 'Olinda': 'In 1630 the Dutch captured the city, occupying it until 1654'. Öneren: KRONO-AMERIKA-G-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 t: günü DPHCEx sayfasının BAŞLIĞINDAN okundu, gövde okunamadı (sertifika hatası); Britannica yılı teyit eder.",
+  kronoloji:[] },
+{ id:"habsburg-hollandasi", ad:"Habsburg Hollandası (On Yedi Eyalet)", tur:"gecici-isgal", bolge:"bati-avrupa",
+  f:"1482-03-27", t:"1581-07-26",
+  ozet:"Burgonya mirasının Habsburglara geçmesiyle oluşan Alçak Ülkeler; 1555'ten İspanyol Habsburg idaresi. Kuzey eyaletleri 26 Temmuz 1581'de II. Felipe'ye bağlılıktan çekildi; güney İspanyol (1714'e dek) ve Avusturya (1794'e dek) Felemengi olarak sürdü — o dönem bu künyenin DIŞINDA.",
+  kaynak:"f: Britannica 'Mary, duchess of Burgundy': 'died March 27, 1482, Brugge' · 'resulted in Habsburg control of the Netherlands' · t: Nationaal Archief 'Plakkaat van Verlatinge 1581': 'Op 26 juli 1581 zeggen de Staten-Generaal hun trouw aan koning Filips II op.' · TDV `hollanda`. Öneren: KRONO-ATLANTIK-B-0929 K-1.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. f = burgonya künyesinin t'si ile ardışık (Marie'nin ölümü). Britannica Habsburg denetimini 18 Ağustos 1477 evliliğinden başlatır — alternatif uç, bildirildi. t yalnız KUZEY için; hollanda künyesi (f 1581-07-26) ile ardışık.",
+  kronoloji:[] },
+{ id:"batav-cumhuriyeti", ad:"Batav Cumhuriyeti / Holland Krallığı", tur:"cumhuriyet", bolge:"bati-avrupa",
+  f:"1795-01-19", t:"1810-07-09",
+  ozet:"Fransız himayesinde kurulan Batav Cumhuriyeti (1795), Haziran 1806'dan Louis Bonaparte'ın Holland Krallığı; 9 Temmuz 1810'da Fransa'ya ilhak edildi. hollanda künyesi (1581-1923) bu dönemi de taşır; bu künye yalnız kronoloji içindir, harita rengi verilmedi.",
+  kaynak:"f: Canon van Nederland: 'Op 19 januari 1795 … wordt in patriottisch Amsterdam de vrijheid uitgeroepen: het begin van de Bataafse Republiek' · Britannica 'Batavian Republic': 'In June 1806 … replaced by the Kingdom of Holland under Napoleon's brother Louis' · t: parlement.com 'Koninkrijk Holland 1806-1810': 'op 9 juli 1810 wordt bij het Decreet van Rambouillet Holland ingelijfd bij Frankrijk' · TDV `hollanda`: 'Fransız himayesinde Batav Cumhuriyeti kuruldu (1795)'. Öneren: KRONO-ATLANTIK-B-0929 K-2 + KUNYE-DUNYA-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. ÇELİŞKİ (1 gün): Nationaal Archief 'op 20 januari 1795 de Bataafse Republiek uitgeroepen' der; Canon'un 19 Ocak Amsterdam ilanı seçildi. Holland Krallığı (1806-1810) aynı künyede (KUNYE-DUNYA önerisi).",
+  kronoloji:[] },
+{ id:"mayorka", ad:"Mayorka Krallığı", tur:"krallik", bolge:"iberya",
+  f:"1276-07-27", t:"1349-10-25",
+  ozet:"I. Jaume'nin vasiyetiyle Aragon tacından ayrılan krallık (Mayorka, Menorka, İbiza, Rusiyon, Cerdanya, Montpellier); IV. Pedro 1343'te adayı aldı, son kral III. Jaume 1349'da Llucmajor'da tacını ve hayatını kaybetti.",
+  kaynak:"Gran Enciclopèdia Catalana 'regne de Mallorca': 'creat a la mort de Jaume I de Catalunya-Aragó, el 1276' · 'Jaume I de Catalunya-Aragó': '… València, 27 de juliol de 1276' · 'passà a Mallorca el 18 de maig de 1343 i s'apoderà de l'illa ràpidament' · 'Jaume III de Mallorca': 'A la batalla de Llucmajor, el 25 d'octubre de 1349, perdé definitivament la corona i la vida'. Öneren: KRONO-ATLANTIK-A-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. t = tacın KESİN kaybı (1349); ada 1343'te fiilen Aragon'a geçti. Toprak haritada aragon boyasıyla — künye haritayı değiştirmez.",
+  kronoloji:[] },
+{ id:"arborea", ad:"Arborea Yargıçlığı (Sardinya)", tur:"krallik", bolge:"italya",
+  f:"1070-01-01", t:"1410-01-01",
+  ozet:"Sardinya'yı bölen dört yargıçlıktan (jutjat) biri, merkez Oristano; Aragon'a karşı uzun direnişin ardından 1410'da kaldırıldı, hakları 1420'de V. Alfonso'ya satıldı.",
+  kaynak:"Gran Enciclopèdia Catalana 'jutjat d'Arborea': 'Un dels quatre jutjats en què es dividia Sardenya al segle XI … El primer jutge privatiu d'Arborea documentat és Marià I de Zori (1060-70)' · t: 'renuncià al jutjat d'Arborea, que fou suprimit … (1410)' · 'foren comprats per Alfons IV … el 1420, per 100 000 florins'. Öneren: KRONO-ATLANTIK-A-0929.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: kuruluş yılı YOK ('11. yüzyıl'); f = belgelenen ilk yargıcın döneminin (1060-70) sonu — o yıl yargıçlık VARDI. t: YIL kodlu (1410 ilga); 1420 satış devletin sonu değil, hakların devridir. 0929 önerisinin 1420-08-17'si bulunamadı.",
+  kronoloji:[] },
+{ id:"orta-amerika-federasyonu", ad:"Orta Amerika Federal Cumhuriyeti", tur:"federasyon", bolge:"orta-amerika",
+  f:"1823-07-01", t:"1838-05-30",
+  ozet:"Guatemala, El Salvador, Honduras, Nikaragua ve Kosta Rika'nın İspanya ve Meksika'dan bağımsızlığını ilan eden federasyonu; 1838'de federal kongre eyaletleri serbest bıraktı.",
+  kaynak:"f: Universidad Francisco Marroquín 'Centroamérica declara su independencia, 1 de julio de 1823': 'El 1 de julio de 1823, las provincias de Centro América se declararon libres e independientes' (Memoria Chilena aynı gün) · t: G. Sanz y Tovar, Revista de Política Internacional (CEPC): 'El 30 de mayo de 1838 el Congreso federal publicó un Decreto declarando que se dejaba a los Estados para que organizaran su Gobierno'. Öneren: KRONO-AMERIKA-K-0929 §2.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. ÇELİŞKİ: Britannica federasyonu 1823-40 verir (Morazán'ın Mart 1840 yenilgisi); CEPC kararnamesi (1838-05-30) seçildi. KRONO-AMERIKA-K 'açma, madde guatemala'ya da bağlı' dedi; ama madde bu id'yi taşıdığı için kronoloji_cok_orta_amerika.js künye bulmadan BAĞLANAMIYORDU (YETIM-KRONO-0930).",
+  kronoloji:[] },
+{ id:"yeni-ispanya-ilk-donem", ad:"Yeni İspanya — Genel Valilik Öncesi (Cortés ve Audiencia, 1521-1535)", tur:"gecici-isgal", bolge:"orta-amerika",
+  f:"1521-08-13", t:"1535-04-17",
+  ozet:"Tenochtitlan'ın düşüşünden genel valiliğin kuruluşuna kadar Yeni İspanya'nın İspanyol idaresi: Cortés'in valiliği (1522 atama) ve 1527'den Birinci Audiencia.",
+  kaynak:"f: Britannica 'Hernán Cortés': 'its capture was completed on August 13, 1521. … Cortés had become the absolute ruler of a huge territory' · M. Ramos Medina (CEHM Carso) kronolojisi, cervantesvirtual: '15 de octubre [1522]: Carlos V firma Real Cédula nombrando a Cortés gobernador, capitán general y justicia mayor de Nueva España' · t: yeni-ispanya künyesinin f'si ile ardışık · Britannica 'Viceroyalty of New Spain': 'Established in 1535'. Öneren: KRONO-AMERIKA-K-0929 §1.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. KRONO-AMERIKA-K yeni-ispanya'nın f'sini 1521'e GENİŞLETMEYİ önerdi (②); ama iki madde bu id'yi taşıdığı için ayrı künye açıldı — yeni-ispanya'ya dokunulmadı. Alternatif f: 1522-10-15 (Cortés'in atanması). t: yeni-ispanya f: 1535-04-17 ile ardışık (sınır işareti).",
+  kronoloji:[] },
+{ id:"nagpur-bhonsle", ad:"Nagpur Bhonsle Krallığı", tur:"krallik", bolge:"guney-asya",
+  f:"1730-01-01", t:"1853-12-11",
+  ozet:"Berar'dan Raghuji Bhonsle'nin kurduğu Maratha hanedanının Nagpur krallığı; 1818'den İngiliz himayesinde sürdü, III. Raghuji'nin varissiz ölümüyle 'ölüm ilkesi' uyarınca İngiliz Hindistanı'na katıldı.",
+  kaynak:"Britannica 'Bhonsle Dynasty': 'Raghuji Bhonsle of Berar founded the dynasty in 1730.' · 'They were British clients from 1818 to 1853.' · Britannica 'Nagpur': 'In 1853 the city lapsed into British control' · gün komşudan: kronoloji_cok_orta_asya2.js 1853-12-11 maddesi · Metcalf & Metcalf, A Concise History of Modern India (Cambridge UP 2006) + Britannica 'Doctrine of Lapse'. Öneren: KRONO-ASYA-UZAK-0929 K3.",
+  not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: YIL kodlu (hanedanın kuruluşu). t: Britannica YIL verir; gün komşudan: 1853-12-11 maddesi (III. Raghuji'nin ölümü · Metcalf 2006 — o madde sayfa vermez, beyanlı). Britannica bir yerde Raghuji'nin saltanatını 1727-55 der.",
+  kronoloji:[] }
 ];
 
 ;
