@@ -167074,5 +167074,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5600",
+  "zaman": "2026-09-30 22:10",
+  "kimden": "ONCE1281-YERLESIM-OLC",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-YERLESIM-OLC · rapor: denetim/ONCE1281-YERLESIM-0930.md + .json (veri yazılmadı, denetle koşmadı, git yok) ① ÖLÇTÜM • DUVAR: f:\"1281-01-01\" = 2526 dönem / 2526 nokta (s 2521 · d 5) = canlı 4296'nın %58,8'i. 2526'nın tamamı o gün DOĞUYOR, o gün el değiştiren 0. • Bayat 2807 ≠ 2526: 2807 ham metin sayımı (çıplak 2667 + JSON 140) ve 277 kd: dönemi + 2 yorum satırı + 2 açıklanamayan içeriyor ⇒ evren hatası. kd: 277 dönem de 1281'den başlıyor, ayrı kalem. • 1281 ÖNCESİ: f<1281 dönem 1 (Lapaha f:1220 → t:1845) · kur<1281 2 (Lapaha, Rapa Nui) · 1281'den önce biten 0 ⇒ sessizce DÜŞEN nokta YOK. Motor bu dönemi EPOK'ta kırpar (koddan: uret_petek.py:4498; koşuda ölçülmedi). • ÇEKİRDEK KOVA (Anadolu/Suriye/Irak/Mısır/İran/Mâverâünnehir, tur!=bolge) 593 nokta: TDV yer maddesi 214 (%36) · var-aday 162 · ölçülemedi 431 (379 madde yok + 52 madde var, tarihli cümle yok). var-aday = TDV cümlesi birebir alıntılı, İNSAN TEYİDİ bekler: örneklemde 15'in 2'si şehri değil YÖREYİ tarihliyor (Çanakkale, Bartın). • EKSEN 111 başkent/büyük şehir: 102 VAR (99'u duvarda, 1281-01-01) · 3 YAKIN (Ani 14,7 km · Rey 12 · Fustat 5,4) · 6 YOK: Fîrûzkûh · Otrar · Polonnaruva · Kumbi Salih · Tula · Chaco. Koordinatlar yaklaşık, teyit bekler. • YOĞUNLUK (MIMARI §5, 61.565 kara hücresi): 1281 noktaları geriye uzatılırsa bile dünya %68,6 >120 km. YETER (<%3): Balkan, Batı/Orta Avrupa, Britanya, İskandinav, Kafkas, İber. SINIRDA (%10-30): Anadolu, İtalya, Levant+Irak, İran, D.Avrupa/Rus, GD Asya kıtası. YETERSİZ (≥%40): Mâverâünnehir, K.Afrika kıyısı, Hindistan, Çin, Kore/Japonya, Ada GD Asya, Sahra-altı, Amerika, Avustralya, Sibirya. Yalnız kanıtlı noktalarla çekirdekte bile Mısır %87 · İran %70 eşik dışı. • Öngörüler 7'de 4 tuttu, 2 tutmadı (2807 bayat sayıya güvendim; eksik oranı %40 değil %5), 1 kısmen. ② BULAMADIM • Yerleşim koordinatı için akademik gazeteer: veri-kaynak/'ta yok ⇒ ④ önerileri yaklaşık. • TDV ani/otrar/firuzkuh 302; kapsayıcı madde (kars, farab) denenmedi. • 379 \"madde yok\" için eşanlam varyantı denenmedi. • Aracın kendi tuzakları (raporda tablo): TDV 503 hız sınırı ilk koşuda 741'in 421'i ve önbelleğe \"yok\" yazılmıştı → düzeltildi, son koşu kalıcı 5xx 0 · arama bağlantısı göreli, 361/361 sessiz sıfır → düzeltildi. ③ İSTİYORUM / ÖNERİYORUM • §6 sırası: pencere önce Avrupa+Balkan+Kafkas+İber'de açılsın (yoğunluk hazır; iş 2526 duvar dönemini gerçek 1000-1281 sahipleriyle bölmek). Çekirdek İslâm coğrafyası için önce 162 var-aday teyit kuyruğu, sonra nokta. Asya/Afrika/Amerika'da önce yoğunluk. • Karar sende: Fustat/Rey ayrı nokta mı (kur:/bit: ile)? Merv (Mari) modern Mary'de, eski Merv'e 32 km. DOSYALAR (hepsi yeni, commit edilmedi): denetim/ONCE1281-YERLESIM-0930.md · denetim/ONCE1281-YERLESIM-0930.json · denetim/ARAC-ONCE1281-YERLESIM-OLC.py · -TDV.py · -EKSIK.py · -YOGUNLUK.py · denetim/ONCE1281-YERLESIM-tdv-onbellek/ bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
