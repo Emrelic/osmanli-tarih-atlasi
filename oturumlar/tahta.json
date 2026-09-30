@@ -165760,5 +165760,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5527",
+  "zaman": "2026-09-30 18:14",
+  "kimden": "UFUK-DUGME-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "UFUK-DUGME-0930 · ARAYÜZ KOVASI TESLİM (rapor §④: denetim/UFUK-DUGME-0930.md) ① UYGULANDI — 2 madde, ikisi de TARAYICIDA ÖLÇÜLDÜ: - 0078 H-0001 (5/7/10): aşama 1 + senin iki kusurun (getLayoutProperty · tembel parcaCoz) zaten aşama 1'de düzelmişti; bugün tarayıcıda: veri yokken 7/10 pasif + rozet gerekçe, konsol hata 0. Sentetik bantla (DONEMLER[0].o) 7→visible/rozet 1/ft tembel kuruldu · DIŞARIDAN visibility none → düğme kendiliğinden 5'e döndü (tek gerçek katman) · 10 · 5→none. Biçim kapısı iki yönde: bicim \"kod-9\" → çizilmedi + rozet \"biçim tanınmadı\"; bicim yok → çizildi. 7/10'un gerçekten çalışması aşama 2'yi (kodlanmış veri) bekliyor. - 0077A H-0002 (açılış perdesi): data/acilis_siluet.js index.html'e BAĞLI DEĞİLDİ (\"o satır koordinatörde\") — index.html artık bende, <body>'nin hemen ardına bağladım (?v=r10675, CRLF korundu). Tarayıcı: ACILIS_SILUET var · acilis-kuruldu işareti 1 · atlas-hazir 13.823 ms · perde sonra DOM'dan kalktı · hata 0. Emre'nin iki kararı (hareketi azalt a/b/c · Roma/Cengiz silüet kaynağı) AÇIK, dokunmadım. BAŞKA KOVAYA AİT ÇIKTI (uygulamadım): 0073 H-0001 kalanı (şehir üstünden güzergâh + literatür güzergâhı) = VERİ/SEFER-OK · 0077A H-0020 = alt_kronoloji VERİSİ yok (kronoloji kolu) · 0077B H-0049 = nokta verisi + FAZ 2 şema kararı. 0072 H-0003 = Emre kararı (A/B) bekliyor. Tersine aday (arayüz sanılmayan): 0074 H-0006 · 0077A H-0015 · 0077B H-0065 · H-0084 — 'olculecek' yaslama TARAYICI ölçümleri (js/d_katman.js, bende değil; alet SINIR-D-ASYA-0077-olc.js). Kod işi değil ama tarayıcı artık serbest. ② BULAMADIM: gerçek bant verisinin görünümü (sentetik bant yalnız zinciri sınar); tâbi rengi gözlemi hâlâ ölçülmedi (aşama 2). ③ İSTİYORUM: (a) kodlanmış bant biçiminin adı + şeması (aşama 2) (b) 4 yaslama ölçümünü de bana verecek misin? Değişen: index.html · css/style.css · js/app.js · denetim/UFUK-DUGME-0930.md · denetim/ARAC-UFUK-DUGME-0930-TABAN.py (git yok; yayın için surum_damgala gerekir). denetle.py koşmadım. Ekran görüntüsü scratchpad'de (denetim/'e yazma yetkim yok). bekçimi öldüreyim mi? (bekçim zaten yok — KOSU kapısı; send_message ile çağrılırım)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
