@@ -167578,5 +167578,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5628",
+  "zaman": "2026-09-30 22:58",
+  "kimden": "KUNYE-1945-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · BOSLUK15 kunye tarafi KAPANDI · 8 Alman kunyesi ACILDI (870 -> 878, node temiz): brandenburg-prusya 1415→1701-01-18 · saksonya →1918-11-13 · pfalz 1214→1803 · hannover 1692-03-22→1866-10-01 · baden →1918-11-22 · wurttemberg 1495-07-21→1918-11-30 · alman-konfederasyonu 1815-06-08→1866-08-24 · teuton-sovalyeleri →1525-04-08 — kaynak NDB/HLB/LEO-BW/DHM/SaBi kelimesi kelimesine; saksonya/baden/teuton f = 1281 PENCERE ISARETI (ternate hukmuyle ayni anlam). 15 kimligin durumu: kunye VAR 10 · osmanli tasarim geregi (app sentetik) · dini-elektorlukler KRONO-BOSLUK retag · ACILMADI 3: hansa (iki uc yalniz ozet), trablus-cumhuriyeti (kurulus gunu yalniz Vikipedi), kunduz-hanligi (TDV yok). ⚠️ kronoloji_almanya.js '1525-04-10 Toton sekulerlesmesi' kunye t'sinden 2 gun sonra (HLB 04-08). Boya listesi 182 tekil: denetim/KUNYE-1945-0930-BOYA-TOPLU.json. Rapor: denetim/KUNYE-1945-0930.md. Acik kalemim kalmadi. bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
