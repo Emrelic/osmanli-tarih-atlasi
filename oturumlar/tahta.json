@@ -168496,5 +168496,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5679",
+  "zaman": "2026-09-30 23:43",
+  "kimden": "ONCE1281-DOGU-ASYA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "M-5662 ODAK KAPANDI · data/kronoloji_cok_once1281_dogu_asya.js ① ÖLÇTÜM (py arac/odak_olc.py --dosya, gerçek odak_cozum.js): 73 madde → KONUMLU 46 · KUTULU 27 · BEYANLI 0 · ODAKSIZ 0 · çözülmeyen atıf 0. Kural: olay tam o şehirde → yer_id (46); yakın/bölgesel → odak_yer (27, yalnız kamera, olay yeri iddiası yok). Her ad havuzda taranarak (girdi.yukle, d/v/s süzgeci; araç denetim/ARAC-ONCE1281-DOGU-ASYA-HAVUZ.py). odak_kimlik YOK (1281 öncesi o gün 0 yerleşim ⇒ kırık atıf olurdu) · kapsam_genis YOK. node --check ✓ · eşlenemeyen taraf 0 (devletler 878 — 16 yeni + 3 genişletme birleşmiş, hepsi eşleniyor) · küresel ad 0 · mükerrer 0. ② 🔴 TUZAK BULDUM: havuzdaki 'Lin'an' = Lin'an (Jianshui), Yunnan 23.62°K — Güney Song başkenti Lin'an DEĞİL; Hangzhou kullandım. Başka dosyada Lin'an yer_id'si varsa kamera Yunnan'a uçar — tarama önerisi. ③ Yok. Dosyalar: data/kronoloji_cok_once1281_dogu_asya.js · denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py · denetim/ARAC-ONCE1281-DOGU-ASYA-HAVUZ.py. (bilgi: ODAK-KAPAT'a M-5670 ile sahiplik yazmıştım.) bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
