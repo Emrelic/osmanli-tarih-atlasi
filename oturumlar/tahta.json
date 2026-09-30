@@ -165670,5 +165670,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5522",
+  "zaman": "2026-09-30 17:48",
+  "kimden": "PAKET-0074-78-0930",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · PAKET-0074-78-0930 · 23 madde (0074: 17 · 0078: 6) rapor: denetim/PAKET-0074-78-0930.md · makine: denetim/PAKET-0074-78-0930.json (her maddede `parti` alanı var) ① ÖLÇTÜM DAĞILIM: cozuldu 11 · bayat 1 · zaten-dogru 1 · sirada 4 · olculecek 4 · senin-kararin 1 · cozulemedi 1 = 23 0074 → cozuldu 10 (H-1,2,3,4,5,10,12,13,16,17) · bayat H-7 · zaten-dogru H-15 · sirada H-8,H-14 · olculecek H-6 · senin-kararin H-9 · cozulemedi H-11 0078 → cozuldu H-3 · sirada H-1,H-4 · olculecek H-2,H-5,H-6 Geçmiş: 0074'ün 17 maddesinin hepsi 21 Eyl DALGA-0074'te işlenmiş, 0078 ise 27 Eyl ARAYUZ-0077 + AVRUPA-SINIR-0077'de (H-78:N adıyla) — ikisinin de CEVAP'ı hiç yazılmamış. Raporların hükmü delil sayılmadı; 11 cozuldu'nun hepsinde canlı dosya:satır + commit var (1b17ff80 · 33f22b51 · 7c39ebf6 · edb73484 · 3a80130a · 46aaf6e7). 🔴 78/H-0001 (senin hazır cevabın): UFUK-DUGME-0930.md okundu → `sirada`. onay-bekliyor değil, çünkü Emre'ye onaylatılacak hazır sonuç yok: 7/10 BUGÜN de pasif (data/ufuk_bantlari.js YOK), segment düğme commitsiz ve yayında değil. kosu-bekliyor da değil, çünkü bant dosyası koşu 17'de zaten üretildi; bekleyen şey kodlama (265 MB > 100 MB) + aşama 2 + yayın. 🆕 Bu işte bulunan üç şey: (a) 74/H-0014: POTİ/FAŞ NOKTASI ATLASTA HİÇ YOK. Kıyı Batum (OSM) ile Kutaisi (rusya) peteklerine bölünüyor; 1.873 km²'lik çakışmanın kökü bu. (b) 78/H-0004: 6 nokta 1281'den `milanoduka`, künyesi 1395'te başlıyor ⇒ 114 yıllık hayalet. Hazır betik denetim/AVRUPA-SINIR-0077-uygula.py (M-5285) HİÇ KOŞULMAMIŞ. (c) 74/H-0006: iki hat da E sınıfı ⇒ 23 Eyl yaslaması kapsıyor, büyük ihtimalle bayat; ama tarayıcıda ölçülmeden yazmadım. ② BULAMADIM / ÖLÇEMEDİM - Tarayıcı ve denetle.py yok (koşu 18). ⇒ 4 olculecek (74/H-6, 78/H-2, H-5, H-6) motor çıktısı ya da yaslama sonrası ölçüm istiyor; aletleri maddelerde yazılı. - 74/H-0007 bayat: nokta kökü kalktı (0→5 nokta) ama çıktı pikseli ölçülmedi. - 74/H-0008: 21 Eyl'den beri gövde çakışmasını hedefleyen motor commit'i bulunamadı. - 78/H-0002/H-0005: ARAYUZ-0077 `kapsam-disi` yazmış, gerekçesi \"sevk\" — yanlış kelime, düzelttim. ③ İSTİYORUM (koşu 18 bittikten sonra) (1) AVRUPA-SINIR-0077-uygula.py --uygula (78/H-4) (2) Poti/Faş noktası için kaynak sevki (74/H-14) · İşkodra/Draç/Korfu 1281 venedik de kaynak ister (yan bulgu) (3) CAKISMA aleti koşu 18 gövdesinde → 74/H-8 + 78/H-6 tek ölçüm (4) 74/H-9 için Emre'nin kararı: C hattı Kerden'de renk — (A) kaynakla C→E [önerim] · (B) C yaslaması · (C) olduğu gibi kalsın Değişen dosyalar: denetim/PAKET-0074-78-0930.json · denetim/PAKET-0074-78-0930.md (commit YOK, şartname gereği) Bekçi yok (kaynak kapısı KOSU, çıkış 3) — devam işi olursa send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
