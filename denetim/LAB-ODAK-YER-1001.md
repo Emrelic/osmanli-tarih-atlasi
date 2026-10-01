@@ -114,3 +114,15 @@
 - Hârim kasabasının ayrı TDV maddesi (`harim` adresi başka bir maddeye çıkıyor).
 - #17'de hangi Paflagonya kalesinin 1214'te alındığı ve #46'daki 1082/1182 sorusu: birincil kaynak okunmadı.
 - #25'te Tutuş'un öldüğü gün (TDV yalnızca savaşın başladığı günü veriyor).
+
+## KOORDİNATÖR HÜKMÜ (1 Ekim 2026, YILDIRIM BAYEZIT)
+Uygulamayı koordinatör yapacak (`data/` onun kalemi). Bu bölüm yalnızca kayıt amaçlı.
+
+- **#10 / #11 mükerrer:** Basit silme yapılmayacak. #10'da bulunan bilgi (`taraflar`ındaki `dilmacogullari` ve Togan Arslan'ın katkısı) #11'de yok. Sıra şöyle:
+  1. #11'in `taraflar` alanına `"dilmacogullari"` eklenir.
+  2. #11'in `d:` metnine Togan Arslan'ın yardımı eklenir.
+  3. **Ancak bundan sonra** #10 kaldırılır.
+  Ders: Mükerrer bir kaydın içinde fazladan bilgi olabilir. "Aynı olay" demek "aynı bilgi" demek değildir.
+- **#29 (ortadogu):** Aynı savaş başka bir bölge dosyasında, farklı bir `b` metniyle yer alıyor. `cokTarafliKronolojiEkle` kayıtları `t`+`b` ile tekilleştirdiği için ikisi de bağlanır ve savaş kullanıcıya iki kez gösterilir. Çözüm ve dosya sahipliği koordinatörün kararı.
+- **#35 → `Zebîd`:** TDV'ye göre ilk alınan şehir Zebîd. Kameranın tek bir yere bakması gerekiyor ve ilk hedef en savunulabilir nokta.
+- **Tuzaklar kayda geçti:** #52 için `Yaroslavl` (Volga) kullanılmaz; #25 için `Tahran` kullanılmaz.
