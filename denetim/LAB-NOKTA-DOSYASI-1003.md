@@ -15,8 +15,8 @@
 
 | Ad | Koordinat (enlem, boylam) | Kaynak | Ömür (atlas penceresinde) | **Getiri** |
 |---|---|---|---|---|
-| **Ani** | 40,5000 · 43,5667 (yay dakikası) | UNESCO WHS 1518 | 962 başkent → 1319 sonrası çöküş, bugün harabe | **2** (ANADOLU-1003 #33, #39) |
-| **Dvin** | 40,0119 · 44,5808 | Pleiades 863780 "Doubios" | 951'de Şeddâdî merkezi → terk tarihi ölçülemedi, bugün harabe | **2** (#3, #27) |
+| **Ani** | 40,5000 · 43,5667 (yay dakikası) | UNESCO WHS 1518 | 962 başkent → 1319 sonrası çöküş, bugün harabe | **3** (ANADOLU-1003 #33, #39; ANADOLU2 #41) |
+| **Dvin** | 40,0119 · 44,5808 | Pleiades 863780 "Doubios" | 951'de Şeddâdî merkezi → terk tarihi ölçülemedi, bugün harabe | **3** (#3, #27; ANADOLU2 #57) |
 | **Meyyâfârikîn (Silvan)** | 38,1428 · 41,0033 ⚠️ | Pleiades 874573 "Martyropolis" | Antik → bugün Silvan (kesintisiz) | **2** (ANADOLU #23, ORTADOĞU-1002 #58) |
 | **Harran** | 36,8636 · 39,0307 | Pleiades 658427 "Harran/Carrhae" | Antik → bugün Harran (köy/ilçe) | **2** (ANADOLU #21 = ORTADOĞU #20; mükerrer birleşince **1**) |
 | **Şemkûr (Şemkir)** | ölçülemedi | — | ölçülemedi | **1** (#4) |
@@ -24,7 +24,8 @@
 | **Ergani** | ölçülemedi | — | Bugün ilçe | **0** (#37 yersiz) |
 | **Beylekān** | ölçülemedi | — | 1221'de Moğol yağması, sonrası ölçülemedi | **0** (#5 bölünürse +1) |
 
-**Toplam getiri: 9 kalem (mükerrer Harran birleşince 8).** Emek açısından en verimli dört nokta: **Ani, Dvin, Meyyâfârikîn, Harran** (her biri 2).
+**Toplam getiri: 11 kalem (mükerrer Harran birleşince 10).** Kalan 31 kalemle güncellendi (LAB-ODAK-ANADOLU2-1003). Emek açısından en verimli noktalar: **Ani (3), Dvin (3)**, ardından Meyyâfârikîn ve Harran (2'şer).
+📌 Dvin'in ömrü için ek ölçüm: TDV GÜRCİSTAN «Celâleddin Hârizmşah … 622'de (1225) Duvîn'i zaptetti» ⇒ şehir 1225'te hâlâ var.
 📌 Karşılaştırma: Bu 8 adın dışında ORTADOĞU-1002'de **Şeyzer** 2 olayın yeri (#24, #32) ve 1 olayın konusu (#29). Taberiye çevresinde 3 olay var (Taberiye, Sınnebra, Hittîn). Bunlar bu dosyanın kapsamında değil, ama aynı getiri sınıfındalar.
 
 ## ① Koordinat ayrıntısı
