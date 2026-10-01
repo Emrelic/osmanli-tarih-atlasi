@@ -1440,8 +1440,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_cok_afrika.js",
-     "sha": "97563bc9ba048852",
-     "bayt": 11301
+     "sha": "50766f485af32cab",
+     "bayt": 11308
     },
     {
      "yol": "data/kronoloji_cok_anadolu2.js",
@@ -1540,8 +1540,8 @@
     },
     {
      "yol": "data/kronoloji_cok_rusya.js",
-     "sha": "50cc981a236f94dc",
-     "bayt": 62391
+     "sha": "7de04ba8616c3087",
+     "bayt": 68503
     },
     {
      "yol": "data/kronoloji_cok_sirbistan.js",
@@ -1555,8 +1555,8 @@
     },
     {
      "yol": "data/kronoloji_cok_venedik.js",
-     "sha": "b533958adc59f81b",
-     "bayt": 6525
+     "sha": "17c39332f37e3427",
+     "bayt": 6529
     },
     {
      "yol": "data/kronoloji_cok_arnavut.js",
@@ -1619,7 +1619,7 @@
      "bayt": 13934
     }
    ],
-   "bayt": 944002
+   "bayt": 950125
   }
  ]
 }

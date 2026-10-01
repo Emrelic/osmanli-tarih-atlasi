@@ -3400,7 +3400,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   yer:"Duhân",
   yer_kon:[25.43, 50.78],
   d:"Katar'da petrol bulundu; ancak işletme II. Dünya Savaşı ve sonrası yüzünden 1942-1947 arasında durduruldu.",
-  kaynak:"LOC Country Studies 'Qatar: Historical Background' http://countrystudies.us/persian-gulf-states/68.htm (özet: 'Oil was discovered in Qatar in 1939, but its exploitation was halted between 1942 and 1947 because of World War II and its aftermath.') · TDV 'KATAR' https://islamansiklopedisi.org.tr/katar : \"Bu tarihten bölgede petrolün bulunduğu 1940 yılına kadar milletlerarası politikada gündeme gelmeyen Katar, komşuları Bahreyn ve Suudi Arabistan ile arasında çıkan bazı küçük anlaşmazlıklar dışında önemli bir olayla karşılaşmadı.\"",
+  kaynak:"LOC Country Studies 'Qatar: Historical Background' http://countrystudies.us/persian-gulf-states/68.htm (özet: 'Oil was discovered in Qatar in 1939, but its exploitation was halted between 1942 and 1947 because of World War II and its aftermath.') · TDV 'KATAR' https://islamansiklopedisi.org.tr/katar : \"Bu tarihten bölgede petrolün bulunduğu 1940 yılına kadar milletlerarası politikada gündeme gelmeyen Katar, komşuları Bahreyn ve Suudi Arabistan ile arasında çıkan bazı küçük anlaşmazlıkların dışında önemli bir olayla karşılaşmadı.\"",
   ic_not_d:"ÇELİŞKİ: LOC 1939, TDV 1940. TDV birincil olmakla birlikte cümlesi keşfi tarihlemek için değil dönem sınırı için yazılmış (tuzak ⑧); LOC doğrudan keşfi tarihliyor → 1939 yazıldı, fark bildirildi. Duhân konumu yardımcı bilgi." },
 
 { t:"1939-01-01",
