@@ -1,65 +1,38 @@
-BOZUK_KIYI_TABAN 58 -> 22 — MOTORUN KENDI ISTEGI
-
-🔴 BU YAMA BEKLETILIYOR, UYGULANMADI. Sebebi `CLAUDE.md §9.1`:
-   `arac/uret_petek.py` MOTOR TUZUNDADIR (dort dosyanin sha256'si onbellek
-   anahtaridir). Dokunmak butun anahtarlari gecersiz kilar ⇒ tam yeniden insa.
-   Ve koşu SURERKEN dokunmak daha kotu: motor her asamada parmak izini sinar ve
-   REDDEDER (8 Agustos 2026: 83 dakika calisip en sonda reddedildi).
-   ⇒ Yamalar `denetim/*.diff` olarak bekler, TAM INSA koşusunda TEK SEFERDE girer.
-
-## ISTEGIN KAYNAGI — motorun kendi log satiri
-
-KOSU 19 (UMIT, 1 Ekim 2026 00:53) logunda motor aynen sunu yazdi:
-
-    çöl tavanı ÖNCESİ örtü: 22 bozuk kenar (taban 58) ✓
-      — ⚠️ TABAN GEVŞEK, BOZUK_KIYI_TABAN = 22 yapılmalı
-
-Yani nobetci kendi tabaninin GEVSEK oldugunu olctu ve sayiyi verdi.
-`arac/uret_petek.py:4128-4130` bu uyariyi basan dal.
-
-## OLCUM
-
-    taban (bugun)      58
-    olculen            22        ⇒ 36 kalemlik IYILESME
-    fark               -36
-
-`CLAUDE.md §11`: *"tavan yalniz yukari degil ASAGI da takip edilir, yoksa
-denetim '0 <= 1' diye sessizce gecer ve deligin geri acilmasini goremez."*
-⇒ 58'de kalirsa yarin 50 bozuk kenar "50 <= 58" diye GECER ve 28 kalemlik
-  gerileme GORUNMEZ olur.
-
-## YAMA
+# MOTOR-BOZUK-KIYI-1001 — BOZUK_KIYI_TABAN 58 -> 22
+#
+# Tam insa kosusunda, oteki motor yamalariyla TEK SEFERDE uygulanir
+# (CLAUDE.md §9.1 madde 2). Kosular arasi UYGULANMAZ: uret_petek.py
+# onbellek tuzundadir, dokunmak butun anahtarlari gecersiz kilar.
+#
+# 🔴 1 Ekim 2026 — YENIDEN URETILDI. Iki kusuru vardi, ikisi de olculdu:
+#
+# ① SIFIR BAGLAM (KOSU-UMIT olctu). Eski hali `@@ -4083 +4083 @@`:
+#      ciplak `git apply --check`   -> 1 REDDEDILDI
+#      `--check --unidiff-zero`     -> 0 TEMIZ
+#    Icerik kusuru YOKTU, BICIM kusuru vardi. Ve sifir baglamli yama satir
+#    NUMARASINA baglidir: 4083 kayarsa yanlis satira iner, --check gormez.
+#    Artik 3 baglam satiri var; oteki 17 yamayla AYNI kapidan gecer.
+#
+# ② WORKTREE'DEN URETILMISTI. Bu makinede core.autocrlf yuzunden
+#    `arac/uret_petek.py` worktree'de CRLF, indekste LF. Yama artik
+#    INDEKSten uretiliyor (git show :<yol>) ⇒ LF, kanonik.
+#    ⚠️ Ve bunu bulan sey bir SIGORTAYDI, dikkat degil: `cat -A` bu dosya
+#      icin ^M GOSTERMEDI (MSYS araci CR'i yutuyor), Python ikili okuyup
+#      CR buldu. `D246`: git/kabuk araclari satir sonu konusunda YANILTIR;
+#      hukum ikili okumadan verilir.
+#
+# SINAV (bu yama icin kosuldu, iki yonde):
+#   git apply --cached --check      -> 0  (uygulanabilir)
+#   git apply --cached --check -R   -> 1  (henuz uygulanmamis)
 
 --- a/arac/uret_petek.py
 +++ b/arac/uret_petek.py
-@@ -4083 +4083 @@
+@@ -4080,7 +4080,7 @@
+ # 📌 ONCELIK.md K4'un yeni bir yuzu: OLCMEDEN VERILEN ONERI DE UC TUR DEMEK.
+ #   Uygulansaydi ek17/ek18 gibi `bolge` dolgusu bol ama kiyisi sifir
+ #   partiler yanlislikla ceza alirdi.
 -BOZUK_KIYI_TABAN = 58
 +BOZUK_KIYI_TABAN = 22
-
-## YAMAYA ESLIK EDECEK YORUM (ayni commit'te)
-
-    # 58 -> 22 (1 Ekim 2026, KOSU 19 · UMIT): motorun KENDI nobetcisi
-    #   "TABAN GEVSEK, BOZUK_KIYI_TABAN = 22 yapilmali" diye bildirdi.
-    #   36 kalemlik iyilesme; sebebi olculMEDI (hangi partinin geometrisi
-    #   duzelttigi ayristirilmadi) ⇒ 'olculemedi' yazilir, sebep UYDURULMAZ.
-    # 📌 Ve bu, ayni dosyadaki "cift yonlu nobetci burada ise yaradi:
-    #   60 → 58 DUSUSUNU tek yonlu bir nobetci sessizce yutardi" notunun
-    #   ikinci kez dogrulanmasidir — bu kez 36 kalemle.
-
-## UYGULAMA KOSULU — uc sart
-
-  ① koşu 19 BITMIS olacak (suruyorsa motor parmak izini reddeder)
-  ② TAM INSA koşusu ile ayni commit'te girecek (tuz bir kez degisir)
-  ③ `git apply --check` TEMIZ olacak — uygulamadan once KOSTURULUR
-     (olculdu: alti eski bekleyen yama BAYAT cikti cunku kimse tazeligini
-      olcmuyordu; `YAMA-MOTOR-0930` o kapiyi kurdu)
-
-## TAM INSA KOSUSUNA BINECEK OTEKI KALEMLER (1 Ekim sabahi itibariyle)
-
-  · `YAMA-MOTOR-0930`un hazir 2 yamasi
-  · varlik-epogu yorumu 20-49 kat bayat (917 nokta/37 epok yaziyor; olculen
-    4283 nokta/753 epok) — dogruluk etkilenmiyor, MALIYET etkileniyor:
-    `varlik devri (petek_epok)` koşunun %21,9'u
-  · 163 BEYANLI boya kalemi (`boya_gerekli:true`) — `renkler.py` tuzda
-  · 1281 oncesi ve 1945 ufku: `girdi.py:705` UFUK=("1281-01-01","1923-10-29")
-    ve `js/app.js` BITIS — pencereyi iki yone acmak ayni koşuya biner
+ 
+ # 🔴 NÖBETÇİ BURADA — ÇÖL TAVANINDAN ÖNCE. Bu çağrı, taban 32'yi üreten r217
+ # koşusuyla AYNI ölçümdür (kıyı kesimi + ada kuralı + kara-kısıtlı sahiplik

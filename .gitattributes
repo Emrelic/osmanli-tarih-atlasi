@@ -35,3 +35,30 @@ data/*_parcalar.js  -text
 data/*_parca.js     -text
 data/*_ust.js       -text
 data/*_on.js        -text
+
+# ─────────────────────────────────────────────────────────────────────────────
+# YAMA DOSYALARI — satır sonu DÖNÜŞTÜRÜLMEZ (1 Ekim 2026, KOSU-UMIT ölçtü)
+#
+# 🔴 NİÇİN: `git apply` bir yamanın bağlam satırlarını hedef dosyayla BAYT BAYT
+#    karşılaştırır. `core.autocrlf=true` checkout'ta `.diff` dosyalarına da CR
+#    ekler ⇒ CRLF yama, kaynak dosyanın satır sonlarına göre tutar ya da tutmaz
+#    ve hangisi olduğu MAKİNEYE GÖRE değişir.
+#
+# 📌 Vaka: KOSU-UMIT 18 yamayı `--check` etti ve ölçümü İKİ YOLDAN yapmak
+#    zorunda kaldı — (a) çıplak `git apply --check` worktree'ye karşı,
+#    (b) `git show :<yol>` ile yamanın LF indeks hâli + `--check --cached`.
+#    `git ls-files --eol` → i/lf w/crlf. Yani ölçümün kendisi, ölçülen şeyin
+#    satır sonuna bağımlı hâle gelmişti.
+#    ⇒ Bu satır o bağımlılığı kaldırır: yama her makinede LF kalır, tek
+#      `--check` yeter, `--cached` numarası gerekmez.
+#
+# 📌 İKİNCİ VE DAHA SİNSİ VAKA — aynı gün, koordinatör:
+#    `arac/uret_petek.py` worktree'de CRLF (ölçüldü: CR 8305 / LF 8305),
+#    indekste LF (CR 0). Yamayı WORKTREE'den üretmek CRLF yama verirdi.
+#    🔴 Ve bunu `cat -A` GÖSTERMEDİ: MSYS aracı o dosya için ^M basmadı,
+#      Python ikili okuyup 8305 CR buldu. `D246` birebir: git ve kabuk
+#      araçları satır sonu konusunda YANILTIR; hüküm İKİLİ OKUMADAN verilir.
+#    ⇒ Yamalar artık `git show :<yol>` ile İNDEKSten üretilir (kanonik LF).
+# ─────────────────────────────────────────────────────────────────────────────
+denetim/*.diff      -text
+*.patch             -text
