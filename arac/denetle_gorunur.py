@@ -48,6 +48,9 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import denetle as _d   # oku_pencere() — ispatlı JS-dizi ayrıştırıcı, birebir alındı
+import girdi as _girdi  # 🔴 YERLEŞİM için MOTORUN okuyucusu — `oku_pencere` değil.
+#   `oku_pencere` yorum içindeki tırnakta düşüyor (yerlesimler_hint0912.js,
+#   1 Ekim 2026); motor aynı dosyayı okuyor. İki ayrıştırıcı = iki gerçeklik.
 
 
 def _app_js():
@@ -218,12 +221,33 @@ def dizin_suzgecleri():
 def _tarayici_yerlesim_dosyalari():
     """index.html'in `window.YERLESIMLER`e BİRLEŞTİRDİĞİ dosya kümesi — motorun
     dar `girdi.py` listesiyle KARIŞTIRILMAZ: harita işaret KATMANI (bu araç)
-    ile petek ÜRETİM katmanı (girdi.py) farklı genişlikte, bilerek — §6."""
+    ile petek ÜRETİM katmanı (girdi.py) farklı genişlikte, bilerek — §6.
+
+    🔴 1 EKİM 2026 — BU İŞLEV 0 DOSYA DÖNDÜRÜYORDU ve ③ denetimi BOŞ küme
+       üzerinde gezip temiz rapor veriyordu. Sebep: `paketle.py` 29 Eylül
+       10:54'te (`af0c78c6`) 92 `yerlesimler*.js` dosyasını paketlere gömdü;
+       `<script src="data/yerlesimler.js">` etiketi artık YOK, adlar yalnız
+       HTML yorumunda. İkinci döngü (`window.YERLESIMLER_… || []`) satır içi
+       JS'ten okuduğu için ayakta kaldı, ama ANA dosya ve 92'nin tamamı düştü.
+       ⇒ `arac/paket_coz.py` paketi açar; iki kaynak BİRLEŞTİRİLİR.
+    """
     html = _index_html()
-    ana = re.search(r'<script src="(data/yerlesimler\.js)', html)
-    dosyalar = [ana.group(1)] if ana else []
+    import sys as _sys
+    _b = os.path.dirname(os.path.abspath(__file__))
+    if _b not in _sys.path:
+        _sys.path.insert(0, _b)
+    from paket_coz import index_esleyen
+    dosyalar = list(index_esleyen(KOK, r"/yerlesimler"))
+    # Satır içi JS'te `window.YERLESIMLER_X || []` diye anılanlar: paketlenmiş
+    # OLMAYABİLİR (ayrı etiketle de yüklenebilirler) ⇒ ayrıca toplanır.
     for m in re.finditer(r"window\.(YERLESIMLER_\w+)\s*\|\|\s*\[\]", html):
-        dosyalar.append("data/" + m.group(1).lower() + ".js")
+        y = "data/" + m.group(1).lower() + ".js"
+        if y not in dosyalar:
+            dosyalar.append(y)
+    if not dosyalar:
+        raise RuntimeError(
+            "③ yerleşim görünürlüğü ÖLÇÜLEMEZ: index.html'de yerleşim dosyası "
+            "bulunamadı (paketler çözüldükten sonra da). ARIZA, 'temiz' DEĞİL.")
     return dosyalar
 
 
@@ -236,11 +260,22 @@ def yerlesim_gorunurlugu():
         if not os.path.isfile(yol):
             bulgular.append(("dosya-yok", rel, 0, "index.html yüklüyor ama dosya diskte yok"))
             continue
-        js = open(yol, encoding="utf-8").read()
-        m = re.search(r"window\.(YERLESIMLER\w*)\s*=", js)
-        if not m:
+        # 🔴 MOTORUN KENDİ OKUYUCUSU kullanılır (`girdi.oku_dosya`), `denetle.
+        #    oku_pencere` DEĞİL. Ölçüldü (1 Ekim 2026): körlük kalkıp 93 dosya
+        #    görünür olunca `oku_pencere` 92'yi okudu ve BİRİNDE düştü —
+        #    `yerlesimler_hint0912.js`, JSONDecodeError satır 22. Dosya
+        #    `node --check` ile GEÇERLİ ve motor onu sorunsuz okuyor; kusur
+        #    veride değil ikinci ayrıştırıcıdaydı (içinde tırnak taşıyan bir
+        #    `//` yorumu). Bu dosyanın kendi dip notu zaten şunu söylüyordu:
+        #    "İki aracın veriyi farklı okuması bu depoda bir kez üretimi…"
+        #    ⇒ `D244`: tek paylaşılan okuyucu. İkinci ayrıştırıcı YAZILMAZ.
+        try:
+            kayitlar = _girdi.oku_dosya(os.path.basename(rel))
+        except Exception as e:                       # ölçülemedi ≠ temiz (D204)
+            bulgular.append(("ayristirilamadi", rel, 0,
+                             "motor okuyucusu da düştü: %s: %s"
+                             % (type(e).__name__, str(e)[:90])))
             continue
-        kayitlar = _d.oku_pencere(yol, m.group(1))
         for y in kayitlar:
             pencereler = (y.get("d") or []) + (y.get("v") or []) + (y.get("s") or [])
             if not pencereler:

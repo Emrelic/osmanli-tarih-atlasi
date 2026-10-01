@@ -4019,12 +4019,32 @@ def _d8_node(dosyalar, ifade):
 
 
 def _d8_d_dosyalari():
-    """index.html'in yüklediği D hattı dosyaları — liste burada TUTULMAZ."""
-    import re
+    """index.html'in yüklediği D hattı dosyaları — liste burada TUTULMAZ.
+
+    🔴 1 EKİM 2026 — BU İŞLEV İKİ KOŞU BOYUNCA 0 DOSYA DÖNDÜRDÜ ve Değişmez 8a
+       boş küme üzerinde "0 birim (tavan 1611) ✓" bastı. Sebep: `paketle.py`
+       29 Eylül 10:54'te (`af0c78c6`) 13 `d_sinirlar*.js` dosyasını paket_28 ve
+       paket_29'a gömdü; eski `src="(data/d_sinirlar…)"` deseni paket adını
+       göremez, orijinal adlar yalnız HTML YORUMUNDA kaldı.
+       ⇒ Çözüm `arac/paket_coz.py`: aynı soruyu sorar ama PAKETİ AÇAR.
+       "Liste burada tutulmaz" erdemi KORUNDU — yalnız dolaylama izlendi.
+       ⚠️ Boş sonuç artık SESSİZ GEÇMEZ: çözücü `PaketCozHatasi` fırlatır,
+          ve aşağıdaki eşik 0 dosyayı AÇIKÇA arıza sayar. `D204`: ölçülemedi
+          ≠ yok ≠ temiz.
+    """
+    import sys as _sys
+    _b = os.path.dirname(os.path.abspath(__file__))
+    if _b not in _sys.path:
+        _sys.path.insert(0, _b)
+    from paket_coz import index_esleyen
     kok = os.path.dirname(DATA)
-    h = open(os.path.join(kok, "index.html"), encoding="utf-8").read()
-    return sorted({os.path.join(kok, m) for m in
-                   re.findall(r'src="(data/d_sinirlar[^"?]*\.js)', h)})
+    rel = index_esleyen(kok, r"/d_sinirlar")
+    if not rel:
+        raise RuntimeError(
+            "Değişmez 8a ÖLÇÜLEMEZ: index.html'de d_sinirlar dosyası "
+            "bulunamadı (paketler çözüldükten sonra da). Bu bir ARIZADIR, "
+            "'ihlal yok' DEĞİLDİR — tavan 1611 boş kümeye karşı ✓ basardı.")
+    return sorted({os.path.join(kok, *m.split("/")) for m in rel})
 
 
 def _d8_gun_once(g):
