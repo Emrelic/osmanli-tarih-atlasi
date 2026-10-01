@@ -62,6 +62,19 @@ except Exception:
 #   ("Can't pickle local object 'main.<locals>._is'").
 #   Ama modul duzeyinde olmasi, __main__ korumasini da ZORUNLU kilar —
 #   yoksa cocuk surecler butun betigi yeniden kosturur.
+# 🔴 MOTORUN GERCEK DIS KUTUPHANELERI — AST ile olculdu (1 Ekim 2026):
+#   uret_petek · girdi · renkler · motor_onbellek · dolgu · uret_devirler ·
+#   uret_altlik dosyalarinin butun import satirlari tarandi.
+#   ⚠ Ilk surumde liste ELLE yazilmisti ve IKI YONDE YANLISTI:
+#     'pyproj' VARDI ama motor onu HIC import etmiyor (bos yere YOK basiyordu)
+#     'contourpy' YOKTU ama motor onu import EDIYOR (eksigi HIC gormuyordu)
+#   Yakalayan: YAZICI KASA PC — 'betik KOSU YETENEGI ✅ diyor ama yalniz RAM
+#   esigine bakiyor; koşu icin bu paketlerin kurulmasi gerekir.'
+#   📌 Ders: bir KONTROL LISTESI elle yazilirsa, kontrol ettigi seyle
+#     ayrisir. Liste olculerek uretilmeli ya da olculerek DOGRULANMALI.
+MOTOR_KUTUPHANE = ("numpy", "shapely", "rasterio", "scipy", "contourpy")
+
+
 def _is(_):
     import math
     s = 0.0
@@ -165,7 +178,7 @@ def main():
     #   önbellek aynı sayılır ama sonuç farklı çıkabilir. Koşu TEK makinede
     #   tutulmasının sebeplerinden biri budur.
     kut = {}
-    for ad in ("numpy", "shapely", "pyproj", "rasterio", "scipy"):
+    for ad in MOTOR_KUTUPHANE:
         try:
             kut[ad] = __import__(ad).__version__
         except Exception:
@@ -291,9 +304,17 @@ def main():
     print("    disk 64 MB   : %s" % R["b_disk_sn"])
     print("    geometri     : %s   ← shapely yoksa None" % R.get("b_geometri_sn"))
 
-    kosar = (R["ram_gb"] or 0) >= ESIK_KOSU
-    print("\n  KOŞU YETENEĞİ: %s  (toplam RAM %s GB, eşik %s GB — koşu tepesi 8.329 MiB ölçüldü)"
-          % ("✅ KOŞABİLİR" if kosar else "❌ KOŞAMAZ", R["ram_gb"], ESIK_KOSU))
+    # 🔴 KOSU YETENEGI IKI SARTA BAGLI, bire degil:
+    #   ① RAM  ≥ 8,5 GB (kosu tepesi 8.329 MiB olculdu, UMIT koşu 19)
+    #   ② MOTOR KUTUPHANELERININ TAMAMI kurulu
+    #   Ilk surum yalniz ①'e bakiyordu ve KASA'ya '✅ KOSABILIR' dedi —
+    #   oysa rasterio · scipy · contourpy YOKTU. RAM yeterliligi kosu
+    #   YETENEGI degil, kosu IZNIDIR; yetenek kutuphaneyle tamamlanir.
+    eksik = [k for k in MOTOR_KUTUPHANE if not kut.get(k)]
+    kosar = (R["ram_gb"] or 0) >= ESIK_KOSU and not eksik
+    print("\n  KOŞU YETENEĞİ: %s  (RAM %s GB / eşik %s · motor kütüphanesi: %s)"
+          % ("✅ KOŞABİLİR" if kosar else "❌ KOŞAMAZ", R["ram_gb"], ESIK_KOSU,
+             "tam" if not eksik else "EKSİK → " + ", ".join(eksik)))
     print("  YAYIN YETENEĞİ: %s  (node %s)"
           % ("✅ YAPABİLİR" if R["node"] else "❌ node YOK", R["node"] or "-"))
     print("\n--- KIYAS SATIRI (bunu aynen gönder) ---")
