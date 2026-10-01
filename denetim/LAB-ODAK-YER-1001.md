@@ -126,3 +126,10 @@ Uygulamayı koordinatör yapacak (`data/` onun kalemi). Bu bölüm yalnızca kay
 - **#29 (ortadogu):** Aynı savaş başka bir bölge dosyasında, farklı bir `b` metniyle yer alıyor. `cokTarafliKronolojiEkle` kayıtları `t`+`b` ile tekilleştirdiği için ikisi de bağlanır ve savaş kullanıcıya iki kez gösterilir. Çözüm ve dosya sahipliği koordinatörün kararı.
 - **#35 → `Zebîd`:** TDV'ye göre ilk alınan şehir Zebîd. Kameranın tek bir yere bakması gerekiyor ve ilk hedef en savunulabilir nokta.
 - **Tuzaklar kayda geçti:** #52 için `Yaroslavl` (Volga) kullanılmaz; #25 için `Tahran` kullanılmaz.
+
+## 🔴 DÜZELTME (LAB, 1 Ekim 2026): #38 Zap Suyu "bulunamadı" DEĞİL → atlasta yok: Zap Suyu
+Hatayı bir sonraki partide (LAB-ODAK-ORTADOGU-1002) aynı olayın ortadoğu kaydını okurken buldum. O kaydın `kaynak` alanı TDV BEGTEGİNLİLER maddesini gösteriyordu. Ben bu partide yalnızca ZENGÎLER ve KÖKBÖRİ maddelerine bakmıştım; olay yeri üçüncü maddedeydi.
+- TDV, BEGTEGİNLİLER (https://islamansiklopedisi.org.tr/begteginliler): «İki ordu Zap Suyu kenarında Eylül 1219'da karşılaştı ve muharebe Musul ordusunun mağlûbiyetiyle sonuçlandı.» Bu alıntı ham metinde birebir doğrulandı.
+- Hüküm: **atlasta yok: Zap Suyu** (bir nehir, yerleşim değil). Musul önerisi yine yanlış.
+- Düzeltilmiş özet: atlasta var 3 · atlasta yok **11** · yersiz 5 · bulunamadı **1** (#26).
+- Ders: "Kaynak yeri vermiyor" hükmü yalnızca okunan maddeler için geçerlidir. Olayın kaydındaki `kaynak` alanı her zaman ilk okunacak yerdir.
