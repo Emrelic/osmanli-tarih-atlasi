@@ -9938,6 +9938,17 @@ window.DEVLETLER = [
     { t:"1260-01-01", tur:"son", b:"Hülâgû Halep'i zaptetti; Halep Eyyûbî kolu sona erdi", kaynak:"TDV: eyyubiler", taraflar:"['eyyubi-halep', 'ilhanli']", gun:"1260 başları (gün bilinmiyor)" }
   ]
 },
+{ id:"eyyubi-meyyafarikin", ad:"Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu)", tur:"hanedanlik", bolge:"anadolu",
+  f:"1185-01-01", t:"1260-01-01", baskent:"Meyyâfârikîn (Silvan)", boya_gerekli:true,
+  ic_not_f:"TDV: eyyubiler hükümdar listesinde AYRI alt başlık — \"4. Meyyâfârikīn, Cebel ve Sincar Kolu (Diyarbekir)\", 581 (1185). Hicrî yıl ⇒ GÜN YOK, `D210` gereği 1185-01-01. Ölçen: LAB-1003",
+  ic_not_t:"TDV: meyyafarikin (\"Eyyûbîler 658 (1260) yılına kadar…\") + eyyubiler listesi 642-658 (1244-1260). GÜN YOK ⇒ 1260-01-01. ⚠️ Kol 1191'de KISA bir Artuklu arası yaşadı (LAB ölçtü); künye penceresi o kesintiyi AYIRMIYOR — ayrı kalem.",
+  ozet:"Selâhaddin'in kardeşi soyundan gelen ve TDV'nin hükümdar listesinde AYRI numaralı kol olarak saydığı Diyarbekir şubesi; Meyyâfârikîn (Silvan) merkezli, Cebel ve Sincar'ı da kapsadı. 🔴 NİÇİN AÇILDI: `eyyubi` künyesi 1250'de biter (Mısır kolu Memlüklere geçti, o `t` DOĞRUDUR) ve Harran · Meyyâfârikîn · Ahlat'ın 1250-1260 aralığına kimlik verilemiyordu; `eyyubi`yi uzatmak ANAKRONİZM olurdu. `§3.5` üçüncü sınıf: ardıl/kardeş künye. Kapsam LAB ölçümü: Meyyâfârikîn 1185-1260 · Ahlat 1207/08-1230 · Harran ÖLÇÜLEMEDİ. ⚠️ Meyyâfârikîn NOKTASI atlasta YOK; `harita:` yazılmadı (acil işlev nokta sahipliği, boyama ayrı karar).",
+  kaynak:"TDV: eyyubiler (hükümdar listesi, \"4. Meyyâfârikīn, Cebel ve Sincar Kolu (Diyarbekir)\"); meyyafarikin",
+  kronoloji:[
+    { t:"1185-01-01", tur:"kurulus", b:"Meyyâfârikîn Eyyûbî kolu kuruldu (Cebel ve Sincar dahil)", kaynak:"TDV: eyyubiler", gun:"581 (1185) — TDV yıl verir, gün yok" },
+    { t:"1260-01-01", tur:"son", b:"Meyyâfârikîn Eyyûbî kolu sona erdi", kaynak:"TDV: meyyafarikin", gun:"658 (1260) — TDV yıl verir, gün yok" }
+  ]
+},
 { id:"eyyubi-hama", ad:"Hama Eyyûbîleri", tur:"beylik", bolge:"suriye-filistin",
   f:"1178-01-01", t:"1342-01-01", baskent:"Hama", boya_gerekli:true,
   ic_not_f:"TDV: hama (\"Hama 570’te (1174-75) Selâhaddîn-i Eyyûbî’nin eline geçti.\") + TDV: hama (\"Selâhaddin dört yıl sonra burayı yeğeni el-Melikü’l-Muzaffer Ömer’e bıraktı.\") ⇒ 570+4 = 574 (Haziran 1178-Mayıs 1179) TÜRETİLMİŞ yıl; TDV açık yıl vermez. Paralel Humus kolu açık yazılı: humus--suriye '574’te (1179)'. Yıl ±1 belirsiz; koordinatör kaynağı yetersiz sayarsa f'yi 1179 (Humus'la aynı tayin dalgası) seçebilir.",
