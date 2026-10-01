@@ -252,9 +252,19 @@ URETILENLER = {
 }
 
 
+# 🔴 KOŞU ÜRETİCİLERİ — `D229`un kapsamı (Emre onayı, 1 Ekim 2026).
+#   Bu ikisinin ürünü KOŞU SIRASINDA bayatlar: koşu saatlerce sürer, girdi
+#   o sırada ilerler. Yapısaldır, ihmal değil ⇒ yayını DURDURMAZ.
+#   ⚠️ Liste DAR tutulur: buraya bir üretici eklemek, o ürünün bayatlığını
+#     kalıcı olarak görünmez kılar. Ucuz üreticiler (altlik · bekleyenler)
+#     BURAYA GİRMEZ — onlar tek komutla tazelenir, bayat kalmaları ihmaldir.
+KOSU_URETICILERI = {"uret_petek.py", "uret_devirler.py"}
+
+
 def iz_kapsami():
-    """(izsiz, bayatlar, taze, diskte_yok) — üretilen her çıktının izi var mı,
-    varsa kayıtlı girdi özetleri BUGÜNKÜ dosyalarla tutuyor mu?
+    """(izsiz, bayatlar, taze, diskte_yok, kosu_bayat, olculemedi) — üretilen
+    her çıktının izi var mı, varsa kayıtlı girdi özetleri BUGÜNKÜ dosyalarla
+    tutuyor mu?
 
     Hüküm yalnız `girdi` eksenindedir; `motor` ekseni koşu SIRASINDA
     motor_izi_dogrula ile korunuyor ve kod her düzenlendiğinde bütün
@@ -264,6 +274,7 @@ def iz_kapsami():
     bekleyenler izi "BEKLEYENLER.md" ile yazar)."""
     import hashlib
     izsiz, bayatlar, taze, yok = [], [], [], []
+    kosu_bayat, olculemedi = [], []
     for yol, uretici in sorted(URETILENLER.items()):
         tam = os.path.join(KOK, yol)
         if not os.path.exists(tam):
@@ -307,11 +318,46 @@ def iz_kapsami():
             simdi = hashlib.sha256(open(kyol, "rb").read()).hexdigest()
             if simdi != ozet:
                 fark.append(ad)
+        # ─── ÜÇ KOVA (Emre onayı, 1 Ekim 2026) — eskiden hepsi "BAYAT"tı ──────
+        #
+        # 🔴 Eski hâlde bu dal ÜÇ AYRI ŞEYİ tek kovaya atıyordu ve üçü de
+        #    yayını bloke ediyordu. 1 Ekim'de ölçülünce ayrıştı:
+        #
+        #   ① ÖLÇÜLEMEDİ — kayıtlı girdinin KENDİSİ diskte yok.
+        #      `devirler.js`in 98 girdisinden 3'ü (`devletler_harita.js` ·
+        #      `donemler.js` · `petek_govde.js`) `.gitignore`lu HAM ÇIKTIdır;
+        #      yayıncı makinede hiç bulunmaz. Bunlara "bayat" demek `D204`ün
+        #      ihlalidir: **ölçülemedi ≠ yok ≠ temiz.** Bloke ETMEZ ama
+        #      TEMİZ de SAYILMAZ — ayrı satırda, adıyla basılır.
+        #
+        #   ② KOŞU BAYATI — `uret_petek.py` / `uret_devirler.py` ürünü.
+        #      `D229` (Emre, 17 Eylül): *"Koşu çıktısı her zaman bayattır —
+        #      yine de yayınlanır."* Koşu N saat sürer, girdi o sırada
+        #      ilerler; bu YAPISALDIR, kusur değil. Bloke ETMEZ.
+        #
+        #   ③ GERÇEK BAYAT — ucuz üreticinin ürünü (`altlik.py`,
+        #      `bekleyenler.py`). Bunlar tek komutla tazelenir ⇒ bayat
+        #      kalmaları bir İHMALDİR. BLOKE EDER.
+        #      📌 Vaka: `altlik.js` 29 Eylül'de üretilmiş, üreticisi 30 Eylül'de
+        #        değişmişti; 1 Ekim'de `uret_altlik.py` koşturuldu ve kapandı.
+        #        Üç kova olmasaydı bu gerçek kalem, iki yapısal kalemin
+        #        arkasında GÖRÜNMEZ olurdu.
+        #
+        # ⚠️ Sıra önemli: önce ÖLÇÜLEMEDİ bakılır (daha kesin bir ifade),
+        #    sonra koşu ürünü mü. `devirler.js` ikisine de girer; doğru yanıt
+        #    "ölçemedim"dir, "bayat"tan daha dürüst olanı odur.
         if fark:
-            bayatlar.append((yol, fark))
+            olcülemeyen = [f for f in fark if f.endswith("(girdi diskte YOK)")]
+            gercek = [f for f in fark if not f.endswith("(girdi diskte YOK)")]
+            if olcülemeyen and not gercek:
+                olculemedi.append((yol, olcülemeyen))
+            elif uretici in KOSU_URETICILERI:
+                kosu_bayat.append((yol, fark))
+            else:
+                bayatlar.append((yol, fark))
         else:
             taze.append(yol)
-    return izsiz, bayatlar, taze, yok
+    return izsiz, bayatlar, taze, yok, kosu_bayat, olculemedi
 
 
 # ============================================================================
@@ -1327,8 +1373,11 @@ def main():
         print("      TEMİZ der. Kesin çözüm window.URETIM_IZI (motorda sırada).")
 
     # ---- ÜRETİM İZİ KAPSAMI (İş G) — tazelik hükmü KAÇAK dosyayı sayar
-    izsiz, iz_bayat, iz_taze, iz_yok = iz_kapsami()
+    izsiz, iz_bayat, iz_taze, iz_yok, iz_kosu, iz_olculemedi = iz_kapsami()
     n_var = len(URETILENLER) - len(izsiz) - len(iz_yok)
+    # 🔴 Hüküm yalnız GERÇEK bayata bakar (Emre onayı, 1 Ekim 2026):
+    #   koşu ürünü (`D229`) ve ölçülemeyen (`D204`) kovaları BLOKE ETMEZ,
+    #   ama ikisi de SESSİZ DEĞİLDİR — altta adıyla ve sayısıyla basılır.
     durum_iz = "✓" if not izsiz and not iz_bayat else "✗"
     print()
     print("%s  üretim izi: %d/%d üretilen çıktı iz taşıyor · taze %d · "
@@ -1340,6 +1389,32 @@ def main():
     for yol, fark in iz_bayat:
         print("     BAYAT  %-28s değişen: %s"
               % (yol, ", ".join(fark[:4]) + ("…" if len(fark) > 4 else "")))
+    for yol, fark in iz_kosu:
+        # 🔴 İKİ SAYI AYRI BASILIR. `devirler.js` HEM koşu ürünüdür HEM de
+        #   girdilerinin bir kısmı ölçülemez (ham çıktı, .gitignore'lu). Tek
+        #   sayıya indirmek ikinci olguyu gizlerdi: "3 girdi ölçülemedi" bir
+        #   BİLGİ EKSİĞİdir ve kovanın adı onu söylemiyor.
+        _olc = [f for f in fark if f.endswith("(girdi diskte YOK)")]
+        _deg = [f for f in fark if not f.endswith("(girdi diskte YOK)")]
+        print("     i KOŞU BAYATI  %-22s değişen %d: %s"
+              % (yol, len(_deg), ", ".join(_deg[:3]) + ("…" if len(_deg) > 3 else "")))
+        if _olc:
+            print("                    %-22s ⚠ AYRICA %d girdi ÖLÇÜLEMEDİ (diskte yok): %s"
+                  % ("", len(_olc),
+                     ", ".join(f.replace(" (girdi diskte YOK)", "") for f in _olc[:3])))
+    if iz_kosu:
+        print("       → `D229` (Emre, 17 Eylül): koşu çıktısı HER ZAMAN bayattır,")
+        print("         koşu saatlerce sürerken girdi ilerler. YAPISAL, ihmal DEĞİL")
+        print("         ⇒ yayını DURDURMAZ. Kapanması tam inşa koşusunu bekler.")
+    for yol, fark in iz_olculemedi:
+        print("     ⚠ ÖLÇÜLEMEDİ  %-23s girdisi diskte YOK: %s"
+              % (yol, ", ".join(f.replace(" (girdi diskte YOK)", "") for f in fark[:3])
+                 + ("…" if len(fark) > 3 else "")))
+    if iz_olculemedi:
+        print("       → bu girdiler `.gitignore`lu HAM ÇIKTIdır (devletler_harita ·")
+        print("         donemler · petek_govde); yayıncı makinede HİÇ bulunmaz.")
+        print("         🔴 'bayat' DEĞİL 'ölçemedim' — `D204`: ölçülemedi ≠ yok ≠ TEMİZ.")
+        print("         Ölçmek isteyen, ham çıktının durduğu makinede koşturur.")
     if izsiz:
         print("     → izsiz çıktı tazelik hükmünün KAPSAMI DIŞINDA — 'hakkında")
         print("       hiçbir şey bilinmiyor' demek, 'taze' demek DEĞİL. Üretici")
@@ -1561,6 +1636,10 @@ def main():
         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+            # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
+            #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
+            #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
+            #   eden yalnız `iz_bayat` — ucuz üreticinin tazelenmemiş ürünü.
             or damga_ihlali or bayat or izsiz or iz_bayat or _sz
             or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
             or _paket_ihlali):

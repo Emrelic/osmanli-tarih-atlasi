@@ -36,7 +36,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["edo-bakufu"], etiket:["konu-askeri","konu-siyasi"],
   ic_not_t:"Yıl kaynaklı; gün/ay Japon takvimi, çevrim yok." },
 
-{ t:"1854-03-31", k:"siyasi", b:"Kanagawa Antlaşması — Japonya Amerika'ya Shimoda ve Hakodate limanlarını açtı",
+{ t:"1854-03-31", k:"siyasi", b:"Kanagawa Antlaşması — Japonya Amerika'ya Shimoda ve Hakodate limanlarını açtı", yer_id:"Hakodate",
   gun:"31 Mart 1854", yer:"Kanagawa", kisiler:"Matthew Perry",
   d:"Komodor Perry'nin Temmuz 1853'teki ilk gelişinin ardından 1854 baharında dönen Amerikan filosu karşısında şogunluk, Kanagawa'da imzalanan antlaşmayla iki limanı Amerikan gemilerine açtı ve konsolosluk kurulmasını kabul etti. Bu, sakoku politikasının resmen sona ermesidir; İngiltere, Rusya ve Hollanda da benzer antlaşmalar aldı.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · William G. Beasley, The Meiji Restoration (Stanford UP, 1972). Sayfa verilmedi.",
@@ -115,7 +115,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Htin Aung, A History of Burma (Columbia UP, 1967) · Michael Aung-Thwin & Maitrii Aung-Thwin, A History of Myanmar since Ancient Times (Reaktion, 2012). Sayfa verilmedi.",
   taraflar:["konbaung","ingiliz-hindistani"], etiket:["konu-diplomasi","konu-siyasi"] },
 
-{ t:"1852-12-20", k:"siyasi", b:"İngiltere Pegu eyaletini ilhak etti — Birmanya denizle bağını yitirdi",
+{ t:"1852-12-20", k:"siyasi", b:"İngiltere Pegu eyaletini ilhak etti — Birmanya denizle bağını yitirdi", yer_id:"Pegu",
   gun:"20 Aralık 1852", yer:"Rangoon",
   d:"İkinci Anglo-Birman Savaşı'nda Rangoon ve Pegu'yu alan İngiltere, Dalhousie'nin bildirisiyle Aşağı Birmanya'yı (Pegu) tek taraflı olarak ilhak etti; barış antlaşması yapılmadı. Konbaung krallığı böylece tüm kıyı şeridini kaybetti ve yalnız Yukarı Birmanya'ya sıkıştı.",
   kaynak:"Htin Aung, A History of Burma (Columbia UP, 1967) · Michael Aung-Thwin & Maitrii Aung-Thwin, A History of Myanmar since Ancient Times (Reaktion, 2012). Sayfa verilmedi.",
@@ -163,7 +163,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["campa","nguyen-beyligi"], etiket:["konu-askeri","konu-siyasi"] },
 
 // ── BALİ KRALLIKLARI ───────────────────────────────────────────────
-{ t:"1849-01-01", k:"askeri", b:"Hollanda Bali'ye seferi — Buleleng ve Jembrana Hollanda denetimine girdi",
+{ t:"1849-01-01", k:"askeri", b:"Hollanda Bali'ye seferi — Buleleng ve Jembrana Hollanda denetimine girdi", yer_id:"Bali",
   gun:"1849 (yıl; Hollanda seferleri 1846, 1848, 1849)", yer:"Buleleng",
   d:"Hollanda, 1846 ve 1848'deki başarısız seferlerin ardından 1849'da Bali'nin kuzeyinde Buleleng ve Jembrana'yı aldı. Krallıkların geri kalanı 1906-08 puputanlarına dek bağımsız kaldı.",
   kaynak:"Henk Schulte Nordholt, The Spell of Power: A History of Balinese Politics, 1650–1940 (KITLV Press, 1996). Sayfa verilmedi.",
@@ -238,7 +238,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"George Dutton, The Tây Sơn Uprising (University of Hawai'i Press, 2006). Sayfa verilmedi.",
   taraflar:["tay-son","siyam-chakri"], etiket:["konu-askeri"] },
 
-{ t:"1789-01-01", k:"askeri", b:"Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna uğrattı",
+{ t:"1789-01-01", k:"askeri", b:"Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna uğrattı", yer_id:"Hanoi",
   gun:"1789 (yıl; Vietnam yeni yılı, ocak sonu-şubat başı)", yer:"Đống Đa", kisiler:"Nguyễn Huệ (Quang Trung)",
   d:"Lê hanedanının çağrısıyla Vietnam'a giren Qing ordusu, 1789 yeni yılında Thăng Long (Hanoi) yakınında Quang Trung'un hızlı yürüyüşüyle yenildi. Zafer Tây Sơn'un kuzeyde meşruiyetini pekiştirdi; Qing Quang Trung'u sonunda resmen tanıdı.",
   kaynak:"George Dutton, The Tây Sơn Uprising (University of Hawai'i Press, 2006). Sayfa verilmedi.",
@@ -286,7 +286,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"Yıl kaynaklı; gün ay takvimi, çevrim yok." },
 
 // ── GOVA / BUGİS ───────────────────────────────────────────────────
-{ t:"1669-01-01", k:"askeri", b:"Somba Opu düştü — Makassar Savaşı bitti, Gova Hollanda'ya boyun eğdi",
+{ t:"1669-01-01", k:"askeri", b:"Somba Opu düştü — Makassar Savaşı bitti, Gova Hollanda'ya boyun eğdi", yer_id:"Makassar",
   gun:"1669 (yıl)", yer:"Somba Opu", kisiler:"Hasanuddin, Arung Palakka, Cornelis Speelman",
   d:"VOC ve Bone beyi Arung Palakka'nın ittifakı, 1666'dan beri süren Makassar Savaşı'nı Somba Opu Kalesi'ni alarak bitirdi. 1667 Bungaya Antlaşması ile Gova'nın ticaret özgürlüğü ve dış bağları baştan kırılmıştı; 1669'da kalenin düşmesi Gova-Tallo'nun fiilen sonunu getirdi ve Güney Sulawesi'nin hegemonyası Bone ve VOC'a geçti.",
   kaynak:"Leonard Y. Andaya, The Heritage of Arung Palakka (Martinus Nijhoff, 1981) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",

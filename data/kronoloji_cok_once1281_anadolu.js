@@ -20,7 +20,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1002-01-01",
   tur:"hukumdar",
-  b:"Derbend emîri Leşkerî b. Meymûn öldü; emirlik Mansûr b. Meymûn'a geçti",
+  b:"Derbend emîri Leşkerî b. Meymûn öldü; emirlik Mansûr b. Meymûn'a geçti", yer_id:"Derbend",
   gun:"1002 (Iranica 392/1002 verir)",
   yer:"Derbent",
   kisiler:"Leşkerî b. Meymûn, Mansûr b. Meymûn",
@@ -113,7 +113,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1027-01-01",
   tur:"toprak-kazanc",
-  b:"Nasrüddevle Urfa'yı ele geçirdi",
+  b:"Nasrüddevle Urfa'yı ele geçirdi", yer_id:"Urfa",
   gun:"Şubat-Mart 1027 (gün bilinmiyor)",
   yer:"Şanlıurfa",
   kisiler:"Nasrüddevle Ahmed",
@@ -159,7 +159,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1031-01-01",
   tur:"toprak-kayip",
-  b:"Bizans Urfa'ya yerleşti, Mervânî kuşatması sonuçsuz kaldı",
+  b:"Bizans Urfa'ya yerleşti, Mervânî kuşatması sonuçsuz kaldı", yer_id:"Urfa",
   gun:"422/1031 (TDV yıl verir)",
   yer:"Şanlıurfa",
   kisiler:"Nasrüddevle Ahmed, Georgios Maniakes",
@@ -204,7 +204,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1034-01-01",
   tur:"hukumdar",
-  b:"Derbend emîri Mansûr b. Meymûn öldü; yerine Abdülmelik b. Mansûr geçti",
+  b:"Derbend emîri Mansûr b. Meymûn öldü; yerine Abdülmelik b. Mansûr geçti", yer_id:"Derbend",
   gun:"1034 (Iranica 425/1034 verir)",
   yer:"Derbent",
   kisiler:"Mansûr b. Meymûn, Abdülmelik b. Mansûr",
@@ -565,7 +565,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1081-01-01",
   tur:"kusatma",
-  b:"Türk emîri Hüsrev, Filaretos'un elindeki Urfa'yı kuşattı, alamadı",
+  b:"Türk emîri Hüsrev, Filaretos'un elindeki Urfa'yı kuşattı, alamadı", yer_id:"Urfa",
   gun:"1081 (TDV 474/1081 verir; 'aynı yıl')",
   yer:"Şanlıurfa",
   kisiler:"Philaretos Brachamios, Emîr Hüsrev",
@@ -781,7 +781,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1104-01-01",
   tur:"tabi",
-  b:"Harput Emîri Muhammed b. Çubuk, Muhammed Tapar'a tâbi",
+  b:"Harput Emîri Muhammed b. Çubuk, Muhammed Tapar'a tâbi", yer_id:"Harput",
   gun:"497/1104 (kaynak yıl verir)",
   yer:"Elazığ (Harput)",
   kisiler:"Muhammed b. Çubuk, Muhammed Tapar",
@@ -845,7 +845,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1108-01-01",
   tur:"tabi",
-  b:"Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı",
+  b:"Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı", yer_id:"Antakya",
   gun:"1108 (TDV yıl verir)",
   yer:"Durrës",
   kisiler:"Bohemund, I. Aleksios Komnenos",
@@ -922,7 +922,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1112-01-01",
   tur:"toprak-kazanc",
-  b:"Artuklu Belek b. Behrâm Harput'a hâkim oldu (TDV artuklular)",
+  b:"Artuklu Belek b. Behrâm Harput'a hâkim oldu (TDV artuklular)", yer_id:"Harput",
   gun:"1112 (TDV yıl verir)",
   yer:"Elazığ (Harput)",
   kisiler:"Belek b. Behrâm",
@@ -938,7 +938,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1112-01-01",
   tur:"hukumdar",
-  b:"Harput Emîri Muhammed b. Çubuk öldü",
+  b:"Harput Emîri Muhammed b. Çubuk öldü", yer_id:"Harput",
   gun:"505-506/1112 (kaynak yıl verir)",
   yer:"Elazığ (Harput)",
   kisiler:"Muhammed b. Çubuk",
@@ -1251,7 +1251,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1131-01-01",
   tur:"hukumdar",
-  b:"Josselin öldü; Urfa kontluğu oğlu II. Josselin'e geçti",
+  b:"Josselin öldü; Urfa kontluğu oğlu II. Josselin'e geçti", yer_id:"Urfa",
   gun:"1131 (TDV yıl verir)",
   yer:"Şanlıurfa",
   kisiler:"Josselin de Courtenay, II. Josselin",
@@ -1391,7 +1391,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1151-01-01",
   tur:"fetih",
-  b:"Urfa kontluğunun Bizans'a satılan son toprakları Türkler arasında paylaşıldı",
+  b:"Urfa kontluğunun Bizans'a satılan son toprakları Türkler arasında paylaşıldı", yer_id:"Urfa",
   gun:"1151 (TDV yıl verir)",
   yer:"Tilbaşar",
   kisiler:"Nûreddin Mahmud Zengî, Mesud, Timurtaş",
@@ -1455,7 +1455,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1161-01-01",
   tur:"hukumdar",
-  b:"Antakya prinkepsi Renaud de Châtillon Nûreddin'e esir düştü; yerine III. Bohemund geçti",
+  b:"Antakya prinkepsi Renaud de Châtillon Nûreddin'e esir düştü; yerine III. Bohemund geçti", yer_id:"Antakya",
   gun:"1161 (TDV yıl verir)",
   kisiler:"Renaud de Châtillon, III. Bohemund, Nûreddin Mahmud Zengî",
   d:"Raimond'un dul karısı Konstance ile evlenen Renaud'nun hâkimiyeti Nûreddin'e esir düşmesiyle sona erdi; prinkepsliğe Konstance'ın Raimond'dan olan oğlu III. Bohemund geçti.",
@@ -1654,7 +1654,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1185-01-01",
   tur:"bolunme",
-  b:"Artuklu İmâdüddin Ebû Bekir Harput'ta bağımsız beylik kurdu",
+  b:"Artuklu İmâdüddin Ebû Bekir Harput'ta bağımsız beylik kurdu", yer_id:"Harput",
   gun:"1185 (TDV yıl verir)",
   yer:"Elazığ (Harput)",
   kisiler:"İmâdüddin Ebû Bekir, II. Sökmen (Artuklu)",
@@ -1891,7 +1891,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1214-01-01",
   tur:"antlasma",
-  b:"İznik ile Latin İmparatorluğu arasındaki sınırı çizen antlaşma (Nymphaion)",
+  b:"İznik ile Latin İmparatorluğu arasındaki sınırı çizen antlaşma (Nymphaion)", yer_id:"İznik",
   gun:"yaklaşık 1214 (Britannica 'c. 1214')",
   kisiler:"I. Theodoros Laskaris, Henri de Flandre",
   d:"Latin İmparatoru Henri ile bir süre savaşan Theodoros Laskaris, iki imparatorluk arasındaki sınırı belirleyen bir antlaşma imzaladı. Bu, İznik'in Batı Anadolu'daki hâkimiyetini Latinlere tanıttı.",
@@ -2028,7 +2028,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1222-01-01",
   tur:"hukumdar",
-  b:"III. İoannis Vatatzis İznik tahtına geçti",
+  b:"III. İoannis Vatatzis İznik tahtına geçti", yer_id:"İznik",
   gun:"1222 (TDV yıl verir)",
   kisiler:"III. İoannis Vatatzis, I. Theodoros Laskaris",
   d:"I. Theodoros Laskaris'in yerine damadı III. İoannis Vatatzis geçti; kayınbiraderlerinin itirazıyla çıkan iç savaşı bastırdı. Otuz iki yıllık saltanatında İznik, İstanbul'un geri alınmasına hazırlanan en güçlü Bizans ardılı oldu.",
@@ -2351,7 +2351,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1254-11-03",
   tur:"hukumdar",
-  b:"III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti",
+  b:"III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti", yer_id:"İznik",
   gun:"3 Kasım 1254",
   yer:"Kemalpaşa (Nymphaion)",
   kisiler:"III. İoannis Vatatzis, II. Theodoros Laskaris",
@@ -2383,7 +2383,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1256-01-01",
   tur:"savas",
-  b:"II. Keykâvus Aksaray yakınında Sultanhanı'nda Baycu'ya yenildi",
+  b:"II. Keykâvus Aksaray yakınında Sultanhanı'nda Baycu'ya yenildi", yer_id:"Aksaray",
   gun:"654/1256 (TDV yıl verir)",
   yer:"Sultanhanı (Aksaray)",
   kisiler:"II. İzzeddin Keykâvus, Baycu Noyan",
