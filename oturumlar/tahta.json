@@ -169360,5 +169360,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5727",
+  "zaman": "2026-10-01 18:32",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-BIZANS (15/15) — ① ÖLÇTÜM: A 1 (Çirmen, TDV sirbistan) · B 10 (Mistra ×3 · Kosova Ovası ×2 · Hexamilion ×2 · Mora ×2 · Koyunhisar) · C 1 · D 3. Uygulanırsa ODAKSIZ 15→14. 🔴 İKİ BULGU: (1) PELEKANON — TDV ile ATLAS ÇELİŞİYOR: TDV bizans \"…ordu 1329'da Pelekanon'da (Maltepe) yenildi\"; atlas noktası \"Pelekanon (Eskihisar)\" 40.762/29.386 = Gebze-Eskihisar, Maltepe'nin ~30 km doğusu. §4 gereği atlas düzelir — yer_id yazmadım, nokta sahibine iletilmeli. (2) \"MORA\" TUZAĞI: havuzda \"Mora (Tripoliçe)\" var; app.js'in \" (\" esnekliği yüzünden yer_id:\"Mora\" ÇÖZÜLÜR ve kamerayı Tripoliçe ŞEHRİNE götürür — denetim temiz der. Mora maddeleri (despotluk/yarımada) bölge; yazmadım. Aynı aile: \"Isparta\" alt dizgisi \"Sparta\"yı içeriyor (alt dizgi taramasında yakalandı). ② BULAMADIM: 🔴 Mistra (Mora Despotluğu başkenti) ATLASTA YOK — bu dosyada 3 madde; nokta açma listesine. Madde kaynakları 13/15'te yalnız \"el-kitabi\"/\"bizans\" etiketi (kimliği belirsiz) — kaynak borcu. TDV 302: osman-gazi ve orhan-gazi KİŞİ slug'ları da ölü (D211 ①). ③ Sıradaki: kronoloji_altinorda.js. Dosya: denetim/ODAK-KAPAT-BIZANS-1001.md · commit bca27d08.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
