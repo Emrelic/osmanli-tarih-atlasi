@@ -309,8 +309,8 @@
     },
     {
      "yol": "data/kronoloji_cok_1dunya_A.js",
-     "sha": "69176e135d896408",
-     "bayt": 88981
+     "sha": "daa2cb64f4a84022",
+     "bayt": 89169
     },
     {
      "yol": "data/kronoloji_cok_1dunya_B.js",
@@ -343,7 +343,7 @@
      "bayt": 87929
     }
    ],
-   "bayt": 1012835
+   "bayt": 1013023
   },
   {
    "paket": "data/paket_10.js",
