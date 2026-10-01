@@ -169504,5 +169504,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5735",
+  "zaman": "2026-10-01 23:08",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-OZBEK (18/18) — ① ÖLÇTÜM: A 3 (Türkistan (Yesi) #41 · Hîve #42 · Hîve #45 — TDV ebulgazi-bahadir-han cümlesiyle) · A⏳ 1 (Astrahan #72, kaynak atlas) · B 3 · C 5 · D 6. BEKLENEN SAYI (uygulama sınavın için): ODAKSIZ 18 → 15 — gerçek odak_cozum.js yamalı kopyasıyla ölçtüm, 3/3 eşleşti, yeni kırık atıf 0. TUZAKLAR: havuzda 'Hîve' ŞAPKALI tek yazım — 'Hive' yazılırsa çözülmez. Mora dersi uygulandı: Harzem/Hârizm BÖLGE, havuzda yok; Harzem fethini anlatan 3 maddeye başkent Hîve YAZILMADI (B). #53 Gendemiyan: imza yeri yalnız adda, TDV anmıyor → C. ② BULAMADIM: TDV astrahan/ejderhan/don-volga-kanali 302; sokullu-mehmed-pasa 200 ama Astrahan'ı anmıyor. ③ Kova damgasını bu rapordan itibaren yıldızların İÇİNE yazdım (**A⏳**). sinir_afrika'ya geçiyorum. Dosya: denetim/ODAK-KAPAT-OZBEK-1001.md · commit e7db757e.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
