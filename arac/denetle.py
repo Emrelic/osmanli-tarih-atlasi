@@ -2456,7 +2456,30 @@ def degismez4(Y):
     H = _devletler_harita() or {}
     ihlal, kunyesiz, asan, once, cok_harita = [], [], [], [], []
     for y in Y:
-        for p in (y.get("s") or []):
+        # ── `s:` VE `isg:` — ikisi de taranir (1 Ekim 2026) ────────────────
+        # 🔴 NICIN: `degismez4` bugune kadar YALNIZ `s:` tariyordu; `isg:`
+        #   (isgal) donemleri HIC SINANMIYORDU. Yani bir isgal donemi OLMUS
+        #   bir devletin rengini boyuyor olsa hicbir denetim sormazdi.
+        #   (`Degismez 2i` isgal SENKRONUNU sorar — "maddesi var mi" —
+        #    hayalet devleti DEGIL. Iki ayri soru.)
+        # 📌 AYNI AILENIN UCUNCU UYESI: `isg:` once `Degismez 2`ye de
+        #   girmiyordu (7 Agustos 2026, bu dosyanin `Degismez 2i` yorumunda
+        #   yazili: "Bogurdelen 1788 ve Kahire 1798 maddesiyle TAM ESLESIYOR,
+        #   denetim GORMUYORDU"). Bir kategori bir denetime girmeyi
+        #   unutulduysa, OTEKI denetimlerde de aranir.
+        # 🔴 VE BU CARE 5 EYLUL 2026'DA YAZILMISTI: `YAMA-DENETLE-ISG-0905.diff`
+        #   tam bunu yapiyordu ama yama BOZUKTU ("corrupt patch at line 19")
+        #   ve 26 gun `denetim/` altinda bekledi. Hicbir kapi "bu .diff
+        #   ayristirilabiliyor mu" diye sormuyordu.
+        #   Siniflandirma: `denetim/YAMA-SINIFLANDIRMA-1001.md`
+        # ✅ ONCE OLCULDU, SONRA DEGISTIRILDI: `isg:` donemi 341 · tasiyan
+        #   yerlesim 249 · eklenince YENI IHLAL **0** ⇒ hicbir tavan degismedi
+        #   (hayalet 5→5 · 4c 127→127 · 4d 324→324 · kunyesiz 0).
+        #   Yani korluk GERCEKTI ama arkasinda saklı borc YOKTU. Tavan oyunu
+        #   gerekmedi (`D253`).
+        for _kat, p in ([("s", _p) for _p in (y.get("s") or [])] +
+                        [("isg", _p) for _p in (y.get("isg") or [])]):
+            _ad = y["ad"] if _kat == "s" else (y["ad"] or "") + " · İŞGAL"
             kim = p.get("d")
             if not kim:
                 continue
@@ -2472,14 +2495,14 @@ def degismez4(Y):
             else:
                 aday = H.get(kim) or []
                 if not aday:
-                    kunyesiz.append((y["ad"], kim))
+                    kunyesiz.append((_ad, kim))
                     continue
                 if len(aday) == 1:
                     kf, kt = aday[0][0], aday[0][1]
                 else:
                     sec = _harita_tarih_sec(aday, p.get("f"), p.get("t"))
                     if sec is None:
-                        cok_harita.append((y["ad"], kim,
+                        cok_harita.append((_ad, kim,
                                            [a[2] for a in aday],
                                            p.get("f"), p.get("t")))
                         continue
@@ -2487,14 +2510,14 @@ def degismez4(Y):
             # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
             g = _gun_farki(p.get("f"), kt) if kt else None
             if g is not None and g > HAYALET_TOLERANS_GUN:
-                ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
+                ihlal.append((_ad, kim, p.get("f"), p.get("t"),
                               "devlet %s'te bitti, dönem %.1f yıl SONRA başlıyor"
                               % (kt, g / 365.25)))
                 continue
             # dönem SONU künyenin başından ÖNCE mi (devlet doğmamış)
             g2 = _gun_farki(kf, p.get("t")) if kf else None
             if g2 is not None and g2 > HAYALET_TOLERANS_GUN:
-                ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
+                ihlal.append((_ad, kim, p.get("f"), p.get("t"),
                               "devlet %s'te kuruldu, dönem %.1f yıl ÖNCE bitiyor"
                               % (kf, g2 / 365.25)))
                 continue
@@ -2504,7 +2527,7 @@ def degismez4(Y):
             if kt and kt < ATLAS_SONU:
                 g3 = _gun_farki(p.get("t"), kt)
                 if g3 is not None and g3 > HAYALET_TOLERANS_GUN:
-                    asan.append((y["ad"], kim, p.get("f"), p.get("t"), kt,
+                    asan.append((_ad, kim, p.get("f"), p.get("t"), kt,
                                  g3 / 365.25))
             # ── ④ dönem, devletin DOĞUMUNDAN ÖNCE mi başlıyor ──────────
             # ⚠️ `continue` YOK: bir dönem ÜÇÜNE DE düşebilir (zend tam
@@ -2514,7 +2537,7 @@ def degismez4(Y):
             if kf and kf > ATLAS_BASI:
                 g4 = _gun_farki(kf, p.get("f"))
                 if g4 is not None and g4 > HAYALET_TOLERANS_GUN:
-                    once.append((y["ad"], kim, p.get("f"), p.get("t"), kf,
+                    once.append((_ad, kim, p.get("f"), p.get("t"), kf,
                                  g4 / 365.25))
     return ihlal, kunyesiz, True, asan, once, cok_harita
 
