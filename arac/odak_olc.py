@@ -227,7 +227,53 @@ def kapi_olcumu():
         sat.append("✗  odak TAVANI yok (%s) — `py arac/odak_olc.py --tavan-yaz`"
                    % os.path.relpath(TAVAN_YOL, KOK))
     else:
-        for ad, simdi, etiket in (("odaksiz", T["ODAKSIZ"], "ODAKSIZ"),
+        # ─── ② a) YENİ KAPSAM — tavanın EVRENİ dışındaki dosyalar ──────────
+        #
+        # 🔴 NİÇİN (ölçüldü 1 Ekim 2026): tavan `84f00761`de (30 Eylül 02:44)
+        #    odaksiz=480 · madde=8175 ile donduruldu. O geceden sonra 1281
+        #    öncesi kampanyası 6 YENİ dosya doğurdu ve madde 10.004'e çıktı.
+        #    Kapı "ODAKSIZ GERİLEDİ: 725 > 480 (+245)" dedi ve YAYINI BLOKE
+        #    ETTİ. Ayrıştırıldığında çıkan sayı şuydu:
+        #        tavan zamanı VAR OLAN 38 dosya : odaksız 480  (TAM TAVAN)
+        #        tavandan SONRA DOĞAN  6 dosya  : odaksız 245
+        #    ⇒ GERÇEK GERİLEME SIFIR. Aşımın %100'ü yeni kapsamdı ve DOĞRU
+        #      bir veri eklemesi yayını bloke ediyordu.
+        #
+        # 📌 Bu, `denetle.py`nin Değişmez 8 DEFTERİNİN birebir aynı sorunu ve
+        #    aynı çaresi — orada da yorum şöyle der: "her yeni D kaydı tavanı
+        #    delerdi ve DOĞRU bir veri eklemesi yayını bloke ederdi. Kova
+        #    sessiz DEĞİLDİR." Burada da sessiz değil: adıyla ve sayısıyla basılır.
+        #
+        # 🔴 VE BU BİR TAVAN YÜKSELTMESİ DEĞİLDİR. Yükseltmek bir AF olurdu
+        #    (480'i 725 yapmak, var olan dosyalarda 245 kalemlik gerilemeyi de
+        #    görünmez kılardı). Burada tavan 480'de DURUYOR ve kendi evreninde
+        #    tam duyarlılıkla ötmeye devam ediyor; yeni dosyalar AYRI kovada.
+        #
+        # ⚠️ `evren` YOKSA eski davranış sürer (bütün dosyalar tavana sayılır) —
+        #    sessizce muaf hâle DÜŞMEZ. Muafiyet ancak evren YAZILIYSA olur.
+        evren = tv.get("evren")
+        yeni_kapsam = []
+        if evren:
+            _e = set(evren)
+            for d in D["dosyalar"]:
+                od = (d.get("sinif") or {}).get("ODAKSIZ") or 0
+                if d["dosya"] not in _e and od:
+                    yeni_kapsam.append((d["dosya"], d.get("madde") or 0, od))
+            yeni_kapsam.sort(key=lambda r: -r[2])
+
+        yk_od = sum(r[2] for r in yeni_kapsam)
+        if yeni_kapsam:
+            sat.append("ⓘ  YENİ KAPSAM: tavanın evreninde OLMAYAN %d dosyada %d "
+                       "odaksız — TAVANA KATILMADI (Değişmez 8 defter deseni)"
+                       % (len(yeni_kapsam), yk_od))
+            for ad, md, od in yeni_kapsam[:8]:
+                sat.append("     %-44s %4d/%-4d madde  %%%.0f"
+                           % (ad[:44], od, md, 100.0 * od / md if md else 0))
+            if len(yeni_kapsam) > 8:
+                sat.append("     … %d dosya daha" % (len(yeni_kapsam) - 8))
+            sat.append("     ⇒ İNCELE, odak yaz, sonra `--tavan-yaz` ile evrene al.")
+
+        for ad, simdi, etiket in (("odaksiz", T["ODAKSIZ"] - yk_od, "ODAKSIZ"),
                                   ("beyanli_yabanci", beyan_yab, "BEYANLI→yabancı")):
             t = tv.get(ad)
             if t is None:
@@ -338,11 +384,23 @@ def main():
               "bilinen_kusur": [{"dosya": x["dosya"], "t": x["t"],
                                  "alan": x["alan"], "deger": x["deger"],
                                  "niye": x["niye"]} for x in kusur],
+              # 🔴 EVREN — tavanin OLCULDUGU dosya kumesi. Tavan bir SAYI, evren
+              #    bir KUME (Degismez 8'in `hatlar` defteriyle birebir ayni
+              #    desen). Bu alan yazilmadan tavan, SONRADAN DOGAN her dogru
+              #    dosyayi "gerileme" sayar ve yayini bloke eder — 1 Ekim 2026'da
+              #    tam bu oldu: 6 yeni dosyanin 245 odaksizi, var olan 38
+              #    dosyanin TAM 480'inin ustune binip 725 > 480 dedi.
+              #    ⚠️ Evren yoksa kapi ESKI (katı) davranisa doner; muafiyet
+              #       ancak evren YAZILIYSA dogar — sessizce muaf olunmaz.
+              "evren": sorted(d["dosya"] for d in D["dosyalar"]),
               "not": ("Tavan bir ONAY degil bir DONDURMADIR (Degismez 2s/8 ile ayni "
                       "desen). Yalniz GERILEME yayin kapisini bloke eder; iyilesme "
                       "olunca tavan --tavan-yaz ile INDIRILIR. bilinen_kusur bir "
                       "SAYI degil LISTEdir: beyanli borc kapanirken yenisi sessizce "
-                      "yerine gecemez, kimlik eslesmezse oter.")}
+                      "yerine gecemez, kimlik eslesmezse oter. `evren` tavanin "
+                      "olculdugu DOSYA KUMESIDIR: dişindaki dosyalarin odaksizi "
+                      "YENI KAPSAM kovasina duser, tavana KATILMAZ ve yayini "
+                      "BLOKE ETMEZ — ama adiyla ve sayisiyla BASILIR.")}
         io.open(TAVAN_YOL, "w", encoding="utf-8", newline="\n").write(
             json.dumps(tv, ensure_ascii=False, indent=1) + "\n")
         print()
