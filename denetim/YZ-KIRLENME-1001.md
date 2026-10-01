@@ -139,3 +139,43 @@ TDV'nin kendi gövdesiyle birebir sınandı: **310 TDV maddesi** çekildi, **113
 | TDV alıntıları (tüm evren) | 1130 | 0 uydurma · **14 yanlış maddeye/kaynağa yazılmış** · 1 kelime sırası |
 | LoC örneklemi | 13 | 0 |
 | **ÖLÇÜLEMEDİ** | ~135 BEYANSIZ TDV dışı alıntı · 24 alıntısız Britannica maddesi · 77 rusya özet maddesi · 1 PDF | — |
+
+---
+
+# EK 4 — Rusya'nın 77 "arama özeti" maddesi · atıf düzeltme önerisi
+**İki dosya da ÖNERİdir, UYGULANMADI** (dosyalar benim değil, uygulama koordinatörde):
+`denetim/YZ-KIRLENME-1001-RUSYA-ONERI.json` · `denetim/YZ-KIRLENME-1001-ATIF-DUZELTME.json`
+
+## ⚠️ EK 3 düzeltmesi — "11 yanlış TDV maddesi" YANLIŞTI
+- **10'u benim ayrıştırıcımın hatası.** Bu kayıtlarda alıntı, doğru TDV maddesinin hemen arkasında duruyor (örneğin `TDV revan ('…')`). Ayrıştırıcı segmentteki **ilk** slug'ı aldı.
+  - Liste: `ermeni` #8 · `gurcistan` #7 · 24 · 28 · `once1281_ortadogu` #92 · 109 · 110 · 112 · 114 · 142.
+- **Gerçek olan yalnız `once1281_avrupa` #204.**
+- 📌 **Ders:** çok kaynaklı bir `kaynak:` alanında alıntının sahibi, **alıntının hemen önündeki** atıftır. Segmentin başındaki atıf değildir.
+- **Koordinatörün "23 kalem" hesabı EK 3'teki sayıya dayanıyordu. Gerçek düzeltme kalemi 10.**
+
+## ① Rusya — 77 madde (`kronoloji_cok_rusya.js`, "sayfa açılamadı (401/403), arama özetinden okundu")
+| Sınıf | Madde | Öneri |
+|---|---|---|
+| **GÜN DOĞRULANDI**: açılan kaynakta birebir | **8**: #17 (cyberleninka) · #68 (Encyclopedia of Ukraine) · #77 · #86 (prlib.ru) · #82 (militera, Grossul-Tolstoy) · #83 · #90 · #91 (Britannica editör metni) | `kaynak-guncelle`: arama özeti beyanı açılmış kaynakla değiştirilir |
+| **GÜN DOĞRULANAMADI** | **15**: #28 · #61 · #62 (Britannica yalnız yıl veriyor) · #16 (mil.ru açılmıyor) · #30 · #31 (BRE 403) · #39 · #41 · #60 · #65 · #72 · #78 (Rus/Kazak resmî siteleri erişilemiyor) · #80 · #81 · #85 (yalnız PDF, izinsiz indirilmedi) | `gun-dusur`: `t` → YYYY-01-01, `ic_not_t`ye "gün model özetinden, doğrulanamadı". ⚠️ **Değişmez 2'ye dokunur, uygulamadan önce ÖLÇ** |
+| **YIL DOĞRULANDI** (Britannica editör metni) | **12**: #19 · 21 · 25 · 29 · 33 · 45 · 46 · 48 · 57 · 69 · 75 · 84 | `kaynak-ekle` |
+| YIL ÖLÇÜLDÜ, YOK: Britannica sayfası açıldı ama o yılı vermiyor | **7**: #23 · 32 · 35 · 43 · 54 · 59 · 63 | `not-ekle` (yıl düşürülmez, madde silinmez) |
+| YIL ÖLÇÜLEMEDİ: BRE 403 / Britannica sayfası yok | **35** | `not-ekle` |
+
+🔴 **BRE (old.bigenc.ru ve bigenc.ru):** iki adres de `bre.ruwiki.ru`ya yönlendiriyor ve bu makinenin IP'sine **tarayıcıda da 403** veriyor. Bu bir IP engeli; Britannica'daki "betik 403, tarayıcı 200" durumu burada **tutmadı.** BRE'li maddeler başka bir makineden ya da arşivden denenebilir.
+
+## ② Atıf düzeltme önerisi — 10 kalem
+- **Yanlış maddeye ya da kaynağa yazılmış (4):**
+  - `once1281_avrupa` #204: alıntı «İdil Bulgar Hanlığı»nda, «Bulgar» maddesine yazılmış.
+    - **Kimlik karışması YOK:** `b`, `yer` ve `yer_id` ("Bulgar (Bolgar)") tutarlı.
+    - ⚠️ Ek gözlem: `taraflar` alanında `idil-bulgar` yok, yalnız `mogol-imparatorlugu` var.
+  - `once1281_avrupa` #3 · 10 · 164: Türkçe alıntılar TDV «Bulgaristan»dan, Hrvatska atfının arkasına yazılmış.
+- **Sessiz metin değişikliği (6):**
+  - `ince_bati_afrika` #0: kelime sırası değiştirilmiş.
+  - `afrika` #5: "yaparak" → "yapıp".
+  - `ince_bati_afrika` #12: "(Pöl, Fulbe)" atılmış.
+  - `venedik` #5: iki cümle arasındaki cümle "…" konmadan atlanmış.
+  - `1923_1945` #230: "anlaşmazlıkların" → "anlaşmazlıklar".
+  - `afrika` #3: "bırakıp" → "bıraktı".
+- **Düzeltme gerekmeyen 4 kayıt:** `sirbistan` #6 · 9 · `venedik` #2 · 4 — alıntı yalnız cümle ortasında kesilip sonuna nokta konmuş.
+- Her kalemde `ESKI` (kaynak alanının tamamı), `YENI`, `ESKI_parca` ve `YENI_parca` var. `ESKI_parca`nın kaynakta, yeni metnin TDV gövdesinde birebir bulunduğu `assert` ile sınandı.
