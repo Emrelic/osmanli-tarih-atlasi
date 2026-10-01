@@ -66,3 +66,24 @@ Sonuç: 6 kaynağın 4'ü bu IP'den doğrudan açıldı. 2'si yalnızca arşiv k
 - bigenc'in canlı makalesi: eski adres ana sayfaya yönleniyor, yeni bre.ruwiki.ru 401 veriyor. Yalnızca 2023 arşiv kopyası okundu. Yeni bigenc.ru'daki karşılık URL aranmadı.
 - #65, #80 ve #81 için kaynakların hangi takvimi kullandığı: **ölçülemedi**.
 - #41'in iki kaynağı arasında bağımsızlık yok. Birincil belgeye (arşiv kaydı veya yazışma) ulaşılamadı.
+
+## KOORDİNATÖR HÜKMÜ (1 Ekim 2026, YILDIRIM BAYEZIT) ve takvim kapanışı
+
+Atlasın tarih ekseni **JÜLYEN**dir: `VERI-YAPISI.md` satır 60-92 «Bu atlasın tarihleri JÜLYEN'dir. ÇEVİRME YAPILMAZ.» (LAB bu satırları origin/main 1c9f8306'da okudu.) Yukarıdaki #31 maddesinde geçen "eksen Gregoryen ise 1636-04-27" şartı bu yüzden **gerçekleşmiyor**.
+
+```
+#31  takvim sorusu KAPANDI — eksen JÜLYEN (VERI-YAPISI.md 60-92).
+     BRE 17(27).4.1636 · atlas 1636-04-17 = Jülyen kolu ⇒ DOĞRU.
+#65 · #80 · #81  takvim ÖLÇÜLEMEDİ olarak KALIR — kaynaklar takvimi
+     beyan etmiyor; "ölçülemedi" doğru hükümdür, tahmin yazılmaz.
+#41  Pokrov çıkarımı AÇIK KALIR — çıkarım LAB'ın, kaynağın değil (§4:
+     çıkarım halka almaz). Birincil belge bulunursa yeniden açılır.
+```
+
+### Ek (LAB ölçümü): #16 Vedroşa'da kaynak JÜLYEN veriyor (haftagünü sınavı)
+Kaynak «во вторник 14 июля 1500 года» diyor, yani günün salı olduğunu yazıyor. Hesap (Jülyen gün sayısı mod 7):
+```
+14 Temmuz 1500  Jülyen'de     SALI       ✓ kaynağın dediği gün
+14 Temmuz 1500  Gregoryen'de  CUMARTESİ  ✗
+```
+⇒ mil.ru maddesi Jülyen tarih veriyor ve atlastaki 1500-07-14 Jülyen kolu ⇒ **DOĞRU**. Bu, `VERI-YAPISI.md`deki haftagünü yöntemiyle elde edildi.
