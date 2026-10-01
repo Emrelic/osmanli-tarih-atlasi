@@ -3979,8 +3979,34 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 # ⚠️ BU SORU MOTOR ÇIKTISINI ÖLÇER ⇒ sayı KOŞUDAN KOŞUYA oynar. Yeni koşu
 #   inince ilk iş bu satırı okumak: iniş = tavanı indir · artış = hangi
 #   birimin yeni olduğu DEFTERDEN adıyla basılır (2t kalıbı).
-BEKLENEN_D8A = 1611
-BEKLENEN_D8B = 83
+#
+# ─── 1 EKİM 2026 · KOŞU 19 (UMIT) · 1611 → 1517 ve 83 → 82 ───────────────────
+# 🔴 VE ARADAKİ İKİ GÜN BU SORU HİÇ ÖLÇÜLMEDİ. `af0c78c6` (29 Eylül 10:54)
+#   13 `d_sinirlar*.js` dosyasını paketlere gömdü; `_d8_d_dosyalari()` 0 dosya
+#   döndürdü ⇒ `hatlar` boş ⇒ "0 birim (tavan 1611) ✓ · 0 (hat, gün) ölçüldü".
+#   Koşu 18 ve 19 bu değişmezi BOŞ KÜMEYE karşı geçti. Çare `arac/paket_coz.py`
+#   (`b18717ae`). Yakalayan: KOSU-UMIT, tek bir şüpheli sayıdan — tavan 1611
+#   iken 0 ölçüm olmasının "temiz" değil "ölçülemedi" olduğunu söyledi.
+#
+# Ölçüm (gövde = koşu 19 · devletler_harita.js 2026-10-01 02:33 ·
+#        uret_petek 8b6aaea5 · `paket_coz` yaması cherry-pick -n ile):
+#   8a 1517 birim · 725 (hat, gün) ölçüldü        (27 Eyl: 1611 / 479)
+#   8b   82 (bölge, gün)                          (27 Eyl: 83)
+#   ayrı kova: C/YOK taşması 906 · ölçülemeyen (hat, gün) 175
+# 📌 DİKKAT — iki sayı AYNI EVRENDE DEĞİL: 1611, 479 (hat, gün) üzerinden
+#   ölçülmüştü; 1517 ise 725 üzerinden. Evren %51 BÜYÜDÜ (koşuya 21 yeni sınır
+#   kaydı girdi) ve taşma buna RAĞMEN düştü ⇒ iyileşme gerçek, ve 94 puanlık
+#   boşluğu bırakmak o iyileşmeyi geri gizlerdi.
+#
+# 🔴 BİR SONRAKİNE ŞART — "YENİ KAPSAM" ile tavan AYNI COMMIT'TE ayarlanır:
+#   bu ölçümde defterde olmayan 2 hatta 4 birim var ve tavana KATILMADI.
+#   `--d8-defter-yaz` onları evrene alırsa sayı 1517+4 = 1521 olur ve 1517
+#   tavanı DOĞRU veride öter. ⇒ defter yazılacaksa aynı commit'te tavan
+#   yeniden ölçülüp yazılır. Defteri yazıp tavana dokunmamak, tavanı
+#   yükseltmekten daha sinsidir: ihlal gerçek görünür.
+# ─────────────────────────────────────────────────────────────────────────────
+BEKLENEN_D8A = 1517
+BEKLENEN_D8B = 82
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,
