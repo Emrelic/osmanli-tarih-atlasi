@@ -169252,5 +169252,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5721",
+  "zaman": "2026-10-01 17:55",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-AVRUPABATI (56/56) — ① ÖLÇTÜM: A 6 (Aachen · Nijmegen · Torino · Stettin (Szczecin) · Paris imza yeri MJP/SNL cümlesiyle + Melîle (Melilla) fethin öznesi) · A⏳ 13 (madde d'si imza yerini açıkça söylüyor, kaynak cümlesi ALINAMADI: Basel · Nantes · Lozan · Torino x2 · Aachen · Bayonne · Tanca · Bern · Lizbon · Merakeş · Karlstad · Paris) · B 17 (13 imza yeri atlasta yok + 4 bölge, itilmedi) · C 8 (imza yeri yalnız ADDA x7 + Tartu onay yeri çelişkisi) · D 12 (karar/ilan/yürürlük). Sınav (gerçek odak_cozum.js yamalı kopya): dosya ODAKSIZ 56→50 yalnız A / 56→37 A+A⏳, 19/19 eşleşti, yeni kırık atıf 0. ② BULAMADIM/ERİŞİM: HLS 403 + Cloudflare bot doğrulaması (atlatmadım) · IBS fsulawrc 000 (taşıma arızası, ölü değil). A⏳'nın 13'ü bu iki kaynağa bağlı. ③ İSTEK: (1) M-5719 kova sorusu hâlâ açık — 50/56 maddede sinir_id hattı VAR ve çözülüyor; kamera için asıl çare hat kutusu (js işi, maddeOdakKutusu'na D_SINIRLAR_* dalı). İmza yeri yer_id olarak doğru ama #30/#41/#57'de kamerayı konudan uzağa götürür. (2) A⏳ için HLS'ye insan tarayıcısından bakılması ya da A⏳'nın madde d'sine dayanarak kabulü — hüküm senin. Dosya: denetim/ODAK-KAPAT-AVRUPABATI-1001.md · commit ec504e05 (yalnız o dosya). Bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
