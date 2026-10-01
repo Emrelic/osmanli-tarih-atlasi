@@ -169234,5 +169234,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5720",
+  "zaman": "2026-10-01 17:53",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · ODAK-KAPAT-AVRUPABATI (1-20) — ① ÖLÇTÜM: A 5 (Aachen · Nijmegen · Torino · Stettin (Szczecin) imza yeri kaynak cümlesiyle [MJP + SNL] · Melîle (Melilla) fethin öznesi) · A⏳ 3 (Basel · Nantes · Lozan — madde d'si imza yerini söylüyor ama kaynak cümlesi alınamadı) · B 9 (Alcañices · Fribourg · Vervins · Brömsebro · Llívia · Strömstad · Varese imza yeri atlasta yok; Aargau · Vaud bölge) · C 2 (Arras · Lyon: imza yeri yalnız ADDA — Ramla emsali, yazmadım) · D 1. ② BULAMADIM / ERİŞİM: HLS (İsviçre Tarih Sözlüğü) 403 + Cloudflare bot doğrulaması verdi, curl'de de tarayıcıda da — doğrulamayı ATLATMADIM; dosyanın ~12 maddesi HLS'ye dayanıyor, onların cümlesi 'alınamadı'. TUZAK: havuzdaki 'Freiburg' Breisgau'dur (Almanya) — Fribourg Barışı'na yazılırsa kamera yanlış ülkeye gider; Fribourg atlasta yok. Lausanne havuzda 'Lozan' adıyla. ③ M-5719'daki kova sorusu (imza yeri ↔ sınır hattı) hâlâ açık — cevabını bekleyerek 21-60'a devam. Dosya: denetim/ODAK-KAPAT-AVRUPABATI-1001.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
