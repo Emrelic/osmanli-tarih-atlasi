@@ -2,8 +2,8 @@
  "olcum": "YZ-KIRLENME-1001-ATIF-DUZELTME · YAZICI-KASA 01.10.2026",
  "not": "ÖNERİ — UYGULANMADI. Her kalemde ESKI kaynak alanının TAMAMI ve YENI tamamı var; ESKI_parca kaynakta birebir (assert).",
  "sayim": {
-  "duzeltme_kalemi": 10,
-  "yanlis_madde_kaynak": 4,
+  "duzeltme_kalemi": 13,
+  "yanlis_madde_kaynak": 7,
   "sessiz_degisiklik": 6,
   "yanlis_alarm_duzeltme_yok": 10,
   "nokta_eklenmis_duzeltme_yok": 4
@@ -139,6 +139,39 @@
    "YENI": "TDV `sokoto` (gövde okundu) — «1812'de Sokoto Sultanlığı (/Halifeliği) veya Nijerya Fûlânî Devleti olarak tanınan bir yönetim kurdu … batı eyaletlerinin yönetimini kardeşi Abdullah'a, doğu bölgesinin yönetimini Sokoto'yu başşehir yapan oğlu Muhammed Bello'ya bırakıp …». Künye kronolojisindeki 1809 başkent kaydı ile 3 yıl fark DUZELTME.md'de.",
    "gerekce": "Fiil değiştirilmişti: TDV \"bırakıp Sifâve’de oturmayı tercih etti\", kayıt \"bıraktı\" (cümle kesilip fiil çekimi uydurulmuş). Öneri: \"bırakıp …\".",
    "nerede_birebir": "TDV sokoto"
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 53,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-MADDE (TDV→TDV)",
+   "islem": "atif-tasi",
+   "ESKI": "TDV İslâm Ansiklopedisi — 'HÛDÎLER' — https://islamansiklopedisi.org.tr/hudiler ; 'MÜLÛKÜ’t-TAVÂİF' — https://islamansiklopedisi.org.tr/mulukut-tavaif — alıntı: 'Aragon Krallığı’nın öncülüğünde oluşturulan ve papalık tarafından da desteklenen bir Haçlı ordusunun 456’da (1064) istilâ ettiği Berbeşter (Barbastro) şehrini'",
+   "YENI": "TDV İslâm Ansiklopedisi — 'HÛDÎLER' — https://islamansiklopedisi.org.tr/hudiler — alıntı: 'Aragon Krallığı’nın öncülüğünde oluşturulan ve papalık tarafından da desteklenen bir Haçlı ordusunun 456’da (1064) istilâ ettiği Berbeşter (Barbastro) şehrini' ; 'MÜLÛKÜ’t-TAVÂİF' — https://islamansiklopedisi.org.tr/mulukut-tavaif",
+   "gerekce": "Alıntı listedeki İLK TDV maddesinde (hudiler) birebir; ikinci maddenin arkasına yazılmış. #204 ile aynı kalıp. Düzeltilmiş ayrıştırıcıyla (hemen-önündeki-atıf kuralı) bulundu.",
+   "nerede_birebir": "TDV hudiler"
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 120,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-MADDE (TDV→TDV)",
+   "islem": "atif-tasi",
+   "ESKI": "TDV İslâm Ansiklopedisi — 'MURÂBITLAR' — https://islamansiklopedisi.org.tr/murabitlar ; 'KURTUBA' — https://islamansiklopedisi.org.tr/kurtuba — alıntı: 'Ali el-Messûfî’nin 543’te (1148) Gırnata’da ölümüyle Endülüs’teki Murâbıt hâkimiyeti de sona ermiş oldu.'",
+   "YENI": "TDV İslâm Ansiklopedisi — 'MURÂBITLAR' — https://islamansiklopedisi.org.tr/murabitlar — alıntı: 'Ali el-Messûfî’nin 543’te (1148) Gırnata’da ölümüyle Endülüs’teki Murâbıt hâkimiyeti de sona ermiş oldu.' ; 'KURTUBA' — https://islamansiklopedisi.org.tr/kurtuba",
+   "gerekce": "Alıntı listedeki İLK TDV maddesinde (murabitlar) birebir; ikinci maddenin arkasına yazılmış. #204 ile aynı kalıp. Düzeltilmiş ayrıştırıcıyla (hemen-önündeki-atıf kuralı) bulundu.",
+   "nerede_birebir": "TDV murabitlar"
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 139,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-MADDE (TDV→TDV)",
+   "islem": "atif-tasi",
+   "ESKI": "TDV İslâm Ansiklopedisi — 'MÜRSİYE' — https://islamansiklopedisi.org.tr/mursiye ; 'MUVAHHİDLER' — https://islamansiklopedisi.org.tr/muvahhidler — alıntı: 'Yaklaşık yirmi beş yıl onun elinde kalan şehir daha sonra uzun bir mücadelenin ardından Muvahhidler’in kontrolü altına girdi (567/1172).'",
+   "YENI": "TDV İslâm Ansiklopedisi — 'MÜRSİYE' — https://islamansiklopedisi.org.tr/mursiye — alıntı: 'Yaklaşık yirmi beş yıl onun elinde kalan şehir daha sonra uzun bir mücadelenin ardından Muvahhidler’in kontrolü altına girdi (567/1172).' ; 'MUVAHHİDLER' — https://islamansiklopedisi.org.tr/muvahhidler",
+   "gerekce": "Alıntı listedeki İLK TDV maddesinde (mursiye) birebir; ikinci maddenin arkasına yazılmış. #204 ile aynı kalıp. Düzeltilmiş ayrıştırıcıyla (hemen-önündeki-atıf kuralı) bulundu.",
+   "nerede_birebir": "TDV mursiye"
   }
  ],
  "yanlis_alarm": [
@@ -238,5 +271,6 @@
    "islem": "YOK",
    "not": "Alıntı cümle ortasında kesilmiş ve sonuna nokta konmuş; içerik birebir. Düzeltme gerekmez."
   }
- ]
+ ],
+ "ek_not": "DÜZELTİLMİŞ AYRIŞTIRICI (denetim/ARAC-YZ-KIRLENME-1001/kova3.py) 3 ek kalem buldu: once1281_avrupa #53 · #120 · #139 — #204 ile aynı kalıp (\"A ; B — alıntı\" ama metin A'da). Toplam düzeltme kalemi 13."
 }
