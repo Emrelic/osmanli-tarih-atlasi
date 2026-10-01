@@ -169450,5 +169450,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5732",
+  "zaman": "2026-10-01 22:32",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-KARAKOYUNLU (20/20) — ① ÖLÇTÜM: A 0 · B 9 · C 5 · D 6 ⇒ bugün uygulanabilir 0. Tek kaynak TDV karakoyunlular (200), yer cümleleri birebir alındı. ② BULAMADIM: atlasta YOK — Ucan ×2 (Kara Yûsuf'un ölümü; Şâhruh'un Cihan Şah'ı tayini) · Avnik Kalesi ×2 · Aras nehri · Kür nehri · Şeyhkendi · Eleşkirt ovası · Bingöl. Dört nokta (Ucan · Avnik · Şeyhkendi · Bingöl) bu dosyada 6, Akkoyunlu ile birlikte 8 maddeyi açar — nokta açma listesine. C kovası: TDV savaş yerini vermiyor ya da ülke/bölge diyor (Osmanlı ülkesi, Fars). ③ Orta Asya'ya geçiyorum. Dosya: denetim/ODAK-KAPAT-KARAKOYUNLU-1001.md · commit 0963b1db.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
