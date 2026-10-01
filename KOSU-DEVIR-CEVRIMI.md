@@ -52,7 +52,26 @@ oturum "push reddedildi" aldı ve bir **yarım yayın siteyi kırdı**.
              → dal push (main'e ASLA)
 ⑥ YAYIN KAPISI  EMRELIC: denetle_yayin.py (odak · paket · kodlama · yetim)
 ⑦ YAYIN      EMRELIC: surum_damgala.py → main push
+⑧ YAYIN İNDİ Mİ  canlı damgayı SOR — push ≠ yayın (Pages ~40-60 sn)
+⑨ TABLO      EMRELIC: durum_tablosu.py --yaz   ← §1.5'i TAZELE
 ```
+
+### 🔴 ⑧ ve ⑨ 2 EKİM 2026'DA EKLENDİ — ölçülmüş bir KAYMA yüzünden
+Çevrim ⑦'de bitiyordu ve `CLAUDE.md §1.5` HİÇBİR ADIMDA tazelenmiyordu.
+Ölçüldü (1-2 Ekim gecesi): tablo **`r10883`** diyordu, oysa o gece **dört**
+yayın inmişti (`r10954 · r10962 · r10969 · r10976`) ⇒ tablo **üç yayın
+GERİDEYDİ** ve kimse fark etmedi.
+⚠️ O gece zarar görülmedi çünkü kimse bayat tablodan ölçüt kurmadı. Ama desen
+tehlikeli: bir sonraki oturum `§1.5`e bakıp *"yayın r10883"* sanabilirdi.
+`D199`un uyardığı tam bu — ve `§1.5` **elle yazılmaz, ÜRETİLİR.**
+📌 ⑧ ayrı bir adımdır çünkü **push ≠ yayın**: `§9` *"koşu bittiği an ≠ yayın
+  indiği an"* der. ⑨'u ⑧'den önce koşturmak tabloya henüz inmemiş bir damga
+  yazar — yani tabloyu bir kez daha yalancı yapar.
+📌 Ölçülmüş bir sıra tercihi: `surum_damgala.py` **kapıdan ÖNCE** koşturulur.
+  Sebebi — yayın kapısı `index.html`i okuyup paket kaynaklarını çözüyor
+  (`paket_coz`); damga `index.html`i yeniden yazdığı için kapının GÖRDÜĞÜ
+  hâl ile PUSH EDİLEN hâl aynı olmalı. (Aşağıdaki ikinci listede eski sıra
+  duruyordu; ikisi de çalışır ama bu daha güvenli.)
 
 ### 🔴 EN ÖNEMLİ AYRIM: KOŞU YAYIN İSTEMEZ, COMMIT İSTER
 Motorun girdisi **yalnız** `arac/girdi.py`nin okuduğu 93 `yerlesimler*` dosyası
@@ -328,8 +347,16 @@ görmüyordu çünkü dosyalar `index.html`de değildi. Bağlandıkları gün ö
 ③ arayüz üçlüsü     birlikte         index.html + js/app.js + css/style.css
                                      🔴 ÜÇÜ BİRDEN ya da HİÇBİRİ
 ④ denetle.py        TEK SEFER
-⑤ denetle_yayin.py
-⑥ surum_damgala.py → main push
+⑤ surum_damgala.py                   🔴 KAPIDAN ÖNCE — kapı index.html'i
+                                     okuyup paket kaynaklarını çözüyor
+                                     (`paket_coz`); kapının GÖRDÜĞÜ hâl ile
+                                     PUSH EDİLEN hâl aynı olmalı
+⑥ denetle_yayin.py  ← KAPI, push'tan ÖNCE
+⑦ main push
+⑧ canlı damgayı SOR                 push ≠ yayın (Pages ~40-60 sn)
+⑨ durum_tablosu.py --yaz             §1.5'i TAZELE — bu adım 2 Ekim'de
+                                     eklendi; yokluğunda tablo ÜÇ YAYIN
+                                     geriye düşmüştü (yukarı bak)
 ```
 🔴 ③'ün gerekçesi ölçülmüş: 30 Eylül'de yeni `index.html` eski `js/app.js` ile
 yayınlandı; eski `bVeriKapisi` `#ufuk-sec`i bulup `sec.options` okudu →
