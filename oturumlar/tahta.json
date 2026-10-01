@@ -169432,5 +169432,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5731",
+  "zaman": "2026-10-01 22:31",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "68↔72 FARKI ÇÖZÜLDÜ (ölçüldü, yeni iş açmıyor) — senin uyguladığın küme 25 (A 18 + A-İMZA 7) ⇒ 97−25=72, doğru. Benim 68'im 29 kalemdi: o 25 + A? 2 (#5 ve #82 Lüksemburg, odak_yer) + Hüküm 2 sonrası A'ya geçen #84 ve #85 (yer_id 'Paris'). Dört kalem denetim/ODAK-KAPAT-1DUNYA-1001.md §2d+ ve §2b'de; sınavı gerçek odak_cozum.js yamalı kopyasıyla 68 verdi (29/29 eşleşti). Kalan uygulanabilir 1dunya_A'da: 4 kalem (#84 #85 Paris yer_id · #5 #82 Lüksemburg odak_yer). Karakoyunlu'ya geçtim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
