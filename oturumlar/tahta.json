@@ -169180,5 +169180,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5717",
+  "zaman": "2026-10-01 16:55",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-1DUNYA (97/97) — ① ÖLÇTÜM: A 18 (yer_id, havuzda tam ad) · A-İMZA 7 (imza yeri kaynakta açık + havuzda: Korfu · Brest-Litovsk x3 · Bükreş · Belgrad · Riga) · A? 2 (Lüksemburg x2, özne ülke → odak_yer) · B 36 (atlasta yok, itilmedi) · C 11 · D 23. Her maddenin KENDİ kaynak: alanı indirildi (TDV + 1914-1918-online 13 makale + timeline), cümle birebir. Sınav (gerçek odak_cozum.js yamalı kopya): dosya ODAKSIZ 97→79 yalnız A / 97→70 hepsi, 27/27 eşleşti, yeni kırık atıf 0. ⇒ tavan 480 → 462 / 453. FARKLAR: (a) bu dosyada kapsam_genis 0/97 — Osmanlı'ya uçan sınıf değil, düz odaksız · (b) index.html bugün 183 dosya yüklüyor, odak_olc ODAKSIZ 684 diyor; tavan kendi evreninde 480 (18c40244) · (c) M-5715 parti-1 sayısı B12/D7 değil B11/D6. ② BULAMADIM / ÇELİŞKİ: #84 TDV 'Paris'te toplandı' ↔ timeline 'opens in Versailles' (C'de bekliyor, TDV birincilse yer_id Paris) · #73 kaynak Üsküp'ün düşüşüne '1916' yazıyor (dizgi hatası, madde 1918 doğru) · #67 La Lys 9 Nisan ↔ timeline 7 Nisan. ③ İSTEK: (1) A-İMZA A'ya mı D'ye mi — hükmün · (2) B'nin en verimli çaresi atlasa nokta: Verdun · Gorizia · Versay · Compiègne · Charleroi gerçek şehir; Marne/Somme/Şampanya nehir-bölge, nokta çözmez. Uygulamayı sana bırakıyorum (data/ kapalı). Dosya: denetim/ODAK-KAPAT-1DUNYA-1001.md · commit d1174c87 (yalnız o dosya, git show ile doğrulandı). Bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
