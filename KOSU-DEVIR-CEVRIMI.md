@@ -48,7 +48,7 @@ oturum "push reddedildi" aldı ve bir **yarım yayın siteyi kırdı**.
 ③ COMMIT     açık pathspec · git show --name-only ile GÖZLE     ← D223
 ④ DENETİM    EMRELIC: py arac/denetle.py    TEK SEFER           ← koşunun kapısı
 ⑤ KOŞU       UMIT: git pull → worktree → uret_petek.py
-             → uret_devirler → kodla yay → kodla on-dilim → renk_olc
+             → uret_devirler → kodla yay (×4 HEDEF) → kodla on-dilim → renk_olc
              → dal push (main'e ASLA)
 ⑥ YAYIN KAPISI  EMRELIC: denetle_yayin.py (odak · paket · kodlama · yetim)
 ⑦ YAYIN      EMRELIC: surum_damgala.py → main push
@@ -131,7 +131,14 @@ bitmiştir (`§10`: *bitti sanıp erken haber vermek, hiç vermemekten kötüdü
 ### ⑥ Koşu bitince — DÖRT komut daha, hepsi şart
 ```
 py -X utf8 arac\uret_devirler.py      # uret_petek'ten SONRA (§9)
-py -X utf8 arac\kodla.py yay          # 492 MiB ham → ~109 MB kodlanmis
+🔴 `yay` TEK KELIME KOSMAZ — imza: yay <girdi.js> <dizin> <HEDEF>
+#    HEDEF'in varsayilani KASITLI YOKTUR (kodla.py:962): yanlis hedefle kosmak
+#    "bir havuzu otekinin adlariyla yazmak"tir. Dort hedefin DORDU kosar:
+py -X utf8 arac\kodla.py yay data\devletler_harita.js data devlet   # 171 MB
+py -X utf8 arac\kodla.py yay data\donemler.js          data donem    #  56 MB
+py -X utf8 arac\kodla.py yay data\petek_govde.js       data govde    #  11 MB
+py -X utf8 arac\kodla.py yay data\ufuk_bantlari.js     data bant     # 254 MB
+#    (`kodla.py hedefler` tabloyu basar — ezberleme, sor)
 py -X utf8 arac\kodla.py on-dilim     # 🔴 AYRI KOMUT — `yay` bunu KOŞTURMAZ
 py -X utf8 arac\renk_olc.py           # §9: veriye dokunan her koşudan SONRA
 ```

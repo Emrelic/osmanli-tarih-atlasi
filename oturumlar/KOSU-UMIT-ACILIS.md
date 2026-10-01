@@ -130,7 +130,14 @@ bittiğini `data/donemler.js` dosyasının oluşmasıyla anlarsın, tahmin edere
 ```bash
 cd C:\atlas-kosu19
 py -X utf8 arac\uret_devirler.py      # uret_petek'ten SONRA koşar (§9)
-py -X utf8 arac\kodla.py yay          # 492 MB ham → ~109 MB kodlanmis
+🔴 `yay` TEK KELIME KOSMAZ — imza: yay <girdi.js> <dizin> <HEDEF>
+#    HEDEF'in varsayilani KASITLI YOKTUR (kodla.py:962): yanlis hedefle kosmak
+#    "bir havuzu otekinin adlariyla yazmak"tir. Dort hedefin DORDU kosar:
+py -X utf8 arac\kodla.py yay data\devletler_harita.js data devlet   # 171 MB
+py -X utf8 arac\kodla.py yay data\donemler.js          data donem    #  56 MB
+py -X utf8 arac\kodla.py yay data\petek_govde.js       data govde    #  11 MB
+py -X utf8 arac\kodla.py yay data\ufuk_bantlari.js     data bant     # 254 MB
+#    (`kodla.py hedefler` tabloyu basar — ezberleme, sor)
 py -X utf8 arac\kodla.py on-dilim     # 🔴 AYRI KOMUT — `yay` bunu KOŞTURMAZ
 py -X utf8 arac\renk_olc.py           # §9: veriye dokunan her koşudan SONRA
 ```

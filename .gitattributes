@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# KODLANMIŞ MOTOR ÇIKTILARI — satır sonu DÖNÜŞTÜRÜLMEZ
+#
+# 🔴 NİÇİN: bu on dosya `arac/kodla.py`nin ürettiği ve sha256 ile DAMGALADIĞI
+#    eserlerdir. `kodla.py kapi` kurulan metnin damgasını sınar. Windows'ta
+#    `core.autocrlf=true` (UMIT ve EMRELIC'te ölçüldü: ikisi de true) checkout
+#    sırasında her satır sonuna CR ekler ⇒ damga UYUŞMAZ ⇒ yayın kapısı DOĞRU
+#    çıktıyı yanlışlıkla REDDEDER.
+#
+# 📌 VE EN SİNSİ TARAFI: `git status` bu bozulmayı GÖRMEZ. Ölçüldü
+#    (1 Ekim 2026, EMRELIC): data/petek_govde_ust.js silinip `git checkout --`
+#    ile geri alındı →  81.147 bayt / 0 CR  iken  81.150 bayt / 3 CR oldu,
+#    `git status --porcelain` ise BOŞ döndü. Çünkü git geri okurken yeniden
+#    normalleştirir. ⇒ Bozulma yalnız DAMGADA görünür, sürüm denetiminde DEĞİL.
+#    Bu yüzden "git status temiz" bu sınıf için bir KANIT DEĞİLDİR.
+#
+# 📌 Vaka: KOŞU 19 (UMIT, 1 Ekim 2026). `kodla.py yay ... devlet` kendi
+#    sınavını geçti, ama global kapı öteki üç hedefi reddetti ve yazılanları
+#    sildi:
+#      "✗ KODLAMA KAPISI: kurulan metin damgayla UYUŞMUYOR ⇒ YAYIN DURDU"
+#    KOSU-UMIT'in teşhisi doğruydu ve doğru yolla kurdu: `yay`e HİÇ DOKUNMADAN,
+#    commit'teki hâliyle `kodla.py kapi data` da AYNI üç ihlali verdi ⇒ kusur
+#    yazmada değil CHECKOUT'ta. `git ls-files --eol` → i/lf w/crlf.
+#    O gece çare elle `git -c core.autocrlf=false checkout --` idi; bu dosya
+#    onu KALICI ve her makinede geçerli yapar.
+#
+# ⚠️ Kapsam KASITLI OLARAK DAR: yalnız üretilmiş + damgalanmış dosyalar. Elle
+#    yazılan `data/yerlesimler*.js` ve kronoloji dosyaları DIŞARIDA — onlarda
+#    satır sonu normalleşmesi İSTENEN davranıştır (diff okunabilir kalır).
+#    On dosya: devlet_parcalar · donem_parcalar · ufuk_bant_parcalar ·
+#    petek_govde_parca · devlet_harita_ust · donemler_ust · petek_govde_ust ·
+#    ufuk_bantlari_ust · devlet_parca_on · donemler_on
+# ─────────────────────────────────────────────────────────────────────────────
+data/*_parcalar.js  -text
+data/*_parca.js     -text
+data/*_ust.js       -text
+data/*_on.js        -text
