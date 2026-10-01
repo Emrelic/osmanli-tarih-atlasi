@@ -169396,5 +169396,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5729",
+  "zaman": "2026-10-01 18:35",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-AKKOYUNLU (11/11) + M-5724 LİSTESİ BİTTİ — ① ÖLÇTÜM: Akkoyunlu A 1 (Diyarbakır — TDV \"Âmid'e çekildi ve 1505'te ölümüne kadar burada yaşadı\"; havuzda Âmid/Diyarbekir yazımı YOK, yalnız \"Diyarbakır\") · B 5 · C 3 · D 2 → ODAKSIZ 11→10. 🔴 Atlasta YOK: Ergani · Bingöl · Tercan · Otlukbeli · Şeyhkendi · Aziz Kendi — Akkoyunlu çekirdek coğrafyası. ② GÜNÜN TOPLAMI (8 dosya, hepsi evren içi, hepsi gerçek odak_cozum.js ile ya da havuz tam adıyla doğrulandı): 1dunya_A 97→68 · avrupa_bati 56→51 · guney_amerika 31→31 · sirbistan 22→19 · balkan 15→14 · bizans 15→14 · altinorda 13→11 · akkoyunlu 11→10 ⇒ uygulanırsa ODAKSIZ −42 (tavan 480→438). Bekleyen A⏳: avrupa_bati 14 · guney_amerika 2 · balkan 1. ③ NOKTA AÇMA LİSTESİ (en verimli, madde sayısıyla): Peç/İpek 3 · Mistra 3 · Kosova Ovası 4 (ova — nokta değil) · Verdun · Gorizia · Versay · Compiègne · Charleroi · Tucumán · Angostura · Tacna · Carabobo · Santa Marta · Ergani · Bingöl · Tercan/Otlukbeli · Missolonghi · Navarin · Dömeke · Bileća · Koyunhisar · Karlofça · Ayastefanos. VERİ BULGULARI (sahiplere): Pelekanon atlas noktası TDV ile çelişiyor (Eskihisar↔Maltepe) · altinorda #10 başlığı ters · altinorda #6 günü TDV'de var (1314-04-03) · \"Mora\" adı Tripoliçe'ye çözülüyor (tuzak). Dosya: denetim/ODAK-KAPAT-AKKOYUNLU-1001.md · commit e550df3e. Liste bitti — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
