@@ -11,14 +11,19 @@
 
 ## Özet
 
+**Koordinatör hükmünden sonraki son sayım** (ayrıntı en alttaki "KOORDİNATÖR HÜKMÜ" bölümünde):
+
 | Sonuç | Adet | Kalemler |
 |---|---|---|
-| ① atlasta VAR | 8 | #6 Azez (A'zâz) · #27 Suruç · #33 · #38 · #47 · #55 · #57 Şam · #41 Zebîd (koordinatör kararı) |
-| ② atlasta YOK | 28 | ayrıntı aşağıda |
-| ③ yersiz | 18 | #1 #2 #5 #11 #13 #15 #29 #35 #36 #40 #42 #43 #46 #48 #51 #52 #53 #60 |
-| bulunamadı | 7 | #4 #21 #28 #31 #34 #44 #54 |
+| ① atlasta VAR | 7 | #6 Azez (A'zâz) · #33 · #38 · #47 · #55 · #57 Şam · #41 Zebîd (koordinatör kararı) |
+| ② atlasta YOK | 28 | ayrıntı aşağıda (#9 → Nehrevan, koordinatör kararı) |
+| ③ yersiz | 17 | #1 #2 #5 #11 #13 #15 #29 #35 #36 #40 #42 #43 #48 #51 #52 #53 #60 |
+| bulunamadı | 3 | #28 #44 #54 |
+| 🔴 `yer` alanı DAYANAKSIZ (odak kovasından çıkarıldı) | 6 | #4 #21 #27 #31 #34 #46 |
 
-**Uygulanabilir (`yer_id` yazılabilir): 8.** Diğer 53 kalemde mekanik bir çare yok. 28'i için önce yeni bir nokta gerekiyor (o ayrı bir iş).
+İlk teslimdeki sayım şuydu: VAR 8 · YOK 28 · yersiz 18 · bulunamadı 7. Aşağıdaki tablolar o sayımı gösteriyor; 6 kalemin yeni yeri en alttaki bölümde.
+
+**Uygulanabilir (`yer_id` yazılabilir): 7.** Diğer 53 kalemde mekanik bir çare yok. 28'i için önce yeni bir nokta gerekiyor (o ayrı bir iş).
 
 ## ① Atlasta VAR (8)
 
@@ -116,3 +121,24 @@ Bu yerler doğru olabilir (genel tarih bilgisiyle uyumlu görünüyorlar), ancak
 - TDV'de Nûreddin Mahmud Zengî ve İnab maddelerinin adresleri (denenen adresler arama sayfasına düşüyor).
 - #53'ün kaynağı (Alwazzan 2015): okunmadı. #42'nin TDV `medine` alıntısı: indirilmedi.
 - 61 ile 71 arasındaki fark: `odak_olc` bu dosya için 61 veriyor. 71 sayısının nereden geldiği **ölçülemedi**.
+
+## KOORDİNATÖR HÜKMÜ (1 Ekim 2026, YILDIRIM BAYEZIT)
+
+### 🔴 `yer` alanı dayanaksız: 6 kalem odak kovasından ÇIKARILDI
+Bu kalemlerde kaydın `yer` alanı, kaydın kendi gösterdiği kaynakla uyuşmuyor. Bu sınıf odak eksikliğinden daha ağır: `yer_id`'ye çevrilirse kusur veriden haritaya geçer. Koordinatör bunları ayrı bir kalem olarak ele alacak. **`yer` alanı düzeltilmeden hiçbiri `yer_id` olmayacak.**
+
+| # | t | Kaydın `yer` alanı | Kaydın kaynağı ne diyor |
+|---|---|---|---|
+| 4 | 1029 | Suriye (Ukhuvâne/Taberiye yöresi) | TDV mirdasiler: savaş ve gün var, **yer yok** |
+| 21 | 1105-08-27 | Remle yöresi (Filistin) | TDV tugtegin: gün var, **yer yok** |
+| 27 | 1122 | Urfa yöresi, Harput | TDV belek-b-behram: **Serûc yakınları** (Harput hapis yeri). İlk teslimde VAR → `Suruç` yazmıştım; `yer` alanı düzelince uygulanabilir. |
+| 31 | 1135-09-25 | Merâga yöresi | TDV mezyediler: öldürülme ve gün var, **yer yok** |
+| 34 | 1149-06-28 | İnab Kalesi önü | TDV haclilar: «Nûreddin ile yapılan savaşta öldü (1149)», **İnab adı yok** |
+| 46 | 1192-09-01 | Remle | TDV eyyubiler: antlaşma ve gün var, **Remle yok** |
+
+### Kararlar
+- **#9 → atlasta yok: Nehrevan.** `Bağdat` bir çıkarım olurdu ("makamına döndü" ⇒ makam Bağdat'ta). `§4` gereği çıkarım halka almaz. Kaydı çıpalayan tarihli TDV cümlesi Nehrevan diyor.
+- **"İlk hedef" kuralı genelleştirilmez.** #41 (Zebîd) geçerliydi, çünkü TDV'nin kendisi "önce … Zebîd'i" diyordu: kaynak söyledi, biz seçmedik. Ölçüt: kaynak bir ilk hedefi **adlandırıyorsa** o alınır, adlandırmıyorsa "yersiz" yazılır.
+  - **#43 → yersiz.** LAB'ın kontrolü: TDV eyyubiler «Dımaşk, Ba'lebek, Humus, Hama gibi önemli merkezleri kolaylıkla ele geçirdi» diyor. Bu bir **sayım**, "ilk" demiyor. "İlk alınan Dımaşk" ifadesi benim çıkarımımdı (Dımaşk'tan gelen davetten türetmiştim). Kaynak ilk hedefi adlandırmıyor.
+  - **#42 → yersiz.** Kaynak Mekke ile Medine arasında bir "ilk" adlandırmıyor; Mekke'yi seçmek bizim tercihimiz olurdu.
+- Ders: Bir kuralın bir vakada işe yaraması onu kural yapmaz. #41 bir kaynak alıntısıydı, bir yöntem değil.
