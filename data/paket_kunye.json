@@ -366,8 +366,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_altinorda.js",
-     "sha": "ac95184428cf4764",
-     "bayt": 41666
+     "sha": "e844c400325f160d",
+     "bayt": 42420
     },
     {
      "yol": "data/kronoloji_hollanda.js",
@@ -391,8 +391,8 @@
     },
     {
      "yol": "data/kronoloji_ozbek.js",
-     "sha": "aa0a03c9e2e34cbd",
-     "bayt": 44881
+     "sha": "fbb14235c20d7d30",
+     "bayt": 44908
     },
     {
      "yol": "data/kronoloji_timurlu.js",
@@ -400,7 +400,7 @@
      "bayt": 24761
     }
    ],
-   "bayt": 364230
+   "bayt": 365011
   },
   {
    "paket": "data/paket_12.js",

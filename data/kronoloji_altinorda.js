@@ -92,11 +92,11 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Cülûsunun hemen ardından Özbek Han, Altın Orda'nın güneydeki büyük rakibi İlhanlılar'a elçi yolladı. İki Moğol devleti arasındaki Azerbaycan-Kafkasya çekişmesi Berke Han'dan beri sürüyordu; elçilik bu çekişmeyi bir süreliğine diplomasi zeminine çekme girişimidir.", ic_not_d:"yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
   kaynak:"TDV, madde: ozbek-han (11 Mayıs 1314 tarihli elçilik)" },
 
-{ t:"1314-01-01", b:"Kahire'ye 174 kişilik büyük elçilik heyeti gönderildi — Memlük ittifakının tazelenmesi", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis",
+{ t:"1314-04-03", b:"Kahire'ye 174 kişilik büyük elçilik heyeti gönderildi — Memlük ittifakının tazelenmesi", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis",
   etiket:["diplomasi","siyaset","ittifak","konu-siyasi","konu-diplomasi"],
   yer_id:"Kahire",
   d:"Özbek Han, Berke Han'dan beri süren Altın Orda-Memlük yakınlaşmasını yüz yetmiş dört kişilik olağanüstü kalabalık bir heyetle tazeledi. İki devleti birleştiren şey ortak düşmandı: İlhanlılar. Bu eksen, Kıpçak bozkırından Mısır'a giden köle (memlük) akışının da siyasî çerçevesidir. Gün bilinmediği için yıl başına yazıldı.",
-  kaynak:"TDV, madde: ozbek-han — 174 kişilik Kahire elçiliği (GÜN VERİLMİYOR)" },
+  kaynak:"TDV, madde: ozbek-han — \"16 Zilhicce 713'te (3 Nisan 1314) … heyeti Kahire'ye gitti\" ⇒ GÜN VERİLİYOR", ic_not_t:"eski t: 1314-01-01 · kaydın kendi kaynak alanı '(GÜN VERİLMİYOR)' diyordu, YANLIŞTI — TDV günü veriyor. Sahte BELİRSİZLİK (D210'un tersi): yanlış bir beyan, sonraki oturumu aramaktan alıkoyar. Ölçen: ODAK-KAPAT, tahta M-5728" },
 
 { t:"1318-01-01", b:"Özbek Han Derbend'i aşarak İlhanlı kuvvetlerine saldırdı", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
@@ -116,7 +116,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Özbek Han 720 (1320) yılında İslâm'ı kabul ederek Muhammed adını aldı; bu tarihten sonraki sikkelerinde 'es-Sultânü'l-a'zam Gıyâseddin Muhammed Özbek Han el-Âdil' ibaresi yer aldı. Bu, bir hükümdarın şahsî tercihinden ibaret değildir: Berke Han'ın kişisel Müslümanlığından farklı olarak bu kez din DEVLETİN dini oldu ve Deşt-i Kıpçak'ın Türkleşmesiyle İslâmlaşması aynı süreç hâline geldi. Saray başta olmak üzere şehirler camiler, medreseler ve tekkelerle donandı. Bugünkü Tatar, Başkurt, Kazak, Nogay ve Kırım Türklerinin Müslüman kimliği bu karara dayanır.",
   kaynak:"TDV, madde: ozbek-han — '720'de (1320)' + sikke ibaresi birebir; TDV, madde: altin-orda-hanligi — 'Özbek Han zamanında ... camiler, medreseler ve tekkelerle süslenmiştir'" },
 
-{ t:"1320-05-16", b:"Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ t:"1320-05-16", b:"Tolun-Bige Hatun Mısır'a gönderildi — Memlük ittifakının evlilikle mühürlenmesi", ic_not_b:"eski b: 'Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması' — YÖN TERSTİ. TDV ozbek-han: Özbek Han 'hânedandan Tolun-Bige Hatun'u … Mısır'a GÖNDERDİ'. ⚠️ HANEDAN iddiası YAZILMADI: alıntının başı kesik, hangi hânedan olduğu tam cümle görülmeden kesin değil. ODAK-KAPAT Altın Orda diyor ve bağlam destekliyor, ama ölçülmeyen şey hüküm olmaz. Ölçen: ODAK-KAPAT, tahta M-5728", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","ittifak","sosyal","konu-diplomasi","konu-hanedan","konu-sosyal"],
   yer_id:"",
   d:"Memlük ittifakı bir evlilikle mühürlendi. Hanedanlar arası evlilik bozkır diplomasisinde bir anlaşma metninden daha bağlayıcıdır; İslâm'ın kabulüyle aynı yıla düşmesi de tesadüf değildir — Altın Orda artık Memlük Mısır'ıyla yalnız siyasî değil dinî bir ortaklık da kuruyordu.",

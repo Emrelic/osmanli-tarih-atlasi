@@ -351,7 +351,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin iktidar mücadelesinde başarısızlığı",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"Türkistan (Yesi)",
   d:"Genç şehzade Ebulgazi, kardeşiyle giriştiği iktidar mücadelesinde tutunamayıp Yesi'deki (Türkistan) Kazak hanı İşim Han'a sığındı; bu, onun yıllarca sürecek çalkantılı gençlik döneminin bir parçasıydı.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -359,7 +359,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi başkent Hîve'yi geçici olarak ele geçirdi",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","askeri","hive","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"Hîve",
   d:"Ebulgazi bir baskınla Hîve'yi ele geçirdiyse de kardeşi İsfendiyar Han kısa sürede şehri geri aldı; Ebulgazi bunun ardından on yıl sürecek bir İran esaretine düşecekti.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -383,7 +383,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi tüm Harzem'in hâkimi oldu",
   tur:"hukumdar", onem:5, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
-  yer_id:"",
+  yer_id:"Hîve",
   d:"Ebulgazi Bahadır Han, Hîve'ye girip bölgenin tamamını hâkimiyeti altına aldı; TDV'nin ifadesiyle hanlığı 'Orta Asya'nın en güçlü devletlerinden biri' hâline getirdiği dönem başladı.",
   kaynak:"TDV, madde: hive-hanligi" },
 
