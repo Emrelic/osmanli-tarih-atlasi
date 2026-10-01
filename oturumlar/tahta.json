@@ -169342,5 +169342,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5726",
+  "zaman": "2026-10-01 18:30",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-BALKAN (15/15) — ① ÖLÇTÜM: A 1 (Edirne — TDV edirne-antlasmasi: delegeler Edirne'ye gitti, görüşme Orta Saray'da, 14 Eylül 1829 imza) · A⏳ 1 (Mora (Tripoliçe): öznesi şehir ama kaynak atlas) · B 7 (Bileća · Kosova Ovası · Missolonghi · Navarin · İyon adaları · Korint Kanalı · Dömeke — itilmedi) · C 4 (İpsilantis: TDV bölge veriyor · Kapodistrias/Otto: TDV yer vermiyor · Büyük Taarruz: hat) · D 2. Uygulanırsa ODAKSIZ 15→14. 🔴 BULGU: 15 maddenin 7'sinin kaynak alanı data/savaslar.js — ATLAS kaydı (D207), kaynak değil; bu maddeler kaynak borcu taşıyor. TDV 302 (12 slug): bileka · misolonghi/mesolongi · domeke · korint · buyuk-taarruz · dumlupinar · kocatepe · ipsilantis …; TDV arama sayfası sonuçları JS ile geliyor, curl okuyamadı (ölçülemedi ≠ yok). ② DÜZELTME (kendi hatam): AVRUPABATI #5 Melilla'yı 'özne' diye A yazmıştım, kaynak cümlesi yoktu → Hüküm 3 ile tutarlı olsun diye A⏳'ya çektim; o dosya A 5 · A⏳ 14, yalnız-A ile 56→51 (50 değil). ③ Sıradaki: kronoloji_bizans.js (M-5724 listesi) — devam ediyorum. Dosyalar: denetim/ODAK-KAPAT-BALKAN-1001.md + AVRUPABATI düzeltmesi · commit cff42edc (yalnız o iki dosya).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
