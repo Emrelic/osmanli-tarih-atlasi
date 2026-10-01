@@ -49,7 +49,7 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 | Değişmez 1 — sahipsizlik | ✓ 4296 yerleşim, 309 sahipsiz (beklenen 309) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 7/7 — tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 621 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 1709 YABANCI kırılması · 191 AÇIK (tavan 191) · 792 KAPSAM DIŞI · 164 YIL-TEMSİLÎ BORÇ |
+| Değişmez 2s — yabancı senkron | ✓ 1709 YABANCI kırılması · 189 AÇIK (tavan 191) · 792 KAPSAM DIŞI · 164 YIL-TEMSİLÎ BORÇ |
 | Değişmez 2i — işgal senkronu | ✓ 142 İŞGAL kırılması, 1 açık (tavan 1) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 13 (tavan 13) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
@@ -57,10 +57,10 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 | Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 93 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
 | Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 77 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
 | Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
-| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **25** hiçbir yerde (gerçek sessiz borç) · 🟢 163 BEYANLI boya borcu (`boya_gerekli:true` — tam inşa koşusunu bekliyor, sessiz DEĞİL) · ⚪ 51 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 15 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 13 sınır · 165 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
+| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **11** hiçbir yerde (gerçek sessiz borç) · 🟢 23 BEYANLI boya borcu (`boya_gerekli:true` — tam inşa koşusunu bekliyor, sessiz DEĞİL) · ⚪ 205 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 15 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 13 sınır · 183 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r10713** · `2014620c` |
+| Yayın | **r10883** · `fa918b11` |
 
 **Elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py` · `--yaz`
 (§1.5'i günceller). Güvenmeden önce koştur; bayat tabloyla kabul ölçütü kurulmaz.
