@@ -68,3 +68,49 @@ durumunu VARSAYDI, işçi ÖLÇTÜ.**
 `D246` (paketleme körlüğü) · `D248` (koşturulmamış komut) · `D204`
 (ölçülemedi ≠ yok ≠ temiz) · `D241` (commitlenmemiş kumanda uzak makinede
 yalan söyler) · `denetim/DEGISMEZ-KOSU19-UMIT.log`
+
+---
+
+## 🆕 VAKA 3 — `-EA SilentlyContinue` erişim reddini SIFIRA çevirir (1 Ekim 2026)
+
+KASA'da gölge kopya ölçümünde `C:\System Volume Information` boyutu soruldu.
+Yükseltilmiş kabukta iki ölçüm koştu:
+
+```
+dir /s                                      → "File Not Found"
+Get-ChildItem -Force -Recurse -EA SilentlyContinue
+  | Measure-Object Length -Sum              → 0 dosya · 0 GB
+```
+
+İkinci satır **bir sayı verdi ve o sayı yanlıştı.** Klasörün ACL'si yalnız
+`SYSTEM`e açıktır; `Administrators` bile okuyamaz. `-EA SilentlyContinue`
+her erişim reddini sessizce yuttu, `Measure-Object` boş kümeyi topladı ve
+**0** çıktı.
+
+```
+GERÇEK   "okuyamadım"      ← erişim sınırı
+KAYIT    "0 GB"            ← ölçüm gibi görünen sayı
+```
+
+🔴 Ve bu, D250'nin en tehlikeli biçimi: önceki vakalarda kör ölçüm **tuhaf**
+bir sayı veriyordu (29,164 s · boş küme), burada **makul** bir sayı verdi.
+"Gölge kopya klasörü 0 GB" cümlesi gölge kopyası olmayan bir makinede
+DOĞRU bile olabilirdi — yani yanlış ölçüm, doğru cevapla ÖRTÜŞÜP saklanabilirdi.
+Bu kez örtüşmedi, çünkü ikinci bir yöntem (`vssadmin`) ayrıca ölçtü.
+
+### KURAL
+① `-EA SilentlyContinue` · `2>$null` · `try/except: pass` ile toplanan bir
+   SAYI, ölçüm değil **ALT SINIRDIR** — raporda öyle yazılır.
+② Boyut/sayım ölçümünde susturulan hata **SAYILIR**: "N dosya okunamadı"
+   satırı olmayan toplam, toplam değildir.
+③ Bir yöntem 0 derken ötekinin hata vermesi ÇELİŞKİ DEĞİL İPUCUDUR: biri
+   erişimi, öteki varlığı ölçüyor olabilir.
+
+📌 İşçi bu kez hatayı KENDİ yakaladı ve "0 bir ölçüm değil, erişim sınırıdır"
+diye yazdı — koordinatör sormadan. `D250`nin kuralı artık yalnız
+koordinatörün değil, ÖLÇÜMÜ YAZANIN da kuralıdır.
+
+📌 Aynı gün ikinci bir ölçülemedi: EMRELIC'te yükseltilmiş ölçüm başlatıldı,
+UAC penceresi cevaplanmadı, dosya yazılmadı. `Start-Process -Verb RunAs`
+iptal/cevapsızlıkta **çıkış 0** verebilir — yani "komut başarılı" görünür.
+Kanıt çıkış kodu değil, ÇIKTI DOSYASININ VARLIĞIDIR (`Test-Path` False).
