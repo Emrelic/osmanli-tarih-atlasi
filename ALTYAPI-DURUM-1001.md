@@ -83,9 +83,21 @@ Motorun gerçek kütüphaneleri (AST ile ölçüldü):
 ```
 ① HAVVA RAM         sipariş verildi, birkaç gün sonra takılacak
 ② HAVVA klon+node   🔴 RAM TAKILDIKTAN SONRA (şimdi yük bindirmek eczaneyi yavaşlatır)
-③ UMIT RAM yuvası   ÖLÇÜLMEDİ — tek eksik ölçüm
-④ UMIT contourpy    ölçülmedi (eski araç sürümüyle rapor verdi); motor koştuğu
-                    için VAR olmalı ama DOĞRULANMADI
+③ UMIT RAM yuvası   ✅ KAPANDI (UMIT ölçtü, 1 Ekim 2026 gece)
+                    2 yuva, İKİSİ DE DOLU · 2 × 8 GB = 16 GB, ÇİFT KANAL
+                    DDR4-3200 (ayarlı 3200) · SODIMM · Crucial
+                    CT8G4SFRA32A.C16FG + .M8FRS · anakart tavanı 64 GB
+                    🔴 BOŞ YUVA YOK ⇒ büyütmek EKLEME değil DEĞİŞTİRMEdir
+                      (2×16 = 32 ya da 2×32 = 64). HAVVA'da boş yuva VAR,
+                      ikisini karıştırmayalım — çareleri farklı.
+                    ⚠️ Ben UMIT'e "senin de 8 GB olduğun için" diye yazdım;
+                      YANLIŞTI. Tablodaki 15,75 GB doğruydu, sözüm yanlış.
+④ UMIT contourpy    ✅ KAPANDI (UMIT ölçtü): beşi de VAR —
+                    numpy 2.2.6 · shapely 2.1.2 · rasterio 1.5.1 ·
+                    scipy 1.18.1 · contourpy 1.3.3
+                    📌 Artık ÇIKARIM değil ÖLÇÜM. Benim yanlış kütüphane
+                      listem (`pyproj` fazla, `contourpy` eksik) KASA'ya
+                      gitmişti; iki makinede de ölçülü hâle geldi.
 ⑤ KASA numpy        2.3.5 ↔ UMIT/EMRELIC 2.2.6. Motor TUZUNDA DEĞİL (§9.1) ⇒
                     aynı önbellek anahtarı, FARKLI sonuç riski.
                     Yedek koşucu olacaksa 2.2.6'ya sabitlenmeli — EMRE KARARI

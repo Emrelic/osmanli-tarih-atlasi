@@ -2150,8 +2150,65 @@ def _devletler_yukle():
         return None
     if c.returncode != 0:
         return None
-    return {d["id"]: (d.get("f"), d.get("t"))
-            for d in json.loads(c.stdout) if d.get("id")}
+    ham = json.loads(c.stdout)
+    global _DEVLETLER_HAM
+    _DEVLETLER_HAM = ham
+    return {d["id"]: (d.get("f"), d.get("t")) for d in ham if d.get("id")}
+
+
+_DEVLETLER_HAM = None
+
+
+def _devletler_harita():
+    """`harita:` TAKMA ADI → [(f, t, id)] · bir takma ad ÇOK künyeye bakabilir.
+
+    🔴 NİÇİN VAR (KASA ölçtü, 1 Ekim 2026 — iki aylık bir körlük):
+    `degismez4` künyeyi yalnız `id` ile eşliyordu. Oysa yerleşimin `s:[].d`
+    alanı künyenin **`harita:` boya anahtarını** taşıyabilir (`§8` bunu
+    istiyor: "`s:` içindeki kimlik `BOYALAR`da tanımlı olmalı").
+    ⇒ Denetim 1131 dönem / 23 kimliği "KÜNYESİZ" sayıp *"ölçülemedi"*
+      basıyordu. ÖLÇÜLDÜ: o 23'ün **22'si** bir künyenin `harita:` alanında
+      BİREBİR geçiyor (`avusturya`→`habsburg` 245 dönem ·
+      `suleyman-celebi`→`fetret-*` 236 · `ceneviz`→`cenova` 24 …),
+      1'i `__BOSLUK__` (kasıtlı), ve **gerçekten eksik künye 0.**
+      Yani bu hiç bir veri borcu değildi, baştan sona bir ARAÇ KÖRLÜĞÜYDÜ.
+    📌 Ve kural ZATEN YAZILIYDI: `js/app.js:60-75` (8 Ağustos 2026)
+      *"Kimlik eşleşmesi soran her yer `id:` ∪ `harita:` okumalı."*
+      Uygulama uymuş, denetim uymamış — `§11`in "kural var, araç uygulamıyor"
+      ailesi.
+
+    ⚠️ LİSTE döner, tek değer değil: iki künye aynı `harita:` anahtarını
+    paylaşabilir (ölçülen aday: `sardinya`). O zaman tarihe göre seçilir ve
+    seçilemezse SESSİZCE BİRİ ALINMAZ — ayrı kovaya düşer (`cok_harita`).
+    """
+    if _DEVLETLER_HAM is None:
+        return None
+    H = {}
+    for d in _DEVLETLER_HAM:
+        h = d.get("harita")
+        if not h or h == d.get("id"):
+            continue
+        H.setdefault(h, []).append((d.get("f"), d.get("t"), d.get("id")))
+    return H
+
+
+def _harita_tarih_sec(adaylar, pf, pt):
+    """Çok künyeli bir `harita:` anahtarında dönemin tarihine UYANI seç.
+
+    Ölçüt: dönem penceresi [pf, pt] ile künye penceresi [f, t] KESİŞİYOR mu.
+    TAM BİR aday kesişiyorsa o seçilir; sıfır ya da birden çok kesişiyorsa
+    **None** döner ⇒ çağıran onu `cok_harita` kovasına yazar.
+    🔴 "İlkini al" YAPILMAZ: yanlış künye seçmek, künyesiz saymaktan KÖTÜDÜR —
+      sayı temiz görünür ve kusur ölçülemez hâle gelir (`D250`).
+    """
+    kesisen = []
+    for f, t, kid in adaylar:
+        if pt and f and _gun_farki(f, pt) is not None and _gun_farki(f, pt) > 0:
+            continue                      # künye dönemden SONRA başlıyor
+        if pf and t and _gun_farki(pf, t) is not None and _gun_farki(pf, t) > 0:
+            continue                      # künye dönemden ÖNCE bitiyor
+        kesisen.append((f, t, kid))
+    return kesisen[0] if len(kesisen) == 1 else None
 
 
 def _gun_farki(a, b):
@@ -2221,7 +2278,22 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 124   # 1 EKIM 2026: 128 -> 124 · 10 EYLUL: 138 -> 132, aletin KENDI uyarisi
+BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
+# 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
+#   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).
+#   Oncesinde `harita:` takma adi tasiyan 1052 donem "kunyesiz" kovasina
+#   dusup `continue` ediyordu — yani 4/4c/4d/4s'den HIC GECMIYORDU.
+#   Cozulunce ucu 4c'ye dustu: bosna -> bosna-kralligi (kunye 1463-05-01)
+#     Foca 1465 · Livno 1469 · Herseknovi 1482
+# 🔴 VE BU YUKSELTME, `D253`un kuraliyla AYNI COMMIT'te yapildi: duzeltme
+#   ile tavan ayri commit'e girerse denetim ✗ oter ve 10 kalem "bu gece
+#   yazilmis yeni kusur" sanilir. Tavani SONRADAN yukseltmek AFtir;
+#   ayni commit'te beyanla yukseltmek KAPSAM GENISLEMESIDIR.
+# 📌 KASA bu +3'u OLCUMDEN ONCE bildirdi ve birebir tuttu. Ucu de gercek
+#   borc: Bosna kunyesi 1463'te bitiyor, uc sehir sonrasinda Osmanli'ya
+#   gecerken `bosna` takma adiyla yaziliydi. Odeme yolu: ardil kunye
+#   (`§3.5` ucuncu sinif) — kisaltmak delik acar.
+# · 10 EYLUL: 138 -> 132, aletin KENDI uyarisi
 # 1 Ekim dususunun sebebi olculdu: KUNYE-1945-0930 kunye penceresi kesik olan
 # 90 kaydi sinifladi ve dordunun `t:`sini kaynakli gune cekti (yemen 1962-09-26
 # · kesmir 1947-10-26 · bulgaristan 1946-09-15 · sovyet 1991-12-25) ⇒ o donemler
@@ -2307,7 +2379,19 @@ ATLAS_BASI = "1281-01-01"
 #   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
 #   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
 #   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
-BEKLENEN_ONCE = 317   # 1 EKIM 2026: 409 -> 317, EN BUYUK tek gecelik iyilesme (92 kalem)
+BEKLENEN_ONCE = 324   # 1 EKIM 2026 (gece): 317 -> 324 · KAPSAM GENISLEMESI, AF DEGIL
+# 🔴 +7'nin sebebi 4c ile AYNI: `degismez4` kimligi artik `id:` ∪ `harita:`
+#   ile cozuyor; once `harita:` takma adli donemler bu dala HIC girmiyordu.
+#   Yedisi (KASA olcumden ONCE bildirdi, birebir tuttu):
+#     sardinya   -> sardinya-piyemonte (kunye 1720)  3 donem
+#     arnavutluk -> iskenderbey        (kunye 1443)  2 donem
+#     kaffa      -> kaffa-kralligi     (kunye 1390)  2 donem
+# ⚠️ `sardinya` AYNI ZAMANDA cok-kunyeli takma ad adayi: bir `harita:`
+#   anahtari, iki ayri polity olabilir (`§3.5` "kunye dar" vakasi). Oradaki
+#   3 donem bu tavana girdi AMA sinifi henuz belirlenmedi — kisaltmak ya da
+#   genisletmek yerine ONCE SINIFLANDIRMA gerekiyor.
+# 🔴 Tavan `D253` geregi duzeltmeyle AYNI COMMIT'te yukseltildi.
+# · onceki: 409 -> 317, EN BUYUK tek gecelik iyilesme (92 kalem)
 # Sebep: 1281 oncesi kampanyasi 159 yeni kunye acti (kunye 704 -> 863) ve `f:`i
 # 1281'den geriye cekti. Once "devletin DOGUMUNDAN ONCE baslayan donem" sayilan
 # kayitlar artik kunyenin ICINDE. ⇒ Bu, kampanyanin haritaya en olculebilir
@@ -2368,17 +2452,38 @@ def degismez4(Y):
     """
     K = _devletler_yukle()
     if K is None:
-        return [], [], False
-    ihlal, kunyesiz, asan, once = [], [], [], []
+        return [], [], False, [], [], []
+    H = _devletler_harita() or {}
+    ihlal, kunyesiz, asan, once, cok_harita = [], [], [], [], []
     for y in Y:
         for p in (y.get("s") or []):
             kim = p.get("d")
             if not kim:
                 continue
-            if kim not in K:
-                kunyesiz.append((y["ad"], kim))
+            # ── KİMLİK ÇÖZÜMÜ: id ∪ harita: (KASA ölçümü, 1 Ekim 2026) ──
+            # `js/app.js:60-75`in kuralı: kimlik eşleşmesi soran her yer
+            # `id:` ∪ `harita:` okur. Sıra ÖNEMLİ — `id` kazanır.
+            if kim in K:
+                kf, kt = K[kim]
+            elif kim == "__BOSLUK__":
+                # 🟢 KASITLI BOŞLUK, künye aranmaz (`§1.5`de BEYAN olarak
+                #   duruyor: hiçbir künyenin kapsamadığı dilim). 79 dönem.
                 continue
-            kf, kt = K[kim]
+            else:
+                aday = H.get(kim) or []
+                if not aday:
+                    kunyesiz.append((y["ad"], kim))
+                    continue
+                if len(aday) == 1:
+                    kf, kt = aday[0][0], aday[0][1]
+                else:
+                    sec = _harita_tarih_sec(aday, p.get("f"), p.get("t"))
+                    if sec is None:
+                        cok_harita.append((y["ad"], kim,
+                                           [a[2] for a in aday],
+                                           p.get("f"), p.get("t")))
+                        continue
+                    kf, kt = sec[0], sec[1]
             # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
             g = _gun_farki(p.get("f"), kt) if kt else None
             if g is not None and g > HAYALET_TOLERANS_GUN:
@@ -2411,7 +2516,7 @@ def degismez4(Y):
                 if g4 is not None and g4 > HAYALET_TOLERANS_GUN:
                     once.append((y["ad"], kim, p.get("f"), p.get("t"), kf,
                                  g4 / 365.25))
-    return ihlal, kunyesiz, True, asan, once
+    return ihlal, kunyesiz, True, asan, once, cok_harita
 
 
 # ---------------- Değişmez 5 — HAYALET YERLEŞİM ---------------------------
@@ -4801,7 +4906,7 @@ def main():
         print( "               iki sayının AYRIŞMASI beklenen davranıştır.")
 
     # ── Değişmez 4 — HAYALET DEVLET ──────────────────────────────────
-    hayalet, kunyesiz, olculdu, asan, once = degismez4(Y)
+    hayalet, kunyesiz, olculdu, asan, once, cok_harita = degismez4(Y)
     if not olculdu:
         print("\nDeğişmez 4  ⚠️  ÖLÇÜLEMEDİ — node yok ya da devletler.js "
               "ayrıştırılamadı.")
@@ -4930,11 +5035,27 @@ def main():
             kim_say = {}
             for _, kim in kunyesiz:
                 kim_say[kim] = kim_say.get(kim, 0) + 1
-            print(f"               i {len(kunyesiz)} dönem KÜNYESİZ kimlik "
-                  f"kullanıyor ({len(kim_say)} ayrı kimlik) — ölçülemedi, "
-                  f"İHLAL DEĞİL ama TEMİZ de değil")
+            print(f"               🔴 {len(kunyesiz)} dönem KÜNYESİZ kimlik "
+                  f"kullanıyor ({len(kim_say)} ayrı kimlik) — ne `id:` ne "
+                  f"`harita:` ile çözülüyor, GERÇEK borç")
             for kim, n in sorted(kim_say.items(), key=lambda x: -x[1])[:6]:
                 print(f"                 {kim:<20} {n} dönem")
+        else:
+            print("               ✓ künyesiz kimlik: 0 — her `s:d` bir "
+                  "künyeye çözülüyor (`id:` ∪ `harita:`)")
+        if cok_harita:
+            # 🔴 ÇOK KÜNYELİ TAKMA AD — tarihe göre seçilemedi, SESSİZCE
+            #   BİRİ ALINMADI. `§3.5`in "künye dar" vakası olabilir: bir
+            #   `harita:` anahtarı, iki ayrı polity (ölçülen aday: sardinya).
+            _ch = {}
+            for _a, _k, _ids, _f, _t in cok_harita:
+                _ch.setdefault(_k, (_ids, 0))
+                _ch[_k] = (_ids, _ch[_k][1] + 1)
+            print(f"               🟡 {len(cok_harita)} dönem ÇOK KÜNYELİ "
+                  f"`harita:` takma adı ({len(_ch)} ad) — tarihe göre "
+                  f"seçilemedi, ölçülemedi")
+            for _k, (_ids, _n) in sorted(_ch.items(), key=lambda x: -x[1][1]):
+                print(f"                 {_k:<20} {_n} dönem → {_ids}")
 
     # ── Değişmez 5 — HAYALET YERLEŞİM ────────────────────────────────
     celiski, suphe, kursuz, muaf5 = degismez5(Y)
