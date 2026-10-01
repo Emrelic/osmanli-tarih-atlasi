@@ -159,7 +159,14 @@ gitmez). Hüküm koordinatörün: A'ya mı, D'ye mi.
 
 **Parti 4 sayısı (22):** A 5 · A? 1 · A-İMZA 2 · B 7 (5'i imza yeri atlasta yok) · C 3 · D 4.
 
-## 2e. TOPLAM — 97 madde
+## 2d+. Koordinatör hükmü sonrası (M-5718)
+- **A-İMZA → A**: imza yeri kaynakta AÇIKÇA yazan 7 madde `yer_id` alır (Korfu · Brest-Litovsk ×3 · Bükreş · Belgrad · Riga).
+- **#84** `b`: "Paris Barış Konferansı toplandı" → konferansın TOPLANMASI ⇒ TDV birincil: **A `yer_id:"Paris"`** (TDV: "Barış Konferansı 18 Ocak 1919’da Paris’te toplandı.").
+- **#85** `b`: "Paris Barış Konferansı Milletler Cemiyeti Misakı'nı kabul etti" → konferansın OTURUMU, imza değil ⇒ **A `yer_id:"Paris"`** (aynı TDV cümlesi konferansın yerini veriyor; timeline "Paris Peace Conference approves the League of Nations covenant").
+- **#67** TDV «Birinci Dünya Savaşı» maddesinde La Lys GEÇMİYOR (aranıp bulunamadı) ⇒ iki gün de yazılır: Portugal 9 Nisan · Timeline 7 Nisan — "kaynaklar çelişiyor". Madde B kovasında kalır (Lys atlasta yok); gün düzeltmesi önerilmez.
+- **Güncel toplam:** A 27 · A? 2 · B 36 · C 9 · D 23 = 97. Uygulanırsa dosya ODAKSIZ 97 → **68** (önceki sınav 70 + #84/#85 iki madde; Paris havuzda).
+
+## 2e. TOPLAM — 97 madde (hüküm ÖNCESİ)
 ```
 A        18   yer belli + havuzda, yer_id önerisi
 A?        2   Lüksemburg (#5, #82) — özne ÜLKE, odak_yer önerildi, yer_id değil
