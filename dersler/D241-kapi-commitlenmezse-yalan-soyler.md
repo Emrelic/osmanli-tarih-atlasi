@@ -91,3 +91,45 @@ Yani kapı iki yönde de bozuk ama yalnız bir yönde şikâyet üretiyor.
 
 📌 **`KOSU-DEVIR-CEVRIMI.md §4`** bu vakayı çevrim belgesinde de taşıyor —
 üç makineli düzende okunacak ilk uyarılardan biri.
+
+---
+
+## 🆕 VAKA 2 — bu kez bir KUMANDA değil bir YAMA, ve sayan koordinatörün kendisi (1 Ekim 2026)
+
+`MOTOR-BOZUK-KIYI-1001.diff` (`BOZUK_KIYI_TABAN` 58 → 22) **tam inşa koşusu
+bekleyenler** listesinde gün boyu sayıldı. KOSU-UMIT hazırlık için 18 yamayı
+`--check` etti ve onu **BULAMADI**:
+
+```
+UMIT'te   git ls-files    → YOK
+          git log --all   → YOK
+          diskte          → YOK
+EMRELIC'te diskte         → VAR, 1 Ekim 02:47, 2.836 bayt
+          git log --all   → 0 commit          ← HİÇ COMMITLENMEMİŞ
+```
+
+🔴 **Ve hatanın anatomisi `D251` ile birebir aynı:** dosyayı diskte GÖRDÜM,
+depoda olduğunu **VARSAYDIM.** Üstelik bu kalemi listeye ben yazdım ve her
+turda yeniden okudum — kayıt kendi kendini doğruluyor gibi göründü, çünkü
+**kaynağı bendim.**
+
+```
+GÖRDÜM   "dosya var"            ← yerel diskte, doğru
+SAYDIM   "koşu bekleyen kalem"  ← depoda olduğunu ima eder, ÖLÇÜLMEDİ
+```
+
+### Niçin bu, `D251`in ikizi değil ÜÇÜNCÜSÜ
+`D250` **ölçen aletin sürümünü** varsaydı · `D251` **ölçülen şeyin yerini** ·
+bu vaka **kaydın ulaşılabilirliğini.** Üçünde de uzak makinenin durumu
+okunmadan hüküm kuruldu, ve üçünde de hatayı uzak makine buldu.
+
+### Kural — listeye yazılan her kalem için
+Bir kalem "bekliyor" diye sayılıyorsa, o kalemin **nerede yaşadığı** da
+sayılır:
+```
+diskte mi            → ls
+depoda mı            → git log --all -- <yol>      ← ASIL SORU
+uzak makinede mi     → origin'de mi, pull edilmiş mi
+```
+⚠️ *"Bende var"* bir ekip kaydı DEĞİLDİR. Tek makinede yaşayan bir kalem,
+ekip için **yok**tur — ve onu sayan kişi bunu en son fark eder.

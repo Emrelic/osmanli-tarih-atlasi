@@ -91,6 +91,41 @@ bunu görmez."* Bu ölüm bir iyiliktir.
 (10⁶ ↔ 2²⁰). 30 Eylül gecesi bu iki makine arasında bir "fark" sanıldı;
 fark yoktu. ⇒ **Herkes MiB yazar.**
 
+### ②b İLK PULL'DAN SONRA — satır sonu sınavı (KOSU-UMIT ölçtü, 1 Ekim 2026)
+
+```
+git ls-files --eol denetim/*.diff | findstr w/crlf      ← BOŞ olmalı
+git ls-files --eol data/*_ust.js data/*_parcalar.js | findstr w/crlf
+```
+
+🔴 **`.gitattributes` MEVCUT KOPYAYI YENİDEN YAZMAZ.** `denetim/*.diff -text`
+eklendikten sonra `git pull` yapan makinede eski dosyalar **hâlâ `w/crlf`
+kalır** — ve `git -c core.autocrlf=false checkout -- <adlar>` da düzeltmez,
+çünkü git dosyayı "değişmemiş" sayıp atlar. UMIT ölçtü: sonrasında
+*"hâlâ crlf 18"*.
+
+**Çare — yıkıcı olmayan yol:**
+```
+1  dosyaları geçici bir dizine TAŞI (silme, yedek orada kalsın)
+2  git checkout -- <adlarıyla>          ← git artık eksik görür, yeniden yazar
+3  git ls-files --eol … | findstr w/crlf  → boş  ·  git status → boş
+```
+⚠️ `git rm --cached -r` + `git reset --hard` de düzeltir ama **yıkıcıdır**,
+önerilmez (UMIT'in notu).
+
+**Niçin önemli:** `git apply` yamanın bağlam satırlarını hedefle **bayt bayt**
+karşılaştırır. CRLF yama, hedefin satır sonuna göre tutar ya da tutmaz ve
+hangisi olduğu MAKİNEYE GÖRE değişir — yani ölçümün kendisi ölçülen şeyin
+satır sonuna bağımlı hâle gelir. UMIT bu yüzden 18 yamayı iki yoldan ölçmek
+zorunda kaldı (çıplak `--check` + `git show :<yol>` ile `--cached`).
+Tazelendikten sonra çıplak `--check` **19/19 birebir** aynı sonucu verdi.
+
+📌 Ve aynı aileden ikinci bir tuzak: `arac/uret_petek.py` bu makinede
+worktree'de CRLF (ölçüldü: **CR 8305 / LF 8305**), indekste LF (CR 0).
+🔴 **`cat -A` bunu GÖSTERMEDİ** — MSYS aracı o dosya için `^M` basmadı, Python
+ikili okuyup 8305 CR buldu. ⇒ Yamalar `git show :<yol>` ile **İNDEKSTEN**
+üretilir, worktree'den DEĞİL. `D246`: satır sonu hükmü ikili okumadan verilir.
+
 ### ③ Üç bayrak — ÜÇÜ DE ŞART
 ```
 set MOTOR_YURUYUS=1
