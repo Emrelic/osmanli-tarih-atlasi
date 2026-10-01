@@ -67,3 +67,10 @@
 ## Bulamadıklarım
 - #42'nin olayı ve yeri.
 - #70'te girişimin geçtiği yer.
+
+## 🔴 DÜZELTME ve KOORDİNATÖR HÜKMÜ (1 Ekim 2026)
+- **#42 kaydı DOĞRULANDI. "Kaydın kendisi doğrulanmadı" hükmüm YANLIŞTI.** TDV DÂNİŞMENDLİLER iddiayı veriyor: «…II. Kılıcarslan Yağıbasan üzerine yürüdüyse de Bizans kuvvetleri tarafından desteklenen Dânişmendli ordusu önünde mağlûp oldu (1162).» Sebep yine kısıtlanmış bir aramaydı (`head -3`; ilk üç eşleşme başka paragraflardandı). Kaynak yer vermiyor ⇒ #42 **bulunamadı (yer)** olarak kalıyor, ama **dayanaksız kovasına girmemeli**. Koordinatörün bu kalemi "dayanaksız" kovasına alma hükmü, benim yanlış ölçümüme dayanıyordu.
+- **#70 → YERSİZ** (koordinatör hükmü): Sürgün ve ölüm yeri, olayın yeri değildir. Havuzda bulunması bir dayanak değil, bir ayartmadır (#15 Şekkî ile aynı sınıf).
+- **#67 → yersiz**: koordinatör onayladı.
+- Düzeltilmiş sayım (ANADOLU2, 41-71): VAR 0 · YOK 8 · yersiz **22** · bulunamadı 1 · BEKLET **0**.
+- **Dosyanın tamamı (71):** VAR 0 · YOK **19** · yersiz **47** · bulunamadı **4** · BEKLET **1** (#5).

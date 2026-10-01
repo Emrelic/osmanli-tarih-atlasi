@@ -38,7 +38,7 @@
 
 ## ② Ömür
 - **Ani:** TDV KARS: «Bagratlılar soyundan III. Aşot, 962'de beyliğinin merkezini Ani'ye taşıdıktan sonra…». UNESCO: «The Mongol invasion and a devastating earthquake in 1319 marked the beginning of the city's decline.» Kesin terk tarihi **ölçülemedi**. Atlas penceresi (1000-1300) içinde şehir var; `Değişmez 1` açısından en azından 1300'e kadar sahip aranmalı.
-- **Dvin:** TDV ŞEDDÂDÎLER: «Muhammed b. Şeddâd … Dvin'i ele geçirdi ve Şeddâdîler hânedanını kurdu (951).» Terk tarihi **ölçülemedi**. Ömrün sonu bilinmeden `Değişmez 1` için doğru pencere verilemez. ⚠️ Nokta açılmadan önce çözülmesi gereken tek kritik eksik bu.
+- **Dvin:** TDV ŞEDDÂDÎLER: «Muhammed b. Şeddâd … Dvin'i ele geçirdi ve Şeddâdîler hânedanını kurdu (951).» **Terk ölçüldü (KUNYE-DVIN-1003 ②):** Iranica DVIN «…the Mongol conquerors again destroyed the city, between 1233 and 1236, thus bringing about its definitive decline.» ⇒ pencere 1236'da kapanır. Ömrün sonu bilinmeden `Değişmez 1` için doğru pencere verilemez. ⚠️ Nokta açılmadan önce çözülmesi gereken tek kritik eksik bu.
 - **Harran:** Antik çağdan beri var (TDV: çivi yazılı kaynaklarda geçiyor). 1300'e kadar sahipleri izleniyor (aşağıda). Sonrası bu dosyanın kapsamı dışında.
 - **Meyyâfârikîn:** Antik çağdan bugüne kesintisiz (Silvan).
 - **Ahlat:** Kesintisiz, ama TDV 1230 Hârizmşah kuşatmasında nüfusun büyük kısmının «şehri terk ederek sağa sola dağıldı[ğını]» yazıyor. Yerleşim bitmiyor.
@@ -67,7 +67,8 @@ Her halkada dayanak cümlesi var. Boşluklar açıkça "ölçülemedi" yazıldı
 |---|---|---|
 | 951-? | `seddadiler-gence` (951→1075) | TDV (951 kuruluş) |
 | ?-1022 | **ölçülemedi** ("Ermeniler'den aldığı"; hangi Ermeni devleti olduğu yazılmıyor) | TDV: «413'te (1022) Ermeniler'den aldığı Dvin'in idaresini…» |
-| 1022-1105 | `seddadiler-gence` ⚠️ | TDV: «Ancak Şeddâdîler 1105 yılına kadar şehri ellerinde tuttular.» |
+| 1022-1075 | `seddadiler-gence` | Iranica: «Dvin was under the control of his uncle Abu'l-Aswār … who had ruled the city since 1022» |
+| 1075-1105 | `seddadiler-ani` (KUNYE-DVIN-1003 ③ ile düzeltildi) | TDV: «Ani ve bu sırada Şeddâdîler'e bağlı olduğu anlaşılan Dvin … Ancak Şeddâdîler 1105 yılına kadar şehri ellerinde tuttular.» |
 | 1118-? | `dilmacogullari` (1085→1394) | TDV: «Togan Arslan 512'de (1118) tekrar Dvin'e saldırdı ve … şehri topraklarına kattı.» |
 | 1105-1118 | **ölçülemedi** | |
 | ~1126-1130 | `seddadiler-ani` | TDV: «Ardından Gence ve Dvin'i topraklarına katmayı başardı.» |

@@ -85,3 +85,9 @@
 - #19, #26, #35 ve #36'nın yeri (kaynakta yok).
 - #5'in ilk yarısının yeri.
 - Iranica dışındaki birincil kaynaklar okunmadı.
+
+## 🔴 DÜZELTME (LAB, 1 Ekim 2026): #19 "bulunamadı" DEĞİL → atlasta yok: Levunion
+- Kaydın kendi kaynağı TDV BİZANS yeri veriyor: «…imparator Peçenekler'e karşı Kumanlar'la anlaştı ve **29 Nisan 1091'de Levunion'da** yapılan kanlı bir savaş sonunda Peçenekler'i ağır bir yenilgiye uğrattı.»
+- Hatanın sebebi: `grep "1091|Kuman" | head -2` kullanmıştım. "Kuman" kalıbı "**kuman**dan" kelimesini yakaladı ve ilk iki satırı doldurdu; 1091 satırı pencerenin dışında kaldı. Bu, YER-DAYANAK-1003'teki #34 hatasının aynısı (`head` bir ölçüm değil, bir penceredir).
+- Yeniden denetim: Bu rapordaki ve ANADOLU2'deki bütün "kaynak yer vermiyor" hükümleri (#26, #35, #36, #11, #32, #47, #48) ve ORTADOĞU-1002'nin bulunamadı'ları (#28, #44, #54) olay cümlesinin ±450 karakterlik **tam bağlamı** okunarak yeniden ölçüldü; hepsi geçerli. Değişen yalnızca #19.
+- Düzeltilmiş sayım (ANADOLU-1003, ilk 40): VAR 0 · YOK **11** · yersiz 25 · bulunamadı **3** · BEKLET 1.
