@@ -2502,11 +2502,30 @@ def degismez4(Y):
                 else:
                     sec = _harita_tarih_sec(aday, p.get("f"), p.get("t"))
                     if sec is None:
+                        # 🔴 BİRLEŞİM SINAVI — kesin seçim yapılamadı AMA
+                        #   dönem SIFIR sınav yerine BİR sınavdan geçer.
+                        #   Fikir `denetim/arsiv-yama/YAMA-DENETLE-HARITA-0905.diff`
+                        #   (5 Eylül 2026) · `_HARITA_UZAYI`: aynı `harita:`
+                        #   anahtarını paylaşan künyelerin pencerelerinin
+                        #   BİRLEŞİMİYLE sına. O yamanın kendi uyarısı:
+                        #   *"Birleşim KASTEN geniştir — amaç ihlal ÜRETMEK
+                        #     değil, bugün hiç sınanmayan dönemleri EN AZ bir
+                        #     sınavdan geçirmek."*
+                        # ⚠️ `cok_harita` KAYDI DURUYOR ve bu kasıtlı: iki şey
+                        #   AYRI — "kesin sınav YAPILAMADI" (beyan) ve "kaba
+                        #   sınav GEÇTİ" (ölçüm). Beyanı silmek, ölçülemeyeni
+                        #   ölçülmüş göstermek olurdu (`D250`).
+                        # ✅ ÖNCE ÖLÇÜLDÜ: 9 çok künyeli takma ad · bugün
+                        #   `cok_harita` kovasında 10 dönem (hepsi `sirbistan`)
+                        #   · birleşime karşı sınandı ⇒ İHLAL **0**, hiçbir
+                        #   tavan değişmedi. Körlük gerçekti, saklı borç yoktu.
                         cok_harita.append((_ad, kim,
                                            [a[2] for a in aday],
                                            p.get("f"), p.get("t")))
-                        continue
-                    kf, kt = sec[0], sec[1]
+                        kf = min((a[0] for a in aday if a[0]), default=None)
+                        kt = max((a[1] for a in aday if a[1]), default=None)
+                    else:
+                        kf, kt = sec[0], sec[1]
             # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
             g = _gun_farki(p.get("f"), kt) if kt else None
             if g is not None and g > HAYALET_TOLERANS_GUN:
@@ -5074,9 +5093,16 @@ def main():
             for _a, _k, _ids, _f, _t in cok_harita:
                 _ch.setdefault(_k, (_ids, 0))
                 _ch[_k] = (_ids, _ch[_k][1] + 1)
+            # 🔴 METİN 1 EKİM 2026'DA DÜZELTİLDİ — eskisi "ölçülemedi"
+            #   diyordu ve BİRLEŞİM SINAVI eklendikten sonra bu YANLIŞ bir
+            #   beyan oldu: kesin seçim yapılamıyor AMA kaba sınav KOŞUYOR.
+            #   Aynı gece Altınorda'da düzeltilen kusurun aynısı: kaydın
+            #   kendi beyanı kaynak hakkında yanlış şey söylüyordu.
+            #   ⇒ "ölçülemedi" ile "KESİN ölçülemedi, KABA sınavı geçti"
+            #     aynı şey değildir; ikincisi bir SONUÇ, birincisi bir BOŞLUK.
             print(f"               🟡 {len(cok_harita)} dönem ÇOK KÜNYELİ "
-                  f"`harita:` takma adı ({len(_ch)} ad) — tarihe göre "
-                  f"seçilemedi, ölçülemedi")
+                  f"`harita:` takma adı ({len(_ch)} ad) — KESİN künye tarihe "
+                  f"göre seçilemedi; BİRLEŞİM penceresiyle sınandı ve geçti")
             for _k, (_ids, _n) in sorted(_ch.items(), key=lambda x: -x[1][1]):
                 print(f"                 {_k:<20} {_n} dönem → {_ids}")
 
