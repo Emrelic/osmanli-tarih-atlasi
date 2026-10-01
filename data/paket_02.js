@@ -255,8 +255,9 @@ window.OLAYLAR_EK8 = [
   ]
  },
  {
-  "t": "1603-01-01",
+  "t": "1603-03-01", "kesinlik": "ay",
   "b": "Deli Hasan Paşa isyanı ve Bosna beylerbeyiliğiyle yatıştırılması", "gun": "Şevval 1011 (Mart 1603)",
+  "ic_not_t": "önceki kayıt 1603-01-01 (yıl kodu; 1603'ün üç maddesi aynı güne yığılıyordu — 0081/H-0050). TDV mehmed-iii 'Şevval 1011 / Mart 1603' AY verir, gün vermez ⇒ 1603-03-01 + kesinlik:ay. ⚠️ Şevval 1011 ≈ 14 Mart–12 Nisan 1603; ay kodu hicrî ayın ~13 gün önünde (BALKAN-MACAR-0081 §H-0050) · UYGULA-OLAYLAR-0930",
   "tur": "isyan",
   "onem": 3,
   "dunya": 1,

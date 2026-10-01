@@ -642,10 +642,44 @@ function devletGuncelle(t) {
 // ⚠️ `<script>` etiketiyle yükleniyor, `eval` ile DEĞİL: dosya zaten
 //    `window.UFUK_BANT = …` yazan klasik bir betik ve tarayıcı onu kendi
 //    ayrıştırıcısıyla okumalı.
+// 🔴 30 Eylül 2026 (UFUK-DUGME-0930): `ufukGun` yalnız "HANGİ ufuk" değeridir;
+//    "bant AÇIK MI" sorusunu KATMAN cevaplar (`ufukAcik()` →
+//    `getLayoutProperty`). Eski hâlde `ufukGuncelle` açıklığı bu sayaçtan
+//    okuyordu — "iki denetleyici, biri sessizce kazanır" kusurunun aynısı;
+//    `dolguGuncelle` doğrusunu yapıyordu, bu yapmıyordu.
 var ufukGun = 5;                 // seçili ufuk (gün) — 5 = A, bant çizilmez
 var ufukVeri = null;             // yüklenmiş bant kayıtları (yoksa null)
+var ufukHavuz = null, ufukParca = null;   // tembel parcaCoz için havuzlar
 var ufukYukleniyor = false;
+var ufukBekleyen = [];           // yükleme sürerken gelen istekler
 var ufukImza = null;
+var ufukHata = null;             // "yok" | "biçim tanınmadı" | null
+
+// Tanınan biçimler (D240: okuyucunun modeli, verinin BİÇİMİ değişince
+// sessizce yanlışa geçer). Biçim dosyanın KENDİSİNDEN okunur:
+//   "kodlu" — `arac/kodla.py … bant` (30 Eylül 2026): ust.js düz JS
+//             (UFUK_BANT · UFUK_BANT_PARCA · UFUK_BANT_IZI) + parcalar.js
+//             `window.__UB_B64` (delta+varint+base64 HALKA havuzu →
+//             `geoCoz.havuzCoz`). 254,1 MB → 48,2 MB, GitHub'ın 100 MB/dosya
+//             sınırının altında.
+//   "ham"   — motorun kendi çıktısı (`UFUK_BANT_PARCALAR` düz dizi). Yayında
+//             YOK (.gitignore, 266 MB) ve ARTIK İSTENMEZ; yalnız ust.js bir gün
+//             havuzu düz taşırsa tanınsın diye.
+// `UFUK_BANT_IZI.bicim` yazılmışsa o da bu sözlükte olmalı. Tanınmayan
+// biçimde katman ÇİZİLMEZ — yanlış çizim, çizmemekten kötüdür.
+var UFUK_BICIMLER = { kodlu: true, ham: true };
+var UFUK_DOSYALAR = ["data/ufuk_bantlari_ust.js", "data/ufuk_bant_parcalar.js"];
+
+function ufukAcik() {
+  try {
+    return harita.getLayoutProperty("ufuk-bant-alan", "visibility") !== "none";
+  } catch (e) { return false; }  // katman henüz yok ⇒ kapalı
+}
+
+function ufukRozet(metin) {
+  var rz = document.getElementById("kat-sayi-ufuk");
+  if (rz) rz.textContent = metin;
+}
 
 function ufukSurum() {
   // Sürüm damgasını kendi <script> etiketinden okur — elle sayı YAZILMAZ,
@@ -657,43 +691,88 @@ function ufukSurum() {
 
 function ufukYukle(bitti) {
   if (ufukVeri) { bitti(true); return; }
+  if (ufukHata) { bitti(false); return; }      // bir kez denendi, sonuç belli
+  ufukBekleyen.push(bitti);
   if (ufukYukleniyor) return;
   ufukYukleniyor = true;
-  var s = document.createElement("script");
-  s.src = "data/ufuk_bantlari.js" + ufukSurum();
-  s.onload = function () {
+  function bildir(ok) {
     ufukYukleniyor = false;
-    var B = window.UFUK_BANT || null;
-    if (!B || !B.length) {
-      console.debug("Ⓑ ufuk: dosya yüklendi ama bant YOK — A'da kalınıyor");
-      bitti(false);
+    var b = ufukBekleyen; ufukBekleyen = [];
+    b.forEach(function (f) { f(ok); });
+  }
+  // SIRA ZORUNLU: ust → parcalar (petek_govde_ust/parca deseni). Klasik
+  // <script> ile — dosyalar `window.… = …` yazan betikler.
+  function sonraki(i) {
+    if (i >= UFUK_DOSYALAR.length) { cozVeKur(); return; }
+    var s = document.createElement("script");
+    s.src = UFUK_DOSYALAR[i] + ufukSurum();
+    s.onload = function () { sonraki(i + 1); };
+    s.onerror = function () {
+      ufukHata = "yok";
+      console.debug("Ⓑ ufuk: " + UFUK_DOSYALAR[i] + " YOK — A'da kalınıyor");
+      bildir(false);
+    };
+    document.head.appendChild(s);
+  }
+  sonraki(0);
+  function cozVeKur() {
+    var IZ = window.UFUK_BANT_IZI || {};
+    var bicim = IZ.bicim || (window.__UB_B64 ? "kodlu" :
+                             (window.UFUK_BANT_PARCALAR ? "ham" : "?"));
+    var t0 = performance.now();
+    if (UFUK_BICIMLER[bicim] && bicim === "kodlu") {
+      try {
+        window.UFUK_BANT_PARCALAR =
+          window.geoCoz.havuzCoz(window.geoCoz.b64Coz(window.__UB_B64));
+        window.__UB_B64 = null;          // 45 MB'lık dizgiyi bırak
+      } catch (e) {
+        ufukHata = "çözülemedi";
+        console.error("Ⓑ ufuk: kodlu havuz ÇÖZÜLEMEDİ — katman ÇİZİLMEDİ", e);
+        bildir(false);
+        return;
+      }
+    }
+    window.__UFUK_COZ_MS = Math.round(performance.now() - t0);
+    if (!UFUK_BICIMLER[bicim]) {
+      // (d) — sayılır ve BASILIR, çizilmez. Konsol ikincil; asıl yer rozet.
+      ufukHata = "biçim tanınmadı";
+      console.warn("Ⓑ ufuk: TANINMAYAN biçim '" + bicim + "' — tanınanlar: " +
+                   Object.keys(UFUK_BICIMLER).join(", ") + " · katman ÇİZİLMEDİ");
+      bildir(false);
       return;
     }
-    var HAV = window.UFUK_BANT_PARCALAR || [];
-    var PAR = window.UFUK_BANT_PARCA || [];
+    var B = window.UFUK_BANT || null;
+    if (!B || !B.length) {
+      ufukHata = "bant yok";
+      console.debug("Ⓑ ufuk: dosya yüklendi ama bant YOK — A'da kalınıyor");
+      bildir(false);
+      return;
+    }
+    ufukHavuz = window.UFUK_BANT_PARCALAR || [];
+    ufukParca = window.UFUK_BANT_PARCA || [];
+    // 🔴 TEMBEL: burada yalnız gün indeksleri kurulur. Geometri (`parcaCoz`)
+    //    `ufukGuncelle`de, kayıt o gün İLK KEZ görününce çözülür ve saklanır.
+    //    Eski hâlde 12.180 kaydın hepsi yüklemede çözülüyordu — aynı şemadaki
+    //    donemler.js (57,5 MB) yalnız ayrıştırmada 10 sn + 494 MB heap ölçüldü.
+    var n = 0;
     B.forEach(function (b) {
       (b.dnm || []).forEach(function (r) {
-        r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
-        r.ft = { type: "Feature",
-                 properties: { renk: DOLGU_RENK[r.d] || "#8e0b22", kim: r.d },
-                 geometry: parcaCoz(r.g, HAV, PAR) };
+        r.fi = gunIdx(r.f); r.ti = gunIdx(r.t); r.ft = null; n++;
       });
     });
     ufukVeri = B;
-    console.debug("Ⓑ ufuk: " + B.length + " bant yüklendi (" +
+    console.debug("Ⓑ ufuk: " + B.length + " bant · " + n + " kayıt · biçim " + bicim +
+      " · havuz " + ufukHavuz.length + " halka, çözüm " + window.__UFUK_COZ_MS + " ms (" +
       B.map(function (b) { return b.ad + ":" + (b.dnm || []).length; }).join(" · ") + ")");
-    bitti(true);
-  };
-  s.onerror = function () {
-    ufukYukleniyor = false;
-    console.debug("Ⓑ ufuk: data/ufuk_bantlari.js YOK (üretilmemiş) — A'da kalınıyor");
-    bitti(false);
-  };
-  document.head.appendChild(s);
+    bildir(true);
+  }
 }
 
 function ufukGuncelle(t) {
-  if (ufukGun <= 5 || !ufukVeri) return;
+  if (!ufukVeri) return;
+  // Açıklık KATMANDAN okunur (bkz. `ufukAcik`) — kapalıysa imza sıfırlanır
+  // ki açıldığında kesit yeniden yazılsın (`dolguGuncelle` deseni).
+  if (!ufukAcik() || ufukGun <= 5) { ufukImza = null; return; }
   var fs = [], imza = ufukGun + "|";
   for (var k = 0; k < ufukVeri.length; k++) {
     var b = ufukVeri[k];
@@ -706,6 +785,11 @@ function ufukGuncelle(t) {
     for (var i = 0; i < dnm.length; i++) {
       var r = dnm[i];
       if (!aktifAralik(r.fi, r.ti, t)) continue;
+      if (!r.ft) {
+        r.ft = { type: "Feature",
+                 properties: { renk: DOLGU_RENK[r.d] || "#8e0b22", kim: r.d },
+                 geometry: parcaCoz(r.g, ufukHavuz, ufukParca) };
+      }
       if (!r.ft.geometry || !r.ft.geometry.coordinates.length) continue;
       imza += k + ":" + i + ";";
       fs.push(r.ft);
@@ -716,31 +800,49 @@ function ufukGuncelle(t) {
   try {
     harita.getSource("ufuk-bant").setData({ type: "FeatureCollection", features: fs });
   } catch (e) { /* kaynak henüz kurulmadı */ }
-  var rozet = document.getElementById("kat-sayi-ufuk");
-  if (rozet) rozet.textContent = fs.length ? fs.length : "0";
+  ufukRozet(String(fs.length));
 }
 
-function ufukSeciciKur() {
-  var sec = document.getElementById("ufuk-sec");
+// Segment düğmesinin işaretli şıkkı KATMANDAN türetilir: katman kapalıysa
+// "5", açıksa `ufukGun`. Düğme kendi hâlini tutmaz, okur.
+function ufukSecimEsitle() {
+  var sec = document.getElementById("ufuk-segment");
   if (!sec) return;
-  sec.addEventListener("change", function () {
-    var istenen = parseInt(sec.value, 10) || 5;
+  var g = ufukAcik() ? ufukGun : 5;
+  sec.querySelectorAll('input[name="ufuk-gun"]').forEach(function (r) {
+    r.checked = (parseInt(r.value, 10) === g);
+  });
+}
+
+// 🔴 30 Eylül 2026 (UFUK-DUGME-0930) — `<select>` yerine üç şıklı SEGMENT
+// (radyo grubu, `input[name="ufuk-gun"]`). Emre: "bir switch ile görüntüyü
+// değiştirebilmek istiyorum" — tek tık, seçili ufuk hep görünür.
+// ⚠️ Radyolarda `data-katman` YOK: `katmanSeciciKur.uygula()` yalnız
+//    `input[data-katman]` gezer, bu katmana dokunmaz ⇒ TEK denetleyici.
+function ufukSeciciKur() {
+  var sec = document.getElementById("ufuk-segment");
+  if (!sec) return;
+  sec.addEventListener("change", function (ev) {
+    var hedef = ev.target;
+    if (!hedef || hedef.name !== "ufuk-gun") return;
+    var istenen = parseInt(hedef.value, 10) || 5;
     function uygula(varMi) {
-      ufukGun = (varMi && istenen > 5) ? istenen : 5;
-      if (!varMi && istenen > 5) sec.value = "5";   // sessiz geri dönüş
+      if (varMi && istenen > 5) ufukGun = istenen;
+      var ac = varMi && istenen > 5;
       try {
-        harita.setLayoutProperty("ufuk-bant-alan", "visibility",
-                                 ufukGun > 5 ? "visible" : "none");
+        harita.setLayoutProperty("ufuk-bant-alan", "visibility", ac ? "visible" : "none");
       } catch (e) { /* katman henüz yok */ }
       ufukImza = null;                 // kapanınca/açılınca kesit yeniden yazılsın
-      if (ufukGun > 5) { try { ufukGuncelle(suanki); } catch (e) {} }
+      if (ac) { try { ufukGuncelle(suanki); } catch (e) {} }
       else {
         try { harita.getSource("ufuk-bant").setData(bosVeri()); } catch (e) {}
-        var rz = document.getElementById("kat-sayi-ufuk");
-        if (rz) rz.textContent = "";
+        // Başarısız yüklemede SESSİZ geri dönüş YOK — sebep rozette durur.
+        ufukRozet(istenen > 5 && ufukHata ? ufukHata : "");
       }
+      ufukSecimEsitle();               // düğme katmanın GERÇEK hâlini göstersin
     }
     if (istenen <= 5) { uygula(true); return; }
+    if (!ufukVeri && !ufukHata) ufukRozet("yükleniyor…");
     ufukYukle(uygula);
   });
 }
@@ -772,20 +874,23 @@ function bVeriKapisi() {
       if (em) em.textContent = NOT;
     }
   }
-  var sec = document.getElementById("ufuk-sec");
+  var sec = document.getElementById("ufuk-segment");
   if (!sec) return;
-  var lb2 = sec.closest("label");
-  var ozgun = Array.prototype.map.call(sec.options, function (o) { return o.textContent; });
+  var lb2 = sec.closest(".secici-satir");
   function ufukDurum(varMi) {
-    Array.prototype.forEach.call(sec.options, function (o, i) {
-      if (parseInt(o.value, 10) <= 5) return;
-      o.disabled = !varMi;
-      o.textContent = varMi ? ozgun[i] : ozgun[i] + " — " + NOT;
+    sec.querySelectorAll('input[name="ufuk-gun"]').forEach(function (r) {
+      if (parseInt(r.value, 10) <= 5) return;
+      r.disabled = !varMi;
     });
-    if (!varMi) sec.value = "5";
-    sec.title = varMi ? "Yürüyüş ufku — 5 gün bugünkü harita (A)"
+    if (!varMi) {
+      try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "none"); } catch (e) {}
+      ufukSecimEsitle();
+    }
+    sec.title = varMi ? "Yürüyüş ufku — 5 gün bugünkü harita (A); 7 ve 10 gün ek bantları gösterir"
                       : "Yürüyüş ufku — yalnız 5 gün (A) var; 7/10 gün bantları " + NOT;
     if (lb2) lb2.classList.toggle("b-pasif", !varMi);
+    if (!varMi) ufukRozet(NOT);
+    else if (!ufukAcik()) ufukRozet("");
   }
   // 🔴 VARSAYILAN PASİF, yoklama TEMBEL. İlk sürüm açılışta HEAD atıyordu ve
   // dosya yokken HER ZİYARETÇİYE bir 404 ödetiyordu (ölçüldü, ağ kaydında
@@ -798,13 +903,13 @@ function bVeriKapisi() {
     if (yoklandi) return;
     yoklandi = true;
     try {
-      fetch("data/ufuk_bantlari.js" + ufukSurum(), { method: "HEAD", cache: "no-store" })
+      fetch(UFUK_DOSYALAR[0] + ufukSurum(), { method: "HEAD", cache: "no-store" })
         .then(function (r) { ufukDurum(!!r.ok); })
         .catch(function () { ufukDurum(false); });
     } catch (e) { /* fetch yok — pasif kalır */ }
   }
   (lb2 || sec).addEventListener("pointerenter", yokla);
-  sec.addEventListener("focus", yokla);
+  sec.addEventListener("focusin", yokla);    // radyo grubu: `focus` baloncuklanmaz
 }
 
 var dolguImza = null;
@@ -2712,8 +2817,13 @@ harita.on("load", function () {
   koridorKur();
   nehriUsteAl();
   katmanSeciciKur();
-  ufukSeciciKur();          // Ⓑ üç kademeli ufuk (5 / 7 / 10 gün)
-  bVeriKapisi();            // ARAYUZ-0077 H-78:1 — verisi olmayan B ayarı AÇIKÇA pasif
+  // 🔴 try ŞART (UFUK-DUGME-0930, 30 Eylül): bu ikisi `haritaHazir`dan ÖNCE
+  // koşuyor. 30 Eylül yarım yayınında (yeni index.html + eski app.js) eski
+  // `bVeriKapisi` yeni işaretlemede `sec.options`ı okuyabilirdi ⇒ TypeError,
+  // kurulum yarıda, `atlas-hazir` hiç gelmez, perde kalkmaz. Bir AYARIN
+  // kusuru siteyi açılmaz kılmamalı.
+  try { ufukSeciciKur(); } catch (e) { console.error("Ⓑ ufuk seçicisi kurulamadı:", e); }
+  try { bVeriKapisi(); } catch (e) { console.error("Ⓑ veri kapısı kurulamadı:", e); }
 
   var lejant = document.createElement("div");
   lejant.className = "lejant";

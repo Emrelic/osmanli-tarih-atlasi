@@ -907,6 +907,23 @@ def main():
         "data/bekleyen_yerlesim_ok102.js": "3 nokta — AYRICA `el-Ulâ` mükerreri (ok107 ile 100 m), önce birleşme",
         "data/yerlesimler_ok107.js":     "14 nokta — AYRICA `Ulâ (el-Ulâ)` mükerreri (ok102 ile 100 m), önce birleşme",
 
+        # ══ 1 EKİM 2026 — KRONOLOJİ ÖNKOŞULU BEKLİYOR ══════════════════════
+        # 🔴 Bu dosya "bağlanmayı bekliyor" değil, "bağlanMAMALI"dır — ve
+        #    sebebini KENDİ BAŞLIĞINDA yazmış (NOKTA-KAFKAS-0077, 27 Eylül):
+        #      "bu iki noktanın 1916/1918 kırılmalarının ±30 gün içinde
+        #       olaylar*.js'te madde YOK … Bağlanmadan önce o maddeler
+        #       yazılmazsa Değişmez 2 açık verir."
+        #    ⇒ Bağlamak Değişmez 2'yi (sessiz toprak değişimi) BOZAR, ve o
+        #      ölçüt gevşetilemez (`CLAUDE.md §3`). Önce kronoloji maddeleri
+        #      (Rize 1916-03-08 · Bayburt/Gümüşhane 1916-07-16/19 · geri alış
+        #      1918-02/03 — liste `denetim/NOKTA-KAFKAS-0077.md §5`), SONRA bağlama.
+        # 📌 Kapı ayrıca bu dosya için AD UYARISI veriyor ve o da haklı:
+        #    `yerlesimler*` adı "motorun okuduğu girdi" demektir, bu dosya ise
+        #    henüz girdi DEĞİL. İki çareden biri gerekir — ya kronoloji yazılıp
+        #    bağlanır, ya adı `yer_yama_`ya döner. İkisi de SAHİBİNİN işi;
+        #    burada BEYAN ediliyor ki yayın tek bir bilinen kalem için durmasın.
+        "data/yerlesimler_p77_kafkas.js": "2 nokta (Çayeli · Gümüşhane) — ÖNKOŞUL: 1916/1918 kronoloji maddeleri yazılmadan bağlanırsa Değişmez 2 açık verir (dosyanın kendi başlığı söylüyor)",
+
         # ══ 2 EYLÜL GECESİ DOĞAN ÇALIŞMA DOSYALARI ══
         # Üçü de bu gece açılan kolların ÜRÜNÜ ve hiçbiri tarayıcıya
         # gitmez: ikisi bir ARACIN girdisi, biri henüz yarım.
