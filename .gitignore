@@ -217,6 +217,30 @@ ClaudEmre-kutu/
 # ignore EDİLMEDİ. Sebebi `CLAUDE.md §4`: alıntılar "önbellekteki gövdeden
 # kelimesi kelimesine" alınır, yani o gövdeler ALINTININ DELİLİDİR. Silinirse
 # hiçbir alıntı bir daha doğrulanamaz. Ağır ama kasıtlı.
-# ⚠️ `agy/` (890 dosya) izlenMİYOR, ama `gemini/` (25) ve `glm/` (24) izleniyor —
-# dış işçi çıktılarında tutarsızlık. Karar verilmedi, kalem açıldı: ya üçü de
-# izlenir ya üçü de ignore edilir; 890 dosyayı gözden geçirmeden eklemem.
+# ── `agy/` — KARAR VERİLDİ, 1 Ekim 2026 gece nöbeti, ÖLÇÜMLE ────────────
+# Eski not "gemini/ ve glm/ izleniyor, agy/ izlenmiyor ⇒ tutarsızlık" diyordu
+# ve kararı "890 dosyayı gözden geçirmeden eklemem" diye erteliyordu. Gözden
+# geçirildi: **tutarsızlık YOK, çünkü agy/ aynı TÜRDEN şey değil.**
+#     agy/     890 dosya · 229 MB · üç CHROME PROFİLİ (cold/test/warm)
+#              + 30 log · 17 .old · 6 .db · .db-wal · .journal · .pma
+#     gemini/   25 dosya ·  3,3 MB  (hepsi izleniyor)
+#     glm/      45 dosya · 28 MB    (24'ü izleniyor)
+# gemini/ ve glm/ İÇERİK üretir (alıntı delili, `CLAUDE.md §4`); agy/ ise bir
+# TARAYICI ÇALIŞMA ALANIdır. Delil değil, artık.
+#
+# 🔴 VE ASIL GEREKÇE DOSYA SAYISI DEĞİL, GİZLİLİK: profillerde ad bazında
+# ölçüldü (içerik AÇILMADI) — 33 adet `Login Data` · `Login Data For Account`
+# · `History` · `Web Data` · `Local State` dosyası var. Bu depo HERKESE AÇIK
+# (github.com/Emrelic/osmanli-tarih-atlasi = Pages kaynağı). Bir tek
+# `git add agy/` tarayıcı oturum/parola/geçmiş veritabanlarını YAYINLAR.
+# ⇒ `parti-kasa-*` kuralıyla AYNI SINIF (orada 14 hastanın TC'si, burada
+#   tarayıcı kimlik deposu): ignore, kural insanın hafızası olmadığı için.
+# ✓ ÖLÇÜLDÜ: geçmişe HİÇ girmemiş — `git log --all -- agy/` 0 commit,
+#   `--diff-filter=A -- '*Login Data*' '*Cookies*' '*Local State*'` boş.
+#   Yani bu bir SIZINTI TEMİZLİĞİ değil, ÖNLEMEDİR. Geçmiş temiz kaldı.
+# 📌 `.py` ölçüm betikleri HARİÇ tutuldu: 3 dosya (olcum_agy1 · test_cdp ·
+#   test_prof_parse), toplam 30 KB, gizli veri taşımıyor ve değeri olabilir.
+#   Onların izlenip izlenmeyeceği AYRI ve acelesi olmayan bir karardır —
+#   ignore edilmedikleri için `??` olarak görünür kalırlar.
+/agy/*
+!/agy/*.py
