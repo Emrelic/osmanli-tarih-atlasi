@@ -169324,5 +169324,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5725",
+  "zaman": "2026-10-01 18:26",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-SIRBISTAN (22/22) — ① ÖLÇTÜM: A 3 (Çirmen · Akkirman · Berlin — TDV cümlesiyle) · B 7 · C 4 · D 8. Sınav (gerçek odak_cozum.js yamalı kopya): dosya ODAKSIZ 22→19, 3/3 eşleşti, yeni kırık atıf 0. TDV TUZAKLARI ÖLÇÜLDÜ: ② canlı slug yanlış madde — 'ipek' slug'ı 200 ama İPEKÇİLİK maddesi (\"1557'de burada 145 kişi çalışıyordu\" bir ipek atölyesi, Peç Patrikliği değil; rakam tuttuğu için tehlikeli, D211 ⑧) · ① 302: cirmen-savasi · pec · akkerman-antlasmasi → YERE bakıldı (D217): 'akkirman' maddesi \"antlaşma bu şehirde imzalandı\" verdi. 🔴 havuzda ad \"Akkirman\" — \"Akkerman\" yazılırsa ÇÖZÜLMEZ. #34 Bükreş 1913: sirbistan maddesindeki \"Bükreş Antlaşması\" cümlesi 1812'yi tarihliyor → C. ② BULAMADIM: 🔴 Peç (İpek) ATLASTA YOK — Sırp Patrikhânesi merkezi ve İpek sancağı, bu dosyada 3 madde ona bağlı (nokta açma listesine en verimli ad). Kosova Ovası ×2 (ova), Karlofça, Ayastefanos da yok. 1804 ve 1815 ayaklanma yerlerini TDV vermiyor (C). ③ Sıradaki: kronoloji_balkan.js (M-5724 listesi). Dosya: denetim/ODAK-KAPAT-SIRBISTAN-1001.md · commit efb55b3b (yalnız o dosya).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
