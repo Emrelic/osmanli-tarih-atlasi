@@ -146,13 +146,49 @@ UYGULANMADI, hükmün bekliyor:
 
 ---
 
-## 6. SIRADAKİ (senin sıralamanı bekliyor)
+## 6. 245 ODAKSIZ İÇİN ÖNERİ HAZIR — ve YENİ bir kusur sınıfı çıktı
+
+`denetim/ARAC-ODAK-ONER-1001.js` yazıldı: odaksız maddenin **başlık
+metninden** `yer_id` önerir. 🔴 **Önerir, uygulamaz** — çıktı
+`denetim/ODAK-ONERI-1001.json`.
 ```
-1  üretim izi hükmü (yukarıda ③)                      → kapı tam temize geçer
-2  YENİ KAPSAM kovası: 6 dosyada 245 odaksız          → %88 ve %50'lik oranlar
-                                                        yeni maddelerin odak
-                                                        disiplininin zayıf olduğunu
-                                                        söylüyor, kapanmalı
+taranan odaksız      245   (kapının sayısıyla birebir)
+✓ tek adlı öneri      53
+⚪ birden çok ad       14   (hangisi odak, araç bilemez)
+🔴 BELİRSİZ ad          1   ("Mora" — yine o)
+🔴 KİŞİ/HANEDAN/DEVLET  5   (aşağıda)
+⚪ hiç ad bulunamadı  172   (%70)
+```
+📌 **%70'inin metninde yer adı YOK.** Bu da bir ölçüm: "odaksız 245" bir
+ARAÇ borcu değil, bir **veri girişi** borcudur; çoğu araştırma ister.
+
+### 🔴 D249 — kişi adı yerleşim adıyla eşleşiyor, ve hiçbir kapı ötmüyor
+İlk koşu 57 öneri verdi; gözle okununca **dördü yanlıştı**:
+```
+Bulgar → 54,98/49,03  İDİL BULGAR (Kazan)   madde: BALKAN Bulgarları (~2000 km)
+David  →  8,43/-82,43 DAVID, PANAMA         madde: Ermeni kralı David
+Sena   → -17,45/35,03 SENA, MOZAMBİK        madde: Bengal'in Sena hanedanı
+Roman  → 46,93/26,93  ROMAN, ROMANYA        madde: Roman Mstislaviç (knez)
+```
+Üçü kişi/hanedan, biri devlet adı — eşleşen kelime maddenin **öznesi**,
+mekânı değil. Ve `ARAC-ODAK-BELIRSIZ` bunu **göremez**: o alet "aynı ad, iki
+UZAK nokta" arar, bunların havuzda **tek** noktası var ⇒ belirsiz sayılmazlar.
+🔴 Bu sınıf `D242`den tehlikeli: orada kamera yanlış yere uçuyordu ve bir gün
+fark edilebilirdi; burada `yer_id` yanlış yere **kalıcı** yazılacaktı ve
+sonraki her denetim onu *"çözülüyor, tek nokta"* diye TEMİZ sayacaktı —
+**kusur kendi kanıtını üretecekti.**
+
+⚠️ **Uygulamadım.** Hedef dosyalar duran ONCE1281-* / INCE-* oturumlarının; 53
+kalemi 05:00'te başkasının dosyasına yazmak §7'ye de, aracın kendi doktrinine
+de aykırı olurdu (*"uygulayan 53 kalemi tek tek okur, kısayolu yoktur"* —
+57'nin 4'ü ancak gözle görüldü).
+
+---
+
+## 7. SIRADAKİ (senin sıralamanı bekliyor)
+```
+1  üretim izi hükmü (§3)                              → kapı tam temize geçer
+2  ODAK-ONERI-1001.json'daki 53 kalem                 → okunup uygulanacak
 3  KASA'nın 2 öneri dosyası (13 atıf + 77 rusya)      → 15 gün düşürme ÖLÇÜM ister
 4  ad_esanlam.js 25 kayıt ÖKSÜZ                        → kapı doğruladı: app.js
                                                         okumuyor, index yüklemiyor
