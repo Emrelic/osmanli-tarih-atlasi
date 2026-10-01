@@ -627,14 +627,56 @@ BEKLENEN_ACIK_S = 189   # 1 EKIM 2026 (gece): 195 -> 191 -> 189
 #   tavan bu yüzden güncellendi, yoksa sonraki oturum olmayan bir kaydı arar.
 BEKLENEN_2S_YIL_BORC = 151
 # 🔴 1 EKIM 2026 — BU SAYI TERS YONE GITTI: olculen 164 > tavan 151.
-# Tavani YUKSELTMIYORUM, cunku sebep bir kusur DEGIL bir ZORUNLULUK ve
-# gorunur kalmasi gerekiyor: gecenin 1281-oncesi ve Sahra-alti maddelerinde
-# gun hassasiyeti KAYNAKTA YOK, `D210` geregi `YYYY-01-01` yazildi ve her biri
-# "yil-temsili borc" olarak sayiliyor. Yani borc, DOGRU davranmanin bedeli.
-# ⇒ Uyari otmeye DEVAM EDECEK ve etmeli. Kapanma yolu tek: o maddelerin gunu
-#   kaynakta bulununca yazilir. Tavani yukseltmek borcu gizlemek olurdu.
+# Tavan YUKSELTILMEDI ve bu dogru karardi. AMA ILK YAZDIGIM GEREKCE YANLISTI;
+# YAZICI KASA PC olctu ve curuttu (denetim/KASA-YILTEMSILI-1001.md).
+#
+# ✗ YANLIS GEREKCE (benim, ve iki kez "dogru" diye onayladim):
+#   "gecenin 1281-oncesi ve Sahra-alti MADDELERINDE gun kaynakta yok,
+#    D210 geregi YYYY-01-01 yazildi, borc dogru davranmanin bedeli"
+# 🔴 NICIN YANLIS: bu sayac MADDE saymiyor, KIRILMA sayiyor. Bir kronoloji
+#   maddesi bir kirilmayi ancak KAPATIR — borc ACAMAZ. Yani gece yazilan
+#   maddeler bu sayaci BUYUTEMEZ. Buyuten sey yerlesimlerin `s:` donemleridir.
+#   Mekanizmayi ters anlatan bir yorum, sonraki oturumu olmayan bir sebebin
+#   pesine dusurur (`D248`in kardesi: yazdim ama OLCMEDIM).
+#
+# ✓ OLCULEN GERCEK (KASA; taban commit'i `git log -S` ile bulundu: 4113f793,
+#   20 Eyl 15:39, o gunun kodu+verisi worktree'de kosuldu ve 151 CIKTI ⇒
+#   yontem dogrulandi):
+#     ORTAK 144 · YENI 20 · DUSEN 7   (net +13)
+#     kod degisimi SIFIR: degismez2 · kapsam_disi · yil_temsili_ayir ·
+#       _madde_yeri_aniyor · olaylari_yukle · KUYRUK_DOSYALARI ·
+#       KAPSAM_ESIGI_KM  → taban ile HEAD arasinda md5 AYNI
+#     ⇒ artisin TAMAMI VERIDEN.
+#   YENI 20'nin sinifi: A 12 (tabanda kirilma yoktu) · B 6 (kirilma vardi,
+#   YENI YER eklendi ve madde o yeri anmiyor) · C 2 (kapsam disindan girdi).
+#   DUSEN 7: 3'u ODENDI (madde yazildi: 1422 · 1428 · 1457).
+#   ⚠️ Tuzak: borc kayitlari yer adlarinin yalniz ilk 4'unu tasir; ad
+#     duzeyinde kiyas "55 yeni / 42 dusen" diyordu, 80 birim GRUPLAMA farkiydi.
+#
+# 🔴 VE TAVANIN 164'E CEKILMEMESININ GERCEK SEBEBI BU: 13'un hepsi mesru DEGIL.
+#   108 donemin kaynak notu okundu:
+#     mesru, "YIL" beyanli      1283 · 1365 · 1369 · 1448 · 1526-Konstantin ·
+#                               1535 · 1540 · 1584 · 1814-Kotor
+#     🟠 yili KUNYEDEN devralmis 1330 Eflak ("bitis = kunye eflak f") ·
+#        (notun KENDI cumlesi)  1359 Bogdan (+ CIKARIM) · 1526 Barito ·
+#                               1836 Hail  ← veri 1836, not "TDV 1835 der"
+#     not YOK (beyansiz)        1341 · 1374 · 1475 · 1505 · 1557 · 1684 ·
+#                               1814-Kukava/Berens · 1836-Oyo
+#   "Gun kaynakta VAR ama -01-01 yazilmis": KANITLANAN 0 (aday 1: 1330'un
+#   notu Posada muharebesini aniyor, kaynak acilmadi ⇒ olculemedi).
+#   ⇒ Tavani 164 yapmak, KUNYEDEN DEVRALINAN 4 ve BEYANSIZ 8 kirilmayi da
+#     AFFEDERDI. Onlar "dogru davranmanin bedeli" DEGIL, beyan ve kaynak
+#     eksigi — ve `kunyenin f:/t: gunu bir KAYNAK DEGILDIR` (`D207`/`D210`).
+#     1836 Hail ise kaynakla acikca CELISIYOR: ayri bir veri kusuru.
+# ⇒ Tavan 151'de KALIR. Uyari otmeye devam edecek ve etmeli. Kapanma yolu:
+#   ① 4 kunye-devralmasi kaynaga baglanir ya da yil beyan edilir
+#   ② 8 beyansiz kirilma not alir  ③ 1836 Hail kaynakla hizalanir
 # 📌 Ve bu, gecenin OTEKI yedi tavanini INDIRIRKEN bunu indirMEMEnin gerekcesi:
 #   tavan iki yonde de takip edilir, ama YUKSELTME bir olcum degil bir AFTIR.
+# 📌 KASA'nin ongorusu de tutmadi ve o da raporda: yeni ~18/dusen ~5,
+#   veri 12/kod 6, kusur 1-3 demisti; olcum 20/7, veri 20/KOD 0, kusur 0 +
+#   4 kunye-devralma. "Kod 6" beklerken 0 cikmasi, aramayi dogru yere
+#   cevirdi — tutmayan ongoru, olcumun bir sey OGRETTIGININ kanitidir.
 
 # ═══ `Degismez 2i` — ISGAL kirilmasinin maddesi var mi ═══════════════════
 # 🔴 VERI KRONOLOJI 3 (7 Agustos 2026) olctu ve IKI VAKAYLA dogruladi:
