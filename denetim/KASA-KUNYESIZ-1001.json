@@ -1,0 +1,1269 @@
+{
+ "olcum": "KASA-KUNYESIZ-1001 · YAZICI KASA PC · 2026-10-01",
+ "ongoru_olcumden_once": "ÖNGÖRÜ (ölçümden ÖNCE) — 2026-10-01 16:30:27\n23 künyesiz kimlik, üç kova:\n  A) künye gerçekten eksik      : 8\n  B) künye var, yazım farklı    : 10   (harita: takma adı / eşanlam / tire-yazım)\n  C) kasıtlı/teknik kimlik      : 5    (__BOSLUK__ benzeri, dolgu/çöl işaretleri)\nGerekçe: 4c/4d ailesinde \"künye yok\" vakalarının çoğu yazım ekseniydi (D215 aceh→ace-sultanligi).\n",
+ "evren": {
+  "yerlesim": 4296,
+  "kunyesiz_donem": 1131,
+  "ayri_kimlik": 23,
+  "kaynak": "arac/denetle.py degismez4() — birebir aynı işlev çağrıldı",
+  "alan": "yalnız yerleşim s:[].d (v:/isg:/taraflar ayrıca sayıldı)"
+ },
+ "kova": {
+  "A-kunye-eksik": 0,
+  "B-harita-takma-adi": 22,
+  "C-teknik": 1
+ },
+ "cozum_donem": {
+  "tek_kunye": 1042,
+  "coklu_sirbistan_1402_sinirini_kapsayan": 10,
+  "bosluk": 79
+ },
+ "cozulurse_4_ailesinde_yeni": {
+  "4c": 3,
+  "4d": 7,
+  "4s": 0
+ },
+ "kimlikler": [
+  {
+   "kimlik": "avusturya",
+   "donem": 245,
+   "yerlesim": 172,
+   "dosyalar": {
+    "yerlesimler.js": 110,
+    "yerlesimler_seyrek.js": 3,
+    "yerlesimler_ek2.js": 2,
+    "yerlesimler_ek5.js": 1,
+    "yerlesimler_ek.js": 29,
+    "yerlesimler_avrupa.js": 18,
+    "yerlesimler_ek29.js": 43,
+    "yerlesimler_serhat.js": 1,
+    "yerlesimler_kdmacar.js": 1,
+    "yerlesimler_ek_macaristan.js": 7,
+    "yerlesimler_p0037.js": 3,
+    "yerlesimler_a78_avrupa.js": 25,
+    "yerlesimler_p77_avrupa.js": 2
+   },
+   "alanlar": {
+    "s:d": 245,
+    "isg:d": 26
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1918-11-28",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "habsburg"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [
+    "avustralya"
+   ],
+   "ad_eslesen": [
+    "habsburg",
+    "bosna-isgal",
+    "avusturya-cumhuriyet",
+    "avusturya-ikinci-cumhuriyet",
+    "avusturya-dukaligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "habsburg",
+    "avusturya-cumhuriyet",
+    "avusturya-ikinci-cumhuriyet",
+    "avusturya-dukaligi"
+   ],
+   "ornek_yerlesim": [
+    "Anvers (Antwerpen)",
+    "Arlon",
+    "Banaluka",
+    "Bastogne"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "habsburg",
+      "1282-01-01",
+      "1918-11-11"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 245
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "suleyman-celebi",
+   "donem": 236,
+   "yerlesim": 150,
+   "dosyalar": {
+    "yerlesimler.js": 143,
+    "yerlesimler_seyrek.js": 3,
+    "yerlesimler_ek23.js": 6,
+    "yerlesimler_ek24.js": 29,
+    "yerlesimler_ek29.js": 13,
+    "yerlesimler_serhat.js": 2,
+    "yerlesimler_sinir_kuzey.js": 14,
+    "yerlesimler_ok104.js": 2,
+    "yerlesimler_ok107.js": 18,
+    "yerlesimler_a78_avrupa.js": 6
+   },
+   "alanlar": {
+    "s:d": 236
+   },
+   "en_eski": "1402-07-28",
+   "en_yeni": "1411-02-17",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "fetret-suleyman"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "fetret-suleyman"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "fetret-suleyman"
+   ],
+   "ornek_yerlesim": [
+    "Absu (Hypsu)",
+    "Adranos (Orhaneli)",
+    "Ahtapolu (Ahtopol)",
+    "Akhisar (Pamukova)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "fetret-suleyman",
+      "1402-07-28",
+      "1411-02-17"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 236
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "musa-celebi",
+   "donem": 172,
+   "yerlesim": 86,
+   "dosyalar": {
+    "yerlesimler.js": 86,
+    "yerlesimler_seyrek.js": 2,
+    "yerlesimler_ek23.js": 4,
+    "yerlesimler_ek24.js": 26,
+    "yerlesimler_ek29.js": 12,
+    "yerlesimler_serhat.js": 2,
+    "yerlesimler_sinir_kuzey.js": 14,
+    "yerlesimler_ok104.js": 2,
+    "yerlesimler_ok107.js": 18,
+    "yerlesimler_a78_avrupa.js": 6
+   },
+   "alanlar": {
+    "s:d": 172
+   },
+   "en_eski": "1410-02-13",
+   "en_yeni": "1413-07-05",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "fetret-musa"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "fetret-musa"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "fetret-musa"
+   ],
+   "ornek_yerlesim": [
+    "Babadağı (Babadag)",
+    "Bolayır",
+    "Debre (Dibra)",
+    "Dedeağaç (Alexandroupoli)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "fetret-musa",
+      "1411-02-17",
+      "1413-07-05"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 172
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "mehmed-celebi",
+   "donem": 127,
+   "yerlesim": 68,
+   "dosyalar": {
+    "yerlesimler.js": 119,
+    "yerlesimler_seyrek.js": 2,
+    "yerlesimler_ek23.js": 4,
+    "yerlesimler_ek29.js": 2
+   },
+   "alanlar": {
+    "s:d": 127
+   },
+   "en_eski": "1402-07-28",
+   "en_yeni": "1413-07-05",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "fetret-mehmed"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "fetret-mehmed"
+   ],
+   "ornek_yerlesim": [
+    "Absu (Hypsu)",
+    "Adranos (Orhaneli)",
+    "Akhisar (Pamukova)",
+    "Akyazı"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "fetret-mehmed",
+      "1402-07-28",
+      "1413-07-05"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 127
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "__BOSLUK__",
+   "donem": 79,
+   "yerlesim": 70,
+   "dosyalar": {
+    "yerlesimler.js": 6,
+    "yerlesimler_ek4.js": 1,
+    "yerlesimler_avrupa.js": 5,
+    "yerlesimler_ek17.js": 2,
+    "yerlesimler_h2_rusya.js": 1,
+    "yerlesimler_afrika2.js": 1,
+    "yerlesimler_nokta_asya_0917.js": 13,
+    "yerlesimler_nokta_ortadogu_0917.js": 5,
+    "yerlesimler_nokta_afrika_0917.js": 1,
+    "yerlesimler_a78_asya.js": 42,
+    "yerlesimler_a78_avrupa.js": 2
+   },
+   "alanlar": {
+    "s:d": 79
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1920-10-08",
+   "boyalar_da": false,
+   "harita_takma_adi_olan_kunye": [],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [],
+   "ornek_yerlesim": [
+    "Alay vadisi (bölge)",
+    "Anapa",
+    "Atapupu",
+    "Baram (bölge)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [],
+    "cozum": {
+     "0-eslesme": 79
+    },
+    "pencere_disi_ornek": [
+     [
+      "Berat",
+      "1281-01-01",
+      "1417-01-01"
+     ],
+     [
+      "Lugos (Lugoj)",
+      "1554-04-07",
+      "1596-05-10"
+     ],
+     [
+      "Lugos (Lugoj)",
+      "1689-01-01",
+      "1695-01-01"
+     ],
+     [
+      "Anapa",
+      "1441-01-01",
+      "1475-06-06"
+     ]
+    ]
+   },
+   "kova": "C-teknik"
+  },
+  {
+   "kimlik": "isa-celebi",
+   "donem": 59,
+   "yerlesim": 59,
+   "dosyalar": {
+    "yerlesimler.js": 55,
+    "yerlesimler_seyrek.js": 1,
+    "yerlesimler_ek23.js": 2,
+    "yerlesimler_ek29.js": 1
+   },
+   "alanlar": {
+    "s:d": 59
+   },
+   "en_eski": "1402-07-28",
+   "en_yeni": "1403-09-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "fetret-isa"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "fetret-isa"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "fetret-isa"
+   ],
+   "ornek_yerlesim": [
+    "Absu (Hypsu)",
+    "Adranos (Orhaneli)",
+    "Akhisar (Pamukova)",
+    "Akyazı"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "fetret-isa",
+      "1403-01-01",
+      "1403-09-01"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 59
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "sirbistan",
+   "donem": 29,
+   "yerlesim": 29,
+   "dosyalar": {
+    "yerlesimler.js": 15,
+    "yerlesimler_ek.js": 1,
+    "yerlesimler_ek29.js": 1,
+    "yerlesimler_serhat.js": 2,
+    "yerlesimler_ek_bosluk.js": 1,
+    "yerlesimler_ok104.js": 1,
+    "yerlesimler_ok107.js": 8
+   },
+   "alanlar": {
+    "s:d": 29
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1457-01-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "sirbistan-nemanjic",
+    "sirp-despotlugu",
+    "sirbistan-prensligi",
+    "sirbistan-kralligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [
+    "suudi-arabistan"
+   ],
+   "ad_eslesen": [
+    "sirbistan-nemanjic",
+    "sirbistan-prensligi",
+    "sirbistan-kralligi",
+    "sirbistan-eyaleti"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "sirbistan-nemanjic",
+    "sirp-despotlugu",
+    "sirbistan-prensligi",
+    "sirbistan-kralligi",
+    "sirbistan-eyaleti"
+   ],
+   "ornek_yerlesim": [
+    "Alacahisar (Kruševac)",
+    "Belgrad",
+    "Debre (Dibra)",
+    "Doyran"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "sirbistan-nemanjic",
+      "1166-01-01",
+      "1402-01-01"
+     ],
+     [
+      "sirp-despotlugu",
+      "1402-01-01",
+      "1459-06-20"
+     ],
+     [
+      "sirbistan-prensligi",
+      "1804-02-14",
+      "1882-03-06"
+     ],
+     [
+      "sirbistan-kralligi",
+      "1882-03-06",
+      "1918-12-01"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 19,
+     "coklu": 10
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi-coklu"
+  },
+  {
+   "kimlik": "yemen",
+   "donem": 29,
+   "yerlesim": 12,
+   "dosyalar": {
+    "yerlesimler.js": 23,
+    "yerlesimler_ok104.js": 6
+   },
+   "alanlar": {
+    "s:d": 29
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1923-10-29",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "yemen-zeydi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "yemen-zeydi",
+    "tahiri",
+    "hamdani-yemen",
+    "ziyadi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "yemen-zeydi",
+    "tahiri",
+    "zureyi",
+    "hamdani-yemen",
+    "benu-mehdi-zebid"
+   ],
+   "ornek_yerlesim": [
+    "Aden",
+    "Ebha (Asir)",
+    "Ferasan (Farasan)",
+    "Hudeyde"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "yemen-zeydi",
+      "897-01-01",
+      "1962-09-26"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 29
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "ceneviz",
+   "donem": 24,
+   "yerlesim": 24,
+   "dosyalar": {
+    "yerlesimler.js": 19,
+    "yerlesimler_kirim.js": 4,
+    "yerlesimler_afrika.js": 1
+   },
+   "alanlar": {
+    "s:d": 24
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1797-06-14",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "cenova"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "cenova",
+    "teodoro"
+   ],
+   "ornek_yerlesim": [
+    "Aluşta",
+    "Amasra",
+    "Ayacyo (Ajaccio)",
+    "Azak"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "cenova",
+      "1005-01-01",
+      "1797-06-14"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 24
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "bulgaristan",
+   "donem": 22,
+   "yerlesim": 21,
+   "dosyalar": {
+    "yerlesimler.js": 16,
+    "yerlesimler_ek24.js": 1,
+    "yerlesimler_ek29.js": 3,
+    "yerlesimler_sinir_kuzey.js": 2
+   },
+   "alanlar": {
+    "s:d": 22
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1396-10-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "bulgar-carligi",
+    "bulgaristan-prensligi",
+    "bulgaristan-kralligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "bulgaristan-prensligi",
+    "bulgaristan-kralligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "bulgar-carligi",
+    "bulgaristan-prensligi",
+    "sarki-rumeli",
+    "bulgaristan-kralligi",
+    "birinci-bulgar"
+   ],
+   "ornek_yerlesim": [
+    "Babadağı (Babadag)",
+    "Elhova (Elhovo)",
+    "Eski Zağra (Stara Zagora)",
+    "Filibe"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "bulgar-carligi",
+      "1185-01-01",
+      "1396-01-01"
+     ],
+     [
+      "bulgaristan-prensligi",
+      "1878-07-13",
+      "1908-10-05"
+     ],
+     [
+      "bulgaristan-kralligi",
+      "1908-10-05",
+      "1946-09-15"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 22
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi-coklu"
+  },
+  {
+   "kimlik": "sardinya",
+   "donem": 21,
+   "yerlesim": 21,
+   "dosyalar": {
+    "yerlesimler.js": 5,
+    "yerlesimler_avrupa.js": 12,
+    "yerlesimler_a78_avrupa.js": 4
+   },
+   "alanlar": {
+    "s:d": 21
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1861-03-17",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "sardinya-piyemonte"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "sardinya-piyemonte",
+    "arborea"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "savoya",
+    "sardinya-piyemonte"
+   ],
+   "ornek_yerlesim": [
+    "Ancona",
+    "Annemasse",
+    "Aosta",
+    "Bergamo"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "sardinya-piyemonte",
+      "1720-08-02",
+      "1861-03-17"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 21
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "suud",
+   "donem": 19,
+   "yerlesim": 18,
+   "dosyalar": {
+    "yerlesimler.js": 17,
+    "yerlesimler_ok101.js": 1,
+    "yerlesimler_ok107.js": 1
+   },
+   "alanlar": {
+    "s:d": 19
+   },
+   "en_eski": "1744-01-01",
+   "en_yeni": "1818-09-09",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "suud-birinci",
+    "suud-ikinci",
+    "suud-ucuncu",
+    "suudi-arabistan"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "suud-birinci",
+    "suud-ikinci",
+    "suud-ucuncu",
+    "suudi-arabistan"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "suud-birinci",
+    "misir-kavalali",
+    "suud-ikinci",
+    "suud-ucuncu",
+    "hicaz-kralligi"
+   ],
+   "ornek_yerlesim": [
+    "Bedir",
+    "Buraydâ (Kasîm)",
+    "Cübeyl",
+    "Dir'iye (Necid)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "suud-birinci",
+      "1744-01-01",
+      "1818-09-09"
+     ],
+     [
+      "suud-ikinci",
+      "1824-06-01",
+      "1891-01-24"
+     ],
+     [
+      "suud-ucuncu",
+      "1902-01-15",
+      "1932-09-18"
+     ],
+     [
+      "suudi-arabistan",
+      "1932-09-18",
+      "1945-09-02"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 19
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi-coklu"
+  },
+  {
+   "kimlik": "sovalye",
+   "donem": 16,
+   "yerlesim": 16,
+   "dosyalar": {
+    "yerlesimler.js": 16
+   },
+   "alanlar": {
+    "s:d": 16
+   },
+   "en_eski": "1310-08-15",
+   "en_yeni": "1798-06-12",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "rodos-sovalyeleri"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "rodos-sovalyeleri",
+    "teuton-devleti"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "rodos-sovalyeleri",
+    "prusya-dukaligi",
+    "teuton-sovalyeleri"
+   ],
+   "ornek_yerlesim": [
+    "Aydın",
+    "Batnoz (Patmos)",
+    "Bodrum",
+    "Herke (Halki)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "rodos-sovalyeleri",
+      "1310-01-01",
+      "1798-06-12"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 16
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "bosna",
+   "donem": 15,
+   "yerlesim": 15,
+   "dosyalar": {
+    "yerlesimler.js": 9,
+    "yerlesimler_seyrek.js": 3,
+    "yerlesimler_ek2.js": 2,
+    "yerlesimler_ek.js": 1
+   },
+   "alanlar": {
+    "s:d": 15
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1482-01-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "bosna-kralligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "bosna-kralligi",
+    "bosna-isgal",
+    "bosna-eyaleti"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "bosna-kralligi",
+    "bosna-isgal",
+    "hersek",
+    "bosna-eyaleti"
+   ],
+   "ornek_yerlesim": [
+    "Banaluka",
+    "Foça (Foča)",
+    "Herseknovi (Herceg Novi)",
+    "Koniçe (Konjic)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "bosna-kralligi",
+      "1180-01-01",
+      "1463-05-01"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 15
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "hicaz",
+   "donem": 15,
+   "yerlesim": 15,
+   "dosyalar": {
+    "yerlesimler.js": 7,
+    "yerlesimler_ok101.js": 4,
+    "yerlesimler_ok107.js": 2,
+    "yerlesimler_nokta_ortadogu_0917.js": 2
+   },
+   "alanlar": {
+    "s:d": 15
+   },
+   "en_eski": "1916-06-10",
+   "en_yeni": "1923-10-29",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "hicaz-kralligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "suud-ucuncu",
+    "hicaz-kralligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "hicaz-kralligi",
+    "mekke-serifligi"
+   ],
+   "ornek_yerlesim": [
+    "Bedir",
+    "Cidde",
+    "Hayber",
+    "Hurma (Tâif doğusu)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "hicaz-kralligi",
+      "1916-06-10",
+      "1925-12-31"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 15
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "lusignan",
+   "donem": 6,
+   "yerlesim": 6,
+   "dosyalar": {
+    "yerlesimler.js": 6
+   },
+   "alanlar": {
+    "s:d": 6
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1489-02-26",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "kibris-krallik"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "kibris-krallik"
+   ],
+   "ornek_yerlesim": [
+    "Baf (Paphos)",
+    "Girne (Kyrenia)",
+    "Lefkoşa",
+    "Limasol"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "kibris-krallik",
+      "1192-01-01",
+      "1489-02-26"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 6
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "milanoduka",
+   "donem": 6,
+   "yerlesim": 6,
+   "dosyalar": {
+    "yerlesimler.js": 1,
+    "yerlesimler_avrupa.js": 5
+   },
+   "alanlar": {
+    "s:d": 6
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1535-11-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "milano-dukaligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [
+    "milano-dukaligi"
+   ],
+   "ad_eslesen": [
+    "milano-dukaligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "milano-dukaligi"
+   ],
+   "ornek_yerlesim": [
+    "Bergamo",
+    "Brescia",
+    "Milano",
+    "Padova"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "milano-dukaligi",
+      "1097-01-01",
+      "1859-11-10"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 6
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "atinadukaligi",
+   "donem": 4,
+   "yerlesim": 4,
+   "dosyalar": {
+    "yerlesimler.js": 4
+   },
+   "alanlar": {
+    "s:d": 4
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1456-06-04",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "atina-dukaligi"
+   ],
+   "ayni_normal_id": "atina-dukaligi",
+   "yakin_id": [
+    "atina-dukaligi",
+    "naksa-dukaligi"
+   ],
+   "ad_eslesen": [
+    "atina-dukaligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "atina-dukaligi"
+   ],
+   "ornek_yerlesim": [
+    "Atina",
+    "Kulluk (Salamis)",
+    "Livadya",
+    "İstefe (Tebai)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "atina-dukaligi",
+      "1205-01-01",
+      "1458-06-04"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 4
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "arnavutluk",
+   "donem": 2,
+   "yerlesim": 2,
+   "dosyalar": {
+    "yerlesimler.js": 1,
+    "yerlesimler_ok104.js": 1
+   },
+   "alanlar": {
+    "s:d": 2
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1478-06-16",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "arnavutluk-iskenderbey",
+    "arnavutluk-bagimsiz",
+    "arnavutluk-halk-cumhuriyeti"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "arnavutluk-iskenderbey",
+    "arnavutluk-bagimsiz",
+    "arnavutluk-halk-cumhuriyeti"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "arnavutluk-iskenderbey",
+    "arnavutluk-bagimsiz",
+    "dukagin",
+    "arvanid-sancagi",
+    "arnavutluk-osmanli"
+   ],
+   "ornek_yerlesim": [
+    "Akçahisar (Kruja)",
+    "Mat (Mati)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "arnavutluk-iskenderbey",
+      "1443-01-01",
+      "1479-01-25"
+     ],
+     [
+      "arnavutluk-bagimsiz",
+      "1912-11-28",
+      "1939-04-07"
+     ],
+     [
+      "arnavutluk-halk-cumhuriyeti",
+      "1944-11-29",
+      "1945-09-02"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 2
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi-coklu"
+  },
+  {
+   "kimlik": "kaffa",
+   "donem": 2,
+   "yerlesim": 2,
+   "dosyalar": {
+    "yerlesimler_afrika.js": 2
+   },
+   "alanlar": {
+    "s:d": 2
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1897-10-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "kaffa-kralligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "kaffa-kralligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "kaffa-kralligi"
+   ],
+   "ornek_yerlesim": [
+    "Bonga (Kaffa)",
+    "Cimma (Jiren)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "kaffa-kralligi",
+      "1390-01-01",
+      "1897-09-10"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 2
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "cimma",
+   "donem": 1,
+   "yerlesim": 1,
+   "dosyalar": {
+    "yerlesimler_afrika.js": 1
+   },
+   "alanlar": {
+    "s:d": 1
+   },
+   "en_eski": "1830-01-01",
+   "en_yeni": "1923-10-29",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "cimma-sultanligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "cimma-sultanligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "cimma-sultanligi"
+   ],
+   "ornek_yerlesim": [
+    "Cimma (Jiren)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "cimma-sultanligi",
+      "1830-01-01",
+      "1933-01-01"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 1
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "sidamo",
+   "donem": 1,
+   "yerlesim": 1,
+   "dosyalar": {
+    "yerlesimler_afrika.js": 1
+   },
+   "alanlar": {
+    "s:d": 1
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1897-01-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "sidamo-kralliklari"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "sidamo-kralliklari"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "sidamo-kralliklari"
+   ],
+   "ornek_yerlesim": [
+    "Yirgalem (Sidamo)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "sidamo-kralliklari",
+      "1281-01-01",
+      "1897-01-01"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 1
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  },
+  {
+   "kimlik": "vollayta",
+   "donem": 1,
+   "yerlesim": 1,
+   "dosyalar": {
+    "yerlesimler_afrika.js": 1
+   },
+   "alanlar": {
+    "s:d": 1
+   },
+   "en_eski": "1281-01-01",
+   "en_yeni": "1894-01-01",
+   "boyalar_da": true,
+   "harita_takma_adi_olan_kunye": [
+    "vollayta-kralligi"
+   ],
+   "ayni_normal_id": null,
+   "yakin_id": [],
+   "ad_eslesen": [
+    "vollayta-kralligi"
+   ],
+   "bolge_gecen": [],
+   "devletler_metninde_gecen": [
+    "vollayta-kralligi"
+   ],
+   "ornek_yerlesim": [
+    "Sodo (Vollayta)"
+   ],
+   "harita_cozum": {
+    "harita_kunyeleri": [
+     [
+      "vollayta-kralligi",
+      "1281-01-01",
+      "1894-01-17"
+     ]
+    ],
+    "cozum": {
+     "1-eslesme": 1
+    },
+    "pencere_disi_ornek": []
+   },
+   "kova": "B-harita-takma-adi"
+  }
+ ]
+}
