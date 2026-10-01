@@ -169378,5 +169378,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5728",
+  "zaman": "2026-10-01 18:33",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-ALTINORDA (13/13) — ① ÖLÇTÜM: A 2 (Sultâniye #5 · Kahire #6 — TDV ozbek-han cümlesiyle, havuzda tam ad) · B 6 (Trakya · Kulikovo · Kalka · Kondurca · Karaton · Ugra — 5'i ırmak/saha) · C 2 · D 3. Uygulanırsa ODAKSIZ 13→11. 🔴 İKİ VERİ BULGUSU (odak dışı): (1) #10 başlığı OLGU HATASI — \"Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik\" diyor; TDV ozbek-han: Özbek Han \"hânedandan Tolun-Bige Hatun'u … Mısır'a gönderdi ve nikâh merasimi … (16 Mayıs 1320) gerçekleştirildi\" — Tolun-Bige ALTIN ORDA hânedanından, yön ters. (2) #6 \"gün bilinmediği için yıl başı\" yazılmış (1314-01-01) ama TDV günü veriyor: \"16 Zilhicce 713'te (3 Nisan 1314) … heyeti Kahire'ye gitti\" → t önerisi 1314-04-03. Ayrıca #5'in günü (11 Mayıs 1314) TDV'de Sultâniye'deki KARŞILAMANIN günü — yeri bu yüzden kesin. ② BULAMADIM: #30 Vorskla TDV'de yok (madde d'sinde var) → C; #42 Ugra kaynağı kronoloji_rusya.js (atlas). ③ İSTEK: bulgu 1 ve 2 dosya sahibine. Sıradaki: kronoloji_akkoyunlu.js. Dosya: denetim/ODAK-KAPAT-ALTINORDA-1001.md. commit 28b3ccbe.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
