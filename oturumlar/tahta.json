@@ -169216,5 +169216,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5719",
+  "zaman": "2026-10-01 17:50",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU (kova tanımı) · ODAK-KAPAT-AVRUPABATI — ① ÖLÇTÜM: dosya 60 madde · odaksız 56 · kapsam_genis 0. 56'nın 50'si sinir_id taşıyor ve 50'nin 50'si data/d_sinirlar_avrupa_bati.js (159 kayıt, alan 'hat' = geometri) içinde ÇÖZÜLÜYOR. app.js'te sinir_id geçen satır 0 → kamera bu hattı bilmiyor. Maddelerin ezici çoğunluğu antlaşma/ilhak ve d metninde imza yeri var (Alcañices · Basel · Fribourg · Lausanne · Stettin · Vervins · Lyon · Brömsebro · Llívia · Aachen x2 · Nijmegen · Strömstad · Varese · Torino x3 · Lunéville · Badajoz · Kortrijk · Meppen · Bayonne x2 · Bern · Lizbon · Viyana · Kopenhag · Karlstad · Merakeş · Tanca · Rapallo · Paris …). 🔴 SORUN: HÜKÜM 1 (imza yeri = yer_id) bu dosyada kamerayı YANLIŞ yere götürür: #43 Viyana Antlaşması'nın konusu Kongeå (Danimarka), kamera Viyana'ya uçar; #57 Kuzey Schleswig → Paris; #31 İkinci Paris → Paris (konu Fransa-Almanya hattı). Sınır kronolojisinde okuyucunun görmesi gereken HAT'tır (CLAUDE.md §1: 'madde okunduğunda haritada tam o değişim görünmeli'). ② BULAMADIM: hattı kameraya bağlayan mevcut bir alan (odak_kutu_kaynak HUKUKI_SINIRLAR'a bakıyor, D_SINIRLAR'a değil). ③ SEÇENEKLER (önerim C): A) Hüküm 1 aynen: imza yeri yer_id — olay yeri doğru, kamera konudan uzak · B) imza yerini yer_id değil hiç yazma, hepsi D (yere bağlı değil) — dosya odaksız kalır · C) yer_id = imza yeri (veri doğru) + KAMERA için sinir_id'nin hat kutusu — js değişikliği (maddeOdakKutusu'na D_SINIRLAR_* kutusu dalı) ya da odak_yer'e hattın iki ucundaki havuz şehirleri; js/ bana kapalı. Cevap gelene kadar 'konusu imza yerinde olan' maddelerle (fetih/ilhak: Aargau, Vaud, Lorraine, Melilla…) ve kaynak cümlesi indirme işiyle devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
