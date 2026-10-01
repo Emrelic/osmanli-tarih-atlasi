@@ -74,7 +74,41 @@ Motorun gerçek kütüphaneleri (AST ile ölçüldü):
 | **EMRELIC** | **koordinasyon + ölçme + planlama + kullanıcı gözü + paket maddesi** | Emre burada oturuyor. Koordinatör iş YAPMAZ (§7.1) ⇒ en yavaş CPU sorun değil. 🔴 İşçi oturumları buraya açılmayacak |
 | **KASA** | **kod yazma + hafif denetim + yedek koşucu** | 4 gerçek çekirdek 3,0 GHz · 15,9 GB. Değişmez 8 hariç her denetim koşar. Yedek: UMIT 2 saat kilitliyken |
 | **LAB/EMRE** | **araştırma + denetleme** | Bugün 81 odaksız maddeyi tek tek okudu; disk en hızlı (0,086). Koşu yapamaz (RAM 7,88 < 8,5, **yükseltilemez**) |
-| **HAVVA** | **şimdilik YÜK ALMAZ** | Eczasist ana makinesi, 0,49 GB boş. RAM gelince araştırma/ikinci kol |
+| **HAVVA** | **şimdilik YÜK ALMAZ → sonra KOŞUCU** | **Botanik Eczane** ana makinesi (ölçüldü). RAM gelince KOŞUCU olacak — Emre kararı |
+
+🔴 **"Eczasist" KAYDI DÜZELTİLDİ (1 Ekim 2026 akşamı).** Bu satırda
+*"HAVVA Eczasist ana makinesi"* yazıyordu. HAVVA ölçtü: **"Eczasist" adlı
+süreç YOK**; çalışan yazılım `C:\BotanikEczane` altında (BotanikEczane ·
+BotanikMedula ×3 · BotanikKasa · BotanikEFatura ×2 · BotanikOtomatik ·
+BotanikTarama · BotanikBildirim ≈ 840 MB). Emre doğruladı: *"Eczasist başka
+program, Botanik Eczane başka."*
+📌 Ve ölçüm bir kalemi daha kapattı: **HAVVA'da hiçbir veritabanı motoru
+çalışmıyor** (MSSQL · Firebird · Postgres · MySQL — hepsi boş). Botanik'in
+SQL Server'ı UMIT'te; HAVVA onun İSTEMCİSİ (çıkarım, ölçüm değil).
+⇒ Koşucu makinenin veritabanı sunucusu OLMAMASI, HAVVA'yı koşu için
+  UMIT'ten uygun kılıyor — Emre'nin gerekçesi ölçümle desteklendi.
+
+### 🆕 ROL DAĞITIMI — Emre'nin kararı (1 Ekim 2026 akşamı)
+```
+HAVVA    KOSUCU          (RAM gelince; en iyi islemci + en cok RAM, DB sunucusu DEGIL)
+UMIT     KOD YAZICISI    (su an kosucu+yayinci; devrettikten sonra kod/GUI/uygulama)
+KASA     DENETLEMECI     (bu gece 9 teslim, kanitli)
+LAB      ARASTIRMACI     (bu gece 6 teslim, 71 kalem tek tek)
+EMRELIC  KOORDINATOR     (gozlemci · planlamaci · hukum; IS YAPMAZ)
+```
+🔴 **Ve bu, koordinatörün bu gece ihlal ettiği bir kuralı onarıyor:**
+`§7.1` *"KOORDİNATÖR iş YAPMAZ, dağıtır"* diyor; oysa bu gece bütün
+uygulamaları koordinatör yaptı (LAB'in 4 hükmü · `degismez4` · yamalar).
+"Yazıcı" rolü adlandırılmamıştı ve koordinatör onu üstlenmişti.
+⇒ Hüküm koordinatörde KALIR, **uygulama yazıcıya geçer.** Ayrım: *hangi kova,
+  hangi tavan, `yer_id` yazılacak mı* = HÜKÜM · *dosyada hangi bayt değişecek*
+  = UYGULAMA.
+⚠️ Açık protokol sorusu (Emre'nin kararı bekliyor): `§7` *"push ve paylaşılan
+  dosyalar Oturum 0'da"* diyor. (a) yazıcı yazar, koordinatör push eder —
+  kural değişmez · (b) yazıcı yazar ve push eder — `§7` değişir.
+  Koordinatörün önerisi **(a)**: yayın kapısı bu gece iki kez bayat paket
+  yakaladı ve bir kez de kapı push'tan SONRA koşturulup hata yapıldı;
+  yazan el ile kontrol eden el ayrı olmalı.
 
 ---
 
