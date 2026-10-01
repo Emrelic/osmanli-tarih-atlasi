@@ -88,13 +88,13 @@ window.KRONOLOJI_ALTINORDA = [
 
 { t:"1314-05-11", b:"Özbek Han İlhanlı hükümdarı Olcaytu'ya elçi gönderdi", tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Sultâniye",
   d:"Cülûsunun hemen ardından Özbek Han, Altın Orda'nın güneydeki büyük rakibi İlhanlılar'a elçi yolladı. İki Moğol devleti arasındaki Azerbaycan-Kafkasya çekişmesi Berke Han'dan beri sürüyordu; elçilik bu çekişmeyi bir süreliğine diplomasi zeminine çekme girişimidir.", ic_not_d:"yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
   kaynak:"TDV, madde: ozbek-han (11 Mayıs 1314 tarihli elçilik)" },
 
 { t:"1314-01-01", b:"Kahire'ye 174 kişilik büyük elçilik heyeti gönderildi — Memlük ittifakının tazelenmesi", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis",
   etiket:["diplomasi","siyaset","ittifak","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Kahire",
   d:"Özbek Han, Berke Han'dan beri süren Altın Orda-Memlük yakınlaşmasını yüz yetmiş dört kişilik olağanüstü kalabalık bir heyetle tazeledi. İki devleti birleştiren şey ortak düşmandı: İlhanlılar. Bu eksen, Kıpçak bozkırından Mısır'a giden köle (memlük) akışının da siyasî çerçevesidir. Gün bilinmediği için yıl başına yazıldı.",
   kaynak:"TDV, madde: ozbek-han — 174 kişilik Kahire elçiliği (GÜN VERİLMİYOR)" },
 

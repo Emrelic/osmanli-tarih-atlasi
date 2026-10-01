@@ -500,7 +500,7 @@ window.KRONOLOJI_AKKOYUNLU = [
 
 { t:"1505-01-01", b:"Elvend öldü", gun:"H. 911 / 1505 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["olum","hanedan","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"Diyarbakır",
   d:"911 (1505) yılında Tebriz'i kaybeden Elvend öldü. Bölünmüş devletin iki kolundan biri böylece sahipsiz kaldı ve geriye yalnız Murad'ın Irak kolu kaldı.",
   kaynak:"akkoyunlular" },
 

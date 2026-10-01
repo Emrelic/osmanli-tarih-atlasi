@@ -97,7 +97,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"Historisches Lexikon der Schweiz 'Lausanner Vertrag'" },
 
 { t:"1570-12-13", devlet:"danimarka", devletler:["danimarka","isvec"], sinir_id:"dg6-dk-se-1751-oncesi",
-  b:"Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  b:"Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Stettin (Szczecin)",
   etiket:["antlasma","konu-siyasi","danimarka","isvec","norvec-kralligi"],
   d:"Danimarka-Norveç ile İsveç Stettin'de barış imzaladı. İsveç işgal ettiği Jämtland ve Härjedalen'i geri verdi ve Gotland'dan resmen vazgeçti; Älvsborg için 150.000 taler fidye ödemeyi üstlendi. Aynı kaynak barışı savaş öncesi sınıra dönüş olarak da nitelendiriyor.",
   kaynak:"Store norske leksikon 'Den nordiske sjuårskrigen'" },
@@ -132,13 +132,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"Pireneler Antlaşması ve Llívia sözleşmesi metni (Digithèque MJP, Perpignan Üniversitesi) · UNTS c.1288 No. 907 (Bayonne 1866 md. XVI)" },
 
 { t:"1668-05-02", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-guneyhol-fr-1",
-  b:"Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+  b:"Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Aachen",
   etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya"],
   d:"Fransa ile İspanya arasında imzalanan Aachen Barışı İspanyol Hollandası ile Fransa arasındaki sınırı değiştirdi. Güney Hollanda–Fransa sınırı 1659, 1668, 1678 ve 1697 barışlarıyla defalarca değişti; bu hatların koordinatı haritada yoktur.",
   kaynak:"Aachen Antlaşması metni (Digithèque MJP, 1668aix)" },
 
 { t:"1678-09-17", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-fr-ch-jura-1",
-  b:"Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  b:"Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Nijmegen",
   etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya","isvicre"],
   d:"Fransa ile İspanya arasındaki Nijmegen Barışı'nın XI. maddesiyle Franş-Konte Fransa'ya bırakıldı. Böylece bugünkü Fransa–İsviçre sınırının Jura kesimine komşu olan bölge Fransız oldu; İspanyol Hollandası sınırında da yeni değişiklikler yapıldı.",
   kaynak:"Nijmegen Antlaşması (Fransa–İspanya) metni, md. XI (Digithèque MJP, 1678nimegue)" },
@@ -156,7 +156,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"IBS No. 12 Italy–Switzerland (Treaty of Varese)" },
 
 { t:"1760-03-24", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","fransa"], sinir_id:"dg5-sa-fr-2",
-  b:"Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  b:"Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Torino",
   etiket:["sinir","antlasma","konu-siyasi","sardinya-piyemonte","fransa"],
   d:"Fransa ile Sardinya Krallığı, Savoy ve Nice kontluğu boyunca uzanan ortak sınırlarını Torino'da imzalanan antlaşmayla düzenledi. Bu hat 1792'de Savoy'un Fransa'ya katılmasına kadar sürdü; koordinatı haritada yoktur.",
   kaynak:"Torino Antlaşması 1760 metni (Digithèque MJP, 1760turin; Wenck derlemesi) · BnF katalog kaydı" },
@@ -216,7 +216,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"HLS 'Wallis'" },
 
 { t:"1814-05-30", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"d1923-fr-ch",
-  b:"Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+  b:"Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Paris",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","isvicre","sardinya-piyemonte"],
   d:"Napolyon'un yenilgisinden sonra imzalanan Birinci Paris Antlaşması Fransa'nın sınırlarını yeniden çizdi ve İsviçre Konfederasyonu'nun bağımsızlığını bugünküne büyük ölçüde benzeyen sınırlarla tanıdı. 1815 bildirisi, 1818 Bern sözleşmesi ve 1824 Neuchâtel tutanağı hattı tamamladı; 1862 Dappes takası dışında bu hat yaklaşık 140 yıl değişmedi. ABD Dışişleri çalışması antlaşmanın gününü bir yerde 20 Mayıs olarak veriyor; İsviçre Tarih Sözlüğü 30 Mayıs diyor.",
   kaynak:"IBS No. 11 France–Switzerland · HLS 'Pariser Frieden' · Digithèque MJP (1814paris)" },

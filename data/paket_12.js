@@ -3282,7 +3282,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `navarin` (İdris Bostan, 2006): '29 Rebîülevvel 1243'te (20 Ekim 1827) İngiliz, Fransız ve Rus donanmalarından oluşan müttefiklerin limanda bulunan Osmanlı-Mısır donanmasına karşı düzenledikleri âni baskın... elli iki gemi ve 6000 denizci' + TDV `yunanistan`." },
 
 { taraflar:["yunanistan"], t:"1829-09-14", b:"Edirne Antlaşması", tur:"antlasma",
-  onem:3, dunya:4, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"",
+  onem:3, dunya:4, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"Edirne",
   d:"1827-1829 Osmanlı-Rus Savaşı, Rus ordularının Edirne'ye kadar ilerlemesiyle sona erdi. İmzalanan antlaşmayla Osmanlı Devleti, Yunan bağımsızlığını öngören Londra düzenlemelerini fiilen kabul etmek zorunda kaldı.",
   kaynak:"TDV `yunanistan`: 'Rusya, Osmanlı Devleti'ne karşı savaş açtı ve 1827-1829 savaşında Rus orduları Edirne'ye kadar ilerleyerek bu şehri ele geçirdi.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Treaty of Adrianople')." },
 
@@ -12198,7 +12198,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1885-01-01", b:"Radloff Manas derlemelerini Petersburg'da yayımladı", tur:"bilim", onem:3, dunya:1, kapsam:"dis",
   etiket:["bilim","kultur","edebiyat","konu-bilim","konu-kultur"],
-  yer_id:"",
+  yer_id:"St. Petersburg",
   d:"W. Radloff, 1862, 1864 ve 1869 yıllarındaki Kırgızistan gezilerinde Manas'tan parçalar derleyip yazıya geçirdi ve bunları Proben der Volkslitteratur der türkischen Stämme adlı eserinin V. cildinde (St. Petersburg 1885) Kırgızca, Rusça ve Almanca olarak yayımladı. Velihanoğlu'nun 1861'de Rus Coğrafya Derneği dergisinde çıkardığı Kökütey Han'ın Aşı bölümüyle birlikte bu yayın, Kırgız sözlü geleneğinin dünya bilimine girişidir.",
   kaynak:"manas-destani (TDV)" }
 
@@ -13322,7 +13322,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 { t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — ağır yenilgi", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
+  yer_id:"Çirmen",
   d:"Parçalanmış Sırp beylikleri Vukašin ve Uglješa kardeşlerin ordusu, Meriç nehri kıyısında Osmanlı akıncı kuvvetlerine ağır bir yenilgiye uğradı; Makedonya'daki Sırp direnişinin belkemiği burada kırıldı ve Kosova'ya giden yol açıldı.",
   kaynak:"TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan Sırplar...' Gün akademik kaynaktan (26 Eylül 1371, standart tarih)." },
 
@@ -13430,7 +13430,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 { taraflar:["sirbistan-prensligi"], t:"1826-10-07", b:"Akkerman Sözleşmesi — Sırp haklarının genişletilmesi garanti edildi", tur:"antlasma",
   onem:2, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Akkirman",
   d:"Osmanlı-Rus Akkerman Sözleşmesi'nin bir maddesi, 1812 Bükreş Antlaşması'nda Sırplara tanınan hakların genişletilerek uygulanmasını Osmanlı Devleti'ne taahhüt ettirdi; Rusya böylece Sırp özerklik davasının resmî hâmisi konumunu pekiştirdi.",
   kaynak:"akademik: B. Jelavich, History of the Balkans (1983) — TDV `sirbistan` maddesi bu antlaşmadan ayrıca bahsetmiyor, akademik kaynağa dayanıldı (`CLAUDE.md §4` taneciklik kuralı)." },
 
@@ -13466,7 +13466,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 { t:"1878-07-13", b:"Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","kurulus","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Berlin",
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Sırbistan'ın tam bağımsızlığını uluslararası düzeyde kesin biçimde tescil etti ve Niş ile Pirot şehirlerini Sırbistan'a bıraktı. Dört asır süren Osmanlı bağlılığı burada resmen sona erdi. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
   kaynak:"TDV `berlin-antlasmasi`: 'Sırbistan'ın bağımsızlığı tanınacak, kendisine Niş ve Pirot verilecekti.'" },
 

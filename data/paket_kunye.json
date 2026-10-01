@@ -206,11 +206,11 @@
     },
     {
      "yol": "data/kronoloji_bizans.js",
-     "sha": "3f575c76523dc79f",
-     "bayt": 52759
+     "sha": "d3056e29342cd19e",
+     "bayt": 53445
     }
    ],
-   "bayt": 420940
+   "bayt": 421626
   },
   {
    "paket": "data/paket_07.js",
@@ -279,8 +279,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_bati.js",
-     "sha": "5a8e29534bd0f84d",
-     "bayt": 50537
+     "sha": "5ff485a3047e79eb",
+     "bayt": 50580
     },
     {
      "yol": "data/kronoloji_sinir_ortadogu.js",
@@ -343,15 +343,15 @@
      "bayt": 87929
     }
    ],
-   "bayt": 1013023
+   "bayt": 1013066
   },
   {
    "paket": "data/paket_10.js",
    "kaynak": [
     {
      "yol": "data/kronoloji_akkoyunlu.js",
-     "sha": "f841002f707c36ef",
-     "bayt": 62674
+     "sha": "7f5829c511ec8ba6",
+     "bayt": 63267
     },
     {
      "yol": "data/kronoloji_karakoyunlu.js",
@@ -359,15 +359,15 @@
      "bayt": 54783
     }
    ],
-   "bayt": 117790
+   "bayt": 118383
   },
   {
    "paket": "data/paket_11.js",
    "kaynak": [
     {
      "yol": "data/kronoloji_altinorda.js",
-     "sha": "428bac2df4c599a3",
-     "bayt": 41321
+     "sha": "ac95184428cf4764",
+     "bayt": 41666
     },
     {
      "yol": "data/kronoloji_hollanda.js",
@@ -400,7 +400,7 @@
      "bayt": 24761
     }
    ],
-   "bayt": 363885
+   "bayt": 364230
   },
   {
    "paket": "data/paket_12.js",
@@ -422,8 +422,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "cbf98a8bc1e0ad3b",
-     "bayt": 136622
+     "sha": "9bac97737a225c6d",
+     "bayt": 136628
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -517,8 +517,8 @@
     },
     {
      "yol": "data/kronoloji_orta_asya.js",
-     "sha": "5858784b8394e7f0",
-     "bayt": 146194
+     "sha": "4015d844cd65f47c",
+     "bayt": 146208
     },
     {
      "yol": "data/kronoloji_rodos_sovalyeleri.js",
@@ -532,8 +532,8 @@
     },
     {
      "yol": "data/kronoloji_sirbistan.js",
-     "sha": "95f9bb77822a388b",
-     "bayt": 32739
+     "sha": "bef0d8334744c529",
+     "bayt": 32760
     },
     {
      "yol": "data/kisiler.js",
@@ -546,7 +546,7 @@
      "bayt": 147441
     }
    ],
-   "bayt": 1808071
+   "bayt": 1808112
   },
   {
    "paket": "data/paket_13.js",

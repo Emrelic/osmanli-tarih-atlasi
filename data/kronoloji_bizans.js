@@ -308,7 +308,7 @@ window.KRONOLOJI_BIZANS = [
 
 { t:"1371-09-26", b:"ÇİRMEN (Meriç) SAVAŞI — Sırp direnişi imha edildi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
+  yer_id:"Çirmen",
   d:"Meriç kıyısında baskına uğrayan Sırp ordusu yok edildi ve Makedonya'daki beylikler birer birer Osmanlı'ya tâbi oldu. Bizans için sonuç doğrudandı: Balkanlar'da kendisini koruyabilecek son müttefik kuvvet ortadan kalktı ve iki yıl sonra imparator da tâbiyeti kabul edecekti.",
   kaynak:"el-kitabi" },
 

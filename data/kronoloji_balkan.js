@@ -817,7 +817,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `navarin` (İdris Bostan, 2006): '29 Rebîülevvel 1243'te (20 Ekim 1827) İngiliz, Fransız ve Rus donanmalarından oluşan müttefiklerin limanda bulunan Osmanlı-Mısır donanmasına karşı düzenledikleri âni baskın... elli iki gemi ve 6000 denizci' + TDV `yunanistan`." },
 
 { taraflar:["yunanistan"], t:"1829-09-14", b:"Edirne Antlaşması", tur:"antlasma",
-  onem:3, dunya:4, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"",
+  onem:3, dunya:4, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"Edirne",
   d:"1827-1829 Osmanlı-Rus Savaşı, Rus ordularının Edirne'ye kadar ilerlemesiyle sona erdi. İmzalanan antlaşmayla Osmanlı Devleti, Yunan bağımsızlığını öngören Londra düzenlemelerini fiilen kabul etmek zorunda kaldı.",
   kaynak:"TDV `yunanistan`: 'Rusya, Osmanlı Devleti'ne karşı savaş açtı ve 1827-1829 savaşında Rus orduları Edirne'ye kadar ilerleyerek bu şehri ele geçirdi.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Treaty of Adrianople')." },
 

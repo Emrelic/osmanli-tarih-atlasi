@@ -1381,7 +1381,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1885-01-01", b:"Radloff Manas derlemelerini Petersburg'da yayımladı", tur:"bilim", onem:3, dunya:1, kapsam:"dis",
   etiket:["bilim","kultur","edebiyat","konu-bilim","konu-kultur"],
-  yer_id:"",
+  yer_id:"St. Petersburg",
   d:"W. Radloff, 1862, 1864 ve 1869 yıllarındaki Kırgızistan gezilerinde Manas'tan parçalar derleyip yazıya geçirdi ve bunları Proben der Volkslitteratur der türkischen Stämme adlı eserinin V. cildinde (St. Petersburg 1885) Kırgızca, Rusça ve Almanca olarak yayımladı. Velihanoğlu'nun 1861'de Rus Coğrafya Derneği dergisinde çıkardığı Kökütey Han'ın Aşı bölümüyle birlikte bu yayın, Kırgız sözlü geleneğinin dünya bilimine girişidir.",
   kaynak:"manas-destani (TDV)" }
 

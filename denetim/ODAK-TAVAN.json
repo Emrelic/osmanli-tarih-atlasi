@@ -1,5 +1,5 @@
 {
- "odaksiz": 455,
+ "odaksiz": 441,
  "beyanli_yabanci": 655,
  "konumlu": 6765,
  "kutulu": 261,
@@ -170,5 +170,5 @@
   "olaylar_sk105.js"
  ],
  "evren_not": "Tavanin OLCULDUGU dosya kumesi — 84f00761 (30 Eylul 2026 02:44) commit'inde VAR OLAN kronoloji/olay dosyalari. Bu kume uzerindeki odaksiz toplami TAM 480'dir (dogrulandi 1 Ekim 2026). Disindaki dosyalar YENI KAPSAM kovasina duser: tavana KATILMAZ, yayini BLOKE ETMEZ, ama adiyla ve sayisiyla BASILIR. Bu bir tavan YUKSELTMESI DEGILDIR — tavan 480'de duruyor ve kendi evreninde tam duyarlilikla otuyor.",
- "tavan_notu_1001": "odaksiz 480 -> 455, 1 Ekim 2026 gecesi. ODAK-KAPAT'in 1. Dunya arastirmasindan 25 kalem uygulandi (A 18 + A-IMZA 7). `--tavan-yaz` KULLANILMADI: o bayrak T['ODAKSIZ'] (toplam 658) yazar ve `evren`i butun dosyalara genisletir ⇒ YENI KAPSAM'daki 203 odaksizi AFFEDERDI. Aracin kendi mesaji 'indir' diyor ama bayrak 'yeniden olc ve genislet' yapiyor — arac kusuru, denetim/ARAC-ODAK-TAVAN-INDIR-1001.py'de yazili. `evren` 152 dosya olarak KALDI."
+ "tavan_notu_1001": "odaksiz 455 -> 441, 1 Ekim 2026 gecesi. ODAK-KAPAT'in 1. Dunya arastirmasindan 25 kalem uygulandi (A 18 + A-IMZA 7). `--tavan-yaz` KULLANILMADI: o bayrak T['ODAKSIZ'] (toplam 658) yazar ve `evren`i butun dosyalara genisletir ⇒ YENI KAPSAM'daki 203 odaksizi AFFEDERDI. Aracin kendi mesaji 'indir' diyor ama bayrak 'yeniden olc ve genislet' yapiyor — arac kusuru, denetim/ARAC-ODAK-TAVAN-INDIR-1001.py'de yazili. `evren` 152 dosya olarak KALDI."
 }

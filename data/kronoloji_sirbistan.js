@@ -123,7 +123,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 { t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — ağır yenilgi", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
-  yer_id:"",
+  yer_id:"Çirmen",
   d:"Parçalanmış Sırp beylikleri Vukašin ve Uglješa kardeşlerin ordusu, Meriç nehri kıyısında Osmanlı akıncı kuvvetlerine ağır bir yenilgiye uğradı; Makedonya'daki Sırp direnişinin belkemiği burada kırıldı ve Kosova'ya giden yol açıldı.",
   kaynak:"TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan Sırplar...' Gün akademik kaynaktan (26 Eylül 1371, standart tarih)." },
 
@@ -231,7 +231,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 { taraflar:["sirbistan-prensligi"], t:"1826-10-07", b:"Akkerman Sözleşmesi — Sırp haklarının genişletilmesi garanti edildi", tur:"antlasma",
   onem:2, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Akkirman",
   d:"Osmanlı-Rus Akkerman Sözleşmesi'nin bir maddesi, 1812 Bükreş Antlaşması'nda Sırplara tanınan hakların genişletilerek uygulanmasını Osmanlı Devleti'ne taahhüt ettirdi; Rusya böylece Sırp özerklik davasının resmî hâmisi konumunu pekiştirdi.",
   kaynak:"akademik: B. Jelavich, History of the Balkans (1983) — TDV `sirbistan` maddesi bu antlaşmadan ayrıca bahsetmiyor, akademik kaynağa dayanıldı (`CLAUDE.md §4` taneciklik kuralı)." },
 
@@ -267,7 +267,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 { t:"1878-07-13", b:"Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","kurulus","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Berlin",
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Sırbistan'ın tam bağımsızlığını uluslararası düzeyde kesin biçimde tescil etti ve Niş ile Pirot şehirlerini Sırbistan'a bıraktı. Dört asır süren Osmanlı bağlılığı burada resmen sona erdi. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
   kaynak:"TDV `berlin-antlasmasi`: 'Sırbistan'ın bağımsızlığı tanınacak, kendisine Niş ve Pirot verilecekti.'" },
 
