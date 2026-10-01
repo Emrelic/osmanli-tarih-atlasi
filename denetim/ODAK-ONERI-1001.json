@@ -1,0 +1,1496 @@
+{
+ "not": "ONERIDIR, UYGULANMADI. Her kalem: dosya · t · b · onerilen yer_id. Havuz kapinin kendi havuzu (d/v/s + parantezsiz kok). BELIRSIZ adlar ve birden cok ad gecen maddeler BILEREK DISARIDA (D242: cozulmesi dogru yere cozuldugu anlamina gelmez). Uygulamadan once ARAC-ODAK-BELIRSIZ-1001.js iki yonde kosturulur.",
+ "olculen": {
+  "taranan": 245,
+  "oneri": 53,
+  "coklu": 14,
+  "belirsiz": 1,
+  "bulunamadi": 172
+ },
+ "oneri": [
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1002-01-01",
+   "b": "Derbend emîri Leşkerî b. Meymûn öldü; emirlik Mansûr b. Meymûn'a geçti",
+   "yer_id": "Derbend",
+   "lat": 42.058,
+   "lon": 48.29
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1027-01-01",
+   "b": "Nasrüddevle Urfa'yı ele geçirdi",
+   "yer_id": "Urfa",
+   "lat": 37.159,
+   "lon": 38.796
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1031-01-01",
+   "b": "Bizans Urfa'ya yerleşti, Mervânî kuşatması sonuçsuz kaldı",
+   "yer_id": "Urfa",
+   "lat": 37.159,
+   "lon": 38.796
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1034-01-01",
+   "b": "Derbend emîri Mansûr b. Meymûn öldü; yerine Abdülmelik b. Mansûr geçti",
+   "yer_id": "Derbend",
+   "lat": 42.058,
+   "lon": 48.29
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1081-01-01",
+   "b": "Türk emîri Hüsrev, Filaretos'un elindeki Urfa'yı kuşattı, alamadı",
+   "yer_id": "Urfa",
+   "lat": 37.159,
+   "lon": 38.796
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1104-01-01",
+   "b": "Harput Emîri Muhammed b. Çubuk, Muhammed Tapar'a tâbi",
+   "yer_id": "Harput",
+   "lat": 38.714,
+   "lon": 39.245
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1108-01-01",
+   "b": "Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı",
+   "yer_id": "Antakya",
+   "lat": 36.202,
+   "lon": 36.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1112-01-01",
+   "b": "Artuklu Belek b. Behrâm Harput'a hâkim oldu (TDV artuklular)",
+   "yer_id": "Harput",
+   "lat": 38.714,
+   "lon": 39.245
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1112-01-01",
+   "b": "Harput Emîri Muhammed b. Çubuk öldü",
+   "yer_id": "Harput",
+   "lat": 38.714,
+   "lon": 39.245
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1119-01-01",
+   "b": "İlgazi ve Togan Arslan Tel İfrîn'de Antakya Prinkepsi Roger'i yok etti",
+   "yer_id": "Antakya",
+   "lat": 36.202,
+   "lon": 36.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1119-06-28",
+   "b": "Kanlı Meydan Savaşı: Artuklu İlgazi Antakya ordusunu yok etti, Ruggero di Salern",
+   "yer_id": "Antakya",
+   "lat": 36.202,
+   "lon": 36.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1131-01-01",
+   "b": "Josselin öldü; Urfa kontluğu oğlu II. Josselin'e geçti",
+   "yer_id": "Urfa",
+   "lat": 37.159,
+   "lon": 38.796
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1151-01-01",
+   "b": "Urfa kontluğunun Bizans'a satılan son toprakları Türkler arasında paylaşıldı",
+   "yer_id": "Urfa",
+   "lat": 37.159,
+   "lon": 38.796
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1161-01-01",
+   "b": "Antakya prinkepsi Renaud de Châtillon Nûreddin'e esir düştü; yerine III. Bohemun",
+   "yer_id": "Antakya",
+   "lat": 36.202,
+   "lon": 36.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1185-01-01",
+   "b": "Artuklu İmâdüddin Ebû Bekir Harput'ta bağımsız beylik kurdu",
+   "yer_id": "Harput",
+   "lat": 38.714,
+   "lon": 39.245
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1214-01-01",
+   "b": "İznik ile Latin İmparatorluğu arasındaki sınırı çizen antlaşma (Nymphaion)",
+   "yer_id": "İznik",
+   "lat": 40.429,
+   "lon": 29.721
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1214-01-01",
+   "b": "Theodoros Laskaris Trabzon Rum İmparatorluğu'nun batı topraklarının çoğunu ilhak",
+   "yer_id": "Trabzon",
+   "lat": 41.005,
+   "lon": 39.723
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1222-01-01",
+   "b": "III. İoannis Vatatzis İznik tahtına geçti",
+   "yer_id": "İznik",
+   "lat": 40.429,
+   "lon": 29.721
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1254-11-03",
+   "b": "III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti",
+   "yer_id": "İznik",
+   "lat": 40.429,
+   "lon": 29.721
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1256-01-01",
+   "b": "II. Keykâvus Aksaray yakınında Sultanhanı'nda Baycu'ya yenildi",
+   "yer_id": "Aksaray",
+   "lat": 38.3687,
+   "lon": 34.037
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_anadolu.js",
+   "t": "1259-01-01",
+   "b": "Epir'in büyük kısmı İznik denetimine geçti",
+   "yer_id": "İznik",
+   "lat": 40.429,
+   "lon": 29.721
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1060-01-01",
+   "b": "Mirdâsîler Funeydik'te Fâtımîleri yendi; Mahmûd Halep'i aldı",
+   "yer_id": "Halep",
+   "lat": 36.202,
+   "lon": 37.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1065-04-20",
+   "b": "Mahmûd Mercidâbık'ta Atıyye'yi yenip Halep'i geri aldı",
+   "yer_id": "Halep",
+   "lat": 36.202,
+   "lon": 37.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1067-01-01",
+   "b": "Karmatîler yerel isyanlarla Bahreyn adasını, ardından Katîf'i kaybetti",
+   "yer_id": "Katîf",
+   "lat": 26.557,
+   "lon": 49.9873
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1095-02-25",
+   "b": "Tutuş Rey yakınında öldü; Suriye Selçukluları Halep ve Dımaşk kollarına ayrıldı",
+   "yer_id": "Halep",
+   "lat": 36.202,
+   "lon": 37.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1105-08-27",
+   "b": "Remle yöresinde Fâtımî-Dımaşk ordusu ile Kudüs Haçlıları çarpıştı",
+   "yer_id": "Kudüs",
+   "lat": 31.777,
+   "lon": 35.234
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1111-01-01",
+   "b": "Mevdûd ve Tuğtegin Şeyzer önünde Antakya Haçlılarını yendi",
+   "yer_id": "Antakya",
+   "lat": 36.202,
+   "lon": 36.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1113-06-28",
+   "b": "Tuğtegin ve Mevdûd Kudüs Kralı Baudouin'i bozguna uğrattı",
+   "yer_id": "Kudüs",
+   "lat": 31.777,
+   "lon": 35.234
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1119-06-28",
+   "b": "Kanlı Meydan (Ager Sanguinis): İlgazi Antakya ordusunu yok etti",
+   "yer_id": "Antakya",
+   "lat": 36.202,
+   "lon": 36.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1122-01-01",
+   "b": "Urfa kontu Josselin, Artuklu Belek'e esir düştü",
+   "yer_id": "Urfa",
+   "lat": 37.159,
+   "lon": 38.796
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1137-01-01",
+   "b": "Dımaşk ordusu Trablus Kontluğu'na girdi; Kont Pons öldü",
+   "yer_id": "Trablus",
+   "lat": 32.897,
+   "lon": 13.191
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1154-04-25",
+   "b": "Nûreddin Mahmud Dımaşk'ı aldı; Halep ve Dımaşk tek elde birleşti",
+   "yer_id": "Halep",
+   "lat": 36.202,
+   "lon": 37.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1164-08-10",
+   "b": "Nûreddin Mahmud, Musul ve Artuklu kuvvetleriyle Hârim'i Haçlılar'dan geri aldı",
+   "yer_id": "Musul",
+   "lat": 36.34,
+   "lon": 43.13
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1174-01-01",
+   "b": "Nûreddin Mahmud öldü; Halep'te oğlu el-Melikü's-Sâlih İsmâil'e geçildi",
+   "yer_id": "Halep",
+   "lat": 36.202,
+   "lon": 37.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1174-01-01",
+   "b": "Turan Şah Yemen'i fethetti: Zebîd ve San‘a Eyyûbîler'e geçti",
+   "yer_id": "Zebîd",
+   "lat": 14.195,
+   "lon": 43.317
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1187-07-04",
+   "b": "Hıttîn Savaşı: Selâhaddin Kudüs Krallığı ordusunu yok etti",
+   "yer_id": "Kudüs",
+   "lat": 31.777,
+   "lon": 35.234
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1192-09-01",
+   "b": "Selâhaddin ile Richard arasında barış: Sûr-Yafa kıyısı Haçlılarda kaldı",
+   "yer_id": "Yafa",
+   "lat": 32.054,
+   "lon": 34.755
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1219-01-01",
+   "b": "Zap Suyu Savaşı: Kökböri ve III. İmâdüddin Zengî Musul ordusunu yendi",
+   "yer_id": "Musul",
+   "lat": 36.34,
+   "lon": 43.13
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1225-01-01",
+   "b": "Celâleddin Hârizmşah Bağdat'a yaklaştı; halifenin ordusunu yendi",
+   "yer_id": "Bağdat",
+   "lat": 33.34,
+   "lon": 44.361
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1244-01-01",
+   "b": "Salgurlu Atabegi Ebû Bekir Katîf'i alıp Ukaylî emîrini öldürdü",
+   "yer_id": "Katîf",
+   "lat": 26.557,
+   "lon": 49.9873
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1244-10-20",
+   "b": "Gazze Savaşı: Mısır sultanı Sâlih, Suriye Eyyûbîleri ve Haçlı müttefiklerini yen",
+   "yer_id": "Gazze",
+   "lat": 31.502,
+   "lon": 34.466
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1250-01-01",
+   "b": "Halep'in el-Melikü'n-Nâsır Yûsuf'u Dımaşk'a hâkim oldu",
+   "yer_id": "Halep",
+   "lat": 36.202,
+   "lon": 37.161
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1251-01-30",
+   "b": "Suriye Eyyûbîleri Kahire önünde Memlüklere yenildi",
+   "yer_id": "Kahire",
+   "lat": 30.047,
+   "lon": 31.243
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1263-01-01",
+   "b": "Baybars Kerek ve Humus'taki Eyyûbî hâkimiyetine son verdi",
+   "yer_id": "Humus",
+   "lat": 34.73,
+   "lon": 36.71
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_ortadogu.js",
+   "t": "1279-01-01",
+   "b": "Resûlîler Zafâr'ı aldı (ertesi yıl Şibâm ve Hadramut)",
+   "yer_id": "Hadramut",
+   "lat": 15.5,
+   "lon": 48.5
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+   "t": "1082-01-01",
+   "b": "Çandelalar Ecmîr'e (Çavhanlara) tâbi oldu",
+   "yer_id": "Ecmîr",
+   "lat": 26.45,
+   "lon": 74.639
+  },
+  {
+   "dosya": "kronoloji_cok_ince_gd_asya.js",
+   "t": "1854-03-31",
+   "b": "Kanagawa Antlaşması — Japonya Amerika'ya Shimoda ve Hakodate limanlarını açtı",
+   "yer_id": "Hakodate",
+   "lat": 41.769,
+   "lon": 140.729
+  },
+  {
+   "dosya": "kronoloji_cok_ince_gd_asya.js",
+   "t": "1852-12-20",
+   "b": "İngiltere Pegu eyaletini ilhak etti — Birmanya denizle bağını yitirdi",
+   "yer_id": "Pegu",
+   "lat": 17.335,
+   "lon": 96.479
+  },
+  {
+   "dosya": "kronoloji_cok_ince_gd_asya.js",
+   "t": "1849-01-01",
+   "b": "Hollanda Bali'ye seferi — Buleleng ve Jembrana Hollanda denetimine girdi",
+   "yer_id": "Bali",
+   "lat": -8.65,
+   "lon": 115.216
+  },
+  {
+   "dosya": "kronoloji_cok_ince_gd_asya.js",
+   "t": "1789-01-01",
+   "b": "Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna ",
+   "yer_id": "Hanoi",
+   "lat": 21.028,
+   "lon": 105.834
+  },
+  {
+   "dosya": "kronoloji_cok_ince_gd_asya.js",
+   "t": "1669-01-01",
+   "b": "Somba Opu düştü — Makassar Savaşı bitti, Gova Hollanda'ya boyun eğdi",
+   "yer_id": "Makassar",
+   "lat": -5.147,
+   "lon": 119.432
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa.js",
+   "t": "1245-08-17",
+   "b": "Yaroslav Muharebesi: Danilo, Çernigov-Macar-Polonya koalisyonunu yendi",
+   "yer_id": "Çernigov",
+   "lat": 51.4982,
+   "lon": 31.2893
+  },
+  {
+   "dosya": "kronoloji_cok_ince_bati_afrika.js",
+   "t": "1870-01-01",
+   "b": "Jaja Bonny'den ayrılıp bağımsız Opobo devletini ilân etti",
+   "yer_id": "Bonny",
+   "lat": 4.43,
+   "lon": 7.17
+  }
+ ],
+ "elenen": {
+  "belirsiz": [
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1263-01-01",
+    "b": "VIII. Mihail Mora'ya 6000 Selçuklu paralı askeri getirdi",
+    "ad": [
+     "Mora"
+    ]
+   }
+  ],
+  "coklu": [
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1100-01-01",
+    "b": "Baudouin de Boulogne Kudüs'e gitti; Urfa kontluğu kuzeni Baudouin du Bourg'a geç",
+    "ad": [
+     "Kudüs",
+     "Urfa"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1104-05-07",
+    "b": "Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlılarını yendi; ",
+    "ad": [
+     "Antakya",
+     "Urfa"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1110-01-01",
+    "b": "Musul Valisi Mevdûd'un seferleri Urfa kontluğunun Fırat doğusunu tahrip etti",
+    "ad": [
+     "Musul",
+     "Urfa"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1118-01-01",
+    "b": "Baudouin du Bourg Kudüs tahtına geçti; Urfa kontluğu Josselin de Courtenay'a bır",
+    "ad": [
+     "Kudüs",
+     "Urfa"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1150-01-01",
+    "b": "Artuklu Kara Arslan Gerger ve Harput'u aldı; Dânişmendli Aynüddevle Gerger-Kâhta",
+    "ad": [
+     "Harput",
+     "Kâhta",
+     "Palu"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1266-08-24",
+    "b": "Mari Savaşı: Memlükler Ermenileri yendi, Sis'i yağmaladı; Misis, Adana, Ayas ve ",
+    "ad": [
+     "Tarsus",
+     "Adana"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1094-05-27",
+    "b": "Tutuş Nehriseb'în'de Aksungur'u yendi, Halep ve Urfa'yı aldı",
+    "ad": [
+     "Halep",
+     "Urfa"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1104-05-07",
+    "b": "Harran Savaşı: Antakya ve Urfa Haçlıları Sökmen ile Çökürmüş'e yenildi",
+    "ad": [
+     "Antakya",
+     "Urfa"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1149-06-28",
+    "b": "İnab Savaşı: Nûreddin Antakya ordusunu yendi, Raymond de Poitiers öldü",
+    "ad": [
+     "Poitiers",
+     "Antakya"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1174-01-01",
+    "b": "II. Seyfeddin Gazi el-Cezîre'deki eski Musul topraklarını geri aldı; Halep'e tâb",
+    "ad": [
+     "Halep",
+     "Musul"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1174-01-01",
+    "b": "Mekke ve Medine Fâtımî nüfuzundan çıktı; hutbe Nûreddin Zengî adına okundu",
+    "ad": [
+     "Medine",
+     "Mekke"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1174-10-12",
+    "b": "Selâhaddin Suriye'ye yürüdü; Dımaşk, Humus ve Hama'yı aldı",
+    "ad": [
+     "Humus",
+     "Hama"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1175-01-01",
+    "b": "Halep-Musul ordusu Selâhaddin'e yenildi",
+    "ad": [
+     "Halep",
+     "Musul"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1204-01-01",
+    "b": "Kefr-Zemmar Savaşı: Eyyûbî-Erbil-Artuklu ittifakı Musul atabegini ağır yenilgiye",
+    "ad": [
+     "Musul",
+     "Erbil"
+    ]
+   }
+  ],
+  "bulunamadi": [
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1003-01-01",
+    "b": "Şeddâdî Fazl, Parisos prensi Filip'i zincire vurup Şaşvaş ve Sotk'u topraklarına"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1022-01-01",
+    "b": "Şeddâdî Fazl, Dvin'i Ermenilerden alıp oğlu Ebü'l-Esvâr Şâvur'a verdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1026-01-01",
+    "b": "Şeddâdî Fazl, Şemkûr'u kuşatan Gürcü Kralı Giorgi'yi yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1030-01-01",
+    "b": "Gürcistan seferinden dönen Fazl, Gürcü baskınında 10.000 askerini kaybetti; oğlu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1030-01-01",
+    "b": "Rus gemileri Şirvan'a çıkıp Şirvanşah Menûçihr'i ağır yenilgiye uğrattı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1043-01-01",
+    "b": "Abdülmelik b. Mansûr öldü; son Hâşimî emîri Mansûr b. Abdülmelik başa geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1045-01-01",
+    "b": "Ani (Ermeni Bagratlı) toprakları Bizans'a ilhak edildi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1053-01-01",
+    "b": "Ebü'l-Esvâr Gürcülere ait bazı sınır kalelerini ele geçirdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1057-01-01",
+    "b": "Askerî darbe İsaakios Komnenos'u Bizans tahtına çıkardı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1061-01-01",
+    "b": "Nasrüddevle öldü, yerine oğlu Nizâmeddin Nasr geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1064-01-01",
+    "b": "Gürcü Kralı IV. Bagrat, Alparslan'ın seferi sonunda Selçuklulara tâbi oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1068-01-01",
+    "b": "Şirvanşah Ferîburz, Gürcistan seferindeki Alparslan'a itaat arzetti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1068-01-01",
+    "b": "Alparslan'ın ikinci Gürcistan seferi: Şekkî alındı, Bagrat'tan bazı yerler fethe"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1076-01-01",
+    "b": "Melikşah Gürcistan'a sefer düzenledi, bölgeyi Savtegin'e bıraktı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1080-01-01",
+    "b": "Son Mervânî emîri Nâsırüddevle Mansûr başa geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1086-01-01",
+    "b": "Melikşah Kafkaslar'a son seferini yaptı, bölgeyi tamamen itaat altına aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1091-04-29",
+    "b": "Levunion Savaşı: Aleksios, Kumanlarla birlikte Peçenekleri yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1107-06-14",
+    "b": "I. Kılıcarslan Habur çayında boğuldu; Güneydoğu Anadolu beyleri onu terk etmişti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1109-01-01",
+    "b": "Sökmen el-Kutbî Meyyâfârikīn'ı aldı; Âmid'in İnaloğulları ona tâbi oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1110-01-01",
+    "b": "Dilmaçoğlu Togan Arslan Silvan'a bağlı köyleri aldı, sonra bağımsızlığını ilan e"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1118-01-01",
+    "b": "Togan Arslan Dvin'e saldırıp Menûçihr'i öldürdü ve şehri aldı; Ani'de II. Şâvur "
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1121-01-01",
+    "b": "Irak Selçuklu Sultanı Mahmud Meyyâfârikīn'ı Artuklu İlgazi'ye iktâ etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1122-11-19",
+    "b": "İlgazi öldü; Artuklu toprakları oğulları ve yeğenleri arasında bölündü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1126-01-01",
+    "b": "IV. Fazl Ani'yi Gürcülerden geri aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1128-01-01",
+    "b": "Altı yaşındaki II. Sökmen Ahlatşah oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1130-01-01",
+    "b": "IV. Fazl, Dvin'i geri almaya çalışan Erzen Emîri Kurti'yle savaşta öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1130-01-01",
+    "b": "II. Bohemund Dânişmendlilerle savaşta öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1144-01-01",
+    "b": "Zengî İnaloğullarından Ergani, Hâlâr, Tulhum ve Çermük'ü aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1154-01-01",
+    "b": "Saltuklu II. İzzeddin Saltuk Ani'de Gürcülere esir düştü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1155-01-01",
+    "b": "Ermeni rahiplerin isyanıyla Fahreddin Şeddâd yerine kardeşi V. Fazl getirildi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1161-01-01",
+    "b": "Türk beylerinin Ani kuşatması Gürcülere karşı ağır yenilgiyle bitti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1162-01-01",
+    "b": "Bizans destekli Dânişmendli Yağıbasan II. Kılıcarslan'ı yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1163-01-01",
+    "b": "Türk-İslam ittifakı Lukri yakınında Gürcüleri yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1164-08-04",
+    "b": "Dânişmendli Yağıbasan öldü; hânedan taht kavgasına düştü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1174-08-11",
+    "b": "Ahlatşah II. Sökmen Sasun kalelerini üç yıllık kuşatmadan sonra aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1183-01-01",
+    "b": "Ahlatşah, Artuklu ve Dilmaçoğlu Selâhaddin'e karşı birleşik orduya katıldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1185-07-10",
+    "b": "Ahlatşah II. Sökmen öldü; Meyyâfârikīn Selâhaddin'e geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1193-05-18",
+    "b": "Ahlatşah Begtemür öldürüldü, damadı Hezâr Dînârî tahtı aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1199-01-01",
+    "b": "Misis, Anadolu Selçuklu Sultanı II. Süleyman Şah'a tâbi oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1202-01-01",
+    "b": "II. Süleyman Şah'ın Gürcistan seferi Micingerd'de yenilgiyle bitti; Mengücüklü B"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1211-01-01",
+    "b": "Antiokhia (Menderes) Savaşı: I. Gıyâseddin Keyhusrev, Laskaris'e karşı savaşta ö"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1215-01-01",
+    "b": "Theodoros Angelos Epir'in başına geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1216-01-01",
+    "b": "Latin İmparatoru Henri öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1216-01-01",
+    "b": "I. İzzeddin Keykâvus Kilikya'ya sefer düzenledi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1219-01-01",
+    "b": "I. Hethum dönemi başladı (1219-1270); Hetumî hânedanı Rubenîlerin yerini aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1225-01-01",
+    "b": "Celâleddin Hârizmşah Dvin'i zaptetti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1232-01-01",
+    "b": "Selçuklu kumandanları Gürcistan'a sefer yaptı; Rusudan barış isteyip kızını Selç"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1236-01-01",
+    "b": "II. Mikail Epir'in başına geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1240-01-01",
+    "b": "Baba İshak önderliğinde Türkmen ayaklanması"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1243-01-01",
+    "b": "Kilikya Ermeni Krallığı Moğollara tâbi oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1243-01-01",
+    "b": "Kraliçe Rusudan Büyük Moğol Hanı'nı resmen metbû tanıdı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1246-01-01",
+    "b": "II. Guillaume de Villehardouin Ahaya prinkepsi oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1264-01-01",
+    "b": "Makryplagi Savaşı: Frank-Türk ordusu Bizanslıları yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1276-01-01",
+    "b": "Karamanoğulları Beylerbeyi Hatiroğlu'nun Moğollara karşı isyanına katıldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1277-01-01",
+    "b": "Sâhib Ataoğulları Altuntaş'ta Karamanoğlu ve Cimri'ye yenildi, iki kardeş öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1277-01-01",
+    "b": "İnançoğlu Ali Bey'in bağımsızlık girişimi yakalanıp sürgünle bitti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1277-01-01",
+    "b": "Karamanoğlu Mehmed Bey Moğol öncülerince öldürüldü, yerine Güneri Bey geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1012-01-01",
+    "b": "Bahâüddevle'nin ölümüyle Büveyhî birliği parçalandı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1018-01-01",
+    "b": "Mezyedî emîri Ali b. Mezyed öldü, yerine oğlu I. Dübeys geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1029-01-01",
+    "b": "Gazneli Mahmud Rey'i aldı; Büveyhîler'in Cibâl kolu sona erdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1029-01-01",
+    "b": "Fâtımî ordusu Mirdâsîleri yendi; Sâlih b. Mirdâs öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1030-01-01",
+    "b": "Büveyhî Celâlüddevle Mezyedî topraklarına saldırdı; Dübeys ülkesini terketti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1030-01-01",
+    "b": "Mirdâsîler Azâz yakınında Bizans ordusunu yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1052-01-01",
+    "b": "Necdülcâh Savaşı: Zeydî imam Ebü'l-Feth ed-Deylemî Suleyhîler'e yenilip öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1058-01-01",
+    "b": "Zerâib Savaşı: Suleyhî, Necâh'ı ve müttefiklerini yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1060-01-01",
+    "b": "Tuğrul Bey Besâsîrî işgalini sona erdirdi; Halife Kāim-Biemrillâh makamına döndü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1067-01-01",
+    "b": "Ali es-Suleyhî hac yolunda Necâhî Saîd el-Ahvel'in baskınında öldürüldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1075-01-01",
+    "b": "Fâtımîler Suriye'deki yerlerini Selçuklulara kaptırdı; Bedr el-Cemâlî Mısır'da d"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1075-09-24",
+    "b": "Celâlüddevle Menbic'i Bizans'tan geri aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1084-01-01",
+    "b": "Mükerrem Ahmed öldü; Seyyide Hürre Ervâ yönetimi fiilen eline aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1085-06-20",
+    "b": "Ukaylî Şerefüddevle Müslim, Anadolu Selçuklu Süleyman Şah'a karşı savaşta öldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1086-01-01",
+    "b": "I. Sadaka Mezyedî emîri oldu; Dicle'nin batısına kadar merkezî Irak Mezyedîler'e"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1086-06-04",
+    "b": "Aynüseylem Savaşı: Tutuş, Süleyman Şah'ı yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1101-07-30",
+    "b": "Tuğtegin Ammâroğulları'nın Cebele'sini teslim aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1108-01-01",
+    "b": "Tuğtegin Taberiye yakınında Kont Gervaise'i esir aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1108-03-04",
+    "b": "Nu‘mâniye Savaşı: Sultan Muhammed Tapar Mezyedî Sadaka'yı yendi ve öldürdü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1123-01-01",
+    "b": "Halife Müsterşid Mezyedî II. Dübeys'i yendi; Dübeys Ca‘ber'e kaçtı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1128-01-01",
+    "b": "Şeyzer emîri Sultan b. Ali Zengî'nin himayesini kabul etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1135-06-24",
+    "b": "Dâymerc Savaşı: Halife Müsterşid Sultan Mesud'a yenilip esir düştü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1135-09-25",
+    "b": "Mezyedî emîri II. Dübeys Sultan Mesud tarafından öldürüldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1138-04-29",
+    "b": "Bizans İmparatoru Ioannes Komnenos Şeyzer'i kuşattı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1148-01-01",
+    "b": "II. Haçlı Seferi ordusu Dımaşk'ı kuşattı ve çekildi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1150-01-01",
+    "b": "Dımaşk atabegi Abak, Nûreddin'in hâkimiyetini tanıdı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1150-01-01",
+    "b": "Hemdânî Hâtim b. Ahmed Sa‘de dışındaki kuzey Yemen'e hâkim oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1153-08-19",
+    "b": "III. Baudouin Askalân'ı aldı; Fâtımîlerin Suriye'deki son kalesi düştü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1193-03-04",
+    "b": "Selâhaddin Dımaşk'ta öldü; Eyyûbî ülkesi oğulları ve kardeşi arasında bölündü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1195-01-01",
+    "b": "Irak Selçukluları'nın çöküşünden sonra halife Hûzistan'ı ve bazı İran eyaletleri"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1229-01-01",
+    "b": "Yemen Eyyûbîlerinin sonu: Nûreddin Ömer b. Resûl yönetimi atabeg olarak devraldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1235-01-01",
+    "b": "Nûreddin Ömer el-Melikü'l-Mansûr unvanıyla bağımsızlığını ilân etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1236-01-01",
+    "b": "Fars Atabegi Ebû Bekir Uvâl'i (Bahreyn) aldı; Uyûnî emirliği sona erdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1247-01-01",
+    "b": "Nûreddin Ömer, Zeydî imamla birleşen yeğeni Esedüddin Muhammed'i yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1250-01-01",
+    "b": "Nûreddin Ömer suikastla öldürüldü; I. Yûsuf (el-Melikü'l-Muzaffer) tahta geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1260-01-01",
+    "b": "Ketboğa Noyan Dımaşk'ı teslim aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1260-01-01",
+    "b": "Hülâgû Meyyâfârikîn'i aldı; el-Cezîre Eyyûbî kolu sona erdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1260-09-03",
+    "b": "Aynicâlût Savaşı: Memlükler Moğolları yendi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "t": "1278-01-01",
+    "b": "I. Yûsuf Zeydîlere karşı başarı kazandı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "0988-01-01",
+    "b": "I. Mahipala tahta çıktı; Pâla gücü yeniden Varanasi'ye kadar uzandı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1001-01-01",
+    "b": "Pencap kralı Caypal ile Çandela kralı Gandadeva, Peşaver yakınında Gazneli Mahmu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1014-01-01",
+    "b": "I. Racendra Çola tahtına çıktı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1015-01-01",
+    "b": "Gazneli Mahmud Keşmir'i almaya teşebbüs etti, zor arazi yüzünden geri döndü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1017-01-01",
+    "b": "Çolalar Seylan'ın güney eyaletini de alarak adanın fethini tamamladı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1017-01-01",
+    "b": "Vidyadhara Çandela tahtına çıktı; krallık Çambal ve Narmada nehirlerine kadar ge"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1018-01-01",
+    "b": "Gazneli Mahmud son önemli Pratihara kralı Racyapala'yı Kannauj'dan çıkardı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1021-01-01",
+    "b": "Gazneli Mahmud Keşmir'e ikinci kez yürüdü, yine sonuç alamadı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1023-01-01",
+    "b": "Çandelalar Kâlincar kalesini kaybetti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1023-01-01",
+    "b": "I. Racendra'nın kuzey seferi Ganj'a ulaştı; yeni başkent Gangaikondaçolapuram ku"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1025-01-01",
+    "b": "Çola donanması Srivicaya'ya karşı deniz seferi düzenledi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1028-01-01",
+    "b": "Doğu Ganga kralı III. Vajrahasta 'üç Kalinga'nın hükümdarı' unvanını aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1054-01-01",
+    "b": "Çola kralı Racadhiraca, Çalukyalara karşı Koppam Savaşı'nda öldürüldü"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1070-01-01",
+    "b": "I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'ya taşıdı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1070-01-01",
+    "b": "I. Kulottunga Çola ve Doğu Çalukya taçlarını birleştirdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1077-01-01",
+    "b": "Ramapala Pâla tahtına çıktı; hanedanı Bengal'de güçlendirip Assam ve Orissa'ya y"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1089-01-01",
+    "b": "Lahora hânedanından Harşa tahta çıktı; Keşmir sarayına Türk paralı askerler aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1143-01-01",
+    "b": "Çaulukyaların saldırısı Mâlva Paramâralarını ağır biçimde zayıflattı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1143-01-01",
+    "b": "Kumarapala Çaulukya tahtına çıktı; krallığı pekiştirip Caynizmi himaye etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1153-01-01",
+    "b": "I. Parakramabahu Polonnaruva tahtına çıktı; Sinhala krallığı en parlak dönemine "
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1156-01-01",
+    "b": "Kalaçuri Biccala Batı Çalukya tahtını gasp etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1165-01-01",
+    "b": "Paramardi Çandela tahtına çıktı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1170-01-01",
+    "b": "Cayçandra Gâhadavâla tahtına çıktı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1173-01-01",
+    "b": "II. Ballala Hoysala tahtına çıktı; Yâdavalarla ve Çolalarla çatışma dönemi başla"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1182-01-01",
+    "b": "III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1186-01-01",
+    "b": "Seylan tahtı Kalinga hanedanına geçti; Nissankamalla Polonnaruva kralı oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1189-01-01",
+    "b": "Batı Çalukya imparatorluğu Yâdava, Hoysala ve Kâkatiyalar arasında paylaşıldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1191-01-01",
+    "b": "Birinci Taraori (Tarain) Savaşı: III. Pritvirac'ın Racput ordusu Gurlu Muizzüddi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1194-01-01",
+    "b": "Çandavar Savaşı: Gurlu Muizzüddin Muhammed Gâhadavâla kralı Cayçandra'yı yendi v"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1214-01-01",
+    "b": "Kalingalı Magha paralı askerlerle Seylan'ı istilâ edip bütün adayı ele geçirdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1216-01-01",
+    "b": "Hoysala kralları Çola ülkesinde toprak edinmeye başladı; Çola tâbileri bağlılıkt"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1221-01-01",
+    "b": "Moğollardan kaçan Celâleddin Hârizmşah Sind'i istilâ etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1232-01-01",
+    "b": "III. Vijayabahu Sinhala krallığını Dambadeniya'da yeniden kurdu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1247-01-01",
+    "b": "Malay hükümdarı Çandrabhanu Seylan'ı istilâ etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1255-01-01",
+    "b": "Kalingalı Magha'nın Polonnaruva'daki yönetimi sona erdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1257-01-01",
+    "b": "Pandyalar Çola ülkesini fethetti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1272-01-01",
+    "b": "I. Bhuvanaikabahu Sinhala başkentini Yapahuva kayalığına taşıdı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "0985-01-01",
+    "b": "Kızıl Erik'in İzlanda'dan getirdiği göçmenler Grönland'da Doğu Yerleşimi'ni (Eys"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1021-01-01",
+    "b": "Vikingler Newfoundland'deydi — Amerika'da tarihi kesin bilinen ilk Avrupalı varl"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1150-01-01",
+    "b": "Ata Puebloluları mesa düzlüklerinden kanyon duvarlarındaki kaya evlerine geçmeye"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1250-01-01",
+    "b": "Chaco Kanyonu'nun Ata Pueblo idarî ve tören merkezi olarak dönemi sona erdi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1767-01-01",
+    "b": "İngiliz kaptan Samuel Wallis Tahiti'ye ulaştı — adayla ilk Avrupa teması"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1815-01-01",
+    "b": "II. Pomare Hristiyanlığı benimseyip rakip Tahiti hükümdarlarını yendi, adayı tek"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1638-01-01",
+    "b": "Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1594-01-01",
+    "b": "Siyam kuvvetleri Lovek'i aldı — Kmer başkenti yıkıldı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1357-01-01",
+    "b": "Bubat Olayı — Majapahit ile Sunda Krallığı arasında kalıcı husumet doğdu"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1389-01-01",
+    "b": "Hayam Wuruk öldü — Majapahit'in altın çağı sona erdi"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1826-02-24",
+    "b": "Yandabo Antlaşması — Birinci Anglo-Birman Savaşı sona erdi, Arakan ve Tenasserim"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1862-06-05",
+    "b": "Saigon Antlaşması — Fransa Cochinchina'nın üç eyaletini aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1611-01-01",
+    "b": "Nguyễn Hoàng Phú Yên'i aldı — Champa'nın kuzey yakası Vietnam'a geçti"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1170-01-01",
+    "b": "Subay darbesi — Goryeo'da askerî rejim başladı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1388-01-01",
+    "b": "Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1771-01-01",
+    "b": "Tây Sơn kardeşler ayaklandı — Nguyễn beyliğinin çöküşü başladı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1785-01-01",
+    "b": "Rạch Gầm–Xoài Mút Savaşı — Tây Sơn Siyam ordusunu bozguna uğrattı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1810-01-01",
+    "b": "Kauai ve Niihau Kamehameha'nın egemenliğini kabul etti — adalar birleşti"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1819-05-08",
+    "b": "Kamehameha I öldü — Kapu sistemi yıkılmaya doğru gitti"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1609-01-01",
+    "b": "Satsuma Ryukyu'yu işgal etti — Krallık Japon ve Çin çifte tâbiliğine girdi"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_gd_asya.js",
+    "t": "1787-01-01",
+    "b": "Banjar Sultanı VOC ile antlaşma yaptı — sultanlık Hollanda'ya vasal oldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1000-01-01",
+    "b": "Althing Hristiyanlığı kabul etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1018-01-01",
+    "b": "Bautzen Barışı: Lusatia ve Meissen sınır bölgeleri Polonya'ya bırakıldı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1035-01-01",
+    "b": "III. Sancho'nun ölümü: Aragon krallık olarak I. Ramiro'ya, Kastilya I. Fernando'"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1077-01-28",
+    "b": "Canossa: IV. Heinrich kilise afarozundan kurtuldu"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1139-01-01",
+    "b": "Ourique: Afonso Henriques Murâbıtları yendi ve kral ilan edildi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1214-01-01",
+    "b": "Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1221-01-01",
+    "b": "Mstislav Udaloy Macarları Haliç'ten çıkardı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1226-11-08",
+    "b": "VIII. Louis ölür; IX. Louis (Saint Louis) Fransa kralı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1238-01-01",
+    "b": "Örlygsstaðir: Gissur Þorvaldsson Sturla Sighvatsson'u öldürdü (Sturlung çağı iç "
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1238-06-07",
+    "b": "Stensby Antlaşması: Kuzey Estonya Danimarka'ya iade edildi"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1241-03-28",
+    "b": "II. Valdemar (Muzaffer) öldü — Danimarka'da iç çekişmeler çağı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1253-01-01",
+    "b": "Danilo Romanoviç Papa IV. Innocentius'tan taç aldı: 'Rus kralı'"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1261-01-01",
+    "b": "Grönland Norse yerleşimleri Norveç krallığına bağlandı"
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1275-01-01",
+    "b": "Hova Savaşı: Magnus Ladulås tahtı kardeşi Valdemar'dan aldı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_bati_afrika.js",
+    "t": "1896-01-01",
+    "b": "Voulet-Chanoine kolu Bandiagara'dan Mossi ülkesine doğru yola çıktı"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_bati_afrika.js",
+    "t": "1481-01-01",
+    "b": "Ozolua Benin obası oldu — Portekizlilerle ilk ilişkiyi kuran Batı Afrika hükümda"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_bati_afrika.js",
+    "t": "1897-01-01",
+    "b": "Benin'e giden İngiliz konsolosluk heyeti pusuya düşürülüp öldürüldü"
+   },
+   {
+    "dosya": "kronoloji_cok_ince_bati_afrika.js",
+    "t": "1893-01-01",
+    "b": "Fransa Fildişi Sahili sömürgesini kurdu — Dan, Guro ve Bete ülkeleri sömürge çer"
+   }
+  ],
+  "kisi_devlet": [
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1014-01-01",
+    "b": "II. Basileios Bulgar Devleti'ni yıkıp topraklarını Bizans'a kattı",
+    "ad": [
+     "Bulgar"
+    ],
+    "niye": [
+     "havuzdaki nokta İdil Bulgar (Kazan); Balkan Bulgar devleti kastediliyor"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1040-01-01",
+    "b": "Dvin hâkimi Ebü'l-Esvâr, Taşir kralı David Anhoghin'e saldırdı, başarısız oldu",
+    "ad": [
+     "David"
+    ],
+    "niye": [
+     "kişi adı (Ermeni kralı); havuzdaki nokta David, PANAMA"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_anadolu.js",
+    "t": "1110-01-01",
+    "b": "Muhammed Tapar, Gence'ye kadar gelen IV. David'in ordusunu bozguna uğrattı",
+    "ad": [
+     "David"
+    ],
+    "niye": [
+     "kişi adı (Ermeni kralı); havuzdaki nokta David, PANAMA"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_hint_amerika.js",
+    "t": "1178-01-01",
+    "b": "Lakşmanasena Sena tahtına çıktı; Nadia sarayı Sanskrit edebiyatının merkezi oldu",
+    "ad": [
+     "Sena"
+    ],
+    "niye": [
+     "Bengal hanedanı; havuzdaki nokta Sena, MOZAMBİK"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cok_once1281_avrupa.js",
+    "t": "1205-10-14",
+    "b": "Roman Mstislaviç Zawichost'ta Polonya'ya karşı savaşırken öldü",
+    "ad": [
+     "Roman"
+    ],
+    "niye": [
+     "kişi adı (Roman Mstislaviç); havuzdaki nokta Roman, ROMANYA"
+    ]
+   }
+  ]
+ }
+}
