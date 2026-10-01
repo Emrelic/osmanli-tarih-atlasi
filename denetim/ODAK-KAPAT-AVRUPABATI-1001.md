@@ -40,7 +40,7 @@ geçiyorsa yazılmaz (M-5718 Ramla emsali) → C.
 | 2 | 1297-09-12 | Alcañices Antlaşması | **B** (imza) | atlasta yok: **Alcañices** | Portekiz–Kastilya (hat yok) | Magro tezi — indirilmedi |
 | 3 | 1415-01-01 | İsviçrelilerin Aargau fethi | **B** | atlasta yok: **Aargau** (bölge; Aarau/Aarburg/Zofingen/Lenzburg/Brugg havuzda yok) | (sinir_id yok) | HLS — alınamadı |
 | 4 | 1482-12-23 | Arras Antlaşması | **C** | — (Arras havuzda) | (sinir_id yok) | imza yeri yalnız ADDA; kaynak (Larousse) indirilmedi — Ramla emsali, yazılmadı |
-| 5 | 1497-09-17 | Melilla'nın alınması | **A** | `"Melîle (Melilla)"` | dg5-es-ma-melilla | kaynak (Ordu Müzesi · Gozalbes) indirilmedi; olayın yeri başlığın ÖZNESİ (şehrin kendisi alındı) |
+| 5 | 1497-09-17 | Melilla'nın alınması | **A⏳** | `"Melîle (Melilla)"` | dg5-es-ma-melilla | kaynak (Ordu Müzesi · Gozalbes) indirilmedi; olayın yeri başlığın ÖZNESİ ama cümle alınmadı ⇒ Hüküm 3 (M-5722) gereği A⏳ (1 Ekim düzeltmesi, ilk sürümde A yazılmıştı) |
 | 6 | 1499-09-22 | Basel Barışı | **A** (imza) ⏳ | `"Basel"` | (sinir_id yok) | HLS — alınamadı; madde `d` "Basel'de imzalanan" diyor, kaynak cümlesi doğrulanamadı ⇒ ⏳ |
 | 7 | 1516-11-29 | Fribourg Ebedî Barışı | **B** (imza) | atlasta yok: **Fribourg** (havuzdaki Freiburg BAŞKA şehir) | dg5-it-ch-1 | HLS — alınamadı |
 | 8 | 1532-01-01 | Bretanya Birleşme Fermanı | **A** (imza) ⏳ | `"Nantes"` | (sinir_id yok) | Loire-Atlantique arşivi — URL yok; madde `d` "Nantes'ta çıkarılan" ⇒ ⏳ |
@@ -57,9 +57,9 @@ geçiyorsa yazılmaz (M-5718 Ramla emsali) → C.
 | 19 | 1752-08-02 | Varese Antlaşması | **B** (imza) | atlasta yok: **Varese** | dg5-it-ch-1 | IBS No. 12 — indirilmedi |
 | 20 | 1760-03-24 | Torino Antlaşması | **A** (imza) | `"Torino"` | dg5-sa-fr-2 | MJP 1760turin: "Fait à Turin le vingt-quatrième Mars mil sept cent soixante." |
 
-**Parti 1 (20):** A 5 (kaynak cümlesiyle: #11 #16 #17 #20 + #5 özne) · A⏳ 3 (HLS/arşiv erişilemedi:
-#6 #8 #10) · B 9 · C 2 · D 1.
-⇒ Kesin uygulanabilir: 5. ⏳ üçü kaynak cümlesi gelince A olur.
+**Parti 1 (20):** A 4 (kaynak cümlesiyle: #11 #16 #17 #20) · A⏳ 4 (#5 özne ama cümle yok; #6 #8 #10
+HLS/arşiv erişilemedi) · B 9 · C 2 · D 1.
+⇒ Kesin uygulanabilir: 4. ⏳ dördü kaynak cümlesi gelince A olur. (1 Ekim düzeltmesi: #5 A→A⏳.)
 
 ## 3. Parti 2 — madde 21-60 (36 odaksız; #36 #52 #53 #60 zaten `yer_id`li, atlandı)
 
@@ -109,8 +109,8 @@ Ek erişim: IBS (fall.fsulawrc.com) **000** — taşıma arızası (D211 ⑤: ö
 
 ## 4. TOPLAM — 56 odaksız madde
 ```
-A      6   kaynak cümlesiyle (Aachen · Nijmegen · Torino · Stettin · Paris) + Melilla (fethin öznesi)
-A⏳   13   madde `d`si imza yerini AÇIKÇA söylüyor, kaynak cümlesi ALINAMADI (HLS 403/Cloudflare ·
+A      5   kaynak cümlesiyle (Aachen · Nijmegen · Torino · Stettin · Paris)
+A⏳   14   Melilla (fethin öznesi, cümle alınmadı) + 13: madde `d`si imza yerini AÇIKÇA söylüyor, kaynak cümlesi ALINAMADI (HLS 403/Cloudflare ·
            IBS 000 · UNTS/congreso indirilmedi) — kaynak doğrulanınca A
 B     17   atlasta yok: 13 imza yeri (Alcañices · Fribourg · Vervins · Brömsebro · Llívia · Strömstad ·
            Varese · Lunéville · Kortrijk · Meppen · Wad-Ras · Villa Giusti · Rapallo) + 4 bölge
@@ -122,7 +122,7 @@ D     12   karar · ilhak kararnamesi · ilan · yürürlük
 
 ### Sınav — gerçek `arac/odak_cozum.js` yamalı kopyası (index.html evreni)
 ```
-yalnız A (6 yer_id)           dosya ODAKSIZ 56 → 50 · yeni kırık atıf 0
+yalnız A (5 yer_id)           dosya ODAKSIZ 56 → 51 · yeni kırık atıf 0  (1 Ekim: Melilla A⏳'ya çekildi; sınav 6 ile koştu → 50, 5 ile 51)
 A + A⏳ (19 yer_id)           dosya ODAKSIZ 56 → 37 · yeni kırık atıf 0
 ```
 19/19 yama eşleşti; önerilen adların hepsi havuzda çözüldü (Lozan · Stettin (Szczecin) ·
