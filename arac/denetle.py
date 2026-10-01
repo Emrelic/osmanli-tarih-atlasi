@@ -606,10 +606,16 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 191   # 1 EKIM 2026: 195 -> 191, gecenin kronoloji kampanyasi
+BEKLENEN_ACIK_S = 189   # 1 EKIM 2026 (gece): 195 -> 191 -> 189
 # 1788 yeni madde girdi ve DORT yabanci senkron acigini KAPATTI. Tavan asagi da
 # takip edilir (`§11`): indirilmezse yarinki gerileme "191 <= 195" diye sessizce
 # gecer ve acigin geri acilmasi GORUNMEZ olur.
+# 🔴 IKINCI INDIRME, ayni gece: tavan 191 yazildiktan SONRA iki acik daha
+#   kapandi (gece nobetinde olculdu: 189). 191'de birakmak, o iki kapanisin
+#   geri acilmasini "189 -> 191 <= 191" diye SESSIZ kilardi. Tavan bir hedef
+#   degil OLCULMUS DURUMDUR; olcum her indiginde tavan da iner.
+#   ⚠️ Ve bu indirme bir VERI degisikligi DEGIL: denetim SERTLESIR, gevsemez.
+#   Yanlissa yarin ✗ otur ve hemen gorulur — gizlenen bir sey yok.
 
 # 🟡 AYRI DEFTER — `YYYY-01-01` kırılmaları (bkz. yil_temsili_ayir).
 # İhlal DEĞİL: bunların çaresi madde yazmak değil GÜNÜ BULMAKTIR; ±30 günlük
