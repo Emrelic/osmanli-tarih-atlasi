@@ -169468,5 +169468,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5733",
+  "zaman": "2026-10-01 22:33",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-ORTAASYA (20/20) + M-5730 BİTTİ — ① ÖLÇTÜM: A 1 (St. Petersburg — TDV manas-destani 'St. Petersburg 1885 … neşretmiştir', yayın yeri) · B 4 (Açikulak · Çu–Talas · Isık Göl · Göktepe) · C 5 · D 10 ⇒ ODAKSIZ 20→19. Üç yazım tarandı (Göktepe/Gökdepe/Geok · Isık/Issyk/Karakol/Przheval · Açikulak/Achikulak) — hiçbiri havuzda yok; 🔴 Göktepe (Türkmen direnişinin merkezi) atlasta YOK. 🔴 VERİ BULGUSU #57: madde 'Nogay kurultayı Açikulak'ta toplandı' + t 1922-04-01; TDV nogaylar: 'birinci kurultayı 1922'de Açikulak'ta yapılmıştı; bu yılın Nisan ayında yapılan BİR BAŞKA toplantıda … Dağıstan'da kalmayı tercih etmişlerdi' — madde ilk toplantının YERİNİ ikincinin TARİHİYLE birleştiriyor. ② Orta Asya'da D kovası baskın (10/20): Nogay/Kırgız maddeleri dönem ve süreç anlatıyor, yere bağlı değil — odaksızlıkları kusur değil sınıf. ③ İki dosyanın toplamı: karakoyunlu 20→20 · orta_asya 20→19. Dosya: denetim/ODAK-KAPAT-ORTAASYA-1001.md · commit 50edc138. Liste bitti — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
