@@ -1,0 +1,1381 @@
+{
+ "olcum": "YZ-KIRLENME-1001 · RUSYA-77 · YAZICI-KASA tarayıcı turu 01.10.2026",
+ "evren": {
+  "rusya_madde": 92,
+  "arama_ozeti_beyanli": 77,
+  "gun_hassasiyetli": 23,
+  "yil_hassasiyetli": 54
+ },
+ "sayim": {
+  "YIL ÖLÇÜLEMEDİ": 35,
+  "GÜN DOĞRULANAMADI": 15,
+  "GÜN DOĞRULANDI": 8,
+  "YIL DOĞRULANDI": 12,
+  "YIL ÖLÇÜLDÜ-YOK": 7
+ },
+ "not": "ÖNERİ dosyası — UYGULANMADI. Dosya sahibi değilim; uygulama koordinatörde (tek araç).",
+ "kalemler": [
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 15,
+   "b": "Pustozersk kalesi kuruldu — Peçora ağzında ilk Moskova karakolu",
+   "ESKI": {
+    "t": "1499-01-01",
+    "gun": "1499 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Pustozersk\" old.bigenc.ru/domestic_history/text/3173524 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 16,
+   "b": "Vedroşa Muharebesi — Moskova, Litvanya ordusunu yendi; Bryansk ve Seversk toprakları Mosko",
+   "ESKI": {
+    "t": "1500-07-14",
+    "gun": "14 Temmuz 1500 (Jülyen — Rus kaynağı)",
+    "kaynak": "Rusya Savunma Bakanlığı Askerî Ansiklopedisi, \"Забытая победа на Ведроши\" (encyclopedia.mil.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1500-01-01",
+    "gun": "1500 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1500-07-14 · gun \"14 Temmuz 1500 (Jülyen — Rus kaynağı)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: encyclopedia.mil.ru — tarayıcıda da açılmadı (gezinme reddedildi). §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 17,
+   "b": "Smolensk Moskova'ya teslim oldu — III. Vasili şehre girdi",
+   "ESKI": {
+    "t": "1514-08-01",
+    "gun": "31 Temmuz teslim, 1 Ağustos 1514 giriş (Jülyen)",
+    "kaynak": "\"К вопросу о «Смоленском взятии» 1514 г.\", CyberLeninka akademik makale (cyberleninka.ru/article/n/k-voprosu-o-smolenskom-vzyatii-1514-g) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "CyberLeninka — I. B. Mihaylova, \"К вопросу о «Смоленском взятии» 1514 г.\", Studia Slavica et Balcanica Petropolitana (2011), cyberleninka.ru/article/n/k-voprosu-o-smolenskom-vzyatii-1514-g — «покров к 1 августа 1514 г., когда был присоединен Смоленск, уже был закончен» (makalede Mayasova'dan aktarılan cümle)",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: \"К вопросу о «Смоленском взятии» 1514 г.\", CyberLeninka akademik makale (cyberleninka.ru/article/n/k-voprosu-o-smolenskom-vzyatii-1514-g) — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 18,
+   "b": "Tara kalesi kuruldu — İrtiş boyunda Küçüm Han'a karşı ileri karakol",
+   "ESKI": {
+    "t": "1594-01-01",
+    "gun": "1594 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Omskaya oblast\" old.bigenc.ru/geography/text/2689005 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 19,
+   "b": "Obdorsk ostrogu kuruldu — Ob ağzında Rus karakolu (bugünkü Salehard)",
+   "ESKI": {
+    "t": "1595-01-01",
+    "gun": "1595 (kaynak yıl verir; kışlak 1593)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Salehard\" old.bigenc.ru/geography/text/3528963 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Salekhard, editör metni): «Salekhard was founded in 1595 and became a city in 1938.»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 20,
+   "b": "Mangazeya kuruldu — Taz ırmağında kutup ötesi kürk ticaret merkezi",
+   "ESKI": {
+    "t": "1601-01-01",
+    "gun": "1601 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Mangazeya\" old.bigenc.ru/domestic_history/text/2156295 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 21,
+   "b": "Tomsk kalesi kuruldu",
+   "ESKI": {
+    "t": "1604-01-01",
+    "gun": "1604 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Tomsk\" old.bigenc.ru/geography/text/4196538; Encyclopaedia Britannica \"Tomsk\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Tomsk-Russia, editör metni): «Founded as a fort in 1604 to protect the river crossing, the city developed as a regional administrative centre.»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 22,
+   "b": "Turuhansk kışlağı kuruldu — Yenisey'in aşağı kesiminde",
+   "ESKI": {
+    "t": "1607-01-01",
+    "gun": "1607 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Yenisey\" bigenc.ru/c/enisei-9ea096 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 23,
+   "b": "Kuznetsk kışlağı kuruldu — Tom'un yukarısında (bugünkü Novokuznetsk)",
+   "ESKI": {
+    "t": "1618-01-01",
+    "gun": "1618 ilkbahar (kaynak ay verir, gün vermez); ostrog 1620",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Novokuznetsk\" old.bigenc.ru/geography/text/2667811 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Novokuznetsk editör metni açıldı, 1618 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 24,
+   "b": "Yeniseysk ostrogu kuruldu",
+   "ESKI": {
+    "t": "1619-01-01",
+    "gun": "1619 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Yenisey\" bigenc.ru/c/enisei-9ea096 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 25,
+   "b": "Krasnoyarsk ostrogu kuruldu",
+   "ESKI": {
+    "t": "1628-01-01",
+    "gun": "1628 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Krasnoyarsk\" old.bigenc.ru/geography/text/2107402 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Krasnoyarsk-Russia, editör metni): «One of the earliest Russian settlements in Siberia, it was founded as the fort of Krasny Yar in 1628 on the left bank of the Yenisey.»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 26,
+   "b": "İlimsk kışlağı kuruldu — Yenisey'den Lena'ya geçiş yolunda",
+   "ESKI": {
+    "t": "1630-01-01",
+    "gun": "1630 (kaynak yıl verir); ostrog 1640/1647",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Ilimsk\" (irkipedia.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 27,
+   "b": "Jigansk kışlağı kuruldu — Lena'nın aşağı kesiminde",
+   "ESKI": {
+    "t": "1632-01-01",
+    "gun": "1632 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Lena\" bigenc.ru/c/lena-reka-dfef5c — sayfa açılamadı (401/403), arama özetinden okundu [özet] — orta güven",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 28,
+   "b": "Yakutsk (Lena) ostrogu kuruldu — Pyotr Beketov",
+   "ESKI": {
+    "t": "1632-09-25",
+    "gun": "25 Eylül 1632 (Jülyen; kaynak Gregoryen karşılığını 5 Ekim verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Yakutsk\" old.bigenc.ru/geography/text/5768359 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1632-01-01",
+    "gun": "1632 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1632-09-25 · gun \"25 Eylül 1632 (Jülyen; kaynak Gregoryen karşılığını 5 Ekim verir)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: Britannica yalnız YILI veriyor (/place/Yakutsk: «A fort was founded on the Lena’s low right bank in 1632 and transferred 43 miles (70 km) upstream to the present site of Yakutsk in 1642.»). §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]",
+    "kaynak_ek": "Britannica «…» (britannica.com/place/Yakutsk, editör metni): «A fort was founded on the Lena’s low right bank in 1632 and transferred 43 miles (70 km) upstream to the present site of Yakutsk in 1642.» — yalnız YIL"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 29,
+   "b": "Vilyuysk kışlağı kuruldu",
+   "ESKI": {
+    "t": "1634-01-01",
+    "gun": "1634 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Vilyuy\" bigenc.ru/c/viliui-ddd14a — sayfa açılamadı (401/403), arama özetinden okundu [özet] — orta güven",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Vilyuy-River, editör metni): «small riparian settlements are Vilyuysk (founded 1634)»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 30,
+   "b": "Olyokminsk ostrogu kuruldu — Pyotr Beketov",
+   "ESKI": {
+    "t": "1635-07-17",
+    "gun": "17 Temmuz 1635 (Rus kaynağı, Jülyen); kışlak 1633",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Olyokminsk\" old.bigenc.ru/geography/text/5768280 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1635-01-01",
+    "gun": "1635 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1635-07-17 · gun \"17 Temmuz 1635 (Rus kaynağı, Jülyen); kışlak 1633\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: BRE old.bigenc.ru → bre.ruwiki.ru 403 (IP engeli, tarayıcıda da). §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 31,
+   "b": "Tambov kalesi kuruldu — Belgorod savunma hattının doğu ucu",
+   "ESKI": {
+    "t": "1636-04-17",
+    "gun": "17 Nisan 1636 (Jülyen; kaynak Gregoryen karşılığını 27 Nisan verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Tambov\" old.bigenc.ru/geography/text/4180917 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1636-01-01",
+    "gun": "1636 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1636-04-17 · gun \"17 Nisan 1636 (Jülyen; kaynak Gregoryen karşılığını 27 Nisan verir)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: BRE 403 (tarayıcıda da); Britannica Tambov şehir sayfası bulunamadı. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 32,
+   "b": "Samarovo yamı kuruldu — İrtiş-Ob kavşağında (bugünkü Hantı-Mansiysk)",
+   "ESKI": {
+    "t": "1637-01-01",
+    "gun": "1637 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Hantı-Mansiysk\" old.bigenc.ru/geography/text/4729366 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Khanty-Mansiysk editör metni açıldı, 1637 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 33,
+   "b": "Verhoyansk kurulduğu yıl — Yana ırmağında Rus karakolu",
+   "ESKI": {
+    "t": "1638-01-01",
+    "gun": "1638 (kaynak yıl verir)",
+    "kaynak": "Encyclopaedia Britannica, \"Verkhoyansk\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Verkhoyansk, editör metni): «Founded as a fort in 1638 and today a minor centre of tin and gold mining»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 34,
+   "b": "Zaşiversk ostrogu kuruldu — İndigirka üzerinde",
+   "ESKI": {
+    "t": "1639-01-01",
+    "gun": "1639 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"İndigirka\" bigenc.ru/c/indigirka-75e334 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 35,
+   "b": "Açinsk ostrogu kuruldu",
+   "ESKI": {
+    "t": "1641-01-01",
+    "gun": "1641 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Açinsk\" old.bigenc.ru/geography/text/3923593 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Achinsk editör metni açıldı, 1641 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 36,
+   "b": "Srednekolımsk kışlağı kuruldu — Kolıma'ya ilk Rus yerleşimi",
+   "ESKI": {
+    "t": "1643-01-01",
+    "gun": "1643 yazı (kaynak mevsim verir, gün vermez)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Srednekolımsk\" old.bigenc.ru/geography/text/5768310 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 37,
+   "b": "Nijnekolımsk kışlağı kuruldu — Kolıma ağzında",
+   "ESKI": {
+    "t": "1644-01-01",
+    "gun": "1644 (kaynak yıl verir)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Nijnekolımsk\" (bsk.nios.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 38,
+   "b": "Verhneangarsk ostrogu kuruldu — Baykal'ın kuzey ucunda",
+   "ESKI": {
+    "t": "1647-01-01",
+    "gun": "1647 (kaynak yıl verir; kışlak 1643/1646 da anılır)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Verhneangarskiy ostrog\" (irkipedia.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 39,
+   "b": "Ohotsk kışlağı kuruldu — Rusya Pasifik kıyısına ulaştı",
+   "ESKI": {
+    "t": "1647-05-23",
+    "gun": "23 Mayıs 1647 (Rus kaynağı, Jülyen); ostrog 1649",
+    "kaynak": "Ohotsk Bölgesi idaresi resmî tarih sayfası (admokhotsk.khabkrai.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1647-01-01",
+    "gun": "1647 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1647-05-23 · gun \"23 Mayıs 1647 (Rus kaynağı, Jülyen); ostrog 1649\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: admokhotsk.khabkrai.ru — tarayıcıda açılmadı. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 40,
+   "b": "Barguzin ostrogu kuruldu — Baykal'ın doğu kıyısında",
+   "ESKI": {
+    "t": "1648-01-01",
+    "gun": "1648 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Ostrog\" old.bigenc.ru/fine_art/text/5743212 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 41,
+   "b": "Nijneudinsk kışlağı kuruldu",
+   "ESKI": {
+    "t": "1648-10-14",
+    "gun": "14 Ekim 1648 (Pokrov günü — Rus kaynağı, Jülyen); ostrog 1649",
+    "kaynak": "İrkutsk Bölge Kütüphanesi yayınları (lib38.ru) ve pribaikal.ru — sayfa açılamadı (401/403), arama özetinden okundu [özet] — zayıf-orta güven",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1648-01-01",
+    "gun": "1648 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1648-10-14 · gun \"14 Ekim 1648 (Pokrov günü — Rus kaynağı, Jülyen); ostrog 1649\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: lib38.ru / pribaikal.ru — URL yok, Rus bölge siteleri erişilemez. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 42,
+   "b": "Ostrogojsk kalesi kuruldu — bozkır savunma hattında",
+   "ESKI": {
+    "t": "1652-01-01",
+    "gun": "1652 (kaynak yıl verir)",
+    "kaynak": "Ostrogojsk belediyesi resmî sayfası (ostrogozhsk-r20.gosweb.gosuslugi.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 43,
+   "b": "Şilka (Nerçinsk) ostrogu kuruldu — Amur'un yukarı havzasında",
+   "ESKI": {
+    "t": "1653-01-01",
+    "gun": "1653 (kaynak yıl verir); Nerçinsk adı 1658-1659",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Nerçinsk\" old.bigenc.ru/domestic_history/text/5292416 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Nerchinsk editör metni açıldı, 1653 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 44,
+   "b": "Balagansk ostrogu kuruldu — Angara üzerinde",
+   "ESKI": {
+    "t": "1654-01-01",
+    "gun": "Mayıs-Haziran 1654 (kaynak ay verir, gün vermez)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Balaganskiy ostrog\" (irkipedia.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 45,
+   "b": "İrkutsk ostrogu kuruldu",
+   "ESKI": {
+    "t": "1661-01-01",
+    "gun": "1661 (kaynak yıl verir; kışlak 1652)",
+    "kaynak": "Encyclopaedia Britannica, \"Irkutsk\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Irkutsk-Russia, editör metni): «a fort was built in 1661, and Irkutsk rapidly became the main centre of Cisbaikalia»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 46,
+   "b": "Şadrinsk slobodası kuruldu — Trans-Ural'da",
+   "ESKI": {
+    "t": "1662-01-01",
+    "gun": "1662 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Şadrinsk\" old.bigenc.ru/geography/text/4689676 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Shadrinsk, editör metni): «Founded in 1662, it was chartered in 1781»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 47,
+   "b": "Selenginsk ostrogu kuruldu — Moğol sınırına doğru",
+   "ESKI": {
+    "t": "1665-01-01",
+    "gun": "1665 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Selenginsk\" old.bigenc.ru/geography/text/5619751 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 48,
+   "b": "Dudinka yasak kışlağı kuruldu — Yenisey'in ağzına yakın",
+   "ESKI": {
+    "t": "1667-01-01",
+    "gun": "1667 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Dudinka\" old.bigenc.ru/geography/text/1969887; Encyclopaedia Britannica \"Dudinka\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Dudinka, editör metni): «A port on the lower Yenisey River, it was founded in 1667 and became a city in 1951.»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 49,
+   "b": "Kamışlov ostrogu kuruldu — Trans-Ural'da",
+   "ESKI": {
+    "t": "1668-01-01",
+    "gun": "Ağustos-Kasım 1668 (kaynak ay aralığı verir)",
+    "kaynak": "Kamışlov belediyesi resmî tarih sayfası (gorod-kamyshlov.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 50,
+   "b": "Udskoy ostrogu kuruldu — Ohotsk Denizi'nin güneybatısında",
+   "ESKI": {
+    "t": "1679-01-01",
+    "gun": "1679 (kaynak yıl verir)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Udskiy ostrog\" (bsk.nios.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 51,
+   "b": "Yama kışlağı kuruldu — Ohotsk Denizi'nin kuzey kıyısında",
+   "ESKI": {
+    "t": "1692-01-01",
+    "gun": "1692 (kaynak yıl verir)",
+    "kaynak": "A. S. Zuev, \"Русские остроги на крайнем Северо-Востоке\" (zaimka.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 52,
+   "b": "Nijnekamçatsk kışlağı kuruldu — Atlasov'un Kamçatka seferi",
+   "ESKI": {
+    "t": "1697-01-01",
+    "gun": "1697 sonbaharı (kaynak mevsim verir)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Nijnekamçatskiy ostrog\" (bsk.nios.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 53,
+   "b": "Bolşeretsk ostrogu kuruldu — Kamçatka'nın batı kıyısında",
+   "ESKI": {
+    "t": "1704-01-01",
+    "gun": "1704 (kaynak yıl verir; bir kaynak 1703)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Bolşeretskiy ostrog\" (bsk.nios.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 54,
+   "b": "Abakan ostrogu kuruldu — Yenisey'in yukarısında",
+   "ESKI": {
+    "t": "1707-01-01",
+    "gun": "1707 (kaynak yıl verir; I. Petro fermanı 1706)",
+    "kaynak": "Letopis Yeniseyskoy Sibiri (bölgesel tarih yayını) — sayfa açılamadı (401/403), arama özetinden okundu [özet] — orta güven",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Abakan-Russia editör metni açıldı, 1707 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 55,
+   "b": "Penjinsk ostrogu kuruldu — Koryak yurdunda",
+   "ESKI": {
+    "t": "1709-01-01",
+    "gun": "1709 (kaynak yıl verir)",
+    "kaynak": "Istoriçeskaya entsiklopediya Sibiri (2009), \"Koryakskiy avtonomnıy okrug\" (bsk.nios.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 56,
+   "b": "Olyutorsk (Arhangelsk) ostrogu kuruldu",
+   "ESKI": {
+    "t": "1714-01-01",
+    "gun": "1714 (kaynak yıl verir)",
+    "kaynak": "A. S. Zuev, \"Русские остроги на крайнем Северо-Востоке\" (zaimka.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 57,
+   "b": "Semipalatinsk kalesi kuruldu — İrtiş hattı Cungar sınırına ilerledi",
+   "ESKI": {
+    "t": "1718-01-01",
+    "gun": "1718 (kaynak yıl verir)",
+    "kaynak": "Semey şehri tarih sayfası ve Semey kütüphanesi (semey.city, semeylib.kz) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Semey-Kazakhstan, editör metni): «It was founded as a Russian fort in 1718, 11 miles (18 km) downstream from the present site»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 58,
+   "b": "İrtiş hattı: Koryakovsk forpostu (Pavlodar) ve Ust-Kamenogorsk kalesi kuruldu",
+   "ESKI": {
+    "t": "1720-01-01",
+    "gun": "1720 — Ust-Kamenogorsk Ağustos 1720 (kaynak ay verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Ust-Kamenogorsk\" bigenc.ru/c/ust-kamenogorsk-adae90; Entsiklopediya geografiçeskih nazvaniy, \"Koryakovskiy forpost\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 59,
+   "b": "Nijni Tagil demir fabrikasının kuruluş yılı",
+   "ESKI": {
+    "t": "1722-01-01",
+    "gun": "1722 (kaynak 'geleneksel kuruluş tarihi' der)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Nijniy Tagil\" old.bigenc.ru/geography/text/2267348 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Nizhny-Tagil editör metni açıldı, 1722 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 60,
+   "b": "I. Petro Ağrahan Körfezi'ne çıktı — Hazar seferi Dağıstan kıyısında",
+   "ESKI": {
+    "t": "1722-07-27",
+    "gun": "27 Temmuz 1722 (Jülyen; Gregoryen karşılığı 7 Ağustos — hesap)",
+    "kaynak": "Rusya Devlet Donanma Arşivi, \"Персидский поход 1722-1723 гг.\" (rgavmf.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1722-01-01",
+    "gun": "1722 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1722-07-27 · gun \"27 Temmuz 1722 (Jülyen; Gregoryen karşılığı 7 Ağustos — hesap)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: rgavmf.ru — URL yok, Rus resmî sitesi erişilemez. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 61,
+   "b": "Yegoşiha bakır fabrikası kuruldu — Perm'in resmî kuruluş günü",
+   "ESKI": {
+    "t": "1723-05-04",
+    "gun": "4 Mayıs 1723 (Jülyen; kaynak Gregoryen karşılığını 15 Mayıs verir)",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Perm\" bigenc.ru/c/perm-4ec59c — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1723-01-01",
+    "gun": "1723 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1723-05-04 · gun \"4 Mayıs 1723 (Jülyen; kaynak Gregoryen karşılığını 15 Mayıs verir)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: Britannica yalnız YILI veriyor (/place/Perm-Russia: «In 1723 a copper-smelting works was founded at the village of Yegoshikha (founded 1568), at the junction of the Yegoshikha and Kama rivers.»). §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]",
+    "kaynak_ek": "Britannica «…» (britannica.com/place/Perm-Russia, editör metni): «In 1723 a copper-smelting works was founded at the village of Yegoshikha (founded 1568), at the junction of the Yegoshikha and Kama rivers.» — yalnız YIL"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 62,
+   "b": "Yekaterinburg fabrikası çalışmaya başladı — Ural madencilik merkezi",
+   "ESKI": {
+    "t": "1723-11-07",
+    "gun": "7 Kasım 1723 (Jülyen; kaynak Gregoryen karşılığını 18 Kasım verir); resmî açılış 24 Kasım",
+    "kaynak": "Bolşaya Rossiyskaya Entsiklopediya (BRE), \"Yekaterinburg\" old.bigenc.ru/geography/text/3834279 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1723-01-01",
+    "gun": "1723 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1723-11-07 · gun \"7 Kasım 1723 (Jülyen; kaynak Gregoryen karşılığını 18 Kasım verir); resmî açılış 24 Kasım\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: Britannica yalnız YILI veriyor (/place/Yekaterinburg: «In 1723 the new settlement was named Yekaterinburg in honor of Catherine I, the wife of Peter I the Great.»). §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]",
+    "kaynak_ek": "Britannica «…» (britannica.com/place/Yekaterinburg, editör metni): «In 1723 the new settlement was named Yekaterinburg in honor of Catherine I, the wife of Peter I the Great.» — yalnız YIL"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 63,
+   "b": "Barnaul — Altay'da Demidov yerleşiminin resmî kuruluş yılı",
+   "ESKI": {
+    "t": "1730-01-01",
+    "gun": "1730 resmî tarih (1980'de belirlendi); araştırmacıların bir kısmı 1739 der",
+    "kaynak": "Altay Kray resmî portalı (altairegion22.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet] — tarih tartışmalı",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLDÜ-YOK",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "Britannica /place/Barnaul editör metni açıldı, 1730 yılını VERMİYOR; yıl yalnız arama özetinden (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Yıl kaynakta doğrulanamadı. Yıl düşürülmez (madde silinmez); beyan eklenir. Hüküm koordinatörde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 64,
+   "b": "Zmeinogorsk gümüş madeni bulundu — Altay'da",
+   "ESKI": {
+    "t": "1736-01-01",
+    "gun": "1736 (kaynak yıl verir; kale 1744)",
+    "kaynak": "Altay Kray Bilimsel Kütüphanesi (akunb.altlib.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet] — orta güven",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 65,
+   "b": "Çelyabinsk kalesi kuruldu — Başkurt yurdunda Orenburg seferi",
+   "ESKI": {
+    "t": "1736-09-13",
+    "gun": "13 Eylül 1736 (kaynak; takvim belirtilmemiş — atlas kaydı 2 Eylül)",
+    "kaynak": "Güney Ural Devlet Üniversitesi, \"Челябинская крепость\" (natu.susu.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1736-01-01",
+    "gun": "1736 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1736-09-13 · gun \"13 Eylül 1736 (kaynak; takvim belirtilmemiş — atlas kaydı 2 Eylül)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: natu.susu.ru — URL yok. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 66,
+   "b": "Gorbitsa sınır karakolu kuruldu — Qing sınırında",
+   "ESKI": {
+    "t": "1762-01-01",
+    "gun": "1762 (kaynak yıl verir)",
+    "kaynak": "Entsiklopediya Zabaykalya, \"Gorbitsa\" (ez.chita.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 67,
+   "b": "Akşa sınır kalesi kuruldu — Onon üzerinde",
+   "ESKI": {
+    "t": "1765-01-01",
+    "gun": "1765 (kaynak yıl verir; inşa 1765-1772)",
+    "kaynak": "Entsiklopediya Zabaykalya, \"Akşa\" (ez.chita.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 68,
+   "b": "Zaporojye Seçi Rus ordusunca dağıtıldı — Zaporojye Kazak ordusunun sonu",
+   "ESKI": {
+    "t": "1775-06-15",
+    "gun": "15-16 Haziran 1775 (kaynak; takvim belirtilmemiş — Jülyen 4-5 Haziran'a denk, hesap)",
+    "kaynak": "Encyclopedia of Ukraine (V. Kubijovyč ed., CIUS), \"Zaporizhia, The\" (encyclopediaofukraine.com) — 15-16 Haziran 1775 — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "Encyclopedia of Ukraine (CIUS), \"Zaporizhia, The\", encyclopediaofukraine.com/display.asp?linkpath=pages\\Z\\A\\ZaporizhiaThe.htm — «On 15–16 June 1775, on orders from Catherine II , the Russian army under Gen P. …»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: Encyclopedia of Ukraine (V. Kubijovyč ed., CIUS), \"Zaporizhia, The\" (encyclopediaofukraine.com) — 15-16 Haziran 1775 — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 69,
+   "b": "Şelihov, Kodiak'ta Üç Aziz Körfezi yerleşimini kurdu — Alaska'da ilk kalıcı Rus yerleşimi",
+   "ESKI": {
+    "t": "1784-01-01",
+    "gun": "Ağustos 1784 (kaynak ay verir, gün vermez)",
+    "kaynak": "ABD Millî Park Servisi, \"Three Saints Bay Site\" (nps.gov/places/three-saints-bay-site.htm) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Kodiak-Island, editör metni): «Grigory Shelekhov (Shelikof) established the first settlement in 1784 at Three Saints Bay»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 70,
+   "b": "Kenai'de Aziz Nikola Redutu kuruldu — Alaska",
+   "ESKI": {
+    "t": "1791-01-01",
+    "gun": "1791 (kaynak yıl verir)",
+    "kaynak": "SAH Archipedia (Society of Architectural Historians); A. Boraas, Concise History of the Kenai Peninsula — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 71,
+   "b": "Yakutat'ta Novorossiysk yerleşimi kuruldu — Alaska",
+   "ESKI": {
+    "t": "1796-01-01",
+    "gun": "Haziran 1796 (kaynak ay verir)",
+    "kaynak": "Encyclopaedia Britannica, \"Aleksandr Andreyevich Baranov\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 72,
+   "b": "Karkaralı ve Kökçetav dış okrugları açıldı — Orta Cüz'de hanlık kalktı",
+   "ESKI": {
+    "t": "1824-04-08",
+    "gun": "8 Nisan 1824 Karkaralı açılış emri (kaynak); Kökçetav 29 Nisan 1824 — takvim belirtilmemiş",
+    "kaynak": "Kazakistan resmî tarih portalı (e-history.kz); inkaraganda.kz — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1824-01-01",
+    "gun": "1824 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1824-04-08 · gun \"8 Nisan 1824 Karkaralı açılış emri (kaynak); Kökçetav 29 Nisan 1824 — takvim belirtilmemiş\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: e-history.kz / inkaraganda.kz — URL yok. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 73,
+   "b": "Mihaylovski Redutu (St. Michael) kuruldu — Norton Körfezi",
+   "ESKI": {
+    "t": "1833-01-01",
+    "gun": "1833 (kaynak yıl verir)",
+    "kaynak": "ABD Kongre Kütüphanesi (loc.gov) koleksiyon notu — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 74,
+   "b": "Aziz Dionisiy Redutu kuruldu — Stikine ağzı (bugünkü Wrangell)",
+   "ESKI": {
+    "t": "1834-01-01",
+    "gun": "1834 (kaynak yıl verir)",
+    "kaynak": "Wrangell şehri resmî sayfası (wrangell.com) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 75,
+   "b": "Nulato ticaret karakolu kuruldu — Yukon üzerinde",
+   "ESKI": {
+    "t": "1838-01-01",
+    "gun": "1838 (kaynak yıl verir; bir kaynak 1839)",
+    "kaynak": "Arctic dergisi (Arctic Institute of North America), \"Trading Posts along the Yukon River\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Yukon-River, editör metni): «By 1838 Russian fur traders had explored the river as far inland as Nulato (Alaska), where they established a post»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 76,
+   "b": "Kolmakovski Redutu kuruldu — Kuskokwim üzerinde",
+   "ESKI": {
+    "t": "1841-01-01",
+    "gun": "1841 (kaynak yıl verir)",
+    "kaynak": "University of Alaska Museum of the North, \"Kolmakovsky Redoubt\" (uaf.edu) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 77,
+   "b": "Aigun Antlaşması — Qing, Amur'un sol kıyısını Rusya'ya bıraktı",
+   "ESKI": {
+    "t": "1858-05-28",
+    "gun": "28 Mayıs 1858 (Gregoryen; Jülyen 16 Mayıs)",
+    "kaynak": "TDV \"rusya\" (yıl: \"1858'de yapılan bir antlaşmayla Amur nehrinin sol kıyıları Rusya'ya bırakıldı\"); gün: Encyclopaedia Britannica \"Treaty of Aigun\" ve Rusya Cumhurbaşkanlığı Kütüphanesi (prlib.ru/en/history/619270) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "Rusya Cumhurbaşkanlığı Kütüphanesi (prlib.ru), \"Russian-Chinese Treaty of Aigun concluded\", prlib.ru/en/history/619270 — «Айхунь [Айгун], 16/28 мая 1858 г.» · ayrıca Britannica «Treaty of Aigun» editör metni: «the Treaty of Aigun (May 16, 1858)»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: TDV \"rusya\" (yıl: \"1858'de yapılan bir antlaşmayla Amur nehrinin sol kıyıları Rusya'ya bırakıldı\"); gün: Encyclopaedia Britannica \"Treaty of Aigun\" ve Rusya Cumhurbaşkanlığı Kütüphanesi (prlib.ru/en/history/619270) — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 78,
+   "b": "Kazakeviçevo (Ust-Ussuriysk) stanitsası adını aldı — Amur-Ussuri kavşağı",
+   "ESKI": {
+    "t": "1858-05-31",
+    "gun": "31 Mayıs 1858 (köy idaresinin resmî kuruluş günü; takvim belirtilmemiş); karakol 1857",
+    "kaynak": "Kazakeviçevo köy idaresi resmî tarih sayfası (kazakevichevo.khabkrai.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1858-01-01",
+    "gun": "1858 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1858-05-31 · gun \"31 Mayıs 1858 (köy idaresinin resmî kuruluş günü; takvim belirtilmemiş); karakol 1857\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: kazakevichevo.khabkrai.ru — Rus bölge sitesi erişilemez. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 79,
+   "b": "Bodaybo altın madeni merkezi kuruldu — Vitim havzası",
+   "ESKI": {
+    "t": "1864-01-01",
+    "gun": "1864 (kaynak yıl verir)",
+    "kaynak": "Bodaybo ilçe idaresi resmî tarih sayfası (uprava-bodaibo.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 80,
+   "b": "Türkistan (Yesi) şehri Rus kuvvetlerince alındı",
+   "ESKI": {
+    "t": "1864-06-12",
+    "gun": "12 Haziran 1864 (kaynak; takvim belirtilmemiş)",
+    "kaynak": "\"Türkistan Askerî Valiliğinin Kurulması ve Sınırlarının Belirlenmesi\", Bilig (Ahmet Yesevi Üniversitesi, bilig.yesevi.edu.tr) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1864-01-01",
+    "gun": "1864 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1864-06-12 · gun \"12 Haziran 1864 (kaynak; takvim belirtilmemiş)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: Bilig makalesi yalnız PDF (bilig.yesevi.edu.tr/…/6980-published.pdf) — izinsiz dosya indirilmedi. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 81,
+   "b": "Çimkent Rus ordusunca alındı — Hokand'ın sınır kaleleri düştü",
+   "ESKI": {
+    "t": "1864-09-22",
+    "gun": "22 Eylül 1864 (kaynak; takvim belirtilmemiş)",
+    "kaynak": "TDV \"cimkent\" (ilk hücum 7 Temmuz 1864, teslim; gün vermez); gün: \"Çarlık Rusyası'nın Türkistan'da Hâkimiyet Kurması\" (dergipark.org.tr) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1864-01-01",
+    "gun": "1864 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1864-09-22 · gun \"22 Eylül 1864 (kaynak; takvim belirtilmemiş)\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: DergiPark makalesi yalnız PDF (dergipark.org.tr/tr/download/article-file/117875) — izinsiz dosya indirilmedi. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 82,
+   "b": "Hucend fırtınayla alındı — Hokand'ın son büyük kalesi",
+   "ESKI": {
+    "t": "1866-05-24",
+    "gun": "24 Mayıs 1866 (Rus kaynağı; takvim belirtilmemiş)",
+    "kaynak": "TDV \"rusya\" (yıl: \"Hucend (1866)\"); gün: P. L. Grossul-Tolstoy, Dela russkogo oruji i politiki v Sredney Azii (militera.lib.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "P. L. Grossul-Tolstoy, Дела русского оружия и политики в Средней Азии, militera.lib.ru/h/grossul_tolstoy_pl/05.html — «двинулся к Ходженту и 24 мая, после осьмидневной осады, взял его»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: TDV \"rusya\" (yıl: \"Hucend (1866)\"); gün: P. L. Grossul-Tolstoy, Dela russkogo oruji i politiki v Sredney Azii (militera.lib.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 83,
+   "b": "Rusya Alaska'yı Sitka'da ABD'ye teslim etti — Rus Amerikası sona erdi",
+   "ESKI": {
+    "t": "1867-10-18",
+    "gun": "18 Ekim 1867 (Gregoryen; Rus takvimiyle 6 Ekim)",
+    "kaynak": "TDV \"rusya\" (satış 1867, 7.200.000 dolar); tören günü: Alaska Historical Society, \"150th Anniversary of the Alaska Treaty of Cession\" (alaskahistoricalsociety.org) ve ABD Millî Park Servisi NHL kaydı (npgallery.nps.gov) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "Britannica «Alaska Purchase» (britannica.com/event/Alaska-Purchase, editör metni) — «The United States officially took possession on October 18 in a flag-changing ceremony at Sitka.»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: TDV \"rusya\" (satış 1867, 7.200.000 dolar); tören günü: Alaska Historical Society, \"150th Anniversary of the Alaska Treaty of Cession\" (alaskahistoricalsociety.org) ve ABD Millî Park Servisi NHL kaydı (npgallery.nps.gov) — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 84,
+   "b": "Krasnovodsk kuruldu — Rusya Hazar'ın doğu kıyısına çıktı",
+   "ESKI": {
+    "t": "1869-01-01",
+    "gun": "1869 (kaynak yıl verir)",
+    "kaynak": "Bolşaya Sovetskaya Entsiklopediya, \"Krasnovodsk\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL DOĞRULANDI",
+   "islem": "kaynak-ekle",
+   "YENI": {
+    "kaynak_ek": "Britannica (britannica.com/place/Turkmenbashi, editör metni): «It was founded in 1869 as a Russian fort»",
+    "ic_not_kaynak": "yıl Britannica editör metninde birebir (YAZICI-KASA tarayıcı turu 01.10.2026); BRE 403 / arama özeti beyanı korunur"
+   },
+   "gerekce": "Yıl açılan kaynakta var; t zaten yıl hassasiyetinde."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 85,
+   "b": "Rusya İli (Kulca) bölgesini işgal etti",
+   "ESKI": {
+    "t": "1871-07-04",
+    "gun": "22 Haziran 1871 (Jülyen) / 4 Temmuz 1871 (Gregoryen) — kaynak ikisini de verir",
+    "kaynak": "Noda Jin, \"Reconsidering the Ili Crisis: The Ili Region under Russian Rule (1871-1881)\" (Research Institute for Humanity and Nature, chikyu.ac.jp) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANAMADI",
+   "islem": "gun-dusur",
+   "YENI": {
+    "t": "1871-01-01",
+    "gun": "1871 (gün kaynakta DOĞRULANAMADI — model özetinden geliyordu)",
+    "ic_not_t": "önceki kayıt 1871-07-04 · gun \"22 Haziran 1871 (Jülyen) / 4 Temmuz 1871 (Gregoryen) — kaynak ikisini de verir\". Gün arama özetinden (model metni) geliyordu ve kaynakta DOĞRULANAMADI: chikyu.ac.jp yayını — URL yok / PDF. §4 hassasiyet kaynağı aşamaz. [YAZICI-KASA tarayıcı turu 01.10.2026]"
+   },
+   "gerekce": "Koordinatör hükmü ③: gün kaynakta yoksa YYYY-01-01. ⚠️ Değişmez 2 (±30 gün senkron) etkilenebilir — uygulamadan önce ÖLÇ."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 86,
+   "b": "St. Petersburg Antlaşması — Sahalin'in tamamı Rusya'ya, Kuriller Japonya'ya",
+   "ESKI": {
+    "t": "1875-05-07",
+    "gun": "7 Mayıs 1875 (Gregoryen; Jülyen 25 Nisan)",
+    "kaynak": "Rusya Cumhurbaşkanlığı Kütüphanesi, \"Treaty of 1875 between Russia and Japan on territories exchange\" (prlib.ru/en/history/619225); Encyclopaedia Britannica \"Treaty of Saint Petersburg\"; TDV \"rusya\" (1855 ortak yönetim) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "Rusya Cumhurbaşkanlığı Kütüphanesi (prlib.ru), \"Treaty of 1875 between Russia and Japan on territories exchange\", prlib.ru/en/history/619225 — «On April 25 (May 7), 1875 in St. Petersburg Alexander Mikhailovich Gorchakov from the Russian side and Enomoto Takeaki from the Japanese side signed the treaty»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: Rusya Cumhurbaşkanlığı Kütüphanesi, \"Treaty of 1875 between Russia and Japan on territories exchange\" (prlib.ru/en/history/619225); Encyclopaedia Britannica \"Treaty of Saint Petersburg\"; TDV \"rusya\" (1855 ortak yönetim) — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 87,
+   "b": "Zeya (Zeyski Sklad) aktarma deposu kuruldu — Amur altın yolları",
+   "ESKI": {
+    "t": "1879-01-01",
+    "gun": "1879 (kaynak yıl verir)",
+    "kaynak": "Zeya şehri idaresi resmî sayfası (admzeya.amurobl.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 88,
+   "b": "Onor yerleşimi kuruldu — Sahalin sürgün kolonisi",
+   "ESKI": {
+    "t": "1892-01-01",
+    "gun": "1892 (kaynak yıl verir)",
+    "kaynak": "Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 89,
+   "b": "Pamir Postu kuruldu — Rusya Pamir'e yerleşti",
+   "ESKI": {
+    "t": "1893-01-01",
+    "gun": "1893 (kaynak yıl verir); bugünkü Murgab'a taşınma 1903",
+    "kaynak": "\"Первый российский форпост на «Крыше мира»\", CyberLeninka akademik makale (cyberleninka.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "YIL ÖLÇÜLEMEDİ",
+   "islem": "not-ekle",
+   "YENI": {
+    "ic_not_kaynak": "yıl arama özetinden (model metni); kaynak açılamadı (BRE 403 tarayıcıda da / Britannica sayfası yok) (YAZICI-KASA tarayıcı turu 01.10.2026)"
+   },
+   "gerekce": "Ölçülemedi ≠ yanlış. Beyan eklenir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 90,
+   "b": "Litvanya Konseyi (Taryba) bağımsızlık ilan etti",
+   "ESKI": {
+    "t": "1918-02-16",
+    "gun": "16 Şubat 1918 (Gregoryen)",
+    "kaynak": "EBSCO Research Starters, \"Baltic States Gain Independence\"; Encyclopaedia Britannica, \"Baltic states — Independence\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "Britannica «Baltic states — Independence and the 20th century» (britannica.com/place/Baltic-states/Independence-and-the-20th-century, editör metni) — «On February 16, 1918, the Lithuanian National Council (Taryba), which had been formed in 1917, proclaimed Lithuania’s independence and set up a national government.»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: EBSCO Research Starters, \"Baltic States Gain Independence\"; Encyclopaedia Britannica, \"Baltic states — Independence\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  },
+  {
+   "dosya": "data/kronoloji_cok_rusya.js",
+   "madde": 91,
+   "b": "Estonya bağımsızlığını ilan etti — Bolşevik çekilişiyle Alman girişi arasında",
+   "ESKI": {
+    "t": "1918-02-24",
+    "gun": "24 Şubat 1918 (Gregoryen); manifesto 23 Şubat akşamı Pärnu'da okundu",
+    "kaynak": "EBSCO Research Starters, \"Baltic States Gain Independence\"; Encyclopaedia Britannica, \"Baltic states — Independence\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]",
+    "ic_not_t": null
+   },
+   "sinif": "GÜN DOĞRULANDI",
+   "islem": "kaynak-guncelle",
+   "YENI": {
+    "kaynak": "Britannica «Baltic states — Independence and the 20th century» (editör metni) · «history of Estonia» — «On February 24 the Maapäev declared Estonia’s independence and formed a provisional government»",
+    "ic_not_kaynak": "gün kaynakta birebir görüldü (YAZICI-KASA tarayıcı turu 01.10.2026); önceki kayıt arama özetindendi: EBSCO Research Starters, \"Baltic States Gain Independence\"; Encyclopaedia Britannica, \"Baltic states — Independence\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]"
+   },
+   "gerekce": "Gün, açılan kaynakta birebir var; \"arama özeti\" beyanı açılmış kaynakla değiştirilir."
+  }
+ ]
+}

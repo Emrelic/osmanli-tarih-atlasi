@@ -1,0 +1,242 @@
+{
+ "olcum": "YZ-KIRLENME-1001-ATIF-DUZELTME · YAZICI-KASA 01.10.2026",
+ "not": "ÖNERİ — UYGULANMADI. Her kalemde ESKI kaynak alanının TAMAMI ve YENI tamamı var; ESKI_parca kaynakta birebir (assert).",
+ "sayim": {
+  "duzeltme_kalemi": 10,
+  "yanlis_madde_kaynak": 4,
+  "sessiz_degisiklik": 6,
+  "yanlis_alarm_duzeltme_yok": 10,
+  "nokta_eklenmis_duzeltme_yok": 4
+ },
+ "DUZELTME_EK3": "EK 3'teki \"11 yanlış TDV maddesi\" sayısı YANLIŞTI: 10'u ayrıştırıcı hatası, gerçek olan 1 (once1281_avrupa #204). Koordinatörün 23 kalem hesabı bu sayıya dayanıyordu; gerçek düzeltme kalemi 10.",
+ "kalemler": [
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 204,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-MADDE (TDV→TDV)",
+   "islem": "atif-tasi",
+   "ESKI_parca": "TDV — 'İDİL BULGAR HANLIĞI' — https://islamansiklopedisi.org.tr/idil-bulgar-hanligi · TDV — 'BULGAR' — https://islamansiklopedisi.org.tr/bulgar — alıntı: 'Batu Han bu yenilginin intikamını almak için 1236’da İdil Bulgarları’nın üzerine sefere çıkarak ülkeyi baştan başa yakıp yıktı.'",
+   "YENI_parca": "TDV — 'İDİL BULGAR HANLIĞI' — https://islamansiklopedisi.org.tr/idil-bulgar-hanligi — alıntı: 'Batu Han bu yenilginin intikamını almak için 1236’da İdil Bulgarları’nın üzerine sefere çıkarak ülkeyi baştan başa yakıp yıktı.' · TDV — 'BULGAR' — https://islamansiklopedisi.org.tr/bulgar",
+   "ESKI": "TDV — 'İDİL BULGAR HANLIĞI' — https://islamansiklopedisi.org.tr/idil-bulgar-hanligi · TDV — 'BULGAR' — https://islamansiklopedisi.org.tr/bulgar — alıntı: 'Batu Han bu yenilginin intikamını almak için 1236’da İdil Bulgarları’nın üzerine sefere çıkarak ülkeyi baştan başa yakıp yıktı.'",
+   "YENI": "TDV — 'İDİL BULGAR HANLIĞI' — https://islamansiklopedisi.org.tr/idil-bulgar-hanligi — alıntı: 'Batu Han bu yenilginin intikamını almak için 1236’da İdil Bulgarları’nın üzerine sefere çıkarak ülkeyi baştan başa yakıp yıktı.' · TDV — 'BULGAR' — https://islamansiklopedisi.org.tr/bulgar",
+   "gerekce": "Alıntı «İdil Bulgar Hanlığı» maddesinde birebir; «Bulgar» maddesinde YOK. KİMLİK: b/yer/yer_id (\"Bulgar (Bolgar)\") tutarlı — kimlik karışması YOK, yalnız atıf. ⚠️ Ek gözlem: taraflar yalnız [\"mogol-imparatorlugu\"]; saldırıya uğrayan \"idil-bulgar\" künyesi taraflarda yok (devletler.js'te id:\"idil-bulgar\" VAR).",
+   "nerede_birebir": "TDV idil-bulgar-hanligi"
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 3,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-KAYNAK (TDV→Hrvatska)",
+   "islem": "atif-tasi",
+   "ESKI_parca": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo — alıntı: 'Sofya 1001’de elden çıkmış, daha sonra Vidin, Üsküp ve öteki kaleler Bizans’ın eline geçmiştir.'",
+   "YENI_parca": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan — alıntı: 'Sofya 1001’de elden çıkmış, daha sonra Vidin, Üsküp ve öteki kaleler Bizans’ın eline geçmiştir.' · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo",
+   "ESKI": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo — alıntı: 'Sofya 1001’de elden çıkmış, daha sonra Vidin, Üsküp ve öteki kaleler Bizans’ın eline geçmiştir.'",
+   "YENI": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan — alıntı: 'Sofya 1001’de elden çıkmış, daha sonra Vidin, Üsküp ve öteki kaleler Bizans’ın eline geçmiştir.' · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo",
+   "gerekce": "Türkçe alıntı TDV «Bulgaristan» gövdesinde birebir; Hrvatska enciklopedija sayfası Hırvatça, bu cümleyi taşımıyor. Alıntı TDV atfının arkasına taşınır, Hrvatska atfı (alıntısız) kalır.",
+   "nerede_birebir": "TDV bulgaristan"
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 10,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-KAYNAK (TDV→Hrvatska)",
+   "islem": "atif-tasi",
+   "ESKI_parca": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo — alıntı: '1014’te Stumitsa yöresinde yapılan savaşta Bulgar ordusu Bizans ordusunca yok edilmiş'",
+   "YENI_parca": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan — alıntı: '1014’te Stumitsa yöresinde yapılan savaşta Bulgar ordusu Bizans ordusunca yok edilmiş' · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo",
+   "ESKI": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo — alıntı: '1014’te Stumitsa yöresinde yapılan savaşta Bulgar ordusu Bizans ordusunca yok edilmiş'",
+   "YENI": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan — alıntı: '1014’te Stumitsa yöresinde yapılan savaşta Bulgar ordusu Bizans ordusunca yok edilmiş' · Hrvatska enciklopedija — 'Samuilo' — https://www.enciklopedija.hr/clanak/samuilo",
+   "gerekce": "Türkçe alıntı TDV «Bulgaristan» gövdesinde birebir; Hrvatska enciklopedija sayfası Hırvatça, bu cümleyi taşımıyor. Alıntı TDV atfının arkasına taşınır, Hrvatska atfı (alıntısız) kalır.",
+   "nerede_birebir": "TDV bulgaristan"
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_avrupa.js",
+   "madde": 164,
+   "alan": "kaynak",
+   "sinif": "YANLIŞ-KAYNAK (TDV→Hrvatska)",
+   "islem": "atif-tasi",
+   "ESKI_parca": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Kalojan' — https://www.enciklopedija.hr/clanak/kalojan — alıntı: 'I. Asen hayatını kaybetmiş (1196), yönetimin başına kardeşi Kaloyan (1197-1207) geçmiş ve eski yerlerden bazılarını yeniden Bulgar topraklarına katmıştır.'",
+   "YENI_parca": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan — alıntı: 'I. Asen hayatını kaybetmiş (1196), yönetimin başına kardeşi Kaloyan (1197-1207) geçmiş ve eski yerlerden bazılarını yeniden Bulgar topraklarına katmıştır.' · Hrvatska enciklopedija — 'Kalojan' — https://www.enciklopedija.hr/clanak/kalojan",
+   "ESKI": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan · Hrvatska enciklopedija — 'Kalojan' — https://www.enciklopedija.hr/clanak/kalojan — alıntı: 'I. Asen hayatını kaybetmiş (1196), yönetimin başına kardeşi Kaloyan (1197-1207) geçmiş ve eski yerlerden bazılarını yeniden Bulgar topraklarına katmıştır.'",
+   "YENI": "TDV — 'BULGARİSTAN' — https://islamansiklopedisi.org.tr/bulgaristan — alıntı: 'I. Asen hayatını kaybetmiş (1196), yönetimin başına kardeşi Kaloyan (1197-1207) geçmiş ve eski yerlerden bazılarını yeniden Bulgar topraklarına katmıştır.' · Hrvatska enciklopedija — 'Kalojan' — https://www.enciklopedija.hr/clanak/kalojan",
+   "gerekce": "Türkçe alıntı TDV «Bulgaristan» gövdesinde birebir; Hrvatska enciklopedija sayfası Hırvatça, bu cümleyi taşımıyor. Alıntı TDV atfının arkasına taşınır, Hrvatska atfı (alıntısız) kalır.",
+   "nerede_birebir": "TDV bulgaristan"
+  },
+  {
+   "dosya": "data/kronoloji_cok_ince_bati_afrika.js",
+   "madde": 0,
+   "alan": "kaynak",
+   "sinif": "SESSİZ DEĞİŞİKLİK",
+   "islem": "alinti-birebir",
+   "ESKI_parca": "Mosi Kralı Naaba Dulugu'nun (1769-1823) yönetimi döneminde İslâm dini sarayda etkin hale geldi",
+   "YENI_parca": "İslâm dini, Mosi Kralı Naaba Dulugu’nun (1769-1823) yönetimi döneminde sarayda etkin hale geldi",
+   "ESKI": "TDV `burkina-faso` (gövde okundu) — «Mosi Kralı Naaba Dulugu'nun (1769-1823) yönetimi döneminde İslâm dini sarayda etkin hale geldi»",
+   "YENI": "TDV `burkina-faso` (gövde okundu) — «İslâm dini, Mosi Kralı Naaba Dulugu’nun (1769-1823) yönetimi döneminde sarayda etkin hale geldi»",
+   "gerekce": "Kelime sırası değiştirilmişti (\"İslâm dini\" cümle başından ortaya alınmış).",
+   "nerede_birebir": "TDV burkina-faso"
+  },
+  {
+   "dosya": "data/kronoloji_cok_afrika.js",
+   "madde": 5,
+   "alan": "kaynak",
+   "sinif": "SESSİZ DEĞİŞİKLİK",
+   "islem": "alinti-birebir",
+   "ESKI_parca": "1841'de Yola şehrini merkez yapıp Garoua",
+   "YENI_parca": "1841’de Yola şehrini merkez yaparak Garoua",
+   "ESKI": "TDV `adamava` (gövde okundu) — «1841'de Yola şehrini merkez yapıp Garoua ve Ngaoundere gibi yeni şehirler kurmuştur»; «1848'de ölümünden sonra … bölge Adamava ismini almıştır».",
+   "YENI": "TDV `adamava` (gövde okundu) — «1841’de Yola şehrini merkez yaparak Garoua ve Ngaoundere gibi yeni şehirler kurmuştur»; «1848'de ölümünden sonra … bölge Adamava ismini almıştır».",
+   "gerekce": "Fiil değiştirilmişti: TDV \"yaparak\", kayıt \"yapıp\".",
+   "nerede_birebir": "TDV adamava"
+  },
+  {
+   "dosya": "data/kronoloji_cok_ince_bati_afrika.js",
+   "madde": 12,
+   "alan": "kaynak",
+   "sinif": "SESSİZ DEĞİŞİKLİK",
+   "islem": "alinti-birebir",
+   "ESKI_parca": "Mâsînâ veya Dina da denilen Fûlânî Devleti'ni kurdu",
+   "YENI_parca": "Mâsînâ veya Dina da denilen Fûlânî (Pöl, Fulbe) Devleti’ni kurdu",
+   "ESKI": "TDV `mali` (gövde okundu) — «Putperest Segu Kralı Monzon Kulubali'nin oğlu ve halefi olan Damonzon Diarra'yı (1808-1820) yenilgiye uğratan Ahmedü Lobbo, Mâsînâ veya Dina da denilen Fûlânî Devleti'ni kurdu»",
+   "YENI": "TDV `mali` (gövde okundu) — «Putperest Segu Kralı Monzon Kulubali'nin oğlu ve halefi olan Damonzon Diarra'yı (1808-1820) yenilgiye uğratan Ahmedü Lobbo, Mâsînâ veya Dina da denilen Fûlânî (Pöl, Fulbe) Devleti’ni kurdu»",
+   "gerekce": "Parantez \"(Pöl, Fulbe)\" işaretsiz atılmıştı.",
+   "nerede_birebir": "TDV mali"
+  },
+  {
+   "dosya": "data/kronoloji_cok_venedik.js",
+   "madde": 5,
+   "alan": "kaynak",
+   "sinif": "SESSİZ DEĞİŞİKLİK",
+   "islem": "alinti-atlama-isareti",
+   "ESKI_parca": "yapıldı. 1718'de Pasarofça",
+   "YENI_parca": "yapıldı. … 1718'de Pasarofça",
+   "ESKI": "TDV `ayamavra`: \"Eylül 1715'te burası yeniden Osmanlı hâkimiyetine geçti ve derhal adanın nüfus ve vergi tesbiti yapıldı. 1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi ve 1797'ye kadar onların elinde kaldı.\"",
+   "YENI": "TDV `ayamavra`: \"Eylül 1715'te burası yeniden Osmanlı hâkimiyetine geçti ve derhal adanın nüfus ve vergi tesbiti yapıldı. … 1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi ve 1797'ye kadar onların elinde kaldı.\"",
+   "gerekce": "İki cümle arasındaki \"Tahrir komisyonu şehri oldukça ıssız buldu ve otuz iki köyünde yaklaşık 4900 kişi kaydedebildi (TK, TD, nr. 87).\" cümlesi \"…\" konmadan atlanmıştı. İki parça ayrı ayrı TDV ayamavra gövdesinde birebir.",
+   "nerede_birebir": "TDV ayamavra"
+  },
+  {
+   "dosya": "data/kronoloji_cok_1923_1945.js",
+   "madde": 230,
+   "alan": "kaynak",
+   "sinif": "SESSİZ DEĞİŞİKLİK",
+   "islem": "alinti-birebir",
+   "ESKI_parca": "küçük anlaşmazlıklar dışında",
+   "YENI_parca": "küçük anlaşmazlıkların dışında",
+   "ESKI": "LOC Country Studies 'Qatar: Historical Background' http://countrystudies.us/persian-gulf-states/68.htm (özet: 'Oil was discovered in Qatar in 1939, but its exploitation was halted between 1942 and 1947 because of World War II and its aftermath.') · TDV 'KATAR' https://islamansiklopedisi.org.tr/katar : \"Bu tarihten bölgede petrolün bulunduğu 1940 yılına kadar milletlerarası politikada gündeme gelmeyen Katar, komşuları Bahreyn ve Suudi Arabistan ile arasında çıkan bazı küçük anlaşmazlıklar dışında önemli bir olayla karşılaşmadı.\"",
+   "YENI": "LOC Country Studies 'Qatar: Historical Background' http://countrystudies.us/persian-gulf-states/68.htm (özet: 'Oil was discovered in Qatar in 1939, but its exploitation was halted between 1942 and 1947 because of World War II and its aftermath.') · TDV 'KATAR' https://islamansiklopedisi.org.tr/katar : \"Bu tarihten bölgede petrolün bulunduğu 1940 yılına kadar milletlerarası politikada gündeme gelmeyen Katar, komşuları Bahreyn ve Suudi Arabistan ile arasında çıkan bazı küçük anlaşmazlıkların dışında önemli bir olayla karşılaşmadı.\"",
+   "gerekce": "Ek değiştirilmişti: TDV \"anlaşmazlıkların\", kayıt \"anlaşmazlıklar\".",
+   "nerede_birebir": "TDV katar"
+  },
+  {
+   "dosya": "data/kronoloji_cok_afrika.js",
+   "madde": 3,
+   "alan": "kaynak",
+   "sinif": "SESSİZ DEĞİŞİKLİK",
+   "islem": "alinti-birebir",
+   "ESKI_parca": "Muhammed Bello'ya bıraktı",
+   "YENI_parca": "Muhammed Bello'ya bırakıp …",
+   "ESKI": "TDV `sokoto` (gövde okundu) — «1812'de Sokoto Sultanlığı (/Halifeliği) veya Nijerya Fûlânî Devleti olarak tanınan bir yönetim kurdu … batı eyaletlerinin yönetimini kardeşi Abdullah'a, doğu bölgesinin yönetimini Sokoto'yu başşehir yapan oğlu Muhammed Bello'ya bıraktı». Künye kronolojisindeki 1809 başkent kaydı ile 3 yıl fark DUZELTME.md'de.",
+   "YENI": "TDV `sokoto` (gövde okundu) — «1812'de Sokoto Sultanlığı (/Halifeliği) veya Nijerya Fûlânî Devleti olarak tanınan bir yönetim kurdu … batı eyaletlerinin yönetimini kardeşi Abdullah'a, doğu bölgesinin yönetimini Sokoto'yu başşehir yapan oğlu Muhammed Bello'ya bırakıp …». Künye kronolojisindeki 1809 başkent kaydı ile 3 yıl fark DUZELTME.md'de.",
+   "gerekce": "Fiil değiştirilmişti: TDV \"bırakıp Sifâve’de oturmayı tercih etti\", kayıt \"bıraktı\" (cümle kesilip fiil çekimi uydurulmuş). Öneri: \"bırakıp …\".",
+   "nerede_birebir": "TDV sokoto"
+  }
+ ],
+ "yanlis_alarm": [
+  {
+   "dosya": "data/kronoloji_cok_ermeni.js",
+   "madde": 8,
+   "dogru_madde": "revan",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV revan (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_gurcistan.js",
+   "madde": 7,
+   "dogru_madde": "cildir-eyaleti",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV cildir-eyaleti (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_gurcistan.js",
+   "madde": 24,
+   "dogru_madde": "gurcistan",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV gurcistan (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_gurcistan.js",
+   "madde": 28,
+   "dogru_madde": "tiflis",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV tiflis (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+   "madde": 92,
+   "dogru_madde": "sanliurfa",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV sanliurfa (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+   "madde": 109,
+   "dogru_madde": "sam--suriye",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV sam--suriye (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+   "madde": 110,
+   "dogru_madde": "zengiler",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV zengiler (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+   "madde": 112,
+   "dogru_madde": "medine",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV medine (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+   "madde": 114,
+   "dogru_madde": "begteginliler",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV begteginliler (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  },
+  {
+   "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+   "madde": 142,
+   "dogru_madde": "begteginliler",
+   "islem": "YOK",
+   "not": "EK 3'te \"yanlış TDV maddesine yazılmış\" sayılmıştı; YANLIŞ ALARM. Kayıtta alıntı doğru TDV maddesinin (`TDV begteginliler (…)`) hemen arkasında; ayrıştırıcım segmentteki İLK slug'ı almıştı."
+  }
+ ],
+ "nokta_eklenmis": [
+  {
+   "dosya": "data/kronoloji_cok_sirbistan.js",
+   "madde": 6,
+   "islem": "YOK",
+   "not": "Alıntı cümle ortasında kesilmiş ve sonuna nokta konmuş; içerik birebir. Düzeltme gerekmez."
+  },
+  {
+   "dosya": "data/kronoloji_cok_sirbistan.js",
+   "madde": 9,
+   "islem": "YOK",
+   "not": "Alıntı cümle ortasında kesilmiş ve sonuna nokta konmuş; içerik birebir. Düzeltme gerekmez."
+  },
+  {
+   "dosya": "data/kronoloji_cok_venedik.js",
+   "madde": 2,
+   "islem": "YOK",
+   "not": "Alıntı cümle ortasında kesilmiş ve sonuna nokta konmuş; içerik birebir. Düzeltme gerekmez."
+  },
+  {
+   "dosya": "data/kronoloji_cok_venedik.js",
+   "madde": 4,
+   "islem": "YOK",
+   "not": "Alıntı cümle ortasında kesilmiş ve sonuna nokta konmuş; içerik birebir. Düzeltme gerekmez."
+  }
+ ]
+}
