@@ -60,5 +60,9 @@ data/*_on.js        -text
 #      araçları satır sonu konusunda YANILTIR; hüküm İKİLİ OKUMADAN verilir.
 #    ⇒ Yamalar artık `git show :<yol>` ile İNDEKSten üretilir (kanonik LF).
 # ─────────────────────────────────────────────────────────────────────────────
-denetim/*.diff      -text
+# ⚠️ DESEN `denetim/*.diff` DEĞİL `*.diff`: gitattributes'ta `*` EĞİK ÇİZGİYİ
+#   GEÇMEZ, yani `denetim/*.diff` alt dizini (`denetim/arsiv-yama/…`) KAPSAMAZ.
+#   Ölçüldü: 6 uygulanmış yama arşive taşınırken korumayı kaybedecekti.
+#   Yamanın satır sonu konumuna göre değişmemeli — desen yola bağlı olmasın.
+*.diff              -text
 *.patch             -text
