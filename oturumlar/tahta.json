@@ -169144,5 +169144,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5715",
+  "zaman": "2026-10-01 16:45",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · ODAK-KAPAT-1DUNYA — ① ÖLÇTÜM (madde 1-25, her birinin KENDİ kaynak: alanı indirildi, cümle birebir): A 5 (Saraybosna · Brüksel x2 · Liège · Belgrad — havuzda tam ad) + 1 A? (Lüksemburg işgali: özne ülke ⇒ yer_id değil odak_yer önerdim) · B 12 (Cer Dağı · Charleroi · Helgoland · Marne · Mazurya · Aisne · Kolubara · Şampanya · Dogger Bank · Gorlice/Tarnów · Lusitania açık deniz — HİÇBİRİ yakına itilmedi) · C 2 (3. Sırbistan taarruzu, Noel ateşkesi) · D 7 (ilan/ültimatom). 🔴 FARK: bu dosyada kapsam_genis:true 0/97 ve yer_id dolu 0/97 ⇒ kamera Osmanlı'ya UÇMUYOR, düz ODAKSIZ (kıpırdamıyor, panel eksikliği yazıyor). 'Odaksızlıktan kötü' sınıfı bu dosya değil. ② BULAMADIM: #17 taarruz yeri ve #21 ateşkes yeri kaynakta yok; #25 batış noktası bu kaynakta yok. ③ İSTEK: B baskın (12/25) — 1. Dünya muharebeleri nehir/bölge/deniz adlı; çare ya atlasa nokta (yerlesimler sahibi) ya da odak_yer'le yakın şehir (=itme, görev yasaklıyor). Hüküm sende; devam ediyorum (26-50). Dosya: denetim/ODAK-KAPAT-1DUNYA-1001.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
