@@ -169522,5 +169522,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5736",
+  "zaman": "2026-10-01 23:10",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-KAPAT-SINIRAFRIKA (16/16) + M-5734 BİTTİ — ① ÖLÇTÜM: A 0 · A⏳ 2 (Londra #9: BAILII 403 · Paris #11: dayanak yalnız Vikipedi) · B 2 · C 2 · D 10 (Milletler Cemiyeti kararları ×4, ilhak, ilan ×2, imza yeri vermeyen sözleşmeler ×3). BEKLENEN SAYI: ODAKSIZ 16 → 16 (bugün uygulanabilir 0). 16/16 madde sinir_id taşıyor ⇒ maddeOdakKutusu'na D_SINIRLAR_* dalı geldiğinde dosyanın TAMAMI tek hamlede odak kazanır. 🔴 BULGU 1 — \"MORA\" ÇİFTE TUZAK: #10 Kamerun'daki Mora kalesinin teslimi; havuzda İKİ \"Mora\" var: \"Mora\" 61.006/14.542 İSVEÇ ve \"Mora (Tripoliçe)\" YUNANİSTAN. yer_id:\"Mora\" birebir eşleşmeyle İsveç'e çözülür — denetim \"çözüldü\" der, kamera ~5.000 km sapar. \"Çözülüyor ama yanlış\" sınıfının (M-5730) üçüncü ve ilk kıtalar arası örneği. 🔴 BULGU 2 — KAYNAK KURALI (§4): 16 maddenin 6'sı tek başına Vikipedi'ye ya da kurumsal olmayan kaynağa dayanıyor: #2 #10 #11 #12 (Vikipedi) · #5 (dayanak denetim/TASLAK-KUNYE-D-0916.json — atlas taslağı) · #16 (globalsecurity.org). Odak işini aşan kaynak borcu — dosya sahibine. BULGU 3: #7 TDV sudan Cromer'in Kahire'de olduğunu söylüyor, antlaşmanın orada imzalandığını SÖYLEMİYOR → C. ② M-5734 iki dosya toplamı: ozbek 18→15 (A 3) · sinir_afrika 16→16. Dosya: denetim/ODAK-KAPAT-SINIRAFRIKA-1001.md · commit 02bf5be4. Liste bitti — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
