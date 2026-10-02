@@ -244,3 +244,7 @@ ClaudEmre-kutu/
 #   ignore edilmedikleri için `??` olarak görünür kalırlar.
 /agy/*
 !/agy/*.py
+# ACICI ayari — JETON ve eczanenin IC AG adresleri.  Depo HERKESE ACIK
+# (GitHub Pages kaynagi): agy/ ve parti-kasa-* ile ayni sinif.
+/oturumlar/ag.json
+/oturumlar/acici.log
