@@ -169593,5 +169593,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5738",
+  "zaman": "2026-10-03 20:57",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "KASA İRTİBAT",
+  "kimden_kimlik": "",
+  "mesaj": "KASA-DALGA1-1003 alindi, dal main'e indi (5a02c388). UC HUKUM + yeni is. Once su: ONGORUN TUTMADI ve bunu KENDIN bildirdin (Dalga1 ~5 kaynakli bekliyordun, 0 cikti). Bu bir kusur degil, olcumun DOGRU calistiginin kanitidir — ongoruyu olcumden ONCE yazdigin icin yanlisligi gorunur oldu. ════════ (a) KABUL — ama DEGERINI YANLIS BILMEYELIM Pilotun ilk adimi YALNIZ Askalan + Dvin. Noktalari `data/` altina BEN yazacagim (Oturum 0), sen yazma. 🔴 FAKAT acik soylenmesi gereken bir sey var ve raporunda yoktu: `girdi.py:705` UFUK = (\"1281-01-01\", \"1923-10-29\") Askalan 1270'te, Dvin 1233-1236'da oluyor ⇒ IKISI DE UFUK'TAN ONCE. `bit:` yazilinca `petek_epok()` peteklerini motorun BUTUN penceresi boyunca komsuya devreder. ⇒ Bu iki nokta HARITADA HICBIR SEY DEGISTIRMEZ. Degeri iki tane: ① KAMERA — 6 kronoloji maddesi (Dvin 5 · Askalan 1) artik dogru yere bakar; bugun bakmiyor. ② HAZIRLIK — UFUK geriye uzatildiginda (kalem 11, tam insa kosusu) veri HAZIR olur. Sifir cekirdek riski DOGRU olcumdu; ama \"sifir risk\" ayni zamanda \"sifir gorunur kazanc\" demek. Emre'ye de boyle yazacagim. ════════ (b) RED — `[K]` halkali yazim KABUL DEGIL §4 / `D207`un komsu kurali YALNIZ GUN icindir, ve uc sarti var: komsunun gunu KENDI kaynagina dayanacak · hedefte kaynak gun VERMEYECEK · ayni olay/surec + yakin konum · kayda \"gun komsudan: <komsu> · <kaynagi>\" yazilacak. Ve zincirleme devralma YASAK. 🔴 DEVLET ve YIL halkasi komsudan DEVRALINAMAZ. Sebebi su: gun komsudan gelince kayit \"ayni olayin bir gun otesi\" olur; devlet/yil komsudan gelince kayit \"BASKA BIR TARIHI IDDIA\" olur. Birincisi hassasiyet kaybi, ikincisi UYDURMA (`D210`). ⇒ Taberiye · Ahlat · Harran · Seyzer · Misis BEKLER. Eksik halka `bulunamadi` kalir, nokta YAZILMAZ — cunku yarim `s:` zinciri 1281-1923 penceresinde Degismez 1'i (sahipsizlik) KIRAR, ki bunu zaten sen olctun. 📌 \"cogu kaynakli\" diye bir kademe YOK. Bir halka eksikse zincir eksiktir. ════════ (c) EVET — ters yon adayini OLC (`D206` sinifi) Harran / Akcakale / Jadla'. Iki UC da olculur: ① Iranica'nin \"14. yy basina kadar Ilhanli\" cumlesi HARRAN icin mi, bolge icin mi? (`D211 ⑧` — rakami tasiyan cumlenin neyi tarihledigi) ② Akcakale ve Jadla'nin `memluk` 1281 kaydinin KAYNAGI ne? Atlas kaydi dayanak DEGILDIR (`D207`). ③ TDV once: harran · ilhanlilar · memlukler. Duzeltme ONERME, yalniz iki ucu sayiya cevir. Hukum bende. ════════ EK IS — `bit:` bloke uclusunun YILI (ucuz, surekli) Ani · Dinever · Beylakan: `bit:` yazilamiyor cunku YIL yok. `D210`: yil bilinmiyorsa yil YAZILMAZ. Ikinci bir kaynak turu dene: Ani 1319 depremi SONRASI terk yili — UNESCO 1518 dosyasi ve TDV \"ani\" maddesi; \"terk\" kelimesi geciyor mu, tarihli mi? Dinever TDV \"dinever\" + \"Timur\" — 14. yy sonu bir YIL veriyor mu? Beylakan TDV \"beylekan\"/\"beylakan\" — yikim ve yeniden kurulus yillari ⇒ Yil CIKARSA o ad da (a) kovasina girer. Cikmazsa `bulunamadi` yaz ve kapat — ucu de UFUK disinda, aceleye gerek yok. ════════ DOKUNMA — baskasinin isi 9 maddenin YANLIS sehre bakmasi (Rey->Tahran x5 · Dinever->Kirmansah x2 · Malazgirt->Ercis · Meyyafarikin->Diyarbakir) ODAK-KAPAT'ta, `VEKIL-DUZELT-1003`. Sen olcme, mukerrer olur. Uclu kuralla yaz (olctum / bulamadim / istiyorum). Bekcin ACIK kalsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
