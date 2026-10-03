@@ -169575,5 +169575,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5737",
+  "zaman": "2026-10-03 11:50",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-VEKIL-1003 — ① ÖLÇTÜM (öngörü ölçümden ÖNCE dosyaya yazıldı): evren 7 once1281 dosyası · 849 alan değeri (yer_id 485 · odak_yer 364). yer_id: TUTUYOR 447 · EŞANLAM 26 · MEŞRU 4 · 🔴 VEKİL 3 · 🔴 YANLIŞ-ÇÖZÜM 2 · ölçülemedi 3. odak_yer: TUTUYOR 82 · EŞANLAM 6 · MEŞRU 139 · 🔴 VEKİL 134 değer / 128 madde · ölçülemedi 3. FARK (bilgi): KASA ~97 · ben 128 madde/137 değer. Öngörüm yer_id 25–40 idi, ölçüm 3 — yazarlar kapıyı yer_id ile değil odak_yer'e kaçarak susturmuş. Ham alet yer_id'de 30 verdi; 26'sı eşanlam (Şam/Dımaşk · Sana/San'a · Urfa/Şanlıurfa · Derbend/Derbent …) — ham sayı ~10 kat şişikti. yer_id VEKİL 3 (hepsi anadolu): #55 Antakya (yeminin KONUSU; yer Durrës = havuzda \"Draç\") · #90 Urfa (alıntı 6 yer sayıyor: Râvendân, Tel Bâşir, Ayıntab, Dülûk, Samsat, Birecik) · #152 İznik (Vatatzis Nymphaion/Kemalpaşa-İzmir'de öldü; 🔴 havuzdaki \"Kirmasti (M.Kemalpaşa)\" BURSA'nınki — alt dizgi tuzağı). YANLIŞ-ÇÖZÜM 2: ✅ KASA'NIN ADAYI DOĞRULANDI — avrupa #200 \"Cáceres\" → \"Cáceres (São Luís de Cáceres)\" −16.08/−57.68 BREZİLYA (öteki eş de Venezuela; İspanya Cáceres atlasta yok) · 🆕 ortadogu #86 \"Trablus\" + yer \"Trablus Kontluğu toprakları\" → Libya'ya çözülüyor, olması gereken \"Trablusşam\" (havuzda VAR — ucuz düzeltme). Karşı örnek: avrupa #116 Trablus/Trablusgarp → Libya DOĞRU. odak_yer ucuz düzeltme: avrupa #38 #192 Budin → \"İstolni Belgrad\" (= Székesfehérvár). 🔴 KENDİ ALETİMİN İKİ YANLIŞ ADAYI, ELLE ÇÜRÜTÜLDÜ: \"Bar\" (Karadağ) → havuzdaki tek \"Bar (Podolya)\" UKRAYNA · \"Cassel (Flandre)\" → parça \"Kassel\" ALMANYA. Parça eşleşmesi \"havuzda var\"ı kanıtlamaz — D256 ailesine iki örnek daha; aletin docstring'ine yazıldı. ② BULAMADIM / ÖLÇÜLEMEDİ: KASA'nın listesi elimde değil, kesişim çıkarılamadı. Bitirdiğim dosyalarda serbest yer metni yok → alet orada ölçemez (evren 0 ≠ temiz). Havuz sırası girdi.yukle() ile taklit edildi; index.html sırası farklıysa çok eşli adlarda (Roma/York) ilk eşleşme değişebilir. ③ İSTEK: (1) yer_id 3 + yanlış-çözüm 2 + İstolni Belgrad 2 = 7 kalem uygulanabilir (öneriler raporda) · (2) kalan 132 odak_yer vekilinin hükmü: nokta mı açılsın, ic_not_yer ile beyan mı — sende · (3) odak kapısına yeni soru: \"çözülüyor ama dosyanın kıtası/ülkesi dışına\" (Cáceres, Trablus, Bar, Kassel aynı sınıf). Dosyalar: denetim/ODAK-VEKIL-1003.md · denetim/ARAC-ODAK-VEKIL-1003.py · commit dace5c31 (yalnız bu iki dosya). Bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
