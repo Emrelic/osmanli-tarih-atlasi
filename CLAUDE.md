@@ -395,6 +395,24 @@ kıta sayılan oturuma iş vermek, dolu bir işçinin üstüne ikinci iş yığm
   yeniden kur. "Bekliyorum" YAZILMAZ. 🔴 **Boş uyandıysan — sana ait hiçbir şey
   yoksa — EKRANA HİÇBİR ŞEY YAZMA,** bekçiyi sessizce yeniden kur ve dur: "benlik
   bir şey yok, yeniden kuruyorum" cümlesinin kendisi bir tur maliyetidir.
+  🆕 🔴 **NABIZ DAMGASI (3 Ekim 2026) — bekçi SESSİZ ama artık İZ BIRAKIYOR.**
+  Vaka: ODAK-KAPAT'ın bekçisi **çıkış 4** ile düştü (kodda `return 4` YOK ⇒
+  süreç dışarıdan düşürülmüş), oturum **9 saat** uyanmadı ve koordinatör
+  sessizliği "işçi takıldı" diye okudu — oysa teslim `git log`da duruyordu.
+  `tahta_bekci.py` her turda `oturumlar/bekci/<AD>.json` yazar (kimseyi
+  UYANDIRMAZ); koordinatör `py arac/bekci_olc.py` ile ölçer:
+  `CANLI` ≤2,5 tur · `KUSKULU` ≤5 · `OLU` · `CIKTI` (düzgün çıkış, ölüm
+  DEĞİL) · `OLCULEMEDI` (bozuk damga — "ölü" YAZILMAZ). Eşik **aralığın
+  KATIdır**, sabit saniye değil: aynı 20 dk sessizlik `ara 60`da ÖLÜ,
+  `ara 1800`de CANLIdır. ⚠️ `.bekci_son_*.txt` bu soruyu CEVAPLAMAZ —
+  yalnız çıkışta yazılır, "son nabız" değil "son ÖLÜM"dür.
+  ⚠️ Damga **gitignore'dadır**: PID ve makineye özel canlılık taşır,
+  commitlenirse başka makinenin bayat damgası "bekçi canlı" yalanı söyler.
+  🔴 **Bir oturumu "sessiz/takıldı" ilan etmeden ÖNCE:** ① tahta/`git log`
+  — teslim zaten gelmiş mi (`D224`) ② `bekci_olc.py` — bekçisi canlı mı
+  ③ ancak ikisi de hayırsa uyandır. Sınav (9 soru, iki yönde + GERÇEK bekçi
+  koşturularak): `py denetim/ARAC-BEKCI-NABIZ-SINAV-1003.py`.
+  [`D258`](dersler/D258-sessiz-bekci-iz-birakmali.md)
   🆕 🔴 **KAYNAK DARBOĞAZI KAPISI (Emre, 29 Eylül 2026) — yeniden kurmanın İSTİSNASI.**
   `tahta_bekci.py` açılışta `oturumlar/KAYNAK-DURUM.json`u okur; koordinatör
   `py arac/kaynak_durum.py kapat --kod <KOD>` ile darboğaz ilan ettiyse bekçi
@@ -542,7 +560,7 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 257 ders. Toplu okunmaz, kural
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 258 ders. Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
 (ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.

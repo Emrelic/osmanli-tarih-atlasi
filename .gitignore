@@ -248,3 +248,9 @@ ClaudEmre-kutu/
 # (GitHub Pages kaynagi): agy/ ve parti-kasa-* ile ayni sinif.
 /oturumlar/ag.json
 /oturumlar/acici.log
+
+# BEKCI NABIZ DAMGALARI — PAYLASILMAZ (gizlilik degil DOGRULUK).
+# Icinde PID ve MAKINEYE OZEL canlilik var; commitlenirse bu makine
+# baska makinenin BAYAT damgasini okuyup "bekci canli" sanar.
+# Yanlis alanla olcmek, olcmemekten daha tehlikelidir. (`D258`)
+/oturumlar/bekci/

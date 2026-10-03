@@ -235,6 +235,62 @@ def _defter_adlari(benler):
     return out, True
 
 
+# ====================== NABIZ DAMGASI (3 Ekim 2026) ======================
+# 🔴 VAKA: ODAK-KAPAT'in bekcisi CIKIS 4 ile dustu — `main()` yalniz 0/2/3
+#   donuyor, kodda `return 4` YOK ⇒ sureci DISARIDAN dusuruldu. Oturum 9
+#   saat uyanmadi. Koordinator sessizligi "isci takildi" diye okudu ve
+#   gereksiz bir uyandirma turu yakti.
+# ⇒ KOK KUSUR: olu bekci ile SESSIZ bekci AYIRT EDILEMIYOR. Bekci sessiz
+#   olmak ZORUNDA (§7.2 ④ — bos uyanis dolu turdan ucuz degil), o yuzden
+#   care "konussun" DEGIL: iz BIRAKSIN. Damga dosyaya yazilir, kimseyi
+#   uyandirmaz, ve `arac/bekci_olc.py` ile OLCULUR.
+# ⚠️ `.bekci_son_<AD>.txt` bu ise YARAMAZ: o yalniz `--cik` ile cikista
+#   yazilir, yani "son NABIZ" degil "son OLUM" damgasidir. Ters bilgi.
+# 🔴 DAMGA PAYLASILMAZ — `oturumlar/bekci/` gitignore'da. Icinde PID ve
+#   makineye ozel canlilik var; commitlenirse EMRELIC, KASA'nin BAYAT
+#   damgasini okuyup "bekci canli" sanar. Yanlis alanla olcmek, olcmemekten
+#   daha tehlikelidir: sayi verir ve guven telkin eder.
+# ⚠️ DIZIN MODUL DUZEYINDE DONDURULMAZ: `main()` içinde `global TAHTA` ile
+#   (`--tahta` bayrağı) yeniden atanabiliyor. Modül yüklenirken hesaplanan bir
+#   yol o anda BAYATLAR ve nabız YANLIS dizine düşer — damga yazılır, ölçen
+#   araç onu bulamaz, bekçi "ölü" görünür. Her çağrıda TAHTA'dan türetilir.
+def _nabiz_dizin():
+    return os.path.join(os.path.dirname(os.path.abspath(TAHTA)), "bekci")
+
+
+def _nabiz_yol(kim):
+    d = _nabiz_dizin()
+    try:
+        if not os.path.isdir(d):
+            os.makedirs(d)
+    except OSError:
+        return None
+    return os.path.join(d, re.sub(r"[^A-Za-z0-9]+", "_", kim or "?") + ".json")
+
+
+def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
+    """Her turda tek satir JSON. ASLA istisna firlatmaz — nabiz damgasi
+    bekciyi DUSURMEMELI; teshis arac olmaktan cikip ariza kaynagi olur."""
+    y = _nabiz_yol(kim)
+    if not y:
+        return
+    try:
+        io.open(y, "w", encoding="utf-8").write(json.dumps({
+            "ad": kim,
+            "durum": durum,          # nobette | cikti
+            "sebep": sebep,          # cikisin sebebi (durum=cikti ise)
+            "pid": os.getpid(),
+            "zaman": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "damga": int(time.time()),
+            "tur": tur_no,
+            "ara": ara,
+            "dinlenen": sorted(benler) if benler else [],
+        }, ensure_ascii=False))
+    except Exception:
+        pass
+# ===================== /NABIZ DAMGASI ====================================
+
+
 def main(argv):
     if "--kim" not in argv:
         _diag("kullanim: py arac/tahta_bekci.py --kim \"<TAM ADIN>\"")
@@ -337,9 +393,14 @@ def main(argv):
     n = 0
     havuz = []
     son_toplu = time.time()
+    # 🔴 ILK NABIZ time.sleep'ten ONCE — yoksa `ara`=1800 sn olan bir bekci
+    #   yarim saat boyunca "hic kurulmamis" gorunur ve `bekci_olc.py` onu OLU
+    #   sayar. Kurulumun kendisi de bir nabizdir.
+    _nabiz_yaz(kim, "nobette", 0, ara, benler)
     while True:
         time.sleep(ara)
         n += 1
+        _nabiz_yaz(kim, "nobette", n, ara, benler)
         yeni = []
         tuzak = []
         for m in _oku():
@@ -477,9 +538,11 @@ def main(argv):
         if yeni and cik:
             _diag("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
                   "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
+            _nabiz_yaz(kim, "cikti", n, ara, benler, "mesaj-var")
             return 0
         if tur and n >= tur:
             _diag("[BEKCI] %d tur bitti, çıkıyorum." % tur)
+            _nabiz_yaz(kim, "cikti", n, ara, benler, "tur-doldu")
             return 0
 
 
