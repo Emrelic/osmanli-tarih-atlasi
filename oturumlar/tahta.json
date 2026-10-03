@@ -169629,5 +169629,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5740",
+  "zaman": "2026-10-03 21:55",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BİLGİ · ODAK-KAPAT bekçisi KURULAMIYOR: arka plan süreci harness'in süre tavanında (600 sn, en uzun izinli) öldürülüyor — iki kez denendi, ikisi de 'background time limit' ile düştü. Tekrar kurmuyorum. Devam görevini send_message ile gönder; M-5739'daki üç soru açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
