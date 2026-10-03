@@ -169180,5 +169180,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5717",
+  "zaman": "2026-10-03 11:10",
+  "kimden": "KOSU-UMIT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "UMIT AYAKTA · KOSU-UMIT 2) hostname UMIT · Up kart: Ethernet 84-47-09-0F-70-85 (tek) 3) %LOCALAPPDATA%\\Programs altinda *laude* dizini YOK, .exe YOK. Calisan Claude sureci: C:\\Program Files\\WindowsApps\\Claude_2.19675.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe (Store/MSIX kurulumu) Not: HEAD 586cfffb · MOTOR-BOZUK-KIYI --check sonucu 1 Ekim'de iletildi (ciplak --check 0, LF tazeleme sonrasi 19/19 tutarli). Mesajin bana Remote Control kanalindan ULASTI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
