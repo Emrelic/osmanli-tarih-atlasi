@@ -170,6 +170,86 @@ def main():
         yol = sys.argv[sys.argv.index("--json") + 1]
         io.open(yol, "w", encoding="utf-8").write(json.dumps(kayit, ensure_ascii=False, indent=1))
         print("döküm:", yol)
+    return kayit, havuz
+
+
+# ── KAPI SORUSU: "çözülüyor ama dosyanın KITASI/BÖLGESİ dışına" (M-5737 ④, T-0135) ──────────
+# Ölçülebilir soru budur ("doğru mu" değil). Beyanlı istisnalar bir LİSTEDİR, sayı değil (D256/§9
+# odak tavanı deseni): istisna kapanırken yenisi yerine geçemez, kimlik eşleşmezse öter.
+# Anahtar: (dosya kısaltması, t, alan, değer). Her birinde `yer` metni değerle TUTUYOR —
+# yani olay gerçekten orada; dosyanın kaba kutusu dar kalıyor (Moğol/Haçlı kapsamı).
+ISTISNA = {
+    ("anadolu", "1214-01-01", "yer_id", "Korfu"):              "Nymphaion antlaşması Latin taraf — yer metni Korfu, TUTUYOR",
+    ("anadolu", "1274-01-01", "yer_id", "Lyon"):               "II. Lyon Konsili — olay Lyon'da, dosya Anadolu kutusu dar",
+    ("iran", "1078-01-01", "yer_id", "Edirne"):                "Bizans iç olayı Edirne'de — yer metni TUTUYOR",
+    ("iran", "1091-01-01", "odak_yer", "Budin"):               "yer 'Macaristan' (MEŞRU bölge merkezi) — Kuman/Peçenek kapsamı",
+    ("iran", "1227-01-01", "odak_yer", "Yinchuan"):            "Tangut seferi — Moğol kapsamı, yer 'Tangut ülkesi'",
+    ("iran", "1227-01-01", "odak_yer", "Lanzhou"):             "Tangut seferi — Moğol kapsamı",
+    ("iran", "1229-01-01", "odak_yer", "Karakurum"):           "Kurultay (Kerulen) — Moğol kapsamı",
+    ("iran", "1241-04-09", "yer_id", "Liegnitz (Legnica)"):    "Moğol Avrupa seferi — yer metni TUTUYOR",
+    ("iran", "1241-12-11", "odak_yer", "Karakurum"):           "Ögedey'in ölümü — yer 'Moğolistan'",
+    ("iran", "1246-01-01", "odak_yer", "Karakurum"):           "Güyük kurultayı — yer 'Moğolistan'",
+    ("iran", "1251-01-01", "odak_yer", "Karakurum"):           "Möngke kurultayı — yer 'Moğolistan'",
+    ("iran", "1259-01-01", "yer_id", "Novgorod"):              "Moğol nüfus sayımı Novgorod — yer metni TUTUYOR",
+    ("iran", "1259-01-01", "odak_yer", "Novgorod"):            "aynı madde",
+}
+
+def kita_kapisi(kayit):
+    """→ (ihlal_listesi, kapanan_istisnalar). Beyansız kıta-dışı = İHLAL."""
+    gorulen = set()
+    ihlal = []
+    for x in kayit:
+        if not x["kita_disi"]:
+            continue
+        a = (x["dosya"][len("kronoloji_cok_once1281_"):-3], x["t"], x["alan"], x["deger"])
+        if a in ISTISNA:
+            gorulen.add(a)
+        else:
+            ihlal.append(x)
+    return ihlal, set(ISTISNA) - gorulen
+
+def sina(havuz):
+    """İKİ YÖN (§11): yanlış kıtada ÖTMELİ, doğru kıtada SUSMALI. data/'ya dokunmaz —
+    sentetik kayıt üretir ve kita_kapisi'na verir."""
+    # 🔴 İlk koşuda Bar'ı "öter" diye bekledim ve kapı SUSTU (Bar (Podolya) 27.67°D — Avrupa
+    #    kutusunun içi). Beklenti yanlıştı, kapı değil: kıta sorusu kıta İÇİ sapmayı görmez.
+    #    Sınav düzeltildi ama sınır aşağıda AÇIKÇA basılıyor — sessizce geçirilmedi.
+    durum = [("avrupa", "Cáceres", True), ("ortadogu", "Trablus", True),
+             ("avrupa", "Bar", False),              # Karadağ Bar'ı → Ukrayna: kıta içi, YAKALANMAZ
+             ("avrupa", "Kassel", False),           # Flandre Cassel'i → Almanya: kıta içi, YAKALANMAZ
+             ("avrupa", "Paris", False), ("ortadogu", "Trablusşam", False), ("iran", "Tebriz", False)]
+    hata = 0
+    for bolge, ad, beklenen in durum:
+        c = ad_konum_bul(ad, havuz)
+        k = KUTU[bolge]
+        disari = bool(c and not (k[0] <= c[2] <= k[2] and k[1] <= c[1] <= k[3]))
+        sahte = [{"dosya": "kronoloji_cok_once1281_%s.js" % bolge, "t": "SINAV", "alan": "yer_id",
+                  "deger": ad, "kita_disi": disari}]
+        oter = bool(kita_kapisi(sahte)[0])
+        ok = oter == beklenen
+        hata += not ok
+        print("  %s %-9s %-12s → %s (beklenen %s) %s" % ("✓" if ok else "✗", bolge, ad,
+              "ÖTTÜ" if oter else "sustu", "öter" if beklenen else "susar", c and (c[0], round(c[1], 2), round(c[2], 2))))
+    print("  ⚠️ SINIR: Bar(Karadağ)→Bar(Podolya/Ukrayna) ve Cassel(Flandre)→Kassel(Almanya) kıta İÇİ"
+          " sapmadır, bu kapı İKİSİNİ DE GÖRMEZ. Ülke düzeyi soru gerekir (o gün o noktanın sahibi,"
+          " maddenin taraflarından biri mi?) — ölçülemedi ≠ temiz.")
+    return hata
 
 if __name__ == "__main__":
-    main()
+    kayit, havuz = main()
+    if "--kapi" in sys.argv or "--sina" in sys.argv:
+        print()
+        print("── KITA KAPISI ──")
+        ihlal, kapanan = kita_kapisi(kayit)
+        print("beyanlı istisna %d · görülen %d · BEYANSIZ kıta-dışı %d"
+              % (len(ISTISNA), len(ISTISNA) - len(kapanan), len(ihlal)))
+        for x in ihlal:
+            print("  ✗ %s #%d %s=%r → %s" % (x["dosya"][23:-3], x["no"], x["alan"], x["deger"], x["cozum"]))
+        for a in sorted(kapanan):
+            print("  ✓ istisna KAPANDI (listeden düşürülmeli):", a)
+        kod = 1 if ihlal else 0
+        if "--sina" in sys.argv:
+            print("── İKİ YÖNLÜ SINAV ──")
+            if sina(havuz):
+                kod = 2
+        sys.exit(kod)

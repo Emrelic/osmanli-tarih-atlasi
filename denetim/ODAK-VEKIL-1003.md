@@ -229,3 +229,93 @@ dosya dağılımı: avrupa 74 · iran 40 · doğu asya 19 · afrika 1.
 | iran | 169 | 1278-01-01 | Luristan | Hürremâbâd | yok | TDV: lur-i-kucek (LUR-ı KÜÇEK) |
 
 dosya dağılımı: {'afrika': 1, 'avrupa': 74, 'dogu_asya': 19, 'iran': 40}
+
+## 7. UYGULAMA — M-5737 sonrası koordinatör onayı (5 kalem)
+### Öngörü — yazmadan ÖNCE (D254)
+Ölçüm öncesi (`odak_olc.py --dosya`): anadolu ODAKSIZ 71 · KONUMLU 104 · avrupa ODAKSIZ 16 · KONUMLU 100 ·
+ortadogu ODAKSIZ 52 · KONUMLU 119 · üçünde de çözülmeyen atıf 0.
+Beklenen (4 SİL + 1 değiştir; dört kaydın hiçbirinde `odak_yer`/`kapsam_genis` YOK ⇒ SİL odaksız yapar):
+```
+anadolu   ODAKSIZ 71 → 74  · KONUMLU 104 → 101   (#55 Antakya · #90 Urfa · #152 İznik SİL)
+avrupa    ODAKSIZ 16 → 17  · KONUMLU 100 →  99   (Cáceres SİL)
+ortadogu  ODAKSIZ 52 → 52  · KONUMLU 119 → 119   (Trablus → Trablusşam: sınıf DEĞİŞMEZ)
+toplam    ODAKSIZ +4  (koordinatörün "+5" beklentisinden FARK: #86 silme değil değiştirme)
+kırık atıf 0 → 0
+```
+
+### Ölçüm — yazdıktan SONRA (`odak_olc.py --dosya`)
+```
+anadolu   ODAKSIZ 71 → 74  · KONUMLU 104 → 101   ✓ öngörü
+avrupa    ODAKSIZ 16 → 17  · KONUMLU 100 →  99   ✓ öngörü
+ortadogu  ODAKSIZ 52 → 52  · KONUMLU 119 → 119   ✓ öngörü (Trablusşam: sınıf aynı, nokta Lübnan'a geçti)
+kırık atıf 0 → 0 (üç dosyada)  ·  `node --check` üçü de temiz  ·  git diff: 5 satır
+```
+Yazıcı kayıt içinde `yer_id` anahtarının TAM BİR KEZ geçtiğini zorladı (M-5734 mükerrer anahtar vakası).
+
+## 8. ② Budin → İstolni Belgrad — kaynak YER VERMİYOR ⇒ SİL (uygulandı)
+| # | olay | kaynak cümlesi | hüküm |
+|---|---|---|---|
+| avrupa 38 | I. István öldü (1038) | TDV `macaristan`: "…István’ın ölümünden (1038) sonra yirmi üç kral değişti." · TDV `istolni-belgrad`: "Burada gömülen István’ın halefleri bütün Ortaçağ boyunca çoğunlukla bu şehirde taç giydi … ve toprağa verildi." | **SİL** — kaynak İstolni Belgrad'ı DEFİN yeri olarak veriyor, ÖLÜM yeri olarak değil; madde ölümü anlatıyor (D206) |
+| avrupa 192 | Altın Bulla (1222) | TDV `macaristan`: "Küçük soyluların haklarını korumak için II. András “altın mühürlü ferman”ını çıkardı (1222)." · `istolni-belgrad` 1222'yi ANMIYOR | **SİL** — yer yok |
+⚠️ **D254 ihlali (kendi):** bu iki silmenin öngörüsünü yazmadan uyguladım. Ölçüm: avrupa ODAKSIZ
+17 → **19** · KUTULU 156 → 154 · kırık atıf 0. (Öngörü yazılsaydı aynısı olurdu — ama SONRADAN
+söylenen öngörü öngörü değildir; kayda böyle geçsin.)
+Not: madde #38 "defin" olarak yeniden yazılırsa İstolni Belgrad kaynaklı olur — o başka bir kalem.
+
+## 9. ③ 132 `odak_yer` vekili — (a)/(b)/(c) (UYGULANMADI, yalnız ölçüldü)
+Yöntem: gerçek yer (`yer` metninin parçaları) d/v/s TAŞIYAN havuz noktasına ① birebir/çekirdek ad,
+② normalleştirilmiş yazım varyantı (ad + parantez içi eşler) ile arandı; her aday koordinatıyla
+elle onaylandı.
+```
+(a) havuzda VAR, d/v/s taşıyor     1   dogu_asya #49 Hakata ← "Dazaifu · Kamakura": "Kamakura" ✓ (35.32/139.55)
+                                       — KISMİ: Dazaifu yok; öneri odak_yer ["Kamakura"]
+(b) havuzda YOK                   126
+(c) kaynakta belirsiz (iki yer)     5   "Arles / Vienne" · "Alnwick / Falaise" · "Groißenbrunn/Kressenbrunn"
+                                       · "Bendenîcîn / Diz-i Mâhkî" ×2
+(b)+(c) = 131 değer · 122 madde
+```
+Adaydan ELENENLER (havuzda eşleşiyor ama YANLIŞ yer): Bar → Bar (Podolya) Ukrayna · Kassel → Almanya ·
+Jutland/Korsika/Ningxia/Jilin/Chongqing parçaları → bölge niteleyicisi, bunlar zaten mevcut `odak_yer`
+(Viborg, Bastia, Yinchuan, Cilin, Çongqing) — gerçek saha (Grathe Hede, Bonifacio, Haoshuichuan …) yok.
+
+### (b)+(c) silinirse — ÖLÇÜLDÜ (gerçek odak_cozum.js yamalı kopyası, data/ DEĞİŞMEDİ)
+```
+7 once1281 dosyası   ODAKSIZ 190 → 311  (+121)   · KUTULU 287 → 166 · kırık atıf 0 → 0
+```
++121 / 122 madde — fark ÖLÇÜLDÜ: tek madde (afrika #34 Hayderan Savaşı) vekil `Gabes`i kaybedince
+elinde ikinci `odak_yer` **"Kayrevan"** kalıyor (yer metni "Kābis ile Kayrevan arası" — MEŞRU) ⇒ KUTULU
+kalır, ODAKSIZ'a düşmez. 121 + 1 = 122 ✓.
+🔴 Tavan beyanı bu +121 ile AYNI commit'te yapılmalı (M-5737 ③, D253). `--tavan-yaz` KULLANILMADI (D255).
+
+### (b)+(c) TAM LİSTE (dosya · # · yazılı ← gerçek yer)
+#### (c)
+- **avrupa** (3): #31 Lyon←Arles / Vienne · #141 Newcastle←Alnwick (Northumberland) / Falaise · #244 Viyana←Groißenbrunn/Kressenbrunn (Marchfe
+- **iran** (2): #34 Kasr-ı Şîrîn←Bendenîcîn / Diz-i Mâhkî · #34 Kirmanşah←Bendenîcîn / Diz-i Mâhkî
+
+#### (b)
+- **afrika** (1): #34 Gabes←Hayderan (Kābis ile Kayrevan arası
+- **avrupa** (69): #2 Poznan←Gnezno · #11 Serez←Belasitsa dağı, Strumitsa yakını · #13 Ohri←Prespa · #15 Newcastle←Carham (Tweed kıyısı) · #18 Londra←Ashingdon (Essex) · #22 Kiev←Alta ırmağı (Pereyaslav yakını) · #24 Mainz←Kamba (Oppenheim karşısı, Ren) · #25 Poznan←Gnezno · #28 Trondheim←Stiklestad (Verdal, Trøndelag) · #30 Paris←Melun · #37 Burgos←Tamarón vadisi · #42 Kotor←Bar · #50 Orléans←Vitry-aux-Loges · #52 Palermo←Cerami · #56 Londra←Hastings (Sussex) · #58 Palermo←Misilmeri · #61 Ypres←Cassel (Kassel, Flandre) · #65 Split←Solin · #74 Cebelitarık←Cezîretülhadrâ (Algeciras) · #76 Badajoz←Zellâka (Sagrajas), Batalyevs yakı · #84 Zagreb←Gvozd dağı (Petrova gora) · #85 Çernigov←Lyubeç · #88 Göteborg←Konghelle (Kungälv) · #89 Zadar←Biograd na Moru · #92 Caen←Tinchebrai (Normandiya) · #93 Cuenca←Uklîş (Uclés) · #94 Paris←Melun · #96 Girona←Besalú · #101 Mainz←Worms · #103 Milano←Como · #108 Lleida←Barbastro · #111 Mainz←Koblenz · #112 Napoli←Galluccio (Garigliano yakını) · #114 León←Zamora · #127 Viborg←Grathe Hede (Jutland) · #133 Bergamo←Pontida · #134 Stralsund←Arkona, Rügen adası · #143 Londra←Windsor · #144 Milano←Legnano · #151 Bergen←Fimreite (Sognefjord) · #152 Linz←Georgenberg (Enns) · #157 Londra←Canterbury · #163 Bastia←Bonifacio (Korsika) · #164 Toledo←Erek (Alarcos), Kurtuba'nın kuzeyi · #166 Yenipazar←Ras · #176 Narbonne←Béziers · #184 Londra←Runnymede (Thames kıyısı) · #186 Tartu←Viljandi (Fellin) · #193 Odense←Lyø adası · #194 Paris←Mantes · #195 Mantova←Mosio · #198 Lübeck←Bornhöved (Holstein) · #210 Bergamo←Cortenuova · #218 Budin←Muhi, Şayó (Sajó) ırmağı · #221 Reykjavík←Reykholt · #223 Valensiya←Almizra · #229 Modena←Fossalta · #231 Montpellier←Millau · #234 Foggia←Castel Fiorentino (Lucera yakını,  · #236 Uppsala←Stockholm · #240 Foggia←Lavello (Potenza) · #245 Klaipėda←Durbe gölü (Kurland, bugün Liepāja · #254 Napoli←Benevento · #256 Shrewsbury←Rhydwhyman geçidi (Montgomery) · #257 Roma←Scurcola Marsicana (Tagliacozzo),  · #259 Pärnu←Karuse (Batı Estonya, donmuş Muhu  · #264 Yenipazar←Ras · #269 Viyana←Dürnkrut ve Jedenspeigen (Marchfel · #270 Riga←Aizkraukle (Ascheraden), Letonya
+- **dogu_asya** (18): #1 Anyang←Chanyuan (Puyang, Hebei) · #2 Yinchuan←Haoshuichuan (Guyuan yöresi, Ningx · #5 Hanoi←Như Nguyệt (Cầu nehri, Bắc Ninh) · #6 Yinchuan←Lingzhou (Lingwu, Ningxia) · #7 Cilin←Ningjiang (Songhua ırmağı, Jilin) · #13 Nanking←Caishi (Ma'anshan, Anhui) · #15 Kalgan←Yehuling (Zhangjiakou kuzeyi) · #24 Çongqing←Diaoyu kalesi (Hezhou, Chongqing) · #28 Ûicu←Gwiju (Kusong, Kuzey Pyongan) · #44 Morioka←Hiraizumi · #44 Sendai←Hiraizumi · #51 Ninh Binh←Hoa Lư · #67 Batavia←Cibadak (Sukabumi, Batı Cava) · #68 Surabaya←Kahuripan (Doğu Cava) · #69 Malang←Singhasari (Tumapel) · #70 Leh←Tholing (Ngari) · #71 Lanzhou←Liangzhou (Wuwei, Gansu) · #73 Lhasa←Sakya
+- **iran** (38): #7 Herat←Âhengerân (Gur) · #7 Kâbil←Âhengerân (Gur) · #8 Kasr-ı Şîrîn←Hulvân · #9 Andican←Özkent · #13 Kanpûr←Kannevc (Kanauj) · #16 Tahran←Rey · #24 Nîşâbur←Hisâr-ı Tâk (Horasan) · #27 Tahran←Rey · #31 Zencan←Târum · #32 Kirmanşah←Sîrvân Kalesi · #42 Balasagun←Barsgan · #45 Tahran←Rey · #48 Erciş←Malazgirt · #48 Bitlis←Malazgirt · #55 Kazvin←Alamut · #58 Kazvin←Alamut · #59 Tahran←Rey yakını · #62 Kirmanşah←Huftîzgān · #62 Şehrizor←Huftîzgān · #68 Kazvin←Alamut · #75 Kirmanşah←Dînever · #75 Hemedan←Dînever · #77 Kirmanşah←Dînever · #77 Hemedan←Dînever · #78 Merâga←Karategin çayırı · #93 Kazvin←Alamut · #108 Delhi←Tarain ovası · #110 Delhi←Tarain ovası · #112 Kazvin←Alamut · #114 Belh←Endhûd (Endhûy) Kalesi · #125 Tahran←Rey civarı · #127 Türkistan←Otrar · #127 Sığnak←Otrar · #137 Luristan←Hürremâbâd · #141 Şüşter←Îzec · #161 Diyarbakır←Meyyâfârikîn (Silvan) · #161 Bitlis←Meyyâfârikîn (Silvan) · #169 Luristan←Hürremâbâd
+
+(b)+(c) madde sayısı: 122
+
+## 10. ④ Kapı sorusu yazıldı — `py denetim/ARAC-ODAK-VEKIL-1003.py --kapi --sina`
+"Çözülüyor ama dosyanın KITASI dışına" — dosya başına kaba kutu (`KUTU`), beyanlı istisnalar
+LİSTE (`ISTISNA`, 13 kayıt, her biri gerekçeli; hepsi yer metniyle TUTUYOR — olay gerçekten orada,
+dosyanın kutusu Moğol/Haçlı kapsamına dar). Kapanan istisna "listeden düşür" diye basılır.
+Bugünkü ölçüm: **beyansız kıta-dışı 0** (Cáceres silindi, Trablus düzeltildi) · çıkış 0.
+**İki yönlü sınav (sentetik kayıt, data/ dokunulmadı):**
+```
+✓ avrupa   Cáceres     → ÖTTÜ  (Brezilya)
+✓ ortadogu Trablus     → ÖTTÜ  (Libya)
+✓ avrupa   Paris       → sustu · ✓ ortadogu Trablusşam → sustu · ✓ iran Tebriz → sustu
+✓ avrupa   Bar         → sustu  (Bar (Podolya) Ukrayna — Avrupa kutusunun İÇİ)
+✓ avrupa   Kassel      → sustu  (Almanya — Avrupa kutusunun İÇİ)
+```
+🔴 **SINIR, ölçüldü:** ilk koşuda Bar'ın ÖTMESİNİ bekledim, kapı SUSTU. Beklenti yanlıştı: kıta
+sorusu kıta İÇİ sapmayı görmez. Bulduğum dört vakanın yalnız İKİSİNİ (Cáceres, Trablus) yakalar;
+Bar→Ukrayna ve Cassel→Almanya için ÜLKE düzeyi soru gerekir ("o gün o noktanın sahibi maddenin
+taraflarından biri mi?" — `suzgec.js` ile ölçülebilir, yazılmadı). ölçülemedi ≠ temiz.
+⚠️ Kapsam: alet yalnız 7 once1281 dosyasını tarar (kutular onlar için tanımlı). Kapıya (`denetle_yayin.py`)
+BAĞLANMADI — o dosya koordinatörün.
