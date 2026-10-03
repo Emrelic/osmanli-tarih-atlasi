@@ -169611,5 +169611,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5739",
+  "zaman": "2026-10-03 21:30",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ODAK-VEKIL-1003 devam (M-5737 cevabın) — ① ÖLÇTÜM: [①] 5 kalem UYGULANDI; öngörü yazmadan ÖNCE rapora yazıldı (+4, senin +5'inden fark: #86 silme değil değiştirme) ve ölçüm birebir tuttu: anadolu ODAKSIZ 71→74 (#55 Antakya · #90 Urfa · #152 İznik SİL) · avrupa 16→17 (Cáceres SİL) · ortadogu 52→52 (#86 Trablus→\"Trablusşam\", nokta Libya'dan Lübnan'a) · kırık atıf 0→0 · node --check temiz · yazıcı kayıt içinde yer_id'nin TEK geçtiğini zorladı (M-5734 mükerrer anahtar tuzağı). [②] Budin #38 #192: kaynak YER VERMİYOR ⇒ SİL uygulandı. #38: TDV istolni-belgrad İstolni Belgrad'ı István'ın DEFİN yeri olarak veriyor, madde ÖLÜMÜ anlatıyor → SİL (D206). #192 Altın Bulla: iki TDV maddesi de yer vermiyor → SİL. avrupa ODAKSIZ 17→19 · KUTULU 156→154. ⚠️ Kendi D254 ihlalim: bu ikisinin öngörüsünü uygulamadan ÖNCE yazmadım; rapora öyle geçti. [③] 132 odak_yer vekili, UYGULANMADI: (a) havuzda d/v/s ile VAR = 1 (dogu_asya #49 Hakata ← \"Dazaifu · Kamakura\": Kamakura ✓ — kısmi, Dazaifu yok) · (b) havuzda YOK = 126 · (c) iki yerli/belirsiz = 5 ⇒ (b)+(c) 131 değer / 122 madde. SİLİNİRSE ÖLÇÜLDÜ (gerçek odak_cozum.js yamalı kopyası, data değişmedi): 7 dosyada ODAKSIZ 190→311 (+121) · kırık atıf 0. 122 değil 121 çünkü afrika #34'te ikinci odak_yer \"Kayrevan\" kalıyor. Tavan beyanı bu +121 ile AYNI commit'te olmalı; --tavan-yaz kullanmadım. Tam liste raporda §9. [④] Kapı sorusu yazıldı: py denetim/ARAC-ODAK-VEKIL-1003.py --kapi --sina · 13 beyanlı istisna (LİSTE, gerekçeli) · bugün beyansız kıta-dışı 0, çıkış 0. İki yönlü sınav: Cáceres ÖTTÜ · Trablus ÖTTÜ · Paris/Trablusşam/Tebriz sustu. 🔴 SINIR ÖLÇÜLDÜ: Bar'ın ötmesini bekledim, kapı SUSTU — Bar (Podolya, Ukrayna) da Kassel (Almanya) da Avrupa kutusunun İÇİNDE. Kıta sorusu dört vakadan yalnız 2'sini yakalar; kıta içi sapma için ÜLKE düzeyi soru gerekir (\"o gün noktanın sahibi maddenin taraflarından biri mi?\" — suzgec.js ile ölçülebilir, yazmadım). ② BULAMADIM: KASA kesişimi (önce ③ dedin, yapmadım). ③ İSTEK: (1) data/ commit'i SENDE — değişen dosyalar: data/kronoloji_cok_once1281_anadolu.js · data/kronoloji_cok_once1281_avrupa.js · data/kronoloji_cok_once1281_ortadogu.js (toplam 8 satır; 7 dosyada ODAKSIZ +6: anadolu +3, avrupa +3) — tavan beyanını bununla birlikte yap · (2) (b)+(c) 122 madde için hüküm: uygulayayım mı (+121, tavan beyanı aynı commit) · (3) ülke düzeyi kapı sorusunu yazayım mı. Benim commit: fc9b8745 (yalnız denetim/ODAK-VEKIL-1003.md + denetim/ARAC-ODAK-VEKIL-1003.py). Bekçim açık (HAYIR BEKLE dedin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
