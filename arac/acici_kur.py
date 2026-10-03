@@ -10,8 +10,19 @@
 `oturumlar/ag.json` ötekilere ELLE kopyalanır (USB/paylaşım). Her makinede
 ayrı jeton üretirsen hiçbiri ötekini tanımaz.
 
-🔴 BU DOSYA DEPOYA GİRMEZ. İçinde jeton ve eczanenin iç ağ adresleri var;
-`osmanli-tarih-atlasi` HERKESE AÇIK bir depo. `.gitignore`a eklendi.
+🔴 ÜRETTİĞİ `oturumlar/ag.json` DEPOYA GİRMEZ. İçinde jeton ve eczanenin iç
+ağ adresleri var; `osmanli-tarih-atlasi` HERKESE AÇIK bir depo. `.gitignore`a
+eklendi.
+
+🔴 VE BU UYARI YANLIŞ DOSYADAYDI (3 Ekim 2026, ölçülerek bulundu): cümle
+`ag.json`u anlatıyor ama **içinde durduğu dosya** — yani bu betik —
+`ORNEK` sözlüğünde eczanenin GERÇEK iç IP'lerini taşıyordu ve **depoda**.
+`ag.json`u gitignore'lamanın bütün değeri, aynı adresleri koda yazmakla
+boşa çıkmıştı. Adresler artık YER TUTUCU; gerçek değerler yalnız
+gitignore'lu `ag.json`da durur ve `--ornek` kullanıcıya onları
+doldurtur (zaten "IP'leri DOĞRULA" diyordu).
+📌 Ders: bir sızıntı kapısını kapatırken **aynı veriyi taşıyan öteki
+dosyalar da taranır** — yoksa kapı kapanır, pencere açık kalır.
 """
 import io
 import json
@@ -32,13 +43,19 @@ CMD_YOLU = os.path.join(BASLANGIC, CMD_ADI)
 ORNEK = {
     "port": 8787,
     "jeton": None,                      # --ornek dolduruyor
+    # 🔴 YER TUTUCU — gerçek IP'ler BURAYA YAZILMAZ (depo herkese açık).
+    #    `--ornek` bunları `ag.json`a kopyalar, kullanıcı doldurur; betik
+    #    zaten "IP'leri DOĞRULA" diyor ve `ac.py` doldurulmamışını reddeder.
     "makineler": {
-        "UMIT":  "192.168.1.120",
-        "HAVVA": "192.168.1.171",
-        "LAB":   "192.168.1.147",
-        "KASA":  "192.168.1.OLCULMEDI"  # 2 Ekim 2026: KASA'nin IP'si henuz olculmedi
+        "UMIT":  "DOLDUR",
+        "HAVVA": "DOLDUR",
+        "LAB":   "DOLDUR",
+        "KASA":  "DOLDUR"
     }
 }
+
+# Doldurulmamış değer — `ac.py` ve `--durum` bunu "ayar eksik" sayar.
+DOLDURULMADI = "DOLDUR"
 
 
 def ornek_yaz():
