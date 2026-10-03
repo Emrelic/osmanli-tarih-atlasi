@@ -2321,4 +2321,42 @@ window.YERLESIMLER = [
   //    terimi — §4 cografi bosluk, akademik kaynak mesru.
   {ad:"Elbing (Elbląg)",lat:54.1522,lon:19.4088,k:3,s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}]},
   {ad:"Torun (Toruń)",lat:53.0103,lon:18.6047,k:3,s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1920-01-18",d:"almanya"},{f:"1920-01-18",t:"1923-10-29",d:"polonya"}]},
+
+  // ------------------------------------------------------------------------
+  // 1281 ONCESI — UFUK'TAN ONCE OLEN YERLESIMLER  (3 Ekim 2026, KASA olcumu)
+  // ------------------------------------------------------------------------
+  // 🔴 Bu iki nokta `UFUK = ("1281-01-01","1923-10-29")`un TAMAMEN DISINDA
+  //    oluyor. Bu yuzden `d:`/`v:`/`s:` YAZILMAZ: ucu de `girdi.py:170-172`de
+  //    "MOTOR BOYAR" diye tanimli; biri yazilsa motor var olmayan bir sehre
+  //    1281 sonrasi toprak boyardi. Bos birakmak kusur degil, HUKUMDUR.
+  // 🔴 VE BUNUN BIR BEDELI VAR, beyan ediyoruz: `odak_cozum.js:80` `sehirler`
+  //    havuzunu `d`/`v`/`s` DOLU olanlara suzuyor. Dolayisiyla bu iki ada
+  //    `yer_id` YAZILAMAZ — yazilsa KIRIK ATIF olur ve yayin kapisi oter.
+  //    ⇒ Bu iki nokta BUGUN hicbir maddeye kamera vermez. Degeri yalnizca
+  //    UFUK geriye uzatildiginda (tam insa kosusu) HAZIR olmasidir.
+  //    Kameraya kavusmak icin sahte bir `s:` yazmak, odak kapisinin ~97
+  //    vekil kayit uretmesiyle AYNI kusur olurdu (`D256` ailesi).
+  // 📌 Veride `bit:` 1281 ONCESINE dusen ilk iki nokta bunlar (olculdu: 0).
+  //    Motor ikisini de her gun "sahnede degil" sayar; petegi `_kusatilmis`
+  //    yoluyla kara komsuluginun >=%90'i sahipliyse yutulur (KUSATMA_ESIK).
+  //    Askalan kiyidadir ama `_ic_kara` kiyiyi paydadan cikarir.
+  //
+  // TDV `askalan`: Baybars 1270'te sehri tamamen yiktirdi ve bir daha
+  // iskan edilmedi. Koordinat Pleiades 687839 (BAtlas); al-Turayya 0,4 km
+  // ile dogruluyor. En yakin mevcut nokta Gazze 19,8 km — mukerrer YOK.
+  {ad:"Askalân",tur:"sehir",lat:31.66480,lon:34.55052,k:3,bit:"1270-01-01",
+   kaynak:"TDV: askalan (Baybars 1270 yikim, yeniden iskan YOK) · konum Pleiades 687839 + al-Turayya (0,4 km)",
+   not:"UFUK disinda olur ⇒ d:/v:/s: YAZILMADI. TDV Askalan-Yafa mesafesini 60 km verir, olculen 47,4 km; iki gazetter 0,4 km uyustugu icin supheli olan TDV'nin YUVARLAK sayisidir."},
+  // Iranica `dvin` + Kettenhofen: sehir Mogol istilasinda (1233-1236) yikildi
+  // ve bir daha toparlanmadi. 🔴 KAYNAK YIL ARALIGI VERIYOR, tek yil vermiyor
+  // (`D210`: hassasiyet kaynagi asamaz) — araligin SON ucu yazildi, cunku
+  // "yoktur" hukmunu kaynaktan erken baslatmak sehri haritadan fazladan
+  // siler. Aralik burada BEYAN edilmistir.
+  // Koordinat Pleiades 863780 (Doubios, BAtlas 88 C4) — arkeolojik hoyuk.
+  // ⚠️ al-Turayya `DABIL` ayni adi 19,2 km oteye koyuyor; Iranica ucuncu
+  // taniktir (40°00'K 44°41'D, Pleiades'e 8,7 km). Pleiades secildi cunku
+  // tek olcum hoyugun KENDISINI gosteriyor. En yakin nokta Revan 19,9 km.
+  {ad:"Dvin",tur:"sehir",lat:40.01186,lon:44.58079,k:3,bit:"1236-01-01",
+   kaynak:"Iranica: dvin · Kettenhofen (Mogol yikimi 1233-1236) · konum Pleiades 863780 Doubios (BAtlas 88 C4)",
+   not:"UFUK disinda olur ⇒ d:/v:/s: YAZILMADI. bit: araligin SON ucu (1233-1236); kaynak tek yil VERMIYOR. al-Turayya DABIL 19,2 km ayrisiyor, Iranica 8,7 km — hukum Pleiades."},
 ];
