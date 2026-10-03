@@ -316,6 +316,73 @@ def _gorunum_dosyaya(metin):
     return False
 
 
+def _git_yarim():
+    """Depo YARIM bir git işleminin ortasında mı?  Sebebi döner, temizse None.
+
+    🔴 VAKA (3 Ekim 2026, UMIT): `tahta.py` yerelde M-5717 numarasıyla commit
+    etti; origin tahtada M-5736'daydı. Numara BAYAT dosyadan verilmişti ve
+    `pull --rebase` commit'ten SONRA koşuyordu ⇒ `tahta.json` + `TAHTA.md`
+    çakıştı ve UMIT'in `C:\\atlas`ı REBASE ORTASINDA KİLİTLİ kaldı: ne pull
+    edebiliyor, ne commit, ne dal değiştirebiliyordu. Kurtarmak Emre'nin
+    onayını gerektiren bir işlem oldu (`reset --keep`).
+    ⇒ Yarım bir işlemin üstüne YAZMAK, kilidi derinleştirir. Araç artık
+      yazmadan ÖNCE bakıyor ve reddediyor.
+
+    🔴 DİZİNİN VARLIĞI YETMEZ — ilk sürümüm tam bu yüzden YANLIŞ POZİTİF verdi.
+    Ölçüldü (EMRELIC, 3 Ekim): `.git/rebase-merge` **24 Eylül'den beri** duruyor
+    ve içinde yalnız bir `autostash` var; `REBASE_HEAD` bozuk, yani GERÇEK bir
+    rebase yok. `git status` yine de "You are currently rebasing" diyor.
+    Dizine bakan bir kapı, 9 gündür bütün tahta yazımlarını REDDEDERDİ.
+    ⇒ Gerçek rebase'in İŞARETİ `head-name`/`onto`dur (UMIT'inkinde ikisi de
+      vardı). Kapı artık onlara bakıyor; yalnız `autostash` taşıyan bayat bir
+      kalıntı rebase SAYILMAZ.
+    """
+    g = os.path.join(KOK, ".git")
+    # Gerçek bir rebase bu imza dosyalarını taşır; bayat kalıntı taşımaz.
+    for ad in ("rebase-merge", "rebase-apply"):
+        d = os.path.join(g, ad)
+        if not os.path.isdir(d):
+            continue
+        if any(os.path.exists(os.path.join(d, im))
+               for im in ("head-name", "onto", "orig-head", "next")):
+            return "rebase ortasında (%s)" % ad
+        # dizin var ama imza yok ⇒ BAYAT KALINTI, engel değil
+    for ad, sebep in (("MERGE_HEAD", "yarım bir merge var"),
+                      ("CHERRY_PICK_HEAD", "yarım bir cherry-pick var")):
+        if os.path.exists(os.path.join(g, ad)):
+            return sebep
+    return None
+
+
+def _tazele():
+    """Numara verilmeden ÖNCE tahtayı uzaktan tazele.
+
+    Niçin ÖNCE: numara `len(kayit)+1` ile üretiliyor. Dosya bayatsa numara da
+    bayat olur ve `tahta.json`un AYNI yerine iki makine yazar ⇒ kesin çakışma.
+    Kilit (`_Kilit`) yalnız AYNI MAKİNEDEKİ oturumları ayırır; makineler arası
+    bayatlığı yalnız `pull` kapatır.
+
+    ⚠️ Kendi başlattığı rebase takılırsa KENDİ TEMİZLER (`--abort`) — başkasının
+    yarım işine DOKUNMAZ, onu `_git_yarim()` zaten reddetmiştir.
+    """
+    _kod = {"capture_output": True, "text": True,
+            "encoding": "utf-8", "errors": "replace"}
+    try:
+        r = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
+    except Exception as e:
+        print("⚠️ tazeleme KOŞMADI (%s) — numara bayat olabilir." % type(e).__name__)
+        return
+    if r.returncode == 0:
+        return
+    # Pull takıldı. Kendi açtığımız rebase'i kendimiz kapatıyoruz.
+    if _git_yarim():
+        subprocess.run(["git", "-C", KOK, "rebase", "--abort"], **_kod)
+        print("⚠️ `pull --rebase` ÇAKIŞTI, kendi rebase'im geri alındı.")
+    print("⚠️ TAHTA TAZELENEMEDİ — numaran bayat olabilir ve push çakışabilir.")
+    print("   sebep: %s" % ((r.stderr or r.stdout or "").strip().splitlines() or ["?"])[0])
+    print("   ⇒ Mesaj yine de YAZILIYOR; push başarısız olursa tahta YEREL kalır.")
+
+
 def _git(kayit, baslik, govde):
     ileti = os.path.join(KOK, ".tahta_ileti")
     io.open(ileti, "w", encoding="utf-8", newline="\n").write(
@@ -683,6 +750,20 @@ def _adres_denetle(kayit, kime):
 
 
 def yaz(a):
+    # 🔴 İKİ KAPI — ikisi de 3 Ekim 2026'da UMIT'in kilitlenmesinden doğdu.
+    # ① Depo yarım bir işlemin ortasındaysa YAZMA. Yazmak kilidi derinleştirir
+    #    ve kurtarma Emre onayı gerektiren bir işleme dönüşür.
+    _yarim = _git_yarim()
+    if _yarim:
+        print("🔴 YAZILMADI — depo %s." % _yarim)
+        print("   Bu hâlde yazmak çakışmayı DERİNLEŞTİRİR (UMIT, 3 Ekim: M-5717).")
+        print("   Önce depoyu düzelt:  git -C %s status" % KOK)
+        print("   ⇒ Mesajın KAYBOLMADI, henüz YAZILMADI. Depo düzelince tekrar yaz.")
+        return 2
+    # ② Numara verilmeden ÖNCE tazele — `len(kayit)+1` bayat dosyadan sayarsa
+    #    iki makine AYNI numarayı aynı satıra yazar.
+    _tazele()
+
     kayit = _yukle()
     no = "M-%04d" % (len(kayit) + 1)
     # 🔴 Kanonik ad dönerse ONU yaz — düzensiz yazımlar tahtaya GİRMESİN.
