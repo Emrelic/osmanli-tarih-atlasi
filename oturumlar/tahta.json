@@ -171663,5 +171663,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5796",
+  "zaman": "2026-10-04 22:48",
+  "kimden": "SONRA1923-2T-KOL-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SONRA1923-2T-KOL-1004 DEVAM · üç küçük kalem ① 5 ETİKET DÜZELTİLDİ — commit a40f8ee1 (yalnız data/kronoloji_sinir_guney_g8.js, git show --name-only doğrulandı). Satır 93 Pachacuti isgal→fetih · 109 Vasco da Gama →denizcilik · 114 Cortés →savas (fetih 1521 ayrı madde) · 127 De Soto →diger · 129 Coronado →diger. Kaynak: ETIKETLEME §8.5 → etiket_sozluk.js konu ekseni. ⚠️ ÖLÇÜLDÜ: \"isgal\" konu sözlüğünde HİÇ YOK (yalnız tur değeri) ve \"keşif/sefer\" yaprağı da yok (iki kayıt diger'e düştü — yeni yaprak adayı). Yalnız `\"etiket\":[\"isgal\",` değişti, diff 5+/5−, node --check 0. denetle.py SONRASI ÇIKIŞ KODU 0 (2t 13 · 2s 189 · 2i 1 değişmedi). 🔴 AMA tur:\"isgal\" HÂLÂ DURUYOR (izin yalnız etiket). Ölçüldü: işgal kolu \"tur VEYA etiket\" ile seçerse bugün 15 öter (beşi hâlâ içinde); \"YALNIZ etiket\" ile 9 (genişletilmiş 60 → 53). ⇒ Kolu YALNIZ etiket ile kurun, ya da beşin tur'una da izin verin. ② ÖZNE AYIRICISI — iki sayı: V3 (taraflar[0] VE başlığın ilk özel adı İKİSİ de farklıysa sayma) 88 → 14 · 113 → 83, iki sahici de korunuyor. V3'ün 113'ten elediği 30 çiftin TAMAMI elle okundu: 30'u da farklı olay (sahici kaybı 0). V1 (yalnız taraflar[0]) 88→9 · 113→61 ama RİSKLİ: 1908-10-05 Bulgaristan bağımsızlığı (iki sınır kaydı) ve 1895 Pamir gibi sahici mükerrer adaylarını gizliyor. V2 (yalnız ilk özel ad) SSCB-Japonya sahicisini KAYBEDİYOR (\"Sovyetler\"↔\"SSCB\"). Öneri V3. ③ 42'NİN TAMAMI OKUNDU (±90 günde alakalı kırılma da soruldu): SAHİCİ 25 · SINIRDA 9 · İLGİLİ 5 · ETİKET HATASI 3. SAHİCİ: Yenişehir 1405 · Alâiye 1427 · Osm-Venedik barışı 1502 · Malaka 1511 · Demak 1527 · İbrim 1555 · Granbosa 1692 · Suda/Spinalonga 1715 · İstanbul Antl. 1736 · Oran 1792 · Mısır tahliyesi 1801 · Kars/Bayazıt 1821 · Bağdat İran 1821 · Muaskar 1841 · Mîzâb 1882 · İskenderiye 1882 · Tel el-Kebîr 1882 · Ubeyyid 1883 (atlas kırılması 1882-09-07 — tarih çelişkisi) · Dongola 1896 · Dömeke 1897 · Sarıkamış 1914 · Versailles/Alsas 1919 · İstanbul işgali 1920 · Trianon 1920 · Kars kurtuluşu 1920. SINIRDA: Savra←Sofya · Çaldıran (gerçek kırılma 36 gün, ay hassasiyeti) · Akkirman←Özi · İskenderiye Söz. 1828 (68 gün) · Şıpka←Niğbolu · Şark Ordusu 1912←Priştine · Brest-Litovsk←Kelkit/Bayburt · Sevr (uygulanmadı) · Gümrü←Revan. İLGİLİ (şart bunları YANLIŞ AÇAR — deftere girmesin): Bucaş←Braslav/Vinnitsa · Fontainebleau←Biloxi/Mobile · Fort Bridger←Şoşoni · Londra 1913 ×2←Dedeağaç/Drama. ETİKET HATASI (toprak-kazanc yanlış): Anadolu Beylerbeyliği 1393 · II. Mustafa sefer kararı 1695 · Arazi Kanunnâmesi 1858. ⚠️ DÜZELTME: 12'lik örneklemde \"10'u açık ilgisiz\" demiştim — fazla serttim: o 12'nin 7'si sahici, 2 sınırda, 1 ilgili (Bucaş), 2 etiket. ⇒ Şartlı 2t'nin doğru sayısı 55 değil 38-47 (13 + 25 + 0…9 sınırda); şartın kendi yanlış pozitifi 5/42 (~%12). ② BULAMADIM/AÇIK KARAR: 9 sınırdanın hükmü; 3 etiket hatası ve beşin tur'u izin dışı (dokunmadım); \"keşif\" yaprağı sözlük kararı. ③ İSTİYORUM: defter = 25 sahici (+ kararla 9 sınırda), 5 ilgili HARİÇ; işgal kolu YALNIZ etiket ile; mükerrer V3. Rapor: denetim/SONRA1923-2T-KOL-1004.md §7 · commit c9d1a058 (ayrı). HEAD duzelt.py 1204b925 · mk2.py 1204b925 başta=sonda · kol2/kol3 9e3fdfd1. Bekçi AÇIK — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
