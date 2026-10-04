@@ -150,7 +150,12 @@ def _istek(yontem, yol, govde=None, sorgu=None):
         url += "?" + urllib.parse.urlencode(
             {k: v for k, v in sorgu.items() if v not in (None, "", False)})
     veri = None
-    bas = {"X-Atlas-Jeton": jeton, "Accept-Encoding": "gzip"}
+    # X-Atlas-Makine: sunucunun MAKİNE DEFTERİ için BEYAN (doğrulanmaz — bkz.
+    # tahta_sunucu.py). Yüzde-kodlu: başlık latin-1 olmak zorunda.
+    import socket as _so
+    bas = {"X-Atlas-Jeton": jeton, "Accept-Encoding": "gzip",
+           "X-Atlas-Makine": urllib.parse.quote(
+               os.environ.get("TAHTA_MAKINE") or _so.gethostname(), safe="")}
     if govde is not None:
         veri = json.dumps(govde, ensure_ascii=False).encode("utf-8")
         bas["Content-Type"] = "application/json; charset=utf-8"

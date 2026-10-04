@@ -28,6 +28,35 @@ AYAR: `oturumlar/ag.json` (gitignore) — `jeton` (acici ile ORTAK) ve
 
 ÇALIŞTIRMA:  py arac/tahta_sunucu.py            (sessiz: pythonw)
 SINAV:       py denetim/ARAC-TAHTA-SUNUCU-SINAV-1004.py
+             py denetim/ARAC-TAHTA-SUNUCU-COKLU-SINAV-1004.py
+             py denetim/ARAC-TAHTA-MAKINELER-SINAV-1004.py
+
+═══════════════════════════════════════════════════════════════════════════
+🔴 ÇIKIŞ KODU SÖZLÜĞÜ — YAZILI, çünkü tanımsız kod oturum öldürür
+═══════════════════════════════════════════════════════════════════════════
+Vaka (3-4 Ekim 2026): ODAK-KAPAT'ın bekçisi "çıkış 4" ile düştü; `main()`
+yalnız 0/2/3 dönüyordu ⇒ 4 DIŞARIDAN gelmişti, ama "bilinmeyen kod" diye
+okunup oturum 9 saat görünmez kaldı.
+
+  SÜREÇ ÇIKIŞI (tahta_sunucu.py)
+    0  düzgün durdu (Ctrl+C) — kilit bırakıldı
+    1  ARIZA: port açılamadı (başka süreç tutuyor / yetki) — kilit bırakıldı
+    2  AYAR: ag.json yok ya da jeton kusurlu (`ayar_oku`)
+    3  ⛔ KULLANILMAZ — projede "kurulamadı, TEKRAR DENEME" (KAYNAK-DURUM
+       darboğazı, `tahta_bekci.py`) anlamında; çakışmasın diye BOŞ bırakıldı
+    4  🆕 İKİNCİ SUNUCU: bu kaydın canlı bir sunucusu zaten var (`kilit_al`).
+       TEKRAR DENEME — ötekini durdur ya da bayatlamasını bekle (3×nabız+5 sn).
+       Yeni kod, çünkü 1 (arıza) yanlış olurdu: ortada bozuk bir şey yok,
+       KORUMA çalıştı; ve 3 başka anlama ayrılmış.
+    (Windows'ta sert öldürme — TerminateProcess — kodu ÖLDÜRENİN verdiği
+     koddur; yukarıdakilerden biri değilse süreç DIŞARIDAN düşürülmüştür.)
+
+  CEVAP GÖVDESİNDEKİ "kod" ALANI → `tahta.py` bunu ÇIKIŞ KODU olarak döner
+    2  istek reddedildi (HERKES kapısı, eksik alan, olmayan --yanit no)
+    4  SUNUCU ÇATIŞMASI: bu sunucu kilidini kaybetti, YAZMIYOR (HTTP 503).
+       İstemci yerele DÜŞMEZ — düşmek bölünmeyi derinleştirirdi.
+    (`tahta.py`nin kendi 3'ü: YEREL tahta.json yazılamadı — `_kaydet`.
+     Sunucu gövdesi 3 DÖNMEZ; 4 Ekim'e kadar dönüyordu ve o anlamla çakışıyordu.)
 """
 import contextlib
 import gzip
@@ -183,7 +212,7 @@ def kilit_birak():
 
 def _yazma_yasak():
     if _DURUM["kilit_kaybi"]:
-        return 503, {"tamam": False, "kod": 3,
+        return 503, {"tamam": False, "kod": 4,
                      "sebep": "SUNUCU ÇATIŞMASI — %s; bu sunucu artık yazmıyor"
                               % _DURUM["kilit_kaybi"]}
     return None
@@ -207,6 +236,117 @@ def _kimlik_blogu():
     return {"makine": MAKINE, "pid": os.getpid(), "baslangic": _DURUM["baslangic"],
             "tahta_imza": _tahta_imza(kayit),
             "son_no": max([_no_sayi(m.get("no")) for m in kayit] or [0])}
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 MAKİNE DEFTERİ — bölünmeyi GÖRÜNÜR kılar (koordinatör, 4 Ekim 2026)
+#   Yanlış sunucuya bağlı bir makine HATASIZ çalışır: yazar, kendi tahtasını
+#   okur — ve kimse onu görmez. Hata yok, uyarı yok, yalnız YOKLUK. `ag.json`
+#   gitignore'da ve ELLE kopyalanıyor; ayrışmaması umut edilir, ölçülmez.
+#   ⇒ Sunucu her istekte istemcinin bildirdiği makine adını, IP'sini ve
+#     son yazma/okuma anını kaydeder; `GET /tahta/makineler` ve `GET /tahta`
+#     (HTML) bunu basar. Kendi `ag.json`undaki `makineler` listesinden HİÇ
+#     görünmeyen makine "GÖRÜLMEDİ" diye işaretlenir ⇒ koordinatör olumsuz
+#     değil OLUMLU kanıt okur: "dört makinenin dördü bu sunucuya yazmış".
+#     Listede yoksa ya KAPALIDIR (`bekci_olc.py` de söyler) ya BAŞKA SUNUCUDADIR.
+#   Mantık bekçi nabzının aynısı: sessizlik ölçülebilir hâle getirilir.
+# ⚠️⚠️ MAKİNE ADI İSTEMCİNİN BEYANIDIR, KİMLİK DOĞRULAMA DEĞİLDİR.
+#   `X-Atlas-Makine` başlığını jetonu bilen herkes istediği gibi yazar; burada
+#   DOĞRULANMAZ, yalnız KAYDEDİLİR. Erişimi koruyan jeton + özel ağdır, bu
+#   alan değil. Yanında ölçülen IP de durur ve `ag.json` IP'leriyle eşleşip
+#   eşleşmediği AYRICA gösterilir — beyan ile ölçüm yan yana, karışmadan.
+# ═══════════════════════════════════════════════════════════════════════════
+MAKINELER = {}                  # beyan edilen ad → kayıt
+BEKLENEN = {}                   # ag.json `makineler`: ad → IP (sunucunun kendi ayarı)
+_MK_KILIT = threading.Lock()
+_MK_DURUM = {"son_kayit": 0.0}
+MK_KAYIT_ARA = 30.0             # defter diske en çok bu sıklıkla yazılır
+
+
+def _mk_yolu():
+    return T.VERI + ".makineler.json"
+
+
+def makineler_yukle():
+    try:
+        with io.open(_mk_yolu(), encoding="utf-8") as f:
+            d = json.load(f)
+        if isinstance(d, dict):
+            MAKINELER.update(d)
+    except Exception:
+        pass
+
+
+def _mk_diske(zorla=False):
+    if not zorla and time.time() - _MK_DURUM["son_kayit"] < MK_KAYIT_ARA:
+        return
+    try:
+        gec = _mk_yolu() + ".yeni.%d" % os.getpid()
+        with io.open(gec, "w", encoding="utf-8") as f:
+            json.dump(MAKINELER, f, ensure_ascii=False, indent=1)
+        os.replace(gec, _mk_yolu())
+        _MK_DURUM["son_kayit"] = time.time()
+    except OSError as e:
+        gunluk("⚠️ makine defteri yazılamadı: %s" % e)
+
+
+def _beyan_temizle(s):
+    from urllib.parse import unquote
+    s = "".join(ch for ch in unquote(str(s or "")) if ch.isprintable()).strip()
+    return s[:64]
+
+
+def makine_isle(beyan, ip, yazma, kim=""):
+    """Her yetkili istekte çağrılır. `beyan` DOĞRULANMAZ (yukarıya bak)."""
+    ad = _beyan_temizle(beyan) or ("? (%s)" % ip)
+    simdi = time.strftime("%Y-%m-%d %H:%M:%S")
+    with _MK_KILIT:
+        yeni = ad not in MAKINELER
+        d = MAKINELER.setdefault(ad, {"ilk": simdi, "istek": 0, "son_yazma": "",
+                                      "son_okuma": "", "ip": "", "son_kim": ""})
+        d["istek"] = int(d.get("istek") or 0) + 1
+        d["ip"] = ip
+        d["son_yazma" if yazma else "son_okuma"] = simdi
+        d["son_damga"] = time.time()
+        if kim:
+            d["son_kim"] = _beyan_temizle(kim)
+        _mk_diske(zorla=yeni)
+        if yeni:
+            gunluk("ℹ️ YENİ MAKİNE (beyan): %s · ip %s" % (ad, ip))
+
+
+def makine_tablosu():
+    """Görülenler + ag.json'da olup HİÇ görülmeyenler. Beyan ≠ ölçüm."""
+    ip_ad = {}
+    for ad, ip in (BEKLENEN or {}).items():
+        ip_ad.setdefault(str(ip), []).append(ad)
+    simdi = time.time()
+    satir = []
+    with _MK_KILIT:
+        gorulen = json.loads(json.dumps(MAKINELER))
+    eslesen = set()
+    for ad, d in sorted(gorulen.items()):
+        ag_ad = ip_ad.get(d.get("ip"), [])
+        eslesen.update(ag_ad)
+        eslesen.update(b for b in BEKLENEN if b.upper() == ad.upper())
+        satir.append({"beyan": ad, "ip": d.get("ip"), "ag_json_eslesme": ag_ad,
+                      "son_yazma": d.get("son_yazma") or "", "son_okuma": d.get("son_okuma") or "",
+                      "son_istek_sn_once": int(simdi - float(d.get("son_damga") or 0))
+                      if d.get("son_damga") else None,
+                      "istek": d.get("istek"), "son_kim": d.get("son_kim") or "",
+                      "durum": "GÖRÜLDÜ"})
+    for ad, ip in sorted((BEKLENEN or {}).items()):
+        if ad not in eslesen:
+            satir.append({"beyan": ad, "ip": ip, "ag_json_eslesme": [ad],
+                          "son_yazma": "", "son_okuma": "", "son_istek_sn_once": None,
+                          "istek": 0, "son_kim": "",
+                          "durum": "GÖRÜLMEDİ — kapalı ya da BAŞKA SUNUCUDA"})
+    return satir
+
+
+def ey_makineler(g):
+    return 200, {"tamam": True, "makineler": makine_tablosu(),
+                 "uyari": "makine adı istemcinin BEYANIDIR, doğrulanmaz; IP ölçümdür"}
 
 
 def baska_makine_izi():
@@ -456,12 +596,35 @@ def ey_html(g):
 body{background:var(--zemin);color:var(--yazi);font:14px/1.4 system-ui,sans-serif;margin:16px}
 table{border-collapse:collapse;width:100%%}td,th{border-bottom:1px solid var(--cizgi);padding:4px 6px;vertical-align:top;text-align:left}
 td.m{white-space:pre-wrap;word-break:break-word}tr.acil{background:var(--acil)}
+tr.yok{background:var(--acil)}.not{opacity:.75;font-size:12px}
+.kaydir{overflow-x:auto}
 </style></head><body><h1>Atlas Tahtası</h1>
+<h2>Makineler — bu sunucuya kim yazıyor/okuyor</h2>
+<p class="not">Ad istemcinin BEYANIDIR (doğrulanmaz); IP ölçümdür. "GÖRÜLMEDİ" = sunucunun
+ag.json listesinde var ama hiç gelmedi: kapalı ya da BAŞKA SUNUCUDA.</p>
+<div class="kaydir"><table><tr><th>Makine (beyan)</th><th>IP</th><th>ag.json</th><th>Son yazma</th>
+<th>Son okuma</th><th>Son istek</th><th>İstek</th><th>Son oturum</th><th>Durum</th></tr>
+%s</table></div>
+<h2>Mesajlar</h2>
 <p>Son %d mesaj (toplam %d) · yeniden eskiye · sunucu %s · %s</p>
-<table><tr><th>No</th><th>Zaman</th><th>Kimden</th><th>Kime</th><th>Cins</th><th>Hal</th><th>Mesaj</th></tr>
-%s</table></body></html>""" % (len(dilim), toplam, e(socket.gethostname()),
-                                e(time.strftime("%Y-%m-%d %H:%M:%S")), "\n".join(sat))
+<div class="kaydir"><table><tr><th>No</th><th>Zaman</th><th>Kimden</th><th>Kime</th><th>Cins</th><th>Hal</th><th>Mesaj</th></tr>
+%s</table></div></body></html>""" % (mk_html(), len(dilim), toplam, e(socket.gethostname()),
+                                      e(time.strftime("%Y-%m-%d %H:%M:%S")), "\n".join(sat))
     return 200, govde
+
+
+def mk_html():
+    e = html.escape
+    sat = []
+    for d in makine_tablosu():
+        sn = d["son_istek_sn_once"]
+        sat.append("<tr class='%s'><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>"
+                   "<td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>" % (
+                       "yok" if d["durum"] != "GÖRÜLDÜ" else "", e(d["beyan"]), e(str(d["ip"] or "")),
+                       e(", ".join(d["ag_json_eslesme"]) or "—"), e(d["son_yazma"] or "—"),
+                       e(d["son_okuma"] or "—"), "—" if sn is None else "%d sn önce" % sn,
+                       d["istek"] or 0, e(d["son_kim"] or "—"), e(d["durum"])))
+    return "\n".join(sat) or "<tr><td colspan='9'>henüz kimse gelmedi</td></tr>"
 
 
 # (yöntem, yol) → (işlev, gövde JSON mu)
@@ -470,6 +633,7 @@ EYLEMLER = {
     ("GET", "/tahta/oku"): ey_oku,
     ("POST", "/tahta/isaretle"): ey_isaretle,
     ("POST", "/tahta/islem"): ey_islem,
+    ("GET", "/tahta/makineler"): ey_makineler,
     ("GET", "/tahta"): ey_html,
 }
 
@@ -542,6 +706,15 @@ class Kapi(BaseHTTPRequestHandler):
             except Exception as e:
                 return self._gonder(400, {"tamam": False, "sebep": "JSON: %s" % e})
             g.update(govde)
+        # Makine defteri — yalnız İŞ istekleri (tarayıcıdan tahtaya/deftere
+        # BAKMAK bir makinenin tahtayı kullandığı anlamına gelmez).
+        if islev not in (ey_html, ey_makineler):
+            try:
+                # "okundu" damgası (isaretle) bir POST'tur ama OKUMADIR.
+                makine_isle(self.headers.get("X-Atlas-Makine", ""), kaynak,
+                            islev in (ey_yaz, ey_islem), g.get("kim", ""))
+            except Exception as e:            # defter işi DÜŞÜREMEZ
+                gunluk("⚠️ makine defteri: %s: %s" % (type(e).__name__, e))
         try:
             kod, sonuc = islev(g)
         except BaseException as e:            # _kaydet sys.exit(3) atabilir
@@ -600,6 +773,8 @@ def main(argv):
         gunluk("🔴 port %d açılamadı: %s" % (port, e))
         kilit_birak()
         return 1
+    BEKLENEN.update({str(k): str(v) for k, v in (a.get("makineler") or {}).items()})
+    makineler_yukle()                         # yeniden başlamada defter SİLİNMEZ
     dur = threading.Event()
     threading.Thread(target=_nabiz_dongusu, args=(port, dur), daemon=True).start()
     izler = baska_makine_izi()
@@ -617,6 +792,8 @@ def main(argv):
         gunluk("TAHTA SUNUCUSU durduruldu (elle)")
     finally:
         dur.set()
+        with _MK_KILIT:
+            _mk_diske(zorla=True)
         kilit_birak()
     return 0
 
