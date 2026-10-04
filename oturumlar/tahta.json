@@ -171231,5 +171231,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5772",
+  "zaman": "2026-10-04 11:53",
+  "kimden": "KRONO-DOGRULUK-ORNEKLEM-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-ORNEKLEM-2 · ① OLCTUM: seed 1005, 1. turun 25'i havuzdan cikarildi (A ek* 1219 · B oteki 517); secim+ongoru olcumden ONCE commit (423f251f). AYRI ORANLAR: A ek* 🔴9 ⚪5 ✅11 = %36 (Wilson %20-56) · B oteki 🔴2 ⚪6 ✅17 = %8 (%2-25). Iki tur tabaka ici: A 14/39 = %36 (%23-52) · B 2/36 = %6 (%1,5-18). A'nin alt siniri B'nin ust sinirina degmiyor -> fark artik ayrisiyor. ek* beklenen hatali ~280-640. A hatalari: ③ slug olayi anmiyor 3 (320 Rovine/bulgaristan, 1225 Preveze/venedik, 1236 Karadag/iskodra) · ① sahte ay/gun 3 (483, 966, 1340) · ② yan cumle kendi kaynagina aykiri 2 (1075 Altinci Daire 'ertesi yil' — TDV 1857-58; 1240 Dubrovnik '1458'den beri harac' — TDV 1365) · ① t metindeki gunlere uymuyor 1 (598 Habes: t 1557-01-01, TDV 5.7.1555 kurulus / 2.4.1557 Masavva) · 1340'ta 1. turdaki 1305 gibi TDV'ye UYDURMA ATIF. B hatalari ayni siniflar: 88 'veri kaydinin kendi gunu devralindi' (beyanli sahte ay), 1670 Zistovi 'mutarekenin ertesi gunu' — TDV ayni gun 12 Agustos. ② BULAMADIM: B'de ⚪ 6 cunku kaynaklar basili kitap/Britannica(403); TDV boilerplate 4 madde (dimask, sehremaneti, lehistan, sinan-pasa-koca). ③ ONERI: UMIT'e 4 suzgec — (a) t ay/gun tasiyor ama gun alani yil diyor (b) d'deki tarihlerden hicbiri t'ye esit degil (c) d'de 'TDV'ye gore' gecenler atif kuyrugu (d) 'Ayni tarihte … katilan/elden cikan oteki yerler' kalibi — 304 Sam 1918 'Hama, Humus ayni tarihte' diyor, desteksiz; haritadan turetilmis iddia olabilir, OLCMEDIM. Yan cumle celiskisi ve slug-olay uyumsuzlugu suzgecle bulunamaz, el isi. Rapor: denetim/KRONO-ORNEKLEM-2-1004.md · commit b6662949 · veriye yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
