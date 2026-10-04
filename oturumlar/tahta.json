@@ -171627,5 +171627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5794",
+  "zaman": "2026-10-04 22:43",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-BITIR-1004 TESLİM — rapor: denetim/PAKET-0076-BITIR-1004.md (44 kalemin önerilen hükmü tabloda; CEVAP.json'a YAZMADIM, hüküm senin) ① ÖLÇTÜM — 44: ✅ cozuldu 10 · ⏳ kosu-bekliyor 10 · ▶ sirada 8 · ◔ olculecek 1 · 🟤 cozulemedi 2 · 🔴 senin-kararin 13. · ↻ KATAR niçin 5 kez geldi: hüküm DOĞRUYDU, uygulama geç indi (YAMA C yazıldı→geri alındı 2e656b0d→UYGULA-YERLESIM-0930 52222fa3→yayın ancak bugün r11195). localhost r11195 ölçümü 6 nokta × 9 gün: 1868-1923 TEK RENK ⇒ H-0149 + 0076/H-0023 + 0077/H-0029 + 0082/H-0101 ÇÖZÜLDÜ. AMA 1868 öncesi HÂLÂ BÖLÜK (1521 cebri/boş · 1602 tâbi/Safevî-Bahreyn'den · 1830 benihalid/boş) ⇒ 0081/H-0024 AÇIK; 1602'de kuş uçuşu en yakın dolgu iken Doha kesimi Bahreyn'in rengini alıyor — motor kalemi, ölçülmedi. · 🔧 Berlin A → denetim/PAKET-0076-BERLIN-1004.diff (A1 Köstendil · A2 İzdin · A3 Bosna×4 · A4 Sofya · A5 Niğbolu/Plevne/İhtiman · A6 Prevadi · A8 Silistre + H-0037 Romanya 15 nokta 1877-05-09 + Değişmez 2 için ŞART 2 madde: 1877-05-09 Romanya · 1832 İzdin). git apply --check TEMİZ (HEAD c0a3e21c'de de). Worktree'de denetle --ayrinti: D1 309/309 · 1b 0 · 2 622 kırılma 0 açık · 2i tavanda · 4/5 ✓ · D8 ÖLÇÜLEMEDİ (motor çıktısı, koşu ister). Sahiplik sınavı iki yönde: yama sonrası 24/24 doğru, öncesi 17/24 yanlış. Kendi hatamı yakaladım: Niğbolu'ya v: eklemeyi unutmuştum, denetle yakaladı, düzeldi. · ③ H-0123 İNDİ b1485e56: K=9 (6/3, TAM 2:1). SINIR-CIZGI'nin K=6'sı BİLEREK seçilmedi — ince şerit 2 px'e inip TARAMA_SERIT_PX'ten türeyen bütün sefer oklarını üçte bir inceltirdi (M-4838). Tarayıcıda: 4/4 desen 6/3, seferKalinlik 4,24 değişmedi, konsol 0. · 📖 İNDİ 4a2798bc: data/ekokuma_p76i.js 8 kart (istenen 6 + 🟡 H-0012/H-0029 — mevcut kartlar KISMEN karşılıyordu, ölçüldü). Havuz 789, 8/8 yüklü, 10 çapanın 10'u tam 1 maddeye bağlı, tür kayıtlı, çakışma 0, gorsel yok. TDV birincil; TDV dışı açıkça yazılı. · ⏸ D-RENK-0073 TEK LİSTE (raporda ⑥, hat id + sınıf ile): H-0041 · H-0042 · H-0059 · H-0118 · H-0120 · H-0144 · H-0155 · H-0156 — hepsinde çizgi o gün yürürlükte, anakronizm yok, oturmayan renk. Sorular: (a) bıçak/(b) gövde/(c) karışık · dikiş dili · sol_taraf borcu. ⚠️ İstemci yaslaması (E/F) indiği için [E] olanlar kısmen düzelmiş olabilir — görünür bölmede ölçülmedi. · KOŞUYA BİNECEKLER (diff uygulanırsa): H-0037 · 0043 · 0057 · 0049 · 0053 · 0044 · 0106 · 0108 · 0045 · 0050 (+ renk_olc.py şart). ② BULAMADIM: İşkodra 23 Nis/14 May 1913 günü (TDV iskodra yalnız yıl) → A7 diff'e alınmadı (H-0134 olculecek) · İmroz Yunan işgali BİTİŞ günü (TDV imroz: 1913 Londra'da Osmanlı'ya bırakıldı, Lozan'da kesinleşti) → A9 alınmadı · Kars 1877-78 yer-yer işgal günleri (H-0036 sirada) · 23 yeni Berlin noktasından 14'ünün bir zincir halkası (taslak: denetim/PAKET-0076-BITIR-berlin-noktalar.{md,js}; 9 taşınabilir ama HER BİRİNDE yorum halkası + eksik Değişmez 2 maddeleri + DOBRUCA DESENİ ÇELİŞKİSİ: komşular kaynaksız zincir, TDV 1390-93/1402-18 Eflak diyor) ⇒ noktaları diff'e ALMADIM. Ziştovi veride YOK (var sanılıyordu). ③ İSTİYORUM (öneri ilk): ① diff'i uygula + koşu + renk_olc ② 44'ün hükmünü tablodan CEVAP.json'a yaz ③ D-RENK listesini Emre'ye sor ④ Berlin noktaları: Dobruca deseni + 9 taslak için hüküm ver (öneri: Sırbistan 4'ü ve Ziştovi önce, maddeleriyle). Değişen: b1485e56 js/app.js · 4a2798bc data/ekokuma_p76i.js + js/app.js 1 satır · 8c33c57e denetim/ 5 dosya. data/yerlesimler* ve olaylar*'a DOKUNMADIM. Push yok. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
