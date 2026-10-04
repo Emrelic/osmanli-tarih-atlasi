@@ -1,7 +1,7 @@
 diff --git a/arac/uret_petek.py b/arac/uret_petek.py
 --- a/arac/uret_petek.py
 +++ b/arac/uret_petek.py
-@@ -5730,6 +5730,37 @@
+@@ -5730,6 +5730,45 @@
              if len(cs) >= 4: halkalar.append(cs)
          if halkalar: out.append(halkalar)
      return out
@@ -22,6 +22,14 @@ diff --git a/arac/uret_petek.py b/arac/uret_petek.py
 +    alfabetik (belirlenimli). Hiçbir kimlikli petekle kesişmeyen parça (ekleyici kapının doldurduğu arazi,
 +    kidsiz `v:` dönemi) "" alır — SESSİZCE bir komşunun kimliğini almaz."""
 +    from shapely import STRtree
++    import re as _re
++    # 🔴 KİMLİK SÖZDİZİMİ KISITI [a-z0-9-] (LAB/UMIT okuyucu sınavı, 4 Ekim 2026): bare-anahtar tırnaklayan okuyucular
++    #   (`uret_devirler.oku_pencere`, `_alan_kaybi_sinavi.olc`: `([{,]\s*)(\w+)\s*:`) dize İÇİNDEKİ `, y:` yi anahtar sanıp
++    #   JSON'u bozar ⇒ boru hattı koşuda ÇÖKER. Bugün 28 kid / 478 dönem HEPSİ uygun; uymayan kimlik dosyaya İNMEZ, koşu durur.
++    for _kid, _ in tabi_kid:
++        if not _re.fullmatch(r"[a-z0-9-]+", _kid):
++            raise RuntimeError("vk kimliği [a-z0-9-] dışında: %r — virgül/iki nokta içeren kimlik "
++                               "uret_devirler.oku_pencere'yi bozar" % (_kid,))
 +    if not tabi_kid:
 +        return ["" for _ in parcalar]
 +    ag = STRtree([g for _, g in tabi_kid])
@@ -39,7 +47,7 @@ diff --git a/arac/uret_petek.py b/arac/uret_petek.py
  
  # ---------------- Bölge (2. kademe merkez) toplu sınırları ----------------
  # Kural 6: her k3/k4 yerleşim en yakın k1/k2 merkeze bağlıdır; merkez, üyelerinin
-@@ -7597,6 +7628,30 @@
+@@ -7597,6 +7636,30 @@
                              "p": [round(_rp.x, 4), round(_rp.y, 4)]})
              if _vl:
                  kayit["vl"] = _vl
@@ -48,7 +56,7 @@ diff --git a/arac/uret_petek.py b/arac/uret_petek.py
 +        #   çapasıdır: parçaların %68'i etikete bağlanamıyor ⇒ bu çıktıyla `Değişmez 8`e `v:` kolu YAZILAMAZ
 +        #   (v: ile boyanan 556 dönem / 416 yerleşimde taraf olarak görülen v: noktası 0/556).
 +        # ŞEMA: `d.vk` = `d.v` ile AYNI UZUNLUK ve SIRADA kimlik listesi (str; kimliği bilinmeyen parça "").
-+        #   YALNIZ `v:` döneminin `kid`i (etiket `k` DEĞİL). Hiçbir parça kimlik taşımıyorsa anahtar YAZILMAZ
++        #   YALNIZ `v:` döneminin `kid`i (etiket `k` DEĞİL). KISIT: kimlik [a-z0-9-]+ (aksi RuntimeError). Hiçbir parça kimlik taşımıyorsa anahtar YAZILMAZ
 +        #   (`vl`/`h` ile aynı kural); `|| []` ile okunmalıdır. Eşit uzunluk ihlali SESSİZ DEĞİL: koşu DURUR.
 +        # ⚠️ Geometri BÖLÜNMEZ ve `v`/`vl` DEĞİŞMEZ: yalnız ek bir paralel liste.
 +        _vkid = []

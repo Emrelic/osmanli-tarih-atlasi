@@ -107,6 +107,28 @@ try:
     sonuc(esit == ["aa"], "B4b) eşit alan → alfabetik (belirlenimli)", str(esit))
     kars = v_kid_ata([buyuk1], [("kucuk", box(0, 0, 0.2, 1)), ("buyuk", box(0.2, 0, 1, 1))])
     sonuc(kars == ["buyuk"], "B5) parça iki kimlikle kesişiyor → alanı fazla olan kazanır, TEK kimlik", str(kars))
+
+    # B6 — KİMLİK SÖZDİZİMİ KISITI [a-z0-9-]: okuyucu sınavının (ARAC-DONEMLER-OKUYUCU-SINAV-1004) düşman-girdi bulgusu
+    def reddediyor(kid):
+        try:
+            v_kid_ata([buyuk1], [(kid, pa)])
+            return False
+        except RuntimeError:
+            return True
+    kotu = ["x, y: z", "a,b", "a:b", "Büyük", "a b", "", "a_b", "İstanbul"]
+    sonuc(all(reddediyor(k) for k in kotu), "B6a) [a-z0-9-] dışı kimlikler RuntimeError (koşu DURUR, dosyaya İNMEZ)",
+          str([k for k in kotu if not reddediyor(k)]) or "hepsi reddedildi")
+    iyi = ["lubnan-emirligi", "a1", "kirim-hanligi", "cebel-i-lubnan-mutasarrifligi"]
+    sonuc(not any(reddediyor(k) for k in iyi), "B6b) geçerli kimlikler KABUL (yanlış alarm yok)", str([k for k in iyi if reddediyor(k)]))
+    import contextlib, io as _io
+    sys.path.insert(0, os.path.join(KOK, "arac"))
+    import girdi as _girdi
+    with contextlib.redirect_stdout(_io.StringIO()):
+        _Y = _girdi.yukle(sessiz=True)
+    gercek = sorted({p["kid"] for y in _Y for p in (y.get("v") or []) if p.get("kid")})
+    kirik = [k for k in gercek if reddediyor(k)]
+    sonuc(len(gercek) > 0 and not kirik, "B6c) GERÇEK `v:` kimliklerinin TAMAMI kısıttan geçer (bugün tetiklenmez)",
+          "%d kimlik, reddedilen %s" % (len(gercek), kirik))
 finally:
     shutil.rmtree(tmp, ignore_errors=True)
 
