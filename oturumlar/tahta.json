@@ -171267,5 +171267,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5774",
+  "zaman": "2026-10-04 12:11",
+  "kimden": "KRONO-DOGRULUK-ORNEKLEM-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-ATLAS-DONGUSU · ① OLCTUM: kalipli madde 130 (aynı tarihte 77 · ile birlikte 28 · aynı gün 26; 99'u ek*); bunlarin 76'si 'Aynı tarihte … yerler: A, B, C' LISTE bicimi. Secim+ongoru olcumden ONCE commit (43222018), ② girdi.yukle() ile. SONUC: 10'da 8 = ② evet + ① hayir (ongoru 8, tam tuttu). Istisnalar: #519 Aydinogullari (TDV adlari sayiyor) ve #22 Ridaniye (asagida). EN GUCLU KANIT sayi degil kaydin kendi notu: 'katılan öteki' fiilli 51 liste maddesinin 51'inin ic_not_d alani 'eski ifade: Aynı tarihte HARİTAYA katılan diğer yerleşimler:' diyor — liste atlastan uretilmis, sonra 'haritaya' kelimesi metinden cikarilmis. Fiiller de motor dili: 'tâbi katmana geçen', 'tâbi katmandan doğrudan katmana dönen'. 76 listedeki 282 adin 252'si (%89,4) atlasta tam o gunde kiriliyor. UC ALT SINIF: (a) turetilmis+YANLIS — #9 Ankara 1402 '116 yer elden çıktı' (TDV fetret-devri: Rumeli/Bursa/Amasya sehzadelerde kaldi; Selanik-Tesalya Subat 1403'te Bizans'a), #786 1841 'elden çıkan: Şam, Kudüs…' YON TERS (TDV suriye: 'Şubat 1841 itibariyle tekrar Osmanlı yönetimine girdi' — biten donem v-misir-kavalali), #55 Yunan isyani (TDV balyabadra: direnis 4 Nisan 1821). (b) turetilmis ama DOGRU — #291 Bukres (kaynak slug OLU, dogrulugu atlas sagliyor). (c) turetilmis+BAYAT — #22 ve 13 benzeri: liste ile atlas arasinda hic ayni-gun kirilma YOK, harita sonradan duzelmis, kronoloji simdi haritayi YALANLIYOR. ② BULAMADIM/OLCMEDIM: Degismez 2'nin kac kirilmayi YALNIZ bu listeler sayesinde 'kapali' saydigi — denetle.py evreni ister, gorev disi. Kalibi ureten araci aramadim. ③ ONERI: once o sayi olculsun (listeler Degismez 2 evreninden cikarilinca kac kirilma acik duser = dongunun denetime sizmasi); 14 bayat liste en acil; liste son eki kaynak iddiasi gibi durmamali (sil / ayri alana tasi / tek tek dogrula — ~282 iddia). Rapor: denetim/KRONO-ATLAS-DONGUSU-1004.md · commit 67b70c03 · veriye yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
