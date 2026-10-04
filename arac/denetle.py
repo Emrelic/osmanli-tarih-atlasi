@@ -4611,6 +4611,24 @@ def degismez8_defteri(R, yaz=False):
     return eski
 
 
+# ═══════════════ OLCULEMEDI KOVASI (4 Ekim 2026) ═══════════════
+# 🔴 "olculemedi" ≠ "yok" ≠ "temiz" (CLAUDE.md §11). Bu kural YAZILIYDI ve
+#    arac onu IHLAL EDIYORDU: "Olculemeyen soru TEMIZ DEGILDIR" cumlesini
+#    basip `return False` veriyor, main() "SONUC: temiz" + cikis 0 yaziyordu.
+#    Otomasyon cumleyi okumaz, CIKIS KODUNU okur.
+# 🔴 Yeni topolojide LAB denetleyici: shapely'si olmayan bir LAB, olcemedigi
+#    depoyu "temiz" raporlar. Kusurun bedeli makine basina degil, GUVEN basina.
+# ⇒ Olculemeyen her soru buraya ADIYLA dusulur; main() uc hali ayirir:
+#      0 temiz · 1 IHLAL VAR · 2 OLCULEMEDI (soru SORULAMADI)
+OLCULEMEDI_KOVA = []
+
+
+def olculemedi(ad, sebep):
+    """Olculemeyen bir soruyu kaydet. Cagiran yine kendi satirini BASAR —
+    bu islev ekrana yazmaz, yalniz HUKME girmesini saglar."""
+    OLCULEMEDI_KOVA.append((ad, str(sebep)[:160]))
+
+
 def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
     """main() için: basar, ihlal varsa True döner."""
     try:
@@ -4618,9 +4636,11 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
     except ImportError as e:
         print(f"Değişmez 8  !  ÖLÇÜLEMEDİ — {e} (shapely/numpy yok). "
               "Ölçülemeyen soru TEMİZ DEĞİLDİR.")
+        olculemedi("Değişmez 8", e)
         return False
     except Exception as e:
         print(f"Değişmez 8  !  ÖLÇÜLEMEDİ — {type(e).__name__}: {str(e)[:90]}")
+        olculemedi("Değişmez 8", "%s: %s" % (type(e).__name__, e))
         return False
     defter = degismez8_defteri(R, yaz=defter_yaz)
     ic, dis, b = d8_sayac(R, defter)
@@ -4953,6 +4973,7 @@ def main():
         print("\nDeğişmez 4  ⚠️  ÖLÇÜLEMEDİ — node yok ya da devletler.js "
               "ayrıştırılamadı.")
         print("               ⚠️ 'ölçülemedi' TEMİZ DEĞİLDİR. Ayrı kova.")
+        olculemedi("Değişmez 4", "node yok ya da devletler.js ayrıştırılamadı")
     else:
         n4 = len(hayalet)
         durum4 = "✓" if n4 <= BEKLENEN_HAYALET else "✗"
@@ -5338,6 +5359,7 @@ def main():
     except Exception as e:
         S = None
         print("Ek denetim  !  savaş senkronu ÖLÇÜLEMEDİ: %s" % str(e)[:60])
+        olculemedi("savaş senkronu", e)
     if S is not None:
         n_s, ayk = savas_senkronu(S, O)
         durum7 = "✓" if not ayk else "i"
@@ -5402,9 +5424,22 @@ def main():
                   " sınandı. Maske dışındaki nokta HİÇ toprak sahibi olamaz.")
 
     print()
+    # 🔴 UC HAL, UC KOD (4 Ekim 2026) — "olculemedi" artik temiz SAYILMAZ.
+    #    Once IHLAL, sonra OLCULEMEDI: gercek bir ihlal varsa hukum odur,
+    #    ama eksik olcum YINE DE basilir (ikisi birbirini gizlemez).
+    if OLCULEMEDI_KOVA:
+        print("🔴 ÖLÇÜLEMEYEN SORU: %d — bu kapı o soruda TEMİZ DEĞİL"
+              % len(OLCULEMEDI_KOVA))
+        for _ad, _sb in OLCULEMEDI_KOVA:
+            print("     • %-22s %s" % (_ad, _sb))
+        print("   ⇒ Eksik bağımlılık ya da eksik dosya; ölçüm YAPILMADI.")
+        print("     'ölçülemedi' ≠ 'yok' ≠ 'temiz' (CLAUDE.md §11).")
     if ihlal:
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         sys.exit(1)
+    if OLCULEMEDI_KOVA:
+        print("SONUÇ: TEMİZ DEĞİL — eksik ölçüm, çıkış kodu 2")
+        sys.exit(2)
     print("SONUÇ: temiz")
     sys.exit(0)
 

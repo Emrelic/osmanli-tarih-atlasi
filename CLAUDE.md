@@ -88,7 +88,18 @@ gün için yeniden üretilir.
 ---
 
 ## 3. İhlal edilemez değişmezler
-**Her veri değişikliğinden sonra `py arac/denetle.py`** — tek kapı odur; eski ölçütler
+**Her veri değişikliğinden sonra `py arac/denetle.py`** — tek kapı odur.
+🆕 🔴 **ÜÇ ÇIKIŞ KODU (4 Ekim 2026): `0` temiz · `1` İHLAL VAR · `2` ÖLÇÜLEMEDİ.**
+Kod 2 yeni ve bir kusuru kapatıyor: araç *"Ölçülemeyen soru TEMİZ DEĞİLDİR"*
+cümlesini basıp **`SONUÇ: temiz` + çıkış 0** veriyordu. Ölçülen vaka — HAVVA'da
+shapely yok ⇒ Değişmez 8 ve konum denetimi atlanıyor, araç yine "temiz" diyordu;
+EMRELIC'te de `devletler_harita.js` diskte olmadığı için aynısı. **Otomasyon
+cümleyi okumaz, çıkış kodunu okur.** Yeni topolojide LAB denetleyici: eksik
+bağımlılıklı bir LAB, ölçemediği depoyu temiz raporlardı. Ölçülemeyen her soru
+`OLCULEMEDI_KOVA`ya ADIYLA düşer (sayı değil LİSTE) ve hükümde basılır; ihlal
+varsa hüküm 1'dir ama eksik ölçüm **yine de görünür** — biri ötekini gizlemez.
+Sınav 12 soru, iki yönde, biri GERÇEK koşulda:
+`py denetim/ARAC-OLCULEMEDI-KAPI-SINAV-1004.py`. Eski ölçütler
 [`D202`](dersler/D202-uc-degismez-tam-metin.md)de birebir duruyor, `denetle.py` hepsini
 daha geniş evrende sorar.
 - **1 — sahipsizlik yok.** Var olduğu tarihte sahipsiz yerleşim = haritada delik. Sahipsiz
