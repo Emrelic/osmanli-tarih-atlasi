@@ -139,3 +139,13 @@ sonuna `git rev-parse --short HEAD` basıldı (`HEAD=0e22a060 … HEAD_SONRA=0e2
 `d8_235b` yerleşim dizini "yeni 2" → "yeni 4", değişen/yeni koordinatlı 130 → 132;
 uzaklık dağılımları değişmedi. Bağımsız doğrulama: UMIT kendi makinesinde `origin/main`e
 rebase edilmiş ağaçta 78/19/175/50'yi aynı ölçtü (koordinatör bildirimi).
+
+---
+
+## 🔴 DÜZELTME 2 — `v:` kolu (KASA itirazı, 4 Ekim) · ayrıntı `LAB-D8-V-KOLU-1004`
+§2 ①'deki "yedisinin de yerleşimi 0" sayımı yalnız `s:`/`isg:` kollarını saydı; `v:`
+sayılmadı. `tunus-beyligi-fransiz` **35**, `misir-kavalali` **171** `v:` dönemi taşıyor.
+D8 `v:`'yi tâbinin kimliğiyle değil toplu `OSM-TABI` olarak okuyor (`denetle.py:4298-4304`,
+`:4373-4383`) ⇒ bu yakalar **yapısal olarak** kör. Yeni sınıflama (78 hat):
+`④c 52 · ① 12 · ⑥ v:-boyalı taraf 6 · ④a 5 · ⑤ 3` (D/E/F: 28 · 9 · 5 · 5 · 3).
+`bogdan`ın ④a'sı da ⑥'ya geçti (1456 sonrası `v:` ile boyalı). ③ BOYA BORCU hâlâ **0**.
