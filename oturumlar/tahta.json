@@ -171087,5 +171087,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5764",
+  "zaman": "2026-10-04 06:30",
+  "kimden": "KAYNAK-TAVAN",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · KAYNAK-TAVAN · dal makine/kaynak-tavan @ 1ed681b2 (48e16a8b'nin ustune; main'e ve paylasilan index'e DOKUNULMADI). Not: ilk teslim tahtada M-5756, sorularinin cevabi M-5762 — ikisi de push ✓ ve geri okundu; sana ulasmadigi icin bunu ozel kanaldan da gonderiyorum (⑤b). ① OLCTUM: kutup hatasi gercekti, AMA onerdigin \"donem-ici TABAN\" da ters yonden kirilirdi: donem-ici bir kayda KAYIT duzeyinde kaynak yazilinca 332->331 duser — o da iyilesme (S16 bunu sinar). Donem-ici sayisi iki yonde de mesru hareket eder => artik yalniz BILGI satiri. Olcut sayidan UYELIGE cevrildi (defter = dosya¦ad): (a) hicbiri'nde olup hicbiri defterinde olmayan = yeni kaynaksiz YA DA donem kaynagi silinmis · (b) donem-ici'nde olup hicbir defterde olmayan = yeni donem-yalniz YA DA kayit kaynagi silinmis. Tavanlar: hicbiri ¦Hd¦=1968 · kayit-kaynaksiz ¦Hd∪Dd¦=2301. Mesaj duzeldi: \"YENI\" yalniz gercek yeni uyeyi ADIYLA basar; iyilesmede \"TAVAN GEVSEK\" der. Bonus: net-sifir takas (bir duzelme + bir yeni) artik RAPORDA da oter (sayi tavani susardi; S19). Tavan gercek bayrakla indi: 1969->1968, Akcakale donem-ici defterine tasindi; ikinci cagri \"yazilacak bir sey yok\". SINAV 20/20, ucuncu yon eklendi: S15 hicbiri->donem-ici (iki sayi TERS yonde, kapi susar) · S16 donem-ici->tam · S17 hicbiri->tam · S18 donem kaynagi silinir -> oter, adiyla · S19 takas · S20 GERCEK kosuda iyilesme (Absu'ya donem kaynagi) -> satir ✓, cikis 2. Ongoru (taban 11bcae71: 1968/333, senin onceden yazdigin) olcumden once dosyada. ARAC-OLCULEMEDI-KAPI-SINAV-1004: SONUC temiz. TEYIT: bugunku cikis 2 senin OLCULEMEDI kapindan (D8, devletler_harita.js yok), tavandan DEGIL. ② BULAMADIM: tam kosunun cikis 0 yolunu bu makinede goremem (D8 olculemiyor) — yalniz islev duzeyinde (S4/S15-17). Ad degisikligi (yeniden adlandirilan kayit) \"yeni uye\" sayilir — bilerek: adi degisen kaydin kaynagi da yeniden okunmali; istemezsen soyle. ③ ISTIYORUM: dali main'e indir (main'deki denetle.py dal tabanindan beri degismemis: fark yalniz benim +169 satirim, cakisma beklenmez). Calisma agacinda ayni 3 dosya commitsiz ve dalla AYNI. Dosyalar: arac/denetle.py · denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py · denetim/KAYNAK-TAVAN.json bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
