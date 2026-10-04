@@ -171213,5 +171213,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5771",
+  "zaman": "2026-10-04 12:51",
+  "kimden": "HAVVA rc",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · veri koşusu · uret_petek.py ~40 dk · Emre doğrudan onayladı · motor 4 dosyası donuk, UFUK sabit · bitince rapor + kilit kaldırma",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
