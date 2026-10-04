@@ -57,8 +57,38 @@ yanılır:
    eşleşmesiyle kuruldu ve işçi kendi uyardı: *"Barbarossa'nın kendi maddesi yok."*
    Eşleşen kelime, anlatılan olay değildir.
 
+## 🔴 Ek (aynı gün, SONRA1923-KAPI-EVREN-1004) — yer körlüğü TEK KAPININ KAZASI DEĞİL
+
+Bu ders yazıldıktan bir saat sonra aynı kusur **başka bir kapıda** ölçüldü:
+
+> `kirilmasiz_madde`'nin (2t) `d`/`v`/`s` havuzu **YERSİZ** (`denetle.py:1936`): ±30 günde
+> **dünyanın herhangi bir yerindeki** kırılma bir maddeyi kapatıyor. 2s'de var olan
+> yer/taraf şartı (`:1377`) 2t'de **YOK.**
+
+Yani aynı yapısal boşluk iki ayrı kapıda, birbirinden bağımsız kodlanmış. Bugün 2t'nin 67
+maddesinin hepsi doğru ötüyor — ama bu *tesadüf*: 1923-45 aralığında henüz kırılma
+yazılmadığı için kapatacak ilgisiz kırılma yok. Kampanya kırılma yazdıkça ilgisiz
+kırılmalar 1923-45 maddelerini **sessizce** kapatmaya başlayacak.
+
+Aynı teslimde ikinci bir aynı-sınıf boşluk da bulundu: **işgalin aynası yok** —
+`kirilmasiz_madde` yalnız `_toprak_iddiasi`yi (etiket `toprak-*`, `:1764`) okuyor ve 45
+işgal maddesinin **38'i** toprak etiketi taşımıyor ⇒ *"işgal maddesi VAR, `isg:` kırılması
+YOK"* diye soran denetim **hiç yok** (`_isg_yeri_mi` işlevi `:1902`de ZATEN duruyor,
+çağrılmıyor — `D257`nin "bir işlevin VAR olması ÇAĞRILDIĞI anlamına gelmez" maddesi).
+
+**Bir günde üç kapıda sayıldı:**
+```
+Değişmez 2   621 kırılmanın 115'i YER KÖRÜ (madde var, yer eşleşmesi yok)
+4c / 4d      SAYI tavanı ÜYE hareketini gömüyor (net −29 ↔ 69 birim hareket)
+2t           havuz YERSİZ + işgal kolu HİÇ YOK
+```
+⇒ Ders tek bir kapının kusuru olarak okunmamalı: **"madde var mı" sorusunu yere
+bağlamayan her ölçüt aynı yanılgıyı üretir.** Yeni bir denetim yazılırken ilk soru
+*"bu ölçüt YERİ soruyor mu"* olmalı.
+
 ## Bağlı dersler
 - [[D204]] devlet var, yeri yanlış — "oraya hiç ait miydi" sorulmuyor
 - [[D207]] atlas referans değil — vekil sayı dayanak olamaz
 - [[D210]] hassasiyet kaynağı aşamaz — pencere uçları sınır işaretidir, ölçüm değil
 - [[D260]] atlas kendini kaynak gösteriyor — türetilmiş ve DOĞRU olan en sinsisidir
+- [[D257]] bir işlevin VAR olması ÇAĞRILDIĞI anlamına gelmez (`_isg_yeri_mi` tam bu)
