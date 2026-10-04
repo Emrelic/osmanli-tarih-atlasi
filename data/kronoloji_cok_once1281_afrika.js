@@ -293,7 +293,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 { t:"1052-04-14", b:"Hayderan Savaşı — Muiz b. Bâdîs Benî Hilâl karşısında ağır yenilgiye uğradı", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["savas","toprak-kayip","konu-askeri"], yer:"Hayderan (Kābis ile Kayrevan arası)", taraflar:["ziriler"],
-  odak_yer:["Gabes","Kayrevan"],
+  odak_yer:["Kayrevan"],
   d:"Fâtımî Halifesi Müstansır-Billâh'ın Mağrib'e göç ettirdiği Benî Hilâl kabilesi, Kābis ile Kayrevan arasındaki Hayderan'da Zîrî ordusunu bozguna uğrattı. Yenilgi, Kayrevan'ın kuşatılmasına ve iç bölgelerin bedevî kabilelerin eline geçmesine giden yolu açtı.",
   kaynak:"TDV: ziriler — '11 Zilhicce 443’te (14 Nisan 1052) Kābis ile Kayrevan arasındaki Hayderan’da meydana gelen savaşta Muiz ağır bir yenilgiye uğradı'",
   gun:"11 Zilhicce 443 / 14 Nisan 1052 — GÜN kaynaktan" },

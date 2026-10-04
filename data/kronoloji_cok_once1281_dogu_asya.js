@@ -56,14 +56,14 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 // ─── ÇİN: Song · Liao · Batı Xia · Jin · Dali · Doğu Xia · Moğol ───────
 
 { t:"1005-01-01", b:"Chanyuan Antlaşması — Song, Liao'ya yıllık gümüş ve ipek ödemeyi kabul etti", tur:"antlasma", onem:4, dunya:2, kapsam:"ic",
-  etiket:["antlasma","konu-siyasi","konu-diplomasi"], odak_yer:"Anyang", yer:"Chanyuan (Puyang, Hebei)", taraflar:["song"],
+  etiket:["antlasma","konu-siyasi","konu-diplomasi"], yer:"Chanyuan (Puyang, Hebei)", taraflar:["song"],
   d:"Liao ordusunun 1004 sonbaharında Sarı Irmak'a kadar ilerlemesi üzerine İmparator Zhenzong bizzat cepheye çıktı ve iki saray Chanyuan'da barış yaptı. Song, 'On Altı Vilayet'in Liao'da kalmasını fiilen kabul etti ve her yıl gümüş ile ipek göndermeyi üstlendi; iki hükümdar birbirine eşit 'kardeş' unvanıyla hitap etti. Antlaşma iki devlet arasında yüz yılı aşkın bir barış dönemini açtı.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Denis Twitchett & Klaus-Peter Tietze, 'The Liao', The Cambridge History of China Vol. 6 (Cambridge UP, 1994) · Frederick W. Mote, Imperial China 900–1800 (Harvard UP, 1999). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Song-dynasty · Liao-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1005 başı (antlaşma Jingde 1. yılın 12. ayında — Gregoryen Ocak 1005; gün kaynaktan alınmadı)",
   ic_not_t:"Olay liao-hanedani künye iskeletinde (öneri) var → burada yalnız song'a bağlandı." },
 
 { t:"1041-01-01", b:"Haoshuichuan Savaşı — Batı Xia, Song ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:3, dunya:1, kapsam:"ic",
-  etiket:["savas","konu-askeri"], odak_yer:"Yinchuan", yer:"Haoshuichuan (Guyuan yöresi, Ningxia)", taraflar:["bati-xia","song"],
+  etiket:["savas","konu-askeri"], yer:"Haoshuichuan (Guyuan yöresi, Ningxia)", taraflar:["bati-xia","song"],
   d:"Li Yuanhao'nun 1038'de imparatorluk ilan etmesi Song ile açık savaşa yol açtı. Xia ordusu 1040'ta Sanchuankou'da, 1041'de Haoshuichuan'da Song kuvvetlerini pusuya düşürerek büyük kayıplar verdirdi. Bu yenilgiler Song'u Xia'yla barış aramaya itti.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Ruth Dunnell, 'The Hsi Hsia', The Cambridge History of China Vol. 6 (1994). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Xi-Xia · Li-Yuanhao) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1041 (yıl; gün kaynaktan alınmadı)" },
@@ -82,19 +82,19 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1069 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1077-01-01", b:"Như Nguyệt Savaşı — Đại Việt, Song istilasını Cầu nehrinde durdurdu", tur:"savas", onem:3, dunya:1, kapsam:"ic",
-  etiket:["savas","konu-askeri"], odak_yer:"Hanoi", yer:"Như Nguyệt (Cầu nehri, Bắc Ninh)", taraflar:["ly-hanedani","song"],
+  etiket:["savas","konu-askeri"], yer:"Như Nguyệt (Cầu nehri, Bắc Ninh)", taraflar:["ly-hanedani","song"],
   d:"Lý komutanı Lý Thường Kiệt 1075'te Song'un güney sınır şehirlerine önleyici bir sefer düzenledi; Song 1076-77'de karşı istilaya geçti. Song ordusu Như Nguyệt (Cầu) nehri hattında durduruldu ve salgın hastalıklarla eriyince çekildi. Taraflar sınırda küçük değişikliklerle barıştı; Đại Việt bağımsızlığını korudu.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Later-Ly-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1077 başı (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1081-01-01", b:"Song'un Batı Xia'ya büyük seferi Lingzhou önünde çöktü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
-  etiket:["savas","konu-askeri"], odak_yer:"Yinchuan", yer:"Lingzhou (Lingwu, Ningxia)", taraflar:["song","bati-xia"],
+  etiket:["savas","konu-askeri"], yer:"Lingzhou (Lingwu, Ningxia)", taraflar:["song","bati-xia"],
   d:"Xia sarayındaki iç karışıklığı fırsat bilen Shenzong beş koldan büyük bir sefer başlattı. Kollardan biri Lingzhou'yu kuşattı ama Xia, Sarı Irmak setlerini yıkıp kampları sular altında bırakınca ikmalsiz kalan ordu dağıldı. Ertesi yıl Yongle kalesinde ikinci bir büyük yenilgi geldi; Song'un Xia'yı ortadan kaldırma umudu bitti.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Ruth Dunnell, 'The Hsi Hsia', The Cambridge History of China Vol. 6 (1994). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Xi-Xia) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1081 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1114-01-01", b:"Wanyan Aguda'nın Jurchenleri Ningjiang'da Liao ordusunu yendi", tur:"isyan", onem:3, dunya:1, kapsam:"ic",
-  etiket:["isyan","savas","konu-askeri"], odak_yer:"Cilin", yer:"Ningjiang (Songhua ırmağı, Jilin)", taraflar:["liao-hanedani"],
+  etiket:["isyan","savas","konu-askeri"], yer:"Ningjiang (Songhua ırmağı, Jilin)", taraflar:["liao-hanedani"],
   d:"Liao'ya tâbi Jurchen boylarının reisi Aguda 1114'te ayaklanarak Ningjiang kalesini aldı ve üzerine gönderilen Liao ordusunu bozguna uğrattı. Bu zafer Jurchen boylarını onun etrafında birleştirdi; Aguda ertesi yıl Jin hanedanını ilan etti.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Herbert Franke, 'The Chin dynasty', The Cambridge History of China Vol. 6 (1994). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Taizu-Juchen-leader · Jin-dynasty · Liao-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1114 (yıl; gün kaynaktan alınmadı)",
@@ -131,7 +131,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1153 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1161-01-01", b:"Caishi Savaşı — Jin'in Yangzi'yi geçme girişimi Song donanmasına takıldı", tur:"savas", onem:3, dunya:1, kapsam:"ic",
-  etiket:["savas","deniz-savasi","konu-askeri"], odak_yer:"Nanking", yer:"Caishi (Ma'anshan, Anhui)", taraflar:["song","jin-hanedani"],
+  etiket:["savas","deniz-savasi","konu-askeri"], yer:"Caishi (Ma'anshan, Anhui)", taraflar:["song","jin-hanedani"],
   d:"Hailing İmparatoru Güney Song'u bitirmek için büyük bir sefer açtı. Yangzi'yi Caishi'de geçmeye çalışan Jin ordusu, Yu Yunwen komutasındaki Song donanmasının çarklı gemileri ve barutlu atış silahları karşısında geri püskürtüldü. Hailing kısa süre sonra kendi subaylarınca öldürüldü; sefer dağıldı.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Herbert Franke, 'The Chin dynasty', The Cambridge History of China Vol. 6 (1994). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Jin-dynasty · Southern-Song-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1161 sonu (yıl; gün kaynaktan alınmadı)" },
@@ -143,7 +143,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1209-1210 (yıl; kuşatma kışa sarktı, gün kaynaktan alınmadı)" },
 
 { t:"1211-01-01", b:"Cengiz Han Jin'e savaş açtı — Yehuling'de Jin ordusu bozguna uğradı", tur:"savas", onem:4, dunya:2, kapsam:"ic",
-  etiket:["savas","konu-askeri"], odak_yer:"Kalgan", yer:"Yehuling (Zhangjiakou kuzeyi)", taraflar:["jin-hanedani","mogol-imparatorlugu"],
+  etiket:["savas","konu-askeri"], yer:"Yehuling (Zhangjiakou kuzeyi)", taraflar:["jin-hanedani","mogol-imparatorlugu"],
   d:"Moğollar 1211'de Jin'in kuzey sınırını aştı; Yehuling (Yabani Tilki Sırtı) geçidinde Jin'in büyük sahra ordusu bozguna uğradı. Moğol akıncıları Kuzey Çin ovasını yağmaladı ve Zhongdu'nun kapılarına dayandı. Bu savaş Jin'in yirmi üç yıl sürecek çöküşünün başlangıcıdır.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV cengiz-han: '1212-1214 yılları arasında Cengiz Han’ın orduları birbiri arkasından dört defa Hıtay ülkesine girerek Hıtaylar’ı kendisine bağladı.' — 1211 ve Yehuling'i DESTEKLEMEZ. Denenen: TDV cin--ulke 200 (ÇİN) · cengiz-han 200 · mogollar 200 · kubilay-kagan 200 · karahitaylar 200 — maddenin olayı/yılı bu gövdelerde YOK · hitaylar 302 · kitanlar 302 · mengu-kagan 302 · ogedey 302 · cin 200 = CİN (cin/şeytan maddesi, tuzak②, kullanılmadı) · başlık araması tangut/cürçen/kitan/möngke/ögeday: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Herbert Franke, 'The Chin dynasty' ve Thomas T. Allsen, 'The rise of the Mongolian empire', The Cambridge History of China Vol. 6 (1994). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Genghis-Khan · Jin-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1211 sonbaharı (yıl; gün kaynaktan alınmadı)" },
@@ -200,7 +200,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1094 (yıl; gün kaynaktan alınmadı). Tahtın iadesi 1096." },
 
 { t:"1259-01-01", b:"Möngke Kağan Diaoyu kalesi kuşatmasında öldü — Moğol ordusu Song cephesinden çekildi", tur:"olum", onem:4, dunya:3, kapsam:"ic",
-  etiket:["olum","savas","konu-askeri","konu-siyasi"], odak_yer:"Çongqing", yer:"Diaoyu kalesi (Hezhou, Chongqing)", taraflar:["song","mogol-imparatorlugu"],
+  etiket:["olum","savas","konu-askeri","konu-siyasi"], yer:"Diaoyu kalesi (Hezhou, Chongqing)", taraflar:["song","mogol-imparatorlugu"],
   d:"Möngke Kağan Sichuan'dan Song'a karşı yürüttüğü seferde aylardır direnen Diaoyu kalesini kuşatırken öldü. Kubilay Wuchang önündeki kuşatmayı bırakıp tahta aday olmak için kuzeye döndü; Moğol İmparatorluğu'ndaki veraset savaşı Song'a yirmi yıl daha kazandırdı.",
   kaynak:"TDV: kubilay-kagan (KUBİLAY KAĞAN) — '1259’da Mengü Kağan’ın vefatı üzerine Sung Devleti ile barış yaparak Moğolistan’a döndü'", ic_not_kaynak:"① TDV'de VAR — alıntılar gövdeden birebir doğrulandı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV Diaoyu kuşatmasını ANMAZ; yalnız vefat yılını ve Song cephesinden dönüşü verir. Açılmayan eski akademik atıf (dayanak DEĞİL): Morris Rossabi, Khubilai Khan: His Life and Times (California UP, 1988) · Allsen, CHC Vol. 6 (1994).",
   gun:"1259 yazı (yıl; gün kaynaktan alınmadı)" },
@@ -226,7 +226,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1010 sonu (sefer 1010 sonunda başladı, Kaesong 1011 başında düştü; gün kaynaktan alınmadı)" },
 
 { t:"1019-01-01", b:"Gwiju Savaşı — Gang Gam-chan Liao ordusunu yok etti", tur:"savas", onem:3, dunya:1, kapsam:"ic",
-  etiket:["savas","konu-askeri"], odak_yer:"Ûicu", yer:"Gwiju (Kusong, Kuzey Pyongan)", taraflar:["goryeo","liao-hanedani"],
+  etiket:["savas","konu-askeri"], yer:"Gwiju (Kusong, Kuzey Pyongan)", taraflar:["goryeo","liao-hanedani"],
   d:"Liao'nun üçüncü büyük seferi 1018 sonunda başladı. Geri çekilen Liao ordusu Gwiju'da Gang Gam-chan komutasındaki Goryeo kuvvetlerince kıstırılıp neredeyse tamamen yok edildi. Ardından yapılan barışla Goryeo, Liao'nun üstünlüğünü sembolik olarak tanıdı ama toprağını ve bağımsızlığını korudu.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV kore-cumhuriyeti 200 (Koryo yalnız kuruluş 936-1392 ve 1231 Moğol istilası) · kore 302. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Michael J. Seth, A Concise History of Korea (2010) · Ki-baik Lee, A New History of Korea (Harvard UP, 1984). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Goryeo-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK. Britannica «Goryeo dynasty» sayfasında yalnız kısa giriş okunabildi (editör metni ~500 karakter).",
   gun:"1019 başı (yıl; gün kaynaktan alınmadı)" },
@@ -326,7 +326,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   ic_not_t:"Dan-no-ura (1185) YAZILMADI: kamakura künye iskeletinin 1185 kuruluş maddesi aynı olayı taşıyor." },
 
 { t:"1187-01-01", b:"Fujiwara no Hidehira öldü — Hiraizumi, Yoritomo'nun kaçak kardeşi Yoshitsune'yi saklıyordu", tur:"olum", onem:2, dunya:1, kapsam:"ic",
-  etiket:["olum","konu-siyasi"], odak_yer:["Morioka", "Sendai"], yer:"Hiraizumi", taraflar:["oshu-fujiwara"],
+  etiket:["olum","konu-siyasi"], yer:"Hiraizumi", taraflar:["oshu-fujiwara"],
   d:"Genpei Savaşı'nın kahramanı Minamoto no Yoshitsune, ağabeyi Yoritomo'yla bozuşunca kuzeyde Hidehira'ya sığınmıştı. Hidehira'nın ölümünden sonra oğlu Yasuhira Kamakura'nın baskısına dayanamayıp 1189'da Yoshitsune'yi öldürdü, ama bu Yoritomo'nun Ōshū'ya yürümesini engellemedi.",
   kaynak:"Britannica, «Minamoto Yoshitsune» (britannica.com/biography/Minamoto-Yoshitsune): «When Hidehira died in 1187, after exacting a promise from his son to protect Yoshitsune, the son, fearful of Yoritomo, sent soldiers to surround Yoshitsune and force his suicide.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV japonya 200 (Heian/Kamakura özeti yalnız 794-1185, 1192, 1221, 1232, 1233-1333, 1274/1281 verir). Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Mimi Hall Yiengpruksawan, Hiraizumi (Harvard UP, 1998) · Mass, CHJ Vol. 3 (1990).",
   gun:"1187 (yıl; gün kaynaktan alınmadı)" },
@@ -357,7 +357,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1232 (TDV yıl verir; gün kaynaktan alınmadı)" },
 
 { t:"1268-01-01", b:"Kubilay'ın ilk mektubu Japonya'ya ulaştı — Hōjō Tokimune naip oldu", tur:"diplomasi", onem:3, dunya:1, kapsam:"ic",
-  etiket:["diplomasi","konu-diplomasi"], odak_yer:"Hakata", yer:"Dazaifu · Kamakura", taraflar:["kamakura"],
+  etiket:["diplomasi","konu-diplomasi"], yer:"Dazaifu · Kamakura", taraflar:["kamakura"],
   d:"Goryeo aracılığıyla gönderilen Moğol mektubu Japonya'dan tâbiiyet ve ilişki kurmasını istiyordu. Kamakura cevap vermemeye karar verdi ve aynı yıl genç Hōjō Tokimune naipliğe getirildi; Kyushu kıyıları savunmaya hazırlandı.",
   kaynak:"Britannica, «Hōjō Tokimune» (britannica.com/biography/Hojo-Tokimune): «Tokimune was 17 when he assumed the office of regent in 1268, the year that the Mongol conqueror of China, Kublai Khan, sent a message demanding that Japan enter into a tributary relationship with the Mongols or face invasion.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV japonya 200 (Heian/Kamakura özeti yalnız 794-1185, 1192, 1221, 1232, 1233-1333, 1274/1281 verir). Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Mass, CHJ Vol. 3 (1990) · Rossabi 1988.",
   gun:"1268 (yıl; gün kaynaktan alınmadı)" },
@@ -372,7 +372,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   ic_not_t:"Kuşak altında (981 < 1000) ama künyenin başlıca toprak/savaş olayı; ORTAK §5 'mutlaka olması gerekenler' için alındı." },
 
 { t:"1005-01-01", b:"Lê Hoàn öldü — veraset kavgasından Lê Long Đĩnh galip çıktı", tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
-  etiket:["hukumdar","konu-siyasi"], odak_yer:"Ninh Binh", yer:"Hoa Lư", taraflar:["tien-le-hanedani"],
+  etiket:["hukumdar","konu-siyasi"], yer:"Hoa Lư", taraflar:["tien-le-hanedani"],
   d:"Lê Hoàn'ın ölümünden sonra oğulları arasında aylarca süren taht kavgası çıktı; sonunda Lê Long Đĩnh kardeşini öldürüp tahta geçti. Kısa ve sert saltanatı 1009'daki ölümüyle bitince saray, muhafız komutanı Lý Công Uẩn'u tahta çıkardı.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV camlar 200 (Viet-Çam ilişkisi yalnız yüzyıl düzeyinde) · vietnam 302 · başlık araması 'vietnam' → yalnız ÇAMLAR. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): K. W. Taylor, A History of the Vietnamese (2013). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Le-Hoan · Earlier-Le-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1005 (yıl; gün kaynaktan alınmadı)" },
@@ -476,20 +476,20 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1003 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1030-01-01", b:"Sanghyang Tapak yazıtı — Sunda kralı Jayabupati belgelendi", tur:"hukumdar", onem:1, dunya:1, kapsam:"ic",
-  etiket:["hukumdar","konu-siyasi"], odak_yer:"Batavia", yer:"Cibadak (Sukabumi, Batı Cava)", taraflar:["sunda-pajajaran"],
+  etiket:["hukumdar","konu-siyasi"], yer:"Cibadak (Sukabumi, Batı Cava)", taraflar:["sunda-pajajaran"],
   d:"Batı Cava'da bulunan dört taştan oluşan yazıt, Sunda kralı Sri Jayabupati'nin bir nehir kesimini kutsal alan ilan ettiğini kaydeder. Sunda krallığının 11. yüzyılda varlığını gösteren başlıca tarihli belgedir.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cava 200 (XII-XIII. yy yalnız Srivijaya/Kediri genel) · endonezya 200 (Singasari yalnız XVI. yy İslâmlaşma bağlamında) · sumatra 200. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): George Coedès, The Indianized States of Southeast Asia (1968). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Sunda) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1030 (yazıtın Saka yılından; gün kaynaktan alınmadı)",
   ic_not_t:"sunda-pajajaran künyesinin iskeletinde 1482 öncesi madde YOK; künyenin f:669 ile ilk maddesi arasında 800 yıl boş." },
 
 { t:"1037-01-01", b:"Airlangga Doğu Cava'yı yeniden birleştirdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"ic",
-  etiket:["toprak-kazanc","konu-askeri"], odak_yer:"Surabaya", yer:"Kahuripan (Doğu Cava)", taraflar:["kahuripan"],
+  etiket:["toprak-kazanc","konu-askeri"], yer:"Kahuripan (Doğu Cava)", taraflar:["kahuripan"],
   d:"Pralaya'dan sonra küçük bir bölgede tahta çıkan Airlangga, 1030'larda Wurawari'yi ve öteki yerel güçleri yenerek Doğu Cava'yı yeniden tek yönetim altında topladı ve sarayını Kahuripan'a kurdu. Srivicaya'nın 1025 Çola darbesiyle zayıflaması ona deniz ticaretinde de alan açtı.",
   kaynak:"Britannica, «Erlangga» (britannica.com/biography/Erlangga): «Military actions between 1028 and about 1035 gave him effective control of eastern Java.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ⚠️ YIL FARKI: Britannica Doğu Cava hâkimiyetini 'about 1035'e koyar, madde t:1037. t KALDI (bkz. ic_not_t). ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cava 200 (XII-XIII. yy yalnız Srivijaya/Kediri genel) · endonezya 200 (Singasari yalnız XVI. yy İslâmlaşma bağlamında) · sumatra 200. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): George Coedès, The Indianized States of Southeast Asia (1968).", ic_not_t:"⚠️ İKİ OKUMA: madde 1037 diyor; Britannica «Erlangga» 'Military actions between 1028 and about 1035 gave him effective control of eastern Java.' 1037'nin dayanağı açılmamış kitap (Coedès 1968). t KALIR; hüküm kaynak açılınca. [KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu]",
   gun:"1037 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1268-01-01", b:"Kertanagara Singhasari tahtına çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
-  etiket:["hukumdar","konu-siyasi"], odak_yer:"Malang", yer:"Singhasari (Tumapel)", taraflar:["singhasari"],
+  etiket:["hukumdar","konu-siyasi"], yer:"Singhasari (Tumapel)", taraflar:["singhasari"],
   d:"Kertanagara, Cava'yı takımadaların merkezî gücü yapma hedefiyle Pamalayu (1275) ve Bali (1284) seferlerini düzenleyen, Kubilay'ın elçisini aşağılayan hükümdardır. 1292'deki ölümüyle krallık yıkıldı (ikisi de künyede).",
   kaynak:"Britannica, «Kertanagara» (britannica.com/biography/Kertanagara): «Kertanagara came to power only in 1268.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cava 200 (XII-XIII. yy yalnız Srivijaya/Kediri genel) · endonezya 200 (Singasari yalnız XVI. yy İslâmlaşma bağlamında) · sumatra 200. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): George Coedès, The Indianized States of Southeast Asia (1968).",
   gun:"1268 (yıl; gün kaynaktan alınmadı)" },
@@ -497,13 +497,13 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 // ─── TİBET: Guge · Sakya ───────────────────────────────────────────────
 
 { t:"1076-01-01", b:"Tholing konsili — Guge'de Budist keşişlerin büyük toplantısı", tur:"din", onem:1, dunya:1, kapsam:"ic",
-  etiket:["din","konu-din"], odak_yer:"Leh", yer:"Tholing (Ngari)", taraflar:["guge"],
+  etiket:["din","konu-din"], yer:"Tholing (Ngari)", taraflar:["guge"],
   d:"Guge kralının davetiyle Tibet'in dört bir yanından gelen keşişler Tholing'de toplandı. Konsil, Atisha'nın gelişiyle başlayan Budist canlanmanın ('ikinci yayılış') kurumsallaşmasını simgeler.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV tibet: 'XI. yüzyılın ortalarında meşhur Hintli rahip Atisa’nın Tibet’e davet edilmesinin ardından Budizm tekrar canlanmaya başladı ve çeşitli mezhepler ortaya çıktı.' — 1076 Tholing konsilini vermez. Denenen: TDV tibet 200 (yıl yok: XI. yy ortası Atisa, XIII. yy ikinci yarısı Moğol nüfuzu) · budizm 200 · kubilay-kagan 200 · mogollar 200 · başlık araması dalay: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Matthew T. Kapstein, The Tibetans (Blackwell, 2006). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Atisa · Bka-gdams-pa) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1076 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1247-01-01", b:"Sakya Pandita, Moğol prensi Köten'le Liangzhou'da görüştü", tur:"diplomasi", onem:3, dunya:2, kapsam:"ic",
-  etiket:["diplomasi","tabiiyet","konu-diplomasi","konu-din"], odak_yer:"Lanzhou", yer:"Liangzhou (Wuwei, Gansu)", taraflar:["mogol-imparatorlugu"],
+  etiket:["diplomasi","tabiiyet","konu-diplomasi","konu-din"], yer:"Liangzhou (Wuwei, Gansu)", taraflar:["mogol-imparatorlugu"],
   d:"Moğol akınları karşısında Tibet'in önde gelen din adamı Sakya Pandita, Ögedey'in oğlu Köten'in çağrısına uyup Liangzhou'ya gitti. Görüşmede Tibet'in Moğol üstünlüğünü tanıması karşılığında Sakya tarikatının Moğollar adına aracı olması kararlaştırıldı; bu, sonraki Sakya-Yuan düzeninin temelidir.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV tibet 200 (yıl yok: XI. yy ortası Atisa, XIII. yy ikinci yarısı Moğol nüfuzu) · budizm 200 · kubilay-kagan 200 · mogollar 200 · başlık araması dalay: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Luciano Petech, Central Tibet and the Mongols (IsMEO, 1990) · Kapstein 2006. ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Sakya-Pandita · Godan-Khan) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   gun:"1247 (yıl; gün kaynaktan alınmadı)",
@@ -516,7 +516,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   gun:"1268 (yıl; gün kaynaktan alınmadı)" },
 
 { t:"1280-01-01", b:"Phagpa Lama öldü", tur:"olum", onem:2, dunya:1, kapsam:"ic",
-  etiket:["olum","konu-din","konu-siyasi"], odak_yer:"Lhasa", yer:"Sakya", taraflar:["sakya"],
+  etiket:["olum","konu-din","konu-siyasi"], yer:"Sakya", taraflar:["sakya"],
   d:"Kubilay'ın imparatorluk hocası ve Moğol dilleri için kendi adıyla anılan yazıyı (Phagpa yazısı) geliştiren Phagpa, Sakya'da öldü. Ölümünden sonra Tibet'teki Sakya yönetimi giderek Yuan'ın atadığı sivil yöneticilere (dpon-chen) dayandı.",
   kaynak:"Britannica, «’Phags-pa» (britannica.com/biography/Phags-pa): «’Phags-pa (born 1235—died 1280) was a Tibetan scholar-monk who set up a Buddhist theocracy in Tibet.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV tibet 200 (yıl yok: XI. yy ortası Atisa, XIII. yy ikinci yarısı Moğol nüfuzu) · budizm 200 · kubilay-kagan 200 · mogollar 200 · başlık araması dalay: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Luciano Petech, Central Tibet and the Mongols (1990) · Rossabi 1988.",
   gun:"1280 (yıl; gün kaynaktan alınmadı)" }
