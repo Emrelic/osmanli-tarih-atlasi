@@ -43,7 +43,7 @@ for(const f of adlar){
     const o={};
     for(const k of Object.keys(ctx.window)){
       if(/^(OLAYLAR|KRONOLOJI)(_|$)/.test(k)&&Array.isArray(ctx.window[k])){
-        o[k]=ctx.window[k].map(m=>({t:m.t,b:m.b,tur:m.tur,
+        o[k]=ctx.window[k].map(m=>({t:m.t,b:m.b,tur:m.tur,d:m.d,gun:m.gun,
           taraflar:m.taraflar,devletler:m.devletler,devlet:m.devlet,odak_kimlik:m.odak_kimlik}));
       }
     }
@@ -163,6 +163,8 @@ def yukle(kok):
                     varlik.add(sahip)
                 maddeler.append({"dosya": dosya, "degisken": degisken, "tur": tur,
                                  "t": m.get("t"), "b": m.get("b") or "",
+                                 "d": m.get("d") if isinstance(m.get("d"), str) else "",
+                                 "gun": m.get("gun") if isinstance(m.get("gun"), str) else "",
                                  "varlik": varlik, "anilan": varlik | odak})
     if not maddeler:
         raise Olculemedi("0 madde yüklendi — sessiz sıfır yasak")
