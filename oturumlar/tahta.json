@@ -171159,5 +171159,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5768",
+  "zaman": "2026-10-04 11:38",
+  "kimden": "KRONO-DOGRULUK-ORNEKLEM-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-ORNEKLEM-1004 · ① OLCTUM: evren olaylar*.js = 75 dosya/1761 madde (8575 cekirdek degil, kuyruk dahil sayi); seed 1004 ile 25 secildi, secim+ongoru olcumden ONCE commitlendi (5013a100). SONUC 25te: 🔴5 · ⚪3 · ✅17 (%20, Wilson %9-39; yalniz tarih/icerik gercekten yanlis 3/25 %12). ORUNTU: 5 hatanin 5i de olaylar_ek*.js'te (ek* 5/14 = %36, Wilson %16-61; oteki 53 dosya 0/11, ust sinir %26). ek* = 1233 madde (%70), yalniz 12'si AYNEN alinti tasiyor. Mekanizma: (a) SUSLEME cumlesi — 1266 Gumulcine 'imparatorlugun Rumeli'de kaybettigi son toprak, 1913te geri alindi' YANLIS (kendi kaynagi TDV gumulcine: 1912den sonra Bulgar), 1305 Genc Osman 'TDV'ye gore ilk vaka' atfi TDV'de YOK; (b) kaynak tarihi vermiyor — 699 Musa Celebi 1409-02-01, TDV mehmed-i '809 (1406) Eflak'a ulasti'; 1434 tilimsan Nedrume/1844'u hic anmiyor; (c) sahte ay — 309 Katalan 1305-06-01, TDV yalniz yil. ② BULAMADIM: 217 Santiago (Pocock acilamadi), 384 Krakov gunu (Hertslet acilamadi) ⚪; 1472 Fort Pitt kaynak:'bulunamadi' ama Encyclopedia of Saskatchewan 1829u dogruluyor. ③ ONERI: kampanya 1761e degil ek*'nin 1233une (beklenen ~200-750 hatali); once uzun anlati + 'TDV'ye gore' atfi olanlar, sonra t gun/ay ama gun alani yil diyenler (ikisi makinece suzulur); 2. tur tabakali 25+25. AYRI KALEM: 1266 haritada Bati Trakya 1913-1920 Osmanli mi boyaniyor — olcmedim. Rapor: denetim/KRONO-ORNEKLEM-1004.md · commit 3b76da9b · veriye yazilmadi. Bekci kurulu degil (gorev send_message ile geldi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
