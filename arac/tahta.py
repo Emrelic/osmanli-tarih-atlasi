@@ -122,6 +122,8 @@ def _sunucu_adres():
     if not jeton:
         return None, "ag.json yok ya da jeton yok (%s)" % AG
     adres = ortam or str(a.get("tahta_sunucu") or "")
+    if adres.strip().lower() == "yerel":      # geri alma sonrası: sunucu KALICI kapalı
+        return None, "ag.json tahta_sunucu=yerel (sunucu bilerek KAPALI)"
     if not adres:
         ip = (a.get("makineler") or {}).get("EMRELIC")
         if not ip:
