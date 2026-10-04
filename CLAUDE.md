@@ -192,7 +192,8 @@ daha geniş evrende sorar.
 index.html · js/app.js · css/style.css   uygulama (yeni data/*.js → index.html'e satır)
 data/yerlesimler*.js     ELLE YAZILAN coğrafî kaynak — CANLI liste: arac/girdi.py GIRDI_DOSYALARI
 data/olaylar*.js         kronoloji ÇEKİRDEĞİ (Değişmez 2 evreni)
-data/kronoloji*.js       kronoloji KUYRUĞU (canlı ama Değişmez 2 evreninde DEĞİL)
+data/kronoloji_sinir*.js 🔴 DA Değişmez 2 EVRENİNDE (Emre, 24 Eyl 2026 — 10 dosya, 405 madde)
+data/kronoloji*.js       öteki kronoloji dosyaları: KUYRUK (Değişmez 2 evreninde DEĞİL)
 data/devletler.js        künye + `harita:` boya anahtarı
 data/padisahlar.js · kisiler.js · savaslar.js · sehirler.js
 data/donemler.js · devletler_harita.js · bolgeler.js   ÜRETİLMİŞ — ELLE DÜZENLEME
