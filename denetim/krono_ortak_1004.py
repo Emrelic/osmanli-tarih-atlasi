@@ -250,3 +250,40 @@ def defter_yaz(yol, uyeler, baslik):
             f.write("# " + s + "\n")
         for u in sorted(uyeler):
             f.write(u + "\n")
+
+def _git(kok, *args):
+    import subprocess
+    try:
+        p = subprocess.run(["git", "-C", kok] + list(args), capture_output=True, timeout=60)
+    except Exception:                           # noqa
+        return None
+    return p.stdout.decode("utf-8", "replace").strip() if p.returncode == 0 else None
+
+
+def ortam_satiri(kok, an):
+    """ORTAM damgası (LAB yöntem kuralı, 4 Ekim 2026): her betik ortamını KENDİ ÇIKTISINA basar —
+    `git rev-parse HEAD` başta ve sonda. Kirli ortamda ölçülmüş bir sayı ancak reflog ile anlaşılıyordu;
+    çıktıda yazarsa anında görünür. Deponun HEAD'i ve çalışma ağacının kirliliği (izlenen dosya değişikliği)."""
+    head = _git(KOK_VARSAYILAN, "rev-parse", "HEAD")
+    dal = _git(KOK_VARSAYILAN, "rev-parse", "--abbrev-ref", "HEAD")
+    kirli = _git(KOK_VARSAYILAN, "status", "--porcelain", "--untracked-files=no")
+    n = len([l for l in kirli.splitlines() if l.strip()]) if kirli is not None else None
+    ek = "" if os.path.abspath(kok) == os.path.abspath(KOK_VARSAYILAN) else " · --kok %s" % kok
+    return "ORTAM (%s): HEAD %s%s · izlenen değişiklik %s%s" % (
+        an, (head or "?")[:12], (" (%s)" % dal) if dal else "", "?" if n is None else n, ek)
+
+
+def ortam_sar(main, argv):
+    """main'i ORTAM damgasıyla sarar: başta ve sonda HEAD basar; ölçüm sürerken HEAD değiştiyse BAĞIRIR."""
+    try:
+        kok = kok_al(argv)
+    except Olculemedi:
+        kok = KOK_VARSAYILAN
+    bas = ortam_satiri(kok, "başta")
+    print(bas)
+    kod = main(argv)
+    son = ortam_satiri(kok, "sonda")
+    print(son)
+    if bas.split(" · ")[0].replace("başta", "x") != son.split(" · ")[0].replace("sonda", "x"):
+        print("🔴 ORTAM DEĞİŞTİ — ölçüm sürerken HEAD değişti; bu çıktı KARIŞIK ortamdan olabilir")
+    return kod

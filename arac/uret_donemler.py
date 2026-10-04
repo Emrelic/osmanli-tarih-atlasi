@@ -24,6 +24,17 @@ Bu dosya `data/donemler.js`i ARTIK ÜRETMİYOR. Canlı motor `arac/uret_petek.py
    (`SEHZ_*`, `KAFKAS`, `SURIYE_D`…) ve bir gün gerekebilir. Ama damgasız
    duran kod CANLI SANILIR — bugün sanıldı.
 
+🔴 KOŞTURMA — ÇIKTISI MOTOR ÇIKTISINI EZER (4 Ekim 2026, MOTOR-V-KID okuyucu sınavı):
+   bu betik `data/donemler.js`e YAZAR (aşağıda `open(CIKTI, "w")`) ve yazdığı şema
+   `{f,t,ad,b,o,v}`dir: canlı motorun (`uret_petek.py`) ürettiği `vk` · `vl` · `h` ·
+   `sb` · `av` alanlarını TAŞIMAZ. Çalıştırılırsa motor çıktısı bu eski, eksik
+   dosyayla SESSİZCE değişir; hata vermez, harita yalnız eksik çizilir.
+   ⚠️ Bugün fiilen çalışmaz (okuduğu `BASEMAPS` yolu başka bir makinenin geçici
+   dizini ve girdileri depoda YOK ⇒ yazmaya varmadan dosya bulunamadı hatasıyla ölür) —
+   ama o yol bir makinede VARSA çalışır. Bu bir güvence DEĞİL, bir rastlantıdır.
+   Dört belge bu dosyayı ölü ilan ediyor (`evren_dogrula.py`, `D219`, `MIMARI.md §8`,
+   `veri-kaynak/README.md`); dosyanın kendisi de aşağıda "Çalıştırma:" diyordu.
+
 ──────────────────────────────────────────────────────────────────────────
 Aşağısı tarihî kayıt; çalıştırmayın.
 
@@ -42,7 +53,9 @@ Her dönem kaydı:
   • Kesit hataları tarihe göre düzeltilir (Girit/Kıbrıs/Rodos/Macaristan/K.Afrika vb.)
   • Aynı andaki tüm parçalar birleştirilir; aralar kapatılır (closing buffer) → tek keskin şekil
 
-Çalıştırma:  py uret_donemler.py   (shapely gerekir: py -m pip install shapely)
+Çalıştırma:  ☠️ YAPMAYIN — bu betik ÖLÜDÜR ve `data/donemler.js`i motor çıktısı yerine eski şemayla EZER
+             (bkz. yukarıdaki damga). Eski komut yalnız TARİHÎ KAYIT olarak duruyor:
+             py uret_donemler.py   (shapely gerekir: py -m pip install shapely)
 """
 import json, os, sys, io, math
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")

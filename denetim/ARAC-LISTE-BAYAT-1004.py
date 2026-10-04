@@ -268,4 +268,4 @@ if __name__ == "__main__":
         sys.stdout.reconfigure(encoding="utf-8")
     except Exception:                                   # noqa
         pass
-    sys.exit(main(sys.argv[1:]))
+    sys.exit(ko.ortam_sar(main, sys.argv[1:]))
