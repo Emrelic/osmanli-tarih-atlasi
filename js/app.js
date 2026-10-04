@@ -11231,6 +11231,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_p76f",        // window.EKOKUMA_P76F — KRONO-0076-C (16 kart)
   "ekokuma_p76g",        // window.EKOKUMA_P76G — SINIR-BERLIN-0076 (4 kart)
   "ekokuma_p76h",        // window.EKOKUMA_P76H — SINIR-CIZGI-0076 (2 kart)
+  "ekokuma_p76i",        // window.EKOKUMA_P76I — PAKET-0076-BITIR-1004 (8 kart: H-0003·0007·0012·0014·0017·0024·0025·0029)
   // 🆕 27 Eylül 2026 — PAKET-0077. Üçü de kendi doğrulayıcısını koşturdu
   // (çapa bağları canlı · geliştirici sesi 0 · id çakışması 0 · ters yön sınavı tuttu).
   "ekokuma_p77a",        // window.EKOKUMA_P77A — EKOKUMA-0077-A (17 kart: 14 + paket
