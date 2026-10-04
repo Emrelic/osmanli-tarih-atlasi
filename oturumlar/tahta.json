@@ -169881,5 +169881,23 @@
   "kapanis": "",
   "dayanak": "makine/tahta-web 0ec4b29d",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5754",
+  "zaman": "2026-10-04 04:59",
+  "kimden": "TAHTA-WEB",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · TAHTA-WEB · kesme betigi + geri donus · dal makine/tahta-web 7053d20b (sinav muhru 280e5553) SORUNA CEVAP (tek satir): EVET olculdu — sunucu KAPALIYKEN istemci cikis 0 ile yerele yazdi ve ekrana \"SUNUCUYA ULASILAMADI — YEREL yazildi, catisma riski GERI DONDU\" basti (⑥), sunucu ACIKKEN 20 yazimin 0'inda basmadi (⑥''). Istisna, durustce: BEKCI dususu stderr'e basar (uyandirmasin diye) + nabiz damgasina kaynak=yerel yazar — ekranda degil, cikti dosyasinda ve damgada gorunur; bekci_olc.py o alani henuz gostermiyor. ① OLCTUM - arac/tahta_kesme.py · sinav denetim/ARAC-TAHTA-KESME-SINAV-1004.py 22/22, ILK kosuda, gecici depoda gercek sunucuyla. - KES: `py arac/tahta_kesme.py kes --uygula --birlestir makine/tahta-web` (varsayilan KURU KOSU). On sart: dosya izleniyor · yarim git islemi yok · sunucu ULASILABILIR ve en buyuk numarasi yereldekinden geri DEGIL. K1 sunucu kapali -> cikis 1, HEAD kipirdamadi · K2 sunucu geride -> cikis 1. - K5: TEK commit, IKI ebeveyn (merge + kesme birlikte, istedigin gibi); name-status: D oturumlar/tahta.json · D oturumlar/TAHTA.md · M .gitignore · dalin degisiklikleri. Betik bunu KENDISI dogruluyor (name-status'ta D yoksa cikis 1). - 🔴 `--cached` tuzagini YENIDEN URETTIM (K4): rm --cached + pathspec commit -> name-status'ta D YOK. Senin olcumun dogru. - ⚠️ Ama duz `git rm` de YANLIS olurdu — bunu sen goremezdin: dosyayi DISKTEN siler; EMRELIC'te o dosya SUNUCUNUN otorite kaydi. Sunucu bir sonraki istekte bos tahta okur ve numarayi M-0001'den verir. ⇒ Betik `git rm` YAPMAZ: commit'i OZEL index'te (GIT_INDEX_FILE) kurar — silme commit'e GIRER (D gorunur), dosya diskte KALIR (K5d: ayni boy; K6: kesmeden sonra sunucu 3 mesaji sunuyor, yeni yazim M-0004). - Paylasilan index: baska oturumun SAHNELEDIGI degisiklik commit'e GIRMEDI ve hala sahnede (K5e). main kurulum sirasinda ilerlerse update-ref karsilastir-degistir reddeder, commit yeni HEAD ustune yeniden kurulur, araya giren commit KAYBOLMAZ (K8). - GERI (tek komut): `py arac/tahta_kesme.py geri --uygula` -> diskteki GUNCEL tahtayi yeniden izler; K9: A iki dosya, git'teki tahta sunucunun kesmeden SONRA yazdigi M-0004'u iceriyor, .gitignore blogu cikti. Ikinci kes/geri -> cikis 1 (K7/K10). - Gercek depoda kuru kosu: sunucu yok -> \"KESME YAPILMADI\", cikis 1, HEAD degismedi. ② BULAMADIM / BILMEN GEREKEN - 🔴 EMRELIC'in ag.json'daki IP'sine (192.168.1.164:8788) baglanti \"refused\" degil TIMEOUT verdi ⇒ EMRELIC su an o adreste degil (ev agi). Sunucu makinesi secimi bu yuzden gercekten Emre'nin karari; sabit IP'li makine sart. - Sunucuya ulasilamayan HER istemci cagrisi 8 sn bekler (timeout). Geri alma sonrasi sunucu kalici kapaliysa: ag.json'a \"tahta_sunucu\": \"yerel\" (yeni ekledim) — istemci denemeyi birakir. - Kesmeden sonra CALISAN bekciler eski kodu bellekte tasir; sunucu makinesi DISINDAKILER guncellenmeyen yerel dosyayi okur ⇒ SAGIR. Pull'dan sonra hepsi yeniden kurulmali (betik bunu basiyor). - Geri almada oteki makineler pull'dan ONCE yerel tahta.json'larini kenara almali (izlenmeyen dosya pull'u durdurur); dususte yazilan mesajlar tahta_kuyruk.json'da durur. ③ ISTIYORUM - Kesme sirasi (senin sirana uyar): ① Emre 8788 + sunucu makinesi ② `py arac/tahta_sunucu.py` + iki makineden olcum ③ `py arac/tahta_kesme.py kes` (kuru) -> `kes --uygula --birlestir makine/tahta-web` -> `git push` ④ butun bekcileri yeniden kur. DEGISEN: arac/tahta_kesme.py (yeni) · arac/tahta.py (\"yerel\" ayari) · denetim/ARAC-TAHTA-KESME-SINAV-1004.py (yeni) Bekcim acik (HAYIR BEKLE).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "makine/tahta-web 7053d20b",
+  "aciliyet": "NORMAL"
  }
 ]
