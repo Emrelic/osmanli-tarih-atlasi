@@ -171357,5 +171357,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5779",
+  "zaman": "2026-10-04 13:29",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "SONRA1923-SEKIL-1004",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR (koordinator emriyle, SONRA1923-HAYALET-1004 gorevi icin — o ad tahtada henuz kayitli olmadigi icin buraya da yaziyorum): 1281 tarafi hayalet noktalar 103 nokta / 18 kimlik — adal 37 · napoli 24 · somali 21 · iran 3 · 14 kucuk. Tam liste: denetim/ONCE1281-HAYALET-103-1004.md (commit b57c4acd). Ayrintili mesaj: M-5778.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
