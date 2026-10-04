@@ -1,0 +1,24 @@
+# LİSTE BAYAT — 🔴 YALANLIYOR ÜYELİK DEFTERİ (tavan = üyelik, sayı değil)
+# Satır: dosya¦t¦başlık-özeti¦ad. 'Defterde var' ≠ 'incelendi ve kabul edildi':
+# her satır bir düzeltme borcudur (D260: (a) sil · (b) taşı · (c) doğrula).
+olaylar.js¦1402-07-28¦fd0de02f¦Kilitbahir
+olaylar.js¦1517-01-22¦301bd308¦Akkâ
+olaylar.js¦1517-01-22¦301bd308¦Kerak
+olaylar.js¦1517-01-22¦301bd308¦Maan
+olaylar.js¦1517-01-22¦301bd308¦Sayda
+olaylar.js¦1538-09¦d818891a¦Aden
+olaylar.js¦1916-06-10¦85ecc129¦Tâif
+olaylar.js¦1918-10-30¦298dd93b¦Hama
+olaylar.js¦1918-10-30¦298dd93b¦Humus
+olaylar.js¦1918-10-30¦298dd93b¦Şam
+olaylar_ek.js¦1395-01-01¦4b8dd6f6¦Ohri
+olaylar_ek.js¦1468-01-01¦50bb5dc0¦Beyşehir
+olaylar_ek.js¦1468-01-01¦50bb5dc0¦Mostar
+olaylar_ek.js¦1919-05-15¦3a75f9bb¦Aydın
+olaylar_ek4.js¦1803-05-01¦b89e9224¦Tâif
+olaylar_ek5.js¦1354-03-02¦a94653ef¦Kilitbahir
+olaylar_ek5.js¦1398-07-15¦2b961654¦Çorum
+olaylar_ek5.js¦1517-07-12¦52f10f8a¦Tebük
+olaylar_ek5.js¦1517-07-12¦52f10f8a¦Yenbu
+olaylar_ek5.js¦1792-01-10¦7e6002f5¦İsmail
+olaylar_ek5.js¦1913-09-29¦970954d0¦Gümülcine
