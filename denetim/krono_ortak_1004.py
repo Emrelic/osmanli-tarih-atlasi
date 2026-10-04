@@ -123,6 +123,32 @@ def yerlesimleri_oku(kok):
     return Y
 
 
+def denetle_yukle(kok):
+    """denetle.py'yi İÇE AL (yalnız okunur, değiştirilmez), veri yolunu kok'a çevir →
+    (denetle, Y_cekirdek, O). `denetle` içe alınırken stdout kodlamasını OKUR; None kodlamalı
+    StringIO içinde içe alınırsa çöker ⇒ içe alma GERÇEK stdout'ta, yükleme sessiz."""
+    import contextlib
+    sys.path.insert(0, os.path.join(KOK_VARSAYILAN, "arac"))
+    veri = os.path.join(kok, "data")
+    try:
+        import denetle, girdi
+        with contextlib.redirect_stdout(io.StringIO()):
+            girdi.DATA = veri
+            denetle.DATA = veri
+            Y = denetle.yerlesimleri_yukle()
+            O = denetle.olaylari_yukle()
+    except SystemExit as e:
+        raise Olculemedi("denetle okunamadı: %s" % e)
+    except Exception as e:                      # noqa
+        raise Olculemedi("denetle okunamadı: %s: %s" % (type(e).__name__, e))
+    if not Y or not O:
+        raise Olculemedi("0 yerleşim / 0 madde — sessiz sıfır yasak")
+    Y_cek = [y for y in Y if y.get("_kaynak") not in denetle.KUYRUK_DOSYALARI]
+    if not Y_cek:
+        raise Olculemedi("Y_cekirdek boş")
+    return denetle, Y_cek, O
+
+
 def _node_calistir(kok):
     try:
         p = subprocess.run(["node", "-e", _NODE, os.path.join(kok, "data")],
