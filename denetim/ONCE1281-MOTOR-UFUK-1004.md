@@ -88,5 +88,67 @@ Koordinatörün hükmü (önce 191 `kur:` temizlensin) yine DOĞRU, gerekçesi d
 - Lapaha'nın peteği 1281-01-01 kesitinde `tui-tonga-imparatorlugu` gövdesinde.
 - 1220-1281 aralığı çıktıda **YOK** (ne sahipli ne sahipsiz — sorulmamış).
 
-### ÖLÇÜM
-(koordinatörün "koşu bitti" haberini bekliyor)
+### ÖLÇÜM — taze çıktı (koordinatör: "koşu bitti", `donemler.js` 4 Eki 19:17, 39,9 MB)
+
+`git rev-parse HEAD` başta **ve** sonda `25651c6e` (ölçüm sırasında değişmedi). Dosyalar:
+`donemler.js` 19:17:48 · `devletler_harita.js` 19:17:43 (93,7 MB) · `petek_govde.js` 19:17:46.
+
+| soru | ölçüm | öngörü |
+|---|---|---|
+| `donemler.js` (node `vm` ile yüklendi) — DONEMLER 618 dönem, 1236 tarih alanı; en küçük | `1281-01-01`; 1281 öncesi **0** | ✅ |
+| `devletler_harita.js` — 4200 `dnm.f` (desenle sayıldı; çıktı tekdüze JSON) | en küçük **1281**; 1281 öncesi **0** | ✅ |
+| Lapaha (`PETEKLER[2578]`, veride `s: tui-tonga-imparatorlugu f: 1220-01-01`) | `tui-tonga-imparatorlugu` gövdesi: `dnm: [{"f":"1281-01-01","t":"1845-12-04", g: 8 parça}]` — **1220 çıktıda 1281'e kırpılmış** | ✅ |
+| 1220–1281 aralığı | çıktıda YOK — ne sahipli ne sahipsiz, hiç örneklenmemiş | ✅ |
+
+⚠️ Lapaha `donemler.js`te değil `devletler_harita.js`te: `DONEMLER` yalnız Osmanlı
+dönemlerini taşıyor; yabancı devlet gövdeleri `DEVLET_PARCALAR`dadır.
+
+## ③ HÜKÜM — koordinatörün sorusunun cevabı
+
+**Motor 1281'den eski `f:`'yi OKUYOR, çıktıda 1281'e KIRPIYOR, hiç YOK SAYMIYOR ve HATA
+VERMİYOR.** Kırpma ayrı bir kırpma kodu değil, örnekleme listesinin `EPOK`tan başlamasının
+sonucudur (§1.1). ⇒ Koordinatörün iki şıkkından **"KIRPIYORSA → veri yazılabilir, UFUK açılınca
+canlanır"** geçerli — iki şartla:
+1. **Yıl 1000–1280 ise** bugün yazılabilir. 0–999 yalnız sıfırla doldurulursa (`0800-…`); MÖ
+   ise motor yaması olmadan yazılamaz (§1.2, dizgi karşılaştırması).
+2. **191 kenetli `kur:`** temizlenmeden o noktalara 1281 öncesi sahip yazılmamalı (§1.3 —
+   yazılan sahiplik sessizce yutulur).
+
+## ④ UFUK'un ÖTEKİ otoriteleri — geriye açmanın dokunacağı yerler
+
+Koordinatörün notu (UMIT, AST): sonda beş otorite, 27 site, `girdi.UFUK[1]`e bağlı site 0.
+**Başlangıç tarafı** için aynı soruyu ben sordum (`Grep`, `js/*.js` + `arac/denetle.py` +
+`arac/girdi.py` + `arac/uret_devirler.py`):
+
+| yer | sabit | not |
+|---|---|---|
+| `arac/girdi.py:705` | `UFUK = ("1281-01-01", …)` | |
+| `arac/uret_petek.py:2878` | `EPOK = "1281-01-01"` | 🟢 motorun dört filtresi (`:4498/6517/6765/7033`) bu DEĞİŞKENİ kullanıyor — motor tarafında başlangıç TEK sabit |
+| `arac/denetle.py:2305` | `ATLAS_BASI = "1281-01-01"` | |
+| `arac/denetle.py:1525`, `:3135` | `"1281-01-01"` düz yazılmış | ATLAS_BASI'ye bağlı DEĞİL |
+| `js/app.js:89` | `BASLANGIC = gunIdx("1281-01-01")` | |
+| `js/app.js:3437` | `EPOK_DAMGASI = "1281-01-01"` | yorum: *"gerçek bir el değiştirme değil, atlasın başlangıcı"* — arayüz kenetli günü ZATEN olay saymıyor |
+| `js/app.js:9064` | `gunIdx("1281-01-01")` düz yazılmış | BASLANGIC'e bağlı DEĞİL |
+
+⇒ Başlangıç tarafında **en az 6 otorite / 8 site** (girdi · motor · denetle×3 · app×3); motor
+kendi içinde tutarlı (tek `EPOK`), denetim ve arayüz değil. Geriye açma tek satırla olmaz.
+
+### Bitiş sabiti `"1923-11-01"` — koordinatörün sorduğu üç günlük fark
+- Motorda **7 satır** (`:4498, 4500, 6517, 6765, 6768, 7033, 7036`): kesit listesinin üst
+  sınırı ve listeye EKLENEN son gün. `girdi.UFUK[1]` = `1923-10-29`'a bağlı değil.
+- Çıktıya sızdığı ölçüldü: `devletler_harita.js`te `"t":"1923-11-01"` **1** dönem — **`fas`**:
+  `{"f":"1923-10-29","t":"1923-11-01","g":[44454]}`, yani 1923-10-29 kesitinde ayrı bir parça
+  üretilmiş üç günlük bir dönem. `donemler.js`te 1923-11-01 **0**. (Arayüzün `BITIS`i bu üç günü
+  gösteriyor mu, ölçmedim.)
+- **1281 sorusunu ETKİLEMİYOR:** başlangıç tarafında motor `EPOK` değişkenini kullanıyor, sabit
+  yazılmış bir ikinci başlangıç yok. Üç günlük fark yalnız SON tarafın sorunu (1945 hedefinde
+  aynı tuzak: `EPOK` gibi bir değişkene bağlanmazsa `1923-11-01` yedi yerde kalır).
+
+## ⑤ Öngörü × ölçüm (bu görev)
+
+| öngörü | ölçüm | |
+|---|---|---|
+| `donemler.js`te 1281'den eski tarih yok | 0 (ve `devletler_harita.js`te de 0) | ✅ |
+| Lapaha 1281'de `tui-tonga` gövdesinde | ✅ `dnm.f = 1281-01-01` | ✅ |
+| 1220-1281 çıktıda yok | yok | ✅ |
+| (önceki rapor) "UFUK geri çekilince 191 `kur:` sessiz devreder" | koddan: sessiz devir EPOK'la değil, 1281 öncesi SAHİP yazılınca | ❌ düzeltildi (§1.3) |
