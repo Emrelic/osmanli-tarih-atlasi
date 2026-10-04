@@ -15,6 +15,7 @@
 | **A2** | **8788 güvenlik duvarı** + **tahta sunucusunun makinesi** | Tahtanın git'ten çıkması. Hazır, 5 sınav temiz, kesme betiği + geri dönüş var. |
 | **A3** | **Dört `ag.json` aynı sunucuyu göstersin** | A2'nin ön koşulu. Elle kopyalanan ayar; ayrışırsa bölünme **sessiz** olur. Artık ölçülebilir (`/tahta/makineler`). |
 | **A4** | **LAB'ı aç** | LAB kapalı; klon + rol mesajı kuyrukta. Denetleyici rolü boş. |
+| **A6** | 🔴 **BEKÇİ MEKANİZMASI 2 SAATTE ÖLÜYOR — §7.2 ④ fiilen çalışmıyor** | Ölçüldü 09:05: **CANLI 0 · BITMIS 11**. Harness arka plan süreçlerini **7.200.000 ms (2 saat, izin verilen en uzun)** tavanında kesiyor. ⇒ Her bekçi 2 saatte bir ölür; **boşta duran bir oturum onu yeniden kurmaz** ve o andan sonra **tahtadan UYANDIRILAMAZ** — yalnız `send_message` ulaşır. ⚠️ Ve **TAHTA-WEB bunu ÇÖZMEZ**: sunucu tahtanın yerini değiştirir, uyandırmayı değiştirmez. Uyandırma ayrı bir karar: ya 2 saatte bir yeniden kurmayı garanti eden bir dış tetik (zamanlanmış görev), ya "işçiler bekçi kurmaz, görev `send_message` ile gelir" diye sadeleştirme. |
 | **A5** | **Oturum adları** — işçiler haklı olarak reddetti | Ad `claude remote-control --name KASA` **zamanlanmış görevinden** geliyor; değiştirmek yapılandırma değişikliği + süreç yeniden başlatma, yani oturumu kapatır. Bir eş oturumun isteğiyle yapılmaz. Talimat **o makinede, senden** gelmeli. 📌 Benim hatam: "değiştirt" dedim, mekanizmayı ölçmedim. |
 
 ---
