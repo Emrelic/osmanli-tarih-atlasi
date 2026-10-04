@@ -1,0 +1,2023 @@
+# YETİM MADDE — KAYMA+YETİM (E/B/D) ÜYELİK DEFTERİ (tavan = üyelik, sayı değil)
+# Satır: dosya¦t¦başlık-özeti¦yer_id. Yetim ≠ hatalı: araç yanlış pozitife yatkındır.
+# ELLE ONAYLAMADAN yazma — 'defterde var' ≠ 'incelendi ve kabul edildi'.
+kronoloji_akkoyunlu.js¦1362-01-01¦0b2a9f5a¦Erzincan
+kronoloji_akkoyunlu.js¦1394-01-01¦7d3b2176¦Erzincan
+kronoloji_akkoyunlu.js¦1420-01-01¦9b9731e9¦Tahran
+kronoloji_akkoyunlu.js¦1434-01-01¦c0bba789¦Erzurum
+kronoloji_akkoyunlu.js¦1435-09-01¦73568c4f¦Erzurum
+kronoloji_akkoyunlu.js¦1452-09-01¦63bdcc79¦Diyarbakır
+kronoloji_akkoyunlu.js¦1458-01-01¦471c8c01¦Tiflis
+kronoloji_akkoyunlu.js¦1461-01-01¦2be66c56¦Trabzon
+kronoloji_akkoyunlu.js¦1470-01-01¦de8dcd4f¦Bağdat
+kronoloji_akkoyunlu.js¦1473-01-01¦3b057b30¦Bitlis
+kronoloji_akkoyunlu.js¦1474-01-01¦14e92bef¦Şiraz
+kronoloji_akkoyunlu.js¦1478-01-01¦959bfe05¦Hoy
+kronoloji_akkoyunlu.js¦1478-01-06¦b8fd98d7¦Tebriz
+kronoloji_akkoyunlu.js¦1492-05-01¦cb5e9074¦Tebriz
+kronoloji_akkoyunlu.js¦1501-01-01¦912462db¦Tebriz
+kronoloji_akkoyunlu.js¦1503-01-01¦d1ad88d8¦Hemedan
+kronoloji_akkoyunlu.js¦1509-01-01¦3f95ee56¦Bağdat
+kronoloji_almanya.js¦1460-04-04¦6992572a¦Basel
+kronoloji_almanya.js¦1534-02-23¦2b322176¦Münster
+kronoloji_almanya.js¦1623-02-25¦2a50c8f1¦Regensburg
+kronoloji_almanya.js¦1631-05-20¦f4f8e5e6¦Magdeburg
+kronoloji_almanya.js¦1669-05-01¦c449e90e¦Lübeck
+kronoloji_almanya.js¦1713-02-25¦ff756bd9¦Berlin
+kronoloji_almanya.js¦1740-05-31¦68bdd3ec¦Berlin
+kronoloji_almanya.js¦1742-07-28¦651c46a3¦Berlin
+kronoloji_almanya.js¦1745-12-25¦6ce5c373¦Dresden
+kronoloji_almanya.js¦1803-02-25¦8b09cb50¦Mainz
+kronoloji_almanya.js¦1807-10-09¦fe1a2d70¦Königsberg
+kronoloji_almanya.js¦1818-05-26¦dbf38f8f¦Berlin
+kronoloji_almanya.js¦1864-02-01¦87750b64¦Kiel
+kronoloji_almanya.js¦1885-02-26¦a4f32c2d¦Berlin
+kronoloji_almanya.js¦1888-10-04¦3ab2db32¦İstanbul
+kronoloji_almanya.js¦1890-03-20¦5c749ad1¦Berlin
+kronoloji_altinorda.js¦1281-01-01¦fd4aa002¦Saray (Selitrennoye)
+kronoloji_altinorda.js¦1300-01-01¦6741fb58¦Saray (Selitrennoye)
+kronoloji_altinorda.js¦1313-01-01¦26b6f904¦Saray (Selitrennoye)
+kronoloji_altinorda.js¦1320-01-01¦71528fd3¦Saray (Selitrennoye)
+kronoloji_altinorda.js¦1327-01-01¦cfec15fd¦Tver
+kronoloji_altinorda.js¦1340-01-01¦14bfa453¦Saray (Selitrennoye)
+kronoloji_altinorda.js¦1382-08-26¦72b46db8¦Moskova
+kronoloji_altinorda.js¦1395-04-15¦19aad824¦Terek deltası (Kızlar)
+kronoloji_altinorda.js¦1437-01-01¦79621741¦Kazan
+kronoloji_altinorda.js¦1466-01-01¦e3b13d7e¦Astrahan
+kronoloji_altinorda.js¦1481-01-01¦e53cd72f¦Saray (Selitrennoye)
+kronoloji_altinorda.js¦1502-01-01¦f1ddf997¦Saray (Selitrennoye)
+kronoloji_anadolu.js¦1082-01-01¦bd61a0d0¦İznik
+kronoloji_anadolu.js¦1082-06-01¦36646b7d¦Adana
+kronoloji_anadolu.js¦1084-12-12¦96780407¦Antakya
+kronoloji_anadolu.js¦1092-01-01¦f4c9a45f¦İznik
+kronoloji_anadolu.js¦1097-06-19¦39135f72¦İznik
+kronoloji_anadolu.js¦1097-07-01¦7e7a7a5d¦Eskişehir
+kronoloji_anadolu.js¦1106-01-01¦1ba04bba¦Mardin
+kronoloji_anadolu.js¦1106-09-02¦b511f2f6¦Malatya
+kronoloji_anadolu.js¦1112-01-01¦4c536fbc¦Harput (Elazığ)
+kronoloji_anadolu.js¦1116-01-01¦f9cd0408¦Konya
+kronoloji_anadolu.js¦1117-05-01¦ed7eba50¦Halep
+kronoloji_anadolu.js¦1134-01-01¦f28ff6cb¦Ankara
+kronoloji_anadolu.js¦1149-01-01¦9c86517b¦Maraş
+kronoloji_anadolu.js¦1150-01-01¦996ef9ac¦Harput (Elazığ)
+kronoloji_anadolu.js¦1174-01-01¦105197fd¦Sivas
+kronoloji_anadolu.js¦1178-01-01¦f57ba583¦Kayseri
+kronoloji_anadolu.js¦1183-01-01¦596d0dfb¦Diyarbakır
+kronoloji_anadolu.js¦1185-01-01¦82cc39b2¦Samsun
+kronoloji_anadolu.js¦1185-06-01¦7d573664¦Harput (Elazığ)
+kronoloji_anadolu.js¦1196-01-01¦e0fa6b76¦Konya
+kronoloji_anadolu.js¦1199-01-01¦65da6d32¦Mardin
+kronoloji_anadolu.js¦1204-01-01¦eaec392c¦Konya
+kronoloji_anadolu.js¦1204-06-01¦d71429ab¦İstanbul
+kronoloji_anadolu.js¦1205-01-01¦12fbaeb8¦Diyarbakır
+kronoloji_anadolu.js¦1207-01-01¦fe1251fb¦Antalya
+kronoloji_anadolu.js¦1214-11-02¦46e10284¦Sinop
+kronoloji_anadolu.js¦1216-01-22¦9ab29663¦Antalya
+kronoloji_anadolu.js¦1222-01-01¦01aec6a7¦Diyarbakır
+kronoloji_anadolu.js¦1222-01-01¦0fd2102e¦Alanya
+kronoloji_anadolu.js¦1226-01-01¦790b6c4f¦Kâhta
+kronoloji_anadolu.js¦1228-01-01¦64b2773e¦Erzincan
+kronoloji_anadolu.js¦1234-08-01¦81c45fea¦Harput (Elazığ)
+kronoloji_anadolu.js¦1237-05-31¦abba0da7¦Kayseri
+kronoloji_anadolu.js¦1240-06-01¦6643bfb6¦Diyarbakır
+kronoloji_anadolu.js¦1249-01-01¦d1e2d2c1¦Konya
+kronoloji_anadolu.js¦1254-09-13¦4cf860ea¦Karakurum
+kronoloji_anadolu.js¦1259-01-01¦a85445a8¦Konya
+kronoloji_anadolu.js¦1263-01-01¦2f3631bd¦Ermenek
+kronoloji_anadolu.js¦1277-05-13¦a8fa2b10¦Konya
+kronoloji_anadolu.js¦1277-05-14¦a955a17c¦Konya
+kronoloji_anadolu.js¦1286-01-01¦77905ee7¦Karaman
+kronoloji_anadolu.js¦1293-01-01¦7b8967cb¦Mardin
+kronoloji_anadolu.js¦1298-01-01¦99080130¦Konya
+kronoloji_anadolu.js¦1299-01-01¦d9f8ff3c¦Humus
+kronoloji_anadolu.js¦1307-01-01¦9409608f¦Birgi
+kronoloji_anadolu.js¦1314-12-01¦2b704ba7¦Konya
+kronoloji_anadolu.js¦1322-01-01¦a28df970¦Malatya
+kronoloji_anadolu.js¦1328-01-01¦468e2210¦Konya
+kronoloji_anadolu.js¦1335-01-01¦db454710¦Alaşehir
+kronoloji_anadolu.js¦1348-03-01¦e434878e¦İzmir
+kronoloji_anadolu.js¦1375-01-01¦dd67cfd1¦Tarsus
+kronoloji_anadolu.js¦1381-01-01¦4f616685¦Maraş
+kronoloji_anadolu.js¦1384-01-01¦e4cb7a9f¦Maraş
+kronoloji_anadolu.js¦1385-01-01¦fb52fd37¦Birgi
+kronoloji_anadolu.js¦1386-01-01¦e14851d4¦Konya
+kronoloji_anadolu.js¦1389-07-01¦1b50be7d¦Beyşehir
+kronoloji_anadolu.js¦1390-06-01¦75fa3b9e¦Tire
+kronoloji_anadolu.js¦1397-01-01¦44be0dd8¦Konya
+kronoloji_anadolu.js¦1398-01-01¦3acef541¦Konya
+kronoloji_anadolu.js¦1413-01-01¦6362d298¦Tarsus
+kronoloji_anadolu.js¦1414-01-01¦1f4895e0¦İzmir
+kronoloji_anadolu.js¦1414-06-01¦8853adeb¦Beyşehir
+kronoloji_anadolu.js¦1421-01-01¦cea1487c¦Kahire
+kronoloji_anadolu.js¦1433-01-01¦3eaa4871¦Eğirdir
+kronoloji_anadolu.js¦1435-01-01¦99220a73¦Kayseri
+kronoloji_anadolu.js¦1437-01-01¦9296c61e¦Kayseri
+kronoloji_anadolu.js¦1448-01-01¦e8973504¦Konya
+kronoloji_anadolu.js¦1464-01-01¦7edbb8b3¦Kayseri
+kronoloji_anadolu.js¦1468-04-01¦8e23eb26¦Konya
+kronoloji_anadolu.js¦1471-01-01¦8980cbf6¦Konya
+kronoloji_anadolu.js¦1487-01-01¦de3fc4fe¦Halep
+kronoloji_arabistan.js¦0901-01-01¦7524c78f¦Sana
+kronoloji_arabistan.js¦1743-01-01¦08081aa9¦Suhâr
+kronoloji_arabistan.js¦1752-01-01¦934b1254¦Lahsa
+kronoloji_arabistan.js¦1775-01-01¦a3187a45¦Basra
+kronoloji_arabistan.js¦1795-01-01¦a25524f5¦Lahsa
+kronoloji_arabistan.js¦1818-01-01¦3fee0536¦Lahsa
+kronoloji_arabistan.js¦1837-01-01¦c8b9f169¦Mombasa
+kronoloji_atina_dukaligi.js¦1204-04-13¦f1d17555¦İstanbul
+kronoloji_atina_dukaligi.js¦1205-01-01¦cdaaa95e¦Atina
+kronoloji_atina_dukaligi.js¦1311-03-15¦ab0acc6b¦Livadya
+kronoloji_atina_dukaligi.js¦1379-01-01¦3d001190¦İstefe (Tebai)
+kronoloji_atina_dukaligi.js¦1388-05-02¦b3f03fda¦Atina
+kronoloji_atina_dukaligi.js¦1402-01-01¦44593cc0¦Atina
+kronoloji_atina_dukaligi.js¦1435-01-01¦33d7b635¦Atina
+kronoloji_atina_dukaligi.js¦1458-06-04¦a6948dd6¦Atina
+kronoloji_balkan.js¦1185-01-01¦ce0383b4¦Tırnova
+kronoloji_balkan.js¦1205-04-14¦af7b4b1b¦Edirne
+kronoloji_balkan.js¦1371-01-01¦a2af03ac¦Tırnova
+kronoloji_balkan.js¦1395-06-03¦072b2efb¦Niğbolu
+kronoloji_balkan.js¦1444-11-10¦8f8d7962¦Varna
+kronoloji_balkan.js¦1463-05-01¦dccccffd¦Yayça (Jajce)
+kronoloji_balkan.js¦1499-01-01¦cd3c656f¦İşkodra
+kronoloji_balkan.js¦1822-04-02¦a2e73774¦Sakız
+kronoloji_balkan.js¦1830-01-01¦5ffec76a¦Cetinje
+kronoloji_balkan.js¦1837-05-03¦356d4c9f¦Atina
+kronoloji_balkan.js¦1877-09-01¦deade2d9¦Podgorica
+kronoloji_balkan.js¦1878-07-13¦158391a8¦Berlin
+kronoloji_balkan.js¦1888-10-01¦9582d87e¦Sofya
+kronoloji_balkan.js¦1893-12-10¦dc44dd1b¦Atina
+kronoloji_balkan.js¦1897-12-18¦ad5408bb¦Kandiye (Girit)
+kronoloji_balkan.js¦1908-10-06¦865b83d8¦Kandiye (Girit)
+kronoloji_balkan.js¦1910-05-09¦295ced63¦Kandiye (Girit)
+kronoloji_balkan.js¦1912-03-13¦53ac4d1c¦Sofya
+kronoloji_balkan.js¦1913-03-18¦d9654d1f¦Selanik
+kronoloji_balkan.js¦1913-11-14¦5e7d947f¦Atina
+kronoloji_bizans.js¦1282-12-11¦0e8932e6¦İstanbul
+kronoloji_bizans.js¦1311-03-15¦ab0acc6b¦Atina
+kronoloji_bizans.js¦1317-01-01¦b88cc662¦Bursa
+kronoloji_bizans.js¦1346-04-16¦502a0a53¦Üsküp
+kronoloji_bizans.js¦1352-01-01¦8fc0ac2c¦Çimpe
+kronoloji_bizans.js¦1354-11-22¦f68e3db3¦İstanbul
+kronoloji_bizans.js¦1363-01-01¦0417ab42¦Filibe
+kronoloji_bizans.js¦1369-01-01¦e0bbb87e¦Edirne
+kronoloji_bizans.js¦1373-01-01¦48107ad9¦İstanbul
+kronoloji_bizans.js¦1379-07-01¦1817095f¦İstanbul
+kronoloji_bizans.js¦1381-08-08¦e9965f46¦Bozcaada
+kronoloji_bizans.js¦1390-04-14¦1708fd62¦İstanbul
+kronoloji_bizans.js¦1391-01-01¦5218ea35¦Ankara
+kronoloji_bizans.js¦1391-01-01¦9d1fd88f¦İstanbul
+kronoloji_bizans.js¦1403-01-01¦8a0c5524¦Gelibolu
+kronoloji_bizans.js¦1424-02-22¦76d74cbc¦İstanbul
+kronoloji_bizans.js¦1439-07-06¦82a706ae¦Floransa
+kronoloji_bizans.js¦1439-12-18¦4f58e8d2¦Roma
+kronoloji_bizans.js¦1452-12-12¦4c815169¦İstanbul
+kronoloji_cin.js¦1294-01-01¦6ce4110e¦Pekin (Hanbalık)
+kronoloji_cin.js¦1356-04-10¦5d7ca444¦Nanking (Nanjing)
+kronoloji_cin.js¦1402-07-13¦d14224aa¦Nanking (Nanjing)
+kronoloji_cin.js¦1410-01-01¦db52388e¦Karakurum
+kronoloji_cin.js¦1457-02-11¦92ba04c5¦Pekin (Hanbalık)
+kronoloji_cin.js¦1619-04-14¦53261d3d¦Mukden (Şenyang)
+kronoloji_cin.js¦1630-01-01¦58aef390¦Pekin (Hanbalık)
+kronoloji_cin.js¦1662-01-01¦3486a514¦Kunming
+kronoloji_cin.js¦1662-02-01¦c0bc582c¦Taipei
+kronoloji_cin.js¦1683-08-01¦54e8b8db¦Taipei
+kronoloji_cin.js¦1720-09-01¦15d1ec9a¦Lhasa
+kronoloji_cin.js¦1759-01-01¦80fa2476¦Tiencin (Tianjin)
+kronoloji_cin.js¦1839-06-03¦0274cf64¦Kanton (Guangzhou)
+kronoloji_cin.js¦1840-06-01¦d47ef353¦Kanton (Guangzhou)
+kronoloji_cin.js¦1842-08-29¦6c2730c8¦Nanking (Nanjing)
+kronoloji_cin.js¦1856-10-08¦0b458bd1¦Kanton (Guangzhou)
+kronoloji_cin.js¦1860-10-24¦50bd74b1¦Pekin (Hanbalık)
+kronoloji_cin.js¦1861-11-01¦622cf4f4¦Pekin (Hanbalık)
+kronoloji_cin.js¦1871-01-01¦e12791de¦Gulca (Yining)
+kronoloji_cin.js¦1876-01-01¦13ce8bb5¦Şanghay
+kronoloji_cin.js¦1878-03-16¦2a22c88d¦Kaşgar
+kronoloji_cin.js¦1884-08-23¦7b36e798¦Fuzhou
+kronoloji_cin.js¦1888-01-01¦80976f4f¦Lüşun (Port Arthur)
+kronoloji_cin.js¦1898-09-21¦85ccd457¦Pekin (Hanbalık)
+kronoloji_cin.js¦1901-09-07¦5370631d¦Pekin (Hanbalık)
+kronoloji_cin.js¦1911-12-29¦d16e48e1¦Nanking (Nanjing)
+kronoloji_cin.js¦1912-11-01¦4f892db7¦Lhasa
+kronoloji_cin.js¦1915-12-12¦7a05f244¦Pekin (Hanbalık)
+kronoloji_cok_1923_1945.js¦1924-01-11¦504cbb47¦Rodos
+kronoloji_cok_1923_1945.js¦1924-05-08¦3c0d2c82¦Paris
+kronoloji_cok_1923_1945.js¦1924-09-08¦68d36e8c¦Tâif
+kronoloji_cok_1923_1945.js¦1924-10-16¦0067c336¦Mekke
+kronoloji_cok_1923_1945.js¦1924-10-27¦d3ba6e77¦Taşkent
+kronoloji_cok_1923_1945.js¦1924-12-01¦6fa5d11e¦Tallinn (Reval)
+kronoloji_cok_1923_1945.js¦1925-01-01¦43547558¦Hudeyde
+kronoloji_cok_1923_1945.js¦1925-06-25¦e692e11f¦Atina
+kronoloji_cok_1923_1945.js¦1925-12-05¦846d6ca2¦Medine
+kronoloji_cok_1923_1945.js¦1925-12-22¦5c2965aa¦Cidde
+kronoloji_cok_1923_1945.js¦1926-01-01¦29c8e6c6¦Cağbûb
+kronoloji_cok_1923_1945.js¦1926-05-12¦b102efe9¦Varşova
+kronoloji_cok_1923_1945.js¦1926-06-05¦5564876d¦Ankara
+kronoloji_cok_1923_1945.js¦1926-07-09¦b18ca837¦Kanton (Guangzhou)
+kronoloji_cok_1923_1945.js¦1926-12-17¦3cc4357c¦Kaunas
+kronoloji_cok_1923_1945.js¦1928-01-01¦e568a27d¦Pekin (Hanbalık)
+kronoloji_cok_1923_1945.js¦1928-03-25¦afa714a2¦Lizbon
+kronoloji_cok_1923_1945.js¦1929-01-14¦59f3884c¦Kâbil
+kronoloji_cok_1923_1945.js¦1929-06-03¦755ef66f¦Lima (Ciudad de los Reyes)
+kronoloji_cok_1923_1945.js¦1929-10-12¦a65353f7¦Kâbil
+kronoloji_cok_1923_1945.js¦1929-10-16¦f029b799¦Kâbil
+kronoloji_cok_1923_1945.js¦1931-04-14¦71a89c37¦Madrid
+kronoloji_cok_1923_1945.js¦1931-07-10¦5c08b9f0¦Oslo
+kronoloji_cok_1923_1945.js¦1931-07-26¦142b3346¦Santiago (Şili)
+kronoloji_cok_1923_1945.js¦1931-09-21¦44f27225¦Londra
+kronoloji_cok_1923_1945.js¦1931-12-11¦690fe095¦Londra
+kronoloji_cok_1923_1945.js¦1933-02-24¦03d8fa42¦Cenevre
+kronoloji_cok_1923_1945.js¦1933-03-04¦b20badde¦Viyana
+kronoloji_cok_1923_1945.js¦1933-08-12¦24a0895f¦Havana (La Habana)
+kronoloji_cok_1923_1945.js¦1933-09-04¦b1e959ec¦Havana (La Habana)
+kronoloji_cok_1923_1945.js¦1933-12-26¦7ded1ca9¦Montevideo
+kronoloji_cok_1923_1945.js¦1934-05-15¦fc2b5c78¦Riga
+kronoloji_cok_1923_1945.js¦1934-05-20¦eb90ee01¦Tâif
+kronoloji_cok_1923_1945.js¦1935-10-07¦a3f5fc42¦Cenevre
+kronoloji_cok_1923_1945.js¦1936-10-25¦9d5a24a4¦Berlin
+kronoloji_cok_1923_1945.js¦1936-11-25¦6a7abbef¦Berlin
+kronoloji_cok_1923_1945.js¦1936-12-12¦821d67ac¦Dublin
+kronoloji_cok_1923_1945.js¦1936-12-12¦c4e7337f¦Xi'an (Chang'an)
+kronoloji_cok_1923_1945.js¦1937-06-19¦96df3343¦Bilbao
+kronoloji_cok_1923_1945.js¦1937-11-06¦cd2fa292¦Roma
+kronoloji_cok_1923_1945.js¦1938-03-11¦9840e152¦Viyana
+kronoloji_cok_1923_1945.js¦1938-03-19¦5e669d3e¦Kaunas
+kronoloji_cok_1923_1945.js¦1938-04-25¦555947a3¦Londra
+kronoloji_cok_1923_1945.js¦1938-05-14¦53a44130¦Cenevre
+kronoloji_cok_1923_1945.js¦1938-07-21¦4ccbbc6b¦Buenos Aires
+kronoloji_cok_1923_1945.js¦1938-09-29¦5eb5f93d¦Münih
+kronoloji_cok_1923_1945.js¦1938-10-10¦39252aa3¦Buenos Aires
+kronoloji_cok_1923_1945.js¦1938-11-02¦f86fa08a¦Kassa (Košice)
+kronoloji_cok_1923_1945.js¦1938-11-09¦9a3924bb¦Berlin
+kronoloji_cok_1923_1945.js¦1939-01-01¦9467e429¦Ungvár (Uzhhorod)
+kronoloji_cok_1923_1945.js¦1939-01-14¦adff8766¦Oslo
+kronoloji_cok_1923_1945.js¦1939-03-31¦65b9a97a¦Londra
+kronoloji_cok_1923_1945.js¦1939-04-13¦a79e297a¦Bükreş
+kronoloji_cok_1923_1945.js¦1939-08-26¦10f03232¦Zagreb
+kronoloji_cok_1923_1945.js¦1939-09-03¦1bb6f657¦Londra
+kronoloji_cok_1923_1945.js¦1939-09-17¦73a0ecf4¦Brest-Litovsk
+kronoloji_cok_1923_1945.js¦1939-10-10¦00285a71¦Moskova
+kronoloji_cok_1923_1945.js¦1939-10-28¦3f8b8c9d¦Vilnius
+kronoloji_cok_1923_1945.js¦1940-03-12¦c18edca2¦Moskova
+kronoloji_cok_1923_1945.js¦1940-05-10¦8012ca3b¦Londra
+kronoloji_cok_1923_1945.js¦1940-06-10¦5f8e8a5e¦Roma
+kronoloji_cok_1923_1945.js¦1940-06-14¦6de4ca44¦Tanca
+kronoloji_cok_1923_1945.js¦1940-06-14¦83c82ac6¦Paris
+kronoloji_cok_1923_1945.js¦1940-06-15¦ff777aee¦Kaunas
+kronoloji_cok_1923_1945.js¦1940-06-17¦a95ffacc¦Riga
+kronoloji_cok_1923_1945.js¦1940-06-17¦fa197eff¦Tallinn (Reval)
+kronoloji_cok_1923_1945.js¦1940-07-14¦99775ad5¦Riga
+kronoloji_cok_1923_1945.js¦1940-07-21¦234756f9¦Tallinn (Reval)
+kronoloji_cok_1923_1945.js¦1940-07-21¦500931e6¦Riga
+kronoloji_cok_1923_1945.js¦1940-07-21¦6d088fec¦Kaunas
+kronoloji_cok_1923_1945.js¦1940-08-19¦caa0fe28¦Berbera
+kronoloji_cok_1923_1945.js¦1940-09-27¦1966fd83¦Berlin
+kronoloji_cok_1923_1945.js¦1940-11-20¦c6ccd8d9¦Viyana
+kronoloji_cok_1923_1945.js¦1940-11-23¦0ba936a4¦Berlin
+kronoloji_cok_1923_1945.js¦1940-11-24¦27fc0646¦Berlin
+kronoloji_cok_1923_1945.js¦1940-11-30¦b5a62d07¦Nanking (Nanjing)
+kronoloji_cok_1923_1945.js¦1941-01-01¦65eda99b¦Berbera
+kronoloji_cok_1923_1945.js¦1941-01-01¦afa3d3fc¦Üsküp
+kronoloji_cok_1923_1945.js¦1941-02-25¦342ec828¦Amsterdam
+kronoloji_cok_1923_1945.js¦1941-03-01¦b8ea1d98¦Viyana
+kronoloji_cok_1923_1945.js¦1941-03-02¦9adc1b89¦Sofya
+kronoloji_cok_1923_1945.js¦1941-03-25¦a6d5f0fd¦Viyana
+kronoloji_cok_1923_1945.js¦1941-03-27¦d60e964c¦Belgrad
+kronoloji_cok_1923_1945.js¦1941-04-06¦b618ed51¦Selanik
+kronoloji_cok_1923_1945.js¦1941-04-13¦49f3250b¦Moskova
+kronoloji_cok_1923_1945.js¦1941-05-18¦e6bea8f1¦Split (Spalato)
+kronoloji_cok_1923_1945.js¦1941-06-18¦9bd4dc44¦Ankara
+kronoloji_cok_1923_1945.js¦1941-06-22¦7f75dc65¦Brest-Litovsk
+kronoloji_cok_1923_1945.js¦1941-10-10¦a91b8db0¦Lüksemburg
+kronoloji_cok_1923_1945.js¦1942-01-02¦dec415dd¦Manila
+kronoloji_cok_1923_1945.js¦1942-01-29¦19e46b01¦Rio de Janeiro
+kronoloji_cok_1923_1945.js¦1942-02-01¦5d881848¦Oslo
+kronoloji_cok_1923_1945.js¦1942-03-31¦8549d18b¦Monrovia
+kronoloji_cok_1923_1945.js¦1942-06-19¦da3b7d18¦Zagreb
+kronoloji_cok_1923_1945.js¦1942-08-13¦e685b1d7¦Zagreb
+kronoloji_cok_1923_1945.js¦1942-08-30¦9acc10da¦Lüksemburg
+kronoloji_cok_1923_1945.js¦1942-11-08¦821fdc27¦Cezayir
+kronoloji_cok_1923_1945.js¦1942-11-27¦ce4ff0cd¦Toulon
+kronoloji_cok_1923_1945.js¦1943-01-01¦a0f26441¦Kahire
+kronoloji_cok_1923_1945.js¦1943-03-17¦5e88565e¦Cayenne
+kronoloji_cok_1923_1945.js¦1943-06-03¦d19ff760¦Cezayir
+kronoloji_cok_1923_1945.js¦1943-06-04¦6302908c¦Buenos Aires
+kronoloji_cok_1923_1945.js¦1943-08-20¦cf8fe8b9¦Bangkok (Tonburi)
+kronoloji_cok_1923_1945.js¦1943-08-29¦716b44a5¦Kopenhag
+kronoloji_cok_1923_1945.js¦1943-09-08¦2390e2e1¦Atina
+kronoloji_cok_1923_1945.js¦1943-11-22¦dd4add46¦Beyrut
+kronoloji_cok_1923_1945.js¦1944-01-26¦bacbbf63¦Buenos Aires
+kronoloji_cok_1923_1945.js¦1944-01-27¦a1bd7652¦Monrovia
+kronoloji_cok_1923_1945.js¦1944-05-28¦bc829eec¦Guayaquil (Santiago de Guayaquil)
+kronoloji_cok_1923_1945.js¦1944-06-04¦90a85f32¦Roma
+kronoloji_cok_1923_1945.js¦1944-07-23¦f0a48e88¦Rodos
+kronoloji_cok_1923_1945.js¦1944-08-31¦d7d02aea¦Bükreş
+kronoloji_cok_1923_1945.js¦1944-09-12¦66d90d16¦Moskova
+kronoloji_cok_1923_1945.js¦1944-09-19¦168edc0a¦Moskova
+kronoloji_cok_1923_1945.js¦1944-09-19¦96045e5f¦Kopenhag
+kronoloji_cok_1923_1945.js¦1944-10-12¦7d1a6e2f¦Atina
+kronoloji_cok_1923_1945.js¦1944-10-18¦b6e7f422¦Atina
+kronoloji_cok_1923_1945.js¦1944-10-28¦dadc1f56¦Moskova
+kronoloji_cok_1923_1945.js¦1945-01-01¦3a9f80bf¦Priştine
+kronoloji_cok_1923_1945.js¦1945-01-20¦4ea53553¦Moskova
+kronoloji_cok_1923_1945.js¦1945-02-14¦aa2ab8d7¦Santiago (Şili)
+kronoloji_cok_1923_1945.js¦1945-02-22¦03465967¦Montevideo
+kronoloji_cok_1923_1945.js¦1945-02-23¦c4e33a64¦Ankara
+kronoloji_cok_1923_1945.js¦1945-03-22¦0542df18¦Kahire
+kronoloji_cok_1923_1945.js¦1945-04-13¦67516902¦Viyana
+kronoloji_cok_1923_1945.js¦1945-04-14¦c1be3b7a¦Lüksemburg
+kronoloji_cok_1923_1945.js¦1945-04-19¦923c1bef¦Buenos Aires
+kronoloji_cok_1923_1945.js¦1945-04-27¦2fe85632¦Viyana
+kronoloji_cok_1923_1945.js¦1945-04-30¦0a77f3a3¦Berlin
+kronoloji_cok_1923_1945.js¦1945-05-04¦05c41a1a¦Kopenhag
+kronoloji_cok_1923_1945.js¦1945-05-08¦01e9e253¦Oslo
+kronoloji_cok_1923_1945.js¦1945-05-08¦2303a1a6¦Rodos
+kronoloji_cok_1923_1945.js¦1945-08-15¦f3d0a8ba¦Phnom Penh
+kronoloji_cok_1923_1945.js¦1945-08-16¦180c6cf8¦Bangkok (Tonburi)
+kronoloji_cok_1dunya_A.js¦1914-08-02¦673cc6c6¦Brüksel
+kronoloji_cok_1dunya_A.js¦1914-08-04¦70b1da5a¦Liège
+kronoloji_cok_1dunya_A.js¦1914-08-20¦462c6902¦Brüksel
+kronoloji_cok_1dunya_A.js¦1914-12-14¦978e6e7b¦Belgrad
+kronoloji_cok_1dunya_A.js¦1915-08-05¦bc56336c¦Varşova
+kronoloji_cok_1dunya_A.js¦1916-09-11¦1c17dcdf¦Kavala
+kronoloji_cok_1dunya_A.js¦1917-09-03¦2c281ea6¦Riga
+kronoloji_cok_1dunya_A.js¦1918-05-07¦6ae826f7¦Bükreş
+kronoloji_cok_1dunya_A.js¦1918-09-29¦fb1343db¦Üsküp
+kronoloji_cok_1dunya_A.js¦1918-10-12¦a211a25b¦Niş
+kronoloji_cok_1dunya_B.js¦1914-09-27¦b52d853c¦Duala
+kronoloji_cok_1dunya_B.js¦1915-01-01¦c70d435e¦Vindhuk (Windhoek)
+kronoloji_cok_1dunya_B.js¦1916-12-01¦91553b27¦Agadez
+kronoloji_cok_1dunya_B.js¦1917-01-01¦3c33516c¦Kirmanşah
+kronoloji_cok_1dunya_B.js¦1917-01-01¦a3c5485f¦Kût el-Amâre
+kronoloji_cok_1dunya_B.js¦1917-03-03¦4bb1d547¦Agadez
+kronoloji_cok_1dunya_B.js¦1918-04-02¦b852d56c¦Van
+kronoloji_cok_1dunya_B.js¦1918-06-04¦a42174fc¦Batum
+kronoloji_cok_1dunya_B.js¦1921-02-26¦fc0c9994¦Tebriz
+kronoloji_cok_500_1000.js¦0637-01-01¦435c48b8¦Halep
+kronoloji_cok_500_1000.js¦0642-01-01¦0955743a¦Nihâvend
+kronoloji_cok_500_1000.js¦0831-09-12¦6c0cad13¦Palermo
+kronoloji_cok_500_1000.js¦0843-01-01¦7f23218e¦Messina
+kronoloji_cok_500_1000.js¦0911-01-01¦2cbe5dcb¦Zerenc (Sîstan)
+kronoloji_cok_500_1000.js¦0946-01-01¦4937a3e9¦Şam
+kronoloji_cok_500_1000.js¦0958-01-01¦12f9f705¦Musul
+kronoloji_cok_500_1000.js¦0964-01-01¦7df5efa6¦Musul
+kronoloji_cok_afrika.js¦1884-07-25¦46525663¦Bisandugu
+kronoloji_cok_arabistan2.js¦1835-01-01¦52419ec9¦Hâil
+kronoloji_cok_arnavut.js¦1444-03-01¦13d09c26¦Leş (Alessio)
+kronoloji_cok_arnavut.js¦1467-01-01¦509e68f0¦Akçahisar (Kruja)
+kronoloji_cok_arnavut.js¦1756-01-01¦c5b9a07b¦İşkodra
+kronoloji_cok_arnavut.js¦1881-01-01¦3ce72d82¦Prizren
+kronoloji_cok_arnavut.js¦1914-09-03¦50ec9b8e¦Draç
+kronoloji_cok_arnavut.js¦1914-12-24¦96d99e2f¦Avlonya
+kronoloji_cok_arnavut.js¦1920-08-03¦a7af3ac1¦Avlonya
+kronoloji_cok_bosna.js¦1470-01-01¦5232bae6¦Foça (Foča)
+kronoloji_cok_bosna.js¦1521-01-01¦c8de7923¦Saraybosna
+kronoloji_cok_bosna.js¦1882-01-01¦26c52a3f¦Saraybosna
+kronoloji_cok_bosna.js¦1910-01-01¦aa473076¦Saraybosna
+kronoloji_cok_bulgaristan.js¦1392-01-01¦dfb30dad¦Tırnova
+kronoloji_cok_bulgaristan.js¦1879-01-01¦97223796¦Sofya
+kronoloji_cok_ceneviz.js¦1366-01-01¦d4a40a3a¦İstanbul
+kronoloji_cok_ceneviz.js¦1414-01-01¦a3e5b3f8¦İzmir
+kronoloji_cok_ceneviz.js¦1434-01-01¦cc869587¦İstanbul
+kronoloji_cok_ceneviz.js¦1447-01-01¦7d5f9c64¦Magosa
+kronoloji_cok_cezayir.js¦1517-01-01¦f672ea2e¦Tenes
+kronoloji_cok_cezayir.js¦1518-01-01¦8fa2bf31¦Tilimsan
+kronoloji_cok_cezayir.js¦1519-01-01¦ce507535¦Konstantin
+kronoloji_cok_cezayir.js¦1524-01-01¦d6cca77c¦Cezayir
+kronoloji_cok_cezayir.js¦1533-01-01¦a845cea8¦Konstantin
+kronoloji_cok_cezayir.js¦1534-01-01¦2bf832fe¦Annaba
+kronoloji_cok_cezayir.js¦1541-01-01¦638ce2bd¦Cezayir
+kronoloji_cok_cezayir.js¦1587-01-01¦303fbe8f¦Cezayir
+kronoloji_cok_cezayir.js¦1659-01-01¦c37075b5¦Cezayir
+kronoloji_cok_cezayir.js¦1711-01-01¦7bd4c815¦Cezayir
+kronoloji_cok_cezayir.js¦1805-01-01¦653eac38¦Tilimsan
+kronoloji_cok_cezayir.js¦1816-01-01¦0dd145fd¦Cezayir
+kronoloji_cok_cezayir.js¦1833-01-01¦107c89a3¦Tilimsan
+kronoloji_cok_cezayir.js¦1834-07-22¦b6c8fd53¦Cezayir
+kronoloji_cok_cezayir.js¦1835-01-01¦22eb12fd¦Muaskar
+kronoloji_cok_cezayir.js¦1837-05-30¦927d6a85¦Tilimsan
+kronoloji_cok_cezayir.js¦1842-01-01¦233c2512¦Tilimsan
+kronoloji_cok_cezayir.js¦1847-01-01¦64d2b6eb¦Cezayir
+kronoloji_cok_cezayir.js¦1871-01-01¦092255f6¦Tîzî Vezzû (Kabiliye)
+kronoloji_cok_dogu_asya.js¦1681-10-01¦ba6de554¦Kunming
+kronoloji_cok_dogu_asya.js¦1856-10-23¦7fc9b497¦Dali
+kronoloji_cok_dogu_asya.js¦1890-03-17¦8b009cc5¦Limbang
+kronoloji_cok_ermeni.js¦1850-01-01¦e37a93b4¦Revan
+kronoloji_cok_ermeni.js¦1919-04-12¦1b8846d3¦Kars
+kronoloji_cok_fas.js¦1248-01-01¦4c021c6a¦Fas (Fez)
+kronoloji_cok_fas.js¦1333-01-01¦c41ba56a¦Cebelitarık (Gibraltar)
+kronoloji_cok_fas.js¦1468-01-01¦98678655¦Dârülbeyzâ (Anfa)
+kronoloji_cok_fas.js¦1483-01-01¦d8931302¦Tıtvân (Tetuan)
+kronoloji_cok_fas.js¦1545-01-01¦be041187¦Zâgûre (Dr'a)
+kronoloji_cok_fas.js¦1550-01-01¦27a26404¦Tilimsan
+kronoloji_cok_fas.js¦1554-09-23¦f2668c8f¦Fas (Fez)
+kronoloji_cok_fas.js¦1640-01-01¦fc64da19¦Sicilmâse (Tâfilelt)
+kronoloji_cok_fas.js¦1666-06-06¦3e7754f8¦Fas (Fez)
+kronoloji_cok_fas.js¦1667-01-01¦a57f32d3¦Tıtvân (Tetuan)
+kronoloji_cok_fas.js¦1669-01-01¦d649e081¦Merakeş
+kronoloji_cok_fas.js¦1679-01-01¦740b98c9¦Miknâs (Meknes)
+kronoloji_cok_fas.js¦1691-01-01¦22c856c7¦Arzila (Asilah)
+kronoloji_cok_fas.js¦1797-01-01¦1e56e7cb¦Vecde (Oujda)
+kronoloji_cok_fas.js¦1830-01-01¦0c6e88d5¦Tilimsan
+kronoloji_cok_fas.js¦1907-01-01¦d916e014¦Vecde (Oujda)
+kronoloji_cok_fas.js¦1907-07-30¦77c91d2c¦Dârülbeyzâ (Anfa)
+kronoloji_cok_fas.js¦1908-01-01¦d53d7a8c¦Melîle (Melilla)
+kronoloji_cok_fas.js¦1911-01-01¦f24cdf0c¦Fas (Fez)
+kronoloji_cok_fas.js¦1911-07-19¦c27dafad¦Rabat
+kronoloji_cok_fas.js¦1913-01-01¦e71b9ec0¦Tıtvân (Tetuan)
+kronoloji_cok_fransa.js¦1396-01-01¦0e3801a8¦Dijon
+kronoloji_cok_guney_amerika.js¦1580-06-11¦0e430d51¦Buenos Aires
+kronoloji_cok_guney_amerika.js¦1630-02-16¦61573500¦Olinda
+kronoloji_cok_guney_amerika.js¦1654-01-26¦1e5b1eb7¦Olinda
+kronoloji_cok_guney_amerika.js¦1806-06-27¦12f90251¦Buenos Aires
+kronoloji_cok_guney_amerika.js¦1807-07-05¦ee601536¦Buenos Aires
+kronoloji_cok_guney_amerika.js¦1809-08-10¦cf5e5d80¦Quito
+kronoloji_cok_guney_amerika.js¦1821-07-31¦c5ce3072¦Montevideo
+kronoloji_cok_guney_amerika.js¦1826-01-15¦5097039e¦Castro (Chiloé)
+kronoloji_cok_guney_amerika.js¦1826-01-23¦a7ab7389¦Lima (Ciudad de los Reyes)
+kronoloji_cok_guney_amerika.js¦1826-06-22¦1816fed6¦Panamá (Panama City)
+kronoloji_cok_guney_amerika.js¦1835-01-07¦958fe6b5¦Belém
+kronoloji_cok_guney_amerika.js¦1840-07-23¦28c11f86¦Rio de Janeiro
+kronoloji_cok_gurcistan.js¦1413-01-01¦84d2fac8¦Tiflis
+kronoloji_cok_gurcistan.js¦1454-06-01¦9b52c85e¦Sohum
+kronoloji_cok_gurcistan.js¦1521-01-01¦54c84289¦Tiflis
+kronoloji_cok_gurcistan.js¦1535-01-01¦94bb552b¦Hulo (Acara)
+kronoloji_cok_gurcistan.js¦1536-01-01¦94707619¦Ahıska
+kronoloji_cok_gurcistan.js¦1541-01-01¦e7e6bf30¦Tiflis
+kronoloji_cok_gurcistan.js¦1549-01-01¦e1a1fc1c¦Artvin
+kronoloji_cok_gurcistan.js¦1569-01-01¦7583fe45¦Tiflis
+kronoloji_cok_gurcistan.js¦1588-01-01¦8a97a11a¦Tiflis
+kronoloji_cok_gurcistan.js¦1616-01-01¦9e80b64c¦Tiflis
+kronoloji_cok_gurcistan.js¦1728-01-01¦a9d7ddb3¦Tiflis
+kronoloji_cok_gurcistan.js¦1810-02-17¦0f9aedf6¦Sohum
+kronoloji_cok_gurcistan.js¦1840-01-01¦79076bcf¦Tiflis
+kronoloji_cok_gurcistan.js¦1856-07-10¦7aa18998¦Sohum
+kronoloji_cok_gurcistan.js¦1864-01-01¦de735192¦Tiflis
+kronoloji_cok_gurcistan.js¦1877-05-02¦6ab80301¦Sohum
+kronoloji_cok_gurcistan.js¦1877-08-12¦9b537647¦Sohum
+kronoloji_cok_gurcistan.js¦1919-04-13¦61c88e86¦Ahıska
+kronoloji_cok_hollanda.js¦1810-07-09¦ebb90705¦Amsterdam
+kronoloji_cok_ince_anadolu_iran.js¦1379-01-01¦1f473d65¦Esterâbâd (Gürgân)
+kronoloji_cok_ince_anadolu_iran.js¦1385-01-01¦5479522c¦Esterâbâd (Gürgân)
+kronoloji_cok_ince_avrupa_amerika.js¦1170-02-25¦47f978d7¦Novgorod
+kronoloji_cok_ince_avrupa_amerika.js¦1266-01-01¦d05264f7¦Perth (İskoçya)
+kronoloji_cok_ince_avrupa_amerika.js¦1329-01-01¦f2d0e104¦Mantova
+kronoloji_cok_ince_avrupa_amerika.js¦1348-08-06¦5402a934¦Oreşek (Nöteborg)
+kronoloji_cok_ince_avrupa_amerika.js¦1358-01-01¦fa29e9f9¦Dubrovnik
+kronoloji_cok_ince_avrupa_amerika.js¦1432-01-01¦608c81e6¦Mantova
+kronoloji_cok_ince_avrupa_amerika.js¦1468-09-08¦05321eda¦Kirkwall (Orkney)
+kronoloji_cok_ince_avrupa_amerika.js¦1472-01-01¦05736e76¦Kirkwall (Orkney)
+kronoloji_cok_ince_avrupa_amerika.js¦1536-01-01¦34bf32b8¦Mantova
+kronoloji_cok_ince_avrupa_amerika.js¦1602-01-02¦ad899c4c¦Cork
+kronoloji_cok_ince_avrupa_amerika.js¦1748-01-01¦9cf9bbd4¦Parma
+kronoloji_cok_ince_avrupa_amerika.js¦1796-01-01¦0a1b8d26¦Parma
+kronoloji_cok_ince_avrupa_amerika.js¦1802-01-01¦349d84bc¦Parma
+kronoloji_cok_ince_avrupa_amerika.js¦1838-01-01¦a7579d1d¦Georgetown (Stabroek)
+kronoloji_cok_ince_avrupa_amerika.js¦1846-01-01¦2c1ecf1b¦Krakov
+kronoloji_cok_ince_avrupa_amerika.js¦1849-03-14¦dd22db55¦Parma
+kronoloji_cok_ince_avrupa_amerika.js¦1899-01-01¦e7059155¦Caracas (Santiago de León de Caracas)
+kronoloji_cok_ince_avrupa_amerika.js¦1908-01-01¦3cbcd280¦Caracas (Santiago de León de Caracas)
+kronoloji_cok_ince_avrupa_amerika.js¦1928-01-01¦c2626c30¦Georgetown (Stabroek)
+kronoloji_cok_ince_bati_afrika.js¦1852-01-01¦c003cbde¦Hamdullahi
+kronoloji_cok_ince_bati_afrika.js¦1881-01-01¦5da693ed¦Timbo
+kronoloji_cok_ince_bati_afrika.js¦1888-01-01¦8b25880d¦Timbo
+kronoloji_cok_ince_bati_afrika.js¦1889-01-01¦969ff033¦Kong
+kronoloji_cok_ince_bati_afrika.js¦1895-01-01¦5f19bdfc¦Kong
+kronoloji_cok_ince_dg_afrika.js¦1286-01-01¦c612f194¦Dongola
+kronoloji_cok_ince_dg_afrika.js¦1316-01-01¦4b3a2cc5¦Dongola
+kronoloji_cok_ince_dg_afrika.js¦1804-01-01¦ad829c31¦Sennar
+kronoloji_cok_ince_dg_afrika.js¦1883-01-01¦55fbf369¦El-Fâşir
+kronoloji_cok_ince_gd_asya.js¦1221-01-01¦320d1cd7¦Kyoto
+kronoloji_cok_ince_gd_asya.js¦1606-01-01¦cbe78d9b¦Ternate
+kronoloji_cok_ince_gd_asya.js¦1615-01-01¦7b27e926¦Osaka
+kronoloji_cok_ince_gd_asya.js¦1669-01-01¦72457ac3¦Makassar
+kronoloji_cok_ince_gd_asya.js¦1778-01-01¦2b11706b¦Vientiane
+kronoloji_cok_ince_gd_asya.js¦1821-01-01¦c6af1dee¦Palembang
+kronoloji_cok_ince_gd_asya.js¦1821-02-10¦46516d5b¦Padang
+kronoloji_cok_ince_gd_asya.js¦1854-03-31¦1efd96b1¦Hakodate
+kronoloji_cok_ince_gd_asya.js¦1883-08-25¦a9ad0133¦Huế (Phú Xuân)
+kronoloji_cok_ince_gd_asya.js¦1887-10-17¦65ca90ee¦Hanoi (Thăng Long)
+kronoloji_cok_ince_gd_asya.js¦1893-01-17¦9e79cec4¦Honolulu
+kronoloji_cok_ince_gd_asya.js¦1945-03-13¦ed65c949¦Phnom Penh
+kronoloji_cok_ince_guney_asya.js¦1510-01-01¦1e84e929¦Goa
+kronoloji_cok_ince_guney_asya.js¦1662-01-01¦023d2b20¦Sibsâgar (Rangpûr)
+kronoloji_cok_ince_guney_asya.js¦1673-01-01¦412301ab¦Tancûr (Thanjavur)
+kronoloji_cok_ince_guney_asya.js¦1731-01-01¦6b51f336¦Kolhapûr
+kronoloji_cok_ince_guney_asya.js¦1740-01-01¦71c4bb6a¦Murşidâbâd
+kronoloji_cok_ince_guney_asya.js¦1751-01-01¦604699e4¦Murşidâbâd
+kronoloji_cok_ince_guney_asya.js¦1769-01-01¦f0027258¦Sibsâgar (Rangpûr)
+kronoloji_cok_ince_guney_asya.js¦1790-01-01¦a027f083¦Haydarâbâd (Dekken)
+kronoloji_cok_ince_guney_asya.js¦1801-01-01¦9b2400d1¦Leknev (Lucknow)
+kronoloji_cok_ince_guney_asya.js¦1911-01-01¦d8240dcf¦Haydarâbâd (Dekken)
+kronoloji_cok_ince_guney_asya.js¦1947-01-01¦21e4586c¦Cûnâgadh
+kronoloji_cok_ince_guney_asya.js¦1947-01-01¦8e4829f4¦Bahâvelpûr
+kronoloji_cok_ince_guney_asya.js¦1947-11-09¦801fe4b6¦Cûnâgadh
+kronoloji_cok_ince_guney_asya.js¦1955-01-01¦697f6424¦Bahâvelpûr
+kronoloji_cok_ince_kuzey_amerika.js¦1874-09-15¦8e7e9114¦Fort Qu'Appelle
+kronoloji_cok_ince_misir_orta_asya.js¦1269-01-01¦59701632¦Taraz (Evliya-Ata)
+kronoloji_cok_ince_misir_orta_asya.js¦1346-01-01¦73c928d7¦Semerkant
+kronoloji_cok_ince_misir_orta_asya.js¦1517-01-01¦3c530025¦Tilimsan
+kronoloji_cok_ince_misir_orta_asya.js¦1521-01-01¦71462878¦Kazan
+kronoloji_cok_ince_misir_orta_asya.js¦1529-01-01¦3b3531f8¦Tilimsan
+kronoloji_cok_ince_misir_orta_asya.js¦1552-01-01¦398d7ebd¦Tobolsk (İsker)
+kronoloji_cok_ince_misir_orta_asya.js¦1593-01-01¦3ac9a190¦Hîve
+kronoloji_cok_ince_misir_orta_asya.js¦1645-01-01¦2fec23b3¦Hîve
+kronoloji_cok_ince_misir_orta_asya.js¦1682-01-01¦7ee85f4e¦Kaşgar
+kronoloji_cok_ince_misir_orta_asya.js¦1882-05-30¦7797fd7b¦Kordofan
+kronoloji_cok_ince_misir_orta_asya.js¦1883-01-01¦d9a67c7e¦El-Fâşir
+kronoloji_cok_ince_misir_orta_asya.js¦1883-01-19¦46fea216¦Kordofan (Ubeyyid)
+kronoloji_cok_ince_misir_orta_asya.js¦1884-01-01¦9ffcf18e¦Berber
+kronoloji_cok_ispanya.js¦1293-01-01¦c18dfbae¦Granada
+kronoloji_cok_ispanya.js¦1306-01-01¦22aa3e4b¦Sebte (Ceuta)
+kronoloji_cok_ispanya.js¦1309-09-12¦8dd37f13¦Cebelitarık (Gibraltar)
+kronoloji_cok_ispanya.js¦1314-01-01¦2efa4c53¦Granada
+kronoloji_cok_ispanya.js¦1318-01-01¦336a3614¦Granada
+kronoloji_cok_ispanya.js¦1323-07-04¦f7c339ac¦Sasari (Sassari)
+kronoloji_cok_ispanya.js¦1325-01-01¦ce140bb9¦Granada
+kronoloji_cok_ispanya.js¦1326-06-09¦d92e45e8¦Kalyari (Cagliari)
+kronoloji_cok_ispanya.js¦1328-05-01¦fe445623¦Pamplona
+kronoloji_cok_ispanya.js¦1343-05-25¦32e1394c¦Mayorka (Palma)
+kronoloji_cok_ispanya.js¦1349-10-25¦ae801275¦Mayorka (Palma)
+kronoloji_cok_ispanya.js¦1362-04-16¦ec2bc8ff¦Granada
+kronoloji_cok_ispanya.js¦1364-05-16¦1434ab9f¦Pamplona
+kronoloji_cok_ispanya.js¦1369-01-01¦5463a26c¦Granada
+kronoloji_cok_ispanya.js¦1374-01-01¦d370b664¦Cebelitarık (Gibraltar)
+kronoloji_cok_ispanya.js¦1379-03-31¦02f27d25¦Pamplona
+kronoloji_cok_ispanya.js¦1431-01-01¦6a58d89d¦Granada
+kronoloji_cok_ispanya.js¦1451-10-23¦08adcb60¦Pamplona
+kronoloji_cok_ispanya.js¦1462-01-01¦bc2f4ebb¦Cebelitarık (Gibraltar)
+kronoloji_cok_ispanya.js¦1472-10-24¦7fecd8ca¦Barselona
+kronoloji_cok_ispanya.js¦1479-01-19¦19673c77¦Pamplona
+kronoloji_cok_ispanya.js¦1483-03-20¦308eea9a¦Málaga
+kronoloji_cok_ispanya.js¦1485-01-01¦c599cb0b¦Granada
+kronoloji_cok_ispanya.js¦1486-05-29¦dc4a98ae¦Loja
+kronoloji_cok_ispanya.js¦1489-12-04¦5c0ca9f8¦Granada
+kronoloji_cok_ispanya.js¦1491-10-25¦a4bda450¦Granada
+kronoloji_cok_ispanya.js¦1515-06-11¦e3d70f32¦Burgos
+kronoloji_cok_ispanya.js¦1527-01-01¦f191f8ba¦Pamplona
+kronoloji_cok_ispanya.js¦1560-12-25¦e7230a47¦Pamplona
+kronoloji_cok_lehistan.js¦1300-01-01¦16366e1b¦Krakov
+kronoloji_cok_lehistan.js¦1306-01-01¦57f53030¦Krakov
+kronoloji_cok_lehistan.js¦1308-11-13¦cd7f8303¦Gdansk
+kronoloji_cok_lehistan.js¦1340-01-01¦1ce9257f¦Lvov
+kronoloji_cok_lehistan.js¦1401-01-01¦5a9e1417¦Vilnius
+kronoloji_cok_lehistan.js¦1444-11-10¦4e5e2ab9¦Varna
+kronoloji_cok_lehistan.js¦1454-03-06¦ae44df15¦Krakov
+kronoloji_cok_lehistan.js¦1807-07-07¦4bfcc901¦Varşova
+kronoloji_cok_lehistan.js¦1815-06-09¦d7b94d75¦Viyana
+kronoloji_cok_lehistan.js¦1831-09-08¦828393e6¦Varşova
+kronoloji_cok_libya.js¦1519-01-01¦5125c200¦Trablus
+kronoloji_cok_libya.js¦1560-08-04¦0a2261b7¦Trablus
+kronoloji_cok_libya.js¦1565-06-23¦8833cf15¦Malta
+kronoloji_cok_libya.js¦1578-01-01¦d19a7893¦Bingazi
+kronoloji_cok_libya.js¦1603-01-01¦f552f53a¦Trablus
+kronoloji_cok_libya.js¦1715-01-01¦c5fd2a13¦Derne
+kronoloji_cok_libya.js¦1722-01-01¦8292cebd¦Trablus
+kronoloji_cok_libya.js¦1733-05-16¦cdb724d1¦Trablus
+kronoloji_cok_libya.js¦1793-01-01¦27d84e76¦Trablus
+kronoloji_cok_libya.js¦1795-01-01¦a3b9d3eb¦Trablus
+kronoloji_cok_libya.js¦1797-01-01¦8f1ffab3¦Trablus
+kronoloji_cok_libya.js¦1805-06-12¦9deb5782¦Derne
+kronoloji_cok_libya.js¦1813-01-01¦5b41b7f8¦Murzuk (Fizan)
+kronoloji_cok_libya.js¦1819-01-01¦379baedb¦Trablus
+kronoloji_cok_libya.js¦1831-01-01¦6001a1be¦Murzuk (Fizan)
+kronoloji_cok_libya.js¦1862-01-01¦a380002f¦Murzuk (Fizan)
+kronoloji_cok_libya.js¦1865-10-06¦86e7c3c5¦Bingazi
+kronoloji_cok_libya.js¦1881-01-01¦71c38c43¦Trablus
+kronoloji_cok_libya.js¦1912-01-01¦aaef911a¦Bingazi
+kronoloji_cok_libya.js¦1913-04-20¦bdceb720¦Merc
+kronoloji_cok_libya.js¦1915-04-29¦0586a8f1¦Sirte
+kronoloji_cok_libya.js¦1916-03-02¦b83eb916¦Cânet (Djanet)
+kronoloji_cok_libya.js¦1916-03-24¦36147b52¦Sellûm
+kronoloji_cok_libya.js¦1917-01-01¦17b62612¦Tobruk
+kronoloji_cok_once1281_afrika.js¦1049-01-01¦eac7da95¦Kayrevan
+kronoloji_cok_once1281_afrika.js¦1062-01-01¦28980a30¦Fas (Fez)
+kronoloji_cok_once1281_afrika.js¦1073-01-01¦5a9e99b7¦Merakeş
+kronoloji_cok_once1281_afrika.js¦1077-01-01¦eac51f9c¦Tanca
+kronoloji_cok_once1281_afrika.js¦1080-01-01¦d4ff0516¦Cezayir
+kronoloji_cok_once1281_afrika.js¦1084-01-01¦7a9e594b¦Sebte (Ceuta)
+kronoloji_cok_once1281_afrika.js¦1086-01-01¦57fa2b14¦Mao (Kanem)
+kronoloji_cok_once1281_afrika.js¦1087-01-01¦5199b01e¦Mehdiye
+kronoloji_cok_once1281_afrika.js¦1136-01-01¦7c64a267¦Cerbe (Djerba)
+kronoloji_cok_once1281_afrika.js¦1160-01-21¦6e7a0fe6¦Mehdiye
+kronoloji_cok_once1281_afrika.js¦1184-01-01¦3e310a9a¦Merakeş
+kronoloji_cok_once1281_afrika.js¦1184-01-01¦b41a55c7¦Bicâye
+kronoloji_cok_once1281_afrika.js¦1187-01-01¦e84502e2¦Tunus
+kronoloji_cok_once1281_afrika.js¦1228-06-29¦eb450ca0¦Tunus
+kronoloji_cok_once1281_afrika.js¦1233-01-01¦3ba2bec1¦Konstantin
+kronoloji_cok_once1281_afrika.js¦1271-01-01¦445eb9c8¦Tâze (Taza)
+kronoloji_cok_once1281_afrika.js¦1274-01-01¦45e70156¦Sicilmâse (Tâfilelt)
+kronoloji_cok_once1281_afrika.js¦1275-01-01¦b26ca91c¦Niani
+kronoloji_cok_once1281_afrika.js¦1279-08-13¦213c2554¦Tunus
+kronoloji_cok_once1281_anadolu.js¦1024-01-01¦67e905d3¦Diyarbakır
+kronoloji_cok_once1281_anadolu.js¦1027-01-01¦bb075075¦Urfa
+kronoloji_cok_once1281_anadolu.js¦1062-01-01¦f85e1f4a¦Diyarbakır
+kronoloji_cok_once1281_anadolu.js¦1073-01-01¦ed54cedb¦Gence
+kronoloji_cok_once1281_anadolu.js¦1078-01-01¦066cc08a¦İznik
+kronoloji_cok_once1281_anadolu.js¦1082-01-01¦279cd94f¦Tarsus
+kronoloji_cok_once1281_anadolu.js¦1083-01-01¦a1b518b8¦Diyarbakır
+kronoloji_cok_once1281_anadolu.js¦1092-01-01¦2ab1d274¦İznik
+kronoloji_cok_once1281_anadolu.js¦1097-06-30¦65c53771¦Eskişehir
+kronoloji_cok_once1281_anadolu.js¦1100-01-01¦c9455b0c¦Malatya
+kronoloji_cok_once1281_anadolu.js¦1103-01-01¦68fdfd96¦Mardin
+kronoloji_cok_once1281_anadolu.js¦1104-01-01¦ba861d0a¦Sivas
+kronoloji_cok_once1281_anadolu.js¦1106-09-02¦28089f83¦Malatya
+kronoloji_cok_once1281_anadolu.js¦1116-01-01¦146f780f¦Konya
+kronoloji_cok_once1281_anadolu.js¦1118-01-01¦f2182ed0¦Halep
+kronoloji_cok_once1281_anadolu.js¦1121-01-01¦759c104a¦Tiflis
+kronoloji_cok_once1281_anadolu.js¦1122-01-01¦47c4cbeb¦Harput (Elazığ)
+kronoloji_cok_once1281_anadolu.js¦1123-01-01¦4e64da5b¦Şamahı
+kronoloji_cok_once1281_anadolu.js¦1124-06-13¦d1f10b2c¦Malatya
+kronoloji_cok_once1281_anadolu.js¦1129-01-01¦7eb6b912¦Kastamonu
+kronoloji_cok_once1281_anadolu.js¦1131-01-01¦28d7e478¦Urfa
+kronoloji_cok_once1281_anadolu.js¦1135-01-01¦658c7337¦Kastamonu
+kronoloji_cok_once1281_anadolu.js¦1161-01-01¦228ab97a¦Antakya
+kronoloji_cok_once1281_anadolu.js¦1163-01-01¦6c89c8fc¦Sivas
+kronoloji_cok_once1281_anadolu.js¦1168-01-01¦5d01583c¦Bitlis
+kronoloji_cok_once1281_anadolu.js¦1184-01-01¦d08cf585¦Erzurum
+kronoloji_cok_once1281_anadolu.js¦1188-01-01¦a3fcbe01¦Antakya
+kronoloji_cok_once1281_anadolu.js¦1203-07-17¦29febb77¦İstanbul
+kronoloji_cok_once1281_anadolu.js¦1205-01-01¦10b3fc6d¦Nakşa
+kronoloji_cok_once1281_anadolu.js¦1207-01-01¦fed117ab¦Antalya
+kronoloji_cok_once1281_anadolu.js¦1214-01-01¦4e24cf52¦Korfu
+kronoloji_cok_once1281_anadolu.js¦1214-01-01¦aa6163d3¦Sinop
+kronoloji_cok_once1281_anadolu.js¦1214-11-02¦cad3e6f2¦Sinop
+kronoloji_cok_once1281_anadolu.js¦1225-01-01¦f54fd792¦Erzincan
+kronoloji_cok_once1281_anadolu.js¦1227-01-01¦80c2743d¦Tiflis
+kronoloji_cok_once1281_anadolu.js¦1228-01-01¦baa73319¦Trabzon
+kronoloji_cok_once1281_anadolu.js¦1231-01-01¦460b0e97¦Tiflis
+kronoloji_cok_once1281_anadolu.js¦1235-01-01¦5e6f39a7¦Gelibolu
+kronoloji_cok_once1281_anadolu.js¦1240-01-01¦9aa0336d¦Diyarbakır
+kronoloji_cok_once1281_anadolu.js¦1259-01-01¦49da39e4¦Sinop
+kronoloji_cok_once1281_anadolu.js¦1260-01-01¦07386ad1¦Mardin
+kronoloji_cok_once1281_anadolu.js¦1260-01-01¦f18d51c4¦Hasankeyf
+kronoloji_cok_once1281_anadolu.js¦1263-01-01¦8a263fdb¦Ermenek
+kronoloji_cok_once1281_anadolu.js¦1265-01-01¦9cacee65¦Yanya
+kronoloji_cok_once1281_anadolu.js¦1266-01-01¦6471be98¦Sinop
+kronoloji_cok_once1281_avrupa.js¦1001-01-01¦f3f9edd1¦Sofya
+kronoloji_cok_once1281_avrupa.js¦1009-01-01¦1860f177¦Kurtuba (Córdoba)
+kronoloji_cok_once1281_avrupa.js¦1013-01-01¦2b2ed3b4¦Kurtuba (Córdoba)
+kronoloji_cok_once1281_avrupa.js¦1016-01-01¦9c2b47ea¦Kurtuba (Córdoba)
+kronoloji_cok_once1281_avrupa.js¦1016-11-30¦d4adee51¦Londra
+kronoloji_cok_once1281_avrupa.js¦1023-01-01¦6a389dae¦Sevilla
+kronoloji_cok_once1281_avrupa.js¦1034-08-01¦b69c853f¦Zürih
+kronoloji_cok_once1281_avrupa.js¦1036-01-01¦15d4d934¦Toledo
+kronoloji_cok_once1281_avrupa.js¦1036-01-01¦db692e15¦Çernigov
+kronoloji_cok_once1281_avrupa.js¦1039-01-01¦5ea483c9¦Zaragoza
+kronoloji_cok_once1281_avrupa.js¦1061-01-01¦f409d3df¦Messina
+kronoloji_cok_once1281_avrupa.js¦1064-01-01¦38650871¦Coimbra
+kronoloji_cok_once1281_avrupa.js¦1068-01-01¦aac237f6¦Kiev
+kronoloji_cok_once1281_avrupa.js¦1070-01-01¦5f13bd5f¦Kurtuba (Córdoba)
+kronoloji_cok_once1281_avrupa.js¦1071-01-01¦3b0c40dd¦Bari
+kronoloji_cok_once1281_avrupa.js¦1072-01-01¦83843d27¦Palermo
+kronoloji_cok_once1281_avrupa.js¦1076-01-01¦58386720¦Pamplona
+kronoloji_cok_once1281_avrupa.js¦1084-01-01¦2dcb63bc¦Roma
+kronoloji_cok_once1281_avrupa.js¦1085-01-01¦5346e52e¦Prag
+kronoloji_cok_once1281_avrupa.js¦1085-05-08¦d69f8747¦Toledo
+kronoloji_cok_once1281_avrupa.js¦1090-09-08¦fd2741e0¦Granada
+kronoloji_cok_once1281_avrupa.js¦1091-01-01¦125605a8¦Sevilla
+kronoloji_cok_once1281_avrupa.js¦1094-01-01¦95ae9412¦Valensiya
+kronoloji_cok_once1281_avrupa.js¦1094-01-01¦c3e8c376¦Badajoz
+kronoloji_cok_once1281_avrupa.js¦1102-01-01¦23ec486a¦Valensiya
+kronoloji_cok_once1281_avrupa.js¦1105-01-01¦8d8dc4d4¦Zadar (Zara)
+kronoloji_cok_once1281_avrupa.js¦1110-01-01¦05d1ca9d¦Zaragoza
+kronoloji_cok_once1281_avrupa.js¦1118-12-19¦76041218¦Zaragoza
+kronoloji_cok_once1281_avrupa.js¦1146-01-01¦8e6814c5¦Trablus
+kronoloji_cok_once1281_avrupa.js¦1147-01-01¦6d13cf65¦Almería
+kronoloji_cok_once1281_avrupa.js¦1147-01-01¦7a7fa1c0¦Korfu
+kronoloji_cok_once1281_avrupa.js¦1147-10-24¦fa33ba70¦Lizbon
+kronoloji_cok_once1281_avrupa.js¦1148-01-01¦9ddb9db8¦Kurtuba (Córdoba)
+kronoloji_cok_once1281_avrupa.js¦1148-01-01¦f7154425¦Tortosa
+kronoloji_cok_once1281_avrupa.js¦1149-01-01¦c2eb343a¦Lleida
+kronoloji_cok_once1281_avrupa.js¦1152-01-01¦92f718d6¦Poitiers
+kronoloji_cok_once1281_avrupa.js¦1162-01-01¦a669879a¦Milano
+kronoloji_cok_once1281_avrupa.js¦1169-01-01¦697a08d8¦Wexford
+kronoloji_cok_once1281_avrupa.js¦1170-08-23¦b13e41d6¦Waterford
+kronoloji_cok_once1281_avrupa.js¦1172-01-01¦b54c08d2¦Murcia
+kronoloji_cok_once1281_avrupa.js¦1180-09-18¦c8660487¦Paris
+kronoloji_cok_once1281_avrupa.js¦1187-01-01¦00f58729¦Tırnova
+kronoloji_cok_once1281_avrupa.js¦1204-01-01¦544ea414¦Rouen
+kronoloji_cok_once1281_avrupa.js¦1204-01-01¦ce46cceb¦Tırnova
+kronoloji_cok_once1281_avrupa.js¦1204-01-01¦f3b64e23¦Kiev
+kronoloji_cok_once1281_avrupa.js¦1204-01-01¦ff2f17f8¦Dubrovnik
+kronoloji_cok_once1281_avrupa.js¦1218-06-25¦f531d4fe¦Toulouse
+kronoloji_cok_once1281_avrupa.js¦1219-06-15¦c003077c¦Tallinn (Reval)
+kronoloji_cok_once1281_avrupa.js¦1227-01-01¦05f830fa¦Tallinn (Reval)
+kronoloji_cok_once1281_avrupa.js¦1229-12-31¦fb615c33¦Mayorka (Palma)
+kronoloji_cok_once1281_avrupa.js¦1236-01-01¦60365d88¦Bulgar (Bolgar)
+kronoloji_cok_once1281_avrupa.js¦1236-01-01¦bc7469fc¦Kurtuba (Córdoba)
+kronoloji_cok_once1281_avrupa.js¦1238-09-22¦c270b9c5¦Valensiya
+kronoloji_cok_once1281_avrupa.js¦1241-04-09¦98405e59¦Liegnitz (Legnica)
+kronoloji_cok_once1281_avrupa.js¦1243-04-02¦52f75b77¦Murcia
+kronoloji_cok_once1281_avrupa.js¦1248-01-01¦b10d810e¦Sevilla
+kronoloji_cok_once1281_avrupa.js¦1249-01-01¦0cec4087¦Faro
+kronoloji_cok_once1281_avrupa.js¦1255-01-01¦d24d8821¦Königsberg
+kronoloji_cok_once1281_avrupa.js¦1258-01-01¦60ecb70e¦Palermo
+kronoloji_cok_once1281_avrupa.js¦1271-01-01¦88404cc7¦Toulouse
+kronoloji_cok_once1281_avrupa.js¦1277-01-22¦fc861b0d¦Milano
+kronoloji_cok_once1281_dogu_asya.js¦1094-01-01¦25b2c73d¦Dali
+kronoloji_cok_once1281_dogu_asya.js¦1122-01-01¦40786172¦Pekin (Hanbalık)
+kronoloji_cok_once1281_dogu_asya.js¦1124-01-01¦738b057b¦Yinchuan (Ningxia)
+kronoloji_cok_once1281_dogu_asya.js¦1145-01-01¦08a98b62¦Vijaya (Quy Nhơn)
+kronoloji_cok_once1281_dogu_asya.js¦1167-01-01¦851e48c7¦Kyoto
+kronoloji_cok_once1281_dogu_asya.js¦1170-01-01¦87e4bdca¦Kaesong
+kronoloji_cok_once1281_dogu_asya.js¦1190-01-01¦c9bb267d¦Vijaya (Quy Nhơn)
+kronoloji_cok_once1281_dogu_asya.js¦1196-01-01¦e36d5885¦Kaesong
+kronoloji_cok_once1281_dogu_asya.js¦1203-01-01¦28d580e9¦Vijaya (Quy Nhơn)
+kronoloji_cok_once1281_dogu_asya.js¦1214-01-01¦7654fb5e¦Kaifeng
+kronoloji_cok_once1281_dogu_asya.js¦1215-01-01¦0b6b84e5¦Pekin (Hanbalık)
+kronoloji_cok_once1281_dogu_asya.js¦1220-01-01¦de8860c2¦Vijaya (Quy Nhơn)
+kronoloji_cok_once1281_dogu_asya.js¦1221-01-01¦4bb8919e¦Kyoto
+kronoloji_cok_once1281_dogu_asya.js¦1227-01-01¦6f4b1d15¦Yinchuan (Ningxia)
+kronoloji_cok_once1281_dogu_asya.js¦1233-01-01¦2241458b¦Kaifeng
+kronoloji_cok_once1281_dogu_asya.js¦1253-01-01¦b1915c3c¦Dali
+kronoloji_cok_once1281_dogu_asya.js¦1273-01-01¦6db83994¦Xiangyang
+kronoloji_cok_once1281_dogu_asya.js¦1276-01-01¦4a7c41da¦Hangzhou
+kronoloji_cok_once1281_hint_amerika.js¦1006-01-01¦ad4e4f7b¦Multan
+kronoloji_cok_once1281_hint_amerika.js¦1010-01-01¦a0a4ea2b¦Multan
+kronoloji_cok_once1281_hint_amerika.js¦1210-01-01¦bf764ee9¦Devagiri (Devletâbâd)
+kronoloji_cok_once1281_hint_amerika.js¦1211-01-01¦44b31f2e¦Delhi
+kronoloji_cok_once1281_hint_amerika.js¦1228-01-01¦f108a974¦Multan
+kronoloji_cok_once1281_hint_amerika.js¦1266-01-01¦e052e6d3¦Delhi
+kronoloji_cok_once1281_iran.js¦1000-01-01¦4fa19143¦Buhara
+kronoloji_cok_once1281_iran.js¦1007-01-01¦b763de20¦Belh
+kronoloji_cok_once1281_iran.js¦1017-01-01¦85f7dfed¦Köhne Ürgenç (Gürgenç)
+kronoloji_cok_once1281_iran.js¦1023-01-01¦10d811ed¦Hemedan
+kronoloji_cok_once1281_iran.js¦1029-01-01¦a4bf4422¦Kazvin
+kronoloji_cok_once1281_iran.js¦1030-01-01¦fd982854¦Yezd
+kronoloji_cok_once1281_iran.js¦1038-01-01¦73c8426b¦Kirmanşah
+kronoloji_cok_once1281_iran.js¦1041-01-01¦4f96486b¦Isfahan
+kronoloji_cok_once1281_iran.js¦1048-01-01¦03134417¦Kirman
+kronoloji_cok_once1281_iran.js¦1051-01-01¦4af4f5b6¦Isfahan
+kronoloji_cok_once1281_iran.js¦1056-01-01¦994158c0¦Şiraz
+kronoloji_cok_once1281_iran.js¦1062-01-01¦73ea04b1¦Şiraz
+kronoloji_cok_once1281_iran.js¦1072-01-01¦c6c50884¦Termez
+kronoloji_cok_once1281_iran.js¦1104-01-01¦d050fe92¦Şam
+kronoloji_cok_once1281_iran.js¦1117-01-01¦c2505c7c¦Gazne
+kronoloji_cok_once1281_iran.js¦1119-09-10¦2eaab8e9¦Sâve
+kronoloji_cok_once1281_iran.js¦1121-01-01¦93192926¦Tiflis
+kronoloji_cok_once1281_iran.js¦1130-01-01¦217181f7¦Semerkant
+kronoloji_cok_once1281_iran.js¦1132-01-01¦ddab6267¦Hemedan
+kronoloji_cok_once1281_iran.js¦1134-01-01¦8e6c420b¦Hemedan
+kronoloji_cok_once1281_iran.js¦1142-01-01¦41d5facb¦Kirman
+kronoloji_cok_once1281_iran.js¦1153-01-01¦2a55075a¦Belh
+kronoloji_cok_once1281_iran.js¦1168-01-01¦7541285e¦Merâga
+kronoloji_cok_once1281_iran.js¦1170-01-01¦8cda2156¦Kirman
+kronoloji_cok_once1281_iran.js¦1175-01-01¦fdc97d1f¦Multan
+kronoloji_cok_once1281_iran.js¦1179-01-01¦66ab3537¦Kirman
+kronoloji_cok_once1281_iran.js¦1209-01-09¦c1a17d96¦Kirman
+kronoloji_cok_once1281_iran.js¦1213-01-01¦a93ebc9c¦Kirman
+kronoloji_cok_once1281_iran.js¦1215-01-01¦1dd84b8e¦Sığnak (Sunak Kurgan)
+kronoloji_cok_once1281_iran.js¦1220-01-01¦2773e287¦Semerkant
+kronoloji_cok_once1281_iran.js¦1220-02-10¦733460d6¦Buhara
+kronoloji_cok_once1281_iran.js¦1221-01-01¦ddec45a7¦Köhne Ürgenç (Gürgenç)
+kronoloji_cok_once1281_iran.js¦1221-01-01¦fe5492bc¦Merâga
+kronoloji_cok_once1281_iran.js¦1225-01-01¦ecefad3c¦Tebriz
+kronoloji_cok_once1281_iran.js¦1230-01-01¦342c2374¦Kiş (Kish)
+kronoloji_cok_once1281_iran.js¦1238-01-01¦9869c18e¦Moskova
+kronoloji_cok_once1281_iran.js¦1240-01-01¦d9f98b76¦Kiev
+kronoloji_cok_once1281_iran.js¦1241-01-01¦ef28cac8¦Herat
+kronoloji_cok_once1281_iran.js¦1251-01-01¦efdb4976¦Almalık (Almalığ)
+kronoloji_cok_once1281_iran.js¦1260-01-01¦32852792¦Şiraz
+kronoloji_cok_once1281_ortadogu.js¦1001-01-01¦7ea49a4f¦Musul
+kronoloji_cok_once1281_ortadogu.js¦1002-01-01¦7231d912¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1011-01-01¦34e023dd¦Mekke
+kronoloji_cok_once1281_ortadogu.js¦1025-01-01¦ff9401df¦Urfa
+kronoloji_cok_once1281_ortadogu.js¦1030-01-01¦9605accd¦Azez (A'zâz)
+kronoloji_cok_once1281_ortadogu.js¦1036-01-01¦e5aa340e¦Urfa
+kronoloji_cok_once1281_ortadogu.js¦1038-01-01¦6467e745¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1042-01-01¦aba90b92¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1044-04-21¦51696c60¦Musul
+kronoloji_cok_once1281_ortadogu.js¦1048-01-01¦4ccc1fe0¦Sana
+kronoloji_cok_once1281_ortadogu.js¦1048-01-01¦b1b51d3f¦Kirman
+kronoloji_cok_once1281_ortadogu.js¦1055-12-21¦257faa68¦Bağdat
+kronoloji_cok_once1281_ortadogu.js¦1057-01-01¦761199e8¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1057-01-19¦74424be9¦Sincar
+kronoloji_cok_once1281_ortadogu.js¦1058-12-27¦a1bfe588¦Bağdat
+kronoloji_cok_once1281_ortadogu.js¦1060-01-01¦5658ac85¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1060-01-01¦fdd94593¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1061-01-01¦b995297f¦Mekke
+kronoloji_cok_once1281_ortadogu.js¦1063-11-30¦32eb0d79¦Mekke
+kronoloji_cok_once1281_ortadogu.js¦1065-04-20¦9c52ed32¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1067-01-01¦daae65b0¦Katîf
+kronoloji_cok_once1281_ortadogu.js¦1068-01-01¦dbb2bac5¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1079-01-01¦dd475ad4¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1080-01-01¦c3ff801d¦Aden
+kronoloji_cok_once1281_ortadogu.js¦1084-01-01¦9ef47745¦Musul
+kronoloji_cok_once1281_ortadogu.js¦1086-07-11¦6c42f56b¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1086-12-03¦bcf946bc¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1089-01-01¦40e24072¦Medine
+kronoloji_cok_once1281_ortadogu.js¦1089-01-01¦cb2ab334¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1090-01-01¦e8f0c3b9¦Humus
+kronoloji_cok_once1281_ortadogu.js¦1098-01-01¦45fcf704¦Kudüs
+kronoloji_cok_once1281_ortadogu.js¦1098-01-01¦bfb14333¦Sana
+kronoloji_cok_once1281_ortadogu.js¦1102-01-01¦9f1ad334¦Trablusşam
+kronoloji_cok_once1281_ortadogu.js¦1104-01-01¦63274328¦Vâsıt
+kronoloji_cok_once1281_ortadogu.js¦1108-01-01¦58443b71¦Trablusşam
+kronoloji_cok_once1281_ortadogu.js¦1110-01-01¦21f21e9b¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1122-01-01¦f9465281¦Suruç
+kronoloji_cok_once1281_ortadogu.js¦1124-07-07¦bc8516c2¦Sûr (Tyre) — Lübnan
+kronoloji_cok_once1281_ortadogu.js¦1130-01-01¦6f45f96d¦Hama
+kronoloji_cok_once1281_ortadogu.js¦1133-01-01¦c8b5dd86¦Hama
+kronoloji_cok_once1281_ortadogu.js¦1135-09-25¦50a8b3d9¦Merâga
+kronoloji_cok_once1281_ortadogu.js¦1137-01-01¦2e349eab¦Trablusşam
+kronoloji_cok_once1281_ortadogu.js¦1138-01-01¦09046be6¦Sa'de
+kronoloji_cok_once1281_ortadogu.js¦1138-01-01¦146d9c99¦Aden
+kronoloji_cok_once1281_ortadogu.js¦1138-01-01¦c5e91701¦Humus
+kronoloji_cok_once1281_ortadogu.js¦1144-12-24¦85b09711¦Urfa
+kronoloji_cok_once1281_ortadogu.js¦1146-01-01¦4ce11799¦Urfa
+kronoloji_cok_once1281_ortadogu.js¦1148-01-01¦6614f43f¦Şam
+kronoloji_cok_once1281_ortadogu.js¦1154-04-25¦f4a0a2c3¦Şam
+kronoloji_cok_once1281_ortadogu.js¦1157-01-01¦fa551976¦Bağdat
+kronoloji_cok_once1281_ortadogu.js¦1158-01-01¦feb6a3b5¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1164-01-01¦a644d574¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1166-01-01¦38128db7¦Taiz
+kronoloji_cok_once1281_ortadogu.js¦1169-01-18¦ea4aad86¦Kahire
+kronoloji_cok_once1281_ortadogu.js¦1171-01-22¦ea10c599¦Musul
+kronoloji_cok_once1281_ortadogu.js¦1174-01-01¦799f0ab3¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1174-01-01¦e5bc8859¦Zebîd
+kronoloji_cok_once1281_ortadogu.js¦1181-12-29¦bd8312c2¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1183-06-11¦f63787af¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1186-03-03¦a3d3a5b6¦Musul
+kronoloji_cok_once1281_ortadogu.js¦1187-10-02¦831fac85¦Kudüs
+kronoloji_cok_once1281_ortadogu.js¦1191-07-11¦1deaf19b¦Akkâ
+kronoloji_cok_once1281_ortadogu.js¦1193-03-04¦191cd15a¦Şam
+kronoloji_cok_once1281_ortadogu.js¦1200-05-13¦e4be32b1¦Mekke
+kronoloji_cok_once1281_ortadogu.js¦1210-01-01¦37246b09¦Erbil
+kronoloji_cok_once1281_ortadogu.js¦1218-01-01¦d8f37587¦Musul
+kronoloji_cok_once1281_ortadogu.js¦1219-11-05¦90928beb¦Dimyat
+kronoloji_cok_once1281_ortadogu.js¦1220-01-01¦62665c86¦Sincar
+kronoloji_cok_once1281_ortadogu.js¦1221-08-29¦82ee96a2¦Dimyat
+kronoloji_cok_once1281_ortadogu.js¦1225-01-01¦6f7fef56¦Bağdat
+kronoloji_cok_once1281_ortadogu.js¦1229-01-01¦0b060fb0¦Lahsa
+kronoloji_cok_once1281_ortadogu.js¦1229-02-24¦6ef0aa31¦Yafa
+kronoloji_cok_once1281_ortadogu.js¦1233-01-01¦daa3268c¦Katîf
+kronoloji_cok_once1281_ortadogu.js¦1237-01-01¦5be34f6e¦Halep
+kronoloji_cok_once1281_ortadogu.js¦1244-01-01¦df5bfd15¦Katîf
+kronoloji_cok_once1281_ortadogu.js¦1244-07-11¦dba6bbe6¦Kudüs
+kronoloji_cok_once1281_ortadogu.js¦1244-10-20¦6f22003d¦Gazze
+kronoloji_cok_once1281_ortadogu.js¦1248-01-01¦3c32147e¦Humus
+kronoloji_cok_once1281_ortadogu.js¦1249-06-08¦bee392b6¦Dimyat
+kronoloji_cok_once1281_ortadogu.js¦1250-01-01¦5c526e88¦Şam
+kronoloji_cok_once1281_ortadogu.js¦1250-05-07¦f2ef0ec9¦Dimyat
+kronoloji_cok_once1281_ortadogu.js¦1251-01-30¦62e75c53¦Kahire
+kronoloji_cok_once1281_ortadogu.js¦1256-01-01¦2f83fc02¦Katîf
+kronoloji_cok_once1281_ortadogu.js¦1258-01-22¦c0b8519d¦Bağdat
+kronoloji_cok_once1281_ortadogu.js¦1260-01-01¦c042b51a¦Şam
+kronoloji_cok_once1281_ortadogu.js¦1263-01-01¦31d007f2¦Humus
+kronoloji_cok_orta_asya2.js¦1503-06-01¦6c9f4f02¦Taşkent
+kronoloji_cok_orta_asya2.js¦1816-01-01¦eaff9843¦Türkistan (Yesi)
+kronoloji_cok_orta_asya2.js¦1859-05-01¦63989b82¦Feyzâbâd (Bedahşan)
+kronoloji_cok_orta_asya2.js¦1877-05-01¦eca534c6¦Kaşgar
+kronoloji_cok_portekiz.js¦1279-02-16¦80cc154f¦Lizbon
+kronoloji_cok_portekiz.js¦1373-03-24¦aefe5edd¦Lizbon
+kronoloji_cok_portekiz.js¦1387-02-02¦de19d1a1¦Porto
+kronoloji_cok_portekiz.js¦1393-05-15¦d6064f58¦Lizbon
+kronoloji_cok_romanya.js¦1396-09-25¦500a77ac¦Niğbolu
+kronoloji_cok_romanya.js¦1449-01-01¦34ec5f51¦Yergöğü (Giurgiu)
+kronoloji_cok_romanya.js¦1551-06-19¦358a746c¦Erdel Belgradı (Gyulafehérvár)
+kronoloji_cok_romanya.js¦1594-01-01¦663bf9e3¦Bükreş
+kronoloji_cok_romanya.js¦1595-03-01¦67898ba8¦İbrail
+kronoloji_cok_romanya.js¦1595-08-23¦7a1b1b5b¦Bükreş
+kronoloji_cok_romanya.js¦1599-10-28¦4086e6fa¦Erdel Belgradı (Gyulafehérvár)
+kronoloji_cok_romanya.js¦1600-05-01¦86097dec¦Yaş
+kronoloji_cok_romanya.js¦1601-08-03¦88bb6d10¦Erdel (Kaloşvar)
+kronoloji_cok_romanya.js¦1630-01-01¦81dc9019¦Erdel Belgradı (Gyulafehérvár)
+kronoloji_cok_romanya.js¦1634-01-01¦b0fc1a70¦Yaş
+kronoloji_cok_romanya.js¦1699-01-26¦b7e63509¦Yaş
+kronoloji_cok_romanya.js¦1699-01-26¦fbac4afc¦Erdel Belgradı (Gyulafehérvár)
+kronoloji_cok_romanya.js¦1711-07-21¦10f12877¦Yaş
+kronoloji_cok_romanya.js¦1716-01-01¦81f81d4e¦Bükreş
+kronoloji_cok_romanya.js¦1769-01-01¦696fdbf9¦Hotin
+kronoloji_cok_romanya.js¦1775-01-01¦0204c80c¦Suçava (Suceava)
+kronoloji_cok_romanya.js¦1822-01-01¦5290df9f¦Yaş
+kronoloji_cok_romanya.js¦1830-01-01¦7bd07fd2¦Bükreş
+kronoloji_cok_romanya.js¦1848-01-01¦135c9c37¦Bükreş
+kronoloji_cok_rusya.js¦1327-01-01¦8fbe191b¦Moskova
+kronoloji_cok_rusya.js¦1382-08-26¦b2f83f4a¦Moskova
+kronoloji_cok_rusya.js¦1462-01-01¦1a6ef841¦Moskova
+kronoloji_cok_rusya.js¦1858-05-28¦3dafa056¦Aigun
+kronoloji_cok_rusya.js¦1871-01-01¦e9a862f3¦Almalık (Almalığ)
+kronoloji_cok_senkron_0930.js¦1410-06-15¦05a34866¦İstanbul
+kronoloji_cok_senkron_0930.js¦1718-07-21¦cc07e81d¦Belgrad
+kronoloji_cok_senkron_0930.js¦1878-03-03¦feaaf55b¦Kars
+kronoloji_cok_senkron_0930.js¦1903-02-03¦9cd6cb02¦Kano
+kronoloji_cok_senkron_0930.js¦1918-10-30¦36a6b942¦Limni
+kronoloji_cok_sirbistan.js¦1454-01-01¦fe16151c¦Semendire
+kronoloji_cok_sirbistan.js¦1458-01-01¦8dba26ad¦Semendire
+kronoloji_cok_sirbistan.js¦1467-01-01¦c2321e2b¦Semendire
+kronoloji_cok_sirbistan.js¦1718-07-21¦28b729b8¦Belgrad
+kronoloji_cok_sirbistan.js¦1801-12-15¦3949ac76¦Belgrad
+kronoloji_cok_sirbistan.js¦1806-08-13¦ada23d5d¦Böğürdelen (Šabac)
+kronoloji_cok_sirbistan.js¦1839-06-13¦db438763¦Belgrad
+kronoloji_cok_tunus.js¦1252-01-01¦a614a42e¦Tunus
+kronoloji_cok_tunus.js¦1329-01-01¦fd590af7¦Tunus
+kronoloji_cok_tunus.js¦1357-01-01¦b82da65c¦Tunus
+kronoloji_cok_tunus.js¦1494-01-01¦6010db0f¦Tunus
+kronoloji_cok_tunus.js¦1510-01-01¦f858e525¦Halkulvâdî
+kronoloji_cok_tunus.js¦1549-01-01¦db6d4c85¦Sfaks
+kronoloji_cok_tunus.js¦1550-01-01¦db602f25¦Mehdiye
+kronoloji_cok_tunus.js¦1551-01-01¦801302fb¦Kayrevan
+kronoloji_cok_tunus.js¦1586-01-01¦45787855¦Kayrevan
+kronoloji_cok_tunus.js¦1675-01-01¦bc754da0¦Tunus
+kronoloji_cok_tunus.js¦1684-01-01¦302c4263¦Tunus
+kronoloji_cok_tunus.js¦1702-06-09¦7542099e¦Tunus
+kronoloji_cok_tunus.js¦1704-01-01¦a7d14fd4¦Tunus
+kronoloji_cok_tunus.js¦1710-01-01¦b43d8f98¦Tunus
+kronoloji_cok_tunus.js¦1739-05-25¦32edf293¦Kayrevan
+kronoloji_cok_tunus.js¦1756-08-31¦60661acb¦Tunus
+kronoloji_cok_tunus.js¦1768-01-01¦8c879925¦Benzert (Bizerte)
+kronoloji_cok_tunus.js¦1782-05-26¦e5b7a0b3¦Tunus
+kronoloji_cok_tunus.js¦1802-03-04¦090aef87¦Tunus
+kronoloji_cok_tunus.js¦1824-03-29¦a18fe4cf¦Tunus
+kronoloji_cok_tunus.js¦1830-08-17¦8672f9d3¦Tunus
+kronoloji_cok_tunus.js¦1863-01-01¦f531a389¦Tunus
+kronoloji_cok_tunus.js¦1877-07-21¦367cfbdf¦Tunus
+kronoloji_cok_tunus.js¦1881-07-15¦235a055a¦Sfaks
+kronoloji_cok_ukrayna.js¦1676-09-19¦ab4e1a01¦Çehrin (Çigirin)
+kronoloji_cok_ukrayna.js¦1681-01-01¦917b6aff¦Bahçesaray
+kronoloji_cok_ukrayna.js¦1686-05-16¦5b6cf07e¦Kiev
+kronoloji_cok_ukrayna.js¦1687-07-25¦a2724d4c¦Baturin
+kronoloji_cok_ukrayna.js¦1708-11-01¦4e6d8faf¦Baturin
+kronoloji_cok_ukrayna.js¦1709-03-28¦41c73d74¦Zaporojye Seçi
+kronoloji_cok_ukrayna.js¦1918-12-14¦19e85abc¦Kiev
+kronoloji_cok_venedik.js¦1386-01-01¦2d48b781¦Korfu
+kronoloji_cok_venedik.js¦1407-01-01¦81084d54¦İnebahtı
+kronoloji_cok_venedik.js¦1538-01-01¦75de0a87¦Zadar (Zara)
+kronoloji_cok_venedik.js¦1684-01-01¦b76ca26f¦Zadar (Zara)
+kronoloji_cok_venedik.js¦1687-07-01¦53124c85¦İnebahtı
+kronoloji_cok_yunanistan.js¦1318-01-01¦10d57d7d¦Yanya
+kronoloji_cok_yunanistan.js¦1366-01-01¦3a88465e¦Yanya
+kronoloji_cok_yunanistan.js¦1395-01-01¦efae6275¦Mora (Tripoliçe)
+kronoloji_cok_yunanistan.js¦1411-01-01¦2dcb0f38¦Yanya
+kronoloji_dogu_afrika.js¦1285-01-01¦948bf809¦Ankober
+kronoloji_dogu_afrika.js¦1331-01-01¦e2b1cacb¦Kilwa Kisiwani (Kilve)
+kronoloji_dogu_afrika.js¦1332-01-01¦da681782¦Zeyla
+kronoloji_dogu_afrika.js¦1376-01-01¦3c731dc2¦Ankober
+kronoloji_dogu_afrika.js¦1397-01-01¦837c3777¦Dahlak
+kronoloji_dogu_afrika.js¦1415-01-01¦4243fdc7¦Zeyla
+kronoloji_dogu_afrika.js¦1415-01-02¦3d1a0cae¦Zeyla
+kronoloji_dogu_afrika.js¦1500-01-01¦f5b8aa94¦Mombasa
+kronoloji_dogu_afrika.js¦1505-07-24¦cfccc696¦Kilwa Kisiwani (Kilve)
+kronoloji_dogu_afrika.js¦1505-08-14¦b1b8b743¦Mombasa
+kronoloji_dogu_afrika.js¦1506-01-01¦5083f878¦Kilwa Kisiwani (Kilve)
+kronoloji_dogu_afrika.js¦1513-01-02¦fb54ba79¦Dahlak
+kronoloji_dogu_afrika.js¦1516-01-01¦9ea993a6¦Mombasa
+kronoloji_dogu_afrika.js¦1520-01-01¦4ac164da¦Harar
+kronoloji_dogu_afrika.js¦1527-01-01¦d81d50ec¦Harar
+kronoloji_dogu_afrika.js¦1528-01-02¦c45ea709¦Mombasa
+kronoloji_dogu_afrika.js¦1530-01-01¦4a8112d5¦Kilwa Kisiwani (Kilve)
+kronoloji_dogu_afrika.js¦1531-01-02¦e2aacd60¦Aksum
+kronoloji_dogu_afrika.js¦1532-01-01¦501528ed¦Mogadişu
+kronoloji_dogu_afrika.js¦1543-02-22¦98a0b9a3¦Harar
+kronoloji_dogu_afrika.js¦1551-01-01¦b9837863¦Harar
+kronoloji_dogu_afrika.js¦1554-01-01¦f295979a¦Harar
+kronoloji_dogu_afrika.js¦1554-04-01¦7fa02552¦İstanbul
+kronoloji_dogu_afrika.js¦1555-07-05¦25f0f115¦Sevâkin
+kronoloji_dogu_afrika.js¦1557-04-02¦335d6048¦Masavva
+kronoloji_dogu_afrika.js¦1570-01-01¦1645fcbc¦Mombasa
+kronoloji_dogu_afrika.js¦1585-01-02¦91b36216¦Mogadişu
+kronoloji_dogu_afrika.js¦1589-01-01¦9479cda7¦Mombasa
+kronoloji_dogu_afrika.js¦1589-03-05¦d231b743¦Mombasa
+kronoloji_dogu_afrika.js¦1592-01-01¦219ad335¦Mombasa
+kronoloji_dogu_afrika.js¦1647-01-01¦fafc5c98¦Harar
+kronoloji_dogu_afrika.js¦1667-01-01¦fe919ce7¦Gondar
+kronoloji_dogu_afrika.js¦1698-01-01¦44d5e1fe¦Masavva
+kronoloji_dogu_afrika.js¦1846-01-01¦c9f6547b¦Masavva
+kronoloji_dogu_afrika.js¦1853-01-01¦8f7bab38¦Debre Tabor
+kronoloji_dogu_afrika.js¦1856-01-01¦e22d4c18¦Harar
+kronoloji_dogu_afrika.js¦1859-01-01¦fd908da3¦Tacûra
+kronoloji_dogu_afrika.js¦1865-01-02¦86b20750¦Berbera
+kronoloji_dogu_afrika.js¦1868-01-01¦f5b2d67b¦Mekdelâ
+kronoloji_dogu_afrika.js¦1872-01-03¦7ea7872b¦Mengo (Buganda)
+kronoloji_dogu_afrika.js¦1875-01-01¦f9153255¦Berbera
+kronoloji_dogu_afrika.js¦1875-10-11¦798e3d8c¦Harar
+kronoloji_dogu_afrika.js¦1886-01-01¦6eac5015¦Dahlak
+kronoloji_dogu_afrika.js¦1887-01-02¦4a35133c¦Berbera
+kronoloji_dogu_afrika.js¦1888-01-01¦36deeea4¦Zeyla
+kronoloji_dogu_afrika.js¦1890-01-02¦eebf6639¦Zanzibar (Zengibar)
+kronoloji_dogu_afrika.js¦1891-03-02¦630b2acf¦Berâve
+kronoloji_dogu_afrika.js¦1892-01-01¦7551cfa4¦Mogadişu
+kronoloji_dogu_afrika.js¦1894-06-18¦8847bba5¦Mengo (Buganda)
+kronoloji_dogu_afrika.js¦1902-01-02¦0b51980e¦Mogadişu
+kronoloji_dogu_afrika.js¦1911-01-02¦d3a4b4cb¦Mogadişu
+kronoloji_dogu_afrika.js¦1916-01-01¦f0506872¦Zeyla
+kronoloji_dogu_afrika.js¦1922-01-01¦17f4c3b9¦Addis
+kronoloji_fransa.js¦1356-09-19¦6fd9ccbf¦Poitiers
+kronoloji_fransa.js¦1364-04-08¦ff074538¦Reims
+kronoloji_fransa.js¦1431-05-30¦f00b6151¦Rouen
+kronoloji_fransa.js¦1435-09-21¦54a1cf5f¦Arras
+kronoloji_fransa.js¦1477-01-05¦b208f5a5¦Nancy
+kronoloji_fransa.js¦1491-12-06¦708b98eb¦Nantes
+kronoloji_fransa.js¦1526-01-14¦e8c5010c¦Madrid
+kronoloji_fransa.js¦1648-10-24¦e0d21686¦Münster
+kronoloji_fransa.js¦1720-10-07¦729c132c¦Paris
+kronoloji_fransa.js¦1740-01-01¦3d577fa8¦İstanbul
+kronoloji_fransa.js¦1763-02-10¦4f19aaa8¦Paris
+kronoloji_fransa.js¦1789-07-14¦6c414c0d¦Paris
+kronoloji_fransa.js¦1802-05-01¦599e6f5e¦Paris
+kronoloji_fransa.js¦1804-03-21¦b8039347¦Paris
+kronoloji_fransa.js¦1804-12-02¦f7b7f82f¦Paris
+kronoloji_fransa.js¦1806-11-21¦9b510558¦Berlin
+kronoloji_fransa.js¦1809-05-17¦7d8021d3¦Viyana
+kronoloji_fransa.js¦1812-06-24¦a5228100¦Moskova
+kronoloji_fransa.js¦1815-06-09¦23ae40b4¦Viyana
+kronoloji_fransa.js¦1840-07-15¦a78d872d¦Londra
+kronoloji_fransa.js¦1870-09-04¦35f101fb¦Paris
+kronoloji_fransa.js¦1871-05-10¦dc2430aa¦Frankfurt
+kronoloji_fransa.js¦1911-11-04¦5d6bf82b¦Berlin
+kronoloji_fransa.js¦1916-05-16¦f401953e¦Londra
+kronoloji_fransa.js¦1921-10-20¦c0c6b7c7¦Ankara
+kronoloji_guney_asya.js¦1299-01-01¦b08bb84d¦Kolam (Quilon)
+kronoloji_guney_asya.js¦1326-01-01¦07cf7873¦Çitor (Chittorgarh)
+kronoloji_guney_asya.js¦1351-01-01¦4b9fa6cd¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1351-01-01¦c3397230¦Katmandu
+kronoloji_guney_asya.js¦1367-01-01¦c2eaee94¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1428-01-01¦8c63bef6¦Katmandu
+kronoloji_guney_asya.js¦1467-01-01¦5f631660¦İmphâl (Manipûr)
+kronoloji_guney_asya.js¦1482-01-01¦9a895576¦Katmandu
+kronoloji_guney_asya.js¦1508-01-01¦ee4f6fdd¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1520-01-01¦b7612de0¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1535-01-01¦55e7196f¦Çitor (Chittorgarh)
+kronoloji_guney_asya.js¦1554-01-01¦4fe7cb0f¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1573-01-01¦5fdf9b26¦Şikârpûr
+kronoloji_guney_asya.js¦1576-06-18¦721ad70f¦Udeypûr (Udaipur)
+kronoloji_guney_asya.js¦1591-01-01¦ad87692d¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1600-01-01¦2911f0f9¦Katmandu
+kronoloji_guney_asya.js¦1661-01-01¦fba78f12¦Kolam (Quilon)
+kronoloji_guney_asya.js¦1701-01-01¦02c52e59¦Haydarâbâd (Sind)
+kronoloji_guney_asya.js¦1707-01-01¦b27b771c¦Codhpûr (Jodhpur)
+kronoloji_guney_asya.js¦1734-07-17¦5e78fbf1¦Ecmîr (Ajmer)
+kronoloji_guney_asya.js¦1740-01-01¦5998b8f2¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1743-01-01¦00594b74¦Katmandu
+kronoloji_guney_asya.js¦1754-01-01¦b4ba5d4d¦Şikârpûr
+kronoloji_guney_asya.js¦1768-09-25¦56529ed4¦Katmandu
+kronoloji_guney_asya.js¦1769-01-01¦d854d005¦Katmandu
+kronoloji_guney_asya.js¦1772-01-01¦6a55886b¦Tatta (Thatta)
+kronoloji_guney_asya.js¦1783-01-01¦4bffdc47¦Haydarâbâd (Sind)
+kronoloji_guney_asya.js¦1806-04-01¦2ba5567e¦Katmandu
+kronoloji_guney_asya.js¦1816-03-04¦a825fea0¦Katmandu
+kronoloji_guney_asya.js¦1843-03-24¦8fee10c2¦Haydarâbâd (Sind)
+kronoloji_guney_asya.js¦1846-09-14¦b48db9f4¦Katmandu
+kronoloji_guney_asya.js¦1853-01-01¦5ded2a62¦Karaçi
+kronoloji_guney_asya.js¦1857-06-01¦20535bf5¦Ecmîr (Ajmer)
+kronoloji_guney_asya.js¦1857-12-01¦85c5ae5d¦Leknev (Lucknow)
+kronoloji_gurcistan.js¦0645-01-01¦5fa01307¦Tiflis
+kronoloji_gurcistan.js¦1063-01-01¦b4780337¦Tiflis
+kronoloji_gurcistan.js¦1122-01-01¦4c02c706¦Tiflis
+kronoloji_gurcistan.js¦1479-01-01¦bb0bd1b0¦Batum
+kronoloji_gurcistan.js¦1578-08-09¦664eb6e9¦Ardahan
+kronoloji_gurcistan.js¦1603-10-21¦f8881a09¦Tiflis
+kronoloji_gurcistan.js¦1635-01-01¦fde30b85¦Ahıska
+kronoloji_gurcistan.js¦1724-01-01¦1b90bbf8¦Tiflis
+kronoloji_gurcistan.js¦1762-01-08¦12dce1a4¦Tiflis
+kronoloji_gurcistan.js¦1783-07-24¦ab33eb1d¦Tiflis
+kronoloji_gurcistan.js¦1795-01-01¦93d2dd01¦Tiflis
+kronoloji_gurcistan.js¦1798-01-11¦bb7d3fb3¦Tiflis
+kronoloji_gurcistan.js¦1804-01-01¦0b754d00¦Kutaisi
+kronoloji_gurcistan.js¦1811-01-01¦650b92a6¦Tiflis
+kronoloji_habsburg.js¦1538-02-24¦bb3cd159¦Varad (Oradea)
+kronoloji_habsburg.js¦1555-01-01¦63176154¦Augsburg
+kronoloji_habsburg.js¦1600-01-01¦15cbdb68¦Prag
+kronoloji_habsburg.js¦1683-07-14¦ae803652¦Viyana
+kronoloji_habsburg.js¦1699-01-26¦4f19a72d¦Varadin (Petrovaradin)
+kronoloji_habsburg.js¦1745-09-13¦7f9e3440¦Frankfurt
+kronoloji_habsburg.js¦1748-10-01¦9cf5f980¦Aachen
+kronoloji_habsburg.js¦1749-01-01¦ed131f40¦Viyana
+kronoloji_habsburg.js¦1772-01-01¦c6663750¦Lvov
+kronoloji_habsburg.js¦1781-11-01¦2b666227¦Viyana
+kronoloji_habsburg.js¦1782-01-12¦238efd3b¦Viyana
+kronoloji_habsburg.js¦1790-02-20¦712cca83¦Viyana
+kronoloji_habsburg.js¦1804-08-11¦97592ae4¦Viyana
+kronoloji_habsburg.js¦1810-04-01¦f762ec8e¦Viyana
+kronoloji_habsburg.js¦1815-06-09¦4cac2996¦Viyana
+kronoloji_habsburg.js¦1848-03-13¦fcb8e28f¦Viyana
+kronoloji_habsburg.js¦1866-10-03¦32f2179b¦Viyana
+kronoloji_habsburg.js¦1878-07-13¦acefb446¦Berlin
+kronoloji_hindistan.js¦1296-07-19¦978d7245¦Delhi
+kronoloji_hindistan.js¦1298-01-01¦a199a0fa¦Patan (Anhilvâda)
+kronoloji_hindistan.js¦1310-02-26¦75ca3911¦Varangal (Warangal)
+kronoloji_hindistan.js¦1329-01-01¦512010a2¦Delhi
+kronoloji_hindistan.js¦1334-01-01¦0c70d392¦Madurai
+kronoloji_hindistan.js¦1339-01-01¦079427ed¦Srinagar (Keşmir)
+kronoloji_hindistan.js¦1414-01-01¦0c4c49af¦Gaur (Lakhnautî)
+kronoloji_hindistan.js¦1414-05-28¦e4f2385f¦Delhi
+kronoloji_hindistan.js¦1509-02-03¦fe41d168¦Diu
+kronoloji_hindistan.js¦1527-03-16¦e9817af7¦Ecmîr (Ajmer)
+kronoloji_hindistan.js¦1538-04-06¦67b2759d¦Gaur (Lakhnautî)
+kronoloji_hindistan.js¦1556-01-27¦1aff4b6a¦Delhi
+kronoloji_hindistan.js¦1562-01-01¦b7d674d8¦Agra
+kronoloji_hindistan.js¦1573-08-20¦918887c4¦Ahmedâbâd
+kronoloji_hindistan.js¦1573-08-20¦c74b7fbb¦Ahmedâbâd
+kronoloji_hindistan.js¦1574-01-01¦e7e15cce¦Benâres (Vârânasî)
+kronoloji_hindistan.js¦1576-04-03¦34be7536¦Gaur (Lakhnautî)
+kronoloji_hindistan.js¦1586-01-01¦6355e0af¦Srinagar (Keşmir)
+kronoloji_hindistan.js¦1595-01-01¦153c1e9c¦Ahmednagar
+kronoloji_hindistan.js¦1658-07-31¦6d0227c4¦Delhi
+kronoloji_hindistan.js¦1739-03-13¦e1effd70¦Delhi
+kronoloji_hindistan.js¦1761-01-01¦23d6ad4b¦Seringapatam (Şrirangapatnam)
+kronoloji_hindistan.js¦1761-01-14¦ed5738cd¦Pânipat
+kronoloji_hindistan.js¦1780-01-01¦87a75aa5¦Seringapatam (Şrirangapatnam)
+kronoloji_hindistan.js¦1792-03-18¦8c46ccba¦Seringapatam (Şrirangapatnam)
+kronoloji_hindistan.js¦1799-05-04¦f852a192¦Seringapatam (Şrirangapatnam)
+kronoloji_hindistan.js¦1799-07-07¦a6515f51¦Lahor
+kronoloji_hindistan.js¦1846-03-09¦a8587a77¦Lahor
+kronoloji_hollanda.js¦1585-08-17¦387e261b¦Anvers (Antwerpen)
+kronoloji_hollanda.js¦1602-01-01¦44f8ef3c¦Amsterdam
+kronoloji_hollanda.js¦1602-03-20¦577d65d1¦Amsterdam
+kronoloji_hollanda.js¦1604-01-01¦9ade5020¦İstanbul
+kronoloji_hollanda.js¦1612-07-06¦5bbcc883¦İstanbul
+kronoloji_hollanda.js¦1652-04-06¦4d72304c¦Kap (Cape Town)
+kronoloji_hollanda.js¦1795-01-19¦98406eb1¦Amsterdam
+kronoloji_hollanda.js¦1799-12-31¦b39a857d¦Amsterdam
+kronoloji_hollanda.js¦1830-08-25¦e3a8f280¦Brüksel
+kronoloji_hollanda.js¦1839-04-19¦eaa71534¦Londra
+kronoloji_ingiltere.js¦1295-11-13¦be4927e3¦Londra
+kronoloji_ingiltere.js¦1328-05-01¦ab31ae53¦Edinburg
+kronoloji_ingiltere.js¦1356-09-19¦6b720a50¦Poitiers
+kronoloji_ingiltere.js¦1381-06-13¦0da7e68a¦Londra
+kronoloji_ingiltere.js¦1431-05-30¦9b3368a0¦Rouen
+kronoloji_ingiltere.js¦1483-06-26¦f7201916¦Londra
+kronoloji_ingiltere.js¦1541-06-18¦76b8cece¦Dublin
+kronoloji_ingiltere.js¦1542-01-01¦8b890a13¦Londra
+kronoloji_ingiltere.js¦1553-01-01¦a6f675f5¦İstanbul
+kronoloji_ingiltere.js¦1643-09-25¦a382c16c¦Edinburg
+kronoloji_ingiltere.js¦1652-08-12¦e66a28d9¦Londra
+kronoloji_ingiltere.js¦1660-11-28¦4754af7b¦Londra
+kronoloji_ingiltere.js¦1665-06-01¦e4e77591¦Londra
+kronoloji_ingiltere.js¦1673-03-29¦903edc75¦Londra
+kronoloji_ingiltere.js¦1691-10-03¦bc9d74d7¦Limerick
+kronoloji_ingiltere.js¦1694-07-27¦190fc5e4¦Londra
+kronoloji_ingiltere.js¦1752-09-14¦71b38121¦Londra
+kronoloji_ingiltere.js¦1759-09-13¦d15a9ba6¦Quebec
+kronoloji_ingiltere.js¦1763-02-10¦b2b48fb6¦Paris
+kronoloji_ingiltere.js¦1783-09-03¦5e8ad128¦Paris
+kronoloji_ingiltere.js¦1799-01-01¦92de0e6f¦İstanbul
+kronoloji_ingiltere.js¦1840-07-15¦77bafb20¦Londra
+kronoloji_ingiltere.js¦1841-07-13¦3d528b2f¦Londra
+kronoloji_ingiltere.js¦1857-05-10¦233c51f9¦Delhi
+kronoloji_ingiltere.js¦1875-11-25¦de1ea972¦Londra
+kronoloji_ingiltere.js¦1884-11-15¦04ce473c¦Berlin
+kronoloji_ingiltere.js¦1914-08-04¦4e3c47a1¦Londra
+kronoloji_ingiltere.js¦1914-11-05¦43664b91¦Lefkoşa
+kronoloji_ingiltere.js¦1915-04-25¦f9860abc¦Gelibolu
+kronoloji_ingiltere.js¦1918-10-30¦8e4e73b0¦Limni
+kronoloji_iran.js¦1353-01-01¦63ed9e21¦Şiraz
+kronoloji_iran.js¦1514-08-23¦04a65b1c¦Çaldıran
+kronoloji_iran.js¦1590-03-21¦50205b8d¦İstanbul
+kronoloji_iran.js¦1649-01-01¦dd837c73¦Kandehar
+kronoloji_iran.js¦1722-10-23¦a443c622¦Isfahan
+kronoloji_iran.js¦1729-01-01¦944a8959¦Isfahan
+kronoloji_iran.js¦1739-03-13¦d7841306¦Delhi
+kronoloji_iran.js¦1775-04-16¦5cf88f05¦Basra
+kronoloji_iran.js¦1795-01-01¦1f3d794e¦Tiflis
+kronoloji_iran.js¦1804-06-10¦db21df17¦Revan
+kronoloji_iran.js¦1834-10-23¦bc8a720b¦Isfahan
+kronoloji_iran.js¦1837-11-23¦524cf8c0¦Herat
+kronoloji_iran.js¦1856-10-01¦3f87bc25¦Herat
+kronoloji_iran.js¦1908-06-23¦3fd0e784¦Tahran
+kronoloji_iran.js¦1909-07-16¦fbf06a8c¦Tahran
+kronoloji_iran.js¦1911-11-24¦650fbc95¦Tahran
+kronoloji_iran.js¦1914-11-01¦5d0a9b40¦Tahran
+kronoloji_iran.js¦1915-01-01¦0d7eacc8¦Urmiye
+kronoloji_iran.js¦1919-08-09¦312180b8¦Tahran
+kronoloji_iran.js¦1921-02-21¦26aec885¦Tahran
+kronoloji_iran.js¦1923-10-28¦58314cb9¦Tahran
+kronoloji_iran_ardillari.js¦1245-01-01¦7b5fd521¦Herat
+kronoloji_iran_ardillari.js¦1256-01-01¦c1dabdfc¦Kazvin
+kronoloji_iran_ardillari.js¦1258-02-10¦2729b3a1¦Bağdat
+kronoloji_iran_ardillari.js¦1259-01-01¦b434a832¦Merâga
+kronoloji_iran_ardillari.js¦1289-01-01¦a83c2978¦Tebriz
+kronoloji_iran_ardillari.js¦1291-01-01¦47bb5b07¦Yezd
+kronoloji_iran_ardillari.js¦1295-01-01¦a421e3d3¦Tebriz
+kronoloji_iran_ardillari.js¦1295-03-24¦42098567¦Tebriz
+kronoloji_iran_ardillari.js¦1304-05-17¦6c026ffa¦Kazvin
+kronoloji_iran_ardillari.js¦1304-05-21¦e7f7517d¦Tebriz
+kronoloji_iran_ardillari.js¦1316-12-16¦445e9333¦Sultâniye
+kronoloji_iran_ardillari.js¦1320-01-01¦27980d0d¦Zerenc (Sîstan)
+kronoloji_iran_ardillari.js¦1335-12-15¦ac4f87ff¦Tebriz
+kronoloji_iran_ardillari.js¦1336-01-01¦19a457ed¦Tebriz
+kronoloji_iran_ardillari.js¦1338-01-01¦4b0df7a5¦Şiraz
+kronoloji_iran_ardillari.js¦1338-01-01¦cf2b0ed0¦Bağdat
+kronoloji_iran_ardillari.js¦1339-01-01¦5a3d56c7¦Sebzevâr
+kronoloji_iran_ardillari.js¦1340-01-01¦556a44df¦Şiraz
+kronoloji_iran_ardillari.js¦1340-01-01¦d759b167¦Nîşâbur
+kronoloji_iran_ardillari.js¦1341-01-01¦f4c22e5d¦Şiraz
+kronoloji_iran_ardillari.js¦1342-02-01¦a4accc57¦Esterâbâd (Gürgân)
+kronoloji_iran_ardillari.js¦1343-01-01¦73e55726¦Şiraz
+kronoloji_iran_ardillari.js¦1346-05-01¦d5dc51b2¦Sebzevâr
+kronoloji_iran_ardillari.js¦1348-01-01¦0b8d3ce5¦Şiraz
+kronoloji_iran_ardillari.js¦1352-01-01¦2298152d¦Kirman
+kronoloji_iran_ardillari.js¦1353-01-01¦63ed9e21¦Şiraz
+kronoloji_iran_ardillari.js¦1355-01-01¦067e8285¦Şiraz
+kronoloji_iran_ardillari.js¦1355-01-01¦894d7575¦Tebriz
+kronoloji_iran_ardillari.js¦1357-01-01¦911af573¦Kirman
+kronoloji_iran_ardillari.js¦1357-05-12¦8bf706cf¦Şiraz
+kronoloji_iran_ardillari.js¦1358-01-01¦3b870b87¦Tebriz
+kronoloji_iran_ardillari.js¦1358-01-01¦5d77a279¦Tebriz
+kronoloji_iran_ardillari.js¦1358-01-01¦cd1796dc¦Esterâbâd (Gürgân)
+kronoloji_iran_ardillari.js¦1361-01-01¦b3c7444d¦Meşhed
+kronoloji_iran_ardillari.js¦1361-05-01¦05185f5f¦Sebzevâr
+kronoloji_iran_ardillari.js¦1362-01-01¦5602c2c8¦Sebzevâr
+kronoloji_iran_ardillari.js¦1364-01-01¦0e75bf66¦Musul
+kronoloji_iran_ardillari.js¦1366-01-01¦97e507ad¦Musul
+kronoloji_iran_ardillari.js¦1376-01-01¦0d9b85b7¦Sebzevâr
+kronoloji_iran_ardillari.js¦1379-01-01¦b5c73914¦Sebzevâr
+kronoloji_iran_ardillari.js¦1381-01-01¦6ed6c17f¦Herat
+kronoloji_iran_ardillari.js¦1384-01-01¦bb3bc86a¦Bağdat
+kronoloji_iran_ardillari.js¦1400-01-01¦655789c9¦Bağdat
+kronoloji_iran_ardillari.js¦1421-01-01¦b124b9d2¦Hille
+kronoloji_iran_ardillari.js¦1431-01-01¦ecf35055¦Hille
+kronoloji_ispanya.js¦1492-01-01¦11fd43c6¦Salamanca
+kronoloji_ispanya.js¦1502-01-01¦507a7712¦Granada
+kronoloji_ispanya.js¦1520-05-29¦f0734049¦Toledo
+kronoloji_ispanya.js¦1526-01-14¦e8c5010c¦Madrid
+kronoloji_ispanya.js¦1538-09-28¦4049241b¦Preveze
+kronoloji_ispanya.js¦1539-01-01¦9cfde051¦Valladolid
+kronoloji_ispanya.js¦1550-08-15¦24d72654¦Valladolid
+kronoloji_ispanya.js¦1580-08-25¦10f36d1b¦Lizbon
+kronoloji_ispanya.js¦1580-09-19¦a48de16c¦Cezayir
+kronoloji_ispanya.js¦1584-09-13¦b944cc70¦Madrid
+kronoloji_ispanya.js¦1621-04-09¦65dc1f11¦Amsterdam
+kronoloji_ispanya.js¦1648-01-30¦7374207f¦Amsterdam
+kronoloji_ispanya.js¦1665-09-17¦16b18720¦Madrid
+kronoloji_ispanya.js¦1668-02-13¦7d1ea2a5¦Lizbon
+kronoloji_ispanya.js¦1713-07-13¦11da6c60¦Utrecht
+kronoloji_ispanya.js¦1714-09-11¦0ab34a7f¦Barselona
+kronoloji_ispanya.js¦1716-01-16¦377b6c78¦Barselona
+kronoloji_ispanya.js¦1763-02-10¦1a464a86¦Paris
+kronoloji_ispanya.js¦1766-03-23¦b4a03596¦Madrid
+kronoloji_ispanya.js¦1782-02-05¦190ecd39¦Menorka (Mahon)
+kronoloji_ispanya.js¦1786-01-01¦73a47e70¦Madrid
+kronoloji_ispanya.js¦1793-03-23¦f149ef81¦Madrid
+kronoloji_ispanya.js¦1795-07-22¦a2f46d98¦Basel
+kronoloji_ispanya.js¦1808-05-02¦b734aa1a¦Madrid
+kronoloji_ispanya.js¦1808-06-06¦d55a05a2¦Madrid
+kronoloji_ispanya.js¦1812-03-19¦26b314a6¦Cádiz
+kronoloji_ispanya.js¦1814-01-01¦9f0d1aaf¦Madrid
+kronoloji_ispanya.js¦1868-09-19¦43dc0757¦Cádiz
+kronoloji_ispanya.js¦1876-06-30¦4ac3cb5a¦Madrid
+kronoloji_ispanya.js¦1898-12-10¦163492dc¦Manila
+kronoloji_ispanya.js¦1900-03-27¦fc3f6a34¦Madrid
+kronoloji_ispanya.js¦1912-11-27¦6de3d563¦Fas (Fez)
+kronoloji_ispanya.js¦1923-09-13¦daf5a9b6¦Madrid
+kronoloji_isvec.js¦1604-03-01¦8f8c6f7a¦Norrköping
+kronoloji_isvec.js¦1655-07-01¦ee469a0a¦Varşova
+kronoloji_isvec.js¦1710-11-20¦909c5608¦İstanbul
+kronoloji_isvec.js¦1713-02-12¦9002124f¦Bender
+kronoloji_isvec.js¦1714-07-12¦4b55370b¦Dimetoka
+kronoloji_isvec.js¦1805-10-04¦cd53d59c¦İstanbul
+kronoloji_isvec.js¦1814-01-14¦ded1ce76¦Kiel
+kronoloji_isvec.js¦1840-01-31¦1c0cd2ab¦İstanbul
+kronoloji_italya.js¦1282-03-30¦7858170d¦Palermo
+kronoloji_italya.js¦1302-03-10¦6695f601¦Floransa
+kronoloji_italya.js¦1346-01-01¦b6521eb1¦Kefe
+kronoloji_italya.js¦1348-01-01¦1d9017b1¦Siena
+kronoloji_italya.js¦1395-05-11¦95a03a2c¦Milano
+kronoloji_italya.js¦1434-09-26¦12fc1c71¦Floransa
+kronoloji_italya.js¦1439-07-06¦45d0df37¦Floransa
+kronoloji_italya.js¦1442-06-02¦dfcdb64e¦Napoli
+kronoloji_italya.js¦1455-01-01¦b1e8d5ec¦Sakız
+kronoloji_italya.js¦1461-08-15¦bf457999¦Amasra
+kronoloji_italya.js¦1476-12-26¦63782a18¦Milano
+kronoloji_italya.js¦1492-08-11¦f458fb35¦Roma
+kronoloji_italya.js¦1494-11-09¦e3e2230c¦Floransa
+kronoloji_italya.js¦1499-10-06¦43ef2944¦Milano
+kronoloji_italya.js¦1504-01-01¦a96bf1fc¦Napoli
+kronoloji_italya.js¦1512-09-01¦c6e20d30¦Floransa
+kronoloji_italya.js¦1513-01-01¦727e1b26¦Floransa
+kronoloji_italya.js¦1530-08-12¦dabd75ba¦Floransa
+kronoloji_italya.js¦1713-04-11¦59a17d27¦Utrecht
+kronoloji_italya.js¦1714-01-01¦780d9b77¦Milano
+kronoloji_italya.js¦1720-08-02¦2ce5e487¦Torino
+kronoloji_italya.js¦1746-12-05¦beeeb7f5¦Cenova
+kronoloji_italya.js¦1797-07-09¦dc51036e¦Milano
+kronoloji_italya.js¦1798-02-15¦3536e795¦Roma
+kronoloji_italya.js¦1798-12-09¦ae726420¦Torino
+kronoloji_italya.js¦1799-03-25¦49f37e40¦Floransa
+kronoloji_italya.js¦1806-03-30¦06813186¦Napoli
+kronoloji_italya.js¦1809-05-17¦6f5e5297¦Roma
+kronoloji_italya.js¦1814-05-20¦617bdd01¦Torino
+kronoloji_italya.js¦1814-05-24¦adb66af1¦Roma
+kronoloji_italya.js¦1814-09-01¦e41b83d7¦Floransa
+kronoloji_italya.js¦1815-04-07¦78440da8¦Milano
+kronoloji_italya.js¦1855-01-10¦0a17ebfa¦Torino
+kronoloji_italya.js¦1859-01-01¦a2e101a0¦Modena
+kronoloji_italya.js¦1859-04-27¦678ad1b7¦Floransa
+kronoloji_italya.js¦1859-04-29¦1a79df79¦Torino
+kronoloji_italya.js¦1859-11-10¦e61163fe¦Zürih
+kronoloji_italya.js¦1860-03-22¦6b9d4cce¦Floransa
+kronoloji_italya.js¦1860-03-24¦abbda8bd¦Torino
+kronoloji_italya.js¦1860-05-27¦8125b129¦Palermo
+kronoloji_italya.js¦1860-09-07¦213b1b27¦Napoli
+kronoloji_italya.js¦1860-10-21¦6773f968¦Napoli
+kronoloji_italya.js¦1860-11-04¦a3619f91¦Torino
+kronoloji_italya.js¦1861-06-06¦2e48014f¦Torino
+kronoloji_italya.js¦1908-12-28¦be8dbcbe¦Messina
+kronoloji_italya.js¦1914-08-03¦1b047553¦Roma
+kronoloji_italya.js¦1922-10-28¦c295f014¦Roma
+kronoloji_italya_sehir.js¦1287-01-02¦340c2a1b¦Siena
+kronoloji_italya_sehir.js¦1288-06-01¦0617474d¦Modena
+kronoloji_italya_sehir.js¦1298-09-08¦20a2c52c¦Venedik
+kronoloji_italya_sehir.js¦1299-05-25¦34a08ba0¦Milano
+kronoloji_italya_sehir.js¦1308-01-01¦e6131944¦Kefe
+kronoloji_italya_sehir.js¦1308-09-01¦20e3dbe3¦Ferrara
+kronoloji_italya_sehir.js¦1311-01-01¦0a4f3e9a¦Cenova
+kronoloji_italya_sehir.js¦1311-06-09¦a5bf5473¦Siena
+kronoloji_italya_sehir.js¦1318-01-01¦dfe8323e¦Cenova
+kronoloji_italya_sehir.js¦1346-06-15¦ccd35cd0¦Sakız
+kronoloji_italya_sehir.js¦1347-10-23¦96997e16¦Cenova
+kronoloji_italya_sehir.js¦1353-08-27¦7a845366¦Cenova
+kronoloji_italya_sehir.js¦1373-10-01¦02f61e2a¦Magosa
+kronoloji_italya_sehir.js¦1377-01-02¦03bad4f7¦Siena
+kronoloji_italya_sehir.js¦1379-08-16¦baa132dd¦Venedik
+kronoloji_italya_sehir.js¦1380-06-24¦7a04d0fa¦Venedik
+kronoloji_italya_sehir.js¦1381-09-01¦b6c665f6¦Cenova
+kronoloji_italya_sehir.js¦1396-09-25¦548b0688¦Niğbolu
+kronoloji_italya_sehir.js¦1396-11-25¦dcccc2c8¦Cenova
+kronoloji_italya_sehir.js¦1399-09-11¦58fbe7e3¦Siena
+kronoloji_italya_sehir.js¦1403-01-20¦5ee9a41b¦Gelibolu
+kronoloji_italya_sehir.js¦1409-09-06¦e067cc10¦Cenova
+kronoloji_italya_sehir.js¦1421-11-02¦6aa58001¦Milano
+kronoloji_italya_sehir.js¦1435-08-05¦00db9c62¦Napoli
+kronoloji_italya_sehir.js¦1447-08-13¦becc9f59¦Milano
+kronoloji_italya_sehir.js¦1452-05-18¦9ee99b1e¦Modena
+kronoloji_italya_sehir.js¦1453-11-15¦b8333806¦Kefe
+kronoloji_italya_sehir.js¦1455-12-01¦0ff29e64¦Sakız
+kronoloji_italya_sehir.js¦1457-01-02¦fd1871cb¦Cenova
+kronoloji_italya_sehir.js¦1458-05-11¦81e52aa8¦Cenova
+kronoloji_italya_sehir.js¦1461-08-15¦bf457999¦Amasra
+kronoloji_italya_sehir.js¦1464-01-13¦394c1549¦Magosa
+kronoloji_italya_sehir.js¦1472-03-04¦14d0fce5¦Siena
+kronoloji_italya_sehir.js¦1478-11-01¦1114fdb9¦Cenova
+kronoloji_italya_sehir.js¦1480-01-02¦adb85982¦Siena
+kronoloji_italya_sehir.js¦1484-08-07¦fbd82182¦Ferrara
+kronoloji_italya_sehir.js¦1487-07-22¦6df0f8c4¦Siena
+kronoloji_italya_sehir.js¦1499-10-06¦4a32d36e¦Cenova
+kronoloji_italya_sehir.js¦1503-05-31¦65d614de¦Ferrara
+kronoloji_italya_sehir.js¦1528-09-12¦f6e5fcf6¦Cenova
+kronoloji_italya_sehir.js¦1528-10-01¦a3684554¦Cenova
+kronoloji_italya_sehir.js¦1535-06-14¦a8d9d451¦Tunus
+kronoloji_italya_sehir.js¦1538-09-28¦7caa5044¦Cenova
+kronoloji_italya_sehir.js¦1550-04-02¦758331c0¦Cenova
+kronoloji_italya_sehir.js¦1552-08-05¦309777b0¦Napoli
+kronoloji_italya_sehir.js¦1559-08-03¦46d555a7¦Siena
+kronoloji_italya_sehir.js¦1570-11-17¦ca2f72d4¦Ferrara
+kronoloji_italya_sehir.js¦1630-01-02¦4973890b¦Cenova
+kronoloji_italya_sehir.js¦1684-05-17¦bff581da¦Cenova
+kronoloji_italya_sehir.js¦1702-08-15¦84f80eaa¦Modena
+kronoloji_italya_sehir.js¦1704-01-02¦50f9d039¦Cenova
+kronoloji_italya_sehir.js¦1713-01-02¦e925117d¦Cenova
+kronoloji_italya_sehir.js¦1746-09-06¦71e70d58¦Cenova
+kronoloji_italya_sehir.js¦1746-12-05¦7d66faf3¦Cenova
+kronoloji_italya_sehir.js¦1796-06-19¦674cce85¦Modena
+kronoloji_italya_sehir.js¦1805-06-04¦1ca47910¦Cenova
+kronoloji_italya_sehir.js¦1859-06-11¦ea4b4d70¦Modena
+kronoloji_japonya.js¦1297-01-01¦1191e9c9¦Kamakura
+kronoloji_japonya.js¦1568-10-18¦c2d8732c¦Kyoto
+kronoloji_japonya.js¦1868-04-06¦ca21fa5b¦Kyoto
+kronoloji_japonya.js¦1871-08-29¦a10cf6c6¦Edo (Tokyo)
+kronoloji_japonya.js¦1914-08-23¦dd4cd6a9¦Edo (Tokyo)
+kronoloji_karakoyunlu.js¦1366-01-01¦42d64a98¦Musul
+kronoloji_karakoyunlu.js¦1375-01-01¦e8ffc350¦Musul
+kronoloji_karakoyunlu.js¦1380-01-01¦32819fce¦Erciş
+kronoloji_karakoyunlu.js¦1388-01-01¦becc5f05¦Tebriz
+kronoloji_karakoyunlu.js¦1405-01-01¦9ab1eb4c¦Şam
+kronoloji_karakoyunlu.js¦1408-04-13¦17068e62¦Tebriz
+kronoloji_karakoyunlu.js¦1425-01-01¦65f2ddb8¦Van
+kronoloji_karakoyunlu.js¦1427-01-01¦4bfde4e7¦Mâku
+kronoloji_karakoyunlu.js¦1428-01-01¦569589e3¦Zencan
+kronoloji_karakoyunlu.js¦1430-01-01¦395ee619¦Tebriz
+kronoloji_karakoyunlu.js¦1435-09-01¦d7d98d42¦Erzurum
+kronoloji_karakoyunlu.js¦1438-04-19¦5ef2a40b¦Tebriz
+kronoloji_karakoyunlu.js¦1440-01-01¦b28dde55¦Tiflis
+kronoloji_karakoyunlu.js¦1446-06-09¦2b2ca003¦Bağdat
+kronoloji_karakoyunlu.js¦1447-03-13¦d8f8733e¦Sultâniye
+kronoloji_karakoyunlu.js¦1469-12-19¦7d9e5e1f¦Hille
+kronoloji_katalan.js¦1311-03-15¦ab0acc6b¦Livadya
+kronoloji_katalan.js¦1319-01-01¦d1105a60¦İzdin (Lamia)
+kronoloji_katalan.js¦1370-01-01¦c830f74b¦Atina
+kronoloji_katalan.js¦1379-01-01¦7503f3c3¦İstefe (Tebai)
+kronoloji_katalan.js¦1388-05-02¦00477f56¦Atina
+kronoloji_kirim.js¦1454-01-01¦0d196a54¦Kefe
+kronoloji_kirim.js¦1466-01-01¦a08f839a¦Bahçesaray
+kronoloji_kirim.js¦1484-01-01¦7f074198¦Akkirman
+kronoloji_kirim.js¦1538-01-01¦d23b59bf¦Or Kapı (Ferahkirman)
+kronoloji_kirim.js¦1549-01-01¦44e74b90¦Astrahan
+kronoloji_kirim.js¦1552-01-01¦76dc0242¦Kazan
+kronoloji_kirim.js¦1602-01-01¦1dec1cda¦Peçuy
+kronoloji_kirim.js¦1610-01-01¦4111d578¦Kefe
+kronoloji_kirim.js¦1621-04-29¦d9bce178¦Hotin
+kronoloji_kirim.js¦1683-09-12¦804ace1d¦Viyana
+kronoloji_kirim.js¦1711-07-08¦00102401¦Yaş
+kronoloji_kirim.js¦1736-01-01¦e4d2c8f3¦Bahçesaray
+kronoloji_kirim.js¦1771-01-01¦6b2128c7¦Or Kapı (Ferahkirman)
+kronoloji_kirim.js¦1772-01-01¦3b141757¦Bahçesaray
+kronoloji_kirim.js¦1774-07-21¦4040c81c¦Silistre
+kronoloji_kirim.js¦1776-11-01¦4ad08c94¦Or Kapı (Ferahkirman)
+kronoloji_kirim.js¦1784-01-08¦0738bb53¦İstanbul
+kronoloji_kirim.js¦1787-08-01¦e4a4cf66¦Rodos
+kronoloji_kuzeyafrika.js¦1229-01-01¦4315c204¦Tunus
+kronoloji_kuzeyafrika.js¦1270-01-01¦38222ed6¦Merakeş
+kronoloji_kuzeyafrika.js¦1270-01-01¦cd1a0bcb¦Tilimsan
+kronoloji_kuzeyafrika.js¦1274-01-01¦3b67844f¦Tanca
+kronoloji_kuzeyafrika.js¦1307-01-01¦fafff688¦Tilimsan
+kronoloji_kuzeyafrika.js¦1334-01-01¦ec68b14f¦Cerbe (Djerba)
+kronoloji_kuzeyafrika.js¦1347-01-01¦aec5689d¦Tunus
+kronoloji_kuzeyafrika.js¦1409-01-01¦0492d19a¦Fas (Fez)
+kronoloji_kuzeyafrika.js¦1465-01-01¦3bfdb49c¦Fas (Fez)
+kronoloji_kuzeyafrika.js¦1511-01-01¦f45fd82e¦Tilimsan
+kronoloji_kuzeyafrika.js¦1517-01-01¦ab3b140f¦Tilimsan
+kronoloji_kuzeyafrika.js¦1524-01-01¦6f665753¦Merakeş
+kronoloji_kuzeyafrika.js¦1529-01-01¦aaaf849e¦Tilimsan
+kronoloji_kuzeyafrika.js¦1534-08-16¦3143be2b¦Tunus
+kronoloji_kuzeyafrika.js¦1541-01-01¦2b9a5ccf¦Agadir
+kronoloji_kuzeyafrika.js¦1554-01-01¦2bab8229¦Fas (Fez)
+kronoloji_kuzeyafrika.js¦1554-01-01¦f47963ac¦Tilimsan
+kronoloji_kuzeyafrika.js¦1576-01-01¦fbadac96¦Fas (Fez)
+kronoloji_kuzeyafrika.js¦1801-05-14¦a3577f8a¦Trablus
+kronoloji_lehistan.js¦1573-01-28¦8f163fef¦Varşova
+kronoloji_lehistan.js¦1573-05-16¦13befb32¦Varşova
+kronoloji_lehistan.js¦1621-10-09¦90af29ee¦Hotin
+kronoloji_lehistan.js¦1632-04-30¦7159224b¦Varşova
+kronoloji_lehistan.js¦1648-11-20¦f45ca9b9¦Varşova
+kronoloji_lehistan.js¦1660-05-03¦3729f7b8¦Gdansk
+kronoloji_lehistan.js¦1683-09-12¦a0f1e30b¦Viyana
+kronoloji_lehistan.js¦1768-03-05¦13a83af2¦Varşova
+kronoloji_lehistan.js¦1772-08-05¦9aae8869¦St. Petersburg
+kronoloji_lehistan.js¦1773-10-14¦ffa8d7f0¦Varşova
+kronoloji_lehistan.js¦1794-11-04¦6a7ced5b¦Varşova
+kronoloji_lehistan.js¦1795-10-24¦25ac3a27¦St. Petersburg
+kronoloji_macaristan.js¦1396-09-25¦2e5d644a¦Niğbolu
+kronoloji_macaristan.js¦1444-11-10¦9d7eb905¦Varna
+kronoloji_macaristan.js¦1464-03-29¦32c556bc¦İstolni Belgrad
+kronoloji_macaristan.js¦1485-06-01¦00286270¦Viyana
+kronoloji_macaristan.js¦1514-05-01¦89700abf¦Peşte
+kronoloji_macaristan.js¦1552-09-04¦5f8dde1e¦Eğri
+kronoloji_macaristan.js¦1619-08-26¦17fcc5de¦Erdel (Kaloşvar)
+kronoloji_macaristan.js¦1699-01-26¦59907f61¦Varadin (Petrovaradin)
+kronoloji_macaristan.js¦1777-08-22¦b49b5715¦Viyana
+kronoloji_macaristan.js¦1849-01-05¦b1af8ac8¦Peşte
+kronoloji_macaristan.js¦1867-03-30¦6be482d1¦Viyana
+kronoloji_memluk.js¦1265-01-01¦d97c0f05¦Kahire
+kronoloji_memluk.js¦1289-01-01¦ba2b6bed¦Trablusşam
+kronoloji_memluk.js¦1290-11-10¦e2799345¦Kahire
+kronoloji_memluk.js¦1291-05-18¦999b6321¦Akkâ
+kronoloji_memluk.js¦1299-12-22¦c36cf186¦Humus
+kronoloji_memluk.js¦1309-04-05¦8868a727¦Kahire
+kronoloji_memluk.js¦1325-01-01¦814b1ea7¦Taiz
+kronoloji_memluk.js¦1365-10-09¦56403f0b¦İskenderiye
+kronoloji_memluk.js¦1374-01-01¦619f701c¦Kahire
+kronoloji_memluk.js¦1381-05-19¦1dea8d12¦Kahire
+kronoloji_memluk.js¦1400-01-01¦4d607d7c¦Halep
+kronoloji_memluk.js¦1400-03-18¦df26c46d¦Gazze
+kronoloji_memluk.js¦1401-01-01¦dd772352¦Şam
+kronoloji_memluk.js¦1405-01-01¦96061c61¦Kahire
+kronoloji_memluk.js¦1407-01-01¦b08c01b4¦Kahire
+kronoloji_memluk.js¦1407-03-21¦31f8af55¦Halep
+kronoloji_memluk.js¦1412-05-28¦5323286c¦Şam
+kronoloji_memluk.js¦1426-01-01¦248f8a64¦Cidde
+kronoloji_memluk.js¦1426-06-01¦3c0e4cfc¦Lefkoşa
+kronoloji_memluk.js¦1429-01-01¦a7363c98¦Kahire
+kronoloji_memluk.js¦1442-01-28¦2b37a9b6¦Kahire
+kronoloji_memluk.js¦1448-06-09¦69c251d4¦Kahire
+kronoloji_memluk.js¦1449-02-22¦e26020e3¦Kahire
+kronoloji_memluk.js¦1452-01-01¦990f7063¦Cidde
+kronoloji_memluk.js¦1470-06-05¦3bf3533e¦Kahire
+kronoloji_memluk.js¦1480-01-01¦513b4f53¦Maraş
+kronoloji_memluk.js¦1485-01-01¦f66ae507¦Tarsus
+kronoloji_memluk.js¦1490-01-01¦18ad9e54¦Kahire
+kronoloji_memluk.js¦1490-02-01¦1da22a15¦Kahire
+kronoloji_memluk.js¦1501-01-01¦6219c008¦Kahire
+kronoloji_memluk.js¦1503-01-01¦eae95f18¦Kahire
+kronoloji_memluk.js¦1504-01-01¦401faa50¦Süveyş
+kronoloji_memluk.js¦1509-02-03¦8df1db1b¦Diu
+kronoloji_memluk.js¦1509-06-01¦c7800656¦Kahire
+kronoloji_memluk.js¦1510-01-01¦49514a4e¦Kahire
+kronoloji_memluk.js¦1510-09-01¦d0392d09¦Kahire
+kronoloji_memluk.js¦1514-01-01¦c6c4f918¦Kahire
+kronoloji_memluk.js¦1517-04-13¦a80c41f2¦Kahire
+kronoloji_misir.js¦1524-01-01¦de1085bf¦Kahire
+kronoloji_misir.js¦1525-01-01¦882d2bce¦Kahire
+kronoloji_misir.js¦1723-01-01¦ea313bbc¦Kahire
+kronoloji_misir.js¦1770-11-01¦72468501¦Kahire
+kronoloji_misir.js¦1771-06-01¦7ac8eff4¦Şam
+kronoloji_misir.js¦1771-06-11¦a25721fe¦Şam
+kronoloji_misir.js¦1772-04-01¦781fe924¦Kahire
+kronoloji_misir.js¦1773-05-08¦0715ca32¦Kahire
+kronoloji_misir.js¦1798-09-09¦38e713f0¦İstanbul
+kronoloji_misir.js¦1799-05-20¦eaa3ba8c¦Akkâ
+kronoloji_misir.js¦1801-03-08¦aad534c3¦Ebûkîr
+kronoloji_misir.js¦1801-10-09¦e163fbd7¦Kahire
+kronoloji_misir.js¦1802-06-25¦7921422f¦Paris
+kronoloji_misir.js¦1821-11-14¦12d40608¦Kahire
+kronoloji_misir.js¦1830-01-01¦6a76d91c¦Girit (Resmo)
+kronoloji_misir.js¦1833-05-14¦1f7cdefe¦Kütahya
+kronoloji_misir.js¦1838-05-25¦4cd510d0¦İskenderiye
+kronoloji_misir.js¦1839-07-14¦a3bd6fc7¦İskenderiye
+kronoloji_misir.js¦1840-07-15¦0be23add¦Londra
+kronoloji_misir.js¦1840-11-27¦b79a87ba¦İskenderiye
+kronoloji_misir.js¦1841-05-24¦412b35fd¦İstanbul
+kronoloji_misir.js¦1849-08-02¦0ae5b029¦İskenderiye
+kronoloji_misir.js¦1867-06-08¦29e127d0¦Kahire
+kronoloji_misir.js¦1869-11-17¦5905abd4¦Süveyş
+kronoloji_misir.js¦1874-01-01¦0696b7fe¦Kahire
+kronoloji_misir.js¦1876-01-01¦56eeadab¦Kahire
+kronoloji_misir.js¦1882-07-11¦dc310ec0¦İskenderiye
+kronoloji_misir.js¦1883-11-05¦b6aefd7c¦Kordofan (Ubeyyid)
+kronoloji_misir.js¦1896-09-23¦6f639ac9¦Dongola
+kronoloji_misir.js¦1899-01-19¦e869343b¦Kahire
+kronoloji_naksa_dukaligi.js¦1204-04-13¦0cc8a1d2¦İstanbul
+kronoloji_naksa_dukaligi.js¦1205-01-01¦a9351ae6¦Nakşa
+kronoloji_naksa_dukaligi.js¦1262-01-01¦33e5c88c¦Nakşa
+kronoloji_naksa_dukaligi.js¦1383-01-01¦68d99ac5¦Nakşa
+kronoloji_naksa_dukaligi.js¦1537-11-01¦8eed44d4¦Nakşa
+kronoloji_naksa_dukaligi.js¦1540-10-02¦8ecd8234¦Nakşa
+kronoloji_naksa_dukaligi.js¦1669-01-01¦cd7d755a¦Nakşa
+kronoloji_orta_asya.js¦1250-01-01¦270d21c1¦Kaşgar
+kronoloji_orta_asya.js¦1399-01-01¦70e6b98e¦Kaşgar
+kronoloji_orta_asya.js¦1416-01-01¦498fa6d0¦Kaşgar
+kronoloji_orta_asya.js¦1418-01-01¦7193131f¦Gulca (Yining)
+kronoloji_orta_asya.js¦1445-07-07¦df5741cb¦Suzdal
+kronoloji_orta_asya.js¦1445-09-01¦ec09dd24¦Kazan
+kronoloji_orta_asya.js¦1447-01-01¦e8944e0c¦Almatı (Vernıy)
+kronoloji_orta_asya.js¦1466-01-02¦7e9deb1f¦Astrahan
+kronoloji_orta_asya.js¦1481-01-01¦b8becdd6¦Tümen (Çimgi-Tura)
+kronoloji_orta_asya.js¦1483-01-01¦b10b1cc7¦Tümen (Çimgi-Tura)
+kronoloji_orta_asya.js¦1487-07-09¦00b98877¦Kazan
+kronoloji_orta_asya.js¦1487-07-10¦cde6fb47¦Kazan
+kronoloji_orta_asya.js¦1493-01-01¦10f1b330¦Tümen (Çimgi-Tura)
+kronoloji_orta_asya.js¦1503-01-01¦1b223acb¦Türkistan (Yesi)
+kronoloji_orta_asya.js¦1506-05-22¦651b3a76¦Kazan
+kronoloji_orta_asya.js¦1506-06-22¦9d5b1067¦Kazan
+kronoloji_orta_asya.js¦1519-01-01¦58a0aa10¦Kazan
+kronoloji_orta_asya.js¦1539-01-01¦d087c85f¦Kazan
+kronoloji_orta_asya.js¦1551-01-01¦7502f049¦Kazan
+kronoloji_orta_asya.js¦1552-11-01¦26f4e584¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1554-01-01¦a326711c¦Astrahan
+kronoloji_orta_asya.js¦1556-06-02¦bc5c6acc¦Buhara
+kronoloji_orta_asya.js¦1563-01-01¦92763018¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1570-01-01¦2e1c2b66¦Taşkent
+kronoloji_orta_asya.js¦1581-09-14¦2b6c24bf¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1581-10-23¦3180cb8c¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1581-12-22¦ef3b72e3¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1583-01-01¦372e6b8b¦Türkistan (Yesi)
+kronoloji_orta_asya.js¦1584-08-06¦ab0124e0¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1586-01-01¦c348308c¦Samara
+kronoloji_orta_asya.js¦1586-07-29¦9e191282¦Tümen (Çimgi-Tura)
+kronoloji_orta_asya.js¦1594-01-01¦681e0ceb¦Semerkant
+kronoloji_orta_asya.js¦1595-03-17¦5716daf6¦Baraba bozkırı
+kronoloji_orta_asya.js¦1598-01-02¦06c0c7f4¦Buhara
+kronoloji_orta_asya.js¦1598-06-01¦5a54ed37¦Tobolsk (İsker)
+kronoloji_orta_asya.js¦1600-01-02¦466ca000¦Esterâbâd (Gürgân)
+kronoloji_orta_asya.js¦1604-01-01¦12b2561d¦Mangazeya
+kronoloji_orta_asya.js¦1606-01-01¦de90b2e0¦Kaşgar
+kronoloji_orta_asya.js¦1682-01-01¦f93e4c96¦Kaşgar
+kronoloji_orta_asya.js¦1697-01-01¦76a37133¦Cungarya havzası
+kronoloji_orta_asya.js¦1710-01-02¦c07fd484¦Taşkent
+kronoloji_orta_asya.js¦1723-01-01¦ee2ac816¦Almatı (Vernıy)
+kronoloji_orta_asya.js¦1724-01-01¦a787abbf¦Kalmuk bozkırı
+kronoloji_orta_asya.js¦1731-10-10¦d5873f0e¦Uralsk (Yayık)
+kronoloji_orta_asya.js¦1735-01-01¦c2fef197¦Orenburg
+kronoloji_orta_asya.js¦1750-01-01¦87bad3cd¦Esterâbâd (Gürgân)
+kronoloji_orta_asya.js¦1756-09-02¦b221106f¦Uralsk (Yayık)
+kronoloji_orta_asya.js¦1759-06-01¦422ff013¦Yarkent (Şaçe)
+kronoloji_orta_asya.js¦1773-10-01¦8c87ec79¦Orenburg
+kronoloji_orta_asya.js¦1774-01-01¦ec33e564¦Kalmuk bozkırı
+kronoloji_orta_asya.js¦1775-01-01¦f8a36dcc¦Çimkent
+kronoloji_orta_asya.js¦1783-01-02¦f75ea82d¦Esterâbâd (Gürgân)
+kronoloji_orta_asya.js¦1824-01-02¦429d64a4¦Merv (Mari)
+kronoloji_orta_asya.js¦1837-01-02¦128c7e6e¦Kazak bozkırı (İşim)
+kronoloji_orta_asya.js¦1838-01-02¦bdc3174c¦Kazak bozkırı (Turgay)
+kronoloji_orta_asya.js¦1845-05-01¦871552f6¦Kazak bozkırı (Turgay)
+kronoloji_orta_asya.js¦1845-09-01¦8a405189¦Kazak bozkırı (Sarısu)
+kronoloji_orta_asya.js¦1848-01-01¦280c46e0¦Türkistan (Yesi)
+kronoloji_orta_asya.js¦1854-06-22¦267248dd¦Orenburg
+kronoloji_orta_asya.js¦1866-01-01¦e4d80338¦Hotan
+kronoloji_orta_asya.js¦1868-01-01¦a79ebb4f¦Türkistan (Yesi)
+kronoloji_orta_asya.js¦1870-01-01¦4ac2dab8¦Ürümçi (Dihua)
+kronoloji_orta_asya.js¦1871-06-01¦1d0d03aa¦Gulca (Yining)
+kronoloji_orta_asya.js¦1877-05-16¦db519b88¦Turfan
+kronoloji_orta_asya.js¦1891-01-01¦42e0522b¦Orenburg
+kronoloji_orta_asya.js¦1905-11-01¦dae72193¦Orenburg
+kronoloji_orta_asya.js¦1919-01-01¦c32b0859¦Orenburg
+kronoloji_orta_asya.js¦1920-11-04¦f52d8244¦Astrahan
+kronoloji_ozbek.js¦1501-01-01¦1bcc3fc5¦Semerkant
+kronoloji_ozbek.js¦1525-01-01¦24a227c1¦Merv (Mari)
+kronoloji_ozbek.js¦1529-01-01¦99f2c2e7¦Herat
+kronoloji_ozbek.js¦1557-05-01¦c3bf53cb¦Buhara
+kronoloji_ozbek.js¦1574-01-01¦e97eb3d6¦Belh
+kronoloji_ozbek.js¦1578-01-01¦0fc969df¦Semerkant
+kronoloji_ozbek.js¦1582-01-01¦12b38892¦Taşkent
+kronoloji_ozbek.js¦1588-01-01¦8bb310ac¦Herat
+kronoloji_ozbek.js¦1599-01-01¦12074b2d¦Buhara
+kronoloji_ozbek.js¦1611-01-01¦9ac83a2e¦Buhara
+kronoloji_ozbek.js¦1629-01-01¦d70227bc¦Hîve
+kronoloji_ozbek.js¦1645-01-01¦a49265ae¦Hîve
+kronoloji_ozbek.js¦1758-01-01¦21ec8777¦Hokand
+kronoloji_ozbek.js¦1785-01-01¦d1b4e8b8¦Buhara
+kronoloji_ozbek.js¦1808-01-01¦c7a94ad4¦Taşkent
+kronoloji_ozbek.js¦1826-01-01¦3fb01e02¦Kaşgar
+kronoloji_ozbek.js¦1842-01-01¦bdf6b244¦Hokand
+kronoloji_ozbek.js¦1855-01-01¦d9a30fa6¦Serahs
+kronoloji_ozbek.js¦1864-01-01¦061d2b45¦Çimkent
+kronoloji_ozbek.js¦1868-01-01¦7fe881f5¦Hokand
+kronoloji_ozbek.js¦1868-06-02¦f8b51df0¦Buhara
+kronoloji_ozbek.js¦1873-01-01¦b2241521¦Hokand
+kronoloji_portekiz.js¦1415-08-21¦724053da¦Sebte (Ceuta)
+kronoloji_portekiz.js¦1483-04-01¦63590d7d¦Mbanza-Kongo (São Salvador)
+kronoloji_portekiz.js¦1496-12-05¦aa08f574¦Lizbon
+kronoloji_portekiz.js¦1498-05-20¦e4a1f3e5¦Kalikut (Kozhikode)
+kronoloji_portekiz.js¦1505-07-24¦2f0fc621¦Kilwa Kisiwani (Kilve)
+kronoloji_portekiz.js¦1505-08-14¦b1b8b743¦Mombasa
+kronoloji_portekiz.js¦1508-03-01¦43548d2d¦Çaul (Chaul)
+kronoloji_portekiz.js¦1509-02-03¦5331c549¦Diu
+kronoloji_portekiz.js¦1536-05-23¦67293755¦Lizbon
+kronoloji_portekiz.js¦1538-08-04¦d01f0e40¦Diu
+kronoloji_portekiz.js¦1549-01-01¦05834fd3¦Salvador (Bahia)
+kronoloji_portekiz.js¦1549-02-12¦e94e0b68¦Aden
+kronoloji_portekiz.js¦1552-01-01¦3f2efb65¦Hürmüz Adası
+kronoloji_portekiz.js¦1554-08-25¦fa884d08¦Maskat
+kronoloji_portekiz.js¦1580-08-25¦24b90dd3¦Lizbon
+kronoloji_portekiz.js¦1668-02-13¦cfc764d3¦Lizbon
+kronoloji_portekiz.js¦1807-11-29¦8f7705c2¦Lizbon
+kronoloji_portekiz.js¦1825-08-29¦39c7c61f¦Rio de Janeiro
+kronoloji_portekiz.js¦1834-05-28¦1a66fee7¦Lizbon
+kronoloji_portekiz.js¦1890-01-11¦cb3fbdd3¦Lizbon
+kronoloji_portekiz.js¦1916-03-09¦bc2fc639¦Lizbon
+kronoloji_rodos_sovalyeleri.js¦1306-06-27¦d6eebcb1¦Rodos
+kronoloji_rodos_sovalyeleri.js¦1346-01-01¦32b4bf4f¦Rodos
+kronoloji_rodos_sovalyeleri.js¦1408-01-01¦ed248063¦Bodrum
+kronoloji_rodos_sovalyeleri.js¦1522-06-26¦e935a95a¦Rodos
+kronoloji_rodos_sovalyeleri.js¦1565-06-23¦889c562c¦Malta
+kronoloji_rodos_sovalyeleri.js¦1565-09-11¦71b373ed¦Malta
+kronoloji_rodos_sovalyeleri.js¦1571-10-07¦d75b07e4¦İnebahtı
+kronoloji_rodos_sovalyeleri.js¦1775-09-08¦b7481be2¦Malta
+kronoloji_rodos_sovalyeleri.js¦1797-07-17¦271263fc¦Malta
+kronoloji_rusya.js¦1561-07-12¦5669497b¦Moskova
+kronoloji_rusya.js¦1569-01-01¦aff6c383¦Astrahan
+kronoloji_rusya.js¦1581-09-01¦65c2f159¦Tobolsk (İsker)
+kronoloji_rusya.js¦1584-03-28¦a677a96c¦Moskova
+kronoloji_rusya.js¦1597-11-24¦2c5252e8¦Moskova
+kronoloji_rusya.js¦1610-09-21¦6d88e12b¦Moskova
+kronoloji_rusya.js¦1612-11-04¦984da82e¦Moskova
+kronoloji_rusya.js¦1645-07-13¦73a38b62¦Moskova
+kronoloji_rusya.js¦1722-07-29¦169368aa¦Derbend
+kronoloji_rusya.js¦1762-01-05¦8f860140¦St. Petersburg
+kronoloji_rusya.js¦1764-12-07¦914c5d4f¦St. Petersburg
+kronoloji_rusya.js¦1772-08-05¦a0583b5e¦Varşova
+kronoloji_rusya.js¦1787-08-19¦a5b52387¦İstanbul
+kronoloji_rusya.js¦1792-01-09¦2c977538¦Yaş
+kronoloji_rusya.js¦1793-01-23¦6780c818¦Varşova
+kronoloji_rusya.js¦1812-09-14¦d9589fd0¦Moskova
+kronoloji_rusya.js¦1837-02-10¦35880668¦St. Petersburg
+kronoloji_rusya.js¦1853-10-04¦278653e6¦İstanbul
+kronoloji_rusya.js¦1856-03-30¦621f0c23¦Paris
+kronoloji_rusya.js¦1878-03-03¦06083ff4¦İstanbul
+kronoloji_rusya.js¦1878-07-13¦daa4479b¦Berlin
+kronoloji_rusya.js¦1905-06-27¦9bd46b55¦Hacıbey (Odessa)
+kronoloji_rusya.js¦1916-12-30¦9141b5f1¦St. Petersburg
+kronoloji_safevi.js¦1503-06-01¦5ab0164f¦Hemedan
+kronoloji_safevi.js¦1504-12-06¦23714de6¦Yezd
+kronoloji_safevi.js¦1508-09-01¦cc4d9430¦Bağdat
+kronoloji_safevi.js¦1545-04-01¦3e867ca0¦Kandehar
+kronoloji_safevi.js¦1547-08-01¦f2e6fca5¦Kazvin
+kronoloji_safevi.js¦1605-01-01¦6d90473a¦Kum
+kronoloji_safevi.js¦1606-07-01¦1290a88c¦Gence
+kronoloji_safevi.js¦1610-01-01¦de73af92¦Van
+kronoloji_safevi.js¦1633-01-01¦bf999d31¦Revan
+kronoloji_safevi.js¦1647-01-01¦99454712¦Isfahan
+kronoloji_safevi.js¦1649-04-01¦99699369¦Kandehar
+kronoloji_safevi.js¦1721-01-01¦d023ae09¦Kandehar
+kronoloji_safevi.js¦1722-10-25¦c383638e¦Isfahan
+kronoloji_safevi.js¦1750-06-01¦450ee2fc¦Şiraz
+kronoloji_sinir_asya.js¦1920-01-01¦84583671¦Aleksandrovsk (Kuzey Sahalin)
+kronoloji_sinir_avrupa_bati.js¦1570-12-13¦8c748a46¦Stettin (Szczecin)
+kronoloji_sinir_avrupa_bati.js¦1678-09-17¦bdc78587¦Nijmegen
+kronoloji_sinir_avrupa_bati.js¦1760-03-24¦cd6437ed¦Torino
+kronoloji_sinir_avrupa_bati.js¦1918-11-11¦7b56e886¦Strazburg
+kronoloji_sinir_avrupa_bati.js¦1920-01-10¦5be4e8d9¦Strazburg
+kronoloji_sinir_avrupa_orta.js¦1514-01-01¦2990ae23¦Smolensk
+kronoloji_sinir_avrupa_orta.js¦1571-03-10¦29c46a3d¦Varad (Oradea)
+kronoloji_sinir_avrupa_orta.js¦1686-05-16¦1e2e7019¦Moskova
+kronoloji_sinir_avrupa_orta.js¦1742-06-11¦72a60677¦Berlin
+kronoloji_sinir_avrupa_orta.js¦1773-09-30¦f5c0ee20¦Varşova
+kronoloji_sinir_avrupa_orta.js¦1776-07-04¦d1bf3bf0¦Çernovitz (Çernivtsi)
+kronoloji_sinir_avrupa_orta.js¦1779-01-01¦92e65be4¦Münih
+kronoloji_sinir_avrupa_orta.js¦1797-01-26¦3d948c80¦Varşova
+kronoloji_sinir_avrupa_orta.js¦1816-04-14¦beb54c1b¦Münih
+kronoloji_sinir_avrupa_orta.js¦1913-05-30¦c9dc4ad5¦İşkodra
+kronoloji_sinir_avrupa_orta.js¦1918-04-08¦07ad647f¦Bender
+kronoloji_sinir_avrupa_orta.js¦1918-11-13¦f5363437¦Moskova
+kronoloji_sinir_avrupa_orta.js¦1922-01-01¦41be0f15¦Sopron
+kronoloji_sinir_komsu.js¦1880-01-01¦85430c9b¦Silistre
+kronoloji_sinir_komsu.js¦1893-06-08¦0d3ecc76¦Serahs
+kronoloji_sinir_komsu.js¦1921-01-01¦b26eaf9e¦Gümülcine
+kronoloji_sinir_turkiye.js¦1913-05-30¦b65c61b7¦İstanbul
+kronoloji_sinir_turkiye.js¦1920-01-01¦20c80304¦Edirne
+kronoloji_sinir_turkiye.js¦1921-10-13¦4391b643¦Kars
+kronoloji_sinir_turkiye.js¦1922-10-14¦0162ad32¦Mudanya
+kronoloji_sirbistan.js¦1806-01-01¦f632a918¦Belgrad
+kronoloji_sirbistan.js¦1813-01-01¦45e95052¦Belgrad
+kronoloji_sirbistan.js¦1867-01-01¦d5883fbd¦Belgrad
+kronoloji_sirbistan.js¦1878-07-13¦38dfbad2¦Berlin
+kronoloji_timurlu.js¦1400-10-01¦0cae73c8¦Halep
+kronoloji_timurlu.js¦1401-06-01¦d6111c23¦Bağdat
+kronoloji_timurlu.js¦1492-01-01¦a0e17642¦Herat
+kronoloji_timurlu.js¦1507-05-01¦530b3c0f¦Herat
+kronoloji_venedik.js¦1291-05-18¦16563682¦Akkâ
+kronoloji_venedik.js¦1378-07-01¦ab335dc3¦Venedik
+kronoloji_venedik.js¦1379-08-16¦62b82435¦Venedik
+kronoloji_venedik.js¦1380-06-24¦17032880¦Venedik
+kronoloji_venedik.js¦1405-01-01¦a2755129¦Padova
+kronoloji_venedik.js¦1409-07-09¦0061e415¦Zadar (Zara)
+kronoloji_venedik.js¦1420-10-01¦8846737a¦Udine
+kronoloji_venedik.js¦1423-01-01¦9f333261¦Selanik
+kronoloji_venedik.js¦1428-01-01¦b11bc59d¦Brescia
+kronoloji_venedik.js¦1479-01-25¦b09cc57a¦İstanbul
+kronoloji_venedik.js¦1482-05-03¦a93a50cf¦Ferrara
+kronoloji_venedik.js¦1503-01-01¦5a9e660a¦İstanbul
+kronoloji_venedik.js¦1509-07-17¦0a6b6a5e¦Padova
+kronoloji_venedik.js¦1516-10-01¦70c40f3d¦Brescia
+kronoloji_venedik.js¦1523-05-20¦7f067502¦Venedik
+kronoloji_venedik.js¦1540-10-02¦6624b6be¦İstanbul
+kronoloji_venedik.js¦1573-03-07¦874c1cab¦İstanbul
+kronoloji_venedik.js¦1582-01-01¦7180f0f7¦Venedik
+kronoloji_venedik.js¦1685-06-01¦743b5b8e¦Koron
+olaylar.js¦1299-01¦593a3220¦Söğüt
+olaylar.js¦1362-03¦7136b586¦Bursa
+olaylar.js¦1389-06-15¦0870c976¦Priştine
+olaylar.js¦1396-09-25¦77b2c723¦Niğbolu
+olaylar.js¦1416-05-01¦3dd39eda¦Serez
+olaylar.js¦1444-11-10¦e8e53eca¦Varna
+olaylar.js¦1514-08¦2bb399f3¦Çaldıran
+olaylar.js¦1529-09¦45d0542b¦Viyana
+olaylar.js¦1538-09¦d818891a¦Preveze
+olaylar.js¦1571-10-07¦3f34b732¦İnebahtı
+olaylar.js¦1639-05-17¦ae2391f6¦Kasr-ı Şîrîn
+olaylar.js¦1711-07-19¦31e56db4¦Yaş
+olaylar.js¦1730-09-25¦6e9b6a8e¦İstanbul
+olaylar.js¦1774-07-21¦7788a8cc¦Silistre
+olaylar.js¦1827-10-20¦a735b4ff¦Modon
+olaylar.js¦1830-02¦422ed71d¦Londra
+olaylar.js¦1839-11-03¦cf372782¦İstanbul
+olaylar.js¦1878-07-13¦d2e5fbb0¦Berlin
+olaylar.js¦1908-07-23¦1ceeda5b¦Manastır
+olaylar.js¦1913-05-30¦7e06869a¦Londra
+olaylar.js¦1918-10-30¦298dd93b¦Limni
+olaylar.js¦1919-05¦08db6f37¦Samsun
+olaylar_0073_iran_yanya.js¦1821-01-01¦300781ae¦Erzurum
+olaylar_0073_iran_yanya.js¦1821-01-01¦a77ac80e¦Bağdat
+olaylar_0073_iran_yanya.js¦1822-02-14¦dbc4d9ff¦Yanya
+olaylar_0073_iran_yanya.js¦1823-01-01¦f0010875¦Erzurum
+olaylar_ebukir_0919.js¦1799-07-25¦87c0f0a0¦Ebûkîr
+olaylar_ek.js¦1302-08-01¦99ff22b2¦İznik
+olaylar_ek.js¦1373-05-01¦c4ed8378¦İstanbul
+olaylar_ek.js¦1381-06-01¦e9932280¦Isparta
+olaylar_ek.js¦1403-06-01¦43972e25¦Gelibolu
+olaylar_ek.js¦1479-01-25¦f92495eb¦İstanbul
+olaylar_ek.js¦1663-04-13¦0c87b078¦Edirne
+olaylar_ek.js¦1829-09-14¦04120c8b¦Edirne
+olaylar_ek.js¦1830-10-17¦56daca89¦Belgrad
+olaylar_ek.js¦1897-05-17¦16ccdc13¦Yenişehir (Larissa)
+olaylar_ek.js¦1920-03-16¦64927427¦İstanbul
+olaylar_ek11.js¦1426-01-01¦8549425d¦Sisam
+olaylar_ek11.js¦1503-01-01¦804b5ef4¦Hemedan
+olaylar_ek13.js¦1362-03-01¦259cc38c¦Bursa
+olaylar_ek13.js¦1471-08-24¦44773d12¦Arzila (Asilah)
+olaylar_ek13.js¦1541-10-01¦f70fd695¦Safi (Asfi)
+olaylar_ek13.js¦1559-01-01¦eb471660¦Manama (Bahreyn)
+olaylar_ek13.js¦1769-03-11¦3209ad11¦Mazagan (El Jadida)
+olaylar_ek14.js¦1330-06-01¦945e4c70¦Bursa
+olaylar_ek14.js¦1414-01-01¦7c5dbc48¦Bursa
+olaylar_ek14.js¦1451-06-01¦489d06aa¦İstanbul
+olaylar_ek14.js¦1502-06-01¦064da11c¦Bursa
+olaylar_ek14.js¦1515-01-01¦fb4c5358¦İstanbul
+olaylar_ek14.js¦1534-01-01¦717ee442¦İstanbul
+olaylar_ek14.js¦1566-09-01¦f2cb4510¦İstanbul
+olaylar_ek14.js¦1573-01-01¦eb87ed62¦İstanbul
+olaylar_ek14.js¦1599-06-01¦5b098fa2¦Ankara
+olaylar_ek14.js¦1635-01-01¦facc0fa6¦İstanbul
+olaylar_ek14.js¦1718-01-01¦4ab621fb¦İstanbul
+olaylar_ek14.js¦1730-09-25¦245d27e4¦İstanbul
+olaylar_ek14.js¦1730-10-28¦51f05e69¦İstanbul
+olaylar_ek14.js¦1755-12-05¦56a3e7ac¦İstanbul
+olaylar_ek14.js¦1839-05-14¦3c2b3d6f¦İstanbul
+olaylar_ek14.js¦1863-06-01¦60b8eb14¦İstanbul
+olaylar_ek14.js¦1894-07-10¦a3ddb600¦İstanbul
+olaylar_ek16.js¦1617-02-27¦a6a2466f¦St. Petersburg
+olaylar_ek17.js¦1632-01-01¦6763587c¦İstanbul
+olaylar_ek17.js¦1648-05-01¦f97e3c9a¦Sivas
+olaylar_ek17.js¦1711-07-21¦03bf77e6¦Yaş
+olaylar_ek17.js¦1730-11-25¦8a2dc431¦İstanbul
+olaylar_ek17.js¦1731-01-01¦5b7a8acb¦İstanbul
+olaylar_ek17.js¦1789-04-07¦4b75ac6e¦İstanbul
+olaylar_ek19.js¦1789-07-14¦511b827b¦Paris
+olaylar_ek2.js¦1362-09-01¦39503819¦Edirne
+olaylar_ek2.js¦1393-01-01¦96a9f309¦Kütahya
+olaylar_ek2.js¦1453-06-01¦d0cc72f4¦Edirne
+olaylar_ek2.js¦1478-06-01¦fe61a904¦İstanbul
+olaylar_ek2.js¦1565-05-18¦3f8cc692¦Malta
+olaylar_ek2.js¦1578-08-09¦fc365d31¦Ardahan
+olaylar_ek2.js¦1590-03-21¦9336210a¦İstanbul
+olaylar_ek2.js¦1648-08-18¦48aaf7ae¦İstanbul
+olaylar_ek2.js¦1720-10-08¦1fcd8810¦Paris
+olaylar_ek2.js¦1727-07-05¦c4698634¦İstanbul
+olaylar_ek2.js¦1858-06-06¦8a84a9e4¦İstanbul
+olaylar_ek2.js¦1884-01-01¦e2984f24¦İstanbul
+olaylar_ek2.js¦1909-04-13¦4b4a1df8¦İstanbul
+olaylar_ek2.js¦1912-11-03¦fb5bf891¦Edirne
+olaylar_ek20.js¦1648-10-24¦7cc40141¦Münster
+olaylar_ek21.js¦1537-01-01¦f8b1c8a6¦Kars
+olaylar_ek3.js¦1695-02-11¦4f3d4ed0¦İstanbul
+olaylar_ek4.js¦1811-10-01¦0cc3bcda¦Yenbu
+olaylar_ek4.js¦1813-08-28¦a2d2b126¦Cidde
+olaylar_ek4.js¦1827-07-06¦0a623935¦Londra
+olaylar_ek4.js¦1828-08-06¦14316fe7¦İskenderiye
+olaylar_ek4.js¦1839-07-14¦205338c8¦İskenderiye
+olaylar_ek4.js¦1840-07-15¦2c1c4233¦Londra
+olaylar_ek4.js¦1841-05-24¦4dc5872a¦İstanbul
+olaylar_ek5.js¦1281-01-01¦9b7889ce¦Söğüt
+olaylar_ek5.js¦1302-07-27¦2922c918¦Yalova
+olaylar_ek5.js¦1357-09-01¦92654872¦Bolayır
+olaylar_ek5.js¦1361-01-01¦a5e3996a¦Edirne
+olaylar_ek5.js¦1374-01-01¦39f0f922¦Köstendil
+olaylar_ek5.js¦1381-10-01¦19df2f2a¦Sivas
+olaylar_ek5.js¦1386-06-01¦8f927f20¦Konya
+olaylar_ek5.js¦1400-08-01¦bb15181c¦Sivas
+olaylar_ek5.js¦1402-12-20¦59847ee0¦Bursa
+olaylar_ek5.js¦1403-03-15¦f0de0222¦Akşehir
+olaylar_ek5.js¦1405-01-01¦b64bb1a3¦Yenişehir (Bursa)
+olaylar_ek5.js¦1415-03-01¦be22ebdd¦Konya
+olaylar_ek5.js¦1416-01-01¦a0d60873¦Manisa
+olaylar_ek5.js¦1423-05-01¦dfdfd815¦Mora (Tripoliçe)
+olaylar_ek5.js¦1451-02-18¦7bf9669f¦Edirne
+olaylar_ek5.js¦1454-07-14¦19b0cd2b¦Kefe
+olaylar_ek5.js¦1466-06-01¦808eeb33¦Akçahisar (Kruja)
+olaylar_ek5.js¦1476-07-26¦77d6bfdd¦Suçava (Suceava)
+olaylar_ek5.js¦1482-07-29¦e5ac69f7¦Rodos
+olaylar_ek5.js¦1485-01-01¦94b1ec1f¦Adana
+olaylar_ek5.js¦1495-02-25¦16cc8ebe¦Napoli
+olaylar_ek5.js¦1502-03-01¦1608ca58¦Saray (Selitrennoye)
+olaylar_ek5.js¦1502-12-14¦c2550621¦İstanbul
+olaylar_ek5.js¦1512-04-24¦121cee1c¦İstanbul
+olaylar_ek5.js¦1516-05-01¦266cb93c¦Mardin
+olaylar_ek5.js¦1517-04-13¦fa95902f¦Kahire
+olaylar_ek5.js¦1517-04-18¦727b2c37¦Cidde
+olaylar_ek5.js¦1517-08-28¦8060f359¦Kahire
+olaylar_ek5.js¦1517-09-11¦74b2de30¦Kahire
+olaylar_ek5.js¦1537-08-25¦e57628a1¦Korfu
+olaylar_ek5.js¦1540-11-01¦40dceb36¦Mora (Tripoliçe)
+olaylar_ek5.js¦1553-10-05¦234d8236¦Konya
+olaylar_ek5.js¦1555-01-01¦ffedd905¦İbrim
+olaylar_ek5.js¦1560-05-14¦03856441¦Cerbe (Djerba)
+olaylar_ek5.js¦1562-07-23¦e49c7914¦Kazvin
+olaylar_ek5.js¦1578-08-04¦db4490f5¦Kasrülkebîr
+olaylar_ek5.js¦1599-01-01¦f21b33ad¦Urfa
+olaylar_ek5.js¦1601-09-10¦fde47eeb¦Kanije
+olaylar_ek5.js¦1603-12-22¦51b1549f¦İstanbul
+olaylar_ek5.js¦1617-11-22¦5734dea6¦İstanbul
+olaylar_ek5.js¦1628-09-22¦aea9a1cc¦Erzurum
+olaylar_ek5.js¦1648-05-01¦d7d0e431¦Kandiye (Girit)
+olaylar_ek5.js¦1656-07-13¦7cbfb869¦Çanakkale
+olaylar_ek5.js¦1691-06-23¦a99a51ab¦Edirne
+olaylar_ek5.js¦1700-07-14¦afdb9eac¦İstanbul
+olaylar_ek5.js¦1704-01-01¦55f76545¦Bağdat
+olaylar_ek5.js¦1713-06-24¦615b4542¦Edirne
+olaylar_ek5.js¦1714-12-08¦2278b496¦İstanbul
+olaylar_ek5.js¦1716-08-05¦b7399e30¦Varadin (Petrovaradin)
+olaylar_ek5.js¦1718-07-21¦21671c3b¦Semendire
+olaylar_ek5.js¦1723-08-01¦96042da7¦Şamahı
+olaylar_ek5.js¦1724-06-24¦754da945¦İstanbul
+olaylar_ek5.js¦1727-10-04¦f329d7f8¦Hemedan
+olaylar_ek5.js¦1732-01-08¦2a197506¦Bağdat
+olaylar_ek5.js¦1736-09-01¦a3fbe77e¦İstanbul
+olaylar_ek5.js¦1737-08-04¦44624669¦Banaluka
+olaylar_ek5.js¦1739-10-03¦c36a2edd¦Niş
+olaylar_ek5.js¦1768-10-08¦1f5c064d¦İstanbul
+olaylar_ek5.js¦1774-01-21¦5af5b2af¦İstanbul
+olaylar_ek5.js¦1775-05-07¦3e64f882¦İstanbul
+olaylar_ek5.js¦1779-03-10¦d5aef8a0¦İstanbul
+olaylar_ek5.js¦1787-08-16¦383f23fe¦İstanbul
+olaylar_ek5.js¦1788-02-09¦eaa8ada6¦Viyana
+olaylar_ek5.js¦1790-01-31¦6446cdd5¦İstanbul
+olaylar_ek5.js¦1792-01-10¦7e6002f5¦Yaş
+olaylar_ek5.js¦1792-02-12¦b6a7c45c¦Oran
+olaylar_ek5.js¦1795-03-01¦7d1fe97d¦Vidin
+olaylar_ek5.js¦1798-09-09¦fac6c885¦İstanbul
+olaylar_ek5.js¦1801-10-09¦e163fbd7¦İskenderiye
+olaylar_ek5.js¦1804-02-14¦fac96581¦Semendire
+olaylar_ek5.js¦1806-12-22¦7346bf50¦İstanbul
+olaylar_ek5.js¦1809-01-05¦18dd7b5c¦Çanakkale
+olaylar_ek5.js¦1811-10-25¦8bb0936a¦Rusçuk
+olaylar_ek5.js¦1813-10-05¦899ed320¦Belgrad
+olaylar_ek5.js¦1815-04-23¦eae9b332¦Semendire
+olaylar_ek5.js¦1831-09-14¦2dfd642e¦Bağdat
+olaylar_ek5.js¦1849-05-01¦cfa75445¦İstanbul
+olaylar_ek5.js¦1862-02-21¦34879742¦Bükreş
+olaylar_ek5.js¦1866-08-21¦5bbf9047¦Girit (Resmo)
+olaylar_ek5.js¦1868-05-10¦2c7e7d9d¦İstanbul
+olaylar_ek5.js¦1869-11-17¦330d871f¦Süveyş
+olaylar_ek5.js¦1870-03-11¦b81c2946¦İstanbul
+olaylar_ek5.js¦1875-06-19¦17b11583¦Mostar
+olaylar_ek5.js¦1878-02-13¦1d8e8092¦İstanbul
+olaylar_ek5.js¦1881-12-20¦5afff4d2¦İstanbul
+olaylar_ek5.js¦1896-08-26¦955467fa¦İstanbul
+olaylar_ek5.js¦1897-04-17¦4a34a9e9¦Yenişehir (Larissa)
+olaylar_ek5.js¦1908-12-17¦1da14d75¦İstanbul
+olaylar_ek5.js¦1909-04-27¦2591760a¦İstanbul
+olaylar_ek5.js¦1912-10-18¦975672e3¦Lozan
+olaylar_ek5.js¦1913-09-29¦970954d0¦İstanbul
+olaylar_ek5.js¦1913-11-14¦6f16170d¦Atina
+olaylar_ek5.js¦1914-12-22¦d38eeef9¦Sarıkamış
+olaylar_ek5.js¦1918-03-03¦8493d3c1¦Kars
+olaylar_ek5.js¦1918-11-13¦64b7e00a¦İstanbul
+olaylar_ek5.js¦1920-01-28¦b12dcecd¦İstanbul
+olaylar_ek5.js¦1920-12-03¦8eec42a8¦Gümrü (Aleksandropol)
+olaylar_ek5.js¦1921-10-20¦e68075ce¦Ankara
+olaylar_ek5.js¦1922-10-11¦49524b06¦Mudanya
+olaylar_ek6.js¦1735-06-19¦219e5d3b¦Revan
+olaylar_ek6.js¦1883-01-19¦3f51181a¦Kordofan (Ubeyyid)
+olaylar_ek7.js¦1478-01-01¦64dbf767¦İstanbul
+olaylar_ek7.js¦1481-05-28¦60593d7a¦Bursa
+olaylar_ek7.js¦1509-09-14¦b1d72560¦İstanbul
+olaylar_ek7.js¦1553-10-05¦c94734e5¦İstanbul
+olaylar_ek7.js¦1553-12-01¦65ae0a3e¦Kahire
+olaylar_ek7.js¦1555-09-29¦c7136203¦İstanbul
+olaylar_ek7.js¦1580-01-01¦11313138¦İstanbul
+olaylar_ek7.js¦1609-08-09¦5f82cd50¦İstanbul
+olaylar_ek7.js¦1656-09-15¦3c3dc5d6¦İstanbul
+olaylar_ek7.js¦1656-10-01¦a217b4f6¦İstanbul
+olaylar_ek7.js¦1661-11-01¦3f8a58d0¦İstanbul
+olaylar_ek7.js¦1703-03-01¦0b1373b5¦Edirne
+olaylar_ek7.js¦1703-07-17¦8a665e1f¦İstanbul
+olaylar_ek7.js¦1718-05-09¦ecc05ba9¦İstanbul
+olaylar_ek7.js¦1721-10-08¦d455ad80¦İstanbul
+olaylar_ek7.js¦1730-10-01¦0d5d3b47¦İstanbul
+olaylar_ek7.js¦1807-05-25¦db36a473¦İstanbul
+olaylar_ek7.js¦1808-07-28¦8409a8ce¦İstanbul
+olaylar_ek7.js¦1826-06-19¦4703f3f4¦İstanbul
+olaylar_ek7.js¦1827-04-29¦ade1e2be¦Cezayir
+olaylar_ek7.js¦1827-06-16¦d2875365¦Cezayir
+olaylar_ek7.js¦1830-08-09¦a5dfe6de¦Cezayir
+olaylar_ek7.js¦1853-11-30¦af86fc83¦Sinop
+olaylar_ek7.js¦1876-06-04¦93079a9a¦İstanbul
+olaylar_ek8.js¦1515-01-01¦fb2c65ae¦Nusaybin
+olaylar_ek8.js¦1573-01-01¦82ac73a3¦Kasimov
+olaylar_ek8.js¦1830-02-03¦8b2c65aa¦Londra
+olaylar_ek8.js¦1835-01-01¦41455c11¦Hâil
+olaylar_ek8.js¦1920-08-10¦8de5f9ac¦Paris
+olaylar_ek9.js¦1427-01-01¦b96e7472¦Alanya
+olaylar_ek9.js¦1799-03-18¦2529891b¦Akkâ
+olaylar_ek9.js¦1841-01-01¦721df19a¦Muaskar
+olaylar_ek9.js¦1882-01-01¦3016bb89¦Gardâye
+olaylar_ek9.js¦1882-07-11¦e889310a¦İskenderiye
+olaylar_ek9.js¦1883-06-08¦1f8969d2¦Tunus
+olaylar_ek9.js¦1883-11-05¦02aa40ff¦Kordofan (Ubeyyid)
+olaylar_ek9.js¦1883-12-23¦a3c23d15¦Darfur
+olaylar_ek9.js¦1884-06-03¦4c7ac529¦Adua
+olaylar_ek9.js¦1896-09-23¦62ec725a¦Dongola
+olaylar_ek9.js¦1898-09-02¦ded5ded6¦Hartum
+olaylar_ek9.js¦1911-10-08¦c4949fc7¦Tobruk
+olaylar_ek9.js¦1911-11-05¦5b472c2b¦Roma
+olaylar_kamerika.js¦1762-11-03¦275ad66e¦New Orleans
+olaylar_kamerika.js¦1868-07-03¦b7250b58¦Fort Bridger
+olaylar_kronoeksik_0921.js¦1826-04-08¦bfdcf7b1¦İstanbul
+olaylar_kronoeksik_0921.js¦1883-11-03¦5d4c8e97¦İstanbul
+olaylar_ok106.js¦1703-01-01¦a23d70b5¦Kerç
+olaylar_ok106.js¦1847-05-31¦2718cbeb¦Erzurum
+olaylar_ok109.js¦1918-11-03¦f7156864¦Padova
+olaylar_p0048.js¦1592-01-01¦a8939265¦Luristan
+olaylar_p0049.js¦1303-01-01¦40bdd5ae¦Alaşehir
+olaylar_p0049.js¦1595-01-01¦6ace2dc3¦İbrail
+olaylar_p0049.js¦1787-07-27¦f67650c0¦İstanbul
+olaylar_p0049.js¦1919-04-12¦4cf235fc¦Kars
+olaylar_p0049.js¦1920-10-30¦aac6ba27¦Kars
+olaylar_p0049.js¦1921-02-09¦10e1880f¦Antep
+olaylar_p0049.js¦1921-02-23¦448063a5¦Ardahan
+olaylar_p0052.js¦1884-01-01¦531a5355¦Şırnak
+olaylar_p0056.js¦1769-04-26¦fb1ffb70¦Hotin
+olaylar_p0057.js¦1919-05-11¦f8b6ae79¦Bodrum
+olaylar_p0057.js¦1921-06-28¦ae7a54df¦İzmit
+olaylar_p0057b.js¦1520-01-01¦f037ae61¦Bursa
+olaylar_p0057b.js¦1574-01-01¦195543e7¦İstanbul
+olaylar_p0057b.js¦1648-01-01¦c84a09f8¦İznik
+olaylar_p0058.js¦1339-01-01¦a73a7975¦Kayseri
+olaylar_p0058.js¦1394-01-01¦7cd51574¦İstanbul
+olaylar_p0058.js¦1424-02-22¦6b8566b4¦İstanbul
+olaylar_p0058.js¦1514-11-24¦60d1eb25¦Amasya
+olaylar_p0059.js¦1594-11-13¦ea61839c¦Bükreş
+olaylar_p0063.js¦1724-09-11¦03d3678a¦Salyan
+olaylar_p0063.js¦1735-05-01¦cf7862df¦Bakü
+olaylar_p0063.js¦1735-05-08¦b4c1fbd0¦Derbend
+olaylar_p0063.js¦1736-07-13¦9234da59¦Azak
+olaylar_p0067.js¦1788-09-21¦470c2627¦Temeşvar
+olaylar_p0068.js¦1475-01-01¦7e2f4094¦Tuapse
+olaylar_p0068.js¦1563-01-01¦0cbff0bd¦Kabartay (Nalçik)
+olaylar_p0068.js¦1861-06-13¦4c5bd093¦Soçi (Sâşe)
+olaylar_p0068b.js¦1788-02-22¦22d7c022¦İstanbul
+olaylar_p0068b.js¦1789-01-01¦c6996841¦Akkirman
+olaylar_p0068b.js¦1789-10-11¦af7df5d5¦İsmail
+olaylar_p0068b.js¦1790-09-21¦2da6a764¦Yergöğü (Giurgiu)
+olaylar_p0068b.js¦1792-02-10¦0980e528¦Yaş
+olaylar_p0917kosu13.js¦1736-03-24¦bc4d259d¦Azak
+olaylar_p0917kosu13.js¦1739-12-12¦049a2e54¦Azak
