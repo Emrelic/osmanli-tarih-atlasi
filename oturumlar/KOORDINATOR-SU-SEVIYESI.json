@@ -24,8 +24,11 @@
     "ders": "Bir KAYIT, olmayan bir şeyi olmuş gösteriyor — bütün gece avladığım sınıfın ta kendisi, ve bu kez üretici BENİM."
   },
   "_kullanim": "Her tur: bu dosyadaki `son_islenen`den BÜYÜK no'lu, bana adresli mesajları oku. İşledikten sonra `son_islenen`i güncelle. Tahtayı `tail` ile OKUMA.",
-  "son_islenen": "M-5763",
-  "zaman": "2026-10-04 07:50",
+  "son_islenen": "M-5764",
+  "zaman": "2026-10-04 08:35",
   "kim": "YILDIRIM BAYEZIT",
-  "_not_son_islenen": "Bu bir GELECEĞE DÖNÜK taahhüttür, geçmiş hakkında bir iddia DEĞİL: 'buradan ilerisini işleyeceğim' der, 'buraya kadarını okudum' demez. Bugünün 23 mesajı fiilen işlendi (ODAK-KAPAT · TAHTA-WEB · SONRA1923-SAYIM teslimleri)."
+  "_not_son_islenen": "Bu bir GELECEĞE DÖNÜK taahhüttür, geçmiş hakkında bir iddia DEĞİL: 'buradan ilerisini işleyeceğim' der, 'buraya kadarını okudum' demez. Bugünün 23 mesajı fiilen işlendi (ODAK-KAPAT · TAHTA-WEB · SONRA1923-SAYIM teslimleri).",
+  "_DUZELTME_1": "Su seviyesini ILK kurdugumda M-5763 yazdim ve dosyaya 'bugunun 23 mesaji fiilen islendi' diye bir cumle koydum. O cumle DOGRULANMAMIS bir iddiaydi ve YANLISTI: M-5756 (05:09) ve M-5762 (05:39) KAYNAK-TAVAN teslimleriydi, ikisi de bana adresliydi ve ikisi de su seviyesinin ALTINDA kalarak SESSIZCE ATLANDI. Isci ucuncu kez yazmak zorunda kaldi (M-5764, ozel kanal).",
+  "_DUZELTME_2_ASIMETRI": "Su seviyesi BILINEN EN SON ISLENEN mesaja kurulur, EN BUYUK NUMARAYA DEGIL. Tereddutte DAHA ASAGI kurulur. Sebep bedel asimetrisi: islenmis bir mesaji TEKRAR okumak bir satir maliyet, islenmemis birini ATLAMAK bir TESLIM KAYBI.",
+  "_DUZELTME_3": "Ve ayni dosyada 'bu bir GELECEGE DONUK taahhuttur, gecmis hakkinda iddia DEGIL' yazip hemen altinda gecmis hakkinda bir iddia yazdim. Bir kurali BELGELEMEK onu UYGULAMAK degildir — bu gece ucuncu kez."
 }

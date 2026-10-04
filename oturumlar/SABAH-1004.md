@@ -104,14 +104,37 @@ Mevcut durum: kronoloji **başlamış** (842 madde, 500'ü `kronoloji_cok_1923_1
 Cres · Diyarbakır · Elba · Bosna Dubiçası · Nuhayb · Nairobi · Şefşâven ·
 Avarua · Colcha K · Elorza · Fortín Muñoz · Putre · San Pedro de Atacama · Tocopilla
 ```
-§4 kırmızı çizgi: *"Vikipedi TEK DAYANAK değildir."* ⇒ Yanında akademik kaynak
-varsa **ikincil** (ihlal değil), yoksa **ihlal**. Ve **konum** için mi **tarih/
-sahiplik** için mi kullanıldığı hükmü değiştirir. KASA sınıflandırıyor.
-⚠️ Benim 14/6 ayrımım bir **vekil** (anmanın ±70 karakterinde olumsuz kelime
-aramak), ölçüm değil — 14'ü tek tek okumak gerekiyor.
-📌 **Karar gerekmez, bilgi:** düzeltme bende, ama Dubiça'nın tarihini (1538 ↔
-komşularının Hrvatska enciklopedija'sı **1536**) **DEĞİŞTİRMEDİM** — "Battle of
-Dubica" 1538'de ayrı bir muharebe olabilir ve fetihle karıştırılmamalı.
+**SINIFLANDIRILDI** (KASA, 14'ün Vikipedi geçen BÜTÜN alanları elle okundu —
+`denetim/KASA-VIKIPEDI-1004.md`):
+```
+🔴 İHLAL   2  Cres (İtalya'ya geçişin TEK dayanağı Wikipedia; üstelik
+                 1918-11-11 HİÇBİR kaynakta yok, kayıt "BASİTLEŞTİRME" diyor)
+              Şefşâven (rif-cumhuriyeti 1924-11-15 yalnız Wikipedia)
+🟡 İKİNCİL 3  Dubiça · Elba · Fortín Muñoz  (yanında kurumsal kaynak VAR)
+⚪ ANMA     9  kural ZATEN uygulanmış
+📌 EK ADAY  1  Maroa — KONUMUN tek dayanağı Vikipedi, gazetter YOK
+```
+🔴 **Benim vekilimin isabeti 5/14** ve Maroa'yı **yanlış kovaya** koydu (olumsuz
+ibareler ±70 karakter penceremin dışındaydı: *"yalnız Vikipedi'de"*, *"kabul
+edilmez"*, *"TEK BAŞINA dayanak SAYILMADI"*). ⇒ %36 isabetli bir vekil bir
+**ölçüm değil, aday üreticisidir** — öyle beyan ettim, şimdi sayısı da var.
+
+### B8 · 🔴 DUBİÇA ÇÖZÜLDÜ — ve kusur komşularında
+Hrvatska enciklopedija, ham sayfadan harf harf:
+```
+kozarska-dubica  "…a 1538. pala je pod osmansku vlast."
+jasenovac        "Husrev-beg osvojio ga je 1536."
+bosanski-brod    "Osmanlije su ga zauzeli 1536."
+```
+⇒ **İkisi de FETİH yılı, ikisi de doğru — ama FARKLI YERLER için.** "1538
+muharebe / 1536 fetih" ayrımı kaynakta YOK; benim o ihtimali gerekçe göstererek
+değiştirmemem Dubiça için **doğruydu, ama sandığım sebepten değil.**
+🔴 Kusur **Jasenovaç ve Brod'da**: kendi HE'lerinin **1536**'sını not etmişler
+ve Dubiça'nın **1538**'ini devralmışlar — `HUKUM-DEVRALMA-1004`ün tam ihlali.
+⚠️ Düzeltme bir **parti** işi: 1538→1536 bir kırılmayı 2 yıl kaydırır ⇒ ±30 gün
+içinde kronoloji maddesi ŞART (§3), yoksa senkron ihlali açılır.
+📌 Yan bulgu: HE Dubica Avusturya dönemini **1687–1701** verir — atlasta YOK
+(`d:` Osmanlı 1538→1718 kesintisiz) ve Karlofça'yla uyumlu. Yeni eksik dönem.
 
 ### B6 · ⚠️ `tahta.py` KENDİ KURALIMI SESSİZCE DOLANIYOR
 `TOPOLOJI.md §4②` bu gece şunu yazdı: *"`main`in TEK YAZICISI koordinatördür; hiçbir makine `main`e push etmez."* Ama `tahta.py` her tahta yazımında `pull --rebase` + `push` yapıyor ve **aynı çalışma ağacında ne commit'lenmişse onu da götürüyor.**
