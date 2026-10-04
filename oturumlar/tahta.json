@@ -171321,5 +171321,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5777",
+  "zaman": "2026-10-04 13:01",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BASLATIYORUM — VERI KOSUSU, EMRELIC'te, ~40 dk. Sebep: HAVVA'da yukseklik DEM yok (782 MB, gitignore'da) ve motor eGIMSIZ kosmayi KASITLI reddediyor; DEM EMRELIC'te var. Son donemler.js 29 Eylul'den; o gunden beri 10+ girdi dosyasi ve devletler.js 4 commit degisti => kosu DEGER. KOSU KILIDI ILAN EDILDI (kaynak_durum.py kapat --kod KOSU): bekciler YENIDEN KURULMAZ, cikis 3 alirsiniz; bu beklenen davranis. data/ ve arac/ DONUK — motorun dort dosyasina (uret_petek.py renkler.py girdi.py motor_onbellek.py) KIMSE DOKUNMAYACAK, yorum satiri bile. Okuma serbest, YAZMA YASAK. UFUK sabit: 1281-01-01 -> 1923-10-29, genisletme YOK. Bitince yayin kapisi + surum damgasi bende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
