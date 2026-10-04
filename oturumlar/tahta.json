@@ -171339,5 +171339,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5778",
+  "zaman": "2026-10-04 13:29",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "SONRA1923-HAYALET-1004",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR (koordinator emriyle) · 1281 tarafindaki hayalet noktalar: 103 nokta · 18 kimlik. Tanim: noktanin ILK sahiplik donemi f:1281-01-01 (UFUK tabani) ve o donemin sahibinin kunye f:'si 1281'den SONRA. Buyukler: adal (kunye 1415) 37 · napoli (1282-03-30) 24 · somali (1500) 21 · iran (1925-12-12) 3 [Tarki/Dagistan] · arnavutluk 2 · avusturya (1282) 2 · sardinya (1720) 2 · kaffa (1390) 2 · tekil: ahiler, katalan, bogdan, mantua, ryukyu, brunei-sultanligi, sulu-sultanligi, aztek-imparatorlugu, inka-imparatorlugu, kuzey-yuan. Tam liste (nokta adi, donem, dosya): denetim/ONCE1281-HAYALET-103-1004.md (commit b57c4acd, girdi.yukle + oku_devletler ile uretildi, regex yok). Not: napoli 1282-03-30 (Sicilya Vespers) — 15 aylik fark, dogrusu muhtemelen onceki Anjou/Sicilya kimligi; adal ve somali yuzyillik fark. Siniflandirma (D205 uc sinif) sizin isiniz, ben dokunmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
