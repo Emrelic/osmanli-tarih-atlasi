@@ -1,0 +1,821 @@
+[
+ {
+  "t": "1555-05-29",
+  "yer_id": "Amasya",
+  "b": "Amasya Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1739-09-18",
+  "yer_id": "Belgrad",
+  "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1878-07-13",
+  "yer_id": "Berlin",
+  "b": "Berlin Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-05-30",
+  "yer_id": "Londra",
+  "b": "Londra Antlaşması — Rumeli'nin kaybı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1923-07-24",
+  "yer_id": "Lozan",
+  "b": "Lozan Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1823-01-01",
+  "yer_id": "Erzurum",
+  "b": "Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1900-06-26",
+  "yer_id": "Fort Portal (Toro)",
+  "b": "Toro Antlaşması — Toro Krallığı İngiliz Uganda Protektorası'nın özerk bir parçası oldu",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1358-02-18",
+  "yer_id": "Dubrovnik",
+  "b": "Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-08-10",
+  "yer_id": "Kavala",
+  "b": "Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1479-01-25",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1812-05-28",
+  "yer_id": "Bükreş",
+  "b": "Bükreş Antlaşması — Besarabya'nın kaybı",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1829-09-14",
+  "yer_id": "Edirne",
+  "b": "Edirne Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1921-10-13",
+  "yer_id": "Kars",
+  "b": "Kars Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1561-11-28",
+  "yer_id": "Riga",
+  "b": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1714-03-07",
+  "yer_id": "Milano",
+  "b": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1618-12-11",
+  "yer_id": "Çernigov",
+  "b": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1802-03-25",
+  "yer_id": "Menorka (Mahon)",
+  "b": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1916-11-03",
+  "yer_id": "Doha (Katar)",
+  "b": "İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1815-11-05",
+  "yer_id": "Ayamavra (Lefkada)",
+  "b": "Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1403-06-15",
+  "yer_id": "Gelibolu",
+  "b": "Gelibolu Antlaşması — Bizans'a tavizler",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1827-07-06",
+  "yer_id": "Londra",
+  "b": "Londra Antlaşması: üç devlet Yunan özerkliğini dayattı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1828-08-06",
+  "yer_id": "İskenderiye",
+  "b": "İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1833-05-14",
+  "yer_id": "Kütahya",
+  "b": "Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1840-07-15",
+  "yer_id": "Londra",
+  "b": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1840-11-27",
+  "yer_id": "İskenderiye",
+  "b": "İskenderiye Konvansiyonu",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1533-01-01",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması — Habsburglarla ilk barış",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1547-06-18",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması — Habsburglarla beş yıllık barış",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1573-03-07",
+  "yer_id": "İstanbul",
+  "b": "Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1621-10-09",
+  "yer_id": "Hotin",
+  "b": "Hotin Seferi ve Hotin Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1681-01-11",
+  "yer_id": "Bahçesaray",
+  "b": "Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1700-07-14",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1713-06-24",
+  "yer_id": "Edirne",
+  "b": "Rusya ile Edirne Antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1724-06-24",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1727-10-04",
+  "yer_id": "Hemedan",
+  "b": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1736-09-01",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1739-10-03",
+  "yer_id": "Niş",
+  "b": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1792-01-10",
+  "yer_id": "Yaş",
+  "b": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1802-06-25",
+  "yer_id": "Paris",
+  "b": "Paris Antlaşması — Fransa ile barışın yeniden kurulması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1826-10-07",
+  "yer_id": "Akkirman",
+  "b": "Akkirman Antlaşması — Sırbistan ve prensliklere tavizler",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1854-03-12",
+  "yer_id": "İstanbul",
+  "b": "İstanbul'da İngiltere ve Fransa ile ittifak antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1856-03-30",
+  "yer_id": "Paris",
+  "b": "Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devletler sistemine kabulü",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1878-01-31",
+  "yer_id": "Edirne",
+  "b": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-09-29",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-11-14",
+  "yer_id": "Atina",
+  "b": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1914-08-02",
+  "yer_id": "İstanbul",
+  "b": "İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1918-03-03",
+  "yer_id": "Kars",
+  "b": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1919-07-23",
+  "yer_id": "Erzurum",
+  "b": "Erzurum Kongresi: Doğu vilâyetlerinin millî direniş kararı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1919-09-04",
+  "yer_id": "Sivas",
+  "b": "Sivas Kongresi: millî direnişin tek çatı altında birleşmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1919-10-22",
+  "yer_id": "Amasya",
+  "b": "Amasya Protokolü: İstanbul hükümetiyle Heyet-i Temsîliyye görüşmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1920-12-03",
+  "yer_id": "Gümrü (Aleksandropol)",
+  "b": "Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1921-10-20",
+  "yer_id": "Ankara",
+  "b": "Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1922-10-11",
+  "yer_id": "Mudanya",
+  "b": "Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1828-02-22",
+  "yer_id": "Revan",
+  "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1830-02-03",
+  "yer_id": "Londra",
+  "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1883-06-08",
+  "yer_id": "Tunus",
+  "b": "Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1868-07-03",
+  "yer_id": "Fort Bridger",
+  "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1851-09-17",
+  "yer_id": "Fort Laramie",
+  "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1847-05-31",
+  "yer_id": "Erzurum",
+  "b": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-07-29",
+  "yer_id": "Doha (Katar)",
+  "b": "Katar'dan Osmanlı feragati — Londra Sözleşmesi",
+  "kayit_var": true,
+  "yerde_kirilma": true,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1732-01-01",
+  "yer_id": "Reşt",
+  "b": "Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a iade etti",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1790-09-06",
+  "yer_id": "İstanbul",
+  "b": "İstanbul meşveret meclisinin mütareke kararı — ön şartlardan vazgeçilmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1790-09-18",
+  "yer_id": "Yergöğü (Giurgiu)",
+  "b": "Yergöğü Mütarekesi — Avusturya cephesinde silahların susması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1790-09-21",
+  "yer_id": "Yergöğü (Giurgiu)",
+  "b": "Yergöğü Mütarekesi'nin Coburg tarafından imzalanması ve metinlerin mübadelesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1791-08-08",
+  "yer_id": "Kalas (Galatz)",
+  "b": "Kalas'ta Vâsıf Efendi ile Prens Repnin arasında mütareke mutabakatı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1791-08-11",
+  "yer_id": "Kalas (Galatz)",
+  "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1792-01-18",
+  "yer_id": "Yaş",
+  "b": "Yaş Antlaşması'nın sadrazam senediyle onaylanması",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1909-04-19",
+  "yer_id": "İstanbul",
+  "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-11-17",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1915-09-06",
+  "yer_id": "Sofya",
+  "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1910-05-19",
+  "yer_id": "Trablus",
+  "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1570-12-13",
+  "yer_id": "Stettin (Szczecin)",
+  "b": "Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1668-05-02",
+  "yer_id": "Aachen",
+  "b": "Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1678-09-17",
+  "yer_id": "Nijmegen",
+  "b": "Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1760-03-24",
+  "yer_id": "Torino",
+  "b": "Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1814-05-30",
+  "yer_id": "Paris",
+  "b": "Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1814-06-03",
+  "yer_id": "Paris",
+  "b": "Paris antlaşması: Tirol Avusturya'ya döndü",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1816-04-14",
+  "yer_id": "Münih",
+  "b": "Münih Antlaşması: Salzburg Avusturya'ya döndü",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1918-03-29",
+  "yer_id": "Brest-Litovsk",
+  "b": "Brest-Litovsk Barışı yürürlüğe girdi: Rusya batı topraklarından vazgeçti",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1920-03-30",
+  "yer_id": "Tartu (Dorpat)",
+  "b": "Tartu Barışı yürürlüğe girdi: Estonya–Sovyet Rusya sınırı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1920-08-11",
+  "yer_id": "Riga",
+  "b": "Riga Barışı: Letonya–Sovyet Rusya sınırı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1920-12-31",
+  "yer_id": "Petsamo (Peçenga)",
+  "b": "Tartu Barışı (Finlandiya) yürürlüğe girdi: Petsamo Finlandiya'ya",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1920-01-01",
+  "yer_id": "Ustrumca (Strumica)",
+  "b": "Neuilly Antlaşması'nın Bulgaristan–SHS sınırı: Çariçin, Bosilegrad ve Ustrumca SHS'ye",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-08-10",
+  "yer_id": "Bükreş",
+  "b": "Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1909-04-19",
+  "yer_id": "İstanbul",
+  "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-09-29",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1913-11-17",
+  "yer_id": "İstanbul",
+  "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1915-09-06",
+  "yer_id": "Sofya",
+  "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1921-03-16",
+  "yer_id": "Moskova",
+  "b": "Moskova Antlaşması — Türk-Sovyet sınırının tahdidi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1921-10-13",
+  "yer_id": "Kars",
+  "b": "Kars Antlaşması — doğu sınırının Kafkas cumhuriyetleriyle teyidi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1923-07-24",
+  "yer_id": "Lozan",
+  "b": "Lozan Antlaşması — Türk-Yunan sınırı Meriç ve Karaağaç dirseğiyle belirlendi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ },
+ {
+  "t": "1923-07-24",
+  "yer_id": "Lozan",
+  "b": "Lozan Antlaşması — Türk-Bulgar sınırının teyidi",
+  "kayit_var": true,
+  "yerde_kirilma": false,
+  "kapsam_genis": false,
+  "odak": false
+ }
+]
