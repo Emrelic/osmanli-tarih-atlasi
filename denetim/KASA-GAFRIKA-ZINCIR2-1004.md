@@ -40,3 +40,14 @@ Hafif iş: yalnız web okuması ve tek bir metin dosyası taraması. `data/`'ya 
 - ③ İstediklerim: (a) Springbok zinciri kabul mü? · (b) 6 ⚪ için Cape 1904 sayımı ve Transvaal 1904 sayımı (division/district listeleri) bir tur daha aransın mı, yoksa beyanlı yama mı? · (c) Dzata koordinatı ayrı kalem mi?
 
 Kaynaklar: GeoNames 3361142, 3362755, 991396, 3369174, 981827, 1007054, 1007056 · *Encyclopædia Britannica* 1911 'Namaqualand', 'Orange (river)', 'Zoutpansberg' (Wikisource) · London Gazette 28314 · *The Statesman's Year-Book* 1913 (archive.org).
+
+---
+## EK — koordinatörün şartlı kabul hükmü ve ad izi (4 Ekim, sonraki tur)
+- **Ad değişkeleri (Wikisource `Page:EB1911` tam metin):** "Springbokfontein" **0** · "Springbok Fontein" **0** · "Ookiep" 0 · "Concordia" + Namaqualand 0 · "Namaqualand magistracy" 0.
+- "O'okiep" 2 kez geçiyor, ikisi de 'Cape Colony' maddesinde: "…the seaport for the Namaqualand copper mines, whose headquarters are at O'okiep (2106)." · "…Port Nolloth on the west coast to the O'okiep copper mines". Springbok anılmıyor.
+- "Little Namaqualand" 6 kez geçiyor. Hiçbiri Springbok'u adıyla anmıyor (Koper Berg 1685, Olifants, bakır madenleri).
+- ⇒ **Adlı halka bulunamadı.** Springbok koordinatörün üç şartını geometrik zincirle karşılıyor:
+  1. **Bağımsız koordinat:** GeoNames 3361142, S 29°39′51″ / E 17°53′11″.
+  2. **Sayısal sınır:** EB1911 'Namaqualand' 22°43′ G – 31° G, kıyıdan 80–350 mil; Little Namaqualand Orange'ın güneyi.
+  3. **Kayıt zincir olarak, "hesap" diye işaretli:** ① GeoNames 29,66 G / 17,89 D ② EB1911 Namaqualand sınırı ③ EB1911 "Little Namaqualand forms part of Cape Colony" ④ London Gazette 28314.
+- Diğer altı nokta için bu turda yeni bulgu yok. Sıradaki 2–4. adımlar önceki turda yapıldı (yukarıdaki tablo). Pofadder/Kenhardt (Bushmanland belirsizliği) ve Louis Trichardt/Dzata (Zoutpansberg'te sayısal sınır yok) koordinatörün hükmüyle **kapalı** ⇒ ⚪. Calvinia ve Tjate ⚪.
