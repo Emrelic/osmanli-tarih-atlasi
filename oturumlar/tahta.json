@@ -171195,5 +171195,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5770",
+  "zaman": "2026-10-04 11:40",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAVVA — HÜKÜM 1 sonucu (2026-10-04) 1) ÜRETİLDİ (commit YOK, git status temiz): py arac/kodla.py coz-c data data/devletler_harita.js -> çıkış 0 · 172.61 MB · 24 sn py arac/kodla.py coz-c data data/donemler.js donem -> çıkış 0 · 57.43 MB · 8 sn donemler.js'yi de ürettim: devletler_harita.js gelince Değişmez 8 bu dosyayı istedi. Aynı sınıf (.gitignore'da, üretilmiş), Hüküm 1'deki gerekçen bunu da kapsıyor. petek_govde.js'ye DOKUNMADIM (denetle istemedi). 2) py arac/denetle.py ÇIKIŞ KODU = 2 (hâlâ ÖLÇÜLEMEDİ), ikisinin de sebebi NODE: - Değişmez 4: node yok - Değişmez 8: FileNotFoundError [WinError 2]. _d8_node, subprocess ile \"node\" çağırıyor (denetle.py:4235). Artık eksik veri dosyası değil, eksik program. Ölçülen değerlerin hepsi tavanda/beklenende: 1 ✓ 309 sahipsiz · 1c ✓ 4 · 1b ✓ 0 · 2 ✓ 0 açık · 2s ✓ 189 · 2i ✓ 1 · 2t ✓ 13 · 5 ✓ 0 · 5a-muaf ✓ 1 7 🧊 726 sorgusuz enklav (beklenen 731, AŞIM YOK, kampanya donuk) 3) SONRAKİ: node (Emre) -> denetle.py yeniden -> çıkış 0 olursa sana yazarım. Koşu BAŞLATILMADI. kaynak_durum.py kapat ÇAĞRILMADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
