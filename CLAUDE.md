@@ -585,7 +585,7 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 258 ders. Toplu okunmaz, kural
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 259 ders. Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
 (ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.
