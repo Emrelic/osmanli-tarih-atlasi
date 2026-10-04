@@ -2854,8 +2854,8 @@ harita.on("load", function () {
     // taramasıyla karışmasın diye ayna simetrisi seçildi.
     // 🔴 ORAN ÇEVRİLDİ (DALGA-0068 H-0001, 18 Eylül 2026): işgalci (#555 örnek
     // renk) BASKIN %62, nominal sahip (#8e0b22) ince şerit %38 — isgalDesenleriKur
-    // ile AYNI oran (eskiden tersti).
-    '<span><i style="background:linear-gradient(-45deg,#555 0 62%,#8e0b22 62% 100%);background-size:8px 8px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
+    // ile AYNI oran (eskiden tersti). 4 Ekim 2026 (0076/H-0123): %66,7 / %33,3 = 2:1.
+    '<span><i style="background:linear-gradient(-45deg,#555 0 66.7%,#8e0b22 66.7% 100%);background-size:9px 9px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
     '<span><i style="background:none;border-top:3px solid #6d0d1c;height:0;align-self:center"></i> İmparatorluk sınırı (ikisini birlikte)</span>' +
     // 🔴 SÖNEN KENAR — ÖLÇÜLMÜŞ BİR ŞİKÂYETİ KAPATIYOR.
     // Kullanıcı 1326 ve 1331'de "iki ayrı kırmızı" gördü ve kusur sandı; ayrıca
@@ -4725,7 +4725,12 @@ function isgalDesenAdi(ig) {
 }
 
 function isgalDesenleriKur() {
-  var K = 8;
+  // 🔴 4 Ekim 2026 — 0076/H-0123 (Emre): "İŞGAL EDEN ÜLKENİN RENGİ İKİ KAT
+  // KALINLIKTA, İŞGAL EDİLENİN TEK KAT". K=8'de 5/3 = 1,67:1 idi. K=9 ⇒ 6/3 =
+  // TAM 2:1. K=6 (SINIR-CIZGI-0076 yaması, 4/2) BİLEREK seçilmedi: ince şerit
+  // 3 px → 2 px'e inerdi ve `TARAMA_SERIT_PX`'ten türeyen bütün sefer okları
+  // üçte bir incelirdi (Emre M-4838). K=9'da ince şerit 3 px KALIR.
+  var K = 9;
   ISGALLER.forEach(function (ig) {
     var ad = isgalDesenAdi(ig);
     if (harita.hasImage && harita.hasImage(ad)) return;
@@ -4742,7 +4747,8 @@ function isgalDesenleriKur() {
         // işgalcide; sahip (nominal) şeridi 8'de 3'e düştü, ince kalsın diye.
         // Eski hal ("işgalci ince, hukuken geçici" gerekçesiyle) Emre'nin
         // kuralının TAM TERSİYDİ — bu artık bir tercih değil düzeltme.
-        var isgalci = ((x - y + K) % K) < 5;
+        // 4 Ekim 2026: 9'da 6 (H-0123, tam 2:1) — sahip şeridi yine 3 px.
+        var isgalci = ((x - y + K) % K) < 6;
         var r = isgalci ? c : s;
         var i = (y * K + x) * 4;
         veri[i] = r[0]; veri[i + 1] = r[1]; veri[i + 2] = r[2]; veri[i + 3] = 255;
@@ -4800,8 +4806,8 @@ function isgalLejanti(fs) {
     return true;
   }).map(function (f) {
     return '<span><i style="background:linear-gradient(-45deg,' +
-           f.properties.renk + ' 0 62%,' + f.properties.sahipRenk +
-           ' 62% 100%);background-size:8px 8px"></i> ' +
+           f.properties.renk + ' 0 66.7%,' + f.properties.sahipRenk +
+           ' 66.7% 100%);background-size:9px 9px"></i> ' +   // H-0123: 6/9 = 2:1
            f.properties.isgalci + "</span>";
   }).join("");
   lejantYerlestir();
@@ -5073,6 +5079,8 @@ function lejantYerlestir() {
 //   Şeritler ÇAPRAZ, yani ekrandaki DİK genişlikleri /√2:
 //     sahip (en ince, tarayan "çizgi")  3/√2 = 2.12 px  ⇒ 3 katı = 6.4 px
 //     işgalci (baskın şerit)            5/√2 = 3.54 px  ⇒ 3 katı = 10.6 px
+//     (4 Ekim 2026, H-0123: K=9, işgalci 6 px → 4.24 px; ince şerit 3 px AYNI,
+//      yani bu tablonun ölçütü değişmedi)
 //   Ölçüt olarak İNCE şerit alındı (algıda "tarama çizgisi" odur); yine de en
 //   ince ok türü bile 7 px ile 6.4'ü aşıyor. Katı okuyuş (10.6 px) istenirse
 //   tek yapılacak iş bu tablodaki sayıları 1.2 ile çarpmaktır — desen
@@ -5528,7 +5536,7 @@ window.seferKademeIdx = seferKademeIdx;
 // ekleniyor, yani ŞERİT ZOOM'DAN BAĞIMSIZ — kademe değiştikçe oran kaymıyor
 // (ölçüldü: denetim/OK-0074.md). Tablo bu tek kaynaktan türüyor; kalınlıklar
 // artık elle yazılmıyor.
-var TARAMA_SERIT_PX = 3 / Math.SQRT2;      // isgalDesenleriKur: K=8, ince şerit 3 px, çapraz
+var TARAMA_SERIT_PX = 3 / Math.SQRT2;      // isgalDesenleriKur: K=9 (4 Eki 2026, H-0123), ince şerit 3 px DEĞİŞMEDİ, çapraz
 var OK_KAT = { tarali: 2.0, sade: 1.5 };   // Emre M-4838
 function seferKalinlik(tur, tarali) {
   var h = HAREKET[tur] || HAREKET.sefer;
