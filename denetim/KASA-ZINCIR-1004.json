@@ -1,0 +1,1410 @@
+[
+ {
+  "ad": "Otranto",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Bitlis",
+  "dosya": "yerlesimler.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Van"
+  ],
+  "zincir": [
+   {
+    "yol": "Bitlis ← Van",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Malatya",
+  "dosya": "yerlesimler.js",
+  "alan": "YIL",
+  "komsu": [
+   "Sivas",
+   "Kayseri"
+  ],
+  "zincir": [
+   {
+    "yol": "Malatya ← Sivas",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Malatya ← Kayseri",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Drama",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [
+   "Kavala",
+   "Praviște (Eleftheroupoli)",
+   "Serez"
+  ],
+  "zincir": [
+   {
+    "yol": "Drama ← Kavala",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   },
+   {
+    "yol": "Drama ← Praviște (Eleftheroupoli)",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   },
+   {
+    "yol": "Drama ← Serez",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Dimetoka",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [
+   "Sofulu"
+  ],
+  "zincir": [
+   {
+    "yol": "Dimetoka ← Sofulu (Soufli)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Niş",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Soçi (Sâşe)",
+  "dosya": "yerlesimler.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Anapa"
+  ],
+  "zincir": [
+   {
+    "yol": "Soçi (Sâşe) ← Anapa",
+    "derinlik": 1,
+    "uc": "YALNIZ-DONEM"
+   }
+  ]
+ },
+ {
+  "ad": "Tuapse",
+  "dosya": "yerlesimler.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Anapa"
+  ],
+  "zincir": [
+   {
+    "yol": "Tuapse ← Anapa",
+    "derinlik": 1,
+    "uc": "YALNIZ-DONEM"
+   }
+  ]
+ },
+ {
+  "ad": "Maykop (Çerkezya)",
+  "dosya": "yerlesimler.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Anapa"
+  ],
+  "zincir": [
+   {
+    "yol": "Maykop (Çerkezya) ← Anapa",
+    "derinlik": 1,
+    "uc": "YALNIZ-DONEM"
+   }
+  ]
+ },
+ {
+  "ad": "Tarki (Tarku)",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Zagem (Kaheti)",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Kirmanşah",
+  "dosya": "yerlesimler.js",
+  "alan": "YANLIS",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Derne",
+  "dosya": "yerlesimler.js",
+  "alan": "OLAY-GUNU",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Agadez",
+  "dosya": "yerlesimler.js",
+  "alan": "KUNYE",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Ferecik (Feres)",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [
+   "Sofulu",
+   "Dedeağaç"
+  ],
+  "zincir": [
+   {
+    "yol": "Ferecik (Feres) ← Sofulu (Soufli)",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Ferecik (Feres) ← Dedeağaç (Alexandroupoli)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Gümülcine",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [
+   "Sofulu",
+   "Dedeağaç"
+  ],
+  "zincir": [
+   {
+    "yol": "Gümülcine ← Sofulu (Soufli)",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Gümülcine ← Dedeağaç (Alexandroupoli)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Ahar (Karadağ)",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Sarâb",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Miyâne",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Nihâvend",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Burûcird",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Salyan",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Kuba",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Buraydâ (Kasîm)",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Uneyze",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Şakrâ",
+  "dosya": "yerlesimler.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Divriği",
+  "dosya": "yerlesimler.js",
+  "alan": "YIL",
+  "komsu": [
+   "Sivas",
+   "Kayseri"
+  ],
+  "zincir": [
+   {
+    "yol": "Divriği ← Sivas",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Divriği ← Kayseri",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Arapkir",
+  "dosya": "yerlesimler.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Divriği",
+   "Sivas",
+   "Malatya"
+  ],
+  "zincir": [
+   {
+    "yol": "Arapkir ← Divriği ← Sivas",
+    "derinlik": 2,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Arapkir ← Divriği ← Kayseri",
+    "derinlik": 2,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Arapkir ← Sivas",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Arapkir ← Malatya ← Sivas",
+    "derinlik": 2,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Arapkir ← Malatya ← Kayseri",
+    "derinlik": 2,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Kragujevac",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [
+   "Niş",
+   "Vidin"
+  ],
+  "zincir": [
+   {
+    "yol": "Kragujevac ← Niş",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   },
+   {
+    "yol": "Kragujevac ← Vidin",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Çaçak",
+  "dosya": "yerlesimler.js",
+  "alan": "GUN",
+  "komsu": [
+   "Niş",
+   "Vidin"
+  ],
+  "zincir": [
+   {
+    "yol": "Çaçak ← Niş",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   },
+   {
+    "yol": "Çaçak ← Vidin",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Kerene",
+  "dosya": "yerlesimler_afrika.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Cenîne",
+  "dosya": "yerlesimler_afrika.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Eperjes (Prešov)",
+  "dosya": "yerlesimler_ek.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Tokaj",
+  "dosya": "yerlesimler_ek.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Sin (Sinj)",
+  "dosya": "yerlesimler_ek.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Ceylanpınar",
+  "dosya": "yerlesimler_ek25.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Mardin"
+  ],
+  "zincir": [
+   {
+    "yol": "Ceylanpınar ← Mardin",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Arpaçay (Akyaka)",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Revan"
+  ],
+  "zincir": [
+   {
+    "yol": "Arpaçay (Akyaka) ← Revan",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Digor",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Revan"
+  ],
+  "zincir": [
+   {
+    "yol": "Digor ← Revan",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Iğdır",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Revan"
+  ],
+  "zincir": [
+   {
+    "yol": "Iğdır ← Revan",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Gümrü (Aleksandropol)",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Revan"
+  ],
+  "zincir": [
+   {
+    "yol": "Gümrü (Aleksandropol) ← Revan",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Eçmiyadzin",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Revan"
+  ],
+  "zincir": [
+   {
+    "yol": "Eçmiyadzin ← Revan",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Çaldıran",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "GUN",
+  "komsu": [
+   "Van"
+  ],
+  "zincir": [
+   {
+    "yol": "Çaldıran ← Van",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Özalp (Saray)",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Van"
+  ],
+  "zincir": [
+   {
+    "yol": "Özalp (Saray) ← Van",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Başkale",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "GUN",
+  "komsu": [
+   "Van"
+  ],
+  "zincir": [
+   {
+    "yol": "Başkale ← Van",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Yüksekova (Gever)",
+  "dosya": "yerlesimler_ek26.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Çölemerik (Hakkâri)"
+  ],
+  "zincir": [
+   {
+    "yol": "Yüksekova (Gever) ← Çölemerik (Hakkâri)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Jasenovaç (Jasenovac)",
+  "dosya": "yerlesimler_ek29.js",
+  "alan": "YIL",
+  "komsu": [
+   "Bosna Dubiçası"
+  ],
+  "zincir": [
+   {
+    "yol": "Jasenovaç (Jasenovac) ← Bosna Dubiçası (Bosanska Dubica)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Bosna Brod'u (Bosanski Brod)",
+  "dosya": "yerlesimler_ek29.js",
+  "alan": "YIL",
+  "komsu": [
+   "Bosna Dubiçası"
+  ],
+  "zincir": [
+   {
+    "yol": "Bosna Brod'u (Bosanski Brod) ← Bosna Dubiçası (Bosanska Dubica)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Ba'lebek (Baalbek)",
+  "dosya": "yerlesimler_ek29.js",
+  "alan": "GUN",
+  "komsu": [
+   "Şam"
+  ],
+  "zincir": [
+   {
+    "yol": "Ba'lebek (Baalbek) ← Şam",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz 1920 Meysalun gunu"
+   }
+  ]
+ },
+ {
+  "ad": "Sûr (Tyre) — Lübnan",
+  "dosya": "yerlesimler_ek29.js",
+  "alan": "GUN",
+  "komsu": [
+   "Şam"
+  ],
+  "zincir": [
+   {
+    "yol": "Sûr (Tyre) — Lübnan ← Şam",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz 1920 Meysalun gunu"
+   }
+  ]
+ },
+ {
+  "ad": "Yedisan bozkırı",
+  "dosya": "yerlesimler_ek_bozkir.js",
+  "alan": "OLAY-GUNU",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Fülek (Fiľakovo)",
+  "dosya": "yerlesimler_ek_macaristan.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Ungvár (Uzhhorod)",
+  "dosya": "yerlesimler_ek_macaristan.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Munkács (Mukacheve)",
+  "dosya": "yerlesimler_ek_macaristan.js",
+  "alan": "KADEME",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Şeyhrumi (Yücelen)",
+  "dosya": "yerlesimler_sinir_dogu.js",
+  "alan": "GUN",
+  "komsu": [
+   "Van"
+  ],
+  "zincir": [
+   {
+    "yol": "Şeyhrumi (Yücelen) ← Van",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Şeyh Salû-yi Ulyâ",
+  "dosya": "yerlesimler_sinir_dogu.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Mâku",
+   "Kotur"
+  ],
+  "zincir": [
+   {
+    "yol": "Şeyh Salû-yi Ulyâ ← Mâku",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Şeyh Salû-yi Ulyâ ← Kotur",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Qaţţīnah",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Ceylanpınar",
+   "Rakka"
+  ],
+  "zincir": [
+   {
+    "yol": "Qaţţīnah ← Ceylanpınar ← Mardin",
+    "derinlik": 2,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Qaţţīnah ← Rakka",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz 1920 Meysalun gunu"
+   }
+  ]
+ },
+ {
+  "ad": "Ḩīmū",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Nusaybin",
+   "Malikiye (Derik)"
+  ],
+  "zincir": [
+   {
+    "yol": "Ḩīmū ← Nusaybin",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   },
+   {
+    "yol": "Ḩīmū ← Malikiye (Derik)",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Jadlā’",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Akçakale",
+   "Ayn el-Arab (Kobani)"
+  ],
+  "zincir": [
+   {
+    "yol": "Jadlā’ ← Akçakale",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Jadlā’ ← Ayn el-Arab (Kobani)",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz 1920 Meysalun gunu"
+   }
+  ]
+ },
+ {
+  "ad": "Mercihamis (Yurtbağı)",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Birecik"
+  ],
+  "zincir": [
+   {
+    "yol": "Mercihamis (Yurtbağı) ← Birecik",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Sincan",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "İskenderun"
+  ],
+  "zincir": [
+   {
+    "yol": "Sincan ← İskenderun",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz 1920 Meysalun gunu"
+   }
+  ]
+ },
+ {
+  "ad": "Cibri (Güçlü)",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Cizre"
+  ],
+  "zincir": [
+   {
+    "yol": "Cibri (Güçlü) ← Cizre",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Babū",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Nusaybin",
+   "Malikiye (Derik)"
+  ],
+  "zincir": [
+   {
+    "yol": "Babū ← Nusaybin",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   },
+   {
+    "yol": "Babū ← Malikiye (Derik)",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Kilise",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Çölemerik (Hakkâri)"
+  ],
+  "zincir": [
+   {
+    "yol": "Kilise ← Çölemerik (Hakkâri)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Gōrabī",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Şemdinli (Şemdinni)",
+   "Rewândiz"
+  ],
+  "zincir": [
+   {
+    "yol": "Gōrabī ← Şemdinli (Şemdinni)",
+    "derinlik": 1,
+    "uc": "ZAYIF:GeoNames konum, tarih kaynagi degil"
+   },
+   {
+    "yol": "Gōrabī ← Rewândiz",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Tirwānīsh",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "İmâdiye (Amêdî)"
+  ],
+  "zincir": [
+   {
+    "yol": "Tirwānīsh ← İmâdiye (Amêdî)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Balıklı",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Şemdinli (Şemdinni)"
+  ],
+  "zincir": [
+   {
+    "yol": "Balıklı ← Şemdinli (Şemdinni)",
+    "derinlik": 1,
+    "uc": "ZAYIF:GeoNames konum, tarih kaynagi degil"
+   }
+  ]
+ },
+ {
+  "ad": "Cumai (Birlikköy)",
+  "dosya": "yerlesimler_sinir_guney.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Silopi"
+  ],
+  "zincir": [
+   {
+    "yol": "Cumai (Birlikköy) ← Silopi",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Uluköy (Akçadam)",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Uzunköprü"
+  ],
+  "zincir": [
+   {
+    "yol": "Uluköy (Akçadam) ← Uzunköprü",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Stérna",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Orestiada (Kumçiftliği)"
+  ],
+  "zincir": [
+   {
+    "yol": "Stérna ← Orestiada (Kumçiftliği)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Távri",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Ferecik (Feres)"
+  ],
+  "zincir": [
+   {
+    "yol": "Távri ← Ferecik (Feres) ← Sofulu (Soufli)",
+    "derinlik": 2,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Távri ← Ferecik (Feres) ← Dedeağaç (Alexandroupoli)",
+    "derinlik": 2,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Küfkaynapınarı (Azatlı)",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Havsa"
+  ],
+  "zincir": [
+   {
+    "yol": "Küfkaynapınarı (Azatlı) ← Havsa",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Karpuzlu (Yenikarpuzlu)",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "İpsala"
+  ],
+  "zincir": [
+   {
+    "yol": "Karpuzlu (Yenikarpuzlu) ← İpsala",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Malak Dervent (Lalkovo)",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Elhova (Elhovo)"
+  ],
+  "zincir": [
+   {
+    "yol": "Malak Dervent (Lalkovo) ← Elhova (Elhovo)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Umur Fakih (Fakia)",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Elhova (Elhovo)"
+  ],
+  "zincir": [
+   {
+    "yol": "Umur Fakih (Fakia) ← Elhova (Elhovo)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Zazalo",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Ahıska"
+  ],
+  "zincir": [
+   {
+    "yol": "Zazalo ← Ahıska",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Murvaneti",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Batum"
+  ],
+  "zincir": [
+   {
+    "yol": "Murvaneti ← Batum",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Ts’q’altbila",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Ahıska"
+  ],
+  "zincir": [
+   {
+    "yol": "Ts’q’altbila ← Ahıska",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Saylıca",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Şavşat"
+  ],
+  "zincir": [
+   {
+    "yol": "Saylıca ← Şavşat",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Makhalak’auri",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Hulo (Acara)"
+  ],
+  "zincir": [
+   {
+    "yol": "Makhalak’auri ← Hulo (Acara)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Norapat",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Eçmiyadzin"
+  ],
+  "zincir": [
+   {
+    "yol": "Norapat ← Eçmiyadzin ← Revan",
+    "derinlik": 2,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Beri",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Iğdır"
+  ],
+  "zincir": [
+   {
+    "yol": "Beri ← Iğdır ← Revan",
+    "derinlik": 2,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Kliçatak (Suser)",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Gümrü (Aleksandropol)"
+  ],
+  "zincir": [
+   {
+    "yol": "Kliçatak (Suser) ← Gümrü (Aleksandropol) ← Revan",
+    "derinlik": 2,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Küçükperveli",
+  "dosya": "yerlesimler_sinir_kuzey.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Arpaçay (Akyaka)"
+  ],
+  "zincir": [
+   {
+    "yol": "Küçükperveli ← Arpaçay (Akyaka) ← Revan",
+    "derinlik": 2,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Lubnı",
+  "dosya": "yerlesimler_ok106.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Poltava"
+  ],
+  "zincir": [
+   {
+    "yol": "Lubnı ← Poltava",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Darende",
+  "dosya": "yerlesimler_ok110.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Malatya"
+  ],
+  "zincir": [
+   {
+    "yol": "Darende ← Malatya ← Sivas",
+    "derinlik": 2,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Darende ← Malatya ← Kayseri",
+    "derinlik": 2,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Oodnadatta",
+  "dosya": "yerlesimler_okyanusya.js",
+  "alan": "YANLIS",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Meekatharra",
+  "dosya": "yerlesimler_okyanusya.js",
+  "alan": "YANLIS",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Sîva (Siwa)",
+  "dosya": "yerlesimler_p0043libya.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Dâhile",
+   "Hârice",
+   "Ferâfire",
+   "Bahriye"
+  ],
+  "zincir": [
+   {
+    "yol": "Sîva (Siwa) ← Dâhile",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Sîva (Siwa) ← Hârice (Vâhât)",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Sîva (Siwa) ← Ferâfire",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Sîva (Siwa) ← Bahriye (Bâvîtî)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Braslav (Bratslav)",
+  "dosya": "yerlesimler_ukrayna_0916.js",
+  "alan": "GUN",
+  "komsu": [
+   "Vinnitsa"
+  ],
+  "zincir": [
+   {
+    "yol": "Braslav (Bratslav) ← Vinnitsa (Vinnytsia)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Berdiçev (Berdychiv)",
+  "dosya": "yerlesimler_ukrayna_0916.js",
+  "alan": "YIL",
+  "komsu": [
+   "Jitomir"
+  ],
+  "zincir": [
+   {
+    "yol": "Berdiçev (Berdychiv) ← Jitomir (Zhytomyr)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Bayburt",
+  "dosya": "yerlesimler_anadolu_0914.js",
+  "alan": "KUNYE",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Dera Gazi Han",
+  "dosya": "yerlesimler_nokta_asya_0917.js",
+  "alan": "KUNYE",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Dera İsmail Han",
+  "dosya": "yerlesimler_nokta_asya_0917.js",
+  "alan": "KUNYE",
+  "komsu": [],
+  "zincir": []
+ },
+ {
+  "ad": "Chenzhou (Hunan)",
+  "dosya": "yerlesimler_nokta_asya_0917.js",
+  "alan": "GUN",
+  "komsu": [
+   "Hengyang"
+  ],
+  "zincir": [
+   {
+    "yol": "Chenzhou (Hunan) ← Hengyang (Hengzhou)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Şelon havzası (Soltsı)",
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Novgorod",
+   "Staraya Russa"
+  ],
+  "zincir": [
+   {
+    "yol": "Şelon havzası (Soltsı) ← Novgorod",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Şelon havzası (Soltsı) ← Staraya Russa",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Murska Sobota",
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "alan": "DEVLET/YIL",
+  "komsu": [
+   "Kanije",
+   "Varaždin"
+  ],
+  "zincir": [
+   {
+    "yol": "Murska Sobota ← Kanije",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Murska Sobota ← Varasd (Varaždin)",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Filorina (Florina)",
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "alan": "GUN",
+  "komsu": [
+   "Kesriye",
+   "Manastır",
+   "Vodina"
+  ],
+  "zincir": [
+   {
+    "yol": "Filorina (Florina) ← Kesriye (Kastoria)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   },
+   {
+    "yol": "Filorina (Florina) ← Manastır",
+    "derinlik": 1,
+    "uc": "BOS"
+   },
+   {
+    "yol": "Filorina (Florina) ← Vodina (Edessa)",
+    "derinlik": 1,
+    "uc": "ZAYIF:yalniz slug"
+   }
+  ]
+ },
+ {
+  "ad": "Vanimo",
+  "dosya": "yerlesimler_a78_okyanusya.js",
+  "alan": "GUN",
+  "komsu": [
+   "Herbertshöhe",
+   "Madang"
+  ],
+  "zincir": [
+   {
+    "yol": "Vanimo ← Herbertshöhe (Kokopo) — Rabaul",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   },
+   {
+    "yol": "Vanimo ← Madang",
+    "derinlik": 1,
+    "uc": "BOS"
+   }
+  ]
+ },
+ {
+  "ad": "Garapan (Saipan)",
+  "dosya": "yerlesimler_a78_okyanusya.js",
+  "alan": "GUN",
+  "komsu": [
+   "Hagåtña"
+  ],
+  "zincir": [
+   {
+    "yol": "Garapan (Saipan) ← Hagåtña (Agaña)",
+    "derinlik": 1,
+    "uc": "KAYNAKLI"
+   }
+  ]
+ },
+ {
+  "ad": "Whanganui",
+  "dosya": "yerlesimler_a78_okyanusya.js",
+  "alan": "KUNYE",
+  "komsu": [],
+  "zincir": []
+ }
+]
