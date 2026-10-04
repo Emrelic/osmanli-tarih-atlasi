@@ -79,6 +79,29 @@ Değişmez 8  !  ÖLÇÜLEMEDİ — FileNotFoundError: 'C:\atlas\data\devletler_
 çıktısını ölçen Değişmez 8 yalnız koşu yapılmış ortamda (HAVVA) ölçülebilir; taze klonda
 **yapısal olarak ölçülemez**.
 
+### 3.2 Üçüncü koşu — dosyalar üretildi, Değişmez 8 ÖLÇÜLDÜ (4 Ekim)
+
+🔴 **§3.1'deki "yapısal olarak ölçülemez" hükmüm YANLIŞTI** (koordinatör düzeltti):
+dosya izlenmiyor ama **üretilebilir**. "Üretilmemiş" ≠ "ölçülemez"; ölçülemeyeni yapısal
+ilan etmek onu kalıcı kör noktaya çevirir.
+```
+py arac/kodla.py coz-c data data/devletler_harita.js          ✓ 172.61 MB, 30 sn
+py arac/kodla.py coz-c data data/donemler.js donem            ✓  57.43 MB, 10 sn
+(ikisi de .gitignore'da — commit'lenmedi, `git status` temiz)
+```
+`main` = `0e22a060` (konum onarımı `54474636` dahil) · `denetle.py` **çıkış 0**, `SONUÇ: temiz`:
+```
+Değişmez 8a ✓  şehir peteği D hattını aşıyor: 1517 birim (tavan 1517) — 725 (hat, gün) ölçüldü
+Değişmez 8b ✓  Osmanlı bölgesi yabancı gövdede: 82 (bölge, gün) (tavan 82)
+            i  C/YOK hattı taşması 906 · ölçülemeyen (hat, gün) 175 · süre 54+6 sn
+            i  YENİ KAPSAM: defterde olmayan 2 hatta 4 birim — tavana KATILMADI
+Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+```
+📌 Değişmez 8'in kendi içinde **175 (hat, gün) ölçülemeyen** var ve bilgi satırında duruyor
+— ölçülemeyen sayacına girmiyor. Bunun bilinçli bir ayrım mı (kova) yoksa `konum`un ikizi
+mi olduğu **ölçülmedi**; hüküm koordinatörde. YENİ KAPSAM 4 birim `--d8-defter-yaz` bekliyor
+(defter yazımı LAB'ın işi değil).
+
 ## 4. Bulunamayan
 
 - UMIT ortamındaki çıkış kodları ve `denetle.py` sonucu: beyanda yok → karşılaştırma
