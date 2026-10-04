@@ -4190,8 +4190,27 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ayrı kova: C/YOK taşması 906 · ölçülemeyen (hat, gün) 175
 # 📌 DİKKAT — iki sayı AYNI EVRENDE DEĞİL: 1611, 479 (hat, gün) üzerinden
 #   ölçülmüştü; 1517 ise 725 üzerinden. Evren %51 BÜYÜDÜ (koşuya 21 yeni sınır
-#   kaydı girdi) ve taşma buna RAĞMEN düştü ⇒ iyileşme gerçek, ve 94 puanlık
-#   boşluğu bırakmak o iyileşmeyi geri gizlerdi.
+#   kaydı girdi) ve taşma buna RAĞMEN düştü. ESKİ YORUM burada "⇒ iyileşme gerçek,
+#   ve 94 puanlık boşluğu bırakmak o iyileşmeyi geri gizlerdi" diyordu: 4 Ekim 2026'da
+#   karşı-olgusal ölçümle DESTEKLENMEDİĞİ görüldü (aşağıdaki DÜZELTME). Sayının düşmesi
+#   iyileşmeyi KANITLAMAZ; "94 puan" boşluğu gizlemek bir veri iyileşmesini gizlemek değildi.
+#
+# 🔴 DÜZELTME (4 Ekim 2026, LAB karşı-olgusal gövde — bu satırların KODA etkisi YOKTUR):
+#   Ölçüldü (LAB, temiz ağaçta; her betiğin başında ve sonunda HEAD basılarak, bütün sayılar
+#   ikinci koşuda BİREBİR aynı çıktı): eski gövde (koşu 15) `git cat-file` ile geri kurulup
+#   bugünkü alet + bugünkü veri + ESKİ gövde koşturuldu → E1 = 1606 birim (defterle ortak
+#   1602/1611 ⇒ yöntem doğrulandı).
+#     kayıp  235 → 226'sı E1'de HÂLÂ VAR (GÖVDE farkı) · 9'u VERİ iyileşmesi
+#     giren  154 → 154/154 GÖVDE · 0 veri
+#   ⇒ iyileşmenin veri payı 235'te 9 birimdir; 226 kayıp ve 154 yeni taşmanın TAMAMI GÖVDE değişimidir.
+#   D8 FİİLEN BİR MOTOR REGRESYON ÖLÇÜSÜDÜR: iki ayrı motorun çıktısını karşılaştırır.
+#   ⇒ Bu tavan MOTOR ÇIKTISINA bağlıdır. Gövde (motor) değişen HER koşuda `--d8-defter-yaz` ile
+#   defter ÜYELİKLE yeniden yazılmalı ve tavan aynı commit'te yeniden ölçülmelidir; yoksa kapanan ve
+#   yeni açılan taşmalar SAYIDA TAKAS olur (sayı oynar, hangi birimin girip çıktığı görünmez) ve 8a/8b'nin
+#   bir koşudan ötekine oynaması ARIZA sanılıp kök neden aranır. Oynaması beklenen davranıştır.
+#   ⚠️ BULUNAMADI (LAB'ın kendi beyanı): denetle.py'nin o aralıktaki ~449 satırlık farkının D8 sayılarını
+#   NİÇİN etkilemediği ölçülmedi. "Etkilemiyor" DENMEZ: bu aralıkta D8 kodu değişmemiş görünüyor,
+#   DOĞRULANMADI.
 #
 # 🔴 BİR SONRAKİNE ŞART — "YENİ KAPSAM" ile tavan AYNI COMMIT'TE ayarlanır:
 #   bu ölçümde defterde olmayan 2 hatta 4 birim var ve tavana KATILMADI.
@@ -4454,11 +4473,14 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
     a_tasma, a_kaba, olculen, olculemeyen = [], [], 0, []
     olc_hat = set()
     kor_sinif = {}                  # hat → sınıf (yalnız ölçülemeyen hatlar için; körlük raporu okur)
+    atlanan = []                    # (hat, sebep) — döngüde HİÇ SAYILMADAN `continue`lenen hatlar
+    dusen_gun = []                  # (hat, gün) — `g >= f` süzgecinde sessizce düşen günler
     for r in hatlar:
         hat = r["hat"]
         parcalar = hat if isinstance(hat[0][0], list) else [hat]
         parcalar = [p for p in parcalar if len(p) >= 2]
         if not parcalar:
+            atlanan.append((r["id"], "hat parçası yok: her parça <2 nokta ya da boş"))
             continue
         sinif = r.get("sinif") or r.get("kategori") or "?"
         hedef = a_tasma if sinif in D8_SINIF else a_kaba
@@ -4484,6 +4506,8 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
         derin = cizgi.buffer(D8_DERIN)
         degme = cizgi.buffer(D8_DEGME)
         gunler = {r.get("f"), _d8_gun_once(r.get("t")) if r.get("t") else None}
+        for g_ in sorted(g for g in gunler if g and g < (r.get("f") or "")):
+            dusen_gun.append((r["id"], g_))     # eskiden SESSİZCE düşerdi (davranış aynı, artık kayıtlı)
         for gun in sorted(g for g in gunler if g and g >= (r.get("f") or "")):
             govde = {"sol": [], "sag": []}
             for gid, g in gv.kesit(gun, kutu):
@@ -4575,6 +4599,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                                         km2=round(km2), oran=round(100 * km2 / alan, 1)))
     return dict(a=a_tasma, a_kaba=a_kaba, b=b_tasma, olculen=olculen,
                 olculemeyen=olculemeyen, olculen_hatlar=sorted(olc_hat), kor_sinif=kor_sinif,
+                atlanan=atlanan, dusen_gun=dusen_gun, hat_idleri=sorted({r["id"] for r in hatlar}),
                 hat_sayisi=len(hatlar), iki_tarafsiz=iki_tarafsiz,
                 damga=gv.damga, sure=(round(t_a), round(time.time() - t0 - t_a)))
 
@@ -4657,8 +4682,32 @@ def d8_kor_defteri_yaz(R, yol):
                   "bu hatlar bugün de KÖRDÜ, kimse bilmiyordu — defter körlüğü GÖRÜNÜR kılar, kapatmaz. "
                   "Yazıldığı gövde: " + R["damga"]),
          "cift": sorted(cift), "tam_kor": tam, "yarim": yarim}
+    atl, dusen, disi = d8_atlanan_olc(R)
+    D["atlanan"], D["dusen_gun"], D["muhasebe_disi"] = sorted(atl), sorted(dusen), sorted(disi)
     open(yol, "w", encoding="utf-8", newline="").write(json.dumps(D, ensure_ascii=False, indent=1))
     return D
+
+
+def d8_atlanan_olc(R):
+    """Üçüncü sessiz sınıf ve hat MUHASEBESİ. → (atlanan hat kümesi, düşen `hat¦gun` kümesi,
+    MUHASEBE DIŞI hat kümesi). Her hat TAM BİR kovaya düşmelidir: ölçülen ∪ tam kör ∪ atlanan;
+    dışında kalan (ör. hiç günü olmayan hat) 'muhasebe dışı'dır — adı konmamış YENİ bir sessiz yol."""
+    ids = set(R.get("hat_idleri") or ())
+    olc = set(R["olculen_hatlar"])
+    kor = {h for h, _ in R["olculemeyen"]}
+    atl = {h for h, _ in R.get("atlanan") or ()}
+    dusen = {D8_KOR_ANAHTAR % (h, g) for h, g in R.get("dusen_gun") or ()}
+    return atl, dusen, ids - olc - kor - atl
+
+
+def d8_atlanan_kapi(R, defter):
+    """Saf karar → (yeni atlanan, yeni düşen gün, yeni muhasebe-dışı, eski_defter). Defterde bu
+    anahtarlar YOKSA (eski sürüm) eski_defter=True: soru ÖLÇÜLEMEDİ sayılır, 'boş' sanılmaz."""
+    if not all(k in defter for k in ("atlanan", "dusen_gun", "muhasebe_disi")):
+        return [], [], [], True
+    atl, dusen, disi = d8_atlanan_olc(R)
+    return (sorted(atl - set(defter["atlanan"])), sorted(dusen - set(defter["dusen_gun"])),
+            sorted(disi - set(defter["muhasebe_disi"])), False)
 
 
 def d8_kor_kapi(R, defter):
@@ -4702,6 +4751,29 @@ def degismez8_kor_rapor(R, ayrinti=False, yaz=False, yol=None):
               f"körleşme iyileşme DEĞİLDİR.")
         olculemedi("Değişmez 8 körlük", "defterde olmayan %d (hat,gün) körleşti, %d hat: %s%s" % (
             len(yeni), len(yeni_hat), ", ".join(yeni_hat[:5]), " …" if len(yeni_hat) > 5 else ""))
+    atl, dusen, disi = d8_atlanan_olc(R)
+    yeni_atl, yeni_dusen, yeni_disi, eski_defter = d8_atlanan_kapi(R, defter)
+    ids, olc = set(R.get("hat_idleri") or ()), set(R["olculen_hatlar"])
+    print(f"Değişmez 8m {'✗' if (yeni_atl or yeni_dusen or yeni_disi or eski_defter) else '✓'}  hat muhasebesi: "
+          f"{len(ids)} hat = {len(olc)} ölçülen + {len(tam)} tam kör + {len(atl)} atlanan + {len(disi)} muhasebe dışı"
+          f" · gün süzgecinde düşen (hat,gün) {len(dusen)}")
+    if eski_defter:
+        print("            ⇒ körlük defteri ESKİ SÜRÜM (atlanan/dusen_gun/muhasebe_disi yok): `--d8-kor-defter-yaz`")
+        olculemedi("Değişmez 8 atlanan hat", "körlük defteri eski sürüm — atlanan/muhasebe-dışı sınıfı ölçülemedi")
+    for ad, yeniler in (("atlanan hat (döngüde hiç sayılmadı)", yeni_atl), ("düşen gün (hat,gün)", yeni_dusen),
+                        ("MUHASEBE DIŞI hat (kovasız)", yeni_disi)):
+        if yeniler:
+            for k in (yeniler if ayrinti else yeniler[:15]):
+                print(f"    8m YENİ  {ad}: {k}")
+            olculemedi("Değişmez 8 atlanan hat", "defterde olmayan %s: %s%s" % (
+                ad, ", ".join(yeniler[:5]), " …" if len(yeniler) > 5 else ""))
+    if ayrinti:
+        for h, sb in R.get("atlanan") or ():
+            print(f"    8m ATLANAN {h:<40} {sb}")
+        for h in sorted(disi):
+            print(f"    8m MUHASEBE DIŞI {h}")
+        for h, g in R.get("dusen_gun") or ():
+            print(f"    8m düşen gün {h:<36} {g}")
     if ayrinti:
         for h in tam:
             print(f"    8k TAM KÖR {h:<40} sınıf {sinif.get(h, '?')}")
@@ -4772,6 +4844,10 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False, kor_defter_yaz=False, ko
             for k in (yeni_b if ayrinti else yeni_b[:15]):
                 print(f"    8b YENİ  {k}")
     if ayrinti:
+        print("    i 8a/8b MOTOR ÇIKTISINA bağlıdır: D8 fiilen bir motor regresyon ölçüsüdür (LAB, 4 Ekim 2026, "
+              "karşı-olgusal gövde: iyileşmenin veri payı 235'te 9 birim; 226 kayıp ve 154 yeni taşmanın tamamı "
+              "GÖVDE değişimi). Gövde değişen her koşuda defter ÜYELİKLE yeniden yazılmalı; yoksa kapanan ve yeni "
+              "açılan taşmalar SAYIDA TAKAS olur.")
         for x in sorted(R["a"], key=lambda x: -x["km"]):
             print(f"    8a  {x['gun']}  {x['hat']:<34} {x['sinif']}  {x['kimden']}→  "
                   f"{x['yer']:<24} {x['km']:5.1f} km {x['km2']:6d} km²")

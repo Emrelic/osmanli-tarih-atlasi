@@ -16,6 +16,8 @@ BÖLÜM A — BİRİM (yapay R sözlüğü, anında)
   A7  rapor: yeni körleşme → `olculemedi` kovasına düşer · temiz → düşmez · defter yok → düşer
   A8  `iki_tarafsiz` satırı SAYISI 0 olsa da BASILIR (③) ve 3 olunca 3 basar
   A9  yaz → oku gidiş-dönüş eşit; `_NOT` gövde damgasını taşır
+  A10-A15 ÜÇÜNCÜ SESSİZ SINIF: `parcalar` boş ⇒ atlanan hat · `g>=f` süzgecinde düşen gün · hat MUHASEBESİ
+            (ölçülen+tam kör+atlanan+muhasebe dışı = toplam), defter eski sürümse olculemedi, üye takası
 BÖLÜM B — GERÇEK ÖLÇÜM (degismez8 BİR kez koşar, ~1 dk; sonra defter varyantları aynı R ile)
   B1  gerçek R: 78 tam kör · 19 yarım · 175 (hat,gün); D8_SINIF tam kör 50 (LAB'ın ölçümü; veri değişince değişir,
       sınav SAYILARI iddia etmez: defterle TUTARLILIĞI ölçer) → yeni 0, olculemedi 0
@@ -62,14 +64,21 @@ def rapor(R, yol, yaz=False, ayrinti=False):
     return buf.getvalue(), kova
 
 
-def R_yap(olculemeyen, olculen_hatlar, iki=0, sinif=None):
+def R_yap(olculemeyen, olculen_hatlar, iki=0, sinif=None, atlanan=None, dusen=None, ids=None):
+    """Yapay R. `ids` verilmezse hat kimlikleri = ölçülen ∪ ölçülemeyen ∪ atlanan (muhasebe TUTAR)."""
+    atlanan = list(atlanan or [])
+    if ids is None:
+        ids = {h for h, _ in olculemeyen} | set(olculen_hatlar) | {h for h, _ in atlanan}
     return {"olculemeyen": list(olculemeyen), "olculen_hatlar": list(olculen_hatlar), "iki_tarafsiz": iki,
-            "kor_sinif": sinif or {}, "damga": "SINAV-DAMGA"}
+            "kor_sinif": sinif or {}, "damga": "SINAV-DAMGA", "atlanan": atlanan,
+            "dusen_gun": list(dusen or []), "hat_idleri": sorted(ids)}
 
 
-def defter_yaz_dosya(yol, ciftler):
-    json.dump({"_NOT": "sınav", "cift": sorted(ciftler), "tam_kor": [], "yarim": []},
-              open(yol, "w", encoding="utf-8"), ensure_ascii=False)
+def defter_yaz_dosya(yol, ciftler, atlanan=(), dusen=(), disi=(), eski_surum=False):
+    D = {"_NOT": "sınav", "cift": sorted(ciftler), "tam_kor": [], "yarim": []}
+    if not eski_surum:
+        D.update({"atlanan": sorted(atlanan), "dusen_gun": sorted(dusen), "muhasebe_disi": sorted(disi)})
+    json.dump(D, open(yol, "w", encoding="utf-8"), ensure_ascii=False)
 
 
 print("=" * 72)
@@ -121,11 +130,55 @@ try:
     sonuc(sorted(Dy["cift"]) == sorted(cift) and Dy["tam_kor"] == ["a"] and Dy["yarim"] == ["b"] and "SINAV-DAMGA" in Dy["_NOT"],
           "A9) yaz→oku gidiş-dönüş eşit, tam_kor/yarim doğru, _NOT damgayı taşır")
 
+    # ---- A10-A15: ÜÇÜNCÜ SESSİZ SINIF (atlanan hat) + hat muhasebesi
+    Rm = R_yap([("a", "1500-01-01")], ["b"])                                            # ids {a,b}
+    atl, dusen, disi = denetle.d8_atlanan_olc(Rm)
+    sonuc(atl == set() and dusen == set() and disi == set(), "A10) muhasebe tutuyor (ölçülen+tam kör) → atlanan 0 · düşen 0 · muhasebe dışı 0")
+    Rx = R_yap([("a", "1500-01-01")], ["b"], atlanan=[("x", "parça yok")])
+    atl, dusen, disi = denetle.d8_atlanan_olc(Rx)
+    sonuc(atl == {"x"} and disi == set(), "A11) `parcalar` boş yüzünden atlanan hat 'x' → atlanan {'x'}, muhasebe dışı DEĞİL (kovası var)")
+    Rw = R_yap([("a", "1500-01-01")], ["b"], ids={"a", "b", "w"})                       # 'w' hiçbir kovada yok
+    atl, dusen, disi = denetle.d8_atlanan_olc(Rw)
+    sonuc(disi == {"w"}, "A12) hiçbir kovaya düşmeyen hat 'w' → MUHASEBE DIŞI (adı konmamış yeni sessiz yol)", str(disi))
+    Rd = R_yap([("a", "1500-01-01")], ["b"], dusen=[("d", "1699-12-31")])
+    atl, dusen, disi = denetle.d8_atlanan_olc(Rd)
+    sonuc(dusen == {"d" + S + "1699-12-31"}, "A12b) `g >= f` süzgecinde düşen gün kaydedilir", str(dusen))
+    tam_ok = {"cift": ["a" + S + "1500-01-01"], "atlanan": [], "dusen_gun": [], "muhasebe_disi": []}
+    ya, yd, yw, eski = denetle.d8_atlanan_kapi(Rm, tam_ok)
+    sonuc((ya, yd, yw, eski) == ([], [], [], False), "A13a) defter tam, hepsi boş → yeni 0, eski sürüm değil")
+    ya, yd, yw, eski = denetle.d8_atlanan_kapi(Rx, tam_ok)
+    sonuc(ya == ["x"] and not eski, "A13b) defterde olmayan atlanan 'x' → yeni ['x']", str(ya))
+    ya, yd, yw, eski = denetle.d8_atlanan_kapi(Rw, tam_ok)
+    sonuc(yw == ["w"], "A13c) defterde olmayan muhasebe-dışı 'w' → yeni ['w']", str(yw))
+    ya, yd, yw, eski = denetle.d8_atlanan_kapi(Rm, {"cift": []})
+    sonuc(eski is True, "A13d) ESKİ SÜRÜM defter (atlanan anahtarı yok) → eski_defter=True ('boş' SANILMAZ)")
+    Rtakas = R_yap([("a", "1500-01-01")], ["b"], atlanan=[("y", "parça yok")])           # defterde atlanan=[x], ölçümde [y]: SAYI 1=1
+    ya, yd, yw, eski = denetle.d8_atlanan_kapi(Rtakas, dict(tam_ok, atlanan=["x"]))
+    sonuc(len(Rtakas["atlanan"]) == 1 and ya == ["y"], "A13e) atlanan ÜYE TAKASI (SAYI AYNI 1=1, x→y) → yeni ['y'] ÖTER", str(ya))
+    d_a = os.path.join(tmp, "d_a.json")
+    defter_yaz_dosya(d_a, ["a" + S + "1500-01-01"])
+    cikti, kova = rapor(Rm, d_a)
+    sonuc(kova == [] and "Değişmez 8m ✓" in cikti and "0 atlanan" in cikti,
+          "A14a) temiz → olculemedi yok; `8m` satırı SAYI 0 iken de BASILIR ('0 atlanan')")
+    cikti, kova = rapor(Rx, d_a)
+    sonuc(len(kova) == 1 and kova[0][0] == "Değişmez 8 atlanan hat" and "x" in kova[0][1] and "Değişmez 8m ✗" in cikti,
+          "A14b) yeni atlanan hat → olculemedi('Değişmez 8 atlanan hat', …'x'…), satır ✗", str(kova))
+    d_eski = os.path.join(tmp, "d_eski.json")
+    defter_yaz_dosya(d_eski, ["a" + S + "1500-01-01"], eski_surum=True)
+    cikti, kova = rapor(Rm, d_eski)
+    sonuc(len(kova) == 1 and "eski sürüm" in kova[0][1], "A14c) eski sürüm defter → olculemedi (sessiz 'temiz' YOK)", str(kova))
+    d_yz = os.path.join(tmp, "d_yz.json")
+    rapor(Rx, d_yz, yaz=True)
+    Dz = json.load(open(d_yz, encoding="utf-8"))
+    sonuc(Dz.get("atlanan") == ["x"] and Dz.get("dusen_gun") == [] and Dz.get("muhasebe_disi") == [],
+          "A15) yaz → defter atlanan/dusen_gun/muhasebe_disi anahtarlarını taşır", str({k: Dz.get(k) for k in ("atlanan", "dusen_gun", "muhasebe_disi")}))
+
     # ---------------------------------------------------------------- BÖLÜM B
     print("B) gerçek ölçüm (degismez8 koşuyor, ~1 dk)")
     with contextlib.redirect_stdout(io.StringIO()):
         Y = denetle.yerlesimleri_yukle()
-        RR = denetle.degismez8(Y)
+        GV = denetle._D8Govde()
+        RR = denetle.degismez8(Y, gv=GV)
     cift, tam, yarim = denetle.d8_kor_olc(RR)
     sinif = RR.get("kor_sinif") or {}
     tavan_sinifi = [h for h in tam if sinif.get(h) in denetle.D8_SINIF]
@@ -155,6 +208,34 @@ try:
           str(kova)[:120])
     cikti, kova = rapor(RR, os.path.join(tmp, "yok2.json"))
     sonuc(len(kova) == 1, "B4) defter yok → olculemedi", str(kova)[:80])
+    atl, dusen, disi = denetle.d8_atlanan_olc(RR)
+    ids, olc = set(RR["hat_idleri"]), set(RR["olculen_hatlar"])
+    print("       gerçek hat muhasebesi: %d hat = %d ölçülen + %d tam kör + %d atlanan + %d muhasebe dışı · düşen gün %d" %
+          (len(ids), len(olc), len(tam), len(atl), len(disi), len(dusen)))
+    sonuc(len(ids) == len(olc) + len(tam) + len(atl) + len(disi) and len(ids) > 0,
+          "B1c) gerçek hat muhasebesi TUTUYOR: toplam = ölçülen + tam kör + atlanan + muhasebe dışı", "%d" % len(ids))
+    sonuc(D_gercek.get("atlanan") == sorted(atl) and D_gercek.get("dusen_gun") == sorted(dusen)
+          and D_gercek.get("muhasebe_disi") == sorted(disi),
+          "B1d) gerçek ölçüm defterin atlanan/düşen/muhasebe-dışı beyanıyla TUTARLI", "%d/%d/%d" % (len(atl), len(dusen), len(disi)))
+
+    # B5 — SENTETİK HATLAR: üç sessiz yolu kasten aç (aynı gövde, hızlı)
+    sent = [
+        {"id": "zz-parcasiz", "hat": [[30.0, 40.0]], "taraflar": ["osmanli", "rusya"], "sinif": "D", "f": "1700-01-01", "t": "1800-01-01"},
+        {"id": "zz-gunsuz", "hat": [[30.0, 40.0], [31.0, 41.0]], "taraflar": ["osmanli", "rusya"], "sinif": "D"},
+        {"id": "zz-dusen", "hat": [[30.0, 40.0], [31.0, 41.0]], "taraflar": ["osmanli", "rusya"], "sinif": "D",
+         "f": "1800-01-01", "t": "1700-01-01"},
+    ]
+    with contextlib.redirect_stdout(io.StringIO()):
+        RS = denetle.degismez8(Y, hatlar=sent, gv=GV)
+    atl_s, dusen_s, disi_s = denetle.d8_atlanan_olc(RS)
+    sonuc("zz-parcasiz" in atl_s, "B5a) gerçek degismez8: tek noktalı hat → `atlanan`a DÜŞER (eskiden sessizce atlanırdı)", str(sorted(atl_s)))
+    sonuc("zz-gunsuz" in disi_s, "B5b) gerçek degismez8: hiç günü olmayan hat → MUHASEBE DIŞI (hiçbir kovada değil)", str(sorted(disi_s)))
+    sonuc(any(x.startswith("zz-dusen") for x in dusen_s), "B5c) gerçek degismez8: t<f hat → düşen gün KAYDEDİLİR", str(sorted(dusen_s)))
+    d_s = os.path.join(tmp, "d_s.json")
+    defter_yaz_dosya(d_s, [])
+    cikti, kova = rapor(RS, d_s)
+    sonuc(any(k[0] == "Değişmez 8 atlanan hat" for k in kova) and "Değişmez 8m ✗" in cikti,
+          "B5d) sentetik hatlar deftere GİRMEMİŞ → olculemedi('Değişmez 8 atlanan hat'), `8m` ✗", str([k[0] for k in kova]))
 
     # ---------------------------------------------------------------- BÖLÜM C
     print("C) gerçek `py arac/denetle.py` (iki koşu, her biri ~3 dk)")
@@ -166,8 +247,8 @@ try:
         return p.returncode, p.stdout.decode("utf-8", "replace") + p.stderr.decode("utf-8", "replace")
 
     k1, o1 = denetle_kos()
-    sonuc(k1 == 0 and "Değişmez 8a ✓" in o1 and "(tavan 1517)" in o1 and "Değişmez 8b ✓" in o1 and "(tavan 82)" in o1 and "Değişmez 8k ✓" in o1,
-          "C1) taze defter: çıkış 0 · 8a/8b satırları (tavan 1517 / 82) AYNEN · 8k satırı VAR", "çıkış %d" % k1)
+    sonuc(k1 == 0 and "Değişmez 8a ✓" in o1 and "(tavan 1517)" in o1 and "Değişmez 8b ✓" in o1 and "(tavan 82)" in o1 and "Değişmez 8k ✓" in o1 and "Değişmez 8m ✓" in o1,
+          "C1) taze defter: çıkış 0 · 8a/8b satırları (tavan 1517 / 82) AYNEN · 8k ve 8m satırları VAR", "çıkış %d" % k1)
     if k1 != 0:
         print(o1[-1500:])
     if tam:
