@@ -76,3 +76,21 @@ boyanıyor ⇒ gövdesi `OSM-TABI`de, `bogdan` adıyla yok.
 - D8'in `OSM-TABI`yi `kid` ile ayırması gerekip gerekmediği (motor `v:kid`'i gövdede ayrı
   çiziyor mu?) — `donemler.js` `.v` parçaları kimliksiz geliyor; motorun kendi ayrımı
   **ölçülmedi**.
+
+---
+
+## ⑤ ÖN ÖLÇÜM — KOŞU ÖNCESİ `donemler.js` `.v` kimlik taşıyor mu? (HEAD `0e22a060`)
+Koşu sonrası karşılaştırmanın TABANI (koordinatörün ④ sorusu, taze çıktı gelmeden önce):
+```
+DONEMLER 617 · v alanı dolu 561 · v öğeleri 10 258 — hepsi int (parça indeksi)  ⇒ v'de KİMLİK YOK
+yanında `vl` var (561 dönemde): 5 608 öğe, her biri {k: etiket metni, s: statü, p: [lon,lat]}
+   farklı k: 55 · k → yerleşim v:k → kid TEKİL: 4 181/5 608 (%75) · k yerleşimde yok 744 · kidsiz 683 · çok kid 0
+   len(v) == len(vl): yalnız 79/561 dönem ⇒ vl parça başına DEĞİL
+örneklem 60 dönem (seed 1004), 1 104 v parçası:
+   içinde vl noktası YOK 754 (%68) · tek etiket 350 (%32) · çok etiket 0
+   vl.p → yerleşim koordinatı eşleşmesi: 0/569 ⇒ p bir ETİKET konumu, yerleşim değil
+```
+⇒ **Koşu öncesi çıktıda tâbi kimliği PARÇA düzeyinde yok.** Etiket metninden `kid` %75
+oranında geri kurulabilir, ama parçaların %68'i hiçbir etikete bağlanamıyor ⇒ D8'e `v:`
+kolu bu çıktıyla **güvenilir yazılamaz** (koordinatörün ⑥ "MOTOR ÇIKTISINDA BİLGİ YOK"
+hükmü koşu öncesi çıktı için ölçümle doğrulandı). Koşu sonrası aynı ölçüm tekrarlanacak.
