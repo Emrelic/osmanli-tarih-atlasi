@@ -1,0 +1,6 @@
+# KÜNYE×KRONOLOJİ — C KOVASI ÜYELİK DEFTERİ (tavan = üyelik, sayı değil)
+# Satır: dosya¦id. Bu dosyayı ELLE ONAYLAMADAN yazma: C'ye giren her
+# künye ya kronolojisini alır ya da buraya gerekçesiyle girer.
+devletler.js¦buhara-halk-cumhuriyeti
+devletler.js¦harezm-halk-cumhuriyeti
+devletler.js¦luksemburg-hollanda-birligi
