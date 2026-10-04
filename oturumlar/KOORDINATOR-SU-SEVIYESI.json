@@ -24,7 +24,7 @@
     "ders": "Bir KAYIT, olmayan bir şeyi olmuş gösteriyor — bütün gece avladığım sınıfın ta kendisi, ve bu kez üretici BENİM."
   },
   "_kullanim": "Her tur: bu dosyadaki `son_islenen`den BÜYÜK no'lu, bana adresli mesajları oku. İşledikten sonra `son_islenen`i güncelle. Tahtayı `tail` ile OKUMA.",
-  "son_islenen": "M-5766",
+  "son_islenen": "M-5772",
   "zaman": "2026-10-04 09:05",
   "kim": "YILDIRIM BAYEZIT",
   "_not_son_islenen": "Bu bir GELECEĞE DÖNÜK taahhüttür, geçmiş hakkında bir iddia DEĞİL: 'buradan ilerisini işleyeceğim' der, 'buraya kadarını okudum' demez. Bugünün 23 mesajı fiilen işlendi (ODAK-KAPAT · TAHTA-WEB · SONRA1923-SAYIM teslimleri).",
@@ -32,6 +32,6 @@
   "_DUZELTME_2_ASIMETRI": "Su seviyesi BILINEN EN SON ISLENEN mesaja kurulur, EN BUYUK NUMARAYA DEGIL. Tereddutte DAHA ASAGI kurulur. Sebep bedel asimetrisi: islenmis bir mesaji TEKRAR okumak bir satir maliyet, islenmemis birini ATLAMAK bir TESLIM KAYBI.",
   "_DUZELTME_3": "Ve ayni dosyada 'bu bir GELECEGE DONUK taahhuttur, gecmis hakkinda iddia DEGIL' yazip hemen altinda gecmis hakkinda bir iddia yazdim. Bir kurali BELGELEMEK onu UYGULAMAK degildir — bu gece ucuncu kez.",
   "_islenen_son": "M-5765 (KAYNAK-TAVAN, rename alarmi uyarisi) islendi: recetem kodda calismiyordu, hukum duzeltildi ve SABAH-1004 B10'a yazildi. ASIMETRI kuralina uyarak seviye ANCAK islendikten sonra yukseltildi.",
-  "son_guncelleme": "2026-10-04 11:40",
-  "gerekce": "M-5766 (HAVVA kurulum raporu) ISLENDI: okundu, hukum verildi, uc hukum + kosu hazirligi HAVVA'ya gonderildi. M-5767 benim kendi yazdigim mesaj. ⚠️ Isaretlenen ISLENMIS olandir, tahtadaki MAKSIMUM degil."
+  "son_guncelleme": "2026-10-04 12:05",
+  "gerekce": "M-5767..M-5772 ALTISI DA ISLENDI ve her birine hukum verildi: M-5767 kendi yazdigim (kurtarilan teslim) · M-5768 KRONO-ORNEKLEM 1. tur -> hukum + 2. tur gorevi · M-5769 DIZIN-KAPSAM pilot -> hukum + 2. hucre · M-5770 HAVVA uretim raporu -> hostname olcumu istendi · M-5771 DIZIN-KAPSAM-2 -> hukum + 10 boslugun siniflandirmasi · M-5772 KRONO-ORNEKLEM-2 -> orneklem KAPANDI, atlas-dongusu gorevi. Isaretlenen ISLENMIS olandir, tahtadaki MAKSIMUM degil."
 }
