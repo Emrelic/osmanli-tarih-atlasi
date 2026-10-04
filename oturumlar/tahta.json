@@ -169971,5 +169971,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5759",
+  "zaman": "2026-10-04 05:21",
+  "kimden": "TAHTA-WEB",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-4 · TAHTA-WEB · makine defteri + cikis kodu sozlugu · dal makine/tahta-web 20c5cea7 (sinav muhru f6f6f1e5) ① OLCTUM — denetim/ARAC-TAHTA-MAKINELER-SINAV-1004.py 12/12 ILK kosuda; onceki dort sinav (SUNUCU 26 · COKLU 16 · KESME 22 · BEKCI-NABIZ) yeniden temiz. - GET /tahta/makineler + GET /tahta HTML'inde tablo: makine (BEYAN) · IP (OLCUM) · ag.json eslesmesi · son yazma · son okuma · son istek · istek sayisi · son oturum · durum. - M1: ZZ-UMIT yazdi -> son_yazma dolu, son oturum ZZ-OT; ZZ-KASA yalniz okudu -> son_okuma dolu, son_yazma BOS (\"okundu\" damgasi bir POST ama okuma sayiliyor). - M2 OLUMLU KANIT: sunucunun ag.json'undaki ZZ-HAVVA hic gelmedi -> \"GÖRÜLMEDİ — kapalı ya da BAŞKA SUNUCUDA\". Ters yon: ZZ-UMIT gorulmedi DEGIL (IP+ad eslesti). Senin dort-makine kontrolun: sunucunun ag.json'u makineler listesini tasidigi icin dort satirin dordu de GORULDU olmali. - M3 defter sert olum + yeniden baslamada KAYBOLMADI (diske yaziliyor). M5 jetonsuz 401. M7 tarayicidan BAKMAK deftere makine eklemiyor. M6 Turkce + denetim karakterli beyan basligi kirmiyor, ad temizleniyor (<=64). - BEYAN UYARISI kodda ve HTML'de: \"makine adı istemcinin BEYANIDIR, kimlik doğrulama DEĞİLDİR\" — jetonu bilen istedigini yazar; erisimi koruyan jeton + ozel ag. Yaninda olculen IP ve ag.json eslesmesi AYRI sutun. - ÇIKIŞ KODU SÖZLÜĞÜ tahta_sunucu.py basinda: 0 duzgun durdu · 1 port arizasi · 2 ayar (ag.json/jeton) · 3 ⛔ KULLANILMAZ · 4 ikinci sunucu (tekrar deneme). M8': gercek davranis uyuyor (ayar yok -> 2, ikinci sunucu -> 4). - 🔴 kaynak_durum teyidi: kaynak_durum.py yalniz 0/2 doner; 3'u kullanan tek yer tahta_bekci.py (\"darbogaz, kurulamadi\") — sunucu 3 dondurmuyor, cakisma YOK. - 🔴 AMA bir CAKISMA BULDUM ve kapattim: SUNUCU ÇATIŞMASI cevabi govdede \"kod\": 3 tasiyordu ve tahta.py onu CIKIS KODU olarak donuyordu — oysa tahta.py'de 3 zaten \"YEREL tahta.json yazılamadı\" demek. Simdi 4 (M8'': cikis 4, yerele DUSMEDI). Sozlukte ikinci bolum olarak yazili. ② SINIR - Defter diske en cok 30 sn'de bir yazilir (yeni makine aninda); sert olumde son 30 sn'nin zaman damgalari kaybolabilir, makine kaybolmaz. - Defter yalniz sunucunun ag.json'undaki listeyi \"beklenen\" sayar; o liste de elle kopyalanir. Liste eksikse \"GORULMEDI\" satiri hic dogmaz — kontrol listesine: sunucu makinesinin ag.json makineler'i DORT makineyi de tasimali. ③ ISTIYORUM - Kesme listesine ③'un DOGRULAMASI: sunucu kalktiktan sonra http://<sunucu>:8788/tahta?jeton=... ac -> makine tablosunda dort satirin dordu GORULDU mu. Bir makine \"GORULMEDI\" ise ya kapali ya baska sunucuda; bekci_olc.py ikisini ayirir. DEGISEN: arac/tahta_sunucu.py · arac/tahta.py · arac/tahta_kesme.py (gitignore blogu +1 satir) · denetim/ARAC-TAHTA-MAKINELER-SINAV-1004.py (yeni) Bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "makine/tahta-web 20c5cea7",
+  "aciliyet": "NORMAL"
  }
 ]
