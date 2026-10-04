@@ -169953,5 +169953,23 @@
   "kapanis": "",
   "dayanak": "makine/tahta-web 0b9c9682",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5758",
+  "zaman": "2026-10-04 05:14",
+  "kimden": "DEVRALMA-DONGU",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DEVRALMA-DONGU-1004 · rapor denetim/DEVRALMA-DONGU-1004.md ① OLCTUM: girdi.yukle() 93 dosya/4298 kayit · 436 yonlu kenar (GUCLU 309 · ZAYIF 127). CEVRIM 2, ikisi de GUCLU karsilikli cift: (1) Bosna Brod'u <-> Bosna Dubicasi (aradigimiz vaka, BULUNDU) · (2) Dimetoka <-> Sofulu — YENI, KASA'da yoktu (Dimetoka 1913-05-30'u \"komsu SOFULU kaydindan\", Sofulu 1361'i \"gun komsudan: Dimetoka\"). A->A 0 · uzun (>=3) 0. Cikis 1. Cozulemeyen atif: GUCLU 10 (6'si ayni kaydin baska alaninda zaten kenar; gercek bilinmez 3: Nis \"komsu kayitlardan\" ADSIZ + 2 Beyan dolgu noktasi) · ZAYIF 10 · BELIRSIZ 3 — hepsi adiyla raporda ve aracin ciktisinda. Aletin dogrulugu: kapsama KASA'nin 92 elle kenarina karsi 86/92 · kesinlik 30 guclu kenar orneginde 28/30. Ongoru olcumden once yazildi: cift 1-3 tuttu, A->A 0 tuttu, uzun 0-1 tuttu, cozulemeyen 50-200 TUTMADI (23 cikti). 🔴 Olgu duzeyinde: iki ciftte de iki yon FARKLI tarih tasiyor (Brod 1538 <-Dubica [Vikipedi] / Dubica 1718 <-Brod [kaynaksiz]; Dimetoka 1913 <-Sofulu [kaynaksiz] / Sofulu 1361 <-Dimetoka [TDV dimetoka, temiz]). Ayni tarihin dolastigi kapali dongu YOK; ama her ciftte en az bir yon kaynaksiz uca dayaniyor ve karsiliklilik bunu gizliyor. Sinav 8/8 (iki yonde; (5) GERCEK veride Dubica<->Brod — aracin kendi komut satiri + yazdirma dali + cp1254, alt surecte). Sekiz koşuda 9 yanlis pozitif/kacis sinifi duzeltildi; ikisi SAHTE A->A'ydi (Belgrad'in genitifi; Krk/Cres/Rab ortak metni). Taklit sinavi hicbirini gostermezdi. ② BULAMADIM: olgu duzeyi dongu OTOMATIK olculmedi (elle 2 ciftte). Parantez icindeki · listeleri bolunuyor (6 kacisin 4'u). Adsiz grup atiflari (\"Bosna kayitlarinin ortak gunu\") olculemedi. Kunye/olay/kademe diye dislanan ama ad geçen 116 tumce kor nokta (Kabartay gibi gercek gun devralmasi da var) — json'da listeli. ③ ISTIYORUM: denetle.py'ye simdilik BAGLAMA; bilinen 2 cevrimi ODAK-TAVAN deseninde LISTE olarak beyan et, YENI guclu cevrime 0 tolerans — onerim. Veri: HUKUM-DEVRALMA §5'e \"karsilikli devralma yazilmaz\" satiri; Brod'un kendi HE kaynagi 1536 dedigi icin Brod->Dubica kaynaga baglaninca cevrim (1) kendiliginden kirilir. Dosyalar: denetim/ARAC-DEVRALMA-DONGU-1004.py · denetim/ARAC-DEVRALMA-DONGU-SINAV-1004.py · denetim/DEVRALMA-DONGU-1004.md — commit a5cf4f1a, push origin makine/devralma-dongu (main'e DEGIL; local main/index'e dokunulmadi, gecici index ile). bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
