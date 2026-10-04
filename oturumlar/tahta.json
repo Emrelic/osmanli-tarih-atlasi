@@ -169935,5 +169935,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5757",
+  "zaman": "2026-10-04 05:10",
+  "kimden": "TAHTA-WEB",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-3 · TAHTA-WEB · tek yazici garantisi (yeniden baslama + iki sunucu) · dal makine/tahta-web 0b9c9682 (sinav muhru 40b28e14) ① OLCTUM — denetim/ARAC-TAHTA-SUNUCU-COKLU-SINAV-1004.py 16/16 (gercek sunucu surecleri, gecici dizin) - SORU 1 · YENIDEN BASLAMA: 3 yazim (M-0004..06) -> sunucu SERTCE olduruldu (TerminateProcess, temizlik yok, kilit dosyasi kaldi) -> yeniden basladi, bayat kilidi devraldi -> sonraki yazim M-0007. Numara KALDIGI YERDEN; istemcide sahte alarm 0. Sebep: numara bellekte degil KAYITTAN (en buyuk+1). Gunluk acilip kapanma guvenli. TERS YON: kayit silinip yeniden baslarsa M-0001'e doner — ama istemci artik \"FARKLI TAHTA\" diye bagiriyor; eski yedekten acilirsa (ayni soy, kucuk numara) \"NUMARA GERILEDI\". - SORU 2 · IKI SUNUCU — uc yuzu var, ucu de kapali: (a) AYNI kayda ikinci surec: <tahta>.sunucu kilidi (makine · pid · nabiz 20 sn). Ilki canliyken ikincisi ACILMAZ: cikis 4 + \"IKINCI SUNUCU ... AÇILMADIM\"; ilki hizmete devam. Baska makinenin TAZE kilidi -> cikis 4; BAYAT kilidi -> acilir ve \"BAYAT\" der. (b) Kosarken kilit baskasinca alinirsa: yazim 503 \"SUNUCU ÇATIŞMASI\", okuma surer. (c) 🔴 FARKLI makinelerde iki AYRI kayit (EMRELIC'te biri, KASA'da biri): bu iki surec birbirinin dosyasini HIC goremez — sunucu tarafinda yakalanamaz. Onu ISTEMCI yakalar: her cevapta sunucu blogu (makine · tahta_imza · son_no); istemci oncekiyle karsilastirir, imza degisirse \"FARKLI TAHTA ... İKİ SUNUCU koşuyor ya da kayıt silindi\" basar. Ters yon: ayni sunucuyla iki kez -> uyari yok. (d) Her kayit \"sunucu\"=makine adi tasiyor; acilista kayitta baska makinenin izi varsa gunluk uyariyor. - Ilk kosu 4 HATA verdi, IKISI GERCEK KUSUR, yakalandi: ① istemci dedektor dosyasini dizin yoksa SESSIZCE yazamiyordu -> dedektor hic kurulmuyordu (3 HATA'nin sebebi); simdi dizin kurulur, yazamazsa \"ÖLÇEMEDİ\" der. ② sunucu stderr cp1254 -> \"İKİNCİ SUNUCU\" okuyanda bozuk. Ikisi duzeltildi. - Windows tuzagi: os.kill(pid,0) Windows'ta sureci OLDURUR (TerminateProcess) — canlilik OpenProcess/GetExitCodeProcess ile. Ayni makinede pid+nabiz BIRLIKTE sorulur: yeniden acilistan sonra pid baska surece verilmis olabilir, yalniz pid'e bakan her sabah \"ikinci sunucu\" diye acilmazdi. - Onceki uc sinav (SUNUCU 26 · KESME 22 · BEKCI-NABIZ) yeniden temiz. Kesme .gitignore blogu iki yeni yerel dosyayi da kapsiyor (tahta_sunucu_son.json · tahta.json.sunucu). ② BULAMADIM / SINIR - (c) yalniz IKI SUNUCUYLA DA KONUSAN istemcide oter. Her makinenin istemcisi hep ayni yanlis sunucuya bagliysa (ag.json'lar farkli) kimse ikisini birden gormez — iki tahta sessizce ayrisir. Kapanisi kod degil AYAR: tum makinelerde ag.json tahta_sunucu AYNI olmali (koordinatorun kontrol listesi). Istersen ileride: sunucu acilista ag.json'daki makineler listesine sorup \"baska tahta sunucusu var mi\" der — bugun yazmadim, kapsam disi saydim. - Bekcide FARKLI TAHTA uyarisi stderr'e gider (uyandirmasin diye); ekranda degil. ③ ISTIYORUM - Emre'nin karari icin ozet: sunucu sabah acilip aksam kapanabilir (Y1 kanitli); iki sunucu ayni kayitta imkansiz, farkli kayitlarda istemci bagirir; tek gercek risk ayar farki. DEGISEN: arac/tahta_sunucu.py · arac/tahta.py · arac/tahta_bekci.py · arac/tahta_kesme.py · denetim/ARAC-TAHTA-SUNUCU-COKLU-SINAV-1004.py (yeni) Bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "makine/tahta-web 0b9c9682",
+  "aciliyet": "NORMAL"
  }
 ]
