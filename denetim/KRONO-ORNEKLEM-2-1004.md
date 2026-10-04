@@ -86,4 +86,212 @@ beyanlı boş kaynak ⚪; "kısmen" ✅'yi bozmaz).
 
 ## 2. Ölçüm
 
-(aşağıda)
+Yöntem 1. turla aynı: TDV ham metni bu oturumda çekildi (WebFetch/küçük model YOK),
+tarihi taşıyan cümle okundu. ⚠️ **Gövdesi çekilemeyen TDV maddeleri** (boilerplate, ~2,4
+bin karakter, `§4 ④` — "çekilemedi ≠ yok"): `dimask` · `sehremaneti` · `lehistan` ·
+`sinan-pasa-koca`. Bunlara dayanan sorular ⚪ sayıldı ya da kapsayıcı TDV maddesinden
+(`suriye`, `belediye`, `sehremini`) ölçüldü.
+
+### 2.1 A — `olaylar_ek*.js` (25)
+
+| # | ① tarih | ② içerik | ③ kaynak | KOVA | not |
+|---|---|---|---|---|---|
+| 304 | ✅ | ⚪ | ⚪ (çekilemedi) | ⚪ | Hama/Humus "aynı tarihte" — aşağıda |
+| 320 | ✅ | ✅ | 🔴 | 🔴 | `bulgaristan` Rovine'yi HİÇ anmıyor |
+| 343 | ⚪ | ✅ | kısmen | ⚪ | `eflak` olayı anıyor, günü vermiyor |
+| 425 | ✅ | ✅ | ✅ | ✅ | |
+| 483 | 🔴 | ✅ | ✅ (yıl) | 🔴 | sahte ay `1548-06-01` |
+| 598 | 🔴 | ✅ | ✅ | 🔴 | `t` iki günlü olayın hiçbirine uymuyor |
+| 656 | ✅ | ✅ | ✅ | ✅ | |
+| 708 | ⚪ | ✅ | ⚪ (beyanlı) | ⚪ | |
+| 775 | ✅ | ✅ | ✅ | ✅ | |
+| 841 | ✅ | ✅ | ✅ | ✅ | "1381 sonbaharı" → `10-01`, `gun` alanı açıklıyor |
+| 848 | ✅ | ✅ | kısmen | ✅ | |
+| 897 | ✅ | ✅ | ✅ | ✅ | |
+| 930 | ✅ | ✅ | ✅ | ✅ | |
+| 966 | 🔴 | ✅ | 🔴 | 🔴 | gün uydurma + kaynak tarih vermiyor |
+| 986 | ✅ | ✅ | ✅ | ✅ | |
+| 1052 | ⚪ (gün) | ✅ | kısmen (ay) | ⚪ | |
+| 1075 | ⚪ | 🔴 | ⚪ (çekilemedi) | 🔴 | yan cümle TDV'ye aykırı |
+| 1225 | ⚪ | ✅ | 🔴 | 🔴 | `venedik` Preveze'yi anmıyor |
+| 1236 | ⚪ | ✅ | 🔴 | 🔴 | `iskodra` vladikalığı anmıyor |
+| 1240 | ✅ | 🔴 | ✅ (gün) | 🔴 | yan cümle kendi kaynağına aykırı |
+| 1340 | 🔴 | ✅ | 🔴 | 🔴 | sahte ay + TDV'ye uydurma atıf |
+| 1365 | ✅ | ✅ | ✅ | ✅ | |
+| 1413 | ✅ | ✅ | ✅ | ✅ | |
+| 1414 | ⚪ | ⚪ | ⚪ | ⚪ | kaynak adlandırılmış, alıntı yok |
+| 1430 | ✅ | ✅ | kısmen | ✅ | |
+
+**A: 🔴 9 · ⚪ 5 · ✅ 11.**
+
+### 2.2 B — öteki 53 dosya (25)
+
+| # | ① tarih | ② içerik | ③ kaynak | KOVA | not |
+|---|---|---|---|---|---|
+| 18 | ⚪ (gün) | ✅ | kısmen (ay) | ⚪ | TDV `kefe`: "Haziran 1475" — 6'sı yok |
+| 48 | ✅ | ✅ | ✅ | ✅ | |
+| 88 | 🔴 | ✅ | ⚪ | 🔴 | "veri kaydının kendi günü devralındı" — `§4` |
+| 97 | ⚪ | ⚪ | ⚪ | ⚪ | "standart akademik", alıntı yok |
+| 126 | ✅ | ✅ | ✅ | ✅ | |
+| 156 | ⚪ | ⚪ | ⚪ | ⚪ | Britannica 403 — açılamadı |
+| 194 | ✅ | ✅ | ✅ | ✅ | |
+| 210 | ⚪ | ⚪ | ⚪ | ⚪ | Hemming/Lockhart, alıntı yok (kaydın kendi notu) |
+| 1509 | ✅ | ✅ | ✅ | ✅ | |
+| 1517 | ✅ | ✅ | ✅ | ✅ | |
+| 1526 | ✅ | ✅ | ✅ | ✅ | |
+| 1531 | ✅ | ✅ | ✅ | ✅ | |
+| 1539 | ✅ | ✅ | ✅ | ✅ | |
+| 1549 | ✅ | ✅ | ✅ | ✅ | |
+| 1578 | ✅ | ✅ | ✅ | ✅ | |
+| 1604 | ✅ | ✅ | ✅ | ✅ | |
+| 1608 | ⚪ | ⚪ | ⚪ | ⚪ | Kaya 2014 açılamadı |
+| 1620 | ⚪ | ⚪ | ⚪ | ⚪ | Kurukin (Rusça basılı) açılamadı |
+| 1642 | ✅ | ✅ | ✅ | ✅ | |
+| 1647 | ✅ | ✅ | ✅ | ✅ | |
+| 1670 | ✅ | 🔴 | ✅ (gün) | 🔴 | yan cümle kendi kaynağına aykırı |
+| 1696 | ✅ | ✅ | ✅ | ✅ | |
+| 1709 | ✅ | ✅ | ✅ | ✅ | |
+| 1718 | ✅ | ✅ | ✅ | ✅ | |
+| 1726 | ✅ | ✅ | ✅ | ✅ | |
+
+**B: 🔴 2 · ⚪ 6 · ✅ 17.**
+
+### 2.3 🔴'ler — kaynak cümlesiyle
+
+**A tabakası**
+- **320 Rovine — ③.** `kaynak: bulgaristan` gövdesinde "Rovine", "Mircea", "1395" HİÇ
+  geçmiyor. Tarih başka TDV maddesinden doğrulanıyor — `bayezid-i`: "Eflak'ta Argeş nehri
+  civarında 17 Mayıs 1395'te meydana gelen savaşta yenilgiye uğrattığı Mircea'nın yerine
+  Vlad'ı tahta geçirdi." ⚠️ TDV kendiyle çelişiyor (`D211 ⑥`): `eflak` "Rovine'deki çetin
+  savaşta (1394)" diyor.
+- **483 Halep konsolosluğu — ① sahte ay.** TDV `halep`: "Nitekim 1548'de burada bir
+  Venedik konsolosluğu kuruldu" — yalnız yıl; `t:"1548-06-01"`, `gun:"1548"`.
+- **598 Habeş Eyaleti — ① `t` hiçbir güne uymuyor.** TDV `habes-eyaleti`: "15 Şâban 962
+  (5 Temmuz 1555) tarihinde resmen kurulan Habeş beylerbeyiliği" · "2 Nisan 1557'de Masavva'
+  şehri alındıktan sonra". Madde iki günü de metinde veriyor, `t` ise `1557-01-01` — ne
+  kuruluş (1555-07-05) ne Masavva (1557-04-02). Başlık "kuruluş" dediği için `t` iki yıl
+  ve üç ay erken/geç.
+- **966 Abaza isyanının bastırılması — ① gün uydurma + ③.** TDV `murad-iv` teslimi
+  tarihlemiyor ("Diğer taraftan Abaza Paşa uzun uğraşılar sonucu teslim oldu ve
+  padişahtan aman diledi"; çevresindeki tarihler 1035/1626 ve 1038/1629). Kaydın `gun`
+  alanı "1628" diyor, `t` ise `1628-09-22` — günün dayanağı yok.
+- **1075 Şehremaneti — ② yan cümle TDV'ye aykırı.** Madde: "ertesi yıl Beyoğlu-Galata'da
+  Altıncı Daire-i Belediye pilot bölge olarak teşkil edildi" (= 1856). TDV `belediye`:
+  "Altıncı Dâire-i Belediyye kuruldu (Altıncı Dâire-i Belediyye Nizamnâmesi, 11
+  Cemâziyelevvel 1274 / 28 Aralık 1857 ve … Nizamnâme-i Umûmî, 24 Şevval 1274 / 7 Haziran
+  1858 tarihlidir)." Kuruluş günü de iki TDV maddesinde farklı, hiçbiri 16 Ağustos değil:
+  `belediye` "13 Haziran 1854'te … İstanbul Şehremaneti kuruldu"; `sehremini` "25 Temmuz
+  1855 tarihli bir iradeyle … şehremanetinin kurulması kararlaştırılmıştır." Gösterilen
+  `sehremaneti` maddesinin gövdesi çekilemedi ⇒ 16 Ağustos ⚪ kaldı.
+- **1225 Preveze — ③.** `kaynak: venedik` Preveze/Vonitsa/Ayamavra'yı hiç anmıyor (yalnız
+  "1684-1699" savaş aralığı). TDV `preveze` slug'ı ÖLÜ (302).
+- **1236 Karadağ vladikalığı — ③.** `kaynak: iskodra` "vladika", "Petroviç", "Cetinje",
+  "1697" — hiçbiri yok. TDV `karadag` vladikalığı anıyor ama tarihlemiyor ("Cetinje Ortodoks
+  piskoposu (Çetine vladikası) tedrîcen en yüksek otorite haline geldi").
+- **1240 Dubrovnik — ② yan cümle kendi kaynağına aykırı.** Gün doğru — TDV `dubrovnik`:
+  "Fransızlar, 27 Mayıs 1806'da Dubrovnik'i zaptederek bu küçük devlete son verdiler."
+  Ama madde "1458'den beri Osmanlı'ya haraç ödeyerek … üç buçuk asırlık tâbi statüsü"
+  diyor; aynı madde: "Dubrovnik kaynaklarına göre 1365 tarihli olan bu ahidnâme ile
+  Dubrovnik Osmanlılar'ın haraçgüzârı oluyor"; vergi artışları 1445, 1452, 1459'da. 1458
+  maddede hiç geçmiyor.
+- **1340 Hendesehâne — ① sahte ay + ③ uydurma atıf.** TDV `mahmud-i--osmanli`: "1146 (1734)
+  yılında Üsküdar'da Hendesehâne (Humbarahâne) adıyla bir kışla ve okul açmış" — yıl;
+  `t:"1734-06-01"`. Madde "TDV'nin 'Mahmud I' maddesine göre … saray hizmetlileri ve
+  bostancılar arasından seçtiği öğrencilere matematik ve geometri temelli askerî eğitim
+  verdi" diyor: maddede "bostancı", "öğrenci", "matematik", "geometri" kelimelerinden HİÇBİRİ
+  yok. 1. turdaki 1305 (Genç Osman) ile aynı sınıf.
+
+**B tabakası**
+- **88 Ahsâ'dan çekilme — ① sahte ay, BEYANLI.** Kaydın kendi `kaynak:` cümlesi: "kaynak
+  yalnız YIL veriyor (1841), AY/GÜN kaynaksız — veri kaydının kendi günü (1841-10-01)
+  devralındı". Bu `§4`ün iki kuralını birden çiğniyor: "Atlas referans değildir … komşu
+  kaydın günü DAYANAK OLAMAZ" ve "gün bilinmiyorsa `YYYY-01-01`". Kaynak da adıyla
+  alıntılanmıyor ("standart akademik/ansiklopedik … J.B. Kelly").
+- **1670 Ziştovi onayı — ② yan cümle kendi kaynağına aykırı.** Gün doğru — TDV
+  `zistovi-antlasmasi`: "12 Zilhicce'de (12 Ağustos) onaylandı". Ama madde "Onay, Rusya ile
+  mütarekenin imzalandığı günün hemen ertesine denk geldi" diyor; aynı TDV maddesi: "12
+  Ağustos 1791'de Ruslar'la Kalas'ta yapılan mütareke" — yani AYNI gün. (TDV
+  `yusuf-pasa-koca` mutabakatı 8 Ağustos'a koyuyor; ikisi de "ertesi gün" demiyor.)
+
+### 2.4 Ölçüm sırasında görülen, kovaya girmeyen bulgular
+
+- **304 Şam — Hama/Humus.** Tarih TDV `suriye` ile tutuyor ("Şam, İngiliz-Arap kuvvetleri
+  tarafından Ekim 1918 başında işgal edildi"). Ama madde "Aynı tarihte elden çıkan diğer
+  yerleşimler: Hama, Humus" diyor; bunu destekleyen bir cümle bulamadım (`hama` maddesinde
+  1918 yok, `humus` slug'ı ölü). Bu kalıp ("Aynı tarihte … katılan/elden çıkan öteki
+  yerler") haritadan türetilmiş bir cümleye benziyor: Hama ve Humus'un yerleşim kırılması
+  Şam'ın gününe bağlanmış olabilir. Ölçmedim, ⚪ bıraktım. Aynı kalıp B'de de var (18 Kırım:
+  "Bahçesaray, Kerç, Azak"; 897 Şam 1516: "Beyrut") — **kalıp makinece aranabilir.**
+- **TDV iç çelişkileri** (madde suçu değil, bilgi): Rovine 1394 (`eflak`) / 1395
+  (`bayezid-i`) · Şehremaneti 1854 (`belediye`) / 1855 (`sehremini`) · Tebriz'in İran'a
+  bırakılışı 1736 (`tebriz`) / 10 Ocak 1732 (`mahmud-i--osmanli`; madde 1726 bunu
+  kullanmış, doğru) · Kars'ın İngiliz işgali 12 Nisan (`kars`) / 13 Nisan (`ahiska`).
+
+## 3. Sonuç — iki oran AYRI
+
+| tabaka | 🔴 | ⚪ | ✅ | 🔴 oran | Wilson %95 |
+|---|---|---|---|---|---|
+| **A `ek*`** (havuz 1219) | **9** | 5 | 11 | **%36** | %20 – %56 |
+| **B öteki** (havuz 517) | **2** | 6 | 17 | **%8** | %2 – %25 |
+
+İki tur, aynı tabaka içinde (tabakalar arası BİRLEŞTİRİLMEDİ; iki tur bağımsız çünkü
+1. turun 25'i havuzdan çıkarıldı):
+
+| tabaka | 1. tur | 2. tur | iki tur | Wilson %95 |
+|---|---|---|---|---|
+| A `ek*` | 5/14 | 9/25 | **14/39 = %36** | %23 – %52 |
+| B öteki | 0/11 | 2/25 | **2/36 = %6** | %1,5 – %18 |
+
+⚠️ ⚪ ✅'ye katılmadı. B'de ⚪ yüksek (6/25): B'nin kaynakları çoğunlukla TDV dışı basılı
+kitap (Hemming, Kurukin, Kaya) ya da Britannica (403); ölçememek benim ölçüm sınırım,
+temizlik kanıtı değil. B'nin "doğrulanan" oranı %68 (17/25), A'nınki %44 (11/25).
+
+### 3.1 Ne değişti
+
+- **A'nın oranı TUTTU:** 1. turun %36'sı (aralık %16-61) 2. turda yine %36 çıktı; aralık
+  %23-52'ye daraldı. `ek*`'de beklenen hatalı madde ≈ **280 – 640** (1233 × aralık).
+- **B artık "0" değil:** 2/25. İki turda 2/36, üst sınır %26'dan **%18'e** indi. B'nin
+  iki hatası da A'daki sınıflarla AYNI (sahte ay, yan cümle) — yani mekanizma dosya
+  kuşağına özel değil, kuşakta YOĞUN.
+- **İki tabaka arasındaki fark artık istatistiksel olarak ayrışıyor:** A'nın alt sınırı
+  (%23) B'nin üst sınırına (%18) değmiyor.
+
+### 3.2 Mekanizma — A'nın 9 hatası
+
+| sınıf | A | B | makinece süzülebilir mi |
+|---|---|---|---|
+| ③ çıplak slug olayı anmıyor (320, 1225, 1236) | 3 | 0 | ⚠️ kısmen — slug gövdesinde olay adı/yıl aranabilir |
+| ① sahte ay/gün — `t` ay/gün taşıyor, `gun` yıl diyor (483, 966, 1340) + beyanlı (88) | 3 | 1 | ✅ EVET — `t` hassasiyeti × `gun` alanı |
+| ② yan cümle kendi kaynağıyla çelişiyor (1075, 1240) + (1670) | 2 | 1 | ❌ hayır — okuma ister |
+| ① `t` metindeki günlerin hiçbirine uymuyor (598) | 1 | 0 | ✅ EVET — `d` içindeki tarihler × `t` |
+| ③ TDV'ye uydurma atıf (1340; 1. turda 1305) | (1) | 0 | ⚠️ kısmen — "TDV'ye göre/maddesine göre" geçen `d`'ler |
+
+### 3.3 Öngörü × ölçüm
+
+| öngörü | ölçüm | |
+|---|---|---|
+| A 🔴 7 (4–11) | 9 | ✅ aralıkta |
+| B 🔴 2 (0–4) | 2 | ✅ tam |
+| A ⚪ 4 · B ⚪ 4 | 5 · 6 | yakın; B'yi az tahmin ettim |
+| slug tarihi taşımıyor: 320, 1236, 1225 | üçü de 🔴 ③ | ✅ tam |
+| sahte ay: 304, 483, 841, 1340 | 483 ✓ · 1340 ✓ · 304 ⚪ · 841 ✅ | yarım |
+| B: 88, 97 "standart akademik" | 88 🔴 · 97 ⚪ | ✅ |
+| B: basılı kitap ⚪ (210, 1620) | ikisi de ⚪ | ✅ |
+| **ÖNGÖRÜLMEYEN** | 598 (`t` metindeki günlere uymuyor) · 1670 ve 1240 (yan cümle kaynakla çelişiyor) | ❌ |
+
+## 4. Öneri (karar koordinatörün)
+
+1. **Kampanya hedefi değişmedi: `ek*` 1233.** İki tur birbirini doğruladı.
+2. **Makinece süzgeç — UMIT'e (iki tanesi kesin, biri kısmen):**
+   - ① `t` ay/gün taşıyor (`-MM-DD` ≠ `-01-01`) ama `gun` alanı yalnız yıl/hicrî yıl
+     diyor → sahte hassasiyet adayı (483, 966, 1340, 88, 1. tur 309).
+   - ② `d` metninde gün-ay-yıl geçiyor ve hiçbiri `t`'ye eşit değil → `t` yanlış olay
+     adayı (598).
+   - ③ `d` içinde "TDV'ye göre / maddesine göre" geçiyor → atıf doğrulama kuyruğu
+     (1340, 1. tur 1305). Bu yalnız aday üretir, hükmü okuma verir.
+   - ④ `d` içinde "Aynı tarihte … (katılan|elden çıkan) (öteki|diğer) yer" kalıbı →
+     haritadan türetilmiş iddia adayı (304, 18, 897).
+3. **Okuma isteyen sınıf** (yan cümle çelişkisi, slug olayı anmıyor) süzgeçle bulunamaz;
+   kampanyanın el işi bu kısımdır.
+4. **B'yi kampanyaya katmaya gerek yok** ama süzgeç ①/②'yi B'de de koşturmak ucuz
+   (88 ve 1670 B'den çıktı).
