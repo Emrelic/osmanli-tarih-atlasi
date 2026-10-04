@@ -254,3 +254,21 @@ ClaudEmre-kutu/
 # baska makinenin BAYAT damgasini okuyup "bekci canli" sanar.
 # Yanlis alanla olcmek, olcmemekten daha tehlikelidir. (`D258`)
 /oturumlar/bekci/
+
+# ── ECZANE IC AG BILGISI — Emre karari, 4 Ekim 2026 (① sikki) ──────────
+# 🔴 Depo HERKESE ACIK (GitHub Pages kaynagi). Bu yedi dosya eczane LAN'inin
+#    topoloji haritasini tasiyor: 3 MAC adresi · 4 ic IP · hangi makinenin
+#    magic packet'le acilmaya HAZIR oldugu · modem modeli. Istismari LAN
+#    erisimi gerektirir, yani `parti-kasa-*` (14 hastanin TC'si) ya da `agy/`
+#    (Chrome Login Data) siniflarinda DEGIL — ama yayinlanmamasi gerekiyordu.
+# 📌 Ayni sinifin kardesi: `acici_kur.py`deki gomulu gercek IP'ler 3 Ekim'de
+#    cikarildi (c3214ef6). O zaman `arac/` temizlendi, bunlar KALMISTI —
+#    *bir sizinti kapisini kapatirken ayni veriyi tasiyan oteki dosyalar da
+#    taranir* dersi tam buradan cikti.
+# ⚠️ GECMIS TEMIZLENMEDI, yalniz izleme kesildi (① sikki). Gecmisi yeniden
+#    yazmak (filter-repo + force push) bes makinedeki klonu kirar; Emre'nin
+#    karari ① oldu ve ② ertelendi, iptal EDILMEDI.
+# 📌 Dosyalar silinmedi: EMRELIC'te `C:\eczane-ag-gizli\` altina kopyalandi.
+#    Olcum kaybolmadi, yalniz depodan cikti.
+/oturumlar/GOREV-DURUM-1001.md
+/oturumlar/donanim/
