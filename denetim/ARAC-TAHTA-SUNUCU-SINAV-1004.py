@@ -320,7 +320,10 @@ try:
     time.sleep(1.0)
     erken = bk.poll()
     kod, cik = cli(["yaz", "--kim", "ZZ-A", "--kime", AD, "--mesaj", "bekci uyan"])
-    no = (re.search(r"(M-\d{4}) yazıldı", cik) or re.search("x", "x")).group(0)
+    # 🔴 ilk koşuda burada group(0) vardı: "M-0029 yazıldı" metnini aradı ve
+    #    doğru çalışan bekçiye HATA dedi. Sınavın kusuruydu, aletin değil.
+    _m = re.search(r"(M-\d{4}) yazıldı", cik)
+    no = _m.group(1) if _m else "BULUNAMADI"
     try:
         bout, berr = bk.communicate(timeout=20)
     except subprocess.TimeoutExpired:

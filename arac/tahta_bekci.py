@@ -194,6 +194,57 @@ def _oku():
     return d if isinstance(d, list) else (d.get("mesajlar") or [])
 
 
+def _no(x):
+    try:
+        return int(str(x or "M-0").split("-")[-1])
+    except ValueError:
+        return 0
+
+
+# ==================== TAHTA SUNUCUSU (TAHTA-WEB-1004) ====================
+# 🔴 Bekçi artık tahtayı SUNUCUDAN okur (`arac/tahta_sunucu.py`): her turda
+#   yalnız `son_no`dan SONRAKİ mesajlar gelir — 17 MB'lık dosyayı 60 sn'de
+#   bir okumak yerine birkaç yüz bayt. İstemci kodu TEK yerde: `tahta._istek`.
+# 🔴 DÜŞÜŞ BEYANLI: sunucuya ulaşılamazsa yerel dosyaya düşer ve bunu
+#   STDERR'e basar (uyandırmaz — bekçi sessiz olmak ZORUNDA, §7.2 ④) +
+#   nabız damgasına `kaynak: "yerel"` yazar; `bekci_olc.py` okuyabilir.
+#   Yalnız HÂL DEĞİŞİNCE basar (sunucu→yerel, yerel→sunucu), her turda değil.
+# ⚠️ `--tahta <yol>` verilmişse (SINAMA DİKİŞİ) sunucuya HİÇ sorulmaz —
+#   eski sınavlar yerel dosya bekliyor ve bekler.
+_KAYNAK = {"son": None, "yerel_zorla": False}
+
+
+def _getir(son):
+    """(son'dan SONRAKİ mesajlar, en büyük no, kaynak). `son`=None ⇒ yalnız
+    en büyük numarayı öğren (mesaj döndürmez)."""
+    if not _KAYNAK["yerel_zorla"]:
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import tahta as _T
+            r, sebep = _T._istek("GET", "/tahta/oku", sorgu={
+                "hepsi": 1,
+                "son_no": str(son) if son else "",
+                "limit": "0" if son is None else ""})
+        except BaseException as e:            # istemci bekçiyi DÜŞÜREMEZ
+            r, sebep = None, "%s: %s" % (type(e).__name__, e)
+        if r is not None and r.get("tamam"):
+            if _KAYNAK["son"] == "yerel":
+                _diag("[BEKCI] 🟢 sunucuya yeniden ulaşıldı — tahta SUNUCUDAN okunuyor.")
+            _KAYNAK["son"] = "sunucu"
+            return r.get("mesajlar") or [], int(r.get("son_no") or 0), "sunucu"
+        if _KAYNAK["son"] != "yerel":
+            _diag("[BEKCI] ⚠️ SUNUCUYA ULAŞILAMADI — YEREL okunuyor, çatışma "
+                  "riski GERİ DÖNDÜ · sebep: %s" % (sebep or (r or {}).get("sebep")))
+        _KAYNAK["son"] = "yerel"
+    else:
+        _KAYNAK["son"] = "yerel"
+    tum = _oku()
+    en = max([_no(m.get("no")) for m in tum] or [0])
+    if son is None:
+        return [], en, "yerel"
+    return [m for m in tum if _no(m.get("no")) > son], en, "yerel"
+
+
 def _defter_adlari(benler):
     """🔴 BU PROJEDE ATAMA = YENİDEN ADLANDIRMADIR.
 
@@ -268,7 +319,7 @@ def _nabiz_yol(kim):
     return os.path.join(d, re.sub(r"[^A-Za-z0-9]+", "_", kim or "?") + ".json")
 
 
-def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
+def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep="", kaynak=None):
     """Her turda tek satir JSON. ASLA istisna firlatmaz — nabiz damgasi
     bekciyi DUSURMEMELI; teshis arac olmaktan cikip ariza kaynagi olur."""
     y = _nabiz_yol(kim)
@@ -285,6 +336,7 @@ def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
             "tur": tur_no,
             "ara": ara,
             "dinlenen": sorted(benler) if benler else [],
+            "kaynak": kaynak or _KAYNAK.get("son") or "?",   # sunucu | yerel
         }, ensure_ascii=False))
     except Exception:
         pass
@@ -323,6 +375,7 @@ def main(argv):
     if "--tahta" in argv:
         global TAHTA
         TAHTA = argv[argv.index("--tahta") + 1]
+        _KAYNAK["yerel_zorla"] = True         # sınama dikişi: sunucuya sorma
     ara = float(argv[argv.index("--ara") + 1]) if "--ara" in argv else 60.0
     tur = int(argv[argv.index("--tur") + 1]) if "--tur" in argv else 0
     # 🔴 BAYRAK 16 Ağustos'ta TERSİNE ÇEVRİLDİ. Eski hâli `--surekli`ydi ve
@@ -364,7 +417,10 @@ def main(argv):
             _diag("[BEKCI] ⚠️ defter.json okunamadı — YALNIZ elle verilen "
                   "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
 
-    gorulen = {m.get("no") for m in _oku()}
+    # 🔴 TAHTA-WEB-1004: "görülen numaralar KÜMESİ" yerine "son görülen
+    # numara". Sunucu numarayı tek elden ve artan verir ⇒ küme gereksiz;
+    # üstelik küme için her turda bütün tahtayı (17 MB) okumak gerekiyordu.
+    _, son, _ilk_kaynak = _getir(None)
     # 🔴 19 Eylül 2026 — `--cik` KABUK ARKA PLANINDA (Bash run_in_background)
     # varsayılan yol oldu: Monitor 30 dk'da bir SÜRESİ DOLUP oturumu boşuna
     # uyandırıyordu (Emre: "bekçi neden zırt pırt yeniden kuruluyor").
@@ -373,22 +429,16 @@ def main(argv):
     # dosyada tutulur; yeniden kurulunca ondan SONRAKİLER yeni sayılır.
     son_dosya = os.path.join(os.path.dirname(os.path.abspath(TAHTA)),
                              ".bekci_son_" + re.sub(r"[^A-Za-z0-9]+", "_", kim) + ".txt")
-    def _no(x):
-        try:
-            return int(str(x or "M-0").split("-")[-1])
-        except ValueError:
-            return 0
     if cik and os.path.exists(son_dosya):
         try:
             son = int(open(son_dosya).read().strip() or 0)
-            gorulen = {g for g in gorulen if _no(g) <= son}
         except (OSError, ValueError):
             pass
     # 🔴 BANNER — STDERR (18 Eylül 2026, bkz. dosya başı KULLANIM). Bu
     # satır gerçek bir mesaj DEĞİL; stdout'ta durursa Monitor onu her
     # kurulumda bir bildirim sayar ve boş nöbeti bile uyandırır.
-    _diag("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn%s"
-          % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara,
+    _diag("[BEKCI] nöbette · %d ad dinleniyor: %s · son görülen M-%04d (%s) · %.0f sn%s"
+          % (len(benler), " | ".join(sorted(benler)), son, _ilk_kaynak, ara,
              (" · toplu:%.0f sn" % toplu) if toplu > 0 else ""))
     n = 0
     havuz = []
@@ -403,10 +453,10 @@ def main(argv):
         _nabiz_yaz(kim, "nobette", n, ara, benler)
         yeni = []
         tuzak = []
-        for m in _oku():
-            if m.get("no") in gorulen:
-                continue
-            gorulen.add(m.get("no"))
+        _gelen, _en, _ = _getir(son)
+        son = max(son, _en)
+        _nabiz_yaz(kim, "nobette", n, ara, benler)      # kaynak bu turun
+        for m in _gelen:
             # 🔴 KENDİ MESAJIM BENİ UYANDIRMAZ (23 Eylül 2026, ölçülerek).
             # Vaka: koordinatör ACİL bir HERKES duyurusu yazdı; duyuru
             # bütün bekçileri uyandırdı — YAZANIN kendi bekçisi dâhil.
@@ -519,7 +569,7 @@ def main(argv):
         if cik:
             try:
                 with open(son_dosya, "w") as f:
-                    f.write(str(max([_no(g) for g in gorulen] or [0])))
+                    f.write(str(son))
             except OSError:
                 pass
         # 🔴🔴 22 EYLÜL 2026 — `tuzak` ÇIKIŞ SEBEBİ OLMAKTAN ÇIKARILDI.

@@ -73,6 +73,182 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIZIN = os.path.join(KOK, "oturumlar")
 VERI = os.path.join(DIZIN, "tahta.json")     # 🔴 GERÇEK KAYIT — makine okur
 GORUNUM = os.path.join(DIZIN, "TAHTA.md")    # ÜRETİLİR — insan okur
+# SINAMA DİKİŞİ: sınav gerçek tahtayı kirletmesin diye yerel dosya yönlenebilir.
+if os.environ.get("TAHTA_VERI"):
+    VERI = os.path.abspath(os.environ["TAHTA_VERI"])
+    DIZIN = os.path.dirname(VERI)
+    GORUNUM = os.path.join(DIZIN, "TAHTA.md")
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴🔴 TAHTA SUNUCUSU İSTEMCİSİ — TAHTA-WEB-1004 (Emre, 4 Ekim 2026)
+#   "tahtayı commit yaparak kullanmaktan vazgeçelim ve bir web tabanlı yere
+#    dönüştürelim; herkes web tabanlı yere yazsın ve oradan okusun."
+# ÖLÇÜLEN TABAN: son 200 commit'in 78'i (%39) tahta mesajıydı; `TAHTA.md` +
+# `tahta.json` en çok çatışan iki dosya (üçüncünün 8 katı). Kilidin kökü
+# numaranın YEREL bayat dosyadan (`len(kayit)+1`) üretilmesiydi.
+# ⇒ Artık her işlem önce `arac/tahta_sunucu.py`ye gider; NUMARAYI SUNUCU
+#   VERİR. Komut satırı arayüzü DEĞİŞMEDİ — yalnız içi.
+# 🔴 DÜŞÜŞ BEYANLIDIR: sunucuya ulaşılamazsa eski yerel yola düşülür VE
+#   ekrana `⚠️ SUNUCUYA ULAŞILAMADI …` basılır. Sessiz düşüş, eski kilit
+#   sınıfının kimse bilmeden geri gelmesidir. Düşüşte yazılan mesaj ayrıca
+#   `tahta_kuyruk.json`a girer ve sunucuya ilk ulaşılışta TESLİM edilir
+#   (sunucu `yerel_kimlik` ile mükerreri reddeder).
+# AYAR: `oturumlar/ag.json` → `"tahta_sunucu": "<IP>:<port>"`. Yoksa
+#   `makineler.EMRELIC` + 8788 (varsayılan, koda gömülü ad DEĞİL ayardan).
+#   Ortam: `TAHTA_SUNUCU=<ip:port>` ya da `TAHTA_SUNUCU=yerel` (sunucusuz) ·
+#   `TAHTA_AG=<yol>` (başka ag.json).
+# ═══════════════════════════════════════════════════════════════════════════
+AG = os.environ.get("TAHTA_AG") or os.path.join(KOK, "oturumlar", "ag.json")
+KUYRUK = os.path.join(DIZIN, "tahta_kuyruk.json")
+SUNUCU_PORT = 8788
+SUNUCU_ZAMAN_ASIMI = 8.0
+
+
+def _ag():
+    try:
+        with io.open(AG, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _sunucu_adres():
+    """(adres, jeton) ya da (None, sebep). Adres `ip:port`."""
+    ortam = (os.environ.get("TAHTA_SUNUCU") or "").strip()
+    if ortam.lower() == "yerel":
+        return None, "TAHTA_SUNUCU=yerel (sunucu bilerek KAPALI)"
+    a = _ag()
+    jeton = a.get("jeton") or ""
+    if not jeton:
+        return None, "ag.json yok ya da jeton yok (%s)" % AG
+    adres = ortam or str(a.get("tahta_sunucu") or "")
+    if not adres:
+        ip = (a.get("makineler") or {}).get("EMRELIC")
+        if not ip:
+            return None, "ag.json'da ne `tahta_sunucu` ne `makineler.EMRELIC` var"
+        adres = "%s:%d" % (ip, SUNUCU_PORT)
+    if ":" not in adres:
+        adres = "%s:%d" % (adres, SUNUCU_PORT)
+    return adres, jeton
+
+
+def _istek(yontem, yol, govde=None, sorgu=None):
+    """Sunucuya tek istek. Dönüş: (cevap_sözlüğü, None) ya da (None, sebep).
+    🔴 4xx gövdesi taşıyan cevap (ör. HERKES kapısı reddi) BİR CEVAPTIR,
+    düşüş sebebi değil; 401/403 ise ayar hatasıdır ⇒ düşüş + sebep."""
+    import gzip
+    import urllib.error
+    import urllib.parse
+    import urllib.request
+    adres, jeton = _sunucu_adres()
+    if adres is None:
+        return None, jeton
+    url = "http://%s%s" % (adres, yol)
+    if sorgu:
+        url += "?" + urllib.parse.urlencode(
+            {k: v for k, v in sorgu.items() if v not in (None, "", False)})
+    veri = None
+    bas = {"X-Atlas-Jeton": jeton, "Accept-Encoding": "gzip"}
+    if govde is not None:
+        veri = json.dumps(govde, ensure_ascii=False).encode("utf-8")
+        bas["Content-Type"] = "application/json; charset=utf-8"
+    istek = urllib.request.Request(url, data=veri, headers=bas, method=yontem)
+
+    def _coz(ham, enc):
+        if enc == "gzip":
+            ham = gzip.decompress(ham)
+        return json.loads(ham.decode("utf-8"))
+    try:
+        with urllib.request.urlopen(istek, timeout=SUNUCU_ZAMAN_ASIMI) as r:
+            return _coz(r.read(), r.headers.get("Content-Encoding")), None
+    except urllib.error.HTTPError as e:
+        try:
+            g = _coz(e.read(), e.headers.get("Content-Encoding"))
+        except Exception:
+            g = None
+        if e.code in (401, 403) or not isinstance(g, dict):
+            return None, "%s HTTP %d (%s)" % (
+                adres, e.code, g.get("sebep", "?") if isinstance(g, dict) else "?")
+        return g, None
+    except Exception as e:
+        return None, "%s · %s: %s" % (adres, type(e).__name__, e)
+
+
+def _dusus_uyar(sebep, ne="yazıldı"):
+    print("⚠️ SUNUCUYA ULAŞILAMADI — YEREL %s, çatışma riski GERİ DÖNDÜ" % ne)
+    print("   sebep: %s" % sebep)
+
+
+def _kuyruk_oku():
+    try:
+        with io.open(KUYRUK, encoding="utf-8") as f:
+            d = json.load(f)
+        return d if isinstance(d, list) else []
+    except Exception:
+        return []
+
+
+def _kuyruk_yaz(liste):
+    try:
+        if not liste:
+            if os.path.exists(KUYRUK):
+                os.remove(KUYRUK)
+            return
+        gecici = KUYRUK + ".yeni.%d" % os.getpid()
+        with io.open(gecici, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(liste, f, ensure_ascii=False, indent=1)
+        os.replace(gecici, KUYRUK)
+    except OSError as e:
+        print("⚠️ tahta_kuyruk.json yazılamadı (%s)" % e)
+
+
+def _kuyruk_bosalt():
+    """Düşüşte yerel yazılmış mesajları sunucuya TESLİM et. Sunucu
+    `yerel_kimlik` ile mükerreri tanır; teslim edilen kuyruktan düşer.
+    Kuyruk dosyası da paylaşılır ⇒ aynı makinedeki iki oturum aynı anda
+    boşaltmasın diye DOSYA KİLİDİ altında."""
+    if not os.path.exists(KUYRUK):
+        return
+    try:
+        with _Kilit(KUYRUK):
+            liste = _kuyruk_oku()
+            kalan = []
+            for g in liste:
+                r, sebep = _istek("POST", "/tahta/yaz", g)
+                if r is not None and r.get("tamam"):
+                    print("📤 KUYRUK teslim edildi: yerel %s → sunucuda %s%s" % (
+                        g.get("yerel_no", "?"), r.get("no"),
+                        " (zaten inmişti)" if r.get("mukerrer") else ""))
+                elif r is not None:
+                    print("🔴 KUYRUK mesajı sunucuda REDDEDİLDİ (yerel %s): %s" % (
+                        g.get("yerel_no", "?"),
+                        " / ".join(r.get("cikti") or [str(r.get("sebep", "?"))])))
+                else:
+                    kalan.append(g)
+            _kuyruk_yaz(kalan)
+    except RuntimeError as e:                 # kilit alınamadı — sonra tekrar
+        print("⚠️ kuyruk boşaltılamadı (%s) — bir sonraki işlemde denenir." % e)
+
+
+def _kayit_getir():
+    """Okuma işlemleri için bütün tahta: önce sunucu, olmazsa YEREL + uyarı."""
+    r, sebep = _istek("GET", "/tahta/oku", sorgu={"hepsi": 1})
+    if r is not None and r.get("tamam"):
+        return r["mesajlar"]
+    _dusus_uyar(sebep if r is None else r.get("sebep"), "okundu (bayat olabilir)")
+    return _yukle()
+
+
+def _izleniyor():
+    """`tahta.json` git'te izleniyor mu? Kesme (gitignore) anından sonra
+    düşüş yolu git'e DOKUNMAZ — yoksayılan dosya commit edilemez."""
+    try:
+        r = subprocess.run(["git", "-C", KOK, "ls-files", "--error-unmatch",
+                            os.path.relpath(VERI, KOK).replace(os.sep, "/")],
+                           capture_output=True, text=True)
+        return r.returncode == 0
+    except Exception:
+        return False
 
 # 🔴 İKİ DOSYA, VE HANGİSİNİN OTORİTE OLDUĞU YAZILI:
 # `tahta.json` otoritedir; `TAHTA.md` ondan ÜRETİLİR ve ELLE DÜZENLENMEZ.
@@ -638,7 +814,7 @@ def _takma_adlar(kayit, kim, kimlik=None):
 
 def kimler(a):
     """Tahtadan türetilmiş OTURUM DEFTERİ — kim, hangi kimlikle, ne zaman."""
-    kayit = _yukle()
+    kayit = _kayit_getir()
     defter = {}
     for m in kayit:
         ad = m["kimden"]
@@ -749,11 +925,49 @@ def _adres_denetle(kayit, kime):
     print("   ⚠️ Dosya yolu, tarif ya da virgüllü çoklu adres ADRES DEĞİLDİR.")
 
 
+_YAZ_ALANLARI = ("kim", "kime", "mesaj", "cevap_bekle", "vade", "yanit",
+                 "kimlik", "cins", "dayanak", "aciliyet")
+
+
+def _yazildi_bas(no, kimden, kime, cevap, vade):
+    print("%s yazıldı  %s → %s%s" % (
+        no, kimden, kime,
+        ("  (cevap BEKLENİYOR%s)" % (", vade " + vade if vade else ""))
+        if cevap == "BEKLIYOR" else ""))
+
+
 def yaz(a):
+    """🔴 ÖNCE SUNUCU (TAHTA-WEB-1004): numarayı sunucu verir, git'e
+    dokunulmaz. Ulaşılamazsa BEYANLI düşüş: eski yerel yol + kuyruk."""
+    _kuyruk_bosalt()
+    g = {k: a.get(k) for k in _YAZ_ALANLARI}
+    r, sebep = _istek("POST", "/tahta/yaz", g)
+    if r is not None:
+        for s in r.get("cikti") or []:
+            print(s)
+        if not r.get("tamam"):
+            if not r.get("cikti"):
+                print("🔴 SUNUCU REDDETTİ: %s" % r.get("sebep", "?"))
+            print("   ⇒ Mesajın YAZILMADI.")
+            return r.get("kod") or 2
+        _yazildi_bas(r["no"], r.get("kimden"), r.get("kime"),
+                     r.get("cevap"), r.get("vade"))
+        print("   🟢 sunucu %s — numarayı SUNUCU verdi, mesaj artık HERKESTE "
+              "(git'e dokunulmadı)." % _sunucu_adres()[0])
+        return 0
+    _dusus_uyar(sebep)
+    return _yaz_yerel(a, kuyruga=_sunucu_adres()[0] is not None)
+
+
+def _yaz_yerel(a, kuyruga=False):
+    """ESKİ YOL — yalnız sunucuya ulaşılamadığında (beyanlı düşüş)."""
     # 🔴 İKİ KAPI — ikisi de 3 Ekim 2026'da UMIT'in kilitlenmesinden doğdu.
     # ① Depo yarım bir işlemin ortasındaysa YAZMA. Yazmak kilidi derinleştirir
     #    ve kurtarma Emre onayı gerektiren bir işleme dönüşür.
-    _yarim = _git_yarim()
+    # ⚠️ Kesme anından (tahta.json gitignore'a girince) sonra git hâli bu
+    #    yolu İLGİLENDİRMEZ: dosya git'te değil ⇒ ne kapı ne tazeleme.
+    izli = _izleniyor()
+    _yarim = _git_yarim() if izli else None
     if _yarim:
         print("🔴 YAZILMADI — depo %s." % _yarim)
         print("   Bu hâlde yazmak çakışmayı DERİNLEŞTİRİR (UMIT, 3 Ekim: M-5717).")
@@ -762,10 +976,81 @@ def yaz(a):
         return 2
     # ② Numara verilmeden ÖNCE tazele — `len(kayit)+1` bayat dosyadan sayarsa
     #    iki makine AYNI numarayı aynı satıra yazar.
-    _tazele()
+    if izli:
+        _tazele()
 
     kayit = _yukle()
-    no = "M-%04d" % (len(kayit) + 1)
+    m, kod = _yaz_hazirla(a, kayit)
+    if kod:
+        return kod
+    if kuyruga:
+        import uuid
+        m["yerel_kimlik"] = uuid.uuid4().hex
+    # 🔴🔴 KRİTİK BÖLGE — KİLİT ALTINDA. Yukarıdaki `kayit` artık BAYAT
+    # olabilir: mesaj hazırlanırken başka bir oturum yazmış olabilir. O yüzden
+    # burada TAZE okunuyor ve numara YENİDEN hesaplanıyor.
+    # ⚠️ Eski hâlde bu satırlar kilitsizdi ve ölçülmüş bir kayıp üretti
+    # (OPUS HAZIR KITA 52, 21:21 — "çıkış kodu 0, mesaj tahtada yok").
+    # Gerekçe `_Kilit` başlığında.
+    with _Kilit(VERI):
+        kayit = _yukle()
+        kod = _yaz_ekle(kayit, m)
+        if kod:
+            return kod
+        _kaydet(kayit)
+    _yazildi_bas(m["no"], m["kimden"], m["kime"], m["cevap"], m["vade"])
+    if kuyruga:
+        g = {k: a.get(k) for k in _YAZ_ALANLARI}
+        g["yerel_kimlik"], g["yerel_no"] = m["yerel_kimlik"], m["no"]
+        try:
+            with _Kilit(KUYRUK):
+                _kuyruk_yaz(_kuyruk_oku() + [g])
+            print("   📥 KUYRUĞA alındı — sunucuya ilk ulaşılışta TESLİM edilir "
+                  "(numarası o zaman değişebilir).")
+        except RuntimeError as e:
+            print("   🔴 KUYRUĞA ALINAMADI (%s) — mesaj yalnız YEREL dosyada." % e)
+    if izli:
+        _git(kayit, "TAHTA %s — %s -> %s" % (m["no"], m["kimden"], m["kime"]),
+             m["mesaj"])
+    else:
+        print("   ⚠️ tahta.json git'te İZLENMİYOR — mesaj yalnız BU MAKİNEDE"
+              "%s." % (" ve kuyrukta" if kuyruga else ""))
+    return 0
+
+
+def _yeni_no(kayit):
+    """Numara: en büyük + 1. (`len+1` mükerrer numaralı bir dosyada
+    var olan bir numarayı yeniden verebilirdi; en büyük+1 veremez.)"""
+    en = 0
+    for x in kayit:
+        try:
+            en = max(en, int(str(x.get("no") or "M-0").split("-")[-1]))
+        except ValueError:
+            pass
+    return "M-%04d" % max(en + 1, len(kayit) + 1)
+
+
+def _yaz_ekle(kayit, m):
+    """KİLİT ALTINDA çağrılır (yerelde `_Kilit`, sunucuda KILIT+`_Kilit`).
+    Numara + yanıt bağlama + ekleme. Başarısızsa kayda DOKUNMAZ."""
+    no = _yeni_no(kayit)
+    if m.get("yanit_no"):
+        hedef = next((x for x in kayit if x["no"] == m["yanit_no"]), None)
+        if hedef is None:
+            print("🔴 --yanit %s: BÖYLE BİR MESAJ YOK. Yazılmadı." % m["yanit_no"])
+            return 2
+        hedef["hal"] = "CEVAPLANDI"
+        hedef["cevap"] = "→ %s" % no
+    m["no"] = no
+    kayit.append(m)
+    return 0
+
+
+def _yaz_hazirla(a, kayit):
+    """Denetimler (adres · HERKES kapısı · imza · çaprazlaşma) + kayıt sözlüğü.
+    Dönüş (m, 0) ya da (None, kod). Numara VERMEZ — o `_yaz_ekle`nin işi.
+    Sunucu da bunu çağırır: iş mantığı TEK yerde."""
+    a = {k: (v if v is not None else "") for k, v in a.items()}
     # 🔴 Kanonik ad dönerse ONU yaz — düzensiz yazımlar tahtaya GİRMESİN.
     # (Denetim artık yalnız uyarmıyor, DÜZELTİYOR; gerekçe `_adres_denetle`de.)
     _kanon = _adres_denetle(kayit, _t(a["kime"]).upper())
@@ -808,7 +1093,7 @@ def yaz(a):
                       "NOKTA ATIŞI yaz: `--kime \"<OTURUM ADI>\"`.")
                 print("   ⇒ Bilgi amaçlıysa aciliyeti düşür: uyandırmaz, "
                       "tahtada durur, herkes kendi turunda okur.")
-                return 2
+                return None, 2
             print("⚠️ ACİL HERKES — BÜTÜN bekçileri uyandırıyor. "
                   "Dayanak: %s" % _t(a.get("dayanak"))[:80])
         else:
@@ -865,7 +1150,7 @@ def yaz(a):
         print("   ⚠️ BU BİR HATA DEĞİL — mesaj bundan SONRA yazılıyor;\n      SONUÇ aşağıdaki satırdır.")
 
     m = {
-        "no": no, "zaman": _simdi(),
+        "no": "", "zaman": _simdi(),         # numarayı `_yaz_ekle` verir
         "kimden": _t(a["kim"]), "kime": _kime,
         # 🔴 KİMLİK — Emre'nin eklettiği alan (13 Ağustos 2026):
         #   "oturumun adı, adresi, id'si nesi var ise bu verileri de ilgili
@@ -933,40 +1218,41 @@ def yaz(a):
         #    saatlerce fark edilmedi ve BÜTÜN denetim/üretim hattı durdu.
         "aciliyet": (_t(a.get("aciliyet")) or "NORMAL").upper(),  # DURDURUCU·ACIL·NORMAL·DUSUK
     }
-    # 🔴🔴 KRİTİK BÖLGE — KİLİT ALTINDA. Yukarıdaki `kayit`/`no` artık BAYAT
-    # olabilir: mesaj hazırlanırken başka bir oturum yazmış olabilir. O yüzden
-    # burada TAZE okunuyor ve numara YENİDEN hesaplanıyor.
-    # ⚠️ Eski hâlde bu satırlar kilitsizdi ve ölçülmüş bir kayıp üretti
-    # (OPUS HAZIR KITA 52, 21:21 — "çıkış kodu 0, mesaj tahtada yok").
-    # Gerekçe `_Kilit` başlığında.
-    with _Kilit(VERI):
-        kayit = _yukle()
-        no = "M-%04d" % (len(kayit) + 1)
-        m["no"] = no
-        if m["yanit_no"]:
-            hedef = next((x for x in kayit if x["no"] == m["yanit_no"]), None)
-            if hedef is None:
-                print("🔴 --yanit %s: BÖYLE BİR MESAJ YOK. Yazılmadı." % m["yanit_no"])
-                return 2
-            hedef["hal"] = "CEVAPLANDI"
-            hedef["cevap"] = "→ %s" % no
-        kayit.append(m)
-        _kaydet(kayit)
-    print("%s yazıldı  %s → %s%s" % (
-        no, m["kimden"], m["kime"],
-        ("  (cevap BEKLENİYOR%s)" % (", vade " + m["vade"] if m["vade"] else ""))
-        if m["cevap"] == "BEKLIYOR" else ""))
-    _git(kayit, "TAHTA %s — %s -> %s" % (no, m["kimden"], m["kime"]), m["mesaj"])
-    return 0
+    return m, 0
 
 
 def oku(a):
-    kayit = _yukle()
-    if not kayit:
-        print("tahta BOŞ — henüz kimse yazmadı.")
-        return 0
     kim = (a.get("kim") or "").strip()
-    if kim and not a.get("hepsi"):
+    # 🔴 ÖNCE SUNUCU — süzme SUNUCUDA yapılır: tahta 17 MB (4 Ekim, 5752
+    # mesaj); her `oku --kim` bütününü indirseydi okumak yazmaktan pahalı
+    # olurdu. Takma ad çözümlemesi de sunucuda, BÜTÜN kayıt üstünden.
+    _kuyruk_bosalt()
+    r, sebep = _istek("GET", "/tahta/oku", sorgu={
+        "kim": kim, "hepsi": 1 if (a.get("hepsi") or not kim) else "",
+        "kimlik": a.get("kimlik")})
+    sunucuda = r is not None and r.get("tamam")
+    if sunucuda:
+        kayit = None
+        secili, toplam = r["mesajlar"], r.get("toplam", 0)
+        if not toplam:
+            print("tahta BOŞ — henüz kimse yazmadı.")
+            return 0
+        if kim and not a.get("hepsi"):
+            baslik = "SANA GELENLER (%s) + HERKES" % kim
+            if len(r.get("adlar") or []) > 1:
+                print("ℹ️ takma adların: %s" % " · ".join(r["adlar"]))
+        else:
+            baslik = "TAHTANIN TAMAMI"
+    else:
+        _dusus_uyar(sebep if r is None else r.get("sebep"), "okundu (bayat olabilir)")
+        kayit = _yukle()
+        toplam = len(kayit)
+        if not kayit:
+            print("tahta BOŞ — henüz kimse yazmadı.")
+            return 0
+    if sunucuda:
+        pass
+    elif kim and not a.get("hepsi"):
         # 🔴 TAKMA AD ÇÖZÜMLEMESİ — bir oturumun BÜTÜN adlarını topla.
         # Eskiden `m["kime"] == kim.upper()` diye bakılıyordu ve bir oturum
         # iki adla göründüğünde mesaj YANLIŞ KUTUDA kalıyordu (ölçüldü:
@@ -992,7 +1278,7 @@ def oku(a):
         baslik += " · YALNIZ YENİ (%d/%d)" % (len(secili), _once)
 
     print("=" * 76)
-    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), len(kayit)))
+    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), toplam))
     print("=" * 76)
     for m in secili:
         bayrak = ""
@@ -1036,13 +1322,26 @@ def oku(a):
         print()
 
     # 🟢 OKUNDU OTOMATİK — elle işaretlenen kutu işaretlenmez.
-    if kim:
+    if kim and sunucuda:
+        nolar = [m["no"] for m in secili if kim not in (m.get("okuyan") or {})]
+        if nolar:
+            r2, sebep2 = _istek("POST", "/tahta/isaretle", {"kim": kim, "nolar": nolar})
+            if r2 is not None and r2.get("tamam"):
+                print("→ %d mesaj '%s tarafından OKUNDU' diye işaretlendi (sunucu)."
+                      % (r2.get("yeni", 0), kim))
+            else:
+                print("⚠️ okundu damgası SUNUCUYA yazılamadı: %s"
+                      % (sebep2 or (r2 or {}).get("sebep")))
+    elif kim:
         yeni = 0
         for m in secili:
             if kim not in (m.get("okuyan") or {}):
                 m.setdefault("okuyan", {})[kim] = _simdi()
                 yeni += 1
-        if yeni:
+        if yeni and not _izleniyor():
+            _kaydet(kayit)
+            print("→ %d mesaj '%s tarafından OKUNDU' diye işaretlendi (YEREL)." % (yeni, kim))
+        elif yeni:
             _kaydet(kayit)
             print("→ %d mesaj '%s tarafından OKUNDU' diye işaretlendi." % (yeni, kim))
             _git(kayit, "TAHTA — %s okudu (%d mesaj)" % (kim, yeni),
@@ -1067,7 +1366,7 @@ def bekleyen(a):
       yarın "hiç sorulmamış" gibi yeniden keşfedilir. Çare SÜZMEK, **ve
       süzülenin sayısını BASMAK**: gizlenen şey de görünsün.
     """
-    kayit = _yukle()
+    kayit = _kayit_getir()
     acik = [m for m in kayit if m["hal"] == "ACIK" and m["cevap"] == "BEKLIYOR"]
     simdi = _simdi()
     if a.get("gecikmis"):
@@ -1098,9 +1397,8 @@ def bekleyen(a):
     return 0
 
 
-def teyit(a):
+def _teyit_uygula(kayit, a):
     """② ADIM — alıcı: 'OKUDUM, GEREĞİNİ YAPIYORUM'."""
-    kayit = _yukle()
     no = (a.get("no") or "").upper()
     m = next((x for x in kayit if x["no"] == no), None)
     if m is None:
@@ -1116,16 +1414,39 @@ def teyit(a):
     }
     if a.get("kimlik"):
         m.setdefault("teyit_kimlik", {})[kim] = _t(a["kimlik"])
-    _kaydet(kayit)
     print("✓ %s TEYİT EDİLDİ — %s: %s" % (no, kim, m["teyit"][kim]["soz"]))
     print("  ⇒ kanal bu yönde AÇIK olduğu artık KANITLI.")
-    _git(kayit, "TAHTA %s TEYIT — %s" % (no, kim), m["teyit"][kim]["soz"])
+    a["_git"] = ("TAHTA %s TEYIT — %s" % (no, kim), m["teyit"][kim]["soz"])
     return 0
 
 
-def tamam(a):
+def teyit(a):
+    """Önce SUNUCU (TAHTA-WEB-1004); ulaşılamazsa beyanlı YEREL düşüş."""
+    _kuyruk_bosalt()
+    g = {k: a.get(k) for k in ("no", "kim", "soz", "kimlik")}
+    g["eylem"] = "teyit"
+    r, sebep = _istek("POST", "/tahta/islem", g)
+    if r is not None:
+        for s in r.get("cikti") or []:
+            print(s)
+        if not r.get("cikti") and not r.get("tamam"):
+            print("🔴 SUNUCU REDDETTİ: %s" % r.get("sebep", "?"))
+        return 0 if r.get("tamam") else (r.get("kod") or 2)
+    _dusus_uyar(sebep)
+    with _Kilit(VERI):
+        kayit = _yukle()
+        kod = _teyit_uygula(kayit, a)
+        if kod:
+            return kod
+        _kaydet(kayit)
+    if _izleniyor():
+        baslik, govde = a["_git"]
+        _git(kayit, baslik, govde)
+    return 0
+
+
+def _tamam_uygula(kayit, a):
     """③ ADIM — gönderen: 'bekliyorum, tamam'. El sıkışma KAPANIR."""
-    kayit = _yukle()
     no = (a.get("no") or "").upper()
     m = next((x for x in kayit if x["no"] == no), None)
     if m is None:
@@ -1141,15 +1462,39 @@ def tamam(a):
         return 1
     m["kapanis"] = "%s · %s" % (
         _simdi(), _t(a.get("soz")) or "bekliyorum, tamam")
-    _kaydet(kayit)
     print("✓ %s el sıkışma KAPANDI: %s" % (no, m["kapanis"]))
-    _git(kayit, "TAHTA %s KAPANIS" % no, m["kapanis"])
+    a["_git"] = ("TAHTA %s KAPANIS" % no, m["kapanis"])
+    return 0
+
+
+def tamam(a):
+    """Önce SUNUCU (TAHTA-WEB-1004); ulaşılamazsa beyanlı YEREL düşüş."""
+    _kuyruk_bosalt()
+    g = {k: a.get(k) for k in ("no", "kim", "soz", "kimlik")}
+    g["eylem"] = "tamam"
+    r, sebep = _istek("POST", "/tahta/islem", g)
+    if r is not None:
+        for s in r.get("cikti") or []:
+            print(s)
+        if not r.get("cikti") and not r.get("tamam"):
+            print("🔴 SUNUCU REDDETTİ: %s" % r.get("sebep", "?"))
+        return 0 if r.get("tamam") else (r.get("kod") or 2)
+    _dusus_uyar(sebep)
+    with _Kilit(VERI):
+        kayit = _yukle()
+        kod = _tamam_uygula(kayit, a)
+        if kod:
+            return kod
+        _kaydet(kayit)
+    if _izleniyor():
+        baslik, govde = a["_git"]
+        _git(kayit, baslik, govde)
     return 0
 
 
 def teyitsiz(a):
     """🔴 KANAL ÖLÇÜMÜ — teyit dönmemiş mesajlar. Sessizliğin SAYISI."""
-    kayit = _yukle()
+    kayit = _kayit_getir()
     kim = (a.get("kim") or "").strip().upper()
     hedef = [m for m in kayit if m["hal"] != "KAPANDI"]
     if kim:
@@ -1186,17 +1531,40 @@ def teyitsiz(a):
     return 0
 
 
-def kapat(a):
-    kayit = _yukle()
+def _kapat_uygula(kayit, a):
     no = (a.get("no") or "").upper()
     m = next((x for x in kayit if x["no"] == no), None)
     if m is None:
         print("🔴 %s diye bir mesaj YOK." % no)
         return 2
     m["hal"] = "KAPANDI"
-    _kaydet(kayit)
     print("%s KAPANDI (kapatan: %s)" % (no, a.get("kim") or "?"))
-    _git(kayit, "TAHTA %s KAPANDI" % no, "kapatan: %s" % (a.get("kim") or "?"))
+    a["_git"] = ("TAHTA %s KAPANDI" % no, "kapatan: %s" % (a.get("kim") or "?"))
+    return 0
+
+
+def kapat(a):
+    """Önce SUNUCU (TAHTA-WEB-1004); ulaşılamazsa beyanlı YEREL düşüş."""
+    _kuyruk_bosalt()
+    g = {k: a.get(k) for k in ("no", "kim", "soz", "kimlik")}
+    g["eylem"] = "kapat"
+    r, sebep = _istek("POST", "/tahta/islem", g)
+    if r is not None:
+        for s in r.get("cikti") or []:
+            print(s)
+        if not r.get("cikti") and not r.get("tamam"):
+            print("🔴 SUNUCU REDDETTİ: %s" % r.get("sebep", "?"))
+        return 0 if r.get("tamam") else (r.get("kod") or 2)
+    _dusus_uyar(sebep)
+    with _Kilit(VERI):
+        kayit = _yukle()
+        kod = _kapat_uygula(kayit, a)
+        if kod:
+            return kod
+        _kaydet(kayit)
+    if _izleniyor():
+        baslik, govde = a["_git"]
+        _git(kayit, baslik, govde)
     return 0
 
 
