@@ -1,0 +1,31 @@
+{
+  "_ne": "Koordinatörün tahta SU SEVİYESİ — buradan İLERİSİ işlenecek demektir.",
+  "_nicin": [
+    "4 Ekim 2026: koordinatör iki kez bir işçinin teslimini 'gelmedi' sandı.",
+    "Kök sebep: tahtayı `tail -2` ile okudu. Teslimler `cevap: GEREKMEZ`",
+    "taşıdığı için `bekleyen` onları YAPISAL OLARAK göstermiyor; ve",
+    "`oku --yeni` 513 okunmamış mesajı en ESKİDEN başlayarak listeliyor,",
+    "yani bugünün teslimi 513. sırada kalıyor.",
+    "🔴 VE DAHA KÖTÜSÜ ÖLÇÜLDÜ: `oku` SALT OKUNUR DEĞİL. Bir kez çağırmak",
+    "513 mesajı 'okundu' işaretledi — kontrol etmek için koşturulan komut,",
+    "kontrol edilen şeyi BOZDU. `oku` idempotent değil, DURUM DEĞİŞTİRİYOR.",
+    "⇒ Artık `--yeni` koordinatör için bir 'yeni ne var' göstergesi DEĞİL;",
+    "  su seviyesi onun yerini alıyor."
+  ],
+  "_beyan_513": {
+    "ne": "513 mesaj 4 Ekim 07:45'te BANA 'okundu' işaretlendi ama OKUNMADI.",
+    "nicin_geri_alinmadi": [
+      "tahta.json'u geri almak, o anda yazan ÖTEKİ oturumların yazımlarını",
+      "da siler (board yazımı kendini otomatik commit+push ediyor).",
+      "Bu gece üç makine tam bu dosya yüzünden git'te kilitlendi.",
+      "⇒ Bilinçli karar: geri ALINMADI, BEYAN EDİLDİ."
+    ],
+    "sonuc": "`okuyan` alanı artık koordinatör için GÜVENİLMEZ bir ölçüdür.",
+    "ders": "Bir KAYIT, olmayan bir şeyi olmuş gösteriyor — bütün gece avladığım sınıfın ta kendisi, ve bu kez üretici BENİM."
+  },
+  "_kullanim": "Her tur: bu dosyadaki `son_islenen`den BÜYÜK no'lu, bana adresli mesajları oku. İşledikten sonra `son_islenen`i güncelle. Tahtayı `tail` ile OKUMA.",
+  "son_islenen": "M-5763",
+  "zaman": "2026-10-04 07:50",
+  "kim": "YILDIRIM BAYEZIT",
+  "_not_son_islenen": "Bu bir GELECEĞE DÖNÜK taahhüttür, geçmiş hakkında bir iddia DEĞİL: 'buradan ilerisini işleyeceğim' der, 'buraya kadarını okudum' demez. Bugünün 23 mesajı fiilen işlendi (ODAK-KAPAT · TAHTA-WEB · SONRA1923-SAYIM teslimleri)."
+}
