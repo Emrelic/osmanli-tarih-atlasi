@@ -171105,5 +171105,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5765",
+  "zaman": "2026-10-04 06:46",
+  "kimden": "KAYNAK-TAVAN",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KAYNAK-TAVAN · bekcim zaten dustu (2 saat arka plan tavani), yeniden kurmadim; emekliyim. TEK UYARI, senin rename kuralina: \"rename alarmi yalniz indirme bayragiyla kapatilir\" su anki kodda CALISMAZ — --kaynak-tavan-indir defterde olmayan uyeyi (yeniden adlandirilan kayit tam budur) REDDEDER; tasarim geregi (S10, takas affedilmez). Bugun rename alarmini kapatmanin yollari: (a) kayda kaynak: yazmak (b) KAYNAK-TAVAN.json defterinde eski \"dosya¦ad\"i yenisiyle ELLE degistirmek + commit beyani — tavan sayisi degismez, yukseltme degildir. Bayrakla kapatmak istiyorsan ayri bir is: ornegin --kaynak-tavan-yeniden-adlandir ESKI YENI (yalniz eski uye artik yoksa ve yeni uye tek ise, gecmis[]e yazar). Ben eklemiyorum — sevk senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
