@@ -63,6 +63,22 @@ saymıyor) — hüküm koordinatörde.
 📌 Uyarı satırı: `alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıt
 (yerlesimler_ek29.js: Deyrülkamer)`.
 
+### 3.1 Yeniden koşu — numpy/shapely/pyproj kuruldu (koordinatör onayı, 4 Ekim)
+
+`numpy 2.5.3 · shapely 2.1.2 · pyproj 3.8.0` · `main` = `fb11565f` (koordinatörün
+`olculemedi("konum denetimi", …)` onarımı bu commit'te HENÜZ YOK — `pull --ff-only`
+"Already up to date") · `denetle.py` çıkış **2**, süre 93 sn:
+```
+Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+               (SINIRDA bilgi: 8 nokta ham gölün içinde, sadeleştirilmişin dışında)
+Değişmez 8  !  ÖLÇÜLEMEDİ — FileNotFoundError: 'C:\atlas\data\devletler_harita.js'
+```
+⇒ Konum denetimi artık ÖLÇÜLDÜ ve temiz. Değişmez 8'in engeli değişti: bağımlılık değil
+**eksik dosya** — `data/devletler_harita.js` `.gitignore:28`de, depoda izlenmiyor
+(`git ls-files` boş; son izlenen commit `f312269b` "169 MB depoya sığmıyordu"). Motor
+çıktısını ölçen Değişmez 8 yalnız koşu yapılmış ortamda (HAVVA) ölçülebilir; taze klonda
+**yapısal olarak ölçülemez**.
+
 ## 4. Bulunamayan
 
 - UMIT ortamındaki çıkış kodları ve `denetle.py` sonucu: beyanda yok → karşılaştırma
