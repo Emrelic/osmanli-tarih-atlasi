@@ -160,6 +160,21 @@ Dedim: *"rename kaynaklı alarm yalnız indirme bayrağıyla kapatılır."* KAYN
 (c) YENİ BAYRAK  şimdi YOK. Sıklığı ölçülmeden alet yazılmaz.
 ```
 
+### B11 · 3 MÜKERRER MADDE — **SİLMEDİM**, ve sebebi bir tuzak
+Silmeye gittim, ölçtüm, durdum. İki şey çıktı:
+
+**① Sistematik kopya DEĞİL — öngörüm çürüdü.** Üç vakanın üçünde de aynı iki dosya çıkıyordu; "biri ötekinden kopyalanmış" sandım. Ölçüm: `kronoloji_sinir_turkiye.js` **13** madde · `olaylar_p0917taraf.js` **7** madde · **ortak yalnız 3**. İki dosya konu olarak ayrı (Türkiye sınırları ↔ Kuzey Afrika düzenlemeleri). KASA'nın "3" sayısı **tam** doğruydu.
+
+**② 🔴 VE "GEREKSİZ GÖRÜNEN KOPYA" KAPININ UMURSADIĞI OLANDI:**
+```
+CLAUDE.md §5:
+  data/olaylar*.js    kronoloji ÇEKİRDEĞİ (Değişmez 2 EVRENİ)
+  data/kronoloji*.js  kronoloji KUYRUĞU (canlı ama Değişmez 2 evreninde DEĞİL)
+```
+Üç mükerrerin biri `olaylar_p0917taraf.js`te (çekirdek), biri `kronoloji_sinir_turkiye.js`te (kuyruk). **Tematik olarak** üçü de Türkiye sınırı konusu ⇒ "kuyruktakini tut, çekirdektekini sil" demek doğal görünüyordu. **Yanlış olurdu:** silinen kopya Değişmez 2 evreninden çıkar ve bir kırılmayı kapatıyorsa senkron **sessizce** bozulur — kuyruktaki kopya onun yerine GEÇMEZ.
+⇒ Doğru yön tersi: **kuyruktaki silinir, çekirdektekine dokunulmaz.** Ama bunu uygulamadan önce o üç maddenin fiilen bir kırılma kapatıp kapatmadığı ölçülmeli (şu an `Değişmez 2 ✓ 621 kırılma, 0 açık`).
+📌 **Ve üçü AYNI ZAMANDA imza-yeri kusuru:** `yer_id` = İstanbul · İstanbul · Sofya, yani **imza yeri**. 1913-11-17'nin `kronoloji_sinir_komsu.js`teki kardeşi `yer_id: Kasr-ı Şîrîn` — **doğru uygulama**. Yani iki kusur sınıfı aynı üç kayıtta kesişiyor ve yanlış kopyayı silmek **doğru odaklı olanı** silmek olabilirdi.
+
 ---
 
 ## ⚪ C · KARAR GEREKTİRMEYEN — bende, sırada
@@ -171,7 +186,7 @@ Dedim: *"rename kaynaklı alarm yalnız indirme bayrağıyla kapatılır."* KAYN
 | **57 imza yeri** `yer_id`si + **133 `yer_id`siz antlaşma maddesi** (93'ünde `kapsam_genis` de yok) | 190 | hüküm verildi: `yer_id` = ETKİLENEN TOPRAK, imza yeri değil (§1'in amacı) |
 | **C 56 izinsiz devralma** | 56 | hüküm verildi (`HUKUM-DEVRALMA-1004.md`); çare **koşuya bağlı** |
 | **1969 kaynaksız kayıt** | 1969 | kampanya DEĞİL, **tavan** geliyor (KAYNAK-TAVAN çalışıyor) |
-| 3 mükerrer madde çifti | 3 | bende |
+| 3 mükerrer madde çifti | 3 | 🔴 **ÖLÇÜLDÜ, SİLİNMEDİ** — aşağıda B11 |
 | Akçakale kaynaksızlığı · Vikipedi dayanağı (1538→1536) | 2 | bende |
 
 ---
