@@ -43,7 +43,7 @@ for(const f of adlar){
     const o={};
     for(const k of Object.keys(ctx.window)){
       if(/^(OLAYLAR|KRONOLOJI)(_|$)/.test(k)&&Array.isArray(ctx.window[k])){
-        o[k]=ctx.window[k].map(m=>({t:m.t,b:m.b,tur:m.tur,d:m.d,gun:m.gun,
+        o[k]=ctx.window[k].map(m=>({t:m.t,b:m.b,tur:m.tur,d:m.d,gun:m.gun,yer_id:m.yer_id,yer:m.yer,k:m.k,etiket:m.etiket,
           taraflar:m.taraflar,devletler:m.devletler,devlet:m.devlet,odak_kimlik:m.odak_kimlik}));
       }
     }
@@ -99,6 +99,28 @@ def kunyeleri_oku(kok):
     if len(set(ids)) != len(ids):
         raise Olculemedi("künye id'leri tekil değil")
     return D
+
+
+def yerlesimleri_oku(kok):
+    """`girdi.yukle()` — yerleşim kayıtlarının TAMAMI (s:/d:/v:/isg: zincirleriyle).
+    girdi.py DONUK dosyadır; yalnız ÇAĞRILIR, değiştirilmez. Okunamazsa Olculemedi."""
+    import contextlib
+    sys.path.insert(0, os.path.join(KOK_VARSAYILAN, "arac"))
+    try:
+        import girdi
+    except Exception as e:                      # noqa
+        raise Olculemedi("girdi.py içe alınamadı: %s" % e)
+    girdi.DATA = os.path.join(kok, "data")
+    try:
+        with contextlib.redirect_stdout(io.StringIO()):
+            Y = girdi.yukle(sessiz=True)
+    except SystemExit as e:
+        raise Olculemedi("yerleşimler okunamadı: %s" % e)
+    except Exception as e:                      # noqa
+        raise Olculemedi("yerleşimler okunamadı: %s: %s" % (type(e).__name__, e))
+    if not Y:
+        raise Olculemedi("0 yerleşim döndü — sessiz sıfır yasak")
+    return Y
 
 
 def _node_calistir(kok):
@@ -165,6 +187,11 @@ def yukle(kok):
                                  "t": m.get("t"), "b": m.get("b") or "",
                                  "d": m.get("d") if isinstance(m.get("d"), str) else "",
                                  "gun": m.get("gun") if isinstance(m.get("gun"), str) else "",
+                                 "yer_id": m.get("yer_id") if isinstance(m.get("yer_id"), str) else "",
+                                 "k": m.get("k") if isinstance(m.get("k"), str) else "",
+                                 "etiket": [str(x).strip() for x in (m.get("etiket") if isinstance(m.get("etiket"), list)
+                                                                      else str(m.get("etiket") or "").split(","))
+                                            if str(x).strip()],
                                  "varlik": varlik, "anilan": varlik | odak})
     if not maddeler:
         raise Olculemedi("0 madde yüklendi — sessiz sıfır yasak")
