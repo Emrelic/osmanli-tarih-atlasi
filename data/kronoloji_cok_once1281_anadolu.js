@@ -845,7 +845,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1108-01-01",
   tur:"tabi",
-  b:"Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı", yer_id:"Antakya",
+  b:"Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı",
   gun:"1108 (TDV yıl verir)",
   yer:"Durrës",
   kisiler:"Bohemund, I. Aleksios Komnenos",
@@ -1391,7 +1391,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1151-01-01",
   tur:"fetih",
-  b:"Urfa kontluğunun Bizans'a satılan son toprakları Türkler arasında paylaşıldı", yer_id:"Urfa",
+  b:"Urfa kontluğunun Bizans'a satılan son toprakları Türkler arasında paylaşıldı",
   gun:"1151 (TDV yıl verir)",
   yer:"Tilbaşar",
   kisiler:"Nûreddin Mahmud Zengî, Mesud, Timurtaş",
@@ -2351,7 +2351,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
 
 { t:"1254-11-03",
   tur:"hukumdar",
-  b:"III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti", yer_id:"İznik",
+  b:"III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti",
   gun:"3 Kasım 1254",
   yer:"Kemalpaşa (Nymphaion)",
   kisiler:"III. İoannis Vatatzis, II. Theodoros Laskaris",
