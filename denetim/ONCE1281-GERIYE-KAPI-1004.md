@@ -104,5 +104,76 @@ değildi" (ör. `ilhanli` yerine `cagatay`, `altinorda` yerine `novgorod`) sın�
 | ters yön 0 | 0 | ✅ |
 | ÖNGÖRÜLMEYEN | aynı 4 kayıtta + Fort Yukon'da `kanada` Alaska'yı 1867-1923 boyuyor | |
 
-## A. Ölçüm
-(aşağıda)
+## A. Ölçüm — "ezelden beri var" kapısı
+
+**Kim yaptı:** iki araştırma alt ajanı (bu oturumun, Opus; WebFetch YOK — `curl`/`urllib` ile ham
+metin, akademik özetler Europe PMC / OpenAlex'ten) — Kuzey Amerika + Taino 113 · Afrika 81.
+Nokta başına sonuç, alıntı ve URL: **[`ONCE1281-GERIYE-KAPI-1004-kur-onerileri.json`](ONCE1281-GERIYE-KAPI-1004-kur-onerileri.json)**
+(194 kayıt, girdiyle aynı sıra; alanlar `ad · kova · oneri_kur · kaynak · alinti · not · tabaka`).
+**Benim doğrulamam (örneklem, kaynağı kendim açtım):** Kittigazuit — Parks Canada *"…between
+1400 and 1900."* ✅ · Moundville — Encyclopedia of Alabama *"founded around 1120"* ✅ · Lokoja —
+Britannica *"in 1860 … William Balfour Baikie founded Lokoja."* ✅ · Hall Beach — Canadian
+Encyclopedia 403 verdi, **açamadım** (⚪). 3/3 açılan tuttu; 191'i açmadım.
+
+### A.1 — SONUÇ
+
+| kova | Amerika | Afrika | **toplam** |
+|---|---|---|---|
+| 🟢 KAYNAKLI `kur:` (yıl ya da daha dar) | 7 | 6 | **13** |
+| 🟡 KABA `kur:` (yüzyıl/dönem) | 29 | 16 | **45** |
+| ⚪ KAPSAM DIŞI (`bulunamadı`) | 77 | 59 | **136** |
+
+🔴 **Koordinatörün istediği tek sayı: 194'ün 58'ine kaynaklı ya da kaba bir `kur:` yazılabilir;
+136'sı kapsam dışı beyanı olacak.**
+
+Ama 58'in YÖNÜ ikiye ayrılıyor ve bu ayrım kampanyadan daha önemli:
+
+| yön | nokta | ne demek |
+|---|---|---|
+| **`kur` < 1281** — nokta 1281'den önce de var | **17** (Amerika 16 · Afrika 1) | geriye açmaya HAZIR: Utqiaġvik ~1000 · Iglulik −2000 · Sanirajak ~1200 · Tikiġaq ~300 · Wales 770 · Kinngait ~1000 · Native Point ~1250 · SG̱ang Gwaay ~100 · Yuquot −2300 · Celilo −9000 · Spiro 800 · Zuni 700 · Etowah 1100 · Moundville 1120 · Ocmulgee 900 · Mound Key 500 · Pangani ~600 |
+| **`kur` > 1281** — kaynak noktayı 1281'den SONRA kuruyor | **41** (Amerika 20 · Afrika 21) | 🔴 **BUGÜNKÜ HARİTA YANLIŞ:** atlas bunları 1281'den beri çiziyor. Ör. Lokoja 1860 · Makurdi ~1927 · Mutare 1890 · Butterworth 1827 · Onitsha 17. yy · Lagos ~1467 (KABA, Britannica "late 15th c.") · Kittigazuit 1400 · Knife River 1525 · Clyde River 1924 · Cambridge Bay 1921 · Gjoa Haven 1927 · Anaktuvuk 1949 … |
+
+### A.2 — Üç önemli düzeltme / uyarı
+
+1. **41 "sonra kurulmuş" nokta 1281 kampanyasının değil BUGÜNÜN kusurudur.** `kur:` yazılırsa
+   motor 1281 → `kur` arası bu noktaların peteğini KOMŞUYA DEVREDER (`devir_kumesi`: `kur > g` VE
+   `_sahipli`, `uret_petek.py:4937-4940`) ⇒ **delik açılmaz** (alt ajan "petek deliği açılır" dedi
+   — koda göre YANLIŞ; noktalar 1281'den sahipli olduğu için devir koşulu sağlanır). Ama bugünkü
+   çıktı DEĞİŞİR ⇒ veri koşusu ister. Ayrıca bir **modelleme kararı** var: Arktik köylerinin çoğu
+   (Clyde River, Gjoa Haven, Arviat …) bir HALKI temsil eden çapa noktası olarak konmuş; köyün
+   1920'lerde kurulması, o halkın bölgede olmadığı anlamına gelmez. `kur` yazılırsa çapa
+   kaybolur ve bölge komşu çapaya düşer. Karar koordinatörün/Emre'nin.
+2. **17 "önce" noktanın 3'ü MÖ** (Iglulik −2000, Yuquot −2300, Celilo −9000): `MOTOR-UFUK` §1.2
+   — dizgi karşılaştırması MÖ'de sırayı tersine çeviriyor ⇒ motor yaması (MOTOR-LEGO kuyruğu)
+   inmeden YAZILMAMALI. 0–999 arası 7 değer (`0100`, `0300`, `0500`, `0601`, `0700`, `0770`,
+   `0800`, `0900`) sıfırla doldurulmuş — güvenli.
+3. **KABA dönüşümü bir varsayım:** Afrika ajanı "early X. yy" → X01, "mid" → X34, "late" → X67
+   kuralı kullandı (her kaydın `not`'unda yazılı). §4 "kaynağın desteklediği en kaba güvenli
+   düzey" der; yüzyıl için `X01-01-01` savunulabilir, "mid/late" sayıları ise TÜRETİLMİŞ sayıdır —
+   yazmadan önce koordinatör kuralı onaylamalı.
+
+### A.3 — Alt ajanların bildirdiği yan bulgular (doğrulamadım, aday)
+- **Hayalet/yanlış sahip adayı:** Tehuantepec `zapotek-krallik` 1281'den — Ancient Mesoamerica
+  (2024): Zapotek akını ~1350/1370, başkent 1440. Tsegi (Canyon de Chelly) `navaho` 1281'den — NPS:
+  Pueblolular kanyonu 1300'lerin ortasında terk etti. Lagos `benin-kralligi` 1281'den — Britannica:
+  Benin hâkimiyeti "from the late 16th century".
+- **Zayıf KABA'lar:** Zuni 700 (UNM sayfası turizm kaynağına dayanıyor) · Kinngait (tarih yanındaki
+  Mallikjuaq Adası'nın) · Bobo-Diulasso (yalnız sözlü gelenek) · Klukwan ("over 300 years ago",
+  yerel müze). Kullanmadan önce bakılmalı.
+- **Okunamayan kaynaklar** (bot engeli): SAH Archipedia, ScienceDirect, Wiley, NOAA Alaska
+  profilleri, Oxford Reference, Pawlowicz 2012 (Mikindani) — "yok" DEĞİL, "okunamadı".
+
+### A.4 — Öngörü × ölçüm
+| öngörü | ölçüm | |
+|---|---|---|
+| 🟢+🟡 ~30 / 194 | **58** | ❌ az tahmin |
+| Afrika'da oran yüksek, İnuit/Dene'de çok düşük | Afrika 22/81 (%27) · Amerika 36/113 (%32) | ❌ — Amerika'da arkeolojik alanlar (Mississippi höyükleri, Arktik NHS'ler) çok iyi tarihli |
+| ÖNGÖRÜLMEYEN | 58'in 41'i 1281'den SONRA kuruluş ⇒ bugünkü harita yanlış | |
+
+## Sonuç — iki kapının ikisi de ölçüldü
+
+- **A:** 194'ün **58**'ine `kur:` yazılabilir (13 kaynaklı + 45 kaba); **136** kapsam dışı beyan.
+  58'in **17**'si geriye açmaya hazır (3'ü MÖ yamasını bekler), **41**'i bugünkü haritanın
+  kusurudur (1281'den beri çiziliyor, sonra kurulmuş).
+- **B:** kıta aşan "yeri yanlış" nokta **5** (4 Alaska + Natashquan) + aynı sınıfın 1867 yüzü
+  **5** (Alaska'da `kanada`, Fort Yukon dahil). İnce sınıf (aynı kıtada komşu devlet) ölçülemedi.
