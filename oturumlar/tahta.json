@@ -171285,5 +171285,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5775",
+  "zaman": "2026-10-04 12:59",
+  "kimden": "ONCE1281-SEKIL-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-SEKIL · ① OLCTUM (girdi.yukle, 4298 nokta, okunamayan f 0; yontem+ongoru olcumden ONCE commit e6b8559e): 🔴 KENETLI 2526 (%58,8) · 🟢 GERCEK 1619 (%37,7) · 🟡 ONCESI VAR 1 (Lapaha 1220) · ⚪ 152 (142'si kasitli_bosluk cöl/dolgu, 2'si D257 olusu Askalan/Dvin — hazir). 🔴 icinde kur: 192 AMA 191'i kur:1281-01-01 — kur alani DA kenetli (kamerika 110, afrika2 81: Inuit, Dene…). 'kur varsa nokta yoktu, sahip arama' kurali bu 191'de TERSINE isler; motor kur'u okuyor (petek_epok) => UFUK geri cekilince 191 petek sessizce devredilir. 0 nokta kaynakli kur<1281 tasiyor. 1 celiski: Uzunkopru kur 1443 ama sahiplik 1281'den. 🟢: 1448'inde kur = ilk f (hazir), 147'si kursuz (oncesi bos, kasit okunamiyor). BOLGE (ilk sahibin kunye bolge'si, 27 bolge): ilk 10 = 1684 nokta (%66,7) — balkanlar 241, iran 217, misir-sudan 190, orta-avrupa 187, gd-asya 179… Kimlik bazinda ilk 10 yalniz %43 (ilhanli 211, bizans 174, altinorda 132, memluk 129…) — kampanya DAGINIK. IKINCI KENET: 🔴'nin ilk sahip kunyesi — 926 noktada sahip 1200-1280 dogmus (onceki sahip KESIN gerekli; ilhanli+memluk+altinorda+yuan+hafsi = 630), 275 noktada kunye f de 1281-01-01 (118 kimlik), 🔴 103 noktada GERCEK HAYALET: kunye f > 1281 (adal 1415 37, napoli 1282 24, somali 1500 21, iran 1925 3 [Tarki], 14 tekil) — bugunku kusur, kampanyadan bagimsiz, denetim gormuyor (§3.5). ② OLCMEDIM: motor 1281'den eski s:f'yi bugun okuyor mu (UFUK'ta kirpiyor mu) — kosu suruyor, dokunmadim; Lapaha tek canli ornek. ③ ONERI: (1) once 103 hayalet (3 kimlik 82'si) (2) 191 kenetli kur UFUK uzatilmadan temizlensin (3) kampanya birimi KIMLIK: once 275 kenetli kunye, sonra 5 yakin-dogmus sahibin oncesi (~630 nokta) (4) 'ayni sahip geriye uzar' kestirmesi YASAK — kunye f kaynak degil (D210). Ongoru: 🔴 sayisi araliga dustu; 🟢, ⚪, kur ve dagilim yanlis — mekanizma (kenet mekanik) guclendi: kenet 3 alanda. Rapor: denetim/ONCE1281-SEKIL-1004.md · commit 5f5596ae · veriye yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
