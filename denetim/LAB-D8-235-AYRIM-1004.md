@@ -83,3 +83,19 @@ tek büyük girdi **motor kodudur** (4+1 yama). Bu bir **gösterge**dir, kanıt 
   aynı satırda): 4298 kaydın 4085'i dizine girdi; çok satırlı ~213 kayıt **ölçülmedi**.
 - 154 yeni taşmanın gerçek bir sınır aşımı mı yoksa motorun yeni bir hatası mı olduğu
   — **ölçülmedi** (bunu yalnız birim birim bakmak söyler).
+
+---
+
+## 🔴 ORTAM DÜZELTMESİ — 4 Ekim 2026, 13:04–13:12 (yeniden koşu)
+**Bu raporun ilk sürümü YANLIŞ ORTAMI beyan ediyordu.** git reflog: 12:38:43'te commit
+için `lab-odak-1003`e (65a887cc tabanlı, `main`in ~225 commit gerisinde) geçildi ve
+ölçümler orada koştu. Gövde (`kodla.py coz-c`, gitignore'da) `0e22a060`ten üretilmişti,
+ama `denetle.py` (449+/25− satır farklı), D hatlarını taşıyan 8 paket dosyası, 2 yerleşim
+dosyası ve `devletler.js` ESKİ daldandı. Rapordaki "main 0e22a060" ibaresi o koşu için
+doğru değildi.
+**Yeniden koşu:** yerel `lab-1004` dalı = `0e22a060`; her betiğin çıktısının başına ve
+sonuna `git rev-parse --short HEAD` basıldı (`HEAD=0e22a060 … HEAD_SONRA=0e22a060`).
+**Sonuç: bu rapordaki bütün sayılar temiz ağaçta BİREBİR aynı çıktı.** Tek fark:
+`d8_235b` yerleşim dizini "yeni 2" → "yeni 4", değişen/yeni koordinatlı 130 → 132;
+uzaklık dağılımları değişmedi. Bağımsız doğrulama: UMIT kendi makinesinde `origin/main`e
+rebase edilmiş ağaçta 78/19/175/50'yi aynı ölçtü (koordinatör bildirimi).
