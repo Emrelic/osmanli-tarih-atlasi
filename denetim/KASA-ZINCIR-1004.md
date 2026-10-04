@@ -4,7 +4,23 @@ KASA · 4 Ekim 2026 · koordinatör YILDIRIM BAYEZIT'in talebi · önceki iş: `
 Okuyucu `girdi.yukle()` · araç `denetim/ARAC-KASA-ZINCIR-1004.py` · ham çıktı `denetim/KASA-ZINCIR-1004.json`
 **100 kaydın `kaynak:` metni tek tek ELLE okundu.** Komşu adları ve devralınan alan elle yazıldı; regex yalnız ad eşleştirmede kullanıldı. **Düzeltme YAZILMADI.**
 
-## HÜKÜM (ölçtüm)
+## GÜNCELLEME — keskin ölçüt (koordinatörün 4 Ekim düzeltmesinden sonra)
+Soru her satırda: **"Komşunun devralınan bilgisi, komşunun KENDİ kaynağına dayanıyor mu?"** Derinlik yazılı ama hükmü bu soru veriyor.
+📌 69 gerçek devralmanın **69'u da BEYANLI**: hepsi neyi, kimden aldığını kendi `kaynak:` alanında yazıyor. "Karanlık" (beyansız) devralma bu kümede yok. O sınıf `KASA-KAYNAKSIZ-1004`'teki 1969'da duruyor ve bu 69 onun içinde değil.
+
+| kova | sayı | anlamı |
+|---|--:|---|
+| **A · BEYANLI-ŞARTLI (izinli)** | **9** | GÜN devralması. Komşunun günü kendi kaynağına dayanıyor (5: Braslav, Chenzhou, Garapan, Kragujevac, Çaçak), ya da gün kaynağı kaydın kendisinde doğrudan yazılı (4: Başkale, Çaldıran, Şeyhrumi ←TDV `van`; Gümülcine ←Londra) |
+| **B · BEYANLI ama 1. ŞART DÜŞÜYOR** | **2** | GÜN devralması, komşunun günü kaynaksız: Dimetoka, Ferecik (←Sofulu/Dedeağaç, ikisi de boş) |
+| **C · BEYANLI ama DEVLET/YIL** | **52** | Komşudan gün değil dönem zinciri (devlet ve/veya yıl) alınmış. §4/`D210` gereği izinsiz sınıf. Komşunun bilgisi kendi kaynağına: **HAYIR 31** · BELİRSİZ 16 · EVET 5 |
+| **D · ŞÜPHELİ** | **6** | Ba'lebek, Sûr (←Şam, kaynağı yalnız 1920) · Drama (komşuların kaynağı yalnız slug) · Niş (komşu adı yok) · Filorina (karışık) · Vanimo (600 km) |
+
+🔴 **`sinir_*` sınır şeridi kayıtları için ayrım (koordinatörün ③ maddesi):** Bunlar beyanlı ve titiz kayıtlar: GeoNames konumu, akademik sınır kaynağı, beyanlı komşu, "ARAŞTIRILMADI" itirafı. Ama devralınan şey yalnız 1918/1921 kırılma GÜNÜ değil. Metin "dönemler en yakın kayıttan BİREBİR" diyor; yani 1281'den itibaren **devlet zinciri** de komşudan geliyor (Jadlā': 1281 `memluk` ←Akçakale). Bu yüzden C kovasına yazdım, A'ya değil.
+- Yalnız kırılma günü ölçülseydi bir kısmı A'ya düşerdi: Mercihamis ←Birecik ve Tirwānīsh ←İmâdiye'nin komşu kaynağı var.
+- Jadlā''nın 1918-10-30 günü için komşu Akçakale'nin kaynağı "bulunamadı … KAYNAKSIZ" ⇒ koordinatörün tespit ettiği gibi 1. şart düşüyor. 1281 zinciri için de Akçakale'nin kaynak alanı hiç yok.
+- **İstiyorum:** C içindeki 28 `sinir_*` kaydı için hüküm. "Dönem zinciri de §4 kapsamında beyanlı devralınabilir" (proje kararı) mı, yoksa "yalnız gün" (`D210`) mi? Kova sayıları bu karara göre değişir. A'ya en çok 2 kayıt geçer; ötekilerin komşusu kaynaksız ya da zayıf.
+
+## İLK HÜKÜM (ölçtüm — kovalar yukarıda keskinleştirildi)
 1. **100 "devralma ibaresi"nin 31'i komşudan devralma DEĞİL:**
    - 21 KADEME: `yer_yama_kademe.js`'ten `k:`/`m:` devralması, `s:` ile ilgisiz.
    - 5 KÜNYE: Agadez, Bayburt, Dera Gazi Han, Dera İsmail Han, Whanganui. Pencere ya da gün `devletler.js` künyesinden alınmış; kayıtta beyanlı konvansiyon.
@@ -42,76 +58,76 @@ Okuyucu `girdi.yukle()` · araç `denetim/ARAC-KASA-ZINCIR-1004.py` · ham çık
 - Hüküm: 27 "boşluktan beslenen" DEVLET/YIL kaydına toplu `bulunamadı` beyanı mı, yoksa önce 29 BOŞ uç kaydın (en çok besleyen Sivas/Van/Kayseri/Sofulu) beyan borcu mu?
 - `sinir_*` dosyalarındaki etiket–içerik uyuşmazlığı için hüküm (etiket mi düzelir, iddia mı kalkar).
 
-## TABLO — 69 gerçek devralma (önce DEVLET/YIL, sonra GÜN; içinde ağırlık sırası)
-| ad | dosya | derinlik | devralınan | zincir (← dayandığı) | uç | öneri |
-|---|---|:-:|---|---|---|---|
-| Arapkir | yerlesimler.js | 2 | DEVLET/YIL | Arapkir ← Divriği ← Sivas<br>Arapkir ← Divriği ← Kayseri<br>Arapkir ← Sivas<br>Arapkir ← Malatya ← Sivas<br>Arapkir ← Malatya ← Kayseri | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Darende | ok110.js | 2 | DEVLET/YIL | Darende ← Malatya ← Sivas<br>Darende ← Malatya ← Kayseri | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Qaţţīnah | sinir_guney.js | 2 | DEVLET/YIL | Qaţţīnah ← Ceylanpınar ← Mardin<br>Qaţţīnah ← Rakka | 🔴 BOŞ, 🟠 zayıf — yalnız 1920 Meysalun günü | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Távri | sinir_kuzey.js | 2 | DEVLET/YIL | Távri ← Ferecik (Feres) ← Sofulu (Soufli)<br>Távri ← Ferecik (Feres) ← Dedeağaç (Alexandroupoli) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Bitlis | yerlesimler.js | 1 | DEVLET/YIL | Bitlis ← Van | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Ceylanpınar | ek25.js | 1 | DEVLET/YIL | Ceylanpınar ← Mardin | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Divriği | yerlesimler.js | 1 | YIL | Divriği ← Sivas<br>Divriği ← Kayseri | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Jadlā’ | sinir_guney.js | 1 | DEVLET/YIL | Jadlā’ ← Akçakale<br>Jadlā’ ← Ayn el-Arab (Kobani) | 🔴 BOŞ, 🟠 zayıf — yalnız 1920 Meysalun günü | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Karpuzlu (Yenikarpuzlu) | sinir_kuzey.js | 1 | DEVLET/YIL | Karpuzlu (Yenikarpuzlu) ← İpsala | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Kilise | sinir_guney.js | 1 | DEVLET/YIL | Kilise ← Çölemerik (Hakkâri) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Küfkaynapınarı (Azatlı) | sinir_kuzey.js | 1 | DEVLET/YIL | Küfkaynapınarı (Azatlı) ← Havsa | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Makhalak’auri | sinir_kuzey.js | 1 | DEVLET/YIL | Makhalak’auri ← Hulo (Acara) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Malak Dervent (Lalkovo) | sinir_kuzey.js | 1 | DEVLET/YIL | Malak Dervent (Lalkovo) ← Elhova (Elhovo) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Malatya | yerlesimler.js | 1 | YIL | Malatya ← Sivas<br>Malatya ← Kayseri | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Murska Sobota | a78_avrupa.js | 1 | DEVLET/YIL | Murska Sobota ← Kanije<br>Murska Sobota ← Varasd (Varaždin) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Murvaneti | sinir_kuzey.js | 1 | DEVLET/YIL | Murvaneti ← Batum | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Saylıca | sinir_kuzey.js | 1 | DEVLET/YIL | Saylıca ← Şavşat | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Stérna | sinir_kuzey.js | 1 | DEVLET/YIL | Stérna ← Orestiada (Kumçiftliği) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Sîva (Siwa) | p0043libya.js | 1 | DEVLET/YIL | Sîva (Siwa) ← Dâhile<br>Sîva (Siwa) ← Hârice (Vâhât)<br>Sîva (Siwa) ← Ferâfire<br>Sîva (Siwa) ← Bahriye (Bâvîtî) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Ts’q’altbila | sinir_kuzey.js | 1 | DEVLET/YIL | Ts’q’altbila ← Ahıska | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Uluköy (Akçadam) | sinir_kuzey.js | 1 | DEVLET/YIL | Uluköy (Akçadam) ← Uzunköprü | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Umur Fakih (Fakia) | sinir_kuzey.js | 1 | DEVLET/YIL | Umur Fakih (Fakia) ← Elhova (Elhovo) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Yüksekova (Gever) | ek26.js | 1 | DEVLET/YIL | Yüksekova (Gever) ← Çölemerik (Hakkâri) | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Zazalo | sinir_kuzey.js | 1 | DEVLET/YIL | Zazalo ← Ahıska | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Özalp (Saray) | ek26.js | 1 | DEVLET/YIL | Özalp (Saray) ← Van | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Şelon havzası (Soltsı) | a78_avrupa.js | 1 | DEVLET/YIL | Şelon havzası (Soltsı) ← Novgorod<br>Şelon havzası (Soltsı) ← Staraya Russa | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Şeyh Salû-yi Ulyâ | sinir_dogu.js | 1 | DEVLET/YIL | Şeyh Salû-yi Ulyâ ← Mâku<br>Şeyh Salû-yi Ulyâ ← Kotur | 🔴 BOŞ | İZİNSİZ + BOŞLUKTAN besleniyor → `bulunamadı` beyanı, zincir iddiası kalkar |
-| Beri | sinir_kuzey.js | 2 | DEVLET/YIL | Beri ← Iğdır ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Kliçatak (Suser) | sinir_kuzey.js | 2 | DEVLET/YIL | Kliçatak (Suser) ← Gümrü (Aleksandropol) ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Küçükperveli | sinir_kuzey.js | 2 | DEVLET/YIL | Küçükperveli ← Arpaçay (Akyaka) ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Norapat | sinir_kuzey.js | 2 | DEVLET/YIL | Norapat ← Eçmiyadzin ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Arpaçay (Akyaka) | ek26.js | 1 | DEVLET/YIL | Arpaçay (Akyaka) ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Babū | sinir_guney.js | 1 | DEVLET/YIL | Babū ← Nusaybin<br>Babū ← Malikiye (Derik) | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Balıklı | sinir_guney.js | 1 | DEVLET/YIL | Balıklı ← Şemdinli (Şemdinni) | 🟠 zayıf — GeoNames konum, tarih kaynağı değil | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Cibri (Güçlü) | sinir_guney.js | 1 | DEVLET/YIL | Cibri (Güçlü) ← Cizre | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Cumai (Birlikköy) | sinir_guney.js | 1 | DEVLET/YIL | Cumai (Birlikköy) ← Silopi | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Digor | ek26.js | 1 | DEVLET/YIL | Digor ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Eçmiyadzin | ek26.js | 1 | DEVLET/YIL | Eçmiyadzin ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Gümrü (Aleksandropol) | ek26.js | 1 | DEVLET/YIL | Gümrü (Aleksandropol) ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Gōrabī | sinir_guney.js | 1 | DEVLET/YIL | Gōrabī ← Şemdinli (Şemdinni)<br>Gōrabī ← Rewândiz | 🟢 kaynaklı, 🟠 zayıf — GeoNames konum, tarih kaynağı değil | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Iğdır | ek26.js | 1 | DEVLET/YIL | Iğdır ← Revan | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Lubnı | ok106.js | 1 | DEVLET/YIL | Lubnı ← Poltava | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Maykop (Çerkezya) | yerlesimler.js | 1 | DEVLET/YIL | Maykop (Çerkezya) ← Anapa | 🟡 yalnız dönem içi | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Sincan | sinir_guney.js | 1 | DEVLET/YIL | Sincan ← İskenderun | 🟠 zayıf — yalnız 1920 Meysalun günü | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Soçi (Sâşe) | yerlesimler.js | 1 | DEVLET/YIL | Soçi (Sâşe) ← Anapa | 🟡 yalnız dönem içi | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Tuapse | yerlesimler.js | 1 | DEVLET/YIL | Tuapse ← Anapa | 🟡 yalnız dönem içi | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Ḩīmū | sinir_guney.js | 1 | DEVLET/YIL | Ḩīmū ← Nusaybin<br>Ḩīmū ← Malikiye (Derik) | 🟠 zayıf — yalnız slug | İZİNSİZ, uç zayıf → beyan; ucun o dönemi kapsayan kaynağı ölçülmeli |
-| Berdiçev (Berdychiv) | ukrayna_0916.js | 1 | YIL | Berdiçev (Berdychiv) ← Jitomir (Zhytomyr) | 🟢 kaynaklı | İZİNSİZ ama uç kaynaklı → kendi kaynağı aranır ya da beyanlı borç |
-| Bosna Brod'u (Bosanski Brod) | ek29.js | 1 | YIL | Bosna Brod'u (Bosanski Brod) ← Bosna Dubiçası (Bosanska Dubica) | 🟢 kaynaklı | İZİNSİZ ama uç kaynaklı → kendi kaynağı aranır ya da beyanlı borç |
-| Jasenovaç (Jasenovac) | ek29.js | 1 | YIL | Jasenovaç (Jasenovac) ← Bosna Dubiçası (Bosanska Dubica) | 🟢 kaynaklı | İZİNSİZ ama uç kaynaklı → kendi kaynağı aranır ya da beyanlı borç |
-| Mercihamis (Yurtbağı) | sinir_guney.js | 1 | DEVLET/YIL | Mercihamis (Yurtbağı) ← Birecik | 🟢 kaynaklı | İZİNSİZ ama uç kaynaklı → kendi kaynağı aranır ya da beyanlı borç |
-| Tirwānīsh | sinir_guney.js | 1 | DEVLET/YIL | Tirwānīsh ← İmâdiye (Amêdî) | 🟢 kaynaklı | İZİNSİZ ama uç kaynaklı → kendi kaynağı aranır ya da beyanlı borç |
-| Başkale | ek26.js | 1 | GÜN | Başkale ← Van | 🔴 BOŞ | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Dimetoka | yerlesimler.js | 1 | GÜN | Dimetoka ← Sofulu (Soufli) | 🔴 BOŞ | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Ferecik (Feres) | yerlesimler.js | 1 | GÜN | Ferecik (Feres) ← Sofulu (Soufli)<br>Ferecik (Feres) ← Dedeağaç (Alexandroupoli) | 🔴 BOŞ | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Filorina (Florina) | a78_avrupa.js | 1 | GÜN | Filorina (Florina) ← Kesriye (Kastoria)<br>Filorina (Florina) ← Manastır<br>Filorina (Florina) ← Vodina (Edessa) | 🔴 BOŞ, 🟢 kaynaklı, 🟠 zayıf — yalnız slug | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Gümülcine | yerlesimler.js | 1 | GÜN | Gümülcine ← Sofulu (Soufli)<br>Gümülcine ← Dedeağaç (Alexandroupoli) | 🔴 BOŞ | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Vanimo | a78_okyanusya.js | 1 | GÜN | Vanimo ← Herbertshöhe (Kokopo) — Rabaul<br>Vanimo ← Madang | 🔴 BOŞ, 🟢 kaynaklı | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Çaldıran | ek26.js | 1 | GÜN | Çaldıran ← Van | 🔴 BOŞ | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Şeyhrumi (Yücelen) | sinir_dogu.js | 1 | GÜN | Şeyhrumi (Yücelen) ← Van | 🔴 BOŞ | GÜN şartı TUTMUYOR (komşunun günü kaynaksız) |
-| Ba'lebek (Baalbek) | ek29.js | 1 | GÜN | Ba'lebek (Baalbek) ← Şam | 🟠 zayıf — yalnız 1920 Meysalun günü | GÜN şartı ŞÜPHELİ (komşu kaynağı o günü kapsıyor mu ölçülmedi) |
-| Drama | yerlesimler.js | 1 | GÜN | Drama ← Kavala<br>Drama ← Praviște (Eleftheroupoli)<br>Drama ← Serez | 🟠 zayıf — yalnız slug | GÜN şartı ŞÜPHELİ (komşu kaynağı o günü kapsıyor mu ölçülmedi) |
-| Niş | yerlesimler.js | 1 | GÜN | Niş ← (adsız 'komşu kayıtlar') | ⚪ komşu adı yazılmamış | GÜN şartı ŞÜPHELİ (komşu kaynağı o günü kapsıyor mu ölçülmedi) |
-| Sûr (Tyre) — Lübnan | ek29.js | 1 | GÜN | Sûr (Tyre) — Lübnan ← Şam | 🟠 zayıf — yalnız 1920 Meysalun günü | GÜN şartı ŞÜPHELİ (komşu kaynağı o günü kapsıyor mu ölçülmedi) |
-| Braslav (Bratslav) | ukrayna_0916.js | 1 | GÜN | Braslav (Bratslav) ← Vinnitsa (Vinnytsia) | 🟢 kaynaklı | GÜN şartlı izne UYGUN görünüyor (yakınlık/aynı süreç ayrıca) |
-| Chenzhou (Hunan) | nokta_asya_0917.js | 1 | GÜN | Chenzhou (Hunan) ← Hengyang (Hengzhou) | 🟢 kaynaklı | GÜN şartlı izne UYGUN görünüyor (yakınlık/aynı süreç ayrıca) |
-| Garapan (Saipan) | a78_okyanusya.js | 1 | GÜN | Garapan (Saipan) ← Hagåtña (Agaña) | 🟢 kaynaklı | GÜN şartlı izne UYGUN görünüyor (yakınlık/aynı süreç ayrıca) |
-| Kragujevac | yerlesimler.js | 1 | GÜN | Kragujevac ← Niş<br>Kragujevac ← Vidin | 🟢 kaynaklı | GÜN şartlı izne UYGUN görünüyor (yakınlık/aynı süreç ayrıca) |
-| Çaçak | yerlesimler.js | 1 | GÜN | Çaçak ← Niş<br>Çaçak ← Vidin | 🟢 kaynaklı | GÜN şartlı izne UYGUN görünüyor (yakınlık/aynı süreç ayrıca) |
+## TABLO — 69 gerçek devralma, kovaya göre (A izinli · B 1. şart düşüyor · C devlet/yıl · D şüpheli)
+| kova | ad | dosya | derinlik | devralınan | zincir (← dayandığı) | komşunun bilgisi kendi kaynağına dayanıyor mu | not |
+|---|---|---|:-:|---|---|---|---|
+| A | Braslav (Bratslav) | ukrayna_0916.js | 1 | GÜN | Braslav (Bratslav) ← Vinnitsa (Vinnytsia) | EVET (görünüşte) |  |
+| A | Chenzhou (Hunan) | nokta_asya_0917.js | 1 | GÜN | Chenzhou (Hunan) ← Hengyang (Hengzhou) | EVET (görünüşte) |  |
+| A | Garapan (Saipan) | a78_okyanusya.js | 1 | GÜN | Garapan (Saipan) ← Hagåtña (Agaña) | EVET (görünüşte) |  |
+| A | Kragujevac | yerlesimler.js | 1 | GÜN | Kragujevac ← Niş<br>Kragujevac ← Vidin | EVET (görünüşte)<br>EVET (görünüşte) |  |
+| A | Çaçak | yerlesimler.js | 1 | GÜN | Çaçak ← Niş<br>Çaçak ← Vidin | EVET (görünüşte)<br>EVET (görünüşte) |  |
+| A | Başkale | ek26.js | 1 | GÜN | Başkale ← Van | HAYIR — komşu kaynaksız | TDV `van` '24 Ağustos 1548' kayıtta doğrudan |
+| A | Gümülcine | yerlesimler.js | 1 | GÜN | Gümülcine ← Sofulu (Soufli)<br>Gümülcine ← Dedeağaç (Alexandroupoli) | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız | 1913-05-30 Londra Antlaşması kayıtta doğrudan (TDV `gumulcine` olayı veriyor) |
+| A | Çaldıran | ek26.js | 1 | GÜN | Çaldıran ← Van | HAYIR — komşu kaynaksız | TDV `van` '24 Ağustos 1548' kayıtta doğrudan |
+| A | Şeyhrumi (Yücelen) | sinir_dogu.js | 1 | GÜN | Şeyhrumi (Yücelen) ← Van | HAYIR — komşu kaynaksız | TDV `van` '24 Ağustos 1548' kayıtta doğrudan; Çaldıran'dan almadığını beyan ediyor |
+| B | Dimetoka | yerlesimler.js | 1 | GÜN | Dimetoka ← Sofulu (Soufli) | HAYIR — komşu kaynaksız |  |
+| B | Ferecik (Feres) | yerlesimler.js | 1 | GÜN | Ferecik (Feres) ← Sofulu (Soufli)<br>Ferecik (Feres) ← Dedeağaç (Alexandroupoli) | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Arapkir | yerlesimler.js | 2 | DEVLET/YIL | Arapkir ← Divriği ← Sivas<br>Arapkir ← Divriği ← Kayseri<br>Arapkir ← Sivas<br>Arapkir ← Malatya ← Sivas<br>Arapkir ← Malatya ← Kayseri | HAYIR — komşu da devralmış<br>HAYIR — komşu da devralmış<br>HAYIR — komşu kaynaksız<br>HAYIR — komşu da devralmış<br>HAYIR — komşu da devralmış |  |
+| C | Beri | sinir_kuzey.js | 2 | DEVLET/YIL | Beri ← Iğdır ← Revan | HAYIR — komşu da devralmış |  |
+| C | Darende | ok110.js | 2 | DEVLET/YIL | Darende ← Malatya ← Sivas<br>Darende ← Malatya ← Kayseri | HAYIR — komşu da devralmış<br>HAYIR — komşu da devralmış |  |
+| C | Kliçatak (Suser) | sinir_kuzey.js | 2 | DEVLET/YIL | Kliçatak (Suser) ← Gümrü (Aleksandropol) ← Revan | HAYIR — komşu da devralmış |  |
+| C | Küçükperveli | sinir_kuzey.js | 2 | DEVLET/YIL | Küçükperveli ← Arpaçay (Akyaka) ← Revan | HAYIR — komşu da devralmış |  |
+| C | Norapat | sinir_kuzey.js | 2 | DEVLET/YIL | Norapat ← Eçmiyadzin ← Revan | HAYIR — komşu da devralmış |  |
+| C | Qaţţīnah | sinir_guney.js | 2 | DEVLET/YIL | Qaţţīnah ← Ceylanpınar ← Mardin<br>Qaţţīnah ← Rakka | HAYIR — komşu da devralmış<br>BELİRSİZ — yalnız 1920 Meysalun günü |  |
+| C | Távri | sinir_kuzey.js | 2 | DEVLET/YIL | Távri ← Ferecik (Feres) ← Sofulu (Soufli)<br>Távri ← Ferecik (Feres) ← Dedeağaç (Alexandroupoli) | HAYIR — komşu da devralmış<br>HAYIR — komşu da devralmış |  |
+| C | Arpaçay (Akyaka) | ek26.js | 1 | DEVLET/YIL | Arpaçay (Akyaka) ← Revan | BELİRSİZ — yalnız slug |  |
+| C | Babū | sinir_guney.js | 1 | DEVLET/YIL | Babū ← Nusaybin<br>Babū ← Malikiye (Derik) | BELİRSİZ — yalnız slug<br>BELİRSİZ — yalnız slug |  |
+| C | Balıklı | sinir_guney.js | 1 | DEVLET/YIL | Balıklı ← Şemdinli (Şemdinni) | BELİRSİZ — GeoNames konum, tarih kaynağı değil |  |
+| C | Berdiçev (Berdychiv) | ukrayna_0916.js | 1 | YIL | Berdiçev (Berdychiv) ← Jitomir (Zhytomyr) | EVET (görünüşte) |  |
+| C | Bitlis | yerlesimler.js | 1 | DEVLET/YIL | Bitlis ← Van | HAYIR — komşu kaynaksız |  |
+| C | Bosna Brod'u (Bosanski Brod) | ek29.js | 1 | YIL | Bosna Brod'u (Bosanski Brod) ← Bosna Dubiçası (Bosanska Dubica) | EVET (görünüşte) |  |
+| C | Ceylanpınar | ek25.js | 1 | DEVLET/YIL | Ceylanpınar ← Mardin | HAYIR — komşu kaynaksız |  |
+| C | Cibri (Güçlü) | sinir_guney.js | 1 | DEVLET/YIL | Cibri (Güçlü) ← Cizre | BELİRSİZ — yalnız slug |  |
+| C | Cumai (Birlikköy) | sinir_guney.js | 1 | DEVLET/YIL | Cumai (Birlikköy) ← Silopi | BELİRSİZ — yalnız slug |  |
+| C | Digor | ek26.js | 1 | DEVLET/YIL | Digor ← Revan | BELİRSİZ — yalnız slug |  |
+| C | Divriği | yerlesimler.js | 1 | YIL | Divriği ← Sivas<br>Divriği ← Kayseri | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Eçmiyadzin | ek26.js | 1 | DEVLET/YIL | Eçmiyadzin ← Revan | BELİRSİZ — yalnız slug |  |
+| C | Gümrü (Aleksandropol) | ek26.js | 1 | DEVLET/YIL | Gümrü (Aleksandropol) ← Revan | BELİRSİZ — yalnız slug |  |
+| C | Gōrabī | sinir_guney.js | 1 | DEVLET/YIL | Gōrabī ← Şemdinli (Şemdinni)<br>Gōrabī ← Rewândiz | BELİRSİZ — GeoNames konum, tarih kaynağı değil<br>EVET (görünüşte) |  |
+| C | Iğdır | ek26.js | 1 | DEVLET/YIL | Iğdır ← Revan | BELİRSİZ — yalnız slug |  |
+| C | Jadlā’ | sinir_guney.js | 1 | DEVLET/YIL | Jadlā’ ← Akçakale<br>Jadlā’ ← Ayn el-Arab (Kobani) | HAYIR — komşu kaynaksız<br>BELİRSİZ — yalnız 1920 Meysalun günü |  |
+| C | Jasenovaç (Jasenovac) | ek29.js | 1 | YIL | Jasenovaç (Jasenovac) ← Bosna Dubiçası (Bosanska Dubica) | EVET (görünüşte) |  |
+| C | Karpuzlu (Yenikarpuzlu) | sinir_kuzey.js | 1 | DEVLET/YIL | Karpuzlu (Yenikarpuzlu) ← İpsala | HAYIR — komşu kaynaksız |  |
+| C | Kilise | sinir_guney.js | 1 | DEVLET/YIL | Kilise ← Çölemerik (Hakkâri) | HAYIR — komşu kaynaksız |  |
+| C | Küfkaynapınarı (Azatlı) | sinir_kuzey.js | 1 | DEVLET/YIL | Küfkaynapınarı (Azatlı) ← Havsa | HAYIR — komşu kaynaksız |  |
+| C | Lubnı | ok106.js | 1 | DEVLET/YIL | Lubnı ← Poltava | BELİRSİZ — yalnız slug |  |
+| C | Makhalak’auri | sinir_kuzey.js | 1 | DEVLET/YIL | Makhalak’auri ← Hulo (Acara) | HAYIR — komşu kaynaksız |  |
+| C | Malak Dervent (Lalkovo) | sinir_kuzey.js | 1 | DEVLET/YIL | Malak Dervent (Lalkovo) ← Elhova (Elhovo) | HAYIR — komşu kaynaksız |  |
+| C | Malatya | yerlesimler.js | 1 | YIL | Malatya ← Sivas<br>Malatya ← Kayseri | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Maykop (Çerkezya) | yerlesimler.js | 1 | DEVLET/YIL | Maykop (Çerkezya) ← Anapa | BELİRSİZ — yalnız dönem içi kaynak |  |
+| C | Mercihamis (Yurtbağı) | sinir_guney.js | 1 | DEVLET/YIL | Mercihamis (Yurtbağı) ← Birecik | EVET (görünüşte) |  |
+| C | Murska Sobota | a78_avrupa.js | 1 | DEVLET/YIL | Murska Sobota ← Kanije<br>Murska Sobota ← Varasd (Varaždin) | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Murvaneti | sinir_kuzey.js | 1 | DEVLET/YIL | Murvaneti ← Batum | HAYIR — komşu kaynaksız |  |
+| C | Saylıca | sinir_kuzey.js | 1 | DEVLET/YIL | Saylıca ← Şavşat | HAYIR — komşu kaynaksız |  |
+| C | Sincan | sinir_guney.js | 1 | DEVLET/YIL | Sincan ← İskenderun | BELİRSİZ — yalnız 1920 Meysalun günü |  |
+| C | Soçi (Sâşe) | yerlesimler.js | 1 | DEVLET/YIL | Soçi (Sâşe) ← Anapa | BELİRSİZ — yalnız dönem içi kaynak |  |
+| C | Stérna | sinir_kuzey.js | 1 | DEVLET/YIL | Stérna ← Orestiada (Kumçiftliği) | HAYIR — komşu kaynaksız |  |
+| C | Sîva (Siwa) | p0043libya.js | 1 | DEVLET/YIL | Sîva (Siwa) ← Dâhile<br>Sîva (Siwa) ← Hârice (Vâhât)<br>Sîva (Siwa) ← Ferâfire<br>Sîva (Siwa) ← Bahriye (Bâvîtî) | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Tirwānīsh | sinir_guney.js | 1 | DEVLET/YIL | Tirwānīsh ← İmâdiye (Amêdî) | EVET (görünüşte) |  |
+| C | Ts’q’altbila | sinir_kuzey.js | 1 | DEVLET/YIL | Ts’q’altbila ← Ahıska | HAYIR — komşu kaynaksız |  |
+| C | Tuapse | yerlesimler.js | 1 | DEVLET/YIL | Tuapse ← Anapa | BELİRSİZ — yalnız dönem içi kaynak |  |
+| C | Uluköy (Akçadam) | sinir_kuzey.js | 1 | DEVLET/YIL | Uluköy (Akçadam) ← Uzunköprü | HAYIR — komşu kaynaksız |  |
+| C | Umur Fakih (Fakia) | sinir_kuzey.js | 1 | DEVLET/YIL | Umur Fakih (Fakia) ← Elhova (Elhovo) | HAYIR — komşu kaynaksız |  |
+| C | Yüksekova (Gever) | ek26.js | 1 | DEVLET/YIL | Yüksekova (Gever) ← Çölemerik (Hakkâri) | HAYIR — komşu kaynaksız |  |
+| C | Zazalo | sinir_kuzey.js | 1 | DEVLET/YIL | Zazalo ← Ahıska | HAYIR — komşu kaynaksız |  |
+| C | Özalp (Saray) | ek26.js | 1 | DEVLET/YIL | Özalp (Saray) ← Van | HAYIR — komşu kaynaksız |  |
+| C | Şelon havzası (Soltsı) | a78_avrupa.js | 1 | DEVLET/YIL | Şelon havzası (Soltsı) ← Novgorod<br>Şelon havzası (Soltsı) ← Staraya Russa | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Şeyh Salû-yi Ulyâ | sinir_dogu.js | 1 | DEVLET/YIL | Şeyh Salû-yi Ulyâ ← Mâku<br>Şeyh Salû-yi Ulyâ ← Kotur | HAYIR — komşu kaynaksız<br>HAYIR — komşu kaynaksız |  |
+| C | Ḩīmū | sinir_guney.js | 1 | DEVLET/YIL | Ḩīmū ← Nusaybin<br>Ḩīmū ← Malikiye (Derik) | BELİRSİZ — yalnız slug<br>BELİRSİZ — yalnız slug |  |
+| D | Ba'lebek (Baalbek) | ek29.js | 1 | GÜN | Ba'lebek (Baalbek) ← Şam | BELİRSİZ — yalnız 1920 Meysalun günü |  |
+| D | Drama | yerlesimler.js | 1 | GÜN | Drama ← Kavala<br>Drama ← Praviște (Eleftheroupoli)<br>Drama ← Serez | BELİRSİZ — yalnız slug<br>BELİRSİZ — yalnız slug<br>BELİRSİZ — yalnız slug |  |
+| D | Filorina (Florina) | a78_avrupa.js | 1 | GÜN | Filorina (Florina) ← Kesriye (Kastoria)<br>Filorina (Florina) ← Manastır<br>Filorina (Florina) ← Vodina (Edessa) | EVET (görünüşte)<br>HAYIR — komşu kaynaksız<br>BELİRSİZ — yalnız slug | karışık: Kesriye kaynaklı, Manastır boş, Vodina yalnız slug |
+| D | Niş | yerlesimler.js | 1 | GÜN | Niş ← (adsız 'komşu kayıtlar') | BELİRSİZ — komşu adı yok |  |
+| D | Sûr (Tyre) — Lübnan | ek29.js | 1 | GÜN | Sûr (Tyre) — Lübnan ← Şam | BELİRSİZ — yalnız 1920 Meysalun günü |  |
+| D | Vanimo | a78_okyanusya.js | 1 | GÜN | Vanimo ← Herbertshöhe (Kokopo) — Rabaul<br>Vanimo ← Madang | EVET (görünüşte)<br>HAYIR — komşu kaynaksız | komşu Herbertshöhe kaynaklı (NLA) ama 600 km — yakınlık şartı kendi beyanında zayıf |
 
