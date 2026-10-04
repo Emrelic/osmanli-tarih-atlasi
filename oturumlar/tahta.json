@@ -171591,5 +171591,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5792",
+  "zaman": "2026-10-04 22:34",
+  "kimden": "SONRA1923-KAPI-EVREN-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SONRA1923-KAPI-EVREN-1004 · kronoloji_cok_1923_1945 Değişmez 2 evrenine alınırsa (yalnız ölçüm, denetle.py'ye dokunulmadı) ① ②'NİN İKİ SAYISI: KAPANAN 0 · EKLENEN AÇIK 0. Beş kovada da küme farkıyla 0 (2 · 2s · 2i · yıl-temsilî · kapsam dışı). Madde eklemek \"kırılmanın maddesi var mı\" sorusunda AÇIK ekleyemez; yük AYNADA: 2t 13→80 (+67 = ek dosyadaki toprak etiketli maddelerin TAMAMI) · mükerrer 113→201 (+88). ③ NET: tavan ARTAR (2t ✗, mükerrer ✗); bugün hiçbir şey KAPANMAZ. Sebep tek cümle: zincirler 1923-10-29'da bitiyor, UC sonrası KIRILMA yok — eksik olan madde değil kırılma. ⇒ Karar kampanya kırılma yazmaya BAŞLAMADAN önce verilmeli; yoksa her 1923-45 kırılması 2s'de AÇIK doğar. 1.233'ÜN KAÇI ÖTER: ~570 (%46) 2t'den görünür olur (yunanistan 101 · yugoslavya 79 · habeşistan 64 · fransa metropol 55 · ispanya 50 · çinhindi 46 · Eritre/Somali 31 · çekoslovakya 19 · ing.Somali 16 · Yeni Gine 14 · romanya 12 · malaya 12 · çin 65 kısmî …) — künye düzeyi ÜST SINIR. ~663 SESSİZ kalır: işgal maddesi var ama `isgal` etiketli (norveç, danimarka, hollanda, belçika, macaristan 1944, filipinler, italya anakarası, suriye, bulgaristan ≈ 183) + hiç madde yok (DEI 76, Libya 40, Tunus 35, Burma 27, Japonya 38, Kore 17, sovyet 83, Vichy AOF 88, Madagaskar 26 …). 🔴 İKİ YAPISAL KÖR NOKTA (kodda): (1) İŞGALİN AYNASI YOK — kirilmasiz_madde (:1910) yalnız _toprak_iddiasi (etiket toprak-*, :1764) okur; 45 işgal maddesinin 38'i toprak etiketi taşımıyor ⇒ \"işgal maddesi var, isg kırılması yok\" diye soran denetim YOK. (2) 2t'nin d/v/s havuzu YERSİZ (:1936 — ±30 günde dünyanın herhangi bir yerindeki kırılma kapatır) ⇒ bugün 67'nin hepsi doğru öter ama kampanya kırılma yazdıkça ilgisiz kırılmalar 1923-45 maddelerini SESSİZCE kapatır. 2s'deki yer/taraf şartı (:1377) 2t'ye yok. ÖNGÖRÜ: kapanan 0-5 → 0 ✓ · \"eklenen AÇIK değil 2t'de\" ✓ · 2t +60-90 → +67 ✓ · mükerrer +5-15 → +88 ✗ (çok şişti, ayrıştırmadım) · \"1.233 2t'den yakalanır\" → YARISI (işgal etiketi kör noktasını öngörmedim). ② BULAMADIM: mükerrer +88'in kaçı sahici — ölçmedim (örnekler yıl-düzeyi eşleşme gibi; 24 Eylül emsali \"yarısı sahici\"). 570/663 bölmesi künye düzeyi, madde-nokta eşlemesi değil. ③ ÖNERİM: evrene AL, kampanyadan ÖNCE, tavan beyanıyla (2t 67 madde LİSTE olarak deftere · mükerrer triyaj borcu) — ve aynı kararla 2t'ye isg kolu (_isg_yeri_mi zaten var, :1902) + yer/taraf şartı. Yoksa genişleme 1.233'ün yarısını gösterir, yarısını sessiz bırakır. Doğrulama: kopya betiğin BUGÜN sütunu §1.5 ile birebir (621/0 · 1709/189 · 142/1 · 13). HEAD 00a1da96 başta=sonda. Dosya: denetim/SONRA1923-KAPI-EVREN-1004.md · commit 2373e794. Bekçi AÇIK (SONRA1923-KAPI-EVREN-1004) — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
