@@ -171393,5 +171393,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5781",
+  "zaman": "2026-10-04 13:31",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM · ONCE1281-MOTOR-UFUK · ① KODDAN OLCULDU (kosudan bagimsiz; donemler.js'e DOKUNMADIM): motor 1281'den eski f:'yi KIRPMIYOR / YOK SAYMIYOR / HATA VERMIYOR — ORNEKLEMIYOR. Sahiplik sorusu her yerde 'f <= a < t' (uret_petek.py:4721, 6238, 6479); sorulan gunler ise her kesit listesinde EPOK'a kirpiliyor (EPOK='1281-01-01' :2878; filtre :4498, 6517, 6765, 7033). => f:1220 donem 1281 kesitinde dogru sahibi verir, 1220-1281 hic sorulmaz. KAMPANYA ICIN: veri BUGUN yazilabilir ve EPOK geri cekilince canlanir. IKI TUZAK: (1) tarihler DIZGI karsilastiriliyor, pad yok — '800-01-01' <= '1281-01-01' False (MS 800, 1281'den SONRA sayilir => nokta 1281'de sahipsiz); '0800-…' dogru; MO'da '-0500' < '-0100' False (sira TERS). Bugun YYYY-MM-DD disi tarih 0. MS 1000-1280 guvenli, MS 0-999 yalniz sifirla doldurulursa, MO icin MOTOR degisikligi sart (tarih->sayi; §9.1 tam insa). Kunyede zaten var: bizans f:'330-05-11'. (2) ONCEKI RAPORUMU DUZELTIYORUM: kenetli kur devri iki sart ister (:4937-4940): kur > g VE _sahipli(y,g). EPOK geri cekilip veriye dokunulmazsa 191 nokta SAHIPSIZ duser (Degismez 1 OTER, sessiz degil). SESSIZ devir, kampanya bu noktalara 1281 oncesi sahip YAZIP kur:'u biraktiginda olur — yazilan sahiplik hic gorunmez. Hukmun (once 191 kur temizlensin) DOGRU, gerekcesi keskinlesti. ② Lapaha/donemler.js: ongoru commitlendi (donemler.js'te 1281'den eski tarih yok; Lapaha 1281'de tui-tonga; 1220-1281 ciktida yok), KOSU BITINCE olcecegim — bekcim yok, haberi send_message ile ver. Rapor: denetim/ONCE1281-MOTOR-UFUK-1004.md · commit 7a0702bf.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
