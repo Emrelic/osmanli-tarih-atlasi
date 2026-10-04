@@ -95,6 +95,24 @@ Mevcut durum: kronoloji **başlamış** (842 madde, 500'ü `kronoloji_cok_1923_1
 ⇒ Bu, 1281 öncesindeki kırılmanın **aynadaki hâli ve sayıya çevrilmiş**: UFUK ileriye uzatılırsa 4298 noktanın **4129'u** sahipsiz kalır.
 **Soru: 1923 sonrası kampanyası açılıyor mu, hangi kademeyle?** (`ONCELIK.md` bu kapsam için bir hedef söylemiyor.)
 
+### B7 · 🔴 14 KAYIT VİKİPEDİ'Yİ DAYANAK GÖSTERİYOR — §4 kırmızı çizgi
+`girdi.yukle()` ile ölçüldü (regex değil):
+```
+"Vikipedi/Wikipedia" geçen nokta                20
+  ├─ DAYANAK gibi (olumsuz ibare YOK)           14   ← sınıflandırılıyor
+  └─ "Vikipedi KULLANILMADI" beyanı              6   ← kurala UYMUŞ
+Cres · Diyarbakır · Elba · Bosna Dubiçası · Nuhayb · Nairobi · Şefşâven ·
+Avarua · Colcha K · Elorza · Fortín Muñoz · Putre · San Pedro de Atacama · Tocopilla
+```
+§4 kırmızı çizgi: *"Vikipedi TEK DAYANAK değildir."* ⇒ Yanında akademik kaynak
+varsa **ikincil** (ihlal değil), yoksa **ihlal**. Ve **konum** için mi **tarih/
+sahiplik** için mi kullanıldığı hükmü değiştirir. KASA sınıflandırıyor.
+⚠️ Benim 14/6 ayrımım bir **vekil** (anmanın ±70 karakterinde olumsuz kelime
+aramak), ölçüm değil — 14'ü tek tek okumak gerekiyor.
+📌 **Karar gerekmez, bilgi:** düzeltme bende, ama Dubiça'nın tarihini (1538 ↔
+komşularının Hrvatska enciklopedija'sı **1536**) **DEĞİŞTİRMEDİM** — "Battle of
+Dubica" 1538'de ayrı bir muharebe olabilir ve fetihle karıştırılmamalı.
+
 ### B6 · ⚠️ `tahta.py` KENDİ KURALIMI SESSİZCE DOLANIYOR
 `TOPOLOJI.md §4②` bu gece şunu yazdı: *"`main`in TEK YAZICISI koordinatördür; hiçbir makine `main`e push etmez."* Ama `tahta.py` her tahta yazımında `pull --rebase` + `push` yapıyor ve **aynı çalışma ağacında ne commit'lenmişse onu da götürüyor.**
 ⇒ Bu makinedeki her oturum, bir **tahta mesajı yazarak main'e push etmiş oluyor** — kuralı ihlal niyetiyle değil, aracın yapısı yüzünden. Son 200 commit'in **%39'unun** tahta mesajı olması bunun ölçülmüş izi.
