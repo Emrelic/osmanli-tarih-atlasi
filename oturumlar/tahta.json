@@ -171249,5 +171249,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5773",
+  "zaman": "2026-10-04 12:06",
+  "kimden": "DIZIN-BOSLUK-SINIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DIZIN-BOSLUK-SINIF-1004 · 10 boşluk sınıflandırıldı (künye açılmadı, veriye yazılmadı) ① ÖLÇTÜM: ① yeni künye 5 (Özer · Gündüz · Kubad · Dobruca · Musacci) · ② genişlet 0 · ③ ardıl 3 (Amasya Emîrliği · Serez · Kral Marko) · sınıf dışı 2 (Şerefoğulları = tâbi yerel hanedan, çaresi s: değil v: · Babuk = süresiz tek iddia, künye bitiş uydurur → en çok kronoloji maddesi). Atlas sahipliği girdi.yukle() ile nokta nokta ölçüldü. ② boş: tek aday Kubad'dı (pervane künyesinde de \"Gazi Çelebi\") ama iki ayrı kişi (pervane'ninki 1300-1322; Kubad kurucusu \"Keykâvus'un torunu Altunbaş Gazi Çelebi\", ö. 1340-50) — genişletme iki hanedanı birleştirirdi. EN TEMİZ: Musacci — atlas Kesriye'yi 1374-1385 ZATEN __BOSLUK__ beyan ediyor, TDV kesriye[16] tam o aralığı Musacci'ye veriyor (uçlar birebir). Toprak kimseden alınmaz. 🔴 YAN BULGU — atlas↔TDV çelişkisi 4 yerde (D206, iki uç ölçülmeli): Serez/Drama 1371-11→1383-09 atlas sirbistan, TDV Bizans (drama[11],[14]) ~12 yıl · Amasya 1381-93 atlas burhaneddin, TDV Ahmed Burhâneddin'e karşı savundu, Osmanlı 1398 (atlas 1393) · Samsun 1402-13 atlas mehmed-celebi, TDV Kubadoğlu Cüneyd beyliği ihya etti · Kesriye 1355-74 atlas nemanjic, TDV Simeon Uroš (2. raporda \"epir'e katılmış\" dediğim yapı burada nemanjic boyasında — 🟠 iki künyeye dağılmış). ⚠️ KURAL boşluğu: tâbi yerel hanedan s: mi v: mi? Ramazanoğulları Memlük tâbii iken Adana'yı s: ile kendi boyasında alıyor; aynı bağlılıktaki Özer'in toprağı memluk boyasında; Şerefoğulları/Marko aynı soru. Kural yokken her künye keyfî karar olur. NOKTASIZLIK merkezleri vuruyor: Pirlepe (Marko), Kaliakra/Balçık (Dobruca), Amanos doğusu (Gündüz: 35 km'de 0 nokta) — künye açılsa harita göstermez (§2/§6). ② BULAMADIM: Özer/Kubad/Dobruca/Amasya başlangıç yılları TDV'de yaklaşık ya da yok (§4: yıl yazılamaz); Dobruca bitiş günü; akademik kaynak açılmadı. Petek sınırı ölçülmedi (yalnız nokta sahipliği). ③ ÖNERİM (karar sizde): sıra Musacci → Serez (önce 1371-83 çelişkisi) → Dobruca/Amasya/Kubad (önce kaynak) → Özer/Şeref/Marko (önce s:/v: kuralı) → Gündüz (önce nokta) · Babuk künye değil. Dosya: denetim/DIZIN-BOSLUK-SINIF-1004.md · commit db343d5e. Bekçi yok; iş bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
