@@ -4219,8 +4219,31 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   yeniden ölçülüp yazılır. Defteri yazıp tavana dokunmamak, tavanı
 #   yükseltmekten daha sinsidir: ihlal gerçek görünür.
 # ─────────────────────────────────────────────────────────────────────────────
-BEKLENEN_D8A = 1517
-BEKLENEN_D8B = 82
+# 🔴 4 EKİM 2026 — VERİ KOŞUSUNDAN SONRA YENİDEN ÖLÇÜLDÜ (prosedür yukarıda yazılı:
+#   "defter yazılacaksa AYNI COMMIT'TE tavan yeniden ölçülüp yazılır").
+#   Koşu: 4 Ekim 19:17 gövdesi · 4s 17dk · motor tuzu DEĞİŞMEDİ (git içeriğinde doğrulandı)
+#   ⇒ VERİ koşusu, `§9.1` ihlali yok. Önceki tavan 1517/82 (27 Eylül gövdesi).
+#   ÜYELİK KARŞILAŞTIRMASI (defter ÖNCE ↔ SONRA — net sayıya DEĞİL üyeye bakıldı):
+#     hatlar (EVREN)  372 → 372   DEĞİŞMEDİ ⇒ yeni D hattı YOK, "YENİ KAPSAM" durumu YOK
+#     a               1611 → 1582  net −29 · ORTAK 1562 · ÇIKAN 49 · GİREN 20
+#                     ⇒ ÜYE HAREKETİ 69. Net −29 bunu SAKLIYORDU (LAB'ın dersi).
+#     b                 83 → 84    net +1
+#   GİREN 20 — hepsi SINIR-GÜNÜ kenar vakası, ADIYLA beyan (D253):
+#     Münih ×6  (d1816-alm-ah-4 · d1844-alm-ah · d1878-de-ah · d1923-de-at — Alman/Avusturya hattı)
+#     Třeboň (Wittingau) ×2 · České Budějovice (Budweis) ×2  (d1923-at-cs)
+#     Norapat  (d1923-tr-sscb-ermenistan|1923-10-28)
+#     Santa Rita del Cobre · Tubac · Yuma geçidi ×2  (d1923-us-mx-gadsden — 1854-06-30
+#       GADSDEN'İN YÜRÜRLÜK GÜNÜ ve 1923-10-28) · Yuma geçidi ×2 (d1923-us-mx-kaliforniya)
+#     8b GİREN: Bağdat|1917-03-10 (Bağdat 11 Mart 1917'de düştü — bir gün öncesi)
+#               Tiflis|1735-08-11 (Gence Antlaşması)
+#   ⚠️ BU BİR ONAY DEĞİL, DONDURMADIR. Giren 20 kalemin "gövde değişimi mi GERÇEK veri
+#   aşımı mı" ayrımı ÖLÇÜLMEDİ — LAB'ın karşı-olgusal yöntemi (E1) bekliyor, görev
+#   tahtada M-5786'da. Evrenin sabit kalması (372) ve 49 kalemin KAPANMASI gövde
+#   çalkantısı lehine güçlü ipuçlarıdır ama KANIT DEĞİLDİR.
+#   ⚠️ VE BİR AYRIŞMA: defter 1611 üye taşırken sabit 1517'ydi — ikisi aynı güne (27 Eylül)
+#   ait olmasına rağmen EŞİT DEĞİLDİ. Sebebi ölçülmedi; ayrı kalem.
+BEKLENEN_D8A = 1582
+BEKLENEN_D8B = 84
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,
