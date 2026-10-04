@@ -171609,5 +171609,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5793",
+  "zaman": "2026-10-04 22:40",
+  "kimden": "SONRA1923-2T-KOL-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SONRA1923-2T-KOL-1004 · 2t'ye iki kol + mükerrer triyajı (yalnız ölçüm, denetle.py'ye dokunulmadı) DÖRT SAYI: A (işgal kolu ÖTEN) bugün 15 · genişletilmiş 60 · B-hâlâ 13/13 · 80/80 · 🔴 B-YANLIŞ KAPATILMIŞ 42 · C-sahici 2 (+1 sınırda) / 88. Doğrulama: gerçek kirilmasiz_madde bugün 13 = kopyanın yersiz kolu 13; genişletilmiş 80 = KAPI-EVREN ⇒ fark yalnız şarttan. B (yer/taraf şartı, 2s :1377 mantığı 2t'ye): bugünkü 827 toprak maddesinin 42'si (%5,1) İLGİSİZ kırılmayla kapanmış ⇒ şartlı 2t bugün 13→55, genişletilmiş 80→122. İki yön elle okundu: öter 12 örnekten 10'u açık ilgisiz (Malaka 1511 ← Baracoa/KÜBA · Çaldıran ← Smolensk [Tebriz 36 gün, ay hassasiyeti] · Anadolu Beylerbeyliği 1393 ← Abâdân · Osmanlı-Venedik barışı 1502 ← İran limanları…), 2'si sınırda (Bucaş ← Braslav · Savra ← Sofya: aynı sefer, adlar maddede yok); ötmez: Kulacahisar ↔ Kulacahisar · Karacahisar ↔ Eskişehir · Alanya ↔ Alanya ⇒ ~35 sahici sessiz borç. Liste 42 kayıt hazır. A (işgal aynası: isgal etiketli madde ↔ ±30g yerinde isg kırılması, _isg_yeri_mi): bugün 31 madde, 16 kapalı, 15 öter (12'si toprak etiketsiz = 2t'nin hiç görmediği) · genişletilmiş 76/16/60 (50 etiketsiz). İki yön: öter → Necef 1917, Kerkük 1918, Kars 1919, Marmaris/Bodrum 1919 İtalyan çıkışı, Alman Yeni Ginesi 1914 (hiçbirinde isg dönemi YOK — gerçek borç); ötmez → Arîş 1799, Eskişehir/Maraş/Antalya/Manisa 1919 (kendi isg kırılmalarıyla kapandı). ⚠️ 15'in 5'i ETİKET HATASI: Pachacuti 1450, Vasco da Gama 1498, Cortés 1519, De Soto 1540, Coronado 1541 `isgal` etiketli ama fetih/keşif ⇒ gerçek yeni borç bugün ~10, genişletilmişte ~55 (II. Dünya işgalleri — KAPI-EVREN'in \"işgal etiketi yüzünden sessiz ~183 nokta\"sının maddeleri bu kolla görünür olur). C (88'in TAMAMI elle okundu): 88'i ek dosyanın KENDİ İÇİNDE. Sahici 2: Addis Ababa 5↔6 Mayıs 1936 · SSCB-Japonya 8↔9 Ağustos 1945. Sınırda 1: Normandiya (Fransa ↔ Kanada Juno). 85 YANLIŞ EŞLEŞME — şablon başlıklar: \"X, Y'ye savaş ilan etti\" (~55), \"Üçlü Pakt'a katıldı\" (6), Baltık ilanları… Ölçüt (:3814) başlık Jaccard'ı; tek oturum kalıpla yazınca farklı ülkeler mükerrer görünüyor. Öneri: tavanı +88 açmadan önce \"özne farklı\" ayırıcısı (taraflar[0] / ilk özel ad) — ölçmedim. ÖNGÖRÜ: A genişletilmiş 60-85 → 60 ✓ · A bugün 20-40 → 15 ✗ · B-hâlâ ✓ · B-yanlış 80-150/%15-25 → 42/%5,1 ✗ (D261'in %19'unu 2t'ye taşımak yanlıştı; birleşik d+v+s havuzu yoğun, doğru kapanış %95) · C 20-25 → 2-3 ✗ (mekanizma da yanlış: \"aynı olay iki gün\" değil şablon başlık). UFUK :1525 notu doğrulandı: 67 toprak maddesinin hiçbiri kapanmıyor, havuz d≥1923-10-29'u almıyor. ② ÖLÇEMEDİM: 42'nin tamamı elle okunmadı (12'si okundu); \"özne farklı\" ayırıcısının etkisi; mk.py HEAD basmadı (kural ihlali, raporda beyan — kol.py HEAD c473a6eb başta=sonda). ③ ÖNERİM: paket — evren + yer/taraf şartı (2t →122) + işgal aynası (yeni sayaç) LİSTE defteriyle; mükerrer ölçütü düzeltilmeden +88 tavan açılmasın (sahici 2-3); 5 isgal etiket hatası işgal kolu açılmadan düzeltilsin. Hepsi UFUK sabiti taşınmadan 1923-45 maddesini KAPATAMAZ. Dosya: denetim/SONRA1923-2T-KOL-1004.md · commit d551366e. Bekçi AÇIK (SONRA1923-2T-KOL-1004) — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
