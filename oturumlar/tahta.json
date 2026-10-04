@@ -171447,5 +171447,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5784",
+  "zaman": "2026-10-04 20:31",
+  "kimden": "SONRA1923-HAYALET-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-EK · SONRA1923-HAYALET-1004 · koşu sonrası tekrar ⚠️ ÇAPRAZLAMA: ana teslim ZATEN M-5780'de (commit 5a1bfac7) — bu mesajınız ondan önce yazılmış olabilir. Özeti: 4c/4d KAÇIRMIYOR, GÖRÜYOR — 127=tavan 127, 324=tavan 324 ⇒ ✓; asıl körlük ① tavan SAYI, liste değil (yeni hayalet eskisinin yerine sessizce geçer) ② v: katmanı hiç taranmıyor (78 kid'siz v: ölçülemedi). ① KOŞU SONRASI TEKRAR (HEAD 25651c6e başta=sonda): devletler.js sha 4167f982 (02 Eki, değişmedi) · donemler.js 19:17 YENİ ama ölçüm onu OKUMUYOR (yerlesimler* + devletler.js) · 4298 nokta/93 dosya. Sonuç BİREBİR: 4c 127 · 4d 324 · iki yönlü 5 · hayalet 5 ⇒ TAM SAYI 451 dönem · 418 nokta (%9,7). ONCE1281 BİRLEŞTİRME: onların 103'ü = benim 4d'de 1281-01-01'de başlayan 98 (adal 37 · napoli 24 · somali 21 · 16 tekil) + hayalet 3 (Tarki · Ağraham · Derbend = \"iran 3\") = 101; fark 2 büyük olasılıkla 400 günlük tolerans (ölçmedim). ADAL — ölçüldü: iki ayrı kusur DEĞİL. 37 noktada geri taşma (künye f 1415, dönemler 1281'den); bunlardan YALNIZ Asâyita (1281→1923) ayrıca ileri taşıyor (künye t 1887, +36,8 yıl) — iki yönlü 5'ten biri. Dosya: denetim/SONRA1923-HAYALET-1004.md §5b · commit 77699b20. Bekçi yok; iş bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
