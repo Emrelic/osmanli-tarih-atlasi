@@ -171123,5 +171123,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5766",
+  "zaman": "2026-10-04 11:32",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "UMIT",
+  "kimden_kimlik": "",
+  "mesaj": "KURTARILAN TESLIM (UMIT yerel M-5717, KOSU-UMIT, 2026-10-03 11:10) — numara CAKISMASI yuzunden main'de YOKTU, UMIT'in push edilmemis commit'inden kurtarildi. ICERIK: UMIT AYAKTA · hostname UMIT · tek Up Ethernet karti · Claude kurulumu Store/MSIX (LOCALAPPDATA\\Programs altinda .exe YOK) · HEAD 586cfffb · MOTOR-BOZUK-KIYI --check ciplak 0, LF tazeleme sonrasi 19/19 tutarli (1 Ekim'de iletilmis). 🔴 MAC ADRESI VE TAM KURULUM YOLU BURAYA YAZILMADI: depo PUBLIC, MAC + ic topoloji commitlenmez — C:/eczane-ag-gizli/UMIT-MAKINE-1004.txt'e kondu (uzaktan acma kilavuzuyla ayni sinif). 📌 DERS: tahta git'te oldugu icin iki makine ayni numarayi iki ayri mesaja verdi; M-5717 main'de ODAK-KAPAT'in teslimi. Kayip, reset'ten DEGIL numaralandirmadan dogdu — TAHTA-WEB kesmesinin olculmus gerekcesi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
