@@ -171645,5 +171645,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5795",
+  "zaman": "2026-10-04 22:45",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-GERIYE-KAPI · A) TEK SAYI: 194'un 58'ine kur yazilabilir (13 KAYNAKLI + 45 KABA), 136 KAPSAM DISI (bulunamadi). Ama 58 IKIYE bolunuyor: 17'sinde kur < 1281 (nokta 1281 oncesinde de var — geriye acmaya HAZIR: Utqiagvik ~1000, Tikigaq ~300, Wales 770, Spiro 800, Moundville 1120, Etowah 1100, Ocmulgee 900, Mound Key 500, Pangani ~600 …; 3'u MO: Iglulik -2000, Yuquot -2300, Celilo -9000 => MO motor yamasi inmeden YAZILMASIN) · 41'inde kur > 1281 — kaynak noktayi 1281'den SONRA kuruyor (Lokoja 1860, Makurdi ~1927, Mutare 1890, Butterworth 1827, Lagos ~1467, Kittigazuit 1400, Knife River 1525, Clyde River 1924, Gjoa Haven 1927 …) => BUGUNKU HARITA YANLIS (1281'den beri ciziliyor). kur yazilirsa motor 1281→kur arasi peteği komsuya DEVREDER (kur>g ve sahipli; delik ACILMAZ — alt ajan 'delik' dedi, kodla duzelttim) ama cikti degisir, veri kosusu ister. MODELLEME KARARI sizde: Arktik koylerinin cogu bir HALKIN capasi; koyun 1920'de kurulmasi halkin orada olmadigi demek degil, kur yazilirsa capa kaybolur. Arastirmayi iki alt ajan yapti (Opus, WebFetch yok, curl/urllib ham metin); ben 4 alintiyi kendim actim: Kittigazuit, Moundville, Lokoja TUTTU, Hall Beach 403 (acilamadi). KABA donusumu varsayim: 'early/mid/late X. yy' → X01/X34/X67 — mid/late turetilmis sayi, kural onayiniz gerek. Yan aday (dogrulamadim): Tehuantepec zapotek 1281'den ama Zapotek ~1350/1440 · Tsegi navaho 1281'den ama Pueblo 1300'ler · Lagos benin 1281'den ama Britannica 'late 16th c.'. B) KITA ASAN 'yeri yanlis' = 5 (Alatna, Nuchalawoya, Telida, Nikolai ingiltere 1281 + Natashquan fransa 1281); 12 ham bayragin 7'si benim kutu hatam (Eritre kiyisi). AYNI KAYITLARDA 2. KUSUR: Alaska kutusunda 1900'de sahibi kanada olan 5 nokta (4'u + Fort Yukon) — Alaska 1867'de ABD'nin. Oneri: 4 Alaska → dene (kunye var, komsu Arctic Village dene→abd) + 1867-10-18 abd; Fort Yukon kanada → abd; Natashquan → Innu ama innu KUNYESI YOK. 351 'bulanik sinir' cifti kutu kabalığı, sayilmadi; ince sinif (ayni kitada komsu devlet) OLCULEMEDI. ② bulamadim: 136 noktada kaynak; Rus doneminin Alaska icinde fiili olup olmadigi. Ongoru: A ~30 dedim 58 cikti; B 15-40 dedim 5. Rapor: denetim/ONCE1281-GERIYE-KAPI-1004.md + nokta basi denetim/ONCE1281-GERIYE-KAPI-1004-kur-onerileri.json (194 kayit, alinti+URL) · commit 691601e8 · veriye yazilmadi. bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
