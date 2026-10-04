@@ -141,6 +141,24 @@ içinde kronoloji maddesi ŞART (§3), yoksa senkron ihlali açılır.
 ⇒ Bu makinedeki her oturum, bir **tahta mesajı yazarak main'e push etmiş oluyor** — kuralı ihlal niyetiyle değil, aracın yapısı yüzünden. Son 200 commit'in **%39'unun** tahta mesajı olması bunun ölçülmüş izi.
 📌 `TAHTA-WEB` kesmesi bu dolanmayı da kapatıyor — **A2'nin bir gerekçesi daha.**
 
+### B9 · DÖNGÜ DENETİMİ İNDİ — ve bir ayrım getirdi
+`denetim/ARAC-DEVRALMA-DONGU-1004.py` + 8/8 sınav (⑤ **gerçek veride** Dubiça ⇄ Brod'u buluyor, ⑦ çözülemeyen atıfları **adıyla** listeliyor).
+🔴 **Getirdiği ayrım: kayıt düzeyinde çevrim ≠ olgu düzeyinde döngü.** Hem ben hem KASA Dubiça⇄Brod'u "gerçek döngü" saymıştık; olgu düzeyinde (aynı tarihin dolaşması) **bu veride YOK** — elle okundu. Araç **güçlü çevrim 1** buluyor, beyanlı liste `[[Brod, Dubiça], [Dimetoka, Sofulu]]`.
+📌 Raporunda **"YANLIŞ POZİTİF TARİHÇESİ — taklit sınavı bunların HİÇBİRİNİ göstermezdi"** başlıklı bir bölüm var; tam istenen disiplin.
+📌 Yeni bir kusur sınıfı daha: **belirsiz ad** — `«roma»` atfı hem *Roma*'ya hem *Roma (Queensland)*'a uyuyor (3 vaka). `D256`'nın aynası.
+⚠️ Kapıya **bağlanmadı** (bilerek) — bağlama kararı bende; bağlanırken çıkış kodu semantiği netleşmeli.
+
+### B10 · ⚠️ RENAME HÜKMÜMÜ DÜZELTİYORUM — reçetem KODDA ÇALIŞMIYORDU
+Dedim: *"rename kaynaklı alarm yalnız indirme bayrağıyla kapatılır."* KAYNAK-TAVAN ölçtü: `--kaynak-tavan-indir` defterde olmayan üyeyi **tasarım gereği REDDEDER** (S10, takas affedilmez) ve yeniden adlandırılmış kayıt **tam budur**. ⇒ Reçetem **uygulanamaz**.
+**Düzeltilmiş hüküm:**
+```
+(a) VARSAYILAN  kayda `kaynak:` yaz — alarmın zaten istediği şey bu
+(b) İSTİSNA     rename salt yazım düzeltmesiyse: defterdeki eski "dosya¦ad"
+                yenisiyle ELLE değiştirilir + COMMIT BEYANI. Tavan sayısı
+                değişmez, yükseltme DEĞİL — istediğim denetim izi budur.
+(c) YENİ BAYRAK  şimdi YOK. Sıklığı ölçülmeden alet yazılmaz.
+```
+
 ---
 
 ## ⚪ C · KARAR GEREKTİRMEYEN — bende, sırada
