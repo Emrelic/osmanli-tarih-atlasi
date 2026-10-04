@@ -33,13 +33,13 @@ vardi = os.path.isdir(DIZIN)
 SINAV = []            # sinavin yazdigi dosyalar — SONUNDA silinir
 
 
-def damga(ad, durum, yas_sn, ara=60, tur=5, sebep=""):
+def damga(ad, durum, yas_sn, ara=60, tur=5, sebep="", pid=0):
     if not os.path.isdir(DIZIN):
         os.makedirs(DIZIN)
     y = os.path.join(DIZIN, ad + ".json")
     SINAV.append(y)
     io.open(y, "w", encoding="utf-8").write(json.dumps({
-        "ad": ad, "durum": durum, "sebep": sebep, "pid": 0,
+        "ad": ad, "durum": durum, "sebep": sebep, "pid": pid,
         "zaman": "sinav", "damga": int(time.time()) - yas_sn,
         "tur": tur, "ara": ara, "dinlenen": [ad],
     }, ensure_ascii=False))
@@ -56,31 +56,47 @@ try:
 
     # ------------------------------------------------- 2) OLU YON  ← ASIL SINAV
     # ODAK-KAPAT vakasinin birebir taklidi: 9 saat sessizlik.
-    damga("ZZSINAV_OLU", "nobette", yas_sn=9 * 3600, ara=60)
+    # 🔴 UC YON — eski sinav tek "OLU" bekliyordu ve YANLIS ALARM uretiyordu:
+    #    ad degistiren dort kita "OLU" raporlandi, dordu de yanlisti.
+    #    Simdi surecin DURUMU de olculuyor ve uc hal ayriliyor.
+    import os as _os
+    damga("ZZSINAV_ASILI", "nobette", yas_sn=9 * 3600, ara=60, pid=_os.getpid())
+    damga("ZZSINAV_BITMIS", "nobette", yas_sn=9 * 3600, ara=60, pid=999999)
+    damga("ZZSINAV_OLCULEMEDI", "nobette", yas_sn=9 * 3600, ara=60, pid=0)
     k = {x["ad"]: x for x in bekci_olc.oku()}
-    sonuc(k.get("ZZSINAV_OLU", {}).get("hal") == "OLU",
-          "2) 9 SAAT sessiz (ara 60) -> OLU   [ODAK-KAPAT vakasi]",
-          "donen: %r" % k.get("ZZSINAV_OLU", {}).get("hal"))
+    sonuc(k.get("ZZSINAV_ASILI", {}).get("hal") == "ASILI",
+          "2a) 9 SAAT sessiz + surec AYAKTA -> ASILI   [GERCEK ALARM]",
+          "donen: %r" % k.get("ZZSINAV_ASILI", {}).get("hal"))
+    sonuc(k.get("ZZSINAV_BITMIS", {}).get("hal") == "BITMIS",
+          "2b) 9 SAAT sessiz + surec YOK -> BITMIS (alarm DEGIL)",
+          "donen: %r" % k.get("ZZSINAV_BITMIS", {}).get("hal"))
+    sonuc(k.get("ZZSINAV_OLCULEMEDI", {}).get("hal") == "OLCULEMEDI",
+          "2c) 9 SAAT sessiz + pid GECERSIZ -> OLCULEMEDI (YOK demiyor)",
+          "donen: %r" % k.get("ZZSINAV_OLCULEMEDI", {}).get("hal"))
+    # 🔴 2c GERILEME SINAVI: ilk yamada `elif canli_surec:` yazip None'i
+    #    sessizce "yok"a kattim — uc durumlu yazdigim islevi iki duruma
+    #    indirdim. "olculemedi ≠ yok" kuralini KENDI yamamda ihlal ettim.
+    #    Bu soru onu bir daha yapmami engeller.
 
     # ------------------------------------------------- 3) ESIK NABIZ ARALIGININ KATI MI
     # 🔴 GERILEME SINAVI: ayni 20 dakikalik sessizlik, `ara`ya gore AYRI
     #    hukum almali. Sabit saniye esigi yazilsaydi ikisi ayni cikardi.
-    damga("ZZSINAV_SIK", "nobette", yas_sn=1200, ara=60)      # 20 tur  -> OLU
-    damga("ZZSINAV_SEYREK", "nobette", yas_sn=1200, ara=1800)  # <1 tur -> CANLI
+    damga("ZZSINAV_SIK", "nobette", yas_sn=1200, ara=60, pid=999999)   # 20 tur
+    damga("ZZSINAV_SEYREK", "nobette", yas_sn=1200, ara=1800, pid=999999)  # <1 tur
     k = {x["ad"]: x for x in bekci_olc.oku()}
-    sonuc(k.get("ZZSINAV_SIK", {}).get("hal") == "OLU"
+    sonuc(k.get("ZZSINAV_SIK", {}).get("hal") == "BITMIS"
           and k.get("ZZSINAV_SEYREK", {}).get("hal") == "CANLI",
-          "3) AYNI 20 dk sessizlik: ara 60 -> OLU, ara 1800 -> CANLI",
+          "3) AYNI 20 dk sessizlik: ara 60 -> BITMIS, ara 1800 -> CANLI",
           "sik=%r seyrek=%r" % (k.get("ZZSINAV_SIK", {}).get("hal"),
                                 k.get("ZZSINAV_SEYREK", {}).get("hal")))
 
     # ------------------------------------------------- 4) CIKTI != OLU
     # Duzgun cikmis bekci OLU sayilmamali — yoksa her mesaj tesliminden
     # sonra koordinator yanlis alarm okur.
-    damga("ZZSINAV_CIKTI", "cikti", yas_sn=9 * 3600, ara=60, sebep="mesaj-var")
+    damga("ZZSINAV_CIKTI", "cikti", yas_sn=9 * 3600, ara=60, sebep="mesaj-var", pid=999999)
     k = {x["ad"]: x for x in bekci_olc.oku()}
     sonuc(k.get("ZZSINAV_CIKTI", {}).get("hal") == "CIKTI",
-          "4) duzgun CIKIS, 9 saat once bile -> CIKTI (OLU DEGIL)",
+          "4) duzgun CIKIS, 9 saat once bile -> CIKTI (surec olu olsa BILE)",
           "donen: %r" % k.get("ZZSINAV_CIKTI", {}).get("hal"))
 
     # ------------------------------------------------- 5) BOZUK DAMGA = OLCULEMEDI

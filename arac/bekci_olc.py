@@ -27,6 +27,7 @@ KULLANIM
 import io
 import json
 import os
+import subprocess
 import sys
 import time
 
@@ -54,6 +55,30 @@ KUSKU_KAT = 5.0      # <= 5   tur  -> kuşkulu
 TABAN = 90           # `ara` okunamazsa / 0 ise varsayılan saniye
 
 
+def _surec_var(pid):
+    """PID hâlâ koşuyor mu. Bilinemezse None döner — 'yok' DEMEZ.
+
+    🔴 ÖLÇÜLEMEDİ ≠ YOK (CLAUDE.md §11). PID okunamıyorsa ya da sorgulanamıyorsa
+    süreci 'ölü' saymak, aletin düzeltmeye çalıştığı yanlış alarmın aynısını
+    üretir. Üç cevap var: VAR · YOK · BİLİNMİYOR.
+    """
+    try:
+        pid = int(pid)
+    except (TypeError, ValueError):
+        return None
+    if pid <= 0:
+        return None
+    try:
+        # Windows: tasklist en taşınabilir yol (os.kill(pid,0) burada
+        # ayrıcalık hatası verebiliyor ve 'yok' gibi görünüyor).
+        p = subprocess.run(["tasklist", "/FI", "PID eq %d" % pid, "/NH"],
+                           capture_output=True, timeout=10)
+        cik = (p.stdout or b"").decode("utf-8", "replace")
+        return str(pid) in cik
+    except Exception:
+        return None
+
+
 def oku():
     if not os.path.isdir(DIZIN):
         return []
@@ -78,14 +103,38 @@ def oku():
             ara = TABAN
         yas = max(0, int(time.time()) - int(damga))
         durum = d.get("durum") or "?"
+        # 🔴 SÜREÇ HÂLÂ YAŞIYOR MU — bu soru sorulmadığı için alet dört
+        #    YANLIŞ ALARM üretti (4 Ekim). Vaka: bir oturum adını değiştirip
+        #    bekçisini YENİ adla kurunca, ESKİ addaki damga bayat kalıyor ve
+        #    alet onu CESET sayıyordu. Dört kıta ad değiştirdi ⇒ "ÖLÜ 4",
+        #    dördü de YANLIŞ. Beyanlı bir yanlış pozitif tolere edilebilir;
+        #    alarm sütununun TAMAMI yanlış olunca alet GÜVENİLMEZ olur ve
+        #    bir gün gerçek ölüm de görmezden gelinir.
+        # ⇒ Damgadan "ölü mü" ayırt EDİLEMEZ, ama "süreci duruyor mu"
+        #   ÖLÇÜLEBİLİR. İki ayrı hâl, iki ayrı anlam:
+        #     süreç YOK   → BITMIS  (ad değişmiş YA DA çökmüş — ikisi
+        #                   damgadan ayırt edilemez, o yüzden iddia etmiyoruz)
+        #     süreç VAR   → ASILI   (🔴 CİDDİ HÂL: süreç ayakta, nabız yok)
+        canli_surec = _surec_var(d.get("pid"))
         if durum == "cikti":
             hal = "CIKTI"            # düzgün çıkış — ölüm DEĞİL, bitiş
         elif yas <= ara * CANLI_KAT:
             hal = "CANLI"
         elif yas <= ara * KUSKU_KAT:
             hal = "KUSKULU"
+        elif canli_surec is True:
+            hal = "ASILI"            # süreç AYAKTA ama nabız atmıyor → ALARM
+        elif canli_surec is False:
+            hal = "BITMIS"           # süreç YOK: ad değişmiş ya da çökmüş
         else:
-            hal = "OLU"
+            # 🔴 canli_surec is None ⇒ SÜREÇ DURUMU ÖLÇÜLEMEDİ (pid yok/geçersiz,
+            #    tasklist başarısız). Bunu "süreç yok" saymak, bu yamanın
+            #    DÜZELTTİĞİ hatanın aynısını yeniden yapmak olurdu — ve ilk
+            #    yazımımda TAM BUNU yaptım: `elif canli_surec:` yazıp None'ı
+            #    sessizce "yok"a kattım, yani üç durumlu yazdığım işlevi iki
+            #    duruma indirdim. Sınav yakaladı (2 kusur).
+            #    `ölçülemedi ≠ yok ≠ temiz` — kendi yamamda ihlal ettim.
+            hal = "OLCULEMEDI"
         out.append({"ad": d.get("ad") or ad[:-5], "hal": hal, "yas": yas,
                     "ara": ara, "tur": d.get("tur"), "pid": d.get("pid"),
                     "zaman": d.get("zaman"), "sebep": d.get("sebep") or "",
@@ -103,7 +152,7 @@ def _sure(s):
     return "%d s %d dk" % (s // 3600, (s % 3600) // 60)
 
 
-ISARET = {"CANLI": "+", "KUSKULU": "?", "OLU": "!", "CIKTI": ".",
+ISARET = {"CANLI": "+", "KUSKULU": "?", "ASILI": "!", "BITMIS": "x", "CIKTI": ".",
           "OLCULEMEDI": "?"}
 
 
@@ -114,7 +163,7 @@ def main(argv):
     kayit = oku()
     if "--ham" in argv:
         sys.stdout.write(json.dumps(kayit, ensure_ascii=False))
-        return 1 if any(k["hal"] in ("OLU", "OLCULEMEDI") for k in kayit) else 0
+        return 1 if any(k["hal"] in ("ASILI", "OLCULEMEDI") for k in kayit) else 0
 
     if not os.path.isdir(DIZIN):
         # 🔴 DAMGA DİZİNİ YOK = "bekçi yok" DEĞİL, "ÖLÇÜLEMEDİ". Nabız
@@ -135,9 +184,9 @@ def main(argv):
     print("=" * 74)
     print("%-26s %-11s %-10s %-7s %s" % ("ad", "hal", "son nabiz", "tur", "not"))
     print("-" * 74)
-    for k in sorted(kayit, key=lambda x: (x["hal"] != "OLU", x["ad"])):
+    for k in sorted(kayit, key=lambda x: (x["hal"] not in ("ASILI","BITMIS"), x["ad"])):
         not_ = k.get("sebep") or ""
-        if k["hal"] == "OLU":
+        if k["hal"] in ("ASILI", "BITMIS"):
             not_ = "beklenen <= %s · SUREC DUSMUS olabilir" % _sure(
                 int(k["ara"] * CANLI_KAT))
         elif k["hal"] == "CIKTI":
@@ -146,21 +195,34 @@ def main(argv):
               % (ISARET.get(k["hal"], " "), k["ad"], k["hal"],
                  _sure(k["yas"]), k.get("tur"), not_))
     print("-" * 74)
-    olu = [k["ad"] for k in kayit if k["hal"] == "OLU"]
+    asili = [k["ad"] for k in kayit if k["hal"] == "ASILI"]
+    bitmis = [k["ad"] for k in kayit if k["hal"] == "BITMIS"]
     olcx = [k["ad"] for k in kayit if k["hal"] == "OLCULEMEDI"]
-    print("CANLI %d · KUSKULU %d · CIKTI %d · OLU %d · OLCULEMEDI %d"
+    print("CANLI %d · KUSKULU %d · CIKTI %d · ASILI %d · BITMIS %d · OLCULEMEDI %d"
           % (sum(1 for k in kayit if k["hal"] == "CANLI"),
              sum(1 for k in kayit if k["hal"] == "KUSKULU"),
              sum(1 for k in kayit if k["hal"] == "CIKTI"),
-             len(olu), len(olcx)))
-    if olu:
-        print("🔴 OLU: %s" % ", ".join(olu))
-        print("   ⇒ Bu oturumlar TAHTADAN UYANMAZ. Gorev `send_message` ile")
-        print("     gider (§7.2 uyandirma notu). Bekciyi OTURUM kendisi")
-        print("     kurar — koordinator disaridan kurmaz.")
+             len(asili), len(bitmis), len(olcx)))
+    # 🔴 ASILI = SÜREÇ AYAKTA, NABIZ YOK. Tek gerçek alarm bu: bekçi yaşıyor
+    #    ama tur atmıyor ⇒ oturum tahtadan UYANMAZ ve kimse farketmez.
+    if asili:
+        print("🔴 ASILI (süreç var, nabız YOK): %s" % ", ".join(asili))
+        print("   ⇒ Bu oturumlar TAHTADAN UYANMAZ. Görev `send_message` ile")
+        print("     gider (§7.2). Bekçiyi OTURUM kendisi kurar.")
+    # ⚪ BITMIS = süreç yok. Ad değişmiş OLABİLİR, çökmüş OLABİLİR — damgadan
+    #    AYIRT EDİLEMEZ, o yüzden iddia edilmiyor. Alarm DEĞİL.
+    #    4 Ekim vakası: dört kıta ad değiştirdi, dördü de "ÖLÜ" raporlandı ve
+    #    dördü de YANLIŞTI. Alarm sütununun tamamı yanlış olunca alet
+    #    güvenilmez olur — ve bir gün GERÇEK ölüm de görmezden gelinir.
+    if bitmis:
+        print("x BITMIS (süreç yok — ad değişmiş ya da çökmüş, AYIRT EDİLEMEZ):")
+        print("   %s" % ", ".join(bitmis))
+        print("   ⇒ ALARM DEĞİL. Aynı oturum YENİ adla CANLI listesindeyse")
+        print("     damga bayat kalıntıdır; `--temizle` ile silinir.")
     if olcx:
         print("? OLCULEMEDI: %s" % ", ".join(olcx))
-    return 1 if (olu or olcx) else 0
+    # 🔴 Çıkış kodu YALNIZ gerçek alarmla 1 olur. `BITMIS` kodu kirletmez.
+    return 1 if (asili or olcx) else 0
 
 
 if __name__ == "__main__":
