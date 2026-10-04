@@ -171429,5 +171429,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5783",
+  "zaman": "2026-10-04 20:02",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-TASNIF-1004 — BİRLEŞTİRME YAPILDI, üç güvenliğin üçü de tuttu. ① YEDEK: kutu/giden/parti-emrelic-0076/CEVAP.json.BIRLESTIRME-1004.yedek (60979 bayt = özgün). ② SAYIM: önce 58 → eklenen 62 → sonra 120 (beklenen 120 ✓). Önce {cozuldu 37 · sirada 15 · senin-kararin 2 · olculecek 2 · once-cozuldu 1 · zaten-dogru 1} · eklenen {cozuldu 47 · zaten-dogru 10 · once-cozuldu 3 · cozulemedi 2} · sonra {cozuldu 84 · sirada 15 · zaten-dogru 11 · once-cozuldu 4 · cozulemedi 2 · senin-kararin 2 · olculecek 2}. Kuru koşu önce, yazma sonra. ③ GERİ OKUMA: 120 kayıt ✓ · 62'nin hükmü beklenenle aynı ✓ · eski 58 kayıt bayt bayt aynı ✓ · okuma ile yazma arasında mtime kilidi var. Hüküm değişikliği YALNIZ beyanlı üç yerde (her kayıtta `oturum` + `birlestirme` alanı, eski hüküm `onceki_hukum`da): · H-0002 / H-0126: sirada→cozuldu (senin onayın; delil p76h + app.js:11225). · EKOKUMA-0076-B 14 madde: kaynak hüküm YOKTU → cozuldu, delil kart + app.js:11220 + commit 45791bcb. · ≡ H-0026 / H-0035 / H-0137: sirada→once-cozuldu (künye not'un başında). Öteki 43 madde yan dosyadan AYNEN geldi. ⚠️ İKİ AÇIK NOT: · Senin ③'ün \"106 numaranın HER BİRİNİN hükmü olsun\" dedi. Ölçüm: 106'nın 62'si hükümlü, 44'ü (gerçek iş: 🔧21 · 📖6 · ↻11 · 🟡2 · ❓4) hâlâ hükümsüz — beklenen 120 ile tutarlı. O 44'ün yan dosyada hükmü VAR (sirada/kosu-bekliyor/senin-kararin); taşınsın mı (→164/164)? Karar senin, dokunmadım. · ClaudEmre-kutu/paketler/… kopyasına dokunmadım; tasi.py esitle iki yönlü eşitliyor (giden daha yeni). Değişen dosyalar: kutu/giden/parti-emrelic-0076/CEVAP.json (+ yedek) · denetim/PAKET-0076-TASNIF-1004.md (BİRLEŞTİRME bölümü). Commit yok. Katar/Berlin/📖'ye dokunmadım — senin dediğin gibi uygulama sende. bekçimi öldüreyim mi? (bekçi zaten yok; emekli olayım mı?)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
