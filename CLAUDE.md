@@ -17,6 +17,7 @@ oturumda" değildir (4 belge = 440 KB/oturumdu; 17 Eylül 2026 token kararı, Em
 | `dersler/DIZIN.md` + `D*.md` (kuralların vakaları) | kural TARTIŞILINCA — toplu okunmaz |
 | `ONCELIK.md` (neyi önce/hiç, çöl seyyahı) | kapsam sorusunda ÖNCE bak, gerekirse itiraz et |
 | `YOL-HARITASI.md` · `YAPILACAKLAR.md` (nereye · iş sırası) | koordinatör; işçi şartnamesi derse |
+| `oturumlar/TOPOLOJI.md` (5 makine · roller · TİP1-5 · **birleştirme düzeni**) | 🔴 EMRELIC DIŞINDA bir makinedeysen ŞART · koşu/yayın/push yapacaksan ŞART |
 | `MIMARI.md` · `VERI-YAPISI.md` (motor · şemalar) | motora / veriye dokunacaksan ŞART |
 | `BES-ALTYAPI.md` (5 altyapı unsuru, `ALTYAPI.md §0` yerine) | altyapı sorusu |
 | `DURUM.md` · `OGRENILENLER.md` · `ETIKETLEME.md` | adıyla sorulursa |
@@ -207,7 +208,20 @@ Bölme ölçütü **dosyadır**; her dosyanın tek sahibi var. Oturum 0 (koordin
 `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, kök `*.md`. Öteki oturumlar
 şartnamelerinin verdiği dosyalara yazar; **emin değilsen sor**; rapor/denetim oturumları
 düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
-- **`uret_petek.py`yi yalnız Oturum 0 koşturur.** Koşu sürerken `data/` VE `arac/`
+- 🆕 🔴 **MAKİNE ROLLERİ (Emre, 4 Ekim 2026) — `oturumlar/TOPOLOJI.md`.** EMRELIC
+  koordinatör/paketleyici/plan · **HAVVA koşucu + yayıncı** · UMIT yazıcı (kod) ·
+  KASA araştırmacı (yalnız metin) · LAB denetleyici. Çalışma tipleri TİP1–TİP5.
+  **İki eski kuralı değiştirir:** ① koşuyu artık HAVVA koşturur (aşağıdaki
+  "yalnız Oturum 0" satırı TİP1 içindir) ② motor tuzu donması makineler arası
+  olduğu için SÖZ YETMEZ — koşucu `py arac/kaynak_durum.py kapat --kod KOSU`
+  ile ilan eder, UMIT'in yazıcı oturumları bekçi **çıkış 3** alıp durur.
+  🔴 **Ve `main`in TEK YAZICISI koordinatördür:** her makine kendi dalına push
+  eder. Ölçüldü (4 Ekim): son 200 commit'in **%39'u tahta mesajı**, en çok
+  değişen iki dosya `TAHTA.md`+`tahta.json` (üçüncünün 8 katı) — UMIT'i
+  kilitleyen sınıf buydu. KASA dal kullandı, çatışma 0; UMIT `main`e yazdı,
+  kilitlendi. Üretilen `data/*.js` çatışması **birleştirilmez, yeniden
+  üretilir**.
+- **`uret_petek.py`yi yalnız Oturum 0 koşturur** (TİP1; TİP3+ için HAVVA — üstteki satır). Koşu sürerken `data/` VE `arac/`
   donmuştur; motorun "girdi dosyaları SERBEST" satırı koşunun sağlığını söyler, çıktının
   yayınlanabilirliğini değil. Koşular ayrı worktree'de koşar. Başlatan "girdi kilitli" /
   bitince "dosya senin" der; devir sözle yapılır.
