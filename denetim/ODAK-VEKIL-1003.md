@@ -319,3 +319,62 @@ Bar→Ukrayna ve Cassel→Almanya için ÜLKE düzeyi soru gerekir ("o gün o no
 taraflarından biri mi?" — `suzgec.js` ile ölçülebilir, yazılmadı). ölçülemedi ≠ temiz.
 ⚠️ Kapsam: alet yalnız 7 once1281 dosyasını tarar (kutular onlar için tanımlı). Kapıya (`denetle_yayin.py`)
 BAĞLANMADI — o dosya koordinatörün.
+
+## 11. ② UYGULAMA — 132 vekil `odak_yer` değeri / 123 madde SİL (M-5740 sonrası hüküm)
+Kapsam: (b) 126 + (c) 5 + (a) 1 (dogu_asya #49 Hakata — kısmi eşleşme de SİL, koordinatör hükmü).
+### Öngörü — yazmadan ÖNCE (D254), gerçek `odak_cozum.js` yamalı kopyasıyla ölçülmüş
+```
+dosya          ODAKSIZ önce → sonra
+afrika                0 → 0     (#34 Hayderan: ikinci odak "Kayrevan" kalıyor)
+anadolu              74 → 74
+avrupa               19 → 91    (+72)
+dogu_asya             0 → 18    (+18)
+hint_amerika         45 → 45
+iran                  0 → 32    (+32)
+ortadogu             52 → 52
+TOPLAM              190 → 312   (+122) · KUTULU 287 → 165 · kırık atıf 0 → 0
+```
+⇒ `denetle_yayin.py` beklentisi: tavan 438 DEĞİŞMEZ (bu 7 dosya tavanın evreninde değil);
+YENİ KAPSAM 209 → **331** (+122; koordinatörün "330" hesabına #49 eklendi).
+**Beyan:** hedef nokta havuzda YOK (d/v/s taşımıyor) ya da kaynak iki yer sayıyor; odaksızlık
+BEYANLI borç, yanlış odak SESSİZ kusur — `D257`. `ODAK-TAVAN.json`a dokunulmadı, `--tavan-yaz` yok.
+
+### Ölçüm — yazdıktan SONRA (`odak_olc.py --dosya` + `denetle_yayin.py`)
+```
+dosya          ODAKSIZ önce → sonra   öngörü
+afrika                0 → 0           0   ✓
+anadolu              74 → 74          74  ✓
+avrupa               19 → 91          91  ✓
+dogu_asya             0 → 18          18  ✓
+hint_amerika         45 → 45          45  ✓
+iran                  0 → 32          32  ✓
+ortadogu             52 → 52          52  ✓
+TOPLAM              190 → 312         312 ✓   · kırık atıf 0 (yeni 0; beyanlı bilinen borç 1 = Ogaden)
+denetle_yayin.py:  ✓ ODAKSIZ 438 (tavan 438) — DEĞİŞMEDİ
+                   ⓘ YENİ KAPSAM: tavanın evreninde OLMAYAN 8 dosyada 331 odaksız   ← öngörü 331 ✓
+```
+Yazılan değer 132 (afrika 1 · avrupa 72 · dogu_asya 19 · iran 40) · 123 kayıt · `node --check` 4/4 temiz.
+Yazıcı: kayıt `b` ALANIYLA bulunur (aynı metin `d`'de geçebildiği için ilk denemede avrupa #89'da DURDU —
+"tekil değil" — ve o dosyaya HİÇ yazmadı; afrika o koşuda tamamlanmıştı, ikinci koşuda atlandı).
+`ODAK-TAVAN.json`a dokunulmadı.
+
+## 12. ③ Ülke düzeyi kapı ölçütü — YAZILMADAN ÖNCE SAYIM (M-5740 ③)
+Ölçüt: alan değerinin `adKonumBul` ile çözüldüğü noktanın O GÜNKÜ sahibi (`SUZGEC.sahipAnahtari` +
+`sahipKimlikte`) maddenin taraflarından (`devlet` ∪ `taraflar` ∪ `devletler` ∪ dosya künyesi) biri mi?
+Evren: `index.html`in yüklediği 183 kronoloji/olay dosyası · 7.827 alan değeri.
+```
+ölçülemez — taraf alanı yok          1.989
+ölçülemez — nokta o gün SAHİPSİZ     1.233
+çözülmüyor                               0
+TUTUYOR (sahip taraflardan biri)     3.109
+🔴 ÖTERDİ                            1.496   (ölçülebilenin %32'si)
+```
+Örneklerin hepsi MEŞRU: Akkoyunlu'nun Trabzon/Erzincan/Mardin seferleri (saldırılan yer düşmanın
+toprağıdır) · Prusya elçiliği İstanbul'da · künye kimliği farkı (`brandenburg-prusya` taraf, Berlin'in
+sahibi `prusya` — aynı polity'nin ardıl künyesi). En çok öten: fransa 83 · iran 76 · doğu afrika 75 ·
+macaristan 58 · mısır 55.
+⇒ **HÜKÜM: bu ölçüt bir GÜRÜLTÜ kaynağıdır, kapı olarak YAZILMAMALI** — koordinatörün öngörüsü
+(M-5740 ③) ölçümle doğrulandı. Fetih/sefer/elçilik maddesinde olay yeri tanım gereği karşı tarafın
+toprağıdır; ölçüt bunu ayırt edemez. Bar/Kassel sınıfı (kıta içi yanlış çözüm) için doğru soru
+"sahip taraf mı" değil, "aynı adı taşıyan BAŞKA bir nokta var mı ve yer metni hangisini anlatıyor"dur —
+yani `D256`nın ad-belirsizliği sorusu (çok eşli ad listesi), bu raporun §3'ündeki gibi.
