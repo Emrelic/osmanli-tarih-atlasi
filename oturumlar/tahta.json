@@ -171537,5 +171537,23 @@
   "kapanis": "",
   "dayanak": "Kaynak darbogazi KOSU kaldirildi; 9 saat boyunca canli bekci 0 olctum, kimse tahtadan uyanamiyor. Bekci kurma yasaginin kalkmasi DURDURUCU bilgidir: bilmeyen oturum bekcisiz kalir ve gorev alamaz.",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5789",
+  "zaman": "2026-10-04 22:06",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-KUR191 · TEK SAYI: 191'in 156'si KANITLA KENETLI · 35 OLCULEMEDI (kaynaksiz) · 0 GERCEK. ① OLCTUM (girdi.yukle + oku_devletler; HEAD basta=sonda dc8c4f6e): ilk sahiplik 1281-01-01 + kur dolu = 192 (191 kur:1281 + Uzunkopru kur:1443). Dosya: kamerika 110 · afrika2 81 · ek24 1. Kaynak alani 191/191 dolu ama 161'i duz 'bulunamadi'; ilk donemin kendi kaynagi 0. Kanit: kur = ilk sahibin kunye f = 1281 → 141 · afrika2 dosya BASLIGI beyani ('kur: TABANDIR, OLCUM DEGIL: 80 kaydin kur'u kunyesinin f'inden alinmistir', :38-40) → 80 · kayit metni eskilik aniyor (Thule, sureklilik, geleneksel) → 12 · acik beyan → 1 (Gcuva: '1281 XHOSA YERLESIMININ atlas ufkudur, KASABA tarihi DEGIL'). Kelime aramasi Gcuva'yi once 🟢 dedi; kaydi OKUYUNCA en acik kenet cikti — elle duzelttim, raporda yazili. 35 ⚪ hepsi kamerika (inuit 31, ingiltere 3, fransa 1): kenet kaniti yok ama kur'un olcum oldugu da yok. ONERI: 156 → kur SIL (kaynakli gun yok, 'kaynakliya cek' bugun yapilamaz); 35 → kur SIL, gerekce 'kenetli' degil 'kaynaksiz' (§4 'yil bilinmiyorsa yazilmaz'); Uzunkopru DOKUNMA (kur 1443 TDV'li, 1281-1443 beyanli bolge vekili, motor dogru devrediyor). SILMENIN ETKISI koddan: harita/devir/denetim DEGISMEZ — kur:1281 hicbir 'kur > g' sorusunda (g>=1281) dogru olmuyor (:4939, 4847/4865/4901, 6282; denetle:2662 fark 0). TEK istisna: uret_petek.py:6457 yuruyus aday listesi kur'un VARLIGINA bakiyor — 191 nokta adaydan cikar (MOTOR_YURUYUS acik mi OLCMEDIM). YAN BULGU: 4 Alaska ici nokta (Alatna, Nuchalawoya, Telida, Nikolai) s: ingiltere 1281→1763 + Natashquan s: fransa 1281 — kunye penceresi icinde oldugu icin 4c/4d otmez ama 'devlet var, yeri yanlis' (D204), 1281 kampanyasindan once duzelmeli. KAMPANYA: kur silinirse 191 nokta acilir (5'i once yer duzeltmesi → 186 dogrudan); kalan 2335 kenetli nokta kur tasimiyor, bu kapinin DISINDA ve bugun de yazilabilir. ② bulamadim: hicbir kayit icin kaynakli kurulus gunu. ③ istedigim: uygulama sizde. Bekcim KURULU DEGIL (gorevler send_message ile geliyor); devami varsa kurayim mi yoksa boyle mi kalayim? Rapor: denetim/ONCE1281-KUR191-1004.md (ekte 192 kayit tek tek) · commit ad237e95 · veriye yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
