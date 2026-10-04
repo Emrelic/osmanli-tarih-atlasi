@@ -169863,5 +169863,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5753",
+  "zaman": "2026-10-04 04:46",
+  "kimden": "TAHTA-WEB",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · TAHTA-WEB · dal makine/tahta-web (0ec4b29d, sinav muhru 9b40207a) · worktree C:/atlas-tahta-web ① OLCTUM - Sinav denetim/ARAC-TAHTA-SUNUCU-SINAV-1004.py: 26/26 OK, iki yonde, gercek sunucu sureci + gercek tahta.py/tahta_bekci.py alt surecleri, gecici dizinde (gercek tahtaya 0 yazim). Ongoru kosudan ONCE commitlendi (9b40207a). - ④ KABUL: 20 ESZAMANLI tahta.py yaz -> 20 AYRI numara (M-0004..M-0023), sunucu dosyasinda 23 kayit, mukerrer 0. Ters yon: eski yol (bayat kopya, len+1) iki makineye AYNI numarayi veriyor (M-0011) — kilit sinifi olculerek gosterildi. - ①② jetonsuz/yanlis jeton 401 · ③ 8.8.8.8 403, loopback 200, ::ffff:8.8.8.8 RED · ⑤ son_no ve kim suzgeci · ⑥ olu port: cikis 0 + \"SUNUCUYA ULASILAMADI — YEREL yazildi, catisma riski GERI DONDU\" + yerel dosya + kuyruk; sunucu acikken uyari 20 yazimin 0'inda; kuyruk sonraki yazimda teslim, ayni yerel_kimlik ikinci kez mukerrer YAZILMADI · ⑦ 13 eski cagri aynen (yaz --mesaj / --mesaj-dosya, oku, teyit, tamam, kapat, bekleyen, teyitsiz, kimler, kullanim=2, ACIL HERKES dayanaksiz=2), eski surumun 18 bayragi yenide var · ⑧ bekci sunucudan okur: kendi adina mesajda cikis 0, baskasininkinde uyanmadi, nabiz kaynak=sunucu, KAYNAK-DURUM yasagi cikis 3, muaf kuruldu. Eski ARAC-BEKCI-NABIZ-SINAV-1003 de temiz. - Gercek boyut (17 MB tahta kopyasi, 5752 mesaj): yaz 0,75-2,2 sn · oku --kim 1,4 sn (suzme sunucuda) · bekleyen (tam indirme, gzip) 3,1 sn. Bekci her turda yalniz son_no sonrasini ceker. - Sinavin ilk kosusunda 8' HATA verdi: SINAVIN kusuruydu (regex group(0)), alet dogruydu; duzeltildi, dosyada yazili. ② BULAMADIM / YAPMADIM - Git'ten cikarma (gitignore + git rm) YAPILMADI — sartname §3, kesme ani senin. - Sunucu BASLATILMADI, otomatik acilis (acici_kur gibi) YAZILMADI — kesmeyle birlikte karar. - EMRELIC'te 8788 icin guvenlik duvari kurali YOK (acici 8787 icin acici_kur.py:110 elle New-NetFirewallRule diyor) — yonetici yetkisi, Emre. ③ ISTIYORUM / ONERIYORUM - KESME AYNI ANDA OLMALI: yeni tahta.py main'e indigi an sunucu EMRELIC C:/atlas/oturumlar/tahta.json'a yazar; dosya hala izleniyorsa EMRELIC'teki her git pull \"unstaged changes\" ile duser (bugun HAZIRIM mesajimda tam bu oldu). Sira: ① sunucuyu baslat (py arac/tahta_sunucu.py) ② merge + tahta.json/TAHTA.md gitignore + git rm ayni commit ③ guvenlik duvari 8788. - .gitignore'a ek: oturumlar/tahta_sunucu.log · oturumlar/tahta_kuyruk.json · oturumlar/*.kilit (benim dosyam degil). - ag.json'a istege bagli \"tahta_sunucu\": \"<IP>:8788\"; yoksa makineler.EMRELIC + 8788 kullaniliyor. EMRELIC evdeyken (192.168.0.x) eczane makineleri ulasamaz -> beyanli dusus + kuyruk; kalici cozum sunucuyu sabit IP'li bir makineye (HAVVA?) almak — ayar degisikligi, kod degil. - Ayrinti: arac/tahta.py basindaki TAHTA SUNUCUSU ISTEMCISI blogu. DEGISEN: arac/tahta_sunucu.py (yeni) · arac/tahta.py · arac/tahta_bekci.py · denetim/ARAC-TAHTA-SUNUCU-SINAV-1004.py bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "makine/tahta-web 0ec4b29d",
+  "aciliyet": "NORMAL"
  }
 ]
