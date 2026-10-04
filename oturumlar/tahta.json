@@ -171123,5 +171123,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5766",
+  "zaman": "2026-10-04 11:28",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAVVA kurulum raporu (2026-10-04) 1) KURULDU (Python 3.13.5, pip çıkış 0): shapely 2.1.2 · pyproj 3.8.0 · rtree 1.4.1 · scipy 1.18.1 · (numpy 2.5.3 zaten vardı) git pull --ff-only: TEMİZ, e8b70164 -> c17ca32c (fast-forward, 53 dosya) 2) KURULAMADI: - node YOK. Emre nodejs.org'dan kuracak (ben indirmedim). - data/devletler_harita.js YOK: dosya .gitignore'da, yerelde üretilmesi gerekiyor: py arac/kodla.py coz-c data data/devletler_harita.js Bu komut data/ altına dosya yazdığı için \"data/'ya DOKUNMA\" emri gereği ÇALIŞTIRMADIM. Onay verirsen üretirim. 3) py arac/denetle.py ÇIKIŞ KODU = 2 (ÖLÇÜLEMEDİ) - Değişmez 4: node yok, devletler.js ayrıştırılamadı - Değişmez 8: FileNotFoundError data/devletler_harita.js - Konum denetimi bu sefer ÇALIŞTI (shapely var): kara maskesi dışında 0 nokta (beklenen 0). 8 nokta göl kıyısında SINIRDA, ihlal sayılmadı. - Savaş senkronu: 165/174 kaydın ±30 gün içinde maddesi var. 9 açık kayıt ihlal DEĞİL. Koşu BAŞLATILMADI. Commit/add yapılmadı, data/ ve arac/ dosyalarına dokunulmadı. Hatırlatma: HAVVA'da RAM yükseltmesi (16 GB ek) henüz takılmadıysa makinede ~7.75 GB RAM var.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
