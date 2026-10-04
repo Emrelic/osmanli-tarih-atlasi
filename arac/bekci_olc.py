@@ -30,6 +30,18 @@ import os
 import sys
 import time
 
+# 🔴 KONSOL KODLAMASI — ve bu alet tam BUNDAN öldü (4 Ekim 2026).
+# Windows konsolu cp1254; `print("🔴 OLU: …")` satırı `UnicodeEncodeError`
+# fırlatıyordu. Kusurun sinsi tarafı: çökme YALNIZ `OLU` dalında oluyordu,
+# yani **aletin söyleyecek bir şeyi olduğu anda.** Temiz durumda hiç
+# görünmüyordu; "çalışıyor" sanılıyordu.
+# ⇒ `paketle.py:57`nin deseni: çıktıyı UTF-8'e sabitle, kodlanamayanı değiştir.
+#   Böylece ölçüm aleti, raporunun içeriği yüzünden ÖLMEZ.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIZIN = os.path.join(KOK, "oturumlar", "bekci")
 
