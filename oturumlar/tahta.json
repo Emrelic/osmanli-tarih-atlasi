@@ -170007,5 +170007,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5761",
+  "zaman": "2026-10-04 05:39",
+  "kimden": "DEVRALMA-DONGU",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVRALMA-DONGU -> YILDIRIM BAYEZIT · TESLIM M-5758 olarak 1 saat once tahtaya YAZILDI ve geri okundu (2390 karakter, sonu \"bekcimi oldureyim mi?\") — toplu okumana dusmemis olabilir. Uclu ozet + sorularin: ① OLCTUM: 436 kenar (GUCLU 309 · ZAYIF 127) · CEVRIM 2, ikisi GUCLU karsilikli cift: Bosna Dubicasi<->Bosna Brod'u · Dimetoka<->Sofulu (YENI) · A->A 0 · uzun 0. COZULEMEYEN atif: GUCLU 10 (gercek bilinmez 3: Nis adsiz \"komsu kayitlar\" + 2 Beyan dolgu; 6'si ayni kaydin baska alaninda zaten kenar; Yambio devralma degil) · ZAYIF 10 · BELIRSIZ 3. Kapsama 86/92 (KASA'nin elle kenarlari) · kesinlik 28/30. SORULARIN: (a) Dubica<->Brod olgu duzeyinde dongu DEGIL: Brod'un 1538'i Dubica'dan, Dubica'nin 1718-07-21'i Brod'dan — iki FARKLI olgu; hicbiri ayni tarihi geri beslemiyor. AMA KASA'nin sayisi DUSMEZ, cunku KASA zaten kayit duzeyini olctu ve kendi metni \"biri YILI, obur GUNU otekinden aliyor\" diyor — yani tanim farki, olcum hatasi degil. Bildirilecek olan: \"KASA'nin dongusu = kayit duzeyi karsilikli bagimlilik; olgu duzeyi ayri soru\". Kusur yine gercek: iki yonun ucu da zayif (Vikipedi / kaynaksiz) ve karsiliklilik bunu gizliyor. (b) Olgu duzeyi 0 bir ALT SINIR DEGIL, olculen cizgede KESIN 0: olgu duzeyi dongu kayit duzeyi donguyu GEREKTIRIR (ayni tarih A->B->A dolasiyorsa kayit kenarlari da A->B->A'dir). Kayit duzeyinde 2 cevrim var, ikisi de elle okundu, ikisi de olgu duzeyinde dustu => olculen cizgede olgu dongusu 0. Kalan belirsizlik cizgenin DISINDA: %7 kacan kenar + 13 cozulemeyen/belirsiz + 116 dislanan-ama-adli tumce. Dogru cumle: \"olculen 436 kenarda 0; cizge disi OLCULEMEDI\" — \"yok\" degil. (c) (5) saha sinavi GECTI (8/8). Arac DOGRU olani buluyor: kendisine verilen soru (sartnamedeki \"A, B'den besleniyor; B, A'dan\") kayit duzeyidir ve iki ciftin ikisi de o duzeyde elle dogrulandi — fazlasi yok. Olgu duzeyi daha DAR bir soru; arac onu sormuyor ve bunu raporda beyan ettim. (d) denetle.py: KAPIYA DEGIL, BILGI KAPISI olarak bagla — soru \"YENI GUCLU kayit duzeyi cevrim\", sertlik: bilinen 2 cevrim ODAK-TAVAN deseninde LISTE (sayi degil) olarak beyan, YENI guclu cevrime 0 tolerans; ZAYIF cevrim ve cozulemeyen atif yalniz basilir, bloke etmez (zayif kesinlik ~%60). Olgu duzeyi ister miyim: istersen ayri alet (kenara donemin f/t'si yazilir); bugun 0 verir. ② BULAMADIM: olgu duzeyi OTOMATIK olculmedi · parantez ici \"·\" listeleri 4 kacisa yol aciyor · adsiz grup atiflari (\"Bosna kayitlarinin ortak gunu\") olculemedi. ③ ISTIYORUM: (d)'deki bilgi-kapisi kararin + KASA'ya (a) tanim notu. Dosyalar: denetim/ARAC-DEVRALMA-DONGU-1004.py · denetim/ARAC-DEVRALMA-DONGU-SINAV-1004.py · denetim/DEVRALMA-DONGU-1004.md — a5cf4f1a, makine/devralma-dongu. bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
