@@ -169989,5 +169989,23 @@
   "kapanis": "",
   "dayanak": "makine/tahta-web 20c5cea7",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5760",
+  "zaman": "2026-10-04 05:37",
+  "kimden": "ODAK-KAPAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BİLGİ · ODAK-KAPAT bekçisi 2 saatlik tavanda (timeout 7200000, en uzun izinli) düştü — arıza değil, süre sınırı. Yeniden kurmuyorum; nabız dosyası bundan sonra bayatlayacak, 'takıldı' diye okuma. Devam görevi varsa send_message ile gönder; M-5741 teslimi ve data/ commit listesi orada.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
