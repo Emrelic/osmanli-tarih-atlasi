@@ -20,6 +20,87 @@ Soru her satırda: **"Komşunun devralınan bilgisi, komşunun KENDİ kaynağın
 - Jadlā''nın 1918-10-30 günü için komşu Akçakale'nin kaynağı "bulunamadı … KAYNAKSIZ" ⇒ koordinatörün tespit ettiği gibi 1. şart düşüyor. 1281 zinciri için de Akçakale'nin kaynak alanı hiç yok.
 - **İstiyorum:** C içindeki 28 `sinir_*` kaydı için hüküm. "Dönem zinciri de §4 kapsamında beyanlı devralınabilir" (proje kararı) mı, yoksa "yalnız gün" (`D210`) mi? Kova sayıları bu karara göre değişir. A'ya en çok 2 kayıt geçer; ötekilerin komşusu kaynaksız ya da zayıf.
 
+## (c) 17 GÜN SATIRI — kapanış ölçümü + ④ 🟢 uç açıldı (4 Ekim, ikinci tur)
+Her satırda dört şart ölçüldü:
+- **devralınan ALAN**
+- **günün dayandığı kaynak:** komşu kaydı mı, külliyat olay maddesi mi, kaydın kendi kaynağı mı
+- **mesafe:** `girdi.km` ile ölçüldü
+- **aynı olay/süreç** mi
+
+📌 Yeni bulgu: 17 günün çoğu komşu kaydın kendi icadı değil, **külliyatın olay maddesi.** Komşu yalnız taşıyıcı. Bu yüzden 1. şartı sorarken komşu kaydın kaynağına değil, **günün olay maddesine** baktım (`olaylar*.js`'teki maddenin `kaynak:` alanı):
+
+| gün | olay maddesi | maddenin kaynağı |
+|---|---|---|
+| 1444-08-01 | olaylar_ek · Edirne-Segedin hükmü (gun: "Ağustos 1444" ⇒ AY hassasiyeti) | semendire + nis + alacahisar + sehirkoy + pristine |
+| 1516-09-27 | olaylar_ek5 · Şam'ın Osmanlı hâkimiyetine girişi | selim-i |
+| 1689-09-24 | olaylar_ek3 · Niş ve Vidin'in kaybı | nis |
+| 1690-09-09 | olaylar_ek3 · Niş, Vidin, Belgrad geri alındı (gun: "Eylül-Ekim 1690") | belgrad |
+| 1793-01-23 | olaylar_ek16 · II. Paylaşım | **bulunamadı** |
+| 1913-05-30 | olaylar · Londra Antlaşması | balkan |
+| 1913-08-10 | kronoloji_balkan / olaylar_2s · Bükreş Antlaşması | (ölçülmedi) |
+| 1913-11-14 | olaylar_ek5 · Atina Antlaşması | yunanistan |
+| 1920-05-27 | olaylar_ek6 · Gümülcine'nin işgali | gumulcine |
+| 1884-11-03 | **külliyatta YOK** | — |
+
+⚠️ Maddenin `kaynak:` alanı, madde bloğunun ilk 4000 karakterinde arandı. Bir maddenin alanı yoksa komşu maddeninki okunmuş olabilir; slug'lar konuyla uyumlu.
+
+### Satır satır
+| ad | alan | günün dayandığı | mesafe (ölçüldü) | aynı süreç | YENİ KOVA |
+|---|---|---|---|---|---|
+| Başkale | GÜN 1548-08-24 | kaydın kendisi: TDV `van` | Van 74.1 km | İŞARET (köyün Van'la aynı anda geçtiği kaynakta yok) | **A** |
+| Çaldıran | GÜN 1548-08-24 | kaydın kendisi: TDV `van` | Van 84.5 km | İŞARET, aynı | **A** |
+| Şeyhrumi | GÜN 1548-08-24 | kaydın kendisi: TDV `van` | Van 80.8 km | İŞARET, aynı | **A** |
+| Gümülcine | GÜN 1913-05-30 · 1920-05-27 | olay: Londra (balkan) · Gümülcine işgali (gumulcine) | Sofulu 75.2 · Dedeağaç 49.7 | evet (TDV `gumulcine` olayı veriyor) | **A** |
+| Chenzhou | GÜN 1674-03-26 · 1679-03-24 | kaydın kendisi: 清史稿 卷6 (Hengyang'ın da kaynağı) | Hengyang 132.2 km | evet, aynı sefer (Wu Sangui 1674) | **A** |
+| Garapan | GÜN 1668-06-16 | kaydın kendisi: Guampedia | Hagåtña 219.1 km | ⚠️ cümle Guam'a varışı anlatıyor, Saipan'ı değil; "Marianalar misyonu" çerçevesi kaydın yorumu | **A** (süreç şüpheli) |
+| Kragujevac | GÜN 1689-09-24 · 1690-09-09 | olay: nis · belgrad | Niş 110.6 · Vidin 157.1 | evet, aynı Habsburg seferi; ⚠️ madde Kragujevac'ı adıyla anmıyor; 1690 maddesinin günü "Eylül-Ekim" | **A** (mesafe >100 km) |
+| Çaçak | aynı | aynı | Niş 139.8 · Vidin 202.5 | aynı | **A** (mesafe >100 km) |
+| Niş | GÜN 1444-08-01 | olay: Segedin (nis dahil); "komşu kayıtlar" aslında bu madde | — | evet | **A**: devralma değil OLAY GÜNÜ; AY hassasiyeti beyanlı değil |
+| Ba'lebek | GÜN 1516-09-27 | olay: Şam'ın girişi (selim-i) | Şam 55.3 km | evet (kendi TDV `balebek`: 1516 Suriye seferi) | **A** |
+| Sûr | GÜN 1516-09-27 | olay: aynı | Şam 104.7 km | evet (kendi TDV `sur--lubnan`: Mercidâbık sonrası) | **A** (mesafe >100 km) |
+| Drama | GÜN 1913-05-30 · 1913-08-10 | olay: Londra · Bükreş | Kavala 31.9 · Praviște 27.6 · Serez 51.0 | evet (TDV `drama`) | **A**, ama ⚠️ BEYAN METNİ HATALI: "üçü de 1913-06-28 kullanıyor" diyor, oysa veride de külliyatta da 1913-06-28 YOK; "Kavala 18 · Praviste 24 · Serez 34 km" diyor, ölçülen 31.9/27.6/51.0 |
+| Braslav | GÜN 1793-01-23 | olay maddesinin kaynağı **bulunamadı**; Vinnitsa'nın IEU kaynağı yalnız YIL (1793) | Vinnitsa 57.0 km | evet (aynı paylaşım) | **D** (günün kaynağı yok) |
+| Filorina | **YIL** 1334 · 1385 + GÜN 1913-11-14 | 1334/1385: Kesriye'nin TDV'si (Kesriye için) ve Manastır'ın TDV'si (kayıt doğrudan anıyor) · 1913-11-14 olay: Atina | Kesriye 31.6 · Manastır 28.4 · Vodina 53.7 | — | **C'ye geçer**: Filorina'nın kendi TDV'si yok; 1334/1385 komşunun YILI |
+| Vanimo | GÜN 1884-11-03 | **külliyatta YOK**; Herbertshöhe'nin kaynağı (NLA) yalnız YIL 1884; Madang boş | Herbertshöhe **1231.5 km** · Madang **572.9 km** | aynı ilhak | **B — KESİN İHLAL** (yakınlık düşüyor + gün kaynaksız). Kayıt "600 km" diyor; bu Madang'ın mesafesine yakın, Herbertshöhe ise iki katı uzakta |
+| Dimetoka | GÜN 1913-05-30 · 1920-05-27 | beyan "komşu Sofulu" diyor, ama gün **olay: Londra** · Gümülcine işgali | Sofulu **24.0 km** (kayıt "12 km" diyor) | — | **E** (aşağıda) |
+| Ferecik | aynı | beyan "Sofulu ve Dedeağaç" diyor, ama gün **olay: Londra** | Sofulu 34.6 · Dedeağaç 25.6 | — | **E** (aşağıda) |
+
+### 🔴 E · YENİ KOVA — "kendi TDV maddesi VAR ve devralınan günlerle ÇELİŞİYOR"
+İki kaydın beyanı "TDV'de müstakil madde ARANMADI" diyor. Aradım: **ikisi de var (HTTP 200)**, ham sayfadan harf harf okundu.
+
+- **Ferecik** — TDV `ferecik`: *"Balkan savaşları ve 1912-1919 Bulgar işgali sırasında Ferecik çok tahribata uğradı."* · *"1919 Ekiminden 1920 Mayısına kadar Ferecik müttefikler adına İtalyan askerlerince, 1920 Haziranından itibaren de Yunanlılar'ca işgal edildi ve bu fiilî durum 1923 Lozan Antlaşması ile hukuken tanınmış oldu."*
+  - Veri: `bulgaristan 1913-05-30 → 1920-05-27` · `yunanistan 1920-05-27 →`
+  - Fark ①: Bulgar başı kaynakta **1912** (fiilî), veride 1913-05-30 (Londra, hukukî).
+  - Fark ②: Bulgar sonu kaynakta **1919**, veride 1920-05-27.
+  - Fark ③: **Ekim 1919 – Mayıs 1920 müttefik/İtalyan işgali veride YOK.**
+  - Fark ④: Yunan başı kaynakta **Haziran 1920**, veride 27 Mayıs 1920 (bu gün Gümülcine'nin olay maddesi).
+- **Dimetoka** — TDV `dimetoka`: *"Osmanlı döneminde (1361-1912)"* · *"Balkan savaşları sırasında ve Bulgar işgalinden sonra Dimetoka bir Türk-İslâm merkezi olmaktan çıktı."* · *"1922'de kasaba Yunanistan'a bağlandı."*
+  - Fark: Yunan başı kaynakta **1922**, veride 1920-05-27 (~2 yıl). §4: "çelişirse TDV esastır."
+  - ⚠️ "Bağlandı" hukukî bağlanma da olabilir, fiilî işgal de; cümle hangisi olduğunu söylemiyor.
+- 📌 Yan bulgu: Sofulu ve Dedeağaç'ın Yunan başı **1920-05-14**; Dimetoka, Ferecik ve Gümülcine'ninki **1920-05-27**. 1920-05-14 külliyatta olay maddesi olarak yok. Yani komşu kayıtlar arasında 13 günlük kaynaksız bir ayrışma var.
+- Önerim (hüküm sende): ikisinde de komşu beyanı kalkar. Günler ya olay maddesine (Londra) ya kendi TDV'sine bağlanır. Ferecik'te eksik müttefik dönemi ve iki uç farkı kayda geçer.
+
+### ④ 🟢 UÇ AÇILDI — Jasenovaç ve Bosna Brod'u: 🟢 DÜŞTÜ
+- **Bosna Dubiçası'nın kaynak alanı:** *"Karlofça Antlaşması birincil metni: '...Dubizza...shall be drawn out...left entirely free'. Fetih: **Wikipedia 'Battle of Dubica'** — 1538."*
+  - ⇒ Karlofça yalnız SINIRI (1699) tarihliyor; ihtiyatım doğruymuş. 1538 fethinin tek dayanağı **Vikipedi**, akademik kaynak değil (`D209`).
+- 🔴 **Daha ağırı:** Jasenovaç ve Bosna Brod'unun **kendi** dönem kaynakları (Hrvatska enciklopedija, `s.kaynak`) fethi **1536** diye veriyor. Kayıtlar "(atlas 1538 — çelişki raporda)" notunu kendileri düşmüş.
+  - ⇒ Kendi akademik kaynakları 1536 derken komşudan Vikipedi'nin 1538'ini almışlar. **Uç 🟢 değil 🔴 (Vikipedi), ve kayıtların kendi kaynağı devralınan yılla ÇELİŞİYOR.** Bu iki kayıt da E niteliği taşıyor.
+- 🔴 **Karşılıklı devralma:** Bosna Dubiçası'nın `avusturya 1718-07-21` dönemi *"gün komşudan: Bosna Brod'u"* diyor; Bosna Brod'unun 1718-07-21 döneminde kaynak alanı yok. Öte yandan Brod 1538'i Dubiça'dan almış.
+  - ⇒ Dubiça ⇄ Brod **iki yönlü** devralıyor: biri yılı, öbürü günü ötekinden alıyor ve hiçbirinin o bilgi için kendi kaynağı yok. Bu bir döngü; derinlik ölçüsü onu yakalayamıyor.
+
+### SAYIM — 17 GÜN satırının yeni dağılımı
+| kova | sayı | kayıtlar |
+|---|--:|---|
+| A | 12 | Başkale · Çaldıran · Şeyhrumi · Gümülcine · Chenzhou · Garapan · Kragujevac · Çaçak · Niş · Ba'lebek · Sûr · Drama |
+| B | 1 | Vanimo (kesin ihlal) |
+| D | 1 | Braslav |
+| E | 2 | Dimetoka · Ferecik |
+| C'ye geçen | 1 | Filorina |
+
+- Önceki tur: A 9 · B 2 · D 6. D kovası 6'dan 1'e indi. Ba'lebek, Sûr, Drama ve Niş "komşu kaynağı zayıf" görünüyordu, çünkü önceki tur günün **olay maddesinden** geldiğini ölçmemişti.
+- 69'un yeni dağılımı: **A 12 · B 1 · C 53 · D 1 · E 2**. C içinde E niteliği taşıyan 2 kayıt daha var: Jasenovaç, Bosna Brod'u.
+- ⚠️ Mesafesi 100 km'yi aşan A'lar: Kragujevac, Çaçak, Sûr, Chenzhou, Garapan. §4'te sayısal bir yakınlık eşiği bulamadım. Eşik hükmü sende; konarsa bu beşi D'ye düşebilir.
+
 ## İLK HÜKÜM (ölçtüm — kovalar yukarıda keskinleştirildi)
 1. **100 "devralma ibaresi"nin 31'i komşudan devralma DEĞİL:**
    - 21 KADEME: `yer_yama_kademe.js`'ten `k:`/`m:` devralması, `s:` ile ilgisiz.
