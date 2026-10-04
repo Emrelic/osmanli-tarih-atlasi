@@ -113,3 +113,10 @@ mi olduğu **ölçülmedi**; hüküm koordinatörde. YENİ KAPSAM 4 birim `--d8-
 LAB'ın denetleyici rolü için Değişmez 8 ve konum denetimi şart: `py -m pip install numpy
 shapely` (ve araç gerektiriyorsa `pyproj`) — kurulum kararı koordinatörde/Emre'de; kurulunca
 `denetle.py` yeniden koşar ve yalnız o iki satır eklenir.
+
+### 3.3 🔴 Ortam düzeltmesi — §3.2'deki koşu
+§3.2'nin `denetle.py` koşusu 12:36'da `main 0e22a060`te arka planda başladı; 12:38:43'te
+çalışma ağacı `lab-odak-1003`e geçirildi ⇒ koşu dal değişimi sırasında sürüyor olabilirdi
+(karışık ortam şüphesi). **Temiz yeniden koşu** (13:04:30–13:06:58, `HEAD=0e22a060` önce ve
+sonra): çıkış **0** · 8a **1517** (tavan 1517) · 725 (hat, gün) · 8b **82** (tavan 82) · konum ✓ 0 ·
+`SONUÇ: temiz` ⇒ §3.2'nin sayıları **aynı**.
