@@ -20,6 +20,38 @@ Soru her satırda: **"Komşunun devralınan bilgisi, komşunun KENDİ kaynağın
 - Jadlā''nın 1918-10-30 günü için komşu Akçakale'nin kaynağı "bulunamadı … KAYNAKSIZ" ⇒ koordinatörün tespit ettiği gibi 1. şart düşüyor. 1281 zinciri için de Akçakale'nin kaynak alanı hiç yok.
 - **İstiyorum:** C içindeki 28 `sinir_*` kaydı için hüküm. "Dönem zinciri de §4 kapsamında beyanlı devralınabilir" (proje kararı) mı, yoksa "yalnız gün" (`D210`) mi? Kova sayıları bu karara göre değişir. A'ya en çok 2 kayıt geçer; ötekilerin komşusu kaynaksız ya da zayıf.
 
+## (c) üçüncü tur — "AYNI OLAY" ölçütüyle yeniden okuma + döngü adayları (4 Ekim)
+Koordinatörün (1) hükmü: yönetici ölçüt **aynı olay/süreç**. Kaynak cümlesi hedef yeri **adıyla** anıyor ya da olay açıkça **bölgesel** ise geçer; anmıyorsa düşer. Mesafe kayda yazılır ama hükmü vermez.
+⚠️ Ölçütü yalnız 100 km'yi aşan beş kayda değil, **A'nın tamamına** uyguladım; ölçüt mesafeden bağımsız olduğu için tutarlılık bunu istiyor.
+
+| ad | olay cümlesi (külliyat ya da kaynak) | hedefi anıyor mu / bölgesel mi | YENİ KOVA |
+|---|---|---|---|
+| Ba'lebek · Sûr | olaylar_ek5: *"…Böylece Bilâdüşşam'ın tamamı Memlük idaresinden çıkmış oldu."* | **bölgesel** (Bilâdüşşam'ın tamamı) | **A** |
+| Gümülcine | Londra (antlaşma) · 1920-05-27 *"Gümülcine'nin işgali"* | antlaşma bölgesel · ikincisi adıyla | **A** |
+| Drama | Londra · Bükreş (antlaşmalar) | **bölgesel** | **A** (beyan metni hatalı, bkz. ikinci tur) |
+| Niş | olaylar_ek: Edirne-Segedin hükmü, *"Semendire ve Sırp kalelerinin Sırbistan'a iadesi"* | antlaşma bölgesel; kaynak slug'larında `nis` var | **A** |
+| Kragujevac · Çaçak | olaylar_ek3: *"Avusturya ilerleyişi Niş ve Vidin'i de aldı…"* · *"…karşı taarruzu Niş ve Vidin'i, ardından 8 Ekim'de Belgrad'ı geri kazandı."* | ✗ adıyla anmıyor. Gün **Niş'in** düştüğü/alındığı gün; antlaşma ya da genel devir değil | **B** |
+| Chenzhou | 清史稿 卷6 '吳三桂陷長沙…旁陷衡州' · ECCP 'recovered Heng-chou and other cities, continuing on into Kwangsi' | ✗ Chenzhou adı yok. "Other cities" belirsiz, bölgesel devir değil | **B** |
+| Garapan | Guampedia: San Vitores'in Guam'a varışı | ✗ olay **Guam**'da, Saipan değil | **B** |
+| Başkale · Çaldıran · Şeyhrumi | TDV `van`: *"…onuncu gün kale fethedildi (24 Ağustos 1548)."* | ✗ olay **Van Kalesi**'nin fethi; köyleri anmıyor. Kayıtların kendisi "İŞARET (doğrudan kanıt değil)" diyor | **D** (gün kaynaklı ama hedefle bağı işaret düzeyinde) |
+
+⇒ **17 GÜN satırının üçüncü tur dağılımı: A 5** (Ba'lebek, Sûr, Gümülcine, Drama, Niş) **· B 5** (Vanimo, Kragujevac, Çaçak, Chenzhou, Garapan) **· D 4** (Braslav, Başkale, Çaldıran, Şeyhrumi) **· E 2** (Dimetoka, Ferecik) **· C'ye geçen 1** (Filorina).
+⇒ 69'un dağılımı: **A 5 · B 5 · C 53 · D 4 · E 2.**
+📌 Başkale, Çaldıran ve Şeyhrumi ikinci turda A'ya geçmişti ("gün kaynağa dayanıyor"). 1. şart için bu doğru; ama yeni ölçüt **4. şartı** (aynı olay) soruyor ve onu karşılamıyorlar. Koordinatörün onayladığı bir ayrımı bu turda geri çekiyorum; sebebi ölçütün değişmesi.
+
+### Döngü adayları (koordinatörün (3) talebi — alet doğrulayacak)
+Yöntem: her kaydın `kaynak:`, `neden:` ve dönem `kaynak:` metinlerinde devralma sözcüklerinin (komşu · emsal · ankraj · devral · hizalandı · kalıp · zincir · ödünç) ±140 karakter çevresinde geçen başka kayıt adları ⇒ yönlü kenar. **515 kenar, karşılıklı 5 çift.** Beşinin bağlamı elle okundu:
+
+| çift | okuma | hüküm |
+|---|---|---|
+| **Bosna Brod'u ⇄ Bosna Dubiçası** | Brod 1538'i Dubiça'dan; Dubiça 1718-07-21'i Brod'dan ("gün komşudan: Bosna Brod'u") | 🔴 **GERÇEK DÖNGÜ** |
+| Aksaray ⇄ Niğde | ikisi de aynı TDV `eretnaogullari` cümlesini alıntılıyor (*"Eretna'nın Aksaray, Niğde, Kayseri ve Sivas'ı…"*) | ortak kaynak, devralma değil |
+| Bender ⇄ Hotin | ikisi de "gün komşudan: **Akkirman**" diyor ve aynı ESBE cümlesini alıntılıyor | ortak üçüncü kaynak (Akkirman), döngü değil |
+| Tengyue ⇄ Yongchang | ikisi de aynı 清史稿 kayıtlarında birlikte anılıyor | ortak kaynak, devralma değil |
+| Arlon ⇄ Neufchâteau | Neufchâteau: *"Arlon ile aynı zincir…"*. Ters yön metinde bulunamadı | tek yönlü devralma (C adayı, bu turda sınıflanmadı) |
+
+⇒ Gerçek döngü **1** (Dubiça ⇄ Brod). Yöntem ad eşleştirmeye dayalı; adı metinde yazılmamış bir komşuya yapılan devralmayı yakalayamaz.
+
 ## (c) 17 GÜN SATIRI — kapanış ölçümü + ④ 🟢 uç açıldı (4 Ekim, ikinci tur)
 Her satırda dört şart ölçüldü:
 - **devralınan ALAN**
