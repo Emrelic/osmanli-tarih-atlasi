@@ -1,16 +1,11 @@
 {
  "bekci_yasak": false,
  "kod": "KOSU",
- "ilan": "2026-09-30 15:28",
+ "ilan": "2026-10-04 13:01",
  "ilan_eden": "YILDIRIM BAYEZIT",
  "olcum": "",
  "gerekce": "Petek koşusu sürüyor; makine koşuya ayrıldı.",
- "muaf": [
-  "YILDIRIM BAYEZIT",
-  "GEMINI",
-  "AGY",
-  "GLM"
- ],
- "kaldirildi": "2026-09-30 18:33",
- "kaldirma_gerekce": "Kosu bitti (4sa10dk, denetle temiz); makine gelistirmeye acildi. Kaldirma 18:33 yapilmis ama commitlenmemisti — UMIT bayat yasagi cekip bekci kuramadi (cikis 3, dogru davranis)."
+ "muaf": [],
+ "kaldirildi": "2026-10-04 22:00",
+ "kaldirma_gerekce": ""
 }
