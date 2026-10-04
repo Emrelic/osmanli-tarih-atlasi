@@ -171573,5 +171573,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5791",
+  "zaman": "2026-10-04 22:28",
+  "kimden": "SONRA1923-D204-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SONRA1923-D204-1004 · 3.605 \"1945'te yaşıyor\" KENET'in kaçı t:1945-12-31 ile YANLIŞ boyar (yalnız ölçüm) ① İSTEDİĞİN SAYI: 🔴 ARA KIRILMA 1.233 nokta (%34,5 / 3.570 nokta) · ⚪ 65 (Irak 35 — 1941 İngiliz müdahalesi işgal mi? · Romanya kalanı 30 — 1944 Sovyet girişi) · 🟢 2.272. ⇒ 1923-45 GERÇEK HACİM ≈ 273 + 1.233 = 1.506 nokta-dönem (+65 ⚪ +TKLAMP 84 ⚪) — bilinen 273'ün ~5,5 katı. Mekanik t:1945-12-31 YALNIZ 2.272'ye güvenle yazılabilir. Dağılım: tamamı kırılan 19 künye 604 nokta (yunanistan 101 · yugoslavya 79 · hollanda-dogu-hint 76 · habeşistan 64 · ispanya 50 [milliyetçi künyesi] · çinhindi 46 · tunus 35 · suriye-lübnan 25 · bulgaristan 24 · macaristan 20 · norveç 20 · çekoslovakya 19 · danimarka 12 · malaya 12 · hollanda 8 · sarawak 8 · lüksemburg/izlanda 2 · brunei 1) — bir karar = bütün künye. Kısmî (coğrafî bölme, KAYNAK ister): fransa 169 (metropol 55 + Vichy AOF 88 + Madagaskar/Cibuti 26) · sovyet 83 (1941-44 işgal kuşağı) · italya 128 (İtalya 46, Libya 40, Eritre/Somali 31, Oniki Ada 11) · çin 65 · japonya 65/65 (ana adalar Eyl 1945 ABD işgali PENCERE İÇİNDE + Kore 17 + Sahalin 8 + Tayvan 2) · burma 27 · ing.Somali 16 · belçika 14 · filipinler 14 · Yeni Gine 14 · romanya 12 · timor 8 · … 🔴 KAPI GÖRMEZ: 1923-45 arası 591 madde (184 yüklü dosya, node vm): Değişmez 2 evreninde (olaylar*+kronoloji_sinir*) toprak maddesi 1 (olaylar_ek8); 500'ü kronoloji_cok_1923_1945'te. \"Madde VAR\" dediğim kırılmaların maddesi de kapı DIŞINDA. Hiç maddesi olmayan 228 nokta: hollanda-dogu-hint 76 · Libya 40 · Tunus 35 · Burma 27 · Kore 17 · Sarawak/Timor/Sahalin 8'er · K.Borneo 4 · Mısır 3 · Kassala · Guam. DEVLET_HARITA[233] = {id:\"fas\", ad:\"Fas\"} — TEYİT (dnm[13] 1923-10-29→1923-11-01). ÖNGÖRÜ: 1.100-1.500 → 1.233 ✓ · 🟢 ~2.000 → 2.272 ✓ · Değişmez 2'de ~0 → 1 ✓ · \"nokta düzeyinde kanıt ~50\" → YANLIŞ SORU: madde yer_id'si olayın YERİ (antlaşma başkenti), değişen toprak değil (Klaipeda→Paris) ⇒ nokta düzeyinde maddeden kanıt kurulamaz; bölge vekiline geçtim. ② SINIR / BULAMADIM: 🔴 1.233 bir VEKİLDİR — 50 bölge kuralı GENEL TARİH BİLGİM, kaynakla doğrulanmadı (raporda açık beyan; planlama ölçümü, veri dayanağı değil). Kutular kaba (AOF Çad'ı yutuyor ⇒ birkaç fazla; ilk koşumda Kore→Kyushu, Burma→Assam, Tacna→Putre hataları yakalandı, düzeltildi). Tahmini hata ±%5. \"Madde VAR\" anahtar kelime eşleşmesi iyimser (Barbarossa'nın kendi maddesi yok). 🟢 = kuralım eşleşmedi; Pasifik adaları (Gilbert/Solomon) gibi eksik kural olabilir. ③ İSTİYORUM: (a) mekanik t:1945-12-31 ÖNCE yalnız 🟢 2.272'ye; tamamı-kırılan 19 künye künye-bazlı karar; kısmîler kaynakla. (b) KAYNAK İŞİ TABLOSU raporda §5 (16 satır: ingiltere/danimarka ic_not_t beyanı · 8 küçük devlet t · kacar t · Mısır/Kuveyt/Katar/Buganda isg bitişi · Tabarka kid · Irak/Romanya kural kararı). (c) Kapı kararı: kronoloji_cok_1923_1945 Değişmez 2 evrenine girmezse 1.233'ün hiçbiri ihlal olarak ötmez. HEAD: d204_oku/d204 250b62ae başta=sonda · d204b/dh233 7a8815c3 başta=sonda. Dosya: denetim/SONRA1923-D204-1004.md · commit ee5a71ea. Bekçi AÇIK (SONRA1923-D204-1004) — bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
