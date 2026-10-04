@@ -108,6 +108,39 @@ muhtemelen bir `harita:"iran"` boya anahtarını (Safevi/Akkoyunlu/İlhanlı ail
 Bu turda ölçümden önce öngörü YAZMADIM (sevk istemedi ama protokol istiyor). Örtük varsayımım
 koordinatörünkiyle aynıydı: "4c/4d bunları kaçırıyor" — **yanlış çıktı**; görüyor, tavan gömüyor.
 
+## 5b. KOŞU SONRASI TEKRAR (koordinatör talebi, 4 Ekim akşamı) — sayılar DEĞİŞMEDİ
+```
+HEAD başta = sonda   25651c6e…
+data/devletler.js    1.389.205 bayt · sha256 4167f9820392… · mtime 2026-10-02 00:29   (koşudan etkilenmedi)
+data/donemler.js     41.847.219 bayt · sha256 77af9491bb5b… · mtime 2026-10-04 19:17  (YENİ gövde — ölçüm bunu OKUMAZ)
+yerleşim             4298 nokta · 93 dosya (girdi.parmak_izi() tam listesi betik çıktısında)
+4c 127 · 4d 324 · iki yönlü 5 · hayalet 5 · birleşik dönem 451 · birleşik nokta 418   ← koşu öncesiyle BİREBİR
+```
+Ölçüm `yerlesimler*` + `devletler.js` üzerinden; motor çıktısı (`donemler.js`) kullanılmadı ⇒ koşu
+sonucu bu sayıları etkilemez, etkilemedi.
+
+### `ONCE1281-SEKIL` listesiyle birleştirme
+```
+ONCE1281: künye f: > 1281, 103 nokta (adal 37 · napoli 24 · somali 21 · iran 3 · 14 tekil)
+benim:    4d içinde dönem 1281-01-01'de başlayan  98 dönem / 98 nokta
+              adal 37 · napoli 24 · somali 21 · 16 tekil (arnavutluk 2 · sardinya 2 · kaffa 2 · ahiler · katalan ·
+              bogdan · mantua · ryukyu · brunei · sulu · aztek · inka · kuzey-yuan)
+          + hayalet (tamamen dışarıda) 1281'de başlayan: Tarki, Ağraham burnu, Derbend (= ONCE1281'in "iran 3")
+          = 101
+fark 2    büyük olasılıkla 400 günlük tolerans (künye f: 1281'den <13 ay sonra olanları 4d saymıyor) — ÖLÇMEDİM
+```
+⇒ İki listenin ortak kusur sınıfı doğrulandı; **tam sayı: 451 dönem · 418 nokta** (4c 127 + 4d 324 − kesişim 5 + hayalet 5).
+
+### `adal` — iki uçtan taşıyor mu? ÖLÇÜLDÜ: tek noktada EVET
+```
+Asâyita (Avsa)  s:adal 1281-01-01 → 1923-10-29   künye 1415-01-01 → 1887-01-06
+                ⇒ 4d (134,0 yıl önce başlıyor) VE 4c (36,8 yıl sonra bitiyor) — iki yönlü kovadaki 5'ten biri
+Aseb            s:adal 1281-01-01 → 1882-03-10   ⇒ yalnız 4d
+adal toplam     4d 37 dönem · 4c 1 dönem (yalnız Asâyita)
+```
+Yani "adal iki listede" iki ayrı kusur değil: 37 noktada geri taşma, bunlardan **biri** (Asâyita)
+ayrıca ileri taşıyor.
+
 ## 6. Sınırlar
 - `d:` (Osmanlı doğrudan) katmanının künyesi yok ⇒ taranmadı (çekirdek).
 - 400 günden kısa taşmalar sayılmadı (denetle ile aynı tolerans, bilerek).
