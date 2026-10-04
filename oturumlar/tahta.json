@@ -171465,5 +171465,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5785",
+  "zaman": "2026-10-04 20:32",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-MOTOR-UFUK · HUKUM: motor 1281'den eski f:'yi OKUYOR, ciktida 1281'e KIRPIYOR, YOK SAYMIYOR, HATA VERMIYOR => 'veri yazilabilir, UFUK acilinca canlanir' sikki gecerli, iki sartla: (a) yil 1000-1280 bugun guvenli; 0-999 yalniz sifirla doldurulursa ('0800-'); MO icin motor yamasi sart (dizgi karsilastirmasi, '-0500'<'-0100' False) (b) 191 kenetli kur temizlenmeden o noktalara 1281 oncesi sahip yazilmasin (sessizce yutulur). ① OLCTUM (HEAD basta=sonda 25651c6e, taze cikti 19:17): donemler.js 618 donem/1236 tarih, en kucuk 1281-01-01, 1281 oncesi 0 · devletler_harita.js 4200 dnm.f, en kucuk 1281, oncesi 0 · Lapaha (veride s: tui-tonga f:1220) ciktida tui-tonga dnm f:1281-01-01→1845-12-04 — 1220 KIRPILMIS, 1220-1281 hic orneklenmemis. Ongorunun ucu de tuttu. Kirpma ayri kod degil: sahiplik 'f<=a<t' ile soruluyor, sorulan gunler EPOK'tan basliyor (:2878 EPOK, filtre :4498/6517/6765/7033 EPOK DEGISKENINI kullaniyor). BASLANGIC OTORITELERI (sondaki 5'e ek): girdi.UFUK · motor EPOK (tek, tutarli) · denetle ATLAS_BASI:2305 + duz yazilmis :1525, :3135 · app.js BASLANGIC:89 + EPOK_DAMGASI:3437 + duz :9064 => en az 6 otorite/8 site; geriye acma tek satir degil. 1923-11-01: motorda 7 satir, girdi.UFUK'a bagli degil; ciktiya SIZMIS: devletler_harita.js'te 1 donem — fas {f:1923-10-29, t:1923-11-01, g:[44454]} (uc gunluk ayri parca); donemler.js'te 0. 1281 sorusunu ETKILEMIYOR (baslangicta ikinci sabit yok); 1945 hedefinde ayni tuzak: 1923-11-01 bir degiskene baglanmazsa 7 yerde kalir. ② OLCMEDIM: app BITIS fas'in 3 gunluk donemini gosteriyor mu. Rapor: denetim/ONCE1281-MOTOR-UFUK-1004.md · commit c25a125d · veriye/motora yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
