@@ -200,6 +200,24 @@ kaynaktan. Yani "ihlal" etiketi kaydın tamamını değil **tek alanını** ilgi
 beyan zaten vardı. **Yapılacak işi, yapılmış olanı ölçmeden listeye yazdım** —
 aynı gece "ölçmeden hüküm verme" dediğim şeyin görev listesi hâli.
 
+### B13 · İMZA YERİ İŞİ BOYUTLANDI — **silme çaresi ÇİFT ENGELLE karşılaştı**
+*"`yer_id`yi sil, odaksız bırak"* en basit çare görünüyordu. İki engeli ölçtüm; biri düştü, biri durdu.
+
+**Engel 1 — DÜŞTÜ.** `§9`: *"`kapsam_genis:true` + odak yok ⇒ kamera o günün OSMANLI SINIRINA uçar — yabancı kronolojide bu odaksızlıktan KÖTÜDÜR."* Korkum buydu. Ölçüm:
+```
+imza yeri `yer_id` taşıyan antlaşma maddesi (desen taraması)   148
+  ├─ `kapsam_genis:true` taşıyan                                 0  ← tehlike YOK
+  ├─ `odak_kutu_kaynak` taşıyan                                   1  (Ferhad Paşa 1590)
+  └─ ikisi de yok                                               147
+```
+⇒ Silmek kamerayı Osmanlı sınırına **uçurmaz**. O engel yok.
+
+**Engel 2 — DURDU.** `ODAKSIZ` tavanı **438/438**, yani **tam sınırda**. 57 silme ⇒ ODAKSIZ **+57** ⇒ tavan aşılır ⇒ **yayın kapısı kırmızı**. ⇒ Silme ancak **aynı commit'te tavan beyanıyla** olur (`D253`) — ve o beyan "57 maddeyi odaksız bıraktım" demek, yani borcu **görünür** kılar ama **ödemez**.
+
+🔴 **Ve asıl mesele: silme benim hükmüm DEĞİL.** Hükmüm *"`yer_id` = ETKİLENEN TOPRAK"*. Silme yalnız toprak havuzda yoksa geçerli (`D257`). ⇒ Doğru iş **madde başına toprak tespiti** = 57 kalemlik bir araştırma partisi, mekanik değil.
+
+📌 **Ve 148 ≠ 57:** benimki desen taraması, KASA'nınki **elle okuma**. Aradaki 91'in bir kısmı **meşru** — ör. 1424 Bizans barışında `yer_id: İstanbul` *doğru*, çünkü etkilenen yer İstanbul'un kendisi. Yani 148 bir **aday listesi**, 57 bir **ölçüm**. Gece boyu üçüncü kez: *benim mekanik desenim şişiriyor, işçinin elle okuması ölçüyor.*
+
 ---
 
 ## ⚪ C · KARAR GEREKTİRMEYEN — bende, sırada
@@ -208,7 +226,7 @@ aynı gece "ölçmeden hüküm verme" dediğim şeyin görev listesi hâli.
 |---|---|---|
 | **17 yetim madde** (kronolojide sahip değişikliği, haritada karşılığı yok) | 17 | ölçüldü · düzeltme bende |
 | **7 ters madde** + 5 şüpheli | 12 | 5'i için TDV ölçümü KASA'da |
-| **57 imza yeri** `yer_id`si + **133 `yer_id`siz antlaşma maddesi** (93'ünde `kapsam_genis` de yok) | 190 | hüküm verildi: `yer_id` = ETKİLENEN TOPRAK, imza yeri değil (§1'in amacı) |
+| **57 imza yeri** `yer_id`si + **133 `yer_id`siz antlaşma maddesi** | 190 | hüküm verildi; **boyutlandırıldı → B13** |
 | **C 56 izinsiz devralma** | 56 | hüküm verildi (`HUKUM-DEVRALMA-1004.md`); çare **koşuya bağlı** |
 | **1969 kaynaksız kayıt** | 1969 | kampanya DEĞİL, **tavan** geliyor (KAYNAK-TAVAN çalışıyor) |
 | 3 mükerrer madde çifti | 3 | 🔴 **ÖLÇÜLDÜ, SİLİNMEDİ** — aşağıda B11 |
