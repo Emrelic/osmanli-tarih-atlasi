@@ -221,6 +221,7 @@ def _getir(son):
         try:
             sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
             import tahta as _T
+            _T.UYARI_YAZ = _diag              # FARKLI TAHTA uyarısı UYANDIRMASIN
             r, sebep = _T._istek("GET", "/tahta/oku", sorgu={
                 "hepsi": 1,
                 "son_no": str(son) if son else "",

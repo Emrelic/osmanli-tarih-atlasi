@@ -59,6 +59,8 @@ BLOK = [BAS_IM,
         "/oturumlar/TAHTA.md",
         "/oturumlar/tahta_kuyruk.json",
         "/oturumlar/tahta_sunucu.log",
+        "/oturumlar/tahta_sunucu_son.json",
+        "/oturumlar/tahta.json.sunucu",
         "/oturumlar/*.kilit",
         SON_IM]
 

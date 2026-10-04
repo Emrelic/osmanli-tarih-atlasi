@@ -162,7 +162,10 @@ def _istek(yontem, yol, govde=None, sorgu=None):
         return json.loads(ham.decode("utf-8"))
     try:
         with urllib.request.urlopen(istek, timeout=SUNUCU_ZAMAN_ASIMI) as r:
-            return _coz(r.read(), r.headers.get("Content-Encoding")), None
+            g = _coz(r.read(), r.headers.get("Content-Encoding"))
+            if isinstance(g, dict) and isinstance(g.get("sunucu"), dict):
+                _sunucu_denetle(g["sunucu"], adres)
+            return g, None
     except urllib.error.HTTPError as e:
         try:
             g = _coz(e.read(), e.headers.get("Content-Encoding"))
@@ -174,6 +177,62 @@ def _istek(yontem, yol, govde=None, sorgu=None):
         return g, None
     except Exception as e:
         return None, "%s · %s: %s" % (adres, type(e).__name__, e)
+
+
+SUNUCU_SON = os.path.join(DIZIN, "tahta_sunucu_son.json")
+UYARI_YAZ = print            # bekçi bunu stderr'e çevirir (uyandırmasın diye)
+
+
+def _sunucu_denetle(s, adres):
+    """🔴 İKİ SUNUCU / SIFIRLANAN KAYIT DEDEKTÖRÜ — istemci tarafı.
+    Farklı makinelerdeki iki sunucu birbirinin dosyasını HİÇ göremez; onları
+    yalnız iki sunucuyla da konuşan İSTEMCİ yakalayabilir. Her cevaptaki
+    `sunucu` bloğu (makine · tahta_imza · son_no) bir öncekiyle karşılaştırılır:
+      imza değişti     → ayrı bir kayda bağlandın (ikinci sunucu / kayıt silindi)
+      son_no geriledi  → aynı kayıt GERİYE gitti (sıfırlandı / eski yedek)
+    Uyarı HER DEĞİŞİMDE bir kez basılır; son görülen bu makinede tutulur."""
+    try:
+        with io.open(SUNUCU_SON, encoding="utf-8") as f:
+            eski = json.load(f)
+    except Exception:
+        eski = None
+    try:
+        son = int(s.get("son_no") or 0)
+    except (TypeError, ValueError):
+        son = 0
+    if eski:
+        if eski.get("tahta_imza") != s.get("tahta_imza"):
+            UYARI_YAZ("🔴 FARKLI TAHTA — önceki sunucu %s (%s, imza %s, son M-%04d), şimdiki %s "
+                      "(%s, imza %s, son M-%04d). İKİ SUNUCU koşuyor ya da kayıt silindi/"
+                      "değişti: numaralar ÇAKIŞABİLİR. Koordinatöre bildir."
+                      % (eski.get("makine"), eski.get("adres"), eski.get("tahta_imza"),
+                         int(eski.get("son_no") or 0), s.get("makine"), adres,
+                         s.get("tahta_imza"), son))
+        elif son < int(eski.get("son_no") or 0):
+            UYARI_YAZ("🔴 NUMARA GERİLEDİ — sunucu %s şimdi M-%04d diyor, daha önce M-%04d "
+                      "görmüştüm. Kayıt geri alınmış/eski yedekten açılmış olabilir: yeni "
+                      "numaralar ESKİLERLE ÇAKIŞIR. Koordinatöre bildir."
+                      % (s.get("makine"), son, int(eski.get("son_no") or 0)))
+        elif eski.get("makine") != s.get("makine"):
+            UYARI_YAZ("ℹ️ tahta sunucusu makine değiştirdi: %s → %s (aynı kayıt, imza %s)"
+                      % (eski.get("makine"), s.get("makine"), s.get("tahta_imza")))
+    yeni = {"makine": s.get("makine"), "adres": adres, "tahta_imza": s.get("tahta_imza"),
+            "son_no": max(son, int((eski or {}).get("son_no") or 0))
+            if eski and eski.get("tahta_imza") == s.get("tahta_imza") else son,
+            "zaman": _simdi()}
+    if yeni != {k: (eski or {}).get(k) for k in yeni} or not eski:
+        # 🔴 İLK SINAV BUNU YAKALADI: dizin yoksa yazım sessizce düşüyor ve
+        #   dedektör HİÇ kurulmuyordu (3 HATA). Dizin kurulur; yine de
+        #   yazılamazsa SÖYLENİR — sessiz dedektör, dedektörsüzlüktür.
+        try:
+            os.makedirs(os.path.dirname(SUNUCU_SON), exist_ok=True)
+            gec = SUNUCU_SON + ".yeni.%d" % os.getpid()
+            with io.open(gec, "w", encoding="utf-8") as f:
+                json.dump(yeni, f, ensure_ascii=False)
+            os.replace(gec, SUNUCU_SON)
+        except OSError as e:
+            UYARI_YAZ("⚠️ %s yazılamadı (%s) — iki-sunucu dedektörü bu çağrıda "
+                      "ÖLÇEMEDİ." % (SUNUCU_SON, e))
 
 
 def _dusus_uyar(sebep, ne="yazıldı"):

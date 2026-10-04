@@ -46,6 +46,12 @@ from urllib.parse import urlparse, parse_qs
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import tahta as T          # noqa: E402 — iş mantığı TEK YERDE: tahta.py
+# 🔴 stderr de utf-8: "İKİNCİ SUNUCU" uyarısı cp1254 ile basılıp okuyanda
+#   bozuluyordu (sınav Y2 yakaladı). Alarm okunamıyorsa çalmamış sayılır.
+try:
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AYAR_YOLU = os.path.join(KOK, "oturumlar", "ag.json")
@@ -58,6 +64,162 @@ GOVDE_TAVAN = 1024 * 1024          # 1 MB — tek mesaj bundan büyük olamaz
 # (yerel yazan) bir istemci aynı dosyaya dokunabilir — ikisi birbirini bekler.
 KILIT = threading.Lock()
 _ONBELLEK = {"mtime": None, "boy": None, "kayit": None}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴🔴 TEK YAZICI GARANTİSİ "BİR SUNUCU VAR" VARSAYIMINA DAYANIYOR
+#   (koordinatör, 4 Ekim 2026). Kabul ölçütü (20 eşzamanlı yazım → 20 ayrı
+#   numara) BİR sunucu içinde geçerliydi. İki yüzü ayrıca kapatılıyor:
+#   ① YENİDEN BAŞLAMA: numara bellekte değil KAYITTAN türetilir (en büyük+1)
+#      ⇒ süreç ölüp kalkınca kaldığı yerden sürer. Eczane makineleri günde bir
+#      açılıp kapanıyor; numara her sabah sıfırlansaydı tahta ilk gün ölürdü.
+#   ② İKİ SUNUCU: (a) AYNI kayda ikinci süreç → `<tahta>.sunucu` kilidi canlıysa
+#      AÇILMAZ, çıkış 4 · (b) koşarken kilit başkasınca ele geçirilirse YAZMAYI
+#      REDDEDER (503) · (c) FARKLI makinelerde iki ayrı kayıt → bu iki süreç
+#      birbirini HİÇ göremez; onu İSTEMCİ yakalar: her cevapta `sunucu` bloğu
+#      (makine · tahta_imza · son_no) döner, istemci bir öncekiyle karşılaştırır
+#      ve imza değişir ya da numara gerilerse BAĞIRIR (`tahta._sunucu_denetle`).
+#   Sessiz ikinci sunucu, sessiz düşüşten kötüdür.
+# ═══════════════════════════════════════════════════════════════════════════
+MAKINE = socket.gethostname()
+NABIZ_SN = 20.0
+_DURUM = {"kilit_kaybi": "", "baslangic": time.strftime("%Y-%m-%d %H:%M:%S")}
+
+
+def _kilit_yolu():
+    return T.VERI + ".sunucu"
+
+
+def _pid_canli(pid):
+    """🔴 Windows'ta `os.kill(pid, 0)` SÜRECİ ÖLDÜRÜR (TerminateProcess) —
+    canlılık OpenProcess + GetExitCodeProcess ile sorulur."""
+    try:
+        pid = int(pid)
+    except (TypeError, ValueError):
+        return False
+    if os.name == "nt":
+        import ctypes
+        k = ctypes.windll.kernel32
+        h = k.OpenProcess(0x1000, False, pid)        # QUERY_LIMITED_INFORMATION
+        if not h:
+            return False
+        try:
+            kod = ctypes.c_ulong()
+            return bool(k.GetExitCodeProcess(h, ctypes.byref(kod))) and kod.value == 259
+        finally:
+            k.CloseHandle(h)
+    try:
+        os.kill(pid, 0)
+        return True
+    except OSError:
+        return False
+
+
+def _kilit_oku():
+    try:
+        with io.open(_kilit_yolu(), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def _kilit_yaz(port):
+    d = {"makine": MAKINE, "pid": os.getpid(), "port": port,
+         "baslangic": _DURUM["baslangic"], "damga": time.time(), "nabiz": NABIZ_SN}
+    gec = _kilit_yolu() + ".yeni.%d" % os.getpid()
+    with io.open(gec, "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False)
+    os.replace(gec, _kilit_yolu())
+
+
+def kilit_al(port):
+    """(tamam, açıklama). Canlı bir başka sunucu varsa tamam=False."""
+    k = _kilit_oku()
+    if k and not (k.get("makine") == MAKINE and k.get("pid") == os.getpid()):
+        yas = time.time() - float(k.get("damga") or 0)
+        esik = 3 * float(k.get("nabiz") or NABIZ_SN) + 5
+        ayni_makine = k.get("makine") == MAKINE
+        # Aynı makinede PID + nabız BİRLİKTE: yeniden açılıştan sonra PID başka
+        # bir sürece verilmiş olabilir — yalnız PID'e bakmak, her sabah
+        # "ikinci sunucu" yalanıyla sunucuyu AÇTIRMAZDI. Nabız eskiyse bayattır.
+        canli = (_pid_canli(k.get("pid")) and yas <= esik) if ayni_makine else yas <= esik
+        if canli:
+            return False, ("🔴 İKİNCİ SUNUCU — bu kaydın sunucusu ZATEN koşuyor: makine=%s "
+                           "pid=%s port=%s başlangıç=%s (son nabız %.0f sn önce). AÇILMADIM: "
+                           "iki sunucu iki ayrı numara dizisi üretir — kaçtığımız çakışma."
+                           % (k.get("makine"), k.get("pid"), k.get("port"),
+                              k.get("baslangic"), yas))
+        _kilit_yaz(port)
+        return True, ("⚠️ BAYAT SUNUCU KİLİDİ devralındı: makine=%s pid=%s (%s) — önceki "
+                      "sunucu düzgün kapanmamış." % (k.get("makine"), k.get("pid"),
+                                                     "süreç ölü" if ayni_makine else
+                                                     "nabız %.0f sn eski" % yas))
+    _kilit_yaz(port)
+    return True, "sunucu kilidi alındı (%s)" % _kilit_yolu()
+
+
+def _nabiz_dongusu(port, dur):
+    while not dur.wait(NABIZ_SN):
+        k = _kilit_oku()
+        if not k or k.get("pid") != os.getpid() or k.get("makine") != MAKINE:
+            if not _DURUM["kilit_kaybi"]:
+                _DURUM["kilit_kaybi"] = ("sunucu kilidi BAŞKASINDA: makine=%s pid=%s"
+                                         % ((k or {}).get("makine"), (k or {}).get("pid")))
+                gunluk("🔴 %s — YAZMALAR REDDEDİLİYOR" % _DURUM["kilit_kaybi"])
+            continue
+        try:
+            _kilit_yaz(port)
+        except OSError as e:
+            gunluk("⚠️ nabız yazılamadı: %s" % e)
+
+
+def kilit_birak():
+    k = _kilit_oku()
+    if k and k.get("pid") == os.getpid() and k.get("makine") == MAKINE:
+        try:
+            os.remove(_kilit_yolu())
+        except OSError:
+            pass
+
+
+def _yazma_yasak():
+    if _DURUM["kilit_kaybi"]:
+        return 503, {"tamam": False, "kod": 3,
+                     "sebep": "SUNUCU ÇATIŞMASI — %s; bu sunucu artık yazmıyor"
+                              % _DURUM["kilit_kaybi"]}
+    return None
+
+
+def _tahta_imza(kayit):
+    """Kaydın SOY imzası: ilk mesajdan türetilir — kayıt silinir/değişirse
+    ya da istemci başka bir makinenin ayrı kaydına bağlanırsa DEĞİŞİR."""
+    import hashlib
+    if not kayit:
+        return "bos"
+    m = kayit[0]
+    ham = "%s|%s|%s|%s" % (m.get("no"), m.get("zaman"), m.get("kimden"),
+                           (m.get("mesaj") or "")[:80])
+    return hashlib.sha256(ham.encode("utf-8")).hexdigest()[:12]
+
+
+def _kimlik_blogu():
+    """KILIT altında çağrılır. Her JSON cevabına eklenir."""
+    kayit = _kayit()
+    return {"makine": MAKINE, "pid": os.getpid(), "baslangic": _DURUM["baslangic"],
+            "tahta_imza": _tahta_imza(kayit),
+            "son_no": max([_no_sayi(m.get("no")) for m in kayit] or [0])}
+
+
+def baska_makine_izi():
+    """Açılışta: son kayıtlara BAŞKA bir makinenin sunucusu yazmış mı?
+    Bilerek taşınmışsa beklenir (uyarı), değilse iki sunucunun izidir."""
+    with KILIT:
+        kayit = _kayit()
+    izler = {}
+    for m in kayit[-500:]:
+        s = m.get("sunucu")
+        if s and s != MAKINE:
+            izler[s] = m.get("no")
+    return izler
 
 
 def gunluk(satir):
@@ -158,6 +320,8 @@ def ey_yaz(g):
     for alan in ("kim", "kime", "mesaj"):
         if not str(g.get(alan) or "").strip():
             return 400, {"tamam": False, "kod": 2, "sebep": "%s ZORUNLU" % alan}
+    if _yazma_yasak():
+        return _yazma_yasak()
     with KILIT, T._Kilit(T.VERI):
         kayit = _kayit()
         # Kuyruktan gelen (düşüşte yerel yazılmış) mesaj ZATEN indiyse
@@ -173,6 +337,7 @@ def ey_yaz(g):
             if kod == 0:
                 if yk:
                     m["yerel_kimlik"] = yk
+                m["sunucu"] = MAKINE          # hangi sunucu numara verdi — iz
                 kod = T._yaz_ekle(kayit, m)
         cikti = _satirlar(buf)
         if kod != 0:
@@ -228,6 +393,8 @@ def ey_isaretle(g):
     nolar = set(g.get("nolar") or [])
     if not kim:
         return 400, {"tamam": False, "sebep": "kim ZORUNLU"}
+    if _yazma_yasak():
+        return _yazma_yasak()
     with KILIT, T._Kilit(T.VERI):
         kayit = _kayit()
         yeni = 0
@@ -248,6 +415,8 @@ def ey_islem(g):
     if islev is None:
         return 400, {"tamam": False, "sebep": "tanimsiz islem",
                      "gecerli": ["kapat", "tamam", "teyit"]}
+    if _yazma_yasak():
+        return _yazma_yasak()
     with KILIT, T._Kilit(T.VERI):
         kayit = _kayit()
         with _yakala() as buf:
@@ -380,6 +549,12 @@ class Kapi(BaseHTTPRequestHandler):
             gunluk("ARIZA %s: %s: %s" % (iz, type(e).__name__, e))
             return self._gonder(503, {"tamam": False, "sebep": "%s: %s"
                                       % (type(e).__name__, e)})
+        if isinstance(sonuc, dict):
+            try:
+                with KILIT:
+                    sonuc["sunucu"] = _kimlik_blogu()
+            except BaseException:
+                _ONBELLEK["kayit"] = None
         ek = (" %s" % sonuc.get("no")) if isinstance(sonuc, dict) and sonuc.get("no") else ""
         gunluk("KABUL %s -> %s%s · kim=%s" % (kaynak, iz, ek, g.get("kim", "")))
         self._gonder(kod, sonuc)
@@ -402,22 +577,47 @@ def kur(jeton, port, bag="0.0.0.0", kapi=Kapi):
 def main(argv):
     def al(ad):
         return argv[argv.index(ad) + 1] if ad in argv and argv.index(ad) + 1 < len(argv) else None
-    global GUNLUK
+    global GUNLUK, NABIZ_SN
     a = ayar_oku(al("--ag"))
     if al("--gunluk"):                        # sınav gerçek günlüğü kirletmesin
         GUNLUK = os.path.abspath(al("--gunluk"))
     if al("--tahta"):
         T.VERI = os.path.abspath(al("--tahta"))
         T.GORUNUM = os.path.join(os.path.dirname(T.VERI), "TAHTA.md")
+    if al("--nabiz"):
+        NABIZ_SN = float(al("--nabiz"))
     port = int(al("--port") or port_coz(a))
     bag = al("--bag") or "0.0.0.0"
-    s = kur(a["jeton"], port, bag)
-    gunluk("TAHTA SUNUCUSU ayakta · makine=%s · %s:%d · tahta=%s · pid=%d"
-           % (socket.gethostname(), bag, port, T.VERI, os.getpid()))
+    # 🔴 TEK SUNUCU — kilit, port açılmadan ÖNCE alınır.
+    ok, aciklama = kilit_al(port)
+    gunluk(aciklama)
+    if not ok:
+        print(aciklama, file=sys.stderr, flush=True)
+        return 4
+    try:
+        s = kur(a["jeton"], port, bag)
+    except OSError as e:
+        gunluk("🔴 port %d açılamadı: %s" % (port, e))
+        kilit_birak()
+        return 1
+    dur = threading.Event()
+    threading.Thread(target=_nabiz_dongusu, args=(port, dur), daemon=True).start()
+    izler = baska_makine_izi()
+    if izler:
+        gunluk("⚠️ BU KAYDA BAŞKA MAKİNENİN SUNUCUSU DA YAZMIŞ: %s — kayıt bilerek "
+               "taşındıysa beklenir; DEĞİLSE İKİ SUNUCU koşuyor olabilir."
+               % ", ".join("%s (son %s)" % kv for kv in sorted(izler.items())))
+    with KILIT:
+        kb = _kimlik_blogu()
+    gunluk("TAHTA SUNUCUSU ayakta · makine=%s · %s:%d · tahta=%s · pid=%d · son M-%04d · imza %s"
+           % (MAKINE, bag, port, T.VERI, os.getpid(), kb["son_no"], kb["tahta_imza"]))
     try:
         s.serve_forever()
     except KeyboardInterrupt:
         gunluk("TAHTA SUNUCUSU durduruldu (elle)")
+    finally:
+        dur.set()
+        kilit_birak()
     return 0
 
 
