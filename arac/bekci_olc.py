@@ -27,6 +27,7 @@ KULLANIM
 import io
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -156,10 +157,65 @@ ISARET = {"CANLI": "+", "KUSKULU": "?", "ASILI": "!", "BITMIS": "x", "CIKTI": ".
           "OLCULEMEDI": "?"}
 
 
+def temizle():
+    """BITMIS damgaları siler — süreci olmayan VE eskimiş olanları.
+
+    🔴 NİÇİN BU İŞLEV VAR: çıktının kendisi `--temizle` ÖNERİYORDU ve bayrak
+    YOKTU. Yani alet, var olmayan bir komutu tavsiye ediyordu —
+    `D255`in ("aracın ÖNERDİĞİ komut, aracın YAPTIĞI şey değildir") daha kaba
+    bir hâli: burada araç, HİÇ YAPMADIĞI şeyi öneriyordu. Bir tavsiye de
+    çıktıdır ve ölçülmelidir.
+    """
+    kayit = oku()
+    sil = [k for k in kayit if k["hal"] == "BITMIS"]
+    if not sil:
+        print("Silinecek damga YOK (BITMIS 0).")
+        return 0
+    # 🔴 YALNIZ `BITMIS` silinir: süreci YOK ve nabzı eski. `ASILI` ASLA
+    #   silinmez (süreç ayakta — silmek gerçek alarmı susturmak olur),
+    #   `OLCULEMEDI` de silinmez (ölçemediğimiz şeyi yok sayamayız).
+    n = 0
+    for k in sil:
+        y = _nabiz_yol_oku(k["ad"])
+        if y and os.path.exists(y):
+            try:
+                os.remove(y)
+                print("  silindi: %s" % k["ad"])
+                n += 1
+            except OSError as e:
+                print("  SİLİNEMEDİ: %s — %s" % (k["ad"], e))
+    print("%d damga silindi. (ASILI ve OLCULEMEDI DOKUNULMADI.)" % n)
+    return 0
+
+
+def _nabiz_yol_oku(ad):
+    """Damga dosyasının yolu. `tahta_bekci.py`nin ad→dosya kuralıyla AYNI
+    olmalı; ayrışırsa `--temizle` yanlış dosyayı siler ya da hiçbirini."""
+    if not os.path.isdir(DIZIN):
+        return None
+    hedef = re.sub(r"[^A-Za-z0-9]+", "_", ad or "?") + ".json"
+    for mevcut in os.listdir(DIZIN):
+        if mevcut == hedef:
+            return os.path.join(DIZIN, mevcut)
+    # ad damganın İÇİNDEN okunduğu için dosya adı farklı olabilir; içeriğe bak
+    for mevcut in os.listdir(DIZIN):
+        if not mevcut.endswith(".json"):
+            continue
+        try:
+            d = json.load(io.open(os.path.join(DIZIN, mevcut), encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if (d.get("ad") or "") == ad:
+            return os.path.join(DIZIN, mevcut)
+    return None
+
+
 def main(argv):
-    if argv and argv[0] not in ("--ham",):
-        sys.stderr.write("Kullanim: py arac/bekci_olc.py [--ham]\n")
+    if argv and argv[0] not in ("--ham", "--temizle"):
+        sys.stderr.write("Kullanim: py arac/bekci_olc.py [--ham | --temizle]\n")
         return 2
+    if "--temizle" in argv:
+        return temizle()
     kayit = oku()
     if "--ham" in argv:
         sys.stdout.write(json.dumps(kayit, ensure_ascii=False))
