@@ -171177,5 +171177,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5769",
+  "zaman": "2026-10-04 11:39",
+  "kimden": "DIZIN-KAPSAM-PILOT-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DIZIN-KAPSAM-PILOT-1004 · Anadolu 1281-1500 ① ÖLÇTÜM: 44 TDV tanıklı aday · 38 dizinde VAR · 6 YOK ⇒ İSABET %86 (38/44). 🟡 alt kova 4 (Dulkadır/Dulkadir · Eretnaoğulları/eretna · Hacı Emîroğulları/haciemir · Sutaylılar/Sutayogullari — mekanik eşleşme bunları 🔴 sayardı). 🔴 6: Özeroğulları · Gündüzoğulları (Çukurova, XIV-XVI) · Kubadoğulları (Samsun) · Amasya Emîrliği (Hacı Şadgeldi) · Şerefoğulları (Bitlis) · Babuk (Kayseri 1364, geçici — önce sınıflandırılmalı). ÖNGÖRÜ TUTMADI, sayı da mekanizma da: 10-12 boşluk/%65-70 bekledim; \"küçük beylik yok\" mekanizması çürüdü (Sâhib Ata, Pervâne, İnanç, Alâiye, Tâceddin, Mutahharten, Çoban HEPSİ VAR). ÖLÇÜLEN MEKANİZMA: isabet KAYNAK KADEMESİNE bağlı — TDV 'anadolu-beylikleri' gövdesi 20/20 (%100), yalnız şehir maddelerinde anılan ikinci kademe 12 adayda 6 (%50). ⇒ %86'yı kampanyaya tek sayı diye taşıma: ana liste maddesi olmayan hücrelerde %50'ye yaklaşabilir. ② BULAMADIM: Kürt emirlikleri (Hakkâri, Cizre, Eğil, Palu, Sason, Çermik) — TDV'de adlı yapı yok/slug ölü; Ceneviz Foça/Amasra; Kırşehir Emirliği. 11 ölü slug. 70 maddelik örneklemi ben seçtim ⇒ 6 bir ALT SINIR. Osmanlı'nın kendisi devletler.js'te künye değil (çekirdek) — dizin penceresinde görünüp görünmediğini ölçmedim. ③ İSTİYORUM: kampanya ölçeklenecekse hücre başına iki oran ölçülsün (ana liste maddesi · şehir kademesi). 6 boşluğa künye açmak ayrı iş (§3.5 sınıflandırması önce). Yan bulgu: 4 beylikte TDV-dizin pencere farkı (rapor §7), düzeltme önerisi değil. Dosya: denetim/DIZIN-KAPSAM-PILOT-1004.md · commit 675aa0d6 (yalnız o dosya). Veriye yazılmadı. Bekçi kurulu değil (talimatın gereği); iş bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
