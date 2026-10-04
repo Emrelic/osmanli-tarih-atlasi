@@ -175,6 +175,31 @@ CLAUDE.md §5:
 ⇒ Doğru yön tersi: **kuyruktaki silinir, çekirdektekine dokunulmaz.** Ama bunu uygulamadan önce o üç maddenin fiilen bir kırılma kapatıp kapatmadığı ölçülmeli (şu an `Değişmez 2 ✓ 621 kırılma, 0 açık`).
 📌 **Ve üçü AYNI ZAMANDA imza-yeri kusuru:** `yer_id` = İstanbul · İstanbul · Sofya, yani **imza yeri**. 1913-11-17'nin `kronoloji_sinir_komsu.js`teki kardeşi `yer_id: Kasr-ı Şîrîn` — **doğru uygulama**. Yani iki kusur sınıfı aynı üç kayıtta kesişiyor ve yanlış kopyayı silmek **doğru odaklı olanı** silmek olabilirdi.
 
+### B12 · VİKİPEDİ ÜÇLÜSÜ — **yazacak beyan YOK, üçü de ZATEN BEYANLI**
+Listeme *"Cres/Şefşâven/Maroa Vikipedi beyanı yaz"* diye kaydetmiştim. Üç kaydı
+açtım: **üçü de kendi kaynak alanında Vikipedi'ye dayandığını açıkça yazıyor.**
+```
+Cres      kaynak: "Treaty of Rapallo … (WebFetch ile Wikipedia 'Cres'
+          maddesi DOĞRULANDI: '…') · TDV bu taneciği kapsamıyor"
+          + neden: "⚠️ BASİTLEŞTİRME … 1918-1920 arası AYRIŞTIRILMADI …
+                    GİZLEMİYORUM — ayrı bir araştırma turu netleştirebilir"
+Maroa     not: "Koordinat en.wikipedia (Maroa, Amazonas)"
+          (dönem kaynağı KURUMSAL: Fundación Empresas Polar, DHV, URL + alıntı)
+Şefşâven  kaynak: "islamansiklopedisi'de bu tanecik YOK; Wikipedia
+          '1924 retreat from Chaoen'"  + neden: "1923-10-29 kesitini
+          ETKİLEMİYOR (olay 1924-1926) — atlas ufkunun DIŞI"
+```
+⇒ `D209`'un istediği (*"kaynak gizlenmez"*) **yapılmış**. Kusur **gizleme**
+değil, **yasaklı bir kaynağa dayanmak ve bunu söylemek** — daha hafif bir sınıf.
+⇒ **Hükmüm: VERİ DEĞİŞİKLİĞİ YOK.** Doğru sıradaki iş **araştırma** (KASA), silme
+değil. Silmek şunları götürürdü: Cres'in 1918-1923 İtalya dönemi · Maroa'nın
+**koordinatı** (yani noktanın kendisi) · Şefşâven'in UFUK **dışındaki** dönemi.
+📌 Ve Maroa'da yalnız **koordinat** Vikipedi'ye dayanıyor; dönemi kurumsal bir
+kaynaktan. Yani "ihlal" etiketi kaydın tamamını değil **tek alanını** ilgilendiriyor.
+🔴 **Kendi görev listemin kusuru:** bir işi "beyan yaz" diye kaydettim, oysa
+beyan zaten vardı. **Yapılacak işi, yapılmış olanı ölçmeden listeye yazdım** —
+aynı gece "ölçmeden hüküm verme" dediğim şeyin görev listesi hâli.
+
 ---
 
 ## ⚪ C · KARAR GEREKTİRMEYEN — bende, sırada
@@ -187,7 +212,8 @@ CLAUDE.md §5:
 | **C 56 izinsiz devralma** | 56 | hüküm verildi (`HUKUM-DEVRALMA-1004.md`); çare **koşuya bağlı** |
 | **1969 kaynaksız kayıt** | 1969 | kampanya DEĞİL, **tavan** geliyor (KAYNAK-TAVAN çalışıyor) |
 | 3 mükerrer madde çifti | 3 | 🔴 **ÖLÇÜLDÜ, SİLİNMEDİ** — aşağıda B11 |
-| Akçakale kaynaksızlığı · Vikipedi dayanağı (1538→1536) | 2 | bende |
+| Akçakale kaynaksızlığı | 1 | ✅ indi (`11bcae71`) |
+| Cres · Şefşâven · Maroa Vikipedi | 3 | 🔴 **İŞ YANLIŞ TANIMLANMIŞTI** — aşağıda B12 |
 
 ---
 
