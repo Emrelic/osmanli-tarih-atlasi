@@ -82,6 +82,26 @@ Lugos 1554: kayıt `__BOSLUK__` (beyanlı kasıtlı boşluk, **denetimden MUAF**
 
 ---
 
+### B5 · 🔴 1923 SONRASI **BİR KALEM DEĞİL, KAMPANYA** — ölçüldü
+`denetim/SONRA1923-SAYIM-1004.md`
+```
+uzatılacak `s:`/`d:` zinciri          4129 / 4298 nokta
+UFUK ileriye uzatılırsa sahipsiz      +~4100   ← ÖLÇÜLDÜ, tahmin DEĞİL
+boyasız künye                         +28
+ODAKSIZ                               ~0
+Değişmez 2s                            binler (tahmin, öyle işaretli)
+```
+Mevcut durum: kronoloji **başlamış** (842 madde, 500'ü `kronoloji_cok_1923_1945.js`de), künye **hazıra yakın** (295'inin penceresi 1923'ü aşıyor, 17'si sonra kurulmuş), **yerleşim SIFIR** (`kur:` 0 · `bit:` 0).
+⇒ Bu, 1281 öncesindeki kırılmanın **aynadaki hâli ve sayıya çevrilmiş**: UFUK ileriye uzatılırsa 4298 noktanın **4129'u** sahipsiz kalır.
+**Soru: 1923 sonrası kampanyası açılıyor mu, hangi kademeyle?** (`ONCELIK.md` bu kapsam için bir hedef söylemiyor.)
+
+### B6 · ⚠️ `tahta.py` KENDİ KURALIMI SESSİZCE DOLANIYOR
+`TOPOLOJI.md §4②` bu gece şunu yazdı: *"`main`in TEK YAZICISI koordinatördür; hiçbir makine `main`e push etmez."* Ama `tahta.py` her tahta yazımında `pull --rebase` + `push` yapıyor ve **aynı çalışma ağacında ne commit'lenmişse onu da götürüyor.**
+⇒ Bu makinedeki her oturum, bir **tahta mesajı yazarak main'e push etmiş oluyor** — kuralı ihlal niyetiyle değil, aracın yapısı yüzünden. Son 200 commit'in **%39'unun** tahta mesajı olması bunun ölçülmüş izi.
+📌 `TAHTA-WEB` kesmesi bu dolanmayı da kapatıyor — **A2'nin bir gerekçesi daha.**
+
+---
+
 ## ⚪ C · KARAR GEREKTİRMEYEN — bende, sırada
 
 | iş | büyüklük | durum |
