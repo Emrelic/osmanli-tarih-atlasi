@@ -4210,6 +4210,9 @@ BEKLENEN_D8B = 82
 #   DOĞRU bir veri eklemesi yayını bloke ederdi. Kova sessiz DEĞİLDİR:
 #   inceleyen `--d8-defter-yaz` ile evrene alır, tavan o gün yeniden ölçülür.
 DEGISMEZ8_DEFTERI = os.path.join(KOK, "denetim", "DEGISMEZ-0086-defter.json")
+# KÖRLÜK DEFTERİ (4 Ekim 2026, LAB buldu) — `olculemeyen` (hat, gün) çiftleri. Üyelik `hat¦gun`;
+# `tam_kor` / `yarim` hat listeleri yalnız BİLGİdir (kapı çiftlerle karar verir).
+DEGISMEZ8_KOR_DEFTERI = os.path.join(KOK, "denetim", "DEGISMEZ-0086-kor-defter.json")
 
 
 def _d8_js(yol):
@@ -4450,6 +4453,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
 
     a_tasma, a_kaba, olculen, olculemeyen = [], [], 0, []
     olc_hat = set()
+    kor_sinif = {}                  # hat → sınıf (yalnız ölçülemeyen hatlar için; körlük raporu okur)
     for r in hatlar:
         hat = r["hat"]
         parcalar = hat if isinstance(hat[0][0], list) else [hat]
@@ -4491,6 +4495,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                     govde["sag"].append(g)
             if not govde["sol"] or not govde["sag"]:
                 olculemeyen.append((r["id"], gun))
+                kor_sinif[r["id"]] = sinif
                 continue
             olculen += 1
             olc_hat.add(r["id"])
@@ -4569,7 +4574,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                     b_tasma.append(dict(bolge=B["ad"], k=B.get("k"), gun=gun, kime=gid,
                                         km2=round(km2), oran=round(100 * km2 / alan, 1)))
     return dict(a=a_tasma, a_kaba=a_kaba, b=b_tasma, olculen=olculen,
-                olculemeyen=olculemeyen, olculen_hatlar=sorted(olc_hat),
+                olculemeyen=olculemeyen, olculen_hatlar=sorted(olc_hat), kor_sinif=kor_sinif,
                 hat_sayisi=len(hatlar), iki_tarafsiz=iki_tarafsiz,
                 damga=gv.damga, sure=(round(t_a), round(time.time() - t0 - t_a)))
 
@@ -4611,6 +4616,99 @@ def degismez8_defteri(R, yaz=False):
     return eski
 
 
+# ═══════════════ DEĞİŞMEZ 8 KÖRLÜĞÜ (4 Ekim 2026, LAB buldu) ═══════════════
+# 🔴 `degismez8()` bir (hat, gün) için iki yakadan birinin gövdesi yoksa çifti `olculemeyen`e
+#    atıp `continue`ler. Bu sayı basılıyordu ama HÜKME GİRMİYORDU: hüküm yalnız ölçülen çiftlerin
+#    taşmasından (na/nb) çıkar. Sonuç: bir hat HİÇ ölçülmemeye başlarsa taşması 0'a düşer ve
+#    tavan "iyileşti" der — SAYI iyileşmeyi körleşmeden AYIRT EDEMEZ (kayıtlı 1611 → 1517
+#    "iyileşmesinin" en az 9 puanı, körleşen 6 hattın taşıdığı birimlerdir).
+# ⇒ Körlük bir ÜYELİK defterine bağlanır (`hat¦gun`): bugünkü körlük ADIYLA kayıtlıdır ve yayını
+#    DURDURMAZ; defterde OLMAYAN bir (hat, gün) ölçülemez hâle gelirse `olculemedi(...)` ⇒ ÇIKIŞ 2.
+#    Tavan SAYI değil ÜYELİKTİR: tam kör sayısı sabit kalırken bir hat kapanıp öteki körleşirse
+#    (net sıfır takas) sayı susardı, üyelik öter.
+# 📌 Bu yama bir şeyi DÜZELTMİYOR, GÖRÜNÜR KILIYOR: kör hatlar bugün de kördü.
+D8_KOR_ANAHTAR = "%s¦%s"
+
+
+def d8_kor_olc(R):
+    """→ (cift kümesi `hat¦gun`, tam_kor hatlar, yarim hatlar). Tam kör = hiçbir günü ölçülmemiş."""
+    cift = {D8_KOR_ANAHTAR % (h, g) for h, g in R["olculemeyen"]}
+    hatlar = {h for h, _ in R["olculemeyen"]}
+    olc = set(R["olculen_hatlar"])
+    return cift, sorted(h for h in hatlar if h not in olc), sorted(h for h in hatlar if h in olc)
+
+
+def d8_kor_defteri_oku(yol):
+    """→ dict ya da None (dosya yok/bozuk ⇒ çağıran ölçülemedi der)."""
+    if not os.path.exists(yol):
+        return None
+    try:
+        D = json.load(open(yol, encoding="utf-8"))
+        D["cift"] = list(D["cift"])
+        return D
+    except Exception:
+        return None
+
+
+def d8_kor_defteri_yaz(R, yol):
+    cift, tam, yarim = d8_kor_olc(R)
+    D = {"_NOT": ("Değişmez 8 KÖRLÜK defteri: `degismez8().olculemeyen` (hat, gün) çiftleri. Üyelik "
+                  "`hat¦gun`; tam_kor/yarim yalnız bilgi. 'Defterde var' ≠ 'incelendi ve kabul edildi': "
+                  "bu hatlar bugün de KÖRDÜ, kimse bilmiyordu — defter körlüğü GÖRÜNÜR kılar, kapatmaz. "
+                  "Yazıldığı gövde: " + R["damga"]),
+         "cift": sorted(cift), "tam_kor": tam, "yarim": yarim}
+    open(yol, "w", encoding="utf-8", newline="").write(json.dumps(D, ensure_ascii=False, indent=1))
+    return D
+
+
+def d8_kor_kapi(R, defter):
+    """Saf karar işlevi (sınav bunu doğrudan çağırır) → (yeni çiftler, yeni hatlar, kapanan çift sayısı)."""
+    cift, tam, yarim = d8_kor_olc(R)
+    eski = set(defter["cift"])
+    yeni = sorted(cift - eski)
+    yeni_hat = sorted({c.split("¦")[0] for c in yeni})
+    return yeni, yeni_hat, len(eski - cift)
+
+
+def degismez8_kor_rapor(R, ayrinti=False, yaz=False, yol=None):
+    """Körlüğü BASAR (sayısı 0 olsa bile satır görünür), defterde olmayan körleşmede olculemedi()."""
+    yol = yol or DEGISMEZ8_KOR_DEFTERI
+    cift, tam, yarim = d8_kor_olc(R)
+    sinif = R.get("kor_sinif") or {}
+    tavan_sinifi = [h for h in tam if sinif.get(h) in D8_SINIF]
+    if yaz:
+        d8_kor_defteri_yaz(R, yol)
+    defter = d8_kor_defteri_oku(yol)
+    if defter is None:
+        print(f"Değişmez 8k !  körlük defteri OKUNAMADI ({os.path.basename(yol)} yok/bozuk) — "
+              f"{len(tam)} tam kör · {len(yarim)} yarım hat · {len(cift)} (hat,gün). "
+              f"`py arac/denetle.py --d8-kor-defter-yaz` ile BEYAN et")
+        olculemedi("Değişmez 8 körlük", "körlük defteri yok/bozuk — körlüğün yeni mi eski mi olduğu bilinmiyor")
+        return
+    yeni, yeni_hat, kapanan = d8_kor_kapi(R, defter)
+    print(f"Değişmez 8k {'✗' if yeni else '✓'}  ölçülemeyen hat: {len(tam)} TAM KÖR (hiçbir günü ölçülmedi) · "
+          f"{len(yarim)} yarım · {len(cift)} (hat,gün) · defter {len(defter['cift'])} üye")
+    print(f"            i D8_SINIF (D/E/F, tavan sınıfı) tam kör hat: {len(tavan_sinifi)} — bu hatlarda taşma "
+          f"HİÇ SORULMADI (taşması 0 görünür); öteki sınıflar {len(tam) - len(tavan_sinifi)}")
+    print( "            i körlük SAYIYLA ayırt edilemez: bir hat ölçülmemeye başlayınca tavan 'iyileşti' der")
+    print(f"            i iki taraflı olmayan D kaydı (karşı yakası tanımsız, soru SORULAMAZ, SAYILIR): "
+          f"{R['iki_tarafsiz']}")
+    if kapanan:
+        print(f"            i defterde olup artık ölçülen {kapanan} (hat,gün) — iyi haber, defteri daralt")
+    if yeni:
+        for k in (yeni if ayrinti else yeni[:15]):
+            print(f"    8k YENİ  {k}")
+        print(f"            ⇒ defterde OLMAYAN {len(yeni)} (hat,gün) ölçülemez hâle geldi ({len(yeni_hat)} hat): "
+              f"körleşme iyileşme DEĞİLDİR.")
+        olculemedi("Değişmez 8 körlük", "defterde olmayan %d (hat,gün) körleşti, %d hat: %s%s" % (
+            len(yeni), len(yeni_hat), ", ".join(yeni_hat[:5]), " …" if len(yeni_hat) > 5 else ""))
+    if ayrinti:
+        for h in tam:
+            print(f"    8k TAM KÖR {h:<40} sınıf {sinif.get(h, '?')}")
+        for h in yarim:
+            print(f"    8k yarım   {h:<40} sınıf {sinif.get(h, '?')}")
+
+
 # ═══════════════ OLCULEMEDI KOVASI (4 Ekim 2026) ═══════════════
 # 🔴 "olculemedi" ≠ "yok" ≠ "temiz" (CLAUDE.md §11). Bu kural YAZILIYDI ve
 #    arac onu IHLAL EDIYORDU: "Olculemeyen soru TEMIZ DEGILDIR" cumlesini
@@ -4629,7 +4727,7 @@ def olculemedi(ad, sebep):
     OLCULEMEDI_KOVA.append((ad, str(sebep)[:160]))
 
 
-def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
+def degismez8_rapor(Y, ayrinti=False, defter_yaz=False, kor_defter_yaz=False, kor_defter=None):
     """main() için: basar, ihlal varsa True döner."""
     try:
         R = degismez8(Y)
@@ -4656,6 +4754,7 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
     print(f"            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması "
           f"{len(R['a_kaba'])} · ölçülemeyen (hat, gün) {len(R['olculemeyen'])} · "
           f"süre {R['sure'][0]}+{R['sure'][1]} sn")
+    degismez8_kor_rapor(R, ayrinti=ayrinti, yaz=kor_defter_yaz, yol=kor_defter)
     if dis:
         print(f"            i YENİ KAPSAM: defterde olmayan {len({k.split('|')[0] for k in dis})} "
               f"hatta {len(dis)} birim — tavana KATILMADI. İncele, sonra "
@@ -4851,6 +4950,10 @@ def main():
                     help="2t defterini bugünkü durumla güncelle (temel yazımı)")
     ap.add_argument("--d8-defter-yaz", action="store_true",
                     help="Değişmez 8 defterini (tavanın hat evreni) bugünkü ölçümle yaz")
+    ap.add_argument("--d8-kor-defter-yaz", action="store_true",
+                    help="Değişmez 8 KÖRLÜK defterini (ölçülemeyen hat¦gun) bugünkü ölçümle yaz")
+    ap.add_argument("--d8-kor-defter", default=None, metavar="YOL",
+                    help="körlük defteri yolu (varsayılan denetim/DEGISMEZ-0086-kor-defter.json; sınav için)")
     ap.add_argument("--kaynak-tavan-indir", action="store_true",
                     help="kaynaksızlık tavanını YALNIZ İNDİRİR (yükseltmez, takası affetmez) ve çıkar")
     args = ap.parse_args()
@@ -5553,7 +5656,8 @@ def main():
                 print(f"              {t}  {ad:30s} ↔ {ot:10s} {fark:+4d}g  {b}")
 
     # Değişmez 8 — şehir bölgesi ülke sınırını aşamaz (motor ÇIKTISINI ölçer)
-    if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz):
+    if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz,
+                       kor_defter_yaz=args.d8_kor_defter_yaz, kor_defter=args.d8_kor_defter):
         ihlal = True
 
     _kdsonuc = konum_denetimi(Y)
