@@ -6,8 +6,8 @@
   "s_tasiyan": 4146,
   "kayit_kaynaksiz": 2301
  },
- "hicbiri": 1969,
- "donem_ici": 332,
+ "hicbiri": 1968,
+ "donem_ici": 333,
  "hicbiri_defter": [
   "yerlesimler.js|Absu (Hypsu)",
   "yerlesimler.js|Abu Dabi",
@@ -1421,7 +1421,6 @@
   "yerlesimler_ek24.js|Orestiada (Kumçiftliği)",
   "yerlesimler_ek24.js|Sofulu (Soufli)",
   "yerlesimler_ek24.js|Uzunköprü",
-  "yerlesimler_ek25.js|Akçakale",
   "yerlesimler_ek25.js|Suruç",
   "yerlesimler_ek26.js|Hanak",
   "yerlesimler_ek26.js|Hulo (Acara)",
@@ -2237,6 +2236,7 @@
   "yerlesimler_ek11.js|Tartu (Dorpat)",
   "yerlesimler_ek17.js|Belgorod",
   "yerlesimler_ek17.js|Tambov",
+  "yerlesimler_ek25.js|Akçakale",
   "yerlesimler_ek27.js|Hopa",
   "yerlesimler_ek28.js|Sarıkamış",
   "yerlesimler_ek29.js|Aşkale",
@@ -2312,5 +2312,18 @@
   "yerlesimler_h2_afrika.js|Şereyk",
   "yerlesimler_h2_rusya.js|Taganrog",
   "yerlesimler_seyrek.js|Trebinye"
+ ],
+ "gecmis": [
+  {
+   "tarih": "2026-10-04",
+   "hicbiri": [
+    1969,
+    1968
+   ],
+   "donem_ici": [
+    332,
+    333
+   ]
+  }
  ]
 }

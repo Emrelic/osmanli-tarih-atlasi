@@ -4692,13 +4692,28 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
 #    zorunluluğundan (16 Ağustos 2026, `girdi.py` BILINEN_ALANLAR) önce yazıldı.
 #    Amaç borcu kapatmak değil KANAMAYI DURDURMAK: tavan konunca YENİ kaynaksız
 #    kayıt eklenemez. Tavan bugünkü ölçümdür — DONDURMA, onay DEĞİL.
-# 🔴 İKİ SORU, İKİ TAVAN (Değişmez 8 deseni): "hiçbiri" ve "dönem-içi" AYRI
-#    tutulur. Tek sayıya (2301) indirilseydi bir kaydın dönem-içi kaynağını
-#    silip kayıt düzeyine taşımamak ya da yeni dönem-içi kayıt eklemek, öbür
-#    kovadaki bir inişle SESSİZCE takas edilirdi. Toplam (2301) yalnız basılır.
-# 🔴 YALNIZ GERİLEME BLOKE EDER ve tavan YALNIZ İNER. `--kaynak-tavan-indir`
-#    tavanı hiçbir koşulda yükseltmez; sayı düştüğü hâlde defterde olmayan YENİ
-#    bir üye varsa da REDDEDER (iki kapanan + bir yeni = takas, af değil).
+# 🔴 ÖLÇÜT SAYI DEĞİL ÜYELİKTİR — KUTUP HATASI, ilk sürümde CANLI veride ateşlendi
+#    (koordinatör, 4 Ekim, Akçakale `11bcae71`): ilk sürüm iki kovaya da "aşarsa
+#    ihlal" tavanı koymuştu. Bir kayda dönem-içi kaynak yazmak onu hiçbiri'nden
+#    dönem-içi'ne TAŞIR ⇒ 1969→1968 ve 332→333 AYNI düzeltmenin iki yüzüdür;
+#    kapı İYİLEŞMEYİ ihlal saydı (çıkış 1, "YENİ kaynaksız kayıt").
+#    ⚠️ Dönem-içi'ne TABAN koymak da çözmez, ters yönden kırılır: dönem-içi bir
+#    kayda KAYIT düzeyinde kaynak yazılınca 332→331 düşer — o da iyileşmedir.
+#    Dönem-içi sayısı iki yönde de meşru hareket eder; tek başına HİÇBİR şey
+#    söylemez ⇒ yalnız BİLGİ olarak basılır.
+# ⇒ Gerileme iki ÜYELİK sorusudur (defter = ölçüm anındaki `dosya|ad` listesi):
+#      (a) hiçbiri'nde olup hiçbiri DEFTERİNDE olmayan kayıt
+#          = yeni kaynaksız kayıt · ya da dönem kaynağı SİLİNMİŞ kayıt
+#      (b) dönem-içi'nde olup HİÇBİR defterde olmayan kayıt
+#          = yeni dönem-yalnız kayıt · ya da KAYIT kaynağı silinmiş kayıt
+#    İyileşmenin üç yolu (hiçbiri→dönem-içi · hiçbiri→tam · dönem-içi→tam)
+#    hiçbir soruyu tetiklemez. Sayılar defterin büyüklüğüdür: hiçbiri tavanı
+#    = |hiçbiri defteri|, kayıt-kaynaksız tavanı = |iki defterin birleşimi|.
+#    Üyelik ölçütü sayı tavanından SIKIDIR: bir kayıt kapanıp bir yenisi
+#    gelirse (net sıfır takas) sayı tavanı susardı, üyelik öter.
+# 🔴 YALNIZ GERİLEME BLOKE EDER ve defter YALNIZ DARALIR. `--kaynak-tavan-indir`
+#    tavanı hiçbir koşulda yükseltmez; (a) ya da (b) üyesi varsa — sayı düşmüş
+#    olsa bile — REDDEDER (iki kapanan + bir yeni = takas, af değil).
 #    `D255`: `--tavan-yaz` bir bayrakta iki işi birleştirip tavanı yükseltmiş ve
 #    203 kusuru affetmişti — yükselten bayrak bilerek YAZILMADI. Yükseltmek
 #    gerekirse (ör. kapsam büyüten parti) JSON elle, gerekçesiyle ve commit
@@ -4708,7 +4723,7 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
 #    ② defter (hangi kayıt borçlu) bir LİSTEDİR; sayı aşıldığında "hangisi yeni"
 #    sorusunu yalnız liste cevaplar (2t defteri dersi) ③ `ODAK-TAVAN.json`
 #    emsali. Dosya yoksa/bozuksa soru ÖLÇÜLEMEDİ kovasına düşer, temiz sayılmaz.
-# Sınav (14 soru, iki yönde, ikisi GERÇEK koşu):
+# Sınav (üç yönde: temiz · kirli · İYİLEŞME; üçü GERÇEK koşu):
 #    py denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py
 KAYNAK_TAVAN_YOL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                                 "denetim", "KAYNAK-TAVAN.json")
@@ -4760,26 +4775,32 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
               f"tavan ÖLÇÜLEMEDİ ({type(e).__name__}: {str(e)[:70]})")
         olculemedi("kaynaksızlık tavanı", "%s: %s" % (type(e).__name__, e))
         return False
-    th, td = T["hicbiri"], T["donem_ici"]
-    ihlal = nh > th or nd > td
+    yeni_h, yeni_d, th, tk = _kaynak_gerileme(K, T)
+    ihlal = bool(yeni_h or yeni_d)
     print(f"Ek denetim  {'✗' if ihlal else '✓'}  kaynaksız `s:` kaydı: {nh} (tavan {th}) · "
-          f"dönem-içi kaynaklı {nd} (tavan {td}) — BEYAN borcu, yalnız gerileme bloke eder")
-    print(f"            i kayıt düzeyinde kaynaksız {nk} = {nd} + {nh} · "
-          f"`s:` taşıyan {len(K['s_tasiyan'])}")
-    yeni_h = sorted(set(K["hicbiri"]) - set(T["hicbiri_defter"]))
-    yeni_d = sorted(set(K["donem_ici"]) - set(T["donem_ici_defter"]))
+          f"kayıt-kaynaksız {nk} (tavan {tk}) — BEYAN borcu, yalnız gerileme bloke eder")
+    print(f"            i dönem-içi kaynaklı {nd} (BİLGİ — iyileşmeyle iki yönde de "
+          f"hareket eder) · {nk} = {nd} + {nh} · `s:` taşıyan {len(K['s_tasiyan'])}")
     if ihlal or ayrinti:
         for k in (yeni_h if ayrinti else yeni_h[:15]):
             print(f"    KAYNAKSIZ YENİ  {k}  → kayda `kaynak:` yaz (bulunamadıysa `bulunamadı`)")
         for k in (yeni_d if ayrinti else yeni_d[:15]):
-            print(f"    DÖNEM-İÇİ YENİ  {k}  → kaynak kayıt düzeyine de yazılmalı")
+            print(f"    DÖNEM-YALNIZ YENİ  {k}  → borç defterinde yok; kaynak kayıt düzeyine yazılmalı")
     if ihlal:
-        print("            🔴 YENİ kaynaksız kayıt — tavan YÜKSELTİLMEZ, kayda kaynak yazılır.")
-    for sayi, tavan, ad in ((nh, th, "hicbiri"), (nd, td, "donem_ici")):
-        if sayi < tavan:
-            print(f"            ⚠️ TAVAN GEVŞEK — {ad} {tavan} → {sayi} indirilmeli: "
-                  f"`py arac/denetle.py --kaynak-tavan-indir`")
+        print(f"            🔴 GERİLEME: {len(yeni_h)} yeni kaynaksız · {len(yeni_d)} yeni "
+              "dönem-yalnız kayıt — tavan YÜKSELTİLMEZ, kayda kaynak yazılır.")
+    elif nh < th or nk < tk:
+        print(f"            ⚠️ TAVAN GEVŞEK — hiçbiri {th}→{nh} · kayıt-kaynaksız {tk}→{nk} "
+              f"(iyileşme) — `py arac/denetle.py --kaynak-tavan-indir`")
     return ihlal
+
+
+def _kaynak_gerileme(K, T):
+    """ÜYELİK ölçütü (blok yorumu): (yeni_h, yeni_d, hiçbiri tavanı, kayıt-kaynaksız tavanı)."""
+    Hd, Dd = set(T["hicbiri_defter"]), set(T["donem_ici_defter"])
+    yeni_h = sorted(set(K["hicbiri"]) - Hd)
+    yeni_d = sorted(set(K["donem_ici"]) - (Hd | Dd))
+    return yeni_h, yeni_d, len(Hd), len(Hd | Dd)
 
 
 def kaynak_tavan_indir(Y, yol=None):
@@ -4793,22 +4814,24 @@ def kaynak_tavan_indir(Y, yol=None):
         print(f"🔴 --kaynak-tavan-indir: tavan dosyası okunamadı ({e}) — YAZILMADI. "
               "İlk tavan elle, gerekçesiyle yazılır.")
         return False
+    yeni_h, yeni_d, _, _ = _kaynak_gerileme(K, T)
     red = []
-    for ad in ("hicbiri", "donem_ici"):
-        yeni = sorted(set(K[ad]) - set(T[ad + "_defter"]))
-        if len(K[ad]) > T[ad]:
-            red.append(f"{ad}: {len(K[ad])} > tavan {T[ad]} — tavan YÜKSELTİLMEZ")
+    for ad, yeni in (("hiçbiri", yeni_h), ("dönem-yalnız", yeni_d)):
         if yeni:
             red.append(f"{ad}: defterde olmayan {len(yeni)} YENİ üye ({', '.join(yeni[:5])}) — "
-                       "takas affedilmez, önce onlara kaynak yazılır")
+                       "sayı düşmüş olsa bile takas affedilmez, önce onlara kaynak yazılır")
     if red:
         print("🔴 --kaynak-tavan-indir REDDETTİ, hiçbir şey yazılmadı:")
         for r in red:
             print("     • " + r)
         return False
-    if len(K["hicbiri"]) == T["hicbiri"] and len(K["donem_ici"]) == T["donem_ici"]:
-        print("i --kaynak-tavan-indir: sayılar tavana eşit, yazılacak bir şey yok.")
+    if set(K["hicbiri"]) == set(T["hicbiri_defter"]) and \
+            set(K["donem_ici"]) == set(T["donem_ici_defter"]):
+        print("i --kaynak-tavan-indir: defter bugünle aynı, yazılacak bir şey yok.")
         return None
+    # Buraya gelindiyse hiçbiri ⊆ eski hiçbiri defteri ve kayıt-kaynaksız ⊆ eski
+    # birleşim ⇒ iki tavan da ya iner ya aynı kalır; YÜKSELEMEZ. (Dönem-içi
+    # defteri büyüyebilir — hiçbiri'nden taşınanlar — ama birleşim büyümez.)
     eski = (T["hicbiri"], T["donem_ici"])
     T["hicbiri"], T["donem_ici"] = len(K["hicbiri"]), len(K["donem_ici"])
     T["hicbiri_defter"], T["donem_ici_defter"] = K["hicbiri"], K["donem_ici"]
