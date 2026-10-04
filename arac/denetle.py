@@ -5560,6 +5560,14 @@ def main():
     kd, kd_pencere = (None, []) if _kdsonuc is None else _kdsonuc
     if kd is None:
         print("Ek denetim  i  konum: shapely ya da veri-kaynak yok, ATLANDI")
+        # 🔴 LAB BULDU (4 Ekim 2026, LAB-ARAC-DOGRULAMA-1004): bu dal "ATLANDI"
+        #    BASIYOR ama OLCULEMEDI_KOVA'ya DUSMUYORDU ⇒ sayac 1 diyor, oysa iki
+        #    soru olculemedi. Yani 3 Ekim'de TAM BU KUSUR ICIN yazilan yama, kendi
+        #    kapatmasi gereken sinifin bir ornegini ACIK BIRAKMIS. Ikinci bir
+        #    ortamdan (numpy'si olmayan LAB) bakilmasa gorunmezdi — `D259`.
+        # ⚠️ Konum denetimi SESSIZ ATLANAMAZ: bir noktanin kara maskesi disinda
+        #    olup olmadigi olculemediginde cevap "temiz" DEGIL "bilinmiyor"dur.
+        olculemedi("konum denetimi", "shapely ya da veri-kaynak yok")
     else:
         # 🔴 PENCERE DIŞI AYRI RAPORLANIR — İHLAL DEĞİL, BEKLEYEN VERİDİR.
         # Bu nokta YANLIŞ YERDE DEĞİL; atlasın penceresi oraya HENÜZ açılmadı.
