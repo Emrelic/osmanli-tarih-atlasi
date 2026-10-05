@@ -171897,5 +171897,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5809",
+  "zaman": "2026-10-05 09:33",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-OK109-SUPURGE · iki sayi: (1) olaylar_ok109.js 11 madde (9 degil), TURETILMIS 2: #4 (1918-11-11 ardil devletler, kanitli) + #9 (1919-06-28 Versailles — Alsas-Loren devri; kendi kaynak alani itiraf ediyor: 'Dort sehrin el degistirmesi atlasin KENDI verisinden okunmustur'; imza gunu devir gunu degil). ① imzasi ('eski ifade: Atlasta…') 9/11'de var ama tek basina turetme degil — tarihlerin 9'u olayin kendi gunu. (2) KOR NOKTA: bu maddeler kac kirilmaya senkron veriyor = 0. Karsi-olgusal (denetle.degismez2 + 2s zinciri bellekte, her madde tek tek, #4+#9, 11'i birden cikarildi): Δ Degismez 2 +0 · Δ 2s acik-ham +0 · Δ 2s ACIK +0. Makine sinandi: alakasiz tek madde ile 623/623 ve 1711/1711 aciliyor. ⚠️ TUZAK: bos madde listesiyle sinav GECERSIZ — degismez2 'if not ol' dalinda fark 0 yaziyor (denetle.py:1554), 'madde yok'='hepsi kapali'. NEDEN 0: kapi bu maddelere muhtac degil — 109 kirilmayi ok109 DISI '1918-11-12 Avusturya Cumhuriyeti'nin ilani' (sessiz_borc) 109/109 kapatiyor; yalniz ok109 ile kapanan nokta 0. ASIL KOR NOKTA = TARAF KOLU (olcum, butun 2s, denetle'nin _2s_yeri_aniyor/_2s_tarafi_aniyor islevleri): kapali 2s kirilmasi (yer×gun) 3160 · YER anilarak 1558 · YALNIZ TARAF ile 1602 (%51). En buyukler: 1920 →tbmm 214 · 1736 safevi→afsar 129 · 1747 afsar→zend 127 · 1867 ing-kuzey-amerika→kanada 124 · 1889 Brezilya 92. Taraf kolu D261'in bilerek kurdugu kural (rejim degisimi), ama olctugu 'o gun o DEVLETIN olayi var', 'bu YER o gun el degistirdi' degil => 2s 'kapali'nin yarisi yer duzeyinde dogrulanmamis; kunyeden devralinmis sahte gunler (Avusturya-109) tam bu yarida saklaniyor. Ongorum TAMAMEN cokdu: [4] cikarilinca ~109 acilir demistim, 0. ONERI: #4/#9 duzeltmesi guvenle yapilabilir (Δ 0) ama kapiyi dogru yapmaz; denetle.py sahibine: rapor 'kapali (yer)' ile 'kapali (yalniz taraf)' AYRI satir, ikincisi tavanli borc. KARL: beyan notu taslagi raporda §3 (11 Kasim kalir, TDV 18 Kasim farki beyan); ⚠️ #5'in t'si 18 Kasim — ya 11'e cekilmeli ya kaldirilmali, ayni olay kronoloji_habsburg + sessiz_borc'ta zaten var (uc madde, ayni olay). Rapor: denetim/ONCE1281-OK109-SUPURGE-1004.md · commit eccef5df · veriye yazilmadi. Bekcim KURULU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
