@@ -76,3 +76,58 @@ Yama: `denetim/SINAV-YANETKI-1006.diff` (4 dosya, +90/−27, mutlak yol satırı
    dosyası benim değil).
 3. `denetim/_1783_cikar.js` artık hiçbir betik tarafından yazılmıyor/okunmuyor ve bir makinenin
    mutlak yolunu taşıyor → silinmeye aday (silmedim).
+
+---
+
+## 5. KALEM 1 (1006b) — tüketici zinciri: "4/4 aynı" ÜRETİCİYİ ölçmüştü, tüketiciyi değil
+
+**Ağaç:** atılabilir worktree `origin/makine/umit` = **`e3ee36ca`** (fetch hâlâ düşüyor;
+`makine/umit` 4a9a15f8'e ilerledi ama ilgili 5 dosyada e3ee36ca..4a9a15f8 farkı **0**).
+⚠️ `4ce531e0` yalnız `.diff`i commitledi, yama ağaca UYGULANMAMIŞ — ölçüm için worktree'de uygulandı.
+
+### ① Tüketiciler (grep: 4 betiğin ürettiği 5 dosya adı, `*.py *.js *.sh *.ps1`)
+| üretilen dosya | okuyan | not |
+|---|---|---|
+| `_1783_cikar.js` | yalnız 1783'ün kendisi (yaz→node koştur) | koordinatörün gösterdiği `:57` bu — dış tüketici DEĞİL; yamada yaz+koştur aynı geçici yol |
+| `_1783_ulke.json` | **`ARAC-TRIYAJ-URET.js:15`** | GERÇEK dış tüketici |
+| `EKO-BOLGE-BAG-0920.json` | yok | yalnız betiğin kendisi |
+| `_omur.json` | **`ARAC-KAMERIKA-0903-zincir.py:43-47`** | önbellek: yoksa kendisi üretir |
+| `ODAK-TAVAN.json` | `odak_olc` · `ODAK-TAVAN-INDIR-1001` · `denetle.py` (yorum) | sınav içeriğini değiştirmiyordu (sha256 aynı) ⇒ zincir etkisi yok |
+
+### ② Var / yok koşusu
+| tüketici | girdi VAR | girdi YOK |
+|---|---|---|
+| TRIYAJ (eski) | çıkış 0, 62 kayıt | **çıkış 1**, node ENOENT yığını (gürültülü, ama ÖLÇÜLEMEDİ/2 değil) |
+| zincir | çıkış 0 | çıkış 0 — `_omur.json`u KENDİSİ üretir; stdout ve `ZINCIR-KAMERIKA-0903.json` VAR==YOK bayt aynı |
+
+⇒ "yokken sessiz çıkış 0" kusuru YOK. **Ama asıl kusur başka yerde — TAZELİK:**
+
+### ④ Uçtan uca zincir (1783→TRIYAJ · taban-sina→zincir), yamasız (A) vs yamalı (B)
+- Bugünkü veri: A ≡ B (6 çıktı: 1783/TRIYAJ stdout, TRIYAJ json, taban, zincir stdout/json — hepsi AYNI).
+- **Bayat girdi deneyi** (kayıtlı `_1783_ulke.json`dan bir "abd YANLIŞ" kaydı — Tehuantepec — silindi):
+  yamasız C ≡ A (1783 dosyayı tazeliyor) · **yamalı D ≠ A**: TRIYAJ bayat dosyayı okudu →
+  "KOVASIZ 1 · SAYI TUTMADI 61≠62 · KUSUR 5→4", çıkış 1.
+  Bu vaka gürültülü düştü çünkü silme kovasız kayıt üretti; **ters yönlü bayatlık (yanlış→doğru
+  dönen kayıt) sessizce yanlış KUSUR kovası üretirdi.** ⇒ W31 yaması zinciri KESMİŞTİ: "4/4 aynı"
+  üretici için doğru, zincir için YANLIŞ TEMİZdi.
+
+### ③ Düzeltme — `SINAV-YANETKI-1006b.diff` (1006'nın ÜSTÜNE, 2 dosya, +39/−4, mutlak yol 0)
+- `ARAC-1783-ULKE-SINA.py`: `--cikti <yol>` eklendi (+ docstring'de tüketici beyanı).
+- `ARAC-TRIYAJ-URET.js`: kayıtlı `_1783_ulke.json`u OKUMAZ; 1783'ü `--cikti <geçici>` ile
+  kendisi koşturur (üretici-tüketici aynı geçici yol), geçici dizini siler. 1783 düşerse ya da
+  `_triyaj_taban_amerika.json` yoksa **`⚪ ÖLÇÜLEMEDİ … ÇIKTI YAZILMADI`, çıkış 2**.
+
+Sınav (1006+1006b, e3ee36ca):
+| durum | çıkış | sonuç |
+|---|---|---|
+| bugün | 0 | stdout + json ≡ A (yamasız zincir) |
+| kayıtlı rapor BAYAT | 0 | ≡ A (bayatlıktan bağışık) |
+| kayıtlı rapor YOK | 0 | ≡ A |
+| shapely yok (sahte modül) | **2** | "ÖLÇÜLEMEDİ — 1783 çıkış 2 · shapely kurulu değil", json yazılmadı |
+| taban girdisi yok | **2** | "ÖLÇÜLEMEDİ — …taban… yok", json yazılmadı |
+| negatif kontrol (eski TRIYAJ + bayat) | 1 | ≠ A (yukarıdaki D) |
+- Dört sınav yeniden: çıkış 4/4 = 0, stdout 4/4 W31 tabanıyla AYNI, yan etki 0 (status'ta yalnız yamalı betikler). `%TEMP%`'te artık `triyaj-1783-*` kalmadı (0).
+- `HEAD e3ee36ca + 1006 + 1006b`: sırayla `apply` TEMİZ.
+- ⚠️ TRIYAJ kendi çıktısını (`TRIYAJ-METROPOL-AMERIKA-0907.json`) yazmaya DEVAM eder — o bir
+  üreteç, sınav değil; yazdığı içerik kayıtlıyla aynı, fark yalnız satır sonu (CRLF→LF). Kapsam dışı bıraktım.
+- Yeni bağımlılık: TRIYAJ artık shapely ister (1783 üzerinden) — yoksa sessiz değil, 2.
