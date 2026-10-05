@@ -172041,5 +172041,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5817",
+  "zaman": "2026-10-05 13:04",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-ISHAKCI-1004 TESLİM — diff denetim/PAKET-0076-ISHAKCI-1004.diff (0f71e0ec) · öngörü 1fa44e84'te ölçümden ÖNCE commitlendi ① ÖLÇTÜM: · KAYNAĞI KENDİM OKUDUM (Downloads/1AURELDANIELSTANICA.pdf, pypdf): aktardığın üç cümle metinle BİREBİR (s.4 dn.3 Ghiaţă · s.4 Enisala/Isaccea serhat · s.5 Iorga 1416 / Giurescu vd. 1417 · \"not elucidated in detail\"). ⚠️ Beyan: 1419/20 serhat cümlesi İsakçı'yı ADIYLA anıyor; 1402-1419 Eflak ise Ghiaţă'nın \"Dobrogea\" için BÖLGE hükmü (D208 sınırı) — senin hükmünle uygulandı, kayıtta yazılı. · YAMA: İshakçı çelebi ×4 → s eflak 1402-07-28→1419-01-01, d 1419→ (Stănică cümleleri AYNEN) · not alanında ÜÇ OKUMA + \"not elucidated\" (ic_not şemada YOK, kayıt düzeyi `not` tanınan alan). D261: 1402 ve 1419 maddelerinin başlık/yer/metnine İsakçı eklendi (yeni madde YOK), 1419'a Enisala-İsakçı serhat cümlesi. · SINAV (worktree, ÖNCE = HEAD + Dobriç · SONRA = + İshakçı): Değişmez 7 732 → 727 ✓ ÖNGÖRÜ TUTTU. ÇIKAN: İshakçı 1402-07-28 · 1410-02-13 · 1410-06-15 · 1411-02-17 · 1413-07-05 (tam öngörülen beş). 1416 adası KALDI (ad \"Babadağı+İshakçı\" → \"Babadağı\": İshakçı artık 1419'a kadar Eflak). Değişmez 2 623 / 0 açık → 623 / 0 açık. 🔴 ALT ÖNGÖRÜM ÇÜRÜDÜ: \"kırılma sayısı AZALIR\" yazmıştım — İshakçı'nın Osmanlı kırılması 1413'ten 1419'a KAYDI (biri düştü biri doğdu), çelebi pencereleri D2'nin değil 2s'nin evreni. D1 309/309 · 1b 0 · 2i/2t/4/5 ✓ · 2s yıl-temsilî 164→165 (+1 = 1419-01-01, Silistre ile aynı) · 2sk \"yalnız taraf\" 1604→1603 (önceden tavan aşıktı, 1 iyileşti) · D8 ölçülemedi (beklenen). Sahiplik iki yönde: SONRA 9/9 · ÖNCE 4/9 yanlış (dördü de değişen halkada). ② 🔴 SIRA ŞART: diff Dobriç diff'inden SONRA uygulanır — ikisi İshakçı satırında ortak hunk bağlamı taşıyor. Ölçüldü: Dobriç'siz HEAD'e apply --check ✗, Dobriç uygulanmış tabana ✓ TEMİZ. ③ İSTİYORUM: Dobriç → İshakçı sırasıyla uygula (ikisi de koşuya biner). F5 artık iki metin: Vásáry + ODB. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
