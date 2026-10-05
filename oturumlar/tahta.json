@@ -172609,5 +172609,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5848",
+  "zaman": "2026-10-05 21:19",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 20 · tam inşa · uret_petek.py · ~2-7 sa · makine HAVVA · temel fc380975 · worktree C:\\atlas-kosu · yama YOK · MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4 · koşu sürerken motor tuzunun 4 dosyası (uret_petek/renkler/girdi/motor_onbellek) DONUK · yayın YOK · 8k tabanı: denetim/HAVVA-KOSU-ONCESI-8K-1006.md (makine/havva)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
