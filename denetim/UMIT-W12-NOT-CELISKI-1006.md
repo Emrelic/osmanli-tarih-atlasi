@@ -120,3 +120,31 @@ Ağaç: `C:\atlas-w12` (origin/main `7bb6b62c`, detached) · yalnız ölçüm ·
 
 Değişen/yeni dosyalar (commit yok): `C:\atlas-umit\denetim\ARAC-NOT-CELISKI-1006.py` · `C:\atlas-umit\denetim\UMIT-W12-NOT-CELISKI-1006.md`.
 Yeniden üretme: `py denetim/ARAC-NOT-CELISKI-1006.py <depo-kökü> [--json <çıktı>]` (çıkış 0 ölçüldü · 2 ölçülemedi).
+
+## 6. Yama — sınır ifadeleri (koordinatör kuralı, 6 Ekim 2026)
+Kural: "N'den önce/sonra · N'e kadar" bir sınırdır; alan ancak bu sınırı İHLAL ederse ①. Uygulama `sinir_oku` + `uyar`:
+
+| ifade | alan şu durumda uyumlu |
+|---|---|
+| önce · evvel | alan < N |
+| sonra | alan > N |
+| kadar | alan ≤ N |
+| itibaren | alan ≥ N |
+
+Hicrî N'de iki aday yılın geniş ucu alınır.
+
+Sınav (iki yönde):
+
+| vaka | sonuç |
+|---|---|
+| mimar-sinan f=1488 ↔ «1491'den önce doğdu» | temiz ✓ |
+| aynı metin, f=1495 | ① ✓ |
+| aynı metin, f=1491 (sınırın kendisi) | ① |
+| «1510'dan sonra»: f=1500 | ① ✓ |
+| «1510'dan sonra»: f=1515 | temiz ✓ |
+| «1445'e kadar yaşadı ve öldü»: t=1450 | ① ✓ |
+| «hicrî 870'ten önce»: f=1460 | temiz ✓ |
+
+Tam koşu: kişi mekanik ① adayı 10 → 9 (yalnız mimar-sinan düştü). Elle doğrulanmış 7 ① aynen duruyor; padişah ve yerleşim sayıları değişmedi.
+
+⚠️ **"~N · yaklaşık N · muhtemelen N" bilerek tolerans almadı:** bu ifadelerde yön yok, sınır N'in kendisi. Kabul edilen ①'lerden iki kayıt tam bu biçimde: turgut-reis («yaklaşık 1487» ↔ 1485) ve piri-reis («muhtemelen 960 (1553)» ↔ 1554). ±n tolerans bu ikisini sessizce temize çıkarırdı. Yumuşak ① olarak kalıyorlar. Tolerans istenirse yalnız `uyar()` içinde tek satır; hüküm koordinatörde.
