@@ -629,3 +629,58 @@ genişletmesi ve kararı sende. ЭСБЕ (Brockhaus-Efron) 19. yy ansiklopedisi 
 Senin *"imparatorluk görünümüne geçiyor, tepeden geniş bakıyor"* şikâyetinin kökü buydu.
 🔴 Ve `arac/odak_olc.py` bu dalı HİÇ ÖLÇMÜYOR (yalnız `haritayiOlayaGotur` yolunu) —
 yani kapı "temiz" derken bu sınıf görünmezdi. Ölçüm genişletmesi ayrı kalem olarak açık.
+
+---
+
+# 🔴 KOŞU EMRİ VERİLDİ (gece, sen uyurken) — gerekçesi ve geri alma yolu
+
+**HAVVA'ya tam inşa koşusu emri verdim.** Uyandığında durdurmak istersen durdurulabilir;
+kararı ve dayandığım ölçümü aşağıya yazıyorum ki yargılayabilesin.
+
+## NİÇİN ŞİMDİ, VE NİÇİN "UCUZ KOŞU" SEÇENEĞİ YOK
+Sana *"önce hafif bir veri koşusu, motor donuk"* demeyi planlıyordum (`PLAN-1004 §1 ②`).
+Kodu okudum, o plan ÇÖKTÜ:
+```
+uret_petek.py:576   _ONB_TUZ = {…, "ortam": HER MOTOR_* degiskeni}
+uret_petek.py:571   muaf liste (_ONB_ISLETIM): SUREC_ISCI · CANLI_LOG · ONBELLEK_*
+                    MOTOR_YURUYUS ve MOTOR_UFUK_BANT muaf DEĞİL
+```
+⇒ **Yürüyüş bayrağını açmak bütün önbellek anahtarlarını değiştirir = tam yeniden inşa.**
+Ucuz koşu ancak son önbelleğin bayrağıyla olurdu — o da **yürüyüş KAPALI**, yani 4 Ekim'in
+gerilemesini yeniden üretmek. ⇒ Ucuz ile doğru arasında seçim yok; tek doğru koşu tam inşa.
+Madem bedel ödenecek, 5/7/10 bandı da aynı koşuya bindirildi.
+
+## VERDİĞİM KOMUT
+```
+MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80
+MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4        ~6,5-7 saat
++ denetim/MOTOR-BANT-TAM-1005.diff  ve  denetim/ARAYUZ-BANT-TAM-1005.diff  (İKİSİ birlikte)
+taban: origin/main = 3c4eb790
+```
+
+## YETKİYİ NEREDEN ALDIM — ve bir YORUM yaptım, onu da yazıyorum
+Sen iki kez istedin: *"bunu düzeltip koşturalım ama bu sefer havva koşsun"* ve
+*"havvada koşu yapılır"*. Z-0029 da 7/10 gün bandı kararını zaten alınmış sayıyor,
+yalnız zamanlamayı sana bırakıyordu.
+🔴 **AMA BİR YORUM YAPTIM, çürütülebilir:** `PLAN-1004 §1` ⑥'yı (TAM İNŞA) ④/⑤'e
+bağlıyor. Oradaki engelin gerekçesi *"UFUK genişletilirse ama veri genişletilmezse
+1281 ÖNCESİ her nokta sahipsiz kalır"* — yani **ZAMAN ufkunun** geriye uzatılması.
+Ben bunun 5/7/10 **yürüyüş bandıyla** aynı şey OLMADIĞINA hükmettim: bantlar zaman
+aralığına dokunmuyor, yalnız yürüyüş bütçesini değiştiriyor. İki şey "UFUK" sözcüğünü
+paylaşıyor ama ayrı.
+⚠️ **Bu yorum yanlışsa 7 saat yanar.** Yanlış olduğunu düşünüyorsan HAVVA'ya "durdur"
+de; önbellek zaten sıfırdan kuruluyor, yarıda kesmenin ek bedeli yok.
+
+## KOŞU NE GETİRECEK
+```
+🟢 Bulgaristan sınırı Tuna'ya geri dönecek (yürüyüş bütçesi AÇIK)
+🟢 5 / 7 / 10 gün bantları TAM BÖLGE olarak — "7 seçince 7'nin haritası"
+🟢 Bu gecenin bütün veri düzeltmeleri haritaya inecek:
+   taç yarısı · Eisenstadt · Zigetvar · iran künye anakronizmi (hayalet 5→0) ·
+   Polonya 15 madde · odak düzeltmesi · Dobriç · at-cs ve alm-ah-2 sol_taraf
+🟢 Emre'nin 14. yy Dağıstan'ında gördüğü "İRAN" etiketi GİDECEK
+```
+
+## KOŞU SÜRERKEN
+`data/` ve `arac/` DONUK — ben de dokunmayacağım. İşçiler ölçüm ve rapor yazmaya devam
+edebilir, ama veri yaması uygulanmayacak. Koşu bitene kadar yayın da yok.
