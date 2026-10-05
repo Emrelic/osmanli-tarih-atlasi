@@ -604,7 +604,7 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 264 ders (dosya 264 = dizin bağı 264,
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 265 ders (dosya 265 = dizin bağı 265,
 6 Ekim 2026'da ÖLÇÜLDÜ). Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
 (ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:

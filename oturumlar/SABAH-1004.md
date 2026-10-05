@@ -979,3 +979,67 @@ doğruladı.
 📌 Ve `arac/tahta.py` `makine/tahta-web` dalında **yeniden yazılıyor** ⇒ düzeltme main'de
 yapılırsa çakışır. **Web tahtanın sürümünün bu kusuru DEVRALMADIĞI ölçülmeli** — kesme
 denetimine eklendi.
+
+---
+
+# 🔴 EMRE — DÖRDÜNCÜ KARAR: bir izin reddi, ve onu kimse dolanmadı
+
+**Durum:** `data/yerlesimler_ek26.js`teki kayıt `ad:"Arpaçay (Akyaka)"` ve bu etiket YANLIŞ —
+ölçüldü, Arpaçay ve Akyaka iki ayrı yer (27,5 km). Düzeltme notunu yazacak işçi (W6) notu
+şemada **olmayan** bir alana (`ic_not_ad`) yazdı; `denetle` o alana UYARI basıyor. Onu şemadaki
+`not:` alanına çevirmek **W6'nın izin denetimi tarafından REDDEDİLDİ.**
+
+🟢 **Ve üç oturum da doğru davrandı:** W6 atlatmadı · UMIT alt koordinatörü onun yerine yapmadı
+(`TOPOLOJI §6.4`) · ben de yapmadım. Bir eşin reddini üçüncü bir elle aşmak, reddin etrafından
+dolaşmaktır.
+⇒ **Karar senin.** Ya W6'nın ekranında o izni açarsın, ya da alanı ben/başka bir oturum
+**kendi izniyle** yazar (yani sen "bunu şu oturum yapsın" dersen).
+⚠️ Şartım: şemada olmayan `ic_note_ad` alanı `data/`ya COMMİTLENMİYOR — beyansız alan sessiz
+borç olur. `C:\atlas-w6`daki iki dosya commitlenmemiş bekliyor; iş kayıp değil, ağaca da girmedi.
+
+---
+
+# 🔴 ÖLÇÜLMÜŞ YENİ KUSUR SINIFI — "KOPYALANMIŞ ZİNCİR"
+
+Bu gece aynı sınıf **iki ayrı yerden** çıktı ve ikisi de tek kayıt değil, **üretici/desen**
+kusuru:
+
+## ① Lublin'in 1917-18 kuyruğu KOPYALANMIŞ — kaydın kendi `kaynak` alanı söylüyor
+`data/yerlesimler_p0037.js:73`, `kaynak:` alanının son cümlesi birebir:
+> *"1917-1918 kuyruğu **Varşova kaydının deseni**."*
+
+Ve o kuyruk Lublin'i **1918 Kasım'a kadar Rus** gösteriyor (`kongre-polonyasi` → ... →
+`sovyet-rusya` → `polonya`), oysa Lublin **1915 Temmuz'dan beri** Avusturya-Macaristan
+işgalinde. Üç yıldan fazla yanlış, ve `isg:` alanı **boş**.
+⇒ Ölçüm sipariş edildi: *bu desen kaç kayda kopyalanmış?* Tek bir yanlış tarihten çok daha
+geniş bir sınıf olabilir.
+
+## ② Küçükperveli'nin zinciri Arpaçay'dan BİREBİR alınmış
+Kayıt üretilmiş bir dosyada; düzeltme `ARAC-TR1923-YAZ-0914.py` üreticisinden yapılmalı. Ve W6
+ölçtü: zincir Arpaçay'dan birebir kopyalandığı için hüküm **bütün 1281-1923 zincirini** kapsıyor.
+Konum da sapmış: atlas kaydı GeoNames ana kaydından **ve** OSM'den 3,5 km uzak, o ikisi
+birbirine 0,21 km ⇒ sapma atlasta.
+
+📌 **Niçin bu bir sınıf:** kopyalanmış zincir `denetle`de ihlal vermez (biçimce geçerlidir),
+`kaynak:` alanı dolu görünür, ve kaynağı okuyan biri *"Varşova'nın deseni"* cümlesini
+**bir dayanak sanabilir.** Oysa o cümle bir dayanak değil, **dayanak olmadığının itirafıdır.**
+
+---
+
+# 🔴 BEŞİNCİ KARAR: 1915-18 Rus Polonyası — `s:` mi `isg:` mi?
+
+W5'in Polonya düzeltmesinde Lublin parçasını **bloke ettim**, çünkü alan sorusu açık:
+```
+isg: EMSALİ (taradım, hepsi egemenlik devretmeyen askerî işgal, hepsi kaynaklı):
+   Adana/Tarsus  fransa-cumhuriyet   1918-12
+   Pécs          sirbistan→yugoslavya 1918-11
+   Timișoara     romanya-kralligi    1919-08
+1915-18 Rus Polonyası da BİÇİMSEL OLARAK aynı: egemenlik Brest-Litovsk'a (Mart 1918)
+kadar hukuken Rus'ta, Almanlar/Avusturyalılar işgal idaresi kurdu.
+⇒ `isg:` doğru alan GİBİ görünüyor, ve Brest kaydının KENDİ notu da `isg:` diyor.
+```
+🔴 **Ama alan seçimi KAPI SONUCUNU değiştiriyor:** W5'in ölçtüğü `D7 734 → 732` iyileşmesi
+Lublin'in **`s:` olarak** Avusturya olmasından doğuyor; D7 `s:` bileşenine bakar. `isg:`e
+yazılırsa `s:` Rus kalır ve ada kapanmaz. İki alan, iki farklı kapı cevabı.
+⇒ Ölçüm sipariş edildi (mevcut emsal + `isg:` ile D7 ne oluyor). **Emsal varsa ona uyulur,
+yeni kural icat edilmez.** Emsal yoksa karar senin: işgal haritada nasıl görünecek?
