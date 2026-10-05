@@ -565,3 +565,67 @@ sorusu sorulmayacak** — çünkü soru kendiliğinden kapanabilir.
 📌 Bu, "çareyi KURALDAN değil KODDAN/VERİDEN tasarla" dersinin uygulaması: üç şıkkın ikisi
 tarihi bozuyor, üçüncüsü 49 dönemi tavan borcu yapıyor; kök düzeltme hiçbirini
 gerektirmeyebilir ve öyleyse bedava.
+
+---
+
+# PAKET 0083 — Emre'nin kararını BEKLEYEN üç kalem (5-6 Ekim 2026 gecesi)
+
+İşçiler ölçtü, ben hüküm veremem: üçü de **kapsam/model kararı**, teknik soru değil.
+
+## ① TARALI DESEN mi, SEFER OKU mu? — H-0001 ile KENDİ KARARIN ÇELİŞİYOR
+PAKET-0083-D ölçtü (`denetim/PAKET-0083-D-ODAK-ISGAL.md`):
+```
+H-0001 diyor ki:  "Rusya'nın Eflak-Boğdan işgali varsa ... işgal TARAMASI ile gösterilmeli"
+VERİDE DURAN SENİN KARARIN (SEFERLER[67].kaynak):
+  "Romanya MÜTTEFİK: bu ok bir geçiştir, işgal DEĞİL (Emre kararı: taralı desen yalnız işgal)"
+```
+Ve TDV seni doğruluyor: *"prensliği kendi tarafına çeken Ruslar"* (doksanuc-harbi[25] ·
+bogdan[127] · romanya[178-179]) — 1877'de Romanya müttefik, işgal altında değil.
+🟢 **SEFER OKLARI ZATEN VAR ve varsayılan AÇIK** (`index.html:139`); `SEFERLER[67]`
+Kişinev→Zimniça 1877-04-24→06-27, o gün beliriyor (`app.js:5823`). **Yapılacak iş YOK.**
+⇒ SORU: *"taralı desen yalnız işgal" kuralın DURUYOR mu, ok yeterli mi?* Duruyorsa
+H-0001'in tarama isteği bu maddede UYGULANMAZ ve kalem kapanır.
+
+## ② BOŞ BÖLGELER: nokta mı eklensin, "yerleşim yok" mu denilsin?
+PAKET-0083-A ölçtü (`denetim/PAKET-0083-A-BOS-BOLGE.md`) — dört madde, **iki ayrı sınıf**:
+```
+KASITLI BOŞLUK (kusur DEĞİL, BEYAN):
+  H-0007 Po ovası      9 noktanın 5'i (Bergamo·Brescia·Verona·Padova·Parma)
+                       1281→1395-05-11 __BOSLUK__; 1396'da milanoduka
+  H-0002 G. Arnavutluk 15 noktanın merkezi Berat 1281→1417 __BOSLUK__; 1418'de OSM
+NOKTASIZ SIRT (motor doğru çalışıyor, VERİ yok):
+  H-0003 Kafkas ana sırtı (Sohum KD)  50 km içinde 0 nokta · en yakın ~95-110 km
+  H-0004 Kaheti-Dağıstan              50 km içinde 0 nokta · en yakın ~93-104 km
+                       1815'te iki yaka Rusya olunca şerit KAPANIYOR
+```
+⇒ İKİ AYRI SORU, ayrı cevap isteyebilir:
+  **(a)** Po ovası + Arnavutluk: nokta eklemek **künye + kaynaklı dönem** ister.
+      Bergamo/Brescia/Parma için `milanoduka` künyesi VAR (f:1097), yalnız geçiş
+      tarihleri kaynak bekliyor. Verona/Padova/Berat **yeni künye** ister
+      (Della Scala · Carrara · Muzaka — `devletler.js`te YOK).
+  **(b)** Kafkas sırtları: en az birer kaynaklı nokta (Svaneti/Mestia · Avar-Hunzah —
+      ikisi de şu an KAYNAKSIZ aday), **ya da** bilerek boş bırakılıp arayüzde
+      "sırt — yerleşim yok" beyanı.
+⚠️ Ölçümün kendisi şunu söylüyor: bunlar **harita deliği değil**, biri kasıtlı beyan
+   öteki gerçek yerleşim yokluğu. Yani "düzeltilmeli" demiyorum — **kapsam genişletmesi
+   mi istiyorsun**, onu soruyorum (`§1.6`).
+
+## ③ KİŞİNEV NOKTASI EKLENSİN Mİ? (odak kusurunun KALICI çaresi)
+PAKET-0083-D'nin B şıkkı: `Kişinev (47.0105, 28.8638) · s:rusya 1812-05-28→ ·
+dayanak ЭСБЕ`. Mükerrer taraması YAPTIM: atlasta "Kişinev/Chișinău/Kishinev" adıyla
+**0 kayıt**, 3 km içinde **0 nokta** — gerçekten yok.
+🟢 Değeri: iki kronoloji maddesine `yer_id:"Kişinev"` yazılabilir hâle gelir ve odak
+kusurunun **İKİ kod yolunu birden** kapatır (aşağıdaki ③'ün yalnız birini değil).
+⚠️ Ama yeni yerleşim noktası = yeni petek = **haritayı değiştirir**; bu bir veri
+genişletmesi ve kararı sende. ЭСБЕ (Brockhaus-Efron) 19. yy ansiklopedisi — `§4`in
+"akademik/kurumsal" eşiğini geçer ama TDV değildir; kabul edersen `kaynak:`a açıkça yazılır.
+
+---
+
+# Ve bu gece DÜZELTİLEN bir kusur — bilgi için, karar gerekmiyor
+`js/app.js maddeAc()` (devlet sekmesi) **üçüncü kamera dalıydı ve hiç bağlanmamıştı**:
+`yer_id` yok + `kapsam_genis` ⇒ doğrudan `devletiYay(d.harita)` = devletin BÜTÜN gövdesi.
+`maddeOdakKutusu` bu yolda HİÇ çağrılmıyordu ⇒ `odak_yer` yazılsa bile ETKİSİZDİ.
+Senin *"imparatorluk görünümüne geçiyor, tepeden geniş bakıyor"* şikâyetinin kökü buydu.
+🔴 Ve `arac/odak_olc.py` bu dalı HİÇ ÖLÇMÜYOR (yalnız `haritayiOlayaGotur` yolunu) —
+yani kapı "temiz" derken bu sınıf görünmezdi. Ölçüm genişletmesi ayrı kalem olarak açık.

@@ -2956,6 +2956,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1877-04-24", b:"93 Harbi başladı — Rusya Osmanlı'ya savaş ilan etti", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"", kapsam_genis:true,
+  odak_yer:["Bender","Bükreş","Rusçuk"],   // PAKET-0083-D (H-0001·H-0011)
   d:"Nisan İsyanı'nın bastırılışının yarattığı Avrupa tepkisi ve İstanbul Konferansı'nın (Aralık 1876) sonuçsuz kalması üzerine Rusya Osmanlı Devleti'ne savaş açtı; savaş Tuna'yı geçen Rus ordularının Bulgar gönüllüleriyle birlikte ilerlemesiyle doğrudan Bulgar topraklarında yürütüldü ve bu topraklarda '500.000 ile 600.000 Türk'ün öldürüldüğü veya göçe zorlandığı' bir dönemin başlangıcı oldu.",
   kaynak:"TDV `bulgaristan`: '1877-1878 Osmanlı-Rus Savaşı ... 500.000 ile 600.000 Türk'ün öldürüldüğü veya göçe zorlandığı bilinmektedir.' Savaş ilanı gün: akademik (Crampton, 2005)." },
 

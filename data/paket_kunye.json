@@ -186,8 +186,8 @@
     },
     {
      "yol": "data/kronoloji_rusya.js",
-     "sha": "795fe4e6d4fc1afd",
-     "bayt": 96231
+     "sha": "021b6f1a1e403a86",
+     "bayt": 97308
     },
     {
      "yol": "data/kronoloji_lehistan.js",
@@ -210,7 +210,7 @@
      "bayt": 53445
     }
    ],
-   "bayt": 421626
+   "bayt": 422703
   },
   {
    "paket": "data/paket_07.js",
@@ -427,8 +427,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "9bac97737a225c6d",
-     "bayt": 136628
+     "sha": "68b3d11504f3bb17",
+     "bayt": 136708
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -551,7 +551,7 @@
      "bayt": 147441
     }
    ],
-   "bayt": 1808678
+   "bayt": 1808758
   },
   {
    "paket": "data/paket_13.js",

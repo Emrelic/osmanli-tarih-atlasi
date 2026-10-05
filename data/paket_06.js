@@ -1342,6 +1342,7 @@ window.KRONOLOJI_RUSYA = [
 { t:"1877-04-24", b:"93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş ⭐", tur:"savas", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"",
+  odak_yer:["Bender","Bükreş","Rusçuk"],   // PAKET-0083-D (H-0001·H-0011): kamera Tuna cephesine — Kişinev'in atlasta noktası yok, Bender en yakın
   kapsam_genis:true,
   d:"Balkan Slavları'na destek (Pan-Slavizm) söylemiyle başlayan savaş, Tuna ve Kafkas cephelerinde geçti; Rus tarihyazımında \"kardeş Slav halklarını\" Osmanlı boyunduruğundan kurtarma misyonunun zirvesi sayılır ve dönemin Rus kamuoyunda büyük bir millî coşkuyla karşılandı.",
   kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — devletler.js:298'den taşındı, doğrulandı" },
