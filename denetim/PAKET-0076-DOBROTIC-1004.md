@@ -11,6 +11,27 @@ Kural çerçevesi: CLAUDE.md §4 (TDV birincil · D209 kırmızı çizgi · D210
 > Atanasov'a dayanan iddialar (Silistre 1370-~1386 Terter dönemi · İsakçı 1362 sonrası · 1385/1386
 > ölüm yılı) VERİYE YAZILMAMALI; matbu nüsha ile doğrulanana kadar beyan olarak kalsın.
 
+> 🔴 **İNCELEME 2 (5 Ekim 2026, koordinatörün "izinsiz ayna kaynak sayılmaz" hükmünden sonra) —
+> ODB ve Vásáry de AYNI SINIFTA çıktı.** archive.org metadata API ile ölçüldü:
+> ```
+> ODB      oxforddictionary0001unse    archive.org'un KENDİ taraması · access-restricted: true · djvu.txt → HTTP 500
+>          the-oxford-dictionary-of-byzantium-vol.-1-oup-1991   uploader library.naleemia@gmail.com · açık
+>          oxford-dictionary-of-byzantium                       uploader sedenkurt123@gmail.com · açık
+>          odb_20210521                                         uploader lrafael1608@gmail.com · açık
+> Vásáry   cumanstatarsorie0000vasa    archive.org'un KENDİ taraması · access-restricted: true · djvu.txt → HTTP 401
+>          istvan-vasary-cumans-and-tatars-…-2005               uploader mtenrreiro@yahoo.es · "opensource" · açık
+> ```
+> ⇒ Resmî nüshalar kapalı; ajanın okuyabildiği "archive.org açık metni" ancak KİŞİSEL HESAPLARDAN
+> yüklenmiş, telif altındaki (OUP 1991 · CUP 2005) eserlerin izinsiz kopyaları olabilir. Atanasov'un
+> aynasıyla aynı sınıf ⇒ **künyede ODB ve Vásáry de KAYNAK SAYILMADI.**
+> ⇒ Künye **YALNIZ TDV ham metnine** (curl, islamansiklopedisi.org.tr) dayandırıldı: §8.
+> ⇒ **f 1346 DÜŞTÜ** (dayanağı ODB + Atanasov idi, ikisi de meşru değil). TDV'deki ilk tarihli tanıklık
+> **1359** (TDV dobruca: Dobrotiç'in Kuzey Dobruca'yı işgali, "Burada ilk müstakil devleti kuran
+> Dobrotiç"). Balik dönemi daha eskidir ama TDV yıl vermiyor.
+> ⇒ Vásáry s.90'daki "İsakçı merkezli Grek despotluğu (1280'ler)" ipucu **ATIF OLARAK KULLANILAMAZ**;
+> meşru nüsha (kütüphane / IA ödünç sistemi / Emre'nin hesabı) ile okunana kadar yalnız bir
+> ARAŞTIRMA YÖNÜ — 1281-1346 Kuzey Dobruca halkası için. Bkz. §9.
+
 ---
 
 ## 1. Sonuç özeti
@@ -143,3 +164,33 @@ Kural çerçevesi: CLAUDE.md §4 (TDV birincil · D209 kırmızı çizgi · D210
 - Wikipedia (en/bg/ro/sr) — yalnız kaynakçasına ulaşmak için; buradan alıntı yok. (Ivanko-Ceneviz antlaşmasının "27 Mayıs 1387" günü yalnız Wikipedia'da görüldü → yazılmadı.)
 - bibliophilia.eu, military-history.fandom.com, grokipedia.com (YZ), desant.net, bg-nacionalisti.org (forum), ziuaconstanta.ro, istorie-pe-scurt.ro, povestilemariinegre.ro, odaiadesus.ro, discoverdobrogea.ro, laconstanta.ro, ziarulnatiunea.ro, studocu, afaceriardelene.ro, blogspot (clasadb, tribunaromaniei, historycec, turistintaramea), twcenter.net (forum), sabah.com.tr, Amazon "Miller/Vandome/McBrewster" (Wikipedia derlemesi).
 - K10 (Gökbel 2020) akademik dergide ama Öztuna ve Decel'e dayanan ikincil derleme — yalnız çelişki kaydı için kullanıldı, dayanak yapılmadı.
+
+---
+
+## 8 · KÜNYE ÖNERİSİ (yalnız TDV) → `denetim/PAKET-0076-DOBROTIC-1004.diff`
+`data/devletler.js` (mora-despotlugu'nun önüne) + `arac/renkler.py` BOYALAR — **birlikte**, çünkü
+`renkler.py` motor tuzunda (§9.1) ⇒ tam inşa koşusuna biner, tek başına inemez.
+```
+id      dobruca-despotlugu
+ad      Dobruca Prensliği (Dobrotiç Devleti)      (TDV varna "Dobruca Prensliği" · kostence "Dobrotici Devleti")
+tur     prenslik · bolge balkanlar · baskent "Karvuna (Balçık) → Varna"
+f       1359-01-01   🔴 İLK TARİHLİ TDV TANIKLIĞI, KURULUŞ DEĞİL — ozet'e AYNEN yazıldı
+t       1389-01-01   TDV balcik "Temmuz 1389'dan sonra" · ⚠️ TDV varna 1393 (iki madde de Kiel) — ozet'te
+kronoloji  1359 kuruluş-tanıklığı · 1369 Varna başşehir · 1389 son
+renk    #5ad224   renk_olc.py --oner (denetim/oneri-20261005-123325.txt) — ⚠️ "komşusu ölçülemeyen kimlik":
+                  henüz hiçbir s: dönemi kullanmıyor ⇒ Balçık/Varna dönemleri yazılınca --dogrula ŞART
+                  (komşular eflak #4db34d, bulgaristan #2d6c0c)
+kaynak  YALNIZ TDV: dobruca (Karpat) · varna · balcik (Kiel) · kostence (Murgescu) — cümleleri AYNEN
+        ODB · Vásáry · Atanasov ADI GEÇMİYOR (İnceleme 2)
+```
+SINAV (worktree, HEAD 3644e287): devletler.js 895 → 896 künye, yeni künye f/t okunuyor · renkler.BOYALAR
+yeni anahtarı veriyor · git apply --check TEMİZ · diff 15 satır ekleme (satır sonları korundu —
+ilk denemede CRLF bozulup 21.155 satırlık diff çıkmıştı, ATILDI).
+⚠️ Künye TEK BAŞINA haritada bir şey değiştirmez: hiçbir yerleşim henüz bu kimliği taşımıyor.
+Balçık'ın ve Varna'nın 1359/1369-1389 dönemleri AYRI veri kalemi (koşudan önce yazılmalı).
+
+## 9 · AÇIK KALANLAR
+- 1281-1359 Kuzey Dobruca halkası: TDV dobruca "1241 Moğol" diyor; Vásáry s.90'daki İsakçı merkezli
+  Grek despotluğu ipucu MEŞRU nüshadan okunmalı (IA ödünç sistemi cumanstatarsorie0000vasa ya da kütüphane).
+- Mangalya · Babadağı · Kaliakra'nın despotluğa aidiyeti: TDV'de yok (slug 302) — bulunamadı.
+- Dobrotiç'in ölüm yılı ve Silistre'nin despotluk dönemi: yalnız meşru olmayan kopyalarda — YAZILMADI.
