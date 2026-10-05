@@ -172059,5 +172059,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5818",
+  "zaman": "2026-10-05 13:06",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-TASNIF-1004 — H-0118 · H-0120 YAZILDI (sirada → cozuldu) · İshakçı ZATEN TESLİM (M-5817) ① CEVAP.json: H-0118 ve H-0120 cozuldu; onceki_hukum \"sirada\" saklı; notta 9c73eaae + ÖNCE 0/9 → SONRA 5/9 + d1812'nin güvenlikle bilinçli atlanması + Dobruca p1-p3 bayat geometri. Yedek .TABI-GOVDE-1004.yedek · kuru koşu · geri okuma (164 kayıt, ikisi cozuldu). 0076 dağılımı: cozuldu 103 · sirada 22 · kosu-bekliyor 10 · zaten-dogru 11 · senin-kararin 7 · once-cozuldu 4 · cozulemedi 4 · olculecek 3. ② UMIT çakışması not alındı; bende kayıp yok (yama 9c73eaae ile inmişti). ③ İshakçı mesajın kuyrukta değildi, önceki mesajında geldi ve işlendi: M-5817 (diff 0f71e0ec, öngörü 1fa44e84'te önceden commitli) — D7 732→727 TUTTU, beş ada düştü, 1416 Babadağı adası kaldı. ic_not şemada YOK ⇒ üç okuma kayıt düzeyi `not` alanında. 🔴 Dobriç diff'inden SONRA uygulanmalı (ortak hunk, ölçüldü). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
