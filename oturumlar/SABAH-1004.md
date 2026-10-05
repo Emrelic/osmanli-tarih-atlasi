@@ -434,3 +434,72 @@ tutarsız** (5 Bosna noktası `yugoslavya`). Ayrıca Zadar→İtalya · Hvar/Kor
 1918-21 İtalyan işgali · Uzhhorod/Mukacheve 1919'a kadar Macar · Lviv 1-22.XI ZUNR ·
 Timișoara 3.VIII.1919 · Eisenstadt 1921 Burgenland (atlasta YOK) · `macaristan-naiplik`
 1918-20 için anakronik.
+
+
+---
+
+## ✅ G · EMRE'NİN 5 EKİM KARARLARI — dördü cevaplandı, dördü uygulamaya geçti
+
+### G1 · F1 ÇAPA MODELİ → **KÖYÜN KURULUŞU İLE HALKIN VARLIĞI AYRILACAK**
+Emre: *"Köyün kuruluşu ile halkın varlığı AYRI iki olgu sayılsın."* (üçüncü yol seçildi)
+```
+KÖY    kendi kaynaklı kuruluş tarihinden çizilir (Gjoa Haven 1927 · Lokoja 1860 · …)
+ÇAPA   halkın toprağı AYRI kayıt — köy yokken de durur
+```
+⇒ Görev: `ONCE1281-CAPA-SEMA-1004`. **Önce ŞEMA, sonra veri** — 41 noktayı yazıp sonra
+şemayı değiştirmek 41 noktayı iki kez yazmak olur. Ölçülecek üç soru: ① çapa mevcut
+şemada nasıl ifade edilir (`kasitli_bosluk` bir alt tür mü, ayrı alan mı — `girdi.py`
+`BILINEN_ALANLAR` taranacak) ② aynı nokta iki kayda mı bölünür (ölçüt: motor hangisini
+sessizce yutmaz) ③ **Değişmez 1 etkisi: 309 sahipsiz kaç olur?**
+⚠️ `s:` dönemi verilecekse Inuit/Xhosa/Taino KÜNYELERİ gerekir — `devletler.js` taranacak,
+künye açmak Emre'nin kalemi (F6 emsali).
+
+### G2 · F2 KABA TARİH → **HİÇBİR ŞEY YAZILMAYACAK**
+Emre: *"Hiçbir şey yazma, kaba ifadeyi not alanına koy."*
+⇒ `'early/mid/late X. yy' → X01/X34/X67` dönüşümü **REDDEDİLDİ**; `D210` ("yıl bilinmiyorsa
+yıl yazılmaz") + `D213` ("türetilen sayı alıntıya yazılmaz") harfiyen uygulanıyor.
+**Bedeli Emre tarafından kabul edildi:** 45 kayıt kapsam dışı, 1281 öncesi kampanyası
+58 noktadan **13**'e iner.
+📌 Ama G1 bunu büyütebilir: çapa kaydı köyün kuruluş tarihine bağlı olmadığı için kaba
+tarihli 45 kaydın bir kısmı ÇAPA olarak kurtarılabilir — şema önerisinde ölçülecek.
+
+### G3 · F8 AVUSTURYA 109 → **FİİLÎ GÜNLER + İŞGAL TARAMASI**
+Emre (c)'yi seçti. Dayanağı kendi iki hükmü (4 Ekim işgal/fetih doktrini + "boyamalar
+hatlara yaslanmalı"):
+```
+isg:  fiilî devralma günü → antlaşma günü    (22 kaynaklı gün buraya)
+s:    antlaşma günü →                        (Saint-Germain 1920-09-10 / Trianon 1920-06-04)
+```
+⇒ Görev: `ONCE1281-AVUSTURYA-UYGULA-1004`. 🔴 SIRA: **④ ÖNCE** — `isg:` yazmanın
+`Değişmez 2i` etkisi ölçülecek (bugün 142 kırılma / 1 açık, **tavan 1**). 109 nokta × iki
+uç kaç yeni işgal kırılması doğurur ve kaçının maddesi var? Tavan 1'i aşarsa kapı öter,
+yama inmez ve tavan beyanı gerekir.
+30 halef hatası aynı yamaya giriyor (Bosna 16 → `drzava-shs`, künye F6'ya bağlı · Zadar →
+italya · Hvar/Korčula/Vis/Mljet İtalyan işgali · Uzhhorod/Mukacheve · Lviv ZUNR ·
+Eisenstadt Burgenland 1921 atlasta YOK · `macaristan-naiplik` anakronizmi).
+
+### G4 · AÇICI → **EMRELIC'E KURULDU** (ve asıl kusur bulundu)
+Emre: *"Evet, bu makineye kur."*
+🔴 **ÖLÇÜLDÜ — otomatik başlatma hiç kurulmamıştı.** `py arac/acici_kur.py --durum`:
+`açılış kaydı … atlas-acici.cmd YOK · koşuyor mu HAYIR`. Açıcı 2 Ekim'de yalnız ELLE bir
+kez açılmış, denenmiş (`KABUL 192.168.1.164 -> claude-ac` günlükte duruyor), makine
+kapanınca gitmiş. Tasarım tamam, **kurulum yapılmamış.**
+```
+YAPILDI  EMRELIC: --kur koştu, atlas-acici.cmd YAZILDI, dinleyici başlatıldı (11:58:35)
+```
+🔴 **SENDE KALAN — her makinede BİR KEZ:** `py arac/acici_kur.py --kur` (o makinenin
+başında ya da Remote Control oturumundan) + `oturumlar/ag.json`un o makineye kopyalanmış
+olması (jeton TEK ve ORTAK, elle kopyalanır).
+⚠️ İlk çalıştırmada Windows güvenlik duvarı izni soracak: **"Özel ağlar" işaretlenecek,
+"Genel" BIRAKILMAYACAK.** O pencereye yalnız sen cevap verebilirsin.
+📌 YUMURTA-TAVUK: açıcı Claude'u açabilir ama açıcının KENDİSİ çalışıyor olmalı.
+Otomatik başlatmaya kurulmadığı için her yeniden başlatmada kayboluyor — bu yüzden
+uzaktan hiçbir makineye ulaşılamıyordu.
+
+**MAKİNE DURUMU (projenin kendi istemcisi `py arac/ac.py --durum`, 5 Ekim):**
+```
+EMRELIC        ✅ açıcı ayakta · 18 Claude süreci · kullanıcı oturumu açık
+KASA · UMIT    🔴 makine AÇIK, açıcı ÇALIŞMIYOR   (WinError 10061 — etkin olarak reddetti)
+HAVVA · LAB    ❌ makine KAPALI                    (WinError 10060 — zaman aşımı)
+```
+⇒ KASA ve UMIT'e yalnız `--kur` gerekiyor. HAVVA ve LAB önce elektrikle açılmalı.
