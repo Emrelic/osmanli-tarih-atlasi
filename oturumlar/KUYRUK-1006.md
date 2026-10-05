@@ -42,6 +42,15 @@ Her satır bir zincir; zincir İÇİNDE sıra değiştirilemez (ölçüldü, sı
 | 15 | `TR1923-ELEK` + `ZINCIR-KAYNAGI-VERI-1006c` | 🔴 betik `data/`ya **koordinatör kararı olmadan koşturulmaz** |
 | 16 | `LEGO-ZINCIR-1006` + çıktı `.txt` | kanıt diskte kalacak |
 | 17 | `YERID-IMZA-1006` (37 imza yeri) | 🔴 tavan: aşağıda |
+| 18 | `ARAYUZ-MADDE-0930-kapi-dom-sozlesmesi-**1006**.diff` | sıra bağımsız; 🔴 kapsam beyanı ŞART (§3 ⑦) |
+
+⚠️ **Eski `ARAYUZ-MADDE-0930-kapi-dom-sozlesmesi.diff` KUYRUKTAN ÇIKARILDI** — yerine
+`-1006` girdi. Eskinin uymama sebebi anlamsal değildi: `6dbc954c`te `bayat` →
+`bayat_durdurucu` adlandırması son `if` koşulunun bağlamını kaydırmıştı (hunk 1-2 uyuyordu).
+🟢 Ve kalem **BAYAT DEĞİL**: kusur bugün de duruyor (`git log -S dom_sozlesmesi` → 0 commit,
+yani yama hiç inmemiş; `denetle_yayin`de `getElementById` → 0 eşleşme). Kapının kusuru
+**yakalayabildiği** gerçek tarihçeyle gösterildi: `2ddede3d` ve `9a956026` 2'şer uyumsuz,
+`17cd2f98` 0.
 
 ⚠️ `POLONYA-DUZELT-1006` **KUYRUKTA DEĞİL** — `isg:` kararı yüzünden bütünüyle çıkarıldı;
 `isg:` olarak yeniden üretilecek.
@@ -76,6 +85,10 @@ kaynaksızlık      hicbiri 1968 → ~1930 · donem_ici 333 → ~371 · kayıt-k
    `KAPI_ALANI_ZORUNLU=True` B ile AYNI yamada iner.
 ⑤ `origin/projeksiyon` BİRLEŞTİRİLMEZ — `uret_petek.py`ye dokunuyor (MOTOR TUZU) ve kendi
    commit'i "görsel sınav YOK" diyor.
+⑦ DOM sözleşmesi kapısı (zincir 18) çıktısında **KAPSAMINI BEYAN EDECEK**:
+   *"yalnız `getElementById` sorulur · `querySelector` ve DİNAMİK id ÖLÇÜLMEZ."*
+   SEBEP: kısmî körlük beyan edilmezse "0 uyumsuz" tam bir güvence sanılır. Bugün 9 js /
+   11 beklenti ölçülüyor; `querySelector` yolu **hiç sorulmuyor** (W29 beyan etti).
 ⑥ `origin/makine/tahta-web` BİRLEŞTİRİLMEZ — kesme Emre'nin üç kalemine bağlı.
    🔴 Ve kesme günü **K3 ölçülmeden seçilmez**: makineler arası ulaşılabilirlik (EMRELIC
    LAN adresi · güvenlik duvarı · her makinenin `ag.json`u) ÖLÇÜLMEDİ.
