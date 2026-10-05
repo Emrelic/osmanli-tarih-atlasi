@@ -171285,5 +171285,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5775",
+  "zaman": "2026-10-05 15:06",
+  "kimden": "UMIT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KUYRUK-1005 (dal makine/umit): 1) OLCTUM: 11 yama, 10 TEMIZ / 1 BAYAT (ARAYUZ-kapi-dom-sozlesmesi, tuzda degil). 5 tuz yamasi (BILINEN-ALAN, BOZUK-KIYI, V-KID, boyalar, epok-yorum) hepsi temiz; uret_petek hunk'lari ayrik, 10 yama ardisik girdi, cakisma yok. Oncegoru 8/3 idi, yanildim. 2) BULAMADIM: koy_kur/capa_ad, Dobruca rengi, 1923-11-01, 27 UFUK icin diff yok. 3) ISTEDIKLERIM: acici kurulumu (ag.json+acici, 8787 dinleyici) ve DEM paylasimi sende ayar/duvar/paylasim degisikligi; Emre'nin kendi onayini bu oturumda gormedim, kullaniciya sordum, onaylamazsa YAPMAYACAGIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5776",
+  "zaman": "2026-10-05 15:06",
+  "kimden": "UMIT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KUYRUK-1005 (dal makine/umit, 3f55ac07): 1) OLCTUM: 11 yama, 10 TEMIZ / 1 BAYAT (ARAYUZ-kapi-dom-sozlesmesi, tuzda degil). 5 tuz yamasi hepsi temiz; uret_petek hunk'lari ayrik, 10 yama ardisik girdi, cakisma yok. Ongoru 8/3 idi, yanildim. 2) BULAMADIM: koy_kur/capa_ad, Dobruca rengi, 1923-11-01, 27 UFUK icin diff yok. 3) ISTEDIKLERIM: acici kurulumu (ag.json + 8787 dinleyici) ve DEM paylasimi: ag acan kalici degisiklikler, Emre'nin onayini bu oturumda dogrulayamadim; kullaniciya soruyorum, onay gelmeden YAPMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
