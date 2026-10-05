@@ -1464,10 +1464,18 @@ def _2s_kunye_adlari():
     return _2S_KUNYE
 
 
+# 🆕 Taraf TAKMA ADI (ONCE1281-CISLEITHANIA-1005): künye adından türeyen aday
+#   maddelerin kullandığı kısaltmayı kaçırıyor. Ölçülen vaka: Rapallo maddesi
+#   "İtalya ile SHS Krallığı arasında" diyor, `yugoslavya`nın adayları yalnız
+#   "sirp-hirvat-sloven …" ⇒ 8 ada birimi açık kaldı. Liste DAR tutulur: her
+#   satır bir ölçülmüş kaçırma olmalı (gevşek kol çürüdü — blok başı).
+_2S_TAKMA = {"yugoslavya": ["shs"]}
+
+
 def _2s_taraf_adaylari(sid):
     ix = _2s_kunye_adlari()
     if sid in ix:
-        return ix[sid]
+        return ix[sid] + [a for a in _2S_TAKMA.get(sid, []) if a not in ix[sid]]
     n = _2s_norm((sid or "").replace("-", " "))
     return [n] if len(n) >= 3 else []
 
@@ -1525,7 +1533,34 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
 #     DEĞİL — açıklanmış bir maliyeti yeni taban yapmaktır.
 #   📌 Ve bu sayı HÂLÂ MASKENİN ARKASINDAN okunuyor (bugün 1665 birim açık kovalarda
 #     sayılmıyor). Maske küçülünce taban YENİDEN kurulacak.
-BEKLENEN_2S_YALNIZ_TARAF = 1636   # 1635 → 1636, 5 Ekim 2026 · EISENSTADT/ZIGETVAR (UFUK).
+BEKLENEN_2S_YALNIZ_TARAF = 1665   # 1636 → 1665, 5 Ekim 2026 · CISLEITHANIA (UFUK). +29.
+#   🔴 BU EN BÜYÜK TEK SIÇRAMA — ve niçin kabul edildiğini yazıyorum, çünkü yarın
+#   "neden bu kadar arttı" diye sorulacak.
+#   Saint-Germain md. 91 emanet künyesi (`itilaf-emaneti`) 16 Cisleithania kaydını
+#   `avusturya`dan alıp emanete, oradan halefe taşıyor. Doğan 29 yeni kırılmayı kapatan
+#   maddeler ANTLAŞMAYI anıyor (Rapallo · Büyükelçiler Konferansı), tek tek YERLEŞİMİ
+#   değil ⇒ taraf koluna düşüyorlar.
+#   KARŞILIĞINDA ALINAN — ve bu yüzden takas doğru:
+#     2s AÇIK 187 → 187   yeni açık YOK (SHS takma adı olmadan +1 olurdu; ikisi birlikte indi)
+#     2sk YER  1570 → 1571  `D261`in İLK SAHİCİ UYGULAMASI: Rapallo md. 2-3'ün GERÇEK
+#                            devir cümlesi (Zara/Zadar · Cherso/Cres) maddeye yazıldı
+#     4c 127 · 4d 324 · D1 309  DEĞİŞMEDİ
+#     MASKE 1662 → 1646     (16 birim daha görünür oldu)
+#   📌 Ve asıl kazanç sayıda değil MODELDE: Avusturya-Macaristan 1918-11-11'de bitti;
+#     `avusturya` künyesinin Dalmaçya'yı 1920'ye kadar tutması TARİHEN YANLIŞTI. `D205`
+#     üç sınıfından ③ (ardıl yapı geçti) uygulandı — kısaltmak delik açardı.
+#   ⚠️ KÜNYE ŞARTLI KABUL EDİLDİ: `tur:"emanet"` ile AÇIKÇA devlet olmadığı yazılı,
+#     penceresi KAPALI (1919-09-10 → 1923-03-15), `kaynak:`ta md. 91'in birincil metni
+#     alıntılı. Emsal var: `filistin-mandasi` · `suriye-lubnan-mandasi` zaten boyalı
+#     kimlikler, yani atlas hukukî statüleri beyanlı olarak modelliyor.
+#   ⚠️ BOYA BORCU BEYANLI: `renkler.py` yaması MOTOR TUZUNDA, tam inşa koşusuna
+#     bekletiliyor (`denetim/ONCE1281-CISLEITHANIA-RENK-1005.diff`, nötr gri #9e9e9e).
+#     O inene dek emanet toprakları BOYANMAZ — kusur değil, sıraya girmiş borç.
+#   ⚠️ Ve ÖLÇÜM ÖNGÖRÜDEN 1 SAPTI: UFUK YER için 1572 dedi, kapı 1571 bastı. Sapma
+#     muhtemelen aynı turda inen Bükreş `yer_id` düzeltmesinden; ÖLÇÜLMEDİ, ve
+#     "tuttu" diye yazmıyorum.
+#
+# ÖNCEKİ (1635 → 1636) · EISENSTADT/ZIGETVAR (UFUK).
 #   +1'in KARŞILIĞINDA 2s'de bir AÇIK KAPANDI: 188 → 187. Yani bu bir gerileme değil
 #   TAKAS, ve takasın yönü doğru: `2s` ihlal sayar, `2sk` yalnız kapanışın SINIFINI
 #   söyler. Bir açığı kapatmak, kapanışın taraf koluna düşmesinden önemlidir.

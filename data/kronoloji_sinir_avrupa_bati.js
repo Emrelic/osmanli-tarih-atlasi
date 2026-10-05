@@ -392,7 +392,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1920-11-12", devlet:"italya", devletler:["italya","yugoslavya"], sinir_id:"d1923-it-shs",
   b:"Rapallo Antlaşması — İtalya ile SHS Krallığı arasında Julian Alpleri sınırı ve Fiume Serbest Devleti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","yugoslavya"],
-  d:"İtalya ile Sırp-Hırvat-Sloven Krallığı Rapallo'da doğu sınırlarını belirledi. Hat Peč'ten Julian Alplerinin su bölümüyle Castua'ya indi. Zara İtalya'ya bırakılarak bir anklav oldu; Fiume serbest devlet ilan edildi; hattı yerinde çizmek için karma bir komisyon kuruldu. Bu hattın koordinatı haritada yoktur: 1947 Paris Antlaşması'yla neredeyse tamamı ortadan kalktı. Antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"İtalya ile Sırp-Hırvat-Sloven Krallığı Rapallo'da doğu sınırlarını belirledi. Hat Peč'ten Julian Alplerinin su bölümüyle Castua'ya indi. Zara (Zadar) md. 2 ile İtalya'ya bırakılarak bir anklav oldu; md. 3 Cherso (Cres) ve Lussin adalarını, Lagosta ve Pelagosa'yı İtalya'ya, eski Avusturya-Macaristan'ın öteki bütün adalarını SHS Krallığı'na bıraktı; Fiume serbest devlet ilan edildi; hattı yerinde çizmek için karma bir komisyon kuruldu. Bu hattın koordinatı haritada yoktur: 1947 Paris Antlaşması'yla neredeyse tamamı ortadan kalktı. Antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"Rapallo Antlaşması md. 1-5 (LNTS c.18 s.397-403, forost.ungarisches-institut.de kopyası) · İtalya ile Barış Antlaşması 1947 md. 3 (UK TS 1948/50)" },
 
 { t:"1920-12-31", devlet:"finlandiya", devletler:["finlandiya","norvec"], sinir_id:"d1923-fi-no-petsamo",
