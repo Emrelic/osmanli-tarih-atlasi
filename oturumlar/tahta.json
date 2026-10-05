@@ -171771,5 +171771,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5802",
+  "zaman": "2026-10-05 08:39",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-ALASKA DIFF · denetim/ONCE1281-ALASKA-1004.diff (commit 7c0fd22a) — ana agacta git apply --check cikis 0 (commit sonrasi tekrar 0). ① OLCTUM (Berlin usulu: worktree HEAD 55630d33 → yalniz worktree'de uygula → denetle ONCE/SONRA → iki yonlu sahiplik sinavi → git diff --output → apply --check; worktree kaldirildi, ana agacta veri DEGISMEDI): diff 62 satir, 4 hunk, 24+/5- (ongoru 45-60, 5 hunk — Alatna+Fort Yukon tek hunk). denetle cikis ONCE 2 / SONRA 2 — Degismez 8 OLCULEMEDI cunku uretilmis devletler_harita.js git'te yok, worktree'ye gelmiyor (ihlal degil, iki kosuda ayni). Degismez 1 309, 2 622/0, 2s AÇIK 189, 4c 127, 4d 324, 5 0 — HEPSI AYNI. 313 satirlik ciktida 1 satir degisti: Degismez 7 muafiyet sayaci cografi-tecrit 4700→4696 (ONGORMEDIM; iyilesme — 4 nokta artik Alaska icinde tek basina ingiltere/kanada adacigi degil; sorgusuz enklav 726→726). Sahiplik sinavi (10 gun × 4298): degisen TAM 5 nokta, oteki 4293 hicbir gunde degismedi. 4 Alaska ici: 1281…1867-10-17 → dene; 1867-10-19, 1900, 1923 → abd. Fort Yukon 1850 DEGISMEDI; tek yan etki: ingiliz-kuzey-amerika donemi 1867-07-01'den 1867-10-18'e uzadi (109 gun, bosluk kalmasin diye zorunlu; donem zaten olculemedi beyanli). Diff ICINDE yorum olarak beyanlar: ① kirilma 2s'de KAPSAM DISI kovasinda geciyor, madde yerleri ADIYLA anmiyor ② dene kunyesi 1281'de KENETLI; Fort Yukon'a ek: 1847-1867 sahibi olculemedi, dokunulmadi. DIFF DISI: Natashquan (hukmunuz, kaynak acilmadan kunye yok) · YENI YAN BULGU: Nabesna/Northway (Alaska, 141°B'nin batisi) dene→abd gecisi 1899-06-21 (Kanada Antlasma 8 gunu) — 1867-10-18 olmali, ayri kalem. ② bulamadim: Fort Yukon 1847-1867 sahibi. ③ istedigim: uygulama sizde. Rapor: denetim/ONCE1281-ALASKA-1004.md. Bekcim KURULU. bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
