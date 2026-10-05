@@ -182,6 +182,31 @@ inşa koşusunda Romanya gövdesi 1913-08-09'da Silistre'yi kapsamayacağı içi
 Silistre üyesi) DÜŞER; `sag|Köstence` üyesi (gerçek noktasızlık) ise kalır. Öngörü koşudan ÖNCE
 yazıldı; koşu bunu sınayacak.
 
+## 9 · KARAR (A) → `denetim/PAKET-0076-DOBRUCA-1004.diff` (5 Ekim 2026)
+Koordinatör kararı (A): yalnız 1402-1419 halkası, her yer KENDİ TDV maddesinden ((B) D208 gereği reddedildi).
+```
+Silistre   çelebi ×4 (1402-07-28→1413-07-05) → s eflak 1402-07-28→1419-01-01 · d 1413→ olur d 1419→   (TDV silistre)
+Köstence   aynı → eflak 1402-07-28→1419-01-01 · d 1419→                                         (TDV kostence)
+Babadağı   aynı → eflak 1402-07-28→1416-01-01 · d 1416→                                         (TDV babadagi)
+İshakçı    DOKUNULMADI — kendi TDV maddesi yok (slug 302), bölge cümlesi D208 ⇒ beyanlı borç
+Tulça      veride NOKTA YOK (karar metninde adı geçiyordu) ⇒ uygulanacak kayıt yok
+MADDELER (Değişmez 2, D261 "yeri ANMALI"):
+  + 1402-07-28 "Mircea Dobruca'yı yeniden aldı — Silistre, Köstence, Babadağı" (kaynak silistre)
+  + 1416-01-01 "Babadağı ve çevresinin Osmanlı'ya geçişi" (kaynak babadagi)
+  + 1419-01-01 "Silistre ve Dobruca'nın geri alınışı" (kaynak silistre)
+  ~ 1420-01-01 maddesinden Dobruca AYRILDI (başlık · yer · metinde "bir yıl önce, 1419" notu)
+  + arac/denetle.py BILINEN_AYRI'ya 2 çift (mükerrer dedektörü yanlış pozitifi, gerekçeli):
+    1416 Babadağı ↔ Torlak Kemal'in idamı · 1419 Dobruca ↔ Orta Anadolu'nun geri alınışı
+    (ortak olan yalnız YYYY-01-01 + Çelebi Mehmed; ölçüldü: ekleme öncesi 115, sonrası 113)
+```
+SINAV (worktree, HEAD 874940ee üstünde): `denetle.py --ayrinti` D1 309/309 · 1b 0 · 2 623 kırılma 0 açık ·
+2s/2i/2t tavanda · 4/5 ✓ · mükerrer 113 (tavan) · D8 ÖLÇÜLEMEDİ (worktree'de izlenmeyen dosya yok;
+motor çıktısını ölçer). İki yönlü sahiplik (girdi.yukle, 14 yer×gün): SONRA 14/14 doğru · ÖNCE 7/14 yanlış
+(7'si de değişen halkada; değişmeyen kontroller — 1395, 1402-07-27, 1878, İshakçı — iki yönde de aynı).
+`git apply --check` ana depoda TEMİZ (HEAD 55630d33'te de).
+⚠️ Koşuya biner (yerlesimler değişti). ⚠️ Bölgede görsel tutarsızlık beklenir: İshakçı 1402-1413'te
+çelebi, komşuları Eflak — beyanlı borç, kaynağı bulununca kapanır.
+
 ## Ölçüm defteri
 TDV ham HTML: scratchpad `tdv/{dobruca,silistre,babadagi,kostence,tulca,balcik,bulgaristan}.html`
 (curl, 200) · `isakci` · `mircea` 302. Zincir dökümü: `girdi.yukle()` (regex DEĞİL).
