@@ -73,7 +73,7 @@ window.YERLESIMLER_EK29 = [
 //   ve Erdel bir Osmanlı EYALETİ değil, haraçgüzâr voyvodalık/prenslik
 //   (TDV: "Osmanlı idaresinde muhtar bir voyvodalık"). k:1 yanlış olurdu.
 { ad:"Erdel Belgradı (Gyulafehérvár)", tur:"sehir", lat:46.0678, lon:23.5800, g:0, k:2,
-  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
   v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
@@ -89,12 +89,12 @@ window.YERLESIMLER_EK29 = [
 //   RENK 3 rengi yazdıktan sonra `v:` dönemleri çevrilebilir.
 
 { ad:"Brassó (Braşov)", tur:"sehir", lat:45.6427, lon:25.5887, g:0, k:2,
-  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
   v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 { ad:"Segesvár (Sighişoara)", tur:"sehir", lat:46.2197, lon:24.7925, g:0, k:3,
-  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
+  s:[{"f":"1281-01-01","t":"1526-09-01","d":"macaristan"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1923-10-29","d":"romanya-kralligi"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
   d:[],
   v:[{"f":"1526-09-01","t":"1541-08-29","statu":"vassal"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
@@ -116,7 +116,7 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Nitra (Nyitra)", tur:"kale", lat:48.3069, lon:18.0864, g:0, k:2,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan",kaynak:"macaristan künyesi 1526-08-29’de bitiyor; Nitra habsburg künyesinden 245 yıl önce avusturya boyanıyordu · ⚠️ kasaba-tanecik kaynak OKUNMADI (TDV nitra slug’ı yok); aynı dosyadaki Komárom kaydıyla aynı desen · KUNYE-ANADOLU-0081 H-0003"},{f:"1526-08-29",t:"1663-09-24",d:"avusturya"},
-     {f:"1685-08-19",t:"1918-11-11",d:"avusturya"},
+     {f:"1685-08-19",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[{f:"1663-09-24",t:"1685-08-19"}], v:[] },
 
@@ -136,7 +136,7 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Komárom (Komárno)", tur:"kale", lat:47.7625, lon:18.1250, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-     {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+     {f:"1526-08-29",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[], v:[] },
 
@@ -151,7 +151,7 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Léva (Levice)", tur:"kale", lat:48.2172, lon:18.6069, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-     {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+     {f:"1526-08-29",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[], v:[] },
 
@@ -162,7 +162,7 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Trencsén (Trenčín)", tur:"kale", lat:48.8945, lon:18.0444, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-     {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+     {f:"1526-08-29",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[], v:[] },
 
@@ -176,7 +176,7 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Varasd (Varaždin)", tur:"sehir", lat:46.3057, lon:16.3366, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-     {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+     {f:"1526-08-29",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[], v:[] },
 
@@ -192,7 +192,7 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Sisak", tur:"kale", lat:45.4658, lon:16.3783, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-     {f:"1526-08-29",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
+     {f:"1526-08-29",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[], v:[] },
 
@@ -207,7 +207,7 @@ window.YERLESIMLER_EK29 = [
 //   YYYY-01-01 yazıldı
 
 { ad:"Karlovac", tur:"kale", lat:45.4870, lon:15.5478, g:0, k:3, kur:"1579-07-13",
-  s:[{f:"1579-07-13",t:"1809-10-14",d:"avusturya",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026"},
+  s:[{f:"1579-07-13",t:"1809-10-14",d:"avusturya",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026 · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[], v:[] },
 
@@ -255,7 +255,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Kostayniçe (Kostajnica)", tur:"kale", lat:45.232, lon:16.539, g:0, k:3,
   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
   d:[{f:"1556-07-16",t:"1699-01-26"}],
-  s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan",kaynak:"HE (enciklopedija.hr) 'Hrvatska Kostajnica': 1258 Kral IV. Béla bağışı; 1395-1528 on beş kez sahip değiştirdi (Frankapan, Vuk Branković…); 1528-1566 Zrinski; 1556 Malkoç Bey — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1526-08-29",t:"1556-07-16",d:"avusturya",kaynak:"HE 'Hrvatska Kostajnica': 1258 Kral IV. Béla bağışı; 1395-1528 on beş kez sahip değiştirdi (Frankapan, Vuk Branković…); 1528-1566 Zrinski; 1556 Malkoç Bey · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1699-01-26",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
+  s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan",kaynak:"HE (enciklopedija.hr) 'Hrvatska Kostajnica': 1258 Kral IV. Béla bağışı; 1395-1528 on beş kez sahip değiştirdi (Frankapan, Vuk Branković…); 1528-1566 Zrinski; 1556 Malkoç Bey — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1526-08-29",t:"1556-07-16",d:"avusturya",kaynak:"HE 'Hrvatska Kostajnica': 1258 Kral IV. Béla bağışı; 1395-1528 on beş kez sahip değiştirdi (Frankapan, Vuk Branković…); 1528-1566 Zrinski; 1556 Malkoç Bey · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1699-01-26",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"Castanoviz... are and remain in the Power of the Emperor of the Romans\". Fetih: N. Ostojčić, 'Kostajnica', Bulwark of Europe (Zagreb Üniv. Felsefe Fak., 2019, vojnakrajina.ffzg.unizg.hr/en/kostajnica): 'utvrda je predana 16. srpnja, samo dan nakon početka opsade' (kaynakçası: M. Kruhek, Povijesni prilozi 21, 2001, 71-97) — 16 Temmuz 1556. TDV hirvatistan/bosna-hersek/malkocogullari/bihac anmıyor (tanecik boşluğu)." },
@@ -277,7 +277,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Jasenovaç (Jasenovac)", tur:"kale", lat:45.281, lon:16.917, g:0, k:3,
   neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı; 1538 tarihi de komşu emsali (Dubiça) olup KENDİ kaynağı yok.",
   d:[{f:"1538-01-01",t:"1699-01-26"}],
-  s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan",kaynak:"HE (enciklopedija.hr) 'Jasenovac': XIV. yy'da yerleşim ve kale; Husrev Bey 1536 (atlas 1538 — çelişki raporda) — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1526-08-29",t:"1538-01-01",d:"avusturya",kaynak:"HE 'Jasenovac': XIV. yy'da yerleşim ve kale; Husrev Bey 1536 (atlas 1538 — çelişki raporda) · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
+  s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan",kaynak:"HE (enciklopedija.hr) 'Jasenovac': XIV. yy'da yerleşim ve kale; Husrev Bey 1536 (atlas 1538 — çelişki raporda) — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1526-08-29",t:"1538-01-01",d:"avusturya",kaynak:"HE 'Jasenovac': XIV. yy'da yerleşim ve kale; Husrev Bey 1536 (atlas 1538 — çelişki raporda) · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1699-01-26",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Sessenovizza...shall be drawn out...left entirely free\". Fetih tarihi bulunamadı — komşu emsali (Bosna Dubiçası, 1538) kullanıldı, dogrulanmadi." },
@@ -625,7 +625,7 @@ window.YERLESIMLER_EK29 = [
   kaynak:"HE Udbina (enciklopedija.hr/clanak/udbina, okundu): 'Posljednju pobjedu nad osmanskom vojskom pod tim gradom Karlović je izvojevao u travnju 1527., a već potkraj svibnja grad je s ostalim krbavskim kaštelima Mrsinjom i Komićem postao plijenom bosanskoga paše' · 'Grad su 1689. oslobodile hrvatske krajiške postrojbe pod zapovjedništvom karlovačkoga generala I. J. Herbersteina' · TDV kirka (Lika, 1527'den Kırka/Obrovac sancağında) · koordinat OSM relation 15834963.",
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
      {f:"1527-01-01",t:"1527-05-01",d:"avusturya",kaynak:"Cetin seçimi 1 Ocak 1527 (olaylar_p0050) · HE: Nisan 1527'de hâlâ Karlović'in"},
-     {f:"1689-01-01",t:"1809-10-14",d:"avusturya",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi"},
+     {f:"1689-01-01",t:"1809-10-14",d:"avusturya",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1527-05-01",t:"1689-01-01",y:"kusatma",kesinlik:"ay",kaynak:"HE Udbina: 'potkraj svibnja' 1527 (AY; gün yok) → 1689 (YIL)"}],
   v:[] },
@@ -634,7 +634,7 @@ window.YERLESIMLER_EK29 = [
   neden:"BIHAC-NOKTA-0069 (b): Lika'nın batı yarısı. Osmanlı döneminde Senkovići ağalarının küçük kalesi; 1733'ten Lika alayı karargâhı.",
   kaynak:"HE Gospić (enciklopedija.hr/clanak/gospic, okundu): 'God. 1527. to su područje dobili age Senkovići, koji su izgradili manju utvrdu' · 'Gospić je do 1689. bio pod osmanskom vlašću' · koordinat OSM relation 15770095.",
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
-     {f:"1689-01-01",t:"1809-10-14",d:"avusturya",kaynak:"HE Gospić (1689, YIL)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya",kaynak:"HE Gospić (1689, YIL)"},
+     {f:"1689-01-01",t:"1809-10-14",d:"avusturya",kaynak:"HE Gospić (1689, YIL)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"HE Gospić (1689, YIL) · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1527-01-01",t:"1689-01-01",kesinlik:"yil",kaynak:"HE Gospić: 1527 (YIL) → 1689 (YIL)"}],
   v:[] },
@@ -645,7 +645,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"HE: XIV. yy'dan Frankapan mülkü"},
      {f:"1527-01-01",t:"1636-01-01",d:"avusturya",kaynak:"Cetin Meclisi 1 Ocak 1527 (HE Cetingrad · olaylar_p0050)"},
      {f:"1638-01-01",t:"1670-01-01",d:"avusturya"},
-     {f:"1791-08-04",t:"1809-10-14",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi"},
+     {f:"1791-08-04",t:"1809-10-14",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1636-01-01",t:"1638-01-01",kesinlik:"yil",kaynak:"HE Cetingrad 1636–38 (YIL)"},
      {f:"1670-01-01",t:"1791-08-04",kesinlik:"yil",kaynak:"HE Cetingrad 1670 (YIL) → Ziştovi"}],
@@ -657,7 +657,7 @@ window.YERLESIMLER_EK29 = [
   kaynak:"HE Drežnik Grad (enciklopedija.hr/clanak/dreznik-grad, okundu): 'do 1578., kada su ga privremeno zaposjeli Osmanlije. Pod osmansku su vlast grad Drežnik i cijelo područje istoimene županije konačno došli 1592. i ostali, uz kratak prekid 1683. i 1697–99., do 1788.' · Korić 2016 (Prilozi za orijentalnu filologiju 65, n.104 ve n.118) · ⚠️ KAYNAK ÇELİŞKİSİ: Korić, Muvekkit'e dayanarak Cetingrad VE Drežnik'in zaptını 1790 bağlamında anlatır; HE Drežnik 1788 der. HE'nin yere özgü maddesi esas alındı, çelişki tahtaya bildirildi · koordinat OSM way 122070312 (Stari grad Drežnik).",
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"HE: 1323-1578 Frankapan mülkü"},
      {f:"1527-01-01",t:"1592-01-01",d:"avusturya",kaynak:"Cetin Meclisi 1 Ocak 1527 · 1578 geçici Osmanlı işgali ('privremeno') modellenmedi"},
-     {f:"1791-08-04",t:"1809-10-14",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde)"},
+     {f:"1791-08-04",t:"1809-10-14",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde) · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1592-01-01",t:"1791-08-04",kesinlik:"yil",kaynak:"HE Drežnik Grad 1592 (YIL). 1683 ('kratak prekid') ve 1697–99 Habsburg aralıkları gün/ay yok — modellenmedi, rapor §5"}],
   isg:[{f:"1788-01-01",t:"1791-08-04",d:"avusturya",kesinlik:"yil",kaynak:"HE Drežnik Grad 'do 1788.' (YIL) · Korić 2016 1790 der — çelişki"}],

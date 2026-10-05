@@ -3131,6 +3131,43 @@ def _d7_komsuluk(Y):
     return kom
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# 🆕 🔴 D7 AİLE TANIMI (5 Ekim 2026) — "kopuk gövde" sorusu KİMLİĞE değil AİLEye sorulur
+#   Emsal zaten vardı ve hemen aşağıda duruyor: `d:`/`v:` dönemleri tek bir "OSMANLI"
+#   ailesine eşleniyor — yani Osmanlı ile TÂBİSİ bu dalda AYNI sayılıyor (`CLAUDE.md §3`).
+#   Sebebi açık: tâbi toprak ana gövdeden "kopuk" görünse de siyaseten kopuk DEĞİLDİR.
+#
+#   AYNI MANTIK HABSBURG'DA UYGULANMAMIŞTI ve bir ölçüm bunu ortaya çıkardı
+#   (ONCE1281-MACAR-TAC-1005): Macar tacı toprakları `avusturya`dan `macaristan-habsburg`a
+#   çevrilince D7 **727 → 736** oldu (+9 ada). Dokuzun hepsi aynı sınıf:
+#     Erdel 1551 ×4   (veride ZATEN macaristan-habsburg'du; artık ana gövdesi olunca
+#                      "kopuk" görünür oldu)
+#     Szatmár 1526 · 1688 Lugos/Orsova/Belgrad · 1695 Lugos
+#                     (savaş dönemi `avusturya` kaldı, Macar noktaları ayrı kimlik
+#                      olunca Viyana'dan koptu)
+#   ⇒ Kusur VERİDE DEĞİL, D7'nin aile tanımındaydı: 1526-1918 arası iki taç AYNI
+#     HÜKÜMDARDAdır (Habsburg); ikisini ayrı sayan bir "kopukluk" ölçümü siyasî
+#     gerçeği değil kimlik etiketini ölçer.
+#   Karşı-olgusal ölçüm (işçi, bellekte): aile eklenince **736 → 727**, yani düzeltme
+#   kendi doğurduğu dokuz adayı bire bir kapatıyor ve BAŞKA hiçbir şeyi oynatmıyor.
+#
+#   ⚠️ KAPSAM DAR TUTULDU: yalnız `degismez7` etkilenir. 4c/4d, 2s, 8a ve ötekiler
+#   kimliği AYNEN okumaya devam eder — orada iki taç AYRI devlettir ve öyle olmalıdır
+#   (künye pencereleri, kaynak zinciri, hat yaslanması hep kimlik düzeyinde çalışır).
+#   ⚠️ Tarih şartı GEREKMEDİ: `macaristan-habsburg` künyesi zaten 1526-08-29'da başlıyor,
+#   yani 1526 öncesi bir eşleme DOĞAMAZ.
+# ═══════════════════════════════════════════════════════════════════════════
+_D7_AILE = {
+    "avusturya": "HABSBURG",
+    "macaristan-habsburg": "HABSBURG",
+}
+
+
+def _d7_aile(kimlik):
+    """D7 için kimliği AİLEsine indirger; tanımadığını AYNEN döndürür."""
+    return _D7_AILE.get(kimlik, kimlik)
+
+
 def degismez7(Y):
     """(ihlaller, muaf_sayaci) — kopuk gövde var ve koridor SORGULANMAMIŞ.
 
@@ -3149,7 +3186,7 @@ def degismez7(Y):
                     d.append((p["f"], p["t"], "OSMANLI", bool(p.get("enklav"))))
         for p in (y.get("s") or []):
             if p.get("f") and p.get("t") and p.get("d"):
-                d.append((p["f"], p["t"], p["d"], bool(p.get("enklav"))))
+                d.append((p["f"], p["t"], _d7_aile(p["d"]), bool(p.get("enklav"))))
         DON.append(d)
 
     def sahip(i, g):
