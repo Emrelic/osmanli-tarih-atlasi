@@ -385,3 +385,52 @@ durdurmuyor. İkisi de aynı sınıf: **çıkış kodu ile cümle ayrışmış.*
 ```
 📌 Kendi başıma değiştirmedim: bir kapının çıkış anlambilimi bütün otomasyonu etkiler
 ve bu kuralı sen koydun.
+
+### F8 · AVUSTURYA-MACARİSTAN'IN DAĞILIŞI — fiilî gün mü, hukukî gün mü? (109 nokta)
+**Ölçüm (ONCE1281-AVUSTURYA109-1004):** atlasta 109 nokta `avusturya → 7 halef` geçişini
+**tek güne**, `1918-11-11`e yazıyor. O günün kaynak desteği ölçüldü:
+```
+🔴 1918-11-11 ile ÖRTÜŞEN KAYNAK: 0
+   Ne yer ne bölge düzeyinde HİÇBİR kaynak bu 109 yeri 11 Kasım'a tarihlemiyor.
+   Gün tamamen `avusturya` künyesinin bitiş gününden DEVRALINMIŞ (D207 ihlali).
+```
+Gerçek dağılım **28 Ekim 1918 – 3 Ağustos 1919** (on aya yakın):
+```
+Prag 28.X · Zagreb · Ljubljana 29.X · Budin · Pest 31.X · Maribor 1.XI · Split 2.XI ·
+Zadar 4.XI (İTALYA) · Knin 7.XI · Lviv 22.XI · Brașov 7.XII · Cluj 24.XII ·
+Košice 29.XII · Satu Mare 19.IV.1919 · Oradea 20.IV.1919 · Timișoara 3.VIII.1919
+```
+22 nokta için YER düzeyinde kaynaklı gün var · 75'i bölge düzeyi kaba gün · 12 bulunamadı.
+
+🔴 **KARAR GEREKEN:** `s:` alanı DE JURE mi DE FACTO mu yazılacak?
+```
+(a) FİİLÎ GÜN      Ekim-Aralık 1918: ulusal konseylerin fiilen devraldığı günler
+(b) HUKUKÎ GÜN     Saint-Germain (1920) / Trianon (1920): antlaşmaların günü
+(c) KARIŞIK        fiilî dönem `isg:` olarak taranır, antlaşmayla RENGE katılır
+    (benim okumam)
+```
+📌 **Benim okumam (c) ve dayanağı SENİN iki hükmün:**
+① 4 Ekim, 5. madde (işgal/fetih doktrini): *"eğer işgal edilen toprakların işgal edene
+geçeceği savaş sonrası barış anlaşması ile kesinleşiyor ise o zaman işgal olarak boyanır,
+anlaşma sonrasında renge katılır."* Ardıl devletler Ekim-Aralık 1918'de fiilen devraldı,
+Saint-Germain/Trianon kesinleştirdi ⇒ tam bu kalıp.
+② "Boyamalar hatlara yaslanmalı" doktrini: *"anlaşmada geçen filanca tarihten itibaren
+sınır böyle olacak ibaresi varsa o tarih esas alınır, öbür türlü belgenin tarihi."*
+⇒ (c) seçilirse: 109 noktanın fiilî günleri `isg:` olur, hukukî gün `s:` olur. Bu,
+`isg:` borcunu 13'ten çok daha büyütür ama iki hükmünle de tutarlıdır.
+⚠️ (a) seçilirse kaynaklı 22 nokta yazılır, 75'i kaba, 12'si `bulunamadı` kalır.
+⚠️ Hangisi olursa olsun **1918-11-11 kalamaz** — sıfır kaynak desteği var.
+
+🔴 **VE BİR DÖNGÜ ŞÜPHESİ VAR, ölçülüyor:** Değişmez 2 evreninde *"1918-11-11
+Avusturya-Macaristan mirasının ardıl devletlere geçişi"* maddesi duruyor ve bugünkü 109
+kırılmayı "senkron ✓" yapan O. Ama kırılma künyeden devralındığı için **madde haritayı
+tekrarlıyor olabilir** (`D260` (b) alt sınıfı: türetilmiş + doğru görünen, hiçbir kapı
+ötmez). Maddenin kaynağı açılıyor; sonuç gelince bu kaleme eklenecek.
+
+📌 **Günden BAĞIMSIZ, ayrıca düzeltilecek 30 halef hatası** (bu karar beklemiyor):
+Bosna'nın 16 noktası `sirbistan-kralligi` yazılı — oysa Bosna Sırbistan'a değil
+`Država SHS` (1.XI) → `Kraljevstvo SHS` (1.XII)'e geçti; **atlas kendi içinde de
+tutarsız** (5 Bosna noktası `yugoslavya`). Ayrıca Zadar→İtalya · Hvar/Korčula/Vis/Mljet
+1918-21 İtalyan işgali · Uzhhorod/Mukacheve 1919'a kadar Macar · Lviv 1-22.XI ZUNR ·
+Timișoara 3.VIII.1919 · Eisenstadt 1921 Burgenland (atlasta YOK) · `macaristan-naiplik`
+1918-20 için anakronik.
