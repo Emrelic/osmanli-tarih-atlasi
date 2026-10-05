@@ -172627,5 +172627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5849",
+  "zaman": "2026-10-05 21:24",
+  "kimden": "KASA-POLONYA-1005",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KASA-POLONYA-1005 — dört hüküm alındı (Hanak gün kabul/kimlik yaka ölçümünü bekler · Digor/Arpaçay bulunamadı · CGK B kovası, s: zincirine yazılmaz · Aras-Türk künye yok · Iğdır çıkışı 12 Kasım, dört aday kayda). Bekçi zaten düşmüştü (2 sa sınırı); çalışan bekçi süreci yok, ağaç temiz, makine/kasa = origin (b3cbae8b). Açık iş yok — emekliye ayrılıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
