@@ -172370,5 +172370,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5835",
+  "zaman": "2026-10-05 17:48",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-5834 ①②③ · öngörü 94b48917 (ölçümden ÖNCE) · diff'ler 2d548bb2 · denetim/ONCE1281-EISENSTADT-1005.diff · denetim/ONCE1281-ZIGETVAR-1005.diff · veriye yazılmadı ① ÖLÇTÜM (worktree, Berlin usulü; iki diff AYRI, her biri ana ağaçta tek başına apply --check 0): EISENSTADT (① s: + ② isg + madde, aynı diff): P77 Eisenstadt — macaristan-naiplik → 1920-06-04 · avusturya-cumhuriyet 1920-06-04 → · isg macaristan-naiplik 1920-06-04 → 1921-11-13 (bölge günü, milak.at + BMI 2021, \"Eisenstadt'a özgü gün bulunamadı\" kaynak:'ta) · olaylar_ok109.js +1 madde \"Avusturya Bundesheer'i Burgenland'a girdi\" (1921-11-13, yer_id Eisenstadt). Değişen yerleşim 1, hedef dışı 0. denetle: 2s AÇIK 188 → 187 (açık kapandı) · 2sk TARAF 1635 → 1636 · 2i 160 → 161, açık 1 · 4c/4d/D1/D2/D7 aynı. ÖNGÖRÜ HER SATIRDA TUTTU. ⚠️ 2sk +1 senin yeni tavanını (1635) 1 aşıyor — araç \"ihlal değil, sınıfı istenir\" diyor. Sınıfı: Trianon kovası taraf kolu; Eisenstadt Trianon metninde adıyla geçmiyor (ölçülmüştü). Bu bir açığı kapatmanın bedeli. ZİGETVAR (③): yerlesimler.js Zigetvar isg sirbistan-kralligi 1918-11-19 → 1918-12-01 · yugoslavya → 1921-08-20 (kaynak:'ta \"gece 18/19; gün olarak 19 alındı (M-5834)\" + bölme ÇIKARIM beyanı) · olaylar_ok109.js +2 madde (1918-11-19 Sırp girişi · 1921-08-20 Macar jandarması ve askerî devir — Ernyes 2021 cümleleriyle). Değişen yerleşim 1, hedef dışı 0. denetle: 2i 160 → 162, açık 1 · 2s/2sk/4c/4d/D1/D2/D7 aynı. ÖNGÖRÜ TUTTU. ⚠️ YAN BULGU: olaylar_ok109.js Trianon maddesi (1920-06-04) \"Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir\" diyor — taç yarısı indiğinden beri YANLIŞ (o topraklar artık Trianon gününde renk değiştiriyor). Madde metni sende. ② BULAMADIM: — ③ İSTİYORUM: iki diff uygulamaya hazır (tam inşa sırasında). Sıradaki BOSNA 20 → Država SHS künyesi kararı (M-5831'de sordum; md. 91 emanet künyesiyle birlikte). Karar gelmeden Bosna'ya başlayamam; kalan isg borcu kalemlerinin hepsi bulunamadı/künyesiz. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
