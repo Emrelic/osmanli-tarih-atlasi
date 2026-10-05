@@ -503,3 +503,65 @@ KASA · UMIT    🔴 makine AÇIK, açıcı ÇALIŞMIYOR   (WinError 10061 — e
 HAVVA · LAB    ❌ makine KAPALI                    (WinError 10060 — zaman aşımı)
 ```
 ⇒ KASA ve UMIT'e yalnız `--kur` gerekiyor. HAVVA ve LAB önce elektrikle açılmalı.
+
+
+---
+
+## 🔴 H · BİR DÜZELTME VE İKİ HÜKÜM (5 Ekim, gece turu)
+
+### H1 · 🔴 SANA VERDİĞİM SAYI YANLIŞTI — "58 → 13" değil, "58 → 2"
+F2 kararını (kaba tarih) sana sunarken bedeli şöyle yazmıştım:
+> *"Bedeli: 45 kayıt kapsam dışı, 1281 öncesi kampanyası 58 noktadan **13**'e iner."*
+
+İşçi ölçtü ve düzeltti:
+> "13 kaynaklının yalnız **2'si** 1281 ÖNCESİ (Spiro 800, Moundville 1120); 11'i
+>  1281 SONRASI köy kuruluşu. 1281 öncesi kampanyası bu setten **2**."
+
+**Hatam:** iki ayrı kümeyi birleştirdim — *"kaç noktaya kaynaklı `kur` yazılabilir"* (13)
+ile *"kaç nokta haritayı 1281'den GERİYE uzatır"* (2). İkisi aynı şey değil.
+📌 Kararını değiştirmek zorunda değilsin — sıkı kuralı ilkeye dayanarak seçtin — ama
+**dayanak olarak verdiğim sayı yanlıştı ve bunu bilmelisin.** F2'nin gerçek bedeli daha
+küçük ve daha belirli: 45 kaba kaydın **30'u** zaten çapasını koruyor (kaba ifade `not:`a
+gider, kayıp yok), **15'i** 1281 öncesi kaba tarihli ve onlara hiçbir şey yazılmıyor.
+⇒ F2'nin bedeli "45 kayıt kapsam dışı" değil, **15 kayıt tarihsiz kalıyor**.
+
+### H2 · ÇAPA ŞEMASI KARARA BAĞLANDI (F1'in uygulaması — benim kalemim, bilgi için)
+En değerli bulgu kalemi küçülttü: **41 noktanın 41'i ZATEN çapa taşıyor** (`s:` halk
+künyesi 1281'den, 26 kimlik) ve **künyesi eksik olan 0**. Yani yeni künye GEREKMİYOR;
+F6 benzeri yeni bir karar DOĞMADI.
+```
+KABUL: TEK KAYIT + `koy_kur:`  köyün kaynaklı kuruluş günü (MOTOR OKUMAZ)
+                   `capa_ad:`   isteğe bağlı, çapanın adı
+RED:   `kur:` kullanmak         motor `kur>g` ise peteği devreder ⇒ ÇAPA KAYBOLUR
+RED:   iki kayda bölmek         aynı koordinatta iki Voronoi tohumu için kodda yol YOK
+```
+🟢 Değişmez 1 kararı verdirdi: `koy_kur` ile **309 → 309** (değişmez) · `kur:`a yazılsa
+harita değişir · ikinci biçime çevirmek **350 (+41, kapı ÖTER)**. Üç yoldan yalnız biri
+kapıyı kıpırdatmıyor.
+⚠️ `girdi.py`ye iki satır eklemek MOTOR TUZUNA dokunuyor (`§9.1`) ⇒ tek başına inemez,
+TAM İNŞA koşusu kuyruğuna girdi.
+
+### H3 · AVUSTURYA 109 — F8 KARARINI UYGULAMAK İKİ BAŞKA KAPIYI ÖTÜRÜYOR
+Yama YAZILMADAN ölçüldü (sıra doğruydu):
+```
+Değişmez 2i  144 → 161/162 · AÇIK 1 → 1      ✓ ÖTMEZ
+Değişmez 2s  AÇIK 189 → 191                   🔴 ÖTER (Trianon · Rapallo · Lendava)
+4c           127 → 176 (+49, hepsi avusturya) 🔴 ÖTER
+```
+Sebep: `s: avusturya`yı antlaşma gününe uzatmak, `habsburg` künyesinin ölümünü
+(1918-11-11) aşıyor. Ve 2s'de madde "Macaristan" diyor, veri "avusturya" diyor ⇒ taraf
+tutmuyor.
+🔴 **AMA KÖKÜ BULUNDU VE BU BİR VERİ KUSURU, MODEL SORUSU DEĞİL:**
+> "Macar tacı topraklarının 1918 öncesi sahibi atlasta `macaristan-habsburg` değil
+>  **`avusturya`**."
+
+Erdel · Bánát · Felvidék · Hırvatistan-Slavonya · Vojvodina · Kárpátalja 1918'den önce
+**Macar tacı** topraklarıydı; atlas onları Avusturya'ya yazmış. Kök düzelirse iki kapı da
+kendiliğinden susabilir (madde "Macaristan" diyor, veri de öyle derse taraf TUTAR; halef
+zinciri Macar künyesinden giderse `s:` habsburg'un ölümünü AŞMAZ).
+⇒ Üç şıkkın (habsburg'u uzat / halef fiilî günden / 4c'ye tavan) HİÇBİRİNİ seçmedim;
+karşı-olgusal ölçüm istendi: *kök düzeltilse 2s ve 4c kaç olur?* **Sayı gelmeden model
+sorusu sorulmayacak** — çünkü soru kendiliğinden kapanabilir.
+📌 Bu, "çareyi KURALDAN değil KODDAN/VERİDEN tasarla" dersinin uygulaması: üç şıkkın ikisi
+tarihi bozuyor, üçüncüsü 49 dönemi tavan borcu yapıyor; kök düzeltme hiçbirini
+gerektirmeyebilir ve öyleyse bedava.
