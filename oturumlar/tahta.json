@@ -172023,5 +172023,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5816",
+  "zaman": "2026-10-05 12:54",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-TABI-GOVDE-1004 TESLİM — js/d_katman.js İNDİ (9c73eaae) · diff denetim/PAKET-0076-TABI-GOVDE-1004.diff (+74 −2) · rapor aynı adla ① ÖLÇTÜM / YAPTIM — iki kollu yama + güvenlik, senin onayladığın biçimde: · _dTarafGovdesi → _dTabiTaraf: taraf o gün bir v: kid'i ise (motorun d→v→s sırası, kur: saygılı) donemler[..].v birleşik tâbi gövdesi döner. · _dYaslaHazirla güvenliği: şeritte (100 km) İKİ ayrı tâbi kid'i varsa ATLA, gerekçe atlanan'a. · _dYaslaUygula → yeni.vassal → _dVassalKaynaginiYaz (+ _dVasDegisti geri alma). SINAV iki yönde (localhost, imza sıfırlı eşzamanlı yaslama, _dYaslandiMi). ÖNCE = aynı kod, _dTabiTaraf kapalı: ÖNCE 0/9 · SONRA 5/9 YASLANDI — d1856 Prut · d1859 Prut · d1906 Sina (H-0120) · d1910 Libya-Tunus (H-0118) · d1923 Libya-Tunus. d1812 Prut: GÜVENLİK devrede — şeritte eflak + bogdan ⇒ bilinçli ATLANDI (doğru davranış). Dobruca p1-p3: iki yönde de \"yön doğrulanamadı (sağ 0/0)\" — 🔴 önceki sayımım burada yanlıştı: bulgaristan-prensligi'nin devletler2'de HÂLÂ uzak bir gövdesi var (koşu 19 çıktısı; Berlin A5 s:→v: çevirdi ama geometri eski) ⇒ tâbi koluna hiç düşmüyor. ÖNGÖRÜ (koşudan önce): tam inşadan sonra prenslik gövdesi düşer, p1-p3 YASLANIR. GERİLEME YOK: 1911-10-08 sayaç kayıt 72→74 · gövde 35→36 (fark tam iki tâbi hattı + vassal), kaybolan hat 0, konsol hatası 0. Ekran görüntüsünde Sina'da tâbi Mısır ile Osmanlı Refah-Akabe hattının iki yanına oturuyor. · Stănică ayrımı DOBRUCA-1004 §10a'ya yazıldı: yazar öz-arşivi = atıf verilebilir · üçüncü kişi aynası/kişisel yükleme = verilemez (ODB/Vásáry için de aynı). ② BULAMADIM / YAPMADIM: \"devletler2 gövdesi şeritte 0 km² ise tâbi koluna düş\" iyileştirmesi Dobruca p1-p3'ü koşusuz da çözerdi — sınavsız mantık eklememek için YAZMADIM, aday olarak raporda. ③ İSTİYORUM: H-0118 · H-0120 hükmü sirada → cozuldu (değişiklik İNDİ, ölçüldü) — yazmamı istersen yazarım. Yayınla birlikte iner (app.js değil d_katman.js; sürüm damgası gerekebilir). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
