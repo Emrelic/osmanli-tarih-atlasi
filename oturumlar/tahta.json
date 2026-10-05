@@ -172131,5 +172131,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5822",
+  "zaman": "2026-10-05 13:57",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ONCE1281-AVUSTURYA-UYGULA-1005 · öngörü eb73d41d (ölçümden ÖNCE) · ölçüm+diff 77f11257 · denetim/ONCE1281-AVUSTURYA-UYGULA-1005.diff (+ .md) · veriye yazılmadı ① ÖLÇTÜM: - 🔴 İSTEDİĞİN İLK SAYI — Değişmez 2i: 144 → 166 kırılma · AÇIK 1 → 1 ⇒ ÖTMEZ (tavan beyanı GEREKMEZ). Ama 22 yeni günün 10'u YAKIN-ALAKASIZ maddeyle kapanıyor (Peçuy 1918-11-14 → Brest-Litovsk iptali · Knin 1918-12-19 → Çekoslovakya Bohemya · Szatmár/Varad 1919-04 → Kars · Temeşvar/Prekmurje 1919-08 → Ravalpindi · 1921 günleri → İnönü/Antalya/Irak) — 2sk'nın 2i karşılığı, raporda adıyla. - Diff: 6 dosya · 69 kayıt · 135 s: dönemi · 23 isg: (19 F8 fiilî + 4 üçüncü taraf). Taç 34 (macaristan-habsburg → 1918-11-11 aynen + macaristan-naiplik ara dönem → antlaşma) · Cisleithania/Dalmaçya 34 (avusturya → antlaşma). DOKUNULMADI: Macar çekirdeği + Eisenstadt 21 · Bosna 20. Biçim korundu (çok satırlı diziler aynen, yorum kaybı 0); mevcut isg: dizilerine (Cetin, Drežnik) EKLENDİ, eskiler dokunulmadı. - Kaynak: SG/Trianon TDV birinci-dunya-savasi · Rapallo LNTS c.18 (veride Zadar kaydında zaten kaynaklı) · Büyükelçiler 15.III.1923 LNTS 15:261-265 (d1923-pl-ro maddesinin kaynağı). - isg borcu 13 → 3 nokta yazılabildi (Peçuy Sırp 1918-11-14→1921-08-22 MNL · Şibenik İtalyan 1918-11-06→1921-06-12 · Knin İtalyan 1918-12-19→1921-04-04). Peçuy'da sirbistan-kralligi→yugoslavya bölmesi 1918-12-01'de — ÇIKARIM, kaynakta yazılı. - isg künye doğumuna KIRPILDI 6 (D203): Zagreb, Ljubljana, Split, Knin, Maribor (yugoslavya → 1918-12-01; Država SHS künyesiz) · Krakov (polonya → 1918-11-11). Fiilî gün kaynak:'ta. - Zadar: halef ZATEN italya'ydı; düşen yalnız ara yugoslavya dönemi. - İki yönlü sahiplik sınavı: diskteki 69 kayıt simülasyonla birebir (uyumsuz 0) · dokunulmaması gereken değişen 0. git apply --check ana ağaçta (HEAD 692ef09e): 0. - denetle ÖNCE/SONRA (worktree): D1 309 · D2 623/0 · 4d 324 · 4 hayalet 5 · D7 727 → AYNI · 2s AÇIK 189 → 189 (Rapallo +1, ama Ravalpindi'nin yanlış kapattığı 1919-08-12 Prekmurje kırılması KALKTI) · 4c 127 → 143 ✗ (+16, beklenen) · 🆕 2sk YALNIZ TARAF 1603 → 1655 (+52, ÖNGÖRMEDİM) · kaynaksız s: 1937 → 1929. Çıkış 1 yalnız 4c'den. - 4c BEYANLI BORÇ (16, adıyla): Dalmaçya 12 — Rab, Pag, Uzunada, Hvar, Korčula, Vis, Mljet, Zadar, Şibenik, Knin, Vrana, Nadin · Galiçya 2 — Lvov, Yazlofça · Kvarner 2 — Krk, Cres. ② BULAMADIM / ÖLÇMEDİM: 2sk +52'nin döküm listesi — teşhisim (ölçülmemiş): F8 taçta kırılmayı ikiye böler, dört antlaşma maddesi YER anmıyor ⇒ kapanışlar taraf kovasına. Öngörü sapmaları: D7 \"öter\" dedim, ötmedi (Habsburg ailesi) · 2s 190 dedim, 189. ③ İSTİYORUM: (1) 4c 16 dönem beyanlı borç (liste hazır) · (2) 2sk +52: tavan mı, dört antlaşma maddesine yer adı mı (D261)? İstersen yer adı eklemenin etkisini bellekte ölçerim · (3) 2i madde borcu 10 · (4) kalan: Bosna 20 (drzava-shs), Eisenstadt (Burgenland 1921), isg borcunun 10'u, Država SHS künyesi (6 kırpılmış isg geri uzar). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
