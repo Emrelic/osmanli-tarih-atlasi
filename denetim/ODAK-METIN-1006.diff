@@ -1,0 +1,91 @@
+diff --git a/arac/odak_olc.py b/arac/odak_olc.py
+index 8c82135f..e07fb37e 100644
+--- a/arac/odak_olc.py
++++ b/arac/odak_olc.py
+@@ -16,7 +16,7 @@ yani YAZILMIŞ bir alanı doğrular, YAZILMAMIŞ odağı saymaz. Boş küme her
+     ③ odak_kutu_kaynak         KUTU  → fitBounds    hukukî sınır kutusu
+     ④ odak_yer ["<ad>",…]      KUTU  (≥1 ad tutmalı) "KAMERA BURAYA BAKACAK"
+     ⑤ odak_kimlik ["id",…]     KUTU  (O GÜN ≥2 YERLEŞİM) devlet toprağı
+-    ⑥ kapsam_genis:true        OSMANLI kutusu — BEYAN
++    ⑥ kapsam_genis:true        BEYAN — kamera YOLA göre gider (aşağıda)
+ 
+ 🔴 `yer_id` ≠ `odak_yer` ve bu ayrım kuralın KENDİSİdir (`app.js:11697`):
+ `yer_id` *"olay BURADA oldu"* der ve KARTA da yazılır; `odak_yer` yalnız
+@@ -24,26 +24,35 @@ yani YAZILMIŞ bir alanı doğrular, YAZILMAMIŞ odağı saymaz. Boş küme her
+ yazmak kameraya yarar ama VERİYE YALAN yazar. ⇒ Bu alet ikisini AYRI sayar
+ ve `yer_id`yi odak dolgusu olarak ÖNERMEZ.
+ 
+-## 🔴 BEYANLI'NIN TUZAĞI — odaksızlıktan KÖTÜ
++## 🔴 BEYANLI'NIN TUZAĞI — İKİ YOL, İKİ AYRI KUSUR
+ 
+-`app.js:11835`:
++`kapsam_genis:true` + odak yok: kameranın nereye gittiği maddenin AÇILDIĞI
++YOLA bağlıdır, dosyasına değil. İki yol iki ayrı işlevdir.
++
++**(b) OLAYLAR — Osmanlı listesi, `haritayiOlayaGotur`:**
+ 
+     var _odakB = _odakKG ? _odakKG.kutu : ((di >= 0 && donemler[di].b) ? donemler[di].b : null);
+ 
+-`kapsam_genis:true` + odak yok ⇒ kamera **`donemler[di].b`**ye gider ve o kutu
+-O GÜNÜN **OSMANLI SINIRIDIR** (ölçüldü: ilk dönem `[29.32,39.58,30.54,40.22]`
+-= Söğüt çevresi). ⇒ `kronoloji_japonya.js`te `kapsam_genis:true` yazmak
+-*"kamerayı Osmanlı'ya gönder"* demektir; 1300'deki bir Balkan maddesinde
+-kamera SÖĞÜT'ü çerçeveler.
+-🔴 Bu ODAKSIZLIKTAN KÖTÜDÜR: odaksız maddede kamera DURUR ve panel *"nokta
+-yeri işaretlenmemiş"* der — kullanıcı eksikliği OKUR. Burada hiçbir sinyal
+-yoktur; yanlış yer KENDİNDEN EMİN gösterilir. (`dersler/D205` ailesi.)
+-
+-⚠️ **"→yabancı" sütunu KABA BİR SINAVDIR** — dosya adı `olaylar` ile
+-başlıyorsa Osmanlı çekirdeği sayar. Gerçek hüküm MADDE BAŞINADIR:
+-`kronoloji_anadolu.js`teki 1550 tarihli bir madde için imparatorluk kutusu
+-meşru olabilir, 1300 tarihli bir Balkan maddesi için değildir. Alet SAYAR,
+-hüküm vermez (`§11`: ölçüm doğru, çıkarım yanlış).
++⇒ kamera **`donemler[di].b`**ye, yani O GÜNÜN **OSMANLI SINIRINA** gider
++(ölçüldü: ilk dönem `[29.32,39.58,30.54,40.22]` = Söğüt çevresi). Bu yol
++yalnız `OLAYLAR` dizilerinindir; orada beyan meşrudur (çıktıda "Osmanlı
++çekirdeğinde kalan meşru beyan").
++
++**(a) SEKME — devlet sekmesi, `maddeAc` gövde dalı:** `→yabancı` sütunu BUDUR.
++⇒ kamera Osmanlı'ya GİTMEZ (UMIT-W13-ODAK-METIN-1006; eski metin bu yolu
++(b) sanıyordu). `maddeOdakKutusu(m)` kutu kurmazsa `devletiYay(d.harita ||
++d.id)` çağrılır:
++  · devletin O GÜN `DEVLET_HARITA` gövdesi varsa → BÜTÜN gövdeye açılır.
++    1600'de Viyana'yı anlatan bir madde Habsburg topraklarının tamamını
++    çerçeveler: yer DOĞRU devlet, ama ÖLÇEK yanlıştır.
++  · gövdesi yoksa (sahnede değil · harita kaydı yok · 1281 öncesi madde
++    1281'e kıstırılır) → `devletiYay` SESSİZCE döner, kamera KIPIRDAMAZ.
++    Panel notu bu dalda YAZILMAZ. Bu, ODAKSIZ'dan kötüdür: orada panel
++    *"nokta yeri işaretlenmemiş"* der.
++    Ölçüm (5 Ekim 2026, 355 madde): 302 gövde · 52 sahnede değil · 1 harita
++    kaydı yok. Örnek: `iran` künyesi 1555–1600 (`harita:` o gün çizilmiyor).
++⇒ `→yabancı` iş YÜKÜDÜR: odak yazılmalı. Ama kusur "Osmanlı'ya uçmak"
++değil, "kaba ölçek ya da sessiz duruş"tur.
+ 
+ ## 🔴 ÇÖZÜM PYTHON'DA DEĞİL, `arac/odak_cozum.js`TE
+ 
+@@ -436,10 +445,12 @@ def main():
+         print()
+         print("🔴 ODAKSIZ %d — kamera KIPIRDAMIYOR (panel eksikliği YAZAR)."
+               % T["ODAKSIZ"])
+-        print("🔴 BEYANLI→yabancı %d — kamera OSMANLI kutusuna uçar."
+-              % beyan_yab)
+-        print("   Osmanlı çekirdeğinde kalan meşru beyan: %d"
+-              % (T["BEYANLI"] - beyan_yab))
++        print("🔴 BEYANLI→yabancı %d — devlet sekmesinde odak yok: kamera devletin "
++              "O GÜNKÜ BÜTÜN gövdesine açılır" % beyan_yab)
++        print("   (`devletiYay`); o gün gövdesi yoksa SESSİZCE kıpırdamaz. "
++              "Osmanlı kutusuna GİTMEZ.")
++        print("   Osmanlı çekirdeğinde kalan meşru beyan: %d  (OLAYLAR yolu → "
++              "o günün Osmanlı kutusu)" % (T["BEYANLI"] - beyan_yab))
+         print("⇒ TOPLAM İŞ: %d madde (%.1f%%)" % (yuk_t, 100.0 * yuk_t / max(n, 1)))
+         print()
+         # 🆕 O1 — devlet sekmesi (`maddeAc`) gerçekte ne yapıyor
+@@ -448,7 +459,7 @@ def main():
+               % sum(S.values()))
+         for k, tarif in (("SEKME_NOKTA", "yer_id çözülüyor → noktaya uçar"),
+                          ("SEKME_KUTU", "kapsam_genis + odak kutusu kuruluyor"),
+-                         ("SEKME_GOVDE", "kapsam_genis, odak yok → devletin BÜTÜN gövdesi"),
++                         ("SEKME_GOVDE", "kapsam_genis, odak yok → BÜTÜN gövde (yoksa sessiz durur)"),
+                          ("SEKME_KIPIRDAMAZ", "kapsam_genis yok, odak yok → kamera durur"),
+                          ("SEKME_OKUNMAYAN", "odak/yer_kon YAZILMIŞ ama sekmede ETKİSİZ")):
+             print("   %-18s %6d  %s" % (k, S[k], tarif))

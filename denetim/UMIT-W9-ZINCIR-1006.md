@@ -229,3 +229,27 @@ yerlesimler.js'in 6 kaydı (hepsi AYNI) ile yine **7** → üretici 28 kaydı ya
   satırının altına tablo satırı) — W7'nin bölüm adı değişeceği için yeri yeniden seçilecek.
 - Tavan (koordinatör hükmü): **6**; her artış kendi commit'inde sabitle birlikte. 1006b'nin
   p0037 parçası bayat sayısını DEĞİŞTİRMEZ (3 kayıt da AYNI) ⇒ 6 kalır. Yagodina gelince 7.
+
+## 11. EK — 1006c (yerlesimler.js · ek29) + VERI-YAPISI-ZINCIR-1006, 6 Ekim 2026
+Taban: origin/main → D7-ISG → KAPI → VERI-1006 → POLONYA-ISG → JASENOVAC-BROD-1536 → ODAK-SEKME →
+KAYNAK-ZAYIF-VERI (923d1e73) → VERI-YAPISI-KAYNAK-ZAYIF → CRES-NOT (61d07c44) → VERI-1006b.
+(VIKIPEDI/VERI-YAPISI-DOGRULANMADI artık denetim/'de yok; KAYNAK-ZAYIF karşılıkları kullanıldı.)
+
+**Yeniden ölçüm:** Bitlis ← Van · Divriği ← Sivas · Culfa ← Nahçıvan · Bolayır, Maydos ← Gelibolu
+· Çehrin ← Kiev · İshakçı ← Silistre: AYNI (7). **Yagodina ← Kragujevac: BAYAT** (v:kid,
+1830-10-17→1878-07-13) — W18/W7 diff'leri değiştirmedi. Değerler §5 tablosundakilerle aynı.
+
+**Dosyalar:** ZINCIR-KAYNAGI-VERI-1006c.diff (yerlesimler.js 6 + ek29 2 = 8 kayıt) ·
+VERI-YAPISI-ZINCIR-1006.diff (bölüm W7'nin `kaynak_zayif` bölümünün ardına, `kesinlik` başlığının
+önüne; tablo satırı `kur`un altına; metin §2 + Lublin/isg kuralı + tek atlama + UYARI notu).
+CR 0 ikisinde de. 1006c: origin/main tek başına ileri ✓ / -R ✗ · zincirde ileri ✓ / -R ✗.
+VERI-YAPISI-ZINCIR: zincirde ileri ✓ / -R ✗ · origin/main tek başına ✗ (W7 bölümüne bağlı,
+beklenen).
+
+**Ölçüm (tam zincir + 1006c + VY):** beyanlı **43 kayıt** / 44 parça (= 44 elle beyan − Lublin)
+· **7 BAYAT** (Ceylanpınar · Digor · Iğdır · Gümrü · Eçmiyadzin · Yagodina · Wiltz) · bozuk 0 ·
+zincirleme 1. Sınav 23/23. denetle: `zincir_kaynagi` UYARI satırı 1 (43 kayıt) + W7'nin
+`kaynak_zayif` UYARI'sı 1; çıkış 2 yalnız Değişmez 8 `devletler_harita.js` (taze ağaç).
+
+**Tavan:** 6 → **7**, 8 DEĞİL. 8 önerisi Lublin'i sayıyordu; Lublin beyansız (§10). Üretici 28
+kaydı yazınca 7 + 6 = **13**.
