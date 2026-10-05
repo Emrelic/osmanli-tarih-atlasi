@@ -117,3 +117,63 @@ saklanıyor: türetilmiş madde silinse de "Avusturya" adını anan herhangi bir
 2. Asıl iş: 2s'nin taraf kolunun yer düzeyinde ne ölçtüğü — `denetle.py` sahibinin kalemi. Öneri: raporda
    "kapalı (yer)" ile "kapalı (yalnız taraf)" AYRI satır olsun; ikincisi tavanlı bir borç gibi izlensin.
 3. Karl beyanı (§3) + aynı olayın üç maddede tekrarı.
+
+## 6. UYGULAMA — `denetim/ONCE1281-OK109-UYGULA-1004.diff` (78 satır · `apply --check` 0)
+
+Berlin usulü: worktree (HEAD `395b2207`) → `denetle` ÖNCE → yama → `denetle` SONRA → iki yönlü karşı-olgusal
+sınav YAMALI ve YAMASIZ ağaçta → `git diff --output` → ana ağaçta `apply --check` → worktree kaldırıldı.
+Dosyalar: `data/olaylar_ok109.js` (16+/24−) · `data/olaylar_sessiz_borc_0919.js` (1 satır).
+
+### A) #4 — ÖNERİ: KALDIR + gerçek ama maddesiz tek günü EKLE (bölmek de, 3 Kasım'a çekmek de mükerrer üretir)
+- **3 Kasım'a çekmek** = #3 Villa Giusti (1918-11-03, aynı kaynak cümlesi) ile MÜKERRER.
+- **Gerçek günlere bölmek:** 28 Ekim (#0 VAR), 30 Ekim (#1 VAR), 31 Ekim (#2 VAR), 3 Kasım (#3 VAR),
+  1 Aralık (#6 VAR) — **maddesi OLMAYAN tek gerçek gün 29 Ekim** (Hırvat Saboru / Država SHS; Bosna 1 Kasım).
+  ⇒ Bölmek = #4'ü kaldırıp YALNIZ 29 Ekim maddesini eklemek. Yaptığım budur.
+- **Yeni madde** `t: 1918-10-29` "Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Saboru Habsburg bağlarını kopardı",
+  `odak_yer: Zagreb · Ljubljana · Saraybosna` (üçü de yerleşim olarak VAR, ölçüldü). Dört kaynak, **dördünü de
+  bu oturumda açtım**: Hrvatska enciklopedija "Država SHS" ve "Zagreb" · Zgodovinski arhiv Ljubljana · BiH
+  Parlamentosu (alıntılar maddenin `kaynak:`'ında).
+- **İz SİLİNMEDİ (koordinatör şartı), TAŞINDI:** yeni maddenin `ic_not_turetilmis` alanı #4'ün eski başlığını,
+  kaynağını ve `ic_not_d`'sini AYNEN taşıyor + "TÜRETİLMİŞ bulundu ve kaldırıldı (5 Ekim 2026; D207, D211 ⑧,
+  D260)" notu. ⚠️ Koordinatör "tek madde kalsın" seçerse alternatif: #4 yerinde, `t` → 1918-11-03 — ama #3
+  ile mükerrer olur; önermiyorum.
+
+### B) #9 Versailles — gerçek devir günü KAYNAKTAN bulundu
+Versailles Antlaşması **md. 51** (Yale Avalon Project — açtım): *"The territories which were ceded to Germany …
+are restored to French sovereignty **as from the date of the Armistice of November 11, 1918**."*
+⇒ Alsas-Loren'in hukukî devri **1918-11-11** (geriye dönük); 1919-06-28 imza günü devir günü DEĞİL.
+- Madde: başlık "… Alsas-Loren'in Fransa'ya iadesi hukuka geçti"; `d`'deki "Haritada bu gün … Fransa'ya geçer"
+  cümlesi md. 51'in hükmüyle değiştirildi; `kaynak:` başına md. 51 alıntısı; `ic_not_turetilmis` eski cümleyi
+  ve "atlasın KENDİ verisinden okunmuştur" itirafını taşıyor; eski `ic_not_d` ("eski ifade: Atlasta bu gün")
+  DOKUNULMADI.
+- 🔴 **Veri kalemi (diff DIŞI, `yerlesimler*` sizde):** 4 yerleşim (Strazburg, Metz, Colmar, Mulhouse)
+  `almanya → fransa-cumhuriyet` kırılması 1919-06-28 → **1918-11-11** önerisi. Fiilî giriş günleri (Fransız
+  birliklerinin Kasım 1918'deki girişleri) şehir başına **bulunamadı** (kaynak açmadım).
+- Yan gözlem: `denetle` mükerrer listesinde yeni başlık **"1920-01-10 Versay Antlaşması yürürlüğe girdi —
+  Alsas-Lo…"** maddesiyle çift oldu (önek ölçütü, ihlal değil) — evrende Versay'ın Alsas'ı anan ikinci bir
+  maddesi ZATEN varmış.
+
+### C) #5 kaldırıldı + TDV beyanı yaşayan maddeye
+`olaylar_ok109.js` #5 (1918-11-18 Karl, TDV) KALDIRILDI. `olaylar_sessiz_borc_0919.js` 1918-11-12 maddesine
+`ic_not_kaynak`: *"TDV avusturya … 18 Kasım diye verir … Parlament Österreich 11 Kasım 1918 der. Avusturya
+anayasa hukuku olayında kurumun kendi kaydı esas alınmıştır — §4'ün TDV önceliği 'İslâm dünyası, Osmanlı ve
+komşuları' içindir (koordinatör hükmü, 5 Ekim 2026). Aynı olayı 18 Kasım'a koyan olaylar_ok109.js maddesi
+mükerrer olduğu için kaldırıldı."*
+
+### D) İKİ YÖNLÜ SINAV — aynı ağaçta YAMALI ve YAMASIZ (girdi/denetle o ağacın kendisinden)
+
+| | madde | Değişmez 2 | 2s kırılma | 2s açık-ham | **2s AÇIK** | kapsam dışı | yıl-borç |
+|---|---|---|---|---|---|---|---|
+| YAMASIZ | 2170 | 623 / **0** | 1711 | 1145 | **189** | 792 | 164 |
+| **YAMALI** | 2169 | 623 / **0** | 1711 | 1145 | **189** | 792 | 164 |
+| YAMALI, kalan ok109 (10) de çıkarılınca | 2159 | 623 / 0 | 1711 | 1145 | 189 | 792 | 164 |
+| **makine sınavı** (tek alakasız madde) | 1 | 623 / **623** | 1711 | **1711** | 639 | 795 | 277 |
+
+⇒ **Δ = 0** (yamadan önce ve sonra); düzenek çalışıyor (alakasız madde → her şey açılıyor).
+**Taraf kolu (koordinatörün kapıdan okuyacağı sayılarla karşılaştırma için):** iki ağaçta da kapalı **3160** ·
+yer **1558** · yalnız taraf **1602** — yama bu sayıları değiştirmiyor.
+
+`denetle.py` çıktısı ÖNCE ↔ SONRA (çıkış ikisinde de 2 — worktree'de üretilmiş dosya yok, Değişmez 8
+ölçülemedi): değişen satırlar YALNIZ — madde 2170 → 2169 · mükerrer şüpheli çift **113 → 112** · ZAYIF çift
+107 → 108 · ÖNEK çift 19 → 20 (bilgi). **Hiçbir değişmez satırı değişmedi** (2t dahil: kırılmasız #5 gitti,
+yeni 29 Ekim geldi).
