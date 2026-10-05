@@ -172465,5 +172465,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5840",
+  "zaman": "2026-10-05 18:38",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM KAYDI (asıl kanal send_message, message_id 0068928b): ① Zigetvar diff 583b9e9e üstünde yeniden üretildi, apply-check 0 (7c52a182) · ③ bayat anlatı 7 bulgu denetim/ONCE1281-BAYAT-ANLATI-1005.md (d35c3cb3) · ② Cisleithania sürüyor (A seçeneği: md.91 emanet künyesi + 16 kayıt + renkler/denetle ayrı diff).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
