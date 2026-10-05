@@ -154,6 +154,34 @@ Mangalya · Balçık · Tutrakan · Dobriç taslakları bu zincire göre yeniden
 zaten TDV'nin 1390-93 / 1402-18 Eflak dönemlerini izliyor — yani (A)/(B) kararıyla UYUMLU olacaklar;
 1281 halkası (①) ise aynı karara bağlı.
 
+## 8 · ④ HATTIN İKİ YAKASI — `g3-bg-ro-dobruca-p4` (koordinatörün ek sorusu, 8a sinyali)
+Hat: `d_sinirlar_komsu.js:29` · 1908-10-05 → 1913-08-10 · sınıf E · `sol_taraf: romanya-kralligi`
+· 22 nokta, uçlar (27,251 44,122) Silistre → (28,578 43,741) Karadeniz kıyısı.
+ÖLÇÜM (girdi.yukle, 120 km şerit, de jure sahip — 8a'nın `_d8_sahip`i ile aynı kural):
+```
+                     1908-10-05 ve 1913-08-09 (İKİSİ AYNI)
+BULGAR YAKASI (sağ)  Silistre 0,0 km (hattın UCUNDA, üstünde) · sonra Varna 67,0 · Prevadi 88,8 ·
+                     Şumnu 90,5 · Rusçuk 106,8   ⇒ hat ile Varna arasında NOKTA YOK
+ROMEN YAKASI (sol)   Köstence 48,3 · Buzău 119,6 ⇒ hattın 48 km içinde nokta YOK
+```
+⇒ **CEVAP: Güney Dobruca'nın içinde nokta VAR DEĞİL — 0.** Hattın Bulgar yakasındaki tek nokta
+hattın ucunda oturan Silistre; en yakın gerçek iç nokta 67 km (Varna). Romen yakasında 48 km
+(Köstence). **Çare kaynak değil NOKTA YOĞUNLUĞU** (§6) — ve o noktalar (Dobriç · Balçık · Tutrakan
+· Mangalya) tam olarak bu raporun zincir sorusuna bağlı: Berlin taslağında Dobriç taşınabilir,
+Balçık/Tutrakan/Mangalya'nın 1281-1419 halkası kaynaksız ⇒ **önce §4 kararı, sonra noktalar.**
+(Yaka ataması uzak noktalarda — Bükreş, Yergöğü — hattın uzantısına göredir, anlamı yoktur.)
+
+🔴 **8a'daki 3 YENİ ÜYE GERÇEK YENİ TAŞMA DEĞİL — eski taşmanın YENİDEN ADLANDIRILMASI.** Ölçüldü:
+commitli defter (`denetim/DEGISMEZ-0086-defter.json`, HEAD) bu hat için `1913-08-09|sag|Silistre`
+üyesini taşıyordu. 8a taşan parçayı o gün KARŞI tarafa (romanya) ait EN YAKIN noktaya atfeder
+(`denetle.py` `agac(karsi_ad, gun)` · `query_nearest`). Berlin yaması (A8) Silistre'nin Romen
+devrini 1913-05-30 → 1913-08-10'a çekti ⇒ 1913-08-09'da Silistre artık BULGAR ⇒ aynı parça
+en yakın Romen noktalara düştü: Buzău · Bükreş · Yergöğü. ÇIKAN 1 (Silistre) + GİREN 3 = net +2.
+Geometri koşu 19'un (Silistre'yi 05-30'dan Romen sayan) çıktısı. ⇒ **Öngörü:** bir sonraki tam
+inşa koşusunda Romanya gövdesi 1913-08-09'da Silistre'yi kapsamayacağı için bu 3 üye (ve eski
+Silistre üyesi) DÜŞER; `sag|Köstence` üyesi (gerçek noktasızlık) ise kalır. Öngörü koşudan ÖNCE
+yazıldı; koşu bunu sınayacak.
+
 ## Ölçüm defteri
 TDV ham HTML: scratchpad `tdv/{dobruca,silistre,babadagi,kostence,tulca,balcik,bulgaristan}.html`
 (curl, 200) · `isakci` · `mircea` 302. Zincir dökümü: `girdi.yukle()` (regex DEĞİL).
