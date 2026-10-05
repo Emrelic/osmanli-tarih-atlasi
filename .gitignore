@@ -178,8 +178,16 @@ denetim/_hayir_kartlari_dump.json
 denetim/_krono0075_ham.json
 denetim/_kunye_oku_hayalet.js
 denetim/_ui_commit_msg.txt
-denetim/BEKCI-*
-denetim/LOG-*
+# 🔴 UZANTIYA BAĞLI, ÖNEKE DEĞİL (6 Ekim 2026): `denetim/BEKCI-*` deseni
+#    KASITLI RAPORLARI da yutuyordu — `denetim/BEKCI-KIMLIK-1006.md` ölçüldü
+#    ve gözardı ediliyordu (W10 bunu yaşadı). Geçici koşu çıktısı (.log/.out/
+#    .err) gözardı edilir, RAPOR (.md/.tsv/.json/.diff/.py) EDİLMEZ.
+denetim/BEKCI-*.log
+denetim/BEKCI-*.out
+denetim/BEKCI-*.err
+denetim/LOG-*.log
+denetim/LOG-*.err
+denetim/LOG-*.out
 denetim/oneri-*.txt
 
 # ── Birleştirme yedekleri ────────────────────────────────────────────
