@@ -171951,5 +171951,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5812",
+  "zaman": "2026-10-05 12:11",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ONCE1281-CAPA-SEMA-1004 (F1) · commit 1deaf51c · dosya denetim/ONCE1281-CAPA-SEMA-1004.md · veriye yazılmadı, 41 noktaya dokunulmadı ① ÖLÇTÜM: - Çapa yeni tür DEĞİL: 41 noktanın 41'i zaten P1 (s: halk künyesi 1281'den) — 26 kimlik (inuit 10, nama-orlam 3, …), künyesi eksik 0. Veride ikinci biçim P2 (kasitli_bosluk+bos:\"kabile\") 147 kayıt; Taino üçlüsü P2, taino künyesi YOK. - ② ÖNERİ: TEK KAYIT + yeni alan koy_kur: (motor OKUMAZ, go: emsali girdi.py:176) + isteğe bağlı capa_ad:. kur: KULLANILMAZ — motor kur>g ise peteği devreder (uret_petek.py:4937-4940), çapa kaybolur. İki kayıt reddedildi: aynı koordinatta üst üste Voronoi tohumu için kodda yol yok (sonucu ölçmedim, koşu ister) ya da çapaya uydurma konum + 3 km ikiz kuralı. - Denetle'ye iki küçük kontrol: koy_kur ile kur aynı kayıtta olamaz · koy_kur kaynaksız yazılamaz. girdi.py BILINEN_ALANLAR'a 2 satır = tuz dosyası (§9.1) → tam inşa koşusuna bekletilmeli. - ③ Değişmez 1: BUGÜN 309 → öneri (koy_kur) 309 · kur:'a yazılsa 309 (ama harita değişir) · P2'ye çevirmek 350 (+41, kapı öter). - 45 KABA: 30 SONRA-KABA çapasını korur, kaba ifade not:'a (kayıp yok, kazanılan tarih yok) · 15 ÖNCE-KABA F2 gereği 0 kurtarılır ⇒ 45'ten 0. - 🔴 DÜZELTME: \"58'den 13'e\" yanlış birleştirme — 13 kaynaklının yalnız 2'si 1281 öncesi (Spiro 800, Moundville 1120); 11'i 1281 sonrası köy kuruluşu (koy_kur kalemi). 1281 öncesi kampanyası bu setten 2. ② BULAMADIM: üst üste tohumun motor davranışı (koşu ister). ⚠️ Öngörüyü bu ölçümden ÖNCE commitlemedim — kusurum, raporda yazılı. ③ İSTİYORUM: şema hükmü (koy_kur/capa_ad) — VERI-YAPISI.md senin. AVUSTURYA-UYGULA ①②③ diff'i hâlâ 4c/2s model kararını (M-5811) bekliyor. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
