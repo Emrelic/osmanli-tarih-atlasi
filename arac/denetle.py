@@ -2216,7 +2216,28 @@ def degismez3(Y):
 #                  ⇒ ÇARE KAYDI SİLMEK DEĞİL: 1923-2026 ekseni açılınca
 #                     `fas` künyesi uzayacak ve hayalet KENDİLİĞİNDEN
 #                     düşecek. O güne kadar tavanda, GEREKÇESİYLE.
-BEKLENEN_HAYALET = 5   # 1 EKIM 2026: 6 -> 5, kunye 704 -> 863 genislemesi bir hayaleti kapatti
+BEKLENEN_HAYALET = 0   # 5 → 0, 5 Ekim 2026 · KUNYE-IRAN-ANAKRONIZM-1005. BORÇ KAPANDI.
+#   Beş hayaletin BEŞİ de `iran` künyesiydi: künye `f:1925` (Pehlevî) ama veri onu
+#   1281'den kullanıyordu — 415-424 yıllık anakronizm.
+#     Tarki (Tarku) · Ağraham burnu   1281-01-01 → 1501-07-01   → altinorda
+#     Derbend                          1281-01-01 → 1509-01-01   → altinorda + sirvansah
+#     Dihistan ovası · Kızılarvat      1507-05-24 → 1510-12-02   → buhara (Şeybânî)
+#   Kaynak TDV: ŞİRVANŞAHLAR ("Derbendî Şirvanşahları 1382-1501") · DERBEND ("Şah İsmâil
+#   1509'da zaptedip") · ŞEYBÂNÎLER (1500-1507 Horasan, 1510 yenilgi). Komşu doğrulaması:
+#   Nesâ/Bocnûrd/Esferâyin aynı pencerede zaten `buhara`, Terek zaten `altinorda`.
+#
+# 🔴 VE BU VAKANIN ASIL DERSİ, SAYIDA DEĞİL: ben bu kusuru Emre'ye *"kapı bu sınıfı
+#   GÖRMÜYOR"* diye bildirmiştim (`4c`/`4d` "pencereyi aşıyor mu" sorar, "oraya hiç ait
+#   miydi" sormaz — `D204`). İŞÇİ BUNU ÇÜRÜTTÜ: `degismez4` tek başına koşturuldu,
+#   hayalet 5 = BEKLENEN_HAYALET 5 çıktı ve beşi TAM BU KAYITLARDI.
+#   ⇒ Kusur KÖRLÜK DEĞİL, **TAVANLA SUSTURULMUŞ BORÇ**ymuş. Kapı soruyordu, cevabı
+#     basıyordu, ve tavan onu "beklenen" diye yutuyordu. `D262`nin bir yüzü daha:
+#     dondurulmuş bir tavan, kusuru görünmez değil GÖRÜLMEYE DEĞMEZ yapar.
+#   📌 Bu yüzden tavan AYNI COMMIT'te 0'a iniyor: borç kapandıysa tavan da kapanır,
+#     yoksa beş yeni hayalet sessizce aynı kapıdan girer.
+# ⚠️ BEDELİ BEYANLI: YIL-TEMSİLÎ BORÇ 164 → 165 (+1, Derbend 1382-01-01 — Şirvanşah
+#   devrinin günü kaynakta YOK, `D210` gereği `YYYY-01-01`). Hayalet borcunu kapatmanın
+#   bedeli bir yıl-temsilî kayıt; takas doğru yönde.
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
