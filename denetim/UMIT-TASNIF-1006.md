@@ -47,7 +47,7 @@ haritayı bozar**: iç içe tam bölgeler eski arayüzle üst üste çizilir.
 
 | # | Kalem | Kova | Niçin o kovada (ölçüm) |
 |---|---|---|---|
-| E1 | `ARAYUZ-BANT-TAM-1005.diff` YENİDEN ÜRETİLMELİ | **A** | `--check` ileri **1** · geri **1**: ne uygulanabiliyor ne uygulanmış. `js/app.js` 5 Ekim'den beri değişti, bağlam kaydı. Yeniden üretim yalnız `js/app.js` diff'idir, motor tuzuna dokunmaz. UMIT'in yolu (`js/*.js`). Ürünü yine UYGULANMAZ, B'ye girer. |
+| E1 | `ARAYUZ-BANT-TAM-1005.diff` YENİDEN ÜRETİLMELİ | **A → ✔ (W1)** | `--check` ileri **1** · geri **1**: ne uygulanabiliyor ne uygulanmış. 🔴 **DÜZELTME (W1 ölçtü, UMIT doğruladı):** sebep bağlam kayması DEĞİL. Depodaki blob **CRLF**, 156 CR. CR silinince ileri 0, ve 5 hunk'ın bağlamı değişmemiş. İlk gerekçem ("app.js değişti") ölçülmemiş bir çıkarımdı. W1 teslim etti: `ARAYUZ-BANT-TAM-1006.diff` (CR 0). Bir sonraki koşunun B kovasına girer. |
 | E2 | `MOTOR-BANT-TAM-1005.diff` (bant = tam bölge) | **B** | `--check` ileri **0** · geri **1**: temiz, uygulanmamış. `uret_petek.py` tuzda ⇒ tam inşa koşusu. **E1 ile AYNI koşuda inmeli.** |
 | E3 | Bantta görevli (vassal) 14 kayıt kendi rengiyle çiziliyor; ince eşleme için bant kaydına `cins` taşınmalı | **D** | Raporun kendi hükmü: "motor/tasarım kararı". Motor şemasına yeni alan = kapsam. |
 | E4 | Bant açıkken etiket/kenar görünümü (etiketler 5 günlük konumda kalıyor) | **D** | GLM1 §7 ③: "Emre'ye sorulur". Görünüm tercihi. |
