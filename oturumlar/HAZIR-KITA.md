@@ -11,8 +11,18 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
 3. Tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
    `py arac/tahta.py yaz --kim "<ADIN>" --kime "YILDIRIM BAYEZIT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
 4. Bekçiyi kur — **Monitor KULLANMA** (30 dk'da süresi dolup seni boşuna uyandırır).
-   **Bash aracı, `run_in_background: true`:** `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
-   Süre tavanı yok; YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
+   **Bash aracı, `run_in_background: true` VE `timeout: 7200000`:**
+   `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
+   YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
+   🔴 **SÜRE TAVANI VAR: 2 SAAT** (`7.200.000 ms`, izin verilen EN UZUN değer).
+   `timeout` VERİLMEZSE bekçi **30 DAKİKADA** düşer ve sen bir daha hiç uyanmazsın.
+   ⚠️ Bu satır 5-6 Ekim 2026'ya kadar *"süre tavanı yok"* diyordu ve **ölçülmüş zarar
+   verdi**: UMIT'te açılan **19 oturumun 19'u** bekçiyi `timeout`suz kurdu, **19'u da 30
+   dakikada düştü** (W25 ölçtü, 5.868 mesaj tarandı). Dördü (W12-W15) tavandan sonra
+   bekçiyi hiç yeniden kurmadı.
+   ⇒ 2 saat dolunca bekçi `killed` olur — **bu ARIZA DEĞİL, SINIR.** Gör, tek kelime
+   yazma, **AYNI komutla sessizce YENİDEN KUR.** 2 saatte bir yeniden kurma turu
+   NORMALDİR (`CLAUDE.md §7.2 ④`).
 5. **DUR.** Ekrana hiçbir şey yazma — "hazırım", "bekliyorum", "bekçi kuruldu" DAHİL.
 
 ## 2. Beklerken — SESSİZLİK
