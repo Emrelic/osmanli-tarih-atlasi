@@ -157,3 +157,24 @@ Batzulnetas (Ahtna) · Iliamna/Nondalton — hepsi `yerlesimler_kamerika.js`, HE
   bu 4 nokta ABD'nin ortasında `dene` adacığıydı).
 - Sahiplik sınavı: değişen TAM 4 nokta, yalnız 1867-10-18 … 1899-06-20 aralığındaki sınav günlerinde
   (`dene` → `abd`); 4294 nokta değişmez.
+
+## ALASKA-4 — ölçüm (`denetim/ONCE1281-ALASKA4-1004.diff`)
+
+Berlin usulü: worktree (`3a4fa38d`, ALASKA-5 inmiş hâli) → `denetle` ÖNCE → yama → `denetle` SONRA →
+sahiplik dökümü ÖNCE/SONRA → `git diff --output` → ana ağaçta `apply --check` → worktree kaldırıldı.
+
+| ölçü | öngörü | ölçüm | |
+|---|---|---|---|
+| diff | ~35-45 satır, 3-4 hunk | **48 satır**, 12 + / 4 − | ✅ yakın |
+| `git apply --check` (ana ağaç) | temiz | **0** | ✅ |
+| `denetle` çıkış | ÖNCE = SONRA (2) | **2 / 2** (Değişmez 8 ölçülemedi — worktree'de üretilmiş dosya yok) | ✅ |
+| `denetle` çıktısı ÖNCE ↔ SONRA | yalnız muafiyet sayacı oynayabilir | **315 / 315 satır, FARK 0** | ✅ (daha iyi) |
+| Değişmez 2s | 189 açık, aynı | 1711 kırılma · **189 AÇIK** · 792 kapsam dışı — aynı | ✅ |
+| **Değişmez 7** (koordinatörün sorusu) | enklav aynı · `cografi-tecrit` 0-4 azalır | **732 → 732** · `cografi-tecrit` **4696 → 4696** | ✅ enklav · ❌ muafiyet oynamadı |
+| sahibi değişen nokta | 4, yalnız 1867-10-18…1899-06-20 | **4**, yalnız **1867-10-19** sınav gününde `dene` → `abd`; 4294 nokta hiçbir günde değişmedi | ✅ |
+
+Muafiyet sayacının oynamaması: bu 4 nokta zaten `dene` komşuları arasındaydı (1867-1899'da Alaska'nın
+öteki `inuit`/`dene` noktalarıyla birlikte); ALASKA-5'teki gibi tek başına bir yabancı adacık
+oluşturmuyordu. Öngörüm "0–4" diyordu, 0 aralığın içinde ama yönünü yanlış bekledim.
+Diff içinde beyan: kırılma 2s'de KAPSAM DIŞI kovasında geçiyor, madde yeri ADIYLA anmıyor;
+`dene` künyesi 1281'de KENETLİ; eski gün künyeden devralınmıştı (D207).
