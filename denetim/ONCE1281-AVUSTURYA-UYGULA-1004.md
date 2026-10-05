@@ -45,3 +45,37 @@ Koordinatörün sırası: **④ (Değişmez 2i kapısı) ÖNCE**, sonra ①②�
 
 ## 3. Ölçüm
 (aşağıda)
+
+## 3. Ölçüm — ④ (HEAD baş = son `7eed41da`; `denetle`'nin gerçek işlevleri, veri bellekte)
+
+| | Değişmez 2 | 2s kırılma / **AÇIK** (tavan 189) | **2i kırılma / AÇIK** (tavan 1) | 4 hayalet | **4c** (beklenen 127) | 4d (324) |
+|---|---|---|---|---|---|---|
+| BUGÜN | 623/0 | 1711 / 189 | 144 / 1 | 5 | 127 | 324 |
+| Senaryo A (19 KAYNAKLI tam gün; `isg` 17 nokta) | 623/0 | 1714 / **191** | 161 / **1** | 5 | **176** | 324 |
+| Senaryo B (+ 66 KABA bölge günü; `isg` 65 nokta) | 623/0 | 1714 / **191** | 162 / **1** | 5 | **176** | 324 |
+
+### ④ CEVAP: **Değişmez 2i ÖTMEZ** — ama yama bu hâliyle İNMEZ, çünkü İKİ BAŞKA kapı öter.
+- **2i:** yeni işgal kırılma günü A'da **17**, B'de **18** (1918-10-28 … 1923-03-15). Açık **1 → 1**: kalan tek açık
+  BUGÜNKÜ 1878-09-18 (Berlin, 46 gün). Hepsi ±30 günde bir maddeye değiyor — 2i'de yer şartı YOK, yakınlık yetiyor
+  (1919-04-19/20 bile 1919-04-12 Kars maddesine değiyor: yakın ama ALAKASIZ — 2i'nin bilinen zayıflığı).
+- 🔴 **2s ÖTER: 189 → 191.** Yeni açık gruplar: **1920-06-04** (Bač, Brașov, Bratislava, Cetingrad …) — "Trianon
+  Antlaşması" maddesi VAR ama yerleri anmıyor ve **taraf kolu da tutmuyor: Macar tacı topraklarının eski sahibi
+  atlasta `avusturya` (habsburg) — madde "Macaristan" diyor** · **1920-11-12** (Hvar, Knin, Korčula, Krk …) — "Rapallo
+  Antlaşması" maddesi VAR, aynı sebep · **1919-08-12** Lendava/Murska Sobota (zincirlerindeki başka bir kırılma
+  kaydı). ⇒ Çare: Trianon/Rapallo maddelerine yer adları (D261) ya da tavan beyanı.
+- 🔴 **4c ÖTER: 127 → 176 (+49, hepsi `avusturya`).** `s: avusturya` antlaşma gününe uzayınca `habsburg` künyesinin
+  ölümünü (1918-11-11) aşıyor. +89 değil +49: Saint-Germain'e (1919-09-10, 303 gün) uzayanlar tolerans İÇİNDE kalıyor
+  gibi görünüyor; Trianon (571 gün), Rapallo, 1923 olanlar aşıyor. Örnek: Zagreb `avusturya 1526 → 1920-06-04`,
+  Lvov `→ 1923-03-15`.
+- **4d +0** (öngörüm +35 — yanlış: `isg: yugoslavya` 29 Ekim künyeden önce olduğu hâlde 4d saymıyor; ya `isg`'yi
+  okumuyor ya toleranslı — ayrıca bakılmalı).
+
+### ④'ten çıkan MODEL sorusu (karar sizin / Emre'nin)
+F8 "antlaşmada renge katılır" diyor; ama arada (fiilî gün → antlaşma) `s:` sahibi olarak yazılabilecek bir künye
+YOK: `habsburg` 1918-11-11'de ölü, `macaristan-habsburg` 1918-11-16'da ölü. Üç yol:
+1. `habsburg`'u antlaşmaya kadar uzatmak — **tarihsel olarak yanlış** (monarşi bitti).
+2. `s:` halefi fiilî günden başlatmak, `isg:` yazmamak — F8'in "renge antlaşmada katılır" hükmüne aykırı.
+3. 4c'ye **beyanlı tavan**: 49 dönem "F8 model gereği, ara dönem de jure sahipsiz" diye listelenir (sayı değil
+   LİSTE, `ODAK-TAVAN` emsali).
+Ayrıca: Macar tacı topraklarının (Erdel, Slovakya, Hırvatistan-Slavonya, Voyvodina) 1918'e kadarki sahibi atlasta
+`avusturya` — `macaristan-habsburg` değil. 2s'yi öttüren taraf uyuşmazlığının kökü bu.
