@@ -172149,5 +172149,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5823",
+  "zaman": "2026-10-05 14:09",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-5822'nin iki ölçümü (ONCE1281-AVUSTURYA-UYGULA-1005 §5-6) · commit 9ec09f35 · bellekte, veriye yazılmadı · HEAD 7f46333e ① ÖLÇTÜM: ② YALNIZ TAÇ YARISI (34 taç + Peçuy isg): 4c 127 ✓ (DEĞİŞMEZ) · 2s AÇIK 189 → 188 (İYİLEŞİR) · 2i 154/1 ✓ · 4d 324 · D7 727 · 2sk YALNIZ TARAF 1602 → 1635 (+33). Cisleithania yarısı: 4c 143, 2s 190, 2sk 1621. ⇒ 4c'nin +16'sının TAMAMI Cisleithania/Dalmaçya'dan. ① YER ADI: dört antlaşmanın TAM METNİ birincil kaynaktan okundu (FOROST, Ungarisches Institut Regensburg; Trianon 149 s., Saint-Germain 137 s., Rapallo, Büyükelçiler 1923). 69 noktanın 60'ı metinde HİÇ YOK — Trianon/SG devredilen şehirleri saymıyor, yalnız sınır hattındaki köyleri sayıyor. Geçen 9: açık devir cümlesi 2 (Zadar md.2, Cres md.3 — Rapallo) · sınır referansı 2 (Muraszombat \"16 km NE\", \"districts of Marburg\" — örtülü, D208 ile EKLENMEZ) · yalnız demiryolu adı 5 (Bratislava, Kassa, Zagreb, Budweis, Wittingau — RED). Etki: SIKI ekleme 1654 → 1654 (0; Rapallo kovası 12 eksikle AÇIK, birim sayılmıyor) · GENİŞ 1652 (−2, ama örtülü). ⇒ D261 çaresi bu kalemde çalışmıyor; madde metnini şişirmek antlaşmaya söylemediğini söyletmek olur. ③ 🔴 YENİ BULGU — \"+52\"nin çoğu ÇOĞALMA DEĞİL, GÖRÜNÜR OLMA: degismez2 güne göre tek kova kurar, kovada TEK yer açıklanmazsa kovadaki HİÇBİR birim kapalı sayılmaz. Bugün 1918-11-11 kovası 123 yerleşim, AÇIK, eksik YALNIZ 'Gdansk' ⇒ 122 birim 2sk'da hiç sayılmıyor. F8 bunların 54'ünü kapalı antlaşma kovalarına taşıyor (SG 20 · Trianon 32 · 1923 2) ⇒ ilk kez sayılıyorlar (52 taraf + 2 yer). Yer kolundan taraf koluna kayan birim bu 52'nin içinde DEĞİL. Kontrollü deney (Gdańsk iki dünyadan da çıkarıldı): BUGÜN YER 1581 / TARAF 1697 · TAÇ bölmeli (önerilen) 1582 / 1730 (+33) · TAÇ bölmesiz 1574 / 1703 · HEPSİ 1580 / 1717 (+20). Taç yarısının gerçek bedeli: günü antlaşmaya taşımak ~7 birimi yer→taraf kaydırıyor (gerçek D261 bedeli) + naiplik bölmesi 1918-11-11'de yeni birimler ekliyor (~27 taraf / ~8 yer) — ülke düzeyi rejim değişimi (Habsburg krallığı → Macar devleti, ikisi de harita:macaristan), anılacak yer yok. 🔴 KAPI: bugünkü 2sk tavanı (1602) Gdańsk'ın açık tuttuğu kovanın ARKASINDA. Gdańsk tek başına düzelse 2sk 1602 → 1697 (+95) olur, hiçbir veri kötüleşmeden. Sensör doymuş değil, MASKELİ (D262 ailesi). ② BULAMADIM / KUSURUM: bu iki ölçüm için ayrı öngörü commit'lemedim (soru ölçerken daraldı) — raporda yazılı. ③ İSTİYORUM: (1) Bölme kararı: taç yarısının diff'ini ayrı üreteyim mi (ONCE1281-AVUSTURYA-TAC-1005.diff)? 4c temiz, 2s −1, 2sk +33 (kontrollüde de +33). (2) Yer adı: önerim EKLEME (etkisi 0). (3) 2sk'nın Gdańsk maskesi ve aynı-boya rejim değişiminin 2s'de kırılma sayılması — iki tasarım sorusu, denetle.py senin. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
