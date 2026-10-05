@@ -1472,6 +1472,32 @@ def _2s_taraf_adaylari(sid):
     return [n] if len(n) >= 3 else []
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# 🆕 🔴 KAPANIŞIN SINIFI (5 Ekim 2026) — "kapalı" tek bir şey DEĞİL
+#   ONCE1281-OK109-SUPURGE-1004 ölçtü: 2s'in kapalı kırılmalarının YARISI yer
+#   düzeyinde DOĞRULANMAMIŞ.
+#     kapalı 2s kırılması (yer×gün)   3160
+#       YER anılarak kapanan          1558  (%49)
+#       YALNIZ TARAF ile kapanan      1602  (%51)
+#   Taraf kolu (`_2s_tarafi_aniyor`) bilerek kurulmuş bir kuraldır (rejim
+#   değişimi: "1920 →tbmm" gibi maddeler yeri saymadan devreder) AMA ölçtüğü
+#   şey *"o gün o DEVLETİN bir olayı var"*, *"bu YER o gün el değiştirdi"*
+#   DEĞİL. ⇒ Künyeden devralınmış sahte günler (D207) tam bu yarıda saklanır;
+#   Avusturya-109 bunun ilk yakalanan örneğiydi (109 nokta tek güne yazılmış,
+#   günün kaynak desteği SIFIR, ve kapı "kapalı" diyordu).
+#   En büyük taraf-kolu kovaları: 1920 →tbmm 214 · 1736 safevi→afsar 129 ·
+#   1747 afsar→zend 127 · 1867 ing-kuzey-amerika→kanada 124 · 1889 Brezilya 92.
+#
+#   ⚠️ BU BİR GEVŞETME DEĞİL, GÖRÜNÜRLÜK: hiçbir ihlal eklenmiyor, hiçbir
+#   tolerans değişmiyor. AÇIK sayısı ve hükmü BİREBİR aynı kalıyor; tek
+#   değişen, 1.602 birimin artık ADIYLA sayılması ve tavanının bugünkü
+#   ölçümde DONMASI (8a'da yapılanın aynısı). Tavan yalnız GERİLEMEYİ bloke
+#   eder; iyileşince indirilir.
+# ═══════════════════════════════════════════════════════════════════════════
+KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0}
+BEKLENEN_2S_YALNIZ_TARAF = 1602  # 🧊 5 Ekim 2026 ölçümü (bkz. yukarı). Borç, ihlal DEĞİL.
+
+
 def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
     """Belirtilen kategorilerin kırılmalarını ve ±30 günde maddesizleri döker.
 
@@ -1496,6 +1522,13 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
     `s:` ayrı çağrılıyor çünkü ayrı KADEMEDE raporlanıyor: `d:`/`v:` için açık
     sayısı 0 olmalı (İHLAL), `s:` için bilinen borç + tavan.
     """
+    # 🆕 KAPANIŞIN SINIFI sayacı SIFIRLANIR (bkz. KAPANIS_2S yorumu). Yalnız
+    #   `yer_sarti=True` dalı yazar, yani yalnız 2s çağrısı; d/v ve isg kolları
+    #   bu sayaca DOKUNMAZ. Çağrı başına sıfırlamak şart: aynı koşuda degismez2
+    #   üç kez çağrılıyor ve sayaç birikirse 2s'in sayısı yalan söyler.
+    if yer_sarti:
+        KAPANIS_2S["yer"] = 0
+        KAPANIS_2S["yalniz_taraf"] = 0
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
@@ -1577,22 +1610,38 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                     #   Rapora giden `adlar` artık AÇIKLANMAYANLARdır: hem satır
                     #   dürüst olur, hem `kapsam_disi` mesafeyi SUSAN noktadan
                     #   ölçer (açıklanmış komşusundan değil).
-                    eksik, secim_havuz = [], []
+                    eksik, secim_havuz, _kol = [], [], []
                     for ad in sorted(adlar):
                         sah = {ad: kir[d]["sahip"].get(ad, {})}
-                        uyan = [o for o in yakinlar
-                                if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_MERKEZ)
-                                or _2s_tarafi_aniyor(o, sah)]
+                        # 🆕 KAPANIŞIN SINIFI (bkz. KAPANIS_2S yorumu): iki kol
+                        #   AYRI sorulur. Hüküm DEĞİŞMEZ (`uyan` aynı küme), yalnız
+                        #   hangi kolun kapattığı SAYILIR.
+                        _yer_uyan = [o for o in yakinlar
+                                     if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_MERKEZ)]
+                        _taraf_uyan = [o for o in yakinlar
+                                       if _2s_tarafi_aniyor(o, sah)]
+                        uyan = _yer_uyan + [o for o in _taraf_uyan
+                                            if o not in _yer_uyan]
                         if uyan:
                             secim_havuz += uyan
+                            # 🔴 HENÜZ SAYMA: bu kırılma `eksik` yüzünden AÇIK
+                            #   kalabilir ve o zaman bu birim KAPALI DEĞİLDİR.
+                            #   Satırın etiketi "kapalı" diyor ⇒ yalnız kapanan
+                            #   kırılmaların birimleri sayılır (ölçüldü: erken
+                            #   sayınca 4814/2622/2192, doğrusu 3160/1558/1602).
+                            _kol.append("yer" if _yer_uyan else "yalniz_taraf")
                         else:
                             eksik.append(ad)
                     if eksik:
                         fark = 31          # açıklanmayan yerleşim VAR ⇒ AÇIK
                         kir[d]["eksik"] = eksik
+                        # bu kırılma AÇIK ⇒ birimleri KAPALI sayılmaz (`_kol` atılır)
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
+                        # 🆕 kırılma KAPANDI ⇒ birimlerin kolu ŞİMDİ sayılır
+                        for _k in _kol:
+                            KAPANIS_2S[_k] += 1
                 else:
                     esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
                     if esli:
@@ -5272,6 +5321,28 @@ def main():
     print( "            i AÇIK = ±30 günde maddesi olan AMA o maddenin kırılan")
     print( "              YERİ ya da TARAFLARI anmadığı kırılma (20 Eylül 2026:")
     print( "              takvim yakınlığı tek başına artık kapatmıyor).")
+    # 🆕 KAPANIŞIN SINIFI (5 Ekim 2026) — bkz. KAPANIS_2S yorumu.
+    _k_yer = KAPANIS_2S["yer"]
+    _k_trf = KAPANIS_2S["yalniz_taraf"]
+    _k_top = _k_yer + _k_trf
+    _trf_asim = _k_trf > BEKLENEN_2S_YALNIZ_TARAF
+    print(f"Değişmez 2sk {'🧊' if not _trf_asim else '⚠️'}  kapanışın SINIFI: "
+          f"{_k_top} kapalı = {_k_yer} YER anılarak + {_k_trf} YALNIZ TARAF ile "
+          f"(tavan {BEKLENEN_2S_YALNIZ_TARAF})")
+    print( "            🔴 'YALNIZ TARAF' kapanışı YER DÜZEYİNDE DOĞRULANMAMIŞTIR:")
+    print( "               ölçtüğü şey 'o gün o DEVLETİN bir olayı var', 'bu YER o gün")
+    print( "               el değiştirdi' DEĞİL. Künyeden devralınmış sahte günler")
+    print( "               (D207) tam bu kovada saklanır — Avusturya-109 böyle")
+    print( "               yakalandı (109 nokta tek güne, günün kaynak desteği SIFIR).")
+    print( "            i Bu bir İHLAL DEĞİL, BORÇtur: AÇIK sayısı ve hüküm etkilenmez.")
+    print( "              Tavan yalnız GERİLEMEYİ bloke eder; iyileşince indirilir.")
+    if _trf_asim:
+        print(f"            ⚠️ TAVAN AŞILDI ({_k_trf} > {BEKLENEN_2S_YALNIZ_TARAF}) — "
+              f"yer düzeyinde doğrulanmamış kapanış ARTTI; yeni künye-devralması")
+        print( "               yazılmış olabilir. İhlal değil, ama SINIFI istenir.")
+    elif _k_trf < BEKLENEN_2S_YALNIZ_TARAF:
+        print(f"            🟢 İYİLEŞME: tavan {BEKLENEN_2S_YALNIZ_TARAF} → "
+              f"{_k_trf} yapılabilir ({BEKLENEN_2S_YALNIZ_TARAF - _k_trf} birim).")
     if len(yil_borc_s) > BEKLENEN_2S_YIL_BORC:
         print(f"            ⚠️ YIL-TEMSİLÎ BORÇ tavanı aşıldı "
               f"({len(yil_borc_s)} > {BEKLENEN_2S_YIL_BORC}) — ihlal DEĞİL, "
