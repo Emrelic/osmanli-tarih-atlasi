@@ -1525,7 +1525,16 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
 #     DEĞİL — açıklanmış bir maliyeti yeni taban yapmaktır.
 #   📌 Ve bu sayı HÂLÂ MASKENİN ARKASINDAN okunuyor (bugün 1665 birim açık kovalarda
 #     sayılmıyor). Maske küçülünce taban YENİDEN kurulacak.
-BEKLENEN_2S_YALNIZ_TARAF = 1635
+BEKLENEN_2S_YALNIZ_TARAF = 1636   # 1635 → 1636, 5 Ekim 2026 · EISENSTADT/ZIGETVAR (UFUK).
+#   +1'in KARŞILIĞINDA 2s'de bir AÇIK KAPANDI: 188 → 187. Yani bu bir gerileme değil
+#   TAKAS, ve takasın yönü doğru: `2s` ihlal sayar, `2sk` yalnız kapanışın SINIFINI
+#   söyler. Bir açığı kapatmak, kapanışın taraf koluna düşmesinden önemlidir.
+#   Ölçülen bütün satırlar: D1 309 · D2 623/0 · 2s 188→187 · 2i 154→161 (açık 1) ·
+#   D7 727→730 (tavan 731) · 4c/mükerrer AYNI.
+#   📌 UFUK bu +1'i ÖNCEDEN bildirdi ("2sk TARAF +1") ⇒ sürpriz değil, ölçülmüş bedel.
+# ⚠️ AÇIK BORÇ: Eisenstadt kapanışı YER anmıyor. `D261` çaresi (maddeye yer adı
+#   yazmak) burada DENENMEDİ — Burgenland devri için "Bundesheer Burgenland'a girdi
+#   1921-11-13" maddesi yazılırsa kol YER'e dönebilir. Kuyrukta.
 
 
 def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
