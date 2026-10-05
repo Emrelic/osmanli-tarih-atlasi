@@ -1483,3 +1483,95 @@ Bey'in tahta çıkışı · safevi 1503 Diyarbekir/Bağdat · karakoyunlu 1406).
 olarak ayrı görev açıldı (TDV birincil, çelişki bildirilir, uygulama yok).
 📌 **Ders: bir kusuru düzeltmek, altındaki ikinciyi ortaya çıkarır.** Bu bir gerileme değil,
 görünürlük kazancıdır — ama `KRONO-EZILDI` inince o 25 çelişki **sayılarda görünecek**.
+
+
+---
+
+# 🔴 EMRE — GECE 01:30-02:30 ARASI BEŞ YENİ KALEM
+
+## ⑬ EMRELIC'teki rebase bir KABUKTU — temizledim, kayıpsız (senden bir şey istemiyorum)
+⚠️ **ÖNCE BİR DÜZELTME, ve benim hatam:** bunu ilk yazdığımda *"rebase alarmı YANLIŞTI,
+iki müdahalen boşa gitti"* demiştim. **YANLIŞTI.** `C:\atlas` **iki ayrı makinede iki
+ayrı depodur** (EMRELIC ve UMIT, aynı yol). Ben EMRELIC'i ölçtüm, UMIT'in bildirdiği ise
+UMIT'teki depoydu — ve **UMIT'teki rebase GERÇEK**, kabuk değil. Ölçümüm doğruydu,
+ÇIKARIMIM yanlıştı: tek depo varsaydım. Senin iki müdahalen boşa GİTMEDİ; 01:24'teki
+abort UMIT'te gerçekten çalıştı.
+**EMRELIC'te bulduğum ise gerçekten bir kabuktu:**
+```
+.git/rebase-merge/     VAR      ← git status kararını SADECE buna bakarak verir
+  içindeki tek dosya   autostash (24 EYLÜL 16:31)
+  onto · head-name · orig-head · git-rebase-todo · done     BEŞİ DE YOK
+HEAD                   main · d0877829 · origin/main ile EŞİT · çatışma 0
+```
+12 gündür orada duruyordu ve `git rebase --abort` onu temizleyemezdi (`orig-head` yok,
+dönecek yer yok). **Çözdüm, kayıpsız:** autostash gerçek bir commit'ti (d33e2879 ·
+5 dosya · `js/d_katman.js`de 199 satır) ⇒ önce `kurtarma/autostash-0924` etiketiyle
+sabitledim, sonra aşılmış mı diye ÖLÇTÜM: main'in `d_katman.js`i **1.361 satır**,
+autostash'in **1.285** — main 76 satır ileride, autostash'in "fazla" 4 satırı
+mükerrer/boş dönüş. Özgün içerik YOK. `git rebase --quit` koştum; git ayrıca stash'e de
+kopyaladı ⇒ üç nüsha. Şimdi `rebase-merge TEMİZ`.
+🔴 Dersi: **`git status`un "currently rebasing" demesi rebase olduğunun kanıtı değildir** —
+ve iki depo aynı belirtiyi verip ayrı sebep taşıyabilir. `tahta.py:340 _git_yarim()` da
+aynı körlükle çalışıyor; düzeltme kuyrukta (üç hâl: SURUYOR / KABUK / YOK).
+
+## ⑭ 🔴 UYANDIĞINDA İLK İŞ — UMIT kilitli, ve ERTELENEMEZ
+İlk yazdığımda *"acil değil, sabah yapılır"* demiştim; **UMIT ölçtü ve bu da yanlıştı.**
+Durum:
+```
+UMIT'te .git/rebase-merge   DOLU ve CANLI (onto a59e4b7b · orig-head 11e3dd92 ·
+                            done · todo · stopped-sha · patch — hepsi 01:28)
+UMIT'te yerel main          11e3dd92'de KALDI (rebase ortasında, HEAD detached)
+UMIT'te origin/main         a59e4b7b'de KALDI — çünkü FETCH YAZAMIYOR
+UMIT'te d0877829            YOK  ⇒ benim (b) düzeltmem UMIT'e HİÇ ULAŞMADI
+```
+⇒ **Yeni açılan kıtalar BAYAT `HAZIR-KITA.md` okuyor ve `tahta.py`ye yazmaya devam
+ediyor** ⇒ çatışma yeniden doğuyor. Yani (b) tek başına yetmiyor; (a) onun ÖNKOŞULU.
+Sıra (UMIT komutları ayrıca yazıyor):
+```
+① takeown  .git\objects  (6 dizin: 0e · 22 · 9c · bb · e3 · f9 — Administrators sahipli)
+② git rebase --abort
+③ M-5755'i YEDEK DALA al   🔴 git log <yedek-dal> ile TEYİT EDİLMEDEN ④'e geçilmez
+④ git fetch
+⑤ yerel main'i origin/main'e çek
+```
+Benim yaptığım yarım: `HAZIR-KITA.md` artık makineyi ÖLÇÜYOR
+(`git rev-parse --show-toplevel`) ve EMRELIC dışında `tahta.py` kullandırmıyor — HAZIRIM
+irtibata `send_message` ile gidiyor (d0877829, origin/main'e push edildi). O düzeltme
+DOĞRU ve yerinde duruyor; UMIT fetch edebildiği an yürürlüğe girecek.
+
+## ⑮ `.git\objects` sahipliği — ⑭①'in kendisi, ama ayrıca başlı başına kalem
+`BUILTIN\Administrators` sahipliği yüzünden UMIT **fetch yazamıyor** ve işçiler bayat
+`origin/main`den ağaç açıyor. UMIT bu gece ÜÇ kez bildirdi (W31: "fetch yine düştü").
+⚠️ Ara çare uyguladım: her işçi raporunda **ağacını açtığı COMMIT'İ YAZIYOR**. Yoksa
+"bayat ağaçta ölçülmüş" sessizce geçer ve ölçüm doğru görünür. Bu bir yama; asıl çözüm
+sahiplik.
+
+## ⑯ KİŞİLER SEKMESİNDE YAYINDA DURAN BİR YANLIŞ — düzeltiyorum, bilgin olsun
+"Vâlide sultanlar ve hanedan kadınları" başlığının altındaki 3 kişinin **2'si ERKEK**
+(Cem Sultan · Abdülmecid Efendi). Sebep: arayüz 3 Ağustos'ta `tur:"sehzade"` ve
+`tur:"valide"` için önden yazılmış, o türler `kisiler.js` geçmişinde HİÇ olmamış.
+🔴 Hükmüm: **BAŞLIK VERİYE UYDURULUR, VERİ BAŞLIĞA UYDURULMAZ** (D207 — atlas referans
+değil mamul üründür, çelişkide ATLAS düzelir; burada düzelecek olan atlasın BAŞLIĞIdır).
+Ayrı paket olarak `tur:` alanları TDV'nin KENDİ nitelemesiyle yazılacak (Cem→şehzade,
+Turhan→valide); ondan ÖNCE "tanınmayan türü de göster" kalıbı iniyor — süzgeç tanımadığını
+sessizce elemez, SAYIP BASAR (D225).
+**Senden bir şey istemiyorum**, ama yayında duran bir yanlış olduğu için sabah
+açtığında görürsün diye yazdım.
+
+## ⑰ 🔴 ⑦ KARARININ (toplu sınav kapıya bağlansın mı) DELİLİ AĞIRLAŞTI
+Önceki delilim *"sınavlar GÜNLERDE çürüyor"*du. W33 ölçtü ve **daha ağır** bir şeye
+çevirdi: 2 gün önce yazılan üç `-1004` sınavının **ÜÇÜ DE GERİLEME** gösteriyor ve sebebi
+çürüme değil — **VERİ COMMIT'LERİ KIRDI, kapı GÖRMEDİ.**
+```
+KUNYE-KRONO-KAPSAM  4f390691 itilaf-emaneti künyesini ekledi, hiçbir madde onu anmıyor
+YERKORU             18 yeni isg kırılmasını kapatan madde YERİ anmıyor (874940ee·fe6ebb85·4f390691)
+LISTE-BAYAT         874940ee Romanya ve İzdin'i taşıdı; olaylar.js:174 + olaylar_ek.js:79 ESKİ adları taşıyor
+ORTAK KÖK           üçü de denetle.py'ye BAĞLI DEĞİL ⇒ kapı TEMİZ geçti, defterler 2 GÜNDE bayatladı
+```
+⇒ "Bağlasak iyi olur"dan farklı bir iddia: **bağlı olmayan sınav, gerçek bir gerilemeyi
+2 gün boyunca görünmez kıldı.** Üçü de kapıya bağlı olsaydı commit anında ötecekti.
+🔴 **VE BİR MALİYET ÇIKTI, onu da bil:** kapıya aday betiklerden biri (TRIYAJ) artık
+`shapely` istiyor. **HAVVA'da shapely YOK** ⇒ orada çıkış 2 (ÖLÇÜLEMEDİ) verir. HAVVA
+YAYINCI olduğu için, shapely gerektiren bir sınav kapıya bağlanırsa **HAVVA'da yayın
+bloke olur.** İki yol, biri senin: ① HAVVA'ya shapely kurulur ② shapely gerektiren
+sınavlar kapıya BAĞLANMAZ. Ben ②'yi varsayıyorum; ① dersen söyle.
