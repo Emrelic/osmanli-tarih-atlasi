@@ -9476,6 +9476,40 @@ var ustbarYil = document.getElementById("ustbar-yil");
   if (m) el.textContent = m[1];
 })();
 
+// 🏷️ KOŞU DAMGASI (Emre, 5 Ekim 2026) — yayın numarasının YANINDA "KOŞU 19".
+// 🔴 NİÇİN: yayın numarası her commit'te artar, koşu numarası YALNIZ motor
+//    koştuğunda. 4 Ekim'de r11195 yayınlandı, numara arttı, ve harita başka bir
+//    PRENSİPLE (yürüyüş bayrağı KAPALI) çizilmişti — kimse fark etmedi.
+//    Bu etiket o soruyu ekrana taşıyor: "bu harita hangi koşunun ürünü".
+// ⚠️ Damga yoksa span BOŞ kalır — uydurma yok, "KOŞU ?" yazılmaz; bilinmeyen
+//    bir koşu numarası, yanlış bir numaradan iyidir ama ikisi de bir SORUdur.
+(function () {
+  var el = document.getElementById("kosu-etiketi");
+  if (!el) return;
+  var D = window.KOSU_DAMGA;
+  if (!D || D.no == null) return;
+  el.textContent = "KOŞU " + D.no;
+  var b = D.bayraklar || {};
+  // Başlık (tooltip) ölçülmüş olanı yazar, ölçülemeyeni YAZMAZ.
+  var satir = ["koşu " + D.no + (D.tarih ? " · " + D.tarih : "") +
+               (D.makine ? " · " + D.makine : "")];
+  if (b.yuruyus === true) {
+    satir.push("sahiplik: sürtünmeli yürüyüş" +
+               (b.yuruyus_saat ? " · bütçe " + b.yuruyus_saat + " sa (" +
+                (b.yuruyus_saat / 8) + " gün)" : ""));
+  } else if (b.yuruyus === false) {
+    satir.push("sahiplik: Voronoi (düz çizgi en yakın) — yürüyüş bütçesi YOK");
+  }
+  if (b.ufuk_bant && b.ufuk_bant.length) {
+    satir.push("bantlar: " + b.ufuk_bant.map(function (s) {
+      return (s / 8) + " gün";
+    }).join(" · "));
+  }
+  el.title = satir.join("\n");
+  // Yürüyüşsüz koşu bir KUSUR DEĞİL ama bir FARKTIR — görünür olsun.
+  if (b.yuruyus === false) el.classList.add("kosu-yuruyussuz");
+})();
+
 kaydirici.min = BASLANGIC;
 kaydirici.max = BITIS;
 kaydirici.value = BASLANGIC;
