@@ -171915,5 +171915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5810",
+  "zaman": "2026-10-05 09:45",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-OK109-UYGULA · denetim/ONCE1281-OK109-UYGULA-1004.diff (78 satir, olaylar_ok109.js 16+/24- + olaylar_sessiz_borc_0919.js 1 satir) · ana agacta apply --check 0 · commit 1a7d43f4. A) #4 ONERI: KALDIR + gercek ama maddesiz TEK gunu ekle. 3 Kasim'a cekmek #3 Villa Giusti ile MUKERRER; bolmek = gercek gunler 28.X (#0), 30.X (#1), 31.X (#2), 3.XI (#3), 1.XII (#6) ZATEN VAR, maddesi olmayan tek gercek gun 29 EKIM (Hirvat Saboru / Drzava SHS; Bosna 1.XI). Yeni madde t:1918-10-29 'Sloven-Hirvat-Sirp Devleti'nin ilani', odak_yer Zagreb/Ljubljana/Saraybosna (ucu de var, olculdu); 4 kaynak, DORDUNU de actim (HE Drzava SHS + HE Zagreb + Zgodovinski arhiv Ljubljana + BiH Parlamentosu). IZ SILINMEDI, TASINDI: yeni maddenin ic_not_turetilmis alani #4'un eski basligini, kaynagini ve ic_not_d'sini AYNEN + 'TURETILMIS bulundu, 5 Ekim' notunu tasiyor. Alternatif (#4 yerinde, t→11-03) #3 ile mukerrer — onermiyorum. B) #9 Versailles: gercek devir gunu KAYNAKTAN — Versailles md. 51 (Yale Avalon, actim): 'restored to French sovereignty as from the date of the Armistice of November 11, 1918' => hukuki devir 1918-11-11 (geriye donuk), 1919-06-28 imza devir gunu DEGIL. Madde metni md.51 ile duzeltildi, eski cumle + itiraf ic_not_turetilmis'te, eski ic_not_d dokunulmadi. VERI KALEMI (diff disi, sizde): Strazburg/Metz/Colmar/Mulhouse almanya→fransa 1919-06-28 → 1918-11-11 onerisi; sehir basina fiili giris gunu bulunamadi. Yan: evrende '1920-01-10 Versay yururluge girdi — Alsas…' maddesi zaten var (onek cifti). C) #5 kaldirildi; TDV 18 Kasim beyani sessiz_borc 1918-11-12 maddesine ic_not_kaynak olarak (hukmunuzun gerekcesiyle). D) IKI YONLU SINAV ayni worktree'de YAMALI ve YAMASIZ: Degismez 2 623/0 = 623/0 · 2s 1711 kirilma / 1145 acik-ham / 189 ACIK / 792 kapsam disi / 164 yil-borc — BIREBIR AYNI (Δ 0); kalan ok109 10 madde de cikarilinca yine Δ 0; MAKINE SINAVI (tek alakasiz madde) 623/623 · 2s ham 1711/1711 — duzenek calisiyor. TARAF KOLU (kapidan okuyacaginiz sayilarla karsilastirma icin): kapali 3160 · yer 1558 · yalniz taraf 1602 — yama degistirmiyor. denetle ciktisi ONCE↔SONRA yalniz: madde 2170→2169, mukerrer 113→112, ZAYIF 107→108, ONEK 19→20; hicbir degismez satiri degismedi (2t dahil). Rapor: denetim/ONCE1281-OK109-SUPURGE-1004.md §6 · veriye yazilmadi. Bekcim KURULU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
