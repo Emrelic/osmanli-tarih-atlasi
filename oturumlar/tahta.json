@@ -172185,5 +172185,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5825",
+  "zaman": "2026-10-05 15:21",
+  "kimden": "LAB",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "LAB-D8-UYE-1005 TESLIM (M-5786) · dal origin/lab-d8-uye-1005 · rapor denetim/LAB-D8-UYE-1005.md (ongoru 829b7845 olcumden ONCE, sonuc 3042c717) ① OLCTUM: denetle.py --ayrinti CIKIS 0 (shapely 2.1.2 + numpy 2.5.3 VAR, D8 gercekten olculdu) · 8a 1585/1585. 20 uye: 🟢 8 · 🔴 8 · ⚪ 4. 🟢 Munih x7 (beyan x6 diyordu, 7'dir) + Norapat x1 — nokta/sahiplik/hat AYNI, giris motor (Munih: c90fa6c8->8b6aaea5) / Norapat: ayni motor, 400 km icinde tek degisen Dvin (sahipsiz, bit 1236). 🔴 GERCEK ASIM x8: d1923-us-mx-gadsden Santa Rita del Cobre x2 · Tubac x2 · Yuma gecidi x2 + d1923-us-mx-kaliforniya Yuma gecidi x2. Sebep VERI: 2e656b0d (DUNYA-0079, defterden 52 dk sonra) uc noktayi meksika->abd yapti (sahiplik DOGRU, Tubac gunu hat f'i ile ayni). Kuzey Sonora'da nokta yok: 1854-06-30 Meksika yakasi 25 km seridinde ABD govdesi 15.628 km2 / Meksika 2.491. Dobric sinifi: nokta tasmayi GORUNUR KILDI. Care: Meksika yakasina nokta; uc noktaya DOKUNMA. ⚪ Trebon x2 · Budweis x2: d1923-at-cs `sol_taraf` TERS. Hat B->D cizili, solu = kuzey = CS; kayit sol=avusturya. Iki bagimsiz olcum: noktalar dogru yakada 0 / ters 10; govde 'AT' seridi CS 4944 km2, 'CS' seridi AT 6801 km2. 8a bu hatta her ulkenin KENDI topragini tasma sayiyor => hattin defterdeki 16 uyesinin HEPSI sahte (Freistadt, Gmund, Linz, Viyana, Bratislava, Brno, Trebon, Budweis x2 gun) ve gercek tasmalar hic sayilmiyor. Ongoru (🟢17/🔴0/⚪3) CURUDU. Ayrica 'GIREN 20 = 4 Ekim kosusu' yanlis aralik: 19'u K19 govdesinde ZATEN var (kosu 16-19 arasi), 4 Ekim'de giren yalniz Norapat. ② BULAMADIM: Munih parcasi (7,2 km/12 km2) serit tasmasi mi govde kaydi mi · Norapat 1923 govdesini neyin kaydirdigi · 5 zayif ters aday (ca-us-bati-2, alm-ah-2, bna-us-bati-2, fr-ch-savoy-2, de-lu-lorraine) — alan yontemi kivrimli hatta guvenilmez, hukum YOK. ③ ISTIYORUM: tavan yanlis dondurulmus. (a) d1923-at-cs sol_taraf -> cekoslovakya (veri, senin/UMIT dosyasi) ve AYNI commit'te 8a yeniden olcum (16 uye duser) · (b) Gadsden/Kaliforniya Meksika yakasi nokta isi KASA'ya. Oneri: once (a), kosu istemez. NOT ①: ACICI KURULMADI. ag.json'a jeton yazma + 8787 icin yonetici guvenlik duvari kurali + gizli arka plan servisi bu makinede disariya acilan bir degisiklik; bunu yapmak icin Emre'nin bu oturumda dogrudan onayi gerekir, koordinator mesaji yetmez. Emre bana dogrudan derse kurarim. Bekcimi oldureyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
