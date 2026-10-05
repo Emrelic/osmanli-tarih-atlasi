@@ -1507,7 +1507,25 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
 #   (sayı eksik ölçülüyor). Doymuş sensör değişimi göstermez; maskeli sensör YANLIŞ
 #   BÜYÜKLÜK gösterir — ikincisi daha tehlikeli, çünkü sayı güven telkin eder.
 #   ⇒ Bu üçüncü sayı maskeyi GÖRÜNÜR kılar; tavan hesabına GİRMEZ, yalnız basılır.
-BEKLENEN_2S_YALNIZ_TARAF = 1602  # 🧊 5 Ekim 2026 ölçümü (bkz. yukarı). Borç, ihlal DEĞİL.
+# 🔴 1602 → 1635 (5 Ekim 2026, AVUSTURYA TAÇ YARISI indi) — ARTIŞ ÖLÇÜLDÜ, AÇIKLANDI
+#   ve İNDİRİLEMEZ olduğu BİRİNCİL KAYNAĞA KARŞI sınandı:
+#     34 taç noktası `s:`i antlaşma gününe (Trianon / Saint-Germain) taşıyor; o günün
+#     kapanışları YER anmıyor ⇒ taraf kovasına düşüyor (+33).
+#   🔴 ÇARE DENENDİ VE ÇALIŞMADI: dört antlaşmanın TAM METNİ okundu (Trianon 149 s. ·
+#     Saint-Germain 137 s. · Rapallo · Büyükelçiler 1923, FOROST/Ungarisches Institut).
+#     **69 noktanın 60'ı metinde HİÇ YOK** — Trianon ve SG devredilen ŞEHİRLERİ saymıyor,
+#     yalnız sınır hattındaki köyleri. Geçen 9'un 5'i yalnızca DEMİRYOLU ADI olarak geçiyor
+#     (reddedildi), 2'si örtülü sınır referansı (`D208` ⇒ eklenmez), 2'si gerçek devir
+#     cümlesi (Zadar · Cres, Rapallo — zaten Cisleithania yarısında).
+#     ⇒ `D261` çaresi (maddeye yer adı ekle) bu kalemde UYGULANAMAZ; eklemek antlaşmaya
+#       söylemediğini söyletmek olurdu.
+#   ⚠️ NİÇİN TAVAN YÜKSELTİLDİ, AŞIK BIRAKILMADI: `D262` bilerek aşık bırakılan tavanın
+#     DEĞİŞİM SEZİCİ olmaktan çıktığını söylüyor. Buradaki artış ÖLÇÜLDÜ, SEBEBİ BİLİNİYOR
+#     ve indirilemez; aşık bırakmak bir sonraki GERİLEMEYİ gizlerdi. Dondurma, susturma
+#     DEĞİL — açıklanmış bir maliyeti yeni taban yapmaktır.
+#   📌 Ve bu sayı HÂLÂ MASKENİN ARKASINDAN okunuyor (bugün 1665 birim açık kovalarda
+#     sayılmıyor). Maske küçülünce taban YENİDEN kurulacak.
+BEKLENEN_2S_YALNIZ_TARAF = 1635
 
 
 def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):

@@ -189,7 +189,8 @@ window.YERLESIMLER_EK_MACARISTAN = [
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
      {f:"1685-10-15",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
-     {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+     {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
+     {f:"1920-06-04",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
   d:[],
   v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",kid:"orta-macar-kralligi",statu:"vassal"}] },
 
@@ -210,7 +211,8 @@ window.YERLESIMLER_EK_MACARISTAN = [
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
      {f:"1685-10-15",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
-     {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+     {f:"1918-11-11",t:"1919-09-10",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '10 Eylül'de Avusturya ile Saint-Germain … antlaşmaları imzalandı' (1919) · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
+     {f:"1919-09-10",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '10 Eylül'de Avusturya ile Saint-Germain … antlaşmaları imzalandı' (1919)"}],
   d:[],
   v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",kid:"orta-macar-kralligi",statu:"vassal"}] },
 
@@ -247,7 +249,8 @@ window.YERLESIMLER_EK_MACARISTAN = [
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
      {f:"1688-01-17",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
-     {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
+     {f:"1918-11-11",t:"1919-09-10",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '10 Eylül'de Avusturya ile Saint-Germain … antlaşmaları imzalandı' (1919) · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
+     {f:"1919-09-10",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '10 Eylül'de Avusturya ile Saint-Germain … antlaşmaları imzalandı' (1919)"}],
   d:[],
   v:[{f:"1682-09-16",t:"1688-01-17",k:"Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması",kid:"orta-macar-kralligi",statu:"vassal"}] },
 
@@ -280,7 +283,9 @@ window.YERLESIMLER_EK_MACARISTAN = [
 { ad:"Szatmár (Satu Mare)", tur:"sehir", lat:47.7892, lon:22.8726, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
+     {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
+     {f:"1920-06-04",t:"1923-10-29",d:"romanya-kralligi",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+  isg:[{f:"1919-04-19",t:"1920-06-04",d:"romanya-kralligi",kaynak:"F8 fiilî devir: Muzeul Județean Satu Mare — http://muzeusm.ro/en/100-de-ani-de-la-eliberarea-satmarului-si-instaurarea-administratiei-romanesti/ — 'La 19 aprilie 1919, în sâmbăta de Paște, dr. Ilie Carol Barbul, cu un drapel în mână, a condus delegaţia locală care a întâmpinat Armata Română eliberatoare, contactând pe podul de peste Someş prima patrulă a Diviziei a II-a Cavalerie'"}],
   d:[], v:[] },
 
 ];
