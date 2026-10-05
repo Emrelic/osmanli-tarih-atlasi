@@ -57,3 +57,12 @@ maddesi. Daha dar seçenek: yalnız `s:` Trianon (`isg:` yok) — 2s yine 187. K
 1921-11-13 maddesi "Avusturya Bundesheer'i Burgenland'a girdi" (`yer_id` Eisenstadt; milak.at + BMI 2021).
 **Öngörü:** 2s AÇIK −1 (bugünkü Arnavutluk-madde açığı kapanır) · 2sk TARAF +1 · 2i +1 kırılma, açık aynı, 1921-11-13 en yakın
 madde = yeni madde · 4c · 4d · D1 · D2 · D7 aynı · değişen yerleşim kaydı 1, madde +1.
+
+## 7. DİFF ÖLÇÜMÜ (öngörü `94b48917`'den SONRA · worktree, taban `94b48917`, ikisi de çıkış 2 — D8 worktree'de ölçülemez)
+Değişen yerleşim kaydı **1** (Eisenstadt), hedef dışı **0** · madde 2184 → 2185 · `git apply --check` ana ağaçta **0**.
+2s AÇIK **188 → 187** ✅ · 2sk TARAF **1635 → 1636** ✅ (+1) — ⚠️ koordinatörün yeni tavanı 1635'i **1 aşıyor** (araç "ihlal
+değil, sınıfı istenir" diyor; sınıfı: Trianon kovası taraf kolu, Eisenstadt Trianon md. 27'de adıyla geçmiyor — §1) ·
+2i **160 → 161**, açık 1 ✅ · 4c, 4d, D1, D2, D7 aynı ✅. **Öngörü her satırda tuttu.**
+⚠️ Yan bulgu: `olaylar_ok109.js` Trianon maddesi (1920-06-04) *"Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya
+rengindedir"* diyor — taç yarısı (`fe6ebb85`) indiğinden beri YANLIŞ: o topraklar artık Trianon gününde renk değiştiriyor.
+Madde metni güncellenmeli (sende).

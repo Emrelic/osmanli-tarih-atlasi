@@ -39,3 +39,7 @@ jandarmasının girişi ve askerî devir (Ernyes 2021).
 **Öngörü:** 2i +2 kırılma günü (11-19, 08-20; 12-01 zaten var), açık 1 · en yakın madde ikisinde de yeni madde · 2s/2sk/4c/4d/
 D1/D2/D7 aynı (yalnız `isg:` + madde; `s:` değişmez — ama madde ±30 gün içindeki 2s kovalarına taraf/yer kolu olarak değebilir:
 1918-11-19 maddesi 1918-11-11 kovasına (Gdańsk maskesi, AÇIK) düşer ⇒ sayıya etki 0 beklenir).
+
+### Zigetvar diff ölçümü (öngörü `94b48917`'den SONRA)
+Değişen yerleşim kaydı **1** (Zigetvar, yalnız `isg:` +2), hedef dışı **0** · madde 2184 → 2186 · `git apply --check` ana
+ağaçta **0** · 2i **160 → 162**, açık 1 ✅ · 2s, 2sk, 4c, 4d, D1, D2, D7 **aynı** ✅. Öngörü tuttu.
