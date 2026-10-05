@@ -171681,5 +171681,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5797",
+  "zaman": "2026-10-05 08:11",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-TASNIF-1004 — İKİ TESLİM: ① 44 hüküm CEVAP.json'a YAZILDI ② PAKET-0076-DOBRUCA-1004 raporu (denetim/PAKET-0076-DOBRUCA-1004.md, 59018dd9) ① HÜKÜMLER — yedek + kuru koşu + yaz + geri oku (4 dosyanın 4'ü yazılanla AYNI): · 0076: 120 → 164, hükümsüz parti maddesi 0. Dağılım {cozuldu 95 · sirada 22 · senin-kararin 15 · zaten-dogru 11 · kosu-bekliyor 10 · once-cozuldu 4 · cozulemedi 4 · olculecek 3}. Eklenen 44 tam senin onayladığın tablo. · KATAR iki düzeltmen uygulandı: 0076/H-0023 sirada→cozuldu · 0077/H-0029 sirada→cozuldu · 0082/H-0101 sirada→cozuldu (üçü de onceki_hukum saklı, not başında r11195 ölçümü). 0081/H-0024 SIRADA KALDI, notun başına \"1868-1923 çözüldü, 1521 kısmı AÇIK\" eklendi. · 🆕 Doha/Bahreyn 1602 alt kalemi (olculecek, motor): CEVAP şemasında parti dışı anahtar açmadım (kutu.py'nin tanımadığı no riskli) — 0081/H-0024'ün notuna \"🆕 ALT KALEM (olculecek)\" olarak yazıldı. Ayrı kayıt istersen nereye açacağımı söyle. · Yedekler: */CEVAP.json.BITIR-1004.yedek (0076 · 0077 · 0081 · 0082). ② DOBRUCA — ÖLÇTÜM: İshakçı · Babadağı · Köstence · Silistre BİREBİR aynı zincir (bulgaristan →1393-09-01 · d →1402 · çelebiler 1402-1413 · d 1413→), hiçbir halkada kaynak yok. TDV ham HTML'den (silistre · dobruca · balcik · kostence · babadagi · tulca): · ② Osmanlı ilk girişi 1388 kışı (silistre) / Temmuz 1389 sonrası (balcik) — atlas 1393. 1393 günü olaylar_ek.js:39'dan; o maddenin kaynağı TDV bulgaristan Dobruca'yı HİÇ ANMIYOR, yalnız Tırnova 1393 ⇒ başka bölgeden türetilmiş gün. · ③ 1390-1393/94 Eflak (Mircea) dönemi atlasta YOK. · ⑤ 1402-1413 çelebi şablonu Dobruca'da YANLIŞ: dört TDV maddesi Mircea diyor. · ⑥ 1413'ten Osmanlı YANLIŞ-ERKEN: Babadağı 1416, Silistre/Köstence/Tulça 1419. · Veride Dobruca'yı İKİ kez katan iki madde var: 1393-09-01 ve 1420-01-01 (olaylar_ek10.js:489). · ① 1281 sahibi: TDV İÇ ÇELİŞKİ (silistre \"Bulgar 1189-1393\" ↔ dobruca \"1241 Moğol, 1359 Dobrotiç\"); Dobrotiç künyesi YOK — dokunmadım. BULAMADIM: İshakçı'nın TDV maddesi (slug 302, arama JS) · Mircea'nın 1402'deki giriş GÜNÜ (Ankara günü terminus post quem) · 1419 \"ilkbahar\"ın günü. İSTİYORUM (öneri ilk): (A) yalnız 1402-1419 halkasını düzelt — Silistre/Köstence/Babadağı'nın her biri KENDİ maddesinden (eflak 1402-07-28→1419 / Babadağı →1416), en düşük risk · (B) 1388-1419'un tamamı (Köstence/Babadağı/İshakçı 1389-93 bölge cümlesinden, D208 sınırında). Her iki seçenekte Değişmez 2 maddeleri ŞART (raporda §5: Ankara maddesi Dobruca'yı anmıyor · 1416 Babadağı yeni · 1420 maddesinin Dobruca kısmı 1419'a ayrılmalı). İstersen seçtiğin seçeneğin diff'ini worktree + denetle + iki yönlü sahiplik sınavıyla Berlin'deki gibi hazırlarım. bekçim açık (HAYIR BEKLE dedin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
