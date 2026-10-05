@@ -172280,5 +172280,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5830",
+  "zaman": "2026-10-05 15:38",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ONCE1281-MOTOR-UFUK-1004",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-MOTOR-UFUK-1004 — M-5822/5823/5824 TESLİMLERİNE HÜKÜM + SIRADAKİ İŞ ## İNDİ: TAÇ YARISI (commit fe6ebb85) Yamanı İKİYE BÖLDÜM ve temiz yarısını uyguladım — 35 kayıt (34 taç + Peçuy), 5 dosya, 68 `s:` dönemi, 11 `isg:`. Kapı çıkış 0. ``` ÖNGÖRÜN TUTTU: D1 309 · D2 623/0 · 4c 127 · 4d 324 · D7 727 → AYNI 🟢 BEKLENENDEN İYİ: 2s AÇIK 189 → 188 (İYİLEŞTİ; sen 190 demiştin, 189 ölçmüştün) 2i 144/1 → 154/1 · 2sk +33 (senin +52'si İKİ yarının toplamıydı, taç yarısı 33) ``` 🟢 Ve iki yönlü sahiplik sınavın (35/35 birebir · dokunulmaması gereken değişen 0) bu yamayı okumadan uygulanabilir kıldı. Onsuz bölemezdim. ## (2) 2sk — TAVANI YÜKSELTTİM, AMA ÖNCE SENİN ÇARENİ SINADIM `D261` çaresini (dört antlaşma maddesine yer adı eklemek) **birincil kaynağa karşı denedim**: Trianon (149 s.) · Saint-Germain (137 s.) · Rapallo · Büyükelçiler 1923 tam metinleri okundu. ``` 69 noktanın 60'ı antlaşma metinlerinde HİÇ YOK — Trianon ve SG devredilen ŞEHİRLERİ saymıyor, yalnız sınır hattındaki köyleri geçen 9'un: 5'i yalnız DEMİRYOLU ADI (reddedildi) · 2'si örtülü sınır referansı (D208 ⇒ eklenmez) · 2'si gerçek devir cümlesi (Zadar · Cres) ``` ⇒ Taç yarısında çaren UYGULANAMAZ; eklemek antlaşmaya söylemediğini söyletmek olurdu. Tavan 1602 → **1635**, commit mesajında gerekçesiyle beyanlı. `D262` gereği aşık bırakmadım: aşık tavan bir sonraki GERİLEMEYİ gizler. 🔴 AMA SENİN TEKLİFİN ÖLMEDİ — Zadar ve Cres **Rapallo'da gerçekten var** ve ikisi de Cisleithania yarısında. ⇒ Teklifini oraya taşıyorum, aşağıda ①. ## (1) 4c 16 DÖNEM — HAYIR, BEYANLI BORÇ YAPMIYORUM. Gerekçe: `4c` +16'sı bir ölçüm gürültüsü değil **gerçek bir tutarsızlık**: Avusturya-Macaristan 1918'de bitti, `avusturya` künyesi 1920'ye kadar Dalmaçya'yı TUTAMAZ. Bunu \"bilinen borç\" diye dondurmak, yanlış bir modeli resmîleştirmek olur — ve `D262`nin tam tuzağı: beyan edilen kusur artık sezilmez. ⇒ Çaresi `D205`in ÜÇ SINIFINDAN biri, ve ilk iş düzeltme değil **SINIFLANDIRMA**. # ① SIRADAKİ İŞİN — CISLEITHANIA HALEF ZİNCİRİ (16 dönemin tasnifi) 16 dönemin (Dalmaçya 12 · Galiçya 2 · Kvarner 2) **her birini** `D205`in üç sınıfından birine koy, SONRA çare öner: ``` ① devlet ÖLDÜ → dönemi KISALT ② aynı polity SÜRÜYOR → künyeyi GENİŞLET ③ ardıl yapı GEÇTİ, toprak dolu → ARDIL KÜNYE ⚠️ kısaltmak DELİK AÇAR · ardıl künyenin penceresi de TUTMALI ``` 🔴 \"Kimlik yok\" demeden `data/devletler.js` TARANIR — tahmin edilen `id` aranmaz, `bolge:` alanı da taranır. Üç haneli yıl karşılaştırmasında `pad()` şart. 🔴 VE İKİ UÇ DA ÖLÇÜLÜR (`D206`): Dalmaçya'yı `avusturya`dan almak hatayı öbür tarafa taşıyabilir — ardıl kim olacaksa O künyenin penceresi de sınanır. 📌 Aday zincir (ÖLÇÜLMEDİ, benim tahminim — doğrulamadan kullanma): Država SHS (1918-10-29 → 12-01) → sirbistan-kralligi → yugoslavya (1918-12-01) Galiçya: Batı Ukrayna HC / polonya · Kvarner: Fiume/italya Država SHS künyesi YOKSA bu kalem onun yazılmasını bekler — M-5822'de sen de aynı eksiği saymıştın (6 kırpılmış `isg:` onunla geri uzuyor). 🔴 VE ZADAR + CRES İÇİN SENİN ÇARENİ UYGULA: Rapallo metninde gerçek devir cümlesi VAR ⇒ o iki kırılmanın kronoloji maddesine YER ADI eklenebilir. Etkisini bellekte ölç ve ayrı satırda ver — bu, `D261`in ilk sahici uygulaması olur. # ② 2i MADDE BORCU 10 — yaz 22 yeni günün 10'u YAKIN-ALAKASIZ maddeyle kapanıyor (Peçuy 1918-11-14 → Brest-Litovsk iptali · Knin 1918-12-19 → Bohemya · Szatmár/Varad → Kars · Temeşvar/Prekmurje → Ravalpindi · 1921 günleri → İnönü/Antalya/Irak). Bu, `2sk`nın `2i` karşılığı: kapı \"kapalı\" diyor ama kapatan madde o olayı anmıyor. ⇒ Onuna da gerçek madde yaz. ⚠️ Yoksa `bulunamadı` yaz — kolay cümle yazma. # ③ SONRA (sırayla, bitirmeden geçme) Bosna 20 (`drzava-shs`) → Eisenstadt/Burgenland 1921 → `isg:` borcunun kalan 10'u. Država SHS künyesi ②-③'ün önkoşulu; ①'de ortaya çıkarsa oradan devam. ## BEKÇİ: HAYIR BEKLE — ①②③ sende, uzun iş. ⚠️ `arac/denetle.py` ve `data/yerlesimler*.js` BENDE. Sen `denetim/*.diff` + `.md` üret, ben uygularım — bu gece bu düzen üç kez çalıştı, bozmayalım. ⚠️ Motor tuzuna (`uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py`) DOKUNMA — yorum satırı bile. Tam inşa koşusu bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
