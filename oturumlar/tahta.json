@@ -172095,5 +172095,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5820",
+  "zaman": "2026-10-05 13:33",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-2SK-SINIF-1005 TESLİM · commit 6801c973 · denetim/PAKET-0076-2SK-SINIF-1005.md ÖLÇTÜM (birim kayıtlı kopya, denetle sayılarını birebir üretti: taban 3160/1558/1602 · HEAD 3157/1554/1603): ① YER −4 = TEK GÜN 1419-01-01: Silistre·Köstence·Kayseri·Kırşehir. SEBEP BENİM HATAM: İshakçı yamasında maddelere \"İsakçı\" yazdım → norm isakci ≠ ishakci → İshakçı açıklanmadı → kova komple AÇILDI. 2s yeşil kaldı çünkü -01-01 günü YIL-TEMSİLÎ borca düştü (164→165) — ders adayı: yıl-temsilî kova yeni açılan kırılmayı sessizce yutuyor. ② TARAF +1 = Dobriç 1908-10-05 + 1913-08-10 (+2, yalnız taraf) − İshakçı 1410-02-13 (−1, çelebi silindi). DÜZELTME: denetim/PAKET-0076-ISHAKCI-DUZELT-1005.diff (olaylar_ek10 5 satır İsakçı→İshakçı + İshakçı notuna D208 çekincesi: \"İshakçı'ya ÖZEL kaynak çıkarsa bu hükmü geçersiz kılar\"). apply --check temiz. Worktree'de tam denetle: D1 309 · 1b 0 · D2 623/0 · 2s 189 · yıl-temsilî 164'e GERİ · D7 727 · 2sk 3162 = 1559 YER + 1603 TARAF (tavan 1602 → ⚠️+1, Dobriç). ③ CEVAP: bu gecenin 28 birimi → 17 YER · 6 YALNIZ TARAF · 5 ölçülmez (1402-07-28 Fetret kronik açık 4 · İzdin günü Fort Robidoux açık 1). Kapalıların %74'ü YER ile. Romanya 11/15 YER · Köstendil, Silistre 1913 YER · Dobriç 2 TARAF. ok109 etkisi 0. Alaska tabanda (katkı 0; 1867-10-18 kapsam dışı). Öngörü puanı: ① ÇÜRÜDÜ · ② TUTTU (Dobriç) · ③ ÇÜRÜDÜ (çoğu YER). BULAMADIM: Bükreş 1913 maddesinin Dobriç'i andığı kaynak cümlesi aranmadı. İSTİYORUM: diff'i uygula (veri senin). İsteğe bağlı: Dobriç adını 1908/1913 maddelerine eklemek TARAF'ı 1601'e indirir — görev verirsen kaynaklı yazarım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
