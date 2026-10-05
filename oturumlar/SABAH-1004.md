@@ -1161,3 +1161,83 @@ hesabı o iki dosyayı **okumuyor bile** (AST: 30 işlev/91 ad). ⇒ Bir alan ad
 📌 **Ve bu gece aynı kilide ÜÇ KEZ çarptık** (CGK boyası · dogrulanmadi · zincir_kaynagi) ⇒
 `§9.1`in sonundaki yapısal çare (`MOTOR-LEGO-0925`: geometri katmanlarına renk/girdi İÇERMEYEN
 ayrı tuz) artık "yolda" değil **gereken** şey. Ölçümü dağıtıldı.
+
+---
+
+# 🔴🔴 EN ÜSTE — BİR SONRAKİ KOŞUNUN BAYRAKLARI BİREBİR AYNI OLMALI
+
+W10 ölçtü: `uret_petek.py:581` tuza `os.environ`daki **her** `MOTOR_*`ı alıyor, ve bu
+değişkenler **İKİ tuzda da** var (genel + geo). ⇒ Bir sonraki koşuda
+```
+MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56
+```
+birinden biri değişirse **`govde` dahil her katman ölür** ve 7 saat yeniden ödenir.
+📌 `MOTOR_SUREC_ISCI` istisnadır — `:571` `_ONB_ISLETIM` içinde, tuza GİRMEZ (ölçüldü).
+⇒ **İşçi sayısı serbestçe değiştirilebilir, ötekiler DEĞİL.**
+
+---
+
+# 🔴 KOŞU 20 BELLEK OLAYI — ve kök sebebi KODDA bulundu
+
+## Olay (HAVVA ölçtü, WMI)
+```
+21:20  başladı, boş RAM 15,5 GB
+21:46  boş RAM 11,0 GB
+21:59  boş RAM 0,07 GB · commit 60,1/60,5 GB (sınıra 0,4 GB) · PagesInput/s ~110-125 bin
+       süreç başına ÖZEL bellek: 12.465 · 11.264 · 11.428 · 10.838 MB ≈ 46 GB
+22:10  TEPE GEÇTİ: boş RAM 15,4 GB · commit 24,3/46,9 · süreç başına ~3 GB
+22:08+ İKİNCİ yükseliş: dört süreç BAYT BAYT aynı (5.483 · 5.478 · 5.476 · 5.481 MB)
+```
+HAVVA'nın durdurma girişimi izin sistemince **reddedildi**; ne o ne ben etrafından dolandık.
+**Emre devam kararı verdi.** Kilit (KOSU) yürürlükte.
+
+## 🔴 KÖK SEBEP — ölçüldü, `arac/uret_petek.py`
+`_ISCI_NO` kontrollerinin tamamı: `:127` `:282` `:518` `:542` `:616` `:4408` `:5773` `:6908` `:6933`.
+⇒ **`:542` ile `:6908` arasında işçiyi ana süreçten ayıran HİÇBİR ŞEY YOK.** Her işçi şunları
+**kendisi yeniden hesaplıyor**: Kara maskesi · Göller · Nehir yatakları · Dağ sırtları · ızgara ·
+DEM · **üç Dijkstra** · YÜRÜYÜŞ · Voronoi · kenar ağı · polygonize · Kıyı kesimi · Ada kuralı ·
+Çöl tavanı · Petek alanları · Bölge sınırları. Ayrışma `:6908`de, çıkış `:6933`te.
+⇒ **Paralellik yalnız `govde`de (koşunun %78'i) kazanç; öncesi 4 süreçte 4 KEZ yapılıyor.**
+Bellek işçi sayısıyla **doğrusal**, çünkü her süreç tam kopya taşıyor.
+📌 Ve bu **ilk koşuya özel bir ceza**: sıcak önbellekte `k1`/`col`/`kusat`/`dolgu` her işçi
+tarafından okunur, bedel küçük. HAVVA'nın önbelleği boştu ⇒ dördü de sıfırdan kurdu. UMIT'in
+KOŞU 19'u bu duvara bu yüzden çarpmamış olabilir (logu depoda yok, karşılaştırma YAPILAMADI).
+
+## ⇒ BİR SONRAKİ KOŞU: `MOTOR_SUREC_ISCI=2`
+4 değil 2: bellek yarıya iner, `govde` kazancı korunur. 2 ile de sığmazsa 1'e inilir — **ve o
+zaman `bellek.tsv`den ölçülmüş bir sayıyla.**
+🔴 **Hatam:** `ISCI=4`ü HAVVA'nın bellek profilini **ölçmeden** yazdım. Sıra tersiydi: profil
+önce ölçülür, işçi sayısı sonra seçilir.
+
+## 🟢 Ve çareyi HAVVA kurdu
+`bellek.tsv` nöbetçisi: 45 sn'de bir süreç başına özel bellek + boş RAM + commit + aşama satırı,
+1,5 GB'tan fazla sıçrayanı hemen bildiriyor. Benim önerim (`uret_petek.py`ye alt-aşama satırı)
+motor tuzundaydı ve tam inşa bekliyordu; HAVVA'nın çözümü **koşuya dokunmadan aynı soruyu
+cevaplıyor**. Koşu bitince `denetim/HAVVA-KOSU20-BELLEK.tsv` olarak commitlenecek.
+
+---
+
+# 🔴 BİR GÜVENCENİN KENDİSİ KÖRDÜ — ve o güvenceyi ben kanıt olarak alıntılamıştım
+`uret_petek.py:601-603` *"`ARAC-LEGO-zincir.py` motor değişikliğinde yeniden koşturulur"* diyor
+ve ben bunu bir tur önce **kanıt olarak** gösterdim. W10 ölçtü: o betik **import deyimlerinden
+modül adlarını toplamıyordu** ⇒ `BOYALAR` (`:269`) ve `girdi` (`:271`) evrende **hiç yoktu**
+(ölçüldü: False), `sb` zinciri de taranmıyordu. ⇒ 25 Eylül'ün *"BOYALAR zincirde yok"* hükmü
+**yapısı gereği başka bir sonuç veremezdi.**
+🟢 Düzeltilmiş betikle (32 işlev/116 ad) hüküm **ayakta kaldı**, kanıt yenilendi.
+⇒ Ders genişliyor: *bir denetimin var olması, hatta KODUN ONA ATIFTA BULUNMASI, o denetimin
+çalıştığını göstermez.*
+⇒ **A kuyruğu AÇILDI**: CGK boyası + `BILINEN_ALANLAR` eki koşu 20'den sonra, tam inşa
+beklemeden inebilir (`govde` korunur).
+
+---
+
+# Emre'nin kalemleri — bu turda eklenenler
+```
+① hazır kıtada 6 EKSİK   — kişi kampanyası için (araştırma 6 kıta, yazım 1 kıta)
+② KB 266 kampanyası       onay verdim: iki kademe (① kendi maddesi %55 · ② kapsayıcı,
+                          ①+② %100). ② kimliği kaynaklar, TARİHİ kaynaklamaz ⇒ ②'li
+                          kayıtta f/t "kaynakta yok" işaretli kalır. 27 nadir tür
+                          örneklemde HİÇ yoktu ⇒ ikinci örneklem (10 kalem) bekliyor.
+③ SK · IT · O6            okuyucusuz veri, bağlama modeli KAPSAM kararı (W12 ölçtü:
+                          O6'da 1698/2084 madde ZATEN künyeye bağlı, gerçek borç 386)
+```
