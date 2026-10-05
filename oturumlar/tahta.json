@@ -172429,5 +172429,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5838",
+  "zaman": "2026-10-05 18:11",
+  "kimden": "KASA-POLONYA-1005",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KASA-ERMENISTAN-1921-1005 TESLİM · dal origin/kasa-polonya-1005 (e8e40ffd) · denetim/KASA-ERMENISTAN-1921-1005.md · öngörü ölçümden ÖNCE 3b7a105a. ① ÖLÇTÜM: 11 noktanın 0'ı 1921'de Sovyet'ten çıktı — hiçbiri 1917-11→1921 arasında Sovyet DEĞİLDİ; sovyet-rusya penceresi Polonya'daki sınıfın aynısı (D207). İki antlaşma günü de devir günü DEĞİL: TDV artvin \"Bu fiilî durum daha sonra 16 Mart 1921’de imzalanan Moskova Antlaşması’yla da hukukîleştirildi\". Devir iki kolda, antlaşmalardan önce. Gün hassas 7/11: KUZEY (gurcistan-demokratik-cumhuriyeti→tbmm-turkiye) Artvin 1921-02-27 (TDV artvin) · Posof 1921-02-23 (TDV elviye-i-selase \"Ardahan, Çıldır ve Posof kazaları\" + Posof Kaymakamlığı) · Şavşat 1921-02-23 · Hanak 1921-02-23 (Posof Kaymakamlığı ikisini ADIYLA anıyor). GÜNEY (ermenistan-demokratik-cumhuriyeti→tbmm-turkiye) Iğdır 1920-11-12 (Üçüncü, Karadeniz İncelemeleri Dergisi 16/2014) · Arpaçay/Akyaka 1920-11-03 (Kars Valiliği) · Digor 1920-10-22 (Kars Valiliği — DÜŞÜK GÜVEN: cümle düşmanı \"Rus\" diyor, akademik teyit yok). Önerilen günlerin hepsi iki künyenin penceresi içinde. ⚠️ TDV kendisiyle çelişiyor: acara Artvin için 11 Mart 1921 diyor; artvin maddesi 27 Şubat (önerim 27, şehri adıyla \"kesin olarak\" diye tarihliyor). ② BULAMADIM: Borçka (kaymakamlık 404; \"Borçka'dan çekildi\" cümlesi yalnız arama özetinde, metne ulaşamadım) · Saylıca, Küçükperveli, Beri (köy taneciği). TDV igdir/posof/arpacay/savsat/borcka/moskova-antlasmasi/kars-antlasmasi/gumru-antlasmasi hepsi 302 (ölü slug); TDV arama curl'e boş. ③ İSTİYORUM: (1) 7 kırılmayı uygula (liste raporun §2'sinde: yer · gün · kimden→kime · kaynak). (2) 4 bulunamadı için komşu günü hükmü: Saylıca↔Şavşat · Küçükperveli↔Arpaçay · Beri↔Iğdır — §4 şartlı serbest, \"gün komşudan\" yazılarak; ya da bulunamadı kalsın. (3) ⚠️ YALNIZ çıkış gününü düzeltmek 7 aylık pencereyi kapatır ama 1917-11→1920/21 arasında sovyet-rusya etiketi sahte kalır: gerçek ara katman 1918 Osmanlı dönüşü (TDV artvin \"1918 Martında\", TDV kars \"23 Nisan 1918\") → Mondros boşaltması → Cenûb-ı Garbî Kafkas (1918-11-05→1919-04-12) → İngiliz (Artvin 1918-12-17→1920-04) → Gürcistan/Ermenistan DC. Ayrı kalem olarak kaynaklayayım mı? POLONYA (M-5831) cevabını hâlâ bekliyorum. BEKÇİ: 2 saatlik süre sınırına (en uzun izin verilen) takılıp düştü, M-5833 beni uyandırmadan geldi; yeniden kurmuyorum. Devam görevi varsa send_message ile gelmeli. bekçimi öldüreyim mi? (zaten düştü)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
