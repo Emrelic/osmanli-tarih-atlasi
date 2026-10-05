@@ -171843,5 +171843,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5806",
+  "zaman": "2026-10-05 09:12",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-DOBRUCA-1004 · A + B TESLİM — rapor §10-11 (denetim/PAKET-0076-DOBRUCA-1004.md) · diff denetim/PAKET-0076-DOBRIC-1004.diff (b5458053) ① GÖREV A — İshakçı 1402-1419: BULUNAMADI ⇒ 5 ada BEYANLI BORÇ kalır. · TDV: isakci slug'ları 302; tulca · dobruca · babadagi · mehmed-i ham metinlerinde İsakçı 0 geçiş. · \"Sultan Çelebi Mehmed ve Devri Sempozyumu\" (Bursa BB, 564 s.) PDF'i tarandı: İsakçı 0, Yenisale 0. · Tek akademik iz: Aurel-Daniel Stănică, \"The Missing Fortresses in Dobrogea. Case Study: Turkish Fortifications\" (2016) — İsakçı'yı adıyla ele alıyor ama ResearchGate + academia.edu İKİSİ DE 403. Arama özetleri \"1416-1417'de Osmanlılar Enisala ve İsakçı'yı I. Mehmed'in emriyle onardı\" diyor — ÖZET METİN DEĞİL, kullanmadım. EI2 \"Isakča\" (Brill, ücretli) denenmedi. Kırmızı listeden çıkanlar (historia.ro, fandom, wiki türevleri) elendi. ⇒ Yolu açacak tek şey Stănică 2016'nın tam metni (Emre'nin hesabıyla indirme ya da yazara istek). 🆕 TDV İÇ ÇELİŞKİSİ (D211 ⑥): mehmed-i \"Mircea … Silistre'ye saldırdı (sonbahar 819/1416)\" ⇒ Silistre 1416'da Osmanlı'da olmalı ↔ silistre \"Mircea Silistre'yi 1418'de ölümüne kadar elinde tuttu\". mehmed-i Eflak seferini 822/1419 tarihliyor. Dobruca (A) şehrin kendi maddesini (silistre) izledi; çelişki raporda. ② GÖREV B — Güney Dobruca'nın İLK iç noktası: Hacıoğlupazarcığı (Dobrich), kendi TDV maddesinden (hacioglupazarcigi, Kiel). · kur 1518 (924 tahriri, ilk kayıt) · kazılar \"600-1500 yılları arasında yerleşim bulunmadığını\" gösteriyor ⇒ 1281-1419 zinciri bu noktaya HİÇ DEĞMİYOR (A'dan bağımsız, beklemesi gerekmedi). · d 1518→1878-07-13 · v prenslik →1908-10-05 · s bulgar →1913-08-10 · s romen 1913-08-10→ (Silistre A8 ile aynı gün). · Mükerrer: ad taraması 0, en yakın Varna 39,7 km. · Worktree (HEAD 90aaa54d): D1 309/309 · 1b 0 · 2 623/0 açık · 2i tavanda · 4/5 ✓ · D7 732 DEĞİŞMEDİ (yeni enklav yok) · kaynaksız tavanları ✓ · D8 ölçülemedi (beklenen). İlk koşu \"kayıt-kaynaksız 2302>2301\" ile öttü → üst düzey kaynak: eklendi, temiz. Sahiplik 6/6, ana depoda kayıt yok. git apply --check TEMİZ. · ⚠️ Koordinat bu turda YENİDEN DOĞRULANMADI (GeoNames demo kotası dolu, OSM 403) — kaynak alanında yazılı; ilk taslağı yazan ajan GeoNames'ten almıştı. · ÖNGÖRÜ (koşudan önce): 8a `g3-bg-ro-dobruca-p4¦1913-08-09¦sag¦Köstence` taşması Dobriç'in Bulgar peteği hattın güneyini doldurunca küçülür ya da düşer. · UYGULANMADI: Balçık (1281-1389 halkası: Dobrotiç künyesi yok + TDV iç çelişki) · Tutrakan · Mangalya (TDV maddesi yok). ③ İSTİYORUM: Dobriç diff'ini uygula (koşuya biner). İshakçı için Stănică 2016 erişimi Emre'den istenebilir. Balçık'ın 1281 halkası Dobrotiç künyesi kararına bağlı (D211 ⑥, senin/Emre'nin). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
