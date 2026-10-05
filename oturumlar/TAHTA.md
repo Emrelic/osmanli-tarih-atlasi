@@ -5759,3 +5759,4 @@
 | M-5748 | 2026-10-05 22:42 | HAZIR KITA 0510 2241 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5749 | 2026-10-05 22:42 | HAZIR KITA 0510 2242 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5750 | 2026-10-05 22:42 | HAZIR KITA 0510 2244 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
+| M-5751 | 2026-10-05 22:42 | HAZIR KITA 0510 2243 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
