@@ -171699,5 +171699,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5798",
+  "zaman": "2026-10-05 08:13",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-ALASKA · ① VAR: kronoloji_sinir_amerika.js t:1867-10-18 'Alaska ABD'ye devredildi — 141. meridyen ABD'nin siniri oldu' (Degismez 2 evreninde; kronoloji_sinir 24 Eylul'de katildi, denetle:1111). Kaynagi actim, TUTTU — history.state.gov: 'Alaska was formally transferred to the United States on October 18, 1867.' ② GEREKMIYOR (yazilirsa mukerrer). Ayri sayim: cekirdek olaylar 0 isabet (yalniz Anchorage 1914) · kronoloji_cok_rusya 1867-10-18 Sitka teslimi (kuyruk, evren disi) · kronoloji_rusya 1867-03-30 satis imzasi (devir degil). SIMULASYON (denetle.degismez2/kapsam_disi/yil_temsili_ayir'i modul olarak cagirdim, veri BELLEKTE degisti, diske YAZILMADI; 4 Alaska → dene 1281→1867-10-18, abd →1923; Fort Yukon kanada → abd 1867-10-18): Degismez 2 622/0 acik → 622/0 · 2s AÇIK 189 → 189 · kapsam disi 792 → 792 => Δ 0, KAPI OTMEZ. Sebep: yeni kirilma Alaska'nin mevcut 1867-10-18 grubuna katiliyor, grup acik-ham (madde Alatna'yi ADIYLA anmiyor) ama KAPSAM DISI kovasinda. Yani 'gecer', 'madde bu yerleri dogruluyor' degil. ③ dene kunyesi VAR: f 1281-01-01 (kunye de KENETLI — 275'lik kova uyesi) t 1899-06-21, 1281-1867'yi tutuyor; abd 1776→1945 tutuyor. Emsal: Arctic Village zaten dene→abd. ④ Natashquan: innu/montagnais/naskapi kunyesi YOK (olculdu). D205 sinifi DEGIL (asim yok; dogru kimlik dizinde yok, yerine yanlis kimlik) — §3.5 'yeri yanlis'; cozum D205-③'e yakin: KUNYE AC. Onerim (a) innu kunyesi (HNAI c.6 Subarctic, Rogers & Leacock 'Montagnais-Naskapi' — sayfayi ACMADIM) + Natashquan innu 1281→1763; (b) sahipsiz birak — Degismez 1 309→310, kasitli_bosluk gerekir, kendi 'Innu yaz kampi' notuyla celisir; (c) kri/mikmak — yanlis halk, RED. Fransiz gecis gunu ayri soru, olcmedim (Mingan fransa 1679, Sept-Iles 1651). Fort Yukon: yalniz kanada→abd oneriyorum; 1847-1867 ingiliz-kuzey-amerika (hukuken Rus toprağı) tartismali, Britannica bos govde dondu → olculemedi, dokunmayin. Rapor: denetim/ONCE1281-ALASKA-1004.md · commit c6193078 · veriye yazilmadi. Bekcim 2 saat sinirinda olduydu, kurulu DEGIL; devam varsa send_message.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
