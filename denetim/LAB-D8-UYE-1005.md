@@ -400,3 +400,114 @@ BOŞ, yaka belirlendi       4   ca-us-bati-1 → abd · g4-bna-us-bati-1 → abd
 - `guney-afrika-birligi`nin niçin noktasız olduğu (veri işi — ölçülmedi, yalnız gözlendi).
 - `fi-su-fiili-2` ve `us-cu-guantanamo-2` hükümleri az sondaya dayanıyor (1 ve 3); yön ile tutarlı ama zayıf.
 - Defter evreninde G ile hâlâ ölçülemeyen hat: 0 (20'nin 20'si başka yöntemle sınıflandı).
+
+---
+
+# 10. Denetimin ölçtüğü dosya kümesi ↔ sitenin yüklediği dosya kümesi (koordinatör, 5 Ekim akşamı)
+> 🔴 **Kural ihlali, beyan:** bu bölümde öngörü ölçümden ÖNCE yazılmadı ve commitlenmedi (CLAUDE.md §11).
+> Aşağıdaki her şey ölçümdür; öngörü sınavı yoktur.
+> Ağaç: `origin/main fef9487b` detached; her betik başta/sonda `HEAD=fef9487b`. Kapılar ve veri DEĞİŞTİRİLMEDİ.
+
+## 10.0 Yöntem — kestirme değil İZ
+İki kapı **olduğu gibi koşturuldu** ve dokundukları her dosya kaydedildi:
+- Python: `sitecustomize.py` (PYTHONPATH ile her Python sürecine) → `sys.addaudithook` `open` + `subprocess.Popen`;
+  her okumaya `arac/` içindeki çağrı zinciri eklendi (hangi SORU okudu).
+- Node: `NODE_OPTIONS=--require iz_node.js` → `fs.readFileSync/readFile/createReadStream`; `node -e` ile
+  okunan dosyalar Python'un başlattığı sürecin argümanından (zinciriyle) çıkarıldı.
+- Kapı sonuçları: `denetle.py` **çıkış 1** (8b ✗ 121 / tavan 84) · `denetle_yayin.py` **çıkış 1** (üretim izi ✗ 6/7).
+- SİTE kümesi: `index.html` 70 statik etiket (30'u paket) + paket künyesiyle açılmış içerik + `app.js`/`geo_coz.js`
+  DİNAMİK yüklemeleri (`UFUK_DOSYALAR` · petek gövde kuyruğu · `devlet_parcalar.js` tam havuz ·
+  `_KAYNAKLI_HALKA_DOSYA_ADLARI` · `_EKOKUMA_DOSYA_ADLARI`) ⇒ **156 fiziksel · 415 mantıksal** dosya;
+  diskte olmayan 0; paket kaynağı bugün paketinden farklı **0** (künye sha'sı = bugünkü kaynak sha'sı).
+- ⚠️ **"Okudu" ≠ "ölçtü".** Yayın kapısının `_bagli_mi` ve `cizilmiyor_mu` adımları `data/` altındaki HER
+  dosyayı açıyor (bağlılık/çizim sorusu). Ham karşılaştırmada ② boş çıktı — bu sahte temizdir. Okuyucu üç
+  sınıfa ayrıldı: **META** (varlık/bağlılık: `cizilmiyor_mu` · `_bagli_mi`) · **TAZELİK** (üretim izi /
+  bayatlık / sha: `bayat_mi` · `iz_kapsami` · `parmak_izi` · `paketle.sina` · `kodla.kapi`) · **İÇERİK**
+  (geri kalan: `denetle.py` soruları · `odak_cozum.js` · `durum_tablosu`).
+
+## 10.1 ① İÇERİĞİ ÖLÇÜLEN ama SİTENİN YÜKLEMEDİĞİ dosyalar — 3
+```
+data/devletler_harita.js   İÇERİK ← denetle/degismez8_rapor (Değişmez 8a + 8b, _D8Govde)   TAZELİK ← yayın iz_kapsami
+data/donemler.js           İÇERİK ← denetle/degismez8_rapor (Değişmez 8a + 8b, _D8Govde)   TAZELİK ← yayın bayat_mi · iz_kapsami
+data/goller.js             İÇERİK ← denetle/konum_denetimi → girdi.oku_goller             (motor GİRDİSİ — sitenin çıktısı değil, beklenen)
+```
+İlk ikisi gitignore'da, YEREL çözülmüş kopyalar. Site bunların yerine kodlanmış hâllerini yükler:
+`devlet_harita_ust.js` + `devlet_parca_on.js` + (tembel) `devlet_parcalar.js` · `donemler_on.js` + `donemler_ust.js` +
+`donem_parcalar.js`.
+🔴 **İkisinin AYNI şey olduğunu hiçbir kapı sormuyor — ÖLÇÜLDÜ:** `kodla.kapi` (yayın kapısı) kodlanmış dosyalardan
+metni kurup **dosyanın KENDİ damgasıyla** kıyaslıyor (`arac/kodla.py:834-874`); yerel çözülmüş dosyaya hiç bakmıyor.
+```
+                     sitenin yüklediği (kodla.kapi damgası)   Değişmez 8'in ölçtüğü yerel dosya (bu ağaç)
+devletler_harita     0ef2d3e23c4e   172,61 MB                 bc81fa2c005f    93,69 MB
+donemler             6e34fd54dcfb    57,43 MB                 1f201eb7b597    41,85 MB
+```
+(Taze `kodla.py coz-c` çıktısı kapının damgasıyla BİREBİR aynı ⇒ site gövdesi doğru çözüldü.)
+⚠️ İki gövdenin damgası da `uret_petek 8b6aaea5` diyor: `_D8Govde.damga` = dosyanın mtime'ı + motor parmak izi;
+**hangi koşunun çıktısı olduğunu ayırt ETMİYOR.** Bayat gövde doğru gövdeyle aynı imzayı taşıyor.
+
+**Sayıya etkisi — Değişmez 8 iki gövdeye karşı, veri/hat/kod AYNI** (`d8_site.py`; evren: defter 372 hat):
+```
+                        YEREL gövde (kapı bugün)     SİTE gövdesi (yayında)      tavan
+8a evren içi                    1568                        1509                1568
+8a YENİ KAPSAM                     0                           4                  —
+8b                               121  ✗                       82  ✓              84
+(hat,gün) ölçülen                716                         719
+8a üyelik YEREL↔SİTE:  ortak 1364 · yalnız YEREL 204 · yalnız SİTE 145   ⇒ net −59, HAREKET 349
+8a üyelik defter(1584)↔SİTE: ortak 1346 · yalnız defter 238 · yalnız SİTE 163
+8b SİTE ⊂ defter: 82'nin 82'si defterde · sitede KAPANAN 2: Muğla|1390-01-01 · Sana|1918-10-29
+YENİ KAPSAM 4 (defter evreninde OLMAYAN 2 hat): d1893-hab-ch-1|1893-07-21|sol|Feldkirch · d1893-hab-ch-1|1918-11-10|sol|Feldkirch ·
+                                               d1923-ch-at-1|1918-11-12|sol|Feldkirch · d1923-ch-at-1|1923-10-28|sol|Feldkirch
+en çok oynayan hatlar  yalnız SİTE: tr-sy-dogu 8 · at-yu-karintiya 4 · sovyet-no-bati 4 · hu-yu-hirvatistan 4 · iq-ir 4 …
+                       yalnız YEREL: ru-ro-prut-rus-rk 10 · -gecici-rk 10 · -rus-rp 10 · kongo-fransiz-belcika 8 · ca-us-prairie 5 …
+```
+⇒ **Kapının bugünkü 8b ✗'si yayında OLMAYAN bir gövdenin ihlalidir; yayındaki gövde 8b'den geçiyor (82 ≤ 84).**
+⇒ **Bugünkü 8a tavanı (1568) bayat gövdeye karşı donduruldu.** at-cs ve alm-ah-2 düzeltmeleri bundan etkilenmez
+(etiket düzeltmesi hangi gövdede olursa olsun doğru; karşı-olgusallar AYNI gövdede kıyas yaptı), ama 1568 sayısı
+yayının fotoğrafı değil.
+⚠️ Bu ağacın yerel gövdesi benim 5 Ekim 15:08'de çözdüğüm kopyadır; koordinatör makinesinin yerel kopyası (r11195)
+başka bir üçüncü gövde olabilir. Kusur makineye özgü değil YAPISAL: gitignore'daki yerel kopya ile HEAD'in kodlanmış
+dosyaları arasında bağ kuran kapı YOK. (HAVVA'nın bulduğu "taze worktree'de dosya yok ⇒ çıkış 2" aynı sınıfın
+iyi huylu yüzü: dosya yoksa kapı ölçülemedi der; dosya VAR ama BAYATSA susar.)
+**Öneri (kod senin):** Değişmez 8 yerel dosyayı okumadan önce `sha256(yerel) == kodla damgası` sınasın; tutmazsa
+ÖLÇÜLEMEDİ (kod 2) — ya da gövdeyi kodlanmış dosyalardan bellekte kursun (`kodla.py` zaten kuruyor).
+
+📌 **Düzeltme — §8.①'deki notum yanlıştı:** "`paket_28.js:1102` ← denetle.py BUNU okur" demiştim. İz:
+`denetle.py` D hatlarını **kaynaktan** (`data/d_sinirlar_avrupa_orta.js`, `node -e`) okuyor; `paket_28.js`'ye yalnız
+yayın kapısının `paketle.sina` adımı (sha eşitliği) dokunuyor. İki kopya da düzeltildiği için sonuca etkisi yok;
+ama "denetim kaynağı, site paketi okur — aralarındaki bağ `paketle.sina`dır" doğru cümledir. Bugün o bağ temiz (0 fark).
+
+## 10.2 ② SİTENİN YÜKLEDİĞİ, İÇERİĞİNİ HİÇBİR KAPININ ÖLÇMEDİĞİ dosyalar
+Toplam **151** (fiziksel ∪ mantıksal küme içinde). Üretim imi sezgisiyle (dosyanın ilk 800 karakterinde "Otomatik
+üretildi" / "ÜRETİLMİŞ" / `arac/…py`) 53 üretilmiş · 98 elle — ⚠️ **sezgi kusurlu:** dört `_ust` dosyası
+(`devlet_harita_ust` · `donemler_ust` · `petek_govde_ust` · `ufuk_bantlari_ust`) `kodla.py` çıktısıdır ama imi baştaki
+800 karakterde değil ⇒ üretilmiş en az **57**. Aşağıdaki kovalar elle düzeltildi.
+**🔴 A — HARİTANIN KENDİSİ (gövde), içeriği ölçülmüyor, yalnız TAZELİK/tutarlılık:**
+```
+donemler_on.js · donemler_ust.js · donem_parcalar.js     ← kodla.kapi: kendi damgasıyla tutarlı ✓ · İÇERİK sorusu YOK
+devlet_harita_ust.js · devlet_parcalar.js (tembel)       ← kodla.kapi: kendi damgasıyla tutarlı ✓ · İÇERİK sorusu YOK
+devlet_parca_on.js  (açılış katmanı, 1281-01-01)         ← YALNIZ META — tutarlılığını bile kimse okumuyor
+```
+Değişmez 1/1b/2/3/7/8'in hepsi ya yerleşim VERİSİNİ ya da YEREL çözülmüş gövdeyi ölçer; ekrana çizilen gövdeyi
+hiçbiri ölçmez. §10.1 bunun bedelini sayıyla gösterdi.
+**🟡 B — öteki üretilmiş katmanlar, yalnız TAZELİK:** `petek_govde_ust.js` · `petek_govde_parca.js` (antlaşma farkı) ·
+`ufuk_bantlari_ust.js` · `ufuk_bant_parcalar.js` (ufuk bandı) — `kodla.kapi` kendi damgası ✓ · `altlik.js` (yayın
+kapısı BAYAT diyor: `uret_petek.py` değişmiş) · `devirler.js` · `bos_alanlar.js` · `bekleyenler.js` ·
+`koridor_halka2.js` · `savaslar_ok104.js` · `sinir_sinif_dizini.js`.
+**🟡 B′ — ELLE yazılmış, içeriği hiçbir soruda okunmuyor, yalnız paket sha'sı (`paketle`) bağlıyor — 14:**
+`padisahlar.js` (padişah kartı) · `kisiler.js` · `ittifaklar.js` · `antlasma_haritalari.js` · `savas_kunye_1.js` ·
+`koridor_f5c9a5.js` · `seferler_p0037/p0064/p0065/p0068/p0071/p0074/p0077.js` · `seferler_sefer_ok_0075.js`.
+⇒ Paket zinciri bunların sitede KAYNAKLA AYNI olduğunu güvenceye alır; doğru olduklarını değil.
+**🟡 C — üretilmiş, YALNIZ META (ne içerik ne tazelik):** `kosu_damga.js` · `acilis_siluet.js` · `koridor.js` ·
+`kaynakli_halka_fetih.js` · `kaynakli_halka_kronoloji.js` · `ekokuma_bag_oneri.js` · `ekokuma_baslik_oneri.js` ·
+`ekokuma_hanedan.js` · `ekokuma_ibrahim.js` · `ekokuma_rivayet.js`.
+**⚪ D — elle yazılmış, YALNIZ META: 80** — `ekokuma_*` 68 · `merak*` 2 · `gorsel_madde` · `kaynakli_halka_*` 3
+(ferhatpasa · tekil · bagdat) · `koridor_yama_*` 2 · `koridor_owtrad` · `seferler_ok103` · `isyan_tarama` · `sehirler.js`.
+(Liste `karsilastir2.json`da.)
+**Paketler (30):** içerikleri KAYNAK dosyaları üzerinden ölçülüyor; paketin kendisi `paketle.sina` ile kaynağa
+bağlanıyor (bugün fark 0) ⇒ bu zincir KAPALI, kova dışında sayılmalı.
+
+## 10.3 Bulunamayan
+- `odak_cozum.js`in okuduğu 186 dosyanın hangi soruya hizmet ettiği tek tek ayrılmadı (İÇERİK sayıldı).
+- C ve D kovalarındaki dosyaların bir kusur taşıyıp taşımadığı — bu ölçüm yalnız "ölçen var mı" sorar.
+- Koordinatör makinesindeki yerel gövdenin sha'sı (r11195) — o makinede ölçülmeli: `sha256sum data/donemler.js data/devletler_harita.js`.
+- Betikler: `izsite/sitecustomize.py` · `iz_node.js` · `site_kume.py` · `karsilastir.py` · `karsilastir2.py` · `d8_site.py`.
