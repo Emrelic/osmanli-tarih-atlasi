@@ -50,7 +50,37 @@ bölmeye (MOTOR kalemi) GEREK YOK. İki istemci değişikliği:
    `yeni.vassal` için `harita.getSource("vassal").setData(...)` kolu (osmanli koluyla aynı desen,
    _dOsmDegisti gibi bir _dVasDegisti bayrağıyla geri alma).
 ```
-Sınav önerisi: 9 hattın her birinin penceresinde bir gün, `_dYaslaImza=null` + eşzamanlı
+## UYGULANDI → `js/d_katman.js` (diff: `denetim/PAKET-0076-TABI-GOVDE-1004.diff`, +74 −2)
+Koordinatör onayı (M-5815 cevabı): d_katman.js bu oturumun kalemine açıldı. Üç parça:
+`_dTarafGovdesi` → `_dTabiTaraf` kolu (`_dTabiKidleri`: motorun d → v → s sırası, `kur:` saygılı) ·
+`_dYaslaHazirla` → güvenlik (`_dSeritTabiSayisi` > 1 ⇒ ATLA, atlanan'a gerekçeyle) ·
+`_dYaslaUygula` → `yeni.vassal` → `_dVassalKaynaginiYaz` (+ `_dVasDegisti` geri alma bayrağı).
+
+## SINAV — iki yönde (localhost, `_dYaslaImza=null` + eşzamanlı `_dYaslaGuncelle`, `_dYaslandiMi`)
+"ÖNCE" = aynı kod, `_dTabiTaraf` null döndürecek şekilde kapatılmış (= yama öncesi davranış).
+```
+hat                            gün         ÖNCE                              SONRA
+d1812-ru-bg-prut               1840-01-01  bogdan gövdesi o gün yok          ATLANDI — şeritte eflak + bogdan (GÜVENLİK ⇒ doğru)
+d1856-ru-bg-prut-kuzey         1857-01-01  bogdan gövdesi o gün yok          YASLANDI
+d1859-ru-rp-prut-kuzey         1865-01-01  romanya gövdesi o gün yok         YASLANDI
+d1906-filistin-misir-hidivlik  1911-10-08  misir-kavalali gövdesi yok        YASLANDI   ← H-0120
+d1910-libya-tunus-osmanli      1910-06-01  tunus-beyligi-fransiz gövdesi yok YASLANDI   ← H-0118
+d1923-libya-tunus              1915-01-01  tunus-beyligi-fransiz gövdesi yok YASLANDI
+g3-bg-ro-dobruca-p1 · p2 · p3  1879·1880·1890  yön doğrulanamadı (sağ 0/0)   AYNI — tâbi koluna HİÇ DÜŞMÜYOR
+                               ÖNCE 0/9 · SONRA 5/9 yaslandı · 1 bilinçli atlama · 3 koşu-bağımlı
+```
+GERİLEME YOK (1911-10-08 sayaç): yama öncesi kayıt 72 · yama 121 · gövde 35 → sonrası 74 · 124 · 36
+(+2 kayıt = iki tâbi hattı, +1 gövde = vassal; kaybolan hat 0) · konsol hatası 0 · ekran görüntüsünde Sina'da
+tâbi Mısır ile Osmanlı Refah-Akabe hattının iki yanına oturuyor.
+🔴 Dobruca p1-p3 neden düşmedi (ölçümümün önceki hâli yanlış saymıştı): `bulgaristan-prensligi`nin
+devletler2'de HÂLÂ bir gövdesi var (koşu 19 çıktısı — Berlin A5 Niğbolu/Plevne/İhtiman'ı s:→v: çevirdi
+ama geometri eski) ⇒ `_dTarafGovdesi` o uzak gövdeyi döndürüyor, tâbi koluna gelmiyor; o gövdenin
+şeritte alanı 0 ⇒ "yön doğrulanamadı". Bir sonraki tam inşa koşusundan sonra prenslik gövdesi
+devletler2'den düşer ve bu üç hat tâbi koluna girer ⇒ ÖNGÖRÜ (koşudan önce): p1-p3 koşu sonrası YASLANIR.
+(Ayrıca bir iyileştirme adayı: devletler2 gövdesi şeritte 0 km² ise tâbi koluna düş — yazılmadı,
+sınavsız mantık eklememek için.)
+
+Eski sınav önerisi (yukarıdaki tabloyla karşılandı): 9 hattın her birinin penceresinde bir gün, `_dYaslaImza=null` + eşzamanlı
 `_dYaslaGuncelle` → `_dYaslandiMi(id)` 0/9 → 9/9 (iki yönlü: yama öncesi 0 olmalı).
 Bu, bugün üçüncü kez görülen `v:` körlüğünün istemci yüzü (koordinatörün sayımı: Değişmez 8 gövdesi
 `.v`yi sabit etiket okuyor · 4c/4d yalnız `s:`+`isg:` okuyor).

@@ -231,6 +231,17 @@ SALDIRIYORSA şehir o an Osmanlı'dadır. TDV `silistre` ise *"Mircea Silistre'y
 elinde tuttu"* diyor. Ayrıca `mehmed-i` Eflak seferini 822/1419 (Kasım 1419 mektubu) tarihliyor.
 Dobruca (A) yaması `silistre`yi izledi (şehrin kendi maddesi); çelişki bu raporda kayıtlı.
 
+### 10a · Stănică 2016 — iki ERİŞİM SINIFI ayrı (koordinatör, M-5815 cevabı)
+Koordinatör yazarın KENDİ ResearchGate profilinde bir PDF buldu (`profile/Aurel-Daniel-Stanica/publication/310063401/…`).
+Bu, epdf.pub / kişisel hesaplı archive.org yüklemelerinden FARKLI bir sınıftır:
+```
+✅ yazar öz-arşivi (yazarın kendi profili / kurumsal depo)   → okunursa ATIF VERİLEBİR
+❌ üçüncü kişinin aynası / kişisel hesap yüklemesi           → okunsa da ATIF VERİLEMEZ
+```
+Sayfa iki tarafta da açılmadı (RG gerçek tarayıcıda da engelliyor). Emre'nin hesabıyla öz-arşivden
+okunabilirse İshakçı'nın 5 adası kaynaklanabilir. Aynı ayrım ODB ve Vásáry için de geçerli
+(DOBROTIC-1004 İnceleme 2): resmî IA ödünç nüshası ya da kütüphane = meşru; kişisel yüklemeler = değil.
+
 ## 11 · GÖREV B — Güney Dobruca'nın ilk iç noktası → `denetim/PAKET-0076-DOBRIC-1004.diff`
 ```
 Hacıoğlupazarcığı (Dobrich)  43,565 K 27,831 D · yerlesimler_ek29.js (İshakçı'nın önüne)

@@ -564,7 +564,7 @@ function _dTarafGovdesi(tarafId, gun) {
     var s2 = d2.find(function (x) { return x.id === tarafId; });
     if (s2) { s = s2; hk = tarafId; }
   }
-  if (!s) return null;
+  if (!s) return _dTabiTaraf(tarafId, gun);
   for (var i = 0; i < s.dnm.length; i++) {
     var p = s.dnm[i];
     if (aktifAralik(p.fi, p.ti, gun)) {
@@ -573,7 +573,61 @@ function _dTarafGovdesi(tarafId, gun) {
       return pl.length ? { renk: s.renk, poli: pl, anahtar: hk + ":" + i, hk: hk } : null;
     }
   }
-  return null;
+  return _dTabiTaraf(tarafId, gun);
+}
+// 🆕 5 Ekim 2026 — PAKET-0076-TABI-GOVDE-1004 (0076/H-0118 · H-0120). Hattın bir yanı
+// o gün OSMANLI TÂBİSİ ise (yerleşimin `v:` kid'i; 1910 Tunus `tunus-beyligi-fransiz`,
+// 1911 Mısır `misir-kavalali` …) o taraf devletler2'de YOKTUR — tâbi toprak motorda
+// `donemler[..].v` olarak TEK birleşik gövdedir, kimlik `unary_union`da kaybolur
+// (uret_petek.py:7555). Ölçüldü: 267 E/F hattından 9'u bu yüzden "gövdesi o gün yok"
+// diye atlanıyordu. Gövde kid'e BÖLÜNMEZ: yaslama zaten 100 km'lik şeritte çalışır ve
+// 9 hattın 9'unda şeritte TEK tâbi var ⇒ birleşik `v` şeritte o tâbinin kendisidir.
+// Güvenlik `_dYaslaHazirla`da: şeritte İKİ ayrı tâbi kid'i varsa yaslama ATLANIR.
+var _dTabiOnbellek = { gun: null, kidler: null };
+// o gün {kid: [[lon,lat], …]} — motorun sırası d → v → s: `d:` aktifse nokta tâbi DEĞİL.
+function _dTabiKidleri(gun) {
+  if (_dTabiOnbellek.gun === gun) return _dTabiOnbellek.kidler;
+  var m = {};
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (y.lat == null || y.lon == null || !Array.isArray(y.v) || !y.v.length) return;
+    if (y.kur && gun < gunIdx(y.kur)) return;
+    var dAktif = (y.d || []).some(function (p) { return p && p.f && p.t && gun >= gunIdx(p.f) && gun < gunIdx(p.t); });
+    if (dAktif) return;
+    for (var i = 0; i < y.v.length; i++) {
+      var p = y.v[i];
+      if (p && p.kid && p.f && p.t && gun >= gunIdx(p.f) && gun < gunIdx(p.t)) {
+        (m[p.kid] = m[p.kid] || []).push([y.lon, y.lat]);
+        break;
+      }
+    }
+  });
+  _dTabiOnbellek = { gun: gun, kidler: m };
+  return m;
+}
+function _dTabiTaraf(tarafId, gun) {
+  if (!_dTabiKidleri(gun)[tarafId]) return null;
+  if (typeof aktifDonem === "undefined" || aktifDonem < 0 || typeof donemler === "undefined") return null;
+  var d = donemler[aktifDonem];
+  if (!d || !d.v) return null;
+  var poli = [];
+  (tekVeri(d.v).features || []).forEach(function (f) { _dPoliEkle(poli, f.geometry); });
+  return poli.length ? { renk: "#b2384a", poli: poli, anahtar: "vassal:" + aktifDonem, hk: "vassal", tabiKid: tarafId } : null;
+}
+// Hattın _D_YASLA_KM şeridinde o gün kaç AYRI tâbi kid'inin noktası var (kaba: hat
+// köşelerine kuş uçuşu). >1 ise birleşik `v` gövdesi şeritte tek bir tâbiyi temsil ETMEZ.
+function _dSeritTabiSayisi(hat, gun) {
+  var h = Array.isArray(hat[0][0]) ? [].concat.apply([], hat) : hat;
+  var kidler = _dTabiKidleri(gun), n = 0, adlar = [];
+  Object.keys(kidler).forEach(function (kid) {
+    var yakin = kidler[kid].some(function (q) {
+      return h.some(function (p) {
+        var kx = 111.32 * Math.cos((p[1] + q[1]) / 2 * Math.PI / 180);
+        return Math.hypot((p[0] - q[0]) * kx, (p[1] - q[1]) * 110.57) <= _D_YASLA_KM;
+      });
+    });
+    if (yakin) { n++; adlar.push(kid); }
+  });
+  return { n: n, adlar: adlar };
 }
 function _dPoliEkle(dizi, g) {
   if (!g) return;
@@ -821,6 +875,7 @@ var _dYaslaImza = null;
 var _dYaslananlar = {};     // o an gövdesi hatta yaslanmış kayıt id'leri
 var _dOsmDegisti = false;   // osmanli kaynağı bizim elimizden mi geçti?
 var _dDevletDegisti = false; // devlet kaynağı bizim elimizden mi geçti?
+var _dVasDegisti = false;    // vassal (tâbi) kaynağı bizim elimizden mi geçti? (TABI-GOVDE-1004)
 var _dYaslaSon = {};        // son düzeltilmiş gövdeler {hk: MultiPolygon koordinatı}
 
 // Yabancı gövdeleri app.js'in devletGuncelle()'siyle AYNI kuralla kurar
@@ -848,6 +903,14 @@ function _dOsmanliKaynaginiYaz(geo) {
                      geometry: { type: "MultiPolygon", coordinates: geo } }] }
                  : (d.o ? tekVeri(d.o) : petekVerisi(d));
   harita.getSource("osmanli").setData(veri);
+}
+// PAKET-0076-TABI-GOVDE-1004 — `_dOsmanliKaynaginiYaz` ile aynı desen; null ⇒ app.js'in hâli.
+function _dVassalKaynaginiYaz(geo) {
+  var d = donemler[aktifDonem];
+  var veri = geo ? { type: "FeatureCollection", features: [{ type: "Feature", properties: {},
+                     geometry: { type: "MultiPolygon", coordinates: geo } }] }
+                 : (d && d.v ? tekVeri(d.v) : bosVeri());
+  harita.getSource("vassal").setData(veri);
 }
 
 // EŞZAMANLI giriş — denetim/ölçüm betikleri bunu çağırıp sonucu HEMEN okur
@@ -935,6 +998,10 @@ function _dYaslaHazirla(gun) {
     if (!gs) atlanan.push(k.id + ": " + solId + " gövdesi o gün yok");
     if (!gr) atlanan.push(k.id + ": " + sagId + " gövdesi o gün yok");
     if (!gs || !gr) return;
+    if (gs.hk === "vassal" || gr.hk === "vassal") {      // PAKET-0076-TABI-GOVDE-1004 güvenliği
+      var st = _dSeritTabiSayisi(k.hat, gun);
+      if (st.n > 1) { atlanan.push(k.id + ": şeritte birden çok tâbi (" + st.adlar.join(", ") + ") — birleşik tâbi gövdesi kesilmez"); return; }
+    }
     if (_dHatKm(k.hat) < _D_YASLA_EN_KISA_KM) { atlanan.push(k.id + ": hat " + _D_YASLA_EN_KISA_KM + " km'den kısa"); return; }
     isler.push({ kayit: k, gs: gs, gr: gr, anahtar: k.id + "|" + gs.anahtar + "|" + gr.anahtar });
   });
@@ -1051,6 +1118,7 @@ function _dYaslaUygula(gun, sonuc, atlanan) {
   _dYaslaSon = sonuc.yeni;                 // ölçüm/denetim için (tarayıcı konsolu)
   var yeni = Object.assign({}, sonuc.yeni);
   var osm = yeni.osmanli; delete yeni.osmanli;
+  var vas = yeni.vassal; delete yeni.vassal;           // PAKET-0076-TABI-GOVDE-1004
   // Düzeltecek yabancı gövde yoksa ve kaynak zaten app.js'in hâlindeyse
   // yazma (583 devletlik setData pahalıdır).
   var yabanciVar = Object.keys(yeni).length > 0;
@@ -1058,6 +1126,10 @@ function _dYaslaUygula(gun, sonuc, atlanan) {
   _dDevletDegisti = yabanciVar;
   if (osm) { _dOsmanliKaynaginiYaz(osm); _dOsmDegisti = true; }
   else if (_dOsmDegisti && aktifDonem >= 0) { _dOsmanliKaynaginiYaz(null); _dOsmDegisti = false; }
+  // Tâbi gövdesi: bugüne kadar yalnız osmanli + devlet yazılıyordu ⇒ tâbi taraf tanınsa bile
+  // kesilmiş gövde haritaya HİÇ inmezdi (tek kollu yama "düzeldi" sanılırdı).
+  if (vas) { _dVassalKaynaginiYaz(vas); _dVasDegisti = true; }
+  else if (_dVasDegisti && aktifDonem >= 0) { _dVassalKaynaginiYaz(null); _dVasDegisti = false; }
   _dYaslananlar = sonuc.yaslanan;
   _dYaslaSayac = Object.assign({}, sonuc.sayac, { atlanan: atlanan });
 }
