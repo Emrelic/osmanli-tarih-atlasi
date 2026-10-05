@@ -172501,5 +172501,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5842",
+  "zaman": "2026-10-05 18:55",
+  "kimden": "KUNYE-IRAN-ANAKRONIZM-1005",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (kayıt; asıl teslim send_message ile gitti) · iran anakronizmi 5 dönem/5 yerleşim, sınıf ② 5/5 · Değişmez 4 bunları GÖRÜYOR (BEKLENEN_HAYALET=5'in tamamı) · diff uygulanmadı · rapor denetim/KUNYE-IRAN-ANAKRONIZM-1005.md · commit 6dead53d",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
