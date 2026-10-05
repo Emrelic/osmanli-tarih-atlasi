@@ -86,6 +86,17 @@ window.OLAYLAR_OK109 = [
   },
 
   {
+    t: "1918-10-29", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
+    kapsam:"dis", onem:3, b: "Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Saboru Habsburg bağlarını kopardı", odak_yer:["Zagreb","Ljubljana","Saraybosna"], kapsam_genis:true,
+    gun: "29 Ekim 1918",
+    yer: "Zagreb, Ljubljana, Saraybosna",
+    kisiler: "—",
+    d: "Hırvat Saboru 29 Ekim 1918'de Hırvatistan, Slavonya ve Dalmaçya'nın Avusturya-Macaristan ile bütün devlet-hukuku bağlarını kopardığını ilân etti; aynı gün Ljubljana'da Sloven-Hırvat-Sırp Devleti'nin kuruluşu kutlandı. Bosna-Hersek'te Avusturya-Macaristan yönetimi 1 Kasım 1918'de yetkiyi Ulusal Konseyin hükümetine devretti. Bu devlet, 1 Aralık 1918'de Belgrad'da Sırp-Hırvat-Sloven Krallığı ilân edilinceye kadar sürdü.",
+    ic_not_turetilmis: "ONCE1281-OK109-UYGULA-1004 (5 Ekim 2026): bu dosyanın eski 1918-11-11 maddesi (\"Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor\", kaynak: birinci-dunya-savasi) TÜRETİLMİŞ bulundu ve kaldırıldı — gün Avusturya künyesinin t'sinden devralınmıştı, kaynağı 11 Kasım'ı ALMANYA'nın mütarekesi için söylüyordu (D207, D211 ⑧, D260). İz silinmedi, buraya taşındı; eski ic_not_d AYNEN: \"eski ifade: Bu gün atlasta imparatorluk mirasının toplu devrini gösterir: seksen dokuz yerleşim Avusturya kimliğinden çıkar; · atlas bu ilanların toprak üzerindeki karşılığını tek güne toplar\". Ölçüm: denetim/ONCE1281-AVUSTURYA109-1004.md §6 · denetim/ONCE1281-OK109-SUPURGE-1004.md.",
+    kaynak: "Hrvatska enciklopedija (LZMK), 'Država Slovenaca, Hrvata i Srba' (enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba): 'Obuhvaća razdoblje od objave Deklaracije Narodnoga vijeća SHS 19. X. 1918., odn. zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.' · Hrvatska enciklopedija 'Zagreb': 'a 29. X. 1918. Hrvatski je sabor raskinuo sve državnopravne veze s Austro-Ugarskom Monarhijom' · Zgodovinski arhiv Ljubljana (zal-lj.si): 'Manifestacija ob ustanovitvi Države Slovencev, Hrvatov in Srbov, na Kongresnem trgu v Ljubljani (29. 10. 1918)' · Parlamentarna skupština BiH (parlament.ba/Content/Read/180): 'Do 1. novembra 1918. … Austro-Ugarska monarhija je istog dana predala vlast ovom vijeću' — TDV kapsamı dışı taneciklik (§4)."
+  },
+
+  {
     t: "1918-10-30", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
     kapsam:"dis", onem:4, b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", odak_yer:["Viyana","Graz"], kapsam_genis:true,
     gun: "30 Ekim 1918",
@@ -113,26 +124,6 @@ window.OLAYLAR_OK109 = [
     kisiler: "İmparator Karl",
     d: "İmparator Karl'ın 3 Kasım 1918'de İtalyanlarla Villa Giusti'de mütareke imzalaması imparatorluğun parçalanmasını hızlandırdı. TDV bu günü açıkça Avusturya'nın silâh bırakışı olarak kaydeder: \"Yenilgiyi kabul eden Avusturya 3 Kasım'da, Almanya da 11 Kasım'da silâhları bıraktılar.\" Haritada Trento ve Trieste bu gün Avusturya'dan İtalya'ya geçer — dağılışın haritada görünen ilk toprak devri budur.", ic_not_d:"eski ifade: Atlasta Trento ve Trieste",
     kaynak: "birinci-dunya-savasi"
-  },
-
-  {
-    t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi", "konu-askeri", "konu-siyasi"],
-    kapsam:"dis", onem:4, b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", odak_yer:["Viyana","Budin","Prag","Zagreb","Belgrad","Varşova"], kapsam_genis:true,
-    gun: "11 Kasım 1918",
-    yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
-    kisiler: "İmparator Karl",
-    d: "Harita bu gün imparatorluk mirasının toplu devrini gösterir: Avusturya-Macaristan toprakları dağılır; Yugoslavya, Macaristan Naipliği, Sırbistan Krallığı, Çekoslovakya, Romanya Krallığı ve Polonya aynı anda haritaya girer. Devrin kendisi tek bir günde olmadı — Çekoslovakya 28 Ekim'de, Avusturya Cumhuriyeti 30 Ekim'de, Macaristan halk cumhuriyeti 31 Ekim'de ilân edilmişti; harita bu ilanların toprak üzerindeki karşılığını tek güne toplar. TDV 11 Kasım'ı Almanya'nın silâh bırakışı olarak kaydeder; Avusturya'nınki 3 Kasım'dır.", ic_not_d:"eski ifade: Bu gün atlasta imparatorluk mirasının toplu devrini gösterir: seksen dokuz yerleşim Avusturya kimliğinden çıkar; · atlas bu ilanların toprak üzerindeki karşılığını tek güne toplar",
-    kaynak: "birinci-dunya-savasi"
-  },
-
-  {
-    t: "1918-11-18", k: "taht", etiket: ["siyaset","konu-siyasi","konu-hanedan"],
-    kapsam:"dis", b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu", yer_kon:[48.208,16.373],
-    gun: "18 Kasım 1918",
-    yer: "Viyana",
-    kisiler: "İmparator Karl",
-    d: "Kasım ayında Macaristan Cumhuriyeti'nin kurulduğu ilân edilince İmparator Karl tahtsız kaldı. TDV'nin kaydına göre imparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla imparatorlukla birlikte hânedan da tarihe karıştı. Bu, hânedanın hukukî sonudur; toprak üzerindeki egemenlik devri ondan haftalar önce, ardıl devletlerin ilanlarıyla gerçekleşmişti — haritada görünen, bu egemenlik devridir.", ic_not_d:"eski ifade: — atlas ikincisini boyar, birincisini anlatır.",
-    kaynak: "avusturya"
   },
 
   {
@@ -207,12 +198,13 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", odak_yer:["Strazburg","Metz","Colmar","Mulhouse"], kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren'in Fransa'ya iadesi hukuka geçti", odak_yer:["Strazburg","Metz","Colmar","Mulhouse"], kapsam_genis:true,
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
     kisiler: "—",
-    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Haritada bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer — 1871'den beri Alman olan Alsas-Loren'in dönüşü. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.", ic_not_d:"eski ifade: Atlasta bu gün",
-    kaynak: "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
+    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Antlaşmanın 51. maddesi 1871'den beri Alman olan Alsas-Loren'i (Strazburg, Metz, Colmar, Mulhouse) Fransa egemenliğine iade etti — ama devri imza gününe değil, geriye dönük olarak 11 Kasım 1918 mütarekesine bağladı. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.", ic_not_d:"eski ifade: Atlasta bu gün",
+    ic_not_turetilmis: "ONCE1281-OK109-UYGULA-1004 (5 Ekim 2026): eski metnin toprak iddiası (\"Haritada bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer\") TÜRETİLMİŞTİ — kaynak alanının kendisi \"atlasın KENDİ verisinden okunmuştur\" diyordu (D260). Antlaşmanın 51. maddesi devri 11 Kasım 1918'e bağlar; veride 1919-06-28 almanya → fransa-cumhuriyet kırılması (4 yerleşim) bu yüzden ayrı bir VERİ kalemidir (öneri: 1918-11-11).",
+    kaynak: "Versailles Antlaşması md. 51 (Yale Law School, Avalon Project, avalon.law.yale.edu/imt/partiii.asp): 'The territories which were ceded to Germany … are restored to French sovereignty as from the date of the Armistice of November 11, 1918.' · birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
   },
 
   {
