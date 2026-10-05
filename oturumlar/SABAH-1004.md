@@ -684,3 +684,42 @@ de; önbellek zaten sıfırdan kuruluyor, yarıda kesmenin ek bedeli yok.
 ## KOŞU SÜRERKEN
 `data/` ve `arac/` DONUK — ben de dokunmayacağım. İşçiler ölçüm ve rapor yazmaya devam
 edebilir, ama veri yaması uygulanmayacak. Koşu bitene kadar yayın da yok.
+
+## 🔴 KOŞU BAŞLAMADI — SENİN İZNİNİ BEKLİYOR (HAVVA'nın ekranında)
+
+Emri verdim, HAVVA **durdu**: yamaları uygulama adımı o oturumun **izin
+sınıflandırıcısı** tarafından reddedildi (gerekçe: "paylaşılan kaynağı değiştirme").
+Ardından salt-okur bir `git status` bile reddedilmiş.
+
+```
+YAPILMADI:  git apply (iki yama) · node --check · ast · kaynak_durum kapat
+            tahtaya "BAŞLATIYORUM" · uret_petek.py
+YAPILDI:    fetch · worktree 3c4eb790'a alındı ve TEMİZ · iki diff `apply --check` TEMİZ
+SONUÇ:      koşu YOK · EMRELIC serbest · KAYNAK-DURUM ilanı yapılmadı (öteki
+            oturumlar etkilenmedi)
+```
+
+🟢 **HAVVA doğru davrandı ve bir şeyi fazladan doğru yaptı:** *"Senin ya da başka bir
+oturumun benim yerime yapması da aynı reddin etrafından dolaşmak olur, bunu da
+istemiyorum."*
+⇒ **Ben de yapmadım.** Yamaları şimdi bu uçta uygulayıp main'e itseydim, HAVVA yalnız
+`fetch` edip koşardı ve ret hiç olmamış gibi olurdu. Bir eşin reddedildiği işi onun
+yerine yapmak, senin izin kararını geçersiz kılmaktır. O yüzden koşu BEKLİYOR.
+
+### SENDEN İSTENEN — tek şey
+**HAVVA'daki oturumun ekranında** bekleyen izni ver. Sonrası otomatik; emir orada
+duruyor ve HAVVA baştan yürütecek:
+```
+① git fetch + git rev-parse origin/main   ← taban O AN yeniden ölçülecek
+                                            (3c4eb790 artık en güncel olmayabilir)
+② git apply  MOTOR-BANT-TAM-1005.diff  ve  ARAYUZ-BANT-TAM-1005.diff   (İKİSİ birlikte)
+③ node --check js/app.js · ast.parse uret_petek.py
+④ py arac/kaynak_durum.py kapat --kod KOSU + tahtaya "BEN BAŞLATIYORUM"
+⑤ MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80
+   MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4 py arac/uret_petek.py     (~6,5-7 sa)
+```
+
+⚠️ Alternatif: izni vermek istemiyorsan koşuyu **UMIT** koşabilir (KOŞU 19'u o
+koşturmuştu ve bayrakları doğru vermişti). Ama UMIT'in RAM'i ölçülmedi; HAVVA'nın
+12,9 GB boşuna karşılık EMRELIC 1,05 GB ile koşamaz — UMIT'i seçersek önce ölçmek
+gerekir.
