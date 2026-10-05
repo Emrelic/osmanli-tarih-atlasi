@@ -79,3 +79,65 @@ naiplik→halef) ve antlaşma maddeleri (Saint-Germain, Trianon, Rapallo, Büyü
 3. 2i madde borcu 10 (yukarıda adıyla) — 2i kapısı ötmüyor ama kapanışlar sahte.
 4. Kalan borçlar: Bosna 20 (`drzava-shs`) · Eisenstadt (Burgenland 1921) · `isg:` borcunun 10'u (ay/yıl düzeyi, künyesiz
    ZUNR, Temeşvar basın kaynağı) · Država SHS künyesi (6 kırpılmış `isg:` geri uzar).
+
+## 5. HÜKÜM M-5822'NİN İKİ ÖLÇÜMÜ (bellekte, veriye yazılmadı · HEAD `7f46333e`)
+Betikler (scratchpad): `f8c_olc.py` · `f8c_ad.py` · `f8c_birim.py` · `f8c_gdansk.py` · `f8c_gdansk2.py` · `antlasma_ad.py`.
+⚠️ Bu ikisi için ayrıca öngörü commit'lemedim — sorular ölçüm sırasında daraldı (aşağıda ③ yeni bir bulgu); kusur bende.
+
+### ② YALNIZ TAÇ YARISI (35 kayıt: 34 taç + Peçuy `isg:`)
+| | 2s AÇIK | 2sk YER / YALNIZ TARAF | 2i | 4c | 4d · D7 |
+|---|---|---|---|---|---|
+| BUGÜN | 189 | 1560 / 1602 | 144/1 | 127 | 324 · 727 |
+| **TAÇ yarısı** | **188** (−1) | 1561 / **1635** (+33) | 154/1 | **127 ✓** | aynı |
+| CİS yarısı | 190 | 1560 / 1621 | 157/1 | 143 | aynı |
+| ikisi (F8-1005) | 189 | 1561 / 1654 | 166/1 | 143 | aynı |
+⇒ **4c'nin +16'sının TAMAMI Cisleithania/Dalmaçya yarısından.** Taç yarısı 4c'de temiz, 2s'yi bir İYİLEŞTİRİYOR — ama 2sk'yi +33 artırıyor.
+
+### ① YER ADI EKLEMENİN ETKİSİ — antlaşma metinleri yer ANMIYOR
+Dört metin birincil kaynaktan okundu (FOROST, Ungarisches Institut Regensburg: `19190910-1` Saint-Germain 137 s. ·
+`19200604-1` Trianon 149 s. · `19201112-1` Rapallo · `19230315-1` Büyükelçiler). 69 noktanın atlas adı + parantez adı
++ dönem adları (Pressburg, Agram, Kolozsvár, Lemberg…) arandı: **60'ı metinde YOK**. Geçen 9'un sınıfı:
+- **Açık devir cümlesi (eklenebilir) — 2:** Zadar (Rapallo md. 2 *"Zara … shall be recognised as forming part of the
+  Kingdom of Italy"*) · Cres (md. 3 *"the islands of Cherso and Lussin … shall also be recognised as forming part"*).
+- **Sınır referansı — örtülü, `D208` ölçütüyle EKLENMEZ — 2:** Murska Sobota (Trianon md. 27: *"point 295 about 16 km
+  north-east of Muraszombat"*) · Maribor (Saint-Germain md. 27: *"administrative boundary between the districts of
+  Marburg and Lebnitz"*).
+- **Yalnız demiryolu/yol adı — RED — 5:** Bratislava (*"Bratislava (Pressburg)-Nagy-Kanizsa line"* · md. 51 askerî
+  tahkimat) · Kassa (*"Kassa-Csap railway"*) · Zagreb (*"Zágráb-Gyékényes line"*) · České Budějovice, Třeboň
+  (*"Gmünd-Budweis and Gmünd-Wittingau railways"*).
+**Etki:** SIKI (yalnız Zadar+Cres) → 2sk **1654 → 1654 (0)** — ikisi de Rapallo kovasında, kova 12 eksikle AÇIK, birim
+sayılmıyor. GENİŞ (+Murska Sobota, Maribor) → **1652 (−2)**, ama o ikisi örtülü ⇒ yazılmamalı.
+⇒ **`D261` çaresi bu kalemde ÇALIŞMIYOR:** Trianon/Saint-Germain devredilen şehirleri saymıyor, yalnız SINIR HATTINDAKİ
+köyleri sayıyor. Madde metnine şehir adı yazmak, antlaşmanın söylemediğini söyletmek olur (yasak).
+
+### ③ 🔴 YENİ BULGU — "+52"nin çoğu ÇOĞALMA DEĞİL, GÖRÜNÜR OLMA (Gdańsk maskesi)
+`degismez2` kırılmaları GÜNE göre tek kovada toplar; kovada TEK bir yer açıklanmazsa kova AÇIK olur ve içindeki HİÇBİR
+birim kapalı sayılmaz (`denetle.py:1635-1644`). Bugün:
+```
+1918-11-11 kovası: 123 yerleşim · AÇIK · eksik 1 ['Gdansk']   ⇒ 122 birim 2sk'da HİÇ SAYILMIYOR
+```
+F8 bunlardan 54'ünü kapalı antlaşma kovalarına taşıyor (1919-09-10: 20 · 1920-06-04: 32 · 1923-03-15: 2) ⇒ ilk kez
+sayılıyorlar: 52 taraf + 2 yer. **Yer kolundan taraf koluna kayan birim bu 52'nin içinde değil.**
+**Kontrollü deney — Gdańsk İKİ dünyadan da çıkarıldı (1918-11-11 kovası kapanır):**
+| (Gdańsk hariç) | 2sk YER | YALNIZ TARAF | 4c |
+|---|---|---|---|
+| BUGÜN | 1581 | 1697 | 127 |
+| TAÇ, bölmesiz (tac→antlaşma doğrudan; yalnız ayrıştırma) | 1574 (−7) | 1703 (+6) | 160 |
+| **TAÇ, bölmeli (önerilen)** | 1582 (+1) | **1730 (+33)** | **127** |
+| HEPSİ bölmesiz | 1571 (−10) | 1671 | 196 |
+| HEPSİ (F8-1005) | 1580 (−1) | 1717 (+20) | 143 |
+**Okuma (taç yarısı):** ① günü 1918-11-11'den antlaşmaya taşımak **~7 birimi yer→taraf** kaydırıyor (GERÇEK `D261` bedeli:
+1918 maddeleri yeri anıyordu, antlaşma maddeleri anmıyor) · ② naiplik bölmesi her taç noktasına 1918-11-11'de **yeni bir
+birim** (macaristan-habsburg → macaristan-naiplik) ekliyor; bunların ~27'si taraf, ~8'i yer kolundan kapanıyor. Bu bir
+ÜLKE DÜZEYİ rejim değişimi (Habsburg krallığı → Macar devleti, iki kimlik de `harita: macaristan`) — adı anılacak bir yer yok.
+🔴 **Kapıya dair:** bugünkü 2sk tavanı (1602) Gdańsk'ın açık tuttuğu bir kovanın ARKASINDA duruyor. Gdańsk tek başına
+düzelse 2sk **1602 → 1697 (+95)** olur ve tavan aşılır — hiçbir veri kötüleşmeden. Sensör doymuş değil, MASKELİ (`D262`
+ailesi). Bu yamanın +52'si bu maskenin kısmen kalkmasıdır.
+
+## 6. İSTENEN (güncellendi)
+1. **Bölme:** TAÇ yarısı 4c'de temiz (127), 2s'yi 1 iyileştiriyor, 2i ötmüyor; 2sk +33 (kontrollü +33: ~7 gerçek yer→taraf
+   + ~27 rejim değişimi birimi). İstersen taç yarısının diff'ini ayrı üretirim (`ONCE1281-AVUSTURYA-TAC-1005.diff`).
+2. Yer adı çaresi: yalnız Zadar+Cres eklenebilir, etkisi 0 (Rapallo kovası açık). Önerim: EKLEME — sayıyı değiştirmiyor.
+3. **2sk tavanının Gdańsk maskesi** (sende — `denetle.py`): açık kovanın birimleri hiç sayılmıyor; tavan bu maskeye bağlı.
+4. Aynı-boya rejim değişimi (`macaristan-habsburg` → `macaristan-naiplik`) 2s'de kırılma sayılıyor mu sayılmamalı mı —
+   tasarım sorusu, sende.
