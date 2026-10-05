@@ -723,3 +723,618 @@ duruyor ve HAVVA baştan yürütecek:
 koşturmuştu ve bayrakları doğru vermişti). Ama UMIT'in RAM'i ölçülmedi; HAVVA'nın
 12,9 GB boşuna karşılık EMRELIC 1,05 GB ile koşamaz — UMIT'i seçersek önce ölçmek
 gerekir.
+
+---
+
+## 🔴 KOŞU ÖNCESİ İKİ DALI BİRLEŞTİRME — ölçülerek verilmiş hüküm (6 Ekim gece)
+
+Koşu `origin/main`den taze worktree kurar. Koşudan önce dalları birleştirmek
+DOĞRUDUR — ama bu ikisi **HARİÇ**, ve sebepleri ayrı:
+
+```
+origin/projeksiyon        2 ileride   🔴 BİRLEŞTİRMEYİN
+origin/makine/tahta-web   8 ileride   🔴 BİRLEŞTİRMEYİN (zaten kasıtlı bekliyor)
+```
+
+**① `projeksiyon` niçin:** `arac/uret_petek.py`ye dokunuyor ⇒ **motor tuzundadır**
+(§9.1: tuz = `uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py`).
+Ve kendi commit mesajı *"DAL — henüz görsel sınav YOK"* diyor: MapLibre v5.24.0 +
+hibrit küre/Mercator, `index.html` + `js/app.js` + `css/style.css` ile birlikte.
+⇒ Birleşirse koşu sınanmamış motor koduyla koşar **ve** yayın sınanmamış arayüzle
+çıkar. İki bilinmeyen tek koşuda çarpılır.
+
+**② `makine/tahta-web` niçin:** kesme (cutover) Emre'nin üç kalemine bağlı. Ayrıca
+`arac/tahta*.py` tuzda DEĞİL, yani koşuyu etkilemez — acelesi yok.
+📌 Bu dalın içeriği **ZATEN YAZILMIŞ**: 8 commit, `tahta_sunucu.py` + `tahta.py` +
+`tahta_kesme.py` + dört sınav (her biri "öngörü koşmadan önce mühürlendi"). Sıfırdan
+yazdırmayın — denetim görevi verildi (`TAHTA-WEB-DENETIM-1006`).
+
+### Ve PLAN-1004 §1 ile çelişki YOK — kontrol edildi
+§1, ④ ve ⑤ bitmeden ⑥'yı (TAM İNŞA, UFUK) yasaklar. HAVVA'ya verilen emir ⑥ DEĞİL
+**②**dir (VERİ koşusu, motor DONUK):
+- `MOTOR_UFUK_BANT` **zaman ufku değil YÜRÜYÜŞ BANDIdır** — `uret_petek.py:2151`:
+  *"UFUK BANTLARI — Emre'nin kararı: üç bant 5/7/10 gün … Bant, AYNI bedel alanının
+  farklı kontur seviyesidir; yeni Dijkstra GEREKMEZ."* Zaman eksenini açan bayrak
+  verilmedi (grep: `uret_petek.py`de zaman ufku bayrağı YOK).
+- İki bant yaması HAVVA'ya **yasaklandı** ⇒ tuzdaki dört dosya el değmemiş = motor DONUK.
+- Bayraklar KOŞU 19'un (1 Ekim, UMIT) takımının aynısı ⇒ tek bilinmeyen HAVVA.
+⚠️ Bedeli açıkça yazıyorum: bu koşu **5/7/10 bant kusurunu DÜZELTMEZ**. Düzeltme
+yukarıdaki ② adımındaki iki yamadadır ve onu yalnız Emre HAVVA'nın ekranında açabilir.
+
+---
+
+## 🔴 KF-1 (Kafkasya 7 çıkış günü) — UYGULANMADI, ve sebebi ölçüldü (6 Ekim gece)
+
+UMIT tasnifte *"koşudan önce girmezse bir koşu daha bekler"* dedi; doğruydu, ama
+uygulamayı ölçüm DURDURDU. Üç kapıdan ikisi açık, üçüncüsü kapalı:
+
+```
+① künye var mı?           ✓ gurcistan-demokratik-cumhuriyeti · ermenistan-demokratik-cumhuriyeti
+                            ikisi de devletler.js'te VE renkler.py'de BOYALI (:564 · :568)
+                            ⇒ harita deliği riski YOK
+② Değişmez 2 (±30 gün)?   ✓ yedi kırılmanın HEPSİ madde buluyor (1921-02-23 ve
+                            1920-11-12 TAM eşleşme). Ölçüm: 86 dosya, 1881 tarihli madde.
+③ ZİNCİR TUTUYOR MU?      ✗ TUTMUYOR — engel burada
+```
+
+**③:** Artvin'in bugünkü zinciri (`data/yerlesimler_ek27.js`)
+`{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}` → `tbmm-turkiye`.
+KASA'nın kaynağı bunu **iki yerden** çürütüyor: çıkış günü 1921-10-13 değil **1921-02-27**,
+ve öncesi `sovyet-rusya` **değil** — TDV `artvin`: *"Gürcü işgalinden kurtarıldı"*,
+*"Gürcistan Cumhuriyeti'ne verdiği bir ültimatom"*.
+
+⇒ İki yol da kapalıydı:
+- **Yalnız çıkış günü** yazmak → kayıt *"Sovyet Rusya 1921-02-27'ye kadar"* der, yani
+  kaynağın ÇÜRÜTTÜĞÜ künyeyi korur.
+- **Zinciri tamamlamak** için Gürcistan DC'nin giriş gününü künyenin `f:`inden almak →
+  **D210 ihlali**: *"künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR."*
+
+⇒ **HÜKÜM:** çıkış günleri KABUL, uygulama GİRİŞ GÜNÜ ölçülene kadar BEKLER.
+KASA'ya verildi: `denetim/KASA-KF1-GIRIS-1006.md` (yedi yer için giriş günü + 1918
+`transkafkasya` ara katmanı var mı). Geldiğinde tek seferde, tam zincir olarak uygulanır.
+📌 Bu kalem A kovasından **C kovasına** (ölçüm eksik) taşındı.
+
+⚠️ Ayrıca KASA'nın kendi beyanı korunsun: TDV kendisiyle çelişiyor (`artvin` 27 Şubat ↔
+`acara` 11 Mart) ve Digor **"düşük güven"** (Kars Valiliği). İkisi de kayda geçecek.
+
+---
+
+## 🔴 EMRE'NİN KARARI — UMIT'te bir YÖNETİCİ işlemi gerekiyor (6 Ekim gece)
+
+**Sorun:** `C:\atlas-umit\.git` sahibi `BUILTIN\Administrators`. Git bu depoyu
+*"dubious ownership"* diye reddediyor. UMIT'in işçileri `-c safe.directory=…` ile
+tek seferlik okuyarak çalışıyor, ama bir işçinin (`W3`) izin sınıflandırıcısı
+`git -c safe.directory=... worktree add` komutunu **"Auto-Mode Bypass" diye REDDETTİ.**
+
+🟢 **Ve iki oturum da doğru davrandı:** W3 atlatmadı, UMIT alt koordinatörü de
+onun yerine kurmadı (`TOPOLOJI §6.4`: *"bir eşin REDDEDİLDİĞİ işi onun yerine
+yapamaz/yaptıramaz"*). Ben de yapmıyorum. ⚠️ Sınıflandırıcı oturuma göre farklı
+karar veriyor — W1 ve W4 aynı komutu kurabildi. Yani bu bir "bazen çalışır"
+durumu ve o yüzden kalıcı çare şart.
+
+**Kök çare (yönetici yetkisi ister, Emre'nin):** `C:\atlas-umit\.git`in sahibini
+`UMIT\<kullanıcı>` yap. O zaman `safe.directory` hiç gerekmez ve sınıflandırıcı
+da takılmaz.
+```
+takeown /F C:\atlas-umit\.git /R /D Y
+icacls C:\atlas-umit\.git /setowner "UMIT\<kullanıcı>" /T
+```
+⚠️ Komutları ÖLÇMEDİM (o makinede değilim) — kullanıcı adı ve yol UMIT'te
+doğrulanmalı. Alternatif, daha temizi: worktree'yi sil ve `UMIT\<kullanıcı>`
+olarak YENİDEN kur.
+
+**İkinci kalem, aynı makinede:** UMIT'in `C:\atlas` deposunda **push edilmemiş 15
+commit** var (`88d000f5` + `M-5718…M-5731` = 14 hazır kıtanın HAZIRIM mesajı).
+`reset --hard` onları YOK EDER. UMIT'e koşturmamasını söyledim; mesajlar okundu ve
+kıtalar bulundu, yani içerikleri artık kayıp değil — ama commit'ler hâlâ orada ve
+deponun temizliği senin kararın.
+
+---
+
+# 🔴 EMRE'NİN KARARINI BEKLEYEN YENİ KALEM — Kafkasya zincirinde ÜÇ SEÇENEK, üçü de bedelli
+
+*(6 Ekim gecesi ölçüldü: UMIT alt koordinatörlüğü + W6. Koordinatör hüküm VERMEDİ, çünkü
+bu görünür ürün kararıdır.)*
+
+## Ölçülen durum
+Artvin · Posof · Şavşat · Hanak · Iğdır · Digor · Arpaçay kayıtlarında `s:` zinciri bugün
+`{f:"1917-11-07", t:"1921-10-13", d:"sovyet-rusya"}` diyor. **Bu kimlik yanlış.** W6'nın
+ölçümü: *"1917-11 sonrası Sovyet denetimi HİÇ yok."* Gerçek zincir
+```
+Rus çekilmesi → Osmanlı (Mart–Mayıs 1918) → Mondros tahliyesi → yerel İslâm hükûmeti
+ya da İngiliz → Gürcistan DC / Ermenistan DC → TBMM
+```
+Kaynaklı tutamaklar: Artvin Osmanlı **1918-03-28** (3 akademik) · Artvin İngiliz
+**1918-12-17** (TDV + Yücetürk) · Iğdır Osmanlı **1918-05-20** (Sarı, TÜBA) · ve
+`transkafkasya` künyesi (1917-11-07 → 1918-05-28) VAR. Ama **gün hassasiyetinde tam
+zincir 0/11**, en az bir ara geçiş 2/11.
+
+## 🔴 KARAR — üç yol, üçünün de bedeli var
+```
+① BUGÜNKÜ HÂL BIRAKILIR    harita DOLU ama kimlik YANLIŞ (kaynak çürüttü)
+② BOŞLUK BIRAKILIR         kimlik DOĞRU ama Değişmez 1 kırılır = haritada DELİK
+③ __BOSLUK__ BEYANI        DOĞRU ve BEYANLI (§3.5.1 "Kusur değil, BEYAN") — ama o
+                           dilim haritada BOŞ görünür, kullanıcı bir şey KAYBEDER
+```
+`D210` ①'i savunulamaz kılıyor (kaynaksız/çürütülmüş kimlik yazılamaz) ama ②/③ arası
+seçim **kullanıcının gördüğü şeyi değiştirir** ⇒ Emre'nin.
+📌 Kararı kolaylaştıracak ölçüm sipariş edildi: **zincirin kaç günü kaynakla kapanıyor,
+kaç günü açık kalıyor?** Boşluk 3 ay ise ③ kolay; 3 yıl ise karar ağırlaşır.
+
+## Yan karar: Aras-Türk Hükûmeti künyesi
+Koordinatör hükmü: **kapsam kararı DEĞİL** (Kafkasya 1918-1923 kapsamda, emsali
+`cenub-i-garbi-kafkas` var) ⇒ açılabilir. Üç şartla: ① bir kayıt gerçekten kullanacaksa
+② penceresi KAYNAKTAN gelecek ③ `renkler.py` boyası AYNI commit'te (boyasız künye
+`§1.5`in "HARİTA DELİĞİ" kovasını 0'dan kaldırır).
+
+---
+
+## KF-1 ARTIK ÜÇ ENGELLİ — uygulanmadı, ve her engel ölçüldü
+1. **Zincir** (yukarıdaki karar).
+2. **ARPAÇAY ad birleştirmesi (aday kusur):** veride TEK kayıt var —
+   `ad:"Arpaçay (Akyaka)"` lat 40.845 lon 43.325 — ve ayrı bir `Akyaka` kaydı YOK. Bu
+   projede parantez *aynı yerin başka adı* demektir (emsal: `Adranos (Orhaneli)`,
+   `Abeşe (Abéché)`). W6 ikisinin ~27 km ayrı olduğunu söylüyor (Zaruşad=Arpaçay,
+   Şüregel=Akyaka, Ercilsin 2024). ⚠️ *"~27 km"* rakamı ve *"ölçülmedi"* beyanı **W6'nın
+   değil UMIT alt koordinatörünün** — kendisi düzeltti, kayda öyle geçiyor. W6'nın raporu
+   yalnız Ercilsin 2024'ü kaynak gösteriyor. ⇒ Mesafe iddiası aday, olgu değil.
+   İki yerse KF-1'in Arpaçay günü Kars Valiliği'nin **/akyaka** sayfasından geldiği için
+   YANLIŞ YERİN günü olur (`D208`), ve KASA'nın "Küçükperveli ↔ Arpaçay" komşu günü
+   eşlemesi de ters olur. Ölçüm sipariş edildi.
+3. **HANAK yakası:** Sürmeli'ye göre 1919 sonrası Ardahan'da Kura **sol** yakası Gürcü,
+   **sağ** yakası Ermeni. Hanak'ın yakası ölçülmedi; sağ yakadaysa "Gürcistan → TBMM"
+   kırılması yanlış kimlikten çıkar. Ölçüm sipariş edildi.
+
+**Uygulanabilir tek satır:** Iğdır 1920-11-12 (iki bağımsız akademik tanık).
+
+---
+
+## 🔴 SESSİZ KAPI KUSURU — `O7`, bu gecenin en değerli bulgusu (W7 buldu, koordinatör doğruladı)
+`js/app.js:7035` → `/^OLAYLAR(_[A-Za-z0-9]+)?$/`. İç grupta `_` **yok** ⇒ iki alt çizgili
+yedi değişken **eleniyor**:
+`OLAYLAR_0073_IRAN_YANYA · _2S_0918 · _2S_0919 · _CUKUROVA_0907 · _ORTADOGU_0919 ·
+_SENKRON_0930 · _SENUSI_0919` = **112 Osmanlı maddesi ekranda YOK.**
+
+⚠️ Ve asıl kusur bu değil: **Değişmez 2 o 112 maddeyi SAYIYOR** (dosyadan okuyor), ekran
+göstermiyor (window'dan okuyor). ⇒ O maddeler kırılmaları "kapatıyor" ama kullanıcı o
+değişimi hiç görmüyor. **Senkron kapısı orada YANLIŞ TEMİZ.**
+⚠️ Daha da kötüsü: `denetle_yayin.cizilmiyor_mu()` yedisini de **LİSTELİYORDU** ve
+`CIZILMEYEN_MUAF`ta değillerdi. Kapı ötüyordu, kimse okumadı. **Rapor var ≠ rapor okundu.**
+⇒ Düzeltme dağıtıldı (desen + ÖNCE/SONRA kapı ölçümü, tavan ÖNERİLİR yazılmaz).
+
+## Kapanan borçlar (ölçümle)
+- **PL-7 4'üncü çift:** `BILINEN_AYRI` boşken bile ötmüyor (J 0,125) ⇒ yazılsaydı **ölü
+  kural** olurdu. Bekletmek doğruydu; kalem `gerek-yok` olarak KAPANDI.
+- **`vefat_id` 28 ↔ 27:** `durum_tablosu.py` bir **yorum satırını** sayıyor
+  (`olaylar_ek17.js:39`) ⇒ gerçek 27. `§1.5` ELLE düzeltilmeyecek (`D199`); araç
+  düzelince `--yaz` kendisi indirecek.
+- **`osman1` 1324-08-01:** gün/ay hiçbir TDV cümlesinde YOK ve `orhan` penceresinin
+  (Eylül 1323 – Mart 1324) DIŞINDA ⇒ gün düşer, yıl kalır (`D210`).
+- **KF-2 Artvin 27 Şubat:** korunur; 11 Mart'ı destekleyen akademik kaynak YOK (Batum
+  harekâtıyla karışmış). Altı aday kayda yazılır.
+
+---
+
+# 🟢 KOŞU 20 BAŞLADI — HAVVA'nın ilk koşusu
+
+`2026-10-05 21:20:57` · temel `fc380975` · worktree `C:\atlas-kosu` · yama YOK · yayın YOK
+`MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4`
+rasterio 1.5.2 (GDAL 3.12.2) · iki DEM sha256 TAM eşleşti · RAM 15,5/23,7 GB boş · C: 332 GB boş
+8k tabanı yazıldı: `denetim/HAVVA-KOSU-ONCESI-8K-1006.md` (koşu sonrası **üyelikle** karşılaştırılacak)
+
+🔴 **Koşu sürerken motor tuzunun dört dosyasına DOKUNULMAZ** (`uret_petek.py` · `renkler.py` ·
+`girdi.py` · `motor_onbellek.py`). Bu, bekleyen iki kalemi kilitliyor: CGK boyası ve
+`MOTOR-BANT-TAM` yaması.
+
+**Koşuyu BAŞLATMA hükmünün gerekçesi** (`denetle.py` çıkış 2 vermişti): çıkış 2'nin tek sebebi
+`8k` **körlüğü** — `8a ✓ 1508/1568 · 8b ✓ 82/84 · 8m ✓ · konum ✓ 0`, **İHLAL YOK**. Ve 8k
+ÇIKTIYI ölçer, koşu o çıktıyı yeniden üretir ⇒ eski gövdenin ölçülemezliğine bakıp yeniden
+üretimi durdurmak **daireseldir**. HAVVA kendi başına başlatmadı (benim şartım 0'dı), doğru
+davrandı.
+
+---
+
+# 🔴 EMRE — ÜÇ YENİ KARAR, üçü de kullanıcının GÖRDÜĞÜNÜ değiştiriyor
+
+## ⓵ Kafkasya zincirinde "B" dilimi: BOŞLUK mu DOLGU mu?
+Önceki notta üç yol yazmıştım; artık **sayı da var** (W6, 15.561 nokta-gün):
+```
+%22  K  adıyla kaynaklı
+%74  B  yalnız bölgesel/komşu kaynak
+%4   A  hiç kaynak yok        ← en uzun A: 232 gün (Borçka, Saylıca)
+```
+🟢 **Ve cevap umulandan iyi:** "3 yıldan fazla boşluk" senaryosu yalnız **B'yi boşluk saymakla**
+doğuyor (7 nokta). **B dolgu sayılırsa en uzun boşluk 7,6 ay**, onu da geçince ≤ 2,7 ay.
+⇒ W6'nın önerisi: **A → `__BOSLUK__` adayı · B → dolgu, kırılma günü yazmadan.** Bana da doğru
+geliyor ama hükmü vermedim: beyanlı boşluk haritada boş görünür, yani kullanıcı bir şey
+kaybeder. **Senin kararın.**
+
+## ⓶ Akyaka için YENİ NOKTA açılsın mı?
+Ölçüldü (W6): **Arpaçay ve Akyaka iki ayrı yer**, 27,5 km. Kurumsal sayfalar birbirine komşu
+diye atıf veriyor (`/akyaka` → "kuzeyinde Arpaçay", `/arpacay` → "doğusunda Akyaka"), Ercilsin
+2024 birebir: *"Zaruşad (Arpaçay), Şöregel (Akyaka)"*. Veride TEK kayıt var ve o kayıt
+**Arpaçay'ın** (0,4 km); `(Akyaka)` etiketi **yanlış** — bağlılığı eşanlam gibi yazmış.
+- Etiket düzeltmesi (`ad:"Arpaçay"`) benim işim, dağıtıldı.
+- 🔴 **Akyaka'ya yeni nokta açmak 4298'i değiştirir ve Değişmez 1'i oynatır ⇒ KAPSAM kararı,
+  senin.** Açılmazsa Akyaka'nın kaynaklı günü (1920-11-03) sahipsiz kalır; açılırsa yeni
+  yerleşim ve yeni petek doğar.
+
+## ⓷ Varsayılan DIŞ EŞİK ("4") değişsin mi? — 87 madde
+O7 düzeltmesi 112 maddeyi ekrana getirdi (`olaylar.length 1655 → 1767`, kayıp 0, bütün kapı
+sayıları birebir aynı). ⚠️ **Ama 112'nin 94'ü `kapsam:"dis"` ve varsayılan eşikte 87'si YİNE
+GİZLİ** — yalnız 25'i görünür.
+Hükmüm: kapı onları **saymaya devam eder** (gerçek maddeler, gerçek kaynaklar, ve `kapsam:"dis"`
+bir **beyan**dır), **ama ayrışma artık BEYANLI olur** — `denetle_yayin`e adlandırılmış kova:
+*"kapı sayıyor, varsayılan eşikte görünmüyor: 87"*. Sessiz ayrışma kusurdur, beyanlı değildir.
+🔴 **Eşiğin kendisinin değişmesi senin kararın** — kullanıcının gördüğünü değiştirir.
+
+---
+
+# 🔴 ÖLÇÜLMÜŞ ARAÇ KUSURU — `tahta.py` push REDDEDİLİRKEN "ULAŞTI" basıyor
+HAVVA iki kez ölçtü (**M-5825** ve **M-5848**): `tahta.py` push reddedildiği hâlde
+*"M-58xx ULAŞMIŞ"* yazıyor. HAVVA rebase + push'u elle yapıp numara çakışması olmadığını
+doğruladı.
+⇒ Bu tam olarak `§7.1 ⑤b`nin yasakladığı şey: *"yazıldı teslim kanıtı değildir."* Araç bir
+**yanlış teslim onayı** üretiyor, yani kuralın kendisini çürütüyor.
+📌 Ve `arac/tahta.py` `makine/tahta-web` dalında **yeniden yazılıyor** ⇒ düzeltme main'de
+yapılırsa çakışır. **Web tahtanın sürümünün bu kusuru DEVRALMADIĞI ölçülmeli** — kesme
+denetimine eklendi.
+
+---
+
+# 🔴 EMRE — DÖRDÜNCÜ KARAR: bir izin reddi, ve onu kimse dolanmadı
+
+**Durum:** `data/yerlesimler_ek26.js`teki kayıt `ad:"Arpaçay (Akyaka)"` ve bu etiket YANLIŞ —
+ölçüldü, Arpaçay ve Akyaka iki ayrı yer (27,5 km). Düzeltme notunu yazacak işçi (W6) notu
+şemada **olmayan** bir alana (`ic_not_ad`) yazdı; `denetle` o alana UYARI basıyor. Onu şemadaki
+`not:` alanına çevirmek **W6'nın izin denetimi tarafından REDDEDİLDİ.**
+
+🟢 **Ve üç oturum da doğru davrandı:** W6 atlatmadı · UMIT alt koordinatörü onun yerine yapmadı
+(`TOPOLOJI §6.4`) · ben de yapmadım. Bir eşin reddini üçüncü bir elle aşmak, reddin etrafından
+dolaşmaktır.
+⇒ **Karar senin.** Ya W6'nın ekranında o izni açarsın, ya da alanı ben/başka bir oturum
+**kendi izniyle** yazar (yani sen "bunu şu oturum yapsın" dersen).
+⚠️ Şartım: şemada olmayan `ic_note_ad` alanı `data/`ya COMMİTLENMİYOR — beyansız alan sessiz
+borç olur. `C:\atlas-w6`daki iki dosya commitlenmemiş bekliyor; iş kayıp değil, ağaca da girmedi.
+
+---
+
+# 🔴 ÖLÇÜLMÜŞ YENİ KUSUR SINIFI — "KOPYALANMIŞ ZİNCİR"
+
+Bu gece aynı sınıf **iki ayrı yerden** çıktı ve ikisi de tek kayıt değil, **üretici/desen**
+kusuru:
+
+## ① Lublin'in 1917-18 kuyruğu KOPYALANMIŞ — kaydın kendi `kaynak` alanı söylüyor
+`data/yerlesimler_p0037.js:73`, `kaynak:` alanının son cümlesi birebir:
+> *"1917-1918 kuyruğu **Varşova kaydının deseni**."*
+
+Ve o kuyruk Lublin'i **1918 Kasım'a kadar Rus** gösteriyor (`kongre-polonyasi` → ... →
+`sovyet-rusya` → `polonya`), oysa Lublin **1915 Temmuz'dan beri** Avusturya-Macaristan
+işgalinde. Üç yıldan fazla yanlış, ve `isg:` alanı **boş**.
+⇒ Ölçüm sipariş edildi: *bu desen kaç kayda kopyalanmış?* Tek bir yanlış tarihten çok daha
+geniş bir sınıf olabilir.
+
+## ② Küçükperveli'nin zinciri Arpaçay'dan BİREBİR alınmış
+Kayıt üretilmiş bir dosyada; düzeltme `ARAC-TR1923-YAZ-0914.py` üreticisinden yapılmalı. Ve W6
+ölçtü: zincir Arpaçay'dan birebir kopyalandığı için hüküm **bütün 1281-1923 zincirini** kapsıyor.
+Konum da sapmış: atlas kaydı GeoNames ana kaydından **ve** OSM'den 3,5 km uzak, o ikisi
+birbirine 0,21 km ⇒ sapma atlasta.
+
+📌 **Niçin bu bir sınıf:** kopyalanmış zincir `denetle`de ihlal vermez (biçimce geçerlidir),
+`kaynak:` alanı dolu görünür, ve kaynağı okuyan biri *"Varşova'nın deseni"* cümlesini
+**bir dayanak sanabilir.** Oysa o cümle bir dayanak değil, **dayanak olmadığının itirafıdır.**
+
+---
+
+# 🔴 BEŞİNCİ KARAR: 1915-18 Rus Polonyası — `s:` mi `isg:` mi?
+
+W5'in Polonya düzeltmesinde Lublin parçasını **bloke ettim**, çünkü alan sorusu açık:
+```
+isg: EMSALİ (taradım, hepsi egemenlik devretmeyen askerî işgal, hepsi kaynaklı):
+   Adana/Tarsus  fransa-cumhuriyet   1918-12
+   Pécs          sirbistan→yugoslavya 1918-11
+   Timișoara     romanya-kralligi    1919-08
+1915-18 Rus Polonyası da BİÇİMSEL OLARAK aynı: egemenlik Brest-Litovsk'a (Mart 1918)
+kadar hukuken Rus'ta, Almanlar/Avusturyalılar işgal idaresi kurdu.
+⇒ `isg:` doğru alan GİBİ görünüyor, ve Brest kaydının KENDİ notu da `isg:` diyor.
+```
+🔴 **Ama alan seçimi KAPI SONUCUNU değiştiriyor:** W5'in ölçtüğü `D7 734 → 732` iyileşmesi
+Lublin'in **`s:` olarak** Avusturya olmasından doğuyor; D7 `s:` bileşenine bakar. `isg:`e
+yazılırsa `s:` Rus kalır ve ada kapanmaz. İki alan, iki farklı kapı cevabı.
+⇒ Ölçüm sipariş edildi (mevcut emsal + `isg:` ile D7 ne oluyor). **Emsal varsa ona uyulur,
+yeni kural icat edilmez.** Emsal yoksa karar senin: işgal haritada nasıl görünecek?
+
+---
+
+# 🔴 ALTINCI KARAR — I. DÜNYA HARBİ İŞGAL KATMANI YOK (kapsam kararı)
+
+Polonya'nın 1915-18 işgalini düzeltmeye çalışırken W5 çok daha büyük bir boşluk ölçtü:
+```
+35 kayıt 1916'da hâlâ `rusya` — işgal HİÇ yazılmamış
+   Lublin · Białystok · Brest · Grodno · Pinsk · Kovel · Lutsk · Volodymyr ·
+   Rivne · Vilnius · Kaunas · Riga · Minsk … (8'i KOPYA DESEN taşıyor)
+Belçika · Kuzey Fransa · Sırbistan · Romanya · Karadağ işgallerinde
+   ne `s:` ne `isg:` VAR — katman tamamen yok
+```
+⇒ 8 kayıtlık bir düzeltme değil, **bir katmanın tamamının yokluğu.** Polonya'yı düzeltmek, aynı
+boşluğun geri kalanını olduğu gibi bırakırken bir köşesini doldurmak olur — ve düzeltilen köşe,
+düzeltilmeyenle **tutarsız görünür.**
+
+**ÜÇ YOL, hükmü senin:**
+```
+① yalnız Polonya düzeltilir      tutarsızlık BEYANLI kalır
+② bütün I. DH işgal katmanı      parti işi olarak açılır (büyük, ama tutarlı)
+③ hiçbiri yazılmaz               bugünkü hâl BEYANLI borç olur
+```
+
+---
+
+## Bağlı hüküm: `s:` değil **`isg:`** — ve emsal DAİRESEL çıktı
+Önceki notta *"emsal varsa ona uyulur"* yazmıştım. W5 ölçtü: 1915-18 işgali yazılmış 7 kaydın
+**yedisi de tek partiden** (KASA-POLONYA-1005) ve ikisi *"Lublin kaydıyla aynı dayanak"* kopya
+desenini taşıyor. ⇒ O yedi kayıt bir emsal değil, **aynı tercihin yedi kopyası**; bir kuralı kendi
+uygulamasıyla doğrulamak, hiç doğrulamamaktır.
+🟢 Tek **bağımsız** emsal **Lüksemburg**: `isg: almanya 1914-08-02 → 1918-11-20`, `s: luksemburg`
+KORUNMUŞ. 1918 sonrası bölge emsalleri de `isg:` (Lvov · Kassa · Zadar · Şibenik). Hukuken de
+doğrusu bu: egemenlik Brest-Litovsk'a (Mart 1918) kadar Rus'ta kaldı.
+⇒ **Hüküm: `isg:`**, sekiz kayıt için tek seferde, `s:` korunarak.
+
+## 🔴 Ve SIRA TERS — bir körleşmeyi YAPMADAN ÖNCE yakaladık
+W5'in ölçümü: **`degismez7` `isg:`yi HİÇ OKUMUYOR.** Tam emsal uygulanınca D7 `734 → 731`, ve
+düşen üç kayıt (Radom 07-01 · Zamość 07-01 · Kielce 10-01) **düzelmiyor, GÖRÜNMEZ oluyor.**
+⇒ Bu bu gecenin **DÖRDÜNCÜ `D265` vakası** ve en pahalısı, çünkü kendi elimizle yapacaktık:
+*görünür bir borcu görünmez bir borca çevirmek.*
+```
+① ÖNCE  degismez7 isg:yi OKUYACAK  (diff olarak, iki yönlü sınavla)
+② SONRA sekiz kayıt isg:e taşınacak
+```
+⇒ `POLONYA-DUZELT-1006` **bütünüyle kuyruktan çıkarıldı** — Lublin dahil, Radom/Chełm/Zamość
+dahil. ⚠️ Önceki notta *"Lublin HARİÇ kabul"* yazmıştım; **o tutarsızdı ve W5 yakaladı**: o üç
+parça da `s:`e yazıyor, yani Lublin'le aynı soruya düşüyorlar.
+
+## Brest-Litovsk — 1915-08-25, seçim EDİTÖRYAL
+İki akademik kaynak 1 gün ayrışıyor (25 Jarosławski 2022 ↔ 26 Mikietyński UJ), TDV'de "1915"
+yok, üçüncü kaynak bulunamadı. ⇒ 25 yazılır, `ic_not`ta iki aday ve *"seçim editöryal"* beyanı.
+🔴 **"Eski takvim" hipotezi kayda GİRMEZ:** dayanağı kırmızı listeden bir sayfaydı. W5 sayfayı
+kullanmamakla doğru davrandı; hipotez de o sayfayla birlikte düşer — onsuz hiçbir dayanağı yok.
+`D209`: çıkarım damgası kırmızı liste kaynağını meşrulaştırmaz.
+
+---
+
+# 🔴 KF-1'E DÖRT NOKTA DAHA — aynı sahte pencere, kopya zincir yoluyla
+
+W6 ölçtü: **Gümrü · Eçmiyadzin · Kliçatak · Norapat** hâlâ sahte
+`sovyet-rusya 1917-11-07 → 1920-12-02` penceresini taşıyor, oysa kaynak kayıt **Revan** artık
+`transkafkasya → ermenistan-dc`. ⇒ Dalga 1'de hükme bağladığım sınıfın aynısı, **4 nokta daha**,
+ve bu sefer sebebi ölçüldü: **kopyalanmış zincir bayatladı.**
+⇒ Bu dördü de Kafkasya zincir kararına (yanlış kimlik ① / delik ② / `__BOSLUK__` ③) dahildir.
+
+## Ve kopyalanmış zincirin ölçülmüş zararı
+```
+ARAC-TR1923-YAZ-0914.py'nin yazdığı 28 kaydın 28'i zincirini başka kayıttan türetiyor
+   (23 birebir · 5 iki kaydın birleşimi · kaynağa uzaklık 4,3 – 133,4 km)
+🔴 ZİNCİRLEME DEVRALMA — `§4` YASAK, 4 kayıt:
+   Küçükperveli←Arpaçay · Beri←Iğdır · Kliçatak←Gümrü · Norapat←Eçmiyadzin
+   (dördünün kökü de Revan'ın "ankraj" kopyası)
+elle yazılmış gerçek kopya 54 (30 bütün zincir + 24 pencere) · yanlış pozitif 20
+🔴 82 kopyanın 12'si BAYAT (%14,6) — kaynak düzelmiş, kopya eski kalmış.
+   İçinde `Lublin←Varşova` (5 Ekim — BU HAFTA düzelttiğimiz kaydın kopyası bayatladı)
+```
+⇒ Çareler dağıtıldı: `zincir_kaynagi` makine-okunur alanı + yeni kapı sorusu + **tavan 12**.
+
+## 🔴 ÜRETİLMİŞ DOSYAYA ELLE EKLENEN ALAN — saatli bomba
+O dört kayda üretimden **sonra** elle dönem kaynağı eklenmiş. Betik yeniden koşarsa o alanlar
+**silinir**. Dosya başlığı "ÜRETİLMİŞ — ELLE DÜZENLEME" diyor ve kural ihlal edilmiş; ben de
+fark etmemişim.
+⇒ Hüküm: elle eklenen alanlar **üreticinin GİRDİSİNE** taşınır. Taşıma diff'i inmeden betik
+`data/`ya **koşturulmayacak** — koşarsa kaynaklı bilgi sessizce yok olur.
+
+---
+
+# 🟢 BİR BEKLEYEN KALEMİN MEKANİZMASI DOĞDU — `dogrulanmadi:true`
+Açık listemdeki *"Cres / Şefşâven / Maroa — Vikipedi beyanı"* kaleminin mekanizması yoktu.
+Ölçtüm: `data/yerlesimler_ek29.js:571` Deyrülkamer kaydında **`dogrulanmadi:true`** diye bir
+alan var ve amacı tam bu — *"'başkentti' iddiası yalnız Wikipedia'da, TDV/Britannica'da
+DOĞRULANAMADI."*
+⚠️ Ama: `BILINEN_ALANLAR`da **YOK** (uyarı basıyor) ve **hiçbir kod OKUMUYOR** (`arac/*.py` +
+`js/*.js` tarandı → 0). ⇒ Bu gecenin **BEŞİNCİ `D265` vakası** ve en saf hâli: ötekiler ihmaldi,
+bu bir **özendi** ve yine hiçbir yere ulaşmadı.
+⇒ Çare: ① alan `BILINEN_ALANLAR`a (`girdi.py` TUZDA ⇒ motor kuyruğuna) ② **sayılır ve basılır**
+("doğrulanmadı işaretli kayıt: N") ③ `VERI-YAPISI.md`ye tanımı. ②'nin ①'den bağımsız inmesi
+GÜVENLİ — uyarı susmaz, sayı basılır, yani borç iki kat görünür olur.
+📌 Ve alan artık tek kullanımlık not değil, **Wikipedia-tek-kaynak iddiaların ortak işareti**:
+o üç kayıt da onu taşıyacak. `bulunamadı` ile karıştırılmayacak — biri "aradım yok", öteki
+"var ama dayanamıyorum".
+
+---
+
+# BİRİKEN MOTOR YAMALARI KUYRUĞU — tuz BİR KEZ değişecek (`§9.1 ②`)
+```
+MOTOR-BANT-TAM-1005.diff     uret_petek.py   5/7/10 bant kusuru
+CGK boyası                   renkler.py      cenub-i-garbi-kafkas — harita deliği
+BILINEN_ALANLAR eki          girdi.py        dogrulanmadi + zincir_kaynagi
+```
+🔴 **Niçin kuyruk, tek tek değil:** `§9.1`in ölçümü — 19-25 Eylül arası tuza **19 commit** girdi
+ve önbellek HİÇ isabet almadı; o 19'un **12'si yalnız `renkler.py` + `girdi.py`**ydı, oysa gövde
+hesabı o iki dosyayı **okumuyor bile** (AST: 30 işlev/91 ad). ⇒ Bir alan adı yazmak, HAVVA'nın
+2-7 saatte kurduğu önbelleği gövdenin göremediği bir değişiklik için öldürür.
+📌 **Ve bu gece aynı kilide ÜÇ KEZ çarptık** (CGK boyası · dogrulanmadi · zincir_kaynagi) ⇒
+`§9.1`in sonundaki yapısal çare (`MOTOR-LEGO-0925`: geometri katmanlarına renk/girdi İÇERMEYEN
+ayrı tuz) artık "yolda" değil **gereken** şey. Ölçümü dağıtıldı.
+
+---
+
+# 🔴🔴 EN ÜSTE — BİR SONRAKİ KOŞUNUN BAYRAKLARI BİREBİR AYNI OLMALI
+
+W10 ölçtü: `uret_petek.py:581` tuza `os.environ`daki **her** `MOTOR_*`ı alıyor, ve bu
+değişkenler **İKİ tuzda da** var (genel + geo). ⇒ Bir sonraki koşuda
+```
+MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56
+```
+birinden biri değişirse **`govde` dahil her katman ölür** ve 7 saat yeniden ödenir.
+📌 `MOTOR_SUREC_ISCI` istisnadır — `:571` `_ONB_ISLETIM` içinde, tuza GİRMEZ (ölçüldü).
+⇒ **İşçi sayısı serbestçe değiştirilebilir, ötekiler DEĞİL.**
+
+---
+
+# 🔴 KOŞU 20 BELLEK OLAYI — ve kök sebebi KODDA bulundu
+
+## Olay (HAVVA ölçtü, WMI)
+```
+21:20  başladı, boş RAM 15,5 GB
+21:46  boş RAM 11,0 GB
+21:59  boş RAM 0,07 GB · commit 60,1/60,5 GB (sınıra 0,4 GB) · PagesInput/s ~110-125 bin
+       süreç başına ÖZEL bellek: 12.465 · 11.264 · 11.428 · 10.838 MB ≈ 46 GB
+22:10  TEPE GEÇTİ: boş RAM 15,4 GB · commit 24,3/46,9 · süreç başına ~3 GB
+22:08+ İKİNCİ yükseliş: dört süreç BAYT BAYT aynı (5.483 · 5.478 · 5.476 · 5.481 MB)
+```
+HAVVA'nın durdurma girişimi izin sistemince **reddedildi**; ne o ne ben etrafından dolandık.
+**Emre devam kararı verdi.** Kilit (KOSU) yürürlükte.
+
+## 🔴 KÖK SEBEP — ölçüldü, `arac/uret_petek.py`
+`_ISCI_NO` kontrollerinin tamamı: `:127` `:282` `:518` `:542` `:616` `:4408` `:5773` `:6908` `:6933`.
+⇒ **`:542` ile `:6908` arasında işçiyi ana süreçten ayıran HİÇBİR ŞEY YOK.** Her işçi şunları
+**kendisi yeniden hesaplıyor**: Kara maskesi · Göller · Nehir yatakları · Dağ sırtları · ızgara ·
+DEM · **üç Dijkstra** · YÜRÜYÜŞ · Voronoi · kenar ağı · polygonize · Kıyı kesimi · Ada kuralı ·
+Çöl tavanı · Petek alanları · Bölge sınırları. Ayrışma `:6908`de, çıkış `:6933`te.
+⇒ **Paralellik yalnız `govde`de (koşunun %78'i) kazanç; öncesi 4 süreçte 4 KEZ yapılıyor.**
+Bellek işçi sayısıyla **doğrusal**, çünkü her süreç tam kopya taşıyor.
+📌 Ve bu **ilk koşuya özel bir ceza**: sıcak önbellekte `k1`/`col`/`kusat`/`dolgu` her işçi
+tarafından okunur, bedel küçük. HAVVA'nın önbelleği boştu ⇒ dördü de sıfırdan kurdu. UMIT'in
+KOŞU 19'u bu duvara bu yüzden çarpmamış olabilir (logu depoda yok, karşılaştırma YAPILAMADI).
+
+## ⇒ BİR SONRAKİ KOŞU: `MOTOR_SUREC_ISCI=2`
+4 değil 2: bellek yarıya iner, `govde` kazancı korunur. 2 ile de sığmazsa 1'e inilir — **ve o
+zaman `bellek.tsv`den ölçülmüş bir sayıyla.**
+🔴 **Hatam:** `ISCI=4`ü HAVVA'nın bellek profilini **ölçmeden** yazdım. Sıra tersiydi: profil
+önce ölçülür, işçi sayısı sonra seçilir.
+
+## 🟢 Ve çareyi HAVVA kurdu
+`bellek.tsv` nöbetçisi: 45 sn'de bir süreç başına özel bellek + boş RAM + commit + aşama satırı,
+1,5 GB'tan fazla sıçrayanı hemen bildiriyor. Benim önerim (`uret_petek.py`ye alt-aşama satırı)
+motor tuzundaydı ve tam inşa bekliyordu; HAVVA'nın çözümü **koşuya dokunmadan aynı soruyu
+cevaplıyor**. Koşu bitince `denetim/HAVVA-KOSU20-BELLEK.tsv` olarak commitlenecek.
+
+---
+
+# 🔴 BİR GÜVENCENİN KENDİSİ KÖRDÜ — ve o güvenceyi ben kanıt olarak alıntılamıştım
+`uret_petek.py:601-603` *"`ARAC-LEGO-zincir.py` motor değişikliğinde yeniden koşturulur"* diyor
+ve ben bunu bir tur önce **kanıt olarak** gösterdim. W10 ölçtü: o betik **import deyimlerinden
+modül adlarını toplamıyordu** ⇒ `BOYALAR` (`:269`) ve `girdi` (`:271`) evrende **hiç yoktu**
+(ölçüldü: False), `sb` zinciri de taranmıyordu. ⇒ 25 Eylül'ün *"BOYALAR zincirde yok"* hükmü
+**yapısı gereği başka bir sonuç veremezdi.**
+🟢 Düzeltilmiş betikle (32 işlev/116 ad) hüküm **ayakta kaldı**, kanıt yenilendi.
+⇒ Ders genişliyor: *bir denetimin var olması, hatta KODUN ONA ATIFTA BULUNMASI, o denetimin
+çalıştığını göstermez.*
+⇒ **A kuyruğu AÇILDI**: CGK boyası + `BILINEN_ALANLAR` eki koşu 20'den sonra, tam inşa
+beklemeden inebilir (`govde` korunur).
+
+---
+
+# Emre'nin kalemleri — bu turda eklenenler
+```
+① hazır kıtada 6 EKSİK   — kişi kampanyası için (araştırma 6 kıta, yazım 1 kıta)
+② KB 266 kampanyası       onay verdim: iki kademe (① kendi maddesi %55 · ② kapsayıcı,
+                          ①+② %100). ② kimliği kaynaklar, TARİHİ kaynaklamaz ⇒ ②'li
+                          kayıtta f/t "kaynakta yok" işaretli kalır. 27 nadir tür
+                          örneklemde HİÇ yoktu ⇒ ikinci örneklem (10 kalem) bekliyor.
+③ SK · IT · O6            okuyucusuz veri, bağlama modeli KAPSAM kararı (W12 ölçtü:
+                          O6'da 1698/2084 madde ZATEN künyeye bağlı, gerçek borç 386)
+```
+
+---
+
+# 🔴 KOŞU 20 — BELLEĞİN TAM YERİ BULUNDU: `uret_petek.py:4273-4282`
+
+İkinci tepe hızlandı (45 sn'de dört sürecin her biri +1,6-1,75 GB; 22:22'de süreç başına
+~9 GB, boş RAM 3,65 GB, commit 43,0/46,9 GB) ve adım **26 dakikadır aynı** satırda.
+Tahsisi kodda yerinden tespit ettim:
+```
+:4272  print("su koridoru: 1454 akarsu parçası + kıyı")   ← logun son satırı
+:4273  _su_hat = [unary_union(_tum_nehir),  KARA.boundary]
+:4275  _SU     = unary_union(_su_hat)
+:4281  _SU_TAMPON = _SU.buffer(COL_SU_MUAF_KM / 111.32 / cos(40°))   ≈ 0,35 DERECE
+:4285  _ONB.yaz("k1", ...)                                ← önbelleğe yazım
+```
+🔴 **`KARA.boundary` BÜTÜN DÜNYANIN kıyı çizgisi.** Ona 1454 akarsu eklenip birleştiriliyor ve
+~0,35 derecelik tampon çekiliyor. **Dört süreç de aynı dünya tamponunu kuruyor** — bayt bayt eşit
+büyümenin sebebi bu.
+📌 Ve `:4285` önemli: önbelleğe yazım tamponun **bitişinden sonra** ⇒ burada çökerse `k1` yazılmaz
+ve bu 26 dakika da kurtarılmaz. Kurtulan tek şey 21:22'deki 17 MB.
+
+## 🟢 B KUYRUĞUNA YENİ KALEM — matematiği sağlam, kazancı büyük
+Çöl tavanı **yalnız `COL` poligonlarının içinde** uygulanıyor (kodun kendi yorumu: çöller
+0-40° arasında). ⇒ `COL`den 30 km'den uzaktaki su muafiyeti **hiç etkilemez.**
+⇒ **`_SU`, `COL`un 30 km genişletilmiş zarfına KIRPILABİLİR**: dünyanın tamamı yerine yalnız çöl
+çevresi tamponlanır. Kırpılan hiçbir parça sonucu değiştiremez.
+**ŞART:** çıktı `_SU_TAMPON` **birebir aynı** kalmalı; değişirse kırpma yanlış kurulmuştur.
+📌 Bu kazanç **işçi sayısından bağımsız** — `MOTOR_SUREC_ISCI=2` kararının yerine geçmez, onunla
+birlikte çalışır.
+
+## B kuyruğunun bugünkü hâli (hepsi `uret_petek.py` = motor tuzu, tam inşa ister)
+```
+MOTOR-BANT-TAM-1005.diff          5/7/10 bant kusuru
+su koridoru kırpması              yukarıda — bellek + süre
+alt-aşama log satırı              Çöl tavanı içinde ara satır yok, teşhis edilemiyor
+MOTOR_* sınıflandırması (③2)      yalnız okunan değişkenler; ③3 AST kapısı OLMADAN alınmaz
+DOLGU_ONBELLEK · DOLGU_CIKTI
+  · KILIT_KAPALI → İŞLETİM        ölçüldü: bir kilit bayrağı geo önbelleğini öldürüyor
+```
+
+---
+
+# 🔴 EMRE — I. DÜNYA HARBİ DOĞU CEPHESİ: BEŞ KAPSAM SORUSU (W14 ölçtü, veri yazılmadı)
+36 kayıt · başlangıç günü **kaynaklı 20/36** · ay 4 · bulunamadı 9 · bitişlerin çoğu **üst sınır**.
+```
+(a) 1918 UNR davetli girişleri `isg:` mi sayılacak (davet = işgal değil mi?)
+(b) 1919 Freikorps kapsamda mı
+(c) üst-sınır bitişler ay hassasiyetine mi indirilecek
+(d) Hotin zinciri ayrı hata adayı
+(e) Litvanya/Estonya bağımsızlık `s:` geçişleri İŞGAL ALTINDA gerçekleşiyor;
+    `isg:` yazılmazsa harita işgali GÖSTERMEZ
+```
+⚠️ **YENİ KAYNAK TUZAĞI — `dersler/`e yazılacak:** VLE (Visuotinė lietuvių enciklopedija)
+Kaunas/Vilnius/Šiauliai maddelerinde **ÇİFT Jülyen çevrimi** yapıyor ⇒ gün için kullanılmamalı.
+Bir kaynağın **sistematik** olarak yanlış çevirdiğini bulmak, tek bir yanlış tarihi bulmaktan
+değerlidir: ilki bütün kullanımlarını şüpheli kılar.
+
+---
+
+# 🔴 YENİ KUSUR SINIFI — KAYIT KENDİ NOTUYLA ÇELİŞİYOR (W16 farkında olmadan buldu)
+```
+turgut-reis  f:1485  →  kaydın KENDİ notu 1487 diyor (TDV de 1487)
+uzun-hasan   f:1423  →  notu hicrî 828 diyor (= 1425)
+```
+⇒ Alan kendi açıklamasıyla çelişiyor **ve not DOĞRUYU söylüyor.** Hiçbir kapı görmüyor, çünkü
+kapılar alanı **kaynakla** karşılaştırıyor, **kendi notuyla** karşılaştırmıyor.
+⇒ Tarama dağıtıldı (`kisiler.js` + `yerlesimler*.js` + `padisahlar.js`; hicrî çeviri de denenecek).
+📌 `D265`in aynası: orada ölçüm **basılmıyordu**, burada açıklama **okunmuyor.** İkisi de
+"bilgi var, kimse bakmıyor".
+
+## Ve kişilerde ilk gerçek tarih kusurları (W16, 47 kayıt tarandı: ① 41 · ② 6 · ③ 0)
+```
+seyh-bedreddin  t 1416 → 1420   🔴 §4 tuzak ⑧ BİREBİR: 1416 TDV'de İznik'ten
+                                 KAÇIŞ yılı — rakam gövdede var, başka şeyi tarihliyor
+gazi-osman      f 1832 → 1833
+turgut-reis     f 1485 → 1487
+uzun-hasan      f 1423 → 1425
+kilic-ali       f 1500 → BOŞALTILIR (TDV "muhtemelen 1500'lerin başı" ⇒ D210 sahte kesinlik)
+kemankeş        tür vezir → sadrazam
+```
+⇒ Örneklem ①%55 öngörmüştü, gerçek **%87** — örneklem muhafazakâr çıktı, iyi yönde.
+⇒ 27 nadir tür de kampanyaya **dahil** (iki örneklemde ③ 0/30).
+
+---
+
+# Bayat sayılar BENDE — iki tane, düzeltiyorum
+```
+CLAUDE.md §9     "ODAKSIZ 485"  → W13 ölçtü: kapı evreni 438, düzeltmeden sonra 325.
+                 W13'ün öngörüsü bu bayat sayıdan türediği için çürüdü.
+SABAH-1004       "Cres İHLAL"   → Cres'i BEN düzeltmişim (Cisleithania, Saint-Germain md.91);
+                 kalem saatler önce çözülmüş, listemde duruyordu.
+```
+🔴 Ve bunun bir usul sonucu var: **nöbet talimatındaki açık kalem listem her gece birebir
+tekrarlanıyor** ⇒ bayat bir kalem her turda yeniden doğru sayılıyor. Kalan kalemler
+(`57 imza yeri` · `3 mükerrer` · `17 yetim` · `Şefşâven/Maroa` · `Jasenovaç+Brod`) artık
+**var olduğu ÖLÇÜLMEDEN** uygulanmayacak. Özellikle `3 mükerrer madde`: W11 bugün
+**gerçek mükerrer 0** ölçtü, o kalem büyük olasılıkla tamamen bayat.

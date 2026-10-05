@@ -69,6 +69,7 @@
 ```
 okunan kalem : 40 · ✅ VAR : 31 · 🔴 YOK : 9 (ASIL SAYI) · ⚪ OKUNAMADI : 0 · ölü slug : 30
 🔴 YOK oranı : 9/40 = %22,5
+ek kalem (örneklem DIŞI, Emre'nin doğrudan sorusu, 5 Ekim) : 1 · 🔴 YOK (kısmen) : 1 — bkz. "EK KALEM"
 ```
 
 **Yöntem:** madde gövdeleri iki kaynaktan okundu — ① canlı çekim (`islamansiklopedisi.org.tr`, 4-5 Ekim 2026; 9 dalga, HTTP 302 = ölü slug, `arama/<slug>` yönlendirmesi = o başlıkta madde yok) ② repodaki hazır TDV önbellekleri (`denetim/*-tdv-onbellek/`, `_kaynak_govde/` vb.). Önbellekten okunanlarda URL, maddenin kalıcı slug adresidir. Bütün alıntılar GÖVDEDEN birebirdir; Türkçe karakterler olduğu gibi korunmuştur.
@@ -284,4 +285,23 @@ kanıt: "Nitekim III. Osman'ın ortadan kaldırmak üzere girişimlerde bulundu�
 1. **Ölü slug mekânizması çözüldü:** TDV bilinmeyen slug'u `arama/<slug>` sayfasına YÖNLENDİRİR (HTTP 302). Yani 302 = "bu başlıkta madde yok"nun kendiliğinden kanıtı. Bunu bilmeden "slug tutmadı" diye atlanan maddeler yanlış-negative üretir (ör. KİLİKYA için 8 slug denendi; hepsi aramaya gitti → DİA'da KİLİKYA maddesi yok).
 2. **"bk." stub'ları:** KIRKPINAR ("bk. GÜREŞ"), EJDERHAN HANLIĞI ("bk. ASTARHAN HANLIĞI"), ANADOLU SELÇUKLULARI ("bk. SELÇUKLULAR [Anadolu]") — tek satırlık yönlendirme maddeleri; alıntı asıl maddede aranmalı.
 3. **9 🔴'ün deseni:** hiçbiri "uydurma" değil — 7'si **kısmen doğru**: TDV'de VAR olan çekirdek olgunun üstüne TDV'de OLMAYAN bağlayıcı hüküm (Pasarofça/1737 · Hasan Ali · Cuci batı kanadı · İstanbul-1739 · bağımsız statü · altmış üyeli/Napolyon · güç devri). 2'si alıntının TDV'de hiç olmaması (#29 İlhanlılar adıyla tâbiiyet · #36 'önemli sonuçlar' ifadesi). Risk sınıfı: **TDV'den çeviri/paraphrase yapılırken eklenen sentez cümlelerinin TDV'ye atfedilmesi.**
+
+---
+
+## EK KALEM — Emre'nin doğrudan sorusu (5 Ekim 2026, 40'lık örneklem DIŞI)
+
+**Kalem:** `olaylar_ek10.js` (aynı madde `paket_02.js`'te de var) · 1877-11-18 · "Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları" · `kaynak:"dokusanuc-harbi"`. `d` içinde "TDV" atfı geçmez → 520'lik evrenin dışı; ölçüm aynı üç adımla yapıldı.
+
+**kova: 🔴 YOK (kısmen) — fark TEK bağlacık; gerisi birebir.**
+
+**iddia (d'den):** Ruslar üç koldan ilerledi, 30 Nisan'da Doğubayazıt'ı aldı, Ardahan'a girdi; Erzurum üzerine yürürken 15 Temmuz'da mağlûp edilerek sınır dışına atıldı; Ahmed Muhtar Paşa'ya "Gazi" unvanını kazandıran bu başarı ağustosta General Lazarof'un yeniden taarruzuyla tersine döndü; 18 Kasım'da Kars düştü; Erzurum'a çekilen kuvvetler Aziziye tabyalarında Nene Hatun'un ahaliyi teşvikiyle mukavemet gösterdi; Kars-Ardahan-Batum sekiz ay sonra Berlin'de harp tazminatının bir kısmına karşılık Rusya'ya bırakıldı.
+
+**kanıt — birebir:** "Doğu Anadolu'da da Kars, Doğubayazıt ve Ardahan'a doğru üç koldan ilerleyen Ruslar 30 Nisan'da Doğubayazıt'ı ele geçirdiler. General Melikof'un idare ettiği kuvvetler de şiddetli mücadelelerden sonra Ardahan'a girdiler. Buradan da Erzurum üzerine yürüyen Ruslar 15 Temmuz'da mağlûp edilerek sınır dışına atıldılar. Fakat General Lazarof kumandasında ağustosta yeniden saldırıya geçen Ruslar 18 Kasım'da Kars'ı ele geçirdiler. Bunun üzerine daha uygun bir savunma için Erzurum'a çekilen Osmanlı kuvvetleri Aziziye tabyalarında Nene Hatun'un ahaliyi teşvikiyle büyük bir mukavemet örneği ortaya koydular." — https://islamansiklopedisi.org.tr/doksanuc-harbi (canlı çekim, 5 Ekim 2026)
+
+Son cümle de birebir: "Osmanlı Devleti Kars, Ardahan ve Batum'u harp tazminatının bir kısmına karşılık olmak üzere Rusya'ya bırakacak, Doğubayazıt ve Eleşkirt vadisi kendisinde kalacaktı." — https://islamansiklopedisi.org.tr/berlin-antlasmasi · "sekiz ay" aritmetiği: 18 Kasım 1877 → 13 Temmuz 1878 (Berlin, ERZURUM maddesi) = 7 ay 25 gün.
+
+**fark:** ① **"Ahmed Muhtar Paşa'ya 'Gazi' unvanını kazandıran bu başarı" — bu bağ TDV'de YOK.** DOKSANÜÇ HARBİ unvanı Plevne dönemi bağlamında verir, 15 Temmuz başarısına bağlamaz: "Bu müdafaa İstanbul'da memnuniyetle karşılandı ve Sultan II. Abdülhamid kendisi için aldığı 'gazi' unvanını Plevne kahramanı Osman Paşa ve Doğu Anadolu cephesi kumandanı Ahmed Muhtar Paşa'ya da verdi." GAZİ AHMED MUHTAR PAŞA maddesi unvanı 25 Ağustos Gedikler zaferinden SONRA verir: "Türk kuvvetleri, 25 Ağustos 1877 günü de âni bir hücumla Ruslar'ı yenerek Gedikler (Kızıltepe) zaferini kazandı. Bunun üzerine II. Abdülhamid Ahmed Muhtar Paşa'ya 'gazi' unvanı ile bir kılıç, iki at ve Murassa' Mecîdî nişanı verdi." Unvan TDV'de VAR; **15 Temmuz'a bağlanan hali YOK** — 40'lık örneklemin "7/9 deseni"nin birebir tekrarı (çekirdek olgu VAR + eklenen sentez bağı).
+② *(fark değil, çelişki bildirimi — D211 ⑥)* **Aziziye'nin Kars'tan sonra geliyormuş gibi dizilmesi TDV'nin KENDİ sıkıştırmasıdır; d kaynağına sadık.** TDV'nin ayrıntılı iki maddesi tersini tarihler — GAZİ AHMED MUHTAR PAŞA: "4 Kasım'da Deveboynu'nda yapılan savaşta Ruslar'a yenildi ve elinde kalan az sayıdaki askerle Erzurum'a gelip onları Aziziye tabyalarına yerleştirdi … 8 Kasım'da Ruslar'ın Aziziye tabyalarına hücum etmeleriyle çıkan şiddetli çarpışmada onları Erzurum halkıyla birlikte bozguna uğrattı … Ancak Kars'ın 18 Kasım'da Ruslar'ın eline geçmesi üzerine…" · ERZURUM: "Başta Nene Hatun olmak üzere, Erzurum halkının büyük desteğiyle 8-9 Kasım gecesi Aziziye ve Mecidiye tabyalarında Ruslar'a karşı büyük bir zafer kazanıldı." Yani Aziziye (8-9 Kasım) Kars'ın düşüşünden (18 Kasım) **ÖNCE**dir; kronoloji hatası varsa o, DOKSANÜÇ HARBİ maddesinin özet dizilişindedir, d'i yazan oturumun değil. Maddenin ek okuma kartı (`ekokuma_p76b.js`, yine TDV kaynaklı) doğru sırayı taşır: "8 Kasım'da Ruslar Aziziye tabyalarına hücum etti… Ancak 18 Kasım'da Kars'ın düşmesi üzerine…".
+
+**slug ölçümleri:** canlı — dokusanuc-harbi (18.029 kr) · gazi-ahmed-muhtar-pasa (25.601 kr) · kars (20.427 kr; 1877 için gün vermez: "Kars 1828, 1855 ve 1877'de Rus işgaline uğradı. 1878 Berlin Antlaşması sonucunda Rusya'ya bırakıldı.") · ölü (302) — ahmed-muhtar-pasa · nene-hatun · aziziye-savunmasi · dokusan-uc-harbi · osmanli-rus-savasi-1877-1878 · dokusanuc-harbi (ilk deneme, yazım hatasıydı).
 
