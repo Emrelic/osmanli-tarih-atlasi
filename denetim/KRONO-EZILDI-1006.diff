@@ -1,0 +1,80 @@
+diff --git a/js/app.js b/js/app.js
+index d426710d..770f14e9 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -14248,9 +14248,32 @@ document.addEventListener("keydown", function (e) {
+ // kalıba uyuyor (habsburg/rusya/lehistan/venedik/iran/bizans/kirim/
+ // macaristan); uymayan biri çıkarsa KRONOLOJI_ID_OZEL ile eşlenir.
+ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — istisna için
++// 🆕 6 Ekim 2026 (UMIT-W26) — EZME DEĞİL BİRLEŞTİRME. Eski `=` künyenin KENDİ
++// maddelerini siliyordu; ölçüldü: 26 künye, 228 madde. 144'ü dosyada aynı gün
++// zaten vardı (meşru ezme), ama 44'ünün dosyada hiç karşılığı yoktu (ör.
++// `iran`ın 6 Pehlevi maddesi 1925-1979 — dosya 1295-1923; `almanya` 1933-1945)
++// ve sekmeden SESSİZCE kayboluyordu. Kural: künye maddesi dosyada TEMSİL
++// EDİLİYORSA düşer, edilmiyorsa EKLENİR. Temsil = dosyada (a) aynı gün ya da
++// (b) ±30 gün içinde (Değişmez 2'nin penceresi) madde var ya da (c) künye
++// maddesi yıl hassasiyetinde (`YYYY-01-01`, §4) ve dosyada aynı yıl madde var.
++function kronoGun(t) {
++  var m = /^(-?\d+)-(\d\d)-(\d\d)/.exec(String(t));
++  return m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) / 864e5 : null;
++}
++function kronoTemsilEdiliyor(k, derin) {
++  var kt = String(k.t), kg = kronoGun(kt), yil = /-01-01$/.test(kt) ? kt.slice(0, -6) : null;
++  for (var j = 0; j < derin.length; j++) {
++    var ft = String(derin[j].t);
++    if (ft === kt) return true;
++    if (yil !== null && ft.slice(0, ft.length - 6) === yil) return true;
++    var fg = kronoGun(ft);
++    if (kg !== null && fg !== null && Math.abs(fg - kg) <= 30) return true;
++  }
++  return false;
++}
+ (function derinKronolojiBindir() {
+   var D = window.DEVLETLER || [];
+-  var bindirilen = [], eslenmeyen = [], ezilen = [];
++  var bindirilen = [], eslenmeyen = [], ezilen = [], korunan = [];
+   Object.keys(window).forEach(function (anahtar) {
+     if (anahtar.slice(0, 10) !== "KRONOLOJI_") return;
+     if (/^KRONOLOJI_(SINIR|COK)_/.test(anahtar)) return;   // çok taraflı: aşağıdaki ekleyici
+@@ -14278,11 +14301,20 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } —
+         // kronolojisi hem `KRONOLOJI_*` dosyası düşerse biri SESSİZCE ölür.
+         // ⇒ Sessiz ölüm YOK: eziliyorsa BAĞIR. (`§11`: sessiz atlama, yanlış
+         //   sonuçtan pahalıdır — yanlış sonuç bir gün fark edilir, kayıp asla.)
+-        if (D[i].kronoloji && D[i].kronoloji.length)
+-          ezilen.push(id + " (künye " + D[i].kronoloji.length +
+-                      " madde → dosya " + derin.length + ")");
+-        D[i].kronoloji = derin;
+-        bindirilen.push(id + " (" + derin.length + ")");
++        var kendi = D[i].kronoloji || [], ek = [];
++        for (var k = 0; k < kendi.length; k++)
++          if (!kronoTemsilEdiliyor(kendi[k], derin)) ek.push(kendi[k]);
++        if (kendi.length - ek.length)
++          ezilen.push(id + " (" + (kendi.length - ek.length) + "/" + kendi.length + ")");
++        if (ek.length) korunan.push(id + " (+" + ek.length + ")");
++        // Dosya dizisi DEĞİŞTİRİLMEZ (window.KRONOLOJI_* başka yerde de okunur);
++        // ek yoksa eski davranış bit bit aynı: künye dosyanın KENDİSİNİ gösterir.
++        D[i].kronoloji = ek.length ? derin.concat(ek).sort(function (x, y) {
++          var gx = kronoGun(x.t), gy = kronoGun(y.t);
++          return gx !== null && gy !== null ? gx - gy :
++                 String(x.t) < String(y.t) ? -1 : String(x.t) > String(y.t) ? 1 : 0;
++        }) : derin;
++        bindirilen.push(id + " (" + D[i].kronoloji.length + ")");
+         bulundu = true; break;
+       }
+     }
+@@ -14290,9 +14322,13 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } —
+       eslenmeyen.push(anahtar + " → \"" + adaylar.join("\" / \"") +
+                       "\" (DEVLETLER'de böyle id yok)");
+   });
++  // Meşru ezme (dosyada temsil edilen) bilgi; temsil EDİLMEYEN madde artık
++  // silinmiyor, eklenip sayılıyor — sessiz ölüm yine YOK.
+   if (ezilen.length)
+-    console.warn("Atlas: 🔴 KRONOLOJİ EZİLDİ — künyenin kendi maddeleri " +
+-                 "dosyayla değiştirildi: " + ezilen.join(", "));
++    console.log("Atlas: künye maddesi dosyada temsil edildiği için düştü: " + ezilen.join(", "));
++  if (korunan.length)
++    console.warn("Atlas: 🟡 KRONOLOJİ KORUNDU — künyenin dosyada karşılığı olmayan " +
++                 "maddeleri eklendi: " + korunan.join(", "));
+   if (bindirilen.length) console.log("Atlas: derin kronoloji bindirildi — " + bindirilen.join(", "));
+   // Sessiz kaybolma YOK — eşlenmeyen bir dosya "0 madde" gibi görünmesin.
+   if (eslenmeyen.length) console.warn("Atlas: KRONOLOJI_* eşlenemedi — " + eslenmeyen.join(", "));
