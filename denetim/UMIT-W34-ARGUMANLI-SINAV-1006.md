@@ -52,3 +52,62 @@ Mühür: sha256 `2ce6dcbb…8969` (yalnız §0), 2026-10-06T01:27:09+03:00, öl�
 
 ## 5. git status
 `git -C C:\atlas-w34 status --porcelain` → **boş** (bütün koşulardan sonra, ağaç kaldırılmadan önce).
+
+---
+
+## EK (1006, ikinci görev) — KUNYE-SINA çıkış kodu + KOSU10-KALAN teşhisi
+Ağaç: atılabilir worktree, origin/main **7afbe86f**. Veriye dokunulmadı. Motor tuz dosyalarına dokunulmadı.
+
+### EK-1. `denetim/ARAC-KUNYE-SINA-0903.py` çıkış kodu → `denetim/KUNYE-SINA-CIKIS-1006.diff`
+Yama (+30 −3), CLAUDE.md §3'ün üç çıkış kodu:
+- `0`: temiz.
+- `1`: en az bir 🔴 HATA. Sonda `sys.exit(1 if hata else 0)`.
+- `2`: ÖLÇÜLEMEDİ. Beş durumda: argüman yok · girdi okunamadı / JSON değil · `arac/renkler.py` yüklenemedi · `data/devletler.js` node ile okunamadı · girdide künye yok (boş küme TEMİZ sayılmaz).
+
+UYARI (⑤ ⑦) çıkışı etkilemez; eski davranış korundu. `git apply --check` temiz (atlas-umit HEAD 0576e28b'ye karşı).
+
+**İki yönlü sınav — eski (HEAD) ve yeni yan yana:**
+| girdi | eski çıkış | yeni çıkış |
+|---|---|---|
+| YAMA-KUNYE-CERKEZ-0918.json (HATA 1) | **0** ✗ | **1** ✓ |
+| ONERI-KUNYE-ZEND-0907.json (HATA 2) | **0** ✗ | **1** ✓ |
+| yapay ters aralık (HATA 1) | 0 ✗ | 1 ✓ |
+| yapay temiz künye (`harita:"zend"`, HATA 0) | 0 | **0** ✓ |
+| boş künye kümesi | 0 ✗ ("HATA 0", yanlış temiz) | **2** ✓ |
+| olmayan dosya | 1 (traceback) | 2 ✓ |
+| argümansız | 1 (IndexError) | 2 ✓ |
+| `data/devletler.js` yok | 1 (JSONDecodeError) | 2 ✓ |
+| `arac/renkler.py` yok | — | 2 ✓ |
+
+📌 Yapay temiz girdinin ilk hâli `harita:"osmanli"` taşıyordu ve yeni sürüm **1** verdi: ⑥ "HEDEFİ YOK". Bu doğruydu, çünkü `osmanli` hiçbir künyenin `id`/`harita` değeri değil. Kusur betikte değil sınav girdimdeydi; `zend` ile düzeltildi.
+
+**Bugünkü HATA'lar gerçek mi?**
+- **CERKEZ, 1 HATA (① çakışma): ölçüm DOĞRU, ama ihlal değil "zaten uygulanmış".** `cerkez` künyesi 2336d246 (2026-09-18, "cerkez kunyesi + rengi indi") ile `devletler.js`e girdi. Öneri dosyası artık bayat bir girdi. Veri hatası YOK.
+- **ZEND, 2 HATA (④ `ad` boş + ① çakışma): YANLIŞ POZİTİF, girdi sınıfı uyumsuz.** `ONERI-KUNYE-ZEND-0907.json` yeni künye önerisi DEĞİL. Mevcut `zend` künyesinin **kaynak düzeltme** önerisi (`④_ONERI.KUNYE_kaynak_DEGISSIN`). `topla()` sezgisi `①_OLCUM_KUNYE_VS_VERI.kunye = {id,f,t}` ölçüm görüntüsünü öneri sanıyor: `ad` yok, id zaten var. Veri hatası YOK.
+- ⚠️ Kalıcı sınırlama (düzeltmedim, kapsam dışı): betik "id + f/t taşıyan her sözlüğü" öneri sayar. Rapor biçimli JSON'larda sahte HATA üretir. Kapıya bağlanacaksa evren **yalnız yeni-künye öneri dosyaları** olmalı, ya da girdide açık bir `kunyeler` anahtarı şart koşulmalı.
+
+### EK-2. `ARAC-KOSU10-KALAN-SINA-0917.py` ✗114 — HÜKÜM: **BAYAT GİRDİ (tek seferlik sınav), GERİLEME DEĞİL, SINAV KUSURU DEĞİL**
+Ölçüm: betiğin kendi `sina()` mantığı birebir kopyalandı. Her çapa iki uçta okundu: yazıldığı commit **15737d93** (2026-09-17) ve HEAD. Kırıldığı commit, o dosyanın `git log 15737d93..HEAD` dizisinde ikili aramayla bulundu.
+| sınıf | sayı |
+|---|---|
+| UYGULANDI (yamanın `yeni` metni dosyada) | **71** |
+| METİN DEĞİŞTİ (ne eski ne yeni; uygulayıcı farklı biçimde yazmış) | **35** |
+| SATIR KAYDI (eski metin dosyada ama başka satırda) | **8** |
+| YEŞİL | 4 |
+| **yazıldığında zaten kırmızı** | **0** ⇒ sınav kendi anında doğruydu |
+| toplam çapa | 118 (✗ 114 = 71 + 35 + 8 ✓ envanterle tutar) |
+
+**Kıran commit:**
+- **107/114 → 9b92117f** (2026-09-17, aynı gün): "KOSU13 OTOBUSU". Commit gövdesi: *"KOSU13-YAMA: 0052 + KOSU10-KALAN + 0064 yerlesim yamalari (M-4380)"*. Yani yama **bilerek uygulandı**; sınav tam o anda tek seferlik işini bitirdi.
+- 4 → 63d064a1 (aynı gün, KUNYE-TARAF; 4'ü de UYGULANDI).
+- Kalan 3 sonraki commit'lerde; üçü de **KARAR** kovasında (karar kalemleri zaten değişmek için yazılmıştı):
+  - G6-KRON2-08 → 7c39ebf6 (UYGULANDI)
+  - G6-KRON2-15 → f6fd7aec (satır kaydı)
+  - G4-DEBRECEN-K → 464f91fd (2026-09-28, metin değişti)
+
+⇒ **Gerileme kanıtı 0.** Bulunamadı: G4-DEBRECEN-K'nin 464f91fd'deki değişikliği kararın uygulanması mı, başka bir düzeltme mi? Bu ölçülmedi (KARAR kalemi, hüküm kaydı aranmadı).
+⇒ Kapı önerisi değişmedi: **tek seferlik**. Kapıya bağlanırsa her gün 114 sahte kırmızı yanar. İstenirse emekliye ayırmak için tek satır yeter, betiğin docstring'ine: *"9b92117f'de uygulandı; sonrası için anlamsız"*.
+
+### EK-3. git status
+- Worktree (7afbe86f): yalnız ` M denetim/ARAC-KUNYE-SINA-0903.py` (yama, diff'e alındı). Teslimden sonra ağaç kaldırıldı.
+- atlas-umit: yeni dosya `?? denetim/KUNYE-SINA-CIKIS-1006.diff`. Bu .md'ye EK eklendi (değişti).
