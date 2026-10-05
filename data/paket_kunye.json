@@ -1378,8 +1378,8 @@
     },
     {
      "yol": "data/d_sinirlar_avrupa_orta.js",
-     "sha": "074d3555648219b5",
-     "bayt": 469421
+     "sha": "1e375a314fd2af96",
+     "bayt": 469420
     },
     {
      "yol": "data/d_sinirlar_ortadogu.js",
@@ -1407,7 +1407,7 @@
      "bayt": 28209
     }
    ],
-   "bayt": 2334012
+   "bayt": 2334011
   },
   {
    "paket": "data/paket_29.js",

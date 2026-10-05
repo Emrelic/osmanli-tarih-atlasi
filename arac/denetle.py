@@ -4470,7 +4470,42 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1574   # 1585 → 1574, 5 Ekim 2026. İKİ KUSUR giderilerek İNDİ, aşılarak değil.
+BEKLENEN_D8A = 1568   # 1574 → 1568, 5 Ekim 2026 (ÜÇÜNCÜ kusur: `d1816-alm-ah-2`).
+#   LAB-D8-UYE-1005, ikinci teslim. `sol_taraf` "habsburg" → "almanya" (iki kopya:
+#   d_sinirlar_avrupa_orta.js:164 + paket_28.js:1226). at-cs ile AYNI DESEN ve aynı
+#   kanıt türü: KARDEŞ HATLAR. `alm-ah-3` ve `-4` aynı taraflar/aynı tarihlerle
+#   "almanya" diyor, yalnız `-2` "habsburg" diyordu. Ek ölçüm: hat güneye akıyor,
+#   sol = doğu = Bavyera; 0,5-2 km sondada SOL 19/19 DEU · SAĞ 60/60 AUT; Habsburg
+#   noktaları SAĞ yakada.
+#   DÜŞEN 6, GİREN 0 — hepsi "kendi toprağı" (km≈25): 1816-05-01 ve 1844-01-29 ×
+#   sag: Bregenz 492 km² · Feldkirch 212 · Landeck 180. Başka hat oynamadı.
+#   📌 İki ters hattın ikisi de kardeşiyle çelişiyordu ⇒ "kardeş hat sınavı" artık
+#      bir YÖNTEM: aynı sınırın ardışık parçaları ters yaka söylüyorsa biri yanlıştır,
+#      ve bu dışarıdan veri GEREKTİRMEZ.
+#
+# ÖNCEKİ İKİ KUSUR (1585 → 1574), aynı gün:
+#   ① `d1923-at-cs` sol_taraf TERS'ti. 1584 → 1578.
+#      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
+#      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
+#      Třeboň · České Budějovice]  —  GİREN 10 (hattın GİZLEDİĞİ gerçek taşmalar):
+#      Gmünd AT→ÇS 24,9 km/1020 km² · Freistadt 16,1/400 · Linz 10,2/120 ·
+#      Brno ÇS→AT 10,3/132 · Bratislava 12,5/64 (iki gün).
+#      🔴 NET −6, ama ÜYELİK 26 kişi oynadı: net sayı hareketi GİZLER.
+#   ② BOŞ `sol_taraf` artık ölçülemedi (yukarıda ~4713). 1578 → 1574.
+#      6 hat `atlanan`a düştü ADIYLA: d1923-ca-us-bati-1 · d1923-ir-hind-BILINMIYOR ·
+#      d1923-necid-kuveyt-tarafsiz-bati · d1923-necid-kuveyt-tarafsiz-guney-C ·
+#      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
+#      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
+#
+# ⚠️ VE BU SAYI BUGÜN BAYAT BİR GÖVDEYE KARŞI ÖLÇÜLÜYOR: `denetle.py:4547` Değişmez 8
+#   için `data/donemler.js`i okur; o dosya `.gitignore:42`de, YEREL bir koşu
+#   artefaktı (4 Ekim, r11195) ve SİTE onu yüklemiyor (site `donemler_on`+`donemler_ust`
+#   yüklüyor, bugün KOŞU 19'a döndürüldü). ⇒ 1568 bir ONAY değil, bayat bir referansa
+#   karşı alınmış bir FOTOĞRAF. Tam inşa koşusundan sonra üçü birden (8a/8b/8m)
+#   yeniden ölçülecek. Aynı sebeple `8b` bugün 121 diyor (tavan 84) — bu bir İHLAL
+#   DEĞİL ÖLÇÜLEMEZLİK: 1 Ekim'in `bolgeler.js`i 4 Ekim'in `donemler.js`iyle
+#   kıyaslanıyor. KANIT: KOŞU 19'un kendi kaydı (`denetim/DEGISMEZ-KOSU19-UMIT.log`,
+#   UMIT) **8a 1517 · 8b 82 · SONUÇ temiz** diyor.
 #   ① `d1923-at-cs` sol_taraf TERS'ti (LAB-D8-UYE-1005). 1584 → 1578.
 #      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
 #      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
