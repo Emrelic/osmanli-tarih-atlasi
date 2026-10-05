@@ -3375,6 +3375,31 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI ŞEHİR / AYNI FİİL / AYNI GÜN" — 5 Ekim 2026, KASA-POLONYA-1005.
+    # 15 Polonya işgal maddesi inince tavan 112 → 115 oldu; üçü de YANLIŞ POZİTİF.
+    # 🔴 VE İŞÇİ BAŞLIĞI DEĞİŞTİRMEDİ: ölçütü atlatmak için "Kielce'ye girdi"yi
+    #    başka türlü yazmak maddeyi mükerrer olmaktan çıkarmaz, yalnız SAYACI
+    #    kör eder. Doğrusu burada beyan etmek.
+    # ⚠️ Ölçüldü, işçinin saydığına GÜVENİLMEDİ: KASA "4 çift" dedi, kapı 112→115
+    #    yani ÜÇ gösterdi. Dördüncüyü yazsaydık hiçbir zaman eşleşmeyen ÖLÜ bir
+    #    kural olurdu — ve ölü kural, olmayan kuraldan kötüdür (kapandı sanılır).
+    #
+    #   Kielce 1914-08-12 (Piłsudski girer)  ↔  1914-08-19 (Polonya birlikleri
+    #          yeniden girer) — ARADA Rusların 08-13'te geri alışı var; iki AYRI giriş
+    #   Kielce 1914-09-30 (Alman ordusu)     ↔  Łódź 1914-12-06 (Alman ordusu)
+    #          — aynı ordu, AYRI şehir, 67 gün ara
+    #   Zamość 1915-07-01 (Mackensen)        ↔  Radom 1915-07-01 (Avusturya)
+    #          — aynı gün, AYRI şehir, AYRI işgalci (Alman ↔ Avusturya)
+    # Ortak olan yalnız fiil kalıbı ("X şehri aldı/girdi") ve bazısında gün.
+    # Bu kalıp bütün işgal kronolojisinde SİSTEMATİK üretilecek — ölçüt başlık
+    # benzerliğine baktığı sürece bu aile büyür; asıl çare ölçütün ŞEHİR alanını
+    # okuması olurdu (açık kalem, `ONCELIK.md`ye değil buraya not düşüyorum).
+    ("Piłsudski'nin strzelcy birlikleri Kielce'ye girdi",
+     "Polonya birlikleri Kielce'ye yeniden girdi"),
+    ("Alman ordusu Kielce'yi aldı",
+     "Alman ordusu Łódź'u aldı"),
+    ("Mackensen'in birlikleri Zamość'u aldı",
+     "Radom Avusturya birliklerince işgal edildi (Temmuz 1915)"),
     # ⭐ "AYNI YIL İŞARETİ + ÇELEBİ MEHMED" — 5 Ekim 2026, PAKET-0076-DOBRUCA-1004 (A).
     # Dobruca'nın 1416/1419 maddeleri inince tavan 113 → 115 oldu; iki çiftin ikisi de
     # YANLIŞ POZİTİF. Ortak olan yalnız yıl damgası (YYYY-01-01) ve Çelebi Mehmed:

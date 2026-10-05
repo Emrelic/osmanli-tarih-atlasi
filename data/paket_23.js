@@ -181,12 +181,12 @@ window.YERLESIMLER_P0037 = [
 
 { ad:"Chełm (Kholm)", tur:"sehir", lat:51.1431, lon:23.4716, g:0, k:4, m:"Lublin",
   // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A-0911.json).
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1915-08-01",d:"kongre-polonyasi",kaynak:"KASA-POLONYA-1005 · AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı) — Chełmska Biblioteka Publiczna monografisi"},{f:"1915-08-01",t:"1918-11-11",d:"avusturya",kaynak:"KASA-POLONYA-1005 · AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı) — Chełmska Biblioteka Publiczna monografisi"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Lublin kaydıyla aynı dayanak (N. Davies, God's Playground); 1281-1340 Halic-Volhinya dönemi külliyatın deseni gereği (Lvov kaydı gibi) `lehistan` altında sadeleştirildi. Koordinat: coğrafî bilgi." },
 
 { ad:"Zamość", tur:"kale", lat:50.7178, lon:23.2478, g:0, k:4, m:"Lublin", kur:"1580-04-10",
-  s:[{f:"1580-04-10",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1580-04-10",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1915-07-01",d:"kongre-polonyasi",kaynak:"KASA-POLONYA-1005 · Stankiewicz, Archiwariusz Zamojski XIX (2021) — Almanlar 1 Temmuz 1915; Avusturya Eylül 1915 (AY DÜZEYİ)"},{f:"1915-07-01",t:"1915-09-01",d:"almanya",kaynak:"KASA-POLONYA-1005 · Stankiewicz, Archiwariusz Zamojski XIX (2021) — Almanlar 1 Temmuz 1915; Avusturya Eylül 1915 (AY DÜZEYİ)"},{f:"1915-09-01",t:"1918-11-11",d:"avusturya",kaynak:"KASA-POLONYA-1005 · Stankiewicz, Archiwariusz Zamojski XIX (2021) — Almanlar 1 Temmuz 1915; Avusturya Eylül 1915 (AY DÜZEYİ)"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Kuruluş 10 Nisan 1580 ve koordinat: kronoloji_lehistan.js'teki iki eksik_nokta kaydı (N. Davies, God's Playground). Taksim/1809/1815 günleri Lublin kaydıyla aynı dayanak." },
 
