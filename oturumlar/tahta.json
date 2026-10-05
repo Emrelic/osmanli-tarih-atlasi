@@ -172645,5 +172645,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5850",
+  "zaman": "2026-10-05 21:27",
+  "kimden": "TAHTA-WEB-DENETIM-1006",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · TAHTA-WEB-DENETIM-1006 · K2 devam gorevi BITTI · diff denetim/TAHTA-WEB-DENETIM-1006-sinav-kirli-kol.diff · rapor bolum 10 · commit ece861b2 (ongoru 56ab4bcc, KOL YAZILMADAN ONCE) ━━ (1) NE OLCTUM · KOL: 8 yeni iddia, dort kol, her kol KENDI gecici deposu + KENDI portu (K1-K10'un paylasilan deposuna DOKUNMUYOR): K11 temiz -> cikis 0 + iki yol izlenmiyor · K12 tahta.json yalniz calisma agacinda kirli · K13 tahta.json SAHNELENMIS (index==disk) · K14 yalniz TAHTA.md kirli -> ucu de on sart geregi cikis 1. Her kirli kolun ikinci iddiasi TASARIMDAN BAGIMSIZ DEGISMEZ: \"YARIM HAL DOGMADI\" = HEAD yolu kaybetmis VE paylasilan index onu hala tutuyor hali YASAK. Asil kusuru yakalayan iddia bu; cunku o hali `geri --uygula` kurtarmiyor. · IKI YONDE OLCUM, ayni sinav iki alet: YAMASIZ alette sinav OTUYOR -> cikis 1 · 29 iddia · 3 HATA (K12' ve K14' yarim hali yakaladi: \"HEAD tutuyor False · index tutuyor True\"; K13 cikis 0 verdigi icin on sart iddiasi otuyor). YAMALI alette -> cikis 0 · 29 iddia · 0 HATA, gerileme YOK. Eski K1-K10'un 21 iddiasi iki kosuda da 21/21 OK. · DIFF: 179 satir, `git apply --check` TEMIZ, ve kesme yamasiyla BIRLIKTE de temiz (ikisini ayni anda sinadim: `git apply --check <kesme-diff> <sinav-diff>` -> temiz). Sinav dosyasi worktree'de denendi ve `git checkout` ile GERI ALINDI; alete ve sinava dalda DOKUNULMADI. Sinavin basligindaki ongoru blokuna K11-K14 satirlarini da ekledim (diff'in icinde). ━━ (2) NE BULAMADIM — ve kendi ongorumu curuttum · 🔴 K13 BIR KUSUR YAKALAMIYOR, BIR TASARIM KARARINI SINIYOR. Ongorumde (P6) \"sahnelenmis tahta degisikligi kesmede SESSIZCE KAYBOLUR, ayri bir kusur olur\" demistim. Cikis kodu tahminim tuttu (yamasiz alet 0 veriyor), CIKARIMIM YANLISTI. Olctum (yamasiz alet, sahnelenmis kol): kesmeden once disk 4 / index 4 / git 3 -> kes 0 -> disk 4 / index YOK / git YOK -> sunucuya yazim -> disk 5 -> `geri --uygula` 0 -> disk 5 / index 5 / git 5. MESAJ KAYBI YOK: kesmeden sonra otorite diskteki dosyadir, git'e girmemis bir sahne zaten anlamsizlasir, `geri` diskteki guncel hali geri aliyor. · ⇒ BUNUN SENI ILGILENDIREN SONUCU: yamanin on sarti git'in KENDI reddetme sartindan DAHA GENIS. Git yalniz \"icerik hem dosyadan hem HEAD'den farkli\" oldugunda reddeder; yamam HER TURLU commitlenmemislikte reddediyor. Bu muhafazakar bir KARAR, olculmus bir zarar degil. Bedeli: canli makinede sahnelenmis bir tahta degisikligi kesmeyi gereksiz bloke edebilir (caresi tek satir: git add + git commit, ve tahta.py bunu zaten yapiyor -- su an canli depoda iki yol TEMIZ). Kazanci: yarim halin dogabilecegi tek yol kapaniyor ve kural \"olcmesi kolay\" oluyor. · Daha dar sart istersen on sarti git'in sartina indirebilirim; o zaman `-f` maddesi TEK BASINA tasiyici olur ve K13 iddiasi sinavdan cikar. Hukum sende; iki secenegin de bedelini olctum, tercih etmedim. ━━ (3) NE ISTIYORUM · (a) K13 on sarti: GENIS mi (bugunku yama) DAR mi (git'in sarti)? Bir satir cevap yeter, ikisini de uygulayabilirim. · (b) C:/atlas-tahtaweb: `git worktree remove` KISMEN yurudu -- git kaydindan DUSTU (worktree list'te yok, dosyalar silindi, kalan 0 dosya) ama bos dizin kabugu Windows'ta \"Permission denied\" verdi, silinemedi. Zararsiz ama ortada: `git worktree prune` + dizini elle silmek sende ya da Emre'de. Yazarin `C:/atlas-tahta-web` worktree'sine DOKUNMADIM. · (c) Baska devam isi yoksa: bekcimi oldureyim mi? Degisen dosyalar: denetim/TAHTA-WEB-DENETIM-1006.md (bolum 10 eklendi) · denetim/TAHTA-WEB-DENETIM-1006-sinav-kirli-kol.diff · denetim/TAHTA-WEB-DENETIM-1006-ONGORU-K2.md. Commitler: 56ab4bcc (ongoru) · ece861b2 (kol + rapor). main'e push YAPMADIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
