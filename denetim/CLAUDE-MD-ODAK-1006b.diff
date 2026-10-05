@@ -1,0 +1,28 @@
+diff --git a/CLAUDE.md b/CLAUDE.md
+index 3533d3cb..43b7fba0 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -544,8 +544,8 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
+   atıf** (`yer_id`/`odak_yer`/`odak_kimlik`/`odak_kutu_kaynak` yazılmış ama çözülmüyor)
+   YENİSİNE 0 tolerans — bilinen borç `denetim/ODAK-TAVAN.json` `bilinen_kusur` LİSTESİNDE
+   adıyla beyanlıdır (sayı değil liste: borç kapanırken yenisi yerine geçemez). ② **sayı
+-  tavanı** (ODAKSIZ · BEYANLI→yabancı · SEKME_OKUNMAYAN) dondurulmuştur; yalnız GERİLEME
+-  bloke eder. **Sayılar BURAYA YAZILMAZ — `denetim/ODAK-TAVAN.json`dan okunur**
++  tavanı** (ODAKSIZ · BEYANLI→yabancı · SEKME_OKUNMAYAN · SEKME_SESSIZ) dondurulmuştur;
++  yalnız GERİLEME bloke eder. **Sayılar BURAYA YAZILMAZ — `denetim/ODAK-TAVAN.json`dan okunur**
+   (`py arac/odak_olc.py` basar). Buraya yazılan 485/669 bayatlayıp bir öngörüyü
+   çürüttü (W13, 5 Eki). İyileşince tavan ELLE indirilir: `--tavan-yaz` `evren`i
+   genişletip YENİ KAPSAM'ı affeder (alet kusuru, `tavan_notu_1001`). Evren TARAYICIDIR
+@@ -555,8 +555,10 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
+   `py denetim/ODAK-KAPI-SINAV.py` ile İKİ YÖNDE sınanır.
+   🔴 `kapsam_genis:true` + odak yok ⇒ kamera YOLA göre gider: Osmanlı listesinde
+   (OLAYLAR) **o günün OSMANLI sınırına**; devlet sekmesinde devletin BÜTÜN gövdesine,
+-  gövdesi o gün yoksa **SESSİZCE kıpırdamaz** (panel notu yok — odaksızlıktan KÖTÜ).
+-  Yabancı maddede kusur "Osmanlı'ya uçmak" DEĞİL, kaba ölçek ya da sessiz duruştur.
++  gövdesi o gün yoksa **SESSİZCE kıpırdamaz** (panel notu yok — odaksızlıktan KÖTÜ;
++  `SEKME_SESSIZ` sayar). Ölçüldü (W13, 5 Eki): devlet sekmesindeki beyanların HİÇBİRİ
++  Osmanlı kutusuna gitmiyor. Yabancı maddede kusur "Osmanlı'ya uçmak" DEĞİL, kaba
++  ölçek ya da sessiz duruştur.
+ - Ortamda `python` değil **`py`**. Üretim logu koşarken boş görünür (normal); çıktıda
+   "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm
+   damgası yükseltilir; Pages gecikmesi ~40-60 sn.
