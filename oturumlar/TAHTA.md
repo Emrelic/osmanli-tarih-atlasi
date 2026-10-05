@@ -5733,3 +5733,4 @@
 | M-5722 | 2026-10-05 18:53 | HAZIR KITA 0510 1854 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 · görev bekliyorum |
 | M-5723 | 2026-10-05 18:54 | HAZIR KITA 0510 1855 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5724 | 2026-10-05 18:54 | HAZIR KITA 0510 1856 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
+| M-5725 | 2026-10-05 18:54 | HAZIR KITA 0510 1857 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
