@@ -13787,7 +13787,7 @@ window.KISILER = [
 { id:"devlet-giray", tur:"yabanci-hukumdar", ad:"Devlet Giray",             devlet:"kirim",     t:"1577", donem:"ö. 1577 (saltanat 1551–1577)", not:"1571'de Moskova'yı yakan Kırım hanı" },
 { id:"batu-han", tur:"yabanci-hukumdar", ad:"Batu Han",                 devlet:"altinorda", t:"1255", donem:"ö. 1255", not:"Cengiz Han'ın torunu; Altın Orda'nın kurucusu" },
 { id:"ulug-muhammed", tur:"yabanci-hukumdar", ad:"Uluğ Muhammed",            devlet:"kazan",     t:"1445", donem:"ö. yak. 1445", not:"Altın Orda hanı iken Kazan Hanlığı'nı kurdu" },
-{ id:"kucum-han", tur:"yabanci-hukumdar", ad:"Küçüm Han",                devlet:"sibir",     t:"1598", donem:"ö. yak. 1598", not:"Sibir Hanlığı'nın son hükümdarı; Rus (Yermak) ilerleyişine karşı uzun süre direndi" },
+{ id:"kucum-han", tur:"yabanci-hukumdar", ad:"Küçüm Han",                devlet:"sibir-hanligi",     t:"1598", donem:"ö. yak. 1598", not:"Sibir Hanlığı'nın son hükümdarı; Rus (Yermak) ilerleyişine karşı uzun süre direndi" },
 { id:"edigu", tur:"yabanci-hukumdar", ad:"Edigü",                    devlet:"nogay",     t:"1420", donem:"ö. 1420", not:"Nogay Ordası'nın çekirdeğini oluşturan Mangıt beyi" },
 
 // --- Parti 4: Batı Avrupa — Fransa, İspanya, İngiltere, Papalık ---
@@ -13823,7 +13823,7 @@ window.KISILER = [
 { id:"muhammed-bin-abdulvehhab", tur:"alim", ad:"Muhammed bin Abdülvehhâb",             devlet:"suud-birinci", f:"1703", t:"1792", donem:"1703–1792", not:"Vehhâbî hareketinin kurucusu dinî önder; Muhammed bin Suûd ile ittifakı I. Suûdî Devleti'nin temelini attı" },
 { id:"suud-bin-abdulaziz", tur:"yabanci-hukumdar", ad:"Suûd bin Abdülazîz",       devlet:"suud-birinci", t:"1814", donem:"ö. 1814 (emirlik 1803–1814)", not:"Mekke ve Medine'yi ele geçirip I. Suûdî Devleti'ni en geniş sınırlarına ulaştıran emir" },
 { id:"turki-bin-abdullah", tur:"yabanci-hukumdar", ad:"Türkî bin Abdullah",       devlet:"suud-ikinci", t:"1834", donem:"ö. 1834", not:"II. Suûdî Devleti'ni kurup Riyad'ı geri alan emir" },
-{ id:"abdulaziz-bin-suud", tur:"yabanci-hukumdar", ad:"Abdülazîz bin Suûd (İbn Suûd)", devlet:"suud-ikinci", f:"1876", t:"1953", donem:"1876–1953", not:"1902'de Riyad'ı alarak üçüncü Suûdî devletini kuran, 1920'de Asîr'i, 1921'de Şammar'ı (Hâil) topraklarına katan emir; site ufkunun (1923) dışında 1932'de Suûdî Arabistan Krallığı'nı ilan etti" },
+{ id:"abdulaziz-bin-suud", tur:"yabanci-hukumdar", ad:"Abdülazîz bin Suûd (İbn Suûd)", devlet:"suud-ucuncu", f:"1876", t:"1953", donem:"1876–1953", not:"1902'de Riyad'ı alarak üçüncü Suûdî devletini kuran, 1920'de Asîr'i, 1921'de Şammar'ı (Hâil) topraklarına katan emir; site ufkunun (1923) dışında 1932'de Suûdî Arabistan Krallığı'nı ilan etti" },
 { id:"muhammed-bin-resid", tur:"yabanci-hukumdar", ad:"Muhammed bin Reşid",       devlet:"sammar",    t:"1897", donem:"ö. 1897", not:"1891 Müleyde zaferiyle Necid'i ele geçiren Şammar (Hâil) emiri" },
 { id:"yahya-hamiduddin", tur:"yabanci-hukumdar", ad:"İmam Yahyâ Hamîdüddin",    devlet:"yemen-zeydi", f:"1869", t:"1948", donem:"1869–1948", not:"1911 Da'an Antlaşması'yla imamlığına geniş özerklik tanınan Zeydî imamı" },
 { id:"ahmed-bin-said", tur:"yabanci-hukumdar", ad:"Ahmed bin Said (Âl Bû Saîd)", devlet:"umman",  t:"1783", donem:"ö. 1783", not:"Portekizlileri Maskat'tan kesin olarak atan, Bû Saîd hanedanını kuran Umman imamı/sultanı" },
