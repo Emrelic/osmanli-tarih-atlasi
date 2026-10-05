@@ -723,3 +723,40 @@ duruyor ve HAVVA baştan yürütecek:
 koşturmuştu ve bayrakları doğru vermişti). Ama UMIT'in RAM'i ölçülmedi; HAVVA'nın
 12,9 GB boşuna karşılık EMRELIC 1,05 GB ile koşamaz — UMIT'i seçersek önce ölçmek
 gerekir.
+
+---
+
+## 🔴 KOŞU ÖNCESİ İKİ DALI BİRLEŞTİRME — ölçülerek verilmiş hüküm (6 Ekim gece)
+
+Koşu `origin/main`den taze worktree kurar. Koşudan önce dalları birleştirmek
+DOĞRUDUR — ama bu ikisi **HARİÇ**, ve sebepleri ayrı:
+
+```
+origin/projeksiyon        2 ileride   🔴 BİRLEŞTİRMEYİN
+origin/makine/tahta-web   8 ileride   🔴 BİRLEŞTİRMEYİN (zaten kasıtlı bekliyor)
+```
+
+**① `projeksiyon` niçin:** `arac/uret_petek.py`ye dokunuyor ⇒ **motor tuzundadır**
+(§9.1: tuz = `uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py`).
+Ve kendi commit mesajı *"DAL — henüz görsel sınav YOK"* diyor: MapLibre v5.24.0 +
+hibrit küre/Mercator, `index.html` + `js/app.js` + `css/style.css` ile birlikte.
+⇒ Birleşirse koşu sınanmamış motor koduyla koşar **ve** yayın sınanmamış arayüzle
+çıkar. İki bilinmeyen tek koşuda çarpılır.
+
+**② `makine/tahta-web` niçin:** kesme (cutover) Emre'nin üç kalemine bağlı. Ayrıca
+`arac/tahta*.py` tuzda DEĞİL, yani koşuyu etkilemez — acelesi yok.
+📌 Bu dalın içeriği **ZATEN YAZILMIŞ**: 8 commit, `tahta_sunucu.py` + `tahta.py` +
+`tahta_kesme.py` + dört sınav (her biri "öngörü koşmadan önce mühürlendi"). Sıfırdan
+yazdırmayın — denetim görevi verildi (`TAHTA-WEB-DENETIM-1006`).
+
+### Ve PLAN-1004 §1 ile çelişki YOK — kontrol edildi
+§1, ④ ve ⑤ bitmeden ⑥'yı (TAM İNŞA, UFUK) yasaklar. HAVVA'ya verilen emir ⑥ DEĞİL
+**②**dir (VERİ koşusu, motor DONUK):
+- `MOTOR_UFUK_BANT` **zaman ufku değil YÜRÜYÜŞ BANDIdır** — `uret_petek.py:2151`:
+  *"UFUK BANTLARI — Emre'nin kararı: üç bant 5/7/10 gün … Bant, AYNI bedel alanının
+  farklı kontur seviyesidir; yeni Dijkstra GEREKMEZ."* Zaman eksenini açan bayrak
+  verilmedi (grep: `uret_petek.py`de zaman ufku bayrağı YOK).
+- İki bant yaması HAVVA'ya **yasaklandı** ⇒ tuzdaki dört dosya el değmemiş = motor DONUK.
+- Bayraklar KOŞU 19'un (1 Ekim, UMIT) takımının aynısı ⇒ tek bilinmeyen HAVVA.
+⚠️ Bedeli açıkça yazıyorum: bu koşu **5/7/10 bant kusurunu DÜZELTMEZ**. Düzeltme
+yukarıdaki ② adımındaki iki yamadadır ve onu yalnız Emre HAVVA'nın ekranında açabilir.
