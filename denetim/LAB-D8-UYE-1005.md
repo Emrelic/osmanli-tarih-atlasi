@@ -275,3 +275,22 @@ bu raporun işi değil (§4 kaynak kuralı). Ayrıca üç ABD noktasına (Tubac 
 - `ermenistan` hattında 1921 sahiplik günlerinin hangisinin doğru olduğu — kaynak işi.
 - Evrende 20 hat G ile ölçülemedi (adıyla yukarıda).
 - Betikler: `d8_k2.py` (karşı-olgusal) · `d8_yaka_tum3.py` (N+S) · `d8_cog.py` (G) · `d8_sonora.py`.
+
+---
+
+# 9. M-5832 — kendi açtığım ölçülemedi kovalarını kapatmak
+> Koordinatör (a)+(b)'yi uyguladı (`40b27db5`): at-cs öngörüsü birebir tuttu (1578 · 16 · 10).
+> 🔴 **Çürüyen sayım:** "boş `sol_taraf` 6 hat, evrende 3" demiştim — kapı 6'sını da attı. Benim
+> "evren"im defterin `hatlar` listesiydi (372); kapınınki döngüye giren her iki taraflı hat (450).
+> ⇒ Bu bölümden itibaren her sayının yanında **EVREN** adıyla yazılır.
+
+## 9.0 ÖNGÖRÜ — ölçümden ÖNCE yazıldı ve commitlendi
+- **① 6 atlanan hat** (evren: kapının `atlanan` listesi, 6): yakası belirlenebilen **4** (ca-us-bati-1 ·
+  ir-hind-BILINMIYOR · us-cu-guantanamo-2 · g4-bna-us-bati-1), sol/sağ ikiliğine YAPISAL OLARAK UYMAYAN
+  **2** (necid-kuveyt-tarafsiz-bati · necid-kuveyt-tarafsiz-guney-C — yakalardan biri üçüncü alan).
+  Mekanizma: ilk dördünde iki yaka iki ayrı tek devlet; kuveyt ikilisinde bir yaka Tarafsız Bölge.
+- **② 20 G-ölçülemeyen hat** (evren: §8.③'ün G ÖLÇÜLEMEDİ kovası, evrende 20): (α) başka yöntemle
+  ölçülebilir **8** · (β) G ile yapısal olarak ölçülemez **12**. Mekanizma: β = hat bugün hiçbir ülke
+  sınırına denk gelmiyor (iki yaka aynı bugünkü ülke) ya da hat su üstünde/çok kısa.
+- **③** becuanaland-guney-afrika ve guneyrodezya-guney-afrika: **ikisi de TERS** (G tek taraf
+  sinyali 37/12 ve 8/37 yönünde).
