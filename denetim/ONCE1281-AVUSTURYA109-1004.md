@@ -133,3 +133,79 @@ alıntılanmadı · erişilemeyen: 1914-1918-online (bot doğrulaması), Hrčak 
 - Olası sonuç: madde bağımsız bir kaynak (ör. Karl'ın çekilmesi) gösteriyorsa 🟢 değil **karma**:
   kaynak gerçek ama 11 Kasım'ı başka bir olay için söylüyor (D211 ⑧ — rakamı taşıyan cümle neyi
   tarihliyor).
+
+### ÖLÇÜM — ⑤ (maddeyi açtım; HEAD `2b8cad2e` baş = son)
+
+Madde: **`data/olaylar_ok109.js` · `OLAYLAR_OK109[4]`** · `t: "1918-11-11"` · b: *"Avusturya-Macaristan
+mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor"* · `kaynak: "birinci-dunya-savasi"` ·
+ilk girişi `0b32b45b` (2 Eylül 2026, "KRONOLOJI ok109 — AVUSTURYA-MACARISTAN'IN DAGILISI, dokuz madde").
+
+🔴 **HÜKÜM: TÜRETİLMİŞ.** Dört iz, dördü de kaydın kendisinde:
+1. **Kaynağı 11 Kasım'ı BAŞKA bir olay için söylüyor** (D211 ⑧). TDV `birinci-dunya-savasi` (açtım):
+   *"Yenilgiyi kabul eden Avusturya 3 Kasım'da, Almanya da 11 Kasım'da silâhları bıraktılar."* — 11 Kasım
+   ALMANYA'nın mütarekesi; Avusturya'nınki 3 Kasım; ardıl devletlere geçiş yok.
+2. **Metin haritayı anlatıyor, tarihi değil:** *"Harita bu gün imparatorluk mirasının toplu devrini
+   gösterir … harita bu ilanların toprak üzerindeki karşılığını tek güne toplar."*
+3. **`ic_not_d` atlas sayıyor** (D260 imzası): *"eski ifade: Bu gün atlasta imparatorluk mirasının toplu
+   devrini gösterir: **seksen dokuz yerleşim Avusturya kimliğinden çıkar**"* — maddenin eski hâli
+   kırılmaların SAYISINI yazıyordu (bugün 109).
+4. **Kendi metni gerçek günleri veriyor ve `t`'siyle çelişiyor:** *"Devrin kendisi tek bir günde olmadı —
+   Çekoslovakya 28 Ekim'de, Avusturya Cumhuriyeti 30 Ekim'de, Macaristan halk cumhuriyeti 31 Ekim'de ilân
+   edilmişti"* — madde, yanlış olduğunu bildiği bir günü haritaya uydurmak için yazılmış.
+⇒ 109 kırılmanın "senkron ✓"u **kendi kendini doğrulama**dır: kırılma künyeden, madde kırılmadan.
+Değişmez 2 bu kalemde hiçbir şey ölçmüyor. D260'ın (b) alt sınıfı GERÇEKLEŞMİŞ.
+
+**Yan bulgu — komşu madde TDV ile tutarlı, ama başka kaynakla çelişiyor (D211 ⑥):** `OLAYLAR_OK109[5]`
+`t: 1918-11-18` "İmparator Karl'ın çekilişi" — TDV `avusturya` (açtım): *"İmparatorun 18 Kasım'da devlet
+işlerinden çekildiğini açıklamasıyla imparatorlukla birlikte hânedan da tarihe karışmış oldu."* — madde
+TDV'ye sadık. Ama `olaylar_sessiz_borc_0919.js` (Parlament Österreich): *"11. November 1918: Kaiser Karl I.
+erklärt sich … bereit, auf eine Teilhabe an den Regierungsgeschäften zu verzichten"* ve
+`kronoloji_habsburg.js` aynı olayı 1918-11-11'e koyuyor. Aynı olay iki maddede iki gün; TDV 18, Avusturya
+Parlamentosu 11 diyor. §4 "çelişirse TDV esastır" — ama Avusturya'nın kendi parlamentosu Avusturya iç
+olayında birincil; HÜKÜM koordinatörde.
+
+## 7. ② — Bosna 16 halef: `devletler.js` TARANDI (`girdi.oku_devletler()`)
+
+| künye | `f` → `t` |
+|---|---|
+| `yugoslavya` "Sırp-Hırvat-Sloven Krallığı (SHS)" | **1918-12-01** → 1945-09-02 |
+| Država SHS (Sloven-Hırvat-Sırp Devleti) | **YOK** (id/ad taraması: `shs`, `sloven`, `hırvat`, `yugoslav`, `drzava` — yalnız yukarıdaki + `hirvatistan-bagimsiz` 1941, `hirvatistan-kralligi` 925-1102, `bosna-*`) |
+
+Bugünkü iki biçim, İKİSİ DE yanlış:
+| biçim | nokta | sorun |
+|---|---|---|
+| `avusturya →1918-11-11 → sirbistan-kralligi →1918-12-01 → yugoslavya` | 16 Bosna | Bosna Sırbistan'a hiç geçmedi |
+| `avusturya →1918-11-11 → yugoslavya` | 4 Bosna (Bosanska Dubica, Bosanski Novi, Bosanski Brod, Bosanska Krupa; alt ajan 5 dedi, süzgecim 4 buldu) + **35 Hırvatistan/Dalmaçya/Slovenya** | `yugoslavya` künyesi 1918-12-01'de doğuyor ⇒ **39 dönem künyenin doğumundan 20 gün ÖNCE** başlıyor (Değişmez 4d'nin "beklenen 324"ünün içinde, beyansız) |
+
+**Doğrusu KAYNAKTAN** (Hrvatska enciklopedija, "Država Slovenaca, Hrvata i Srba" — açtım):
+*"Obuhvaća razdoblje od objave Deklaracije Narodnoga vijeća SHS 19. X. 1918., odn. zaključaka Hrvatskoga
+sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918."* — ve
+kapsamı: *"… u Hrvatskoj i Slavoniji s Rijekom, u Dalmaciji, Bosni i Hercegovini, Istri, Trstu, Kranjskoj,
+… Bačkoj, Banatu, Baranji …"*. Bosna için devir günü: BiH Parlamentosu, 1.XI.1918 (§3).
+
+**D205 sınıfı:** aşım değil, **kimlik yok** ⇒ ③'e (ardıl künye) en yakın: **künye AÇILMALI**.
+Öneri (Emre kalemi, F6 emsali): `drzava-shs` · "Sloven-Hırvat-Sırp Devleti (Država SHS)" · `f: 1918-10-29`
+(Sabor kararı; Narodno vijeće bildirisi 19.X) · `t: 1918-12-01` · `bolge: balkanlar` · kaynak HE yukarıdaki
+cümle. Sonra 16 + 4 Bosna noktası `avusturya →1918-11-01 → drzava-shs →1918-12-01 → yugoslavya`; 35 Hırvat/
+Sloven/Dalmaçya noktası `→1918-10-29 → drzava-shs →1918-12-01 → yugoslavya` (İtalyan işgali altındakiler hariç
+— §3.3, ④'e bağlı). Künye inmeden **diff hazırlamadım** (künyesi olmayan kimlik boyanmaz, §8).
+
+## 8. ③ — Madde borcu 2: hazır madde metinleri (kaynaklar AÇILDI ve TUTTU)
+
+Değişmez 2 evrenine (öneri: `olaylar*.js` yeni bir dosya ya da `olaylar_ok109.js`'in sonu — dosya sahibi
+koordinatör). Her biri yeri ADIYLA anıyor (`D261`).
+```js
+{ t:"1919-04-19", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-askeri"],
+  b:"Romen ordusu Satu Mare'ye girdi — Macar Sovyet Cumhuriyeti idaresinin sonu",
+  gun:"19 Nisan 1919", yer:"Szatmár (Satu Mare)", yer_id:"Szatmár (Satu Mare)",
+  d:"21 Mart 1919'da Macaristan'da ilân edilen Sovyet Cumhuriyeti'nin Satu Mare'deki idaresi, Romen ordusunun 19 Nisan 1919'da (Paskalya Cumartesisi) şehre girmesiyle sona erdi; şehirde Romen idaresi kuruldu.",
+  kaynak:"Muzeul Județean Satu Mare, '100 de ani de la eliberarea Sătmarului și instaurarea administrației românești' (muzeusm.ro): 'Republica Sfaturilor din Ungaria … (21 martie-19 aprilie 1919)' · 'La 19 aprilie 1919, în sâmbăta de Paște, dr. Ilie Carol Barbul … a întâmpinat Armata Română' — kurumsal kaynak (il müzesi); TDV kapsamı dışı" },
+{ t:"1919-04-20", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-askeri"],
+  b:"Romen ordusu Oradea'ya girdi — General Traian Moșoiu",
+  gun:"20 Nisan 1919", yer:"Varad (Oradea)", yer_id:"Varad (Oradea)",
+  d:"Romen birlikleri General Traian Moșoiu komutasında 20 Nisan 1919'da Oradea'ya girdi; şehirde Romen idaresi başladı.",
+  kaynak:"Primăria Municipiului Oradea, 'Programul zilei de 20 aprilie — 105 ani de la eliberarea orașului Oradea' (oradea.ro): 'intrarea trupelor române în Oradea, la 20 aprilie 1919, în frunte cu generalul Traian Moșoiu' — kurumsal kaynak (belediye); TDV kapsamı dışı" },
+```
+⚠️ Bu iki madde yalnız kırılma 1919-04-19/20'ye ÇEKİLİRSE gerekir (①, model kararı). Ve iki yer için
+**1918-11 → 1919-04 arasının sahibi** de sorulmalı: kaynak 21.III–19.IV.1919 Macar Sovyet idaresi diyor ⇒
+Avusturya'dan doğrudan Romanya'ya değil, arada Macaristan (Károlyi → Sovyet) var.
