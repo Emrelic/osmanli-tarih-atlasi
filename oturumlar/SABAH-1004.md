@@ -796,3 +796,35 @@ KASA'ya verildi: `denetim/KASA-KF1-GIRIS-1006.md` (yedi yer için giriş günü 
 
 ⚠️ Ayrıca KASA'nın kendi beyanı korunsun: TDV kendisiyle çelişiyor (`artvin` 27 Şubat ↔
 `acara` 11 Mart) ve Digor **"düşük güven"** (Kars Valiliği). İkisi de kayda geçecek.
+
+---
+
+## 🔴 EMRE'NİN KARARI — UMIT'te bir YÖNETİCİ işlemi gerekiyor (6 Ekim gece)
+
+**Sorun:** `C:\atlas-umit\.git` sahibi `BUILTIN\Administrators`. Git bu depoyu
+*"dubious ownership"* diye reddediyor. UMIT'in işçileri `-c safe.directory=…` ile
+tek seferlik okuyarak çalışıyor, ama bir işçinin (`W3`) izin sınıflandırıcısı
+`git -c safe.directory=... worktree add` komutunu **"Auto-Mode Bypass" diye REDDETTİ.**
+
+🟢 **Ve iki oturum da doğru davrandı:** W3 atlatmadı, UMIT alt koordinatörü de
+onun yerine kurmadı (`TOPOLOJI §6.4`: *"bir eşin REDDEDİLDİĞİ işi onun yerine
+yapamaz/yaptıramaz"*). Ben de yapmıyorum. ⚠️ Sınıflandırıcı oturuma göre farklı
+karar veriyor — W1 ve W4 aynı komutu kurabildi. Yani bu bir "bazen çalışır"
+durumu ve o yüzden kalıcı çare şart.
+
+**Kök çare (yönetici yetkisi ister, Emre'nin):** `C:\atlas-umit\.git`in sahibini
+`UMIT\<kullanıcı>` yap. O zaman `safe.directory` hiç gerekmez ve sınıflandırıcı
+da takılmaz.
+```
+takeown /F C:\atlas-umit\.git /R /D Y
+icacls C:\atlas-umit\.git /setowner "UMIT\<kullanıcı>" /T
+```
+⚠️ Komutları ÖLÇMEDİM (o makinede değilim) — kullanıcı adı ve yol UMIT'te
+doğrulanmalı. Alternatif, daha temizi: worktree'yi sil ve `UMIT\<kullanıcı>`
+olarak YENİDEN kur.
+
+**İkinci kalem, aynı makinede:** UMIT'in `C:\atlas` deposunda **push edilmemiş 15
+commit** var (`88d000f5` + `M-5718…M-5731` = 14 hazır kıtanın HAZIRIM mesajı).
+`reset --hard` onları YOK EDER. UMIT'e koşturmamasını söyledim; mesajlar okundu ve
+kıtalar bulundu, yani içerikleri artık kayıp değil — ama commit'ler hâlâ orada ve
+deponun temizliği senin kararın.
