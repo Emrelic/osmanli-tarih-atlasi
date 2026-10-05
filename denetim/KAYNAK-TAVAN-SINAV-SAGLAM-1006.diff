@@ -1,0 +1,124 @@
+diff --git a/denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py b/denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py
+index b8cc13f7..575d7d2e 100644
+--- a/denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py
++++ b/denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py
+@@ -45,8 +45,14 @@ KOK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+ AR = os.path.join(KOK, "arac")
+ sys.path.insert(0, AR)
+ 
++# 🔴 6 Ekim 2026 (UMIT-W7-DALGA10): ONGORU artık S1'in ÖLÇÜTÜ DEĞİL — TARİHÇE.
++#    Sürüm 2 tabanı (11bcae71) bir FOTOĞRAFTI; veri büyüdükçe bayatladı:
++#    6 Ekim'de ölçülen 4299 · 4147 · 2301 · 371 · 1930 (W8 bir gün önce 366/1935
++#    ölçmüştü — o da bir günde bayatladı). Koordinatör: "sabit sayı taşıyan sınav
++#    kırılgandır." ⇒ S1 sayıyı BAĞIMSIZ bir okuyucuyla (node, tarayıcı gibi
++#    yükler) ölçer; KRONO-SAY-SAGLAM yöntemi (bkz. S1a-S1d).
+ ONGORU = dict(toplam=4298, s_tasiyan=4146, kayit_kaynaksiz=2301,
+-              donem_ici=333, hicbiri=1968)
++              donem_ici=333, hicbiri=1968)            # tarihçe — ölçüt DEĞİL
+ SAHTE_AD = "__SINAV_KAYNAKSIZ_1004__"
+ HIZLI = "--hizli" in sys.argv
+ 
+@@ -127,12 +133,97 @@ print("ölçüm:", n, "· toplam", len(Y), "· tavan dosyası hiçbiri %d / kay
+       % (TH, TK))
+ 
+ # ── S1-S3: sayılar ve kovalar ──────────────────────────────────────────
+-soru("S1", "sayılar öngörüyü tutuyor (taban 11bcae71)",
+-     len(Y) == ONGORU["toplam"] and n["s_tasiyan"] == ONGORU["s_tasiyan"]
+-     and n["kayit_kaynaksiz"] == ONGORU["kayit_kaynaksiz"]
+-     and n["donem_ici"] == ONGORU["donem_ici"] and n["hicbiri"] == ONGORU["hicbiri"],
+-     "ölçülen %d/%d/%d/%d/%d" % (len(Y), n["s_tasiyan"], n["kayit_kaynaksiz"],
+-                                 n["donem_ici"], n["hicbiri"]))
++# S1 — SABİT DEĞİL, ÖLÇÜM (DALGA10). Bağımsız okuyucu: girdi dosyalarını node
++# ile TARAYICI GİBİ yükler (`new Function("window", …)`), dosya başına
++# `girdi.oku_dosya`nın kuralıyla İLK `window.YERLESIMLER*` dizisini alır ve
++# kovaları aynı tanımla kendisi kurar. Python `girdi.yukle` + `kaynaksizlik_olc`
++# ile ÜYELİK düzeyinde eşit olmalı. `BOZUK`: dönem kaynağını görmezden gelen
++# kasıtlı yanlış okuyucu — S1d'nin negatif kontrolü. (Bayrak tire ile BAŞLAMAZ:
++# `node -e … --bozuk` bayrağı node'un kendi seçeneği sanıp reddetti — ölçüldü.)
++_NODE_KOVA = r"""
++const fs=require('fs'),path=require('path');const a=process.argv.slice(1);
++const bozuk=a[0]==='BOZUK';const dos=bozuk?a.slice(1):a;
++const dolu=v=>typeof v==='string'?v.trim().length>0:Array.isArray(v)?v.length>0:!!v;
++const K={toplam:0,s_tasiyan:[],kayit_kaynaksiz:[],donem_ici:[],hicbiri:[]};
++for(const yol of dos){const js=fs.readFileSync(yol,'utf8');
++ const m=js.match(/window\.(YERLESIMLER\w*)\s*=/);if(!m)throw new Error('YERLESIMLER yok: '+yol);
++ const W={};new Function('window',js)(W);const L=W[m[1]];if(!Array.isArray(L))throw new Error('dizi değil: '+yol);
++ const ad=path.basename(yol);
++ for(const y of L){K.toplam++;if(!y||!Array.isArray(y.s)||!y.s.length)continue;
++  const k=ad+'|'+y.ad;K.s_tasiyan.push(k);if(dolu(y.kaynak))continue;K.kayit_kaynaksiz.push(k);
++  if(!bozuk&&y.s.some(p=>p&&typeof p==='object'&&dolu(p.kaynak)))K.donem_ici.push(k);else K.hicbiri.push(k);}}
++process.stdout.write(JSON.stringify(K));
++"""
++
++
++def node_kova(dosyalar, bozuk=False):
++    r = subprocess.run(["node", "-e", _NODE_KOVA] + (["BOZUK"] if bozuk else []) + dosyalar,
++                       capture_output=True, cwd=KOK)
++    if r.returncode != 0:
++        return None, r.stderr.decode("utf-8", "replace")[-200:]
++    return json.loads(r.stdout.decode("utf-8")), ""
++
++
++def kova_esit(Kp, toplam_p, Kn):
++    """Python (kaynaksizlik_olc) ↔ node: toplam + dört kovanın ÜYELİĞİ."""
++    if Kn is None or toplam_p != Kn["toplam"]:
++        return False
++    return all(set(Kp[k]) == set(Kn[k])
++               for k in ("s_tasiyan", "kayit_kaynaksiz", "donem_ici", "hicbiri"))
++
++
++GIRDI_YOL = [os.path.join(KOK, "data", f) for f in girdi.GIRDI_DOSYALARI]
++KN, _hata = node_kova(GIRDI_YOL)
++soru("S1", "sayılar BAĞIMSIZ okuyucuyla ÜYELİK düzeyinde eşit (node ↔ kaynaksizlik_olc)",
++     kova_esit(K, len(Y), KN),
++     "py %d/%d/%d/%d/%d · node %s %s" % (
++         len(Y), n["s_tasiyan"], n["kayit_kaynaksiz"], n["donem_ici"], n["hicbiri"],
++         "/".join(str(KN[k] if k == "toplam" else len(KN[k])) for k in
++                  ("toplam", "s_tasiyan", "kayit_kaynaksiz", "donem_ici", "hicbiri"))
++         if KN else "—", _hata))
++# S1a — "sınıf hâlâ var": dört kova da veride BOŞ değil (biri boşalırsa ölçüt o
++#       sınıfı artık sınamıyor demektir — ayrı satırda öter)
++soru("S1a", "dört kova da veride var (s·kayıt-kaynaksız·dönem-içi·hiçbiri > 0)",
++     all(n[k] > 0 for k in ("s_tasiyan", "kayit_kaynaksiz", "donem_ici", "hicbiri")),
++     str(n))
++# S1b/S1c — İKİ YÖNLÜ YAPAY KAYIT: dört sınıftan birer kayıt (hiçbiri ·
++#       dönem-içi · kayıt-kaynaklı · s'siz) eklenir; İKİ okuyucu da AYNI
++#       farkı görmeli (+4/+3/+2/+1/+1) ve yine eşit kalmalı. Eski sabit
++#       (ONGORU) aynı kopyada BAYATLAR — sabitin kırılganlığının kanıtı.
++_YAPAY = [
++    {"ad": "__S1_YAPAY_HICBIRI__", "lat": 39, "lon": 35,
++     "s": [{"f": "1000-01-01", "t": "2100-01-01", "d": "osmanli"}]},
++    {"ad": "__S1_YAPAY_DONEM__", "lat": 39, "lon": 35,
++     "s": [{"f": "1000-01-01", "t": "2100-01-01", "d": "osmanli", "kaynak": "sınav"}]},
++    {"ad": "__S1_YAPAY_KAYIT__", "lat": 39, "lon": 35, "kaynak": "sınav",
++     "s": [{"f": "1000-01-01", "t": "2100-01-01", "d": "osmanli"}]},
++    {"ad": "__S1_YAPAY_SSIZ__", "lat": 39, "lon": 35},
++]
++_td = tempfile.mkdtemp(prefix="s1yapay_")
++try:
++    _yf = os.path.join(_td, "yerlesimler_s1yapay.js")
++    io.open(_yf, "w", encoding="utf-8", newline="\n").write(
++        "window.YERLESIMLER_S1YAPAY = " + json.dumps(_YAPAY, ensure_ascii=False) + ";\n")
++    Yy = Y + [dict(y, _kaynak="yerlesimler_s1yapay.js") for y in _YAPAY]
++    Ky = denetle.kaynaksizlik_olc(Yy)
++    KNy, _h2 = node_kova(GIRDI_YOL + [_yf])
++    ny = {k: len(v) for k, v in Ky.items()}
++    fark_ok = (len(Yy) - len(Y), ny["s_tasiyan"] - n["s_tasiyan"],
++               ny["kayit_kaynaksiz"] - n["kayit_kaynaksiz"], ny["donem_ici"] - n["donem_ici"],
++               ny["hicbiri"] - n["hicbiri"]) == (4, 3, 2, 1, 1)
++    soru("S1b", "YAPAY dört kayıt: iki okuyucu yine eşit VE fark +4/+3/+2/+1/+1",
++         kova_esit(Ky, len(Yy), KNy) and fark_ok, "py %s · node hata %s" % (ny, _h2))
++    soru("S1c", "YAPAY kopyada eski sabit ONGORU BAYATLAR (sabit kırılgandır)",
++         (len(Yy), ny["s_tasiyan"], ny["kayit_kaynaksiz"], ny["donem_ici"], ny["hicbiri"])
++         != tuple(ONGORU[k] for k in ("toplam", "s_tasiyan", "kayit_kaynaksiz",
++                                      "donem_ici", "hicbiri")))
++finally:
++    shutil.rmtree(_td, ignore_errors=True)
++# S1d — NEGATİF KONTROL: dönem kaynağını görmezden gelen kasıtlı yanlış okuyucu
++#       eşitlik sınavından GEÇMEMELİ (S1'in dişi var mı?)
++KNb, _ = node_kova(GIRDI_YOL, bozuk=True)
++soru("S1d", "NEGATİF KONTROL: bozuk okuyucu (dönem kaynağı yok sayılır) S1'den GEÇEMİYOR",
++     KNb is not None and not kova_esit(K, len(Y), KNb))
+ soru("S2", "kovalar AYRIK ve toplamı kayıt-kaynaksız",
+      not (set(K["donem_ici"]) & set(K["hicbiri"]))
+      and set(K["donem_ici"]) | set(K["hicbiri"]) == set(K["kayit_kaynaksiz"]))
