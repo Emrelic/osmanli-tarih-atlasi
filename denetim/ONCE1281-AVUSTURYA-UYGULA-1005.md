@@ -147,3 +147,25 @@ Dosya: `denetim/ONCE1281-AVUSTURYA-TAC-1005.diff` — 34 taç kaydı + Peçuy (`
 Şibenik/Knin üçüncü taraf `isg:` ve Krakov kırpması BU DİFF'TE YOK.
 Öngörü (§5 bellek ölçümünden, taban değişirse fark olarak): **4c 127 (değişmez) · 2s AÇIK −1 · 2i +10 kırılma, açık
 aynı · 2sk YALNIZ TARAF +33 · D1 · D2 · 4d · D7 aynı** · değişen kayıt tam **35**, başka kayıt 0.
+
+## 8. TAÇ YARISI DİFF'İ — ÖLÇÜM (öngörü `04884f6a`'dan SONRA)
+`denetim/ONCE1281-AVUSTURYA-TAC-1005.diff` — 5 dosya (`yerlesimler.js` · `_a78_avrupa` · `_ek` · `_ek29` ·
+`_ek_macaristan`), **35 kayıt**, 68 `s:` dönemi yeni/değişen, **11 `isg:`** (9 F8 fiilî + Peçuy 2 Sırp işgali).
+`_p77_avrupa` bu yarıda yok (yalnız Cisleithania kaydı taşıyordu). Kırpılan `isg:` 2 (Zagreb, Knin değil — taç: Zagreb;
+ötekiler Cisleithania'da kaldı).
+- İki yönlü sahiplik sınavı: YÖN 1 — 35 kayıt simülasyonla birebir (uyumsuz 0) · YÖN 2 — dokunulmaması gereken değişen 0.
+- `git apply --check` ana ağaçta (HEAD `04884f6a`): **0**.
+- `denetle` ÖNCE/SONRA (worktree, ikisi de çıkış 2 — D8 worktree'de ölçülemez):
+
+| | ÖNCE | SONRA | öngörü |
+|---|---|---|---|
+| D1 · D2 · 4c · 4d · D7 | 309 · 623/0 · 127 · 324 · 727 | **aynı** | ✅ |
+| 2s AÇIK | 189 | **188** | −1 ✅ |
+| 2i | 144 / 1 | **154 / 1** | +10, açık aynı ✅ |
+| 2sk YER / YALNIZ TARAF | 1560 / 1602 | **1561 / 1635** | +33 ✅ |
+| MASKE | 1665 | **1665** | — (öngörmedim) |
+
+**Öngörü tuttu (her satır).** Ek gözlem: MASKE 1665'te kaldı — 34 taç noktası 1918-11-11'de bir birim TAŞIMAYA DEVAM
+ediyor (`macaristan-habsburg` → `macaristan-naiplik`) ve o birim Gdańsk'ın açık tuttuğu kovada. +33, bu noktaların
+antlaşma günündeki (Trianon/Saint-Germain) YENİ birimleri. ⇒ §5 ③'teki ayrıştırmamı düzeltir: ana ağaçta görünen +33
+antlaşma günü birimleridir; 1918-11-11 rejim birimleri maskenin arkasında kalıyor (Gdańsk düzelirse görünür olurlar).
