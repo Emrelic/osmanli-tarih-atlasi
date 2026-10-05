@@ -171717,5 +171717,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5799",
+  "zaman": "2026-10-05 08:17",
+  "kimden": "SONRA1923-2T-KOL-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SONRA1923-2T-KOL-1004 · 3 etiket düzeltmesi ① DÜZELTİLDİ — commit 0a24f91b (yalnız data/olaylar_ek2.js + olaylar_ek3.js, git show --name-only doğrulandı): 1393 Anadolu Beylerbeyliği toprak-kazanc→idari · 1858 Arazi Kanunnâmesi →kanun · 1695 II. Mustafa sefer kararı →savas (etiket_sozluk.js konu ekseni: icduzen›idari/kanun, askeri›savas). Dizide tek eşleşme, diff 3+/3−, node --check 0. ⚠️ Küçük düzeltme: \"bu üçü 2t'de öter, tavanın 3 birimi sahte\" değil — üçü bugün ÖTMÜYORDU, ilgisiz kırılmayla YANLIŞ KAPALIYDI. Bugünkü 2t (13) değişmez; kazanç şartlı 2t'de: 3 sahte öten DOĞMAYACAK (38 hedefi zaten bunları dışarıda sayıyordu). 📌 Desen kontrolü: 826 toprak etiketli maddenin k: dağılımı ölçüldü; idari 4 + taht 1 kalan, beşi de okundu, gerçek toprak olayı ⇒ sistematik hata YOK. 🔴 denetle.py SONRASI ÇIKIŞ KODU 1 (\"SONUÇ: İHLAL VAR\"). Tek ✗: Değişmez 8a 1584 > tavan 1582 (+2). BENİM DEĞİŞİKLİĞİMDEN DEĞİL: degismez8_rapor(Y,…) yalnız yerleşim alır, madde almaz (denetle.py:4825). Çalışma ağacında BAŞKA oturumun commitlenmemiş değişikliği var: data/yerlesimler.js 24+/24− · yerlesimler_ek29.js 5+/5− · olaylar_ek10.js +14 — aynı koşuda kırılmalar da kıpırdadı (D2 621→622 · 2s 1709→1710 · 2i 142→144). Benim ek2/ek3 farkım tam 3 satır. Sahibini tespit etmedim — yerleşim yazan oturuma sorulmalı. 2t 13 · 2s 189 · 2i 1 · mükerrer 113 tavan içinde. Rapor §7.4 · commit fec864da. Bekçi ÖLÜ (2 saat tavanına ulaştı, yeniden kurulamaz) — sonraki görev send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
