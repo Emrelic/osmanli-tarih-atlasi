@@ -152,7 +152,7 @@ window.OLAYLAR_OK109 = [
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",
-    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
+    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan da tam bu gün Romanya ve Çekoslovakya rengine geçer.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
     kaynak: "macaristan"
   },
 
