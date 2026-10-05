@@ -257,3 +257,79 @@ KASA   sayı 5-20 ✓  mekanizma "ardıl/fail karışması"               ✓
 4. *"`git rm --cached` değil düz `git rm`"* → düz `rm` tahtayı **diskten silecekti**, numaralar M-0001'e dönecekti
 5. *"Önbellekleri gitignore'a al"* → depo gerekçesini yazmış: alıntının **delili**
 6. *"Bekçiyi durdur, reddedilen komutu yeniden dene"* → bir izin reddini **dolanmak**; KASA doğru reddetti
+
+
+---
+
+## 🔴 F · 5 EKİM GECESİ DOĞAN KARARLAR — hepsi ÖLÇÜLDÜ, hiçbiri uygulanmadı
+
+İkisini gece sordum ve **cevap aldım** (burada yalnız kayıt için):
+- ✅ **Değişmez 2 evreni:** `kronoloji_cok_1923_1945` (500 madde) evrene ALINACAK,
+  kampanyadan ÖNCE, tavan beyanıyla. *(Emre, 5 Ekim)*
+- ✅ **DEM transferi:** UMIT salt-okunur **ağ paylaşımı** açar → HAVVA kopyalar ve
+  **hash doğrular**. *(Emre, 5 Ekim)* ⚠️ İki makine de kapalı; açılınca başlar.
+
+Aşağıdaki **dördü bekliyor.** Hiçbiri bir şeyi durdurmuyor, ama dördü de veri yazmanın
+önünde duruyor.
+
+### F1 · ÇAPA MODELİ — devletsiz halklar nasıl temsil edilecek? (en ağırı)
+**Ölçüm:** 194 kaynaksız `kur:"1281-01-01"` silindikten sonra ONCE1281 kaynak taradı:
+58 noktaya `kur` yazılabiliyor, **41'inde `kur` 1281'den SONRA** — yani o 41 nokta
+bugün yayındaki haritada **yanlış** çiziliyor:
+```
+Gjoa Haven 1927 · Clyde River 1924 · Makurdi ~1927 · Mutare 1890 · Lokoja 1860 ·
+Butterworth 1827 · Lagos ~1467 · Knife River 1525 · Kittigazuit 1400 …
+```
+Gjoa Haven 1927'de kurulmuş; atlas onu **1281'den beri** boyuyor (646 yıl).
+🔴 **Ama `kur` yazmak da bir şey kaybediyor** — işçinin cümlesi:
+> "Arktik köylerinin çoğu bir HALKIN çapası; köyün 1920'de kurulması halkın orada
+>  olmadığı demek değil, `kur` yazılırsa çapa kaybolur."
+
+`kur` yazılırsa motor 1281→kur arası peteği komşuya devreder (delik AÇILMAZ, kodla
+doğrulandı) — ama o toprak artık o halkın görünmediği bir toprak olur.
+**ÜÇ YOL:**
+```
+(a) kur YAZ            → tarih doğru olur, halkın toprak çapası kaybolur
+(b) kur YAZMA          → çapa korunur, 646 yıllık yanlış sürer (bugünkü hâl)
+(c) ÇAPA olarak BEYAN  → köyün kuruluşu ile halkın varlığı AYRI iki olgu sayılır;
+    (önerim)             `kur` köyün alanıdır, çapanın kendi alanı olur
+```
+📌 Niçin senin kalemin: bu bir tarih sorusu değil, atlasın **devletsiz halkları nasıl
+gösterdiği** sorusu — `§1.6` kapsamı sana veriyor.
+
+### F2 · KABA TARİH DÖNÜŞÜMÜ — 'mid 14th century' ne yazılacak?
+İşçi 45 kayda KABA `kur` buldu ve dönüşüm varsayımını açıkça sordu:
+`'early/mid/late X. yy' → X01 / X34 / X67`.
+🔴 **Benim okuduğum kural ikisini de reddediyor:** `D210` *"yıl bilinmiyorsa yıl
+yazılmaz"* · `D213` *"türetilen sayı alıntıya yazılmaz"*. "mid 14th century" bir YIL
+vermiyor; `X34` uydurulmuş kesinliktir.
+**BEDELİ:** kuralı sıkı uygularsak bu 45 kayıt **kapsam dışına** düşer ve 1281 öncesi
+kampanyası 58 noktadan 13'e iner.
+```
+(a) SIKI    tarih alanına hiçbir şey yazılmaz, kaba ifade AÇIKLAYAN alanda durur
+    (önerim)  → 45 kayıt kapsam dışı, kampanya 13 nokta
+(b) YÜZYIL BAŞI  X01 yazılır (kaynaktan ERKEN olabilir)
+(c) ORTA NOKTA   X34/X67 yazılır (türetilmiş sayı — mevcut kurallara AYKIRI)
+```
+
+### F3 · D-RENK-0073 — 8 kalem (PAKET-0076'nın tek listesi)
+`H-0041 · H-0042 · H-0059 · H-0118 · H-0120 · H-0144 · H-0155 · H-0156`
+Hepsinde çizgi o gün **yürürlükte**, anakronizm YOK — sorun oturmayan renk. Üç soru:
+```
+(a) BIÇAK mı  (b) GÖVDE mi  (c) KARIŞIK mı   ·   dikiş dili   ·   sol_taraf borcu
+```
+⚠️ İşçinin uyarısı: istemci yaslaması (E/F) indiği için `[E]` olanlar **kısmen
+düzelmiş olabilir** — görünür bölmede ölçülmedi. Yani liste bir miktar bayat olabilir.
+
+### F4 · ETİKET SÖZLÜĞÜ — iki eksik yaprak
+Ölçüldü (`ETIKETLEME §8.5` → `etiket_sozluk.js` konu ekseni):
+- **`isgal` konu sözlüğünde HİÇ YOK** — yalnız bir `tur` değeri. Oysa veride `etiket`
+  olarak kullanılmış (5 kayıt yanlış etiketlenmişti, düzeltildi).
+- **"keşif/sefer" yaprağı YOK** — Vasco da Gama ve Coronado `diger`e düştü.
+```
+(a) iki yaprak AÇILSIN (isgal konu ekseninde + kesif)
+(b) yalnız kesif açılsın, isgal tur ekseninde kalsın
+(c) ikisi de açılmasın, diger yeterli
+```
+📌 Bu karar `denetle.py`nin yeni **işgal aynası** kolunu etkiliyor: kol "YALNIZ etiket"
+ile kurulacak (ölçüldü: bugün 9 öter; `tur` da sayılırsa 15 ve beşi yanlış pozitif).
