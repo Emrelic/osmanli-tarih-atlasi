@@ -828,3 +828,87 @@ commit** var (`88d000f5` + `M-5718…M-5731` = 14 hazır kıtanın HAZIRIM mesaj
 `reset --hard` onları YOK EDER. UMIT'e koşturmamasını söyledim; mesajlar okundu ve
 kıtalar bulundu, yani içerikleri artık kayıp değil — ama commit'ler hâlâ orada ve
 deponun temizliği senin kararın.
+
+---
+
+# 🔴 EMRE'NİN KARARINI BEKLEYEN YENİ KALEM — Kafkasya zincirinde ÜÇ SEÇENEK, üçü de bedelli
+
+*(6 Ekim gecesi ölçüldü: UMIT alt koordinatörlüğü + W6. Koordinatör hüküm VERMEDİ, çünkü
+bu görünür ürün kararıdır.)*
+
+## Ölçülen durum
+Artvin · Posof · Şavşat · Hanak · Iğdır · Digor · Arpaçay kayıtlarında `s:` zinciri bugün
+`{f:"1917-11-07", t:"1921-10-13", d:"sovyet-rusya"}` diyor. **Bu kimlik yanlış.** W6'nın
+ölçümü: *"1917-11 sonrası Sovyet denetimi HİÇ yok."* Gerçek zincir
+```
+Rus çekilmesi → Osmanlı (Mart–Mayıs 1918) → Mondros tahliyesi → yerel İslâm hükûmeti
+ya da İngiliz → Gürcistan DC / Ermenistan DC → TBMM
+```
+Kaynaklı tutamaklar: Artvin Osmanlı **1918-03-28** (3 akademik) · Artvin İngiliz
+**1918-12-17** (TDV + Yücetürk) · Iğdır Osmanlı **1918-05-20** (Sarı, TÜBA) · ve
+`transkafkasya` künyesi (1917-11-07 → 1918-05-28) VAR. Ama **gün hassasiyetinde tam
+zincir 0/11**, en az bir ara geçiş 2/11.
+
+## 🔴 KARAR — üç yol, üçünün de bedeli var
+```
+① BUGÜNKÜ HÂL BIRAKILIR    harita DOLU ama kimlik YANLIŞ (kaynak çürüttü)
+② BOŞLUK BIRAKILIR         kimlik DOĞRU ama Değişmez 1 kırılır = haritada DELİK
+③ __BOSLUK__ BEYANI        DOĞRU ve BEYANLI (§3.5.1 "Kusur değil, BEYAN") — ama o
+                           dilim haritada BOŞ görünür, kullanıcı bir şey KAYBEDER
+```
+`D210` ①'i savunulamaz kılıyor (kaynaksız/çürütülmüş kimlik yazılamaz) ama ②/③ arası
+seçim **kullanıcının gördüğü şeyi değiştirir** ⇒ Emre'nin.
+📌 Kararı kolaylaştıracak ölçüm sipariş edildi: **zincirin kaç günü kaynakla kapanıyor,
+kaç günü açık kalıyor?** Boşluk 3 ay ise ③ kolay; 3 yıl ise karar ağırlaşır.
+
+## Yan karar: Aras-Türk Hükûmeti künyesi
+Koordinatör hükmü: **kapsam kararı DEĞİL** (Kafkasya 1918-1923 kapsamda, emsali
+`cenub-i-garbi-kafkas` var) ⇒ açılabilir. Üç şartla: ① bir kayıt gerçekten kullanacaksa
+② penceresi KAYNAKTAN gelecek ③ `renkler.py` boyası AYNI commit'te (boyasız künye
+`§1.5`in "HARİTA DELİĞİ" kovasını 0'dan kaldırır).
+
+---
+
+## KF-1 ARTIK ÜÇ ENGELLİ — uygulanmadı, ve her engel ölçüldü
+1. **Zincir** (yukarıdaki karar).
+2. **ARPAÇAY ad birleştirmesi (aday kusur):** veride TEK kayıt var —
+   `ad:"Arpaçay (Akyaka)"` lat 40.845 lon 43.325 — ve ayrı bir `Akyaka` kaydı YOK. Bu
+   projede parantez *aynı yerin başka adı* demektir (emsal: `Adranos (Orhaneli)`,
+   `Abeşe (Abéché)`). W6 ikisinin ~27 km ayrı olduğunu söylüyor (Zaruşad=Arpaçay,
+   Şüregel=Akyaka, Ercilsin 2024). ⚠️ *"~27 km"* rakamı ve *"ölçülmedi"* beyanı **W6'nın
+   değil UMIT alt koordinatörünün** — kendisi düzeltti, kayda öyle geçiyor. W6'nın raporu
+   yalnız Ercilsin 2024'ü kaynak gösteriyor. ⇒ Mesafe iddiası aday, olgu değil.
+   İki yerse KF-1'in Arpaçay günü Kars Valiliği'nin **/akyaka** sayfasından geldiği için
+   YANLIŞ YERİN günü olur (`D208`), ve KASA'nın "Küçükperveli ↔ Arpaçay" komşu günü
+   eşlemesi de ters olur. Ölçüm sipariş edildi.
+3. **HANAK yakası:** Sürmeli'ye göre 1919 sonrası Ardahan'da Kura **sol** yakası Gürcü,
+   **sağ** yakası Ermeni. Hanak'ın yakası ölçülmedi; sağ yakadaysa "Gürcistan → TBMM"
+   kırılması yanlış kimlikten çıkar. Ölçüm sipariş edildi.
+
+**Uygulanabilir tek satır:** Iğdır 1920-11-12 (iki bağımsız akademik tanık).
+
+---
+
+## 🔴 SESSİZ KAPI KUSURU — `O7`, bu gecenin en değerli bulgusu (W7 buldu, koordinatör doğruladı)
+`js/app.js:7035` → `/^OLAYLAR(_[A-Za-z0-9]+)?$/`. İç grupta `_` **yok** ⇒ iki alt çizgili
+yedi değişken **eleniyor**:
+`OLAYLAR_0073_IRAN_YANYA · _2S_0918 · _2S_0919 · _CUKUROVA_0907 · _ORTADOGU_0919 ·
+_SENKRON_0930 · _SENUSI_0919` = **112 Osmanlı maddesi ekranda YOK.**
+
+⚠️ Ve asıl kusur bu değil: **Değişmez 2 o 112 maddeyi SAYIYOR** (dosyadan okuyor), ekran
+göstermiyor (window'dan okuyor). ⇒ O maddeler kırılmaları "kapatıyor" ama kullanıcı o
+değişimi hiç görmüyor. **Senkron kapısı orada YANLIŞ TEMİZ.**
+⚠️ Daha da kötüsü: `denetle_yayin.cizilmiyor_mu()` yedisini de **LİSTELİYORDU** ve
+`CIZILMEYEN_MUAF`ta değillerdi. Kapı ötüyordu, kimse okumadı. **Rapor var ≠ rapor okundu.**
+⇒ Düzeltme dağıtıldı (desen + ÖNCE/SONRA kapı ölçümü, tavan ÖNERİLİR yazılmaz).
+
+## Kapanan borçlar (ölçümle)
+- **PL-7 4'üncü çift:** `BILINEN_AYRI` boşken bile ötmüyor (J 0,125) ⇒ yazılsaydı **ölü
+  kural** olurdu. Bekletmek doğruydu; kalem `gerek-yok` olarak KAPANDI.
+- **`vefat_id` 28 ↔ 27:** `durum_tablosu.py` bir **yorum satırını** sayıyor
+  (`olaylar_ek17.js:39`) ⇒ gerçek 27. `§1.5` ELLE düzeltilmeyecek (`D199`); araç
+  düzelince `--yaz` kendisi indirecek.
+- **`osman1` 1324-08-01:** gün/ay hiçbir TDV cümlesinde YOK ve `orhan` penceresinin
+  (Eylül 1323 – Mart 1324) DIŞINDA ⇒ gün düşer, yıl kalır (`D210`).
+- **KF-2 Artvin 27 Şubat:** korunur; 11 Mart'ı destekleyen akademik kaynak YOK (Batum
+  harekâtıyla karışmış). Altı aday kayda yazılır.
