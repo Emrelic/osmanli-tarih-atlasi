@@ -172800,5 +172800,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5831",
+  "zaman": "2026-10-05 15:47",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM (karar gerekiyor, ② sürüyor) — ONCE1281-CISLEITHANIA-1005 ① · öngörü 01576f04 (ölçümden ÖNCE) · ölçüm c86b3e6f · denetim/ONCE1281-CISLEITHANIA-1005.md · veriye yazılmadı ① ÖLÇTÜM: - devletler.js TARANDI (id/ad/bolge/harita/not, pad'li): Država SHS · ZUNR · Fiume Serbest Devleti · Müttefik emaneti künyesi YOK. habsburg → 1918-11-11 · avusturya-cumhuriyet 1918-11-12 (ayrı polity) · yugoslavya 1918-12-01. - BİRİNCİL METİN: Saint-Germain md. 91 — Avusturya, sınırları dışında kalıp \"have not at present been assigned to any State\" olan eski monarşi topraklarını \"in favour of the Principal Allied and Associated Powers\" bırakır. 1923 kararı girişinde aynı maddeyi anarak Doğu Galiçya'yı Polonya'ya verir. Rapallo md. 3: \"All other islands … shall be recognised as forming part of the Kingdom of the Serbs, Croats and Slovenes.\" - D205 TASNİFİ: 16'nın HEPSİ aynı bileşim — ① habsburg ÖLDÜ (avusturya antlaşmaya uzamaz) + ③ ardıl = md. 91 emaneti (künyesiz). ② YOK (avusturya-cumhuriyet ayrı polity, Dalmaçya/Galiçya'yı hiç tutmadı). Dalmaçya/Galiçya/Kvarner arasında sınıf farkı yok, yalnız atama günü farklı. - BELLEKTE (künye ve takma ad yalnız bellekte), taban taç indikten sonra (2s 188 · 2sk 1561/1635 · 4c 127 · D7 727): A md.91 emaneti (avusturya → SG imza 1919-09-10, emanet → atama): 4c 127 ✓ · D1 309 · 4d/hayalet/künyesiz +0 · 2s 189 (+1) · 2sk 1561/1652 · 2i 162/1 · D7 731 (= beklenen). C __BOSLUK__: 4c 127 · 2s 189 · D7 732 · ama Dalmaçya + Doğu Galiçya 2-4 yıl BOYANMAZ ve \"kimsenin değil\" beyanı md. 91 karşısında YANLIŞ ⇒ önermiyorum. Rapallo kovası A'da 8 eksikle AÇIK (Hvar, Knin, Korčula, Krk, Mljet, Nadin, Pag, Rab): madde \"SHS Krallığı\" diyor, yugoslavya'nın taraf adayları yalnız \"sirp-hirvat-sloven…\". \"SHS\" takma adıyla kova KAPANIR: 2s 188, 2sk 1561/1666. Bugünkü veride takma adın etkisi 0. 🟢 D261'in İLK SAHİCİ UYGULAMASI — Zadar/Cres adı (Rapallo md. 2-3): 2sk YER 1561 → 1563, TARAF 1666 → 1664 — ama YALNIZ \"SHS\" takma adıyla (kova kapalı olmalı); takma adsız etkisi 0. D7 +4: Lvov, Yazlofça (emanet gövdesi Dalmaçya'da, Galiçya 876-892 km — HAKİKİ enklav, md. 91 iki ayrı bölge) · Ljubljana, Maribor (Dalmaçya emanete geçince Sloven yugoslavya kümesi Split/Dubrovnik'ten kopuyor). ② BULAMADIM: md. 91 emanetinin tam başlangıç günü — imza (1919-09-10) mı, yürürlük (1920-07-16) mü; F8 tutarlılığı için imzayı kullandım. ③ İSTİYORUM (senin/Emre'nin yetkisi): (1) ardıl künye `itilaf-emaneti` açılsın mı? Boyası renkler.py'de (motor tuzu, §9.1) — ya tam inşa koşusunu bekler ya harita: ile var olan boyayı ödünç alır. (2) yugoslavya'ya 2s taraf takma adı \"SHS\" (denetle.py). (3) Lvov + Yazlofça emanet dönemine enklav:true. Karar gelince 16 kaydın diff'ini Berlin usulüyle yazarım. ⚠️ Kapsam: Split, Sinj, Klis, Brač, Dubrovnik, Kotor, Herceg Novi araştırmada Saint-Germain'e bağlanmış; md. 91 + Rapallo md. 3 ile atama günleri Rapallo olabilir — ayrı tasnif borcu. Şimdi ② (2i madde borcu 10) üzerindeyim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
