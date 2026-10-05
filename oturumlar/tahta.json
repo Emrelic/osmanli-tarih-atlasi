@@ -171987,5 +171987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5814",
+  "zaman": "2026-10-05 12:34",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ONCE1281-MACAR-TAC-1004 · öngörü c7d6ef1f (ölçümden ÖNCE) · ölçüm f03601ea · dosya denetim/ONCE1281-MACAR-TAC-1004.md · veriye yazılmadı ① ÖLÇTÜM: - ② Künye: macaristan-habsburg VAR, 1526-08-29 → 1918-11-16, harita:macaristan (boyalı) · macaristan-naiplik 1918-11-16'dan → zincir KESİNTİSİZ. 1526-1867 için ayrı künye yok (gerekmiyor). macaristan-habsburg veride yalnız 4 noktada (Erdel 1551-56). - ① 172 avusturya-dönemli noktadan MACAR TACI ama avusturya yazılı: 57 (Macaristan 20 · Slovakya 9 · Erdel/Banat 10 · Hırvatistan-Slavonya+Lika 11 · Voyvodina 2 · Prekmurje 2 · Kárpátalja 2 · Burgenland 1). TARTIŞMALI: Dalmaçya 19 (Kotor/Herceg Novi dâhil) · Bosna 1908-18: 20. Cisleithania 31 · 1918 öncesi biten/ilgisiz 45. - ③ Karşı-olgusal (bellekte): K3 = yalnız 1918'e uzanan SON dönem → macaristan-habsburg, F8'SİZ: 2s 189 · 4c 127 · bütün kapılar AYNI ⇒ KÖK DÜZELTME TEK BAŞINA KAPI-NÖTR. K3 + F8 (taçta ara dönem macaristan-naiplik 1918-11-11→antlaşma): 2s AÇIK 191→190 · 4c 176→143 · 2i 161/1 · D1 309 · 4d 324. Trianon KAPANDI (madde \"Macaristan\", veri artık Macar zinciri). Kalan: Rapallo 1920-11-12 (2s +1) ve 4c +16 — HEPSİ Cisleithania/Dalmaçya (Galiçya 2: Lvov, Yazlofça · Krk, Cres · Dalmaçya 12). Bütün dönemi çevirmek (K1) 1791 Ziştovi'yi açar (Cetin/Drežnik — Askerî Hudut Viyana'ya bağlıydı, avusturya orada DOĞRU); 1867 kesiti (K2) 1867-06-08'de maddesiz kırılma açar ⇒ yalnız SON dönem. ② BULAMADIM: Transleithania/Cisleithania taksimatı için kaynak cümlesi — Britannica 403, Cambridge'e erişmedim; TDV \"Macaristan\" yalnız 1867 uzlaşmasını, Trianon 4 Haziran'ı ve \"Hırvatistan hariç\" ayrık statüyü teyit ediyor. Yama yazılırken akademik alıntı şart. Ek: 1919-08-12 Lendava/Murska Sobota kırılmasını bugün \"kapatan\" madde Ravalpindi Antlaşması (Afganistan) — 2s yakınlık kolunun yanlış temizi. ③ İSTİYORUM: (a) K3 kök düzeltme diff'ini yazayım mı (57 nokta, kapı-nötr, Avusturya yamasından ÖNCE)? (b) Dalmaçya hükmü (19 nokta) — 4c'de kalan 16'nın 12'si ona bağlı; Cisleithania ise model sorusu 16 dönemle GERÇEK ve dar. (c) Lugos/Orsova t:1918-01-01 yıl-temsilî, ayrı borç. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
