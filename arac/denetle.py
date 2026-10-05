@@ -4606,12 +4606,79 @@ def _d8_gun_once(g):
         return None
 
 
+# 🔴 GÖVDE KİMLİK SINAVI — "ölçtüğüm gövde, SİTENİN gösterdiği gövde mi?"
+#    (LAB-D8-UYE-1005 §10, 5 Ekim 2026 · iz sürerek ölçtü: Python audit hook +
+#    Node --require kancası, her okumaya çağıran soru eklenerek.)
+#
+# ÖLÇÜLEN VAKA ve niçin sinsi: Değişmez 8, `data/donemler.js` ve
+# `data/devletler_harita.js`i okur. İkisi de `.gitignore`da, YEREL koşu
+# artefaktı. Site ise onları YÜKLEMEZ — kodlanmış sürümü yükler
+# (`donemler_on`+`donemler_ust`+`donem_parcalar`). İkisi AYRI koşudan kalırsa
+# kapı, YAYINDA OLMAYAN bir haritayı denetler:
+#     site devletler 0ef2d3e23c4e (172,6 MB) ↔ yerel bc81fa2c005f (93,7 MB)
+#     site donemler  6e34fd54dcfb            ↔ yerel 1f201eb7b597
+#     SİTE gövdesinde 8a 1509 · 8b  82 ✓      ← yayındaki GERÇEK
+#     YEREL gövdede   8a 1568 · 8b 121 ✗      ← kapının bastığı sayı
+# ⇒ Yalnız yanlış sayı değil, YANLIŞ HÜKÜM: olmayan bir ihlal bağırıyor,
+#   gerçek üyelik hareketini (ortak 1364 · yalnız yerel 204 · yalnız site 145)
+#   gizliyor.
+#
+# ⚠️ VE ESKİ DAMGA BU SORUYU CEVAPLAMIYORDU: `self.damga` motor parmak izini
+#   ("uret_petek 8b6aaea5") yazıyor ve İKİ GÖVDE DE AYNI parmak izini taşıyor —
+#   damga KOŞUYU AYIRT ETMİYOR. Aynı motor, ayrı koşu, ayrı çıktı.
+# ⇒ Tek güvenilir bağ, kodlayıcının ÖZGÜN METİN sha256'sı (`kodla.py:752`,
+#   `window.__PR_SHA` / `window.__DP_SHA`). Tutmuyorsa soru SORULAMAZ:
+#   `ölçülemedi ≠ yok ≠ temiz` (`CLAUDE.md §3`). Aşağıdaki `raise`,
+#   `degismez8_rapor`un `except Exception` kolundan ÖLÇÜLEMEDİ'ye ve çıkış
+#   kodu 2'ye düşer — sessiz "temiz" YOK.
+# ⚠️ DAMGA `*_parcalar.js`TE, `*_ust.js`TE DEĞİL — bunu VARSAYDIM ve YANILDIM;
+#   kapı "damga YOK" diye öttü. Doğrusu `kodla.py:752` okunarak bulundu:
+#   `SHA_ADI` havuz (parça) dosyasına yazılıyor, üst dosyaya değil.
+#   📌 Bu gecenin dersi bir kez daha: çareyi KURALDAN değil KODDAN tasarla.
+_D8_GOVDE_DAMGA = (
+    ("devletler_harita.js", "devlet_parcalar.js", "__DP_SHA"),
+    ("donemler.js", "donem_parcalar.js", "__PR_SHA"),
+)
+
+
+def _d8_govde_kimlik():
+    """Yerel gövde ↔ sitenin yüklediği kodlanmış gövde AYNI MI? Değilse RAISE."""
+    import hashlib
+    for kaynak, ust, damga_adi in _D8_GOVDE_DAMGA:
+        y_kaynak = os.path.join(DATA, kaynak)
+        y_ust = os.path.join(DATA, ust)
+        if not os.path.isfile(y_ust):
+            raise RuntimeError(
+                "%s YOK — sitenin yüklediği gövdenin damgası okunamıyor, "
+                "yerel %s'in yayındakiyle aynı olduğu DOĞRULANAMAZ" % (ust, kaynak))
+        with open(y_ust, encoding="utf-8") as f:
+            m = re.search(r"window\.%s\s*=\s*\"([0-9a-f]{64})\"" % damga_adi, f.read())
+        if not m:
+            raise RuntimeError(
+                "%s içinde %s damgası YOK — gövde kimliği sınanamıyor" % (ust, damga_adi))
+        if not os.path.isfile(y_kaynak):
+            raise RuntimeError(
+                "%s YOK (üretilmiş + gitignore'lu çıktı) — taze bir ağaçta "
+                "beklenir; koşudan sonra oluşur" % kaynak)
+        h = hashlib.sha256()
+        with open(y_kaynak, "rb") as f:
+            for blok in iter(lambda: f.read(1 << 22), b""):
+                h.update(blok)
+        if h.hexdigest() != m.group(1):
+            raise RuntimeError(
+                "GÖVDE UYUŞMUYOR — %s yereldeki koşudan, site ise kodlanmış "
+                "sürümü yüklüyor (yerel %s… ↔ site %s…). Değişmez 8 YAYINDA "
+                "OLMAYAN bir haritayı ölçerdi; soru SORULMADI."
+                % (kaynak, h.hexdigest()[:12], m.group(1)[:12]))
+
+
 class _D8Govde:
     """Motor gövdesi: gün → o gün boyalı parçalar (lon/lat shapely)."""
 
     def __init__(self):
         from shapely.geometry import Polygon
         self._Polygon = Polygon
+        _d8_govde_kimlik()          # 🔴 ölçmeden ÖNCE: doğru gövde mi?
         H = _d8_js(os.path.join(DATA, "devletler_harita.js"))
         D = _d8_js(os.path.join(DATA, "donemler.js"))
         B = _d8_js(os.path.join(DATA, "bolgeler.js"))
