@@ -135,6 +135,33 @@ def metinler(r, alanlar_disi):
                     out.append((f"{k}[{i}]", x))
     return out
 
+# ---------------------------------------------------------------- sınır ifadeleri
+# KOORDİNATÖR KURALI (UMIT İRTİBAT, 6 Ekim 2026): "N'den önce/sonra · N'e kadar" bir
+# SINIRDIR, nokta değildir — alan ancak sınırı İHLAL ederse ①. Sınav: mimar-sinan
+# f=1488 ↔ «1491'den önce doğdu» ① DEĞİL; f=1495 olsaydı ①.
+# ⚠️ "~N · yaklaşık N · muhtemelen N" BİLEREK tolerans almadı: koordinatörün KABUL
+# ettiği ①'lerden turgut-reis («yaklaşık 1487» ↔ 1485) ve piri-reis («muhtemelen
+# 960 (1553)» ↔ 1554) tam bu biçimde; ±n tolerans bu ikisini sessizce temize çıkarırdı.
+# Bu ifadelerde yön yok ⇒ sınır yalnız N'in kendisi; kayıt `yaklasik` bayrağıyla
+# "yumuşak ①" olarak işaretlenir (hüküm yine elle).
+SINIR_RX = re.compile(r"^\)?['’]?\s*(?:[dt][ae]n|y?[ae]|n[ae])?\s+(önce|sonra|kadar|itibaren|evvel)\b", re.I)
+
+def sinir_oku(arkasi):
+    m = SINIR_RX.match(arkasi)
+    return m.group(1).lower() if m else None
+
+def uyar(ay, k):
+    s = k.get("sinir")
+    if s in ("önce", "evvel"):
+        return all(ay < a for a in k["adaylar"]) if not k["hicri"] else ay < max(k["adaylar"])
+    if s == "kadar":
+        return ay <= max(k["adaylar"])
+    if s == "sonra":
+        return ay > min(k["adaylar"])
+    if s == "itibaren":
+        return ay >= min(k["adaylar"])
+    return ay in k["adaylar"]
+
 # ---------------------------------------------------------------- değerlendirme
 def degerlendir(alan_olay, metin_listesi, olay_kumesi, uzak=130):
     """alan_olay: {alan: (olay, yıl)} → bulgular"""
@@ -154,7 +181,8 @@ def degerlendir(alan_olay, metin_listesi, olay_kumesi, uzak=130):
                                                     uzaklik=d))
                         continue
                     kayit = dict(metin_alani=mk, cumle=c.strip()[:400], ham=ham, adaylar=adaylar,
-                                 hicri=hicri, olay=o, uzaklik=d)
+                                 hicri=hicri, olay=o, uzaklik=d,
+                                 sinir=sinir_oku(c[konum + len(ham):]))
                     if o == olay:
                         if DUZELTME_RX.search(c):
                             duz.append(kayit)
@@ -163,8 +191,8 @@ def degerlendir(alan_olay, metin_listesi, olay_kumesi, uzak=130):
                             yak = yak or bool(YAKLASIK_RX.search(c))
                     elif ay in adaylar:
                         farkli_olay.append(kayit)
-        uyan = [k for k in ayni if ay in k["adaylar"]]
-        uymayan = [k for k in ayni if ay not in k["adaylar"]]
+        uyan = [k for k in ayni if uyar(ay, k)]
+        uymayan = [k for k in ayni if not uyar(ay, k)]
         if uymayan and not uyan:
             bul.append(dict(sinif="1", alan=alan, deger=ay, olay=olay, kanit=uymayan,
                             yaklasik=yak, ek=farkli_olay))
