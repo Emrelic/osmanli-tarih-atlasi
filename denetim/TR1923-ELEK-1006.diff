@@ -1,0 +1,266 @@
+diff --git a/denetim/ARAC-TR1923-ELEK-SINAV-1006.py b/denetim/ARAC-TR1923-ELEK-SINAV-1006.py
+new file mode 100644
+index 00000000..a25ba03a
+--- /dev/null
++++ b/denetim/ARAC-TR1923-ELEK-SINAV-1006.py
+@@ -0,0 +1,198 @@
++# -*- coding: utf-8 -*-
++"""ARAC-TR1923-YAZ kopya eleği SINAVI (UMIT-W6-DALGA6-1006). data/'ya YAZMAZ.
++
++Üç kol:
++ ① ELEK: kopya beyanlı kayıt komşu sayılmıyor. Revan kopyaları (Gümrü · Eçmiyadzin ·
++    Iğdır · Arpaçay) bellekte `zincir_kaynagi` ile işaretlenir; yeni betikte Norapat ·
++    Kliçatak · Beri · Küçükperveli onları komşu SEÇMEMELİ. Ters yön: ESKİ betik aynı
++    girdide onları SEÇMELİ (sınav ikinci kuşağı görebiliyor mu?).
++ ② BEYANSIZ: hiçbir kayıt beyanlı değilken yeni betiğin çıktısı = eski betiğin çıktısı
++    + `zincir_kaynagi` alanı. Başka fark 0.
++ ③ BUGÜNKÜ DOSYA: yeni çıktı ↔ data/ sınır dosyaları; fark yalnız `zincir_kaynagi` ve
++    dalga 5'te ölçülen KAYNAK KAYMASI kayıtları (BEKLENEN_KAYMA). Başka fark 0.
++Çıktılar yalnız geçici dizine yazılır; gerçek data/ yolu `assert` ile engellenir.
++Eski betik `git show <ref>:denetim/ARAC-TR1923-YAZ-0914.py` ile okunur.
++
++Kullanım: py denetim/ARAC-TR1923-ELEK-SINAV-1006.py [--eski-ref origin/main]
++Çıkış: 0 = üç kol geçti · 1 = bir kol düştü.
++"""
++import sys, os, io, json, copy, tempfile, subprocess, importlib.util, contextlib, argparse
++sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++os.chdir(KOK)
++sys.path.insert(0, "arac")
++import girdi
++
++BETIK = os.path.join(KOK, "denetim", "ARAC-TR1923-YAZ-0914.py")
++SECIM = os.path.join(KOK, "denetim", "OLCUM-TR1923-SINIR-0914.json")
++REVAN_KOPYALARI = ("Gümrü (Aleksandropol)", "Eçmiyadzin", "Iğdır", "Arpaçay (Akyaka)", "Digor")
++# W9'un beyan yazacağı ELLE kopyalar (UMIT-W6-DALGA4-1006 §3.2: 54 − kaynak adsız 4 −
++# bilerek ayrılmış 5 = 45). ① bu kümeyle de koşar: seçilen komşu kümede OLMAMALI.
++W9_KUMESI = (
++    "Linz", "Třeboň (Wittingau)", "Feldkirch", "Innsbruck", "Annemasse", "Bastogne",
++    "Neufchâteau (Belçika)", "Virton", "Wiltz", "Nyala", "Reşadiye (İskefsir)", "Blagoveşçensk",
++    "Ceylanpınar", "Gümrü (Aleksandropol)", "Eçmiyadzin", "Özalp (Saray)", "Yüksekova (Gever)",
++    "Yagodina (Jagodina)", "Hayber", "Midyat", "Bedir", "Râbiğ", "Taraz (Evliya-Ata)",
++    "Sayram (İsficâb)", "Lovozero (Luyavr)", "Sîva (Siwa)", "Zaural Başkurt toprakları",
++    "Bacirge (Esendere)", "Bitlis", "Arpaçay (Akyaka)", "Digor", "Iğdır", "Divriği",
++    "Şehirköy (Pirot)", "Şeyh Salû-yi Ulyâ", "Culfa", "Bolayır", "Maydos (Eceabat)",
++    "İshakçı (Isaccea)", "Debrecen", "Kahul (Cahul)", "Lublin", "Białystok", "Çatalca",
++    "Çehrin (Çigirin)")
++ZINCIRLEME = ("Norapat", "Kliçatak (Suser)", "Beri", "Küçükperveli")
++# Dalga 5 sınavı (UMIT-W6-DALGA5-1006 §2.3): kaynak kayıtlar üretimden sonra değişti.
++# Bu kayıtlarda s/d/v farkı ELEKTEN BAĞIMSIZDIR ve beklenir.
++BEKLENEN_KAYMA = {"Norapat", "Kliçatak (Suser)", "Stérna", "Küfkaynapınarı (Azatlı)",
++                  "Malak Dervent (Lalkovo)", "Umur Fakih (Fakia)"}
++
++
++def modul(yol, ad):
++    spec = importlib.util.spec_from_file_location(ad, yol)
++    m = importlib.util.module_from_spec(spec)
++    # betik yüklenirken `sys.stdout`u kendi sarmalayıcısıyla değiştirir; o sarmalayıcı
++    # çöpe gidince altındaki tamponu KAPATIR. Ona sahte bir tampon ver, sonra geri al.
++    eski_out = sys.stdout
++    sys.stdout = io.TextIOWrapper(io.BytesIO(), encoding="utf-8")
++    spec.loader.exec_module(m)
++    sys.stdout = eski_out
++    os.chdir(KOK)                             # betik kendi konumuna göre chdir yapar; geçici kopyada yanlış kök
++    return m
++
++
++def kos(m, cikti, isaretle=()):
++    """Betiği `cikti` dizinine koşturur. `isaretle`: bellekte zincir_kaynagi verilecek adlar."""
++    os.makedirs(cikti, exist_ok=True)
++    gercek = {k: os.path.abspath(v[0]) for k, v in m.DOSYA.items()}
++    m.DOSYA = {k: (os.path.join(cikti, os.path.basename(v[0])), v[1], v[2]) for k, v in m.DOSYA.items()}
++    for k, v in m.DOSYA.items():
++        assert os.path.abspath(v[0]) != gercek[k], "GERÇEK data/ YOLU — durdu"
++        assert os.path.commonpath([os.path.abspath(v[0]), os.path.abspath(cikti)]) == os.path.abspath(cikti)
++    asil = girdi.yukle
++
++    def sahte(sessiz=False):
++        Y = asil(sessiz=sessiz)
++        if isaretle:
++            Y = copy.deepcopy(Y)
++            for y in Y:
++                if y["ad"] in isaretle:
++                    y["zincir_kaynagi"] = {"yer": "Revan", "pencere": ["1281-01-01", "1923-10-29"], "tur": "birebir"}
++        return Y
++    m.girdi.yukle = sahte
++    eski_argv, sys.argv = sys.argv, [BETIK, SECIM]
++    try:
++        with contextlib.redirect_stdout(io.StringIO()):
++            m.main()
++    finally:
++        sys.argv = eski_argv
++        m.girdi.yukle = asil
++    return {k: v[0] for k, v in m.DOSYA.items()}
++
++
++def oku(yol):
++    out = {}
++    for l in open(yol, encoding="utf-8"):
++        l = l.strip()
++        if l.startswith('{"ad"'):
++            o = json.loads(l.rstrip(","))
++            out[o["ad"]] = o
++    return out
++
++
++def komsu(kayit):
++    z = kayit.get("zincir_kaynagi")
++    if isinstance(z, dict):
++        return [z["yer"]]
++    if isinstance(z, list):
++        return [x["yer"] for x in z]
++    import re
++    return re.findall(r"«([^»]+)»", kayit.get("kaynak", ""))
++
++
++def main():
++    ap = argparse.ArgumentParser()
++    ap.add_argument("--eski-ref", default="origin/main")
++    a = ap.parse_args()
++    tmp = tempfile.mkdtemp(prefix="tr1923_elek_")
++    eski_yol = os.path.join(tmp, "eski_betik.py")
++    kod = subprocess.run(["git", "show", f"{a.eski_ref}:denetim/ARAC-TR1923-YAZ-0914.py"],
++                         capture_output=True, check=True).stdout
++    open(eski_yol, "wb").write(kod)
++    with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
++        girdi.yukle(sessiz=True)              # önbellek ısınsın, uyarılar sınav çıktısına karışmasın
++    dus = 0
++
++    # ② BEYANSIZ — eski ↔ yeni
++    e = kos(modul(eski_yol, "eski"), os.path.join(tmp, "eski_beyansiz"))
++    y = kos(modul(BETIK, "yeni"), os.path.join(tmp, "yeni_beyansiz"))
++    fark2 = []
++    for g in e:
++        E, N = oku(e[g]), oku(y[g])
++        for ad in sorted(set(E) | set(N)):
++            n = dict(N.get(ad, {})); n.pop("zincir_kaynagi", None)
++            if E.get(ad) != n:
++                fark2.append(ad)
++        eksik = [ad for ad in N if "zincir_kaynagi" not in N[ad]]
++        if eksik:
++            fark2 += [f"{ad} (zincir_kaynagi YOK)" for ad in eksik]
++    print(f"② BEYANSIZ  eski↔yeni fark (zincir_kaynagi hariç): {len(fark2)} {fark2[:6]}  {'✓' if not fark2 else '✗'}")
++    dus += bool(fark2)
++
++    # ① ELEK — iki yön
++    e1 = kos(modul(eski_yol, "eski1"), os.path.join(tmp, "eski_isaretli"), REVAN_KOPYALARI)
++    y1 = kos(modul(BETIK, "yeni1"), os.path.join(tmp, "yeni_isaretli"), REVAN_KOPYALARI)
++    K_e, K_y = oku(e1["kuzey"]), oku(y1["kuzey"])
++    for ad in ZINCIRLEME:
++        ke, ky = komsu(K_e[ad]), komsu(K_y[ad])
++        eski_secer = any(k in REVAN_KOPYALARI for k in ke)
++        yeni_secer = any(k in REVAN_KOPYALARI for k in ky)
++        ok = eski_secer and not yeni_secer
++        print(f"① ELEK  {ad:18s} eski: {ke} · yeni: {ky}  {'✓' if ok else '✗'}"
++              f"{'' if eski_secer else '  (ters yön ÖTMEDİ: eski betik de seçmiyor)'}")
++        dus += not ok
++    for ad in ("Norapat", "Kliçatak (Suser)"):
++        dv = [p for p in K_y[ad].get("d") or [] if "Revan" in str(p.get("kaynak", ""))]
++        print(f"①b {ad:18s} yeni çıktıda 'gün komşudan: Revan' d: dönemi: {len(dv)}  "
++              f"(birinci kuşak: komşu Revan'ın kendisiyse bu DEVRALMA DEĞİL, §4 tek kuşak)")
++
++    # ①c W9 benzetimi — 45 elle kopya beyanlı; 28 seçimin HİÇBİRİ beyanlı komşu seçmemeli
++    assert len(W9_KUMESI) == 45, len(W9_KUMESI)
++    y9 = kos(modul(BETIK, "yeni9"), os.path.join(tmp, "yeni_w9"), W9_KUMESI)
++    ihlal, degisen = [], []
++    Bugun = {}
++    for g, yol in y.items():
++        Bugun.update(oku(yol))
++    for g, yol in y9.items():
++        for ad, o in oku(yol).items():
++            k = komsu(o)
++            ihlal += [(ad, x) for x in k if x in W9_KUMESI]
++            if k != komsu(Bugun[ad]):
++                degisen.append(f"{ad}: {komsu(Bugun[ad])} → {k}")
++    print(f"①c W9 benzetimi (45 beyanlı): beyanlı komşu seçen {len(ihlal)} {ihlal}  {'✓' if not ihlal else '✗'}")
++    print(f"①c komşusu değişen seçim: {len(degisen)}")
++    for s in degisen:
++        print("     ", s)
++    dus += bool(ihlal)
++
++    # ③ BUGÜNKÜ DOSYA
++    fark3, uyari = [], 0
++    for g, yol in y.items():
++        N = oku(yol)
++        B = oku(os.path.join("data", os.path.basename(yol)))
++        for ad in sorted(set(N) | set(B)):
++            n, b = dict(N.get(ad, {})), B.get(ad, {})
++            n.pop("zincir_kaynagi", None)
++            alan = sorted(k for k in set(n) | set(b) if n.get(k) != b.get(k))
++            if not alan:
++                continue
++            if ad in BEKLENEN_KAYMA and set(alan) <= {"s", "d", "v"}:
++                continue
++            fark3.append((ad, alan))
++        uyari += sum(1 for o in N.values() if set(o) - set(girdi.BILINEN_ALANLAR))
++    print(f"③ BUGÜN  yeni çıktı ↔ data/: beklenmeyen fark {len(fark3)} {fark3[:6]}  {'✓' if not fark3 else '✗'}")
++    print(f"③ UYARI  BILINEN_ALANLAR dışı alan taşıyan kayıt: {uyari} (beklenen 28 — `zincir_kaynagi`, W9 kaydedene dek)")
++    dus += bool(fark3)
++    print(f"SONUÇ: {'GEÇTİ' if not dus else f'{dus} KOL/SATIR DÜŞTÜ'} · geçici dizin {tmp}")
++    sys.exit(1 if dus else 0)
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/denetim/ARAC-TR1923-YAZ-0914.py b/denetim/ARAC-TR1923-YAZ-0914.py
+index 696fc69e..0e32f8e7 100644
+--- a/denetim/ARAC-TR1923-YAZ-0914.py
++++ b/denetim/ARAC-TR1923-YAZ-0914.py
+@@ -8,6 +8,12 @@ BİREBİR alınır (s:/d:/v:). `isg:` KOPYALANMAZ (motor okumaz; işgal örtüs
+ komşudan alındığı `kaynak:` alanına ADIYLA yazılır. Köyün 1281-1923 arası kendi
+ tarihi ARAŞTIRILMADI — bu kayıtlar SINIR GEOMETRİSİ içindir.
+ 
++🔴 KURAL (koordinatör hükmü, UMIT-W6-DALGA6-1006): bu betik KOORDİNATÖR KARARI
++OLMADAN data/'ya KOŞTURULMAZ. Koşu çıktı dosyalarını baştan yazar; dalga 5 sınavında
++6 kaydın zinciri kaynak kaymasıyla değişiyordu. Önce geçici yola sına.
++KOPYA ELEĞİ: `zincir_kaynagi` taşıyan kayıt komşu sayılmaz (kopya_beyanli); her
++üretilen kayda `zincir_kaynagi` YAZILIR (birebir: tek nesne · birleşim: iki nesne).
++
+ Kullanım: py denetim/ARAC-TR1923-YAZ-0914.py <secim.json>
+    → data/yerlesimler_sinir_guney.js (SYR · IRQ)  +  data/yerlesimler_sinir_kuzey.js (GRC · BGR · GEO · ARM · AZE)
+ """
+@@ -124,6 +130,18 @@ def zincir_birlestir(A, B):
+     return s, d, v, T
+ 
+ 
++def kopya_beyanli(y):
++    """🔴 KOPYA ELEĞİ (UMIT-W6-DALGA6-1006). `zincir_kaynagi` taşıyan kayıt zincirini
++    başka bir kayıttan almıştır; onu komşu saymak §4'ün yasakladığı ZİNCİRLEME
++    DEVRALMADIR (dalga 4: Revan → Gümrü/Eçmiyadzin/Iğdır/Arpaçay → 4 sınır köyü).
++    Yalnız ALAN okunur. Serbest metne ("gün komşudan", "BİREBİR", "deseni") geri
++    DÜŞÜLMEZ: ölçüldü, metin eleği 28 seçimin 7'sini değiştiriyor ve 3'ü yanlış
++    (Orestiada/Havsa yalnız dönem başına komşu günü taşıyor, zincir kopyası değil).
++    Alan tanımı W9'dan (UMIT-W9-ZINCIR-1006): {yer, pencere:[f,t], tur}; tek nesne
++    ya da nesne listesi — tanım değişirse bu işlev yeniden temellenir."""
++    return bool(y.get("zincir_kaynagi"))
++
++
+ def js(v):
+     return json.dumps(v, ensure_ascii=False, separators=(",", ":"))
+ 
+@@ -135,6 +153,10 @@ def main():
+     # bu aletin ÖNCEKİ turda yazdığı kayıtlar komşu SAYILMAZ (zincirleme devralma yasak, §4)
+     Y = [y for y in Y if not str(y.get("neden", "")).startswith("TR-1923-SINIR")]
+     adlar = {y["ad"] for y in Y}
++    # kopya beyanlı kayıt komşu ADAYI değildir (adı yine de ad çakışması için `adlar`da kalır)
++    elenen = [y["ad"] for y in Y if kopya_beyanli(y)]
++    Y = [y for y in Y if not kopya_beyanli(y)]
++    print(f"kopya eleği: {len(elenen)} kayıt komşu sayılmadı" + (f" ({', '.join(elenen[:12])}{' …' if len(elenen) > 12 else ''})" if elenen else ""))
+     cikti = {"guney": [], "kuzey": []}
+     for grup, (_, _, anahtarlar) in DOSYA.items():
+         for k in anahtarlar:
+@@ -166,6 +188,14 @@ def main():
+                 for alan, dizi in (("s", zs), ("d", zd), ("v", zv)):
+                     if dizi:
+                         kayit[alan] = dizi
++                # makine-okunur kopya beyanı (W9 tanımı) — üretilmiş dosyaya ELLE eklenmez, buradan gelir
++                if T is None:
++                    kayit["zincir_kaynagi"] = {"yer": kom["ad"], "pencere": [PENCERE_BAS, PENCERE_SON],
++                                               "tur": "birebir"}
++                else:
++                    kayit["zincir_kaynagi"] = [
++                        {"yer": komA["ad"], "pencere": [PENCERE_BAS, T], "tur": "birlesim"},
++                        {"yer": kom["ad"], "pencere": [T, PENCERE_SON], "tur": "birlesim"}]
+                 if T is None:
+                     zmetin = (f"dönemler en yakın kayıt «{kom['ad']}» ({d0:.1f} km; aynı yakada, 1923 sahibi aynı) "
+                               f"kaydından BİREBİR")
