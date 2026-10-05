@@ -1,0 +1,28 @@
+diff --git a/data/padisahlar.js b/data/padisahlar.js
+index fe0f657b..19e4949c 100644
+--- a/data/padisahlar.js
++++ b/data/padisahlar.js
+@@ -3,3 +3,4 @@
+ window.PADISAHLAR = [
+-  { id: "osman1",      ad: "Osman Gazi (I. Osman)",        from: "1299-01", to: "1326-04",
++  { id: "osman1",      ad: "Osman Gazi (I. Osman)",        from: "1299-01", to: "1324-03",
++    ic_not_to:"eski: 1326-04 = Bursa'nın teslimi (TDV orhan: \"2 Cemâziyelevvel 726 / 6 Nisan 1326\"), saltanat devri DEĞİL. TDV orhan: \"Orhan'ın beyliğe geliş tarihi Rebîülevvel 724'tür (Mart 1324).\" · osman-i künye \"(1302-1324)\". Gün yok, AY var (Rebîülevvel 724 ≈ 27 Şubat–27 Mart 1324 Jülyen) — UMIT-W4-DALGA3-1006",
+     dogum:"1257 (dolayı, kesin değil)",
+@@ -10,3 +11,3 @@ window.PADISAHLAR = [
+     tahta:"1299 (dolayı)",
+-    saltanat_yil:27,
++    saltanat_yil:25, ic_not_saltanat_yil:"eski: 27 — TDV osman-i \"Osmanlı rivayetine göre … yirmi yedi yıl hükümdarlık yapmıştı\" (RİVAYET sayısı). Dosya saltanat_yil'ı kaydın kendi from/to'sundan yazar (P3 kuralı): 1299-01 → 1324-03 = 25,2. TDV künyesi (1302-1324) ile 22 olurdu; from:1299-01 bu yamada DEĞİŞMEDİ",
+     lakap:["Gazi"],
+@@ -30,3 +31,4 @@ window.PADISAHLAR = [
+     kaynak:"TDV: osman-i" },
+-  { id: "orhan",       ad: "Orhan Gazi",                   from: "1326-04", to: "1362-03",
++  { id: "orhan",       ad: "Orhan Gazi",                   from: "1324-03", to: "1362-03",
++    ic_not_from:"eski: 1326-04 — Bursa'nın teslimiyle (6 Nisan 1326) karıştırılmıştı. TDV orhan: \"Orhan'ın beyliğe geliş tarihi Rebîülevvel 724'tür (Mart 1324).\" · künye \"(1324-1362)\" — UMIT-W4-DALGA3-1006",
+     dogum:"1281 dolayı", ic_not_dogum:"çıkarılan: (TDV'de müstakil madde yok, tarih akademik icmâ)",
+@@ -38,4 +40,4 @@ window.PADISAHLAR = [
+     anne:"Mal Hatun",
+-    tahta:"1326-04 (Bursa'nın fethiyle örtüşür)",
+-    saltanat_yil:36,
++    tahta:"1324-03 (Rebîülevvel 724 — TDV orhan: \"Mart 1324\")", ic_not_tahta:"eski: 1326-04 (Bursa'nın fethiyle örtüşür)",
++    saltanat_yil:38, ic_not_saltanat_yil:"eski: 36 (1326-04'ten sayılmıştı); 1324-03 → 1362-03 = 38,0 · TDV künye (1324-1362)",
+     lakap:["Gazi"],
