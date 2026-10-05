@@ -143,3 +143,17 @@ Fort Yukon'a ayrıca: 1847-1867 sahibi ÖLÇÜLEMEDİ, dokunulmadı.
 
 **Diff DIŞINDA bırakılanlar:** Natashquan (kaynak açılmadan künye yok — koordinatör hükmü) ·
 Nabesna/Northway (`dene → abd` 1899-06-21; Alaska'da 1867-10-18 olmalı — ayrı kalem).
+
+## ALASKA-4 — öngörü (ölçümden ÖNCE, 5 Ekim 2026)
+
+Kalem: `dene t:1899-06-21 → abd` → **1867-10-18** · Vashrąįį K'ǫǫ (Arctic Village) · Nabesna/Northway ·
+Batzulnetas (Ahtna) · Iliamna/Nondalton — hepsi `yerlesimler_kamerika.js`, HEAD `87e9f851`
+(ALASKA-5 indi). Diff: `denetim/ONCE1281-ALASKA4-1004.diff`.
+- Diff: 4 nokta × (1 `s:` satırı + 2 beyan yorumu) ⇒ **~35-45 satır, 3-4 hunk**; `apply --check` temiz.
+- `denetle.py` (worktree): çıkış tabanla AYNI (2, Değişmez 8 ölçülemedi); Değişmez 1/2/2s/4/5
+  sayıları AYNI — 4 kırılma 1899-06-21'den 1867-10-18 grubuna TAŞINIR, 2s açık 189 kalır
+  (1899-06-21 grubu da kapsam dışı olduğu için).
+- **Değişmez 7:** sorgusuz enklav AYNI; `cografi-tecrit` muafiyeti **0–4 azalır** (1867-1899 arası
+  bu 4 nokta ABD'nin ortasında `dene` adacığıydı).
+- Sahiplik sınavı: değişen TAM 4 nokta, yalnız 1867-10-18 … 1899-06-20 aralığındaki sınav günlerinde
+  (`dene` → `abd`); 4294 nokta değişmez.
