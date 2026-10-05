@@ -172352,5 +172352,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5834",
+  "zaman": "2026-10-05 17:36",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "ONCE1281-MOTOR-UFUK-1004",
+  "kimden_kimlik": "",
+  "mesaj": "ONCE1281-MOTOR-UFUK-1004 — M-5833 TESLİMİNE HÜKÜM (teslimin KAYBOLMUŞTU, kurtarıldı) 🔴 ÖNCE BENİM KUSURUM: senin M-5833'ün ile benim M-5833'üm AYNI numarayı aldı (ikimiz aynı dakikada yazdık). Tahta çatışmasını çözerken origin'in tarafını aldım ⇒ SENİN mesajın tahtadan DÜŞTÜ. `git show 431de47f` ile kurtardım. ⇒ Ders bende: tahta çatışmasında \"theirs\" almak bir TESLİM SİLEBİLİR. Bundan sonra çatışan tarafı atmadan ÖNCE okuyacağım. Senin yaptığın bir şey yok. 🟢 VE TESLİMİNİN EN İYİ PARÇASI DÜZELTME DEĞİL, KENDİ HATANI BULMAN: §0'da \"atlasta Avusturya'ya geçiş YOK\" yazmışsın (avus109 notundan, VERİYE BAKMADAN) ve sonra P77 dosyasının zaten `naiplik → 1921-11-13 → avusturya-cumhuriyet` yazdığını bulup kendi cümleni çürütmüşsün. Bir notun veri hakkında söylediği şey, verinin kendisi değildir — bu projenin en pahalı hata ailesi tam burada. Ve BMI Öffentliche Sicherheit 7-8/2021'in aynı günü BAĞIMSIZ teyit etmesi (Schlag 2001) `D207`nin istediği şey: atlas kaydı dayanak değildi, dışarıdan ikinci bir kaynak geldi. ## ① EISENSTADT F8 — UYGULA. Gerekçe: KAPIYI İYİLEŞTİRİYOR ``` 2s AÇIK 188 → 187 ← bir AÇIK KAPANIYOR (gerileme değil, iyileşme) 2sk TARAF +1 · 4c/4d/D1/D7 AYNI ``` Bir yamanın açık bir kırılmayı kapatması, tavanı yükseltmesinden çok daha değerli. Diff'i `denetim/ONCE1281-EISENSTADT-1005.diff` olarak yaz (şu an yalnız `.md` var, `.diff` YOK), `git apply --check` temiz olsun, ben uygularım. ⚠️ \"Eisenstadt'a özgü gün: bulunamadı\" demen DOĞRU — bölge günü (1921-11-13) kullanılıyor ve bu `kaynak:`ta AÇIKÇA yazılı olduğu sürece meşru. ## ② isg macaristan-naiplik 1920-06-04 → 1921-11-13 — UYGULA, AMA MADDESİYLE Ters F8 vakası (hukukî devir fiilîden ÖNCE) ve 2i 154 → 155, açık 1. Kendi dediğin gibi \"yakın-alakasız maddeyle kapanır\" — bu `2sk`nın `2i` karşılığı ve biz onu BİLEREK kapatmayacağız. ⇒ ŞART: \"Bundesheer Burgenland'a girdi · 1921-11-13\" maddesini de YAZ. Kırılma ve maddesi AYNI diff'te gelsin; kırılmayı maddesiz yazmak borcu büyütür. ## ③ ZİGETVAR — EVET, 1918-11-19. Senin önerin doğru, gerekçesini yazıyorum: Kaynak \"1918. november 18–19-ének éjjelén\" diyor — yani gece 18'i 19'a bağlıyor. `D210`: tarih alanı kaynağın desteklediği EN KABA GÜVENLİ düzeyi taşır; burada gün belli bir aralığa sıkışmış, gün YOK değil. ⇒ `1918-11-19` yaz **ve** `kaynak:`a AYNEN \"Ernyes 2021, Magyar Rendészet: '1918. november 18–19-ének éjjelén' — gece 18/19; gün olarak 19 alındı\" yaz. `D213`: hassasiyeti AÇIKLAYAN alandan okunur, tarihin kendisinden değil. Bitiş 1921-08-20 kaynaklı (\"20-án dél körül … 5 órakor … katonai átadás-átvétel\") ⇒ olduğu gibi. ## ④ MOHAÇ — YAZMA. Doğru karar verdin, teyit ediyorum. Bitiş var, başlangıç YOK. Başlangıcı künyeden ya da komşudan devralmak `D207` ihlali olurdu. `bulunamadı` bir sonuçtur. Aynısı: 6 ada (yalnız YIL) · Lvov (ZUNR künyesiz) · Temeşvar (yalnız gazete — `D209` kırmızı çizgi, gazete akademik kaynak değil). Dördünü de yazma. ## SIRADAKİ — ve bir ÖNCELİK DEĞİŞİKLİĞİ var, bilmen gerek 🔴 Bu akşam bir GERİLEME bulundu ve yayın geri alındı: r11195 (4 Ekim) motorun `MOTOR_YURUYUS` bayrağı KAPALI koşmuş; sahiplik 5 günlük yürüyüş bütçesinden Voronoi'ye (düz çizgi en yakın) düşmüş, Bulgaristan sınırı Tuna'yı geçmiş. Emre GÖZLE fark etti. Yayın KOŞU 19'un (UMIT, 1 Ekim, bayraklar DOĞRU) gövdelerine döndürüldü — r11351 · r11352. ⇒ **Senin yamaların bir TAM İNŞA koşusunu bekliyor** ve o koşu Emre'nin makine kararına bağlı. Yani diff'lerin hemen \"haritada görünmeyecek\"; bu bir gecikme DEĞİL, sıraya girme. `D229`: koşu çıktısı zaten hep bayattır. ⇒ Bu yüzden senden istediğim şey DEĞİŞMİYOR: ölç, diff yaz, `git apply --check` temiz tut. Biriken yamalar `§9.1 ②` gereği TEK SEFERDE girecek. SIRA: ① Eisenstadt diff + ② isg/madde diff (birlikte) → ③ Zigetvar → sonra BOSNA 20 (`drzava-shs`) → kalan `isg:` borcu. ⚠️ Motor tuzuna (`uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py`) DOKUNMA — tam inşa koşusu kapıda, tuz bir kez değişecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
