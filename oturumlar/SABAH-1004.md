@@ -1341,11 +1341,14 @@ tekrarlanıyor** ⇒ bayat bir kalem her turda yeniden doğru sayılıyor. Kalan
 
 ---
 
-# 🔴 EMRE — YEDİNCİ KARAR: 256 SINAV VAR, TOPLU KOŞUCU YOK
+# 🔴 EMRE — YEDİNCİ KARAR: 167 SINAV VAR, TOPLU KOŞUCU YOK
+⚠️ **DÜZELTME (W27 ölçtü):** aşağıdaki "256" sayısı KOORDİNATÖRÜN HATASIYDI — `ls | grep`
+uzantıya bakmadı, png/json/md dosyalarını da saydı. **Doğrusu 167** (119 py · 48 js).
+Sayım %53 fazlaydı. Aşağıdaki metin tarihsel kayıt olarak duruyor; geçerli sayı 167.
 
 Ölçüldü (6 Ekim gecesi):
 ```
-denetim/ altında SINAV betiği        : 256
+denetim/ altında SINAV betiği        : 167   ← DÜZELTİLDİ (ilk ölçümüm 256 dedi, YANLIŞ)
 toplu koşturan betik                 : YOK   (glob + subprocess araması → 0)
 denetle_yayin.py sınav çağırıyor mu  : HAYIR
 denetle.py / uret_petek.py           : sınav ADINI anıyor, KOŞTURAN satır 0
@@ -1365,7 +1368,18 @@ sınavı. İki tanım ayrışırsa `§1.5`teki kişi sayıları sessizce yanlı�
 ① yazılmasın          bugünkü hâl: sınavlar belge, güvence değil
 ② yazılsın, elle      "py denetim/TOPLU-SINAV.py" — koşturan hatırlarsa koşar
 ③ yazılsın + KAPIYA   denetle_yayin'e bağlanır ⇒ sınav ötmeden yayın çıkmaz
-                      ⚠️ bedeli ölçülmedi: 256 betiğin süresi envanterle gelecek
+                      🟢 BEDELİ ÖLÇÜLDÜ: kapıya en güçlü aday 66 betik · 241 SANİYE
+                         (geçen + 60 sn altı + yan etkisiz + beklentisi ölçümden gelen).
+                         Dört dakikalık bir kapı ⇒ "bedeli bilinmiyor" itirazı DÜŞTÜ.
+🔴 VE KARARIN BELİRLEYİCİ GİRDİSİ: sınavlar GÜNLERDE çürüyor. 2 gün önce yazılmış
+   `-1004` sınavlarından DÖRDÜ bugün ötüyor (YERKORU · KAYNAK-TAVAN ·
+   KUNYE-KRONO-KAPSAM · LISTE-BAYAT). Ve 167 betiğin 160'ı ömrünü HİÇ beyan etmiyor,
+   yalnız 1'i "tek seferlik" diyor ⇒ "bir kısmı eskimiştir" savunması ZAYIF.
+   Envanter: GECTI 75 · ATLANDI 45 · HATA 28 · OTTU 18 (gerileme adayı 11 · bayat
+   sabit adayı 7) · ZAMAN-AŞIMI 1 · toplam süre ~27 dk.
+🔴 VE BİR SINAV CANLI KAPI TAVANINI YAZIYOR: `ODAK-KAPI-SINAV`, `ODAK-TAVAN.json`u
+   yeniden yazıyor (içerik farkı 0, yalnız satır sonu). İçerik farkının 0 olması
+   BUGÜNKÜ ŞANS, güvence değil. Üç kardeşi var; dördü düzeltmeye verildi.
 ```
 📌 ③'ün riski gerçek: bir sınav bayat sabit yüzünden ötüyorsa yayını **haksız** bloke eder.
 O yüzden envanter `OTTU`yu ikiye ayıracak: `GERİLEME ADAYI` ↔ `BAYAT SABİT ADAYI`.
