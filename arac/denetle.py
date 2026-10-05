@@ -1494,7 +1494,19 @@ def _2s_taraf_adaylari(sid):
 #   ölçümde DONMASI (8a'da yapılanın aynısı). Tavan yalnız GERİLEMEYİ bloke
 #   eder; iyileşince indirilir.
 # ═══════════════════════════════════════════════════════════════════════════
-KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0}
+KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
+# 🆕 🔴 ÜÇÜNCÜ SAYI (5 Ekim 2026, ONCE1281 ölçtü) — "acik_kovada": SAYACIN MASKESİ.
+#   `degismez2` güne göre TEK KOVA kurar ve kovadaki TEK bir yer açıklanmazsa kovadaki
+#   HİÇBİR birim kapalı sayılmaz (`eksik` dolu ⇒ fark 31 ⇒ AÇIK). Sonuç: büyük bir kova
+#   tek bir eksik yüzünden tamamen görünmez olur.
+#   ÖLÇÜLEN VAKA: 1918-11-11 kovasında **123 yerleşim** var, kova AÇIK, ve eksik olan
+#   YALNIZ **'Gdansk'** ⇒ öteki **122 birim 2sk'da HİÇ SAYILMIYOR.
+#   ⇒ Bugünkü `yalniz_taraf` sayısı (ve tavanı) o maskenin ARKASINDAN okunuyor. Gdańsk
+#   tek başına açıklansa sayı 1602 → ~1697 olur (+95) ve **hiçbir veri kötüleşmez**.
+#   📌 `D262`nin kardeşi ama AYRI: orada sensör DOYMUŞTU (tavan aşık), burada MASKELİ
+#   (sayı eksik ölçülüyor). Doymuş sensör değişimi göstermez; maskeli sensör YANLIŞ
+#   BÜYÜKLÜK gösterir — ikincisi daha tehlikeli, çünkü sayı güven telkin eder.
+#   ⇒ Bu üçüncü sayı maskeyi GÖRÜNÜR kılar; tavan hesabına GİRMEZ, yalnız basılır.
 BEKLENEN_2S_YALNIZ_TARAF = 1602  # 🧊 5 Ekim 2026 ölçümü (bkz. yukarı). Borç, ihlal DEĞİL.
 
 
@@ -1635,7 +1647,11 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                     if eksik:
                         fark = 31          # açıklanmayan yerleşim VAR ⇒ AÇIK
                         kir[d]["eksik"] = eksik
-                        # bu kırılma AÇIK ⇒ birimleri KAPALI sayılmaz (`_kol` atılır)
+                        # bu kırılma AÇIK ⇒ birimleri KAPALI sayılmaz — AMA ARTIK
+                        #   ATILMIYOR, SAYILIYOR (bkz. KAPANIS_2S "acik_kovada"):
+                        #   açıklanmış oldukları hâlde kovanın tek eksiği yüzünden
+                        #   görünmez kalan birimler maskenin KENDİSİDİR.
+                        KAPANIS_2S["acik_kovada"] += len(_kol)
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
@@ -5389,6 +5405,16 @@ def main():
     print(f"Değişmez 2sk {'🧊' if not _trf_asim else '⚠️'}  kapanışın SINIFI: "
           f"{_k_top} kapalı = {_k_yer} YER anılarak + {_k_trf} YALNIZ TARAF ile "
           f"(tavan {BEKLENEN_2S_YALNIZ_TARAF})")
+    _k_mask = KAPANIS_2S["acik_kovada"]
+    if _k_mask:
+        print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR —")
+        print( "               kovaları TEK bir eksik yüzünden açık kaldı. `degismez2` güne")
+        print( "               göre tek kova kurar; kovadaki bir yer açıklanmazsa kovadaki")
+        print( "               HİÇBİR birim kapalı sayılmaz. Ölçülen vaka: 1918-11-11 kovası")
+        print( "               123 yerleşim, eksik YALNIZ 'Gdansk' ⇒ 122 birim görünmez.")
+        print(f"               ⇒ Yukarıdaki {_k_top} ve tavan, bu maskenin ARKASINDAN")
+        print( "                 okunuyor. Maske kalkarsa sayı BÜYÜR ama veri KÖTÜLEŞMEZ;")
+        print( "                 tavanı o yüzden maskeli sayıya göre kurma.")
     print( "            🔴 'YALNIZ TARAF' kapanışı YER DÜZEYİNDE DOĞRULANMAMIŞTIR:")
     print( "               ölçtüğü şey 'o gün o DEVLETİN bir olayı var', 'bu YER o gün")
     print( "               el değiştirdi' DEĞİL. Künyeden devralınmış sahte günler")
