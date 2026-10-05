@@ -124,3 +124,15 @@ gün verilmiyor.
   denetim/ARAC-KAYNAKSIZLIK-ISG-SINAV-1006.py (taban: origin/main + D7-ISG + ZINCIR).
 - `C:\atlas-umit\denetim\KAYNAKSIZLIK-ISG-DEFTER-ONERI-1006.json` — önerilen `isg_defter` (53).
 - Bu rapor. Commit YOK. Motor tuzuna dokunulmadı. Veri yazılmadı.
+
+## DALGA 3b — POLONYA-BITIS-1006 (Alman bölgesi 3 kayıt)
+ÖNGÖRÜ (yazmadan önce): yalnız `kesinlik` ve `kaynak` metni değişir, hiçbir gün değişmez ⇒
+`denetle.py` özet satırları birebir; kaynaksızlık `isg:` 53 → 53 (üçü zaten kaynaklı).
+SONUÇ: `denetim/POLONYA-BITIS-1006.diff` (24 satır, LF, CR 0) — yalnız `data/yerlesimler.js`,
+yalnız Łódź · Częstochowa · Varşova. Her birinin `isg:` dönemi: `kesinlik:{f:"gun",t:"belirsiz"}`
+→ `kesinlik:"gun"`; kaynak metnindeki "t: KAYNAKSIZ …" → Kozicki 2008 alıntısı + "GG Warschau
+BÖLGE düzeyinde gün" (Łódź: şehir günü verilmiyor · Częstochowa: şehir günü yok notu). Gün
+DEĞİŞMEDİ (1918-11-11). Avusturya bölgesinin beş kaydına DOKUNULMADI (boşluk kararı bekliyor).
+Zincir (taze origin/main `78c74b80`): ZINCIR-KAYNAGI-VERI-1006c → CRES-NOT-1006 → POLONYA-ISG-1006
+→ POLONYA-BITIS-1006 ✓. Tam `denetle.py` ÖNCE/SONRA: özet satırları BİREBİR (ikisi de çıkış 2, D8).
+Öngörü ✓.
