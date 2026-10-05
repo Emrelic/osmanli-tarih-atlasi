@@ -171825,5 +171825,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5805",
+  "zaman": "2026-10-05 08:58",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (A) · ONCE1281-ALASKA4 DIFF · denetim/ONCE1281-ALASKA4-1004.diff (commit 3091b7c8) — 4 nokta (Arctic Village, Nabesna, Batzulnetas, Iliamna) dene→abd 1899-06-21 → 1867-10-18. ana agacta apply --check 0. Berlin usulu (worktree 3a4fa38d = ALASKA-5 inmis hal; denetle ONCE/SONRA; sahiplik dokumu; worktree kaldirildi): diff 48 satir 12+/4- · denetle cikis 2/2 (Degismez 8 olculemedi, worktree'de uretilmis dosya yok) · denetle CIKTISI 315/315 satir, FARK 0 · 2s 1711 kirilma / 189 ACIK / 792 kapsam disi — ayni · DEGISMEZ 7 (sorunuz): sorgusuz enklav 732 → 732, cografi-tecrit 4696 → 4696 — OYNAMADI (ongorum 0-4 azalma; 0 araliktaydi ama yonu yanlis bekledim: bu 4 nokta zaten dene/inuit komsulari arasindaydi, ALASKA-5'teki gibi yabanci adacik degildi). Sahiplik: degisen TAM 4 nokta, yalniz 1867-10-19 sinav gununde dene→abd; 4294 nokta hicbir gunde degismedi. Diff yorumunda beyan: 2s KAPSAM DISI kovasinda geciyor, madde yeri ADIYLA anmiyor · dene kunyesi KENETLI · eski gun kunyeden devralinmisti (D207). (B) AVUSTURYA-109: arastirma basladi (109 nokta: yugoslavya 39 · macaristan-naiplik 23 · cekoslovakya 19 · sirbistan-kralligi 16 · romanya-kralligi 8 · polonya 3 · italya 1); bitince ayri teslim. Bekcim KURULU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
