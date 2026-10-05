@@ -1571,7 +1571,18 @@ ORTAK KÖK           üçü de denetle.py'ye BAĞLI DEĞİL ⇒ kapı TEMİZ ge�
 ⇒ "Bağlasak iyi olur"dan farklı bir iddia: **bağlı olmayan sınav, gerçek bir gerilemeyi
 2 gün boyunca görünmez kıldı.** Üçü de kapıya bağlı olsaydı commit anında ötecekti.
 🔴 **VE BİR MALİYET ÇIKTI, onu da bil:** kapıya aday betiklerden biri (TRIYAJ) artık
-`shapely` istiyor. **HAVVA'da shapely YOK** ⇒ orada çıkış 2 (ÖLÇÜLEMEDİ) verir. HAVVA
-YAYINCI olduğu için, shapely gerektiren bir sınav kapıya bağlanırsa **HAVVA'da yayın
-bloke olur.** İki yol, biri senin: ① HAVVA'ya shapely kurulur ② shapely gerektiren
-sınavlar kapıya BAĞLANMAZ. Ben ②'yi varsayıyorum; ① dersen söyle.
+`shapely` istiyor.
+🔴 **DÜZELTME — bu paragrafta "HAVVA'da shapely YOK" yazmıştım, YANLIŞTI ve senden bir
+karar istiyordum; o karar DÜŞTÜ.** HAVVA ölçtü: **shapely 2.1.2 VAR** (rasterio 1.5.2 de
+var), ve 5 Ekim'de o makinede `denetle.py` çıkış 0 verdi — Değişmez 8 ve konum denetimi
+GERÇEKTEN koştu. Benim dayanağım `CLAUDE.md §3`ün *"ölçülen vaka — HAVVA'da shapely yok"*
+cümlesiydi; o cümle YAZILDIĞI GÜN doğruydu ve **bugün bayat.** Yani kuralı doğru
+uyguladım, ama kuralın ÖRNEĞİNİ bugünkü ölçüm sanıp aktardım — tam olarak bu dosyanın
+başka maddelerinde başkalarını uyardığım hata.
+⇒ **Senden shapely kararı İSTEMİYORUM, yayın bloke olmayacak.** Kalan tek iş `CLAUDE.md
+§3`teki örneği "tarihî vaka (5 Ekim'de kapandı)" diye işaretlemek; onu ben yaparım.
+📌 Eski metin kayıt için: *"HAVVA'da shapely YOK ⇒ orada çıkış 2 verir; HAVVA yayıncı
+olduğu için shapely gerektiren bir sınav kapıya bağlanırsa HAVVA'da yayın bloke olur.
+İki yol: ① HAVVA'ya shapely kurulur ② shapely gerektiren
+sınavlar kapıya BAĞLANMAZ. Ben ②'yi varsayıyorum; ① dersen söyle."* — **bu metin artık
+geçersizdir, yalnız neyi yanlış söylediğimin kaydı olarak duruyor.**
