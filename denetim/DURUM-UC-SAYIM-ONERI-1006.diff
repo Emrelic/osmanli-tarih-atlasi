@@ -1,0 +1,63 @@
+diff --git a/arac/durum_tablosu.py b/arac/durum_tablosu.py
+index 262185bc..d699a4c2 100644
+--- a/arac/durum_tablosu.py
++++ b/arac/durum_tablosu.py
+@@ -425,5 +425,6 @@ def kronoloji_say(dosyalar=None):
+         return {"hata": ["dosya sayısı tutmuyor: verilen %d · sayılan %s"
+                          % (len(dosyalar), r.get("dosya"))]}
+-    eksik = [a for a in ("madde", "duygu", "yer_id", "yer_id_bos", "vefat_id")
++    eksik = [a for a in ("madde", "duygu", "yer_id", "yer_id_bos", "vefat_id",
++                         "alt_adim")
+              if not isinstance(r.get(a), int)]
+     if "hata" not in r and eksik:
+@@ -439,12 +440,16 @@ def kronoloji_satiri(k):
+     (`yer_id:""`) maddeler tabloda ADIYLA görünsün; aradaki fark sessizce
+     yutulmasın. N `kronoloji_say.js`in `yer_id_bos`undan gelir, sabit DEĞİL.
++
++    `alt adım: N` — 6 Ekim 2026 (W41, D265 kural 3): sayaç `alt_adim`ı
++    hesaplıyordu, tablo basmıyordu. `alt_kronoloji` adımları madde SAYILMAZ
++    (ekranda ayrı satır değil, derin pencerede) ama sayısı görünür kalır.
+     """
+     if "hata" in k:
+         return ("🔴 **ÖLÇÜLEMEDİ** — madde · duygu · `yer_id` · `vefat_id` "
+                 "sayılamadı (%s)" % "; ".join(k["hata"])[:300])
+-    return ("**%d** madde · %d duygu etiketli · %d `yer_id` (boş yer_id: %d)"
+-            " · %d `vefat_id`"
+-            % (k["madde"], k["duygu"], k["yer_id"], k["yer_id_bos"],
+-               k["vefat_id"]))
++    return ("**%d** madde (alt adım: %d) · %d duygu etiketli · %d `yer_id`"
++            " (boş yer_id: %d) · %d `vefat_id`"
++            % (k["madde"], k["alt_adim"], k["duygu"], k["yer_id"],
++               k["yer_id_bos"], k["vefat_id"]))
+ 
+ 
+diff --git a/denetim/ARAC-KRONO-SAY-SINAV-1006.py b/denetim/ARAC-KRONO-SAY-SINAV-1006.py
+index cc818a57..cad239ca 100644
+--- a/denetim/ARAC-KRONO-SAY-SINAV-1006.py
++++ b/denetim/ARAC-KRONO-SAY-SINAV-1006.py
+@@ -270,4 +270,7 @@ for ad, sahte in [
+         ("alan eksik (yer_id_bos yok)", lambda *a, **k: _C(0, json.dumps(
+             {"dosya": 2, "madde": 5, "duygu": 0, "yer_id": 0, "vefat_id": 0}).encode())),
++        ("alan eksik (alt_adim yok)", lambda *a, **k: _C(0, json.dumps(
++            {"dosya": 2, "madde": 5, "duygu": 0, "yer_id": 0, "yer_id_bos": 0,
++             "vefat_id": 0}).encode())),
+         ("node bulunamadı", lambda *a, **k: (_ for _ in ()).throw(FileNotFoundError("node")))]:
+     D.subprocess.run = sahte
+@@ -287,4 +290,17 @@ sina("1006b gerçek veri: satırda '(boş yer_id: %s)'" % T.get("yer_id_bos"),
+      "hata" not in T and "(boş yer_id: %d)" % T["yer_id_bos"] in D.kronoloji_satiri(T),
+      str(T.get("hata")))
++# W41 (D265 kural 3): sayacın HESAPLADIĞI her sayı alanı satırda BASILIR.
++#   Sayaç alanları: tamsayı olanlar, `dosya` hariç (dosya sayısı tutarlılık
++#   denetimidir, tablo hücresi değil). Alan adı eklenirse bu soru öter.
++_basilan = {"madde": "**%d** madde", "alt_adim": "(alt adım: %d)",
++            "duygu": "%d duygu", "yer_id": "%d `yer_id`",
++            "yer_id_bos": "(boş yer_id: %d)", "vefat_id": "%d `vefat_id`"}
++_hesap = {a for a, v in T.items() if isinstance(v, int) and a != "dosya"}
++sina("W41 hesaplanan alan kümesi = basılan alan kümesi",
++     _hesap == set(_basilan), "hesap−bas %s · bas−hesap %s"
++     % (sorted(_hesap - set(_basilan)), sorted(set(_basilan) - _hesap)))
++_s = D.kronoloji_satiri(T)
++sina("W41 gerçek veri: her alan değeriyle satırda",
++     all(k % T[a] in _s for a, k in _basilan.items() if a in T), _s)
+ 
+ out.write("SINAV %d/%d\n" % (gecti, toplam))

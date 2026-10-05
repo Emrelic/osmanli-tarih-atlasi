@@ -1,0 +1,85 @@
+diff --git a/js/app.js b/js/app.js
+index 95b38f08..c6f7431f 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -14248,6 +14248,7 @@ document.addEventListener("keydown", function (e) {
+ // kalıba uyuyor (habsburg/rusya/lehistan/venedik/iran/bizans/kirim/
+ // macaristan); uymayan biri çıkarsa KRONOLOJI_ID_OZEL ile eşlenir.
+ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — istisna için
++var KRONOLOJI_COK_YOLU = [];            // künyeye eşlenemeyen KRONOLOJI_* → çok taraflı ekleyici
+ // 🆕 6 Ekim 2026 (UMIT-W26) — EZME DEĞİL BİRLEŞTİRME. Eski `=` künyenin KENDİ
+ // maddelerini siliyordu; ölçüldü: 26 künye, 228 madde. 144'ü dosyada aynı gün
+ // zaten vardı (meşru ezme), ama 44'ünün dosyada hiç karşılığı yoktu (ör.
+@@ -14324,9 +14325,17 @@ function kronoTemsilEdiliyor(k, derin) {
+         bulundu = true; break;
+       }
+     }
+-    if (!bulundu)
++    // 🆕 6 Ekim 2026 (KRONOLOJI-COK-1006) — künyesi olmayan dosya ATLANMAZ,
++    // çok taraflı ekleyiciye (aşağıda) YÖNLENDİRİLİR. Ölçüldü: 15 dosya /
++    // 2.084 madde hiçbir ekranda açılmıyordu; 1.698'i `taraflar[]` taşıyor
++    // (künyesiz taraf 0, pencere dışı taraf 0). Değişken ADI değiştirilmedi:
++    // `KRONOLOJI_COK_SIRBISTAN` zaten var (ezilirdi) ve
++    // `denetle_kronoloji.py:147` ad = "KRONOLOJI_" + dosya adı ister.
++    if (!bulundu) {
++      KRONOLOJI_COK_YOLU.push(anahtar);
+       eslenmeyen.push(anahtar + " → \"" + adaylar.join("\" / \"") +
+-                      "\" (DEVLETLER'de böyle id yok)");
++                      "\" (DEVLETLER'de böyle id yok — çok taraflı yola)");
++    }
+   });
+   // Meşru ezme (dosyada temsil edilen) bilgi; temsil EDİLMEYEN madde artık
+   // silinmiyor, eklenip sayılıyor — sessiz ölüm yine YOK.
+@@ -14346,17 +14355,34 @@ function kronoTemsilEdiliyor(k, derin) {
+ // `devletler[]`, o da yoksa `devlet`) listesindeki HER künyeye EKLENİR —
+ // yukarıdaki bindirici gibi `=` ile değiştirmez. Aynı t+b ikinci kez eklenmez.
+ // Eşlenemeyen taraf kimliği sessizce düşmez, sayılıp basılır.
++// 🆕 6 Ekim 2026 (KRONOLOJI-COK-1006):
++//  ① Evren = `KRONOLOJI_(SINIR|COK)_*` + `derinKronolojiBindir`in künyeye
++//     eşleyemediği `KRONOLOJI_*` dosyaları (`KRONOLOJI_COK_YOLU`). Yönlendirilen
++//     dosyada taraf alanı olmayan madde inmez — dosya dosya SAYILIP basılır.
++//  ② PENCERE SINAVI: maddenin günü taraf künyesinin [f, t] aralığı dışındaysa
++//     o künyeye İNMEZ; sayılır ve adıyla basılır. Gün okunamıyorsa (kısmî `t`)
++//     iner ama "pencere ölçülemedi" diye ayrıca sayılır — ölçülemedi ≠ dışarıda.
+ (function cokTarafliKronolojiEkle() {
+   var D = window.DEVLETLER || [], ix = {};
+   D.forEach(function (d) { ix[d.id] = d; });
+   var eklenen = 0, eslenmeyen = {}, dokunulan = {};
++  var pencereDisi = [], olculemedi = 0, tarafsiz = {};
++  var yonlenen = {};
++  KRONOLOJI_COK_YOLU.forEach(function (a) { yonlenen[a] = true; });
+   Object.keys(window).forEach(function (anahtar) {
+-    if (!/^KRONOLOJI_(SINIR|COK)_[A-Z0-9_]+$/.test(anahtar)) return;
++    if (!/^KRONOLOJI_(SINIR|COK)_[A-Z0-9_]+$/.test(anahtar) && !yonlenen[anahtar]) return;
+     (window[anahtar] || []).forEach(function (m) {
+       var ids = m.taraflar || m.devletler || (m.devlet ? [m.devlet] : []);
++      if (!ids.length && yonlenen[anahtar]) tarafsiz[anahtar] = (tarafsiz[anahtar] || 0) + 1;
++      var mg = kronoGun(m.t);
+       ids.forEach(function (id) {
+         var d = ix[id];
+         if (!d) { eslenmeyen[id] = (eslenmeyen[id] || 0) + 1; return; }
++        if (mg === null) olculemedi++;
++        else if (mg < kronoGun(d.f) || mg > kronoGun(d.t)) {
++          pencereDisi.push(anahtar + " " + m.t + " → " + id + " [" + d.f + ", " + d.t + "]");
++          return;
++        }
+         if (!dokunulan[id]) { d.kronoloji = (d.kronoloji || []).slice(); dokunulan[id] = true; }
+         var var_mi = d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; });
+         if (var_mi) return;
+@@ -14372,6 +14398,16 @@ function kronoTemsilEdiliyor(k, derin) {
+   var e = Object.keys(eslenmeyen);
+   if (e.length) console.warn("Atlas: çok taraflı kronolojide künyesi olmayan taraf — " +
+                              e.map(function (k) { return k + " (" + eslenmeyen[k] + ")"; }).join(", "));
++  if (pencereDisi.length)
++    console.warn("Atlas: çok taraflı kronolojide künye PENCERESİ DIŞINDA kalan " +
++                 pencereDisi.length + " madde × künye çifti inmedi — " + pencereDisi.join(" · "));
++  if (olculemedi)
++    console.warn("Atlas: çok taraflı kronolojide " + olculemedi +
++                 " madde × künye çiftinin penceresi ÖLÇÜLEMEDİ (tam gün yok) — indi");
++  var ts = Object.keys(tarafsiz);
++  if (ts.length)
++    console.warn("Atlas: çok taraflı yola yönlenen dosyada taraf alanı OLMAYAN madde inmedi — " +
++                 ts.map(function (k) { return k + " (" + tarafsiz[k] + ")"; }).join(", "));
+ })();
+ 
+ (function odakKur() {

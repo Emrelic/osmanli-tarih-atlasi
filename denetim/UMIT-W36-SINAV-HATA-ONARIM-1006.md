@@ -229,4 +229,77 @@ Sahte arızalar, `girdi.py`ye (motor tuzu) dokunmamak için `runpy` + `sys.modul
 | KOMSU | `komşu çift 1 · hatlı 1 · HATSIZ 0` | taraf C → `KOMŞU olan 0 · HATSIZ 1 (%100)` | çıkış 2 |
 
 ### ③ `arac/tahta.py` `_git_yarim()` — DOKUNULMADI
-Koordinatörün hükmünü bekliyor (UMIT İRTİBAT iletti).
+Koordinatörün hükmünü bekliyor (UMIT İRTİBAT iletti). → Hüküm geldi: EVET, aşağıda W36c.
+
+---
+
+## EK · W36c (6 Ekim 2026) — koordinatör kararları ③ ④
+
+### ③ `arac/tahta.py` `_git_yarim()` → DIFF YAZILDI, UYGULANMADI
+- Yama: [`TAHTA-GIT-YARIM-1006.diff`](TAHTA-GIT-YARIM-1006.diff).
+  - **Temel commit:** `origin/main` = `d0877829`. `main`in `tahta.py`si bu temelle aynı.
+  - `git apply --check -R` temiz. 2 dosya, +293/−9.
+  - `makine/tahta-web` dalına (`20c5cea7`) DOKUNULMADI.
+- **Değişiklik:**
+  - `git_durum(kok=None)` → `{hal: SURUYOR|KABUK|YOK, sebep, git_dizini, ayrinti}`. Salt okur.
+  - Git dizini git'e soruluyor (`rev-parse --absolute-git-dir`). Git yoksa `gitdir:` satırı okunuyor; bulunamazsa SÜRÜYOR sayılıyor (ölçülemedi ≠ temiz, kapı kapalıya düşer).
+  - `_git_yarim()`in dönüş sözleşmesi DEĞİŞMEDİ: SÜRÜYOR ⇒ sebep dizgisi · KABUK/YOK ⇒ None. Bu yüzden iki çağıran (`yaz()` satır 756 · `_tazele()` satır 378) aynen çalışıyor.
+  - **KABUK** süreç başına bir kez ADIYLA basılıyor: içeriği listeleniyor ve "kabuk SİLİNMEDİ, karar Emre'nin" deniyor. Yazımı ENGELLEMİYOR. `_tazele()` ona `rebase --abort` UYGULAMIYOR; kabuğa abort, autostash'i çalışma ağacına geri basabilirdi.
+- **İmza seti:**
+  - Koordinatör ölçütü (`git-rebase-todo` / `orig-head`) eksiksiz uygulandı.
+  - Eski kapının imzaları (`head-name` / `onto`) **güvenli yöne genişletme** olarak KORUNDU: bunlardan biri varsa da SÜRÜYOR sayılıyor.
+  - `rebase-apply` için `next` / `last` / `orig-head` / `head-name`.
+  - ⚠️ Bu, ölçütün harfiyen hâli değil. 24 Eylül kabuğunda bu imzaların hiçbiri yok, yani sonuç aynı. Koordinatör daraltmak isterse tek satırlık değişiklik.
+- **Sınav** — `denetim/ARAC-TAHTA-GIT-YARIM-SINAV-1006.py` (yeni), 27 soru.
+  - Fikstürler gerçek git deposu: düz depo + aynı deponun worktree'si + git'siz dizin; geçici dizinde kurulup siliniyor.
+  - Sorular: 2 YOK · 10 SÜRÜYOR · 10 KABUK (24 Eylül kopyası `rebase-merge` + `rebase-apply`, BOŞ dizin) · 1 git'siz · 2 iz · 2 CANLI.
+  - 24 Eylül kabuğunun ASLI artık yok (yerine bugünkü canlı rebase kuruldu). İçeriği `697c6d32`nin kaydından birebir kopyalandı: yalnız `autostash` = `d33e2879`. `d33e2879` nesnesi bu depoda da `atlas-umit`te de yok; içerik zaten okunmuyor.
+  - CANLI = EMRELIC `C:\atlas`'ın gerçek rebase'i (onto `a59e4b7b`). Dizinde 15 dosya; `git-rebase-todo` (BOŞ ama var) · `orig-head` · `onto` · `head-name` dolu. **Salt okundu:** dosyaların ad/boyut/mtime özeti sınavdan önce ve sonra AYNI. (`.git`in kendi mtime'ı başka git işlemleriyle oynuyor; o dizine sınav yazmıyor.)
+
+| sınanan | sonuç | çıkış |
+|---|---|---|
+| YENİ kapı (diff) | 27/27 OK, `SONUÇ: temiz` · CANLI SÜRÜYOR sayıldı, dokunulmadı | 0 |
+| ESKİ kapı (`origin/main`) — bozuk yön | **13 KUSUR**: worktree'de 5 SÜRÜYOR'u da kaçırıyor · 6 KABUK'u adıyla basmıyor · git'siz dizinde "temiz" diyor · ve 🔴 **düz depoda yalnız `git-rebase-todo` taşıyan bir rebase'i de görmüyor** (eski imza seti todo'yu içermiyordu; üçüncü kör nokta) | 1 |
+| W36'da onarılan `ARAC-TAHTA-KAPI-SINAV-1003.py` (1006 diff) + YENİ kapı, worktree'de | W36'daki 4 KUSUR kapandı → `SONUÇ: temiz` (KABUK satırı adıyla basıldı) | 0 |
+
+📌 Sınavın kendi kusuru da yakalandı ve düzeltildi: `shutil.rmtree(ignore_errors=True)` Windows'ta salt okunur git nesnelerini SESSİZCE silemiyor, `%TEMP%`te 4 fikstür dizini bırakmıştı (elle silindi). Artık salt okunurluk kaldırılıp siliniyor; silinemezse ADIYLA basılıyor. Düzeltme sonrası iki koşu: yeni kapı temiz/0 · eski kapı 13 KUSUR/1 · kalıntı 0.
+
+⚠️ `yaz()`ın uçtan uca koşusu (tahtaya gerçek yazım + push) sınanmadı. Kapının iki çağıranı dönüş sözleşmesi üzerinden okundu.
+
+### ④ Tüketici taraması — 3 ÖLÜ · 2 TARAYICI
+
+Yöntem:
+- Üçünün de dosyaya yazıp yazmadığına bakıldı: `writeFile` / `open(…'w')` / `json.dump` / `.write(` → **0**. Yalnız stdout'a basıyorlar. ⇒ "Çıktısını okuyan" ancak onları ÇAĞIRAN bir şey olabilir.
+- `git grep -F <betik adı>` izlenen BÜTÜN dosyalarda koşturuldu, isabetler uzantıya göre KOD / BELGE diye ayrıldı.
+- Desenle toplu koşturan bir koşucu da arandı: `arac/` + `denetim/` içinde `glob` / `listdir` / `readdirSync` + `denetim`.
+  - 4 isabet çıktı (`_hukum_birlestir.py` → `HUKUM-*.json` · üç JS → `yer_yama_*.js`). Hiçbiri bu betikleri kapsamıyor.
+  - `.github/workflows` yok, etkin git kancası yok.
+
+| betik | KOD tüketici | BELGE anılışı | hüküm |
+|---|---|---|---|
+| ARAC-MANDA-SINAV-0906.js | **0** | 3: envanter · `oturumlar/ORTADOGU-1923.md:72,132` · `oturumlar/YONTEM-1923-SINIR.md:95` — ikisi onu **"Emsal"** (örnek kalıp) diye gösteriyor | EMEKLİYE ADAY — tüketici YOK (ölçüldü). ⚠️ Şartnameler onu kalıp diye işaret ediyor: emekli edilirse silinmemeli, işaret düzeltilmeli. |
+| SINAV-KOSU8-BITIS-0907.py | **0** | 2: envanter · `denetim/PLAN-SINAV-KOSU8-0907.md:245` (tarihî plan) | EMEKLİYE ADAY — tüketici YOK (ölçüldü) |
+| ODAK-OSMANLI-ANADOLU-0080-olcer-sinav.py | **0** | 1: envanter | EMEKLİYE ADAY — tüketici YOK (ölçüldü). Kendi bağımlılığı `…-kimlik.js`i `ODAK-OSMANLI-ANADOLU-0080-uygula.py` de kullanıyor; yardımcı ortak, sınav değil. |
+| ARAC-SEFER-OK-SINAV-TARAYICI-0075.js | — | — | **TARAYICI — kapısı yok, beyanlı borç** |
+| SINAV-VASSAL-GORUNUM-0907.js | — | — | **TARAYICI — kapısı yok, beyanlı borç** |
+
+### 🔴 W36b ÖNERİMİN DÜZELTMESİ — ODAK-ASYA `--uygula` olduğu gibi KOŞTURULMAMALI
+④'ün taraması `odak_olc` kaldırılmış API'sini kullanan **9 betik** buldu. Hepsi argümansız (kuru) koşturuldu ve hepsi çöküyor:
+- 6 uygulayıcı: AFRIKA-AMERIKA · ASYA · AVRUPA-BATI · BALKAN · DOGU-ISLAM · OSMANLI-ANADOLU
+- 3 yardımcı: AFRIKA-AMERIKA-olc · OSMANLI-ANADOLU-dok · …-olcer-sinav
+
+Yani ODAK-0080'in hiçbir uygulayıcısı 27 Eylül'den beri koşamıyor. **Ama iş durmadı**: ODAK-KAPAT kendi yoluyla ilerledi (`575be146` · `1307745a` · `0ba4bfe9` · `2c0ec6ac`, 1-4 Ekim).
+
+Ve 4 Ekim'de `2585791b` **"122 vekil `odak_yer` SİLİNDİ — yanlış odak yerine BEYANLI odaksızlık"** (D257):
+- Hedef yer havuzda yoksa komşu şehri yazmak SESSİZ kusurdur.
+- Silmek, yanlış şehre bırakmaktan doğrudur.
+
+ODAK-ASYA'nın 194 karar satırından **51'i** metninde vekil işareti taşıyor ("gösterim" / "havuzda yok" / "en yakın havuz noktası"):
+- B 37 · C 4 → bunlar ~41 vekil adayı.
+- AK 10 vekil değil: gerçek yerin YAKLAŞIK koordinatı.
+
+⇒ ODAK-ASYA'yı `--uygula` ile koşturmak, koordinatörün 4 Ekim'de bilerek sildiği sınıfı **geri yazar**.
+
+W36b'deki öneri ("`--uygula`yı koordinatör koşturmalı") bu yüzden GERİ ALINDI. Önce kararlar D257 / `2585791b` ölçütüyle yeniden süzülmeli. Sayım metin işaretinden yapıldı, karar karar doğrulanmadı.
+
+Uygulayıcı onarımı (1006b) yine geçerli: koşturulduğunda sessiz silme yapmıyor ve ölçemezse duruyor. Sorun koşturup koşturmamak, kodda değil.
