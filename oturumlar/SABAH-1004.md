@@ -912,3 +912,70 @@ değişimi hiç görmüyor. **Senkron kapısı orada YANLIŞ TEMİZ.**
   (Eylül 1323 – Mart 1324) DIŞINDA ⇒ gün düşer, yıl kalır (`D210`).
 - **KF-2 Artvin 27 Şubat:** korunur; 11 Mart'ı destekleyen akademik kaynak YOK (Batum
   harekâtıyla karışmış). Altı aday kayda yazılır.
+
+---
+
+# 🟢 KOŞU 20 BAŞLADI — HAVVA'nın ilk koşusu
+
+`2026-10-05 21:20:57` · temel `fc380975` · worktree `C:\atlas-kosu` · yama YOK · yayın YOK
+`MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4`
+rasterio 1.5.2 (GDAL 3.12.2) · iki DEM sha256 TAM eşleşti · RAM 15,5/23,7 GB boş · C: 332 GB boş
+8k tabanı yazıldı: `denetim/HAVVA-KOSU-ONCESI-8K-1006.md` (koşu sonrası **üyelikle** karşılaştırılacak)
+
+🔴 **Koşu sürerken motor tuzunun dört dosyasına DOKUNULMAZ** (`uret_petek.py` · `renkler.py` ·
+`girdi.py` · `motor_onbellek.py`). Bu, bekleyen iki kalemi kilitliyor: CGK boyası ve
+`MOTOR-BANT-TAM` yaması.
+
+**Koşuyu BAŞLATMA hükmünün gerekçesi** (`denetle.py` çıkış 2 vermişti): çıkış 2'nin tek sebebi
+`8k` **körlüğü** — `8a ✓ 1508/1568 · 8b ✓ 82/84 · 8m ✓ · konum ✓ 0`, **İHLAL YOK**. Ve 8k
+ÇIKTIYI ölçer, koşu o çıktıyı yeniden üretir ⇒ eski gövdenin ölçülemezliğine bakıp yeniden
+üretimi durdurmak **daireseldir**. HAVVA kendi başına başlatmadı (benim şartım 0'dı), doğru
+davrandı.
+
+---
+
+# 🔴 EMRE — ÜÇ YENİ KARAR, üçü de kullanıcının GÖRDÜĞÜNÜ değiştiriyor
+
+## ⓵ Kafkasya zincirinde "B" dilimi: BOŞLUK mu DOLGU mu?
+Önceki notta üç yol yazmıştım; artık **sayı da var** (W6, 15.561 nokta-gün):
+```
+%22  K  adıyla kaynaklı
+%74  B  yalnız bölgesel/komşu kaynak
+%4   A  hiç kaynak yok        ← en uzun A: 232 gün (Borçka, Saylıca)
+```
+🟢 **Ve cevap umulandan iyi:** "3 yıldan fazla boşluk" senaryosu yalnız **B'yi boşluk saymakla**
+doğuyor (7 nokta). **B dolgu sayılırsa en uzun boşluk 7,6 ay**, onu da geçince ≤ 2,7 ay.
+⇒ W6'nın önerisi: **A → `__BOSLUK__` adayı · B → dolgu, kırılma günü yazmadan.** Bana da doğru
+geliyor ama hükmü vermedim: beyanlı boşluk haritada boş görünür, yani kullanıcı bir şey
+kaybeder. **Senin kararın.**
+
+## ⓶ Akyaka için YENİ NOKTA açılsın mı?
+Ölçüldü (W6): **Arpaçay ve Akyaka iki ayrı yer**, 27,5 km. Kurumsal sayfalar birbirine komşu
+diye atıf veriyor (`/akyaka` → "kuzeyinde Arpaçay", `/arpacay` → "doğusunda Akyaka"), Ercilsin
+2024 birebir: *"Zaruşad (Arpaçay), Şöregel (Akyaka)"*. Veride TEK kayıt var ve o kayıt
+**Arpaçay'ın** (0,4 km); `(Akyaka)` etiketi **yanlış** — bağlılığı eşanlam gibi yazmış.
+- Etiket düzeltmesi (`ad:"Arpaçay"`) benim işim, dağıtıldı.
+- 🔴 **Akyaka'ya yeni nokta açmak 4298'i değiştirir ve Değişmez 1'i oynatır ⇒ KAPSAM kararı,
+  senin.** Açılmazsa Akyaka'nın kaynaklı günü (1920-11-03) sahipsiz kalır; açılırsa yeni
+  yerleşim ve yeni petek doğar.
+
+## ⓷ Varsayılan DIŞ EŞİK ("4") değişsin mi? — 87 madde
+O7 düzeltmesi 112 maddeyi ekrana getirdi (`olaylar.length 1655 → 1767`, kayıp 0, bütün kapı
+sayıları birebir aynı). ⚠️ **Ama 112'nin 94'ü `kapsam:"dis"` ve varsayılan eşikte 87'si YİNE
+GİZLİ** — yalnız 25'i görünür.
+Hükmüm: kapı onları **saymaya devam eder** (gerçek maddeler, gerçek kaynaklar, ve `kapsam:"dis"`
+bir **beyan**dır), **ama ayrışma artık BEYANLI olur** — `denetle_yayin`e adlandırılmış kova:
+*"kapı sayıyor, varsayılan eşikte görünmüyor: 87"*. Sessiz ayrışma kusurdur, beyanlı değildir.
+🔴 **Eşiğin kendisinin değişmesi senin kararın** — kullanıcının gördüğünü değiştirir.
+
+---
+
+# 🔴 ÖLÇÜLMÜŞ ARAÇ KUSURU — `tahta.py` push REDDEDİLİRKEN "ULAŞTI" basıyor
+HAVVA iki kez ölçtü (**M-5825** ve **M-5848**): `tahta.py` push reddedildiği hâlde
+*"M-58xx ULAŞMIŞ"* yazıyor. HAVVA rebase + push'u elle yapıp numara çakışması olmadığını
+doğruladı.
+⇒ Bu tam olarak `§7.1 ⑤b`nin yasakladığı şey: *"yazıldı teslim kanıtı değildir."* Araç bir
+**yanlış teslim onayı** üretiyor, yani kuralın kendisini çürütüyor.
+📌 Ve `arac/tahta.py` `makine/tahta-web` dalında **yeniden yazılıyor** ⇒ düzeltme main'de
+yapılırsa çakışır. **Web tahtanın sürümünün bu kusuru DEVRALMADIĞI ölçülmeli** — kesme
+denetimine eklendi.
