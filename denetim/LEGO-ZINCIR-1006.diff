@@ -1,0 +1,356 @@
+diff --git a/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py b/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py
+new file mode 100644
+index 00000000..55d01ed5
+--- /dev/null
++++ b/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py
+@@ -0,0 +1,98 @@
++# -*- coding: utf-8 -*-
++"""ARAC-LEGO-zincir.py'nin İKİ YÖNLÜ sınavı (UMIT-W10-LEGO-1006c).
++
++ÖTMELİ (yapay modüller, geçici dizinde):
++  K1  govde zinciri `from renkler import BOYALAR` adını bir yardımcı üzerinden okuyor
++  K2  YALNIZ sb kökü (`bos_bolge`) `import girdi` → `girdi.X` okuyor
++  K3  zincir `_HARITA_ALT` okuyor
++  ⇒ yeni betik çıkış 1 + "YASAK AD" satırı. ESKİ betik (8717fe3a) K1-K2'de KÖR
++    (ithal ad okunan adlarda hiç görünmez): kör noktanın kanıtı. K3'te ESKİ betik
++    adı GÖRÜR (`_HARITA_ALT` atamadır, evrendeydi) ama yasak kavramı olmadığı için
++    ÖTMEZ, yalnız listeler. Bu bir ölçüm sonucudur (ilk öngörü "K3'te de kör" idi, YANLIŞ çıktı).
++SUSMALI:
++  T1  aynı yapay modül, yasak ad okunmuyor (yalnız ithal ediliyor) → çıkış 0
++  T2  bugünkü motor (`--kok`/arac/uret_petek.py) → çıkış 0
++KORUMA:
++  E1  bir kök eksik → çıkış 2 (eksik tarama "temiz" sayılmaz)
++
++Kullanım: py denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py [--kok C:\\atlas]
++Çıkış: 0 bütün beklentiler tuttu · 1 en az biri tutmadı
++"""
++import argparse, os, re, subprocess, sys, tempfile, textwrap
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++ap = argparse.ArgumentParser()
++ap.add_argument("--kok", default=r"C:\atlas")
++KOK = ap.parse_args().kok
++BETIK = os.path.join(KOK, "denetim", "ARAC-LEGO-zincir.py")
++ESKI_REV = "8717fe3a"          # betiğin 25 Eylül sürümü (1006 öncesi)
++
++GOVDE = """
++def _yabanci_govde_hesap(did):
++    return _yardim(did)
++def _osm_govde_hesap(a):
++    return KARA
++def _onb_parca_anahtar(k):
++    return k
++def bos_bolge(g, pe):
++    return {bos}
++def _onb_ozet(g):
++    return g
++def _yardim(did):
++    return {yardim}
++"""
++BAS = "import math\nfrom renkler import BOYALAR\nimport girdi\nKARA = 1\n_HARITA_ALT = {}\n"
++VAKALAR = {
++    # ad: (kaynak, yeni beklenen çıkış, beklenen yasak ad ya da None, ESKİ betik adı görür mü)
++    "K1": (BAS + GOVDE.format(bos="g", yardim="BOYALAR.get(did)"), 1, "BOYALAR", False),
++    "K2": (BAS + GOVDE.format(bos="girdi.DATA", yardim="did"), 1, "girdi", False),
++    "K3": (BAS + GOVDE.format(bos="g", yardim="_HARITA_ALT.get(did)"), 1, "_HARITA_ALT", True),
++    "T1": (BAS + GOVDE.format(bos="g", yardim="math.floor(did)"), 0, None, None),
++    "E1": (BAS + GOVDE.format(bos="g", yardim="did").replace("def _onb_ozet", "def _baska"), 2, None, None),
++}
++
++
++def kos(betik, kok, dosya="arac/uret_petek.py"):
++    r = subprocess.run([sys.executable, betik, "--kok", kok, "--dosya", dosya],
++                       capture_output=True, encoding="utf-8", errors="replace")
++    return r.returncode, r.stdout + r.stderr
++
++
++def eski_betik(gecici):
++    """8717fe3a sürümü, KOK satırı geçici dizine çevrilmiş (argüman almıyordu)."""
++    src = subprocess.run(["git", "show", f"{ESKI_REV}:denetim/ARAC-LEGO-zincir.py"],
++                         capture_output=True, cwd=KOK).stdout.decode("utf-8")
++    src, n = re.subn(r'^KOK = r".*"$', lambda m: f'KOK = r"{gecici}"', src, count=1, flags=re.M)
++    assert n == 1, "eski betikte KOK satırı bulunamadı"
++    yol = os.path.join(gecici, "eski_zincir.py")
++    open(yol, "w", encoding="utf-8").write(src)
++    return yol
++
++
++basarisiz = 0
++with tempfile.TemporaryDirectory(prefix="lego_sinav_") as td:
++    os.makedirs(os.path.join(td, "arac"))
++    eski = eski_betik(td)
++    for ad, (kaynak, bek, yasak, eski_bek) in VAKALAR.items():
++        open(os.path.join(td, "arac", "uret_petek.py"), "w", encoding="utf-8").write(kaynak)
++        rc, cikti = kos(BETIK, td)
++        tuttu = rc == bek and (yasak is None or f"`{yasak}`" in cikti)
++        satir = f"{ad}: yeni çıkış {rc} (beklenen {bek})"
++        if yasak:
++            satir += f" · YASAK `{yasak}` basıldı: {'evet' if f'`{yasak}`' in cikti else 'HAYIR'}"
++            r = subprocess.run([sys.executable, eski], capture_output=True, encoding="utf-8",
++                               errors="replace", cwd=td)
++            okunan = re.search(r"okunan adlar:(.*)", r.stdout)
++            eski_gordu = bool(okunan and re.search(rf"\b{re.escape(yasak)}\b", okunan.group(1)))
++            satir += (f" · ESKİ betik gördü mü: {'EVET (listeler, ötmez)' if eski_gordu else 'hayır (kör)'}"
++                      f" (beklenen {'EVET' if eski_bek else 'hayır'})")
++            tuttu = tuttu and eski_gordu == eski_bek
++        print(("✓ " if tuttu else "✗ ") + satir)
++        basarisiz += not tuttu
++
++rc, cikti = kos(BETIK, KOK)
++tuttu = rc == 0 and "✓ TEMİZ" in cikti
++print(("✓ " if tuttu else "✗ ") + f"T2: bugünkü motor ({KOK}) çıkış {rc} (beklenen 0)")
++basarisiz += not tuttu
++print(f"\n{'✓ SINAV GEÇTİ' if not basarisiz else f'✗ SINAV DÜŞTÜ ({basarisiz})'} — "
++      f"{len(VAKALAR) + 1} vaka")
++sys.exit(1 if basarisiz else 0)
+diff --git a/denetim/ARAC-LEGO-zincir.py b/denetim/ARAC-LEGO-zincir.py
+index 40697e74..a1f9e8af 100644
+--- a/denetim/ARAC-LEGO-zincir.py
++++ b/denetim/ARAC-LEGO-zincir.py
+@@ -1,18 +1,50 @@
+ # -*- coding: utf-8 -*-
+-"""MOTOR-LEGO-0925 — uret_petek.py commit'leri gövde hesabının ÇAĞRI ZİNCİRİNE dokundu mu?
+-
+-① Güncel dosyada `_yabanci_govde_hesap` ve `_osm_govde_hesap`tan başlayıp AST ile
+-   çağrılan modül düzeyi işlevlerin geçişli kapanışı + okunan modül düzeyi adlar.
+-② Her commit'te değişen satırları (eski ve yeni tarafta) kapsayan modül düzeyi
+-   deyimin adı (def adı ya da atanan ad) bulunur.
+-③ Kesişim: o commit gövde katmanını GERÇEKTEN etkileyebilir mi.
+-⚠️ Kaba: modül düzeyi ad çözümlemesi; dinamik çağrı/ globals() görülmez (ÖLÇÜLEMEDİ olarak yazılır).
++"""MOTOR-LEGO-0925 — geometri önbelleğinin (`govde` · `osm` · `sb`) hesap zinciri
++`renkler.py`den ya da `girdi.py`den bir şey OKUYOR mu? (`uret_petek.py:592-606`
++GEO tuzunun dayanağı: o iki dosya bu tuza GİRMEZ. Bu betik o hükmün sınavıdır.)
++
++① Güncel dosyada GEO köklerinden başlayarak AST ile çağrılan modül düzeyi işlevlerin
++   geçişli kapanışı + okunan modül düzeyi adlar.
++     kökler: `_yabanci_govde_hesap` · `_osm_govde_hesap` · `_onb_parca_anahtar`
++             (govde/osm anahtarı) · `bos_bolge` · `_onb_ozet` (sb anahtarı)
++② YASAK AD: `renkler` / `girdi` modülünden İTHAL edilen her ad (`from renkler import
++   BOYALAR`), modülün kendi adı (`import girdi` → `girdi.X`) ve elle eklenen
++   `_HARITA_ALT` (girdi'nin okuduğu `devletler.js`ten modül düzeyinde kurulur).
++   Zincir bunlardan birini okursa betik ÖTER (çıkış 1).
++③ Dinamik erişim (`globals` · `vars` · `eval` · `exec` · `getattr`/`__import__`
++   ile ad dizgisi) zincirde varsa ADIYLA basılır. Statik tarama onları göremez.
++④ (`--gecmis`) Her commit'te değişen modül düzeyi deyimler ∩ zincir: o commit gövde
++   katmanını gerçekten etkileyebilir mi.
++
++🔴 1006 DÜZELTMESİ (UMIT-W10-LEGO-1006b): eski sürüm modül adlarını yalnız
++   `def`/atama/Store'dan topluyordu. `import`/`from … import` adları evrende YOKTU
++   ⇒ `BOYALAR` ve `girdi` hiçbir koşulda "okunan" çıkamazdı. 25 Eylül'ün "BOYALAR
++   okuyan yok" hükmü, yapısı gereği başka sonuç veremeyen bir sınavdı. sb kökleri de
++   taranmıyordu ve KOK sabit `C:\\atlas` idi (başka ağaçta koşturan, farkında olmadan
++   C:\\atlas'ı ölçerdi). İki yönlü sınav: `denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py`.
++⚠️ Hâlâ kaba: modül düzeyi ad çözümlemesi; nesne ÖZNİTELİĞİ yoluyla taşınan veri
++   (ör. YERLER kayıtlarının içine yazılmış bir renk) görülmez. Veri yolu anahtar
++   içeriğinden geçer, tuzun konusu değildir.
++
++Kullanım:  py denetim/ARAC-LEGO-zincir.py [--kok C:\\atlas] [--dosya arac/uret_petek.py] [--gecmis]
++Çıkış: 0 temiz · 1 YASAK AD zincirde (ötme) · 2 kullanım/ayrıştırma hatası
+ """
+-import ast, re, subprocess, sys
++import argparse, ast, re, subprocess, sys
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
+-YOL = "arac/uret_petek.py"
+-since = "2026-09-18"
++
++ap = argparse.ArgumentParser()
++ap.add_argument("--kok", default=r"C:\atlas", help="depo kökü (varsayılan C:\\atlas)")
++ap.add_argument("--dosya", default="arac/uret_petek.py", help="KOK'a göreli motor dosyası")
++ap.add_argument("--gecmis", action="store_true", help="④ commit geçmişi taraması")
++ap.add_argument("--since", default="2026-09-18")
++arg = ap.parse_args()
++KOK, YOL, since = arg.kok, arg.dosya, arg.since
++
++KOKLER = ["_yabanci_govde_hesap", "_osm_govde_hesap", "_onb_parca_anahtar",
++          "bos_bolge", "_onb_ozet"]
++YASAK_MODUL = {"renkler", "girdi"}
++YASAK_EK = {"_HARITA_ALT"}
++DINAMIK = {"globals", "vars", "eval", "exec", "getattr", "__import__", "locals"}
+ 
+ 
+ def git(*a):
+@@ -20,12 +52,12 @@ def git(*a):
+ 
+ 
+ def ust_duzey(src):
+-    """[(bas, son, {adlar})] modül düzeyi deyimler."""
++    """[(bas, son, {adlar})] modül düzeyi deyimler. İthal adlar DA ad sayılır."""
+     t = ast.parse(src)
+     out = []
+     for n in t.body:
+         ad = set()
+-        if isinstance(n, (ast.FunctionDef, ast.ClassDef)):
++        if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
+             ad.add(n.name)
+         elif isinstance(n, (ast.Assign, ast.AugAssign, ast.AnnAssign)):
+             hedef = n.targets if isinstance(n, ast.Assign) else [n.target]
+@@ -35,21 +67,48 @@ def ust_duzey(src):
+                         ad.add(x.id)
+         else:
+             for x in ast.walk(n):
+-                if isinstance(x, ast.FunctionDef):
++                if isinstance(x, (ast.FunctionDef, ast.AsyncFunctionDef)):
+                     ad.add(x.name)
+                 elif isinstance(x, ast.Name) and isinstance(x.ctx, ast.Store):
+                     ad.add(x.id)
+             ad.add(f"<{type(n).__name__}@{n.lineno}>")
++        # 🔴 1006: import adları (modül düzeyinde ya da if/try içinde)
++        for x in ast.walk(n):
++            if isinstance(x, (ast.Import, ast.ImportFrom)):
++                for a in x.names:
++                    ad.add((a.asname or a.name).split(".")[0])
+         out.append((n.lineno, n.end_lineno, ad))
+     return t, out
+ 
+ 
+-src = open(f"{KOK}/{YOL}", encoding="utf-8").read()
+-agac, dz = ust_duzey(src)
+-fonk = {n.name: n for n in ast.walk(agac) if isinstance(n, ast.FunctionDef) and n in agac.body}
++def yasak_adlar(t):
++    """{ad: (satır, kaynak modül)} — renkler/girdi'den gelen her ad + modül adları."""
++    y = {}
++    for x in ast.walk(t):
++        if isinstance(x, ast.ImportFrom) and (x.module or "").split(".")[0] in YASAK_MODUL:
++            for a in x.names:
++                y[a.asname or a.name] = (x.lineno, x.module)
++        elif isinstance(x, ast.Import):
++            for a in x.names:
++                if a.name.split(".")[0] in YASAK_MODUL:
++                    y[(a.asname or a.name).split(".")[0]] = (x.lineno, a.name)
++    for e in YASAK_EK:
++        y.setdefault(e, (None, "elle (devletler.js `harita:`)"))
++    return y
++
++
++try:
++    src = open(f"{KOK}/{YOL}", encoding="utf-8").read()
++    agac, dz = ust_duzey(src)
++except (OSError, SyntaxError) as e:
++    print(f"ÖLÇÜLEMEDİ: {KOK}/{YOL} okunamadı/ayrıştırılamadı: {e}")
++    sys.exit(2)
++fonk = {n.name: n for n in agac.body if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))}
+ modul_adlari = set().union(*(a for _, _, a in dz))
+-kapanis, okunan = set(), set()
+-yigin = ["_yabanci_govde_hesap", "_osm_govde_hesap", "_onb_parca_anahtar"]
++YASAK = yasak_adlar(agac)
++eksik_kok = [k for k in KOKLER if k not in fonk]
++kapanis, okunan, nerede = set(), set(), {}
++yigin = [k for k in KOKLER if k in fonk]
+ while yigin:
+     f = yigin.pop()
+     if f in kapanis or f not in fonk:
+@@ -65,31 +124,54 @@ while yigin:
+         if isinstance(x, ast.Name) and isinstance(x.ctx, ast.Load) and x.id in modul_adlari \
+                 and x.id not in _yerel:
+             okunan.add(x.id)
++            nerede.setdefault(x.id, (f, x.lineno))
+             if x.id in fonk:
+                 yigin.append(x.id)
+-print(f"① gövde zinciri: {len(kapanis)} işlev · okunan modül düzeyi ad {len(okunan)}")
++dinamik = sorted((f, x.lineno, x.func.id) for f in kapanis for x in ast.walk(fonk[f])
++                 if isinstance(x, ast.Call) and isinstance(x.func, ast.Name) and x.func.id in DINAMIK)
++ihlal = sorted(okunan & set(YASAK))
++
++print(f"KÖK {KOK} · dosya {YOL}")
++print(f"① geo zinciri: {len(kapanis)} işlev · okunan modül düzeyi ad {len(okunan)} "
++      f"· kökler {len(KOKLER) - len(eksik_kok)}/{len(KOKLER)}"
++      + (f" · ⚠️ BULUNAMAYAN KÖK: {', '.join(eksik_kok)}" if eksik_kok else ""))
+ print("   okunan adlar:", ", ".join(sorted(okunan)))
+ print("   işlevler:", ", ".join(sorted(kapanis)))
++print(f"② yasak ad evreni ({len(YASAK)}): "
++      + ", ".join(f"{k}{'@' + str(v[0]) if v[0] else ''}" for k, v in sorted(YASAK.items())))
++print("③ dinamik erişim:", ", ".join(f"{f}:{ln} {c}()" for f, ln, c in dinamik) or "yok",
++      "(statik taramanın göremediği yer — elle bakılır)")
++if ihlal:
++    for k in ihlal:
++        f, ln = nerede[k]
++        print(f"🔴 YASAK AD GEO ZİNCİRİNDE: `{k}` ({YASAK[k][1]}) — {f}:{ln} okuyor "
++              f"⇒ GEO tuzundan renkler.py/girdi.py çıkarılması YANLIŞ olur")
++else:
++    print("✓ TEMİZ: geo zinciri renkler/girdi'den ithal hiçbir adı ve _HARITA_ALT'ı okumuyor")
++if eksik_kok:
++    print("🔴 KÖK EKSİK — zincir eksik tarandı, hüküm GEÇERSİZ")
++
++if arg.gecmis:
++    commitler = git("log", "--reverse", f"--since={since}", "--format=%H %ad",
++                    "--date=format:%m-%d %H:%M", "--", YOL).splitlines()
++    for c in commitler:
++        h, tarih = c.split(" ", 1)
++        try:
++            _, dz_eski = ust_duzey(git("show", f"{h}^:{YOL}"))
++            _, dz_yeni = ust_duzey(git("show", f"{h}:{YOL}"))
++        except SyntaxError as e:
++            print(f"{h[:8]} ÖLÇÜLEMEDİ (ayrıştırılamadı: {e})"); continue
++        fark = git("diff", "-U0", f"{h}^", h, "--", YOL)
++        degisen = set()
++        for m in re.finditer(r"^@@ -(\d+)(?:,(\d+))? \+(\d+)(?:,(\d+))? @@", fark, re.M):
++            for bas, n, dzl in ((int(m.group(1)), int(m.group(2) or 1), dz_eski),
++                                (int(m.group(3)), int(m.group(4) or 1), dz_yeni)):
++                for ln in range(bas, bas + max(n, 1)):
++                    for b, s, ad in dzl:
++                        if b <= ln <= s:
++                            degisen |= ad
++        kes = sorted(degisen & (kapanis | okunan))
++        print(f"④ {h[:8]} {tarih} değişen ü.d. ad {len(degisen):3d} · GEO ZİNCİRİNE DEĞEN {len(kes)}: "
++              f"{', '.join(kes[:12])}{' …' if len(kes) > 12 else ''}")
+ 
+-commitler = git("log", "--reverse", f"--since={since}", "--format=%H %ad", "--date=format:%m-%d %H:%M",
+-                "--", YOL).splitlines()
+-for c in commitler:
+-    h, tarih = c.split(" ", 1)
+-    try:
+-        _, dz_eski = ust_duzey(git("show", f"{h}^:{YOL}"))
+-        _, dz_yeni = ust_duzey(git("show", f"{h}:{YOL}"))
+-    except SyntaxError as e:
+-        print(f"{h[:8]} ÖLÇÜLEMEDİ (ayrıştırılamadı: {e})"); continue
+-    fark = git("diff", "-U0", f"{h}^", h, "--", YOL)
+-    degisen = set()
+-    for m in re.finditer(r"^@@ -(\d+)(?:,(\d+))? \+(\d+)(?:,(\d+))? @@", fark, re.M):
+-        for bas, n, dzl in ((int(m.group(1)), int(m.group(2) or 1), dz_eski),
+-                            (int(m.group(3)), int(m.group(4) or 1), dz_yeni)):
+-            for ln in range(bas, bas + max(n, 1)):
+-                for b, s, ad in dzl:
+-                    if b <= ln <= s:
+-                        degisen |= ad
+-    # yalnız yorum satırı değişen deyimleri ayıkla: deyimin ast dökümü aynı mı
+-    kes = sorted(degisen & (kapanis | okunan))
+-    print(f"{h[:8]} {tarih} değişen ü.d. ad {len(degisen):3d} · GÖVDE ZİNCİRİNE DEĞEN {len(kes)}: "
+-          f"{', '.join(kes[:12])}{' …' if len(kes) > 12 else ''}")
++sys.exit(2 if eksik_kok else (1 if ihlal else 0))
+diff --git a/denetim/LEGO-ZINCIR-CIKTI-1006.txt b/denetim/LEGO-ZINCIR-CIKTI-1006.txt
+new file mode 100644
+index 00000000..22f1f29d
+--- /dev/null
++++ b/denetim/LEGO-ZINCIR-CIKTI-1006.txt
+@@ -0,0 +1,31 @@
++# ARAC-LEGO-zincir.py çıktısı — UMIT-W10-LEGO-1006c · 2026-10-05 22:08
++# ağaç C:\atlas-w10 · origin/main ae2e6bbd · arac/uret_petek.py sha256 8b6aaea5920cd66a (çalışma kopyası, CRLF olabilir) · blob 668f1a28
++# komut: py denetim/ARAC-LEGO-zincir.py --kok C:\atlas-w10 --gecmis
++KÖK C:\atlas-w10 · dosya arac/uret_petek.py
++① geo zinciri: 32 işlev · okunan modül düzeyi ad 116 · kökler 5/5
++   okunan adlar: B23_ACIK, B2_ENKLAV_KM, B2_KAVIS, B2_TEMAS, B3_KAPAMA_DER, B3_SADELIK, KARA, KUSATMA_ESIK, KV_ADIM, LineString, MOTOR_YURUYUS, MultiPoint, MultiPolygon, PETEK_D, PUAN_ESIK, PUAN_HALKA, PUAN_KAPALI, Polygon, R_DUNYA, SERBEST_TOL, STRtree, YERLER, YURUYUS_16, YURUYUS_SADE, _Aff, _B1_SAYAC, _B23_SAYAC, _B3_KALAN_IHLAL, _CEP_ONBELLEK, _DEVIR_EZBER, _EPOK_PAY_TOL, _IC_ONBELLEK, _KARA_HAZIR, _KB_AGAC, _KB_IX, _KB_MUAF, _KB_NOKTA, _KIYI_TAMPON, _KUS_AGAC, _KUS_IX, _KUS_KARAR, _KUS_ONBELLEK, _KVDY, _KVNEHIR, _KV_YON, _KV_YS, _ONB, _ONB_BOS, _ONB_GEO, _ONB_GOVDE_TUZ, _ONB_KB, _ONB_KIM, _ONB_KUS_TUZ, _ONB_OZ, _PUAN_ONBELLEK, _SAYAC, _SERBEST_ONBELLEK, _TUM_AGAC, _VARLIK_DEVIR, _VARLIK_ONBELLEK, _VARLIK_PAY, _YR_BUTCE, _YR_SAHIP, _YR_SAHIP_SIRA, _b2_enklav_birlestir, _b3_koridor_kirp, _bant_baskasinin_topragini_kesiyor_mu, _canli_komsular, _cep, _ham_km2, _heapq, _hlo, _ic_kara, _km_derece, _kusatilmis, _kv_ara_kara, _kvkara, _kvnx, _kvny, _kvsurt, _kvtohum, _kvuzak, _kvx0, _kvy0, _ndi, _np, _np2, _olu_bilesenler, _onb_oz, _puan_bolgesi, _rfe, _sahipli, _yasakli_mi, _yr_epok_onar, _yr_etiket_poligon, _yr_yerel_dijkstra, alan_km2, box, delikleri_doldur, devir_kumesi, gosterim_duzelt, kapat, make_valid, math, nearest_points, noktalar, petek_epok, poligonal, polygonize, sayac, shape, shapely, temiz, time, unary_union, voronoi_diagram
++   işlevler: _b2_enklav_birlestir, _b3_koridor_kirp, _bant_baskasinin_topragini_kesiyor_mu, _canli_komsular, _cep, _ham_km2, _ic_kara, _km_derece, _kusatilmis, _kv_ara_kara, _olu_bilesenler, _onb_oz, _onb_ozet, _onb_parca_anahtar, _osm_govde_hesap, _puan_bolgesi, _sahipli, _yabanci_govde_hesap, _yasakli_mi, _yr_epok_onar, _yr_etiket_poligon, _yr_yerel_dijkstra, alan_km2, bos_bolge, delikleri_doldur, devir_kumesi, gosterim_duzelt, kapat, petek_epok, poligonal, sayac, temiz
++② yasak ad evreni (3): BOYALAR@269, _HARITA_ALT, girdi@271
++③ dinamik erişim: petek_epok:5278 getattr() (statik taramanın göremediği yer — elle bakılır)
++✓ TEMİZ: geo zinciri renkler/girdi'den ithal hiçbir adı ve _HARITA_ALT'ı okumuyor
++④ 27b76088 09-20 13:09 değişen ü.d. ad 310 · GEO ZİNCİRİNE DEĞEN 23: KARA, _DEVIR_EZBER, _KIYI_TAMPON, _KUS_KARAR, _ONB, _ONB_BOS, _ONB_GOVDE_TUZ, _ONB_KB, _ONB_KIM, _ONB_KUS_TUZ, _ONB_OZ, _TUM_AGAC …
++④ 5c374722 09-20 23:15 değişen ü.d. ad  12 · GEO ZİNCİRİNE DEĞEN 0: 
++④ c0bd752c 09-21 02:10 değişen ü.d. ad  98 · GEO ZİNCİRİNE DEĞEN 7: PETEK_D, _Aff, _YR_BUTCE, _YR_SAHIP, _ndi, _rfe, _yr_epok_onar
++④ 31c4b983 09-21 02:37 değişen ü.d. ad  48 · GEO ZİNCİRİNE DEĞEN 0: 
++④ 8f5aa574 09-21 03:17 değişen ü.d. ad 153 · GEO ZİNCİRİNE DEĞEN 0: 
++④ 7d66e312 09-21 14:03 değişen ü.d. ad  83 · GEO ZİNCİRİNE DEĞEN 6: B2_ENKLAV_KM, _Aff, _YR_BUTCE, _YR_SAHIP, _ndi, _rfe
++④ d30358b3 09-21 15:58 değişen ü.d. ad  80 · GEO ZİNCİRİNE DEĞEN 5: _Aff, _YR_BUTCE, _YR_SAHIP, _ndi, _rfe
++④ 76351781 09-27 23:32 değişen ü.d. ad 157 · GEO ZİNCİRİNE DEĞEN 6: _ONB_GEO, _ONB_GOVDE_TUZ, _SERBEST_ONBELLEK, _np2, _onb_parca_anahtar, _puan_bolgesi
++④ 55dfa2b5 09-30 13:38 değişen ü.d. ad  45 · GEO ZİNCİRİNE DEĞEN 1: _heapq
++# çıkış kodu: 0
++
++# komut: py denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py --kok C:\atlas-w10
++✓ K1: yeni çıkış 1 (beklenen 1) · YASAK `BOYALAR` basıldı: evet · ESKİ betik gördü mü: hayır (kör) (beklenen hayır)
++✓ K2: yeni çıkış 1 (beklenen 1) · YASAK `girdi` basıldı: evet · ESKİ betik gördü mü: hayır (kör) (beklenen hayır)
++✓ K3: yeni çıkış 1 (beklenen 1) · YASAK `_HARITA_ALT` basıldı: evet · ESKİ betik gördü mü: EVET (listeler, ötmez) (beklenen EVET)
++✓ T1: yeni çıkış 0 (beklenen 0)
++✓ E1: yeni çıkış 2 (beklenen 2)
++✓ T2: bugünkü motor (C:\atlas-w10) çıkış 0 (beklenen 0)
++
++✓ SINAV GEÇTİ — 6 vaka
++# çıkış kodu: 0
