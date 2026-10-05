@@ -47,7 +47,7 @@ haritayı bozar**: iç içe tam bölgeler eski arayüzle üst üste çizilir.
 
 | # | Kalem | Kova | Niçin o kovada (ölçüm) |
 |---|---|---|---|
-| E1 | `ARAYUZ-BANT-TAM-1005.diff` YENİDEN ÜRETİLMELİ | **A** | `--check` ileri **1** · geri **1**: ne uygulanabiliyor ne uygulanmış. `js/app.js` 5 Ekim'den beri değişti, bağlam kaydı. Yeniden üretim yalnız `js/app.js` diff'idir, motor tuzuna dokunmaz. UMIT'in yolu (`js/*.js`). Ürünü yine UYGULANMAZ, B'ye girer. |
+| E1 | `ARAYUZ-BANT-TAM-1005.diff` YENİDEN ÜRETİLMELİ | **A → ✔ (W1)** | `--check` ileri **1** · geri **1**: ne uygulanabiliyor ne uygulanmış. 🔴 **DÜZELTME (iki tur):** İlk gerekçem ("app.js değişti, bağlam kaydı") ölçülmemişti. W1 ölçtü: 1005 blob'u **CRLF** (156 CR), CR silinince indekse karşı ileri 0. Ben de yalnız İNDEKSE karşı ölçmüştüm (LF). Genel koordinatör ölçtü: `core.autocrlf=true` ağacında `js/app.js` CRLF açılır ve **1005 orada HAM hâliyle UYAR** (çıkış 0). ⇒ Yama DEPO için değil **ÇALIŞMA AĞACI** için geçerlidir: CRLF yama CRLF ağaca, LF yama (1006, CR 0) LF ağaca/indekse uyar. **1005 de 1006 da KALIR.** Uygulayan, kendi ağacında `--check` eder. "CR = 0 kapısı" önerisi REDDEDİLDİ (EMRELIC/HAVVA'da yamaları kırar). |
 | E2 | `MOTOR-BANT-TAM-1005.diff` (bant = tam bölge) | **B** | `--check` ileri **0** · geri **1**: temiz, uygulanmamış. `uret_petek.py` tuzda ⇒ tam inşa koşusu. **E1 ile AYNI koşuda inmeli.** |
 | E3 | Bantta görevli (vassal) 14 kayıt kendi rengiyle çiziliyor; ince eşleme için bant kaydına `cins` taşınmalı | **D** | Raporun kendi hükmü: "motor/tasarım kararı". Motor şemasına yeni alan = kapsam. |
 | E4 | Bant açıkken etiket/kenar görünümü (etiketler 5 günlük konumda kalıyor) | **D** | GLM1 §7 ③: "Emre'ye sorulur". Görünüm tercihi. |
