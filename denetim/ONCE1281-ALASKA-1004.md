@@ -109,3 +109,37 @@ yalnız `kanada` → `abd` değişimini öneriyorum.
   (`ingiliz-kuzey-amerika`); geri kalan 4293 noktanın hiçbir sınav gününde sahibi DEĞİŞMEZ.
 - Yan bulgu (diff DIŞI): Nabesna/Northway `dene → abd` geçişi 1899-06-21 (Kanada Antlaşma 8
   günü) — Alaska'da olduğu için 1867-10-18 olmalı.
+
+## DIFF — ölçüm (`denetim/ONCE1281-ALASKA-1004.diff`)
+
+Yöntem (Berlin usulü): `git worktree add --detach` (HEAD `55630d33`) → yama yalnız
+worktree'de uygulandı (`yerlesimler_kamerika.js`, CRLF korunarak) → `denetle.py` worktree'de
+ÖNCE ve SONRA koştu → iki yönlü sahiplik sınavı → `git diff --output` → ana ağaçta
+`git apply --check`. Worktree sonra kaldırıldı. Ana ağaçta veri DEĞİŞMEDİ
+(`git diff --quiet -- data/yerlesimler_kamerika.js` = 0).
+
+| ölçü | öngörü | ölçüm | |
+|---|---|---|---|
+| diff boyu | ~45-60 satır · 5 hunk | **62 satır · 4 hunk** (Alatna + Fort Yukon komşu, tek hunk'ta) · **24 + / 5 −** | ✅ yakın |
+| `git apply --check` (ana ağaç) | temiz | **çıkış 0** | ✅ |
+| JS geçerliliği (node `vm`) | — | 377 kayıt yüklendi | ✅ |
+| `denetle.py` çıkış kodu | tabanla aynı | ÖNCE **2** · SONRA **2** (Değişmez 8 ÖLÇÜLEMEDİ: üretilmiş `devletler_harita.js` git'te yok, worktree'ye gelmiyor — İHLAL değil, iki koşuda da aynı) | ✅ |
+| Değişmez 1 / 2 / 2s / 2i / 4 / 4c / 4d / 5 | aynı | **hepsi aynı** (309 sahipsiz · 622/0 · 2s AÇIK 189 · 4c 127 · 4d 324 …) | ✅ |
+| 313 satırlık çıktıda değişen satır | 0 | **1**: Değişmez 7 muafiyet sayacı `cografi-tecrit 4700 → 4696` | ❌ öngörmedim — ama İYİLEŞME: 4 Alaska noktası artık Alaska içinde tek başına `ingiltere`/`kanada` adacığı değil, komşularıyla aynı sahipte; "coğrafi tecrit" muafiyetine gerek kalmadı. Sorgusuz enklav 726 → 726. |
+| sahibi değişen nokta (10 sınav günü × 4298) | 5 | **5** — öteki **4293** nokta hiçbir günde değişmedi | ✅ |
+
+**Sahiplik sınavı ayrıntısı:** 4 Alaska içi noktada 1281…1867-10-17 arası her sınav gününde
+`ingiltere`/`ingiliz-kuzey-amerika`/`kanada` → **`dene`**; 1867-10-19, 1900, 1923'te
+`kanada` → **`abd`**. Fort Yukon'da 1850 DEĞİŞMEDİ (`ingiliz-kuzey-amerika`), 1867-10-19 ve
+sonrası `kanada` → `abd`.
+⚠️ **Öngörmediğim tek yan etki:** Fort Yukon'un `ingiliz-kuzey-amerika` dönemi 1867-07-01'den
+**1867-10-18'e uzadı** (109 gün) — boşluk kalmasın diye zorunlu; 1867-07-02 ve 1867-10-17
+sınav günlerinde sahip `kanada` → `ingiliz-kuzey-amerika` oldu. Bu dönemin kendisi zaten
+"ölçülemedi" (hukuken Rus toprağı) — uzama beyanın kapsamında.
+
+**Diff içindeki beyanlar** (koordinatörün iki şartı): ① kırılma Değişmez 2s'de KAPSAM DIŞI
+kovasında geçiyor, madde yerleri ADIYLA anmıyor · ② `dene` künyesi 1281-01-01'de KENETLİ.
+Fort Yukon'a ayrıca: 1847-1867 sahibi ÖLÇÜLEMEDİ, dokunulmadı.
+
+**Diff DIŞINDA bırakılanlar:** Natashquan (kaynak açılmadan künye yok — koordinatör hükmü) ·
+Nabesna/Northway (`dene → abd` 1899-06-21; Alaska'da 1867-10-18 olmalı — ayrı kalem).

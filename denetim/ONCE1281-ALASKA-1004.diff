@@ -1,0 +1,62 @@
+diff --git a/data/yerlesimler_kamerika.js b/data/yerlesimler_kamerika.js
+index 4e489dc3..a6448ad9 100644
+--- a/data/yerlesimler_kamerika.js
++++ b/data/yerlesimler_kamerika.js
+@@ -153,11 +153,18 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"1923-10-29",d:"kanada"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.5 Arctic (Smithsonian)" },
+   { ad:"Alatna / Allakaket", tur:"sehir", lat:66.564, lon:-152.65, g:0,
+-    s:[{f:"1281-01-01",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA-1004 · ingiltere 1281→1763 + ingiliz-kuzey-amerika →1867 + kanada →1923 YERİNE dene → abd.
++    //   ① İngiltere 1281'de Alaska içinde YOKTU; Alaska 1867-10-18'de ABD'ye devredildi (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   ② BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — kronoloji maddesi (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor.
++    //   ③ BEYAN: `dene` künyesinin f'si 1281-01-01 — künye de UFUK tabanına KENETLİ. Emsal: Vashrąįį K'ǫǫ (Arctic Village) dene → abd.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Fort Yukon", tur:"kale", lat:66.564, lon:-145.274, g:0,
+     kur:"1847-01-01",
+-    s:[{f:"1847-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1847-01-01",t:"1867-10-18",d:"ingiliz-kuzey-amerika"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA-1004 · kanada 1867-07-01→1923 YERİNE abd 1867-10-18→1923 (Alaska ABD'ye 1867-10-18'de devredildi — history.state.gov).
++    //   ⚪ 1847-1867 `ingiliz-kuzey-amerika` DOKUNULMADI: toprak hukuken Rus Amerikası'ydı, HBC karakolu orada; sahibi ÖLÇÜLEMEDİ (kaynak açılamadı).
++    //   ② BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — madde bu yerleşimi ADIYLA anmıyor.
+     kaynak:"bulunamadı", not:"HBC, Rus toprağında kurulmuştu · dayanak: Dictionary of Canadian Biography" },
+   { ad:"Naujaat (Repulse Bay)", tur:"liman", lat:66.522, lon:-86.25, g:0,
+     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"1923-10-29",d:"kanada"}],
+@@ -192,7 +199,11 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1825-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+     kaynak:"bulunamadı", not:"Franklin'in ikinci seferinin kışlağı · konum denetle.py reçetesiyle düzeltildi (1.44 km maske dışıydı: 65.1900,-123.4200 → 65.2034,-123.4211) · konum denetle.py reçetesiyle düzeltildi (1.44 km maske dışıydı: 65.2034,-123.4211 → 65.2034,-123.4211) · dayanak: Historical Atlas of Canada" },
+   { ad:"Nuchalawoya (Tanana)", tur:"sehir", lat:65.172, lon:-152.081, g:0,
+-    s:[{f:"1281-01-01",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA-1004 · ingiltere 1281→1763 + ingiliz-kuzey-amerika →1867 + kanada →1923 YERİNE dene → abd.
++    //   ① İngiltere 1281'de Alaska içinde YOKTU; Alaska 1867-10-18'de ABD'ye devredildi (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   ② BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — kronoloji maddesi (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor.
++    //   ③ BEYAN: `dene` künyesinin f'si 1281-01-01 — künye de UFUK tabanına KENETLİ. Emsal: Vashrąįį K'ǫǫ (Arctic Village) dene → abd.
+     kaynak:"bulunamadı", not:"Tanana-Yukon kavşağı, geleneksel ticaret buluşması · dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Fort Norman (Tulita)", tur:"kale", lat:64.904, lon:-125.576, g:0,
+     kur:"1810-01-01",
+@@ -242,13 +253,21 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1833-01-01",t:"1867-10-18",d:"rusya"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"konum denetle.py reçetesiyle düzeltildi (0.76 km maske dışıydı: 63.4780,-162.0300 → 63.4853,-162.0306) · konum denetle.py reçetesiyle düzeltildi (0.76 km maske dışıydı: 63.4853,-162.0306 → 63.4853,-162.0306) · dayanak: Black, Russians in Alaska" },
+   { ad:"Telida / Denali eteği (Atabask)", tur:"sehir", lat:63.4, lon:-153.0, g:0,
+-    s:[{f:"1281-01-01",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA-1004 · ingiltere 1281→1763 + ingiliz-kuzey-amerika →1867 + kanada →1923 YERİNE dene → abd.
++    //   ① İngiltere 1281'de Alaska içinde YOKTU; Alaska 1867-10-18'de ABD'ye devredildi (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   ② BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — kronoloji maddesi (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor.
++    //   ③ BEYAN: `dene` künyesinin f'si 1281-01-01 — künye de UFUK tabanına KENETLİ. Emsal: Vashrąįį K'ǫǫ (Arctic Village) dene → abd.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Igluligaarjuk (Chesterfield Inlet)", tur:"sehir", lat:63.342, lon:-90.711, g:0,
+     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"1923-10-29",d:"kanada"}],
+     kaynak:"bulunamadı", not:"1911 HBC karakolu · dayanak: HNAI c.5 Arctic (Smithsonian)" },
+   { ad:"Nikolai (Yukarı Kuskokwim)", tur:"sehir", lat:63.017, lon:-154.383, g:0,
+-    s:[{f:"1281-01-01",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA-1004 · ingiltere 1281→1763 + ingiliz-kuzey-amerika →1867 + kanada →1923 YERİNE dene → abd.
++    //   ① İngiltere 1281'de Alaska içinde YOKTU; Alaska 1867-10-18'de ABD'ye devredildi (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   ② BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — kronoloji maddesi (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor.
++    //   ③ BEYAN: `dene` künyesinin f'si 1281-01-01 — künye de UFUK tabanına KENETLİ. Emsal: Vashrąįį K'ǫǫ (Arctic Village) dene → abd.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Nabesna / Northway (Yukarı Tanana)", tur:"sehir", lat:62.961, lon:-141.94, g:0,
+     s:[{f:"1281-01-01",t:"1899-06-21",d:"dene"},{f:"1899-06-21",t:"1923-10-29",d:"abd"}],
