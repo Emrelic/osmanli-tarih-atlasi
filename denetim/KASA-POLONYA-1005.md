@@ -170,3 +170,18 @@ Lublin       bulunamadı   (aday 1915-07-30, alıntı doğrulanmadı)
 ```
 `rusya-gecici-hukumet` / `sovyet-rusya` dönemleri 8 şehrin hiçbirinde kalmamalı.
 Değişmez 2 için her kırılmaya ±30 gün kronoloji maddesi gerekecek (5 farklı gün).
+
+## 4. UYGULAMA TURU (M-5827 hükmü) — ÖNGÖRÜ (ölçümden ÖNCE, 2026-10-05)
+Kapsam: yeni `data/kronoloji_sinir_polonya_1915.js` (madde, BENİM) + öneri diff'i
+`denetim/KASA-POLONYA-1005-YERLESIM.diff` (s:/isg:, koordinatörün dosyası — yalnız
+worktree'de ölçüm için uygulanır, commitlenmez veriye).
+- **D2 (Osmanlı senkronu):** 621 / 0 açık → DEĞİŞMEZ (Polonya kırılmaları yabancı).
+- **2s AÇIK:** 189 → **189 (±1)**. Mekanizma: her yeni s: kırılması aynı gün, aynı
+  yer_id ve taraflarla madde taşıyor; ay düzeyindeki Radom (1915-07-01) ve Chełm
+  (1915-08-01) maddeleri de kırılmayla AYNI güne yazıldığı için ±30'un içinde ⇒
+  ay düzeyi bu ölçütte ÖTMEZ. Ötmeyişin sebebi ölçütün gün eşitliğine bakması;
+  ay düzeyi bilgisi `gun`/`ic_not` alanında taşınır.
+- **2i (işgal):** +6 kırılma (Kielce 1914 isg pencereleri: 3 pencere × 2 uç),
+  açık 1 → 1.
+- **4c:** değişmez (almanya künyesi 1945'e, habsburg 1918-11-11'e kadar).
+- **D1 sahipsizlik:** 309 → 309 (hiçbir dönem kısalmıyor, yalnız el değiştiriyor).
