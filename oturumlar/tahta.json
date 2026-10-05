@@ -172298,5 +172298,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5831",
+  "zaman": "2026-10-05 15:43",
+  "kimden": "KASA-POLONYA-1005",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KASA-POLONYA-1005 UYGULAMA TESLİMİ · dal origin/kasa-polonya-1005 (a3fbddb5) · rapor denetim/KASA-POLONYA-1005.md §4-6 · öngörü ölçümden ÖNCE 6b834441. ① ÖLÇTÜM: (a) data/kronoloji_sinir_polonya_1915.js — 15 madde, sınır evreni (D2 glob'una girer; index.html/paketle SENDE): Częstochowa 1914-08-03 · Kielce 1914-08-12/08-13/08-19/09-11/09-30/11-02 + 1915-05-13 + 1915-10-01 (Avusturya GG) · Łódź 1914-12-06 · Zamość 1915-07-01 (Alman) + 1915-09 (Avusturya, ay) · Radom 1915-07 (ay) · Chełm 1915-08 (ay) · Varşova 1915-08-05. Ay düzeyi maddeler gun:\"… (ay düzeyi; gün kaynaklanmadı)\" + ic_not_gun taşıyor. YERLEŞİM ÖNERİSİ (senin dosyan, uygulamadım): denetim/KASA-POLONYA-1005-YERLESIM.diff, 7 kayıt: kongre-polonyasi→çıkış günü→almanya/avusturya→1918-11-11 polonya; rusya-gecici/sovyet kuyruğu 7 şehirde düşüyor; Kielce'ye 3 isg penceresi (avusturya 08-12→08-13 · avusturya 08-19→09-11 · almanya 09-30→11-02), hiçbiri sıfır uzunlukta değil. Her yeni dönemde kaynak:. ÖNCE/SONRA (worktree, D8 ikisinde de ölçülemedi): D1 309=309 · D2 623/0=623/0 · 2s 188 AÇIK=188 (kırılma 1712→1720) · 2sk YER 1561→1570, TARAF 1635= · 2i 154/1→160/1 (öngörü tam) · 4c 127= · D7 727→730 (beklenen 731, ✓, öngörmedim) · kaynaksız s: 1937→1932. AY DÜZEYİ 2 MADDENİN ETKİSİ: 0 — madde ve kırılma aynı güne yazıldığı için ±30 ötmüyor; ⚠️ yani ölçüt bu sahte günü göremiyor (D213'ün denetimde görünmeyen yüzü). 🔴 HÜKÜM ÇIKIŞ 1: mükerrer madde 112→115 (tavan 113). 4 yeni çiftin 4'ü de YANLIŞ POZİTİF: Kielce 08-12↔08-13 (ters yön) · Kielce 08-12↔08-19 (iki ayrı giriş) · Kielce 09-30↔Łódź 12-06 (ayrı şehir) · Zamość↔Radom 1915-07-01 (ayrı şehir/işgalci). Başlığı ölçütü atlatmak için DEĞİŞTİRMEDİM. ② BULAMADIM: Lublin — (b) bu oturumda tarayıcı paneli/get_page_text YOK (CLI), ölçülemedi; gün hâlâ bulunamadı, Lublin kaydına dokunulmadı (sahte kuyruk orada duruyor). Kielce'de Rus askerinin 2-9 Kasım 1914 dönüş günü kaynakta yok; pencereyi 11-02'de kapattım, valinin 9 Kasım'ı ic_not'ta — istersen 11-02→11-09 __BOSLUK__ yapılır. ③ İSTİYORUM: (1) BILINEN_AYRI'ya 4 çift (denetle.py senin) ya da başka hüküm · (2) diff'i ve kronoloji dosyasını birleştir + index.html/paketle · (3) Lublin için tarayıcı panelli bir oturum · (4) Varşova 1915-08-05 maddesi kronoloji_cok_1dunya_A'da da var (D2 evreninde değil) — arayüzde mükerrer görünürse hangisi kalsın. Ayrıca: eski yerel main'deki bozuk tahta commit'ini (tahta.json −689 satır) kasa-polonya-1005-yedek dalında yerel tuttum, push etmedim; main'i origin'e hizaladım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
