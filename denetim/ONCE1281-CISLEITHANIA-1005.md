@@ -83,3 +83,16 @@ farkı YOK; fark yalnız atama gününde (Rapallo / 1923).
 4. C (`__BOSLUK__`) önerilmez; B (bugünkü 1918-11-11 halef) künye günü (`D207`) — kalıcı çözüm değil.
 ⚠️ Kapsam notu: Split, Sinj, Klis, Brač, Dubrovnik, Kotor, Herceg Novi araştırmada "Saint-Germain"e bağlanmış; md. 91 ve
 Rapallo md. 3 (Brač "all other islands") ile bunların da atama günü Rapallo olabilir — 16'nın dışında, ayrı tasnif borcu.
+
+## 6. DİFF (hüküm M-5835 ②) — ÖNGÖRÜ, ölçümden ÖNCE (taban: Eisenstadt indi)
+Üç dosya, üç ayrı kalem:
+- `denetim/ONCE1281-CISLEITHANIA-1005.diff` (VERİ): `devletler.js` +1 künye `itilaf-emaneti` (`boya_gerekli:true` beyanıyla) ·
+  16 kayıt A modeli (`avusturya` → 1919-09-10 · emanet → atama · halef atamadan; Zadar'ın ara `yugoslavya` dönemi düşer) ·
+  `isg:` Zadar `italya` 1918-11-04 → Rapallo · Lvov `polonya` 1918-11-22 → 1923-03-15 · Knin `yugoslavya` 1918-12-01 (künye
+  doğumuna kırpık) → 1918-12-19 + `italya` → 1921-04-04 · Şibenik `italya` 1918-11-06 → 1921-06-12 · Rapallo maddesinin
+  gövdesine md. 2-3'ün devir cümlesi (Zara (Zadar) · Cherso (Cres) · "öteki bütün adalar SHS'ye").
+- `denetim/ONCE1281-CISLEITHANIA-RENK-1005.diff` (MOTOR TUZU — `renkler.py`, tam inşaya bekletilir; ağaca UYGULANMAZ).
+- `denetim/ONCE1281-CISLEITHANIA-SHS-1005.diff` (`denetle.py` — "SHS" taraf takma adı; senin dosyan).
+**Öngörü (yalnız VERİ diff'i, §4 A satırına göre):** 2s AÇIK **+1** (Rapallo kovası 8 eksikle açık; md. 2-3 adı açık kovada
+sayılmaz) · 2sk TARAF **+17**, YER +0 · 2i **+8** kırılma, açık aynı · 4c, 4d, D1, D2 aynı · D7 **+4** · renksiz künye +1
+(beyanlı). **VERİ + SHS diff'i:** 2s AÇIK **+0** · 2sk YER **+2** (Zadar, Cres — `D261`), TARAF +29.
