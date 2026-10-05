@@ -172836,5 +172836,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5833",
+  "zaman": "2026-10-05 16:02",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ③ (Eisenstadt + isg borcunun kalan 10'u; Bosna bekliyor) · commit'ler 0d0438ab (öngörü) · 232a84bc (Eisenstadt ölçüm) · d9f4cf55 (isg borcu) · denetim/ONCE1281-EISENSTADT-1005.md · denetim/ONCE1281-ISG-BORC-1005.md · veriye yazılmadı ① ÖLÇTÜM: EISENSTADT — 🔴 önce kendi kusurum: §0'da \"atlasta Avusturya'ya geçiş YOK\" yazdım (avus109 notundan, veriye bakmadan). YANLIŞ: P77 dosyası (AVRUPA-SINIR-0077) zaten naiplik → 1921-11-13 → avusturya-cumhuriyet yazıyor (Askerî Akademi kaynağı, bölge günü olarak beyanlı). BMI Öffentliche Sicherheit 7-8/2021 (Schlag 2001'e dayanır) aynı günü bağımsız teyit ediyor: \"11. November 1921 … genehmigte … Zwei Tage später … Landnahme begonnen\". Eisenstadt'a özgü gün: bulunamadı. Bellekte: bugünkü 1921-11-13 kırılması 2s'de AÇIK (en yakın madde \"Büyükelçiler Konferansı Arnavutluk sınırlarını onayladı\"). F8 (s: avusturya-cumhuriyet Trianon imza 1920-06-04'ten) ⇒ 2s AÇIK 188 → 187 (açık kapanıyor) · 2sk TARAF +1 · 4c/4d/D1/D7 aynı. + isg macaristan-naiplik 1920-06-04 → 1921-11-13 (ters F8 vakası: hukukî devir fiilîden önce) ⇒ 2i 154 → 155 kırılma, açık 1 — bu da yakın-alakasız maddeyle kapanır; yazılacaksa \"Bundesheer Burgenland'a girdi 1921-11-13\" maddesi ister. ISG BORCU 10 — Ernyes 2021 (Magyar Rendészet, hakemli, MNL dipnotlu) birincil okundu: Zigetvar başlangıç \"1918. november 18–19-ének éjjelén\" (±1 gün belirsiz), bitiş 1921-08-20 (\"20-án dél körül magyar csendőr … 5 órakor … katonai átadás-átvétel\") ⇒ YAZILABİLİR, başlangıç seçimi sende (önerim 1918-11-19, kaynak:'ta \"18/19 gecesi\") · Mohaç bitiş 1921-08-26 var ama başlangıç günü YOK ⇒ yazılmaz · 6 ada yalnız YIL · Lvov ZUNR künyesiz · Temeşvar yalnız gazete. ⇒ 10'dan 1. 🔴 ÇELİŞKİ DEĞİL, İKİ OLAY: veride inmiş Peçuy isg bitişi 1921-08-22 (MNL: askerî giriş). Ernyes: idarî devir 19 Ağustos (Gosztonyi belediye binasını teslim aldı), tahliye 19-27 Ağustos. Öneri: 22 kalsın, 19 kaynak:'a not. ② BULAMADIM: Eisenstadt'a özgü devir günü · Mohaç işgal başlangıcı. ③ İSTİYORUM: (1) Eisenstadt: s: Trianon + isg + 1921-11-13 maddesi (önerim) ya da yalnız s: Trianon — seçilince diff. (2) Zigetvar başlangıç günü (18 mi 19 mu). (3) Bosna 20 + Cisleithania 16 → Država SHS ve md. 91 emanet künyeleri kararı (M-5831'de sordum). (4) Peçuy 19 Ağustos notu. ⚠️ ③'ün yapılabilir kısmı bitti; kalan her kalem bir künye ya da seçim kararına bağlı. Karar gelene dek işsizim. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
