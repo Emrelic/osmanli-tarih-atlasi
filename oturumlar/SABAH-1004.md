@@ -1338,3 +1338,70 @@ tekrarlanıyor** ⇒ bayat bir kalem her turda yeniden doğru sayılıyor. Kalan
 (`57 imza yeri` · `3 mükerrer` · `17 yetim` · `Şefşâven/Maroa` · `Jasenovaç+Brod`) artık
 **var olduğu ÖLÇÜLMEDEN** uygulanmayacak. Özellikle `3 mükerrer madde`: W11 bugün
 **gerçek mükerrer 0** ölçtü, o kalem büyük olasılıkla tamamen bayat.
+
+---
+
+# 🔴 EMRE — YEDİNCİ KARAR: 256 SINAV VAR, TOPLU KOŞUCU YOK
+
+Ölçüldü (6 Ekim gecesi):
+```
+denetim/ altında SINAV betiği        : 256
+toplu koşturan betik                 : YOK   (glob + subprocess araması → 0)
+denetle_yayin.py sınav çağırıyor mu  : HAYIR
+denetle.py / uret_petek.py           : sınav ADINI anıyor, KOŞTURAN satır 0
+```
+⇒ **Hiçbir sınavın koşacağı garanti değil.** Bu gece ~15 yeni sınav yazıldı — her biri iki
+yönlü, her biri ölçülmüş — ve hiçbiri bir daha koşmayacak, biri hatırlamadıkça.
+⚠️ **Abartmıyorum:** 256'nın bir kısmı tek seferlik olabilir (bir şeyi bir kez kanıtlamak
+için yazılmış). Hangisinin hâlâ anlamlı olduğu **ölçülmedi** — ölçüm sipariş edildi
+(`SINAV-ENVANTER-1006`). İddia şu kadar: *hiçbiri koşmak zorunda değil.*
+
+🔴 **Ve somut bir zarar yolu var, bugün açık:** `arac/durum_tablosu.py`nin `kisi_kova`sı ile
+`denetim/`in sürümünün ayrışmasını önleyen tek şey, **kimsenin koşturmadığı** bir eşitlik
+sınavı. İki tanım ayrışırsa `§1.5`teki kişi sayıları sessizce yanlışa geçer.
+
+**KARAR GEREKİYOR:** bir toplu koşucu yazılsın mı, ve bir kapıya bağlanmalı mı?
+```
+① yazılmasın          bugünkü hâl: sınavlar belge, güvence değil
+② yazılsın, elle      "py denetim/TOPLU-SINAV.py" — koşturan hatırlarsa koşar
+③ yazılsın + KAPIYA   denetle_yayin'e bağlanır ⇒ sınav ötmeden yayın çıkmaz
+                      ⚠️ bedeli ölçülmedi: 256 betiğin süresi envanterle gelecek
+```
+📌 ③'ün riski gerçek: bir sınav bayat sabit yüzünden ötüyorsa yayını **haksız** bloke eder.
+O yüzden envanter `OTTU`yu ikiye ayıracak: `GERİLEME ADAYI` ↔ `BAYAT SABİT ADAYI`.
+
+---
+
+# 🔴 "KÜNYESİZ GEÇİŞ İDARESİ" — artık ÜÇ örnek, ve soru değişiyor
+```
+Naiplik (Polonya)        3–11 Kasım 1918   künyesiz  → MGGP notunda beyanlı
+PKL (Krakov/Galiçya)     31 Ekim 1918'den  künyesiz  → KRAKOV notunda beyanlı
+Aras-Türk (Iğdır)        Kasım-Aralık 1918 künyesiz  → künye AÇILMADI (kuruluşu çelişik)
+```
+⇒ Üçü de aynı yapıya sahip: **tarihte bir idare VARDI, dizinimizde künyesi YOK**, ve o
+yüzden kaynaklı günü yazmak haritada delik açıyor.
+🔴 **Soru artık "bu boşluğu ne yapalım" değil:** *künyesiz geçiş idarelerini nasıl ele
+alıyoruz?* Üç seçenek, ve bu kez üçü de **kural** düzeyinde:
+```
+① künye AÇILIR (kısa ömürlü bile olsa) — her biri boya + pencere + kaynak ister
+② boşluk BEYANLI bırakılır — bugün yapılan; harita o dilimde eski sahibi gösterir
+③ __BOSLUK__ ile BEYANLI DELİK — doğru ama kullanıcı bir şey kaybeder
+```
+📌 Bugün fiilen ②'yi uyguluyoruz ve **notlar bunu dürüstçe yazıyor** (MGGP notu model
+biçim oldu). Ama kural yazılı değil, o yüzden her vakada yeniden karar veriliyor.
+
+---
+
+# 🔴 KİŞİ KATMANI KAPISIZ — 288 kayıt hiçbir denetimden geçmiyor
+```
+denetle.py kişi dosyasını okuyor mu     : HAYIR, hiç
+durum_tablosu'nda kişi sayacı (3 yer)   : YOK
+denetle_gorunur.py:197                  : YOK
+§1.5'te kişi kaynağı satırı             : YOK (bu gece ÜRETİLİR hâle getirildi)
+```
+⇒ Bir sayaç eksiği değil, **bir veri katmanının denetimsizliği.** Bu gece ilk halka indi
+(dört kova: `TDV 257 · başka 2 · beyan 29 · kaynaksız 0`) ve iki tavan önerildi
+(`kaynaksız 0` · `beyan 29` liste olarak).
+⚠️ Katmanın tamamını kapıya bağlamak **yeni tavanlar** doğurur ve yayını bloke edebilir ⇒
+kapsamı Emre'nin. Bu gece yalnız ölçüm + iki tavan iniyor.
+📌 `DENETIMSIZ-ELLE-VERI` kaleminin kardeşi: orada *veri* denetimsizdi, burada *katman*.
