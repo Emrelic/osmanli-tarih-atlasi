@@ -62,3 +62,33 @@ Gerçek liste: **çıkış 0**, toplam 20,7 sn.
 
 ## 6. git status
 atlas-umit: `?? denetim/TOPLU-SINAV-1006.diff` · `?? denetim/UMIT-W39-TOPLU-SINAV-1006.md`. Ağaç kaldırıldı.
+
+---
+
+## EK-b (1006, devam) — LEGO temizliği + TEMP yan etki ölçümü → `TOPLU-SINAV-1006b.diff`
+Temel: **c8ca01eb** + `TOPLU-SINAV-1006.diff`. 1006b bunun üstüne `git apply --check` temiz (taze ağaçta sınandı). Ağaçlar kaldırıldı, commit yok.
+Kilit teyidi: `ARAC-LEGO-alet-sinav.py` W35'in 17'sinde ve W36'nın 11'inde yok. W35'teki "LEGO", `ARAC-LEGO-ayikla-sinav` / `karo-*` betikleri. Hiçbir diff'te geçmiyor (grep: yalnız TOPLU-SINAV-1006.diff).
+
+### ① `denetim/ARAC-LEGO-alet-sinav.py` (`-w` ile +11 −1)
+Gövde `try/finally` içine alındı. `finally` 4 Onbellek nesnesinin (`o o2 o3 kapali`) sqlite bağlantısını kapatıyor, çünkü Windows'ta dosya kilitli kalırsa rmtree düşer. Sonra `shutil.rmtree(tmp)` çalışıyor; dizin silinemezse ⚠️ basıyor. Davranış aynı kaldı: 12 ✓, çıkış kodu değişmedi.
+
+| sürüm | çıkış | TEMP'te kalan lego_sinav_* |
+|---|---|---|
+| eski (c8ca01eb) | 0 | **1** |
+| yeni | 0 | **0** |
+| yeni, bozuk motor_onbellek (`oku` hep ıska) | **1** (3 KUSUR) | 0 |
+| yeni, olmayan dizin | 1 | 0 |
+
+### ② `denetim/TOPLU-SINAV.py` (+50 −4)
+Her sınavdan önce ve sonra `%TEMP%`in üst düzey girdileri alınıyor. Yeni beliren girdiler `🟠 YAN ETKİ (TEMP)` başlığıyla adıyla basılıyor (ilk 10). Özet satırına `TEMP n` eklendi. **Çıkış kodu DEĞİŞMEDİ.** ⚠️ TEMP paylaşımlı olduğu için bu bir ipucu, kanıt değil: aynı anda başka bir süreç de girdi açabilir.
+
+Öz-sınav **13/13** (eski 10 durum + 3 yeni):
+- LEGO tek başına → TEMP 0.
+- TEMP'e `mkdtemp` yapan yapay betik → basılıyor, `TEMP 1`, çıkış 0.
+- TEMP'e yazmayan betik → `TEMP 0`.
+
+### 🔴 Yeni bulgu: DEGISMEZ-0086 `--yapay` da TEMP'e artık bırakıyor
+Gerçek liste koşusu: çıkış 0, `TEMP 1` → `DEGISMEZ-0086`. İki koşuda da aynı sonuç çıktı, tek başına koşunca da doğrulandı.
+- Sebep: `denetim/DEGISMEZ-0086-sinav.py:109` `d = tempfile.mkdtemp()` (içinde `defter.json`). `finally` yalnız `denetle` globallerini geri yüklüyor, dizini silmiyor.
+- Bu betik kilidimde olmadığı için düzeltmedim. Bu oturumun ve önceki koşuların bıraktığı 15 `tmp*/defter.json` artığını sildim (son 1 saat, içinde yalnız defter.json olanlar).
+- Öneri: `finally`ye `shutil.rmtree(d, ignore_errors=True)`. Tek satırlık ayrı bir iş.
