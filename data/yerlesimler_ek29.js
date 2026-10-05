@@ -452,9 +452,24 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1416-01-01",d:"eflak",kaynak:"TDV babadagi: 'Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)' · TDV dobruca: 'Mircea Ankara Savaşı'ndan sonraki karışıklıklar sırasında tekrar Dobruca'ya girmiş' · f = Ankara günü (giriş günü BULUNAMADI) · t = YIL · PAKET-0076-DOBRUCA-1004 (A)"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1416-01-01",t:"1878-07-13"}], v:[] },
 
+// PAKET-0076-DOBRUCA-1004 B (5 Ekim 2026) — Güney Dobruca'nın İÇİNDE nokta 0'dı (8a g3-bg-ro-dobruca-p4 kökü:
+//   Silistre hattın ucunda, sonra Varna 67 km). Ad + 3 km taraması: 0 kayıt, en yakın Varna 39,7 km.
+//   Kendi TDV maddesi var (hacioglupazarcigi, M. Kiel); kazılar 600-1500 arası yerleşim YOK dediği için
+//   1281-1419 Dobruca zinciri sorusu bu noktaya HİÇ DEĞMİYOR (kur: 1518).
+{ ad:"Hacıoğlupazarcığı (Dobrich)", tur:"sehir", lat:43.565, lon:27.831, g:0, k:4, m:"Silistre",
+  kur:"1518-01-01",
+  kaynak:"TDV, madde: hacioglupazarcigi (Machiel Kiel) — kuruluş, 1518 tahriri, 1878 Bulgaristan · koordinat: GeoNames arama sayfası, şehir merkezi satırı (denetim/PAKET-0076-BITIR-berlin-noktalar.md §Koordinatlar) — bu turda YENİDEN DOĞRULANMADI · PAKET-0076-DOBRUCA-1004 B",
+  neden:"TDV hacioglupazarcigi: 'Silistre sancağına ait günümüze ulaşan en eski kayıtlar, 924’te (1518) yapılan tahrire dayalı … Burada Varna kazasına bağlı Hacıoğlu adını taşıyan bir köye rastlanır' · '1970’lerde yapılan arkeolojik kazılarda … şehirde 600-1500 yılları arasında yerleşim bulunmadığını ortaya koydu. Burada yerleşim ilk olarak XVI. yüzyılda yörüklerle başladı.' ⇒ kur = İLK KAYIT yılı (terminus ante quem), kuruluş 'XVI. yüzyıl' — YIL (D210).",
+  d:[{f:"1518-01-01",t:"1878-07-13",kaynak:"TDV hacioglupazarcigi: 924 (1518) tahriri, Silistre sancağı / Varna kazası · bitiş Berlin (Prenslik noktalarının ortak günü)"}],
+  v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi",kaynak:"TDV hacioglupazarcigi: '1877-1878 savaşından sonra Hacıoğlu ve bölgesi yeni kurulan Bulgaristan’ın bir parçası oldu' · Berlin 1878-07-13"}],
+  s:[{f:"1908-10-05",t:"1913-08-10",d:"bulgaristan-kralligi",kaynak:"TDV bulgaristan: bağımsızlık 5 Ekim 1908"},
+     {f:"1913-08-10",t:"1923-10-29",d:"romanya-kralligi",kaynak:"TDV dobruca: 'Bükreş Antlaşması ile (1913) Bulgaristan Dobruca’nın güneyini de Romanya’ya terketmiş' · gün TDV balkan-savasi '10 Ağustos 1913’te … Bükreş Antlaşması' · Silistre kaydıyla aynı gün (A8)"}] },
+  // isg YAZILMADI: 1877-78 Rus işgali ve 1916-18 Bulgar geri alışı — TDV gün vermiyor.
+
 { ad:"İshakçı (Isaccea)", tur:"kale", lat:45.2736, lon:28.4600, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
-  d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}], v:[] },
+  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1419-01-01",d:"eflak",kaynak:"Stănică, A.-D., 'The Missing Fortresses in Dobrogea. Case Study: Turkish Fortifications', Dobrogea. Coordonate istorice și arheologice (2016), s. 4 dn. 3: 'Anca Ghiaţă has decided for an uninterrupted affiliation of Dobrogea to Wallachia from 1388 to the battles of 1419-1420' · s. 4: 'it’s only during the reign of Mihail, the successor of Mircea cel Bătrân in 1419 or the spring of 1420 that the Ottomans manage to extend their effective dominance over Dobrogea, the empire frontier being established on the line formed by the fortresses Enisala (Yeni-Sal) and Isaccea (Isakci) which become serhat (edge fortresses)' · f = Ankara günü (giriş günü bulunamadı) · t = YIL (1419 ya da 1420 ilkbaharı, D210) · ⚠️ 1402-1419 Eflak okuması BÖLGE düzeyindedir (Ghiaţă 'Dobrogea'); 1419/20 serhat cümlesi İsakçı'yı ADIYLA anar · Silistre/Köstence ile aynı zincir · PAKET-0076-ISHAKCI-1004"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
+  d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1419-01-01",t:"1878-07-13"}], v:[],
+  not:"Dobruca'nın Osmanlı'ya geçişinde ÜÇ OKUMA var (Stănică 2016, s. 4-5, dn. 3 ve 5): N. Iorga 1416 · C.C. Giurescu, Ştefănescu, Gh. I. Brătianu 1417 · A. Ghiaţă 1388'den 1419-1420 savaşlarına kadar KESİNTİSİZ Eflak. Yazar: 'The chronology of all these Ottoman conquests is not elucidated in detail.' Atlas Ghiaţă okumasını izler (yazarın kendi çerçevesi 'after the years 1419 to 1420'; Silistre · Köstence ile aynı); 1416 okuması Babadağı'nda TDV babadagi ile ayrıca yaşar (1416-1419 Babadağı adası kaynaklı)." },
 
 // YAGODİNA (Jagodina) — Kragujevac (28,4 km) çizgisiyle birebir:
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar

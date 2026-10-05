@@ -4351,7 +4351,30 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   kaç tane, en yakını kaç km — çare kaynak değil NOKTA YOĞUNLUĞU olabilir (§2: noktası
 #   olmayan bölge en yakın peteğe emilir).
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1584
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 5 EKİM 2026 — DOBRİÇ NOKTASI İNDİ: 1584 → 1585 · GİREN 1 · ÇIKAN 0
+#   Yama: denetim/PAKET-0076-DOBRIC-1004.diff — Güney Dobruca'nın İLK iç noktası
+#   (Hacıoğlupazarcığı / Dobrich, TDV `hacioglupazarcigi`, Kiel).
+#
+#   ÜYELİK (aracın kendi `8a YENİ` satırı + aritmetik: defter 1584 · bugün 1585 · YENİ 1):
+#     GİREN  g3-bg-ro-dobruca-p4|1908-10-05|sol|Hacıoğlupazarcığı (Dobrich)
+#     ÇIKAN  0
+#
+#   🔴 VE BU, SİLİSTRE VAKASINDAN FARKLI BİR SINIF. Orada ÇIKAN 1 + GİREN 3 vardı:
+#   aynı taşan parça yeni adrese atfedilmişti (YENİDEN ADLANDIRMA). Burada ÇIKAN 0 —
+#   kimse yerini bırakmadı. ⇒ Nokta taşmayı YARATMADI, **GÖRÜNÜR KILDI**.
+#   Sebep ölçülmüştü (PAKET-0076-DOBRUCA-1004 §8): Güney Dobruca'nın İÇİNDE nokta 0,
+#   Bulgar yakasında en yakın nokta Varna 67,0 km. 8a taşan parçayı karşı yakanın EN YAKIN
+#   noktasına atfeder; atfedilecek nokta olmayınca o taşma HİÇ SAYILMIYORDU.
+#   ⇒ Tavanın +1'i bir GERİLEME değil, bir KÖRLÜĞÜN KAPANMASI.
+#
+#   📌 Ve asıl kusur DURUYOR: Romen yakasında Köstence 48,3 km uzakta, yani hattın
+#   48 km'sinde hâlâ karşı nokta yok. `sag|Köstence` üyesi bu yüzden listede.
+#   Kalan noktalar (Balçık · Tutrakan · Mangalya) F6/Dobrotiç kararına bağlı.
+#   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
+#     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
+# ═══════════════════════════════════════════════════════════════════════════
+BEKLENEN_D8A = 1585
 BEKLENEN_D8B = 84
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
