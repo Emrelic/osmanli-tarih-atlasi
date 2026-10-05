@@ -268,6 +268,40 @@ def _nabiz_yol(kim):
     return os.path.join(d, re.sub(r"[^A-Za-z0-9]+", "_", kim or "?") + ".json")
 
 
+# 🔴 SUREC KIMLIGI = PID + BASLANGIC ZAMANI (D266, 5 Ekim 2026). Vaka:
+#   damga {"pid":20764} 18:32'den; PID isletim sisteminde BASKA surece
+#   verilmisti, `bekci_olc.py` "surec var" deyip ASILI alarmi basti. PID tek
+#   basina kimlik DEGIL, yeniden kullanilir. Baslangic zamani ayni PID'in iki
+#   surecini ayirir. Okuma yolu OLCULDU (UMIT-W10-BEKCI-1006): kernel32
+#   GetProcessTimes 0,3 ms · PowerShell StartTime 400-520 ms, AYNI deger ·
+#   wmic bu makinede YOK (Win11'de kaldiriliyor) · psutil 30-120 ms, ek bagimlilik.
+#   Deger: FILETIME (1601'den 100 ns, UTC) — `bekci_olc.py` AYNI API ile okur,
+#   karsilastirma birebir esitliktir (yuvarlama/saat dilimi yok).
+_BASLANGIC = []
+
+
+def _surec_baslangic():
+    """Bu surecin baslangic FILETIME'i ya da None. ASLA istisna firlatmaz."""
+    if _BASLANGIC:
+        return _BASLANGIC[0]
+    deger = None
+    if os.name == "nt":
+        try:
+            import ctypes
+            from ctypes import wintypes
+            k32 = ctypes.WinDLL("kernel32")
+            k32.GetCurrentProcess.restype = wintypes.HANDLE
+            k32.GetProcessTimes.argtypes = [wintypes.HANDLE] + [ctypes.POINTER(wintypes.FILETIME)] * 4
+            c, e, kk, u = (wintypes.FILETIME() for _ in range(4))
+            if k32.GetProcessTimes(k32.GetCurrentProcess(), ctypes.byref(c), ctypes.byref(e),
+                                   ctypes.byref(kk), ctypes.byref(u)):
+                deger = (c.dwHighDateTime << 32) | c.dwLowDateTime
+        except Exception:
+            deger = None
+    _BASLANGIC.append(deger)
+    return deger
+
+
 def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
     """Her turda tek satir JSON. ASLA istisna firlatmaz — nabiz damgasi
     bekciyi DUSURMEMELI; teshis arac olmaktan cikip ariza kaynagi olur."""
@@ -280,6 +314,7 @@ def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
             "durum": durum,          # nobette | cikti
             "sebep": sebep,          # cikisin sebebi (durum=cikti ise)
             "pid": os.getpid(),
+            "baslangic": _surec_baslangic(),   # PID ile BIRLIKTE surec kimligi (D266)
             "zaman": time.strftime("%Y-%m-%d %H:%M:%S"),
             "damga": int(time.time()),
             "tur": tur_no,
