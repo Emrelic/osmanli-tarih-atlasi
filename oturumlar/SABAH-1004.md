@@ -1405,3 +1405,67 @@ denetle_gorunur.py:197                  : YOK
 ⚠️ Katmanın tamamını kapıya bağlamak **yeni tavanlar** doğurur ve yayını bloke edebilir ⇒
 kapsamı Emre'nin. Bu gece yalnız ölçüm + iki tavan iniyor.
 📌 `DENETIMSIZ-ELLE-VERI` kaleminin kardeşi: orada *veri* denetimsizdi, burada *katman*.
+
+---
+
+# 🔴 EMRE — SEKİZİNCİ ve DOKUZUNCU KARAR: kronoloji AD EŞLEMESİ
+
+## Ölçülen durum (W26, `denetim/UMIT-W26-KRONO-BAGLAMA-1006.md`)
+`js/app.js` kronoloji dosyalarını künyelere **ad türetmesiyle** bağlıyor
+(`:14267` `slice(10).toLowerCase`, `_`→`-`) ve **PENCERE SINAMASI YOK.** Sonuç:
+```
+15 eşlemede 321 madde KÜNYE PENCERESİ DIŞINDA
+   iran      107/107   ← KRONOLOJI_IRAN tamamen Pehlevi künyesine (f 1925-12-12) biniyor
+   fransa     91/184   (1792 sonrası)
+   macaristan 83/127   (1526 sonrası — Ortaçağ künyesinde)
+   gürcistan 8 · ispanya 7 · …
+```
+🟢 **Ve çare ölçülmüş:** madde başına önerilen künyelerin **308/308'inin penceresi maddeyi
+kapsıyor**, ihlal 0, hiçbir künye genişletilmedi. İran dağılımı: `kaçar 40 · safevi 39 ·
+timurlu 8 · afşar 7 · zend 4 · ilhanlı 3 · akkoyunlu 3 …`
+⚠️ `KRONOLOJI_ID_OZEL` çare OLAMAZ (birleşik dosyayı bölemez — ölçüldü). Tek çalışan
+mekanizma: `_COK_` + madde başına `devlet:` alanı.
+
+## ⑧ KARAR: 308 maddeyi künyelerine atayalım mı?
+Atama kullanıcının gördüğünü değiştirir (bugün 321 madde **hiçbir ekranda açılamıyor**).
+```
+① ATANSIN     321'in 308'i doğru künyesine gider, 13'ü atanamaz (künyesi yok)
+② ATANMASIN   bugünkü hâl: maddeler veride var, ekranda yok (BEYANLI borç olur)
+```
+📌 `§1`in amacı *"bir madde okunduğunda haritada tam o değişim görünmeli"* ⇒ ① o amaca
+yakın, ama 308 maddenin hangi künyeye gittiği **hanedan ayrımı** kararına dokunuyor.
+
+## ⑨ KARAR: atanamayan 13 için YENİ KÜNYE açılsın mı?
+13 maddenin künyesi **yok**; örnek: **Gürcistan 645** için Kartli/İberya künyesi bulunmuyor.
+⇒ Yeni künye = dizin + boya + pencere + kaynak. Açılmazsa o 13 madde kalıcı olarak
+ekransız kalır.
+
+---
+
+# 🔴 VE DAHA BÜYÜK BİR KALEM: 15 dosya / 2.084 madde HİÇ EŞLENMİYOR
+`cin` · `hindistan` · `balkan` … ⇒ 321'in **altı katı**, ve ayrı bir sınıf: bunlar pencere
+dışında değil, **hiçbir künyeye bağlanmıyor.** 321 ile karıştırılmamalı.
+(Bu, W12'nin daha önce ölçtüğü *"16 `KRONOLOJI_*` değişkeni hiçbir künyeye bağlanmıyor,
+2.059 madde"* bulgusunun güncellenmiş hâli.)
+
+---
+
+# 🟢 BİR KUSUR DÜZELTİLDİ, ALTINDAN İKİNCİSİ ÇIKTI — ve bu iyi haber
+`app.js:14284`te koşulsuz `D[i].kronoloji = derin` ataması, ad eşlemesiyle bağlanan **26
+dosyanın 26'sında** künyenin kendi maddelerini **siliyordu**: 26 künye, 228 madde.
+```
+144'ünün dosyada AYNI GÜN karşılığı var   → aynı olay, meşru düşüş
+ 40'ının yalnız AYNI YIL karşılığı var
+ 44'ünün HİÇ karşılığı yok  ← GERÇEK KAYIP
+     iran 6 (Pehlevi) · almanya 6 (1933-45) · safevi 6 · portekiz 4 · ispanya 2 (1936-39) …
+```
+Düzeltme (`KRONO-EZILDI-1006.diff`, yalnız `app.js`): atama yerine **birleştirme** — künye
+maddesi dosyada temsil ediliyorsa düşer, edilmiyorsa **EKLENİR**. Sınav gerçek kesitle:
+228 kayıp → 174 meşru + **54 korunan** (öngörü 52±3 ✓), `iran` 6/6 geri geldi.
+🔴 **Ve düzeltme altındaki ikinci kusuru açtı: 25 TARİH ÇELİŞKİSİ** — aynı olay iki yerde
+iki ayrı günle yazılmış; artı **3 ayrı olay** yanlışlıkla aynı sayılmış (timurlu 1449 Uluğ
+Bey'in tahta çıkışı · safevi 1503 Diyarbekir/Bağdat · karakoyunlu 1406).
+⇒ Bunlar bugüne kadar **görünmüyordu**, çünkü ezme kusuru birini siliyordu. Kaynak işi
+olarak ayrı görev açıldı (TDV birincil, çelişki bildirilir, uygulama yok).
+📌 **Ders: bir kusuru düzeltmek, altındaki ikinciyi ortaya çıkarır.** Bu bir gerileme değil,
+görünürlük kazancıdır — ama `KRONO-EZILDI` inince o 25 çelişki **sayılarda görünecek**.
