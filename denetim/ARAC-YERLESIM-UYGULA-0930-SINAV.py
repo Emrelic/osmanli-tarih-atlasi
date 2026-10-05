@@ -26,7 +26,7 @@ import sys
 import tempfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 YOL = os.path.join(KOK, "denetim", "ARAC-YERLESIM-UYGULA-0930.py")
 
 # ── aleti ICE AL ama ANA GOVDESINI KOSTURMA ─────────────────────────────

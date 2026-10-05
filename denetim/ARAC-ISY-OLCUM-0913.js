@@ -13,13 +13,15 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
 const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) { console.log("YOK:", rel); return false; } vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-const bagli = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+const bagli = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
 console.log("index.html'de data/isyan_tarama.js bağlı:", bagli.indexOf("data/isyan_tarama.js") >= 0);
 bagli.filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js|isyan_tarama/.test(s)).forEach(yukle);
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
 const Y = W.YERLESIMLER, PET = W.PETEKLER || [], IT = W.ISYAN_TARAMA;
+IK.yerlesimKapisi(Y);
 const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
 const petAd = {}; PET.forEach((p, i) => { if (p && p.a) petAd[p.a] = i; });
 console.log("YERLESIMLER", Y.length, "· PETEKLER", PET.length, "· künye", Object.keys(KIX).length);

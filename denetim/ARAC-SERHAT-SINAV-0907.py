@@ -12,7 +12,7 @@
 """
 import sys, io, math, subprocess, json, os
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK + r"\denetim")
 
 # ARAC'in geometri cekirdegini ITHAL ET — taklit ETME (§11)

@@ -1,12 +1,28 @@
 # -*- coding: utf-8 -*-
-"""F olcumunun govde cikarimi DOGRU mu? Bilinen sehirlerle sinav."""
-import io, json
+"""F olcumunun govde cikarimi DOGRU mu? Bilinen sehirlerle sinav.
+
+KULLANIM:  py denetim/ARAC-D-RENK-0073-SINAV.py <dizin>
+           <dizin> = `ARAC-D-RENK-0073-GOVDE.js <gun> <dizin>/govde1923.geojson`
+           ciktisinin durdugu dizin (ya da D_RENK_SP ortam degiskeni).
+CIKIS:     0 sinav tam / 1 sapma var / 2 OLCULEMEDI (girdi yok)
+
+W36 (6 Ekim 2026): SP eskiden BASKA MAKINENIN scratchpad yoluydu (C:\\Users\\emrem\\...)
+ve betik her yerde FileNotFoundError ile coktu. Yol artik arguman; sinavin
+sorusu ve 16 sehri DEGISMEDI. Sapma artik cikis kodunda da gorunur.
+"""
+import io, json, os, sys
 from shapely.geometry import shape, Point
 from shapely.strtree import STRtree
 from shapely.prepared import prep
 
-SP = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\0f85f827-a96b-4a7c-bfd6-a06cab079a08\scratchpad"
-gj = json.load(io.open(SP + r"\govde1923.geojson", encoding="utf-8"))
+SP = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("D_RENK_SP", "")
+GJ = os.path.join(SP, "govde1923.geojson")
+if not SP or not os.path.isfile(GJ):
+    print("OLCULEMEDI - govde1923.geojson yok (%r). Once: node denetim/"
+          "ARAC-D-RENK-0073-GOVDE.js 1923-10-29 <dizin>/govde1923.geojson "
+          "(data/devletler_harita.js ister). Bu 'temiz' DEGILDIR." % GJ)
+    sys.exit(2)
+gj = json.load(io.open(GJ, encoding="utf-8"))
 govde, kimlik = [], []
 for f in gj["features"]:
     g = shape(f["geometry"])
@@ -39,5 +55,6 @@ for ad, x, y, bek in SINAV:
     print("  %-10s beklenen %-22s bulunan %-22s %s" % (ad, bek, b, "OK" if ok else "X"))
 print("sinav: %d/%d" % (dogru, len(SINAV)))
 print()
-print("1923 govde kimlikleri (115):")
+print("1923 govde kimlikleri (%d):" % len(set(kimlik)))
 print(", ".join(sorted(set(kimlik))))
+sys.exit(0 if dogru == len(SINAV) else 1)

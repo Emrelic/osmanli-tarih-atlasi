@@ -5,7 +5,7 @@ POZITIF KONTROL once atesleniyor (M-5024 ①: normallestiricinin kor olmadigi
 KANITLANMADAN "0 bulundu" raporlanmaz). Salt okur."""
 import io, os, re, sys, unicodedata
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 KART = os.path.join(KOK, "denetim", "KRONO-0076-C-YAMA-ekokuma_p76f.js")
 

@@ -2,23 +2,32 @@
 """D-RENK-0073 — F: HAT ile BOYA ne kadar ortusuyor? (1923-10-29)
 Her hattin uzerinde ~10 km'de bir nokta; noktanin 5 km sag/sol'unda hangi
 devletin govdesi boyali? Beklenen: sol=sol_taraf, sag=oteki taraf."""
-import io, json, math, collections
+import io, json, math, collections, os, sys
 
 from shapely.geometry import shape, LineString, Point
 from shapely.strtree import STRtree
 from shapely.prepared import prep
 
-SP = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\0f85f827-a96b-4a7c-bfd6-a06cab079a08\scratchpad"
+# W36b (6 Ekim 2026): SP eskiden BASKA MAKINENIN scratchpad yoluydu (C:\Users\emrem\...)
+#   ve betik her yerde FileNotFoundError ile cokuyordu. ARAC-D-RENK-0073-SINAV.py'deki
+#   care: dizin arguman ya da D_RENK_SP; girdi yoksa OLCULEMEDI, cikis 2. Olcum DEGISMEDI.
+#   Girdiler: DOK.js -> hatlar.json · GOVDE.js -> govde1923.geojson + _idharita.json
+SP = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("D_RENK_SP", "")
+_EKSIK = [a for a in ['hatlar.json', 'govde1923.geojson', 'govde1923_idharita.json'] if not SP or not os.path.isfile(os.path.join(SP, a))]
+if _EKSIK:
+    print("OLCULEMEDI - girdi yok: %s (dizin %r). Once DOK.js ve GOVDE.js "
+          "(data/devletler_harita.js ister). Bu 'temiz' DEGILDIR." % (", ".join(_EKSIK), SP))
+    sys.exit(2)
 GUN = "1923-10-29"
 ADIM_KM = 10.0
 YAN_KM = 5.0
 
-K = json.load(io.open(SP + r"\hatlar.json", encoding="utf-8"))["kayitlar"]
-IDH = json.load(io.open(SP + r"\govde1923_idharita.json", encoding="utf-8"))
+K = json.load(io.open(os.path.join(SP, "hatlar.json"), encoding="utf-8"))["kayitlar"]
+IDH = json.load(io.open(os.path.join(SP, "govde1923_idharita.json"), encoding="utf-8"))
 
 def hk(t):      # D048: govde "harita:" anahtariyla anahtarli, id ile DEGIL
     return IDH.get(t, t)
-gj = json.load(io.open(SP + r"\govde1923.geojson", encoding="utf-8"))
+gj = json.load(io.open(os.path.join(SP, "govde1923.geojson"), encoding="utf-8"))
 govde, kimlik = [], []
 for f in gj["features"]:
     g = shape(f["geometry"])
@@ -123,4 +132,4 @@ for i, (hid, tr, hal, n) in enumerate(ornekler[:18]):
 
 json.dump({"say": dict(say), "nokta": nokta_toplam,
            "kayma_medyan_km": (kayma[len(kayma)//2] if kayma else None)},
-          io.open(SP + r"\hat_boya_1923.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          io.open(os.path.join(SP, "hat_boya_1923.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

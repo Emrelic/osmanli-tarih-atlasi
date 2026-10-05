@@ -35,14 +35,16 @@ _spec = importlib.util.spec_from_file_location("capa", os.path.join(K, "EKOKUMA-
 capa = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(capa)
 
-HEDEF = r"C:\atlas\data\ekokuma_p77b.js"
-DATA = r"C:\atlas\data"
+KOK = os.path.dirname(K)
+HEDEF = os.path.join(KOK, "data", "ekokuma_p77b.js")
+DATA = os.path.join(KOK, "data")
+capa.KOK = DATA  # capa.py kendi KOK'unu mutlak tasiyor; okumayi BU agaca bagla
 BEKLENEN = 15
 DEGISKEN = "window.EKOKUMA_P77B"
 # 28 Eylül 2026 — paket 0080 kartı için: --p80b (tek kart, EKOKUMA_P80B).
 # Ters yön bozulmaları p77b kartlarına göre yazılı; --p80b ile yalnız düz yön.
 if "--p80b" in sys.argv:
-    HEDEF, BEKLENEN, DEGISKEN = r"C:\atlas\data\ekokuma_p80b.js", 1, "window.EKOKUMA_P80B"
+    HEDEF, BEKLENEN, DEGISKEN = os.path.join(DATA, "ekokuma_p80b.js"), 1, "window.EKOKUMA_P80B"
 
 TURLER = {"sebep-sonuc", "magazin", "merak", "antlasma", "tartisma",
           "teknik-bilimsel", "kimdir", "dis-yankilar", "kahramanlik",

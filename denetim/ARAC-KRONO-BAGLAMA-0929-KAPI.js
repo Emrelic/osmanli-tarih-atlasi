@@ -47,6 +47,26 @@ if (kesit.indexOf("derinKronolojiBindir") < 0 || kesit.indexOf("cokTarafliKronol
   process.exit(0);
 }
 
+// ---- TEMSİL YÜKLEMİ — app.js'ten KESİLİR, burada tanımlanmaz (1006b) ---------
+// Ekrandan düşen künye maddesi iki ayrı hâldir: dosyada TEMSİL EDİLİYORSA
+// meşru düşüştür (basılır, ihlal değil); edilmiyorsa KAYIPTIR (ihlal). Yüklem
+// (`kronoGun` + `kronoTemsilEdiliyor`) `app.js`teki TEK tanımdan kesilir.
+// `G.yuklem` (ops.) yüklemin okunacağı dosya — yalnız sınav içindir: yamasız
+// app.js'in davranışını yamalı app.js'in yüklemiyle sınıflamak için.
+// Yüklem bulunamazsa ÖLÇÜLEMEDİ (sessiz "hepsi kayıp" ya da "hepsi temsil" YOK).
+const yuklemAd = G.yuklem || G.app;
+const yKaynak = fs.readFileSync(path.resolve(G.kok, yuklemAd), "utf8");
+const y0 = yKaynak.indexOf("function kronoGun("), y1 = yKaynak.indexOf("(function derinKronolojiBindir()");
+const yT = yKaynak.indexOf("function kronoTemsilEdiliyor(");
+if (y0 < 0 || y1 <= y0 || yT < y0 || yT > y1) {
+  process.stdout.write(JSON.stringify({ hata: "temsil yüklemi (kronoGun + kronoTemsilEdiliyor) " +
+    yuklemAd + " içinde bulunamadı" }));
+  process.exit(0);
+}
+const yCtx = vm.createContext({});
+vm.runInContext(yKaynak.slice(y0, y1), yCtx, { filename: yuklemAd + "#temsil-yuklemi" });
+const temsilEdiliyor = yCtx.kronoTemsilEdiliyor;
+
 // ---- koşudan ÖNCE fotoğraf ------------------------------------------------
 const D = ctx.DEVLETLER || [];
 const once = {};                                   // id -> özgün künye dizisi
@@ -76,14 +96,16 @@ tekAnahtar.forEach(k => {
     const eski = once[d.id];
     if (eski && eski.length && eski !== dizi) {
       // künyenin özgün maddelerinden koşudan sonra EKRANDA OLMAYANLAR (nesne kimliğiyle);
-      // bunlardan aynı `t`de bir dosya maddesi kalanlar "yerine geçen", kalmayanlar KAYIP
+      // dosyada temsil edilenler MEŞRU DÜŞÜŞ, edilmeyenler KAYIP (1006b)
       const son = d.kronoloji || [];
-      const kayip = eski.filter(m => son.indexOf(m) < 0);
-      const karsiliksiz = kayip.filter(m => !son.some(o => o.t === m.t));
-      if (kayip.length)
+      const dusen = eski.filter(m => son.indexOf(m) < 0);
+      const temsil = dusen.filter(m => temsilEdiliyor(m, dizi));
+      const kayip = dusen.filter(m => temsil.indexOf(m) < 0);
+      if (dusen.length)
         ezilen.push({ anahtar: k, id: d.id, kunye_madde: eski.length, dosya_madde: dizi.length,
-                      kayip: kayip.length, karsiliksiz: karsiliksiz.length,
-                      kunye: eski.map(kisa), dosya: dizi.map(kisa), karsiliksiz_madde: karsiliksiz.map(kisa) });
+                      dusen: dusen.length, kayip: kayip.length, temsil: temsil.length,
+                      kunye: eski.map(kisa), dosya: dizi.map(kisa),
+                      kayip_madde: kayip.map(kisa), temsil_madde: temsil.map(kisa) });
     }
   });
 });
@@ -91,6 +113,6 @@ tekAnahtar.forEach(k => {
 process.stdout.write(JSON.stringify({
   dosya_sayisi: G.dosyalar.length, yukleme_hatasi: yuklemeHatasi,
   kunye: D.length, tek_anahtar: tekAnahtar.length, cok_anahtar: cokAnahtar.length,
-  bagli, eslenmeyen, ezilen,
+  bagli, eslenmeyen, ezilen, yuklem: G.yuklem || null,
   app_konsol: loglar.filter(l => /KRONOLOJ|kronoloji/.test(l[1])),
 }));

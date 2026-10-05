@@ -10,7 +10,8 @@ const oku = f => fs.readFileSync(path.join(KOK, f), "utf8");
 
 function kronolojiDosyalari() {
   const html = oku("index.html");
-  return [...html.matchAll(/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/g)].map(m => m[1]);
+  const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+  return IK.kaynaklar(html, /src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/);
 }
 function maddeler() {
   const dosyalar = kronolojiDosyalari(), hepsi = [];

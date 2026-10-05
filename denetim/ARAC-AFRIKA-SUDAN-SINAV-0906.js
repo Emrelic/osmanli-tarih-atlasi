@@ -34,7 +34,9 @@ function yukleYama(yol, ad) {
 }
 
 const N = yukleNokta();
-const Y = yukleYama("denetim/yer_yama_afrika_1923.js", "YER_YAMA_AFRIKA_1923");
+// W36 (6 Ekim 2026): yama 415d18ac ile denetim/ -> data/ TASINDI (icerik ayni).
+//   Yama artik UYGULANMIS; sinav bugun "canli veri yamayla hala ayni mi" sorar.
+const Y = yukleYama("data/yer_yama_afrika_1923.js", "YER_YAMA_AFRIKA_1923");
 const ix = {};
 for (const y of N) ix[y.ad] = y;
 const dev = { window: {} }; vm.createContext(dev);

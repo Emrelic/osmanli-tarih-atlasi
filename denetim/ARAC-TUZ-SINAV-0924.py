@@ -3,16 +3,17 @@
 #                  ② girdi.py'nin KODUNU degistir -> tuz DEGISMELI
 import io, sys, hashlib, shutil, os
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.path.insert(0, r"C:\atlas\arac")
+ARAC = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac")
+sys.path.insert(0, ARAC)
 
-GP = r"C:\atlas\arac\girdi.py"
-LP = r"C:\atlas\arac\girdi_listesi.py"
+GP = os.path.join(ARAC, "girdi.py")
+LP = os.path.join(ARAC, "girdi_listesi.py")
 
 def tuz():
     """motor_izi()'nin uc dosya sha256'si = tuzun kod ekseni."""
     iz = {}
     for ad in ("uret_petek.py", "renkler.py", "girdi.py"):
-        y = os.path.join(r"C:\atlas\arac", ad)
+        y = os.path.join(ARAC, ad)
         iz[ad] = hashlib.sha256(io.open(y, "rb").read()).hexdigest()
     return hashlib.sha256(repr(sorted(iz.items())).encode()).hexdigest()[:16]
 

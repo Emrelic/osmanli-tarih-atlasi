@@ -17,7 +17,12 @@ KİPLER
                    açılır — paket yenilenmeden önce veri düzeltmesini ölçer
     --ekle <yol>   (tekrarlanabilir) evrene fazladan dosya ekle (sınav için)
     --json <yol>   ham sonucu yaz
-ÇIKIŞ   0 temiz · 1 eşlenmeyen ya da ezilen var · 2 ölçülemedi
+    --yuklem <yol> temsil yüklemini bu dosyadan kes (varsayılan js/app.js) —
+                   YALNIZ SINAV: yamasız app.js'in davranışını yamalının yüklemiyle sınıflar
+EZİLEN ≠ DÜŞEN (1006b, UMIT-W26): ekrandan düşen künye maddesi, dosyada
+    `kronoTemsilEdiliyor` (app.js'teki TEK tanım, kesilip çağrılır) ile temsil
+    ediliyorsa MEŞRU DÜŞÜŞtür — basılır, ihlal DEĞİLDİR; edilmiyorsa KAYIPtır — ihlal.
+ÇIKIŞ   0 temiz · 1 eşlenmeyen ya da KAYIP var · 2 ölçülemedi
 🔴 ölçülemedi asla temiz sayılmaz.
 """
 import json
@@ -52,13 +57,16 @@ def evren(kaynak_kipi, ekler):
 def main():
     a = sys.argv[1:]
     kaynak_kipi = "--kaynak" in a
-    ekler, json_yol = [], None
+    ekler, json_yol, yuklem = [], None, None
     for i, x in enumerate(a):
         if x == "--ekle": ekler.append(a[i + 1])
         if x == "--json": json_yol = a[i + 1]
+        if x == "--yuklem": yuklem = a[i + 1]
     dosyalar = evren(kaynak_kipi, ekler)
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
-        json.dump({"kok": KOK, "dosyalar": dosyalar, "app": "js/app.js"}, f)
+        g = {"kok": KOK, "dosyalar": dosyalar, "app": "js/app.js"}
+        if yuklem: g["yuklem"] = os.path.abspath(yuklem)
+        json.dump(g, f)
         girdi = f.name
     try:
         p = subprocess.run(["node", JS, girdi], capture_output=True, text=True, encoding="utf-8")
@@ -86,16 +94,21 @@ def main():
     e = sorted(r["eslenmeyen"], key=lambda x: -x["madde"])
     print(f"  EŞLENMEYEN  {len(e)} dosya · {sum(x['madde'] for x in e)} madde — sitede ERİŞİLEMEZ")
     for x in e: print(f"     {x['anahtar']:34s} {x['madde']:4d}")
-    z = sorted(r["ezilen"], key=lambda x: -x["kayip"])
-    print(f"  EZİLEN      {len(z)} künye · {sum(x['kayip'] for x in z)} künye maddesi ekranda YOK — "
-          f"{sum(x['karsiliksiz'] for x in z)} KARŞILIKSIZ (aynı t'de dosya maddesi de yok) · "
-          f"{sum(x['kayip'] - x['karsiliksiz'] for x in z)} aynı t'de dosya maddesiyle yer değişti")
+    z = sorted(r["ezilen"], key=lambda x: (-x["kayip"], -x["temsil"]))
+    kayip = sum(x["kayip"] for x in z)
+    temsil = sum(x["temsil"] for x in z)
+    if r.get("yuklem"): print(f"  ⚠️ SINAV KİPİ — temsil yüklemi {r['yuklem']} dosyasından")
+    print(f"  ekrandan düşen künye maddesi: {kayip + temsil} ({len(z)} künye)")
+    print(f"  EZİLEN (kayıp): {kayip}  ← İHLAL — dosyada temsil EDİLMİYOR, sitede GÖRÜNMEZ")
+    print(f"  TEMSİL EDİLİYOR (meşru düşüş): {temsil}  ← kusur değil (dosyada aynı gün ya da ±30 gün)")
     for x in z: print(f"     {x['id']:24s} künye {x['kunye_madde']:3d} → dosya {x['dosya_madde']:3d} · "
-                      f"kayıp {x['kayip']:3d} · karşılıksız {x['karsiliksiz']:3d}  ({x['anahtar']})")
+                      f"KAYIP {x['kayip']:3d} · temsil {x['temsil']:3d}  ({x['anahtar']})")
+    for x in z:
+        for m in x["kayip_madde"]: print(f"       ✗ {x['id']} {m['t']} {m['b'][:70]}")
     for tur, s in r["app_konsol"]:
         if tur == "warn" and "künyesi olmayan taraf" in s:
             print("  ⚪ bilgi (çok-künyeli yolun kendi uyarısı):", s[len("Atlas: "):][:400])
-    sys.exit(1 if (e or z) else 0)
+    sys.exit(1 if (e or kayip) else 0)
 
 
 if __name__ == "__main__":

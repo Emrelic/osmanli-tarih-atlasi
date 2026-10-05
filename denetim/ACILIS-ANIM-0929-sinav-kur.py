@@ -5,9 +5,9 @@
 #     http://localhost:8765/denetim/ACILIS-ANIM-0929-sinav.html  (teklif edilen satırın aynısı)
 # Varyantlar maliyeti AYIRMAK içindir (window.ACILIS_AYAR, data/acilis_siluet.js okur).
 # Kopyalar commit EDİLMEZ (index.html'in 1750 satırlık ikizleri); bu betik edilir.
-import sys, re, json
+import os, sys, re, json
 sys.stdout.reconfigure(encoding="utf-8")
-KOK = "C:/atlas/"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace("\\", "/") + "/"
 VARYANT = {
     "": None,                                             # teklif edilen hâl
     "betik": {"ogesiz": 1, "durgunKure": 1},              # yalnız betik + durgun küre

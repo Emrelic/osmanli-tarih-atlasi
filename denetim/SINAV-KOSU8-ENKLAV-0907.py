@@ -47,7 +47,35 @@ import subprocess
 import sys
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TABAN_COMMIT = "d041a08"
+# W32 (6 Ekim): ESKI SABITLER `TABAN_COMMIT = "d041a08"` + baslıktaki 660/661
+# BAYATLADI — tavan 660 → 731'e yürüdü ve d041a08'in `data/`sı bugünkü
+# `girdi.py`nin okudugu 93 dosyanın çogunu TASIMIYOR ⇒ taban hiç kurulamıyor,
+# alet "ÖLÇÜLEMEDİ … ADLANDIRILAMADI" deyip 1 dönüyordu. Ikisi de artık ÖLÇÜLÜR:
+#   · tavan = `denetle.BEKLENEN_ENKLAV_SORGU`nun bugünkü degeri (kaynaktan)
+#   · taban commit'i = o sayının SON DEGİSTİGİ commit (git log -G + ebeveyn
+#     karsılastırması; yalnız yorumu degistiren commit sayılmaz)
+TABAN_COMMIT = None
+TAVAN = None
+SABIT_RX = r"^BEKLENEN_ENKLAV_SORGU = (\d+)"
+
+
+def _sabit(kaynak):
+    import re
+    m = re.search(SABIT_RX, kaynak, re.M)
+    return int(m.group(1)) if m else None
+
+
+def taban_commit_bul():
+    u"""Tavanın SAYISININ son degistigi commit — (kısa sha, deger) ya da (None, hata)."""
+    p = subprocess.run(["git", "log", "--format=%h", "-G", "^BEKLENEN_ENKLAV_SORGU = ",
+                        "--", "arac/denetle.py"], cwd=KOK, capture_output=True, timeout=300)
+    for c in p.stdout.decode("ascii", "replace").split():
+        v = [subprocess.run(["git", "show", "%s:arac/denetle.py" % r], cwd=KOK,
+                            capture_output=True, timeout=300).stdout.decode("utf-8", "replace")
+             for r in (c, c + "^")]
+        if _sabit(v[0]) is not None and _sabit(v[0]) != _sabit(v[1]):
+            return c, _sabit(v[0])
+    return None, "tavanı degistiren commit bulunamadı"
 GECICI = os.path.join(
     os.environ.get("TEMP", os.path.join(KOK, "..")),
     "_enklav_taban_0907")
@@ -96,6 +124,7 @@ def taban_kur():
                     os.path.join(GECICI, "arac"),
                     ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
     tar = os.path.join(GECICI, "_taban.tar")
+    global BOS_SAYILAN
     with io.open(tar, "wb") as f:
         p = subprocess.run(["git", "archive", TABAN_COMMIT, "data"],
                            cwd=KOK, stdout=f, stderr=subprocess.PIPE,
@@ -106,12 +135,34 @@ def taban_kur():
                         capture_output=True, timeout=900)
     if p2.returncode != 0:
         return p2.stderr.decode("utf-8", "replace")[-300:]
+    # Bugünkü girdi listesinde olup tabanda HENÜZ olmayan dosya: o gün o veri
+    # YOKTU ⇒ bos dizi olarak konur (girdi.py eksik dosyada çöker). ADIYLA basılır.
+    sys.path.insert(0, os.path.join(KOK, "arac"))
+    import girdi
+    BOS_SAYILAN = []
+    for ad in girdi.GIRDI_DOSYALARI:
+        yol = os.path.join(GECICI, "data", ad)
+        if not os.path.exists(yol):
+            with io.open(yol, "w", encoding="utf-8") as f:
+                f.write("window.YERLESIMLER_W32_BOS = [];\n")
+            BOS_SAYILAN.append(ad)
     return None
+
+
+BOS_SAYILAN = []
 
 
 def main():
     print("═" * 78)
-    print("ENKLAV 661/660 — «+1» HANGİ KAYIT?")
+    global TABAN_COMMIT, TAVAN
+    with io.open(os.path.join(KOK, "arac", "denetle.py"), encoding="utf-8") as f:
+        TAVAN = _sabit(f.read())
+    TABAN_COMMIT, deger = taban_commit_bul()
+    if TABAN_COMMIT is None or TAVAN is None or deger != TAVAN:
+        print("⚫ ÖLÇÜLEMEDİ — tavan %r · taban commit %r (%r)" % (TAVAN, TABAN_COMMIT, deger))
+        return 2
+    print("ENKLAV TAVAN %d — tavanın kondugu %s'den bugüne HANGİ KAYITLAR?"
+          % (TAVAN, TABAN_COMMIT))
     print("═" * 78)
     print("")
 
@@ -142,7 +193,7 @@ def main():
     print("   yerleşim %d · sorgusuz enklav %d" % (bugun["Y"], bugun["n"]))
     print("")
 
-    print("③ TABAN (%s · 5 Eylül 23:07 · BEKLENEN=660 buradan)" % TABAN_COMMIT)
+    print("③ TABAN (%s · BEKLENEN=%d bu commit'te kondu)" % (TABAN_COMMIT, TAVAN))
     hata = taban_kur()
     if hata:
         print("   ⚫ ÖLÇÜLEMEDİ — taban kurulamadı: %s" % hata)
@@ -154,6 +205,9 @@ def main():
         print("   ⚠️ Bu «temiz» değil: `+1` ADLANDIRILAMADI.")
         return 1
     print("   yerleşim %d · sorgusuz enklav %d" % (taban["Y"], taban["n"]))
+    if BOS_SAYILAN:
+        print("   tabanda henüz OLMAYAN girdi dosyası (boş sayıldı): %s"
+              % ", ".join(BOS_SAYILAN))
     print("")
 
     print("④ FARK")
@@ -180,9 +234,12 @@ def main():
     print("   KAPANAN    : %d" % len(kapanan))
     for r in kapanan:
         print("      🟢 %s" % str(r)[:400])
-    if not yeni and not kapanan and bugun["n"] != taban["n"]:
-        print("   🔴 HÂLÂ ÇELİŞİK — kayıt alanları farkı taşımıyor.")
-        print("      Bu bir ÖLÇÜM DEĞİL: `ölçülemedi` sayılır.")
+    # W32: iç tutarlılık SINAVDIR, yorum degil — çokluk kümesinde
+    # net = yeni − kapanan ARİTMETİK olarak zorunludur; tutmuyorsa ölçülemedi.
+    if bugun["n"] - taban["n"] != len(yeni) - len(kapanan):
+        print("   🔴 ÇELİŞİK — net %+d ama yeni %d − kapanan %d. `ölçülemedi`."
+              % (bugun["n"] - taban["n"], len(yeni), len(kapanan)))
+        return 2
     print("")
     print("─" * 78)
     print("⚠️ Net fark `+1` olsa bile YENİ ve KAPANAN ayrı sayılır:")

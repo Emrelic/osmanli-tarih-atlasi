@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """YUK-BOLME-0925 — `geo_dilimle.py --sina` KAPISININ kendi sinavi (C13: iki yonde).
-Dilimli bir KOPYA uzerinde (varsayilan C:/atlas-yuk-bolme) sirayla:
+Dilimli bir KOPYA uzerinde (varsayilan: depo kokunun KARDESI atlas-yuk-bolme) sirayla:
   T0 temiz cikti            -> kapi 0 dönmeli
   T1 _web DONEMLER'de 1 tarih degisti (catal)      -> 1 (S3)
   T2 bir dilimde 1 koordinat degisti, boy ayni     -> 1 (S2)
@@ -9,7 +9,7 @@ Her bozma sonrasi dosya geri yazilir; en sonda T0 yeniden kosar.
 Kullanim: py denetim/ARAC-YUK-KAPI-SINAV-0925.py [kok]"""
 import os, re, shutil, subprocess, sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-KOK = sys.argv[1] if len(sys.argv) > 1 else "C:/atlas-yuk-bolme"
+KOK = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "atlas-yuk-bolme")
 ARAC = os.path.join(KOK, "arac", "geo_dilimle.py")
 
 
