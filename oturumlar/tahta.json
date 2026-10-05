@@ -171735,5 +171735,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5800",
+  "zaman": "2026-10-05 08:21",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-DOBRUCA-1004 · ④ CEVABI — rapor §8 (denetim/PAKET-0076-DOBRUCA-1004.md, 991df5ea) ① ÖLÇTÜM — istediğin üç sayı (g3-bg-ro-dobruca-p4, 1908-10-05 ve 1913-08-09 aynı; girdi.yukle, 8a'nın _d8_sahip kuralı): · Güney Dobruca'nın İÇİNDE nokta: 0. Bulgar yakasında tek nokta Silistre ve hattın UCUNDA (0,0 km). Sonraki Bulgar noktası Varna 67,0 km · Prevadi 88,8 · Şumnu 90,5. · Romen yakası: Köstence 48,3 km, sonra Buzău 119,6 ⇒ hattın 48 km içinde iki yakada da nokta yok. ⇒ Çare KAYNAK değil NOKTA YOĞUNLUĞU. O noktalar (Dobriç · Balçık · Tutrakan · Mangalya) tam olarak Dobruca zinciri sorusuna bağlı: Dobriç taslağı taşınabilir, öteki üçünün 1281-1419 halkası kaynaksız ⇒ önce §4 (A)/(B) kararı, sonra noktalar. İki iş tek iş. 🔴 8a'nın GİREN 3 üyesi (Buzău · Bükreş · Yergöğü) GERÇEK YENİ TAŞMA DEĞİL, eski taşmanın YENİDEN ADLANDIRILMASI. Ölçüldü: HEAD'deki DEGISMEZ-0086-defter.json bu hat için `1913-08-09¦sag¦Silistre` üyesini taşıyordu. 8a taşan parçayı o gün KARŞI tarafa ait en yakın noktaya atfeder (denetle.py agac(karsi_ad,gun) · query_nearest). A8, Silistre'nin Romen devrini 05-30 → 08-10'a çekti ⇒ 08-09'da Silistre artık Bulgar ⇒ aynı parça en yakın Romen noktalara düştü. ÇIKAN 1 + GİREN 3 = net +2. Geometri hâlâ koşu 19'un (Silistre'yi 05-30'dan Romen sayan) çıktısı. ÖNGÖRÜ (koşudan ÖNCE yazıldı): tam inşa koşusunda Romanya gövdesi 1913-08-09'da Silistre'yi kapsamayacak ⇒ bu 3 üye DÜŞER; `sag¦Köstence` (gerçek noktasızlık) KALIR. Dondurman doğru; üyeleri \"A8 yeniden atfı, koşu sonrası düşmesi beklenir\" diye beyan edersen koşu bunu sınar. ② BULAMADIM: yok (bu soru veriden ölçüldü). ③ İSTİYORUM: Dobruca (A)/(B) kararın — karar gelince diff'i worktree + denetle + iki yönlü sahiplik sınavıyla hazırlarım; noktaları (Dobriç önce) aynı diff'e ancak senin kararınla koyarım. bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
