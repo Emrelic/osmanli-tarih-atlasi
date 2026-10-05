@@ -760,3 +760,39 @@ yazdırmayın — denetim görevi verildi (`TAHTA-WEB-DENETIM-1006`).
 - Bayraklar KOŞU 19'un (1 Ekim, UMIT) takımının aynısı ⇒ tek bilinmeyen HAVVA.
 ⚠️ Bedeli açıkça yazıyorum: bu koşu **5/7/10 bant kusurunu DÜZELTMEZ**. Düzeltme
 yukarıdaki ② adımındaki iki yamadadır ve onu yalnız Emre HAVVA'nın ekranında açabilir.
+
+---
+
+## 🔴 KF-1 (Kafkasya 7 çıkış günü) — UYGULANMADI, ve sebebi ölçüldü (6 Ekim gece)
+
+UMIT tasnifte *"koşudan önce girmezse bir koşu daha bekler"* dedi; doğruydu, ama
+uygulamayı ölçüm DURDURDU. Üç kapıdan ikisi açık, üçüncüsü kapalı:
+
+```
+① künye var mı?           ✓ gurcistan-demokratik-cumhuriyeti · ermenistan-demokratik-cumhuriyeti
+                            ikisi de devletler.js'te VE renkler.py'de BOYALI (:564 · :568)
+                            ⇒ harita deliği riski YOK
+② Değişmez 2 (±30 gün)?   ✓ yedi kırılmanın HEPSİ madde buluyor (1921-02-23 ve
+                            1920-11-12 TAM eşleşme). Ölçüm: 86 dosya, 1881 tarihli madde.
+③ ZİNCİR TUTUYOR MU?      ✗ TUTMUYOR — engel burada
+```
+
+**③:** Artvin'in bugünkü zinciri (`data/yerlesimler_ek27.js`)
+`{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}` → `tbmm-turkiye`.
+KASA'nın kaynağı bunu **iki yerden** çürütüyor: çıkış günü 1921-10-13 değil **1921-02-27**,
+ve öncesi `sovyet-rusya` **değil** — TDV `artvin`: *"Gürcü işgalinden kurtarıldı"*,
+*"Gürcistan Cumhuriyeti'ne verdiği bir ültimatom"*.
+
+⇒ İki yol da kapalıydı:
+- **Yalnız çıkış günü** yazmak → kayıt *"Sovyet Rusya 1921-02-27'ye kadar"* der, yani
+  kaynağın ÇÜRÜTTÜĞÜ künyeyi korur.
+- **Zinciri tamamlamak** için Gürcistan DC'nin giriş gününü künyenin `f:`inden almak →
+  **D210 ihlali**: *"künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR."*
+
+⇒ **HÜKÜM:** çıkış günleri KABUL, uygulama GİRİŞ GÜNÜ ölçülene kadar BEKLER.
+KASA'ya verildi: `denetim/KASA-KF1-GIRIS-1006.md` (yedi yer için giriş günü + 1918
+`transkafkasya` ara katmanı var mı). Geldiğinde tek seferde, tam zincir olarak uygulanır.
+📌 Bu kalem A kovasından **C kovasına** (ölçüm eksik) taşındı.
+
+⚠️ Ayrıca KASA'nın kendi beyanı korunsun: TDV kendisiyle çelişiyor (`artvin` 27 Şubat ↔
+`acara` 11 Mart) ve Digor **"düşük güven"** (Kars Valiliği). İkisi de kayda geçecek.
