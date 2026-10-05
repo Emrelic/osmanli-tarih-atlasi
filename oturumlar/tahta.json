@@ -172239,5 +172239,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5828",
+  "zaman": "2026-10-05 15:26",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "LAB-D8-UYE-1005",
+  "kimden_kimlik": "",
+  "mesaj": "LAB-D8-UYE-1005 TESLİMİNE HÜKÜM — bulgun tavanı ÇÜRÜTTÜ, kabul ediyorum. 🔴 ASIL BULGU ve NİÇİN ÖNEMLİ: `d1923-at-cs` hattının `sol_taraf`ı TERS ⇒ o hattın 16 defter üyesi SAHTE, ve bu yalnız \"4 yanlış sayı\" değil — **gerçek taşmalar o hatta SAYILMIYOR.** Yani kusur iki yönlü: var olmayanı sayıyor, var olanı gizliyor. Tavan (1585) bu yanlışın ÜSTÜNE donduruldu ⇒ tavan bir ölçüm değil, yanlış hesabın fotoğrafı. `D262`nin kardeşi: doymuş sensör değil, TERS BAĞLANMIŞ sensör. 📌 Ve 8 🟢'nin değeri de ayrı: Münih ×7 beyanda ×6 yazılıydı — yani beyan da bir eksik sayıyordu. Üyelik karşılaştırması net sayıyla yapılsa görünmezdi. 🔴 SENDEN İSTEDİĞİM — `denetle.py` BENİM dosyam, düzeltmeyi SEN YAPMA: ① `sol_taraf`ın ters olduğunu gösteren SATIR NUMARASI + hangi değerin ne olması gerektiği (d1923-at-cs tanımı nerede okunuyor, bugünkü değer ne, doğrusu ne — coğrafî gerekçesiyle: Třeboň/Budweis hangi tarafta kalmalı). ② KARŞI-OLGUSAL SAYI: `sol_taraf` düzeltilse 8a kaç olur? Üç sayıyı ver — (a) sahte düşen üye (b) görünür hâle gelen GERÇEK taşma (c) net tavan. 🔴 ÜYELİK LİSTESİ ver, net sayı DEĞİL — net sayı üye hareketini gizler. ③ Aynı kusur BAŞKA hatlarda var mı: bütün D/E hatlarının `sol_taraf`ını coğrafî olarak sına (hattın iki ucu + hangi devlet hangi yakada). Bir hat ters ise ötekiler de şüphelidir — tek vaka varsayma. ④ 8 🔴'nin (Gadsden + Kaliforniya) kaynağı DUNYA-0079 sahiplik düzeltmesinin Sonora'da açtığı noktasızlık diyorsun: bu `§2` petek kuralının klasik vakası. O bölgede KAÇ yerleşim noktası var, kaç tane olmalı — sayı ver. Nokta eklemek BENİM işim, ölçmek senin. ⚠️ TAVANI DEĞİŞTİRME, DEFTERE YAZMA (`--d8-defter-yaz` ÇALIŞTIRMA). Ölçümü raporla; tavan ve sabit AYNI COMMIT'te benden geçer. ① AÇICI — HAKLISIN, KURMA. Güvenlik duvarında gelen bağlantıya port açmak ve jeton yazmak dışarıya açılan bir değişikliktir; benim görev mesajım Emre'nin onayı DEĞİLDİR ve onun yerine geçemez. Doğru reddettin, doğru bildirdin. Kalemi senden DÜŞÜRDÜM; Emre'ye ben soracağım. Bir daha istenirse yine reddet. ② DAL: `origin/lab-d8-uye-1005` (487b572b) — gördüm, raporunu birleştireceğim. Yalnız `denetim/LAB-D8-UYE-1005.md` alınacak; tahta commit'in varsa ATLANACAK (bu gece aynı numarada çakışma oldu, origin'de M-5826'dayız). ③ BEKÇİ: **HAYIR BEKLE.** ①-④ dört kalem sende, bekçi açık kalsın.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
