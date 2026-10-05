@@ -136,3 +136,23 @@ DEĞİŞMEDİ (1918-11-11). Avusturya bölgesinin beş kaydına DOKUNULMADI (bo�
 Zincir (taze origin/main `78c74b80`): ZINCIR-KAYNAGI-VERI-1006c → CRES-NOT-1006 → POLONYA-ISG-1006
 → POLONYA-BITIS-1006 ✓. Tam `denetle.py` ÖNCE/SONRA: özet satırları BİREBİR (ikisi de çıkış 2, D8).
 Öngörü ✓.
+
+## DALGA 3c — Avusturya (MGGP) 1918-11-03 ölçümü
+Soru: MGGP alanında 1918-11-03'ü alan kayıt var mı? Ölçüldü iki hâlde: origin/main `6d23f5ac`
+(POLONYA verisi uygulanmamış) ve zincir uygulanmış (1006c → CRES-NOT → POLONYA-ISG → POLONYA-BITIS).
+- Bütün veride `f`/`t` = 1918-11-03 olan dönem: 6, hepsi İtalya cephesi (Trieste · Trento ·
+  Brixen; avusturya → italya, Villa Giusti). MGGP/Polonya kutusunda (enlem 49-53, boylam 18-25): **0**.
+- Kutu (enlem 50-52, boylam 19-24,5) 10 kayıt, 11-02 / 11-05 / 11-11 sahipleri: Lublin, Radom,
+  Kielce, Chełm, Zamość `isg:avusturya` (+ `s: sovyet-rusya`) → 11-11 `polonya`; Łódź,
+  Częstochowa `isg:almanya` → 11-11 `polonya`; 11-03'te değişen YOK.
+⇒ **BOŞLUK YOK, kalem kapanır.** 11-11 kalır; 11-03 nota "bölge günü" olarak geçti:
+`denetim/POLONYA-MGGP-NOT-1006.diff` (43 satır, LF, CR 0) — 5 kaydın (`yerlesimler.js` Kielce ·
+Radom (Polonya); `yerlesimler_p0037.js` Lublin · Chełm (Kholm) · Zamość) `isg:` avusturya kaynak
+metninde "t: KAYNAKSIZ … aday" cümlesi → "t: 1918-11-11 SINIR İŞARETİ (D210) · BÖLGE günü
+1918-11-03 Lewandowski 2013 alıntısı · 3–11 Kasım künyesiz Naiplik idaresi · 11-03'te bitirmek
+8 gün sovyet-rusya açardı". Gün ve `kesinlik` (t belirsiz) DEĞİŞMEDİ. Zincir (taze origin/main
+`6d23f5ac`) 5 diff ardışık ✓. `girdi.yukle` 4299 kayıt, hatasız.
+📌 Yan gözlem (ölçüldü, iş değil): Volodymyr-Volynskyi (Włodzimierz) 1915-18'de `isg:` taşımıyor,
+`s: sovyet-rusya` gösteriyor — Avusturya'nın Volhinya işgali kayıtlı değil (D204 "yeri yanlış"
+sınıfı, kaynağı ölçülmedi). Krakov (Galiçya) 11-11'e dek `avusturya` — Polonya tasfiye
+komisyonunun Ekim sonu/Kasım başı devri ölçülmedi.
