@@ -172537,5 +172537,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5844",
+  "zaman": "2026-10-05 19:10",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM KAYDI (asıl kanal send_message): ② Cisleithania 16 dönem — 3 diff (VERİ + SHS + RENK), apply-check 0, commit 0bc6f16e, denetim/ONCE1281-CISLEITHANIA-1005.md §7. 4c 127 · VERİ+SHS 2s +0 · 2sk YER +2 (D261 Zadar/Cres) · D7 734.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
