@@ -53,3 +53,32 @@ Hiçbir kişi kaynak sayacı bugün bir kapıya ya da tavana bağlı DEĞİL. Ba
 - `C:\atlas-w16`: temiz (0 satır).
 - `C:\atlas-umit`: `?? denetim/KISI-SAYIM-AYRI-1006.diff` · `?? denetim/UMIT-W16-KISI-SAYIM-AYRI-1006.md`.
 - Yama main'e ileri ✓ / -R ✗.
+
+---
+## EK 1006b — MUTASYON KAPAT (koordinatör, 6 Ekim 2026)
+Yama: `denetim/KISI-SAYIM-AYRI-1006b.diff` (sha256 `51d84bd37d1d0c82…`, 35 satır, CR 0) — yalnız `sina()` fikstürleri ve sayım beklentisi.
+**Sıra zorunlu:** `KISI-SAYIM-AYRI-1006.diff` → `1006b` (1006 üstüne ileri ✓ · -R ✗ · 1006'sız ✗). 1006 main'de (15cb3138) yalnız DOSYA olarak duruyor, alete uygulanmamış.
+
+**Düzeltme kaydı:** 1006 teslimindeki "mutasyon sınavında test KALIYOR" cümlesi "sınav KALDI = öttü, mutant öldü" demekti; sağ kalan
+mutasyon yoktu. Ama ① TDV önekinin "başlar↔içerir" mutasyonu orada HİÇ denenmemişti (denenen beyan önekiydi) — o soru gerçekten açıktı.
+
+**Eklenen fikstürler** (`TDV`yi İÇERİR, onunla BAŞLAMAZ): `j`, `k` = `napolyon-bonapart` ve `francesco-morosini`'nin veride BİREBİR duran
+kaynak metni ("Encyclopaedia Britannica … — TDV'de müstakil madde YOK …") · `l` = "Britannica · TDV: napolyon karşılaştırıldı, madde yok"
+(iki nokta üst üsteli "TDV:" ortada). Üyelik ADIYLA sınanır; sayım beklentisi (2, 5, 2, 3) her kovanın en az bir üye taşımasını şart koşar.
+
+**Mutasyonlar GERÇEKTEN uygulandı** (`kova()` metni değiştirilip ayrı kopyada koşuldu; asıl dosya dokunulmadı):
+| mutasyon | `--sina` | napolyon / morosini (gerçek veri) |
+|---|---|---|
+| M0 mutasyonsuz (geri alınmış hâl) | **GEÇTİ** (çıkış 0, 12/12) | başka / başka |
+| M1a TDV `startswith("TDV:")` → `"TDV" in s` | **ÖTTÜ** (çıkış 1) — i, j, k, l TDV'ye kaçtı | **TDV / TDV** |
+| M1b → `"TDV:" in s` | **ÖTTÜ** — yalnız `l` yakaladı | başka / başka ⚠️ |
+| M2 beyan `startswith` → `in` | **ÖTTÜ** — b, i beyana kaçtı | başka / başka |
+| M3a başka kovası silindi → dolu ise TDV | **ÖTTÜ** — h…l TDV'ye, başka kovası 0 | **TDV / TDV** |
+| M3b başka kovası silindi → kaynaksız | **ÖTTÜ** — h…l kaynaksıza | **kaynaksız / kaynaksız** |
+
+**Ölçülen cevap (②):** "başka" kovası silinince iki kaydın nereye düştüğü silme biçimine bağlı. 1006 öncesi aletin davranışı (dolu=kaynaklı)
+M3a'dır ⇒ **TDV'ye** düşerlerdi — eski "TDV kaynaklı: 259" yanılgısının ta kendisi. M3b biçiminde kaynaksıza düşerler. İki biçimde de sınav öter.
+⚠️ **M1b'yi gerçek veri YAKALAMAZDI:** iki gerçek kaydın metni "TDV'de" der, "TDV:" demez; mutant canlı veride doğru sayı basar. Yalnız `l`
+fikstürü öldürüyor — fikstürün gerçek kayıtlardan geniş tutulması bu yüzden şart.
+Sayaç çıktısı değişmedi (ham main: TDV 20 · başka 2 · beyan 0 · kaynaksız 266; zincir: 257 · 2 · 29 · 0).
+Git: `C:\atlas-w16` temiz · `C:\atlas-umit`: `?? denetim/KISI-SAYIM-AYRI-1006b.diff` · `M denetim/UMIT-W16-KISI-SAYIM-AYRI-1006.md` (bu ek).
