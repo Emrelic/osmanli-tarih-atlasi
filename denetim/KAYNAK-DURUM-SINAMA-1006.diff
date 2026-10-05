@@ -1,0 +1,515 @@
+diff --git a/arac/denetle_yayin.py b/arac/denetle_yayin.py
+index c3ed5b31..936c1225 100644
+--- a/arac/denetle_yayin.py
++++ b/arac/denetle_yayin.py
+@@ -261,6 +261,83 @@ URETILENLER = {
+ KOSU_URETICILERI = {"uret_petek.py", "uret_devirler.py"}
+ 
+ 
++# ============================================================================
++# 🧪 SINAMA KAPISI — sınama ilanıyla koşmuş motorun çıktısı YAYINA GİDEMEZ
++# ============================================================================
++# Koordinatör hükmü (6 Ekim 2026): `kaynak_durum.py kapi` (SINAMA) bekçi
++# yasağı koymadan koşu ilanı verir; bedeli, o koşunun çıktısının yayına
++# GİDEMEMESİDİR. Motor ilanın kodunu damgaya geçirir:
++#     window.URETIM_IZI = {"girdi":…, "kapi":{"kod":"SINAMA", "durum":…}, "motor":…}
++# (B kuyruğu, `uret_petek.py` tuzda — UMIT-W10-KAPI-HUKUM-1006). Bu kapı onu okur.
++# ⚠️ BUGÜN `kapi` ALANI HİÇBİR ÇIKTIDA YOK: B kuyruğu yaması inmedi. Alan yoksa
++#    çıktı "kapı öncesi" sayılır: SINAMA mı KOSU mu ÖLÇÜLEMEZ, basılır, BLOKE
++#    ETMEZ. Bloke etseydi bugünkü her yayın dururdu. Yama inince bu açık kapanmalı:
++#    `KAPI_ALANI_ZORUNLU = True` ⇒ alanı olmayan çıktı da DURUR (tek satır).
++KAPI_ALANI_ZORUNLU = False
++SINAMA_KODU = "SINAMA"
++
++
++def kapi_damgasi():
++    """{"sinama": [...], "kapisiz": [...], "kosu": [...], "okunamadi": [...]} —
++    `data/*.js` içindeki HER `URETIM_IZI`den motor ürünü olanların `kapi.kod`u.
++
++    🔴 EVREN `URETILENLER` DEĞİL, YAYIN YÜZEYİ (ölçüldü, 6 Ekim 2026): motorun
++    kaynak çıktıları (`donemler.js` · `devletler_harita.js` · `petek_govde.js`)
++    `.gitignore`dadır; yayına `kodla.py`nin `*_ust.js` + `*_parca.js` eserleri
++    gider ve damga satırı `*_ust.js`e AYNEN taşınır. Kaynağa bakan kapı yayın
++    makinesinde KÖR kalırdı. Motor ürünü = iz'in `motor` sözlüğünde
++    `uret_petek.py` var (altlik/devirler/bekleyenler kendi üreticisini taşır).
++    Bir dosyada birden çok iz olabilir (paketler kaynakları uç uca ekler) ⇒
++    hepsi okunur. Bedel ölçüldü: 569 dosya · 149 MB · ~14 sn."""
++    import glob
++    out = {"sinama": [], "kapisiz": [], "kosu": [], "okunamadi": []}
++    for tam in sorted(glob.glob(os.path.join(KOK, "data", "*.js"))):
++        yol = os.path.relpath(tam, KOK).replace(os.sep, "/")
++        try:
++            metin = open(tam, encoding="utf-8").read()
++        except (OSError, UnicodeDecodeError):
++            out["okunamadi"].append(yol)
++            continue
++        if "window.URETIM_IZI" not in metin:
++            continue
++        for m in re.finditer(r'window\.URETIM_IZI\s*=\s*(\{.*?\})\s*;', metin, re.S):
++            try:
++                iz = json.loads(m.group(1))
++            except ValueError:
++                out["okunamadi"].append(yol)
++                continue
++            if "uret_petek.py" not in (iz.get("motor") or {}):
++                continue                              # motor ürünü değil
++            kapi = iz.get("kapi")
++            if not isinstance(kapi, dict):
++                out["kapisiz"].append(yol)
++            elif kapi.get("kod") == SINAMA_KODU:
++                out["sinama"].append("%s (ilan %s)" % (yol, kapi.get("ilan", "?")))
++            else:
++                out["kosu"].append(yol)
++    return out
++
++
++def kapi_hukmu(k=None):
++    """(ihlal, satırlar) — main() bunu basar ve kararına bağlar."""
++    k = k if k is not None else kapi_damgasi()
++    s = []
++    if k["sinama"]:
++        s.append("✗  SINAMA DAMGALI ÇIKTI — yayına GİDEMEZ: %d" % len(k["sinama"]))
++        s += ["     %s   ← `kaynak_durum.py kapi` ile ilan edilmiş koşunun ürünü" % y for y in k["sinama"]]
++    else:
++        s.append("✓  SINAMA damgalı çıktı yok")
++    if k["okunamadi"]:
++        s.append("✗  kapı damgası AYRIŞTIRILAMADI: %s" % ", ".join(k["okunamadi"]))
++    if k["kapisiz"]:
++        s.append("%s  kapı alanı YOK (B kuyruğu motor yaması öncesi çıktı — SINAMA mı ÖLÇÜLEMEDİ): %s"
++                 % ("✗" if KAPI_ALANI_ZORUNLU else "⚪", ", ".join(k["kapisiz"])))
++    if k["kosu"]:
++        s.append("✓  KOSU damgalı çıktı: %d" % len(k["kosu"]))
++    ihlal = bool(k["sinama"] or k["okunamadi"] or (KAPI_ALANI_ZORUNLU and k["kapisiz"]))
++    return ihlal, s
++
++
+ def iz_kapsami():
+     """(izsiz, bayatlar, taze, diskte_yok, kosu_bayat, olculemedi) — üretilen
+     her çıktının izi var mı, varsa kayıtlı girdi özetleri BUGÜNKÜ dosyalarla
+@@ -1605,9 +1682,15 @@ def main():
+     # İKİ AYRI SERTLİK, kasıtlı:
+     #   ① kırık atıf  → YENİSİNE 0 tolerans. `bilinen_kusur` LİSTESİ beyanlıdır
+     #      (sayı değil liste: borç kapanırken yenisi yerine geçemez).
+-    #   ② sayı tavanı → ODAKSIZ / BEYANLI→yabancı bugünkü ölçümde DONDURULDU.
+-    #      Yalnız GERİLEME bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan
+-    #      bir ONAY değil bir DONDURMADIR.
++    #   ② sayı tavanı → her kova bugünkü ölçümde DONDURULDU. Yalnız GERİLEME
++    #      bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan bir ONAY değil
++    #      bir DONDURMADIR.
++    #      🔴 KOVALAR BURADA SAYILMAZ: tek otorite `odak_olc.py`dir
++    #      (`kapi_olcumu()` hangi kovayı ölçüyorsa o) ve değerleri
++    #      `denetim/ODAK-TAVAN.json`un anahtarlarıdır. Çıktı her kovayı kendi
++    #      satırında BASAR — kova listesi yayın çıktısından okunur, bu yorumdan
++    #      değil. (Burada elle tutulan "ODAKSIZ / BEYANLI→yabancı" listesi sekme
++    #      kovaları gelince bayatladı — 6 Ekim 2026, gecenin altıncı bayat belgesi.)
+     #
+     # ⚠️ `odak_olc` MODÜL DÜZEYİNDE stdout'a DOKUNMAZ — yukarıdaki
+     #    `durum_tablosu` dersi (satır ~1350) bu modülü yazarken bilinçle
+@@ -1684,7 +1767,19 @@ def main():
+         _paket_ihlali = True
+         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
+-    if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
++    # -----------------------------------------------------------------
++    # 🧪 SINAMA KAPISI — `kaynak_durum.py kapi` ile koşmuş motorun ürünü yayına gitmez
++    # -----------------------------------------------------------------
++    try:
++        _kapi_ihlali, _kapi_satir = kapi_hukmu()
++        print()
++        for _s in _kapi_satir:
++            print(_s)
++    except Exception as _e:                                 # noqa: BLE001
++        _kapi_ihlali = True
++        print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
++
++    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
+             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
+             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
+diff --git a/arac/kaynak_durum.py b/arac/kaynak_durum.py
+index 207f010f..ed61b322 100644
+--- a/arac/kaynak_durum.py
++++ b/arac/kaynak_durum.py
+@@ -25,6 +25,14 @@ Kullanım:
+     py arac/kaynak_durum.py kapat --kod RAM-DARBOGAZI --olcum "..." --gerekce "..."
+                                   [--muaf "AD1,AD2"]
+     py arac/kaynak_durum.py ac    --gerekce "..."
++    py arac/kaynak_durum.py kapi  --kapi-kok <ağaç> [--kim AD] [--gerekce "..."]
++                                  [--kapi-atla "<gerekçe>"]
++        🧪 SINAMA ilanı (koordinatör hükmü, 6 Ekim 2026): elle sınama koşusu
++        için. `kapat --kod KOSU` ile AYNI kapıyı koşturur, AYNI koşu kapı
++        damgasını ve deftere satırı "kod":"SINAMA" ile yazar; bekçi yasağı
++        KOYMAZ, KAYNAK-DURUM.json'a DOKUNMAZ. Çıktısı YAYINA GİDEMEZ:
++        `denetle_yayin.py` URETIM_IZI.kapi.kod == "SINAMA" çıktıyı reddeder.
++        Çıkış kodları `kapat --kod KOSU` ile aynı (2 · 4 · 5 · 6).
+ 
+ `arac/tahta_bekci.py` açılışta bu dosyayı okur; yasak açıksa KURULMAZ,
+ sebebini stderr'e basar ve **çıkış 3** verir. Çıkış 3 "kurulamadı, TEKRAR
+@@ -75,6 +83,9 @@ KODLAR = {
+ 
+ # Koşu ilanının kapısı — yalnız `KOSU` kodu için (bkz. modül notu).
+ KAPI_KODLARI = {"KOSU"}
++# `kapi` emrinin damgaya yazdığı kod. KODLAR'da YOKTUR: `kapat --kod SINAMA`
++# bekçi yasağı koyardı — sınama koşusu makineyi kilitlememeli.
++SINAMA_KODU = "SINAMA"
+ KAPI_BETIK = os.path.join(KOK, "denetim", "ARAC-MOTOR-ENV-KAPI-1006.py")
+ KAPI_SURE_SN = 300
+ 
+@@ -220,8 +231,56 @@ def _yaz(d):
+         f.write("\n")
+ 
+ 
++def _kapidan_gecir(argv, al, kayit, etiket, yazilmayan):
++    """Ortam kapısını koşturur, `kayit["kapi"]`yı doldurur, koşu kapı damgasını
++    yazar. None = geçti (çağıran devam eder) · int = çıkış kodu (ilan YOK).
++    `kapat --kod KOSU` ile `kapi` (SINAMA) AYNI yoldan geçer — iki kopya kural
++    bir gün ayrışırdı."""
++    kapi_kok = al("--kapi-kok", KOK)
++    atla = "--kapi-atla" in argv
++    _i = argv.index("--kapi-atla") + 1 if atla else len(argv)
++    atla_gerekce = (argv[_i] if _i < len(argv) else "").strip()   # al() son argümanda düşer
++    if atla and (not atla_gerekce or atla_gerekce.startswith("--")):
++        print("🔴 --kapi-atla GEREKÇESİZ — reddedildi. Ne arızalandı, kim bakacak?")
++        return 2
++    sonuc, cikti = kosu_kapisi(kapi_kok)
++    if sonuc == "OTTU":
++        print("🔴 %s REDDEDİLDİ — MOTOR ORTAM KAPISI ÖTTÜ (%s)" % (etiket, kapi_kok))
++        print("   Sınıfsız bir MOTOR_* tuzdan SESSİZCE düşer ⇒ bayat önbellek doğru sanılır.")
++        print("   Çare: adı `uret_petek.py`deki _ONB_SONUC / _ONB_ISLETIM / _ONB_CIKTI_DISI")
++        print("   kümelerinden BİRİNE yaz (motor tuzu ⇒ koşudan ÖNCE). `--kapi-atla` burada İŞLEMEZ.")
++        print("   %s YAZILMADI.\n" % yazilmayan)
++        print(cikti.rstrip())
++        return 4
++    if sonuc == "KOSAMADI" and not atla:
++        print("🔴 %s REDDEDİLDİ — MOTOR ORTAM KAPISI KOŞAMADI (%s)" % (etiket, kapi_kok))
++        print("   " + cikti.rstrip().replace("\n", "\n   "))
++        print("   Kapı ölçemediyse hüküm YOK; 'ölçülemedi' temiz sayılmaz.")
++        print("   Koşu bekleyemiyorsa: --kapi-atla \"<gerekçe>\" (ilana yazılır).")
++        print("   %s YAZILMADI." % yazilmayan)
++        return 5
++    kayit["kapi"] = {"durum": "GECTI" if sonuc == "GECTI" else "ATLANDI",
++                     "kok": kapi_kok,
++                     "ozet": [s for s in cikti.splitlines()
++                              if s.startswith(("MOD:", "✓", "🔴", "kapı"))][:3]}
++    if sonuc != "GECTI":
++        kayit["kapi"]["atlama_gerekce"] = atla_gerekce
++        print("⚠️ KAPI KOŞAMADI ve ATLANDI — gerekçe ilana yazıldı: %s" % atla_gerekce)
++    else:
++        print("✓ MOTOR ORTAM KAPISI GEÇTİ (%s)" % kapi_kok)
++    tamam, aciklama = kosu_damgasi_yaz(kayit)
++    if not tamam:
++        print("🔴 %s REDDEDİLDİ — KOŞU KAPI DAMGASI YAZILAMADI" % etiket)
++        print("   %s" % aciklama)
++        print("   Kapının geçildiği/atlandığı iz bırakılmadan koşu başlamaz.")
++        print("   %s YAZILMADI." % yazilmayan)
++        return 6
++    print("   koşu kapı damgası: %s · defter: %s" % (aciklama, DEFTER))
++    return None
++
++
+ def main(argv):
+-    if not argv or argv[0] not in ("durum", "kapat", "ac"):
++    if not argv or argv[0] not in ("durum", "kapat", "ac", "kapi"):
+         print(__doc__)
+         return 2
+     emir = argv[0]
+@@ -243,6 +302,24 @@ def main(argv):
+                 print("   %-9s %s" % (k, d[k]))
+         return 0
+ 
++    if emir == "kapi":
++        # 🧪 SINAMA İLANI — bekçi yasağı KOYMAZ, KAYNAK-DURUM.json'a DOKUNMAZ.
++        #    Aynı kapı, aynı koşu kapı damgası, aynı defter; tek fark "kod":"SINAMA".
++        #    Bu koşunun ÇIKTISI yayına gidemez: motor damgaya kod'u geçirir
++        #    (URETIM_IZI.kapi.kod — B kuyruğu), denetle_yayin.py SINAMA'yı REDDEDER.
++        if "--kod" in argv:
++            print("🔴 `kapi` emri --kod ALMAZ: kod her zaman SINAMA'dır.")
++            print("   Gerçek koşu ilanı: kapat --kod KOSU (bekçi yasağıyla).")
++            return 2
++        kayit = {"kod": SINAMA_KODU, "ilan": time.strftime("%Y-%m-%d %H:%M"),
++                 "ilan_eden": al("--kim", "?"), "gerekce": al("--gerekce", "")}
++        rc = _kapidan_gecir(argv, al, kayit, "SINAMA İLANI", "KOSU-KAPI.json")
++        if rc is not None:
++            return rc
++        print("🧪 SINAMA İLANI YAZILDI — bekçi yasağı YOK, KAYNAK-DURUM.json DEĞİŞMEDİ.")
++        print("   🔴 Bu koşunun çıktısı YAYINA GİDEMEZ (denetle_yayin.py SINAMA damgasını reddeder).")
++        return 0
++
+     if emir == "kapat":
+         kod = al("--kod", "RAM-DARBOGAZI")
+         if kod not in KODLAR:
+@@ -260,46 +337,9 @@ def main(argv):
+             "muaf": muaf,
+         }
+         if kod in KAPI_KODLARI:
+-            kapi_kok = al("--kapi-kok", KOK)
+-            atla = "--kapi-atla" in argv
+-            _i = argv.index("--kapi-atla") + 1 if atla else len(argv)
+-            atla_gerekce = (argv[_i] if _i < len(argv) else "").strip()   # al() son argümanda düşer
+-            if atla and (not atla_gerekce or atla_gerekce.startswith("--")):
+-                print("🔴 --kapi-atla GEREKÇESİZ — reddedildi. Ne arızalandı, kim bakacak?")
+-                return 2
+-            sonuc, cikti = kosu_kapisi(kapi_kok)
+-            if sonuc == "OTTU":
+-                print("🔴 KOŞU İLANI REDDEDİLDİ — MOTOR ORTAM KAPISI ÖTTÜ (%s)" % kapi_kok)
+-                print("   Sınıfsız bir MOTOR_* tuzdan SESSİZCE düşer ⇒ bayat önbellek doğru sanılır.")
+-                print("   Çare: adı `uret_petek.py`deki _ONB_SONUC / _ONB_ISLETIM / _ONB_CIKTI_DISI")
+-                print("   kümelerinden BİRİNE yaz (motor tuzu ⇒ koşudan ÖNCE). `--kapi-atla` burada İŞLEMEZ.")
+-                print("   KAYNAK-DURUM.json YAZILMADI.\n")
+-                print(cikti.rstrip())
+-                return 4
+-            if sonuc == "KOSAMADI" and not atla:
+-                print("🔴 KOŞU İLANI REDDEDİLDİ — MOTOR ORTAM KAPISI KOŞAMADI (%s)" % kapi_kok)
+-                print("   " + cikti.rstrip().replace("\n", "\n   "))
+-                print("   Kapı ölçemediyse hüküm YOK; 'ölçülemedi' temiz sayılmaz.")
+-                print("   Koşu bekleyemiyorsa: --kapi-atla \"<gerekçe>\" (ilana yazılır).")
+-                print("   KAYNAK-DURUM.json YAZILMADI.")
+-                return 5
+-            kayit["kapi"] = {"durum": "GECTI" if sonuc == "GECTI" else "ATLANDI",
+-                             "kok": kapi_kok,
+-                             "ozet": [s for s in cikti.splitlines()
+-                                      if s.startswith(("MOD:", "✓", "🔴", "kapı"))][:3]}
+-            if sonuc != "GECTI":
+-                kayit["kapi"]["atlama_gerekce"] = atla_gerekce
+-                print("⚠️ KAPI KOŞAMADI ve ATLANDI — gerekçe ilana yazıldı: %s" % atla_gerekce)
+-            else:
+-                print("✓ MOTOR ORTAM KAPISI GEÇTİ (%s)" % kapi_kok)
+-            tamam, aciklama = kosu_damgasi_yaz(kayit)
+-            if not tamam:
+-                print("🔴 KOŞU İLANI REDDEDİLDİ — KOŞU KAPI DAMGASI YAZILAMADI")
+-                print("   %s" % aciklama)
+-                print("   Kapının geçildiği/atlandığı iz bırakılmadan koşu başlamaz.")
+-                print("   KAYNAK-DURUM.json YAZILMADI.")
+-                return 6
+-            print("   koşu kapı damgası: %s · defter: %s" % (aciklama, DEFTER))
++            rc = _kapidan_gecir(argv, al, kayit, "KOŞU İLANI", "KAYNAK-DURUM.json")
++            if rc is not None:
++                return rc
+         _yaz(kayit)
+         print("🔴 BEKÇİ YASAĞI İLAN EDİLDİ · kod %s" % kod)
+         print("   dosya: %s" % DOSYA)
+diff --git a/denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py b/denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py
+new file mode 100644
+index 00000000..00239c86
+--- /dev/null
++++ b/denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py
+@@ -0,0 +1,180 @@
++# -*- coding: utf-8 -*-
++"""`kaynak_durum.py kapi` (SINAMA ilanı) + `denetle_yayin.py` SINAMA kapısı — İKİ YÖNLÜ sınav
++(UMIT-W10-SINAMA-1006, koordinatör hükmü 6 Ekim 2026).
++
++🔴 GERÇEK `oturumlar/KAYNAK-DURUM.json` · `KOSU-KAPI-DEFTERI.jsonl` · `KOSU-KAPI.json` YAZILMAZ:
++   modüller ayrı adla ithal edilir, üç yol geçici dizine çevrilir, her vakada assert edilir,
++   sonda üçünün parmak izi öncesiyle karşılaştırılır. Yayın kapısı da GEÇİCİ bir KÖK'te sınanır.
++
++İLAN
++  S1 `kapi` (temiz motor)  → 0 · KAYNAK-DURUM.json YAZILMADI · KOSU-KAPI.json kod=SINAMA · defter +1 (SINAMA)
++  S2 S1'den sonra bekci_yasak_mi → YASAK YOK
++  S3 TERS: `kapat --kod KOSU` → KAYNAK-DURUM.json YAZILDI · bekçi YASAK · defter +1 (KOSU)
++  S4 `kapi` (kirli motor, sınıfsız MOTOR_*) → 4 · defter +0 (öten kapı SINAMA'da da öter)
++  S5 `kapi --kod X` → 2 (kod seçilemez)
++  S6 defter: SINAMA satırı 1 · KOSU satırı 1 — "kaç sınama koşusu" sayılabilir
++YAYIN
++  Y1 S1'in GERÇEK damgasından (kod=SINAMA) kurulan `donemler_ust.js` → kapı İHLAL
++  Y2 aynı, kod=KOSU (S3'ün damgası)                                  → TEMİZ
++  Y3 kapı alanı yok → TEMİZ (bugünkü hâl, ⚪) · KAPI_ALANI_ZORUNLU=True ile → İHLAL
++  Y4 paket: önce motor DIŞI iz, sonra motor SINAMA izi (iki iz bir dosyada) → İHLAL
++  Y5 motor DIŞI ürün (uret_altlik) kapi.kod=SINAMA taşısa bile → yok sayılır (TEMİZ)
++  Y6 main() kararına bağlı mı: son `if` koşulunda `_kapi_ihlali` var (AST)
++  Y7 GERÇEK ağaç (--kok) → SINAMA 0 · ihlal YOK (bugün 4 motor ürünü kapısız, ⚪)
++Kullanım: py denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py [--kok C:\\atlas]
++"""
++import argparse, ast, contextlib, hashlib, importlib.util, io, json, os, sys, tempfile
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++ap = argparse.ArgumentParser()
++ap.add_argument("--kok", default=r"C:\atlas")
++KOK = ap.parse_args().kok
++
++
++def yukle(ad, yol):
++    sp = importlib.util.spec_from_file_location(ad, yol)
++    m = importlib.util.module_from_spec(sp)
++    sp.loader.exec_module(m)
++    return m
++
++
++kd = yukle("kaynak_durum_sinama", os.path.join(KOK, "arac", "kaynak_durum.py"))
++dy = yukle("denetle_yayin_sinama", os.path.join(KOK, "arac", "denetle_yayin.py"))
++GERCEK = {"DOSYA": kd.DOSYA, "DEFTER": kd.DEFTER, "DAMGA": kd.kosu_damga_yolu(KOK)}
++gercek_damga_yolu = kd.kosu_damga_yolu
++
++
++def parmak(yol):
++    return hashlib.sha256(open(yol, "rb").read()).hexdigest() if os.path.exists(yol) else "YOK"
++
++
++ONCE = {k: parmak(v) for k, v in GERCEK.items()}
++KUMELER = '_ONB_SONUC = {"MOTOR_A"}\n_ONB_ISLETIM = {"MOTOR_B"}\n_ONB_CIKTI_DISI = set()\n'
++TEMIZ = 'import os\n' + KUMELER + 'A = os.environ.get("MOTOR_A")\nB = os.environ.get("MOTOR_B")\n'
++KIRLI = TEMIZ + 'Y = os.getenv("MOTOR_YENI")\n'
++dusen = 0
++
++
++def kontrol(ad, kosul, ayrinti):
++    global dusen
++    print(("✓ " if kosul else "✗ ") + f"{ad}: {ayrinti}")
++    dusen += not kosul
++
++
++def ust_js(td, ad, izler):
++    os.makedirs(os.path.join(td, "data"), exist_ok=True)
++    with open(os.path.join(td, "data", ad), "w", encoding="utf-8") as f:
++        for iz in izler:
++            f.write("window.X = 1;\nwindow.URETIM_IZI = " + json.dumps(iz, sort_keys=True,
++                    separators=(",", ":")) + ";\n")
++
++
++with tempfile.TemporaryDirectory(prefix="sinama_sinav_") as td:
++    motor = os.path.join(td, "motor")
++    os.makedirs(os.path.join(motor, "arac"))
++    kd.DOSYA = os.path.join(td, "KAYNAK-DURUM.json")
++    kd.DEFTER = os.path.join(td, "DEFTER.jsonl")
++    kd.kosu_damga_yolu = lambda k: (os.path.join(td, "GERCEK-KOK-KOSU-KAPI.json")
++                                    if os.path.abspath(k) == os.path.abspath(KOK) else gercek_damga_yolu(k))
++    for k, v in (("DOSYA", kd.DOSYA), ("DEFTER", kd.DEFTER), ("DAMGA", kd.kosu_damga_yolu(KOK))):
++        assert os.path.abspath(v) != os.path.abspath(GERCEK[k]), "GERÇEK %s'E YAZACAKTI" % k
++
++    def kos(argv, motor_kaynak=TEMIZ):
++        open(os.path.join(motor, "arac", "uret_petek.py"), "w", encoding="utf-8").write(motor_kaynak)
++        tampon = io.StringIO()
++        with contextlib.redirect_stdout(tampon):
++            rc = kd.main(argv)
++        return rc, tampon.getvalue()
++
++    def defter():
++        if not os.path.exists(kd.DEFTER):
++            return []
++        return [json.loads(s) for s in open(kd.DEFTER, encoding="utf-8").read().splitlines() if s.strip()]
++
++    damga_yol = gercek_damga_yolu(motor)
++    # S1
++    rc, out = kos(["kapi", "--kapi-kok", motor, "--kim", "SINAV", "--gerekce", "motor yaması sınaması"])
++    d1 = json.load(open(damga_yol, encoding="utf-8")) if os.path.exists(damga_yol) else {}
++    df = defter()
++    kontrol("S1", rc == 0 and not os.path.exists(kd.DOSYA) and d1.get("kod") == "SINAMA"
++            and len(df) == 1 and df[-1].get("kod") == "SINAMA",
++            f"kapi → çıkış {rc} · KAYNAK-DURUM.json {'YAZILDI ✗' if os.path.exists(kd.DOSYA) else 'yazılmadı'} · "
++            f"damga kod={d1.get('kod')} kapi={d1.get('kapi')} · defter {len(df)} satır")
++    # S2
++    yasak, _ = kd.bekci_yasak_mi("HERHANGI BIR OTURUM")
++    kontrol("S2", yasak is False, f"SINAMA sonrası bekci_yasak_mi → {'YASAK ✗' if yasak else 'yasak YOK'}")
++    # S3 — ters yön
++    rc, out = kos(["kapat", "--kod", "KOSU", "--kapi-kok", motor, "--kim", "SINAV"])
++    yasak, _ = kd.bekci_yasak_mi("HERHANGI BIR OTURUM")
++    d3 = json.load(open(damga_yol, encoding="utf-8"))
++    df = defter()
++    kontrol("S3", rc == 0 and os.path.exists(kd.DOSYA) and yasak is True and d3.get("kod") == "KOSU"
++            and df[-1].get("kod") == "KOSU",
++            f"TERS — kapat --kod KOSU → çıkış {rc} · KAYNAK-DURUM.json "
++            f"{'yazıldı' if os.path.exists(kd.DOSYA) else 'YAZILMADI ✗'} · bekçi {'YASAK' if yasak else 'yasak yok ✗'} · damga kod={d3.get('kod')}")
++    os.remove(kd.DOSYA)
++    # S4
++    n = len(defter())
++    rc, out = kos(["kapi", "--kapi-kok", motor, "--kim", "SINAV"], KIRLI)
++    kontrol("S4", rc == 4 and len(defter()) == n and "MOTOR_YENI" in out and "SINAMA İLANI" in out,
++            f"kirli motor → çıkış {rc} · defter +{len(defter()) - n}")
++    # S5
++    rc, out = kos(["kapi", "--kod", "KOSU", "--kapi-kok", motor])
++    kontrol("S5", rc == 2, f"kapi --kod → çıkış {rc}")
++    # S6
++    df = defter()
++    say = {k: sum(1 for s in df if s.get("kod") == k) for k in ("SINAMA", "KOSU")}
++    kontrol("S6", say == {"SINAMA": 1, "KOSU": 1},
++            f"defter: SINAMA {say['SINAMA']} · KOSU {say['KOSU']} — sınama sayısı defterden okunur")
++
++    # ── YAYIN KAPISI — geçici KÖK ────────────────────────────────────────────
++    yk = os.path.join(td, "yayin")
++    dy.KOK = yk
++    MOTOR_IZ = {"girdi.py": "a", "renkler.py": "b", "uret_petek.py": "c"}
++
++    def kapi_bloku(d):          # B kuyruğu metnindeki _KOSU_KAPI'nin biçimi, ilanın KENDİ damgasından
++        return {"kod": d["kod"], "durum": d["kapi"], "ilan": d["ilan"], "git_head": d.get("git_head")}
++
++    def hukum():
++        return dy.kapi_hukmu()[0], dy.kapi_damgasi()
++
++    ust_js(yk, "donemler_ust.js", [{"girdi": {}, "motor": MOTOR_IZ, "kapi": kapi_bloku(d1)}])
++    ih, k = hukum()
++    kontrol("Y1", ih is True and len(k["sinama"]) == 1, f"S1 damgasından (kod=SINAMA) çıktı → ihlal={ih} · {k['sinama']}")
++    ust_js(yk, "donemler_ust.js", [{"girdi": {}, "motor": MOTOR_IZ, "kapi": kapi_bloku(d3)}])
++    ih, k = hukum()
++    kontrol("Y2", ih is False and len(k["kosu"]) == 1, f"S3 damgasından (kod=KOSU) çıktı → ihlal={ih}")
++    ust_js(yk, "donemler_ust.js", [{"girdi": {}, "motor": MOTOR_IZ}])
++    ih, k = hukum()
++    dy.KAPI_ALANI_ZORUNLU = True
++    ih2 = dy.kapi_hukmu()[0]
++    dy.KAPI_ALANI_ZORUNLU = False
++    kontrol("Y3", ih is False and ih2 is True and len(k["kapisiz"]) == 1,
++            f"kapı alanı yok → bugün ihlal={ih} (⚪) · KAPI_ALANI_ZORUNLU=True ile ihlal={ih2}")
++    os.remove(os.path.join(yk, "data", "donemler_ust.js"))
++    ust_js(yk, "paket_99.js", [{"girdi": {}, "motor": {"renkler.py": "b", "uret_devirler.py": "d"}},
++                               {"girdi": {}, "motor": MOTOR_IZ, "kapi": kapi_bloku(d1)}])
++    ih, k = hukum()
++    kontrol("Y4", ih is True and k["sinama"] == ["data/paket_99.js (ilan %s)" % d1["ilan"]],
++            f"paket: motor DIŞI iz + motor SINAMA izi → ihlal={ih}")
++    os.remove(os.path.join(yk, "data", "paket_99.js"))
++    ust_js(yk, "altlik.js", [{"girdi": {}, "motor": {"uret_altlik.py": "e"}, "kapi": {"kod": "SINAMA"}}])
++    ih, k = hukum()
++    kontrol("Y5", ih is False and not k["sinama"], f"motor DIŞI ürün kod=SINAMA taşısa bile → ihlal={ih}")
++
++agac = ast.parse(open(os.path.join(KOK, "arac", "denetle_yayin.py"), encoding="utf-8").read())
++ana = next(n for n in agac.body if isinstance(n, ast.FunctionDef) and n.name == "main")
++son_if = [n for n in ast.walk(ana) if isinstance(n, ast.If)
++          and any(isinstance(r, ast.Return) and getattr(r.value, "value", None) == 1 for r in n.body)][-1]
++bagli = any(isinstance(x, ast.Name) and x.id == "_kapi_ihlali" for x in ast.walk(son_if.test))
++kontrol("Y6", bagli, f"main()'in 'return 1' kararında `_kapi_ihlali` {'VAR' if bagli else 'YOK ✗'} (satır {son_if.lineno})")
++dy.KOK = KOK
++ih, k = dy.kapi_hukmu()[0], dy.kapi_damgasi()
++kontrol("Y7", ih is False and not k["sinama"],
++        f"GERÇEK ağaç → ihlal={ih} · SINAMA {len(k['sinama'])} · KOSU {len(k['kosu'])} · kapısız {len(k['kapisiz'])} ({', '.join(k['kapisiz'])})")
++
++kd.kosu_damga_yolu = gercek_damga_yolu
++for k_, v in GERCEK.items():
++    sonra = parmak(v)
++    kontrol("GERÇEK", ONCE[k_] == sonra, f"{v} dokunulmadı: önce {ONCE[k_][:12]} · sonra {sonra[:12]}")
++print(f"\n{'✓ SINAV GEÇTİ' if not dusen else f'✗ SINAV DÜŞTÜ ({dusen})'}")
++sys.exit(1 if dusen else 0)
+diff --git a/denetim/KAYNAK-DURUM-SINAMA-CIKTI-1006.txt b/denetim/KAYNAK-DURUM-SINAMA-CIKTI-1006.txt
+new file mode 100644
+index 00000000..1fc31950
+--- /dev/null
++++ b/denetim/KAYNAK-DURUM-SINAMA-CIKTI-1006.txt
+@@ -0,0 +1,33 @@
++# SINAMA sınavı + önceki kapı sınavı — UMIT-W10-SINAMA-1006 · 2026-10-06 00:53 · ağaç C:\atlas-w10e · HEAD 847408ea + MOTOR-ENV-KAPI + KAYNAK-DURUM-ENV-KAPI + KAYNAK-DURUM-ATLAMA-DAMGA uygulanmış
++# komut: py denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py --kok C:\atlas-w10e
++✓ S1: kapi → çıkış 0 · KAYNAK-DURUM.json yazılmadı · damga kod=SINAMA kapi=GECTI · defter 1 satır
++✓ S2: SINAMA sonrası bekci_yasak_mi → yasak YOK
++✓ S3: TERS — kapat --kod KOSU → çıkış 0 · KAYNAK-DURUM.json yazıldı · bekçi YASAK · damga kod=KOSU
++✓ S4: kirli motor → çıkış 4 · defter +0
++✓ S5: kapi --kod → çıkış 2
++✓ S6: defter: SINAMA 1 · KOSU 1 — sınama sayısı defterden okunur
++✓ Y1: S1 damgasından (kod=SINAMA) çıktı → ihlal=True · ['data/donemler_ust.js (ilan 2026-10-06 00:53)']
++✓ Y2: S3 damgasından (kod=KOSU) çıktı → ihlal=False
++✓ Y3: kapı alanı yok → bugün ihlal=False (⚪) · KAPI_ALANI_ZORUNLU=True ile ihlal=True
++✓ Y4: paket: motor DIŞI iz + motor SINAMA izi → ihlal=True
++✓ Y5: motor DIŞI ürün kod=SINAMA taşısa bile → ihlal=False
++✓ Y6: main()'in 'return 1' kararında `_kapi_ihlali` VAR (satır 1782)
++✓ Y7: GERÇEK ağaç → ihlal=False · SINAMA 0 · KOSU 0 · kapısız 4 (data/bolgeler.js, data/devlet_harita_ust.js, data/donemler_ust.js, data/petek_govde_ust.js)
++✓ GERÇEK: C:\atlas-w10e\oturumlar\KAYNAK-DURUM.json dokunulmadı: önce d9a96bbf121c · sonra d9a96bbf121c
++✓ GERÇEK: C:\atlas-w10e\oturumlar\KOSU-KAPI-DEFTERI.jsonl dokunulmadı: önce YOK · sonra YOK
++✓ GERÇEK: C:\atlas-w10e\oturumlar\KOSU-KAPI.json dokunulmadı: önce YOK · sonra YOK
++
++✓ SINAV GEÇTİ
++# çıkış kodu: 0
++
++# komut: py denetim/ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py --kok C:\atlas-w10e   (yeniden düzenleme davranışı korudu mu)
++✓ SINAV GEÇTİ
++# çıkış kodu: 0
++
++# denetle_yayin.py TAM koşu (gerçek ağaç) — yeni bölüm:
++#   SONUÇ: TEMİZ — iki kapı da aynı dosyaları tanıyor · 2 UYARI duruyor (yayını durdurmuyor, yukarıda)
++#   ✓  SINAMA damgalı çıktı yok
++#   ⚪  kapı alanı YOK (B kuyruğu motor yaması öncesi çıktı — SINAMA mı ÖLÇÜLEMEDİ): data/bolgeler.js, data/devlet_harita_ust.js, data/donemler_ust.js, data/petek_govde_ust.js
++#   SONUÇ: İHLAL VAR — çıkış kodu 1
++# değişmemiş denetle_yayin.py aynı ağaçta: SONUÇ: İHLAL VAR — çıkış kodu 1 — tek ✗ satırı ikisinde de aynı:
++#   ✗  üretim izi: 4/7 üretilen çıktı iz taşıyor · taze 0 · bayat 2 · izsiz 0 · diskte yok 3
