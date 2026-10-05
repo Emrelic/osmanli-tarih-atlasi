@@ -141,3 +141,9 @@ ailesi). Bu yamanın +52'si bu maskenin kısmen kalkmasıdır.
 3. **2sk tavanının Gdańsk maskesi** (sende — `denetle.py`): açık kovanın birimleri hiç sayılmıyor; tavan bu maskeye bağlı.
 4. Aynı-boya rejim değişimi (`macaristan-habsburg` → `macaristan-naiplik`) 2s'de kırılma sayılıyor mu sayılmamalı mı —
    tasarım sorusu, sende.
+
+## 7. TAÇ YARISI DİFF'İ (hüküm M-5823) — ÖNGÖRÜ, ölçümden ÖNCE
+Dosya: `denetim/ONCE1281-AVUSTURYA-TAC-1005.diff` — 34 taç kaydı + Peçuy (`isg:` Sırp işgali). Cisleithania/Dalmaçya 34,
+Şibenik/Knin üçüncü taraf `isg:` ve Krakov kırpması BU DİFF'TE YOK.
+Öngörü (§5 bellek ölçümünden, taban değişirse fark olarak): **4c 127 (değişmez) · 2s AÇIK −1 · 2i +10 kırılma, açık
+aynı · 2sk YALNIZ TARAF +33 · D1 · D2 · 4d · D7 aynı** · değişen kayıt tam **35**, başka kayıt 0.
