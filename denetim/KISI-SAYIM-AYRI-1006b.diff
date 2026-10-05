@@ -1,0 +1,35 @@
+diff --git a/denetim/ARAC-KISI-ORNEKLEM-1006.py b/denetim/ARAC-KISI-ORNEKLEM-1006.py
+index 3534ca04..01d426f4 100644
+--- a/denetim/ARAC-KISI-ORNEKLEM-1006.py
++++ b/denetim/ARAC-KISI-ORNEKLEM-1006.py
+@@ -50,17 +50,25 @@ def sina():
+         {"id": "g", "kaynak": "   "},
+         {"id": "h", "kaynak": "Encyclopaedia Britannica, britannica.com/biography/…"},
+         {"id": "i", "kaynak": "Britannica (TDV'de bulunamadı)"},
++        # 1006b · "başlar"↔"içerir" mutasyonunu öldüren fikstürler: TDV'yi İÇERİR, onunla BAŞLAMAZ.
++        # j/k veride BİREBİR duran iki kaydın kaynak metnidir (napolyon-bonapart, francesco-morosini).
++        {"id": "j", "kaynak": "Encyclopaedia Britannica, britannica.com/biography/Napoleon-I — TDV'de müstakil madde YOK ('napolyon' 302 ölü), §4 kuralına göre akademik kaynağa geçildi"},
++        {"id": "k", "kaynak": "Encyclopaedia Britannica, britannica.com/topic/Morosini-family — TDV'de müstakil madde YOK (Girit/Mora/Atina maddelerinde yalnız adı geçiyor), §4 kuralına göre akademik kaynağa geçildi"},
++        {"id": "l", "kaynak": "Britannica · TDV: napolyon karşılaştırıldı, madde yok"},
+     ]
+     beklenen = {"a": "tdv", "b": "tdv", "c": "beyan", "d": "beyan", "e": "kaynaksiz", "f": "kaynaksiz", "g": "kaynaksiz",
+-                "h": "baska", "i": "baska"}
++                "h": "baska", "i": "baska", "j": "baska", "k": "baska", "l": "baska"}
++    # Üyelik ADIYLA sınanır (yalnız toplam değil): her kayıt kendi kovasında olmalı.
+     hata = [(k["id"], kova(k), beklenen[k["id"]]) for k in ornek if kova(k) != beklenen[k["id"]]]
+     # yön 1: beyanlı kayıt TDV sayısına girmiyor · yön 2: TDV kaydı (içinde "bulunamadı" geçse bile) beyana
+-    # girmiyor · ek: TDV-dışı kaynak TDV'ye de beyana da girmiyor; kovalar ayrık, toplamı kayıt sayısı
+-    if say(ornek) != (2, 2, 2, 3) or sum(say(ornek)) != len(ornek):
+-        hata.append(("sayim", say(ornek), (2, 2, 2, 3)))
++    # girmiyor · ek: TDV-dışı kaynak (içinde "TDV" ya da "TDV:" geçse bile) TDV'ye de beyana da girmiyor;
++    # dört kovanın HER BİRİ en az bir üye taşımalı (kova silinirse boş kalır ve öter); kovalar ayrık.
++    BEK = (2, 5, 2, 3)
++    if say(ornek) != BEK or sum(say(ornek)) != len(ornek):
++        hata.append(("sayim", say(ornek), BEK))
+     for h in hata:
+         print("✗", h)
+-    print("SINAV", "GEÇTİ (9/9 kayıt, iki yön + TDV-dışı)" if not hata else "KALDI")
++    print("SINAV", "GEÇTİ (12/12 kayıt, adıyla üyelik + iki yön + TDV-dışı)" if not hata else "KALDI")
+     return 0 if not hata else 1
+ 
+ 
