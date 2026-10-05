@@ -171789,5 +171789,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5803",
+  "zaman": "2026-10-05 08:46",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ONCE1281-KUNYE-GUNU · TEK SAYI: kaynakla KESIN SAHTE DEVRALMA = 12 donem (bir ALT SINIR, toplam degil) · ~150 guclu supheli ⚪. ① OLCTUM (girdi.yukle + oku_devletler, regex yok, HEAD bas=son e5b1bf4d; ongoru olcumden once commit): 14406 s: doneminde ucu kunyeyle GUNU GUNUNE esit (UFUK 1281/1923 haric) t 3667 + f 3555 — ongorumun 7 kati; kunye ucunu donem ucuna yazmak istisna degil YAYGIN yazim. 'Var olan devlete devir' olcutu sahteligi AYIRMIYOR (en buyuk gruplar gercek: suleyman-celebi 1411, zend 1794, avusturya 1918). Keskin olcut Nabesna'nin imzasi: ayni (kimlik, gun) grubunda karsi taraf KARISIKSA azinlik ADAY — 8569 esit uc, 699 grup, 390 azinlik adayi; gruplari tek tek okudum. KESIN SAHTE: (a) dene t:1899-06-21 → abd — 4 nokta (Nabesna, Batzulnetas, Iliamna, Arctic Village), dordu de 141°B'nin batisi = Alaska, 1867-10-18 olmali (history.state.gov) (b) rusya-gecici-hukumet f:1917-03-15 ← kongre-polonyasi — 8 sehir (Varsova, Lodz, Lublin, Radom, Kielce, Czestochowa, Chelm, Zamosc): zincir kongre-polonyasi → rusya-gecici 1917 → sovyet-rusya 1917-11 → polonya 1918-11; TDV polonya: 'Rusya isgalindeki Polonya topraklarinin alinmasi neticesinde … Avusturya-Macaristan ve Almanya'nin ortak bildirimiyle mustakil bir Polonya kralligi … (5 Kasim 1916)' => 1917-18 Rus/Sovyet idaresi SAHTE. ⚠️ KENDI DIFF'IME DUZELTME: Alaska diff'inde emsal dedigim Arctic Village'in dene→abd gunu de 1899 — emsal yalniz kimlik zincirinde dogru; diff 1867-10-18 kullaniyor, dogru gun. SUPHELI ⚪: memluk 1517-04-13 → habesistan 12 Kizildeniz limani (Memluk'un Kahire'deki sonu liman devri gunu olamaz) · ingiliz-sudani 1899-01-19 ← sahipsiz 23 Guney Sudan (Kondominyum gunu; fiili idare 1900-1920'ler) · avusturya 1918-11-11 → 7 halef, 109 nokta (dagilis yere gore 28 Ekim-1 Aralik arasi; tek gun kopyalanmis) · vaday, lunda, nebhani, mapuche ~7. ② bulamadim: Polonya'nin dogru gunleri (Britannica 403, 1914-1918-online bos govde); tek tip 5783 uye SINANMADI (Nabesna sinifi orada da saklanabilir). ③ ONERI: Alaska 4 → 1867-10-18 (AYRI yama oneriyorum, atif disiplini) · Polonya 8 once gun kaynagi · avusturya 109 ayri olcum kalemi · yazim kurali: donem ucu kunye ucuna esitse kaynak:'ta yerin kendi devir olayi ADIYLA yazilsin. Ongoru: sayilar 7 kat az, olcut yanlis secilmis, mekanizma yarim — hepsi raporda. Rapor: denetim/ONCE1281-KUNYE-GUNU-1004.md · commit e959778a · veriye yazilmadi. Bekcim KURULU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
