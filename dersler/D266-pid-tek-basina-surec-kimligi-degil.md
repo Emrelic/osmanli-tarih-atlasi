@@ -35,6 +35,24 @@ TAMAMI yanlış olunca alet GÜVENİLMEZ olur ve bir gün gerçek ölüm de gör
 Yanlış `ASILI`, alarm kanalının kendisini zehirler: bu turda bir hayaleti kovalamak gerçek iş
 yedi (damga okuma, PID sorgulama, oturum erişilebilirliği, kod okuma).
 
+## 🔴 İKİNCİ VAKA — aynı gece, ve bu sefer PID'i BAŞKA BİR PROGRAM tutuyordu
+Ders yazıldıktan ~20 dakika sonra `bekci_olc.py` yine **ASILI 1** bastı:
+`OPUS HAZIR KITA 2309 0058` (o oturum sonradan `TAHTA-WEB-DENETIM-1006` adını aldı,
+iki teslim verdi — `M-5846` · `M-5850` — ve emekliye ayrıldı).
+```
+damga        : {"pid": 22632, "zaman": "2026-10-05 18:55:36", "ara": 60.0}
+Get-Process 22632 → CANLI · ad = msedge · başlangıç = 2026-10-05 23:55:33
+```
+⇒ PID **canlı**, ama süreç **Microsoft Edge** ve **beş saat sonra** başlamış. Bekçi çoktan
+ölmüş; aracın *"süreç ayakta"* dediği şey bir tarayıcı.
+🟢 **İlk vakadan daha güçlü kanıt:** orada PID yalnızca yoktu (belirsiz kalabilirdi); burada
+PID **başka bir programa ait** ve bunu `StartTime` tek başına ele veriyor —
+damga 18:55:36 ↔ süreç 23:55:33, beş saatlik uyuşmazlık.
+📌 Nedensel zincir de kayda değer: Emre o gece koşuya yer açmak için Edge'i **kapattırdı**;
+Edge yeniden açılınca ölü bekçinin PID'ini aldı. ⇒ PID yeniden kullanımı nadir bir kaza
+değil, **makine boşaltıldıkça olasılığı ARTAN** bir olaydır.
+⚠️ Ve yanlış alarmın bedeli iki kez ödendi: aynı gecede iki ayrı tur, iki hayalet kovalaması.
+
 ## Kural
 1. Süreç canlılığı sorulacaksa damga **PID + BAŞLANGIÇ ZAMANI** taşır. `_surec_var` ikisini
    birlikte doğrular; başlangıç zamanı uyuşmazsa PID **başka bir sürecindir** ⇒ `BITMIS`.
