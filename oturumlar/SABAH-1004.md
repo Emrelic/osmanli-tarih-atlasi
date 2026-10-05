@@ -333,3 +333,55 @@ düzelmiş olabilir** — görünür bölmede ölçülmedi. Yani liste bir mikta
 ```
 📌 Bu karar `denetle.py`nin yeni **işgal aynası** kolunu etkiliyor: kol "YALNIZ etiket"
 ile kurulacak (ölçüldü: bugün 9 öter; `tur` da sayılırsa 15 ve beşi yanlış pozitif).
+
+### F5 · Stănică 2016'nın TAM METNİ — 5 enklav adasını kapatacak tek şey
+PAKET-0076 İshakçı'nın 1402-1419 sahibini aradı ve **bulamadı** — beş yolu da kapattı:
+```
+TDV `isakci` slug'ları            302
+TDV ham metinler (tulca · dobruca · babadagi · mehmed-i)   İsakçı 0 geçiş
+"Sultan Çelebi Mehmed ve Devri Sempozyumu" (564 s. PDF)    İsakçı 0 · Yenisale 0
+Stănică 2016 "The Missing Fortresses in Dobrogea"          ResearchGate 403 · academia.edu 403
+EI2 "Isakča" (Brill)                                      ücretli, denenmedi
+```
+🔴 Ve elinin altındaki kolay yolu KULLANMADI: arama özetleri *"1416-1417'de Osmanlılar
+Enisala ve İsakçı'yı I. Mehmed'in emriyle onardı"* diyor — **özet metin değildir**,
+kullansaydı hiçbir kapı ötmezdi. Doğru durdu.
+⇒ **Senden istenen:** Stănică 2016'nın tam metni (hesabınla indirme ya da yazara istek).
+**Kazanç ölçülü:** açılırsa `Değişmez 7`de İshakçı'nın **5 enklav adası** kendiliğinden
+düşer (`eflak 1402→1416/1419` yazılabilir hale gelir) — ara nokta eklemeden.
+**Açılmazsa:** 5 ada beyanlı borç kalır, kampanya sonu taban hesabında sayılır. Durdurucu değil.
+
+### F6 · `Dobrotiç` künyesi açılacak mı? — Balçık'ın 1281 halkası buna bağlı
+Güney Dobruca'nın kalan üç noktasından **Balçık** yazılamıyor, çünkü 1281-1389 halkası
+`Dobrotiç`i gerektiriyor ve o künye dizinde YOK. Üstelik kaynak kendiyle çelişiyor
+(`D211 ⑥`):
+```
+TDV silistre   "Bulgar 1189-1393"
+TDV dobruca    "1241 Moğol · 1359 Dobrotiç"
+```
+📌 Dizine kalıcı bir künye eklemek + kaynağın kendiyle çelişmesi ⇒ `§1.6` gereği senin
+kalemin. Üç yol: (a) `Dobrotiç` künyesi açılsın (çelişki beyanla) · (b) Balçık o halkada
+`__BOSLUK__` sayılsın · (c) Balçık hiç yazılmasın.
+⚠️ Tutrakan · Mangalya: TDV maddesi YOK ⇒ `bulunamadı`, onlar bu karardan bağımsız.
+
+### F7 · ARAÇ KUSURU — `denetle_yayin.py` "durdurmaz" dediğin koşul için çıkış 1 veriyor
+Bu gece ölçüldü. Yayın kapısının bütün çıktısında **tek** `✗` vardı ve o `YAYIN BAYAT`:
+```
+✓  sürüm damgası r11254 · ✓ üretim izi 7/7 · ✓ paketleme TAZE (30 paket, 288 kaynak)
+✗  YAYIN BAYAT — üretim girdiden geride
+SONUÇ: İHLAL VAR — çıkış kodu 1
+```
+Senin 17 Eylül hükmün: *"'YAYIN BAYAT' yayını DURDURMAZ; durduran yalnız koşunun kendi
+`denetle.py` ihlalidir."* ⇒ Kural "yayınla" diyor, araç **1** diyor.
+🔴 Sonuç: bu kapının çıkış kodu yayın kararı için **tek başına kullanılamaz**; `✗`
+satırlarını saymak gerekiyor. Ve bu, 4 Ekim'de `denetle.py`de kapatılan kusurun AYNASI —
+orada araç "temiz" deyip 0 veriyordu, burada "ihlal" deyip 1 veriyor ama ihlal
+durdurmuyor. İkisi de aynı sınıf: **çıkış kodu ile cümle ayrışmış.**
+```
+(a) ÜÇÜNCÜ KOD    `denetle.py` gibi: 0 temiz · 1 DURDURUCU ihlal · 2 BAYAT/ölçülemedi
+    (önerim)        ⇒ otomasyon yine çıkış kodunu okuyabilir
+(b) BAYAT'ı ✓ yap  kapı bayatlığı hiç ✗ saymaz (bilgi satırı olur)
+(c) dokunma        her yayında ✗ sayılır (bugün yaptığım şey, elle)
+```
+📌 Kendi başıma değiştirmedim: bir kapının çıkış anlambilimi bütün otomasyonu etkiler
+ve bu kuralı sen koydun.
