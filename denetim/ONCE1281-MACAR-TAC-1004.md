@@ -114,3 +114,13 @@ Toplam 57 + 19 + 20 + 31 + 45 = **172** ✓.
 3. **Kalan 16 + Rapallo:** Cisleithania/Dalmaçya — model sorusu burada GERÇEK ve dar (49 değil 16). Hüküm sende:
    Dalmaçya'yı (19 nokta) TARTIŞMALI kovadan hangi tarafa koyduğun 12'sini belirler.
 4. 2 yıl-temsilî (Lugos, Orsova `t:1918-01-01`) ve 1919-08-12 Ravalpindi yanlış-temizi — ayrı borç.
+
+## 5. K3 DİFF'İ (hüküm M-5814 cevabı, 5 Ekim 2026) — ÖNGÖRÜ, ölçümden ÖNCE
+- Dosya: `denetim/ONCE1281-MACAR-TAC-1005.diff` · kapsam 57 nokta, yalnız 1918'e uzanan SON `avusturya` dönemi →
+  `macaristan-habsburg` (+ dönem içi `kaynak:` — TDV `macaristan` alıntısı, taksimat cümlesi `bulunamadı`).
+  HARİÇ: Dalmaçya 19 (hüküm: `avusturya` KALIR, beyanlı borç) · Bosna 20 · Cisleithania 31 · 45 erken.
+- **Öngörü: `denetle.py` ÖNCE = SONRA, her satır** (K3 bellekte kapı-nötr ölçüldü: 2s 189 · 4c 127 · D1 309 ·
+  D2 623/0 · 2i 144/1 · 4d 324). Değişen dönem sayısı tam **57**, başka hiçbir kayıt/dönem değişmez.
+  Değişirse teşhis yanlıştır.
+- **2sk örneği (koordinatör isteği):** 1919-08-12 Lendava/Murska Sobota `s:` kırılmasını bugün kapatan madde
+  *Ravalpindi Antlaşması* (Afganistan–Britanya) — yer düzeyinde doğrulanmamış, yakınlık/taraf kolu yanlış temizi.
