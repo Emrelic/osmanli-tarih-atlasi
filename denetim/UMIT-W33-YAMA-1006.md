@@ -81,6 +81,24 @@ yok (`yerler:` yalnız gövde metninde geçen bir sözcük).
 - Defter **çevrildi, genişletilmedi.** Yeni araç, eski defterin yazıldığı veri durumunda (`0a24f91b`: eski araç orada
   çıkış 0 veriyor, defter dosyası `d0877829` ile AYNI) `--kok` ile `--defter-yaz` koşturuldu. Eski defterdeki 150 grup
   satırı = 593 yer satırı. Kontrol: yeni araç + çevrilmiş defter `0a24f91b` verisinde **çıkış 0, 593/593**.
+- 🔴 **ÜYELİK EŞİTLİĞİ, ADIYLA (UMIT İRTİBAT şartı).** Defter bir tavan dosyası ve onu koordinatör yazar (§3.4);
+  çeviri yalnız diff'te duruyor. Kanıt (`d0877829` eski defteri ↔ yama uygulanmış yeni defter): yeni defterin 593 yer
+  satırı `(kapı,KOVA,gün,tip)` ile gruplanıp aracın KENDİ `yer_etiketi()`siyle (`:80`, birebir kopya) eski anahtara geri
+  basıldı:
+  ```
+  eski defter satırı (grup) ...... 150
+  yeni defter satırı (yer) ....... 593
+  yeni → grup anahtarına geri .... 150
+  EKLEME  (yeni'de var, eski'de yok): 0
+  ÇIKARMA (eski'de var, yeni'de yok): 0
+  ```
+  Satır satır eşleme (eski satır → yeni yer satırları, adıyla): `denetim/UMIT-W33-DEFTER-ESLEME-1006.tsv` (150 satır).
+  ⚠️ Kanıtın sınırı: eski defter "+N"den sonraki adları SAKLAMIYORDU. Yani 4+ yerli bir grupta ilk 3 adı ve SAYIYI
+  doğrulayabiliyoruz, gizli adları doğrulayamıyoruz. O adlar, eski defterin yazıldığı veri durumundan (`0a24f91b`:
+  eski araç çıkış 0) yeni araçla okundu. Bu, eski formatla erişilebilecek en sıkı kanıt.
+  📌 Yan bulgu (eski biçimin ikinci kusuru): toplam sayımı "+N"den ve virgülden çıkarınca 594 çıktı, gerçek 593. Fark
+  tek satırda: `2i (isg)¦AÇIK¦1878-09-18¦kazanc¦Bihaç (Bihać), Ostrovica (Stara Ostrovica, Kulen Vakuf)`. Bir yer
+  ADININ içinde virgül var ve grup satırı onu iki yer gibi okutuyor. Yer başına anahtarda bu belirsizlik yok.
 - Tavan İNDİRİLMEDİ: Köstendil ve Adana satırları defterde duruyor. İndirmek koordinatörün işi (§3.4-3/4), tek komut:
   `--defter-yaz` değil, bu iki satırı elle silmek. Aksi hâlde 28 borç da yazılır.
 
