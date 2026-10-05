@@ -172005,5 +172005,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5815",
+  "zaman": "2026-10-05 12:39",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-TASNIF-1004 — ÜÇ TESLİM (5919ea98): hükümler YAZILDI · TABI-GOVDE · DOBROTİÇ künye diff'i — 🔴 senin Atanasov kuralın ODB ve Vásáry'yi de düşürdü ① HÜKÜMLER — CEVAP.json'a yazıldı (yedek .HAT-YASLA-1004.yedek · kuru koşu · geri okuma AYNI): H-0041 · H-0059 · H-0144 · H-0155 · H-0156 · H-0042 → cozuldu; H-0118 · H-0120 → sirada. onceki_hukum (senin-kararin) saklı, notta localhost ölçümü + yöntem düzeltmesi. 0076: cozuldu 95→101 · senin-kararin 15→7 · sirada 22→24. ② PAKET-0076-TABI-GOVDE-1004 · denetim/PAKET-0076-TABI-GOVDE-1004.md · ① CEVAP üçüncü şık: tâbi gövdesi Osmanlı'dan AYRI (kayit[\"v\"] ≠ kayit[\"o\"]) ama kid'e BÖLÜNMEMİŞ — motorun kendi yorumu uret_petek.py:7555 \"kayit[\"v\"] bütün tâbi toprağı TEK gövde olarak taşır ve kimlik unary_union içinde kaybolur\"; kid başına yalnız etiket çapası (vl) var. · ② 267 E/F hattından 9'u bu kökten yaslanamıyor (H-0118/0120 tesadüfen görülen ikisi): Prut ×3 (Boğdan/Romanya↔Rusya, 1812-1878) · Dobruca p1-p3 (Prenslik↔Romanya, 1878-1908) · Libya-Tunus ×2 (1910-1923) · Sina (Mısır, 1906-1914). · YAMA (koşu istemez): dokuzunda da 100 km şeritte TEK tâbi var ⇒ gövdeyi bölmeye (motor) GEREK YOK. Ama \"bir kol\" da yetmez — iki değişiklik: _dTarafGovdesi'ne v: kolu (+ şeritte iki tâbi varsa ATLA güvenliği) ve _dYaslaUygula'ya vassal kaynağı yazma kolu (bugün yalnız osmanli+devlet yazıyor). Sınav önerisi: 9 hatta _dYaslandiMi 0/9 → 9/9. ③ PAKET-0076-DOBROTIC-1004 · künye diff'i denetim/PAKET-0076-DOBROTIC-1004.diff (devletler.js + renkler.py, 15 satır, git apply --check TEMİZ) 🔴 ÖLÇTÜM VE DEĞİŞTİRDİM — senin sertleştirdiğin kural (\"izinsiz aynadan okunan metin kaynak sayılmaz\") ODB ve Vásáry'ye de uygulanıyor. archive.org metadata API: ODB resmî nüsha oxforddictionary0001unse → access-restricted, djvu.txt HTTP 500; açık kopyalar library.naleemia@gmail.com · sedenkurt123@gmail.com · lrafael1608@gmail.com yüklemesi. Vásáry resmî cumanstatarsorie0000vasa → restricted, HTTP 401; açık kopya mtenrreiro@yahoo.es yüklemesi (\"opensource\" etiketli). ⇒ Ajanın \"archive.org açık metni\" dediği şey telif altındaki OUP 1991 / CUP 2005 eserlerinin kişisel hesaplardan izinsiz kopyaları — Atanasov'un aynasıyla AYNI sınıf. ⇒ Künye YALNIZ TDV ham metnine dayandırıldı (curl): dobruca (Karpat) · varna · balcik (Kiel) · kostence (Murgescu). ODB/Vásáry/Atanasov künyede ADI GEÇMİYOR. ⇒ 🔴 f 1346 DÜŞTÜ (dayanağı ODB + Atanasov idi). Yeni f = 1359-01-01: TDV dobruca \"1359'da Kuzey Dobruca'yı işgal ederek … Burada ilk müstakil devleti kuran Dobrotiç\" — İLK TARİHLİ TDV TANIKLIĞI, kuruluş değil (ozet'e aynen yazıldı; Balik dönemi daha eski, TDV yıl vermiyor). · t = 1389-01-01 (TDV balcik \"Temmuz 1389'dan sonra\") · TDV varna \"795'te (1393)\" seçeneği ozet'te — iki madde de Kiel, TDV kendiyle çelişiyor. · ad \"Dobruca Prensliği (Dobrotiç Devleti)\" (TDV varna \"Dobruca Prensliği\" · kostence \"Dobrotici Devleti\") · kronoloji 1359 · 1369 (Varna başşehir) · 1389. · renk #5ad224 — renk_olc.py --oner (artefakt denetim/oneri-20261005-123325.txt, gitignore'da). ⚠️ \"komşusu ölçülemeyen kimlik\": henüz hiçbir s: dönemi kullanmıyor ⇒ Balçık/Varna dönemleri yazılınca --dogrula ŞART (eflak #4db34d · bulgaristan #2d6c0c). · Kendi hatam: ilk diff CRLF'yi bozup 21.155 satır üretti — yakaladım, satır sonları korunarak yeniden üretildi. · Vásáry s.90'daki \"İsakçı merkezli Grek despotluğu\" ipucu artık ATIF OLARAK KULLANILAMAZ — yalnız araştırma yönü; meşru nüsha (IA ödünç sistemi / kütüphane / Emre) gerekir. BULAMADIM: Mangalya · Babadağı · Kaliakra'nın despotluğa aidiyeti (TDV slug 302) · meşru erişimli ODB/Vásáry metni. İSTİYORUM: künye + renk diff'ini tam inşa kuyruğuna al; Balçık/Varna'nın despotluk dönemleri ayrı veri kalemi (künye tek başına haritada bir şey değiştirmez). ODB/Vásáry için meşru erişim Emre'ye sorulabilir (F5 ile aynı kalem: Stănică + Vásáry + ODB). bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
