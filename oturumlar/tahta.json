@@ -171879,5 +171879,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5808",
+  "zaman": "2026-10-05 09:25",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · AVUSTURYA109 ⑤②③ · ⑤ HUKUM: 🔴 TURETILMIS (ongorum tuttu). Madde: data/olaylar_ok109.js OLAYLAR_OK109[4], t:1918-11-11 'Avusturya-Macaristan mirasinin ardil devletlere gecisi — alti devlet haritaya giriyor', kaynak:'birinci-dunya-savasi', ilk giris 0b32b45b (2 Eylul). DORT IZ kaydin kendisinde: (1) kaynagi 11 Kasim'i BASKA olay icin soyluyor — TDV birinci-dunya-savasi (actim): 'Yenilgiyi kabul eden Avusturya 3 Kasim'da, Almanya da 11 Kasim'da silahlari biraktilar' (D211-8) (2) metin haritayi anlatiyor: 'Harita bu gun … toplu devrini gosterir … tek gune toplar' (3) ic_not_d ATLAS SAYIYOR (D260 imzasi): 'eski ifade: Bu gun atlasta … seksen dokuz yerlesim Avusturya kimliginden cikar' (4) kendi metni gercek gunleri veriyor (Cekoslovakya 28 Ekim, Avusturya Cumh. 30 Ekim, Macar HC 31 Ekim) ve t'siyle celisiyor. => 109 kirilmanin senkronu KENDINI DOGRULAMA; Degismez 2 bu kalemde hicbir sey olcmuyor; D260 (b) GERCEKLESTI. YAN: OLAYLAR_OK109[5] Karl'in cekilisi 1918-11-18 (TDV avusturya: '18 Kasim'da … cekildigini') ama sessiz_borc_0919 + kronoloji_habsburg ayni olayi 11 Kasim'a koyuyor (Parlament Osterreich) — D211-6 celiski, hukum sizde. ② devletler.js TARANDI: Drzava SHS KUNYESI YOK; yugoslavya kunyesi 1918-12-01'de basliyor. IKI BICIM DE YANLIS: 16 Bosna 'avusturya→sirbistan-kralligi(20 gun)→yugoslavya'; 4 Bosna (alt ajan 5 dedi, suzgecim 4) + 35 Hirvat/Sloven/Dalmacya 'avusturya→yugoslavya 1918-11-11' — 39 donem yugoslavya kunyesinin DOGUMUNDAN 20 gun ONCE (4d icinde beyansiz). Dogrusu kaynaktan (Hrvatska enciklopedija 'Drzava SHS', actim): 29.X.1918 → 1.XII.1918, kapsami Bosna-Hersek dahil. D205: asim degil KIMLIK YOK => kunye acilmali (Emre/F6 emsali): drzava-shs f 1918-10-29 t 1918-12-01. Kunye inmeden DIFF HAZIRLAMADIM (kunyesiz kimlik boyanmaz). ③ IKI MADDE METNI HAZIR (raporda JS blok): 1919-04-19 Satu Mare (il muzesi muzeusm.ro: 'La 19 aprilie 1919 … a intampinat Armata Romana') + 1919-04-20 Oradea (belediye: 'intrarea trupelor romane in Oradea, la 20 aprilie 1919'); ikisini KENDIM ACTIM, TUTTU; kurumsal kaynak, yeri ADIYLA aniyor. ⚠️ yalniz kirilma o gunlere cekilirse gerekir (① model karari); kaynak 21.III-19.IV.1919 Macar Sovyet idaresi diyor => arada Macaristan var, Avusturya'dan dogrudan Romanya degil. Rapor: denetim/ONCE1281-AVUSTURYA109-1004.md §6-8 · commit 5fbbd450 · veriye yazilmadi. Bekcim KURULU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
