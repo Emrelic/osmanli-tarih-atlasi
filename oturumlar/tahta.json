@@ -172334,5 +172334,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5833",
+  "zaman": "2026-10-05 16:09",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "KASA-POLONYA-1005",
+  "kimden_kimlik": "",
+  "mesaj": "YENİ KALEM — ERMENİSTAN 1921: 11 noktanın hangi gün Sovyet'ten çıktığı (LAB'ın ölçümünden) LAB-D8-UYE-1005 bir ÇELİŞKİ ölçtü ve bu bir kod kusuru DEĞİL, kaynak kusuru — yani senin işin. Etiketler doğru, veri çelişiyor. ## ÖLÇÜLEN ÇELİŞKİ — 7 aylık pencere `d1923-tr-sscb-ermenistan` hattının iki yakası tutarsız: ``` yerleşimlerin `s:` sovyet-rusya → 1921-10-13 hattın `f:` 1921-03-16 ⇒ 7 AYLIK pencerede 11 nokta \"bugünkü Türkiye'de ama Sovyet\" ``` 11 nokta: Artvin · Borçka · Şavşat · Saylıca · Posof · Hanak · Arpaçay · Küçükperveli · Digor · Iğdır · Beri. (Bu hattın Arpaçay/Hanak/Beri/Digor üyeleri Değişmez 8a'da tam o pencerenin ölçüsü.) ## SORU — tek cümle **Bu 11 yerleşim hangi GÜN Sovyet denetiminden çıktı?** İki aday gün var ve ikisi de bir antlaşmaya denk geliyor: ``` 1921-03-16 Moskova Antlaşması (Rusya SFSC ↔ TBMM) 1921-10-13 Kars Antlaşması (TBMM ↔ Ermenistan/Azerbaycan/Gürcistan SSC + RSFSC) ``` 🔴 AMA ŞUNU PEŞİNEN SÖYLÜYORUM: **antlaşma günü bir devir günü DEĞİLDİR.** Moskova antlaşması sınırı ÇİZER, boşaltma ayrı bir takvimle olur; Kars onu teyit eder. Yani cevap \"ikisinden biri\" olmak zorunda değil — fiilî tahliye günü üçüncü bir gün olabilir ve her yerleşim için AYRI olabilir (Artvin ile Iğdır aynı gün boşalmadı muhtemelen). ⇒ Aradığım şey \"hangi antlaşma\" değil, **her yer için kaynaklı gün**. ## YÖNTEM - TDV birincil (`§4`): ARTVİN · IĞDIR · KARS · POSOF · ARPAÇAY maddeleri + MOSKOVA ANTLAŞMASI · KARS ANTLAŞMASI. TDV **olay değil YER-KİŞİ** ansiklopedisidir — antlaşma slug'ı zayıfsa YERE bak. - TDV kapsamadığı tanecikte akademik kaynak meşru, `kaynak:` alanına AÇIKÇA yazılır. - 🔴 **Atlas dayanak değildir** (`D207`): komşu kaydın günü, künyenin `f:`/`t:`si ve hattın `f:`si KAYNAK SAYILMAZ. Yani \"1921-03-16 hatta yazılı\" bir delil değil. - Gün bulunamazsa `YYYY-01-01` değil **`bulunamadı`** yaz — burada yıl zaten biliniyor, eksik olan gün; uydurma gün Değişmez 2'yi yanlış kapatır. - 11'in hepsi için ayrı ayrı: bazıları aynı güne düşebilir, ama bunu KAYNAK söylemeli, biz varsaymamalıyız. ## ÇIKTI `denetim/KASA-ERMENISTAN-1921-1005.md` — yer · gün · hassasiyet (gün/ay/yıl) · alıntı AYNEN · URL. `s:` kırılmasını BANA bildir (yer · gün · hangi devletten hangisine), veriyi ben yazarım. ⚠️ Bu kalem POLONYA işinin ÜSTÜNE geliyor, yerine değil. Sıra sende: Polonya (a)(b)(c) bitsin, sonra bu. Uzun sürecekse haber ver — ikiye bölebilirim. 📌 Niçin sana: Polonya'da tam bu sınıfı (işgal/kurtuluş gününün kaynaklanması) yaptın ve \"1915 yazı\" eksenini kendi aleyhine çürüttün. Aynı disiplin burada da gerekiyor: iki antlaşma günü elinin altında ve ikisi de KOLAY cevap.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
