@@ -151,8 +151,8 @@ aynı · 2sk YALNIZ TARAF +33 · D1 · D2 · 4d · D7 aynı** · değişen kayı
 ## 8. TAÇ YARISI DİFF'İ — ÖLÇÜM (öngörü `04884f6a`'dan SONRA)
 `denetim/ONCE1281-AVUSTURYA-TAC-1005.diff` — 5 dosya (`yerlesimler.js` · `_a78_avrupa` · `_ek` · `_ek29` ·
 `_ek_macaristan`), **35 kayıt**, 68 `s:` dönemi yeni/değişen, **11 `isg:`** (9 F8 fiilî + Peçuy 2 Sırp işgali).
-`_p77_avrupa` bu yarıda yok (yalnız Cisleithania kaydı taşıyordu). Kırpılan `isg:` 2 (Zagreb, Knin değil — taç: Zagreb;
-ötekiler Cisleithania'da kaldı).
+`_p77_avrupa` bu yarıda yok (yalnız Cisleithania kaydı taşıyordu). Künye doğumuna kırpılan `isg:` bu yarıda **1**: Zagreb
+(`yugoslavya` → 1918-12-01); öteki 5'i (Ljubljana, Split, Knin, Maribor, Krakov) Cisleithania yarısında.
 - İki yönlü sahiplik sınavı: YÖN 1 — 35 kayıt simülasyonla birebir (uyumsuz 0) · YÖN 2 — dokunulmaması gereken değişen 0.
 - `git apply --check` ana ağaçta (HEAD `04884f6a`): **0**.
 - `denetle` ÖNCE/SONRA (worktree, ikisi de çıkış 2 — D8 worktree'de ölçülemez):
