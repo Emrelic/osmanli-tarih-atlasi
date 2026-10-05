@@ -124,3 +124,39 @@ Toplam 57 + 19 + 20 + 31 + 45 = **172** ✓.
   Değişirse teşhis yanlıştır.
 - **2sk örneği (koordinatör isteği):** 1919-08-12 Lendava/Murska Sobota `s:` kırılmasını bugün kapatan madde
   *Ravalpindi Antlaşması* (Afganistan–Britanya) — yer düzeyinde doğrulanmamış, yakınlık/taraf kolu yanlış temizi.
+
+## 6. K3 DİFF'İ — ÖLÇÜM (Berlin usulü)
+- Diff: `denetim/ONCE1281-MACAR-TAC-1005.diff` (8 dosya: `yerlesimler.js` · `_a78_avrupa` · `_ek` · `_ek29` · `_ek5` ·
+  `_ek_macaristan` · `_kdmacar` · `_p77_avrupa`). 57 dönem: `d:"avusturya"` → `d:"macaristan-habsburg"` + dönem içi
+  `kaynak:`. **7 dönemin mevcut kaynağı KORUNDU**, yenisi ` · ` ile arkasına eklendi (Cetin, Drežnik, Gospić,
+  Karlovac, Lugos, Orsova, Udbina). Kaydın anahtar biçimi (tırnaklı/tırnaksız) ve `kesinlik:` alanları korundu.
+- **İki yönlü sahiplik sınavı** (`k3_karsilastir.py`, 4298 kayıt, önce/sonra dökümü): YÖN 1 — değişen dönem
+  **57/57**, her biri yalnız `d` alanı, `f`/`t` aynı, `t ≥ 1918` · YÖN 2 — başka değişen kayıt/katman/dönem **0**.
+  1918-11-10 günü: 55 nokta `avusturya` → `macaristan-habsburg` (Lugos/Orsova o gün zaten `romanya-kralligi` —
+  `t:1918-01-01` yıl-temsilî borcu). Bütün veride o gün `avusturya` 122 → 67.
+- `git apply --check` ana ağaçta (HEAD `385c65fb`): **0**. Diff yeni HEAD'li ikinci worktree'de de uygulandı.
+- `denetle.py` ÖNCE/SONRA (HEAD `385c65fb` worktree; ikisi de çıkış 2 — Değişmez 8 worktree'de `devletler_harita.js`
+  olmadığından ÖLÇÜLEMEDİ, beklenen):
+
+| | ÖNCE | SONRA |
+|---|---|---|
+| D1 · D2 · 2s · 2i · 4c · 4d | 309 · 623/0 · 189 · 144/1 · 127 · 324 | **aynı** |
+| **Değişmez 7 (sorgusuz enklav, beklenen 731)** | **727** | **736 (+9, beklenene göre 5 aşım — ihlal sayılmıyor)** |
+| kaynaksız `s:` kaydı (tavan 1968) | 1964 | 1937 (iyileşme) |
+
+### 🔴 ÖNGÖRÜ TUTMADI — Değişmez 7'yi öngörmedim
+"`denetle` her satır aynı" dedim; altı kapı aynı kaldı ama **Değişmez 7 +9**. Yeni 9 kopuk gövde:
+- **1551-07-26 Erdel 4** (Kaloşvar, Segesvár, Gyulafehérvár, Brassó → `macaristan-habsburg`, ana gövdeye 408-602 km):
+  bu dönemler veride ZATEN `macaristan-habsburg` idi; ana gövde yoktu, şimdi Kraliyet Macaristanı da o kimlik ⇒ Erdel adası görünür oldu.
+- **1526-08-29 Szatmár** (`macaristan-habsburg`, 321 km): son dönemi 1526'dan başlıyor.
+- **1688 Lugos · Orsova · Belgrad, 1695 Lugos** (`avusturya`, 328-480 km): 1688-1695 savaş dönemi tutuşları `avusturya`
+  KALDI (K3 yalnız son dönemi çevirir); aradaki Macar noktaları artık `macaristan-habsburg` ⇒ Viyana gövdesinden koptular.
+- **Karşı-olgusal (yalnız D7 için `macaristan-habsburg` ≡ `avusturya`, OSMANLI+tâbi aile emsali): 736 → 727** —
+  9'un hepsi bu sınıftan. ⇒ Kusur veri değil, D7'nin aile tanımı: aynı hükümdarın iki tacı (şahsî birlik) ayrı gövde sayılıyor.
+- Seçenekler (hüküm koordinatörde, `denetle.py` benim değil): **(a) D7'ye Habsburg ailesi** (`avusturya` ∪
+  `macaristan-habsburg`) — ölçüldü, 727'ye döner · (b) 9 adaya `enklav:`/koridor beyanı — kaynak ister · (c) tavan 736.
+  Önerim (a): tarihen doğru (1526-1918 iki taç aynı Habsburg hükümdarında) ve mevcut emsalle aynı mantık.
+
+### 2sk örneği (koordinatör isteği, tavan listesine ad olarak)
+`1919-08-12 · Lendava (Alsólendva), Murska Sobota · s: kırılması` — bugün kapatan madde **Ravalpindi Antlaşması**
+(Afganistan–Britanya). Yer düzeyinde doğrulanmamış; yakınlık/taraf kolunun yanlış temizi.
