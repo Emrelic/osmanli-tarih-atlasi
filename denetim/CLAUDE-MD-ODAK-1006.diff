@@ -1,0 +1,30 @@
+diff --git a/CLAUDE.md b/CLAUDE.md
+index f17c65c2..3533d3cb 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -544,12 +544,19 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
+   atıf** (`yer_id`/`odak_yer`/`odak_kimlik`/`odak_kutu_kaynak` yazılmış ama çözülmüyor)
+   YENİSİNE 0 tolerans — bilinen borç `denetim/ODAK-TAVAN.json` `bilinen_kusur` LİSTESİNDE
+   adıyla beyanlıdır (sayı değil liste: borç kapanırken yenisi yerine geçemez). ② **sayı
+-  tavanı** ODAKSIZ 485 · BEYANLI→yabancı 669 dondurulmuştur; yalnız GERİLEME bloke eder,
+-  iyileşince `--tavan-yaz` ile indirilir. Çözüm `arac/odak_cozum.js`te (node) çünkü
+-  `suzgec.js`in GERÇEK işlevleri çağrılır — Python kopyası iki yerde "yanlış temiz"
+-  vermişti. Kapının ötüp ötmediği `py denetim/ODAK-KAPI-SINAV.py` ile İKİ YÖNDE sınanır.
+-  🔴 `kapsam_genis:true` + odak yok ⇒ kamera **o günün OSMANLI sınırına** uçar
+-  (`app.js:11835`) — yabancı kronolojide bu bir kusurdur, odaksızlıktan KÖTÜDÜR.
++  tavanı** (ODAKSIZ · BEYANLI→yabancı · SEKME_OKUNMAYAN) dondurulmuştur; yalnız GERİLEME
++  bloke eder. **Sayılar BURAYA YAZILMAZ — `denetim/ODAK-TAVAN.json`dan okunur**
++  (`py arac/odak_olc.py` basar). Buraya yazılan 485/669 bayatlayıp bir öngörüyü
++  çürüttü (W13, 5 Eki). İyileşince tavan ELLE indirilir: `--tavan-yaz` `evren`i
++  genişletip YENİ KAPSAM'ı affeder (alet kusuru, `tavan_notu_1001`). Evren TARAYICIDIR
++  (OLAYLAR · devlet SEKMESİ · AÇILAMAZ ayrı kova). Çözüm `arac/odak_cozum.js`te (node):
++  `suzgec.js` ve app.js'in GERÇEK işlevleri (metinle kesilip) çağrılır — Python kopyası
++  iki yerde "yanlış temiz" vermişti. Kesemezse ÇIKIŞ 2. Kapının ötüp ötmediği
++  `py denetim/ODAK-KAPI-SINAV.py` ile İKİ YÖNDE sınanır.
++  🔴 `kapsam_genis:true` + odak yok ⇒ kamera YOLA göre gider: Osmanlı listesinde
++  (OLAYLAR) **o günün OSMANLI sınırına**; devlet sekmesinde devletin BÜTÜN gövdesine,
++  gövdesi o gün yoksa **SESSİZCE kıpırdamaz** (panel notu yok — odaksızlıktan KÖTÜ).
++  Yabancı maddede kusur "Osmanlı'ya uçmak" DEĞİL, kaba ölçek ya da sessiz duruştur.
+ - Ortamda `python` değil **`py`**. Üretim logu koşarken boş görünür (normal); çıktıda
+   "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm
+   damgası yükseltilir; Pages gecikmesi ~40-60 sn.
