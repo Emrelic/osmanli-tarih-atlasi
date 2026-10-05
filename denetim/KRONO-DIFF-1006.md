@@ -76,3 +76,84 @@ Her künye düzeltmesinde eski `t`/`b` `ic_not_b:`'ye, TDV cümlesi `kaynak:`'a 
   da TDV gövdesinde birebir YOK. Beyan zaten bu satıra yazılacağından gerçek cümleyle değiştirildi (D2).
 - `kronoloji_atina_dukaligi.js:66`'daki "1387: …" tırnağı da TDV'nin birebir cümlesi değildi; beyanla birlikte düzeltildi.
 - Korpus geneli taraması ayrı kıtaya verildiği için başka satır aranmadı.
+
+---
+# EK — D2b (İsfahan) · odak kapısı · D3 (mükerrer silme)
+
+## 7. D2b — `denetim/KRONO-TARIH-1006b.diff` (D2'nin ÜSTÜNE, ayrı tek satırlık diff seçildi)
+Neden ayrı: D3 geri alınamaz silme; İsfahan bir TARİH düzeltmesidir, D2 ailesine aittir ve D3'ten bağımsız geri alınabilmeli.
+- `devletler.js:136` safevi 1722-10-23 → **1722-11-10** (TDV `safeviler`: "30 Muharrem 1135’te (10 Kasım 1722)").
+- Eski 23 Ekim SİLİNMEDİ: `ic_not_b:"eski t: 1722-10-23 — KAYNAKSIZ; … yerini bıraktı"` + `kaynak:`'ta MGGP-NOT beyanı
+  (kullanılan 11-10 TDV · kullanılmayan 10-23 kaynaksız · neden: çelişki iki KAYNAK ister — koordinatör hükmü).
+- Sıra bozulmadı: künyede önceki madde 1639-05-17, sonraki 1736-03-08.
+- 13 satır · devletler.js CR 8 (dosya index'te `-text`, karışık satır sonu — meşru).
+
+## 8. Odak kapısı önce/sonra (`py arac/odak_olc.py`, salt okunur)
+| | madde | KONUMLU | ODAKSIZ | BEYANLI→yabancı | ÇÖZÜLMEYEN ATIF | çıkış |
+|---|---|---|---|---|---|---|
+| yamasız `ee415f4e` | 10026 | 8113 | 769 | 653 | 1 | 0 |
+| D1+D2+D2b | 10028 | 8115 | 769 | 653 | 1 | 0 |
+- Fark yalnız `kronoloji_safevi.js` satırında: 81→83 madde, 64→66 konumlu. Yani taşınan iki madde (1507 Diyarbakır ·
+  1508 Bağdat) ODAKLI. Başka satır oynamadı.
+- Tek çözülmeyen atıf iki ölçümde de aynı ve bu işle ilgisiz: `kronoloji_dogu_afrika.js` 1897-01-01 `yer_id:'Ogaden'`.
+
+## 9. D3 — `denetim/KRONO-MUKERRER-SIL-1006.diff` (D2b'nin ÜSTÜNE)
+**Sıra: ÖNCE kaynak taşındı, SONRA silindi.** 229 satır · devletler.js CR 105 (meşru, `-text`) · öteki 6 dosya CR 0.
+
+### 9.1 Silinen 20 künye maddesi ↔ kalan ikizi (D1+D2+D2b uygulanmış hâlde ölçüldü, `d3olc.js`)
+| # | künye (silinen) | ikiz (KALAN) | künyenin kaynağı | ikizin kaynağı (D3 sonrası) | ikiz ≥ künye? |
+|---|---|---|---|---|---|
+| 2 | venedik 1645-01-01 `:369` | kronoloji_venedik 1645-08-22 | yok | TDV `girit` birebir parça + `venedik` | ✓ |
+| 8 | memluk 1382-01-01 `:113` | kronoloji_memluk 1382-11-27 | yok | TDV `berkuk` (yıl) + Britannica (gün) | ✓ |
+| 11 | fransa 1536-02-18 `:798` | kronoloji_fransa 1536-02-18 | TDV birebir (D2) | **TAŞINDI** TDV `fransa` birebir + `imtiyazat` notu | ✓ (taşımayla) |
+| 13 | akkoyunlu 1467-11-10 `:515` | kronoloji_akkoyunlu 1467-11-10 | TDV birebir (D2) | **TAŞINDI** TDV `uzun-hasan` birebir | ✓ (taşımayla) |
+| 14 | karakoyunlu 1408-04-13 `:546` | kronoloji_karakoyunlu 1408-04-13 Serdrûd | TDV birebir (D2) | **TAŞINDI** (eskiden yalnız slug) | ✓ (taşımayla) |
+| 15 | karakoyunlu 1410-08-30 `:547` | … 1410-08-30 Esed | TDV birebir (D2) | **TAŞINDI** (eskiden yalnız slug) | ✓ (taşımayla) |
+| 16 | karakoyunlu 1420-11-13 `:548` | … 1420-11-13 | TDV birebir (D2) | **TAŞINDI** (eskiden yalnız slug) | ✓ (taşımayla) |
+| 17 | karakoyunlu 1438-04-19 `:549` | … 1438-04-19 Cihan Şah tahta | TDV birebir (D2) | **TAŞINDI** (eskiden yalnız slug) | ✓ (taşımayla) |
+| 18 | karakoyunlu 1447-03-12 `:550` | … 1447-03-12 | TDV birebir (D2) | TDV `timurlular` birebir (D2'de yazıldı) | ✓ |
+| 20 | timurlu 1400-01-01 `:1819` | kronoloji_timurlu 1400-10-01 Halep (+ 1401-01-25 Şam ayrı madde) | yok | TDV `timur`+`timurlular` birebir (D1) | ✓ |
+| 21 | timurlu 1409-05-13 `:1822` | … 1409-05-13 | TDV birebir (D2) | TDV `sahruh` birebir (D2) | ✓ |
+| 22 | timurlu 1447-01-01 `:1823` | … 1447-01-01 Uluğ Bey tahta | TDV birebir (D2) | **TAŞINDI** (eskiden tırnaklı özetleme) | ✓ (taşımayla) |
+| 23 | atina-dukaligi 1388-01-01 `:989` | kronoloji_atina_dukaligi 1388-05-02 | yok | TDV `atina` birebir + Setton + ÇELİŞKİ beyanı (D2) | ✓ |
+| 24 | gurcistan 1578-08-24 `:1054` | kronoloji_gurcistan 1578-08-24 | TDV birebir (D2) | **TAŞINDI** (eskiden tırnaklı özetleme) | ✓ (taşımayla) |
+| 26 | katalan 1303-01-01 `:998` | kronoloji_katalan 1303-09-01 | yok | Setton · **döngüsel atıf temizlendi** | ✓ |
+| 27 | naksa-dukaligi 1537-01-01 `:1010` | kronoloji_naksa_dukaligi 1537-11-01 | yok | TDV `naksa` birebir (D1) | ✓ |
+| 29 | safevi 1507-01-01 `:128` | kronoloji_safevi 1507-01-01 (D2'de taşınan) | TDV birebir (D2) | TDV `safeviler`+`sah-ismail` birebir | ✓ |
+| 31 | kirim 1571-05-24 `:215` | kronoloji_kirim 1571-01-01 | yok (05-24 kaynaksız) | TDV `devlet-giray` birebir (D1) | ✓ — kaybolan yalnız kaynaksız gün |
+| 32 | macaristan 1308-06-15 `:678` | kronoloji_macaristan 1308-11-27 | yok | Engel (2001) (yıl TDV ile uyumlu) | ✓ — kaybolan yalnız kaynaksız gün |
+| 33 | isvec 1714-02-01 `:861` | kronoloji_isvec 1714-10-11 | yok | TDV `isvec` | ✓ — kaybolan yalnız yanlış gün |
+Satır numaraları `ee415f4e`'dendir. Her silinen için ikizin dosyada TEK eşleşmesi olduğu ölçüldü (`ikiz_say=1` · 20/20).
+Silmeden sonra hiçbir künyenin kronolojisi boş kalmadı (en az: fransa 2 · isveç 2 · nakşa 2).
+
+### 9.2 Taşınan her alıntı TDV gövdesinde BİREBİR mi — iki yönlü sınav (`birebir.py`)
+Alet: `ARAC-TDV-CIKARICI-1006`in `tam()` gövdesi; alıntı `…` ile bölünür, her parça normalize boşlukla aranır.
+- **34 sınav · 31 ✓ birebir · 3 ✗.** ✗ olan üçü kasıtlı sınama: ikizlerdeki ESKİ tırnaklı özetlemeler (aşağıda) → alet
+  sahte alıntıyı yakalıyor (ters yön ✓).
+- D3'te 8 ikize taşınan 11 alıntı parçasının 11'i ✓ (#11 #13 #14 #15a/b #16 #17 #22a/b #24a/b). D1/D2/D2b'de yazılan 19 alıntının 19'u ✓.
+- #11'de ikizde kalan `imtiyazat` parçası ("sultan tarafından tasdik edilmeden kaldı") da ✓.
+
+### 9.3 İkizlerde bulunan "tırnaklı özetleme"ler (TDV'de birebir YOK — D3'te kaldırıldı)
+| ikiz | eski tırnaklı metin | durum |
+|---|---|---|
+| kronoloji_fransa 1536-02-18 | "18 Şubat 1536'da Jean de la Forest ile İbrahim Paşa arasında ticari anlaşma imzalandı" | ✗ → TDV cümlesiyle değişti |
+| kronoloji_timurlu 1447-01-01 | `ulug-bey`: "1447-1449 arası hükümdarlık yaptı" | ✗ → `timurlular` cümlesiyle değişti |
+| kronoloji_gurcistan 1578-08-24 | `tiflis`: 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi' | ✗ → TDV cümlesiyle değişti |
+D1/D2'de bulunanlarla birlikte bu işte görülen sahte/özetleme tırnak sayısı **7** (timurlu:88 · naksa:85 · timurlu:157 ·
+atina:66 · ve bu üçü). Korpus taraması ayrı kıtada.
+
+### 9.4 Değişmez 2 önce/sonra
+| | Değişmez 2 | 2s | 2i | 2t | mükerrer madde | 4s | çıkış |
+|---|---|---|---|---|---|---|---|
+| D3 öncesi (D1+D2+D2b) | 623 · 0 açık | 187 | 1 | 13 | 112 | 5 | 2 |
+| D3 sonrası | 623 · 0 açık | 187 | 1 | 13 | 112 | 5 | 2 |
+- Tek satır farkı: Değişmez 4s'in örnek listesinde `katalan` ile `adal` (ikisi de "1 dönem") YER DEĞİŞTİRDİ. Eşit sayılı
+  kayıtların yazdırma sırası; sayı (5) ve küme aynı. Değer değişimi değil.
+- D3 öncesi ölçüm ile ilk taban (`ee415f4e`) satır satır aynı (D2b de Değişmez 2 evreninde değil).
+- Çıkış 2 her ölçümde aynı sebepten: Değişmez 8 ÖLÇÜLEMEDİ (taze worktree'de `devletler_harita.js` yok).
+
+### 9.5 Zincir sınavı
+`ee415f4e` üstünde D1 → D2 → D2b → D3 sırayla `git apply` ✓ ve sonuç W28 worktree'nin son hâliyle **birebir** (`git diff --quiet`).
+On üç hedef dosyanın hiçbiri `ee415f4e` → bugünkü HEAD `13a3ae93` arasında değişmedi ⇒ zincir bugünkü HEAD'e de oturur.
+⚠️ D2 ve D2b aynı satıra (`devletler.js:136`) dokunduğu için dördünü TEK `git apply --check` çağrısıyla sınamak YANLIŞ
+hata verir; sırayla uygulanmalı.
