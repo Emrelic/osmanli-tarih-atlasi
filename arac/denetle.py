@@ -4242,7 +4242,56 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   çalkantısı lehine güçlü ipuçlarıdır ama KANIT DEĞİLDİR.
 #   ⚠️ VE BİR AYRIŞMA: defter 1611 üye taşırken sabit 1517'ydi — ikisi aynı güne (27 Eylül)
 #   ait olmasına rağmen EŞİT DEĞİLDİ. Sebebi ölçülmedi; ayrı kalem.
-BEKLENEN_D8A = 1582
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 5 EKİM 2026 — BERLİN A YAMASI SONRASI ÜYELİKLE YENİDEN ÖLÇÜLDÜ
+#   Yama: denetim/PAKET-0076-BERLIN-1004.diff (A1 Köstendil · A2 İzdin · A3 Bosna×4 ·
+#   A4 Sofya · A5 Niğbolu/Plevne/İhtiman · A6 Prevadi · A8 Silistre + H-0037 Romanya
+#   15 nokta 1877-05-09 + 2 Değişmez 2 maddesi). İki yönde sınandı: sahiplik yama
+#   sonrası 24/24 DOĞRU, yama öncesi 17/24 YANLIŞ.
+#
+#   ÜYELİK KARŞILAŞTIRMASI (defter ÖNCE ↔ SONRA — net sayıya DEĞİL ÜYEye bakıldı):
+#     hatlar (EVREN)  372 → 372   hareket 0  ⇒ yeni D hattı YOK, "YENİ KAPSAM" durumu YOK
+#     8a              1582 → 1584  net +2 · ORTAK 1581 · ÇIKAN 1 · GİREN 3 · HAREKET 4
+#     8b                84 →   84  hareket 0
+#
+#   🔴 DÖRT HAREKETİN DÖRDÜ DE TEK HAT, TEK GÜN — g3-bg-ro-dobruca-p4 | 1913-08-09:
+#     ÇIKAN  Silistre          ← yamanın A8 kalemi TAM BU NOKTAYI düzeltti
+#     GİREN  Buzău · Bükreş · Yergöğü (Giurgiu)   (üçü de `sag` yaka)
+#   ⇒ Sebep zinciri kapalı: A8 Silistre'nin sahipliğini düzeltti, Silistre hattı aşmaktan
+#     ÇIKTI, ama aynı düzeltme Dobruca hattı çevresindeki taraf atamasını kaydırdı ve üç
+#     Romanya şehrinin peteği karşı yakaya ≥5 km uzanmış göründü. 1913-08-09 = Bükreş
+#     Antlaşması (II. Balkan Harbi, Güney Dobruca Romanya'ya geçiyor).
+#
+#   ⚠️ BU BİR ONAY DEĞİL, DONDURMADIR.
+#   🔴 AMA "gövde çalkantısı mı GERÇEK aşım mı" sorusu ARTIK ÖLÇÜLDÜ (PAKET-0076-DOBRUCA-1004,
+#   rapor §8) ve cevap ÜÇÜNCÜ bir şık: **ESKİ TAŞMANIN YENİDEN ADLANDIRILMASI.**
+#     8a, taşan parçayı o gün KARŞI tarafa ait EN YAKIN noktaya atfeder
+#     (`agac(karsi_ad, gun)` · `query_nearest`). A8 kalemi Silistre'nin Romen devrini
+#     05-30 → 08-10'a çekti ⇒ 1913-08-09'da Silistre artık BULGAR ⇒ aynı taşan parça
+#     en yakın ROMEN noktalarına (Buzău · Bükreş · Yergöğü) düştü. ÇIKAN 1 + GİREN 3 = +2.
+#     Geometri hâlâ koşu 19'un (Silistre'yi 05-30'dan Romen sayan) çıktısıdır.
+#   ⇒ Yani +2 yeni bir toprak kusuru DEĞİL, aynı kusurun yeni adresi.
+#
+#   📌 ÖNGÖRÜ — KOŞUDAN ÖNCE YAZILDI (işçi yazdı, koşu sınayacak):
+#     tam inşa koşusunda Romanya gövdesi 1913-08-09'da Silistre'yi KAPSAMAYACAK ⇒
+#     bu 3 üye DÜŞER; `g3-bg-ro-dobruca-p4|1913-08-09|sag|Köstence` (gerçek noktasızlık)
+#     KALIR. Koşudan sonra bu satır okunacak: öngörü tutmazsa teşhis yanlıştır.
+#
+#   🔴 KÖK SEBEP DE ÖLÇÜLDÜ — çare kaynak değil NOKTA YOĞUNLUĞU:
+#     Güney Dobruca'nın İÇİNDE yerleşim noktası: **0**. Bulgar yakasında tek nokta
+#     Silistre ve hattın UCUNDA (0,0 km); sonraki Bulgar noktası Varna 67,0 km ·
+#     Prevadi 88,8 · Şumnu 90,5. Romen yakasında Köstence 48,3 km, sonra Buzău 119,6.
+#     ⇒ Hattın 48 km içinde İKİ YAKADA DA nokta yok (§2: noktası olmayan bölge en yakın
+#     peteğe emilir). Gereken noktalar (Dobriç · Balçık · Tutrakan · Mangalya) Dobruca
+#     zinciri kararına bağlı — nokta işi ile kaynak işi TEK İŞ.
+#   🔴 VE İKİNCİ BİR BAĞIMSIZ SİNYAL AYNI HATTA İŞARET ETTİ: PAKET-0076-TASNIF, kaynak
+#   tarafından "DOBRUCA DESENİ ÇELİŞKİSİ" buldu — komşu kayıtların zinciri KAYNAKSIZ ve
+#   TDV 1390-93/1402-18 Eflak diyor. Biri geometriden, biri kaynaktan, ikisi aynı hatta.
+#   Görev verildi: hattın GÜNEY yakasında (Bulgaristan tarafı) yerleşim noktası var mı,
+#   kaç tane, en yakını kaç km — çare kaynak değil NOKTA YOĞUNLUĞU olabilir (§2: noktası
+#   olmayan bölge en yakın peteğe emilir).
+# ═══════════════════════════════════════════════════════════════════════════
+BEKLENEN_D8A = 1584
 BEKLENEN_D8B = 84
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu

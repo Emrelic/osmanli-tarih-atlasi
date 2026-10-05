@@ -348,6 +348,20 @@ window.OLAYLAR_EK10 = [
   d:"1876 Bulgar İsyanı'nın bastırılışı Avrupa kamuoyunda büyük infial uyandırmış, Rusya bunu Bâbıâli'yi yalnızlaştırmak için sonuna kadar kullanmıştı. İstanbul (Tersane) Konferansı'nın Bulgaristan'ı iki muhtar eyalete bölme teklifi ve ardından 31 Mart 1877 tarihli Londra Protokolü Osmanlı Devleti tarafından reddedilince Rusya 24 Nisan 1877'de savaş ilân etti. Rûmî takvimde 1293 yılına rastladığı için savaş Doksanüç Harbi adıyla anılır. Harekât Tuna ve Doğu Anadolu olmak üzere iki cephede yürüdü: Tuna'da 180.000 kişilik Osmanlı ordusu nehrin sol kıyısını birinci, Balkan dağlarını ikinci savunma hattı saymıştı; doğuda Ahmed Muhtar Paşa'nın 55.000 askeri Ardahan-Doğubayazıt arasında mevzilenmişti. Bu savaş haritada Osmanlı Rumelisi'nin çöküşünü başlatan olaydır — Bulgaristan, Sırbistan, Karadağ ve Romanya'nın bugünkü sınırlarının hepsi bu on beş ayın ürünüdür.",
   kaynak:"doksanuc-harbi", duygu:["⚔️"], kapsam_genis:true, yer_kon:[47.0105,28.8638] },
 
+{ t:"1877-05-09", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","konu-askeri"],
+  b:"Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu",
+  gun:"9 Mayıs 1877", yer:"Bükreş", yer_id:"Bükreş", kisiler:"Prens I. Carol",
+  d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir.",
+  kaynak:"romanya", duygu:["😔"] },
+  // PAKET-0076-BITIR-1004 · 0076/H-0037 — TDV romanya: "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti" (taslak: denetim/SINIR-CIZGI-0076-YAMA-olaylar.js ①)
+
+{ t:"1832-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-diplomasi"],
+  b:"İzdin (Lamia) Yunanistan sınırları içinde kaldı — Arta-Volos hattı",
+  gun:"1832", yer:"İzdin (Lamia)", yer_id:"İzdin (Lamia)",
+  d:"Bağımsız Yunan devletinin kuzey sınırı 1832'de Arta körfezinden Volos körfezine uzanan hatta çizildi. Osmanlı döneminde (1424-1832) Eğriboz sancağına bağlı bir kaza merkezi olan İzdin, bu hattın güneyinde kaldığı için Yunanistan'a geçti; Tesalya'nın geri kalanı (Yenişehir, Tırhala) 1881'e kadar Osmanlı'da kaldı.",
+  kaynak:"izdin", duygu:["😔"] },
+  // PAKET-0076-BITIR-1004 · 0076/H-0045 — TDV izdin (M. Kiel): "Osmanlılar zamanında (1424-1832)" · "1832'de Yunanlılar bağımsız bir devlet olarak ortaya çıktıktan sonra İzdin bu devletin sınırları içinde kaldı". Gün kaynakta YOK ⇒ YYYY-01-01 (D210).
+
 { t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
   gun:"27 Haziran 1877", yer:"Ziştovi (Sviştov), Tuna'nın sağ yakası",
