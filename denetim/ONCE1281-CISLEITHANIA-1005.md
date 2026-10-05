@@ -48,3 +48,38 @@ farkı YOK; fark yalnız atama gününde (Rapallo / 1923).
 - **C:** 4c 127 · D1 **309** (öngörü: `__BOSLUK__` sahipsiz sayılmaz) · 2s: 1918-11-11 → `__BOSLUK__` kırılması "Avusturya"
   taraf koluyla kapanır, atama günü kırılmaları `__BOSLUK__` karşı taraf sayılmadığı için … ölçülecek. **Görsel bedel:**
   Dalmaçya ve Doğu Galiçya 2-4 yıl BOYANMAZ (beyaz) — ölçülmez, kod okumasıyla bilinir (`VERI-YAPISI.md`).
+
+## 4. ÖLÇÜM (öngörü `01576f04`'ten SONRA · HEAD `01576f04` · `cis_sim.py`, `cis_sim2.py` — künye ve takma ad YALNIZ bellekte)
+| | D1 | 2s AÇIK | 2sk YER / TARAF | 2i | 4c | 4d | D7 (beklenen 731) |
+|---|---|---|---|---|---|---|---|
+| B BUGÜN (taç indi) | 309 | 188 | 1561 / 1635 | 154/1 | 127 | 324 | 727 |
+| **A** md. 91 emaneti | 309 | 189 (+1 Rapallo) | 1561 / 1652 | 162/1 | **127** | 324 | 731 |
+| C `__BOSLUK__` | 309 | 189 | 1561 / 1636 | 162/1 | 127 | 324 | 732 |
+| A + Rapallo'ya Zadar/Cres adı | 309 | 189 | 1561 / 1652 | 162/1 | 127 | 324 | 731 |
+| **A + "SHS" takma adı** | 309 | **188** | 1561 / 1666 | 162/1 | 127 | 324 | 731 |
+| **A + "SHS" + Zadar/Cres adı** | 309 | 188 | **1563 / 1664** | 162/1 | 127 | 324 | 731 |
+| B + "SHS" (takma adın tek etkisi) | 309 | 188 | 1561 / 1635 | 154/1 | 127 | 324 | 727 |
+
+**Okuma:**
+- **A ve C ikisi de 4c'yi 127'de tutuyor** (SG imzasına uzayan `avusturya` tolerans içinde; öngörü ✅). Hayalet, künyesiz, 4d: +0.
+- **Rapallo kovası (14 yer) A'da 8 eksikle AÇIK:** Hvar, Knin, Korčula, Krk, Mljet, Nadin, Pag, Rab — halef `yugoslavya`,
+  madde başlığı *"İtalya ile **SHS Krallığı** arasında"*, ama `yugoslavya`nın taraf adayları yalnız `sirp-hirvat-sloven …`
+  (künye adından). **"SHS" takma adı eklenince kova KAPANIR** (2s 189 → 188) — bugünkü veride etkisi 0 (B satırı).
+- **`D261`'in ilk sahici uygulaması — Zadar/Cres (Rapallo md. 2-3): 2sk YER +2, TARAF −2** — ama YALNIZ kova kapalıysa
+  (takma adsız etkisi 0, öngörüm "kova kapanır" ❌ — takma ad gerekiyormuş).
+- **D7 A'da 727 → 731** (= beklenen, ötmez): +2 **Lvov, Yazlofça** — emanet gövdesi Dalmaçya'da, Doğu Galiçya 876-892 km
+  uzakta ⇒ HAKİKİ enklav (md. 91 iki ayrı bölgeyi kapsar) — `enklav:true` beyanı uygun · +2 **Ljubljana, Maribor**
+  `yugoslavya` 1918-11-11 — Dalmaçya emanete geçince Sloven kümesi Split/Dubrovnik kümesinden kopuyor (öngörü +1..+3 ✅).
+- **C'nin bedeli:** D7 +1 fazla (Darvaz `__BOSLUK__` adası yan etkiyle görünür oldu) ve **Dalmaçya + Doğu Galiçya 2-4 yıl
+  BOYANMAZ** (`__BOSLUK__` "kimsenin değil" demektir; bu topraklar md. 91 ile Müttefiklerin emanetindeydi — beyan YANLIŞ olur).
+
+## 5. ÖNERİ ve İSTENEN
+1. **A — ardıl künye** (`D205` ③): `itilaf-emaneti` "Başlıca Müttefik ve Ortak Devletler emaneti (Saint-Germain md. 91)",
+   f 1919-09-10 (SG imza; yürürlük 1920-07-16 alternatif) → t 1923-03-15. Kaynak: SG md. 91 + 1923 kararı girişi (FOROST).
+   🔴 **Künye açmak ve boyası benim yetkim değil** — `devletler.js` + boya: `renkler.py` motor tuzunda (`§9.1`) ⇒ ya tam inşa
+   koşusunu bekler ya `harita:` ile var olan bir boyayı ödünç alır (hangisi — Emre/sen).
+2. `yugoslavya` için 2s taraf takma adı **"SHS"** (`denetle.py`, sende) — Rapallo kovasını kapatır; bugünkü veride etkisi 0.
+3. Lvov + Yazlofça emanet dönemine `enklav:true` (hakiki: md. 91 Galiçya'yı ayrı kapsar).
+4. C (`__BOSLUK__`) önerilmez; B (bugünkü 1918-11-11 halef) künye günü (`D207`) — kalıcı çözüm değil.
+⚠️ Kapsam notu: Split, Sinj, Klis, Brač, Dubrovnik, Kotor, Herceg Novi araştırmada "Saint-Germain"e bağlanmış; md. 91 ve
+Rapallo md. 3 (Brač "all other islands") ile bunların da atama günü Rapallo olabilir — 16'nın dışında, ayrı tasnif borcu.
