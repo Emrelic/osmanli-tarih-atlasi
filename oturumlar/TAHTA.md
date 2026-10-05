@@ -5741,3 +5741,4 @@
 | M-5730 | 2026-10-05 20:34 | HAZIR KITA 0510 2035 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5731 | 2026-10-05 20:34 | HAZIR KITA 0510 2036 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum (pencere başlığı: Kita 0510 2036) |
 | M-5732 | 2026-10-05 21:27 | HAZIR KITA 0510 2126 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5733 | 2026-10-05 21:27 | KITA 0510 2127 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
