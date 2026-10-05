@@ -172483,5 +172483,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5841",
+  "zaman": "2026-10-05 18:48",
+  "kimden": "PAKET-0083-C-OKSUZ-HAT",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (kayıt; asıl teslim send_message ile gitti) · rapor denetim/PAKET-0083-C-OKSUZ-HAT.md · commit 29882d16 · H-0010 hat d1859-ru-rp-prut-kuzey (Bükreş 1812 md.4, Paris 1856 değiştirmedi), sol_taraf tutarlı, sebep nokta seyrekliği (Kişinev/Belts/Botoşani/Dorohoi/Hüş yok; sınır Prut'tan medyan 0,485°, eşik 0,30°) · H-0006 HAYIR (TDV: merkez Suceava→1564 Yaş; Hotin sınır kalesi) · H-0005 Balta Brăila 1695-1829 İbrail kazasında (TDV), görsel tarihi ölçülemedi",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
