@@ -164,3 +164,139 @@ Akyaka'ya yeni nokta · varsayılan dış eşik (87 madde) · 321 kronoloji madd
 atanamayan 13 için yeni künye · 2.084 eşlenmeyen madde · 256 sınav için toplu koşucu ·
 kişi katmanının kapıya bağlanması · künyesiz geçiş idareleri (Naiplik · PKL · Aras-Türk) ·
 `C:\atlas-umit\.git` sahipliği (yönetici) · UMIT'teki 15 push edilmemiş commit.
+
+
+---
+
+## 7. 🔴 GECE 1006 (01:30-03:00) İNEN HÜKÜMLER — yukarıdaki bölümlere ZEYİL
+Bu bölüm yeni bir kuyruk değil, §0-§6'ya yapılan EKLERİN tek yerde toplanmasıdır. Her
+madde hangi bölümü değiştirdiğini söyler. Sebebi §0'ın kendi gerekçesi: hüküm yalnız
+mesajda yaşarsa oturum kapanınca kaybolur.
+
+### §0'A EK — D264 ŞARTI KARŞILANDI, kuyruk bu yönden açık
+`SINAV ALTYAPISI` paketinin 10 diff'i **İKİ YÖNDE** sınandı ve ikisinde de temiz:
+```
+indeks (LF)            git apply --check --cached   10/10 çıkış 0
+çalışma ağacı (CRLF)   git apply (--cached DEĞİL)   10/10 çıkış 0 · 60 dosya değişti
+```
+Ölçüm UMIT'te, `origin/main` 95c1f3f4'ten atılabilir bir worktree'de yapıldı; worktree
+kaldırıldı. **Kapsam beyanı ve kapanışı:** sınav yalnız `core.autocrlf=true` ağacında
+koştu — ve `EMRELIC`in ayarı da ÖLÇÜLDÜ, **`true`** ⇒ kapsam, yamayı UYGULAYACAK makineyi
+içeriyor. ⇒ Bu paket tek paket olarak inebilir.
+📌 D264'ün kendisi hâlâ geçerli: `--check` ile `--check --cached` AYRI SORULARDIR. Burada
+kapanan şey kural değil, BU PAKET için ikisinin de sorulmuş olmasıdır.
+
+### §2'YE EK — 🔴 7 TAVANIN HİÇBİRİ GEÇERSİZ DEĞİL (ölçüldü, kesişim 0)
+W32 ölçtü ki paketlemeden bu yana **20 betik 4299 yerine 10 yerleşim**, **4 betik 1768
+yerine 25 madde** görüyordu. Tavanların o betiklerden gelip gelmediğini sordum; cevap:
+```
+BEKLENEN_MUKERRER 95 · OLU_ISTISNA 0 · BAYAT_KOPYA 7 · 2S_YALNIZ_TARAF 1648
+                                   üretici arac/denetle.py        · evren girdi.yukle() 4299
+ODAK-TAVAN.json (odaksiz · beyanli · sekme_*)
+                                   üretici odak_olc.py + odak_cozum.js
+                                   · evren odak_olc.py:100-107 canli_dosyalar()
+kişi kaynaksız 0 · beyan 29        üretici durum_tablosu kisi_kaynak_say · evren kisiler.js
+kaynaksızlık (hicbiri/donem_ici/kayıt)
+                                   üretici denetle.kaynaksizlik_olc(girdi.yukle()) · 4299
+20 BETİKLE KESİŞİM                 0        ⇒ GEÇERSİZ TAVAN YOK
+ek kontrol                         odak_olc ve odak_cozum'da "paket_" / "index.html" grep 0
+```
+🔴 **AMA KALAN RİSK AYNEN DURUYOR ve tavan dışıdır:** o 20 betiğin ÜRETTİĞİ RAPOR
+SAYILARI (ör. `ANTLASMA-KADEME` "238 isg", `ODAK-ASYA-0080-ara/-dok` çıktıları)
+paketlemeden bu yana **10 yerleşimlik evrene** aittir. **O raporlara dayanan her HÜKÜM
+geçersizdir.** Taraması `SESSIZ-SIFIR-1006`nın alt sorusudur: *"20 betiğin hangi raporu,
+hangi kararın dayanağı oldu?"*
+🔴 **VE ODAK KAPISINDA İKİNCİ BİR AYRIŞMA ÖLÇÜLDÜ:** `odak_olc.canli_dosyalar()`
+**KAYNAK** dosyaları okuyor (`os.listdir(data)`), tarayıcı ise **PAKETİ** yüklüyor. Paket
+bayatlarsa odak kapısı tarayıcının HİÇ GÖRMEDİĞİ bir evreni ölçer. Bugün `paketle sina`
+TAZE dediği için risk yok — ve §3(1) (`paketle.py yenile` ŞART) bu yüzden de kritiktir,
+yalnız `paket_12.js` yüzünden değil.
+
+### §1'E EK — paket sırası (zincir İÇİNDE sıra değiştirilemez)
+```
+SINAV ALTYAPISI (10 diff, tek paket)
+   MUTLAK-YOL · YANETKI 1006/b · HATA-ONARIM 1006/b · BAYAT-SABIT · PAKET-YUKLEYICI
+   · TOPLU-SINAV 1006/b · KUNYE-SINA-CIKIS
+KRONO zinciri   SAHTE-ALINTI → TARIH → 1006b → 1006c → MUKERRER-SIL-1006b
+                🔴 eski KRONO-MUKERRER-SIL-1006 GEÇERSİZ (W28)
+app.js zinciri  224 odak diff'i → KRONOLOJI-COK → APP-KISI-BAŞLIK → KIRIM-A
+                🔴 üçü de app.js; sıra bozulursa birbirinin üstüne yazar
+veri            OK107 (ölü ilk s: — kaybeden diff'te YAZILI) → Brod 1536-01-01 →
+                Dubiça→Brod 1718 (zincirleme devralma, AYRI diff)
+BAYAT-SABIT-SAGLAM → PAKET-YUKLEYICI → OK107   (W32'nin ölçtüğü sıra)
+```
+
+### §3'E EK — DÖRT YENİ KISIT
+**(11) DÜŞÜRME / FALL-THROUGH SESSİZ OLMAZ — yakaladığını SAYAR ve ADIYLA BASAR.**
+Üç yerde aynı şart: W37-B (`derinKronolojiBindir` eşleşmeyeni ÇOK'a düşürüyor) · Kırım-A
+(`devletiYay` dönem bulamazsa `odak_kimlik`e düşüyor) · W42 ("tanınmayan türü de göster").
+Gerekçe: düşürme, eşlemenin İYİ bir sebeple mi (çok devletli dosya) KÖTÜ bir sebeple mi
+(adda yazım hatası) başarısız olduğunu AYIRT ETMEZ. Basmazsa sessiz bir KAYBI sessiz bir
+ONARIMLA değişmiş oluruz ve bir sonraki yazım hatası hiç görünmez. (D225'in aynı ailesi.)
+
+**(12) 🔴 `denetim/ARAC-TUZ-SINAV-0924` KOŞU SÜRERKEN KOŞTURULMAZ.**
+Betik `arac/girdi.py` ve `arac/girdi_listesi.py`yi (İKİSİ DE MOTOR TUZU) metin kipinde
+okuyup `newline=""` ile geri yazıyor ⇒ CRLF→LF, **içerik aynı, sha DEĞİŞİYOR, `git diff`
+GÖSTERMİYOR.** Tuz değişirse bütün önbellek anahtarları değişir VE `uret_petek.py` koşuyu
+her aşamada sınayıp REDDEDER (8 Ağustos: 83 dk koşup en sonda red) ⇒ zarar koşunun
+SONUNDA görünür.
+Koşu 20 için ölçüldü ve TEMİZ: beş tuz dosyasında CRLF == LF (`uret_petek` 8305/8305 ·
+`renkler` 3823/3823 · `girdi` 872/872 · `motor_onbellek` 174/174 · `girdi_listesi`
+720/720), son değişiklik 17:40:22 < koşu 21:20:57.
+⚠️ Çare (`rb`/`wb` ile yedekle-geri yükle, W35) **koşu bitene kadar İNMEZ** — çarenin
+kendisi de tuza dokunuyor (§9.1(3)). W35 yalnız diff üretir, hiçbir ağaca uygulamaz.
+📌 Sınıfı: tuzu ÖLÇEN sınavın kendisi tuzu BOZUYORDU. W27 bu betiği tuz kovasında
+atlamıştı.
+
+**(13) 🔴 BEYANLI BORÇ, ancak ONU ÖLÇEBİLEN BİR ŞEY VARSA BEYANLIDIR.**
+Kapı göremiyorsa "beyanlı borç" dediğimiz şey, üstüne etiket yapıştırılmış SESSİZ borçtur:
+kimse çağıramaz, kapanışı görünmez, ve bir sonraki tavan yazımında "zaten öyleydi" diye
+tavana girer. Uygulandığı yer: KRONOLOJI-COK'un 224 BEYANLI→yabancı maddesi, odak kapısı
+DOSYA BAZLI ölçtüğü için görünmüyordu ⇒ COK tek başına inmiyor, odak işiyle AYNI PAKETTE.
+
+**(14) YAKLAŞIK KOORDİNAT, YAKLAŞIK OLDUĞU BELLİ OLACAK ŞEKİLDE YAZILIR — yoksa YAZILMAZ.**
+ODAK-ASYA'nın 10 AK kararı YAKLAŞIK `yer_kon` yazıyor. İşaretleyen bir alan varsa
+(`yaklasik:true` vb.) 189'un tamamı iner; YOKSA o 10 hariç tutulur ve işaretleme alanı
+eklenene kadar bekler. Çıplak yaklaşık koordinat SAHTE KESİNLİKTİR (D210) ve bir sonraki
+okuyucu onu kaynaklı sanar.
+
+### §5'E EK — BU GECE AÇILAN DÖRT KALEM (hepsi ÖLÇÜM, yazma yok)
+```
+ZINCIR-GOC-1006          kosu_yayin.py → kos_ve_yayinla.py geçişinde DÜŞEN adımlar.
+                         Ölçüldü: ⑥b (kronoloji şeması) düşmüş; ⑥c (arayüz) şüpheli.
+                         Çıktı: eski adım · yeni zincirde var/yok · düştüğü commit.
+                         📌 Kapı YANLIŞ CEVAP vermiyor; HİÇ SORU SORMUYOR — daha sessiz.
+SESSIZ-SIFIR-1006        üretilmiş çıktı/girdi yokken SAYI BASAN sınıf. Bilinen dördü:
+                         ODAK-ASYA (Tebriz n=0) · ANTLASMA-KADEME (10 yerleşim) ·
+                         ANTLASMA-KAPSAM (×NaN) · UI2-FARK (PETEKLER 0).
+                         + ALT SORU: 20 betiğin hangi raporu hangi kararın dayanağı oldu?
+                         Ölçüt adayı: W32'nin dört tetiği (paket işaretsiz · src yok ·
+                         süzgeç sıfır · <%90 girdi) — dördüncüsü "AZ okudum"u yakalıyor.
+ODAK-KAPI-KORLUK-1006    kapı DOSYA BAZLI ölçüyor ⇒ maddeleri DOSYALAR ARASI taşıyan
+                         değişikliği göremiyor + canli_dosyalar() KAYNAK okuyor, tarayıcı
+                         PAKET yüklüyor. İki yönde göster, madde-kimliği ölçütünü ÖNER.
+KESINTISIZ-SAHIPLIK-1006 atlasın KESİNTİSİZ gösterdiği dönemde kaynak KESİNTİ diyor mu?
+                         Dubiça 1687-1701 Avusturya (HE) ~14 yıl · Dimetoka 1913-15
+                         Osmanlı olabilir (TDV meriç, 1915 Sofya) ~2 yıl · Yunan'a geçiş
+                         atlas 1920-05-27 / TDV 1922. §3.5'in ZAMAN ekseni; 4c/4d sormuyor.
+                         🔴 Dimetoka ve Ferecik METİN düzeltmeleri BU İŞ BİTENE KADAR
+                         BEKLER — kaynaksız ucu düzeltmek kaydı kaynaklıymış gibi gösterir
+                         ve hatayı DÜZELTMEYE KARŞI KORUR.
+```
+
+### KOŞU 20 — ölçülmüş durum (02:00)
+```
+başlangıç 2026-10-05 21:20:57 · taban fc380975 · yama yok · yayın yok
+govde     2 sa 50 dk · sıra 89/608 · ana süreç 6.697 MB · boş 14.118 MB · önbellek ~720 MB
+işçi 1 ve 2  paylarını bitirip NORMAL çıktı
+işçi 3       23:07'de GEOS segfault (0xc0000005) — BELLEK DEĞİL, kütüphane arızası
+             ⇒ ana süreç işçi 3'ün kalan ~132 devletini TEK BAŞINA, SIRAYLA hesaplıyor
+🔴 BİTİŞ TAHMİNİ ÖLÇÜLMEDİ: "04:00" bir yorumdur. 2sa50dk'da 89/608 düz oranı ~16 saat
+   verir; ikisi arasında 8 KAT fark var. Üç sayı istendi: ① sayaç neyi sayıyor (global mi
+   ana süreç mi) ② SON 30 DAKİKADAKİ devlet sayısı (düz oran değil GÜNCEL oran)
+   ③ işçi 3'ün bitirdikleri önbellekte duruyor mu (yoksa 3 saatlik iş iki kez yapılıyor).
+   Karar: kalan < ~3 sa → BEKLE · > ~6 sa VE önbellek DURUYOR → yeniden başlatma tartışılır
+   (`MOTOR_DEVAM` tuzda DEĞİL, `_ONB_ISLETIM`de) · > ~6 sa VE önbellek YOK → mecburen bekle.
+⚠️ Koşucu kendi başına durdurmaz/başlatmaz/bayrak değiştirmez; bir koşuda iki bayrak
+   birden değiştirilmez.
+```
