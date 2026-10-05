@@ -150,3 +150,83 @@ Dayandıkları adların **hepsi bugün var**: `tarihAyarla` · `gunIdx` · `etik
 2. 🟡 `denetim/ODAK-ASYA-0080-uygula.py` aynı kaldırılmış API'yle çöküyor (bkz. 10).
 3. 🟡 `ARAC-D-RENK-0073-HATBOYA.py` · `-KOMSU.py` başka makinenin gömülü `SP` yolunu taşıyor (bkz. 2).
 4. Envanter düzeltmesi: TAHTA-KAPI "ortam/rebase" değil "worktree `.git` dosyası". ODAK-ASYA "boş girdi" değil "paketleme körlüğü". PETEKSIZ "ölçülemedi" değil "üretilmiş çıktı yok".
+
+---
+
+## EK · W36b (6 Ekim 2026) — iki 🟡'nin devamı
+
+Görev: UMIT İRTİBAT. Yama [`SINAV-HATA-ONARIM-1006b.diff`](SINAV-HATA-ONARIM-1006b.diff) **1006'nın üstüne** kuruldu.
+- **Temel commit:** `4a9a15f8` (`origin/makine/umit`). Bu commit yalnız 1006 diff'ini ve raporu taşıyor.
+- Diff, atılabilir worktree'de 4a9a15f8 üstüne 1006 uygulandıktan sonra çıkarıldı.
+- `git apply --check`: 1006 üstüne ileri temiz · `-R` temiz.
+- 3 dosya, +128/−34. Motor tuzunun dört dosyasına ve `arac/tahta.py`ye dokunulmadı (③ beklemede).
+
+### ① `ODAK-ASYA-0080-uygula.py` → ONARILDI
+
+**Önce ölçüm — kod okuyarak.** Betik üç kaldırılmış işleve dayanıyordu, üçü de `26741c10` ile (27 Eylül) gitti:
+- `odak_olc.yer_havuzu`
+- `odak_olc._oku`
+- `odak_olc.sinifla` — süzgecin kendisi
+
+Çöküş satır 401'de, **hiçbir dosya açılmadan** oluyor. Yani bugüne kadar sessiz silme YOKTU; betik hiç koşmadı.
+
+Betiğin yapabildiği silmeler, kodda iki yer:
+- `duzenle()`: `kapsam_genis:true` siliniyor. Bu kasıtlı (A/AK/B/C/E sınıfları; "yabancı maddede Osmanlı çapı beyanı yalandır").
+- `duzenle()`: boş `yer_id:""` değeri yeni odak alanlarıyla değiştiriyor.
+
+Bunun dışında hiçbir alan silinmiyor. Her dosya yazılmadan önce node ile yeniden ayrıştırılıyor ve düzenlenmeyen maddeler eskisine BİREBİR eşit değilse dosya yazılmıyor.
+
+**Kuru kip, onarılmış betik, bugünkü veri** (`--uygula` YOK; `data/` temiz kaldı):
+```
+SAYAÇ  değişen 189 · zaten böyle 5 · kayıt yok 0 · eski tutmuyor 2 · şartı sağlamadı 0
+SINIF  A 19 · AK 10 · B 109 · C 50 · E 1   (kapsam_genis kaldırılan 137)
+ÖNGÖRÜ  şimdi app.js ODAKSIZ 55 · BEYANLI 137  →  sonra ODAKSIZ 4 · BEYANLI 0
+8 dosyanın hiçbiri "YAZILMADI/DOKUNULMADI" vermedi (yeniden ayrıştırma eşitliği tuttu)
+```
+
+⇒ **Bugün koşarsa ne siler:**
+- 137 maddede `kapsam_genis:true` silinir. 136'sının yerine odak yazılır. 1 E-sınıfı madde (`kronoloji_cin.js#25` Yongle) odaksız kalır: kamera Osmanlı'ya uçmak yerine durur.
+- **0 odak alanı silinir.**
+- 2 madde "ESKİ TUTMUYOR" diye **dokunulmadan** atlanır (`kronoloji_ozbek.js#40`, `#44`); başka bir odakları var ve üstüne yazılmaz.
+- ⚠️ 10 AK kararı YAKLAŞIK `yer_kon` koordinatı yazar (betiğin kendi beyanı). `--konsuz` ile bunun yerine yedek `odak_yer` yazılabilir.
+
+🔴 **BULGU — ODAK-ASYA-0080'in 196 kararının 189'u VERİYE HİÇ İNMEMİŞ:**
+- Uygulayıcı `298c9733` ile 27 Eylül'de geldi. Aynı gün `26741c10` API'yi kaldırdı ve uygulayıcı o günden beri çöküyor.
+- `kronoloji_sinir_asya.js`in son değişikliği 17 Eylül (`4132dd30`).
+- Yani "üretici yeniden koşarsa odaklar silinir" endişesi bugün boşa: silinecek odak yok, çünkü hiç yazılmadılar.
+- 137 Asya maddesi hâlâ BEYANLI, yani kamera o günün **Osmanlı** sınırına uçuyor (`odak_olc.py` başlığı: "odaksızlıktan KÖTÜ").
+- ⇒ `--uygula`yı koordinatör koşturmalı (`data/` sahibi). Önce `--konsuz` kararı verilmeli.
+
+**Onarım** (sınayıcıdaki W36 çaresiyle uyumlu, ölçülemeyen her durumda çıkış 2 ve hiçbir şey yazılmaz):
+- `_oku` ve `yer_havuzu` yerelde, eski tanımların aynısıyla duruyor. Havuz kurulamaz ya da BOŞ çıkarsa → ÇIKIŞ 2.
+- "Eski tutmuyor" süzgeci artık alana bakıyor: madde hiçbir odak alanı taşımıyorsa uygun (`yer_kon` · `yer_id` · `odak_kutu_kaynak` · `odak_yer` · `odak_kimlik`).
+  - Eski `sinifla ∈ {BEYANLI, ODAKSIZ}` + boş alan şartının bugünkü karşılığı bu.
+  - Tek fark `odak_kutu_kaynak`; eskiden yalnız `sinifla` üzerinden görülüyordu, şimdi doğrudan sayılıyor.
+- ÖNGÖRÜ app.js'in gerçek çözücüsünden (`odak_olc.olc` → `arac/odak_cozum.js`) okunuyor. 8 dosya için TEK seferde ve **hiçbir dosya yazılmadan önce** ölçülüyor; arızada ÇIKIŞ 2 ve yarım yazım yok.
+- Eski "sonra odak_olc ≠ sonra app.js" satırı düştü: o fark, kaldırılan Python kuralının kusuruydu.
+
+**Sınav:**
+
+| yön | koşul | sonuç |
+|---|---|---|
+| geçen | kuru koşu | çıkış 0. Çıktı, onarım sonrası iki ayrı koşuda birebir aynı (`UYARI` satırları hariç). |
+| bozuk | `girdi.yukle` arıza (sahte modül), `--uygula` İLE | `ÖLÇÜLEMEDİ — yerleşim havuzu yok; HİÇBİR ŞEY UYGULANMAZ`, çıkış 2, `data/` temiz |
+| bozuk | `girdi.yukle` → `[]` | aynısı, çıkış 2 |
+| bozuk | `odak_olc.olc` → `{"hata":…}`, `--uygula` İLE | ilk dosyada `ÖLÇÜLEMEDİ … HİÇBİR ŞEY UYGULANMAZ`, çıkış 2, `data/` temiz |
+
+Sahte arızalar, `girdi.py`ye (motor tuzu) dokunmamak için `runpy` + `sys.modules` enjeksiyonuyla verildi.
+
+### ② `ARAC-D-RENK-0073-HATBOYA.py` · `-KOMSU.py` → ONARILDI
+- Çare D-RENK-SINAV'daki ile aynı: dizin `argv[1]` ya da `D_RENK_SP`.
+- Üç girdinin (`hatlar.json` · `govde1923.geojson` · `govde1923_idharita.json`) her biri yoksa ADIYLA basılıyor: `OLCULEMEDI`, çıkış 2.
+- `SP + r"\x.json"` → `os.path.join(SP, "x.json")` (HATBOYA 4, KOMSU 3 yer; HATBOYA'nın çıktısı `hat_boya_1923.json` dahil).
+- Ölçüm gövdeleri DEĞİŞMEDİ. Bunlar ölçüm aleti, geçti/kaldı sınavı değil; çıkış kodu eklenmedi.
+- **Sınav** — sentetik fikstür: iki bitişik kare A|B ve aralarında dikey hat. Gerçek girdi EMRELIC'te üretilemez (`devletler_harita.js` yok).
+
+| alet | iyi fikstür | bozuk fikstür | girdi yok |
+|---|---|---|---|
+| HATBOYA | `DOGRU-CIFT 8 (%100)` | `sol_taraf` ters → `TERS-CIFT 8 (%100)` · taraf C → `TEK-YAN-DOGRU 8 (%100)` | çıkış 2 |
+| KOMSU | `komşu çift 1 · hatlı 1 · HATSIZ 0` | taraf C → `KOMŞU olan 0 · HATSIZ 1 (%100)` | çıkış 2 |
+
+### ③ `arac/tahta.py` `_git_yarim()` — DOKUNULMADI
+Koordinatörün hükmünü bekliyor (UMIT İRTİBAT iletti).
