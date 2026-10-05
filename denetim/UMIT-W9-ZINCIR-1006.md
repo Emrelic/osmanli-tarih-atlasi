@@ -184,3 +184,48 @@ ZINCIR-KAYNAGI-KAPI-1006.diff (denetle.py + ARAC-ZINCIR-SINAV-1006.py; D7-ISG-10
 ZINCIR-KAYNAGI-VERI-1006.diff (13 dosya, 32 kayıt) · UMIT-W9-ZINCIR-1006.md.
 **VERI-YAPISI-ZINCIR-1006.diff ÜRETİLMEDİ** (W7 kilidi) — metni §2'de; sıram gelince W7'nin
 diff'i üstüne üretirim. Commit yok.
+
+## 10. EK — 1006b (p0037 · ek29 · VERI-YAPISI), 6 Ekim 2026
+Taban zinciri: origin/main → D7-ISG → KAPI → VERI-1006 → POLONYA-ISG (1d3c8245) →
+VIKIPEDI-DOGRULANMADI → JASENOVAC-BROD-1536 (20c393af) → ODAK-SEKME → VERI-YAPISI-DOGRULANMADI
+(b4737774); hepsi `--index` ile uygulandı, ek diff onların üstüne alındı.
+
+**Yeniden ölçüm (W8 ve W18'den sonra):**
+| kayıt | kaynak | sonuç |
+|---|---|---|
+| Lovozero (Luyavr) | Kola, birebir | AYNI → beyan yazıldı |
+| Kahul (Cahul) | İsmail `[1456-06-01, 1538-09-01)` | AYNI → yazıldı |
+| Białystok | Varşova `[1918-11-11, 1923-10-29)` | AYNI → yazıldı |
+| İshakçı (Isaccea) | Silistre `[1402-07-28, 1419-01-01)` | AYNI → yazıldı |
+| **Yagodina (Jagodina)** | Kragujevac, birebir | 🔴 HÂLÂ BAYAT (W18'in diff'i Kragujevac/Yagodina'ya dokunmadı): `v:` 1830-10-17→1878-07-13 kopyada kimliksiz, kaynakta `kid:"sirbistan-prensligi"` → yazıldı, kapı basıyor |
+| **Lublin** | Varşova `[1917-03-15, 1918-11-11)` | W8'den sonra `s:` kuyruğu Varşova ile AYNI oldu (rusya-gecici · sovyet-rusya). Kalan fark YALNIZ `isg:`: Lublin `avusturya` (1915-07-30→), Varşova `almanya` (1915-08-05→) — **tarihen DOĞRU fark** (Avusturya-Macaristan / Alman işgal bölgeleri). ⇒ **Beyan YAZILMADI**: alan sahip + isg'yi birlikte beyan eder; yazılsa kalıcı sahte "bayat" olurdu. Kural VERI-YAPISI metnine eklendi. |
+
+**Alan biçimi DEĞİŞMEDİ** (nesne | nesne listesi). Lublin vakası bir "yalnız taban katmanı"
+seçeneği ister mi? Bugün tek vaka ⇒ önerim: alan genişletilmesin, beyan yazılmasın.
+
+**Ölçüm (zincirin tamamı + 1006b):** beyanlı 37 kayıt / 38 parça · **7 BAYAT** (Ceylanpınar ·
+Digor · Iğdır · Gümrü · Eçmiyadzin · Yagodina · Wiltz) · bozuk 0 · zincirleme 1. Sınav 23/23.
+denetle.py: `zincir_kaynagi` UYARI satırı 1 (37 kayıt); çıkış 2 yalnız Değişmez 8
+`devletler_harita.js` yokluğundan (taze ağaç, önceden de öyle).
+
+**Uygulanma (CR 0):**
+- ZINCIR-KAYNAGI-VERI-1006b.diff: origin/main tek başına ileri ✓ / -R ✗ · zincirde ileri ✓ / -R ✗.
+- VERI-YAPISI-ZINCIR-1006.diff: zincirde (W7'nin diff'i üstüne) ileri ✓ / -R ✗ · origin/main tek
+  başına ✗ — beklenen: bölüm W7'nin `dogrulanmadi` bölümünün ardına, `kesinlik` başlığının önüne
+  oturuyor; tablo satırı (`zincir_kaynagi`) `kur` satırının altına.
+
+**Tavan önerisi güncel:** 13 dosya 6 → +1006b **7** (Lublin beyansız ⇒ 8 değil) →
+yerlesimler.js'in 6 kaydı (hepsi AYNI) ile yine **7** → üretici 28 kaydı yazınca **13**.
+**SIRADA:** yerlesimler.js (Bitlis · Divriği · Culfa · Bolayır · Maydos · Çehrin) — W18 bitince.
+
+### 10.1 DÜZELTME — kilit değişikliği (`dogrulanmadi` → `kaynak_zayif`, W7 yeniden üretiyor)
+§10'un üstündeki hâl GERİ ÇEKİLDİ, yayımlanan dosyalar daraltıldı:
+- **ZINCIR-KAYNAGI-VERI-1006b.diff artık YALNIZ `data/yerlesimler_p0037.js`** (3 kayıt:
+  Lovozero · Kahul · Białystok; Lublin beyansız). CR 0 · origin/main tek başına ileri ✓ / -R ✗
+  · …→POLONYA-ISG zincirinde ileri ✓ · tam zincirde (…→ODAK-SEKME) ileri ✓ / -R ✗.
+- **VERI-YAPISI-ZINCIR-1006.diff `denetim/`den KALDIRILDI** ve ek29 parçası (Yagodina ·
+  İshakçı) diff'ten çıkarıldı: ikisi de W7'nin YENİ diff'lerinin üstüne yeniden kurulacak.
+  Hazır metin/değerler §2 ve §10'da (VERI-YAPISI bölümü `kesinlik` başlığının önüne + `kur`
+  satırının altına tablo satırı) — W7'nin bölüm adı değişeceği için yeri yeniden seçilecek.
+- Tavan (koordinatör hükmü): **6**; her artış kendi commit'inde sabitle birlikte. 1006b'nin
+  p0037 parçası bayat sayısını DEĞİŞTİRMEZ (3 kayıt da AYNI) ⇒ 6 kalır. Yagodina gelince 7.
