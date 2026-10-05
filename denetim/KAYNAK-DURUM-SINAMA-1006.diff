@@ -1,3 +1,5 @@
+KISIT (koordinator hukmu, 6 Ekim 2026): B yamasi (URETIM_IZI.kapi) inene kadar 'kaynak_durum.py kapi' alt emri YAYINA ADAY bir agacta KULLANILMAZ - damgada kapi alani yok, yayin kapisi SINAMA ciktisini ayirt edemez (OLCULEMEDI basar). KAPI_ALANI_ZORUNLU=True B ile AYNI yamada iner.
+
 diff --git a/arac/denetle_yayin.py b/arac/denetle_yayin.py
 index c3ed5b31..936c1225 100644
 --- a/arac/denetle_yayin.py
