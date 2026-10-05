@@ -5729,3 +5729,4 @@
 | M-5718 | 2026-10-05 18:53 | HAZIR KITA 0510 1850 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5719 | 2026-10-05 18:53 | HAZIR KITA 0510 1851 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
 | M-5720 | 2026-10-05 18:53 | HAZIR KITA 0510 1852 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5721 | 2026-10-05 18:53 | HAZIR KITA 0510 1853 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
