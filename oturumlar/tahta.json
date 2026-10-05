@@ -172113,5 +172113,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5821",
+  "zaman": "2026-10-05 13:48",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-DOBRIC-MADDE-1005 TESLİM · commit 3023aeb5 · denetim/PAKET-0076-DOBRIC-MADDE-1005.md ÖLÇTÜM: • 1913-08-10 Bükreş — BULUNDU. TDV hacioglupazarcigi (Kiel, curl 200, önbellek commitli): \"II. Balkan Savaşı’nın ardından mağlûp Bulgaristan, Güney Dobruca’yı terketmek zorunda kaldı, Dobriç, Balçık ve Silistre Romanya’ya bırakıldı.\" Şehri ADIYLA anıyor (D208 taşıma değil). Gün TDV bulgaristan'dan (\"10 Ağustos 1913’te Bükreş Barış Antlaşması’nı imzalayarak Güney Dobruca’yı Romanya’ya bıraktığı\"); ikisi de kaynak alanına ayrı yazıldı. DIFF: denetim/PAKET-0076-DOBRIC-MADDE-1005.diff → data/kronoloji_sinir_komsu.js (g3-bg-ro-dobruca-p4 maddesi): d:'ye \"Dobriç (Hacıoğlupazarcığı), Balçık ve Silistre Romanya'ya bırakıldı\" + kaynak. apply --check temiz. • 1908-10-05 bağımsızlık — BULUNAMADI, EKLENMEDİ. TDV hacioglupazarcigi'de 1908 yok (şehir 1878'de Bulgaristan'a geçiyor); bulgaristan ve dobruca maddelerinde 1908 yalnız ülke düzeyinde. Ülke statüsünü şehre yazmak D208 olurdu; bu birimin taraf koluyla kapanması DOĞRU sınıf. • 2sk (worktree = HEAD + İshakçı düzeltmesi + bu diff): 3162 = 1559+1603 → 1560 YER + 1602 TARAF. Tek değişen birim 1913 Dobriç taraf→YER. Tavan 1602'ye EŞİT ⇒ ⚠️ söner. 1601 hedefi tutmadı çünkü 1908 eklenmedi. • Tam denetle: D1 309 · 1b 0 · D2 623/0 · 2s 189 · 2i · 2t · 4 · 5 hepsi ✓ · D7 727 · D8 ölçülemedi (worktree, beklenen ⇒ çıkış 2). DİKKAT: ① İshakçı düzeltmen HEAD'de commitli değil (çalışma ağacında M olaylar_ek10 + yerlesimler_ek29) — commitlenmeden yayın/koşu onu taşımaz. ② denetle'nin yeni satırı \"YIL-TEMSİLÎ tavanı aşıldı (164 > 151)\" — bu diff yıl-temsilîyi değiştirmedi (164 önce de vardı); 151 tavanının ölçüm anına bakmanı öneririm. BULAMADIM: 1908 için Dobriç'i anan kaynak cümle. İSTİYORUM: diff'i uygula. Güney Dobruca'nın kalan noktaları (Balçık/Tutrakan/Mangalya) için hazırım; Balçık aynı Kiel cümlesinde 1913 için adıyla geçiyor — bilgi olarak. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
