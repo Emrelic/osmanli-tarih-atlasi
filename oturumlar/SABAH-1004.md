@@ -1098,3 +1098,66 @@ yok, üçüncü kaynak bulunamadı. ⇒ 25 yazılır, `ic_not`ta iki aday ve *"s
 🔴 **"Eski takvim" hipotezi kayda GİRMEZ:** dayanağı kırmızı listeden bir sayfaydı. W5 sayfayı
 kullanmamakla doğru davrandı; hipotez de o sayfayla birlikte düşer — onsuz hiçbir dayanağı yok.
 `D209`: çıkarım damgası kırmızı liste kaynağını meşrulaştırmaz.
+
+---
+
+# 🔴 KF-1'E DÖRT NOKTA DAHA — aynı sahte pencere, kopya zincir yoluyla
+
+W6 ölçtü: **Gümrü · Eçmiyadzin · Kliçatak · Norapat** hâlâ sahte
+`sovyet-rusya 1917-11-07 → 1920-12-02` penceresini taşıyor, oysa kaynak kayıt **Revan** artık
+`transkafkasya → ermenistan-dc`. ⇒ Dalga 1'de hükme bağladığım sınıfın aynısı, **4 nokta daha**,
+ve bu sefer sebebi ölçüldü: **kopyalanmış zincir bayatladı.**
+⇒ Bu dördü de Kafkasya zincir kararına (yanlış kimlik ① / delik ② / `__BOSLUK__` ③) dahildir.
+
+## Ve kopyalanmış zincirin ölçülmüş zararı
+```
+ARAC-TR1923-YAZ-0914.py'nin yazdığı 28 kaydın 28'i zincirini başka kayıttan türetiyor
+   (23 birebir · 5 iki kaydın birleşimi · kaynağa uzaklık 4,3 – 133,4 km)
+🔴 ZİNCİRLEME DEVRALMA — `§4` YASAK, 4 kayıt:
+   Küçükperveli←Arpaçay · Beri←Iğdır · Kliçatak←Gümrü · Norapat←Eçmiyadzin
+   (dördünün kökü de Revan'ın "ankraj" kopyası)
+elle yazılmış gerçek kopya 54 (30 bütün zincir + 24 pencere) · yanlış pozitif 20
+🔴 82 kopyanın 12'si BAYAT (%14,6) — kaynak düzelmiş, kopya eski kalmış.
+   İçinde `Lublin←Varşova` (5 Ekim — BU HAFTA düzelttiğimiz kaydın kopyası bayatladı)
+```
+⇒ Çareler dağıtıldı: `zincir_kaynagi` makine-okunur alanı + yeni kapı sorusu + **tavan 12**.
+
+## 🔴 ÜRETİLMİŞ DOSYAYA ELLE EKLENEN ALAN — saatli bomba
+O dört kayda üretimden **sonra** elle dönem kaynağı eklenmiş. Betik yeniden koşarsa o alanlar
+**silinir**. Dosya başlığı "ÜRETİLMİŞ — ELLE DÜZENLEME" diyor ve kural ihlal edilmiş; ben de
+fark etmemişim.
+⇒ Hüküm: elle eklenen alanlar **üreticinin GİRDİSİNE** taşınır. Taşıma diff'i inmeden betik
+`data/`ya **koşturulmayacak** — koşarsa kaynaklı bilgi sessizce yok olur.
+
+---
+
+# 🟢 BİR BEKLEYEN KALEMİN MEKANİZMASI DOĞDU — `dogrulanmadi:true`
+Açık listemdeki *"Cres / Şefşâven / Maroa — Vikipedi beyanı"* kaleminin mekanizması yoktu.
+Ölçtüm: `data/yerlesimler_ek29.js:571` Deyrülkamer kaydında **`dogrulanmadi:true`** diye bir
+alan var ve amacı tam bu — *"'başkentti' iddiası yalnız Wikipedia'da, TDV/Britannica'da
+DOĞRULANAMADI."*
+⚠️ Ama: `BILINEN_ALANLAR`da **YOK** (uyarı basıyor) ve **hiçbir kod OKUMUYOR** (`arac/*.py` +
+`js/*.js` tarandı → 0). ⇒ Bu gecenin **BEŞİNCİ `D265` vakası** ve en saf hâli: ötekiler ihmaldi,
+bu bir **özendi** ve yine hiçbir yere ulaşmadı.
+⇒ Çare: ① alan `BILINEN_ALANLAR`a (`girdi.py` TUZDA ⇒ motor kuyruğuna) ② **sayılır ve basılır**
+("doğrulanmadı işaretli kayıt: N") ③ `VERI-YAPISI.md`ye tanımı. ②'nin ①'den bağımsız inmesi
+GÜVENLİ — uyarı susmaz, sayı basılır, yani borç iki kat görünür olur.
+📌 Ve alan artık tek kullanımlık not değil, **Wikipedia-tek-kaynak iddiaların ortak işareti**:
+o üç kayıt da onu taşıyacak. `bulunamadı` ile karıştırılmayacak — biri "aradım yok", öteki
+"var ama dayanamıyorum".
+
+---
+
+# BİRİKEN MOTOR YAMALARI KUYRUĞU — tuz BİR KEZ değişecek (`§9.1 ②`)
+```
+MOTOR-BANT-TAM-1005.diff     uret_petek.py   5/7/10 bant kusuru
+CGK boyası                   renkler.py      cenub-i-garbi-kafkas — harita deliği
+BILINEN_ALANLAR eki          girdi.py        dogrulanmadi + zincir_kaynagi
+```
+🔴 **Niçin kuyruk, tek tek değil:** `§9.1`in ölçümü — 19-25 Eylül arası tuza **19 commit** girdi
+ve önbellek HİÇ isabet almadı; o 19'un **12'si yalnız `renkler.py` + `girdi.py`**ydı, oysa gövde
+hesabı o iki dosyayı **okumuyor bile** (AST: 30 işlev/91 ad). ⇒ Bir alan adı yazmak, HAVVA'nın
+2-7 saatte kurduğu önbelleği gövdenin göremediği bir değişiklik için öldürür.
+📌 **Ve bu gece aynı kilide ÜÇ KEZ çarptık** (CGK boyası · dogrulanmadi · zincir_kaynagi) ⇒
+`§9.1`in sonundaki yapısal çare (`MOTOR-LEGO-0925`: geometri katmanlarına renk/girdi İÇERMEYEN
+ayrı tuz) artık "yolda" değil **gereken** şey. Ölçümü dağıtıldı.
