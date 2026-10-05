@@ -1223,6 +1223,20 @@ window.OLAYLAR_EK10 = [
   d:"1876 Bulgar İsyanı'nın bastırılışı Avrupa kamuoyunda büyük infial uyandırmış, Rusya bunu Bâbıâli'yi yalnızlaştırmak için sonuna kadar kullanmıştı. İstanbul (Tersane) Konferansı'nın Bulgaristan'ı iki muhtar eyalete bölme teklifi ve ardından 31 Mart 1877 tarihli Londra Protokolü Osmanlı Devleti tarafından reddedilince Rusya 24 Nisan 1877'de savaş ilân etti. Rûmî takvimde 1293 yılına rastladığı için savaş Doksanüç Harbi adıyla anılır. Harekât Tuna ve Doğu Anadolu olmak üzere iki cephede yürüdü: Tuna'da 180.000 kişilik Osmanlı ordusu nehrin sol kıyısını birinci, Balkan dağlarını ikinci savunma hattı saymıştı; doğuda Ahmed Muhtar Paşa'nın 55.000 askeri Ardahan-Doğubayazıt arasında mevzilenmişti. Bu savaş haritada Osmanlı Rumelisi'nin çöküşünü başlatan olaydır — Bulgaristan, Sırbistan, Karadağ ve Romanya'nın bugünkü sınırlarının hepsi bu on beş ayın ürünüdür.",
   kaynak:"doksanuc-harbi", duygu:["⚔️"], kapsam_genis:true, yer_kon:[47.0105,28.8638] },
 
+{ t:"1877-05-09", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","konu-askeri"],
+  b:"Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu",
+  gun:"9 Mayıs 1877", yer:"Bükreş", yer_id:"Bükreş", kisiler:"Prens I. Carol",
+  d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir.",
+  kaynak:"romanya", duygu:["😔"] },
+  // PAKET-0076-BITIR-1004 · 0076/H-0037 — TDV romanya: "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti" (taslak: denetim/SINIR-CIZGI-0076-YAMA-olaylar.js ①)
+
+{ t:"1832-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-diplomasi"],
+  b:"İzdin (Lamia) Yunanistan sınırları içinde kaldı — Arta-Volos hattı",
+  gun:"1832", yer:"İzdin (Lamia)", yer_id:"İzdin (Lamia)",
+  d:"Bağımsız Yunan devletinin kuzey sınırı 1832'de Arta körfezinden Volos körfezine uzanan hatta çizildi. Osmanlı döneminde (1424-1832) Eğriboz sancağına bağlı bir kaza merkezi olan İzdin, bu hattın güneyinde kaldığı için Yunanistan'a geçti; Tesalya'nın geri kalanı (Yenişehir, Tırhala) 1881'e kadar Osmanlı'da kaldı.",
+  kaynak:"izdin", duygu:["😔"] },
+  // PAKET-0076-BITIR-1004 · 0076/H-0045 — TDV izdin (M. Kiel): "Osmanlılar zamanında (1424-1832)" · "1832'de Yunanlılar bağımsız bir devlet olarak ortaya çıktıktan sonra İzdin bu devletin sınırları içinde kaldı". Gün kaynakta YOK ⇒ YYYY-01-01 (D210).
+
 { t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
   gun:"27 Haziran 1877", yer:"Ziştovi (Sviştov), Tuna'nın sağ yakası",
@@ -1347,11 +1361,35 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Srebrenik"],
   kaynak:"bosna-hersek", duygu:["🎉"] },
 
+{ t:"1402-07-28", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+  b:"Ankara bozgununun ardından Eflak Voyvodası Mircea Dobruca'yı yeniden aldı — Silistre, Köstence, Babadağı",
+  gun:"1402 (Ankara Savaşı'nın ardından; gün kaynakta yok)", yer:"Dobruca (Silistre, Köstence, Babadağı)", yer_id:"Silistre",
+  kisiler:"Eflak Voyvodası I. Mircea",
+  d:"Yıldırım Bayezid'in Ankara'da Timur'a yenilmesi Tuna boyundaki Osmanlı hâkimiyetini sarstı. Eflak Voyvodası Mircea bu boşluktan yararlanarak Dobruca'ya yeniden girdi; Silistre, Köstence ve Babadağı çevresi Fetret yılları boyunca onun elinde kaldı. Mircea, Çelebi Mehmed'e karşı Mûsâ Çelebi'yi destekledi. Silistre'yi 1418'deki ölümüne kadar tuttu.",
+  kaynak:"silistre", duygu:["😔"] },
+  // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "Ankara Savaşı'nda (1402) … Mircea Silistre'yi tekrar aldı ve 1418'de ölümüne kadar elinde tuttu" · TDV kostence: "1402'de Mircea buraya hâkim olmuşsa da" · TDV dobruca: "Mircea Ankara Savaşı'ndan sonraki karışıklıklar sırasında tekrar Dobruca'ya girmiş". Gün = Ankara günü (TDV olayı Ankara'ya bağlıyor; Mircea'nın giriş günü BULUNAMADI).
+
+{ t:"1416-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+  b:"Babadağı ve çevresinin Osmanlı'ya geçişi — Mircea ile oğlu Mihail yenildi",
+  gun:"819 (1416)", yer:"Babadağı (Babadag)", yer_id:"Babadağı (Babadag)",
+  kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea, Mihail",
+  d:"Çelebi Mehmed, Eflak Voyvodası Mircea ile oğlu Mihail'i yendikten sonra Kuzey Dobruca'daki Babadağı ve çevresini Osmanlı hâkimiyetine aldı. Babadağı, Saltuk Baba'nın adını taşıyan ve XIII. yüzyıl Türkmen yerleşimiyle kurulan bir kasabaydı.",
+  kaynak:"babadagi", duygu:["🎉"] },
+  // PAKET-0076-DOBRUCA-1004 (A) — TDV babadagi: "Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)". Gün kaynakta YOK ⇒ YYYY-01-01 (D210).
+
+{ t:"1419-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+  b:"Silistre ve Dobruca'nın geri alınışı — Mircea'nın ölümünden sonra",
+  gun:"822 (1419) ilkbaharı", yer:"Silistre, Köstence, Dobruca", yer_id:"Silistre",
+  kisiler:"Çelebi Sultan Mehmed",
+  d:"Eflak Voyvodası Mircea'nın 1418'de ölmesinin ardından Eflak'ta çıkan karışıklık, Çelebi Sultan Mehmed'e Silistre'yi ve Dobruca'yı geri alma fırsatı verdi. 1419 ilkbaharında Silistre, Köstence ve Dobruca'nın büyük kısmı yeniden Osmanlı idaresine girdi; Dobruca bundan sonra 1878'e kadar Osmanlı'da kaldı.",
+  kaynak:"silistre", duygu:["🎉"] },
+  // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "822 (1419) ilkbaharında Çelebi Sultan Mehmed'in Silistre'yi ve bütün Dobruca'yı tekrar almasına fırsat tanıdı" · TDV kostence: "Osmanlılar 1419'da Constanta ile beraber" · TDV tulca: "1419'da Dobruca Osmanlı toprakları içine alındı". Mevsim ⇒ YIL (D210).
+
 { t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
-  b:"Aşağı Tuna'nın kapanması — Yergöğü, Turnu, Orşova ve Dobruca'nın ilhakı",
-  gun:"1420", yer:"Yergöğü (Giurgiu), Turnu (Kule), Orşova (Fethülislâm), Dobruca", yer_id:"Yergöğü (Giurgiu)",
+  b:"Aşağı Tuna'nın kapanması — Yergöğü, Turnu ve Orşova'nın ilhakı",
+  gun:"1420", yer:"Yergöğü (Giurgiu), Turnu (Kule), Orşova (Fethülislâm)", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea (ö. 1418)",
-  d:"Fetret devri kapandıktan sonra Çelebi Mehmed'in Tuna hattını düzene sokma hamlesi 1420'de meyvesini verdi. Eflak Voyvodası Koca Mircea'nın kendi toprağı üzerinde, masrafını tuz satışıyla karşılayarak yaptırdığı Yergöğü Kalesi bu yıl Osmanlı eline geçti; aynı yıl Dobruca da Osmanlı topraklarına katıldı ve Tuna'nın sağ kıyısındaki Turnu (Kule/Holovnik) ile Orşova — sonraki adıyla Fethülislâm — ilhak edildi. Böylece nehrin iki yakası birden denetim altına alınmış oldu. Yergöğü'nün önemi coğrafyasındandır: Tuna'nın sol, yani Eflak yakasında kurulmuş bir Osmanlı kalesidir ve karşı kıyıdaki Rusçuk ile aynı geçidin iki ucunu tutar. Osmanlı belgeleri bu ikiliği açıkça yazar — Rusçuk için 'Yergöğü beri yaka', Giurgiu için 'Yergöğü öte yaka' denir. Kale 1427'de Eflaklılar tarafından geri alınacak, 1449'da tekrar Osmanlı denetimine girecek ve Yergöğü kazası Niğbolu sancağına bağlanarak voyvodalık içinde doğrudan idare edilen bir ada hâline gelecekti. Haritada Eflak'ın Tuna boyunun neden koyu renk olduğunun cevabı burada başlar.",
+  d:"Fetret devri kapandıktan sonra Çelebi Mehmed'in Tuna hattını düzene sokma hamlesi 1420'de meyvesini verdi. Eflak Voyvodası Koca Mircea'nın kendi toprağı üzerinde, masrafını tuz satışıyla karşılayarak yaptırdığı Yergöğü Kalesi bu yıl Osmanlı eline geçti (Dobruca bir yıl önce, 1419 ilkbaharında geri alınmıştı — TDV silistre) ve Tuna'nın sağ kıyısındaki Turnu (Kule/Holovnik) ile Orşova — sonraki adıyla Fethülislâm — ilhak edildi. Böylece nehrin iki yakası birden denetim altına alınmış oldu. Yergöğü'nün önemi coğrafyasındandır: Tuna'nın sol, yani Eflak yakasında kurulmuş bir Osmanlı kalesidir ve karşı kıyıdaki Rusçuk ile aynı geçidin iki ucunu tutar. Osmanlı belgeleri bu ikiliği açıkça yazar — Rusçuk için 'Yergöğü beri yaka', Giurgiu için 'Yergöğü öte yaka' denir. Kale 1427'de Eflaklılar tarafından geri alınacak, 1449'da tekrar Osmanlı denetimine girecek ve Yergöğü kazası Niğbolu sancağına bağlanarak voyvodalık içinde doğrudan idare edilen bir ada hâline gelecekti. Haritada Eflak'ın Tuna boyunun neden koyu renk olduğunun cevabı burada başlar.",
   fethedilen:["Yergöğü (Giurgiu)"],
   kaynak:"yergogu", duygu:["🎉"] },
 

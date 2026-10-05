@@ -876,6 +876,23 @@ window.YERLESIMLER_NOKTA_SIBIRYA_0917 = [
 
 ;
 /* ==== data/yerlesimler_afrika2.js ==== */
+// 🔴 4 EKİM 2026 — `kur:"1281-01-01"` ALANLARI SİLİNDİ (81 kayıt bu dosyada).
+//    Gerekçe: ONCE1281-KUR191-1004 ölçtü — 191 kaydın 156'sı KANITLA ufuk
+//    tabanına kenetliydi, 35'i kaynaksızdı, **0'ı gerçek kuruluş tarihiydi**.
+//    §4: "yıl bilinmiyorsa yıl yazılmaz" — kaynaksız `kur:` sahte kesinliktir,
+//    ve 1281 öncesi sahiplik yazılırsa motor onu SESSİZCE yutardı.
+//    Motor etkisi ÖLÇÜLDÜ: `kur:` yalnız MOTOR_YURUYUS=1 iken aday listesinde
+//    okunuyor (uret_petek.py:6448) ve o bayrak son koşuda KAPALIYDI ⇒ bugünkü
+//    çıktı DEĞİŞMEZ. Yürüyüş kapısı açılırsa bu 191 nokta adaydan çıkar —
+//    kayıp değil DÜZELTME: uydurma bir `kur:` sayesinde aday oluyorlardı.
+//    Rapor: denetim/ONCE1281-KUR191-1004.md (192 kayıt tek tek)
+// 🔴 AYNI GÜN, EKSİK KALAN YÜZ — silme GERİYE doğru NÖTR DEĞİLDİR:
+//    kur VARKEN  g=1000'de nokta YOK · kur YOKKEN g=1000 ve g=-5000'de VAR.
+//    Yani bu kayıtlar artık "ezelden beri var". Taino (~600-1500), Inuit,
+//    Xhosa yerleşimleri için bu kur:1281 kadar yanlıştır — ÖBÜR YÖNE.
+//    ⇒ 1281 ÖNCESİ KAMPANYANIN İKİNCİ KAPISI: her nokta için ya KAYNAKLI
+//      bir kur yazılacak, ya o nokta kapsam dışı bırakılacak. Ufuk geriye
+//      açılmadan bu kapı kapanmalı. (ONCE1281-KUR191 bu yüzü ölçmemişti.)
 // ============================================================================
 // YERLEŞİM VERİ SETİ — AFRİKA 2   (Oturum: DUNYA-AFRIKA-0903, 3 Eylül 2026)
 // ============================================================================
@@ -942,43 +959,36 @@ window.YERLESIMLER_AFRIKA2 = [
 
 
 { ad:"İllîzî", tur:"sehir", lat:26.4800, lon:8.4700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1911-01-01",d:"tuareg-accer"},
      {f:"1911-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Cânet (Djanet)", tur:"sehir", lat:24.5500, lon:9.4800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1911-01-01",d:"tuareg-accer"},
      {f:"1911-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"İdeles", tur:"sehir", lat:23.8000, lon:5.9000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1902-05-07",d:"tuareg-ahaggar"},
      {f:"1902-05-07",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Abalessa", tur:"sehir", lat:22.8900, lon:4.8500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1902-05-07",d:"tuareg-ahaggar"},
      {f:"1902-05-07",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Bardaî", tur:"sehir", lat:21.3600, lon:17.0000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1914-01-01",d:"tubu-tibesti"},
      {f:"1914-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Vûr", tur:"sehir", lat:21.3500, lon:15.9800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1914-01-01",d:"tubu-tibesti"},
      {f:"1914-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Zûâr", tur:"sehir", lat:20.4500, lon:16.5200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1914-01-01",d:"tubu-tibesti"},
      {f:"1914-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1015,7 +1025,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"moritanya" },
 
 { ad:"Kidal", tur:"sehir", lat:18.4400, lon:1.4100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"tuareg-adag"},
      {f:"1899-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1027,7 +1036,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Faya-Largeau", tur:"sehir", lat:17.9200, lon:19.1000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1913-01-01",d:"kanem-tubu"},
      {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"cad" },
@@ -1088,7 +1096,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Menaka", tur:"sehir", lat:15.9200, lon:2.4000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"tuareg-ivellemmedan"},
      {f:"1899-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1124,7 +1131,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tahoua", tur:"sehir", lat:14.8900, lon:5.2700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"adar"},
      {f:"1899-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1167,7 +1173,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"mali" },
 
 { ad:"Filingue", tur:"sehir", lat:14.3500, lon:3.3200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"adar"},
      {f:"1899-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1185,13 +1190,11 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"senegal" },
 
 { ad:"Nguigmi", tur:"sehir", lat:14.2500, lon:13.1100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1913-01-01",d:"kanem-tubu"},
      {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"cad" },
 
 { ad:"Tillaberi", tur:"sehir", lat:14.2100, lon:1.4500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"zerma"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1204,7 +1207,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Madaoua", tur:"sehir", lat:14.0800, lon:5.9600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"adar"},
      {f:"1899-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1222,7 +1224,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Tera", tur:"sehir", lat:14.0100, lon:0.7500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"zerma"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1246,7 +1247,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"cad" },
 
 { ad:"Birni-N'Konni", tur:"sehir", lat:13.8000, lon:5.2500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"adar"},
      {f:"1899-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1263,19 +1263,16 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Albreda-Cufure", tur:"sehir", lat:13.3385, lon:-16.3598, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1894-01-01",d:"gambiya-mandinka"},
      {f:"1894-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Ati", tur:"sehir", lat:13.2200, lon:18.3400, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1913-01-01",d:"kanem-tubu"},
      {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"cad" },
 
 { ad:"Say", tur:"sehir", lat:13.1000, lon:2.3700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"zerma"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1292,7 +1289,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"mali" },
 
 { ad:"Vagadugu (Ouagadougou)", tur:"sehir", lat:12.3700, lon:-1.5300, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1896-09-01",d:"mossi-vagadugu"},
      {f:"1896-09-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"burkina-faso" },
@@ -1309,7 +1305,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"cad" },
 
 { ad:"Fada Ngurma (Gurma)", tur:"sehir", lat:12.0600, lon:0.3600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1897-01-01",d:"gurma"},
      {f:"1897-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"burkina-faso" },
@@ -1326,7 +1321,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tenkodogo", tur:"sehir", lat:11.7800, lon:-0.3700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1896-09-01",d:"mossi-vagadugu"},
      {f:"1896-09-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"burkina-faso" },
@@ -1350,7 +1344,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Bobo-Diulasso", tur:"sehir", lat:11.1800, lon:-4.3000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1896-09-01",d:"mossi-vagadugu"},
      {f:"1896-09-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"burkina-faso" },
@@ -1394,7 +1387,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Busa (Borgu)", tur:"sehir", lat:10.2000, lon:4.5000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"borgu"},
      {f:"1898-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -1406,13 +1398,11 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"gine" },
 
 { ad:"Nikki (Borgu)", tur:"sehir", lat:9.9400, lon:3.2100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"borgu"},
      {f:"1898-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Cos (Jos)", tur:"sehir", lat:9.9000, lon:8.8600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"birom-plato"},
      {f:"1903-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -1435,7 +1425,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"gine" },
 
 { ad:"Yendi (Dagbon)", tur:"sehir", lat:9.4400, lon:-0.0100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-01-01",d:"dagbon"},
      {f:"1899-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -1542,19 +1531,16 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"gine" },
 
 { ad:"Vukari (Wukari)", tur:"sehir", lat:7.8700, lon:9.7800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"jukun-kvararafa"},
      {f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Lokoca (Lokoja)", tur:"sehir", lat:7.8000, lon:6.7400, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"jukun-kvararafa"},
      {f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Nzerekore", tur:"sehir", lat:7.7600, lon:-8.8200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"dan-guro"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1566,19 +1552,16 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Makurdi", tur:"sehir", lat:7.7300, lon:8.5400, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"tiv"},
      {f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Buake (Bouaké)", tur:"sehir", lat:7.6900, lon:-5.0300, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"dan-guro"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Man", tur:"sehir", lat:7.4100, lon:-7.5500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"dan-guro"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1597,7 +1580,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"kamerun" },
 
 { ad:"Batangafo", tur:"sehir", lat:7.3000, lon:18.2800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"banda-gbaya"},
      {f:"1903-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1608,20 +1590,17 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Kaga-Bandoro", tur:"sehir", lat:6.9800, lon:19.1900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"banda-gbaya"},
      {f:"1903-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Notse", tur:"sehir", lat:6.9500, lon:1.1700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1884-07-05",d:"eve-notse"},
      {f:"1884-07-05",t:"1916-02-16",d:"almanya"},
      {f:"1916-02-16",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Daloa", tur:"sehir", lat:6.8800, lon:-6.4500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"dan-guro"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1634,13 +1613,11 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"kamerun" },
 
 { ad:"Bria", tur:"sehir", lat:6.5400, lon:21.9900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"banda-gbaya"},
      {f:"1903-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Bossangoa", tur:"sehir", lat:6.4900, lon:17.4500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"banda-gbaya"},
      {f:"1903-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1653,7 +1630,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"kamerun" },
 
 { ad:"Lagos (Eko)", tur:"sehir", lat:6.4500, lon:3.4000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1861-08-06",d:"benin-kralligi"},
      {f:"1861-08-06",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -1664,7 +1640,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Onitsha", tur:"sehir", lat:6.1500, lon:6.7900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1897-02-18",d:"benin-kralligi"},
      {f:"1897-02-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -1675,13 +1650,11 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Buar (Bouar)", tur:"sehir", lat:5.9400, lon:15.6000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"banda-gbaya"},
      {f:"1903-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Bambari", tur:"sehir", lat:5.7700, lon:20.6800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1903-01-01",d:"banda-gbaya"},
      {f:"1903-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1730,13 +1703,11 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Eski Kalabar", tur:"sehir", lat:4.9600, lon:8.3200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1884-09-10",d:"nijer-deltasi"},
      {f:"1884-09-10",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Sassandra", tur:"sehir", lat:4.9500, lon:-6.0800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1898-01-01",d:"dan-guro"},
      {f:"1898-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1760,13 +1731,11 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Grand Cess (Kru)", tur:"sehir", lat:4.5700, lon:-8.2100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1822-04-25",d:"kru-grebo"},
      {f:"1822-04-25",t:"1923-10-29",d:"liberya"}],
   kaynak:"bulunamadı — Kru sahilinin köklü denizci kasabalarından; Liberya'ya katılımı 1857 Maryland birleşmesiyle. 🔴 HARPER'A DOKUNULMADI: o 1834 Maryland kolonisi" },
 
 { ad:"Bonny", tur:"sehir", lat:4.4300, lon:7.1700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1884-09-10",d:"nijer-deltasi"},
      {f:"1884-09-10",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -1858,7 +1827,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Marsabit", tur:"sehir", lat:2.3300, lon:37.9900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1895-07-01",d:"kenya-kuzey-halklari"},
      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"kenya" },
@@ -1891,25 +1859,21 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Vacir (Wajir)", tur:"sehir", lat:1.7500, lon:40.0600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1895-07-01",d:"kenya-kuzey-halklari"},
      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"kenya" },
 
 { ad:"Masindi", tur:"sehir", lat:1.6800, lon:31.7200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-04-09",d:"bunyoro"},
      {f:"1899-04-09",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"uganda" },
 
 { ad:"İmpfondo", tur:"sehir", lat:1.6200, lon:18.0600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1880-10-03",d:"tio"},
      {f:"1880-10-03",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
 { ad:"Ouesso", tur:"sehir", lat:1.6100, lon:16.0500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1880-10-03",d:"tio"},
      {f:"1880-10-03",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
@@ -1920,7 +1884,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Hoima (Bunyoro)", tur:"sehir", lat:1.4300, lon:31.3500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1899-04-09",d:"bunyoro"},
      {f:"1899-04-09",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"uganda" },
@@ -1962,7 +1925,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"İsiolo", tur:"sehir", lat:0.3500, lon:37.5800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1895-07-01",d:"kenya-kuzey-halklari"},
      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"kenya" },
@@ -1993,7 +1955,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Garissa", tur:"sehir", lat:-0.4500, lon:39.6600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1895-07-01",d:"kenya-kuzey-halklari"},
      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"kenya" },
@@ -2047,7 +2008,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kitui", tur:"sehir", lat:-1.3700, lon:38.0100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1895-07-01",d:"kamba"},
      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -2218,7 +2178,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Pangani", tur:"sehir", lat:-5.4296, lon:38.9781, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
@@ -2253,21 +2212,18 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mpvapva", tur:"sehir", lat:-6.3500, lon:36.4900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1890-11-04",d:"nyamvezi"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
      {f:"1916-09-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"tanzanya" },
 
 { ad:"Morogoro", tur:"sehir", lat:-6.8200, lon:37.6600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1890-11-04",d:"nyamvezi"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
      {f:"1916-09-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"tanzanya" },
 
 { ad:"Kilosa", tur:"sehir", lat:-6.8300, lon:36.9900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1890-11-04",d:"nyamvezi"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
      {f:"1916-09-01",t:"1923-10-29",d:"ingiltere"}],
@@ -2299,7 +2255,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Sumbavanga", tur:"sehir", lat:-7.9700, lon:31.6200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1890-11-04",d:"fipa-nyakyusa"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
      {f:"1916-09-01",t:"1923-10-29",d:"ingiltere"}],
@@ -2318,14 +2273,12 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mbeya", tur:"sehir", lat:-8.9000, lon:33.4600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1890-11-04",d:"fipa-nyakyusa"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
      {f:"1916-09-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
 { ad:"Matamba", tur:"sehir", lat:-9.3000, lon:16.0000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1744-01-01",d:"matamba"},
      {f:"1744-01-01",t:"1923-10-29",d:"portekiz"}],
   kaynak:"bulunamadı" },
@@ -2395,7 +2348,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — Kyungu'nun makamı Mbande tepesi. 🔴 KARONGA'YA DOKUNULMADI: o 1880'ler Stevenson yolu karakolu, kur: çekilmedi. TDV malavi'nin 1887'si (Mlozi'nin sultanlık ilânı) zincirde" },
 
 { ad:"Lindi", tur:"sehir", lat:-10.0000, lon:39.7200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
@@ -2409,7 +2361,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"zambiya" },
 
 { ad:"Mikindani", tur:"sehir", lat:-10.2800, lon:40.1200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
      {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
@@ -2542,7 +2493,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kasempa", tur:"sehir", lat:-13.4600, lon:25.8300, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"kaonde-ila"},
      {f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -2623,7 +2573,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"zambiya" },
 
 { ad:"Mumbva", tur:"sehir", lat:-14.9800, lon:27.0600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"kaonde-ila"},
      {f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
@@ -2764,7 +2713,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"madagaskar" },
 
 { ad:"Toamasina (Tamatave)", tur:"sehir", lat:-18.1500, lon:49.4000, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
@@ -2776,21 +2724,18 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ambohimanga", tur:"sehir", lat:-18.7600, lon:47.5600, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
 
 { ad:"Tsiroanomandidy", tur:"sehir", lat:-18.7700, lon:46.0500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
 
 { ad:"Umtali (Mutare)", tur:"sehir", lat:-18.9700, lon:32.6700, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1891-01-01",d:"manica"},
      {f:"1891-01-01",t:"1923-10-29",d:"portekiz"}],
   kaynak:"mozambik" },
@@ -2861,7 +2806,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"madagaskar" },
 
 { ad:"Ambositra", tur:"sehir", lat:-20.5300, lon:47.2500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1830-01-01",d:"betsileo"},
      {f:"1830-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
@@ -2895,7 +2839,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Okahandja", tur:"sehir", lat:-21.9800, lon:16.9100, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1904-01-12",d:"herero"},
      {f:"1904-01-12",t:"1915-07-09",d:"almanya"},
      {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"}],
@@ -2907,7 +2850,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Otjimbingve", tur:"sehir", lat:-22.3500, lon:16.1300, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1904-01-12",d:"herero"},
      {f:"1904-01-12",t:"1915-07-09",d:"almanya"},
      {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"}],
@@ -2926,7 +2868,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"İhosy (Bara)", tur:"sehir", lat:-22.4000, lon:46.1200, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"antandroy"},
      {f:"1900-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
@@ -2975,7 +2916,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Rehoboth", tur:"sehir", lat:-23.3200, lon:17.0800, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
      {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
      {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"}],
@@ -3053,7 +2993,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ambovombe (Antandroy)", tur:"sehir", lat:-25.1700, lon:46.0900, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1900-01-01",d:"antandroy"},
      {f:"1900-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
@@ -3081,7 +3020,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Bethanie", tur:"sehir", lat:-26.4900, lon:17.1500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
      {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
      {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"}],
@@ -3135,7 +3073,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Varmbad (Warmbad)", tur:"sehir", lat:-28.4500, lon:18.7400, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
      {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
      {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"}],
@@ -3233,7 +3170,6 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gcuva (Butterworth)", tur:"sehir", lat:-32.3300, lon:28.1500, g:0, k:0,
-  kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1878-01-01",d:"xhosa"},
      {f:"1878-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — Gcaleka Xhosa'sının büyük yeri bu havzada; Butterworth misyonu 1827'de aynı yere kuruldu. 1281 XHOSA YERLEŞİMİNİN atlas ufkudur, KASABA tarihi DEĞİL" },

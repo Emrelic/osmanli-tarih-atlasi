@@ -1004,6 +1004,18 @@ window.BOS_ALANLAR = [
 
 ;
 /* ==== data/yerlesimler_amerika.js ==== */
+// 🔴 4 EKİM 2026 — 3 Taino cacicazgosundan `kur:"1281-01-01"` SİLİNDİ
+//    (Jaragua · Higüey · Camagüey). ONCE1281-KUR191'in süzgeci bunları
+//    KAÇIRMIŞTI: süzgeç "ilk sahiplik 1281 VE kur dolu" kesişimiydi, bu
+//    üçünün ilk SAHİBİ ise 1503/1504/1514 İspanya. Sınıf AYNI (ufuk
+//    tabanı, kaynak YOK), sayı 191 değil 194.
+// 🔴 AYNI GÜN, EKSİK KALAN YÜZ — silme GERİYE doğru NÖTR DEĞİLDİR:
+//    kur VARKEN  g=1000'de nokta YOK · kur YOKKEN g=1000 ve g=-5000'de VAR.
+//    Yani bu kayıtlar artık "ezelden beri var". Taino (~600-1500), Inuit,
+//    Xhosa yerleşimleri için bu kur:1281 kadar yanlıştır — ÖBÜR YÖNE.
+//    ⇒ 1281 ÖNCESİ KAMPANYANIN İKİNCİ KAPISI: her nokta için ya KAYNAKLI
+//      bir kur yazılacak, ya o nokta kapsam dışı bırakılacak. Ufuk geriye
+//      açılmadan bu kapı kapanmalı. (ONCE1281-KUR191 bu yüzü ölçmemişti.)
 // ============================================================================
 // YERLEŞİM VERİ SETİ — AMERİKA KITASI  (Oturum: NOKTA AMERİKA, 13 Ağustos 2026)
 // ============================================================================
@@ -2033,7 +2045,7 @@ window.YERLESIMLER_AMERIKA = [
 // ============================================================================
 
 { ad:"Jaragua (Taino cacicazgosu)", tur:"bolge", lat:18.5108, lon:-72.6338, g:0, k:0,
-  kur:"1281-01-01", kasitli_bosluk:true, bos:"devletsiz",
+  kasitli_bosluk:true, bos:"devletsiz",
   neden:"Beş büyük Taino cacicazgosundan biri (Behechio, sonra Anacaona); kaynak siyasi birleşik otoriteyi AÇIKÇA tanımlıyor. 1503'te Vali Ovando'nun Yaguana katliamıyla fiilen yıkıldı.",
   s:[{f:"1503-01-01",t:"1697-09-20",d:"ispanya"},
      {f:"1697-09-20",t:"1792-09-22",d:"fransa"},
@@ -2043,7 +2055,7 @@ window.YERLESIMLER_AMERIKA = [
 //         Alabama Press, 1990). Ryswick Antlaşması (1697-09-20) adanın batı üçte birini Fransa'ya verdi.
 
 { ad:"Higüey (Taino cacicazgosu)", tur:"bolge", lat:18.6144, lon:-68.7047, g:0, k:0,
-  kur:"1281-01-01", kasitli_bosluk:true, bos:"devletsiz",
+  kasitli_bosluk:true, bos:"devletsiz",
   neden:"Beş büyük Taino cacicazgosundan biri (Cayacoa, sonra Cotubanamá); Higüey Savaşı (1503-1504) ile yıkıldı.",
   s:[{f:"1504-01-01",t:"1795-07-22",d:"ispanya"},
      {f:"1795-07-22",t:"1809-07-09",d:"fransa-cumhuriyet"},
@@ -2098,7 +2110,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Küba'nın idari başkenti (1553'ten) — k:1
 
 { ad:"Camagüey bölgesi (Taino)", tur:"bolge", lat:21.3808, lon:-77.9169, g:0, k:0,
-  kur:"1281-01-01", kasitli_bosluk:true, bos:"devletsiz",
+  kasitli_bosluk:true, bos:"devletsiz",
   neden:"Küba'nın orta kesimindeki Taino/Ciboney toprağı; Diego Velázquez'in 1513-1515 fetih seferleri bölgeyi İspanyol idaresine soktu.",
   s:[{f:"1514-01-01",t:"1898-12-10",d:"ispanya"},
      {f:"1898-12-10",t:"1902-05-20",d:"abd"},
