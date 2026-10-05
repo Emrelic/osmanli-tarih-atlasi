@@ -294,3 +294,109 @@ bu raporun işi değil (§4 kaynak kuralı). Ayrıca üç ABD noktasına (Tubac 
   sınırına denk gelmiyor (iki yaka aynı bugünkü ülke) ya da hat su üstünde/çok kısa.
 - **③** becuanaland-guney-afrika ve guneyrodezya-guney-afrika: **ikisi de TERS** (G tek taraf
   sinyali 37/12 ve 8/37 yönünde).
+
+## 9.1 Ölçüm ortamı
+`origin/main 3e5fcdae` (40b27db5 + iki tahta commit'i) detached + gövde `8b6aaea5`. Her betik başta/sonda
+`HEAD=3e5fcdae`. 8a bugün **1574** (tavan 1574) — evren: defterin `hatlar`ı (372). Yaka yöntemleri:
+**N** nokta · **S** sonda · **G** NE bugünkü ülke (§8.③) + bu turda: **G-ince** (0,5/1/2 km sonda, kısa hatlar
+için) · **YÖN** (baş→son vektörü; SOL = yönün solu, kapalı halkada işaretli alan) · **HALEF** (sömürge künyesi →
+bugünkü halef ülke: GHA = Altın Kıyısı, SLE = Siyera Leone, ZWE = G. Rodezya, GNB = Portekiz Ginesi, SEN/GIN/CIV
+= Fransız Batı Afrikası, MOZ = Mozambik). Betikler: `d8_kapat.py` · `d8_kapat2.py` · `d8_k3.py` · `d8_cog_ham.py`.
+
+## 9.2 ① ATLANAN 6 (evren: kapının `atlanan` listesi, 6)
+| hat | yön (baş → son) | SOL yaka (bugün) | SAĞ yaka | taraf noktaları | hüküm: `sol_taraf` |
+|---|---|---|---|---|---|
+| `d1923-ca-us-bati-1` | 49°K boyunca BATIYA, Point Roberts yarımadası (4 km) | Boundary Bay / Point Roberts (DENİZ 4) — güney | CAN 4 — kuzey | Kanada: Fort Langley 39 km SAĞ | **`abd`** — Point Roberts 49°K'nin güneyi, ABD |
+| `g4-bna-us-bati-1` | aynı geometri (1846–1871) | aynı | aynı | İKA: Fort Langley SAĞ | **`abd`** |
+| `d1923-ir-hind-BILINMIYOR` | KUZEYDEN GÜNEYE `[60.84,29.86]→[61.59,25.20]` | PAK 733 / 743 — doğu | IRN 730 / 732 — batı | Kaçar 107/108 IRN, yakın olanlar SAĞ (Hâş, Bempûr) | **`ingiliz-hindistani`** (evren dışı; kayıt "bugünkü çizgi vekil OLAMAZ" diyor — yaka bundan etkilenmez) |
+| `d1923-us-cu-guantanamo-2` | KKB'ye `[-75.095,19.897]→[-75.137,19.972]` (12,7 km, 3 tepe) | USG 3 (ABD deniz üssü) + deniz 2 — GB | CUB 6 + deniz 6 — KD | Küba: Santiago 72, Baracoa 75 km SAĞ | **`abd`** (üs, KD çit hattının GB'sinde) — kısa hat, sonda az |
+| `d1923-necid-kuveyt-tarafsiz-bati` | KUZEYDEN GGD'ye `[47.47,29.00]→[47.71,28.52]` | **Tarafsız Bölge** (bugün KWT 53 — 1969 sonrası taksim) — doğu | Necid (SAU 58) — batı | Necid 20 SAU | 🔴 **UYMUYOR** — yakalardan biri ÜÇÜNCÜ ALAN (ortak hak). Kaydın notu da böyle. |
+| `d1923-necid-kuveyt-tarafsiz-guney-C` | DGD'ye `[47.71,28.52]→[48.60,28.23]` | **Tarafsız Bölge** (kuzey) | Necid (güney) | — | 🔴 **UYMUYOR** — aynı yapı. (Kategori C.) |
+
+**Öngörü TUTTU: 4 yaka / 2 yapısal uymaz.** Tarafsız bölge ikilisi için yaka UYDURULMADI.
+📌 Neden zorla `kuveyt` yazmak yanlış olurdu — ÖLÇÜLDÜ: motor 1922-12-02'de Necid–Kuveyt Tarafsız Bölgesi'nin
+içini (`48.15, 28.55`) **`kuveyt` olarak boyuyor**. `sol=kuveyt` yazılırsa 8a motorun seçimini ölçer, tarihi
+değil — at-cs'deki gibi "kendi toprağı" üyesi üretir. Irak–Necid Tarafsız Bölgesi'nin içi (`45.6, 29.05`) ise
+o gün **boş** (hiçbir gövde yok).
+🔴 **Ve aynı yapı ETİKETLİ üç hatta daha var** (sol_taraf DOLU olduğu için kapı onları ölçüyor):
+```
+d1923-necid-kuveyt-yay          sol=kuveyt (kuzey ✓) · SAĞ = Tarafsız Bölge, kayıt sag=suud diyor  · defterde 2 üye: sag|Kuveyt ×2
+d1923-iq-necd-tarafsiz-kuzey    sol=irak (kuzey ✓)   · SAĞ = Irak–Necid Tarafsız Bölgesi           · 0 üye
+d1923-iq-necd-tarafsiz-guney    sol=suud (güney ✓)   · SAĞ = Irak–Necid Tarafsız Bölgesi           · 0 üye
+```
+`necid-kuveyt-yay`ın 2 üyesi = motorun `kuveyt` diye boyadığı tarafsız bölgenin "Necid yakasında Kuveyt"
+sayılması ⇒ at-cs sınıfı sahte üye. Kayıtların kendi notları ("Güney yakası Necid DEĞİL, Tarafsız Bölge")
+bunu zaten söylüyor; kod okumuyor.
+
+## 9.3 ② G-ÖLÇÜLEMEYEN 20 (evren: §8.③ G ÖLÇÜLEMEDİ kovası, defter evreninde 20)
+**(β) G ile YAPISAL olarak ölçülemez — 11** (hat bugün bir ülke sınırı değil ⇒ iki yaka AYNI bugünkü ülke;
+"bugünkü sınıra ≤3 km tepe" ölçüsüyle):
+| hat | bugün sınıra yakın tepe | iki yaka bugün | niçin yapısal | başka yöntemle yaka |
+|---|---|---|---|---|
+| `d1923-ro-su` | 92/395 | UKR+MDA / MDA+UKR | Dinyester bugün Moldova'nın (Transdinyester) İÇİNDEN akıyor | N DOĞRU (Romen 15 SAĞ, Sovyet 18 SOL) · S DOĞRU · YÖN GD ⇒ sol=KD ✓ **DOĞRU** |
+| `d1923-jp-sscb-sahalin` + `-gecici` + `-rusya` (3) | 0/2 | RUS / RUS | 50°K paraleli; Sahalin 1945'ten beri tümüyle Rusya | N DOĞRU (Japon 4 SAĞ) · S DOĞRU · YÖN B→D ⇒ sol=kuzey ✓ **DOĞRU** |
+| `d1913-londra-enez-midye` | 1/2 | TUR / TUR | Enez–Midye hattı bugün Türkiye'nin içi | N DOĞRU (Bulgar 42 SOL) · S DOĞRU · YÖN KD ⇒ sol=KB ✓ **DOĞRU** |
+| `d1923-iq-necd-ukayr` | 3/7 | SAU+IRQ / IRQ+SAU | 1922 Ukayr hattı bugünkü sınırla örtüşmüyor | N (Irak 8 SAĞ / 1 SOL, Necid 3 SOL) · YÖN KB ⇒ sol=GB ✓ **DOĞRU** |
+| `d1923-tr-sy-bati` | 1/2 | TUR / TUR | 1921 Ankara hattı; Hatay 1939'dan beri Türkiye | N DOĞRU (TBMM 27 SOL) · S DOĞRU · YÖN D ⇒ sol=kuzey ✓ **DOĞRU** |
+| `d1923-necid-kuveyt-yay` | 1/17 | KWT / KWT | tarafsız bölgenin 1969 taksimi | **UYMUYOR** (§9.2) |
+| `d1923-necid-kuveyt-tarafsiz-guney-C` | 1/4 | SAU / SAU | aynı | **UYMUYOR** (§9.2) |
+| `d1923-iq-necd-tarafsiz-guney` | 2/3 | SAU / SAU | Irak–Necid tarafsız bölgesi 1981'de taksim edildi | **UYMUYOR** (§9.2) |
+| `d1923-iq-necd-tarafsiz-kuzey` | 2/3 | IRQ / IRQ | aynı | **UYMUYOR** (§9.2) |
+
+**(α) G'nin çözünürlüğü yetmedi, yapısal değil — 9** (hat bugünkü sınırda; kısa ya da yaka karışık):
+| hat | G niçin düştü | başka yöntem | hüküm |
+|---|---|---|---|
+| 🔴 `d1816-alm-ah-2` (6 üye) | 4,1 km; 3/6 km sondalar katlandı | **G-ince:** SOL 19/19 DEU · SAĞ 60/60 AUT · YÖN güneye ⇒ sol=DOĞU=Bavyera · Habsburg noktaları (Bregenz 40, Feldkirch 42 km) SAĞ | **TERS** — kayıt `habsburg`, olması gereken **`almanya`** (kardeşleri alm-ah-3 ve -4 `almanya` diyor) |
+| `d1919-at-cs-fiili-3` | 3,9 km; sol yaka CZE 1 / SVK 1 ⇒ pay < 0,6 | YÖN GD ⇒ sol=KD; SAĞ AUT 2 | **DOĞRU** (`cekoslovakya`) |
+| `d1923-ca-us-bati-1` | sol yaka deniz | §9.2 | yaka **`abd`** (etiket boş) |
+| `d1923-es-ma-melilla` | 11 km, sağ yakada 2 sonda | YÖN KB ⇒ sol=GB; SOL MAR 9 · SAĞ ESP 2 · Melilla 2 km SAĞ | **DOĞRU** (`fas`) |
+| `d1923-tr-sscb-nahcivan` | 13 km, üç ülke kavşağı (AZE/IRN/ARM) | YÖN güneye ⇒ sol=doğu=Nahçıvan; N DOĞRU (Şerur 16 km SOL) | **DOĞRU** (`sovyet-rusya`) |
+| `d1918-fi-su-fiili-2` | 7 km, sol yakada 1 sonda | YÖN GB ⇒ sol=GD; SOL RUS 1 · SAĞ FIN 6 · Fin noktaları SAĞ | **DOĞRU** (`sovyet-rusya`) — zayıf (1 sonda) |
+| `d1923-fr-es-llivia` | enklav halkası sonda derinliğinden küçük | halka SAAT YÖNÜNDE (işaretli alan −0,0014) ⇒ sol=DIŞ; iç bugün ESP | **DOĞRU** (`fransa-cumhuriyet` dışta) |
+| `d1923-it-at-yerde-1` | 2,4 km; sol yaka ITA 1 / SVN 1 | YÖN batıya ⇒ sol=güney; SAĞ AUT 2 | **DOĞRU** (`italya`) |
+| `d1923-sy-jo-1920` | 41/42 tepe sınırda ama sol yaka SYR 169 / JOR 138 ⇒ pay < 0,6 | N DOĞRU (Ürdün 2 SOL, Suriye 12 SAĞ) · S DOĞRU · YÖN BGB ⇒ sol=GGD | **DOĞRU** (`urdun-emirligi`) |
+
+**Öngörü (8 α / 12 β) KISMEN ÇÜRÜDÜ: 9 α / 11 β.** 20'nin hükmü: **14 DOĞRU · 1 TERS (alm-ah-2) · 1 etiket boş,
+yaka `abd` (ca-us-bati-1) · 4 UYMUYOR (tarafsız bölgeler).**
+
+### alm-ah-2 karşı-olgusalı (bellekte, `d8_k3.py`; evren: defter 372, bugün 1574)
+```
+(a) DÜŞEN 6   1816-05-01 & 1844-01-29 × sag: Bregenz 24,9 km/492 km² · Feldkirch 24,8/212 · Landeck 24,8/180
+              hepsi km≈25 ⇒ Habsburg gövdesi Habsburg yakasında (kendi toprağı) — at-cs ile aynı sınıf
+(b) GİREN 0
+(c) NET 1574 → 1568 (−6) · başka hatta oynayan üye 0
+```
+`necid-kuveyt-yay` ölçülemedi'ye alınırsa: 2 üye düşer (hatlar birbirinden bağımsız — at-cs ve alm-ah-2
+karşı-olgusallarında başka hiçbir hat oynamadı; bu aritmetik, ayrı koşulmadı) ⇒ ikisi birlikte 1574 → **1566**.
+
+## 9.4 ③ becuanaland-guney-afrika · guneyrodezya-guney-afrika — İKİSİ DE DOĞRU, öngörü ÇÜRÜDÜ
+```
+becuanaland-guney-afrika   YÖN [29.35,−22.19] → [19.98,−24.75] BATIYA ⇒ sol = GÜNEY · SOL ZAF 1385 · SAĞ BWA 1403
+                           sol_taraf = guney-afrika-birligi ⇒ DOĞRU
+guneyrodezya-guney-afrika  YÖN [29.35,−22.19] → [31.29,−22.40] DOĞUYA ⇒ sol = KUZEY · SOL ZWE 201 · SAĞ ZAF 198
+                           sol_taraf = ingiliz-guney-rodezya ⇒ DOĞRU
+```
+🔴 **§8.③'teki "TERS (tek taraf)" sinyalim bir ÖLÇÜM KUSURUYDU, geri çekiyorum.** `ingiliz-becuanaland` ve
+`ingiliz-guney-rodezya`nın harita anahtarı `ingiltere`; G tarafı noktalarını anahtarla eşlediği için dünyadaki
+BÜTÜN `ingiltere` noktalarını saydı (ZAF 37 · GBR 34 · NGA 22 …). `guney-afrika-birligi`nin o gün **0** noktası var.
+İki hat da 8a'da **tam kör** (iki günü de kör defterde) ⇒ tavana etkisi yok.
+**Bu kusurun öteki G hükümlerine sızıp sızmadığı ÖLÇÜLDÜ:** defter evreninde G DOĞRU 348 hattın 163'ünde bir tarafın
+anahtarı paylaşımlı; 128'ini N ya da S de doğruluyor; **35'i G'ye tek başına dayanıyordu** (120 üye). 35'i
+HAM künye kimliğiyle yeniden ölçüldü: 20 DOĞRU · 10 tek taraf DOĞRU · 5 taraf eşlenemedi (sömürge künyelerinin
+kendi kimliğiyle noktası YOK — `fransiz-bati-afrika`, `ingiliz-altin-kiyisi`, `ingiliz-siyera-leon`,
+`portekiz-gine`, `portekiz-mozambik`) ⇒ o 5'i HALEF ülkeyle: altinkiyisi L=GHA · fransiz-gine-sierra-leone L=SLE ·
+guney-rodezya-mozambik L=ZWE · fransiz-gine-portekiz-gine L=GNB · portekiz-gine-senegal L=SEN — **5'i de DOĞRU.**
+⇒ §8.③'ün evrendeki hükmü değişmedi; değişen yalnız evren dışı iki "ters adayı" (ikisi de DOĞRU).
+
+## 9.5 Özet — `sol_taraf` defterinin bugünkü hâli (evren: iki taraflı 450 hat)
+```
+TERS (düzeltilmeli)        2   d1923-at-cs (UYGULANDI, 40b27db5) · d1816-alm-ah-2 (YENİ — habsburg → almanya)
+BOŞ, yaka belirlendi       4   ca-us-bati-1 → abd · g4-bna-us-bati-1 → abd · ir-hind-BILINMIYOR → ingiliz-hindistani ·
+                               us-cu-guantanamo-2 → abd
+ÜÇÜNCÜ ALAN, uymaz         5   necid-kuveyt-tarafsiz-bati · necid-kuveyt-tarafsiz-guney-C (ikisi zaten atlanan) ·
+                               necid-kuveyt-yay (2 üye) · iq-necd-tarafsiz-kuzey · iq-necd-tarafsiz-guney (0 üye)
+```
+## 9.6 Bulunamayan
+- `guney-afrika-birligi`nin niçin noktasız olduğu (veri işi — ölçülmedi, yalnız gözlendi).
+- `fi-su-fiili-2` ve `us-cu-guantanamo-2` hükümleri az sondaya dayanıyor (1 ve 3); yön ile tutarlı ama zayıf.
+- Defter evreninde G ile hâlâ ölçülemeyen hat: 0 (20'nin 20'si başka yöntemle sınıflandı).
