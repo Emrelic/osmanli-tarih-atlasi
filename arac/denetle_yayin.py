@@ -1347,11 +1347,60 @@ def main():
     # ---- YAYIN BAYAT MI (sekiz denetimin ortak körlüğü)
     eksik, fazla, yontem, _bayat = bayat_mi()
     bayat = bool(_bayat)
+    # ═══════════════════════════════════════════════════════════════════════
+    # 🆕 🔴 BAYATLIĞIN YAŞI (Emre, 5 Ekim 2026) — "1-2 günlük bayatlık bayatlık
+    #   sayılmaz" · "yayın en son verilere göre yapılmalı · zaten koşu yapılırken
+    #   çalışmaya devam ediyoruz · gidip eski veriler yanlışlıkla önüne düşerse
+    #   orada sistem izin vermesin"
+    #
+    #   NİÇİN GEREKTİ (ölçüldü 5 Ekim): kapı, Emre'nin "DURDURMAZ" dediği bir
+    #   koşul için ✗ basıp ÇIKIŞ 1 veriyordu. Bütün çıktıda tek ✗ YAYIN BAYAT'tı;
+    #   sürüm damgası ✓, üretim izi 7/7 ✓, paketleme TAZE ✓. Yani kural "yayınla"
+    #   derken araç "ihlal" diyordu ⇒ kapının çıkış kodu yayın kararı için TEK
+    #   BAŞINA kullanılamaz hâle gelmişti. Bu, 4 Ekim'de `denetle.py`de kapatılan
+    #   kusurun AYNASI (orada araç "temiz" deyip 0 veriyordu).
+    #
+    #   ÖLÇÜ: çıktının girdiden KAÇ GÜN geride olduğu — git commit tarihleriyle.
+    #   Dosya mtime'ı KULLANILMAZ: `git checkout` onu sıfırlar ve "bayatlık yok"
+    #   yalanı söyler. Commit tarihi paylaşılan ağaçta da dürüsttür.
+    #
+    #   EŞİK 2 GÜN: Emre'nin "1-2 günlük" ifadesinin ÜST ucu. İki günü aşan
+    #   bayatlık DURDURUR — "eski veriler yanlışlıkla önüne düşerse sistem izin
+    #   vermesin" cümlesinin karşılığı budur.
+    # ═══════════════════════════════════════════════════════════════════════
+    BAYAT_TAZE_GUN = 2.0
+    bayat_gun = None
+    if _bayat:
+        try:
+            _gi = (_git("log", "-1", "--format=%ct", "--",
+                        "data/yerlesimler.js") or "").strip()
+            _co = (_git("log", "-1", "--format=%ct", "--",
+                        "data/donemler_on.js") or "").strip()
+            if _gi and _co:
+                bayat_gun = (int(_gi) - int(_co)) / 86400.0
+        except Exception:
+            bayat_gun = None       # ölçülemedi ⇒ DURDURUCU say (aşağıda)
+    # Durdurucu mu? Ölçülemediyse EVET — "ölçülemedi" taze SAYILMAZ.
+    bayat_durdurucu = bool(_bayat) and (bayat_gun is None
+                                        or bayat_gun > BAYAT_TAZE_GUN)
     print()
     if _bayat is None:
         print("!  yayın tazeliği ÖLÇÜLEMEDİ: %s" % yontem)
+    elif _bayat and not bayat_durdurucu:
+        print("ℹ️  yayın bayat ama TAZE SAYILIYOR — çıktı girdiden %.2f gün geride "
+              "(eşik %.0f gün)" % (bayat_gun, BAYAT_TAZE_GUN))
+        print("     Emre'nin hükmü (5 Ekim 2026): \"yayın en son verilere göre")
+        print("     yapılmalı; 1-2 günlük bayatlık bayatlık sayılmaz.\" Koşu")
+        print("     sürerken çalışmaya devam ediliyor ⇒ çıktı her zaman biraz")
+        print("     geride olur ve bu YAYINI DURDURMAZ.")
+        print("     ⚠️ Ama harita bu aralıkta kronolojiyi DOĞRULAMAZ: aşağıdaki")
+        print("     fark listesi o borcun kendisidir, gizlenmiyor.")
     elif _bayat:
-        print("✗  YAYIN BAYAT — üretim girdiden geride (%s)" % yontem)
+        _yas = ("%.2f gün" % bayat_gun) if bayat_gun is not None else "ÖLÇÜLEMEDİ"
+        print("✗  YAYIN BAYAT — üretim girdiden geride (%s) · YAŞ: %s > eşik %.0f gün"
+              % (yontem, _yas, BAYAT_TAZE_GUN))
+        print("     🔴 DURDURUCU: iki günü aşan bayatlık 'eski verinin yanlışlıkla")
+        print("        önüne düşmesi' sayılır (Emre, 5 Ekim). Koşu gerekiyor.")
         print("     data/donemler.js ve devletler_harita.js GİRDİYİ TEMSİL ETMİYOR;")
         print("     bu geometri üzerinde alınan HER ölçüm bayat sayı üretir.")
         if eksik:
@@ -1640,7 +1689,9 @@ def main():
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
             #   eden yalnız `iz_bayat` — ucuz üreticinin tazelenmemiş ürünü.
-            or damga_ihlali or bayat or izsiz or iz_bayat or _sz
+            # 🆕 5 Ekim 2026: `bayat` DEĞİL `bayat_durdurucu` — iki günden taze
+            #   bayatlık Emre'nin hükmüyle yayını DURDURMAZ (yukarı bak).
+            or damga_ihlali or bayat_durdurucu or izsiz or iz_bayat or _sz
             or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
             or _paket_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
