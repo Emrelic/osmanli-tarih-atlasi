@@ -172388,5 +172388,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5836",
+  "zaman": "2026-10-05 17:54",
+  "kimden": "PAKET-0083-D-ODAK-ISGAL",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · PAKET-0083-D-ODAK-ISGAL · 1877-04-24 93 Harbi (H-0001 · H-0011 · H-0012) ① ÖLÇTÜM: • MADDE: 1877-04-24'te üç kronoloji maddesi. ODAKSIZ olan ikisi DEVLET kronolojisinde: kronoloji_rusya.js:627 ve kronoloji_balkan.js:491 — yer_id:\"\" + kapsam_genis:true, hiçbir odak_* alanı yok (H-0011'in cevabı). Osmanlı listesindeki eşi olaylar_ek10.js:344 yer_kon:[47.0105,28.8638] (Kişinev) taşıyor → ODAKLI (odak_olc: ek10'da ODAKSIZ 0 · BEYANLI 0). • 🔴 KAMERA İKİ KOD YOLU — app.js:11835 atfı BAYAT (o satır bugün ek okuma kartı). (a) Devlet sekmesi maddeAc() app.js:15017-15054: yer_id yok + kapsam_genis → devletiYay(d.harita¦¦d.id) = DEVLETİN TÜM GÖVDESİ (Rusya maddesinde bütün Rus İmparatorluğu — \"tepeden geniş bakıyor\"). Bu yolda maddeOdakKutusu (odak_yer/odak_kimlik/odak_kutu_kaynak) HİÇ ÇAĞRILMIYOR, yer_kon da okunmuyor. (b) Ortak akış haritayiOlayaGotur() :12684-12760: odak varsa onun kutusu, yoksa donemler[di].b = Osmanlı kutusu. ⇒ odak_yer YALNIZ (b)'de işe yarar. Yan bulgu: odak_olc (b)'yi modelliyor; devlet sekmesindeki davranışı ölçmüyor — odak_yer yazılınca kapı \"KUTULU\" der, sekmede kamera yine imparatorluğa uçar. • SEFER OKLARI VAR: index.html:139 \"④ Harekât okları\" varsayılan AÇIK; savaslar.js SEFERLER[67] \"Rus ordusunun Kişinev'den Zimniça'ya ilerleyişi (1877)\" f 1877-04-24 → t 06-27. O gün Osmanlı listesinde madde olduğu için ok o gün belirir (app.js:5823). Yapılacak yok; kamera kadrajlarsa görünür. • İŞGAL: veride 1877 Rus isg: YOK (17 Romanya noktası 1877-04-24'te v:romanya, 1877-05-09'da s:romanya). TDV'de Romanya MÜTTEFİK, \"işgal\" kelimesi yok: doksanuc-harbi[25] \"Romanya topraklarına giren ve bu prensliği kendi tarafına çeken Ruslar\" · bogdan[127] · romanya[178-179] · doksanuc-harbi[38] \"Rus-Rumen kuvvetleri\". Ve Emre'nin ÖNCEKİ kararı veride yazılı (SEFERLER[67].kaynak): \"Romanya MÜTTEFİK: bu ok bir geçiştir, işgal DEĞİL (Emre kararı: taralı desen yalnız işgal)\". H-0012 şartlı (\"işgal edildiyse\") — şart kaynakta tutmuyor; H-0001'in tarama isteği önceki kararla ÇELİŞİYOR ⇒ Emre'ye geri. • 🔴 ASIL EKSİK İŞGAL — DOBRUCA: TDV aynı cümlede \"biri Dobruca … istikametinde\" diyor; Köstence · Babadağı · İshakçı · Silistre d:OSMANLI kesintisiz 1878-07-13'e kadar. Rus askerî denetimi haritada yok. ② BULAMADIM: Dobruca'ya Rus girişinin günü (TDV yalnız yön veriyor); Kişinev noktası atlasta yok (Bender/Soroka/Akkirman var); tarayıcı açılmadı — H-0012 görselindeki \"Romanya · tâbi\" etiketinin kaynağı görselle doğrulanmadı. ③ İSTİYORUM / ÖNERİM — kamera için üç seçenek: A) odak_yer:[\"Bender\",\"Bükreş\",\"Rusçuk\"] iki maddeye — DIFF HAZIR (denetim/PAKET-0083-D-ODAK-ISGAL.diff, git apply --check 0). (b) yolunu düzeltir, (a)'da ETKİSİZ. ⚠️ index.html bu dosyaları değil paket_06/paket_12'yi yüklüyor ⇒ uygulandıktan sonra arac/paketle.py ile yeniden paketleme şart. B) ÖNERİM: Kişinev noktası (47.0105, 28.8638 · s:rusya 1812-05-28→ Bender gibi · dayanak SEFERLER[67]'nin ЭСБЕ alıntısı) + iki maddeye yer_id:\"Kişinev\" — İKİ yolu da düzeltir. C) app.js maddeAc() maddeOdakKutusu'na baksın — js işi, genel çözüm. İşgal: Emre'ye tek soru — \"1877'de Romanya müttefikti (TDV); 'taralı desen yalnız işgal' kararınız duruyor mu, ok yeterli mi?\" Ayrıca Kuzey Dobruca 1877-78 Rus işgali ayrı kaynak kalemi. YAN BULGULAR: İbrail ve Yergöğü v:romanya 1878-07-13'e kadar, öteki 15 Romanya noktası s:romanya 1877-05-09'dan (aynı Eflak'ta iki bağımsızlık günü — görseldeki \"tâbi\" etiketinin muhtemel kaynağı) · Kahul v: kid'siz (görseldeki \"Cenûbî Besarabya\" etiketi) · 1877 Rus kazanımları üç biçimde (Niğbolu/Plevne s:, Dobruca hiç, 1806/1828 Prenslikler isg:). ÖNGÖRÜ: \"tek kusur: kapsam_genis + odak yok\" → sayı tuttu, mekanizma eksikti (iki madde × iki kod yolu; Osmanlı eşi ODAKLI) · isg yok ✓ · ittifak, işgal değil ✓ · sefer katmanı + 1877 kaydı VAR ✓. Dosyalar: denetim/PAKET-0083-D-ODAK-ISGAL.md + .diff · commit 6c05380f. Veriye/odak_*/ODAK-TAVAN.json'a dokunulmadı. Bekçi kurulmadı (talimat).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
