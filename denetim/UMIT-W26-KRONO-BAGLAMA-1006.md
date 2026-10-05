@@ -590,3 +590,107 @@ Bu sınırlar BENİM önerimdir, kaynaklı değildir. Çakışan pencerelerde "�
 - `C:\atlas-umit\denetim\UMIT-W26-KRONO-BAGLAMA-1006.md` (yeni)
 - Commit yok. `C:\atlas-w26` ağacı kaldırıldı.
 - Ölçüm betikleri scratchpad'de kaldı: `olc.js` · `det.js` · `pen.js` · `tablo.js` · `sinav.js`.
+
+
+---
+
+# EK — KRONO-EZILDI-1006b + KAPI-0929 temsil ölçütü (koordinatör, 6 Ekim)
+
+## E0. ÖNGÖRÜ — diff'ler YAZILMADAN ÖNCE mühürlendi
+| öngörü | değer |
+|---|---|
+| (c) çıkınca korunan | 54 → **71 ± 3** (yalnız (c) ile düşen 17 madde geri gelir) |
+| meşru düşüş | 174 → **157 ± 3** |
+| timurlu 1449 · safevi 1503 · karakoyunlu 1406 | üçü de KORUNUR |
+| ekranda MÜKERRER görünen künye maddesi (dosyada aynı olay var) | **17 ± 4** (yeni 14 + eski 3: kırım 1571, macaristan 1308, isveç 1714) — küçük ⇒ tavan GEREKMEZ |
+| kapı, yamalı app.js | EZİLEN (kayıp) **0** · TEMSİL **157 ± 3** · çıkış 0 (eşlenmeyen 15 dosya ayrı ihlal olarak hâlâ çıkış 1 verir) |
+| kapı, yamasız app.js | ekranda olmayan 228 · EZİLEN (kayıp) **71 ± 3** · TEMSİL **157 ± 3** · ÖTER |
+
+### E0'ın sonucu — öngörü tuttu mu
+| öngörü | ölçülen | |
+|---|---|---|
+| korunan 71 ± 3 | **72** | ✓ |
+| meşru düşüş 157 ± 3 | **156** | ✓ |
+| timurlu 1449 · safevi 1503 · karakoyunlu 1406 KORUNUR | üçü de ekranda (`kor.js`) | ✓ |
+| mükerrer 17 ± 4 | **17** | ✓ |
+| kapı yamalı: kayıp 0 · temsil 157 ± 3 | kayıp **0** · temsil **156** · çıkış 1 (yalnız 15 eşlenmeyen dosyadan) | ✓ |
+| kapı yamasız: düşen 228 · kayıp 71 ± 3 | düşen **228** · kayıp **72** · temsil **156** · ÖTER | ✓ |
+
+## E1. KRONO-EZILDI-1006b (`denetim/KRONO-EZILDI-1006b.diff`, 1006'nın ÜSTÜNE, yalnız `js/app.js`, 34 satır, CR 0)
+- (c) çıkarıldı. İstisna listesi YOK. `kronoTemsilEdiliyor` = (a) aynı gün ∨ (b) ±30 gün.
+- Gerekçe yorumu koda yazıldı (D263: `-01-01` "gün bilinmiyor"dur, yılla eşlemek sahte kesinliktir).
+- **Ek düzeltme `kronoGun`:** `Date.UTC(y, …)` 0-99 yıllarını 1900+y'ye kaydırıyordu. Örnek: 0050-12-31 ile 1950-12-31 "aynı gün" sayılıyordu. Artık `setUTCFullYear` kullanılıyor; sınav S9.
+  - Bugünkü veride etkisi yok, çünkü bağlı dosyaların en erken yılı 0645. Atlas MÖ 12000'e gidiyor; o yüzden düzeltildi.
+- Zincir sınandı: origin/main `62b34920` → 1006 → 1006b → kapı yaması. Sonuç `cmp` ile birebir ✓. `node --check` ✓.
+
+## E2. KAPI-0929 temsil ölçütü (`denetim/ARAC-KRONO-BAGLAMA-0929-KAPI-1006b.diff` — `.js` + `.py`, 127 satır, CR 0)
+**İkinci tanım YOK.** `.js`, `function kronoGun(` → `(function derinKronolojiBindir()` aralığını app.js'ten KESİP ayrı bir `vm` bağlamında koşar ve `kronoTemsilEdiliyor`u çağırır.
+- Yüklem bulunamazsa **ÖLÇÜLEMEDİ (çıkış 2)** — sessiz "hepsi kayıp" yok.
+- `--yuklem <yol>` yalnız sınav içindir: yamasız app.js'in DAVRANIŞINI yamalının YÜKLEMİYLE sınıflar. Kullanıldığında çıktıda `⚠️ SINAV KİPİ` basılır.
+
+Çıktı, iki sayı AYRI:
+```
+  ekrandan düşen künye maddesi: 156 (25 künye)
+  EZİLEN (kayıp): 0  ← İHLAL — dosyada temsil EDİLMİYOR, sitede GÖRÜNMEZ
+  TEMSİL EDİLİYOR (meşru düşüş): 156  ← kusur değil (dosyada aynı gün ya da ±30 gün)
+```
+- Künye başına `KAYIP n · temsil m`; her kayıp maddesi `✗ id tarih başlık` diye adıyla basılır.
+- Çıkış: `1` = eşlenmeyen dosya VAR ya da kayıp > 0. Meşru düşüş çıkışı ETKİLEMEZ.
+- JSON alanları değişti: `karsiliksiz`/`karsiliksiz_madde` → `dusen` · `kayip` · `temsil` · `kayip_madde` · `temsil_madde`. Bu alanları okuyan başka bir dosya aradım (`grep karsiliksiz`): `.py` dışında tüketicisi YOK.
+
+### İki yönlü sınav
+| koşul | düşen | EZİLEN (kayıp) | TEMSİL | çıkış |
+|---|---|---|---|---|
+| yamalı app.js (1006+1006b) | 156 | **0** | 156 | 1 — yalnız 15 eşlenmeyen dosya |
+| YAMASIZ app.js + 1006b yüklemi (`--yuklem`) | **228** | **72** (adıyla basıldı) ÖTTÜ | 156 | 1 |
+| YAMASIZ app.js, `--yuklem` yok | — | — | — | **2 ÖLÇÜLEMEDİ** (yüklem yok) |
+| sentetik `sinav.js` (gerçek kesit) | | | | **10/10** — S4 artık KALIR (yıl hassas, 60 gün) · S4b yıl hassas, yıl sınırında 1 gün → düşer · S9 0050 ≠ 1950 |
+
+📌 "Yamasız 228 ötmeli" şartı: yamasız app.js 228 maddeyi ekrandan düşürüyor. Kapı bunun 72'sini KAYIP (ihlal) diye öttürüyor; 156'sını meşru düşüş diye ayrı basıyor. 228'in tamamı ihlal DEĞİLDİR — ayrımın amacı tam da bu.
+⚠️ Kapının ihlal çıkışını tek başına sınamak için eşlenmeyen 15 dosyasız bir evren kurulmadı. Çıkış ifadesi `e or kayip`; `kayip` bileşeni yamasız koşuda 72 olarak ölçüldü.
+
+## E3. MÜKERRER ölçümü (koordinatör şartı)
+Korunan **72** künye maddesinin **28**'inde dosyada aynı yılda madde var. 28'i tek tek okundu:
+
+**MÜKERRER — aynı olay, farklı gün: 17**
+| künye | künye maddesi | dosyadaki karşılığı |
+|---|---|---|
+| venedik | 1645-01-01 Girit Savaşı başladı | 1645-08-22 Girit Savaşı'nın başlaması, Hanya |
+| memluk | 1382-01-01 Burcî, Bahrî'nin yerini aldı | 1382-11-27 Berkuk tahta — Bahrî'den Burcî'ye |
+| kirim | 1571-05-24 Devlet Giray Moskova'yı yaktı | 1571-01-01 … Moskova önlerine ulaştı ve şehri ateşe verdi |
+| macaristan | 1308-06-15 Anjou Károly tahta çıktı | 1308-11-27 Károly Róbert'in kral ilanı |
+| fransa | 1536-01-01 Kapitülasyonlar | 1536-02-18 Kapitülasyonlar |
+| akkoyunlu | 1467-01-01 Karakoyunlu'yu yıktı | 1467-11-10 Bingöl baskını |
+| karakoyunlu | 1410-01-01 Celâyirli'yi yıkıp Bağdat | 1410-08-30 Esed zaferi |
+| karakoyunlu | 1420-01-01 Kara Yûsuf'un ölümü | 1420-11-13 Kara Yûsuf öldü |
+| karakoyunlu | 1438-01-01 Cihanşah tahta | 1438-04-19 Cihan Şah tahta |
+| karakoyunlu | 1447-01-01 Şâhruh'un ölümüyle | 1447-03-13 Şâhruh'un ölümü |
+| isvec | 1714-02-01 Osmanlı topraklarını terk | 1714-10-11 XII. Karl ayrıldı |
+| timurlu | 1400-01-01 Halep ve Şam | 1400-10-01 Halep'in düşüşü |
+| timurlu | 1409-01-01 Şâhruh başa geçti | 1409-05-01 Şahruh Semerkant'ı alıp birlik |
+| atina-dukaligi | 1388-01-01 Nerio Atina'yı aldı | 1388-05-02 aynı |
+| gurcistan | 1578-01-01 Tiflis'i ele geçirdi | 1578-08-24 Tiflis'in fethi |
+| katalan | 1303-01-01 Kumpanya Bizans hizmetine | 1303-09-01 aynı |
+| naksa-dukaligi | 1537-01-01 Barbaros haraca bağladı | 1537-11-01 aynı |
+
+**AYRI olay (korunması doğru): 11**
+- Koordinatörün sınaması istediği üç madde: timurlu 1449 Uluğ Bey tahta · safevi 1503 Diyarbekir/Bağdat/Musul · karakoyunlu 1406 Tebriz.
+- Öbürleri:
+  - lehistan 1620-09 Hotin savaşları başladı / Cecora 10-07
+  - venedik 1684 Mora'yı fethetti / Kutsal İttifak'a katılma
+  - macaristan 1443-11 İzladi / Uzun Sefer başı
+  - almanya 1806-08-06 Kutsal Roma ilga / Jena
+  - timurlu 1398-12-17 Delhi / sefer kararı
+  - timurlu 1405-02-18 Timur öldü / taht mücadelesi 04-01
+  - safevi 1501-07 Tebriz / Şarur 04-01
+  - safevi 1524-05-23 İsmail öldü / son yıllar
+
+**Hüküm:** 17 mükerrer küçük. Bütün korunanların %24'ü, bağlı 2.479 maddenin %0,7'si. ⇒ **Tavan GEREKMEZ.**
+- 17'nin 14'ü künye tarafında, 1'i (kırım 1571) dosya tarafında `-01-01` (gün bilinmiyor); 2'si (macaristan 1308, isveç 1714) iki tarafta da gün hassas ama farklı. Çaresi veri tarafında: künye maddesini silmek ya da dosyadaki günle düzeltmek, kaynakla.
+- Bu 17 + §1.4'ün 25 tarih çelişkisi aynı kaynak araştırmasına girer. Kesişim büyüktür: 25'in 14'ü zaten bu liste (1006'da (c) ile düşüp şimdi korunanlar).
+
+## E4. Değişen dosyalar (atlas-umit, commit yok)
+- `denetim/KRONO-EZILDI-1006b.diff` (yeni) — 1006'nın üstüne
+- `denetim/ARAC-KRONO-BAGLAMA-0929-KAPI-1006b.diff` (yeni) — kapının `.js` + `.py`'si
+- `denetim/UMIT-W26-KRONO-BAGLAMA-1006.md` (bu ek)
+- `C:\atlas-w26` kaldırıldı.
