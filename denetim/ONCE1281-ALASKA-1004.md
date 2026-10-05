@@ -95,3 +95,17 @@ yalnız `kanada` → `abd` değişimini öneriyorum.
 - Simülasyon: önerilen 5 nokta düzeltmesi Değişmez 2 ve 2s AÇIK'ı **değiştirmiyor** (Δ 0) — kapı ötmez.
 - **③** `dene` var, 1281–1899 penceresi 1867'yi tutuyor (`f` kenetli, not edildi).
 - **④** Natashquan: `innu` künyesi açılsın (önerim a); Fransız geçiş günü ayrı, ölçülmedi.
+
+## DIFF — öngörü (ölçümden ÖNCE, 5 Ekim 2026)
+
+- Diff: tek dosya (`data/yerlesimler_kamerika.js`), 5 hunk; her noktada `s:` satırı değişir +
+  1-2 satır beyan yorumu ⇒ **~10 `-`/`+` satırı, toplam diff ~45-60 satır.**
+- `git apply --check` ana çalışma ağacında: **temiz.**
+- `denetle.py` worktree'de: **çıkış kodu taban ile AYNI**; Değişmez 1 sahipsiz sayısı aynı
+  (Alaska noktaları zaten sahipli kalıyor), Değişmez 2 **622 / 0 açık**, 2s AÇIK **189** (Δ 0 —
+  bellekteki simülasyonla aynı). Yeni ihlal 0.
+- İki yönlü sahiplik sınavı: 1900-01-01'de 5 noktanın sahibi ÖNCE `kanada` → SONRA `abd`;
+  1500-01-01'de 4 Alaska içi ÖNCE `ingiltere` → SONRA `dene`; Fort Yukon 1850'de DEĞİŞMEZ
+  (`ingiliz-kuzey-amerika`); geri kalan 4293 noktanın hiçbir sınav gününde sahibi DEĞİŞMEZ.
+- Yan bulgu (diff DIŞI): Nabesna/Northway `dene → abd` geçişi 1899-06-21 (Kanada Antlaşma 8
+  günü) — Alaska'da olduğu için 1867-10-18 olmalı.
