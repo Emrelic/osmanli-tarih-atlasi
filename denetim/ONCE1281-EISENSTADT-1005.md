@@ -27,3 +27,26 @@ Oturum: ONCE1281-MOTOR-UFUK-1004 · 5 Ekim 2026 · **Veriye yazılmadı.** Taban
 4c 127 · 4d 324 (`avusturya-cumhuriyet` f 1918-11-12 < 1920) · 2s: 1920-06-04 Trianon kovasına 1 birim (taraf: başlık
 "Macaristan" ⇒ kapanır), AÇIK 188 · 2sk TARAF +1 · D7: Eisenstadt `avusturya-cumhuriyet` gövdesine BİTİŞİK (Viyana 50 km) ⇒ +0 ·
 D1 309.
+
+## 4. ÖLÇÜM (öngörü `0d0438ab`'den SONRA · `eis_sim.py`, bellekte)
+🔴 **§0 YANLIŞTI:** atlas Eisenstadt'ı ZATEN Avusturya'ya geçiriyor — `data/yerlesimler_p77_avrupa.js` (AVRUPA-SINIR-0077, 27 Eyl):
+`macaristan-naiplik` 1918-11-11 → **1921-11-13** · `avusturya-cumhuriyet` 1921-11-13 → 1923-10-29. Kaynak: AEIOU "Burgenland/
+Geschichte" + Theresianische Militärakademie (*"Als am 13. November 1921 mit Zustimmung der Alliierten Kommission das Bundesheer
+in das Burgenland einrückte"*), **bölge günü olarak beyanlı**. "Atlasta yok" cümlesini `avus109` notundan taşıdım, veriye
+bakmadan — `D207`/`D224` ailesi kusurum. (BMI 2021 metni aynı günü bağımsız teyit ediyor: 11 Kasım onay + "zwei Tage später".)
+
+| | 2s AÇIK | 2sk TARAF | 2i | 4c · 4d · D1 · D7 |
+|---|---|---|---|---|
+| BUGÜN (fiilî 1921-11-13) | 188 | 1635 | 154/1 | 127 · 324 · 309 · 727 |
+| **F8: `s:` Trianon 1920-06-04, `isg:` yok** | **187** | 1636 | 154/1 | aynı |
+| F8 + `isg: macaristan-naiplik` 1920-06-04 → 1921-11-13 | 187 | 1636 | 155/1 | aynı |
+- **Bugünkü 1921-11-13 kırılması 2s'de AÇIK** — en yakın madde *"Büyükelçiler Konferansı Arnavutluk sınırlarını onayladı"*
+  (alakasız). F8 kırılmayı Trianon kovasına taşır, taraf koluyla kapanır ⇒ **2s 188 → 187** (öngörü 188 ❌ — bugünkü açığı
+  görmemiştim). 2sk +1 (öngörü ✅). D7, 4c, 4d, D1 aynı (öngörü ✅).
+- Bu TERS bir F8 vakası: hukukî devir (Trianon) fiilîden (Kasım 1921) ÖNCE. Fiilî Macar tutuşu `isg:` ile yazılırsa (bölge
+  günü, beyanlı) 2i'ye 1 kırılma eklenir; o da yakın-alakasız maddeyle kapanır ⇒ yazılacaksa madde ister:
+  *"Avusturya Bundesheer'i Burgenland'a girdi (1921-11-13)"* — kaynak milak.at + BMI *Öffentliche Sicherheit* 7-8/2021.
+
+## 5. İSTENEN
+F8 tutarlılığı için önerim: `s:` Trianon (1920-06-04) + `isg: macaristan-naiplik` → 1921-11-13 (bölge günü beyanıyla) + 1921-11-13
+maddesi. Daha dar seçenek: yalnız `s:` Trianon (`isg:` yok) — 2s yine 187. Karar sende; seçilince diff'i Berlin usulüyle yazarım.
