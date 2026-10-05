@@ -4445,7 +4445,20 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1585
+BEKLENEN_D8A = 1574   # 1585 → 1574, 5 Ekim 2026. İKİ KUSUR giderilerek İNDİ, aşılarak değil.
+#   ① `d1923-at-cs` sol_taraf TERS'ti (LAB-D8-UYE-1005). 1584 → 1578.
+#      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
+#      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
+#      Třeboň · České Budějovice]  —  GİREN 10 (hattın GİZLEDİĞİ gerçek taşmalar):
+#      Gmünd AT→ÇS 24,9 km/1020 km² · Freistadt 16,1/400 · Linz 10,2/120 ·
+#      Brno ÇS→AT 10,3/132 · Bratislava 12,5/64 (iki gün).
+#      🔴 NET −6, ama ÜYELİK 26 kişi oynadı: net sayı hareketi GİZLER.
+#   ② BOŞ `sol_taraf` artık ölçülemedi (yukarıda ~4713). 1578 → 1574.
+#      6 hat `atlanan`a düştü ADIYLA: d1923-ca-us-bati-1 · d1923-ir-hind-BILINMIYOR ·
+#      d1923-necid-kuveyt-tarafsiz-bati · d1923-necid-kuveyt-tarafsiz-guney-C ·
+#      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
+#      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
+#   ⇒ 1574 bir ONAY değil DONDURMA: ölçülemeyen 6 hat kapandıkça sayı yine oynar.
 BEKLENEN_D8B = 84
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
@@ -4710,7 +4723,23 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
             continue
         sinif = r.get("sinif") or r.get("kategori") or "?"
         hedef = a_tasma if sinif in D8_SINIF else a_kaba
-        sol = r.get("sol_taraf") or r["taraflar"][0]
+        # 🔴 BOŞ `sol_taraf` YAZI-TURA DEĞİL, ÖLÇÜLEMEDİ (LAB-D8-UYE-1005, 5 Ekim 2026).
+        # Eski satır: `sol = r.get("sol_taraf") or r["taraflar"][0]` — `sol_taraf` boşsa
+        # listenin İLK tarafını sol VARSAYIYORDU. Bu bir ölçüm değil bir kura; ve yanlış
+        # geldiğinde sessizce SAHTE ÜYE üretiyordu. Ölçülen vaka:
+        # `d1923-necid-kuveyt-tarafsiz-bati` — sol_taraf null, kod `suud`u sol saydı,
+        # Natural Earth bugünkü ülke L=KWT diyor ⇒ ters; 2 sahte 8a üyesi (sol|Kuveyt ×2).
+        # ⇒ Artık ADIYLA `atlanan`a düşer: `d8_atlanan_kapi` yeni üyeyi ✗ ile ötürür, yani
+        #   belirsizlik GİZLENMEZ, GÖRÜNÜR. Bir hattın yakası bilinmiyorsa "aştı/aşmadı"
+        #   sorusu o hat için SORULAMAZ — `ölçülemedi ≠ yok ≠ temiz`.
+        # ⚠️ `taraflar[0]`a geri dönmek CAZİP ama yanlış: iki yakadan birini seçmek
+        #   %50 isabetle ölçüm üretir, ve sayı güven telkin eder (bu projenin
+        #   "yanlış alanla ölçmek ölçmemekten tehlikelidir" dersi).
+        if not r.get("sol_taraf"):
+            atlanan.append((r["id"], "sol_taraf BOŞ: hangi yaka hangi devlet ÖLÇÜLEMEDİ "
+                                     "(taraflar[0] varsayımı kaldırıldı)"))
+            continue
+        sol = r["sol_taraf"]
         sag = [t for t in r["taraflar"] if t != sol]
         sag = sag[0] if sag else r["taraflar"][1]
         xs = [q[0] for p in parcalar for q in p]
