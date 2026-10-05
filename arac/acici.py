@@ -193,6 +193,20 @@ def main():
     sunucu = ThreadingHTTPServer(("0.0.0.0", port), Kapi)
     gunluk("ACICI ayakta · makine=%s · port=%d · eylemler=%s"
            % (socket.gethostname(), port, ", ".join(sorted(EYLEMLER))))
+    # 🆕 5 Ekim 2026 (Emre: "bilgisayarlar açıldığında Claude'ların açılarak tepside yer
+    #   almasını sağlayalım"). Ölçüldü: Claude Desktop'ın NE Startup'ta NE registry
+    #   Run'da açılış kaydı vardı — açıcı geliyordu, Claude gelmiyordu.
+    #   AUMID makineye göre değişebildiği için `.cmd`ye GÖMÜLMEZ; ölçümü burada
+    #   (`_aumid_olc`) kalır ve her makinede kendi gerçeğini bulur.
+    if "--acilista-claude" in sys.argv:
+        try:
+            sonuc = ey_claude_ac()
+            gunluk("ACILISTA CLAUDE: %s" % str(sonuc)[:160])
+        except Exception as e:
+            # Açılışta Claude açılamazsa DİNLEYİCİ YİNE AYAKTA KALIR — yoksa tek
+            # bir hata bütün uzaktan erişimi öldürür (yumurta-tavuk).
+            gunluk("ACILISTA CLAUDE BASARISIZ (%s) — dinleyici ayakta kaliyor"
+                   % type(e).__name__)
     try:
         sunucu.serve_forever()
     except KeyboardInterrupt:
