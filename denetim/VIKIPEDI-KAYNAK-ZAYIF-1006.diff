@@ -1,5 +1,5 @@
 diff --git a/data/yerlesimler_a78_amerika.js b/data/yerlesimler_a78_amerika.js
-index f335bc50..08b9cc33 100644
+index f335bc50..12e80224 100644
 --- a/data/yerlesimler_a78_amerika.js
 +++ b/data/yerlesimler_a78_amerika.js
 @@ -1645,7 +1645,8 @@ window.YERLESIMLER_A78_AMERIKA = [
@@ -7,13 +7,13 @@ index f335bc50..08b9cc33 100644
    s:[{f:"1864-07-27",t:"1923-10-29",d:"venezuela-cumhuriyeti"}],
    kaynak:"Fundación Empresas Polar, Diccionario de Historia de Venezuela (BiblioFEP), 'Amazonas, territorio federal', https://bibliofep.fundacionempresaspolar.org/dhv/entradas/a/amazonas-territorio-federal/ — \"quedó organizado en 3 departamentos: San Fernando de Atabapo, Maroa y San Carlos\"",
 -  neden:"Guainía/Río Negro üzerindeki eski misyon köyü; 1864-07-27 kararıyla Amazonas Territorio Federal departman merkezi, 1880'de kısa süre Amazonas territorio başkenti. Hedef Kolombiya Guainía'sında; 1923'te orada Kolombiya idaresi yok, en yakın idareli yer Maroa.",
-+  neden:"Guainía/Río Negro üzerindeki eski misyon köyü; 1864-07-27 kararıyla Amazonas Territorio Federal departman merkezi, 1880'de kısa süre Amazonas territorio başkenti. Hedef Kolombiya Guainía'sında; 1923'te orada Kolombiya idaresi yok, en yakın idareli yer Maroa. · dogrulanmadi (UMIT-W18-VIKIPEDI-JASENOVAC-1006): yalnız KOORDİNAT (lat 2.7333, lon -67.5667) en.wikipedia 'Maroa, Amazonas'tan — kurumsal/akademik karşılığı yok. Dönem (venezuela-cumhuriyeti 1864-07-27→) kurumsal kaynağa (Fundación Empresas Polar DHV) dayanıyor, işaret onu KAPSAMAZ. Nokta SİLİNMEDİ.",
-+  dogrulanmadi:true,
++  neden:"Guainía/Río Negro üzerindeki eski misyon köyü; 1864-07-27 kararıyla Amazonas Territorio Federal departman merkezi, 1880'de kısa süre Amazonas territorio başkenti. Hedef Kolombiya Guainía'sında; 1923'te orada Kolombiya idaresi yok, en yakın idareli yer Maroa. · kaynak_zayif (UMIT-W18-VIKIPEDI-JASENOVAC-1006): YALNIZ KOORDİNAT (lat 2.7333, lon -67.5667) en.wikipedia 'Maroa, Amazonas'tan — kurumsal/akademik karşılığı yok. Dönem (venezuela-cumhuriyeti 1864-07-27→) kurumsal kaynağa (Fundación Empresas Polar DHV) dayanıyor; işaret dönemi KAPSAMAZ. Nokta SİLİNMEDİ.",
++  kaynak_zayif:true,
    not:"SORUN (araştırma): Mesafe 142 km (≤150). 1923'teki departman statüsü DHV'de açık değil. Koordinat en.wikipedia (Maroa, Amazonas). · hedef 2.25, -68.75 · 142 km" },
  { ad:"Puerto Carreño",
    tur:"sehir",
 diff --git a/data/yerlesimler_h2_kuzeyafrika.js b/data/yerlesimler_h2_kuzeyafrika.js
-index ca61a740..7c1559de 100644
+index ca61a740..6c4e1063 100644
 --- a/data/yerlesimler_h2_kuzeyafrika.js
 +++ b/data/yerlesimler_h2_kuzeyafrika.js
 @@ -95,7 +95,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
@@ -21,7 +21,7 @@ index ca61a740..7c1559de 100644
      s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
  
 -  { ad:"Şefşâven",neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
-+  { ad:"Şefşâven",dogrulanmadi:true,neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi. · dogrulanmadi (UMIT-W18-VIKIPEDI-JASENOVAC-1006): 'rif-cumhuriyeti 1924-11-15' iddiası (fas→rif-cumhuriyeti geçiş günü = İspanyol tahliyesi gecesi) yalnız Wikipedia '1924 retreat from Chaoen' maddesine dayanıyor — TDV'de bu tanecik yok, akademik/kurumsal karşılığı bu turda aranmadı. Kaynak YOKLUĞU değil ZAYIFLIĞI: iddia var ama Vikipedi tek dayanak olamaz (§4). 1923-10-29 kesitini etkilemez; dönem SİLİNMEDİ.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
++  { ad:"Şefşâven",kaynak_zayif:true,neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi. · kaynak_zayif (UMIT-W18-VIKIPEDI-JASENOVAC-1006): 'fas → rif-cumhuriyeti 1924-11-15' geçişi (İspanyol tahliyesi gecesi) YALNIZ Wikipedia '1924 retreat from Chaoen' maddesine dayanıyor — iddia var ama Vikipedi tek dayanak olamaz (§4). AYRI BİR HÜKÜM: TDV'de bu tanecik YOK = bulunamadı (aranmış, kaynak alanında beyanlı); kaynak_zayif onu ifade etmez, biri ötekinin yerine geçmez. Akademik karşılık bu turda aranmadı. 1923-10-29 kesitini etkilemez; dönem SİLİNMEDİ.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
      kur:"1471-01-01",
      s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1924-11-15",d:"fas"},{f:"1924-11-15",t:"1926-05-27",d:"rif-cumhuriyeti"},{f:"1926-05-27",t:"9999-01-01",d:"fas"}], d:[], v:[] },
  

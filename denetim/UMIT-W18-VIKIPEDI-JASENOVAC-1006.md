@@ -2,20 +2,21 @@
 
 İşçi: UMIT-W18-VIKIPEDI-JASENOVAC-1006 · alt koordinatör UMIT İRTİBAT · 5-6 Eki 2026
 Ağaç: `C:\atlas-w18` (detached, origin/main `3e4b3a98`) · **commit YOK**
-Çıktılar: `denetim/VIKIPEDI-DOGRULANMADI-1006.diff` · `denetim/JASENOVAC-BROD-1536-1006.diff`
+Çıktılar: `denetim/VIKIPEDI-KAYNAK-ZAYIF-1006.diff` · `denetim/JASENOVAC-BROD-1536-1006.diff` · `denetim/CRES-NOT-1006.diff`
+(eski `VIKIPEDI-DOGRULANMADI-1006.diff` SİLİNDİ — koordinatör hükmüyle alan adı `dogrulanmadi` → `kaynak_zayif:true`)
 
 ## 0. ÖNGÖRÜ — ölçümden önce mühürlendi
 - İŞ 1: `dogrulanmadi` uyarısı N → N+3 (Cres dâhil; Cres düşünce gerçekleşen +2); değişmez sayıları ÖNCE = SONRA.
 - İŞ 2: Osmanlı kırılması +0/+1; D2 açık 0 (madde aynı diff'te); güçlü çevrim −1 (Brod⇄Dubiça çözülür).
 - ⚠️ Öngörüm taban sayısını §1.5'ten (621) aldı; gerçek taban 623'tü — §1.5 bayat.
 
-## 1. İŞ 1 — `dogrulanmadi:true` (Deyrülkamer biçimi)
+## 1. İŞ 1 — `kaynak_zayif:true` (Deyrülkamer biçimi; ilk teslimde `dogrulanmadi` idi)
 
 | kayıt | dosya | Vikipedi'ye dayanan iddia | yapılan |
 |---|---|---|---|
-| Şefşâven | `yerlesimler_h2_kuzeyafrika.js:98` | `rif-cumhuriyeti` 1924-11-15 geçişi (Wikipedia "1924 retreat from Chaoen") | `dogrulanmadi:true` + mevcut `neden:`e EKLENDİ (üstüne yazılmadı) |
-| Maroa | `yerlesimler_a78_amerika.js:1640` | yalnız KOORDİNAT (en.wikipedia "Maroa, Amazonas"); dönem kurumsal (FEP DHV) | `dogrulanmadi:true` + `neden:`e EKLENDİ; işaretin dönemi KAPSAMADIĞI yazıldı |
-| Cres | `yerlesimler.js:1659` | — bkz. §1.1 | dogrulanmadi YAZILMADI — ayrı `CRES-NOT-1006.diff` (W8'den sonra) |
+| Şefşâven | `yerlesimler_h2_kuzeyafrika.js:98` | `rif-cumhuriyeti` 1924-11-15 geçişi (Wikipedia "1924 retreat from Chaoen") | `kaynak_zayif:true` + `neden:`e EKLENDİ; AYRIM yazılı: "TDV'de yok" = bulunamadı ≠ kaynak_zayif (Vikipedi'ye dayanan 1924-11-15) |
+| Maroa | `yerlesimler_a78_amerika.js:1640` | yalnız KOORDİNAT (en.wikipedia "Maroa, Amazonas"); dönem kurumsal (FEP DHV) | `kaynak_zayif:true` + `neden:`e EKLENDİ; yalnız KOORDİNATI kapsadığı yazılı |
+| Cres | `yerlesimler.js:1659` | — bkz. §1.1 | işaret YOK — `CRES-NOT-1006.diff`: bayatlık notu + birincil dayanak atfı |
 
 Hiçbir dönem, nokta ya da koordinat SİLİNMEDİ.
 `neden:` çakışması: üç kaydın üçünde de `neden:` ZATEN VARDI ⇒ hepsinde ekleme (` · dogrulanmadi (UMIT-W18…): …`).
@@ -32,7 +33,8 @@ Karar (UMIT İRTİBAT, seçenek a): `dogrulanmadi` YAZILMAZ; `neden:`e bayatlık
 ### 1.2 Beklenen uyarı — ölçüldü
 ```
 denetle.py · odak_olc.py   ÖNCE: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (Deyrülkamer)
-                           SONRA: … — 3 kayıtta (Deyrülkamer · Şefşâven · Maroa)
+                           SONRA (yeniden üretimde, 45f6a33c): 'dogrulanmadi' 1 kayıt (Deyrülkamer) + 'kaynak_zayif' — 2 kayıtta (Şefşâven · Maroa)
+değişmez özet satırları ÖNCE = SONRA birebir
 ```
 `girdi.py`ye DOKUNULMADI (motor tuzu, §9.1). Uyarı, alan BILINEN_ALANLAR'a tam inşa
 koşusunda girene kadar BEKLENENDİR.
@@ -80,8 +82,16 @@ Kalan iki çevrim: Dimetoka⇄Sofulu (beyanlı) · **Akçakale⇄Jadlā' — bey
 Dubiça→Brod kenarı (1718/1739 günleri) tek yön kaldı: Brod'un `1739-09-28` dönemi TDV'li,
 ama Brod'un `1718-07-21` ucu (`d[0] t`, `s[2] f`) HÂLÂ kaynaksız — dokunulmadı.
 
+## 2.5 Cres — CRES-NOT-1006.diff
+**Tazelik: ölçüldü** — bayat `neden:` ("AYRIŞTIRILMADI — doğrudan avusturya'dan italya'ya") ve yalnız
+Wikipedia alıntılı kayıt `kaynak:`ı main'de HÂLÂ var (2da07731 + POLONYA-ISG-1006, ve 45f6a33c).
+Değişiklik: `neden:`e "⚠️ BU NOT BAYAT" eki (ara dönemin itilaf-emaneti olarak ayrıştırıldığı,
+dayanakların s[] kaynaklarında olduğu, bu yüzden işaret YAZILMADIĞI) · `kaynak:`a Saint-Germain md. 91 +
+Rapallo md. 2-3 (LNTS c.18) ATFI — alıntı kopyalanmadı. Tek hunk, yalnız Cres satırı; Polonya kayıtlarına dokunulmadı.
+denetle: Cres öncesi/sonrası özet satırları BİREBİR aynı (yalnız metin alanı).
+
 ## 3. Diff sınavı
-İkisi de: LF, CR 0 · `git apply --cached --check` (origin/main 3e4b3a98) ileri ✓ · `-R` ✗.
+Hepsi LF, CR 0 · `-R` ✗. JASENOVAC: 3e4b3a98'e karşı ileri ✓ · KAYNAK-ZAYIF: 45f6a33c'ye karşı ileri ✓ · CRES: 2da07731+POLONYA ve 45f6a33c'ye karşı ileri ✓.
 
 ## 4. BULAMADIM
 - Şefşâven 1924-11-15 için akademik/kurumsal kaynak bu turda ARANMADI (görev işaretlemekti).
@@ -90,5 +100,4 @@ ama Brod'un `1718-07-21` ucu (`d[0] t`, `s[2] f`) HÂLÂ kaynaksız — dokunulm
 
 ## 5. İSTEDİĞİM
 - Uygulamadan sonra `py arac/paketle.py yenile` (paket_13/14/24 kaynakları değişti; paketlere dokunmadım).
-- Cres kararı (§1.1).
 - Akçakale⇄Jadlā' çevrimi için sahip.
