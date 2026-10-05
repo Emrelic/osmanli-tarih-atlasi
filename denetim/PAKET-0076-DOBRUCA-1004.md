@@ -207,6 +207,51 @@ motor çıktısını ölçer). İki yönlü sahiplik (girdi.yukle, 14 yer×gün)
 ⚠️ Koşuya biner (yerlesimler değişti). ⚠️ Bölgede görsel tutarsızlık beklenir: İshakçı 1402-1413'te
 çelebi, komşuları Eflak — beyanlı borç, kaynağı bulununca kapanır.
 
+## 10 · GÖREV A — İshakçı 1402-1419 kaynak taraması: BULUNAMADI (5 Ekim 2026)
+```
+TDV         isakci · isakci--kale · isakci-kalesi → 302 (ölü) · arama sayfası JS, sonuç okunamaz
+            tulca · dobruca · babadagi · mehmed-i ham metinlerinde İsakçı/İshakçı/Isaccea: 0 geçiş
+Sempozyum   "Vefâtının 600. Yılı … Sultan Çelebi Mehmed ve Devri" (Bursa BB, 564 s., PDF indirildi,
+            pypdf ile tarandı): İsakçı 0 · Yenisale 0 — Dobruca yalnız BÖLGE düzeyinde
+Akademik    Aurel-Daniel Stănică, "The Missing Fortresses in Dobrogea. Case Study: Turkish
+            Fortifications" (2016) + Romence sürümü — İsakçı'yı ADIYLA ele alıyor AMA erişilemedi:
+            ResearchGate 403 · academia.edu 403 (curl ve WebFetch). Arama ÖZETLERİ "Osmanlılar Enisala
+            ve İsakçı kalelerini I. Mehmed'in emriyle onardı, 1416-1417" diyor — özet METİN DEĞİLDİR,
+            KULLANILMADI.
+            EI2 "Isakča" (Brill, ücretli) denenmedi.
+Kırmızı     historia.ro · istorie-pe-scurt · ziuaconstanta · Wikipedia/Wikiwand/fandom çıktı — D209, ELENDİ
+```
+⇒ **İshakçı'nın 5 adası BEYANLI BORÇ kalır.** Komşu Eflak olduğu için Eflak demek D208 yasağı.
+🔴 Yolu açacak tek erişim: Stănică 2016'nın tam metni (Emre'nin hesabıyla ResearchGate/academia
+indirmesi ya da yazara istek). Okunursa İshakçı muhtemelen `eflak 1402-07-28 → 1416/1417` olur.
+
+🆕 **TDV İÇ ÇELİŞKİSİ (bildiriliyor, D211 ⑥):** TDV `mehmed-i`: *"Şeyhi koruyan ve bilfiil destekleyen
+Mircea Deliorman'ı işgal etti ve Silistre'ye saldırdı (sonbahar 819/1416)"* — Mircea 1416'da Silistre'ye
+SALDIRIYORSA şehir o an Osmanlı'dadır. TDV `silistre` ise *"Mircea Silistre'yi … 1418'de ölümüne kadar
+elinde tuttu"* diyor. Ayrıca `mehmed-i` Eflak seferini 822/1419 (Kasım 1419 mektubu) tarihliyor.
+Dobruca (A) yaması `silistre`yi izledi (şehrin kendi maddesi); çelişki bu raporda kayıtlı.
+
+## 11 · GÖREV B — Güney Dobruca'nın ilk iç noktası → `denetim/PAKET-0076-DOBRIC-1004.diff`
+```
+Hacıoğlupazarcığı (Dobrich)  43,565 K 27,831 D · yerlesimler_ek29.js (İshakçı'nın önüne)
+  kur 1518-01-01   TDV hacioglupazarcigi (Kiel): "en eski kayıtlar, 924'te (1518) … Hacıoğlu adını
+                   taşıyan bir köy" · kazılar "600-1500 yılları arasında yerleşim bulunmadığını"
+                   ⇒ 1281-1419 Dobruca zinciri bu noktaya HİÇ DEĞMİYOR (A'nın sonucundan bağımsız)
+  d 1518 → 1878-07-13 · v prenslik 1878-07-13 → 1908-10-05 ("1877-1878 savaşından sonra … Bulgaristan'ın
+  bir parçası oldu") · s bulgaristan-kralligi 1908-10-05 → 1913-08-10 · s romanya-kralligi 1913-08-10 →
+  (TDV dobruca Bükreş 1913 · gün TDV balkan-savasi; Silistre A8 ile aynı gün)
+MÜKERRER: ad (dobri/haciog/bazargic/pazarcık/tolbuhin) 0 · en yakın Varna 39,7 km (3 km eşiği çok uzak)
+SINAV (worktree HEAD 90aaa54d): denetle D1 309/309 (4299 nokta) · 1b 0 · 2 623/0 açık · 2i tavanda ·
+  4/5 ✓ · D7 732 (değişmedi — yeni enklav açmadı) · kaynaksız tavanları ✓ · D8 ÖLÇÜLEMEDİ (beklenen)
+  🔴 ilk koşu "kayıt-kaynaksız 2302 > 2301" ile ötü — üst düzey `kaynak:` eklendi, temizlendi
+  sahiplik 6/6 doğru (1500 yok · 1600 Osmanlı · 1880 tâbi · 1913-08-09 Bulgar · 08-11 Romen · 1923 Romen)
+  ana depoda kayıt YOK (sınav ters yönde ayırt ediyor) · git apply --check TEMİZ
+⚠️ Koordinat bu turda YENİDEN DOĞRULANMADI (GeoNames demo kotası dolu, OSM 403) — kaynak alanında yazılı.
+ÖNGÖRÜ (koşudan ÖNCE): 8a `g3-bg-ro-dobruca-p4|1913-08-09|sag|Köstence` taşması Dobriç'in Bulgar peteği
+  hattın güneyini doldurunca KÜÇÜLÜR ya da DÜŞER (Köstence 48 km, Dobriç hattın ~40 km güneyinde).
+UYGULANMADI: Balçık (1281-1389 halkası — Dobrotiç künyesi yok, TDV iç çelişkisi) · Tutrakan ·
+  Mangalya (TDV maddesi yok; Osmanlı öncesi sahip/fetih bulunamadı).
+
 ## Ölçüm defteri
 TDV ham HTML: scratchpad `tdv/{dobruca,silistre,babadagi,kostence,tulca,balcik,bulgaristan}.html`
 (curl, 200) · `isakci` · `mircea` 302. Zincir dökümü: `girdi.yukle()` (regex DEĞİL).
