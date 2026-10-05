@@ -96,3 +96,22 @@ Rapallo md. 3 (Brač "all other islands") ile bunların da atama günü Rapallo 
 **Öngörü (yalnız VERİ diff'i, §4 A satırına göre):** 2s AÇIK **+1** (Rapallo kovası 8 eksikle açık; md. 2-3 adı açık kovada
 sayılmaz) · 2sk TARAF **+17**, YER +0 · 2i **+8** kırılma, açık aynı · 4c, 4d, D1, D2 aynı · D7 **+4** · renksiz künye +1
 (beyanlı). **VERİ + SHS diff'i:** 2s AÇIK **+0** · 2sk YER **+2** (Zadar, Cres — `D261`), TARAF +29.
+
+## 7. DİFF ÖLÇÜMÜ (öngörü `e64fc5e7`'den SONRA · worktree, taban `e64fc5e7` (Eisenstadt indi); üç koşu da çıkış 2 — D8 worktree'de ölçülemez)
+| | 2s AÇIK | 2sk YER / TARAF | MASKE | 2i | 4c · 4d · D1 · D2 | D7 (beklenen 731) |
+|---|---|---|---|---|---|---|
+| ÖNCE | 187 | 1570 / 1636 | 1662 | 161/1 | 127 · 324 · 309 · 623/0 | 730 |
+| **VERİ diff'i** | **188** (+1) ✅ | 1570 / **1653** (+0 / +17) ✅ | 1648 | **169**/1 (+8) ✅ | aynı ✅ | **734** (+4) ✅ |
+| **VERİ + SHS diff'i** | **187** (+0) ✅ | **1572 / 1665** (+2 / +29) ✅ | 1646 | 169/1 | aynı | 734 |
+**Öngörü her satırda tuttu.** Değişen yerleşim kaydı **16** (tam liste), hedef dışı **0** (iki yönlü sahiplik dökümü, 4299 kayıt).
+`git apply --check` ana ağaçta: VERİ **0** · SHS **0** · RENK **0** (RENK ağaca UYGULANMAZ — tam inşaya bekletilir).
+- **`D261`'in ilk sahici uygulaması ölçüldü:** Zadar + Cres Rapallo md. 2-3'ün devir cümlesiyle madde gövdesinde ⇒ YER +2 —
+  ama yalnız SHS takma adıyla (Rapallo kovası ancak o zaman kapanıyor).
+- D7 +4 (734 > beklenen 731, 🧊 ihlal sayılmaz): Lvov + Yazlofça (emanet gövdesi Dalmaçya'da, Galiçya 876-892 km — hakiki
+  enklav, md. 91 iki ayrı bölge) · Ljubljana + Maribor (Dalmaçya emanete geçince Sloven `yugoslavya` kümesi kopuk). Çare
+  önerisi: Lvov/Yazlofça emanet dönemine `enklav:true`.
+- Renksiz künye: `itilaf-emaneti` `boya_gerekli:true` ile BEYANLI — RENK diff'i inene dek haritada boyanmaz (nötr gri `#9e9e9e`
+  önerildi; `renk_olc.py` ile sınanmalı).
+- Diff'ler: `ONCE1281-CISLEITHANIA-1005.diff` (VERİ: devletler.js · yerlesimler.js · yerlesimler_ek.js ·
+  kronoloji_sinir_avrupa_bati.js) · `ONCE1281-CISLEITHANIA-SHS-1005.diff` (denetle.py `_2S_TAKMA`) ·
+  `ONCE1281-CISLEITHANIA-RENK-1005.diff` (renkler.py, motor tuzu).
