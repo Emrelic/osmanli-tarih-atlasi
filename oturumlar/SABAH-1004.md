@@ -1241,3 +1241,100 @@ beklemeden inebilir (`govde` korunur).
 ③ SK · IT · O6            okuyucusuz veri, bağlama modeli KAPSAM kararı (W12 ölçtü:
                           O6'da 1698/2084 madde ZATEN künyeye bağlı, gerçek borç 386)
 ```
+
+---
+
+# 🔴 KOŞU 20 — BELLEĞİN TAM YERİ BULUNDU: `uret_petek.py:4273-4282`
+
+İkinci tepe hızlandı (45 sn'de dört sürecin her biri +1,6-1,75 GB; 22:22'de süreç başına
+~9 GB, boş RAM 3,65 GB, commit 43,0/46,9 GB) ve adım **26 dakikadır aynı** satırda.
+Tahsisi kodda yerinden tespit ettim:
+```
+:4272  print("su koridoru: 1454 akarsu parçası + kıyı")   ← logun son satırı
+:4273  _su_hat = [unary_union(_tum_nehir),  KARA.boundary]
+:4275  _SU     = unary_union(_su_hat)
+:4281  _SU_TAMPON = _SU.buffer(COL_SU_MUAF_KM / 111.32 / cos(40°))   ≈ 0,35 DERECE
+:4285  _ONB.yaz("k1", ...)                                ← önbelleğe yazım
+```
+🔴 **`KARA.boundary` BÜTÜN DÜNYANIN kıyı çizgisi.** Ona 1454 akarsu eklenip birleştiriliyor ve
+~0,35 derecelik tampon çekiliyor. **Dört süreç de aynı dünya tamponunu kuruyor** — bayt bayt eşit
+büyümenin sebebi bu.
+📌 Ve `:4285` önemli: önbelleğe yazım tamponun **bitişinden sonra** ⇒ burada çökerse `k1` yazılmaz
+ve bu 26 dakika da kurtarılmaz. Kurtulan tek şey 21:22'deki 17 MB.
+
+## 🟢 B KUYRUĞUNA YENİ KALEM — matematiği sağlam, kazancı büyük
+Çöl tavanı **yalnız `COL` poligonlarının içinde** uygulanıyor (kodun kendi yorumu: çöller
+0-40° arasında). ⇒ `COL`den 30 km'den uzaktaki su muafiyeti **hiç etkilemez.**
+⇒ **`_SU`, `COL`un 30 km genişletilmiş zarfına KIRPILABİLİR**: dünyanın tamamı yerine yalnız çöl
+çevresi tamponlanır. Kırpılan hiçbir parça sonucu değiştiremez.
+**ŞART:** çıktı `_SU_TAMPON` **birebir aynı** kalmalı; değişirse kırpma yanlış kurulmuştur.
+📌 Bu kazanç **işçi sayısından bağımsız** — `MOTOR_SUREC_ISCI=2` kararının yerine geçmez, onunla
+birlikte çalışır.
+
+## B kuyruğunun bugünkü hâli (hepsi `uret_petek.py` = motor tuzu, tam inşa ister)
+```
+MOTOR-BANT-TAM-1005.diff          5/7/10 bant kusuru
+su koridoru kırpması              yukarıda — bellek + süre
+alt-aşama log satırı              Çöl tavanı içinde ara satır yok, teşhis edilemiyor
+MOTOR_* sınıflandırması (③2)      yalnız okunan değişkenler; ③3 AST kapısı OLMADAN alınmaz
+DOLGU_ONBELLEK · DOLGU_CIKTI
+  · KILIT_KAPALI → İŞLETİM        ölçüldü: bir kilit bayrağı geo önbelleğini öldürüyor
+```
+
+---
+
+# 🔴 EMRE — I. DÜNYA HARBİ DOĞU CEPHESİ: BEŞ KAPSAM SORUSU (W14 ölçtü, veri yazılmadı)
+36 kayıt · başlangıç günü **kaynaklı 20/36** · ay 4 · bulunamadı 9 · bitişlerin çoğu **üst sınır**.
+```
+(a) 1918 UNR davetli girişleri `isg:` mi sayılacak (davet = işgal değil mi?)
+(b) 1919 Freikorps kapsamda mı
+(c) üst-sınır bitişler ay hassasiyetine mi indirilecek
+(d) Hotin zinciri ayrı hata adayı
+(e) Litvanya/Estonya bağımsızlık `s:` geçişleri İŞGAL ALTINDA gerçekleşiyor;
+    `isg:` yazılmazsa harita işgali GÖSTERMEZ
+```
+⚠️ **YENİ KAYNAK TUZAĞI — `dersler/`e yazılacak:** VLE (Visuotinė lietuvių enciklopedija)
+Kaunas/Vilnius/Šiauliai maddelerinde **ÇİFT Jülyen çevrimi** yapıyor ⇒ gün için kullanılmamalı.
+Bir kaynağın **sistematik** olarak yanlış çevirdiğini bulmak, tek bir yanlış tarihi bulmaktan
+değerlidir: ilki bütün kullanımlarını şüpheli kılar.
+
+---
+
+# 🔴 YENİ KUSUR SINIFI — KAYIT KENDİ NOTUYLA ÇELİŞİYOR (W16 farkında olmadan buldu)
+```
+turgut-reis  f:1485  →  kaydın KENDİ notu 1487 diyor (TDV de 1487)
+uzun-hasan   f:1423  →  notu hicrî 828 diyor (= 1425)
+```
+⇒ Alan kendi açıklamasıyla çelişiyor **ve not DOĞRUYU söylüyor.** Hiçbir kapı görmüyor, çünkü
+kapılar alanı **kaynakla** karşılaştırıyor, **kendi notuyla** karşılaştırmıyor.
+⇒ Tarama dağıtıldı (`kisiler.js` + `yerlesimler*.js` + `padisahlar.js`; hicrî çeviri de denenecek).
+📌 `D265`in aynası: orada ölçüm **basılmıyordu**, burada açıklama **okunmuyor.** İkisi de
+"bilgi var, kimse bakmıyor".
+
+## Ve kişilerde ilk gerçek tarih kusurları (W16, 47 kayıt tarandı: ① 41 · ② 6 · ③ 0)
+```
+seyh-bedreddin  t 1416 → 1420   🔴 §4 tuzak ⑧ BİREBİR: 1416 TDV'de İznik'ten
+                                 KAÇIŞ yılı — rakam gövdede var, başka şeyi tarihliyor
+gazi-osman      f 1832 → 1833
+turgut-reis     f 1485 → 1487
+uzun-hasan      f 1423 → 1425
+kilic-ali       f 1500 → BOŞALTILIR (TDV "muhtemelen 1500'lerin başı" ⇒ D210 sahte kesinlik)
+kemankeş        tür vezir → sadrazam
+```
+⇒ Örneklem ①%55 öngörmüştü, gerçek **%87** — örneklem muhafazakâr çıktı, iyi yönde.
+⇒ 27 nadir tür de kampanyaya **dahil** (iki örneklemde ③ 0/30).
+
+---
+
+# Bayat sayılar BENDE — iki tane, düzeltiyorum
+```
+CLAUDE.md §9     "ODAKSIZ 485"  → W13 ölçtü: kapı evreni 438, düzeltmeden sonra 325.
+                 W13'ün öngörüsü bu bayat sayıdan türediği için çürüdü.
+SABAH-1004       "Cres İHLAL"   → Cres'i BEN düzeltmişim (Cisleithania, Saint-Germain md.91);
+                 kalem saatler önce çözülmüş, listemde duruyordu.
+```
+🔴 Ve bunun bir usul sonucu var: **nöbet talimatındaki açık kalem listem her gece birebir
+tekrarlanıyor** ⇒ bayat bir kalem her turda yeniden doğru sayılıyor. Kalan kalemler
+(`57 imza yeri` · `3 mükerrer` · `17 yetim` · `Şefşâven/Maroa` · `Jasenovaç+Brod`) artık
+**var olduğu ÖLÇÜLMEDEN** uygulanmayacak. Özellikle `3 mükerrer madde`: W11 bugün
+**gerçek mükerrer 0** ölçtü, o kalem büyük olasılıkla tamamen bayat.
