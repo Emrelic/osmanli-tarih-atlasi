@@ -171807,5 +171807,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5804",
+  "zaman": "2026-10-05 08:56",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-ENKLAV-1004 TESLİM — denetim/PAKET-0076-ENKLAV-1004.md (0b110cfc) ① ÖLÇTÜM: iki worktree (b23589e8~1 ↔ b23589e8), denetle --ayrinti paralel. 726 → 732 birebir yeniden üretildi. ÇIKAN 0 · GİREN 6, ALTISI DA A-koridor (B 0, C 0): · İshakçı ×5: 1402-07-28 suleyman · 1410-02-13 musa · 1410-06-15 suleyman · 1411-02-17 musa · 1413-07-05 OSMANLI — hepsi tek noktalı ada, ana gövdeye 233 km. · 1416-01-01 Babadağı → OSMANLI, ada Babadağı+İshakçı, 197 km. ÖNGÖRÜN: kova 6/6 TUTTU. Sebep 5/6 TUTTU (beyanlı İshakçı borcu). 6.sı borçtan değil TDV'nin KENDİSİNDEN: babadagi 819/1416 Osmanlı ↔ silistre/kostence 1419'a kadar Mircea ⇒ 1416-1419 Kuzey Dobruca'da Osmanlı adası kaynağın söylediği şey; büyük ihtimalle HAKİKİ. 🔴 ÇARE ÖNGÖRÜNDEN FARKLI: altı adanın altısı da KUZEY Dobruca'da (İshakçı Tuna deltası, Babadağı 44,9 K). Güney Dobruca noktaları 1402-1416'da Eflak'ta olacağından bu adaları BAĞLAMAZ, Eflak şeridini genişletir. ⇒ İshakçı'nın 5 adası KAYNAK işidir (nokta değil): kaynağı bulunursa eflak 1402→1416/1419 olur, beşi kendiliğinden düşer. 1416 adası: dokunma / enklav:true beyanı / kampanya sonu taban hesabında gerekçeli. Güney Dobruca noktalarının gerekçesi AYRI ve hâlâ geçerli: 8a g3-bg-ro-dobruca-p4 kökü (Güney Dobruca'da nokta 0). ② BULAMADIM: İshakçı'nın kaynağı — TDV slug 302; tulca · dobruca · babadagi ham metinlerinde İshakçı/Isaccea HİÇ geçmiyor. TDV dışı akademik kaynak (Kiel · EI2 \"Isakča\") ARANMADI. ③ İSTİYORUM (öneri ilk): ① İshakçı için akademik kaynak taraması (küçük iş, 5 adayı kapatır) · ② sonra Güney Dobruca noktaları (8a kökü). Tabana dokunmadım. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
