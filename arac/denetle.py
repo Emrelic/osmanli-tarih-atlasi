@@ -3255,6 +3255,17 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI YIL İŞARETİ + ÇELEBİ MEHMED" — 5 Ekim 2026, PAKET-0076-DOBRUCA-1004 (A).
+    # Dobruca'nın 1416/1419 maddeleri inince tavan 113 → 115 oldu; iki çiftin ikisi de
+    # YANLIŞ POZİTİF. Ortak olan yalnız yıl damgası (YYYY-01-01) ve Çelebi Mehmed:
+    #   Babadağı 1416 (Kuzey Dobruca, Mircea'ya karşı — TDV babadagi)  ↔  Torlak Kemal'in
+    #          idamı 1416 (Saruhan, Bedreddin isyanı) — iki ayrı cephe, iki ayrı olay
+    #   Silistre/Dobruca 1419 (TDV silistre "822 (1419) ilkbaharı")  ↔  Kayseri-Kırşehir
+    #          1419 (Orta Anadolu, Karamanoğulları) — Tuna ile İç Anadolu, ayrı olaylar
+    ("Babadağı ve çevresinin Osmanlı'ya geçişi — Mircea ile oğlu Mihail yenildi",
+     "Torlak Kemal'in idamı — Saruhan kesin olarak Osmanlı'nın"),
+    ("Silistre ve Dobruca'nın geri alınışı — Mircea'nın ölümünden sonra",
+     "Orta Anadolu'nun geri alınışı: Kayseri ve Kırşehir"),
     # ⭐ "AYNI YIL İŞARETİ + 'HANEDAN X KRALLIĞI KURDU' KALIBI" — 1 Ekim 2026,
     # koordinatör (YILDIRIM BAYEZIT). Gece yazılan 1574 kronoloji maddesi
     # tavanı 114 → 115 yaptı; doğan çift YANLIŞ POZİTİF.
