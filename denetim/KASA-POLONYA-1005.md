@@ -185,3 +185,42 @@ worktree'de ölçüm için uygulanır, commitlenmez veriye).
   açık 1 → 1.
 - **4c:** değişmez (almanya künyesi 1945'e, habsburg 1918-11-11'e kadar).
 - **D1 sahipsizlik:** 309 → 309 (hiçbir dönem kısalmıyor, yalnız el değiştiriyor).
+
+## 5. UYGULAMA TURU — ÖLÇÜM (worktree `atlas-kasa-olc` = HEAD 6b834441 + 15 madde + yerleşim diff'i)
+ÖNCE = aynı HEAD, değişiklik yok. İkisinde de Değişmez 8 ÖLÇÜLEMEDİ (worktree'de
+`devletler_harita.js` yok — beklenen).
+
+| Kapı | ÖNCE | SONRA | Öngörü |
+|---|---|---|---|
+| D1 sahipsizlik | 309 | 309 | 309 ✓ |
+| D2 Osmanlı | 623 / 0 | 623 / 0 | değişmez ✓ |
+| 2s yabancı | 1712 kırılma · **188 AÇIK** | 1720 · **188 AÇIK** | 189±1 (taban 188'di) ✓ |
+| 2sk sınıf | 1561 YER + 1635 TARAF | **1570 YER** + 1635 TARAF | — (+9 YER ile kapandı) |
+| 2i işgal | 154 / 1 | **160 / 1** | +6, açık 1 ✓ (tam) |
+| 4c | 127 | 127 | değişmez ✓ |
+| D7 enklav | 727 | 730 (beklenen 731, ✓) | ÖNGÖRMEDİM (+3) |
+| kaynaksız s: | 1937 | 1932 (−5) | — |
+| **mükerrer madde** | 112 | **115 ✗ (tavan 113)** | ÖNGÖRMEDİM |
+| Hüküm | çıkış 2 | **çıkış 1** | — |
+
+**Ay düzeyindeki iki maddenin (Radom 1915-07-01, Chełm 1915-08-01) denetime etkisi: 0.**
+Kırılma da madde de aynı güne yazıldığı için Değişmez 2/2s ötmedi. Bu bir susturma
+değil: ölçüt gün eşitliğine bakıyor; ay düzeyi bilgisi `gun` ve `ic_not_gun`
+alanlarında taşınıyor. ⚠️ Kırılmanın kendisi de ayın 1'ine yazıldığı için ±30 ölçütü
+bu sahte günü yakalayamaz — D213 sınıfının denetimde görünmeyen yüzü budur.
+
+**Mükerrer +3 — dört yeni çift, dördü de YANLIŞ POZİTİF** (`mukerrer_maddeler` tek
+başına koşturuldu):
+```
+1914-08-12 strzelcy Kielce'ye girdi   ↔ 1914-08-13 Ruslar Kielce'yi geri aldı       (ters yön, ayrı gün)
+1914-08-12 strzelcy Kielce'ye girdi   ↔ 1914-08-19 Polonya birlikleri yeniden girdi (iki ayrı giriş)
+1914-09-30 Alman ordusu Kielce'yi aldı ↔ 1914-12-06 Alman ordusu Łódź'u aldı        (ayrı şehir)
+1915-07-01 Zamość'u aldı (Alman)      ↔ 1915-07-01 Radom işgal edildi (Avusturya)    (ayrı şehir, ayrı işgalci)
+```
+Başlığı ölçütü atlatmak için değiştirmedim. Çare `BILINEN_AYRI`ya 4 çift
+(`denetle.py` koordinatörün dosyası).
+
+## 6. LUBLIN (b) — tarayıcı paneli
+Bu oturumda (KASA, Claude Code CLI) uygulama içi tarayıcı paneli ya da
+`get_page_text` aracı YOK; araç aramasında da çıkmadı. ⇒ **ölçülemedi**, gün yine
+`bulunamadı`. Masaüstü tarayıcı paneli olan bir oturum açmalı.
