@@ -118,3 +118,18 @@ alıntılanmadı · erişilemeyen: 1914-1918-online (bot doğrulaması), Hrčak 
 | 6-10 ayrı gün | **15** | ❌ |
 | yarısından azı için madde var · yeri anan çok az | 15 günün **13'ü** kapanıyor, borç 2 | ❌ evren beklediğimden dolu |
 | halef şüphesi `macaristan-naiplik` ve Banat | doğrulandı ama en büyük halef hatası **Bosna (16, `sirbistan-kralligi`)** — öngörmedim | yarım |
+
+## 6. ⑤ — "1918-11-11 ardıl devletlere geçiş" maddesi türetilmiş mi? (5 Ekim 2026)
+
+### ÖNGÖRÜ — maddeyi açmadan ÖNCE
+- **🔴 TÜRETİLMİŞ** bekliyorum. Bakacağım izler, sırayla: ① `ic_not_d` / `ic_not_*` alanında
+  "haritaya" ya da "eski ifade" (D260 imzası) ② `d` metninde "Aynı tarihte … yerler/yerleşimler: …"
+  liste son eki ③ `kaynak:` alanı: boş / `bulunamadı` / atlası ya da künyeyi gösteriyor mu, yoksa
+  11 Kasım'ı TARİHLEYEN bağımsız bir cümle mi ④ maddenin dosyası ve yazıldığı commit — kırılmalarla
+  aynı commit/partiye mi girmiş.
+- Neden: 1918-11-11 hiçbir kaynakta 109 yerin günü değil (§3.1, 0 örtüşme); bu günü taşıyan tek
+  bağımsız olay I. Karl'ın 11 Kasım bildirisi (Avusturya'daki yönetimden çekilme) — ardıl devletlere
+  "geçiş" değil. Madde başlığı bir DEVİR anlatıyorsa kaynakla değil künyeyle yazılmıştır.
+- Olası sonuç: madde bağımsız bir kaynak (ör. Karl'ın çekilmesi) gösteriyorsa 🟢 değil **karma**:
+  kaynak gerçek ama 11 Kasım'ı başka bir olay için söylüyor (D211 ⑧ — rakamı taşıyan cümle neyi
+  tarihliyor).
