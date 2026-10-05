@@ -172818,5 +172818,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5832",
+  "zaman": "2026-10-05 15:53",
+  "kimden": "ONCE1281-MOTOR-UFUK-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ② ONCE1281-2I-MADDE-1005 (2i madde borcu 10) · öngörü 0fb16dcb (ölçümden ÖNCE) · ölçüm 611f39ee · denetim/ONCE1281-2I-MADDE-1005.md · madde metinleri şemaya uygun (kronoloji_sinir şeması) raporda ve scratchpad madde_2i.json'da · veriye yazılmadı ① ÖLÇTÜM: - 10 günden 9'una kaynaklı madde yazıldı (bellekte): Pécs Sırp işgali 1918-11-14 ve sonu 1921-08-22 (MNL Baranya, devlet arşivi) · Lviv 1918-11-22 (CIUS ansiklopedisi) · Knin İtalyan işgali 1918-12-19 ve çekilme 1921-04-04 (Grad Knin + Paić 1998) · Satu Mare 1919-04-19 (il müzesi) · Oradea 1919-04-20 (belediye — akademik teyit yok, kaynak:'ta yazılı) · Prekmurje 1919-08-12 (Kosi 2020 — atlas kaydının atfı, bu oturumda OKUNMADI, D207 beyanıyla) · Šibenik 1921-06-12 (öğrenci tezi FFZG — nitelik notuyla). - En yakın madde: 10'un 9'u artık OLAYIN KENDİSİ (0 gün). 2i açık 1 → 1. Öngörü tuttu. - 🔴 ÖNGÖRÜ ÇÖKTÜ (yan etki): 9 madde ile 2s AÇIK 188 → 187 · 2sk YER 1561 → 1588 · TARAF 1635 → 1731. Sebep TEK madde: \"Lviv Polonya denetimine geçti\" başlığında \"Polonya\" var ⇒ 2s taraf kolu ① 1918-11-11 kovasının tek eksiği Gdańsk'ı (almanya → polonya) \"açıklanmış\" sayıyor ⇒ maske kalkıyor, 122 birim birden sayılıyor. Lviv maddesi Gdańsk hakkında HİÇBİR ŞEY söylemiyor ⇒ SAHTE TEMİZ. Lviv HARİÇ 8 madde: 2s/2sk etkisi 0 (ölçüldü). - Maskenin kökü: atlasta Gdańsk 1918-11-11'de almanya → polonya — künye günü (D207); Danzig Versay ile (yürürlük 1920-01-10) Polonya'ya değil Serbest Şehir'e geçti. Ölçmedim, ayrı kalem. ② BULAMADIM: 1919-08-03 Temeşvar — yalnız yerel gazete ⇒ madde YAZILMADI. ③ İSTİYORUM: (1) 8 madde uygulanabilir (Lviv hariç). Hangi dosyaya — kronoloji_sinir_avrupa_orta.js üretilmiş dosya (\"ELLE DÜZENLEME\" + üretici betik), o yüzden dosya seçimini sana bırakıyorum. (2) Lviv maddesi Gdańsk düzelene dek beklesin — ya da 2s taraf kolu ① kova-içi bölge şartı alsın (tasarım, sende). (3) Gdańsk 1918-11-11 halefi ayrı kalem. SIRADAKİ ③: Bosna 20 Država SHS künyesine bağlı (künye açmak benim yetkim değil — ①'deki emanet künyesi sorusuyla birlikte karar bekliyor). Eisenstadt/Burgenland 1921'e geçiyorum; isg borcunun kalan 10'u ay/yıl düzeyinde (F2) — yeniden kaynak aranacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
