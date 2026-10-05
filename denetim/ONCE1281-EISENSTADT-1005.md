@@ -50,3 +50,10 @@ bakmadan — `D207`/`D224` ailesi kusurum. (BMI 2021 metni aynı günü bağıms
 ## 5. İSTENEN
 F8 tutarlılığı için önerim: `s:` Trianon (1920-06-04) + `isg: macaristan-naiplik` → 1921-11-13 (bölge günü beyanıyla) + 1921-11-13
 maddesi. Daha dar seçenek: yalnız `s:` Trianon (`isg:` yok) — 2s yine 187. Karar sende; seçilince diff'i Berlin usulüyle yazarım.
+
+## 6. DİFF (hüküm M-5834 ①②) — ÖNGÖRÜ, ölçümden ÖNCE
+`denetim/ONCE1281-EISENSTADT-1005.diff`: ① `yerlesimler_p77_avrupa.js` Eisenstadt — `macaristan-naiplik` → 1920-06-04 ·
+`avusturya-cumhuriyet` 1920-06-04 → · `isg: macaristan-naiplik` 1920-06-04 → 1921-11-13 (bölge günü beyanı) ② `olaylar_ok109.js`
+1921-11-13 maddesi "Avusturya Bundesheer'i Burgenland'a girdi" (`yer_id` Eisenstadt; milak.at + BMI 2021).
+**Öngörü:** 2s AÇIK −1 (bugünkü Arnavutluk-madde açığı kapanır) · 2sk TARAF +1 · 2i +1 kırılma, açık aynı, 1921-11-13 en yakın
+madde = yeni madde · 4c · 4d · D1 · D2 · D7 aynı · değişen yerleşim kaydı 1, madde +1.

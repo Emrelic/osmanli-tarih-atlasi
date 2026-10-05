@@ -31,3 +31,11 @@ tarihliyor (`D211` ⑧: rakamı taşıyan cümlenin neyi tarihlediği). Öneri: 
 ## Bosna 20 — BAŞLANMADI
 Halefi `drzava-shs` (1918-10-29 → 12-01) künyesine bağlı; künye açmak yetkim dışında. Cisleithania emanet künyesi sorusuyla
 (ONCE1281-CISLEITHANIA-1005 §5) birlikte karar bekliyor.
+
+## ZİGETVAR DİFF'İ (hüküm M-5834 ③) — ÖNGÖRÜ, ölçümden ÖNCE
+`denetim/ONCE1281-ZIGETVAR-1005.diff`: Zigetvar `isg:` `sirbistan-kralligi` 1918-11-19 → 1918-12-01 · `yugoslavya` 1918-12-01 →
+1921-08-20 (Peçuy emsali bölme, ÇIKARIM beyanlı) + iki madde (`olaylar_ok109.js`): 1918-11-19 Sırp girişi · 1921-08-20 Macar
+jandarmasının girişi ve askerî devir (Ernyes 2021).
+**Öngörü:** 2i +2 kırılma günü (11-19, 08-20; 12-01 zaten var), açık 1 · en yakın madde ikisinde de yeni madde · 2s/2sk/4c/4d/
+D1/D2/D7 aynı (yalnız `isg:` + madde; `s:` değişmez — ama madde ±30 gün içindeki 2s kovalarına taraf/yer kolu olarak değebilir:
+1918-11-19 maddesi 1918-11-11 kovasına (Gdańsk maskesi, AÇIK) düşer ⇒ sayıya etki 0 beklenir).
