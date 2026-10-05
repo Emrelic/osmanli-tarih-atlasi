@@ -1043,3 +1043,58 @@ Lublin'in **`s:` olarak** Avusturya olmasından doğuyor; D7 `s:` bileşenine ba
 yazılırsa `s:` Rus kalır ve ada kapanmaz. İki alan, iki farklı kapı cevabı.
 ⇒ Ölçüm sipariş edildi (mevcut emsal + `isg:` ile D7 ne oluyor). **Emsal varsa ona uyulur,
 yeni kural icat edilmez.** Emsal yoksa karar senin: işgal haritada nasıl görünecek?
+
+---
+
+# 🔴 ALTINCI KARAR — I. DÜNYA HARBİ İŞGAL KATMANI YOK (kapsam kararı)
+
+Polonya'nın 1915-18 işgalini düzeltmeye çalışırken W5 çok daha büyük bir boşluk ölçtü:
+```
+35 kayıt 1916'da hâlâ `rusya` — işgal HİÇ yazılmamış
+   Lublin · Białystok · Brest · Grodno · Pinsk · Kovel · Lutsk · Volodymyr ·
+   Rivne · Vilnius · Kaunas · Riga · Minsk … (8'i KOPYA DESEN taşıyor)
+Belçika · Kuzey Fransa · Sırbistan · Romanya · Karadağ işgallerinde
+   ne `s:` ne `isg:` VAR — katman tamamen yok
+```
+⇒ 8 kayıtlık bir düzeltme değil, **bir katmanın tamamının yokluğu.** Polonya'yı düzeltmek, aynı
+boşluğun geri kalanını olduğu gibi bırakırken bir köşesini doldurmak olur — ve düzeltilen köşe,
+düzeltilmeyenle **tutarsız görünür.**
+
+**ÜÇ YOL, hükmü senin:**
+```
+① yalnız Polonya düzeltilir      tutarsızlık BEYANLI kalır
+② bütün I. DH işgal katmanı      parti işi olarak açılır (büyük, ama tutarlı)
+③ hiçbiri yazılmaz               bugünkü hâl BEYANLI borç olur
+```
+
+---
+
+## Bağlı hüküm: `s:` değil **`isg:`** — ve emsal DAİRESEL çıktı
+Önceki notta *"emsal varsa ona uyulur"* yazmıştım. W5 ölçtü: 1915-18 işgali yazılmış 7 kaydın
+**yedisi de tek partiden** (KASA-POLONYA-1005) ve ikisi *"Lublin kaydıyla aynı dayanak"* kopya
+desenini taşıyor. ⇒ O yedi kayıt bir emsal değil, **aynı tercihin yedi kopyası**; bir kuralı kendi
+uygulamasıyla doğrulamak, hiç doğrulamamaktır.
+🟢 Tek **bağımsız** emsal **Lüksemburg**: `isg: almanya 1914-08-02 → 1918-11-20`, `s: luksemburg`
+KORUNMUŞ. 1918 sonrası bölge emsalleri de `isg:` (Lvov · Kassa · Zadar · Şibenik). Hukuken de
+doğrusu bu: egemenlik Brest-Litovsk'a (Mart 1918) kadar Rus'ta kaldı.
+⇒ **Hüküm: `isg:`**, sekiz kayıt için tek seferde, `s:` korunarak.
+
+## 🔴 Ve SIRA TERS — bir körleşmeyi YAPMADAN ÖNCE yakaladık
+W5'in ölçümü: **`degismez7` `isg:`yi HİÇ OKUMUYOR.** Tam emsal uygulanınca D7 `734 → 731`, ve
+düşen üç kayıt (Radom 07-01 · Zamość 07-01 · Kielce 10-01) **düzelmiyor, GÖRÜNMEZ oluyor.**
+⇒ Bu bu gecenin **DÖRDÜNCÜ `D265` vakası** ve en pahalısı, çünkü kendi elimizle yapacaktık:
+*görünür bir borcu görünmez bir borca çevirmek.*
+```
+① ÖNCE  degismez7 isg:yi OKUYACAK  (diff olarak, iki yönlü sınavla)
+② SONRA sekiz kayıt isg:e taşınacak
+```
+⇒ `POLONYA-DUZELT-1006` **bütünüyle kuyruktan çıkarıldı** — Lublin dahil, Radom/Chełm/Zamość
+dahil. ⚠️ Önceki notta *"Lublin HARİÇ kabul"* yazmıştım; **o tutarsızdı ve W5 yakaladı**: o üç
+parça da `s:`e yazıyor, yani Lublin'le aynı soruya düşüyorlar.
+
+## Brest-Litovsk — 1915-08-25, seçim EDİTÖRYAL
+İki akademik kaynak 1 gün ayrışıyor (25 Jarosławski 2022 ↔ 26 Mikietyński UJ), TDV'de "1915"
+yok, üçüncü kaynak bulunamadı. ⇒ 25 yazılır, `ic_not`ta iki aday ve *"seçim editöryal"* beyanı.
+🔴 **"Eski takvim" hipotezi kayda GİRMEZ:** dayanağı kırmızı listeden bir sayfaydı. W5 sayfayı
+kullanmamakla doğru davrandı; hipotez de o sayfayla birlikte düşer — onsuz hiçbir dayanağı yok.
+`D209`: çıkarım damgası kırmızı liste kaynağını meşrulaştırmaz.
