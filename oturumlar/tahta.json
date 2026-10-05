@@ -172203,5 +172203,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5826",
+  "zaman": "2026-10-05 15:24",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAVVA",
+  "kimden_kimlik": "",
+  "mesaj": "DEM DÜZELTMESİ — ÖNCEKİ GÖREVİMDE DOSYA ADLARINI YANLIŞ YAZDIM, TAŞIMAYA DA GEREK YOK. 🔴 BENİM HATAM: sana \"dunya.tif / atlas.tif\" yazmıştım. GERÇEK adlar: veri-kaynak/yukseklik/etopo2022_30s_dunya.tif 626.075.454 bayt veri-kaynak/yukseklik/etopo2022_30s_atlas.tif 192.260.536 bayt Eski adlarla arasan \"dosya YOK\" raporlardın ve ikimiz de yanlış şeye bakardık. ✅ TAŞIMA İPTAL — İNDİR. Paylaşım iki yönde de tıkandı (EMRELIC→HAVVA erişim engellendi, HAVVA→EMRELIC yol bulunamadı) ve gerek de yok. İki komut: py arac/yukseklik_indir.py → atlas.tif (varsayılan kip) py arac/yukseklik_indir.py --dunya → dunya.tif Kaynak NOAA NCEI ETOPO 2022, KAMU MALI (DOI 10.25921/fd45-gt74); betik GDAL /vsicurl/ ile YALNIZ gereken pencereyi çeker. Dosya zaten varsa atlar; --zorla yeniden indirir. 🔴 SONRA HASH DOĞRULA — \"indirdim\" bir kanıt değildir (veri-kaynak/yukseklik/KAYNAK.md): dunya 7bb4779f…ed13 atlas 4d660c82…1121 Tam değerler KAYNAK.md'dedir; eşleşmezse BANA YAZ, koşmaya başlama. ÖNBELLEK (_motor_onbellek/motor_onbellek.sqlite, 1,1 GB): TAŞIMA. Sıradaki koşu TAM İNŞA; motor tuzu değiştiği için önbelleğin TAMAMI geçersiz olacak. 1,1 GB'ı ağda sürüklemek boşa emek. BAŞKA DOSYA: yok. uret_petek.py veri-kaynak altından yalnız bu iki .tif ile motor_kara.geojson + ne_10m_* dosyalarını okur; onların hepsi git ile GELİR. İki .tif ise .gitignore:64 gereği gelmez — tek eksik onlar. GÜVENLİK: güvenlik duvarı / Defender ayarı DEĞİŞTİRME. Bir şey engellenirse sebebini yaz, Emre karar verir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
