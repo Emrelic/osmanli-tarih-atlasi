@@ -1,0 +1,339 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 95579d66..02993ff5 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -110,7 +110,6 @@ window.DEVLETLER = [
+     { t:"1260-09-03", tur:"savas", b:"Ayn Câlût'ta Moğolları durdurdular" },
+     { t:"1277-07-01", tur:"hukumdar", b:"I. Baybars öldü; kısa süre sonra Kalavun hanedanı iktidara geldi" },
+     { t:"1291-05-18", tur:"toprak-kazanc", b:"Akkâ'nın fethiyle Haçlıların Levant'tan tasfiyesi" },
+-    { t:"1382-01-01", tur:"bolunme", b:"Burci (Çerkes) Memlûkleri, Bahrî Memlûklerinin yerini aldı" },
+     { t:"1400-01-01", tur:"isgal", b:"Timur, Halep ve Şam'ı yağmaladı" },
+     { t:"1485-01-01", tur:"savas", b:"Osmanlı-Memlûk Çukurova savaşları başladı (1491'e dek, kesin sonuçsuz)" },
+     { t:"1516-08-24", tur:"toprak-kayip", b:"Mercidabık'ta Kansu Gavri öldü; Suriye Osmanlı'ya geçti" },
+@@ -125,7 +124,6 @@ window.DEVLETLER = [
+   kaynak:"safeviler",
+   kronoloji:[
+     { t:"1501-07-01", tur:"kurulus", b:"Şah İsmâil Tebriz'i aldı, On İki İmam Şiîliğini resmî mezhep ilan etti" },
+-    { t:"1507-01-01", tur:"toprak-kazanc", b:"Diyarbekir ve yöresi Safevîlere bağlandı (Bağdat ertesi yıl, 1508)", gun:"yıl — TDV ay/gün vermiyor · ⚠️ TDV KENDİ İÇİNDE: `safeviler` 912 H, `sah-ismail` 913 H (ikisi de 1507)", ic_not_b:"eski t: 1503-01-01 · eski b: Diyarbekir, Bağdat ve Musul ele geçirildi (KRONO-CELISKI-1006)", kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu. Ertesi yıl Bağdat hâkimiyet altına alındı.\" · Musul TDV'de bulunamadı, metinden çıkarıldı · ayrıntı kronoloji_safevi.js 1507-01-01 ve 1508-01-01 maddelerine TAŞINDI (§2 #29)" },
+     { t:"1514-08-23", tur:"toprak-kayip", b:"Çaldıran'da Yavuz'a yenildi; doğu Anadolu kaybedildi" },
+     { t:"1524-05-23", tur:"hukumdar", b:"Şah İsmâil öldü, I. Tahmasb tahta çıktı" },
+     { t:"1555-05-29", tur:"antlasma", b:"Amasya Barışı — Irak-ı Arab Osmanlı'da kaldı" },
+@@ -212,7 +210,6 @@ window.DEVLETLER = [
+     { t:"1441-01-01", tur:"kurulus", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti" },
+     { t:"1475-06-01", tur:"antlasma", b:"Osmanlı Kefe'yi fethetti; Kırım Hanlığı Osmanlı'ya tâbi oldu" },
+     { t:"1502-01-01", tur:"toprak-kazanc", b:"Büyük Orda'yı ortadan kaldırdı" },
+-    { t:"1571-05-24", tur:"savas", b:"Devlet Giray, Moskova'yı yaktı" },
+     { t:"1648-05-01", tur:"ittifak", b:"Tugay Bey kuvvetleri Hetman Hmelnitski'nin Kazak ayaklanmasına destek verdi" },
+     { t:"1687-01-01", tur:"savas", b:"Rus Kırım seferleri püskürtüldü (1689'a dek)" },
+     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
+@@ -366,7 +363,6 @@ window.DEVLETLER = [
+     { t:"1479-01-25", tur:"toprak-kayip", b:"İstanbul Antlaşması — Arnavutluk/İşkodra Osmanlı'da kaldı" },
+     { t:"1489-02-26", tur:"toprak-kazanc", b:"Kıbrıs Krallığı'nı devraldı (Lüzinyan hanedanının sonu)" },
+     { t:"1571-08-01", tur:"toprak-kayip", b:"Kıbrıs Osmanlı'ya düştü (İnebahtı zaferine rağmen)" },
+-    { t:"1645-01-01", tur:"savas", b:"Girit (Kandiye) Savaşı başladı — 24 yıllık kuşatma" },
+     { t:"1669-09-27", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi" },
+     { t:"1684-01-01", tur:"toprak-kazanc", b:"Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)" },
+     { t:"1699-01-26", tur:"antlasma", b:"Karlofça ile Mora resmen Venedik'e bağlandı" },
+@@ -512,7 +508,6 @@ window.DEVLETLER = [
+     { t:"1453-01-01", tur:"hukumdar", b:"Uzun Hasan Akkoyunlu tahtına çıktı" },
+     { t:"1458-01-01", tur:"ittifak", b:"Trabzon Rum İmparatoru'nun kızıyla evlenerek Trabzon ile ittifak kurdu" },
+     { t:"1464-01-01", tur:"ittifak", b:"Venedik ile Osmanlı'ya karşı ittifak kurdu" },
+-    { t:"1467-11-10", tur:"toprak-kazanc", b:"Karakoyunlu Devleti'ni yıktı", ic_not_b:"eski t: 1467-01-01 · eski b: Karakoyunlu Devleti'ni yıktı (KRONO-CELISKI-1006)", kaynak:"TDV `uzun-hasan`: \"Cihan Şah kaçmaya çalışırken öldürüldü. … (12 Rebîülâhir 872 / 10 Kasım 1467). Bu zafer bir devletin çöküşü, diğer bir devletin doğuşu anlamına geliyordu.\" (§2 #13)" },
+     { t:"1473-08-11", tur:"savas", b:"Otlukbeli'de Fatih'e yenildi" },
+     { t:"1478-01-06", tur:"hukumdar", b:"Uzun Hasan öldü" },
+     { t:"1481-01-01", tur:"antlasma", b:"Yakub Bey, Hasan Padişah Kanunnâmesi ile idareyi yeniden düzenledi" },
+@@ -543,11 +538,6 @@ window.DEVLETLER = [
+     { t:"1351-01-01", tur:"kurulus", b:"Bayram Hoca tarafından Van-Erciş bölgesinde kuruldu" },
+     { t:"1380-01-01", tur:"hukumdar", b:"Kara Mehmed tahta çıktı, Tebriz'i alarak devleti güçlendirdi" },
+     { t:"1400-01-01", tur:"antlasma", b:"Timur'a yenilip tâbi oldu" },
+-    { t:"1408-04-13", tur:"toprak-kazanc", b:"Kara Yûsuf, Tebriz yakınındaki Serdrûd'da Timurlu Ebû Bekir Mirza'yı yenip Azerbaycan'ı ele geçirdi", ic_not_b:"eski t: 1406-01-01 · eski b: Kara Yûsuf, Celâyirlileri yenip Tebriz'i ele geçirdi (KRONO-CELISKI-1006)", kaynak:"TDV `karakoyunlular`: \"Tebriz yakınlarındaki Serdrûd’da yapılan ikinci savaşı da Yûsuf Bey kazandı (16 Zilkade 810 / 13 Nisan 1408). Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" · 1406 (15 Ekim, Aras) zaferinin rakibi de Celâyirli değil Timurlu Ebû Bekir Mirza'dır (§2 #14)" },
+-    { t:"1410-08-30", tur:"savas", b:"Esed'de Celâyirli Sultan Ahmed'i yenip öldürttü — Celâyirli Devleti yıkıldı (Bağdat 1411'de alındı)", ic_not_b:"eski t: 1410-01-01 · eski b: Celâyirli Devleti'ni yıkıp Bağdat'ı aldı (KRONO-CELISKI-1006)", kaynak:"TDV `karakoyunlular`: \"Tebriz civarındaki Esed köyünde onu ağır bir yenilgiye uğrattı (28 Rebîülâhir 813 / 30 Ağustos 1410).\" · Bağdat: \"Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti\" — 814/1411 (814 H = Nisan 1411 – Nisan 1412) (§2 #15)" },
+-    { t:"1420-11-13", tur:"hukumdar", b:"Kara Yûsuf'un ölümüyle oğulları arasında taht kavgaları başladı", ic_not_b:"eski t: 1420-01-01 · eski b: Kara Yûsuf'un ölümüyle oğulları arasında taht kavgaları başladı (KRONO-CELISKI-1006)", kaynak:"TDV `karakoyunlular`: \"Ancak Tebriz’in güneydoğusunda Ucan’a yakın bir yerde vefat etti (7 Zilkade 823 / 13 Kasım 1420).\" (§2 #16)" },
+-    { t:"1438-04-19", tur:"hukumdar", b:"Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı", ic_not_b:"eski t: 1438-01-01 · eski b: Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı (KRONO-CELISKI-1006)", kaynak:"TDV `cihan-sah`: \"Cihan Şah durumdan faydalanarak 19 Nisan 1438’de “Muzafferüddin” lakabıyla Karakoyunlu tahtına geçti.\" · ⚠️ TDV KENDİ İÇİNDE: `karakoyunlular` İskender'in ölümünü Zilkade 841 / Mayıs 1438 verir (1 Zilkade 841 ≈ 25 Nisan 1438) — sıra ters (§3.1)" },
+-    { t:"1447-03-12", tur:"antlasma", b:"Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu", ic_not_b:"eski t: 1447-01-01 · eski b: Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu (KRONO-CELISKI-1006)", kaynak:"TDV `timurlular`: \"Rey yakınında öldü (12 Mart 1447)\" · TDV `cihan-sah`: \"Şâhruh Mirza’nın 1447’de vefatı üzerine çıkan saltanat gailesinden faydalanan Cihan Şah sultan ve hakan unvanlarını aldı\" — günü yazılan Şâhruh'un ölümüdür, unvan/ilhakın günü TDV'de yok (§2 #18)" },
+     { t:"1458-01-01", tur:"toprak-kazanc", b:"Timurlu iç kargaşasından yararlanıp Herat'ı kısa süreliğine aldı" },
+     { t:"1469-04-01", tur:"toprak-kayip", b:"Akkoyunlu'ya yenildi; son hükümdar Hasan Ali öldürüldü", kaynak:"TDV karakoyunlular / uzun-hasan: Şevval 873 (Nisan 1469) — AY hassasiyeti" },
+     { t:"1469-12-19", tur:"son", b:"Bağdat'taki son Karakoyunlu kolu da düştü; hanedan sona erdi", kaynak:"TDV karakoyunlular: 14 Cemâziyelâhir 874 / 19 Aralık 1469 (KRONO-DOGU-ISLAM-0929)" }
+@@ -675,7 +665,6 @@ window.DEVLETLER = [
+   kronoloji:[
+     { t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
+     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
+-    { t:"1308-11-27", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı", ic_not_b:"eski t: 1308-06-15 — KAYNAKSIZ; ikizin kaynaklı gününe çekildi (KRONO-AKADEMIK-1006)", kaynak:"TDV `macaristan`: \"Anjou sülâlesinden I. Károly 1308’de kral seçildi ve 1310’da taç giydi.\" · gün: kronoloji_macaristan.js 1308-11-27 (Engel 2001, s. 124-131 — Pest meclisinde seçim; Engel metni bu turda okunamadı) · BEYAN (MGGP-NOT): kullanılan gün 1308-11-27 · kullanılmayan 1308-06-15 (kaynaksız; yıl da şüpheli — 15 Haziran bir 1309 taç giyme günü olarak anılıyor, kaynağı yalnız Vikipedi, dayanak DEĞİL) (KRONO-AKADEMIK-1006)" },
+     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
+     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
+     { t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
+@@ -795,7 +784,6 @@ window.DEVLETLER = [
+   ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 21'den 22'ye çekildi — TDV `fransa` maddesi \"22 Eylül'de de cumhuriyet ilân edildi\" diyor, önceki 21 bir gün erkendi. Ardılı için bkz. [[fransa-cumhuriyet]].",
+   kaynak:"fransa",
+   kronoloji:[
+-    { t:"1536-02-18", tur:"ittifak", b:"I. François ile Kanunî arasında Kapitülasyonlar imzalandı", ic_not_b:"eski t: 1536-01-01 · eski b: I. François ile Kanunî arasında Kapitülasyonlar imzalandı (KRONO-CELISKI-1006)", kaynak:"TDV `fransa`: \"18 Şubat 1536’da, I. François adına elçi Jean de la Forest ile Kanûnî adına Sadrazam Makbul İbrâhim Paşa arasında Fransa’ya ticarî imtiyazlar tanıyan bir anlaşma gerçekleştirildi.\" (§2 #11)" },
+     { t:"1798-07-01", tur:"savas", b:"(Devrim sonrası) Napolyon'un Mısır Seferi ile Osmanlı'ya savaş açıldı" },
+     { t:"1792-09-22", tur:"son", b:"Krallık ilga edildi, Cumhuriyet ilan edildi" }
+   ]
+@@ -986,7 +974,6 @@ window.DEVLETLER = [
+   kronoloji:[
+     { t:"1205-01-01", tur:"kurulus", b:"IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu" },
+     { t:"1311-03-15", tur:"toprak-kayip", b:"Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi", ic_not_b:"eski b: Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi (bkz. [[katalan]])" },
+-    { t:"1388-01-01", tur:"toprak-kazanc", b:"Floransalı Nerio Acciaiuoli, Katalanlardan Atina'yı aldı" },
+     { t:"1458-06-04", tur:"son", b:"Fatih tarafından ilhak edildi" }
+   ]
+ },
+@@ -995,7 +982,6 @@ window.DEVLETLER = [
+   ozet:"Bizans'ın Anadolu'da Türklere karşı kiraladığı, sonra kendisine düşman kesilen Katalan paralı asker kumpanyasının Frank Atina Dukalığı'nı ele geçirip Aragon/Sicilya tacı himayesinde kurduğu kısa ömürlü devlet.",
+   kaynak:"atina",
+   kronoloji:[
+-    { t:"1303-01-01", tur:"kurulus", b:"Roger de Flor'un Katalan Kumpanyası, Bizans hizmetine Anadolu'da Türklere karşı savaşmak üzere girdi" },
+     { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
+     { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
+     { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
+@@ -1007,7 +993,6 @@ window.DEVLETLER = [
+   kaynak:"naksa",
+   kronoloji:[
+     { t:"1207-01-01", tur:"kurulus", b:"Venedikli Marco Sanudo tarafından kuruldu" },
+-    { t:"1537-01-01", tur:"antlasma", b:"Barbaros Hayreddin Paşa haraca bağladı" },
+     { t:"1579-01-01", tur:"son", b:"Osmanlı tarafından tamamen ilhak edildi" }
+   ]
+ },
+@@ -1051,7 +1036,6 @@ window.DEVLETLER = [
+     { t:"1386-01-01", tur:"isgal", b:"Timur'un art arda seferleri ülkeyi harap etti" },
+     { t:"1490-01-01", tur:"bolunme", b:"Krallık Kartli, Kaheti ve İmereti'ye bölündü, Samçhe (Meskheti) atabekliği de ayrıca bağımsızlaştı" },
+     { t:"1555-05-29", tur:"bolunme", b:"Amasya Barışı ile Osmanlı-Safevî nüfuz bölgelerine bölündü" },
+-    { t:"1578-08-24", tur:"savas", b:"Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi", ic_not_b:"eski t: 1578-01-01 · eski b: Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi (KRONO-CELISKI-1006)", kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (§2 #24)" },
+     { t:"1590-03-21", tur:"toprak-kazanc", b:"Ferhad Paşa Antlaşması ile Gürcistan Osmanlı nüfuzuna girdi" },
+     { t:"1762-01-01", tur:"birlesme", b:"II. Herakli, Kartli ve Kaheti'yi kişisel birlikte topladı" },
+     { t:"1783-07-24", tur:"antlasma", b:"Georgievsk Antlaşması ile Kartli-Kaheti Rusya himayesine girdi" },
+@@ -1816,11 +1800,8 @@ window.DEVLETLER = [
+     { t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
+     { t:"1387-01-01", tur:"savas", b:"İsfahan isyanı bastırılırken şehir yağmalandı" },
+     { t:"1398-12-17", tur:"savas", b:"Delhi Sultanlığı'nı yenip şehri yağmaladı" },
+-    { t:"1400-01-01", tur:"toprak-kazanc", b:"Halep ve Şam'ı ele geçirdi", ic_not_b:"eski b: Halep ve Şam'ı ele geçirdi (bkz. [[memluk]])" },
+     { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
+     { t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
+-    { t:"1409-05-13", tur:"hukumdar", b:"Şâhruh, Herat merkezli olarak devletin başına geçti", ic_not_b:"eski t: 1409-01-01 · eski b: Şâhruh, Herat merkezli olarak devletin başına geçti (KRONO-CELISKI-1006)", kaynak:"TDV `sahruh`: \"27 Zilhicce 811 (13 Mayıs 1409) tarihinde hiçbir mukavemetle karşılaşmadan Semerkant’a giren Şâhruh\" · hükümdar listesi `timurlular`: \"Şâhruh 811 (1409)\" (§2 #21)" },
+-    { t:"1447-01-01", tur:"hukumdar", b:"Uluğ Bey (Semerkant kolu) tahta çıktı", gun:"yıl — tahta çıkışın günü TDV'de yok; Şâhruh'un 12 Mart 1447'deki ölümü ÜZERİNE (yıl hassasiyeti sıralamada ölümün önüne düşer)", ic_not_b:"eski t: 1449-01-01 · eski b: Uluğ Bey (Semerkant kolu) tahta çıktı (KRONO-CELISKI-1006)", kaynak:"TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447). … Yerine oğlu Uluğ Bey geçti (1447-1449).\" · hükümdar listesi: \"Uluğ Bey 850 (1447)\" (§2 #22)" },
+     { t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
+     { t:"1507-05-01", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
+   ]
+diff --git a/data/kronoloji_akkoyunlu.js b/data/kronoloji_akkoyunlu.js
+index 9291618b..b034ee90 100644
+--- a/data/kronoloji_akkoyunlu.js
++++ b/data/kronoloji_akkoyunlu.js
+@@ -309,7 +309,7 @@ window.KRONOLOJI_AKKOYUNLU = [
+   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","karakoyunlu","donum-noktasi","toprak","konu-askeri","konu-siyasi","konu-kisiler"],
+   yer_id:"",
+   d:"12 Rebîülâhir 872 (10 Kasım 1467) günü Uzun Hasan, Karakoyunlu hükümdarı Cihan Şah'ı Bingöl civarında bir şafak baskınıyla öldürdü; altı bin asker, Cihan Şah'ın iki oğlu (Muhammedî ve Yûsuf) ile bütün emîrleri esir alındı. Bir asırdır Akkoyunlu'nun önünü kesen rakip hanedan bu tek gecede tasfiye edildi ve Azerbaycan, Irak ve İran'ın kapıları açıldı.", ic_not_d:"⚠️ Bingöl'ün atlas kaydı YOKTUR. `dunya:2` var olan kayıttan DEVRALINDI.",
+-  kaynak:"uzun-hasan · karakoyunlular · cihan-sah" },
++  kaynak:"TDV `uzun-hasan`: \"Cihan Şah kaçmaya çalışırken öldürüldü. … (12 Rebîülâhir 872 / 10 Kasım 1467). Bu zafer bir devletin çöküşü, diğer bir devletin doğuşu anlamına geliyordu.\" · karakoyunlular · cihan-sah (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #13); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1467-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #13)" },
+ 
+ // ───────────────────────── UZUN HASAN · İMPARATORLUK (1468-1478)
+ 
+diff --git a/data/kronoloji_atina_dukaligi.js b/data/kronoloji_atina_dukaligi.js
+index eaa33d6f..bd1d87a6 100644
+--- a/data/kronoloji_atina_dukaligi.js
++++ b/data/kronoloji_atina_dukaligi.js
+@@ -66,7 +66,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
+ { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
+   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
+   d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
+-  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23)" },
++  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23) · daha önce künyede (devletler.js) 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #23)" },
+ 
+ { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
+   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],
+diff --git a/data/kronoloji_fransa.js b/data/kronoloji_fransa.js
+index ceba4964..69211d5f 100644
+--- a/data/kronoloji_fransa.js
++++ b/data/kronoloji_fransa.js
+@@ -277,7 +277,7 @@ window.KRONOLOJI_FRANSA = [
+ { t:"1536-02-18", b:"Osmanlı-Fransız Kapitülasyonları'nın imzalanması", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"İstanbul",
+   etiket:["antlasma","ittifak","diplomasi","konu-diplomasi","konu-ekonomi"],
+   d:"Fransız elçisi Jean de la Forest ile Sadrazam İbrahim Paşa arasında imzalanan ticari kapitülasyon anlaşması, Osmanlı'nın bir Hıristiyan devletle imzaladığı ilk büyük ayrıcalık anlaşmasıydı ve iki asır sürecek Fransız-Osmanlı yakınlaşmasının hukukî temelini kurdu. Anlaşma, Habsburg gücünü dengelemek isteyen I. François'nın stratejisinin doğrudan sonucuydu. TDV `imtiyazat` maddesine göre bu metin İbrahim Paşa'nın idamı yüzünden padişahça tasdik edilmemiş bir taslak olarak kaldı; Fransa'ya verilen ilk tasdikli genel kapitülasyon 18 Ekim 1569 tarihlidir.",
+-  kaynak:"TDV `fransa` maddesi (canlı, gövdesi okundu) — \"18 Şubat 1536'da Jean de la Forest ile İbrahim Paşa arasında ticari anlaşma imzalandı\" · TDV `imtiyazat`: 1536 metni \"sultan tarafından tasdik edilmeden kaldı\"; ilk tasdikli genel kapitülasyon 18 Ekim 1569 — TDV'nin iki maddesi burada ayrışır" },
++  kaynak:"TDV `fransa`: \"18 Şubat 1536’da, I. François adına elçi Jean de la Forest ile Kanûnî adına Sadrazam Makbul İbrâhim Paşa arasında Fransa’ya ticarî imtiyazlar tanıyan bir anlaşma gerçekleştirildi.\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #11); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · TDV `imtiyazat`: 1536 metni \"sultan tarafından tasdik edilmeden kaldı\"; ilk tasdikli genel kapitülasyon 18 Ekim 1569 — TDV'nin iki maddesi burada ayrışır · daha önce künyede (devletler.js) 1536-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #11)" },
+ 
+ { t:"1539-08-10", b:"Villers-Cotterêts Fermanı — Fransızcanın resmî idare dili olması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"",
+   etiket:["idari","reform","kultur","konu-idari","konu-kultur","konu-islahat"],
+diff --git a/data/kronoloji_gurcistan.js b/data/kronoloji_gurcistan.js
+index ab37e157..837da901 100644
+--- a/data/kronoloji_gurcistan.js
++++ b/data/kronoloji_gurcistan.js
+@@ -160,7 +160,7 @@ window.KRONOLOJI_GURCISTAN = [
+   etiket:["askeri","fetih","konu-askeri"],
+   yer_id:"Tiflis",
+   d:"Çıldır zaferinden on beş gün sonra Lala Mustafa Paşa'nın kuvvetleri Tiflis'e girdi; şehir 1603'e kadar sürecek yirmi beş yıllık bir Osmanlı idaresine girdi. Bu, Ferhad Paşa Antlaşması'na (1590) giden on iki yıllık savaşın açılış hamlesidir.",
+-  kaynak:"tiflis (TDV, madde: tiflis — 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi')" },
++  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #24); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #24)" },
+ 
+ { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
+   etiket:["din","imar","konu-din","konu-imar"],
+diff --git a/data/kronoloji_karakoyunlu.js b/data/kronoloji_karakoyunlu.js
+index 4d476ea4..268d7512 100644
+--- a/data/kronoloji_karakoyunlu.js
++++ b/data/kronoloji_karakoyunlu.js
+@@ -253,7 +253,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
+   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","toprak","timur","konu-askeri"],
+   yer_id:"Tebriz",
+   d:"16 Zilkade 810 (13 Nisan 1408) günü Kara Yûsuf, Tebriz yakınlarındaki Serdrûd'da Timurlular'a karşı ikinci büyük zaferini kazandı ve Azerbaycan'ın hâkimiyetini kesin olarak eline aldı. Bu, Karakoyunlu'nun bir bölge beyliğinden Timurlu ardılı bir devlete dönüştüğü tarihtir.", ic_not_d:"⚠️ Savaş yeri Serdrûd'un atlas kaydı yoktur; `yer_id` en yakın kayıtlı merkez olan Tebriz'e verildi ve bu tercih burada AÇIKÇA yazılmıştır.",
+-  kaynak:"karakoyunlular" },
++  kaynak:"TDV `karakoyunlular`: \"Tebriz yakınlarındaki Serdrûd’da yapılan ikinci savaşı da Yûsuf Bey kazandı (16 Zilkade 810 / 13 Nisan 1408). Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #14); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1406-01-01 \"Kara Yûsuf, Celâyirlileri yenip Tebriz'i ele geçirdi\" yazılıydı, kaynaksız, yılı ve rakibi yanlıştı; D2'de düzeltilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #14)" },
+ 
+ { t:"1409-01-01", b:"Akkoyunlular yenildi, Artuklu hânedanı sona erdi", gun:"H. 813 / 1409 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
+   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","akkoyunlu","toprak","konu-askeri","konu-hanedan"],
+@@ -265,7 +265,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
+   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","celayirli","konu-askeri","konu-kisiler"],
+   yer_id:"Tebriz",
+   d:"28 Rebîülâhir 813 (30 Ağustos 1410) günü Kara Yûsuf, Celâyirli Sultan Ahmed'i Esed mevkiinde yenilgiye uğrattı ve Ahmed idam edildi. Bu, Karakoyunlu'nun altmış yıl boyunca hem tâbi olduğu hem savaştığı Celâyirli Devleti'ni fiilen ortadan kaldıran çarpışmadır.", ic_not_d:"⚠️ Esed mevkiinin atlas kaydı yoktur; `yer_id` çarpışmanın Tebriz civarında geçmesi sebebiyle Tebriz'e verildi.",
+-  kaynak:"karakoyunlular" },
++  kaynak:"TDV `karakoyunlular`: \"Tebriz civarındaki Esed köyünde onu ağır bir yenilgiye uğrattı (28 Rebîülâhir 813 / 30 Ağustos 1410).\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #15); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1410-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #15)" },
+ 
+ { t:"1411-01-01", b:"Pîr Budak sultan ilân edildi, Bağdat fethedildi", gun:"H. 814 / 1411 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
+   onem:5, dunya:2, kapsam:"dis", etiket:["toprak","hukumdar","fetih","konu-askeri","konu-hanedan"],
+@@ -307,7 +307,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
+   onem:5, dunya:2, kapsam:"ic", etiket:["olum","taht-degisikligi","hukumdar","konu-kisiler","konu-hanedan"],
+   yer_id:"",
+   d:"7 Zilkade 823 (13 Kasım 1420) günü Kara Yûsuf, Şâhruh'un yaklaşan ordusuna karşı sefere çıkmışken Ucan yakınlarında öldü. Sürgünden dönüp Azerbaycan, Irak ve Doğu Anadolu'yu tek elde toplayan hükümdarın ölümü, devleti en güçlü olduğu anda başsız bıraktı.", ic_not_d:"⚠️ Ucan'ın atlas verisinde yerleşim kaydı YOKTUR; hanedanın kurucusunun öldüğü yer olduğu için nokta yazılması gereken bir mevkidir.",
+-  kaynak:"karakoyunlular" },
++  kaynak:"TDV `karakoyunlular`: \"Ancak Tebriz’in güneydoğusunda Ucan’a yakın bir yerde vefat etti (7 Zilkade 823 / 13 Kasım 1420).\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #16); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1420-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #16)" },
+ 
+ // ───────────────────────── İSKENDER MİRZA (1420-1438)
+ 
+@@ -383,7 +383,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
+   onem:5, dunya:2, kapsam:"ic", etiket:["taht-degisikligi","hukumdar","konu-hanedan"],
+   yer_id:"Tebriz",
+   d:"Kara Yûsuf'un dördüncü oğlu Cihan Şah, kardeşi İskender'in suikastle öldürülmesinin ardından 19 Nisan 1438'de tahta çıktı ve 'Muzafferüddin' unvanını aldı. Mardin'de doğduğu için babası ona önce 'Mardin Şah' adını düşünmüş, sonra Cihan Şah'ı tercih etmişti. Yirmi dokuz yıl sürecek saltanatı, Karakoyunlu'nun en geniş sınırlarına ulaştığı ve aynı zamanda en büyük kültür yatırımlarının yapıldığı dönemdir.",
+-  kaynak:"cihan-sah" },
++  kaynak:"TDV `cihan-sah`: \"Cihan Şah durumdan faydalanarak 19 Nisan 1438’de “Muzafferüddin” lakabıyla Karakoyunlu tahtına geçti.\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #17); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1438-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #17)" },
+ 
+ { t:"1440-01-01", b:"Cihan Şah Tiflis'i fethetti", gun:"H. 844 / 1440 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
+   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","fetih","kafkas","konu-askeri"],
+@@ -407,7 +407,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
+   onem:5, dunya:1, kapsam:"dis", etiket:["toprak","fetih","timur","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
+   yer_id:"Sultâniye",
+   d:"851 (1447) yılında Timurlu hükümdarı Şâhruh'un ölümü üzerine Cihan Şah, Timurlu vesâyetinden tamamen kurtularak Sultâniye ve Kazvin'i topraklarına kattı. Otuz yıldır Karakoyunlu'yu bağlayan Timurlu üstünlüğü böylece sona erdi; Cihan Şah bundan sonra İran'ın en güçlü hükümdarıdır.", ic_not_d:"⚠️ `dunya:1` değeri var olan kronoloji dosyalarından DEVRALINDI.",
+-  kaynak:"karakoyunlular · cihan-sah · TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447).\"" },
++  kaynak:"karakoyunlular · cihan-sah · TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447).\" · daha önce künyede (devletler.js) 1447-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #18)" },
+ 
+ { t:"1450-01-01", b:"Erzincan Karakoyunlu'ya geçti", gun:"H. 854 / 1450 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular`, `cihan-sah` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
+   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","fetih","akkoyunlu","konu-askeri"],
+diff --git a/data/kronoloji_katalan.js b/data/kronoloji_katalan.js
+index 6f6068d9..50a1f67f 100644
+--- a/data/kronoloji_katalan.js
++++ b/data/kronoloji_katalan.js
+@@ -13,7 +13,7 @@ window.KRONOLOJI_KATALAN = [
+ { t:"1303-09-01", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+   etiket:["askeri","ittifak","konu-askeri","konu-siyasi","konu-diplomasi"],
+   d:"Sicilya savaşlarından işsiz kalan Roger de Flor kumandasındaki Katalan paralı askerleri, Türk beyliklerine karşı savaşmak üzere Bizans hizmetine alındı. Kumpanya Anadolu'da birkaç başarı kazandı ama disiplinsizliği ve talepleriyle imparatorluğu bunalttı. Ege tarihinin en tuhaf devletlerinden birinin çekirdeği budur: bir ŞİRKET olarak örgütlenmiş bir ordu.",
+-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · devletler.js künye kronolojisi · gün yaklaşıktır" },
++  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · gün yaklaşıktır · TDV kapsamıyor · önceki \"devletler.js künye kronolojisi\" atfı kaldırıldı: atlas kaydı dayanak olamaz (D207) ve o künye maddesi silindi (KRONO-CELISKI-1006 §2 #26) · daha önce künyede (devletler.js) 1303-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #26)" },
+ 
+ { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
+   etiket:["kriz","askeri","isyan","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan"],
+diff --git a/data/kronoloji_kirim.js b/data/kronoloji_kirim.js
+index e230af07..52af9e8e 100644
+--- a/data/kronoloji_kirim.js
++++ b/data/kronoloji_kirim.js
+@@ -208,7 +208,7 @@ window.KRONOLOJI_KIRIM = [
+   etiket:["askeri","toprak","konu-askeri","afet","afet-yangin"],
+   yer_id:"Moskova",
+   d:"Kırım tarihinin en büyük askerî başarılarından biri: Devlet Giray'ın ordusu Moskova'nın güneyindeki Oka savunma hattını aşarak şehre ulaştı ve büyük bir yangınla tahrip etti; kaynaklarda şehrin büyük bölümünün kül olduğu, yüz binlerce kişinin öldüğü veya esir alındığı aktarılır. Han bu zaferle \"Taht-algan\" (taht alan) unvanını kazandı.",
+-  kaynak:"TDV `devlet-giray`: \"Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi.\" · gün: bulunamadı — TDV gün vermiyor; künyedeki 1571-05-24 kaynaksızdır, atlas kaydı dayanak olamaz (D207; KRONO-CELISKI-1006 §2 #31) · gün: Serkan Acar, \"Kırım Hanı Devlet Giray’ın 1571 Rusya Seferi ve Moskova Yangını\", Karadeniz Araştırmaları (2013), İngilizce özet: \"He set fire suburbs of the city in May 24th, 1571\" — cümle şehrin varoşlarının ateşe verilişini tarihliyor (KRONO-AKADEMIK-1006)" },
++  kaynak:"TDV `devlet-giray`: \"Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi.\" · gün: bulunamadı — TDV gün vermiyor; künyedeki 1571-05-24 kaynaksızdır, atlas kaydı dayanak olamaz (D207; KRONO-CELISKI-1006 §2 #31) · gün: Serkan Acar, \"Kırım Hanı Devlet Giray’ın 1571 Rusya Seferi ve Moskova Yangını\", Karadeniz Araştırmaları (2013), İngilizce özet: \"He set fire suburbs of the city in May 24th, 1571\" — cümle şehrin varoşlarının ateşe verilişini tarihliyor (KRONO-AKADEMIK-1006) · daha önce künyede (devletler.js) 1571-05-24 yazılıydı, kaynaksızdı; D2c'de Acar (2013) ile kaynaklandı ve bu maddeye yazıldı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #31)" },
+ { t:"1571-01-01", b:"Devlet Giray, Gözleve'de bir cami inşa ettirdi", tur:"kultur", onem:2, dunya:1, kapsam:"ic",
+   etiket:["mimari","din","imar","konu-din","konu-kultur","konu-imar"],
+   yer_id:"Gözleve (Kezlev)",
+diff --git a/data/kronoloji_macaristan.js b/data/kronoloji_macaristan.js
+index c08f3c64..a91e393a 100644
+--- a/data/kronoloji_macaristan.js
++++ b/data/kronoloji_macaristan.js
+@@ -127,7 +127,7 @@ window.KRONOLOJI_MACARISTAN = [
+   etiket:["hanedan","hukumdar","konu-siyasi","konu-hanedan"],
+   yer_id:"",
+   d:"Rákos mecliste soyluların çoğunluğu Anjoulu Károly Róbert'i tanıdı; taç giyme töreni asıl kutsal taçla ancak 1310'da tamamlanabildi çünkü taç bir süre rakip beylerin elindeydi. Anjou hanedanı merkezî otoriteyi yeniden kurmaya girişti.",
+-  kaynak:"akademik: Engel (2001), s. 124-131", yer_id:"Peşte" },
++  kaynak:"akademik: Engel (2001), s. 124-131 · daha önce künyede (devletler.js) 1308-06-15 yazılıydı, kaynaksızdı; D2c'de bu maddenin gününe çekilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #32)", yer_id:"Peşte" },
+ 
+ { t:"1312-06-15", devlet:"macaristan", b:"Rozgony Muharebesi — Csák Máté'nin gücünün kırılması", tur:"savas", onem:4, dunya:1, kapsam:"ic",
+   etiket:["askeri","toprak-kazanc","konu-askeri"],
+diff --git a/data/kronoloji_memluk.js b/data/kronoloji_memluk.js
+index 9acce67a..d5e2f64f 100644
+--- a/data/kronoloji_memluk.js
++++ b/data/kronoloji_memluk.js
+@@ -167,7 +167,7 @@ window.KRONOLOJI_MEMLUK = [
+ 
+ { t:"1381-05-19", b:"el-Melikü'l-Mansûr Ali öldü, Berkuk vesayeti ele aldı", tur:"siyaset", onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-kisiler"], yer_id:"Kahire", d:"Çocuk sultan el-Melikü'l-Mansûr Ali'nin ölümü üzerine, Çerkes kökenli emirlerin en güçlüsü Berkuk kendi adına tahta çıkmak yerine merhumun kardeşi Hâccî'yi es-Sâlih unvanıyla sultan ilan etti ve fiilî iktidarı atabekliğinden yürütmeye başladı. Bu, Berkuk'un kendi saltanatına giden yolda attığı hesaplı bir ara adımdı.", kaynak:"berkuk" },
+ 
+-{ t:"1382-11-27", b:"Berkuk tahta çıktı — Bahrî'den Burcî'ye geçiş", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","hanedan-degisimi","konu-siyasi","konu-hanedan"], yer_id:"Kahire", d:"Berkuk, vesayeti altındaki kukla sultan es-Sâlih Hâccî'yi tahttan indirerek bizzat el-Melikü'z-Zâhir unvanıyla sultan oldu. Kendisi gibi Çerkes kökenli emirleri kilit mevkilere getiren Berkuk'un iktidarı, bir asırdan uzun süredir Mısır ve Suriye'yi yöneten Türk-Kıpçak asıllı Bahrî Memlük hanedanının sonunu ve Çerkes (Burcî) Memlükler devrinin başlangıcını simgeler.", kaynak:"berkuk (TDV, yıl); dayanak (gün): standart akademik kronoloji (Britannica)" },
++{ t:"1382-11-27", b:"Berkuk tahta çıktı — Bahrî'den Burcî'ye geçiş", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","hanedan-degisimi","konu-siyasi","konu-hanedan"], yer_id:"Kahire", d:"Berkuk, vesayeti altındaki kukla sultan es-Sâlih Hâccî'yi tahttan indirerek bizzat el-Melikü'z-Zâhir unvanıyla sultan oldu. Kendisi gibi Çerkes kökenli emirleri kilit mevkilere getiren Berkuk'un iktidarı, bir asırdan uzun süredir Mısır ve Suriye'yi yöneten Türk-Kıpçak asıllı Bahrî Memlük hanedanının sonunu ve Çerkes (Burcî) Memlükler devrinin başlangıcını simgeler.", kaynak:"berkuk (TDV, yıl); dayanak (gün): standart akademik kronoloji (Britannica) · daha önce künyede (devletler.js) 1382-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #8)" },
+ 
+ { t:"1382-12-08", b:"İbn Haldun Mısır'a geldi", tur:"kultur", onem:4, dunya:3, kapsam:"dis", etiket:["kultur","gocmen","konu-kultur","konu-demografi"], yer_id:"İskenderiye", d:"Kuzey Afrikalı tarihçi ve düşünür, 1 Şevval 784 (8-10 Aralık 1382) tarihinde İskenderiye'ye ulaştı ve kısa süre sonra Kahire'ye yerleşmeyi tercih etti. Bu göç, İslâm tarihyazıcılığının en etkili eserlerinden Mukaddime'nin yazarını Memlük Mısırı'nın ilim ve idare çevrelerine kattı.", kaynak:"ibn-haldun" },
+ 
+diff --git a/data/kronoloji_naksa_dukaligi.js b/data/kronoloji_naksa_dukaligi.js
+index cc181990..25c873f1 100644
+--- a/data/kronoloji_naksa_dukaligi.js
++++ b/data/kronoloji_naksa_dukaligi.js
+@@ -81,7 +81,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
+ { t:"1537-11-01", b:"Barbaros Hayreddin Paşa'nın Kiklad seferi — dukalığın haraca bağlanması", tur:"vassal", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
+   etiket:["askeri","vassal","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
+   d:"Barbaros Hayreddin Paşa'nın ada seferi sırasında Kikladlar'ın büyük bölümü alındı ve Duka IV. Giovanni Crispo yıllık ağır bir haraç karşılığında yerinde bırakıldı. Dukalık artık bir Osmanlı tâbi devletidir; duka Latin, tebaası Ortodoks, hükümdarı Osmanlı padişahıdır. Bu tuhaf üçlü düzen kırk yıl sürecektir.",
+-  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
++  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27) · daha önce künyede (devletler.js) 1537-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
+ 
+ { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
+   etiket:["antlasma","diplomasi","konu-diplomasi"],
+diff --git a/data/kronoloji_safevi.js b/data/kronoloji_safevi.js
+index 164300fe..da41042b 100644
+--- a/data/kronoloji_safevi.js
++++ b/data/kronoloji_safevi.js
+@@ -91,7 +91,7 @@ window.KRONOLOJI_SAFEVI = [
+ { t:"1507-01-01", b:"Diyarbekir ve yöresi Safevîlere bağlandı — Dulkadıroğlu Alâüddevle Bey'e karşı sefer", gun:"yıl — TDV ay/gün vermiyor · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): kullanılan yıl 1507 · `safeviler` 912 H (Mayıs 1506 – Mayıs 1507), `sah-ismail` 913 H (Mayıs 1507 – Mayıs 1508) — iki hicrî yıl, miladî 1507 ortak; seçilmedi (KRONO-CELISKI-1006 §3.4)", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+   etiket:["askeri","toprak","konu-askeri"],
+   d:"Dulkadıroğlu Alâüddevle Bey'in Diyarbekir'i ele geçirip Akkoyunlu Murad Bey'i yeniden tahta çıkarma girişimi üzerine Şah İsmâil Erzincan üzerinden Osmanlı topraklarına girdi, Maraş ve Elbistan'ı tahrip etti; Diyarbekir ve yöresi Safevîlere bağlandı.",
+-  kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu.\" · TDV `sah-ismail`: \"913 (1507) yılında Şah İsmâil, hâkimiyetini Diyarbekir’e doğru genişletmeye çalışan Dulkadıroğlu Alâüddevle Bey’e karşı yürüdü.\" · künyeden taşındı: devletler.js eski 1503-01-01 \"Diyarbekir, Bağdat ve Musul\" (KRONO-CELISKI-1006 §2 #29)", yer_id:"Diyarbakır" },
++  kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu.\" · TDV `sah-ismail`: \"913 (1507) yılında Şah İsmâil, hâkimiyetini Diyarbekir’e doğru genişletmeye çalışan Dulkadıroğlu Alâüddevle Bey’e karşı yürüdü.\" · künyeden taşındı: devletler.js eski 1503-01-01 \"Diyarbekir, Bağdat ve Musul\" (KRONO-CELISKI-1006 §2 #29) · daha önce künyede (devletler.js) 1503-01-01 \"Diyarbekir, Bağdat ve Musul ele geçirildi\" yazılıydı, kaynaksız, YILI yanlıştı; D2'de 1507'ye düzeltilip buraya taşınmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #29)", yer_id:"Diyarbakır" },
+ { t:"1508-01-01", b:"Bağdat savaşsız Safevî hâkimiyetine girdi", gun:"yıl — 914 H (Mayıs 1508 – Nisan 1509); TDV ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+   etiket:["askeri","toprak","konu-askeri"],
+   d:"Şah İsmâil Irâk-ı Arab'a yürüdü; Bağdat hâkimi Pürnek Bârik Bey şehri terk etti, Bağdat savaşsız alındı ve şehirdeki Türkmenlerin büyük bölümü kılıçtan geçirildi. Şah ardından Kerbelâ, Necef ve Sâmerrâ'daki imam türbelerini tamir ettirdi.",
+diff --git a/data/kronoloji_timurlu.js b/data/kronoloji_timurlu.js
+index b81eded3..4c45b6b4 100644
+--- a/data/kronoloji_timurlu.js
++++ b/data/kronoloji_timurlu.js
+@@ -85,7 +85,7 @@ window.KRONOLOJI_TIMURLU = [
+ { t:"1400-10-01", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
+   etiket:["askeri","toprak-kayip","konu-askeri"],
+   d:"Hindistan seferinden dönen Timur, 'Yedi Yıllık Sefer' adı verilen batı harekâtı kapsamında Suriye'ye girip Halep önünde Memlük ordusunu yendi; şehir üç gün yağmalandı ve kafataslarından kuleler yapıldı. Halep'in düşüşü, Kahire'deki Memlük sarayında paniğe yol açan ilk büyük darbeydi.",
+-  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20)" },
++  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20) · daha önce künyede (devletler.js) 1400-01-01 \"Halep ve Şam'ı ele geçirdi\" yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #20)" },
+ 
+ { t:"1401-01-25", b:"Şam'ın teslimi ve İbn Haldûn ile görüşme", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"Şam",
+   etiket:["diplomasi","din","kultur","konu-diplomasi","konu-din","konu-kultur"],
+@@ -124,7 +124,7 @@ window.KRONOLOJI_TIMURLU = [
+ { t:"1409-05-13", b:"Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu", gun:"27 Zilhicce 811 / 13 Mayıs 1409 (TDV `sahruh`) · eski t 1409-05-01 ay başı yer tutucuydu, kaynağı yoktu (KRONO-CELISKI-1006 §2 #21)", tur:"birlesme", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
+   etiket:["hanedan","siyaset","konu-siyasi","konu-hanedan"],
+   d:"Dört yıllık iç savaşın ardından Şahruh, yeğeni Halil Sultan'ı Semerkant'tan çıkarıp imparatorluğun büyük kısmını yeniden tek elde topladı; ancak başkenti Semerkant'ta değil kendi merkezi Herat'ta tuttu, Semerkant'ın yönetimini oğlu Uluğ Bey'e bıraktı. Bu ikili başkent düzeni (Herat'ta siyaset, Semerkant'ta bilim) Timurlu 'altın çağı'nın kurumsal iskeletini oluşturdu.",
+-  kaynak:"TDV `sahruh`: \"27 Zilhicce 811 (13 Mayıs 1409) tarihinde hiçbir mukavemetle karşılaşmadan Semerkant’a giren Şâhruh, altı ay sonra şehirden ayrılırken buranın ve Mâverâünnehir’in idaresini oğlu Uluğ Bey’e ve onun atabegi Şah Melik’e bıraktı.\" · TDV `timurlular`: \"1409’da hâkimiyeti ele geçiren Timur’un küçük oğlu Şâhruh\"" },
++  kaynak:"TDV `sahruh`: \"27 Zilhicce 811 (13 Mayıs 1409) tarihinde hiçbir mukavemetle karşılaşmadan Semerkant’a giren Şâhruh, altı ay sonra şehirden ayrılırken buranın ve Mâverâünnehir’in idaresini oğlu Uluğ Bey’e ve onun atabegi Şah Melik’e bıraktı.\" · TDV `timurlular`: \"1409’da hâkimiyeti ele geçiren Timur’un küçük oğlu Şâhruh\" · daha önce künyede (devletler.js) 1409-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #21)" },
+ 
+ // ══════════════════════════════════════════════════════════════════
+ // IV. ULUĞ BEY VE SEMERKANT'IN BİLİM ÇAĞI (1417-1449)
+@@ -148,7 +148,7 @@ window.KRONOLOJI_TIMURLU = [
+ { t:"1447-01-01", b:"Uluğ Bey tahta çıktı — bilgin-hükümdar Timurlu'nun başına geçti", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Herat",
+   etiket:["hanedan","konu-hanedan"],
+   d:"Babası Şahruh'un ölümüyle Uluğ Bey resmen Timurlu tahtına çıktı; ama kırk yılını gökbilime ve matematik araştırmalarına adamış bir hükümdar olarak siyasî ve askerî yeteneği babasınınkinin gerisindeydi. Saltanatı iki yıl bile sürmeyecekti.", ic_not_d:"(kronoloji_iran.js:90, 1447-03-13, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
+-  kaynak:"TDV `ulug-bey`: \"1447-1449 arası hükümdarlık yaptı\"" },
++  kaynak:"TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447). … Yerine oğlu Uluğ Bey geçti (1447-1449).\" · hükümdar listesi: \"Uluğ Bey 850 (1447)\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #22); birebirliği birebir.py ile sınandı; önceki tırnaklı `ulug-bey` özetlemesi TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1449-01-01 yazılıydı, kaynaksız, YILI yanlıştı; D2'de 1447'ye düzeltilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #22)" },
+ 
+ { t:"1449-10-25", b:"Uluğ Bey, öz oğlu tarafından öldürüldü", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Semerkant",
+   etiket:["hanedan","kriz","din","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan","konu-din"],
+diff --git a/data/kronoloji_venedik.js b/data/kronoloji_venedik.js
+index 3aff7083..871b9598 100644
+--- a/data/kronoloji_venedik.js
++++ b/data/kronoloji_venedik.js
+@@ -402,7 +402,7 @@ window.KRONOLOJI_VENEDIK = [
+ { t:"1645-08-22", b:"Girit Savaşı'nın başlaması ve Hanya'nın düşüşü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+   etiket:["askeri","kusatma","konu-askeri"],
+   d:"Osmanlı ordusu Girit'e çıktı ve elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
+-  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü)" },
++  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2)" },
+ 
+ { t:"1646-03-01", b:"Patrisyenliğin satışa çıkarılması — savaşın anayasal bedeli", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
+   etiket:["anayasa","ekonomi","konu-ekonomi","konu-islahat","konu-hukuk"],
