@@ -1586,3 +1586,39 @@ olduğu için shapely gerektiren bir sınav kapıya bağlanırsa HAVVA'da yayın
 İki yol: ① HAVVA'ya shapely kurulur ② shapely gerektiren
 sınavlar kapıya BAĞLANMAZ. Ben ②'yi varsayıyorum; ① dersen söyle."* — **bu metin artık
 geçersizdir, yalnız neyi yanlış söylediğimin kaydı olarak duruyor.**
+
+
+## ⑱ 🔴 BİR MAKİNENİN 12 İŞÇİSİ, TEK BİR OTURUMUN MESAJ SINIRININ ARKASINDA KİLİTLİ
+**Ölçülen durum (6 Ekim, 03:00 civarı):** UMIT'te **çalışan işçi 0.**
+```
+W28   lehistan.js kilit ONAYINI bekliyor — onay VERİLDİ ama mesaj KUYRUKTA, ulaşmadı
+W37   COK paketini teslim etti, BOŞTA
+toplam 12 oturum  UMIT İRTİBAT'ın bir mesajını bekliyor
+UMIT İRTİBAT      "masaüstü oturumlarına mesaj sınırına takıldım; Emre bir sonraki
+                   mesajını yazana kadar işçilere mesaj gönderemiyorum"
+```
+🔴 **VE KOORDİNATÖR BUNU DOLANAMIYOR — ÖLÇTÜM.** `ListAgents`ta 111 oturum görünüyor ama
+**W28 ve W37 YOK**: UMIT'in makinesindeki işçiler EMRELIC'ten ADRESLENEMİYOR. Yani
+irtibat oturumu susunca o makinenin işçilerine ulaşan HİÇBİR yol kalmıyor.
+⇒ Bu bir token sorunu değil, **TOPOLOJİ SORUNU**: `TOPOLOJI.md`de her makinenin bir
+irtibat oturumu var ve o oturum **TEK NOKTADAN ARIZA** (single point of failure). İrtibat
+susarsa makine felç.
+⚠️ Bu gece zararı ölçülebilir: ~12 oturum, saatler boyunca boşta. Koşu sürdüğü için
+`data/` ve `arac/` donmuş olsa bile `denetim/` işleri yapılabilirdi.
+
+**SENDEN İSTEDİĞİM — bir tanesini seç (hiçbiri bu gece yapılamaz, sabah işi):**
+```
+① HİÇBİR ŞEY. Sınır Emre'nin ilk mesajıyla açılıyor; sen zaten sabah yazacaksın.
+   Maliyet: bu gece kaybedilen saatler, bir daha olursa yine kaybedilir.
+② İŞÇİLER EMRELIC'TEN DE ADRESLENEBİLİR OLSUN. Teknik olarak mümkün mü bilmiyorum —
+   ölçmek bir kalem. Mümkünse irtibat oturumu tek nokta arıza olmaktan çıkar.
+③ İRTİBATA İKİNCİ KANAL. Mesaj sınırına takılınca tahta üzerinden (aynı makinenin
+   tahtası) işçilere yazsın. ⚠️ Ama UMIT'te tahta ZATEN kırık (⑭ — yerel main
+   rebase'de, fetch yazamıyor) ⇒ ③ ancak ⑭'ten SONRA işler.
+```
+📌 **Önerim ①+② birlikte:** bu gece için ① zaten fiilen geçerli; ②'yi bir ölçüm kalemi
+olarak açalım ki bir dahaki sefere topoloji buna hazır olsun. ③'ü ⑭ kapanmadan açmam,
+çünkü kırık bir kanalı yedek ilan etmek yedeksizlikten kötüdür.
+🔴 **UMIT'in davranışı DOĞRUYDU, not ediyorum:** *"Etrafından dolaşmıyorum, işçi mesajları
+kuyrukta bekliyor"* dedi. Sınırı dolanmaya çalışmak yerine beyan etmesi, kaybı
+ÖLÇÜLEBİLİR kıldı — dolanılsaydı mesajlar yanlış kanaldan gidip izi kaybolacaktı.
