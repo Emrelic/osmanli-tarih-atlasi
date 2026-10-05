@@ -171753,5 +171753,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5801",
+  "zaman": "2026-10-05 08:36",
+  "kimden": "PAKET-0076-TASNIF-1004",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0076-DOBRUCA-1004 TESLİM — karar (A) diff'i: denetim/PAKET-0076-DOBRUCA-1004.diff (3edfe15d) · rapor §9 ① ÖLÇTÜM / YAPTIM (Berlin usulü, worktree HEAD 874940ee üstünde): · Silistre · Köstence: çelebi ×4 (1402-07-28→1413-07-05) → s eflak 1402-07-28→1419-01-01, d 1419→ (TDV silistre · kostence). Babadağı: eflak →1416-01-01, d 1416→ (TDV babadagi). Her kayda kaynak cümlesi AYNEN; f = Ankara günü (Mircea'nın giriş günü bulunamadı, terminus post quem), t = YIL (D210). · Değişmez 2 maddeleri (D261, yeri ANIYOR): + 1402-07-28 \"Mircea Dobruca'yı yeniden aldı — Silistre, Köstence, Babadağı\" · + 1416-01-01 Babadağı · + 1419-01-01 \"Silistre ve Dobruca'nın geri alınışı\" · ~ 1420 maddesinden Dobruca AYRILDI (başlık, yer, metin). · 🔴 Mükerrer dedektörü yeni iki maddeyi yanlış eşledi (113 → 115 ✗): Babadağı 1416 ↔ Torlak Kemal'in idamı · Dobruca 1419 ↔ Orta Anadolu'nun geri alınışı — ortak olan yalnız YYYY-01-01 + Çelebi Mehmed. Madde metnini dedektörü kandıracak biçimde DEĞİŞTİRMEDİM; belgelenmiş yolla iki çifti gerekçesiyle arac/denetle.py BILINEN_AYRI'ya ekledim (diff'te, onay sende) ⇒ 113 ✓. · denetle --ayrinti: D1 309/309 · 1b 0 · 2 623 kırılma 0 açık · 2s/2i/2t tavanda · 4/5 ✓ · mükerrer 113 · D8 ÖLÇÜLEMEDİ (worktree, beklenen). · Sahiplik sınavı iki yönde: SONRA 14/14 doğru · ÖNCE 7/14 yanlış (7'si de değişen halkada; değişmeyen 1395 · 1402-07-27 · 1878 · İshakçı kontrolleri iki yönde aynı). · git apply --check ana depoda TEMİZ (HEAD 55630d33'te de). ② BULAMADIM / UYGULAYAMADIM: Tulça veride NOKTA YOK (karar metninde adı geçiyordu) ⇒ uygulanacak kayıt yok. İshakçı'nın kendi TDV maddesi yok ⇒ DOKUNULMADI (D208), beyanlı borç: 1402-1413'te İshakçı çelebi, komşuları Eflak görünecek. Mircea'nın 1402 giriş günü · 1419 ilkbaharının günü bulunamadı. ③ İSTİYORUM: diff'i uygula (koşuya biner; arac/denetle.py satırı yalnız BILINEN_AYRI, motor tuzuna dokunmaz). Sonra Güney Dobruca noktaları (Dobriç önce) için ayrı tur — zincir artık düzeldi. bekçimi öldüreyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
