@@ -1,0 +1,53 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 59e6200b..95579d66 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -675,7 +675,7 @@ window.DEVLETLER = [
+   kronoloji:[
+     { t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
+     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
+-    { t:"1308-06-15", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı" },
++    { t:"1308-11-27", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı", ic_not_b:"eski t: 1308-06-15 — KAYNAKSIZ; ikizin kaynaklı gününe çekildi (KRONO-AKADEMIK-1006)", kaynak:"TDV `macaristan`: \"Anjou sülâlesinden I. Károly 1308’de kral seçildi ve 1310’da taç giydi.\" · gün: kronoloji_macaristan.js 1308-11-27 (Engel 2001, s. 124-131 — Pest meclisinde seçim; Engel metni bu turda okunamadı) · BEYAN (MGGP-NOT): kullanılan gün 1308-11-27 · kullanılmayan 1308-06-15 (kaynaksız; yıl da şüpheli — 15 Haziran bir 1309 taç giyme günü olarak anılıyor, kaynağı yalnız Vikipedi, dayanak DEĞİL) (KRONO-AKADEMIK-1006)" },
+     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
+     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
+     { t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
+@@ -858,7 +858,7 @@ window.DEVLETLER = [
+   kronoloji:[
+     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
+     { t:"1709-08-01", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
+-    { t:"1714-02-01", tur:"antlasma", b:"Osmanlı topraklarını terk etti" }
++    { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" }
+   ]
+ },
+ 
+diff --git a/data/kronoloji_isvec.js b/data/kronoloji_isvec.js
+index dbb3f0c0..b3a44037 100644
+--- a/data/kronoloji_isvec.js
++++ b/data/kronoloji_isvec.js
+@@ -303,7 +303,7 @@ window.KRONOLOJI_ISVEC = [
+   etiket:["diger"],
+   yer_id:"",
+   d:"XII. Karl, küçük bir maiyetle at sırtında on beş günde Osmanlı topraklarından Avrupa'daki İsveç topraklarına ulaştı — dönemin Avrupa basınında geniş yankı uyandıran efsanevi bir yolculuk.", ic_not_d:"TDV'nin `isvec` maddesi varış tarihini bu şekilde vermektedir; yolculuğun son durağının kesin coğrafi ayrıntısı bu dosyada ayrıca doğrulanmamıştır.",
+-  kaynak:"isvec (TDV, içerik okundu) — yolculuğun son durak ayrıntısı ayrıca doğrulanmadı", kapsam_genis:true },
++  kaynak:"isvec (TDV, içerik okundu) — yolculuğun son durak ayrıntısı ayrıca doğrulanmadı · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-10-11 (TDV `isvec`: \"19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı\") · kullanılmayan kaynaklı gün 1714-11-11 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"arrived unexpectedly at midnight, on the 11th of November, at Stralsund\") · neden: iki kaynak bir AY farklı; düzeltilmedi, beyan edildi. Takvim notu: İsveç 1712-1753 arası Jülyen takvimdeydi; EB1911'in takvimi belirtilmemiş (KRONO-AKADEMIK-1006)", kapsam_genis:true },
+ { t:"1718-11-30", b:"XII. Karl, Fredriksten Kalesi kuşatmasında öldü", tur:"olum", onem:5, dunya:2, kapsam:"dis",
+   etiket:["kayip","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
+   yer_id:"",
+diff --git a/data/kronoloji_kirim.js b/data/kronoloji_kirim.js
+index 5f62b57d..e230af07 100644
+--- a/data/kronoloji_kirim.js
++++ b/data/kronoloji_kirim.js
+@@ -204,11 +204,11 @@ window.KRONOLOJI_KIRIM = [
+   yer_id:"Astrahan",
+   d:"Osmanlı'nın Don-Volga kanalını açıp Astarhan'ı geri almayı hedefleyen büyük seferine Devlet Giray açıkça karşı çıkamasa da gerekli desteği vermekten kaçındı — Kırım'ın kendi bölgesel çıkarlarının Osmanlı'nın stratejik hedefleriyle her zaman örtüşmediğinin erken bir örneğidir. Sefer başarısız oldu.",
+   kaynak:"kirim, devlet-giray (TDV)" },
+-{ t:"1571-01-01", b:"Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
++{ t:"1571-05-24", gun:"24 Mayıs 1571 — Acar (2013); TDV `devlet-giray` yalnız yıl veriyor · eski t 1571-01-01 (yıl hassasiyeti) · takvim: 1571 Gregoryen reformundan (1582) önce, gün kaynağın verdiği biçimde (KRONO-AKADEMIK-1006)", b:"Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+   etiket:["askeri","toprak","konu-askeri","afet","afet-yangin"],
+   yer_id:"Moskova",
+   d:"Kırım tarihinin en büyük askerî başarılarından biri: Devlet Giray'ın ordusu Moskova'nın güneyindeki Oka savunma hattını aşarak şehre ulaştı ve büyük bir yangınla tahrip etti; kaynaklarda şehrin büyük bölümünün kül olduğu, yüz binlerce kişinin öldüğü veya esir alındığı aktarılır. Han bu zaferle \"Taht-algan\" (taht alan) unvanını kazandı.",
+-  kaynak:"TDV `devlet-giray`: \"Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi.\" · gün: bulunamadı — TDV gün vermiyor; künyedeki 1571-05-24 kaynaksızdır, atlas kaydı dayanak olamaz (D207; KRONO-CELISKI-1006 §2 #31)" },
++  kaynak:"TDV `devlet-giray`: \"Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi.\" · gün: bulunamadı — TDV gün vermiyor; künyedeki 1571-05-24 kaynaksızdır, atlas kaydı dayanak olamaz (D207; KRONO-CELISKI-1006 §2 #31) · gün: Serkan Acar, \"Kırım Hanı Devlet Giray’ın 1571 Rusya Seferi ve Moskova Yangını\", Karadeniz Araştırmaları (2013), İngilizce özet: \"He set fire suburbs of the city in May 24th, 1571\" — cümle şehrin varoşlarının ateşe verilişini tarihliyor (KRONO-AKADEMIK-1006)" },
+ { t:"1571-01-01", b:"Devlet Giray, Gözleve'de bir cami inşa ettirdi", tur:"kultur", onem:2, dunya:1, kapsam:"ic",
+   etiket:["mimari","din","imar","konu-din","konu-kultur","konu-imar"],
+   yer_id:"Gözleve (Kezlev)",
