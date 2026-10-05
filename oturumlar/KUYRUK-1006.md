@@ -85,6 +85,15 @@ kaynaksızlık      hicbiri 1968 → ~1930 · donem_ici 333 → ~371 · kayıt-k
    `KAPI_ALANI_ZORUNLU=True` B ile AYNI yamada iner.
 ⑤ `origin/projeksiyon` BİRLEŞTİRİLMEZ — `uret_petek.py`ye dokunuyor (MOTOR TUZU) ve kendi
    commit'i "görsel sınav YOK" diyor.
+⑨ 🔴 `KRONO-MUKERRER-SIL` (D3) **BEKLİYOR**: silmesi üç KAYNAKSIZ günü götürüyor
+   (`kirim 1571-05-24` · `macaristan 1308-06-15` · `isveç 1714-02-01`) ve birincisi
+   *"dokunulmaz 9"* listemdeydi. ⇒ İkizin günü **kaynaklı mı, silinenden FARKLI mı**
+   ölçülmeden uygulanmaz. Fark çıkarsa o **silme değil TARİH DEĞİŞİKLİĞİdir** ve
+   `KRONO-TARIH` diff'ine taşınır, beyanlı.
+   📌 Ve silinen kaynaksız değer **nota geçer**: birisi onu bir sebeple yazdı, akademik
+   tur için bir İZDİR. İz silinirse arama sıfırdan başlar.
+⑩ `KRONO-TARIH` (D2) ile `KRONO-TARIH-1006b` (D2b) **AYNI SATIRA** dokunuyor ⇒
+   `--check` **sırayla tek tek**, tek çağrıda DEĞİL.
 ⑧ `KRONO-TARIH` diff'i **autocrlf DÖNÜŞÜMÜ YAPILMADAN** uygulanacak. 65 CR satırı taşıyor
    ve bu **meşru**: hepsi `data/devletler.js`te, o dosya index'te `-text` (karışık satır
    sonu, main'de de böyle). ⇒ `CR 0` beklentisi burada YANLIŞ ölçüt (`D264`).
