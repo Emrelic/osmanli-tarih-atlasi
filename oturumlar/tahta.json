@@ -172406,5 +172406,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5837",
+  "zaman": "2026-10-05 17:59",
+  "kimden": "PAKET-0083-A-BOS-BOLGE",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-0083-A-BOS-BOLGE TESLİM · commit 6e8c37ab (öngörü d2110094'te ölçümden ÖNCE) · denetim/PAKET-0083-A-BOS-BOLGE.md Görsellerde tarih YOK; yıl ve yer veriden ölçüldü. Boşluk ölçümü yerel önizlemede uygulamanın KENDİ çözülmüş gövdeleriyle (devletler2 + donemler/tekVeri/petekVerisi), çizime bakılmadan. ① ÖLÇTÜM — dört madde, İKİ sınıf: • H-0007 Po ovası → KASITLI BOŞLUK. Kutuda 9 nokta; 5'i (Bergamo·Brescia·Verona·Padova·Parma) 1281→1395-05-11 __BOSLUK__. Ölçüm: 1300/1350/1390'da beşi BOŞ, Milano/Mantova/Ferrara/Venedik dolu; 1396'da beşi de milanoduka. Görsel yılı 1281–1395. • H-0002 Güney Arnavutluk → KASITLI BOŞLUK. Kutuda 15 nokta; merkez Berat 1281→1417 __BOSLUK__. Ölçüm: 1360–1416 Berat ve Berat–Avlonya arası BOŞ, 1418'de OSM. Renk düzeni görselle örtüşüyor (Draç venedik · Avlonya napoli · Delvine bizans). • H-0003 Sohum KD, Kafkas ana sırtı → NOKTASIZ SIRT. Şerit örneklerinin 50 km içinde 0 nokta; en yakın Sohum ~95-110 km, Nalçik ~108-156 km. Izgara: 30-55 km genişlikte KB–GD boş şerit, 1500/1600/1790'da var; 1815'te iki yaka Rusya olunca KAPANIYOR. • H-0004 Kaheti–Dağıstan, Kafkas ana sırtı → H-0003 ile AYNI sınıf. \"İRAN\" etiketi `iran` kimliğinin; bu kimliğin 1281–1501 gövdesi Dağıstan'da ⇒ görsel 1281–1501. 50 km içinde 0 nokta; en yakın Zagem ~93 km, Tarki ~104 km. • 🔴 YAN BULGU (D204/D205): `iran` künyesi f:1925 (Pehlevi), ama Tarki · Ağraham burnu · Derbend 1281'den `s: iran` (yerlesimler.js), Dihistan · Kızılarvat 1507–1510. Emre'nin 14. yy Dağıstan'ında gördüğü \"İRAN\" bu. Tarki için `kumuk-samhalligi` künyesi var ama f:1578. • Öngörü: dört maddenin sayısı TUTTU, \"iki sınıf\" TUTTU. Kafkas mekanizması ÇÜRÜDÜ: hat artığı dedim, ölçüm noktasız sırtın erişim dışında kaldığını gösterdi. ② BULAMADIM: • devletler.js'te Della Scala / Carrara / Visconti senyörlüğü ve Muzaka (Berat) künyesi yok. • Kafkas şeridinin motor mekanizması (40 saatlik yürüyüş bütçesi mi, A1b tavanı mı) koşu logundan ölçülmedi; \"bütçe\" bir çıkarım. • Emre'nin gördüğü yayın (r11195, damga yorumuna göre yürüyüş KAPALI) ile yerel çıktının (koşu 19, yürüyüş AÇIK) aynı olup olmadığı ölçülemedi. Dört boşluğun dördü de yerelde yeniden üretildi. ③ İSTİYORUM / ÖNERİM: • H-0007/H-0002: nokta EKLEME — künye + kaynaklı dönem. Bergamo/Brescia/Parma için `milanoduka` (f:1097) zaten var, yalnız geçiş tarihleri kaynak istiyor. Verona/Padova/Berat yeni künye ister. • H-0003/H-0004: ≥1'er kaynaklı nokta (Svaneti/Mestia · Avar-Hunzah gibi — ikisi de KAYNAKSIZ aday). Ya da bilinçli bırakılıyorsa arayüzde \"sırt — yerleşim yok\" beyanı. Karar sende. • `iran` kimlik kusuru ayrı iş olarak açılmalı. • Not: Önizleme sunucusu (8765) kapatıldı. Bekçi kurulmadı (şartname §0).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
