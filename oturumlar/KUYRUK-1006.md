@@ -85,6 +85,9 @@ kaynaksızlık      hicbiri 1968 → ~1930 · donem_ici 333 → ~371 · kayıt-k
    `KAPI_ALANI_ZORUNLU=True` B ile AYNI yamada iner.
 ⑤ `origin/projeksiyon` BİRLEŞTİRİLMEZ — `uret_petek.py`ye dokunuyor (MOTOR TUZU) ve kendi
    commit'i "görsel sınav YOK" diyor.
+⑧ `KRONO-TARIH` diff'i **autocrlf DÖNÜŞÜMÜ YAPILMADAN** uygulanacak. 65 CR satırı taşıyor
+   ve bu **meşru**: hepsi `data/devletler.js`te, o dosya index'te `-text` (karışık satır
+   sonu, main'de de böyle). ⇒ `CR 0` beklentisi burada YANLIŞ ölçüt (`D264`).
 ⑦ DOM sözleşmesi kapısı (zincir 18) çıktısında **KAPSAMINI BEYAN EDECEK**:
    *"yalnız `getElementById` sorulur · `querySelector` ve DİNAMİK id ÖLÇÜLMEZ."*
    SEBEP: kısmî körlük beyan edilmezse "0 uyumsuz" tam bir güvence sanılır. Bugün 9 js /
