@@ -172591,5 +172591,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5847",
+  "zaman": "2026-10-05 21:08",
+  "kimden": "KASA-POLONYA-1005",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KASA-KF1-GIRIS-1006 TESLİM · dal origin/makine/kasa (b3cbae8b — artık bu ad) · denetim/KASA-KF1-GIRIS-1006.md · öngörü ölçümden ÖNCE 1c52703f. ① ÖLÇTÜM — GİRİŞ günleri: gün 1/7 · ay 1/7 · bulunamadı 5/7 (öngörü 2±1 gün, ALTINDA). Artvin → Gürcistan DC 1920-04-20 (Mesut Çapa, TÜBA Millî Mücadele'nin Yerel Tarihi c.6: \"Artvin 20 Nisan 1920-23 Şubat 1921 tarihleri arasında Gürcülerin egemenliği altında kalmıştır\"; Yücetürk 2020 ay teyidi \"Nisan 1920\"). Iğdır → Ermenistan DC AY: Aralık 1918 (Mustafa Sarı, TÜBA c.9: Türk ordusu 4 Aralık 1918'de tahliye etti, Ermeni saldırısı 10 Aralık, \"Bu saldırıyla Ermeniler Iğdır ve Kulp'u (Tuzluca) ele geçirmişlerdi\" — gün yok). Posof bulunamadı: Gürcü girişi 1919-01-20 (püskürtülen saldırı) ile 1919-04-20 (Ardahan) arasında, \"Gürcüler önce Posof'u, ardından … 20 Nisan 1919'da Ardahan'ı\" (Motif Akademi 2019). KOMŞU GÜNÜ ADAYLARI (§4 şartlarını ölçtüm, hüküm senin): Hanak ← Ardahan 1919-04-20 (iki akademik: Motif Akademi 2019 + Aydın–Ergün, Tarih ve Günce 2019; ~20 km, aynı süreç — şartlar TUTUYOR) · Digor, Arpaçay ← Kars 1919-04-30 Ermeni idaresine teslim (Aydın–Ergün 2019 + Arslan–Tekir 2010; biçimce tutuyor ama \"idare Kars'ta teslim edildi\", kazalara giriş günü kaynakta yok). Şavşat: süreç belirsiz (Artvin okrugu/İngiliz mi, Ardahan/Gürcü 1919 mu) ⇒ şart ölçülemedi, bulunamadı kalsın. ARA KATMAN: transkafkasya VAR (künye 1917-11-07→1918-05-28, boyalı) ama Osmanlı girişiyle biter: Artvin \"26 Mart-4 Nisan 1918\" (Çapa) · Kars 1918-04-25 (Arslan, IJORS 2019; TDV kars \"23 Nisan … harekâta geçerek\") · Iğdır 1918-05-20 (Sarı). Hopa'nın 1918-03-14'ü Artvin'e komşu günü olamaz: hedefte zaten aralık kaynağı var ve 14 Mart onun DIŞINDA. Ardından Osmanlı d: → Mondros boşaltması (Arpaçay hattı 1918-12-04; Elviye-i Selâse tahliyesi 1919-01-25) → CGK/İngiliz (Artvin İngiliz 1918-12-17; Kars CGK dağıtıldı 12/13 Nisan 1919) → DC. Hiçbir yerde zincir iki halka değil, en az 5. 🔴 İKİ ENGEL: (1) cenub-i-garbi-kafkas künyesi VAR ama renkler.py'de YOK (grep 0) ⇒ Kars/Digor/Arpaçay zincirine girerse HARİTA DELİĞİ. (2) Iğdır'ın Aras-Türk Hükûmeti halkası (Kasım-Aralık 1918) künyesiz; kuruluşu da çelişiyor (3 Kasım Aydın–Ergün / 18 Kasım Sarı). 🔴 ÖNCEKİ TESLİME DÜZELTME: Iğdır ÇIKIŞI iki akademik kaynakta bir gün ayrışıyor — Üçüncü 2014 12 Kasım, Bolat 2019 (Adam Akademi 9/2) 13 Kasım 1920. Artvin çıkışında da üçüncü gün: Çapa 23 Şubat (TDV artvin 27, acara 11 Mart). TDV esas ⇒ Artvin 27 Şubat önerim değişmedi. ② BULAMADIM: Posof/Şavşat/Hanak/Digor/Arpaçay'ın DC giriş günü adıyla; Iğdır'ın Ermeni girişi gün düzeyinde. ③ İSTİYORUM: (1) Hanak/Digor/Arpaçay komşu günü hükmü · (2) CGK'yı boyamak ya da o pencereyi başka yazmak hükmü · (3) Aras-Türk için künye mi, yoksa o 2-4 haftalık pencere bulunamadı/__BOSLUK__ mu · (4) Iğdır çıkışı 12 mi 13 mü. bekçimi öldüreyim mi? (bekçi 2 saatlik sınırda düşmüştü; görev send_message ile geldi)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
