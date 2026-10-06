@@ -2,7 +2,7 @@
 """KRONO-0076-C — 17 maddenin kronoloji karsiligini OLCER. Salt okur, hicbir sey yazmaz."""
 import io, os, re, sys, json
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
 # ---- 1. motorun yukledigi dosya evreni (index.html'den) ----
