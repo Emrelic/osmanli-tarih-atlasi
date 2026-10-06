@@ -21,19 +21,20 @@ ILK = tuz()
 print("baslangic tuzu:", ILK)
 
 # --- ① LISTEYI DEGISTIR ------------------------------------------------------
-yedek_l = io.open(LP, encoding="utf-8").read()
-io.open(LP, "w", encoding="utf-8", newline="").write(
-    yedek_l.replace('GIRDI_DOSYALARI = [',
-                    'GIRDI_DOSYALARI = [\n    "SINAV_SAHTE_DOSYA.js",', 1))
+# yedek/geri yukleme BAYT olarak: metin kipi CRLF->LF cevirip sha256'yi (= tuzu) degistiriyordu
+yedek_l = io.open(LP, "rb").read()
+io.open(LP, "wb").write(
+    yedek_l.replace(b'GIRDI_DOSYALARI = [',
+                    b'GIRDI_DOSYALARI = [\n    "SINAV_SAHTE_DOSYA.js",', 1))
 A = tuz()
-io.open(LP, "w", encoding="utf-8", newline="").write(yedek_l)
+io.open(LP, "wb").write(yedek_l)
 print("① liste degisti     -> tuz:", A, "  ", "✅ AYNI (dogru)" if A == ILK else "🔴 DEGISTI (KUSUR)")
 
 # --- ② girdi.py KODUNU DEGISTIR ---------------------------------------------
-yedek_g = io.open(GP, encoding="utf-8").read()
-io.open(GP, "w", encoding="utf-8", newline="").write(yedek_g + "\n# SINAV SATIRI\n")
+yedek_g = io.open(GP, "rb").read()
+io.open(GP, "wb").write(yedek_g + b"\n# SINAV SATIRI\n")
 B = tuz()
-io.open(GP, "w", encoding="utf-8", newline="").write(yedek_g)
+io.open(GP, "wb").write(yedek_g)
 print("② girdi.py kodu degisti -> tuz:", B, "", "✅ DEGISTI (dogru)" if B != ILK else "🔴 AYNI (KUSUR)")
 
 # --- geri yukleme dogrulamasi ------------------------------------------------

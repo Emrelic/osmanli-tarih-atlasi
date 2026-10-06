@@ -23,7 +23,7 @@ from shapely.ops import unary_union, nearest_points
 from shapely.prepared import prep
 from shapely.validation import make_valid
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOTOR = os.path.join(KOK, "arac", "uret_petek.py")
 FONK = ["temiz", "kapat", "poligonal", "delikleri_doldur", "_km_derece", "_yasakli_mi",
         "_bant_baskasinin_topragini_kesiyor_mu", "_b2_enklav_birlestir", "_b3_koridor_kirp",

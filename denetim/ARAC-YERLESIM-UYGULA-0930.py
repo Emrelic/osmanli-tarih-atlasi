@@ -23,7 +23,7 @@ import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 YAZ = "--yaz" in sys.argv
 
 d = json.load(io.open(os.path.join(KOK, "denetim", "YERLESIM-BIRLESTIR-0930.json"),
