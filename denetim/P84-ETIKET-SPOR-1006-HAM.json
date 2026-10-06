@@ -1,0 +1,8854 @@
+{
+ "evren": {
+  "dataDosya": 146,
+  "tembel": 76,
+  "tembelYok": [],
+  "jsDosya": 9,
+  "yuklenemedi": [],
+  "madde": 10657,
+  "kart": 804,
+  "maddeGlobal": 183,
+  "kartGlobal": [
+   "EKOKUMA",
+   "MERAK",
+   "EKOKUMA_ANTLASMA2",
+   "EKOKUMA_MAGAZIN",
+   "EKOKUMA_MIMARI",
+   "EKOKUMA_EDEBIYAT",
+   "EKOKUMA_SAVAS",
+   "EKOKUMA_SH104",
+   "EKOKUMA_TARTISMA",
+   "EKOKUMA_KADIN",
+   "EKOKUMA_EKONOMI",
+   "EKOKUMA_DALGA2",
+   "MERAK_SH104",
+   "EKOKUMA_HANEDAN",
+   "EKOKUMA_STATU",
+   "EKOKUMA_CELALI",
+   "EKOKUMA_IBRAHIM",
+   "EKOKUMA_KASRISIRIN",
+   "EKOKUMA_SAVAS3",
+   "EKOKUMA_ANTLASMA3",
+   "EKOKUMA_MIMARI2",
+   "EKOKUMA_KIRIMRUS",
+   "EKOKUMA_KURUM",
+   "EKOKUMA_TOPLUM",
+   "EKOKUMA_DUNYA",
+   "EKOKUMA_VEZIR",
+   "EKOKUMA_RIVAYET",
+   "EKOKUMA_PADISAH",
+   "EKOKUMA_KARADENIZ",
+   "EKOKUMA_ANTLASMA4",
+   "EKOKUMA_VENEDIK",
+   "EKOKUMA_AVUSTURYA",
+   "EKOKUMA_LALE",
+   "EKOKUMA_YENILESME",
+   "EKOKUMA_DIPLOMASI",
+   "EKOKUMA_KIYAS",
+   "EKOKUMA_ANTLASMA5",
+   "EKOKUMA_ANTLASMA6",
+   "EKOKUMA_CAMITARZ",
+   "EKOKUMA_TAMAMLA",
+   "EKOKUMA_RUSIRAN",
+   "EKOKUMA_VECIZE",
+   "EKOKUMA_KURUM2",
+   "EKOKUMA_KORFEZ",
+   "EKOKUMA_KARSI",
+   "EKOKUMA_SAVAS1770",
+   "EKOKUMA_IHTILAL",
+   "EKOKUMA_AKDENIZ",
+   "EKOKUMA_DENIZ",
+   "EKOKUMA_BAKIS",
+   "EKOKUMA_MISIR1805",
+   "EKOKUMA_ALEMDAR",
+   "EKOKUMA_1806",
+   "EKOKUMA_YUNAN",
+   "EKOKUMA_YENICERI",
+   "EKOKUMA_BOLGE0073",
+   "EKOKUMA_P75A",
+   "EKOKUMA_P75B",
+   "EKOKUMA_P75C",
+   "EKOKUMA_ISYAN1821",
+   "EKOKUMA_KOLEMEN",
+   "EKOKUMA_P76B",
+   "EKOKUMA_P76C",
+   "EKOKUMA_P76D",
+   "EKOKUMA_P76E",
+   "EKOKUMA_P76F",
+   "EKOKUMA_P76G",
+   "EKOKUMA_P76H",
+   "EKOKUMA_P76I",
+   "EKOKUMA_P77A",
+   "EKOKUMA_P80B",
+   "EKOKUMA_P77B",
+   "EKOKUMA_P77C"
+  ]
+ },
+ "EKOKUMA_TUR": [
+  "sebep-sonuc",
+  "magazin",
+  "merak",
+  "antlasma",
+  "tartisma",
+  "teknik-bilimsel",
+  "kimdir",
+  "dis-yankilar",
+  "kahramanlik",
+  "menkibeler",
+  "sok-haberler",
+  "edebiyat",
+  "savas-hikayesi",
+  "karsi-anlati",
+  "bu-ulke-neden-var"
+ ],
+ "tanimsizTur": {},
+ "sporMadde": [
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1352-01-01",
+   "b": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-diplomasi",
+    "konu-ekonomi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1538-08-01",
+   "b": "Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın alınması",
+   "k": "fetih",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "spor"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1644-01-31",
+   "b": "Kemankeş Mustafa Paşa'nın idamı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "kemankes"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1534-01-01",
+   "b": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+   "k": "bilim",
+   "tur": "",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "matrak"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1453-06-01",
+   "b": "Fatih Sultan Mehmed'in Okmeydanı'nı okçulara tahsis etmesi",
+   "k": "spor",
+   "tur": "",
+   "konu": [
+    "konu-spor"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "okcu",
+    "okmeydani"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1504-01-01",
+   "b": "II. Bayezid'in Kırkpınar güreşçilerine büyük ödül vermesi",
+   "k": "spor",
+   "tur": "",
+   "konu": [
+    "konu-spor"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gures",
+    "kirkpinar"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1357-06-01",
+   "b": "Kırkpınar güreşlerinin rivayet edilen başlangıcı",
+   "k": "spor",
+   "tur": "",
+   "konu": [
+    "konu-spor"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gures",
+    "kirkpinar"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1330-06-01",
+   "b": "Orhan Gazi'nin Bursa fethi sonrası cirit oyunları için alan vakfetmesi",
+   "k": "spor",
+   "tur": "",
+   "konu": [
+    "konu-spor"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "cirit"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1675-01-01",
+   "b": "IV. Mehmed'in Edirne'deki sünnet düğününde günlerce cirit oynatması",
+   "k": "spor",
+   "tur": "",
+   "konu": [
+    "konu-spor",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "cirit"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK17",
+   "t": "1632-01-01",
+   "b": "IV. Murad'ın çelişkileri: içkiye düşkün padişahın içki yasağı, güreşçi bileği, besteci kulağı",
+   "k": "",
+   "tur": "magazin",
+   "konu": [
+    "konu-kisiler",
+    "konu-hanedan",
+    "konu-sanat",
+    "konu-spor",
+    "konu-sosyal",
+    "konu-magazin"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gures"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK17",
+   "t": "1638-12-24",
+   "b": "Kemankeş Kara Mustafa Paşa sadrazam oldu — mali ıslahat dönemi başladı",
+   "k": "",
+   "tur": "sadrazam",
+   "konu": [
+    "konu-siyasi",
+    "konu-burokrasi",
+    "konu-ekonomi",
+    "konu-islahat"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "kemankes"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1298-07-22",
+   "b": "Falkirk Savaşı — I. Edward Wallace'ı yendi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1346-08-26",
+   "b": "Crécy Savaşı — İngiliz uzun yayının zaferi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1415-10-25",
+   "b": "Agincourt Savaşı — V. Henry'nin zaferi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1346-08-26",
+   "b": "Crécy Savaşı — Fransız şövalye ordusunun bozgunu",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1385-08-14",
+   "b": "Aljubarrota Savaşı — Portekiz bağımsızlığı Kastilya karşısında pekişti",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_PORTEKIZ",
+   "t": "1385-08-14",
+   "b": "Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1161-01-01",
+   "b": "Ahmedîlî Arslanapa Sefîdrûd'da İldenizli Pehlivan'ı bozguna uğrattı",
+   "k": "savas",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "pehlivan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1168-01-01",
+   "b": "Pehlivan Arslanapa'yı Merâga'da kuşatıp Selçuklu tâbiiyetine aldı",
+   "k": "savas",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "pehlivan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1175-01-01",
+   "b": "Atabeg İldeniz öldü; Pehlivan atabeg oldu, Kızılarslan Azerbaycan'a getirildi",
+   "k": "hanedan",
+   "tur": "",
+   "konu": [],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "pehlivan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1177-01-01",
+   "b": "Irak Selçuklu Sultanı Arslanşah öldü; Pehlivan II. Tuğrul'u tahta çıkardı",
+   "k": "hanedan",
+   "tur": "",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "pehlivan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1186-01-01",
+   "b": "Atabeg Pehlivan öldü; Kızılarslan atabeg oldu",
+   "k": "hanedan",
+   "tur": "",
+   "konu": [],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "pehlivan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1229-01-01",
+   "b": "Lür-i Büzürg atabegi Hezâresb öldü",
+   "k": "hanedan",
+   "tur": "",
+   "konu": [],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "pehlivan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1939-08-26",
+   "b": "Cvetković-Maček anlaşmasıyla Hırvatistan Banlığı kuruldu",
+   "k": "",
+   "tur": "rejim",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "spor"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_SENKRON_0930",
+   "t": "1453-05-29",
+   "b": "İstanbul'un fethi: Bizans İmparatorluğu sona erer, Kuzey Sporad adaları Venedik'e sığınır",
+   "k": "siyasi",
+   "tur": "",
+   "konu": [
+    "konu-savas",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "spor"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1896-04-06",
+   "b": "İlk modern Olimpiyat Oyunları'nın Atina'da açılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-spor"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "olimpiya"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_DOGU_AFRIKA",
+   "t": "1528-01-02",
+   "b": "Mombasa sultanının Nuno da Cunha'ya karşı 5000 yerli okçuyla savunması",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri",
+    "konu-spor"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "okcu"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1859-01-01",
+   "b": "Manipûr'un Sagol Kangcei oyunu modern poloya kaynaklık etti",
+   "k": "",
+   "tur": "sosyal",
+   "konu": [
+    "konu-kultur",
+    "konu-spor",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "spor"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1320-01-01",
+   "b": "Tebriz üzerinden Avrupa'ya uzanan lüks ticareti",
+   "k": "",
+   "tur": "ekonomi",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "spor"
+   ]
+  }
+ ],
+ "kulturMadde": [
+  {
+   "g": "OLAYLAR",
+   "t": "1331-03-02",
+   "b": "İznik'in fethi",
+   "k": "fetih",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "OLAYLAR",
+   "t": "1416-05-01",
+   "b": "Şeyh Bedreddin isyanı",
+   "k": "isyan",
+   "tur": "",
+   "konu": [
+    "konu-isyan",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "OLAYLAR",
+   "t": "1520-09-30",
+   "b": "Kanunî Sultan Süleyman tahta çıktı",
+   "k": "taht",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan",
+    "konu-ekonomi",
+    "konu-kultur",
+    "konu-hukuk"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "divan edebiyat",
+    "edebiyat",
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR",
+   "t": "1730-09-25",
+   "b": "Patrona Halil İsyanı",
+   "k": "isyan",
+   "tur": "",
+   "konu": [
+    "konu-isyan",
+    "konu-darbe",
+    "konu-ekonomi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR",
+   "t": "1826-06-15",
+   "b": "Vak'a-i Hayriyye — Yeniçeri Ocağı kaldırıldı",
+   "k": "reform",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-isyan",
+    "konu-islahat"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "OLAYLAR",
+   "t": "1878-07-13",
+   "b": "Berlin Antlaşması",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1399-06-01",
+   "b": "Bursa Ulu Camii tamamlandı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "hat sanat",
+    "sanat",
+    "muze"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1557-10-16",
+   "b": "Süleymaniye Külliyesi açıldı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan",
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1616-06-09",
+   "b": "Sultan Ahmed Camii açıldı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "cini"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1727-07-05",
+   "b": "İlk Osmanlı matbaası kuruldu",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1831-11-01",
+   "b": "İlk resmî gazete: Takvîm-i Vekāyi",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1720-10-08",
+   "b": "Paris'e büyükelçi: Yirmisekiz Mehmed Çelebi",
+   "k": "diplomasi",
+   "tur": "",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1867-06-21",
+   "b": "Abdülaziz'in Avrupa seyahati",
+   "k": "diplomasi",
+   "tur": "",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK2",
+   "t": "1878-05-20",
+   "b": "Çırağan Baskını (Ali Suâvi olayı)",
+   "k": "darbe",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-isyan",
+    "konu-darbe",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1361-01-01",
+   "b": "Pençik Kanunu — Yeniçeri Ocağı'nın temelinin atılması",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-ekonomi",
+    "konu-hukuk"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1517-09-10",
+   "b": "Yavuz Sultan Selim'in Kahire'den ayrılışı ve Hayır Bey'in beylerbeyiliği",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-idari"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1514-09-06",
+   "b": "Yavuz Sultan Selim'in Tebriz'e girişi",
+   "k": "fetih",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1553-10-05",
+   "b": "Şehzade Mustafa'nın Konya Ereğlisi'nde idamı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1723-06-15",
+   "b": "Doğu seferi: Tiflis'in alınışı ve İran savaşının başlaması",
+   "k": "fetih",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1859-01-24",
+   "b": "Eflak ve Boğdan'ın Cuza yönetiminde birleşmesi: Romanya'nın doğuşu",
+   "k": "kayip",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1860-10-22",
+   "b": "Tercümân-ı Ahvâl'in yayına başlaması: İstanbul'da ilk özel Türkçe gazete",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1862-02-21",
+   "b": "Birleşik prensliklerin Romanya adını alması",
+   "k": "kayip",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1878-01-31",
+   "b": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1878-03-03",
+   "b": "Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1881-12-20",
+   "b": "Muharrem Kararnâmesi ve Düyûn-ı Umûmiyye İdaresi'nin kuruluşu",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-diplomasi",
+    "konu-ekonomi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "resim"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1905-07-21",
+   "b": "Yıldız Suikastı: II. Abdülhamid'e bombalı saldırı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-isyan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1913-06-29",
+   "b": "II. Balkan Savaşı'nın başlaması: müttefiklerin paylaşım kavgası",
+   "k": "savas",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK5",
+   "t": "1718-07-21",
+   "b": "Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi",
+    "konu-ekonomi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste",
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1550-06-01",
+   "b": "Süleymaniye Camii ve külliyesinin inşaatı başladı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan",
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1579-10-12",
+   "b": "Sokullu Mehmed Paşa suikaste uğrayıp öldürüldü",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1633-09-01",
+   "b": "Cibali Yangını",
+   "k": "diger",
+   "tur": "",
+   "konu": [
+    "konu-imar",
+    "afet",
+    "afet-yangin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kahvehane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1633-10-01",
+   "b": "IV. Murad'ın tütün ve kahvehane yasağı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-sosyal"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "kahvehane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1661-11-01",
+   "b": "Köprülüzâde Fâzıl Ahmed Paşa'nın sadrazamlığa atanması",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-burokrasi",
+    "konu-imar",
+    "konu-ulastirma"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1718-05-09",
+   "b": "Nevşehirli Damad İbrahim Paşa'nın sadrazamlığı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-burokrasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1720-06-01",
+   "b": "Tulumbacı Ocağı'nın kuruluşu",
+   "k": "diger",
+   "tur": "",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur",
+    "afet",
+    "afet-yangin"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tulumbaci"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1721-10-08",
+   "b": "Mehmed Efendi'nin İstanbul'a dönüşü",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-diplomasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1722-06-01",
+   "b": "Sâdâbâd Kasrı'nın yapımı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "siir"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1730-10-01",
+   "b": "Nevşehirli Damad İbrahim Paşa'nın idamı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1757-02-28",
+   "b": "Koca Ragıp Mehmed Paşa'nın sadrazamlığı",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-burokrasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1862-06-27",
+   "b": "Tasvir-i Efkâr yayımlandı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1867-08-30",
+   "b": "Yeni Osmanlılar Cemiyeti kuruldu",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1869-04-08",
+   "b": "Darülfünun'un kuruluş iradesi çıktı",
+   "k": "bilim",
+   "tur": "",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1873-04-01",
+   "b": "\"Vatan yahut Silistre\" sahnelendi, Nâmık Kemal sürgüne gönderildi",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur",
+    "konu-demografi"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "tiyatro",
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK7",
+   "t": "1876-06-04",
+   "b": "Abdülaziz şüpheli şekilde öldü",
+   "k": "diger",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK10",
+   "t": "1877-04-24",
+   "b": "Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
+   "k": "savas",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK10",
+   "t": "1877-05-09",
+   "b": "Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu",
+   "k": "kayip",
+   "tur": "",
+   "konu": [
+    "konu-siyasi",
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK10",
+   "t": "1877-06-27",
+   "b": "Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
+   "k": "kayip",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK10",
+   "t": "1476-02-01",
+   "b": "Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik",
+   "k": "kayip",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1538-01-01",
+   "b": "Mimar Sinan'ın hassa mimarbaşılığına atanması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1543-06-01",
+   "b": "Şehzade Camii ve Külliyesi'nin inşaatının başlaması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-hanedan",
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1548-08-01",
+   "b": "Şehzade Camii'nin ibadete açılması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-hanedan",
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1554-01-01",
+   "b": "Kırkçeşme Suları isale hattının inşaatının başlaması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1567-01-01",
+   "b": "Büyükçekmece Köprüsü'nün tamamlanması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar",
+    "konu-ulastirma"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1577-01-01",
+   "b": "Drina (Sokullu Mehmed Paşa) Köprüsü'nün tamamlanması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar",
+    "konu-ulastirma"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1419-12-01",
+   "b": "Bursa Yeşil Cami Külliyesi'nin tamamlanması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "cini"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1592-01-01",
+   "b": "Dâvud Ağa'nın hassa mimarbaşı olması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1566-01-01",
+   "b": "Edirnekapı (Mihrimah Sultan) Camii'nin tamamlanması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1547-01-01",
+   "b": "Üsküdar İskele (Mihrimah Sultan) Külliyesi'nin tamamlanması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1577-01-01",
+   "b": "Azapkapı (Sokullu Mehmed Paşa) Camii'nin yaptırılması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1573-01-01",
+   "b": "Piyâle Paşa Külliyesi'nin yaptırılması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1561-01-01",
+   "b": "Rüstem Paşa Külliyesi'nin (Camii) yapımı",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan",
+    "cini"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1568-01-01",
+   "b": "Selimiye Camii'nin (Edirne) inşaatının başlaması",
+   "k": "mimari",
+   "tur": "",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1534-01-01",
+   "b": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+   "k": "bilim",
+   "tur": "",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1633-01-01",
+   "b": "Kâtib Çelebi'nin Keşfü'z-Zünûn için Halep'te araştırmaya başlaması",
+   "k": "bilim",
+   "tur": "",
+   "konu": [
+    "konu-bilim",
+    "konu-kesif"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1695-01-01",
+   "b": "Hâfız Osman'ın II. Mustafa'ya hat hocası tayin edilmesi",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "hattat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1578-01-02",
+   "b": "III. Murad'ın Hünernâme'nin yazılması için ferman vermesi",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur",
+    "nakkas"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1588-01-01",
+   "b": "Hünernâme'nin II. cildinin tamamlanması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur",
+    "nakkas",
+    "resim"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1720-01-01",
+   "b": "Levnî'nin Surnâme-i Vehbî'yi resimlemesi",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "resim"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1732-01-01",
+   "b": "Levnî'nin vefatı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kisiler",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur",
+    "sanat",
+    "muze"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1711-01-01",
+   "b": "Itrî'nin vefatı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kisiler",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "musiki",
+    "bestekar",
+    "beste"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1778-01-09",
+   "b": "Hammâmîzâde İsmail Dede Efendi'nin doğumu",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kisiler",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "musiki",
+    "bestekar",
+    "beste"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1812-01-01",
+   "b": "Dede Efendi'nin musâhib-i şehriyârî olarak saraya alınması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1846-11-29",
+   "b": "Dede Efendi'nin hac sırasında Mina'da vefatı",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-kultur",
+    "afet",
+    "afet-salgin"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "musiki",
+    "beste",
+    "sanat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1566-09-01",
+   "b": "Bâkî'nin Kanunî Sultan Süleyman için mersiye yazması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur",
+    "konu-hukuk"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1566-09-30",
+   "b": "Bâkî'nin II. Selim'e cülûsiye sunması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1534-12-04",
+   "b": "Fuzûlî'nin Bağdat'ın fethi sonrası Kanuni'ye kaside sunması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur",
+    "konu-hukuk"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kaside"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1535-01-01",
+   "b": "Fuzûlî'nin Leylâ vü Mecnûn mesnevisini tamamlaması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "mesnevi"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1718-01-01",
+   "b": "Nedîm'in Lâle Devri şiirinin öncüsü olarak öne çıkması",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "siir",
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1730-10-28",
+   "b": "Nedîm'in Patrona Halil isyanı sırasında ölümü",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kisiler",
+    "konu-isyan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1635-01-01",
+   "b": "Nef'î'nin hicivleri yüzünden idam edilmesi",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1730-09-25",
+   "b": "Sâdâbâd'ın Patrona Halil isyanında tahrip edilmesi",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-isyan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1554-06-01",
+   "b": "İstanbul'da ilk kahvehanelerin açılması",
+   "k": "sosyoloji",
+   "tur": "",
+   "konu": [
+    "konu-sosyal"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "kahvehane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK14",
+   "t": "1572-01-22",
+   "b": "Kınalızâde Ali Çelebi'nin vefatı — Osmanlı ahlâk felsefesinin klasik metni Ahlâk-ı Alâî'nin müellifi",
+   "k": "felsefe",
+   "tur": "",
+   "konu": [
+    "konu-kisiler",
+    "konu-din"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK16",
+   "t": "1866-10-18",
+   "b": "Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi",
+   "k": "fetih",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK17",
+   "t": "1606-10-11",
+   "b": "Sedefkâr Mehmed Ağa başmimarlığa atandı — Sultanahmet Camii'nin mimarı",
+   "k": "",
+   "tur": "kisi",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK17",
+   "t": "1632-01-01",
+   "b": "IV. Murad'ın çelişkileri: içkiye düşkün padişahın içki yasağı, güreşçi bileği, besteci kulağı",
+   "k": "",
+   "tur": "magazin",
+   "konu": [
+    "konu-kisiler",
+    "konu-hanedan",
+    "konu-sanat",
+    "konu-spor",
+    "konu-sosyal",
+    "konu-magazin"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "OLAYLAR_EK17",
+   "t": "1725-01-01",
+   "b": "Otuz iki kişilik ilim/tercüme heyeti kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HABSBURG",
+   "t": "1583-01-01",
+   "b": "Sarayın Prag'a taşınması — Rudolf'un Altın Şehri",
+   "k": "",
+   "tur": "reform",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur",
+    "konu-imar",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HABSBURG",
+   "t": "1857-12-20",
+   "b": "Ringstrasse kararı — surların yıkılması",
+   "k": "",
+   "tur": "reform",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur",
+    "konu-islahat",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "opera",
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HABSBURG",
+   "t": "1873-05-01",
+   "b": "Viyana Dünya Sergisi'nin açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HABSBURG",
+   "t": "1873-05-09",
+   "b": "Borsa çöküşü (Börsenkrach)",
+   "k": "",
+   "tur": "kriz",
+   "konu": [
+    "konu-siyasi",
+    "konu-ekonomi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HABSBURG",
+   "t": "1874-12-16",
+   "b": "Yeni Burgtheater'in temel atılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1613-02-21",
+   "b": "Romanov hanedanı tahta çıktı ⭐",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1618-12-11",
+   "b": "Deulino Ateşkesi — Smolensk Polonya'da kaldı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1645-07-13",
+   "b": "I. Aleksey (\"Sessiz\") tahta çıktı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1797-04-05",
+   "b": "Pavel, veraset kanununu değiştirdi",
+   "k": "",
+   "tur": "kanun",
+   "konu": [
+    "konu-idari",
+    "konu-islahat",
+    "konu-hukuk"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1812-09-07",
+   "b": "Borodino Muharebesi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1878-03-03",
+   "b": "Ayastefanos (San Stefano) Antlaşması — Kars, Ardahan, Batum ve Doğubayazıt Rusya'ya bırakıldı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1911-09-14",
+   "b": "Stolıpin suikastle öldürüldü",
+   "k": "",
+   "tur": "diger",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1917-03-08",
+   "b": "Şubat Devrimi başladı (Petrograd ekmek ayaklanmaları)",
+   "k": "",
+   "tur": "isyan",
+   "konu": [
+    "konu-siyasi",
+    "konu-isyan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1917-03-15",
+   "b": "II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi ⭐",
+   "k": "",
+   "tur": "son",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1703-01-02",
+   "b": "İlk Rus gazetesi \"Vedomosti\" yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-idari",
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1714-01-01",
+   "b": "Kunstkamera — ilk Rus müzesi kuruldu",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1757-11-06",
+   "b": "İmparatorluk Güzel Sanatlar Akademisi kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1764-12-07",
+   "b": "Ermitaj koleksiyonunun temeli atıldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1790-05-22",
+   "b": "Radişçev'in \"Petersburg'dan Moskova'ya Yolculuk\" yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1842-05-21",
+   "b": "Gogol'ün \"Ölü Canlar\"ı yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1866-01-01",
+   "b": "Dostoyevski'nin \"Suç ve Ceza\"sı yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1877-02-27",
+   "b": "Çaykovski'nin \"Kuğu Gölü\"nün ilk gösterimi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1892-08-15",
+   "b": "Tretyakov Galerisi Moskova şehrine bağışlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim",
+    "sanat",
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1898-11-14",
+   "b": "Moskova Sanat Tiyatrosu kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tiyatro",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RUSYA",
+   "t": "1913-02-21",
+   "b": "Romanov Hanedanı'nın 300. yıl kutlamaları",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1655-07-21",
+   "b": "POTOP — İsveç Tufanı başladı",
+   "k": "",
+   "tur": "isgal",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1699-01-26",
+   "b": "KARLOFÇA — Podolya, Kamaniçe ve Sağ Yaka Ukrayna geri alındı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1795-10-24",
+   "b": "ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi",
+   "k": "",
+   "tur": "son",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1578-06-01",
+   "b": "Kochanowski'nin Yunan Elçilerinin Uğurlanması'ı — ilk Lehçe trajedi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-diplomasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1580-01-01",
+   "b": "Kochanowski'nin Ağıtlar'ı (Treny)",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "siir",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1747-08-08",
+   "b": "Załuski Kütüphanesi açıldı — Avrupa'nın ilk halk kütüphanelerinden",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1765-03-15",
+   "b": "Şövalye Okulu kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-askeri",
+    "konu-kultur",
+    "konu-egitim",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_LEHISTAN",
+   "t": "1765-11-19",
+   "b": "Millî Tiyatro kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_VENEDIK",
+   "t": "1577-05-20",
+   "b": "Doge Sarayı yangını",
+   "k": "",
+   "tur": "kriz",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur",
+    "konu-imar",
+    "afet",
+    "afet-yangin"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN",
+   "t": "1409-01-01",
+   "b": "Şahruh Herat'ı başşehir yaptı — Timurlu \"altın çağı\"",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN",
+   "t": "1921-02-21",
+   "b": "Rıza Han'ın darbesi",
+   "k": "",
+   "tur": "darbe",
+   "konu": [
+    "konu-siyasi",
+    "konu-darbe"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN",
+   "t": "1420-01-01",
+   "b": "Baysungur'un Herat nakkaşhânesi — minyatür sanatının zirvesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "minyatur",
+    "nakkas",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN",
+   "t": "1555-01-01",
+   "b": "İran halı ve ipek dokuma sanayii zirveye ulaştı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur",
+    "konu-sanayi"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN",
+   "t": "1917-01-01",
+   "b": "1917-1919 büyük kıtlığı",
+   "k": "",
+   "tur": "diger",
+   "konu": [
+    "konu-ekonomi",
+    "afet",
+    "afet-kitlik"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BIZANS",
+   "t": "1315-01-01",
+   "b": "Theodoros Metokhites Khora Manastırı'nı yeniletti",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BIZANS",
+   "t": "1321-06-01",
+   "b": "Kariye mozaik ve freskleri tamamlandı — Palaiologos rönesansının zirvesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BIZANS",
+   "t": "1439-12-18",
+   "b": "Bessarion kardinal oldu — Bizans bilgisi Batı'ya taşındı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MEMLUK",
+   "t": "1284-01-01",
+   "b": "Kalavun Külliyesi ve Mansûrî Bîmâristânı kuruldu",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-imar",
+    "konu-sosyal"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MEMLUK",
+   "t": "1288-12-17",
+   "b": "İbnü'n-Nefîs vefat etti — küçük kan dolaşımının kâşifi",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KIRIM",
+   "t": "1588-05-01",
+   "b": "II. Gazi Giray Kırım hanlığına tayin edildi",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KIRIM",
+   "t": "1602-01-01",
+   "b": "II. Gazi Giray, Peçuy'da kışlarken şiirler yazdı ve Peçuylu İbrahim'e hat sanatını öğretti",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "hat sanat",
+    "siir",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KIRIM",
+   "t": "1607-11-01",
+   "b": "II. Gazi Giray, Gazi Kirman'dan dönüş yolunda vebadan öldü",
+   "k": "",
+   "tur": "diger",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "afet",
+    "afet-salgin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KIRIM",
+   "t": "1736-01-01",
+   "b": "Feldmareşal Münnich komutasındaki Rus ordusu Kırım'ı istila etti, Han Sarayı'nı ve Bahçesaray'ı yaktı",
+   "k": "",
+   "tur": "isgal",
+   "konu": [
+    "konu-askeri",
+    "konu-imar",
+    "afet",
+    "afet-yangin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KIRIM",
+   "t": "1763-01-01",
+   "b": "Kırım Giray Han, Gözyaşı Çeşmesi'ni yaptırdı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KIRIM",
+   "t": "1552-01-01",
+   "b": "Gözleve'de Tatar Han Camii inşa edildi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "mimar sinan"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1367-01-01",
+   "b": "Pécs Üniversitesi'nin kurulması — Macaristan'ın ilk yükseköğretim kurumu",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi",
+    "konu-bilim",
+    "konu-egitim"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1476-12-15",
+   "b": "Mátyás'ın Nápoli Prensesi Beatrice ile evlenmesi ve saraya İtalyan Rönesansı'nın girişi",
+   "k": "",
+   "tur": "evlilik",
+   "konu": [
+    "konu-diplomasi",
+    "konu-hanedan",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1489-01-01",
+   "b": "Bibliotheca Corviniana'nın Avrupa'nın önde gelen Rönesans kütüphanelerinden biri hâline gelmesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1552-09-04",
+   "b": "Eğri Kalesi'nin savunması — Dobó István'ın direnişi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1811-01-01",
+   "b": "Kazinczy Ferenc'in 'nyelvújítás' (dil yenileme) hareketinin doruğa çıkması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1837-08-22",
+   "b": "Pesti Nemzeti Színház'ın (Ulusal Tiyatro) açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1844-07-02",
+   "b": "'Himnusz'un (Macar millî marşı) bestelenmesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1875-11-14",
+   "b": "Liszt Ferenc Zeneakademisi'nin (Müzik Akademisi) kurulması",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi",
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "muzik"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1896-05-02",
+   "b": "Macar Millî Bin Yılı (Millennium) sergisinin açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MACARISTAN",
+   "t": "1908-01-01",
+   "b": "'Nyugat' (Batı) edebiyat dergisinin çıkışı — Macar modernizminin başlangıcı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1305-08-23",
+   "b": "William Wallace idam edildi",
+   "k": "",
+   "tur": "son",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1387-01-01",
+   "b": "Chaucer'ın Canterbury Hikâyeleri'ni yazmaya başlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "hikaye"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1516-01-01",
+   "b": "Thomas More'un Utopia'sı yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1558-11-17",
+   "b": "I. Elizabeth kraliçe oldu",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1665-06-01",
+   "b": "Büyük Londra Vebası",
+   "k": "",
+   "tur": "sosyal",
+   "konu": [
+    "konu-sosyal",
+    "afet",
+    "afet-salgin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1811-10-30",
+   "b": "Jane Austen'ın Sağduyu ve Duyarlık'ı yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1819-08-16",
+   "b": "Peterloo Katliamı",
+   "k": "",
+   "tur": "isyan",
+   "konu": [
+    "konu-siyasi",
+    "konu-isyan",
+    "konu-sosyal"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1839-01-01",
+   "b": "Dickens'ın Oliver Twist'i tefrika olarak tamamlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1851-05-01",
+   "b": "Büyük Sergi — Kristal Saray açıldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1854-10-25",
+   "b": "Balaklava Savaşı — Hafif Tugay'ın Hücumu",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "siir",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1599-09-21",
+   "b": "Globe Tiyatrosu açıldı — Shakespeare'in oyunları sahnelendi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1667-01-01",
+   "b": "Milton'ın Kayıp Cennet'i yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "siir",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1726-10-28",
+   "b": "Swift'in Güliver'in Gezileri'i yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1742-04-13",
+   "b": "Handel'in Mesih oratoryosu Dublin'de seslendirildi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "konser"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1768-12-10",
+   "b": "Kraliyet Sanat Akademisi kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1798-10-04",
+   "b": "Wordsworth ve Coleridge'in Lirik Baladlar'ı yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "siir",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1847-10-16",
+   "b": "Charlotte Brontë'nin Jane Eyre'i yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1848-09-01",
+   "b": "Pre-Raphael Kardeşliği kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "resim",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1871-01-01",
+   "b": "Gilbert ve Sullivan iş birliği başladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "muzik",
+    "beste",
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1890-06-20",
+   "b": "Wilde'ın Dorian Gray'in Portresi'i yayımlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_INGILTERE",
+   "t": "1845-09-13",
+   "b": "Patates mildiyösü ilk kez bildirildi — Büyük Kıtlık başladı",
+   "k": "",
+   "tur": "sosyal",
+   "konu": [
+    "konu-sosyal",
+    "afet",
+    "afet-kitlik",
+    "afet-salgin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1364-04-08",
+   "b": "V. Charles'ın tahta çıkışı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-idari",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1494-09-02",
+   "b": "İtalyan Savaşları'nın başlaması — VIII. Charles'ın Napoli seferi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1515-01-01",
+   "b": "I. François'nın tahta çıkışı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1720-10-07",
+   "b": "Yirmisekiz Mehmed Çelebi Paris elçiliğine çıktı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "lale devri"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1751-06-28",
+   "b": "Ansiklopedi'nin ilk cildinin yayımlanması",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1793-07-13",
+   "b": "Marat'nın suikastı",
+   "k": "",
+   "tur": "olum",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1793-08-10",
+   "b": "Louvre'un halka açık müze olarak açılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1830-02-25",
+   "b": "'Hernani Savaşı' — Victor Hugo ve Romantizmin zaferi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1855-05-15",
+   "b": "Paris Dünya Sergisi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-ekonomi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1857-08-20",
+   "b": "Baudelaire'in 'Kötülük Çiçekleri' davası",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-hukuk"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "siir",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1863-05-15",
+   "b": "'Çayırda Öğle Yemeği' skandalı — Manet ve modern resmin doğuşu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim",
+    "sanat",
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1889-05-06",
+   "b": "Eyfel Kulesi'nin açılışı",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1895-12-28",
+   "b": "Lumière Kardeşler'in ilk sinema gösterimi",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_FRANSA",
+   "t": "1898-01-13",
+   "b": "Émile Zola'nın 'İtham Ediyorum' (J'accuse) mektubu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur",
+    "konu-hukuk"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ALMANYA",
+   "t": "1842-09-04",
+   "b": "Köln Katedrali'nin inşasının yeniden başlatılması",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ALMANYA",
+   "t": "1844-06-04",
+   "b": "Silezya dokumacı ayaklanması",
+   "k": "",
+   "tur": "isyan",
+   "konu": [
+    "konu-isyan",
+    "konu-sosyal",
+    "konu-sanayi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ALMANYA",
+   "t": "1876-08-13",
+   "b": "Bayreuth Festspielhaus'un açılışı — Wagner'in 'Nibelung'un Yüzüğü'",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "beste",
+    "opera",
+    "roman",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_KOMSU",
+   "t": "1878-12-17",
+   "b": "Avrupa Komisyonu Romanya–Bulgaristan Dobruca sınırını çizdi",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_KOMSU",
+   "t": "1880-01-01",
+   "b": "Silistre yakınında (Arap Tabya) Romanya–Bulgaristan sınırı Bulgaristan lehine düzeltildi",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_KOMSU",
+   "t": "1908-10-05",
+   "b": "Bulgaristan bağımsızlığını ilan etti — Romanya ile sınırı artık bağımsız krallığın sınırı",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_KOMSU",
+   "t": "1913-08-10",
+   "b": "Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1878-08-03",
+   "b": "Berlin Antlaşması yürürlüğe girdi: Güney Besarabya Rusya'ya döndü",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1918-04-08",
+   "b": "Besarabya Romanya ile birleşti: fiilî sınır Dinyester'e taşındı",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1919-08-27",
+   "b": "Romanya Pokutya'yı boşalttı: Polonya ile temas eski Galiçya–Bukovina hattında",
+   "k": "",
+   "tur": "toprak-kayip",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1920-07-28",
+   "b": "Büyükelçiler Konferansı Cieszyn, Spiş ve Orava'yı paylaştırdı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1921-07-26",
+   "b": "Trianon Antlaşması: Macaristan–Romanya sınırı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1923-02-07",
+   "b": "Büyükelçiler Konferansı Çekoslovakya–Romanya sınırını karara bağladı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SINIR_AVRUPA_ORTA",
+   "t": "1923-03-15",
+   "b": "Büyükelçiler Konferansı Polonya'nın doğu sınırlarını tanıdı: Romanya sınırı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1916-08-17",
+   "b": "Romanya ile İtilâf devletleri arasında siyasî ve askerî sözleşme imzalandı",
+   "k": "",
+   "tur": "ittifak",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1916-08-17",
+   "b": "Makedonya cephesinde Merkezî Devletler'in ani taarruzu",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1916-08-27",
+   "b": "Romanya Avusturya-Macaristan'a savaş ilan etti",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1917-12-07",
+   "b": "Focşani Mütarekesi — Romanya savaşı durdurdu",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1918-03-05",
+   "b": "Buftea Ön Barışı — Romanya ile Merkezî Devletler",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1918-05-07",
+   "b": "Bükreş Antlaşması — Romanya ile Merkezî Devletler barışı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1918-11-10",
+   "b": "Romanya yeniden savaşa girdi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1919-09-10",
+   "b": "Saint-Germain Antlaşması — Avusturya ile barış",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1DUNYA_A",
+   "t": "1920-06-04",
+   "b": "Trianon Antlaşması — Macaristan ile barış",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1447-03-06",
+   "b": "V. Nicholas'ın seçilmesi — Rönesans papalığının başlangıcı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1503-11-01",
+   "b": "II. Julius'un papa seçilmesi — 'Savaşçı Papa'",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-askeri",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1512-10-31",
+   "b": "Sistine Şapeli tavan freskinin açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1521-01-03",
+   "b": "Luther'in aforoz edilmesi (Decet Romanum Pontificem)",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-din",
+    "konu-islahat"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1495-04-02",
+   "b": "Leonardo da Vinci'nin 'Son Akşam Yemeği'ne başlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1630-01-01",
+   "b": "Milano vebası",
+   "k": "",
+   "tur": "salgin",
+   "konu": [
+    "konu-siyasi",
+    "afet",
+    "afet-salgin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1302-03-10",
+   "b": "Dante Alighieri'nin sürgün edilmesi",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur",
+    "konu-demografi"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1348-01-01",
+   "b": "Kara Ölüm'ün Floransa'yı vurması",
+   "k": "",
+   "tur": "salgin",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur",
+    "afet",
+    "afet-salgin"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "hikaye"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1401-01-01",
+   "b": "Vaftizhane kapı yarışması — Rönesans'ın simgesel açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1469-12-02",
+   "b": "Lorenzo de' Medici'nin ('Muhteşem') iktidara gelmesi",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1497-02-07",
+   "b": "'Kibirler Ateşi' — Savonarola'nın gösterişe karşı ayini",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1471-01-01",
+   "b": "Papalık'ın 'Ferrara Dükü' unvanını tanıması",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "muzik",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1516-01-01",
+   "b": "Ariosto'nun 'Çılgın Orlando'yu yayımlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "siir",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1919-09-12",
+   "b": "D'Annunzio'nun Fiume'yi işgali",
+   "k": "",
+   "tur": "isgal",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1508-01-01",
+   "b": "Raphael'in Vatikan Odaları'nı (Stanze) çalışmaya başlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1550-01-01",
+   "b": "Vasari'nin 'Sanatçıların Hayatları'nı yayımlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1581-01-01",
+   "b": "Uffizi Galerisi'nin kurulması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "sergi",
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1600-10-06",
+   "b": "İlk opera 'Euridice'nin Floransa'da sahnelenmesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1737-05-04",
+   "b": "San Carlo Operası'nın açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1748-01-01",
+   "b": "Pompeii kazılarının başlaması",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ITALYA",
+   "t": "1778-08-03",
+   "b": "La Scala Operası'nın açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1499-01-01",
+   "b": "Fernando de Rojas'ın La Celestina'sının yayımlanması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1577-01-01",
+   "b": "El Greco Toledo'ya yerleşti",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "resim",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1584-09-13",
+   "b": "El Escorial'in tamamlanması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1605-01-16",
+   "b": "Don Kişot'un birinci cildinin yayımlanması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1609-01-01",
+   "b": "Lope de Vega'nın \"Arte nuevo de hacer comedias\"sı — İspanyol tiyatrosunun manifestosu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1615-01-01",
+   "b": "Don Kişot'un ikinci cildinin yayımlanması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1656-01-01",
+   "b": "Velázquez, Las Meninas'ı tamamladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "resim",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1814-01-01",
+   "b": "Goya'nın \"3 Mayıs 1808\" tablosunu tamamlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "resim",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1580-09-19",
+   "b": "Cervantes'in Cezayir esaretinden kurtarılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "hikaye"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1692-01-01",
+   "b": "Sor Juana Inés de la Cruz'un Primero sueño'yu yayımlaması (Yeni İspanya)",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "siir",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1752-04-12",
+   "b": "San Fernando Güzel Sanatlar Akademisi'nin kuruluşu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISPANYA",
+   "t": "1786-01-01",
+   "b": "Goya birinci saray ressamı oldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "ressam"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_PORTEKIZ",
+   "t": "1495-10-25",
+   "b": "I. Manuel tahta çıktı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_PORTEKIZ",
+   "t": "1808-03-07",
+   "b": "Rio de Janeiro, Portekiz İmparatorluğu'nun fiilî başkenti oldu",
+   "k": "",
+   "tur": "idari",
+   "konu": [
+    "konu-idari",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1405-07-11",
+   "b": "Zheng He'nin ilk deniz seferi başladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-diplomasi",
+    "konu-ekonomi",
+    "konu-kultur",
+    "konu-kesif"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1592-01-01",
+   "b": "Wu Cheng'en'in Batı'ya Seyahat'i (Xiyou Ji) yaygınlaştı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1774-01-01",
+   "b": "Wang Lun Ayaklanması — Beyaz Lotus'un habercisi",
+   "k": "",
+   "tur": "isyan",
+   "konu": [
+    "konu-isyan",
+    "konu-din"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1782-01-01",
+   "b": "Siku Quanshu (Dört Hazine Külliyatı) tamamlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "opera",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1791-01-01",
+   "b": "Kızıl Konak Rüyası (Hongloumeng) ilk kez basıldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1860-10-18",
+   "b": "Yazlık Saray (Yuanmingyuan) İngiliz-Fransız kuvvetlerince yakıldı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_CIN",
+   "t": "1921-07-23",
+   "b": "Çin Komünist Partisi kuruldu",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1325-10-18",
+   "b": "Şair Emîr Hüsrev-i Dihlevî öldü",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1556-01-27",
+   "b": "Hümâyun kütüphane merdiveninden düşerek öldü, Ekber tahta çıktı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-kisiler",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1765-08-12",
+   "b": "Allahâbâd Antlaşması: Şirket, Bengal-Bihar-Orissa'nın vergi toplama hakkını (Divânî) aldı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi",
+    "konu-idari",
+    "konu-diplomasi",
+    "konu-ekonomi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1509-01-01",
+   "b": "Krişnadevarâya, Vijayanagara tahtına çıktı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1420-01-01",
+   "b": "Zeynelâbidin, Keşmir'de tahta çıktı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "hali dokum"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1442-01-01",
+   "b": "Bengal Sultanı Gıyâsüddin Âzam Şah, Çin ve Mekke ile elçi teatisinde bulundu",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "gazel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1325-04-03",
+   "b": "Sûfî şeyhi Nizâmeddin Evliyâ öldü",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1518-01-01",
+   "b": "Bhaktî şairi Kabîr öldü",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1562-01-01",
+   "b": "Müzisyen Tansen, Ekber Şah'ın sarayına katıldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1574-01-01",
+   "b": "Tulsîdâs, Râmçeritmânas'ı yazmaya başladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1690-08-24",
+   "b": "Job Charnock, Kalküta'yı İngiliz ticaret yerleşimi olarak kurdu",
+   "k": "",
+   "tur": "ekonomi",
+   "konu": [
+    "konu-siyasi",
+    "konu-ekonomi",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1700-01-01",
+   "b": "Velî Deccanî, Urduca gazeller yazarak dîvân oluşturdu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1770-01-01",
+   "b": "Büyük Bengal Kıtlığı başladı",
+   "k": "",
+   "tur": "sosyal",
+   "konu": [
+    "konu-sosyal",
+    "konu-demografi",
+    "afet",
+    "afet-kitlik",
+    "afet-salgin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HINDISTAN",
+   "t": "1590-01-01",
+   "b": "Jahangir döneminde Bâbürlü minyatür resim okulu doğa gözlemine yöneldi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "minyatur",
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_KARADAG",
+   "t": "1851-10-31",
+   "b": "Njegoš öldü; yeğeni Danilo halef oldu",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_LEHISTAN",
+   "t": "1519-01-01",
+   "b": "Wawel'de Zygmunt Şapeli'nin inşası başladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_LEHISTAN",
+   "t": "1568-01-01",
+   "b": "Mikołaj Rej — Polonya dilinde yazan ilk büyük edebiyatçı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_LIBYA",
+   "t": "1855-01-01",
+   "b": "Şeyh Senûsî Cağbûb'a yerleşip merkez zâviyeyi kurdu",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-din"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ROMANYA",
+   "t": "1386-01-01",
+   "b": "Koca Mircea (Mircea cel Bătrân) Eflak voyvodası oldu",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ROMANYA",
+   "t": "1862-01-01",
+   "b": "Birleşik Prenslikler tek hükümete geçti — Bükreş başkent oldu",
+   "k": "",
+   "tur": "birlesme",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ROMANYA",
+   "t": "1866-01-01",
+   "b": "Cuza devrildi — Hohenzollern hanedanından Karol prens seçildi",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ROMANYA",
+   "t": "1918-11-28",
+   "b": "Bukovina Romanya Krallığı'na katıldı",
+   "k": "",
+   "tur": "birlesme",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_RUSYA",
+   "t": "1636-04-17",
+   "b": "Tambov kalesi kuruldu — Belgorod savunma hattının doğu ucu",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_RUSYA",
+   "t": "1866-05-24",
+   "b": "Hucend fırtınayla alındı — Hokand'ın son büyük kalesi",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_TUNUS",
+   "t": "1510-01-01",
+   "b": "Oruç ve Hızır reisler Hafsî sultanından Halkulvâdî'yi üs olarak aldı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi",
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_TUNUS",
+   "t": "1609-01-01",
+   "b": "Endülüslü müslümanlar Osman Dayı zamanında Tunus'a yerleşti",
+   "k": "",
+   "tur": "sosyal",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_TUNUS",
+   "t": "1896-01-01",
+   "b": "Modernist Tunuslular el-Cem'iyyetü'l-Haldûniyye'yi kurdu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-siyasi"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_BOSNA",
+   "t": "1530-01-01",
+   "b": "Saraybosna'da Gazi Hüsrev Bey Camii tamamlandı",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1204-01-01",
+   "b": "Galiçya-Volhinya knezi Roman Mstislaviç Kiev'i ele geçirdi",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1205-10-14",
+   "b": "Roman Mstislaviç Zawichost'ta Polonya'ya karşı savaşırken öldü",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1214-01-01",
+   "b": "Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti",
+   "k": "",
+   "tur": "toprak-kayip",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1241-01-01",
+   "b": "Moğollar Haliç'i yerle bir etti; başkent Kholm'a taşındı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1245-08-17",
+   "b": "Yaroslav Muharebesi: Danilo, Çernigov-Macar-Polonya koalisyonunu yendi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1253-01-01",
+   "b": "Danilo Romanoviç Papa IV. Innocentius'tan taç aldı: 'Rus kralı'",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_AVRUPA",
+   "t": "1264-01-01",
+   "b": "Danilo öldü; oğlu Lev Moğol üstünlüğünü kabul etti",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_ORTADOGU",
+   "t": "1030-01-01",
+   "b": "Mirdâsîler Azâz yakınında Bizans ordusunu yendi",
+   "k": "savas",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_ORTADOGU",
+   "t": "1135-09-25",
+   "b": "Mezyedî emîri II. Dübeys Sultan Mesud tarafından öldürüldü",
+   "k": "hukumdar",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_IRAN",
+   "t": "1071-08-26",
+   "b": "Malazgirt Savaşı",
+   "k": "savas",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_HINT_AMERIKA",
+   "t": "1178-01-01",
+   "b": "Lakşmanasena Sena tahtına çıktı; Nadia sarayı Sanskrit edebiyatının merkezi oldu",
+   "k": "hanedan",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_ONCE1281_HINT_AMERIKA",
+   "t": "1228-01-01",
+   "b": "İltutmış Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı",
+   "k": "fetih",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-idari"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1931-07-10",
+   "b": "Norveç Doğu Grönland'da 'Eirik Raudes Land'i işgal ettiğini ilan etti",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1931-12-09",
+   "b": "İkinci Cumhuriyet anayasası ilan edildi",
+   "k": "",
+   "tur": "rejim",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1933-04-05",
+   "b": "Uluslararası Daimî Adalet Divanı Doğu Grönland'ı Danimarka'ya verdi",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1934-02-09",
+   "b": "Balkan Antantı imzalandı (Türkiye, Yugoslavya, Yunanistan, Romanya)",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1939-03-23",
+   "b": "Romanya-Almanya ekonomik antlaşması imzalandı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-ekonomi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1939-04-13",
+   "b": "İngiltere ve Fransa Romanya'nın bağımsızlığını güvence altına aldı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1939-08-23",
+   "b": "Molotov-Ribbentrop Paktı ve gizli protokol: Doğu Avrupa nüfuz alanlarına bölündü",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-01-01",
+   "b": "Craiova Antlaşması: Güney Dobruca Bulgaristan'a geçti",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-06-28",
+   "b": "Romanya Besarabya ve Kuzey Bukovina'yı Sovyetlere bıraktı",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-09-27",
+   "b": "Üçlü Pakt: Almanya, İtalya ve Japonya Mihver ittifakını resmîleştirdi",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-10-08",
+   "b": "Alman birlikleri Romanya'ya girmeye başladı",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-10-18",
+   "b": "Vichy'nin Yahudiler Statüsü Journal Officiel'de yayımlandı",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-11-20",
+   "b": "Macaristan Üçlü Pakt'a katıldı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1940-11-23",
+   "b": "Romanya Üçlü Pakt'a katıldı",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1941-06-22",
+   "b": "Romanya SSCB'ye savaş açtı; Besarabya ve Kuzey Bukovina geri alındı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1941-12-07",
+   "b": "İngiltere Finlandiya, Macaristan ve Romanya'ya savaş ilan etti",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1941-12-12",
+   "b": "Romanya ABD'ye savaş ilân etti",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1942-08-13",
+   "b": "NDH makamları Hırvatistan yahudilerini Alman gözetimine sürmeye başladı",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1942-08-22",
+   "b": "Brezilya Almanya ve İtalya'ya karşı savaş hâlini tanıdı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1944-02-15",
+   "b": "Romanya Transnistria valiliğini kaldırdı",
+   "k": "",
+   "tur": "toprak-kayip",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1944-07-10",
+   "b": "Kolombiya'da Pasto isyanı: Cumhurbaşkanı López Pumarejo askerlerce alıkonuldu",
+   "k": "",
+   "tur": "rejim",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1944-08-01",
+   "b": "Commonwealth Başkanı Quezon sürgünde öldü; yerine Osmeña geçti",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1944-09-12",
+   "b": "Moskova mütarekesi: Besarabya-K. Bukovina SSCB'ye, Viyana Hakemliği geçersiz",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1944-10-12",
+   "b": "Atina Alman işgalinden kurtuldu",
+   "k": "",
+   "tur": "kurtulus",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1945-01-20",
+   "b": "Moskova mütarekesi: Macaristan 1937 sınırlarına döndü",
+   "k": "",
+   "tur": "toprak-kayip",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1945-02-15",
+   "b": "Venezuela Almanya ve Japonya ile savaş hâlini tanıdı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_1923_1945",
+   "t": "1945-03-09",
+   "b": "Kuzey Erdel'de Romen egemenliği yeniden kuruldu",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_INCE_AVRUPA_AMERIKA",
+   "t": "1170-02-25",
+   "b": "Novgorod, Andrey Bogolyubski'nin Suzdal önderliğindeki koalisyonunu şehir önünde yendi",
+   "k": "askeri",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_INCE_GD_ASYA",
+   "t": "1778-01-01",
+   "b": "Taksin Vientiane'i aldı — Siyam Laos krallıklarına üstün geldi",
+   "k": "askeri",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "heykel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_INCE_GUNEY_ASYA",
+   "t": "1947-11-09",
+   "b": "Hindistan Cunagadh'ın idaresini devraldı",
+   "k": "siyasi",
+   "tur": "",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_SENKRON_0930",
+   "t": "1917-03-15",
+   "b": "Rusya'da Şubat Devrimi: II. Nikolay tahttan çekilir, Rusya Geçici Hükümeti kurulur",
+   "k": "siyasi",
+   "tur": "",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_COK_SENKRON_0930",
+   "t": "1878-07-13",
+   "b": "Berlin Antlaşması: Romanya bağımsız, Kuzey Dobruca Romanya'ya; Bulgaristan Prensliği kurulur",
+   "k": "siyasi",
+   "tur": "",
+   "konu": [
+    "konu-antlasma"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_AKKOYUNLU",
+   "t": "1452-09-01",
+   "b": "HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi",
+   "k": "",
+   "tur": "hukuk",
+   "konu": [
+    "konu-idari",
+    "konu-hanedan",
+    "konu-ekonomi",
+    "konu-islahat",
+    "konu-hukuk"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_AKKOYUNLU",
+   "t": "1478-06-01",
+   "b": "TÜRKMEN MİNYATÜR MEKTEBİ — Safevî sanatının kaynağı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-diplomasi",
+    "konu-sanat",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "minyatur",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_AKKOYUNLU",
+   "t": "1478-06-01",
+   "b": "Yâkub Bey'in Türkçe ve Farsça şiirleri, Molla Câmî himayesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-diplomasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KARAKOYUNLU",
+   "t": "1465-01-01",
+   "b": "Tebriz'de Gökmescid (Mescid-i Kebûd) inşasına başlandı",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat",
+    "cini"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KARAKOYUNLU",
+   "t": "1438-04-19",
+   "b": "Cihan Şah'ın 'Hakîkî' mahlasıyla Türkçe divanı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "divani"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_KARAKOYUNLU",
+   "t": "1438-04-19",
+   "b": "Hanedan içinde bir şairler halkası: Pîr Budak, Hüseyin Ali, Şah Saray ve Ârâyiş",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-hanedan",
+    "konu-sanat",
+    "konu-kultur",
+    "konu-imar",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ALTINORDA",
+   "t": "1391-09-01",
+   "b": "Seyf-i Sarâyî Gülistan Tercümesi'ni tamamladı — Türkçenin ilk Gülistan çevirisi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ALTINORDA",
+   "t": "1394-01-01",
+   "b": "Seyf-i Sarâyî Süheyl ü Güldürsün mesnevisini bitirdi — çağın olaylarını anlatan Kıpçak mesnevisi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "mesnevi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_HOLLANDA",
+   "t": "1629-04-14",
+   "b": "Christiaan Huygens'in doğumu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISVEC",
+   "t": "1628-08-10",
+   "b": "Vasa gemisi ilk seferinde battı",
+   "k": "",
+   "tur": "diger",
+   "konu": [],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISVEC",
+   "t": "1786-03-20",
+   "b": "İsveç Akademisi kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISVEC",
+   "t": "1792-03-29",
+   "b": "III. Gustav suikast yaralarından öldü",
+   "k": "",
+   "tur": "olum",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ISVEC",
+   "t": "1901-01-01",
+   "b": "İlk Nobel Ödülleri verildi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1489-01-01",
+   "b": "Yoshimasa, Ginkaku-ji'yi (Gümüş Köşk) inşa ettirdi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1575-06-28",
+   "b": "Nagashino Savaşı: Nobunaga'nın tüfekli piyadesi Takeda süvarisini ezdi",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri",
+    "konu-bilim"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1603-03-24",
+   "b": "Tokugawa Ieyasu, Edo'da şogunluğunu kurdu",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1689-05-16",
+   "b": "Matsuo Bashō, \"Oku no Hosomichi\" yolculuğuna çıktı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "tiyatro",
+    "siir",
+    "edebiyat",
+    "roman",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1703-03-20",
+   "b": "47 Ronin'in intikamı — Akō Vakası sona erdi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "tiyatro",
+    "edebiyat",
+    "hikaye"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1831-01-01",
+   "b": "Katsushika Hokusai, \"Fuji Dağı'nın Otuz Altı Manzarası\" serisini yayımladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_JAPONYA",
+   "t": "1889-02-05",
+   "b": "Tokyo Sanat Okulu (bugünkü Tokyo Sanat Üniversitesi) kuruldu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1821-11-14",
+   "b": "Bulak Matbaası'nın resmî açılışı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sergi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1828-01-01",
+   "b": "Vekâyi-i Mısır'ın yayın hayatına başlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1841-01-01",
+   "b": "Tahtâvî'nin resmî gazete idaresine getirilmesi",
+   "k": "",
+   "tur": "idari",
+   "konu": [
+    "konu-idari",
+    "konu-kultur",
+    "konu-islahat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1858-06-01",
+   "b": "Antikiteler Servisi'nin kuruluşu — Mısırbilimin kurumsallaşması",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1870-03-23",
+   "b": "Dârü'l-Kütübi'l-Mısriyye'nin kuruluşu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1871-03-01",
+   "b": "Cemâleddin Efgânî'nin Kahire'ye gelişi",
+   "k": "",
+   "tur": "sosyal",
+   "konu": [
+    "konu-kultur",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kahvehane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1874-01-01",
+   "b": "İsmail Paşa'nın Ezbekiye'ye taşınması — yeni şehir merkezinin doğuşu",
+   "k": "",
+   "tur": "idari",
+   "konu": [
+    "konu-idari",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_MISIR",
+   "t": "1875-08-05",
+   "b": "El-Ahrâm gazetesinin kuruluşu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_OZBEK",
+   "t": "1900-01-01",
+   "b": "Buhara'da ilk usûl-i cedîd okulları açıldı",
+   "k": "",
+   "tur": "diger",
+   "konu": [
+    "konu-egitim",
+    "konu-islahat",
+    "konu-sosyal"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_TIMURLU",
+   "t": "1469-06-01",
+   "b": "Hüseyin Baykara, Herat'ta tahta çıktı — son altın çağ başladı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur",
+    "sair",
+    "edebiyat",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_TIMURLU",
+   "t": "1486-01-01",
+   "b": "Behzâd, Herat nakkaşhanesinin başına geçti",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "nakkas"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_TIMURLU",
+   "t": "1491-01-01",
+   "b": "Ali Şîr Nevâî, ilk Türkçe şairler tezkiresini yazdı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair",
+    "tezkire"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_TIMURLU",
+   "t": "1492-01-01",
+   "b": "Molla Câmî'nin ölümü",
+   "k": "",
+   "tur": "olum",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "edebiyat",
+    "mesnevi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_TIMURLU",
+   "t": "1501-01-03",
+   "b": "Ali Şîr Nevâî'nin ölümü",
+   "k": "",
+   "tur": "olum",
+   "konu": [
+    "konu-kisiler",
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat",
+    "mesnevi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1380-01-01",
+   "b": "Alâeddin Bey'in siparişiyle Yârcânî \"Karamannâme\"yi kaleme aldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1071-08-26",
+   "b": "Malazgirt zaferi Anadolu'nun kapısını açtı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1251-01-01",
+   "b": "Karatay Medresesi'nin inşası",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-imar",
+    "konu-egitim"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "cini"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1273-12-17",
+   "b": "Mevlânâ Celâleddîn-i Rûmî'nin vefatı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "mesnevi"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1204-01-01",
+   "b": "Kızıltepe (Dunaysır) Ulu Camii yaptırıldı",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1205-01-01",
+   "b": "El-Cezerî otomatlar kitabını tamamladı",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "muzik"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1374-01-01",
+   "b": "İsa Bey Camii'nin Ayasuluk'ta inşası",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ANADOLU",
+   "t": "1256-01-01",
+   "b": "Toros Roslin'in ilk imzalı minyatürlü İncil'i",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "minyatur"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ARABISTAN",
+   "t": "1633-01-01",
+   "b": "Culfâr'da İran birliklerine karşı zafer",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ATINA_DUKALIGI",
+   "t": "1275-01-01",
+   "b": "Atina'da Frank hukuku (Assises de Romanie) ile Bizans örfünün yan yana yürümesi",
+   "k": "",
+   "tur": "kanun",
+   "konu": [
+    "konu-idari",
+    "konu-sosyal",
+    "konu-hukuk"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1830-01-01",
+   "b": "Petar II Petrović-Njegoš 'Karadağlılar'ın hükümdarı' unvanını ilk kez aldı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-siyasi",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1847-02-01",
+   "b": "Njegoš'un 'Dağlar Tacı' (Gorski vijenac) Viyana'da basıldı",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "siir",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1375-01-01",
+   "b": "Evtimiy Tırnova Patrikliği'ne getirildi — Tırnova Edebiyat Okulu zirvede",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1864-10-01",
+   "b": "Midhat Paşa Tuna Vilâyeti valisi oldu — reform dönemi başladı",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi",
+    "konu-idari",
+    "konu-ekonomi",
+    "konu-islahat"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1913-06-29",
+   "b": "İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı",
+   "k": "",
+   "tur": "savas",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1913-08-10",
+   "b": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1400-01-01",
+   "b": "Stećci mezar taşları geleneğinin altın çağı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1823-01-01",
+   "b": "Solomos'un 'Özgürlüğe İlahi' şiirini yazması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1865-01-01",
+   "b": "'Özgürlüğe İlahi'nin millî marş olarak kabulü",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "beste",
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_BALKAN",
+   "t": "1901-11-08",
+   "b": "Evangelika — İncil çevirisi ayaklanması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-isyan",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_DOGU_AFRIKA",
+   "t": "1434-01-01",
+   "b": "Zar'a Ya'kūb dönemi — krallığın en geniş sınırları",
+   "k": "",
+   "tur": "toprak",
+   "konu": [
+    "konu-askeri",
+    "konu-hanedan",
+    "konu-din"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1558-01-01",
+   "b": "Tatta'da Dabgîr Camii inşa edildi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "cini"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1752-01-01",
+   "b": "Sindî şairi Şah Abdüllatîf Bhitâî öldü",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1827-01-01",
+   "b": "Sindî şairi Sachal Sarmast öldü",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1482-01-01",
+   "b": "Yakşa Malla'nın ölümüyle vadi üç bağımsız krallığa bölündü",
+   "k": "",
+   "tur": "bolunme",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1600-01-01",
+   "b": "Bâbürlü etkisi Nepal sarayının kılık kıyafet ve âdetlerine girdi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1641-01-01",
+   "b": "Pratap Malla Katmandu tahtına çıktı",
+   "k": "",
+   "tur": "hukumdar",
+   "konu": [
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1901-06-26",
+   "b": "Dev Şemşer'in devrilmesiyle Rana idaresinde reform denemesi sona erdi",
+   "k": "",
+   "tur": "kriz",
+   "konu": [
+    "konu-siyasi",
+    "konu-islahat"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1605-01-01",
+   "b": "Çâvend'de Râgamâlâ dizisi resmedildi; Mevâr minyatür ekolü doğdu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "minyatur"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1470-01-01",
+   "b": "Manipûr ile Pong (Şan) krallığı Kyang Khampat'ı birlikte aldı",
+   "k": "",
+   "tur": "ittifak",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "heykel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1509-01-01",
+   "b": "Makli nekropolü Semmâ döneminde büyük anıt mezarlarla genişledi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1592-01-01",
+   "b": "Tatta, Bâbürlü döneminde bir ilim ve tercüme merkezi hâline geldi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1547-01-01",
+   "b": "Mîrâ Bâî'nin bhakti şiiri Racputana'da yayıldı",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1760-01-01",
+   "b": "Kişangarh ekolünde Bani Thani üslûbu doğdu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "minyatur",
+    "ressam"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1901-05-06",
+   "b": "Gorkhapatra gazetesi çıkmaya başladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1650-01-01",
+   "b": "Kottârakkara'da Râmanâttam doğdu: Kathakali'nin başlangıcı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GUNEY_ASYA",
+   "t": "1846-01-01",
+   "b": "Svâti Tirunal'in ölümüyle Karnatik müziğinde bir dönem kapandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "beste",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_GURCISTAN",
+   "t": "1200-01-01",
+   "b": "Şota Rustaveli'nin 'Kaplan Postlu Şövalye' destanının yazılması (yaklaşık tarih)",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1297-10-05",
+   "b": "Şenb-i Gāzân (Gāzâniyye) külliyesinin temeli atıldı",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-imar",
+    "konu-sosyal"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1310-01-01",
+   "b": "Rab'-ı Reşîdî mahallesi kuruldu — bir kitap ve ilim şehri",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1313-01-01",
+   "b": "Olcaytu Türbesi (Sultâniye Kümbeti) yapıldı",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1370-01-01",
+   "b": "Celâyirli döneminde Irak'ta Türkçe ikinci dil hâline geldi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-demografi"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1357-05-12",
+   "b": "Ebû İshak öldürüldü — İncû hânedanı sona erdi",
+   "k": "",
+   "tur": "son",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1365-01-01",
+   "b": "Hâfız-ı Şîrâzî Muzafferî sarayında görevlendirildi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-diplomasi",
+    "konu-sanat",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "siir",
+    "divani",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1360-01-01",
+   "b": "Muzafferî mimarisi: Kirman, Yezd ve Meybüz'de cami ve medreseler",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-kultur",
+    "konu-imar",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1355-01-01",
+   "b": "Ebû İshak şair ve âlimleri himaye etti — Hâfız'a maaş bağladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-diplomasi",
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1355-01-01",
+   "b": "Serbedârî bayındırlık işleri: Tûs su kanalları ve Sebzevâr Mescid-i Câmi'i",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-imar",
+    "konu-ulastirma",
+    "konu-sanayi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1250-01-01",
+   "b": "Herat yeniden imar edildi — ilim ve ticaret merkezi oldu",
+   "k": "",
+   "tur": "sehircilik",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_IRAN_ARDILLARI",
+   "t": "1305-01-01",
+   "b": "Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-diplomasi",
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1356-11-15",
+   "b": "Bağımsızlığın geri alınması ve Boccanegra'nın ikinci dogeliği",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi",
+    "konu-idari"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "opera"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1565-01-01",
+   "b": "Luca Cambiaso'nun freskleri — Ceneviz resim okulunun doğuşu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1630-01-02",
+   "b": "Bernardo Strozzi'nin Venedik'e gitmesi — Ceneviz Barok'unun ihracı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-demografi"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1667-02-04",
+   "b": "Alessandro Magnasco'nun doğumu — geç Ceneviz resminin son büyük adı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1751-01-02",
+   "b": "Accademia Ligustica'nın kurulması — sanat eğitiminin kurumsallaşması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1391-03-04",
+   "b": "Ferrara Üniversitesi'nin kurulması",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-siyasi",
+    "konu-bilim",
+    "konu-egitim"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1425-05-21",
+   "b": "Parisina Malatesta ve Ugo d'Este'nin idamı — hânedan içi trajedi",
+   "k": "",
+   "tur": "kriz",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-hanedan"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "opera",
+    "siir",
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1502-02-02",
+   "b": "Lucrezia Borgia'nın Ferrara'ya gelin gelmesi",
+   "k": "",
+   "tur": "diplomasi",
+   "konu": [
+    "konu-diplomasi",
+    "konu-hanedan",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1516-04-22",
+   "b": "Ariosto'nun 'Çılgın Orlando'sunun Ferrara'da basılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1581-01-02",
+   "b": "Tasso'nun 'Kurtarılmış Kudüs'ü ve şairin Ferrara'da hapsi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1594-01-02",
+   "b": "Concerto delle donne — profesyonel kadın şarkıcı topluluğunun kurumsallaşması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "muzik",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1598-01-28",
+   "b": "Ferrara'nın papalığa devri — devletin başkentini kaybetmesi",
+   "k": "",
+   "tur": "toprak-kayip",
+   "konu": [
+    "konu-askeri",
+    "konu-hanedan",
+    "konu-din"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1598-02-01",
+   "b": "Modena'nın başkent olması — küçülmüş Este devletinin yeniden kurulması",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-siyasi",
+    "konu-idari",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1650-01-02",
+   "b": "Bernini'nin Francesco I büstü — Barok portre heykelinin şaheseri",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "heykel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1737-01-02",
+   "b": "Muratori ve Este Kütüphanesi — modern tarih yönteminin doğduğu yer",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-kisiler",
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar",
+    "konu-egitim"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1315-06-01",
+   "b": "Simone Martini'nin Palazzo Pubblico Maestà'sı — dinî resmin devlet dairesine girmesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-siyasi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1419-10-20",
+   "b": "Jacopo della Quercia'nın Fonte Gaia'sı — Campo'nun anıtsal çeşmesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "heykel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1433-01-02",
+   "b": "Taccola'nın 'De ingeneis' defterleri — makine mühendisliğinin resimli doğuşu",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-sanat"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1458-08-19",
+   "b": "Sienalı Piccolomini'nin papa seçilmesi — II. Pius",
+   "k": "",
+   "tur": "din",
+   "konu": [
+    "konu-siyasi",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1480-01-02",
+   "b": "Francesco di Giorgio'nun mimarlık ve mühendislik risalesi",
+   "k": "",
+   "tur": "bilim",
+   "konu": [
+    "konu-bilim",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "heykel"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ITALYA_SEHIR",
+   "t": "1502-01-02",
+   "b": "Pinturicchio'nun Piccolomini Kütüphanesi freskleri",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "OLAYLAR_2S_0918",
+   "t": "1881-03-26",
+   "b": "Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_2S_0918",
+   "t": "1462-01-01",
+   "b": "Akkoyunlu Uzun Hasan, Hısnıkeyfâ Eyyûbî kolunu ortadan kaldırdı",
+   "k": "",
+   "tur": "toprak-kazanc",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "OLAYLAR_SESSIZBORC0919",
+   "t": "1349-01-01",
+   "b": "Mora Despotluğu'nun kuruluşu — Manuel Kantakuzenos Mezistre'de",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_NAKSA_DUKALIGI",
+   "t": "1204-04-13",
+   "b": "IV. Haçlı Seferi'nin İstanbul'u alması — Ege'de Latin düzeninin doğuşu",
+   "k": "",
+   "tur": "kurulus",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1539-01-01",
+   "b": "Muhammed Yâr'ın Tuhfe-i Merdân'ı yazıldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1542-01-01",
+   "b": "Muhammed Yâr'ın Nûr-i Sudûr'u tamamlandı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "muze"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1550-01-01",
+   "b": "Süyünbike Kazan'da bir kütüphane kurdu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1552-10-15",
+   "b": "Kazan'ın düşüşü — Orta İdil'de dokuz asırlık Türk hâkimiyeti bitti",
+   "k": "",
+   "tur": "son",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1905-11-01",
+   "b": "1905 Rus devrimi Kazak siyasî hayatını açtı",
+   "k": "",
+   "tur": "siyaset",
+   "konu": [
+    "konu-siyasi",
+    "konu-kisiler",
+    "konu-kultur",
+    "konu-sosyal"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1911-01-01",
+   "b": "İlk Kırgızca kitaplar basıldı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "hikaye"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1733-01-01",
+   "b": "MAHTUMKULU doğdu — Türkmen edebî dilinin kurucusu",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kisiler",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "sair",
+    "edebiyat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1783-01-02",
+   "b": "Mahtumkulu'nun ölümü — beş yüz şiir, tek bir halkın sesi",
+   "k": "",
+   "tur": "olum",
+   "konu": [
+    "konu-kisiler",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_ORTA_ASYA",
+   "t": "1842-01-01",
+   "b": "Mahtumkulu'nun şiirlerinin yayımlanması başladı",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1607-07-14",
+   "b": "Caravaggio'nun tarikata şövalye olarak kabulü",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1608-01-01",
+   "b": "Caravaggio'nun 'Vaftizci Yahya'nın Başının Kesilmesi' tablosunu tamamlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1661-01-01",
+   "b": "Mattia Preti'nin Saint John tonozunu boyamaya başlaması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1693-01-11",
+   "b": "Sicilya depreminin Malta'yı vurması",
+   "k": "",
+   "tur": "felaket",
+   "konu": [
+    "konu-imar",
+    "afet",
+    "afet-deprem"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1722-01-01",
+   "b": "Manoel de Vilhena döneminde adanın imarı ve Fort Manoel",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-idari",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1450-01-01",
+   "b": "Rodos'ta tarikat arşivi ve kütüphanesinin düzenlenmesi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-idari",
+    "konu-din",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1675-06-01",
+   "b": "Büyük veba salgını",
+   "k": "",
+   "tur": "salgin",
+   "konu": [
+    "konu-bilim",
+    "konu-sosyal",
+    "afet",
+    "afet-salgin"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1723-01-01",
+   "b": "Valletta'da Umumî Kütüphane'nin (Bibliotheca) temellerinin atılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-bilim",
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "kutuphane"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_RODOS_SOVALYELERI",
+   "t": "1731-01-09",
+   "b": "Manoel Tiyatrosu'nun açılması",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-sanat",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "tiyatro"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SAFEVI",
+   "t": "1603-01-01",
+   "b": "Şeyh Lütfullah Camii'nin inşasına başlanması",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-din",
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "cini"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SAFEVI",
+   "t": "1596-01-01",
+   "b": "Ali Kapu Sarayı'nın inşası",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-imar"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "muzik"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SAFEVI",
+   "t": "1600-01-01",
+   "b": "Rızâ Abbâsî'nin saray nakkaşhânesinde yükselişi",
+   "k": "",
+   "tur": "kultur",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "nakkas"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SAFEVI",
+   "t": "1600-01-01",
+   "b": "Safevî halı sanatının Avrupa'ya ihracı — \"Polonaise\" halıları",
+   "k": "",
+   "tur": "ekonomi",
+   "konu": [
+    "konu-ekonomi",
+    "konu-kultur"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SAFEVI",
+   "t": "1647-01-01",
+   "b": "Çihil Sütun Sarayı'nın inşası",
+   "k": "",
+   "tur": "mimari",
+   "konu": [
+    "konu-kultur",
+    "konu-imar"
+   ],
+   "hedefVar": true,
+   "yer": "d",
+   "kelime": [
+    "ressam",
+    "resim"
+   ]
+  },
+  {
+   "g": "KRONOLOJI_SIRBISTAN",
+   "t": "1878-03-03",
+   "b": "Ayastefanos (San Stefano) Antlaşması — bağımsızlık ilk kez tanındı",
+   "k": "",
+   "tur": "antlasma",
+   "konu": [
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_P0050",
+   "t": "1882-03-06",
+   "b": "Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "gazete"
+   ]
+  },
+  {
+   "g": "OLAYLAR_P0052",
+   "t": "1884-01-01",
+   "b": "Siirt sancağı Diyarbekir'den Bitlis vilâyetine nakledildi — Eruh kazası ve Şırnak köyü de Bitlis'e bağlandı",
+   "k": "idari",
+   "tur": "",
+   "konu": [
+    "konu-idari"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "siir"
+   ]
+  },
+  {
+   "g": "OLAYLAR_OK107",
+   "t": "1514-09-15",
+   "b": "Tebriz'den çekiliş — bir haftalık işgalin sonu ve Kars-Bayburt üzerinden dönüş",
+   "k": "siyaset",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "sanat"
+   ]
+  },
+  {
+   "g": "OLAYLAR_OK109",
+   "t": "1918-12-01",
+   "b": "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet",
+   "k": "kurulus",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-siyasi"
+   ],
+   "hedefVar": false,
+   "yer": "b",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_OK109",
+   "t": "1920-06-04",
+   "b": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_OK109",
+   "t": "1919-11-27",
+   "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+   "k": "antlasma",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "roman"
+   ]
+  },
+  {
+   "g": "OLAYLAR_OK109",
+   "t": "1921-08-20",
+   "b": "Sırp birlikleri Szigetvár'dan çekildi — Macar jandarması şehri devraldı",
+   "k": "toprak-kazanc",
+   "tur": "",
+   "konu": [
+    "konu-askeri"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "beste"
+   ]
+  },
+  {
+   "g": "OLAYLAR_P0057B",
+   "t": "1648-01-01",
+   "b": "Evliya Çelebi İznik'te çini imalathanesi sayısının dokuza düştüğünü kaydetti",
+   "k": "kultur",
+   "tur": "",
+   "konu": [
+    "konu-kultur",
+    "konu-ekonomi"
+   ],
+   "hedefVar": true,
+   "yer": "b",
+   "kelime": [
+    "cini"
+   ]
+  },
+  {
+   "g": "OLAYLAR_P0917KOSU13",
+   "t": "1736-03-24",
+   "b": "Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen başladı",
+   "k": "savas",
+   "tur": "",
+   "konu": [
+    "konu-askeri",
+    "konu-diplomasi"
+   ],
+   "hedefVar": false,
+   "yer": "d",
+   "kelime": [
+    "divani"
+   ]
+  }
+ ],
+ "sporKart": [
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-kemankes-mustafa-pasa",
+   "tur": "kimdir",
+   "tanimli": true,
+   "kelime": [
+    "kemankes"
+   ],
+   "baslik": "Kemankeş (Kara) Mustafa Paşa · Hazineye yılda 6000 kese fazla kazandıran mali disiplini, onu saray çevresinde o kadar çok düşman kazandırdı ki altı yıl sonra ay",
+   "olay": [
+    "1638-12-24"
+   ]
+  },
+  {
+   "g": "EKOKUMA_TAMAMLA",
+   "id": "teknik-osmanli-spor-gelenekleri",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "gures",
+    "pehlivan",
+    "spor"
+   ],
+   "baslik": "Padişahlar pehlivanlara tekke açtı, ödül dağıttı, kimi zaman da yasakladı — güreş Osmanlı'da bir eğlence değil, devlet işiydi. · teknik-osmanli-spor-gelenekleri",
+   "olay": [
+    "1357-06-01|Kırkpınar",
+    "1504-01-01|Kırkpınar"
+   ]
+  }
+ ],
+ "kulturKart": [
+  {
+   "g": "EKOKUMA_ANTLASMA2",
+   "id": "tartisma-kucuk-kaynarca-rivayetleri",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Küçük Kaynarca hakkında anlatılan üç hikâye — ve kaynakların cevabı · Uyuklayan bir delegenin tazminatı hatırlatması, Prut'un intikamı için beklenen bir tarih, ",
+   "olay": [
+    "1774-07-21|Kaynarca"
+   ]
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-suleymaniye",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "mimar sinan"
+   ],
+   "baslik": "Mimar Sinan'ın kendi 'kalfalık eserim' dediği yapı — akustik için kubbeye gömülü 64 boş küp. · mimari-suleymaniye",
+   "olay": [
+    "1550-06-01",
+    "1557-10-16"
+   ]
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-topkapi-sarayi",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "cini"
+   ],
+   "baslik": "Tek bir bina değil, dört yüzyıl boyunca eklenen yapılardan oluşan bir bütün. En eski parçası 1472 tarihli Çinili Köşk, Orta Asya yapı geleneğini sürdürür. · mim",
+   "olay": [
+    "1478-01-01|Topkapı",
+    "1478-09-01"
+   ]
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "tartisma-topkapi-sarayi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "cini"
+   ],
+   "baslik": "Topkapı Sarayı: az bilinen hususlar ve kapanmamış tartışmalar · Sarayın adı yüzyıllarca Topkapı değildi, başlangıç tarihi belli değil ve kapısındaki kulelerin k",
+   "olay": [
+    "1478-01-01|Topkapı",
+    "1478-09-01",
+    "1856-06-07"
+   ]
+  },
+  {
+   "g": "EKOKUMA_EDEBIYAT",
+   "id": "fuzuli-bagdat-kasidesi",
+   "tur": "edebiyat",
+   "tanimli": true,
+   "kelime": [
+    "kaside"
+   ],
+   "baslik": "Fuzûlî'nin Bağdat'ın fethi sonrası Kanûnî'ye kasidesi · fuzuli-bagdat-kasidesi",
+   "olay": [
+    "1534-12-04"
+   ]
+  },
+  {
+   "g": "EKOKUMA_EDEBIYAT",
+   "id": "fuzuli-leyla-vu-mecnun",
+   "tur": "edebiyat",
+   "tanimli": true,
+   "kelime": [
+    "mesnevi"
+   ],
+   "baslik": "Fuzûlî'nin Leylâ vü Mecnûn mesnevisini tamamlaması · fuzuli-leyla-vu-mecnun",
+   "olay": [
+    "1535-01-01|Leylâ"
+   ]
+  },
+  {
+   "g": "EKOKUMA_EDEBIYAT",
+   "id": "nedim-lale-devri",
+   "tur": "edebiyat",
+   "tanimli": true,
+   "kelime": [
+    "siir",
+    "lale devri"
+   ],
+   "baslik": "Nedîm'in Lâle Devri şiirinin öncüsü olarak öne çıkması · nedim-lale-devri",
+   "olay": [
+    "1718-01-01|Nedîm",
+    "1718-05-09"
+   ]
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "kahramanlik-kanije-destani",
+   "tur": "kahramanlik",
+   "tanimli": true,
+   "kelime": [
+    "gazete"
+   ],
+   "baslik": "Kanije müdafaası nasıl bir destana dönüştü? · Bir sınır kalesinin yetmiş günlük direnişi önce gazavatnâmelere, sonra Nâmık Kemal'in kaleminden bir kitaba, orada",
+   "olay": [
+    "1601-09-10|Kanije",
+    "1690-04-13|Kanije"
+   ]
+  },
+  {
+   "g": "EKOKUMA_STATU",
+   "id": "statu-iki-tarihyazimi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "'İç isyan' mı, 'bağımsızlık savaşı' mı? Bağlı yapıların hikâyesi niçin iki farklı dille anlatılır · Osmanlı kaynakları bağlı bir yapının başkaldırısını çoğu zam",
+   "olay": [
+    "1444-06-12",
+    "1594-08-28",
+    "1595-10-01",
+    "1699-01-26|ilk büyük toprak"
+   ]
+  },
+  {
+   "g": "EKOKUMA_IBRAHIM",
+   "id": "ibrahim-samur-meraki-falci-hikayesi",
+   "tur": "magazin",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Falcı kadının masalı ve samurla döşenen köşkler · İbrahim'in samur merakı bir masaldan mı doğdu? · ibrahim-samur-meraki-falci-hikayesi",
+   "olay": [
+    "1647-01-01|Samur"
+   ]
+  },
+  {
+   "g": "EKOKUMA_MIMARI2",
+   "id": "mimari-drina-koprusu",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "roman"
+   ],
+   "baslik": "On bir gözlü, 179 metrelik taş köprü; bir ucu dik açıyla kıvrılır, ortasında kitabe köşkü durur. Kemerleri iki dünya savaşında yıkılıp yeniden örüldü, dünya şöh",
+   "olay": [
+    "1577-01-01|Drina"
+   ]
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "kahve-kahvehane-yasagi",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "kahvehane"
+   ],
+   "baslik": "İstanbul'a gelişinden seksen yıl sonra kahve, bir yangının suçlusu ilan edilip yasaklandı. · kahve-kahvehane-yasagi",
+   "olay": [
+    "1554-06-01"
+   ]
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "mehter-yeniceriyle-birlikte-lagvi",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "mehter"
+   ],
+   "baslik": "Ocak topa tutulunca, ordunun üç yüz yıllık davulu da sustu. · mehter-yeniceriyle-birlikte-lagvi",
+   "olay": [
+    "1826-06-15|Hayriyye",
+    "1826-06-15|Rusya"
+   ]
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "hat-sanati-sheyh-hamdullah-hafiz-osman",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "hattat",
+    "sanat"
+   ],
+   "baslik": "İki hattat, iki yüzyıl arayla, Osmanlı yazısının nasıl görüneceğine karar verdi. · hat-sanati-sheyh-hamdullah-hafiz-osman",
+   "olay": [
+    "1520-01-01|Hamdullah",
+    "1695-01-01|Hâfız Osman"
+   ]
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "ebru-sanati-ipek-yolundan-istanbula",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "ebru",
+    "sanat"
+   ],
+   "baslik": "Bir kâğıt boyama tekniği, Türkistan'dan İpek Yolu'yla İstanbul'a geldi — sonra Avrupa'ya 'Türk mermer kâğıdı' diye geri gitti. · ebru-sanati-ipek-yolundan-istan",
+   "olay": []
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "iznik-cinicilik-cokusu",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "cini"
+   ],
+   "baslik": "Bir gezgin 1648'de dokuz imalathane saydı — bir asır önce onlarca vardı. · iznik-cinicilik-cokusu",
+   "olay": []
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya7-istanbulun-buyuk-yanginlari",
+   "tur": "sok-haberler",
+   "tanimli": true,
+   "kelime": [
+    "beste"
+   ],
+   "baslik": "İstanbul'un büyük yangınları — ahşap bir şehrin bedeli · Bir kalafatçının ateşi Cibali'den başlayıp şehrin beşte birini kül etti; yirmi yedi yıl sonra bir başka",
+   "olay": [
+    "1633-09-01|Cibali",
+    "1660-07-15|Ağakapısı"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-koca-ragib-pasa",
+   "tur": "kimdir",
+   "tanimli": true,
+   "kelime": [
+    "sair"
+   ],
+   "baslik": "Koca Ragıp Paşa · Yedi Yıl Savaşları Avrupa'yı yakıp yıkarken Osmanlı'yı bu yangının dışında tutmayı başaran şair-sadrazam, altı yıllık görevinin sonunda kendi ",
+   "olay": [
+    "1763-04-08"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-nevsehirli-damad-ibrahim-pasa",
+   "tur": "kimdir",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "Nevşehirli Damad İbrahim Paşa · Nevşehirli Damad İbrahim Paşa · Helvacılar Ocağı'ndan sadrazamlığa yükselen bu adam Lâle Devri'ni ve Osmanlı'nın ilk Türk matbaa",
+   "olay": [
+    "1730-10-01"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "sebep-sonuc-2viyana-karar-sureci",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "divani"
+   ],
+   "baslik": "Sadrazam, kendisine karşı çıkan Budin beylerbeyini ve Kırım hanını 'korkaklık'la suçlayıp divanı susturdu; padişaha haber bile vermeden Viyana'ya yöneldi. · seb",
+   "olay": [
+    "1683-07-14"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "savas-hikayesi-parkan-1683",
+   "tur": "savas-hikayesi",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Parkan Muharebesi (7-9 Ekim 1683) · İlk gün Osmanlı pusu kurup kazandı, kral neredeyse öldürülüyordu; iki gün sonra aynı ordu bir nehir kıyısında sırtı köprüye ",
+   "olay": [
+    "1683-10-09"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "tartisma-bagdat-kolemenleri",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Kölemen Mısır'a özgü sanılır — ama Bağdat'ı 127 yıl aynı sistem yönetti · Kölemen, 'köle' kelimesinin Osmanlı Türkçesindeki biçimidir ve Arapça 'memlûk' (sahip ",
+   "olay": [
+    "1704-01-01|Kölemen"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "tartisma-baltaci-prut-firsat-mi-kacirdi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Baltacı fırsatı mı kaçırdı, yoksa doğru olanı mı yaptı? Prut'un iki yüzyıllık tartışması · Çağdaş vak'anüvisler onu 'eli kolu bağlı düşmanı kaçırmak'la suçladı;",
+   "olay": [
+    "1711-07-21|Prut Antlaşması — Azak"
+   ]
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "teknik-kesfuzzunun-katib-celebi",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "kutuphane"
+   ],
+   "baslik": "Yirmi yıl, sayısız şehir, tek bir soru: kim, ne yazmış? On beş bin eserin fişini çıkaran bir kütüphane kataloğu. · teknik-kesfuzzunun-katib-celebi",
+   "olay": [
+    "1633-01-01|Kâtib Çelebi"
+   ]
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "tartisma-i-mustafa-kizlaragasi-rivayeti",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Kızlarağası'nın rolü — ve on beş yıllık bir sessizlik · TDV bir isim veriyor ama bir hikâye vermiyor: halk arasında anlatılan 'kızlarağası onu odaya kilitledi' ",
+   "olay": [
+    "1623-09-10",
+    "1639-01-20"
+   ]
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "tartisma-ibrahim-sisman-kadin-arastirmasi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "'Şişman kadın merakı' — akademik/TDV kaynak bulunamadı · Popüler sitelerde çok anlatılan bir hikâye; TDV'de ve akademik yazında izi bulunamadı. · tartisma-ibrah",
+   "olay": [
+    "1644-01-01|Deli İbrahim"
+   ]
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "tartisma-i-mahmud-diri-gomulme-rivayeti",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "'Canlı canlı gömülen padişah' — hikâye gerçekte KİMİN cenazesiydi? · Rivayet bir Fransız subayının anlattığı isimsiz bir olaydan doğdu — ve zamanla yanlış padiş",
+   "olay": [
+    "1754-12-13"
+   ]
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "tartisma-mustafa-i-kizlaragasi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "opera"
+   ],
+   "baslik": "Halk anlatısı onu 'padişahı kilitleyen adam' yapar; TDV'nin gerçek anlattığı kızlarağası ise kilitleyen değil, İKİ CÜLUSU DA yöneten bir saray operatörü. · tart",
+   "olay": [
+    "1617-11-22",
+    "1639-01-20"
+   ]
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "kimdir-padisah-sanat-zanaat",
+   "tur": "kimdir",
+   "tanimli": true,
+   "kelime": [
+    "hattat",
+    "sair",
+    "siir",
+    "sanat"
+   ],
+   "baslik": "Kanûnî üç bin şiir yazdı ve padişahlar arasında en üretken şairdi; III. Ahmed usta bir hattattı; iki ayrı padişah aynı 'Adlî' mahlasını taşıyordu. · kimdir-padi",
+   "olay": []
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "tartisma-katerina-baltaci-rivayeti",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Halk anlatısı bir gece birlikteliği anlatır — ne TDV'de ne akademik kaynakta böyle bir şey var; TDV hediye hikâyesinin KENDİSİNİ de 'efsane' diye damgalıyor. · ",
+   "olay": [
+    "1711-07-21|Azak ve Taygan"
+   ]
+  },
+  {
+   "g": "EKOKUMA_AVUSTURYA",
+   "id": "avusturya-prens-eugen-hafiza",
+   "tur": "dis-yankilar",
+   "tanimli": true,
+   "kelime": [
+    "heykel"
+   ],
+   "baslik": "Prens Eugen (Savoyalı Eugen) Avusturya hafızasında: \"soylu şövalye\" miti ve Viyana'daki izleri · Osmanlı kroniklerinde Eugen'in adı çoğu zaman ağır bir yenilgin",
+   "olay": [
+    "1717-08-18|Prens Eugen",
+    "1697-09-11|Prens Eugen",
+    "1716-08-05|Damad Ali"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-onemi",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri'nin önemi: Osmanlı'nın Batı'ya ilk planlı açılışı · On iki yıllık bir barış arası; ama matbaanın, tercüme heyetinin, Paris elçiliğinin ve ilk yenileş",
+   "olay": [
+    "1718-07-21|Pasarofça",
+    "1718-05-09|İbrahim",
+    "1730-09-25|Patrona"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-adi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "'Lâle Devri' adı nereden geliyor — dönemin kendi kaynaklarında böyle bir ad yok · XVIII. yüzyıl kronikleri böyle bir dönemden söz etmez; adı iki yüzyıl sonra Ya",
+   "olay": [
+    "1718-05-09|İbrahim",
+    "1722-06-01|Sâdâbâd"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-yenilikler",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "cini",
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri'nin yenilikleri: matbaa, tercüme heyeti, itfaiye, çini ve kâğıt imalâthaneleri · İlk Türk matbaası, ilk modern itfaiye teşkilâtı, resmî bir tercüme h",
+   "olay": [
+    "1727-07-05|matbaası",
+    "1720-06-01|Tulumbacı",
+    "1725-01-01|heyeti"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "yirmisekiz-merak-kabul-toreni",
+   "tur": "magazin",
+   "tanimli": true,
+   "kelime": [
+    "gazete"
+   ],
+   "baslik": "On iki yaşındaki kralın huzurunda: tablo, madalyon ve gazete · Kabul töreni o kadar ses getirdi ki resmi yapıldı, madalyonu basıldı, gazetede ayrıntılı anlatıld",
+   "olay": [
+    "1721-03-21|Louis"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "yirmisekiz-merak-opera",
+   "tur": "magazin",
+   "tanimli": true,
+   "kelime": [
+    "opera"
+   ],
+   "baslik": "Operada bir Osmanlı elçisi: Thésée ve Omphale · Elçi Paris'te operayı gördü ve hayretler içinde kaldı; oğlu da bir bale izledi. · yirmisekiz-merak-opera",
+   "olay": [
+    "1721-03-21|Louis"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-mimari-ve-sehir",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri İstanbul'u: kasırlar, çeşmeler, bentler ve yeni yollar · Sâdâbâd iki ayda bitti; Kâğıthane deresinin iki yakası beyaz köşklerle doldu ve TDV'nin deyi",
+   "olay": [
+    "1722-06-01|Sâdâbâd"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-onemli-insanlar",
+   "tur": "kimdir",
+   "tanimli": true,
+   "kelime": [
+    "minyatur",
+    "sair",
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri'nin önemli insanları · Lâle Devri kadrosu · Bir padişah, bir sadrazam, bir elçi, bir matbaacı, iki büyük şair, bir minyatürcü — ve dönemi bitiren bir",
+   "olay": [
+    "1718-05-09|İbrahim",
+    "1727-07-05|matbaası",
+    "1730-10-02|Mahmud"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-tepkiler",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri'ne duyulan tepkiler: israf, yeni vergiler, akraba kayırma ve İran cephesi · TDV'ye göre öfke eğlenceden birikti ama isyanı patlatan siyasetti: Tebriz",
+   "olay": [
+    "1730-08-12|Nâdir",
+    "1730-09-25|Patrona"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-bitisi-patrona-isyani",
+   "tur": "savas-hikayesi",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri nasıl bitti: Patrona Halil İsyanı (25 Eylül – 25 Kasım 1730) · Beyazıt'ta toplanan bir avuç insan üç günde sadrazamın idamını, bir haftada padişahın ",
+   "olay": [
+    "1730-09-25|Patrona",
+    "1730-10-01|idamı",
+    "1730-10-02|cülusu",
+    "1730-11-25|tuzağa"
+   ]
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-sebep-sonuc",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "lale devri"
+   ],
+   "baslik": "Lâle Devri: sebepleri ve sonuçları · Yenilgiden doğan bir barış politikası; sonunda bir isyan — ama matbaa kapanmadı. · lale-devri-sebep-sonuc",
+   "olay": [
+    "1718-07-21|Pasarofça",
+    "1730-10-02|Mahmud"
+   ]
+  },
+  {
+   "g": "EKOKUMA_YENILESME",
+   "id": "yenilesme-uc-kurum-gecikme-kiyasi",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "tulumbaci"
+   ],
+   "baslik": "Tulumbacı Ocağı, kâğıt fabrikası, matbaa: üç kurumun gecikme kıyası · İtfaiye Paris'ten dört, Edo'dan iki yıl geriden geldi; kâğıt fabrikası kendi imalatını Bağ",
+   "olay": [
+    "1727-07-05|matbaası",
+    "1720-06-01|Tulumbacı"
+   ]
+  },
+  {
+   "g": "EKOKUMA_YENILESME",
+   "id": "matbaa-300-yil-gecikme-tartismasi",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hattat"
+   ],
+   "baslik": "Matbaa Osmanlı'ya niçin ~300 yıl geç geldi? · Altı bin öfkeli hattat matbaayı yıkmaya kalktı diye anlatılır — ama şeyhülislamın kendi fetvası üç ulema üyesini m",
+   "olay": [
+    "1727-07-05|matbaası"
+   ]
+  },
+  {
+   "g": "EKOKUMA_VECIZE",
+   "id": "vecize-kanuni-sihhat-beyti",
+   "tur": "magazin",
+   "tanimli": true,
+   "kelime": [
+    "siir"
+   ],
+   "baslik": "\"Bir nefes sıhhat gibi\": Kanûnî'nin dillerden düşmeyen beyti · Kanûnî'nin en çok tekrarlanan mısraı hangi şiirden, ve neyi söylüyor? · vecize-kanuni-sihhat-beyt",
+   "olay": [
+    "1566-09-07"
+   ]
+  },
+  {
+   "g": "EKOKUMA_KARSI",
+   "id": "karsi-viyana-1683",
+   "tur": "karsi-anlati",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "II. Viyana Kuşatması ve Kahlenberg: Avusturya, Lehistan ve Batı Avrupa gözünden · Avusturya ve Lehistan'da 12 Eylül 1683, Hristiyan Avrupa'nın Tanrı'nın yardımı",
+   "olay": [
+    "1683-09-12|Viyana"
+   ]
+  },
+  {
+   "g": "EKOKUMA_KARSI",
+   "id": "karsi-karansebes-1788",
+   "tur": "karsi-anlati",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Karánsebes (Şebeş) 1788: 'kendi kendini yenen ordu' hikâyesinin aslı · İnternette çok anlatılan hikâyeye göre Avusturya ordusu 1788'de gece kendi kendine ateş a",
+   "olay": [
+    "1788-09-21|Şebeş",
+    "1788-02-09|Avusturya"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P75A",
+   "id": "teknik-takvim-i-vekayi-resmi-gazete",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "gazete"
+   ],
+   "baslik": "Devlet kendi sesini kendisi basmaya karar verdi — onu harekete geçiren, Mısır Valisi Mehmed Ali'nin gazetesiyle İzmir'de yabancıların çıkardığı gazetelerdi. · t",
+   "olay": [
+    "1831-11-01|Takvîm"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P75A",
+   "id": "teknik-gazetecilik-dogusu-ilk-osmanli-gazeteleri",
+   "tur": "teknik-bilimsel",
+   "tanimli": true,
+   "kelime": [
+    "gazete"
+   ],
+   "baslik": "İlk gazeteleri bir Mısır valisi, bir İngiliz ve devletin kendisi çıkardı; “Türk basınının başlangıcı” ise devletten yardım almadan çıkan Tercümân-ı Ahvâl'e veri",
+   "olay": [
+    "1831-11-01|Takvîm",
+    "1862-06-27|Tasvir"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P76B",
+   "id": "bunv-romanya-1859",
+   "tur": "bu-ulke-neden-var",
+   "tanimli": true,
+   "kelime": [
+    "roman"
+   ],
+   "baslik": "Romanya, bir savaşla değil bir seçim hilesiyle doğdu: iki ayrı prensliğin meclisleri aynı adamı seçti ve Avrupa bu oldubittiyi geri alamadı. · bunv-romanya-1859",
+   "olay": [
+    "1859-01-24",
+    "1862-02-21",
+    "1881-03-26"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P76D",
+   "id": "kimdir-ali-suavi-ve-ciragan-baskini",
+   "tur": "kimdir",
+   "tanimli": true,
+   "kelime": [
+    "gazete"
+   ],
+   "baslik": "Gazeteci, hoca, sürgün, mektep müdürü — ve bir sabah iki yüz elli kişiyle saray basan adam. Ali Suâvi'nin sonu, başladığı yerden çok uzaktı. · kimdir-ali-suavi-",
+   "olay": [
+    "1878-05-20|Çırağan"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P76E",
+   "id": "savas-hikayesi-domeke-1897",
+   "tur": "savas-hikayesi",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Otuz günde Atina yolu açıldı; sonra ordu geri çağrıldı. Meydanda kazanılan bir savaş masada nasıl kaybedilir? · savas-hikayesi-domeke-1897",
+   "olay": [
+    "1897-04-17|Osmanlı-Yunan Savaşı"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P76E",
+   "id": "tartisma-yildiz-suikasti-1905",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "sair",
+    "siir"
+   ],
+   "baslik": "Bir bomba bir buçuk dakika geç patladı. Bir şair bu gecikmeye ağıt yaktı — ve o şiir bugün hâlâ tartışılıyor. · tartisma-yildiz-suikasti-1905",
+   "olay": [
+    "1905-07-21|Yıldız Suikastı"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P76F",
+   "id": "p76f-onikiada-hikaye",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "Oniki Ada: hangileri, nasıl alındı, niçin geri verilmedi? · 1522'de Kanûnî ile Osmanlı'ya katılan adalar, 1912'de üç haftada işgal edildi; İtalya 'Osmanlı asker",
+   "olay": [
+    "1912-05-12|Onikiada"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P76I",
+   "id": "p76i-vatan-yahut-silistre-1873",
+   "tur": "tartisma",
+   "tanimli": true,
+   "kelime": [
+    "tiyatro",
+    "hikaye",
+    "gazete"
+   ],
+   "baslik": "Bir tiyatro gecesi niçin sürgünle bitti? 'Vatan yahut Silistre' ve Nâmık Kemal · 1 Nisan 1873 gecesi Gedikpaşa'da seyirci 'Yaşasın vatan! Yaşasın Kemal!' diye s",
+   "olay": [
+    "1873-04-01|Vatan yahut Silistre"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P77A",
+   "id": "p77a-18-mart-nusret-seyid",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "hikaye"
+   ],
+   "baslik": "18 Mart 1915'te on altı savaş gemisini geri çeviren ne oldu: toplar mı, mayınlar mı? Nusret ve Seyid Onbaşı bu hikâyenin neresinde? · p77a-18-mart-nusret-seyid",
+   "olay": [
+    "1915-03-18|Çanakkale Zaferi"
+   ]
+  },
+  {
+   "g": "EKOKUMA_P77B",
+   "id": "p77b-buyuk-romanya-1918",
+   "tur": "sebep-sonuc",
+   "tanimli": true,
+   "kelime": [
+    "roman"
+   ],
+   "baslik": "Büyük Romanya: savaşı kaybeden bir krallık nasıl iki katına çıktı? · 1916'da savaşa girip birkaç ayda ezilen Romanya, iki imparatorluğun birden çöküşünden yarar",
+   "olay": [
+    "1918-12-01"
+   ]
+  }
+ ],
+ "turDagilim": {
+  "sebep-sonuc": 212,
+  "antlasma": 27,
+  "teknik-bilimsel": 82,
+  "merak": 15,
+  "tartisma": 228,
+  "magazin": 57,
+  "edebiyat": 7,
+  "savas-hikayesi": 51,
+  "kahramanlik": 2,
+  "dis-yankilar": 17,
+  "kimdir": 62,
+  "menkibeler": 2,
+  "sok-haberler": 4,
+  "karsi-anlati": 34,
+  "bu-ulke-neden-var": 4
+ }
+}

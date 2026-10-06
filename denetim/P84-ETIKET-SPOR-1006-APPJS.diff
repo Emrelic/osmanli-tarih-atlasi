@@ -1,0 +1,21 @@
+diff --git a/js/app.js b/js/app.js
+index 7fc6b889..a3b87dca 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -11524,7 +11524,15 @@ var EKOKUMA_TUR = {
+   // veri-büyük" — burada yalnız (a) yapıldı, içerik AYRI iş).
+   "tartisma":        { etiket: "💬 Tartışma",        kaynak: function () { return _ekHavuz(); } },
+   "teknik-bilimsel": { etiket: "🔬 Teknik / Bilimsel", kaynak: function () { return _ekHavuz(); } },
+-  "kimdir":          { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
++  // 🆕 6 Ekim 2026 — paket 0084 / H-0004, Emre: *"okçuluk, cirit, güreş,
++  // atçılık — tüm sporla alâkalı maddeler SPOR; kültür-sanat ile alâkalı
++  // olanlar KÜLTÜR SANAT."* Kırkpınar'a bağlı güreş kartı `teknik-bilimsel`
++  // altında "TEKNİK BİLİMSEL" yazıyordu. Kaynak AYNI havuz; gövde SON ÇARE
++  // dalından çizilir (teknik-bilimsel ile aynı yol). 🔴 Bu iki satır, kart
++  // `tur`u değişmeden ÖNCE inmeli — yoksa kart SESSİZCE kaybolur (D099).
++  "spor":            { etiket: "🏹 Spor",             kaynak: function () { return _ekHavuz(); } },
++  "kultur-sanat":    { etiket: "🎨 Kültür Sanat",     kaynak: function () { return _ekHavuz(); } },
++  "kimdir":         { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
+   "dis-yankilar":    { etiket: "🌐 Dış Yankılar",      kaynak: function () { return _ekHavuz(); } },
+   "kahramanlik":     { etiket: "🛡️ Kahramanlık",      kaynak: function () { return _ekHavuz(); } },
+   "menkibeler":      { etiket: "📖 Menkıbe",           kaynak: function () { return _ekHavuz(); } },

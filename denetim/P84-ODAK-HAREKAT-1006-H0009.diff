@@ -1,0 +1,20 @@
+diff --git a/data/savaslar.js b/data/savaslar.js
+index 0a36ddf8..47fb6f45 100644
+--- a/data/savaslar.js
++++ b/data/savaslar.js
+@@ -697,8 +697,14 @@ window.SEFERLER = [
+ // Balkan geçidi (Şipka) üzerinden Tırnova'ya, oradan Tuna kıyısına.
+ { ad:"Niğbolu seferi (1396)", tur:"sefer", sonuc:"zafer",       f:"1396-07-01", t:"1396-11-01",
+   yol:[[26.56,41.68],[25.39,42.62],[25.62,43.08],[24.90,43.70]] },
++// P84-ODAK-HAREKAT-1006 · 0084/H-0009 (Emre: "timurun sefer oku tebrizden başlayarak
++// gelmeli"). Eski yol Sivas'tan başlıyordu. TDV `ankara-savasi`: "13 Mart 1402'de
++// Tebriz'den gönderdiği elçi" (Timur o tarihte Tebriz'de) · TDV `timur`: "7 Şevval
++// 804'te (10 Mayıs 1402) hareket eden Timur Kemah, Sivas, Kayseri, Kırşehir üzerinden
++// gelip Ankara'yı kuşattı." ⚠️ Hareket cümlesi çıkış yerini ADIYLA vermiyor; Tebriz
++// iki cümlenin birlikte okunmasıdır. Kemah eksikti, eklendi. Ara durak UYDURULMADI.
+ { ad:"Timur'un yürüyüşü (1402)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#8a5a00",    f:"1402-06-01", t:"1402-09-01",
+-  yol:[[37.02,39.75],[35.48,38.73],[34.16,39.15],[32.86,39.93]] },
++  yol:[[46.29,38.08],[39.03,39.60],[37.02,39.75],[35.48,38.73],[34.16,39.15],[32.86,39.93]] },
+ { ad:"II. Murad'ın İstanbul kuşatması (1422)", tur:"kusatma", sonuc:"yenilgi", f:"1422-05-01", t:"1422-09-06",
+   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
+ { ad:"İstanbul seferi (1453)", tur:"sefer", sonuc:"zafer",      f:"1453-02-01", t:"1453-06-29",
