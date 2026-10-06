@@ -606,7 +606,19 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 189   # 1 EKIM 2026 (gece): 195 -> 191 -> 189
+BEKLENEN_ACIK_S = 186   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186
+# 🔴 6 EKİM 2026 — 189 → 186, ÖLÇÜLDÜ (yazmadan hemen önce `denetle.py` koşturuldu:
+#   "186 AÇIK (tavan 189)"). Üç puanlık pay SESSİZ BORÇtu: §3.4(3) "iyileşince tavan
+#   iner; iyileşmiş bir ölçümde eski tavanı bırakmak aradaki payı sessiz borç yapar."
+#   Üç açığı kapatan iş: Gdansk (90c9585c) · Memel (63c78baa) · 1006c Polonya (79b1ad02).
+# 📌 VE BU TAVAN, İNDİRİLMESİ İÇİN ÖLÇÜLEN BİR DENETİMDEN ÇIKTI: LAB-TAVAN-TEL-1006
+#   24 `BEKLENEN_*` sabitinin kaçının gerçekten çıkış koduna BAĞLI olduğunu ölçtü
+#   (16 BAĞLI · 2 YARI · 6 DEKORATİF). `ACIK_S` BAĞLI çıktı — yani bu indirme gerçek
+#   bir kapıyı sıkıyor, dekoratif bir sayıyı güzelleştirmiyor.
+# ⚠️ LAB'ın ÖLÇTÜĞÜ BİR YÖNTEM KUSURU, buraya not: "tavanı BİR EKSİLT" sınavı GEVŞEK
+#   tavanda YANLIŞ SINIFLANDIRIR — 189'u 188 yapmak ihlal ÜRETMEZ (ölçüm 186) ve sabit
+#   DEKORATİF görünür; ihlali 185 üretir. ⇒ Doğru sınav değeri TAVANDAN değil ÖLÇÜMDEN
+#   türetilir: `tavan = ölçüm − 1`. Bu kusur koordinatörün verdiği talimattaydı.
 # 1788 yeni madde girdi ve DORT yabanci senkron acigini KAPATTI. Tavan asagi da
 # takip edilir (`§11`): indirilmezse yarinki gerileme "191 <= 195" diye sessizce
 # gecer ve acigin geri acilmasi GORUNMEZ olur.
