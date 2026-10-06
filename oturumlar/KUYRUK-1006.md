@@ -1074,3 +1074,65 @@ sınıf**: sayı iyileşirken dayanak zayıflamış olabilir.
 ölçülmeden** yazılmış. Bugün zararsız (merge kapattı) ama §3.4(0)'ın birebir vakası.
 📌 Kuyruğa: `--kaynak-tavan-indir` bayrağının JSON'u **LF** yazıyor, depo **CRLF** —
 bayrak inerken düzeltilecek.
+
+---
+
+## 15. 🔴 7 EKİM GECESİ — GLM1 teslimi: "%58 çürüyüş" TDV'yi suçlamıyor
+
+### 15.1 Sayılar DOĞRU, cümle YANLIŞ YÖNÜ gösteriyor
+GLM1 (atlas-b0 üzerinden) 1005 koşusunu teslim etti: 35 kova → `GLM1-TDV-ONBELLEK` 1001
+dosya + 2.230 satırlık indeks. Tekil 2.230'un sınıflaması: **TAM 825 · STUB 112 (%5,0,
+mühür %2-6 ✓) · ŞÜPHELİ 1.293 (%58, mühür ≤%2 ✗ BÜYÜK ÇÜRÜYÜŞ)**.
+
+🔴 **Ama "%58 ŞÜPHELİ" bir TDV ölçüsü DEĞİL, KOPYA HAVUZU ölçüsüdür** — bileşimi bunu
+kendisi söylüyor:
+```
+ARAMA- 385   arama sayfası çekimi — hiçbir zaman madde gövdesi DEĞİLDİ (sınıflandırma artefaktı)
+DIS-     4   TDV-DIŞI URL (genocide-museum.am, britannica.com) — TDV ölçüsüne hiç girmemeliydi
+gerçek-TDV-slug 904   TEK gerçek kalem
+```
+Ve GLM1'in **kendi ②'nci ölçümü** bunu doğruluyor: **152/153 adres CANLI (%99,3)**.
+⇒ **Maddeler erişilebilir; çürüyen TDV değil bizim kopya havuzumuz.** `1006F`in başındaki
+"ASIL SONUÇ" cümlesinin düzeltilmesi istendi: çürüyen öngörü *"kopyaların kaçı
+kullanılabilir"*dı, *"TDV'nin kaçı boş"* değil. İkisini aynı cümlede anmak bir sonraki
+oturuma **"TDV %58 boş"** diye okunur.
+
+### 15.2 🔴 VE İLK ŞÜPHEM BENİM EVREN HATAMDI — ölçüm beni yakaladı
+`GLM1-TDV-ONBELLEK/`i ölçtüm: **1001 dosya · medyan 19.165 B · <2 KB olan SIFIR**. Bir an
+GLM1'in *"medyan 150 B · 1.354 kopya <2 KB"* raporuyla çeliştiğini sandım.
+Kaynak kovalarını ölçünce çelişki kalktı:
+```
+denetim/*-tdv-onbellek  →  35 kova · 2803 kopya · <2 KB olan 1366 (%48,7) · medyan 2672 B · en küçük 0
+```
+GLM1'in sayısı **bu** evrende tutarlı. ⇒ Aynı gecenin beşinci evren hatası, bu kez
+**hüküm yazılmadan önce** yakalandı: yanlış bir suçlama diske inmedi (`D268` ailesi).
+📌 Ek ölçüm: konsolide önbellekteki 1001 gövdenin **hepsi sağlam** (anlamlı kelime <60
+olan **0**, boilerplate-ağırlıklı **0**). En küçük dosya (2.133 B, `kul.txt`) boilerplate
+cümlesiyle BAŞLIYOR ama ardından gerçek gövde var ⇒ konsolidasyon işini yapmış.
+
+### 15.3 SIRADAKİ TEK KALEM — 904, ikinci çıkarıcıyla ve ÖRNEKLE
+*"904 slug, bütün kopyaları boş/boilerplate"* ifadesi §4'ün **tuzak ④** (*boilerplate
+gövde: çekilemedi ≠ yok*) ve **tuzak ⑦** (*çıkarıcının "okuyamadım"ı belge hakkında bir
+şey söylemez*) tarifine birebir uyuyor. "Bütün kopyaları boş" = **"her denemem başarısız
+oldu"**; belge hakkında hüküm değil.
+Verilen görev: **904'ten rastgele 30** slug (tohum yazılı) · HTTP durumu + İKİNCİ bir
+çıkarıcıyla gövde + anlamlı kelime · kovalar: GERÇEK GÖVDE VAR (çıkarıcı kusuru) /
+302 / gerçekten boş / ölçülemedi. Öngörü ÖNCE yazılacak (sayı + mekanizma ayrı).
+🔴 **30, 904 değil** — ve sebebi GLM1'in kendi arıza beyanı: şemasız URL hatası yüzünden
+TDV'ye **153 ek istek** gitti; 904'ü tam çekmek 904 istek daha demek.
+📌 Değeri: oran %70 çıkarsa kalem *"çıkarıcı kusuru, ~630 gövde kurtarılabilir"* olur ve
+bu, kaynaksızlık borcumuz için doğrudan cephane (kaynaksız `s:` 1912 · D kovasının %65'i
+şehre özgü değil · halkada duran 28 şehir tanıklığı).
+⚠️ 30'luk örnek bir **oran tahmini**dir, hüküm değil; oran slug ADIYLA genellenmez
+(%36 isabetli vekil ölçüm dersi).
+
+### 15.4 GLM1'in DOĞRU yaptıkları — adıyla
+🟢 **`piza`:** 302 ölçüldü, `Location` okundu, veri yerinde (`devletler.js:7644` +
+`paket_05.js:7663`) zaten BEYANLI, `q=piza` 0 aday ⇒ **"bulunamadı" yazıldı, "TDV'de yok"
+YAZILMADI.** Kural ⑨ birebir uygulanmış.
+🟢 **Alet arızasını kendi beyan etti** (153×301, ölçüm üretmedi, https ile yeniden koşuldu).
+🟢 Şartname 34 kova diyordu, 35 buldu — ben de 35 ölçtüm; **şartname bayat, ölçüm doğru.**
+⚠️ Açık: `denetim/GLM1-*` dosyalarının çoğu çalışma ağacımda İZLENMİYOR. §7 gereği GLM1
+kendi adıyla commitleyecek; `GLM1-TDV-ONBELLEK/` 1001 dosya olduğu için dizin pathspec'i
+zorunlu — o tek istisnayı commit mesajında ADIYLA beyan etmesi ve `git show --name-only`
+sayısını yazması istendi.
