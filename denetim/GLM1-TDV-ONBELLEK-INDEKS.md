@@ -2294,6 +2294,11 @@ ikinci çıkarıcıyla SINAĞI BİTTİ (7 Ekim, `GLM1-904-IKINCI-CIKARICI-1006.t
 kusuru YOK, slug'lar gerçekten ölü; ama konuların kapsayıcı maddesi çoğunlukla
 başka adla VAR (webReader teyidi: `kusadasi`→ÖKüz Mehmed Paşa Külliyesi,
 `bistam`→Bâyezîd-i Bistâmî vb. 7 madde; `tugrulsah`→0 sonuç).
+🔴 **Gerekçe revizyonu (koordinatör, 7 Ekim):** hüküm ayakta, gerekçe değişti —
+%58'in TDV ölçüsü olmamasının sebebi "maddeler erişilebilir" değil, **"904'ü TDV
+değil bizim hasatçımız üretti"** (ayrıntı: `GLM1-BOLME-1006F` gerekçe revizyonu
+bloğu). 904 gövde-kurtarma defteri KAPANDI; kapsayıcı eşleme kararı koordinatörde
+(ilk adım: `GLM1-904-ORTUSME-1006` örtüşme ölçümü).
 
 Şartname teslim blokları:
 ```

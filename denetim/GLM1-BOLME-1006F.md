@@ -18,6 +18,18 @@ adresinde **152 canlı (%99,3)** — **maddeler erişilebilir; çürüyen TDV de
 kopya havuzumuz.** İkisini aynı cümlede anmak bir sonraki oturuma "TDV %58 boş"
 okutturur.
 
+🔴 **Gerekçe revizyonu (koordinatör ikinci hükmü, 7 Ekim — 904 sınavı sonrası):
+hüküm AYAKTA, gerekçe DEĞİŞTİ.** *"%58 bir TDV-boşluk ölçüsü değildir"* doğru
+çıktı — ama sebebi **"maddeler erişilebilir" değil, "904'ü TDV değil bizim
+hasatçımız üretti"**: 30'luk örnekte 30/30 ölü ölçüldü; çürüyen hipotez
+("904'ün çoğu çıkarıcı kusuru, ~630 kurtarılabilir") koordinatöründü ve kökü
+153-atıf canlılığını 904'e taşıyan **evren hatası**ydı (*"bir uyarıyı yazmak,
+onun için ihtiyat göstermek değildir"* — "oran slug adıyla genellenmez" uyarısı
+aynı mesajdaydı). Yeni hâli daha güçlü: **havuzun %58'i = arama sayfası çekimleri
+(ARAMA- 385) + TDV-dışı URL (DIS-) + hasatçının üretip öldürdüğü slug'lar
+(904'ün 30/30 ölü çıkan evreni).** 904 "gövde kurtarma" defteri KAPANDI
+(koordinatör onayı, 7 Ekim).
+
 Atama: YILDIRIM BAYEZIT — "BİRLEŞTİRME ONAYI ŞARTLI — bir adım ÖNCESİ var".
 Hüküm (koordinatör): 893 "ölü slug" evreninin bir kısmı TDV hakkında bir ölçüm
 değil, **hasatçının slug varyantı üretip başarısızlıklarını VERİ gibi
