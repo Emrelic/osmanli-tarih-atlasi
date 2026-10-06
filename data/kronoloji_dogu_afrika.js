@@ -910,7 +910,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1698-12-13", b:"Fort Jesus'un düşüşü — Portekiz çağının sonu, Svahili kıyısının Umman nüfuzuna girmesi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Mombasa",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Umman Sultanı Seyf b. Sultân'ın saldırısıyla Mombasa'daki Fort Jesus düştü ve şehir devletlerinden Mozambik hariç tamamı ele geçirildi; Makdişu da Ummanlılara geçti. İki asırlık Portekiz hâkimiyeti sona erdi ve kıyı Umman nüfuzuna girdi — Svahili şehir devletlerinin müstakil siyasî varlığı da bu tarihte kapanır.",
-  kaynak:"TDV `kilve`: \"Sultan, 1698'de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi\" · TDV `makdisu`: \"1698 yılında Uman Sultanı Seyf b. Sultân Mombasa'yı alınca Makdişu da Umanlılara geçti\" · gün data/devletler.js `svahili-sehirleri` künyesinden devralındı" },
+  kaynak:"TDV `kilve`: \"Sultan, 1698'de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi\" · TDV `makdisu`: \"1698 yılında Uman Sultanı Seyf b. Sultân, Mombasa’yı Portekizliler’den alınca Makdişu ve diğer Somali sahil şehirleri de Umanlılar’ın eline geçti.\" · gün data/devletler.js `svahili-sehirleri` künyesinden devralındı" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. MAKDİŞU SULTANLIĞI (1281-1500) ve SOMALİ SULTANLIKLARI (1500-1923)
@@ -961,7 +961,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["somali"], t:"1823-01-01", b:"Makdişu'nun ismen Seyyid Saîd b. Sultân'a bağlanması", tur:"idari", onem:3, dunya:1, kapsam:"dis", yer_id:"Mogadişu",
   etiket:["idari","konu-idari"],
   d:"1823 yılında Makdişu ismen Umman Sultanı Seyyid Saîd b. Sultân'a bağlandı, fakat yerli reisler yönetimi fiilen sürdürdüler. Bu ikili yapı — nominal Umman hâkimiyeti, fiilî yerel idare — yüzyıl boyunca Somali kıyısının kuralı oldu.",
-  kaynak:"TDV `makdisu`: \"1823 yılında Makdişu ismen Uman Sultanı Seyyid Saîd b. ... bağlanmış fakat yerli reisler yönetim devam ettirmiştir\"" },
+  kaynak:"TDV `makdisu`: \"1823 yılında Makdişu ismen Uman Sultanı Seyyid Saîd b. Sultân’a bağlandıysa da buranın idaresi yine Somali yerli reislerinin elinde kaldı.\"" },
 
 { taraflar:["somali"], t:"1828-01-01", b:"Umman Sultanlığı'nın ikiye bölünmesi ve güney Somali limanlarının Zengibar'a tâbi olması", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"Merka",
   etiket:["idari","ticaret","konu-idari","konu-ekonomi"],

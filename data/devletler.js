@@ -1052,7 +1052,7 @@ window.DEVLETLER = [
 // kullanıldı.
 { id:"imereti", ad:"İmereti Krallığı", tur:"krallik", bolge:"kafkasya",
   f:"1490-01-01", t:"1810-02-20", baskent:"Kutaisi",
-  ozet:"Gürcistan Krallığı'nın 1490'da Kartli, Kaheti ve İmereti'ye bölünmesiyle doğan batı Gürcistan krallığı (bkz. [[gurcistan]]); Kartli-Kaheti'nin (1801) aksine 1810'a dek ayrı sürdü, Kral II. Solomon'un tahttan indirilmesiyle Rusya'ya ilhak edildi. ⚠️ TDV `gurcistan` maddesi yalnız \"1804 yılında İmeretiya ve Guriya (Rusya ile) birleşti\" diyor — bu muhtemelen kesin ilhaktan önceki bir himaye/vasallık anlaşması; kesin ilhak tarihi (1810-02-20) standart akademik kaynağa göredir.",
+  ozet:"Gürcistan Krallığı'nın 1490'da Kartli, Kaheti ve İmereti'ye bölünmesiyle doğan batı Gürcistan krallığı (bkz. [[gurcistan]]); Kartli-Kaheti'nin (1801) aksine 1810'a dek ayrı sürdü, Kral II. Solomon'un tahttan indirilmesiyle Rusya'ya ilhak edildi. ⚠️ TDV `gurcistan` maddesi yalnız \"Birkaç yıl içinde Megreliya (1803), İmeretiya ve Guriya (1804), Abhaz Knezliği (1810), Svanetiya (1856) Rusya ile birleşti.\" diyor — bu muhtemelen kesin ilhaktan önceki bir himaye/vasallık anlaşması; kesin ilhak tarihi (1810-02-20) standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1490-01-01", tur:"kurulus", b:"Gürcistan Krallığı'nın bölünmesiyle ayrı krallık olarak ortaya çıktı" },
@@ -1300,7 +1300,7 @@ window.DEVLETLER = [
   kaynak:"bosna-hersek",
   kronoloji:[
     { t:"1878-07-13", tur:"isgal", b:"Berlin Kongresi ile Avusturya-Macaristan idareyi devraldı" },
-    { t:"1899-01-01", tur:"siyaset", b:"Müftü Ali Fehmi Câbiç liderliğinde, Avusturya-Macaristan idaresine karşı dinî özerklik (millet sistemi hakları) için bir mücadele başlatıldı", kaynak:"TDV bosna-hersek — \"1899'da müftü Ali Fehmi Câbiç liderliğinde dinî özerklik için mücadele başlatıldı\". Gün YOK, YYYY-01-01 kaba." },
+    { t:"1899-01-01", tur:"siyaset", b:"Müftü Ali Fehmi Câbiç liderliğinde, Avusturya-Macaristan idaresine karşı dinî özerklik (millet sistemi hakları) için bir mücadele başlatıldı", kaynak:"TDV bosna-hersek — \"1899’da Mostar müftüsü Ali Fehmi Câbiç liderliğinde, Bosna-Hersek’teki bütün müslümanlar için dinî sahada ve eğitimde otonomi verilmesi yolunda kararlı bir mücadele başlatıldı.\". Gün YOK, YYYY-01-01 kaba." },
     { t:"1908-10-06", tur:"son", b:"Avusturya-Macaristan resmen ilhak etti" }
   ]
 },
@@ -2627,12 +2627,12 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1878-01-01", tur:"kurulus", b:"Samori Ture devleti kurdu" },
     { t:"1881-01-01", tur:"savas", b:"Fransızlarla ilk savaş başladı", kaynak:"TDV `samori-ture` (200, gövde okundu) — «İlk savaş: 1881»; ertesi yıl «1882: büyük direniş gösterdi»." },
-    { t:"1883-01-01", tur:"toprak-kayip", b:"Fransızların Bamako'yu işgali önlenemedi", kaynak:"TDV `samori-ture` — «1883: Bamako işgali önlenemedi»; Britannica ('Samory') aynı yılı veriyor: «when they occupied Bamako on the Niger River»." },
-    { t:"1886-01-01", tur:"antlasma", b:"Mart 1886'daki ilk antlaşmayla Bure bölgesi Fransızlara bırakıldı", kaynak:"TDV `samori-ture` — «Mart 1886: ilk anlaşmayla Bure bölgesini Fransızlara bıraktı»; öncesinde «1885: Bure'de büyük kayıp verdi». Britannica bağımsız olarak «After the French carried out a successful offensive in 1886, Samory accepted their protection with the Niger as his frontier» diyor." },
+    { t:"1883-01-01", tur:"toprak-kayip", b:"Fransızların Bamako'yu işgali önlenemedi", kaynak:"TDV `samori-ture` — «Bununla birlikte 1883’te Bamako’nun işgali önlenemedi.»; Britannica ('Samory') aynı yılı veriyor: «when they occupied Bamako on the Niger River»." },
+    { t:"1886-01-01", tur:"antlasma", b:"Mart 1886'daki ilk antlaşmayla Bure bölgesi Fransızlara bırakıldı", kaynak:"TDV `samori-ture` — «Mart 1886’daki ilk anlaşmayla Bure bölgesini, bir yıl sonra ikinci anlaşmada Nijer’in batı yakasını Fransızlar’a bırakmayı kabul etti.»; öncesinde «1885: Bure'de büyük kayıp verdi». Britannica bağımsız olarak «After the French carried out a successful offensive in 1886, Samory accepted their protection with the Niger as his frontier» diyor." },
     { t:"1887-01-01", tur:"antlasma", b:"İkinci antlaşmayla Nijer'in batı yakası Fransızlara bırakıldı", kaynak:"TDV `samori-ture` — «Bir yıl sonra ikinci antlaşmada Nijer'in batı yakasını Fransızlar'a bırakmayı kabul etti»." },
     { t:"1887-01-01", tur:"savas", b:"Sikasso kuşatması başladı; on beş ay süren kuşatma Kenedugu kralı Tiéba Traoré tarafından püskürtüldü", kaynak:"TDV `samori-ture` — «1887 tarihinde Sikasso kuşatmasını başlattı»; Journal of African History (hakemli) ve Britannica ('Sikasso') süreyi veriyor: «lasting fifteen months from March 1887 to June 1888 … The Fàama of Sikasso, Tiéba Traoré, was able to repel Samori»." },
     { t:"1889-02-13", tur:"antlasma", b:"Fransızlarla son antlaşmayı imzaladı", kaynak:"TDV `samori-ture` — AYNEN «13 Şubat 1889: Son antlaşmayı imzaladı». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
-    { t:"1891-01-01", tur:"savas", b:"Fransızlarla yeniden savaşa tutuştu", kaynak:"TDV `samori-ture` — «1891: yeniden savaşa tutuştu»; Britannica bağımsız olarak «he renewed his war with the French in 1891» diyor." },
+    { t:"1891-01-01", tur:"savas", b:"Fransızlarla yeniden savaşa tutuştu", kaynak:"TDV `samori-ture` — «Samori 1891’de topraklarına saldıran Fransızlar’la yeniden savaşa tutuştu.»; Britannica bağımsız olarak «he renewed his war with the French in 1891» diyor." },
     { t:"1898-09-29", tur:"son", b:"Samori esir alındı, devlet dağıldı" }
   ]
 },
@@ -2656,7 +2656,7 @@ window.DEVLETLER = [
     { t:"1650-01-01", tur:"kurulus", b:"Biton Kulibali Segu krallığını kurdu" },
     { t:"1854-11-11", tur:"toprak-kayip", b:"Kaarta kolu el-Hâc Ömer Tal'in eline geçti ve İslâm devleti hâline getirildi", kaynak:"TDV `el-hac-omer` — «Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». Künye adı «Bambara Krallıkları (Segu ve Kaarta)» olduğu için bu, Kaarta kolunun kaybıdır." },
     { t:"1861-03-10", tur:"son", b:"el-Hâc Ömer Segu'yu aldı" },
-    { t:"1861-03-10", tur:"savas", b:"Segu, el-Hâc Ömer Tal'in ordusuna karşı savunmada düştü ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı» diyerek doğruluyor." }
+    { t:"1861-03-10", tur:"savas", b:"Segu, el-Hâc Ömer Tal'in ordusuna karşı savunmada düştü ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Burada girişilen mücadeleden sonra 1861 başlarında bir başka Bambara Krallığı olan Segu’ya girilerek Segu’nun animist krallığı ortadan kaldırıldı.» diyerek doğruluyor." }
   ]
 },
 { id:"kenedugu", ad:"Kenedugu Krallığı (Sikasso)", tur:"krallik", bolge:"bati-afrika",
@@ -3233,7 +3233,7 @@ window.DEVLETLER = [
 { id:"ngonde", ad:"Ngonde Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1600-01-01", t:"1895-01-01", baskent:"Karonga",
   ozet:"Nyasa kuzeyinde Kyungu unvanlı hükümdarlarca yönetilen krallık. TDV malavi maddesine dayanır.",
-  kaynak:"malavi — TDV gövdesi bu turda okundu. TDV malavi: Mlozi 'kendini 1887'de Ngonde sultanı ilân etti' ve İngiliz sömürgeciliğine direnirken öldü.",
+  kaynak:"malavi — TDV gövdesi bu turda okundu. TDV malavi: Mlozi '1887’de kendini Ngonde sultanı ilân eden Mlozi, İngiliz sömürgeciliğine karşı giriştiği savaşta öldürüldü.' ve İngiliz sömürgeciliğine direnirken öldü.",
   kronoloji:[
     { t:"1600-01-01", tur:"kurulus", b:"Ngonde krallığı teşekkül etti" },
     { t:"1895-01-01", tur:"son", b:"İngiliz idaresine girdi" }
@@ -4984,7 +4984,7 @@ window.DEVLETLER = [
     { t:"1701-01-01", tur:"kurulus", b:"Osei Tutu, Denkyira'yı yenerek Aşanti Birliği'ni kurdu" },
     { t:"1824-01-01", tur:"savas", b:"Birinci Anglo-Aşanti Savaşı'nda İngiliz valisini yendi" },
     { t:"1826-01-01", tur:"savas", b:"Aşanti baskısı altındaki Fante ve Ga kabilelerinin desteğini alan İngilizler Aşanti ordusunu geri püskürttü", kaynak:"Encyclopaedia Britannica, 'Asante empire' — «The British (with the help of tribes oppressed by the Asante, including the Fante and the Ga) beat the Asante back in 1826»." },
-    { t:"1874-01-01", tur:"toprak-kayip", b:"Kumasi'nin yıkılmasının ardından güneybatı Gana Altın Sahili adıyla İngiliz sömürgesi hâline getirildi", kaynak:"TDV `gana` (200, gövde okundu) — «1874: Kumasi yıkıldı; güneybatı Gana Altın Sahili adıyla sömürge oldu»; Britannica 'Asante empire' bağımsız olarak «a British force under General Sir Garnet Wolseley … defeated the Ashanti army and burned their capital of Kumasi» diyor." },
+    { t:"1874-01-01", tur:"toprak-kayip", b:"Kumasi'nin yıkılmasının ardından güneybatı Gana Altın Sahili adıyla İngiliz sömürgesi hâline getirildi", kaynak:"TDV `gana` (200, gövde okundu) — «Bu seferler sonunda Aşantiler’in merkezi olan Kumasi şehri tahrip edildi ve ülkenin güneybatı tarafı Altın Sahili adıyla sömürge haline getirildi (1874).»; Britannica 'Asante empire' bağımsız olarak «a British force under General Sir Garnet Wolseley … defeated the Ashanti army and burned their capital of Kumasi» diyor." },
     { t:"1874-02-04", tur:"savas", b:"İngilizler Kumasi'yi yakıp yıktı" },
     { t:"1901-01-01", tur:"isgal", b:"Aşanti toprakları İngiliz idaresine alındı", kaynak:"TDV `gana` — «1901: Aşanti toprakları İngiliz idaresi altına girdi»; ertesi yıl «1902: bugünkü Gana'nın tamamı İngiliz sömürgesi oldu». Britannica 'Asante empire' son adımı gün vererek doğruluyor: «Asante was formally declared a British crown colony on January 1, 1902»." },
     { t:"1902-01-01", tur:"son", b:"Dördüncü Anglo-Aşanti Savaşı sonunda krallık resmen ilhak edildi" }
@@ -4998,10 +4998,10 @@ window.DEVLETLER = [
     { t:"1625-01-01", tur:"kurulus", b:"Wegbaja, Abomey merkezli krallığı kurdu" },
     { t:"1727-01-01", tur:"toprak-kazanc", b:"Kıyıdaki Whydah krallığını ele geçirip Atlantik ticaretine doğrudan eriştim kazandı" },
     { t:"1818-01-01", tur:"hukumdar", b:"Kral Gezo tahta çıktı ve kırk yıl süren saltanatı başladı", kaynak:"TDV `benin` (200, gövde okundu) — hükümdar listesi: «1818-1858: Kral Gezo»." },
-    { t:"1851-01-01", tur:"antlasma", b:"Fransa ile Kral Gezo arasında antlaşma imzalandı", kaynak:"TDV `benin` — «1851: Fransa ile Gezo arasında antlaşma»." },
+    { t:"1851-01-01", tur:"antlasma", b:"Fransa ile Kral Gezo arasında antlaşma imzalandı", kaynak:"TDV `benin` — «1851’de Fransa ile Gezo arasında yapılan antlaşmayla Fransa bazı ticarî imtiyazlar kazandı.»." },
     { t:"1858-01-01", tur:"hukumdar", b:"Kral Glélé tahta çıktı", kaynak:"TDV `benin` — «1858-1889: Kral Glélé»." },
-    { t:"1868-01-01", tur:"antlasma", b:"Mayıs 1868'de Kotonu Antlaşması imzalandı", kaynak:"TDV `benin` — «Mayıs 1868: Kotonu Antlaşması»." },
-    { t:"1882-01-01", tur:"toprak-kayip", b:"Fransa Porto Novo ve Kotonu üzerinde himaye kurdu", kaynak:"TDV `benin` — «1882: Fransa Porto Novo ve Kotonu üzerinde himaye kurdu»." },
+    { t:"1868-01-01", tur:"antlasma", b:"Mayıs 1868'de Kotonu Antlaşması imzalandı", kaynak:"TDV `benin` — «Mayıs 1868 tarihli Kotonu Antlaşması ile Fransa’nın Benin kıyılarında geniş haklar elde etmesi ve buradaki nüfuzunun artması İngiltere’nin protestosuna yol açtı ve bu sebeple bazı çatışmalar çıktı.»." },
+    { t:"1882-01-01", tur:"toprak-kayip", b:"Fransa Porto Novo ve Kotonu üzerinde himaye kurdu", kaynak:"TDV `benin` — «1882’de Porto Novo ve Kotonu üzerinde himaye idaresi kuran Fransa, Berlin Kongresi’nden sonra mahallî yöneticilerle yaptığı bazı anlaşmalarla bölgedeki gücünü arttırdı ve bölgeyi fiilen işgale yöneldi.»." },
     { t:"1893-01-01", tur:"savas", b:"Fransız birlikleri başşehir Abomey'e girerek Kral Behanzin'in iktidarına son verdi", kaynak:"TDV `benin` — AYNEN «1893'te Dahomey Krallığı'nın merkezi Abomey'e giren Fransız birlikleri Kral Behanzin'in iktidarına son vererek»; aynı gövde «1906: Kral Behanzin sürgünde öldü» diyor." },
     { t:"1894-01-01", tur:"son", b:"Fransa, Kral Béhanzin'i yenip krallığı sömürgeye dönüştürdü" }
   ]
@@ -6732,7 +6732,7 @@ window.DEVLETLER = [
 },
 { id:"bahavelpur", ad:"Bahavelpur Emirliği (Dâvudpotralar)", tur:"devlet", bolge:"guney-asya",
   f:"1748-01-01", t:"1955-10-14", baskent:"Bahawalpur",
-  ozet:"Bahâvel Han'ın Sutlej kıyısında kurduğu, Abbasi hilafetine soy iddia eden Dâvudpotra hanedanının emirliği; 1802'de Afgan şahından sikke basma hakkı alarak egemen devlet statüsü kazandı, 1838'de İngiliz himayesine girdi (1923 sonrasında da sürdü, 1955'te idari birleşmeyle sona erdi). ÜLKE SÜREKLİLİĞİ kimliğidir — hanedan atlas ufkunun ötesine taşıyor. (kaynak: TDV, madde: bahavelpur — \"1748'de Emir Muhammed Bahâvel tarafından... kuruldu\")",
+  ozet:"Bahâvel Han'ın Sutlej kıyısında kurduğu, Abbasi hilafetine soy iddia eden Dâvudpotra hanedanının emirliği; 1802'de Afgan şahından sikke basma hakkı alarak egemen devlet statüsü kazandı, 1838'de İngiliz himayesine girdi (1923 sonrasında da sürdü, 1955'te idari birleşmeyle sona erdi). ÜLKE SÜREKLİLİĞİ kimliğidir — hanedan atlas ufkunun ötesine taşıyor. (kaynak: TDV, madde: bahavelpur — \"Sutlej ırmağı kıyısında Emîr Muhammed Bahâvel tarafından 1748’de kurulmuştur.\")",
   kaynak:"bahavelpur",
   kronoloji:[
     { t:"1748-01-01", tur:"kurulus", b:"Bahâvel Han, Sutlej kıyısında emirliğini kurdu" },
@@ -7465,7 +7465,7 @@ window.DEVLETLER = [
           { t:"1852-01-01", tur:"kurulus", b:"El-Hâc Ömer Tal, Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti ve Umarî devletinin temelini attı", kaynak:"TDV `el-hac-omer` (200, gövde okundu) — AYNEN: «Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti». Künyenin kendi `kaynak` alanı da bu maddeye dayanıyor." },
           { t:"1854-11-11", tur:"toprak-kazanc", b:"Kaarta ele geçirilerek İslâm devleti hâline getirildi", kaynak:"TDV `el-hac-omer` — «1854: Yelimane, Bambuk ve Farabanna ele geçirildi; Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
           { t:"1857-01-01", tur:"savas", b:"Medine'deki Fransız kalesine 25.000 kişilik kuvvetle saldırdı, kuşatma Fransızlarca püskürtüldü", kaynak:"TDV `el-hac-omer` — «Medine: 1857 — 25.000 askerle Fransız kalesine saldırıldı; Fransız kuvvetlerince püskürtüldü»." },
-          { t:"1861-03-10", tur:"toprak-kazanc", b:"Segu ele geçirildi ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV `el-hac-omer` — «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı»; GÜN, aynı olayın öteki tarafındaki `bambara` künyesinin TDV `mali`ye dayanan `son` maddesinden geliyor: «1861-03-10 — el-Hâc Ömer Segu'yu aldı». İki TDV maddesi, iki taraf, aynı gün." },
+          { t:"1861-03-10", tur:"toprak-kazanc", b:"Segu ele geçirildi ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV `el-hac-omer` — «Burada girişilen mücadeleden sonra 1861 başlarında bir başka Bambara Krallığı olan Segu’ya girilerek Segu’nun animist krallığı ortadan kaldırıldı.»; GÜN, aynı olayın öteki tarafındaki `bambara` künyesinin TDV `mali`ye dayanan `son` maddesinden geliyor: «1861-03-10 — el-Hâc Ömer Segu'yu aldı». İki TDV maddesi, iki taraf, aynı gün." },
           { t:"1862-01-01", tur:"toprak-kazanc", b:"Hamdullahi alınarak Masina Halifeliği'nin toprakları devlete katıldı", kaynak:"TDV `el-hac-omer` — «Hamdallahi: 1862 — Masina başşehri ele geçirildi»." },
           { t:"1864-02-14", tur:"hukumdar", b:"El-Hâc Ömer Tal Degembere'de bir mağara yangınında öldü ve yerine oğlu Ahmed el-Kebîr el-Medenî geçti", kaynak:"TDV `el-hac-omer` — AYNEN «14 Şubat 1864», Degembere'de mağara yangını; «oğlu Ahmed el-Kebîr el-Medenî (Ahmed Tâl) yerine geçti»." },
           { t:"1893-01-01", tur:"son", b:"Fransız fethiyle Umarî devleti sona erdi", kaynak:"TDV `el-hac-omer` — «devlet 1893-1894 Fransız fethine kadar sürdü»; Encyclopaedia Britannica ('Ahmadu Seku') bağımsız olarak «Col. Louis Archinard … led to the final conquest of Ségou in 1893» diyor. Künyenin `t:` değeri de 1893-01-01." }
@@ -7714,7 +7714,7 @@ window.DEVLETLER = [
   ozet:"Kuveyt'te Âl-i Sabâh ailesinin şeyhliği. Uzun süre Basra'ya bağlı Osmanlı kazâsı sayıldı; 1899'dan itibaren fiilen İngiliz himayesine girdi.",
   kaynak:"TDV `kuveyt` — «Hindistan genel valisi Lord Curzon yüzbaşı Mead'i Küveyt'e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899)» ve «uzunca bir süre Türk hâkimiyetinde kaldıktan sonra İngiliz himayesinde bir şeyhliğe dönüştü». 🟡 `f:`/`t:` VERİDEN DEVRALINDI; TDV bu iki günü VERMİYOR. Veri iki dönem taşıyor (1795-04-01→1871-01-01 himaye, 1871-01-01→1914-11-22 kazâ); künye ikisini de kapsıyor.",
   kronoloji:[
-    { t:"1896-01-01", tur:"bolunme", b:"Şeyh Muhammed es-Sabah bir suikast sonucu öldürüldü, ailesi içinde iktidar mücadelesi başladı", kaynak:"TDV kuveyt — \"1896'da bir suikast sonucu öldürüldü\", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi." },
+    { t:"1896-01-01", tur:"bolunme", b:"Şeyh Muhammed es-Sabah bir suikast sonucu öldürüldü, ailesi içinde iktidar mücadelesi başladı", kaynak:"TDV kuveyt — \"Şeyh Abdullah’ın yerine geçen Şeyh Muhammed es-Sabâh, Osmanlı Devleti’ne bağlılığını sürdürürken bir suikast sonucu öldürüldü (1896).\", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi." },
     { t:"1897-01-01", tur:"vassal", b:"Osmanlı merkezi yönetimi, aile içi çekişmenin yatışmasını bekledikten ve İngiltere'den yardım talebi endişesiyle, Mübârek es-Sabâh'ın kaymakamlığını onayladı", kaynak:"TDV kuveyt — \"taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı\". Gün YOK, YYYY-01-01 kaba." },
     { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV kuveyt (künyenin kendi kaynak alanından)" },
     { t:"1914-11-22", tur:"son", b:"I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
@@ -7796,7 +7796,7 @@ window.DEVLETLER = [
 { id:"sirbistan-eyaleti", ad:"Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)", tur:"eyalet", bolge:"balkanlar",
   f:"1459-06-20", t:"1804-02-14",
   ozet:"Sırp Despotluğu'nun sona ermesinden Kara Yorgi isyanına kadar, Sırbistan'ın doğrudan Osmanlı idaresinde kaldığı dönem (arada 1688-1690 ve 1717-1738 Avusturya işgal pencereleri ayrıca modellenmiş). Harita rengi KASITLI OLARAK verilmedi — yerlesimler.js'teki Sırbistan noktaları (Semendire/Belgrad/Kragujevac/Çaçak) bu dönemi zaten `d:` ailesinde taşıyor.",
-  kaynak:"f: TDV `semendire` — '20 Haziran 1459'da Lazar Brankoviç'in dul eşi Helena kaleyi Osmanlılar'a teslim etti', sirp-despotlugu künyesinin t: alanıyla birebir aynı gün, bağımsız doğrulandı. 🟡 t: TDV `sirbistan` yalnız YIL veriyor ('1804'te Karadjordje liderliğinde Sırp isyanı patlak verdi'); GÜN (14 Şubat) sirbistan-prensligi künyesinin kendi f: alanından DEVRALINDI, yeni hassasiyet üretilmedi (§4).",
+  kaynak:"f: TDV `semendire` — '20 Haziran 1459'da Lazar Brankoviç'in dul eşi Helena kaleyi Osmanlılar'a teslim etti', sirp-despotlugu künyesinin t: alanıyla birebir aynı gün, bağımsız doğrulandı. 🟡 t: TDV `sirbistan` yalnız YIL veriyor ('Dayılar ve yamaklar olarak adlandırılan yeniçerilerin gittikçe artan baskıları beraberinde Sırp isyanlarını getirdi ve nihayet 1804’te Karadjordje (Djordje Petkovic, Karacorce / Kara Yorgi) liderliğinde Sırp isyanı patlak verdi.'); GÜN (14 Şubat) sirbistan-prensligi künyesinin kendi f: alanından DEVRALINDI, yeni hassasiyet üretilmedi (§4).",
   kronoloji:[
     { t:"1459-06-20", tur:"kurulus", b:"Semendire'nin düşüşüyle Sırp Despotluğu sona erdi, bölge doğrudan Osmanlı idaresine geçti", kaynak:"TDV semendire" },
     { t:"1717-08-18", tur:"toprak-kayip", b:"Prens Eugene komutasındaki Avusturya ordusu Belgrad Muharebesi'ni kazanıp şehri aldı; Kuzey Sırbistan Avusturya'ya geçti (Pasarofça Antlaşması'na kadar sürecek dönem)", kaynak:"standart akademik/ansiklopedik (Belgrad Muharebesi, 16 Ağustos 1717 — bazı kaynaklarda 18 Ağustos teslim) — TDV kapsam dışı, gün ayrıca doğrulanmalı. NOT: bu pencere künyenin kendi ozet alanında '1717-1738 Avusturya işgali ayrıca modellenmiş' diye anılıyor; bu iki satır o modellemeyle ÇAKIŞMASIN diye HARITA-VERI/UYGULA kontrol etmeli" },

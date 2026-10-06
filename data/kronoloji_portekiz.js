@@ -204,7 +204,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1510-11-25", b:"Goa'nın fethi — Estado da Índia'nın başkenti", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Goa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Afonso de Albuquerque, Bicapur Sultanlığı'ndan Goa'yı ele geçirdi; şehir kısa sürede Portekiz'in Asya'daki bütün topraklarının (Estado da Índia) başkenti ve dört buçuk asır sürecek bir sömürge merkezi oldu. Goa'nın limanı ve tersanesi, Hint Okyanusu filolarının ana üssüne dönüştü.",
-  kaynak:"TDV `portekiz`: \"1510: Goa ele geçirildi\"" },
+  kaynak:"TDV `portekiz`: \"Goa (1510), Malay/Malezya (1511), Hürmüz, Diû (1515) ve Seylan (1517) gibi önemli ticaret merkezleri ve dolayısıyla büyük gelir getiren baharat ticareti ele geçirildi.\"" },
 
 { t:"1511-08-10", b:"Malaka'nın fethi — baharat yolunun boğazı ele geçirildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Malaka",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
@@ -234,7 +234,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1517-01-01", b:"Seylan'a ulaşıldı — tarçın adası", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:"Kolombo",
   etiket:["ticaret","toprak-kazanc","konu-askeri","konu-ekonomi"],
   d:"Portekiz gemileri Seylan adasına ulaşıp Kotte Krallığı ile ticaret ayrıcalıkları içeren bir anlaşma yaptı; tarçın tekelini denetlemek için kısa süre sonra Colombo'da bir kale inşa edildi. Ada, Portekiz'in Hint Okyanusu ağının en doğu ucundaki kalıcı üssü oldu.",
-  kaynak:"TDV `portekiz`: \"1517: Seylan ele geçirildi\" — ⚠️ yerleşim kaydı yok, `yer_id` boş bırakıldı" },
+  kaynak:"TDV `portekiz`: \"Goa (1510), Malay/Malezya (1511), Hürmüz, Diû (1515) ve Seylan (1517) gibi önemli ticaret merkezleri ve dolayısıyla büyük gelir getiren baharat ticareti ele geçirildi.\" — ⚠️ yerleşim kaydı yok, `yer_id` boş bırakıldı" },
 
 { t:"1521-12-13", gun:"13 Aralık 1521 I. Manuel'in ölümü; III. João'nun aklamasyonu 19 Aralık", b:"I. Manuel öldü, III. João tahta çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
@@ -244,7 +244,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1525-01-01", b:"Selman Reis'in raporu — Kızıldeniz savunma planı", tur:"reform", onem:2, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri","konu-islahat"],
   d:"Artık Osmanlı hizmetinde olan Selman Reis, Kızıldeniz'i Portekiz baskısına karşı savunmak için ayrıntılı bir donanma ve tahkimat raporu sundu; rapor, sonraki on yılda inşa edilecek Süveyş tersanesi ve Habeş seferlerinin zeminini oluşturdu. Portekiz açısından bu, rakip cephenin artık sistemli bir devlet politikasına dönüştüğü anlamına geliyordu.",
-  kaynak:"TDV `portekiz`: \"1525: Selman Reis raporuyla konuya ışık tuttu\"" },
+  kaynak:"TDV `portekiz`: \"1525 tarihli raporuyla konuya ışık tutan ve bu tür yardımların sevkini yürütmüş olan Selman Reis, Osmanlılar’ı daha etkin bir siyasete teşvik etmekteydi.\"" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. OSMANLI-PORTEKİZ MÜCADELESİ VE ALTIN ÇAĞIN SONU (1534-1581)
@@ -273,12 +273,12 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1538-08-04", b:"Hadım Süleyman Paşa'nın Aden-Diu seferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Diu",
   etiket:["askeri","toprak-kayip","kusatma","konu-askeri"],
   d:"Osmanlı Hindistan seferi kapsamında Hadım Süleyman Paşa, Yemen'de Aden'i alıp oradan Hint Okyanusu'na açıldı; Gücerat Sultanlığı'nın çağrısıyla Diu'daki Portekiz kalesini kuşattı. Kuşatma başarısızlıkla sonuçlanıp Osmanlı donanması geri çekildiyse de sefer, Portekiz'e Hint Okyanusu'nun artık tartışmasız bir tekel olmadığını gösterdi.",
-  kaynak:"TDV `portekiz`: \"1538: Hadım Süleyman Paşa Aden'i ele geçirdi, Diû kuşatıldı\" — mevcut `data/devletler.js` kaydıyla tarih birebir korundu" },
+  kaynak:"TDV `portekiz`: \"1538’de Hadım Süleyman Paşa, Kızıldeniz’de hazırlanan donanmayla Hindistan üzerine giderken Aden ele geçirildi ve Portekizliler’in elindeki Diû kuşatıldı.\" — mevcut `data/devletler.js` kaydıyla tarih birebir korundu" },
 
 { t:"1541-01-01", b:"Portekiz'in Kızıldeniz saldırısı Osmanlı tarafından püskürtüldü", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Süveyş",
   etiket:["askeri","konu-askeri"],
   d:"Portekiz, Diu kuşatmasının intikamını almak için Kızıldeniz'in kuzeyine, Süveyş tersanesine yönelik bir baskın denedi; Osmanlı garnizonu saldırıyı geri püskürttü. Bu başarısızlık, Portekiz'in Kızıldeniz'in kuzey yarısına asla kalıcı olarak giremeyeceğini bir kez daha doğruladı.",
-  kaynak:"TDV `portekiz`: \"1541: Portekiz saldırısı Osmanlılar tarafından geri püskürtüldü\"" },
+  kaynak:"TDV `portekiz`: \"Bu arada 1541’de Süveyş’i ve buradaki Osmanlı filosunu hedef alan Portekiz saldırısı Osmanlılar’ca geri püskürtüldü.\"" },
 
 { t:"1541-04-10", b:"Cristóvão da Gama, Habeşistan'a yardım kuvveti çıkardı", tur:"askeri", onem:4, dunya:2, kapsam:"dis", yer_id:"Mozambik Adası",
   etiket:["askeri","din","ittifak","konu-askeri","konu-diplomasi","konu-din"],
@@ -520,6 +520,6 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1923-01-01", gun:"yıl özeti — olay değil; 29 Ekim 1923 atlas penceresinin sınır işaretidir, Portekiz'de o gün bir olay yoktur", b:"1923'te Portekiz — istikrarsız Birinci Cumhuriyet", ic_not_b:"eski b: Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["anayasa","konu-islahat","konu-hukuk"],
   d:"Atlas penceresi kapandığında Portekiz, on üç yılda kırktan fazla hükümet değişikliği yaşamış istikrarsız bir cumhuriyettir; ekonomik kriz ve siyasî kutuplaşma üç yıl sonra (1926) bir askerî darbeyle sonuçlanacak, bu da nihayetinde Salazar'ın otuz altı yıllık Estado Novo rejimine yol açacaktır.",
-  kaynak:"TDV `portekiz`: \"1926 (Mayıs): Askerî darbe, General Gomes da Costa iktidarı ele geçirdi\" — bu madde atlas penceresinin kapanışında durumu özetler, olayın kendisi pencere dışındadır" }
+  kaynak:"TDV `portekiz`: \"Devam eden siyasî istikrarsızlık ve toplumsal kargaşa nihayet İspanya’da olduğu gibi askerî bir darbeyle son buldu ve General Gomes da Costa idareyi ele geçirdi (Mayıs 1926).\" — bu madde atlas penceresinin kapanışında durumu özetler, olayın kendisi pencere dışındadır" }
 
 ];

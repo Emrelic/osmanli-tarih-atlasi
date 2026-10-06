@@ -474,7 +474,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["din","sosyal","siyaset","konu-siyasi","konu-din","konu-sosyal"],
   yer_id:"İstanbul",
   d:"Sultan II. Abdülaziz'in fermanıyla Fener Rum Patrikhânesi'nden bağımsız bir Bulgar Ortodoks Eksarhlığı kuruldu; bu kurumsal ayrılık, sonraki sekiz yıl içinde siyasi bağımsızlık talebinin kültürel-dinî zeminini hazırladı ve Balkan milliyetçiliğinde bir dönüm noktası oldu. Osmanlı yönetimi Rusya'yı dengelemek amacıyla bu adımı destekledi.",
-  kaynak:"TDV `bulgaristan`: '11 Mart 1870'te müstakil Bulgar kilisesi kuruldu.'" },
+  kaynak:"TDV `bulgaristan`: 'Ancak Gülhane Hatt-ı Hümâyunu’ndan da faydalanarak önce bir Bulgar papaz evi, 11 Mart 1870 tarihinde de müstakil Bulgar kilisesi kuruldu.'" },
 
 { t:"1873-02-18", b:"Vasil Levski Sofya'da idam edildi", tur:"isyan",
   onem:4, dunya:2, kapsam:"ic", etiket:["sosyal","siyaset","konu-siyasi","konu-kisiler","konu-isyan","konu-sosyal"],
@@ -611,7 +611,7 @@ window.KRONOLOJI_BALKAN = [
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Antlaşmayla Osmanlı Devleti, Midye-Enez hattının batısındaki neredeyse tüm Avrupa topraklarını kaybetti; Bulgaristan, Batı Trakya'daki (Kırcaali, Nevrekop gibi) ilçeleri de ilhak ederek yüzölçümünü 111.000 km²'ye çıkardı. Ancak müttefikler arasında paylaşım anlaşmazlığı hemen ardından İkinci Balkan Savaşı'na yol açacaktı.",
-  kaynak:"TDV `bulgaristan`: '30 Mayıs 1913: Londra Antlaşması imzalandı.'" },
+  kaynak:"TDV `bulgaristan`: '30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması Bulgaristan’la müttefiklerinin lehine, Osmanlı Devleti’nin aleyhine hükümler ihtiva ediyordu.'" },
 
 { t:"1913-06-29", b:"İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
