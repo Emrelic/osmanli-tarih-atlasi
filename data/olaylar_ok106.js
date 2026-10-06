@@ -61,7 +61,7 @@ window.OLAYLAR_OK106 = [
 
   { t:"1847-05-31", k:"antlasma", etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
     b:"II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
-    gun:"Mayıs 1847", yer:"Erzurum", yer_id:"Erzurum",
+    gun:"Mayıs 1847", yer:"Erzurum", yer_id:"Abâdân",
     d:"Yüzyılı aşkın süredir çözülemeyen Osmanlı-İran sınır anlaşmazlığı, İngiliz ve Rus arabuluculuğunda yürütülen uzun görüşmelerin ardından Erzurum'da imzalanan ikinci antlaşmayla düzenlendi. Şattülarap suyolunun tamamı Osmanlı'da kaldı; buna karşılık nehrin doğu yakasındaki yerleşimler -Muhammere limanı ve karşısındaki Abadan adası dâhil- Kaçarlar'a bırakıldı. Böylece Basra'nın 1546'daki ilhakından beri Osmanlı idaresinde sayılan Hûzistan kıyı şeridi üç yüz yıl sonra elden çıktı. Antlaşmanın çizdiği hattı yerinde tesbit etmek üzere kurulan sınır komisyonunun üyesi Mehmed Hurşid Paşa, 1848-1852 arasında bölgeyi dolaşarak Seyâhatnâme-i Hudûd'u kaleme aldı.",
     kaynak:"sattularap", duygu:["🤝","😔"] },
 

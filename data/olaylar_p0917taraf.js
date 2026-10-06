@@ -24,19 +24,19 @@ window.OLAYLAR_P0917TARAF = [
 
 { t:"1909-04-19", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
-  gun:"19 Nisan 1909", yer:"İstanbul", yer_id:"İstanbul", kisiler:"",
+  gun:"19 Nisan 1909", yer:"İstanbul", yer_id:"Sofya", kisiler:"",
   d:"Rusya'nın aracılığıyla İstanbul'da imzalanan protokolle Osmanlı Devleti, altı ay önce tek taraflı ilan edilen Bulgaristan bağımsızlığını resmen tanıdı. Böylece Istranca'daki eski Osmanlı-Bulgar sınırı hukuken de iki bağımsız devlet arasındaki hat oldu; bu kesim bugün de Türkiye-Bulgaristan sınırının parçasıdır.",
   kaynak:"Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9", duygu:["🤝"] },
 
 { t:"1913-11-17", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İstanbul Protokolü — Türk-İran sınırının tahdidi",
-  gun:"17 Kasım 1913", yer:"İstanbul", yer_id:"İstanbul", kisiler:"",
+  gun:"17 Kasım 1913", yer:"İstanbul", yer_id:"Kasr-ı Şîrîn", kisiler:"",
   d:"Osmanlı ve İran temsilcileri, İngiliz ve Rus elçilerinin gözetiminde, 1847 Erzurum Antlaşması'na dayanan Türk-İran sınırının tahdit protokolünü İstanbul'da imzaladı. Karma komisyon ertesi yıl Ekim'e kadar hattı Kotur çevresindeki kısa bir kesim dışında yerinde işaretledi. 1923'te Türkiye-İran sınırı olarak kalan bu hat 1932 ve 1937'de üç kesimde değiştirildi.",
   kaynak:"IBS No. 28 Iran-Turkey (1964) s.5-7 · H. Efe-M. Kızıl, ERZSOSDE X-I (2017) s.77-90", duygu:["🤝"] },
 
 { t:"1915-09-06", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
-  gun:"6 Eylül 1915 (24 Ağustos Jülyen)", yer:"Sofya", yer_id:"Sofya", kisiler:"",
+  gun:"6 Eylül 1915 (24 Ağustos Jülyen)", yer:"Sofya", yer_id:"Dimetoka", kisiler:"",
   d:"Bulgaristan'ın Osmanlı yanında savaşa girmesinden kısa süre önce Sofya'da imzalanan sözleşme, 1913 İstanbul Antlaşması'nın çizdiği Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca yeniden işaretlenip Lozan'da teyit edildi.",
   kaynak:"IBS No. 49 Bulgaria-Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'", duygu:["🤝"] },
 

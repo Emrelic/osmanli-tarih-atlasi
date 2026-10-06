@@ -266,7 +266,7 @@ window.OLAYLAR_EK8 = [
   "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
   "gun": "3 Şubat 1830",
   "yer": "Londra",
-  "yer_id": "Londra",
+  "yer_id": "Andros",
   "kisiler": "II. Mahmud, Reşid Mehmed Paşa",
   "d": "İngiltere, Fransa ve Rusya'nın Londra'da imzaladığı protokol, Edirne Antlaşması'nın öngördüğü özerkliği aşarak Yunanistan'ı BAĞIMSIZ bir devlet olarak tanıdı. Hükümler: Mora yarımadası, Attika ve Eğriboz ile Kiklad adaları yeni devlete bırakıldı; sınır Arta-Volos hattında çizildi; Osmanlı Devleti'ne tazminat ödenmesi kararlaştırıldı; devletin yönetim biçimi 'bağımsız monarşi' olarak belirlendi. Bu, imparatorluktan kopan İLK bağımsız devlettir ve sonraki Balkan bağımsızlıklarının hukukî örneğini kurmuştur.",
   "kaynak": "yunanistan",

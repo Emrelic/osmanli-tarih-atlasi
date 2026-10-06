@@ -1547,7 +1547,9 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2262   # 1665 (görünür) → 2262 (görünür 1665 + maskeli 597), 6 Ekim 2026.
+BEKLENEN_2S_YALNIZ_TARAF = 2245   # 1665 (görünür) → 2262 (görünür 1665 + maskeli 597), 6 Ekim 2026.
+#   → 2245 (6 Ekim 2026, YERID-IMZA-1006 ile AYNI commit, §3.4③): imza yeri düzeltilen 17
+#     kırılma yalnız-taraftan YER koluna geçti — görünür 1665→1648 · maskeli 597 · toplam 2245.
 #   🔴 BU EN BÜYÜK TEK SIÇRAMA — ve niçin kabul edildiğini yazıyorum, çünkü yarın
 #   "neden bu kadar arttı" diye sorulacak.
 #   Saint-Germain md. 91 emanet künyesi (`itilaf-emaneti`) 16 Cisleithania kaydını
