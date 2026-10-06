@@ -1476,6 +1476,95 @@ def _2s_norm(s):
     return s.lower().strip()
 
 
+# 🆕 KELIME-CAKISMA-YER-1006 — büyük/küçük harfi KORUYAN norm. `_2s_norm` ile aynı
+#   dönüşüm, yalnız `lower()` YOK ⇒ iki metin karakter karakter hizalıdır (uzunluk eşit
+#   değilse çağıran eski davranışa düşer). Niçin: `_2s_norm` büyük harfi silince özel ad
+#   ile sıradan kelime ayırt edilemiyordu — "1351'den beri" kelimesi `Beri` yerleşimini,
+#   "Ermenistan'a karşı" `Karşi (Nahşeb)`yi SAHTE YER kapanışıyla kapatıyordu (ölçüldü,
+#   `denetim/KELIME-CAKISMA-YER-1006.md`).
+_2S_KORU = str.maketrans({
+    "İ": "I", "ı": "i", "Ş": "S", "ş": "s", "Ğ": "G", "ğ": "g",
+    "Ü": "U", "ü": "u", "Ö": "O", "ö": "o", "Ç": "C", "ç": "c",
+    "Â": "A", "â": "a", "Î": "I", "î": "i", "Û": "U", "û": "u",
+    "’": "'", "‘": "'", "”": '"', "“": '"', "–": "-", "—": "-",
+})
+
+# 🆕 KELIME-CAKISMA-YER-1006 — adı aynı zamanda BAŞKA BİR ŞEYİN de büyük harfle yazılan
+#   adı olan yerleşimler (norm kök). Büyük harf şartı bunları AYIRMAZ; ölçülen vakalar:
+#     buna      ← "… antlaşması yaptı. Buna tepki gösteren Rabih …" (cümle başı zamir)
+#     ordu      ← "Kızıl Ordu Azerbaycan'ı işgal etti" (ordu, Ordu şehri DEĞİL)
+#     cotegipe  ← "1872 Loizaga-Cotegipe Antlaşması" (kişi/antlaşma adı)
+#   Bu köklerin KÖK yolu yalnız maddenin `yer` ALANINDA geçerlidir (o alan yer listesi
+#   taşır); `yer_id` ve merkez yolları etkilenmez. BEDELİ ölçülür: gövdede "Ordu'yu aldı"
+#   artık kök yoluyla kapatmaz (bugün Ordu'nun gerçek kapanışı `yer_id` yolundan — ölçüldü).
+#   Liste kapalıdır: yeni üye ancak BÜYÜK HARF şartının ayıramadığı, ölçülmüş bir sahte
+#   kapanışla girer (`§3.4`: en iyi istisna yazılmayandır). `beri`/`karsi` bu yüzden
+#   listede DEĞİL: ölçülen sahteleri küçük harfliydi, büyük harf şartı yetiyor.
+_2S_ES_AD = frozenset({"buna", "cotegipe", "ordu"})
+
+# 🆕 KELIME-CAKISMA-YER-1006b — EŞ-AD MUAFİYETİ SESSİZ OLMAZ (koordinatör şartı ③, D225).
+#   `_2S_ES_AD` kökü maddede ÖZEL AD olarak (büyük harfle) geçip de YER kolunu muafiyet
+#   yüzünden kapatamadığında birim ADIYLA bu kovaya düşer:
+#     TARAF-KAPATTI · birim TARAF koluyla zaten kapalı — sayılır, basılır, hüküm değişmez
+#     OLCULEMEDI    · başka hiçbir kol kapatmıyor ⇒ birim "açık" da "kapalı" da SAYILMAZ:
+#                     `eksik`e girmez (2s AÇIK'ı büyütmez), kola sayılmaz (2sk'yı büyütmez),
+#                     `olculemedi()` ile hükme girer ⇒ denetle.py ÇIKIŞ 2. "Ordu'yu aldı"
+#                     diyen gerçek bir madde bu yoldan GÖRÜNÜR — sessizce açık kalmaz.
+#   Kayıt: (tarih, yerleşim, durum, madde başlığı). `degismez2(yer_sarti=True)` sıfırlar.
+ES_AD_MUAF_2S = []
+
+
+def _2s_es_ad_gecer(o, ad, kok):
+    """Eş-ad kökü maddede özel ad olarak geçiyor ama `yer` alanında / `yer_id`de DEĞİL mi?
+    (= muafiyet bu maddeyi YER kolundan düşürdü)."""
+    if kok not in _2S_ES_AD:
+        return False
+    if (o.get("yer_id") and o["yer_id"] == ad) or _2s_gecer(o.get("nrm_yer", ""), kok):
+        return False
+    return _2s_ozel_ad_gecer(o, kok, ad)
+
+
+def _2s_es_ad_rapor():
+    """2sk satırlarının altına EŞ-AD kovasını basar; OLCULEMEDI varsa hükme sokar."""
+    olc = [k for k in ES_AD_MUAF_2S if k[2] == "OLCULEMEDI"]
+    trf = [k for k in ES_AD_MUAF_2S if k[2] == "TARAF-KAPATTI"]
+    print(f"            EŞ-AD  YER kolundan MUAF (`_2S_ES_AD`): {len(ES_AD_MUAF_2S)} birim "
+          f"· TARAF-KAPATTI {len(trf)} · ÖLÇÜLEMEDİ {len(olc)}")
+    for _d, _ad, _du, _b in ES_AD_MUAF_2S:
+        print(f"              {_du:13} {_d}  {_ad}  ← {(_b or '')[:60]}")
+    if olc:
+        olculemedi("Değişmez 2sk eş-ad",
+                   f"{len(olc)} birim eş-ad muafiyeti yüzünden YER kolunda sorulamadı: "
+                   + ", ".join(f"{a} {d}" for d, a, _, _ in olc[:4]))
+
+
+def _2s_kor(s):
+    """`_2s_norm`un büyük/küçük harfi KORUYAN ikizi (bkz. `_2S_KORU`)."""
+    import unicodedata as _u
+    if not s:
+        return ""
+    s = s.translate(_2S_KORU)
+    s = _u.normalize("NFKD", s)
+    s = "".join(c for c in s if not _u.combining(c))
+    return s.strip()
+
+
+def _2s_ozel_ad_gecer(o, nrm_ad, ham_ad):
+    """YER kolu kök yolu: ad kelime sınırıyla geçiyor VE ham metinde BÜYÜK harfle başlıyor mu?
+    Resmî adı küçük harfle başlayan yerleşimde (`el-…`, `de …`) harf şartı aranmaz.
+    `kor` yoksa ya da hizası bozuksa eski `_2s_gecer` davranışına düşer (ölçüm aracı uyumu)."""
+    if not nrm_ad or len(nrm_ad) < 3:
+        return False
+    nrm, kor = o.get("nrm", ""), o.get("kor")
+    if kor is None or len(kor) != len(nrm):
+        return _2s_gecer(nrm, nrm_ad)
+    kucuk_resmi = (ham_ad or "")[:1].islower()
+    for esl in re.finditer(r"(?<![a-z0-9])" + re.escape(nrm_ad) + r"(?![a-z0-9])", nrm):
+        if kucuk_resmi or kor[esl.start()].isupper():
+            return True
+    return False
+
+
 def _2s_gecer(nrm_metin, nrm_ad):
     """Kelime sınırıyla geçiyor mu? (norm düzleminde, 3 harften kısa ad sayılmaz)"""
     if not nrm_ad or len(nrm_ad) < 3:
@@ -1610,7 +1699,15 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2246   # 2247 → 2246, 6 Ekim akşamı: BANAT-TRIANON maddesi.
+BEKLENEN_2S_YALNIZ_TARAF = 2250   # 2246 → 2250, 6 Ekim: KELIME-CAKISMA-YER-1006c eşleştirici yaması (AYNI commit, §3.4②).
+#   +4 = 4 SAHTE YER kapanışının kalkması (KELİME-ÇAKIŞMASI 1006). Borç artışı DEĞİL, görünürlük kazancı.
+#   ADIYLA: Karşi (Nahşeb) 1920-09-02 ("Ermenistan'a karşı") · Buna (Bouna) 1897-01-01 (cümle başı
+#   zamir) · Ordu (Bayramlı) 1920-04-23 ("Kızıl Ordu") · Cotegipe 1889-11-15 ("Loizaga-Cotegipe
+#   Antlaşması") — dördü de TARAF koluyla kapalı; 2s AÇIK ve 4177 kapalı aynen. Taban makine/umit
+#   c53f5637: yamasız ÖLÇÜM 2246 (= tavan) · yamalı ÖLÇÜM 2250 — yazmadan hemen önce koşturuldu.
+#   📌 1006 ölçümünde (62e270eb) 5. sahte Beri 1406-10-21 idi; 07cb6062'den beri YER birimi değil —
+#   SEBEBİ ÖLÇÜLMEDİ. Eş-ad muafiyetinin kovası (`ES_AD_MUAF_2S`) 2sk satırının altında ADIYLA basılır.
+#   → 2246 (önceki değer) — 2247 → 2246, 6 Ekim akşamı: BANAT-TRIANON maddesi.
 # 🟢 İYİLEŞME, ve kalıbı kayda değer: tavan bir TAVAN ARİTMETİĞİYLE değil, EKSİK BİR
 #   MADDE YAZILARAK düştü. Lugos/Temeşvar/Yanova'nın 1920-06-04 birimleri "yalnız TARAF"
 #   kapanıyordu çünkü Banat'ın Trianon devrini ADIYLA anan bir madde YOKTU. Madde yazıldı,
@@ -1712,6 +1809,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
         KAPANIS_2S["acik_kovada"] = 0
         for _a in ("gun_yer", "gun_yalniz_taraf", "ocak1_yer", "ocak1_yalniz_taraf"):
             KAPANIS_2S[_a] = 0
+        ES_AD_MUAF_2S.clear()      # 🆕 KELIME-CAKISMA-YER-1006b
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
@@ -1720,6 +1818,11 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
             kayit_o["nrm"] = _2s_norm(" ".join([o.get("b") or "",
                                                 o.get("yer") or "",
                                                 o.get("d") or ""]))
+            # 🆕 KELIME-CAKISMA-YER-1006: `nrm`in harf-koruyan ikizi + yalnız `yer` alanı
+            kayit_o["kor"] = _2s_kor(" ".join([o.get("b") or "",
+                                               o.get("yer") or "",
+                                               o.get("d") or ""]))
+            kayit_o["nrm_yer"] = _2s_norm(o.get("yer") or "")
             kayit_o["nrm_b"] = _2s_norm(o.get("b") or "")
             # 🔴 `nrm_y` = BAŞLIK + `yer` — GÖVDE (`d`) YOK. Merkez (`m:`) kolu
             #   yalnız bunu okur; sebebi `_2s_merkez_aniyor`da.
@@ -1805,6 +1908,16 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                                        if _2s_tarafi_aniyor(o, sah)]
                         uyan = _yer_uyan + [o for o in _taraf_uyan
                                             if o not in _yer_uyan]
+                        # 🆕 KELIME-CAKISMA-YER-1006b: eş-ad muafiyeti SESSİZ OLMAZ
+                        if not _yer_uyan:
+                            _es = [o for o in yakinlar
+                                   if _2s_es_ad_gecer(o, ad, Y_KOK.get(ad, ""))]
+                            if _es:
+                                ES_AD_MUAF_2S.append(
+                                    (d, ad, "TARAF-KAPATTI" if uyan else "OLCULEMEDI",
+                                     _es[0]["b"]))
+                                if not uyan:
+                                    continue   # ne eksik (AÇIK) ne kol (KAPALI)
                         if uyan:
                             secim_havuz += uyan
                             # 🔴 HENÜZ SAYMA: bu kırılma `eksik` yüzünden AÇIK
@@ -1837,6 +1950,10 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                             #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
                             for _k in _kol:
                                 KAPANIS_2S["maskeli_" + _k] += 1
+                    elif not secim_havuz:
+                        # 🆕 1006b: kırılmanın bütün birimleri eş-ad ÖLÇÜLEMEDİ ⇒ AÇIK'a
+                        #   yazılmaz, KAPANIŞ'a sayılmaz; kova + çıkış 2 görünür kılar.
+                        en_yakin, fark = min(yakinlar, key=lambda o: abs(o["g"] - gd)), 0
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
@@ -1922,7 +2039,13 @@ def _2s_yeri_aniyor(o, adlar, Y_KOK, Y_MERKEZ):
     if o.get("yer_id") and o["yer_id"] in adlar:
         return True
     for ad in adlar:
-        if _2s_gecer(o["nrm"], Y_KOK.get(ad, "")):
+        kok = Y_KOK.get(ad, "")
+        # 🆕 KELIME-CAKISMA-YER-1006: kök yolu ÖZEL AD olarak geçmeli (büyük harf);
+        #   eş adlı köklerde yalnız `yer` alanı sayılır (bkz. `_2S_ES_AD`).
+        if kok in _2S_ES_AD:
+            if _2s_gecer(o.get("nrm_yer", ""), kok):
+                return True
+        elif _2s_ozel_ad_gecer(o, kok, ad):
             return True
         ham_m, nrm_m = Y_MERKEZ.get(ad, ("", ""))
         if _2s_merkez_aniyor(o, ham_m, nrm_m):
@@ -6136,6 +6259,7 @@ def main():
           f" · maskeli YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}")
     print(f"            OCAK-1 YER {KAPANIS_2S['ocak1_yer']:5} · TARAF {KAPANIS_2S['ocak1_yalniz_taraf']:5}"
           f" · maske YOK (yıl-temsilî kova birim başına sayılır)")
+    _2s_es_ad_rapor()          # 🆕 KELIME-CAKISMA-YER-1006b
     _k_mask = KAPANIS_2S["acik_kovada"]
     if _k_mask:
         print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR "

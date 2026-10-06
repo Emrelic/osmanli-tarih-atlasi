@@ -1,4 +1,4 @@
-# ARAC-KELIME-CAKISMA-SINAV-1006 — Değişmez 2sk YER kolu eşleştiricisinin İKİ YÖNLÜ sınavı (SALT OKUR).
+# ARAC-KELIME-CAKISMA-SINAV-1006 (1006b: + EŞ-AD kovası soruları) — Değişmez 2sk YER kolu eşleştiricisinin İKİ YÖNLÜ sınavı (SALT OKUR).
 # Maddeler degismez2'nin kurduğu biçimde (nrm · kor · nrm_yer · nrm_y · yer_id) kurulur ve
 # denetle.py'nin KENDİ _2s_yeri_aniyor işlevine sorulur.
 #   SAHTE → kapanmamalı (bugünkü ölçülen 5 vaka + aynı sınıftan türevler)
@@ -63,11 +63,56 @@ SINAV = [
 SINAV[-1] = (True, "Hafik", madde(b="Sivas'ın alınışı"), "MERKEZ yolu (m:Sivas başlıkta) etkilenmez")
 
 hata = 0
+
+
+def kova_sinavi():
+    """1006b şartı ③: EŞ-AD muafiyeti SESSİZ OLMAZ — kova uçtan uca (degismez2 → rapor) dolup
+    BASILIYOR mu, ve kapatanı olmayan eş-ad birimi AÇIK'a da KAPALI'ya da değil ÖLÇÜLEMEDİ'ye mi
+    düşüyor? Sentetik iki kayıt: Ordu (yalnız eş-ad gövde anışı → ÖLÇÜLEMEDİ) ·
+    Buna (eş-ad anışı + TARAF başlıkta → TARAF-KAPATTI)."""
+    import io, contextlib
+    if not hasattr(D, "ES_AD_MUAF_2S"):
+        return [(False, "EŞ-AD kovası YOK (yama 1006b değil)")]
+    Y = [{"ad": "Ordu (Bayramlı)", "_kaynak": "sinav", "m": "", "lat": 41.0, "lon": 37.9,
+          "s": [{"f": "1400-01-01", "t": "1427-06-01", "d": "haciemir"},
+                {"f": "1427-06-01", "t": "1430-01-01", "d": "karaman"}]},
+         {"ad": "Buna (Bouna)", "_kaynak": "sinav", "m": "", "lat": 9.27, "lon": -3.0,
+          "s": [{"f": "1890-01-01", "t": "1897-03-01", "d": "kong"},
+                {"f": "1897-03-01", "t": "1900-01-01", "d": "fransa"}]}]
+    O = [{"t": "1427-06-05", "b": "Bir sınır olayı",
+          "d": "Hacıemîroğulları Ordu'yu terk etti.", "yer": ""},
+         {"t": "1897-03-03", "b": "Fransa himayesi ilan edildi",
+          "d": "Antlaşma yapıldı. Buna tepki gösteren Kong direndi.", "yer": ""}]
+    D.OLCULEMEDI_KOVA.clear()
+    kir, acik = D.degismez2(Y, O, ("s",), yer_sarti=True)
+    kova = {(k[1], k[2]) for k in D.ES_AD_MUAF_2S}
+    tampon = io.StringIO()
+    with contextlib.redirect_stdout(tampon):
+        D._2s_es_ad_rapor()
+    yazi = tampon.getvalue()
+    # yalnız SINANAN kırılmanın günü (sentetik kaydın öteki uçlarında madde yok — onlar AÇIK, beklenir)
+    acik_adlar = {a for d, _, adl, _, _ in acik if str(d) == "1427-06-01" for a in adl}
+    return [
+        (("Ordu (Bayramlı)", "OLCULEMEDI") in kova, "KOVA: gövdede 'Ordu'yu' + kapatan yok ⇒ OLCULEMEDI"),
+        ("Ordu (Bayramlı)" not in acik_adlar, "KOVA: ÖLÇÜLEMEDİ birim 1427-06-01 kırılmasında 2s AÇIK listesine YAZILMIYOR"),
+        (("Buna (Bouna)", "TARAF-KAPATTI") in kova, "KOVA: eş-ad anışı + TARAF kapatıyor ⇒ TARAF-KAPATTI"),
+        ("EŞ-AD" in yazi and "ÖLÇÜLEMEDİ 1" in yazi and "Ordu (Bayramlı)" in yazi,
+         "KOVA BASILIYOR: rapor satırı + adıyla kayıt"),
+        (any(a == "Değişmez 2sk eş-ad" for a, _ in D.OLCULEMEDI_KOVA),
+         "KOVA HÜKME GİRİYOR: OLCULEMEDI_KOVA ⇒ denetle.py çıkış 2"),
+    ]
+
+
 for bek, ad, o, acik in SINAV:
     m = "Sivas" if ad == "Hafik" else ""
     sonuc = soru(ad, o, m)
     ok = sonuc == bek
     hata += not ok
     print(("✓" if ok else "✗"), "beklenen", "KAPANIR " if bek else "KAPANMAZ", "·", ad, "—", acik)
-print("yama %s · %d/%d geçti" % ("VAR" if hasattr(D, "_2s_kor") else "YOK", len(SINAV) - hata, len(SINAV)))
+toplam = len(SINAV)
+for ok, acik in kova_sinavi():
+    toplam += 1
+    hata += not ok
+    print(("✓" if ok else "✗"), acik)
+print("yama %s · %d/%d geçti" % ("VAR" if hasattr(D, "_2s_kor") else "YOK", toplam - hata, toplam))
 sys.exit(1 if hata else 0)

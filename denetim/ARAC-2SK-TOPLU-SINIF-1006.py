@@ -59,6 +59,9 @@ for o in O:
                "nrm_b": D._2s_norm(o.get("b") or ""),
                "nrm_y": D._2s_norm(" ".join([o.get("b") or "", o.get("yer") or ""])),
                "yer_id": o.get("yer_id") or "", "_o": o})
+    if hasattr(D, "_2s_kor"):  # KELIME-CAKISMA-YER-1006 yaması: degismez2 ile AYNI iki alan
+        ol[-1]["kor"] = D._2s_kor(" ".join([o.get("b") or "", o.get("yer") or "", o.get("d") or ""]))
+        ol[-1]["nrm_yer"] = D._2s_norm(o.get("yer") or "")
 Y_KOK = {y["ad"]: D._2s_norm(re.sub(r"\s*\(.*?\)", "", y["ad"] or "").strip()) for y in Yc}
 Y_MERKEZ = {y["ad"]: (y.get("m") or "", D._2s_norm(y.get("m") or "")) for y in Yc}
 Y_KAY = {y["ad"]: y.get("_kaynak") or "" for y in Yc}
