@@ -27,15 +27,15 @@
 window.OLAYLAR_P0049 = [
 
 // ── 0042/H-0004 — Katalan seferinin başı ───────────────────────────
-{ t:"1303-01-01", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+{ t:"1303-09-01", kesinlik:"ay", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Katalan Kumpanyası Bizans hizmetine girdi — Anadolu seferinin başlangıcı",
-  gun:"1303",
-  ic_not_gun:"TDV bizans yıl verir, gün vermez → YYYY-01-01 (§4). savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 DAYANAK DEĞİLDİR. ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
+  gun:"Eylül 1303",
+  ic_not_gun:"W52b/1006: AY kaynaklı (GEC + Bilkent tezi, kaynak alanında) → 1303-09-01 + kesinlik:ay; gün bulunamadı. Önceki not: TDV bizans yıl verir, gün vermez; savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 atlas kaydıdır, DAYANAK DEĞİLDİR (bu değişiklik onlara değil yukarıdaki iki kaynağa dayanır). ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
   yer:"İstanbul ve Batı Anadolu (Alaşehir)", yer_id:"Alaşehir",
   kisiler:"Roger de Flor, II. Andronikos",
   d:"Batı Anadolu'da Türk beylikleri karşısında toprak kaybeden Bizans İmparatorluğu, Roger de Flor kumandasındaki yaklaşık 6500 kişilik Katalan birliğini ücretli asker olarak hizmetine aldı. TDV'nin Bizans maddesine göre birlik 1303'te imparatorluğun yardımına geldi ve ertesi yıl Germiyanoğulları'nın kuşattığı Alaşehir'i kurtardı. Ancak kumpanya kısa sürede geçtiği yerleri yağmalamaya başladı; Bizans onu Trakya'ya geçirdi ve 1305'te Roger de Flor'u öldürttü.",
   ic_not_d:"TDV alasehir Katalanların Germiyan kuşatmasını kaldırdığını yazar, yıl vermez; TDV germiyanogullari aynı kuşatmayı 1306'ya koyar — TDV bizans'ın 1304'üyle iki yıllık ayrışma, bildirildi (§4⑥).",
-  kaynak:"bizans · alasehir" },
+  kaynak:"bizans · alasehir · Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\"" },
 
 // ── 0020/H-0013 — Ahıska ───────────────────────────────────────────
 { t:"1578-08-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],

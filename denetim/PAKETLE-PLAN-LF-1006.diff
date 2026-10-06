@@ -1,0 +1,14 @@
+diff --git a/arac/paketle.py b/arac/paketle.py
+index a9314712..d5b1a80b 100644
+--- a/arac/paketle.py
++++ b/arac/paketle.py
+@@ -267,6 +267,9 @@ def _kunye_yaz(paketler):
+     with io.open(KUNYE, "w", encoding="utf-8", newline="\n") as f:
+         json.dump({"surum": 1, "paketler": paketler}, f,
+                   ensure_ascii=False, indent=1)
++        # Dosya sonu yeni satırı: commitli künye onunla biter; json.dump koymaz ⇒
++        # her `yenile` 1 satır gürültü üretiyordu (6 Ekim 2026, UMIT-W56b).
++        f.write("\n")
+ 
+ 
+ def _kunye_oku():

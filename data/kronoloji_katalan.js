@@ -10,10 +10,11 @@
 //    yapılmadan da eşler. Dosyadaki dört addan TEK bağlanacak olan budur.
 window.KRONOLOJI_KATALAN = [
 
-{ t:"1303-09-01", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+{ t:"1303-09-01", kesinlik:"ay", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ittifak","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Sicilya savaşlarından işsiz kalan Roger de Flor kumandasındaki Katalan paralı askerleri, Türk beyliklerine karşı savaşmak üzere Bizans hizmetine alındı. Kumpanya Anadolu'da birkaç başarı kazandı ama disiplinsizliği ve talepleriyle imparatorluğu bunalttı. Ege tarihinin en tuhaf devletlerinden birinin çekirdeği budur: bir ŞİRKET olarak örgütlenmiş bir ordu.",
-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · gün yaklaşıktır · TDV kapsamıyor · önceki \"devletler.js künye kronolojisi\" atfı kaldırıldı: atlas kaydı dayanak olamaz (D207) ve o künye maddesi silindi (KRONO-CELISKI-1006 §2 #26) · daha önce künyede (devletler.js) 1303-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #26)" },
+  kaynak:"Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\" · TDV bizans (yalnız yıl)",
+  ic_not_gun:"Kaynaklar AY verir (Eylül 1303), gün vermez; -09-01 'ayın 1'i' DEĞİL, kesinlik:\"ay\" okunur (D213). Cümleler kumpanyanın İstanbul'a VARIŞINI tarihler; sözleşme daha önce (Ağustos 1302 Caltabellotta barışı sonrası) yapıldı. TDV `bizans` yalnız yıl verir: \"Bizans'ın yardımına koştu (1303)\" — önceki notun 'TDV kapsamıyor' ifadesi bu yüzden düşürüldü. Setton 1975 bu turda da OKUNAMADI — dayanak sayılmadı. Önceki nottan korunan: \"devletler.js künye kronolojisi\" atfı kaldırıldı (D207) ve künyedeki 1303-01-01 maddesi mükerrer olarak silindi (KRONO-CELISKI-1006 §2 #26). W52b/1006" },
 
 { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["kriz","askeri","isyan","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan"],
