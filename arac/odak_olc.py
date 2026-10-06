@@ -72,14 +72,31 @@ KULLANIM
     py arac/odak_olc.py --kusur         yalnız ÇÖZÜLMEYEN odakları bas
     py arac/odak_olc.py --dosya <ad>    tek dosya
     py arac/odak_olc.py --json <yol>    makine okunur döküm
-    py arac/odak_olc.py --tavan-yaz     bugünkü sayıyı TAVAN olarak dondur
+    py arac/odak_olc.py --tavan-yaz     bugünkü KİMLİK LİSTESİNİ dondur (yalnız İNER;
+                                        kapıda ✗ varken REDDEDER, evreni genişletmez)
+    py arac/odak_olc.py --tavan-yaz --ilk-dondurma
+                                        eski SAYI tavanını listeye çevir (ölçüm eski
+                                        sayılarla birebir tutmazsa REDDEDER)
+
+## 🆕 KİMLİK LİSTESİ (ODAK-KAPI-KIMLIK-1006)
+
+Tavan artık SAYI değil MADDE KİMLİĞİ LİSTESİdir (t | NFC(b), `odak_cozum.js`).
+Sayı tavanı dosyalar arası göçü göremiyordu — ölçüldü, iki temelde
+(`denetim/ODAK-KAPI-KORLUK-1006.md`): bir dosyadaki gerileme, başka bir
+dosyadan çıkan maddeyle 1'e 1 sıfırlanıyor, ihlal False dönüyordu.
+"→yabancı" de dosya adından değil maddenin GÖRÜNDÜĞÜ künye sekmesinden
+okunur (SEKME SESSİZ); `olaylar*` dışındaki maddeler Osmanlı kutusuna
+uçmaz, sekmede açılır (app.js `maddeAc`). Sınav, iki yönde:
+`py denetim/ODAK-KAPI-KIMLIK-SINAV-1006.py`.
 """
+import hashlib
 import io
 import json
 import os
 import subprocess
 import sys
 import tempfile
+from collections import Counter
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
@@ -175,12 +192,70 @@ def tavan_oku():
         return None
 
 
+def _sha8(k):
+    """`odak_cozum.js` `ozet8` ile BİREBİR (sha1, ilk 8 hex)."""
+    return hashlib.sha1(k.encode("utf-8")).hexdigest()[:8]
+
+
+def kimlik_ozetle(D):
+    """Döküm → KİMLİK kovaları (ODAK-KAPI-KIMLIK-1006). Hepsi ÇOKLU KÜMEdir.
+
+    Dönüş sözlüğü:
+      odaksiz      Counter{k}              ODAKSIZ maddeler (bütün dosyalar)
+      sessiz       Counter{(k, kunye)}     sekme dalında kamera KIPIRDAMIYOR
+      yab_beyanli  Counter{k}              `olaylar*` DIŞINDAKİ BEYANLI maddeler
+      cek_beyanli  Counter{k}              `olaylar*` İÇİNDEKİ BEYANLI maddeler
+      dosya        {k: set(dosya)}         kimliğin BUGÜN durduğu dosyalar
+      sekme_olculemedi  int                sekme sınıfı ölçülemeyen çift
+      hata         [dosya]                 ayrıştırılamayan dosyalar
+      ozet         set(sha8)               bütün maddelerin evren özeti
+    """
+    od, ss, yb, cb = Counter(), Counter(), Counter(), Counter()
+    yer = {}
+    hata, olcm, ozet = [], 0, set()
+    for d in D.get("dosyalar", []):
+        if d.get("hata"):
+            hata.append(d["dosya"])
+            continue
+        ad = d["dosya"]
+        cek = ad.startswith("olaylar")
+        for x in d.get("odaksiz") or []:
+            od[x["k"]] += 1
+            yer.setdefault(x["k"], set()).add(ad)
+        for x in d.get("sekme_sessiz") or []:
+            ss[(x["k"], x["kunye"])] += 1
+            yer.setdefault(x["k"], set()).add(ad)
+        for x in d.get("beyanli") or []:
+            (cb if cek else yb)[x["k"]] += 1
+            yer.setdefault(x["k"], set()).add(ad)
+        olcm += (d.get("sekme") or {}).get("OLCULEMEDI", 0)
+        ozet.update(d.get("k8") or [])
+    return {"odaksiz": od, "sessiz": ss, "yab_beyanli": yb, "cek_beyanli": cb,
+            "dosya": yer, "sekme_olculemedi": olcm, "hata": hata, "ozet": ozet}
+
+
+def _sayac(liste, anahtar):
+    return Counter(anahtar(x) for x in (liste or []))
+
+
+def _kisa(k, n=70):
+    return k if len(k) <= n else k[:n - 1] + "…"
+
+
 def kapi_olcumu():
     """🔴 `denetle_yayin.py` BUNU çağırır. Dönüş:
 
         {"ihlal": bool, "satirlar": [str, …]}
 
     `ihlal` True olur ise yayın kapısı çıkış 1 verir. ÖLÇÜLEMEDİ de İHLALDİR.
+
+    🆕 ODAK-KAPI-KIMLIK-1006 — ölçüt SAYI değil MADDE KİMLİĞİ LİSTESİ.
+    Sayı tavanı dosyalar arası göçü göremiyordu (ölçüldü, iki temelde:
+    `denetim/ODAK-KAPI-KORLUK-1006.md`): bir dosyadaki gerileme, başka bir
+    dosyadan çıkan bir maddeyle 1'e 1 SIFIRLANIYORDU ve ihlal False dönüyordu;
+    taşınan beyanlı kusur ise "yeni" diye ötüyordu. `§3.4 ⑤`: istisna listesi
+    tavan ailesidir — ve TAVANIN KENDİSİ de liste olmalıydı.
+    Kimlik `odak_cozum.js`te üretilir (t | NFC(b)); burada yalnız karşılaştırılır.
     """
     sat = []
     D = olc()
@@ -188,22 +263,38 @@ def kapi_olcumu():
         return {"ihlal": True,
                 "satirlar": ["✗  odak nöbetçisi ÖLÇEMEDİ: %s" % D["hata"][:90]]}
     T, beyan_yab, kusur = ozetle(D)
+    K = kimlik_ozetle(D)
     ihlal = False
 
-    # ① kırık atıf — YENİSİNE 0 TOLERANS, bilinen borç BEYANLA geçer
-    #
-    # 🔴 Niçin liste, niçin sayı değil: bir sayı tavanı *"bir kırık atıf
-    #    serbest"* der ve hangisi olduğunu söylemez ⇒ bilinen borç kapanırken
-    #    yenisi sessizce yerine geçebilir. Liste bunu imkânsız kılar: kimlik
-    #    eşleşmezse öter. (`CLAUDE.md §11`: boş küme her öngörüyü doğrular.)
-    tv = tavan_oku()
-    beyanli = set()
-    for x in ((tv or {}).get("bilinen_kusur") or []):
-        beyanli.add((x.get("dosya"), x.get("t"), x.get("alan"), x.get("deger")))
-    yeni = [x for x in kusur
-            if (x["dosya"], x["t"], x["alan"], x["deger"]) not in beyanli]
-    kapanan = beyanli - {(x["dosya"], x["t"], x["alan"], x["deger"]) for x in kusur}
+    # ⓪ ölçülemeyen — hiçbiri TEMİZ sayılmaz
+    if K["hata"]:
+        ihlal = True
+        sat.append("✗  ÖLÇÜLEMEDİ: %d kronoloji dosyası ayrıştırılamadı — maddeleri "
+                   "listeden 'çıkmış' görünürdü: %s" % (len(K["hata"]), ", ".join(K["hata"][:5])))
+    if K["sekme_olculemedi"]:
+        ihlal = True
+        sat.append("✗  ÖLÇÜLEMEDİ: %d sekme çiftinin sınıfı ölçülemedi "
+                   "(`data/devlet_harita_ust.js` yok/bozuk ya da `t` gün değil)"
+                   % K["sekme_olculemedi"])
 
+    tv = tavan_oku()
+    if tv is None:
+        return {"ihlal": True, "satirlar": sat + [
+            "✗  odak TAVANI yok/bozuk (%s) — `py arac/odak_olc.py --tavan-yaz --ilk-dondurma`"
+            % os.path.relpath(TAVAN_YOL, KOK)]}
+    if "odaksiz_kimlik" not in tv or "sekme_sessiz_kimlik" not in tv:
+        return {"ihlal": True, "satirlar": sat + [
+            "✗  odak tavanı ESKİ BİÇİMDE (sayı) — kimlik listesi yok. Sayı tavanı "
+            "göçü göremez; `--tavan-yaz --ilk-dondurma` ile listeye çevrilir."]}
+
+    # ① kırık atıf — YENİSİNE 0 TOLERANS; anahtar (kimlik, alan, değer), DOSYA YOK
+    #    (dosya anahtardaydı ⇒ taşınan beyanlı kusur hem "yeni" hem "kapandı"
+    #    basılıyordu: yanlış pozitif, KORLUK-1006 E4).
+    beyanli = {(x.get("k"), x.get("alan"), x.get("deger"))
+               for x in (tv.get("bilinen_kusur") or [])}
+    simdi = {(x.get("k"), x["alan"], x["deger"]) for x in kusur}
+    yeni = [x for x in kusur if (x.get("k"), x["alan"], x["deger"]) not in beyanli]
+    kapanan = beyanli - simdi
     if yeni:
         ihlal = True
         sat.append("✗  YENİ ÇÖZÜLMEYEN ODAK ATFI: %d kayıt — alan YAZILMIŞ, "
@@ -219,76 +310,236 @@ def kapi_olcumu():
                    % ("  (beyanlı bilinen borç: %d)" % len(beyanli) if beyanli else ""))
     if kapanan:
         sat.append("✓  beyanlı borç KAPANDI: %d — tavandan düşürülmeli "
-                   "(`--tavan-yaz`)" % len(kapanan))
+                   "(`--tavan-yaz`): %s" % (len(kapanan), "; ".join(
+                       "%s %s" % (_kisa(k or "?", 40), a) for k, a, _ in sorted(kapanan, key=str)[:3])))
 
-    # ② tavan — yalnız GERİLEME bloke eder
-    if tv is None:
+    # ② tavan sağlaması — sayı ile liste AYNI şeyi söylemeli (elle düzenleme sezici)
+    for sayi, liste, ad in (("odaksiz", "odaksiz_kimlik", "ODAKSIZ"),
+                            ("sekme_sessiz", "sekme_sessiz_kimlik", "SEKME SESSİZ"),
+                            ("beyanli_yabanci", "yabanci_beyanli_kimlik", "BEYANLI→yabancı"),
+                            ("beyanli_cekirdek", "cekirdek_beyanli_kimlik", "BEYANLI çekirdek")):
+        if tv.get(sayi) is not None and tv.get(liste) is not None \
+                and tv[sayi] != len(tv[liste]):
+            ihlal = True
+            sat.append("✗  tavan TUTARSIZ: `%s` = %s ama `%s` %d kimlik — sayı elle "
+                       "düzenlenmiş olabilir; liste OTORİTEDİR" % (sayi, tv[sayi], liste,
+                                                                 len(tv[liste])))
+
+    evren = set(tv.get("evren") or [])
+    ev_ozet = tv.get("evren_ozet") or ""
+    ev_ozet = {ev_ozet[i:i + 8] for i in range(0, len(ev_ozet), 8)}
+    simdi_yer = K["dosya"]
+
+    def eski_yer(liste):
+        y = {}
+        for x in liste or []:
+            y.setdefault(x["k"], set()).add(x.get("d"))
+        return y
+
+    # ③ ODAKSIZ — kimlik listesi. Kova: tavan (evren dosyaları) + YENİ KAPSAM
+    t_od = _sayac(tv.get("odaksiz_kimlik"), lambda x: x["k"])
+    t_yk = _sayac(tv.get("yeni_kapsam_kimlik"), lambda x: x["k"])
+    c_od = K["odaksiz"]
+    artan = c_od - (t_od + t_yk)
+    geri, ykap = [], []
+    for k, n in sorted(artan.items()):
+        dosyalar = simdi_yer.get(k, set())
+        # VARDI ⇒ bu madde dondurma anında bir yerdeydi: odağı düştü ya da
+        #          bozulup taşındı. Taşınmak GERİLEMEYİ yeni kapsama ÇEVİRMEZ.
+        # Eski dosyada yeni madde ⇒ odaksız eklendi.
+        if _sha8(k) in ev_ozet or (dosyalar & evren) or not evren:
+            geri.extend([(k, dosyalar)] * n)
+        else:
+            ykap.extend([(k, dosyalar)] * n)
+    iyi = t_od - c_od
+    yk_kapandi = t_yk - c_od
+    ey = eski_yer(list(tv.get("odaksiz_kimlik") or []) + list(tv.get("yeni_kapsam_kimlik") or []))
+    tasindi = [k for k in (t_od + t_yk) & c_od
+               if simdi_yer.get(k, set()) and ey.get(k) and simdi_yer[k] != ey[k]]
+    if geri:
         ihlal = True
-        sat.append("✗  odak TAVANI yok (%s) — `py arac/odak_olc.py --tavan-yaz`"
-                   % os.path.relpath(TAVAN_YOL, KOK))
+        sat.append("✗  ODAKSIZ GERİLEDİ: %d YENİ odaksız kimlik (tavan %d kimlik) — dosyası "
+                   "ne olursa olsun:" % (len(geri), len(tv.get("odaksiz_kimlik") or [])))
+        for k, ds in geri[:10]:
+            sat.append("     %-70s  %s" % (_kisa(k), ",".join(sorted(ds))[:40]))
+        if len(geri) > 10:
+            sat.append("     … %d kimlik daha (`--ayrinti`)" % (len(geri) - 10))
     else:
-        # ─── ② a) YENİ KAPSAM — tavanın EVRENİ dışındaki dosyalar ──────────
-        #
-        # 🔴 NİÇİN (ölçüldü 1 Ekim 2026): tavan `84f00761`de (30 Eylül 02:44)
-        #    odaksiz=480 · madde=8175 ile donduruldu. O geceden sonra 1281
-        #    öncesi kampanyası 6 YENİ dosya doğurdu ve madde 10.004'e çıktı.
-        #    Kapı "ODAKSIZ GERİLEDİ: 725 > 480 (+245)" dedi ve YAYINI BLOKE
-        #    ETTİ. Ayrıştırıldığında çıkan sayı şuydu:
-        #        tavan zamanı VAR OLAN 38 dosya : odaksız 480  (TAM TAVAN)
-        #        tavandan SONRA DOĞAN  6 dosya  : odaksız 245
-        #    ⇒ GERÇEK GERİLEME SIFIR. Aşımın %100'ü yeni kapsamdı ve DOĞRU
-        #      bir veri eklemesi yayını bloke ediyordu.
-        #
-        # 📌 Bu, `denetle.py`nin Değişmez 8 DEFTERİNİN birebir aynı sorunu ve
-        #    aynı çaresi — orada da yorum şöyle der: "her yeni D kaydı tavanı
-        #    delerdi ve DOĞRU bir veri eklemesi yayını bloke ederdi. Kova
-        #    sessiz DEĞİLDİR." Burada da sessiz değil: adıyla ve sayısıyla basılır.
-        #
-        # 🔴 VE BU BİR TAVAN YÜKSELTMESİ DEĞİLDİR. Yükseltmek bir AF olurdu
-        #    (480'i 725 yapmak, var olan dosyalarda 245 kalemlik gerilemeyi de
-        #    görünmez kılardı). Burada tavan 480'de DURUYOR ve kendi evreninde
-        #    tam duyarlılıkla ötmeye devam ediyor; yeni dosyalar AYRI kovada.
-        #
-        # ⚠️ `evren` YOKSA eski davranış sürer (bütün dosyalar tavana sayılır) —
-        #    sessizce muaf hâle DÜŞMEZ. Muafiyet ancak evren YAZILIYSA olur.
-        evren = tv.get("evren")
-        yeni_kapsam = []
-        if evren:
-            _e = set(evren)
-            for d in D["dosyalar"]:
-                od = (d.get("sinif") or {}).get("ODAKSIZ") or 0
-                if d["dosya"] not in _e and od:
-                    yeni_kapsam.append((d["dosya"], d.get("madde") or 0, od))
-            yeni_kapsam.sort(key=lambda r: -r[2])
+        sat.append("✓  ODAKSIZ: yeni odaksız kimlik 0 (tavan %d kimlik · bugün %d · "
+                   "yeni kapsam listesi %d)" % (sum(t_od.values()), sum(c_od.values()),
+                                                 sum(t_yk.values())))
+    if ykap:
+        sat.append("ⓘ  YENİ KAPSAM: dondurmada OLMAYAN %d madde, tavan evreni DIŞINDAKİ "
+                   "dosyalarda odaksız — BLOKE ETMEZ, adıyla basılır:" % len(ykap))
+        for k, ds in ykap[:8]:
+            sat.append("     %-70s  %s" % (_kisa(k), ",".join(sorted(ds))[:40]))
+        if len(ykap) > 8:
+            sat.append("     … %d daha · ⇒ İNCELE, odak yaz, sonra `--tavan-yaz`" % (len(ykap) - 8))
+    if iyi:
+        sat.append("✓  ODAKSIZ İYİLEŞME: %d kimlik tavandan çıktı — tavan indirilmeli "
+                   "(`--tavan-yaz`): %s" % (sum(iyi.values()), "; ".join(
+                       _kisa(k, 50) for k in sorted(iyi)[:3])))
+    if yk_kapandi:
+        sat.append("ⓘ  yeni kapsam listesinden %d kimlik kapandı" % sum(yk_kapandi.values()))
+    if tasindi:
+        sat.append("ⓘ  TAŞINDI: %d odaksız kimlik dosya değiştirdi — kova AYNI, "
+                   "hüküm değişmez: %s" % (len(tasindi), "; ".join(_kisa(k, 50) for k in tasindi[:3])))
 
-        yk_od = sum(r[2] for r in yeni_kapsam)
-        if yeni_kapsam:
-            sat.append("ⓘ  YENİ KAPSAM: tavanın evreninde OLMAYAN %d dosyada %d "
-                       "odaksız — TAVANA KATILMADI (Değişmez 8 defter deseni)"
-                       % (len(yeni_kapsam), yk_od))
-            for ad, md, od in yeni_kapsam[:8]:
-                sat.append("     %-44s %4d/%-4d madde  %%%.0f"
-                           % (ad[:44], od, md, 100.0 * od / md if md else 0))
-            if len(yeni_kapsam) > 8:
-                sat.append("     … %d dosya daha" % (len(yeni_kapsam) - 8))
-            sat.append("     ⇒ İNCELE, odak yaz, sonra `--tavan-yaz` ile evrene al.")
+    # ④ SEKME SESSİZ — "→yabancı" artık DOSYA ADINDAN DEĞİL, maddenin GÖRÜNDÜĞÜ
+    #    künye sekmesinden okunur (`odak_cozum.js` ⑥b, app.js `maddeAc`).
+    #    `olaylar*` dışındaki her madde YALNIZ künye sekmesinde açılır ve
+    #    `haritayiOlayaGotur`a yalnız `yer_id` çözülürse gider (app.js 15154) ⇒
+    #    eski "BEYANLI→yabancı = Osmanlı kutusuna uçar" sayısı o maddeler için
+    #    ölçülen davranış DEĞİLDİ. Gerçek kusur: kamera kıpırdamıyor (SESSİZ).
+    t_ss = _sayac(tv.get("sekme_sessiz_kimlik"), lambda x: (x["k"], x["kunye"]))
+    c_ss = K["sessiz"]
+    s_yeni = c_ss - t_ss
+    s_iyi = t_ss - c_ss
+    if s_yeni:
+        ihlal = True
+        sat.append("✗  SEKME SESSİZ GERİLEDİ: %d YENİ (madde × künye) çifti — künye "
+                   "sekmesinde kamera KIPIRDAMIYOR:" % sum(s_yeni.values()))
+        for (k, kid) in sorted(s_yeni)[:10]:
+            sat.append("     %-60s  sekme %s" % (_kisa(k, 60), kid))
+    else:
+        sat.append("✓  SEKME SESSİZ: yeni çift 0 (tavan %d çift · bugün %d)"
+                   % (sum(t_ss.values()), sum(c_ss.values())))
+    if s_iyi:
+        sat.append("✓  SEKME SESSİZ İYİLEŞME: %d çift kapandı — tavan indirilmeli "
+                   "(`--tavan-yaz`)" % sum(s_iyi.values()))
 
-        for ad, simdi, etiket in (("odaksiz", T["ODAKSIZ"] - yk_od, "ODAKSIZ"),
-                                  ("beyanli_yabanci", beyan_yab, "BEYANLI→yabancı")):
-            t = tv.get(ad)
-            if t is None:
-                ihlal = True
-                sat.append("✗  odak tavanında `%s` yok — tavanı yeniden yaz" % ad)
-            elif simdi > t:
-                ihlal = True
-                sat.append("✗  %s GERİLEDİ: %d > tavan %d (+%d)"
-                           % (etiket, simdi, t, simdi - t))
-            elif simdi < t:
-                sat.append("✓  %s %d (tavan %d — %d İYİLEŞME, tavan indirilmeli: "
-                           "`--tavan-yaz`)" % (etiket, simdi, t, t - simdi))
-            else:
-                sat.append("✓  %s %d (tavan %d)" % (etiket, simdi, t))
+    # ⑤ ÇEKİRDEĞE GÖÇ — yabancı BEYANLI bir madde `olaylar*`a taşınırsa sekme
+    #    dökümünden ÇIKAR (iyileşme gibi görünür) ama artık ana listede açılır
+    #    ve kamera OSMANLI kutusuna uçar (app.js 11835) — odaksızlıktan KÖTÜ.
+    #    KORLUK-1006 E3a/E3e'nin kaçış yolu buydu.
+    #    ⚠️ Çoklu küme FARKI: 52 dosyalar-arası ikiz grubunun bir kopyası
+    #       zaten çekirdekte olabilir — ölçülen şey ARTIŞTIR, varlık değil.
+    t_yb = _sayac(tv.get("yabanci_beyanli_kimlik"), lambda x: x["k"])
+    t_cb = _sayac(tv.get("cekirdek_beyanli_kimlik"), lambda x: x["k"])
+    goc = [k for k in (K["cek_beyanli"] - t_cb) if k in t_yb]
+    if goc:
+        ihlal = True
+        sat.append("✗  ÇEKİRDEĞE GÖÇ: %d yabancı BEYANLI madde `olaylar*`a taşındı — kamera "
+                   "artık OSMANLI kutusuna uçar:" % len(goc))
+        for k in sorted(goc)[:10]:
+            sat.append("     %-70s  %s" % (_kisa(k), ",".join(sorted(simdi_yer.get(k, ())))[:40]))
     return {"ihlal": ihlal, "satirlar": sat}
+
+
+def _json_yaz(tv):
+    """Tavanı yazar: kimlik listelerinin her öğesi TEK SATIR (diff okunur kalsın)."""
+    sat = ["{"]
+    anahtarlar = list(tv)
+    for i, k in enumerate(anahtarlar):
+        v = tv[k]
+        son = "" if i == len(anahtarlar) - 1 else ","
+        if isinstance(v, list) and v and isinstance(v[0], dict):
+            sat.append(" %s: [" % json.dumps(k, ensure_ascii=False))
+            for j, x in enumerate(v):
+                sat.append("  %s%s" % (json.dumps(x, ensure_ascii=False),
+                                       "" if j == len(v) - 1 else ","))
+            sat.append(" ]%s" % son)
+        else:
+            sat.append(" %s: %s%s" % (json.dumps(k, ensure_ascii=False),
+                                      json.dumps(v, ensure_ascii=False), son))
+    sat.append("}")
+    io.open(TAVAN_YOL, "w", encoding="utf-8", newline="\n").write("\n".join(sat) + "\n")
+
+
+def tavan_yaz(D, T, beyan_yab, kusur, ilk=False):
+    """Bugünün ölçümünü KİMLİK LİSTESİ olarak dondurur. Dönüş: çıkış kodu (0 yazıldı).
+
+    🔴 İKİ KİLİT (`§3.4`, `D255`: `--tavan-yaz` bir kez evreni genişletip
+       203 kusuru AFFETMİŞTİ):
+       ① Kapıda ✗ varken YAZMAZ — tavan yalnız İNER. Gerileme varken yazmak
+          onu affetmek olurdu. Gerekirse JSON elle, gerekçesiyle ve commit
+          mesajında beyanla değiştirilir.
+       ② `evren` (dosya kümesi) GENİŞLETİLMEZ — eski tavanınki korunur.
+    `--ilk-dondurma`: sayı biçimindeki eski tavanı listeye ÇEVİRİR. Yalnız
+       ölçüm eski sayılarla BİREBİR tutuyorsa yazar (`§3.4 ⓪`: tavan yazıldığı
+       anda ölçülür ve fark ADIYLA karşılaştırılır).
+    """
+    eski = tavan_oku() or {}
+    eski_bicim = "odaksiz_kimlik" not in eski
+    if ilk and not eski_bicim:
+        print("🔴 --ilk-dondurma: tavan ZATEN liste biçiminde — çevrilecek bir şey yok.")
+        return 2
+    if not ilk and eski_bicim:
+        print("🔴 tavan ESKİ biçimde (sayı). Önce `--tavan-yaz --ilk-dondurma`.")
+        return 2
+    if not ilk:
+        r = kapi_olcumu()
+        kirmizi = [s for s in r["satirlar"] if s.strip().startswith("✗")]
+        if kirmizi:
+            print("🔴 --tavan-yaz REDDEDİLDİ — kapıda ✗ var; tavan yalnız İNER:")
+            for s in kirmizi:
+                print("   " + s)
+            return 1
+    evren = eski.get("evren") or sorted(d["dosya"] for d in D["dosyalar"])
+    ev = set(evren)
+    K = kimlik_ozetle(D)
+    if K["hata"] or K["sekme_olculemedi"]:
+        print("🔴 ÖLÇÜLEMEDİ — ölçülemeyen ölçüm dondurulmaz: dosya hatası %s · sekme %d"
+              % (K["hata"], K["sekme_olculemedi"]))
+        return 2
+    od, yk, ss, yb, cb = [], [], [], [], []
+    for d in D["dosyalar"]:
+        if d.get("hata"):
+            continue
+        ad = d["dosya"]
+        for x in d.get("odaksiz") or []:
+            (od if ad in ev else yk).append({"k": x["k"], "d": ad})
+        for x in d.get("sekme_sessiz") or []:
+            ss.append({"k": x["k"], "kunye": x["kunye"], "d": ad})
+        for x in d.get("beyanli") or []:
+            (cb if ad.startswith("olaylar") else yb).append({"k": x["k"], "d": ad})
+    srt = lambda L: sorted(L, key=lambda x: (x["k"], x.get("kunye", ""), x["d"]))  # noqa: E731
+    if ilk:
+        fark = []
+        if len(od) != eski.get("odaksiz"):
+            fark.append("odaksiz: tavan %s · ölçüm %d" % (eski.get("odaksiz"), len(od)))
+        if len(yb) != eski.get("beyanli_yabanci"):
+            fark.append("beyanli_yabanci: tavan %s · ölçüm %d"
+                        % (eski.get("beyanli_yabanci"), len(yb)))
+        if fark:
+            print("🔴 --ilk-dondurma REDDEDİLDİ — ölçüm eski sayı tavanıyla TUTMUYOR "
+                  "(önce farkı adıyla çöz, `§3.4 ⓪`):")
+            for f in fark:
+                print("   " + f)
+            return 1
+    tv = dict(eski)
+    for k in ("beyanli_toplam",):
+        tv.pop(k, None)
+    tv.update({
+        "odaksiz": len(od), "odaksiz_kimlik": srt(od),
+        "yeni_kapsam_kimlik": srt(yk),
+        "sekme_sessiz": len(ss), "sekme_sessiz_kimlik": srt(ss),
+        "beyanli_yabanci": len(yb), "yabanci_beyanli_kimlik": srt(yb),
+        "beyanli_cekirdek": len(cb), "cekirdek_beyanli_kimlik": srt(cb),
+        "konumlu": T["KONUMLU"], "kutulu": T["KUTULU"], "madde": sum(T.values()),
+        "bilinen_kusur": [{"k": x["k"], "t": x["t"], "alan": x["alan"],
+                           "deger": x["deger"], "niye": x["niye"]} for x in kusur],
+        "evren": evren,
+        "evren_ozet": "".join(sorted(K["ozet"])),
+        "kimlik_not": (
+            "ODAK-KAPI-KIMLIK-1006: tavan SAYI degil KIMLIK LISTESI. Kimlik = t | NFC(b) "
+            "(odak_cozum.js `kimlik`). Sayilar (`odaksiz`, `sekme_sessiz`, `beyanli_*`) "
+            "listenin uzunlugudur ve SAGLAMA icin durur: elle degistirilirse kapi oter. "
+            "`d` alani BILGIDIR, anahtar degildir: dosya degistiren kimlik TASINDI basilir, "
+            "otmez. `evren_ozet` dondurmada VAR olan butun maddelerin sha1[:8] ozeti: "
+            "bozulup yeni dosyaya tasinan madde YENI KAPSAM sayilmasin diye. "
+            "`yabanci_beyanli_kimlik` / `cekirdek_beyanli_kimlik` bir TAVAN degil GOC "
+            "bekcisidir: yabanci BEYANLI madde olaylar*'a tasinirsa kamera Osmanli "
+            "kutusuna ucar ve kapi oter. Kamera kusurunun olcusu artik `sekme_sessiz`dir "
+            "(maddenin GORUNDUGU kunye sekmesi), dosya adi degil."),
+    })
+    _json_yaz(tv)
+    print()
+    print("✓ TAVAN YAZILDI: %s" % os.path.relpath(TAVAN_YOL, KOK))
+    print("  odaksiz %d · yeni kapsam %d · sekme sessiz %d · yabancı beyanlı %d · "
+          "çekirdek beyanlı %d · bilinen kusur %d · evren özeti %d"
+          % (len(od), len(yk), len(ss), len(yb), len(cb), len(kusur), len(K["ozet"])))
+    return 0
 
 
 def main():
@@ -353,8 +604,11 @@ def main():
         print()
         print("🔴 ODAKSIZ %d — kamera KIPIRDAMIYOR (panel eksikliği YAZAR)."
               % T["ODAKSIZ"])
-        print("🔴 BEYANLI→yabancı %d — kamera OSMANLI kutusuna uçar."
+        print("🟡 BEYANLI→yabancı %d — DOSYA ADINA göre (`olaylar*` dışı). Bu maddeler"
               % beyan_yab)
+        print("   künye SEKMESİNDE açılır, Osmanlı kutusuna UÇMAZ (app.js `maddeAc`);")
+        print("   kamera kusurunun ölçüsü SEKME SESSİZ: %d (madde × künye) çifti."
+              % sum(len(d.get("sekme_sessiz") or []) for d in D["dosyalar"]))
         print("   Osmanlı çekirdeğinde kalan meşru beyan: %d"
               % (T["BEYANLI"] - beyan_yab))
         print("⇒ TOPLAM İŞ: %d madde (%.1f%%)" % (yuk_t, 100.0 * yuk_t / max(n, 1)))
@@ -378,34 +632,9 @@ def main():
         if tek:
             print("🔴 --tavan-yaz TEK DOSYAYLA yazılmaz — tavan BÜTÜN evrenin ölçümüdür.")
             return 2
-        tv = {"odaksiz": T["ODAKSIZ"], "beyanli_yabanci": beyan_yab,
-              "konumlu": T["KONUMLU"], "kutulu": T["KUTULU"],
-              "beyanli_toplam": T["BEYANLI"], "madde": sum(T.values()),
-              "bilinen_kusur": [{"dosya": x["dosya"], "t": x["t"],
-                                 "alan": x["alan"], "deger": x["deger"],
-                                 "niye": x["niye"]} for x in kusur],
-              # 🔴 EVREN — tavanin OLCULDUGU dosya kumesi. Tavan bir SAYI, evren
-              #    bir KUME (Degismez 8'in `hatlar` defteriyle birebir ayni
-              #    desen). Bu alan yazilmadan tavan, SONRADAN DOGAN her dogru
-              #    dosyayi "gerileme" sayar ve yayini bloke eder — 1 Ekim 2026'da
-              #    tam bu oldu: 6 yeni dosyanin 245 odaksizi, var olan 38
-              #    dosyanin TAM 480'inin ustune binip 725 > 480 dedi.
-              #    ⚠️ Evren yoksa kapi ESKI (katı) davranisa doner; muafiyet
-              #       ancak evren YAZILIYSA dogar — sessizce muaf olunmaz.
-              "evren": sorted(d["dosya"] for d in D["dosyalar"]),
-              "not": ("Tavan bir ONAY degil bir DONDURMADIR (Degismez 2s/8 ile ayni "
-                      "desen). Yalniz GERILEME yayin kapisini bloke eder; iyilesme "
-                      "olunca tavan --tavan-yaz ile INDIRILIR. bilinen_kusur bir "
-                      "SAYI degil LISTEdir: beyanli borc kapanirken yenisi sessizce "
-                      "yerine gecemez, kimlik eslesmezse oter. `evren` tavanin "
-                      "olculdugu DOSYA KUMESIDIR: dişindaki dosyalarin odaksizi "
-                      "YENI KAPSAM kovasina duser, tavana KATILMAZ ve yayini "
-                      "BLOKE ETMEZ — ama adiyla ve sayisiyla BASILIR.")}
-        io.open(TAVAN_YOL, "w", encoding="utf-8", newline="\n").write(
-            json.dumps(tv, ensure_ascii=False, indent=1) + "\n")
-        print()
-        print("✓ TAVAN YAZILDI: %s" % os.path.relpath(TAVAN_YOL, KOK))
-        print("  odaksiz %d · beyanli_yabanci %d" % (T["ODAKSIZ"], beyan_yab))
+        rc = tavan_yaz(D, T, beyan_yab, kusur, ilk="--ilk-dondurma" in sys.argv)
+        if rc:
+            return rc
 
     jy = _arg("--json")
     if jy:
