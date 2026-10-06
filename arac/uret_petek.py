@@ -2064,6 +2064,10 @@ if MOTOR_YURUYUS:
         #    "Bedel > eşik" sorusu "bedel/eşik > 1" sorusuyla AYNIDIR ve
         #    contourpy tek skaler seviye alır. Eşik sıfır olamaz (bütçe
         #    her hâlde pozitif), bölme güvenli.
+        # 🆕 P84-UFUK-BANT-KOD-1006 — bölmeden ÖNCEKİ alan saklanır: bant
+        #    eşikleri (aşağıda) ÖZEL hücrede (çöl kelepçesi · BTB) SABİT kalmalı,
+        #    normalleştirilmiş alanın katı alınırsa çöl de büyür (§ bant döngüsü).
+        _yr_F_ham = _yr_F
         _yr_F = (_yr_F / _YR_ESIK).astype(_np.float32)
         _YR_BUTCE_KONTUR = 1.0
     _yr_km2 = ((KV_ADIM * 111.32) ** 2
@@ -2083,7 +2087,7 @@ if MOTOR_YURUYUS:
     _yr_ust = float(_yr_pF.max()) + 1.0
     _yr_T = int(round(YURUYUS_KARO / KV_ADIM))
 
-    def _yr_kontur(seviye):
+    def _yr_kontur(seviye, _alan=None):
         """Verilen seviyeden UZAK olan bölgenin poligonları.
 
         🔴 DÖNGÜ İŞLEVE ALINDI ki AYNI KOD birden çok seviyede koşabilsin —
@@ -2093,18 +2097,19 @@ if MOTOR_YURUYUS:
         farklı kural uygular ve bunu hiçbir denetim sormaz.
         (`_kv_dijkstra`nın işlev hâline getirilme gerekçesinin aynısı.)
         """
+        _pF, _ust = (_yr_pF, _yr_ust) if _alan is None else _alan
         _out = []
         for _j0 in range(0, _kvny + 1, _yr_T):
             _j1 = min(_j0 + _yr_T, _kvny + 1)
             for _i0 in range(0, _kvnx + 1, _yr_T):
                 _i1 = min(_i0 + _yr_T, _kvnx + 1)
-                _sub = _yr_pF[_j0:_j1 + 1, _i0:_i1 + 1]
+                _sub = _pF[_j0:_j1 + 1, _i0:_i1 + 1]
                 if float(_sub.max()) <= seviye:
                     continue
                 _gen = _cp.contour_generator(_yr_px[_i0:_i1 + 1],
                                              _yr_py[_j0:_j1 + 1], _sub,
                                              fill_type=_cp.FillType.OuterOffset)
-                _pl, _ol = _gen.filled(seviye, _yr_ust)
+                _pl, _ol = _gen.filled(seviye, _ust)
                 for _pts, _ofs in zip(_pl, _ol):
                     _hl = [_pts[_ofs[_k]:_ofs[_k + 1]] for _k in range(len(_ofs) - 1)]
                     _hl = [_h for _h in _hl if len(_h) >= 4]
@@ -2160,16 +2165,36 @@ if MOTOR_YURUYUS:
             if abs(_bs - YURUYUS_SAAT) < 1e-9:
                 _YR_BANT_UZAK[_bs] = (_YR_UZAK, _YR_UZAK_AGAC)   # taban: yeniden hesaplama
                 continue
-            # Kelepçe açıkken alan zaten normalleştirilmiş; bant seviyesi de
-            # AYNI ölçekte olmalı, yoksa bant başka bir eşikten geçer.
-            _sv = (_bs / YURUYUS_SAAT) if _YR_ESIK is not None else (_bs * NEHIR_KM_SAAT)
-            _pl = _yr_kontur(_sv)
+            # 🔴 P84-UFUK-BANT-KOD-1006 (H-0020 ③④ · H-0002 ③) — ESKİ HÂL:
+            #    `_sv = _bs / YURUYUS_SAAT` NORMALLEŞTİRİLMİŞ alanın KATINI
+            #    alıyordu. Alan hücre başına `bedel / eşik` olduğu için kat ÖZEL
+            #    hücrenin eşiğini de büyütüyordu: çöl (eşik 56 sa) 7 günde
+            #    56×1,4 = 78,4 sa, 10 günde 56×2 = 112 sa oluyordu — Emre'nin
+            #    "çölün ufku 7 gün" kararı (UFUK-KELEPCE-0930 §2 seçenek a:
+            #    "kelepçe 7 günde SABİT") bantta ÇİĞNENİYORDU ve fazlayı yalnız
+            #    çöl tavanının 300 km diski saklıyordu. BTB hücresinde de `pay`
+            #    saçağı 1,4 / 2 katına çıkıyordu.
+            #    YENİ HÂL: genel hücrede eşik bandın kendisi (`_bs` saat), ÖZEL
+            #    hücrede (eşiği genel bütçeden farklı olan) eşik SABİT.
+            #    ⇒ çölde 5 = 7 = 10 (KARAR GEREĞİ, kusur değil — beyan edilir).
+            #    Kelepçe/BTB kapalıyken `_YR_ESIK is None` ⇒ eski yol BİREBİR.
+            if _YR_ESIK is None:
+                _pl = _yr_kontur(_bs * NEHIR_KM_SAAT)
+            else:
+                _ozel = _YR_ESIK != _np.float32(_YR_BUTCE)
+                _esik_b = _np.where(_ozel, _YR_ESIK,
+                                    _np.float32(_bs * NEHIR_KM_SAAT)).astype(_np.float32)
+                _pFb = _np.pad((_yr_F_ham / _esik_b).astype(_np.float32), 1, mode="edge")
+                _pl = _yr_kontur(1.0, (_pFb, float(_pFb.max()) + 1.0))
+                del _pFb, _esik_b, _ozel
             _YR_BANT_UZAK[_bs] = (_pl, STRtree(_pl))
         print(f"  Ⓑ ufuk bantları: {', '.join('%g sa' % b for b in sorted(_YR_BANT_UZAK))}"
               f" · kontur parçaları "
               f"{', '.join(str(len(_YR_BANT_UZAK[b][0])) for b in sorted(_YR_BANT_UZAK))}"
               f" · {time.time() - _bt:.1f} sn")
     del _yr_u, _yr_F, _yr_pF, _yr_Kf, _yr_R, _yr_U
+    if _YR_ESIK is not None:
+        del _yr_F_ham
 
 
 def _yr_yerel_dijkstra(kaynak, izinli, tavan):
@@ -8056,6 +8081,26 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
             except Exception:
                 _bos += 1
                 continue
+            # 🔴 P84-UFUK-BANT-KOD-1006 (H-0020 ① ②) — PUANLAMA KAPISI BANDA DA.
+            #    Yabancı gövde `_yabanci_govde_hesap`ta `_puan_bolgesi` ile
+            #    KESİLİYOR (≥4 puan: kendi yerleşimine <200 km, ya da iki
+            #    yerleşime <300 km …); bant bu kapıdan HİÇ geçmiyordu. Bandın iç
+            #    kenarı `_BANT_HAM[40]` (kapısız 5 günlük erişim), tabanın dış
+            #    kenarı ise PUANLA KESİLMİŞ gövde ⇒ erişim puan bölgesini
+            #    aştığı her yerde arada BOŞLUK kalan HALKA (①). Çölde kelepçe
+            #    5 günlük erişimi 56 saate (≈282 km) çıkardığı için 200 km'lik
+            #    kapı orada en çok ısırır (Sahra). Erişim puan bölgesinin
+            #    içinde kalınca (yoğun yerleşim, yüksek sürtünme) gövde =
+            #    erişim ⇒ bant gövdeye BOŞLUKSUZ yapışır (②).
+            #    Osmanlı gövdesi puan kapısından GEÇMEZ (`:7354` yolu) ⇒ ona
+            #    uygulanmaz. Anahtar gövdeyle AYNI (`did`, aktif kümesi), yani
+            #    bölge tabanınkiyle bit bit aynıdır.
+            #    ⚠️ BEDEL ÖLÇÜLMEDİ: süreç yolunda `_PUAN_ONBELLEK` işçilerde
+            #       kalır, ana süreç her (did, aktif) için bir kez yeniden
+            #       hesaplar (bantlar arası paylaşılır). Kutu koşusunda ölçülmeli.
+            if _did != "OSMANLI" and not PUAN_KAPALI:
+                _pbz = _puan_bolgesi(_did, frozenset(_ak), _f)
+                _u = poligonal(_u.intersection(_pbz)) if _pbz is not None else Polygon()
             if _u.is_empty:
                 _bos += 1
                 continue
