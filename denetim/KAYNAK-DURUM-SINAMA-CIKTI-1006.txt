@@ -1,0 +1,33 @@
+# SINAMA sınavı + önceki kapı sınavı — UMIT-W10-SINAMA-1006 · 2026-10-06 00:53 · ağaç C:\atlas-w10e · HEAD 847408ea + MOTOR-ENV-KAPI + KAYNAK-DURUM-ENV-KAPI + KAYNAK-DURUM-ATLAMA-DAMGA uygulanmış
+# komut: py denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py --kok C:\atlas-w10e
+✓ S1: kapi → çıkış 0 · KAYNAK-DURUM.json yazılmadı · damga kod=SINAMA kapi=GECTI · defter 1 satır
+✓ S2: SINAMA sonrası bekci_yasak_mi → yasak YOK
+✓ S3: TERS — kapat --kod KOSU → çıkış 0 · KAYNAK-DURUM.json yazıldı · bekçi YASAK · damga kod=KOSU
+✓ S4: kirli motor → çıkış 4 · defter +0
+✓ S5: kapi --kod → çıkış 2
+✓ S6: defter: SINAMA 1 · KOSU 1 — sınama sayısı defterden okunur
+✓ Y1: S1 damgasından (kod=SINAMA) çıktı → ihlal=True · ['data/donemler_ust.js (ilan 2026-10-06 00:53)']
+✓ Y2: S3 damgasından (kod=KOSU) çıktı → ihlal=False
+✓ Y3: kapı alanı yok → bugün ihlal=False (⚪) · KAPI_ALANI_ZORUNLU=True ile ihlal=True
+✓ Y4: paket: motor DIŞI iz + motor SINAMA izi → ihlal=True
+✓ Y5: motor DIŞI ürün kod=SINAMA taşısa bile → ihlal=False
+✓ Y6: main()'in 'return 1' kararında `_kapi_ihlali` VAR (satır 1782)
+✓ Y7: GERÇEK ağaç → ihlal=False · SINAMA 0 · KOSU 0 · kapısız 4 (data/bolgeler.js, data/devlet_harita_ust.js, data/donemler_ust.js, data/petek_govde_ust.js)
+✓ GERÇEK: C:\atlas-w10e\oturumlar\KAYNAK-DURUM.json dokunulmadı: önce d9a96bbf121c · sonra d9a96bbf121c
+✓ GERÇEK: C:\atlas-w10e\oturumlar\KOSU-KAPI-DEFTERI.jsonl dokunulmadı: önce YOK · sonra YOK
+✓ GERÇEK: C:\atlas-w10e\oturumlar\KOSU-KAPI.json dokunulmadı: önce YOK · sonra YOK
+
+✓ SINAV GEÇTİ
+# çıkış kodu: 0
+
+# komut: py denetim/ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py --kok C:\atlas-w10e   (yeniden düzenleme davranışı korudu mu)
+✓ SINAV GEÇTİ
+# çıkış kodu: 0
+
+# denetle_yayin.py TAM koşu (gerçek ağaç) — yeni bölüm:
+#   SONUÇ: TEMİZ — iki kapı da aynı dosyaları tanıyor · 2 UYARI duruyor (yayını durdurmuyor, yukarıda)
+#   ✓  SINAMA damgalı çıktı yok
+#   ⚪  kapı alanı YOK (B kuyruğu motor yaması öncesi çıktı — SINAMA mı ÖLÇÜLEMEDİ): data/bolgeler.js, data/devlet_harita_ust.js, data/donemler_ust.js, data/petek_govde_ust.js
+#   SONUÇ: İHLAL VAR — çıkış kodu 1
+# değişmemiş denetle_yayin.py aynı ağaçta: SONUÇ: İHLAL VAR — çıkış kodu 1 — tek ✗ satırı ikisinde de aynı:
+#   ✗  üretim izi: 4/7 üretilen çıktı iz taşıyor · taze 0 · bayat 2 · izsiz 0 · diskte yok 3

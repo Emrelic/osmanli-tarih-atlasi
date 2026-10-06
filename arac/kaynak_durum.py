@@ -25,6 +25,14 @@ Kullanım:
     py arac/kaynak_durum.py kapat --kod RAM-DARBOGAZI --olcum "..." --gerekce "..."
                                   [--muaf "AD1,AD2"]
     py arac/kaynak_durum.py ac    --gerekce "..."
+    py arac/kaynak_durum.py kapi  --kapi-kok <ağaç> [--kim AD] [--gerekce "..."]
+                                  [--kapi-atla "<gerekçe>"]
+        🧪 SINAMA ilanı (koordinatör hükmü, 6 Ekim 2026): elle sınama koşusu
+        için. `kapat --kod KOSU` ile AYNI kapıyı koşturur, AYNI koşu kapı
+        damgasını ve deftere satırı "kod":"SINAMA" ile yazar; bekçi yasağı
+        KOYMAZ, KAYNAK-DURUM.json'a DOKUNMAZ. Çıktısı YAYINA GİDEMEZ:
+        `denetle_yayin.py` URETIM_IZI.kapi.kod == "SINAMA" çıktıyı reddeder.
+        Çıkış kodları `kapat --kod KOSU` ile aynı (2 · 4 · 5 · 6).
 
 `arac/tahta_bekci.py` açılışta bu dosyayı okur; yasak açıksa KURULMAZ,
 sebebini stderr'e basar ve **çıkış 3** verir. Çıkış 3 "kurulamadı, TEKRAR
@@ -75,6 +83,9 @@ KODLAR = {
 
 # Koşu ilanının kapısı — yalnız `KOSU` kodu için (bkz. modül notu).
 KAPI_KODLARI = {"KOSU"}
+# `kapi` emrinin damgaya yazdığı kod. KODLAR'da YOKTUR: `kapat --kod SINAMA`
+# bekçi yasağı koyardı — sınama koşusu makineyi kilitlememeli.
+SINAMA_KODU = "SINAMA"
 KAPI_BETIK = os.path.join(KOK, "denetim", "ARAC-MOTOR-ENV-KAPI-1006.py")
 KAPI_SURE_SN = 300
 
@@ -220,8 +231,56 @@ def _yaz(d):
         f.write("\n")
 
 
+def _kapidan_gecir(argv, al, kayit, etiket, yazilmayan):
+    """Ortam kapısını koşturur, `kayit["kapi"]`yı doldurur, koşu kapı damgasını
+    yazar. None = geçti (çağıran devam eder) · int = çıkış kodu (ilan YOK).
+    `kapat --kod KOSU` ile `kapi` (SINAMA) AYNI yoldan geçer — iki kopya kural
+    bir gün ayrışırdı."""
+    kapi_kok = al("--kapi-kok", KOK)
+    atla = "--kapi-atla" in argv
+    _i = argv.index("--kapi-atla") + 1 if atla else len(argv)
+    atla_gerekce = (argv[_i] if _i < len(argv) else "").strip()   # al() son argümanda düşer
+    if atla and (not atla_gerekce or atla_gerekce.startswith("--")):
+        print("🔴 --kapi-atla GEREKÇESİZ — reddedildi. Ne arızalandı, kim bakacak?")
+        return 2
+    sonuc, cikti = kosu_kapisi(kapi_kok)
+    if sonuc == "OTTU":
+        print("🔴 %s REDDEDİLDİ — MOTOR ORTAM KAPISI ÖTTÜ (%s)" % (etiket, kapi_kok))
+        print("   Sınıfsız bir MOTOR_* tuzdan SESSİZCE düşer ⇒ bayat önbellek doğru sanılır.")
+        print("   Çare: adı `uret_petek.py`deki _ONB_SONUC / _ONB_ISLETIM / _ONB_CIKTI_DISI")
+        print("   kümelerinden BİRİNE yaz (motor tuzu ⇒ koşudan ÖNCE). `--kapi-atla` burada İŞLEMEZ.")
+        print("   %s YAZILMADI.\n" % yazilmayan)
+        print(cikti.rstrip())
+        return 4
+    if sonuc == "KOSAMADI" and not atla:
+        print("🔴 %s REDDEDİLDİ — MOTOR ORTAM KAPISI KOŞAMADI (%s)" % (etiket, kapi_kok))
+        print("   " + cikti.rstrip().replace("\n", "\n   "))
+        print("   Kapı ölçemediyse hüküm YOK; 'ölçülemedi' temiz sayılmaz.")
+        print("   Koşu bekleyemiyorsa: --kapi-atla \"<gerekçe>\" (ilana yazılır).")
+        print("   %s YAZILMADI." % yazilmayan)
+        return 5
+    kayit["kapi"] = {"durum": "GECTI" if sonuc == "GECTI" else "ATLANDI",
+                     "kok": kapi_kok,
+                     "ozet": [s for s in cikti.splitlines()
+                              if s.startswith(("MOD:", "✓", "🔴", "kapı"))][:3]}
+    if sonuc != "GECTI":
+        kayit["kapi"]["atlama_gerekce"] = atla_gerekce
+        print("⚠️ KAPI KOŞAMADI ve ATLANDI — gerekçe ilana yazıldı: %s" % atla_gerekce)
+    else:
+        print("✓ MOTOR ORTAM KAPISI GEÇTİ (%s)" % kapi_kok)
+    tamam, aciklama = kosu_damgasi_yaz(kayit)
+    if not tamam:
+        print("🔴 %s REDDEDİLDİ — KOŞU KAPI DAMGASI YAZILAMADI" % etiket)
+        print("   %s" % aciklama)
+        print("   Kapının geçildiği/atlandığı iz bırakılmadan koşu başlamaz.")
+        print("   %s YAZILMADI." % yazilmayan)
+        return 6
+    print("   koşu kapı damgası: %s · defter: %s" % (aciklama, DEFTER))
+    return None
+
+
 def main(argv):
-    if not argv or argv[0] not in ("durum", "kapat", "ac"):
+    if not argv or argv[0] not in ("durum", "kapat", "ac", "kapi"):
         print(__doc__)
         return 2
     emir = argv[0]
@@ -243,6 +302,24 @@ def main(argv):
                 print("   %-9s %s" % (k, d[k]))
         return 0
 
+    if emir == "kapi":
+        # 🧪 SINAMA İLANI — bekçi yasağı KOYMAZ, KAYNAK-DURUM.json'a DOKUNMAZ.
+        #    Aynı kapı, aynı koşu kapı damgası, aynı defter; tek fark "kod":"SINAMA".
+        #    Bu koşunun ÇIKTISI yayına gidemez: motor damgaya kod'u geçirir
+        #    (URETIM_IZI.kapi.kod — B kuyruğu), denetle_yayin.py SINAMA'yı REDDEDER.
+        if "--kod" in argv:
+            print("🔴 `kapi` emri --kod ALMAZ: kod her zaman SINAMA'dır.")
+            print("   Gerçek koşu ilanı: kapat --kod KOSU (bekçi yasağıyla).")
+            return 2
+        kayit = {"kod": SINAMA_KODU, "ilan": time.strftime("%Y-%m-%d %H:%M"),
+                 "ilan_eden": al("--kim", "?"), "gerekce": al("--gerekce", "")}
+        rc = _kapidan_gecir(argv, al, kayit, "SINAMA İLANI", "KOSU-KAPI.json")
+        if rc is not None:
+            return rc
+        print("🧪 SINAMA İLANI YAZILDI — bekçi yasağı YOK, KAYNAK-DURUM.json DEĞİŞMEDİ.")
+        print("   🔴 Bu koşunun çıktısı YAYINA GİDEMEZ (denetle_yayin.py SINAMA damgasını reddeder).")
+        return 0
+
     if emir == "kapat":
         kod = al("--kod", "RAM-DARBOGAZI")
         if kod not in KODLAR:
@@ -260,46 +337,9 @@ def main(argv):
             "muaf": muaf,
         }
         if kod in KAPI_KODLARI:
-            kapi_kok = al("--kapi-kok", KOK)
-            atla = "--kapi-atla" in argv
-            _i = argv.index("--kapi-atla") + 1 if atla else len(argv)
-            atla_gerekce = (argv[_i] if _i < len(argv) else "").strip()   # al() son argümanda düşer
-            if atla and (not atla_gerekce or atla_gerekce.startswith("--")):
-                print("🔴 --kapi-atla GEREKÇESİZ — reddedildi. Ne arızalandı, kim bakacak?")
-                return 2
-            sonuc, cikti = kosu_kapisi(kapi_kok)
-            if sonuc == "OTTU":
-                print("🔴 KOŞU İLANI REDDEDİLDİ — MOTOR ORTAM KAPISI ÖTTÜ (%s)" % kapi_kok)
-                print("   Sınıfsız bir MOTOR_* tuzdan SESSİZCE düşer ⇒ bayat önbellek doğru sanılır.")
-                print("   Çare: adı `uret_petek.py`deki _ONB_SONUC / _ONB_ISLETIM / _ONB_CIKTI_DISI")
-                print("   kümelerinden BİRİNE yaz (motor tuzu ⇒ koşudan ÖNCE). `--kapi-atla` burada İŞLEMEZ.")
-                print("   KAYNAK-DURUM.json YAZILMADI.\n")
-                print(cikti.rstrip())
-                return 4
-            if sonuc == "KOSAMADI" and not atla:
-                print("🔴 KOŞU İLANI REDDEDİLDİ — MOTOR ORTAM KAPISI KOŞAMADI (%s)" % kapi_kok)
-                print("   " + cikti.rstrip().replace("\n", "\n   "))
-                print("   Kapı ölçemediyse hüküm YOK; 'ölçülemedi' temiz sayılmaz.")
-                print("   Koşu bekleyemiyorsa: --kapi-atla \"<gerekçe>\" (ilana yazılır).")
-                print("   KAYNAK-DURUM.json YAZILMADI.")
-                return 5
-            kayit["kapi"] = {"durum": "GECTI" if sonuc == "GECTI" else "ATLANDI",
-                             "kok": kapi_kok,
-                             "ozet": [s for s in cikti.splitlines()
-                                      if s.startswith(("MOD:", "✓", "🔴", "kapı"))][:3]}
-            if sonuc != "GECTI":
-                kayit["kapi"]["atlama_gerekce"] = atla_gerekce
-                print("⚠️ KAPI KOŞAMADI ve ATLANDI — gerekçe ilana yazıldı: %s" % atla_gerekce)
-            else:
-                print("✓ MOTOR ORTAM KAPISI GEÇTİ (%s)" % kapi_kok)
-            tamam, aciklama = kosu_damgasi_yaz(kayit)
-            if not tamam:
-                print("🔴 KOŞU İLANI REDDEDİLDİ — KOŞU KAPI DAMGASI YAZILAMADI")
-                print("   %s" % aciklama)
-                print("   Kapının geçildiği/atlandığı iz bırakılmadan koşu başlamaz.")
-                print("   KAYNAK-DURUM.json YAZILMADI.")
-                return 6
-            print("   koşu kapı damgası: %s · defter: %s" % (aciklama, DEFTER))
+            rc = _kapidan_gecir(argv, al, kayit, "KOŞU İLANI", "KAYNAK-DURUM.json")
+            if rc is not None:
+                return rc
         _yaz(kayit)
         print("🔴 BEKÇİ YASAĞI İLAN EDİLDİ · kod %s" % kod)
         print("   dosya: %s" % DOSYA)

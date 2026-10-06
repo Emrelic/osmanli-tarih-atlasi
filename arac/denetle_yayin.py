@@ -261,6 +261,83 @@ URETILENLER = {
 KOSU_URETICILERI = {"uret_petek.py", "uret_devirler.py"}
 
 
+# ============================================================================
+# 🧪 SINAMA KAPISI — sınama ilanıyla koşmuş motorun çıktısı YAYINA GİDEMEZ
+# ============================================================================
+# Koordinatör hükmü (6 Ekim 2026): `kaynak_durum.py kapi` (SINAMA) bekçi
+# yasağı koymadan koşu ilanı verir; bedeli, o koşunun çıktısının yayına
+# GİDEMEMESİDİR. Motor ilanın kodunu damgaya geçirir:
+#     window.URETIM_IZI = {"girdi":…, "kapi":{"kod":"SINAMA", "durum":…}, "motor":…}
+# (B kuyruğu, `uret_petek.py` tuzda — UMIT-W10-KAPI-HUKUM-1006). Bu kapı onu okur.
+# ⚠️ BUGÜN `kapi` ALANI HİÇBİR ÇIKTIDA YOK: B kuyruğu yaması inmedi. Alan yoksa
+#    çıktı "kapı öncesi" sayılır: SINAMA mı KOSU mu ÖLÇÜLEMEZ, basılır, BLOKE
+#    ETMEZ. Bloke etseydi bugünkü her yayın dururdu. Yama inince bu açık kapanmalı:
+#    `KAPI_ALANI_ZORUNLU = True` ⇒ alanı olmayan çıktı da DURUR (tek satır).
+KAPI_ALANI_ZORUNLU = False
+SINAMA_KODU = "SINAMA"
+
+
+def kapi_damgasi():
+    """{"sinama": [...], "kapisiz": [...], "kosu": [...], "okunamadi": [...]} —
+    `data/*.js` içindeki HER `URETIM_IZI`den motor ürünü olanların `kapi.kod`u.
+
+    🔴 EVREN `URETILENLER` DEĞİL, YAYIN YÜZEYİ (ölçüldü, 6 Ekim 2026): motorun
+    kaynak çıktıları (`donemler.js` · `devletler_harita.js` · `petek_govde.js`)
+    `.gitignore`dadır; yayına `kodla.py`nin `*_ust.js` + `*_parca.js` eserleri
+    gider ve damga satırı `*_ust.js`e AYNEN taşınır. Kaynağa bakan kapı yayın
+    makinesinde KÖR kalırdı. Motor ürünü = iz'in `motor` sözlüğünde
+    `uret_petek.py` var (altlik/devirler/bekleyenler kendi üreticisini taşır).
+    Bir dosyada birden çok iz olabilir (paketler kaynakları uç uca ekler) ⇒
+    hepsi okunur. Bedel ölçüldü: 569 dosya · 149 MB · ~14 sn."""
+    import glob
+    out = {"sinama": [], "kapisiz": [], "kosu": [], "okunamadi": []}
+    for tam in sorted(glob.glob(os.path.join(KOK, "data", "*.js"))):
+        yol = os.path.relpath(tam, KOK).replace(os.sep, "/")
+        try:
+            metin = open(tam, encoding="utf-8").read()
+        except (OSError, UnicodeDecodeError):
+            out["okunamadi"].append(yol)
+            continue
+        if "window.URETIM_IZI" not in metin:
+            continue
+        for m in re.finditer(r'window\.URETIM_IZI\s*=\s*(\{.*?\})\s*;', metin, re.S):
+            try:
+                iz = json.loads(m.group(1))
+            except ValueError:
+                out["okunamadi"].append(yol)
+                continue
+            if "uret_petek.py" not in (iz.get("motor") or {}):
+                continue                              # motor ürünü değil
+            kapi = iz.get("kapi")
+            if not isinstance(kapi, dict):
+                out["kapisiz"].append(yol)
+            elif kapi.get("kod") == SINAMA_KODU:
+                out["sinama"].append("%s (ilan %s)" % (yol, kapi.get("ilan", "?")))
+            else:
+                out["kosu"].append(yol)
+    return out
+
+
+def kapi_hukmu(k=None):
+    """(ihlal, satırlar) — main() bunu basar ve kararına bağlar."""
+    k = k if k is not None else kapi_damgasi()
+    s = []
+    if k["sinama"]:
+        s.append("✗  SINAMA DAMGALI ÇIKTI — yayına GİDEMEZ: %d" % len(k["sinama"]))
+        s += ["     %s   ← `kaynak_durum.py kapi` ile ilan edilmiş koşunun ürünü" % y for y in k["sinama"]]
+    else:
+        s.append("✓  SINAMA damgalı çıktı yok")
+    if k["okunamadi"]:
+        s.append("✗  kapı damgası AYRIŞTIRILAMADI: %s" % ", ".join(k["okunamadi"]))
+    if k["kapisiz"]:
+        s.append("%s  kapı alanı YOK (B kuyruğu motor yaması öncesi çıktı — SINAMA mı ÖLÇÜLEMEDİ): %s"
+                 % ("✗" if KAPI_ALANI_ZORUNLU else "⚪", ", ".join(k["kapisiz"])))
+    if k["kosu"]:
+        s.append("✓  KOSU damgalı çıktı: %d" % len(k["kosu"]))
+    ihlal = bool(k["sinama"] or k["okunamadi"] or (KAPI_ALANI_ZORUNLU and k["kapisiz"]))
+    return ihlal, s
+
+
 def iz_kapsami():
     """(izsiz, bayatlar, taze, diskte_yok, kosu_bayat, olculemedi) — üretilen
     her çıktının izi var mı, varsa kayıtlı girdi özetleri BUGÜNKÜ dosyalarla
@@ -1605,9 +1682,15 @@ def main():
     # İKİ AYRI SERTLİK, kasıtlı:
     #   ① kırık atıf  → YENİSİNE 0 tolerans. `bilinen_kusur` LİSTESİ beyanlıdır
     #      (sayı değil liste: borç kapanırken yenisi yerine geçemez).
-    #   ② sayı tavanı → ODAKSIZ / BEYANLI→yabancı bugünkü ölçümde DONDURULDU.
-    #      Yalnız GERİLEME bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan
-    #      bir ONAY değil bir DONDURMADIR.
+    #   ② sayı tavanı → her kova bugünkü ölçümde DONDURULDU. Yalnız GERİLEME
+    #      bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan bir ONAY değil
+    #      bir DONDURMADIR.
+    #      🔴 KOVALAR BURADA SAYILMAZ: tek otorite `odak_olc.py`dir
+    #      (`kapi_olcumu()` hangi kovayı ölçüyorsa o) ve değerleri
+    #      `denetim/ODAK-TAVAN.json`un anahtarlarıdır. Çıktı her kovayı kendi
+    #      satırında BASAR — kova listesi yayın çıktısından okunur, bu yorumdan
+    #      değil. (Burada elle tutulan "ODAKSIZ / BEYANLI→yabancı" listesi sekme
+    #      kovaları gelince bayatladı — 6 Ekim 2026, gecenin altıncı bayat belgesi.)
     #
     # ⚠️ `odak_olc` MODÜL DÜZEYİNDE stdout'a DOKUNMAZ — yukarıdaki
     #    `durum_tablosu` dersi (satır ~1350) bu modülü yazarken bilinçle
@@ -1684,7 +1767,19 @@ def main():
         _paket_ihlali = True
         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
-    if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+    # -----------------------------------------------------------------
+    # 🧪 SINAMA KAPISI — `kaynak_durum.py kapi` ile koşmuş motorun ürünü yayına gitmez
+    # -----------------------------------------------------------------
+    try:
+        _kapi_ihlali, _kapi_satir = kapi_hukmu()
+        print()
+        for _s in _kapi_satir:
+            print(_s)
+    except Exception as _e:                                 # noqa: BLE001
+        _kapi_ihlali = True
+        print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+
+    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
