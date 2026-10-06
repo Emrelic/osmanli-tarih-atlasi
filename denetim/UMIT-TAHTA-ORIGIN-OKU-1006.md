@@ -20,6 +20,7 @@ inmiyordu. Arızanın kendisi buydu.
 |---|---|---|---|
 | tahta değişmedi | 815 · 866 · 890 · 1000 · 1061 · 1130 | **256 B / 381 B** | 6 |
 | başka değişiklik (10 commit, nesneler yerelde) | 1233 · 1351 | 1068–5245 B / 1364 B | 2 |
+| gerçekten yeni küçük commit (e4f108a3, 1 md dosyası, nesneler yerelde YOKTU) | 1134 | 2949 B / 1364 B | 1 |
 | `ls-remote` (karşılaştırma) | 1067 | — | 1 |
 | fetch'siz okuma turu (rev-parse, önbellekte blob) | 55 | — | 1 |
 | ilk okuma (fetch + 17,5 MB blob + JSON + yerel JSON) | 1437 | — | 1 |
