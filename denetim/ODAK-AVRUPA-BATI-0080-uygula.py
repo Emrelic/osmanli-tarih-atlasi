@@ -48,6 +48,11 @@ ONERI = json.load(io.open(os.path.join(KOK, "denetim", "ODAK-AVRUPA-BATI-0080-on
                           encoding="utf-8"))
 SINA = os.path.join(KOK, "denetim", "ODAK-AVRUPA-BATI-0080-sina.js")
 import odak_olc                                   # noqa: E402 — sınıflayıcı BİREBİR onunki
+# W32b (6 Ekim 2026): T4 — sinifla 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
+# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
+# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
+import olcu_kapisi_1006 as _w32_ok
+_w32_ok.api(odak_olc, ['sinifla'], "odak_olc")
 ONGORU = {"ODAKSIZ": [0, 0], "BEYANLI": [0, 0]}
 YENI_ALANLAR = ("yer_id", "yer_kon", "odak_yer", "odak_kimlik")
 

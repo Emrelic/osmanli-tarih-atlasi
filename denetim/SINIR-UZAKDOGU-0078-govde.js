@@ -3,6 +3,9 @@
 // Kullanım: node denetim/SINIR-UZAKDOGU-0078-govde.js <çıktı.geojson> [gün]
 // Tüketicisi: denetim/SINIR-UZAKDOGU-0078-uret.py (şerit ölçümü, §5.4).
 "use strict";
+// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
+require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
 const fs = require("fs"), vm = require("vm"), path = require("path");
 const KOK = path.join(__dirname, "..");
 const cikti = process.argv[2], gunS = process.argv[3] || "1923-09-01";

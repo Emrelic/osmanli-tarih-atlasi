@@ -19,6 +19,9 @@
 //      (dosyaya YAZILMAZ): KAYNAK hükmü + GAZETTEER koordinatı (GeoNames).
 // ============================================================================
 "use strict";
+// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
+require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
 var fs = require("fs"), path = require("path"), cp = require("child_process");
 var KOK = path.join(__dirname, "..");
 var hata = 0;

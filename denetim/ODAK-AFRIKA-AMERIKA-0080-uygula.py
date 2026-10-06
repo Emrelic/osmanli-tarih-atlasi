@@ -231,6 +231,11 @@ def main():
     once, sonra = Counter(), Counter()          # app'e göre öngörü (seçilen gruplar)
     olc_once, olc_sonra = Counter(), Counter()  # arac/odak_olc.py'ye göre
     import odak_olc
+    # W32b (6 Ekim 2026): T4 — sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
+    # betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
+    # veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
+    import olcu_kapisi_1006 as _w32_ok
+    _w32_ok.api(odak_olc, ['sinifla', 'yer_havuzu'], "odak_olc")
     havuz = odak_olc.yer_havuzu()
 
     dosyalar = sorted(set(o["dosya"] for o in oneriler))

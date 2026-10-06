@@ -16,11 +16,16 @@ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
 const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
 const bagli = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
 console.log("index.html'de data/isyan_tarama.js bağlı:", bagli.indexOf("data/isyan_tarama.js") >= 0);
-bagli.filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js|isyan_tarama/.test(s)).forEach(yukle);
+bagli.filter(s => /olaylar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js|isyan_tarama/.test(s)).forEach(yukle);
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
-const Y = W.YERLESIMLER, PET = W.PETEKLER || [], IT = W.ISYAN_TARAMA;
+// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
+// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
+// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
+const OK_KAPI = require("./OLCU-KAPISI-1006.js");
+OK_KAPI.girdi(W, { PETEKLER: "data/donemler_on.js", ISYAN_TARAMA: "data/isyan_tarama.js" });
+const Y = W.YERLESIMLER, PET = W.PETEKLER, IT = W.ISYAN_TARAMA;
 IK.yerlesimKapisi(Y);
 const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
 const petAd = {}; PET.forEach((p, i) => { if (p && p.a) petAd[p.a] = i; });
@@ -58,6 +63,9 @@ const GUNLER = ["1594-10-05", "1594-12-01", "1595-11-01", "1600-06-01", "1601-10
 //    Artık app.js'in okuduğu AYNI yol sınanıyor: PETEK_GOVDE[pi] boş değil VE parçalar var.
 yukle("data/petek_govde.js");
 const GOV = W.PETEK_GOVDE, PARCA = W.PETEK_GOVDE_PARCA;
+// W32b: gövde geometrisi gitignore'lu petek_govde.js'te. Yoksa "peteksiz" sayısı
+// HER yerleşimi peteksiz sayıyordu (sessiz yanlış). Alt ölçüm KOVAYA, betik sürer, sonda çıkış 2.
+if (!GOV || !PARCA || !GOV.length) OK_KAPI.kova("⑤ gövde geometrisi (data/petek_govde.js · üret: " + OK_KAPI.COZ["data/petek_govde.js"] + ")");
 console.log("  PETEK_GOVDE", GOV ? GOV.length : "YOK", "· PARCA", PARCA ? PARCA.length : "YOK",
   "· PETEKLER[0] alanları:", PET[0] ? Object.keys(PET[0]).join(",") : "—");
 const geoVar = ad => { const pi = petAd[ad]; const ix = (pi === undefined || !GOV) ? null : GOV[pi]; return !!(ix && ix.length && ix.every(j => PARCA[j] && PARCA[j].length)); };
@@ -104,4 +112,5 @@ const OL = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Arr
   const akt = SG.isyanAktif(IT, m.t).map(p => p.id);
   console.log(" ", m.t, bul.length === 1 ? "✓" : "✗ " + bul.length, m.b, "· o gün taralı:", akt.join(", ") || "—");
 });
+OK_KAPI.bitir(sorun ? 1 : 0);   // W32b: ölçülemeyen alt ölçüm varsa 2 (ihlal varsa 1, kova yine basılır)
 process.exit(sorun ? 1 : 0);

@@ -28,6 +28,9 @@
 //   `§5`in "hangi dosya CANLI — tek doğru kaynak girdi.py" kuralına uyar.
 // ============================================================================
 'use strict';
+// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
+require("./OLCU-KAPISI-1006.js").dosya(["data/donemler.js"]);
 const fs = require('fs');
 const path = require('path');
 const kok = process.cwd();
