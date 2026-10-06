@@ -1,0 +1,15 @@
+# ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py çıktısı — UMIT-W10-LEGO-1006e · 2026-10-05 22:27 · ağaç C:\atlas-w10 · HEAD 7bb6b62c + MOTOR-ENV-KAPI-1006.diff uygulanmış
+# komut: py denetim/ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py --kok C:\atlas-w10
+✓ S1: çıkış 4 (beklenen 4) · ilan yazılmadı (beklenen yazılmaz)
+✓ S2: çıkış 4 (beklenen 4) · ilan yazılmadı (beklenen yazılmaz)
+✓ S3: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=GECTI
+✓ S4: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=GECTI
+✓ S5: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=—
+✓ S6: çıkış 5 (beklenen 5) · ilan yazılmadı (beklenen yazılmaz)
+✓ S7: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=ATLANDI
+✓ S8: çıkış 2 (beklenen 2) · ilan yazılmadı (beklenen yazılmaz)
+✓ S9: çıkış 5 (beklenen 5) · ilan yazılmadı (beklenen yazılmaz)
+✓ GERÇEK C:\atlas-w10\oturumlar\KAYNAK-DURUM.json DOKUNULMADI: önce d9a96bbf121c · sonra d9a96bbf121c
+
+✓ SINAV GEÇTİ — 10 vaka
+# çıkış kodu: 0
