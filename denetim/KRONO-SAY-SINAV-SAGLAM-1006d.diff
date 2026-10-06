@@ -1,0 +1,235 @@
+diff --git a/denetim/ARAC-KRONO-SAY-SINAV-1006.py b/denetim/ARAC-KRONO-SAY-SINAV-1006.py
+index cc818a57..1ef444c1 100644
+--- a/denetim/ARAC-KRONO-SAY-SINAV-1006.py
++++ b/denetim/ARAC-KRONO-SAY-SINAV-1006.py
+@@ -45,14 +45,18 @@ GERCEK = [
+     ("olaylar_ek5.js",        "yer_id",  "YORUM", "yorum satırı :340 FAZLA"),
+     ("olaylar_ok106.js",      "madde",   "YORUM", "yorum satırı :43 FAZLA"),
+     ("olaylar_ok106.js",      "yer_id",  "YORUM", "yorum satırları :76/:79 FAZLA"),
+-    # 🔴 sh110 · sk105 SABİT KALIR (DALGA9 hükmü): bilinçli ölü dosya, 0 bir
+-    #    BEYANDIR — tek maddeleri blok yorumla kapatılmış (`/* ÇÜRÜDÜ,
+-    #    UYGULANMADI */`), 30 günde 0 commit. 0 bir ölçüm fotoğrafı değil "bu
+-    #    dosya canlı madde taşımaz" sözüdür; biri maddeyi açarsa sınavın ÖTMESİ
+-    #    istenen davranıştır. Birleşik formül blok yorumu ölçmez (sh110'da 1 verir).
+-    ("olaylar_sh110.js",      "madde",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
+-    ("olaylar_sh110.js",      "duygu",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
+-    ("olaylar_sk105.js",      "madde",     0, "blok yorumlu madde FAZLA"),
++    # 🔴 sh110 · sk105 — 1006d (W41): SABİT → ÖLÇÜM. Birleşik formüle BLOK
++    #    sınıfı eklendi (`/* … */` içi geçiş düşülür). DALGA9'un "0 bir BEYANDIR,
++    #    biri maddeyi açarsa sınav ÖTMELİ" amacı KAYBOLMADI, AYRI soruya taşındı
++    #    (aşağıda `OLU_DOSYA`): formül ne derse desin, bu iki dosyanın canlı
++    #    maddesi 0 değilse o soru öter. Sabit iki işi birden yapıyordu; ayrıldı.
++    #    W41 lekseri her iki dosyada üç alanı da blokta buldu (madde·duygu·yer_id).
++    ("olaylar_sh110.js",      "madde",   "BLOK",  "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
++    ("olaylar_sh110.js",      "duygu",   "BLOK",  "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
++    ("olaylar_sh110.js",      "yer_id",  "BLOK",  "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
++    ("olaylar_sk105.js",      "madde",   "BLOK",  "blok yorumlu madde FAZLA"),
++    ("olaylar_sk105.js",      "duygu",   "BLOK",  "blok yorumlu madde FAZLA"),
++    ("olaylar_sk105.js",      "yer_id",  "BLOK",  "blok yorumlu madde FAZLA"),
+     ("olaylar_ek8.js",        "madde",   "JSON",  "JSON biçimli tırnaklı anahtar — EKSİK"),
+     ("olaylar_ek8.js",        "duygu",   "JSON",  "JSON biçimli tırnaklı anahtar — EKSİK"),
+     ("olaylar_ek8.js",        "yer_id",  "JSON",  "JSON biçimli tırnaklı anahtar — EKSİK"),
+@@ -97,7 +101,38 @@ def _alt_bolgeleri(metin):
+     return out
+ 
+ 
+-def olcu_dogru(yol, alan, kural):
++def _blok_bolgeleri(metin):
++    """`/* … */` blok yorum aralıkları (1006d). `/*` bir çift tırnaklı dizgenin
++    ya da `//` satır yorumunun İÇİNDEYSE blok açmaz — `https://…` ve
++    `"a/*b"` yanlış blok saymasın diye satır başından tarama yapılır."""
++    out, i, n = [], 0, len(metin)
++    dizge = kacis = satir_yorum = False
++    while i < n:
++        c = metin[i]
++        if satir_yorum:
++            satir_yorum = c != "\n"
++        elif dizge:
++            if kacis:
++                kacis = False
++            elif c == "\\":
++                kacis = True
++            elif c == '"':
++                dizge = False
++        elif c == '"':
++            dizge = True
++        elif metin.startswith("//", i):
++            satir_yorum = True
++        elif metin.startswith("/*", i):
++            j = metin.find("*/", i + 2)
++            j = n if j < 0 else j + 2
++            out.append((i, j))
++            i = j
++            continue
++        i += 1
++    return out
++
++
++def olcu_dogru(yol, alan, kural, blok_dus=True):
+     """Doğru değeri DOSYADAN ölçer → (doğru, kusur geçişi).
+ 
+     🔴 5 Ekim 2026 (DALGA6 → DALGA8): ek5 için sabit 389 yazılmıştı; W18 ek5'e
+@@ -113,33 +148,49 @@ def olcu_dogru(yol, alan, kural):
+                 + tırnaklı anahtar geçişi (yorum ve alt dışı)
+                 + boşluklu çıplak anahtar geçişi (yorum ve alt dışı · DALGA9)
+                 − boş `yer_id:""` (yalnız yer_id; boş alan bağ değildir)
++                − `/* … */` blok yorum içi geçiş (1006d · W41)
++    Blok aralığına düşen geçiş YALNIZ BLOK sınıfında düşülür: `//`, ALT, JSON,
++    BOSLUK ve boş yer_id sayımları blok aralığını DIŞARIDA tutar (çift düşme yok).
+     `kural` yalnız hangi sınıfın bu dosyada HÂLÂ var olması gerektiğini söyler
+-    (YORUM · ALT · JSON · BOSLUK · None=boş yer_id); dönen ikinci değer o sınıfın geçişi.
+-    Sayı verilmişse SABİT döner (düşük riskli dosyalar — gerekçe DALGA8 raporu).
++    (YORUM · ALT · JSON · BOSLUK · BLOK · None=boş yer_id); dönen ikinci değer o
++    sınıfın geçişi. Sayı verilmişse SABİT döner (gerekçe DALGA8 raporu).
++    `blok_dus=False` NEGATİF KONTROLDÜR (1006d öncesi formül) — yalnız sınav
++    BLOK sınıfının dişini ölçmek için çağırır.
+     """
+     if not isinstance(kural, (str, type(None))):
+         return kural, None
+     metin = D._oku(yol)
+     eski = len(re.findall(ESKI[alan], metin))
+     alt_ar = _alt_bolgeleri(metin)
++    blok_ar = _blok_bolgeleri(metin)
++
++    def _blokta(p):
++        return any(a <= p < b for a, b in blok_ar)
++
+     satirlar, poz = [], 0
+     for l in metin.split("\n"):
+         satirlar.append((poz, l))
+         poz += len(l) + 1
+-    yorum = sum(len(re.findall(ESKI[alan], l)) for _, l in satirlar
+-                if l.lstrip().startswith("//"))
+-    alt = sum(len(re.findall(ESKI[alan], metin[a:b])) for a, b in alt_ar)
++    yorum = sum(1 for p, l in satirlar if l.lstrip().startswith("//")
++                for m in re.finditer(ESKI[alan], l) if not _blokta(p + m.start()))
++    blok = sum(1 for m in re.finditer(ESKI[alan], metin) if _blokta(m.start()))
++    alt = sum(1 for a, b in alt_ar for m in re.finditer(ESKI[alan], metin[a:b])
++              if not _blokta(a + m.start()))
+     jsx = JSON_RX[alan] + (r'\s*"[^"]' if alan in ("yer_id", "vefat_id") else "")
+     js = sum(1 for p, l in satirlar if not l.lstrip().startswith("//")
+              for m in re.finditer(jsx, l)
+-             if not any(a <= p + m.start() < b for a, b in alt_ar))
++             if not any(a <= p + m.start() < b for a, b in alt_ar)
++             and not _blokta(p + m.start()))
+     bsl = sum(1 for p, l in satirlar if not l.lstrip().startswith("//")
+               for m in re.finditer(BOSLUK_RX[alan], l)
+-              if not any(a <= p + m.start() < b for a, b in alt_ar))
++              if not any(a <= p + m.start() < b for a, b in alt_ar)
++              and not _blokta(p + m.start()))
+     # boş yer_id yalnız ESKİ regex'in saydığı biçimde (`yer_id:` bitişik) düşülür
+-    bos = len(re.findall(r'(?<![\w"])yer_id:\s*""', metin)) if alan == "yer_id" else 0
+-    dogru = eski - yorum - alt + js + bsl - bos
+-    kusur = {"YORUM": yorum, "ALT": alt, "JSON": js, "BOSLUK": bsl, None: bos}[kural]
++    bos = (sum(1 for m in re.finditer(r'(?<![\w"])yer_id:\s*""', metin)
++               if not _blokta(m.start())) if alan == "yer_id" else 0)
++    dogru = eski - yorum - alt + js + bsl - bos - (blok if blok_dus else 0)
++    kusur = {"YORUM": yorum, "ALT": alt, "JSON": js, "BOSLUK": bsl, "BLOK": blok,
++             None: bos}[kural]
+     return dogru, kusur
+ 
+ 
+@@ -152,13 +203,72 @@ if "hata" not in R:
+         yeni = R["dosya_basi"][dosya][alan]
+         eski = eski_say(yol, alan)
+         dogru, kusur = olcu_dogru(yol, alan, kural)
+-        if kural in ("YORUM", "ALT", "JSON", "BOSLUK"):
++        if kural in ("YORUM", "ALT", "JSON", "BOSLUK", "BLOK"):
+             sina("%s vakası %s %s hâlâ kusur geçişi taşıyor (%d)"
+                  % (kural, dosya, alan, kusur), kusur > 0)
+         sina("YÖN1 %s %s = %d" % (dosya, alan, dogru), yeni == dogru,
+              "yeni %d" % yeni)
+         sina("YÖN2 eski regex %s %s ≠ %d (%s)" % (dosya, alan, dogru, sinif),
+              eski != dogru, "eski %d — sınav kusuru GÖRMÜYOR" % eski)
++        if kural == "BLOK":
++            # 1006d NEGATİF KONTROL: BLOK düşülmeyen (1006c) formül bu vakada
++            # sayaçla UYUŞMAMALI — uyuşursa BLOK sınıfının dişi yoktur.
++            dogru_c, _ = olcu_dogru(yol, alan, kural, blok_dus=False)
++            sina("NEG 1006c formülü (BLOK'suz) %s %s ≠ sayaç %d" % (dosya, alan, yeni),
++                 dogru_c != yeni, "BLOK'suz formül de %d veriyor" % dogru_c)
++
++# 1006d: DALGA9'un ölü dosya BEYANI ayrı soru — formülden BAĞIMSIZ, sayaçtan.
++OLU_DOSYA = ("olaylar_sh110.js", "olaylar_sk105.js")
++if "hata" not in R:
++    for dosya in OLU_DOSYA:
++        sina("BEYAN %s canlı madde taşımıyor (sayaç 0)" % dosya,
++             R["dosya_basi"][dosya]["madde"] == 0,
++             "sayaç %d — biri maddeyi AÇTI mı?" % R["dosya_basi"][dosya]["madde"])
++    # BEYAN sorusunun DİŞİ: sk105'in blok yorumu (dizi İÇİNDE) açılınca sayaç
++    #   0 olmaktan çıkmalı — çıkmazsa BEYAN sorusu hiçbir şeyi beklemiyor demektir.
++    #   (sh110'un bloğu dizinin DIŞINDA; açılınca dosya sözdizimi bozulur → orada
++    #   ÖLÇÜLEMEDİ döner, bu da BEYAN'ı geçmez — ayrıca sınanmadı.)
++    with tempfile.TemporaryDirectory() as td:
++        m = D._oku(os.path.join("data", "olaylar_sk105.js"))
++        b = _blok_bolgeleri(m)
++        acik = m
++        for a, z in reversed(b):
++            if "1835-01-01" in m[a:z]:
++                acik = acik[:a] + acik[a + 2:z - 2] + acik[z:]
++        p = os.path.join(td, "olaylar_sk105.js")
++        io.open(p, "w", encoding="utf-8", newline="").write(acik)
++        K = D.kronoloji_say([p])
++        sina("BEYAN DİŞİ: sk105 bloğu açılınca sayaç madde 1 (BEYAN öterdi)",
++             "hata" not in K and K["madde"] == 1, str(K.get("hata") or K.get("madde")))
++
++# 1006d: blok İÇİNDE `//` satırı — geçiş BİR kez düşülmeli (çift düşme yok).
++#   W41 mutasyon sınavında "yorum sınıfı blok içini de düşer" mutantı SAĞ
++#   KALMIŞTI: gerçek veride bu biçim yok. Bu vaka onu öldürür.
++with tempfile.TemporaryDirectory() as td:
++    p = os.path.join(td, "olaylar_blokyorum.js")
++    io.open(p, "w", encoding="utf-8", newline="\n").write(
++        'window.OLAYLAR_BLOKYORUM = [\n/*\n// { t:"1999-01-05", yer_id:"Q", duygu:["q"] },\n'
++        '{ t:"1999-01-06", yer_id:"R" },\n'
++        '{ "t": "1999-01-08", "yer_id": "T", "duygu": ["t"] },\n'
++        '{ t : "1999-01-09", yer_id : "U", duygu: ["u"] },\n'
++        '{ t:"1999-01-10", alt_kronoloji:[{ t:"1999-01-11", yer_id:"V" }] },\n'
++        '{ t:"1999-01-12", yer_id:"" },\n'
++        '*/\n{ t:"1999-01-07", yer_id:"S", duygu:["s"] }\n];\n')
++    K = D.kronoloji_say([p])
++    for alan in ("madde", "duygu", "yer_id"):
++        dg, kb = olcu_dogru(p, alan, "BLOK")
++        sina("BLOK içinde // satırı %s: ölçülen %d = sayaç %s (blok geçişi %d)"
++             % (alan, dg, K.get(alan), kb), "hata" not in K and dg == K[alan])
++
++# 1006d: `_blok_bolgeleri` birim soruları — dizge ve `//` içindeki `/*` blok AÇMAZ
++for ad, metin, beklenen in (
++        ("gerçek blok", 'a /* x */ b', 1),
++        ("dizge içinde /*", 'k:"a/*b", d:"c*/d"', 0),
++        ("https:// sonrası /*", 'k:"https://x" // not /* değil\nb', 0),
++        ("kaçışlı tırnak sonrası blok", 'd:"a\\"b" /* y */', 1),
++        ("kapanmamış blok dosya sonuna kadar", 'a /* x', 1)):
++    sina("BLOK birim: %s → %d aralık" % (ad, beklenen),
++         len(_blok_bolgeleri(metin)) == beklenen, str(_blok_bolgeleri(metin)))
+ 
+ # ── YAPAY MADDE — yüksek riskli dosyalar büyüyünce sınav YANLIŞ ÖTMEMELİ ───
+ # (DALGA8 sınavı: olaylar.js ve ek8'e hem çıplak hem tırnaklı biçimde birer
+@@ -169,17 +279,26 @@ ESKI_SABIT = {("olaylar.js", "madde"): 81, ("olaylar.js", "yer_id"): 73,
+               ("olaylar_ek8.js", "yer_id"): 16,
+               ("olaylar_kamerika.js", "madde"): 11, ("olaylar_kamerika.js", "duygu"): 11,
+               ("olaylar_kamerika.js", "yer_id"): 11,
+-              ("olaylar_ek21.js", "duygu"): 4, ("olaylar_ek22.js", "duygu"): 1}
++              ("olaylar_ek21.js", "duygu"): 4, ("olaylar_ek22.js", "duygu"): 1,
++              # 1006d: eski SH110/SK105 sabitleri — yapay maddeyle BAYATLAMALI
++              ("olaylar_sh110.js", "madde"): 0, ("olaylar_sh110.js", "duygu"): 0,
++              ("olaylar_sh110.js", "yer_id"): 0,
++              ("olaylar_sk105.js", "madde"): 0, ("olaylar_sk105.js", "duygu"): 0,
++              ("olaylar_sk105.js", "yer_id"): 0}
+ # DALGA9: kamerika · ek21 · ek22 aynı yönteme alındı; yapay maddeye ÜÇÜNCÜ biçim
+ # (boşluklu çıplak: `t : "…"` · `yer_id : "…"` · `duygu: […]`) eklendi — her
+ # dosya her biçimi görür.
+ YAPAY = ('{ t:"1999-01-01", b:"YAPAY çıplak", yer_id:"X", duygu:["x"] },\n'
+          '{ "t": "1999-01-02", "b": "YAPAY tırnaklı", "yer_id": "Y", "duygu": ["y"] },\n'
+-         '{ t : "1999-01-03", b:"YAPAY boşluklu", yer_id : "Z", duygu: ["z"] },\n')
++         '{ t : "1999-01-03", b:"YAPAY boşluklu", yer_id : "Z", duygu: ["z"] },\n'
++         # 1006d: DÖRDÜNCÜ biçim — blok yorumlu madde SAYILMAMALI (her dosyada)
++         '/* { t:"1999-01-04", b:"YAPAY blokta", yer_id:"W", duygu:["w"] }, */\n')
+ YAPAY_DOSYA = (("olaylar.js", "OLAYLAR", "ALT"), ("olaylar_ek8.js", "OLAYLAR_EK8", "JSON"),
+                ("olaylar_kamerika.js", "OLAYLAR_KAMERIKA", "JSON"),
+                ("olaylar_ek21.js", "OLAYLAR_EK21", "BOSLUK"),
+-               ("olaylar_ek22.js", "OLAYLAR_EK22", "BOSLUK"))
++               ("olaylar_ek22.js", "OLAYLAR_EK22", "BOSLUK"),
++               ("olaylar_sh110.js", "OLAYLAR_SH110", "BLOK"),
++               ("olaylar_sk105.js", "OLAYLAR_SK105", "BLOK"))
+ import tempfile
+ with tempfile.TemporaryDirectory() as td:
+     for dosya, degisken, kural in YAPAY_DOSYA:
