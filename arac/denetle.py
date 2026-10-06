@@ -1503,7 +1503,24 @@ def _2s_taraf_adaylari(sid):
 #   eder; iyileşince indirilir.
 # ═══════════════════════════════════════════════════════════════════════════
 KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
-              "maskeli_yer": 0, "maskeli_yalniz_taraf": 0}
+              "maskeli_yer": 0, "maskeli_yalniz_taraf": 0,
+              "gun_yer": 0, "gun_yalniz_taraf": 0,
+              "ocak1_yer": 0, "ocak1_yalniz_taraf": 0}
+# 🆕 6 Ekim 2026 — OCAK-1 KOVALARI BİRİM BAŞINA (W41b ölçtü, koordinatör onayı: SENARYO B).
+#   `YYYY-01-01` kırılması yıl-temsilîdir: o kovadaki yerler aynı OLAYI değil aynı YILI
+#   paylaşır. Kova eşitliği bir olay iddiası taşımadığı için "kovadaki HER yer açıklanmalı"
+#   (Mankup 1349) kuralı orada maske üretir: ölçüldü (47290f11) maskeli TARAF'ın %58'i
+#   (348/597) ve maskeli YER'in %42'si OCAK-1 kovalarındaydı; OCAK-1 kovalarının yalnız
+#   %19'u kapanıyordu (gün kovalarında %54). Uç vaka 1794-01-01: 5 Kanada noktası 126
+#   alakasız taraf birimini görünmez tutuyordu.
+#   ⇒ OCAK-1 kovasında AÇIKLANMIŞ her birim kendi başına GÖRÜNÜR sayılır, MASKELENMEZ.
+#   🔴 YALNIZ SAYIM değişir, HÜKÜM DEĞİŞMEZ: kovanın AÇIK/KAPALI kararı (Mankup kuralı),
+#   2s AÇIK sayısı, YIL-TEMSİLÎ BORÇ ve KAPSAM DIŞI aynen kalır.
+#   `yer`/`yalniz_taraf` = GÜN + OCAK-1 toplamı (öteki araçlar bu anahtarları okuyor —
+#   anlamları "görünür kapalı" olarak korunur). `maskeli_*` artık YALNIZ gün kovalarıdır.
+#   Görünür+maskeli TARAF toplamı (tavanın sorduğu sayı) bu değişiklikle KIPIRDAMAZ:
+#   OCAK-1'in maskeli birimi görünüre geçer, toplam aynı kalır (sınav:
+#   `denetim/ARAC-2SK-OCAK1-SINAV-1006.py`).
 # 🆕 🔴 ÜÇÜNCÜ SAYI (5 Ekim 2026, ONCE1281 ölçtü) — "acik_kovada": SAYACIN MASKESİ.
 #   `degismez2` güne göre TEK KOVA kurar ve kovadaki TEK bir yer açıklanmazsa kovadaki
 #   HİÇBİR birim kapalı sayılmaz (`eksik` dolu ⇒ fark 31 ⇒ AÇIK). Sonuç: büyük bir kova
@@ -1631,6 +1648,8 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
         #   sıfırlanmadığı için ikinci çağrıda 1654 → 3270 birikiyordu (ana akış tek
         #   çağrı yaptığından resmî sayı doğruydu; çoklu çağıran araç yanlış okurdu).
         KAPANIS_2S["acik_kovada"] = 0
+        for _a in ("gun_yer", "gun_yalniz_taraf", "ocak1_yer", "ocak1_yalniz_taraf"):
+            KAPANIS_2S[_a] = 0
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
@@ -1734,6 +1753,14 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                             _kol.append("yer" if _yer_uyan else "yalniz_taraf")
                         else:
                             eksik.append(ad)
+                    # 🆕 OCAK-1 kovası: SAYIM birim başına (bkz. KAPANIS_2S
+                    #   yorumu). Açıklanmış birim kovanın hükmünden BAĞIMSIZ
+                    #   görünür sayılır; aşağıdaki hüküm (eksik ⇒ AÇIK) aynen.
+                    _ocak1 = str(d)[4:] == "-01-01"
+                    if _ocak1:
+                        for _k in _kol:
+                            KAPANIS_2S[_k] += 1
+                            KAPANIS_2S["ocak1_" + _k] += 1
                     if eksik:
                         fark = 31          # açıklanmayan yerleşim VAR ⇒ AÇIK
                         kir[d]["eksik"] = eksik
@@ -1741,17 +1768,21 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                         #   ATILMIYOR, SAYILIYOR (bkz. KAPANIS_2S "acik_kovada"):
                         #   açıklanmış oldukları hâlde kovanın tek eksiği yüzünden
                         #   görünmez kalan birimler maskenin KENDİSİDİR.
-                        KAPANIS_2S["acik_kovada"] += len(_kol)
-                        # 🆕 6 Ekim 2026: maske KOLA göre de sayılır — 2sk tavanı
-                        #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
-                        for _k in _kol:
-                            KAPANIS_2S["maskeli_" + _k] += 1
+                        #   (OCAK-1 kovasında maske YOK — birimler yukarıda sayıldı.)
+                        if not _ocak1:
+                            KAPANIS_2S["acik_kovada"] += len(_kol)
+                            # 🆕 6 Ekim 2026: maske KOLA göre de sayılır — 2sk tavanı
+                            #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
+                            for _k in _kol:
+                                KAPANIS_2S["maskeli_" + _k] += 1
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
                         # 🆕 kırılma KAPANDI ⇒ birimlerin kolu ŞİMDİ sayılır
-                        for _k in _kol:
-                            KAPANIS_2S[_k] += 1
+                        if not _ocak1:
+                            for _k in _kol:
+                                KAPANIS_2S[_k] += 1
+                                KAPANIS_2S["gun_" + _k] += 1
                 else:
                     esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
                     if esli:
@@ -6020,6 +6051,12 @@ def main():
     print(f"Değişmez 2sk {'🧊' if not _trf_asim else '⚠️'}  kapanışın SINIFI: "
           f"{_k_top} kapalı = {_k_yer} YER anılarak + {_k_trf} YALNIZ TARAF ile "
           f"· yalnız-taraf görünür+maskeli {_k_trf_tum} (tavan {BEKLENEN_2S_YALNIZ_TARAF})")
+    # 🆕 6 Ekim 2026 — GÜN / OCAK-1 AYRI SÜTUN (bkz. KAPANIS_2S yorumu): OCAK-1 birim
+    #   başına sayılır, maskelenmez; maske yalnız gün kovalarındadır.
+    print(f"            GÜN    YER {KAPANIS_2S['gun_yer']:5} · TARAF {KAPANIS_2S['gun_yalniz_taraf']:5}"
+          f" · maskeli YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}")
+    print(f"            OCAK-1 YER {KAPANIS_2S['ocak1_yer']:5} · TARAF {KAPANIS_2S['ocak1_yalniz_taraf']:5}"
+          f" · maske YOK (yıl-temsilî kova birim başına sayılır)")
     _k_mask = KAPANIS_2S["acik_kovada"]
     if _k_mask:
         print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR "
