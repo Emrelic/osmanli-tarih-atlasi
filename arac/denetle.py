@@ -3517,8 +3517,8 @@ BILINEN_AYRI = {
      "Polonya birlikleri Kielce'ye yeniden girdi"),
     ("Alman ordusu Kielce'yi aldı",
      "Alman ordusu Łódź'u aldı"),
-    ("Mackensen'in birlikleri Zamość'u aldı",
-     "Radom Avusturya birliklerince işgal edildi (Temmuz 1915)"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `birlik` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Mackensen'in birlikleri Zamość'u aldı  ↔  Radom Avusturya birliklerince işgal edildi (Temmuz 1915)
     # ⭐ "AYNI YIL İŞARETİ + ÇELEBİ MEHMED" — 5 Ekim 2026, PAKET-0076-DOBRUCA-1004 (A).
     # Dobruca'nın 1416/1419 maddeleri inince tavan 113 → 115 oldu; iki çiftin ikisi de
     # YANLIŞ POZİTİF. Ortak olan yalnız yıl damgası (YYYY-01-01) ve Çelebi Mehmed:
@@ -3555,8 +3555,8 @@ BILINEN_AYRI = {
     #   Vestribygð / Batı Yerleşimi (Grönland İskandinav kolonisi)
     # İkisi de ~1350 ve ikisi de "terk edildi" — ortak kök `terk`+`edildi`
     # 6 harflik kırpmada eşleşiyor. Kaynakları, kıtaları, halkları ayrı.
-    ("Cahokia terk edildi",
-     "Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342)."),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `terk`/`edildi` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Cahokia terk edildi  ↔  Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon veri
     # ⭐ "1918 İŞGAL/GERİ ALIŞ KALIBI, AYRI ŞEHİR" — 30 Eylül 2026, MUKERRER-KAPI-0930.
     # `olaylar_p0917dunya.js`e Kerkük'ün iki maddesi (TDV kerkuk) inince tavan
     # 114 → 117 oldu; üç çiftin üçü de YANLIŞ POZİTİF. Ortak olan yalnız başlık
@@ -3610,10 +3610,10 @@ BILINEN_AYRI = {
      "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi"),
     ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
      "Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi"),
-    ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
-     "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim"),
-    ("Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi",
-     "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `kuruld` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Fort Halkett kuruldu — Liard boyunca kürk hattı  ↔  Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `kuruld` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk   ↔  Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim
     # ⭐ "ASKERÎ OLAY ile KÜLTÜR OLAYI" SINIFI — 30 Ağustos 2026.
     # 1534-12-04'te iki madde var ve ikisi AYRI CİNSTEN:
     #   "Bağdat'ın fethi — Irakeyn Seferi"                    ← ASKERÎ
@@ -3726,8 +3726,8 @@ BILINEN_AYRI = {
     # ve kişiler bile ayrı (I. Mahmud ↔ Yeğen Mehmed Paşa, Mengli Giray II).
     # 📌 "Mostar ↔ Edirnekapı" sınırının cephe tarafı: orada ortak olan
     # USTAYDI, burada FİİL.
-    ("Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı",
-     "Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılması"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, genel kelimeyle ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı  ↔  Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılma
     # Tâif ve Mekke AYRI düştü, 88 gün arayla — TDV `mekke`: 30 Nisan 1803
     # Suûd birinci kez işgal. Başlık KALIBI ("Vehhâbîlerin … ele geçirmesi")
     # tetikledi, olayların benzerliği değil.
@@ -3747,24 +3747,27 @@ BILINEN_AYRI = {
     # maddesi iki olayı anlatabilir ve doğru davranış zaten budur. Bu, "kaynak
     # slug'ı güçlü sinyal" hipotezimin ölçülmüş bir karşı örneğidir.
     ("Şûrâ-yı Devlet kuruldu", "Şûrâ-yı Devlet'in açılışı: Osmanlı Danıştayı'nın kuruluşu"),
-    ("Halep'in Osmanlı hâkimiyetine girişi", "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü — Halep başlığı evrende yok:
+    #    Halep'in Osmanlı hâkimiyetine girişi  ↔  Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi
     ("Rodos'un İtalyan işgali", "Onikiada'nın İtalyan işgali"),
-    ("Erzurum Kongresi'nin toplanması", "Sivas Kongresi'nin toplanması"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü — iki başlık da evrende yok:
+    #    Erzurum Kongresi'nin toplanması  ↔  Sivas Kongresi'nin toplanması
     ("Koron'un Venedik'e kaybı", "Modon'un Venedik'e kaybı"),
     ("Ayamavra'nın (Lefkada) Venedik'e kaybı", "Koron'un Venedik'e kaybı"),
     ("Hotin Kalesi'nin Ruslara kaybı", "Bender'in Ruslara kaybı"),
     ("Alemdar Mustafa Paşa'nın ölümü", "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi"),
-    ("Şah Abbas'ın karşı taarruzu — Tebriz'in kaybı", "Revan'ın Şah Abbas'a kaybı"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
+    #    Şah Abbas'ın karşı taarruzu — Tebriz'in kaybı  ↔  Revan'ın Şah Abbas'a kaybı
     ("Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık", "Yenişehir'in kuruluşu"),
     ("Mudanya limanının abluka altına alınışı", "Mudanya'nın alınışı"),
     ("Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi",
      "Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması"),
     ("Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması",
      "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması"),
-    ("Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın alınması",
-     "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması"),
-    ("Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması",
-     "Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
+    #    Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın   ↔  Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adalar
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
+    #    Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bas  ↔  Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması
     ("Sofya'nın fethi", "Niş'in fethi"),
     ("Kudüs'ün kaybı", "Şam'ın kaybı"),
 
@@ -3912,20 +3915,38 @@ KESIN_ORTAK_KISI = 3        # ya da bu kadar ortak kişi
 
 
 def _kisiler_kumesi(o):
-    """Maddedeki kişi adlarını normalize eder (soyad/lakap köküne indirir)."""
-    ham = (o.get("kisiler") or "") + ", " + (o.get("b") or "")
-    parcalar = re.split(r"[,;()]", ham)
+    """Maddedeki kişi adlarını normalize eder (soyad/lakap köküne indirir).
+
+    🔴 5 Ekim 2026 (UMIT-W11-OLCUT-1006b): BAŞLIKTAN YALNIZ ÖZEL AD alınır
+    (büyük harfle başlayan kelime); `kisiler` alanı eskisi gibi tamamen.
+    Eskiden başlığın HER 4+ harfli kelimesi "kişi" sayılıyordu: kesin kişi
+    kademesinin 68/68'i başlık kelimesine dayanıyordu (`kralli` 16 ·
+    `siniri` 11 · `kurdu` · `terk` · `edildi` · `birlik` …) ve yıl damgalı
+    "X krallığı kuruldu" maddelerini birbirine "kişi!" diye bağlıyordu.
+    Ölçüldü (evren 2187, kesin 112):
+      • başlıktan HİÇ almamak (kisiler boşsa) → 45: Lozan ×2, Bükreş ×5,
+        Versay ×5, Trianon ×3 … SAHİCİ mükerrerleri de KÖR eder — REDDEDİLDİ
+      • 52 kelimelik genel-kelime listesi      → 95 (17 çıkan, 0 giren)
+      • YALNIZ ÖZEL AD (bu hâl)                → 95, AYNI 17 çıkan, 0 giren
+    Liste gerektirmeyen yapısal çare seçildi: özel adlar (Lozan, Versay,
+    Bükreş) sahici mükerreri yakalamaya devam eder, genel fiil/isim düşer.
+    """
     kumesi = set()
-    for p in parcalar:
-        for w in p.split():
-            w = w.strip("'’.\"").translate(_KATLA).lower()
-            # sıra sayısı (I., II., IV.) ve kısa/genel kelimeler atılır
-            if len(w) < 4 or w in {"sultan", "pasa", "pasanin", "bey", "han",
-                                   "hanin", "efendi", "gazi", "sah", "kral"}:
-                continue
-            if re.fullmatch(r"[ivxlcdm]+", w):
-                continue
-            kumesi.add(w[:6])
+    for ham, yalniz_ozel in ((o.get("kisiler") or "", False),
+                             (o.get("b") or "", True)):
+        for p in re.split(r"[,;()]", ham):
+            for w in p.split():
+                w = w.strip("'’.\"")
+                if yalniz_ozel and not w[:1].isupper():
+                    continue
+                w = w.translate(_KATLA).lower()
+                # sıra sayısı (I., II., IV.) ve kısa/genel kelimeler atılır
+                if len(w) < 4 or w in {"sultan", "pasa", "pasanin", "bey", "han",
+                                       "hanin", "efendi", "gazi", "sah", "kral"}:
+                    continue
+                if re.fullmatch(r"[ivxlcdm]+", w):
+                    continue
+                kumesi.add(w[:6])
     return kumesi
 
 
@@ -3999,16 +4020,16 @@ def onek_olcutu(O):
         for j in range(i + 1, len(S)):
             if _gun_no(S[j]["t"]) - gi > MUKERRER_GUN:
                 break
-            cift = (S[i]["b"], S[j]["b"])
-            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
-                continue
+            istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             ortak = len(a & b)
             eski = ortak / (len(a) + len(b) - ortak) if (a and b) else 0.0
             if eski >= MUKERRER_ESIK:
                 continue                      # zaten bugünkü ölçüt yakalıyor
             yeni = _onek_orani(_tam_kokler(S[i]["b"]), _tam_kokler(S[j]["b"]))
-            if yeni >= MUKERRER_ESIK:
+            if yeni >= MUKERRER_ESIK and istisna:
+                _BILINEN_AYRI_KULLANILAN.add(istisna)   # önek ötüyordu, bastırıldı
+            elif yeni >= MUKERRER_ESIK:
                 out.append((round(yeni, 3), S[i]["t"], S[i]["b"],
                             S[j]["t"], S[j]["b"]))
     return sorted(out, reverse=True)
@@ -4086,6 +4107,29 @@ def savas_senkronu(S, O):
     return len(S), aykiri
 
 
+# 🔴 ÖLÜ İSTİSNA İZİ — 5 Ekim 2026 (UMIT-W11-OLCUT-1006b). Bir `BILINEN_AYRI`
+# girdisi ancak bir çifti GERÇEKTEN bastırıyorsa canlıdır: çift o gün
+# ölçütlerden birine (mükerrer ya da önek) takılıyor olmalı. Hiçbir şey
+# bastırmayan girdi ÖLÜDÜR ve ölü istisna zararlıdır: başlık o adla yeniden
+# yazılınca ya da ölçüt kayınca İLK gerçek ihlali sessizce yutar.
+# Ölçüldü (evren 2187): eski ölçütte 60 girdinin 5'i ölüydü (2'sinin başlığı
+# evrende hiç yoktu); özel ad ölçütüne geçince 5'i daha öldü (yalnız genel
+# kelimeyle ötüyorlardı) → 10'u silindi. ⚠️ İz İKİ işlevde tutulur, çünkü
+# ikisi de BILINEN_AYRI'yı okur: yalnız mükerrere bakan ilk sayım Şûrâ-yı
+# Devlet ve Tomanbay'ı "ölü" saymıştı, oysa ikisi ÖNEK ölçütünde bastırıyor.
+# Sayaç `main`de basılır.
+_BILINEN_AYRI_KULLANILAN = set()
+
+
+def _bilinen_ayri(cift):
+    """`cift` istisnadaysa listedeki YÖNÜYLE döner, değilse None."""
+    if cift in BILINEN_AYRI:
+        return cift
+    if cift[::-1] in BILINEN_AYRI:
+        return cift[::-1]
+    return None
+
+
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
     S = sorted(O, key=lambda o: o["t"])
@@ -4096,9 +4140,7 @@ def mukerrer_maddeler(O):
             fark = _gun_no(S[j]["t"]) - gi
             if fark > MUKERRER_GUN:
                 break                       # sıralı: bundan sonrası daha da uzak
-            cift = (S[i]["b"], S[j]["b"])
-            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
-                continue
+            istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             oran = 0.0
             if a and b:
@@ -4122,6 +4164,9 @@ def mukerrer_maddeler(O):
                     olcut = ("kişi!" if kesin else "kişi:") + \
                         ",".join(sorted(ortak)[:3])
             if olcut is None:
+                continue
+            if istisna:                     # çift ötüyordu, istisna BASTIRDI
+                _BILINEN_AYRI_KULLANILAN.add(istisna)
                 continue
             bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
     return bulunan
@@ -6419,7 +6464,9 @@ def main():
     # yanlis pozitif `BILINEN_AYRI`ya girdi (Nyiginya/Kintu · Cahokia/Vestribygd)
     # ve sayi 113'e DUSTU. Tavan asagi da takip edilir — yoksa 114'te kalsa
     # yarin dogacak GERCEK bir mukerrer "114 <= 114" diye gecer.
-    BEKLENEN_MUKERRER = 113
+    # 6 EKIM 2026: 113 -> 95. MUKERRER-OLCUT-1006 ile ayni commit'te (3.4-2);
+    # olcut daraldi, 112 -> 95 olculdu (yazmadan hemen once, makine/umit).
+    BEKLENEN_MUKERRER = 95
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True
@@ -6467,6 +6514,23 @@ def main():
             print(f"                     {t2:11s} {b2[:44]}")
         if not args.ayrinti and len(onek) > 6:
             print(f"              … {len(onek)-6} çift daha (--ayrinti)")
+
+    # ÖLÜ İSTİSNA SAYACI — 5 Ekim 2026, UMIT-W11-OLCUT-1006b (koordinatör onayı).
+    # Yukarıdaki iki ölçüt koştuktan SONRA okunur: iz ikisinde de tutuluyor.
+    # Bir girdi hiçbir çifti bastırmıyorsa ÖLÜDÜR → SİL. Sayı değil LİSTE
+    # basılır: hangi girdinin öldüğü, kimin sileceğini söyler.
+    BEKLENEN_OLU_ISTISNA = 0
+    olu = sorted(c for c in BILINEN_AYRI if c not in _BILINEN_AYRI_KULLANILAN)
+    durum_olu = "✓" if len(olu) <= BEKLENEN_OLU_ISTISNA else "✗"
+    if len(olu) > BEKLENEN_OLU_ISTISNA:
+        ihlal = True
+    print(f"Ek denetim  {durum_olu}  ölü istisna: {len(olu)} / {len(BILINEN_AYRI)} "
+          f"`BILINEN_AYRI` girdisi hiçbir çifti bastırmıyor "
+          f"(beklenen ≤{BEKLENEN_OLU_ISTISNA})")
+    for a1, b1 in olu:
+        print(f"    ölü: {a1[:50]}  ↔  {b1[:50]}")
+    if olu:
+        print("    → başlık değişti ya da ölçüt kaydı: girdiyi BILINEN_AYRI'dan SİL")
 
     # Ek denetim 7 — SAVAŞ ↔ KRONOLOJİ: haritadaki ⚔ anlatılıyor mu
     try:
