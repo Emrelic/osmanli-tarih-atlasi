@@ -455,7 +455,7 @@ window.KRONOLOJI_BIZANS = [
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Osmanlı ordusu ilk kez topla desteklenen düzenli bir kuşatma başlattı; Anadolu'da çıkan şehzade isyanı üzerine kuşatma kaldırıldı. Bizans için bu, fetret devrinin kazandırdığı nefes payının bittiğinin haberiydi.",
-  kaynak:"bizans" },
+  kaynak:"bizans · TDV `murad-ii`: \"II. Murad bunun arkasından Bizans üzerine yürüdü (Receb 825 / Haziran 1422). Elli günden fazla süren kuşatma sonuç vermedi.\" · BEYAN (MGGP-NOT): kullanılan gün 06-08 KAYNAKSIZ, değişmedi (akademik kaynak turu bekliyor) · kullanılmayan: künyedeki 06-10 (o da kaynaksız) · ⚠️ TDV KENDİ İÇİNDE: 26 Muharrem 825 = 20 Ocak 1422'den sayınca 1 Receb 825 ≈ 21 Haziran 1422 — \"Receb\" ile \"Haziran\" yalnız 21-30 Haziran'da örtüşür, 06-08 ve 06-10 Receb'e düşmez (KRONO-CELISKI-1006 §3.2)" },
 
 { t:"1423-09-14", b:"Selanik Venedik'e devredildi — savunulamayan şehrin satışı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],

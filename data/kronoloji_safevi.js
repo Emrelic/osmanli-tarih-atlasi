@@ -80,7 +80,7 @@ window.KRONOLOJI_SAFEVI = [
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ", yer_id:"Nahçıvan" },
 
 // === B) KURULUŞ SONRASI GENİŞLEME (1501-1510) ===============================
-{ t:"1503-06-01", b:"Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı", gun:"Haziran 1503? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+{ t:"1503-06-01", b:"Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı", gun:"Haziran 1503? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): `safeviler` \"909’da (1503)\", `sah-ismail` \"908/1503\" — 908↔909 sınırı Haziran 1503, ikisi de miladî 1503 verir; yıl değişmedi (KRONO-CELISKI-1006 §3.3)", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak","konu-askeri"],
   d:"İsmail, Akkoyunlu artığı Murad Bey'i Hemedan yakınında yenerek Fars, Irak-ı Acem ve Kirman'ı ele geçirdi; Akkoyunlu Devleti'nin son direnç noktaları böylece ortadan kalktı ve Safevî egemenliği İran'ın büyük kısmına yayıldı.",
   kaynak:"Encyclopaedia Iranica, madde: AQ QOYUNLU", yer_id:"Hemedan" },
@@ -88,6 +88,14 @@ window.KRONOLOJI_SAFEVI = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"İsmail'in orduları, İran'ın orta ve güney-doğu kentlerini (Kâşân, Yezd, Kirman) art arda ele geçirerek merkezî İran'da rakip hânedan artığı bırakmadı; bu genişleme kuruluşun ilk üç yılını kapsayan on iki seferlik dizinin bir parçasıdır.",
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ · yezd (TDV: \"Şah İsmâil 28 Cemâziyelâhir 910 (6 Aralık 1504) tarihinde bir aylık bir kuşatmanın ardından şehre girdi\")", yer_id:"Yezd" },
+{ t:"1507-01-01", b:"Diyarbekir ve yöresi Safevîlere bağlandı — Dulkadıroğlu Alâüddevle Bey'e karşı sefer", gun:"yıl — TDV ay/gün vermiyor · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): kullanılan yıl 1507 · `safeviler` 912 H (Mayıs 1506 – Mayıs 1507), `sah-ismail` 913 H (Mayıs 1507 – Mayıs 1508) — iki hicrî yıl, miladî 1507 ortak; seçilmedi (KRONO-CELISKI-1006 §3.4)", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["askeri","toprak","konu-askeri"],
+  d:"Dulkadıroğlu Alâüddevle Bey'in Diyarbekir'i ele geçirip Akkoyunlu Murad Bey'i yeniden tahta çıkarma girişimi üzerine Şah İsmâil Erzincan üzerinden Osmanlı topraklarına girdi, Maraş ve Elbistan'ı tahrip etti; Diyarbekir ve yöresi Safevîlere bağlandı.",
+  kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu.\" · TDV `sah-ismail`: \"913 (1507) yılında Şah İsmâil, hâkimiyetini Diyarbekir’e doğru genişletmeye çalışan Dulkadıroğlu Alâüddevle Bey’e karşı yürüdü.\" · künyeden taşındı: devletler.js eski 1503-01-01 \"Diyarbekir, Bağdat ve Musul\" (KRONO-CELISKI-1006 §2 #29)", yer_id:"Diyarbakır" },
+{ t:"1508-01-01", b:"Bağdat savaşsız Safevî hâkimiyetine girdi", gun:"yıl — 914 H (Mayıs 1508 – Nisan 1509); TDV ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["askeri","toprak","konu-askeri"],
+  d:"Şah İsmâil Irâk-ı Arab'a yürüdü; Bağdat hâkimi Pürnek Bârik Bey şehri terk etti, Bağdat savaşsız alındı ve şehirdeki Türkmenlerin büyük bölümü kılıçtan geçirildi. Şah ardından Kerbelâ, Necef ve Sâmerrâ'daki imam türbelerini tamir ettirdi.",
+  kaynak:"TDV `sah-ismail`: \"914’te (1508) Irâk-ı Arab’a yürüdü. … Bağdat savaşsız zaptedildikten sonra şehirdeki Türkmenler’in büyük bölümü kılıçtan geçirildi.\" · TDV `safeviler`: \"Ertesi yıl Bağdat hâkimiyet altına alındı.\" · künyeden taşındı (KRONO-CELISKI-1006 §2 #29)", yer_id:"Bağdat" },
 { t:"1508-09-01", b:"Bağdat'ta Ebû Hanîfe ve Abdülkādir-i Geylânî türbelerinin tahribi", gun:"Eylül 1508? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor", tur:"din", onem:3, dunya:2, kapsam:"ic",
   etiket:["din","siyaset","konu-siyasi","konu-din","konu-imar"],
   d:"Bağdat'ın fethinin ardından Kızılbaş kuvvetleri, Şiî olmayan büyük âlimlerin türbelerine yönelik yıkım eylemlerine giriştiği kaynaklarda anlatılır; bu olay dönemin sert mezhep siyasetinin bir örneği olarak hem Şiî hem Sünni tarihyazımında farklı şekillerde anılır — taraflar arasında bugün de tartışmalı bir konudur.",

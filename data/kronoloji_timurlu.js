@@ -121,10 +121,10 @@ window.KRONOLOJI_TIMURLU = [
   d:"Timur'un ölümü imparatorluğu tek bir mirasçıya bırakmadı: torunu Halil Sultan Semerkant'ta tahta çıkarken oğlu Şahruh Herat'tan hak iddia etti, öteki oğullar ve torunlar da kendi bölgelerinde bağımsız hareket etmeye başladı.", ic_not_d:"Dört yıl sürecek bu iç savaş, `kronoloji_iran.js`in 1405 ve 1409 tarihli maddeleri arasındaki boşluğu dolduruyor.",
   kaynak:"TDV `timurlular` — hanedanın taht mücadelesi genel hatlarıyla anlatılıyor, gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
 
-{ t:"1409-05-01", b:"Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu", tur:"birlesme", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
+{ t:"1409-05-13", b:"Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu", gun:"27 Zilhicce 811 / 13 Mayıs 1409 (TDV `sahruh`) · eski t 1409-05-01 ay başı yer tutucuydu, kaynağı yoktu (KRONO-CELISKI-1006 §2 #21)", tur:"birlesme", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
   etiket:["hanedan","siyaset","konu-siyasi","konu-hanedan"],
   d:"Dört yıllık iç savaşın ardından Şahruh, yeğeni Halil Sultan'ı Semerkant'tan çıkarıp imparatorluğun büyük kısmını yeniden tek elde topladı; ancak başkenti Semerkant'ta değil kendi merkezi Herat'ta tuttu, Semerkant'ın yönetimini oğlu Uluğ Bey'e bıraktı. Bu ikili başkent düzeni (Herat'ta siyaset, Semerkant'ta bilim) Timurlu 'altın çağı'nın kurumsal iskeletini oluşturdu.",
-  kaynak:"TDV `timurlular`: Şahruh'un 1409'da hanedan birliğini sağladığı ve Semerkant'ın yönetimini Uluğ Bey'e bıraktığı — gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
+  kaynak:"TDV `sahruh`: \"27 Zilhicce 811 (13 Mayıs 1409) tarihinde hiçbir mukavemetle karşılaşmadan Semerkant’a giren Şâhruh, altı ay sonra şehirden ayrılırken buranın ve Mâverâünnehir’in idaresini oğlu Uluğ Bey’e ve onun atabegi Şah Melik’e bıraktı.\" · TDV `timurlular`: \"1409’da hâkimiyeti ele geçiren Timur’un küçük oğlu Şâhruh\"" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. ULUĞ BEY VE SEMERKANT'IN BİLİM ÇAĞI (1417-1449)
@@ -153,7 +153,7 @@ window.KRONOLOJI_TIMURLU = [
 { t:"1449-10-25", b:"Uluğ Bey, öz oğlu tarafından öldürüldü", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Semerkant",
   etiket:["hanedan","kriz","din","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan","konu-din"],
   d:"Oğlu Abdüllatif'in isyanıyla Semerkant yakınında yenilen Uluğ Bey, tahttan indirildi ve dinî sapkınlık suçlamasıyla (rasathane çalışmalarının bazı din adamlarınca 'İslâm'a aykırı' görülmesi) idam edildi — kaybettikten yalnız birkaç hafta sonra. Bilim tarihinin en verimli hükümdarlarından birinin bu trajik sonu, Timurlu birliğinin de fiilen sonu oldu; imparatorluk artık kalıcı olarak parçalı kalacaktı.",
-  kaynak:"TDV `ulug-bey`: \"Oğlu Abdüllatif ile giriştiği mücadelede Semerkant yakınında yenilip 1449'da (25 Ekim) idam edildi\"" },
+  kaynak:"TDV `ulug-bey`: \"Devletşah Uluğ Bey’in ölüm tarihini 8 Ramazan 853 (25 Ekim 1449) şeklinde gösteriyorsa da … mezar taşında 10 Ramazan yazılıdır.\" · BEYAN (MGGP-NOT): kullanılan gün 1449-10-25 (Devletşah) · kullanılmayan kaynaklı gün 10 Ramazan 853 ≈ 27 Ekim 1449 (mezar taşı) · neden: TDV iki tanığı da aktarıyor, seçmiyor (§4 ⑥) · önceki tırnaklı cümle (\"…1449'da (25 Ekim) idam edildi\") TDV gövdesinde birebir YOK, gerçek cümleyle değiştirildi (KRONO-CELISKI-1006 §3.5)" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. HERAT'IN SON ALTIN ÇAĞI — HÜSEYİN BAYKARA DÖNEMİ (1469-1507)

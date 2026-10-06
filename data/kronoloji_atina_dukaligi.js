@@ -66,7 +66,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
-  kaynak:"TDV 'atina' md.: \"1387: Floransalı Korinthos derebeyi Nerio Acciajuoli tarafından ele geçirildi\" · Setton, Catalan Domination of Athens 1311-1388 · ⚠️ TDV 1387 diyor, alt şehir 1387'de, Akropolis Mayıs 1388'de düştü — ikisi de kaynakta" },
+  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23)" },
 
 { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],

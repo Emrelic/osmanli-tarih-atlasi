@@ -248,7 +248,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1522-12-21", b:"Rodos'un teslim şartlarının kabulü — 212 yıllık devletin sonu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","antlasma","son","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Altı aylık kuşatmanın sonunda L'Isle-Adam teslim şartlarını kabul etti; şövalyelere silâh ve bayraklarıyla adadan çıkma, halka din serbestliği ve beş yıl vergi muafiyeti tanındı. Kanûnî'nin bu cömert şartları, tarikatı yok etmek yerine uzaklaştırmayı tercih ettiğini gösterir ve sonradan çok tartışılmıştır. Rodos'taki şövalye devleti böylece sona erdi.",
-  kaynak:"TDV 'rodos' md.: \"1 Safer 929'da (20 Aralık 1522)\" şehrin alınışı · Vatin (1994) · ⚠️ dizinde `1522-12-25` yazılı; TDV 20 Aralık, teslimin imzası 21 Aralık — devletler.js'i DÜZELTMEDİM, koordinatöre bildirdim · 🟢 `dunya:4` referansı BEN kuruyorum" },
+  kaynak:"TDV `rodos`: \"Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.\" · Vatin (1994) (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1522-12-21 (Vatin: teslim şartlarının imzası) · kullanılmayan kaynaklı gün 1522-12-20 (TDV: fetih) · künyedeki 1522-12-25 hiçbir kaynakta yok · neden: iki kaynak iki gün veriyor, tek seçilmez (§4 ⑥) (KRONO-CELISKI-1006 §2 #28) · 🟢 `dunya:4` referansı BEN kuruyorum" },
 
 { t:"1523-01-01", b:"Şövalyelerin Rodos'tan ayrılması — tarikatın topraksız kalması", tur:"son", onem:5, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","sosyal","konu-askeri","konu-siyasi","konu-din","konu-sosyal"],
