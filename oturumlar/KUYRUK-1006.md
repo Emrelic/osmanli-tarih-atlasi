@@ -201,11 +201,18 @@ kaynaksızlık (hicbiri/donem_ici/kayıt)
 20 BETİKLE KESİŞİM                 0        ⇒ GEÇERSİZ TAVAN YOK
 ek kontrol                         odak_olc ve odak_cozum'da "paket_" / "index.html" grep 0
 ```
-🔴 **AMA KALAN RİSK AYNEN DURUYOR ve tavan dışıdır:** o 20 betiğin ÜRETTİĞİ RAPOR
-SAYILARI (ör. `ANTLASMA-KADEME` "238 isg", `ODAK-ASYA-0080-ara/-dok` çıktıları)
-paketlemeden bu yana **10 yerleşimlik evrene** aittir. **O raporlara dayanan her HÜKÜM
-geçersizdir.** Taraması `SESSIZ-SIFIR-1006`nın alt sorusudur: *"20 betiğin hangi raporu,
-hangi kararın dayanağı oldu?"*
+⚠️ **BU PARAGRAF ÇÜRÜDÜ — W32 ÖLÇTÜ (6 Ekim), aşağıdaki iddia ÇOK GENİŞTİ:**
+~~*"o 20 betiğin ürettiği RAPOR SAYILARI paketlemeden bu yana 10 yerleşimlik evrene aittir;
+o raporlara dayanan her HÜKÜM geçersizdir."*~~
+🔴 **ÖLÇÜM:** 20 betiğin **20'si** ve dayanak raporları **13-28 Eylül**'de koştu; paketleme
+**29 Eylül** (`af0c78c6`) ⇒ hepsi **TAM EVRENDE** koşmuş ⇒ **RAPORLAR GEÇERLİ.**
+`OLCULECEK-0930` da kendi kusurunu yakalayıp düzeltilmiş kopyayla ölçmüş ⇒ geçerli.
+**KİRLENEN YALNIZ ÜÇ KOVA** (W27 envanteri): `ANTLASMA-KADEME-SINAV` · `ODAK-ASYA-sina` ·
+`HALKA-SINA`. Düzeltme koordinatörde.
+📌 **Dersi:** bir kusurun VARLIĞINI ölçmek, onun KAPSAMINI ölçmek değildir. Yükleyici
+kusuru gerçekti (20 betik, 4299→10); ama "o zamandan beri her rapor çürük" cümlesi
+TARİHİ hiç sormadan yazıldı — ve tarih sorulunca iddia düştü. Kapsam, kusurdan ayrı
+ölçülür.
 🔴 **VE ODAK KAPISINDA İKİNCİ BİR AYRIŞMA ÖLÇÜLDÜ:** `odak_olc.canli_dosyalar()`
 **KAYNAK** dosyaları okuyor (`os.listdir(data)`), tarayıcı ise **PAKETİ** yüklüyor. Paket
 bayatlarsa odak kapısı tarayıcının HİÇ GÖRMEDİĞİ bir evreni ölçer. Bugün `paketle sina`
