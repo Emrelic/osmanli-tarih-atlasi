@@ -894,9 +894,14 @@ function bVeriKapisi() {
   }
   // 🔴 VARSAYILAN PASİF, yoklama TEMBEL. İlk sürüm açılışta HEAD atıyordu ve
   // dosya yokken HER ZİYARETÇİYE bir 404 ödetiyordu (ölçüldü, ağ kaydında
-  // `HEAD …ufuk_bantlari.js → 404`) — yayın kapısının 3b6c4b62'de kapattığı
-  // sınıfın ta kendisi. Artık yalnız seçiciye YAKLAŞAN kullanıcı bir kez
-  // yoklar; dosya varsa seçenekler o an açılır.
+  // `HEAD …ufuk_bantlari.js → 404`; o gün yoklanan HAM dosyaydı) — yayın
+  // kapısının 3b6c4b62'de kapattığı sınıfın ta kendisi. Artık yalnız seçiciye
+  // YAKLAŞAN kullanıcı bir kez yoklar; dosya varsa seçenekler o an açılır.
+  // Bugün HEAD `UFUK_DOSYALAR[0]` = `data/ufuk_bantlari_ust.js`e gider (6 Eki
+  // 2026, UMIT-W48). Zincir: uret_petek.py (`MOTOR_UFUK_BANT`) → ham
+  // `data/ufuk_bantlari.js` (.gitignore, yayında YOK) → `arac/kodla.py … bant`
+  // → takipli `ufuk_bantlari_ust.js` + `ufuk_bant_parcalar.js` → tembel <script>
+  // (`ufukYukle`). Ham dosya artık hiç yoklanmaz.
   ufukDurum(false);
   var yoklandi = false;
   function yokla() {
@@ -5195,6 +5200,8 @@ function isyanYayilmaUret() {
 //    değişken tanımlanır, burası ona HİÇ BAKMAZDI. Ne hata, ne uyarı.
 //    Karşılaştırma, aynı dosyada:
 //      app.js  OLAYLAR   /^OLAYLAR(_[A-Za-z0-9]+)?$/     ✅ ek ad alanı okunur
+//      (🔴 5 Ekim 2026: o desen de tek altçizgiydi, iki parçalı soneki
+//       eliyordu — `[A-Za-z0-9_]`e genişletildi, bkz. `olaylar` süzgeci)
 //      app.js  KORIDOR   /^KORIDOR_YAMA_[A-Za-z0-9]+$/   ✅ ek ad alanı okunur
 //      app.js  SEFERLER  window.SEFERLER                 🔴 ÇIPLAK AD
 //
@@ -7016,7 +7023,16 @@ document.addEventListener("keydown", function (e) {
 // 📌 DERS: elle listeyi desenle değiştirmek listeyi YOK ETMEZ, DESENİN İÇİNE
 // SAKLAR. `/^OLAYLAR(_EK\d*)?$/` görünüşte bir desen, gerçekte "kabul ettiğim
 // adların listesi"dir — ve sessizce bayatlar. Süzgeç artık ADLANDIRMA
-// KURALINDAN bağımsız: `OLAYLAR` ile başlayan her global kabul edilir.
+// KURALINDAN bağımsız: çıplak `OLAYLAR` ve `OLAYLAR_<sonek>` (sonek harf ·
+// rakam · ALTÇİZGİ) biçimindeki her dizi global kabul edilir.
+// 🔴 5 Ekim 2026 (UMIT-W1-OLAYLAR-1006, tasnif O7) — bu cümle 16 Ağustos'tan
+//    beri YANLIŞTI: desen `/^OLAYLAR(_[A-Za-z0-9]+)?$/` idi, yani sonekte
+//    altçizgi YOK. İki parçalı sonekli 7 dosya (OLAYLAR_2S_0919 · _2S_0918 ·
+//    _CUKUROVA_0907 · _0073_IRAN_YANYA · _SENUSI_0919 · _ORTADOGU_0919 ·
+//    _SENKRON_0930) index.html'de yükleniyor, Değişmez 2 onları `olaylar*.js`
+//    globuyla SAYIYOR, ama 112 madde ekrana HİÇ düşmüyordu — kapı temiz,
+//    ekran eksik. `OLAYLAR_7A4170` vakasının aynısı, bir kademe içeride.
+//    Çare SEFERLER süzgecinin emsali (`seferKayitlariniTopla`): sonek `[A-Za-z0-9_]`.
 // ⚠️ Sıralama DAVRANIŞI DEĞİŞMEDİ: OLAYLAR(0) → _EK(1) → _EK2..EK16 aynı
 // yerde; ad kuralına uymayanlar 999'a düşüp ARALARINDA ADA GÖRE sıralanır
 // (kararlı ve öngörülebilir). Sıra yalnız AYNI GÜNE denk gelen maddeler
@@ -7037,7 +7053,7 @@ var dunyaAcik = localStorage.getItem("dunyaAc") === "1";
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
 var olaylar = Object.keys(window)
-  .filter(function (k) { return /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(window[k]); })
+  .filter(function (k) { return /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(window[k]); })
   .sort(function (a, b) {
     var f = olaylarAnahtarSiraNo(a) - olaylarAnahtarSiraNo(b);
     return f !== 0 ? f : (a < b ? -1 : a > b ? 1 : 0);

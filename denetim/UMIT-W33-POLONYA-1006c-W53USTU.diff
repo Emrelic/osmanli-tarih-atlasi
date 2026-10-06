@@ -1,0 +1,22 @@
+diff --git a/data/olaylar_ok109.js b/data/olaylar_ok109.js
+index 06e1eb4c..ef357ba4 100644
+--- a/data/olaylar_ok109.js
++++ b/data/olaylar_ok109.js
+@@ -254,6 +254,17 @@ window.OLAYLAR_OK109 = [
+   // Kaynaklar `isg:` alanlarında duruyordu; hepsi bu oturumda YENİDEN OKUNDU (yalnız
+   // Prekmurje hariç; notu maddede). Atlas kaydı DAYANAK olarak kullanılmadı (§4).
+ 
++  {
++    t: "1918-11-11", k: "kurulus", etiket: ["siyaset", "konu-siyasi"],
++    kapsam:"dis", onem:4, b: "Polonya'nın bağımsızlığı — Naiplik Konseyi ordunun komutasını Piłsudski'ye verdi", yer_id:"Varşova",
++    gun: "11 Kasım 1918",
++    yer: "Varşova",
++    kisiler: "Józef Piłsudski",
++    d: "Józef Piłsudski 10 Kasım 1918'de Varşova'ya döndü. 11 Kasım'da Naiplik Konseyi ordunun komutasını ona verdi; birkaç gün sonra millî hükümeti kurma görevini de ona bıraktı.",
++    ic_not_d: "KARDEŞİ VAR, KUYRUK'ta: data/kronoloji_cok_senkron_0930.js 1918-11-11 'Polonya Cumhuriyeti bağımsızlığını kazanır: Alman işgal idaresi çöker' (Davies, God's Playground II — 'sayfa açılmadı'). Çekirdekte (olaylar*) olay YOKTU; bu madde onun çekirdekteki karşılığıdır, YENİ KAPSAM DEĞİL. TDV 'Polonya' (K. Beydilli, c. 34, 2007) devletin yeniden kuruluşunu Versay'a (29 Haziran 1919) bağlıyor, 11 Kasım gününü VERMİYOR (UMIT-W33b).",
++    kaynak: "Muzeum Józefa Piłsudskiego w Sulejówku (devlet müzesi), 'Józef Piłsudski 1867–1935' (muzeumpilsudski.pl) — 'Józef Piłsudski returned to Warsaw on November 10, 1918.' · 'On November 11, the Regency Council put Piłsudski in charge of the army, and a few days later entrusted him with the task of forming a National Government.' — nitelik notu: kurumsal (müze); akademik makale bu oturumda erişilemedi (1914-1918-online bot korumalı, Britannica 403)"
++  },
++
+   {
+     t: "1918-11-14", k: "isgal", etiket: ["isgal", "konu-askeri"],
+     kapsam:"dis", onem:2, b: "Sırp ordusu Pécs'i (Peçuy) işgal etti — Baranya'nın Sırp işgali başladı", yer_id:"Peçuy",

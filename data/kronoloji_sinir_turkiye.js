@@ -21,7 +21,7 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   kaynak:"TDV bulgaristan (Nazif Kuyucuklu): 'Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra'" },
 
 { t:"1909-04-19", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1909-osm-bg-eski",
-  b:"İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+  b:"İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Sofya",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"Rusya'nın aracılığıyla İstanbul'da imzalanan protokolle Osmanlı Devleti Bulgaristan'ın bağımsızlığını tanıdı. Böylece Istranca'daki eski Osmanlı-Bulgar sınırı hukuken iki devlet arasındaki hat oldu; bu kesim bugün de Türkiye-Bulgaristan sınırının parçasıdır.",
   kaynak:"Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9" },
@@ -33,19 +33,19 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   kaynak:"TDV bulgaristan: '30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması' · Londra Antlaşması md. II (Wikisource neşri) · IBS No. 49 s.10" },
 
 { t:"1913-09-29", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1913-osm-bg-dogu",
-  b:"İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+  b:"İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Mustafapaşa (Svilengrad)",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"II. Balkan Savaşı'nı Osmanlı-Bulgar cephesinde bitiren antlaşmanın 1. maddesi iki devlet arasındaki sınırı tarif etti ve Edirne Osmanlı'da kaldı. Rezve'den Tunca'ya kadarki kesim bugünkü Türkiye-Bulgaristan sınırıyla aynıdır; Tunca batısındaki kesim 1915'te değiştirildi.",
   kaynak:"IBS No. 49 Bulgaria–Turkey (1965) s.9-10: 'signed at Constantinople, September 16/29, 1913' · 'it exactly follows the former Turco-Bulgarian frontier'" },
 
 { t:"1913-11-17", devlet:"osmanli", taraflar:["osmanli","kacar"], hat:"d1913-osm-ir-1",
-  b:"İstanbul Protokolü — Türk-İran sınırının tahdidi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+  b:"İstanbul Protokolü — Türk-İran sınırının tahdidi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Kasr-ı Şîrîn",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"Osmanlı ve İran temsilcileri İngiliz ve Rus elçileriyle birlikte, 1847 Erzurum Antlaşması'na dayanan Türk-İran sınırının tarifini imzaladı. Karma komisyon Ekim 1914'e kadar hattı Kotur çevresindeki yaklaşık 40 mil dışında yerinde işaretledi. 1923'teki Türkiye-İran sınırı bu hattır; 1932 ve 1937'de üç kesimde değişti.",
   kaynak:"IBS No. 28 Iran–Turkey (1964) s.5-7 · H. Efe–M. Kızıl, ERZSOSDE X-I (2017) s.77-90" },
 
 { t:"1915-09-06", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1915-osm-bg",
-  b:"Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Sofya",
+  b:"Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Dimetoka",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"Bulgaristan'ın savaşa Osmanlı yanında girmesi öncesinde imzalanan sözleşme, 1913 İstanbul Antlaşması'nın Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca işaretlendi ve Lozan'da teyit edildi. Düzeltmenin Meriç ucundaki tam etkisi bu kayıtta ölçülmedi.",
   kaynak:"IBS No. 49 Bulgaria–Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'" },
@@ -57,7 +57,7 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   kaynak:"TDV edirne (M. Tayyib Gökbilgin): 'Temmuz 1920'de Yunan işgaline uğradı' — gün vermiyor" },
 
 { t:"1921-03-16", devlet:"tbmm-turkiye", taraflar:["tbmm-turkiye","sovyet-rusya"], hat:"d1923-tr-sscb-gurcistan",
-  b:"Moskova Antlaşması — Türk-Sovyet sınırının tahdidi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"Moskova",
+  b:"Moskova Antlaşması — Türk-Sovyet sınırının tahdidi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"Batum",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"TBMM Hükûmeti ile Sovyet Rusya arasında imzalanan antlaşma Kars ve Ardahan'ı Türkiye'de, Batum'u Gürcistan'da bıraktı. Arpaçay ve Aras boyunca uzanan doğu sınırı bugünkü yerinde belirlendi; Nahçıvan'la temas da bu hatla doğdu. Hat 1925-26'da karma komisyonca işaretlendi.",
   kaynak:"TDV kars: 'Moskova (16 Mart 1921) ve Kars (13 Ekim 1921) antlaşmalarıyla yapılan son sınır tashihleri' · IBS No. 29 Turkey–U.S.S.R. (1964) s.4-6: 'The Treaty of Moscow (1921) delimited the boundary as it exists today'" },
@@ -81,13 +81,13 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   kaynak:"TDV mudanya-mutarekesi (Cezmi Eraslan) md. 2, 3, 5 · IBS No. 41 Greece–Turkey (1964) s.4: 'signed the Mudania Armistice three days later on October 14, 1922'" },
 
 { t:"1923-07-24", devlet:"tbmm-turkiye", taraflar:["tbmm-turkiye","yunanistan"], hat:"d1923-tr-gr-1",
-  b:"Lozan Antlaşması — Türk-Yunan sınırı Meriç ve Karaağaç dirseğiyle belirlendi", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Lozan",
+  b:"Lozan Antlaşması — Türk-Yunan sınırı Meriç ve Karaağaç dirseğiyle belirlendi", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Edirne",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"Lozan'ın 2. maddesi Türk-Yunan sınırını Meriç mecrası olarak belirledi; Arda kavşağından Bosnaköy'ün aşağısına kadar Karaağaç'ı Türkiye'de bırakan bir kara hattı çizildi. Mudanya'nın fiilî hattı böylece hukukî sınıra dönüştü. Hat 1925-26'da karma komisyonca işaretlendi.",
   kaynak:"Lozan Antlaşması md. 2/2 (TTK tam metin) · TDV lozan-antlasmasi · IBS No. 41 s.2" },
 
 { t:"1923-07-24", devlet:"tbmm-turkiye", taraflar:["tbmm-turkiye","bulgaristan-kralligi"], hat:"d1923-tr-bg",
-  b:"Lozan Antlaşması — Türk-Bulgar sınırının teyidi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Lozan",
+  b:"Lozan Antlaşması — Türk-Bulgar sınırının teyidi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Rezve (Rezovo)",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"Lozan'ın 2. maddesi Rezve ağzından Meriç'teki üçlü noktaya kadar Bulgaristan'ın o gün tahdit edilmiş güney sınırını Türkiye sınırı olarak kabul etti. Hat 1921'de işaretlenmişti; üçlü nokta 1926'da sabitlendi.",
   kaynak:"Lozan Antlaşması md. 2/1 (TTK tam metin): 'Bulgaristanın elyevm tahdit edilmiş olduğu şekilde cenup hududu' · IBS No. 49 s.10-12" }

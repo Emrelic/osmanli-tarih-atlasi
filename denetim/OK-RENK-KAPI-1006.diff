@@ -1,0 +1,146 @@
+diff --git a/denetim/ARAC-OK-RENK-0072.js b/denetim/ARAC-OK-RENK-0072.js
+index 261bfd82..24054a15 100644
+--- a/denetim/ARAC-OK-RENK-0072.js
++++ b/denetim/ARAC-OK-RENK-0072.js
+@@ -19,10 +19,22 @@ const KOK = path.resolve(__dirname, '..');
+ const html = fs.readFileSync(path.join(KOK, 'index.html'), 'utf8');
+ const src = [...html.matchAll(/<script src="(data\/[^"?]+)(\?[^"]*)?"><\/script>/g)].map(m => m[1]);
+ global.window = global;
++const yuklenemeyen = [];
+ for (const f of src) {
+   const p = path.join(KOK, f);
+-  if (fs.existsSync(p)) { try { vm.runInThisContext(fs.readFileSync(p, 'utf8'), { filename: f }); } catch (e) { } }
++  if (fs.existsSync(p)) { try { vm.runInThisContext(fs.readFileSync(p, 'utf8'), { filename: f }); } catch (e) { yuklenemeyen.push(f + ': ' + e.message.slice(0, 60)); } }
++  else yuklenemeyen.push(f + ': YOK');
+ }
++// W32 (6 Ekim): sessiz `catch (e) { }` yükleme hatalarını YUTUYORDU. Artık sayılıp
++// basılıyor (acilis_siluet.js `document` ister — tarayıcı dışı beklenen gürültü).
++if (yuklenemeyen.length) console.error('yüklenemeyen ' + yuklenemeyen.length + ': ' + yuklenemeyen.join(' · '));
++// T1 — `DEVLET_HARITA || []` boşa düşerse her `devlet` oku SESSİZCE 'varsayilan'
++// renge kayar ve JSON yanlış dağılım yazar. Tarayıcıda DEVLET_HARITA kodlanmış
++// `devlet_harita_ust.js`ten gelir (üretilmiş `devletler_harita.js` GEREKMEZ).
++const OK_KAPI = require('./OLCU-KAPISI-1006.js');
++OK_KAPI.girdi(global, { DEVLET_HARITA: 'data/devlet_harita_ust.js' });
++if (!Object.keys(global).some(k => /^SEFERLER(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(global[k]) && global[k].length))
++  OK_KAPI.olculemedi('T1 girdi yok/boş: SEFERLER* (data/seferler*.js)');
+ 
+ // app.js:8534 `koyuTon` ile BİREBİR aynı hesap (kopya değil, sınav için taklit —
+ // ölçümün uygulamadan ayrışmaması için formül buraya yazıldı ve farkı olursa
+@@ -44,7 +56,7 @@ function lum(h) {
+ function kontrast(a, b) { const l1 = lum(a), l2 = lum(b); const [x, y] = l1 > l2 ? [l1, l2] : [l2, l1]; return +((x + 0.05) / (y + 0.05)).toFixed(2); }
+ 
+ const DR = {};
+-(global.DEVLET_HARITA || []).forEach(d => { if (d && d.id) DR[d.id] = d.renk; });
++global.DEVLET_HARITA.forEach(d => { if (d && d.id) DR[d.id] = d.renk; });
+ const OSMANLI = '#8e0b22';
+ 
+ const oklar = [];
+diff --git a/denetim/OK-RENK-KAPI-SINAV-1006.js b/denetim/OK-RENK-KAPI-SINAV-1006.js
+new file mode 100644
+index 00000000..6aa4ac61
+--- /dev/null
++++ b/denetim/OK-RENK-KAPI-SINAV-1006.js
+@@ -0,0 +1,46 @@
++// OK-RENK-KAPI-SINAV-1006 — ARAC-OK-RENK-0072'nin T1 kapısı + OLCU-KAPISI-1006.girdi,
++// İKİ YÖNDE (salt okuma; her dal ayrı süreç çünkü ölçülemedi dalı process.exit(2)).
++//   node denetim/OK-RENK-KAPI-SINAV-1006.js      çıkış 0 geçti · 1 kaldı
++"use strict";
++const cp = require("child_process"), path = require("path");
++const KOK = path.join(__dirname, "..");
++const BETIK = path.join(__dirname, "ARAC-OK-RENK-0072.js");
++let gecti = 0, kaldi = 0;
++const sina = (ad, sart, detay) => {
++  if (sart) { gecti++; console.log("  ✓ " + ad); }
++  else { kaldi++; console.log("  ✗ " + ad + (detay ? "  — " + detay : "")); }
++};
++const kos = (args, env) => cp.spawnSync(process.execPath, args,
++  { cwd: KOK, encoding: "utf8", env: Object.assign({}, process.env, env || {}) });
++
++console.log("① POZİTİF — gerçek girdi");
++const p = kos([BETIK]);
++let j = null; try { j = JSON.parse(p.stdout); } catch (e) {}
++sina("çıkış 0", p.status === 0, "çıkış " + p.status + " " + (p.stdout + p.stderr).slice(0, 160));
++sina("renk kaynağı 'devlet' sınıfı hâlâ var (> 0)", !!j && (j.renk_kaynagi_dagilimi.devlet || 0) > 0,
++  j && JSON.stringify(j.renk_kaynagi_dagilimi));
++sina("ok evreni boş değil", !!j && j.ok > 0, j && ("ok " + j.ok));
++
++console.log("\n② NEGATİF — DEVLET_HARITA yapay olarak eksik (OLCU_KAPISI_YAPAY_EKSIK)");
++const n = kos([BETIK], { OLCU_KAPISI_YAPAY_EKSIK: "DEVLET_HARITA" });
++sina("çıkış 2 (eski hâli: çıkış 0 + 'devlet' oklar sessizce 'varsayilan')", n.status === 2,
++  "çıkış " + n.status);
++sina("sebep adıyla basılıyor", /T1 girdi yok\/boş: DEVLET_HARITA .*\[YAPAY\]/.test(n.stdout), n.stdout.slice(0, 160));
++sina("JSON/sayı BASILMADI", !/renk_kaynagi_dagilimi/.test(n.stdout));
++
++console.log("\n③ YARDIMCININ KENDİSİ — OLCU-KAPISI-1006.girdi / oran / api");
++const IK = JSON.stringify(path.join(__dirname, "OLCU-KAPISI-1006.js"));
++const birim = (ad, govde, beklenen) => {
++  const r = kos(["-e", "const K=require(" + IK + ");" + govde]);
++  sina(ad + " → çıkış " + beklenen, r.status === beklenen, "çıkış " + r.status + " " + r.stdout.slice(0, 100));
++};
++birim("+ dolu dizi geçer", "K.girdi({A:[1,2]},{A:'a.js'})", 0);
++birim("− boş dizi", "K.girdi({A:[]},{A:'a.js'})", 2);
++birim("− tanımsız", "K.girdi({},{A:'a.js'})", 2);
++birim("+ oran 1/2", "K.oran(1,2,'x')", 0);
++birim("− oran payda 0 (NaN yolu)", "K.oran(0,0,'x')", 2);
++birim("+ api var", "K.api({f(){}},['f'],'m')", 0);
++birim("− api yok", "K.api({},['f'],'m')", 2);
++
++console.log("\nSONUÇ: " + gecti + " geçti · " + kaldi + " kaldı");
++process.exit(kaldi ? 1 : 0);
+diff --git a/denetim/OLCU-KAPISI-1006.js b/denetim/OLCU-KAPISI-1006.js
+new file mode 100644
+index 00000000..8910e17f
+--- /dev/null
++++ b/denetim/OLCU-KAPISI-1006.js
+@@ -0,0 +1,51 @@
++// OLCU-KAPISI-1006 — ölçülemeyen soru "temiz" değil ÇIKIŞ 2'dir (UMIT-W32, 6 Ekim 2026).
++//
++// SESSIZ-SIFIR-1006 taramasının çaresi (denetim/UMIT-W32-SESSIZ-SIFIR-1006.md):
++// bir betik girdisi eksikken boş kümeden sayı basıp çıkış 0 vermesin. Tetikler:
++//   T1 girdi    — gereken global/dosya yok ya da BOŞ
++//   T2 evren    — yüklenen sayı ikinci bir kaynağın %90'ının altında (INDEX-KAYNAK-1006)
++//   T3 boş küme — oran/ortalama boş kümeden (NaN) türetiliyor
++//   T4 API      — çağrılacak ad modülde yok
++//   T5 hüküm    — "ölçülemedi" yazıp 0 dönmek
++// Hepsi `olculemedi()` → çıkış 2. Kapıya BAĞLI DEĞİL; betikler tek tek kullanır.
++//
++// 🧪 SINAV KANCASI: OLCU_KAPISI_YAPAY_EKSIK="AD1,AD2" ortam değişkeni, T1 sınanmadan
++// hemen önce o globalleri SİLER. Yalnız sınav içindir: T1'in GERÇEK yolu koşar,
++// yapay yalnız girdidir (iki yönlü sınav için betiğe dokunmadan eksik girdi).
++"use strict";
++
++function olculemedi(neden) {
++  console.log("⚫ ÖLÇÜLEMEDİ — " + neden + " (OLCU-KAPISI-1006)");
++  process.exit(2);
++}
++
++// T1 — `gerekli` = { GLOBAL_ADI: "onu taşıyan dosya (bilgi)" }. Global yoksa, dizi
++// değilse ya da boşsa çıkış 2. Döner: { ADI: uzunluk }.
++function girdi(ctx, gerekli) {
++  const yapay = String(process.env.OLCU_KAPISI_YAPAY_EKSIK || "").split(",").filter(Boolean);
++  yapay.forEach(a => { delete ctx[a]; });
++  const sayi = {};
++  for (const [ad, dosya] of Object.entries(gerekli)) {
++    const v = ctx[ad];
++    const n = Array.isArray(v) ? v.length : (v && typeof v === "object" ? Object.keys(v).length : 0);
++    if (!n) olculemedi("T1 girdi yok/boş: " + ad + " (" + dosya + ")" + (yapay.includes(ad) ? " [YAPAY]" : ""));
++    sayi[ad] = n;
++  }
++  return sayi;
++}
++
++// T3 — payda sıfırsa ya da sonuç sonlu değilse çıkış 2.
++function oran(pay, payda, etiket) {
++  if (!payda) olculemedi("T3 boş küme: " + etiket + " (payda 0)");
++  const r = pay / payda;
++  if (!Number.isFinite(r)) olculemedi("T3 sonlu değil: " + etiket);
++  return r;
++}
++
++// T4 — modülde çağrılacak adlar var mı.
++function api(modul, adlar, etiket) {
++  const yok = adlar.filter(a => typeof modul[a] === "undefined");
++  if (yok.length) olculemedi("T4 API yok: " + etiket + "." + yok.join(", " + etiket + "."));
++}
++
++module.exports = { olculemedi, girdi, oran, api };
