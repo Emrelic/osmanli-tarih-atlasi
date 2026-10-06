@@ -1,12 +1,14 @@
 diff --git a/oturumlar/ORTADOGU-1923.md b/oturumlar/ORTADOGU-1923.md
-index 66b01bc6..7848d6d8 100644
+index 66b01bc6..d6be3572 100644
 --- a/oturumlar/ORTADOGU-1923.md
 +++ b/oturumlar/ORTADOGU-1923.md
-@@ -69,7 +69,7 @@ Koordinatör bu bölgenin bir kısmını zaten işledi. **Yeniden yapma, oku:**
+@@ -68,8 +68,8 @@ Koordinatör bu bölgenin bir kısmını zaten işledi. **Yeniden yapma, oku:**
+ ```
  denetim/OLCUM-1923-BULGARISTAN-SURIYE-0906.md   bulgu
  denetim/HUKUM-MANDA-KIMLIK-0906.md              hüküm (③ ÇÜRÜDÜ, damgalı)
- denetim/yer_yama_manda_0906.js                  58 nokta · SINAVDAN GEÇTİ
+-denetim/yer_yama_manda_0906.js                  58 nokta · SINAVDAN GEÇTİ
 -denetim/ARAC-MANDA-SINAV-0906.js                sınavı
++data/yer_yama_manda_0906.js                     58 nokta · SINAVDAN GEÇTİ (W36: 415d18ac ile denetim/ → data/ taşındı)
 +denetim/ARAC-MANDA-SINAV-0906.js                sınavı · ⚪ EMEKLİ SINAV, EMSAL OLARAK KORUNUYOR (W36, 6 Eki 2026: yama uygulandı, canlı veriden kaydı — koşturma, kalıp olarak oku)
  denetim/KRONOLOJI-MANDA-0906.json               3 çekirdek maddesi
  denetim/OLCUM-MANDA-RENK-CAKISMA-0906.md        🔴 RENK KAPISI — oku

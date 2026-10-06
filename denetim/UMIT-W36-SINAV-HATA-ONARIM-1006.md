@@ -368,3 +368,68 @@ Koordinatör hükmü: *yanlış SÜRÜYOR güvenli, yanlış YOK güvensiz.* `TA
   - `ORTADOGU-1923.md:72` → "⚪ EMEKLİ SINAV, EMSAL OLARAK KORUNUYOR (… koşturma, kalıp olarak oku)"
   - `ORTADOGU-1923.md:132` · `YONTEM-1923-SINIR.md:95` → "(⚪ emekli sınav, emsal olarak korunuyor — W36)"
 - 🟡 Yan bulgu (dokunulmadı): `ORTADOGU-1923.md:71` hâlâ `denetim/yer_yama_manda_0906.js` diyor. Dosya `415d18ac` ile `data/`ya taşındı.
+
+---
+
+## EK · W36e (6 Ekim 2026) — vekil mesafeleri · mühürlü kuru koşu · MANDA yolu
+
+**Temel commit:** `origin/main` = `ce885ec2`.
+- W36d'nin iki diff'i bu temelde henüz YOK.
+- Yenilenen iki diff (`ODAK-ASYA-SUZME-1006.diff` · `MANDA-EMEKLI-1006.diff`) bu temelden çıkarıldı ve W36d sürümlerinin YERİNE geçiyor. İkisinde de `-R` temiz. UYGULANMADI.
+- 8 kronoloji dosyası `481b0482` ile aynı; W36d ölçümleri geçerli.
+
+### ① Beş VEKIL-NOKTA çiftinin mesafesi
+- Gerçek yer: GeoNames (geonames.org yer adı sözlüğü, arama sayfası). Havuz noktası: `girdi.yukle()`. Büyük daire hesabı.
+- Beş gerçek yerin HİÇBİRİ veride yok; D257'nin tam vakası.
+
+| karar | gerçek yer (GeoNames) | havuz noktası | mesafe | kova |
+|---|---|---|---|---|
+| sinir_asya 1292 Kertanagara | Singosari, populated place, Kab. Malang (−7,892; 112,666) | Malang (−7,98; 112,63) | **10,5 km** | 🔵 **VEKIL-BITISIK** (yeni, ayrı) |
+| hindistan 1699 Guru Gobind Singh | Anandpur (31,239; 76,503) | Lahor · Amritsar | 207,8 · 160,7 km — Lahor–Amritsar kutusunun ~160 km DIŞINDA | VEKIL-NOKTA |
+| timurlu 1391 Kunduzca | Kondurcha ırmağı (stream noktası 53,650; 50,253) · Nizhnyaya Kondurcha (53,976; 50,374) | Samara (53,2; 50,15) | 50,5 · 87,6 km | VEKIL-NOKTA |
+| sinir_asya 1530 Alâeddin Riâyet Şah | Pekan Tua — **GeoNames'te YOK** (arama yalnız Pahang'daki Kuala Pahang/Pahang Tua'yı veriyor, yanlış yer) | Johor (1,493; 103,741) | **ÖLÇÜLEMEDİ**. Kota Tinggi → Johor 32,5 km, ama Kota Tinggi Pekan Tua DEĞİL; yalnız yakınlık göstergesi | VEKIL-NOKTA |
+| orta_asya 1847 Kenasarı | Mey-Tuble — **GeoNames'te YOK** ("Maitobe" de yok) | Balasagun (42,76; 75,24) | **ÖLÇÜLEMEDİ** | VEKIL-NOKTA |
+
+**VEKIL-BITISIK (yalnız Singhasari):**
+- 10,5 km. Singosari, Malang kabupaten'inin ilçesi; havuzun "Malang" noktasıyla bitişik.
+- D257'nin "BAŞKA şehir" tanımı tutmuyor ⇒ ayrı kovaya alındı ve **odak YAZILIYOR** (`odak_yer:["Malang"]` + `kapsam_genis` kalkar).
+- Koordinatör bunu da vekil sayarsa tek satır: anahtarı `VEKIL_BITISIK`ten `VEKIL_NOKTA`ya taşımak. ⚠️ `--kova-atla VEKIL-BITISIK` ise maddeyi BEYANLI bırakır (kamera Osmanlı'ya uçar), o yüzden önerilmez.
+
+**Kalan dört VEKIL-NOKTA İNİYOR** (odak yazılmaz):
+- İkisi ölçüldü ve uzak.
+- İkisi ölçülemedi: bitişik olduğu gösterilemedi. Kapalı yön, yani odak yazmamak, güvenli yön.
+
+### ② Kova hükmü uygulandı
+- AK-YAKLASIK `--kova-atla` ile dışarıda.
+- B-BOLGE-TEMSIL 26 ve B-SINIR-YAKA 49 iniyor.
+- Diff'te başka kova değişikliği yok: W36d'ye göre yalnız Singhasari NOKTA → BITISIK.
+
+### ③ Kuru koşu — `--kova-atla AK-YAKLASIK` · ÖNGÖRÜ MÜHÜRLÜ
+
+Öngörü ölçümden 43 sn önce yazıldı ve mühürlendi (`denetim/ONGORU-W36e.txt`, 09:22:36, sha256 `b6a01a15…`). W36d'nin ölçülmüş satırlarından türetildi:
+- AK'nin 10'unda `kapsam_genis` yok, yani bugün ODAKSIZ.
+- Singhasari W36d'de zaten "değişen"di (BEYANLI → ODAKSIZ).
+
+| | öngörü | ölçüm (09:23:19) |
+|---|---|---|
+| değişen | 176 (186 − 10 AK) | **176** ✓ |
+| BEYANLI sonra | 0 | **0** ✓ |
+| ODAKSIZ sonra | 18 (9 + 10 AK − 1 Singhasari KUTULU olur) | **18** ✓ |
+| şimdi | 55 · 137 | 55 · 137 ✓ |
+
+```
+KOVA  A-GERÇEK 19 · BÖLGE 26 · B-GERÇEK 29 · SINIR 49 · C 50 · E 1 · VEKİL-BİTİŞİK 1 · VEKİL-NOKTA 1
+      (+3 VEKİL-NOKTA "zaten böyle": kapsam_genis taşımıyorlar, dokunulmuyor) · eski tutmuyor 2 · şartı sağlamadı 0
+data/ dokunulmadı · çıkış 0
+```
+
+**"55→9" ile W36b'nin "55→4"ü** (mesajdaki "W36c" W36b'dir; 55→4 ölçümü W36b kuru koşusu):
+- 4 → 9 farkı tam olarak **beş VEKIL-NOKTA**: W36b'de beşine de odak yazılıyordu (hepsi KUTULU oluyordu), W36d'de yazılmıyor.
+  - 2'si BEYANLI → ODAKSIZ (Kertanagara, Alâeddin Riâyet Şah; `kapsam_genis` kalkıyor)
+  - 3'ü zaten ODAKSIZ ve öyle kalıyor (Kenasarı, Guru Gobind Singh, Kunduzca)
+  - ⇒ 4 + 2 + 3 = 9.
+- Bugünkü 18'in açılımı: 9 + 10 (AK atlandı, ODAKSIZ kalır) − 1 (Singhasari VEKIL-BITISIK'e geçti, KUTULU olur) = **18**.
+
+### ④ MANDA-EMEKLI paketine bayat yol eklendi
+- `oturumlar/ORTADOGU-1923.md:71`: `denetim/yer_yama_manda_0906.js` → `data/yer_yama_manda_0906.js` (+ "415d18ac ile taşındı" notu). Dosyanın `data/`da var olduğu doğrulandı.
+- Paket artık 2 dosya, 4 satır.
