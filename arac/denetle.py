@@ -6549,10 +6549,18 @@ def main():
     #   bile — ama sıralama gözü yanlış bloğa çekiyordu.
     # ⇒ Çare bir uyarı satırı DEĞİL: İHLALLER ÖNCE, zayıf liste SONRA ve
     #   varsayılan olarak SAYIYLA. Ayrıntı `--ayrinti` ile gelir.
+    # 🔴 6 Ekim 2026 (koordinatör ölçtü): tavan 95 iken kapı "96" dedi ama liste
+    #   yalnız ilk 20'yi basıyordu ⇒ AŞAN çift GÖRÜNMÜYORDU, bir tur tahminle geçti.
+    #   KURAL: tavan ötüyorsa NEYİN aştığı adıyla görünmeli ⇒ aşımda TAM liste;
+    #   kırpılınca da kaç çiftin GİZLENDİĞİ basılır (sessiz kırpma yok).
     if mk:
-        for yil, oran, a, b, olcut in (mk if args.ayrinti else mk[:20]):
+        _tam = args.ayrinti or len(mk) > BEKLENEN_MUKERRER
+        for yil, oran, a, b, olcut in (mk if _tam else mk[:20]):
             print(f"    [{olcut}] {yil}  {a['t']}  {a['b'][:52]}")
             print(f"           {b['t']}  {b['b'][:52]}")
+        if not _tam and len(mk) > 20:
+            print(f"    … {len(mk) - 20} çift daha GİZLİ (tavan aşılınca hepsi basılır; "
+                  f"şimdi görmek için --ayrinti)")
         print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
     if zayif:
         print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün, "
