@@ -92,7 +92,7 @@
 🔴 `s:` TEK BAŞINA SÜREKLİ DEĞİLDİR — aralığı `d:` doldurur.
    Bir aleti taklit eden ölçüm onun EŞİĞİNİ ve KOVA YAPISINI da taşır
    (HAYALET_TOLERANS_GUN=400 · 4s = 4c ∩ 4d, üçü TOPLANMAZ).
-🟢 Emsal: denetim/ARAC-MANDA-SINAV-0906.js
+🟢 Emsal: denetim/ARAC-MANDA-SINAV-0906.js (⚪ emekli sınav, emsal olarak korunuyor — W36)
 C13 DÖRT AYAK: ① GEÇME ② ATEŞLEME ③ GİRDİ (gerçek dosyadan)
               ④ ÇIKTI (cevabı DOĞRU YERDEN okuduğunu göster)
 ```
