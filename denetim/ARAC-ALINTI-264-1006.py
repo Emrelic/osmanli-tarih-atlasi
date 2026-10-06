@@ -6,9 +6,9 @@
 # Her satır için:
 #   mukerrer : alıntı bugünkü ağaçta (kaynak dosyasında) hâlâ var mı · bekleyen diff'lerin '-' satırında var mı
 #   govde    : TDV tam gövde (bölümler birleşik, kaynakça HARİÇ; `bk.` gönderme sayfası hedefe izlenir)
-#   birebir  : TAM  = yalnız boşluk/kesme/tire/tırnak biçimi farkıyla gövdede (… / ... parçaları sırayla)
-#              NORM = şapka/harf-büyüklüğü/noktalama farkıyla gövdede (kelime dizisi birebir)
-#              YOK  = hiçbiri
+#   birebir  : ARAC-TDV-CIKARICI-1006.birebir() — TEK TANIM (BIREBIR-TANIM-1006), burada kopyası YOKTUR:
+#              BIREBIR · YAKIN-EK (kenar kelime ortasında; BİREBİR DEĞİL) · YOK · BOS
+#              (eski TAM/NORM ikilisi kalktı: TAM kelime sınırı aramıyordu — #121 millet vakası)
 #   en_yakin : gövdede alıntının en uzun ortak kelime dizisi ve onu taşıyan cümle (ELLE OKUMA İÇİN, hüküm değil)
 import sys, os, re, csv, glob, hashlib, argparse, importlib.util, subprocess
 
@@ -95,35 +95,6 @@ def kelime(s):
     return re.sub(r"[^0-9a-z]+", " ", N.norm(s)).split()
 
 
-def parcalar(al):
-    return [p.strip(" ,;:.") for p in re.split(r"\.\.\.|…", al) if len(p.strip(" ,;:.")) >= 3]
-
-
-def birebir(al, g):
-    ps = parcalar(al)
-    if not ps:
-        return "BOS-ALINTI"
-    gb = bicim(g)
-    i, tam_ = 0, True
-    for p in ps:
-        j = gb.find(bicim(p), i)
-        if j < 0:
-            tam_ = False
-            break
-        i = j + len(bicim(p))
-    if tam_:
-        return "TAM"
-    gk = " " + " ".join(kelime(g)) + " "
-    i = 0
-    for p in ps:
-        pk = " " + " ".join(kelime(p)) + " "
-        j = gk.find(pk, i)
-        if j < 0:
-            return "YOK"
-        i = j + len(pk) - 1
-    return "NORM"
-
-
 def en_yakin(al, g):
     """Alıntının içerik kelimelerini (>=4 harf ya da rakam) en çok taşıyan İKİ gövde cümlesi. ELLE OKUMA İÇİN."""
     ak = {w for w in kelime(al) if len(w) >= 4 or w.isdigit()}
@@ -201,16 +172,15 @@ for n, r in enumerate(satirlar, 1):
     bekleyen = [f for f in dokunan if not any(re.search(TIRNAK + re.escape(ab), x) for x in EKLENEN[f])]
     dokunup_birakan = [f for f in dokunan if f not in bekleyen]
     sinif, g, nereden = govde(r["slug"])
-    b = birebir(al, g) if g else "OLCULEMEDI"
-    yer = "GOVDE" if b in ("TAM", "NORM") else ""
-    if b == "YOK" and OZET.get(r["slug"]):
-        b2 = birebir(al, OZET[r["slug"]])
-        if b2 in ("TAM", "NORM"):
-            b, yer = b2, "OZET"
+    if g:
+        bb = C.birebir(al, C.alinti_metinleri(dict(ozet=OZET.get(r["slug"], ""), govde=g)))
+        b, yer, kenar = bb["kova"], bb["yer"], bb["kenar"]
+    else:
+        b, yer, kenar = "OLCULEMEDI", "", ""
     en, cumle = en_yakin(al, g) if g else (0, "")
     cik.append(dict(no=n, kova=kova(r["sebep"]), slug=r["slug"], govde_sinif=sinif, govde_kr=len(g),
                     w30_konum=r["kaynak_konum"], simdi=simdi, bekleyen_diff=";".join(bekleyen), dokunup_birakan=";".join(dokunup_birakan),
-                    birebir=b, birebir_yer=yer, ozet=OZET.get(r["slug"], ""), ortak_kelime=en, alinti_kelime=len({w for w in kelime(al) if len(w) >= 4 or w.isdigit()}), eksik_sayi=sayilar_var(al, g), alinti=al,
+                    birebir=b, birebir_yer=yer, birebir_kenar=kenar, ozet=OZET.get(r["slug"], ""), ortak_kelime=en, alinti_kelime=len({w for w in kelime(al) if len(w) >= 4 or w.isdigit()}), eksik_sayi=sayilar_var(al, g), alinti=al,
                     en_yakin_cumle=cumle, w30_sebep=r["sebep"]))
     print(n, r["slug"], sinif, b, simdi, file=sys.stderr)
 

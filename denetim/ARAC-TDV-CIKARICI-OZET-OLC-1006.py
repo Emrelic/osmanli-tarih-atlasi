@@ -1,10 +1,12 @@
 # ARAC-TDV-CIKARICI-OZET-OLC-1006 — ALINTI-TARAMA-1006'yı (W30) madde ÖZETİ eklenmiş çıkarıcıyla YENİDEN ÖLÇER.
 # SALT OKUR: W30'un sonuç/gövde dosyalarını ve ham HTML önbelleğini okur, ağa ÇIKMAZ (önbellekte olmayan = ÖLÇÜLEMEDİ).
 #
-# Yöntem: W30'un esle.py + rapor.py mantığı birebir (aynı normalleştirici, aynı parça bölme, aynı benzerlik, aynı
-# alt kova sırası). Tek fark: her parça `govde`de YA DA `ozet`te aranır (ARAC-TDV-CIKARICI-1006.alinti_metinleri).
-# KONTROL: aynı kod `ozet` boşken koşturulur ve W30'un kovasını BİREBİR yeniden üretmelidir (fark 0) — yoksa
-# görülen değişim özetten değil, yeniden uygulamanın kusurundan gelir ve ölçüm GEÇERSİZDİR.
+# Yöntem: W30'un esle.py + rapor.py mantığı (aynı benzerlik, aynı alt kova sırası). BİREBİR sorusu ise
+# ARAC-TDV-CIKARICI-1006.birebir()'den — TEK TANIM (BIREBIR-TANIM-1006): kelime sınırlı, parçalar sırayla ve
+# AYNI metinde (özet ya da gövde), kenarı bozuk eşleşme adı olan YAKIN-EK kovasına.
+# KONTROL: aynı kod `ozet` boşken koşturulur ve W30'un kovasını yeniden üretmelidir. Fark yalnız TANIMDAN
+# gelebilir (→ YAKIN-EK · BİREBİR→sırasız) ve `tanim_farki`na ADIYLA yazılır; başka her fark yeniden uygulamanın
+# kusurudur ⇒ ölçüm GEÇERSİZ (çıkış 2).
 #
 # Kullanım: py ARAC-TDV-CIKARICI-OZET-OLC-1006.py --w30 <sonuc3.json+govdeler*.json dizini> --onbellek <tdv-ham>
 #           --cikti <önek>      (→ <önek>.tsv + <önek>.json)
@@ -22,21 +24,12 @@ cik = yukle("cik", os.path.join(BURA, "ARAC-TDV-CIKARICI-1006.py"))
 nrm = yukle("nrm", os.path.join(BURA, "ARAC-NORMAL-0903.py"))
 
 
-# ---- W30 esle.py'den birebir
-def N(s):
-    s = nrm.norm(s)
-    s = re.sub(r"[^a-z0-9]+", " ", s)
-    return " " + re.sub(r"\s+", " ", s).strip() + " "
+# ---- normalleştirme ve parça bölme TEK TANIMDAN (W30 esle.py'nin N/parcalar'ı oraya taşındı, burada kopyası yok)
+N = cik.birebir_norm
+parcalar = cik.birebir_parcalari
 
 
-BOSLUK = re.compile(r" · |\.\.\.|…|\[\s*\.\.\.\s*\]|\[…\]")
-
-
-def parcalar(q):
-    p = [N(x) for x in BOSLUK.split(q)]
-    p = [x for x in p if len(x.split()) >= 1]
-    return p or [N(q)]
-
+# ---- W30 esle.py'den birebir: BENZERLİK (YAKIN ≥0,85 / YOK ayrımı) — birebir tanımının parçası değildir
 
 def en_iyi(parca, gov_tok):
     q = parca.split(); n = len(q)
@@ -98,52 +91,61 @@ def main():
         OZ[s] = " ⟂ ".join(oz)      # ayrı cümleler; N() ⟂'yi boşluk yapar, ama parça aramasında ayrı tutulur ↓
     print(f"özet: TAM {sum(1 for v in G.values() if v['sinif'] == 'TAM')} · çıkarılan {len(OZ)} · boş"
           f" {sum(1 for x in OZ.values() if not x)} · önbellekte yok {len(olculemedi)} · gövde W30'dan farklı {len(govde_fark)}")
-    NOZ = {s: [N(x) for x in o.split(" ⟂ ")] if o else [] for s, o in OZ.items()}
-    NG = {s: N(v["govde"]) for s, v in G.items() if v["sinif"] == "TAM"}
+    OZL = {s: o.split(" ⟂ ") if o else [] for s, o in OZ.items()}
+    GV = {s: v["govde"] for s, v in G.items() if v["sinif"] == "TAM"}
+    NG = {s: N(g) for s, g in GV.items()}
     TOK = {}
 
     def olc(r, ozetli):
-        sl = r["slug"]; gv = NG[sl]; oz = NOZ.get(sl, []) if ozetli else []
+        """BİREBİR / YAKIN-EK hükmü TEK TANIMDAN (cik.birebir); yalnız ondan geçmeyen satır W30'un benzerlik
+        ölçüsüyle YAKIN (≥0,85) / YOK'a ayrılır — benzerlik birebir tanımının parçası DEĞİLDİR."""
+        sl = r["slug"]; oz = OZL.get(sl, []) if ozetli else []
+        bb = cik.birebir(r["alinti"], [("OZET", o) for o in oz] + [("GOVDE", GV[sl])])
+        if bb["kova"] == "BIREBIR":
+            return dict(kova="BIREBIR", benzerlik=1.0, yer=bb["yer"], kenar="")
+        if bb["kova"] == "YAKIN-EK":
+            return dict(kova="YAKIN-EK", benzerlik="", yer=bb["yer"], kenar=bb["kenar"])
         pp = parcalar(r["alinti"])
-        yer = []
-        for p in pp:
-            if p in gv: yer.append("GOVDE")
-            elif any(p in o for o in oz): yer.append("OZET")
-            else: yer.append(None)
-        if all(yer):
-            return dict(kova="BIREBIR", benzerlik=1.0, yer="GOVDE" if all(y == "GOVDE" for y in yer) else "OZET")
-        if sl not in TOK: TOK[sl] = gv.split()
+        if sl not in TOK: TOK[sl] = NG[sl].split()
         tops = topl = 0.0
-        for p, y in zip(pp, yer):
-            if y: sc = 1.0
+        for p in pp:
+            # W30: kendi başına birebir tutan PARÇA 1,0 sayılır (parça sorusu da TEK TANIMA sorulur)
+            if cik.birebir(p, [("OZET", o) for o in oz] + [("GOVDE", GV[sl])])["kova"] == "BIREBIR": sc = 1.0
             else:
                 sc, _ = en_iyi(p, TOK[sl])
-                for o in oz: sc = max(sc, en_iyi(p, o.split())[0])
+                for o in oz: sc = max(sc, en_iyi(p, N(o).split())[0])
             L = len(p); tops += sc * L; topl += L
         sc = tops / topl if topl else 0.0
-        if sc >= 0.85: return dict(kova="YAKIN", benzerlik=round(sc, 3), yer="")
-        return dict(kova="YOK", benzerlik=round(sc, 3), yer="")
+        if sc >= 0.85: return dict(kova="YAKIN", benzerlik=round(sc, 3), yer="", kenar="")
+        return dict(kova="YOK", benzerlik=round(sc, 3), yer="", kenar="")
 
     def baska_ozetle(r):
-        """YALNIZ özet sayesinde doğan yeni kayma adayları: bütün parçalar o maddede (gövde ∪ özet) VE en az bir
-        parça yalnız özette. (W30 `baska_maddede`yi ilk 5 adayla kesmişti; gövde-içi adayları yeniden saymak o
-        kesimi 'değişim' gibi gösterirdi — bu yüzden yalnız özet kaynaklı aday eklenir.)"""
-        pp = parcalar(r["alinti"]); out = []
+        """YALNIZ özet sayesinde doğan yeni kayma adayları: alıntı o maddenin ÖZETİNDE birebir (TEK TANIM), gövdesinde
+        değil. (W30 `baska_maddede`yi ilk 5 adayla kesmişti; gövde-içi adayları yeniden saymak o kesimi 'değişim'
+        gibi gösterirdi — bu yüzden yalnız özet kaynaklı aday eklenir.)"""
+        out = []
         for s in G0:
-            if s == r["slug"] or s not in NG: continue
-            oz = NOZ.get(s, [])
-            if not oz: continue
-            ic = [p in NG[s] for p in pp]
-            if all(ic): continue
-            if all(g or any(p in o for o in oz) for p, g in zip(pp, ic)): out.append(s)
+            if s == r["slug"] or s not in GV or not OZL.get(s): continue
+            if cik.birebir(r["alinti"], [("OZET", o) for o in OZL[s]])["kova"] != "BIREBIR": continue
+            if cik.birebir(r["alinti"], [("GOVDE", GV[s])])["kova"] == "BIREBIR": continue
+            out.append(s)
         return out
 
+    def aciklanir(w30, yeni):
+        """Özetsiz yeniden üretimin W30'dan farkı TANIMDAN mı geliyor? Tek tanım W30'dan iki yerde ayrılır:
+        kenarı bozuk eşleşme YAKIN-EK'e gider · parçalar artık SIRAYLA aranır (BİREBİR düşebilir). Başka her
+        fark yeniden uygulamanın kusurudur ⇒ KONTROL hatası."""
+        return yeni == "YAKIN-EK" or (w30 == "BIREBIR" and yeni in ("YAKIN", "YOK"))
+
     hedef = [r for r in S if r["kova"] in ("BIREBIR", "YAKIN", "YOK")]
-    kontrol_fark, degisen = [], []
+    kontrol_fark, tanim_farki, degisen = [], [], []
     for i, r in enumerate(hedef):
         e = olc(r, False)
         if e["kova"] != r["kova"]:
-            kontrol_fark.append((r["dosya"], r["satir"], r["slug"], r["kova"], e["kova"])); continue
+            if not aciklanir(r["kova"], e["kova"]):
+                kontrol_fark.append((r["dosya"], r["satir"], r["slug"], r["kova"], e["kova"])); continue
+            tanim_farki.append(dict(dosya=r["dosya"], satir=r["satir"], slug=r["slug"], w30=r["kova"],
+                                    yeni=e["kova"], kenar=e["kenar"], alinti=r["alinti"]))
         y = olc(r, True)
         # kayma: W30'un kendi değeri (gövdede) korunur; özet yalnız YENİ aday ekleyebilir
         eski_b = [x for x in (r.get("baska_maddede") or "").split(",") if x]
@@ -152,15 +154,17 @@ def main():
         if yk != r["alt_kova"] or (y["kova"] == "YOK" and set(yeni_b) != set(eski_b)):
             degisen.append(dict(dosya=r["dosya"], kayit_satir=r.get("kayit_satir"), satir=r["satir"], slug=r["slug"],
                                 kisa=r["kisa"], atif=r.get("atif"), eski=r["alt_kova"], yeni=yk, yer=y.get("yer", ""),
+                                kenar=y.get("kenar", ""), sebep="TANIM" if e["kova"] != r["kova"] else "OZET",
                                 eski_benzerlik=r.get("benzerlik"), yeni_benzerlik=y["benzerlik"],
                                 eski_baska=",".join(eski_b), yeni_baska=",".join(yeni_b) if y["kova"] == "YOK" else "",
                                 ozet=OZ.get(r["slug"], ""), alinti=r["alinti"]))
         if i % 1000 == 0: print(" ", i, "/", len(hedef), flush=True)
-    print(f"KONTROL (özetsiz yeniden üretim): {len(hedef)} satır · W30'dan farklı {len(kontrol_fark)}")
+    print(f"KONTROL (özetsiz yeniden üretim): {len(hedef)} satır · TANIMDAN açıklanan fark {len(tanim_farki)}"
+          f" {dict(collections.Counter((d['w30'], d['yeni']) for d in tanim_farki))} · AÇIKLANAMAYAN {len(kontrol_fark)}")
     for k in kontrol_fark[:15]: print("   ✗", k)
-    json.dump(dict(degisen=degisen, kontrol_fark=kontrol_fark, olculemedi=olculemedi, govde_fark=govde_fark),
+    json.dump(dict(degisen=degisen, tanim_farki=tanim_farki, kontrol_fark=kontrol_fark, olculemedi=olculemedi, govde_fark=govde_fark),
               open(cikti + ".json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    KOL = ["eski", "yeni", "yer", "dosya", "kayit_satir", "satir", "slug", "kisa", "atif", "eski_benzerlik",
+    KOL = ["eski", "yeni", "sebep", "yer", "kenar", "dosya", "kayit_satir", "satir", "slug", "kisa", "atif", "eski_benzerlik",
            "yeni_benzerlik", "eski_baska", "yeni_baska", "alinti", "ozet"]
     with open(cikti + ".tsv", "w", encoding="utf-8", newline="") as f:
         f.write("\t".join(KOL) + "\n")

@@ -367,3 +367,79 @@ Hiçbir diff çıkış kodunu değiştirmedi (2 → 2; sebep aynı: D8).
 - Bulunamadı: Darvaz'ın (Kal'a-i Hum) Sovyet denetimine **gün** olarak geçişi (TDV `darvaz`
   302; Iranica DUSHANBE Darvaz'ı anmıyor). Kaydın kendi notundaki "1921–22 Basmacı/Enver
   Paşa" bilgisi bu turda yeniden okunmadı.
+
+---
+
+## 7. BUHARA 1006b — koordinatör hükmüyle tek diff (6 Ekim 2026 akşam)
+Hüküm: KILI uygulandı (e234a37d) · BUHARA uygula + ozbek mükerrerini **DÜZELT**
+(kaldırma) + künye `t → 1921-02-21` (de facto, ONAY) · ELBING bekliyor (dokunulmadı).
+`denetim/TEK-EKSIK-BUHARA-1006b.diff`, temel **07cb6062**. Uzak uç sonradan 6c46afa1'e
+ilerledi; o commit üç hedef dosyaya dokunmuyor (`git diff --stat` boş), diff orada da
+geçerli. Eski `TEK-EKSIK-BUHARA-1006.diff`in yerini alır.
+- Üç dosya, 10 ekleme / 6 silme: `olaylar_ek8.js` (yeni madde, §6.2 ile birebir aynı) ·
+  `kronoloji_ozbek.js` (düzeltme) · `devletler.js` (künye).
+- Satır sonu: `olaylar_ek8`/`kronoloji_ozbek` hunk'ları LF. **`devletler.js` hunk'ları
+  CRLF** (20 satır). Dosya `-text` ve index'te karışık (10493/10710 CRLF), bu bölge CRLF;
+  baytlar korundu. `git apply --check` ve `--cached --check` temiz. Uygulanmış hâlde
+  `node --check` üç dosyada temiz. Diff'te "karşı" 0. Motor tuzuna dokunulmadı.
+
+### 7.1 Değişiklikler
+- **ozbek :324 (KALDIRILMADI, DÜZELTİLDİ):** `b:` "Kızıl Ordu Buhara şehrine girdi, son
+  emir tahttan uzaklaştırıldı" · `d:` Düşenbe'ye çekiliş, 21 Şubat 1921, 6 Ekim ilga
+  ("Afganistan'a kaçtı" ve "420 yıllık" kaldırıldı; ikincisi künyeden türetilmiş bir
+  sayıydı) · `kaynak:` Iranica JADIDISM + TDV buhara + Iranica DUSHANBE birebir. Eski
+  kaynağın neden düştüğü alanda yazılı. `t:"1920-09-02"`, `kunye:["buhara"]` aynen.
+- **devletler.js `buhara`:** `t:"1920-09-02"` → **`"1921-02-21"`** · `kaynak:` "buhara" +
+  t'nin dayanağı (Iranica DUSHANBE birebir) + de jure 6 Ekim / şehre giriş 2 Eylül notu ·
+  künye `kronoloji:` eski tek satır ("…ele geçirdi, BHSC ilan edildi"; BHSC 8 Ekim'di,
+  aynı güne yığılmıştı) üç satıra açıldı: 1920-09-02 `savas` · 1920-10-06 `bolunme` ·
+  1921-02-21 `son`.
+
+### 7.2 Önce / sonra (`denetle.py --ayrinti`, 07cb6062, çıkış 2 → 2, sebep D8)
+| ölçü | önce | sonra |
+|---|---|---|
+| kronoloji maddesi | 2204 | 2205 |
+| 2s | 1721 kırılma · 185 AÇIK (tavan 186) · 792 KAPSAM DIŞI | 1721 · **185** · **791** |
+| 2sk kapalı | 4174 = 2070 YER + 2104 TARAF | 4181 = **2072** + **2109** |
+| 2sk GÜN | YER 1379 · TARAF 1615 · maskeli YER 578 · TARAF 142 | 1381 · 1620 · 577 · **137** |
+| yalnız-taraf toplam | 2246 (tavan 2247) | **2246** (değişmedi) |
+| **4c** künye ölümünü aşan | 127 (beklenen 127) | **127** |
+| **4d** künye doğumundan önce | 324 (beklenen 324) | **324** |
+- Taban bu turda farklı (KILI ve koordinatör tekleştirmesi indi), o yüzden §6.2'deki
+  mutlak sayılar burada tutmaz. **Farklar** tutuyor: kova kapanıyor, KAPSAM DIŞI −1,
+  maskeli TARAF −5, toplam sabit.
+- `diff` başka satır göstermedi (yalnız `katalan 1 dönem` baskı sırası; §6.3'teki
+  kararsızlık).
+- **Künye uzatmasının kendi etkisi SIFIR satır:** 4c/4d ve öteki değişmezler kıpırdamadı.
+  Sebep: hiçbir yerleşimin `buhara` dönemi eski pencereyi (1920-09-02) aşmıyordu. Uzatmak
+  aşım üretmez, yalnız izin verir.
+
+### 7.3 Kal'a-i Hum `__BOSLUK__` dilimi kalkıyor mu? — **HAYIR, kendiliğinden kalkmaz**
+⚠️ **§6.4 ②'deki cümle DÜZELTİLİYOR.** Orada "künye ② seçilirse Kal'a-i Hum'un 09-02
+kırılması ve `__BOSLUK__` dilimi kalkar" yazdım. Ölçüldü: **künye tek başına kaldırmaz.**
+- Dilim `yerlesimler_a78_asya.js:207`deki **kayıtta** yazılı (`f:"1920-09-02",
+  t:"1920-10-08", d:"__BOSLUK__"`). Künye değişikliği onu silmez. Kayıt koordinatör
+  dosyası; bu diff ona DOKUNMUYOR.
+- Ama dilimin **gerekçesi artık bayat:** kaynağı "buhara künyesi 1920-09-02'de kapanıyor …
+  künye penceresi dışı" diyor. 1006b inince 09-02→10-08 aralığı künye penceresinin İÇİNDE
+  kalır. ⇒ Kayıt düzeltilmeli. Bu bir sonraki adım ve sahibi koordinatör.
+- **İki varsayımsal düzeltme ÖLÇÜLDÜ** (1006b uygulanmış ağaçta, kayıt geçici değiştirilip
+  geri alındı; diff YOK). İkisi de `__BOSLUK__` dilimini kaldırır, `buhara` → BHSC tek
+  geçiş:
+  | | H1: `buhara` 1873→**1920-10-08**, BHSC sonra | H2: `buhara` 1873→**1921-02-21**, BHSC sonra |
+  |---|---|---|
+  | dayanak | BHSC'nin kendi günü (kaydın mevcut BHSC dilimi) | gün komşudan: Düşenbe · Iranica DUSHANBE (≈190 km batı) |
+  | 2s | aynı (1721 · 185 · 791) | 1722 kırılma · 185 AÇIK · **792** KAPSAM DIŞI (yeni 1921-02-21 kırılması kapsam dışı) |
+  | yalnız-taraf toplam | 2246 → **2245** | 2246 → **2244** |
+  | denetle'nin önerisi | "tavan 2247 → 2245 yapılabilir" | "→ 2244 yapılabilir" |
+  | 4c/4d | 127/324 | 127/324 |
+  | yan etki | "kucuk-devlet" muafı 307→306 (D8 muaf sayımı) | aynı |
+- İkisinde de Kal'a-i Hum'un 1920-09-02'deki **yer düzeyinde doğrulanmamış taraf
+  kapanışı** (§6.2 ⚠️) ortadan kalkar: 09-02'de artık kırılması yok.
+- **Önerim H2**: künye hükmüyle tutarlı (emir doğuda 21 Şubat 1921'e dek). Ama gün
+  **komşudan** ve komşu ~190 km uzakta; Iranica emirin "farther east" kaçtığını söylüyor,
+  yani Darvaz Düşenbe'den sonra da bir süre emirin olabilir. Bu yüzden kayda **"gün
+  komşudan: Düşenbe · Iranica DUSHANBE"** şerhi şart (D207 şartlı serbestlik). H1 daha az
+  iddialı ama de facto künyeyle çelişir (künye sürerken Darvaz BHSC'ye geçmiş olur).
+  Seçim koordinatörün.
+- Hisar/Külâb 1920-09-02 şüphesi koordinatörde (§6.4). Dokunulmadı, ölçülmedi.

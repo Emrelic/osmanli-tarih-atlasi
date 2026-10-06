@@ -27,18 +27,6 @@ def yukle(ad, yol=None, kaynak=None):
     m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m); return m
 
 
-def N_yap(nrm):
-    def N(s):
-        s = re.sub(r"[^a-z0-9]+", " ", nrm.norm(s))
-        return " " + re.sub(r"\s+", " ", s).strip() + " "
-    BOS = re.compile(r" · |\.\.\.|…|\[\s*\.\.\.\s*\]|\[…\]")
-    def parcalar(q):
-        p = [N(x) for x in BOS.split(q)]
-        p = [x for x in p if x.split()]
-        return p or [N(q)]
-    return N, parcalar
-
-
 def main():
     a = sys.argv[1:]
     onb = a[a.index("--onbellek") + 1] if "--onbellek" in a else None
@@ -52,8 +40,6 @@ def main():
     eski = yukle("eski", kaynak=r.stdout.decode("utf-8"))
     if onb:
         yeni.ONBELLEK = eski.ONBELLEK = os.path.abspath(onb)
-    nrm = yukle("nrm", os.path.join(BURA, "ARAC-NORMAL-0903.py"))
-    N, parcalar = N_yap(nrm)
     hata = 0
     sayfa = {}
 
@@ -63,17 +49,14 @@ def main():
             sayfa[slug] = None if kod != "200" else (eski.tam(h), yeni.tam(h))
         return sayfa[slug]
 
-    def var_mi(q, metinler, sinirsiz=False):
-        """('OZET'|'GOVDE'|None): bütün parçalar özette ya da gövdede geçiyor mu. Varsayılan: kelime sınırlı
-        (W30 esle.py ile aynı). sinirsiz=True: son kelime ek alabilir ('katolikosluklari' ⊂ '…larina')."""
-        pp = parcalar(q); NM = [(ad, N(t)) for ad, t in metinler]
-        if sinirsiz: pp = [p.rstrip() for p in pp]
-        yer = []
-        for p in pp:
-            bul = [ad for ad, t in NM if p in t]
-            if not bul: return None
-            yer.append(bul[0] if "GOVDE" not in bul else "GOVDE")
-        return "GOVDE" if all(y == "GOVDE" for y in yer) else "OZET"
+    def var_mi(q, metinler, yakin=False):
+        """('OZET'|'GOVDE'|None): TEK TANIM (yeni.birebir, BIREBIR-TANIM-1006) BİREBİR diyorsa yeri; gövde önce
+        sorulur (eski sürüm 'GOVDE'yi yeğliyordu). yakin=True: YAKIN-EK de döner ama 'YAKIN-EK@' önekiyle —
+        BİREBİR'e karışmaz ('katolikosluklari' ⊂ '…larina', #121 millet)."""
+        b = yeni.birebir(q, sorted(metinler, key=lambda x: x[0] != "GOVDE"))
+        if b["kova"] == "BIREBIR": return b["yer"]
+        if yakin and b["kova"] == "YAKIN-EK": return "YAKIN-EK@" + b["yer"]
+        return None
 
     # ---- kör sınav
     t0 = iki("kilitbahir-kalesi")
@@ -87,8 +70,9 @@ def main():
 
     # ---- İLERİ + GERİ (264)
     R = list(csv.DictReader(open(os.path.join(BURA, "ALINTI-264-1006.tsv"), encoding="utf-8"), delimiter="\t"))
-    ileri = [x for x in R if x["birebir_olcum"] == "TAM/OZET"]
-    geri264 = [x for x in R if x["birebir_olcum"] == "TAM/GOVDE"]
+    # birebir_olcum sözlüğü BIREBIR-TANIM-1006'da TAM/NORM → BIREBIR/YAKIN-EK oldu; iki sürümün tablosu da okunur
+    ileri = [x for x in R if x["birebir_olcum"] in ("TAM/OZET", "BIREBIR/OZET")]
+    geri264 = [x for x in R if x["birebir_olcum"] in ("TAM/GOVDE", "BIREBIR/GOVDE", "YAKIN-EK/GOVDE")]
     print(f"İLERİ evreni: {len(ileri)} (beklenen 7) · GERİ-264 evreni: {len(geri264)}")
     if len(ileri) != 7:
         print("✗ İLERİ evreni 7 değil"); hata += 1
@@ -103,20 +87,19 @@ def main():
     for x in geri264:
         t = iki(x["slug"])
         if t is None: olculemedi.append("çekilemedi " + x["slug"]); continue
-        # 264'ün ölçümü kelime sınırı aramıyordu; geri yön AYNI eşleştiriciyle sorulur (önce VAR ⇒ sonra VAR, aynı yerde)
-        for sz in (False, True):
-            once = var_mi(x["alinti"], [("GOVDE", t[0]["govde"])], sz)
-            sonra = var_mi(x["alinti"], yeni.alinti_metinleri(t[1]), sz)
-            ok = once == sonra
-            print(f"  {'✓' if ok else '✗'} GERİ #{x['no']} {x['slug']} ({'sınırsız' if sz else 'kelime sınırlı'}):"
-                  f" önce {once or 'YOK'} → sonra {sonra or 'YOK'}")
-            hata += not ok
+        # 264'ün ESKİ ölçümü kelime sınırı aramıyordu; geri yön TEK TANIMLA sorulur: önce = sonra, aynı yerde.
+        # YAKIN-EK de sorulur ki #121 millet (kenarı bozuk) iki yönde de görünsün, BİREBİR'e karışmadan.
+        once = var_mi(x["alinti"], [("GOVDE", t[0]["govde"])], True)
+        sonra = var_mi(x["alinti"], yeni.alinti_metinleri(t[1]), True)
+        ok = once == sonra
+        print(f"  {'✓' if ok else '✗'} GERİ #{x['no']} {x['slug']}: önce {once or 'YOK'} → sonra {sonra or 'YOK'}")
+        hata += not ok
 
     # ---- GERİ (ALINTI-TARAMA BİREBİR) + yapı özdeşliği
     T = list(csv.DictReader(open(os.path.join(BURA, "ALINTI-TARAMA-1006.tsv"), encoding="utf-8"), delimiter="\t"))
     bir = [x for x in T if x["kova"] == "BIREBIR" and x["slug"]]
     if sinir: bir = bir[:sinir]
-    dus, gondermeli, olcul = [], 0, 0
+    dus, gondermeli, olcul, tanim_disi = [], 0, 0, []
     for x in bir:
         t = iki(x["slug"])
         if t is None: olculemedi.append("çekilemedi " + x["slug"]); continue
@@ -125,10 +108,13 @@ def main():
         olcul += 1
         once = var_mi(x["alinti"], [("GOVDE", t[0]["govde"])])
         sonra = var_mi(x["alinti"], yeni.alinti_metinleri(t[1]))
-        if once != "GOVDE" or sonra != "GOVDE":
+        if once != "GOVDE":       # W30 BİREBİR saymıştı, TEK TANIM (sıra şartı) saymıyor: öncül yok, bu sınavın konusu değil
+            tanim_disi.append((x["dosya"], x["satir"], x["slug"])); continue
+        if sonra != "GOVDE":
             dus.append((x["dosya"], x["satir"], x["slug"], once, sonra))
     print(f"GERİ-TARAMA: BİREBİR {len(bir)} satır · ölçülen {olcul} · gönderme sayfası (atlandı) {gondermeli}"
-          f" · düşen/yer değiştiren {len(dus)}")
+          f" · düşen/yer değiştiren {len(dus)} · TEK TANIMDA zaten BİREBİR olmayan (BIREBIR-TANIM-1006) {len(tanim_disi)}")
+    for d in tanim_disi: print("  · tanım dışı", d)
     for d in dus[:20]: print("  ✗", d)
     hata += len(dus)
     ozdes_bozuk, ozet_govdede, ozet_bos = [], [], 0

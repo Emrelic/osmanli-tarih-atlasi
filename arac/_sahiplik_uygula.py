@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+# 🔴 BU ARACI --yaz İLE KOŞTURMA — glob'daki İNMİŞ yamalar 174 kaydı GERİ ALIR (63'ü kaynaklı dönem
+#    siler, 93'ü kid'li tâbi dönemi siler; ölçüldü 6 Ekim 2026, denetim/YALAN-DAMGA-YERYAMA-1006.md).
+#    Geri alma kapısı inene ve inmiş yamalar glob dışına taşınana kadar (koordinatör hükmü) koşturulmaz.
+# 🟢 GERİ ALMA KAPISI İNDİ (SAHIPLIK-UYGULA-KAPI-1006): `arac/_bayat_yama_kapi.py` ŞARTTIR —
+#    yoksa / soramazsa araç ÇIKIŞ 3 ile durur; bayat yama bulursa HİÇBİR ŞEY YAZMADAN ÇIKIŞ 2.
+#    Taşıma (inmiş yamaların glob dışına alınması) koordinatörün ayrı işidir; o inene kadar
+#    kapı bugünkü korpusta bayat kayıtları adıyla durdurur.
 """SAHİPLİK YAMASI UYGULAYICI — yer_yama*.js  ->  yerlesimler*.js
 
     py arac/_sahiplik_uygula.py           KURU KOŞU (hiçbir şey yazmaz)
@@ -154,6 +161,16 @@ def maddesi_var(gun, tolerans=30):
 # ────────────────────────────────────── ③ veride ad -> (dosya, satır)
 sys.path.insert(0, os.path.join(KOK, "arac"))
 import girdi  # noqa: E402
+
+# 🔴 GERİ ALMA KAPISI — ŞART (koordinatör hükmü, 6 Ekim 2026). Modül yoksa araç KOŞMAZ:
+#   kapısız bir uygulayıcı, glob'daki inmiş yamalarla sonraki düzeltmeleri SESSİZCE geri alır
+#   (ölçüldü: 177 değişimin 174'ü — `denetim/YALAN-DAMGA-YERYAMA-1006.md`).
+try:
+    import _bayat_yama_kapi as KAPI  # noqa: E402
+except Exception as _e:  # noqa: BLE001
+    print("🔴 GERİ ALMA KAPISI YÜKLENEMEDİ (%s: %s) — araç KOŞMAZ (çıkış 3)."
+          % (type(_e).__name__, _e))
+    raise SystemExit(3)
 
 DOSYALAR = list(girdi.GIRDI_DOSYALARI)
 AD_RX = re.compile(r'\bad:\s*"((?:[^"\\]|\\.)*)"')
@@ -753,6 +770,7 @@ atlanan = []
 degisiklik = collections.defaultdict(int)
 inen = []
 duzenleme = []        # (dosya, i, j, yeni_satirlar) — TERSTEN uygulanır
+kapi_aday = []        # geri alma kapısına gidecek her değişim (yazmadan ÖNCE sorulur)
 
 for ad, liste in sorted(gruplu.items()):
     x = liste[0]
@@ -929,6 +947,8 @@ for ad, liste in sorted(gruplu.items()):
     #   sonundan başına doğru (TERSTEN) uygulanır; böylece henüz
     #   uygulanmamış aralıkların indeksleri geçerli kalır.
     duzenleme.append((dosya, i, j, yeni_satir.split("\n")))
+    kapi_aday.append({"ad": ad, "dosya_yol": "data/" + dosya, "i": i + 1, "j": j + 1,
+                      "eski": satir, "yeni": yeni_satir})
     ist["uygulandi"] += 1
     degisiklik[dosya] += 1
     inen.append((ad, dosya, "+".join(dokunulan), zayif,
@@ -962,6 +982,34 @@ if atlanan:
     print("[!] ATLANAN (%d) — sebebiyle:" % len(atlanan))
     for ad, sebep in atlanan:
         print("  %-28s %s" % (ad[:28], sebep))
+
+# ─────────────────────────────────────────── ⑧ GERİ ALMA KAPISI (ŞART)
+# Kuru koşuda da sorulur: "177 iner" demek, 174'ü geri almaysa YALAN bir rapordur.
+print()
+print("GERİ ALMA KAPISI: %d değişim, her biri kendi satır geçmişine (git log -L) soruluyor…"
+      % len(kapi_aday))
+try:
+    bayat = KAPI.tara(KOK, kapi_aday)
+except KAPI.KapiOlcemedi as _e:
+    print("🔴 KAPI ÖLÇEMEDİ — %s" % _e)
+    print("   ölçülemedi ≠ temiz ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3).")
+    raise SystemExit(3)
+except Exception as _e:  # noqa: BLE001
+    print("🔴 KAPI ÇALIŞMADI — %s: %s ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3)."
+          % (type(_e).__name__, _e))
+    raise SystemExit(3)
+if bayat:
+    print("🔴 BAYAT YAMA: %d kayıt — yamanın yazacağı dizi O KAYDIN geçmişinde VARDI ve bugün"
+          " YOK ⇒ yama bir kez inmiş, kayıt sonra düzeltilmiş; yazmak o düzeltmeyi GERİ ALIR."
+          % len(bayat))
+    for ad, yol, satir_no, alanlar in sorted(bayat):
+        print("  %-28s %s:%d  %s" % (ad[:28], yol, satir_no, " · ".join(
+            "%s (geçmişte: %s)" % (a, ", ".join("%s %s" % hg for hg in isabet[:3]))
+            for a, isabet in alanlar)))
+    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 2). Çare: inmiş yamayı glob dışına al "
+          "(`data/yer_yama_arsiv/`), ya da kaydın bugünkü hâlini yamaya işle.")
+    raise SystemExit(2)
+print("  ✓ bayat yama yok — %d değişim TAZE." % len(kapi_aday))
 
 if YAZ:
     # 🔴 TERSTEN — dosya SONUNDAN başına doğru. Bir kaydın satır sayısı
