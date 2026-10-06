@@ -210,3 +210,41 @@ geçişi daha; eski ölçüm "taban gövde geçişinin 0,68 katı" yalnız birle
 
 ---
 <!-- MÜHÜR SINIRI: yukarısı HAVVA dosyası açılmadan yazıldı ve commitlendi. -->
+
+## 9. HAVVA İLE KARŞILAŞTIRMA — mühürden SONRA (mühür `647c8ed2`)
+Okunan: `git show origin/main:denetim/HAVVA-UFUK-BANT-HATA-1006.md` (fetch 6 Ekim). Dosyada yalnız
+**§0 ÖNGÖRÜ** var (15:26, *"kod henüz okunmadı"*); ölçüm bölümü o sürümde YOK ⇒ karşılaştırma
+öngörü × kod teşhisidir, ölçüm × ölçüm değil. Birleştirme yapılmadı (şart ③).
+
+### 9.1 HAVVA'nın sınanabilir iddiası, kodda doğrudan
+> *"bant = N günlük ERİŞİM alanı − 5 günlük ERİŞİM alanı mı, yoksa ÇİZİLEN gövdeden mi; o gövdeye
+> TAVAN uygulandı mı"*
+
+| soru | kod | hüküm |
+|---|---|---|
+| bant ERİŞİM − ERİŞİM mi? | `:7873-7879` `_BANT_HAM[b][i].difference(_BANT_HAM[b−1][i])`; `_BANT_HAM` = petek × bütçe konturu (`:3605-3608`) | **EVET — DOĞRULANDI** |
+| ÇİZİLEN gövdeden mi çıkarılıyor? | `:7863-7902`'de gövdeye (DEVLET_KAYIT / donemler) hiç başvuru yok | **HAYIR — DOĞRULANDI** |
+| gövdeye A1 yarıçap tavanı uygulanmış, banda uygulanmamış mı? | A1 tavanı `_yr_kes` içinde (`:2331-2335`), taban (`:3614`) ve bant (`:3608`) AYNI işlevden geçiyor | **HAYIR — boşluğu A1 doğurmaz** |
+| gövdeye çöl tavanı uygulanmış, banda uygulanmamış mı? | bantlara AYNI `_col_kes_hesap` (`:4337-4364`) | **HAYIR — boşluğu çöl tavanı doğurmaz** |
+| gövdeyi kesip bandı kesmeyen BAŞKA bir kapı var mı? | **PUANLAMA KAPISI** `:6683-6688` (yalnız yabancı gövde) + kapat/delik/B2/B3/epok/seyrelt (gövdeyi BÜYÜTÜR) | ①'in kesicisi budur |
+
+⇒ **YAPI UYUŞUYOR, MEKANİZMANIN ADI ÇELİŞİYOR.** HAVVA'nın iskeleti (*erişimden erişim çıkıyor,
+çizilen gövde başka bir kesiciden geçmiş ⇒ arada boşluk; kesici ısırmıyorsa yapışık*) koda birebir
+oturuyor. Ama adını koyduğu kesici (A1 / çöl tavanı) banda da uygulanıyor; ayrışan kesici PUAN KAPISI,
+ve onu çölde ısırtan şey KELEPÇE (taban çöl erişimi 282 km > puan 200 km).
+**Ayırt edici ölçüm (HAVVA'nın verisinde yapılabilir):** Osmanlı gövde kenarında boşluk. Puan
+mekanizması ⇒ ~0 · tavan mekanizması ⇒ Osmanlı çöl kenarında da boşluk (çöl tavanı Osmanlı peteğine
+de uygulanıyor). Bir de boşluğun dış yarıçapı: puan ⇒ ~200 km (tek yerleşim), çöl tavanı ⇒ 300 km.
+
+### 9.2 Öteki kalemler
+| kalem | HAVVA öngörüsü | bu rapor | uyuşma |
+|---|---|---|---|
+| ③/④ | çoğu kusur değil (komşu/deniz/arazi) + bant bütçesi tavanla kesiliyorsa kısmen kusur | K3 GERÇEK (yoğunluk/petek dolu) · K1 KUSUR: kelepçe bant eşiğini çölde 78/112 saate çıkarıyor, fazlayı çöl tavanı saklıyor · K4 KUSUR (epok) · K2 M2 sonrası gerçek | **KISMEN.** "çoğu muaf + beyan" uyuşuyor; HAVVA'nın "tavanla kesilen bütçe" kolu K1'e karşılık geliyor ama kökü tavan değil NORMALLEŞTİRME. K4 HAVVA'da yok |
+| ⑤ | banda özgü; komşu devletlerin bantları bağımsız, paylaştırma yok; kapat ile aynı DEĞİL | halkalar petek hücresine bağlı (`_yr_kes(kara_kesik…)` `:3605`) ⇒ komşu devletlerin halkaları AYRIK, halka–halka binme yalnız ⑤c (ada payı, küçük). Asıl binme GÖVDE–HALKA (⑤a kapat · ⑤b B2/B3/delik) | **ÇELİŞİYOR.** "banda özgü" sonucu uyuşuyor ama mekanizma farklı: binen şey komşunun BANDI değil, gövdenin (kapat dâhil) halkanın üstüne taşan payı. ⑤a kapat ile AYNI işlev |
+| renk | gövde renginin koyulaştırılmışı + fazla opaklık | renk AYNI (`DOLGU_RENK[r.d]` `app.js:790`), fark YALNIZ opaklık (1 / 0.44) | **KISMEN** — opaklık uyuşuyor, "koyulaştırılmış renk" kodda yok |
+| koşu 20'de hepsi var | 5/5 | bant kodu `MOTOR-BANT-TAM-1005.diff` uygulanmadığı sürece aynı; bu rapor da 5/5 bekler | **UYUŞUYOR** |
+
+### 9.3 Koordinatör için tek satır
+HAVVA'nın ölçümü ① boşluklarının dış kenarını **~200 km** (tek yerleşim) / Osmanlı'da **boşluk yok**
+bulursa bu raporun puan teşhisi; **300 km** ve Osmanlı'da da boşluk bulursa HAVVA'nın tavan teşhisi
+kazanır. İkisi aynı anda doğru olamaz.
