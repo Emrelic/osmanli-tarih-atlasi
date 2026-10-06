@@ -39,3 +39,6 @@
 - Birleşme yönü (−n) ve etiket-taşıma/ekleme hareketleri.
 - 743'ün kaçının gerçekçi bir veri düzeltmesine açık olduğu (etiket şehrinin `s:` zinciri ne kadar "oynak"). Bu kaynak/veri sorusu.
 - 5 km² eşiğinin bu duyarlılıktaki payı (bölünmenin küçük parçası çoğu zaman 1-2 örnek, 4-8 km²). Eşiğe göre duyarlılık eğrisi çıkarılmadı.
+
+---
+> 🔴 **DÜZELTME (LAB-8A-BIRLESME-1006):** Buradaki **+970 FAZLA SAYILMIŞTIR.** Yöntem anahtarı tek başına ele aldı ve "ikinci en yakın" etiketleri hep YENİ anahtar saydı; oysa o etiket aynı (hat,gün,yan) grubunda çoğu zaman ZATEN vardır ⇒ bölünme değil BİRLEŞME. Grup düzeyinde net ölçüm (aynı gövde, aynı geometri): etiket çıkışı 1509 senaryo → **+n toplam +250** (152×+1 · 43×+2 · 4×+3) ve **−n toplam −646** (646×−1). Lugos sınaması grup yöntemiyle de tutuyor (+1). "743 anahtar bölünür" cümlesi de geçersiz; doğrusu: 199 senaryo +n, 646 senaryo −n, 664 senaryo 0.

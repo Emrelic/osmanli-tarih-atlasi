@@ -643,8 +643,11 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 267 ders (dosya 267 = dizin bağı 267,
-6 Ekim 2026 öğleden sonra ÖLÇÜLDÜ). Toplu okunmaz, kural
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 268 ders (dosya 268 = dizinde anılan
+benzersiz no 268, 6 Ekim 2026 gecesi ÖLÇÜLDÜ).
+⚠️ Sayarken `ls dersler/D*.md` KULLANMA: `DIZIN.md` de "D" ile başlıyor ve glob onu da
+sayıyor (bir fazla verir — `D267`nin tuzağının birebir aynısı). Doğrusu
+`ls dersler/ | grep -cE "^D[0-9]+-"`. Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
 (ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.

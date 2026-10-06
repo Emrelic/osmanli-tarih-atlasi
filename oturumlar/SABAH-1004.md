@@ -2180,9 +2180,10 @@ hiçbir yerde yazılı değil (aradım: kod, commit mesajı, `D237`).
     o hesap bir KOŞU istemez ama motor çıktısını yeniden taramak ister.
 (C) OLDUĞU GİBİ KALSIN
     Bedel sıfır, ama bu gece ölçüldü: tavan haritada hiçbir şey değişmeden oynuyor.
-    🔴 ÜST SINIR ÖLÇÜLDÜ VE BENİM TAHMİNİMİN YEDİ KATI ÇIKTI: **+970** (1509 anahtarın
-    743'ü bölünüyor). Yani 8a sayacının oynama potansiyeli, kendi toplamının
-    **~%64'ü**. (C) ölçümle birlikte savunulamaz hâle geldi.
+    🔴 ÜST SINIR ÖLÇÜLDÜ, iki yönde: **ÇIKIŞ +250 / −646 · GİRİŞ +973 / −27.**
+    Ve **−1'lerin 622'sinde sayılan ALAN BİREBİR korunuyor** ⇒ sayaç gerçek bir taşmayı
+    etiket birleşmesiyle **yutabiliyor**. (C) ölçümle birlikte savunulamaz hâle geldi.
+    (Ayrıntı ve düzeltme geçmişi ㉘b'de.)
 ```
 📌 (A) ile (B) birbirini dışlamıyor: (A) hemen inebilir, (B) ayrı bir iş olarak sıraya
 girebilir. Benim yapmayacağım şey **(C)'yi sessizce sürdürmek**.
@@ -2196,19 +2197,17 @@ seçersen zemin hazır olur.
 🔴 **8a tavanı bu karar verilene kadar OYNATILMAYACAK** (§3.4(0): sebebi ve birimi
 tartışmalı olan sayı tavan olmaz).
 
-### ㉘b 🔴 ÜST SINIR ÖLÇÜLDÜ — **+970**, ve benim "+128" tahminim YANLIŞ EVRENDEYDİ
+### ㉘b 🔴 ÜST SINIR ÖLÇÜLDÜ — benim "+128" tahminim YANLIŞ EVRENDEYDİ (sayılar ㉘c'de)
 
 `LAB-8A-KIRILGANLIK-1006` (1509 satırlık TSV, gövde `2fe8ada7`, site damgalı geometri).
 
-```
-TEK bir etiket şehrinin karşı yakadan çıkması (Lugoj türü, SIRADAN bir s: düzeltmesi)
-  1509 anahtarın 743'ünü BÖLER        →  toplam potansiyel  +970
-  tek parçalı 1392 anahtardan 672'si  →  +878
-  çok parçalı  117 anahtardan  71'i   →  +92
-```
-⇒ **8a sayacının oynama potansiyeli, kendi toplamının ~%64'ü.** Haritada hiçbir şey
-değişmeden. ⚠️ +970 **eşzamanlı değil, DUYARLILIK**: 743 anahtar *tek bir `s:` düzeltmesi
-uzaklıkta* sayacı oynatmaya hazır.
+⚠️ **İLK YAZDIĞIM "+970" FAZLA SAYILMIŞTI — LAB kendi ölçümünü düzeltti** (doğru sayılar
+㉘c'de). Sebebi öğretici: ilk ölçüm her anahtarı TEK BAŞINA ele alıp "ikinci en yakın"
+etiketleri hep YENİ saymış; oysa o etiket aynı `(hat, gün, yan)` grubunda çoğu zaman
+ZATEN VAR ⇒ bölünme değil **BİRLEŞME**. Yani **−n, +n olarak sayılmış.**
+📌 Bu, *"toplayıcının kendi tanımını okumamak"* ailesinin aynı gecedeki **dördüncü**
+vakası (ikisi benim, ikisi LAB'in). Düzeltilmiş hâl ㉘c'de ve karar **zayıflamıyor,
+güçleniyor**: artık "yanlış susar" kolu da ölçülmüş.
 
 🔴 **BENİM HATAM:** `㉘ (C)`de üst sınırı *"117 çok parçalı anahtar ⇒ +128"* diye yazdım.
 **Yanlış evren.** Yalnız ÇOK PARÇALI anahtarların bölünebileceğini varsaydım; oysa
@@ -2246,3 +2245,62 @@ bir kez daha doğrulanması.)
 tavanın bir ihlali **yanlış SUSTURMA** kolu. Saarbrücken takası o yönün canlı olduğunu
 gösteriyor ama sayısı yok. LAB'e verildi. ⇒ Eğer −n de büyükse, `8a-birim`in ihlal
 yetkisi **kesinlikle** kalkmalı: yanlış ötmek gürültüdür, yanlış susmak **kayıptır**.
+
+### ㉘c 🔴 KARAR DAYANAĞI TAMAMLANDI — sayaç gerçek bir ihlali YUTABİLİYOR (ölçüldü)
+
+`LAB-8A-BIRLESME-1006` (2787 satırlık TSV, gövde `2fe8ada7`, site damgalı geometri;
+`denetle.py`nin scratchpad kopyası, ölçümden sonra silindi, `arac/`ya dokunulmadı).
+
+#### Ölçülen iki yön — ikisi de geometriden BAĞIMSIZ
+```
+ÇIKIŞ   grubun etiket şehri karşı yakadan çıkar (1509 senaryo)
+        Δ −1: 646 · 0: 664 · +1: 152 · +2: 43 · +3: 4      ⇒  +n +250 / −n −646
+GİRİŞ   o gün ağaçta olmayan yakın yerleşim girer (1278 senaryo)
+        Δ −2: 2 · −1: 23 · 0 (Saarbrücken türü takas): 280 · +1: 973  ⇒  +973 / −27
+TEORİK −n TAVANI   −834  (1509 anahtar − 675 grup)
+```
+🔴 **VE BELİRLEYİCİ OLAN BU:** −1 veren 646 senaryonun **622'sinde sayılan ALAN BİREBİR
+KORUNUYOR** (kalan 24'ünde eşik etkisi, toplam −88 km²).
+⇒ **Sayaç, gerçek bir taşmayı etiket birleşmesiyle YUTABİLİYOR, ve alan korunduğu için
+yuttuğu hiçbir yerden görünmüyor. GİZLEME KESİN, ihtimal değil.**
+
+#### 🔴 Ve bu bir SENARYO bile değil — bugünkü VARLIK
+```
+1637 ham parça − 1509 anahtar = 128 parça
+```
+**Bu 128 parça BUGÜN mevcut bir anahtarın içinde duruyor ve sayaçta GÖRÜNMÜYOR.**
+Mevcut bir etiket menziline düşen **yeni** bir taşma parçası sayaca **0** ekler.
+⇒ Yani soru *"ileride yutar mı"* değil: **şu anda 128 parçayı yutuyor.**
+
+#### LAB'in doğrulaması ve kendi düzeltmesi
+🟢 Grup düzeyinde yeniden sayım **1509 = sayaç** (ve `99d3eacc`de **1508 = sayaç**) —
+kopya gerçeği veriyor. Mühürlü sınav: `99d3`te Lugos çıkışı → 1→2, +1, alan 1692 = 1692 ✓,
+gerçekleşenle birebir.
+🔴 LAB'in kendi düzeltmesi: dünkü **+970 FAZLA SAYILMIŞ**, grup düzeyinde net **+250**.
+Sebebi: ilk ölçüm her anahtarı tek başına ele alıp "ikinci en yakın" etiketleri hep YENİ
+saymış; o etiket aynı `(hat, gün, yan)` grubunda çoğu zaman ZATEN var ⇒ **bölünme değil
+birleşme; −n, +n sayılmış.**
+
+### HÜKMÜM ARTIK KESİN — ve ㉘'nin şıkları bunu gerektiriyor
+```
+(C) OLDUĞU GİBİ   ❌ ELENDİ. Ölçüm: sayaç bugün 128 parçayı yutuyor ve alan korunurken
+                     −646'ya kadar sessizce düşebiliyor. Bir KAPI, görevi olan şeyi
+                     gizliyorsa kapı değildir.
+(A) ETİKETE DUYARSIZ   ✅ ÖNERİM. Ham parça (1637) ve taşma alanı (1.895.260 km²) bu
+                     duyarlılığın TAMAMINA kapalı — ÇIKIŞ, GİRİŞ ve birleşme dahil.
+(B) TAŞAN yerleşimi say  ✅ (A) ile BİRLİKTE inebilir; beyanla kodu hizalar
+                     (commit 595e9947 "taşan yerleşim" diyor, kod "taşılan"ı sayıyor).
+```
+🔴 **Senden istediğim tek karar:** `8a-birim`in **ihlal yetkisi** kalksın mı (rapor kolonu
+olarak kalır), yoksa ikinci bir tavan olarak sürsün mü? Benim ölçülmüş tavsiyem:
+**yetkisi KALKSIN, kolon KALSIN.** Gerekçe tek cümle: *yanlış ötmek gürültüdür, yanlış
+susmak kayıptır* — ve yanlış susma artık ölçülmüş bir gerçek.
+⚠️ Kararı ben vermiyorum çünkü Değişmez 8'i sen tanımladın (H-0069/H-0086); bir
+Değişmez'in ihlal ölçütünü emekliye ayırmak senin yetkindedir. `denetle.py`ye
+DOKUNULMADI.
+
+#### Hâlâ ölçülmemiş (karar için gerekmeyen, kuyrukta)
+Senaryoların gerçekçilik ağırlığı · eşzamanlı hareketler (Δ'lar toplanamaz) · etiket
+şehrinin TAŞINMASI · GİRİŞ'te 3° kutu dışı adaylar · **eşik eğrisi** (5 km²; bölünen
+parçalar çoğu 4-8 km² ⇒ duyarlılığın bir kısmı eşik artefaktı olabilir — bu, (A)'nın
+TASARIMINI etkiler, kararı değil).
