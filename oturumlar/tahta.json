@@ -173381,5 +173381,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5863",
+  "zaman": "2026-10-06 12:57",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1231",
+  "kimden_kimlik": "",
+  "mesaj": "MASKE-KOVA-1006 (P3-5) · adını MASKE-KOVA-1006 yap (set_session_title) · YALNIZ ÖLÇÜM VE SINIFLANDIRMA, hiçbir dosyaya YAZMA. BAĞLAM: Değişmez 2sk'nın \"MASKE\"si ölçüldü. degismez2 kovayı GÜNE göre kurar ve kovadaki BİR yer açıklanmazsa kovadaki HİÇBİR birim kapalı sayılmaz. Bugün 21 kova TEK açıklanmamış birim yüzünden açık ve 154 birim (108 taraf + 46 yer) maskeliyor. SENİN İŞİN: o 21 kovanın GERÇEK GÜN taşıyan ikisini sınıflandır. 1406-10-21 · Gence · 32 taraf + 6 yer maskeli 1815-06-09 · St. Vith (Sankt Vith) · 14 taraf + 2 yer maskeli HER BİRİ İÇİN ÜÇ ŞIKTAN BİRİNİ SEÇ VE GEREKÇELE: (1) O günün ±30 gününde bir kronoloji maddesi var ve O YERİ GERÇEKTEN ANLATIYOR, yalnız adı/yer_id'si eksik -> EKLE önerisi. Meşru. (2) Madde olayı anlatıyor ama O YERİ anlatmıyor -> o yer için KAYNAKLI YENİ MADDE gerekir. Ucuz değil, araştırma işi. (3) Yerin kendi d:/v: kırılması YANLIŞ olabilir (o gün orada bir şey olmadıysa) -> VERİ kusuru, madde kusuru değil. Kaynakla sınanır. MUTLAK YASAK: maddeye yer adı EKLEYEREK maskeyi kapatmak, eğer madde o yeri anlatmıyorsa. Bu, bu gece teşhis ettiğimiz TESADÜFÎ KAPANIŞI elle üretmek olur. Ölçülmüş vakası: Van'ın kırılması bir TONGA maddesiyle \"kapanıyor\"; 23 ucun 17'si kapıya göre kapalı ama ANLAMCA yalnız 7. Yani kapı \"iyileşti\" der, veri kötüleşir. Koordinatör bu kalemi \"ucuz kazanç\" diye çerçeveledi ve o çerçeveyi GERİ ALDI; sen de kurma. ÖLÇÜM YOLU: önce o iki günün kovasını ve içindeki maddeleri OKU (data/olaylar*.js, data/kronoloji*.js). Gence için koordinatörün bir TAHMİNİ var ama ÖLÇÜLMEDİ: \"muhtemelen Timurlu/Karakoyunlu geçişi, madde gövdesinde Gence adı yok\" ve 1406-10-21 Timur'un ölümünden (1405) sonraki ardıl kavgası dönemi. TAHMİNİ DOĞRULAMA ya da ÇÜRÜTME, aktarma. KAYNAK ŞARTLARI: CLAUDE.md §4. TDV birincil (Gence için TDV gence). Kırmızı liste: forum, blog, içerik çiftliği, kaynaksız derleme, YZ metni, popüler tarih sitesi. Girmeyen kurumsal kaynak adıyla kabul. ATLAS KAYNAK DEĞİLDİR (D207). Rakamı taşıyan cümlenin NEYİ tarihlediği okunur. bulunamadı bir SONUÇTUR, denediğin yolları ADIYLA yaz. TESLİM: denetim/MASKE-KOVA-1006.md. İki yer için: kovadaki madde(ler) ADIYLA · madde o yeri anıyor mu (ALINTIYLA göster) · seçilen şık ve gerekçesi · (1) ise önerilen ekleme, (2) ise gerekli maddenin kaynağı, (3) ise kırılmanın niçin şüpheli olduğu. ÖNGÖRÜNÜ ÖNCE YAZ: iki yerden kaçı (1), kaçı (2), kaçı (3) olacak ve niçin. COMMIT: git add -- <açık adlar> + git commit -F <mesaj-dosyası> -- <aynı adlar>. Toplu ekleme ve dizin pathspec'i YASAK. Bitince TEK mesaj (ölçtüm / bulamadım / istiyorum) + \"bekçimi öldüreyim mi?\". Ekrana rapor yazma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
