@@ -176,6 +176,60 @@ function cozum(o) {
   return { sinif: siniflandir(o), kusur: kusurlari_bul(o) };
 }
 
+// ---- ⑥b DEVLET SEKMESİ DALI (KIRIM-ODAK-A-1006) — `app.js` `maddeAc` ----------
+// Öteki yol (`haritayiOlayaGotur`, yukarıdaki `siniflandir`) Osmanlı kutusuna
+// uçar; BU yol künyenin KENDİ gövdesine (`devletiYay`) gider. `odak_olc` bu dalı
+// hiç sormuyordu (app.js'in kendi yorumu: "ÖLÇÜM KÖRLÜĞÜ, ayrı kalem").
+// Sıra app.js ile BİREBİR: konumlu → (kapsam_genis değilse dal yok) → odak kutusu
+// → o gün DEVLET_HARITA gövdesi → [A] künye kimliğiyle yerleşim kutusu (≥2) → SESSİZ.
+//   GOVDE      `devletiYay` bir dönem buldu
+//   KUTU       `maddeOdakKutusu` (odak_yer / odak_kimlik / odak_kutu_kaynak)
+//   TABI_KUTU  gövde yok, A geri düşüşü kutu kurdu (A'dan ÖNCE bunlar SESSİZ'di)
+//   SESSIZ     hiçbiri: kamera kıpırdamaz — app.js konsola sayıp basar
+// DEVLET_HARITA diskte yoksa sınıf OLCULEMEDI — "temiz" SAYILMAZ.
+const GOVDE = (function () {
+  const y = path.join(KOK, "data", "devlet_harita_ust.js");
+  if (!fs.existsSync(y)) return null;
+  try {
+    const s = {}; const w = { };
+    (function () { const window = w; eval(oku(y)); })();
+    (w.DEVLET_HARITA || []).forEach(function (d) {
+      s[d.id] = (d.dnm || []).map(function (p) { return [p.f, p.t]; });
+    });
+    return s;
+  } catch (e) { return null; }
+})();
+function gunSay(t) {
+  const m = /^(-?\d+)-(\d\d)-(\d\d)/.exec(String(t || ""));
+  return m ? (+m[1]) * 10000 + (+m[2]) * 100 + (+m[3]) : null;
+}
+function sekmeSinifi(o, kid) {
+  if (o.kapsam_genis !== true) return null;            // dal yalnız kapsam_genis'te
+  const s = siniflandir(o);
+  if (s === "KONUMLU") return null;                    // haritayiOlayaGotur dalı
+  if (s === "KUTULU") return "KUTU";
+  if (!GOVDE) return "OLCULEMEDI";
+  const k = kunyeIx[kid];
+  const hid = (k && k.harita) || kid, g = gunSay(o.t);
+  if (g === null) return "OLCULEMEDI";
+  // app.js `aktifAralik`: f <= gün < t
+  if ((GOVDE[hid] || []).some(function (p) { return gunSay(p[0]) <= g && g < gunSay(p[1]); })) return "GOVDE";
+  if (odakKimlikSayisi([kid], o.t) >= 2) return "TABI_KUTU";
+  return "SESSIZ";
+}
+// Dosya → hangi künye sekmesinde görünür: app.js `derinKronolojiBindir` /
+// `cokTarafliKronolojiEkle` ile aynı kural (ad eşlemesi; yoksa taraflar).
+function sekmeKunyeleri(degisken, o) {
+  if (!/^KRONOLOJI_/.test(degisken || "")) return [];   // olaylar*: Osmanlı çekirdeği, sekme yok
+  if (!/^KRONOLOJI_(SINIR|COK)_/.test(degisken)) {
+    const a = degisken.slice(10).toLowerCase();
+    if (kunyeIx[a]) return [a];
+    if (kunyeIx[a.replace(/_/g, "-")]) return [a.replace(/_/g, "-")];
+  }
+  const ids = o.taraflar || o.devletler || (o.devlet ? [o.devlet] : []);
+  return ids.filter(function (id) { return kunyeIx[id]; });
+}
+
 // ---- ⑦ dosyaları tara ---------------------------------------------------
 const cikti = { sehir_havuzu: SEHIR.size, sehir_kayit: sehirSayi,
                 yerlesim: W.YERLESIMLER.length, kunye: DEVLETLER.length,
@@ -191,10 +245,11 @@ G.dosyalar.forEach(function (ad) {
       const oncesi = new Set(Object.keys(W));
       eval(oku(yol));
       Object.keys(W).forEach(function (k) {
-        if (!oncesi.has(k) && Array.isArray(W[k])) kutu.k = W[k];
+        if (!oncesi.has(k) && Array.isArray(W[k])) { kutu.k = W[k]; kutu.ad = k; }
       });
     })();
     kayit = kutu.k;
+    var degisken = kutu.ad;
     if (!Array.isArray(kayit)) hata = "dosya bir dizi vermedi";
   } catch (e) {
     hata = String(e && e.message || e).slice(0, 160);
@@ -204,8 +259,15 @@ G.dosyalar.forEach(function (ad) {
   const s = { KONUMLU: 0, KUTULU: 0, BEYANLI: 0, ODAKSIZ: 0 };
   const kusurlar = [];
   const odaksiz = [];
+  const sekme = { GOVDE: 0, KUTU: 0, TABI_KUTU: 0, SESSIZ: 0, OLCULEMEDI: 0 }, sessiz = [];
   kayit.forEach(function (o) {
     if (!o || typeof o !== "object") return;
+    sekmeKunyeleri(degisken, o).forEach(function (kid) {
+      const ss = sekmeSinifi(o, kid);
+      if (!ss) return;
+      sekme[ss]++;
+      if (ss === "SESSIZ") sessiz.push({ kunye: kid, t: o.t, b: String(o.b || "").slice(0, 80) });
+    });
     const r = cozum(o);
     s[r.sinif]++;
     if (r.kusur.length) {
@@ -221,7 +283,8 @@ G.dosyalar.forEach(function (ad) {
     }
   });
   cikti.dosyalar.push({ dosya: ad, madde: kayit.length, sinif: s,
-                        kusur: kusurlar, odaksiz: odaksiz });
+                        kusur: kusurlar, odaksiz: odaksiz,
+                        sekme: sekme, sekme_sessiz: sessiz });
 });
 
 process.stdout.write(JSON.stringify(cikti));

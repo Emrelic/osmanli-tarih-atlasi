@@ -1096,15 +1096,19 @@ window.guvenStil = function (stil) { GUVEN_STIL = stil; guvenStilUygula(); guven
 function devletEtiketiTiklandi() {
   devletiYay(this.dataset.devletId);
 }
+// 🆕 6 Ekim 2026 (KIRIM-ODAK-A-1006): artık true/false DÖNER — çerçeveledi mi?
+// Eski çağıranlar dönüşü okumuyor (davranışları bit bit aynı); devlet sekmesi
+// dalı `false`ta tâbi/kimlik kutusuna geri düşer (aşağıda `maddeAc`).
+var SEKME_ODAK_DUSEN = 0;   // devlet sekmesinde kamera kuramayan tıklama sayısı (KIRIM-ODAK-A)
 function devletiYay(id) {
   var s = null;
   for (var i = 0; i < devletler2.length; i++) if (devletler2[i].id === id) { s = devletler2[i]; break; }
-  if (!s) return;
+  if (!s) return false;
   var p = null;
   for (var k = 0; k < s.dnm.length; k++) {
     if (aktifAralik(s.dnm[k].fi, s.dnm[k].ti, suanki)) { p = s.dnm[k]; break; }
   }
-  if (!p) return;   // o an bu devlet sahnede değil (nesli tükenmiş/henüz doğmamış)
+  if (!p) return false;   // o an bu devlet sahnede değil (nesli tükenmiş/henüz doğmamış · ya da TÂBİ çizili)
   var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
   var mp = p.ft.geometry.coordinates;
   for (var a = 0; a < mp.length; a++)
@@ -1114,7 +1118,7 @@ function devletiYay(id) {
         if (nk[0] < x0) x0 = nk[0]; if (nk[0] > x1) x1 = nk[0];
         if (nk[1] < y0) y0 = nk[1]; if (nk[1] > y1) y1 = nk[1];
       }
-  if (x0 === Infinity) return;
+  if (x0 === Infinity) return false;
   // "üstten alttan taşırma" — kullanıcının kendi sözü. Sağda kronoloji sütunu
   // açıksa gövde onun ALTINDA kalmasın diye sağ payı sütun genişliği kadar
   // artırılıyor (H-0006'daki #yanpanel.katli ile aynı durum okunuyor).
@@ -1122,6 +1126,7 @@ function devletiYay(id) {
   var sagPay = 50 + (yp && !yp.classList.contains("katli") ? yp.getBoundingClientRect().width : 0);
   harita.fitBounds([[x0, y0], [x1, y1]],
     { padding: { top: 50, bottom: 50, left: 50, right: sagPay }, duration: 800, maxZoom: 7.5 });
+  return true;
 }
 
 // Çakışma elemesi. MapLibre'nin sembol katmanı çakışmayı kendi çözerdi ama o
@@ -15203,7 +15208,31 @@ function kronoTemsilEdiliyor(k, derin) {
                              { padding: 40, duration: 1200, essential: ucusAcik() });
           }
         } else {
-          try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+          // 🆕 6 Ekim 2026 (KIRIM-ODAK-A-1006 · W43) — gövde YOKSA sessiz dönüş YOK.
+          // Ölçüldü: Kırım 1475-1774 arası `DEVLET_HARITA`da gövdesizdir (TÂBİ
+          // katmanda çizilir, 12-25 yerleşim `tabi:kirim`); `devletiYay` dönem
+          // bulamayıp hiçbir şey yapmıyordu. Geri düşüş `odak_kimlik:[künye]`
+          // ile AYNI çözücüdür (`maddeOdakKutusu`, SUZGEC — tâbi yerleşimi sayar,
+          // ≥2 şartı). O da kurulamazsa SAYILIP basılır. `arac/odak_cozum.js`
+          // aynı dalı `sekme` sınıfıyla ölçer (GOVDE/KUTU/TABI_KUTU/SESSIZ).
+          var _dsGovde = false;
+          try { _dsGovde = devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+          if (!_dsGovde) {
+            var _dsTabi = null;
+            try { _dsTabi = maddeOdakKutusu({ t: m.t, gi: gi, odak_kimlik: [d.id] }); } catch (eT) { _dsTabi = null; }
+            if (_dsTabi && _dsTabi.kutu) {
+              var _tK = _dsTabi.kutu;
+              harita.fitBounds([[_tK[0], _tK[1]], [_tK[2], _tK[3]]],
+                               { padding: 40, duration: 1200, essential: ucusAcik() });
+            } else {
+              SEKME_ODAK_DUSEN++;
+              console.warn("Atlas: devlet sekmesi — " + d.id + " " + m.t +
+                           ": gövde yok, kimlik/tâbi kutusu da kurulamadı — harita yerinde kaldı" +
+                           " (bu oturumda " + SEKME_ODAK_DUSEN + ". kez)");
+              if (obYerYokEl) obYerYokEl.textContent =
+                "📍 Bu tarihte " + (d.ad || d.id) + " haritada çizili değil — harita yerinde kaldı.";
+            }
+          }
         }
       }
     }
