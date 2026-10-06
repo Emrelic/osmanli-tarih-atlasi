@@ -1988,3 +1988,68 @@ Bugünün bütün veri ve alet işi main'de ve yayında (`3016c5d3`, damga r1181
 (yerel `66222e47…` ↔ site `0ef2d3e2…`). ⇒ **KOŞU 20 inmeden Değişmez 8 ölçülemez.**
 ⑳'deki üç seçenek ve önerim (sınırlı yayın + beyan) aynen duruyor; eklenen tek şey, artık
 başka hiçbir iş bu karara bağlı DEĞİL — kuyruk temiz, yalnız bu bekliyor.
+
+---
+
+## ㉕ 🔴 ㉓'ÜN DÜZELTMESİ — ölçümüm doğruydu, MEKANİZMAM yanlıştı
+
+**㉓'te şöyle yazmıştım:** *"Kıtalar 12:34'te HAZIRIM yazdı… `HAZIR-KITA.md` hem HAZIRIM'ı
+hem bekçiyi ister. HAZIRIM yazıldı, **bekçi kurulmadı**, tur bitti ⇒ oturum tahtaya
+kalıcı olarak SAĞIR oldu."*
+🔴 **BU MEKANİZMA ÇÜRÜK.** UMIT ölçtü (6 Ekim ~15:20): on bir `Hazır kıta 0610 12xx`
+oturumu **UMIT makinesinde** yerel, ve **bekçileri CANLI** — `oturumlar/bekci/*.json`
+damgaları 15:16, **tur 160**. Yani bekçi kuruldu, çalışıyor, hiç düşmedi.
+
+### Gerçek mekanizma — ve benim hatamın sınıfı
+```
+tahta.py yaz    →  ORIGIN'e PUSH EDİYOR   ("mesaj artık HERKESTE" diyor, ve DOĞRU söylüyor)
+tahta_bekci.py  →  YEREL tahta.json'u OKUYOR        ← HALKA BURADA KIRIK
+kimse PULL ETMİYOR → UMIT'in C:\atlas HEAD'i 16994668 (M-5861) · M-5862+ orada YOK
+⇒ Dokuz görev push'landı, hiçbir makinede OKUNMADI. Kıtalar 3 saat BOŞ bekledi.
+```
+📌 **Hatamın sınıfı `D267`in ailesi, ama yeni bir yüzü: ölçüm doğru, EVREN yanlış.**
+`bekci_olc.py` koşturdum, `CANLI 0` çıktı, ve *"hiçbir yerde bekçi yok"* hükmü verdim.
+Oysa o araç **yalnız EMRELIC'in `oturumlar/bekci/` dizinini** okur. EMRELIC'te gerçekten
+bekçi yoktu — ama kıtalar EMRELIC'te DEĞİLDİ. `list_sessions`/`ListAgents`ın onları
+görmemesi de bunun teyidiydi ve ben o teyidi **ters okudum**: "görünmüyorlar ⇒ ölü"
+dedim, doğrusu "görünmüyorlar ⇒ **başka makinede**"ydi.
+🔴 **Bir aracın evreni, sorunun evreninden küçükse, aracın cevabı bir ÖLÇÜM değil bir
+YANILSAMAdır** — ve sayı verdiği için inandırıcıdır.
+
+### Çare — doğruluk ve maliyet AYRI iki iştir, karıştırılmaz
+```
+DOĞRULUK (bugün inebilir, UMIT'te):
+  tahta_bekci.py tahtayı ÇALIŞMA AĞACINDAN DEĞİL origin'den okur:
+      git fetch origin --quiet          # ağaca DOKUNMAZ
+      git show origin/main:oturumlar/tahta.json
+  Niçin `show`: `pull`/`merge` çalışma ağacını değiştirir ve KOŞU ORTASINDAKİ bir
+  worktree'yi bozar. `show` salt okurdur, çatışma üretmez, yarım işi ezmez.
+  ÜÇ ŞART: ① `fetch` başarısızlığı GÖRÜNÜR olacak — sessiz düşerse bayat tahta TAZE
+  görünür, ki bugünün arızası tam bu ② bekçi damgasına hangi kaynaktan okuduğunu
+  yazacak (`yerel`/`origin`) ③ yerele düşmek ancak AÇIK NOTLA.
+
+MALİYET (Emre'nin kesmesine bağlı):
+  tahta.json 17,5 MB ve HER MESAJDA baştan yazılıyor ⇒ her yeni mesaj, her makineye
+  17 MB'lık bir nesne demek. Doğruluk çaresi mesajları ULAŞTIRIR; maliyeti düşüren
+  şey DEPOLAMA BÖLÜNMESİdir ve o `makine/tahta-web` kesmesinde.
+⚠️ İkisi karıştırılmaz: doğruluk inmezse mesaj HİÇ gelmez; bölünme inmezse PAHALI gelir.
+```
+
+### ㉓'ün hangi kısmı AYAKTA kalıyor
+- *"Dokuz görev KAYITTA, TESLİMDE DEĞİL"* → **doğru**, sebebi farklı.
+- *"`send_message` yolu da kapalı"* → **doğru ve değişmedi**: 0610 kıtaları EMRELIC'in
+  `list_sessions`/`ListAgents`ında görünmüyor, çünkü UMIT'te. Onlara UMIT ulaşır, ben ulaşmam.
+- *"`bekci_olc.py` bir bekçinin ÖLDÜĞÜNÜ görür, HİÇ KURULMADIĞINI görmez"* → **bu tespit
+  ayakta**, ama bugünün vakası o değildi. Kalem geçerli, vakası düştü.
+  📌 Ve şimdi bir YENİSİ eklendi: `bekci_olc.py` **BAŞKA MAKİNEDEKİ bekçiyi de görmez**,
+  ve bunu "bekçi yok" diye raporlar. Aracın çıktısına *"kapsam: YALNIZ bu makine"*
+  satırı eklenmeli — yoksa her koordinatör aynı yanılsamaya düşer.
+
+### Bugünkü dağıtımın sonucu — kayıp değil, gecikme
+UMIT paketi aldı ve 0084'ü sekiz kıtaya dağıttı; üç boş kıtaya da benim ulaşmayan
+görevlerimden üçünü sıraladım (`5867` tek-eksik kova · `5869` 264 tırnak · `5874` ucuz
+okuma turu). Kalan beş görev (`5865` · `5866` · `5868` · `5870` · `5873`) **kıta bekliyor**
+— `§7.3 ⑥`nın tam hâli: ilgili+sıcak oturum yok, EMRELIC havuzu boş.
+🔴 `5871` B-SINIR-YAKA **kasıtlı ERTELENDİ ve sebebi ÖLÇÜLDÜ**: Değişmez 8 bugün
+`denetle.py`de ÖLÇÜLEMEDİ (çıkış 2, `devletler_harita.js` sha uyuşmazlığı). D8
+ölçülemezken D8 kalemini dağıtmak, ölçülemeyen bir soruyu işçiye sormaktır.
