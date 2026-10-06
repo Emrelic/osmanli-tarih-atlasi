@@ -143,7 +143,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"sind (TDV): \"1153'te (1740) Avşarlı hânedanının kurucusu Nâdir Şah'ın ... ele geçirdiği Sind\"" },
 
 { taraflar:["sind"], t:"1752-01-01", b:"Sindî şairi Şah Abdüllatîf Bhitâî öldü", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
-  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"",
+  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"", odak_kimlik:["sind"],
   d:"[Sind] Şah Cû Risâlo adlı divanıyla Sindî'yi bir edebiyat dili hâline getiren mutasavvıf şair, halk destanlarını tasavvufî bir dille yeniden yazdı. Sind kimliğinin bugün de en güçlü ortak zemini onun şiiridir — bir dilin klasiği, çoğu zaman bir devletten uzun yaşar.", ic_not_d:"yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus: Studies in Sindhi Culture" },
 
@@ -163,7 +163,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"sind (TDV): \"1783'te Tâlpûr sülâlesinden Mîr Feth Ali Han Sind'e hâkim olduysa da\"" },
 
 { taraflar:["sind"], t:"1827-01-01", b:"Sindî şairi Sachal Sarmast öldü", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"",
+  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"", odak_kimlik:["sind"],
   d:"[Sind — Talpur] Yedi dilde şiir söylediği rivayet edilen mutasavvıf şair, vahdet-i vücûd düşüncesini halk diline taşıdı. Şah Abdüllatîf'ten sonra Sindî edebiyatının ikinci büyük adıdır.", ic_not_d:"yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus" },
 
@@ -409,7 +409,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"evrengzib (TDV): \"Dârâ Şükûh'u da Ecmîr yakınlarında üç gün süren savaşta bozguna uğrattı (23 Mart 1659)\"" },
 
 { taraflar:["babur-imparatorlugu","racput"], t:"1679-04-02", b:"Evrengzîb cizyeyi yeniden koydu", tur:"idari", onem:5, dunya:2, kapsam:"dis",
-  etiket:["vergi","din","kriz","konu-siyasi","konu-idari","konu-ekonomi","konu-din"], yer_id:"", kapsam_genis:true,
+  etiket:["vergi","din","kriz","konu-siyasi","konu-idari","konu-ekonomi","konu-din"], yer_id:"", odak_kimlik:["babur-imparatorlugu"],
   d:"[Bâbürlü / Racput] Ekber'in kaldırdığı gayri müslim vergisinin yüz yıl sonra yeniden konması, Racput devletleriyle imparatorluk arasındaki uzlaşmanın temelini sarstı. Vergi bir maliye kararıydı; sonucu ise imparatorluğun en sadık askerî ortağını kaybetmesi oldu.",
   kaynak:"evrengzib (TDV) — Racpûtlar'ın destek çekmesi ve isyanlar bölümü; tarih için Cambridge History of India, IV" },
 
@@ -484,7 +484,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Mirza Haydar Duglat, Târîh-i Reşîdî (neşir ve çevirisi); L. Petech, a.g.e." },
 
 { taraflar:["ladak"], t:"1600-01-01", b:"Skardu emîri Ali Mîr Şîr Han Ladakh'ı yendi; Camyang Namgyal esir düştü", tur:"savas", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","yenilgi","evlilik","konu-askeri","konu-hanedan"], yer_id:"",
+  etiket:["askeri","yenilgi","evlilik","konu-askeri","konu-hanedan"], yer_id:"", odak_yer:["Leh (Ladakh)"],
   d:"[Ladakh — Namgyal] Baltistan'ın müslüman emîri Ladakh'ı istilâ etti; barış, kralın emîrin kızı Gyal Hatun ile evlenmesiyle kuruldu. Bu evlilikten doğan Senge Namgyal, hem Budist bir kralın oğlu hem müslüman bir emîrin torunuydu — ve Ladakh'ın en büyük hükümdarı olacaktı.", ic_not_d:"yer_id boş: Skardu atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; A. H. Francke, Antiquities of Indian Tibet" },
 
@@ -619,7 +619,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur" },
 
 { taraflar:["manipur"], t:"1470-01-01", b:"Manipûr ile Pong (Şan) krallığı Kyang Khampat'ı birlikte aldı", tur:"ittifak", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"], yer_id:"",
+  etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"], yer_id:"", odak_yer:["İmphâl (Manipûr)", "Ava (İnwa)"],
   d:"[Manipûr — Ningthouca] Meitei ordusu Şan müttefikiyle Kabav vadisine yürüdü; ganimet olarak getirilen Vişnu heykeli, Manipûr'da Hindu tapınmasının ilk resmî izi sayılır. Askerî bir sefer, bölgenin din tarihini de değiştirdi.", ic_not_d:"yer_id boş: Kyang Khampat atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur; Çeitharol Kumbaba" },
 
@@ -664,7 +664,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı. Dayanak: C. U. Aitchison, Treaties, Engagements and Sanads; Cambridge History of Southeast Asia" },
 
 { taraflar:["manipur"], t:"1834-01-01", b:"Kabav vadisi İngiliz hakemliğiyle Burma'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
-  etiket:["sinir","toprak-kayip","konu-askeri","konu-idari"], yer_id:"",
+  etiket:["sinir","toprak-kayip","konu-askeri","konu-idari"], yer_id:"", odak_yer:["İmphâl (Manipûr)", "Ava (İnwa)"],
   d:"[Manipûr — Ningthouca] Manipûr'un doğusundaki verimli vadi, İngiliz hakemliğiyle Burma'ya devredildi ve karşılığında krallığa yıllık ödeme bağlandı. Sınır çizen tarafın kendisi olmadığı bir kararla toprak kaybetmek, tâbi devlet olmanın bedeliydi.", ic_not_d:"yer_id boş: Kabav vadisi atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: C. U. Aitchison, a.g.e.; Gangmumei Kamei, A History of Manipur" },
 

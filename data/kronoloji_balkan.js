@@ -311,7 +311,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `karadag`: '1878 Berlin Kongresi'nde Karadağ istiklâlini kazandı.' dunya: kronoloji_sirbistan.js ile eşleştirildi (dunya:4)." },
 
 { taraflar:["karadag"], t:"1878-08-01", b:"Bağımsızlık sonrası Müslüman göçü hızlandı", tur:"toprak-kayip",
-  onem:2, dunya:2, kapsam:"ic", etiket:["sosyal","konu-askeri","konu-sosyal","konu-demografi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:2, kapsam:"ic", etiket:["sosyal","konu-askeri","konu-sosyal","konu-demografi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Karadağ'a bırakılan, daha önce yerleşik ve verimli bölgelerin ilhakı, şehirli Müslüman nüfusun sürülmesi ve göçüyle birlikte yürüdü; TDV bu süreci 1912'ye kadar süren bir dizi olarak tarif ediyor.",
   kaynak:"TDV `karadag`: 'Coğrafî genişlemeye daha çok şehir ahalisinden oluşan müslüman nüfusun kovulması ve imhası eşlik etti.'" },
 
@@ -326,17 +326,17 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV maddesi 2001'de yazıldığı için 1910 kral ilanından bahsetmiyor; dayanak: standart akademik kaynak." },
 
 { taraflar:["karadag"], t:"1912-08-01", b:"Karadağ-Bulgaristan ittifakı imzalandı", tur:"ittifak",
-  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Balkan İttifakı'nın parçalarından Karadağ-Bulgaristan antlaşması ağustosta imzalandı.",
   kaynak:"Yerel veri (data/olaylar_ek10.js, 1912-10-08 maddesi): 'ağustosta Karadağ-Bulgaristan' ittifakından bahsediyor." },
 
 { taraflar:["karadag"], t:"1912-10-06", b:"Karadağ-Sırbistan ittifakı imzalandı", tur:"ittifak",
-  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Savaşın patlak vermesinden iki gün önce imzalanan Karadağ-Sırbistan ittifakı Balkan cephesinin son parçasını tamamladı.",
   kaynak:"Yerel veri (data/olaylar_ek10.js, 1912-10-08 maddesi): '6 Ekim'de Karadağ-Sırbistan' ittifakından bahsediyor." },
 
 { taraflar:["karadag"], t:"1912-10-08", b:"Osmanlı'ya savaş ilan eden ilk Balkan devleti oldu — I. Balkan Savaşı başladı", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Balkan devletlerinin ortak notasına cevap alınamaması üzerine, en küçük ama en hazır müttefik Karadağ, 8 Ekim 1912'de savaş ilan ederek I. Balkan Savaşı'nı fiilen başlattı.",
   kaynak:"TDV `balkan-savasi`: '(8 Ekim 1912 - 29 Eylül 1913)' + yerel veri (data/devletler.js `karadag`, data/olaylar_ek10.js). dunya: kronoloji_sirbistan.js ile hizalandı." },
 
@@ -382,7 +382,7 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgar-carligi"], t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Bulgar knezlikleri de Osmanlı vassalı oldu", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["bulgar-carligi"], kapsam_genis:true,
   d:"Osmanlı akıncı kuvvetleri, İvan Aleksandır'ın ölümünden sonra parçalanmış Bulgar topraklarının komşusu olan Sırp beyliklerini Meriç kıyısında ağır bir yenilgiye uğrattı; bu bozgun Bulgar knezliklerinin de Osmanlı'ya haraca bağlanmasının önünü açtı.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (TDV `sirbistan` üzerinden).",
   kaynak:"kronoloji_sirbistan.js (1371-09-26, dunya:3) — TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan...'" },
 
@@ -550,13 +550,13 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgaristan-prensligi"], t:"1885-11-14", b:"Sırp-Bulgar Savaşı başladı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["bulgaristan-prensligi"], kapsam_genis:true,
   d:"Doğu Rumeli'nin ilhakıyla bozulan Balkan güç dengesine tepki olarak Sırbistan Bulgaristan'a savaş açtı; kısa savaş, Bulgar ordusunun Slivnitsa'daki beklenmedik zaferiyle Sırpların yenilgisiyle sonuçlandı.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
   kaynak:"kronoloji_sirbistan.js (1885-11-14, dunya:2) — TDV `sirbistan`: 'Bulgaristan 1885'te Doğu Rumeli eyaletini ilhak edince Sırbistan Bulgaristan'a savaş açtı.'" },
 
 { taraflar:["bulgaristan-prensligi"], t:"1886-03-03", b:"Bükreş Barışı — Sırp-Bulgar Savaşı sona erdi", tur:"antlasma",
   onem:2, dunya:2, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["bulgaristan-prensligi"], kapsam_genis:true,
   d:"Avusturya-Macaristan'ın arabuluculuğuyla imzalanan barış, savaş öncesi sınırları büyük ölçüde korudu ama Doğu Rumeli'nin fiilî birleşmesini değiştirmedi; Bulgaristan'ın askerî başarısı Avrupa'da Prens Battenberg'in prestijini artırdı ama aynı yıl içinde bir darbeyle tahttan indirilmesini engelleyemedi.",
   kaynak:"bulunamadı — TDV bu antlaşmadan ayrıca bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
@@ -688,7 +688,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"veri (data/savaslar.js, t:'1389-06-15', taraf:['osmanli','bosna-kralligi']) · dunya puanı kronoloji_bizans.js ve kronoloji_sirbistan.js'teki aynı olayla (dunya:4) çapraz kontrol edilip eşleştirildi." },
 
 { taraflar:["bosna-kralligi"], t:"1390-06-01", b:"Kral unvanının genişlemesi — Dalmaçya kıyı şehirlerinin alınışı", tur:"toprak-kazanc",
-  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","hukumdar","konu-askeri","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","hukumdar","konu-askeri","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"1385-1390 arası süren mücadelenin ardından Split, Trogir, Šibenik gibi Dalmaçya kıyı şehirleri ile Brač, Hvar, Korčula adaları Tvrtko I'in hâkimiyetine girdi; kral unvanını 'Sırplar, Bosna, Dalmaçya, Hırvatistan ve Kıyı Ülkesi Kralı'na genişletti. Bu, Kotromanić hanedanının eriştiği en geniş sınırdır — 1391'de kralın ölümüyle bu genişleme kalıcı olamadı.",
   kaynak:"standart akademik kaynak (Fine, The Late Medieval Balkans) — TDV `bosna-hersek` bu genişlemeyi doğrudan doğrulamıyor; gün/ay düzeyi ikincil kaynaklardan, 'yaz 1390' için 06-01 kullanıldı." },
 
@@ -698,22 +698,22 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1391-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans)." },
 
 { taraflar:["bosna-kralligi"], t:"1394-07-01", b:"Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı", tur:"antlasma",
-  onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","idari","konu-idari","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","idari","konu-idari","konu-diplomasi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Stjepan Dabiša, Macar Kralı Sigismund'a bağlılığını tanıyıp erkek varisi olmaması hâlinde tahtın ona geçmesini kabul etti; karşılığında Somogy kontluğu unvanı aldı. Dabiša 1395'te ölünce Bosna soyluları bu antlaşmayı tanımayıp Sigismund yerine Kraliçe Jelena'yı seçti.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — gün/ay (Temmuz 1394) ikincil kaynaklardan çıkarıldı, ORTA güven." },
 
 { taraflar:["bosna-kralligi"], t:"1395-09-08", b:"Kraliçe Jelena'nın seçilmesi — Bosna'nın tek kadın hükümdarı", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Stjepan Dabiša'nın ölümü üzerine, Đakovo Antlaşması'nın öngördüğü Macar verasetini tanımayan soylular meclisi (stanak) dul kraliçe Jelena'yı tahta çıkardı — Bosna tarihinin bilinen tek kadın devlet başkanı. Gerçek iktidar yine büyük dük Hrvoje Vukčić Hrvatinić gibi derebeylerin elindeydi; Jelena 1398'de tahttan çekilmek zorunda kaldı.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — DÜŞÜK-ORTA güven." },
 
 { taraflar:["bosna-kralligi"], t:"1400-01-01", b:"Stećci mezar taşları geleneğinin altın çağı", tur:"kultur",
-  onem:2, dunya:1, kapsam:"ic", etiket:["kultur","konu-kultur"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:1, kapsam:"ic", etiket:["kultur","konu-kultur"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Bosna Krallığı'nın soylu aileleri, statülerini ve aile hafızalarını taşa kazınmış anıtsal mezar taşlarıyla (stećci) ölümsüzleştirdi; bu gelenek Kotromanić hanedanı döneminde üretim ve sanatsal nitelik bakımından zirveye ulaştı.",
   kaynak:"bulunamadı — TDV'de müstakil madde yok; kurumsal/akademik kaynak: UNESCO Dünya Mirası Merkezi (whc.unesco.org/en/list/1504/, 2016 Dünya Mirası kaydı) — tarih kesin gün taşımaz, sembolik olarak 1400 kullanıldı." },
 
 { taraflar:["bosna-kralligi"], t:"1404-01-01", b:"Büyük Dük Hrvoje Vukčić Hrvatinić'in yükselişi — derebeylerin krallar üzerindeki gücü", tur:"idari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["idari","sosyal","konu-idari","konu-sosyal"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["idari","sosyal","konu-idari","konu-sosyal"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Ostoja'yı tahttan indirip yerine genç Tvrtko II'yi geçiren büyük dük Hrvoje Vukčić Hrvatinić, bu dönemde krallık içindeki en güçlü aktör hâline geldi — merkezî krallığın soylu sınıfının (vlastelin) elinde neredeyse bir kukla olduğu bir yapıyı somutlaştırdı.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — DÜŞÜK-ORTA güven." },
 
@@ -723,42 +723,42 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1414-01-01') · TDV `bosna-hersek` genel anlatısıyla uyumlu." },
 
 { taraflar:["bosna-kralligi"], t:"1420-01-01", b:"II. Tvrtko'nun ikinci ve kalıcı saltanatının başlaması", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"On altı yıllık taht istikrarsızlığının ardından II. Tvrtko, soylu hiziplerinin nihayet uzlaştığı hükümdar olarak ikinci kez ve bu sefer kalıcı biçimde tahta çıktı; saltanatı 1443'e kadar sürdü.",
   kaynak:"TDV `bosna-hersek`: '...Osmanlı hâkimiyetini kabul etmek zorunda kalan Kral II. Tvrtko'nun (1420-1443) tahta çıkışından hemen sonra...'" },
 
 { taraflar:["bosna-kralligi"], t:"1428-01-01", b:"Haracın pekiştirilmesi — Osmanlı garnizonlarının şehirlere yerleşmesi", tur:"antlasma",
-  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Osmanlı hâkimiyetini artık açıkça tanımak zorunda kalan II. Tvrtko döneminde, birçok şehri ele geçirip askerî garnizon yerleştiren Osmanlılar Bosna kralını yeniden ve daha ağır şartlarla haraca bağladı.",
   kaynak:"TDV `bosna-hersek`: 'Osmanlı hâkimiyetini kabul etmek zorunda kalan Kral II. Tvrtko'nun (1420-1443) tahta çıkışından hemen sonra Bosna kralları birçok şehri ele geçiren ve askerî garnizonlar yerleştiren Osmanlılar tarafından haraca bağlandı (1428-1429).'" },
 
 { taraflar:["bosna-kralligi"], t:"1430-01-01", b:"Ortodoks Sırp göçünün hızlanması — üç dinli bir krallık", tur:"sosyal",
-  onem:2, dunya:1, kapsam:"ic", etiket:["sosyal","din","konu-din","konu-sosyal","konu-demografi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:1, kapsam:"ic", etiket:["sosyal","din","konu-din","konu-sosyal","konu-demografi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"1430'lardan itibaren Ortodoks Sırp nüfusu, özellikle doğu ve güneydoğu Bosna'ya belirgin biçimde göç etti; bu, krallığı Katolik hanedan-soylu sınıfı, heretik sayılan yerli Bosna Kilisesi ve artan Ortodoks nüfusun bir arada yaşadığı üç dinli bir toplum hâline getirdi.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Noel Malcolm, A Concise History of Bosnia, Cambridge University Press)." },
 
 { taraflar:["bosna-kralligi"], t:"1435-01-01", b:"Stjepan Vukčić Kosača'nın fiilî özerkliği — krallığın parçalanması hızlanıyor", tur:"bolunme",
-  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Doğu Bosna ve Hum bölgesinin güçlü beyi Stjepan Vukčić Kosača, merkezî krallıktan giderek bağımsızlaşan bir beylik kurdu — bu süreç on üç yıl sonra (1448) resmî bir kopuşla (Hersek Dukalığı) sonuçlanacaktı.",
   kaynak:"veri (mevcut data/devletler.js `hersek` kaydı, t:'1435-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans) — TDV'de bu kimliğe dair müstakil madde yok." },
 
 { taraflar:["bosna-kralligi"], t:"1443-01-01", b:"Stjepan Tomaš'ın tahta çıkışı — Batı'ya yaslanma, Osmanlı'ya haraç birlikte", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","diplomasi","konu-diplomasi","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","diplomasi","konu-diplomasi","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Stjepan Tomaš, tahta çıktığında hem Batı'nın (Papalık, Macaristan) desteğine güvenen hem de Osmanlı'ya haracı sürdüren çift yönlü ve kırılgan bir siyaset izledi.",
   kaynak:"TDV `bosna-hersek`: 'Bosna tahtı, Batı'nın desteğine güvenen fakat Osmanlılar'a haraç ödemeyi de sürdüren Stjepan Tomaś (1443-1461) tarafından işgal edilmişti.'" },
 
 { taraflar:["bosna-kralligi"], t:"1448-01-20", b:"Stjepan Vukčić Kosača'nın 'Herceg' unvanı — Hersek Dukalığı'nın doğuşu", tur:"bolunme",
-  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Stjepan Vukčić Kosača, Kutsal Roma İmparatoru III. Friedrich'e gönderdiği belgede kendini 'Aziz Sava'nın Herceki (dükü)' olarak tanımladı ve bu unvanla fiilen bağımsız bir dukalık kurdu — bölgeye bugünkü 'Hersek' adını veren de bu unvandır.",
   kaynak:"TDV `bosna-hersek`: '...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş...' · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
 
 { taraflar:["bosna-kralligi"], t:"1450-01-01", b:"Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası", tur:"ekonomi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi","konu-sanayi"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi","konu-sanayi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kreševo ve Fojnica'da bakır-gümüş, Olovo'da kurşun, İzvornik'te ve özellikle Srebrenica'da yılda birkaç ton gümüş çıkarılıyordu; Dubrovnik (Ragusa) tüccarları Podvisoki, Fojnica ve Srebrenica'da kalıcı ticaret kolonileri kurmuştu.",
   kaynak:"TDV `bosna-hersek`: '...ekonomik faaliyetin en önemli kolu olan madencilik...' · standart akademik kaynak ('Battle for Silver: Srebrenica Between Bosnian Kings and Serbian Despots in the 15th Century', akademik makale)." },
 
 { taraflar:["bosna-kralligi"], t:"1459-01-01", b:"Bosna Kilisesi'nin tasfiyesi — Papalık baskısıyla zorunlu ihtida", tur:"din",
-  onem:4, dunya:2, kapsam:"ic", etiket:["din","sosyal","konu-din","konu-sosyal"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["din","sosyal","konu-din","konu-sosyal"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Papa II. Pius, Osmanlı'ya karşı Batı desteği istiyorsa heretik saydığı Bosna Kilisesi'ni ('krstjani') ortadan kaldırmasını şart koşunca, Kral Tomaš mensuplarını vaftiz olmaya ya da krallığı terk etmeye zorladı; kaynaklara göre binlerce kişi ihtida etti. TDV, heretik Bosna Kilisesi mensuplarının sonraki fetihte toplu hâlde Osmanlı safına geçtiğine dair bir kayıt bulunmadığını özellikle belirtir.",
   kaynak:"TDV `bosna-hersek`: '...heretik diye nitelendirdiği yeni Bogomil mezhebi mensuplarının ortadan kaldırılmasını istedi...' ve '...heretik Bosna kilisesi mensuplarının toplu halde fetihlere katıldığını gösterir kayıtlara da rastlanmaz.' · standart akademik kaynak (Paweł Cholewicki, akademik makale, 1459 Purge)." },
 
@@ -783,7 +783,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan` (M. Hacısalihoğlu): 'Nihayet 1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'War of Greek Independence')." },
 
 { taraflar:["yunanistan"], t:"1821-03-25", b:"Mora İsyanı başladı", tur:"isyan",
-  onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Bu tarih hem Yunanistan'ın modern devlet olarak doğuş anı hem de Yunan millî bayramı olarak kutlanır.",
   kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu." },
 
@@ -808,7 +808,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"data/savaslar.js:256 ('Missolonghi kuşatması', 1826-04-22, galip: osmanli) — zaten doğrulanmış kayıt." },
 
 { taraflar:["yunanistan"], t:"1827-07-06", b:"Londra Protokolü imzalandı", tur:"diplomasi",
-  onem:4, dunya:4, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:4, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"İngiltere, Fransa ve Rusya, bir yıl önceki St. Petersburg Protokolü'nün (4 Nisan 1826) devamında Londra'da yeni bir protokol imzalayarak Osmanlı Devleti'ne yıllık vergi veren özerk bir Yunan beyliğinin kurulmasını kararlaştırdı.",
   kaynak:"TDV `yunanistan`: '...İngiltere ve Rusya önce Saint Petersburg Protokolü'nü (4 Nisan 1826), ardından İngiltere, Fransa ve Rusya 6 Temmuz 1827'de Londra Protokolü'nü imzalayıp Osmanlı Devleti'ne yıllık vergi veren bir Yunan beyliğinin kurulmasını kararlaştırdı.'" },
 
@@ -833,12 +833,12 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: 'Baskıcı bir rejim kurmaya yönelen ve Rusya'ya yakın bir politika izleyen Kapodistrias 1831'de bir suikasta kurban gitti.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Ioannis Kapodistrias')." },
 
 { taraflar:["yunanistan"], t:"1832-05-07", b:"Otto'nun Yunanistan kralı seçilmesi", tur:"siyaset",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Büyük güçlerin onayıyla Bavyera Kralı'nın henüz reşit olmayan oğlu Otto, Londra Antlaşması ile 'Helenler'in kralı' sıfatıyla Yunanistan tahtına davet edildi; reşit oluncaya kadar bir naiblik konseyi kurulması da kararlaştırıldı.",
   kaynak:"TDV `yunanistan`: '1832'de büyük güçlerin onayıyla Yunan Millî Meclisi, Bavyera kralının henüz reşid olmayan oğlu Otto'yu \"Helenler'in kralı\" sıfatıyla Yunanistan'a davet etti.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Britannica/Treaty of Constantinople 1832)." },
 
 { taraflar:["yunanistan"], t:"1832-07-21", b:"İstanbul Antlaşması — Arta-Volos sınırının çizilmesi", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Osmanlı Devleti, büyük güçlerle imzaladığı antlaşmayla yeni Yunan Krallığı'nı resmen tanıdı ve kuzey sınırını Arta-Volos hattı olarak belirledi.",
   kaynak:"TDV `yunanistan`: 'Ülkenin ilk çekirdeği, Mora yarımadasından Golos (Volos) ve Arta körfezleri boyunca çekilecek bir çizginin güney kısmı ile Eğriboz ve Kiklad adalarını kapsar.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak." },
 
@@ -848,7 +848,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: '1833'te Otto ve beraberindeki heyet Yunanistan'a geldi ve devleti teşkilâtlandırmaya başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Royal Museums Greenwich arşiv kaydı)." },
 
 { taraflar:["yunanistan"], t:"1833-07-25", b:"Yunan Kilisesi'nin özerkliğini ilan etmesi", tur:"sosyal",
-  onem:4, dunya:2, kapsam:"ic", etiket:["din","reform","konu-din","konu-islahat","konu-sosyal"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["din","reform","konu-din","konu-islahat","konu-sosyal"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Otto yönetimindeki Yunan hükümeti, ülkedeki piskoposları bir araya getirerek Yunan Kilisesi'ni İstanbul'daki Fener Rum Ortodoks Patrikhânesi'nden bağımsız (otosefal) ilan etti — Balkanlar'da bu şekilde ayrılan ilk kiliselerden biriydi. Patrikhâne bu durumu ancak on yedi yıl sonra, 1850'de tanıyacaktı.",
   kaynak:"TDV `yunanistan`: 'Yunan kilisesi, İstanbul'daki Fener Rum Ortodoks Patrikhânesi'nden ilk ayrılan (otosefal) Balkan kiliselerinden biri oldu. Patrikhâne bu durumu ancak 1850'de tanıdı.' Tam ilan tarihi TDV'de yok; dayanak: standart akademik kaynak." },
 
@@ -908,7 +908,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV bu konuyu anmıyor; dayanak: standart akademik kaynak (Britannica, 'Hymn to Liberty')." },
 
 { taraflar:["yunanistan"], t:"1881-05-24", b:"Tesalya'nın Yunanistan'a devri", tur:"antlasma",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"1877-1878 Osmanlı-Rus Savaşı'nın ardından İstanbul'da imzalanan bir antlaşmayla Tesalya (Yenişehir/Larissa dahil) ve Epir'in bir bölümü Yunanistan'a bırakıldı. Bölgedeki müslüman nüfus hızla göç etmeye başladı.",
   kaynak:"TDV `yunanistan`: '1877-1878 Osmanlı-Rus Savaşı'ndan sonra Osmanlı Devleti ile Yunanistan arasında 1881'de İstanbul'da yapılan bir antlaşmayla Tesalya Yunanistan'a bırakıldı.' Tam gün TDV'de yok; dayanak: standart akademik kaynak (Convention of Constantinople 1881)." },
 
@@ -928,7 +928,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV `yunanistan` bu olayı anmıyor; dayanak: standart akademik/resmî kaynak (Uluslararası Olimpiyat Komitesi resmî sitesi olympics.com, Britannica)." },
 
 { taraflar:["yunanistan"], t:"1897-04-17", b:"1897 Osmanlı-Yunan Savaşı'nın başlaması", tur:"savas",
-  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","konu-askeri"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","konu-askeri"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Prens Georgios kumandasındaki bir Yunan filosunun Girit'e asker çıkarıp adayı ilhak ettiğini ilan etmesi (16 Şubat 1897) ve Rumeli sınırındaki çete saldırıları üzerine Osmanlı Devleti Yunanistan'a savaş ilan etti.", ic_not_d:"data/devletler.js embedded kronolojisi aynı olayı 1897-04-18 yazıyor — bir günlük çelişki, koordinatöre bildirilir; bu maddede olaylar_ek5.js'in tarihi (04-17) kullanıldı.",
   kaynak:"data/olaylar_ek5.js:385 ile birebir aynı olay, 1897-04-17 tarihiyle zaten doğrulanmış. TDV `girit` maddesi ayrıca Girit'e çıkarmayı 13 Şubat, Vassos'un ilhak beyannamesini 16 Şubat 1897 olarak veriyor." },
 
@@ -993,7 +993,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: '1913'te Kral Georg, Yunan topraklarına yeni katılan Selânik'te bir suikast sonucu öldürüldü. Yerine oğlu Konstantinos kral oldu.' Tam gün TDV'de yok; dayanak: standart akademik kaynak." },
 
 { taraflar:["yunanistan"], t:"1913-05-30", b:"Londra Antlaşması", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Birinci Balkan Savaşı'nı resmen sona erdiren antlaşmayla Osmanlı Devleti, Midye-Enez hattının batısındaki bütün Avrupa topraklarını ve Girit üzerindeki haklarını Balkan devletlerine bıraktı.",
   kaynak:"TDV `yunanistan`: '30 Mayıs 1913 Londra ve 10 Ağustos 1913 Bükreş antlaşmaları ile Yunanistan'ın kazanımları tanındı.'" },
 
@@ -1018,7 +1018,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"data/olaylar_ek.js:86 ile birebir aynı olay, 1919-05-15 tarihiyle zaten doğrulanmış." },
 
 { taraflar:["yunanistan"], t:"1920-08-10", b:"Sevr Antlaşması", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"İtilâf devletlerinin Osmanlı hükümetiyle imzalattığı antlaşma, Doğu Trakya'yı ve İzmir bölgesini (beş yıl sonra referandumla ilhak şartıyla) Yunanistan'a bırakıyordu. Ankara'daki Millî Mücadele hareketi antlaşmayı hiç tanımadı ve metin hiçbir zaman uygulanamadı.",
   kaynak:"data/olaylar_ek8.js:22, data/kronoloji_fransa.js:1002 ve data/kronoloji_ingiltere.js:1341 ile zaten çapraz doğrulanmış (dunya:4, üçünde de aynı)." },
 
@@ -1043,7 +1043,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: 'Yunan ordularının Anadolu'daki yenilgisi Yunanistan'da siyasal krize yol açtı; Eylül 1922'de askerlerin müdahalesi üzerine Kral Konstantinos tahtı bırakarak ülkeyi terketti. Yerine oğlu Georg geçti.'" },
 
 { taraflar:["yunanistan"], t:"1923-01-30", b:"Nüfus mübadelesi sözleşmesinin imzalanması", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","sosyal","toprak-kayip","konu-askeri","konu-diplomasi","konu-sosyal","konu-demografi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","sosyal","toprak-kayip","konu-askeri","konu-diplomasi","konu-sosyal","konu-demografi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Lozan görüşmeleri sürerken Türkiye ve Yunanistan, dinî mensubiyet esasına göre zorunlu bir nüfus mübadelesini öngören sözleşmeyi imzaladı. Yaklaşık 500.000 Türk/müslüman Yunanistan'dan Türkiye'ye, 1,5 milyon Rum-Ortodoks Anadolu'dan Yunanistan'a göç ettirildi.",
   kaynak:"TDV `yunanistan`: '1923 Lozan Antlaşması sonucunda gerçekleşen nüfus mübadelesiyle ülke nüfusunun etnik ve dinî yapısı önemli ölçüde değişmiştir.' İmza tarihi TDV'de ayrıca verilmiyor; dayanak: birincil kaynak (T.C. Dışişleri Bakanlığı resmî sitesi)." },
 

@@ -138,7 +138,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:4, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"Yerel lider Mutahhar b. Şerefeddin'in başlattığı geniş çaplı ayaklanma, Osmanlı idaresini Yemen'in büyük kısmından sürdü; ülke fiilen Osmanlı'nın elinde kalan bölge ile isyancıların denetimindeki bölge olarak ikiye ayrıldı. Bu, imamet çevresindeki direnç ağının Osmanlı'ya karşı ilk büyük başarısıydı.",
-  kaynak:"TDV `yemen`: '1567: Mutahhar isyan etti, Yemen ikiye bölündü.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: '1567: Mutahhar isyan etti, Yemen ikiye bölündü.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1571-03-01", b:"Sinan Paşa'nın büyük seferiyle isyan bastırıldı, eyalet yeniden birleşti", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri","konu-idari","konu-isyan"],
@@ -150,13 +150,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Kāsımî hanedanının kurucusu İmam el-Mansûr Kāsım b. Muhammed ile Osmanlı beylerbeyi Câfer Paşa arasında on yıllık bir barış anlaşması imzalandı — imamet artık Osmanlı idaresiyle resmî düzeyde pazarlık edebilecek kadar güçlenmişti.",
-  kaynak:"TDV `yemen`: '1608: İmam Kāsım b. Muhammed ile on senelik antlaşma yapıldı.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: '1608: İmam Kāsım b. Muhammed ile on senelik antlaşma yapıldı.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1619-01-01", b:"Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"İlk antlaşmanın süresi dolunca beylerbeyi Mehmed Paşa ile Zeydî imamet arasında yeni bir on yıllık barış imzalandı; ama bu kez denge imametten yanaydı — bir sonraki imam Müeyyed döneminde barış tek taraflı bozulacaktı.",
-  kaynak:"TDV `yemen`: '1028/1619: Mehmed Paşa ve Zeydîler arasında on yıllık antlaşma imzalandı.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: '1028/1619: Mehmed Paşa ve Zeydîler arasında on yıllık antlaşma imzalandı.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1626-01-01", b:"İmam Müeyyed barışı bozdu, San'a kuşatıldı", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["savas","konu-askeri"],
@@ -174,7 +174,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Vezir ve serasker Kansu Paşa'nın kethüdâsı kuşatılıp zor durumda kalınca, Muharrem 1040'ta (Ağustos 1630) İmam Müeyyed ile geçici bir anlaşma yapıldı; ancak barış üç yıl sonra (1633) yeniden bozulacaktı — Osmanlı çekilişinin artık kaçınılmaz olduğunun işareti.",
-  kaynak:"TDV `yemen`: 'Muharrem 1040 (Ağustos 1630): Kansu Paşa İmam Müeyyed ile anlaşma yaptı.' · '1043/1633: Anlaşma bozuldu.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Muharrem 1040 (Ağustos 1630): Kansu Paşa İmam Müeyyed ile anlaşma yaptı.' · '1043/1633: Anlaşma bozuldu.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1635-10-22", b:"Osmanlı çekilişi tamamlandı — imamet bağımsızlığını kazandı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["bagimsizlik","savas","konu-askeri","konu-siyasi"],
@@ -192,7 +192,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Bir dönem imamet içi bir yönetici olan Ahmed b. Hasan, Yemen'i Osmanlı padişahı adına yönettiğini ileri sürdü — Osmanlı'nın fiilen yıllardır Yemen'de bulunmadığı bir dönemde bu iddianın pratikte bir karşılığı olmadığı, sembolik/diplomatik bir jest olduğu anlaşılıyor.",
-  kaynak:"TDV `yemen`: '1681: Ahmed b. Hasan Yemen'i Osmanlı adına yönettiğini belirtti.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: '1681: Ahmed b. Hasan Yemen'i Osmanlı adına yönettiğini belirtti.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1702-01-01", b:"Osmanlı, İmam Mehdî'ye elçi gönderdi", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
@@ -324,7 +324,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Sekiz yıllık iç çatışmanın ardından kabileler II. Seyf'in imametini nihayet kabul etti; ama barış kalıcı olmayacak, on beş yıl sonra imamet Ya'rubî hanedanının elinden tamamen çıkacaktı.",
-  kaynak:"TDV `yarubiler`: '1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.'", kapsam_genis:true },
+  kaynak:"TDV `yarubiler`: '1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.'", odak_kimlik:["umman"], kapsam_genis:true },
 
 { taraflar:["umman"], t:"1743-01-01", b:"II. Seyf'in ölümü — Ahmed b. Saîd iktidarı ele geçirdi", tur:"bolunme",
   onem:4, dunya:2, kapsam:"ic", etiket:["bolunme","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],

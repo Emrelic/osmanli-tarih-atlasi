@@ -345,7 +345,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi","din","konu-diplomasi","konu-din"],
   yer_id:"",
   d:"Suriye ve Mısır'a hâkim olma arzusundan vazgeçmeyen Gāzân Han, 12 Nisan 1302'de Papa VIII. Bonifacius'a mektup yazarak Memlüklere karşı hıristiyan devletlerinin desteğini sağlamaya çalıştı, fakat sonuç alamadı. Müslüman olmuş bir Moğol hükümdarının papalıkla ittifak araması, İlhanlı dış siyasetinin dinî değil jeopolitik olduğunu gösterir.", ic_not_d:"`kapsam_genis` — muhatabı Avrupa'dır, tek bir yere bağlanamaz.",
-  kaynak:"gazan-han", kapsam_genis:true },
+  kaynak:"gazan-han", odak_kimlik:["ilhanli"], kapsam_genis:true },
 
 { taraflar:["ilhanli"], t:"1303-04-20", b:"Dımaşk yenilgisi — Suriye ümidi kesin olarak bitti", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -355,13 +355,13 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 
 { taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali","konu-askeri","konu-idari","konu-ekonomi","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"incu" },
 
 { taraflar:["ilhanli"], t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", gun:"1300 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","mali","ulasim","konu-idari","konu-ekonomi","konu-islahat","konu-ulastirma"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han âdeta soygun derecesine ulaşan vergileri düzene koydu, kanun ve teamülleri gözden geçirip bazılarını kaldırdı, vergilerin âdil tahsili için görevlilere ağır cezaî hükümler getirdi. Posta teşkilâtını ıslah için menzilhâneler yaptırarak ulakların buralarda dinlenmesini sağladı ve böylece halkı tâciz etmelerini engelledi. Kumandanlara hizmet karşılığı dirlik verdi.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak bu düzenlemelerin yıl yıl sırasını vermiyor; madde saltanatın reform yılları olan dönemin ortasına bağlandı, bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"ilhanlilar" },
 
@@ -451,7 +451,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","baris","konu-diplomasi"],
   yer_id:"",
   d:"Memlükler ile yıllardır devam eden mücadeleye 1323'te yapılan bir antlaşmayla son verildi. Aynicâlût'tan (1260) beri altmış üç yıl süren düşmanlık böylece kapandı; iki devlet arasında ticaret ve hac yolları yeniden açıldı.", ic_not_d:"`kapsam_genis` — antlaşma iki devletin bütün sınırını bağlar.",
-  kaynak:"ilhanlilar", kapsam_genis:true },
+  kaynak:"ilhanlilar", odak_kimlik:["ilhanli"], kapsam_genis:true },
 
 { taraflar:["ilhanli"], t:"1327-01-01", b:"Emîr Çoban ve oğlu Herat'ta öldürüldü — Çobanlı ailesinin tasfiyesi", gun:"H. 727 / 1327 — yıl hassasiyeti · TDV `kert`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","olum","ic-savas","taht-kavgasi","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan","konu-hanedan"],

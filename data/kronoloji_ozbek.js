@@ -89,7 +89,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ubeydullah Han Harzem (Hîve) topraklarını işgal etti",
   tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hive","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Ubeydullah, komşu Yadigâroğulları Hanlığı'nın (Hîve) topraklarına girip bölgeyi geçici olarak ele geçirdi; işgal kalıcı olmadı ve birkaç yıl içinde Hîve hanları bölgeyi geri aldı. Bu, iki Özbek hanlığı arasında üç asır sürecek rekabetin ilk büyük çatışmasıydı.",
   kaynak:"TDV, madde: ubeydullah-han" },
 
@@ -169,7 +169,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Harzem'in (Hîve) yeniden fethi",
   tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hive","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Abdullah Han, Hîve hanlarıyla süregelen rekabette Harzem'i bir kez daha ele geçirdi; ama bu da 1538'deki gibi kalıcı olmadı, bölge kısa süre içinde tekrar bağımsız Hîve hanlarının eline geçti.",
   kaynak:"TDV, madde: abdullah-han" },
 
@@ -335,7 +335,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Yadigâroğulları Harzem'i (Hîve) fethetti — hanlığın kuruluşu",
   tur:"kurulus", onem:5, dunya:1, kapsam:"ic",
   etiket:["askeri","kurulus","hive","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Şeybânî soyundan Arabşah'ın torunları İlbars ve Bilbars, Özbek-Türkmen kuvvetleriyle Harzem'i ele geçirip 'Yadigâroğulları' ya da 'Arabşahlılar' olarak anılan yeni bir Özbek hanlığı kurdu; başkent önce Köhne Ürgenç (Gürgenç) oldu.",
   kaynak:"TDV, madde: hive-hanligi" },
 
@@ -367,7 +367,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin on yıllık İran esaretinden kaçışı",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"On yıldır Safevî İran'ında tutsak tutulan Ebulgazi, kaçarak Harzem'e döndü; birkaç yıl içinde hanlığın en etkili hükümdarlarından biri olacaktı.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -391,7 +391,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin Türkmen ve Kalmuklara karşı seferleri (1648-1656)",
   tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","hive","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive", "turkmen"],
   d:"Ebulgazi Bahadır Han, saltanatı boyunca (1648, 1651, 1653, 1656) Türkmen boylarına karşı ve (1649, 1653, 1656) Kalmuk akınlarına karşı üst üste seferler düzenledi; hanlığın Harzem'deki otoritesini bu askerî üstünlükle pekiştirdi.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -399,7 +399,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","hive","buhara","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive", "buhara"],
   d:"Ebulgazi Bahadır Han, 1655 ve 1662'de komşu Buhara hanlığı topraklarına akınlar düzenledi; iki hanlık arasındaki sınır çatışmaları bu dönemde de sürdü.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -407,7 +407,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi Bahadır Han'ın Şecere-i Terâkime'yi tamamlaması",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","kultur","hive","konu-kultur"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Bizzat kalemiyle tarih yazan nadir Orta Asya hükümdarlarından Ebulgazi Bahadır Han, Türkmen boylarının soy kütüğünü ve tarihini anlatan Şecere-i Terâkime adlı eserini tamamladı; Çağatay Türkçesi tarih yazıcılığının en önemli örneklerinden biridir.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -415,7 +415,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi Bahadır Han'ın ölümü",
   tur:"son", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hive","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
   kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV bu oturumda doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
@@ -423,7 +423,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Allahkulı Han döneminde hanlığın parlak çağı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","hive","konu-idari","konu-hanedan","konu-kultur"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Allahkulı Han'ın on yedi yıllık saltanatı (1825-1842), hanlığın imar ve ticaret bakımından en parlak dönemlerinden biri oldu; bu dönemin saray tarihçileri Munis ve devamcısı Âgehî, Ebulgazi'nin başlattığı tarih yazıcılığı geleneğini sürdürerek Firdevs-i İkbâl adlı vekayinâmeyi kaleme aldı.",
   kaynak:"standart akademik kaynak (Orta Asya tarihyazımı literatürü, Munis-Âgehî vekayinâmesi üzerine)" },
 
@@ -439,7 +439,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Seyyid Muhammed Rahim Bahadır Han'ın tahta çıkışı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Rus istilasının arifesinde tahta çıkan Seyyid Muhammed Rahim Bahadır Han, hanlığın Rus himayesine girişine (1873) ve devamında kırk altı yıl sürecek saltanatına şahitlik etti.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
@@ -447,7 +447,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"General Kaufmann'ın seferi Hîve'yi 29 Mayıs 1873'te teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: hive-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
@@ -455,7 +455,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Osmanlı'nın Hîve'ye ittifak girişimi",
   tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["siyaset","diplomasi","osmanli-temasi","hive","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Kâbil", "Buhara", "Hîve"],
   d:"Rus istilası sırasında Osmanlı devleti, Müslüman dünyasının önderi sıfatıyla önce Kâbil'e, ardından Buhara ve Hîve'ye elçiler göndererek Rusya'ya karşı bir ittifak kurmaya çalıştı; girişim, Rus askeri üstünlüğü karşısında sonuçsuz kaldı.",
   kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
 
@@ -463,7 +463,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Son Han Seyyid Abdullah'ın tahttan çekilmesi",
   tur:"son", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","son","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Kongirat hanedanının son hanı Seyyid Abdullah Han, Sovyet baskısı altında tahttan çekildi; hanlığın üç asırlık siyasi varlığı fiilen sona erdi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
@@ -471,7 +471,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Harezm Halk Cumhuriyeti ilan edildi",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["siyaset","son","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Sovyet destekli Harezm Halk Cumhuriyeti'nin ilanıyla Hîve Hanlığı resmen tarihe karıştı; toprakları 1924'te komşu Sovyet cumhuriyetleri arasında paylaştırılacaktı.",
   kaynak:"TDV, madde: hive-hanligi" },
 
@@ -603,7 +603,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli-temasi","buhara","konu-askeri","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Astrahan",
   d:"Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi. Seferin gerekçelerinden biri, Orta Asyalı Müslümanların hac yolunu ve Osmanlı-Mâverâünnehir ticaret/diplomasi hattını Rus ilerleyişine karşı güvence altına almaktı — Şeybânî/Canoğulları Buhara'sıyla 16. yüzyıl boyunca süren mektuplaşmaların jeopolitik arka planı budur.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Osmanlı-Rusya perspektifiyle orada da kayıtlı)", kunye:[] },
 

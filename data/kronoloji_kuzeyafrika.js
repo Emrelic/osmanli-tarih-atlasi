@@ -256,7 +256,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["sadi"], t:"1610-01-01", b:"Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"On yıla yakın süren taht kavgalarının ardından ülke kuzeyde Fas, güneyde Merakeş merkezli iki ayrı emirliğe bölündü; bu bölünme hanedanın 1659'daki sonuna kadar sürdü.",
-  kaynak:"TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)", odak_kimlik:["sadi"], kapsam_genis:true },
 
 { t:"1659-01-01", b:"Ahmed el-Abbas öldürülerek Sâdî hanedanı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"ic", yer_id:"Merakeş",
   etiket:["hanedan","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -266,7 +266,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["sadi"], t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı.", ic_not_d:"⚠️ TDV yalnız \\\"Abdülmelik ve Ahmed el-Mansûr devrinde\\\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", odak_kimlik:["sadi"], kapsam_genis:true },
 
 { taraflar:["sadi"], t:"1593-01-01", b:"Kasrü'l-bedî' Sarayı inşa edildi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["mimari","imar","konu-kultur","konu-imar"],
@@ -276,7 +276,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["sadi"], t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler.", ic_not_d:"⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", odak_kimlik:["sadi"], kapsam_genis:true },
 
 // ══════════════════════════════════════════════════════════════════
 // III. HAFSÎLER (TUNUS, 1229-1574)

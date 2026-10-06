@@ -68,12 +68,12 @@ window.KRONOLOJI_TIMURLU = [
   d:"Timur, kendi eski müttefiki olup sonradan Altın Orda tahtına çıkan Toktamış Han'ın Mâverâünnehir'e yönelik akınlarına son vermek için bozkırın derinliklerine, İdil (Volga) yakınlarındaki Kunduzca'ya kadar üç aylık bir sefer düzenledi ve Toktamış'ın ordusunu ağır bir yenilgiye uğrattı. Toktamış canını zor kurtardı; ama Altın Orda'nın ticaret şehirlerine dokunulmadığı için hanlık kısa sürede toparlanacaktı.",
   kaynak:"TDV `timur`: \"1391 (Haziran): Kunduzca'da Toktamış Han'ı yendi\" — ⚠️ gün TDV'de yok, standart akademik kronolojiyle (18 Haziran 1391) çapraz doğrulandı" },
 
-{ t:"1395-04-15", b:"Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1395-04-15", b:"Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", odak_yer:["Terek deltası (Kızlar)", "Vladikavkaz"],
   etiket:["askeri","toprak-kayip","ticaret","konu-askeri","konu-ekonomi"],
   d:"Toktamış'ın dört yıl önceki yenilgiden toparlanıp yeniden saldırıya geçmesi üzerine Timur, Terek Nehri kıyısında bu kez kesin bir zafer kazandı; ordusunu Altın Orda'nın başkenti Saray'a kadar sürüp şehri ve İpek Yolu'nun kuzey kolundaki büyük ticaret merkezlerini (Azak, Saray, Astarhan) yakıp yıktı. Bu darbe Altın Orda'nın bir daha asla eski gücüne kavuşamamasına yol açtı ve dolaylı olarak Moskova Knezliği'nin bir asır içinde bağımsızlaşmasının önünü açan uzun çürümeyi başlattı.",
   kaynak:"TDV `timur`: \"1395 (15 Nisan): Terek'te [Toktamış'ı] kesin olarak yendi\"" },
 
-{ t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:["Kâbil", "Multan", "Delhi"],
   etiket:["askeri","konu-askeri"],
   d:"Timur, Delhi Sultanlığı'nın 'kâfirlere karşı fazla yumuşak' davrandığı gerekçesiyle Hindistan'a bir sefer düzenlemeye karar verdi; ordusu aynı yıl içinde Hindukuş'u aşıp Pencap'a indi.", ic_not_d:"Seferin Delhi'ye varışı ve şehrin yağmalanması `data/kronoloji_hindistan.js:155`te (1398-12-17, dunya:3) anlatılıyor — burada mükerrer yazılmadı.",
   kaynak:"TDV `timur`: \"1398-1399 (Mart-Nisan – Nisan): Delhi Sultanı Mahmud Şah'a karşı sefer\"" },
@@ -116,7 +116,7 @@ window.KRONOLOJI_TIMURLU = [
 // III. TAHT MÜCADELESİ VE ŞAHRUH'UN BİRLİĞİ (1405-1409)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", odak_yer:["Semerkant", "Herat"],
   etiket:["hanedan","kriz","konu-siyasi","konu-hanedan"],
   d:"Timur'un ölümü imparatorluğu tek bir mirasçıya bırakmadı: torunu Halil Sultan Semerkant'ta tahta çıkarken oğlu Şahruh Herat'tan hak iddia etti, öteki oğullar ve torunlar da kendi bölgelerinde bağımsız hareket etmeye başladı.", ic_not_d:"Dört yıl sürecek bu iç savaş, `kronoloji_iran.js`in 1405 ve 1409 tarihli maddeleri arasındaki boşluğu dolduruyor.",
   kaynak:"TDV `timurlular` — hanedanın taht mücadelesi genel hatlarıyla anlatılıyor, gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
@@ -159,7 +159,7 @@ window.KRONOLOJI_TIMURLU = [
 // V. HERAT'IN SON ALTIN ÇAĞI — HÜSEYİN BAYKARA DÖNEMİ (1469-1507)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"", odak_yer:["Tebriz", "Erdebil"],
   etiket:["askeri","toprak-kayip","konu-askeri","konu-kisiler"],
   d:"On bir yıl önce Timurlu topraklarını yeniden birleştiren Ebû Said Mirza, Azerbaycan'a doğru giriştiği bir seferde Akkoyunlu hükümdarı Uzun Hasan'ın ordusuna yenilip esir düştü ve öldürüldü. Yenilgi, Timurlu topraklarının batı ucunu (İran, Azerbaycan) kalıcı olarak Akkoyunlu'ya bıraktı; imparatorluk artık yalnız Horasan ve Mâverâünnehir'e sıkışmıştı.", ic_not_d:"(kronoloji_iran.js:398, 1458, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
   kaynak:"TDV `timurlular` ve `iran` maddelerinde Ebû Said'in 1469'da Uzun Hasan'a yenilip öldürüldüğü teyitli; gün DOĞRULANMADI" },

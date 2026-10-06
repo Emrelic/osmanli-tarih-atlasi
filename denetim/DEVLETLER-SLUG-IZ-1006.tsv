@@ -1,0 +1,344 @@
+katman	madde	t	karar	sinif	slug	ayrinti
+5	karakoyunlu#9	1469-04-01	CEVRILDI	TUTTU	karakoyunlular	TDV karakoyunlular / uzun-hasan: Şevval 873 (Nisan 1469) — AY hassasiyeti
+5	karakoyunlu#10	1469-12-19	CEVRILDI	TUTTU	karakoyunlular	TDV karakoyunlular: 14 Cemâziyelâhir 874 / 19 Aralık 1469 (KRONO-DOGU-ISLAM-0929)
+5	sirp-despotlugu#2	1439-08-27	CEVRILDI	TUTTU	semendire	TDV semendire: 27 Ağustos 1439 (KRONO-BALKAN-B-0929 §2)
+5	bogdan#2	1475-01-10	CEVRILDI	TUTTU	bogdan	TDV bogdan · romanya: Vaslui yenilgisi 1475 — YIL; gün 01-10 eski kayıttan (KRONO-TUNA-0929 A1)
+5	azerbaycan-demokratik-cumhuriyeti#1	1918-09-15	CEVRILMEDI	ALINTILANMADI	azerbaycan	TDV azerbaycan (aynı madde kapsamında olması beklenir, bu turda doğrudan gövdeden alıntılanmadı) — standart akademik olarak da çok iyi belgelenmiş (Bakü'nün alınışı, 15 Eylül 1918)
+5	tunus-ocagi#1	1705-07-12	CEVRILDI	TUTTU	huseyin-pasa-tunus-beyi	TDV huseyin-pasa-tunus-beyi: '20 Rebîülevvel 1117 (12 Temmuz 1705) tarihinde … Hüseyin'i de bey seçti'
+5	trablusgarp-ocagi#1	1711-07-29	CEVRILDI	TUTTU	karamanli	TDV karamanli: 'Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)'
+5	trablusgarp-ocagi#2	1835-05-27	CEVRILDI	TUTTU	karamanli	TDV karamanli: 'Bunlar 27 Mayıs'ta Trablusgarp'ta karaya çıktılar. Ertesi gün … tutuklandı' — çekirdek 1835-05-26 (1 gün fark, bildirildi)
+5	fas#0	1549-01-31	CEVRILDI	TUTTU	vattasiler	TDV vattasiler: '(2 Muharrem 956 / 31 Ocak 1549)' — künye f: 1549-01-01 YIL kodlu kaldı
+5	fas#3	1664-08-02	CEVRILDI	TUTTU	mevlay-resid	TDV mevlay-resid: '(9 Muharrem 1075 / 2 Ağustos 1664)'
+5	fas#4	1672-04-13	CEVRILDI	TUTTU	mevlay-ismail	TDV mevlay-ismail: '15 Zilhicce 1082 (13 Nisan 1672) tarihinde tamamlanan merasimde' (biat)
+5	yemen-zeydi#5	1962-09-26	CEVRILDI	TUTTU	yemen	TDV yemen: '26 Eylül 1962'de Mısır destekli bir ihtilal gerçekleşti ve Zeydî imamlığına son verildi'
+5	sirbistan-prensligi#2	1830-10-17	CEVRILDI	TUTTU	sirbistan	TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti.'
+5	yunanistan#6	1924-03-25	CEVRILDI	TUTTU	yunanistan	TDV yunanistan (özet, alıntı değil): 25 Mart 1924
+5	yunanistan#7	1935-01-01	CEVRILDI	TUTTU	yunanistan	TDV yunanistan (özet) — YIL verir, gün yok
+5	bosna-isgal#1	1899-01-01	CEVRILDI	TUTTU	bosna-hersek	TDV bosna-hersek — "1899'da müftü Ali Fehmi Câbiç liderliğinde dinî özerklik için mücadele başlatıldı". Gün YOK, YYYY-01-01 kaba.
+5	girit-devleti#0	1898-12-22	CEVRILDI	TUTTU	girit	TDV girit (Tukin 1996): Prens George 22 Aralık 1898'de göreve başladı — eski 1898-12-09 kaynaksızdı (KRONO-BALKAN-D-0929 ④)
+5	oniki-ada-italyan#2	1923-07-24	CEVRILDI	TUTTU	oniki-ada	TDV oniki-ada — "24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı." ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın 
+5	abdulkadir#2	1839-11-19	CEVRILDI	TUTTU	abdulkadir-el-cezairi	TDV abdulkadir-el-cezairi: '19 Kasımda cihâd-ı mukaddes ilân eden Abdülkādir' (1839)
+5	bulgaristan-kralligi#3	1946-09-08	CEVRILDI	TUTTU	bulgaristan	TDV bulgaristan: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi'
+5	suud-ikinci#1	1865-01-01	CEVRILDI	TUTTU	necid	TDV necid — "Faysal'ın 1865'teki ölümünden sonra Abdullah ve kardeşi Suûd arasındaki anlaşmazlıklar" ve İngilizlerin Suûd'u desteklediği, Abdullah'ın Osmanlı korumasına yöneldiği. Gün TDV'de VERİLMİYOR (yalnız 1865 yılı, Faysal'ın ölüm yılı) — YYYY-01-01 kaba.
+5	habesistan#10	1941-05-05	CEVRILDI	TUTTU	etiyopya	TDV etiyopya (özet): 1941'de 5 Mayıs'ta tekrar tahtına oturdu
+5	mutahharten#0	1378-01-01	CEVRILDI	TUTTU	erzincan	TDV erzincan · TDV akkoyunlular (1378)
+5	zeyyani#3	1553-01-01	CEVRILDI	TUTTU	tilimsan	TDV tilimsan: '960'ta (1553) … kesin biçimde ele geçirildi. Böylece … Zeyyânî hâkimiyeti sona ermiş' — YIL (H.960 = Ara 1552-Ara 1553)
+5	futa-callon#2	1751-01-01	CEVRILMEDI	YIL-GOVDEDE-YOK	gine	TDV gine (bu turda okundu, kurulus maddesinde İbrâhim Mûsâ/Karamoko Alfa adı geçiyor) + standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Karamokho Alfa', 'Ibrahima Sori') doğrulandı.
+5	vasulu#1	1881-01-01	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` (200, gövde okundu) — «İlk savaş: 1881»; ertesi yıl «1882: büyük direniş gösterdi».
+5	vasulu#2	1883-01-01	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` — «1883: Bamako işgali önlenemedi»; Britannica ('Samory') aynı yılı veriyor: «when they occupied Bamako on the Niger River».
+5	vasulu#3	1886-01-01	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` — «Mart 1886: ilk anlaşmayla Bure bölgesini Fransızlara bıraktı»; öncesinde «1885: Bure'de büyük kayıp verdi». Britannica bağımsız olarak «After the French carried out a successful offensive in 1886, Samory accepted their protection with the Niger as his frontier» diyor.
+5	vasulu#4	1887-01-01	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` — «Bir yıl sonra ikinci antlaşmada Nijer'in batı yakasını Fransızlar'a bırakmayı kabul etti».
+5	vasulu#5	1887-01-01	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` — «1887 tarihinde Sikasso kuşatmasını başlattı»; Journal of African History (hakemli) ve Britannica ('Sikasso') süreyi veriyor: «lasting fifteen months from March 1887 to June 1888 … The Fàama of Sikasso, Tiéba Traoré, was able to repel Samori».
+5	vasulu#6	1889-02-13	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` — AYNEN «13 Şubat 1889: Son antlaşmayı imzaladı». GÜN HASSASİYETİ KAYNAKTAN GELİYOR.
+5	vasulu#7	1891-01-01	CEVRILDI	TUTTU	samori-ture	TDV `samori-ture` — «1891: yeniden savaşa tutuştu»; Britannica bağımsız olarak «he renewed his war with the French in 1891» diyor.
+5	bambara#1	1854-11-11	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — «Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». Künye adı «Bambara Krallıkları (Segu ve Kaarta)» olduğu için bu, Kaarta kolunun kaybıdır.
+5	bambara#3	1861-03-10	CEVRILDI	TUTTU	mali	TDV `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı» diyerek doğruluyor.
+5	mossi-vagadugu#2	1441-01-01	CEVRILMEDI	YIL-GOVDEDE-YOK	burkina-faso	TDV burkina-faso (bu turda okundu: 'oğlu Oubri de Uagadugu bölgesini ülkesine katarak devleti güçlendirdi') + standart akademik kaynak (GÜN/yıl hassasiyeti 1441, çevrimiçi ikincil kaynaklarla — 'Timeline of Ouagadougou' — çapraz doğrulandı).
+5	yatenga#2	1757-01-01	CEVRILDI	TUTTU	burkina-faso	TDV burkina-faso (bu turda okundu, doğrudan alıntı: 'Naaba Kango (1757-1787)').
+5	senusi#0	1837-01-01	CEVRILDI	TUTTU	senusiyye	TDV senusiyye
+5	senusi#1	1902-01-20	CEVRILDI	TUTTU	senusiyye	TDV senusiyye — «Fransızlar’ın 20 Ocak 1902’de Çad gölüne 100 km. mesafedeki Senûsî Zâviyesi’ni ele geçirip yıkmaları»
+5	senusi#2	1913-11-27	CEVRILDI	TUTTU	senusiyye	TDV senusiyye — «Bu zâviye 27 Kasım 1913’te işgal ordusunca ele geçirilip yıktırıldı» · TDV cad (yalnız yıl: 1913)
+5	ruanda#2	1853-01-01	CEVRILDI	TUTTU	ruanda	TDV ruanda (bu turda okundu, birebir alıntı).
+5	ruanda#3	1897-01-01	CEVRILDI	TUTTU	ruanda	TDV ruanda (bu turda okundu, birebir alıntı). Künyenin kendi 'son' tarihi (1916-05-06) Belçika'nın işgaliyle örtüşüyor — 1897 ile 1916 arası Alman dönemi.
+5	bunyoro#2	1869-01-01	CEVRILDI	TUTTU	uganda	TDV uganda (bu turda okundu, birebir: Kamurasi'nin ölümü '1869'da' ve ardından oğlu Kabarega'nın yönetimine geçiş).
+5	toro#2	1876-01-01	CEVRILDI	TUTTU	uganda	TDV uganda (bu turda okundu, birebir: '1876'da tekrar Bunyoro Krallığı'na katıldı').
+5	yao#2	1870-01-01	CEVRILDI	TUTTU	malavi	TDV malavi (bu turda okundu, birebir alıntı).
+5	ngonde#2	1887-01-01	CEVRILDI	TUTTU	malavi	TDV malavi (bu turda okundu, birebir alıntı: '1887'de kendini Ngonde sultanı ilân eden Mlozi'). Künyenin kendi 'son' tarihi (1895) Mlozi'nin İngilizlerce yakalanıp idam edilmesiyle örtüşüyor (akademik kaynakla çapraz doğrulandı, tarih Mlozi'nin bilinen sonuyla TUTARLI).
+5	yugoslavya#5	1929-10-03	CEVRILDI	TUTTU	yugoslavya	TDV yugoslavya: '3 Ekim 1929'da devletin adı Krallık Yugoslavyası ... oldu'
+5	malaka-sultanligi#3	1403-01-01	CEVRILDI	TUTTU	malaka	TDV malaka (bu turda okundu, birebir alıntı).
+5	ayutthaya#3	1448-01-01	CEVRILDI	TUTTU	tayland	TDV tayland (bu turda okundu, birebir alıntı; 'siyam' sluğu CANLI YÖNLENDİRME KÜTÜĞÜ — bk. tayland).
+5	ayutthaya#4	1569-01-01	CEVRILDI	TUTTU	tayland	TDV tayland (bu turda okundu, birebir alıntı).
+5	mataram-sultanligi#3	1601-01-01	CEVRILDI	TUTTU	endonezya	TDV endonezya (bu turda okundu, birebir alıntı).
+5	sulu-sultanligi#3	1851-01-01	CEVRILDI	TUTTU	filipinler	TDV filipinler (bu turda okundu, birebir alıntı).
+5	sulu-sultanligi#4	1876-01-01	CEVRILDI	TUTTU	filipinler	TDV filipinler (bu turda okundu, birebir alıntı).
+5	hausa-sehir-devletleri#2	1804-06-21	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer» (kazanan taraf anlatımıyla). GÜN KAYNAKTAN.
+5	hausa-sehir-devletleri#3	1806-01-01	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi».
+5	hausa-sehir-devletleri#5	1808-01-01	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` aynı yılı bağımsız olarak veriyor.
+5	sokoto#1	1804-06-21	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` (200, gövde okundu) — AYNEN «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer». GÜN HASSASİYETİ KAYNAKTAN GELİYOR.
+5	sokoto#2	1806-01-01	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi; Alkalava'ya yapılan saldırı başarısız».
+5	sokoto#3	1808-01-01	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` bağımsız olarak «1808: Gobir'in başşehri Alkalawa ele geçirildi» diyor.
+5	sokoto#5	1809-01-01	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — «1809: Bornu'nun Muhammed Emîn el-Kânemî'ye kaybedilmesi».
+5	sokoto#7	1817-04-20	CEVRILDI	TUTTU	osman-b-fudi	TDV `osman-b-fudi` — AYNEN «3 Cemâziyelâhir 1232 (20 Nisan 1817): Osman b. Fûdî'nin ölümü», «yerine oğlu Muhammed Bello geçti». GÜN HEM HİCRÎ HEM MÎLÂDÎ OLARAK KAYNAKTAN GELİYOR.
+5	sokoto#8	1849-01-01	CEVRILDI	TUTTU	sokoto	TDV `sokoto` — «1849: Yakubu Kebbi'de bağımsızlığını ilân etti».
+5	sokoto#9	1903-03-15	CEVRILDI	TUTTU	sokoto	TDV `sokoto` — «1903: İngiliz işgali (15 Mart)»; aynı gövde 1902'de Muhammed et-Tâhir'in sultan seçildiğini, 1903'ten sonra yalnız dinî önderliğin kaldığını yazıyor. GÜN KAYNAKTAN.
+5	asanti#3	1874-01-01	CEVRILDI	TUTTU	gana	TDV `gana` (200, gövde okundu) — «1874: Kumasi yıkıldı; güneybatı Gana Altın Sahili adıyla sömürge oldu»; Britannica 'Asante empire' bağımsız olarak «a British force under General Sir Garnet Wolseley … defeated the Ashanti army and burned their capital of Kumasi» diyor.
+5	asanti#5	1901-01-01	CEVRILDI	TUTTU	gana	TDV `gana` — «1901: Aşanti toprakları İngiliz idaresi altına girdi»; ertesi yıl «1902: bugünkü Gana'nın tamamı İngiliz sömürgesi oldu». Britannica 'Asante empire' son adımı gün vererek doğruluyor: «Asante was formally declared a British crown colony on January 1, 1902».
+5	dahomey#2	1818-01-01	CEVRILDI	TUTTU	benin	TDV `benin` (200, gövde okundu) — hükümdar listesi: «1818-1858: Kral Gezo».
+5	dahomey#3	1851-01-01	CEVRILDI	TUTTU	benin	TDV `benin` — «1851: Fransa ile Gezo arasında antlaşma».
+5	dahomey#4	1858-01-01	CEVRILDI	TUTTU	benin	TDV `benin` — «1858-1889: Kral Glélé».
+5	dahomey#5	1868-01-01	CEVRILDI	TUTTU	benin	TDV `benin` — «Mayıs 1868: Kotonu Antlaşması».
+5	dahomey#6	1882-01-01	CEVRILDI	TUTTU	benin	TDV `benin` — «1882: Fransa Porto Novo ve Kotonu üzerinde himaye kurdu».
+5	dahomey#7	1893-01-01	CEVRILDI	TUTTU	benin	TDV `benin` — AYNEN «1893'te Dahomey Krallığı'nın merkezi Abomey'e giren Fransız birlikleri Kral Behanzin'in iktidarına son vererek»; aynı gövde «1906: Kral Behanzin sürgünde öldü» diyor.
+5	buganda#2	1856-01-01	CEVRILMEDI	YIL-TDV-ILE-TUTMUYOR	uganda	TDV uganda (bu turda okundu: 'Kral I. Mutasa dönemi (1854-1884)'). Yıl aralığı 1854-1856 arası verilerde küçük fark var, 1856 tercih edildi ve fark AÇIKÇA yazıldı.
+5	svahili-sehirleri#3	1530-01-01	CEVRILDI	TUTTU	zengibar	TDV zengibar (bu turda okundu, birebir alıntı: '1530 yılında Rui Lourenço Ravasco adayı abluka altına alarak bombalayınca').
+5	yeni-ispanya#1	1539-01-01	CEVRILDI	TUTTU	amerika	TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter) — gövdede AYNEN: «İspanya'nın Küba valisi ise 1539'da Florida'yı aldı ve iç bölgelere doğru ilerleyerek kuvvetleriyle birlikte üç dört yıl içinde Kuzey Amerika'nın güneydoğu kesimlerini ve Mississippi nehrini keşfetti
+5	ingiliz-kuzey-amerika#2	1763-02-10	CEVRILMEDI	GUN-ATLASTAN/KUNYEDEN	amerika	TDV `amerika` (HTTP 200, gövde okundu) — AYNEN: «1763'te Paris Antlaşması ile Kanada'nın tamamını ve Mississippi'nin doğusundaki toprakları ele geçiren İngiltere». 🔴 KAYNAK YIL VERİYOR («1763'te»), GÜN VERMİYOR. 10 Şubat GÜNÜ künyenin kendi `f:` alanından ve aynı olayı anlatan mevcut `kurulus` madde
+5	kesmir#3	1338-01-01	CEVRILDI	TUTTU	kesmir	TDV kesmir (bu turda okundu, birebir alıntı). NOT: künyenin f: alanı 1281 — bu 1338 gerçek kuruluş tarihi görünüyor, künye sahibine bildiriliyor (bu bölgede tekrarlayan 'atlas ufku' deseni).
+5	kesmir#4	1540-01-01	CEVRILDI	TUTTU	kesmir	TDV kesmir (bu turda okundu, birebir alıntı).
+5	malva-sultanligi#3	1436-05-16	CEVRILDI	TUTTU	malva	TDV malva (bu turda okundu, birebir alıntı, GÜN hassasiyeti).
+5	malva-sultanligi#4	1531-01-01	CEVRILDI	TUTTU	malva	TDV malva (bu turda okundu, birebir alıntı).
+5	arakan#3	1546-01-01	CEVRILDI	TUTTU	arakan	TDV arakan (bu turda okundu, birebir alıntı).
+5	arakan#4	1595-01-01	CEVRILDI	TUTTU	arakan	TDV arakan (bu turda okundu, birebir alıntı).
+5	malay-sultanliklari#3	1896-07-01	CEVRILDI	TUTTU	malezya	TDV malezya (bu turda okundu, birebir alıntı: 'Temmuz 1896').
+5	cohor-sultanligi#3	1699-01-01	CEVRILDI	TUTTU	malezya	TDV malezya (bu turda okundu, birebir alıntı).
+5	cohor-sultanligi#4	1784-01-01	CEVRILDI	TUTTU	malezya	TDV malezya (bu turda okundu, birebir alıntı: 'Ocak 1784').
+5	palembang-sultanligi#3	1440-01-01	CEVRILDI	TUTTU	endonezya	TDV endonezya (bu turda okundu, birebir alıntı).
+5	gova-makassar#3	1603-01-01	CEVRILDI	TUTTU	endonezya	TDV endonezya (bu turda okundu, birebir alıntı).
+5	cammu-kesmir#3	1947-10-26	CEVRILDI	TUTTU	kesmir	TDV kesmir: '26 Ekim 1947'de katılım antlaşmasını imzaladı'
+5	samudra-pasai#2	1297-01-01	CEVRILMEDI	YIL-GOVDEDE-YOK	endonezya	TDV endonezya (bu turda okundu, birebir alıntı: '696 (1296-97) yılında').
+5	ekvador-cumhuriyeti#0	1830-01-01	CEVRILMEDI	SLUGSUZ		TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET
+5	venezuela-cumhuriyeti#2	1829-01-01	CEVRILMEDI	SLUGSUZ		TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMA
+5	kolombiya-cumhuriyeti#0	1831-01-01	CEVRILMEDI	SLUGSUZ		TDV-AM — AYNEN: «geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti. Bu tarihte de cumhuriyet ilan edilerek Kolombiya adini aldi»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor ve KUNYE ILE AYRISIYOR — TDV'ye gore 'Kolombiya' adi 1863'te alindi, kunyenin f: degeri ise 1831-01-01 (birligin dagi
+5	nahua-sehir-devletleri#0	1325-01-01	CEVRILDI	TUTTU	amerika	TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter — boilerplate DEĞİL, ölçüldü) — gövdede AYNEN: «1325 yılında Tenoçtitlan (bugünkü Mexico City) şehrini kuran Aztekler İspanyollar'ın saldırılarına kadar medeniyetlerini sürdürdüler.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01.
+5	nahua-sehir-devletleri#2	1521-08-13	CEVRILMEDI	GUN-ATLASTAN/KUNYEDEN	amerika	TDV `amerika` — gövdede AYNEN: «1519'da Meksika'yı almak için başlattıkları savaşta Aztek İmparatorluğu'nu da yıkarak iki yıl içerisinde bölgeye yerleştiler (1521).» 🟡 YIL doğrulandı; 13 Ağustos GÜNÜ künyenin kendi t: alanından devralındı, TDV gün vermiyor.
+5	farukiler#0	1370-01-01	CEVRILDI	TUTTU	farukiler	TDV `farukiler` — AYNEN: «Melik Ahmed … istiklâlini ilân ederek Fârûkīler hânedanını kurmuştur (772/1370)» ve maddenin AÇILIŞ CÜMLESİ: «Handeş'te (Hindistan) 1370-1601 yılları arasında hüküm süren…» 🟢 SLUG BİZZAT SINANDI (HTTP 200, farukiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu
+5	farukiler#1	1601-01-01	CEVRILDI	TUTTU	farukiler	TDV `farukiler` — açılış cümlesindeki «1370-1601» aralığı; başşehirler Asîrgarh ve Burhânpûr (TDV `burhanpur` md. de SINANDI, HTTP 200). 🟢 SLUG BİZZAT SINANDI (HTTP 200, farukiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu turda yeniden çekmedim. 🔴 GÜN YOK ⇒ YYYY-01-01.
+5	farukiler#2	1399-01-01	CEVRILDI	TUTTU	farukiler	TDV farukiler (bu turda okundu, birebir alıntı).
+5	farukiler#3	1457-01-01	CEVRILDI	TUTTU	farukiler	TDV farukiler (bu turda okundu, birebir alıntı).
+5	eyyubi-hisnikeyfa#0	1232-01-01	CEVRILDI	TUTTU	eyyubiler	TDV `eyyubiler` — AYNEN: «el-Melikü'l-Kâmil 630 (1232) yılında Güneydoğu Anadolu'da idarî düzenlemelere girişti. Önce Âmid'i, daha sonra Hısnıkeyfâ'yı zaptederek Artuklular'ın Hısnıkeyfâ koluna son verdi.» 🟢 SLUG BİZZAT SINANDI (HTTP 200, eyyubiler). Alıntı künyenin kaynak alanından DEVRALINDI — göv
+5	eyyubi-hisnikeyfa#1	1462-01-01	CEVRILDI	TUTTU	eyyubiler	TDV `eyyubiler` — AYNEN: «Hısnıkeyfâ kolu ise 1462'de Akkoyunlular'dan Uzun Hasan tarafından ortadan kaldırıldı.» 🟢 SLUG BİZZAT SINANDI (HTTP 200, eyyubiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu turda yeniden çekmedim. 🔴 GÜN YOK ⇒ YYYY-01-01.
+5	tekrur#0	1852-01-01	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` (200, gövde okundu) — AYNEN: «Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti». Künyenin kendi `kaynak` alanı da bu maddeye dayanıyor.
+5	tekrur#1	1854-11-11	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — «1854: Yelimane, Bambuk ve Farabanna ele geçirildi; Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». GÜN HASSASİYETİ KAYNAKTAN GELİYOR.
+5	tekrur#2	1857-01-01	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — «Medine: 1857 — 25.000 askerle Fransız kalesine saldırıldı; Fransız kuvvetlerince püskürtüldü».
+5	tekrur#3	1861-03-10	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı»; GÜN, aynı olayın öteki tarafındaki `bambara` künyesinin TDV `mali`ye dayanan `son` maddesinden geliyor: «1861-03-10 — el-Hâc Ömer Segu'yu aldı». İki TDV maddesi, iki taraf, aynı gün.
+5	tekrur#4	1862-01-01	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — «Hamdallahi: 1862 — Masina başşehri ele geçirildi».
+5	tekrur#5	1864-02-14	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — AYNEN «14 Şubat 1864», Degembere'de mağara yangını; «oğlu Ahmed el-Kebîr el-Medenî (Ahmed Tâl) yerine geçti».
+5	tekrur#6	1893-01-01	CEVRILDI	TUTTU	el-hac-omer	TDV `el-hac-omer` — «devlet 1893-1894 Fransız fethine kadar sürdü»; Encyclopaedia Britannica ('Ahmadu Seku') bağımsız olarak «Col. Louis Archinard … led to the final conquest of Ségou in 1893» diyor. Künyenin `t:` değeri de 1893-01-01.
+5	suriye-lubnan-mandasi#0	1920-07-24	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	suriye	TDV suriye (künyenin kendi kaynak alanından devralındı)
+5	filistin-mandasi#0	1920-07-01	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	filistin	TDV filistin (künyenin kendi kaynak alanından)
+5	filistin-mandasi#1	1922-07-24	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	filistin	TDV filistin (künyenin kendi kaynak alanından)
+5	urdun-emirligi#0	1921-02-01	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	urdun	TDV urdun (künyenin kendi kaynak alanından)
+5	misir-sultanligi#0	1914-12-18	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	misir	TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)
+5	misir-sultanligi#1	1922-03-15	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	misir	TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)
+5	misir-kralligi#0	1922-03-15	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	misir	TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)
+5	kesiri-sultanligi#0	1450-01-01	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	hadramut	TDV hadramut (künyenin kendi kaynak alanından, 'XV. yüzyılın ikinci yarısı' — yıl kaba)
+5	kuayti-sultanligi#0	1881-01-01	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	hadramut	TDV hadramut (künyenin kendi kaynak alanından)
+5	kuayti-sultanligi#1	1888-01-01	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	hadramut	TDV hadramut (künyenin kendi kaynak alanından)
+5	ammarogullari#0	1327-01-01	CEVRILDI	TUTTU	trablusgarp	TDV `trablusgarp` — AYNEN: «Hafsîler'in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp'ta Ammâroğulları hânedanı kuruldu (727/1327)». 🔴 Hicrî 727 = mîlâdî 1327; GÜN YOK ⇒ YYYY-01-01.
+5	ammarogullari#1	1347-01-01	CEVRILMEDI	SLUGSUZ		TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi (islamansiklopedisi.org.tr/ammarogullari--trablusgarp)
+5	ammarogullari#2	1355-01-01	CEVRILMEDI	SLUGSUZ		TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi
+5	ammarogullari#3	1371-01-01	CEVRILMEDI	SLUGSUZ		TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi
+5	ammarogullari#4	1393-01-01	CEVRILMEDI	SLUGSUZ		TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi
+5	ammarogullari#5	1401-01-01	CEVRILDI	TUTTU	trablusgarp	TDV `trablusgarp` — AYNEN: «803 (1401) yılına kadar devam etti» ve «Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü». 🔴 GÜN YOK ⇒ YYYY-01-01.
+5	arma#0	1750-01-01	CEVRILDI	TUTTU	tinbuktu	TDV `tinbuktu` (HTTP 200, gövde açıldı) — AYNEN: «Merakeşli askerlerin yerli kadınlarla evliliğinden doğan ve 'arma' denilen çocukları Ebü'l-Mahallî liderliğinde 1163'te (1750) Tinbüktü'de yönetimi ele geçirdiler.»
+5	arma#1	1760-01-01	CEVRILDI	TUTTU	tinbuktu	TDV `tinbuktu` — AYNEN: «1760'ta Tevârikler'in zaptettiği Tinbüktü…»
+5	ingiliz-sudani#0	1899-01-19	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	sudan	TDV sudan (künyenin kendi kaynak alanından, raw HTML doğrulanmış)
+5	arvanid-sancagi#1	1466-01-01	CEVRILDI	TUTTU	arnavutluk	TDV arnavutluk — "1466 yılına kadar Arnavutluk, Osmanlı idare sisteminde Arvanid-ili adı altında bir sancak olarak görülmektedir"; İlbasan Kalesi inşasından sonra bölgenin yeni sancak(lar)a bölünmesi, Avlonya/Ohri/İşkodra sancaklarının kuruluşu. 🔴 ÖNEMLİ: bu bulgu künyenin kendi t:'sinin (1537, zate
+5	mekke-serifligi#0	1517-01-01	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	haremeyn	TDV haremeyn (künyenin kendi kaynak alanından)
+5	sani-emirligi#0	1871-09-20	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	katar	TDV katar (künyenin kendi kaynak alanından)
+5	sani-emirligi#1	1893-01-01	CEVRILDI	TUTTU	katar	TDV katar — "1893 başlarında" Hâfız Mehmed Paşa'nın 200 kişilik taburla Devha'ya girmesi, Câsim'in Vecebe Kalesi'ne çekilip direnmesi, Osmanlı kuvvetinin hezimeti. Gün TDV'de yalnız '1893 başı' — YYYY-01-01 kaba, ay/gün uydurulmadı.
+5	sabah-emirligi#0	1896-01-01	CEVRILDI	TUTTU	kuveyt	TDV kuveyt — "1896'da bir suikast sonucu öldürüldü", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi.
+5	sabah-emirligi#1	1897-01-01	CEVRILDI	TUTTU	kuveyt	TDV kuveyt — "taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı". Gün YOK, YYYY-01-01 kaba.
+5	sabah-emirligi#2	1899-01-23	CEVRILMEDI	KUNYE-KAYNAGINDAN-DEVRALINMIS	kuveyt	TDV kuveyt (künyenin kendi kaynak alanından)
+5	lubnan-emirligi#0	1516-10-01	CEVRILDI	TUTTU	lubnan	TDV lubnan — "Ekim 1516'da Osmanlı yönetimine giren bölgenin idaresiyle ilgili yapılan yeni düzenleme sonunda Lübnan'ın yönetimi ... Ma'noğulları'na verildi"
+5	lubnan-emirligi#1	1697-01-01	CEVRILDI	TUTTU	lubnan	TDV lubnan — "Halefi olan oğlu Ahmed'in 1697'de geride çocuk bırakmadan ölmesiyle Lübnan'daki Ma'noğulları dönemi sona erdi"
+5	lubnan-emirligi#2	1842-01-01	CEVRILDI	TUTTU	lubnan	TDV lubnan — "Böylece Lübnan'daki Şihâbî ailesinin yönetimi sona erdi"
+5	cebel-i-lubnan-mutasarrifligi#0	1861-06-09	CEVRILDI	TUTTU	lubnan	TDV lubnan — "9 Haziran 1861'de imzalanmış ve ardından bir fermanla yürürlüğe konmuştur"
+5	cebel-i-lubnan-mutasarrifligi#1	1864-09-06	CEVRILDI	TUTTU	lubnan	TDV lubnan — "6 Eylül 1864'te yeni bir milletlerarası protokol imzalandı", bu metnin 1861-1915 arası sekiz mutasarrıfın döneminde ana belge sayıldığı.
+5	cebel-i-lubnan-mutasarrifligi#2	1915-07-11	CEVRILDI	TUTTU	lubnan	TDV lubnan — "Osmanlı Devleti tarafından 11 Temmuz 1915'te tek taraflı olarak ilga edilmiş"
+5	harfusogullari#0	1521-01-01	CEVRILMEDI	YIL-GOVDEDE-YOK	harfus	TDV harfus — "Canbirdi'nin isyanı esnasında Harfûşoğulları Ba'lebek bölgesine yerleşmişlerdir." (isyan tarihi: TDV canbirdi-gazali)
+5	harfusogullari#1	1601-01-01	CEVRILMEDI	YIL-GOVDEDE-YOK	harfus	TDV harfus — "XVII. yüzyıl başlarından itibaren Ba'lebek ve Bikā'da hâkimiyet için Harfûş emîrleri arasında rekabet çıkmış"
+5	misir-eyaleti#0	1517-04-13	CEVRILDI	TUTTU	misir	TDV misir — Tomanbay'ın idamı, 13 Nisan 1517
+5	misir-eyaleti#3	1805-07-03	CEVRILDI	TUTTU	kavalali-mehmed-ali-pasa	TDV kavalali-mehmed-ali-pasa — "3 Temmuz 1805"
+5	sirbistan-eyaleti#0	1459-06-20	CEVRILDI	TUTTU	semendire	TDV semendire
+5	sirbistan-eyaleti#3	1804-02-14	CEVRILMEDI	GUN-ATLASTAN/KUNYEDEN	sirbistan	TDV sirbistan (yıl) + sirbistan-prensligi künyesinden devralınan gün
+5	tunus-beyligi-fransiz#0	1881-05-12	CEVRILDI	TUTTU	tunus	TDV tunus
+5	tunus-beyligi-fransiz#2	1956-03-20	CEVRILDI	TUTTU	tunus	TDV tunus
+5	suriye-arap-kralligi#0	1918-10-01	CEVRILDI	TUTTU	sam--suriye	TDV sam--suriye · TDV suriye (ay)
+5	suriye-arap-kralligi#1	1920-03-08	CEVRILDI	TUTTU	faysal-i	TDV faysal-i · TDV halep
+5	suriye-arap-kralligi#3	1920-07-25	CEVRILDI	TUTTU	sam--suriye	TDV sam--suriye · Lawson
+5	guney-afrika-birligi#3	1961-05-31	CEVRILDI	TUTTU	guney-afrika-cumhuriyeti	TDV guney-afrika-cumhuriyeti
+5	fransiz-kamerun-mandasi#0	1922-07-20	CEVRILDI	TUTTU	kamerun	TDV kamerun
+5	fransiz-kamerun-mandasi#1	1960-01-01	CEVRILDI	TUTTU	kamerun	TDV kamerun
+5	ingiliz-tanganika-mandasi#1	1961-12-09	CEVRILDI	TUTTU	tanzanya	TDV tanzanya
+5	ruanda-urundi-mandasi#1	1962-07-01	CEVRILDI	TUTTU	ruanda	TDV ruanda
+5	ingiliz-nijerya#0	1861-01-01	CEVRILDI	TUTTU	nijerya	TDV nijerya · IBS 092
+5	ingiliz-nijerya#3	1960-10-01	CEVRILDI	TUTTU	nijerya	TDV nijerya · IBS 092
+5	ingiliz-kenya-kolonisi#3	1963-12-12	CEVRILDI	TUTTU	kenya	TDV kenya · IBS 071
+5	ingiliz-guney-rodezya#0	1890-01-01	CEVRILDI	TUTTU	zimbabve	TDV zimbabve
+5	ingiliz-guney-rodezya#4	1980-04-18	CEVRILDI	TUTTU	zimbabve	TDV zimbabve
+5	portekiz-mozambik#0	1505-01-01	CEVRILDI	TUTTU	mozambik	TDV mozambik
+5	portekiz-mozambik#2	1975-06-25	CEVRILDI	TUTTU	mozambik	TDV mozambik
+5	prusya-dukaligi#2	1701-01-18	CEVRILDI	TUTTU	prusya	TDV prusya
+5	danzig-serbest-sehri-1807#0	1807-07-09	CEVRILDI	TUTTU	prusya	TDV prusya · Gedanopedia (Hajduk)
+5	cerkez#0	1475-06-06	CEVRILMEDI	GUN-ATLASTAN/KUNYEDEN	cerkezler	TDV cerkezler — gün, atlasın Kefe fethi kırılmasından (aynı Gedik Ahmed Paşa seferi) devralınmıştır; TDV bu tanıma için gün vermiyor
+5	cerkez#1	1829-09-14	CEVRILDI	TUTTU	cerkezler	TDV cerkezler · TDV edirne-antlasmasi md.4
+5	cerkez#2	1838-01-01	CEVRILDI	TUTTU	cerkezler	TDV cerkezler
+5	cerkez#3	1864-07-01	CEVRILDI	TUTTU	cerkezler	TDV cerkezler · data/olaylar_ek14.js
+5	kuba-hanligi#0	1735-01-01	CEVRILDI	TUTTU	kuba--azerbaycan	TDV kuba--azerbaycan
+5	kuba-hanligi#1	1758-01-01	CEVRILDI	TUTTU	kuba--azerbaycan	TDV kuba--azerbaycan
+5	belcika-kongo#0	1908-11-15	CEVRILDI	TUTTU	kongo-demokratik-cumhuriyeti	TDV kongo-demokratik-cumhuriyeti · history.state.gov congo-free-state
+5	belcika-kongo#1	1960-06-30	CEVRILDI	TUTTU	kongo-demokratik-cumhuriyeti	TDV kongo-demokratik-cumhuriyeti
+5	ingiliz-altin-kiyisi#1	1901-01-01	CEVRILDI	TUTTU	gana	TDV gana · LoC Country Studies Ghana
+5	ingiliz-altin-kiyisi#3	1957-03-06	CEVRILDI	TUTTU	gana	TDV gana
+5	ingiliz-kuzey-rodezya#0	1890-01-01	CEVRILDI	TUTTU	zambiya	TDV zambiya
+5	ingiliz-kuzey-rodezya#3	1964-10-24	CEVRILDI	TUTTU	zambiya	TDV zambiya · Worldmark
+5	ingiliz-siyera-leon#0	1808-01-01	CEVRILMEDI	YIL-GOVDEDE-YOK	sierra-leone	TDV sierra-leone · Worldmark
+5	ingiliz-siyera-leon#2	1961-04-27	CEVRILDI	TUTTU	sierra-leone	TDV sierra-leone · Worldmark
+5	portekiz-gine#0	1879-01-01	CEVRILDI	TUTTU	gine-bissau	TDV gine-bissau · Worldmark
+5	portekiz-gine#1	1886-01-01	CEVRILDI	TUTTU	gine-bissau	TDV gine-bissau
+5	portekiz-gine#2	1973-09-24	CEVRILDI	TUTTU	gine-bissau	TDV gine-bissau
+5	portekiz-gine#3	1974-09-10	CEVRILDI	TUTTU	gine-bissau	TDV gine-bissau
+5	turkiye-cumhuriyeti#0	1923-10-29	CEVRILDI	TUTTU	turkiye	TDV turkiye
+5	turkiye-cumhuriyeti#1	1939-06-23	CEVRILDI	TUTTU	antakya	TDV antakya: '23 Haziran 1939'da imzalanan antlaşma ile Hatay'ın Türkiye'ye katılması kesinleşti'
+5	hatay-devleti#0	1938-09-02	CEVRILDI	TUTTU	antakya	TDV antakya
+5	hatay-devleti#1	1939-06-23	CEVRILDI	TUTTU	antakya	TDV antakya
+5	mogolistan-halk-cumhuriyeti#0	1924-11-26	CEVRILDI	TUTTU	mogolistan	TDV mogolistan
+5	arnavutluk-halk-cumhuriyeti#0	1944-11-29	CEVRILDI	TUTTU	arnavutluk	TDV arnavutluk (özet)
+5	murabitlar#1	1106-09-04	CEVRILDI	TUTTU	murabitlar	TDV murabitlar: '(3 Muharrem 500 / 4 Eylül 1106)'
+5	dogu-macar-kralligi#0	1540-01-01	CEVRILDI	TUTTU	macaristan	TDV macaristan: '1540'ta I. János ölünce Budin merkezli bir Osmanlı beylerbeyiliği kuruldu.'
+5	dogu-macar-kralligi#1	1541-08-29	CEVRILDI	TUTTU	erdel	TDV erdel
+5	kuca-hocalari#0	1864-01-01	CEVRILDI	TUTTU	dongen	TDV dongen
+5	kuca-hocalari#1	1867-01-01	CEVRILDI	TUTTU	turfan	TDV turfan
+5	danismendli#0	1071-01-01	CEVRILDI	TUTTU	danismendliler	TDV danismendliler
+5	danismendli#1	1102-09-18	CEVRILDI	TUTTU	danismendliler	TDV danismendliler: 'şehri Gümüştegin’e teslim ettiler (18 Eylül 1102)'
+5	danismendli#2	1143-12-06	CEVRILDI	TUTTU	danismendliler	TDV danismendliler (gün Süryânî Mikhail'e göre; İbnü'l-Kalânisî 536, İbnü'l-Esîr 537 der — kaynaklar ayrışıyor)
+5	danismendli#3	1175-01-01	CEVRILDI	TUTTU	danismendliler	TDV danismendliler: '1175 yazında zaptetti' — ay: yaz, gün yok
+5	danismendli#4	1178-10-25	CEVRILDI	TUTTU	danismendliler	TDV danismendliler
+5	saltuklu#0	1071-01-01	CEVRILDI	TUTTU	saltuklular	TDV saltuklular
+5	saltuklu#1	1123-01-01	CEVRILDI	TUTTU	saltuklular	TDV saltuklular
+5	saltuklu#2	1202-06-25	CEVRILDI	TUTTU	saltuklular	TDV saltuklular; TDV tugrul-sah
+5	mengucuklu#0	1118-01-01	CEVRILDI	TUTTU	mengucukluler	TDV mengucukluler
+5	mengucuklu#1	1120-01-01	CEVRILDI	TUTTU	mengucukluler	TDV mengucukluler ('Belek ancak 1120’de Mengücükoğlu’nun üzerine yürüyebildi'); TDV danismendliler savaşı Bayburt yakınında 'Serman (Şiran)' diye yerler — yer adı iki maddede farklı
+5	mengucuklu#2	1142-01-01	CEVRILDI	TUTTU	mengucukluler	TDV mengucukluler
+5	mengucuklu#3	1165-01-01	CEVRILDI	TUTTU	mengucukluler	TDV mengucukluler (Niğdeli Kadı Ahmed'e dayanarak)
+5	mengucuklu#4	1228-01-01	CEVRILDI	TUTTU	mengucukluler	TDV mengucukluler
+5	ahlatsahlar#0	1100-01-01	CEVRILDI	TUTTU	ahlatsahlar	TDV ahlatsahlar
+5	ahlatsahlar#1	1111-01-01	CEVRILDI	TUTTU	ahlatsahlar	TDV ahlatsahlar
+5	ahlatsahlar#2	1208-01-01	CEVRILDI	TUTTU	ahlatsahlar	TDV ahlatsahlar; TDV tugrul-sah
+5	mervani#0	983-01-01	CEVRILDI	TUTTU	mervaniler--diyarbakir	TDV mervaniler--diyarbakir
+5	mervani#1	1011-01-01	CEVRILDI	TUTTU	nasruddevle	TDV nasruddevle
+5	mervani#2	1085-05-31	CEVRILDI	TUTTU	mervaniler--diyarbakir	TDV mervaniler--diyarbakir
+5	mervani#3	1085-08-30	CEVRILDI	TUTTU	mervaniler--diyarbakir	TDV mervaniler--diyarbakir; TDV meyyafarikin
+5	inalogullari#0	1098-01-01	CEVRILDI	TUTTU	inalogullari	TDV inalogullari
+5	inalogullari#1	1110-01-01	CEVRILDI	TUTTU	inalogullari	TDV inalogullari
+5	inalogullari#2	1183-04-29	CEVRILDI	TUTTU	inalogullari	TDV inalogullari
+5	dilmacogullari#0	1085-01-01	CEVRILDI	TUTTU	dilmacogullari	TDV dilmacogullari
+5	dilmacogullari#1	1192-01-01	CEVRILDI	TUTTU	dilmacogullari	TDV dilmacogullari — yıl TDV'de 'muhtemelen'
+5	dilmacogullari#2	1229-01-01	CEVRILDI	TUTTU	dilmacogullari	TDV dilmacogullari
+5	hulefa-yi-rasidin#0	0632-01-01	CEVRILDI	TUTTU	hulefa-yi-rasidin	TDV hulefa-yi-rasidin (yıl)
+5	hulefa-yi-rasidin#1	0661-01-01	CEVRILDI	TUTTU	emeviler	TDV emeviler: '41 yılı Rebîülevvel ayının sonlarında (Temmuz 661)'
+5	emevi#0	0661-01-01	CEVRILDI	TUTTU	emeviler	TDV emeviler: '(Temmuz 661)'
+5	emevi#1	0750-08-05	CEVRILDI	TUTTU	emeviler	TDV emeviler: '(26 Zilhicce 132 / 5 Ağustos 750)'
+5	sasani#0	0226-01-01	CEVRILDI	TUTTU	sasaniler	TDV sasaniler başlığı: '226-651' (yıl)
+5	sasani#1	0651-01-01	CEVRILDI	TUTTU	sasaniler	TDV sasaniler (yıl)
+5	tahiri-horasan#0	0821-01-01	CEVRILDI	TUTTU	tahiriler--horasan	TDV tahiriler--horasan (yıl)
+5	tahiri-horasan#1	0844-01-01	CEVRILDI	TUTTU	tahiriler--horasan	TDV tahiriler--horasan: '(230/844)'
+5	tahiri-horasan#2	0873-01-01	CEVRILDI	TUTTU	tahiriler--horasan	TDV tahiriler--horasan: 'Şevval 259 (Ağustos 873)'
+5	saffari#0	0861-01-01	CEVRILDI	TUTTU	saffariler	TDV saffariler: '247’de (861)'
+5	saffari#1	0879-06-09	CEVRILDI	TUTTU	saffariler	TDV saffariler: '(14 Şevval 265 / 9 Haziran 879)'
+5	saffari#2	1003-01-01	CEVRILDI	TUTTU	saffariler	TDV saffariler: '(393/1003)'
+5	sacogullari#0	0889-01-01	CEVRILDI	TUTTU	sacogullari	TDV sacogullari (yıl)
+5	sacogullari#1	0893-01-01	CEVRILDI	TUTTU	sacogullari	TDV sacogullari: '(280/893)'
+5	sacogullari#2	0929-01-01	CEVRILDI	TUTTU	sacogullari	TDV sacogullari başlığı (yıl)
+5	tolunogullari#0	0868-01-01	CEVRILDI	TUTTU	tolunogullari	TDV tolunogullari: '(254/868)'
+5	tolunogullari#1	0893-06-14	CEVRILDI	TUTTU	tolunogullari	TDV tolunogullari: '14 Haziran 893’te Mısır’a yolladığı fermanla'
+5	tolunogullari#2	0905-01-01	CEVRILDI	TUTTU	tolunogullari	TDV tolunogullari: '(Rebîülevvel 292 / Ocak 905)'
+5	ihsidi#0	0935-01-01	CEVRILDI	TUTTU	ihsidiler	TDV ihsidiler: '(Ramazan 323 / Ağustos 935)'
+5	ihsidi#1	0969-07-06	CEVRILDI	TUTTU	ihsidiler	TDV ihsidiler: '(17 Şâban 358 / 6 Temmuz 969)'
+5	aglebi#0	0800-01-01	CEVRILDI	TUTTU	aglebiler	TDV aglebiler: '184 (800)'
+5	aglebi#1	0909-03-18	CEVRILDI	TUTTU	aglebiler	TDV aglebiler: '18 Mart 909’da'
+5	idrisi#0	0789-01-01	CEVRILDI	TUTTU	idrisiler	TDV idrisiler: '(172/789)'
+5	idrisi#1	0985-01-01	CEVRILDI	TUTTU	idrisiler	TDV idrisiler: '(375/985)'
+5	rustemi#0	0777-01-01	CEVRILDI	TUTTU	rustemiler	TDV rustemiler: '(160/777)'
+5	rustemi#1	0909-01-01	CEVRILDI	TUTTU	rustemiler	TDV rustemiler: '(Şevval 296 / Temmuz 909)'
+5	midrari#0	0772-01-01	CEVRILDI	TUTTU	midrariler	TDV midrariler: '(155/772)'
+5	midrari#1	0976-01-01	CEVRILDI	TUTTU	midrariler	TDV midrariler: '(366/976)'
+5	hamdani-musul#0	0905-01-01	CEVRILDI	TUTTU	hamdaniler	TDV hamdaniler: '293’te (905-906) Musul'
+5	hamdani-musul#1	0929-03-02	CEVRILDI	TUTTU	hamdaniler	TDV hamdaniler: '(17 Muharrem 317 / 2 Mart 929)'
+5	hamdani-musul#2	0979-01-01	CEVRILDI	TUTTU	hamdaniler	TDV hamdaniler: '(369/979)'
+5	hazar-kaganligi#0	0630-01-01	CEVRILDI	TUTTU	hazarlar	TDV hazarlar: '(630)'
+5	hazar-kaganligi#1	0965-01-01	CEVRILDI	TUTTU	hazarlar	TDV hazarlar: '965’te hakanın Hârizmliler’e sığınması'
+5	uygur-kaganligi#0	0745-01-01	CEVRILDI	TUTTU	uygurlar	TDV uygurlar: '745 yılında'
+5	uygur-kaganligi#1	0840-01-01	CEVRILDI	TUTTU	uygurlar	TDV uygurlar: '840 yılındaki Kırgız saldırısı kağanlığın sonunu getirdi'
+5	ziyadi#0	0818-01-01	CEVRILDI	TUTTU	ziyadiler	TDV ziyadiler: '202 (818)'
+5	ziyadi#1	1017-01-01	CEVRILDI	TUTTU	ziyadiler	TDV ziyadiler: '(407/1017)'
+4	lur-i-buzurg#0	1155-01-01	TASINDI	TUTTU	luristan	TDV: luristan — «Luristan’ın güneydoğusunda Lur-ı Büzürg (1155-1424)»
+4	lur-i-buzurg#5	1424-01-01	TASINDI	TUTTU	luristan	TDV: luristan — «Luristan’ın güneydoğusunda Lur-ı Büzürg (1155-1424)»
+4	lur-i-kucek#0	1184-01-01	TASINDI	TUTTU	luristan	TDV: luristan — «hâkimiyetini Lur-ı Kûçek hânedanı zamanına (1184-1597)»
+4	lur-i-kucek#1	1597-01-01	TASINDI	TUTTU	luristan	TDV: luristan — «hâkimiyetini Lur-ı Kûçek hânedanı zamanına (1184-1597)»
+4	mazenderan-marasi#2	1596-01-01	TASINMADI	TDV-YOK-NOTU	y	eski b: Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi (TDV yıl vermiyor, tarih ikincil kaynaktan)
+4	papalik#0	1396-09-25	TASINMADI	CUMLE-TARIHLEMIYOR	papalik	TDV papalik savaşı TARİHLEMİYOR (yalnız "teşvik edilen savaşlar" sayımı)
+4	papalik#1	1463-10-25	TASINDI	TUTTU	fransa	TDV: fransa — «Pius Fransa’yı tehdit eden bir bildiri yayımladı (25 Ekim 1463)»
+4	papalik#3	1571-10-07	TASINMADI	CUMLE-TARIHLEMIYOR	papalik	aynı — İnebahtı TDV papalik gövdesinde tarihsiz
+4	papalik#4	1809-05-17	TASINMADI	TDV-YOK-NOTU	kapsam	eski b: Napolyon, Papalık topraklarını Fransız İmparatorluğu'na ilhak etti; Papa VII. Pius'u aforoz etmesi üzerine Fransız kuvvetleri Papa'yı tutuklayıp 1814'e kadar hapsetti (TDV kapsamıyor — akademik kaynak: Ambrogio Caiani, 'To Kidnap a Pope', Yale UP 2021)
+4	imereti#1	1804-01-01	TASINDI	TUTTU	gurcistan	TDV: gurcistan — «Birkaç yıl içinde Megreliya (1803), İmeretiya ve Guriya (1804), Abhaz Knezliği (1810), Svanetiya (1856) Rusya ile birleşti»
+4	arnavutluk-bagimsiz#2	1914-03-07	TASINMADI	CUMLE-TARIHLEMIYOR	arnavutluk	TDV arnavutluk yalnız 3 Eylül 1914 AYRILIŞI tarihliyor; maddenin günü (7 Mart 1914 tahta çıkış) değil
+4	granada#0	1238-05-12	TASINDI	TUTTU	nasriler	TDV: nasriler — «Gırnata’da (Granada) “emîrü’l-müslimîn” unvanı ve Gālib-Billâh lakabıyla biat alıp Nasrîler hânedanını kurdu (26 Ramazan 635 / 12 Mayıs 1238)»
+4	granada#1	1340-10-30	TASINMADI	YAKLASIK/TURETILMIS	nasriler	eski b: Nasrî-Merînî müttefik kuvvetleri Río Salado'da Kastilya-Aragon-Portekiz ittifakına ağır yenildi; Cezîretülhadrâ ve Tarîf kaybedildi, 1344'te barış yapıldı (TDV nasriler, olayı isimsiz anlatıyor; tam gün Britannica 'Battle of Río Salado' — taneciklik boşluğu)
+4	granada#2	1482-01-01	TASINDI	TUTTU	nasriler	TDV: nasriler — «babasına karşı bir isyan başlattı (887/1482)»
+4	granada#3	1483-01-01	TASINDI	TUTTU	nasriler	TDV: nasriler — «(Safer 888 / Mart 1483). Bunun üzerine Gırnata’nın son sultanı Ebû Abdullah es-Sagīr XI. Muhammed, amcasının zaferinden cesaret alarak saltanatının ikinci yılında İspanya’ya ait Lûsinâ’ya (Lucena) saldırdı, fakat Kurtuba yakınında yenilip esir düştü»
+4	hollanda#0	1579-01-23	TASINDI	TUTTU	hollanda	TDV: hollanda — «kuzeydeki Protestan eyaletler Utrecht Birliği’ni oluşturarak bağımsız bir devlet halinde ortaya çıktı (1579)» — YIL (gün TDV'de yok)
+4	hollanda#2	1602-03-20	TASINDI	TUTTU	hollanda	TDV: hollanda — «1602 yılında kurulan Birleşik Doğu Hindistan Şirketi (Vereenigde Oost-Indische Compagnie) kısa sürede baharat ticaretini ele geçirdi» — YIL (gün TDV'de yok)
+4	hollanda#4	1648-01-30	TASINDI	TUTTU	hollanda	TDV: hollanda — «Vestfalya (Westfalen) Antlaşması ile (1648) İspanya da Felemenk Cumhuriyeti’ni resmen tanıdı» — YIL (gün TDV'de yok)
+4	hollanda#5	1780-12-20	TASINDI	TUTTU	hollanda	TDV: hollanda — «İngilizler’le 1780’de çıkan ve dört yıl devam eden savaş» — YIL (gün TDV'de yok)
+4	umman#0	1624-01-01	TASINMADI	YAKLASIK/TURETILMIS	yarubiler	eski b: Nâsır b. Mürşid, iç karışıklıklar sürecinde bölge ileri gelenlerinin biatıyla imam seçilip Ya'rubî hânedanını kurdu (TDV yarubiler maddesi; kuruluş için 1615/1624 iki tarih veriyor, atlasın f: alanıyla uyumlu 1624 kullanıldı)
+4	umman#3	1798-01-18	TASINDI	TUTTU	uman	TDV: uman — «İngilizler, Maskat’ta bir temsilcilik açtılar (18 Ocak 1798)»
+4	umman#4	1856-01-01	TASINDI	TUTTU	uman	TDV: uman — «1856’da öldüğünde ülkesi oğulları Mâcid ile Süveynî arasında paylaştırıldı»
+4	umman#5	1862-01-01	TASINDI	TUTTU	uman	TDV: uman — «1862’de İngiltere, Fransa ve Almanya gibi ülkelerin kararı ile her iki taraf bağımsız birer ülke olarak tanındı»
+4	sammar#0	1835-01-01	TASINDI	TUTTU	residiler	TDV: residiler — «İbn Ali ailesine karşı başlattığı mücadele 1835’te Abdullah b. Reşîd’in Hâil emirliğini ele geçirmesiyle sonuçlandı»
+4	sammar#2	1902-01-15	TASINDI	TUTTU	residiler	TDV: residiler — «İbn Suûd, Riyad’ı geri almayı başardı (15 Ocak 1902)»
+4	sammar#3	1906-01-01	TASINDI	TUTTU	residiler	TDV: residiler — «İbn Suûd, 1906’da Reşîdî Emîri Abdülazîz b. Mut‘ab’ın da (Müt‘ib) hayatını kaybettiği savaş sonrasında Kasîm’i de ele geçirerek Reşîdîler’e büyük bir darbe vurdu»
+4	funj#1	1523-01-01	TASINMADI	TDV-YOK-NOTU	func	eski b: Animist/hıristiyan olan kurucu sultan Amâre, Müslüman lider Abdullah Cemmâ'nın baskısıyla İslâmiyet'i kabul etti (TDV func maddesi: 'tahminen 1523'ten sonra', gün/ay TDV'de yok)
+4	funj#2	1649-01-01	TASINDI	TUTTU	func	TDV: func — «Şâyikıyye II. Bâdî zamanında (1649-1680) ayaklandı. Funclar’ın Şâyikıyye ile mücadeleye girmesi Mısır ile olan bağlarını zayıflattı. Func ülkesinin sınırları II. Bâdî zamanında Üçüncü Şelâle’den Mavi Nil’e, Kızıldeniz’den Kordofan’a ulaşmıştır»
+4	funj#3	1770-01-01	TASINMADI	CUMLE-TARIHLEMIYOR	func	TDV func 1770 = "Benî Abdellâb güç kazandı"; Şâyikıyye ayaklanmasını II. Bâdî (1649-1680) dönemine koyuyor — madde tarihi TDV ile ÇELİŞİYOR
+4	funj#4	1820-01-01	TASINDI	TUTTU	func	TDV: func — «1820’de Sudan’ın Kavalalı Mehmed Ali Paşa tarafından fethine kadar sürdü»
+4	dacu#0	1200-01-01	TASINMADI	YAKLASIK/TURETILMIS	darfur	eski b: Dâcû kabilesi Darfur'a yerleşip bölgenin ilk devletini kurdu (TDV: XIII-XIV. yüzyıl)
+4	tunciler#1	1690-01-01	TASINMADI	YAKLASIK/TURETILMIS	darfur	eski b: Bûmû el-Kasîr'in istilâsıyla gelen karışıklığın ardından Tunciler'in hâkimiyeti Süleyman Solonc önderliğindeki Kîrâ (Fûr) sülâlesince ele geçirildi (TDV darfur maddesi: 'XVII. yüzyılın sonları', gün/yıl yok, mevcut t:1695 ile tutarlı olsun diye yaklaşık yerleştirildi)
+4	darfur#0	1695-01-01	TASINDI	TUTTU	darfur	TDV: darfur — «Sultan Süleyman Solonc’dan (1695-1715) sonra aynı aileden on kişi iktidara gelmiştir»
+4	habesistan#7	1889-05-02	TASINMADI	TDV-YOK-NOTU	habesistan	eski b: Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı (kaynak: Britannica, madde: "Treaty of Wichale"; TDV'de müstakil madde bulunamadı). ⚠️ ÖLÇÜLMEDİ: yerleşim noktalarındaki 'Habeşistan→İtalya' kırılması ('1889-01-01') bu antlaşma gününe mi, yoksa İtalyan Eritre sömürgesinin resmî ilanına (1890-01-01) mı karşılık geliyor — üç aday tarih (antlaşma/i
+4	ahiler#2	1341-01-01	TASINDI	TUTTU	ankara	TDV: ankara — «Alâeddin Eretna 1341’de “sultan” unvanını alarak bağımsızlığını ilân etti»
+4	esrefogullari#1	1288-01-01	TASINDI	TUTTU	esrefogullari	TDV: esrefogullari — «687 (1288) tarihli kitâbesinden buradaki kalenin Süleyman Bey tarafından inşa ettirildiği anlaşılmakta»
+4	esrefogullari#2	1299-01-01	TASINDI	TUTTU	esrefogullari	TDV: esrefogullari — «Eşrefoğlu Süleyman da ölümünden kısa süre önce muhtemelen 1299 veya 1300’de istiklâlini ilân etmiştir»
+4	esrefogullari#3	1302-08-01	TASINDI	TUTTU	esrefogullari	TDV: esrefogullari — «Ağustos 1302’de vefat ederek Beyşehir’de yaptırdığı Eşrefoğlu Camii’nin yanındaki türbesine defnedilmiştir» — AY (gün TDV'de yok)
+4	esrefogullari#4	1326-10-09	TASINDI	TUTTU	esrefogullari	TDV: esrefogullari — «Demirtaş Beyşehir’e girerek vaktiyle kendisini şikâyet eden Süleyman Şah’ı öldürttü (9 Ekim 1326)»
+4	zeta#4	1482-01-01	TASINMADI	TDV-YOK-NOTU	karadag	eski b: Merkez Cetine'ye (Cetinje) taşındı — bu tarih TDV'nin karadag maddesinde doğrulanamadı, yerlesimler.js'teki Cetinje kuruluş tarihiyle (kur:1482) hizalandı
+4	kasim#0	1452-01-01	TASINMADI	YAKLASIK/TURETILMIS	kasim-hanligi	eski b: Moskova, Tatar prensi Kâsım'a Oka nehri kıyısında bir toprak/hanlık verdi (TDV: kesin yıl tartışmalı, 1445-1456 arası)
+4	cebri#1	1507-01-01	TASINDI	TUTTU	cebriler	TDV: cebriler — «Ecved 1507’de Basra körfezine saldıran Portekizliler’e şiddetle karşı koydu»
+4	cebri#2	1521-01-01	TASINDI	TUTTU	cebriler	TDV: cebriler — «aldığı yaranın tesiriyle üç gün sonra öldü (27 Temmuz 1521), Portekizliler de Cebrîler’in hâkimiyetindeki sahilleri işgal ettiler»
+4	cebri#3	1521-07-27	TASINDI	TUTTU	cebriler	TDV: cebriler — «Portekizliler’le yaptığı bir savaşta kahramanca savaştı ve aldığı yaranın tesiriyle üç gün sonra öldü (27 Temmuz 1521)»
+4	nebhani#0	1507-01-01	TASINDI	TUTTU	uman	TDV: uman — «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»
+4	makdisu-sultanligi#0	1281-01-01	TASINMADI	YAKLASIK/TURETILMIS	makdisu	eski b: Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (TDV: VII./XIII. yüzyıl, kesin yıl yok)
+4	makdisu-sultanligi#2	1500-01-01	TASINMADI	TDV-YOK-NOTU	makdisu	eski b: Yönetim Muzaffer sülâlesinin eline geçti (geçiş sürecinin ayrıntısı TDV'de yok)
+4	yugoslavya#2	1921-06-28	TASINDI	TUTTU	yugoslavya	TDV: yugoslavya — «28 Haziran 1921’de kralın iç ve dış dünya ile ilgili yetkilerini belirleyen ilk anayasa kabul edildi»
+4	yugoslavya#3	1921-08-16	TASINMADI	TDV-YOK-NOTU	yugoslavya	eski b: Kral I. Petar'ın ölümü üzerine 1914'ten beri naip olan oğlu Aleksandar tahta geçti (standart akademik kaynak, TDV'de yok)
+4	yugoslavya#4	1929-10-03	TASINDI	TUTTU	yugoslavya	TDV: yugoslavya — «3 Ekim 1929’da devletin adı Krallık Yugoslavyası (Kraljevina Jugoslavija [1929-1941]) şeklinde değiştirildi»
+4	poni#1	1405-01-01	TASINDI	TUTTU	bruney	TDV: bruney — «Bruney’in siyasî tarihi, İslâmiyet’i kabul ettikten sonra Muhammed Şah (1405-1415) adını alan yerli lider Alang (Awang) Betatar’ın bir sultanlık kurmasıyla başlar»
+4	brunei-sultanligi#1	1473-01-01	TASINDI	TUTTU	bruney	TDV: bruney — «Sultan Bolkiah’nın döneminde ise (1473-1521) Bruney, küçük bir sultanlık olmaktan çıkarak Borneo adasının büyük bir kısmını, Filipinler’deki Luzon’u ve Sulu takımadalarını içine alan bir devlet haline gelmiş ve altın çağını yaşamıştır»
+4	brunei-sultanligi#2	1580-01-01	TASINDI	TUTTU	bruney	TDV: bruney — «1580’de de Bruney şehrini kuşattılar; ancak bir sonuç elde edemediler»
+4	brunei-sultanligi#3	1841-01-01	TASINDI	TUTTU	bruney	TDV: bruney — «İngilizler 1841’de Bruney’in elinde bulunan kuzeydeki Labuan adasını zaptettiler ve aynı yıl ülkenin güneyindeki Saravak bölgesinde yer alan Kuching’de hâkimiyet kurarak Doğu Hindistan Şirketi’nin yetkilisi olan James Brooke’u Saravak racası unvanıyla başa getirdiler»
+4	berar#0	1484-01-01	TASINDI	TUTTU	imadsahiler	TDV: imadsahiler — «İmâdülmülk Berâr’a dönüp 1484’te bağımsızlığını ilân etti»
+4	berar#1	1528-01-01	TASINDI	TUTTU	imadsahiler	TDV: imadsahiler — «Gucerât Sultanı Bahadır Şah’ı yardıma çağıran Alâeddin (1528), Bahadır Şah’ın hâkimiyetini kabul ederek»
+4	berar#2	1542-01-01	TASINDI	TUTTU	imadsahiler	TDV: imadsahiler — «Nizamşâhîler’in Bîcâpûr’a saldırması üzerine (1542) Deryâ Han’dan yardım istedi»
+4	berar#3	1572-01-01	TASINDI	TUTTU	imadsahiler	TDV: imadsahiler — «Berâr, 1572’de bir defa daha Nizamşâhîler tarafından ilhak edilmek istendi. Vezir Tufâl Han bunun üzerine Bâbürlü Sultanı Ekber Şah’tan yardım talep etti. Murtazâ, Şah Ekber’in uyarısına rağmen Berâr topraklarına girdi. Böylece İmâdşâhî hânedanlığı sona ermiş oldu»
+4	magindanao-sultanligi#0	1515-01-01	TASINMADI	YAKLASIK/TURETILMIS	filipinler	eski b: Malay yarımadasından gelen Şerîf Muhammed Kabungsuvan, yerli datularla fetih/diplomasi/evlilik yoluyla iş birliği yapıp halkı müslümanlaştırdı ve Magindanao Sultanlığı'nı kurdu (tahminî tarih, TDV filipinler)
+4	magindanao-sultanligi#1	1619-01-01	TASINDI	TUTTU	filipinler	TDV: filipinler — «Sultan Kudarat da (1619-1671) Sibuguey koyundan Davao körfezine kadar uzanan bölgeye hâkim olarak»
+4	magindanao-sultanligi#2	1637-01-01	TASINDI	TUTTU	filipinler	TDV: filipinler — «İspanyollar’ın 1637’de Maguindanao Sultanlığı’nın, 1638’de de Sulu Sultanlığı’nın merkezini zaptetmeleri»
+4	magindanao-sultanligi#3	1645-01-01	TASINDI	TUTTU	filipinler	TDV: filipinler — «1645’te Maguindanao Sultanlığı, 1646’da da Sulu Sultanlığı ile barış yapmak zorunda kalan İspanyollar»
+4	bengal-sultanligi#1	1494-01-01	TASINMADI	TDV-YOK-NOTU	bengal	eski b: Alâeddin Hüseyin Şah, soylularca sultan seçilip Hüseyin Şahi hânedanını kurdu; onun ve oğlu Nusret Şah'ın dönemi Bengal'in 'altın çağı' sayılır, Kâmrup-Kâmta ilhak edildi (TDV'de yok — Banglapedia 'Husain Shah')
+4	bengal-sultanligi#2	1538-04-06	TASINMADI	TDV-YOK-NOTU	bengal	eski b: Afgan komutan Şir Şah Sûrî, Gaur'u ele geçirdi; son Hüseyin Şahi hükümdarı Gıyâseddin Mahmud Şah yenilip kısa süre sonra öldü, hânedan sona erdi (TDV'de yok — Banglapedia 'Ghiyasuddin Mahmud Shah')
+4	haydarabad-nizam#1	1731-01-01	TASINDI	TUTTU	haydarabad-nizamligi	TDV: haydarabad-nizamligi — «1731’de bir antlaşma imzalayarak onların bölgedeki varlıklarını ve Haydarâbâd dışındaki yerlerde vergi toplama isteklerini kabul etmek zorunda kaldı»
+4	haydarabad-nizam#2	1766-01-01	TASINDI	TUTTU	haydarabad-nizamligi	TDV: haydarabad-nizamligi — «1766’da imzalanan antlaşma ile bu topraklar, gerektiğinde verilecek askerî destek ve her yıl yapılacak malî yardım karşılığında İngilizler’e bırakıldı»
+4	haydarabad-nizam#3	1799-01-01	TASINDI	TUTTU	haydarabad-nizamligi	TDV: haydarabad-nizamligi — «1798’de varılan yeni bir mutabakatla İngiltere nizamın emrine 6000 asker ve silâh verdi. Bir yıl sonra Tîpû Sultan ile İngilizler arasında yeniden savaş çıkınca Nizam Ali’nin desteğiyle kendisi de savaş alanında öldürülen Tîpû’nun ordusu yok edildi»
+4	haydarabad-nizam#4	1802-01-01	TASINDI	TUTTU	haydarabad-nizamligi	TDV: haydarabad-nizamligi — «1802’de imzalanan yeni bir antlaşma ile İngilizler’e ticarî imtiyazlar tanındı»
+4	bengal-nevabligi#1	1756-04-01	TASINMADI	TDV-YOK-NOTU	bengal	eski b: Sirâceddevle, dedesi Alîverdi Han'ın yerine 23 yaşında nevab oldu; deneyimsiz yönetimi İngiliz Doğu Hindistan Şirketi ile gerilime yol açtı (TDV'de yok — World History Encyclopedia 'Battle of Plassey')
+4	bengal-nevabligi#3	1757-06-29	TASINMADI	TDV-YOK-NOTU	bengal	eski b: Yenilginin ardından Robert Clive, Murşidâbâd'a girip İngilizlerin desteklediği Mir Cafer'i nevab ilan etti; Bengal fiilen Şirket vesayetine girdi (TDV'de yok, standart akademik kaynak)
+4	avad#1	1764-10-23	TASINMADI	TDV-YOK-NOTU		eski b: Nevab Şücâüddevle, eski Bengal Nevabı Mir Kâsım ve Babür İmparatoru II. Şah Âlem ile kurduğu ittifakla Buxar'da İngilizlere karşı savaştı ve ağır yenildi; Avad'ın Şirket üstünlüğünü kabulünün başlangıcı oldu (TDV'de yok, World History Encyclopedia 'Battle of Buxar')
+4	avad#2	1765-08-16	TASINMADI	TDV-YOK-NOTU		eski b: Allahabad Antlaşması ile Şücâüddevle tahtına iade edildi ama Şirket'e bağımlı müttefik konumuna düştü, tazminat ödeyip Allahabad-Kara topraklarını bıraktı (TDV'de yok, standart akademik kaynak — tekil hakemli makaleyle doğrulanamadı, birden fazla ikincil kaynakta tutarlı)
+4	cavnpur-sultanligi#1	1399-11-01	TASINDI	TUTTU	sarki-sultanligi	TDV: sarki-sultanligi — «Melik Server’in Rebîülevvel 802’de (Kasım 1399) vefatından sonra Habeşli bir köle olan evlâtlığı Mübârek Şah Karanfil tahta geçirildi» — AY (gün TDV'de yok)
+4	cavnpur-sultanligi#2	1452-01-01	TASINDI	TUTTU	sarki-sultanligi	TDV: sarki-sultanligi — «856’da (1452) Delhi üzerine sefere çıkan Mahmûd Şah, Narela savaşında Delhi hâkimi ve kayınbiraderi Behlûl-i Lûdî’ye yenildi»
+4	cavnpur-sultanligi#3	1478-01-01	TASINDI	TUTTU	sarki-sultanligi	TDV: sarki-sultanligi — «Bedâûn ve Sambhal 1478’de Şarkî topraklarına katıldı. Hüseyin Şah Şarkī aynı yıl Delhi’yi ele geçirmek amacıyla Yamuna nehrine kadar ilerledi»
+4	cavnpur-sultanligi#4	1481-01-01	TASINDI	TUTTU	sarki-sultanligi	TDV: sarki-sultanligi — «Ertesi yıl Sirsa’da yapılan savaşı da kaybeden Hüseyin Şah topraklarının önemli bir kısmını Lûdîler’e bırakmak zorunda kaldı (886/1481)»
+4	bahavelpur#2	1826-01-01	TASINDI	TUTTU	bahavelpur	TDV: bahavelpur — «Onun bir suikast sonucu öldürülmesinden sonra geçen III. Bahâvel Han (1826-1852), hânedanın İngiliz hükümetinin isteklerine yumuşak bakan geleneksel politikasını sürdürdü»
+4	bahavelpur#3	1833-01-01	TASINDI	TUTTU	bahavelpur	TDV: bahavelpur — «önce hükümetle İndus nehrini geçiş anlaşması (1833), daha sonra da 1838’de Bahâvelpûr nevvâbının, İngiliz hükümetiyle iş birliği içinde hareket etmesi şartıyla kendi topraklarında süresiz yönetime sahip olmasını ve korunmasını hükme bağlayan bir himaye anlaşması imzaladılar»
+4	bahavelpur#4	1838-01-01	TASINDI	TUTTU	bahavelpur	TDV: bahavelpur — «daha sonra da 1838’de Bahâvelpûr nevvâbının, İngiliz hükümetiyle iş birliği içinde hareket etmesi şartıyla kendi topraklarında süresiz yönetime sahip olmasını ve korunmasını hükme bağlayan bir himaye anlaşması imzaladılar»
+4	bhopal#1	1807-01-01	TASINDI	TUTTU	bopal--devlet	TDV: bopal--devlet — «Vezir Muhammed Han, devletin zayıflığından faydalanarak ülkeye hücum eden Pindârîler’i Maratalar’ın yardımıyla geri püskürtmüş, daha sonra da yardım amacıyla girdikleri ülkeyi istilâ eden Maratalar’ı dışarı atmıştır (1807)»
+4	bhopal#2	1820-01-01	TASINDI	TUTTU	bopal--devlet	TDV: bopal--devlet — «1820’de Nezir Muhammed Han ölünce karısı Kudsiyye Begüm “nevvâbe” sıfatıyla tahta oturdu»
+4	bhopal#3	1901-01-01	TASINDI	TUTTU	bopal--devlet	TDV: bopal--devlet — «Şah Cihan Begüm 1901’de öldü ve yerine geçen kızı Sultan Cihan Begüm yirmi beş yıl hüküm sürdü»
+4	multan-langah#0	1451-01-01	TASINMADI	YAKLASIK/TURETILMIS	multan	eski b: Rai Sahra, Belûcî Lengâh kabilesinden Multan'a hâkim oldu (muhtemelen tarih, TDV)
+4	samudra-pasai#0	1281-01-01	TASINMADI	YAKLASIK/TURETILMIS		eski b: Yerel hanedan İslâm'ı kabul edip Samudra Pasai Sultanlığı'nı kurdu (TDV: 1280'ler)
+4	pontianak#0	1772-01-01	TASINDI	TUTTU	borneo	TDV: borneo — «1772’de de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı’nı kurdu»
+4	muvahhidler#0	1130-01-01	TASINDI	TUTTU	muvahhidler	TDV: muvahhidler — «Devletin resmen teşekkülü ise dokuz yıl sonra, onun ölümünün (14 Ramazan 524 / 21 Ağustos 1130) ardından Abdülmü’min el-Kûmî tarafından gerçekleştirildi»
+4	muvahhidler#2	1269-01-01	TASINDI	TUTTU	muvahhidler	TDV: muvahhidler — «668’de (1269) şehre girmelerini engelleyemediler. Böylece Muvahhidler Devleti son bulurken»
+4	hammadiler#1	1068-01-01	TASINDI	TUTTU	hammadiler	TDV: hammadiler — «Nâsır 461 (1068-69) yılında hükümet merkezini buraya taşıdı»
+4	kevkev#0	1009-01-01	TASINDI	TUTTU	gao	TDV: gao — «Zâ hânedanının on beşinci hükümdarı Kosoy’un müslüman olduktan sonra idare merkezini Kukia’dan Gao’ya taşıması (400/1009-10)»

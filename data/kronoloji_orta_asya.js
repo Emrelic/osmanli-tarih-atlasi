@@ -340,19 +340,19 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1420-06-01", b:"Edige'nin ölümü — oğulları Mangıt beyliğini kurdu", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
   etiket:["hanedan","kurulus","siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["altinorda"],
   d:"Cuci ulusunda söz sahibi beylerden Edige'nin 823 (1420) yılında ölümünden sonra oğulları Deştikıpçak'taki siyasî faaliyetlerde yer aldılar ve bazı hanların yanında emirlik yürüttüler. Nogay beylerinin atası sayılan Edige, Mangıt boyundandı; Nogay ordasının yönetim kadrosunu bu boy teşkil eder, halk tabakasının esas unsuru ise Kıpçak Türkleridir.", ic_not_d:"⚠️ Olayın Altın Orda tarafı kronoloji_altinorda.js'te ZATEN var; bu madde Nogay ordasının KURULUŞ tarafıdır.",
   kaynak:"nogaylar (TDV, madde: nogaylar — içerik okundu, 2026-08-22)" },
 
 { taraflar:["nogay"], t:"1500-01-01", b:"Mûsâ Mirza Nogayların beyi olarak anılmaya başlandı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","hukumdar","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"XVI. yüzyılın başında Nogayların beyi olarak Mûsâ Mirza'nın adı geçer. Bu yüzyılın ilk yarısında Nogay ordası, Kırım Hanlığı ve diğer Türk hanlıkları ile ilişkilerinde önemli bir yere sahipti. Orda İdil'in sol kıyısından İrtiş kollarına, doğuda Emba üzerinden Aral'a kadar uzanıyordu.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyılın başında' diyor" },
 
 { taraflar:["nogay"], t:"1554-01-01", b:"Yûsuf Mirza öldürüldü — orda Osmanlı ve Moskova taraftarı diye ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","kriz","hanedan","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"Osmanlı taraftarı Yûsuf Mirza ile Moskova taraftarı kardeşi İsmâil Mirza arasındaki mücadele Yûsuf'un öldürülmesiyle sonuçlandı ve yüzyılın ortasında orda bölünmeye uğradı. Bir bozkır konfederasyonunun iç kavgası, iki büyük devletin dış siyaseti hâline gelmişti; bölünme bir daha onarılamadı.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'yüzyılın ortasında' diyor" },
 
@@ -370,7 +370,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["nogay"], t:"1563-01-01", b:"İsmâil ve Tin Ahmed Mirza devrinde Rus baskısı sürdü", tur:"siyaset", onem:2, dunya:1, kapsam:"dis",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"Büyük Nogay ordası üzerindeki yoğun Moskova baskısı İsmâil Mirza ve Tin Ahmed Mirza zamanında (1563-1578) da sürdü. Rusya bu devirlerde Nogaylarla ilişkilerini görünüşte dostluk çerçevesinde tutma politikası izliyordu; oysa aynı yüzyıla ait Rus belgeleri Moskova'nın düşmanları sıralanırken hem Büyük hem Küçük Nogay ordasını sayıyordu.",
   kaynak:"nogaylar (TDV)" },
 
@@ -382,7 +382,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["nogay"], t:"1578-01-02", b:"Urus Mirza Rus baskısına direndi", tur:"hukumdar", onem:3, dunya:1, kapsam:"dis",
   etiket:["hanedan","hukumdar","askeri","konu-askeri","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"Büyük Nogay ordasının beyi Urus Mirza (1578-1590) Rus baskısına karşı direndiyse de Rus yönetiminin etkisi onun zamanında da sürdü. Bu dönemde Büyük Nogay ordasından bazı gruplar zaman zaman Rus topraklarına ganimet amaçlı akınlar düzenlediler.",
   kaynak:"nogaylar (TDV)" },
 
@@ -406,7 +406,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["nogay"], t:"1600-01-01", b:"İşterek Mirza Kırım'ı atlayıp doğrudan Osmanlı ile görüşmek istedi", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"XVII. yüzyılın başında Büyük Nogay ordasının beyi olan İşterek Mirza, Kırım Hanlığı'nın aracılığı olmadan Osmanlı Devleti ile görüşmeler yapmak ve Rusya ile İran'a karşı kendi çıkarına bir siyaset izlemek istedi; bunda başarılı olamadı. Nogayların kendi adına bir dış siyaset kurma çabası bu denemeyle bitmiştir.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVII. yüzyılın başında' diyor" },
 
@@ -442,13 +442,13 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1865-01-01", b:"Kitlesel göç sona erdi — Nogaylar Anadolu'ya iskân edildi", tur:"sosyal", onem:4, dunya:2, kapsam:"dis",
   etiket:["sosyal","goc","konu-sosyal","konu-demografi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Ankara", "Konya", "Kırşehir", "Sivas", "Adana"],
   d:"1865'e kadar kitleler hâlinde, sonra küçük kafilelerle devam eden göçle Nogaylar Anadolu'da Çukurova, Ankara, Konya, Kırşehir ve Sivas gibi bölgelere iskân edildiler. Bir bozkır konfederasyonunun nüfusunun büyük kısmı böylece Osmanlı toprağına taşındı; bugün Türkiye'deki Nogay yerleşimleri bu göçün ürünüdür.",
   kaynak:"nogaylar (TDV)" },
 
 { t:"1922-04-01", b:"Nogay kurultayı Açikulak'ta toplandı — Dağıstan'da kalma kararı", tur:"siyaset", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","sosyal","konu-siyasi","konu-sosyal"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Stavropol–Kuma bozkırı", "Terek deltası (Kızlar)"],
   d:"Nogayların birinci kurultayı 1922'de Açikulak'ta yapıldı; aynı yılın Nisan ayındaki bir başka toplantıda yetkililer hangi bölgede kalmak istediklerini sordu ve Nogay temsilcileri Dağıstan topraklarında kalmayı tercih etti. Toplantıda kısmî özerklik vaadinde bulunuldu, ancak bu söz yerine getirilmedi.",
   kaynak:"nogaylar (TDV)" },
 
@@ -577,7 +577,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1601-01-01", b:"Küçüm Han Nogayların yanında öldürüldü", tur:"olum", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","olum","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"1598 çarpışmasından sonra kaynaklarda Küçüm Han'la ilgili bilgi yer almaz; sınırlı bilgiler onun Nogayların yanına gittiğini ve kısa zaman sonra Nogaylar tarafından öldürüldüğünü söyler. Ebülgazi Bahadır Han, kırk yıl padişahlık yapıp Rus istilâsının ardından Mangıt halkının yanına kaçtığını ve orada öldüğünü yazar. Ölüm tarihi kesin değildir.", ic_not_d:"kaynak yıl vermez",
   kaynak:"kucum-han (TDV) — tarih YAKLAŞIK ve kaynak kesin gün vermiyor, 'kısa bir zaman sonra' diyor" },
 
@@ -608,7 +608,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["kazak-hanligi"], t:"1465-01-02", b:"Ebülhayr'a tâbi olmayan boylar Çu ile Talas arasına çekildi — Kazak adı doğdu", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","siyaset","sosyal","konu-siyasi","konu-kisiler","konu-sosyal"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Taraz (Evliya-Ata)", "Balasagun (Ak-Beşim)"],
   d:"Ebülhayr Han'ın (1428-1468) teşkilâtlandırdığı Özbek devletinde, halkını Moğol saldırılarından koruyamayan hükümdarı hükümdar saymadığını bildiren bir grup ayrılıp kuzeye çekildi ve Çu ile Talas nehirleri arasında hâkimiyet kurdu. Kendi başına buyruk, yiğit, bekâr anlamlarına gelen Kazak adıyla anılmaya başlandılar; bu adlandırma etnik değil sosyal bir gerekçeye dayanır.", ic_not_d:"⚠️ Çu-Talas bölgesinin yerleşim kaydı yok, yer_id boş bırakıldı.",
   kaynak:"kazaklar + kazakistan (TDV, madde: kazaklar ve kazakistan — içerik okundu, 2026-08-22)" },
 
@@ -973,7 +973,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1864-01-01", b:"Kırgızlar Rus hâkimiyetine girdi", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","toprak-kayip","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Narın (Naryn)", "Issık Göl havzası", "Oş"],
   d:"Kâşgar'a giren Sâdık Bey 1864'te Ruslara tâbi oldu ve Kırgızların yaşadığı topraklar Rus idaresine geçti. Bu topraklar 1917'ye kadar Türkistan Genel Valiliği'nin Semireçen, Siriderya, Fergana ve Semerkant bölgelerine dahil edildi.",
   kaynak:"kirgizlar (TDV)" },
 
@@ -985,7 +985,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1916-06-25", b:"II. Nikola'nın fermanı Kırgız ayaklanmasını başlattı", tur:"isyan", onem:4, dunya:2, kapsam:"dis",
   etiket:["isyan","askeri","sosyal","konu-askeri","konu-isyan","konu-sosyal"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Issık Göl havzası", "Balasagun (Ak-Beşim)"],
   d:"25 Haziran 1916'da Çar II. Nikola'nın fermanıyla on dokuz-kırk üç yaş arası bütün Kırgız erkekleri cephe gerisinde çalıştırılmak üzere göreve çağrıldı; Kırgızlar ayaklandı ve isyan kısa sürede bütün Türkistan'a yayıldı. Çarlık idaresi olağan üstü hâl ilân edip yüzlerce kişiyi katletti, Kırgızları Çu ve Isık Göl vadilerinden dağlara sürüp 4 milyon hektar toprağa el koydu; halk açlığa mahkûm edildi ve binlerce insan öldü.",
   kaynak:"kirgizlar (TDV)" },
 
@@ -1229,7 +1229,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1890-01-01", b:"Sart Kalmuklar İslâm'a girip Isık Göl civarına yerleşti", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","goc","sosyal","konu-din","konu-sosyal","konu-demografi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Issık Göl havzası"],
   d:"XIX. yüzyılın sonlarında Kalmukların Sünnî Müslümanlığı benimseyen küçük bir kısmı Orta Asya'ya göç etti ve Isık Göl civarına yerleşerek Sart (sert) Kalmuk adıyla tanındı. Bir Budist halkın küçük bir kolunun İslâmlaşması, üç asırlık Kalmuk-Türk mücadelesinin en beklenmedik sonucudur.", ic_not_d:"⚠️ Isık Göl için yerleşim kaydı yok.",
   kaynak:"kalmuklar (TDV) — yıl YAKLAŞIK, kaynak 'XIX. yüzyılın sonlarında' diyor" },
 
@@ -1375,7 +1375,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1856-01-01", b:"Çokan Velihanoğlu MANAS DESTANI'nın bir varyantını derledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["kultur","edebiyat","bilim","konu-bilim","konu-kultur"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Issık Göl havzası", "Narın (Naryn)"],
   d:"Dünyanın en hacimli destanı olan Manas'ı bilim dünyasına ilk duyuran, Cengiz Han soyundan gelen Kazak bilgini Çokan Velihanoğlu'dur; 1856'da Kırgızistan'da yaptığı gezi sırasında destanın bir varyantını derledi. Destanın 840 civarında Yenisey Kırgızlarının Uygur ve Çinlilerle savaşları sırasında oluşmaya başladığı, XVI-XVII. yüzyıllarda Kırgız-Kalmuk savaşlarıyla zenginleştiği kabul edilir.", ic_not_d:"⚠️ Derlemenin yapıldığı yer için birebir yerleşim kaydı yok.",
   kaynak:"manas-destani (TDV, madde: manas-destani — içerik okundu, 2026-08-22)" },
 
