@@ -9728,7 +9728,7 @@ window.DEVLETLER = [
 { id:"mezyedi", ad:"Mezyedîler", tur:"emirlik", bolge:"mezopotamya",
   f:"0997-01-01", t:"1163-01-01", baskent:"Nîl / Câmiayn → Hille (1102)", boya_gerekli:true,
   ic_not_f:"TDV mezyediler: \"Böylece Büveyhîler’in hizmetine giren Senâüddevle Ali b. Mezyed, Bahâüddevle tarafından 387’de (997) muhtemelen Nîl, Fellûce ve Câmiayn’ı içine alan toprakların emîri olarak tanındı.\"",
-  ic_not_t:"TDV mezyediler: \"Bu sırada Mezyedîler’den 4000 kişi öldürüldü (558/1163)\"; TDV mustencid-billah: \"Batîha ve çevresi yardımlarından ötürü İbn Ma‘rûf’a verildi (558/1163).\" Hicrî 558 = Aralık 1162-Kasım 1163; TDV 1163 yazıyor. Not: 545-558 (1150-1163) arası TDV tablosu \"Selçuklu ve Abbâsî hâkimiyeti altında\" der — Hille 1150'de Sâlârkerd'e, 1156'da Sultan Muhammed'in kumandanlarına geçti.",
+  ic_not_t:"TDV mezyediler: \"Bu sırada Mezyedîler’den 4000 kişi öldürüldü (558/1163)\"; TDV mustencid-billah: \"Batîha ve çevresi yardımlarından ötürü İbn Ma‘rûf’a verildi (558/1163).\" Hicrî 558 = Aralık 1162-Kasım 1163; TDV 1163 yazıyor. Not: 545-558 (1150-1163) arası TDV `mezyediler` maddesinin emîrler tablosu \"Selçuklu ve Abbâsî hâkimiyeti altında\" der (tablo `mustencid-billah`ta değil `mezyediler`dedir — UMIT-W49 6 Ekim 2026) — Hille 1150'de Sâlârkerd'e, 1156'da Sultan Muhammed'in kumandanlarına geçti.",
   ozet:"Benî Esed'in Nâşire koluna mensup, Merkezî Irak'ta (Hille) hüküm süren Şiî Arap emirliği. Büveyhî ve Selçuklu dönemlerinde yarı bağımsız kaldı; I. Sadaka zamanında Vâsıt, Basra ve Tikrît'e yayıldı; 1163'te Halife Müstencid'in birlikleri Hille'yi alarak hânedanı ortadan kaldırdı.",
   kaynak:"TDV: mezyediler (MEZYEDÎLER); mustencid-billah",
   kronoloji:[
