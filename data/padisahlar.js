@@ -1,14 +1,15 @@
 // Osmanlı padişahları — saltanat aralıkları (YYYY-AA hassasiyetinde, ay yaklaşık)
 // Portre görseli: assets/portreler/<id>.jpg (yoksa baş harfli rozet gösterilir)
 window.PADISAHLAR = [
-  { id: "osman1",      ad: "Osman Gazi (I. Osman)",        from: "1299-01", to: "1326-04",
+  { id: "osman1",      ad: "Osman Gazi (I. Osman)",        from: "1299-01", to: "1324-03",
+    ic_not_to:"eski: 1326-04 = Bursa'nın teslimi (TDV orhan: \"2 Cemâziyelevvel 726 / 6 Nisan 1326\"), saltanat devri DEĞİL. TDV orhan: \"Orhan'ın beyliğe geliş tarihi Rebîülevvel 724'tür (Mart 1324).\" · osman-i künye \"(1302-1324)\". Gün yok, AY var (Rebîülevvel 724 ≈ 27 Şubat–27 Mart 1324 Jülyen) — UMIT-W4-DALGA3-1006",
     dogum:"1257 (dolayı, kesin değil)",
     olum:"1324", ic_not_olum:"eski: 1324-08-01 — ay/gün hiçbir TDV cümlesinde yok ve TDV orhan'ın beyliğe geliş tarihinden (Rebîülevvel 724 / Mart 1324) SONRAYA düşüyordu. TDV osman-i: \"Osman 724'te (1324) ölmüştür\" · orhan: Asporça vakfiyesi (Ramazan 723 / Eylül 1323) ile Rebîülevvel 724 (Mart 1324) arası. Yalnız yıl yazıldı (D210/D213) — UMIT-W4-DALGA2-1006",
     olum_yer:"Bursa yakını",
     olum_sebep:"hastalık (nikris/gut, Osmanlı rivayetine göre)",
     baba:"Ertuğrul Gazi",
     tahta:"1299 (dolayı)",
-    saltanat_yil:27,
+    saltanat_yil:25, ic_not_saltanat_yil:"TDV `osman-i` \"yirmi yedi yıl\" der; bu süre ~1297 tahta çıkışı gerektirir, kayıt \"1299 (dolayı)\" diyor — ÇELİŞKİ BEYANLI, çözülmedi. `saltanat_yil` türetilmiş alandır (ölçüldü: eski 27 = 1326 − 1299), `to:` düzeltilince 25'tir. ‖ eski: 27 — TDV osman-i \"Osmanlı rivayetine göre … yirmi yedi yıl hükümdarlık yapmıştı\" (RİVAYET sayısı). Dosya saltanat_yil'ı kaydın kendi from/to'sundan yazar (P3 kuralı): 1299-01 → 1324-03 = 25,2. TDV künyesi (1302-1324) ile 22 olurdu; from:1299-01 bu yamada DEĞİŞMEDİ",
     lakap:["Gazi"],
     esler:["Mal Hatun (Şeyh Edebâli'nin kızı)"],
     cocuk:{oglan:2},
@@ -28,7 +29,8 @@ window.PADISAHLAR = [
     + "anlatıları çağdaş kaynaklarla (Pachymeres) karşılaştırıp "
     + "güvenilirliklerini sorgular.",
     kaynak:"TDV: osman-i" },
-  { id: "orhan",       ad: "Orhan Gazi",                   from: "1326-04", to: "1362-03",
+  { id: "orhan",       ad: "Orhan Gazi",                   from: "1324-03", to: "1362-03",
+    ic_not_from:"eski: 1326-04 — Bursa'nın teslimiyle (6 Nisan 1326) karıştırılmıştı. TDV orhan: \"Orhan'ın beyliğe geliş tarihi Rebîülevvel 724'tür (Mart 1324).\" · künye \"(1324-1362)\" — UMIT-W4-DALGA3-1006",
     dogum:"1281 dolayı", ic_not_dogum:"çıkarılan: (TDV'de müstakil madde yok, tarih akademik icmâ)",
     dogum_yer:"Söğüt",
     olum:"1362-03-01",
@@ -36,8 +38,8 @@ window.PADISAHLAR = [
     olum_sebep:"kaynaklarda yaşlılıkla vefat dışında ayrıntı yok", ic_not_olum_sebep:"eski: bulunamadı — kaynaklarda yaşlılıkla vefat dışında ayrıntı yok",
     baba:"Osman Gazi",
     anne:"Mal Hatun",
-    tahta:"1326-04 (Bursa'nın fethiyle örtüşür)",
-    saltanat_yil:36,
+    tahta:"1324-03 (Rebîülevvel 724 — TDV orhan: \"Mart 1324\")", ic_not_tahta:"eski: 1326-04 (Bursa'nın fethiyle örtüşür)",
+    saltanat_yil:38, ic_not_saltanat_yil:"eski: 36 (1326-04'ten sayılmıştı); 1324-03 → 1362-03 = 38,0 · TDV künye (1324-1362)",
     lakap:["Gazi"],
     esler:["Nilüfer Hatun (Bizanslı, Murad I'in annesi)","Theodora (Bizans prensesi, siyasi evlilik)"],
     cocuk:{oglan:5},
