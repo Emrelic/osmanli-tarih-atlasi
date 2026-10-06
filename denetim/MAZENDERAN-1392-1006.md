@@ -161,9 +161,9 @@ Motor tuzuna dokunmuyor.
 
 ## 5. YAN BULGULAR (soru dışı, diff YOK)
 - `data/yer_yama_zend_kacar.js:138-143`: aynı dört noktanın tam `s:` zincirleri burada da
-  duruyor. Bu dosya `GIRDI_DOSYALARI`nda yok ve ona başvuran bir dosya bulunamadı (grep 0).
-  Uygulanmış eski bir yama gibi görünüyor. Yeniden koşturulursa 1392 düzeltmesini sessizce
-  geri alır — ÖLÇÜLMEDİ, işaret ediliyor.
+  duruyor. ⚠️ **"Tüketici bulunamadı" hükmü YANLIŞTI — §7.2'de düzeltildi:**
+  `arac/_sahiplik_uygula.py` bu dosyayı okuyor ve `--yaz` ile koşturulursa E'yi geri alıyor
+  (ölçüldü).
 - Iranica kendi içinde gerilimde: İskender Şeyhî'nin isyanı `ĀL-E AFRĀSĪĀB`a göre "at
   Āmol", `BADUSPANIDS`e göre "fortress of Fīrūzkūh … ca. 804/1402". 1399-1402 arasında
   Âmül'ün kısa süreli isyan sahipliği kodlanmadı. Bir yıldan kısa ve yeri belirsiz olduğu
@@ -174,3 +174,76 @@ Motor tuzuna dokunmuyor.
 - `denetim/MAZENDERAN-1392-1006-KOORD.diff` (E + 3 senkron maddesi, UYGULANMADI)
 - `denetim/MAZENDERAN-1392-1006-tdv/` — `marasiler` · `marasi-zahiruddin` · `sahruh` ·
   `taberistan` · `sari` (yanlış madde, tuzak kanıtı) gövdeleri
+
+---
+
+## 7. EK — İKİNCİ GÖREV (6 Ekim 2026, akşam): 1392 maddesinin TÜRÜ + yamanın tüketicisi
+Koordinatör kararı (UMIT İRTİBAT iletti): **E ONAYLANDI**, C reddedildi.
+Ağaç: `C:\atlas-p84-maztur` (detached, `origin/makine/umit` @ `3ec79a5f`), teslimden sonra
+kaldırıldı. Motor tuzu dosyalarına dokunulmadı.
+
+### 7.1 `devletler.js:654` — `tur:"vassal"` → `tur:"toprak-kayip"`
+**Ölçüm — app.js tür değerini nerede okuyor:** `js/suzgec.js:259` `TUR_GRUP` sözlüğü,
+`maddeGrubu()` içinden (`:84-90`). app.js künye kronolojisini bu süzgeçten geçiriyor.
+Gerçek işlev node ile çağrıldı:
+```
+vassal       → siyasi
+toprak-kayip → askeri
+surgun       → diger   (tanınmayan değer)
+yokdeger     → diger
+```
+**D225 sorusu — süzgeç tanımadığını sessizce ELER mi?** ELEMİYOR: `diger` grubuna düşürüyor
+ve madde görünür kalıyor. 🟡 **AMA SAYMIYOR da:** `bilinmeyenler()` (`suzgec.js:133-140`)
+yalnız `k:` alanına bakıyor. Tanınmayan bir `tur:` için `{}` döndü (ölçüldü). `:254`teki
+yorumun *"Yeni bir değer girerse `diger`e düşer — sessiz kaybolmaz (`bilinmeyenler`)"*
+cümlesinin ikinci yarısı `tur:` için doğru değil: değer kaybolmuyor ama sayılmıyor da.
+⇒ Tür seçimi, sözlükte VAR olan bir değerle sınırlandı.
+
+**Seçim: `toprak-kayip`.** Gerekçeleri:
+- Künyede 184 kullanımı var.
+- Kaynak, hanedanın bu tarihte toprağının tamamını kaybettiğini söylüyor: TDV
+  `taberistan` "sürgüne gönderdi", Iranica "deposed … deported".
+- Elenen adaylar:
+  - `yikilis` / `son`: hanedan 1413'te geri döndü; `son` zaten 1596'da duruyor.
+  - `isgal` (100 kullanım): kaynak geçici bir işgal değil, bir vali atanması anlatıyor.
+  - `vassal`: tâbilik değildi, iktidardan düşürülme ve sürgündü.
+- Konu grubu `siyasi` → `askeri` oldu: süzgeçte madde "Askerî" altına geçiyor.
+
+**Diff:** `denetim/MAZENDERAN-1392-1006-TUR.diff`. Tek satır değişiyor. `devletler.js` bir
+`-text` dosyası ve CRLF; diff `--binary` ile alındı ve CRLF korundu (diff içinde 8 CR).
+`git apply --check` TEMİZ @ `3ec79a5f`. `node --check data/devletler.js` TEMİZ.
+UYGULANMADI.
+**denetle.py önce/sonra:** ikisi de çıkış 2 (sebep yine `devletler_harita.js` yok, D8
+ölçülemedi). Tek fark, bir sayım tablosunda `adal` satırının sırası: içerik aynı, sıralama
+gürültüsü. ⇒ **etki 0.**
+⚠️ `data/paket_05.js:673` aynı kaydı `tur:"vassal"` ile taşıyor. Bu üretilmiş bir dosya
+(KOORDİNATÖR); diff ona dokunmadı. Yeniden üretimde eşitlenmesi gerekir.
+
+### 7.2 `yer_yama_zend_kacar.js` — tüketicisi VAR (ilk raporun §5'i YANLIŞTI)
+**Tek satır sonuç:** `window.YER_YAMA_ZEND_KACAR` değişkenini adıyla okuyan bir dosya yok
+(`index.html`, `girdi.GIRDI_DOSYALARI`, `app.js` → 0). **Ama `arac/_sahiplik_uygula.py:66`
+`data/yer_yama*.js` dosyalarının tamamını glob'la okuyup içlerindeki bütün `window.*`
+dizilerini uyguluyor** ⇒ dosyanın tüketicisi var.
+📌 İlk raporda "tüketicisi bulunamadı" yazmıştım: dosya ADIYLA aramıştım, değişken adıyla
+ve desenle aramamıştım. `OLCUM-KITA §9`un tarif ettiği hata buydu.
+
+**Ölçüm — E uygulanınca bu alet ne yapar** (kuru koşu, `--yaz` YOK, hiçbir şey yazılmadı):
+| durum | uygulandi | zaten-boyle | 4 nokta |
+|---|---|---|---|
+| temel | 177 | 759 | listede yok |
+| **E uygulanmış** | **181** | **755** | **Sârî · Âmül · Bârfurûş · Eşref "İNEN"** ⇒ `--yaz` E'yi SESSİZCE GERİ ALIR |
+| E + yama diff'i | 177 | 759 | listede yok ✓ |
+
+**Diff:** `denetim/MAZENDERAN-1392-1006-KOORD-YAMA.diff`. Dört yama kaydının `s:` zinciri
+`yerlesimler.js`teki E zincirine birebir eşitlendi (BEYAN `kaynak:` dâhil). CR 0.
+`node --check` TEMİZ. `git apply --check` TEMİZ @ `3ec79a5f`. UYGULANMADI.
+🔴 **`§3.4 ②`nin aynı mantığıyla bu diff KOORD.diff ile AYNI commit'te inmeli.** Ayrı inerse
+arada koşturulacak bir `_sahiplik_uygula.py --yaz` düzeltmeyi geri alır. Yama dosyası
+`GIRDI_DOSYALARI`nda olmadığı için `denetle.py` bunu görmez (ölçüldü: etki 0).
+📌 Bu yalnız bu kalemin sorunu değil: içinde tam `s:` zinciri taşıyan ve zaten uygulanmış her
+`yer_yama*.js` kaydı, aynı yerleşime sonradan yapılan her düzeltme için bir geri alma
+tuzağıdır. Bu sınıfın sayısı ÖLÇÜLMEDİ.
+
+### 7.3 Dosyalar (ek)
+- `denetim/MAZENDERAN-1392-1006-TUR.diff` (devletler.js, UMIT partisi)
+- `denetim/MAZENDERAN-1392-1006-KOORD-YAMA.diff` (yer_yama_zend_kacar.js, KOORDİNATÖR)

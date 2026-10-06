@@ -1,0 +1,70 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index b809c618..40e279c8 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -7538,6 +7538,9 @@ def _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t, engel=None):
+ 
+ 
+ asama("Dönemler kuruluyor (delta yapısı)")
++# H0016-BINME-MOTOR-1006 — Osmanlı gövdesinden komşu peteği çıkarma (aşağıda).
++OSM_KOMSU_CIKAR = os.environ.get("MOTOR_OSM_KOMSU_CIKAR_KAPALI") != "1"
++_OSM_KOMSU_SAYAC = {"donem": 0, "kesilen_birim2": 0.0, "en_buyuk": (0.0, None)}
+ # İki katman:
+ #   DOĞRUDAN (o)  : merkezden yönetilen toprak — koyu kırmızı
+ #   TÂBİ     (v)  : hâkimiyetin dolaylı olduğu toprak (muhtar valilik, tâbi
+@@ -7664,6 +7667,41 @@ for i in range(len(tarihler) - 1):
+         g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t, engel=_engel)
+         if _ok:
+             _ONB_GEO.yaz("osm", _ok, (g, gt))
++    # ═══ 🆕 H0016-BINME-MOTOR-1006 — GOVDE-CAKISMA-0079'un OSMANLI AYAĞI ═══
++    # KUSUR (ölçüldü, denetim/P84-ROTUS-TASARIM-1006.md §3 · Emre 0084/H-0016):
++    # Tırhala batısı/güneyi 1396-1428, Osmanlı ∩ Bizans 1.245-1.343 km² — iki
++    # büyük lob %100 Arta/Yanya (Bizans) peteğinde. `kapat()` binmenin %84'ünü
++    # birebir üretiyor; ama yutulan bileşenlerde yabancı NOKTA 0 olduğu için
++    # PAKET-0083-B'nin nokta ölçütü (`engel`) burada HİÇ devreye girmiyor
++    # (0083-B'nin kendi "bilinen sınır (b)"si). Yabancı gövdelerde aynı sınıf
++    # koşu 16'dan beri `_komsu_toprak_cikar` ile PETEK bazında kapalı; kendi
++    # notu "Osmanlı/tâbi/himaye gövdeleri bu yamada yok" diyordu — boşluk buydu.
++    # ÇARE: aynı işlev, aynı sahiplik kuralı (`_gun_sahipleri`), `did="OSMANLI"`:
++    # o gün BAŞKA sahibi olan yerleşimlerin peteği doğrudan VE tâbi gövdeden
++    # çıkarılır. `aktif` (kendi petekleri + dolgu) ASLA çıkarılmaz; SAHİPSİZ
++    # petek çıkarılmaz ⇒ `kapat`ın varlık sebebi (1299 İnegöl köprüsü) korunur.
++    # 📌 ÖNBELLEK DEĞİŞMEDİ: yabancı yoldaki gibi önbellekten SONRA uygulanır;
++    #    anahtar komşu sahipliğini okumaz, çıkarma her koşuda taze hesaplanır.
++    # ⚠️ BİLİNEN BEDEL ① ZAMAN KESİTİ: Osmanlı dönemi yalnız KENDİ anahtarı
++    #    değişince kırılır; komşu dönem ortasında sahip değiştirirse çıkarma
++    #    dönemin ilk gününe göre kalır (yabancı yolla aynı bedel).
++    #    ② YENİ BEYAZ: yabancı sahibi olan ama yabancı gövdenin BOYAMADIĞI
++    #    (puan kapısı kesmiş / boyasız kimlik) petek artık Osmanlı'ca da
++    #    boyanmaz. Bu bir delik değil, yanlış iddianın geri çekilmesidir;
++    #    yine de sayılır ve basılır (aşağıdaki sayaç, `D206` ters yön).
++    # Kapatma anahtarı: MOTOR_OSM_KOMSU_CIKAR_KAPALI=1 ⇒ eski davranış bit-bit.
++    if OSM_KOMSU_CIKAR:
++        _o_once = (g.area if g is not None else 0.0) + (gt.area if gt is not None else 0.0)
++        if g is not None and not g.is_empty:
++            g = _komsu_toprak_cikar("OSMANLI", aktif, a, g)
++        if gt is not None and not gt.is_empty:
++            gt = _komsu_toprak_cikar("OSMANLI", aktif, a, gt)
++        _o_kes = _o_once - ((g.area if g is not None else 0.0) + (gt.area if gt is not None else 0.0))
++        if _o_kes > 1e-9:
++            _OSM_KOMSU_SAYAC["donem"] += 1
++            _OSM_KOMSU_SAYAC["kesilen_birim2"] += _o_kes
++            if _o_kes > _OSM_KOMSU_SAYAC["en_buyuk"][0]:
++                _OSM_KOMSU_SAYAC["en_buyuk"] = (_o_kes, a)
+     kaplam = unary_union([g, gt]) if gt is not None else g
+     x0, y0, x1, y1 = kaplam.bounds
+     # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
+@@ -7819,6 +7857,13 @@ else:
+ print(f"  kapama engeli (başka devletin yerleşimi): {_B1_SAYAC['kapat_engel']} bileşen "
+       f"YUTULMADI · {len(_B1_SAYAC['kapat_engel_ad'])} ad: "
+       f"{', '.join(sorted(_B1_SAYAC['kapat_engel_ad'])[:20])}")
++# H0016-BINME-MOTOR-1006 — boş kova da BASILIR. Öngörü (6 Eki 2026, yama ÖNCESİ
++# yayın çıktısından): dönem sayısı > 0 olmalı ve Tırhala batısı (1396-1428)
++# kesitlerinde Osmanlı∩Bizans ≥%95 düşmeli; 0 dönem çıkarsa yama ÇALIŞMIYOR.
++print(f"  🧱 H0016 Osmanlı gövdesinden komşu toprağı çıkarıldı: "
++      f"{'KAPALI (MOTOR_OSM_KOMSU_CIKAR_KAPALI=1)' if not OSM_KOMSU_CIKAR else ''}"
++      f"{_OSM_KOMSU_SAYAC['donem']} dönem · {_OSM_KOMSU_SAYAC['kesilen_birim2']:,.2f} birim² · "
++      f"en büyük {_OSM_KOMSU_SAYAC['en_buyuk'][0]:,.3f} birim² @ {_OSM_KOMSU_SAYAC['en_buyuk'][1]}")
+ 
+ # Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
+ # Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)

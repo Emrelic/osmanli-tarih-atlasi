@@ -159,6 +159,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak","baskent","konu-askeri","konu-idari"],
   yer_id:"Tebriz",
   d:"790 (1388) yılında Timur'un Azerbaycan'dan çekilmesinin ardından Kara Mehmed Tebriz'e girdi. Tebriz'in ele geçirilmesi Karakoyunlu için bir dönüm noktasıdır: devlet bundan sonra Van gölü havzasında bir beylik değil, Azerbaycan'ın merkezine oturmuş bir hanedan olarak anılacak, Tebriz zamanla başşehir olacaktır.",
+  ic_not_d:"⚠️ ÇELİŞKİ — HARİTA BU MADDEDE DEĞİŞMEZ. TDV `karakoyunlular` 1388 girişini ve bırakılan muhafızı anlatır ama muhafızın süresini vermez; TDV `tebriz` ve Iranica JALAYERIDS ise Tebriz idaresini 1387 Mîrân Şah → 1404 Ömer olarak kesintisiz anlatır. Taraf seçilmedi ve bitiş günü kaynakta olmadığı için Karakoyunlu dönemi haritaya yazılmadı (uydurma olurdu); harita Tebriz'i 1408-04-13 Serdrûd'a kadar timurlu gösterir (TEBRIZ-1388-KARAKOYUNLU-1006 §4 H1).",
   kaynak:"karakoyunlular" },
 
 { t:"1389-04-01", b:"Kara Mehmed öldü", gun:"Rebîülâhir 791 / Nisan 1389 — ay hassasiyeti · ay TDV'de var, gün yok (`karakoyunlular`, `cihan-sah`, `akkoyunlular`)", tur:"hukumdar",

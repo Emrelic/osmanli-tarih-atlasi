@@ -3956,6 +3956,23 @@ BILINEN_AYRI = {
     #    çıkarmaz, yalnız SAYACI kör eder. Beyan burada yapılır.
     ("Danzig Müttefik emanetine geçti: Almanya şehirden vazgeçti",
      "Memel Müttefik emanetine geçti: Almanya bölgeden vazgeçti"),
+    # ⭐ "AYNI GÜN / AYNI ORDU / AYRI ŞEHİR" — 6 Ekim 2026, P84-BRASSO-TEMESVAR.
+    # Temeşvar maddesi inince tavan 95 → 96 oldu; çift YANLIŞ POZİTİF ve sınıfı
+    # listenin BAŞINDAKİ Kielce↔Łódź emsalinin BİREBİR AYNISI: aynı gün, aynı ordu,
+    # AYRI ŞEHİR. Ortak olan yalnız fiil kalıbı ("Sırp ordusu X'i işgal etti").
+    #   Pécs (Peçuy)      → Baranya'nın Sırp işgali   · yer_id Peçuy
+    #   Timișoara (Temeşvar) → Banat'ın Sırp askerî idaresi · yer_id Temeşvar
+    # İki ayrı şehir, iki ayrı bölge, iki ayrı idarî sonuç — aynı gün başlamaları
+    # 1918 Kasım'ındaki TEK BİR ilerleyişin iki ayağı olmasından geliyor.
+    # 🔴 VE BU ÇİFTİ UMIT ÖNCEDEN HABER VERDİ: "mükerrer 95→96 yanlış pozitif riski
+    #    (Peçuy aynı gün) — tavan yükseltilmesin." Haberi aldım ama diff'i uygularken
+    #    İŞLEMEDİM ve kapı öttü. Öngörülmüş bir ihlali önlememek, öngörülmemişinden
+    #    daha ucuz değildir: ikisi de aynı turu yakıyor.
+    # 📌 Ve çifti BULAN şey, bugün UMIT'e yazdırdığım kuraldı: tavan aşılınca TAM
+    #    liste basılır. Eski hâlde yalnız ilk 20 çift basılıyordu ve bu çift 362.
+    #    satırda, yani GÖRÜNMEZDİ. Kuralın indiği gün ilk işini yaptı.
+     ("Sırp ordusu Pécs'i (Peçuy) işgal etti — Baranya'nın Sırp işgali başladı",
+      "Sırp ordusu Timișoara'yı (Temeşvar) işgal etti — Banat'ın Sırp askerî idaresi başladı"),
 }
 
 # ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)
