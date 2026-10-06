@@ -303,3 +303,68 @@ ODAK-ASYA'nın 194 karar satırından **51'i** metninde vekil işareti taşıyor
 W36b'deki öneri ("`--uygula`yı koordinatör koşturmalı") bu yüzden GERİ ALINDI. Önce kararlar D257 / `2585791b` ölçütüyle yeniden süzülmeli. Sayım metin işaretinden yapıldı, karar karar doğrulanmadı.
 
 Uygulayıcı onarımı (1006b) yine geçerli: koşturulduğunda sessiz silme yapmıyor ve ölçemezse duruyor. Sorun koşturup koşturmamak, kodda değil.
+
+---
+
+## EK · W36d (6 Ekim 2026) — D257 süzmesi · tahta hükmü · MANDA işareti
+
+**Temel commit:** `origin/main` = `481b0482`.
+- 1006 ve 1006b bu temelde ZATEN var (`git apply --check -R` ikisinde de temiz). `TAHTA-GIT-YARIM-1006.diff` henüz yok.
+- `data/` bu temelde `origin/main` ile aynı.
+- Çıktılar:
+  - [`ODAK-ASYA-SUZME-1006.diff`](ODAK-ASYA-SUZME-1006.diff): `denetim/ODAK-ASYA-0080-uygula.py` + yeni `denetim/ODAK-ASYA-SUZME-1006.tsv`, 196 madde.
+  - [`MANDA-EMEKLI-1006.diff`](MANDA-EMEKLI-1006.diff): 2 dosya, 3 satır.
+  - İkisinde de `-R` temiz. **UYGULANMADI.**
+
+### ① ODAK-ASYA — D257 ölçütüyle yeniden süzme
+
+**Ölçüt** (`dersler/D257` + `2585791b`): vekil = *hedef yer havuzda yok ve onun yerine BAŞKA bir şehir yazılmış* ("kapı ötmesin diye komşu şehir"). Hüküm: *odaksız bırakmak > yanlış şehre bırakmak*.
+
+**W36c'deki "41 vekil" sayımım ölçüt değil METİN İŞARETİYDİ ve şişkindi.** "havuz noktalarına" ifadesi bütün sınır kesimi gerekçelerinde geçiyor; bölge temsilleri de aynı kelimeleri taşıyor. Karar karar okununca 51 işaretli kararın gerçek dağılımı:
+- 5 VEKIL-NOKTA
+- 26 bölge temsili ve 49 sınır kesimi işaretli olanlarla birlikte ayrıştı
+- C'deki 9 işaretli karar devletin kendi kimliği; şehir vekili değil.
+
+| kova | adet | ne | D257'ye göre |
+|---|---|---|---|
+| **VEKIL-NOKTA** | **5** | belirli bir yer havuzda yok, yerine BAŞKA nokta: Singhasari→Malang · Pekan Tua→Johor · Mey-Tuble→Balasagun · Anandpur→Lahor+Amritsar (kutu Anandpur'u içine almıyor) · Kunduzca→Samara | **ODAK YAZILMAZ.** Diff bunu uyguluyor: yalnız `kapsam_genis` kalkıyor, kamera Osmanlı'ya uçmak yerine duruyor |
+| **AK-YAKLASIK** | **10** | gerçek yerin yaklaşık koordinatı (`yer_kon`), vekil değil | AYRI kova, hüküm koordinatörde. 🔴 Yedekleri (`--konsuz`) **10/10 VEKİL** (Fetihpûr Sikri→Agra · Buksar→Patna · Göktepe→Krasnovodsk+Serahs…) ⇒ `--konsuz` artık REDDEDİLİYOR (çıkış 2). Kovanın tamamı `--kova-atla AK-YAKLASIK` ile dışarıda bırakılabilir |
+| B-BOLGE-TEMSIL | 26 | metindeki BÖLGE kendi havuz noktalarıyla çerçeveleniyor (Pencap→Lahor+Amritsar · Bengal→Gaur · Dekken→3 nokta · orta Çin…) | vekil değil: kutu bölgeyi içine alıyor. Koordinatör farklı düşünürse `--kova-atla B-BOLGE-TEMSIL` |
+| B-SINIR-YAKA | 49 | sınır kesimi: kutu hattın iki yakasındaki gerçek noktalardan kuruluyor; 5'inde ara nokta havuzda yok ama kutunun İÇİNDE (Kiahta, Kumaon, Dhundwa, Sikkim, Simla/Assam) | vekil değil |
+| B-GERCEK | 30 | ad maddenin kendi metnindeki yer (15'i yazım farkı: Mültan/Multan · Bîder/Bîdar · Leknevtî/Gaur…) | yazılır |
+| A-GERCEK | 21 | `yer_id`, gerçek yer (7'si yazım farkı) | yazılır |
+| C-KIMLIK | 51 | devletin kendi toprağı (`odak_kimlik`) | yazılır |
+| E-ODAKSIZ | 4 | zaten odak yazılmıyor | — |
+
+- Kod (`kova()`) ile elle kurulan sınıflandırma **196/196 aynı**.
+- Madde madde liste `denetim/ODAK-ASYA-SUZME-1006.tsv`de. Sütunlar: dosya · t · başlık öneki · sınıf · kova · yazılacak alan · W37 aynı olay.
+- ⚠️ VEKIL-NOKTA sınırı bir yargı. D257 "komşu şehir"e mesafe eşiği vermiyor. Singhasari ile Malang çok yakın olabilir; mesafeyi kaynaklı koordinatla ölçmedim. Kova kararı koordinatörün.
+
+**Kuru koşu** (onarılmış uygulayıcı, `--uygula` YOK; `data/` temiz):
+```
+varsayılan         değişen 186 · zaten böyle 8 · eski tutmuyor 2 · şartı sağlamadı 0
+  KOVA  A 19 · AK 10 · BÖLGE 26 · B-GERÇEK 29 · SINIR 49 · C 50 · E 1 · VEKİL-NOKTA 2
+  app.js  ODAKSIZ 55 → 9 · BEYANLI 137 → 0      (W36b: 189 değişen, ODAKSIZ → 4)
+--kova-atla AK-YAKLASIK,B-BOLGE-TEMSIL   değişen 150 · ODAKSIZ → 29 · BEYANLI → 16
+--konsuz           REDDEDİLDİ, çıkış 2
+--kova-atla YOK    bilinmeyen kova, çıkış 2
+```
+VEKIL-NOKTA'nın 2'sinde yalnız `kapsam_genis` kalkıyor. Öteki 3'ü zaten `kapsam_genis` taşımadığı için "zaten böyle" sayılıp dokunulmuyor; ODAKSIZ kalıyorlar.
+
+**W37 (KRONOLOJI-COK) ile çakışma:**
+- Dosya düzeyinde **ortak dosya 0**: ODAK-ASYA 8 dosya (`kronoloji_sinir_asya/cin/orta_asya/ozbek/hindistan/guney_asya/japonya/timurlu`), W37'ninkiler `kronoloji_cok_*` (56 dosya, 3084 madde). Yazım çakışması imkânsız.
+- Ama **aynı olayı anlatan 4 madde** var. Önce aynı yıl + ≥2 ortak özel kelime (47 aday) ile süzüldü, sonra elle okundu:
+  - `sinir_asya` 1858-05-28 Aigun ↔ `cok_rusya` 1858-05-28 (W37 tarafı odaklı)
+  - `ozbek` 1538 Ubeydullah Han ↔ `cok_ince_misir_orta_asya` 1538 (odaklı)
+  - `ozbek` 1645 Ebulgazi ↔ `cok_ince_misir_orta_asya` 1645 (odaklı)
+  - `sinir_asya` 1370 Melik Ahmed Handeş ↔ `cok_orta_asya2` 1370 Malik Raja/Farukîler (W37 tarafı **ODAKSIZ** — W37 buna odak yazarsa ODAK-ASYA'nın BÖLGE kararıyla (Asîrgarh+Burhânpûr) tutarlı olmalı)
+- 4'ü TSV'nin son sütununda. W37 ODAK-ASYA'nın 8 dosyasına dokunmuyorsa liste karşılıklı ayrık.
+
+### ② tahta.py → GENİŞLETİLMİŞ imza seti iner
+Koordinatör hükmü: *yanlış SÜRÜYOR güvenli, yanlış YOK güvensiz.* `TAHTA-GIT-YARIM-1006.diff` olduğu gibi geçerli. Ek iş yok.
+
+### ③ MANDA → emekli, SİLİNMEZ, atıflar işaretlendi
+- `oturumlar/` kök değil, bu yüzden doğrudan diff yazıldı:
+  - `ORTADOGU-1923.md:72` → "⚪ EMEKLİ SINAV, EMSAL OLARAK KORUNUYOR (… koşturma, kalıp olarak oku)"
+  - `ORTADOGU-1923.md:132` · `YONTEM-1923-SINIR.md:95` → "(⚪ emekli sınav, emsal olarak korunuyor — W36)"
+- 🟡 Yan bulgu (dokunulmadı): `ORTADOGU-1923.md:71` hâlâ `denetim/yer_yama_manda_0906.js` diyor. Dosya `415d18ac` ile `data/`ya taşındı.

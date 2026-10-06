@@ -118,3 +118,30 @@ Kalan 14 betiğin çıktısı bayt bayt aynı (CR normalize).
   ⇒ LEGO-ayikla, argümanla koşturulsa bile yardımcı üzerinden canlıdan OKUR.
 - `denetim/*.py` içinde `C:\atlas` taşıyan dosya: **184** (bu işin 17'si hariç değil, kaba sayım).
 - ZAMAN-AŞIMI betiğinin 300 sn sonrası davranışı: ölçülmedi.
+
+---
+# 1006b — TUZ çaresi + 5 yardımcı modül (`denetim/SINAV-MUTLAK-YOL-1006b.diff`)
+Taban `origin/main` = `481b0482` (ilk diff `ec819dd3` ile ZATEN mainde; 1b ondan BAĞIMSIZ, tek başına uygulanır). Hiçbir ağaçta UYGULANMADI (koşu 20).
+## ÖNGÖRÜ (koşudan önce)
+- TUZ yeni (rb/wb): `GECTI`, `girdi.py`+`girdi_listesi.py` sha256 önce = sonra. TUZ eski: `KALDI`, iki dosyanın sha'sı DEĞİŞİR (CRLF→LF), LF-normalize içerik eşit.
+- 5 yardımcı: önce (kökü worktree'ye çevrilmiş asıl) / sonra çıkış kodu ve çıktı AYNI; `YERLESIM-UYGULA --yaz` iki sürümde `data/`da AYNI farkı üretir.
+## ÖLÇÜM (1006b)
+Diff: 6 dosya, +15 −14; `git apply --check --cached` `481b0482` üstünde temiz. Grep `C:[/\]atlas` 6 dosyada **0**.
+**TUZ iki yönde (atılabilir `C:\atlas-w35b`):**
+```
+başta          girdi.py b110d7a82985e629 · girdi_listesi.py a06b5f557a6848d2
+ESKİ (main)    KALDI 🔴 "DOSYALAR BOZUK" · sonra 3dfcff1c53584b62 · edb9634d40ff5089  ← sha DEĞİŞTİ (CRLF→LF)
+YENİ (rb/wb)   GECTI ✅ "baslangicla ayni"  · sonra b110d7a82985e629 · a06b5f557a6848d2  ← sha AYNI, git status arac/ 0
+```
+**5 yardımcı, eski (kökü worktree'ye çevrilmiş asıl) / yeni:**
+| modül | arg | eski | yeni | çıktı | yan etki (`git diff` sha) |
+|---|---|---|---|---|---|
+| ARAC-SERHAT-CIFT-0907 | — | 0 | 0 | AYNI | md+json, iki sürümde aynı fark |
+| ARAC-YERLESIM-UYGULA-0930 | kuru | 0 | 0 | AYNI | yok |
+| ARAC-YERLESIM-UYGULA-0930 | `--yaz` | 0 | 0 | AYNI | `data/` 3 dosya, iki sürümde AYNI fark (`0de1433a01d8`) ⇒ `--yaz` davranışı değişmedi |
+| EKOKUMA-0076-B-capa | 1896 1915 | 0 | 0 | AYNI (391 eşleşme) | yok |
+| ARAC-LEGO-karo-olc | — | 1 | 1 | AYNI | `sys.argv[1]` ister; argümanlı davranış ÖLÇÜLMEDİ |
+| ARAC-LEGO-karo-puan | — | 1 | 1 | AYNI | aynı (olc'u içe alırken düşüyor) |
+`C:\atlas` `git status --porcelain` iş başı = iş sonu (AYNI). Worktree kaldırıldı.
+⚠️ Kalan: `ARAC-SERHAT-CIFT-0907.py`'nin varsayılan `CIKTI`sı cwd'ye göreli (mutlak değil, dokunulmadı — çıktı metni değişmesin diye); kökten koşulmazsa başka dizine yazar.
+📌 Yan gözlem (iş dışı): `YERLESIM-UYGULA --yaz` bugünkü main'de `data/` altında hâlâ 3 dosyayı değiştiriyor — birleştirme ya uygulanmamış ya da yalnız satır sonu; ÖLÇÜLMEDİ.

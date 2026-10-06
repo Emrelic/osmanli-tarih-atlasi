@@ -1,0 +1,35 @@
+diff --git a/oturumlar/ORTADOGU-1923.md b/oturumlar/ORTADOGU-1923.md
+index 66b01bc6..7848d6d8 100644
+--- a/oturumlar/ORTADOGU-1923.md
++++ b/oturumlar/ORTADOGU-1923.md
+@@ -69,7 +69,7 @@ Koordinatör bu bölgenin bir kısmını zaten işledi. **Yeniden yapma, oku:**
+ denetim/OLCUM-1923-BULGARISTAN-SURIYE-0906.md   bulgu
+ denetim/HUKUM-MANDA-KIMLIK-0906.md              hüküm (③ ÇÜRÜDÜ, damgalı)
+ denetim/yer_yama_manda_0906.js                  58 nokta · SINAVDAN GEÇTİ
+-denetim/ARAC-MANDA-SINAV-0906.js                sınavı
++denetim/ARAC-MANDA-SINAV-0906.js                sınavı · ⚪ EMEKLİ SINAV, EMSAL OLARAK KORUNUYOR (W36, 6 Eki 2026: yama uygulandı, canlı veriden kaydı — koşturma, kalıp olarak oku)
+ denetim/KRONOLOJI-MANDA-0906.json               3 çekirdek maddesi
+ denetim/OLCUM-MANDA-RENK-CAKISMA-0906.md        🔴 RENK KAPISI — oku
+ denetim/OLCUM-ATIL-KUNYE-0906.md                hazır künye listesi
+@@ -129,7 +129,7 @@ Aşağıdaki özet yalnız bir **hatırlatmadır**, yöntemin yerine geçmez:
+             yama 6 dönemin 5'ini SİLİYORDU — Fetret zinciri.)
+ ⑦ SINAV     `d:+v:+s:` BİRLİKTE: zincir kesintisiz mi · künye penceresi
+             tutuyor mu · beklenen sayı çıktı mı. C13: GEÇME + ATEŞLEME.
+-            Emsal: `denetim/ARAC-MANDA-SINAV-0906.js`
++            Emsal: `denetim/ARAC-MANDA-SINAV-0906.js` (⚪ emekli sınav, emsal olarak korunuyor — W36)
+ ```
+ ### 🔴 SEKİZİNCİ KAPI — RENK. Atlanamaz.
+ Yeni bir kimlik sahneye çıkınca **yeni renk çiftleri doğar ve bugün
+diff --git a/oturumlar/YONTEM-1923-SINIR.md b/oturumlar/YONTEM-1923-SINIR.md
+index 68dedc9f..c9b5bb93 100644
+--- a/oturumlar/YONTEM-1923-SINIR.md
++++ b/oturumlar/YONTEM-1923-SINIR.md
+@@ -92,7 +92,7 @@
+ 🔴 `s:` TEK BAŞINA SÜREKLİ DEĞİLDİR — aralığı `d:` doldurur.
+    Bir aleti taklit eden ölçüm onun EŞİĞİNİ ve KOVA YAPISINI da taşır
+    (HAYALET_TOLERANS_GUN=400 · 4s = 4c ∩ 4d, üçü TOPLANMAZ).
+-🟢 Emsal: denetim/ARAC-MANDA-SINAV-0906.js
++🟢 Emsal: denetim/ARAC-MANDA-SINAV-0906.js (⚪ emekli sınav, emsal olarak korunuyor — W36)
+ C13 DÖRT AYAK: ① GEÇME ② ATEŞLEME ③ GİRDİ (gerçek dosyadan)
+               ④ ÇIKTI (cevabı DOĞRU YERDEN okuduğunu göster)
+ ```

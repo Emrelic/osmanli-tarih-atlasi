@@ -1,0 +1,79 @@
+KRONO-TARIH-1006d — 2. tarih turu: Potop 1655-07-21 · Mora 1715-09-07 · Halep 1400-10-30 (UMIT-W28)
+Zincir: ... → 1006c → MUKERRER-SIL-1006b → BU → HANYA-BOL-1006 · temel 78945582
+Değişmez 2: ÖNCE 623 kırılma / 0 açık · SONRA 623 kırılma / 0 açık (2s 187 · 2i 1 · 2t 13 — değişmedi)
+Rapor: denetim/KRONO-TARIH2-1006.md
+
+diff --git a/data/devletler.js b/data/devletler.js
+index 02993ff5..7fc702a0 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -366,7 +366,7 @@ window.DEVLETLER = [
+     { t:"1669-09-27", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi" },
+     { t:"1684-01-01", tur:"toprak-kazanc", b:"Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)" },
+     { t:"1699-01-26", tur:"antlasma", b:"Karlofça ile Mora resmen Venedik'e bağlandı" },
+-    { t:"1715-06-25", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı" },
++    { t:"1715-09-07", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3)", ic_not_b:"eski t: 1715-06-25 — KAYNAKSIZ (06-26 girişine 1 gün yakındı) (KRONO-AKADEMIK-1006)", kaynak:"Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 · TDV `mora`: \"(1127/1715 yazı)\"" },
+     { t:"1797-05-12", tur:"son", b:"Napolyon Cumhuriyet'e son verdi, Campo Formio ile Avusturya'ya bırakıldı" }
+   ]
+ },
+@@ -725,7 +725,7 @@ window.DEVLETLER = [
+     { t:"1569-07-01", tur:"kurulus", b:"Lublin Birliği ile Polonya-Litvanya birleşti" },
+     { t:"1573-05-16", tur:"hukumdar", b:"Henrician Articles kabul edildi, ilk seçimli kral Valois Henri tahta çıktı" },
+     { t:"1620-09-01", tur:"savas", b:"Osmanlı ile Hotin/Ţuţora savaşları başladı" },
+-    { t:"1655-07-01", tur:"isgal", b:"İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi" },
++    { t:"1655-07-21", tur:"isgal", b:"İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi", ic_not_b:"eski t: 1655-07-01 — KAYNAKSIZ (KRONO-AKADEMIK-1006 §1 #1)", kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor" },
+     { t:"1672-10-18", tur:"toprak-kayip", b:"Bucaş Antlaşması — Podolya Osmanlı'ya geçti" },
+     { t:"1683-09-12", tur:"ittifak", b:"Jan Sobieski, II. Viyana kuşatmasını kırdı" },
+     { t:"1699-01-26", tur:"antlasma", b:"Karlofça — Podolya geri alındı" },
+diff --git a/data/kronoloji_lehistan.js b/data/kronoloji_lehistan.js
+index fc20cd62..c5d74af2 100644
+--- a/data/kronoloji_lehistan.js
++++ b/data/kronoloji_lehistan.js
+@@ -290,11 +290,11 @@ window.KRONOLOJI_LEHISTAN = [
+   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
+   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
+ 
+-{ t:"1655-07-25", b:"POTOP — İsveç Tufanı başladı", tur:"isgal",
++{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil) (KRONO-AKADEMIK-1006 §1 #1)", tur:"isgal",
+   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
+   yer_id:"", kapsam_genis:true,
+   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
+-  kaynak:"el-kitabi", yer_kon:[52.9886,16.7211] },
++  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · ⚠️ yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ (KRONO-AKADEMIK-1006)", yer_kon:[52.9886,16.7211] },
+ 
+ { t:"1655-11-18", b:"Jasna Góra savunması — direnişin dönüm noktası", tur:"savas",
+   onem:5, dunya:1, kapsam:"ic", etiket:["savas","isyan","konu-askeri","konu-isyan"],
+diff --git a/data/kronoloji_timurlu.js b/data/kronoloji_timurlu.js
+index 4c45b6b4..883588ec 100644
+--- a/data/kronoloji_timurlu.js
++++ b/data/kronoloji_timurlu.js
+@@ -82,10 +82,10 @@ window.KRONOLOJI_TIMURLU = [
+ // II. YEDİ YILLIK SEFER — SURİYE VE ANADOLU (1400-1404)
+ // ══════════════════════════════════════════════════════════════════
+ 
+-{ t:"1400-10-01", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
++{ t:"1400-10-30", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", gun:"30 Ekim 1400 — meydan savaşı ve şehre giriş (Cengiz 2020); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t 1400-10-01 ay başı yer tutucuydu (KRONO-AKADEMIK-1006 §1 #7)", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
+   etiket:["askeri","toprak-kayip","konu-askeri"],
+   d:"Hindistan seferinden dönen Timur, 'Yedi Yıllık Sefer' adı verilen batı harekâtı kapsamında Suriye'ye girip Halep önünde Memlük ordusunu yendi; şehir üç gün yağmalandı ve kafataslarından kuleler yapıldı. Halep'in düşüşü, Kahire'deki Memlük sarayında paniğe yol açan ilk büyük darbeydi.",
+-  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20) · daha önce künyede (devletler.js) 1400-01-01 \"Halep ve Şam'ı ele geçirdi\" yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #20)" },
++  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20) · daha önce künyede (devletler.js) 1400-01-01 \"Halep ve Şam'ı ele geçirdi\" yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #20) · gün: Ercan Cengiz, \"Timur’un Suriye Seferi\", Kafkas Üniversitesi SBE Dergisi 26 (2020), DOI 10.9775/kausbed.2020.034: \"Memluk kuvvetleri 30 Ekim’de şehrin dışına çıkarak Timur’un ordusuna doğru saldırıya geçtiler\" … \"Timur’un ordusu Halep’e girerek şehri yağmaladı\" — cümleler meydan savaşını ve şehre girişi tarihliyor (KRONO-AKADEMIK-1006)" },
+ 
+ { t:"1401-01-25", b:"Şam'ın teslimi ve İbn Haldûn ile görüşme", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"Şam",
+   etiket:["diplomasi","din","kultur","konu-diplomasi","konu-din","konu-kultur"],
+diff --git a/data/kronoloji_venedik.js b/data/kronoloji_venedik.js
+index 871b9598..7772c280 100644
+--- a/data/kronoloji_venedik.js
++++ b/data/kronoloji_venedik.js
+@@ -478,10 +478,10 @@ window.KRONOLOJI_VENEDIK = [
+   d:"Osmanlı Devleti Mora'yı geri almak için savaş ilan etti. Venedik bu savaşa yalnız girdi; Karlofça'nın kazancını koruyacak ne donanması ne müttefiki vardı.",
+   kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi", yer_id:"İstanbul" },
+ 
+-{ t:"1715-07-01", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
++{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3) · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
+   etiket:["askeri","toprak-kayip","konu-askeri"],
+   d:"Damad Ali Paşa'nın harekâtıyla Osmanlılar bir yaz mevsiminde bütün yarımadayı geri aldı; aynı sefer sırasında Girit'te kalan Suda ve Spinalonga kaleleri de düştü. Karlofça'nın kazancı on altı yılda geri verilmiş oldu.",
+-  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor)" },
++  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 (KRONO-AKADEMIK-1006)" },
+ 
+ { t:"1716-08-20", b:"Korfu savunması — son zafer", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Korfu",
+   etiket:["askeri","kusatma","konu-askeri"],
