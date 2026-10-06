@@ -3,7 +3,7 @@
 window.PADISAHLAR = [
   { id: "osman1",      ad: "Osman Gazi (I. Osman)",        from: "1299-01", to: "1326-04",
     dogum:"1257 (dolayı, kesin değil)",
-    olum:"1324-08-01",
+    olum:"1324", ic_not_olum:"eski: 1324-08-01 — ay/gün hiçbir TDV cümlesinde yok ve TDV orhan'ın beyliğe geliş tarihinden (Rebîülevvel 724 / Mart 1324) SONRAYA düşüyordu. TDV osman-i: \"Osman 724'te (1324) ölmüştür\" · orhan: Asporça vakfiyesi (Ramazan 723 / Eylül 1323) ile Rebîülevvel 724 (Mart 1324) arası. Yalnız yıl yazıldı (D210/D213) — UMIT-W4-DALGA2-1006",
     olum_yer:"Bursa yakını",
     olum_sebep:"hastalık (nikris/gut, Osmanlı rivayetine göre)",
     baba:"Ertuğrul Gazi",
