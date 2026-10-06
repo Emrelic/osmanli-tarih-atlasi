@@ -115,3 +115,56 @@ Toplam 1 + 2 + 10 + 1 + 1 = **15 satır.** Bu satırlar YERKORU defterine koordi
 - `C:\atlas-w33` (temel 481b0482) kaldırılmadan önce `--porcelain`: yalnız ` M data/olaylar_ok109.js`. `C:\atlas-w33b`
   (apply-check ağacı) boştu. İkisi de kaldırıldı; `worktree list`te w33 sayısı 0.
 - `C:\atlas-umit` izlenmeyen: `denetim/UMIT-W33-ISGAL-1006.diff` + `.md`. Commit yok.
+
+---
+
+## EK (UMIT-W33b) — Lvov kararı: (a) denendi, ③ şartı TUTMADI ⇒ (b)
+**Temel:** `c779df9a` (git fetch + origin/main). `--check` temiz: güncel `origin/main` `c31b1d81`.
+**Teslim:** `denetim/UMIT-W33-ISGAL-1006b.diff` öncekinin YERİNE geçer: olaylar_ok109.js, **10 madde**
+(Lvov 1918-11-22 ÇIKTI; dosya 13 → 23 madde). Ayrı öneri: `denetim/UMIT-W33-POLONYA-1006c.diff`
+(1006b'nin ÜSTÜNE 1 madde, uygulanması koordinatörün kararı).
+
+### ① Mükerrer taraması (1918-11-11 ±3 gün, Polonya/Varşova/Piłsudski)
+- `olaylar*.js`: **0** · `kronoloji_lehistan.js`: **0** · `kronoloji_sinir_polonya.js`: **DOSYA YOK**.
+- KUYRUK'ta **2 kopya** var (çekirdekte değil):
+  `kronoloji_cok_lehistan.js` 1918-11-11 "Polonya bağımsızlığını yeniden kazandı" (kaynak: "el-kitabi", yani kaynaksız) ·
+  `kronoloji_cok_senkron_0930.js` 1918-11-11 "Polonya Cumhuriyeti bağımsızlığını kazanır…" (Davies, God's Playground
+  II; dosyanın kendi notu "sayfa açılmadı"). ⇒ Çekirdekte yok; KUYRUK'un içinde de bir mükerrer çift var (bilgi).
+
+### ② Yazılan madde (1006c) ve kaynağı
+`t:"1918-11-11"`, `yer_id:"Varşova"`, "Polonya'nın bağımsızlığı — Naiplik Konseyi ordunun komutasını Piłsudski'ye verdi".
+Kaynak (OKUNDU): Muzeum Józefa Piłsudskiego w Sulejówku (devlet müzesi) — *"On November 11, the Regency Council put
+Piłsudski in charge of the army, and a few days later entrusted him with the task of forming a National Government."*
+⚠️ **Akademik kaynak SAĞLANAMADI:** 1914-1918-online bot korumalı (aşılmadı), Britannica 403 verdi, Polonya
+Enstitüsü zaman aşımına uğradı. **TDV "Polonya"** (K. Beydilli, c. 34, 2007) okundu: devletin yeniden kuruluşunu Versay'a
+(29 Haziran 1919) bağlıyor, 11 Kasım gününü VERMİYOR. Kaynak müze, yani kurumsal. ② şartındaki "akademik" ölçütü
+karşılanmadı; bu `kaynak` alanında "nitelik notu" ile yazılı.
+
+### ③ ÖLÇÜM — üç senaryo (her biri `denetle.py` + 1918-11-11 kovası, `_2s_yeri_aniyor`/`_2s_tarafi_aniyor` ile)
+| senaryo | 2s AÇIK | 2sk YER + TARAF (tavan 1665) | maske | 1918-11-11 kovası (yer sayısı) |
+|---|---|---|---|---|
+| taban (yama yok) | 187 | 1571 + **1665** 🧊 | 1646 | açık · EKSİK 4: Łódź, Częstochowa, Gdansk, Varşova |
+| S1 = 11 madde + Polonya | 186 | 1600 + **1743** ⚠️ | 1543 | kapalı |
+| S2 = 10 madde (Lvov'suz) + Polonya | 186 | 1600 + **1743** ⚠️ | 1543 | kapalı · YER 29 · TARAF 78 · EKSİK 0 — **Varşova YER**, Częstochowa / Gdansk / Łódź **TARAF** |
+| **S3 = 10 madde (Lvov'suz) = 1006b** | **187** | 1571 + **1665** 🧊 | 1646 | açık (taban ile aynı) |
+Her senaryoda: Değişmez 2 ✓ 623/0 · 2i ✓ 171/1 · 2t 13 · mükerrer ✓ 112 (≤113).
+
+**Hüküm:** ③'ün iki şartı da S1 ve S2'de TUTMADI. TARAF 1743 > 1665, ve kova YER kolundan kapanmıyor (Varşova dışındaki
+3 eksik yer TARAF'la kapanıyor). ⇒ Koordinatörün kuralı: **(b), 10 madde tek başına = 1006b.**
+2s tavanı 187'de; 1006b ile 2s AÇIK da 187 (değişmiyor).
+
+### 🔴 Bulgu — ③ şartı MEŞRU bir maddeyle de karşılanamıyor (karar için)
+TARAF'ı 1665'i aşıran Lvov değil, **kovanın kendisi.** 1918-11-11 kovası 4 eksik yüzünden açıkken, öteki birimleri
+maskenin arkasında; hangi doğru madde yazılırsa yazılsın kova kapanınca maskenin arkasındaki ~75 TARAF birimi sayılmaya
+başlıyor. `denetle.py`nin kendi uyarısı: *"Maske kalkarsa sayı BÜYÜR ama veri KÖTÜLEŞMEZ; tavanı o yüzden maskeli
+sayıya göre kurma."* Lvov'u çıkarınca da Polonya maddesi aynı sıçramayı veriyor (S2 = S1).
+⇒ Polonya maddesi, 2sk tavanı maskesiz sayıya göre yeniden kurulmadan inemez. Bu bir tavan kararı (§3.4-4, koordinatör).
+Yazılı ve ölçülü olarak 1006c'de bekliyor.
+⚠️ Ayrıca ölçülmedi ama kuşkulu: haritada **Gdansk 1918-11-11'de almanya → polonya** geçiyor. Gdańsk/Danzig'in Polonya'ya
+o gün geçmesi kaynakla doğrulanmadı (Serbest Şehir statüsü sonraki bir süreç). Gdansk'ın TARAF kolundan "kapanması"
+bu kaydı doğrulamaz. Yerleşim kaydı koordinatörün işi; kaynak taraması önerilir.
+
+### git status (EK)
+- `C:\atlas-w33` (temel c779df9a): kaldırılmadan önce porcelain yalnız ` M data/olaylar_ok109.js` (S3). `C:\atlas-w33b`
+  (c31b1d81, check ağacı): boştu. İkisi de kaldırıldı.
+- `C:\atlas-umit` izlenmeyen: `UMIT-W33-ISGAL-1006b.diff` · `UMIT-W33-POLONYA-1006c.diff` (+ bu dosyada EK). Commit yok.
