@@ -6854,7 +6854,7 @@ window.DEVLETLER = [
 },
 { id:"pontianak", ad:"Pontianak Sultanlığı (Borneo)", tur:"devlet", bolge:"guneydogu-asya",
   f:"1772-01-01", t:"1855-01-01", baskent:"Pontianak",
-  ozet:"Batı Borneo'da Hadramutlu bir Arap seyyahın kurduğu sultanlık (HANEDAN ÖMRÜ). TDV'nin genel 'borneo' maddesi somut olarak veriyor: '1772'de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı'nı kurdu.' t=1855 (Hollanda 'Lange Contract'larla doğrudan denetimi sistematikleştirmesi) YIL BEYANIdır; sultanlık sonrasında Hollanda'ya bağlı adlı bir varlık olarak sürdü.",
+  ozet:"Batı Borneo'da Hadramutlu bir Arap seyyahın kurduğu sultanlık (HANEDAN ÖMRÜ). TDV'nin genel 'borneo' maddesi somut olarak veriyor: '1772’de de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı’nı kurdu.' t=1855 (Hollanda 'Lange Contract'larla doğrudan denetimi sistematikleştirmesi) YIL BEYANIdır; sultanlık sonrasında Hollanda'ya bağlı adlı bir varlık olarak sürdü.",
   kaynak:"borneo",
   kronoloji:[
     { t:"1772-01-01", tur:"kurulus", b:"Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu", ic_not_b:"eski b: Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu (TDV borneo maddesi)", kaynak:"TDV: borneo — «1772’de de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı’nı kurdu»" }
