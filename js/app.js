@@ -14254,18 +14254,24 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
 // `iran`ın 6 Pehlevi maddesi 1925-1979 — dosya 1295-1923; `almanya` 1933-1945)
 // ve sekmeden SESSİZCE kayboluyordu. Kural: künye maddesi dosyada TEMSİL
 // EDİLİYORSA düşer, edilmiyorsa EKLENİR. Temsil = dosyada (a) aynı gün ya da
-// (b) ±30 gün içinde (Değişmez 2'nin penceresi) madde var ya da (c) künye
-// maddesi yıl hassasiyetinde (`YYYY-01-01`, §4) ve dosyada aynı yıl madde var.
+// (b) ±30 gün içinde (Değişmez 2'nin penceresi) madde var.
+// ⚠️ 1006b: "(c) `YYYY-01-01` künye maddesi + dosyada aynı yıl" ÇIKARILDI —
+// `-01-01` "gün bilinmiyor" demektir, yılla eşlemek sahte kesinliktir (D263);
+// üç AYRI olayı (timurlu 1449, safevi 1503, karakoyunlu 1406) düşürüyordu.
+// Korunan mükerrer görünür, düşen ayrı olay görünmez. Bu yüklemi
+// `denetim/ARAC-KRONO-BAGLAMA-0929-KAPI.js` de KESİP çağırır — ikinci tanım yok.
 function kronoGun(t) {
   var m = /^(-?\d+)-(\d\d)-(\d\d)/.exec(String(t));
-  return m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) / 864e5 : null;
+  if (!m) return null;
+  var d = new Date(Date.UTC(2000, +m[2] - 1, +m[3]));
+  d.setUTCFullYear(+m[1]);                // 0-99 yılları 1900'e kaymasın
+  return d.getTime() / 864e5;
 }
 function kronoTemsilEdiliyor(k, derin) {
-  var kt = String(k.t), kg = kronoGun(kt), yil = /-01-01$/.test(kt) ? kt.slice(0, -6) : null;
+  var kt = String(k.t), kg = kronoGun(kt);
   for (var j = 0; j < derin.length; j++) {
     var ft = String(derin[j].t);
     if (ft === kt) return true;
-    if (yil !== null && ft.slice(0, ft.length - 6) === yil) return true;
     var fg = kronoGun(ft);
     if (kg !== null && fg !== null && Math.abs(fg - kg) <= 30) return true;
   }
