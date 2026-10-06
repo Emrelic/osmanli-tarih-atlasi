@@ -222,7 +222,13 @@ KRONO zinciri   SAHTE-ALINTI → TARIH → 1006b → 1006c → MUKERRER-SIL-1006
 app.js zinciri  224 odak diff'i → KRONOLOJI-COK → APP-KISI-BAŞLIK → KIRIM-A
                 🔴 üçü de app.js; sıra bozulursa birbirinin üstüne yazar
 veri            OK107 (ölü ilk s: — kaybeden diff'te YAZILI) → Brod 1536-01-01 →
-                Dubiça→Brod 1718 (zincirleme devralma, AYRI diff)
+                Dubiça→Brod 1718 (AYRI diff) — 🔴 DÜZELTME (W45, 6 Ekim): ihlal edilen
+                D207 maddesi "zincirleme devralma" DEĞİL, **① şartı: komşunun günü KENDİ
+                kaynağına dayanmıyor** (Dubiça'nın 1718-07-21'i Pasarofça maddesinden
+                geliyor, kaynaksız). Koordinatörün ilk hükmü maddeyi yanlış adlandırdı;
+                ikisi de D207 ihlali ama ÇARELERİ AYRI: zincirleme için zinciri kesmek
+                yeterdi, ① için KAYNAK BULMAK gerekiyor. W45 önce TDV Pasarofça'ya bakıyor;
+                bulunmazsa yıl hassasiyetine (`1718-01-01`) düşer.
 BAYAT-SABIT-SAGLAM → PAKET-YUKLEYICI → OK107   (W32'nin ölçtüğü sıra)
 ```
 
