@@ -1,3 +1,6 @@
+KAYNAKLAR KAYIT DÜZEYİNDE YOK (Dubiça/Novi isg'leri kaynaksız); OLDUĞU GİBİ UYGULANMAZ, W46c raporundaki kaynaklar eklenerek uygulanır, yoksa kaynaksız tavan öter.
+Kaynak: unreachable stash 151411bc (W46c geçici ölçüm düzenlemesi, 2026-10-06 10:16, taban d0f3cda1). Teslim edilmiş bir yama DEĞİLDİR.
+
 diff --git a/data/yerlesimler.js b/data/yerlesimler.js
 index ffa4f7e8..86cdd838 100644
 --- a/data/yerlesimler.js
