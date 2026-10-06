@@ -1621,6 +1621,10 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
         KAPANIS_2S["yalniz_taraf"] = 0
         KAPANIS_2S["maskeli_yer"] = 0
         KAPANIS_2S["maskeli_yalniz_taraf"] = 0
+        # 🔴 6 Ekim 2026 (W41b ölçtü): "acik_kovada" da çağrı başına SIFIRLANIR —
+        #   sıfırlanmadığı için ikinci çağrıda 1654 → 3270 birikiyordu (ana akış tek
+        #   çağrı yaptığından resmî sayı doğruydu; çoklu çağıran araç yanlış okurdu).
+        KAPANIS_2S["acik_kovada"] = 0
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
