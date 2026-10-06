@@ -627,7 +627,12 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 186   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186
+BEKLENEN_ACIK_S = 185   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186 -> 185
+# 🟢 186 → 185, 6 Ekim akşamı: TEK-EKSIK-KILI. `olaylar_ek5`in Paris maddesine Kili YER
+#   olarak eklendi ve TDV `kili` maddenin hükmünü Kili için ADIYLA, saydığı üç kazayla
+#   AYNI CÜMLEDE söylüyor ⇒ tesadüfî kapanma DEĞİL, hak edilmiş kapanma.
+#   1856-03-30 kovası KAPANDI. Tavan ölçümle birlikte iner (`§3.4(3)`): bırakılırsa
+#   aradaki bir puan sessiz borç olur ve açığın geri açılması GÖRÜNMEZ.
 # 🔴 6 EKİM 2026 — 189 → 186, ÖLÇÜLDÜ (yazmadan hemen önce `denetle.py` koşturuldu:
 #   "186 AÇIK (tavan 189)"). Üç puanlık pay SESSİZ BORÇtu: §3.4(3) "iyileşince tavan
 #   iner; iyileşmiş bir ölçümde eski tavanı bırakmak aradaki payı sessiz borç yapar."
