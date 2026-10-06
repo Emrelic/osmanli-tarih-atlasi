@@ -411,3 +411,58 @@ alındı. `data/bolgeler.js` · `data/devirler.js` · `veri-kaynak/motor_kara.ge
 **BEKLETİLİYOR**: kodlanmış geometri kardeşleri gelmeden alınırsa main yeni bölge/devir
 ile ESKİ kodlanmış geometriyi birlikte taşır — yarım, tutarsız bir durum. Geometri ailesi
 TEK SETTE iner.
+
+
+---
+
+## 9. 🔴 İKİ HÜKÜM — mesajda kalmasın diye (6 Ekim sabahı)
+
+### 9.1 VEKİL ÖLÇÜTÜ: **KUTU İÇERİR mi** — mesafe eşiği DEĞİL
+`D257` 122 vekil `odak_yer`i bilerek sildi ama **vekil tanımına bir ölçüt vermedi**, ve
+bir mesafe eşiği de vermiyor. W36 bunu uyarı olarak yazdı (*"Singosari ile Malang çok
+yakın olabilir, ölçülmedi"*). Ölçüt şudur ve mesafeye İHTİYAÇ DUYMUYOR:
+```
+🟢 KUTU, yerin kendisini İÇİNE ALIYORSA   → VEKİL DEĞİL
+   Kamera doğru yeri gösterir ve ortada "başka şehir" ADI yoktur.
+   200 km genişliğinde ama yeri içeren bir kutu DOĞRUDUR.
+🔴 NOKTA, BAŞKA BİR ŞEHRİN adına konmuşsa → VEKİL, mesafesi NE OLURSA OLSUN
+   5 km ötedeki başka bir şehre konmuş nokta da vekildir.
+```
+**Uygulandığı vaka:** `Singosari→Malang` 10,5 km, aynı Kab. Malang, odak KUTULU ⇒ kutu
+Singosari'yi içine alıyor ⇒ **vekil değil, İNİYOR.** Gerekçe yakınlık değil İÇERME.
+🔴 **Ve ölçüt değiştiği için BEŞİ DE yeniden sorulur:** kalan 4 (`Pekan Tua` ·
+`Mey-Tuble` · `Anandpur→Lahor` 207,8 km · `Kondurcha→Samara` 50,5-87,6 km) KUTU mu NOKTA
+mı, ve kutuysa yeri İÇERİYOR mu? Kutu+içeriyorsa iner; nokta ise odak YAZILMAZ.
+📌 `Anandpur→Lahor`un 207,8 km olması tek başına hüküm vermez: NOKTA ise vekildir, KUTU
+ise içerip içermediğine bakılır.
+📌 `Pekan Tua` ve `Mey-Tuble`ın mesafesi ÖLÇÜLEMEDİ ve UYDURULMADI (W36) — yeni ölçütle
+mesafeye hiç gerek kalmayabilir.
+
+### 9.2 `MOTOR_UFUK_BANT` → B KUYRUĞUNA, çünkü **BAYRAK TUZDA**
+W48 ölçtü ki `ufuk_bantlari.js` **yetim DEĞİL:** ham dosya (gitignore) → `kodla.py yay …
+bant` → takipli `ufuk_bant_parcalar.js` 45,8 MB + `ufuk_bantlari_ust.js` 5,7 MB →
+`app.js:671/692-803` tembel `<script>` → `index.html:156-161` Ufuk 5/7/10 seçicisi.
+⚠️ **Koordinatörün öncülü YANLIŞTI** ("264 MB'ı kimse okumuyor"). Kaynağı: HAVVA
+*"index.html HAM `ufuk_bantlari`yi yüklemiyor"* dedi — DOĞRU; koordinatör ondan "kimse
+okumuyor" çıkardı ve **kodlama adımını atladı.** Aynı mimariyi (`ham gitignore → kodlanmış
+takipli`) `devletler_harita.js` için AYNI GECE ölçmüş, deseni ikinci kez tanımamış.
+📌 Doğru ve DAHA DAR ifade: **KOŞU 20'nin bantları kodlanmadı** ⇒ o koşunun 21 dk 58 sn'lik
+bant işi hiçbir yere ulaşmadı. Yayındaki bant hâlâ **KOŞU 19** (`3a34f8b0`).
+
+**W48'in önerisi** (veri koşusunda `MOTOR_UFUK_BANT` VERİLMEZ + `kodla bant` atlanır; tam
+inşada verilir) doğru yönde **ama ÖNKOŞULU VAR ve ölçüldü:**
+```
+uret_petek.py:571  _ONB_ISLETIM = { … }   ← tuzdan HARİÇ tutulan MOTOR_* listesi
+uret_petek.py:582  tuz = listede OLMAYAN her MOTOR_* değişkenini İÇERİR
+MOTOR_UFUK_BANT    _ONB_ISLETIM'de YOK (grep: yalnız :2151-2154, kullanım yeri)
+⇒ 🔴 BAYRAK TUZDA. Verilip verilmemesi TUZU DEĞİŞTİRİR.
+```
+⇒ Öneri uygulanırsa **veri koşuları ile tam inşalar AYRI TUZA sahip olur** ve birbirlerinin
+önbelleğini HİÇ kullanamaz — kazanılan 22 dakikadan pahalı olabilir.
+**Önkoşul:** `MOTOR_UFUK_BANT`ın `_ONB_ISLETIM`e taşınması, yani *"bu bayrak geometriyi
+etkilemiyor"*un ÖLÇÜLMESİ (`:2151` bloğu yalnız bant mı üretiyor, `govde`/`osm`/`sb`ye
+dokunuyor mu?). Taşıma `uret_petek.py`yi değiştirir ⇒ **bir kerelik tam inşa**, sonra
+kalıcı kazanç.
+🔴 **ŞİMDİ HİÇBİR ŞEY YAPILMIYOR:** veri koşularında bayrak ŞU ANKİ gibi verilmeye devam
+eder. Kalem `§4 B KUYRUĞU`nun üyesidir (motor tuzu, yalnız tam inşada).
+Yan kalemler: `KOSU-DEVIR-CEVRIMI.md:152/194` notu · `app.js:897` bayat yorumu.
