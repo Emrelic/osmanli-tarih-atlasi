@@ -202,7 +202,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"Ahıska",
   d:"IV. Murad döneminin doğu seferleri sırasında Ahıska, geçici bir Safevî ara döneminin ardından yeniden Osmanlı idaresine geçti; şehir 1829'a kadar Çıldır Eyaleti'nin merkezi olarak kalacaktı.",
-  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı')" },
+  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı' [TDV slug: ahiska (alıntı doğrulanmadı)])" },
 
 { t:"1643-01-01", b:"Rüstem Han'ın Tiflis kalesini tahkim etmesi", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","konu-idari"],
@@ -220,13 +220,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["siyaset","konu-siyasi"],
   yer_id:"Tiflis",
   d:"1632'den beri süren, Safevî sarayınca tayin edilmiş İslam'a geçmiş Kartli hükümdarları düzeni 1711'de sona erdi; ardından Vahtang VI'nın kanunname çalışmaları ve on üç yıl sonraki Osmanlı müdahalesiyle (1724) yeni bir siyasi evre başladı.",
-  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' süren düzen)" },
+  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' [TDV slug: tiflis (alıntı doğrulanmadı)] süren düzen)" },
 
 { t:"1723-06-24", b:"Osmanlı'nın Tiflis'i son kez alması — Tiflis Beylerbeyiliği kuruldu", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","fetih","idari","konu-askeri","konu-idari"],
   yer_id:"Tiflis",
   d:"Safevî Devleti'nin Afgan istilâsıyla çökmesi ve Rusya'nın Hazar kıyılarına inmesi üzerine Osmanlı ordusu 23-24 Haziran 1723'te Tiflis'e girdi ve şehri yeni bir beylerbeyilik olarak örgütledi. On üç yıl sürecek son büyük Osmanlı işgalinin başlangıcıdır.",
-  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi') + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
+  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi' [TDV slug: tiflis (alıntı doğrulanmadı)]) + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
 
 { t:"1724-01-01", b:"Kartli Çarı Vahtang'ın oğlu İbrahim'in Osmanlı tarafından Kartli'ye tayini", tur:"siyaset", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],

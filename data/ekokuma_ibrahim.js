@@ -171,6 +171,6 @@ window.EKOKUMA_IBRAHIM = [
   not:"Heyetle İbrahim arasındaki karşılıklı sözler Naîmâ'nın anlatısıdır; olayların içindeki Karaçelebizâde bu konuşmadan söz etmez.",
   kesinlik:"tartismali",
   kaynak:"TDV: ibrahim--padisah · hezarpare-ahmed-pasa · kosem-sultan · Bekir Gökpınar, ETÜ Sosyal Bilimler Enstitüsü Dergisi 10 (2020)",
-  ic_not:"Yumruk: TDV ibrahim--padisah (Kâtib Çelebi II, 327); TDV hezarpare 'tartaklandı'. 'Camide cülus olmaz': Gökpınar #348 (Kâtip Çelebi 2016 II/987) — okura sözün anlamıyla aktarıldı. Karaçelebizâde'nin Naîmâ'daki sert sözleri: TDV ibrahim--padisah (Naîmâ IV, 326-327); TDV kararın gerekçelerini çoklu aktarır. Katl sahnesi ve sorumluluk tartışması magazin.js 'ibrahim-katli-kim-emretti-1648' kartında — bu kart onu TEKRAR ETMEZ, kilide kurşun ayrıntısı orada. H-0008 'kafese konup kafeste katledilmesi' = bu kart + o kart." }
+  ic_not:"Yumruk: TDV ibrahim--padisah (Kâtib Çelebi II, 327); TDV hezarpare 'tartaklandı'. 'Camide cülus olmaz': Gökpınar #348 (Kâtip Çelebi 2016 II/987) — okura sözün anlamıyla aktarıldı. Karaçelebizâde'nin Naîmâ'daki sert sözleri: TDV ibrahim--padisah (Naîmâ IV, 326-327); TDV kararın gerekçelerini çoklu aktarır. Katl sahnesi ve sorumluluk tartışması magazin.js 'ibrahim-katli-kim-emretti-1648' kartında — bu kart onu TEKRAR ETMEZ, kilide kurşun ayrıntısı orada. H-0008 'kafese konup kafeste katledilmesi' [TDV slug: ibrahim--padisah (alıntı doğrulanmadı)] = bu kart + o kart." }
 
 ];
