@@ -10,8 +10,21 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
    bunun BÜYÜK HARFLİSİ: `OPUS HAZIR KITA 1016`.
 3. 🔴 **HAZIRIM'ı NEREYE yazacağın MAKİNEYE BAĞLIDIR — önce ölç, sonra yaz:**
    ```bash
-   git rev-parse --show-toplevel        # C:/atlas = EMRELIC · başkası = EMRELIC DIŞI
+   hostname                             # MAKİNE ADI — ölçüt BUDUR
    ```
+   🔴 **ÖLÇÜT HOSTNAME'DİR, DEPO YOLU DEĞİL** — düzeltildi 6 Ekim 2026, ölçülmüş zararla.
+   Buraya eskiden `git rev-parse --show-toplevel` yazılıydı ve *"`C:/atlas` = EMRELIC"*
+   deniyordu. **Yanlış: HER MAKİNEDE depo `C:\atlas`tır.** UMIT'te de, HAVVA'da da.
+   ⇒ UMIT'te açılan **BEŞ KITA kendini EMRELIC sanıp YEREL tahtaya yazdı**
+   (`DEVLETLER-SLUG-B` ve `GENCE` ölçtü): HAZIRIM'ları push edilemedi, 15 yerel tahta
+   commit'i birikti, UMIT'in `C:\atlas`ı `origin/main`in **114 gerisine** düştü ve bütün
+   makinenin tahtası kilitlendi. Emre'nin onayıyla hizalandı (`umit-tahta-yerel-1006`
+   dalında saklı).
+   📌 Ailesi `D267`: **bir ölçütün evreni sorunun evreninden küçükse, cevabı bir ölçüm
+   değil bir YANILSAMADIR** — ve burada yanılsama *"doğru makinedeyim"* diyordu.
+   ⚠️ `hostname` da tek başına yetmezse (makine adı değişirse) ölçüt ÇOĞALTILMAZ,
+   TEK OTORİTEYE bağlanır: `oturumlar/TOPOLOJI.md`nin makine tablosu. İki ölçüt
+   bugün aynı cevabı verir, yarın ayrışır.
    **EMRELIC ise** — tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
    `py arac/tahta.py yaz --kim "<ADIN>" --kime "YILDIRIM BAYEZIT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
 
