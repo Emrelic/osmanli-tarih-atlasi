@@ -701,3 +701,58 @@ kendini ele verir; yanlış NEGATİF vermez — bu aile o yüzden daha tehlikeli
 Yani aynı hata sınıfı bir kez borcu GİZLER, bir kez de ÖDENMİŞ borcu ödenmemiş gösterir.
 **Çare:** saymadan önce iki üç kaydı GÖZLE OKU, biçimi gör, sonra say. Ve bir sayı
 hipotezini DOĞRULUYORSA bir kez daha bak.
+
+---
+
+## 12. 🆕 `YER-ARAMA-KUTUSU-1006` — Emre'nin doğrudan isteği, UMIT'te
+
+**Emre, 6 Ekim 2026 (iki mesaj):** haritada o anki tarihte bir metin kutusu olsun; yer adı
+yazılıp seçilince **odak oraya gitsin**. Kutunun kaynağı **o gün AKTİF olan** yerler olsun —
+*"bir şehir o yılda henüz kayıtlarda ve haritada yok ise listede GELMESİN"*. Yazarken
+**aşağı açılan liste** gelsin. Kapsam: **şehir · ülke · bölge · kale** türü yer adları.
+
+### Niçin UMIT (koordinatör değil)
+`js/app.js` · `index.html` · `css/style.css` → `TOPOLOJI.md`de UMIT (yazıcı/kod makinesi) ·
+`§7.1` koordinatörün bağlamını uygulama işiyle doldurmasını yasaklıyor · UMIT'in koşan
+zincirleri (P3 · Z8 · W32b) `arac/` + `denetim/` + kronoloji verisinde ⇒ **`app.js` çakışması
+YOK, paralel inebilir** (`UI2-YAMA-APP` zaten dokunulmayanlar listesinde).
+
+### Dağıtmadan ÖNCE ölçtüğüm üç şey — ikisi mükerrer işi önledi
+```
+① DİZİN PENCERESİNDE ZATEN ARAMA VAR: app.js:9177 dizinDoldur(sekme) ·
+   app.js:9382 arama input dinleyicisi · index.html:581 <input type="search" id="kr-ara"> ·
+   index.html:1003 #dizin-sekmeler  ⇒ "sıfırdan ikinci arama yazma" şartı buradan doğdu
+② `tur:` alanı Emre'nin sınıflarını ZATEN taşıyor (tek satır deseniyle):
+   sehir 2532 · kale 729 · liman 601 · bolge 232 · kasaba 69 · koy 15 · vaha 1 ·
+   konfederasyon 1 = ~4180. Oysa yerleşim 4299 ⇒ ~119'u desene girmiyor.
+   ⚠️ Bu sayı VEKİL (tek satır grep) — kesin sayı üreticiden alınacak, fark ÖLÇÜLECEK.
+③ "Ülke" yerleşim DEĞİL: data/devletler.js künyesi (896), f:/t: penceresi var.
+```
+
+### Bağlayıcı şartlar (tasarım kararı — uygulama UMIT'in)
+```
+(A) 🔴 TEK DİZİN ÜRETİCİSİ. Kutunun evreni, haritanın noktayı ÇİZMEYE karar verdiği
+    yüklemenin AYNISINDAN gelir. DOSYA ADIYLA SÜZME YASAK — D267'nin tam konusu.
+(B) 🔴 ÖLÇÜT "SENE" DEĞİL O GÜNKÜ GÜN. Emre "sene" dedi, atlas GÜN hassasiyetinde;
+    Aralık'ta fethedilen şehir Ocak'ta çıkarsa isteğin KENDİSİ ihlal olur.
+    Ve "aktif" için kutu kendi kuralını yazmaz: HARİTANIN yüklemini çağırır.
+(C) Türkçe normalleştirme (D215) + 🔴 parantezli ikinci ad: ad:"Klaipėda (Memel)" —
+    "Memel" yazan BULMALI.
+(D) Mükerrer ad AYIRT EDİLMELİ: satır `ad · tur · O GÜNÜN SAHİBİ` göstersin
+    (sahip boyama için zaten hesaplı, yeniden hesaplanmaz).
+(E) 🔴 ODAK: mevcut mekanizma ÇAĞRILIR, yeni flyTo YAZILMAZ. Sebep: denetle_yayin.py'nin
+    odak kapısı odak çözümüne bağlı ve kırık atıfa 0 toleranslı ⇒ paralel yol KAPISIZ olur.
+(F) Mevcut aramayla ilişkiyi UMIT ölçer ve önerir; bağlayıcı olan tek şey (A).
+(G) Aktif küme GÜN DEĞİŞİMİNDE BİR KEZ hesaplanır. Hatanın yaşadığı yer tuş vuruşu değil,
+    gün değişiminde ÖNBELLEĞİ GEÇERSİZ KILMAK.
+(H) 🔴 İKİ YÖNLÜ SINAV ZORUNLU (§11): gün D−1 → GÖRÜNMEMELİ · gün D+1 → GÖRÜNMELİ.
+    Sahibi değişen yer uygun DEĞİL (hep aktif); VARLIĞA GİREN/ÇIKAN bir yer seçilip
+    adı yazılacak.
+(I) KAPSAM DIŞI ama BEYANLA: eşanlam sözlüğü (D215 ayrı iş) · yazım hatası toleransı ·
+    bolgeler.js üretilmiş poligonları (tur:"bolge" 232 niyeti karşılıyorsa gerek yok — ÖLÇ).
+(J) ÖNGÖRÜ ÖNCE: 1453-05-29'da kaç kalem · 1920-01-10'da kaç · NİÇİN (mekanizma).
+```
+KAPI: `node --check js/app.js` · `py arac/denetle_arayuz.py` TEMİZ dönmeli ·
+`py arac/denetle.py` çıkış kodu DEĞİŞMEMELİ (bugün 2, tek sebep Değişmez 8).
+BİÇİM: arayüz işi, Emre GÖRECEK ⇒ **diff değil, dalına UYGULA**; merge + damga + yayın bende.
+TESLİM: `denetim/UMIT-YER-ARAMA-KUTUSU-1006.md`, (A)–(J)'nin her birine bir satır.
