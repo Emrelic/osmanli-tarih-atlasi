@@ -637,7 +637,7 @@ window.DEVLETLER = [
 // Mâzenderan için 1335-12-01→1359-01-01 arası `d:"ilhanli"` kalacak.
 { id:"gilan-kiya", ad:"Kârkiyâ Hânedanı (Gilân)", tur:"hanedanlik", bolge:"iran",
   f:"1371-01-01", t:"1592-01-01", baskent:"Lâhîcân",
-  ozet:"Doğu Gilân'da (Biyepîş) Zeydî bir seyyid ailesinin kurduğu yerel hanedan; TDV `gilan` maddesi kuruluşu 'İlhanlı Hükümdarı Olcaytu'nun 1306-07'deki başarısız ilhak girişiminden sonra' diye tarihsiz anlatıyor, kesin yıl (773/1371-72, Emîr Kiyâ'nın oğlu Ali Kiyâ'nın bölgeye dönüp hâkimiyeti tesis etmesi) Encyclopaedia Iranica'nın `KĀR KIĀ` maddesinden alındı. Safevî Şahı I. Abbas'ın 1592'de bölgeyi doğrudan hâkimiyetine almasıyla sona erdi (TDV `gilan` maddesiyle BİREBİR tarihli). ⚠️ f:1371, İlhanlı'nın çöküşünden (1335) 36 yıl SONRAdır — bu aralıkta veride `ilhanli` köprüsü kullanılacak (künye tarafında ek işlem gerekmiyor).",
+  ozet:"Doğu Gilân'da (Biyepîş) Zeydî bir seyyid ailesinin kurduğu yerel hanedan; TDV `gilan` maddesi kuruluşu İlhanlı Hükümdarı Olcaytu'nun 1306-07'deki başarısız ilhak girişiminden sonra diye tarihsiz anlatıyor, kesin yıl (773/1371-72, Emîr Kiyâ'nın oğlu Ali Kiyâ'nın bölgeye dönüp hâkimiyeti tesis etmesi) Encyclopaedia Iranica'nın `KĀR KIĀ` maddesinden alındı. Safevî Şahı I. Abbas'ın 1592'de bölgeyi doğrudan hâkimiyetine almasıyla sona erdi (TDV `gilan` maddesiyle BİREBİR tarihli). ⚠️ f:1371, İlhanlı'nın çöküşünden (1335) 36 yıl SONRAdır — bu aralıkta veride `ilhanli` köprüsü kullanılacak (künye tarafında ek işlem gerekmiyor).",
   kaynak:"gilan (TDV, bitiş tarihi) + Encyclopaedia Iranica, madde: KĀR KIĀ (kuruluş tarihi, 773/1371-72)",
   kronoloji:[
     { t:"1371-01-01", tur:"kurulus", b:"Ali Kiyâ, babası Emîr Kiyâ'nın ailesiyle Doğu Gilân'a dönüp hâkimiyeti tesis etti (773 AH)", ic_not_b:"eski b: Ali Kiyâ, babası Emîr Kiyâ'nın ailesiyle Doğu Gilân'a dönüp hâkimiyeti tesis etti (773 AH, tam gün yok)" },
@@ -1205,7 +1205,7 @@ window.DEVLETLER = [
     { t:"1849-01-01", tur:"toprak-kazanc", b:"Osmanlı, Tihâme kıyısını yeniden ele geçirdi" },
     { t:"1911-10-09", tur:"antlasma", b:"Da'an Antlaşması — imamlığa geniş özerklik tanındı" },
     { t:"1918-11-01", tur:"son", b:"Mondros sonrası Osmanlı garnizonları çekildi, fiilî bağımsızlık" },
-    { t:"1962-09-26", tur:"son", b:"Mısır destekli ihtilal Zeydî imamlığına son verdi", kaynak:"TDV: yemen: '26 Eylül 1962'de Mısır destekli bir ihtilal gerçekleşti ve Zeydî imamlığına son verildi'" }
+    { t:"1962-09-26", tur:"son", b:"Mısır destekli ihtilal Zeydî imamlığına son verdi", kaynak:"TDV: yemen: 26 Eylül 1962'de Mısır destekli bir ihtilal gerçekleşti ve Zeydî imamlığına son verildi" }
   ]
 },
 
@@ -1341,7 +1341,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1912-05-04", tur:"isgal", b:"İtalya, Rodos ve Oniki Ada'yı işgal etti" },
     { t:"1912-10-18", tur:"antlasma", b:"Uşi Antlaşması — adaların geçici olduğu belirtildi (fiilen kalıcılaştı)" },
-    { t:"1923-07-24", tur:"antlasma", b:"Lozan Antlaşması'nın 15. maddesi hiç değişikliğe uğramadan imzalandı: Rodos, Oniki Ada ve bağlı adacıklar ile Meis İtalya'ya bırakıldı", kaynak:"TDV: oniki-ada — \"24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı.\" ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın kendi günü 1923-07-24." }
+    { t:"1923-07-24", tur:"antlasma", b:"Lozan Antlaşması'nın 15. maddesi hiç değişikliğe uğramadan imzalandı: Rodos, Oniki Ada ve bağlı adacıklar ile Meis İtalya'ya bırakıldı", kaynak:"TDV: oniki-ada — 24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı. ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın kendi günü 1923-07-24." }
   ]
 },
 { id:"cezayir-fransiz", harita:"fransa-cumhuriyet", ad:"Fransız Cezayir İşgali", tur:"gecici-isgal", bolge:"kuzey-afrika",
@@ -1544,7 +1544,7 @@ window.DEVLETLER = [
   kaynak:"necid",
   kronoloji:[
     { t:"1824-06-01", tur:"kurulus", b:"Türkî bin Abdullah Riyad'ı geri aldı" },
-    { t:"1865-01-01", tur:"bolunme", b:"Faysal b. Türkî'nin ölümünün ardından oğulları Abdullah ile Suûd arasında taht kavgası başladı; İngilizler Suûd'u desteklerken Abdullah Osmanlı himayesine başvurdu", kaynak:"TDV: necid — \"Faysal'ın 1865'teki ölümünden sonra Abdullah ve kardeşi Suûd arasındaki anlaşmazlıklar\" ve İngilizlerin Suûd'u desteklediği, Abdullah'ın Osmanlı korumasına yöneldiği. Gün TDV'de VERİLMİYOR (yalnız 1865 yılı, Faysal'ın ölüm yılı) — YYYY-01-01 kaba." },
+    { t:"1865-01-01", tur:"bolunme", b:"Faysal b. Türkî'nin ölümünün ardından oğulları Abdullah ile Suûd arasında taht kavgası başladı; İngilizler Suûd'u desteklerken Abdullah Osmanlı himayesine başvurdu", kaynak:"TDV: necid — Faysal'ın 1865'teki ölümünden sonra Abdullah ve kardeşi Suûd arasındaki anlaşmazlıklar ve İngilizlerin Suûd'u desteklediği, Abdullah'ın Osmanlı korumasına yöneldiği. Gün TDV'de VERİLMİYOR (yalnız 1865 yılı, Faysal'ın ölüm yılı) — YYYY-01-01 kaba." },
     { t:"1891-01-24", tur:"son", b:"Müleyde yenilgisiyle Şammar (Hâil) emirliği Necid'e hâkim oldu" }
   ]
 },
@@ -2511,7 +2511,7 @@ window.DEVLETLER = [
 { id:"futa-callon", ad:"Futa Callon İmamlığı", tur:"devlet", bolge:"bati-afrika",
   f:"1747-01-01", t:"1896-01-01", baskent:"Timbo",
   ozet:"Fûlânî cihadıyla Gine yaylalarında kurulan, Almami unvanlı imamların yönettiği konfederatif İslâm devleti; Timbo başşehir, Labe eyalet merkeziydi. TDV gine maddesine dayanır.",
-  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: 'Yaklaşık 1747'de İbrâhim Mûsâ önderliğinde bağımsız bir İslâm devleti'; merkezi Timbo, Labe eyalet merkezi. Fransız himayesi 1896.",
+  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: Yaklaşık 1747'de İbrâhim Mûsâ önderliğinde bağımsız bir İslâm devleti; merkezi Timbo, Labe eyalet merkezi. Fransız himayesi 1896.",
   kronoloji:[
     { t:"1747-01-01", tur:"kurulus", b:"İbrâhim Mûsâ önderliğinde Fûlânî imamlığı kuruldu" },
     { t:"1896-01-01", tur:"son", b:"Fransız himayesi kabul edildi" }
@@ -2534,7 +2534,7 @@ window.DEVLETLER = [
 { id:"colof", ad:"Colof (Jolof) İmparatorluğu", tur:"krallik", bolge:"bati-afrika",
   f:"1350-01-01", t:"1890-01-01", baskent:"Linguère",
   ozet:"Orta Senegal'de Volof halkının kurduğu imparatorluk; 1549 Danki bozgunundan sonra Kayor ve Valo'yu kaybedip küçülerek varlığını sürdürdü. TDV senegal maddesine dayanır.",
-  kaynak:"senegal — TDV gövdesi bu turda okundu. TDV senegal: 'Volof Krallığı XIII. yüzyılda orta Senegal'e hâkimdi.' 1549 Danki'den sonra küçülür ama 1890'a kadar sürer.",
+  kaynak:"senegal — TDV gövdesi bu turda okundu. TDV senegal: Volof Krallığı XIII. yüzyılda orta Senegal'e hâkimdi. 1549 Danki'den sonra küçülür ama 1890'a kadar sürer.",
   kronoloji:[
     { t:"1350-01-01", tur:"kurulus", b:"Njajaan Njaay geleneğine dayanan Volof birliği kuruldu" },
     { t:"1890-01-01", tur:"son", b:"Fransız idaresine katıldı" }
@@ -2593,7 +2593,7 @@ window.DEVLETLER = [
 { id:"moritanya-emirlikleri", ad:"Moritanya Emirlikleri (Trarza · Brakna · Tagant · Adrar)", tur:"devlet", bolge:"bati-afrika",
   f:"1640-01-01", t:"1909-01-01", baskent:"Şinkît",
   ozet:"Batı Sahra'da Hassânî Arap kabilelerinin kurduğu dört emirlik (Trarza · Brakna · Tagant · Adrar); vaha şehirleri Şinkît ve Vâdân ilim merkezleriydi. TDV moritanya maddesine dayanır.",
-  kaynak:"moritanya — TDV gövdesi bu turda okundu. TDV moritanya: 'Hassânî emirler XVIII-XIX. yüzyılda Fas şeriflerıyle yakın ilişki içindeydi'; Trarza · Brakna · Adrar · Tagant adıyla anılır. ⚠️ TDV kasaba düzeyinde SUSUYOR — tanecik boşluğu.",
+  kaynak:"moritanya — TDV gövdesi bu turda okundu. TDV moritanya: Hassânî emirler XVIII-XIX. yüzyılda Fas şeriflerıyle yakın ilişki içindeydi; Trarza · Brakna · Adrar · Tagant adıyla anılır. ⚠️ TDV kasaba düzeyinde SUSUYOR — tanecik boşluğu.",
   kronoloji:[
     { t:"1640-01-01", tur:"kurulus", b:"Hassânî emirlikleri teşekkül etti" },
     { t:"1909-01-01", tur:"son", b:"Fransız fethi tamamlandı" }
@@ -2623,15 +2623,15 @@ window.DEVLETLER = [
 { id:"vasulu", ad:"Vâsûlû Devleti (Samori Ture)", tur:"devlet", bolge:"bati-afrika",
   f:"1878-01-01", t:"1898-09-29", baskent:"Bisandugu",
   ozet:"Samori Ture'nin Yukarı Nijer'de kurduğu, düzenli ordusu ve İslâmî yönetimiyle Fransız ilerleyişine on altı yıl direnen devlet. TDV gine maddesine dayanır.",
-  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: 'Ture din temelli merkezî bir devlet kurdu'; başkenti Bisandugu; Fransız fethi 1898.",
+  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: Ture din temelli merkezî bir devlet kurdu; başkenti Bisandugu; Fransız fethi 1898.",
   kronoloji:[
     { t:"1878-01-01", tur:"kurulus", b:"Samori Ture devleti kurdu" },
     { t:"1881-01-01", tur:"savas", b:"Fransızlarla ilk savaş başladı", kaynak:"TDV: `samori-ture` (200, gövde okundu) — «İlk savaş: 1881»; ertesi yıl «1882: büyük direniş gösterdi»." },
     { t:"1883-01-01", tur:"toprak-kayip", b:"Fransızların Bamako'yu işgali önlenemedi", kaynak:"TDV: `samori-ture` — «Bununla birlikte 1883’te Bamako’nun işgali önlenemedi.»; Britannica ('Samory') aynı yılı veriyor: «when they occupied Bamako on the Niger River»." },
     { t:"1886-01-01", tur:"antlasma", b:"Mart 1886'daki ilk antlaşmayla Bure bölgesi Fransızlara bırakıldı", kaynak:"TDV: `samori-ture` — «Mart 1886’daki ilk anlaşmayla Bure bölgesini, bir yıl sonra ikinci anlaşmada Nijer’in batı yakasını Fransızlar’a bırakmayı kabul etti.»; öncesinde «1885: Bure'de büyük kayıp verdi». Britannica bağımsız olarak «After the French carried out a successful offensive in 1886, Samory accepted their protection with the Niger as his frontier» diyor." },
     { t:"1887-01-01", tur:"antlasma", b:"İkinci antlaşmayla Nijer'in batı yakası Fransızlara bırakıldı", kaynak:"TDV: `samori-ture` — «Bir yıl sonra ikinci antlaşmada Nijer'in batı yakasını Fransızlar'a bırakmayı kabul etti»." },
-    { t:"1887-01-01", tur:"savas", b:"Sikasso kuşatması başladı; on beş ay süren kuşatma Kenedugu kralı Tiéba Traoré tarafından püskürtüldü", kaynak:"TDV: `samori-ture` — «1887 tarihinde Sikasso kuşatmasını başlattı»; Journal of African History (hakemli) ve Britannica ('Sikasso') süreyi veriyor: «lasting fifteen months from March 1887 to June 1888 … The Fàama of Sikasso, Tiéba Traoré, was able to repel Samori»." },
-    { t:"1889-02-13", tur:"antlasma", b:"Fransızlarla son antlaşmayı imzaladı", kaynak:"TDV: `samori-ture` — AYNEN «13 Şubat 1889: Son antlaşmayı imzaladı». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+    { t:"1887-01-01", tur:"savas", b:"Sikasso kuşatması başladı; on beş ay süren kuşatma Kenedugu kralı Tiéba Traoré tarafından püskürtüldü", kaynak:"TDV: `samori-ture` — 1887 tarihinde Sikasso kuşatmasını başlattı; Journal of African History (hakemli) ve Britannica ('Sikasso') süreyi veriyor: «lasting fifteen months from March 1887 to June 1888 … The Fàama of Sikasso, Tiéba Traoré, was able to repel Samori»." },
+    { t:"1889-02-13", tur:"antlasma", b:"Fransızlarla son antlaşmayı imzaladı", kaynak:"TDV: `samori-ture` — AYNEN 13 Şubat 1889: Son antlaşmayı imzaladı. GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
     { t:"1891-01-01", tur:"savas", b:"Fransızlarla yeniden savaşa tutuştu", kaynak:"TDV: `samori-ture` — «Samori 1891’de topraklarına saldıran Fransızlar’la yeniden savaşa tutuştu.»; Britannica bağımsız olarak «he renewed his war with the French in 1891» diyor." },
     { t:"1898-09-29", tur:"son", b:"Samori esir alındı, devlet dağıldı" }
   ]
@@ -2651,10 +2651,10 @@ window.DEVLETLER = [
 { id:"bambara", ad:"Bambara Krallıkları (Segu ve Kaarta)", tur:"krallik", bolge:"bati-afrika",
   f:"1650-01-01", t:"1861-03-10", baskent:"Segu",
   ozet:"Nijer kavsinde Bambara halkının kurduğu iki kardeş krallık (Segu ve Kaarta); tòn örgütlenmesine dayanan askerî yapılarıyla bölgeye uzun süre hâkim oldular. TDV mali maddesine dayanır.",
-  kaynak:"mali — TDV gövdesi bu turda okundu. TDV mali: 'Segu — önemli bir Bambara krallığı merkezi; el-Hâc Ömer 1861'de fethetti.' Kaarta kolu Nioro merkezli, 1854'te düştü. İkisi TEK HALKtır — tanecik: halk.",
+  kaynak:"mali — TDV gövdesi bu turda okundu. TDV mali: Segu — önemli bir Bambara krallığı merkezi; el-Hâc Ömer 1861'de fethetti. Kaarta kolu Nioro merkezli, 1854'te düştü. İkisi TEK HALKtır — tanecik: halk.",
   kronoloji:[
     { t:"1650-01-01", tur:"kurulus", b:"Biton Kulibali Segu krallığını kurdu" },
-    { t:"1854-11-11", tur:"toprak-kayip", b:"Kaarta kolu el-Hâc Ömer Tal'in eline geçti ve İslâm devleti hâline getirildi", kaynak:"TDV: `el-hac-omer` — «Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». Künye adı «Bambara Krallıkları (Segu ve Kaarta)» olduğu için bu, Kaarta kolunun kaybıdır." },
+    { t:"1854-11-11", tur:"toprak-kayip", b:"Kaarta kolu el-Hâc Ömer Tal'in eline geçti ve İslâm devleti hâline getirildi", kaynak:"TDV: `el-hac-omer` — Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu. Künye adı «Bambara Krallıkları (Segu ve Kaarta)» olduğu için bu, Kaarta kolunun kaybıdır." },
     { t:"1861-03-10", tur:"son", b:"el-Hâc Ömer Segu'yu aldı" },
     { t:"1861-03-10", tur:"savas", b:"Segu, el-Hâc Ömer Tal'in ordusuna karşı savunmada düştü ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV: `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Burada girişilen mücadeleden sonra 1861 başlarında bir başka Bambara Krallığı olan Segu’ya girilerek Segu’nun animist krallığı ortadan kaldırıldı.» diyerek doğruluyor." }
   ]
@@ -2674,7 +2674,7 @@ window.DEVLETLER = [
 { id:"mossi-vagadugu", ad:"Mossi Krallığı (Vagadugu)", tur:"krallik", bolge:"bati-afrika",
   f:"1281-01-01", t:"1896-09-01", baskent:"Vagadugu",
   ozet:"Volta havzasında Mogho Naaba unvanlı hükümdarlarca yönetilen, İslâm'a ve Songhay yayılmasına yüzyıllarca direnen Mossi krallığı. TDV burkina-faso maddesine dayanır.",
-  kaynak:"burkina-faso — TDV gövdesi bu turda okundu. TDV burkina-faso: 'XII. yüzyıl sonunda Ouédraogo temel Mossi krallığını kurdu'; 'Fransız askerleri 1896'da Vagadugu'ya girdi, kral kaçtı.'.",
+  kaynak:"burkina-faso — TDV gövdesi bu turda okundu. TDV burkina-faso: XII. yüzyıl sonunda Ouédraogo temel Mossi krallığını kurdu; 'Fransız askerleri 1896'da Vagadugu'ya girdi, kral kaçtı.'.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Ouédraogo soyundan Mossi krallığı kuruldu" },
     { t:"1896-09-01", tur:"son", b:"Fransızlar Vagadugu'ya girdi" }
@@ -2990,7 +2990,7 @@ window.DEVLETLER = [
 { id:"bagirmi", ad:"Bagirmi Sultanlığı", tur:"sultanlik", bolge:"orta-afrika",
   f:"1522-01-01", t:"1897-01-01", baskent:"Massenya",
   ozet:"Şari havzasında kurulan, Bornu ile Vaday arasında sıkışan sultanlık. TDV cad maddesine dayanır.",
-  kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'XVI. yüzyılda Kenkâ halkı tarafından kuruldu'; merkezi Massenya; Fransız himayesi 1897.",
+  kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: XVI. yüzyılda Kenkâ halkı tarafından kuruldu; merkezi Massenya; Fransız himayesi 1897.",
   kronoloji:[
     { t:"1522-01-01", tur:"kurulus", b:"Kenkâ halkı Bagirmi sultanlığını kurdu" },
     { t:"1893-01-01", tur:"isgal", b:"Bağırmi Sultanlığı, Rabih ez-Zübeyr tarafından 1893'te işgal edilip tabi hale getirildi (daha önce 1805'te Vaday tarafından da fethedilmişti).", kaynak:"Encyclopaedia Britannica 'History of Baguirmi' (summary) — WebSearch üzerinden alıntı" },
@@ -3223,7 +3223,7 @@ window.DEVLETLER = [
 { id:"maravi", ad:"Maravi Konfederasyonu", tur:"devlet", bolge:"dogu-afrika",
   f:"1480-01-01", t:"1800-01-01", baskent:"Mankhamba",
   ozet:"Nyasa gölü güneyinde Kalonga unvanlı hükümdarların kurduğu, Chewa halkına dayanan konfederasyon. TDV malavi maddesine dayanır.",
-  kaynak:"malavi — TDV gövdesi bu turda okundu. TDV malavi: 'Malavi Konfederasyonu 1480'de kuruldu' ve XVI. yüzyılda orta ve güney Malavi'nin çoğuna hâkimdi.",
+  kaynak:"malavi — TDV gövdesi bu turda okundu. TDV malavi: Malavi Konfederasyonu 1480'de kuruldu ve XVI. yüzyılda orta ve güney Malavi'nin çoğuna hâkimdi.",
   kronoloji:[
     { t:"1480-01-01", tur:"kurulus", b:"Maravi konfederasyonu kuruldu" },
     { t:"1720-01-01", tur:"bolunme", b:"Portekizli/Arap tüccarlarla ticaret yapan klan liderleri giderek merkezi karonga otoritesinden bağımsızlaştı; 1720'ye gelindiğinde Maravi Konfederasyonu birkaç özerk gruba bölünmüştü.", kaynak:"Encyclopaedia Britannica 'Maravi Confederacy' — WebSearch üzerinden" },
@@ -3256,7 +3256,7 @@ window.DEVLETLER = [
 { id:"lozi", ad:"Lozi (Barotse) Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1600-01-01", t:"1890-06-27", baskent:"Lealui",
   ozet:"Zambezi taşkın ovasında Litunga unvanlı krallarca yönetilen, mevsimlik başşehir göçüyle tanınan Barotse krallığı. TDV zambiya maddesine dayanır.",
-  kaynak:"zambiya — TDV gövdesi bu turda okundu. TDV zambiya: 'Lozi kralı Levanika 1890'da İngiliz Güney Afrika Şirketi'nin himayesini kabul etti.' Merkezi Lealui.",
+  kaynak:"zambiya — TDV gövdesi bu turda okundu. TDV zambiya: Lozi kralı Levanika 1890'da İngiliz Güney Afrika Şirketi'nin himayesini kabul etti. Merkezi Lealui.",
   kronoloji:[
     { t:"1600-01-01", tur:"kurulus", b:"Luyi (Lozi) krallığı teşekkül etti" },
     { t:"1890-06-27", tur:"son", b:"Levanika İngiliz himayesini kabul etti" }
@@ -3505,7 +3505,7 @@ window.DEVLETLER = [
 { id:"antemoro", ad:"Antemoro Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1500-01-01", t:"1897-02-28", baskent:"Vohipeno",
   ozet:"Güneydoğu Madagaskar'da Arap kökenli anteony sınıfının yönettiği, sorabe yazısıyla tanınan krallık. TDV madagaskar maddesine dayanır.",
-  kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: 'Antemoro — güneydoğu kıyısı'; merkezi Vohipeno; Arap yazısı (sorabe) geleneği.",
+  kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: Antemoro — güneydoğu kıyısı; merkezi Vohipeno; Arap yazısı (sorabe) geleneği.",
   kronoloji:[
     { t:"1500-01-01", tur:"kurulus", b:"Antemoro krallığı kuruldu" },
     { t:"1897-02-28", tur:"son", b:"Fransız işgaliyle sona erdi" }
@@ -3538,7 +3538,7 @@ window.DEVLETLER = [
 { id:"merina-oncesi", ad:"İmerina Krallıkları (Merina birleşmesi öncesi)", tur:"krallik", bolge:"dogu-afrika",
   f:"1281-01-01", t:"1787-01-01", baskent:"Ambohimanga",
   ozet:"Andrianampoinimerina'nın birleştirmesinden önce İmerina yaylasındaki rakip Merina krallıkları. TDV madagaskar maddesine dayanır.",
-  kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: 'Merina — orta yaylalar, XVIII. yüzyılda birleşti.' Mevcut `merina` künyesi 1787'de BAŞLIYOR; öncesi bu künyeye ait. Ambohimanga bu dönemin kutsal başkentidir.",
+  kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: Merina — orta yaylalar, XVIII. yüzyılda birleşti. Mevcut `merina` künyesi 1787'de BAŞLIYOR; öncesi bu künyeye ait. Ambohimanga bu dönemin kutsal başkentidir.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"İmerina krallıkları teşekkül etti" },
     { t:"1787-01-01", tur:"son", b:"Andrianampoinimerina İmerina'yı birleştirdi" }
@@ -3576,7 +3576,7 @@ window.DEVLETLER = [
 { id:"bate", ad:"Baté Mandinka Devleti (Kankan)", tur:"devlet", bolge:"bati-afrika",
   f:"1650-01-01", t:"1879-01-01", baskent:"Kankan",
   ozet:"Yukarı Nijer'de Diafunu'dan gelen müslüman Mandinka yerleşimcilerin (Kaba soyu) kurduğu, Kankan merkezli ulemâ devleti; kola ve altın ticaretinin iç kavşağını tuttu, Samori Ture'nin Vâsûlû devletine katıldı. TDV gine maddesine dayanır.",
-  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: 'Kankan — Diafunu'dan gelen müslüman Mandinka yerleşimcilerce kuruldu; Gine'nin iç kesimindeki başlıca şehir oldu' ve 'Baté — aynı Mandinka göç dalgasınca kuruldu'. 🔴 İKİ UCUN DA GÜNÜ KAYNAKLI DEĞİL (§4: YYYY-01-01): f: 1650 Kaba soyunun Baté'ye yerleşmesinin ANLAŞILAN yılıdır, TDV yıl vermez; t: 1879 Samori'nin Kankan'ı alışının standart yılıdır, günü bulunamadı. İkisi de YUVARLAK ve öyle olduğu BURADA yazılı. 📌 Bu künye BİR HATAYI KAPATIYOR: Kankan'a kur:1878 (vasulu'nun f'i) yazmıştım ve bu şehri 1650-1878 arası atlastan SİLİYORDU.",
+  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: Kankan — Diafunu'dan gelen müslüman Mandinka yerleşimcilerce kuruldu; Gine'nin iç kesimindeki başlıca şehir oldu ve 'Baté — aynı Mandinka göç dalgasınca kuruldu'. 🔴 İKİ UCUN DA GÜNÜ KAYNAKLI DEĞİL (§4: YYYY-01-01): f: 1650 Kaba soyunun Baté'ye yerleşmesinin ANLAŞILAN yılıdır, TDV yıl vermez; t: 1879 Samori'nin Kankan'ı alışının standart yılıdır, günü bulunamadı. İkisi de YUVARLAK ve öyle olduğu BURADA yazılı. 📌 Bu künye BİR HATAYI KAPATIYOR: Kankan'a kur:1878 (vasulu'nun f'i) yazmıştım ve bu şehri 1650-1878 arası atlastan SİLİYORDU.",
   kronoloji:[
     { t:"1650-01-01", tur:"kurulus", b:"Diafunu'dan gelen Kaba soyu Baté'ye yerleşti" },
     { t:"1879-01-01", tur:"son", b:"Samori Ture Kankan'ı aldı, Baté Vâsûlû devletine katıldı" }
@@ -4953,7 +4953,7 @@ window.DEVLETLER = [
     { t:"1000-01-01", tur:"kurulus", b:"Hausa şehir devletleri (Kano, Katsina, Zaria, Gobir vd.) bağımsız birimler olarak şekillendi" },
     { t:"1350-01-01", tur:"hukumdar", b:"İslâmiyet ticaret yollarıyla şehirlere yayılmaya başladı" },
     { t:"1804-06-21", tur:"savas", b:"Gobir ordusu Tabkin Kwatto'da Osman b. Fûdî'nin kuvvetlerine yenildi ve cihad karşısındaki ilk büyük kaybını verdi", kaynak:"TDV: `osman-b-fudi` — «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer» (kazanan taraf anlatımıyla). GÜN KAYNAKTAN." },
-    { t:"1806-01-01", tur:"toprak-kayip", b:"Zaria, Sokoto cihad kuvvetlerinin eline geçti", kaynak:"TDV: `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi»." },
+    { t:"1806-01-01", tur:"toprak-kayip", b:"Zaria, Sokoto cihad kuvvetlerinin eline geçti", kaynak:"TDV: `osman-b-fudi` — 1806: Zaria'nın ele geçirilmesi." },
     { t:"1808-01-01", tur:"son", b:"Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı", ic_not_b:"eski b: Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı (bkz. [[sokoto]])" },
     { t:"1808-01-01", tur:"savas", b:"Gobir'in başşehri Alkalava düştü ve Hausa şehir devletlerinin örgütlü direnci sona erdi", kaynak:"TDV: `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` aynı yılı bağımsız olarak veriyor." }
   ]
@@ -4964,15 +4964,15 @@ window.DEVLETLER = [
   kaynak:"sokoto",
   kronoloji:[
     { t:"1804-01-01", tur:"isyan", b:"Osman dan Fodio, Hausa beyliklerine karşı cihad ilan etti" },
-    { t:"1804-06-21", tur:"savas", b:"Tabkin Kwatto muharebesinde Osman b. Fûdî'nin kuvvetleri Gobir ordusunu yenerek cihadın ilk büyük zaferini kazandı", kaynak:"TDV: `osman-b-fudi` (200, gövde okundu) — AYNEN «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
-    { t:"1806-01-01", tur:"toprak-kazanc", b:"Zaria ele geçirildi; aynı yıl Gobir başşehri Alkalava'ya yapılan saldırı başarısız oldu", kaynak:"TDV: `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi; Alkalava'ya yapılan saldırı başarısız»." },
+    { t:"1804-06-21", tur:"savas", b:"Tabkin Kwatto muharebesinde Osman b. Fûdî'nin kuvvetleri Gobir ordusunu yenerek cihadın ilk büyük zaferini kazandı", kaynak:"TDV: `osman-b-fudi` (200, gövde okundu) — AYNEN 21 Haziran 1804: Tabkin Kwatto muharebesinde zafer. GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+    { t:"1806-01-01", tur:"toprak-kazanc", b:"Zaria ele geçirildi; aynı yıl Gobir başşehri Alkalava'ya yapılan saldırı başarısız oldu", kaynak:"TDV: `osman-b-fudi` — 1806: Zaria'nın ele geçirilmesi; Alkalava'ya yapılan saldırı başarısız." },
     { t:"1808-01-01", tur:"toprak-kazanc", b:"Gobir'in başşehri Alkalava fethedildi ve Hausa şehir devletlerinin direnci kırıldı", kaynak:"TDV: `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` bağımsız olarak «1808: Gobir'in başşehri Alkalawa ele geçirildi» diyor." },
     { t:"1809-01-01", tur:"kurulus", b:"Sokoto başkent yapılıp halifelik resmen kuruldu" },
-    { t:"1809-01-01", tur:"toprak-kayip", b:"Bornu, Muhammed Emîn el-Kânemî'nin direnişiyle halifeliğin elinden çıktı", kaynak:"TDV: `osman-b-fudi` — «1809: Bornu'nun Muhammed Emîn el-Kânemî'ye kaybedilmesi»." },
+    { t:"1809-01-01", tur:"toprak-kayip", b:"Bornu, Muhammed Emîn el-Kânemî'nin direnişiyle halifeliğin elinden çıktı", kaynak:"TDV: `osman-b-fudi` — 1809: Bornu'nun Muhammed Emîn el-Kânemî'ye kaybedilmesi." },
     { t:"1817-01-01", tur:"hukumdar", b:"Muhammed Bello döneminde halifelik zirvesine ulaştı" },
-    { t:"1817-04-20", tur:"hukumdar", b:"Osman b. Fûdî Sokoto'da öldü ve yerine oğlu Muhammed Bello geçti", kaynak:"TDV: `osman-b-fudi` — AYNEN «3 Cemâziyelâhir 1232 (20 Nisan 1817): Osman b. Fûdî'nin ölümü», «yerine oğlu Muhammed Bello geçti». GÜN HEM HİCRÎ HEM MÎLÂDÎ OLARAK KAYNAKTAN GELİYOR." },
-    { t:"1849-01-01", tur:"bolunme", b:"Yakubu, Kebbi'de bağımsızlığını ilân ederek halifelikten ayrıldı", kaynak:"TDV: `sokoto` — «1849: Yakubu Kebbi'de bağımsızlığını ilân etti»." },
-    { t:"1903-03-15", tur:"isgal", b:"İngiliz kuvvetleri Sokoto'yu işgal etti ve halifeliğin siyasî yetkisi elinden alındı", kaynak:"TDV: `sokoto` — «1903: İngiliz işgali (15 Mart)»; aynı gövde 1902'de Muhammed et-Tâhir'in sultan seçildiğini, 1903'ten sonra yalnız dinî önderliğin kaldığını yazıyor. GÜN KAYNAKTAN." },
+    { t:"1817-04-20", tur:"hukumdar", b:"Osman b. Fûdî Sokoto'da öldü ve yerine oğlu Muhammed Bello geçti", kaynak:"TDV: `osman-b-fudi` — AYNEN 3 Cemâziyelâhir 1232 (20 Nisan 1817): Osman b. Fûdî'nin ölümü, «yerine oğlu Muhammed Bello geçti». GÜN HEM HİCRÎ HEM MÎLÂDÎ OLARAK KAYNAKTAN GELİYOR." },
+    { t:"1849-01-01", tur:"bolunme", b:"Yakubu, Kebbi'de bağımsızlığını ilân ederek halifelikten ayrıldı", kaynak:"TDV: `sokoto` — 1849: Yakubu Kebbi'de bağımsızlığını ilân etti." },
+    { t:"1903-03-15", tur:"isgal", b:"İngiliz kuvvetleri Sokoto'yu işgal etti ve halifeliğin siyasî yetkisi elinden alındı", kaynak:"TDV: `sokoto` — 1903: İngiliz işgali (15 Mart); aynı gövde 1902'de Muhammed et-Tâhir'in sultan seçildiğini, 1903'ten sonra yalnız dinî önderliğin kaldığını yazıyor. GÜN KAYNAKTAN." },
     { t:"1903-07-27", tur:"son", b:"Son sultan Muhammed Tahir İngilizlere karşı savaşırken öldürüldü, siyasi egemenlik sona erdi" }
   ]
 },
@@ -4986,7 +4986,7 @@ window.DEVLETLER = [
     { t:"1826-01-01", tur:"savas", b:"Aşanti baskısı altındaki Fante ve Ga kabilelerinin desteğini alan İngilizler Aşanti ordusunu geri püskürttü", kaynak:"Encyclopaedia Britannica, 'Asante empire' — «The British (with the help of tribes oppressed by the Asante, including the Fante and the Ga) beat the Asante back in 1826»." },
     { t:"1874-01-01", tur:"toprak-kayip", b:"Kumasi'nin yıkılmasının ardından güneybatı Gana Altın Sahili adıyla İngiliz sömürgesi hâline getirildi", kaynak:"TDV: `gana` (200, gövde okundu) — «Bu seferler sonunda Aşantiler’in merkezi olan Kumasi şehri tahrip edildi ve ülkenin güneybatı tarafı Altın Sahili adıyla sömürge haline getirildi (1874).»; Britannica 'Asante empire' bağımsız olarak «a British force under General Sir Garnet Wolseley … defeated the Ashanti army and burned their capital of Kumasi» diyor." },
     { t:"1874-02-04", tur:"savas", b:"İngilizler Kumasi'yi yakıp yıktı" },
-    { t:"1901-01-01", tur:"isgal", b:"Aşanti toprakları İngiliz idaresine alındı", kaynak:"TDV: `gana` — «1901: Aşanti toprakları İngiliz idaresi altına girdi»; ertesi yıl «1902: bugünkü Gana'nın tamamı İngiliz sömürgesi oldu». Britannica 'Asante empire' son adımı gün vererek doğruluyor: «Asante was formally declared a British crown colony on January 1, 1902»." },
+    { t:"1901-01-01", tur:"isgal", b:"Aşanti toprakları İngiliz idaresine alındı", kaynak:"TDV: `gana` — 1901: Aşanti toprakları İngiliz idaresi altına girdi; ertesi yıl «1902: bugünkü Gana'nın tamamı İngiliz sömürgesi oldu». Britannica 'Asante empire' son adımı gün vererek doğruluyor: «Asante was formally declared a British crown colony on January 1, 1902»." },
     { t:"1902-01-01", tur:"son", b:"Dördüncü Anglo-Aşanti Savaşı sonunda krallık resmen ilhak edildi" }
   ]
 },
@@ -5101,7 +5101,7 @@ window.DEVLETLER = [
     { t:"1300-01-01", tur:"kurulus", b:"Kintu hanedanı Buganda Krallığı'nı kurdu" },
     { t:"1894-06-18", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
   ,
-    { t:"1854-01-01", kesinlik:"yil", tur:"hukumdar", b:"Kabaka I. Mutesa (Mutesa I) tahta çıktı; 1884'e kadar hüküm sürdü", kaynak:"TDV: uganda — «Kral II. Suna’nın … Kur’ân-ı Kerîm’i yerine geçen oğlu I. Mutasa’ya (1854-1884) bıraktığı» — I. Mutesa'nın saltanatı 1854'te başlıyor (önceki kral II. Suna «1836-1854»). YIL. Encyclopaedia Britannica 'Mutesa I' tahta çıkış yılı VERMİYOR (yalnız «died October 1884»). Gün kaynaksız ⇒ YYYY-01-01.", ic_not_t:"eski t: 1856-01-01 — eski kaynak: «TDV uganda (bu turda okundu: 'Kral I. Mutasa dönemi (1854-1884)'). Yıl aralığı 1854-1856 arası verilerde küçük fark var, 1856 tercih edildi ve fark AÇIKÇA yazıldı.» 1856'nın dayanağı ADIYLA yazılmamıştı; aynı olay ⇒ TDV'ye çekildi (W51b)" }
+    { t:"1854-01-01", kesinlik:"yil", tur:"hukumdar", b:"Kabaka I. Mutesa (Mutesa I) tahta çıktı; 1884'e kadar hüküm sürdü", kaynak:"TDV: uganda — «Kral II. Suna’nın … Kur’ân-ı Kerîm’i yerine geçen oğlu I. Mutasa’ya (1854-1884) bıraktığı» — I. Mutesa'nın saltanatı 1854'te başlıyor (önceki kral II. Suna «1836-1854»). YIL. Encyclopaedia Britannica 'Mutesa I' tahta çıkış yılı VERMİYOR (yalnız «died October 1884»). Gün kaynaksız ⇒ YYYY-01-01.", ic_not_t:"eski t: 1856-01-01 — eski kaynak: «TDV uganda (bu turda okundu: Kral I. Mutasa dönemi (1854-1884)). Yıl aralığı 1854-1856 arası verilerde küçük fark var, 1856 tercih edildi ve fark AÇIKÇA yazıldı.» 1856'nın dayanağı ADIYLA yazılmamıştı; aynı olay ⇒ TDV'ye çekildi (W51b)" }
   ]
 },
 { id:"zulu-kralligi", ad:"Zulu Krallığı", tur:"krallik", bolge:"guney-afrika",
@@ -6453,7 +6453,7 @@ window.DEVLETLER = [
 },
 { id:"haydarabad-nizam", ad:"Haydarabad Nizamlığı (Âsafcâh Hanedanı)", tur:"devlet", bolge:"guney-asya",
   f:"1724-10-11", t:"1948-09-17", baskent:"Haydarabad",
-  ozet:"Nizâmülmülk Âsafcâh'ın Babür'ün Dekken valiliğinden fiilen bağımsızlaşmasıyla kurulan, Hindistan'ın en büyük prens devleti; 1766'dan itibaren İngiliz himayesine girdi. 🟢 DÜZELTİLDİ (KITA 1, 1.MURAT'ın D030 uyarısı üzerine) — işgal ile tasarruf devri AYRI: Hindistan'ın 'Operation Polo' harekâtı 13 Eylül 1948'de BAŞLADI, Nizam'ın orduları ve fiilî tasarruf 17 Eylül 1948'de TESLİM oldu — t: (1948-09-17) TESLİM gününü esas alıyor, işgalin başlangıcını değil (atlas seferi değil tasarrufu boyar). (kaynak: TDV, madde: haydarabad-nizamligi — \"Bağımsızlığını 11 Ekim 1724'te ilan etmiştir\")",
+  ozet:"Nizâmülmülk Âsafcâh'ın Babür'ün Dekken valiliğinden fiilen bağımsızlaşmasıyla kurulan, Hindistan'ın en büyük prens devleti; 1766'dan itibaren İngiliz himayesine girdi. 🟢 DÜZELTİLDİ (KITA 1, 1.MURAT'ın D030 uyarısı üzerine) — işgal ile tasarruf devri AYRI: Hindistan'ın 'Operation Polo' harekâtı 13 Eylül 1948'de BAŞLADI, Nizam'ın orduları ve fiilî tasarruf 17 Eylül 1948'de TESLİM oldu — t: (1948-09-17) TESLİM gününü esas alıyor, işgalin başlangıcını değil (atlas seferi değil tasarrufu boyar). (kaynak: TDV, madde: haydarabad-nizamligi — Bağımsızlığını 11 Ekim 1724'te ilan etmiştir)",
   kaynak:"haydarabad-nizamligi",
   kronoloji:[
     { t:"1724-10-11", tur:"kurulus", b:"Nizâmülmülk Âsafcâh bağımsızlığını ilan etti" },
@@ -7383,14 +7383,14 @@ window.DEVLETLER = [
   ozet:"Vaal'in kuzeyindeki Afrikaner cumhuriyeti; bağımsızlığı İngiltere 1852 Sand River Konvansiyonu'yla TANIDI. II. Boer Savaşı'nı bitiren Vereeniging Barışı'yla ilhak edildi. ⚠️ `f:` YIL BEYANIDIR — 1852'nin günü kaynakta yok, `YYYY-01-01` kuralı uygulandı; `t:` ise KESİN GÜNDÜR.",
   kaynak:"Cambridge University Press — 'English in Multilingual South Africa' içindeki Güney Afrika tarih kronolojisi (üniversite yayını). Sand River Konvansiyonu 1852 (gün kaynakta YOK, yıl beyanı); Vereeniging Barış Antlaşması 31 Mayıs 1902, kesin gün. South African History Online aynı tarihleri veriyordu ama TEK DAYANAK yapılmadı.",
   kronoloji:[
-          { t:"1852-01-17", tur:"kurulus", b:"Sand River Konvansiyonu ile Britanya Vaal ırmağının ötesindeki bütün otorite iddialarından vazgeçti ve Transvaal Boerlerinin bağımsızlığını tanıdı", kaynak:"South African History Online, dated-event 'Sand River Convention' — gövdede AYNEN: «Britain renounces all claims to authority beyond the Vaal River», tarih 17 January 1852. YIL teyidi bağımsız ikinci kaynaktan: TDV `guney-afrika-cumhuriyeti` (200, gövde okundu) «1852-1854: Transvaal ve Orange cumhuriyetlerinin bağımsızlığı tanındı»." },
-          { t:"1877-04-12", tur:"isgal", b:"Theophilus Shepstone ilhak beyannamesini Pretoria'daki Kilise Meydanı'nda okuyarak cumhuriyeti Britanya'ya kattı", kaynak:"South African History Online — «On 12 April 1877 a proclamation of annexation was read out in Church Square in Pretoria, the capital of the Transvaal Republic.» YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1877: İngilizlerin Transvaal'i ilhakı»." },
-          { t:"1881-02-27", tur:"savas", b:"Majuba Tepesi Muharebesi'nde Boerler İngiliz kuvvetlerini bozguna uğrattı ve Birinci Boer Savaşı'nı kazandı", kaynak:"South African History Online, dated-event 'The First Anglo-Boer War: Boers defeat the British at the Battle of Majuba' — 27 February 1881. YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1881: Majuba Hill Savaşı'nda Boerlerin zaferi»." },
+          { t:"1852-01-17", tur:"kurulus", b:"Sand River Konvansiyonu ile Britanya Vaal ırmağının ötesindeki bütün otorite iddialarından vazgeçti ve Transvaal Boerlerinin bağımsızlığını tanıdı", kaynak:"South African History Online, dated-event 'Sand River Convention' — gövdede AYNEN: «Britain renounces all claims to authority beyond the Vaal River», tarih 17 January 1852. YIL teyidi bağımsız ikinci kaynaktan: TDV `guney-afrika-cumhuriyeti` (200, gövde okundu) 1852-1854: Transvaal ve Orange cumhuriyetlerinin bağımsızlığı tanındı." },
+          { t:"1877-04-12", tur:"isgal", b:"Theophilus Shepstone ilhak beyannamesini Pretoria'daki Kilise Meydanı'nda okuyarak cumhuriyeti Britanya'ya kattı", kaynak:"South African History Online — «On 12 April 1877 a proclamation of annexation was read out in Church Square in Pretoria, the capital of the Transvaal Republic.» YIL teyidi: TDV `guney-afrika-cumhuriyeti` 1877: İngilizlerin Transvaal'i ilhakı." },
+          { t:"1881-02-27", tur:"savas", b:"Majuba Tepesi Muharebesi'nde Boerler İngiliz kuvvetlerini bozguna uğrattı ve Birinci Boer Savaşı'nı kazandı", kaynak:"South African History Online, dated-event 'The First Anglo-Boer War: Boers defeat the British at the Battle of Majuba' — 27 February 1881. YIL teyidi: TDV `guney-afrika-cumhuriyeti` 1881: Majuba Hill Savaşı'nda Boerlerin zaferi." },
           { t:"1881-08-03", tur:"antlasma", b:"Pretoria Konvansiyonu ile Transvaal, Kraliçe'nin metbûluğu altında tam iç muhtariyet kazandı", kaynak:"South African History Online arşivi — belgenin kendi başlığı: «The convention of Pretoria, 'Convention' for the Settlement of the Transvaal Territory, 3 August 1881»." },
           { t:"1884-02-27", tur:"antlasma", b:"Londra Konvansiyonu batı sınırını yeniden çizdi ve Britanya'nın metbûluk iddiasına yapılan bütün atıfları metinden çıkardı", kaynak:"Encyclopaedia Britannica, 'London Convention (United Kingdom-Transvaal, 1884)' ve 'Sir Hercules Robinson' maddeleri — «concluded a new convention in London on February 27, 1884, which rectified the western border and removed any reference to British suzerainty over the Transvaal»." },
           { t:"1895-12-29", tur:"isyan", b:"Jameson Baskını başladı: İngiliz görevlileri ve maden sanayii önderleri Transvaal hükûmetini devirmek için silâhlı bir akın düzenledi ve 2 Ocak 1896'da başarısız oldu", kaynak:"Encyclopaedia Britannica, 'Jameson Raid (1895)' — «began on December 29, 1895, and ended on January 2, 1896»." },
           { t:"1897-01-01", tur:"ittifak", b:"Transvaal ile Oranj Hür Devleti arasında savunma ittifakı kuruldu", kaynak:"Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' maddeleri — «a defensive alliance», Steyn başkanlığında 1897'de akdedildi." },
-          { t:"1899-10-11", tur:"savas", b:"İkinci Boer Savaşı başladı; Transvaal ve Oranj Hür Devleti birlikte Britanya'ya karşı savaşa girdi", kaynak:"Encyclopaedia Britannica, 'South African War' — «occurred from October 11, 1899, to May 31, 1902». YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1899-1902: İkinci Boer Savaşı»." },
+          { t:"1899-10-11", tur:"savas", b:"İkinci Boer Savaşı başladı; Transvaal ve Oranj Hür Devleti birlikte Britanya'ya karşı savaşa girdi", kaynak:"Encyclopaedia Britannica, 'South African War' — «occurred from October 11, 1899, to May 31, 1902». YIL teyidi: TDV `guney-afrika-cumhuriyeti` 1899-1902: İkinci Boer Savaşı." },
           { t:"1900-01-01", tur:"toprak-kayip", b:"Britanya Haziran 1900'de başşehir Pretoria'yı işgal etti ve Eylül 1900'de Transvaal'i resmen ilhak ettiğini ilân etti", kaynak:"Encyclopaedia Britannica, 'South African Republic' — «The British were able to occupy the capital, Pretoria, in June 1900, and in September they formally annexed the Transvaal.»" },
           { t:"1902-05-31", tur:"son", b:"Vereeniging Barışı ile Transvaal bağımsızlığını yitirdi ve İngiliz sömürgesi hâline geldi", kaynak:"Künyenin kendi `kaynak` alanındaki Cambridge University Press kronolojisi (üniversite yayını) ile Encyclopaedia Britannica 'South African War' (bitiş 31 Mayıs 1902) BAĞIMSIZ olarak aynı günü veriyor." }
         ]
@@ -7448,10 +7448,10 @@ window.DEVLETLER = [
 { id:"massina", ad:"Masina Halifeliği (Hamdullahi)", tur:"devlet", bolge:"bati-afrika",
   f:"1818-01-01", t:"1862-05-16", baskent:"Hamdullahi",
   ozet:"Nijer İç Deltası'nda Seku Amadu (Ahmedu Lobbo) tarafından kurulan Fulani halifeliği; Cenne ve Tinbuktu'yu hâkimiyeti altına aldı. Umar Taal'ın birlikleri yedi günlük savaşın ardından başkent Hamdallahi'ye girince sona erdi. ⚠️ İki uç da YIL BEYANIDIR (gün kaynakta yok); ama kaynak devleti 'kırk dört yıllık' diye niteliyor ve 1818+44=1862 — yani iki tarih birbirini KENDİ İÇİNDE doğruluyor.",
-  kaynak:"Cambridge History of Africa / Journal of African History (hakemli). Birebir: '1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU'; 'halifelik Cenne ve Tinbuktu'nun eski şehirlerini hâkimiyeti altına aldı, başkenti HAMDULLAHİ'; '1862'de Umar Taal'ın birlikleri yedi günlük bir savaşın ardından başkent Hamdallahi'ye girdi'. İKİNCİ KAYNAK bağımsız doğruluyor — TDV `mali`: 'Massina Devleti: Ahmedu Lobbo tarafından kurulmuş, sınırları Cenne'den Tinbuktu'ya uzanıyordu'; TDV `cenne` 1830 cami inşasını Ahmedu Lobbo'ya bağlıyor.",
+  kaynak:"Cambridge History of Africa / Journal of African History (hakemli). Birebir: '1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU'; 'halifelik Cenne ve Tinbuktu'nun eski şehirlerini hâkimiyeti altına aldı, başkenti HAMDULLAHİ'; '1862'de Umar Taal'ın birlikleri yedi günlük bir savaşın ardından başkent Hamdallahi'ye girdi'. İKİNCİ KAYNAK bağımsız doğruluyor — TDV `mali`: Massina Devleti: Ahmedu Lobbo tarafından kurulmuş, sınırları Cenne'den Tinbuktu'ya uzanıyordu; TDV `cenne` 1830 cami inşasını Ahmedu Lobbo'ya bağlıyor.",
   kronoloji:[
           { t:"1818-01-01", tur:"kurulus", b:"Fulani âlimi Seku Amadu ve taraftarları Nijer içdeltasında bir din devleti kurup Hamdullahi'yi başşehir yaptı", kaynak:"Künyenin kendi `kaynak` alanı Cambridge History of Africa / Journal of African History'yi (hakemli) birebir alıntılıyor: «1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU». History in Africa (Cambridge, hakemli) bağımsız olarak aynı yılı veriyor: «In 1818, a Fulani Muslim scholar of humble origins named Seeku Amadu and his followers created the laamu diina (theocratic state), a caliphate centered around a new capital city they erected, named Ḥamdullāhi»." },
-          { t:"1862-05-16", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"GÜN: TDV `mali` — «Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti» · «Mâsînâ da 16 Mayıs 1862 tarihinde el-Hâc Ömer ile yapılan savaşla tarihe karıştı» (KUNYE-DORT 19 Eyl 2026). TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
+          { t:"1862-05-16", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"GÜN: TDV `mali` — «Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti» · «Mâsînâ da 16 Mayıs 1862 tarihinde el-Hâc Ömer ile yapılan savaşla tarihe karıştı» (KUNYE-DORT 19 Eyl 2026). TDV `el-hac-omer` (200, gövde okundu) — Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
           { t:"1862-05-16", tur:"son", b:"Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı", kaynak:"GÜN: TDV `mali` «16 Mayıs 1862 tarihinde … tarihe karıştı». History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor." }
         ,
     { t:"1845-01-01", tur:"hukumdar", b:"Kurucu Sekû Ahmedû'nun oğlu Ahmedû II (Amadu Seku), Masina Halifeliği'nin ikinci Almamisi olarak tahta çıktı", kaynak:"Cambridge History of Africa / Journal of African History (hakemli, künyenin mevcut maddelerinde zaten kullanılan aynı kaynak ailesi) + çevrimiçi ikincil kaynaklarla ('Amadu II of Masina') doğrulandı." }
@@ -7463,12 +7463,12 @@ window.DEVLETLER = [
   kaynak:"TDV `el-hac-omer`: başlangıç AY HASSASİYETİNDE — 'Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti'; ve devletin '1893-1894 yıllarında' Fransızlarca işgal edildiği. 🔴 ÇELİŞKİ: TDV `mali` maddesi Fransız fetihlerini 'Bamako (1883), Segu ve Sikasso (1898)' diye veriyor — Toucouleur'un başkenti Segu olduğu için beş yıllık bir fark doğuyor. SEÇİM VE GEREKÇESİ: `t:1893-01-01` alındı, çünkü `el-hac-omer` maddesi DOĞRUDAN bu devleti anlatıyor, `mali` maddesi ise bölgenin fetih zincirini sayarken ondan GEÇERKEN bahsediyor — konusu o olan kaynak, ondan bahseden kaynağı yener. ⚠️ ÖLÇÜLMEDİ: `mali` maddesindeki 1898'in aynı cümlede andığı Sikasso'nun Toucouleur başkenti OLMADIĞI, dolayısıyla o tarihin başka bir siyasî gövdeye ait olabileceği bir İHTİMALDİR, ölçüm değildir. Çelişki kapanmadı, KAYDEDİLDİ.",
   kronoloji:[
           { t:"1852-01-01", tur:"kurulus", b:"El-Hâc Ömer Tal, Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti ve Umarî devletinin temelini attı", kaynak:"TDV: `el-hac-omer` (200, gövde okundu) — AYNEN: «Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti». Künyenin kendi `kaynak` alanı da bu maddeye dayanıyor." },
-          { t:"1854-11-11", tur:"toprak-kazanc", b:"Kaarta ele geçirilerek İslâm devleti hâline getirildi", kaynak:"TDV: `el-hac-omer` — «1854: Yelimane, Bambuk ve Farabanna ele geçirildi; Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
-          { t:"1857-01-01", tur:"savas", b:"Medine'deki Fransız kalesine 25.000 kişilik kuvvetle saldırdı, kuşatma Fransızlarca püskürtüldü", kaynak:"TDV: `el-hac-omer` — «Medine: 1857 — 25.000 askerle Fransız kalesine saldırıldı; Fransız kuvvetlerince püskürtüldü»." },
+          { t:"1854-11-11", tur:"toprak-kazanc", b:"Kaarta ele geçirilerek İslâm devleti hâline getirildi", kaynak:"TDV: `el-hac-omer` — 1854: Yelimane, Bambuk ve Farabanna ele geçirildi; Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu. GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+          { t:"1857-01-01", tur:"savas", b:"Medine'deki Fransız kalesine 25.000 kişilik kuvvetle saldırdı, kuşatma Fransızlarca püskürtüldü", kaynak:"TDV: `el-hac-omer` — Medine: 1857 — 25.000 askerle Fransız kalesine saldırıldı; Fransız kuvvetlerince püskürtüldü." },
           { t:"1861-03-10", tur:"toprak-kazanc", b:"Segu ele geçirildi ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV: `el-hac-omer` — «Burada girişilen mücadeleden sonra 1861 başlarında bir başka Bambara Krallığı olan Segu’ya girilerek Segu’nun animist krallığı ortadan kaldırıldı.»; GÜN, aynı olayın öteki tarafındaki `bambara` künyesinin TDV `mali`ye dayanan `son` maddesinden geliyor: «1861-03-10 — el-Hâc Ömer Segu'yu aldı». İki TDV maddesi, iki taraf, aynı gün." },
-          { t:"1862-01-01", tur:"toprak-kazanc", b:"Hamdullahi alınarak Masina Halifeliği'nin toprakları devlete katıldı", kaynak:"TDV: `el-hac-omer` — «Hamdallahi: 1862 — Masina başşehri ele geçirildi»." },
+          { t:"1862-01-01", tur:"toprak-kazanc", b:"Hamdullahi alınarak Masina Halifeliği'nin toprakları devlete katıldı", kaynak:"TDV: `el-hac-omer` — Hamdallahi: 1862 — Masina başşehri ele geçirildi." },
           { t:"1864-02-14", tur:"hukumdar", b:"El-Hâc Ömer Tal Degembere'de bir mağara yangınında öldü ve yerine oğlu Ahmed el-Kebîr el-Medenî geçti", kaynak:"TDV: `el-hac-omer` — AYNEN «14 Şubat 1864», Degembere'de mağara yangını; «oğlu Ahmed el-Kebîr el-Medenî (Ahmed Tâl) yerine geçti»." },
-          { t:"1893-01-01", tur:"son", b:"Fransız fethiyle Umarî devleti sona erdi", kaynak:"TDV: `el-hac-omer` — «devlet 1893-1894 Fransız fethine kadar sürdü»; Encyclopaedia Britannica ('Ahmadu Seku') bağımsız olarak «Col. Louis Archinard … led to the final conquest of Ségou in 1893» diyor. Künyenin `t:` değeri de 1893-01-01." }
+          { t:"1893-01-01", tur:"son", b:"Fransız fethiyle Umarî devleti sona erdi", kaynak:"TDV: `el-hac-omer` — devlet 1893-1894 Fransız fethine kadar sürdü; Encyclopaedia Britannica ('Ahmadu Seku') bağımsız olarak «Col. Louis Archinard … led to the final conquest of Ségou in 1893» diyor. Künyenin `t:` değeri de 1893-01-01." }
         ]
 }
 ,
@@ -7489,7 +7489,7 @@ window.DEVLETLER = [
   ] },
 { id:"filistin-mandasi", ad:"İngiliz Filistin Mandası", bolge:"arabistan", f:"1920-07-01", t:"1948-05-14",
   ozet:"Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
-  kaynak:"TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\" · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
+  kaynak:"TDV, madde: filistin — 1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
   kronoloji:[
     { t:"1920-07-01", tur:"kurulus", b:"Filistin'de İngiliz mülkî manda idaresi kuruldu (askerî işgal 1917'den beri sürüyordu)", kaynak:"TDV: filistin — «İngiltere, Temmuz 1920 tarihinden itibaren Filistin’de bir sivil manda yönetimi kurdu» — AY (gün TDV'de yok)" },
     { t:"1922-07-24", tur:"antlasma", b:"Milletler Cemiyeti, İngiltere'nin Filistin mandasını resmen onayladı", kaynak:"TDV: filistin — «İngiltere’nin Filistin ve Ürdün üzerinde kurduğu manda idaresi 24 Temmuz 1922’de Milletler Cemiyeti tarafından da onaylandı.»" },
@@ -7590,7 +7590,7 @@ window.DEVLETLER = [
 { id:"ammarogullari", ad:"Ammâroğulları (Trablusgarp)", tur:"beylik", bolge:"kuzey-afrika", f:"1327-01-01", t:"1401-01-01",
   baskent:"Trablus",
   ozet:"Hafsîler'in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp'ta kurulan ve 74 yıl süren mahallî hânedan; sonrasında şehir yeniden Hafsî hâkimiyetine döndü ve 1510'a kadar öyle kaldı. 🔴 `f:`/`t:` GÜN DEĞİL YIL hassasiyetindedir: TDV hicrî+mîlâdî çift veriyor (727/1327 · 803/1401), gün vermiyor ⇒ `§4`ün «yıl biliniyor, gün bilinmiyor» yazımı. 🟡 Hânedanın Trablus şehri DIŞINDA hangi yerleşimleri tuttuğu ÖLÇÜLEMEDİ — kaynak bir menzil vermiyor.",
-  kaynak:"TDV **`ammarogullari--trablusgarp`** (HTTP 200, 10.232 kar., başlık «AMMÂROĞULLARI») — MÜSTAKİL MADDE VAR. AYNEN: «Hevvâre Berberî kabilesinin Zâkûga koluna mensup olan Sâbit b. Ammâr Trablusgarp'a hâkim oldu ve böylece Benî Ammâr (Benî Sâbit) hânedanının temelleri atılmış oldu (727/1327).» ve «Böylece Ammâroğulları hânedanı da sona ermiş oldu (803/1401).» Destekleyen: TDV `trablusgarp` «…kuruldu (727/1327) ve 803 (1401) yılına kadar devam etti» · TDV `libya` «AMMÂROĞULLARI 1327-1401 yılları arasında Trablusgarp'ta hüküm süren bir hânedan.»",
+  kaynak:"TDV **`ammarogullari--trablusgarp`** (HTTP 200, 10.232 kar., başlık «AMMÂROĞULLARI») — MÜSTAKİL MADDE VAR. AYNEN: «Hevvâre Berberî kabilesinin Zâkûga koluna mensup olan Sâbit b. Ammâr Trablusgarp'a hâkim oldu ve böylece Benî Ammâr (Benî Sâbit) hânedanının temelleri atılmış oldu (727/1327).» ve «Böylece Ammâroğulları hânedanı da sona ermiş oldu (803/1401).» Destekleyen: TDV `trablusgarp` «…kuruldu (727/1327) ve 803 (1401) yılına kadar devam etti» · TDV `libya` AMMÂROĞULLARI 1327-1401 yılları arasında Trablusgarp'ta hüküm süren bir hânedan.",
   kronoloji:[
     { t:"1327-01-01", tur:"kurulus", b:"Ammâroğulları hânedanı Trablusgarp'ta kuruldu — Hafsî hâkimiyetinin kesintiye uğraması", kaynak:"TDV: `trablusgarp` — AYNEN: «Hafsîler'in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp'ta Ammâroğulları hânedanı kuruldu (727/1327)». 🔴 Hicrî 727 = mîlâdî 1327; GÜN YOK ⇒ YYYY-01-01." },
     { t:"1347-01-01", tur:"toprak-kazanc", b:"Emir Muhammed b. Sâbit, Cerbe adasını kuşatarak ele geçirdi.", kaynak:"TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi (islamansiklopedisi.org.tr/ammarogullari--trablusgarp)" },
@@ -7715,7 +7715,7 @@ window.DEVLETLER = [
   kaynak:"TDV `kuveyt` — «Hindistan genel valisi Lord Curzon yüzbaşı Mead'i Küveyt'e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899)» ve «uzunca bir süre Türk hâkimiyetinde kaldıktan sonra İngiliz himayesinde bir şeyhliğe dönüştü». 🟡 `f:`/`t:` VERİDEN DEVRALINDI; TDV bu iki günü VERMİYOR. Veri iki dönem taşıyor (1795-04-01→1871-01-01 himaye, 1871-01-01→1914-11-22 kazâ); künye ikisini de kapsıyor.",
   kronoloji:[
     { t:"1896-01-01", tur:"bolunme", b:"Şeyh Muhammed es-Sabah bir suikast sonucu öldürüldü, ailesi içinde iktidar mücadelesi başladı", kaynak:"TDV: kuveyt — \"Şeyh Abdullah’ın yerine geçen Şeyh Muhammed es-Sabâh, Osmanlı Devleti’ne bağlılığını sürdürürken bir suikast sonucu öldürüldü (1896).\", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi." },
-    { t:"1897-01-01", tur:"vassal", b:"Osmanlı merkezi yönetimi, aile içi çekişmenin yatışmasını bekledikten ve İngiltere'den yardım talebi endişesiyle, Mübârek es-Sabâh'ın kaymakamlığını onayladı", kaynak:"TDV: kuveyt — \"taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı\". Gün YOK, YYYY-01-01 kaba." },
+    { t:"1897-01-01", tur:"vassal", b:"Osmanlı merkezi yönetimi, aile içi çekişmenin yatışmasını bekledikten ve İngiltere'den yardım talebi endişesiyle, Mübârek es-Sabâh'ın kaymakamlığını onayladı", kaynak:"TDV: kuveyt — taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı. Gün YOK, YYYY-01-01 kaba." },
     { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV: kuveyt — «Hindistan genel valisi Lord Curzon yüzbaşı Mead’i Küveyt’e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899).»" },
     { t:"1914-11-22", tur:"son", b:"I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
   ] },

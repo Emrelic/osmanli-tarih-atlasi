@@ -222,3 +222,30 @@ hedefin kendi maddesi söylüyor** ✓ · 30 km ✓ · zincirleme değil ✓). M
 - TDV arama sayfası (`/arama/?q=…`, `&p=t` dahil) curl ile **madde bağlantısı döndürmedi** (çirmen gibi canlı madde için de);
   `ARAC-TDV-CIKARICI-1006.py baslik` (`&p=m`) çalıştı ⇒ bu arama yolu ADAY üretiyor, düz sorgu üretmiyor.
 - Değişmez 8 · `odak_olc.py` · `denetle_yayin.py`: koşturulmadı (taze ağaç; yeni maddenin `yer_id`si mevcut yerleşim adı).
+
+---
+
+## 7. EK (koordinatör sorusu) — 2sk +2 için seçenek B meşru mu?
+**Ölçüm** (temel `cb379aa1`, iki diff geçici uygulandı; `denetle.py`nin KENDİ `_2s_yeri_aniyor` / `_2s_tarafi_aniyor`
+işlevleri ±30 gün penceresinde birim birim çağrıldı):
+
+| birim | YER kolu | TARAF kolu (kapatan maddeler) |
+|---|---|---|
+| Lugos 1918-11-11 habsburg→naiplik | 0 | 7 — başta `olaylar_ok109.js:111` "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi" |
+| Lugos 1920-06-04 naiplik→romanya | 0 | **1 — `olaylar_ok109.js:151` Trianon** |
+| Temeşvar · Yanova, aynı iki gün | 0 | aynı maddeler (bugün tavanın İÇİNDE, aynı sınıf) |
+
+**Trianon maddesi, birebir** (`olaylar_ok109.js:151-155`):
+- b: *"Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti"*
+- d: *"… Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı
+  sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve
+  Yukarı Macaristan da tam bu gün Romanya ve Çekoslovakya rengine geçer."*
+
+**HÜKÜM: HAYIR.** Madde Romanya'ya geçen kesimi **Erdel** olarak adlandırıyor; **Banat'ı ve Lugos'un bulunduğu Macar–Romen
+sınır kesimini anmıyor** (yalnız genel "üçte iki" cümlesi). Lugos Banat'tadır (Krassó-Szörény), Erdel'de değil. Lugos'u bu
+maddeye YER olarak eklemek tesadüfî kapanma imalatı olur ⇒ **B YASAK, `1006b.diff` YAZILMADI.**
+**Tavan:** 2sk 2247 → **2249**, gerekçe: Lugos'un iki birimi Temeşvar/Yanova ile aynı F8 Banat sınıfında, aynı maddelerle
+yalnız TARAF kolundan kapanıyor; künye devralması değil.
+**denetle önce/sonra (cb379aa1):** 2sk 2247 → 2249 (GÜN TARAF 1584 → 1586) · 2s 1720/186 → 1721/186 · 2i 171/1 → 172/1 · çıkış 2/2 (yalnız D8).
+📌 Yan bulgu: Banat'ın Trianon devrini adıyla anan bir madde **yok**; yazılırsa (UMIT, kaynaklı) Lugos + Temeşvar + Yanova'nın
+1920-06-04 birimleri YER kolundan kapanır ve tavan düşer — o ayrı bir kalemdir, bu teslimin konusu değil.

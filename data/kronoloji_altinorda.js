@@ -132,7 +132,7 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["kultur","sosyal","ekonomi","konu-kisiler","konu-ekonomi","konu-kultur","konu-imar","konu-sosyal"],
   yer_id:"Saray (Selitrennoye)",
   d:"Faslı seyyah İbn Battûta 1330'lu yıllarda Altın Orda topraklarını dolaştı. Saray'ı 'atlı bir yolcunun sabahtan akşama ancak kat edebileceği' genişlikte, on üç cuma camili, çarşıları dolup taşan bir şehir olarak anlattı; Türk, Moğol, Alan, Çerkez, Rum ve Rus cemaatleri ayrı mahallelerde oturuyordu. Kefe'de ise nüfusun çoğunluğunun Cenevizli olduğunu, yanı başında Müslüman mescidleri bulunduğunu kaydetti.", ic_not_d:"⚠️ Seyahatin bu bölümünün TAM GÜNÜ kaynakta yok; 1333 kabaca ortalanmış bir yıldır, kesin değildir.",
-  kaynak:"TDV, madde: saray--sehir (İbn Battûta tasviri, on üç cuma camii, ~10 km²) + TDV, madde: kefe ('1330'larda ... çoğunluğu Cenevizli'). ⚠️ yıl yaklaşıktır" },
+  kaynak:"TDV, madde: saray--sehir (İbn Battûta tasviri, on üç cuma camii, ~10 km²) + TDV, madde: kefe (1330'larda ... çoğunluğu Cenevizli). ⚠️ yıl yaklaşıktır" },
 
 { t:"1340-01-01", b:"Özbek Han vefat etti — hanlığın en kudretli devri kapandı", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","hukumdar","konu-siyasi","konu-hanedan"],
@@ -204,19 +204,19 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["kultur","edebiyat","konu-kultur"],
   yer_id:"Saray (Selitrennoye)",
   d:"Nisbesini Altın Orda'nın başkenti Saray'dan alan Kıpçak şairi Seyf-i Sarâyî, Sa'dî-i Şîrâzî'nin Gülistan'ını 1 Eylül 1391'de Türkçeye çevirmeyi tamamladı — mensur kısımları nesirle, manzum kısımları şiirle. Bu, Gülistan'ın TÜRKÇEYE İLK ÇEVİRİSİDİR ve Codex Cumanicus'tan sonra Kıpçak Türkçesinin en önemli dil âbidesi sayılır; XIX. yüzyıla kadar Orta Asya Türkleri arasında ders kitabı olarak okundu.", ic_not_d:"📌 Tarihin anlamı yalnız edebî değil: Timur'un Kunduzca'da hanlığın ordusunu dağıttığı yıl, aynı hanlığın yetiştirdiği bir şair Fars klasiğini Türkçeye kazandırıyordu. Bir devletin askerî çöküşüyle kültürel verimi aynı takvime düşebilir.",
-  kaynak:"TDV, madde: seyf-i-sarayi — Gülistan Tercümesi '1 Eylül 1391'de tamamlandı', 'Türkçeye ilk Gülistan tercümesi'" },
+  kaynak:"TDV, madde: seyf-i-sarayi — Gülistan Tercümesi 1 Eylül 1391'de tamamlandı, 'Türkçeye ilk Gülistan tercümesi'" },
 
 { t:"1393-01-01", b:"Toktamış Han, Lehistan-Litvanya Kralı Jagiello'ya yarlık gönderdi — bozkır diplomasisinin belgesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","idari","hukuk","konu-idari","konu-diplomasi","konu-hukuk"],
   yer_id:"",
   d:"Toktamış Han'ın 1393'te Jagiello'ya gönderdiği yarlık, Altın Orda diplomasisinin günümüze ulaşan somut örneklerindendir. Yarlık, Türk-Moğol devletlerinde hükümdar buyruğudur ve Altın Orda'da iki türü vardı: tâbi ülke hükümdarlarına gönderilen DİPLOMATİK yarlıklar, ve vergiden ve devlet hizmetinden muafiyet tanıyan TARHANLIK yarlıkları. Her yeni han, seleflerinin yarlıklarını ya onaylar ya iptal ederdi — yani yarlık aynı zamanda bir meşruiyet tazeleme aracıydı.", ic_not_d:"🔴 TDV'nin hükmü açıktır: yarlıklar, Altın Orda'nın siyasî, iktisadî, askerî ve idarî yapısını anlamanın başlıca kaynağıdır. ⚠️ Yarlığın GÜNÜ kaynakta yok, yıl başına yazıldı.",
-  kaynak:"TDV, madde: yarlik — '1393 tarihli Toktamış'ın Jagiello'ya yarlığı'; yarlık türleri ve tarhanlık aynı maddeden (GÜN VERİLMİYOR)" },
+  kaynak:"TDV, madde: yarlik — 1393 tarihli Toktamış'ın Jagiello'ya yarlığı; yarlık türleri ve tarhanlık aynı maddeden (GÜN VERİLMİYOR)" },
 
 { t:"1394-01-01", b:"Seyf-i Sarâyî Süheyl ü Güldürsün mesnevisini bitirdi — çağın olaylarını anlatan Kıpçak mesnevisi", tur:"kultur", onem:2, dunya:1, kapsam:"ic",
   etiket:["kultur","edebiyat","konu-kultur"],
   yer_id:"Saray (Selitrennoye)",
   d:"Seyf-i Sarâyî, bir aşk hikâyesi anlatırken kendi çağının olaylarını da işleyen Süheyl ü Güldürsün mesnevisini 1394'te tamamladı. TDV şairin '796/1394'ten sonra' yaşadığını bu eserden çıkarır. Altın Orda'nın kendi hânedan tarihini yazacak bir vekāyi'nâme geleneği bırakmaması, bu tür edebî eserleri dönemin dolaylı tanıkları hâline getirir.",
-  kaynak:"TDV, madde: seyf-i-sarayi — 'Süheyl ü Güldürsün ... 1394'te bitirilen mesnevi'" },
+  kaynak:"TDV, madde: seyf-i-sarayi — Süheyl ü Güldürsün ... 1394'te bitirilen mesnevi" },
 
 { t:"1395-04-15", b:"Terek Savaşı — Timur ikinci kez yendi, Altın Orda bir daha toparlanamadı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -228,7 +228,7 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["askeri","sehircilik","ekonomi","yagma","konu-askeri","konu-ekonomi","konu-imar"],
   yer_id:"Yeni Saray (Tsarev)",
   d:"Timur'un 1395-1396 seferleri Saray'ı ve hanlığın öteki şehirlerini tahrip etti; TDV'nin ifadesiyle Sarây-ı Cedîd (Yeni Saray) harabeye döndü, Sarây-ı Batu ise küçülerek 1578'e kadar sürdü.", ic_not_d:"🔴 Bu maddenin ağırlığı sadece askerî değil İKTİSADÎDİR: Altın Orda'nın gücü bozkır süvarisinden değil, o süvarinin koruduğu KERVAN YOLUNDAN ve o yolun beslediği şehirlerden geliyordu. Şehirler yıkılınca vergi tabanı, sikke darbı ve zanaat da yıkıldı — hanlık göçebe bir konfederasyona geriledi ve bir daha imparatorluk olamadı.",
-  kaynak:"TDV, madde: saray--sehir — 'Timur'un seferleri (1395-1396) Saray'ı ... devastated; Sarây-ı Cedîd harabe'" },
+  kaynak:"TDV, madde: saray--sehir — Timur'un seferleri (1395-1396) Saray'ı ... devastated; Sarây-ı Cedîd harabe" },
 
 { t:"1396-01-01", b:"Timur Kutluk, Timur tarafından Altın Orda hükümdarı ilân edildi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","hukumdar","vassal","konu-siyasi","konu-hanedan"],
@@ -240,7 +240,7 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["askeri","siyaset","ic-savas","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Tahtını geri almak için Litvanya Büyük Dukası Vytautas ile ittifak kuran Toktamış, Mangıt beyi Edigü ve Timur Kutluk'un kuvvetlerine yenildi (Vorskla ırmağı). Yenilgi iki şeyi birden belirledi: Toktamış bir daha tahta dönemedi, ve Litvanya'nın bozkıra yayılma girişimi durdu.", ic_not_d:"🔴 Asıl sonuç kurumsaldır — Cengiz soyundan OLMAYAN Edigü, han olamadığı hâlde devleti fiilen yönetmeye başladı.",
-  kaynak:"TDV, madde: toktamis-han — 'Edigey'in kuvvetlerine 1399'da yenilmesi'; TDV, madde: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'" },
+  kaynak:"TDV, madde: toktamis-han — Edigey'in kuvvetlerine 1399'da yenilmesi; TDV, madde: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'" },
 
 { t:"1405-01-01", b:"Toktamış Han öldürüldü — devleti son kez birleştiren hanın sonu", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -270,13 +270,13 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["askeri","siyaset","ekonomi","konu-askeri","konu-siyasi","konu-ekonomi"],
   yer_id:"Kefe",
   d:"TDV Kefe maddesi 1434'te Hacı Giray'ın Cenevizliler'i yenerek şehrin meşrû hâkimi sayıldığını yazar. Bu, Kırım'daki ayrılığın 1441'deki resmî ilândan YEDİ YIL ÖNCE fiilen başladığını gösterir: Hacı Giray daha han ilân edilmeden Karadeniz ticaretinin en zengin limanı üzerinde söz sahibi olmuştu. Ayrılıkların önce siyasî değil İKTİSADÎ olarak gerçekleştiğinin örneğidir.",
-  kaynak:"TDV, madde: kefe — '1434: Hacı Giray Cenevizliler'i yener, meşrû hâkim olur'" },
+  kaynak:"TDV, madde: kefe — 1434: Hacı Giray Cenevizliler'i yener, meşrû hâkim olur" },
 
 { t:"1437-01-01", b:"Kazan Hanlığı ayrıldı — Uluğ Muhammed Saray'dan kopup İdil boyunda kendi hanlığını kurdu", ic_not_b:"eski b öneki: 🔴", tur:"bolunme", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","bolunme","toprak-kayip","konu-askeri","konu-siyasi","konu-imar"],
   yer_id:"Kazan",
   d:"Tahtını kaybeden Uluğ Muhammed, TDV'nin ifadesiyle 'Saray'dan ayrılıp Kazan'a geldi' ve orada kendi hanlığını kurdu. İdil'in orta mecrası, kürk ve tahıl ticaretinin düğüm noktası, artık Saray'a bağlı değildi.", ic_not_d:"⚠️ TDV iki görüş aktarır: kuruluş ya 1437'de Uluğ Muhammed ile, ya 1445'te oğlu Mahmud'un idareyi almasıyladır — bu dosya `data/devletler.js`teki `kazan` künyesiyle uyum için 1437'yi esas aldı, ikinci görüş burada kayda geçirildi. 🔴 Koordinatörün şartnamesinde '1438' yazıyordu; TDV'de VE künyede böyle bir yıl YOK — düzeltildi (bkz. [[kazan]]).",
-  kaynak:"TDV, madde: kazan-hanligi — '1437'de Uluğ Muhammed Han ... Saray'dan ayrılıp Kazan'a geldi'; ikinci görüş: 1445, oğlu Mahmud" },
+  kaynak:"TDV, madde: kazan-hanligi — 1437'de Uluğ Muhammed Han ... Saray'dan ayrılıp Kazan'a geldi; ikinci görüş: 1445, oğlu Mahmud" },
 
 { t:"1441-01-01", b:"Kırım Hanlığı ayrıldı — Hacı Giray bağımsızlığını ilân etti", ic_not_b:"eski b öneki: 🔴", tur:"bolunme", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","bolunme","toprak-kayip","konu-askeri","konu-siyasi"],
@@ -300,7 +300,7 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["askeri","ekonomi","toprak-kayip","konu-askeri","konu-ekonomi"],
   yer_id:"Kefe",
   d:"Gedik Ahmed Paşa komutasındaki yüz parçalık Osmanlı donanması Haziran 1475'te Kefe'yi ve Ceneviz kıyı kolonilerini fethetti. İki yüz yıldır Kıpçak bozkırını Akdeniz'e bağlayan İtalyan ticaret ağı böylece sona erdi ve Karadeniz bir Osmanlı içdenizine dönüştü. Altın Orda'nın ardılları için sonuç kesindir: kuzey bozkırının dünya ticaretine açılan kapısı artık İstanbul'un elindedir.",
-  kaynak:"TDV, madde: kefe — 'Haziran 1475: Gedik Ahmed Paşa 100 gemilik donanmayla fetheder'; dunya:4 kronoloji_kirim.js:93'ten OKUNDU" },
+  kaynak:"TDV, madde: kefe — Haziran 1475: Gedik Ahmed Paşa 100 gemilik donanmayla fetheder; dunya:4 kronoloji_kirim.js:93'ten OKUNDU" },
 
 { t:"1476-01-01", b:"Büyük Orda hanı Seyyid Ahmed Kırım'ı istilâ etti — ayrılan parçayı geri alma girişimi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],

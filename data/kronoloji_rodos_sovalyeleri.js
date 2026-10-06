@@ -258,12 +258,12 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1524-01-01", b:"Rodos'a 1343 kişilik Osmanlı muhafız kuvvetinin yerleştirilmesi", tur:"idari", onem:2, dunya:1, kapsam:"dis", yer_id:"Rodos",
   etiket:["idari","konu-idari"],
   d:"Ada Osmanlı idaresine bağlandı ve kalıcı bir muhafız kuvveti yerleştirildi; Süleymaniye Külliyesi ile şehrin yeniden canlandırılmasına girişildi. Şövalye dönemi kapanmış, adanın dört yüz yıl sürecek Osmanlı dönemi başlamıştır. Bu madde, tarikatın dosyasında bir 'sonrası' kaydıdır.",
-  kaynak:"TDV 'rodos' md.: \"Ottoman garrison of 1343 installed (1524)\", Süleymaniye Külliyesi ile imar · gün bilinmiyor" },
+  kaynak:"TDV 'rodos' md.: Ottoman garrison of 1343 installed (1524), Süleymaniye Külliyesi ile imar · gün bilinmiyor" },
 
 { t:"1530-03-24", b:"Malta ve Trablusgarp'ın Şarlken tarafından tarikata verilmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi","konu-din"],
   d:"İmparator V. Karl (Şarlken), Malta adalarını ve Trablusgarp'ı yıllık bir şahin sembolik kirası karşılığında tarikata bağışladı. Şövalyeler yedi yıl sonra yeniden toprak sahibi bir devlet oldular, ama bu kez Sicilya Krallığı'na feodal bağla bağlıydılar. Trablusgarp yükümlülüğü, tarikatı istemediği bir Kuzey Afrika savunmasına mecbur etti.",
-  kaynak:"TDV 'malta' md.: \"Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530\" · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum" },
+  kaynak:"TDV 'malta' md.: Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum" },
 
 { t:"1531-01-01", b:"Modon baskını — Malta'dan ilk büyük deniz harekâtı", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","konu-askeri"],
@@ -298,7 +298,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1565-05-18", b:"Büyük Malta Kuşatması'nın başlaması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Mustafa Paşa ve Piyale Paşa kumandasındaki Osmanlı donanması Malta'ya ulaştı ve karaya asker çıkarıldı. Kuvvet yaklaşık iki yüz kırk gemi ve otuz beş bin askerdi; tarikatın elinde ise yardımcılarla birlikte dokuz bin kadar savaşçı vardı. Kuşatma dört ay sürecek ve tarikatın kaderini belirleyecektir.",
-  kaynak:"TDV 'malta' md.: \"18 Şevval 972 / 19 May 1565\" adaya varış; sefer 26 Şâban 972 / 29 Mart 1565'te İstanbul'dan hareket · `dunya:3` — ispanya dosyasıyla BİREBİR hizalandı" },
+  kaynak:"TDV 'malta' md.: 18 Şevval 972 / 19 May 1565 adaya varış; sefer 26 Şâban 972 / 29 Mart 1565'te İstanbul'dan hareket · `dunya:3` — ispanya dosyasıyla BİREBİR hizalandı" },
 
 { t:"1565-06-23", b:"Saint Elmo Kalesi'nin düşüşü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -318,7 +318,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1565-09-12", b:"Kuşatmanın kaldırılması — tarikatın hayatta kalması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri","konu-din"],
   d:"Osmanlı ordusu gemilere binerek adadan ayrıldı; kaynaklara göre kayıp yaklaşık yirmi bin askerdi ve tarikat da savaşçılarının üçte birinden fazlasını yitirmişti. Zafer bütün Katolik Avrupa'da kutlandı ve tarikatın Malta'daki varlığını tartışılmaz kıldı. Rodos'ta kaybedilen itibar burada geri kazanıldı.",
-  kaynak:"TDV 'malta' md.: \"16 Safer 973 / 12 September 1565\" kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
+  kaynak:"TDV 'malta' md.: 16 Safer 973 / 12 September 1565 kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
 
 { t:"1566-03-28", b:"Valletta'nın kurulması — Avrupa'nın ilk planlı ızgara şehirlerinden", tur:"mimari", onem:5, dunya:3, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","reform","sosyal","imar","konu-imar","konu-islahat","konu-sosyal"],

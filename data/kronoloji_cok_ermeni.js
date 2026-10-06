@@ -62,7 +62,7 @@ window.KRONOLOJI_COK_ERMENI = [
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"Revan", gun:"Mart 1731 (TDV revan gün vermez)",
   d:"1724'ten beri Osmanlı elindeki Revan'ı Safevî Şahı II. Tahmasb Mart 1731'de kuşattı ama alamadı. 1732'de imzalanan kısa ömürlü antlaşma Revan'ın Osmanlı toprağı içinde kaldığını tescil etti; şehir ancak 1735'te Nâdir'e geçecekti.",
-  kaynak:"TDV revan ('Şah Tahmasb 1731 Martında Revan'ı kuşattıysa da alamadı. 1732'de imzalanan, ancak kısa süren anlaşma ile Revan'ın Osmanlı toprağı içinde kaldığı tescil edildi')" },
+  kaynak:"TDV revan (Şah Tahmasb 1731 Martında Revan'ı kuşattıysa da alamadı. 1732'de imzalanan, ancak kısa süren anlaşma ile Revan'ın Osmanlı toprağı içinde kaldığı tescil edildi)" },
 
 { t:"1747-01-01", devlet:"revan-hanligi", devletler:["revan-hanligi"],
   b:"Revan Hanlığı müstakil hâle geldi", tur:"kurulus", onem:4, dunya:1, kapsam:"ic",
