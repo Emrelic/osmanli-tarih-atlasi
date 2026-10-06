@@ -1,0 +1,13 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 09c753da..47fd3015 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -3102,6 +3102,8 @@ BOYALAR = {
+     "krakow-serbest-sehri":    ("Krakov Serbest Şehri",               "#d224ba"),
+     "danzig-serbest-sehri":    ("Danzig Serbest Şehri",               "#b424d2"),
+     "danzig-serbest-sehri-1807": ("Danzig Serbest Şehri (Napolyon Dönemi)", "#d224cc"),
++    "itilaf-emaneti":          ("Müttefik emaneti (SG md. 91 · Versay md. 99-100)", "#b0863a"),  # UMIT-W54b 1006 — renk_olc ile SINANMADI
++    "saar-havzasi-mandasi":    ("Saar Havzası (MC idaresi)",           "#5c8fa3"),  # UMIT-W54b 1006 — renk_olc ile SINANMADI
+     "rabih":                   ("Râbih b. Zübeyr Devleti",            "#d224d8"),
+     "naksa-dukaligi":          ("Naxos (Nakşa) Dukalığı",             "#126ca2"),
+     # SESSIZ-BORC-2 19 Eyl 2026 (M-4612/M-4624) — sessiz borçtan veriye inen 4 kimlik;
