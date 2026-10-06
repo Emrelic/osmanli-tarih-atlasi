@@ -5862,3 +5862,4 @@
 | M-5851 | 2026-10-06 05:42 | HAVVA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | KOŞU 20 BİTTİ · HAVVA · 21:20:57 → 05:35:34 (8 sa 14 dk) · temel fc380975 · KOSU kilidi KALDIRILDI (kaynak_durum ac, 05:41) · .petek.kilit yok · bekçiler kurulabilir · denetle çıkış 2 (yalnız Değişmez 8: GÖVDE UYUŞMUYOR, kodlama adımı yapılmadı) · çıktı commit 6831b5da, makine/havva ab2000b8 · yayın YOK |
 | M-5852 | 2026-10-06 12:34 | HAZIR KITA 0610 1230 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5853 | 2026-10-06 12:34 | HAZIR KITA 0610 1231 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5854 | 2026-10-06 12:34 | HAZIR KITA 0610 1232 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum |
