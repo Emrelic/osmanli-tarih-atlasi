@@ -173525,5 +173525,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5871",
+  "zaman": "2026-10-06 13:32",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1236",
+  "kimden_kimlik": "",
+  "mesaj": "B-SINIR-YAKA-1006 · adını B-SINIR-YAKA-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/ altını B-SINIR-YAKA ile tara (bir dosya zaten geçiyor) ve denetim/UMIT-W36-SINAV-HATA-ONARIM-1006.md'yi oku. İşlenmişi tekrar etme. İŞ: W36'nın ÖLÇMEDEN BIRAKTIĞI 5 B-SINIR-YAKA kalemi. TANIM: denetim/UMIT-W36-SINAV-HATA-ONARIM-1006.md — beş kalemi ve \"yaka\" ölçütünün tarifini oradan al, benim cümlemden değil. BAĞLAM — Değişmez 8a: bir yerleşimin peteği, o gün geçerli D/E/F hattını aşıp KARŞI YAKAYA ≥5 km uzanıyorsa ihlaldir. Muafiyetler (eksklav · menderes · __BOSLUK__ · tâbi · isg: · C/YOK hattı) arac/denetle.py içinde gerekçeli duruyor — ölçmeden önce oku, yoksa muaf bir kalemi ihlal sanırsın. 🔴 Değişmez 8 MOTOR ÇIKTISINI ölçer. Veri düzeltmesinin etkisi ancak KOŞUDAN SONRA görünür ⇒ \"düzelttim, geçti\" diyemezsin; yapabileceğin \"bu düzeltme koşuda şunu verir\" ÖNGÖRÜSÜDÜR. ⚠️ Ölçülemeyen kalem \"temiz\" DEĞİLDİR. shapely/rasterio gerekiyorsa EMRELIC'te KURULU (HAVVA 6 Ekim'de ölçtü: shapely 2.1.2 · rasterio 1.5.2); kurulu değilse \"ölçülemedi\" yaz, \"ihlal yok\" yazma. ⚠️ Yeni bir D hattı bulursan o TAVANA değil \"YENİ KAPSAM\" kovasına düşer (§3 Değişmez 8). TESLİM: denetim/B-SINIR-YAKA-1006.md — beş kalemin her biri: yerleşim · gün · hangi hat · ölçülen aşım (km) · muafiyet uyuyor mu (hangisi, niçin) · hüküm (İHLAL / MUAF / ÖLÇÜLEMEDİ) + önerilen düzeltme ve o düzeltmenin koşu ÖNGÖRÜSÜ. Tahtadan TEK mesaj + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖNCE YAZ: beşten kaçı gerçek ihlal çıkacak ve NİÇİN (mekanizma).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
