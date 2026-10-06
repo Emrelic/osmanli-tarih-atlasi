@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\claudemre\kutu\giden\parti-emrelic-0076\PARTI.md
 """TASNIFSIZ SUPURGESI — PARTI.md ## H- basliklari ile SEVK-0076.md sekiz listesini karsilastirir."""
 import re, collections, sys
 

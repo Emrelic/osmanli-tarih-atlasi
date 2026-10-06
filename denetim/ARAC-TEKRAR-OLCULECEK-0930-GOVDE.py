@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR (.ofs önbelleği), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
 """GÖVDE SORGUSU — düşük bellek (mmap + halka ofset dizini).
 
   py govde.py <GUN> <lat1> <lon1> <lat2> <lon2> [--noktalar]

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\68bd1d7f-e7f4-4083-abc8-fab2c56f3252\scratchpad (teslim.txt)
 """Teslim mesajini tahta.json'dan GERI OKU (ORTAK-0076 §6 madde 5)."""
 import json, sys, io
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')

@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yoluna YAZAR, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\2b76af78-4cc3-4c79-923c-4dd8852804bd\scratchpad\yeni_kayitlar.json
 # SINIR-D-ORTADOGU-0077 — devralınacak manda hatlarının C kayıtları (taslak üretici)
 import json, math, sys
 sys.stdout.reconfigure(encoding="utf-8")

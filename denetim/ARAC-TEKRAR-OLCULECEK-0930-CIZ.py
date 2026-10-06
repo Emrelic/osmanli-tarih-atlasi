@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR (govde modülünü oradan içe aktarır, PNG'yi oraya yazar), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
 """py ciz.py <id> <gun> la0 la1 lo0 lo1 -> scratchpad/ciz-<id>.png (gövdeler yarı saydam, binme koyu, noktalar)"""
 import json, sys, os, io, contextlib
 sys.path.insert(0, 'C:/Users/emrem/AppData/Local/Temp/claude/C--atlas/44714e9d-a694-4c62-bbc0-2660851ade3d/scratchpad')

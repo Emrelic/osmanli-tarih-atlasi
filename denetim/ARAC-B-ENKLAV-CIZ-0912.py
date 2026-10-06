@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\… (LOG)
 """ENKLAV DAĞILIMI — grafik. Veriyi KENDİ KOŞUMUN ÇIKTISINDAN okuyor.
 
 🔴 Sayılar elle yazılmadı: `tasks/b3ly9wsgt.output` (bu oturumun 10 dakikalık

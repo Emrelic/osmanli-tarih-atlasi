@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur (govde modülünü oradan içe aktarır), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
 """py toplu.py vakalar.json -> her vaka için katman km², binme (OSM-içi ve isg∩OSM hariç), boyanmayan kara.
 vakalar.json: [[id, gun, la0, la1, lo0, lo1], ...]  (GEOMETRI-0916 biçimi)"""
 import json, sys, math

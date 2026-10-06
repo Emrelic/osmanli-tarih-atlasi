@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR, bu makinede koşamaz: C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json
 """HARITA-0076 — kendi 19 maddesinin hükmünü CEVAP.json'a İŞLER.
 
 Sekiz oturum aynı dosyaya yazacağı için kör `json.dump` yapmaz:
