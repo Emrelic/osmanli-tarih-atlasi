@@ -1,0 +1,292 @@
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:5:   Bir alinti bulunamazsa alet CIKIS 1 ile DURUR ve dosya YAZILMAZ.
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:8:   HATIRLANARAK yazilmasi.  Hatirlanan bir alinti govdede BULUNMAZ.
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:10:C13④ (ciktiyi dogru yerden okuma): --atesle ile bir alinti bilerek bozulur;
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:54:     "alinti": "Trakya’daki Türkiye-Yunanistan sınırı Karaağaç Türkiye’de kalmak üzere Meriç ırmağının “talvek�
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:56:     "alinti": "Türkiye-Suriye sınırı, Fransa ile imzalanmış olan 20 Ekim 1921 Ankara Antlaşması ile belirlenen sınır ola
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:58:     "alinti": "Bütün çabalara rağmen Türk-Irak sınırının nerelerden geçeceği hususunda İngiltere ile bir uyuşma sağl
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:60:     "alinti": "Antlaşmada çözümü ileriye bırakılan Musul meselesi Türk-Irak sınırının tesbit edilmesi olarak anılmı�
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:69:     "alinti": "Türkiye Büyük Millet Meclisi hükümetiyle Fransa arasında 20 Ekim’de imzalanan Ankara İtilâfnâmesi’yle 
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:78:     "alinti": "5 Haziran 1926’da Türkiye ile İngiltere arasında imzalanan antlaşma ile bugünkü Türkiye-Irak sınırı çi
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:80:     "alinti": "Milletler Cemiyeti tarafından 29 Ekim 1924’te statüko hattı olarak tesbit edilen çizginin"}]},
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:88:     "alinti": "Moskova (16 Mart 1921) ve Kars (13 Ekim 1921) antlaşmalarıyla yapılan son sınır tashihleri sayesinde Kars yeni
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:96:     "alinti": "Fakat 16 Mart 1921’de Rusya Şûralar Federatif Sosyalist Cumhuriyeti hükümeti ile imzalanan Moskova Antlaşmas
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:112:     "alinti": "1922’de İngilizler’in gözetiminde yaptığı anlaşmalarla Irak, Doğu Ürdün ve Küveyt sınırları belir
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:120:     "alinti": "Brest-Litovsk Antlaşması ile (3 Mart 1918) Rusya Doksanüç Harbi’nde ele geçirdiği Kars, Ardahan ve Batum�
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:129:     "alinti": "Londra Antlaşması’nda kabul edilen Midye-Enez hattının belirlenmesine yanaşmayan Bulgaristan’ın tutumund
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:137:     "alinti": "Yirmi maddeden oluşan İstanbul Antlaşması’na göre, Edirne ile batı tarafında"}]},
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:158:     "alinti": "Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya’nın tamamını kaybe
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:185:     "alinti": "Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti"}]},
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:193:     "alinti": "San Remo Konferansı 1920’de Filistin’i İngiliz mandasına verdi."}]},
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:201:     "alinti": "Türkiye’nin güney sınırı Ceyhan nehrinin denize döküldüğü yerden başlayarak Osmaniye, Antep, Urfa, Si
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:203:     "alinti": "Yeni bir taslak hazırlanıp Çatalca hattı Türkiye’nin batı sınırı olarak kabul edildi."}]},
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:269:        kayitlar[0]["kenar"][0]["alinti"] = "BU CUMLE GOVDEDE YOKTUR — ATESLEME DALI"
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:273:        for kapi, alinti in [(a, b) for a, b in k.get("gun_dayanak", [])] + \
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:274:                            [(e["kapi"], e["alinti"]) for e in k.get("kenar", [])]:
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:291:        print("\nC13② ATESLEME: bozuk alinti -> %s" % ("YAKALANDI · GECTI" if ok else "🔴 KACTI"))
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:295:        print("\n🔴 DOSYA YAZILMADI — dogrulanmamis alinti ile kunye uretilmez.")
+denetim/ARAC-ANTLASMA-KUNYE-0907.py:307:                       "HER alinti kaynak govdesinde BIREBIR dogrulandi; dogrulanmayan varsa dosya YAZILMAZ. "
+denetim/ARAC-BUDAMA-OLC-0910.py:85:    d["alinti"] = g.count("\n> ")
+denetim/ARAC-C-DENETIM-0911.py:297:    for alan in ("tur", "madde", "alinti"):
+denetim/ARAC-C-DENETIM-0911.py:302:    alinti = (k.get("alinti") or "")
+denetim/ARAC-C-DENETIM-0911.py:303:    if alinti and len(alinti) < 20:
+denetim/ARAC-C-DENETIM-0911.py:304:        hatalar.append(f"`kaynak.alinti` ÇOK KISA ({len(alinti)} karakter) — gerçek bir "
+denetim/ARAC-C-DENETIM-0911.py:427:            # B'nin KENDİ iddiasını doğrula: kaynak.alinti GERÇEKTEN genel
+denetim/ARAC-C-DENETIM-0911.py:431:            alinti = (kayit.get("kaynak", {}) or {}).get("alinti") or ""
+denetim/ARAC-C-DENETIM-0911.py:434:                                 f"`kaynak.alinti` içinde GENEL bir yön/taraf ifadesi "
+denetim/ARAC-C-DENETIM-0911.py:583:    "kaynak": {"tur": "", "madde": "", "alinti": ""},  # BOŞ — C4 yakalamalı
+denetim/ARAC-C-DENETIM-0911.py:665:                       kaynak={"alinti": "all territories to the west of this line"})
+denetim/ARAC-C-DENETIM-0911.py:669:                        kaynak={"alinti": "bu antlaşma güzel bir antlaşmadır"})
+denetim/ARAC-D1-URET-0916.py:140:       "alinti": "Bulgaristanın elyevm tahdit edilmiş olduğu şekilde cenup hududu"},
+denetim/ARAC-D1-URET-0916.py:142:       "alinti": "as demarcated in 1921 by La Commission de Delimitation"}],
+denetim/ARAC-D1-URET-0916.py:149:       "kaynak": "TTK tam metin", "alinti": "Meriç mecrası … Arda mecrası … Bosna Köy'ü Türkiye'de bırakan … hat"},
+denetim/ARAC-D1-URET-0916.py:151:       "alinti": "There are no parts of the boundary in dispute"},
+denetim/ARAC-D1-URET-0916.py:152:      {"ad": "TDV lozan-antlasmasi", "tur": "TDV", "alinti": "Karaağaç Türkiye'de kalmak üzere Meriç ırmağının talvegi"}],
+denetim/ARAC-D1-URET-0916.py:165:           "alinti": "Since 1921 the boundary has remained unchanged"},
+denetim/ARAC-D1-URET-0916.py:166:          {"ad": "TDV agri", "tur": "TDV", "alinti": "BUGÜNKÜ Türk-Sovyet sınırı tesbit edilmiştir"}],
+denetim/ARAC-D1-URET-0916.py:178:       "alinti": "by October 1914, had demarcated the entire boundary except for about 40 miles"}],
+denetim/ARAC-D1-URET-0916.py:191:       "alinti": "hudut dokuz ay zarfında … tayin edilecektir"},
+denetim/ARAC-D1-URET-0916.py:193:       "alinti": "Brussels Line (following almost exactly the northern border of Mosul vilayet)"}],
+denetim/ARAC-D1-URET-0916.py:219:       "alinti": "join the railway at the station of Choban-bey"},
+denetim/ARAC-D1-URET-0916.py:222:       "alinti": "Annexed Protocol No. I … May 30, 1926, delimited … three sectors"}],
+denetim/ARAC-D1-URET-0916.py:233:       "alinti": "immediately to the south of the locality of Payas and will proceed generally towards Meidan-Ekbes"}],
+denetim/ARAC-D1-URET-0916.py:246:           "alinti": "Yunan kuvvetleri … Meriç'in sol kıyısına çekilecektir"}
+denetim/ARAC-D1-URET-0916.py:248:         "alinti": "defined the boundary according to the Treaty of Constantinople of 1913"}
+denetim/ARAC-D1-URET-0916.py:268:     [{"ad": "TDV edirne (M. Tayyib Gökbilgin)", "tur": "TDV", "alinti": "Temmuz 1920'de Yunan işgaline uğradı. 1922'de kurtarıldı"
+denetim/ARAC-D1-URET-0916.py:271:       "alinti": "signed the Mudania Armistice three days later on October 14, 1922"}],
+denetim/ARAC-D1-URET-0916.py:286:       "kaynak": "TDV mudanya-mutarekesi", "alinti": "Karaağaç dahil Meriç'in sağ kıyısı müttefiklerce işgal edilecektir"},
+denetim/ARAC-D1-URET-0916.py:288:       "alinti": "To restore Thrace as far as the Maritsa River to Turkey"}],
+denetim/ARAC-D1-URET-0916.py:302:       "alinti": "by October 1914, had demarcated the entire boundary except for about 40 miles"}],
+denetim/ARAC-D1-URET-0916.py:329:       "alinti": "it exactly follows the former Turco-Bulgarian frontier"}],
+denetim/ARAC-D1-URET-0916.py:349:          "alinti": "Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra"}
+denetim/ARAC-D1-URET-0916.py:352:         "alinti": "Bu anlaşmalar neticesinde Osmanlı Devleti Bulgaristan'ın bağımsızlığını tanıdı"}
+denetim/ARAC-D1-URET-0916.py:382:       "alinti": "a line drawn from Enos on the Aegean Sea to Midia on the Black Sea"},
+denetim/ARAC-D1-URET-0916.py:383:      {"ad": "TDV bulgaristan", "tur": "TDV", "alinti": "30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması"}],
+denetim/ARAC-D1-URET-0916.py:417:       "kaynak": "TDV edirne-antlasmasi", "alinti": "Böylece Ahıska ve Ahılkelek Ruslar'da kalıyordu"},
+denetim/ARAC-D1-URET-0916.py:419:       "alinti": "re-established as it had been prior to the 1878 Treaty"},
+denetim/ARAC-D1-URET-0916.py:435:         "alinti": "located much as it exists today, was laid down in 1639"}
+denetim/ARAC-D1-URET-0916.py:438:       "alinti": "the limits of the two empires were vaguely defined"}, IBS28],
+denetim/ARAC-D1-URET-0916.py:446:       "alinti": "Kasrışîrin Antlaşması esasları dahilinde anlaşma sağlandı (17 Şâban 1159 / 4 Eylül 1746)"}, IBS28],
+denetim/ARAC-D1-URET-0916.py:454:       "alinti": "Kasrışîrin Antlaşması imzalanmıştı (14 Muharrem 1049 / 17 Mayıs 1639)"}, IBS28,
+denetim/ARAC-D1-URET-0916.py:456:       "alinti": "17 Safer 1141'de (22 Eylül 1728) imzalanan Hemedan Barış Antlaşması"}],
+denetim/ARAC-D2-URET-0916.py:184:       "alinti": "with few exceptions the present day"}],
+denetim/ARAC-D2-URET-0916.py:191:      "alinti": "was not settled until 1927"}],
+denetim/ARAC-D2-URET-0916.py:196:          "alinti": "1 Aralık 1918'de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı"}
+denetim/ARAC-D2-URET-0916.py:232:         "alinti": "essentially that formed by the Treaty of Bucharest, August 10, 1913, eastward to point 1587"}
+denetim/ARAC-D2-URET-0916.py:252:       "alinti": "Batı Trakya'nın Yunanlılar tarafından işgali günlerinde de (22 Mayıs 1920)"}],
+denetim/ARAC-D2-URET-0916.py:264:       "alinti": "finally fixed in the Maritsa River by a demarcation commission in 1926"}],
+denetim/ARAC-D2-URET-0916.py:274:       "alinti": "as it is today, was defined by the Treaty"}],
+denetim/ARAC-D2-URET-0916.py:284:       "alinti": "confirmed, with certain modifications, the boundary"}],
+denetim/ARAC-D2-URET-0916.py:312:      "alinti": "The Treaty of Bucharest (May 8, 1918) ceded to Bulgaria"}],
+denetim/ARAC-D2-URET-0916.py:323:          "kaynak": "IBS 53 s.6 (BFSP 69:749)", "alinti": "a line starting from the east of Silistria"}
+denetim/ARAC-D2-URET-0916.py:325:         "kaynak": "IBS 53 s.6 (Hertslet IV s.2825)", "alinti": "delimited by text, survey tables, and a large-scale, 1:30,000 map"}
+denetim/ARAC-D2-URET-0916.py:327:         "kaynak": "IBS 53 s.6 (Hertslet IV s.2996)", "alinti": "altered the original boundary near Silistra in favor of Bulgaria"}
+denetim/ARAC-D2-URET-0916.py:329:          "kaynak": "IBS 53 (Craiova 1940 protokolü aktarımı)", "alinti": "compiled and signed on September 5, 1902"}
+denetim/ARAC-D2-URET-0916.py:337:          "alinti": "return to the 1902 boundary, i.e., the Treaty of Berlin line as modified"}],
+denetim/ARAC-D2-URET-0916.py:347:           "alinti": "the thalweg, or the principal channel of navigation"}],
+denetim/ARAC-D2-URET-0916.py:360:      "kaynak": "mcca.org.au (Israel 1967 / CTS 218 esaslı)", "alinti": "begin at the Danube above Turtukaia"}],
+denetim/ARAC-D2-URET-0916.py:368:      "alinti": "By 1957, the boundary west of the Caspian had been demarcated"}],
+denetim/ARAC-D2-URET-0916.py:377:      "alinti": "although actually this exchange never took place"}],
+denetim/ARAC-D2-URET-0916.py:386:              "alinti": "delimited, with minor exceptions, the present boundary west of the Caspian"}
+denetim/ARAC-D2-URET-0916.py:414:      "kaynak": "IBS 25 (Treaties &c. 1891 s.133-134)", "alinti": "recognizing the Atrek River as the boundary"}, IBS25],
+denetim/ARAC-D2-URET-0916.py:426:               "alinti": "12 Eylül 1723’te Petersburg’da imzalanan antlaşma ile Derbend, Bakü"}
+denetim/ARAC-D2-URET-0916.py:451:       "alinti": "terminate at Pillar 39 (c. 34°20' North"}],
+denetim/ARAC-D2-URET-0916.py:458:       "alinti": "thence in a straight line to Siah Koh, Bandan"},
+denetim/ARAC-D2-URET-0916.py:460:       "alinti": "By May 15, 1905, the McMahon Commission had placed 90 markers"}],
+denetim/ARAC-D2-URET-0916.py:476:      "alinti": "did not demarcate it by pillars"}],
+denetim/ARAC-D2-URET-0916.py:490:             "alinti": "The boundary is demarcated throughout by pillars or rivers"}],
+denetim/ARAC-D2-URET-0916.py:502:             "alinti": "The boundary is demarcated throughout by pillars or rivers"},
+denetim/ARAC-D2-URET-0916.py:504:       "alinti": "Faysal kral seçildi ve 23 Ağustos 1921'de tahta çıktı"}],
+denetim/ARAC-D2-URET-0916.py:520:            "alinti": "follows the thalweg of the Shatt al Arab downstream for 105"}])
+denetim/ARAC-D2-URET-0916.py:526:       "alinti": "erected in 1922 by a mixed Anglo-French commission"}],
+denetim/ARAC-D2-URET-0916.py:540:      "alinti": "delimited the boundary only in general terms"}],
+denetim/ARAC-D2-URET-0916.py:545:      "alinti": "No specific mention was made regarding a boundary"}],
+denetim/ARAC-D2-URET-0916.py:552:      "alinti": "has not been accomplished"}],
+denetim/ARAC-D2-URET-0916.py:563:      "alinti": "No evidence has been uncovered on demarcation"}],
+denetim/ARAC-D3BATI-URET-0916.py:169:              "alinti": "procès-verbal for the first deposit of ratifications was executed"}
+denetim/ARAC-D3BATI-URET-0916.py:244:       "alinti": "Op enkele kleinere correcties na is er sindsdien niet aan het grensverloop gemorreld"}],
+denetim/ARAC-D3BATI-URET-0916.py:260:       "alinti": "achève de donner aux deux États leurs frontières actuelles"}],
+denetim/ARAC-D3BATI-URET-0916.py:394:       "alinti": "gjelder fortsatt"}],
+denetim/ARAC-D3BATI-URET-0916.py:411:       "alinti": "the former frontier between Russia and Norway"},
+denetim/ARAC-D3BATI-URET-0916.py:442:        "alinti": "Since 1948 there have been no changes"}
+denetim/ARAC-D3BATI-URET-0916.py:523:             "alinti": "el trazado fronterizo en el Pirineo ha sufrido muy pocas variaciones"}
+denetim/ARAC-D3BATI-URET-0916.py:582:      "alinti": "As early as 1908-1909, the UK had unilaterally established a border"}],
+denetim/ARAC-D3BATI-URET-0916.py:592:       "alinti": "la zona de la plaza de Ceuta sigue con los límites establecidos"}],
+denetim/ARAC-D3BATI-URET-0916.py:615:             "alinti": "This armistice has been signed the 11th of November, 1918"}
+denetim/ARAC-D3BATI-URET-0916.py:619:           "alinti": "passing thence by Mounts Reschen and Brenner"}
+denetim/ARAC-D3BATI-URET-0916.py:648:      "alinti": "moving the Dano - German boundary from the Elbe northward to the Konge Aa"}],
+denetim/ARAC-D3BATI-URET-0916.py:681:       "alinti": "the former frontier between Russia and Norway"},
+denetim/ARAC-D3BATI-URET-0916.py:846:            "alinti": "Article LXXX of the Congress of Vienna on June 9, 1815"}
+denetim/ARAC-D3BATI-URET-0916.py:989:      "alinti": "moving the Dano - German boundary from the Elbe northward to the Konge Aa"}],
+denetim/ARAC-D3BATI-URET-0916.py:1017:                       "alinti": "the 1814 boundary remained valid for almost 140 years"}]
+denetim/ARAC-D3BATI-URET-0916.py:1046:                                "alinti": "the first serious attempt at methodical and systematic border delimitation"}],
+denetim/ARAC-D3BATI-URET-0916.py:1099:       "alinti": "gjelder fortsatt"}
+denetim/ARAC-D3ORTA-URET-0916.py:1179:        if a.get("alinti"):
+denetim/ARAC-D3ORTA-URET-0916.py:1180:            assert len(a["alinti"].split()) <= 15, (k["id"], a["alinti"])
+denetim/ARAC-D4-URET-0916.py:114:     "url": IBS % 103, "sayfa": "s.4", "alinti": "begins in the west from the junction of the Wadi al 'Awja' with Wadi al Batin"},
+denetim/ARAC-D4-URET-0916.py:116:    {"ad": "TDV kuveyt", "tur": "TDV", "alinti": "Suudi Arabistan ile antlaşma imzalayarak (2 Aralık 1922) sınır meselelerini hallett
+denetim/ARAC-D4-URET-0916.py:165:          "kaynak": "IBS 103 s.3", "alinti": "a semi-circle, 40 miles in radius, with the town of Kuwait"}],
+denetim/ARAC-D4-URET-0916.py:175:          "sayfa": "s.4", "alinti": "bounded on the west by a low mountainous ridge called Ash Shaq"}],
+denetim/ARAC-D4-URET-0916.py:189:                           "url": IBS % 103, "sayfa": "s.4", "alinti": "from Ash Shaq to 'Ayn al 'Abd and thence to the coast"}],
+denetim/ARAC-D4-URET-0916.py:201:       "url": RIAA, "sayfa": "Ek B s.114-116", "alinti": "administrative separating line"},
+denetim/ARAC-D4-URET-0916.py:203:       "sayfa": "§54-59, §172, §245", "alinti": "no boundaries had been established"},
+denetim/ARAC-D4-URET-0916.py:213:               "alinti": "1917'den itibaren Filistin'de askerî bir idare kuruldu"}]
+denetim/ARAC-D4-URET-0916.py:217:                    "alinti": "31 Ekim 1917'de Mareşal Allenby kumandasındaki İngiliz ordusu … Bi'rüssebi' yöresini ele geçirdi"}
+denetim/ARAC-D4-URET-0916.py:219:                    "alinti": "1917'de General Allenby Gazze'yi aldı"}],
+denetim/ARAC-D4-URET-0916.py:229:                        "alinti": "18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp"}],
+denetim/ARAC-D4-URET-0916.py:241:                        "alinti": "Temmuz 1920 tarihinden itibaren Filistin'de bir sivil manda yönetimi kurdu"},
+denetim/ARAC-D4-URET-0916.py:243:                        "alinti": "Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı"}],
+denetim/ARAC-D4-URET-0916.py:266:       "alinti": "a point two miles west of the town of Akaba"},
+denetim/ARAC-D4-URET-0916.py:282:     "alinti": "shall start at Ras Adjedir, on the Mediterranean"},
+denetim/ARAC-D4-URET-0916.py:284:     "alinti": "consists primarily of short-line segments between pillars"},
+denetim/ARAC-D4-URET-0916.py:286:     "alinti": "terminating the Tunisia - Libya boundary at Marker 220 rather than number 233"},
+denetim/ARAC-D4-URET-0916.py:311:                  "url": IBS % 1, "sayfa": "s.4", "alinti": "the frontier mark situated at Garet Hamel, approximately fourteen kilometres
+denetim/ARAC-D4-URET-0916.py:319:           "alinti": "18 Ekim'de Lozan yakınlarındaki Uşi (Ouchy) kasabasında … nihaî bir barış antlaşması"}
+denetim/ARAC-D5-ASYA-URET-0916.py:178:    if alinti:
+denetim/ARAC-D5-ASYA-URET-0916.py:179:        d["alinti"] = alinti
+denetim/ARAC-D5-ASYA-URET-0916.py:209:       "alinti": "The fiftieth degree of north latitude is adopted as the northern boundary"},
+denetim/ARAC-D5-ASYA-URET-0916.py:213:       "tur": "antlaşma metni", "kaynak": "LNTS vol. 34 s. 31 vd.", "alinti": "completely withdrawn from the said region by May 15,
+denetim/ARAC-D5-ASYA-URET-0916.py:290:      "url": "https://archive.org/details/in.ernet.dli.2015.122313", "alinti": "drawn up and initialled in 1914"}],
+denetim/ARAC-D5-ASYA-URET-0916.py:299:      "alinti": "the crest of the mountain range separating the waters flowing into the Sikkim Teesta"},
+denetim/ARAC-D5-ASYA-URET-0916.py:307:      "kaynak": "Aitchison c. II (1909), Nepal No. XXV", "alinti": "all claim to or connexion with the countries lying to the west"}
+denetim/ARAC-D5-ASYA-URET-0916.py:311:    [{"ad": "Ladakh–Tibet mektubu", "tarih": "1842-09-17", "tur": "mektup", "alinti": "ancient boundaries"},
+denetim/ARAC-D5-ASYA-URET-0916.py:329:     {"ad": "Katmandu Antlaşması", "madde": "md. 3", "tarih": "1860-11-01", "tur": "antlaşma", "alinti": "marked by pillars"},
+denetim/ARAC-D5-ASYA-URET-0916.py:482:        "alinti": "The land boundary delimitation is indisputable in international law."}]
+denetim/ARAC-D5-ASYA-URET-0916.py:491:     TIM + [{"ad": "IBRU (Deeley 2001) §5", "tur": "akademik", "alinti": "Boundary posts were sited on both banks of the northern a
+denetim/ARAC-D5-ASYA-URET-0916.py:497:             "alinti": "il sera procédé à l'arpentage de cette partie de la frontière"}],
+denetim/ARAC-D5-ASYA-URET-0916.py:532:      "alinti": "accept the actual independence and freedom of Bokhara and Khiva"},
+denetim/ARAC-D5-ASYA-URET-0916.py:541:      "alinti": "include within the boundaries of Afghanistan the place known as Tor Kham"},
+denetim/ARAC-D5-ASYA-URET-0916.py:804:    [{"ad": "Katmandu Antlaşması", "madde": "md. 3", "tarih": "1860-11-01", "tur": "antlaşma", "not": "GV onayı 15 Kas 1860", "a
+denetim/ARAC-D5-ASYA-URET-0916.py:826:      "kaynak": "tibetjustice.org/materials/treaties/treaties3.html", "alinti": "ancient boundaries"}],
+denetim/ARAC-D5-ASYA-URET-0916.py:863:        if d.get("alinti"):
+denetim/ARAC-D5-ASYA-URET-0916.py:864:            assert len(d["alinti"].split()) <= 15, (k["id"], d["alinti"])
+denetim/ARAC-D5AM-URET-0916.py:197:    if alinti:
+denetim/ARAC-D5AM-URET-0916.py:198:        d["alinti"] = alinti
+denetim/ARAC-D5AM-URET-0916.py:204:    if alinti:
+denetim/ARAC-D5AM-URET-0916.py:205:        d["alinti"] = alinti
+denetim/ARAC-D5AM-URET-0916.py:240:          "alinti": "The Senate ratified the treaty by a vote of 41-14 on June 18, 1846."}
+denetim/ARAC-D5AM-URET-0916.py:245:          "alinti": "Alaska was formally transferred to the United States on October 18, 1867."}
+denetim/ARAC-D5AM-URET-0916.py:294:      "alinti": "there are two small areas of United States waters in Lake of the Woods"}],
+denetim/ARAC-D5AM-URET-0916.py:328:      "alinti": "in the absence of further survey, the evidence is not sufficient"},
+denetim/ARAC-D5AM-URET-0916.py:336:      "alinti": "at a distance from high-water mark on the seacoast ... of one mile"}],
+denetim/ARAC-D5AM-URET-0916.py:344:          "alinti": "increased the number of boundary monuments from 52 to 258"}
+denetim/ARAC-D5AM-URET-0916.py:346:      "url": "https://avalon.law.yale.edu/19th_century/guadhida.asp", "alinti": "RATIFICATIONS EXCHANGED AT QUERETARO, MAY 30, 1848"}
+denetim/ARAC-D5AM-URET-0916.py:349:        "alinti": "retaining the same dividing line between the two Californias"}
+denetim/ARAC-D5AM-URET-0916.py:376:      "alinti": "The American commissioner is of opinion that this award is void"}],
+denetim/ARAC-D5AM-URET-0916.py:383:      "alinti": "all coordinates are in accordance with the Panama-Colon Datum"}],
+denetim/ARAC-D5AM-URET-0916.py:467:       "alinti": "a line running north (true) a distance of 4.25 nautical miles"},
+denetim/ARAC-D5AM-URET-0916.py:481:      "sayfa": "1", "alinti": "werd echter geen duidelijke afbakening van de grens vastgelegd"}],
+denetim/ARAC-D5AM-URET-0916.py:569:      "alinti": "n'eurent pas lieu ... et n'ont toujours pas eu lieu"}],
+denetim/ARAC-D5AM-URET-0916.py:579:      "alinti": "Nous déclarons que l'Awa doit être considéré comme fleuve limitrophe"},
+denetim/ARAC-D5AM-URET-0916.py:590:       "sayfa": "3, 7", "alinti": "los trabajos realizados en los años 1925, 1926 y 1927"}],
+denetim/ARAC-D5AM-URET-0916.py:729:          "alinti": "On November 15, 1889, a coup d'état overthrew the monarchy"}
+denetim/ARAC-HALKA-FETIH-TURET-0913.js:188:  const alinti = bulgu.c.s.length > 260 ? bulgu.c.s.slice(0, 257) + "…" : bulgu.c.s;
+denetim/ARAC-HALKA-FETIH-TURET-0913.js:190:  r.kaynak = Object.assign({}, kn.k, { alinti, alinti_ozet: true, alinti_kaynagi: "kronoloji maddesi (" + bulgu.c.alan + ") —
+denetim/ARAC-HALKA-FETIH-TURET-0913.js:224:    console.log("   ALINTI[" + x.bulgu.c.alan + "]: " + r.kaynak.alinti);
+denetim/ARAC-HALKA-FETIH-TURET-0913.js:236:    "// 🔴 Alıntılar KRONOLOJİ MADDESİNİN metnidir (alinti_ozet:true · alinti_kaynagi); kaynak gövdesi OKUNMADI.",
+denetim/ARAC-HALKA-KRONOLOJI-TURET-0913.js:304:  const alinti = bulgu.c.s.length > 260 ? bulgu.c.s.slice(0, 257) + "…" : bulgu.c.s;
+denetim/ARAC-HALKA-KRONOLOJI-TURET-0913.js:305:  tanik.push({ o, h, bulgu, kn, alinti });
+denetim/ARAC-HALKA-KRONOLOJI-TURET-0913.js:333:  const { o, h, bulgu, kn, alinti } = x;
+denetim/ARAC-HALKA-KRONOLOJI-TURET-0913.js:340:  r.kaynak = Object.assign({}, kn.k, { alinti, alinti_ozet: true, alinti_kaynagi: "kronoloji maddesi (" + bulgu.c.alan + ")
+denetim/ARAC-HALKA-KRONOLOJI-TURET-0913.js:374:    console.log("   ALINTI[" + x.bulgu.c.alan + "]: " + r.kaynak.alinti);
+denetim/ARAC-HALKA-KRONOLOJI-TURET-0913.js:386:    "// 🔴 Alıntılar KRONOLOJİ MADDESİNİN metnidir (alinti_ozet:true · alinti_kaynagi); kaynak gövdesi OKUNMADI.",
+denetim/ARAC-HALKA-SINA-0913.js:7://      kaynak.ad + yer tutucu (sayfa|slug|paragraf|url) + alinti + gelenek
+denetim/ARAC-HALKA-SINA-0913.js:100:  if (!kn.alinti) h.push("kaynak.alinti yok");
+denetim/ARAC-HALKA-SINA-0913.js:130:  { id: "x1", yer: "Yok-Yer-XYZ", devlet: "osmanli", tarih: "1590-01-01", kesinlik: "yil", kaynak: { ad: "a", slug: "b", alinti: "c", 
+denetim/ARAC-HALKA-SINA-0913.js:131:  { id: "x2", yer: "Tebriz", devlet: "yok-devlet-xyz", tarih: "1590-01-01", kesinlik: "yil", kaynak: { ad: "a", slug: "b", alinti: "c"
+denetim/ARAC-HALKA-SINA-0913.js:132:  { id: "x3", yer: "Tebriz", devlet: "osmanli", tarih: "1590-13-40", kesinlik: "yil", kaynak: { ad: "a", slug: "b", alinti: "c", gelen
+denetim/ARAC-HALKA-SINA-0913.js:134:  { id: "x5", yer: "Hoy", devlet: "osmanli", f: "1590-01-01", t: "1590-06-01", kesinlik: "yil", kaynak: { ad: "a", slug: "b", alinti: 
+denetim/ARAC-HALKA-SINA-0913.js:135:  { id: "x6", yer: "Tebriz", devlet: "osmanli", tarih: "1590-01-01", f: "1590-01-01", t: "1591-01-01", kesinlik: "belirsiz", kaynak: {
+denetim/ARAC-HLA-JSON-SINA-0913.py:44:    if not h["kaynak"].get("alinti"): s.append("alıntı yok")
+denetim/ARAC-HLA-KAYIT-0913.py:28:    print("##", r["id"], r.get("tarih"), r["kesinlik"], "|", k.get("slug") or k.get("ad"), "|", k["alinti"])
+denetim/ARAC-ISY-OLCUM-0913.js:46:  if (!Array.isArray(p.kaynak) || !p.kaynak.length || p.kaynak.some(k => !k.ad || !(k.slug || k.sayfa) || !k.alinti || !k.gelenek)) s.pu
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:7:  alinti   : ② alıntıları çekilen TDV gövdesinde birebir arar
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:178:        k = (m.get("kaynak", "") + " " + str(m.get("alinti", ""))).lower()
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:294:        if m.get("alinti"):
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:295:            adaylar.append((str(m["alinti"]), ("tdv", tdvler[-1]) if tdvler else ("ad", None), "alinti"))
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:300:                sonuc.append({**kimlik(m), "alan": alan, "alinti": q, "kaynak_turu": isr[0],
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:340:            sonuc.append({**kimlik(m), "alan": alan, "alinti": q, "slug": hangi or (hedef[0] if hedef else None),
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:467:            qn = arama_norm(x["alinti"])
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:473:                parcalar = [arama_norm(q) for q in re.split(r"\[?\.\.\.\]?|…", x["alinti"]) if len(arama_norm(q).split()) 
+denetim/ARAC-KRONO-KAYNAK-DENETLE-0930.py:487:    elif kip == "alinti":
+denetim/ARAC-ONCE1281-IRAN-BIRLESTIR.js:60:    for (const a of ['alinti_f', 'alinti_t']) if (k[a] && !alintiVar(k[a])) kSorun.push(`${k.id}: ${a} önbellekte YOK`);
+denetim/ARAC-ONCE1281-IRAN-BIRLESTIR.js:97:  const bul = m.alinti ? alintiVar(m.alinti, m.alinti_slug) : null;
+denetim/ARAC-ONCE1281-ORTADOGU-ALINTI.js:14:let alinti = 0, bulundu = 0, yok = [], onbYok = 0;
+denetim/ARAC-ONCE1281-ORTADOGU-ALINTI.js:27:console.log(`evren: ${metinler.length} kaynak metni · TDV alıntısı ${alinti} · birebir bulundu ${bulundu} · bulunamadı 
+denetim/ARAC-SINIR-ANADOLU-URET-0907.py:370:        for ek in ("hal_oneri", "alinti", "degisim_t", "degisim_t_hassasiyet",
+denetim/ARAC-SINIR-GAFRIKA-1923-0907.py:17:  🟢 OLCTUM   = TDV govdesinden CUMLEYLE alindi (kaynak + alinti yazili)
+denetim/ARAC-SINIR-GDASYA-0078-URET.py:155:    if alinti:
+denetim/ARAC-SINIR-GDASYA-0078-URET.py:156:        d["alinti"] = alinti
+denetim/ARAC-SINIR-GDASYA-0078-URET.py:280:      "alinti": "the River Indow shall be the boundary on the Mainland"},
+denetim/ARAC-SINIR-ICASYA-0078.py:115:             "alinti": "the crest of the mountain range separating the waters"},
+denetim/ARAC-SINIR-ICASYA-0078.py:118:             "alinti": "to recognize the frontier between Sikkim and Thibet"},
+denetim/ARAC-SINIR-ICASYA-0078.py:121:             "alinti": "ratified by the Viceroy and Governor-General of India on November 11, 1904"},
+denetim/ARAC-SINIR-ICASYA-0078.py:124:             "alinti": "Anglo-Chinese Convention of 1890 ... shall ... remain in full force"},
+denetim/ARAC-SINIR-ICASYA-0078.py:127:             "alinti": "jointly demarcated on the ground in 1895"},
+denetim/ARAC-SINIR-ICASYA-0078.py:152:             "alinti": "the borders of Tibet, and the boundary between Outer and Inner Tibet"},
+denetim/ARAC-SINIR-ICASYA-0078.py:155:             "alinti": "so long as the Government of China withholds signature"},
+denetim/ARAC-SINIR-ICASYA-0078.py:159:             "alinti": "The provisional boundary between Szechuan and Tibet resulting from these frontier negotiations"},
+denetim/ARAC-SINIR-ICASYA-0078.py:186:             "alinti": "the imprecision of the delimitation in the Sayan Mountains"},
+denetim/ARAC-SINIR-ICASYA-0078.py:188:             "url": IBS64, "sayfa": "7", "alinti": "The former declared itself independent in 1921"},
+denetim/ARAC-SINIR-ICASYA-0078.py:208:             "alinti": "both Tannu Tuva and Mongolia shortly established Soviet regimes"},
+denetim/ARAC-SINIR-ICASYA-0078.py:263:            if "alinti" in d:
+denetim/ARAC-SINIR-ICASYA-0078.py:264:                assert len(d["alinti"].split()) <= 15, (k["id"], d["alinti"])
+denetim/ARAC-SINIR-KAFRIKA-ACIK5-0907.py:100:            k["alinti"] = g["alinti"]
+denetim/ARAC-SINIR-KAFRIKA-ACIK5-0907.py:118:        sum(1 for k in d["kenarlar"] if k.get("alinti"))))
+denetim/ARAC-SINIR-KAFRIKA-CEZFAS-0907.py:80:            k["alinti"] = ALINTI
+denetim/ARAC-SINIR-KAFRIKA-CEZFAS-0907.py:96:          % sum(1 for k in d["kenarlar"] if k.get("alinti")))
+denetim/ARAC-SINIR-KAFRIKA-ERITRE-0907.py:71:            k["alinti"] = ALINTI
+denetim/ARAC-SINIR-KAFRIKA-ERITRE-0907.py:85:    print("alintili kenar: %d/25" % sum(1 for k in d["kenarlar"] if k.get("alinti")))
+denetim/ARAC-SINIR-KAFRIKA-RIFHUKUM-0907.py:50:   "alinti": "«Abdulkerim el-Hattabi, 22 Haziran 1921 gunu Annoual'da "
+denetim/ARAC-SINIR-KAFRIKA-YAZ-0907.py:396:                "alinti": h.get("alinti"),
+denetim/ARAC-SINIR-KAFRIKA-YAZ-0907.py:408:                "kaynak": None, "alinti": None,
+denetim/ARAC-TAHTA-GIT-YARIM-SINAV-1006.py:183:    # basarisiz olup %TEMP%'te fikstur birakiyordu (W36c'de 4 kalinti olculdu).
+denetim/ARAC-TAHTA-KAPI-SINAV-1003.py:107:        sonuc(d is None, "2b) BAYAT kalinti (yalniz autostash) kapiyi OTURMUYOR",
+denetim/ARAC-TEMIZ-TARA-0914.js:80:    e("metin", k.metin); if (k.alinti && k.alinti.metin && !/^bulunamad/.test(k.alinti.metin)) e("alinti.metin", k.alinti.metin);
+denetim/ARAC-YZ-KIRLENME-1001/evren.js:19:      const site = SITE.test(k), alinti = QUOTE.test(k);
+denetim/ARAC-YZ-KIRLENME-1001/evren.js:32:console.log('kaynak boş', c(m => !m.kaynak.trim()), '| modern site', c(m => m.site), '| alıntı', c(m => m.alinti), '| site+al
+denetim/SINIR-CIZGI-0076-YAMA-hukuki_sinirlar.js:137:    alinti: "1739 Belgrad Antlaşması ile Avusturya, Furjon Kalesi hariç Pasarofça Antlaşması sonucu aldığı b
+denetim/SINIR-D-AFRIKA-0077-ek.py:52:            "url": IBS.format("ibs%03d" % int(str(no).split()[0])), "alinti": alinti}
+denetim/SINIR-D-ASYA-0077-YOKC.py:167:     "alinti": "The boundary then follows first the Argun and then the Amur."},
+denetim/SINIR-D-ASYA-0077-YOKC.py:170:     "alinti": "China received 52% of the river islands; other areas were divided evenly."}]
+denetim/SINIR-D-ASYA-0077-YOKC.py:174:     "alinti": "The remaining segments stem from the 1881 Treaty of St. Petersburg."},
+denetim/SINIR-D-ASYA-0077-YOKC.py:177:     "alinti": "Agreement affirmed the line of actual control."}]
+denetim/SINIR-D-KOMSU-0077-manda.py:30:                         "alinti": "thence a straight line to Imtar to the south of Jebul Druse"},
+denetim/SINIR-D-KOMSU-0077-manda.py:33:                         "alinti": "then a line to the south of Nasib on the Hedjaz Railway"},
+denetim/SINIR-D-KOMSU-0077-yok.py:96:                   "alinti": "followed the low-water mark on the left (Iranian) bank"}
+denetim/SINIR-D-KOMSU-0077-yok.py:98:         "alinti": "little change in the Russo-Iranian boundary west of the Caspian"}
+denetim/SINIR-D-KOMSU-0077-yok.py:157:            v = v + ([ek] if not any(d.get("url") == ek.get("url") and d.get("alinti") == ek.get("alinti") for d in v) else [])
+denetim/SINIR-D-OKYANUSYA-0077-bol5.py:35:          "alinti": "to the intersection of the 5th parallel south latitude and the 141st meridian of east longitude",
+denetim/SINIR-D-OKYANUSYA-0077-bol5.py:40:         "alinti": "The 141st degree of east longitude after this forms the boundary up to the point of intersection of the boun
+denetim/SINIR-D-OKYANUSYA-0077-bol5.py:43:             "alinti": "British New Guinea became the Territory of Papua and was placed under Australian administration in Septe
+denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py:50:          "alinti": "delimited the boundary only in general terms, subject to later determination"}
+denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py:53:         "alinti": "No evidence has been uncovered on demarcation of the boundary."}
+denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py:60:       "alinti": "a committee shall be formed ... to fix the final boundaries"}
+denetim/SINIR-D-ORTADOGU-0077-magrip-uret.py:64:     "alinti": "Cette ligne commence à l'embouchure de l'oued Adjeroud dans la mer"},
+denetim/SINIR-D-ORTADOGU-0077-magrip-uret.py:66:     "url": "https://mjp.univ-perp.fr/constit/ma1845.htm", "alinti": "elle ne sera pas désignée par des pierres"}],
+denetim/SINIR-D-ORTADOGU-0077-magrip-uret.py:86:     "alinti": "first delimited between Ghudamis (Rhadames or Ghadames) and the present Niger tripoint"},
+denetim/SINIR-D-ORTADOGU-0077-magrip-uret.py:89:     "alinti": "There is no detailed delimitation of this segment of the boundary available."}],
+denetim/SINIR-D-ORTADOGU-0077-magrip-uret.py:102:               "alinti": "the Franco - Libyan Agreement of 1956 changed the part between Ghudamis and Ghat"}],
+denetim/SINIR-UZAKDOGU-0078-uret.py:132:            "alinti": "China received 40% of the disputed crater lake on Changbai Mt."}
+denetim/SINIR-UZAKDOGU-0078-uret.py:136:         "kaynak": "IBS 17 s. 3'teki alıntı", "alinti": "the River Tumen is recognized as forming the boundary between China and
+denetim/SINIR-UZAKDOGU-0078-uret.py:145:         "alinti": "the centre of the Yalu Bridge shall be regarded as the frontier",
+denetim/TASLAK-C-KITA29-1590-0913.js:144:    alinti: "fethedilen ülkelerin Osmanlılar'ın tasarrufunda kalması şartıyla anlaşma yapıldı",
+denetim/TASLAK-hukuki_sinirlar.js:98:    alinti: "His Majesty the Emperor of the Ottomans cedes to their Majesties the Allied Sovereigns all the territories of his Empire
+denetim/TASLAK-hukuki_sinirlar.js:166:    alinti: "The word 'Sudan' in this Agreement means all the territories South of the 22nd parallel of latitude, which: 1. Have nev
+denetim/TASLAK-hukuki_sinirlar.js:206:  kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca", alinti: "Sava nehrinin Bossut'un Sava'ya döküldüğü yerden Brot Ka
+denetim/TASLAK-hukuki_sinirlar.js:233:    alinti: "Thence its Boundarys shall be carry'd on from the hither Banks of the Marosche to the River Teysse, and from the hither
+denetim/TASLAK-hukuki_sinirlar.js:262:    alinti: "Kostayniçe Avusturya'da kaldı; diğer kaleleri (Bihke, Novi, Krupa vb.) boşaltıldı.",
+denetim/TASLAK-hukuki_sinirlar.js:290:    alinti: "Podolya boşaltıldı, Kamaniçe Kalesi yıkıldı, Suçeva, Roman ve diğer kaleleri Osmanlılar geri aldı.",
+denetim/TASLAK-hukuki_sinirlar.js:325:    alinti: "Ayamavra adaları, Korent denizi kuzey kıyıları ve bazı kalelerin (Kataro, Trebinye) iadesi",
+denetim/TASLAK-hukuki_sinirlar.js:373:    alinti: "The Country belonging to the Dominion of his Imperial Ottoman Majesty, as far as the River Unna towards Bosnia, shall b
+denetim/TASLAK-hukuki_sinirlar.js:426:    alinti: "Şattülarap'ın en kapsamlı biçimde ele alındığı antlaşma 1847 Mayısında Erzurum'da imzalanandır.",
+denetim/TASLAK-hukuki_sinirlar.js:431:    alinti: "Şattülarap suyolunun tamamı Osmanlı'da kaldı; buna karşılık nehrin doğu yakasındaki yerleşimler -Muhammere l
+denetim/TASLAK-hukuki_sinirlar.js:467:    alinti: "Çehrin seferlerinin ardından Kırım Hanı'nın aracılığıyla yürütülen görüşmeler sonunda, Özü (Dinyeper)
+js/app.js:2314:      var kaynakMetin = (k.kaynak && (k.kaynak.alinti || k.kaynak.ad)) || "";
+js/app.js:8961:      (kn.alinti ? '<div class="kh-alinti">“' + ekEsc(kn.alinti) + '”' +
+js/app.js:8962:         (kn.alinti_ozet ? ' <span class="kh-ozet">özet, kaynağın kendi cümlesi değil</span>' : '') + '</div>' : '') +
+js/app.js:12178:    if (k.alinti && k.alinti.metin &&
+js/app.js:12179:        k.alinti.metin.indexOf("bulunamadi") !== 0 &&
+js/app.js:12180:        k.alinti.metin.indexOf("bulunamadı") !== 0) {
+js/app.js:12181:      h += '<p class="ek-alt">' + ekEsc(k.alinti.metin) + "</p>";
+js/d_katman.js:388:    var alinti = c.alinti ? ": “" + c.alinti + "”" : "";
+js/d_katman.js:389:    return ekEsc(baslik + tarih) + (alinti ? ekEsc(alinti) : "");

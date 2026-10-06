@@ -15,6 +15,7 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ap = argparse.ArgumentParser()
 ap.add_argument("--olcum", required=True)
 ap.add_argument("--cikti-kok", required=True)
+ap.add_argument("--siniflar", default="A,D", help="tırnağı kaldırılacak hüküm sınıfları (1006c: yalnız A)")
 ap.add_argument("--dok", default=None, help="sınav için: değişen dosyaların SON hâlini bu dizine (veri ağacının DIŞINA) yazar")
 a = ap.parse_args()
 
@@ -93,7 +94,7 @@ for x in olc:
     s, gerekce = SINIF.get(no, ("A", NOT.get(no, "birebir yok; anlam en yakın gövde cümlesinde (en_yakin_cumle sütunu)")))
     konumlar = [k.strip() for k in x["w30_konum"].split("·")]
     uygulanan = []
-    if s in ("A", "D"):
+    if s in a.siniflar.split(","):
         al = x["alinti"]
         for kon in konumlar:
             ad, _, sat = kon.partition(":")
@@ -151,6 +152,14 @@ if a.dok:
             hedef = os.path.join(a.dok, os.path.basename(yol))
             with open(hedef, "w", encoding="utf-8", newline="") as f:
                 f.write("".join(DEGISEN[yol]))
+ADI = os.path.basename(a.cikti_kok)
+for c in cik:
+    d = []
+    for u in c["diff_konum"].split(";"):
+        p = u.split(":")
+        if len(p) == 2 and p[1].isdigit():
+            d.append(ADI + ("-KOORD" if koord("data/" + p[0]) else "") + ".diff")
+    c["diff_dosya"] = ";".join(sorted(set(d)))
 with open(a.cikti_kok + ".tsv", "w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(cik[0]), delimiter="\t")
     w.writeheader()
