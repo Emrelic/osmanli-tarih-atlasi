@@ -1295,7 +1295,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"japonya (TDV — devletler.js azuchi-momoyama kaydıyla birebir)" },
 { taraflar:["azuchi-momoyama"], t:"1588-08-29", b:"Hideyoshi \"Kılıç Avı\" fermanını çıkardı", tur:"reform", onem:4, dunya:1, kapsam:"ic",
   etiket:["reform","idari","sosyal","konu-idari","konu-islahat","konu-sosyal"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["azuchi-momoyama"],
   d:"[Azuchi-Momoyama] Katanagari adıyla bilinen bu ferman, köylülerden ve din adamlarından bütün silahları topladı; savaşçı (samuray) sınıfını üretici sınıflardan kalıcı olarak ayırıp toplumsal hiyerarşiyi katılaştıran bu düzenleme, iki asır sürecek Tokugawa dönemi toplumsal düzeninin temellerinden biri oldu.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Conrad Totman, Early Modern Japan (1993)" },
 { taraflar:["azuchi-momoyama"], t:"1592-05-23", b:"Hideyoshi Kore'yi işgal etti — Ming müdahale etti (Imjin Savaşı)", tur:"savas", onem:5, dunya:3, kapsam:"dis",
@@ -1327,7 +1327,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"japonya (TDV)" },
 { taraflar:["edo-bakufu"], t:"1614-01-27", b:"Tokugawa şogunluğu Hıristiyanlığı tamamen yasakladı", tur:"din", onem:4, dunya:2, kapsam:"ic",
   etiket:["din","reform","zulum","konu-din","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["edo-bakufu"],
   d:"[Edo Şogunluğu] Hıristiyan daimyoların yabancı güçlerle ittifak kurabileceği ve köylü isyanlarını örgütleyebileceği endişesiyle Ieyasu bütün Hıristiyan ibadetini yasakladı, misyonerleri sürgün etti; bu politika 1637-38 Shimabara İsyanı'yla en kanlı biçimine ulaşacaktı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Conrad Totman, Early Modern Japan (1993)" },
 { taraflar:["edo-bakufu"], t:"1615-06-04", b:"Osaka Kalesi düştü, Toyotomi hanesi tükendi", tur:"son", onem:4, dunya:2, kapsam:"ic",
@@ -1347,7 +1347,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: George Sansom, A History of Japan, cilt 3", yer_kon:[32.79,130.37] },
 { taraflar:["edo-bakufu"], t:"1639-07-05", b:"\"Sakoku\" fermanıyla ülke neredeyse tamamen dışa kapatıldı", tur:"reform", onem:5, dunya:3, kapsam:"dis",
   etiket:["reform","diplomasi","ekonomi","konu-diplomasi","konu-ekonomi","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["edo-bakufu"],
   d:"[Edo Şogunluğu] Portekizlilerin de kovulmasıyla tamamlanan bu dizi ferman, Japonları yurt dışına çıkmaktan ve yabancıların girmesinden men etti; yalnızca Hollandalı ve Çinli tüccarlara Nagazaki limanında sıkı denetim altında ticaret izni tanındı — 1853'e (bkz. E bölümü) kadar sürecek iki buçuk asırlık kapanma politikasının başlangıcı.",
   kaynak:"japonya (TDV)" },
 { taraflar:["edo-bakufu"], t:"1641-06-25", b:"Hollanda ticaret istasyonu Nagazaki'deki Dejima adacığına taşındı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis",
@@ -1382,7 +1382,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)" },
 { taraflar:["edo-bakufu"], t:"1782-01-01", b:"Tenmei Kıtlığı başladı", tur:"sosyal", onem:4, dunya:1, kapsam:"ic",
   etiket:["sosyal","kitlik","demografi","konu-sosyal","konu-demografi","afet","afet-kitlik","afet-volkan-firtina"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Sendai", "Morioka", "Hirosaki"],
   d:"[Edo Şogunluğu] Soğuk hava ve 1783'teki Asama Dağı yanardağ patlamasıyla ağırlaşan bu kıtlık, kuzey Japonya'da yüzbinlerce insanın ölümüne yol açtı; şehirlerde pirinç ayaklanmaları (uçi-kovaşi) patlak verdi ve felaket, Kansei reformlarının (1787-1793) mâlî-tarımsal önlemlerini tetikledi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Conrad Totman, Early Modern Japan (1993)" },
 { taraflar:["edo-bakufu"], t:"1798-01-01", b:"Motoori Norinaga, \"Kojiki-den\"i tamamladı", tur:"kultur", onem:3, dunya:2, kapsam:"ic",
@@ -1439,7 +1439,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: W. G. Beasley, The Meiji Restoration (1972)" },
 { taraflar:["meiji-japonya"], t:"1872-08-03", b:"Gakusei (Eğitim Sistemi) fermanıyla zorunlu ilköğretim getirildi", tur:"reform", onem:4, dunya:2, kapsam:"ic",
   etiket:["reform","egitim","bilim","konu-bilim","konu-egitim","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["meiji-japonya"],
   d:"[Meiji dönemi] Fransız ve ABD modellerinden esinlenen bu ferman, cinsiyet ve sınıf ayrımı gözetmeksizin bütün çocuklar için ilköğretimi zorunlu kıldı; okuryazarlık oranını bir nesilde dramatik biçimde yükseltip Meiji sanayileşmesinin insan sermayesi temelini attı, ama köylü ailelerin okul harcı yükü zaman zaman yerel isyanlara da yol açtı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)" },
 { taraflar:["meiji-japonya"], t:"1872-10-04", b:"Tomioka İpek Fabrikası açıldı", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic",
@@ -1559,7 +1559,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)", yer_id:"Edo (Tokyo)" },
 { taraflar:["meiji-japonya"], t:"1918-08-03", b:"Pirinç Ayaklanmaları ülke çapına yayıldı", tur:"isyan", onem:3, dunya:1, kapsam:"ic",
   etiket:["isyan","sosyal","ekonomi","konu-isyan","konu-ekonomi","konu-sosyal"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Edo (Tokyo)", "Osaka", "Kumamoto", "Sendai"],
   d:"[Taishō dönemi] Savaş dönemi enflasyonu ve Sibirya Müdahalesi spekülasyonuyla fırlayan pirinç fiyatlarına karşı balıkçı kadınların başlattığı protesto, haftalar içinde yüzlerce şehre yayılan kitlesel ayaklanmaya dönüştü; hükümetin istifasına yol açan bu olay, Taishō döneminin artan siyasi katılım ('Taishō Demokrasisi') talebinin en somut patlaması oldu.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)" },
 { taraflar:["meiji-japonya"], t:"1919-01-18", b:"Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
@@ -1791,7 +1791,7 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-kavalali"], t:"1840-11-27", b:"İskenderiye Konvansiyonu — Mehmed Ali'nin geri adımı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"İskenderiye", d:"Mehmed Ali Suriye, Adana, Girit ve Hicaz'dan vazgeçmeyi, Osmanlı donanmasını iade etmeyi ve padişahın hâkimiyetini tanımayı kabul etti; karşılığında Mısır'ın irsî valiliği güvenceye alındı. Bu, Mısır'ın on yıl önce Kütahya'da kazandığı bütün toprakları geri vermesi, ama karşılığında en kalıcı kazanımı — kendi hanedanının kesin meşruiyetini — elde etmesiydi.", kaynak:"kavalali-mehmed-ali-pasa (TDV) — data/olaylar_ek4.js:262'de zaten doğrulanmış, Mısır perspektifine uyarlandı" },
 
-{ taraflar:["misir-kavalali"], t:"1841-02-25", b:"Mısır ordusunun Suriye ve Çukurova'yı boşaltması", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], yer_id:"", d:"Dokuz yıllık işgal sona erdi; İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü. Nil'den Toroslar'a uzanan geniş kuşak yeniden doğrudan Osmanlı idaresine geçti — Mısır, imparatorluk içi imparatorluk hayalinden sonunda vazgeçmiş, ama kendi çekirdek toprağını ve hanedanını kurtarmıştı.", kaynak:"suriye (TDV) — data/olaylar_ek4.js:265'te zaten doğrulanmış, Mısır perspektifine uyarlandı", kapsam_genis:true },
+{ taraflar:["misir-kavalali"], t:"1841-02-25", b:"Mısır ordusunun Suriye ve Çukurova'yı boşaltması", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], yer_id:"", d:"Dokuz yıllık işgal sona erdi; İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü. Nil'den Toroslar'a uzanan geniş kuşak yeniden doğrudan Osmanlı idaresine geçti — Mısır, imparatorluk içi imparatorluk hayalinden sonunda vazgeçmiş, ama kendi çekirdek toprağını ve hanedanını kurtarmıştı.", kaynak:"suriye (TDV) — data/olaylar_ek4.js:265'te zaten doğrulanmış, Mısır perspektifine uyarlandı", odak_kimlik:["misir-kavalali"], kapsam_genis:true },
 
 { taraflar:["misir-kavalali"], t:"1841-05-24", b:"Ferman: Mısır valiliğinin Kavalalı ailesine irsî bırakılması", tur:"idari", onem:5, dunya:4, kapsam:"dis", etiket:["idari","antlasma","konu-idari","konu-diplomasi"], yer_id:"İstanbul", d:"Padişah fermanı, Mısır valiliğini hanedan içinde babadan oğula geçecek şekilde tanıdı; buna karşılık ordu mevcudu on sekiz bine indirildi, vergi İstanbul'a bağlandı, para basma ve antlaşma yapma yetkisi kaldırıldı. Mısır bir vilayet olarak kaldı ama artık ayrı bir hanedanın ülkesiydi — 1953'e kadar sürecek Kavalalı hanedanının hukuki temeli bu fermanla atıldı. Hicaz ve Haremeyn idaresi Bâbıâli'ye geri döndü.", kaynak:"misir (TDV) — data/olaylar_ek4.js:270'te zaten doğrulanmış, Mısır perspektifine uyarlandı" },
 
@@ -1805,7 +1805,7 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-kavalali"], t:"1859-04-25", b:"Süveyş Kanalı kazısının başlaması ve Port Said'in kuruluşu", tur:"ekonomi", onem:5, dunya:4, kapsam:"ic", etiket:["ekonomi","bilim","imar","islahat","konu-bilim","konu-ekonomi","konu-imar","konu-islahat","konu-ulastirma"], d:"Ferdinand de Lesseps'in projesinin kazı çalışmaları 25 Nisan 1859'da başladı; kanal on yıl sonra tamamlanacaktı. Kazının Akdeniz ucunda işçiler için kurulan barakalar Port Said'in çekirdeğini oluşturdu — Mısır, daha önce hiçbir yerleşimin bulunmadığı bir kıyı şeridinde yepyeni bir şehir doğuruyor, aynı zamanda kendi tarihinin en büyük mali yükünü de üstleniyordu.", kaynak:"suveys (TDV) — data/olaylar_7a4170.js:79'da zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_id:"Portsaid" },
 
-{ taraflar:["misir-kavalali"], t:"1861-06-01", b:"Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması", gun:"Haziran 1861? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI · TDV `pamuk`, `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali` … ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis", etiket:["ekonomi","konu-ekonomi"], yer_id:"", d:"Amerikan İç Savaşı'nın (1861-1865) Güney limanlarını abluka altına alması, dünya tekstil sanayiinin başlıca hammadde kaynağı olan Amerikan pamuğunun piyasadan çekilmesine yol açtı; TDV'nin pamuk maddesi bu savaşın 'Osmanlı pamuk piyasasını canlandırdığını' özellikle vurgular. Mısır, İngiliz ve Fransız tekstil fabrikalarının açık kalan başlıca alternatifi olarak fiyatların kat kat arttığı bir ihracat patlaması yaşadı; bu 'pamuk çılgınlığı' toprak sahiplerini zenginleştirirken, savaş bitip Amerikan pamuğu piyasaya dönünce 1866'dan itibaren gelecek mali çöküşün de tohumlarını attı.", kaynak:"pamuk (TDV) — Osmanlı ölçeğinde doğrulanmış; Mısır'a özgü ayrıntı için standart akademik kaynak (E.R.J. Owen) da kullanıldı", kapsam_genis:true },
+{ taraflar:["misir-kavalali"], t:"1861-06-01", b:"Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması", gun:"Haziran 1861? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI · TDV `pamuk`, `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali` … ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis", etiket:["ekonomi","konu-ekonomi"], yer_id:"", d:"Amerikan İç Savaşı'nın (1861-1865) Güney limanlarını abluka altına alması, dünya tekstil sanayiinin başlıca hammadde kaynağı olan Amerikan pamuğunun piyasadan çekilmesine yol açtı; TDV'nin pamuk maddesi bu savaşın 'Osmanlı pamuk piyasasını canlandırdığını' özellikle vurgular. Mısır, İngiliz ve Fransız tekstil fabrikalarının açık kalan başlıca alternatifi olarak fiyatların kat kat arttığı bir ihracat patlaması yaşadı; bu 'pamuk çılgınlığı' toprak sahiplerini zenginleştirirken, savaş bitip Amerikan pamuğu piyasaya dönünce 1866'dan itibaren gelecek mali çöküşün de tohumlarını attı.", kaynak:"pamuk (TDV) — Osmanlı ölçeğinde doğrulanmış; Mısır'a özgü ayrıntı için standart akademik kaynak (E.R.J. Owen) da kullanıldı", odak_kimlik:["misir-kavalali"], kapsam_genis:true },
 
 { taraflar:["misir-kavalali"], t:"1863-04-03", b:"İsmâiliye'nin kuruluşu — Hidiv İsmail'in Süveyş berzahındaki yatırımı", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", etiket:["ekonomi","idari","konu-idari","konu-ekonomi"], d:"Sultan Abdülaziz'in Mısır ziyaretiyle aynı yıl, Süveyş berzahındaki Timsah gölü kıyısında kanal şirketinin idare merkezi kuruldu. Hidiv İsmâil Paşa'nın bu tepeye kendisine bir köşk yaptırması üzerine yerleşim onun adıyla İsmâiliye diye anıldı — Mısır'ın modernleşme hırsının ve İsmail Paşa'nın kişisel görkem tutkusunun aynı anda somutlaştığı bir şehir.", kaynak:"abdulaziz (TDV) — data/olaylar_7a4170.js:81'de zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_id:"İsmâiliye" },
 
@@ -1954,7 +1954,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ubeydullah Han Harzem (Hîve) topraklarını işgal etti",
   tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hive","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Ubeydullah, komşu Yadigâroğulları Hanlığı'nın (Hîve) topraklarına girip bölgeyi geçici olarak ele geçirdi; işgal kalıcı olmadı ve birkaç yıl içinde Hîve hanları bölgeyi geri aldı. Bu, iki Özbek hanlığı arasında üç asır sürecek rekabetin ilk büyük çatışmasıydı.",
   kaynak:"TDV, madde: ubeydullah-han" },
 
@@ -2034,7 +2034,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Harzem'in (Hîve) yeniden fethi",
   tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","buhara","hive","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Abdullah Han, Hîve hanlarıyla süregelen rekabette Harzem'i bir kez daha ele geçirdi; ama bu da 1538'deki gibi kalıcı olmadı, bölge kısa süre içinde tekrar bağımsız Hîve hanlarının eline geçti.",
   kaynak:"TDV, madde: abdullah-han" },
 
@@ -2200,7 +2200,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Yadigâroğulları Harzem'i (Hîve) fethetti — hanlığın kuruluşu",
   tur:"kurulus", onem:5, dunya:1, kapsam:"ic",
   etiket:["askeri","kurulus","hive","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Şeybânî soyundan Arabşah'ın torunları İlbars ve Bilbars, Özbek-Türkmen kuvvetleriyle Harzem'i ele geçirip 'Yadigâroğulları' ya da 'Arabşahlılar' olarak anılan yeni bir Özbek hanlığı kurdu; başkent önce Köhne Ürgenç (Gürgenç) oldu.",
   kaynak:"TDV, madde: hive-hanligi" },
 
@@ -2232,7 +2232,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin on yıllık İran esaretinden kaçışı",
   tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["siyaset","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"On yıldır Safevî İran'ında tutsak tutulan Ebulgazi, kaçarak Harzem'e döndü; birkaç yıl içinde hanlığın en etkili hükümdarlarından biri olacaktı.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -2256,7 +2256,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin Türkmen ve Kalmuklara karşı seferleri (1648-1656)",
   tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","hive","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive", "turkmen"],
   d:"Ebulgazi Bahadır Han, saltanatı boyunca (1648, 1651, 1653, 1656) Türkmen boylarına karşı ve (1649, 1653, 1656) Kalmuk akınlarına karşı üst üste seferler düzenledi; hanlığın Harzem'deki otoritesini bu askerî üstünlükle pekiştirdi.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -2264,7 +2264,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","hive","buhara","konu-askeri"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive", "buhara"],
   d:"Ebulgazi Bahadır Han, 1655 ve 1662'de komşu Buhara hanlığı topraklarına akınlar düzenledi; iki hanlık arasındaki sınır çatışmaları bu dönemde de sürdü.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -2272,7 +2272,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi Bahadır Han'ın Şecere-i Terâkime'yi tamamlaması",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","kultur","hive","konu-kultur"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Bizzat kalemiyle tarih yazan nadir Orta Asya hükümdarlarından Ebulgazi Bahadır Han, Türkmen boylarının soy kütüğünü ve tarihini anlatan Şecere-i Terâkime adlı eserini tamamladı; Çağatay Türkçesi tarih yazıcılığının en önemli örneklerinden biridir.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
@@ -2280,7 +2280,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Ebulgazi Bahadır Han'ın ölümü",
   tur:"son", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hive","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
   kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV bu oturumda doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
@@ -2288,7 +2288,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Allahkulı Han döneminde hanlığın parlak çağı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","hive","konu-idari","konu-hanedan","konu-kultur"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Allahkulı Han'ın on yedi yıllık saltanatı (1825-1842), hanlığın imar ve ticaret bakımından en parlak dönemlerinden biri oldu; bu dönemin saray tarihçileri Munis ve devamcısı Âgehî, Ebulgazi'nin başlattığı tarih yazıcılığı geleneğini sürdürerek Firdevs-i İkbâl adlı vekayinâmeyi kaleme aldı.",
   kaynak:"standart akademik kaynak (Orta Asya tarihyazımı literatürü, Munis-Âgehî vekayinâmesi üzerine)" },
 
@@ -2304,7 +2304,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Seyyid Muhammed Rahim Bahadır Han'ın tahta çıkışı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Rus istilasının arifesinde tahta çıkan Seyyid Muhammed Rahim Bahadır Han, hanlığın Rus himayesine girişine (1873) ve devamında kırk altı yıl sürecek saltanatına şahitlik etti.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
@@ -2312,7 +2312,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"General Kaufmann'ın seferi Hîve'yi 29 Mayıs 1873'te teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: hive-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
@@ -2320,7 +2320,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Osmanlı'nın Hîve'ye ittifak girişimi",
   tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["siyaset","diplomasi","osmanli-temasi","hive","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Kâbil", "Buhara", "Hîve"],
   d:"Rus istilası sırasında Osmanlı devleti, Müslüman dünyasının önderi sıfatıyla önce Kâbil'e, ardından Buhara ve Hîve'ye elçiler göndererek Rusya'ya karşı bir ittifak kurmaya çalıştı; girişim, Rus askeri üstünlüğü karşısında sonuçsuz kaldı.",
   kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
 
@@ -2328,7 +2328,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Son Han Seyyid Abdullah'ın tahttan çekilmesi",
   tur:"son", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","son","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["hive"],
   d:"Kongirat hanedanının son hanı Seyyid Abdullah Han, Sovyet baskısı altında tahttan çekildi; hanlığın üç asırlık siyasi varlığı fiilen sona erdi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
@@ -2336,7 +2336,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Harezm Halk Cumhuriyeti ilan edildi",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["siyaset","son","hive","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Hîve", "Köhne Ürgenç (Gürgenç)"],
   d:"Sovyet destekli Harezm Halk Cumhuriyeti'nin ilanıyla Hîve Hanlığı resmen tarihe karıştı; toprakları 1924'te komşu Sovyet cumhuriyetleri arasında paylaştırılacaktı.",
   kaynak:"TDV, madde: hive-hanligi" },
 
@@ -2468,7 +2468,7 @@ window.KRONOLOJI_OZBEK = [
   b:"Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli-temasi","buhara","konu-askeri","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"Astrahan",
   d:"Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi. Seferin gerekçelerinden biri, Orta Asyalı Müslümanların hac yolunu ve Osmanlı-Mâverâünnehir ticaret/diplomasi hattını Rus ilerleyişine karşı güvence altına almaktı — Şeybânî/Canoğulları Buhara'sıyla 16. yüzyıl boyunca süren mektuplaşmaların jeopolitik arka planı budur.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Osmanlı-Rusya perspektifiyle orada da kayıtlı)", kunye:[] },
 
@@ -2554,12 +2554,12 @@ window.KRONOLOJI_TIMURLU = [
   d:"Timur, kendi eski müttefiki olup sonradan Altın Orda tahtına çıkan Toktamış Han'ın Mâverâünnehir'e yönelik akınlarına son vermek için bozkırın derinliklerine, İdil (Volga) yakınlarındaki Kunduzca'ya kadar üç aylık bir sefer düzenledi ve Toktamış'ın ordusunu ağır bir yenilgiye uğrattı. Toktamış canını zor kurtardı; ama Altın Orda'nın ticaret şehirlerine dokunulmadığı için hanlık kısa sürede toparlanacaktı.",
   kaynak:"TDV `timur`: \"1391 (Haziran): Kunduzca'da Toktamış Han'ı yendi\" — ⚠️ gün TDV'de yok, standart akademik kronolojiyle (18 Haziran 1391) çapraz doğrulandı" },
 
-{ t:"1395-04-15", b:"Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1395-04-15", b:"Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", odak_yer:["Terek deltası (Kızlar)", "Vladikavkaz"],
   etiket:["askeri","toprak-kayip","ticaret","konu-askeri","konu-ekonomi"],
   d:"Toktamış'ın dört yıl önceki yenilgiden toparlanıp yeniden saldırıya geçmesi üzerine Timur, Terek Nehri kıyısında bu kez kesin bir zafer kazandı; ordusunu Altın Orda'nın başkenti Saray'a kadar sürüp şehri ve İpek Yolu'nun kuzey kolundaki büyük ticaret merkezlerini (Azak, Saray, Astarhan) yakıp yıktı. Bu darbe Altın Orda'nın bir daha asla eski gücüne kavuşamamasına yol açtı ve dolaylı olarak Moskova Knezliği'nin bir asır içinde bağımsızlaşmasının önünü açan uzun çürümeyi başlattı.",
   kaynak:"TDV `timur`: \"1395 (15 Nisan): Terek'te [Toktamış'ı] kesin olarak yendi\"" },
 
-{ t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:["Kâbil", "Multan", "Delhi"],
   etiket:["askeri","konu-askeri"],
   d:"Timur, Delhi Sultanlığı'nın 'kâfirlere karşı fazla yumuşak' davrandığı gerekçesiyle Hindistan'a bir sefer düzenlemeye karar verdi; ordusu aynı yıl içinde Hindukuş'u aşıp Pencap'a indi.", ic_not_d:"Seferin Delhi'ye varışı ve şehrin yağmalanması `data/kronoloji_hindistan.js:155`te (1398-12-17, dunya:3) anlatılıyor — burada mükerrer yazılmadı.",
   kaynak:"TDV `timur`: \"1398-1399 (Mart-Nisan – Nisan): Delhi Sultanı Mahmud Şah'a karşı sefer\"" },
@@ -2602,7 +2602,7 @@ window.KRONOLOJI_TIMURLU = [
 // III. TAHT MÜCADELESİ VE ŞAHRUH'UN BİRLİĞİ (1405-1409)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", odak_yer:["Semerkant", "Herat"],
   etiket:["hanedan","kriz","konu-siyasi","konu-hanedan"],
   d:"Timur'un ölümü imparatorluğu tek bir mirasçıya bırakmadı: torunu Halil Sultan Semerkant'ta tahta çıkarken oğlu Şahruh Herat'tan hak iddia etti, öteki oğullar ve torunlar da kendi bölgelerinde bağımsız hareket etmeye başladı.", ic_not_d:"Dört yıl sürecek bu iç savaş, `kronoloji_iran.js`in 1405 ve 1409 tarihli maddeleri arasındaki boşluğu dolduruyor.",
   kaynak:"TDV `timurlular` — hanedanın taht mücadelesi genel hatlarıyla anlatılıyor, gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
@@ -2645,7 +2645,7 @@ window.KRONOLOJI_TIMURLU = [
 // V. HERAT'IN SON ALTIN ÇAĞI — HÜSEYİN BAYKARA DÖNEMİ (1469-1507)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"", odak_yer:["Tebriz", "Erdebil"],
   etiket:["askeri","toprak-kayip","konu-askeri","konu-kisiler"],
   d:"On bir yıl önce Timurlu topraklarını yeniden birleştiren Ebû Said Mirza, Azerbaycan'a doğru giriştiği bir seferde Akkoyunlu hükümdarı Uzun Hasan'ın ordusuna yenilip esir düştü ve öldürüldü. Yenilgi, Timurlu topraklarının batı ucunu (İran, Azerbaycan) kalıcı olarak Akkoyunlu'ya bıraktı; imparatorluk artık yalnız Horasan ve Mâverâünnehir'e sıkışmıştı.", ic_not_d:"(kronoloji_iran.js:398, 1458, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
   kaynak:"TDV `timurlular` ve `iran` maddelerinde Ebû Said'in 1469'da Uzun Hasan'a yenilip öldürüldüğü teyitli; gün DOĞRULANMADI" },
