@@ -1020,3 +1020,57 @@ görevi verildi). Bilgi kaybı YOK.
 ⚠️ `git diff --name-only HEAD origin/makine/lab` bu soruya CEVAP VERMEZ: LAB main'den
 1012 commit geride olduğu için main'in SAHİP OLDUĞU her şeyi listeler (54 KB çıktı).
 Doğru soru `git diff <dalın dosyası> <HEAD'in dosyası>` — tek dosya, tek cevap.
+
+### 14.10 🔴 LAB TESLİMİ — tavan 18 puan HAK EDİLMİŞ, ama DAYANAĞIN 16'sı D208 SINIFI
+
+`denetim/LAB-KAYNAK-GECIS-1006.{md,tsv}` (18 satır + başlık). Yöntem: `58527beb..2fe8ada7`
+arasında `data/` ya da `girdi.py`ye dokunan 53 commit + ebeveynleri + merge'lerin iki
+ebeveyni ve merge-base'i = **93 gövde**, her biri **kendi `girdi.py`siyle** ölçüldü.
+Ölçüt `denetle.py kaynaksizlik_olc` ile birebir; `2fe8ada7`de H 1912 · D 389 = 2301
+(benim ölçümümle aynı).
+
+**GEÇİŞ: 18 ÇIKAN · 0 GİREN · hepsi `hiçbiri → dönem-içi`.** Silinen/adı değişen 0, yeni
+üye 0. ⇒ Tavan **DOĞUŞTA HİZALIYDI** (üye üye küme eşitliğiyle sınandı) ve 18 puan aynı
+gün tavan yazıldıktan SONRA kazanıldı ⇒ §3.4(3) indirmeyi gerçekten emrediyor.
+
+🔴 **LAB BENİ İKİ YERDE DÜZELTTİ:**
+1. *"`kayıt-kaynaksız 2301` tavanla TAM hizada, o oynamıyor"* demiştim (§14.3). Yanlış
+   okuma: 4 Ekim'den beri **57 kayıt** H→D geçmiş, kayıt düzeyinde kaynak alan (→T)
+   **SIFIR**. O taraf hizalı değil, **DOKUNULMAMIŞ**. ⇒ **Hareketsiz bir sayı da her
+   öngörüyü doğrular** — "boş küme her öngörüyü doğrular" ailesinin yeni yüzü.
+2. 18 geçişin **17'si bir MERGE'ün KENDİ değişikliği** (`e634fdad`; iki ebeveynde de yok,
+   elle uygulanan TEBRIZ-1388 KOORD-40). *"Dosya başına `git log` bu 17'yi hiçbir tekil
+   commit'te bulamaz."* ⇒ Bugün Hanak'ı tam bu yüzden `-S"Hanak"` ile arayıp **boş**
+   bulmuştum (§14.2). İki kalem aynı kör noktadan doğmuş.
+
+🔴 **ASIL BULGU — tavandan ağır:** 18'in **16'sı** (Astara · Berde · Erdebil … Şerur,
+Azerbaycan/KB İran/Nahçıvan) TEK bir bölge cümlesine dayanıyor ve TSV'nin
+`kaynak_sinifi` kolonu bunu adıyla yazıyor: **`BOLGE-CUMLESI(D208)`**. Verinin kendi
+metninde *"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208)"* duruyor. 9-14 dönemden yalnız
+1'i kaynaklı (karakoyunlu 1408). Gerçek şehir tanıklığı yalnız **Tebriz (1/9)** ve
+**Memel (2/5)**. ⇒ Kapı *"kaynak var"* diyor, dayanak ise **D208'in birebir yasakladığı
+sınıf**: sayı iyileşirken dayanak zayıflamış olabilir.
+
+**HÜKÜMLERİM (verildi):**
+```
+① İNDİRME ONAYLANDI, KOŞU SONRASI   arac/denetle.py KOŞU 21 sürerken DONUK — koşu
+   çıktısını onunla ölçeceğim, ortada değişirse "çıktı temiz mi" iki değişkenli olur.
+   İnecek: hiçbiri 1930→1912 · dönem-içi 371→389 (birleşim 2301).
+   §3.4(2) gereği commit mesajı 63c78baa0 + e634fdad4 sha'larını ve TSV'yi ADIYLA anacak
+   — 17'si merge içinde olduğu için başka türlü İZLENEMEZ (LAB'in şartı, aynen alındı).
+② ÖLÇÜT KARARI (b)                  D208 bölge cümlesi "dönem-içi" SAYILMAYA DEVAM,
+   + hüküm satırına BİLGİ: "D'nin X'i yalnız bölge cümlesiyle".
+   Saymamak (tavan 1928) İKİNCİ BİR TANIM doğurur — ve bugün o kusuru bir kez yaşadık:
+   `birebir()` iki yerde iki tanımla duruyordu, tek tanıma indirildi. Aynı gün ikinci
+   çift tanım açılmaz. Ayrıca indirmek o 16 kaynağı KORUMAYA alır (silinirse kapı öter).
+③ DEVAM GÖREVİ  LAB-D208-BOLGE-1006  16 kaydı adıyla sınıflandır (şehir tanıklığı var mı
+   · bölge cümlesinden mi türetildi · hangi kaynak/cümle) · bu sınıf D kovasının tamamında
+   ne kadar yaygın (evren ADIYLA; ölçülemeyen "ölçülemedi") · `zincir_kaynagi` kapısı
+   bunları kopya sayıyor mu. YALNIZ ÖLÇÜM, veri yazma YOK. Bekçisi AÇIK kalsın.
+④ KASA'YA SEVK EDİLECEK (koşu sonrası)  16 şehre bölge cümlesinin tarihsel olarak DOĞRU
+   kopyalandığı sınaması KAYNAK işidir, denetleyicinin değil.
+```
+📌 Yan bulgu (LAB): `1ed681b24`'te defter 1968 ama ölçüm 1969 — tavan **kendi gövdesinde
+ölçülmeden** yazılmış. Bugün zararsız (merge kapattı) ama §3.4(0)'ın birebir vakası.
+📌 Kuyruğa: `--kaynak-tavan-indir` bayrağının JSON'u **LF** yazıyor, depo **CRLF** —
+bayrak inerken düzeltilecek.
