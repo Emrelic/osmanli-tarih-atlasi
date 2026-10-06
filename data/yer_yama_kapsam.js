@@ -15,7 +15,7 @@ window.YER_YAMA_KAPSAM = [
   not:"Ebû Said'in ölümü Karabağ'da; devletin merkezi Sultâniye" },
 
 { dosya:"olaylar_ek7.js", t:"1387-11-01", b:"Timur'un İran'ın büyük bölümünü hakimiyeti altına alması",
-  kapsam_genis:true, not:"DEVLET: timurlu — TDV timur maddesi 'Horasan, Mâzenderan, İran'ın iç bölgeleri' diyor; 1386-1388 üç yıllık sefer boyunca çok sayıda şehir alındı (Serbedârîler, Kertler, Muzafferîler tek tek tasfiye edildi), tek nokta yok. Harita Timurlu'nun genişleyen sınırlarını açmalı; Osmanlı ile hiç ilgisi yok." },
+  kapsam_genis:true, not:"DEVLET: timurlu — TDV timur maddesi Horasan, Mâzenderan, İran'ın iç bölgeleri diyor; 1386-1388 üç yıllık sefer boyunca çok sayıda şehir alındı (Serbedârîler, Kertler, Muzafferîler tek tek tasfiye edildi), tek nokta yok. Harita Timurlu'nun genişleyen sınırlarını açmalı; Osmanlı ile hiç ilgisi yok." },
 
 { dosya:"olaylar_ek5.js", t:"1771-07-01", b:"Kırım yarımadasının Rus işgali",
   yer_id:"Bahçesaray", kaynak:"madde metni: Rus kuvvetleri Or Kapı'yı aşıp yarımadayı istilâ etti ve Rus yanlısı Sâhib Giray'ı hanlığın başkenti Bahçesaray'da başa geçirdi — olayın siyasî ağırlık merkezi orası" },

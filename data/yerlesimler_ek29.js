@@ -652,7 +652,7 @@ window.YERLESIMLER_EK29 = [
   v:[] },
 
 { ad:"Cetin (Cetingrad)", tur:"kale", lat:45.138, lon:15.732, g:0, k:3,
-  neden:"BIHAC-NOKTA-0069 (c): TDV zistovi-antlasmasi'nın 'Bosna'nın Unna suyu arkasında yer alan Hırvatlık arazisi' — Ziştovi'nin 4. maddesiyle Habsburg'da kalan iki kaleden biri; noktasızdı, Bihaç peteğinde Osmanlı kalıyordu.",
+  neden:"BIHAC-NOKTA-0069 (c): TDV zistovi-antlasmasi'nın 'Bosna’nın Unna suyu arkasında yer alan Hırvatlık arazisinin verilmesine' — Ziştovi'nin 4. maddesiyle Habsburg'da kalan iki kaleden biri; noktasızdı, Bihaç peteğinde Osmanlı kalıyordu.",
   kaynak:"HE Cetingrad (enciklopedija.hr/clanak/cetingrad, okundu): 'pod njihovom vlašću bio je 1636–38. te od 1670. kada ponovno postaje osmanska utvrda' · 'Habsburška vojska zauzima ga 1790., a Osmanlije ga u prepadima nakratko zauzimaju 1809. i 1813.' · Elma Korić, 'Bosnian Borderland during the Dubica War 1788-1791', Prilozi za orijentalnu filologiju 65 (2016), pof.ois.unsa.ba, PDF okundu — n.102 (Bašeskija: 'U ovoj godini (1790) su Austrijanci zauzeli tvrđavu Cetin') ve n.118: 'prema članu 4. Mirovnog ugovora, tvrđave Cetin i Drežnik ostale su pod habsburškom upravom' · TDV zistovi-antlasmasi · koordinat OSM way 1228318623 (Utvrda Cetin).",
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"HE: XIV. yy'dan Frankapan mülkü"},
      {f:"1527-01-01",t:"1636-01-01",d:"avusturya",kaynak:"Cetin Meclisi 1 Ocak 1527 (HE Cetingrad · olaylar_p0050)"},

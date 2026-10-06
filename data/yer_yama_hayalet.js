@@ -167,7 +167,7 @@ window.YER_YAMA_HAYALET = [
    }
   ],
   "guven": "GEREKCELI",
-  "kaynak": "TDV `celayirliler`: 'Bağdat, Musul, Tebriz, Azerbaycan … 1340-1431'",
+  "kaynak": "TDV `celayirliler`: Bağdat, Musul, Tebriz, Azerbaycan … 1340-1431",
   "not": "🟡 Iki sehir de Celayirli-Muzafferi sinir kusaginda; sehir ozelinde kaynak BULUNAMADI. Save icin `muzafferi` de savunulabilir — koordinator karari."
  },
  {
@@ -221,7 +221,7 @@ window.YER_YAMA_HAYALET = [
    }
   ],
   "guven": "GEREKCELI",
-  "kaynak": "TDV `celayirliler`: 'Bağdat, Musul, Tebriz, Azerbaycan … 1340-1431'",
+  "kaynak": "TDV `celayirliler`: Bağdat, Musul, Tebriz, Azerbaycan … 1340-1431",
   "not": "🟡 Iki sehir de Celayirli-Muzafferi sinir kusaginda; sehir ozelinde kaynak BULUNAMADI. Save icin `muzafferi` de savunulabilir — koordinator karari."
  },
  {
@@ -248,7 +248,7 @@ window.YER_YAMA_HAYALET = [
    }
   ],
   "guven": "GEREKCELI",
-  "kaynak": "TDV `serbedariler` hakim sehirler: 'Câcerm, Damgan, Simnân, Gürgân, Meşhed, Tûs, Esterâbâd'",
+  "kaynak": "TDV `serbedariler` hakim sehirler: Câcerm, Damgan, Simnân, Gürgân, Meşhed, Tûs, Esterâbâd",
   "not": "🟡 Simnan ve Damgan TDV'de ADIYLA geciyor (KESIN); Bistam gecmiyor, Damgan-Simnan hattinda oldugu icin ayni kumeye konuldu — ayri isaretlenmeli."
  },
  {
@@ -275,7 +275,7 @@ window.YER_YAMA_HAYALET = [
    }
   ],
   "guven": "GEREKCELI",
-  "kaynak": "TDV `serbedariler` hakim sehirler: 'Câcerm, Damgan, Simnân, Gürgân, Meşhed, Tûs, Esterâbâd'",
+  "kaynak": "TDV `serbedariler` hakim sehirler: Câcerm, Damgan, Simnân, Gürgân, Meşhed, Tûs, Esterâbâd",
   "not": "🟡 Simnan ve Damgan TDV'de ADIYLA geciyor (KESIN); Bistam gecmiyor, Damgan-Simnan hattinda oldugu icin ayni kumeye konuldu — ayri isaretlenmeli."
  },
  {
@@ -302,7 +302,7 @@ window.YER_YAMA_HAYALET = [
    }
   ],
   "guven": "GEREKCELI",
-  "kaynak": "TDV `serbedariler` hakim sehirler: 'Câcerm, Damgan, Simnân, Gürgân, Meşhed, Tûs, Esterâbâd'",
+  "kaynak": "TDV `serbedariler` hakim sehirler: Câcerm, Damgan, Simnân, Gürgân, Meşhed, Tûs, Esterâbâd",
   "not": "🟡 Simnan ve Damgan TDV'de ADIYLA geciyor (KESIN); Bistam gecmiyor, Damgan-Simnan hattinda oldugu icin ayni kumeye konuldu — ayri isaretlenmeli."
  },
  {

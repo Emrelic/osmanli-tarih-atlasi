@@ -89,7 +89,7 @@ window.YER_YAMA_OK109 = [
       { f: "1918-11-11", t: "1923-10-29", d: "avusturya-cumhuriyet" }
     ],
     d2_gerek: "Viyana ile AYNI iki ön şart — renk + künye günü. İkisi inmeden UYGULAMA.",
-    kaynak: "TDV `avusturya` (gövde okundu) — Viyana ile birebir aynı gerekçe ve aynı iki dönem; TDV maddesi Graz'ı Avusturya Cumhuriyeti'nin başlıca şehirleri arasında sayıyor: 'başlıca şehirleri ise başkent Viyana, Graz, Linz, Salzburg…'",
+    kaynak: "TDV `avusturya` (gövde okundu) — Viyana ile birebir aynı gerekçe ve aynı iki dönem; TDV maddesi Graz'ı Avusturya Cumhuriyeti'nin başlıca şehirleri arasında sayıyor: 'başlıca şehirleri ise başkent Viyana, Graz, Linz, Salzburg…' [TDV: avusturya]",
     neden: "Viyana ile birebir aynı kusur, aynı iki dönem, aynı sınır günü."
   }
 
