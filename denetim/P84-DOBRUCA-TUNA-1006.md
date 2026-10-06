@@ -163,3 +163,99 @@ Akademik  İshakçı'nın 1280-1359 sahibi için Vásáry, "Cumans and Tatars" (
 
 ## 4 · Dosyalar
 `denetim/P84-DOBRUCA-TUNA-1006.md` (bu rapor) · `denetim/ARAC-P84-DOBRUCA-TUNA-1006.py` (salt okur ölçüm)
+· `denetim/P84-DOBRUCA-TUNA-1006-KOORD.diff` (§5, UYGULANMADI)
+
+---
+
+## 5 · DEVAM — H-0018 İBRAİL (UMIT İRTİBAT, ROTUS'tan devir)
+Taban `origin/makine/umit` @ `3ec79a5f`.
+
+### 5.1 Ölçüm — petek nerede kopuyor
+Yayındaki `petek_govde` açıldı (`kodla.py coz-c data … govde`, scratch'e; repo'ya yazmaz).
+Ölçülen yayın, Koşu 19 girdisi.
+```
+İbrail   2.140 km² · 1 parça · boylam 27,87–28,34 · enlem 44,66–45,45  ⇒ Tuna boyunca DAR bir K-G şerit;
+                                                                         noktanın yalnız ~8 km batısına uzanıyor
+Kalas    4.121 km² · ana parça merkezi 27,82 D / 45,35 K · boylam 27,55–28,20 · enlem 44,53–45,90
+         ⇒ Bărăgan anakarası (İbrail'in BATISI, 44,5'e kadar) KALAS'ın peteğinde = ROTUS'un kaması
+Buzău    8.440 km² · doğu kenarı 27,68     Rimnik-i Sârat 7.214 km² · doğu kenarı 27,82
+```
+Kalas, İbrail'den yalnız 18 km kuzeyde. Saf Voronoi'de İbrail'in batısındaki 44,9 K noktası İbrail'e
+daha yakındır (≈50 km'ye ≈67 km). ⇒ Motor saf Voronoi değil; nehir/yaslama İbrail'i şeride sıkıştırıyor.
+Mekanizma ölçülmedi, motor kodu okunmadı. Bilinen tek şey: ROTUS'a göre Siret
+`ne_10m_rivers`ta YOK.
+Floci noktasının 40 km içinde başka yerleşim noktası: **0** (mükerrer taraması da bu).
+
+### 5.2 Kaynak — iki soru, iki ayrı sonuç
+**(a) Eflak–Boğdan sınırı (Milkov/Siret) 1330-1462 — BULUNAMADI (dönemli cümle yok)**
+```
+TDV slug (6 Ekim)  milkov · milcov · seret · siret-nehri · seret-nehri · foksan · foksani · foksany · focsani ·
+                   fokshan · kalas · galac · galati · floci · yalomica · ialomita · rimnik · buzau ·
+                   mircea · mircea-i · basarab · basarab-i → 302 (ölü). baragan: ilk deneme 000 (taşıma), tekrarı 302.
+                   siret → 200 ama YANLIŞ MADDE: "SÎRET bk. SİYER ve MEGĀZÎ" (tuzak ②)
+TDV arama          Milkov · Fokşan · Seret · Kalas · Galatz · Ialomița · Brayla → 0 sonuç.
+                   KALİBRASYON: canlı 'ibrail' maddesi de 0 sonuç ⇒ arama sonuçları sunucu HTML'inde YOK (JS);
+                   bu kanal yokluk kanıtı değildir. 'Siret' 6 sonuç döndü, hepsi Arapça sîret/siyer.
+TDV önbellek       eflak · bogdan · ibrail · kili · bucak (KRONO-TUNA-0929): sınırı koyan cümle YOK (ROTUS ile aynı)
+Britannica         Focşani (tarayıcıyla okundu, birebir): "It is situated on the Milcov River, which was once the
+                   boundary between Moldavia and Walachia." ⇒ HAT var, DÖNEM YOK ("once") — 1330-1462 için
+                   dayanak DEĞİL (§4 ⑧). curl ile 403.
+Akademik           Coman, M., "The Building of the Moldavian-Wallachian Frontier", CEU MA tezi 2002 (etd.ceu.edu)
+                   — PDF URL'si depo giriş sayfasına düşüyor (HTML), metin OKUNAMADI. En güçlü aday budur.
+```
+**(b) Bărăgan'da kaynaklı Eflak noktası — BULUNDU: Floci (Târgu de Floci)**
+```
+konum      RAN (Repertoriul Arheologic Național, INP/cIMeC) cod 93655.02 · LMI IL-I-s-A-14051
+           site poligonu merkezi 44,6886 K · 27,8311 D (eism.geo-spatial.ro PatrimoniuWM/6 — cIMeC haritasının kendi servisi);
+           öznitelik Lat 44° 41' 38.182" N (= 44,6939; uyumlu). Reper: "Oraşul se află la km. 104 de pe şoseaua
+           Bucureşti - Constanţa (DN2), lângă fostul sat Piua Petrii, la vest de braţul Borcea." · relief "câmpia Bărăganului"
+           Muzeul Județean Ialomița: "la 8km vest de comuna Giurgeni"
+tarih      DJC Ialomița (il kültür müdürlüğü): "Prima atestare documentară se găsește din anul 1431, într-un document cu
+           privilegii pentru negustorii braşoveni al Voievodului Dan al II-lea." · "Oraşul a fost ars în anul 1470 de
+           către Domnul Ştefan cel Mare Voievod, în timpul conflictelor sale cu Voievodul Radu cel Frumos."
+           (İlk anılış bir Eflak voyvodasının imtiyaz belgesinde; Boğdan voyvodası onu Eflak voyvodasıyla savaşırken yakıyor.)
+süreklilik DJC: XVI-XVII. yy en parlak dönem · "Secolele XVIII și XIX au fost martorele decăderii oraşului" ·
+           "la sfârşitul secolului al XIX-lea pe locul oraşului s-a format satul Piua Petrii" (1970'te o da kayboldu)
+           RAN bileşenleri: aşezare/necropolă "Epoca medievală (sec.XV-XVIII)"
+```
+Floci noktası bugün **Kalas'ın peteğinin İÇİNDE** (petek_govde ile ölçüldü), yani kamanın tam ortasında.
+
+### 5.3 Öneri → `denetim/P84-DOBRUCA-TUNA-1006-KOORD.diff` (UYGULANMADI · `yerlesimler_ek29.js` +10 satır)
+```
+Floci (Târgu de Floci)  44.689 27.831 · tur sehir · kur 1431-01-01 (İLK ATESTASYON, YIL — D210)
+  s eflak            1431-01-01 → 1462-06-01   kaynak DJC (birebir iki cümle) · bitiş = künye eflak 'tabi' f — KÜNYE PENCERESİ, kaynak DEĞİL
+  v eflak (vassal)   1462-06-01 → 1859-01-24   (künye eflak tabi penceresi; Eflak'ın 12 noktasıyla aynı, hiçbiri kaynaklı değil)
+  v romanya          1859-01-24 → 1877-05-09
+  s romanya          1877-05-09 → 1881-03-26   TDV romanya (devlet düzeyi)
+  s romanya-kralligi 1881-03-26 → 1923-10-29
+  bit YAZILMADI (yerleşim Piua Petrii köyüyle sürüyor) · isg (Rus 1806-12 / 1828-34) YAZILMADI — BEYANLI BORÇ (`not:`)
+```
+**SINAV** (worktree):
+```
+denetle.py   ÖNCE çıkış 2 (yalnız D8 ÖLÇÜLEMEDİ: devletler_harita.js yok — beklenen) · SONRA çıkış 2, aynı sebep
+             D1 4299→4300 yerleşim, sahipsiz 309/309 · 1b · 2 · 2s · 2i · 2t · 7 · konum: DEĞİŞMEDİ (--ayrinti diff'lendi)
+             🟡 2sk "yalnız taraf" 2247 → 2250 (TAVAN 2247 AŞILDI, +3) — araç: "İhlal değil, ama SINIFI istenir."
+                SINIF: Floci'nin devlet düzeyindeki 3 geçişi (1859 · 1877 · 1881). Kapatan maddeler Romanya'yı anıyor,
+                kasabayı anmıyor. Buzău/Rimnik'in aynı üç kırılmasıyla AYNI sınıf, yeni bir künye-devralma türü DEĞİL.
+                ⇒ ÖNERİ: BEKLENEN_2S_YALNIZ_TARAF 2247 → 2250, bu diff ile AYNI commit'te (§3.4-2). Koordinatör yazar.
+sahiplik     SONRA 7/7 (1430 yok · 1440 eflak · 1470/1600 v eflak · 1870 v romanya · 1878 romanya · 1900 krallık) · ÖNCE kayıt YOK
+git apply --check   origin/makine/umit 3ec79a5f TEMİZ · origin/main (C:\atlas) TEMİZ · CR 0
+```
+**ÖNGÖRÜ** (koşudan önce yazıldı, motor koşturulmadı):
+- **1431 → 1462:** Floci peteği Kalas kamasının GÜNEY kesimini (enlem ~44,5–45,0) Eflak'a alır. İbrail şeridi
+  Floci üzerinden ana Eflak gövdesine (Buzău) bağlanır, ROTUS'un 2.201 km²'lik ayrı bileşeni düşer.
+  Kesin değil: motor saf Voronoi değil (§5.1).
+- **1330 → 1431:** DEĞİŞMEZ. Kama ve ayrı bileşen kalır, çünkü o pencere için kaynaklı Bărăgan noktası
+  BULUNAMADI.
+- **Kuzey kama** (enlem ~45,0–45,6, Rimnik ile İbrail arası): büyük olasılıkla Kalas'ta kalır. Orası Milkov/Siret
+  hattının güneyidir; kalıcı çare ya Siret'in nehir verisine girmesi (motor girdisi, koordinatör) ya da
+  oraya kaynaklı ikinci bir nokta.
+- 1462 sonrası iki taraf da tâbi. ROTUS bu katmanda kamayı ölçmemişti; Floci 1462-1859 arasında da
+  Eflak tâbiidir ve aynı etkiyi yapar.
+
+### 5.4 Bulunamadı / istek
+- Milkov/Siret sınırının 1330-1462'yi tarihleyen cümlesi: BULUNAMADI. Okunmamış en güçlü aday Coman 2002 (CEU).
+- Kuzey Bărăgan'da (Rimnik–İbrail arası) 1330-1462'den kaynaklı nokta aranmadı. Aday aramanın yeri
+  RAN katman 6 (aynı servis), "Epoca medievală" süzgeciyle.
+- Değişmez 2: Floci'nin `v` başlangıcı 1462-06-01. Bu gün Eflak'ın öteki 12 noktasıyla ortak; denetle'de
+  D2 açık sayısı 0 kaldı.

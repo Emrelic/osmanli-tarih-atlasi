@@ -1,0 +1,21 @@
+diff --git a/data/yerlesimler_ek29.js b/data/yerlesimler_ek29.js
+index fd703ffd..4fbfd2d6 100644
+--- a/data/yerlesimler_ek29.js
++++ b/data/yerlesimler_ek29.js
+@@ -481,6 +481,16 @@ window.YERLESIMLER_EK29 = [
+   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1419-01-01",t:"1878-07-13"}], v:[],
+   not:"Dobruca'nın Osmanlı'ya geçişinde ÜÇ OKUMA var (Stănică 2016, s. 4-5, dn. 3 ve 5): N. Iorga 1416 · C.C. Giurescu, Ştefănescu, Gh. I. Brătianu 1417 · A. Ghiaţă 1388'den 1419-1420 savaşlarına kadar KESİNTİSİZ Eflak. Yazar: 'The chronology of all these Ottoman conquests is not elucidated in detail.' Atlas Ghiaţă okumasını izler (yazarın kendi çerçevesi 'after the years 1419 to 1420'; Silistre · Köstence ile aynı); 1416 okuması Babadağı'nda TDV babadagi ile ayrıca yaşar (1416-1419 Babadağı adası kaynaklı). ⚠️ D208 çekincesi: 1402-1419 Eflak okuması Ghiaţă'nın 'Dobrogea' için verdiği BÖLGE hükmüdür (yalnız 1419/20 serhat cümlesi İsakçı'yı adıyla anar); İshakçı'ya ÖZEL bir kaynak çıkarsa bu hükmü geçersiz kılar (koordinatör, M-5818 cevabı)." },
+ 
++// FLOCİ (Târgu de Floci / Orașul de Floci) — Bărăgan, Ialomița ağzı. P84-DOBRUCA-TUNA-1006 / H-0018:
++// Eflak gövdesinin İbrail ile Buzău arasındaki NOKTASIZLIĞI (Kalas peteği kaması, ROTUS ölçümü).
++{ ad:"Floci (Târgu de Floci)", tur:"sehir", lat:44.689, lon:27.831, g:0, k:4,
++  kur:"1431-01-01",
++  kaynak:"koordinat: RAN (Repertoriul Arheologic Național, INP/cIMeC) cod 93655.02 / LMI IL-I-s-A-14051 — site poligonunun merkezi (eism.geo-spatial.ro PatrimoniuWM katman 6: 44,6886 K · 27,8311 D; öznitelik 'Lat' 44° 41' 38.182\" N) · RAN 'Reper': 'Oraşul se află la km. 104 de pe şoseaua Bucureşti - Constanţa (DN2), lângă fostul sat Piua Petrii, la vest de braţul Borcea.' · 'Forma de relief: câmpia Bărăganului' · P84-DOBRUCA-TUNA-1006",
++  neden:"DJC Ialomița (Direcția Județeană pentru Cultură Ialomița), 'Situl arheologic medieval „Orașul de Floci” Giurgeni' (9 august 2016, djcialomita.ro): 'Prima atestare documentară se găsește din anul 1431, într-un document cu privilegii pentru negustorii braşoveni al Voievodului Dan al II-lea.' · 'Oraşul a fost ars în anul 1470 de către Domnul Ştefan cel Mare Voievod, în timpul conflictelor sale cu Voievodul Radu cel Frumos.' ⇒ kur = İLK ATESTASYON yılı (terminus ante quem; kuruluş yılı kaynakta YOK) — YIL (D210). Ştefan cel Mare'nin (Boğdan) 1470 saldırısı şehrin EFLAK tarafında olduğunu ayrıca gösterir." ,
++  s:[{f:"1431-01-01",t:"1462-06-01",d:"eflak",kaynak:"DJC Ialomița (Direcția Județeană pentru Cultură Ialomița), 'Situl arheologic medieval „Orașul de Floci” Giurgeni' (9 august 2016, djcialomita.ro): 'Prima atestare documentară se găsește din anul 1431, într-un document cu privilegii pentru negustorii braşoveni al Voievodului Dan al II-lea.' · 'Oraşul a fost ars în anul 1470 de către Domnul Ştefan cel Mare Voievod, în timpul conflictelor sale cu Voievodul Radu cel Frumos.' · bitiş = künye eflak 'tabi' f (1462-06-01) — KÜNYE PENCERESİDİR, kaynak değil (Eflak'ın bütün noktalarıyla ortak)"},{f:"1877-05-09",t:"1881-03-26",d:"romanya",kaynak:"TDV romanya: '9 Mayıs 1877 tarihinde bağımsızlığını ilân etti' (devlet düzeyi)"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
++  d:[], v:[{f:"1462-06-01",t:"1859-01-24",k:"Eflak Voyvodalığı",statu:"vassal",kid:"eflak"},{f:"1859-01-24",t:"1877-05-09",k:"Birleşik Prenslikler (Romanya)",statu:"vassal",kid:"romanya"}],
++  not:"Süreklilik (DJC Ialomița): 'Oraşul s-a refăcut ajungând la o maximă dezvoltare a sa în sec. XVI – XVII.' · 'Secolele XVIII și XIX au fost martorele decăderii oraşului … Astfel la sfârşitul secolului al XIX-lea pe locul oraşului s-a format satul Piua Petrii, dispărut și el în urma inundaţiilor din anul 1970.' ⇒ 1923'e kadar yerleşim (şehir → gerileme → Piua Petrii köyü); 'bit' YAZILMADI. ⚠️ BEYANLI BORÇ: Rus işgal örtüleri (isg 1806-1812 · 1828-1834) YAZILMADI — Buzău'nun günü 'komşudan: Bükreş', İbrail'inki 1809/1828 (kale kuşatması): zincirleme devralma yasak ve Tuna kıyısında gün farklı ⇒ kaynak bulununca eklenir." },
++
+ // YAGODİNA (Jagodina) — Kragujevac (28,4 km) çizgisiyle birebir:
+ // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
+ // Sırbistan (v:) → 1878 istiklâl.
