@@ -5865,3 +5865,4 @@
 | M-5854 | 2026-10-06 12:34 | HAZIR KITA 0610 1232 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum |
 | M-5855 | 2026-10-06 12:34 | HAZIR KITA 0610 1234 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5856 | 2026-10-06 12:34 | HAZIR KITA 0610 1235 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
+| M-5857 | 2026-10-06 12:34 | HAZIR KITA 0610 1233 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
