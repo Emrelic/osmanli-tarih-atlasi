@@ -1,0 +1,20 @@
+diff --git a/data/olaylar_ok109.js b/data/olaylar_ok109.js
+--- a/data/olaylar_ok109.js
++++ b/data/olaylar_ok109.js
+@@ -156,6 +156,16 @@ window.OLAYLAR_OK109 = [
+     kaynak: "macaristan"
+   },
+ 
++  {
++    t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-diplomasi"],
++    kapsam:"dis", onem:3, b: "Banat ve Crișana Romanya'ya bırakıldı — Temeşvar, Lugoj ve Ineu (Trianon md. 27/3 ve 45)", yer_id:"Temeşvar", odak_yer:["Temeşvar","Lugos (Lugoj)","Yanova (Ineu)"],
++    gun: "4 Haziran 1920",
++    yer: "Temeşvar (Timișoara), Lugos (Lugoj), Yanova (Ineu)",
++    d: "Trianon Antlaşması, Macar-Romen sınırını md. 27/3 ile çizdi ve md. 45 ile Macaristan bu sınırın ötesindeki eski monarşi topraklarındaki bütün hak ve unvanlarından Romanya lehine vazgeçti; böylece 1 Aralık 1918'de ilân edilen Erdel, Banat, Crișana ve Maramureș birleşmesi uluslararası hukukta tanındı. Banat bölgesi Romanya ile Sırp-Hırvat-Sloven Krallığı arasında bölüşüldü; Temeşvar ile Lugoj Romen payında kaldı. Banat'ın kuzeyinde, Arad yöresinde Ak Köröş (Crişul Alb) kıyısındaki Yanova (Ineu) da Crișana'nın Romen kesimindeydi. Romen idaresi Lugoj'da 22 Temmuz, Temeşvar'da 3 Ağustos 1919'dan beri fiilen işliyordu; antlaşma bu durumu hukuka geçirdi.",
++    ic_not_d: "Gün 1920-06-04 (imza) seçildi, yürürlük 1921-07-26 DEĞİL: F8 kararı (Emre, 5 Ekim 2026) de jure devri antlaşma gününe koyar ve atlasın Banat/Crișana noktaları (Temeşvar, Yanova, Lugos) bu güne bağlıdır; 1921-07-26 ±30 gün penceresinin dışında kalır. Orsova (Banat) atlasta henüz 1918-01-01 yıl-temsilî — bu madde onu açıklamaz, ayrı kalem. Yanova'nın Crișana'ya yerleştirilmesi TDV yanova'nın coğrafî tarifinden (Arad, Crişul Alb) çıkarımdır; Crișana adı TDV'de geçmez (BANAT-TRIANON-1006).",
++    kaynak: "MNIR — Muzeul Virtual al Unirii (mvu.ro), 'Tratatul dintre Puterile Aliate și Asociate și Ungaria, Trianon, 4 iunie 1920' — 'Tratatul de Pace cu Ungaria , semnat la Trianon la 4 iunie 1920, este actul internațional care a recunoscut Unirea Transilvaniei, Banatului, Crișanei și Maramureșului cu Regatul Român și a fixat și granița comună româno-ungară' · md. 45 (aynı sayfa, Romence resmî çeviri): „Ungaria renunță, în ceea ce o privește, în favoarea României, la toate drepturile și titlurile asupra teritoriilor fostei monarhii austro-ungare situate dincolo de fruntariile Ungariei, astfel cum sunt fixate la articolul 27, Partea II (Fruntariile Ungariei) și recunoscute prin prezentul Tractat sau prin orice alte Tractate încheiate în scop de a regula afacerile actuale, ca făcând parte din România” · md. 27: 'aliniatul 3 -frontiera cu România' · TDV timisvar: 'Barış antlaşmalarına göre Banat bölgesi Romanya ve Sırbistan arasında bölüşüldü.' · 'Tımışvar şehri Romanya Krallığı’na katıldı.' · TDV yanova: 'Günümüzde Batı Romanya’da Arad idarî bölümü içinde Macaristan-Romanya sınırı yakınında Crişul Alb (Türk döneminde Ak Köröş) nehri kıyılarında yer alır.' · TDV birinci-dunya-savasi: '4 Haziran 1920’de Macaristan ile Trianon … antlaşmaları imzalandı' · BANAT-TRIANON-1006"
++  },
++
+   // ═══════════════════════════════════════════════════════════════════════
+   // İKİNCİ PARTİ — I. DÜNYA SAVAŞI'NI BİTİREN ÖTEKİ ANTLAŞMALAR
+   // 2 Eylül 2026 · koordinatör 1.MURAT · yukarıdaki ⑧ yan bulgusunun karşılığı
