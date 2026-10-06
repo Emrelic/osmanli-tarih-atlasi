@@ -14367,14 +14367,14 @@ function kronoTemsilEdiliyor(k, derin) {
   D.forEach(function (d) { ix[d.id] = d; });
   var eklenen = 0, eslenmeyen = {}, dokunulan = {};
   var pencereDisi = [], olculemedi = 0, tarafsiz = {};
-  var yonlenen = {};
-  KRONOLOJI_COK_YOLU.forEach(function (a) { yonlenen[a] = true; });
+  var yonlenen = {}, yonIndi = {};
+  KRONOLOJI_COK_YOLU.forEach(function (a) { yonlenen[a] = true; yonIndi[a] = 0; });
   Object.keys(window).forEach(function (anahtar) {
     if (!/^KRONOLOJI_(SINIR|COK)_[A-Z0-9_]+$/.test(anahtar) && !yonlenen[anahtar]) return;
     (window[anahtar] || []).forEach(function (m) {
       var ids = m.taraflar || m.devletler || (m.devlet ? [m.devlet] : []);
       if (!ids.length && yonlenen[anahtar]) tarafsiz[anahtar] = (tarafsiz[anahtar] || 0) + 1;
-      var mg = kronoGun(m.t);
+      var mg = kronoGun(m.t), indi = false;
       ids.forEach(function (id) {
         var d = ix[id];
         if (!d) { eslenmeyen[id] = (eslenmeyen[id] || 0) + 1; return; }
@@ -14386,8 +14386,9 @@ function kronoTemsilEdiliyor(k, derin) {
         if (!dokunulan[id]) { d.kronoloji = (d.kronoloji || []).slice(); dokunulan[id] = true; }
         var var_mi = d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; });
         if (var_mi) return;
-        d.kronoloji.push(m); eklenen++;
+        d.kronoloji.push(m); eklenen++; indi = true;
       });
+      if (indi && yonlenen[anahtar]) yonIndi[anahtar]++;
     });
   });
   Object.keys(dokunulan).forEach(function (id) {
@@ -14404,6 +14405,12 @@ function kronoTemsilEdiliyor(k, derin) {
   if (olculemedi)
     console.warn("Atlas: çok taraflı kronolojide " + olculemedi +
                  " madde × künye çiftinin penceresi ÖLÇÜLEMEDİ (tam gün yok) — indi");
+  // Yönlendirilen HER dosya ADIYLA basılır, 0 inen de (D265: "adı eşleşti" ≠ "madde indi").
+  if (KRONOLOJI_COK_YOLU.length)
+    console.log("Atlas: çok taraflı yola yönlenen " + KRONOLOJI_COK_YOLU.length + " dosya — " +
+                KRONOLOJI_COK_YOLU.map(function (k) {
+                  return k + " " + yonIndi[k] + "/" + ((window[k] || []).length) + " indi";
+                }).join(", "));
   var ts = Object.keys(tarafsiz);
   if (ts.length)
     console.warn("Atlas: çok taraflı yola yönlenen dosyada taraf alanı OLMAYAN madde inmedi — " +
