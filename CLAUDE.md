@@ -210,7 +210,10 @@ daha geniş evrende sorar.
   cümleyi doğru ayrıştır** (Türkçe yan cümle) · ⑦ çıkarıcının "okuyamadım"ı belge
   hakkında bir şey söylemez (ikinci çıkarıcı dene) · ⑧ rakamın gövdede geçmesi o değeri
   desteklediği anlamına gelmez — **rakamı taşıyan cümlenin neyi tarihlediği okunur**;
-  gövde ile künye karşılıklı okunur. [`D211`](dersler/D211-tdv-tuzak-5-8-once-ayristir.md)
+  gövde ile künye karşılıklı okunur · 🆕 ⑨ **aramada çıkmayan madde ÖLÜ DEĞİL**: ölçüldü
+  (GLM1, 6 Ekim 2026) `sarikamis-harekati` GET **200** ve gövdesi var ama TDV aramasında
+  HİÇ görünmüyor ⇒ arama ADAY üretir, `GET` DOĞRULAR; köprü aramadan tek başına kurulmaz
+  (liste ilk ~10'dur ve sayfa sayısı basmaz). [`D211`](dersler/D211-tdv-tuzak-5-8-once-ayristir.md)
 - **Arama:** `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`. "TDV'de yok" demeden ARA;
   dar slug tutmazsa kapsayıcı maddeyi dene — **TDV olay değil yer-kişi ansiklopedisidir**, olay
   slug'ı ölüyse olayın geçtiği YERE ya da başındaki KİŞİYE bak. Kapsama tablosu künye
