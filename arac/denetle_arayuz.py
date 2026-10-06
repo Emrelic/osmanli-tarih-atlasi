@@ -103,6 +103,74 @@ def _dinamik_onekler(kaynak):
     return k
 
 
+def _yetim_kapanis(html):
+    """Yorum DIŞINDA kalan metinde yorum kapanışı (`-->` ya da `--!>`) var mı?
+
+    🔴 6 Ekim 2026 (UMIT-W47) — 22 Ağustos sızıntısının ASIL sorusu.
+    O gün bir yorumun içine kapanış dizisi düz metin olarak yazılmıştı:
+    tarayıcı yorumu orada kapattı, kalan açıklama Ayarlar penceresine sızdı.
+    Yazarın asıl kapanışı ise metinde YETİM kaldı. Geçerli HTML'de yorum
+    dışındaki metinde çıplak kapanış dizisi yazmanın meşru bir yolu yok
+    (kasıtlıysa `&gt;` yazılır). Bu yüzden ölçüt kesindir ve terk edilen
+    "sızan metin mi, kasıtlı metin mi" belirsizliğine düşmez.
+
+    Yorum sonu WHATWG ayrıştırıcısı gibi bulunur:
+      `<!-->` ve `<!--->` → yorum HEMEN kapanır (abrupt closing)
+      öteki hâller       → ilk `-->` YA DA `--!>`, hangisi önce gelirse
+    Etiket içi (tırnaklı öznitelik değerleri dahil) ve script/style/
+    textarea/title gövdeleri metin sayılmaz. Kapanmamış yorum ①a'nın işi.
+    Döner: ([(satır, kesit)], ani_kapanan_yorum_sayısı)
+    """
+    ACILIS = "<!" + "--"
+    HAM = re.compile(r"<(script|style|textarea|title)\b", re.I)
+    yetim, ani, i, n = [], 0, 0, len(html)
+    while i < n:
+        lt = html.find("<", i)
+        metin = html[i:] if lt < 0 else html[i:lt]
+        for m in re.finditer(r"--!?>", metin):
+            p = i + m.start()
+            yetim.append((html[:p].count("\n") + 1,
+                          " ".join(html[max(0, p - 60):p + 4].split())))
+        if lt < 0:
+            break
+        if html.startswith(ACILIS, lt):
+            g = lt + len(ACILIS)
+            if html.startswith(">", g):
+                ani, i = ani + 1, g + 1
+                continue
+            if html.startswith("->", g):
+                ani, i = ani + 1, g + 2
+                continue
+            k1, k2 = html.find("-" + "->", g), html.find("--!>", g)
+            ks = [k for k in (k1, k2) if k >= 0]
+            if not ks:
+                break
+            k = min(ks)
+            i = k + (3 if k == k1 else 4)
+            continue
+        if not re.match(r"[A-Za-z/!?]", html[lt + 1:lt + 2]):
+            i = lt + 1          # `a < b` gibi: etiket değil, metin sürüyor
+            continue
+        h = HAM.match(html, lt)
+        # etiketi tırnaklara saygıyla geç
+        j, tirnak = lt + 1, None
+        while j < n:
+            c = html[j]
+            if tirnak:
+                if c == tirnak:
+                    tirnak = None
+            elif c in "\"'":
+                tirnak = c
+            elif c == ">":
+                break
+            j += 1
+        i = j + 1
+        if h:
+            son = re.compile(r"</" + h.group(1) + r"\s*>", re.I).search(html, i)
+            i = son.end() if son else n
+    return yetim, ani
+
+
 def main():
     html = io.open(HTML, encoding="utf-8").read()
     app = io.open(APP, encoding="utf-8").read()
@@ -136,14 +204,32 @@ def main():
         if "--" in govde:
             kesit = govde[max(0, govde.find("--") - 30):govde.find("--") + 20]
             kirik.append((html[:a].count("\n") + 1,
-                          "gövdede `--` var → yorum ERKEN KAPANIR: …"
+                          "gövdede `--` var (spec ihlali; tek başına SIZDIRMAZ): …"
                           + " ".join(kesit.split())))
         i = k + len(KAPANIS)
-    print("① yorum bütünlüğü      : %s"
-          % ("✓ temiz" if not kirik else "🔴 %d KIRIK YORUM" % len(kirik)))
+    # 🔴 6 Ekim 2026 (UMIT-W47): bu dal UYGUNLUK sorar, SIZINTI sormaz.
+    #   Gövdeyi ilk kapanışta kestiği için erken kapatan dizinin KENDİSİ
+    #   gövdeye girmez, kapanıştan sonra sızan metin de taranmaz. 22 Ağustos
+    #   kusurunu (`5603267d^`) yalnız örnek yorumdaki AÇILIŞ dizisi `--`
+    #   içerdiği için yakaladı; açılışsız tek kapanışlı yazımda KÖRDÜ.
+    #   Sızıntıyı ①b sorar.
+    print("①a yorum uygunluğu     : %s"
+          % ("✓ temiz" if not kirik else "🔴 %d UYGUNSUZ YORUM" % len(kirik)))
     for no, t in kirik[:8]:
         print("     satır %-5d %s" % (no, t[:96]))
     ihlal += len(kirik)
+
+    # ── ①b YORUM SIZINTISI — yorum dışı metinde YETİM kapanış ──────────
+    yetim, ani = _yetim_kapanis(html)
+    print("①b yorum sızıntısı     : %s"
+          % ("✓ yetim kapanış yok" if not yetim
+             else "🔴 %d YETİM KAPANIŞ — yorum erken kapandı, metin SAYFAYA SIZDI"
+             % len(yetim)))
+    for no, t in yetim[:8]:
+        print("     satır %-5d …%s" % (no, t[:90]))
+    print("     kapsam: yorum dışı metin + öznitelik dışı · script/style/"
+          "textarea/title gövdesi HARİÇ · ani kapanan yorum %d" % ani)
+    ihlal += len(yetim)
 
     # ── ② MÜKERRER id ───────────────────────────────────────────────────
     idler = re.findall(r'\bid="([^"]+)"', re.sub(re.escape(ACILIS) + r".*?"

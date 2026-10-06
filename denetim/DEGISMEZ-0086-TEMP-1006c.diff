@@ -1,0 +1,21 @@
+diff --git a/denetim/DEGISMEZ-0086-sinav.py b/denetim/DEGISMEZ-0086-sinav.py
+index a9efd332..188b7077 100644
+--- a/denetim/DEGISMEZ-0086-sinav.py
++++ b/denetim/DEGISMEZ-0086-sinav.py
+@@ -96,7 +96,7 @@ def yapay():
+ 
+ def rapor_dali():
+     """denetle.py'nin KARAR dalı ateşleniyor mu: tavan aşımı ✗, yeni hat kovası tavana girmez."""
+-    import tempfile, json, io, contextlib
++    import tempfile, json, io, contextlib, shutil
+     print("YAPAY — karar dalı (degismez8_rapor)")
+     sahte = dict(a=[dict(hat="h-eski", gun="1900-01-01", yan="sol", yer="X", km=9.0, km2=40,
+                          sinif="E", kimden="bbb"),
+@@ -134,6 +134,7 @@ def rapor_dali():
+     finally:
+         (denetle.degismez8, denetle.DEGISMEZ8_DEFTERI,
+          denetle.BEKLENEN_D8A, denetle.BEKLENEN_D8B) = esk
++        shutil.rmtree(d, ignore_errors=True)  # UMIT-W39c: %TEMP%'te tmp*/defter.json artığı BIRAKILMAZ
+ 
+ 
+ def gercek():
