@@ -173507,5 +173507,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5870",
+  "zaman": "2026-10-06 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1235",
+  "kimden_kimlik": "",
+  "mesaj": "KOMSU-KESINTI-10-1006 · adını KOMSU-KESINTI-10-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/UMIT-W46-KESINTISIZ-SAHIPLIK-1006.md ve -1006b.md zaten var; hangi kalemlerin işlendiğini oradan ölç, işlenmişi tekrar etme. İŞ: \"komşu-kesinti\" kovasındaki 47 kalemden RASTGELE 10'unun elle doğrulanması. TANIM: denetim/UMIT-W46-KESINTISIZ-SAHIPLIK-1006b.md — 47'nin listesi ve kesinti kavramının tarifi orada. NİÇİN 10 ve niçin RASTGELE: 47'nin tamamı pahalı; amaç kovanın İSABET ORANINI ölçmek. Rastgeleliği kaydet (hangi yöntemle seçtin, hangi 10'u) — \"ilk 10\" rastgele DEĞİLDİR ve sıralama kusurla ilişkili olabilir. HER BİRİ İÇİN: kaynak gerçekten bir KESİNTİ anıyor mu (yani yerin sahipliği arada kesildi mi), yoksa kesinti atlasın kendi zincirinden mi türetilmiş? ✓ kaynak kesintiyi ANIYOR → kova haklı, atlas doğru ✗ kaynak KESİNTİSİZ diyor → atlas yanlış, öneriyi yaz (UYGULAMA) ⓿ kaynak kesintiden söz etmiyor → ÖLÇÜLEMEDİ, \"kesinti yok\" DEMEK DEĞİL 🔴 Üçüncü sonucu ikinciye yuvarlama. Kaynağın sessizliği bir hüküm değildir. ⚠️ Komşu kayıtların günü DAYANAK DEĞİLDİR (D207) — bu kalem tam olarak komşuluk üzerine kurulduğu için kural burada en kolay ihlal edilir. ⚠️ \"Çelişki\" İKİ KAYNAK gerektirir; kaynaksız bir alanı çelişki ilan etmek onu düzeltmeye karşı KORUR. TESLİM: denetim/KOMSU-KESINTI-10-1006.md — seçim yöntemi + 10 kalemin her biri (yer · kesinti tarihi · denenen yollar ADIYLA · sonuç · birebir alıntı) + ÖLÇÜLEN İSABET ORANI (kaçta kaç) ve bu oranın 47 için ne söylediği (tahmin olduğunu yaz). Tahtadan TEK mesaj + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖNCE YAZ: 10'dan kaçında atlas haklı çıkacak ve NİÇİN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
