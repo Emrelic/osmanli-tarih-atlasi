@@ -115,7 +115,7 @@ window.OLAYLAR_EK17 = [
 { t:"1711-07-21", b:"Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti", ic_not_b:"eski b soneki: — TDV'nin kendi uyarısı", tur:"magazin",
   onem:2, dunya:2, kapsam:"ic", etiket:["diplomasi","rivayet","konu-diplomasi","konu-magazin"],
   yer_id:"Yaş",
-  d:"Prut'ta kuşatılan Rus ordusunun kurtuluşunu, I. Katerina'nın Baltacı Mehmed Paşa'ya gönderdiği hediyelere/rüşvete bağlayan popüler anlatı yüzyıllar boyunca tekrarlandı.", ic_not_d:"⚠️ TDV bunu bir TARİHÎ KAYIT değil bir EFSANE olarak tanımlıyor — kendi ifadesiyle: 'Bu konu ve I. Katerina'nın bundaki rolü daha sonraları abartılarak pek çok defa dile getirilmiş ve her seferinde biraz daha gerçeklerden uzaklaşmış olarak tekrarlanmış, nihayet olayın ayrılmaz bir efsanesi haline gelmiştir.' Hediye alışverişi kaynaklarda var, ama 'rüşvetle satıldı' hükmü sonradan büyütülmüş bir rivayettir.",
+  d:"Prut'ta kuşatılan Rus ordusunun kurtuluşunu, I. Katerina'nın Baltacı Mehmed Paşa'ya gönderdiği hediyelere/rüşvete bağlayan popüler anlatı yüzyıllar boyunca tekrarlandı.", ic_not_d:"⚠️ TDV bunu bir TARİHÎ KAYIT değil bir EFSANE olarak tanımlıyor — kendi ifadesiyle: 'Bu konu ve I. Katerina'nın bundaki rolü daha sonraları abartılarak pek çok defa dile getirilmiş ve her seferinde biraz daha gerçeklerden uzaklaşmış olarak tekrarlanmış, nihayet olayın ayrılmaz bir efsanesi haline gelmiştir.' [TDV: prut-antlasmasi] Hediye alışverişi kaynaklarda var, ama 'rüşvetle satıldı' hükmü sonradan büyütülmüş bir rivayettir.",
   kaynak:"prut-antlasmasi" },
 
 { t:"1711-07-21", b:"Prut'ta 'kaçırılan fırsat' tartışması — iki görüş", tur:"tartisma",

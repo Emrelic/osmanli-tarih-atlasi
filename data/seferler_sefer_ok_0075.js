@@ -52,7 +52,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   tur:"tahliye", sonuc:"belirsiz", devlet:"misir-kavalali",
   f:"1841-02-01", t:"1841-02-25",
   tarih_hassasiyet:"AY — atlas kronolojisi 'Şubat 1841' (data/olaylar_ek4.js:276 ve data/kronoloji_misir.js:215, madde günü 1841-02-25); TDV ibrahim-pasa-kavalali yalnız emri verir (27 Kasım 1840)",
-  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\"",
+  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\" [TDV slug: ibrahim-pasa-kavalali (alıntı doğrulanmadı)]",
   kesinlik:"İSTASYONLAR (Adana, Belen, Halep, Humus, Şam, Gazze, Kahire) 1831-33 işgal güzergâhının ('Suriye harekâtı (1831-32)' + 'Anadolu ilerleyişi (1832-33)' kayıtları) TERSİDİR; dönüş yolunun KENDİ kaynağı yok — TDV yalnız 'geri çekmek üzere emirler verdi' der. Sıra ve uçlar temsilîdir; günler yalnız AY (Şubat 1841).",
   yol:[[35.32,37.0],[36.2,36.52],[37.16,36.2],[36.71,34.73],[36.29,33.51],[34.47,31.5],[31.24,30.05]] }
 

@@ -1,0 +1,96 @@
+# KURTARMA, UYGULANMADI — kayip stash d8b067c2 (WIP on 0f08fcae TAHTA-GIT-YARIM, 6 Eki 12:36), unreachable'dan. Sahibi bilinmiyor; icerik KRONO-1422-KATALAN (W52b) taslagina benziyor, W52b 008083ca ile uygulandi. Karsilastirilmadi.
+diff --git a/data/kronoloji_bizans.js b/data/kronoloji_bizans.js
+index 60aca64d..927414ac 100644
+--- a/data/kronoloji_bizans.js
++++ b/data/kronoloji_bizans.js
+@@ -38,7 +38,8 @@
+ //  ① `bizans` — TDV, GÖVDESİ OKUNARAK doğrulandı (200). Bu maddeden
+ //     birebir alınan tarihler: 1302-07-27 Bapheus (Pachymeres'e göre) ·
+ //     1326-04-06 Bursa · 1331-03-01 İznik · 1352 Çimpe · 1354 Gelibolu ·
+-//     1373 Dimetoka · 1391 abluka · 1422-06-08 kuşatma ·
++//     1373 Dimetoka · 1391 abluka · 1422 kuşatma (gövde 8 Haziran der;
++//     W52/1006: atlas 1422-06-10, Kushch 2017 — §X) ·
+ //     1452-12-12 Ayasofya'da union ilanı · 1453-05-29 fetih.
+ //  ② `ankara-savasi` — TDV, gövdesi okundu (200): "28 Temmuz 1402 Cuma
+ //     günü" ve "Yıldırım Bayezid Bizans imparatoruyla anlaşarak İstanbul
+@@ -79,6 +80,10 @@
+ // §X — `devletler.js` `bizans` KÜNYESİYLE İKİ TARİH ÇELİŞİYOR (BİLDİRİLDİ)
+ //    İznik'in düşüşü   künye 1331-03-02   TDV `bizans` "1 Mart 1331"
+ //    1422 kuşatması    künye 1422-06-10   TDV `bizans` "8 Haziran 1422"
++//      ⇒ ÇÖZÜLDÜ (UMIT-W52, 6 Ekim 2026): TDV kendi içinde 8 / 15 Haziran /
++//        Receb 825 veriyor; hakemli Kushch 2017 (Schreiner kısa kronikleri)
++//        10 Haziran der ve 8'i Sphrantzes'in kesin olmayan günü sayar.
++//        Madde 1422-06-10'a çekildi (künye ve olaylar_ek.js ile aynı gün).
+ //    ⇒ Bu dosyada TDV gövdesindeki tarihler kullanıldı.
+ //      `data/devletler.js` BENİM DOSYAM DEĞİL — dokunulmadı, raporlandı.
+ //
+@@ -451,11 +456,12 @@ window.KRONOLOJI_BIZANS = [
+   d:"Çelebi Mehmed'in ölümü üzerine Bizans, elinde tuttuğu Mustafa Çelebi'yi serbest bırakarak Osmanlı tahtına rakip çıkardı. Hesap tutmadı: Mustafa yenildi ve yeni sultan bir yıl sonra başkenti kuşatmaya geldi. Bizans tarihyazımında bu, imparatorluğun son diplomatik kozunu yanlış oynadığı an sayılır.",
+   kaynak:"el-kitabi" },
+ 
+-{ t:"1422-06-08", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
++{ t:"1422-06-10", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
+   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
+   yer_id:"İstanbul",
+   d:"Osmanlı ordusu ilk kez topla desteklenen düzenli bir kuşatma başlattı; Anadolu'da çıkan şehzade isyanı üzerine kuşatma kaldırıldı. Bizans için bu, fetret devrinin kazandırdığı nefes payının bittiğinin haberiydi.",
+-  kaynak:"bizans" },
++  kaynak:"Kushch, T. V., \"Turetskaya osada i shturm Konstantinopolya 1422 g.: voenno-politicheskiy aspekt\" [The Ottoman Siege and Assault of Constantinople in 1422], Vestnik Volgogradskogo gos. universiteta, Ser. 4, 22/5 (2017), s. 261-270, DOI 10.15688/jvolsu4.2017.5.24 — Schreiner, Die byzantinischen Kleinchroniken, Chr. 13/1-4, 22/34'e dayanarak: \"Осада длилась три месяца – с 10 июня по 6 сентября 1422 года\" (kuşatma 10 Haziran - 6 Eylül 1422) · bizans · istanbul · murad-ii",
++  ic_not_gun:"⚠️ TDV kendi içinde üç ayrı değer veriyor (§4⑥, bildirildi): `bizans` \"Kuşatma 8 Haziran 1422'de başladı\" · `istanbul` \"II. Murad'ın 15 Haziran 1422'deki muhasara teşebbüsü\" · `murad-ii` \"Bizans üzerine yürüdü (Receb 825 / Haziran 1422)\". Kushch 8 ve 15 Haziran'ı Sphrantzes'in kronolojisi olarak aktarıp 'tarihlerde pek kesin değil' der (8 Haziran: Mihal Bey'in gönderilişi · 15 Haziran: sultanın gelişi); daha güvenilir saydığı kısa kronikler 10 Haziran öncü kuvvetin gelişi, 20 Haziran sultanın katılışı der. Gün W52/1006'da 06-08'den 06-10'a çekildi." },
+ 
+ { t:"1423-09-14", b:"Selanik Venedik'e devredildi — savunulamayan şehrin satışı", tur:"toprak-kayip",
+   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
+diff --git a/data/kronoloji_katalan.js b/data/kronoloji_katalan.js
+index 6f6068d9..9b715786 100644
+--- a/data/kronoloji_katalan.js
++++ b/data/kronoloji_katalan.js
+@@ -10,10 +10,11 @@
+ //    yapılmadan da eşler. Dosyadaki dört addan TEK bağlanacak olan budur.
+ window.KRONOLOJI_KATALAN = [
+ 
+-{ t:"1303-09-01", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
++{ t:"1303-09-01", kesinlik:"ay", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+   etiket:["askeri","ittifak","konu-askeri","konu-siyasi","konu-diplomasi"],
+   d:"Sicilya savaşlarından işsiz kalan Roger de Flor kumandasındaki Katalan paralı askerleri, Türk beyliklerine karşı savaşmak üzere Bizans hizmetine alındı. Kumpanya Anadolu'da birkaç başarı kazandı ama disiplinsizliği ve talepleriyle imparatorluğu bunalttı. Ege tarihinin en tuhaf devletlerinden birinin çekirdeği budur: bir ŞİRKET olarak örgütlenmiş bir ordu.",
+-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · devletler.js künye kronolojisi · gün yaklaşıktır" },
++  kaynak:"Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\" · TDV bizans (yıl)",
++  ic_not_gun:"Kaynaklar AY verir (Eylül 1303), gün vermez; -09-01 'ayın 1'i' DEĞİL, kesinlik:\"ay\" okunur (D213). Cümleler kumpanyanın İstanbul'a VARIŞINI tarihler; sözleşme daha önce (Ağustos 1302 Caltabellotta barışı sonrası) yapıldı. TDV `bizans` yalnız yıl verir: \"Bizans'ın yardımına koştu (1303)\". Setton 1975 bu turda da OKUNAMADI — dayanak olarak yazılmadı. W52/1006" },
+ 
+ { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
+   etiket:["kriz","askeri","isyan","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan"],
+diff --git a/data/olaylar_ek.js b/data/olaylar_ek.js
+index e62566ba..8e967790 100644
+--- a/data/olaylar_ek.js
++++ b/data/olaylar_ek.js
+@@ -114,7 +114,7 @@ window.OLAYLAR_EK = [
+ { t:"1403-06-01", k:"antlasma", etiket:["antlasma","diplomasi","bilim","konu-diplomasi","konu-bilim"], b:"Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi", gun:"1403 başı", yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Emîr Süleyman Çelebi", d:"Fetret'te Rumeli'ye hükmeden Süleyman Çelebi, Bizans ve Latin devletleriyle anlaşarak Selanik'i ve Misivri'ye kadar Karadeniz sahillerini Bizans'a terk etti (TDV fetret-devri: Gelibolu Antlaşması, Şubat 1403) — haritada İğneada, Rezve ve Ahtapolu Bizans'a geçer; haritada Selanik bu tarihte Osmanlı'dan çıkar.", kaynak:"suleyman-celebi-emir", duygu:["🤝"] },
+ { t:"1416-05-29", k:"savas", etiket:["savas","konu-askeri"], b:"Gelibolu deniz yenilgisi (Venedik)", gun:"29 Mayıs 1416", yer:"Gelibolu açıkları", yer_id:"Gelibolu", kisiler:"Çalı Bey", d:"Venedik donanması Osmanlı donanmasını Gelibolu önünde ağır yenilgiye uğrattı; erken dönem Osmanlı denizciliğinin sınırlarını gösteren olay oldu.", kaynak:"gelibolu", duygu:["⚔️","😔"] },
+ { t:"1421-08-15", k:"isyan", etiket:["isyan","konu-isyan"], b:"Düzmece Mustafa ayaklanması", gun:"1421-1422", yer:"Rumeli", kisiler:"Mustafa Çelebi, II. Murad", d:"Yıldırım'ın oğlu olduğunu ileri süren Mustafa Çelebi, Bizans desteğiyle Rumeli'de saltanat ilan etti; II. Murad ayaklanmayı 1422'de bastırıp rakibini idam ettirdi.", kaynak:"bulunamadı — arandı, TDV'de 1421 için olayı tarihiyle veren gövde yok", duygu:["✊"], kapsam_genis:true },
+-{ t:"1422-06-10", k:"savas", etiket:["savas","konu-askeri"], b:"II. Murad'ın İstanbul kuşatması", gun:"Haziran-Eylül 1422", yer:"İstanbul", yer_id:"İstanbul", kisiler:"II. Murad", d:"Bizans'ın Düzmece Mustafa'yı desteklemesine karşılık II. Murad İstanbul'u kuşattı; kuşatma kardeşi Küçük Mustafa'nın Anadolu'da ayaklandırılması üzerine kaldırıldı.", kaynak:"istanbul", duygu:["⚔️"] },
++{ t:"1422-06-10", k:"savas", etiket:["savas","konu-askeri"], b:"II. Murad'ın İstanbul kuşatması", gun:"10 Haziran - 6 Eylül 1422", yer:"İstanbul", yer_id:"İstanbul", kisiler:"II. Murad", d:"Bizans'ın Düzmece Mustafa'yı desteklemesine karşılık II. Murad İstanbul'u kuşattı; kuşatma kardeşi Küçük Mustafa'nın Anadolu'da ayaklandırılması üzerine kaldırıldı.", kaynak:"Kushch, T. V., \"Turetskaya osada i shturm Konstantinopolya 1422 g.: voenno-politicheskiy aspekt\" [The Ottoman Siege and Assault of Constantinople in 1422], Vestnik Volgogradskogo gos. universiteta, Ser. 4, 22/5 (2017), s. 261-270, DOI 10.15688/jvolsu4.2017.5.24 — Schreiner, Die byzantinischen Kleinchroniken, Chr. 13/1-4, 22/34'e dayanarak: \"Осада длилась три месяца – с 10 июня по 6 сентября 1422 года\" (kuşatma 10 Haziran - 6 Eylül 1422) · bizans · istanbul · murad-ii", ic_not_gun:"⚠️ TDV kendi içinde üç ayrı değer veriyor (§4⑥, bildirildi): `bizans` \"Kuşatma 8 Haziran 1422'de başladı\" · `istanbul` \"II. Murad'ın 15 Haziran 1422'deki muhasara teşebbüsü\" · `murad-ii` \"Bizans üzerine yürüdü (Receb 825 / Haziran 1422)\". Kushch 8 ve 15 Haziran'ı Sphrantzes'in kronolojisi olarak aktarıp 'tarihlerde pek kesin değil' der (8 Haziran: Mihal Bey'in gönderilişi · 15 Haziran: sultanın gelişi); daha güvenilir saydığı kısa kronikler 10 Haziran öncü kuvvetin gelişi, 20 Haziran sultanın katılışı der. Eski dayanak `istanbul` 10 Haziran DEMİYORDU (15 Haziran der) — W52/1006.", duygu:["⚔️"] },
+ { t:"1423-09-14", k:"diger", etiket:["diger"], b:"Selanik'in Venedik'e devri", gun:"14 Eylül 1423", yer:"Selanik", yer_id:"Selanik", kisiler:"", d:"Osmanlı baskısı altındaki Bizans valisi şehri Venedik'e devretti; yedi yıl sürecek Osmanlı-Venedik çekişmesi başladı.", kaynak:"selanik", duygu:["📌"] },
+ { t:"1429-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"Germiyan'ın vasiyetle ilhakı", gun:"1429", yer:"Kütahya", yer_id:"Kütahya", kisiler:"II. Yakub Bey, II. Murad", d:"Çocuksuz ölen Germiyan beyi II. Yakub, ülkesini vasiyetle Osmanlı'ya bıraktı — savaşsız ilhakın ders kitaplarına giren örneği. Aynı tarihte katılan öteki yerler: Karahisâr-ı Sâhib (Afyon).", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:", kaynak:"germiyanogullari", duygu:["🎉"] },
+ { t:"1439-08-27", k:"fetih", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"], b:"Semendire'nin ilk alınışı", gun:"27 Ağustos 1439", yer:"Semendire", yer_id:"Semendire", kisiler:"II. Murad, Georg Branković", d:"Üç aylık kuşatmayla Sırp despotluğunun başkenti alındı ve Sırbistan ilk kez ilhak edildi (1444 Edirne-Segedin Antlaşması'yla iade edilecektir).", kaynak:"semendire", duygu:["🎉"] },
+diff --git a/data/olaylar_p0049.js b/data/olaylar_p0049.js
+index 9606d4cf..5ab2c59d 100644
+--- a/data/olaylar_p0049.js
++++ b/data/olaylar_p0049.js
+@@ -27,15 +27,15 @@
+ window.OLAYLAR_P0049 = [
+ 
+ // ── 0042/H-0004 — Katalan seferinin başı ───────────────────────────
+-{ t:"1303-01-01", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
++{ t:"1303-09-01", kesinlik:"ay", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+   b:"Katalan Kumpanyası Bizans hizmetine girdi — Anadolu seferinin başlangıcı",
+-  gun:"1303",
+-  ic_not_gun:"TDV bizans yıl verir, gün vermez → YYYY-01-01 (§4). savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 DAYANAK DEĞİLDİR. ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
++  gun:"Eylül 1303",
++  ic_not_gun:"W52/1006: AY kaynaklı (GEC + Bilkent tezi, kaynak alanında) → 1303-09-01 + kesinlik:ay; gün bulunamadı. Önceki not: TDV bizans yıl verir, gün vermez; savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 atlas kaydıdır, DAYANAK DEĞİLDİR (bu değişiklik onlara değil yukarıdaki iki kaynağa dayanır). ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
+   yer:"İstanbul ve Batı Anadolu (Alaşehir)", yer_id:"Alaşehir",
+   kisiler:"Roger de Flor, II. Andronikos",
+   d:"Batı Anadolu'da Türk beylikleri karşısında toprak kaybeden Bizans İmparatorluğu, Roger de Flor kumandasındaki yaklaşık 6500 kişilik Katalan birliğini ücretli asker olarak hizmetine aldı. TDV'nin Bizans maddesine göre birlik 1303'te imparatorluğun yardımına geldi ve ertesi yıl Germiyanoğulları'nın kuşattığı Alaşehir'i kurtardı. Ancak kumpanya kısa sürede geçtiği yerleri yağmalamaya başladı; Bizans onu Trakya'ya geçirdi ve 1305'te Roger de Flor'u öldürttü.",
+   ic_not_d:"TDV alasehir Katalanların Germiyan kuşatmasını kaldırdığını yazar, yıl vermez; TDV germiyanogullari aynı kuşatmayı 1306'ya koyar — TDV bizans'ın 1304'üyle iki yıllık ayrışma, bildirildi (§4⑥).",
+-  kaynak:"bizans · alasehir" },
++  kaynak:"bizans · alasehir · Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\"" },
+ 
+ // ── 0020/H-0013 — Ahıska ───────────────────────────────────────────
+ { t:"1578-08-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],

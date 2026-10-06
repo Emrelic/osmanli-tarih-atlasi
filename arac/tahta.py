@@ -105,6 +105,35 @@ def _yukle():
         sys.exit(2)
 
 
+_OKU_KAYNAK = {"mod": "yerel"}     # main() --kaynak origin ile çevirir (yalnız SALT-OKUR komutlar)
+
+
+def _yukle_oku():
+    """SALT-OKUR komutların okuyucusu (oku · bekleyen · teyitsiz · kimler).
+
+    🔴 TAHTA-ORIGIN-OKU-1006: bekçi artık origin ∪ yerel okuyor; uyanan oturum
+    `oku` ile YEREL ağaca bakarsa bekçinin gördüğü mesajı BULAMAZ. `--kaynak
+    origin` aynı okuyucuyu (`tahta_kaynak.Okuyucu`) kullanır ve kaynağı ADIYLA
+    basar. Varsayılan DEĞİŞMEDİ (yerel) — yazma yolu (`yaz`→push, `teyit`,
+    `kapat`) hiç değişmedi; o karar koordinatörün.
+    """
+    if _OKU_KAYNAK.get("mod") != "origin":
+        return _yukle()
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import tahta_kaynak
+    ok = tahta_kaynak.Okuyucu(VERI, ref=tahta_kaynak.ref_adi("_tahta_oku"),
+                              bildir=lambda s: print(s))
+    kayit = ok.oku()
+    d = ok.durum
+    if d.get("kaynak") == "origin":
+        print("kaynak: ORIGIN (%s, fetch %s ms) ∪ yerel — yalnız yerelde olan: %s"
+              % (d.get("uzak"), d.get("fetch_ms"), d.get("yerel_ek")))
+    else:
+        print("🔴 kaynak: YEREL — %s" % (d.get("kaynak_not") or "sebep yok"))
+    _OKU_KAYNAK["durum"] = d
+    return kayit
+
+
 class _Kilit(object):
     """🔴🔴 OKU-DEĞİŞTİR-YAZ KİLİDİ — 22 Ağustos 2026, ÖLÇÜLMÜŞ KAYIP.
 
@@ -723,7 +752,7 @@ def _takma_adlar(kayit, kim, kimlik=None):
 
 def kimler(a):
     """Tahtadan türetilmiş OTURUM DEFTERİ — kim, hangi kimlikle, ne zaman."""
-    kayit = _yukle()
+    kayit = _yukle_oku()
     defter = {}
     for m in kayit:
         ad = m["kimden"]
@@ -1051,7 +1080,7 @@ def yaz(a):
 
 
 def oku(a):
-    kayit = _yukle()
+    kayit = _yukle_oku()
     if not kayit:
         print("tahta BOŞ — henüz kimse yazmadı.")
         return 0
@@ -1126,7 +1155,12 @@ def oku(a):
         print()
 
     # 🟢 OKUNDU OTOMATİK — elle işaretlenen kutu işaretlenmez.
-    if kim:
+    # ⚠️ `--kaynak origin`de YAZILMAZ: kayıt origin görüntüsüdür; onu yerel
+    #   dosyaya `_kaydet` etmek bir YAZMA yolu değişikliği olurdu (yerel
+    #   commit'lenmemiş kayıtları ezebilir). Okundu damgası yerel `oku` işidir.
+    if kim and _OKU_KAYNAK.get("mod") == "origin":
+        print("(--kaynak origin: 'okundu' damgası YAZILMADI — salt okuma)")
+    elif kim:
         yeni = 0
         for m in secili:
             if kim not in (m.get("okuyan") or {}):
@@ -1157,7 +1191,7 @@ def bekleyen(a):
       yarın "hiç sorulmamış" gibi yeniden keşfedilir. Çare SÜZMEK, **ve
       süzülenin sayısını BASMAK**: gizlenen şey de görünsün.
     """
-    kayit = _yukle()
+    kayit = _yukle_oku()
     acik = [m for m in kayit if m["hal"] == "ACIK" and m["cevap"] == "BEKLIYOR"]
     simdi = _simdi()
     if a.get("gecikmis"):
@@ -1239,7 +1273,7 @@ def tamam(a):
 
 def teyitsiz(a):
     """🔴 KANAL ÖLÇÜMÜ — teyit dönmemiş mesajlar. Sessizliğin SAYISI."""
-    kayit = _yukle()
+    kayit = _yukle_oku()
     kim = (a.get("kim") or "").strip().upper()
     hedef = [m for m in kayit if m["hal"] != "KAPANDI"]
     if kim:
@@ -1298,6 +1332,12 @@ def main(argv):
         return argv[argv.index(ad) + 1] if (ad in argv and argv.index(ad) + 1 < len(argv)) else None
 
     k = argv[0]
+    _OKU_KAYNAK["mod"] = "yerel"          # her çağrıda sıfırla — süreç içi tekrar kullanımda sızmasın
+    if al("--kaynak"):
+        if al("--kaynak") not in ("origin", "yerel") or k not in ("oku", "bekleyen", "teyitsiz", "kimler"):
+            print("--kaynak yalnız oku/bekleyen/teyitsiz/kimler ile, 'origin' ya da 'yerel'")
+            return 2
+        _OKU_KAYNAK["mod"] = al("--kaynak")
     ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
              "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv,
              "gun": al("--gun"),

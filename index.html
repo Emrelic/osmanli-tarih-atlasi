@@ -382,11 +382,36 @@
          yüksekliğini bozmadan `title` ile tam metin de taşır.
          🔴 14 Eylül 2026 — Emre: "git butonunu kaldıralım, silik yazıda
          tarih yaz entere bas yazalım." `#tarihe-git-buton` SİLİNDİ; tek
-         tetik Enter (js/app.js `tariheGitKur`). -->
+         tetik Enter (js/app.js `tariheGitKur`). Bu karar YERİNDE: buton yok,
+         tetik hâlâ Enter.
+         🆕 6 Ekim 2026 — Emre: "tarih textboxunda 'tarihe git' texti
+         olmalı." Yalnız SİLİK YAZI kısaldı ("Tarih yaz, Enter'a bas" →
+         "tarihe git"); Enter talimatı `title`daki örnek listesinde duruyor. -->
+    <!-- `#git-grup` (YER-ARAMA-KUTUSU-1006): tarih kutusu + durumu + yer
+         kutusu TEK BİRİM — footer dar gelip satır kırınca ikisi AYRILMASIN
+         (Emre: yer kutusu tarih kutusunun YANINDA). Kimlikler aynı; JS
+         öğeleri id ile buluyor, ebeveyn değişikliği onlara görünmez. -->
+    <span id="git-grup">
     <input type="text" id="tarihe-git-giris"
-           placeholder="Tarih yaz, Enter'a bas"
+           placeholder="tarihe git"
            title="Örnek: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453 — yazıp Enter'a basın">
     <span id="tarihe-git-durum"></span>
+    <!-- 🆕 YER ARA (YER-ARAMA-KUTUSU-1006) — Emre, 6 Ekim 2026: "sene
+         seçtiğimiz ve ilgili seneye gittiğimiz textboxun yanında olmalı şehir
+         seçme textboxu ve 'şehir yaz ve git' pasif texti içinde olmalı."
+         Zaman çubuğunun O GÜNÜNDE haritada çizili şehir · kale · liman ·
+         bölge · ülke adlarını listeler; seçilince kamera oraya gider, tarih
+         DEĞİŞMEZ. "Git" butonu YOK (14 Eylül emsali): listeden tıklama ya da
+         ↑/↓ + Enter doğrudan odaklar. Liste footer'dan YUKARI açılır.
+         Mantık js/app.js `yerAraKur` · rapor denetim/UMIT-YER-ARAMA-KUTUSU-1006.md. -->
+    <div id="yer-ara" role="search">
+      <input type="search" id="yer-ara-giris" autocomplete="off" spellcheck="false"
+             placeholder="şehir yaz ve git"
+             title="Bu günde haritada olan bir yerin adını yazın: şehir · kale · liman · bölge · ülke. Listeden tıklayın ya da ↑/↓ + Enter ile seçin (Esc kapatır). Henüz haritada olmayan yer listede çıkmaz."
+             aria-label="Bu günde haritada olan yeri ara" aria-controls="yer-ara-liste">
+      <div id="yer-ara-liste" class="gizli" role="listbox"></div>
+    </div>
+    </span><!-- /#git-grup -->
     <input type="range" id="zaman" min="0" max="0" step="1">
     <!-- 🔴 21 Ağustos — Emre: "alttaki gün ay yıl şeklinde olan göstergeyi
          kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-

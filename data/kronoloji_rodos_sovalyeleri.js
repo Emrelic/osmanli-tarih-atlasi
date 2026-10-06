@@ -333,7 +333,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1571-10-07", b:"İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katılım", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
   d:"Tarikat, sağ kanatta yer alan üç kadırgasıyla Kutsal İttifak donanmasına katıldı ve tarikat kadırgası ağır kayıp verdi. Sayıca küçük olan katkı, tarikatın Katolik dünyasının ortak savunmasındaki sembolik yerini pekiştirdi. Zafer Akdeniz'de Osmanlı ilerleyişinin durduğu an olarak anıldı.",
-  kaynak:"TDV 'inebahti-savasi' md. · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
+  kaynak:"TDV 'inebahti-deniz-savasi' md. (eski slug 'inebahti-savasi' ölü/302 — UMIT-W49 6 Ekim 2026) · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
 
 { t:"1573-01-01", b:"Saint John Ortak Katedrali'nin inşasına başlanması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","din","kultur","imar","konu-din","konu-kultur","konu-imar"],

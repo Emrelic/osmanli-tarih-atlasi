@@ -1,0 +1,47 @@
+diff --git a/data/olaylar_ok109.js b/data/olaylar_ok109.js
+index ef357ba..ca7d1bb 100644
+--- a/data/olaylar_ok109.js
++++ b/data/olaylar_ok109.js
+@@ -274,13 +274,23 @@ window.OLAYLAR_OK109 = [
+     kaynak: "Magyar Nemzeti Levéltár Baranya Vármegyei Levéltára, 'Száz éve, 1921. augusztus 22-én ért véget Pécs és Baranya megye szerb megszállása' (mnl.gov.hu) — 'A szénbányászat miatt stratégiailag is kiemelt jelentőségű Pécs november 14-én került szerb megszállás alá.'"
+   },
+ 
++  {
++    t: "1918-11-14", k: "isgal", etiket: ["isgal", "konu-askeri"],
++    kapsam:"dis", onem:2, b: "Sırp ordusu Timișoara'yı (Temeşvar) işgal etti — Banat'ın Sırp askerî idaresi başladı", yer_id:"Temeşvar",
++    gun: "14 Kasım 1918",
++    yer: "Temeşvar (Timișoara)",
++    d: "Sırp birlikleri 14 Kasım 1918'de Timișoara'yı işgal etti, millî muhafızları dağıttı ve Banat'ın askerî, kısa süre sonra da mülkî idaresini üstlendi. Aralık başında şehre Fransız birlikleri de girdi; Romen idaresi ancak Temmuz-Ağustos 1919'da kuruldu.",
++    ic_not_d: "Temeşvar yerleşim kaydının önerilen 1918-11-14 isg: kırılmasını (sirbistan-kralligi) YER koluyla karşılar (P84-BRASSO-TEMESVAR-1006). Peçuy'un aynı günkü maddesi bu kırılmayı yalnız tesadüfen kapatırdı.",
++    kaynak: "Muzeul Național de Istorie a României — Muzeul Virtual al Unirii (mvu.ro, 'How Transilvania, Banatul, Crisana and Maramuresul got togheter') — 'On November 14, 1918, the Serbian troops occupied Timisoara, dissolved the national guards and took over the military administration and, shortly, the civilian side of Banat.' · Fransızlar: Ziua de Vest (gazete, 02.08.2024) 'la începutul lunii decembrie 1918, ele au fost urmate de cele franceze' — nitelik notu: kurumsal (devlet müzesi) + gazete; akademik kaynak BULUNAMADI"
++  },
++
+   {
+     t: "1918-12-01", kesinlik:"ay", k: "isgal", etiket: ["isgal", "konu-askeri"],
+     kapsam:"dis", onem:2, b: "Romen ordusu Brașov'a (Brassó) girdi ve törenle karşılandı", yer_id:"Brassó (Braşov)",
+     gun: "Aralık 1918 (kaynak aynı olaya iki gün veriyor: 24 Kasım / 7 Aralık ve 10 Aralık)",
+     yer: "Brassó (Brașov)",
+     d: "Romen ordusu Aralık 1918'de Brașov'a girdi; şehrin Rumen önde gelenleri orduyu ve General Berthelot'yu törenle karşıladı.",
+-    ic_not_d: "AY DÜZEYİ (D213) — OKUMA, seçim değil. Kaynakta iki cümle: (A) 'avea să conducă ceremonialul primirii armatei române în Braşov, avându-l în frunte pe generalul Berthelot în 24 noiembrie - 7 decembrie 1918' (24 Kasım Jülyen = 7 Aralık Gregoryen, TEK gün) · (B) 'manifestările prilejuite de intrarea triumfală a Armatei Române în Braşov pe 10 decembrie 1918'. İkisi de AYNI olayı — Romen ordusunun Brașov'a gelişi ve karşılanışını — tarihliyor: (A) 'ordunun Brașov'da karşılanma töreni', (B) 'ordunun Brașov'a zafer girişi'nin kutlamaları; ayrı bir ikinci giriş anlatılmıyor. Ayrı olay olduklarını gösteren bağımsız kaynak BULUNAMADI (aranan: Brașov kurumları, akademik makale). ⇒ 7 mi 10 mu okunamıyor, ikisinin ortak en kaba güvenli düzeyi AY (Aralık 1918). Haritadaki `isg:` 1918-12-07 (A) ile başlıyor; o yerleşim kaydının günü bu çelişkiyi taşıyor (UMIT-W33).",
++    ic_not_d: "AY DÜZEYİ (D213) — OKUMA, seçim değil. Kaynakta iki cümle: (A) 'avea să conducă ceremonialul primirii armatei române în Braşov, avându-l în frunte pe generalul Berthelot în 24 noiembrie - 7 decembrie 1918' (24 Kasım Jülyen = 7 Aralık Gregoryen, TEK gün) · (B) 'manifestările prilejuite de intrarea triumfală a Armatei Române în Braşov pe 10 decembrie 1918'. İkisi de AYNI olayı — Romen ordusunun Brașov'a gelişi ve karşılanışını — tarihliyor: (A) 'ordunun Brașov'da karşılanma töreni', (B) 'ordunun Brașov'a zafer girişi'nin kutlamaları; ayrı bir ikinci giriş anlatılmıyor. Ayrı olay olduklarını gösteren bağımsız kaynak BULUNAMADI (aranan: Brașov kurumları, akademik makale). ⇒ 7 mi 10 mu okunamıyor, ikisinin ortak en kaba güvenli düzeyi AY (Aralık 1918). Haritadaki `isg:` 1918-12-07 (A) ile başlıyordu; P84-BRASSO-TEMESVAR-1006 yerleşim kaydını da AY düzeyine (1918-12-01, kesinlik ay) indirmeyi önerdi (KOORD diff). Bağımsız kurumsal tanık bölge düzeyinde aynı ayı veriyor: MNIR mvu.ro 'The Romanian army entered South East Transylvania at the beginning of December 1918' — şehir günü vermez, 7/10 ayrımını çözmez.",
+     kaynak: "Adevărul (gazete, S. Dan, 01.12.2015 — Şchei Aziz Nikola Kilisesi arşivine dayanarak), 'Brașovul la 1 Decembrie 1918' — (A) 'ceremonialul primirii armatei române în Braşov … în 24 noiembrie - 7 decembrie 1918' · (B) 'intrarea triumfală a Armatei Române în Braşov pe 10 decembrie 1918' — nitelik notu: gazete, ikincil; akademik ikinci kaynak BULUNAMADI"
+   },
+ 
+@@ -317,7 +327,7 @@ window.OLAYLAR_OK109 = [
+     gun: "3 Ağustos 1919",
+     yer: "Temeşvar (Timișoara)",
+     d: "14 Kasım 1918'de Sırp, Aralık başında da Fransız birliklerinin girdiği Timișoara'ya 3 Ağustos 1919 sabahı Albay Virgil Economu komutasındaki Romen ordusunun ilk birlikleri girdi ve şehirde Romen idaresi kuruldu.",
+-    ic_not_d: "Haritada Temeşvar'ın 1918-11-14 → 1919-08-03 Sırp/Fransız işgali YOK (`isg:` yalnız 1919-08-03'te başlıyor). Kaynak o işgali açıkça yazıyor; yerleşim kaydı koordinatörün işi, burada YAZILMADI (UMIT-W33).",
++    ic_not_d: "Temeşvar'ın 1918-11-14 → 1919-08-03 Sırp işgali yerleşim kaydına P84-BRASSO-TEMESVAR-1006 KOORD diff'iyle öneriliyor (sirbistan-kralligi → 1918-12-01 → yugoslavya, Peçuy emsali); başlangıcı 1918-11-14 maddesi karşılar. Fransız birliklerinin ortak varlığı modellenmedi.",
+     kaynak: "Ziua de Vest (gazete, 02.08.2024; 'Ziua Timișoarei', Timișoara belediye meclisi kararı HCL 217/1999) — 'La 14 noiembrie 1918, în Timişoara au intrat unităţile militare sârbe, iar, la începutul lunii decembrie 1918, ele au fost urmate de cele franceze' · 'la 3 august, prin intrarea în oraş a primelor unităţi ale armatei operative române, conduse de colonelul Virgil Economu' — nitelik notu: gazete; gün belediye kararıyla resmî anma günü"
+   },
+ 
+@@ -328,7 +338,7 @@ window.OLAYLAR_OK109 = [
+     yer: "Murska Sobota, Lendava (Alsólendva)",
+     d: "Sırp-Hırvat-Sloven Krallığı birlikleri 12 Ağustos 1919'da Mura nehrinin ötesindeki Prekmurje'ye girdi; bölgede Macar idaresi o gün sona erdi. Hukukî devir 1920 Trianon Antlaşması ile gerçekleşti.",
+     ic_not_d: "ASIL MADDE: data/kronoloji_cok_sirbistan.js · 1919-08-12 · 'SHS ordusu Prekmurje'ye girdi — Mura ötesi Yugoslavya'ya katıldı' (yer_id Murska Sobota; Banac 1984). Bu madde onun Değişmez 2 evrenindeki (olaylar*) KARDEŞİDİR: aynı olay, aynı gün, aynı yer — YENİ KAPSAM DEĞİL. Asıl madde bu kırılmayı karşılamak için yazılmıştı ama dosyası KUYRUK'ta olduğu için kapı onu görmüyordu (UMIT-W33).",
+-    kaynak: "I. Banac, The National Question in Yugoslavia (1984) — Prekmurje'nin işgali, Ağustos 1919 (kardeş madde kronoloji_cok_sirbistan.js'ten) · gün: Hungarian Historical Review 2020/1 (Kosi) ve Studia z Dziejów Rosji i Europy Środkowo-Wschodniej 47 (Zawistowska, 'Prekmurje – separation from Hungary') — yerleşim kaydının `isg:` notundan; bu oturumda OKUNMADI"
++    kaynak: "I. Banac, The National Question in Yugoslavia (1984) — Prekmurje'nin işgali, Ağustos 1919 (kardeş madde kronoloji_cok_sirbistan.js'ten) · gün: J. Kosi, 'Summer of 1919: A Radical, Irreversible, Liberating Break in Prekmurje/Muravidék?', Hungarian Historical Review 9/1 (2020), s. 51 — 'On August 12, 1919, military units of the Kingdom of Serbs, Croats and Slovenes crossed the border with the Kingdom of Hungary and occupied segments of two counties, Vas (Železna in Slovenian) and Zala.' (P84-BRASSO-TEMESVAR-1006'da OKUNDU) · Zawistowska (Studia z Dziejów Rosji i Europy Środkowo-Wschodniej 47): okunmadı"
+   },
+ 
+   {

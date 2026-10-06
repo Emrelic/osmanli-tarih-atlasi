@@ -94,7 +94,7 @@ window.KRONOLOJI_COK_ERMENI = [
   etiket:["idari","konu-idari","konu-sosyal"],
   yer_id:"Revan", gun:"2 Nisan 1828 (TDV revan: 'çarın 2 Nisan 1828 tarihli emri') — takvim belirtilmemiş",
   d:"Türkmençay'dan hemen sonra çarın emriyle Revan ve Nahçıvan hanlıkları kaldırıldı, Ordubad da eklenerek 'Ermeni vilayeti' adıyla yeni bir idari birim oluşturuldu. Bu vilayete hem Osmanlı'dan hem İran'dan önemli sayıda Ermeni göç etti; bölgenin nüfus dengesi bu göçle kalıcı olarak değişmeye başladı. Vilayet 1840'a kadar bu adla anıldı.",
-  ic_not_d:"Göç konusunda TDV'nin dayandığı çalışma: Kemal Beydilli, '1828-1829 Osmanlı-Rus Savaşında Doğu Anadolu'dan Rusya'ya Göçürülen Ermeniler', TTK Belgeler XIII/17 (1988). Rus sayımına göre 1829-1832'de Revan şehrinde 7331 Müslüman, 3937 Ermeni (TDV revan).",
+  ic_not_d:"Göç konusunda TDV'nin dayandığı çalışma: Kemal Beydilli, '1828-1829 Osmanlı-Rus Savaşında Doğu Anadolu'dan Rusya'ya Göçürülen Ermeniler' [TDV: belgeler], TTK Belgeler XIII/17 (1988). Rus sayımına göre 1829-1832'de Revan şehrinde 7331 Müslüman, 3937 Ermeni (TDV revan).",
   kaynak:"TDV revan ('çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi, Ordubâd bu iki hanlığın topraklarına eklenerek Ermeni vilâyeti oluşturuldu. Bölge 1840 yılına kadar bu adla anıldı')" },
 
 { t:"1850-01-01", devlet:"rusya", devletler:["rusya"],
@@ -110,7 +110,7 @@ window.KRONOLOJI_COK_ERMENI = [
   etiket:["siyaset","kurulus","konu-siyasi"],
   yer_id:"Revan", gun:"Mayıs 1918 (TDV sevr-antlasmasi) — GÜN KAYNAKTA YOK; kaba tarih künye penceresinin dışına düştüğü için künyenin günü (28 Mayıs) devralındı. Künye günü bir kaynak DEĞİLDİR",
   d:"Transkafkasya federasyonunun Mayıs 1918'de dağılmasıyla Gürcistan ve Azerbaycan gibi Ermenistan da bağımsız bir cumhuriyet olarak ortaya çıktı ve Erivan başşehir oldu. Osmanlı Devleti Haziran 1918'de başşehri Revan olan Ermenistan'ı tanıdı.",
-  ic_not_d:"Bağımsızlığın günü TDV'de yok (sevr: 'Mayıs 1918'de Erivan'da kurulan Ermenistan Cumhuriyeti'); künyede de kaynak 'bulunamadı'. Osmanlı tanıması Batum Antlaşması'dır (data/kronoloji_cok_1dunya_B.js 1918-06-04) — tekrar yazılmadı.",
+  ic_not_d:"Bağımsızlığın günü TDV'de yok (sevr: 'Mayıs 1918'de Erivan'da kurulan Ermenistan Cumhuriyeti' [TDV: sevr-antlasmasi]); künyede de kaynak 'bulunamadı'. Osmanlı tanıması Batum Antlaşması'dır (data/kronoloji_cok_1dunya_B.js 1918-06-04) — tekrar yazılmadı.",
   kaynak:"TDV sevr-antlasmasi ('Mayıs 1918'de Erivan'da kurulan Ermenistan Cumhuriyeti') + TDV revan ('1918 Haziranında başşehri Revan olan Ermenistan'ı tanıdı')" },
 
 { t:"1919-04-12", devlet:"ermenistan-demokratik-cumhuriyeti", devletler:["ermenistan-demokratik-cumhuriyeti","ingiltere"],
