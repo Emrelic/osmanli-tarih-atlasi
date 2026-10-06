@@ -756,3 +756,112 @@ KAPI: `node --check js/app.js` · `py arac/denetle_arayuz.py` TEMİZ dönmeli ·
 `py arac/denetle.py` çıkış kodu DEĞİŞMEMELİ (bugün 2, tek sebep Değişmez 8).
 BİÇİM: arayüz işi, Emre GÖRECEK ⇒ **diff değil, dalına UYGULA**; merge + damga + yayın bende.
 TESLİM: `denetim/UMIT-YER-ARAMA-KUTUSU-1006.md`, (A)–(J)'nin her birine bir satır.
+
+---
+
+## 13. 🔴 6 EKİM AKŞAMI — KOŞU 21 ve "+25 BİR TAVAN MESELESİ DEĞİL"
+
+### 13.1 KOŞU 21 — `32c5f22e`, on bir yama, Emre'nin kararıyla
+Emre (6 Ekim, UMIT ve HAVVA oturumları): *"H-0020 bant bozukluğunu HAVVA bugün düzeltsin;
+koşu gerekiyorsa koşuyla bugün; koşu 19:00'dan ÖNCE BAŞLATILMAYACAK"* + **yayın YOK**.
+⇒ `Z-0029`un beklediği karar BU. `§9.1②`nin "biriken yamalar TEK SEFERDE girer"ının zamanı.
+```
+18efae1e  MOTOR-BANT-TAM-1005          bantlar İÇ İÇE (halka çıkarması kalktı)
+413867a5  sekiz tuz yaması             V-KID (çökme sigortası) · 0083-B KATMAN-BINME ·
+                                       BOZUK-KIYI (58→22) · BILINEN-ALAN · 93 boya ·
+                                       W54b RENK-TAMINSA (§1.5 HARİTA DELİĞİ 1→0) ·
+                                       DOBROTIC · epok-yorum
+32c5f22e  M1+M2 (1600'ün mühürlü teşhisi)
+PARMAK İZİ: uret_petek 108ec62bd5ec200d · renkler 25be10fa0ea0dbd5 ·
+            girdi 31edf55caf42ac93 · motor_onbellek b9f36f427dc285ce
+ATLANDI: ONCE1281-CISLEITHANIA-RENK-1005 — W54b ile `itilaf-emaneti`de ÇATIŞIYOR
+         (#9e9e9e ↔ #b0863a); ikisi uygulanırsa sözlükte mükerrer anahtar, SESSİZCE
+         son kazanan kalır. Doğrulama: `grep -c '"itilaf-emaneti"'` = 1.
+ARAYÜZ: üç app.js yolunun HİÇBİRİ main'de DEĞİL. Yayın kapalı, ve doğru arayüz
+        koşunun ÜRETECEĞİ bant sözleşmesine bağlı — henüz ölçülmedi.
+        `af7d4e99` revert EDİLMEDİ, yerinde bekliyor.
+```
+🔴 **HAVVA HİÇBİR YAMA UYGULAMIYOR** — `fetch` → `32c5f22e` → koş. Tek aktör uyguladığı
+için sıra riski bir kez çözüldü, ve HAVVA'nın 5 Ekim'deki izin engeli hiç devreye girmedi.
+Bu, "izin aklaması" sorusunu da ortadan kaldırdı: dört tuz dosyası `§7`de koordinatörün.
+
+### 13.2 Yedi önlem — ve ikisi bugüne kadar HİÇ yapılmamıştı
+```
+① MOTOR_SUREC_ISCI=2      HAVVA ölçtü: ISCI=4 → 60,3 GB commit, boş RAM 2 MB
+② kaynak_durum kapat KOSU öteki bekçiler kurulmaz (çıkış 3), CPU/RAM koşuya kalır
+③ boşta claude oturumları ölçüldü: 44 süreç / 5.689 MB — en büyük arka plan tüketicisi
+④ 🔴 BOŞ DİSK             HİÇ ÖLÇÜLMEMİŞTİ. HAVVA ölçtü: 329 GB boş (C: 465/136).
+                          Koşu ~265 MB yazıyor ⇒ pay BİN KAT. Soru kalıcı kapandı.
+⑤ tuz dondu              8 Ağustos: 83 dakika koşup EN SONDA reddedildi
+⑥ C:\atlas-kosu'ya dokunulmaz — KOŞU 20 çıktısı, karşılaştırmanın ÖNCE tabanı
+⑦ restart sonrası ② yeniden ilan
+```
+📌 **SLACK HÜKMÜ (yeni, ve genelleşir):** HAVVA'nın KOŞU 20 ölçüm betiği koşuyla ~3 GB
+paylaşacaktı. Durdurdum, gerekçe **slack hesabı**: betiğin girdisi DEĞİŞMEYEN bir çıktı ve
+sonucu ancak sabah kullanılacak ⇒ **8 saat slack**; koşunun penceresi Emre'nin kararı ve
+~8 saat sürüyor ⇒ **sıfır slack**. Slack'i OLAN sürecin belleğini, slack'i OLMAYANA vermek
+doğrudur. Ve hükmü ölçüme bağladım (fiziksel RAM'in %80'i): HAVVA ölçtü — **23,7 GB**, tepe
+tek başına ~30 GB ⇒ şart İMKÂNSIZ, betik durdu. **Ölçülmüş bir istisna meşru, ölçülmemiş
+bir rahatlık değil.**
+🟢 Ve HAVVA durdurmayı KAZANCA çevirdi: kontrol noktalı sürüm (`bant_olc2.py`) her aşamayı
+diske yazıyor ⇒ koşudan sonra 28 dakikalık kurulum tekrarlanmayacak.
+
+### 13.3 🔴 BUGÜNÜN EN DEĞERLİ ÇERÇEVE DEĞİŞİKLİĞİ — "+25" bir tavan meselesi DEĞİL
+UMIT bir **biriktirme** fark etti: Lugos +2 · Tebriz +1 · Mâzenderan +4 · DEGISMEZ2 +14 ·
+TRAKYA H0015 +4 = **+25** bekleyen 2sk tavan hareketi. Tek tek bakan hiçbir kalem görmezdi.
+Ve LAB'ın ölçümü tuzağı tamamlıyor: **`BEKLENEN_2S_YALNIZ_TARAF` DEKORATİF** ⇒ diff'leri
+tavan oynatmadan indirirsek kapı **ÖTMEZ** ve +25'in tamamı sessiz borç olur; oynatırsak kör
+bir sayıyı güzelleştiririz.
+
+**SONRA LUGOS ÖLÇÜMÜ GELDİ VE İKİ SEÇENEĞİMİN İKİSİNİ DE AŞTI.** Ben (B) *"yeri maddeye
+ekle"* ve *"tavan +2 yaz"* sunmuştum. Ölçüm (B)'yi reddetti — Trianon maddesi (`olaylar_ok109.js:151`)
+`ERDEL` diyor, Banat/Krassó-Szörény **ANILMIYOR** ⇒ yer eklemek tesadüfî kapanma imalatı.
+Birim ölçümü `denetle`nin KENDİ işlevleriyle: Lugos `1918-11-11` YER **0**/TARAF 7 ·
+`1920-06-04` YER **0**/TARAF 1.
+🟢 **Ama raporun YAN KALEMİ asıl çareydi ve ben onu seçeneklere koymamıştım:**
+> *"Banat'ın Trianon devrini ADIYLA anan kaynaklı madde yazılırsa Lugos+Temeşvar+Yanova
+> `1920-06-04` birimleri YER'den kapanır, **tavan DÜŞER**."*
+⇒ **EKSİK MADDEYİ YAZ.** Fark tek cümlede: (B) var olan bir maddeye **ait olmayan** bir yer
+eklerdi; bu ise **ait olduğu maddeyi var ediyor**. İlki tavanı sahte düşürür, ikincisi
+GERÇEKTEN düşürür. `§3.4(3)`ün "kapatan iş"i tam budur — tavan aritmetiği değil, MADDE.
+
+### 13.4 ⇒ 1609'un görevi YENİDEN YAZILDI
+```
+YANLIŞ SORU : "+25'in kaçı gerçekten yalnız-TARAF sınıfı?"   (tavan yazdırır)
+DOĞRU SORU  : her yalnız-TARAF birimi için HANGİ MADDE EKSİK?
+① EKSİK MADDE VAR → yazılır, tavan DÜŞER    (Lugos/Temeşvar/Yanova: Banat devri)
+② madde var, yer o maddenin KONUSU DEĞİL   → tavan hakkı
+③ ÖLÇÜLEMEDİ                                → öyle yazılır
+```
+🔴 **VE SEBEBİ PROJENİN VAR OLMA SEBEBİ:** `CLAUDE.md §1` — *"Amaç kronoloji ile haritanın
+birbirini DOĞRULAMASI; bir madde okunduğunda haritada TAM O DEĞİŞİM görünmeli."*
+**Yalnız-TARAF kapanışı, o doğrulamanın YARIM hâlidir**: değişim var, hangi yerde olduğu
+yazılmamış. ⇒ **+25 bir borç sayısı değil, EKSİK MADDE SAYACI.** Bir tavanı oynatmak o
+sayacı susturur; madde yazmak onu **öder**.
+
+### 13.5 SIRA — üçü de şart, ve 2sk tavanları DONDU
+```
+1. 1609 tek sınıf ölçümü (yeni çerçeveyle) — koşu sağlıklı başladıktan SONRA
+2. BEKLENEN_2S_YALNIZ_TARAF BAĞLANIR (LAB dekoratif olduğunu ölçtü)
+3. ANCAK ONDAN SONRA tavan + diff AYNI commit'lerde (§3.4(2))
+ŞİMDİ İNEBİLİR: her kalemin 2sk'ya DOKUNMAYAN kolları (günler, `isg`, kaynak satırları,
+                çelişki notları, `kaynaksız s:` iyileştirmeleri)
+```
+
+### 13.6 Öteki hükümler
+- **Şema `alinti:` → `ozet:` (a)** — ölçülmüş tüketici listesi (292 satır/44 dosya) KIRILAN
+  tek tüketici gösterdi (`ARAC-ISY-OLCUM-0913.js:46`), o AYNI commit'te. Gerekçe bugünün
+  tırnak hükmünün şema yüzü: `alinti` ADINI taşıyan alan özet tutuyorsa iddia ŞEMA
+  DÜZEYİNDE yapılıyor, ve *"şerh tırnağı kurtarmaz; araç tırnağı SAYAR."*
+  🔴 Repo DIŞI tüketici (W30 `evren.py`) commit mesajına ADIYLA yazılacak.
+- **TEBRIZ KOORD-40** — D7 `733` düz kalıyor (37'lik varyant üç yeni ada üretiyordu).
+- **MÂZENDERAN E, C REDDEDİLDİ** — C `timurlu`yu 1413'e kadar yazıp **deliği kapatmak için
+  sahiplik uyduruyordu**. `__BOSLUK__` bu projenin beyan mekanizması: kaynak `1405-07`
+  sahibini söylemiyorsa atlas da söylemez.
+- **ALINTI-264: 21 "desteksiz" DURDU.** Sebep bir ARAÇ KÖRLÜĞÜ: `ARAC-TDV-CIKARICI-1006.tam()`
+  madde ÖZETİNİ (`div.article_info`) gövdeye katmıyor ⇒ **7 birebir tırnak "YOK" sayılmış.**
+  🔴 Benim *"doğrulanamayan tırnak KALDIRILIR"* kuralımın ÖNKOŞULU çökmüş: gövde eksikse
+  kural DOĞRU alıntıyı yok etmeye başlar. 221 "anlam doğru" indi (metin kalıyor, yalnız
+  tırnak kalkıyor ⇒ kesinlik kaybı, doğruluk kaybı değil); **21 "desteksiz" bekliyor**,
+  çünkü "uydurma" bir kayıt hakkında verilebilecek en ağır hükümdür ve EKSİK gövdeyle
+  verilmez. 1608: çıkarıcı düzeltmesi + **5.888 tırnağın YENİDEN ölçümü** (oran taşınmaz).
