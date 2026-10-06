@@ -959,3 +959,64 @@ ayrımını destekliyor. Sahra'da **berabis** ve **tuareg-adag** TAMAMEN kopuk
 ③=④ aynı küme (523 boş); ölçülen 400'de komşu gövde 266 · deniz 49 · serbest kara 85.
 ⚠️ *"5-7 var, 7-10 yok"* **1205 kayıt SINIFLANMADI** — bu bir eksiklik değil BEYAN,
 öyle yazılacak.
+
+### 14.7 🔴 §14.1'İN DERS ADAYI YANLIŞTI — ve doğrusu daha keskin
+
+§14.1'de *"ROTUS iskelet diff'i HİÇ ÜRETİLMEMİŞTİ"* yazdım ve ondan şu dersi çıkardım:
+*"bende bekleyen diff listesi, diff'in VAR OLDUĞUNU ölçmeden tutulmaz."*
+**İkisi de yanlıştı.** Diff ÜRETİLMİŞTİ (`b747b6a1`, `denetim/ROTUS-ISKELET-1006-KOORD.diff`).
+
+**Niçin yanlış ölçtüm:** bütün dalları taradım — ama taramayı **`git fetch`TEN ÖNCE**
+yaptım. O anda `origin/makine/umit` elimde `d851ee04`tü; fetch'ten sonra `b747b6a1`
+oldu ve diff onun içindeydi. Yani komut doğruydu, **referans bayattı.**
+
+🔴 **DOĞRU DERS (ders adayı, `D268` sırası):**
+> `git log --all` ve dal taraması **ELDEKİ referansları** tarar. `fetch`ten ÖNCE
+> yapılan "hiçbir dalda yok" ölçümü **YOKLUK KANITI DEĞİLDİR** — ve en sinsi
+> yanı, komutun kendisi kusursuz görünür: hata çıktıda değil ZAMANDA.
+
+**Ölçülen bedel:** aynı iskelet iki kez yazıldı (benim 46 satır, kıtanın 39 satır) ve
+`index.html`e **iki yükleme satırı** girdi. ⚠️ Ve **git çatışma GÖRMEDİ** çünkü satırlar
+ayrı bölgelerdeydi: *sessiz mükerrer*. Çatışmasız merge "sorun yok" demek değildir.
+Düzeltildi: kıtanın sürümü kaldı (şeması `js/rotus.js` + `arac/rotus_coz.js` +
+Değişmez R ile uyumlu; benimki boya kimliği kurallarını ve `sonuc` sözlüğünü bilmiyordu).
+
+### 14.8 🆕 KITA KİMLİK DEFTERİ — `local_…` KALICI, `[ref]` DEĞİL
+
+Bugün dondurma duyurusunu `UMIT [c209ba]`ya yazdım; o oturum haklı olarak *"ROTUS'u,
+P21/P22'yi ben yazmadım"* dedi. **Ad, kimlik değildir** ve `defter.py cakisma` tam bu
+yüzden var — ona bakmadan adla yazdım.
+UMIT İRTİBAT'ın verdiği kalıcı kimlikler (`[ref]` oturum yeniden açılınca DEĞİŞİR,
+`local_…` değişmez):
+
+| iş | kıta adı | KALICI kimlik |
+|---|---|---|
+| P21 KELIME-CAKISMA-YER-1006c | `KELIME-CAKISMA-YER-1006` | `local_5ae59356-9a54-4b11-8bbf-770f23725f49` |
+| P22 TEK-EKSIK-BUHARA-1006b | `TEK-EKSIK-KOVA-1006` | `local_9aa7f959-a3c6-47f9-97da-accbc2bc7ef7` |
+| ROTUS mekanizma + iskelet | `P84-ROTUS-TASARIM-1006` | `local_85c1ea5b-64ff-4a82-8b27-98f771577f00` |
+| uygulayan/commitleyen | `UMIT İRTİBAT` | `[4a70c3]` (alt koordinatör) |
+
+🔴 **UMIT kıtalarında BEKÇİ YOK ve bu BİLİNÇLİ** (`GOREV-ORTAK §1.4`): tahta makineler
+arası taşımadığı için görev/teslim `SendMessage` ile, alt koordinatör üzerinden gider.
+⇒ Koşu sonrası rötuş yamaları ya `UMIT İRTİBAT`a ya doğrudan
+`local_85c1ea5b-64ff-4a82-8b27-98f771577f00`a yazılır. **Tahtaya yazmak o kıtayı
+UYANDIRMAZ.**
+⚠️ Ve `[c209ba]`, irtibatın defterinde `[0f4e0e]` görünüyordu — iki makine aynı oturumu
+farklı ref ile görüyor. ⇒ **`[ref]` makineye özeldir, `local_…` evrenseldir.**
+
+### 14.9 LAB BİRLEŞTİRMESİ — tahta çatışmasının doğru çaresi
+
+`git merge origin/makine/lab` `oturumlar/TAHTA.md` + `tahta.json`da ÇATIŞTI.
+🔴 Ve ben bunu ilk anda GÖRMEDİM: komut arka plana düştü, ben çıktının yalnız `tail`ine
+baktım, `CONFLICT` satırı BAŞTAYDI. Kapı çatışmış ağaçta koştu (verisi etkilenmedi ama
+hüküm o anda eksik dayanaklıydı).
+⇒ **Arka plan çıktısında `tail` yetmez: hüküm sonda, ARIZA başta olabilir.**
+
+Çare: merge İPTAL. Sonra ölçtüm — LAB'in `denetim/LAB-TAVAN-TEL-1006.md`si main'dekiyle
+**BİREBİR AYNI** ⇒ LAB'in main'e girecek işi YOK, yalnız iki tahta mesajı (M-5715/M-5716)
+var. 17,5 MB'lık `tahta.json`u elle birleştirmek yerine dalda bırakıldı ve içerikleri
+**dalından okundu** (M-5716: LAB yeni denetim görevi istiyor ⇒ kaynaksızlık geçiş dosyası
+görevi verildi). Bilgi kaybı YOK.
+⚠️ `git diff --name-only HEAD origin/makine/lab` bu soruya CEVAP VERMEZ: LAB main'den
+1012 commit geride olduğu için main'in SAHİP OLDUĞU her şeyi listeler (54 KB çıktı).
+Doğru soru `git diff <dalın dosyası> <HEAD'in dosyası>` — tek dosya, tek cevap.
