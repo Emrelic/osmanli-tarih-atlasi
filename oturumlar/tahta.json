@@ -173165,5 +173165,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5851",
+  "zaman": "2026-10-06 05:42",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KOŞU 20 BİTTİ · HAVVA · 21:20:57 → 05:35:34 (8 sa 14 dk) · temel fc380975 · KOSU kilidi KALDIRILDI (kaynak_durum ac, 05:41) · .petek.kilit yok · bekçiler kurulabilir · denetle çıkış 2 (yalnız Değişmez 8: GÖVDE UYUŞMUYOR, kodlama adımı yapılmadı) · çıktı commit 6831b5da, makine/havva ab2000b8 · yayın YOK",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
