@@ -1809,3 +1809,44 @@ anahtarın BULUNMASI şart, ve `renkler.py` motor tuzunda.
 getirilemez — ne renk ekleyerek (tuz ⇒ yeni koşu) ne veri değiştirerek (geometri çoktan
 pişti). ⇒ ⑳'daki üç şık AYNEN geçerli; eklenecek dördüncü şık yok. Önerim hâlâ ③
 (kısıtlı yayın + beyan), ve artık beyan edilecek şey TEK BİR KÜNYENİN ADI.
+
+
+## ㉑ KAPSAM KARARI — Osmanlı'nın 15 ÇOK TARAFLI maddesi çekirdeğe alınsın mı?
+W37 ölçtü: `KRONOLOJI_COK_*` dosyalarında Osmanlı'nın taraf olduğu **15 madde** var ve
+bunlar şu an çekirdek kronolojiye (Osmanlı 1281-1923, gün hassasiyetli katman) DAHİL DEĞİL.
+⇒ Bu bir kusur değil, bir **KAPSAM** sorusu: çok taraflı bir olayın Osmanlı yüzü,
+Osmanlı çekirdeğinde de görünmeli mi, yoksa yalnız çok taraflı katmanda mı kalmalı?
+**Ben karar vermiyorum** — `§1.6`nın yedi boyutu ve evren tanımı senin kararın (24 Eylül'de
+Değişmez 2 evrenini sen belirlemiştin: 10 `kronoloji_sinir*` dosyası).
+```
+① ÇEKİRDEĞE AL    Osmanlı kronolojisi zenginleşir, kullanıcı o 15 olayı padişah kartının
+                  yanında görür. Bedeli: Değişmez 2 evreni büyür, 15 madde senkron
+                  borcu doğurabilir.
+② OLDUĞU GİBİ     Çok taraflı katmanda kalır, künye sekmesinden görünür. Bedeli:
+                  çekirdek okuyucu o 15 olayı HİÇ görmez.
+```
+📌 Bağlantılı ve AYNI aileden bir soru (ben açmıyorum, ikisi birlikte karar verilmeli):
+**`kronoloji_cok_*` dosyaları Değişmez 2 evreninde OLMALI MI?** Bugün değil, ve bu yüzden
+W33 Prekmurje için evrene "kardeş madde" yazmak zorunda kaldı — aynı olayın ikinci kaydı.
+Evren genişlerse o kardeş maddeye hiç gerek kalmaz.
+
+## ㉒ ⑭'ün MEKANİZMASI BULUNDU — ameliyattan önce bilmen gereken tek şey
+`SABAH ⑭`te UMIT'in deposunun 01:28'den beri rebase ortasında kaldığını yazmıştım; **niçin**
+olduğu şimdi ölçüldü (W50, gerçek bir bare uzakla 7 senaryo):
+```
+tahta.py:557-570  "ULAŞMIŞ" hükmünü YALNIZ yerel `git log HEAD -40`tan veriyor,
+                  UZAĞI HİÇ OKUMUYOR ⇒ eski kodda 5 ayrı hata:
+                  hook reddi · TEYİT reddi · detached HEAD → üçünde de YANLIŞ "ULAŞMIŞ"
+                  makine dalına BAŞARILI push → yanlış ALARM
+                  🔴 `pull --rebase` ÇAKIŞINCA depo REBASE ORTASINDA KALIYOR
+                     = C:\atlas'ın 01:28 hâli BİREBİR
+```
+⚠️ **"Sebep bu" demiyorum — W50 da demiyor:** birebir benzerlik nedensellik değildir, bu bir
+ÇIKARIM. Ama ameliyatı yaparken bunu bilmen işine yarar: **çare elimizde**
+(`TAHTA-ULASTI-1006`, yeni kod 7/7) ve inmeden `tahta.py` aynı durumu yeniden üretebilir.
+⇒ Sıra önerim: ⑭'ü koştur (depoyu kurtar) → `TAHTA-GIT-YARIM-1006` + `TAHTA-ULASTI-1006`
+insin (tekrarı kessin). İkincisi bende, senden onay istemiyorum; yalnız sıranın sebebini
+bilmen için yazdım.
+📌 Ek kalem (bende): `tahta.py yaz` ULAŞMADI durumunda hâlâ **çıkış 0** veriyor. Düzeltilmesi
+gerek ama önce `yaz`ı çağıran betikler taranacak — bugün çıkış kodunu okuyan ne varsa yarın
+ötmeye başlayacak, ki amaç bu, ama kimin öteceğini bilmeden indirmem.
