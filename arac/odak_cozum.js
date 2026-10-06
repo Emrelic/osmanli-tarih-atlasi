@@ -30,6 +30,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 function oku(yol) {
   return fs.readFileSync(yol, "utf8");
@@ -208,6 +209,12 @@ function sekmeSinifi(o, kid) {
   const s = siniflandir(o);
   if (s === "KONUMLU") return null;                    // haritayiOlayaGotur dalı
   if (s === "KUTULU") return "KUTU";
+  return sekmeKutusuz(o, kid);
+}
+// Odak kutusu YOKSA hangi sınıf — `sekmeSinifi`nin kuyruğu. Ayrı işlev, çünkü
+// kapının sınavı bir KUTU çiftinin kutusu düşünce SESSİZ'e mi düştüğünü sorar
+// (`denetim/ODAK-KAPI-KIMLIK-SINAV-1006.py` E1b). Mantık TEK yerde kalır.
+function sekmeKutusuz(o, kid) {
   if (!GOVDE) return "OLCULEMEDI";
   const k = kunyeIx[kid];
   const hid = (k && k.harita) || kid, g = gunSay(o.t);
@@ -228,6 +235,27 @@ function sekmeKunyeleri(degisken, o) {
   }
   const ids = o.taraflar || o.devletler || (o.devlet ? [o.devlet] : []);
   return ids.filter(function (id) { return kunyeIx[id]; });
+}
+
+// ---- ⑥c MADDE KİMLİĞİ (ODAK-KAPI-KIMLIK-1006) — dosyadan BAĞIMSIZ ----------
+// Kapı artık SAYI değil KİMLİK LİSTESİ karşılaştırır (`odak_olc.kapi_olcumu`).
+// Sebep ölçüldü (`denetim/ODAK-KAPI-KORLUK-1006.md`): sayı tavanı dosyalar
+// arası göçü göremiyordu — bir dosyadaki gerileme, başka bir dosyadan çıkan
+// maddeyle 1'e 1 sıfırlanıyordu (E3c/E3e); taşınan beyanlı kusur ise "yeni"
+// diye ötüyordu (E4).
+// Kimlik = t + "|" + NFC(b).trim(). Açık `id` alanı yok (10.026 maddede 0).
+// Dosya içi ikiz 0; dosyalar arası 52 ikiz grubu AYNI maddenin kopyasıdır
+// (W37 ekleyicisinin dedupe ölçütü de t + b) ⇒ ÇOKLU KÜME olarak sayılır,
+// taraf eklenmez. Kimlik BURADA üretilir, Python yalnız karşılaştırır:
+// normalleştirme tek yerde durur.
+function kimlik(o) {
+  return String(o.t) + "|" + String(o.b || "").normalize("NFC").trim();
+}
+// Evren özeti: maddenin dondurma anında VAR olup olmadığını sormak için
+// (yeni dosyaya taşınıp aynı anda bozulan madde YENİ KAPSAM sayılmasın).
+// 8 hex: çakışma "vardı" yönüne düşer ⇒ kapı ÖTER (kapalıya düşer).
+function ozet8(k) {
+  return crypto.createHash("sha1").update(k, "utf8").digest("hex").slice(0, 8);
 }
 
 // ---- ⑦ dosyaları tara ---------------------------------------------------
@@ -260,31 +288,40 @@ G.dosyalar.forEach(function (ad) {
   const kusurlar = [];
   const odaksiz = [];
   const sekme = { GOVDE: 0, KUTU: 0, TABI_KUTU: 0, SESSIZ: 0, OLCULEMEDI: 0 }, sessiz = [];
+  const beyanli = [], kutu = [], k8 = [];
   kayit.forEach(function (o) {
     if (!o || typeof o !== "object") return;
+    const mk = kimlik(o);
+    k8.push(ozet8(mk));
+    const sk = [];
     sekmeKunyeleri(degisken, o).forEach(function (kid) {
       const ss = sekmeSinifi(o, kid);
       if (!ss) return;
       sekme[ss]++;
-      if (ss === "SESSIZ") sessiz.push({ kunye: kid, t: o.t, b: String(o.b || "").slice(0, 80) });
+      sk.push([kid, ss]);
+      // KUTU çifti: odak kutusu düşerse ne olurdu (sınavın E1b adayı; bilgi)
+      if (ss === "KUTU") kutu.push({ kunye: kid, k: mk, kutusuz: sekmeKutusuz(o, kid) });
+      if (ss === "SESSIZ") sessiz.push({ kunye: kid, t: o.t, b: String(o.b || "").slice(0, 80), k: mk });
     });
     const r = cozum(o);
+    if (r.sinif === "BEYANLI") beyanli.push({ k: mk, sk: sk });
     s[r.sinif]++;
     if (r.kusur.length) {
       r.kusur.forEach(function (k) {
         kusurlar.push({ t: o.t, b: String(o.b || "").slice(0, 80),
                         alan: k.alan, deger: k.deger, niye: k.niye,
-                        sinif: r.sinif });
+                        sinif: r.sinif, k: mk });
       });
     }
     if (r.sinif === "ODAKSIZ") {
       odaksiz.push({ t: o.t, b: String(o.b || "").slice(0, 90),
-                     yer_id: o.yer_id || null, onem: o.onem, dunya: o.dunya });
+                     yer_id: o.yer_id || null, onem: o.onem, dunya: o.dunya, k: mk });
     }
   });
   cikti.dosyalar.push({ dosya: ad, madde: kayit.length, sinif: s,
                         kusur: kusurlar, odaksiz: odaksiz,
-                        sekme: sekme, sekme_sessiz: sessiz });
+                        sekme: sekme, sekme_sessiz: sessiz,
+                        beyanli: beyanli, sekme_kutu: kutu, k8: k8 });
 });
 
 process.stdout.write(JSON.stringify(cikti));

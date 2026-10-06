@@ -85,7 +85,10 @@ def gecici_kok():
     for f in os.listdir(d):
         if (f.endswith(".js") and (f.startswith("kronoloji_")
                                    or f.startswith("olaylar")
-                                   or f in ("devletler.js", "hukuki_sinirlar.js"))):
+                                   or f in ("devletler.js", "hukuki_sinirlar.js",
+                                            # sekme dalı (GOVDE) bunu okur; yoksa
+                                            # kapı ÖLÇÜLEMEDİ der (ODAK-KAPI-KIMLIK-1006)
+                                            "devlet_harita_ust.js"))):
             shutil.copy2(os.path.join(d, f), os.path.join(gk, "data", f))
     shutil.copy2(os.path.join(KOK, "js", "suzgec.js"),
                  os.path.join(gk, "js", "suzgec.js"))
