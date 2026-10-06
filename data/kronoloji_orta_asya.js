@@ -118,7 +118,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   etiket:["askeri","savas","toprak-kazanc","konu-askeri"],
   yer_id:"Suzdal",
   d:"1444 sonbaharında açılan ikinci Moskova seferi 7 Temmuz 1445'te Suzdal civarındaki meydan savaşıyla sonuçlandı: Ruslar yeniden yenildi, Büyük Knez Vasili ve kardeşi Mihail esir düştü. Vasili, o çağ için çok büyük bir yekûn tutan 200.000 ruble fidye ödemek zorunda kaldı. Kazan Hanlığı bu tarihten itibaren bağımsız bir devlet statüsüne kavuşmuş sayılır.",
-  kaynak:"kazan-hanligi (TDV — 'Kazan kuvvetleriyle Moskova ordusu arasında Suzdal şehri civarında vuku bulan meydan savaşı')" },
+  kaynak:"kazan-hanligi (TDV — '7 Temmuz 1445’te Kazan kuvvetleriyle Moskova ordusu arasında Suzdal şehri civarında vuku bulan meydan savaşında Ruslar yeniden mağlûp oldular')" },
 
 { taraflar:["kazan"], t:"1445-08-01", b:"Kāsım Hanlığı'nın kurulmasına Moskova rıza gösterdi", tur:"kurulus", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","antlasma","hanedan","konu-siyasi","konu-diplomasi","konu-hanedan"],
