@@ -1,0 +1,1511 @@
+# govde 2fe8ada77 · site damgali geometri 0ef2d3e2 · yontem: etiket sehri o gunun karsi yaka agacindan cikarilir, her ornek D8 ile BIREBIR (lon/lat duzleminde) ikinci en yakina gider; >=5 km2 alan alan her yeni etiket bir anahtar · sinav: 99d3eacc8'de Lugos anahtari icin Orsova+Tirgu Jiu (+1) ongorulup 8b95eeb63'te gerceklesti
+anahtar(hat|gun|yan|etiket)	parca_sayisi	parcalar_arasi_max_km	etiket_sehri_parca_medyan_km_min	etiket_sehri_parca_medyan_km_max	etiket_kaybinda_yeni_etiket_sayisi	sayac_artisi	etiket_kaybinda_yeni_etiketler
+d1829-osm-rus-1|1878-07-12|sag|Posof	1	0	13	13	6	5	Ardahan;Hanak;Makhalak’auri;Saylıca;Ts’q’altbila;Zazalo
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Posof	1	0	14	14	6	5	Hanak;Makhalak’auri;Saylıca;Ts’q’altbila;Zazalo;Şavşat
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Yaş	1	0	48	48	5	4	Birlad (Bârlad);Hotin;Orhei;Roman;Soroka (Soroca)
+d1923-fransiz-gine-sierra-leone|1923-10-28|sol|Falaba	1	0	79	79	5	4	Beyla;Bisandugu;Konakri (Conakry);Nzerekore;Timbo
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Digor	1	0	19	19	5	4	Arpaçay (Akyaka);Iğdır;Kliçatak (Suser);Küçükperveli;Norapat
+g3-bg-ro-dobruca-p4|1913-08-09|sag|Köstence	1	0	84	84	5	4	Babadağı (Babadag);Buzău;Bükreş;Yergöğü (Giurgiu);İbrail
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Banyo	2	131	54	120	4	3	Ngaunder (Ngaoundéré);Tibati;Vukari (Wukari);Yola
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Banyo	2	131	54	120	4	3	Ngaunder (Ngaoundéré);Tibati;Vukari (Wukari);Yola
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Banyo	2	131	54	120	4	3	Ngaunder (Ngaoundéré);Tibati;Vukari (Wukari);Yola
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Banyo	2	131	54	120	4	3	Ngaunder (Ngaoundéré);Tibati;Vukari (Wukari);Yola
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Banyo	2	131	54	120	4	3	Ngaunder (Ngaoundéré);Tibati;Vukari (Wukari);Yola
+d1829-osm-rus-1|1878-07-12|sag|Arpaçay (Akyaka)	1	0	26	26	4	3	Ahılkelek (Akhalkalaki);Hanak;Kars;Küçükperveli
+d1829-osm-rus-1|1878-07-12|sag|Hanak	1	0	14	14	4	3	Ardahan;Arpaçay (Akyaka);Posof;Ts’q’altbila
+d1829-osm-rus-2|1878-07-12|sag|Arpaçay (Akyaka)	1	0	16	16	4	3	Ahılkelek (Akhalkalaki);Hanak;Kars;Küçükperveli
+d1829-osm-rus-2|1878-07-12|sag|Digor	1	0	15	15	4	3	Arpaçay (Akyaka);Kars;Kliçatak (Suser);Küçükperveli
+d1829-osm-rus-2|1878-07-12|sag|Küçükperveli	1	0	12	12	4	3	Arpaçay (Akyaka);Digor;Gümrü (Aleksandropol);Kliçatak (Suser)
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Kahul (Cahul)	1	0	35	35	4	3	Birlad (Bârlad);Bolgrad (Bolhrad);Kalas (Galatz);Orhei
+d1885-nijerya-kamerun-genel|1913-03-10|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1891-guneyrodezya-mozambik-bsac|1923-09-30|sol|Umtali (Mutare)	1	0	68	68	4	3	Massangena;Sena;Sofala;Tete
+d1913-nijerya-kamerun-almanya|1913-03-11|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1913-nijerya-kamerun-almanya|1916-02-17|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1916-nijerya-kamerun-isgal|1916-02-18|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1923-ca-us-dogu|1867-07-01|sag|Kahnawake	1	0	50	50	4	3	Falmouth (Portland, Maine);Fort Orange (Albany);Mohawk (Kayenlaha'ke);Portsmouth (New Hampshire)
+d1923-ca-us-dogu|1867-07-01|sol|Fort St. Pierre (Rainy Lake)	1	0	61	61	4	3	Duluth (Fond du Lac);Fort Alexander (Bas-de-la-Rivière);Lac Seul;Pembina
+d1923-ca-us-dogu|1923-10-28|sag|Kahnawake	1	0	50	50	4	3	Falmouth (Portland, Maine);Fort Orange (Albany);Mohawk (Kayenlaha'ke);Portsmouth (New Hampshire)
+d1923-ca-us-dogu|1923-10-28|sol|Fort St. Pierre (Rainy Lake)	1	0	61	61	4	3	Duluth (Fond du Lac);Fort Alexander (Bas-de-la-Rivière);Lac Seul;Pembina
+d1923-guney-rodezya-mozambik|1923-10-01|sol|Umtali (Mutare)	1	0	68	68	4	3	Massangena;Sena;Sofala;Tete
+d1923-guney-rodezya-mozambik|1923-10-28|sol|Umtali (Mutare)	1	0	68	68	4	3	Massangena;Sena;Sofala;Tete
+d1923-malavi-mozambik|1907-01-01|sag|Mankhamba (Maravi)	1	0	76	76	4	3	Blantyre;Mangoçi;Zomba;Çipata (Fort Jameson)
+d1923-malavi-mozambik|1923-10-28|sag|Mankhamba (Maravi)	1	0	76	76	4	3	Blantyre;Mangoçi;Zomba;Çipata (Fort Jameson)
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Eski Kalabar	1	0	91	91	4	3	Aroçukvu;Bonny;Makurdi;Vukari (Wukari)
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Arpaçay (Akyaka)	1	0	17	17	4	3	Ahılkelek (Akhalkalaki);Digor;Hanak;Küçükperveli
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Beri	1	0	15	15	4	3	Eçmiyadzin;Iğdır;Revan;Şerur (Sharur)
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Küçükperveli	1	0	12	12	4	3	Arpaçay (Akyaka);Digor;Gümrü (Aleksandropol);Kliçatak (Suser)
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Hanak	1	0	13	13	4	3	Arpaçay (Akyaka);Posof;Ts’q’altbila;Şavşat
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Saylıca	1	0	13	13	4	3	Artvin;Hulo (Acara);Makhalak’auri;Şavşat
+d1923-us-mx-gadsden|1923-10-28|sag|Yuma geçidi (La Purísima Concepción)	1	0	79	79	4	3	Fort Mohave (Kolorado geçidi);Prescott / Yavapai;San Diego (Misyon San Diego de Alcalá);Tubac
+dg4-hab-ch-lombardiya|1815-06-09|sag|Feldkirch	1	0	74	74	4	3	Bergamo;Bregenz;Landeck;Milano
+g4-bna-us-dogu|1842-01-01|sag|Kahnawake	1	0	50	50	4	3	Falmouth (Portland, Maine);Fort Orange (Albany);Mohawk (Kayenlaha'ke);Portsmouth (New Hampshire)
+g4-bna-us-dogu|1842-01-01|sol|Fort St. Pierre (Rainy Lake)	1	0	61	61	4	3	Duluth (Fond du Lac);Fort Alexander (Bas-de-la-Rivière);Lac Seul;Pembina
+g4-bna-us-dogu|1867-06-30|sag|Kahnawake	1	0	50	50	4	3	Falmouth (Portland, Maine);Fort Orange (Albany);Mohawk (Kayenlaha'ke);Portsmouth (New Hampshire)
+g4-bna-us-dogu|1867-06-30|sol|Fort St. Pierre (Rainy Lake)	1	0	61	61	4	3	Duluth (Fond du Lac);Fort Alexander (Bas-de-la-Rivière);Lac Seul;Pembina
+d1923-angola-kuzey-rodezya-barotseland|1911-05-17|sol|Kazombo	2	200	132	139	3	2	Kangamba;Luena (Moxico);Saurimo
+d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sol|Kazombo	2	200	132	139	3	2	Kangamba;Luena (Moxico);Saurimo
+d1923-ca-us-dogu|1867-07-01|sol|Quebec	2	186	110	182	3	2	Madawaska (Maliseet);Tadoussac;Trois-Rivières
+d1923-ca-us-dogu|1923-10-28|sol|Quebec	2	186	110	182	3	2	Madawaska (Maliseet);Tadoussac;Trois-Rivières
+d1923-ch-de|1879-06-24|sag|Konstanz	2	37	20	43	3	2	Freiburg;Stuttgart;Ulm
+d1923-ch-de|1923-10-28|sag|Konstanz	2	37	20	43	3	2	Freiburg;Stuttgart;Ulm
+d1923-orta-afrika-cumhuriyeti-belcika-kongo|1910-01-15|sol|Bangi (Bangui)	2	69	44	106	3	2	Bambari;Bossangoa;İmpfondo
+d1923-orta-afrika-cumhuriyeti-belcika-kongo|1923-10-28|sol|Bangi (Bangui)	2	69	44	106	3	2	Bambari;Bossangoa;İmpfondo
+g4-bna-us-dogu|1842-01-01|sag|Detroit (Fort Pontchartrain du Détroit)	2	81	26	80	3	2	Fort Duquesne (Pittsburgh);Kekionga (Miami);Ossossané
+g4-bna-us-dogu|1842-01-01|sol|Quebec	2	186	110	182	3	2	Madawaska (Maliseet);Tadoussac;Trois-Rivières
+g4-bna-us-dogu|1867-06-30|sol|Quebec	2	186	110	182	3	2	Madawaska (Maliseet);Tadoussac;Trois-Rivières
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Hotin	1	0	43	43	3	2	Roman;Soroka (Soroca);Yaş
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Kalas (Galatz)	1	0	23	23	3	2	Kahul (Cahul);İbrail;İshakçı (Isaccea)
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Orhei	1	0	66	66	3	2	Birlad (Bârlad);Kahul (Cahul);Yaş
+d1878-ru-ro-tuna-sovyet-rk|1918-04-07|sol|Bolgrad (Bolhrad)	1	0	20	20	3	2	Kahul (Cahul);İshakçı (Isaccea);İsmail
+d1878-ru-ro-tuna-sovyet-rk|1918-04-07|sol|İshakçı (Isaccea)	1	0	17	17	3	2	Bolgrad (Bolhrad);Kalas (Galatz);İsmail
+d1878-ru-ro-tuna-sovyet-rk|1918-04-07|sol|İsmail	1	0	14	14	3	2	Bolgrad (Bolhrad);Kili;İshakçı (Isaccea)
+d1886-angola-almanya-swa|1915-07-08|sag|Rundu	1	0	73	73	3	2	Grutfontein;Katima Mulilo;Tsumeb
+d1886-angola-almanya-swa|1915-07-08|sol|Kuangar	1	0	56	56	3	2	Kuito Kuanavale;Mavinga;Menongue
+d1891-guneyrodezya-mozambik-bsac|1891-06-11|sol|Umtali (Mutare)	1	0	106	106	3	2	Sena;Sofala;Tete
+d1892-liberya-fildisi-sahili-cavalla|1910-12-31|sag|Zwedru	1	0	70	70	3	2	Gbarnga;Grand Cess (Kru);Harper
+d1908-bg-bagimsiz-eski|1908-10-05|sol|Malak Dervent (Lalkovo)	1	0	10	10	3	2	Elhova (Elhovo);Lalapaşa;Umur Fakih (Fakia)
+d1908-bg-bagimsiz-eski|1909-04-18|sol|Malak Dervent (Lalkovo)	1	0	10	10	3	2	Elhova (Elhovo);Lalapaşa;Umur Fakih (Fakia)
+d1909-osm-bg-eski|1909-04-19|sol|Malak Dervent (Lalkovo)	1	0	10	10	3	2	Elhova (Elhovo);Lalapaşa;Umur Fakih (Fakia)
+d1909-osm-bg-eski|1913-05-29|sag|Kofçaz	1	0	10	10	3	2	Dereköy (Kırklareli);Kırklareli;Lalapaşa
+d1909-osm-bg-eski|1913-05-29|sag|Lalapaşa	1	0	11	11	3	2	Edirne;Havsa;Kofçaz
+d1913-sr-mn|1918-11-25|sag|Yenipazar (Novi Pazar)	1	0	55	55	3	2	Prizren;Vişegrad;Çaçak
+d1916-burundi-tanganyika-isgal|1922-07-19|sol|Gitega (Burundi)	1	0	95	95	3	2	Bucumbura;Kigali;Nyanza (Ruanda)
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Yola	1	0	83	83	3	2	Banyo;Garua (Garoua);Ngaunder (Ngaoundéré)
+d1918-fr-de-isgal|1918-11-11|sol|Colmar	1	0	15	15	3	2	Freiburg;Mulhouse;Strazburg
+d1918-fr-de-isgal|1918-11-11|sol|Strazburg	1	0	27	27	3	2	Colmar;Freiburg;Saarbrücken
+d1918-it-at-ateskes-2|1918-11-12|sol|Landeck	1	0	56	56	3	2	Bregenz;Feldkirch;Innsbruck
+d1918-it-at-ateskes-2|1919-12-31|sol|Landeck	1	0	56	56	3	2	Bregenz;Feldkirch;Innsbruck
+d1918-it-hab-ateskes-2|1918-11-03|sol|Landeck	1	0	56	56	3	2	Bregenz;Feldkirch;Innsbruck
+d1918-it-hab-ateskes-2|1918-11-10|sol|Landeck	1	0	56	56	3	2	Bregenz;Feldkirch;Innsbruck
+d1919-hu-cs-fiili-1|1919-07-25|sol|Vaç (Vác)	1	0	46	46	3	2	Estergon;Fülek (Fiľakovo);Léva (Levice)
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Yola	1	0	83	83	3	2	Banyo;Garua (Garoua);Ngaunder (Ngaoundéré)
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Yola	1	0	83	83	3	2	Banyo;Garua (Garoua);Ngaunder (Ngaoundéré)
+d1923-al-yu-kosova|1921-11-09|sag|Prizren	1	0	41	41	3	2	Debre (Dibra);Podgorica;Yenipazar (Novi Pazar)
+d1923-al-yu-kosova|1923-10-28|sag|Prizren	1	0	41	41	3	2	Debre (Dibra);Podgorica;Yenipazar (Novi Pazar)
+d1923-angola-guneybati-afrika|1920-12-17|sag|Rundu	1	0	73	73	3	2	Grutfontein;Senanga;Tsumeb
+d1923-angola-guneybati-afrika|1920-12-17|sol|Kuangar	1	0	56	56	3	2	Kuito Kuanavale;Mavinga;Menongue
+d1923-angola-guneybati-afrika|1923-10-28|sag|Rundu	1	0	73	73	3	2	Grutfontein;Senanga;Tsumeb
+d1923-angola-guneybati-afrika|1923-10-28|sol|Kuangar	1	0	56	56	3	2	Kuito Kuanavale;Mavinga;Menongue
+d1923-angola-kuzey-rodezya-barotseland|1911-05-17|sag|Kalabo	1	0	109	109	3	2	Lealui (Lozi);Senanga;Zambezi (Balovale)
+d1923-angola-kuzey-rodezya-barotseland|1911-05-17|sag|Senanga	1	0	142	142	3	2	Kalabo;Lealui (Lozi);Seşeke (Sesheke)
+d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sag|Kalabo	1	0	109	109	3	2	Lealui (Lozi);Senanga;Zambezi (Balovale)
+d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sag|Senanga	1	0	142	142	3	2	Kalabo;Katima Mulilo;Lealui (Lozi)
+d1923-be-de|1920-01-10|sol|St. Vith (Sankt Vith)	1	0	32	32	3	2	Arlon;Bastogne;Liège
+d1923-be-de|1923-10-28|sol|St. Vith (Sankt Vith)	1	0	32	32	3	2	Arlon;Bastogne;Liège
+d1923-be-fr|1839-04-19|sol|Mons	1	0	41	41	3	2	Brüksel;Namur;Tournai
+d1923-be-fr|1923-10-28|sol|Mons	1	0	41	41	3	2	Brüksel;Namur;Tournai
+d1923-be-nl-2|1839-04-19|sag|Maastricht	1	0	28	28	3	2	Nijmegen;Utrecht;Wiltz
+d1923-be-nl-2|1839-04-19|sol|Anvers (Antwerpen)	1	0	50	50	3	2	Brüksel;Gent;Liège
+d1923-be-nl-2|1923-10-28|sol|Anvers (Antwerpen)	1	0	50	50	3	2	Brüksel;Gent;Liège
+d1923-br-py-1|1889-11-15|sag|Tacuatí (Ypané)	1	0	115	115	3	2	Asunción;Fuerte Olimpo (Borbón);Lengua misyonu (Paraguay Chaco)
+d1923-br-py-1|1923-10-28|sag|Tacuatí (Ypané)	1	0	115	115	3	2	Asunción;Fuerte Olimpo (Borbón);Lengua misyonu (Paraguay Chaco)
+d1923-br-py-1|1923-10-28|sol|Catanduvas (Paraná)	1	0	164	164	3	2	Bonito (Mato Grosso do Sul);Nonohay (Yukarı Uruguay);São Pedro de Alcântara (Tibagi)
+d1923-burundi-tanganyika|1922-07-20|sol|Gitega (Burundi)	1	0	95	95	3	2	Bucumbura;Kigali;Nyanza (Ruanda)
+d1923-burundi-tanganyika|1923-10-28|sol|Gitega (Burundi)	1	0	95	95	3	2	Bucumbura;Kigali;Nyanza (Ruanda)
+d1923-ca-us-dogu|1867-07-01|sol|Madawaska (Maliseet)	1	0	73	73	3	2	Listuguj (Restigouche);Saint John (NB);Tadoussac
+d1923-ca-us-dogu|1923-10-28|sol|Madawaska (Maliseet)	1	0	73	73	3	2	Listuguj (Restigouche);Saint John (NB);Tadoussac
+d1923-ca-us-prairie|1870-07-15|sol|Pembina	1	0	56	56	3	2	Fort Alexander (Bas-de-la-Rivière);Fort Garry (Kızıl Irmak Kolonisi);Fort St. Pierre (Rainy Lake)
+d1923-ca-us-prairie|1923-10-28|sol|Pembina	1	0	56	56	3	2	Fort Alexander (Bas-de-la-Rivière);Fort Garry (Kızıl Irmak Kolonisi);Fort St. Pierre (Rainy Lake)
+d1923-cn-fc-BILINMIYOR-tonkin|1923-10-28|sag|Lạng Sơn	1	0	51	51	3	2	Bac Giang;Cao Bằng;Hai Phong
+d1923-cs-ro|1923-02-07|sol|Szatmár (Satu Mare)	1	0	80	80	3	2	Erdel (Kaloşvar);Varad (Oradea);Çernovitz (Çernivtsi)
+d1923-cs-ro|1923-02-07|sol|Çernovitz (Çernivtsi)	1	0	97	97	3	2	Erdel (Kaloşvar);Suçava (Suceava);Szatmár (Satu Mare)
+d1923-cs-ro|1923-10-28|sol|Szatmár (Satu Mare)	1	0	80	80	3	2	Erdel (Kaloşvar);Varad (Oradea);Çernovitz (Çernivtsi)
+d1923-cs-ro|1923-10-28|sol|Çernovitz (Çernivtsi)	1	0	97	97	3	2	Erdel (Kaloşvar);Suçava (Suceava);Szatmár (Satu Mare)
+d1923-dahomey-nijerya|1906-10-19|sag|Nikki (Borgu)	1	0	90	90	3	2	Busa (Borgu);İbadan;İlorin
+d1923-dahomey-nijerya|1923-10-28|sag|Nikki (Borgu)	1	0	90	90	3	2	Busa (Borgu);İbadan;İlorin
+d1923-eritre-habesistan|1908-05-16|sol|Barentu	1	0	103	103	3	2	Adi Kuala;Ağordat;Tesseney
+d1923-eritre-habesistan|1923-10-28|sol|Barentu	1	0	103	103	3	2	Adi Kuala;Ağordat;Tesseney
+d1923-fi-se|1917-12-06|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+d1923-fi-se|1923-10-28|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+d1923-gr-bg-dogu|1921-01-01|sag|Çirmen	1	0	26	26	3	2	Gümülcine;Sofulu (Soufli);Stérna
+d1923-gr-bg-dogu|1921-01-01|sag|İskeçe	1	0	43	43	3	2	Drama;Gümülcine;Kavala
+d1923-gr-bg-dogu|1923-10-28|sag|Çirmen	1	0	26	26	3	2	Gümülcine;Sofulu (Soufli);Stérna
+d1923-gr-bg-dogu|1923-10-28|sag|İskeçe	1	0	43	43	3	2	Drama;Gümülcine;Kavala
+d1923-habesistan-ingiliz-somalisi|1897-05-14|sag|Buhodle	1	0	53	53	3	2	Burao;Lasanod;Odveyne
+d1923-habesistan-ingiliz-somalisi|1897-05-14|sag|Odveyne	1	0	100	100	3	2	Buhodle;Burao;Hargeysa
+d1923-habesistan-ingiliz-somalisi|1923-10-28|sag|Buhodle	1	0	51	51	3	2	Burao;Lasanod;Odveyne
+d1923-habesistan-ingiliz-somalisi|1923-10-28|sag|Odveyne	1	0	100	100	3	2	Buhodle;Burao;Hargeysa
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Bhâgalpûr	1	0	152	152	3	2	Mungîr (Monghyr);Pandua (Hazret Pandua);Râcmahal
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Bhâgalpûr	1	0	152	152	3	2	Mungîr (Monghyr);Pandua (Hazret Pandua);Râcmahal
+d1923-iq-ir|1921-08-23|sol|Havîza	1	0	55	55	3	2	Ahvaz;Dizfûl;Muhammere
+d1923-iq-ir|1923-10-28|sol|Havîza	1	0	55	55	3	2	Ahvaz;Dizfûl;Muhammere
+d1923-ir-af-kuzey|1891-01-01|sag|Turbet-i Câm	1	0	75	75	3	2	Kâin;Serahs;Turbet-i Haydariye
+d1923-ir-af-kuzey|1923-10-28|sag|Turbet-i Câm	1	0	75	75	3	2	Kâin;Serahs;Turbet-i Haydariye
+d1923-it-at-2|1920-01-01|sol|Landeck	1	0	56	56	3	2	Bregenz;Feldkirch;Innsbruck
+d1923-it-at-2|1923-10-28|sol|Landeck	1	0	56	56	3	2	Bregenz;Feldkirch;Innsbruck
+d1923-liberya-fildisi-sahili|1911-01-01|sag|Zwedru	1	0	70	70	3	2	Gbarnga;Grand Cess (Kru);Harper
+d1923-liberya-fildisi-sahili|1923-10-28|sag|Zwedru	1	0	70	70	3	2	Gbarnga;Grand Cess (Kru);Harper
+d1923-mx-gt|1882-09-27|sag|Acalán (Itzamkanac)	1	0	84	84	3	2	Campeche (San Francisco de Campeche);Potonchán (Santa María de la Victoria);San Cristóbal de las Casas (Ciudad Real)
+d1923-mx-gt|1923-10-28|sag|Acalán (Itzamkanac)	1	0	84	84	3	2	Campeche (San Francisco de Campeche);Potonchán (Santa María de la Victoria);San Cristóbal de las Casas (Ciudad Real)
+d1923-nijer-nijerya|1910-02-19|sol|Birni-N'Konni	1	0	40	40	3	2	Filingue;Madaoua;Tahoua
+d1923-nijer-nijerya|1923-10-28|sol|Birni-N'Konni	1	0	40	40	3	2	Filingue;Madaoua;Tahoua
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Yola	1	0	83	83	3	2	Banyo;Garua (Garoua);Ngaunder (Ngaoundéré)
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Yola	1	0	83	83	3	2	Banyo;Garua (Garoua);Ngaunder (Ngaoundéré)
+d1923-no-se|1905-06-07|sol|Røros	1	0	82	82	3	2	Hamar;Mosjøen;Trondheim
+d1923-no-se|1923-10-28|sol|Røros	1	0	82	82	3	2	Hamar;Mosjøen;Trondheim
+d1923-tanganika-mozambik|1922-07-20|sag|Masasi	1	0	84	84	3	2	Lindi;Mikindani;Tunduru
+d1923-tanganika-mozambik|1922-07-20|sag|Tunduru	1	0	85	85	3	2	Masasi;Mvembe (Mataka);Songea (Ngoni)
+d1923-tanganika-mozambik|1923-10-28|sag|Masasi	1	0	84	84	3	2	Lindi;Mikindani;Tunduru
+d1923-tanganika-mozambik|1923-10-28|sag|Tunduru	1	0	85	85	3	2	Masasi;Mvembe (Mataka);Songea (Ngoni)
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Iğdır	1	0	15	15	3	2	Beri;Digor;Norapat
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Arpaçay (Akyaka)	1	0	25	25	3	2	Ahılkelek (Akhalkalaki);Hanak;Küçükperveli
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Borçka	1	0	8	8	3	2	Artvin;Murvaneti;Sarp
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Şavşat	1	0	10	10	3	2	Hanak;Posof;Saylıca
+d1923-us-mx-gadsden|1854-06-30|sol|El Paso del Norte	1	0	48	48	3	2	Arizpe;Chihuahua (San Felipe el Real);La Junta de los Ríos (Presidio)
+dg2-gecici-se|1917-03-15|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+dg2-gecici-se|1917-11-06|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+dg2-rusya-se|1809-09-17|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+dg2-rusya-se|1917-03-14|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+dg2-sovyet-se|1917-11-07|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+dg2-sovyet-se|1917-12-05|sol|Tornio	1	0	90	90	3	2	Kokkola;Oulu;Rovaniemi
+dg4-be-fr-fiili|1830-10-04|sol|Mons	1	0	41	41	3	2	Brüksel;Namur;Tournai
+dg4-be-fr-fiili|1839-04-18|sol|Mons	1	0	41	41	3	2	Brüksel;Namur;Tournai
+dg4-hab-ch-lombardiya|1815-06-09|sag|Bergamo	1	0	83	83	3	2	Brescia;Feldkirch;Milano
+dg4-nl-fr-kortrijk|1820-03-28|sol|Mons	1	0	41	41	3	2	Brüksel;Namur;Tournai
+dg4-nl-fr-kortrijk|1830-10-03|sol|Mons	1	0	41	41	3	2	Brüksel;Namur;Tournai
+dg6-dk-se-stromstad|1751-10-02|sol|Røros	1	0	82	82	3	2	Hamar;Mosjøen;Trondheim
+dg6-dk-se-stromstad|1814-01-13|sol|Røros	1	0	82	82	3	2	Hamar;Mosjøen;Trondheim
+g1-osm-ir|1913-11-17|sol|Havîza	1	0	55	55	3	2	Ahvaz;Dizfûl;Muhammere
+g3-br-imp-py-1|1889-11-14|sag|Tacuatí (Ypané)	1	0	115	115	3	2	Asunción;Fuerte Olimpo (Borbón);Lengua misyonu (Paraguay Chaco)
+g4-bna-us-dogu|1842-01-01|sol|Madawaska (Maliseet)	1	0	73	73	3	2	Listuguj (Restigouche);Saint John (NB);Tadoussac
+g4-bna-us-dogu|1867-06-30|sol|Madawaska (Maliseet)	1	0	73	73	3	2	Listuguj (Restigouche);Saint John (NB);Tadoussac
+d1919-hu-cs-fiili-1|1919-07-25|sag|Olomouc	3	107	222	237	2	1	Brno;Jeseník (Freiwaldau)
+d1923-angola-belcika-kongo|1908-11-15|sag|Sandoa	3	193	101	180	2	1	Kolvezi;Musumba
+d1923-angola-belcika-kongo|1923-10-28|sag|Sandoa	3	193	101	180	2	1	Kolvezi;Musumba
+d1923-es-pt-kuzey|1866-11-04|sol|Badajoz	3	130	55	164	2	1	Huelva;Salamanca
+d1923-es-pt-kuzey|1923-10-28|sol|Badajoz	3	129	55	164	2	1	Huelva;Salamanca
+d1816-alm-ah-4|1816-05-01|sag|Münih	2	60	97	131	2	1	Augsburg;Regensburg
+d1816-alm-ah-4|1844-01-29|sag|Münih	2	60	97	131	2	1	Augsburg;Regensburg
+d1844-alm-ah|1844-01-30|sag|Münih	2	60	97	131	2	1	Augsburg;Regensburg
+d1844-alm-ah|1878-07-12|sag|Münih	2	60	97	132	2	1	Augsburg;Regensburg
+d1878-de-ah|1878-07-13|sag|Münih	2	60	97	132	2	1	Augsburg;Regensburg
+d1878-de-ah|1918-11-10|sag|Münih	2	60	97	132	2	1	Augsburg;Regensburg
+d1920-hu-ro-fiili|1920-03-31|sol|Varad (Oradea)	2	78	35	45	2	1	Debrecen;Szatmár (Satu Mare)
+d1923-angola-kuzey-rodezya-barotseland|1911-05-17|sag|Zambezi (Balovale)	2	158	85	137	2	1	Kabompo;Kalabo
+d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sag|Zambezi (Balovale)	2	157	85	136	2	1	Kabompo;Kalabo
+d1923-at-cs|1920-07-16|sol|Gmünd (Aşağı Avusturya)	2	65	18	56	2	1	Freistadt;Viyana
+d1923-at-cs|1923-10-28|sol|Gmünd (Aşağı Avusturya)	2	65	18	56	2	1	Freistadt;Viyana
+d1923-at-yu-stiriya|1920-07-16|sag|Maribor (Marburg)	2	40	32	36	2	1	Ljubljana;Murska Sobota
+d1923-at-yu-stiriya|1923-10-28|sag|Maribor (Marburg)	2	40	32	36	2	1	Ljubljana;Murska Sobota
+d1923-ca-us-bati-2|1871-07-20|sol|Spokane House	2	99	130	196	2	1	Fort Colvile;Rocky Mountain House
+d1923-ca-us-bati-2|1923-10-28|sol|Fort Colvile	2	131	45	118	2	1	Fort Kamloops;Spokane House
+d1923-ca-us-bati-2|1923-10-28|sol|Fort Kamloops	2	41	203	203	2	1	Fort Colvile;Fort Langley
+d1923-cn-fc-BILINMIYOR-tonkin|1923-10-28|sol|Mengzi	2	41	76	90	2	1	Kaihua (Wenshan);Lin'an (Jianshui)
+d1923-de-at|1918-11-12|sag|Münih	2	60	97	132	2	1	Augsburg;Regensburg
+d1923-de-at|1923-10-28|sag|Münih	2	60	97	132	2	1	Augsburg;Regensburg
+d1923-gr-al|1921-11-09|sol|Görice (Korçë)	2	64	30	40	2	1	Ergiri (Ergirikasrı);İlbasan (Elbasan)
+d1923-gr-al|1923-10-28|sol|Görice (Korçë)	2	64	30	40	2	1	Ergiri (Ergirikasrı);İlbasan (Elbasan)
+d1923-hd-pt-oecussi|1916-08-17|sag|Lifau (Oecussi)	2	65	21	52	2	1	Maliana;Maucatar
+d1923-hd-pt-oecussi|1923-10-28|sag|Lifau (Oecussi)	2	65	21	52	2	1	Maliana;Maucatar
+d1923-hd-pt-orta|1916-08-17|sag|Maucatar	2	37	21	37	2	1	Maliana;Suai
+d1923-hd-pt-orta|1923-10-28|sag|Maucatar	2	37	21	37	2	1	Maliana;Suai
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Mungîr (Monghyr)	2	67	128	147	2	1	Bhâgalpûr;Patna (Azîmâbâd)
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Patna (Azîmâbâd)	2	89	154	168	2	1	Gorakhpûr;Mungîr (Monghyr)
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Mungîr (Monghyr)	2	67	128	147	2	1	Bhâgalpûr;Patna (Azîmâbâd)
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Patna (Azîmâbâd)	2	89	154	168	2	1	Gorakhpûr;Mungîr (Monghyr)
+d1923-iq-ir|1921-08-23|sag|Ammâre	2	87	59	91	2	1	Kürne;Vâsıt
+d1923-iq-ir|1923-10-28|sag|Ammâre	2	87	59	91	2	1	Kürne;Vâsıt
+d1923-it-ch|1861-03-17|sag|Bergamo	2	40	74	82	2	1	Brescia;Milano
+d1923-it-ch|1923-10-28|sag|Bergamo	2	40	74	84	2	1	Brescia;Milano
+d1923-malavi-mozambik|1907-01-01|sag|Blantyre	2	173	86	91	2	1	Mankhamba (Maravi);Zomba
+d1923-malavi-mozambik|1923-10-28|sag|Blantyre	2	173	86	91	2	1	Mankhamba (Maravi);Zomba
+d1923-no-se|1905-06-07|sol|Bodø	2	164	97	149	2	1	Mosjøen;Tromsø
+d1923-no-se|1905-06-07|sol|Hamar	2	96	91	123	2	1	Oslo;Røros
+d1923-no-se|1923-10-28|sol|Bodø	2	164	97	149	2	1	Mosjøen;Tromsø
+d1923-no-se|1923-10-28|sol|Hamar	2	96	91	123	2	1	Oslo;Røros
+d1923-uganda-belcika-kongo|1915-02-03|sol|Bunia	2	167	54	135	2	1	Butembo;Watsa
+d1923-uganda-belcika-kongo|1923-10-28|sol|Bunia	2	167	54	135	2	1	Butembo;Watsa
+dg4-sa-ch-lombardiya|1859-11-10|sag|Bergamo	2	39	74	82	2	1	Brescia;Milano
+dg4-sa-ch-lombardiya|1861-03-16|sag|Bergamo	2	39	74	82	2	1	Brescia;Milano
+dg6-dk-se-stromstad|1751-10-02|sol|Bodø	2	164	97	149	2	1	Mosjøen;Tromsø
+dg6-dk-se-stromstad|1751-10-02|sol|Hamar	2	96	91	123	2	1	Oslo;Røros
+dg6-dk-se-stromstad|1814-01-13|sol|Bodø	2	166	98	149	2	1	Mosjøen;Tromsø
+dg6-dk-se-stromstad|1814-01-13|sol|Hamar	2	96	91	123	2	1	Oslo;Røros
+g1-osm-ir|1913-11-17|sag|Ammâre	2	87	59	91	2	1	Kürne;Vâsıt
+g2-hd-pt-oecussi-1914|1916-08-16|sag|Lifau (Oecussi)	2	65	21	52	2	1	Maliana;Maucatar
+g2-hd-pt-orta-1908|1916-08-16|sag|Maucatar	2	37	21	37	2	1	Maliana;Suai
+d1816-alm-ah-1|1816-05-01|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1816-alm-ah-1|1844-01-29|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1816-alm-ah-4|1816-05-01|sol|Innsbruck	1	0	47	47	2	1	Brixen (Bressanone);Landeck
+d1816-alm-ah-4|1816-05-01|sol|Linz	1	0	75	75	2	1	Freistadt;České Budějovice (Budweis)
+d1816-alm-ah-4|1844-01-29|sol|Innsbruck	1	0	47	47	2	1	Brixen (Bressanone);Landeck
+d1816-alm-ah-4|1844-01-29|sol|Linz	1	0	75	75	2	1	Freistadt;České Budějovice (Budweis)
+d1829-osm-rus-1|1829-09-14|sag|Ts’q’altbila	1	0	23	23	2	1	Ahıska;Zazalo
+d1829-osm-rus-1|1829-09-14|sol|Makhalak’auri	1	0	12	12	2	1	Hulo (Acara);Posof
+d1829-osm-rus-1|1878-07-12|sag|Saylıca	1	0	17	17	2	1	Makhalak’auri;Şavşat
+d1829-osm-rus-2|1829-09-14|sag|Gümrü (Aleksandropol)	1	0	27	27	2	1	Ahılkelek (Akhalkalaki);Kliçatak (Suser)
+d1844-alm-ah|1844-01-30|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1844-alm-ah|1844-01-30|sol|Innsbruck	1	0	47	47	2	1	Brixen (Bressanone);Landeck
+d1844-alm-ah|1844-01-30|sol|Landeck	1	0	56	56	2	1	Bregenz;Innsbruck
+d1844-alm-ah|1844-01-30|sol|Linz	1	0	75	75	2	1	Freistadt;České Budějovice (Budweis)
+d1844-alm-ah|1878-07-12|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1844-alm-ah|1878-07-12|sol|Innsbruck	1	0	47	47	2	1	Brixen (Bressanone);Landeck
+d1844-alm-ah|1878-07-12|sol|Landeck	1	0	56	56	2	1	Bregenz;Innsbruck
+d1844-alm-ah|1878-07-12|sol|Linz	1	0	75	75	2	1	Freistadt;České Budějovice (Budweis)
+d1859-ru-rp-prut-kuzey|1878-08-02|sag|Yaş	1	0	38	38	2	1	Birlad (Bârlad);Roman
+d1866-it-hab-karn|1866-10-03|sol|Lienz	1	0	41	41	2	1	Brixen (Bressanone);Trieste
+d1866-it-hab-karn|1918-11-02|sol|Lienz	1	0	41	41	2	1	Brixen (Bressanone);Trieste
+d1878-de-ah|1878-07-13|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1878-de-ah|1878-07-13|sol|Innsbruck	1	0	47	47	2	1	Brixen (Bressanone);Landeck
+d1878-de-ah|1878-07-13|sol|Landeck	1	0	56	56	2	1	Bregenz;Innsbruck
+d1878-de-ah|1878-07-13|sol|Linz	1	0	75	75	2	1	Freistadt;České Budějovice (Budweis)
+d1878-de-ah|1918-11-10|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1878-de-ah|1918-11-10|sol|Innsbruck	1	0	47	47	2	1	Landeck;Lienz
+d1878-de-ah|1918-11-10|sol|Landeck	1	0	56	56	2	1	Bregenz;Innsbruck
+d1878-de-ah|1918-11-10|sol|Linz	1	0	75	75	2	1	Freistadt;České Budějovice (Budweis)
+d1878-ru-ro-prut-gecici-rk|1917-03-15|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-gecici-rk|1917-11-06|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-rus-rk|1881-03-26|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-rus-rk|1917-03-14|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-rus-rp|1878-08-03|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-rus-rp|1881-03-25|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-sovyet-rk|1917-11-07|sag|Yaş	1	0	39	39	2	1	Birlad (Bârlad);Roman
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Birlad (Bârlad)	1	0	72	72	2	1	Kahul (Cahul);Yaş
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Bolgrad (Bolhrad)	1	0	18	18	2	1	Kahul (Cahul);İshakçı (Isaccea)
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|Soroka (Soroca)	1	0	66	66	2	1	Hotin;Yaş
+d1878-ru-ro-prut-sovyet-rk|1918-04-07|sag|İshakçı (Isaccea)	1	0	26	26	2	1	Bolgrad (Bolhrad);Kalas (Galatz)
+d1878-ru-ro-tuna-sovyet-rk|1918-04-07|sol|Kahul (Cahul)	1	0	28	28	2	1	Bolgrad (Bolhrad);Kalas (Galatz)
+d1885-nijerya-kamerun-genel|1913-03-10|sag|Yola	1	0	83	83	2	1	Bauci (Bauchi);Vukari (Wukari)
+d1885-nijerya-kamerun-genel|1913-03-10|sol|Garua (Garoua)	1	0	77	77	2	1	Marua (Maroua);Rey Buba
+d1885-nijerya-kamerun-genel|1913-03-10|sol|Marua (Maroua)	1	0	96	96	2	1	Dikva (Dikeo);Garua (Garoua)
+d1890-becuanaland-almanya-swa|1890-07-01|sol|Ganzi (Ghanzi)	1	0	112	112	2	1	Toteng;Tshane
+d1890-becuanaland-almanya-swa|1915-07-08|sag|Aranos	1	0	112	112	2	1	Gobabis;Mariental
+d1890-becuanaland-almanya-swa|1915-07-08|sag|Rundu	1	0	169	169	2	1	Grutfontein;Katima Mulilo
+d1890-becuanaland-almanya-swa|1915-07-08|sol|Ganzi (Ghanzi)	1	0	112	112	2	1	Toteng;Tshane
+d1891-guneyrodezya-mozambik-bsac|1891-06-11|sol|Tete	1	0	140	140	2	1	Umtali (Mutare);Zumbo
+d1891-guneyrodezya-mozambik-bsac|1923-09-30|sol|Cikualakuala	1	0	40	40	2	1	Mabalane;Massangena
+d1891-guneyrodezya-mozambik-bsac|1923-09-30|sol|Massangena	1	0	102	102	2	1	Cikualakuala;Umtali (Mutare)
+d1891-guneyrodezya-mozambik-bsac|1923-09-30|sol|Tete	1	0	136	136	2	1	Umtali (Mutare);Zumbo
+d1892-liberya-fildisi-sahili-cavalla|1910-12-31|sag|Harper	1	0	72	72	2	1	Grand Cess (Kru);Zwedru
+d1908-bg-bagimsiz-eski|1908-10-05|sol|Elhova (Elhovo)	1	0	14	14	2	1	Malak Dervent (Lalkovo);Mustafapaşa (Svilengrad)
+d1908-bg-bagimsiz-eski|1908-10-05|sol|Umur Fakih (Fakia)	1	0	10	10	2	1	Kofçaz;Malak Dervent (Lalkovo)
+d1908-bg-bagimsiz-eski|1909-04-18|sol|Elhova (Elhovo)	1	0	14	14	2	1	Malak Dervent (Lalkovo);Mustafapaşa (Svilengrad)
+d1908-bg-bagimsiz-eski|1909-04-18|sol|Umur Fakih (Fakia)	1	0	10	10	2	1	Kofçaz;Malak Dervent (Lalkovo)
+d1909-osm-bg-eski|1909-04-19|sol|Elhova (Elhovo)	1	0	14	14	2	1	Malak Dervent (Lalkovo);Mustafapaşa (Svilengrad)
+d1909-osm-bg-eski|1909-04-19|sol|Umur Fakih (Fakia)	1	0	10	10	2	1	Kofçaz;Malak Dervent (Lalkovo)
+d1909-osm-bg-eski|1913-05-29|sol|Elhova (Elhovo)	1	0	14	14	2	1	Malak Dervent (Lalkovo);Mustafapaşa (Svilengrad)
+d1909-osm-bg-eski|1913-05-29|sol|Malak Dervent (Lalkovo)	1	0	10	10	2	1	Elhova (Elhovo);Umur Fakih (Fakia)
+d1909-osm-bg-eski|1913-05-29|sol|Umur Fakih (Fakia)	1	0	10	10	2	1	Malak Dervent (Lalkovo);Malko Tırnova
+d1913-nijerya-kamerun-almanya|1913-03-11|sag|Yola	1	0	83	83	2	1	Bauci (Bauchi);Vukari (Wukari)
+d1913-nijerya-kamerun-almanya|1913-03-11|sol|Garua (Garoua)	1	0	77	77	2	1	Marua (Maroua);Rey Buba
+d1913-nijerya-kamerun-almanya|1913-03-11|sol|Marua (Maroua)	1	0	96	96	2	1	Dikva (Dikeo);Garua (Garoua)
+d1913-nijerya-kamerun-almanya|1916-02-17|sag|Yola	1	0	83	83	2	1	Bauci (Bauchi);Vukari (Wukari)
+d1913-nijerya-kamerun-almanya|1916-02-17|sol|Garua (Garoua)	1	0	77	77	2	1	Marua (Maroua);Rey Buba
+d1913-nijerya-kamerun-almanya|1916-02-17|sol|Marua (Maroua)	1	0	96	96	2	1	Dikva (Dikeo);Garua (Garoua)
+d1913-osm-ir-1|1913-11-17|sol|Doğubayazıt	1	0	29	29	2	1	Çaldıran;Şeyhrumi (Yücelen)
+d1913-osm-ir-1|1913-11-17|sol|Çaldıran	1	0	25	25	2	1	Doğubayazıt;Şeyhrumi (Yücelen)
+d1913-osm-ir-1|1920-04-22|sol|Doğubayazıt	1	0	29	29	2	1	Çaldıran;Şeyhrumi (Yücelen)
+d1913-osm-ir-1|1920-04-22|sol|Çaldıran	1	0	25	25	2	1	Doğubayazıt;Şeyhrumi (Yücelen)
+d1913-osm-ir-2|1913-11-17|sol|Bacirge (Esendere)	1	0	31	31	2	1	Başkale;Yüksekova (Gever)
+d1913-osm-ir-2|1913-11-17|sol|Başkale	1	0	30	30	2	1	Bacirge (Esendere);Yüksekova (Gever)
+d1913-osm-ir-2|1920-04-22|sol|Bacirge (Esendere)	1	0	31	31	2	1	Başkale;Yüksekova (Gever)
+d1913-osm-ir-2|1920-04-22|sol|Başkale	1	0	30	30	2	1	Bacirge (Esendere);Yüksekova (Gever)
+d1913-sr-mn|1913-11-12|sag|Yenipazar (Novi Pazar)	1	0	57	57	2	1	Prizren;Çaçak
+d1913-sr-mn|1918-11-25|sag|Vişegrad	1	0	74	74	2	1	Foça (Foča);Yenipazar (Novi Pazar)
+d1916-burundi-tanganyika-isgal|1922-07-19|sag|Ucici (Ujiji)	1	0	72	72	2	1	Bveranyange (Karagve);Tabora (Kazeh)
+d1916-burundi-tanganyika-isgal|1922-07-19|sol|Kigali	1	0	97	97	2	1	Gitega (Burundi);Nyanza (Ruanda)
+d1916-burundi-tanganyika-isgal|1922-07-19|sol|Nyanza (Ruanda)	1	0	101	101	2	1	Gitega (Burundi);Kigali
+d1916-nijerya-kamerun-isgal|1916-02-18|sag|Yola	1	0	83	83	2	1	Bauci (Bauchi);Vukari (Wukari)
+d1916-nijerya-kamerun-isgal|1916-02-18|sol|Ndjamena	1	0	61	61	2	1	Mao (Kanem);Massenya
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Garua (Garoua)	1	0	47	47	2	1	Marua (Maroua);Yola
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Marua (Maroua)	1	0	69	69	2	1	Dikva (Dikeo);Garua (Garoua)
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Vukari (Wukari)	1	0	137	137	2	1	Banyo;Makurdi
+d1916-nijerya-kamerun-isgal|1919-07-09|sol|Ndjamena	1	0	61	61	2	1	Mao (Kanem);Massenya
+d1917-no-sov-petsamo|1917-11-07|sag|Petsamo (Peçenga)	1	0	56	56	2	1	Kola;İnari
+d1918-fr-de-isgal|1918-11-11|sol|Saarbrücken	1	0	30	30	2	1	Strazburg;Trier
+d1918-it-at-ateskes-1|1918-11-12|sol|Lienz	1	0	41	41	2	1	Innsbruck;Klagenfurt
+d1918-it-at-ateskes-1|1919-12-31|sol|Lienz	1	0	41	41	2	1	Innsbruck;Klagenfurt
+d1918-it-at-ateskes-2|1918-11-12|sag|Brixen (Bressanone)	1	0	68	68	2	1	Trento;Udine
+d1918-it-at-ateskes-2|1919-12-31|sag|Brixen (Bressanone)	1	0	68	68	2	1	Trento;Udine
+d1918-it-hab-ateskes-1|1918-11-03|sol|Lienz	1	0	41	41	2	1	Innsbruck;Klagenfurt
+d1918-it-hab-ateskes-1|1918-11-10|sol|Lienz	1	0	41	41	2	1	Innsbruck;Klagenfurt
+d1918-it-hab-ateskes-2|1918-11-03|sag|Brixen (Bressanone)	1	0	68	68	2	1	Trento;Udine
+d1918-it-hab-ateskes-2|1918-11-10|sag|Brixen (Bressanone)	1	0	68	68	2	1	Trento;Udine
+d1919-at-cs-fiili-1|1919-01-01|sol|Freistadt	1	0	24	24	2	1	Gmünd (Aşağı Avusturya);Linz
+d1919-at-cs-fiili-1|1920-07-15|sol|Freistadt	1	0	24	24	2	1	Gmünd (Aşağı Avusturya);Linz
+d1919-at-cs-fiili-2|1919-01-01|sag|Brno	1	0	73	73	2	1	Olomouc;Třeboň (Wittingau)
+d1919-at-cs-fiili-2|1919-01-01|sol|Gmünd (Aşağı Avusturya)	1	0	56	56	2	1	Freistadt;Viyana
+d1919-at-cs-fiili-2|1920-07-15|sag|Brno	1	0	73	73	2	1	Bratislava;Třeboň (Wittingau)
+d1919-at-cs-fiili-2|1920-07-15|sol|Gmünd (Aşağı Avusturya)	1	0	56	56	2	1	Freistadt;Viyana
+d1919-hu-cs-fiili-1|1919-07-25|sol|Estergon	1	0	18	18	2	1	Léva (Levice);Uyvar
+d1919-hu-cs-fiili-1|1921-07-25|sag|Léva (Levice)	1	0	40	40	2	1	Fülek (Fiľakovo);Uyvar
+d1919-hu-cs-fiili-1|1921-07-25|sol|Vaç (Vác)	1	0	48	48	2	1	Estergon;Hatvan
+d1919-hu-cs-fiili-2|1921-07-25|sag|Kassa (Košice)	1	0	44	44	2	1	Eperjes (Prešov);Fülek (Fiľakovo)
+d1919-hu-cs-fiili-3|1919-07-25|sol|Tokaj	1	0	45	45	2	1	Kassa (Košice);Ungvár (Uzhhorod)
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Garua (Garoua)	1	0	47	47	2	1	Marua (Maroua);Yola
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Marua (Maroua)	1	0	69	69	2	1	Dikva (Dikeo);Garua (Garoua)
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Vukari (Wukari)	1	0	137	137	2	1	Banyo;Makurdi
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sol|Ndjamena	1	0	61	61	2	1	Mao (Kanem);Massenya
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Garua (Garoua)	1	0	47	47	2	1	Marua (Maroua);Yola
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Marua (Maroua)	1	0	69	69	2	1	Dikva (Dikeo);Garua (Garoua)
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Vukari (Wukari)	1	0	137	137	2	1	Banyo;Makurdi
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sol|Ndjamena	1	0	61	61	2	1	Mao (Kanem);Massenya
+d1920-hu-cs-rutenya-fiili|1920-08-30|sag|Ungvár (Uzhhorod)	1	0	45	45	2	1	Kassa (Košice);Munkács (Mukacheve)
+d1920-hu-cs-rutenya-fiili|1921-07-25|sag|Ungvár (Uzhhorod)	1	0	45	45	2	1	Kassa (Košice);Munkács (Mukacheve)
+d1920-hu-ro-fiili|1920-03-31|sag|Orsova (Eski Orsova)	1	0	277	277	2	1	Turnu Severin;Tırgu Jiu
+d1920-hu-ro-fiili|1920-03-31|sag|Tırgu Jiu	1	0	327	327	2	1	Orsova (Eski Orsova);Çernovitz (Çernivtsi)
+d1920-hu-ro-fiili|1920-03-31|sol|Gyula (Göle)	1	0	21	21	2	1	Temeşvar;Yanova (Ineu)
+d1920-hu-ro-fiili|1920-03-31|sol|Yanova (Ineu)	1	0	27	27	2	1	Gyula (Göle);Varad (Oradea)
+d1920-hu-ro-fiili|1921-07-25|sol|Debrecen	1	0	46	46	2	1	Gyula (Göle);Tokaj
+d1920-hu-ro-fiili|1921-07-25|sol|Gyula (Göle)	1	0	30	30	2	1	Debrecen;Segedin (Szeged)
+d1922-at-hu-sopron|1922-01-01|sag|Sopron	1	0	30	30	2	1	Kanije;Yanıkkale (Győr)
+d1922-at-hu-sopron|1923-10-28|sag|Sopron	1	0	30	30	2	1	Kanije;Yanıkkale (Győr)
+d1923-af-sscb-bati|1917-11-07|sol|Belh	1	0	159	159	2	1	Herat;Kâbil
+d1923-af-sscb-bati|1923-10-28|sol|Belh	1	0	159	159	2	1	Herat;Kâbil
+d1923-al-yu-karadag-2|1921-11-09|sag|Podgorica	1	0	43	43	2	1	Cetinje;Prizren
+d1923-al-yu-karadag-2|1923-10-28|sag|Podgorica	1	0	43	43	2	1	Cetinje;Prizren
+d1923-al-yu-makedonya-1|1921-11-09|sag|Debre (Dibra)	1	0	25	25	2	1	Ohri;Prizren
+d1923-al-yu-makedonya-1|1923-10-28|sag|Debre (Dibra)	1	0	25	25	2	1	Ohri;Prizren
+d1923-altinkiyisi-fildisi-sahili|1923-10-28|sag|Bondugu (Gyaaman)	1	0	55	55	2	1	Begho (Bighu);Bole
+d1923-altinkiyisi-fildisi-sahili|1923-10-28|sol|Assinie	1	0	91	91	2	1	Buake (Bouaké);Sassandra
+d1923-angola-belcika-kongo|1908-11-15|sag|Kahemba	1	0	93	93	2	1	Fesi (Feshi);Mushenge (Kuba)
+d1923-angola-belcika-kongo|1923-10-28|sag|Kahemba	1	0	93	93	2	1	Fesi (Feshi);Mushenge (Kuba)
+d1923-angola-guneybati-afrika|1920-12-17|sag|Katima Mulilo	1	0	133	133	2	1	Senanga;Seşeke (Sesheke)
+d1923-angola-guneybati-afrika|1923-10-28|sag|Katima Mulilo	1	0	133	133	2	1	Senanga;Seşeke (Sesheke)
+d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sag|Katima Mulilo	1	0	127	127	2	1	Senanga;Seşeke (Sesheke)
+d1923-ar-br|1900-05-26|sag|Maçambará (Recreio)	1	0	84	84	2	1	Lavras do Sul;Nonohay (Yukarı Uruguay)
+d1923-ar-br|1923-10-28|sag|Maçambará (Recreio)	1	0	84	84	2	1	Lavras do Sul;Nonohay (Yukarı Uruguay)
+d1923-ar-br|1923-10-28|sag|Nonohay (Yukarı Uruguay)	1	0	153	153	2	1	Catanduvas (Paraná);Maçambará (Recreio)
+d1923-at-cs|1920-07-16|sag|Brno	1	0	70	70	2	1	Bratislava;Třeboň (Wittingau)
+d1923-at-cs|1920-07-16|sol|Freistadt	1	0	24	24	2	1	Gmünd (Aşağı Avusturya);Linz
+d1923-at-cs|1923-10-28|sag|Brno	1	0	70	70	2	1	Bratislava;Třeboň (Wittingau)
+d1923-at-cs|1923-10-28|sol|Freistadt	1	0	24	24	2	1	Gmünd (Aşağı Avusturya);Linz
+d1923-at-hu-3|1921-07-26|sag|Sopron	1	0	30	30	2	1	Kanije;Yanıkkale (Győr)
+d1923-at-hu-3|1923-10-28|sag|Sopron	1	0	30	30	2	1	Kanije;Yanıkkale (Győr)
+d1923-at-yu-karintiya|1923-10-28|sag|Ljubljana	1	0	56	56	2	1	Krk (Veglia);Maribor (Marburg)
+d1923-at-yu-stiriya|1920-07-16|sag|Murska Sobota	1	0	33	33	2	1	Lendava (Alsólendva);Maribor (Marburg)
+d1923-at-yu-stiriya|1923-10-28|sag|Murska Sobota	1	0	33	33	2	1	Lendava (Alsólendva);Maribor (Marburg)
+d1923-be-de|1920-01-10|sag|Aachen	1	0	21	21	2	1	Köln;Trier
+d1923-be-de|1923-10-28|sag|Aachen	1	0	21	21	2	1	Köln;Trier
+d1923-be-fr|1839-04-19|sol|Namur	1	0	75	75	2	1	Mons;Neufchâteau (Belçika)
+d1923-be-fr|1839-04-19|sol|Neufchâteau (Belçika)	1	0	46	46	2	1	Namur;Virton
+d1923-be-fr|1839-04-19|sol|Tournai	1	0	33	33	2	1	Mons;Ypres
+d1923-be-fr|1839-04-19|sol|Virton	1	0	25	25	2	1	Arlon;Neufchâteau (Belçika)
+d1923-be-fr|1839-04-19|sol|Ypres	1	0	32	32	2	1	Brüj (Brugge);Tournai
+d1923-be-fr|1923-10-28|sol|Namur	1	0	75	75	2	1	Mons;Neufchâteau (Belçika)
+d1923-be-fr|1923-10-28|sol|Neufchâteau (Belçika)	1	0	46	46	2	1	Namur;Virton
+d1923-be-fr|1923-10-28|sol|Tournai	1	0	33	33	2	1	Mons;Ypres
+d1923-be-fr|1923-10-28|sol|Virton	1	0	25	25	2	1	Arlon;Neufchâteau (Belçika)
+d1923-be-fr|1923-10-28|sol|Ypres	1	0	32	32	2	1	Brüj (Brugge);Tournai
+d1923-be-lu|1890-11-23|sol|Arlon	1	0	19	19	2	1	Bastogne;Virton
+d1923-be-lu|1923-10-28|sol|Arlon	1	0	19	19	2	1	Bastogne;Virton
+d1923-be-nl-1|1839-04-19|sol|Gent	1	0	33	33	2	1	Anvers (Antwerpen);Brüj (Brugge)
+d1923-be-nl-1|1923-10-28|sol|Gent	1	0	33	33	2	1	Anvers (Antwerpen);Brüj (Brugge)
+d1923-be-nl-2|1923-10-28|sag|Maastricht	1	0	27	27	2	1	Nijmegen;Utrecht
+d1923-bg-shs-1|1920-01-01|sol|Vidin	1	0	50	50	2	1	Köstendil;Sofya
+d1923-bg-shs-1|1923-10-28|sol|Vidin	1	0	50	50	2	1	Köstendil;Sofya
+d1923-bg-shs-2|1920-01-01|sol|Köstendil	1	0	34	34	2	1	Petriç;Sofya
+d1923-bg-shs-2|1923-10-28|sol|Köstendil	1	0	34	34	2	1	Petriç;Sofya
+d1923-br-py-2|1889-11-15|sag|Fuerte Olimpo (Borbón)	1	0	124	124	2	1	Lengua misyonu (Paraguay Chaco);Tacuatí (Ypané)
+d1923-br-py-2|1923-10-28|sag|Fuerte Olimpo (Borbón)	1	0	124	124	2	1	Lengua misyonu (Paraguay Chaco);Tacuatí (Ypané)
+d1923-burundi-tanganyika|1922-07-20|sag|Ucici (Ujiji)	1	0	72	72	2	1	Bveranyange (Karagve);Tabora (Kazeh)
+d1923-burundi-tanganyika|1922-07-20|sol|Kigali	1	0	97	97	2	1	Gitega (Burundi);Nyanza (Ruanda)
+d1923-burundi-tanganyika|1922-07-20|sol|Nyanza (Ruanda)	1	0	101	101	2	1	Gitega (Burundi);Kigali
+d1923-burundi-tanganyika|1923-10-28|sag|Ucici (Ujiji)	1	0	72	72	2	1	Bveranyange (Karagve);Tabora (Kazeh)
+d1923-burundi-tanganyika|1923-10-28|sol|Kigali	1	0	97	97	2	1	Gitega (Burundi);Nyanza (Ruanda)
+d1923-burundi-tanganyika|1923-10-28|sol|Nyanza (Ruanda)	1	0	101	101	2	1	Gitega (Burundi);Kigali
+d1923-ca-us-141|1923-10-28|sag|Old Crow (Vuntut Gwitchin)	1	0	98	98	2	1	Dawson City;Qikiqtaruk (Herschel Adası)
+d1923-ca-us-141|1923-10-28|sol|Nabesna / Northway (Yukarı Tanana)	1	0	80	80	2	1	Eagle (Fort Egbert);Yakutat (Novorossiysk)
+d1923-ca-us-bati-2|1871-07-20|sol|Fort Langley	1	0	62	62	2	1	Fort Kamloops;Victoria (Fort Victoria)
+d1923-ca-us-bati-2|1923-10-28|sol|Fort Langley	1	0	71	71	2	1	Fort Kamloops;Victoria (Fort Victoria)
+d1923-ca-us-dogu|1867-07-01|sag|Norridgewock (Abenaki)	1	0	134	134	2	1	Falmouth (Portland, Maine);Pemaquid
+d1923-ca-us-dogu|1867-07-01|sol|Duluth (Fond du Lac)	1	0	138	138	2	1	Fort St. Pierre (Rainy Lake);Grand Portage
+d1923-ca-us-dogu|1867-07-01|sol|Grand Portage	1	0	66	66	2	1	Duluth (Fond du Lac);Fort William (Thunder Bay)
+d1923-ca-us-dogu|1867-07-01|sol|Odanak (Abenaki)	1	0	152	152	2	1	Montreal (Ville-Marie);Trois-Rivières
+d1923-ca-us-dogu|1867-07-01|sol|Saint John (NB)	1	0	122	122	2	1	Madawaska (Maliseet);Port Royal (Acadia)
+d1923-ca-us-dogu|1867-07-01|sol|Tadoussac	1	0	137	137	2	1	Madawaska (Maliseet);Quebec
+d1923-ca-us-dogu|1923-10-28|sag|Norridgewock (Abenaki)	1	0	134	134	2	1	Falmouth (Portland, Maine);Pemaquid
+d1923-ca-us-dogu|1923-10-28|sol|Duluth (Fond du Lac)	1	0	138	138	2	1	Fort St. Pierre (Rainy Lake);Grand Portage
+d1923-ca-us-dogu|1923-10-28|sol|Grand Portage	1	0	66	66	2	1	Duluth (Fond du Lac);Fort William (Thunder Bay)
+d1923-ca-us-dogu|1923-10-28|sol|Odanak (Abenaki)	1	0	152	152	2	1	Montreal (Ville-Marie);Trois-Rivières
+d1923-ca-us-dogu|1923-10-28|sol|Saint John (NB)	1	0	122	122	2	1	Madawaska (Maliseet);Port Royal (Acadia)
+d1923-ca-us-dogu|1923-10-28|sol|Tadoussac	1	0	137	137	2	1	Madawaska (Maliseet);Quebec
+d1923-ca-us-prairie|1870-07-15|sag|Fort Union Trading Post	1	0	135	135	2	1	Crow Agency (Apsáalooke);Knife River (Hidatsa köyleri)
+d1923-ca-us-prairie|1870-07-15|sol|Brandon House	1	0	130	130	2	1	Fort Dauphin;Fort Qu'Appelle
+d1923-ca-us-prairie|1923-10-28|sag|Devils Lake (Mni Wakan, Dakota)	1	0	110	110	2	1	Knife River (Hidatsa köyleri);On-A-Slant (Mandan köyü)
+d1923-ca-us-prairie|1923-10-28|sag|Fort Belknap (Assiniboine-Gros Ventre)	1	0	93	93	2	1	Fort Benton;Miles City (Tongue Irmağı)
+d1923-ca-us-prairie|1923-10-28|sag|Fort Union Trading Post	1	0	135	135	2	1	Knife River (Hidatsa köyleri);Miles City (Tongue Irmağı)
+d1923-ca-us-prairie|1923-10-28|sol|Brandon House	1	0	130	130	2	1	Fort Dauphin;Fort Qu'Appelle
+d1923-ca-us-prairie|1923-10-28|sol|Fort Macleod	1	0	105	105	2	1	Fort Calgary;Fort Walsh (Cypress Hills)
+d1923-cad-anglo-misir-sudani-darfur|1919-09-08|sag|Birao	1	0	130	130	2	1	Am Timan;Uanda-Calle
+d1923-cad-anglo-misir-sudani-darfur|1919-09-08|sag|Iriba	1	0	80	80	2	1	Biltine;Vara (Wara)
+d1923-cad-anglo-misir-sudani-darfur|1923-10-28|sag|Birao	1	0	130	130	2	1	Am Timan;Uanda-Calle
+d1923-cad-anglo-misir-sudani-darfur|1923-10-28|sag|Iriba	1	0	80	80	2	1	Biltine;Vara (Wara)
+d1923-cn-fc-BILINMIYOR-laos|1923-10-28|sol|Ning'er (Pu'er)	1	0	120	120	2	1	Chiang Hung (Jinghong);Yuanjiang
+d1923-co-ec|1917-01-26|sag|San José de los Nuevos Icaguates	1	0	130	130	2	1	Archidona (Napo);San Miguel (Aushiri)
+d1923-co-ec|1923-10-28|sag|San José de los Nuevos Icaguates	1	0	130	130	2	1	Archidona (Napo);San Miguel (Aushiri)
+d1923-cs-ro|1923-02-07|sol|Erdel (Kaloşvar)	1	0	149	149	2	1	Szatmár (Satu Mare);Çernovitz (Çernivtsi)
+d1923-cs-ro|1923-10-28|sol|Erdel (Kaloşvar)	1	0	149	149	2	1	Szatmár (Satu Mare);Çernovitz (Çernivtsi)
+d1923-de-at|1918-11-12|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1923-de-at|1918-11-12|sol|Innsbruck	1	0	47	47	2	1	Landeck;Lienz
+d1923-de-at|1918-11-12|sol|Landeck	1	0	56	56	2	1	Bregenz;Innsbruck
+d1923-de-at|1923-10-28|sol|Bregenz	1	0	29	29	2	1	Feldkirch;Landeck
+d1923-de-at|1923-10-28|sol|Innsbruck	1	0	47	47	2	1	Landeck;Lienz
+d1923-de-at|1923-10-28|sol|Landeck	1	0	56	56	2	1	Bregenz;Innsbruck
+d1923-eritre-fransiz-somalisi|1901-07-10|sag|Aseb	1	0	69	69	2	1	Adi Kayh;Dahlak
+d1923-eritre-fransiz-somalisi|1923-10-28|sag|Aseb	1	0	69	69	2	1	Adi Kayh;Dahlak
+d1923-eritre-habesistan|1908-05-16|sag|Adigrat	1	0	50	50	2	1	Adua;Vukro
+d1923-eritre-habesistan|1908-05-16|sag|Vukro	1	0	155	155	2	1	Adigrat;Mekelle
+d1923-eritre-habesistan|1908-05-16|sol|Adi Kuala	1	0	30	30	2	1	Adi Kayh;Debârve
+d1923-eritre-habesistan|1923-10-28|sag|Adigrat	1	0	50	50	2	1	Adua;Vukro
+d1923-eritre-habesistan|1923-10-28|sag|Vukro	1	0	155	155	2	1	Adigrat;Mekelle
+d1923-eritre-habesistan|1923-10-28|sol|Adi Kuala	1	0	30	30	2	1	Adi Kayh;Debârve
+d1923-es-pt-kuzey|1866-11-04|sag|Braga	1	0	70	70	2	1	Bragança;Porto
+d1923-es-pt-kuzey|1866-11-04|sol|Salamanca	1	0	120	120	2	1	Badajoz;Vigo
+d1923-es-pt-kuzey|1923-10-28|sag|Braga	1	0	70	70	2	1	Bragança;Porto
+d1923-es-pt-kuzey|1923-10-28|sol|Salamanca	1	0	120	120	2	1	Badajoz;Vigo
+d1923-fi-lb|1923-03-07|sag|Deyrülkamer (Dayr al-Kamer)	1	0	53	53	2	1	Sayda;Şam
+d1923-fi-lb|1923-03-07|sag|Sayda	1	0	52	52	2	1	Deyrülkamer (Dayr al-Kamer);Sûr (Tyre) — Lübnan
+d1923-fi-lb|1923-10-28|sag|Deyrülkamer (Dayr al-Kamer)	1	0	53	53	2	1	Sayda;Şam
+d1923-fi-lb|1923-10-28|sag|Sayda	1	0	52	52	2	1	Deyrülkamer (Dayr al-Kamer);Sûr (Tyre) — Lübnan
+d1923-fi-no-bati|1917-12-06|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+d1923-fi-no-bati|1917-12-06|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+d1923-fi-no-bati|1923-10-28|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+d1923-fi-no-bati|1923-10-28|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+d1923-fi-no-bati|1923-10-28|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+d1923-fi-se|1917-12-06|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+d1923-fi-se|1923-10-28|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+d1923-fr-ch-savoy-1|1860-03-24|sol|Martigny (Martinach)	1	0	26	26	2	1	Lozan;Sion (Sitten)
+d1923-fr-ch-savoy-1|1923-10-28|sol|Martigny (Martinach)	1	0	26	26	2	1	Lozan;Sion (Sitten)
+d1923-fr-es-bati|1868-07-11|sag|Pau	1	0	73	73	2	1	Bayonne;Toulouse
+d1923-fr-es-bati|1868-07-11|sag|Toulouse	1	0	115	115	2	1	Pau;Perpignan
+d1923-fr-es-bati|1923-10-28|sag|Pau	1	0	73	73	2	1	Bayonne;Toulouse
+d1923-fr-es-bati|1923-10-28|sag|Toulouse	1	0	115	115	2	1	Pau;Perpignan
+d1923-fr-es-dogu|1868-07-11|sag|Perpignan	1	0	61	61	2	1	Narbonne;Toulouse
+d1923-fr-es-dogu|1923-10-28|sag|Perpignan	1	0	61	61	2	1	Narbonne;Toulouse
+d1923-fr-it-2|1861-03-17|sol|Bourg-Saint-Maurice	1	0	50	50	2	1	Chambéry;Thonon
+d1923-fr-it-2|1923-10-28|sol|Bourg-Saint-Maurice	1	0	50	50	2	1	Chambéry;Thonon
+d1923-fransiz-gine-sierra-leone|1896-08-31|sol|Falaba	1	0	79	79	2	1	Konakri (Conakry);Timbo
+d1923-fransiz-gine-sierra-leone|1896-08-31|sol|Konakri (Conakry)	1	0	111	111	2	1	Falaba;Timbo
+d1923-fransiz-gine-sierra-leone|1896-08-31|sol|Timbo	1	0	112	112	2	1	Falaba;Konakri (Conakry)
+d1923-fransiz-gine-sierra-leone|1923-10-28|sol|Konakri (Conakry)	1	0	111	111	2	1	Falaba;Timbo
+d1923-fransiz-gine-sierra-leone|1923-10-28|sol|Timbo	1	0	112	112	2	1	Falaba;Konakri (Conakry)
+d1923-fransiz-ingiliz-somalisi|1888-02-09|sol|Alî Sabîh	1	0	42	42	2	1	Cibûtî;Dikhil
+d1923-fransiz-ingiliz-somalisi|1888-02-09|sol|Cibûtî	1	0	28	28	2	1	Alî Sabîh;Tacûra
+d1923-fransiz-ingiliz-somalisi|1923-10-28|sol|Alî Sabîh	1	0	42	42	2	1	Cibûtî;Dikhil
+d1923-fransiz-ingiliz-somalisi|1923-10-28|sol|Cibûtî	1	0	28	28	2	1	Alî Sabîh;Tacûra
+d1923-gr-bg-bati|1913-08-10|sol|Nevrokop (Gotse Delçev)	1	0	31	31	2	1	Petriç;Tatarpazarcığı
+d1923-gr-bg-bati|1923-10-28|sol|Nevrokop (Gotse Delçev)	1	0	31	31	2	1	Petriç;Tatarpazarcığı
+d1923-gr-bg-dogu|1921-01-01|sag|Gümülcine	1	0	25	25	2	1	Dedeağaç (Alexandroupoli);İskeçe
+d1923-gr-bg-dogu|1921-01-01|sol|Nevrokop (Gotse Delçev)	1	0	33	33	2	1	Petriç;Tatarpazarcığı
+d1923-gr-bg-dogu|1923-10-28|sag|Gümülcine	1	0	25	25	2	1	Dedeağaç (Alexandroupoli);İskeçe
+d1923-gr-bg-dogu|1923-10-28|sol|Nevrokop (Gotse Delçev)	1	0	33	33	2	1	Petriç;Tatarpazarcığı
+d1923-gr-shs-1|1918-12-01|sol|Filorina (Florina)	1	0	21	21	2	1	Kesriye (Kastoria);Vodina (Edessa)
+d1923-gr-shs-1|1923-10-28|sol|Filorina (Florina)	1	0	21	21	2	1	Kesriye (Kastoria);Vodina (Edessa)
+d1923-gr-shs-2|1918-12-01|sag|Doyran	1	0	14	14	2	1	Gevgili (Gevgelija);Ustrumca (Strumica)
+d1923-gr-shs-2|1923-10-28|sag|Doyran	1	0	14	14	2	1	Gevgili (Gevgelija);Ustrumca (Strumica)
+d1923-guney-rodezya-mozambik|1923-10-01|sol|Cikualakuala	1	0	40	40	2	1	Mabalane;Massangena
+d1923-guney-rodezya-mozambik|1923-10-01|sol|Massangena	1	0	102	102	2	1	Cikualakuala;Umtali (Mutare)
+d1923-guney-rodezya-mozambik|1923-10-01|sol|Tete	1	0	136	136	2	1	Umtali (Mutare);Zumbo
+d1923-guney-rodezya-mozambik|1923-10-28|sol|Cikualakuala	1	0	40	40	2	1	Mabalane;Massangena
+d1923-guney-rodezya-mozambik|1923-10-28|sol|Massangena	1	0	102	102	2	1	Cikualakuala;Umtali (Mutare)
+d1923-guney-rodezya-mozambik|1923-10-28|sol|Tete	1	0	136	136	2	1	Umtali (Mutare);Zumbo
+d1923-habesistan-ingiliz-somalisi|1897-05-14|sag|Borama	1	0	45	45	2	1	Hargeysa;Zeyla
+d1923-habesistan-ingiliz-somalisi|1897-05-14|sag|Hargeysa	1	0	73	73	2	1	Borama;Odveyne
+d1923-habesistan-ingiliz-somalisi|1897-05-14|sag|Lasanod	1	0	74	74	2	1	Buhodle;Taleh
+d1923-habesistan-ingiliz-somalisi|1923-10-28|sag|Borama	1	0	45	45	2	1	Hargeysa;Zeyla
+d1923-habesistan-ingiliz-somalisi|1923-10-28|sag|Hargeysa	1	0	73	73	2	1	Borama;Odveyne
+d1923-habesistan-ingiliz-somalisi|1923-10-28|sag|Lasanod	1	0	74	74	2	1	Buhodle;Taleh
+d1923-hu-cs-1|1921-07-26|sag|Léva (Levice)	1	0	40	40	2	1	Fülek (Fiľakovo);Uyvar
+d1923-hu-cs-1|1921-07-26|sol|Vaç (Vác)	1	0	48	48	2	1	Estergon;Hatvan
+d1923-hu-cs-1|1923-10-28|sag|Léva (Levice)	1	0	40	40	2	1	Fülek (Fiľakovo);Uyvar
+d1923-hu-cs-1|1923-10-28|sol|Vaç (Vác)	1	0	48	48	2	1	Estergon;Hatvan
+d1923-hu-cs-2|1921-07-26|sag|Kassa (Košice)	1	0	44	44	2	1	Eperjes (Prešov);Fülek (Fiľakovo)
+d1923-hu-cs-2|1923-10-28|sag|Kassa (Košice)	1	0	44	44	2	1	Eperjes (Prešov);Fülek (Fiľakovo)
+d1923-hu-cs-rutenya|1921-07-26|sag|Ungvár (Uzhhorod)	1	0	45	45	2	1	Kassa (Košice);Munkács (Mukacheve)
+d1923-hu-cs-rutenya|1923-10-28|sag|Ungvár (Uzhhorod)	1	0	45	45	2	1	Kassa (Košice);Munkács (Mukacheve)
+d1923-hu-ro|1921-07-26|sol|Debrecen	1	0	46	46	2	1	Gyula (Göle);Tokaj
+d1923-hu-ro|1921-07-26|sol|Gyula (Göle)	1	0	30	30	2	1	Debrecen;Segedin (Szeged)
+d1923-hu-ro|1923-10-28|sol|Debrecen	1	0	46	46	2	1	Gyula (Göle);Tokaj
+d1923-hu-ro|1923-10-28|sol|Gyula (Göle)	1	0	30	30	2	1	Debrecen;Segedin (Szeged)
+d1923-hu-yu-hirvatistan|1921-07-26|sol|Lendava (Alsólendva)	1	0	16	16	2	1	Murska Sobota;Varasd (Varaždin)
+d1923-hu-yu-hirvatistan|1923-10-28|sol|Lendava (Alsólendva)	1	0	16	16	2	1	Murska Sobota;Varasd (Varaždin)
+d1923-hu-yu-sirbistan|1921-07-26|sol|Segedin (Szeged)	1	0	34	34	2	1	Kalocsa;Solnok (Szolnok)
+d1923-hu-yu-sirbistan|1923-10-28|sol|Segedin (Szeged)	1	0	34	34	2	1	Kalocsa;Solnok (Szolnok)
+d1923-hu-yu-slovenya|1921-07-26|sag|Lendava (Alsólendva)	1	0	25	25	2	1	Murska Sobota;Varasd (Varaždin)
+d1923-hu-yu-slovenya|1923-10-28|sag|Lendava (Alsólendva)	1	0	25	25	2	1	Murska Sobota;Varasd (Varaždin)
+d1923-ie-gb|1922-12-06|sag|Donegal	1	0	44	44	2	1	Athlone;Sligo
+d1923-ie-gb|1923-10-28|sag|Donegal	1	0	44	44	2	1	Athlone;Sligo
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Feyzâbâd (Ayodhya)	1	0	134	134	2	1	Gorakhpûr;Leknev (Lucknow)
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Gorakhpûr	1	0	107	107	2	1	Feyzâbâd (Ayodhya);Patna (Azîmâbâd)
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Leknev (Lucknow)	1	0	173	173	2	1	Feyzâbâd (Ayodhya);Kannauc
+d1923-ih-np-BILINMIYOR|1875-01-07|sol|Pandua (Hazret Pandua)	1	0	166	166	2	1	Bhâgalpûr;Râcmahal
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Feyzâbâd (Ayodhya)	1	0	134	134	2	1	Gorakhpûr;Leknev (Lucknow)
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Gorakhpûr	1	0	107	107	2	1	Feyzâbâd (Ayodhya);Patna (Azîmâbâd)
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Leknev (Lucknow)	1	0	173	173	2	1	Feyzâbâd (Ayodhya);Kannauc
+d1923-ih-np-BILINMIYOR|1923-10-28|sol|Pandua (Hazret Pandua)	1	0	166	166	2	1	Bhâgalpûr;Râcmahal
+d1923-iq-ir|1921-08-23|sag|Hânekîn	1	0	69	69	2	1	Kifri;Kût el-Amâre
+d1923-iq-ir|1921-08-23|sag|Kût el-Amâre	1	0	94	94	2	1	Hânekîn;Vâsıt
+d1923-iq-ir|1921-08-23|sag|Vâsıt	1	0	90	90	2	1	Ammâre;Kût el-Amâre
+d1923-iq-ir|1921-08-23|sol|Bâne	1	0	29	29	2	1	Merîvan;Serdeşt (Sardasht)
+d1923-iq-ir|1921-08-23|sol|Muhammere	1	0	50	50	2	1	Abâdân;Havîza
+d1923-iq-ir|1921-08-23|sol|Serdeşt (Sardasht)	1	0	34	34	2	1	Bâne;Mahabad (Sâvücbulak)
+d1923-iq-ir|1923-10-28|sag|Hânekîn	1	0	69	69	2	1	Kifri;Kût el-Amâre
+d1923-iq-ir|1923-10-28|sag|Kût el-Amâre	1	0	94	94	2	1	Hânekîn;Vâsıt
+d1923-iq-ir|1923-10-28|sag|Vâsıt	1	0	90	90	2	1	Ammâre;Kût el-Amâre
+d1923-iq-ir|1923-10-28|sol|Bâne	1	0	29	29	2	1	Merîvan;Serdeşt (Sardasht)
+d1923-iq-ir|1923-10-28|sol|Muhammere	1	0	50	50	2	1	Abâdân;Havîza
+d1923-iq-ir|1923-10-28|sol|Serdeşt (Sardasht)	1	0	34	34	2	1	Bâne;Mahabad (Sâvücbulak)
+d1923-it-at-1|1920-01-01|sol|Lienz	1	0	41	41	2	1	Innsbruck;Klagenfurt
+d1923-it-at-1|1923-10-28|sol|Lienz	1	0	41	41	2	1	Innsbruck;Klagenfurt
+d1923-it-at-2|1920-01-01|sag|Brixen (Bressanone)	1	0	65	65	2	1	Trento;Udine
+d1923-it-at-2|1923-10-28|sag|Brixen (Bressanone)	1	0	65	65	2	1	Trento;Udine
+d1923-it-ch|1861-03-17|sol|Luzern	1	0	93	93	2	1	Sion (Sitten);Zürih
+d1923-it-ch|1861-03-17|sol|Sion (Sitten)	1	0	65	65	2	1	Luzern;Martigny (Martinach)
+d1923-it-ch|1923-10-28|sol|Luzern	1	0	93	93	2	1	Sion (Sitten);Zürih
+d1923-it-ch|1923-10-28|sol|Sion (Sitten)	1	0	65	65	2	1	Luzern;Martigny (Martinach)
+d1923-kongo-fransiz-belcika|1910-01-15|sag|Sibiti	1	0	134	134	2	1	Cambala (Djambala);Puent-Nuar
+d1923-kongo-fransiz-belcika|1910-01-15|sag|İmpfondo	1	0	57	57	2	1	Bangi (Bangui);Epena
+d1923-kongo-fransiz-belcika|1910-01-15|sol|Mbandaka	1	0	87	87	2	1	Bandundu;Basankusu
+d1923-kongo-fransiz-belcika|1923-10-28|sag|Sibiti	1	0	134	134	2	1	Cambala (Djambala);Puent-Nuar
+d1923-kongo-fransiz-belcika|1923-10-28|sag|İmpfondo	1	0	57	57	2	1	Bangi (Bangui);Epena
+d1923-kongo-fransiz-belcika|1923-10-28|sol|Mbandaka	1	0	87	87	2	1	Bandundu;Basankusu
+d1923-liberya-fildisi-sahili|1911-01-01|sag|Harper	1	0	72	72	2	1	Grand Cess (Kru);Zwedru
+d1923-liberya-fildisi-sahili|1923-10-28|sag|Harper	1	0	72	72	2	1	Grand Cess (Kru);Zwedru
+d1923-lt-lv|1921-05-14|sag|Cēsis (Wenden)	1	0	137	137	2	1	Daugavpils (Dünaburg);Riga
+d1923-lt-lv|1921-05-14|sag|Daugavpils (Dünaburg)	1	0	55	55	2	1	Cēsis (Wenden);Rēzekne (Rositten)
+d1923-lt-lv|1923-10-28|sag|Cēsis (Wenden)	1	0	137	137	2	1	Daugavpils (Dünaburg);Riga
+d1923-lt-lv|1923-10-28|sag|Daugavpils (Dünaburg)	1	0	55	55	2	1	Cēsis (Wenden);Rēzekne (Rositten)
+d1923-lt-lv|1923-10-28|sol|Šiauliai	1	0	73	73	2	1	Kaunas;Klaipėda (Memel)
+d1923-malavi-mozambik|1907-01-01|sag|Mangoçi	1	0	57	57	2	1	Mankhamba (Maravi);Zomba
+d1923-malavi-mozambik|1907-01-01|sag|Zomba	1	0	77	77	2	1	Blantyre;Mangoçi
+d1923-malavi-mozambik|1907-01-01|sol|Sena	1	0	91	91	2	1	Quelimane;Tete
+d1923-malavi-mozambik|1923-10-28|sag|Mangoçi	1	0	57	57	2	1	Mankhamba (Maravi);Zomba
+d1923-malavi-mozambik|1923-10-28|sag|Zomba	1	0	77	77	2	1	Blantyre;Mangoçi
+d1923-malavi-mozambik|1923-10-28|sol|Sena	1	0	91	91	2	1	Quelimane;Tete
+d1923-mx-gt|1882-09-27|sol|Antigua Guatemala (Santiago de los Caballeros)	1	0	193	193	2	1	Jutiapa;Nojpetén (Tayasal / Flores)
+d1923-mx-gt|1923-10-28|sol|Antigua Guatemala (Santiago de los Caballeros)	1	0	193	193	2	1	Jutiapa;Nojpetén (Tayasal / Flores)
+d1923-nijer-nijerya|1910-02-19|sag|Katsina	1	0	64	64	2	1	Kano;Sokoto
+d1923-nijer-nijerya|1910-02-19|sol|Say	1	0	172	172	2	1	Birni-N'Konni;Filingue
+d1923-nijer-nijerya|1923-10-28|sag|Katsina	1	0	64	64	2	1	Kano;Sokoto
+d1923-nijer-nijerya|1923-10-28|sag|Kukava (Kukawa)	1	0	128	128	2	1	Birni N'gazargamu;Dikva (Dikeo)
+d1923-nijer-nijerya|1923-10-28|sol|Goure	1	0	92	92	2	1	Nguigmi;Zinder
+d1923-nijer-nijerya|1923-10-28|sol|Say	1	0	172	172	2	1	Birni-N'Konni;Filingue
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Garua (Garoua)	1	0	47	47	2	1	Marua (Maroua);Yola
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Marua (Maroua)	1	0	69	69	2	1	Dikva (Dikeo);Garua (Garoua)
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Vukari (Wukari)	1	0	137	137	2	1	Banyo;Makurdi
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sol|Ndjamena	1	0	61	61	2	1	Mao (Kanem);Massenya
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Garua (Garoua)	1	0	47	47	2	1	Marua (Maroua);Yola
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Marua (Maroua)	1	0	69	69	2	1	Dikva (Dikeo);Garua (Garoua)
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Vukari (Wukari)	1	0	137	137	2	1	Banyo;Makurdi
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sol|Ndjamena	1	0	61	61	2	1	Mao (Kanem);Massenya
+d1923-nl-de|1824-07-02|sag|Groningen	1	0	64	64	2	1	Leeuwarden;Nijmegen
+d1923-nl-de|1824-07-02|sag|Nijmegen	1	0	48	48	2	1	Maastricht;Utrecht
+d1923-nl-de|1824-07-02|sol|Dortmund	1	0	83	83	2	1	Köln;Münster
+d1923-nl-de|1923-10-28|sag|Groningen	1	0	64	64	2	1	Leeuwarden;Nijmegen
+d1923-nl-de|1923-10-28|sag|Nijmegen	1	0	48	48	2	1	Maastricht;Utrecht
+d1923-no-se|1905-06-07|sol|Oslo	1	0	78	78	2	1	Hamar;Tønsberg
+d1923-no-se|1923-10-28|sol|Oslo	1	0	78	78	2	1	Hamar;Tønsberg
+d1923-orta-afrika-cumhuriyeti-belcika-kongo|1923-10-28|sol|Rafai	1	0	44	44	2	1	Bangassu;Zemio
+d1923-orta-afrika-cumhuriyeti-belcika-kongo|1923-10-28|sol|Zemio	1	0	41	41	2	1	Obo;Rafai
+d1923-ro-su|1918-04-08|sol|Bender	1	0	33	33	2	1	Akkirman;Orhei
+d1923-ro-su|1918-04-08|sol|Orhei	1	0	45	45	2	1	Bender;Soroka (Soroca)
+d1923-ro-su|1923-10-28|sol|Bender	1	0	33	33	2	1	Akkirman;Orhei
+d1923-ro-su|1923-10-28|sol|Orhei	1	0	45	45	2	1	Bender;Soroka (Soroca)
+d1923-senegal-gambiya|1895-06-16|sag|Bulebane (Bundu)	1	0	172	172	2	1	Bakel;Kahone (Salum)
+d1923-senegal-gambiya|1923-10-28|sag|Bulebane (Bundu)	1	0	172	172	2	1	Bakel;Kahone (Salum)
+d1923-sudan-belcika-kongo|1910-06-16|sag|Maridi	1	0	72	72	2	1	Yambio;Yei
+d1923-sudan-belcika-kongo|1910-06-16|sag|Yambio	1	0	55	55	2	1	Maridi;Tembura
+d1923-sudan-belcika-kongo|1910-06-16|sag|Yei	1	0	68	68	2	1	Maridi;Nimule
+d1923-sudan-belcika-kongo|1923-10-28|sag|Maridi	1	0	72	72	2	1	Yambio;Yei
+d1923-sudan-belcika-kongo|1923-10-28|sag|Yambio	1	0	55	55	2	1	Maridi;Tembura
+d1923-sudan-belcika-kongo|1923-10-28|sag|Yei	1	0	68	68	2	1	Maridi;Nimule
+d1923-tanganika-mozambik|1922-07-20|sag|Mvembe (Mataka)	1	0	122	122	2	1	Songea (Ngoni);Tunduru
+d1923-tanganika-mozambik|1922-07-20|sag|Songea (Ngoni)	1	0	118	118	2	1	Mvembe (Mataka);Nkhotakota (Cumbe)
+d1923-tanganika-mozambik|1923-10-28|sag|Mvembe (Mataka)	1	0	122	122	2	1	Songea (Ngoni);Tunduru
+d1923-tanganika-mozambik|1923-10-28|sag|Songea (Ngoni)	1	0	118	118	2	1	Mvembe (Mataka);Nkhotakota (Cumbe)
+d1923-tr-ir-1|1920-04-23|sol|Doğubayazıt	1	0	29	29	2	1	Çaldıran;Şeyhrumi (Yücelen)
+d1923-tr-ir-1|1920-04-23|sol|Çaldıran	1	0	25	25	2	1	Doğubayazıt;Şeyhrumi (Yücelen)
+d1923-tr-ir-1|1923-10-28|sol|Doğubayazıt	1	0	29	29	2	1	Çaldıran;Şeyhrumi (Yücelen)
+d1923-tr-ir-1|1923-10-28|sol|Çaldıran	1	0	25	25	2	1	Doğubayazıt;Şeyhrumi (Yücelen)
+d1923-tr-ir-2|1920-04-23|sol|Bacirge (Esendere)	1	0	31	31	2	1	Başkale;Yüksekova (Gever)
+d1923-tr-ir-2|1920-04-23|sol|Başkale	1	0	30	30	2	1	Bacirge (Esendere);Yüksekova (Gever)
+d1923-tr-ir-2|1923-10-28|sol|Bacirge (Esendere)	1	0	31	31	2	1	Başkale;Yüksekova (Gever)
+d1923-tr-ir-2|1923-10-28|sol|Başkale	1	0	30	30	2	1	Bacirge (Esendere);Yüksekova (Gever)
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Norapat	1	0	32	32	2	1	Digor;Iğdır
+d1923-tr-sscb-ermenistan|1923-10-28|sag|Gümrü (Aleksandropol)	1	0	27	27	2	1	Ahılkelek (Akhalkalaki);Kliçatak (Suser)
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Artvin	1	0	17	17	2	1	Borçka;Saylıca
+d1923-tr-sscb-gurcistan|1923-10-28|sag|Ts’q’altbila	1	0	23	23	2	1	Ahıska;Zazalo
+d1923-tr-sy-dogu|1921-10-20|sag|Ayn el-Arab (Kobani)	1	0	24	24	2	1	Cerablus;Jadlā’
+d1923-tr-sy-dogu|1921-10-20|sol|Ceylanpınar	1	0	36	36	2	1	Akçakale;Mardin
+d1923-tr-sy-dogu|1921-10-20|sol|Nusaybin	1	0	32	32	2	1	Cibri (Güçlü);Midyat
+d1923-tr-sy-dogu|1923-10-28|sag|Ayn el-Arab (Kobani)	1	0	24	24	2	1	Cerablus;Jadlā’
+d1923-tr-sy-dogu|1923-10-28|sol|Ceylanpınar	1	0	36	36	2	1	Akçakale;Mardin
+d1923-tr-sy-dogu|1923-10-28|sol|Nusaybin	1	0	32	32	2	1	Cibri (Güçlü);Midyat
+d1923-uganda-belcika-kongo|1915-02-03|sag|Fort Portal (Toro)	1	0	53	53	2	1	Hoima (Bunyoro);Mbarara (Nkore)
+d1923-uganda-belcika-kongo|1915-02-03|sag|Mbarara (Nkore)	1	0	136	136	2	1	Bveranyange (Karagve);Fort Portal (Toro)
+d1923-uganda-belcika-kongo|1923-10-28|sag|Fort Portal (Toro)	1	0	53	53	2	1	Hoima (Bunyoro);Mbarara (Nkore)
+d1923-uganda-belcika-kongo|1923-10-28|sag|Mbarara (Nkore)	1	0	136	136	2	1	Bveranyange (Karagve);Fort Portal (Toro)
+d1923-uganda-belcika-kongo|1923-10-28|sol|Kigali	1	0	90	90	2	1	Butembo;Nyanza (Ruanda)
+d1923-us-mx-gadsden|1854-06-30|sag|Santa Rita del Cobre	1	0	127	127	2	1	Acoma Pueblo (Sky City);Tucson (San Agustín del Tucsón)
+d1923-us-mx-gadsden|1854-06-30|sag|Yuma geçidi (La Purísima Concepción)	1	0	105	105	2	1	San Diego (Misyon San Diego de Alcalá);Tubac
+d1923-us-mx-gadsden|1923-10-28|sag|Douglas (Arizona)	1	0	46	46	2	1	Santa Rita del Cobre;Tubac
+d1923-us-mx-gadsden|1923-10-28|sag|Tubac	1	0	56	56	2	1	Douglas (Arizona);Tucson (San Agustín del Tucsón)
+d1923-us-mx-gadsden|1923-10-28|sol|Sonoyta (Sonoita)	1	0	52	52	2	1	Arizpe;Misión San Vicente Ferrer
+d1923-us-mx-kaliforniya|1848-05-30|sag|San Diego (Misyon San Diego de Alcalá)	1	0	71	71	2	1	Los Ángeles (El Pueblo);Yuma geçidi (La Purísima Concepción)
+d1923-us-mx-kaliforniya|1923-10-28|sag|San Diego (Misyon San Diego de Alcalá)	1	0	71	71	2	1	Los Ángeles (El Pueblo);Yuma geçidi (La Purísima Concepción)
+dg2-gecici-no-bati|1917-03-15|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+dg2-gecici-no-bati|1917-03-15|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+dg2-gecici-no-bati|1917-03-15|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+dg2-gecici-no-bati|1917-11-06|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+dg2-gecici-no-bati|1917-11-06|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+dg2-gecici-no-bati|1917-11-06|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+dg2-gecici-no-petsamo|1917-03-15|sag|Petsamo (Peçenga)	1	0	56	56	2	1	Kola;İnari
+dg2-gecici-no-petsamo|1917-11-06|sag|Petsamo (Peçenga)	1	0	56	56	2	1	Kola;İnari
+dg2-gecici-se|1917-03-15|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+dg2-gecici-se|1917-11-06|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+dg2-rusya-no-bati|1905-06-07|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+dg2-rusya-no-bati|1905-06-07|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+dg2-rusya-no-bati|1905-06-07|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+dg2-rusya-no-bati|1917-03-14|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+dg2-rusya-no-bati|1917-03-14|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+dg2-rusya-no-bati|1917-03-14|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+dg2-rusya-no-petsamo|1905-06-07|sag|Petsamo (Peçenga)	1	0	56	56	2	1	Kola;İnari
+dg2-rusya-no-petsamo|1917-03-14|sag|Petsamo (Peçenga)	1	0	56	56	2	1	Kola;İnari
+dg2-rusya-se|1809-09-17|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+dg2-rusya-se|1917-03-14|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+dg2-sovyet-no-bati|1917-11-07|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+dg2-sovyet-no-bati|1917-11-07|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+dg2-sovyet-no-bati|1917-11-07|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+dg2-sovyet-no-bati|1917-12-05|sol|Rovaniemi	1	0	275	275	2	1	Sodankylä;Tornio
+dg2-sovyet-no-bati|1917-12-05|sol|Sodankylä	1	0	178	178	2	1	Rovaniemi;İnari
+dg2-sovyet-no-bati|1917-12-05|sol|İnari	1	0	117	117	2	1	Petsamo (Peçenga);Sodankylä
+dg2-sovyet-se|1917-11-07|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+dg2-sovyet-se|1917-12-05|sag|Jukkasjärvi	1	0	118	118	2	1	Jokkmokk;Luleå
+dg4-be-fr-fiili|1830-10-04|sol|Namur	1	0	75	75	2	1	Mons;Neufchâteau (Belçika)
+dg4-be-fr-fiili|1830-10-04|sol|Neufchâteau (Belçika)	1	0	46	46	2	1	Namur;Virton
+dg4-be-fr-fiili|1830-10-04|sol|Tournai	1	0	33	33	2	1	Mons;Ypres
+dg4-be-fr-fiili|1830-10-04|sol|Virton	1	0	25	25	2	1	Arlon;Neufchâteau (Belçika)
+dg4-be-fr-fiili|1830-10-04|sol|Ypres	1	0	32	32	2	1	Brüj (Brugge);Tournai
+dg4-be-fr-fiili|1839-04-18|sol|Namur	1	0	75	75	2	1	Mons;Neufchâteau (Belçika)
+dg4-be-fr-fiili|1839-04-18|sol|Neufchâteau (Belçika)	1	0	46	46	2	1	Namur;Virton
+dg4-be-fr-fiili|1839-04-18|sol|Tournai	1	0	33	33	2	1	Mons;Ypres
+dg4-be-fr-fiili|1839-04-18|sol|Virton	1	0	25	25	2	1	Arlon;Neufchâteau (Belçika)
+dg4-be-fr-fiili|1839-04-18|sol|Ypres	1	0	32	32	2	1	Brüj (Brugge);Tournai
+dg4-hab-ch-lombardiya|1815-06-09|sag|Landeck	1	0	52	52	2	1	Feldkirch;Trento
+dg4-hab-ch-lombardiya|1815-06-09|sag|Milano	1	0	87	87	2	1	Bergamo;Feldkirch
+dg4-hab-ch-lombardiya|1859-11-09|sag|Feldkirch	1	0	73	73	2	1	Bregenz;Landeck
+dg4-hab-ch-lombardiya|1859-11-09|sag|Landeck	1	0	52	52	2	1	Feldkirch;Trento
+dg4-nl-fr-kortrijk|1820-03-28|sol|Arlon	1	0	37	37	2	1	Lüksemburg;Virton
+dg4-nl-fr-kortrijk|1820-03-28|sol|Namur	1	0	75	75	2	1	Mons;Neufchâteau (Belçika)
+dg4-nl-fr-kortrijk|1820-03-28|sol|Neufchâteau (Belçika)	1	0	46	46	2	1	Namur;Virton
+dg4-nl-fr-kortrijk|1820-03-28|sol|Tournai	1	0	33	33	2	1	Mons;Ypres
+dg4-nl-fr-kortrijk|1820-03-28|sol|Virton	1	0	25	25	2	1	Arlon;Neufchâteau (Belçika)
+dg4-nl-fr-kortrijk|1820-03-28|sol|Ypres	1	0	32	32	2	1	Brüj (Brugge);Tournai
+dg4-nl-fr-kortrijk|1830-10-03|sol|Arlon	1	0	37	37	2	1	Lüksemburg;Virton
+dg4-nl-fr-kortrijk|1830-10-03|sol|Namur	1	0	75	75	2	1	Mons;Neufchâteau (Belçika)
+dg4-nl-fr-kortrijk|1830-10-03|sol|Neufchâteau (Belçika)	1	0	46	46	2	1	Namur;Virton
+dg4-nl-fr-kortrijk|1830-10-03|sol|Tournai	1	0	33	33	2	1	Mons;Ypres
+dg4-nl-fr-kortrijk|1830-10-03|sol|Virton	1	0	25	25	2	1	Arlon;Neufchâteau (Belçika)
+dg4-nl-fr-kortrijk|1830-10-03|sol|Ypres	1	0	32	32	2	1	Brüj (Brugge);Tournai
+dg4-sa-ch-piyemonte|1815-06-09|sol|Luzern	1	0	93	93	2	1	Sion (Sitten);Zürih
+dg4-sa-ch-piyemonte|1815-06-09|sol|Sion (Sitten)	1	0	65	65	2	1	Luzern;Martigny (Martinach)
+dg4-sa-ch-piyemonte|1861-03-16|sol|Luzern	1	0	93	93	2	1	Sion (Sitten);Zürih
+dg4-sa-ch-piyemonte|1861-03-16|sol|Sion (Sitten)	1	0	65	65	2	1	Luzern;Martigny (Martinach)
+dg4-sa-ch-valais|1815-06-09|sol|Martigny (Martinach)	1	0	26	26	2	1	Lozan;Sion (Sitten)
+dg4-sa-ch-valais|1860-03-23|sol|Martigny (Martinach)	1	0	26	26	2	1	Lozan;Sion (Sitten)
+dg4-sa-fr-1861-2|1861-03-07|sol|Bourg-Saint-Maurice	1	0	50	50	2	1	Chambéry;Thonon
+dg4-sa-fr-1861-2|1861-03-16|sol|Bourg-Saint-Maurice	1	0	50	50	2	1	Chambéry;Thonon
+dg6-dk-se-stromstad|1751-10-02|sol|Oslo	1	0	78	78	2	1	Hamar;Tønsberg
+dg6-dk-se-stromstad|1814-01-13|sol|Oslo	1	0	78	78	2	1	Hamar;Tønsberg
+g1-gr-srb-1|1918-11-30|sol|Filorina (Florina)	1	0	21	21	2	1	Kesriye (Kastoria);Vodina (Edessa)
+g1-gr-srb-2|1913-08-10|sag|Doyran	1	0	14	14	2	1	Gevgili (Gevgelija);Ustrumca (Strumica)
+g1-gr-srb-2|1918-11-30|sag|Doyran	1	0	14	14	2	1	Gevgili (Gevgelija);Ustrumca (Strumica)
+g1-osm-ir|1913-11-17|sag|Gōrabī	1	0	32	32	2	1	Balıklı;Rewândiz
+g1-osm-ir|1913-11-17|sag|Halepçe	1	0	29	29	2	1	Hânekîn;Şehrizor
+g1-osm-ir|1913-11-17|sag|Hânekîn	1	0	69	69	2	1	Kifri;Kût el-Amâre
+g1-osm-ir|1913-11-17|sag|Kût el-Amâre	1	0	94	94	2	1	Hânekîn;Vâsıt
+g1-osm-ir|1913-11-17|sag|Vâsıt	1	0	90	90	2	1	Ammâre;Kût el-Amâre
+g1-osm-ir|1913-11-17|sol|Bâne	1	0	29	29	2	1	Merîvan;Serdeşt (Sardasht)
+g1-osm-ir|1913-11-17|sol|Muhammere	1	0	50	50	2	1	Abâdân;Havîza
+g1-osm-ir|1913-11-17|sol|Serdeşt (Sardasht)	1	0	34	34	2	1	Bâne;Mahabad (Sâvücbulak)
+g2-af-sscb-bati-gecici|1917-03-15|sol|Belh	1	0	159	159	2	1	Herat;Kâbil
+g2-af-sscb-bati-gecici|1917-11-06|sol|Belh	1	0	159	159	2	1	Herat;Kâbil
+g2-af-sscb-bati-rusya|1888-01-26|sol|Belh	1	0	159	159	2	1	Herat;Kâbil
+g2-af-sscb-bati-rusya|1917-03-14|sol|Belh	1	0	159	159	2	1	Herat;Kâbil
+g3-bg-ro-dobruca-p4|1913-08-09|sag|Buzău	1	0	134	134	2	1	Bükreş;Köstence
+g3-bg-ro-dobruca-p4|1913-08-09|sag|Bükreş	1	0	100	100	2	1	Buzău;Yergöğü (Giurgiu)
+g3-br-imp-py-1|1872-03-26|sag|Tacuatí (Ypané)	1	0	115	115	2	1	Asunción;Fuerte Olimpo (Borbón)
+g3-br-imp-py-2|1889-11-14|sag|Fuerte Olimpo (Borbón)	1	0	124	124	2	1	Lengua misyonu (Paraguay Chaco);Tacuatí (Ypané)
+g4-bna-us-dogu|1842-01-01|sag|Norridgewock (Abenaki)	1	0	134	134	2	1	Falmouth (Portland, Maine);Pemaquid
+g4-bna-us-dogu|1842-01-01|sol|Duluth (Fond du Lac)	1	0	138	138	2	1	Fort St. Pierre (Rainy Lake);Grand Portage
+g4-bna-us-dogu|1842-01-01|sol|Grand Portage	1	0	66	66	2	1	Duluth (Fond du Lac);Fort William (Thunder Bay)
+g4-bna-us-dogu|1842-01-01|sol|Odanak (Abenaki)	1	0	152	152	2	1	Montreal (Ville-Marie);Trois-Rivières
+g4-bna-us-dogu|1842-01-01|sol|Saint John (NB)	1	0	122	122	2	1	Madawaska (Maliseet);Port Royal (Acadia)
+g4-bna-us-dogu|1842-01-01|sol|Tadoussac	1	0	137	137	2	1	Madawaska (Maliseet);Quebec
+g4-bna-us-dogu|1867-06-30|sag|Norridgewock (Abenaki)	1	0	134	134	2	1	Falmouth (Portland, Maine);Pemaquid
+g4-bna-us-dogu|1867-06-30|sol|Duluth (Fond du Lac)	1	0	138	138	2	1	Fort St. Pierre (Rainy Lake);Grand Portage
+g4-bna-us-dogu|1867-06-30|sol|Grand Portage	1	0	66	66	2	1	Duluth (Fond du Lac);Fort William (Thunder Bay)
+g4-bna-us-dogu|1867-06-30|sol|Odanak (Abenaki)	1	0	152	152	2	1	Montreal (Ville-Marie);Trois-Rivières
+g4-bna-us-dogu|1867-06-30|sol|Saint John (NB)	1	0	122	122	2	1	Madawaska (Maliseet);Port Royal (Acadia)
+g4-bna-us-dogu|1867-06-30|sol|Tadoussac	1	0	137	137	2	1	Madawaska (Maliseet);Quebec
+d1923-ca-us-dogu|1923-10-28|sol|Sault Ste. Marie	4	66	10	76	1	0	Michipicoten
+g4-bna-us-dogu|1842-01-01|sol|Sault Ste. Marie	4	66	11	76	1	0	Michipicoten
+d1923-ca-us-dogu|1867-07-01|sol|Sault Ste. Marie	3	66	11	76	1	0	Michipicoten
+g4-bna-us-dogu|1867-06-30|sol|Sault Ste. Marie	3	66	11	76	1	0	Michipicoten
+d1890-becuanaland-almanya-swa|1890-07-01|sag|Katima Mulilo	2	103	85	133	1	0	Gobabis
+d1890-becuanaland-almanya-swa|1915-07-08|sag|Katima Mulilo	2	103	85	133	1	0	Rundu
+d1891-guneyrodezya-mozambik-bsac|1891-06-11|sol|Zumbo	2	134	61	171	1	0	Tete
+d1923-ca-us-dogu|1867-07-01|sag|Detroit (Fort Pontchartrain du Détroit)	2	81	26	80	1	0	Saginaw (Ojibwe)
+d1923-ca-us-dogu|1923-10-28|sag|Detroit (Fort Pontchartrain du Détroit)	2	81	26	80	1	0	Saginaw (Ojibwe)
+d1923-cad-libya|1919-09-08|sag|Vûr	2	124	219	224	1	0	Bardaî
+d1923-cad-libya|1923-10-28|sag|Vûr	2	124	219	224	1	0	Bardaî
+d1923-fi-no-bati|1917-12-06|sag|Alta	2	97	119	150	1	0	Tromsø
+d1923-fi-no-bati|1923-10-28|sag|Alta	2	97	119	150	1	0	Tromsø
+d1923-fr-ch-savoy-2|1860-03-24|sol|Cenevre	2	11	13	23	1	0	Lozan
+d1923-fr-ch-savoy-2|1923-10-28|sol|Cenevre	2	11	13	23	1	0	Lozan
+d1923-hd-pt-orta|1916-08-17|sol|Atapupu	2	31	15	34	1	0	Noemuti
+d1923-hd-pt-orta|1923-10-28|sol|Atapupu	2	31	15	34	1	0	Noemuti
+d1923-ie-gb|1922-12-06|sol|Belfast	2	23	74	78	1	0	Derry
+d1923-ie-gb|1922-12-06|sol|Derry	2	100	25	92	1	0	Belfast
+d1923-ie-gb|1923-10-28|sol|Belfast	2	23	74	78	1	0	Derry
+d1923-ie-gb|1923-10-28|sol|Derry	2	100	25	92	1	0	Belfast
+d1923-it-at-1|1920-01-01|sag|Udine	2	19	64	70	1	0	Trieste
+d1923-it-at-1|1923-10-28|sag|Udine	2	19	64	70	1	0	Trieste
+d1923-mx-gt|1882-09-27|sol|Nojpetén (Tayasal / Flores)	2	213	117	119	1	0	Antigua Guatemala (Santiago de los Caballeros)
+d1923-mx-gt|1923-10-28|sol|Nojpetén (Tayasal / Flores)	2	213	117	119	1	0	Antigua Guatemala (Santiago de los Caballeros)
+d1923-oky-yenigine-kuzey-alman|1914-09-16|sol|Vanimo	2	77	62	128	1	0	Aitape (Eitape)
+d1923-oky-yenigine-kuzey-isgal-avustralya|1914-09-17|sol|Vanimo	2	78	61	128	1	0	Aitape (Eitape)
+d1923-oky-yenigine-kuzey-isgal-avustralya|1920-12-16|sol|Vanimo	2	78	61	128	1	0	Aitape (Eitape)
+d1923-oky-yenigine-kuzey|1920-12-17|sol|Vanimo	2	78	61	128	1	0	Aitape (Eitape)
+d1923-oky-yenigine-kuzey|1923-10-28|sol|Vanimo	2	78	61	128	1	0	Aitape (Eitape)
+d1923-senegal-gambiya|1895-06-16|sol|Albreda-Cufure	2	71	34	59	1	0	Bathurst (Banjul)
+d1923-senegal-gambiya|1895-06-16|sol|Bathurst (Banjul)	2	68	29	41	1	0	Albreda-Cufure
+d1923-senegal-gambiya|1923-10-28|sol|Albreda-Cufure	2	71	34	59	1	0	Bathurst (Banjul)
+d1923-senegal-gambiya|1923-10-28|sol|Bathurst (Banjul)	2	68	29	41	1	0	Albreda-Cufure
+dg2-gecici-no-bati|1917-03-15|sag|Alta	2	97	119	150	1	0	Tromsø
+dg2-gecici-no-bati|1917-11-06|sag|Alta	2	97	119	150	1	0	Tromsø
+dg2-rusya-no-bati|1905-06-07|sag|Alta	2	97	119	150	1	0	Tromsø
+dg2-rusya-no-bati|1917-03-14|sag|Alta	2	97	119	150	1	0	Tromsø
+dg2-sovyet-no-bati|1917-11-07|sag|Alta	2	97	119	150	1	0	Tromsø
+dg2-sovyet-no-bati|1917-12-05|sag|Alta	2	97	119	150	1	0	Tromsø
+dg4-sa-ch-cenevre|1816-03-16|sol|Cenevre	2	11	13	23	1	0	Lozan
+dg4-sa-ch-cenevre|1860-03-23|sol|Cenevre	2	11	13	23	1	0	Lozan
+g2-hd-pt-orta-1908|1916-08-16|sol|Atapupu	2	31	15	34	1	0	Noemuti
+g3-ih-cn-guney1-1-qing|1897-06-05|sol|Tengyue (Tengchong)	2	174	73	109	1	0	Yongchang (Baoshan)
+g3-ih-cn-guney1-1-qing|1911-10-09|sol|Tengyue (Tengchong)	2	174	73	109	1	0	Yongchang (Baoshan)
+g4-bna-us-dogu|1867-06-30|sag|Detroit (Fort Pontchartrain du Détroit)	2	81	26	80	1	0	Saginaw (Ojibwe)
+d1816-alm-ah-1|1816-05-01|sol|Landeck	1	0	36	36	1	0	Bregenz
+d1816-alm-ah-1|1844-01-29|sol|Landeck	1	0	36	36	1	0	Bregenz
+d1816-alm-ah-4|1816-05-01|sag|Regensburg	1	0	132	132	1	0	Münih
+d1816-alm-ah-4|1816-05-01|sol|Landeck	1	0	56	56	1	0	Innsbruck
+d1816-alm-ah-4|1844-01-29|sag|Regensburg	1	0	132	132	1	0	Münih
+d1816-alm-ah-4|1844-01-29|sol|Landeck	1	0	56	56	1	0	Innsbruck
+d1829-osm-rus-1|1829-09-14|sol|Arpaçay (Akyaka)	1	0	44	44	1	0	Hanak
+d1829-osm-rus-1|1829-09-14|sol|Hanak	1	0	35	35	1	0	Arpaçay (Akyaka)
+d1829-osm-rus-1|1829-09-14|sol|Hulo (Acara)	1	0	7	7	1	0	Makhalak’auri
+d1829-osm-rus-1|1829-09-14|sol|Posof	1	0	19	19	1	0	Makhalak’auri
+d1829-osm-rus-1|1878-07-12|sag|Ardahan	1	0	21	21	1	0	Hanak
+d1829-osm-rus-1|1878-07-12|sag|Ts’q’altbila	1	0	20	20	1	0	Hanak
+d1829-osm-rus-2|1878-07-12|sag|Ahılkelek (Akhalkalaki)	1	0	31	31	1	0	Arpaçay (Akyaka)
+d1829-osm-rus-2|1878-07-12|sag|Hanak	1	0	28	28	1	0	Arpaçay (Akyaka)
+d1829-osm-rus-2|1878-07-12|sag|Kars	1	0	18	18	1	0	Digor
+d1844-alm-ah|1844-01-30|sag|Regensburg	1	0	133	133	1	0	Münih
+d1844-alm-ah|1878-07-12|sag|Regensburg	1	0	133	133	1	0	Münih
+d1871-de-ch-alsas|1871-05-10|sol|Basel	1	0	15	15	1	0	Bern
+d1871-de-ch-alsas|1918-11-10|sol|Basel	1	0	15	15	1	0	Bern
+d1878-de-ah|1878-07-13|sag|Regensburg	1	0	133	133	1	0	Münih
+d1878-de-ah|1918-11-10|sag|Regensburg	1	0	133	133	1	0	Münih
+d1878-ru-ro-tuna-gecici-rk|1917-03-15|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-gecici-rk|1917-03-15|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-gecici-rk|1917-11-06|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-gecici-rk|1917-11-06|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-rus-rk|1881-03-26|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-rus-rk|1881-03-26|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-rus-rk|1917-03-14|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-rus-rk|1917-03-14|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-rus-rp|1878-08-03|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-rus-rp|1878-08-03|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-rus-rp|1881-03-25|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-rus-rp|1881-03-25|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-sovyet-rk|1917-11-07|sag|Kili	1	0	23	23	1	0	İsmail
+d1878-ru-ro-tuna-sovyet-rk|1917-11-07|sag|İsmail	1	0	20	20	1	0	Kili
+d1878-ru-ro-tuna-sovyet-rk|1918-04-07|sol|Kili	1	0	19	19	1	0	İsmail
+d1885-liberya-sierra-leone-mano|1885-11-11|sol|Gbarnga	1	0	166	166	1	0	Monrovia
+d1885-liberya-sierra-leone-mano|1885-11-11|sol|Monrovia	1	0	138	138	1	0	Gbarnga
+d1885-liberya-sierra-leone-mano|1910-12-31|sol|Gbarnga	1	0	166	166	1	0	Monrovia
+d1885-liberya-sierra-leone-mano|1910-12-31|sol|Monrovia	1	0	138	138	1	0	Gbarnga
+d1885-nijerya-kamerun-genel|1885-04-01|sag|Eski Kalabar	1	0	90	90	1	0	Bonny
+d1885-nijerya-kamerun-genel|1913-03-10|sag|Kukava (Kukawa)	1	0	75	75	1	0	Birni N'gazargamu
+d1885-nijerya-kamerun-genel|1913-03-10|sag|Vukari (Wukari)	1	0	141	141	1	0	Makurdi
+d1885-nijerya-kamerun-genel|1913-03-10|sol|Banyo	1	0	71	71	1	0	Tibati
+d1885-nijerya-kamerun-genel|1913-03-10|sol|Dikva (Dikeo)	1	0	64	64	1	0	Marua (Maroua)
+d1886-angola-almanya-swa|1915-07-08|sag|Katima Mulilo	1	0	107	107	1	0	Rundu
+d1886-angola-almanya-swa|1915-07-08|sol|Mosamedes (Namibe)	1	0	226	226	1	0	Lubango
+d1890-becuanaland-almanya-swa|1890-07-01|sag|Gobabis	1	0	132	132	1	0	Mariental
+d1890-becuanaland-almanya-swa|1890-07-01|sol|Seşeke (Sesheke)	1	0	66	66	1	0	Senanga
+d1890-becuanaland-almanya-swa|1915-07-08|sag|Gobabis	1	0	125	125	1	0	Aranos
+d1890-becuanaland-almanya-swa|1915-07-08|sol|Livingstone	1	0	76	76	1	0	Seşeke (Sesheke)
+d1890-becuanaland-almanya-swa|1915-07-08|sol|Seşeke (Sesheke)	1	0	59	59	1	0	Livingstone
+d1890-de-lu-lorraine|1890-11-23|sag|Lüksemburg	1	0	27	27	1	0	Wiltz
+d1890-de-lu-lorraine|1918-11-10|sag|Lüksemburg	1	0	27	27	1	0	Wiltz
+d1890-namrod-almanya-swa|1890-07-01|sag|Seşeke (Sesheke)	1	0	56	56	1	0	Senanga
+d1890-namrod-almanya-swa|1890-07-01|sol|Katima Mulilo	1	0	53	53	1	0	Gobabis
+d1890-namrod-almanya-swa|1915-07-08|sag|Livingstone	1	0	81	81	1	0	Seşeke (Sesheke)
+d1890-namrod-almanya-swa|1915-07-08|sag|Seşeke (Sesheke)	1	0	49	49	1	0	Livingstone
+d1890-namrod-almanya-swa|1915-07-08|sol|Katima Mulilo	1	0	53	53	1	0	Rundu
+d1891-guneyrodezya-mozambik-bsac|1923-09-30|sol|Zumbo	1	0	61	61	1	0	Tete
+d1892-liberya-fildisi-sahili-cavalla|1910-12-31|sol|Nzerekore	1	0	66	66	1	0	Man
+d1908-bg-bagimsiz-eski|1908-10-05|sol|Mustafapaşa (Svilengrad)	1	0	29	29	1	0	Elhova (Elhovo)
+d1908-bg-bagimsiz-eski|1909-04-18|sol|Mustafapaşa (Svilengrad)	1	0	29	29	1	0	Elhova (Elhovo)
+d1909-osm-bg-eski|1909-04-19|sol|Mustafapaşa (Svilengrad)	1	0	29	29	1	0	Elhova (Elhovo)
+d1909-osm-bg-eski|1913-05-29|sag|Dereköy (Kırklareli)	1	0	7	7	1	0	Kofçaz
+d1909-osm-bg-eski|1913-05-29|sag|Edirne	1	0	10	10	1	0	Lalapaşa
+d1909-osm-bg-eski|1913-05-29|sag|Kırklareli	1	0	15	15	1	0	Kofçaz
+d1909-osm-bg-eski|1913-05-29|sol|Mustafapaşa (Svilengrad)	1	0	29	29	1	0	Elhova (Elhovo)
+d1913-nijerya-kamerun-almanya|1913-03-11|sag|Kukava (Kukawa)	1	0	75	75	1	0	Birni N'gazargamu
+d1913-nijerya-kamerun-almanya|1913-03-11|sag|Vukari (Wukari)	1	0	141	141	1	0	Makurdi
+d1913-nijerya-kamerun-almanya|1913-03-11|sol|Banyo	1	0	71	71	1	0	Tibati
+d1913-nijerya-kamerun-almanya|1913-03-11|sol|Dikva (Dikeo)	1	0	64	64	1	0	Marua (Maroua)
+d1913-nijerya-kamerun-almanya|1916-02-17|sag|Kukava (Kukawa)	1	0	75	75	1	0	Birni N'gazargamu
+d1913-nijerya-kamerun-almanya|1916-02-17|sag|Vukari (Wukari)	1	0	141	141	1	0	Makurdi
+d1913-nijerya-kamerun-almanya|1916-02-17|sol|Banyo	1	0	71	71	1	0	Tibati
+d1913-nijerya-kamerun-almanya|1916-02-17|sol|Dikva (Dikeo)	1	0	64	64	1	0	Marua (Maroua)
+d1913-osm-bg-dogu|1913-09-29|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1913-osm-bg-dogu|1913-09-29|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1913-osm-bg-dogu|1915-09-05|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1913-osm-bg-dogu|1915-09-05|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1913-osm-ir-1|1913-11-17|sag|Mâku	1	0	25	25	1	0	Şeyh Salû-yi Ulyâ
+d1913-osm-ir-1|1913-11-17|sol|Şeyhrumi (Yücelen)	1	0	30	30	1	0	Çaldıran
+d1913-osm-ir-1|1920-04-22|sag|Mâku	1	0	25	25	1	0	Şeyh Salû-yi Ulyâ
+d1913-osm-ir-1|1920-04-22|sol|Şeyhrumi (Yücelen)	1	0	30	30	1	0	Çaldıran
+d1913-osm-ir-3|1913-11-17|sol|Gōrabī	1	0	15	15	1	0	Balıklı
+d1913-osm-ir-3|1920-04-22|sol|Balıklı	1	0	22	22	1	0	Şemdinli (Şemdinni)
+d1913-sr-mn|1918-11-25|sag|Foça (Foča)	1	0	25	25	1	0	Vişegrad
+d1915-osm-bg|1915-09-06|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1915-osm-bg|1915-09-06|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1915-osm-bg|1915-09-06|sol|Edirne	1	0	26	26	1	0	Lalapaşa
+d1915-osm-bg|1920-04-22|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1915-osm-bg|1920-04-22|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1915-osm-bg|1920-04-22|sol|Edirne	1	0	26	26	1	0	Lalapaşa
+d1916-nijerya-kamerun-isgal|1916-02-18|sag|Kukava (Kukawa)	1	0	75	75	1	0	Birni N'gazargamu
+d1916-nijerya-kamerun-isgal|1916-02-18|sag|Vukari (Wukari)	1	0	141	141	1	0	Makurdi
+d1916-nijerya-kamerun-isgal|1916-02-18|sol|Fumban (Bamum)	1	0	89	89	1	0	Yaunde
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Dikva (Dikeo)	1	0	72	72	1	0	Kukava (Kukawa)
+d1916-nijerya-kamerun-isgal|1919-07-09|sag|Kukava (Kukawa)	1	0	74	74	1	0	Dikva (Dikeo)
+d1916-nijerya-kamerun-isgal|1919-07-09|sol|Fumban (Bamum)	1	0	89	89	1	0	Yaunde
+d1916-ruanda-tanganyika-isgal|1916-05-01|sag|Mbarara (Nkore)	1	0	65	65	1	0	Bveranyange (Karagve)
+d1916-ruanda-tanganyika-isgal|1922-07-19|sag|Mbarara (Nkore)	1	0	65	65	1	0	Bveranyange (Karagve)
+d1916-ruanda-tanganyika-isgal|1922-07-19|sol|Kigali	1	0	97	97	1	0	Nyanza (Ruanda)
+d1917-filistin-misir-askeri-idare|1920-06-30|sol|Han Yûnus	1	0	48	48	1	0	Gazze
+d1917-no-sov-petsamo|1917-11-07|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+d1918-fi-su-fiili-1|1918-01-04|sol|Nurmes	1	0	137	137	1	0	Joensuu
+d1918-fi-su-fiili-1|1920-12-30|sol|Nurmes	1	0	137	137	1	0	Joensuu
+d1918-fi-su-fiili-3|1918-01-04|sol|Nurmes	1	0	62	62	1	0	Joensuu
+d1918-fi-su-fiili-3|1920-12-30|sol|Nurmes	1	0	62	62	1	0	Joensuu
+d1918-fr-ch-alsas-isgal|1918-11-11|sol|Basel	1	0	15	15	1	0	Bern
+d1918-fr-ch-alsas-isgal|1920-01-09|sol|Basel	1	0	15	15	1	0	Bern
+d1918-fr-de-isgal|1918-11-11|sol|Mulhouse	1	0	11	11	1	0	Colmar
+d1918-fr-de-isgal|1920-01-09|sag|Strazburg	1	0	41	41	1	0	Colmar
+d1918-fr-lu-lorraine-isgal|1918-11-11|sag|Lüksemburg	1	0	27	27	1	0	Wiltz
+d1918-fr-lu-lorraine-isgal|1920-01-09|sag|Lüksemburg	1	0	27	27	1	0	Wiltz
+d1918-it-at-ateskes-2|1918-11-12|sol|Innsbruck	1	0	41	41	1	0	Landeck
+d1918-it-at-ateskes-2|1919-12-31|sol|Innsbruck	1	0	41	41	1	0	Landeck
+d1918-it-hab-ateskes-2|1918-11-03|sol|Innsbruck	1	0	41	41	1	0	Landeck
+d1918-it-hab-ateskes-2|1918-11-10|sol|Innsbruck	1	0	41	41	1	0	Landeck
+d1919-at-cs-fiili-1|1919-01-01|sag|České Budějovice (Budweis)	1	0	61	61	1	0	Třeboň (Wittingau)
+d1919-at-cs-fiili-1|1919-01-01|sol|Gmünd (Aşağı Avusturya)	1	0	18	18	1	0	Freistadt
+d1919-at-cs-fiili-1|1919-01-01|sol|Linz	1	0	42	42	1	0	Freistadt
+d1919-at-cs-fiili-1|1920-07-15|sag|České Budějovice (Budweis)	1	0	61	61	1	0	Třeboň (Wittingau)
+d1919-at-cs-fiili-1|1920-07-15|sol|Gmünd (Aşağı Avusturya)	1	0	18	18	1	0	Freistadt
+d1919-at-cs-fiili-1|1920-07-15|sol|Linz	1	0	42	42	1	0	Freistadt
+d1919-at-cs-fiili-3|1919-01-01|sag|Brno	1	0	75	75	1	0	Olomouc
+d1919-at-cs-fiili-3|1920-07-15|sag|Bratislava	1	0	50	50	1	0	Brno
+d1919-hu-cs-fiili-1|1919-07-25|sol|Fülek (Fiľakovo)	1	0	34	34	1	0	Vaç (Vác)
+d1919-hu-cs-fiili-1|1919-07-25|sol|Léva (Levice)	1	0	25	25	1	0	Estergon
+d1919-hu-cs-fiili-1|1921-07-25|sag|Fülek (Fiľakovo)	1	0	27	27	1	0	Léva (Levice)
+d1919-hu-cs-fiili-1|1921-07-25|sag|Komárom (Komárno)	1	0	19	19	1	0	Uyvar
+d1919-hu-cs-fiili-1|1921-07-25|sol|Estergon	1	0	18	18	1	0	Vaç (Vác)
+d1919-hu-cs-fiili-2|1919-07-25|sag|Olomouc	1	0	284	284	1	0	Jeseník (Freiwaldau)
+d1919-hu-cs-fiili-2|1921-07-25|sag|Fülek (Fiľakovo)	1	0	45	45	1	0	Kassa (Košice)
+d1919-hu-cs-fiili-3|1919-07-25|sag|Olomouc	1	0	389	389	1	0	Jeseník (Freiwaldau)
+d1919-hu-cs-fiili-3|1919-07-25|sol|Kassa (Košice)	1	0	39	39	1	0	Tokaj
+d1919-hu-cs-fiili-3|1921-07-25|sag|Ungvár (Uzhhorod)	1	0	42	42	1	0	Munkács (Mukacheve)
+d1919-hu-cs-fiili-3|1921-07-25|sol|Tokaj	1	0	46	46	1	0	Debrecen
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Dikva (Dikeo)	1	0	72	72	1	0	Kukava (Kukawa)
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sag|Kukava (Kukawa)	1	0	74	74	1	0	Dikva (Dikeo)
+d1919-nijerya-kamerun-milner-oncesi|1919-07-10|sol|Fumban (Bamum)	1	0	89	89	1	0	Yaunde
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Dikva (Dikeo)	1	0	72	72	1	0	Kukava (Kukawa)
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sag|Kukava (Kukawa)	1	0	74	74	1	0	Dikva (Dikeo)
+d1919-nijerya-kamerun-milner-oncesi|1922-07-19|sol|Fumban (Bamum)	1	0	89	89	1	0	Yaunde
+d1920-filistin-misir-manda|1920-07-01|sol|Han Yûnus	1	0	49	49	1	0	Gazze
+d1920-filistin-misir-manda|1922-03-14|sol|Han Yûnus	1	0	49	49	1	0	Gazze
+d1920-hu-cs-rutenya-fiili|1920-08-30|sag|Munkács (Mukacheve)	1	0	43	43	1	0	Ungvár (Uzhhorod)
+d1920-hu-cs-rutenya-fiili|1921-07-25|sag|Munkács (Mukacheve)	1	0	43	43	1	0	Ungvár (Uzhhorod)
+d1920-hu-ro-fiili|1920-03-31|sol|Debrecen	1	0	34	34	1	0	Varad (Oradea)
+d1920-hu-ro-fiili|1920-03-31|sol|Segedin (Szeged)	1	0	46	46	1	0	Temeşvar
+d1920-hu-ro-fiili|1920-03-31|sol|Szatmár (Satu Mare)	1	0	50	50	1	0	Varad (Oradea)
+d1920-hu-ro-fiili|1920-03-31|sol|Temeşvar	1	0	54	54	1	0	Gyula (Göle)
+d1920-hu-ro-fiili|1921-07-25|sag|Szatmár (Satu Mare)	1	0	35	35	1	0	Varad (Oradea)
+d1920-hu-ro-fiili|1921-07-25|sag|Varad (Oradea)	1	0	32	32	1	0	Yanova (Ineu)
+d1920-hu-ro-fiili|1921-07-25|sol|Segedin (Szeged)	1	0	46	46	1	0	Gyula (Göle)
+d1920-tbmm-bg|1920-04-23|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1920-tbmm-bg|1920-04-23|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1920-tbmm-bg|1920-04-23|sol|Edirne	1	0	26	26	1	0	Lalapaşa
+d1920-tbmm-bg|1923-07-23|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1920-tbmm-bg|1923-07-23|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1920-tbmm-bg|1923-07-23|sol|Edirne	1	0	26	26	1	0	Lalapaşa
+d1920-yunan-isgal-bg|1920-07-01|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1920-yunan-isgal-bg|1922-10-13|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1922-mudanya-meric|1922-10-14|sag|Uluköy (Akçadam)	1	0	12	12	1	0	Küfkaynapınarı (Azatlı)
+d1922-mudanya-meric|1923-07-23|sag|Uluköy (Akçadam)	1	0	12	12	1	0	Küfkaynapınarı (Azatlı)
+d1923-af-sscb-bati|1917-11-07|sol|Herat	1	0	120	120	1	0	Belh
+d1923-af-sscb-bati|1923-10-28|sol|Herat	1	0	120	120	1	0	Belh
+d1923-af-sscb-pamir|1917-11-07|sag|Pamirski Post (Murgab)	1	0	106	106	1	0	Gunt vadisi (bölge)
+d1923-af-sscb-pamir|1917-11-07|sol|Serhad (Vahan)	1	0	59	59	1	0	Kala-i Pençe (Vahan)
+d1923-af-sscb-pamir|1923-10-28|sag|Pamirski Post (Murgab)	1	0	106	106	1	0	Gunt vadisi (bölge)
+d1923-af-sscb-pamir|1923-10-28|sol|Serhad (Vahan)	1	0	59	59	1	0	Kala-i Pençe (Vahan)
+d1923-al-yu-karadag-1|1921-11-09|sag|Podgorica	1	0	32	32	1	0	Cetinje
+d1923-al-yu-karadag-1|1921-11-09|sol|İşkodra	1	0	25	25	1	0	Leş (Alessio)
+d1923-al-yu-karadag-1|1923-10-28|sag|Podgorica	1	0	32	32	1	0	Cetinje
+d1923-al-yu-karadag-1|1923-10-28|sol|İşkodra	1	0	25	25	1	0	Leş (Alessio)
+d1923-al-yu-karadag-2|1921-11-09|sol|İşkodra	1	0	69	69	1	0	Leş (Alessio)
+d1923-al-yu-karadag-2|1923-10-28|sol|İşkodra	1	0	69	69	1	0	Leş (Alessio)
+d1923-al-yu-kosova|1921-11-09|sag|Debre (Dibra)	1	0	45	45	1	0	Prizren
+d1923-al-yu-kosova|1921-11-09|sag|Podgorica	1	0	61	61	1	0	Prizren
+d1923-al-yu-kosova|1923-10-28|sag|Debre (Dibra)	1	0	45	45	1	0	Prizren
+d1923-al-yu-kosova|1923-10-28|sag|Podgorica	1	0	61	61	1	0	Prizren
+d1923-al-yu-makedonya-1|1921-11-09|sag|Ohri	1	0	27	27	1	0	Debre (Dibra)
+d1923-al-yu-makedonya-1|1921-11-09|sag|Prizren	1	0	38	38	1	0	Debre (Dibra)
+d1923-al-yu-makedonya-1|1923-10-28|sag|Ohri	1	0	27	27	1	0	Debre (Dibra)
+d1923-al-yu-makedonya-1|1923-10-28|sag|Prizren	1	0	38	38	1	0	Debre (Dibra)
+d1923-al-yu-makedonya-2|1921-11-09|sag|Ohri	1	0	30	30	1	0	Manastır
+d1923-al-yu-makedonya-2|1923-10-28|sag|Ohri	1	0	30	30	1	0	Manastır
+d1923-altinkiyisi-fildisi-sahili|1895-06-16|sag|Bondugu (Gyaaman)	1	0	54	54	1	0	Elmina (São Jorge da Mina)
+d1923-altinkiyisi-fildisi-sahili|1895-06-16|sol|Assinie	1	0	91	91	1	0	Abomey
+d1923-altinkiyisi-fildisi-sahili|1923-10-28|sag|Begho (Bighu)	1	0	158	158	1	0	Bondugu (Gyaaman)
+d1923-altinkiyisi-fildisi-sahili|1923-10-28|sag|Bole	1	0	51	51	1	0	Bondugu (Gyaaman)
+d1923-angola-belcika-kongo|1908-11-15|sag|Boma	1	0	26	26	1	0	Matadi
+d1923-angola-belcika-kongo|1908-11-15|sag|Kolvezi	1	0	172	172	1	0	Sandoa
+d1923-angola-belcika-kongo|1908-11-15|sag|Matadi	1	0	24	24	1	0	Boma
+d1923-angola-belcika-kongo|1908-11-15|sag|Musumba	1	0	83	83	1	0	Sandoa
+d1923-angola-belcika-kongo|1908-11-15|sol|Dundo	1	0	66	66	1	0	Saurimo
+d1923-angola-belcika-kongo|1923-10-28|sag|Boma	1	0	26	26	1	0	Matadi
+d1923-angola-belcika-kongo|1923-10-28|sag|Kolvezi	1	0	172	172	1	0	Sandoa
+d1923-angola-belcika-kongo|1923-10-28|sag|Matadi	1	0	24	24	1	0	Boma
+d1923-angola-belcika-kongo|1923-10-28|sag|Musumba	1	0	83	83	1	0	Sandoa
+d1923-angola-belcika-kongo|1923-10-28|sol|Dundo	1	0	66	66	1	0	Saurimo
+d1923-angola-belcika-kongo|1923-10-28|sol|Kasance (Kasanje)	1	0	161	161	1	0	Malanje
+d1923-angola-belcika-kongo|1923-10-28|sol|Mbanza-Kongo (São Salvador)	1	0	78	78	1	0	Uije (Uíge)
+d1923-angola-guneybati-afrika|1920-12-17|sag|Ondangva (Ondonga)	1	0	129	129	1	0	Ondjiva (Ovambo)
+d1923-angola-guneybati-afrika|1920-12-17|sag|Ondjiva (Ovambo)	1	0	79	79	1	0	Ondangva (Ondonga)
+d1923-angola-guneybati-afrika|1920-12-17|sag|Senanga	1	0	180	180	1	0	Katima Mulilo
+d1923-angola-guneybati-afrika|1920-12-17|sol|Mosamedes (Namibe)	1	0	226	226	1	0	Lubango
+d1923-angola-guneybati-afrika|1923-10-28|sag|Ondangva (Ondonga)	1	0	129	129	1	0	Ondjiva (Ovambo)
+d1923-angola-guneybati-afrika|1923-10-28|sag|Ondjiva (Ovambo)	1	0	79	79	1	0	Ondangva (Ondonga)
+d1923-angola-guneybati-afrika|1923-10-28|sag|Senanga	1	0	180	180	1	0	Katima Mulilo
+d1923-angola-guneybati-afrika|1923-10-28|sol|Mosamedes (Namibe)	1	0	226	226	1	0	Lubango
+d1923-angola-kuzey-rodezya-barotseland|1911-05-17|sag|Kabompo	1	0	109	109	1	0	Zambezi (Balovale)
+d1923-angola-kuzey-rodezya-barotseland|1911-05-17|sag|Seşeke (Sesheke)	1	0	137	137	1	0	Senanga
+d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sag|Kabompo	1	0	109	109	1	0	Zambezi (Balovale)
+d1923-ar-br|1900-05-26|sag|Nonohay (Yukarı Uruguay)	1	0	153	153	1	0	Maçambará (Recreio)
+d1923-ar-br|1923-10-28|sag|Catanduvas (Paraná)	1	0	131	131	1	0	Nonohay (Yukarı Uruguay)
+d1923-ar-py-nehirler|1876-09-13|sag|Asunción	1	0	62	62	1	0	San Ignacio Guazú
+d1923-ar-py-nehirler|1876-09-13|sag|Encarnación (Itapúa)	1	0	59	59	1	0	San Ignacio Guazú
+d1923-ar-py-nehirler|1876-09-13|sag|San Ignacio Guazú	1	0	83	83	1	0	Encarnación (Itapúa)
+d1923-ar-py-nehirler|1876-09-13|sol|Corrientes	1	0	67	67	1	0	San Fernando (Resistencia)
+d1923-ar-py-nehirler|1923-10-28|sag|Asunción	1	0	62	62	1	0	San Ignacio Guazú
+d1923-ar-py-nehirler|1923-10-28|sag|Encarnación (Itapúa)	1	0	59	59	1	0	San Ignacio Guazú
+d1923-ar-py-nehirler|1923-10-28|sag|San Ignacio Guazú	1	0	83	83	1	0	Encarnación (Itapúa)
+d1923-ar-py-nehirler|1923-10-28|sol|Corrientes	1	0	67	67	1	0	San Fernando (Resistencia)
+d1923-at-cs-morava|1920-07-16|sag|Bratislava	1	0	44	44	1	0	Brno
+d1923-at-cs-morava|1920-07-16|sag|Brno	1	0	68	68	1	0	Bratislava
+d1923-at-cs-morava|1923-10-28|sag|Bratislava	1	0	44	44	1	0	Brno
+d1923-at-cs-morava|1923-10-28|sag|Brno	1	0	68	68	1	0	Bratislava
+d1923-at-cs|1920-07-16|sag|Bratislava	1	0	53	53	1	0	Brno
+d1923-at-cs|1920-07-16|sag|České Budějovice (Budweis)	1	0	61	61	1	0	Třeboň (Wittingau)
+d1923-at-cs|1920-07-16|sol|Linz	1	0	42	42	1	0	Freistadt
+d1923-at-cs|1923-10-28|sag|Bratislava	1	0	53	53	1	0	Brno
+d1923-at-cs|1923-10-28|sag|České Budějovice (Budweis)	1	0	61	61	1	0	Třeboň (Wittingau)
+d1923-at-cs|1923-10-28|sol|Linz	1	0	42	42	1	0	Freistadt
+d1923-at-hu-1|1921-07-26|sag|Sopron	1	0	26	26	1	0	Yanıkkale (Győr)
+d1923-at-hu-1|1923-10-28|sag|Sopron	1	0	20	20	1	0	Yanıkkale (Győr)
+d1923-at-yu-karintiya|1920-10-10|sag|Ljubljana	1	0	56	56	1	0	Maribor (Marburg)
+d1923-at-yu-karintiya|1920-10-10|sag|Maribor (Marburg)	1	0	48	48	1	0	Ljubljana
+d1923-at-yu-karintiya|1923-10-28|sag|Maribor (Marburg)	1	0	48	48	1	0	Ljubljana
+d1923-be-fr|1839-04-19|sag|Lille	1	0	23	23	1	0	Arras
+d1923-be-fr|1839-04-19|sol|Arlon	1	0	38	38	1	0	Virton
+d1923-be-fr|1923-10-28|sag|Lille	1	0	23	23	1	0	Arras
+d1923-be-fr|1923-10-28|sol|Arlon	1	0	38	38	1	0	Virton
+d1923-be-lu|1923-10-28|sol|St. Vith (Sankt Vith)	1	0	24	24	1	0	Bastogne
+d1923-be-nl-1|1839-04-19|sol|Anvers (Antwerpen)	1	0	28	28	1	0	Gent
+d1923-be-nl-1|1839-04-19|sol|Brüj (Brugge)	1	0	24	24	1	0	Gent
+d1923-be-nl-1|1923-10-28|sol|Anvers (Antwerpen)	1	0	28	28	1	0	Gent
+d1923-be-nl-1|1923-10-28|sol|Brüj (Brugge)	1	0	24	24	1	0	Gent
+d1923-be-nl-2|1839-04-19|sol|Liège	1	0	87	87	1	0	Anvers (Antwerpen)
+d1923-be-nl-2|1923-10-28|sol|Liège	1	0	87	87	1	0	Anvers (Antwerpen)
+d1923-bg-shs-1|1920-01-01|sag|Şehirköy (Pirot)	1	0	42	42	1	0	Niş
+d1923-bg-shs-1|1920-01-01|sol|Köstendil	1	0	49	49	1	0	Sofya
+d1923-bg-shs-1|1923-10-28|sag|Şehirköy (Pirot)	1	0	42	42	1	0	Niş
+d1923-bg-shs-1|1923-10-28|sol|Köstendil	1	0	49	49	1	0	Sofya
+d1923-bg-shs-2|1920-01-01|sag|Doyran	1	0	28	28	1	0	Ustrumca (Strumica)
+d1923-bg-shs-2|1923-10-28|sag|Doyran	1	0	28	28	1	0	Ustrumca (Strumica)
+d1923-br-pe-tabatinga-apaporis|1889-11-15|sol|São Paulo de Olivença	1	0	117	117	1	0	Tabatinga
+d1923-br-pe-tabatinga-apaporis|1889-11-15|sol|Tabatinga	1	0	59	59	1	0	São Paulo de Olivença
+d1923-br-pe-tabatinga-apaporis|1923-10-28|sol|São Paulo de Olivença	1	0	117	117	1	0	Tabatinga
+d1923-br-pe-tabatinga-apaporis|1923-10-28|sol|Tabatinga	1	0	59	59	1	0	São Paulo de Olivença
+d1923-br-py-1|1923-10-28|sol|Bonito (Mato Grosso do Sul)	1	0	131	131	1	0	Aquidauana
+d1923-br-py-2|1889-11-15|sag|Lengua misyonu (Paraguay Chaco)	1	0	112	112	1	0	Fuerte Olimpo (Borbón)
+d1923-br-py-2|1889-11-15|sag|Tacuatí (Ypané)	1	0	156	156	1	0	Fuerte Olimpo (Borbón)
+d1923-br-py-2|1923-10-28|sag|Lengua misyonu (Paraguay Chaco)	1	0	112	112	1	0	Fuerte Olimpo (Borbón)
+d1923-br-py-2|1923-10-28|sag|Tacuatí (Ypané)	1	0	156	156	1	0	Fuerte Olimpo (Borbón)
+d1923-br-py-2|1923-10-28|sol|Bonito (Mato Grosso do Sul)	1	0	143	143	1	0	Aquidauana
+d1923-ca-us-141|1870-07-15|sol|Kaktovik (Barter Adası)	1	0	129	129	1	0	Vashrąįį K'ǫǫ (Arctic Village)
+d1923-ca-us-141|1923-10-28|sol|Eagle (Fort Egbert)	1	0	61	61	1	0	Nabesna / Northway (Yukarı Tanana)
+d1923-ca-us-141|1923-10-28|sol|Kaktovik (Barter Adası)	1	0	129	129	1	0	Eagle (Fort Egbert)
+d1923-ca-us-bati-2|1871-07-20|sol|Fort Colvile	1	0	45	45	1	0	Spokane House
+d1923-ca-us-bati-2|1923-10-28|sol|Fort Macleod	1	0	118	118	1	0	Fort Calgary
+d1923-ca-us-bati-2|1923-10-28|sol|Spokane House	1	0	130	130	1	0	Fort Colvile
+d1923-ca-us-dogu|1867-07-01|sol|Bytown (Ottawa)	1	0	96	96	1	0	Fort Frontenac (Kingston)
+d1923-ca-us-dogu|1867-07-01|sol|Fort Frontenac (Kingston)	1	0	69	69	1	0	Bytown (Ottawa)
+d1923-ca-us-dogu|1867-07-01|sol|Trois-Rivières	1	0	164	164	1	0	Quebec
+d1923-ca-us-dogu|1867-07-01|sol|York (Toronto)	1	0	77	77	1	0	Fort Frontenac (Kingston)
+d1923-ca-us-dogu|1923-10-28|sol|Bytown (Ottawa)	1	0	96	96	1	0	Fort Frontenac (Kingston)
+d1923-ca-us-dogu|1923-10-28|sol|Fort Frontenac (Kingston)	1	0	69	69	1	0	Bytown (Ottawa)
+d1923-ca-us-dogu|1923-10-28|sol|Trois-Rivières	1	0	164	164	1	0	Quebec
+d1923-ca-us-dogu|1923-10-28|sol|York (Toronto)	1	0	77	77	1	0	Fort Frontenac (Kingston)
+d1923-ca-us-prairie|1870-07-15|sag|Knife River (Hidatsa köyleri)	1	0	204	204	1	0	Fort Union Trading Post
+d1923-ca-us-prairie|1923-10-28|sag|Knife River (Hidatsa köyleri)	1	0	204	204	1	0	Fort Union Trading Post
+d1923-ca-us-prairie|1923-10-28|sol|Fort Walsh (Cypress Hills)	1	0	87	87	1	0	Fort Macleod
+d1923-cad-libya|1919-09-08|sag|Bardaî	1	0	181	181	1	0	Vûr
+d1923-cad-libya|1919-09-08|sol|el-Katrûn	1	0	218	218	1	0	Zevîle (Zawila)
+d1923-cad-libya|1923-10-28|sag|Bardaî	1	0	181	181	1	0	Vûr
+d1923-cad-libya|1923-10-28|sol|el-Katrûn	1	0	218	218	1	0	Zevîle (Zawila)
+d1923-ch-de|1879-06-24|sol|Basel	1	0	13	13	1	0	Bern
+d1923-ch-de|1879-06-24|sol|Zürih	1	0	50	50	1	0	Luzern
+d1923-ch-de|1923-10-28|sol|Basel	1	0	13	13	1	0	Bern
+d1923-ch-de|1923-10-28|sol|Zürih	1	0	50	50	1	0	Luzern
+d1923-cn-fc-BILINMIYOR-laos|1923-10-28|sag|Muang Sing	1	0	53	53	1	0	Luang Prabang
+d1923-cn-fc-BILINMIYOR-laos|1923-10-28|sol|Chiang Hung (Jinghong)	1	0	102	102	1	0	Ning'er (Pu'er)
+d1923-cn-fc-BILINMIYOR-tonkin|1923-10-28|sag|Cao Bằng	1	0	62	62	1	0	Lạng Sơn
+d1923-cn-fc-BILINMIYOR-tonkin|1923-10-28|sol|Beihai (Pakhoi)	1	0	124	124	1	0	Nanning
+d1923-cn-fc-BILINMIYOR-tonkin|1923-10-28|sol|Kaihua (Wenshan)	1	0	93	93	1	0	Mengzi
+d1923-co-ec|1917-01-26|sol|Barbacoas	1	0	88	88	1	0	Popayán
+d1923-co-ec|1923-10-28|sol|Barbacoas	1	0	88	88	1	0	Popayán
+d1923-dahomey-nijerya|1906-10-19|sag|Busa (Borgu)	1	0	96	96	1	0	Nikki (Borgu)
+d1923-dahomey-nijerya|1906-10-19|sol|Abomey	1	0	111	111	1	0	Fada Ngurma (Gurma)
+d1923-dahomey-nijerya|1923-10-28|sag|Busa (Borgu)	1	0	96	96	1	0	Nikki (Borgu)
+d1923-dahomey-nijerya|1923-10-28|sol|Abomey	1	0	111	111	1	0	Notse
+d1923-de-at|1918-11-12|sag|Regensburg	1	0	133	133	1	0	Münih
+d1923-de-at|1918-11-12|sol|Linz	1	0	78	78	1	0	Freistadt
+d1923-de-at|1923-10-28|sag|Regensburg	1	0	133	133	1	0	Münih
+d1923-de-at|1923-10-28|sol|Linz	1	0	78	78	1	0	Freistadt
+d1923-dk-de|1920-07-05|sag|Ribe	1	0	56	56	1	0	Aabenraa
+d1923-dk-de|1920-07-05|sol|Flensburg	1	0	13	13	1	0	Kiel
+d1923-dk-de|1923-10-28|sag|Ribe	1	0	56	56	1	0	Aabenraa
+d1923-dk-de|1923-10-28|sol|Flensburg	1	0	13	13	1	0	Kiel
+d1923-eritre-habesistan|1908-05-16|sag|Şire	1	0	52	52	1	0	Aksum
+d1923-eritre-habesistan|1908-05-16|sol|Adi Kayh	1	0	103	103	1	0	Zula
+d1923-eritre-habesistan|1908-05-16|sol|Aseb	1	0	109	109	1	0	Adi Kayh
+d1923-eritre-habesistan|1908-05-16|sol|Tesseney	1	0	108	108	1	0	Barentu
+d1923-eritre-habesistan|1923-10-28|sag|Şire	1	0	52	52	1	0	Aksum
+d1923-eritre-habesistan|1923-10-28|sol|Adi Kayh	1	0	103	103	1	0	Zula
+d1923-eritre-habesistan|1923-10-28|sol|Aseb	1	0	109	109	1	0	Adi Kayh
+d1923-eritre-habesistan|1923-10-28|sol|Tesseney	1	0	108	108	1	0	Barentu
+d1923-es-ma-ceuta|1860-11-17|sol|Sebte (Ceuta)	1	0	18	18	1	0	Ronda
+d1923-es-ma-ceuta|1923-10-28|sol|Sebte (Ceuta)	1	0	18	18	1	0	Ronda
+d1923-es-ma-melilla|1894-03-05|sol|Melîle (Melilla)	1	0	20	20	1	0	el-Hüseyme (Alhucemas)
+d1923-es-ma-melilla|1923-10-28|sol|Melîle (Melilla)	1	0	20	20	1	0	el-Hüseyme (Alhucemas)
+d1923-es-pt-kuzey|1866-11-04|sag|Bragança	1	0	44	44	1	0	Braga
+d1923-es-pt-kuzey|1866-11-04|sag|Coimbra	1	0	125	125	1	0	Bragança
+d1923-es-pt-kuzey|1866-11-04|sol|Vigo	1	0	38	38	1	0	Santiago de Compostela
+d1923-es-pt-kuzey|1923-10-28|sag|Bragança	1	0	44	44	1	0	Braga
+d1923-es-pt-kuzey|1923-10-28|sag|Coimbra	1	0	125	125	1	0	Bragança
+d1923-es-pt-kuzey|1923-10-28|sol|Vigo	1	0	38	38	1	0	Santiago de Compostela
+d1923-es-pt-olivenza|1801-06-06|sol|Badajoz	1	0	36	36	1	0	Huelva
+d1923-es-pt-olivenza|1923-10-28|sol|Badajoz	1	0	36	36	1	0	Huelva
+d1923-fi-lb|1923-03-07|sag|Sûr (Tyre) — Lübnan	1	0	48	48	1	0	Sayda
+d1923-fi-lb|1923-03-07|sag|Şam	1	0	47	47	1	0	Deyrülkamer (Dayr al-Kamer)
+d1923-fi-lb|1923-10-28|sag|Sûr (Tyre) — Lübnan	1	0	48	48	1	0	Sayda
+d1923-fi-lb|1923-10-28|sag|Şam	1	0	47	47	1	0	Deyrülkamer (Dayr al-Kamer)
+d1923-fi-no-bati|1917-12-06|sag|Tromsø	1	0	112	112	1	0	Alta
+d1923-fi-no-bati|1917-12-06|sol|İnari	1	0	112	112	1	0	Sodankylä
+d1923-fi-no-bati|1923-10-28|sag|Tromsø	1	0	112	112	1	0	Alta
+d1923-fi-no-bati|1923-10-28|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+d1923-fi-no-petsamo|1920-12-31|sag|Petsamo (Peçenga)	1	0	56	56	1	0	İnari
+d1923-fi-no-petsamo|1920-12-31|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+d1923-fi-no-petsamo|1923-10-28|sag|Petsamo (Peçenga)	1	0	56	56	1	0	İnari
+d1923-fi-no-petsamo|1923-10-28|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+d1923-fi-se|1917-12-06|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+d1923-fi-se|1923-10-28|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+d1923-fi-su|1920-12-31|sol|Nurmes	1	0	109	109	1	0	Joensuu
+d1923-fi-su|1923-10-28|sol|Nurmes	1	0	109	109	1	0	Joensuu
+d1923-filistin-misir|1922-03-15|sol|Han Yûnus	1	0	49	49	1	0	Gazze
+d1923-filistin-misir|1923-10-28|sol|Han Yûnus	1	0	49	49	1	0	Gazze
+d1923-fr-ch-1|1814-05-30|sol|Cenevre	1	0	29	29	1	0	Lozan
+d1923-fr-ch-1|1923-10-28|sol|Cenevre	1	0	29	29	1	0	Lozan
+d1923-fr-ch-2|1814-05-30|sag|Besançon	1	0	60	60	1	0	Mulhouse
+d1923-fr-ch-2|1814-05-30|sag|Mulhouse	1	0	43	43	1	0	Colmar
+d1923-fr-ch-2|1814-05-30|sol|Bern	1	0	57	57	1	0	Basel
+d1923-fr-ch-2|1814-05-30|sol|Cenevre	1	0	48	48	1	0	Lozan
+d1923-fr-ch-2|1814-05-30|sol|Lozan	1	0	43	43	1	0	Cenevre
+d1923-fr-ch-2|1923-10-28|sag|Mulhouse	1	0	43	43	1	0	Colmar
+d1923-fr-ch-2|1923-10-28|sag|Thonon	1	0	77	77	1	0	Besançon
+d1923-fr-ch-2|1923-10-28|sol|Bern	1	0	57	57	1	0	Basel
+d1923-fr-ch-2|1923-10-28|sol|Cenevre	1	0	48	48	1	0	Lozan
+d1923-fr-ch-2|1923-10-28|sol|Lozan	1	0	43	43	1	0	Cenevre
+d1923-fr-ch-alsas|1920-01-10|sol|Basel	1	0	15	15	1	0	Bern
+d1923-fr-ch-alsas|1923-10-28|sol|Basel	1	0	15	15	1	0	Bern
+d1923-fr-ch-dappes|1862-12-08|sol|Cenevre	1	0	36	36	1	0	Lozan
+d1923-fr-ch-dappes|1923-10-28|sol|Cenevre	1	0	36	36	1	0	Lozan
+d1923-fr-ch-savoy-1|1860-03-24|sol|Lozan	1	0	34	34	1	0	Martigny (Martinach)
+d1923-fr-ch-savoy-1|1923-10-28|sol|Lozan	1	0	34	34	1	0	Martigny (Martinach)
+d1923-fr-de|1920-01-10|sag|Strazburg	1	0	41	41	1	0	Colmar
+d1923-fr-de|1923-10-28|sag|Strazburg	1	0	41	41	1	0	Colmar
+d1923-fr-es-bati|1868-07-11|sag|Bayonne	1	0	37	37	1	0	Pau
+d1923-fr-es-bati|1868-07-11|sol|Pamplona	1	0	56	56	1	0	San Sebastián
+d1923-fr-es-bati|1923-10-28|sag|Bayonne	1	0	37	37	1	0	Pau
+d1923-fr-es-bati|1923-10-28|sol|Pamplona	1	0	56	56	1	0	San Sebastián
+d1923-fr-es-dogu|1868-07-11|sag|Toulouse	1	0	131	131	1	0	Perpignan
+d1923-fr-es-dogu|1923-10-28|sag|Toulouse	1	0	131	131	1	0	Perpignan
+d1923-fr-it-1|1861-03-17|sol|Bourg-Saint-Maurice	1	0	24	24	1	0	Thonon
+d1923-fr-it-1|1923-10-28|sol|Bourg-Saint-Maurice	1	0	24	24	1	0	Thonon
+d1923-fr-it-3|1861-03-17|sol|Bourg-Saint-Maurice	1	0	60	60	1	0	Chambéry
+d1923-fr-it-3|1923-10-28|sol|Bourg-Saint-Maurice	1	0	60	60	1	0	Chambéry
+d1923-fr-it-4|1861-03-17|sol|Bourg-Saint-Maurice	1	0	51	51	1	0	Chambéry
+d1923-fr-it-4|1923-10-28|sol|Bourg-Saint-Maurice	1	0	51	51	1	0	Chambéry
+d1923-fr-it-5|1861-03-17|sag|Torino	1	0	86	86	1	0	Aosta
+d1923-fr-it-5|1923-10-28|sag|Torino	1	0	86	86	1	0	Aosta
+d1923-fr-it-6|1861-03-17|sol|Nice	1	0	36	36	1	0	Toulon
+d1923-fr-it-6|1923-10-28|sol|Nice	1	0	36	36	1	0	Toulon
+d1923-fr-lu-lorraine|1920-01-10|sag|Lüksemburg	1	0	27	27	1	0	Wiltz
+d1923-fr-lu-lorraine|1923-10-28|sag|Lüksemburg	1	0	27	27	1	0	Wiltz
+d1923-fr-lu|1890-11-23|sag|Lüksemburg	1	0	30	30	1	0	Wiltz
+d1923-fr-lu|1923-10-28|sag|Lüksemburg	1	0	30	30	1	0	Wiltz
+d1923-fransiz-gine-portekiz-gine|1895-06-16|sag|Bissav (Bissau)	1	0	129	129	1	0	Kaşev (Cacheu)
+d1923-fransiz-gine-portekiz-gine|1923-10-28|sag|Bissav (Bissau)	1	0	129	129	1	0	Kaşev (Cacheu)
+d1923-fransiz-gine-sierra-leone|1923-10-28|sol|Nzerekore	1	0	177	177	1	0	Beyla
+d1923-gr-al|1921-11-09|sag|Filat (Filiates)	1	0	19	19	1	0	İgumenitsa (Gomenice)
+d1923-gr-al|1921-11-09|sag|Kesriye (Kastoria)	1	0	30	30	1	0	Filorina (Florina)
+d1923-gr-al|1921-11-09|sol|Ergiri (Ergirikasrı)	1	0	30	30	1	0	Delvine
+d1923-gr-al|1923-10-28|sag|Filat (Filiates)	1	0	19	19	1	0	İgumenitsa (Gomenice)
+d1923-gr-al|1923-10-28|sag|Kesriye (Kastoria)	1	0	30	30	1	0	Filorina (Florina)
+d1923-gr-al|1923-10-28|sol|Ergiri (Ergirikasrı)	1	0	30	30	1	0	Delvine
+d1923-gr-bg-bati|1913-08-10|sol|Petriç	1	0	19	19	1	0	Nevrokop (Gotse Delçev)
+d1923-gr-bg-bati|1923-10-28|sol|Petriç	1	0	19	19	1	0	Nevrokop (Gotse Delçev)
+d1923-gr-bg-dogu|1921-01-01|sag|Drama	1	0	52	52	1	0	Kavala
+d1923-gr-bg-dogu|1921-01-01|sag|Sofulu (Soufli)	1	0	35	35	1	0	Çirmen
+d1923-gr-bg-dogu|1923-10-28|sag|Drama	1	0	52	52	1	0	Kavala
+d1923-gr-bg-dogu|1923-10-28|sag|Sofulu (Soufli)	1	0	35	35	1	0	Çirmen
+d1923-gr-shs-1|1918-12-01|sag|Gevgili (Gevgelija)	1	0	24	24	1	0	Doyran
+d1923-gr-shs-1|1918-12-01|sol|Vodina (Edessa)	1	0	43	43	1	0	Yenice-i Vardar
+d1923-gr-shs-1|1923-10-28|sag|Gevgili (Gevgelija)	1	0	24	24	1	0	Doyran
+d1923-gr-shs-1|1923-10-28|sol|Vodina (Edessa)	1	0	43	43	1	0	Yenice-i Vardar
+d1923-guney-rodezya-mozambik|1923-10-01|sol|Zumbo	1	0	61	61	1	0	Tete
+d1923-guney-rodezya-mozambik|1923-10-28|sol|Zumbo	1	0	61	61	1	0	Tete
+d1923-habesistan-fransiz-somalisi|1897-03-20|sol|Alî Sabîh	1	0	32	32	1	0	Dikhil
+d1923-habesistan-fransiz-somalisi|1897-03-20|sol|Dikhil	1	0	41	41	1	0	Alî Sabîh
+d1923-habesistan-fransiz-somalisi|1923-10-28|sol|Alî Sabîh	1	0	32	32	1	0	Dikhil
+d1923-habesistan-fransiz-somalisi|1923-10-28|sol|Dikhil	1	0	41	41	1	0	Alî Sabîh
+d1923-hd-pt-orta|1916-08-17|sag|Maliana	1	0	17	17	1	0	Maucatar
+d1923-hd-pt-orta|1923-10-28|sag|Maliana	1	0	17	17	1	0	Maucatar
+d1923-hu-cs-1|1921-07-26|sag|Fülek (Fiľakovo)	1	0	27	27	1	0	Léva (Levice)
+d1923-hu-cs-1|1921-07-26|sag|Komárom (Komárno)	1	0	19	19	1	0	Uyvar
+d1923-hu-cs-1|1921-07-26|sol|Estergon	1	0	18	18	1	0	Vaç (Vác)
+d1923-hu-cs-1|1923-10-28|sag|Fülek (Fiľakovo)	1	0	27	27	1	0	Léva (Levice)
+d1923-hu-cs-1|1923-10-28|sag|Komárom (Komárno)	1	0	19	19	1	0	Uyvar
+d1923-hu-cs-1|1923-10-28|sol|Estergon	1	0	18	18	1	0	Vaç (Vác)
+d1923-hu-cs-2|1921-07-26|sag|Fülek (Fiľakovo)	1	0	45	45	1	0	Kassa (Košice)
+d1923-hu-cs-2|1923-10-28|sag|Fülek (Fiľakovo)	1	0	45	45	1	0	Kassa (Košice)
+d1923-hu-cs-3|1921-07-26|sag|Ungvár (Uzhhorod)	1	0	42	42	1	0	Munkács (Mukacheve)
+d1923-hu-cs-3|1921-07-26|sol|Tokaj	1	0	46	46	1	0	Debrecen
+d1923-hu-cs-3|1923-10-28|sag|Ungvár (Uzhhorod)	1	0	42	42	1	0	Munkács (Mukacheve)
+d1923-hu-cs-3|1923-10-28|sol|Tokaj	1	0	46	46	1	0	Debrecen
+d1923-hu-cs-rutenya|1921-07-26|sag|Munkács (Mukacheve)	1	0	43	43	1	0	Ungvár (Uzhhorod)
+d1923-hu-cs-rutenya|1923-10-28|sag|Munkács (Mukacheve)	1	0	43	43	1	0	Ungvár (Uzhhorod)
+d1923-hu-ro|1921-07-26|sag|Szatmár (Satu Mare)	1	0	35	35	1	0	Varad (Oradea)
+d1923-hu-ro|1921-07-26|sag|Varad (Oradea)	1	0	32	32	1	0	Yanova (Ineu)
+d1923-hu-ro|1921-07-26|sol|Segedin (Szeged)	1	0	46	46	1	0	Gyula (Göle)
+d1923-hu-ro|1923-10-28|sag|Szatmár (Satu Mare)	1	0	35	35	1	0	Varad (Oradea)
+d1923-hu-ro|1923-10-28|sag|Varad (Oradea)	1	0	32	32	1	0	Yanova (Ineu)
+d1923-hu-ro|1923-10-28|sol|Segedin (Szeged)	1	0	46	46	1	0	Gyula (Göle)
+d1923-hu-yu-hirvatistan|1921-07-26|sag|Kanije	1	0	23	23	1	0	Zigetvar
+d1923-hu-yu-hirvatistan|1921-07-26|sag|Mohaç	1	0	26	26	1	0	Peçuy
+d1923-hu-yu-hirvatistan|1921-07-26|sag|Zigetvar	1	0	29	29	1	0	Kanije
+d1923-hu-yu-hirvatistan|1921-07-26|sol|Baç (Bács)	1	0	45	45	1	0	Ösek (Osijek)
+d1923-hu-yu-hirvatistan|1921-07-26|sol|Ösek (Osijek)	1	0	51	51	1	0	Baç (Bács)
+d1923-hu-yu-hirvatistan|1923-10-28|sag|Kanije	1	0	23	23	1	0	Zigetvar
+d1923-hu-yu-hirvatistan|1923-10-28|sag|Mohaç	1	0	26	26	1	0	Peçuy
+d1923-hu-yu-hirvatistan|1923-10-28|sag|Zigetvar	1	0	29	29	1	0	Kanije
+d1923-hu-yu-hirvatistan|1923-10-28|sol|Baç (Bács)	1	0	45	45	1	0	Ösek (Osijek)
+d1923-hu-yu-hirvatistan|1923-10-28|sol|Ösek (Osijek)	1	0	51	51	1	0	Baç (Bács)
+d1923-hu-yu-sirbistan|1921-07-26|sag|Baç (Bács)	1	0	43	43	1	0	Ösek (Osijek)
+d1923-hu-yu-sirbistan|1921-07-26|sag|Ösek (Osijek)	1	0	54	54	1	0	Baç (Bács)
+d1923-hu-yu-sirbistan|1923-10-28|sag|Baç (Bács)	1	0	43	43	1	0	Ösek (Osijek)
+d1923-hu-yu-sirbistan|1923-10-28|sag|Ösek (Osijek)	1	0	54	54	1	0	Baç (Bács)
+d1923-hu-yu-slovenya|1921-07-26|sag|Murska Sobota	1	0	38	38	1	0	Lendava (Alsólendva)
+d1923-hu-yu-slovenya|1923-10-28|sag|Murska Sobota	1	0	38	38	1	0	Lendava (Alsólendva)
+d1923-ih-cn-guney1-1|1923-10-28|sag|Bhamo	1	0	62	62	1	0	Myitkyina
+d1923-ih-cn-guney1-1|1923-10-28|sag|Myitkyina	1	0	59	59	1	0	Bhamo
+d1923-ih-cn-guney1-1|1923-10-28|sol|Tengyue (Tengchong)	1	0	73	73	1	0	Yongchang (Baoshan)
+d1923-ih-cn-guney3|1923-10-28|sol|Chiang Hung (Jinghong)	1	0	59	59	1	0	Ning'er (Pu'er)
+d1923-ih-np-BILINMIYOR|1875-01-07|sag|Katmandu	1	0	107	107	0	0	
+d1923-ih-np-BILINMIYOR|1923-10-28|sag|Katmandu	1	0	107	107	0	0	
+d1923-iq-ir-DEGISTI-sattularap|1921-08-23|sol|Muhammere	1	0	24	24	1	0	Abâdân
+d1923-iq-ir-DEGISTI-sattularap|1923-10-28|sol|Muhammere	1	0	24	24	1	0	Abâdân
+d1923-iq-ir|1921-08-23|sag|Gōrabī	1	0	33	33	1	0	Rewândiz
+d1923-iq-ir|1921-08-23|sol|Dizfûl	1	0	106	106	1	0	Havîza
+d1923-iq-ir|1921-08-23|sol|Kasr-ı Şîrîn	1	0	32	32	1	0	Merîvan
+d1923-iq-ir|1921-08-23|sol|Merîvan	1	0	28	28	1	0	Bâne
+d1923-iq-ir|1923-10-28|sag|Gōrabī	1	0	33	33	1	0	Rewândiz
+d1923-iq-ir|1923-10-28|sol|Dizfûl	1	0	106	106	1	0	Havîza
+d1923-iq-ir|1923-10-28|sol|Kasr-ı Şîrîn	1	0	32	32	1	0	Merîvan
+d1923-iq-ir|1923-10-28|sol|Merîvan	1	0	28	28	1	0	Bâne
+d1923-ir-af-kuzey|1891-01-01|sag|Serahs	1	0	99	99	1	0	Turbet-i Câm
+d1923-ir-af-kuzey|1923-10-28|sag|Serahs	1	0	99	99	1	0	Turbet-i Câm
+d1923-it-at-2|1920-01-01|sol|Innsbruck	1	0	41	41	1	0	Landeck
+d1923-it-at-2|1923-10-28|sol|Innsbruck	1	0	41	41	1	0	Landeck
+d1923-it-ch|1861-03-17|sag|Aosta	1	0	28	28	1	0	Torino
+d1923-it-ch|1861-03-17|sag|Milano	1	0	92	92	1	0	Bergamo
+d1923-it-ch|1923-10-28|sag|Aosta	1	0	28	28	1	0	Torino
+d1923-it-ch|1923-10-28|sag|Milano	1	0	92	92	1	0	Bergamo
+d1923-jp-sscb-sahalin|1917-11-07|sag|Onor	1	0	41	41	1	0	Poronay yukarısı (bölge)
+d1923-jp-sscb-sahalin|1917-11-07|sag|Poronay yukarısı (bölge)	1	0	37	37	1	0	Onor
+d1923-jp-sscb-sahalin|1923-10-28|sag|Onor	1	0	41	41	1	0	Poronay yukarısı (bölge)
+d1923-jp-sscb-sahalin|1923-10-28|sag|Poronay yukarısı (bölge)	1	0	37	37	1	0	Onor
+d1923-kongo-fransiz-belcika|1910-01-15|sag|Epena	1	0	99	99	1	0	İmpfondo
+d1923-kongo-fransiz-belcika|1910-01-15|sol|Bandundu	1	0	135	135	1	0	Kikwit
+d1923-kongo-fransiz-belcika|1923-10-28|sag|Epena	1	0	99	99	1	0	İmpfondo
+d1923-kongo-fransiz-belcika|1923-10-28|sol|Bandundu	1	0	135	135	1	0	Kikwit
+d1923-liberya-fildisi-sahili|1911-01-01|sol|Nzerekore	1	0	66	66	1	0	Man
+d1923-liberya-fildisi-sahili|1923-10-28|sol|Nzerekore	1	0	66	66	1	0	Man
+d1923-liberya-sierra-leone|1911-01-01|sol|Gbarnga	1	0	166	166	1	0	Monrovia
+d1923-liberya-sierra-leone|1911-01-01|sol|Monrovia	1	0	138	138	1	0	Gbarnga
+d1923-liberya-sierra-leone|1923-10-28|sol|Gbarnga	1	0	166	166	1	0	Monrovia
+d1923-liberya-sierra-leone|1923-10-28|sol|Monrovia	1	0	138	138	1	0	Gbarnga
+d1923-lt-lv|1921-05-14|sag|Riga	1	0	92	92	1	0	Cēsis (Wenden)
+d1923-lt-lv|1921-05-14|sol|Šiauliai	1	0	73	73	1	0	Kaunas
+d1923-lt-lv|1923-10-28|sag|Riga	1	0	92	92	1	0	Cēsis (Wenden)
+d1923-lt-lv|1923-10-28|sol|Klaipėda (Memel)	1	0	85	85	1	0	Šiauliai
+d1923-malavi-mozambik|1907-01-01|sag|Çipata (Fort Jameson)	1	0	100	100	1	0	Mankhamba (Maravi)
+d1923-malavi-mozambik|1907-01-01|sol|Kuamba	1	0	82	82	1	0	Licinga
+d1923-malavi-mozambik|1907-01-01|sol|Licinga	1	0	57	57	1	0	Kuamba
+d1923-malavi-mozambik|1907-01-01|sol|Tete	1	0	88	88	1	0	Sena
+d1923-malavi-mozambik|1923-10-28|sag|Çipata (Fort Jameson)	1	0	100	100	1	0	Mankhamba (Maravi)
+d1923-malavi-mozambik|1923-10-28|sol|Kuamba	1	0	82	82	1	0	Licinga
+d1923-malavi-mozambik|1923-10-28|sol|Licinga	1	0	57	57	1	0	Kuamba
+d1923-malavi-mozambik|1923-10-28|sol|Tete	1	0	88	88	1	0	Sena
+d1923-mx-gt|1882-09-27|sag|San Cristóbal de las Casas (Ciudad Real)	1	0	133	133	1	0	Tonalá (Chiapas)
+d1923-mx-gt|1923-10-28|sag|San Cristóbal de las Casas (Ciudad Real)	1	0	133	133	1	0	Tonalá (Chiapas)
+d1923-necid-kuveyt-bati|1922-12-02|sag|Kuveyt	1	0	109	109	0	0	
+d1923-necid-kuveyt-bati|1923-10-28|sag|Kuveyt	1	0	109	109	0	0	
+d1923-necid-kuveyt-yay|1922-12-02|sag|Kuveyt	1	0	81	81	0	0	
+d1923-necid-kuveyt-yay|1923-10-28|sag|Kuveyt	1	0	81	81	0	0	
+d1923-nijer-nijerya|1910-02-19|sag|Birni N'gazargamu	1	0	163	163	1	0	Kukava (Kukawa)
+d1923-nijer-nijerya|1910-02-19|sag|Kukava (Kukawa)	1	0	128	128	1	0	Birni N'gazargamu
+d1923-nijer-nijerya|1910-02-19|sag|Sokoto	1	0	142	142	1	0	Busa (Borgu)
+d1923-nijer-nijerya|1910-02-19|sol|Goure	1	0	92	92	1	0	Zinder
+d1923-nijer-nijerya|1910-02-19|sol|Madaoua	1	0	69	69	1	0	Birni-N'Konni
+d1923-nijer-nijerya|1923-10-28|sag|Birni N'gazargamu	1	0	163	163	1	0	Kukava (Kukawa)
+d1923-nijer-nijerya|1923-10-28|sag|Sokoto	1	0	142	142	1	0	Busa (Borgu)
+d1923-nijer-nijerya|1923-10-28|sol|Madaoua	1	0	69	69	1	0	Birni-N'Konni
+d1923-nijer-nijerya|1923-10-28|sol|Nguigmi	1	0	75	75	1	0	Mao (Kanem)
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Dikva (Dikeo)	1	0	72	72	1	0	Kukava (Kukawa)
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sag|Kukava (Kukawa)	1	0	74	74	1	0	Dikva (Dikeo)
+d1923-nijerya-kamerun-milner-simon|1922-07-20|sol|Fumban (Bamum)	1	0	89	89	1	0	Yaunde
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Dikva (Dikeo)	1	0	72	72	1	0	Kukava (Kukawa)
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sag|Kukava (Kukawa)	1	0	74	74	1	0	Dikva (Dikeo)
+d1923-nijerya-kamerun-milner-simon|1923-10-28|sol|Fumban (Bamum)	1	0	89	89	1	0	Yaunde
+d1923-nl-de|1824-07-02|sol|Aachen	1	0	15	15	1	0	St. Vith (Sankt Vith)
+d1923-nl-de|1824-07-02|sol|Münster	1	0	72	72	1	0	Dortmund
+d1923-nl-de|1923-10-28|sol|Aachen	1	0	15	15	1	0	Köln
+d1923-nl-de|1923-10-28|sol|Dortmund	1	0	74	74	1	0	Münster
+d1923-nl-de|1923-10-28|sol|Münster	1	0	71	71	1	0	Dortmund
+d1923-no-se|1905-06-07|sag|Jukkasjärvi	1	0	111	111	1	0	Jokkmokk
+d1923-no-se|1905-06-07|sag|Mora	1	0	105	105	1	0	Karlstad
+d1923-no-se|1905-06-07|sag|Uddevalla	1	0	92	92	1	0	Göteborg
+d1923-no-se|1905-06-07|sag|Östersund (Jämtland)	1	0	134	134	1	0	Mora
+d1923-no-se|1905-06-07|sol|Mosjøen	1	0	105	105	1	0	Bodø
+d1923-no-se|1905-06-07|sol|Tromsø	1	0	133	133	1	0	Bodø
+d1923-no-se|1923-10-28|sag|Jukkasjärvi	1	0	111	111	1	0	Jokkmokk
+d1923-no-se|1923-10-28|sag|Mora	1	0	105	105	1	0	Karlstad
+d1923-no-se|1923-10-28|sag|Uddevalla	1	0	92	92	1	0	Göteborg
+d1923-no-se|1923-10-28|sag|Östersund (Jämtland)	1	0	134	134	1	0	Mora
+d1923-no-se|1923-10-28|sol|Mosjøen	1	0	105	105	1	0	Bodø
+d1923-no-se|1923-10-28|sol|Tromsø	1	0	133	133	1	0	Bodø
+d1923-orta-afrika-cumhuriyeti-belcika-kongo|1923-10-28|sol|Bangassu	1	0	46	46	1	0	Rafai
+d1923-orta-afrika-cumhuriyeti-belcika-kongo|1923-10-28|sol|Obo	1	0	60	60	1	0	Zemio
+d1923-portekiz-gine-senegal|1906-07-12|sol|Bissav (Bissau)	1	0	137	137	1	0	Kaşev (Cacheu)
+d1923-portekiz-gine-senegal|1906-07-12|sol|Kaşev (Cacheu)	1	0	47	47	1	0	Bissav (Bissau)
+d1923-portekiz-gine-senegal|1923-10-28|sol|Bissav (Bissau)	1	0	137	137	1	0	Kaşev (Cacheu)
+d1923-portekiz-gine-senegal|1923-10-28|sol|Kaşev (Cacheu)	1	0	47	47	1	0	Bissav (Bissau)
+d1923-ro-su|1918-04-08|sag|Bar (Podolya)	1	0	62	62	1	0	Kamaniçe
+d1923-ro-su|1918-04-08|sol|Hotin	1	0	13	13	1	0	Roman
+d1923-ro-su|1918-04-08|sol|Soroka (Soroca)	1	0	25	25	1	0	Orhei
+d1923-ro-su|1923-10-28|sag|Bar (Podolya)	1	0	62	62	1	0	Kamaniçe
+d1923-ro-su|1923-10-28|sol|Hotin	1	0	13	13	1	0	Çernovitz (Çernivtsi)
+d1923-ro-su|1923-10-28|sol|Soroka (Soroca)	1	0	25	25	1	0	Orhei
+d1923-ruanda-tanganyika|1922-07-20|sag|Mbarara (Nkore)	1	0	65	65	1	0	Bveranyange (Karagve)
+d1923-ruanda-tanganyika|1922-07-20|sol|Kigali	1	0	97	97	1	0	Nyanza (Ruanda)
+d1923-ruanda-tanganyika|1923-10-28|sag|Mbarara (Nkore)	1	0	65	65	1	0	Bveranyange (Karagve)
+d1923-ruanda-tanganyika|1923-10-28|sol|Kigali	1	0	97	97	1	0	Nyanza (Ruanda)
+d1923-senegal-gambiya|1895-06-16|sag|Kahone (Salum)	1	0	120	120	1	0	Diahav (Sine)
+d1923-senegal-gambiya|1923-10-28|sag|Kahone (Salum)	1	0	120	120	1	0	Diahav (Sine)
+d1923-sudan-belcika-kongo|1910-06-16|sag|Tembura	1	0	83	83	1	0	Yambio
+d1923-sudan-belcika-kongo|1923-10-28|sag|Tembura	1	0	83	83	1	0	Yambio
+d1923-tanganika-mozambik|1922-07-20|sag|Mikindani	1	0	56	56	1	0	Lindi
+d1923-tanganika-mozambik|1923-10-28|sag|Mikindani	1	0	56	56	1	0	Lindi
+d1923-tr-bg|1923-07-24|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1923-tr-bg|1923-07-24|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1923-tr-bg|1923-07-24|sol|Edirne	1	0	26	26	1	0	Lalapaşa
+d1923-tr-bg|1923-10-28|sag|Malko Tırnova	1	0	14	14	1	0	Ahtapolu (Ahtopol)
+d1923-tr-bg|1923-10-28|sol|Dereköy (Kırklareli)	1	0	13	13	1	0	Kofçaz
+d1923-tr-bg|1923-10-28|sol|Edirne	1	0	26	26	1	0	Lalapaşa
+d1923-tr-gr-1|1923-07-24|sol|Uluköy (Akçadam)	1	0	12	12	1	0	Küfkaynapınarı (Azatlı)
+d1923-tr-gr-1|1923-10-28|sol|Uluköy (Akçadam)	1	0	12	12	1	0	Küfkaynapınarı (Azatlı)
+d1923-tr-ir-1|1920-04-23|sag|Mâku	1	0	25	25	1	0	Şeyh Salû-yi Ulyâ
+d1923-tr-ir-1|1920-04-23|sol|Şeyhrumi (Yücelen)	1	0	30	30	1	0	Çaldıran
+d1923-tr-ir-1|1923-10-28|sag|Mâku	1	0	25	25	1	0	Şeyh Salû-yi Ulyâ
+d1923-tr-ir-1|1923-10-28|sol|Şeyhrumi (Yücelen)	1	0	30	30	1	0	Çaldıran
+d1923-tr-ir-3|1920-04-23|sol|Balıklı	1	0	22	22	1	0	Şemdinli (Şemdinni)
+d1923-tr-ir-3|1923-10-28|sol|Balıklı	1	0	22	22	1	0	Şemdinli (Şemdinni)
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Ahılkelek (Akhalkalaki)	1	0	31	31	1	0	Arpaçay (Akyaka)
+d1923-tr-sscb-ermenistan|1921-03-16|sag|Hanak	1	0	28	28	1	0	Arpaçay (Akyaka)
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Sarp	1	0	13	13	1	0	Borçka
+d1923-tr-sscb-gurcistan|1921-03-16|sag|Ts’q’altbila	1	0	20	20	1	0	Hanak
+d1923-tr-sscb-gurcistan|1923-10-28|sol|Hanak	1	0	36	36	1	0	Arpaçay (Akyaka)
+d1923-tr-sscb-gurcistan|1923-10-28|sol|Sarp	1	0	5	5	1	0	Hopa
+d1923-tr-sy-dogu|1921-10-20|sag|Babū	1	0	23	23	1	0	Ḩīmū
+d1923-tr-sy-dogu|1921-10-20|sag|Cerablus	1	0	26	26	1	0	Münbiç
+d1923-tr-sy-dogu|1921-10-20|sag|Malikiye (Derik)	1	0	35	35	1	0	Ḩīmū
+d1923-tr-sy-dogu|1921-10-20|sag|Qaţţīnah	1	0	33	33	1	0	Babū
+d1923-tr-sy-dogu|1921-10-20|sag|Ḩīmū	1	0	15	15	1	0	Babū
+d1923-tr-sy-dogu|1921-10-20|sol|Akçakale	1	0	53	53	1	0	Ceylanpınar
+d1923-tr-sy-dogu|1921-10-20|sol|Cibri (Güçlü)	1	0	44	44	1	0	Nusaybin
+d1923-tr-sy-dogu|1921-10-20|sol|Kilis	1	0	17	17	1	0	Antep
+d1923-tr-sy-dogu|1923-10-28|sag|Babū	1	0	23	23	1	0	Ḩīmū
+d1923-tr-sy-dogu|1923-10-28|sag|Cerablus	1	0	26	26	1	0	Münbiç
+d1923-tr-sy-dogu|1923-10-28|sag|Malikiye (Derik)	1	0	35	35	1	0	Ḩīmū
+d1923-tr-sy-dogu|1923-10-28|sag|Qaţţīnah	1	0	33	33	1	0	Babū
+d1923-tr-sy-dogu|1923-10-28|sag|Ḩīmū	1	0	15	15	1	0	Babū
+d1923-tr-sy-dogu|1923-10-28|sol|Akçakale	1	0	53	53	1	0	Ceylanpınar
+d1923-tr-sy-dogu|1923-10-28|sol|Cibri (Güçlü)	1	0	44	44	1	0	Nusaybin
+d1923-tr-sy-dogu|1923-10-28|sol|Kilis	1	0	17	17	1	0	Antep
+d1923-uganda-belcika-kongo|1915-02-03|sol|Butembo	1	0	62	62	1	0	Bunia
+d1923-uganda-belcika-kongo|1923-10-28|sol|Butembo	1	0	62	62	1	0	Bunia
+d1923-us-mx-gadsden|1854-06-30|sag|Tubac	1	0	66	66	1	0	Tucson (San Agustín del Tucsón)
+d1923-us-mx-gadsden|1923-10-28|sag|Santa Rita del Cobre	1	0	127	127	1	0	Douglas (Arizona)
+d1923-us-mx-gadsden|1923-10-28|sol|El Paso del Norte	1	0	48	48	1	0	Villa Ahumada
+d1923-us-mx-kaliforniya|1848-05-30|sag|Yuma geçidi (La Purísima Concepción)	1	0	75	75	1	0	San Diego (Misyon San Diego de Alcalá)
+d1923-us-mx-kaliforniya|1923-10-28|sag|Yuma geçidi (La Purísima Concepción)	1	0	75	75	1	0	San Diego (Misyon San Diego de Alcalá)
+dg2-gecici-no-bati|1917-03-15|sag|Tromsø	1	0	112	112	1	0	Alta
+dg2-gecici-no-bati|1917-03-15|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+dg2-gecici-no-bati|1917-11-06|sag|Tromsø	1	0	112	112	1	0	Alta
+dg2-gecici-no-bati|1917-11-06|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+dg2-gecici-no-petsamo|1917-03-15|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+dg2-gecici-no-petsamo|1917-11-06|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+dg2-gecici-se|1917-03-15|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+dg2-gecici-se|1917-11-06|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+dg2-rusya-no-bati|1905-06-07|sag|Tromsø	1	0	112	112	1	0	Alta
+dg2-rusya-no-bati|1905-06-07|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+dg2-rusya-no-bati|1917-03-14|sag|Tromsø	1	0	112	112	1	0	Alta
+dg2-rusya-no-bati|1917-03-14|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+dg2-rusya-no-petsamo|1905-06-07|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+dg2-rusya-no-petsamo|1917-03-14|sag|İnari	1	0	83	83	1	0	Petsamo (Peçenga)
+dg2-rusya-se|1809-09-17|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+dg2-rusya-se|1917-03-14|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+dg2-sovyet-no-bati|1917-11-07|sag|Tromsø	1	0	112	112	1	0	Alta
+dg2-sovyet-no-bati|1917-11-07|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+dg2-sovyet-no-bati|1917-12-05|sag|Tromsø	1	0	112	112	1	0	Alta
+dg2-sovyet-no-bati|1917-12-05|sol|Petsamo (Peçenga)	1	0	70	70	1	0	İnari
+dg2-sovyet-se|1917-11-07|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+dg2-sovyet-se|1917-12-05|sag|Luleå	1	0	282	282	1	0	Jukkasjärvi
+dg4-be-fr-fiili|1830-10-04|sag|Lille	1	0	23	23	1	0	Arras
+dg4-be-fr-fiili|1830-10-04|sol|Arlon	1	0	38	38	1	0	Virton
+dg4-be-fr-fiili|1839-04-18|sag|Lille	1	0	23	23	1	0	Arras
+dg4-be-fr-fiili|1839-04-18|sol|Arlon	1	0	38	38	1	0	Virton
+dg4-fr-ch-alsas|1814-05-30|sol|Basel	1	0	15	15	1	0	Bern
+dg4-fr-ch-alsas|1871-05-09|sol|Basel	1	0	15	15	1	0	Bern
+dg4-nl-fr-kortrijk|1820-03-28|sag|Lille	1	0	23	23	1	0	Arras
+dg4-nl-fr-kortrijk|1820-03-28|sol|Lüksemburg	1	0	32	32	1	0	Arlon
+dg4-nl-fr-kortrijk|1830-10-03|sag|Lille	1	0	23	23	1	0	Arras
+dg4-nl-fr-kortrijk|1830-10-03|sol|Lüksemburg	1	0	32	32	1	0	Arlon
+dg4-sa-ch-lombardiya|1859-11-10|sag|Milano	1	0	87	87	1	0	Bergamo
+dg4-sa-ch-lombardiya|1861-03-16|sag|Milano	1	0	87	87	1	0	Bergamo
+dg4-sa-ch-piyemonte|1815-06-09|sag|Aosta	1	0	28	28	1	0	Bourg-Saint-Maurice
+dg4-sa-ch-piyemonte|1861-03-16|sag|Aosta	1	0	28	28	1	0	Torino
+dg4-sa-ch-piyemonte|1861-03-16|sag|Milano	1	0	95	95	1	0	Bergamo
+dg4-sa-ch-valais|1815-06-09|sol|Lozan	1	0	34	34	1	0	Martigny (Martinach)
+dg4-sa-ch-valais|1860-03-23|sol|Lozan	1	0	34	34	1	0	Martigny (Martinach)
+dg4-sa-fr-1861-1|1861-03-07|sol|Bourg-Saint-Maurice	1	0	24	24	1	0	Thonon
+dg4-sa-fr-1861-1|1861-03-16|sol|Bourg-Saint-Maurice	1	0	24	24	1	0	Thonon
+dg4-sa-fr-1861-3|1861-03-07|sol|Bourg-Saint-Maurice	1	0	60	60	1	0	Chambéry
+dg4-sa-fr-1861-3|1861-03-16|sol|Bourg-Saint-Maurice	1	0	60	60	1	0	Chambéry
+dg4-sa-fr-1861-4|1861-03-07|sol|Bourg-Saint-Maurice	1	0	51	51	1	0	Chambéry
+dg4-sa-fr-1861-4|1861-03-16|sol|Bourg-Saint-Maurice	1	0	51	51	1	0	Chambéry
+dg4-sa-fr-1861-5|1861-03-07|sag|Torino	1	0	86	86	1	0	Aosta
+dg4-sa-fr-1861-5|1861-03-16|sag|Torino	1	0	86	86	1	0	Aosta
+dg4-sa-fr-1861-6|1861-03-07|sol|Nice	1	0	36	36	1	0	Toulon
+dg4-sa-fr-1861-6|1861-03-16|sol|Nice	1	0	36	36	1	0	Toulon
+dg6-dk-se-stromstad|1751-10-02|sag|Jukkasjärvi	1	0	111	111	1	0	Jokkmokk
+dg6-dk-se-stromstad|1751-10-02|sag|Mora	1	0	105	105	1	0	Karlstad
+dg6-dk-se-stromstad|1751-10-02|sag|Uddevalla	1	0	92	92	1	0	Göteborg
+dg6-dk-se-stromstad|1751-10-02|sag|Östersund (Jämtland)	1	0	134	134	1	0	Mora
+dg6-dk-se-stromstad|1751-10-02|sol|Mosjøen	1	0	105	105	1	0	Bodø
+dg6-dk-se-stromstad|1751-10-02|sol|Tromsø	1	0	133	133	1	0	Bodø
+dg6-dk-se-stromstad|1814-01-13|sag|Jukkasjärvi	1	0	111	111	1	0	Jokkmokk
+dg6-dk-se-stromstad|1814-01-13|sag|Mora	1	0	105	105	1	0	Karlstad
+dg6-dk-se-stromstad|1814-01-13|sag|Uddevalla	1	0	92	92	1	0	Göteborg
+dg6-dk-se-stromstad|1814-01-13|sag|Östersund (Jämtland)	1	0	134	134	1	0	Mora
+dg6-dk-se-stromstad|1814-01-13|sol|Mosjøen	1	0	105	105	1	0	Bodø
+dg6-dk-se-stromstad|1814-01-13|sol|Tromsø	1	0	133	133	1	0	Bodø
+g1-gr-srb-1|1918-11-30|sag|Gevgili (Gevgelija)	1	0	24	24	1	0	Doyran
+g1-gr-srb-1|1918-11-30|sol|Vodina (Edessa)	1	0	43	43	1	0	Yenice-i Vardar
+g1-osm-ir-DEGISTI-sattularap|1913-11-17|sol|Muhammere	1	0	24	24	1	0	Abâdân
+g1-osm-ir|1913-11-17|sol|Dizfûl	1	0	106	106	1	0	Havîza
+g1-osm-ir|1913-11-17|sol|Kasr-ı Şîrîn	1	0	32	32	1	0	Merîvan
+g1-osm-ir|1913-11-17|sol|Merîvan	1	0	28	28	1	0	Bâne
+g2-af-sscb-bati-gecici|1917-03-15|sol|Herat	1	0	120	120	1	0	Belh
+g2-af-sscb-bati-gecici|1917-11-06|sol|Herat	1	0	120	120	1	0	Belh
+g2-af-sscb-bati-rusya|1888-01-26|sol|Herat	1	0	121	121	1	0	Belh
+g2-af-sscb-bati-rusya|1917-03-14|sol|Herat	1	0	120	120	1	0	Belh
+g2-af-sscb-pamir-gecici|1917-03-15|sag|Pamirski Post (Murgab)	1	0	106	106	1	0	Gunt vadisi (bölge)
+g2-af-sscb-pamir-gecici|1917-03-15|sol|Serhad (Vahan)	1	0	59	59	1	0	Kala-i Pençe (Vahan)
+g2-af-sscb-pamir-gecici|1917-11-06|sag|Pamirski Post (Murgab)	1	0	106	106	1	0	Gunt vadisi (bölge)
+g2-af-sscb-pamir-gecici|1917-11-06|sol|Serhad (Vahan)	1	0	59	59	1	0	Kala-i Pençe (Vahan)
+g2-af-sscb-pamir-rusya|1895-03-11|sag|Pamirski Post (Murgab)	1	0	106	106	1	0	Karakul (Pamir, bölge)
+g2-af-sscb-pamir-rusya|1895-03-11|sol|Serhad (Vahan)	1	0	59	59	1	0	Kala-i Pençe (Vahan)
+g2-af-sscb-pamir-rusya|1917-03-14|sag|Pamirski Post (Murgab)	1	0	106	106	1	0	Gunt vadisi (bölge)
+g2-af-sscb-pamir-rusya|1917-03-14|sol|Serhad (Vahan)	1	0	59	59	1	0	Kala-i Pençe (Vahan)
+g2-hd-pt-oecussi-1914|1914-06-25|sag|Lifau (Oecussi)	1	0	28	28	1	0	Noemuti
+g2-hd-pt-oecussi-1914|1914-06-25|sag|Noemuti	1	0	19	19	1	0	Lifau (Oecussi)
+g2-hd-pt-orta-1908|1908-08-29|sag|Maliana	1	0	16	16	1	0	Suai
+g2-hd-pt-orta-1908|1908-08-29|sol|Atapupu	1	0	15	15	1	0	Maucatar
+g2-hd-pt-orta-1908|1908-08-29|sol|Maucatar	1	0	13	13	1	0	Atapupu
+g2-hd-pt-orta-1908|1916-08-16|sag|Maliana	1	0	17	17	1	0	Maucatar
+g2-jp-sscb-sahalin-gecici|1917-03-15|sag|Onor	1	0	41	41	1	0	Poronay yukarısı (bölge)
+g2-jp-sscb-sahalin-gecici|1917-03-15|sag|Poronay yukarısı (bölge)	1	0	37	37	1	0	Onor
+g2-jp-sscb-sahalin-gecici|1917-11-06|sag|Onor	1	0	41	41	1	0	Poronay yukarısı (bölge)
+g2-jp-sscb-sahalin-gecici|1917-11-06|sag|Poronay yukarısı (bölge)	1	0	37	37	1	0	Onor
+g2-jp-sscb-sahalin-rusya|1905-09-05|sag|Onor	1	0	41	41	1	0	Poronay yukarısı (bölge)
+g2-jp-sscb-sahalin-rusya|1905-09-05|sag|Poronay yukarısı (bölge)	1	0	37	37	1	0	Onor
+g2-jp-sscb-sahalin-rusya|1917-03-14|sag|Onor	1	0	41	41	1	0	Poronay yukarısı (bölge)
+g2-jp-sscb-sahalin-rusya|1917-03-14|sag|Poronay yukarısı (bölge)	1	0	37	37	1	0	Onor
+g3-bg-ro-dobruca-p4|1908-10-05|sag|Köstence	1	0	63	63	1	0	Babadağı (Babadag)
+g3-bg-ro-dobruca-p4|1908-10-05|sol|Hacıoğlupazarcığı (Dobrich)	1	0	58	58	1	0	Silistre
+g3-bg-ro-dobruca-p4|1908-10-05|sol|Silistre	1	0	26	26	1	0	Hacıoğlupazarcığı (Dobrich)
+g3-bg-ro-dobruca-p4|1913-08-09|sag|Yergöğü (Giurgiu)	1	0	102	102	1	0	Bükreş
+g3-br-imp-pe-tabatinga-apaporis|1852-10-18|sol|São Paulo de Olivença	1	0	117	117	1	0	Tabatinga
+g3-br-imp-pe-tabatinga-apaporis|1852-10-18|sol|Tabatinga	1	0	59	59	1	0	São Paulo de Olivença
+g3-br-imp-pe-tabatinga-apaporis|1889-11-14|sol|São Paulo de Olivença	1	0	117	117	1	0	Tabatinga
+g3-br-imp-pe-tabatinga-apaporis|1889-11-14|sol|Tabatinga	1	0	59	59	1	0	São Paulo de Olivença
+g3-br-imp-py-2|1872-03-26|sag|Fuerte Olimpo (Borbón)	1	0	124	124	1	0	Tacuatí (Ypané)
+g3-br-imp-py-2|1872-03-26|sag|Tacuatí (Ypané)	1	0	156	156	1	0	Fuerte Olimpo (Borbón)
+g3-br-imp-py-2|1889-11-14|sag|Lengua misyonu (Paraguay Chaco)	1	0	112	112	1	0	Fuerte Olimpo (Borbón)
+g3-br-imp-py-2|1889-11-14|sag|Tacuatí (Ypané)	1	0	156	156	1	0	Fuerte Olimpo (Borbón)
+g3-ih-cn-guney1-1-qing|1897-06-05|sag|Bhamo	1	0	62	62	1	0	Myitkyina
+g3-ih-cn-guney1-1-qing|1897-06-05|sag|Myitkyina	1	0	59	59	1	0	Bhamo
+g3-ih-cn-guney1-1-qing|1911-10-09|sag|Bhamo	1	0	62	62	1	0	Myitkyina
+g3-ih-cn-guney1-1-qing|1911-10-09|sag|Myitkyina	1	0	59	59	1	0	Bhamo
+g4-bna-us-dogu|1842-01-01|sol|Bytown (Ottawa)	1	0	96	96	1	0	Fort Frontenac (Kingston)
+g4-bna-us-dogu|1842-01-01|sol|Fort Frontenac (Kingston)	1	0	69	69	1	0	Bytown (Ottawa)
+g4-bna-us-dogu|1842-01-01|sol|Trois-Rivières	1	0	164	164	1	0	Quebec
+g4-bna-us-dogu|1842-01-01|sol|York (Toronto)	1	0	77	77	1	0	Fort Frontenac (Kingston)
+g4-bna-us-dogu|1867-06-30|sol|Bytown (Ottawa)	1	0	96	96	1	0	Fort Frontenac (Kingston)
+g4-bna-us-dogu|1867-06-30|sol|Fort Frontenac (Kingston)	1	0	69	69	1	0	Bytown (Ottawa)
+g4-bna-us-dogu|1867-06-30|sol|Trois-Rivières	1	0	164	164	1	0	Quebec
+g4-bna-us-dogu|1867-06-30|sol|York (Toronto)	1	0	77	77	1	0	Fort Frontenac (Kingston)
