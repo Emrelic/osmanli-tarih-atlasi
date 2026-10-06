@@ -45,17 +45,22 @@ GERCEK = [
     ("olaylar_ek5.js",        "yer_id",  "YORUM", "yorum satırı :340 FAZLA"),
     ("olaylar_ok106.js",      "madde",   "YORUM", "yorum satırı :43 FAZLA"),
     ("olaylar_ok106.js",      "yer_id",  "YORUM", "yorum satırları :76/:79 FAZLA"),
+    # 🔴 sh110 · sk105 SABİT KALIR (DALGA9 hükmü): bilinçli ölü dosya, 0 bir
+    #    BEYANDIR — tek maddeleri blok yorumla kapatılmış (`/* ÇÜRÜDÜ,
+    #    UYGULANMADI */`), 30 günde 0 commit. 0 bir ölçüm fotoğrafı değil "bu
+    #    dosya canlı madde taşımaz" sözüdür; biri maddeyi açarsa sınavın ÖTMESİ
+    #    istenen davranıştır. Birleşik formül blok yorumu ölçmez (sh110'da 1 verir).
     ("olaylar_sh110.js",      "madde",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
     ("olaylar_sh110.js",      "duygu",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
     ("olaylar_sk105.js",      "madde",     0, "blok yorumlu madde FAZLA"),
     ("olaylar_ek8.js",        "madde",   "JSON",  "JSON biçimli tırnaklı anahtar — EKSİK"),
     ("olaylar_ek8.js",        "duygu",   "JSON",  "JSON biçimli tırnaklı anahtar — EKSİK"),
     ("olaylar_ek8.js",        "yer_id",  "JSON",  "JSON biçimli tırnaklı anahtar — EKSİK"),
-    ("olaylar_kamerika.js",   "madde",    11, "JSON anahtarı \"t\": — EKSİK"),
-    ("olaylar_kamerika.js",   "duygu",    11, "JSON anahtarı — EKSİK"),
-    ("olaylar_kamerika.js",   "yer_id",   11, "JSON anahtarı — EKSİK"),
-    ("olaylar_ek21.js",       "duygu",     4, "`duygu: [` boşluklu — EKSİK"),
-    ("olaylar_ek22.js",       "duygu",     1, "`duygu: [` boşluklu — EKSİK"),
+    ("olaylar_kamerika.js",   "madde",   "JSON",   "JSON anahtarı \"t\": — EKSİK"),
+    ("olaylar_kamerika.js",   "duygu",   "JSON",   "JSON anahtarı — EKSİK"),
+    ("olaylar_kamerika.js",   "yer_id",  "JSON",   "JSON anahtarı — EKSİK"),
+    ("olaylar_ek21.js",       "duygu",   "BOSLUK", "`duygu: [` boşluklu — EKSİK"),
+    ("olaylar_ek22.js",       "duygu",   "BOSLUK", "`duygu: [` boşluklu — EKSİK"),
     ("olaylar_p0917taraf.js", "yer_id",   None, "3 × yer_id:\"\" — bağ DEĞİL"),
     ("olaylar_p0063.js",      "yer_id",   None, "1 × yer_id:\"\" — bağ DEĞİL"),
 ]
@@ -63,6 +68,13 @@ GERCEK = [
 JSON_RX = {
     "madde": r'"t"\s*:\s*"\d{4}(?:-\d{2}){0,2}"', "duygu": r'"duygu"\s*:\s*\[',
     "yer_id": r'"yer_id"\s*:', "vefat_id": r'"vefat_id"\s*:'}
+# Boşluklu çıplak anahtar (DALGA9) — ESKİ regex anahtarla `:` / `[` arasında
+# boşluk görmez (`duygu: [` · `t : "…"` · `yer_id : "…"`).
+BOSLUK_RX = {
+    "madde": r'\{\s*t\s+:\s*"\d{4}(?:-\d{2}){0,2}"',
+    "duygu": r'(?<![\w"$])duygu(?:\s+:\s*|:\s+)\[',
+    "yer_id": r'(?<![\w"$])yer_id\s+:\s*"[^"]',
+    "vefat_id": r'(?<![\w"$])vefat_id\s+:\s*"[^"]'}
 
 
 def _alt_bolgeleri(metin):
@@ -99,9 +111,10 @@ def olcu_dogru(yol, alan, kural):
     biçim girdiği gün yine kırılır):
         doğru = eski regex − `//` satırı geçişi − `alt_kronoloji:[…]` içi geçiş
                 + tırnaklı anahtar geçişi (yorum ve alt dışı)
+                + boşluklu çıplak anahtar geçişi (yorum ve alt dışı · DALGA9)
                 − boş `yer_id:""` (yalnız yer_id; boş alan bağ değildir)
     `kural` yalnız hangi sınıfın bu dosyada HÂLÂ var olması gerektiğini söyler
-    (YORUM · ALT · JSON · None=boş yer_id); dönen ikinci değer o sınıfın geçişi.
+    (YORUM · ALT · JSON · BOSLUK · None=boş yer_id); dönen ikinci değer o sınıfın geçişi.
     Sayı verilmişse SABİT döner (düşük riskli dosyalar — gerekçe DALGA8 raporu).
     """
     if not isinstance(kural, (str, type(None))):
@@ -120,9 +133,13 @@ def olcu_dogru(yol, alan, kural):
     js = sum(1 for p, l in satirlar if not l.lstrip().startswith("//")
              for m in re.finditer(jsx, l)
              if not any(a <= p + m.start() < b for a, b in alt_ar))
-    bos = len(re.findall(r'(?<!")yer_id\s*:\s*""', metin)) if alan == "yer_id" else 0
-    dogru = eski - yorum - alt + js - bos
-    kusur = {"YORUM": yorum, "ALT": alt, "JSON": js, None: bos}[kural]
+    bsl = sum(1 for p, l in satirlar if not l.lstrip().startswith("//")
+              for m in re.finditer(BOSLUK_RX[alan], l)
+              if not any(a <= p + m.start() < b for a, b in alt_ar))
+    # boş yer_id yalnız ESKİ regex'in saydığı biçimde (`yer_id:` bitişik) düşülür
+    bos = len(re.findall(r'(?<![\w"])yer_id:\s*""', metin)) if alan == "yer_id" else 0
+    dogru = eski - yorum - alt + js + bsl - bos
+    kusur = {"YORUM": yorum, "ALT": alt, "JSON": js, "BOSLUK": bsl, None: bos}[kural]
     return dogru, kusur
 
 
@@ -135,7 +152,7 @@ if "hata" not in R:
         yeni = R["dosya_basi"][dosya][alan]
         eski = eski_say(yol, alan)
         dogru, kusur = olcu_dogru(yol, alan, kural)
-        if kural in ("YORUM", "ALT", "JSON"):
+        if kural in ("YORUM", "ALT", "JSON", "BOSLUK"):
             sina("%s vakası %s %s hâlâ kusur geçişi taşıyor (%d)"
                  % (kural, dosya, alan, kusur), kusur > 0)
         sina("YÖN1 %s %s = %d" % (dosya, alan, dogru), yeni == dogru,
@@ -149,12 +166,23 @@ if "hata" not in R:
 #  — 81/73 · 35/8/16 — aynı kopyada BAYATLAR: sabitin kırılganlığının kanıtı.)
 ESKI_SABIT = {("olaylar.js", "madde"): 81, ("olaylar.js", "yer_id"): 73,
               ("olaylar_ek8.js", "madde"): 35, ("olaylar_ek8.js", "duygu"): 8,
-              ("olaylar_ek8.js", "yer_id"): 16}
+              ("olaylar_ek8.js", "yer_id"): 16,
+              ("olaylar_kamerika.js", "madde"): 11, ("olaylar_kamerika.js", "duygu"): 11,
+              ("olaylar_kamerika.js", "yer_id"): 11,
+              ("olaylar_ek21.js", "duygu"): 4, ("olaylar_ek22.js", "duygu"): 1}
+# DALGA9: kamerika · ek21 · ek22 aynı yönteme alındı; yapay maddeye ÜÇÜNCÜ biçim
+# (boşluklu çıplak: `t : "…"` · `yer_id : "…"` · `duygu: […]`) eklendi — her
+# dosya her biçimi görür.
 YAPAY = ('{ t:"1999-01-01", b:"YAPAY çıplak", yer_id:"X", duygu:["x"] },\n'
-         '{ "t": "1999-01-02", "b": "YAPAY tırnaklı", "yer_id": "Y", "duygu": ["y"] },\n')
+         '{ "t": "1999-01-02", "b": "YAPAY tırnaklı", "yer_id": "Y", "duygu": ["y"] },\n'
+         '{ t : "1999-01-03", b:"YAPAY boşluklu", yer_id : "Z", duygu: ["z"] },\n')
+YAPAY_DOSYA = (("olaylar.js", "OLAYLAR", "ALT"), ("olaylar_ek8.js", "OLAYLAR_EK8", "JSON"),
+               ("olaylar_kamerika.js", "OLAYLAR_KAMERIKA", "JSON"),
+               ("olaylar_ek21.js", "OLAYLAR_EK21", "BOSLUK"),
+               ("olaylar_ek22.js", "OLAYLAR_EK22", "BOSLUK"))
 import tempfile
 with tempfile.TemporaryDirectory() as td:
-    for dosya, degisken in (("olaylar.js", "OLAYLAR"), ("olaylar_ek8.js", "OLAYLAR_EK8")):
+    for dosya, degisken, kural in YAPAY_DOSYA:
         metin = D._oku(os.path.join("data", dosya))
         m = re.search(r"window\.%s\s*=\s*\[[^\n]*\n" % degisken, metin)
         kopya = os.path.join(td, dosya)
@@ -165,7 +193,6 @@ with tempfile.TemporaryDirectory() as td:
         for (d, alan), sabit in ESKI_SABIT.items():
             if d != dosya or "hata" in K:
                 continue
-            kural = "ALT" if dosya == "olaylar.js" else "JSON"
             dogru, _ = olcu_dogru(kopya, alan, kural)
             sina("YAPAY %s %s: ölçülen doğru %d = sayaç %d" % (dosya, alan, dogru, K[alan]),
                  dogru == K[alan])
