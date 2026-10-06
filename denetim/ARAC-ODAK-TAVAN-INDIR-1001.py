@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+# 🪦 EMEKLİ — 6 Ekim 2026 · sebep: odak tavanı artık SAYI değil KİMLİK LİSTESİ (W39d,
+#   ODAK-KAPI-KIMLIK-1006); bu betik sayıyı elle yazıyor, liste ile tutarsız kalırdı ve
+#   kapı "tavan TUTARSIZ" ötüyor. Yerine geçen: c47120d8 (odak_olc.py --tavan-yaz artık
+#   ✗ varken REDDEDİYOR ve evreni genişletmiyor). Tüketici ölçüldü (6 Ekim): çağıran/okuyan
+#   kod 0 — yalnız ODAK-TAVAN.json'daki tavan_notu_1001 ADINI anıyor. Silinmedi: NİÇİN var
+#   olduğu (bayrağın evreni genişletip 203 odaksızı affetmesi) kayıtta kalsın. KOŞTURMA.
 r"""ODAK-TAVAN.json'daki `odaksiz` tavanini OLCULEN degere INDIRIR.
 
 🔴 NICIN `--tavan-yaz` KULLANILMIYOR — olculdu (1 Ekim 2026 gecesi):
