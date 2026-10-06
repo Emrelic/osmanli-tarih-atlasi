@@ -1944,3 +1944,47 @@ dokuz görevi sessizce askıya alan kusuru görünür kılar.
 tek mesaj yazdılar), ve tek eksik bir komut. (b) doğruluk kazancı OLMADAN dokuz tam taban
 ödetir.
 ⚠️ Ben (a)'yı yapamam: o kıtalara ulaşan hiçbir kanalım yok — ölçtüm, üçü de kapalı.
+
+---
+
+## ㉔ ⑳-EK2 — `makine/havva`yı MERGE ETMEK = KOŞU 20'yi YAYINLAMAK. Birleştirmedim.
+
+**Ölçüm (6 Ekim 14:40):** gece turunun ② adımı *"dal main'de yoksa BİRLEŞTİR"* diyor ve
+`makine/havva` 6 commit önde. **Birleştirmedim**, çünkü içeriği ⑳'nin kendisi:
+```
+6831b5da  KOŞU 20 (HAVVA) — tam inşa çıktısı · temel fc380975
+80a116aa  KOŞU 20 (HAVVA) — kodlanmış geometri + koşu damgası no 20
+b895d860  KOŞU 20 — düzeltme sonrası denetim logu + 8k ve D7 üyelik ölçümleri
+```
+Ve dokunduğu dosyalar benim kilidimdeki ÜRETİLMİŞ geometri: `petek_govde_ust/parca` ·
+`donemler_on/ust` · `bolgeler.js` · `devirler.js` · artı 8 `yerlesimler*.js` ve `CLAUDE.md`.
+Gerçekten farklı olduğu ölçüldü (`petek_govde_ust` main `df56928b` ↔ havva `7e37cde9`).
+🔴 **`main`e push = YAYIN.** ⇒ Bu dalı merge etmek, ⑳'de sana sorduğum yayın kararını
+BENİM vermem olur. Gece turunun ② adımı genel bir talimattır; ⑳ ise aynı konuda ADIYLA
+bekleyen bir karardır — özel olan genel olanı bağlar.
+
+### Dalda BAŞKA ne var — ölçtüm, hepsi main'de ZATEN VAR
+`data/` dışındaki 49 "yeni" dosyayı (45 `denetim/` · 2 `dersler/` · 2 `oturumlar/`) almayı
+denedim: `git checkout` **hiçbir şey eklemedi** — dosyalar main'de zaten vardı (UMIT'in
+ara birleştirmeleriyle dolaşmışlar). `dersler/DIZIN.md`nin üç yeni satırı da main'de VAR.
+⇒ **Dalın main'de olmayan tek GERÇEK içeriği KOŞU 20 geometrisi**, artı benim kendi
+dosyalarımın (CLAUDE.md · SABAH-1004 · su seviyesi · tahta.json · TAHTA.md) ayrışmış
+kopyaları — onlar alınmaz, bugünkü işimi ezerdi.
+
+⚠️ **VE BİR HATAMI `git status` YAKALADI:** o checkout üç dosyayı (`GLM1-TDV-ATIF-1004.md` ·
+`TAHTA-WEB-DENETIM-1006.md` · `UMIT-TASNIF-1006.md`) main'in sürümünü havva'nın sürümüyle
+**EZEREK** sahneledi. `--name-status` onları `A` (havva tarafında eklendi) gösteriyordu;
+oysa main de onları BAĞIMSIZ olarak, FARKLI içerikle eklemişti. `git restore` ile üçü de
+main sürümüne döndürüldü ve HEAD ile aynı oldukları doğrulandı.
+📌 Kuralın tam işleyişi: *pathspec FAZLALIĞA karşı korur, EKSİKLİĞE karşı korumaz —
+`git status --porcelain`den oku.* Pathspec'im doğruydu, listenin KENDİSİ yanlıştı; yakalayan
+şey status okumasıydı. Bir işçinin raporunu başka makinenin eski kopyasıyla ezmek, sessiz
+içerik kaybıdır.
+
+### SENDEN (Emre) — ⑳'nin kararı artık TEK ENGEL
+Bugünün bütün veri ve alet işi main'de ve yayında (`3016c5d3`, damga r11817). Kapı çıkış
+**2** veriyor ve ölçülemeyen **tek** soru Değişmez 8'dir — sebebi tam da bu: diskteki
+`devletler_harita.js` yereldeki koşudan, site ise kodlanmış sürümü yüklüyor
+(yerel `66222e47…` ↔ site `0ef2d3e2…`). ⇒ **KOŞU 20 inmeden Değişmez 8 ölçülemez.**
+⑳'deki üç seçenek ve önerim (sınırlı yayın + beyan) aynen duruyor; eklenen tek şey, artık
+başka hiçbir iş bu karara bağlı DEĞİL — kuyruk temiz, yalnız bu bekliyor.
