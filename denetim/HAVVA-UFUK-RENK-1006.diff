@@ -1,0 +1,35 @@
+diff --git a/js/app.js b/js/app.js
+index 4cfab8e..2aa89b3 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -2025,7 +2025,7 @@ harita.on("load", function () {
+   harita.addLayer({ id: "ufuk-bant-alan", type: "fill", source: "ufuk-bant",
+     layout: { visibility: "none" },
+     paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
+-             "fill-opacity": 1 } }, "devlet-dolgu");
++             "fill-opacity": 0.72 } }, "devlet-dolgu");   // sert kip değeri — SIYASI_KIP
+   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
+     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
+   // 🔴 21 Ağustos — KUSUR ③, Emre (ekran görüntüsü): "odaklanan ülke belirgin
+@@ -16074,11 +16074,19 @@ guncelle();
+ // sözlükte duruyor, o biçimde değil ⇒ uyarı ötmeye devam eder ve uyarı
+ // SERT kipte doğru, YUMUŞAK kipte yanlıştır. Koşu bitince (renkler.py
+ // donmuş) o denetim bu sözlüğü okuyacak şekilde düzeltilecek.
++// 🔴 H-0002 ① (Emre, 6 Ekim: "5 günlük sürtünmeli alanların RENGİ ÇOK KOYU")
++//    ÖLÇÜLDÜ (HAVVA-UFUK-BANT-HATA-1006): `ufuk-bant-alan` bu tabloda YOKTU ⇒
++//    yumuşak kipte gövde 0,44'e inerken bant 1'de kalıyordu; AYNI renk
++//    (DEVLET_HARITA.renk) bir yanda %44, öte yanda %100 boyanıyordu.
++//    Bant her iki kipte de gövdeden bir kademe AÇIK tutulur: sert 0,72 (Ⓑ
++//    dolgunun ölçülmüş ayırt edilebilirlik değeri, `dolgu-b-alan`), yumuşak 0,30.
+ var SIYASI_KIP = {
+   sert:    { "devlet-dolgu": 1,    "vassal-dolgu": 1,
+-             "himaye-dolgu": 1,    "osmanli-dolgu": 1    },
++             "himaye-dolgu": 1,    "osmanli-dolgu": 1,
++             "ufuk-bant-alan": 0.72 },
+   yumusak: { "devlet-dolgu": 0.44, "vassal-dolgu": 0.60,
+-             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68 }
++             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68,
++             "ufuk-bant-alan": 0.30 }
+ };
+ 
+ // Kipi uygular ve GERÇEKTEN uygulanan katman sayısını döndürür.
