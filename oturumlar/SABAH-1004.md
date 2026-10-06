@@ -1758,3 +1758,54 @@ yani kanıt duruyor.
 `Ⓑ ufuk bantları` 21 dk 58 sn koştu ve `ufuk_bantlari.js` 264 MB üretti. **`index.html`
 onu yüklemiyor** ve `kodla.py` de kodlamıyor. ⇒ Ya arayüz onu okumalı, ya o aşama ölü
 yük. Kalem açıldı; senden bir şey istemiyorum.
+
+
+### ⑳-EK · ÜÇ DÜZELTME ve BİR KÖK SEBEP BİRLEŞMESİ (artefaktlar artık diskte)
+Yukarıdaki ⑳'yi yazdığımda elimde yalnız mesaj vardı. Şimdi üç dosya main'de:
+`denetim/DEGISMEZ-KOSU20-HAVVA-b.log` (düzeltme SONRASI denetim) ·
+`denetim/HAVVA-KOSU20-8K-UYELIK.md` · `denetim/HAVVA-KOSU20-D7-UYELIK.md`.
+
+**DÜZELTME 1 — "8 YENİ"nin EVRENİNİ yazmamıştım.** Doğrusu:
+```
+defter DIŞI çift     önce 10  →  sonra 18     (KALDI 10 · KALKTI 0 · YENİ 8)
+tam kör hat          önce 75  →  sonra 78
+yarım hat            önce 19  →  sonra 22
+(hat, gün)           önce 169 →  sonra 178
+```
+⚠️ Ve `-b` logundaki `8k YENİ` etiketi **deftere göre** yeni demek (18'in tamamını
+listeler), HAVVA'nın `YENİ 8`i ise **önce↔sonra** farkı. Ben bir an çelişki sandım;
+çelişki yok, **iki ayrı evren** ve HAVVA ikisini de adıyla beyan etmiş. Evreni
+yazılmamış bir sayı, yanlış okunmaya açıktır — kusur HAVVA'nın değil benim özetimdeydi.
+
+**DÜZELTME 2 — D7 +3 değil +4, ve KOŞUDAN DEĞİL.** `d1b25b21` 730 ↔ `fc380975` 734.
+KALKAN 0, YENİ **4** enklav / 2 ada:
+```
+1918-11-11  Ljubljana          → yugoslavya       183 km · A-koridor ┐ aynı ada
+1918-11-11  Maribor (Marburg)  → yugoslavya       177 km · A-koridor ┘
+1919-09-10  Lvov               → itilaf-emaneti   876 km · C-hakiki  ┐ aynı ada
+1919-09-10  Yazlofça           → itilaf-emaneti   892 km · C-hakiki  ┘
+```
+📌 Ve dördünün kendi satırı DEĞİŞMEMİŞ (`git log -G` o dört ad için `d1b25b21..fc380975`
+aralığında BOŞ) ⇒ enklav, **komşu kayıtların yan etkisi**. Bu motorun tanımlı davranışı
+(`§2`: noktası olmayan bölge en yakın peteğe emilir), kusur değil ama görünür sonucu var.
+Ljubljana/Maribor'u doğuran commit BELİRLENEMEDİ — açık uç.
+
+**🔴 DÜZELTME 3 / KÖK SEBEP BİRLEŞMESİ — `itilaf-emaneti` İKİ kusurun ortak kökü.**
+```
+16 yerleşim BOYASIZ          renkler.py'de kimlik YOK          ← itilaf-emaneti
+D7'nin 4 yeni enklavından 2  Lvov + Yazlofça, C-hakiki         ← itilaf-emaneti
+```
+Tek künye (`4f390691`, 5 Ekim 19:25, "Saint-Germain md. 91"), rengi olmadan indi ve iki
+ayrı denetim kaleminde göründü. ⇒ `SABAH ⑯`daki "künyesiz geçiş yönetimleri" ailesinin
+(Naiplik · PKL · Aras-Türk) bir üyesi daha, ve bu sefer ölçülmüş zararı var.
+
+**🔴 VE ÖLÇTÜM Kİ UCUZ BİR ÜÇÜNCÜ YOL YOK.** Sana "`devletler.js`e `harita:` eklenir,
+rebuild gerekmez" diye bir şık sunacaktım; **ölçtüm, YANLIŞTI.** `uret_petek.py`
+`renkler.py`den `BOYALAR`ı import ediyor ve boyayı `s:` kimliğinden DOĞRUDAN çözüyor;
+`harita:` alanı **dizin/kapı tarafına** hitap ediyor (`denetle_yayin` "dizinsiz harita
+kimliği"), motorun boya aramasına DEĞİL. ⇒ Boyanın oluşması için `BOYALAR` sözlüğünde
+anahtarın BULUNMASI şart, ve `renkler.py` motor tuzunda.
+**Sonuç, ikisi de aynı yere çıkıyor:** KOŞU 20'nin çıktısı **hiçbir yolla** deliksiz hâle
+getirilemez — ne renk ekleyerek (tuz ⇒ yeni koşu) ne veri değiştirerek (geometri çoktan
+pişti). ⇒ ⑳'daki üç şık AYNEN geçerli; eklenecek dördüncü şık yok. Önerim hâlâ ③
+(kısıtlı yayın + beyan), ve artık beyan edilecek şey TEK BİR KÜNYENİN ADI.
