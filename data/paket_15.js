@@ -402,15 +402,15 @@ window.OLAYLAR_P0048 = [
 window.OLAYLAR_P0049 = [
 
 // ── 0042/H-0004 — Katalan seferinin başı ───────────────────────────
-{ t:"1303-01-01", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+{ t:"1303-09-01", kesinlik:"ay", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Katalan Kumpanyası Bizans hizmetine girdi — Anadolu seferinin başlangıcı",
-  gun:"1303",
-  ic_not_gun:"TDV bizans yıl verir, gün vermez → YYYY-01-01 (§4). savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 DAYANAK DEĞİLDİR. ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
+  gun:"Eylül 1303",
+  ic_not_gun:"W52b/1006: AY kaynaklı (GEC + Bilkent tezi, kaynak alanında) → 1303-09-01 + kesinlik:ay; gün bulunamadı. Önceki not: TDV bizans yıl verir, gün vermez; savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 atlas kaydıdır, DAYANAK DEĞİLDİR (bu değişiklik onlara değil yukarıdaki iki kaynağa dayanır). ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
   yer:"İstanbul ve Batı Anadolu (Alaşehir)", yer_id:"Alaşehir",
   kisiler:"Roger de Flor, II. Andronikos",
   d:"Batı Anadolu'da Türk beylikleri karşısında toprak kaybeden Bizans İmparatorluğu, Roger de Flor kumandasındaki yaklaşık 6500 kişilik Katalan birliğini ücretli asker olarak hizmetine aldı. TDV'nin Bizans maddesine göre birlik 1303'te imparatorluğun yardımına geldi ve ertesi yıl Germiyanoğulları'nın kuşattığı Alaşehir'i kurtardı. Ancak kumpanya kısa sürede geçtiği yerleri yağmalamaya başladı; Bizans onu Trakya'ya geçirdi ve 1305'te Roger de Flor'u öldürttü.",
   ic_not_d:"TDV alasehir Katalanların Germiyan kuşatmasını kaldırdığını yazar, yıl vermez; TDV germiyanogullari aynı kuşatmayı 1306'ya koyar — TDV bizans'ın 1304'üyle iki yıllık ayrışma, bildirildi (§4⑥).",
-  kaynak:"bizans · alasehir" },
+  kaynak:"bizans · alasehir · Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\"" },
 
 // ── 0020/H-0013 — Ahıska ───────────────────────────────────────────
 { t:"1578-08-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
@@ -590,7 +590,7 @@ window.OLAYLAR_P0050 = [
   kisiler:"",
   d:"Mohaç zaferinin ardından Osmanlılar Bosna'da Macar tampon bölgesinin merkezi Yayça'yı ve Banaluka'yı aldı. TDV'nin Bihaç maddesine göre Mohaç'ı izleyen yılda Yayça Kalesi'nin alınmasından sonra Bihaç kısa bir süre için yeniden Osmanlılar'ın idaresine geçti. Kalenin ne zaman ve nasıl elden çıktığı kaynakta yazmıyor; TDV yalnız 1530'larda Habsburgların Hırvat sınır bölgesini düzenlerken hıristiyanların elindeki Bihaç'ı ana merkez yaptığını belirtir. Bihaç'ın kalıcı fethi 1592'de Bosna Beylerbeyi Hasan Paşa'nın seferiyle gerçekleşecekti.",
   ic_not_gun:"TEK KAYNAK: TDV (M-3866). TDV bihac: 'Mohaç Savaşı'nı (1526) izleyen yılda Yayça Kalesi'nin alınmasından sonra … kısa bir süre' ⇒ yıl 1527, gün ve bitiş YOK → YYYY-01-01 + kesinlik:'yil' (§4). ⚠️ TDV bosna-hersek Yayça ve Banaluka için '(1527 veya 1528)' diyor — iki TDV maddesi yılda tam örtüşmüyor, bildirildi (§4⑥); tarih bihac'ın kendi cümlesinden alındı. Bitiş uydurulmadı, metinde 'kısa süre' kaldı.",
-  ic_not_d:"ATLAS DÜZELECEK YER (koşu sonrası yerleşim yaması): Bihaç kaydında 1592 öncesi hiç d: yok. Aynı TDV gövdesi ayrıca 'Stjepan Tomašević'in tutuklanmasından sonra Osmanlı hâkimiyetine girdi (1463)' diyor — o da atlasta yok; bu paket 1463 için madde yazmadı (sevk 1527-28 idi). Bitiş günü kaynakta olmadığı için yama önerisi dönem SONUNU veremez — ölçülemedi.",
+  ic_not_d:"ATLAS DÜZELECEK YER (koşu sonrası yerleşim yaması): Bihaç kaydında 1592 öncesi hiç d: yok. Aynı TDV gövdesi ayrıca 'Stjepan Tomašević'in tutuklanmasından sonra Osmanlı hâkimiyetine girdi (1463)' [TDV: bihac] diyor — o da atlasta yok; bu paket 1463 için madde yazmadı (sevk 1527-28 idi). Bitiş günü kaynakta olmadığı için yama önerisi dönem SONUNU veremez — ölçülemedi.",
   kaynak:"bihac · bosna-hersek" },
 
 // ── Dubrovnik 1814 ────────────────────────────────────────────────

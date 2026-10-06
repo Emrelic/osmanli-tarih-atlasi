@@ -207,7 +207,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1606-11-11", b:"Zitvatorok Antlaşması — protokolde eşitlik", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Uzun Türk Savaşı'nı bitiren antlaşma, Habsburg imparatorunu Osmanlı padişahıyla protokolde eşit saydı ve yıllık ödemeyi tek seferlik bir armağana çevirdi. Avusturya tarihyazımı bunu, Osmanlı üstünlüğünün simgesel olarak kırıldığı ilk belge sayar.",
-  kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden savaş, nihayet Zitvatorok Antlaşması (1606) ile sona ermiştir\" · depo savaslar.js (1606-11-11) · TDV `zitvatorok-antlasmasi` slug CANLI", yer_kon:[47.855,18.242] },
+  kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden ve Avrupa’da “Uzun Türk savaşları” adıyla anılan savaş, nihayet Zitvatorok Antlaşması (1606) ile sona ermiştir.\" · depo savaslar.js (1606-11-11) · TDV `zitvatorok-antlasmasi` slug CANLI", yer_kon:[47.855,18.242] },
 
 // ══════════════════════════════════════════════════════════════════
 // II. OTUZ YIL SAVAŞLARI VE KARŞI-REFORM (1608-1648)
@@ -2502,7 +2502,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"On altı yıl sürecek savaş, Mora'daki Venedik kalelerinin Osmanlı baskısı altına girmesiyle başladı. Cumhuriyet ilk kez bütün gücüyle Osmanlı'ya karşı savaşa girdi ve sonunda ağır bir fatura ödedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): \"1463-1479 Osmanlı-Venedik savaşı esnasında\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1470-07-12", b:"Eğriboz'un (Negroponte) kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -3390,7 +3390,8 @@ window.KRONOLOJI_IRAN = [
 //  ① `bizans` — TDV, GÖVDESİ OKUNARAK doğrulandı (200). Bu maddeden
 //     birebir alınan tarihler: 1302-07-27 Bapheus (Pachymeres'e göre) ·
 //     1326-04-06 Bursa · 1331-03-01 İznik · 1352 Çimpe · 1354 Gelibolu ·
-//     1373 Dimetoka · 1391 abluka · 1422-06-08 kuşatma ·
+//     1373 Dimetoka · 1391 abluka · 1422 kuşatma (gövde 8 Haziran der;
+//     W52b/1006: atlas 1422-06-10, Kushch 2017 — §X) ·
 //     1452-12-12 Ayasofya'da union ilanı · 1453-05-29 fetih.
 //  ② `ankara-savasi` — TDV, gövdesi okundu (200): "28 Temmuz 1402 Cuma
 //     günü" ve "Yıldırım Bayezid Bizans imparatoruyla anlaşarak İstanbul
@@ -3431,6 +3432,10 @@ window.KRONOLOJI_IRAN = [
 // §X — `devletler.js` `bizans` KÜNYESİYLE İKİ TARİH ÇELİŞİYOR (BİLDİRİLDİ)
 //    İznik'in düşüşü   künye 1331-03-02   TDV `bizans` "1 Mart 1331"
 //    1422 kuşatması    künye 1422-06-10   TDV `bizans` "8 Haziran 1422"
+//      ⇒ ÇÖZÜLDÜ (UMIT-W52b, 6 Ekim 2026): TDV kendi içinde 8 / 15 Haziran /
+//        Receb 825 veriyor; hakemli Kushch 2017 (Schreiner kısa kronikleri)
+//        10 Haziran der ve 8'i Sphrantzes'in kesin olmayan günü sayar.
+//        Madde 1422-06-10'a çekildi (künye ve olaylar_ek.js ile aynı gün).
 //    ⇒ Bu dosyada TDV gövdesindeki tarihler kullanıldı.
 //      `data/devletler.js` BENİM DOSYAM DEĞİL — dokunulmadı, raporlandı.
 //
@@ -3482,11 +3487,12 @@ window.KRONOLOJI_BIZANS = [
   d:"Pachymeres'in kaydına göre Yalova yakınında yapılan savaşta Osman Gazi imparatorluk kuvvetlerini yendi. Bu, Osmanlı Beyliği ile Bizans arasındaki ilk meydan savaşıdır ve Bizans'ın Bitinya'daki şehirlerinin birer birer kuşatılmasının önünü açtı.",
   kaynak:"bizans" },
 
-{ t:"1303-01-01", b:"Katalan Kumpanyası hizmete alındı", tur:"ittifak",
+{ t:"1303-09-01", kesinlik:"ay", b:"Katalan Kumpanyası hizmete alındı", tur:"ittifak",
   onem:4, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Türk ilerleyişini durdurmak için Roger de Flor komutasındaki paralı Katalan birliği kiralandı. Kısa vadede başarı sağladı ama ödeme sorunları ve yağma kısa sürede müttefiki düşmana çevirecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\" · TDV bizans (yalnız yıl) · el-kitabi",
+  ic_not_gun:"W52b/1006: 1303-01-01 → 1303-09-01 + kesinlik:ay — kronoloji_katalan.js ve olaylar_p0049.js ile aynı olay, aynı ay; gün bulunamadı. Kaynaklar İstanbul'a VARIŞI tarihler." },
 
 { t:"1305-04-30", b:"Roger de Flor öldürüldü — Katalan İntikamı başladı", tur:"isyan",
   onem:4, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-kisiler","konu-isyan"],
@@ -3803,11 +3809,12 @@ window.KRONOLOJI_BIZANS = [
   d:"Çelebi Mehmed'in ölümü üzerine Bizans, elinde tuttuğu Mustafa Çelebi'yi serbest bırakarak Osmanlı tahtına rakip çıkardı. Hesap tutmadı: Mustafa yenildi ve yeni sultan bir yıl sonra başkenti kuşatmaya geldi. Bizans tarihyazımında bu, imparatorluğun son diplomatik kozunu yanlış oynadığı an sayılır.",
   kaynak:"el-kitabi" },
 
-{ t:"1422-06-08", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
+{ t:"1422-06-10", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Osmanlı ordusu ilk kez topla desteklenen düzenli bir kuşatma başlattı; Anadolu'da çıkan şehzade isyanı üzerine kuşatma kaldırıldı. Bizans için bu, fetret devrinin kazandırdığı nefes payının bittiğinin haberiydi.",
-  kaynak:"bizans · TDV `murad-ii`: \"II. Murad bunun arkasından Bizans üzerine yürüdü (Receb 825 / Haziran 1422). Elli günden fazla süren kuşatma sonuç vermedi.\" · BEYAN (MGGP-NOT): kullanılan gün 06-08 KAYNAKSIZ, değişmedi (akademik kaynak turu bekliyor) · kullanılmayan: künyedeki 06-10 (o da kaynaksız) · ⚠️ TDV KENDİ İÇİNDE: 26 Muharrem 825 = 20 Ocak 1422'den sayınca 1 Receb 825 ≈ 21 Haziran 1422 — \"Receb\" ile \"Haziran\" yalnız 21-30 Haziran'da örtüşür, 06-08 ve 06-10 Receb'e düşmez (KRONO-CELISKI-1006 §3.2)" },
+  kaynak:"Kushch, T. V., \"Turetskaya osada i shturm Konstantinopolya 1422 g.: voenno-politicheskiy aspekt\" [The Ottoman Siege and Assault of Constantinople in 1422], Vestnik Volgogradskogo gos. universiteta, Ser. 4, 22/5 (2017), s. 261-270, DOI 10.15688/jvolsu4.2017.5.24 — Schreiner, Die byzantinischen Kleinchroniken, Chr. 13/1-4, 22/34'e dayanarak: \"Осада длилась три месяца – с 10 июня по 6 сентября 1422 года\" (kuşatma 10 Haziran - 6 Eylül 1422) · TDV `bizans` · `istanbul` · TDV `murad-ii`: \"II. Murad bunun arkasından Bizans üzerine yürüdü (Receb 825 / Haziran 1422). Elli günden fazla süren kuşatma sonuç vermedi.\"",
+  ic_not_gun:"⚠️ TDV kendi içinde üç ayrı değer veriyor (§4⑥, bildirildi): `bizans` \"Kuşatma 8 Haziran 1422'de başladı\" · `istanbul` \"II. Murad'ın 15 Haziran 1422'deki muhasara teşebbüsü\" · `murad-ii` \"Bizans üzerine yürüdü (Receb 825 / Haziran 1422)\". Kushch 8 ve 15 Haziran'ı Sphrantzes'in kronolojisi olarak aktarıp 'tarihlerde pek kesin değil' der (8 Haziran: Mihal Bey'in gönderilişi · 15 Haziran: sultanın gelişi); daha güvenilir saydığı kısa kronikler 10 Haziran öncü kuvvetin gelişi, 20 Haziran sultanın katılışı der. MGGP-NOT BEYANI ('06-08 KAYNAKSIZ, akademik kaynak turu bekliyor') KAPANDI: W52b/1006 günü 06-08'den 06-10'a çekti. KRONO-CELISKI-1006 §3.2 notu (1 Receb 825 ≈ 21 Haziran; 06-08 ve 06-10 Receb'e düşmez) çelişki DEĞİL: `murad-ii` cümlesi sultanın yürüyüşünü tarihler ve Kushch'a göre sultan 20 Haziran'da katıldı; 10 Haziran öncü kuvvetin gelişidir (§4 ⑧)." },
 
 { t:"1423-09-14", b:"Selanik Venedik'e devredildi — savunulamayan şehrin satışı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
