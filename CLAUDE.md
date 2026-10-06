@@ -421,6 +421,24 @@ kıta sayılan oturuma iş vermek, dolu bir işçinin üstüne ikinci iş yığm
   yeniden kur. "Bekliyorum" YAZILMAZ. 🔴 **Boş uyandıysan — sana ait hiçbir şey
   yoksa — EKRANA HİÇBİR ŞEY YAZMA,** bekçiyi sessizce yeniden kur ve dur: "benlik
   bir şey yok, yeniden kuruyorum" cümlesinin kendisi bir tur maliyetidir.
+  🆕 🔴 **BEKÇİNİN 2 SAATLİK SÜRE TAVANI VAR — ve bu bir arıza DEĞİL, SINIR**
+  (5-6 Ekim 2026 gecesi ÜÇ oturum bağımsız olarak ölçtü: LAB · KASA · bir hazır
+  kıta). Ölçüm: `ara 60` ile **118 tur** sonra arka plan görevi harness tarafından
+  `killed` edildi — mesaj gelmedi, **düzgün çıkış da değil**. Tavan
+  `7.200.000 ms = 2 saat` ve bu **izin verilen EN UZUN** değer; daha uzunu
+  istenemez. Bu paragraf bugüne kadar tavandan HİÇ söz etmiyordu — kusur yanlış
+  cümle değil **EKSİK** cümleydi, ve o yüzden kimse bunu "normal" sayamıyordu.
+  ⇒ İKİ SONUÇ: ① **2 saatte bir yeniden kurma turu NORMALDİR**, boşa tur değildir
+  ② **sessiz bir oturum takılmış DEĞİLDİR** — bekçisi düşmüş olabilir.
+  🔴 Bir oturumu "takıldı/ölü" ilan etmeden önceki üçlü sıra (aşağıda, `D258`)
+  bu yüzden daha da bağlayıcı: ① teslim zaten gelmiş mi (tahta/`git log`)
+  ② `bekci_olc.py` ne diyor ③ ancak ikisi de hayırsa uyandır.
+  📌 **HİPOTEZ, kanıtlanmadı:** `D258`in 9 saatlik sessizlik vakasının (çıkış 4,
+  kodda `return 4` YOK) sebebi bu tavan olabilir. Ölçülmedi; "olabilir" diye
+  duruyor, "öyleydi" diye YAZILMADI.
+  ⚠️ Çare bekçiyi uzatmak DEĞİL (tavan zaten azamî): makineler arası iş için
+  oturumlar arası köprü kullanılır — bekçi yalnız AYNI makinedeki tahtayı
+  görür, ve dalda çalışan bir makine `main`e yazılanı HİÇ görmez (LAB ölçtü).
   🆕 🔴 **NABIZ DAMGASI (3 Ekim 2026) — bekçi SESSİZ ama artık İZ BIRAKIYOR.**
   Vaka: ODAK-KAPAT'ın bekçisi **çıkış 4** ile düştü (kodda `return 4` YOK ⇒
   süreç dışarıdan düşürülmüş), oturum **9 saat** uyanmadı ve koordinatör
@@ -586,7 +604,8 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 262 ders. Toplu okunmaz, kural
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 264 ders (dosya 264 = dizin bağı 264,
+6 Ekim 2026'da ÖLÇÜLDÜ). Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
 (ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.

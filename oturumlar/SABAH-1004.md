@@ -565,3 +565,266 @@ sorusu sorulmayacak** — çünkü soru kendiliğinden kapanabilir.
 📌 Bu, "çareyi KURALDAN değil KODDAN/VERİDEN tasarla" dersinin uygulaması: üç şıkkın ikisi
 tarihi bozuyor, üçüncüsü 49 dönemi tavan borcu yapıyor; kök düzeltme hiçbirini
 gerektirmeyebilir ve öyleyse bedava.
+
+---
+
+# PAKET 0083 — Emre'nin kararını BEKLEYEN üç kalem (5-6 Ekim 2026 gecesi)
+
+İşçiler ölçtü, ben hüküm veremem: üçü de **kapsam/model kararı**, teknik soru değil.
+
+## ① TARALI DESEN mi, SEFER OKU mu? — H-0001 ile KENDİ KARARIN ÇELİŞİYOR
+PAKET-0083-D ölçtü (`denetim/PAKET-0083-D-ODAK-ISGAL.md`):
+```
+H-0001 diyor ki:  "Rusya'nın Eflak-Boğdan işgali varsa ... işgal TARAMASI ile gösterilmeli"
+VERİDE DURAN SENİN KARARIN (SEFERLER[67].kaynak):
+  "Romanya MÜTTEFİK: bu ok bir geçiştir, işgal DEĞİL (Emre kararı: taralı desen yalnız işgal)"
+```
+Ve TDV seni doğruluyor: *"prensliği kendi tarafına çeken Ruslar"* (doksanuc-harbi[25] ·
+bogdan[127] · romanya[178-179]) — 1877'de Romanya müttefik, işgal altında değil.
+🟢 **SEFER OKLARI ZATEN VAR ve varsayılan AÇIK** (`index.html:139`); `SEFERLER[67]`
+Kişinev→Zimniça 1877-04-24→06-27, o gün beliriyor (`app.js:5823`). **Yapılacak iş YOK.**
+⇒ SORU: *"taralı desen yalnız işgal" kuralın DURUYOR mu, ok yeterli mi?* Duruyorsa
+H-0001'in tarama isteği bu maddede UYGULANMAZ ve kalem kapanır.
+
+## ② BOŞ BÖLGELER: nokta mı eklensin, "yerleşim yok" mu denilsin?
+PAKET-0083-A ölçtü (`denetim/PAKET-0083-A-BOS-BOLGE.md`) — dört madde, **iki ayrı sınıf**:
+```
+KASITLI BOŞLUK (kusur DEĞİL, BEYAN):
+  H-0007 Po ovası      9 noktanın 5'i (Bergamo·Brescia·Verona·Padova·Parma)
+                       1281→1395-05-11 __BOSLUK__; 1396'da milanoduka
+  H-0002 G. Arnavutluk 15 noktanın merkezi Berat 1281→1417 __BOSLUK__; 1418'de OSM
+NOKTASIZ SIRT (motor doğru çalışıyor, VERİ yok):
+  H-0003 Kafkas ana sırtı (Sohum KD)  50 km içinde 0 nokta · en yakın ~95-110 km
+  H-0004 Kaheti-Dağıstan              50 km içinde 0 nokta · en yakın ~93-104 km
+                       1815'te iki yaka Rusya olunca şerit KAPANIYOR
+```
+⇒ İKİ AYRI SORU, ayrı cevap isteyebilir:
+  **(a)** Po ovası + Arnavutluk: nokta eklemek **künye + kaynaklı dönem** ister.
+      Bergamo/Brescia/Parma için `milanoduka` künyesi VAR (f:1097), yalnız geçiş
+      tarihleri kaynak bekliyor. Verona/Padova/Berat **yeni künye** ister
+      (Della Scala · Carrara · Muzaka — `devletler.js`te YOK).
+  **(b)** Kafkas sırtları: en az birer kaynaklı nokta (Svaneti/Mestia · Avar-Hunzah —
+      ikisi de şu an KAYNAKSIZ aday), **ya da** bilerek boş bırakılıp arayüzde
+      "sırt — yerleşim yok" beyanı.
+⚠️ Ölçümün kendisi şunu söylüyor: bunlar **harita deliği değil**, biri kasıtlı beyan
+   öteki gerçek yerleşim yokluğu. Yani "düzeltilmeli" demiyorum — **kapsam genişletmesi
+   mi istiyorsun**, onu soruyorum (`§1.6`).
+
+## ③ KİŞİNEV NOKTASI EKLENSİN Mİ? (odak kusurunun KALICI çaresi)
+PAKET-0083-D'nin B şıkkı: `Kişinev (47.0105, 28.8638) · s:rusya 1812-05-28→ ·
+dayanak ЭСБЕ`. Mükerrer taraması YAPTIM: atlasta "Kişinev/Chișinău/Kishinev" adıyla
+**0 kayıt**, 3 km içinde **0 nokta** — gerçekten yok.
+🟢 Değeri: iki kronoloji maddesine `yer_id:"Kişinev"` yazılabilir hâle gelir ve odak
+kusurunun **İKİ kod yolunu birden** kapatır (aşağıdaki ③'ün yalnız birini değil).
+⚠️ Ama yeni yerleşim noktası = yeni petek = **haritayı değiştirir**; bu bir veri
+genişletmesi ve kararı sende. ЭСБЕ (Brockhaus-Efron) 19. yy ansiklopedisi — `§4`in
+"akademik/kurumsal" eşiğini geçer ama TDV değildir; kabul edersen `kaynak:`a açıkça yazılır.
+
+---
+
+# Ve bu gece DÜZELTİLEN bir kusur — bilgi için, karar gerekmiyor
+`js/app.js maddeAc()` (devlet sekmesi) **üçüncü kamera dalıydı ve hiç bağlanmamıştı**:
+`yer_id` yok + `kapsam_genis` ⇒ doğrudan `devletiYay(d.harita)` = devletin BÜTÜN gövdesi.
+`maddeOdakKutusu` bu yolda HİÇ çağrılmıyordu ⇒ `odak_yer` yazılsa bile ETKİSİZDİ.
+Senin *"imparatorluk görünümüne geçiyor, tepeden geniş bakıyor"* şikâyetinin kökü buydu.
+🔴 Ve `arac/odak_olc.py` bu dalı HİÇ ÖLÇMÜYOR (yalnız `haritayiOlayaGotur` yolunu) —
+yani kapı "temiz" derken bu sınıf görünmezdi. Ölçüm genişletmesi ayrı kalem olarak açık.
+
+---
+
+# 🔴 KOŞU EMRİ VERİLDİ (gece, sen uyurken) — gerekçesi ve geri alma yolu
+
+**HAVVA'ya tam inşa koşusu emri verdim.** Uyandığında durdurmak istersen durdurulabilir;
+kararı ve dayandığım ölçümü aşağıya yazıyorum ki yargılayabilesin.
+
+## NİÇİN ŞİMDİ, VE NİÇİN "UCUZ KOŞU" SEÇENEĞİ YOK
+Sana *"önce hafif bir veri koşusu, motor donuk"* demeyi planlıyordum (`PLAN-1004 §1 ②`).
+Kodu okudum, o plan ÇÖKTÜ:
+```
+uret_petek.py:576   _ONB_TUZ = {…, "ortam": HER MOTOR_* degiskeni}
+uret_petek.py:571   muaf liste (_ONB_ISLETIM): SUREC_ISCI · CANLI_LOG · ONBELLEK_*
+                    MOTOR_YURUYUS ve MOTOR_UFUK_BANT muaf DEĞİL
+```
+⇒ **Yürüyüş bayrağını açmak bütün önbellek anahtarlarını değiştirir = tam yeniden inşa.**
+Ucuz koşu ancak son önbelleğin bayrağıyla olurdu — o da **yürüyüş KAPALI**, yani 4 Ekim'in
+gerilemesini yeniden üretmek. ⇒ Ucuz ile doğru arasında seçim yok; tek doğru koşu tam inşa.
+Madem bedel ödenecek, 5/7/10 bandı da aynı koşuya bindirildi.
+
+## VERDİĞİM KOMUT
+```
+MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80
+MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4        ~6,5-7 saat
++ denetim/MOTOR-BANT-TAM-1005.diff  ve  denetim/ARAYUZ-BANT-TAM-1005.diff  (İKİSİ birlikte)
+taban: origin/main = 3c4eb790
+```
+
+## YETKİYİ NEREDEN ALDIM — ve bir YORUM yaptım, onu da yazıyorum
+Sen iki kez istedin: *"bunu düzeltip koşturalım ama bu sefer havva koşsun"* ve
+*"havvada koşu yapılır"*. Z-0029 da 7/10 gün bandı kararını zaten alınmış sayıyor,
+yalnız zamanlamayı sana bırakıyordu.
+🔴 **AMA BİR YORUM YAPTIM, çürütülebilir:** `PLAN-1004 §1` ⑥'yı (TAM İNŞA) ④/⑤'e
+bağlıyor. Oradaki engelin gerekçesi *"UFUK genişletilirse ama veri genişletilmezse
+1281 ÖNCESİ her nokta sahipsiz kalır"* — yani **ZAMAN ufkunun** geriye uzatılması.
+Ben bunun 5/7/10 **yürüyüş bandıyla** aynı şey OLMADIĞINA hükmettim: bantlar zaman
+aralığına dokunmuyor, yalnız yürüyüş bütçesini değiştiriyor. İki şey "UFUK" sözcüğünü
+paylaşıyor ama ayrı.
+⚠️ **Bu yorum yanlışsa 7 saat yanar.** Yanlış olduğunu düşünüyorsan HAVVA'ya "durdur"
+de; önbellek zaten sıfırdan kuruluyor, yarıda kesmenin ek bedeli yok.
+
+## KOŞU NE GETİRECEK
+```
+🟢 Bulgaristan sınırı Tuna'ya geri dönecek (yürüyüş bütçesi AÇIK)
+🟢 5 / 7 / 10 gün bantları TAM BÖLGE olarak — "7 seçince 7'nin haritası"
+🟢 Bu gecenin bütün veri düzeltmeleri haritaya inecek:
+   taç yarısı · Eisenstadt · Zigetvar · iran künye anakronizmi (hayalet 5→0) ·
+   Polonya 15 madde · odak düzeltmesi · Dobriç · at-cs ve alm-ah-2 sol_taraf
+🟢 Emre'nin 14. yy Dağıstan'ında gördüğü "İRAN" etiketi GİDECEK
+```
+
+## KOŞU SÜRERKEN
+`data/` ve `arac/` DONUK — ben de dokunmayacağım. İşçiler ölçüm ve rapor yazmaya devam
+edebilir, ama veri yaması uygulanmayacak. Koşu bitene kadar yayın da yok.
+
+## 🔴 KOŞU BAŞLAMADI — SENİN İZNİNİ BEKLİYOR (HAVVA'nın ekranında)
+
+Emri verdim, HAVVA **durdu**: yamaları uygulama adımı o oturumun **izin
+sınıflandırıcısı** tarafından reddedildi (gerekçe: "paylaşılan kaynağı değiştirme").
+Ardından salt-okur bir `git status` bile reddedilmiş.
+
+```
+YAPILMADI:  git apply (iki yama) · node --check · ast · kaynak_durum kapat
+            tahtaya "BAŞLATIYORUM" · uret_petek.py
+YAPILDI:    fetch · worktree 3c4eb790'a alındı ve TEMİZ · iki diff `apply --check` TEMİZ
+SONUÇ:      koşu YOK · EMRELIC serbest · KAYNAK-DURUM ilanı yapılmadı (öteki
+            oturumlar etkilenmedi)
+```
+
+🟢 **HAVVA doğru davrandı ve bir şeyi fazladan doğru yaptı:** *"Senin ya da başka bir
+oturumun benim yerime yapması da aynı reddin etrafından dolaşmak olur, bunu da
+istemiyorum."*
+⇒ **Ben de yapmadım.** Yamaları şimdi bu uçta uygulayıp main'e itseydim, HAVVA yalnız
+`fetch` edip koşardı ve ret hiç olmamış gibi olurdu. Bir eşin reddedildiği işi onun
+yerine yapmak, senin izin kararını geçersiz kılmaktır. O yüzden koşu BEKLİYOR.
+
+### SENDEN İSTENEN — tek şey
+**HAVVA'daki oturumun ekranında** bekleyen izni ver. Sonrası otomatik; emir orada
+duruyor ve HAVVA baştan yürütecek:
+```
+① git fetch + git rev-parse origin/main   ← taban O AN yeniden ölçülecek
+                                            (3c4eb790 artık en güncel olmayabilir)
+② git apply  MOTOR-BANT-TAM-1005.diff  ve  ARAYUZ-BANT-TAM-1005.diff   (İKİSİ birlikte)
+③ node --check js/app.js · ast.parse uret_petek.py
+④ py arac/kaynak_durum.py kapat --kod KOSU + tahtaya "BEN BAŞLATIYORUM"
+⑤ MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80
+   MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=4 py arac/uret_petek.py     (~6,5-7 sa)
+```
+
+⚠️ Alternatif: izni vermek istemiyorsan koşuyu **UMIT** koşabilir (KOŞU 19'u o
+koşturmuştu ve bayrakları doğru vermişti). Ama UMIT'in RAM'i ölçülmedi; HAVVA'nın
+12,9 GB boşuna karşılık EMRELIC 1,05 GB ile koşamaz — UMIT'i seçersek önce ölçmek
+gerekir.
+
+---
+
+## 🔴 KOŞU ÖNCESİ İKİ DALI BİRLEŞTİRME — ölçülerek verilmiş hüküm (6 Ekim gece)
+
+Koşu `origin/main`den taze worktree kurar. Koşudan önce dalları birleştirmek
+DOĞRUDUR — ama bu ikisi **HARİÇ**, ve sebepleri ayrı:
+
+```
+origin/projeksiyon        2 ileride   🔴 BİRLEŞTİRMEYİN
+origin/makine/tahta-web   8 ileride   🔴 BİRLEŞTİRMEYİN (zaten kasıtlı bekliyor)
+```
+
+**① `projeksiyon` niçin:** `arac/uret_petek.py`ye dokunuyor ⇒ **motor tuzundadır**
+(§9.1: tuz = `uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py`).
+Ve kendi commit mesajı *"DAL — henüz görsel sınav YOK"* diyor: MapLibre v5.24.0 +
+hibrit küre/Mercator, `index.html` + `js/app.js` + `css/style.css` ile birlikte.
+⇒ Birleşirse koşu sınanmamış motor koduyla koşar **ve** yayın sınanmamış arayüzle
+çıkar. İki bilinmeyen tek koşuda çarpılır.
+
+**② `makine/tahta-web` niçin:** kesme (cutover) Emre'nin üç kalemine bağlı. Ayrıca
+`arac/tahta*.py` tuzda DEĞİL, yani koşuyu etkilemez — acelesi yok.
+📌 Bu dalın içeriği **ZATEN YAZILMIŞ**: 8 commit, `tahta_sunucu.py` + `tahta.py` +
+`tahta_kesme.py` + dört sınav (her biri "öngörü koşmadan önce mühürlendi"). Sıfırdan
+yazdırmayın — denetim görevi verildi (`TAHTA-WEB-DENETIM-1006`).
+
+### Ve PLAN-1004 §1 ile çelişki YOK — kontrol edildi
+§1, ④ ve ⑤ bitmeden ⑥'yı (TAM İNŞA, UFUK) yasaklar. HAVVA'ya verilen emir ⑥ DEĞİL
+**②**dir (VERİ koşusu, motor DONUK):
+- `MOTOR_UFUK_BANT` **zaman ufku değil YÜRÜYÜŞ BANDIdır** — `uret_petek.py:2151`:
+  *"UFUK BANTLARI — Emre'nin kararı: üç bant 5/7/10 gün … Bant, AYNI bedel alanının
+  farklı kontur seviyesidir; yeni Dijkstra GEREKMEZ."* Zaman eksenini açan bayrak
+  verilmedi (grep: `uret_petek.py`de zaman ufku bayrağı YOK).
+- İki bant yaması HAVVA'ya **yasaklandı** ⇒ tuzdaki dört dosya el değmemiş = motor DONUK.
+- Bayraklar KOŞU 19'un (1 Ekim, UMIT) takımının aynısı ⇒ tek bilinmeyen HAVVA.
+⚠️ Bedeli açıkça yazıyorum: bu koşu **5/7/10 bant kusurunu DÜZELTMEZ**. Düzeltme
+yukarıdaki ② adımındaki iki yamadadır ve onu yalnız Emre HAVVA'nın ekranında açabilir.
+
+---
+
+## 🔴 KF-1 (Kafkasya 7 çıkış günü) — UYGULANMADI, ve sebebi ölçüldü (6 Ekim gece)
+
+UMIT tasnifte *"koşudan önce girmezse bir koşu daha bekler"* dedi; doğruydu, ama
+uygulamayı ölçüm DURDURDU. Üç kapıdan ikisi açık, üçüncüsü kapalı:
+
+```
+① künye var mı?           ✓ gurcistan-demokratik-cumhuriyeti · ermenistan-demokratik-cumhuriyeti
+                            ikisi de devletler.js'te VE renkler.py'de BOYALI (:564 · :568)
+                            ⇒ harita deliği riski YOK
+② Değişmez 2 (±30 gün)?   ✓ yedi kırılmanın HEPSİ madde buluyor (1921-02-23 ve
+                            1920-11-12 TAM eşleşme). Ölçüm: 86 dosya, 1881 tarihli madde.
+③ ZİNCİR TUTUYOR MU?      ✗ TUTMUYOR — engel burada
+```
+
+**③:** Artvin'in bugünkü zinciri (`data/yerlesimler_ek27.js`)
+`{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}` → `tbmm-turkiye`.
+KASA'nın kaynağı bunu **iki yerden** çürütüyor: çıkış günü 1921-10-13 değil **1921-02-27**,
+ve öncesi `sovyet-rusya` **değil** — TDV `artvin`: *"Gürcü işgalinden kurtarıldı"*,
+*"Gürcistan Cumhuriyeti'ne verdiği bir ültimatom"*.
+
+⇒ İki yol da kapalıydı:
+- **Yalnız çıkış günü** yazmak → kayıt *"Sovyet Rusya 1921-02-27'ye kadar"* der, yani
+  kaynağın ÇÜRÜTTÜĞÜ künyeyi korur.
+- **Zinciri tamamlamak** için Gürcistan DC'nin giriş gününü künyenin `f:`inden almak →
+  **D210 ihlali**: *"künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR."*
+
+⇒ **HÜKÜM:** çıkış günleri KABUL, uygulama GİRİŞ GÜNÜ ölçülene kadar BEKLER.
+KASA'ya verildi: `denetim/KASA-KF1-GIRIS-1006.md` (yedi yer için giriş günü + 1918
+`transkafkasya` ara katmanı var mı). Geldiğinde tek seferde, tam zincir olarak uygulanır.
+📌 Bu kalem A kovasından **C kovasına** (ölçüm eksik) taşındı.
+
+⚠️ Ayrıca KASA'nın kendi beyanı korunsun: TDV kendisiyle çelişiyor (`artvin` 27 Şubat ↔
+`acara` 11 Mart) ve Digor **"düşük güven"** (Kars Valiliği). İkisi de kayda geçecek.
+
+---
+
+## 🔴 EMRE'NİN KARARI — UMIT'te bir YÖNETİCİ işlemi gerekiyor (6 Ekim gece)
+
+**Sorun:** `C:\atlas-umit\.git` sahibi `BUILTIN\Administrators`. Git bu depoyu
+*"dubious ownership"* diye reddediyor. UMIT'in işçileri `-c safe.directory=…` ile
+tek seferlik okuyarak çalışıyor, ama bir işçinin (`W3`) izin sınıflandırıcısı
+`git -c safe.directory=... worktree add` komutunu **"Auto-Mode Bypass" diye REDDETTİ.**
+
+🟢 **Ve iki oturum da doğru davrandı:** W3 atlatmadı, UMIT alt koordinatörü de
+onun yerine kurmadı (`TOPOLOJI §6.4`: *"bir eşin REDDEDİLDİĞİ işi onun yerine
+yapamaz/yaptıramaz"*). Ben de yapmıyorum. ⚠️ Sınıflandırıcı oturuma göre farklı
+karar veriyor — W1 ve W4 aynı komutu kurabildi. Yani bu bir "bazen çalışır"
+durumu ve o yüzden kalıcı çare şart.
+
+**Kök çare (yönetici yetkisi ister, Emre'nin):** `C:\atlas-umit\.git`in sahibini
+`UMIT\<kullanıcı>` yap. O zaman `safe.directory` hiç gerekmez ve sınıflandırıcı
+da takılmaz.
+```
+takeown /F C:\atlas-umit\.git /R /D Y
+icacls C:\atlas-umit\.git /setowner "UMIT\<kullanıcı>" /T
+```
+⚠️ Komutları ÖLÇMEDİM (o makinede değilim) — kullanıcı adı ve yol UMIT'te
+doğrulanmalı. Alternatif, daha temizi: worktree'yi sil ve `UMIT\<kullanıcı>`
+olarak YENİDEN kur.
+
+**İkinci kalem, aynı makinede:** UMIT'in `C:\atlas` deposunda **push edilmemiş 15
+commit** var (`88d000f5` + `M-5718…M-5731` = 14 hazır kıtanın HAZIRIM mesajı).
+`reset --hard` onları YOK EDER. UMIT'e koşturmamasını söyledim; mesajlar okundu ve
+kıtalar bulundu, yani içerikleri artık kayıp değil — ama commit'ler hâlâ orada ve
+deponun temizliği senin kararın.

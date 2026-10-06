@@ -96,8 +96,6 @@
   "d1923-ih-tb-sikkim¦1904-11-11",
   "d1923-ingiliz-italyan-somalisi¦1894-05-05",
   "d1923-ingiliz-italyan-somalisi¦1923-10-28",
-  "d1923-ir-hind-BILINMIYOR¦1896-03-26",
-  "d1923-ir-hind-BILINMIYOR¦1923-10-28",
   "d1923-it-ch-saintgermain¦1920-01-01",
   "d1923-it-ch-saintgermain¦1923-10-28",
   "d1923-jp-cn-tumen¦1911-10-10",
@@ -137,8 +135,6 @@
   "d1923-sudan-libya¦1923-10-28",
   "d1923-us-cu-guantanamo-1¦1903-07-02",
   "d1923-us-cu-guantanamo-1¦1923-10-28",
-  "d1923-us-cu-guantanamo-2¦1903-07-02",
-  "d1923-us-cu-guantanamo-2¦1923-10-28",
   "g1-gr-srb-1¦1913-08-10",
   "g1-osm-ir-DEGISTI-sattularap¦1921-08-22",
   "g1-osm-ir¦1921-08-22",
@@ -174,8 +170,6 @@
   "g4-bna-rus-141¦1867-10-17",
   "g4-bna-us-141¦1867-10-18",
   "g4-bna-us-141¦1870-07-14",
-  "g4-bna-us-bati-1¦1846-01-01",
-  "g4-bna-us-bati-1¦1871-07-19",
   "g4-bna-us-bati-2¦1871-07-19",
   "g4-bna-us-prairie¦1818-01-01",
   "g4-bna-us-prairie¦1870-07-14"
@@ -222,7 +216,6 @@
   "d1923-hn-ni-dogu",
   "d1923-ih-fc-mekong",
   "d1923-ingiliz-italyan-somalisi",
-  "d1923-ir-hind-BILINMIYOR",
   "d1923-it-ch-saintgermain",
   "d1923-kenya-tanganyika",
   "d1923-libya-cezayir-gadames",
@@ -241,7 +234,6 @@
   "d1923-sscb-cn-dogu-ussuri",
   "d1923-sudan-libya",
   "d1923-us-cu-guantanamo-1",
-  "d1923-us-cu-guantanamo-2",
   "g2-hd-en-4-20-1891-1",
   "g2-hd-en-4-20-1891-2",
   "g2-hd-en-4-20-1891-3",
@@ -257,7 +249,6 @@
   "g3-sscb-cn-dogu-ussuri-rusya-qing",
   "g4-bna-rus-141",
   "g4-bna-us-141",
-  "g4-bna-us-bati-1",
   "g4-bna-us-prairie"
  ],
  "yarim": [
@@ -284,7 +275,14 @@
   "g2-sscb-cn-dogu-argun-amur-rusya",
   "g4-bna-us-bati-2"
  ],
- "atlanan": [],
+ "atlanan": [
+  "d1923-ca-us-bati-1",
+  "d1923-ir-hind-BILINMIYOR",
+  "d1923-necid-kuveyt-tarafsiz-bati",
+  "d1923-necid-kuveyt-tarafsiz-guney-C",
+  "d1923-us-cu-guantanamo-2",
+  "g4-bna-us-bati-1"
+ ],
  "dusen_gun": [],
  "muhasebe_disi": []
 }

@@ -9476,6 +9476,40 @@ var ustbarYil = document.getElementById("ustbar-yil");
   if (m) el.textContent = m[1];
 })();
 
+// 🏷️ KOŞU DAMGASI (Emre, 5 Ekim 2026) — yayın numarasının YANINDA "KOŞU 19".
+// 🔴 NİÇİN: yayın numarası her commit'te artar, koşu numarası YALNIZ motor
+//    koştuğunda. 4 Ekim'de r11195 yayınlandı, numara arttı, ve harita başka bir
+//    PRENSİPLE (yürüyüş bayrağı KAPALI) çizilmişti — kimse fark etmedi.
+//    Bu etiket o soruyu ekrana taşıyor: "bu harita hangi koşunun ürünü".
+// ⚠️ Damga yoksa span BOŞ kalır — uydurma yok, "KOŞU ?" yazılmaz; bilinmeyen
+//    bir koşu numarası, yanlış bir numaradan iyidir ama ikisi de bir SORUdur.
+(function () {
+  var el = document.getElementById("kosu-etiketi");
+  if (!el) return;
+  var D = window.KOSU_DAMGA;
+  if (!D || D.no == null) return;
+  el.textContent = "KOŞU " + D.no;
+  var b = D.bayraklar || {};
+  // Başlık (tooltip) ölçülmüş olanı yazar, ölçülemeyeni YAZMAZ.
+  var satir = ["koşu " + D.no + (D.tarih ? " · " + D.tarih : "") +
+               (D.makine ? " · " + D.makine : "")];
+  if (b.yuruyus === true) {
+    satir.push("sahiplik: sürtünmeli yürüyüş" +
+               (b.yuruyus_saat ? " · bütçe " + b.yuruyus_saat + " sa (" +
+                (b.yuruyus_saat / 8) + " gün)" : ""));
+  } else if (b.yuruyus === false) {
+    satir.push("sahiplik: Voronoi (düz çizgi en yakın) — yürüyüş bütçesi YOK");
+  }
+  if (b.ufuk_bant && b.ufuk_bant.length) {
+    satir.push("bantlar: " + b.ufuk_bant.map(function (s) {
+      return (s / 8) + " gün";
+    }).join(" · "));
+  }
+  el.title = satir.join("\n");
+  // Yürüyüşsüz koşu bir KUSUR DEĞİL ama bir FARKTIR — görünür olsun.
+  if (b.yuruyus === false) el.classList.add("kosu-yuruyussuz");
+})();
+
 kaydirici.min = BASLANGIC;
 kaydirici.max = BITIS;
 kaydirici.value = BASLANGIC;
@@ -15016,7 +15050,45 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
         // ile AYNI gerekçe: her maddede tekrarlanan kip hatırlatması gürültü.
         if (obYerYokEl) obYerYokEl.textContent = "";
       } else {
-        try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+        // 🔴 ÖNCE ODAK KUTUSU — ÜÇÜNCÜ DAL BAĞLANMAMIŞTI (PAKET-0083-D,
+        //    5 Ekim 2026 · Emre H-0001/H-0011).
+        // Emre: *"bu maddede imparatorluk görünümüne geçiyor, tepeden geniş
+        // bakıyor"* ve *"bu maddenin neden odak noktası yok"*. İkisi TEK kusur
+        // çıktı ama mekanizma sandığımdan BAŞKAYDI: iki AYRI kod yolu var.
+        //   (a) BU DAL — devlet sekmesi `maddeAc()`: `yer_id` yok +
+        //       `kapsam_genis` ⇒ doğrudan `devletiYay(d.harita)` = DEVLETİN
+        //       BÜTÜN GÖVDESİ. `maddeOdakKutusu` burada HİÇ çağrılmıyordu
+        //       ⇒ `odak_yer` / `odak_kimlik` / `odak_kutu_kaynak` bu yolda
+        //       YAZILSA BİLE ETKİSİZDİ.
+        //   (b) `haritayiOlayaGotur()` — odak yoksa Osmanlı kutusuna uçar.
+        // ⚠️ Ve 12871'deki yorum bu kusuru ÖNCEDEN TARİF ETMİŞ: *"iki ayrı
+        //    bbox-kamera yolu olsaydı biri düzelirken öteki bayatlardı."*
+        //    Üçüncü dal (bu) hiç bağlanmamıştı — kural yazılıydı, bu dalda
+        //    UYGULANMAMIŞTI. Aynı dosyanın kendi dersi: *bir düzeltme, aynı
+        //    kusurun BÜTÜN dallarında aranmalı.*
+        // 🔴 ÖLÇÜM KÖRLÜĞÜ, ayrı kalem: `arac/odak_olc.py` yalnız (b) yolunu
+        //    ölçüyor; bu dalı HİÇ sormuyor. Yani kapı temiz derken bu sınıf
+        //    görünmezdi (`§11`: "denetim var ≠ o soruyu soruyor").
+        var _dsOdak = null;
+        try { _dsOdak = maddeOdakKutusu(m); } catch (eDs) { _dsOdak = null; }
+        if (_dsOdak && _dsOdak.kutu) {
+          // Kamera yolu 12866 ile BİREBİR AYNI (cameraForBounds → flyTo,
+          // düşerse fitBounds). Dördüncü bir yol açmıyoruz.
+          var _dsK = _dsOdak.kutu, _dsKam = null;
+          try {
+            _dsKam = harita.cameraForBounds([[_dsK[0], _dsK[1]], [_dsK[2], _dsK[3]]],
+                                            { padding: 40 });
+          } catch (eK) { _dsKam = null; }
+          if (_dsKam && _dsKam.center) {
+            harita.flyTo({ center: _dsKam.center, zoom: _dsKam.zoom, duration: 1200,
+                           curve: 1.42, essential: ucusAcik() });
+          } else {
+            harita.fitBounds([[_dsK[0], _dsK[1]], [_dsK[2], _dsK[3]]],
+                             { padding: 40, duration: 1200, essential: ucusAcik() });
+          }
+        } else {
+          try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+        }
       }
     }
   }

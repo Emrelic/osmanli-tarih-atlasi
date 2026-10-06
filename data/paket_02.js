@@ -1362,10 +1362,10 @@ window.OLAYLAR_EK10 = [
   kaynak:"bosna-hersek", duygu:["🎉"] },
 
 { t:"1402-07-28", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Ankara bozgununun ardından Eflak Voyvodası Mircea Dobruca'yı yeniden aldı — Silistre, Köstence, Babadağı",
-  gun:"1402 (Ankara Savaşı'nın ardından; gün kaynakta yok)", yer:"Dobruca (Silistre, Köstence, Babadağı)", yer_id:"Silistre",
+  b:"Ankara bozgununun ardından Eflak Voyvodası Mircea Dobruca'yı yeniden aldı — Silistre, Köstence, Babadağı, İshakçı",
+  gun:"1402 (Ankara Savaşı'nın ardından; gün kaynakta yok)", yer:"Dobruca (Silistre, Köstence, Babadağı, İshakçı)", yer_id:"Silistre",
   kisiler:"Eflak Voyvodası I. Mircea",
-  d:"Yıldırım Bayezid'in Ankara'da Timur'a yenilmesi Tuna boyundaki Osmanlı hâkimiyetini sarstı. Eflak Voyvodası Mircea bu boşluktan yararlanarak Dobruca'ya yeniden girdi; Silistre, Köstence ve Babadağı çevresi Fetret yılları boyunca onun elinde kaldı. Mircea, Çelebi Mehmed'e karşı Mûsâ Çelebi'yi destekledi. Silistre'yi 1418'deki ölümüne kadar tuttu.",
+  d:"Yıldırım Bayezid'in Ankara'da Timur'a yenilmesi Tuna boyundaki Osmanlı hâkimiyetini sarstı. Eflak Voyvodası Mircea bu boşluktan yararlanarak Dobruca'ya yeniden girdi; Silistre, Köstence, Babadağı çevresi ve Tuna kıyısındaki İshakçı Fetret yılları boyunca onun elinde kaldı. Mircea, Çelebi Mehmed'e karşı Mûsâ Çelebi'yi destekledi. Silistre'yi 1418'deki ölümüne kadar tuttu.",
   kaynak:"silistre", duygu:["😔"] },
   // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "Ankara Savaşı'nda (1402) … Mircea Silistre'yi tekrar aldı ve 1418'de ölümüne kadar elinde tuttu" · TDV kostence: "1402'de Mircea buraya hâkim olmuşsa da" · TDV dobruca: "Mircea Ankara Savaşı'ndan sonraki karışıklıklar sırasında tekrar Dobruca'ya girmiş". Gün = Ankara günü (TDV olayı Ankara'ya bağlıyor; Mircea'nın giriş günü BULUNAMADI).
 
@@ -1379,11 +1379,11 @@ window.OLAYLAR_EK10 = [
 
 { t:"1419-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Silistre ve Dobruca'nın geri alınışı — Mircea'nın ölümünden sonra",
-  gun:"822 (1419) ilkbaharı", yer:"Silistre, Köstence, Dobruca", yer_id:"Silistre",
+  gun:"822 (1419) ilkbaharı", yer:"Silistre, Köstence, İshakçı, Dobruca", yer_id:"Silistre",
   kisiler:"Çelebi Sultan Mehmed",
-  d:"Eflak Voyvodası Mircea'nın 1418'de ölmesinin ardından Eflak'ta çıkan karışıklık, Çelebi Sultan Mehmed'e Silistre'yi ve Dobruca'yı geri alma fırsatı verdi. 1419 ilkbaharında Silistre, Köstence ve Dobruca'nın büyük kısmı yeniden Osmanlı idaresine girdi; Dobruca bundan sonra 1878'e kadar Osmanlı'da kaldı.",
+  d:"Eflak Voyvodası Mircea'nın 1418'de ölmesinin ardından Eflak'ta çıkan karışıklık, Çelebi Sultan Mehmed'e Silistre'yi ve Dobruca'yı geri alma fırsatı verdi. 1419 ilkbaharında Silistre, Köstence ve Dobruca'nın büyük kısmı yeniden Osmanlı idaresine girdi; Enisala (Yenisale) ile İshakçı kaleleri onarılıp sınır kalesi (serhat) yapıldı; Dobruca bundan sonra 1878'e kadar Osmanlı'da kaldı.",
   kaynak:"silistre", duygu:["🎉"] },
-  // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "822 (1419) ilkbaharında Çelebi Sultan Mehmed'in Silistre'yi ve bütün Dobruca'yı tekrar almasına fırsat tanıdı" · TDV kostence: "Osmanlılar 1419'da Constanta ile beraber" · TDV tulca: "1419'da Dobruca Osmanlı toprakları içine alındı". Mevsim ⇒ YIL (D210).
+  // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "822 (1419) ilkbaharında Çelebi Sultan Mehmed'in Silistre'yi ve bütün Dobruca'yı tekrar almasına fırsat tanıdı" · TDV kostence: "Osmanlılar 1419'da Constanta ile beraber" · TDV tulca: "1419'da Dobruca Osmanlı toprakları içine alındı". Mevsim ⇒ YIL (D210). · İsakçı (PAKET-0076-ISHAKCI-1004): Stănică 2016 s. 4 — Enisala ve Isaccea 'become serhat … repaired and fortified by order of Sultan Mehmed I' (1419 ya da 1420 ilkbaharı okuması).
 
 { t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
   b:"Aşağı Tuna'nın kapanması — Yergöğü, Turnu ve Orşova'nın ilhakı",

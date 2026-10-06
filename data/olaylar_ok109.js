@@ -152,7 +152,7 @@ window.OLAYLAR_OK109 = [
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",
-    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
+    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan da tam bu gün Romanya ve Çekoslovakya rengine geçer.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
     kaynak: "macaristan"
   },
 
@@ -216,6 +216,35 @@ window.OLAYLAR_OK109 = [
     kisiler: "Çar Ferdinand, Boris",
     d: "Savaşın yenilgiyle bitmesi üzerine Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kalmıştı (29 Eylül 1918). Savaşı sona erdiren Neuilly Antlaşması'yla Bulgaristan Sırplar lehine stratejik toprak kaybına uğradı, Batı Trakya'nın tamamını kaybetti, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kaldı ve Güney Dobruca'yı Romanya'ya veren Bükreş Antlaşması hükümlerini onayladı. Haritada bu devrin karşılığı antlaşma gününde değil, idarenin fiilen el değiştirdiği 1920 Mayıs'ındadır: Dedeağaç, Sofulu, Orestiada ve Çirmen 14 Mayıs'ta, Gümülcine, İskeçe, Dimetoka ve Ferecik 27 Mayıs'ta Yunanistan'a geçer.", ic_not_d:"eski ifade: Atlasta bu devrin karşılığı",
     kaynak: "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ)."
+  },
+
+  // ── ONCE1281-EISENSTADT-1005 (M-5834 ②) — Burgenland'ın fiilî devri ──────────
+  {
+    t: "1921-11-13", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
+    kapsam:"dis", onem:2, b: "Avusturya Bundesheer'i Burgenland'a girdi — Trianon'un Avusturya'ya bıraktığı toprak fiilen devralındı", yer_id:"Eisenstadt (Kismarton)",
+    gun: "13 Kasım 1921",
+    yer: "Eisenstadt, Burgenland",
+    d: "Trianon (1920) ve Saint-Germain (1919) Batı Macaristan'ın Almanca konuşulan şeridini Avusturya'ya bırakmıştı; 28 Ağustos 1921'deki ilk devralma denemesi Macar düzensiz birliklerinin direnişiyle başarısız oldu. Venedik Protokolü'nden (13 Ekim 1921) sonra Müttefik Genel Komisyonu 11 Kasım'da Bundesheer'in girişini onayladı ve kuzey Burgenland iki gün sonra devralınmaya başlandı; güney 6 Aralık 1921'de devralındı, Sopron bölgesi halk oylamasıyla Macaristan'da kaldı. Gün bölge günüdür; Eisenstadt'a özgü giriş günü bulunamadı.",
+    kaynak: "BMI, Öffentliche Sicherheit 7-8/2021, 'Gendarmeriegeschichte — Landnahme 1921' (Schlag, Aus Trümmern geboren … Burgenland 1918-1921, WAB 106, 2001'e dayanır) — 'genehmigte am 11. November 1921 offiziell den Einmarsch des Bundesheeres in das Burgenland, mit Ausnahme der Region Ödenburg. Zwei Tage später wurde mit der neuerlichen Landnahme begonnen' · Theresianische Militärakademie (milak.at, 'Das Gefecht von Kirchschlag') — 'Als am 13. November 1921 … das Bundesheer in das Burgenland einrückte'"
+  },
+
+  // ── ONCE1281-ZIGETVAR-1005 (M-5834 ③) — Szigetvár'ın Sırp işgali ──────────
+  {
+    t: "1918-11-19", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Sırp birlikleri Szigetvár'a girdi — Güney Somogy'un işgali", yer_id:"Zigetvar",
+    gun: "18/19 Kasım 1918 gecesi",
+    yer: "Szigetvár",
+    d: "Belgrad askerî anlaşmasının çizdiği hattın kuzeyine ilerleyen Sırp ordusundan Obren Petrović komutasındaki 220 asker, 18'i 19'a bağlayan gece Somogy'un ilçe merkezi Szigetvár'a girdi; ilçenin köyleri de bu kuvvetle tutuldu. İşgal Ağustos 1921'e dek sürdü; Trianon Szigetvár'ı Macaristan'da bıraktı.",
+    kaynak: "Ernyes M., Magyar Rendészet 2021/1, 141-154 (DOI 10.32577/mr.2021.1.10) — '1918. november 18–19-ének éjjelén vonult be 220 szerb katona Obren Petrovic főhadnagy parancsnoksága alatt' (dipnot: Csóti 1998, Somogy Megyei Levéltár) — gece 18/19, gün olarak 19 alındı"
+  },
+
+  {
+    t: "1921-08-20", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Sırp birlikleri Szigetvár'dan çekildi — Macar jandarması şehri devraldı", yer_id:"Zigetvar",
+    gun: "20 Ağustos 1921",
+    yer: "Szigetvár, Barcs",
+    d: "Trianon'un yürürlüğe girmesinin ardından Sırp kuvvetleri 17 Ağustos'ta Barcs ve Szigetvár'dan çekilmeye başladı ve taşınabilen her şeyi götürdü. 20 Ağustos öğleye doğru Macar jandarma birlikleri girdi; öğleden sonra belediye meclisi ve memurlar yemin etti, saat beşte belediye binasında askerî devir teslim yapıldı.",
+    kaynak: "Ernyes M., Magyar Rendészet 2021/1, 141-154 (DOI 10.32577/mr.2021.1.10) — 'Barcsról és Szigetvárról 1921. augusztus 17-én kezdték meg a szerb csapatok a kivonulást … 20-án dél körül magyar csendőr alegységek vonultak be a településekre … délután 5 órakor pedig a községházán megtörtént a katonai átadás-átvétel is'"
   }
 
 ];

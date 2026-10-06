@@ -1464,10 +1464,18 @@ def _2s_kunye_adlari():
     return _2S_KUNYE
 
 
+# 🆕 Taraf TAKMA ADI (ONCE1281-CISLEITHANIA-1005): künye adından türeyen aday
+#   maddelerin kullandığı kısaltmayı kaçırıyor. Ölçülen vaka: Rapallo maddesi
+#   "İtalya ile SHS Krallığı arasında" diyor, `yugoslavya`nın adayları yalnız
+#   "sirp-hirvat-sloven …" ⇒ 8 ada birimi açık kaldı. Liste DAR tutulur: her
+#   satır bir ölçülmüş kaçırma olmalı (gevşek kol çürüdü — blok başı).
+_2S_TAKMA = {"yugoslavya": ["shs"]}
+
+
 def _2s_taraf_adaylari(sid):
     ix = _2s_kunye_adlari()
     if sid in ix:
-        return ix[sid]
+        return ix[sid] + [a for a in _2S_TAKMA.get(sid, []) if a not in ix[sid]]
     n = _2s_norm((sid or "").replace("-", " "))
     return [n] if len(n) >= 3 else []
 
@@ -1507,7 +1515,61 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
 #   (sayı eksik ölçülüyor). Doymuş sensör değişimi göstermez; maskeli sensör YANLIŞ
 #   BÜYÜKLÜK gösterir — ikincisi daha tehlikeli, çünkü sayı güven telkin eder.
 #   ⇒ Bu üçüncü sayı maskeyi GÖRÜNÜR kılar; tavan hesabına GİRMEZ, yalnız basılır.
-BEKLENEN_2S_YALNIZ_TARAF = 1602  # 🧊 5 Ekim 2026 ölçümü (bkz. yukarı). Borç, ihlal DEĞİL.
+# 🔴 1602 → 1635 (5 Ekim 2026, AVUSTURYA TAÇ YARISI indi) — ARTIŞ ÖLÇÜLDÜ, AÇIKLANDI
+#   ve İNDİRİLEMEZ olduğu BİRİNCİL KAYNAĞA KARŞI sınandı:
+#     34 taç noktası `s:`i antlaşma gününe (Trianon / Saint-Germain) taşıyor; o günün
+#     kapanışları YER anmıyor ⇒ taraf kovasına düşüyor (+33).
+#   🔴 ÇARE DENENDİ VE ÇALIŞMADI: dört antlaşmanın TAM METNİ okundu (Trianon 149 s. ·
+#     Saint-Germain 137 s. · Rapallo · Büyükelçiler 1923, FOROST/Ungarisches Institut).
+#     **69 noktanın 60'ı metinde HİÇ YOK** — Trianon ve SG devredilen ŞEHİRLERİ saymıyor,
+#     yalnız sınır hattındaki köyleri. Geçen 9'un 5'i yalnızca DEMİRYOLU ADI olarak geçiyor
+#     (reddedildi), 2'si örtülü sınır referansı (`D208` ⇒ eklenmez), 2'si gerçek devir
+#     cümlesi (Zadar · Cres, Rapallo — zaten Cisleithania yarısında).
+#     ⇒ `D261` çaresi (maddeye yer adı ekle) bu kalemde UYGULANAMAZ; eklemek antlaşmaya
+#       söylemediğini söyletmek olurdu.
+#   ⚠️ NİÇİN TAVAN YÜKSELTİLDİ, AŞIK BIRAKILMADI: `D262` bilerek aşık bırakılan tavanın
+#     DEĞİŞİM SEZİCİ olmaktan çıktığını söylüyor. Buradaki artış ÖLÇÜLDÜ, SEBEBİ BİLİNİYOR
+#     ve indirilemez; aşık bırakmak bir sonraki GERİLEMEYİ gizlerdi. Dondurma, susturma
+#     DEĞİL — açıklanmış bir maliyeti yeni taban yapmaktır.
+#   📌 Ve bu sayı HÂLÂ MASKENİN ARKASINDAN okunuyor (bugün 1665 birim açık kovalarda
+#     sayılmıyor). Maske küçülünce taban YENİDEN kurulacak.
+BEKLENEN_2S_YALNIZ_TARAF = 1665   # 1636 → 1665, 5 Ekim 2026 · CISLEITHANIA (UFUK). +29.
+#   🔴 BU EN BÜYÜK TEK SIÇRAMA — ve niçin kabul edildiğini yazıyorum, çünkü yarın
+#   "neden bu kadar arttı" diye sorulacak.
+#   Saint-Germain md. 91 emanet künyesi (`itilaf-emaneti`) 16 Cisleithania kaydını
+#   `avusturya`dan alıp emanete, oradan halefe taşıyor. Doğan 29 yeni kırılmayı kapatan
+#   maddeler ANTLAŞMAYI anıyor (Rapallo · Büyükelçiler Konferansı), tek tek YERLEŞİMİ
+#   değil ⇒ taraf koluna düşüyorlar.
+#   KARŞILIĞINDA ALINAN — ve bu yüzden takas doğru:
+#     2s AÇIK 187 → 187   yeni açık YOK (SHS takma adı olmadan +1 olurdu; ikisi birlikte indi)
+#     2sk YER  1570 → 1571  `D261`in İLK SAHİCİ UYGULAMASI: Rapallo md. 2-3'ün GERÇEK
+#                            devir cümlesi (Zara/Zadar · Cherso/Cres) maddeye yazıldı
+#     4c 127 · 4d 324 · D1 309  DEĞİŞMEDİ
+#     MASKE 1662 → 1646     (16 birim daha görünür oldu)
+#   📌 Ve asıl kazanç sayıda değil MODELDE: Avusturya-Macaristan 1918-11-11'de bitti;
+#     `avusturya` künyesinin Dalmaçya'yı 1920'ye kadar tutması TARİHEN YANLIŞTI. `D205`
+#     üç sınıfından ③ (ardıl yapı geçti) uygulandı — kısaltmak delik açardı.
+#   ⚠️ KÜNYE ŞARTLI KABUL EDİLDİ: `tur:"emanet"` ile AÇIKÇA devlet olmadığı yazılı,
+#     penceresi KAPALI (1919-09-10 → 1923-03-15), `kaynak:`ta md. 91'in birincil metni
+#     alıntılı. Emsal var: `filistin-mandasi` · `suriye-lubnan-mandasi` zaten boyalı
+#     kimlikler, yani atlas hukukî statüleri beyanlı olarak modelliyor.
+#   ⚠️ BOYA BORCU BEYANLI: `renkler.py` yaması MOTOR TUZUNDA, tam inşa koşusuna
+#     bekletiliyor (`denetim/ONCE1281-CISLEITHANIA-RENK-1005.diff`, nötr gri #9e9e9e).
+#     O inene dek emanet toprakları BOYANMAZ — kusur değil, sıraya girmiş borç.
+#   ⚠️ Ve ÖLÇÜM ÖNGÖRÜDEN 1 SAPTI: UFUK YER için 1572 dedi, kapı 1571 bastı. Sapma
+#     muhtemelen aynı turda inen Bükreş `yer_id` düzeltmesinden; ÖLÇÜLMEDİ, ve
+#     "tuttu" diye yazmıyorum.
+#
+# ÖNCEKİ (1635 → 1636) · EISENSTADT/ZIGETVAR (UFUK).
+#   +1'in KARŞILIĞINDA 2s'de bir AÇIK KAPANDI: 188 → 187. Yani bu bir gerileme değil
+#   TAKAS, ve takasın yönü doğru: `2s` ihlal sayar, `2sk` yalnız kapanışın SINIFINI
+#   söyler. Bir açığı kapatmak, kapanışın taraf koluna düşmesinden önemlidir.
+#   Ölçülen bütün satırlar: D1 309 · D2 623/0 · 2s 188→187 · 2i 154→161 (açık 1) ·
+#   D7 727→730 (tavan 731) · 4c/mükerrer AYNI.
+#   📌 UFUK bu +1'i ÖNCEDEN bildirdi ("2sk TARAF +1") ⇒ sürpriz değil, ölçülmüş bedel.
+# ⚠️ AÇIK BORÇ: Eisenstadt kapanışı YER anmıyor. `D261` çaresi (maddeye yer adı
+#   yazmak) burada DENENMEDİ — Burgenland devri için "Bundesheer Burgenland'a girdi
+#   1921-11-13" maddesi yazılırsa kol YER'e dönebilir. Kuyrukta.
 
 
 def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
@@ -2189,7 +2251,28 @@ def degismez3(Y):
 #                  ⇒ ÇARE KAYDI SİLMEK DEĞİL: 1923-2026 ekseni açılınca
 #                     `fas` künyesi uzayacak ve hayalet KENDİLİĞİNDEN
 #                     düşecek. O güne kadar tavanda, GEREKÇESİYLE.
-BEKLENEN_HAYALET = 5   # 1 EKIM 2026: 6 -> 5, kunye 704 -> 863 genislemesi bir hayaleti kapatti
+BEKLENEN_HAYALET = 0   # 5 → 0, 5 Ekim 2026 · KUNYE-IRAN-ANAKRONIZM-1005. BORÇ KAPANDI.
+#   Beş hayaletin BEŞİ de `iran` künyesiydi: künye `f:1925` (Pehlevî) ama veri onu
+#   1281'den kullanıyordu — 415-424 yıllık anakronizm.
+#     Tarki (Tarku) · Ağraham burnu   1281-01-01 → 1501-07-01   → altinorda
+#     Derbend                          1281-01-01 → 1509-01-01   → altinorda + sirvansah
+#     Dihistan ovası · Kızılarvat      1507-05-24 → 1510-12-02   → buhara (Şeybânî)
+#   Kaynak TDV: ŞİRVANŞAHLAR ("Derbendî Şirvanşahları 1382-1501") · DERBEND ("Şah İsmâil
+#   1509'da zaptedip") · ŞEYBÂNÎLER (1500-1507 Horasan, 1510 yenilgi). Komşu doğrulaması:
+#   Nesâ/Bocnûrd/Esferâyin aynı pencerede zaten `buhara`, Terek zaten `altinorda`.
+#
+# 🔴 VE BU VAKANIN ASIL DERSİ, SAYIDA DEĞİL: ben bu kusuru Emre'ye *"kapı bu sınıfı
+#   GÖRMÜYOR"* diye bildirmiştim (`4c`/`4d` "pencereyi aşıyor mu" sorar, "oraya hiç ait
+#   miydi" sormaz — `D204`). İŞÇİ BUNU ÇÜRÜTTÜ: `degismez4` tek başına koşturuldu,
+#   hayalet 5 = BEKLENEN_HAYALET 5 çıktı ve beşi TAM BU KAYITLARDI.
+#   ⇒ Kusur KÖRLÜK DEĞİL, **TAVANLA SUSTURULMUŞ BORÇ**ymuş. Kapı soruyordu, cevabı
+#     basıyordu, ve tavan onu "beklenen" diye yutuyordu. `D262`nin bir yüzü daha:
+#     dondurulmuş bir tavan, kusuru görünmez değil GÖRÜLMEYE DEĞMEZ yapar.
+#   📌 Bu yüzden tavan AYNI COMMIT'te 0'a iniyor: borç kapandıysa tavan da kapanır,
+#     yoksa beş yeni hayalet sessizce aynı kapıdan girer.
+# ⚠️ BEDELİ BEYANLI: YIL-TEMSİLÎ BORÇ 164 → 165 (+1, Derbend 1382-01-01 — Şirvanşah
+#   devrinin günü kaynakta YOK, `D210` gereği `YYYY-01-01`). Hayalet borcunu kapatmanın
+#   bedeli bir yıl-temsilî kayıt; takas doğru yönde.
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
@@ -3357,6 +3440,31 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI ŞEHİR / AYNI FİİL / AYNI GÜN" — 5 Ekim 2026, KASA-POLONYA-1005.
+    # 15 Polonya işgal maddesi inince tavan 112 → 115 oldu; üçü de YANLIŞ POZİTİF.
+    # 🔴 VE İŞÇİ BAŞLIĞI DEĞİŞTİRMEDİ: ölçütü atlatmak için "Kielce'ye girdi"yi
+    #    başka türlü yazmak maddeyi mükerrer olmaktan çıkarmaz, yalnız SAYACI
+    #    kör eder. Doğrusu burada beyan etmek.
+    # ⚠️ Ölçüldü, işçinin saydığına GÜVENİLMEDİ: KASA "4 çift" dedi, kapı 112→115
+    #    yani ÜÇ gösterdi. Dördüncüyü yazsaydık hiçbir zaman eşleşmeyen ÖLÜ bir
+    #    kural olurdu — ve ölü kural, olmayan kuraldan kötüdür (kapandı sanılır).
+    #
+    #   Kielce 1914-08-12 (Piłsudski girer)  ↔  1914-08-19 (Polonya birlikleri
+    #          yeniden girer) — ARADA Rusların 08-13'te geri alışı var; iki AYRI giriş
+    #   Kielce 1914-09-30 (Alman ordusu)     ↔  Łódź 1914-12-06 (Alman ordusu)
+    #          — aynı ordu, AYRI şehir, 67 gün ara
+    #   Zamość 1915-07-01 (Mackensen)        ↔  Radom 1915-07-01 (Avusturya)
+    #          — aynı gün, AYRI şehir, AYRI işgalci (Alman ↔ Avusturya)
+    # Ortak olan yalnız fiil kalıbı ("X şehri aldı/girdi") ve bazısında gün.
+    # Bu kalıp bütün işgal kronolojisinde SİSTEMATİK üretilecek — ölçüt başlık
+    # benzerliğine baktığı sürece bu aile büyür; asıl çare ölçütün ŞEHİR alanını
+    # okuması olurdu (açık kalem, `ONCELIK.md`ye değil buraya not düşüyorum).
+    ("Piłsudski'nin strzelcy birlikleri Kielce'ye girdi",
+     "Polonya birlikleri Kielce'ye yeniden girdi"),
+    ("Alman ordusu Kielce'yi aldı",
+     "Alman ordusu Łódź'u aldı"),
+    ("Mackensen'in birlikleri Zamość'u aldı",
+     "Radom Avusturya birliklerince işgal edildi (Temmuz 1915)"),
     # ⭐ "AYNI YIL İŞARETİ + ÇELEBİ MEHMED" — 5 Ekim 2026, PAKET-0076-DOBRUCA-1004 (A).
     # Dobruca'nın 1416/1419 maddeleri inince tavan 113 → 115 oldu; iki çiftin ikisi de
     # YANLIŞ POZİTİF. Ortak olan yalnız yıl damgası (YYYY-01-01) ve Çelebi Mehmed:
@@ -4427,7 +4535,55 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1585
+BEKLENEN_D8A = 1568   # 1574 → 1568, 5 Ekim 2026 (ÜÇÜNCÜ kusur: `d1816-alm-ah-2`).
+#   LAB-D8-UYE-1005, ikinci teslim. `sol_taraf` "habsburg" → "almanya" (iki kopya:
+#   d_sinirlar_avrupa_orta.js:164 + paket_28.js:1226). at-cs ile AYNI DESEN ve aynı
+#   kanıt türü: KARDEŞ HATLAR. `alm-ah-3` ve `-4` aynı taraflar/aynı tarihlerle
+#   "almanya" diyor, yalnız `-2` "habsburg" diyordu. Ek ölçüm: hat güneye akıyor,
+#   sol = doğu = Bavyera; 0,5-2 km sondada SOL 19/19 DEU · SAĞ 60/60 AUT; Habsburg
+#   noktaları SAĞ yakada.
+#   DÜŞEN 6, GİREN 0 — hepsi "kendi toprağı" (km≈25): 1816-05-01 ve 1844-01-29 ×
+#   sag: Bregenz 492 km² · Feldkirch 212 · Landeck 180. Başka hat oynamadı.
+#   📌 İki ters hattın ikisi de kardeşiyle çelişiyordu ⇒ "kardeş hat sınavı" artık
+#      bir YÖNTEM: aynı sınırın ardışık parçaları ters yaka söylüyorsa biri yanlıştır,
+#      ve bu dışarıdan veri GEREKTİRMEZ.
+#
+# ÖNCEKİ İKİ KUSUR (1585 → 1574), aynı gün:
+#   ① `d1923-at-cs` sol_taraf TERS'ti. 1584 → 1578.
+#      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
+#      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
+#      Třeboň · České Budějovice]  —  GİREN 10 (hattın GİZLEDİĞİ gerçek taşmalar):
+#      Gmünd AT→ÇS 24,9 km/1020 km² · Freistadt 16,1/400 · Linz 10,2/120 ·
+#      Brno ÇS→AT 10,3/132 · Bratislava 12,5/64 (iki gün).
+#      🔴 NET −6, ama ÜYELİK 26 kişi oynadı: net sayı hareketi GİZLER.
+#   ② BOŞ `sol_taraf` artık ölçülemedi (yukarıda ~4713). 1578 → 1574.
+#      6 hat `atlanan`a düştü ADIYLA: d1923-ca-us-bati-1 · d1923-ir-hind-BILINMIYOR ·
+#      d1923-necid-kuveyt-tarafsiz-bati · d1923-necid-kuveyt-tarafsiz-guney-C ·
+#      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
+#      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
+#
+# ⚠️ VE BU SAYI BUGÜN BAYAT BİR GÖVDEYE KARŞI ÖLÇÜLÜYOR: `denetle.py:4547` Değişmez 8
+#   için `data/donemler.js`i okur; o dosya `.gitignore:42`de, YEREL bir koşu
+#   artefaktı (4 Ekim, r11195) ve SİTE onu yüklemiyor (site `donemler_on`+`donemler_ust`
+#   yüklüyor, bugün KOŞU 19'a döndürüldü). ⇒ 1568 bir ONAY değil, bayat bir referansa
+#   karşı alınmış bir FOTOĞRAF. Tam inşa koşusundan sonra üçü birden (8a/8b/8m)
+#   yeniden ölçülecek. Aynı sebeple `8b` bugün 121 diyor (tavan 84) — bu bir İHLAL
+#   DEĞİL ÖLÇÜLEMEZLİK: 1 Ekim'in `bolgeler.js`i 4 Ekim'in `donemler.js`iyle
+#   kıyaslanıyor. KANIT: KOŞU 19'un kendi kaydı (`denetim/DEGISMEZ-KOSU19-UMIT.log`,
+#   UMIT) **8a 1517 · 8b 82 · SONUÇ temiz** diyor.
+#   ① `d1923-at-cs` sol_taraf TERS'ti (LAB-D8-UYE-1005). 1584 → 1578.
+#      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
+#      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
+#      Třeboň · České Budějovice]  —  GİREN 10 (hattın GİZLEDİĞİ gerçek taşmalar):
+#      Gmünd AT→ÇS 24,9 km/1020 km² · Freistadt 16,1/400 · Linz 10,2/120 ·
+#      Brno ÇS→AT 10,3/132 · Bratislava 12,5/64 (iki gün).
+#      🔴 NET −6, ama ÜYELİK 26 kişi oynadı: net sayı hareketi GİZLER.
+#   ② BOŞ `sol_taraf` artık ölçülemedi (yukarıda ~4713). 1578 → 1574.
+#      6 hat `atlanan`a düştü ADIYLA: d1923-ca-us-bati-1 · d1923-ir-hind-BILINMIYOR ·
+#      d1923-necid-kuveyt-tarafsiz-bati · d1923-necid-kuveyt-tarafsiz-guney-C ·
+#      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
+#      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
+#   ⇒ 1574 bir ONAY değil DONDURMA: ölçülemeyen 6 hat kapandıkça sayı yine oynar.
 BEKLENEN_D8B = 84
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
@@ -4506,12 +4662,79 @@ def _d8_gun_once(g):
         return None
 
 
+# 🔴 GÖVDE KİMLİK SINAVI — "ölçtüğüm gövde, SİTENİN gösterdiği gövde mi?"
+#    (LAB-D8-UYE-1005 §10, 5 Ekim 2026 · iz sürerek ölçtü: Python audit hook +
+#    Node --require kancası, her okumaya çağıran soru eklenerek.)
+#
+# ÖLÇÜLEN VAKA ve niçin sinsi: Değişmez 8, `data/donemler.js` ve
+# `data/devletler_harita.js`i okur. İkisi de `.gitignore`da, YEREL koşu
+# artefaktı. Site ise onları YÜKLEMEZ — kodlanmış sürümü yükler
+# (`donemler_on`+`donemler_ust`+`donem_parcalar`). İkisi AYRI koşudan kalırsa
+# kapı, YAYINDA OLMAYAN bir haritayı denetler:
+#     site devletler 0ef2d3e23c4e (172,6 MB) ↔ yerel bc81fa2c005f (93,7 MB)
+#     site donemler  6e34fd54dcfb            ↔ yerel 1f201eb7b597
+#     SİTE gövdesinde 8a 1509 · 8b  82 ✓      ← yayındaki GERÇEK
+#     YEREL gövdede   8a 1568 · 8b 121 ✗      ← kapının bastığı sayı
+# ⇒ Yalnız yanlış sayı değil, YANLIŞ HÜKÜM: olmayan bir ihlal bağırıyor,
+#   gerçek üyelik hareketini (ortak 1364 · yalnız yerel 204 · yalnız site 145)
+#   gizliyor.
+#
+# ⚠️ VE ESKİ DAMGA BU SORUYU CEVAPLAMIYORDU: `self.damga` motor parmak izini
+#   ("uret_petek 8b6aaea5") yazıyor ve İKİ GÖVDE DE AYNI parmak izini taşıyor —
+#   damga KOŞUYU AYIRT ETMİYOR. Aynı motor, ayrı koşu, ayrı çıktı.
+# ⇒ Tek güvenilir bağ, kodlayıcının ÖZGÜN METİN sha256'sı (`kodla.py:752`,
+#   `window.__PR_SHA` / `window.__DP_SHA`). Tutmuyorsa soru SORULAMAZ:
+#   `ölçülemedi ≠ yok ≠ temiz` (`CLAUDE.md §3`). Aşağıdaki `raise`,
+#   `degismez8_rapor`un `except Exception` kolundan ÖLÇÜLEMEDİ'ye ve çıkış
+#   kodu 2'ye düşer — sessiz "temiz" YOK.
+# ⚠️ DAMGA `*_parcalar.js`TE, `*_ust.js`TE DEĞİL — bunu VARSAYDIM ve YANILDIM;
+#   kapı "damga YOK" diye öttü. Doğrusu `kodla.py:752` okunarak bulundu:
+#   `SHA_ADI` havuz (parça) dosyasına yazılıyor, üst dosyaya değil.
+#   📌 Bu gecenin dersi bir kez daha: çareyi KURALDAN değil KODDAN tasarla.
+_D8_GOVDE_DAMGA = (
+    ("devletler_harita.js", "devlet_parcalar.js", "__DP_SHA"),
+    ("donemler.js", "donem_parcalar.js", "__PR_SHA"),
+)
+
+
+def _d8_govde_kimlik():
+    """Yerel gövde ↔ sitenin yüklediği kodlanmış gövde AYNI MI? Değilse RAISE."""
+    import hashlib
+    for kaynak, ust, damga_adi in _D8_GOVDE_DAMGA:
+        y_kaynak = os.path.join(DATA, kaynak)
+        y_ust = os.path.join(DATA, ust)
+        if not os.path.isfile(y_ust):
+            raise RuntimeError(
+                "%s YOK — sitenin yüklediği gövdenin damgası okunamıyor, "
+                "yerel %s'in yayındakiyle aynı olduğu DOĞRULANAMAZ" % (ust, kaynak))
+        with open(y_ust, encoding="utf-8") as f:
+            m = re.search(r"window\.%s\s*=\s*\"([0-9a-f]{64})\"" % damga_adi, f.read())
+        if not m:
+            raise RuntimeError(
+                "%s içinde %s damgası YOK — gövde kimliği sınanamıyor" % (ust, damga_adi))
+        if not os.path.isfile(y_kaynak):
+            raise RuntimeError(
+                "%s YOK (üretilmiş + gitignore'lu çıktı) — taze bir ağaçta "
+                "beklenir; koşudan sonra oluşur" % kaynak)
+        h = hashlib.sha256()
+        with open(y_kaynak, "rb") as f:
+            for blok in iter(lambda: f.read(1 << 22), b""):
+                h.update(blok)
+        if h.hexdigest() != m.group(1):
+            raise RuntimeError(
+                "GÖVDE UYUŞMUYOR — %s yereldeki koşudan, site ise kodlanmış "
+                "sürümü yüklüyor (yerel %s… ↔ site %s…). Değişmez 8 YAYINDA "
+                "OLMAYAN bir haritayı ölçerdi; soru SORULMADI."
+                % (kaynak, h.hexdigest()[:12], m.group(1)[:12]))
+
+
 class _D8Govde:
     """Motor gövdesi: gün → o gün boyalı parçalar (lon/lat shapely)."""
 
     def __init__(self):
         from shapely.geometry import Polygon
         self._Polygon = Polygon
+        _d8_govde_kimlik()          # 🔴 ölçmeden ÖNCE: doğru gövde mi?
         H = _d8_js(os.path.join(DATA, "devletler_harita.js"))
         D = _d8_js(os.path.join(DATA, "donemler.js"))
         B = _d8_js(os.path.join(DATA, "bolgeler.js"))
@@ -4692,7 +4915,23 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
             continue
         sinif = r.get("sinif") or r.get("kategori") or "?"
         hedef = a_tasma if sinif in D8_SINIF else a_kaba
-        sol = r.get("sol_taraf") or r["taraflar"][0]
+        # 🔴 BOŞ `sol_taraf` YAZI-TURA DEĞİL, ÖLÇÜLEMEDİ (LAB-D8-UYE-1005, 5 Ekim 2026).
+        # Eski satır: `sol = r.get("sol_taraf") or r["taraflar"][0]` — `sol_taraf` boşsa
+        # listenin İLK tarafını sol VARSAYIYORDU. Bu bir ölçüm değil bir kura; ve yanlış
+        # geldiğinde sessizce SAHTE ÜYE üretiyordu. Ölçülen vaka:
+        # `d1923-necid-kuveyt-tarafsiz-bati` — sol_taraf null, kod `suud`u sol saydı,
+        # Natural Earth bugünkü ülke L=KWT diyor ⇒ ters; 2 sahte 8a üyesi (sol|Kuveyt ×2).
+        # ⇒ Artık ADIYLA `atlanan`a düşer: `d8_atlanan_kapi` yeni üyeyi ✗ ile ötürür, yani
+        #   belirsizlik GİZLENMEZ, GÖRÜNÜR. Bir hattın yakası bilinmiyorsa "aştı/aşmadı"
+        #   sorusu o hat için SORULAMAZ — `ölçülemedi ≠ yok ≠ temiz`.
+        # ⚠️ `taraflar[0]`a geri dönmek CAZİP ama yanlış: iki yakadan birini seçmek
+        #   %50 isabetle ölçüm üretir, ve sayı güven telkin eder (bu projenin
+        #   "yanlış alanla ölçmek ölçmemekten tehlikelidir" dersi).
+        if not r.get("sol_taraf"):
+            atlanan.append((r["id"], "sol_taraf BOŞ: hangi yaka hangi devlet ÖLÇÜLEMEDİ "
+                                     "(taraflar[0] varsayımı kaldırıldı)"))
+            continue
+        sol = r["sol_taraf"]
         sag = [t for t in r["taraflar"] if t != sol]
         sag = sag[0] if sag else r["taraflar"][1]
         xs = [q[0] for p in parcalar for q in p]

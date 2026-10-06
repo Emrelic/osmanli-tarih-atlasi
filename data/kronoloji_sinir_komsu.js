@@ -84,7 +84,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
   kaynak:"TDV bulgaristan ('Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra') · IBS No. 53" },
 
 { t:"1913-08-10", devlet:"romanya-kralligi", devletler:["romanya-kralligi","bulgaristan-kralligi"], sinir_id:"g3-bg-ro-dobruca-p4",
-  b:"Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
+  b:"Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hacıoğlupazarcığı (Dobrich)",
   etiket:["sinir","antlasma","konu-siyasi","romanya-kralligi","bulgaristan-kralligi","ikinci-balkan-savasi"],
   d:"İkinci Balkan Savaşı'nı bitiren Bükreş Antlaşması (md. II ve ek protokol) Romanya–Bulgaristan sınırını Tuna'da Turtukaya'nın yukarısından Karadeniz'de Ekrene'nin güneyine taşıdı. Güney Dobruca Romanya'ya geçti; Dobriç (Hacıoğlupazarcığı), Balçık ve Silistre Romanya'ya bırakıldı. Berlin'den beri süren Silistre–Mangalya hattı bu günde sona erdi. Yeni hattın koordinatı elde olmadığı için haritada çizgi olarak gösterilmez.",
   kaynak:"IBS No. 53 Bulgaria–Romania s.7 (Bükreş 10 Ağustos 1913; onay teatisi IBS'e göre 25 Ağustos) · Bükreş Antlaşması metni md. II ('begin at the Danube above Turtukaia') · TDV hacioglupazarcigi (Machiel Kiel): 'II. Balkan Savaşı’nın ardından mağlûp Bulgaristan, Güney Dobruca’yı terketmek zorunda kaldı, Dobriç, Balçık ve Silistre Romanya’ya bırakıldı' · gün: TDV bulgaristan ('10 Ağustos 1913’te Bükreş Barış Antlaşması’nı imzalayarak Güney Dobruca’yı Romanya’ya bıraktığı')" },

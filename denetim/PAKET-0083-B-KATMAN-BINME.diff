@@ -1,0 +1,188 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 668f1a28..377139d3 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -2882,7 +2882,7 @@ EPOK = "1281-01-01"
+ # ayrı simplify + dışa taşırma hilesi kaldırıldı — gerek kalmadı.
+ SADE_TOL = 0.012
+ 
+-def kapat(g, yaricap=0.15):
++def kapat(g, yaricap=0.15, engel=None):
+     """Morfolojik kapama: aralarında yaricap*2'den (≈33 km) daha az boşluk olan
+     ayrı parçaları birleştirir. Aynı çekirdek beyliğin parçası olan komşu
+     petekler, aralarına giren ince 'henüz o an aktif olmayan komşu' şeridi
+@@ -2892,10 +2892,54 @@ def kapat(g, yaricap=0.15):
+     kesişim alınacağından geçici deniz taşkını da temizlenir.
+     Topoloji notu: mitre birleşim, buffer'ın yay örneklemesiyle kenara nokta
+     eklemesini önler; sonuç orijinalle BİRLEŞTİRİLİR ki gidip-gelen buffer'ın
+-    sayısal aşındırması ortak kenarı bir mikron bile oynatamasın (boşluk kaynağı)."""
++    sayısal aşındırması ortak kenarı bir mikron bile oynatamasın (boşluk kaynağı).
++
++    engel  🔴 PAKET-0083-B (H-0008 · H-0009, 5 Ekim 2026): O GÜN BAŞKA BİR
++           DEVLETE ait yerleşimlerin indeks kümesi. Kapamanın EKLEDİĞİ bir
++           bileşen böyle bir yerleşimin noktasını içeriyorsa o bileşen
++           eklenmez. Gerekçe ölçüldü: 0,15° kapama ≈33 km'den dar her deliği
++           ve girintiyi kapatıyordu ve bu, `delikleri_doldur`ın B1 ikinci
++           yasağından ÖNCE koştuğu için yasak hiç devreye girmiyordu —
++           Harmankaya (1299-1313, 118-167 km²) · Bursa (1305-1326, 282-422
++           km²) · İznik (1323-1331, 369 km²) Bizans adaları/çıkıntıları
++           Osmanlı gövdesine %97-100 yutuldu; iki gövde aynı toprağı kapladı
++           ve yumuşak kipte (varsayılan) alfa harmanı "iki katman" gösterdi.
++           ⚠️ Ölçüt BİLEREK DAR: B1'den farklı olarak "sahibi olmayan" ya da
++           "henüz kurulmamış" nokta ENGEL DEĞİLDİR — bu işlevin varlık
++           sebebi tam o şeridi köprülemek (yukarıdaki İnegöl 1299 vakası).
++           `None` ⇒ eski davranış bit-bit aynı."""
+     if g.is_empty: return g
+     k = temiz(g.buffer(yaricap, join_style=2, mitre_limit=2.0)).buffer(-yaricap, join_style=2, mitre_limit=2.0)
+-    return unary_union([temiz(k), g])
++    k = temiz(k)
++    if engel and _TUM_AGAC is not None:
++        ek = temiz(k.difference(g))
++        at = []
++        for c in (list(ek.geoms) if ek.geom_type in ("MultiPolygon", "GeometryCollection") else [ek]):
++            if c.is_empty or c.area <= 0:
++                continue
++            yab = [int(q) for q in _TUM_AGAC.query(c)
++                   if int(q) in engel and c.contains(noktalar[int(q)])]
++            if yab:
++                at.append(c)
++                _B1_SAYAC["kapat_engel"] += 1
++                _B1_SAYAC["kapat_engel_ad"].add(YERLER[yab[0]]["ad"])
++        if at:
++            k = temiz(k.difference(unary_union(at)))
++    return unary_union([k, g])
++
++
++_SAHIPLI_EZBER = {}
++
++
++def _kapat_engel(aktif, a):
++    """`a` gününde YAZILI bir sahibi olan (s/d/v) ama `aktif`te OLMAYAN yerleşimler
++    ⇒ kapama bunların bulunduğu bileşeni yutamaz. Gün başına ezberli."""
++    s = _SAHIPLI_EZBER.get(a)
++    if s is None:
++        s = frozenset(j for j, y in enumerate(YERLER) if _sahipli(y, a))
++        _SAHIPLI_EZBER[a] = s
++    aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
++    return s - aks
+ 
+ def poligonal(g):
+     """intersection/difference çıktısı geçerli ama karışık bir GeometryCollection
+@@ -2966,7 +3010,10 @@ _TUM_AGAC = STRtree(noktalar) if noktalar else None
+ _ONB_KIM = [f"{y['lon']!r},{y['lat']!r};".encode("ascii") for y in YERLER]
+ _ONB_KB = [1 if y.get("kasitli_bosluk") else 0 for y in YERLER]
+ _ONB_BOS = [1 if y.get("bos") else 0 for y in YERLER]
+-_B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set()}
++# `kapat_engel*` — PAKET-0083-B: kapamanın yutmadığı bileşen sayısı/adları. Bu
++# sözlükte durur ki süreç işçilerinden toplanırken (`_sr_sayac_al`) KAYBOLMASIN.
++_B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set(),
++             "kapat_engel": 0, "kapat_engel_ad": set()}
+ 
+ 
+ def delikleri_doldur(g, muaf=True, sahip_ix=None):
+@@ -6668,7 +6715,8 @@ def _yabanci_govde_hesap(did, aktif, a, sira):
+     Döner: (g, kesilen_km2, tamamen_bosaldi)."""
+     g = unary_union([petek_epok(a)[j] for j in sira])
+     # B1 ikinci yasagi: bu devletin OLMAYAN yerlesimini iceren halka DOLMAZ
+-    g = delikleri_doldur(kapat(g), sahip_ix=aktif)
++    # PAKET-0083-B: kapama da o gün başka devletin yerleşimini yutamaz
++    g = delikleri_doldur(kapat(g, engel=_kapat_engel(aktif, a)), sahip_ix=aktif)
+     g = gosterim_duzelt(g, aktif)      # B2 enklav + B3 koridor
+     # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
+     # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
+@@ -6698,7 +6746,7 @@ def _onb_ozet(g):
+                        else shapely.to_wkb(g, output_dimension=2)).digest()
+ 
+ 
+-def _onb_parca_anahtar(katman, gruplar, aktif, pe):
++def _onb_parca_anahtar(katman, gruplar, aktif, pe, engel=None):
+     """Gövde türü hesapların (yabancı gövde · Osmanlı dönemi) önbellek anahtarı.
+ 
+     Anahtar = tuz · KARA özeti · her parça GRUBU (yerleşim konumu + petek WKB,
+@@ -6741,14 +6789,19 @@ def _onb_parca_anahtar(katman, gruplar, aktif, pe):
+         R = max(hat + 0.15 + dmax, hat + 3.15, 0.45 * 4 + 0.15) + 0.5
+         aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
+         q = sorted(int(t) for t in _TUM_AGAC.query(box(x0 - R, y0 - R, x1 + R, y1 + R)))
+-        cevre = b"".join(_ONB_KIM[t] + bytes((_ONB_KB[t], _ONB_BOS[t], 1 if t in aks else 0))
++        # PAKET-0083-B: `kapat` artık komşunun O GÜNKÜ sahipliğini okuyor
++        # (`engel`) ⇒ o bilgi anahtara girmezse önbellek BAYAT gövde döner.
++        eng = engel or ()
++        cevre = b"".join(_ONB_KIM[t] + bytes((_ONB_KB[t], _ONB_BOS[t], 1 if t in aks else 0,
++                                              1 if t in eng else 0))
+                          for t in q)
+     return _ONB_GEO.anahtar(katman, _ONB_GOVDE_TUZ, cevre, *parca), siralar
+ 
+ 
+ def _govde_anahtar(aktif, a):
+     """Yabancı gövde önbelleğinin anahtarı + kanonik birleşim sırası."""
+-    k, (sira,) = _onb_parca_anahtar("govde", [aktif], aktif, petek_epok(a))
++    k, (sira,) = _onb_parca_anahtar("govde", [aktif], aktif, petek_epok(a),
++                                    engel=_kapat_engel(aktif, a))
+     return k, sira
+ 
+ 
+@@ -7054,7 +7107,7 @@ elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+             if not aktif: continue
+             _t_gv = time.time()
+             g = unary_union([petek_epok(a)[j] for j in aktif])
+-            g = delikleri_doldur(kapat(g), sahip_ix=aktif)
++            g = delikleri_doldur(kapat(g, engel=_kapat_engel(aktif, a)), sahip_ix=aktif)
+             g = gosterim_duzelt(g, aktif)
+             g = poligonal(g.intersection(KARA))
+             if not PUAN_KAPALI and not g.is_empty:
+@@ -7345,15 +7398,18 @@ def himaye_govdeleri(gruplar, pe, tabi, gt, kodla, sayac=None):
+     return out
+ 
+ 
+-def _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t):
++def _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t, engel=None):
+     """Osmanlı döneminin doğrudan (g) ve tâbi (gt) gövdesi — M-4537'de işleve
+     alındı, gövdesi AYNI; yalnız birleşim sırası `_sira_*`dan gelir (önbellek
+-    kapalıyken özgün frozenset sırası). Döner: (g, gt)."""
++    kapalıyken özgün frozenset sırası). Döner: (g, gt).
++    engel — PAKET-0083-B: o gün başka devletin yerleşimleri (bkz. `kapat`)."""
+     _gt_ham = None
+     if tabi:
+-        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_t])),
++        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_t]),
++                                                   engel=engel),
+                                              sahip_ix=aktif).intersection(KARA))
+-    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_d])),
++    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_d]),
++                                              engel=engel),
+                                         sahip_ix=aktif).intersection(KARA))
+ 
+     # Osmanlı dünyası TEK gövde olarak düzeltilir; Eflak artık "enklav" değil,
+@@ -7523,15 +7579,17 @@ for i in range(len(tarihler) - 1):
+     #   YANLIŞ EVRENDE çalışıyordu. Bu projede ölçülmüş bir sınıf.
+     # 🧱 ÖNBELLEK (M-4537): anahtar = doğrudan + tâbi parçaları + çevre
+     # (`_onb_parca_anahtar`). Değer (g, gt) geometri olarak saklanır (pickle WKB).
++    _engel = _kapat_engel(aktif, a)          # PAKET-0083-B — anahtara da GİRER
+     if _ONB.acik:
+-        _ok, (_sira_d, _sira_t) = _onb_parca_anahtar("osm", [dogrudan, tabi], aktif, _pe)
++        _ok, (_sira_d, _sira_t) = _onb_parca_anahtar("osm", [dogrudan, tabi], aktif, _pe,
++                                                     engel=_engel)
+         _ovar, _ov = _ONB_GEO.oku("osm", _ok)
+     else:
+         _ok, _sira_d, _sira_t, _ovar, _ov = None, dogrudan, tabi, False, None
+     if _ovar:
+         g, gt = _ov
+     else:
+-        g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t)
++        g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t, engel=_engel)
+         if _ok:
+             _ONB_GEO.yaz("osm", _ok, (g, gt))
+     kaplam = unary_union([g, gt]) if gt is not None else g
+@@ -7659,6 +7717,12 @@ if _KB_MUAF:
+ else:
+     print("  delik doldurma muafiyeti: 0 halka atlandı "
+           "— BEKLENEN BU (ölçüldü 11 Ağu 2026, 7 kesitin 7'sinde 0)")
++# PAKET-0083-B — boş kova da BASILIR (yukarıdaki gerekçe). Öngörü (5 Eki 2026,
++# yama ÖNCESİ çıktıdan): en az Harmankaya · Bursa · İznik (Osmanlı gövdesi) adları
++# burada GÖRÜNMELİ; 0 çıkarsa yama çalışmıyor demektir, "temiz" DEĞİL.
++print(f"  kapama engeli (başka devletin yerleşimi): {_B1_SAYAC['kapat_engel']} bileşen "
++      f"YUTULMADI · {len(_B1_SAYAC['kapat_engel_ad'])} ad: "
++      f"{', '.join(sorted(_B1_SAYAC['kapat_engel_ad'])[:20])}")
+ 
+ # Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
+ # Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)

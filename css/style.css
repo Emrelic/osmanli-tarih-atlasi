@@ -253,6 +253,24 @@ body {
 }
 #menu-butonlar #surum-etiketi:not(:empty)::before { content: "Yayın sürümü · "; }
 
+/* 🏷️ KOŞU DAMGASI (Emre, 5 Ekim 2026) — sürümün hemen ALTINDA, aynı hizada.
+   Ayrı satır değil ayrı SATIR SONU dipnotu: yayın numarası her commit'te
+   artar, koşu numarası yalnız motor koştuğunda. 4 Ekim'de r11195 yayınlandı
+   ama harita BAŞKA bir prensiple çizilmişti; iki sayı yan yana durursa o fark
+   görünür olur. `:not(:empty)` — damga yoksa ::before de çıkmaz, boş "Koşu ·"
+   yazısı asılı kalmaz. */
+#menu-butonlar #kosu-etiketi {
+  flex: 1 0 100%;
+  text-align: right;
+  margin: 1px 0 0;
+  cursor: help;              /* başlıkta bayraklar yazılı — fare üstünde okunur */
+}
+#menu-butonlar #kosu-etiketi:not(:empty)::before { content: "Harita · "; }
+/* Yürüyüş bayrağı KAPALI koşan bir çıktı bir kusur DEĞİL ama bir FARKTIR
+   (sahiplik Voronoi'ye düşer, nehrin bedeli olmaz). Sessiz kalmasın. */
+#menu-butonlar #kosu-etiketi.kosu-yuruyussuz { color: var(--altin, #b8860b); }
+#menu-butonlar #kosu-etiketi.kosu-yuruyussuz:not(:empty)::after { content: " ⚠"; }
+
 /* H-0088 — [+][−] üst çubuğun en solunda, yatay; ardından küçük boşluk ve
    ☰ Butonlar. `#ustbar` gap'i 12 px — Emre "ufak bir boşluk" dedi, eksi
    kenar payı onu 6 px'e indirir. */
