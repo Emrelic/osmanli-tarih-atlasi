@@ -173543,5 +173543,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5872",
+  "zaman": "2026-10-06 13:32",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1237",
+  "kimden_kimlik": "",
+  "mesaj": "TEMESVAR-BRASSO-PREKMURJE-1006 · adını TEMESVAR-BRASSO-PREKMURJE-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/UMIT-W33-ISGAL-1006.md · UMIT-W33-YAMA-1006.md · UMIT-W33-OTEN-1004-1006.md zaten var ve bu üç adı birçok dosya anıyor. Hangi kalemin KAPANDIĞINI oradan ölç — adın geçmesi kalemin açık olduğunu da kapandığını da söylemez. İŞ: W33'ün açık bıraktığı üç kalem: Temeşvar (Timișoara) · Brassó (Brașov) · Prekmurje. TANIM: denetim/UMIT-W33-*.md — her birinin AÇIK SORUSUNU oradan al, benim cümlemden değil. Ben kalemin adını biliyorum, tarifini rapor biliyor. BAĞLAM (yalnız yön bulmak için, hüküm değil): üçü de 1918-1920 arası imparatorluk dağılması bölgesinde; Temeşvar Banat paylaşımı, Brassó Transilvanya devri, Prekmurje Trianon sonrası Yugoslavya'ya geçiş. Günler ve sahiplik zincirleri kaynaklı mı, ölçülecek. ÖLÇ: her kalem için ① atlasın bugünkü s:/isg: zinciri ② kaynağın dediği ③ fark ④ öneri (UYGULAMA). ⚠️ Bu bölgede en sık tuzak İŞGAL ile SAHİPLİK karışmasıdır: askerî işgal isg:, antlaşmayla devir s:. İkisini karıştırmak Değişmez 2i'yi bozar. ⚠️ Günü kaynakta geçmiyorsa YYYY-01-01; yıl bilinmiyorsa yıl YAZILMAZ. Künyenin f:/t: günü KAYNAK DEĞİLDİR. ⚠️ TDV bu coğrafyayı ince tanecikte kapsamıyor olabilir — kurumsal kaynak (ulusal ansiklopedi, üniversite deposu, devlet arşivi) ADIYLA meşrudur; forum/blog/popüler tarih sitesi RED. ⚠️ Türkçe-Macarca-Romence-Slovence ad ayrımı: Temeşvar/Timișoara/Temesvár aynı yer, Diyarbekir↔Diyarbakır gibi eşanlam meselesi. \"Kayıt yok\" demeden data/'daki bütün ad biçimlerini tara. TESLİM: denetim/TEMESVAR-BRASSO-PREKMURJE-1006.md — üç kalem · bugünkü zincir · kaynak (ADIYLA + birebir alıntı) · fark · öneri · bulunamayanlar ADIYLA. Tahtadan TEK mesaj + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖNCE YAZ: üçten kaçında atlas yanlış çıkacak ve NİÇİN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
