@@ -142,3 +142,59 @@ Değeri olan ihlalin §4 ① (kaynaksız komşu) olacağını, D207 zincirlemesi
 | Brod ⇄ Dubiça | YOK (1538 ↔ 1718/1739) | YOK | Brod 1538 ② · Dubiça 1718-07-21 ① | Brod 1536–38 yanlış sahip | Brod 1538→**1536** + kronoloji maddesi (D2) | HE okundu, yeter |
 | Dimetoka ⇄ Sofulu | YOK (1913 ↔ 1361) | YOK | Dimetoka 1913-05-30 ① | çevrimden yok · **değer şüpheli 1913–15** | metni Londra'ya bağla, AMA 1913–15 ölçülmeden değil | EVET |
 Diff yazılmadı: iki kırma da VERİ değişikliği, alet doğru çalışıyor.
+
+---
+
+# EK-2 — iki öneri diff'i (UMIT İRTİBAT sevki, koordinatör onaylı · 6 Ekim)
+**Temel: origin/main `d0f3cda1`.** Diff'ler `c57b59bc` üzerinde üretildi ve `d0f3cda1`de yeniden sınandı. Geçici worktree `C:\atlas-w45` kaldırıldı.
+`git apply --check` sonuçları: BROD ✓ · DUBICA ✓ · ikisi art arda ✓.
+
+## ① `denetim/UMIT-W45-BROD-1536-1006.diff`
+**Değişen dosyalar:**
+- `data/yerlesimler_ek29.js` hunk `@@ -293,11`: yalnız Brod kaydı, satır 295-300.
+  - `neden` "1281-1536 arası".
+  - `d[0].f` 1538-01-01 → **1536-01-01**, kaynak HE `bosanski-brod` + TDV `pasarofca-antlasmasi`.
+  - `s[1].t` → 1536-01-01.
+  - `s[2]` (1718-07-21→1739-09-28) KAYNAK kazandı: TDV `pasarofca-antlasmasi` *"…Kuzey Bosna tamamen Avusturya'ya bırakılmıştır"* + TDV `mahmud-i--osmanli`.
+  - Kayıt `kaynak` alanından "komşu emsali (Bosna Dubiçası, 1538)" cümlesi düştü.
+- `data/olaylar_p0917kosu13.js` (index.html'e bağlı, `window.OLAYLAR_P0917KOSU13`): yeni madde `t:"1536-01-01" kesinlik:"yil" k:"fetih"` "Sava kıyısındaki Brod (Bosanski Brod) Osmanlılarca alındı".
+  - `gun:` **"ay ve gün BİLİNMİYOR"** yazıyor.
+  - `kaynak:"Hrvatska enciklopedija — bosanski-brod"`, alıntı `ic_not_gun`da: *«Osmanlije su ga zauzeli 1536.»*
+  - `yer_id` = "Bosna Brod'u (Bosanski Brod)" (kayıt adıyla birebir).
+
+## ② `denetim/UMIT-W45-DUBICA-1718-1006.diff`
+**Değişen dosya:** `data/yerlesimler_ek29.js` hunk `@@ -271,8`. Değişen satırlar **yalnız 274 (`d:`) ve 275 (`s:`)**, ve **yalnız `kaynak` METNİ**. Hiçbir tarih, `isg:` öğesi ya da satır 272 değişmedi.
+- `d[0]` (1538→1718-07-21) kaynak:
+  - f: HE `kozarska-dubica` *«1538. pala je pod osmansku vlast»*
+  - t: **TDV `pasarofca-antlasmasi`** (imza 22 Şâban 1130 / 21 Temmuz 1718), "gün antlaşmanın KENDİ kaynağından".
+- `s[2]` (1718-07-21→1739-09-28):
+  - f: aynı TDV.
+  - t: "gün komşudan: Bosna Brod'u · TDV mahmud-i--osmanli (28 Eylül 1739)". Bu §4 ①-④ şartlı geçerli beyan; kaldı.
+- **1718-01-01'e düşürülmedi:** kaynak bulundu ve günü veriyor. Düşürmek sahte kabalık olurdu (§4 D210) ve 1718-07-21'deki kronoloji eşleşmesini bozardı.
+- Sevkin "D207 zincirleme" çerçevesi düzeltildi: ölçülen ihlal komşunun komşusu değildi, §4 ① idi (Brod'un 1718 günü kaynaksızdı).
+
+## Ölçüm — `denetle.py`, `d0f3cda1`, önce → iki diff birlikte
+| | önce | sonra |
+|---|---|---|
+| çıkış kodu | 2 | 2 (önceden var olan "ÖLÇÜLEMEYEN SORU: 1" — diff'ten bağımsız) |
+| Değişmez 1 | 309 sahipsiz | 309 |
+| Değişmez 1b | 0 | 0 |
+| **Değişmez 2** | 623 kırılma · **0 açık** | 624 kırılma · **0 açık** |
+| Değişmez 2s | 187 AÇIK · 792 KD · 165 YIL-TEMSİLÎ | **aynı** |
+| Değişmez 2i / 2t | 1 / 13 | aynı |
+| kronoloji | 2187 | 2188 |
+| 2sk MASKE (bilgi) | 1646 | 1647 |
+
+📌 **Ara ölçüm (yalnız Brod tarihi, kronoloji maddesi YOK, `c57b59bc`):** Değişmez 2 açık 0 kaldı, ama 2s **YIL-TEMSİLÎ BORÇ 165 → 166**, KAPSAM DIŞI 792 → 791 oldu.
+⇒ Kronoloji maddesi o borcu kapatıyor; iki değişiklik **aynı commit'te** inmeli (§3.4 ②).
+- **Çevrim aleti**, iki diff birlikte, `d0f3cda1`: Brod ⇄ Dubiça **KAPANDI**. Kalan tek çevrim Dimetoka ⇄ Sofulu (dokunulmadı). Akçakale de düştü (alet yaması `d0f3cda1`de inmiş).
+- 📌 Ara bulgu: ilk sürümde tarihçe notları ("eski değer 1538 komşu emsaliydi (Bosna Dubiçası)") aleti yeniden tetikledi ve çevrim geri geldi. Notlar sadeleştirildi; açıklama bu raporda.
+
+## ⚠️ W46 ile çakışma
+DUBICA hunk'ının bağlamı satır 271-278. W46'nın Dubiça `isg:` önerisi (satır 272, `{1687→1701 avusturya}`) bu bağlama düşüyor ⇒ hangisi ikinci uygulanırsa `--check` bağlam uyuşmazlığı verir.
+İçerik çakışması YOK: ben yalnız 274/275'in kaynak metnine dokunuyorum. Çözüm sıralama: biri uygulanır, öteki yeni temelde yeniden üretilir (`w45_dubica.py` dizgi değiştirmesi bağlamdan bağımsız).
+- BROD diff'i W46'dan etkilenmez: satır 293-303 ve kronoloji dosyası.
+
+## Bulunamadı
+- Brod 1536 fethinin ay/günü.
+- HE `brod` maddesi (s[0]/s[1]de "HE 'Brod'" olarak anılan) Ortaçağ **župa**sı, Bosanski Brod kalesi değil (§4 tuzak ②). Bu metne dokunulmadı; ayrı kalem.
