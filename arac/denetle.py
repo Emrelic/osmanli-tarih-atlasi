@@ -3267,11 +3267,18 @@ def _d7_aile(kimlik):
     return _D7_AILE.get(kimlik, kimlik)
 
 
-def degismez7(Y):
+def degismez7(Y, isg_kova=None):
     """(ihlaller, muaf_sayaci) — kopuk gövde var ve koridor SORGULANMAMIŞ.
 
     ihlaller: {gun, yerlesim, sahip, ada, ana_km, ana, kova}
     kova: "A-koridor" (<=300 km) · "B-bilinmiyor" (300-800) · "C-hakiki" (>800)
+
+    isg_kova: verilirse (dict) İŞGAL sınıfı buraya yazılır, ana sayıya KATILMAZ:
+      "ihlal"  `isg:` dönemi başlangıcında ada olan işgal cepleri (aynı sütunlar,
+               sahip = "isg:<işgalci ailesi>")
+      "muaf"   o işgal ceplerinin muafiyet sayacı
+      "egemen-isgal-altinda"  kendi egemen dönemi İŞGAL ALTINDA başlayan
+               kayıt sayısı (sorulmadı: o gün haritada egemen yok)
     """
     from collections import deque as _deque
     kom = _d7_komsuluk(Y)
@@ -3287,19 +3294,44 @@ def degismez7(Y):
             if p.get("f") and p.get("t") and p.get("d"):
                 d.append((p["f"], p["t"], _d7_aile(p["d"]), bool(p.get("enklav"))))
         DON.append(d)
+    # 🆕 `isg:` (6 Ekim 2026, UMIT-W8-D7ISG-1006) — İŞGAL ALTINDAKİ TOPRAK,
+    #   EGEMENİNİN ADASI SAYILMAZ. O gün `isg:` altındaki kayıt `sahip()`te
+    #   egemeninin kimliğini değil `isg:<işgalcinin ailesi>`ni döndürür: AYRI
+    #   ad alanı — ne egemenin bileşenine ne işgalcinin EGEMEN gövdesine katılır.
+    #   Niçin: bu dal `isg:`yi hiç okumuyordu; bir dönem `s:`den `isg:`ye
+    #   taşınınca kayıt D7'den SESSİZCE düşüyordu (W5 Polonya: 734 → 731,
+    #   üç ada görünmez oldu). İşgal cepleri ayrı kovada (`isg_kova`) sorulur.
+    ISG = [[(p["f"], p["t"], _d7_aile(p["d"]))
+            for p in (y.get("isg") or [])
+            if p.get("f") and p.get("t") and p.get("d")] for y in Y]
 
-    def sahip(i, g):
+    def sahip_dj(i, g):
         for f, t, s, _e in DON[i]:
             if f <= g < t:
                 return s
         return None
 
-    def bilesen(i, g, s, tavan):
+    def sahip(i, g):
+        """HUKUKÎ görünüm: işgal altındaki kayıt hiçbir egemene sayılmaz."""
+        for f, t, s in ISG[i]:
+            if f <= g < t:
+                return "isg:" + s
+        return sahip_dj(i, g)
+
+    def sahip_df(i, g):
+        """FİİLÎ görünüm — yalnız işgal ceplerini sorarken: işgal altındaki
+        kayıt İŞGALCİYE sayılır, işgalcinin egemen gövdesine bağlanır."""
+        for f, t, s in ISG[i]:
+            if f <= g < t:
+                return s
+        return sahip_dj(i, g)
+
+    def bilesen(i, g, s, tavan, kim=sahip):
         gor, q = {i}, _deque([i])
         while q and len(gor) < tavan:
             u = q.popleft()
             for v in kom[u]:
-                if v not in gor and sahip(v, g) == s:
+                if v not in gor and kim(v, g) == s:
                     gor.add(v)
                     q.append(v)
         return gor
@@ -3312,50 +3344,72 @@ def degismez7(Y):
         except Exception:
             return g
 
+    def sor(i, y, f, t, s, enk, muaf, hedef, isg):
+        # isg: soru FİİLÎ görünümle sorulur (işgal cebi işgalcinin gövdesine
+        # bağlı mı?); egemen soru HUKUKÎ görünümle (işgal altı hiçbir egemene
+        # sayılmaz). Kaydın kendi sahibi egemen soruda de jure okunur:
+        # egemenlik işgalle el değiştirmez, "izolasyon kapandı" sayılmaz.
+        kim = sahip_df if isg else sahip
+        kendi = sahip_df if isg else sahip_dj
+        ada = bilesen(i, f, s, D7_ADA_ESIK + 1, kim)
+        if len(ada) > D7_ADA_ESIK:
+            return
+        if enk:
+            muaf["beyan"] += 1
+            return
+        if len(kom[i]) <= D7_TECRIT_KOMSU:
+            muaf["cografi-tecrit"] += 1
+            return
+        if any(Y[j]["ad"] in D7_ADA_MUAF for j in ada):
+            muaf["ada-fethi"] += 1
+            return
+        toplam = sum(1 for j in range(len(Y)) if kim(j, f) == s)
+        if toplam < D7_KUCUK_KAT * len(ada):
+            muaf["kucuk-devlet"] += 1
+            return
+        g1 = artir(f, D7_CEPHE_GUN)
+        if t <= g1:
+            g1 = artir(t, -1)          # kayıt YAŞARKEN ölç (yukarıdaki ⑤)
+        if (kendi(i, g1) != s
+                or len(bilesen(i, g1, s, D7_ADA_ESIK + 1, kim)) > D7_ADA_ESIK):
+            muaf["gecici-cephe"] += 1
+            return
+        en, p0 = None, (y["lat"], y["lon"])
+        for j in range(len(Y)):
+            if j in ada or kim(j, f) != s:
+                continue
+            dk = _d7_km(p0, (Y[j]["lat"], Y[j]["lon"]))
+            if en is None or dk < en[0]:
+                en = (dk, Y[j]["ad"])
+        km = en[0] if en else None
+        kova = ("C-hakiki" if km is None or km > 800 else
+                "A-koridor" if km <= 300 else "B-bilinmiyor")
+        hedef.append({"gun": f, "yerlesim": y["ad"],
+                      "sahip": ("isg:" + s) if isg else s,
+                      "ada": sorted(Y[j]["ad"] for j in ada),
+                      "ana_km": round(km, 1) if km is not None else None,
+                      "ana": en[1] if en else None, "kova": kova})
+
     muaf = {"beyan": 0, "cografi-tecrit": 0, "ada-fethi": 0,
             "kucuk-devlet": 0, "gecici-cephe": 0}
     ihlal = []
+    ik = isg_kova if isg_kova is not None else {}
+    ik.setdefault("ihlal", [])
+    ik.setdefault("muaf", {k: 0 for k in muaf})
+    ik.setdefault("egemen-isgal-altinda", 0)
     for i, y in enumerate(Y):
         for f, t, s, enk in DON[i]:
             if f <= "1281-01-01" or f >= "1923-10-29":
                 continue
-            ada = bilesen(i, f, s, D7_ADA_ESIK + 1)
-            if len(ada) > D7_ADA_ESIK:
+            if sahip(i, f) != sahip_dj(i, f):    # o gün işgal altında
+                ik["egemen-isgal-altinda"] += 1
                 continue
-            if enk:
-                muaf["beyan"] += 1
+            sor(i, y, f, t, s, enk, muaf, ihlal, False)
+        for f, t, s in ISG[i]:
+            if f <= "1281-01-01" or f >= "1923-10-29":
                 continue
-            if len(kom[i]) <= D7_TECRIT_KOMSU:
-                muaf["cografi-tecrit"] += 1
-                continue
-            if any(Y[j]["ad"] in D7_ADA_MUAF for j in ada):
-                muaf["ada-fethi"] += 1
-                continue
-            toplam = sum(1 for j in range(len(Y)) if sahip(j, f) == s)
-            if toplam < D7_KUCUK_KAT * len(ada):
-                muaf["kucuk-devlet"] += 1
-                continue
-            g1 = artir(f, D7_CEPHE_GUN)
-            if t <= g1:
-                g1 = artir(t, -1)          # kayıt YAŞARKEN ölç (yukarıdaki ⑤)
-            if (sahip(i, g1) != s
-                    or len(bilesen(i, g1, s, D7_ADA_ESIK + 1)) > D7_ADA_ESIK):
-                muaf["gecici-cephe"] += 1
-                continue
-            en, p0 = None, (y["lat"], y["lon"])
-            for j in range(len(Y)):
-                if j in ada or sahip(j, f) != s:
-                    continue
-                dk = _d7_km(p0, (Y[j]["lat"], Y[j]["lon"]))
-                if en is None or dk < en[0]:
-                    en = (dk, Y[j]["ad"])
-            km = en[0] if en else None
-            kova = ("C-hakiki" if km is None or km > 800 else
-                    "A-koridor" if km <= 300 else "B-bilinmiyor")
-            ihlal.append({"gun": f, "yerlesim": y["ad"], "sahip": s,
-                          "ada": sorted(Y[j]["ad"] for j in ada),
-                          "ana_km": round(km, 1) if km is not None else None,
-                          "ana": en[1] if en else None, "kova": kova})
+            sor(i, y, f, t, s, False, ik["muaf"], ik["ihlal"], True)
+    ik["ihlal"].sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
     ihlal.sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
     return ihlal, muaf
 
@@ -6015,7 +6069,8 @@ def main():
                       f"({kim:<14}) {la:7.2f},{lo:8.2f}")
 
     # ── Değişmez 7 — ENKLAV SORGUSU ──────────────────────────────────
-    d7, d7muaf = degismez7(Y)
+    d7isg = {}
+    d7, d7muaf = degismez7(Y, isg_kova=d7isg)
     n7 = len(d7)
     _asim = n7 > BEKLENEN_ENKLAV_SORGU
     if _asim:
@@ -6074,6 +6129,19 @@ def main():
                   f" {_km}  ada: {_ada}")
         if not args.ayrinti and len(_l) > 6:
             print(f"       … {len(_l) - 6} tane daha (--ayrinti)")
+    # `isg:` — İŞGAL SINIFI (6 Ekim 2026). Ana sayıya KATILMAZ, tavanı yok:
+    # bu satır yalnız "işgal kaydı D7'den sessizce düşmesin" diye var.
+    _il = d7isg["ihlal"]
+    print(f"            isg: {len(_il)} işgal cebi (işgalcinin fiilî gövdesinden kopuk; "
+          f"ana sayıya KATILMADI) · {d7isg['egemen-isgal-altinda']} egemen "
+          f"dönemi işgal altında başlıyor (sorulmadı)")
+    print( "                 isg muaf: " + " · ".join(f"{k} {v}" for k, v in d7isg["muaf"].items()))
+    for r in (_il if args.ayrinti else _il[:6]):
+        _km = f"{r['ana_km']:7.0f} km" if r["ana_km"] is not None else "  gövdesiz"
+        print(f"       {r['gun']}  {r['yerlesim'][:22]:<22} → {r['sahip'][:18]:<18}"
+              f" {_km}  ada: {'+'.join(r['ada'])[:46]}")
+    if not args.ayrinti and len(_il) > 6:
+        print(f"       … {len(_il) - 6} tane daha (--ayrinti)")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)
