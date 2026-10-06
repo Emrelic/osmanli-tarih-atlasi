@@ -114,3 +114,69 @@ baseline (yamasız) 2
 ```
 
 Süreç notu: dinamik betiğin ilk sürümü CRLF satır sonunda yorumsuz sabitleri (ör. `BEKLENEN_YERLESIM = 968`) eşleyemedi ve **yama yapmadan `assert` ile durdu** (o koşular hiç yapılmadı, sessiz geçmedi); regex düzeltilip kalanlar yeniden koşuldu. Statik ve dinamik betikler scratchpad'de; depoya alınmadı.
+
+---
+
+## 8. DEVAM — koordinatör hükmünden sonra (6 Ekim akşam)
+
+**Ölçüm gövdesi:** `origin/main` **600e2d00** (`BEKLENEN_ACIK_S 189 -> 186`). Aynı makine, aynı üretilmiş veri (site damgası tutuyor, D8 ölçüldü). 8 yeni koşu, sınav değeri **ölçüm − 1**. Bütün kopyalar koşu sonunda temiz.
+
+### 8.1 DEKORATİF kovası ölçüm − 1 ile yeniden süzüldü — altısı da GERÇEKTEN dekoratif, hiçbiri yalnız gevşek değil
+
+| Sabit | Ölçüm | Sınav değeri (ölçüm − 1) | Çıkış | Hüküm |
+|---|---|---|---|---|
+| YERLESIM | 4299 | 4298 | 2 | ⚪ dekoratif |
+| KIRILMA | 623 | 622 | 2 | ⚪ dekoratif |
+| 2S_YALNIZ_TARAF | 2247 | 2246 | 2 | ⚪ dekoratif |
+| 2S_YIL_BORC | 165 | 164 | 2 | ⚪ dekoratif |
+| MASKE_DISI | 0 | −1 | 2 | ⚪ dekoratif |
+| CELISKI_UST_SINIR | (okunmuyor) | 386 | 2 | ⚪ ölü |
+| *kontrol:* ACIK_S | 186 | 186 (yamasız) / **185** | 2 / **1** | 🔴 yeni tavan bağlı ve SIKI |
+
+İlk turda da bu altısı fiilen ölçüm − 1 (ya da daha aşağısı) ile sınanmıştı; "bir eksilt" yanlışı yalnız ACIK_S'i vurmuştu. Yeni gövdede sonuç aynı.
+
+### 8.2 ENKLAV_SORGU — çürütme KABUL, ama koordinatörün hükmü ZATEN KODDA
+
+Haklısın: `:3141` yorumu dondurmayı Emre'ye bildirilmiş bir karar olarak yazıyor; "kusur" etiketim yanlıştı. **Ve raporumdaki "SESSİZ" sözcüğü de yanlıştı:** aşım dondurma sırasında BUGÜN DE basılıyor (600e2d00 çıktısı, satır 205):
+```
+Değişmez 7  🧊  733 sorgusuz enklav (beklenen 731) — kopuk gövde, koridor sorulmadı
+            🧊 TABAN DONDU — Emre'nin hükmü (25 Eylül 2026): …
+               ⚠️ ŞU AN 2 AŞIM VAR ve bu İHLAL SAYILMIYOR — sayı
+```
+⇒ "Dondurma bloğu susturur, görünürlüğü susturmaz" hükmü **uygulanmış durumda**. Yeniden yazılırsa ikinci bir kopya olur. Yalnız ÇIKIŞ KODU susuyor (bu da tasarım). Doğru sınıf: 🟡 **beyanlı yarı bağlı**.
+
+### 8.3 (A) BEKLENEN_YERLESIM = 968 — sınıf ① BAYAT TABAN
+
+- **Nerede okunuyor:** yalnız `main :5920` `if len(Y) != BEKLENEN_YERLESIM:` → "sadece bilgi". `Y = yerlesimleri_yukle()` = `girdi.yukle()`, **bütün** yerleşimler (çekirdek + kuyruk). Alt küme DEĞİL; ekrandaki "4299 yerleşim" ile aynı sayı.
+- **Geçmiş:** yorum bloğu (`:40-56`) değeri adım adım izliyor (764 → 917 → 927 → 939 → … → 967 → 968). Son değişiklik **`efb4dae6`, 1 Ağustos 2026**. O günden beri hiç dokunulmamış.
+- **Tasarımı yorumda yazılı:** *"Sapma uyarısı bilgi amaçlıdır, ihlal değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli."* Yani soru "yerleşim sayısı doğru mu" değil, **"girdi son ölçümden beri değişti mi"** (değişim sezici).
+- **Bayatlığı daha önce İKİ KEZ yazılmış ve kimse işlememiş:** `oturumlar/MOTOR-2-ILERLEME.md:566` (N7: *"bugün BİLE bayat (998)… sabit güncellenmeli"*) ve `denetim/BULGU-OK127-4C.md:59` (*"BİLGİ sayaçları … 🔴 gerçekten bayat"*). Bayatlık bilinen bir şey; eksik olan **karar**.
+- **Öneri (yazmadım):** bağlamak DOĞRU İŞİ cezalandırır: yerleşim eklemek kusur değil, 2S_YIL_BORC ile aynı mantık. Elle güncellenen bir sayı da 2 ayda bir kere bayatladı. Sorunun asıl biçimi bir **girdi parmak izi**: `devletler_harita.js` `URETIM_IZI`ndeki girdi sha256'ları ile bugünkü girdi dosyaları karşılaştırılırsa "girdi koşudan beri değişti mi" sorusu elle bakım olmadan sorulur. O gelene kadar seçenek: sabiti sil ve satırı açık sayaç yap (`4299 yerleşim · tavan YOK, niçin: …`).
+
+### 8.4 (B) BEKLENEN_KIRILMA = 476 — sınıf ① BAYAT TABAN, ama ölçülen küme ALTINDAN DEĞİŞTİ
+
+- **Nerede okunuyor:** yalnız `main` `if n2_kirilma != BEKLENEN_KIRILMA:` → "sadece bilgi". `n2_kirilma = len(kir)`, `kir, acik = degismez2(Y_cekirdek, O)` ⇒ **yalnız ÇEKİRDEK** yerleşimlerin `d:`/`v:` kırılmaları. Kuyruk dosyalarının kırılmaları ayrı "Kuyruk" satırlarında (ortaasya2 15 · avrupa 121 · asya 485).
+- **Geçmiş:** yorum (`:320-338`) değeri adım adım izliyor (432 → … → 462 → 476). Son değişiklik **`efb4dae6`, 1 Ağustos**.
+- **Küme değişimi:** 476 yazıldığında `degismez2(Y, O)` çağrılıyordu (bütün Y). **`617ca672` (2 Ağustos)** çağrıyı `degismez2(Y_cekirdek, O)` yaptı. O gün kuyruk boştu (commit mesajı: *"kuyruk BOŞKEN çıktı öncekiyle birebir aynı"*) ⇒ geçiş anında 476 hâlâ doğruydu. Yani ② değil: aynı soru, sabit bakımsız kaldı. Ama sabitin yorumu bugün "çekirdek" sözcüğünü HİÇ içermiyor. Biri onu bütün-Y sayısıyla güncellerse (623 + 621 kuyruk) **yanlış kümeyle** güncellemiş olur.
+- **N9 yanlış okuması (`MOTOR-2-ILERLEME.md:574`):** orada KIRILMA *"🔴 EN BÜYÜK GÜRÜLTÜ… denetim kıpkırmızı"* diye listelenmiş, yani hükme bağlı sanılmış. Ölçüm: bağlı değil. Bu, koordinatörün "tavan koydum" tuzağının ters yönü: **dekoratif bir sabit, gate sanılıp plan yapılmış.**
+- **Öneri (yazmadım):** YERLESIM ile aynı karar. Tutulursa yorumuna "ÇEKİRDEK kırılması (kuyruk hariç, `Y_cekirdek`)" yazılmalı.
+
+### 8.5 (C) BEKLENEN_MASKE_DISI = 0 — basılıyor, KULLANILMIYOR (600e2d00'da `:4292`, okuma `:6720`)
+
+- Tek okuma `print`. Hüküm `if kd: ihlal = True` = literal 0. Sabit **30 Temmuz'dan (`35436fe9`) beri** böyle. `denetim/MASKE-DISI-NOKTALAR.md:9` de onu kapının eşiği diye anıyor.
+- Sınav: −1 → çıkış 2 ve ekran **"✓ konum: 0 nokta … (beklenen -1)"**. Ekran ile hüküm ayrışıyor.
+- **Öneri (yazmadım):** tek satır, `if kd:` → `if len(kd) > BEKLENEN_MASKE_DISI:` (`durum6` de aynı karşılaştırmaya). Bugün davranış birebir aynı kalır (0 > 0 yanlış), ama ileride sabite yazılan değer gerçekten eşik olur. Silmek de tutarlı. İkisi arasında "kullan" daha ucuz, çünkü belge (`MASKE-DISI-NOKTALAR.md`) sabiti adıyla anıyor.
+
+### 8.6 ③ CELISKI_UST_SINIR — "hangi soruyu bekliyordu" için veri (karar senin)
+
+- Bekçilediği soru: Değişmez 3, `degismez3(Y)`, `m:` merkezi ile yerleşimin egemeni farklı devlet. Bütün Y üzerinde.
+- `da5a208e` (31 Tem) ölçümü: 389 çelişkinin **389'u** "farklı egemen", yani tanımın kendisi. Kök: `m:` alanı ZAMANSIZ (şema borcu).
+- **98'lik artışın oranı:** 31 Temmuz'da 389-390 çelişki / 966 yerleşim ≈ **%40**. Bugün 485 / 4299 ≈ **%11**. +3333 yerleşime +95-96 çelişki ≈ **%2,9 marjinal**. Sayı yerleşimle birlikte büyüyor ama yerleşimden ÇOK daha yavaş. Bu bir gerileme imzası değil; "sayaç" hükmüyle tutarlı.
+- Soru canlı (şema borcu `m:` zamanlı olana kadar), ama bir **sayı tavanıyla** sorulacak bir soru değil. Kayıt başına sorulur, tıpkı senin 2S_YIL_BORC hükmün gibi. Ölü sabit o soruyu bekçilemiyor; silinmesi soruyu öldürmez, soru `Sayaç` satırında ve şema borcunda yaşıyor. **Önerim: sil.** Hüküm senin.
+
+### 8.7 Ham kayıt (600e2d00)
+```
+ACIK_S=186 2 3329eab19c00   YERLESIM=4298 2 3493fd603da3   KIRILMA=622 2 75d6e1f99f3e
+ACIK_S=185 1 ca88751784cf   2S_YALNIZ_TARAF=2246 2 69934db363c8   2S_YIL_BORC=164 2 a7adc49245c4
+MASKE_DISI=-1 2 0b190ba4b209   CELISKI_UST_SINIR=386 2 6e8501f6762b
+```

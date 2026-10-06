@@ -1,0 +1,25 @@
+diff --git a/js/app.js b/js/app.js
+index 4cfab8ef..68ad234f 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -16076,9 +16076,18 @@ guncelle();
+ // donmuş) o denetim bu sözlüğü okuyacak şekilde düzeltilecek.
+ var SIYASI_KIP = {
+   sert:    { "devlet-dolgu": 1,    "vassal-dolgu": 1,
+-             "himaye-dolgu": 1,    "osmanli-dolgu": 1    },
++             "himaye-dolgu": 1,    "osmanli-dolgu": 1,
++             "ufuk-bant-alan": 1 },
+   yumusak: { "devlet-dolgu": 0.44, "vassal-dolgu": 0.60,
+-             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68 }
++             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68,
++             // 🔴 P84-UFUK-BANT-KOD-1006 (H-0002 ①, PAKET-0083-E §1.1 ile AYNI
++             //    teşhis): bant bu sözlükte yoktu ⇒ yumuşak kipte (varsayılan)
++             //    taban 0.44 çizilirken bant `addLayer`daki 1 ile çiziliyordu —
++             //    AYNI renk ≈2,3 kat koyu. Renk `renkler.py`den DEĞİL, opaklık
++             //    buradan ⇒ MOTOR TUZU DEĞİL, koşu beklemez.
++             //    ⚠️ ARAYUZ-BANT-TAM-1006.diff de bu satırı yazar — İKİSİ BİRDEN
++             //    UYGULANMAZ; o yol seçilirse bu diff düşer.
++             "ufuk-bant-alan": ["match", ["get", "kim"], "OSMANLI", 0.68, 0.44] }
+ };
+ 
+ // Kipi uygular ve GERÇEKTEN uygulanan katman sayısını döndürür.

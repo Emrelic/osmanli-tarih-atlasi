@@ -1,0 +1,40 @@
+diff --git a/data/kronoloji_anadolu.js b/data/kronoloji_anadolu.js
+index 78422dba..dbffa3a8 100644
+--- a/data/kronoloji_anadolu.js
++++ b/data/kronoloji_anadolu.js
+@@ -1412,30 +1412,35 @@ window.KRONOLOJI_ANADOLU = [
+ 
+ { taraflar:["dulkadir"], t:"1515-06-13", b:"Şehsuvaroğlu Ali Bey Osmanlı'ya tâbi oldu", tur:"vassal",
+   onem:5, dunya:1, kapsam:"dis", etiket:["Osmanlı", "tabiiyet", "Ali Bey", "konu-siyasi"],
++  odak_kimlik:["dulkadir"],   // KCP-1006-B: v: dönemine kid:"dulkadir" eklenince (KOORD diff) 6 yerleşim — TDV dulkadirogullari: Turnadağ sonrası İLHAK DEĞİL TÂBİYET
+   yer_id:"", kapsam_genis:true,
+   d:"Turnadağ Savaşı'nda Alâüddevle'nin ölümünün ardından Şehsuvaroğlu Ali Bey beyliğin başına geçti ve Osmanlı hâkimiyetini tanıyarak tâbi statüsünde yönetime devam etti. Bu, beyliğin bağımsızlığının fiilen sona erdiği ama tüzel varlığının yedi yıl daha sürdüğü bir dönemin başlangıcıydı.",
+   kaynak:"dulkadirogullari" },
+ 
+ { taraflar:["dulkadir"], t:"1516-08-24", b:"Ali Bey Mercidâbık Savaşı'na katıldı", tur:"savas",
+   onem:3, dunya:5, kapsam:"dis", etiket:["Mercidâbık", "Memlük", "Osmanlı", "konu-askeri"],
++  odak_kimlik:["dulkadir"],   // KCP-1006-B: v: dönemine kid:"dulkadir" eklenince (KOORD diff) 6 yerleşim — TDV dulkadirogullari: Turnadağ sonrası İLHAK DEĞİL TÂBİYET
+   yer_id:"", kapsam_genis:true,
+   d:"Osmanlı'ya tâbi olan Şehsuvaroğlu Ali Bey, Yavuz Sultan Selim'in Memlüklere karşı yürüttüğü Mercidâbık Savaşı'na Osmanlı ordusu safında katıldı. Bu katılım, beyliğin Osmanlı'ya bağlılığının askerî bir kanıtıydı.",
+   kaynak:"dulkadirogullari" },
+ 
+ { taraflar:["dulkadir"], t:"1517-01-22", b:"Ali Bey Ridâniye Savaşı'na katıldı, Memlük Sultanlığı sona erdi", tur:"savas",
+   onem:3, dunya:5, kapsam:"dis", etiket:["Ridaniye", "Memlük", "Osmanlı", "konu-askeri"],
++  odak_kimlik:["dulkadir"],   // KCP-1006-B: v: dönemine kid:"dulkadir" eklenince (KOORD diff) 6 yerleşim — TDV dulkadirogullari: Turnadağ sonrası İLHAK DEĞİL TÂBİYET
+   yer_id:"", kapsam_genis:true,
+   d:"Şehsuvaroğlu Ali Bey, Ridâniye Savaşı'nda da Osmanlı ordusuyla birlikte hareket etti. Bu savaşın ardından Memlük Sultanlığı tarihe karıştı ve Dulkadıroğulları'nın konumu tamamen Osmanlı'ya bağımlı hâle geldi.",
+   kaynak:"dulkadirogullari" },
+ 
+ { taraflar:["dulkadir"], t:"1519-01-01", b:"Bozoklu Şeyh Celâl isyanının bastırılmasına katkı", tur:"isyan",
+   onem:2, dunya:1, kapsam:"dis", etiket:["isyan", "Bozok", "Osmanlı hizmeti", "konu-isyan", "konu-din"],
++  odak_kimlik:["dulkadir"],   // KCP-1006-B: v: dönemine kid:"dulkadir" eklenince (KOORD diff) 6 yerleşim — TDV dulkadirogullari: Turnadağ sonrası İLHAK DEĞİL TÂBİYET
+   yer_id:"", kapsam_genis:true,
+   d:"Osmanlı'ya tâbi olan Şehsuvaroğlu Ali Bey, Bozok bölgesinde patlak veren Şeyh Celâl isyanının bastırılmasına yardımcı oldu. Bu, beyliğin Osmanlı'ya bağlılığının ve tâbi statüsünün bir göstergesiydi.",
+   kaynak:"dulkadirogullari" },
+ 
+ { taraflar:["dulkadir"], t:"1521-01-27", b:"Canbirdi Gazâlî isyanının bastırılmasına katkı", tur:"isyan",
+   onem:3, dunya:2, kapsam:"dis", etiket:["isyan", "Şam", "Canbirdi Gazâlî", "konu-isyan"],
++  odak_kimlik:["dulkadir"],   // KCP-1006-B: v: dönemine kid:"dulkadir" eklenince (KOORD diff) 6 yerleşim — TDV dulkadirogullari: Turnadağ sonrası İLHAK DEĞİL TÂBİYET
+   yer_id:"", kapsam_genis:true,
+   d:"Şehsuvaroğlu Ali Bey, Şam beylerbeyi Canbirdi Gazâlî'nin Osmanlı'ya karşı başlattığı ayaklanmanın bastırılmasında Osmanlı kuvvetlerine destek verdi: sefere katılması için kendisine emir gönderilmişti ve isyancı ordu 27 Ocak 1521'de Mastaba'da bozguna uğradı. Bu, beyliğin son yıllarında Osmanlı'ya sadakatinin bir başka göstergesiydi.",
+   kaynak:"TDV `canbirdi-gazali`: '27 Ocak 1521'de yapılan savaşta Canbirdi'nin ordusu bozguna uğradı.' · 'Dulkadırlı Şehsuvaroğlu Ali Bey ve Ramazanoğlu Pîrî Bey'e sefere katılmaları için emirler gönderildi.' · önceki dayanak: dulkadirogullari · (yazım TDV'ye uyduruldu: Canberdi → Canbirdi; `canberdi-gazali` slugu 302 ÖLÜ)" },

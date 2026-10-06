@@ -1,0 +1,103 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index d0e2c7c5..8009b712 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -7484,36 +7484,36 @@ window.DEVLETLER = [
+   ozet:"Temmuz 1920'de Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verilmesinin ardından kurulan Fransız idaresi; Milletler Cemiyeti onayı ~1922, manda 1946'ya dek (site ufkunun dışında) sürdü. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
+   kaynak:"TDV, madde: suriye — \"Fransız işgali, iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\" · \"Suriye'de Faysal dönemi sona erdi\" (Han Meyselûn, Temmuz 1920). Gün TDV'de VERİLMİYOR, yalnız ay/yıl — f: bu yüzden ayın 1'ine değil, TDV'nin verdiği AYA sabitlendi.",
+   kronoloji:[
+-    { t:"1920-07-24", tur:"kurulus", b:"Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verildi, Fransız askerî idaresi başladı", kaynak:"TDV suriye (künyenin kendi kaynak alanından devralındı)" },
++    { t:"1920-07-25", tur:"kurulus", b:"Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verildi, Fransız askerî idaresi başladı", kaynak:"TDV: sam--suriye — «Fransızlar temmuzda Suriyeliler’i ağır bir yenilgiye uğrattıktan sonra Şam’a girerek Faysal yönetimine son verdiler (25 Temmuz 1920).» · TDV: suriye — «Temmuz 1920’de Beyrut-Şam arasında Han Meyselûn’da Fransızlar’ın Suriyeliler’i ağır bir yenilgiye uğratmasının ardından Suriye’de Faysal dönemi sona erdi ve kendisi sürgüne gönderildi.» (AY) — eski t 1920-07-24 Meyselûn SAVAŞININ günüdür; maddenin olayı (Faysal yönetiminin sonu) TDV sam--suriye'de 25 Temmuz" },
+     { t:"1922-07-24", tur:"siyaset", b:"Milletler Cemiyeti, Fransa'nın Suriye-Lübnan mandasını resmen onayladı", kaynak:"künyenin kendi ozet alanı ('~1922 MC onayı') — gün standart akademik kaynaktan (Fransız mandası Konseyi onayı 24 Temmuz 1922), ayrıca doğrulanmalı" }
+   ] },
+ { id:"filistin-mandasi", ad:"İngiliz Filistin Mandası", bolge:"arabistan", f:"1920-07-01", t:"1948-05-14",
+   ozet:"Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
+   kaynak:"TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\" · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
+   kronoloji:[
+-    { t:"1920-07-01", tur:"kurulus", b:"Filistin'de İngiliz mülkî manda idaresi kuruldu (askerî işgal 1917'den beri sürüyordu)", kaynak:"TDV filistin (künyenin kendi kaynak alanından)" },
+-    { t:"1922-07-24", tur:"antlasma", b:"Milletler Cemiyeti, İngiltere'nin Filistin mandasını resmen onayladı", kaynak:"TDV filistin (künyenin kendi kaynak alanından)" },
++    { t:"1920-07-01", tur:"kurulus", b:"Filistin'de İngiliz mülkî manda idaresi kuruldu (askerî işgal 1917'den beri sürüyordu)", kaynak:"TDV: filistin — «İngiltere, Temmuz 1920 tarihinden itibaren Filistin’de bir sivil manda yönetimi kurdu» — AY (gün TDV'de yok)" },
++    { t:"1922-07-24", tur:"antlasma", b:"Milletler Cemiyeti, İngiltere'nin Filistin mandasını resmen onayladı", kaynak:"TDV: filistin — «İngiltere’nin Filistin ve Ürdün üzerinde kurduğu manda idaresi 24 Temmuz 1922’de Milletler Cemiyeti tarafından da onaylandı.»" },
+     { t:"1948-05-14", tur:"son", b:"İngiliz mandası sona erdi; aynı gün İsrail Devleti ilan edildi", kaynak:"standart akademik/ansiklopedik (1948 Palestine Mandate'in bitişi) — TDV kapsam dışı, künyenin t: alanıyla (1948-05-14) birebir uyumlu" }
+   ] },
+ { id:"urdun-emirligi", ad:"Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", bolge:"arabistan", f:"1921-02-01", t:"1946-05-25",
+   ozet:"Faysal'ın Şam'dan çıkarılmasının ardından kardeşi Abdullah'ın Şubat 1921'de kendini emir ilan etmesiyle kurulan, İngiliz himayesindeki emirlik; 1946'da (site ufkunun dışında) Ürdün Krallığı'na dönüştü.",
+   kaynak:"TDV, madde: urdun — \"Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\"",
+   kronoloji:[
+-    { t:"1921-02-01", tur:"kurulus", b:"Abdullah bin Hüseyin kendini Şarkî Ürdün Emîri ilan etti", kaynak:"TDV urdun (künyenin kendi kaynak alanından)" },
++    { t:"1921-02-01", tur:"kurulus", b:"Abdullah bin Hüseyin kendini Şarkî Ürdün Emîri ilan etti", kaynak:"TDV: urdun — «kardeşi Abdullah Ürdün’e gelerek Şubat 1921’de kendini Şarkī Ürdün emîri ilân etti.» — AY (gün TDV'de yok)" },
+     { t:"1946-05-25", tur:"son", b:"Londra Antlaşması ile İngiliz mandası sona erdi, Ürdün Krallığı ilan edildi", kaynak:"standart akademik/ansiklopedik (Treaty of London 1946) — TDV kapsam dışı, künyenin t: alanıyla (1946-05-25) birebir uyumlu" }
+   ] },
+ { id:"misir-sultanligi", ad:"Mısır Sultanlığı (İngiliz Himayesi)", bolge:"misir-sudan", f:"1914-12-18", t:"1922-03-15",
+   ozet:"18 Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 15 Mart 1922'de Fuâd'ın kral unvanını almasıyla Krallığa dönüştü.",
+   kaynak:"🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — ESKİ 'bulunamadı' hükmü YANLIŞTI: TDV 'misir' maddesi CANLI ve modern dönemi ZENGİN kapsıyor (raw HTML doğrulandı, 278.117 karakter — eski turda erişim engelleri Britannica/LOC/Cambridge'e aitti, TDV'nin kendisi hiç denenmemiş/erişilememiş). AYNEN: \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı ... yerine amcası Hüseyin Kâmil'i Mısır sultanı olarak ilân etti.\" GÜN hassasiyetinde, f: değeriyle BİREBİR eşleşti (önceki 'hizalama' varsayımı artık BAĞIMSIZ DOĞRULANDI).",
+   kronoloji:[
+-    { t:"1914-12-18", tur:"kurulus", b:"İngiltere tek taraflı himaye ilan etti, Hüseyin Kâmil Mısır Sultanı oldu, Osmanlı hükümranlığı kaldırıldı", kaynak:"TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)" },
+-    { t:"1922-03-15", tur:"son", b:"Ahmed Fuâd kral (melik) unvanını aldı, Sultanlık Krallığa dönüştü", kaynak:"TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)" }
++    { t:"1914-12-18", tur:"kurulus", b:"İngiltere tek taraflı himaye ilan etti, Hüseyin Kâmil Mısır Sultanı oldu, Osmanlı hükümranlığı kaldırıldı", kaynak:"TDV: misir — «İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı. Hidiv II. Abbas Hilmi’yi de düşmanla iş birliği yaptığı gerekçesiyle 19 Aralık’ta görevden alarak yerine amcası Hüseyin Kâmil’i Mısır sultanı olarak ilân etti.» — himaye ve hükümranlığın kaldırılışı 18 Aralık; Hüseyin Kâmil'in sultan ilânı TDV'de 19 Aralık" },
++    { t:"1922-03-15", tur:"son", b:"Ahmed Fuâd kral (melik) unvanını aldı, Sultanlık Krallığa dönüştü", kaynak:"TDV: misir — «Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi.»" }
+   ] },
+ { id:"misir-kralligi", ad:"Mısır Krallığı (I. Fuad)", bolge:"misir-sudan", f:"1922-03-15", t:"1953-06-18",
+   ozet:"15 Mart 1922'de Sultan Ahmed Fuâd'ın kral (melik) unvanını almasıyla Sultanlık'tan dönüşen krallık; 1953'e dek (site ufkunun çok dışında) sürdü.",
+   kaynak:"🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — TDV 'misir' maddesi (CANLI, raw HTML) AYNEN: \"Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı ve Mısır'da monarşi ilân edildi.\" GÜN hassasiyetinde. Eski turdaki 'iki tarih arasında karar veremedim' belirsizliği ÇÖZÜLDÜ — bkz. misir-sultanligi'nin `not:` alanı.",
+   kronoloji:[
+-    { t:"1922-03-15", tur:"kurulus", b:"Ahmed Fuâd kral (melik) unvanını aldı, Mısır'da monarşi ilân edildi", kaynak:"TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)" },
++    { t:"1922-03-15", tur:"kurulus", b:"Ahmed Fuâd kral (melik) unvanını aldı, Mısır'da monarşi ilân edildi", kaynak:"TDV: misir — «Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi.»" },
+     { t:"1952-07-26", tur:"hukumdar", b:"Hür Subaylar darbesiyle Kral Faruk tahttan indirildi (oğlu II. Fuad adına naiplik dönemi başladı)", kaynak:"standart akademik/ansiklopedik (1952 Mısır Devrimi) — TDV kapsam dışı bu tarih için, ayrıca doğrulanmalı" },
+     { t:"1953-06-18", tur:"son", b:"Mısır Cumhuriyeti ilan edildi, monarşi resmen kaldırıldı", kaynak:"standart akademik/ansiklopedik — künyenin t: alanıyla (1953-06-18) birebir uyumlu" }
+   ] },
+@@ -7576,15 +7576,15 @@ window.DEVLETLER = [
+   ozet:"Hadramut vadisinin iç kesimine (Sayvan, zaman zaman Terîm/Şibâm) hâkim olan Kesîrî kabilesi; 1538'de nominal Osmanlı sancağı ilan edilen dönemde bile 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'; 1888 İngiliz-Yâfiî/Kuaytî himaye antlaşmasından sonra da İngilizler 'iç bölgeleri Kesîrîler'e bıraktı', yani kıyı gibi doğrudan himayeye girmedi.",
+   kaynak:"TDV, madde: hadramut (CANLI, raw HTML doğrulandı, 2 Eylül taraması + 5 Eylül yeniden okuma) — \"XV. yüzyılın ikinci yarısında da Kesîrîler ülkenin bir bölümüne hâkim oldular.\" 🟡 HASSASİYET: kaynak yalnız 'yüzyılın ikinci yarısı' diyor, gün/yıl YOK — f: bu yüzden 1450-01-01 olarak YÜZYIL-YARISI kabaligindadir, sahte kesinlik DEĞİL.",
+   kronoloji:[
+-    { t:"1450-01-01", tur:"kurulus", b:"Kesîrî kabilesi Hadramut'un iç kesimine (Sayvân/Terîm/Şibâm) hâkim oldu", kaynak:"TDV hadramut (künyenin kendi kaynak alanından, 'XV. yüzyılın ikinci yarısı' — yıl kaba)" },
++    { t:"1450-01-01", tur:"kurulus", b:"Kesîrî kabilesi Hadramut'un iç kesimine (Sayvân/Terîm/Şibâm) hâkim oldu", kaynak:"TDV: hadramut — «Aynı yüzyılın ikinci yarısında da Kesîrîler ülkenin bir bölümüne hâkim oldular.» — YÜZYIL YARISI (XV. yy; yıl TDV'de yok, 1450 kaba) · Sayvân/Terîm/Şibâm ayrıntısı bu cümlede yok" },
+     { t:"1967-11-30", tur:"son", b:"Güney Yemen'in bağımsızlığıyla İngiliz himayesindeki Hadramut sultanlıkları (Kesîrî dahil) tarihe karıştı", kaynak:"standart akademik/ansiklopedik (South Arabia'nın bağımsızlığı, 30 Kasım 1967) — künyenin t: alanıyla birebir uyumlu" }
+   ] },
+ { id:"kuayti-sultanligi", ad:"Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)", bolge:"arabistan", f:"1881-01-01", t:"1967-11-30",
+   ozet:"1840'lardan itibaren güç toplayan Yâfiî lideri Ömer b. Avad el-Kuaytî, 1881 sonunda İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi; 1888'de İngiliz himaye antlaşması imzalandı (dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı).",
+   kaynak:"TDV, madde: hadramut (CANLI) — \"İngilizler Yâfiîler'i destekleyerek onların 1881 sonunda Şihr ve Mükellâ dahil bütün Hadramut sahilini ele geçirmelerini sağladılar ... 1888'de imzaladıkları himaye antlaşmasıyla ... Yâfiîler'in dış ilişkilerini tamamen üzerlerine aldılar.\" Britannica 'Qu'aiti sultanate' ile eşleşti. 🟡 f: 1881-01-01 — TDV '1881 sonunda' diyor (gün yok), YIL kullanıldı.",
+   kronoloji:[
+-    { t:"1881-01-01", tur:"kurulus", b:"Ömer b. Avad el-Kuaytî İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi", kaynak:"TDV hadramut (künyenin kendi kaynak alanından)" },
+-    { t:"1888-01-01", tur:"vassal", b:"İngiliz himaye antlaşması imzalandı: dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı", kaynak:"TDV hadramut (künyenin kendi kaynak alanından)" },
++    { t:"1881-01-01", tur:"kurulus", b:"Ömer b. Avad el-Kuaytî İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi", kaynak:"TDV: hadramut — «İngilizler Yâfiîler’i destekleyerek onların 1881 sonunda Şihr ve Mükellâ dahil bütün Hadramut sahilini ele geçirmelerini sağladılar.» — YIL (TDV '1881 sonunda'; gün yok)" },
++    { t:"1888-01-01", tur:"vassal", b:"İngiliz himaye antlaşması imzalandı: dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı", kaynak:"TDV: hadramut — «1888’de imzaladıkları himaye antlaşmasıyla da sahilde hâkim olan Yâfiîler’in dış ilişkilerini tamamen üzerlerine aldılar.» — YIL (gün TDV'de yok)" },
+     { t:"1967-11-30", tur:"son", b:"Güney Yemen'in bağımsızlığıyla İngiliz himayesindeki Hadramut sultanlıkları (Kuaytî dahil) tarihe karıştı", kaynak:"standart akademik/ansiklopedik (South Arabia'nın bağımsızlığı, 30 Kasım 1967) — künyenin t: alanıyla birebir uyumlu" }
+   ] },
+ { id:"ammarogullari", ad:"Ammâroğulları (Trablusgarp)", tur:"beylik", bolge:"kuzey-afrika", f:"1327-01-01", t:"1401-01-01",
+@@ -7651,7 +7651,7 @@ window.DEVLETLER = [
+   ozet:"Mehdî Devleti'nin İngiliz-Mısır ordularınca yıkılmasından sonra 19 Ocak 1899'da imzalanan antlaşmayla kurulan, nominal Osmanlı/Mısır ortaklığına rağmen fiilen İngiltere'nin yönettiği Sudan idaresi (1923 sonrasında da sürdü, 1956'da bağımsızlığa dek).",
+   kaynak:"TDV, madde: sudan (CANLI, raw HTML doğrulandı, 102.752 karakter — '200≠madde' ve 'çıkarılamadı≠metin yok' tuzakları elendi, gövde gerçekten okundu) — AYNEN: \"19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu. Bâbıâli, hâkimiyet hakları ihlâl edildiği için bu antlaşmaya şiddetle karşı çıktıysa da bir netice alınamadı.\" GÜN hassasiyetinde.",
+   kronoloji:[
+-    { t:"1899-01-19", tur:"kurulus", b:"İngiliz-Mısır antlaşmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçti", kaynak:"TDV sudan (künyenin kendi kaynak alanından, raw HTML doğrulanmış)" },
++    { t:"1899-01-19", tur:"kurulus", b:"İngiliz-Mısır antlaşmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçti", kaynak:"TDV: sudan — «19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan’ın kontrolü fiilen İngiltere’nin eline geçmiş oldu.»" },
+     { t:"1956-01-01", tur:"son", b:"Sudan bağımsızlığını ilan etti, Anglo-Mısır Kondominyumu sona erdi", kaynak:"standart akademik/ansiklopedik (Sudan bağımsızlığı, 1 Ocak 1956) — künyenin t: alanıyla birebir uyumlu" }
+   ] },
+ { id:"sutayogullari", ad:"Sutayogullari", tur:"beylik", bolge:"anadolu", f:"1343-01-01", t:"1353-01-01",
+@@ -7688,7 +7688,7 @@ window.DEVLETLER = [
+   ozet:"Mekke'yi ve Hicaz'ın kutsal şehirlerini idare eden Hâşimî şerifleri. 1517'de Osmanlı hâkimiyetini tanıdılar ve dört yüzyıl boyunca Osmanlı adına idareyi sürdürdüler.",
+   kaynak:"TDV `haremeyn` — «Mısır'ın fethiyle birlikte (1517) Memlükler'in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı. O sıradaki Mekke Emîri Şerîf…» 🟡 `f:` ATLAS PENCERESİ KONVANSİYONU — şeriflik atlas penceresinden ESKİ (TDV `mekke`, 133.872 kar.), bir kuruluş iddiası DEĞİL. 🔴 `t:` İLK YAZIMDA 1916-06-10 (Şerif Hüseyin'in isyanı) İDİ ve kapsama sınavım ÇÜRÜTTÜ: veri `1919-01-10`a kadar gidiyor — Medine'nin teslim günü. `t:` veriye göre açıldı, gün KAYNAKSIZ. ⚠️ Ve bu `t:` bir POLITY SONU DEĞİL, ATLAS KULLANIM SONU: şeriflik o gün sona ermedi, Hicaz Krallığı olarak sürdü. 30 Eylül 2026 KUNYE-UYGULA-0930: t: 1919-05-08'e GENİŞLETİLDİ (②) — TDV `mekke`: '8 Mayıs 1919'da çıkarılan Meclis-i Vükelâ kararı ve irâde-i seniyye ile emirlik unvanı kaldırılıp…'; artık gün KAYNAKLI.",
+   kronoloji:[
+-    { t:"1517-01-01", tur:"vassal", b:"Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı", kaynak:"TDV haremeyn (künyenin kendi kaynak alanından)" },
++    { t:"1517-01-01", tur:"vassal", b:"Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı", kaynak:"TDV: haremeyn — «Mısır’ın fethiyle birlikte (1517) Memlükler’in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı.» — YIL (gün TDV'de yok)" },
+     { t:"1803-01-01", tur:"toprak-kayip", b:"I. Suûdî Devleti (Vehhâbî) kuvvetleri Mekke'yi ele geçirdi; Şerif Galib şehri terk etmek zorunda kaldı", kaynak:"standart akademik/ansiklopedik (Suûdî-Vehhâbî Mekke'nin alınışı, 1803, kesin gün BULUNAMADI) — TDV kapsam dışı, ayrıca doğrulanmalı" },
+     { t:"1813-01-01", tur:"toprak-kazanc", b:"Mehmed Ali Paşa'nın oğlu Tosun Paşa komutasındaki Osmanlı-Mısır kuvvetleri Mekke ve Medine'yi Suûdîler'den geri aldı", kaynak:"standart akademik/ansiklopedik (Osmanlı-Suûdî Savaşı 1811-1818, Hicaz'ın geri alınışı 1812-13) — TDV kapsam dışı, kesin gün BULUNAMADI, ayrıca doğrulanmalı" },
+     { t:"1916-06-10", tur:"son", b:"Şerif Hüseyin'in isyanıyla şeriflik fiilen Hicaz Krallığı'na dönüştü (bkz. hicaz-kralligi)", kaynak:"künyenin kendi ozet alanı — ardıl künye hicaz-kralligi'nin kendi 'isyan' maddesiyle aynı gün, çift kayıt DEĞİL, geçiş notu" },
+@@ -7706,7 +7706,7 @@ window.DEVLETLER = [
+   ozet:"Katar yarımadasında Âl-i Sânî ailesinin emirliği. 1871'de Osmanlı idaresine kazâ olarak bağlandı; I. Dünya Savaşı öncesinde Osmanlı-İngiliz antlaşmasıyla İngiliz nüfuz alanına bırakıldı.",
+   kaynak:"TDV `katar` — 🟢 YIL DOĞRULANDI: «1871 baharında Nâfiz Paşa kumandasındaki birliklerle Lahsâ'ya bir sefer düzenledi» ve «1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar». 🟡 GÜNLER (09-20 · 07-29) VERİDEN DEVRALINDI, kaynaksız. ⚫ `al-i-sani` slug'ı CANLI ama BOİLERPLATE (2.390 kar., §4④) — 'yok' SAYILMADI, okunamadı.",
+   kronoloji:[
+-    { t:"1871-09-20", tur:"vassal", b:"Nâfiz Paşa'nın Lahsâ seferi sonrası Katar Osmanlı idaresine kazâ olarak bağlandı", kaynak:"TDV katar (künyenin kendi kaynak alanından)" },
++    { t:"1871-09-20", tur:"vassal", b:"Nâfiz Paşa'nın Lahsâ seferi sonrası Katar Osmanlı idaresine kazâ olarak bağlandı", kaynak:"TDV: katar — «Böylece 1871 sonbaharında Katar’da da Osmanlı kontrolü sağlandı ve burası Necid sancağına bağlı bir kaza olarak teşkilâtlandırılıp Câsim b. Sânî fahrî kaymakam tayin edildi.» — MEVSİM (TDV '1871 sonbaharında'); 09-20 günü KAYNAKSIZ (künye f: ile aynı, veriden)" },
+     { t:"1893-01-01", tur:"savas", b:"Basra valisi Hâfız Mehmed Paşa'nın padişah onayı olmadan Devha'ya asker sokması Şeyh Câsim b. Sânî'nin direnişiyle karşılaştı; çıkan çatışmada Osmanlı kuvveti ağır bir hezimete uğradı, Câsim padişah tarafından affedilip görevinde bırakıldı", kaynak:"TDV: katar — \"1893 başlarında\" Hâfız Mehmed Paşa'nın 200 kişilik taburla Devha'ya girmesi, Câsim'in Vecebe Kalesi'ne çekilip direnmesi, Osmanlı kuvvetinin hezimeti. Gün TDV'de yalnız '1893 başı' — YYYY-01-01 kaba, ay/gün uydurulmadı." },
+     { t:"1913-07-29", tur:"son", b:"Osmanlı-İngiliz Konvansiyonu ile Katar İngiliz nüfuz alanına bırakıldı, Osmanlı bağı fiilen sona erdi", kaynak:"künyenin kendi f/t verisinden devralındı (1913 Anglo-Ottoman Convention) — gün ayrıca doğrulanmalı" }
+   ] },
+@@ -7716,7 +7716,7 @@ window.DEVLETLER = [
+   kronoloji:[
+     { t:"1896-01-01", tur:"bolunme", b:"Şeyh Muhammed es-Sabah bir suikast sonucu öldürüldü, ailesi içinde iktidar mücadelesi başladı", kaynak:"TDV: kuveyt — \"Şeyh Abdullah’ın yerine geçen Şeyh Muhammed es-Sabâh, Osmanlı Devleti’ne bağlılığını sürdürürken bir suikast sonucu öldürüldü (1896).\", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi." },
+     { t:"1897-01-01", tur:"vassal", b:"Osmanlı merkezi yönetimi, aile içi çekişmenin yatışmasını bekledikten ve İngiltere'den yardım talebi endişesiyle, Mübârek es-Sabâh'ın kaymakamlığını onayladı", kaynak:"TDV: kuveyt — \"taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı\". Gün YOK, YYYY-01-01 kaba." },
+-    { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV kuveyt (künyenin kendi kaynak alanından)" },
++    { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV: kuveyt — «Hindistan genel valisi Lord Curzon yüzbaşı Mead’i Küveyt’e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899).»" },
+     { t:"1914-11-22", tur:"son", b:"I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
+   ] },
+ { id:"kumuk-samhalligi", ad:"Kumuk Şamhallığı (Tarki)", bolge:"kafkasya", f:"1578-11-01", t:"1607-01-01",
