@@ -1,0 +1,13 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 9f1c3717..d749abc2 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -651,7 +651,7 @@ window.DEVLETLER = [
+   kaynak:"marasiler (TDV, kuruluş NET) + bitiş tarihi (1596) TDV'de yok, dolaylı doğrulama: Encyclopaedia Iranica'ya atıf yapan ikincil kaynaklar (Iranica madde metnine erişilemedi)",
+   kronoloji:[
+     { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH)", ic_not_b:"eski b: Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },
+-    { t:"1392-10-26", tur:"vassal", b:"Timur'a Mâhâneser Kalesi'nde teslim oldu (8 Zilhicce 794)" },
++    { t:"1392-10-26", tur:"toprak-kayip", b:"Timur'a Mâhâneser Kalesi'nde teslim oldu (8 Zilhicce 794)" },
+     { t:"1596-01-01", tur:"son", b:"Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi", ic_not_b:"eski b: Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi (TDV yıl vermiyor, tarih ikincil kaynaktan)" }
+   ]
+ },
