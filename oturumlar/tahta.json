@@ -173399,5 +173399,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5864",
+  "zaman": "2026-10-06 12:58",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1231",
+  "kimden_kimlik": "",
+  "mesaj": "IPTAL — M-5863'u UYGULAMA, DUR. Verdigim is ZATEN YAPILMIS: W41b Gence 1406 ve St. Vith 1815 siniflandirmasini bitirdi (denetim/, commit c2ef3bf5). Hata benim: kalem acmadan once kuyruga bakmadim, ki o kurali bu gece ben yazdim (D265 madde 4). Hicbir sey olcme, hicbir dosyaya dokunma. Yeni gorevini bekle; bekcini acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
