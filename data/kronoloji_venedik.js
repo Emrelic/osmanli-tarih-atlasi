@@ -478,10 +478,10 @@ window.KRONOLOJI_VENEDIK = [
   d:"Osmanlı Devleti Mora'yı geri almak için savaş ilan etti. Venedik bu savaşa yalnız girdi; Karlofça'nın kazancını koruyacak ne donanması ne müttefiki vardı.",
   kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi", yer_id:"İstanbul" },
 
-{ t:"1715-07-01", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
+{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3) · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Damad Ali Paşa'nın harekâtıyla Osmanlılar bir yaz mevsiminde bütün yarımadayı geri aldı; aynı sefer sırasında Girit'te kalan Suda ve Spinalonga kaleleri de düştü. Karlofça'nın kazancı on altı yılda geri verilmiş oldu.",
-  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor)" },
+  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 (KRONO-AKADEMIK-1006)" },
 
 { t:"1716-08-20", b:"Korfu savunması — son zafer", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Korfu",
   etiket:["askeri","kusatma","konu-askeri"],

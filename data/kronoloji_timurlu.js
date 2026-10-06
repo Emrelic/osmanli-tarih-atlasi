@@ -82,10 +82,10 @@ window.KRONOLOJI_TIMURLU = [
 // II. YEDİ YILLIK SEFER — SURİYE VE ANADOLU (1400-1404)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1400-10-01", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
+{ t:"1400-10-30", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", gun:"30 Ekim 1400 — meydan savaşı ve şehre giriş (Cengiz 2020); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t 1400-10-01 ay başı yer tutucuydu (KRONO-AKADEMIK-1006 §1 #7)", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Hindistan seferinden dönen Timur, 'Yedi Yıllık Sefer' adı verilen batı harekâtı kapsamında Suriye'ye girip Halep önünde Memlük ordusunu yendi; şehir üç gün yağmalandı ve kafataslarından kuleler yapıldı. Halep'in düşüşü, Kahire'deki Memlük sarayında paniğe yol açan ilk büyük darbeydi.",
-  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20) · daha önce künyede (devletler.js) 1400-01-01 \"Halep ve Şam'ı ele geçirdi\" yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #20)" },
+  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20) · daha önce künyede (devletler.js) 1400-01-01 \"Halep ve Şam'ı ele geçirdi\" yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #20) · gün: Ercan Cengiz, \"Timur’un Suriye Seferi\", Kafkas Üniversitesi SBE Dergisi 26 (2020), DOI 10.9775/kausbed.2020.034: \"Memluk kuvvetleri 30 Ekim’de şehrin dışına çıkarak Timur’un ordusuna doğru saldırıya geçtiler\" … \"Timur’un ordusu Halep’e girerek şehri yağmaladı\" — cümleler meydan savaşını ve şehre girişi tarihliyor (KRONO-AKADEMIK-1006)" },
 
 { t:"1401-01-25", b:"Şam'ın teslimi ve İbn Haldûn ile görüşme", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"Şam",
   etiket:["diplomasi","din","kultur","konu-diplomasi","konu-din","konu-kultur"],

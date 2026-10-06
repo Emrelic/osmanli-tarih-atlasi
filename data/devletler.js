@@ -366,7 +366,7 @@ window.DEVLETLER = [
     { t:"1669-09-27", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi" },
     { t:"1684-01-01", tur:"toprak-kazanc", b:"Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)" },
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça ile Mora resmen Venedik'e bağlandı" },
-    { t:"1715-06-25", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı" },
+    { t:"1715-09-07", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3)", ic_not_b:"eski t: 1715-06-25 — KAYNAKSIZ (06-26 girişine 1 gün yakındı) (KRONO-AKADEMIK-1006)", kaynak:"Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 · TDV `mora`: \"(1127/1715 yazı)\"" },
     { t:"1797-05-12", tur:"son", b:"Napolyon Cumhuriyet'e son verdi, Campo Formio ile Avusturya'ya bırakıldı" }
   ]
 },
@@ -725,7 +725,7 @@ window.DEVLETLER = [
     { t:"1569-07-01", tur:"kurulus", b:"Lublin Birliği ile Polonya-Litvanya birleşti" },
     { t:"1573-05-16", tur:"hukumdar", b:"Henrician Articles kabul edildi, ilk seçimli kral Valois Henri tahta çıktı" },
     { t:"1620-09-01", tur:"savas", b:"Osmanlı ile Hotin/Ţuţora savaşları başladı" },
-    { t:"1655-07-01", tur:"isgal", b:"İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi" },
+    { t:"1655-07-21", tur:"isgal", b:"İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi", ic_not_b:"eski t: 1655-07-01 — KAYNAKSIZ (KRONO-AKADEMIK-1006 §1 #1)", kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor" },
     { t:"1672-10-18", tur:"toprak-kayip", b:"Bucaş Antlaşması — Podolya Osmanlı'ya geçti" },
     { t:"1683-09-12", tur:"ittifak", b:"Jan Sobieski, II. Viyana kuşatmasını kırdı" },
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça — Podolya geri alındı" },
