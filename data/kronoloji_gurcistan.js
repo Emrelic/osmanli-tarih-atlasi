@@ -154,7 +154,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"Ardahan",
   d:"Lala Mustafa Paşa ve Özdemiroğlu Osman Paşa komutasındaki Osmanlı ordusu Safevî kuvvetlerini Çıldır'da ağır bir yenilgiye uğrattı. Bu zafer Kafkasya'nın kapılarını Osmanlı'ya açtı; on beş gün içinde Tiflis'in fethi ve Ahıska atabegliğinin Osmanlı idaresine girmesiyle sonuçlandı.",
-  kaynak:"cildir-savasi (TDV, zaten doğrulanmış — bkz. data/olaylar_ek2.js) + ahiska (TDV — 'Ahıska atabegleri, Lala Mustafa Paşa'nın Çıldır Savaşı sonunda Osmanlı idaresine girdiler')" },
+  kaynak:"cildir-savasi (TDV, zaten doğrulanmış — bkz. data/olaylar_ek2.js) + ahiska (TDV — 'Ahıska atabegleri, Lala Mustafa Paşa’nın Çıldır Savaşı (1578) sonunda Osmanlı idaresine girdiler')" },
 
 { t:"1578-08-24", b:"Tiflis'in Lala Mustafa Paşa tarafından fethi", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","fetih","konu-askeri"],
