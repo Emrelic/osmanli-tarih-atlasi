@@ -12,12 +12,13 @@ Yapay ağaçlar geçici dizinde kurulur (depoya yazılmaz):
   HATA    Y7 küme sabit değil → çıkış 2
   GERÇEK  M1 bugünkü motor → KAPSAYICI mod, çıkış 0
           M2 bugünkü motor + 1006c önerisi (--kumeler) → TEMİZ, çıkış 0
-Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py [--kok C:\\atlas]
+Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py [--kok <depo>]
+  --kok: vars. bu betiğin kendi deposu (denetim/..); kapı da AYNI ağaçtan çağrılır.
 """
 import argparse, json, os, subprocess, sys, tempfile, textwrap
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ap = argparse.ArgumentParser()
-ap.add_argument("--kok", default=r"C:\atlas")
+ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 KOK = ap.parse_args().kok
 KAPI = os.path.join(KOK, "denetim", "ARAC-MOTOR-ENV-KAPI-1006.py")
 

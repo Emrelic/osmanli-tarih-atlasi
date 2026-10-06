@@ -33,7 +33,8 @@ HÜKÜM:
   her MOTOR_*'ı alır ⇒ sınıfsız ad tuzda demektir, kapı ÖTMEZ ama listeyi basar
   (hangi adların ③3'te sınıflanması gerektiğini görmek için).
 
-Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-1006.py [--kok C:\\atlas] [--dosya arac/uret_petek.py]
+Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-1006.py [--kok <depo>] [--dosya arac/uret_petek.py]
+  --kok: vars. bu betiğin kendi deposu (denetim/..) — mutlak yol YOK, her ağaçta kendini ölçer.
                                                  [--kumeler oneri.json]
   --kumeler: {"_ONB_SONUC": [...], "_ONB_ISLETIM": [...], "_ONB_CIKTI_DISI": [...]}
              verilen kümeler dosyadakilerin YERİNE geçer (yama inmeden öneriyi sınamak için).
@@ -43,7 +44,7 @@ import argparse, ast, json, os, sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--kok", default=r"C:\atlas")
+ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ap.add_argument("--dosya", default="arac/uret_petek.py")
 ap.add_argument("--kumeler", default=None)
 arg = ap.parse_args()
