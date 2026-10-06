@@ -1,11 +1,11 @@
 {
  "bekci_yasak": false,
  "kod": "KOSU",
- "ilan": "2026-10-04 13:01",
- "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "",
- "gerekce": "Petek koşusu sürüyor; makine koşuya ayrıldı.",
+ "ilan": "2026-10-05 21:20",
+ "ilan_eden": "HAVVA",
+ "olcum": "RAM bos 15,5 GB / 23,7 GB, C: bos 332 GB",
+ "gerekce": "KOSU 20 (HAVVA) tam insa suruyor, temel fc380975, ~2-7 sa; makine kosuya ayrildi",
  "muaf": [],
- "kaldirildi": "2026-10-04 22:00",
- "kaldirma_gerekce": ""
+ "kaldirildi": "2026-10-06 05:41",
+ "kaldirma_gerekce": "KOSU 20 (HAVVA) bitti 05:35:34, 8sa14dk; makine serbest"
 }
