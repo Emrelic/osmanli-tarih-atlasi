@@ -1687,3 +1687,74 @@ değil ⇒ kapı temiz geçti"*. Kapılar var; onları koşturan zincir koşmuyo
 (`arac/` koşu sürerken donuk).
 📌 Kaynaklar: `git log -S` (iki commit tarihi) · `Get-ScheduledTask` + `Get-ScheduledTaskInfo`
 (iki görev durumu, son koşu, sonuç) · `grep` (dört başlatıcı) · UMIT'in adım listesi ölçümü.
+
+
+## ⑳ 🔴 KOŞU 20 YAYINA HAZIR — AMA YAYIN KARARI SENDE, ve sebebi TEK BİR SAYI DEĞİL
+Koşu bitti (8 sa 14 dk), kodlama yapıldı, Değişmez 8 **ilk kez soruldu** ve geçti. Yayın
+dışında her şey bitti. **Yayınlamadım** çünkü `CLAUDE.md §1`: *"`main`e push = yayın"* ⇒
+geometriyi main'e almak, yayınlamaktır. Bu bir karar ve senin.
+
+### Denetim — D8 artık SORULUYOR ve GEÇİYOR
+```
+8a ✓ 1504 (tavan 1568)   8b ✓ 82 (tavan 84)   8m ✓
+tek ölçülemeyen: 8k körlüğü (18 çift / 11 hat) — BİLİNEN araç körlüğü, yeni değil
+D1 309/309 ✓ · D2 623 kırılma 0 açık ✓ · konum 0 ✓ · kaynaksız 1930 (tavan 1968) ·
+mükerrer 112 (≤113) · 2s 187 açık (tavan 189)
+```
+`denetle.py` hâlâ **çıkış 2**, ama sebebi değişti: artık "D8 sorulamadı" değil, "8k'nın
+bilinen körlüğü". İlk turdaki çıkış 2'nin kökü bulundu ve kapandı (aşağıda ㊀).
+
+### 🔴 YAYINI BEKLETME SEBEBİM — iki ADI OLAN kusur
+**① 16 YERLEŞİM BOYANMADAN ÇİZİLİYOR.** Kimlik: `itilaf-emaneti` ("Başlıca Müttefik ve
+Ortak Devletler emaneti", Saint-Germain md. 91). `s:` alanında 16 kayıt
+(`yerlesimler.js` 11 + `yerlesimler_ek.js` 5), pencere `1919-09-10 → 1920-11-12/1923-03-15`.
+**`renkler.py`de HİÇ YOK** — ne tabanda ne bugünkü main'de. Koşu logunda 16 satır
+*"UYARI boya: <yer> bilinmeyen devlet kimliği 'itilaf-emaneti'"* (Lvov · Yazlofça · Krk …).
+🔴 Ve bu kusur ŞU ANDA YAYINDA YOK: `itilaf-emaneti` 5 Ekim 19:25'te (`4f390691`,
+"CİSLEİTHANİA İNDİ") geldi, yayındaki r11195'ten SONRA. ⇒ **Yayınlamak bu deliği
+AÇARDI, kapatmazdı.**
+⚠️ Çaresi `renkler.py` ve o MOTOR TUZUNDA (`§9.1`) ⇒ rengi eklemek **yeni bir tam inşa
+koşusu** demek. Veriden çözülemez (boya koşu anında pişiyor, tarayıcı sonradan boyamıyor).
+**② TUNA HATTI 8 ÇİFTTE ÖLÇÜLEMEZ OLDU.** 8k üyeliği aynı veri tabanında (yalnız gövde
+değişti) ölçüldü: **önceki 10'un 10'u KALDI · 0 kalktı · 8 YENİ**, altısı
+`g3-bg-ro-tuna` (p1/p2/p3, 1878-07-13 → 1908-10-04), ikisi `d1919-hu-cs-fiili`.
+⇒ Bulgaristan-Romanya Tuna hattında Değişmez 8 artık o günlerde **hiç sorulamıyor** —
+ve bu, 4 Ekim gerilemesinin bölgesi. Ölçülemezlik bir ihlal değil, ama bir KÖRLÜK
+ARTIŞI ve yayından önce sınıflandırılmalı.
+
+### KARAR — üç şık, önerim ③
+```
+① ŞİMDİ YAYINLA     Artı: motor çıktısı 1 aydır bayat (yayın r11195), 8a 1568→1504
+                    iyileşti, D2 temiz. Eksi: 16 yerleşim BOYASIZ çizilir ve Tuna
+                    hattında 8 yeni körlük yayına girer. İkisi de ŞU AN yayında YOK.
+② TAM İNŞA BEKLE    renkler.py'ye itilaf-emaneti eklenir, delik hiç açılmaz. Eksi:
+                    PLAN-1004 §1 tam inşayı 1281-öncesi + 1923-sonrası VERİ işi bitmeden
+                    YASAKLIYOR ⇒ günler sürebilir, motor çıktısı o kadar daha bayat kalır.
+③ ÖNERİM: KISITLI YAYIN + BEYAN
+                    Koşu çıktısını yayınla, AMA 16 yerleşimin boyasızlığını
+                    §1.5'te BEYANLI BORÇ olarak yaz (bugün "✓ 0" diyen satır
+                    "🟡 1 kimlik / 16 yerleşim · tam inşa bekliyor" olur) ve Tuna'nın
+                    8 çiftini ODAK/D8 defterine ADIYLA yaz.
+                    Gerekçe: bu projenin kendi kuralı beyanlı borcu sessiz borçtan
+                    üstün tutuyor, ve bir aylık bayatlık da bir kusur. Beyan edilmiş
+                    16 yerleşim, ölçülmemiş bir aylık sapmadan az zarar verir.
+```
+⚠️ Hangisini seçersen seç, **ben tek başıma yayınlamıyorum.** Yayın geri alınabilir ama
+geri alınana kadar canlıdır ve bu karar senin.
+
+### 🔴 ㊀ BİR ARAÇ KUSURU BULUNDU — kalem bende, ama bilmen gerek
+D8 kodlamadan SONRA da "GÖVDE UYUŞMUYOR" dedi. Kök sebep **geometri DEĞİL, SATIR SONU:**
+motor ham `.js`leri CRLF yazıyor (`devletler_harita` 7 · `donemler` 17 · `petek_govde` 11
+satır); `kodla.py` METNİ (LF) özetliyor, `denetle._d8_govde_kimlik` (`:4700`) ham BAYTI
+özetliyor. CRLF→LF sonrası üç özet de birebir tuttu ⇒ **geometri farkı SIFIR.**
+İki araç aynı dosyayı farklı özetliyor ve bu **her Windows makinesinde** yeniden olur.
+📌 Çareyi `denetle.py`de yapacağım, `uret_petek.py`de DEĞİL: `uret_petek` motor tuzunda,
+ona dokunmak bütün önbelleği öldürür; `denetle.py` tuzda değil. Tüketiciyi düzeltmek
+bedava, üreticiyi düzeltmek 8 saat.
+📌 Ve HAVVA ham CRLF kopyaları `C:\atlas-kosu-kayit\ham\`de sakladı, sha'larıyla —
+yani kanıt duruyor.
+
+### Küçük ama gerçek: 264 MB'lık bir çıktıyı KİMSE OKUMUYOR
+`Ⓑ ufuk bantları` 21 dk 58 sn koştu ve `ufuk_bantlari.js` 264 MB üretti. **`index.html`
+onu yüklemiyor** ve `kodla.py` de kodlamıyor. ⇒ Ya arayüz onu okumalı, ya o aşama ölü
+yük. Kalem açıldı; senden bir şey istemiyorum.
