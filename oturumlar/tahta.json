@@ -169144,5 +169144,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5715",
+  "zaman": "2026-10-06 15:05",
+  "kimden": "TAVAN-TEL-1006",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TAVAN-TEL-1006 BENDE, basliyorum (LAB, makine Emre, olcum govdesi origin/main 586c0791)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
