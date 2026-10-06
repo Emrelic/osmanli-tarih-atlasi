@@ -173597,5 +173597,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5875",
+  "zaman": "2026-10-06 19:01",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 21 · tam inşa · ~8 sa · makine HAVVA · temel 99d3eacc · worktree C:\\atlas-kosu21 · MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=2 · parmak izi 4/4 (uret_petek 108ec62b · renkler 25be10fa · girdi 31edf55c · motor_onbellek b9f36f42) · boş disk 328 GB · motor tuzu DONUK · yayın YOK",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
