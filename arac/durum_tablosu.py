@@ -402,20 +402,63 @@ def _sina():
     return 0 if (gecti == t and all(_t)) else 1
 
 
+def kronoloji_say(dosyalar=None):
+    """`arac/kronoloji_say.js` → sözlük; ölçülemezse {"hata": [...]}."""
+    if dosyalar is None:
+        dosyalar = sorted(glob.glob("data/olaylar*.js"))
+    if not dosyalar:
+        return {"hata": ["data/olaylar*.js: dosya yok"]}
+    try:
+        c = subprocess.run(["node", os.path.join(KOK, "arac", "kronoloji_say.js")]
+                           + dosyalar, capture_output=True, timeout=300)
+    except (OSError, subprocess.SubprocessError) as e:
+        return {"hata": ["node koşturulamadı: %s" % e]}
+    if c.returncode != 0:
+        return {"hata": ["node çıkış %d: %s" % (c.returncode,
+                         c.stderr.decode("utf-8", "replace")[:200])]}
+    try:
+        r = json.loads(c.stdout.decode("utf-8"))
+    except ValueError:
+        return {"hata": ["node çıktısı ayrıştırılamadı (kesik?): %r"
+                         % c.stdout[-80:]]}
+    if "hata" not in r and r.get("dosya") != len(dosyalar):
+        return {"hata": ["dosya sayısı tutmuyor: verilen %d · sayılan %s"
+                         % (len(dosyalar), r.get("dosya"))]}
+    eksik = [a for a in ("madde", "duygu", "yer_id", "yer_id_bos", "vefat_id")
+             if not isinstance(r.get(a), int)]
+    if "hata" not in r and eksik:
+        return {"hata": ["node çıktısında alan yok: %s" % ", ".join(eksik)]}
+    return r
+
+
+def kronoloji_satiri(k):
+    """§1.5 Kronoloji hücresi — ölçülemezse sayı DEĞİL, sebep yazılır.
+
+    `boş yer_id: N` — 5 Ekim 2026, genel koordinatör hükmü: `yer_id` evreni
+    DOLU alan (1629) kabul edildi, ŞARTIYLA ki anahtarı olup değeri boş
+    (`yer_id:""`) maddeler tabloda ADIYLA görünsün; aradaki fark sessizce
+    yutulmasın. N `kronoloji_say.js`in `yer_id_bos`undan gelir, sabit DEĞİL.
+    """
+    if "hata" in k:
+        return ("🔴 **ÖLÇÜLEMEDİ** — madde · duygu · `yer_id` · `vefat_id` "
+                "sayılamadı (%s)" % "; ".join(k["hata"])[:300])
+    return ("**%d** madde · %d duygu etiketli · %d `yer_id` (boş yer_id: %d)"
+            " · %d `vefat_id`"
+            % (k["madde"], k["duygu"], k["yer_id"], k["yer_id_bos"],
+               k["vefat_id"]))
+
+
 def olc():
     o = {}
     Y = girdi.yukle(sessiz=True)
     o["yerlesim"] = len(Y)
     o["girdi_dosya"] = len(girdi.GIRDI_DOSYALARI)
 
-    o["madde"] = sum(len(re.findall(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', _oku(f)))
-                     for f in sorted(glob.glob("data/olaylar*.js")))
-    o["duygu"] = sum(len(re.findall(r"duygu:\[", _oku(f)))
-                     for f in glob.glob("data/olaylar*.js"))
-    o["yer_id"] = sum(len(re.findall(r"yer_id:", _oku(f)))
-                      for f in glob.glob("data/olaylar*.js"))
-    o["vefat_id"] = sum(len(re.findall(r"vefat_id:", _oku(f)))
-                        for f in glob.glob("data/olaylar*.js"))
+    # 🔴 5 Ekim 2026 — dört sayı REGEX'ten NODE'a taşındı; regex İKİ YÖNLÜ
+    #    yanlıştı (yorum/blok yorum/iç içe adım FAZLA · `{` ayrı satır/JSON
+    #    anahtarı/boşluk EKSİK). Gerekçe ve evren `arac/kronoloji_say.js`te.
+    #    Ölçülemezse dördü de ÖLÇÜLEMEDİ olur — eski regex'e GERİ DÜŞÜLMEZ.
+    o["kronoloji"] = kronoloji_say()
 
     d = _oku("data/devletler.js")
     o["devlet"] = len(re.findall(r'\{\s*id:\s*"', d))
@@ -568,8 +611,7 @@ def tablo(o):
     s.append("|---|---|")
     s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası |"
              % (o["yerlesim"], o["girdi_dosya"]))
-    s.append("| Kronoloji | **%d** madde · %d duygu etiketli · %d `yer_id` · %d `vefat_id` |"
-             % (o["madde"], o["duygu"], o["yer_id"], o["vefat_id"]))
+    s.append("| Kronoloji | %s |" % kronoloji_satiri(o["kronoloji"]))
     s.append("| Değişmez 1 — sahipsizlik | %s |" % o["d1"])
     s.append("| Değişmez 1b — iç boşluk | %s |" % o["d1b"])
     s.append("| Değişmez 2 — Osmanlı senkronu | %s |" % o["d2"])
