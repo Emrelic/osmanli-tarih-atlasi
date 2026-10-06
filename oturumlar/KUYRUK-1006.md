@@ -865,3 +865,97 @@ sayacı susturur; madde yazmak onu **öder**.
   tırnak kalkıyor ⇒ kesinlik kaybı, doğruluk kaybı değil); **21 "desteksiz" bekliyor**,
   çünkü "uydurma" bir kayıt hakkında verilebilecek en ağır hükümdür ve EKSİK gövdeyle
   verilmez. 1608: çıkarıcı düzeltmesi + **5.888 tırnağın YENİDEN ölçümü** (oran taşınmaz).
+
+---
+
+## 14. 🔴 6 EKİM 19:00+ — KOŞU 21 SÜRERKEN: ROTUS indi · Hanak elendi · İKİ YENİ KALEM
+
+KOŞU 21 **19:02:31**'de başladı (HAVVA, temel `99d3eacc`, parmak izi 4/4 TUTTU,
+boş disk 328 GB, boş RAM 16,1/23,7 GB, `kaynak_durum kapat --kod KOSU` çıkış 0).
+Yayın YOK. Bu bölüm koşu sürerken yapılanı ve koşudan SONRAYA kalanı ayırıyor.
+
+### 14.1 İNEN — `fa046560` ROTUS iskeleti (koşuyu etkilemiyor, ÖLÇÜLDÜ)
+`data/rotus.js` (`window.ROTUS = []` + §1.2 tam şema yorumu) + `index.html:1993`
+yükleme satırı, **TEK commit** (R0: biri olmadan öteki ilk kaydı sessizce görünmez
+kılar, D225 ailesi).
+🔴 **Beklediğim `ROTUS-ISKELET-1006-KOORD.diff` HİÇ ÜRETİLMEMİŞTİ** ve bunu varsaymak
+yerine ölçtüm: `3e158190`in kendi mesajı *"kod YOK"* diyor, ve ROTUS adını taşıyan
+dosya bütün dallarda arandı — yalnız iki TASARIM belgesi çıktı. İskeleti belgenin
+kendi önerisine göre (`P84-ROTUS-TASARIM-1006b §7①`) koordinatör yazdı.
+⇒ **Ders adayı: "bende bekleyen diff" listesi, diff'in VAR OLDUĞUNU ölçmeden tutulmaz.**
+Bir kalem günlerce "uygulanacak" diye bekledi, oysa uygulanacak şey yoktu.
+
+**Koşu sürerken `data/`ya dokunmanın gerekçesi — muafiyet İDDİA EDİLMEDİ, ÖLÇÜLDÜ:**
+| ölçüm | sonuç |
+|---|---|
+| `girdi.GIRDI_DOSYALARI` içinde 'rotus' | **HİÇBİRİ** (93 dosya; `girdi.py` glob DEĞİL izin listesi) |
+| `C:/atlas-kosu21/data/rotus.js` | **YOK** — koşu ağacı `99d3eacc`'de, dosyayı görmüyor |
+| motor tuzu (4 dosya) | dördü de **TUTTU** |
+⚠️ **Aynı muafiyet `yer_yama` taşımasına VERİLMEDİ:** o 103 dosya izin listesinin
+İÇİNDE ve büyük bir yeniden düzenleme ⇒ koşudan SONRA. Fark kolaylık değil ÖLÇÜM:
+biri motorun okuduğu kümede, öteki değil.
+
+### 14.2 KAPANAN — Hanak, D8a'nın +1'i (`denetim/HANAK-D8A-1006.md`)
+Saarbrücken hipotezim çürütüldükten sonra üç mekanizma da ELENDİ: Hanak kaydı
+`e634fdad~1` ↔ HEAD **BİREBİR AYNI** · `yer_yama*.js`te Hanak **YOK** · hattın dosyası
+`d_sinirlar.js`e bugün **SIFIR commit** · Hanak'a 60 km içinde bugün dokunulan nokta
+**SIFIR** (evren ADIYLA: bugünün 9 yerleşim dosyasında `lat`+`lon` taşıyan **79**
+eklenen/silinen satır — küme boş DEĞİLDİ, 79 aday vardı).
+🔴 **Ama Değişmez 8 EMRELIC'te ÖLÇÜLEMEDİ** ⇒ *"+1 bugünden gelmiyor"* ÖLÇÜLDÜ,
+*"+1 bayat gövde eseri"* **HİPOTEZ**. İkisi aynı cümleye konmadı.
+KOŞU 21 sınavı HAVVA'ya verildi (M-5876): rapora tek satır `8a Hanak: KAYBOLDU / KALDI`.
+
+### 14.3 🆕 KALEM A — kaynaksız `s:` tavanı 18 PUAN GEVŞEK (koşu sonrası)
+Ölçüm **1912**, tavan **1930** ⇒ §3.4(3) indirmeyi emrediyor ve bırakılırsa aradaki
+18 puan **sessiz borç** olur. İNDİRİLMEDİ, sebebi §3.4(0): *"tavan yazıldığı anda
+ölçülür"*. Dokuz makine 19:00 dondurmasına commit ediyordu; şimdi yazılacak sabit
+dakikalar içinde bayatlardı — ve kaynaksızlık sayılarının **bir günde 5 kayıt**
+oynadığı zaten ölçülmüştü (§3.4(0) vakası).
+⇒ **Dondurma oturunca: yeniden ölç, farkı ADIYLA karşılaştır, indir.**
+`kayıt-kaynaksız 2301` tavanla TAM hizada, o oynamıyor.
+
+### 14.4 🆕 KALEM B — TAHTA NUMARASI MAKİNELER ARASI ÇAKIŞTI (M-5875 iki kez)
+**Ölçülen vaka:** HAVVA `M-5875`i yazıp origin'e push etti (`a6fd37ab`); ben de aynı
+dakikada `M-5875` ürettim (`792c277a`) ve push'um **non-fast-forward REDDEDİLDİ**.
+`tahta.py` bunu doğru teşhis etti ve kendisi söyledi: *"commit 792c277a UZAKTA YOK —
+MESAJ KİMSEYE ULAŞMADI. TEKRAR YAZMA."*
+🟢 **Sistem BU VAKADA kazandı, ve niçin kazandığı önemli:** numarayı yerel sayaç
+dağıtıyor, ama `git push` SERİLEŞTİRİYOR ⇒ origin'de iki farklı M-5875 olamaz.
+Çakışmayı yakalayan kapı tahta değil **git**.
+🔴 **KALAN RİSK, ve dar ama gerçek:** `tahta_bekci.py` **YEREL** `tahta.json`u okur.
+Push'u reddedilmiş bir makinede yerel M-5875 ile origin'in M-5875'i **AYRI
+MESAJLARDIR** ve "numarasıyla atıf" disiplini tam orada kırılır. Bir oturum
+*"M-5875'te dediğim gibi"* yazarsa, karşı taraf BAŞKA bir mesajı okur.
+**Çare ÖNERİSİ (hüküm Emre'de / ayrı kalem):** numara `<MAKİNE>-M-####` biçiminde
+makine önekli üretilsin; ya da `tahta.py` push reddedilince yerel kaydı da GERİ ALSIN
+(şu an bırakıyor ve "tekrar yazma" diyor — kayıt yerelde ÖLÜ olarak kalıyor).
+⚠️ Bu bir ihlal değil **BEYAN**: bugün hiçbir şey kaybolmadı, kaybolabilirdi.
+
+**Çözüm biçimi (uygulandı):** kendi tahta commit'im geri alındı (`reset --soft` +
+yalnız iki tahta dosyasına `restore`, başkasının iki `M` dosyası KORUNDU),
+`origin/main` merge edildi, push geçti, mesaj **M-5876** olarak yeniden yazıldı.
+17,5 MB'lık `tahta.json` çatışması böylece hiç oluşmadı.
+**Teslim kanıtı (§7.1 ⑤b) — geri okundu:** M-5876 · 2565 karakter · son cümle
+("Sorun yoksa YAZMA.") ve altı işaret (HÜKÜM ①, HÜKÜM ②, KAYBOLDU / KALDI,
+yer_yama, 1912, berabis) **hepsi VAR** ⇒ kesilme YOK. Satır sonları boşluğa
+çevrilmiş (21 `\n` → 0), içerik kaybı değil.
+⚠️ Ve geri okuma betiğim ilk denemede **0 kayıt** buldu, çünkü alanı `id` sandım —
+gerçek ad `no`, gönderen `kimden`. **D267 aynen tekrarlandı:** desen veriye uymazsa
+araç sessizce "yok" der. Boş sonucu "mesaj gitmemiş" diye okumadım, yapıyı ölçtüm.
+
+### 14.5 BEKLETİLEN — `HAVVA-UFUK-RENK-1006.diff` (js/app.js)
+Hükmüm HAVVA'ya yazıldı: **koşu bitene kadar BEKLE.** app.js motor tuzunda DEĞİL,
+teknik olarak inebilirdi; inmiyor çünkü 40 dakikalık geometri inşasının ortasında
+arayüz renk mantığı oynarsa koşu sonunda *"renk doğru mu"* sorusu İKİ değişkenle
+sorulur ve ayrılamaz. Koşu bitince İLK sırada.
+
+### 14.6 KOŞU 20 TABANI (HAVVA ölçtü, rapora girecek)
+çizilen yabancı gövde ↔ 5-7 bandı: 3806 kayıtta **360 kopuk (%9,5)**, 17 tamamen
+kopuk, boşluk medyan 53 km (Q1 31 · Q3 77 · maks 238) · çizilen r ~185-200 km ↔
+`PETEK_D` r ~220-230 km · kopukların **%98**'inde `PETEK_D` − çizilen farkı var.
+🟢 **OSMANLI'DA 0 KOPUK** (5-7'de 563, 7-10'da 449 kayıt) ⇒ 1600'ün PUAN KAPISI
+ayrımını destekliyor. Sahra'da **berabis** ve **tuareg-adag** TAMAMEN kopuk
+(boşluk ~62 km) — ayrı kalem, rapora ADIYLA girsin.
+③=④ aynı küme (523 boş); ölçülen 400'de komşu gövde 266 · deniz 49 · serbest kara 85.
+⚠️ *"5-7 var, 7-10 yok"* **1205 kayıt SINIFLANMADI** — bu bir eksiklik değil BEYAN,
+öyle yazılacak.

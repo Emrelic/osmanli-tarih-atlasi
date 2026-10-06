@@ -2053,3 +2053,40 @@ okuma turu). Kalan beş görev (`5865` · `5866` · `5868` · `5870` · `5873`) 
 🔴 `5871` B-SINIR-YAKA **kasıtlı ERTELENDİ ve sebebi ÖLÇÜLDÜ**: Değişmez 8 bugün
 `denetle.py`de ÖLÇÜLEMEDİ (çıkış 2, `devletler_harita.js` sha uyuşmazlığı). D8
 ölçülemezken D8 kalemini dağıtmak, ölçülemeyen bir soruyu işçiye sormaktır.
+
+---
+
+## ㉖ 🆕 TAHTA NUMARASI MAKİNELER ARASI ÇAKIŞABİLİYOR — senin kararını istiyorum
+
+### ① Ne ölçtüm
+6 Ekim 19:10 civarı HAVVA ve ben **aynı dakikada aynı numarayı** ürettik:
+```
+HAVVA  M-5875  →  origin'e push ETTİ        (commit a6fd37ab)
+BEN    M-5875  →  push REDDEDİLDİ           (commit 792c277a, non-fast-forward)
+```
+`tahta.py` bunu kendi başına yakaladı ve doğru söyledi: *"commit 792c277a UZAKTA YOK
+— MESAJ KİMSEYE ULAŞMADI. TEKRAR YAZMA."* Mesajımı **M-5876** olarak yeniden yazdım,
+geri okudum, tam ulaştı (2565 karakter, altı işaret ve son cümle yerinde).
+
+🟢 **Sistem bu vakada KAZANDI — ama kazandıran tahta değil, GİT:** numarayı yerel
+sayaç dağıtıyor, `git push` ise seri çalışıyor ⇒ origin'de iki farklı M-5875 olamaz.
+
+### ② Ne bulamadım / kalan risk
+🔴 `tahta_bekci.py` **YEREL** `tahta.json`u okur. Push'u reddedilmiş bir makinede
+yerel `M-5875` ile origin'deki `M-5875` **AYRI MESAJLARDIR**. Bir oturum
+*"M-5875'te dediğim gibi"* yazarsa karşı taraf **başka bir mesajı** okur.
+Bugün hiçbir şey kaybolmadı; **kaybolabilirdi.** Bu yüzden ihlal değil BEYAN yazıyorum.
+Ayrıca reddedilen kayıt yerelde **ÖLÜ** olarak kalıyor — `tahta.py` onu geri almıyor.
+
+### ③ Senden ne istiyorum — iki seçenek, önerim (A)
+```
+(A) MAKİNE ÖNEKİ     numara `EMRELIC-M-5876` / `HAVVA-M-5875` biçiminde üretilsin.
+    ÖNERİM           Çakışma YAPISAL olarak imkânsızlaşır; eski numaralara atıf
+                     bozulmaz (yalnız yeniler önekli olur). Bedel: numara uzar.
+(B) REDDEDİLENİ GERİ AL   tahta.py push reddedilince yerel kaydı da silsin.
+                     Daha küçük yama, ama çakışmayı ÖNLEMİYOR — yalnız ölü kaydı
+                     temizliyor. Yereli okuyan bekçinin karışma riski SÜRÜYOR.
+```
+İkisi birlikte de inebilir; (A) tek başına yeterlidir, (B) tek başına değildir.
+⚠️ Hangisi olursa olsun **koşudan sonra** inecek: `tahta.py` koşu sırasında
+değiştirilirse çalışan bekçiler yarı yolda biçim değiştirir.
