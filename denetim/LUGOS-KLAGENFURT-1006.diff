@@ -1,0 +1,40 @@
+diff --git a/data/olaylar_ok109.js b/data/olaylar_ok109.js
+--- a/data/olaylar_ok109.js
++++ b/data/olaylar_ok109.js
+@@ -311,6 +311,15 @@ window.OLAYLAR_OK109 = [
+     kaynak: "Muzeul Județean Satu Mare, '100 de ani de la eliberarea Sătmarului și instaurarea administrației românești' (muzeusm.ro) — 'La 19 aprilie 1919, în sâmbăta de Paște, dr. Ilie Carol Barbul … a condus delegaţia locală care a întâmpinat Armata Română … prima patrulă a Diviziei a II-a Cavalerie de sub comanda col. Ressel' · Primăria Municipiului Oradea (oradea.ro) — 'intrarea trupelor române în Oradea, la 20 aprilie 1919, în frunte cu generalul Traian Moșoiu'"
+   },
+ 
++  {
++    t: "1919-07-22", k: "isgal", etiket: ["isgal", "konu-askeri"],
++    kapsam:"dis", onem:2, b: "Romen birlikleri Lugoj'a (Lugos) ulaştı — Banat'ın doğusunda Romen idaresi", yer_id:"Lugos (Lugoj)",
++    gun: "22 Temmuz 1919",
++    yer: "Lugos (Lugoj)",
++    d: "Romen birliklerini taşıyan tren 22 Temmuz 1919 saat 14'te Lugoj'a ulaştı; şehir halkı orduyu garda karşıladı, Caraş-Severin prefekti George Dobrin karşılama konuşmasını yaptı, General Jitianu cevap verdi. Banat'ın Romanya'ya düşen kesiminde Romen idaresi Temmuz 1919'da kuruldu; hukukî devir 1920 Trianon Antlaşması ile gerçekleşti.",
++    kaynak: "Actualitatea (Lugoj gazetesi, 30.07.2019, '100 de ani de la intrarea armatei române în Lugoj (2)') — https://ziarulactualitatea.ro/100-de-ani-de-la-intrarea-armatei-romane-in-lugoj-2/ — 'Marți, 22 iulie 1919 . La ora 14 trenul G.1 a sosit în Lugoj.' · ikinci, bağımsız gazete: Ziua de Vest (04.08.2015) — 'la întâmpinarea glorioasei armate române, la 22 iulie 1919. Populaţia Lugojului a făcut coloanelor o primire triumfală.' · kurumsal tanık, BÖLGE/AY: MNIR Muzeul Virtual al Unirii (mvu.ro) — 'The Romanian administration was installed in the bumble Banat, in the part attributed to Romania, only in July 1919.' · LUGOS-KLAGENFURT-1006"
++  },
++
+   {
+     t: "1919-08-03", k: "isgal", etiket: ["isgal", "konu-askeri"],
+     kapsam:"dis", onem:2, b: "Romen ordusu Timișoara'ya (Temeşvar) girdi — şehirde Romen idaresi kuruldu", yer_id:"Temeşvar",
+diff --git a/data/olaylar_ek16.js b/data/olaylar_ek16.js
+--- a/data/olaylar_ek16.js
++++ b/data/olaylar_ek16.js
+@@ -482,13 +482,13 @@ window.OLAYLAR_EK16 = [
+   d:"I. Dünya Savaşı sürerken, Basra Körfezi'ndeki İngiliz siyasi temsilcisi Binbaşı Percy Cox ile Katar şeyhi Abdullah bin Cassim Âl Sânî arasında 3 Kasım 1916'da imzalanan antlaşmayla Katar, dış ilişkilerini İngiltere'nin onayına bağlamayı kabul etti, karşılığında deniz saldırılarına karşı İngiliz koruması güvencesi aldı; bu antlaşma Katar'ın 1971'e kadar sürecek İngiliz himaye ilişkisinin hukuki temelini oluşturdu ve resmen 1918'de onaylandı.",
+   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)", duygu:["😔"] },
+ 
+-{ t:"1335-05-02", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
++{ t:"1335-05-01", kesinlik:"ay", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+   kapsam:"dis", b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
+-  gun:"2 Nisan 1335 (Dük VI. Heinrich'in ölümü) — Habsburg beratı birkaç hafta içinde",
+-  yer:"Ljubljana",
++  gun:"Mayıs 1335 başı (berat; Dük VI. Heinrich'in ölümü Nisan 1335) — gün kaynakta yok",
++  yer:"Ljubljana, Klagenfurt",
+   yer_id:"Ljubljana", kisiler:"Karintiya Dükü VI. Heinrich, Habsburglu II. Albrecht ve IV. Otto",
+   d:"Karintiya Dükü ve Tirol Kontu VI. Heinrich'in 2 Nisan 1335'te Tirol Kalesi'nde vârissiz ölmesiyle, 23 Kasım 1330'da Bavyeralı Ludwig ile gizlice yapılan bir anlaşma uyarınca Habsburg kardeşler II. Albrecht ve IV. Otto, Karintiya Dukalığı'nı ve ona bağlı Karniyola (bugünkü Ljubljana'nın da içinde olduğu bölge) imparatorluk beratıyla aldılar; Tirol ise Heinrich'in kızı vasıtasıyla ayrı kaldı. Bu, Habsburgların Alp bölgesindeki genişlemesinin ilk büyük adımlarından biriydi ve Karniyola 1918'e kadar (kesintili) Habsburg/Avusturya elinde kalacaktı.",
+-  kaynak:"bulunamadı — TDV bu olayı kapsamıyor, dayanak: standart akademik kaynak (Duchy of Carniola / Habsburg succession 1335 tarihyazımı)", duygu:["😔"] },
++  kaynak:"NDB 'Ludwig der Bayer' (Neue Deutsche Biographie, deutsche-biographie.de/gnd118574957.html): 'bereits Anfang Mai 1335' … 'die österr. Herzöge mit Kärnten belehnt' — AY · AEIOU/Austria-Forum '1335 Erwerbung Kärntens': '1335 belehnte der Kaiser die Habsburger mit Kärnten, das seither mit Österreich verbunden blieb.' · TDV bu olayı kapsamıyor · eski t:1335-05-02 ve '2 Nisan' günü kaynaksızdı (LUGOS-KLAGENFURT-1006)", duygu:["😔"] },
+ 
+ { t:"1891-02-06", k:"savas", etiket:["toprak-kayip","konu-askeri"],
+   kapsam:"dis", onem:3, b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
