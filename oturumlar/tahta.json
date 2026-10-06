@@ -173435,5 +173435,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5866",
+  "zaman": "2026-10-06 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1231",
+  "kimden_kimlik": "",
+  "mesaj": "GENCE-1386-KAYNAK-1006 · adını GENCE-1386-KAYNAK-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcıdır, önce onu oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI. İşe başlamadan önce denetim/ altını tara (grep -ril gence denetim/ ve W41b raporu). Kalem zaten ölçülmüşse DUR, tek mesajla bildir, işi YAPMA. Sebep ölçülmüş: bu turda açtığım üç kalemin ÜÇÜ de mükerrer çıktı. Kalem listesi bir KAYIT değil, doğrulanması gereken bir İDDİADIR. İŞ: Gence'nin 1386 tarihli sahiplik adımı için KAYNAK avı. DURUM (W41b ölçtü): Gence 1406 sınıflandırması BİTTİ — o işi tekrar etme. AÇIK OLAN: 1386 adımının kaynağı. Atlasta komşu kayıtlarda 1386 adımı VAR ama o zincirin kendisi kaynaksız (çoğu YYYY-01-01) ⇒ D207 gereği DAYANAK DEĞİLDİR. Yani bugün 1386 dayanaksız duruyor. SORU: 1386'da (Timur'un Kafkasya seferi bağlamı) Gence'nin kimin elinde olduğunu KAYNAK söylüyor mu? TDV birincil (islamansiklopedisi.org.tr/arama/?q=gence · q=karakoyunlular · q=timur); TDV olay değil YER-KİŞİ ansiklopedisidir, dar slug tutmazsa KAPSAYICI maddeyi dene. TDV kapsamıyorsa akademik/kurumsal kaynak meşrudur ve ADIYLA yazılır. ÜÇ SONUÇTAN BİRİ: ① kaynak 1386'yı DOĞRULUYOR (cümleyi BİREBİR alıntıla) ② kaynak BAŞKA bir yıl/sahip diyor (atlas düzelir — öneriyi yaz, UYGULAMA) ③ bulunamadı (bir sonuçtur; denediğin slug/arama/URL'leri ADIYLA yaz). ⚠️ Rakamı taşıyan cümlenin NEYİ tarihlediğini oku — gövdede 1386'nın geçmesi, o yılın Gence'nin el değiştirmesini tarihlediği anlamına GELMEZ. TESLİM: denetim/GENCE-1386-KAYNAK-1006.md + tahtadan TEK mesaj (① ne ölçtüm ② ne bulamadım ③ ne istiyorum) + sonuna \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖLÇÜMDEN ÖNCE YAZ: kaynak bulunacak mı ve NİÇİN (mekanizma). Sayı ve mekanizma ayrı değerlendirilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
