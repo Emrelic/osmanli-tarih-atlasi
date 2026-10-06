@@ -1,0 +1,28 @@
+KRONO-HANYA-BOL-1006 — Hanya maddesi 1 → 2 (1645-06-23 savaşın başı · 1645-08-22 Hanya'nın fethi) (UMIT-W28)
+Zincir: ... → 1006d → BU · temel 78945582 · KRONOLOJI_VENEDIK 86 → 87 madde
+Değişmez 2: ÖNCE 623 kırılma / 0 açık · SONRA 623 kırılma / 0 açık (2s 187 · 2i 1 · 2t 13 — değişmedi)
+Rapor: denetim/KRONO-TARIH2-1006.md
+
+diff --git a/data/kronoloji_venedik.js b/data/kronoloji_venedik.js
+index 7772c280..9b8e9ff3 100644
+--- a/data/kronoloji_venedik.js
++++ b/data/kronoloji_venedik.js
+@@ -399,10 +399,15 @@ window.KRONOLOJI_VENEDIK = [
+ // VI. GİRİT SAVAŞI VE MORA (1645-1699)
+ // ══════════════════════════════════════════════════════════════════
+ 
+-{ t:"1645-08-22", b:"Girit Savaşı'nın başlaması ve Hanya'nın düşüşü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
++{ t:"1645-06-23", b:"Girit Savaşı başladı — Osmanlı donanması Aya Todori önüne geldi", gun:"23 Haziran 1645 — donanmanın Aya Todori adası önüne gelişi (Menekşe 2021); adadaki iki kale iki günde alındı, karaya çıkış ertesi gün · bu madde eski 1645-08-22 maddesinin BÖLÜNMESİYLE doğdu (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
++  etiket:["askeri","konu-askeri"],
++  d:"Malta seferi diye İstanbul'dan çıkan Osmanlı donanması Navarin'den ayrıldıktan sonra asıl hedefin Girit olduğunu açıkladı ve Hanya'nın kuzeybatısındaki Aya Todori adası önüne geldi; adadaki iki Venedik kalesi iki günde alındı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
++  kaynak:"Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"Bundan sonra donanma, 23 Haziran günü, Hanya’nın kuzeybatısındaki Aya Todori Adası önüne gelmiş ve Girit sahiline çok yakın olan bu adadaki iki kale iki günde zapt edilmiştir\" — cümle donanmanın ada önüne gelişini tarihliyor · aynı makalede Kâtib Çelebi aktarımı: \"Rebî‘ülâhırın yirmi sekizinde (23 Haziran 1645) muhâsara etdiklerinde\" · künyedeki \"Girit (Kandiye) Savaşı başladı\" maddesinin (1645-01-01, mükerrer silmede kaldırıldı) olayı BUDUR (KRONO-AKADEMIK-1006)" },
++
++{ t:"1645-08-22", b:"Hanya'nın fethi — elli dört günlük kuşatmanın sonu", gun:"22 Ağustos 1645 — Hanya Kalesi'nin fethi (Menekşe 2021) · ⚠️ aynı makalede 19 Ağustos 1645 Venedik'in TESLİM TEKLİFİ günüdür (Adıyeke 2002 aktarımı) ve makalenin İngilizce özeti fethi yanlışlıkla \"August 19, 1645\" diye veriyor — makale kendi içinde uyumsuz, BEYAN (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+   etiket:["askeri","kusatma","konu-askeri"],
+-  d:"Osmanlı ordusu Girit'e çıktı ve elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
+-  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2)" },
++  d:"Osmanlı ordusu elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı; Yusuf Paşa \"Hanya Fâtihi\" unvanını kazandı.",
++  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2) · gün: Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"22 Ağustos 1645 tarihinde Hanya Kalesi’ni fethederek “Hanya Fâtihi” unvanını almıştır.\" — cümle kalenin fethini tarihliyor · madde 1006'da BÖLÜNDÜ: \"savaşın başlaması\" kısmı 1645-06-23 maddesine geçti (KRONO-AKADEMIK-1006)" },
+ 
+ { t:"1646-03-01", b:"Patrisyenliğin satışa çıkarılması — savaşın anayasal bedeli", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
+   etiket:["anayasa","ekonomi","konu-ekonomi","konu-islahat","konu-hukuk"],
