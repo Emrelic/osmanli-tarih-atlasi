@@ -43,7 +43,7 @@ IT.pencereler.forEach(p => {
   if (KES.indexOf(p.kesinlik_f) < 0 || KES.indexOf(p.kesinlik_t) < 0 || KES.indexOf(p.kesinlik) < 0) s.push("kesinlik");
   if (p.kesinlik_f === "ay" && !/-01$/.test(p.f)) s.push("ay kesinliği ayın 1'i değil (f)");
   if (p.kesinlik_t === "ay" && !/-01$/.test(p.t)) s.push("ay kesinliği ayın 1'i değil (t)");
-  if (!Array.isArray(p.kaynak) || !p.kaynak.length || p.kaynak.some(k => !k.ad || !(k.slug || k.sayfa) || !k.alinti || !k.gelenek)) s.push("kaynak eksik");
+  if (!Array.isArray(p.kaynak) || !p.kaynak.length || p.kaynak.some(k => !k.ad || !(k.slug || k.sayfa) || !(k.alinti || k.ozet) || !k.gelenek)) s.push("kaynak eksik");
   if (["isyan", "habsburg"].indexOf(p.tur) < 0) s.push("tur");
   const k = KIX[p.kimlik];
   if (k && (k.f > p.f || (k.t && k.t < p.t))) s.push("künye penceresi dışı (" + k.f + "→" + k.t + ")");
