@@ -173471,5 +173471,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5868",
+  "zaman": "2026-10-06 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1233",
+  "kimden_kimlik": "",
+  "mesaj": "REN-SOL-YAKA-1006 · adını REN-SOL-YAKA-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/ altını Köln/Aachen/Trier ve 1794/1801/1814 ile tara. Zaten ölçülmüşse DUR, bildir, yapma. İŞ: Ren'in SOL YAKASI — Köln · Aachen (Aken) · Trier için 1794-1814 arası sahiplik. TANIM: denetim/UMIT-W41b-P3-5-OCAK1-1006.md — açık kalemi oradan al, benim cümlemden değil. BAĞLAM: 1794'te Fransız işgali, 1801 Lunéville ile ilhak, 1814-15'te Prusya'ya. Atlasta bu yirmi yılın nasıl kodlandığı ölçülecek: sahiplik mi (s:) işgal mi (isg:), ve günleri kaynaklı mı. ÖLÇ (sırayla): ① Üç yerleşimin data/yerlesimler*.js'teki s:/isg: zincirini oku ve 1794-1814 dilimini yaz. ② Kaynak ne diyor: ilhak mı işgal mı, hangi günden? Lunéville (1801-02-09) ve Viyana Kongresi kararları kurumsal kaynaklarda var. TDV bu coğrafyayı kapsamıyorsa akademik/kurumsal kaynak meşrudur ve ADIYLA yazılır (devlet arşivi · üniversite deposu · ulusal ansiklopedi KABUL; forum/blog/popüler tarih sitesi RED). ③ Atlasın kodlaması kaynakla çelişiyor mu? Çelişiyorsa ATLAS düzelir (D207) — öneriyi yaz, UYGULAMA. ⚠️ \"Çelişki\" demek İKİ KAYNAK gerektirir. Atlasın kendi kaydı kaynak DEĞİLDİR; atlas ile kaynak ayrışması çelişki değil, atlasın HATASIdır. ⚠️ Rakamı taşıyan cümlenin NEYİ tarihlediğini oku: 1794'ün gövdede geçmesi, o yılın bu üç şehrin el değiştirmesini tarihlediği anlamına GELMEZ. ⚠️ Günü bilinmeyen adım YYYY-01-01; YIL bilinmiyorsa yıl YAZILMAZ. TESLİM: denetim/REN-SOL-YAKA-1006.md — üç şehrin bugünkü zinciri · kaynağın dediği · fark · önerilen düzeltme (s: mi isg: mi, hangi gün, hangi kaynak birebir alıntıyla) · bulunamayanlar ADIYLA. Tahtadan TEK mesaj + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖNCE YAZ: üç şehirden kaçında atlas yanlış çıkacak ve NİÇİN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
