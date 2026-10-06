@@ -627,7 +627,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1798-07-01", b:"Napolyon'un Mısır Seferi'nin başlaması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Kahire",
   etiket:["askeri","savas","isgal","konu-askeri"],
   d:"Direktuvar, İngiltere'nin Hindistan yolunu kesmek ve Napolyon'u başkentten uzak tutmak amacıyla Mısır Seferi'ni onayladı; sefer aynı zamanda Osmanlı ile 1536'dan beri süren dostane ilişkiyi ilk kez doğrudan savaşa dönüştürdü. Napolyon'un beraberinde götürdüğü bilim heyeti (Institut d'Égypte) modern Egyptology'nin de başlangıcı oldu.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1798'de (1 Temmuz) Napolyon'un Mısır işgali\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"1 Temmuz 1798’de Napolyon Mısır’ı işgal etti.\"" },
 
 { t:"1799-11-09", b:"18 Brumaire Darbesi — Napolyon'un iktidara gelişi", tur:"siyaset", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["siyaset","kriz","idari","darbe-askeri","konu-siyasi","konu-idari","konu-darbe"],
@@ -742,7 +742,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1829-04-24", b:"Yunanistan bağımsızlığının Bâbıâli'ye kabul ettirilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   d:"Fransa'nın da içinde bulunduğu büyük güçler baskısıyla Osmanlı, Yunan bağımsızlığını fiilen kabul etmek zorunda kaldı. TDV maddesi bu tarihi Fransa-Osmanlı ilişkilerinin gerginleştiği bir dönüm noktası olarak kaydeder.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"24 Nisan 1829: Yunanistan bağımsızlığı Bâbıâli'ye zorla kabul ettirildi\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"Müttefik devletler Londra’da imzaladıkları yeni bir protokolle bağımsız Yunanistan’ın sınırlarını belirlediler; bu karar 24 Nisan 1829’da Bâbıâli’ye zorla kabul ettirildi.\"" },
 
 { t:"1830-06-14", b:"Fransa'nın Cezayir'i işgali", tur:"isgal", onem:5, dunya:4, kapsam:"dis", yer_id:"Cezayir",
   etiket:["isgal","toprak-kazanc","askeri","konu-askeri"],
@@ -772,7 +772,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1840-07-15", b:"Londra Antlaşması — Osmanlı toprak bütünlüğünün Avrupa güvencesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Londra",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Fransa'nın dışlandığı bu antlaşmayla İngiltere, Avusturya, Prusya ve Rusya, Osmanlı'nın toprak bütünlüğünü Mısır Valisi Mehmed Ali Paşa'ya karşı güvence altına aldı. Fransa'nın Mehmed Ali'yi desteklediği bu kriz, ülkeyi kısa süreliğine Avrupa'da yalnız bıraktı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"15 Temmuz 1840: Londra Antlaşması (Osmanlı toprak bütünlüğü korunması)\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"Bu arada 15 Temmuz 1840’ta, Fransa dışındaki Avrupa devletleri Mısır meselesini çözmek için Londra Antlaşması’nı imzalayarak Osmanlı Devleti’nin toprak bütünlüğünü korumaya, bunun için gerekirse askerî müdahaleye karar verdiler.\"" },
 
 { t:"1848-02-24", b:"Şubat Devrimi — II. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","kurulus","anayasa","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
@@ -1002,7 +1002,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1920-08-10", b:"Sevr Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Fransa'nın da imzacısı olduğu antlaşma, Osmanlı Devleti'ni parçalayıp Anadolu'nun büyük bölümünü yabancı nüfuz bölgelerine ayırdı; TDV maddesi bu tarihi doğrudan kaydeder. Antlaşma hiçbir zaman uygulanamadı — Millî Mücadele'nin zaferi onu üç yıl sonra Lozan'la geçersiz kılacaktı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"10 Ağustos 1920: Sevr Antlaşması\"", yer_kon:[48.824,2.214] },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"Mondros Mütarekesi (30 Ekim 1918) ve Sevr Antlaşması (10 Ağustos 1920) sadece önceki antlaşmaların Osmanlı Devleti’ne zorla kabul ettirilmesi anlamına geliyordu.\"", yer_kon:[48.824,2.214] },
 
 { t:"1921-10-20", b:"Ankara Antlaşması — Fransa'nın Anadolu'daki savaşı sona erdirmesi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],

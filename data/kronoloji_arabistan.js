@@ -111,7 +111,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","siyaset","konu-siyasi","konu-din"],
   yer_id:"",
   d:"Yahyâ b. Hüseyin, 'Hâdî-İlelhak' (Hakka İleten) unvanıyla kuzey Yemen'deki Sa'de şehrine gelip yerel kabileler arasındaki kan davalarını hakemlik yaparak çözdü ve Zeydî fıkhına dayalı bir imamet kurdu.", ic_not_d:"Bu tarih, devletler.js'teki `yemen-zeydi` künyesinin f: alanıdır ve 1962'ye kadar (site ufkunun ötesinde) sürecek bir kurumun başlangıcıdır. Sa'de bugünkü yerleşimler.js'te kaydı yok; yer_id boş bırakıldı.",
-  kaynak:"TDV `yemen`: '284/897: İmam Hâdî-İlelhak Yahyâ b. Hüseyin Sa'de'ye geldi, Zeydî imâmetini tesis etti.'", yer_kon:[16.9402,43.7592] },
+  kaynak:"TDV `yemen`: 'Bölge ileri gelenlerinin davetiyle 284’te (897) Zeydî imâmetini tesis etmek üzere Sa‘de’ye gelen Zeydîler’den İmam Hâdî-İlelhak Yahyâ b. Hüseyin 288 (901) yılında San‘a’yı eline geçirdiyse de Ya‘furîler ertesi yıl şehri geri aldılar.'", yer_kon:[16.9402,43.7592] },
 
 { taraflar:["yemen-zeydi"], t:"0901-01-01", b:"İmam Hâdî San'a'yı ilk kez ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
@@ -144,31 +144,31 @@ window.KRONOLOJI_ARABISTAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri","konu-idari","konu-isyan"],
   yer_id:"",
   d:"Koca Sinan Paşa'nın sevkiyle gönderilen büyük Osmanlı ordusu isyanı ağır biçimde bastırdı; Mart 1568'de bölünmüş eyalet yeniden birleştirilmiş, Sinan Paşa 1 Mart 1571'de (4 Şevval 978) Yemen'den ayrılmıştı. Mutahhar 1573'te öldürüldü ve dört oğlu İstanbul'a sürgün edildi (1586) — imamet hattının bu koluna ağır bir darbe.",
-  kaynak:"TDV `yemen`: 'Mart 1568: İki eyalet birleştirildi.' · '4 Şevval 978 (1 Mart 1571): Sinan Paşa Yemen'den ayrıldı.' · '1573: Mutahhar öldürüldü.' · '994/1586: Mutahhar'ın dört oğlu İstanbul'a gönderildi.'", yer_kon:[15.5,43.9] },
+  kaynak:"TDV `yemen`: 'Mart 1568’de iki eyalet birleştirilerek merkezi Zebîd olan Yemen beylerbeyiliği kuruldu, yönetimi de Hasan Paşa’ya verildi.' · '4 Şevval 978 (1 Mart 1571): Sinan Paşa Yemen'den ayrıldı.' · '1573: Mutahhar öldürüldü.' · '994/1586: Mutahhar'ın dört oğlu İstanbul'a gönderildi.'", yer_kon:[15.5,43.9] },
 
 { taraflar:["yemen-zeydi"], t:"1608-01-01", b:"İmam Kāsım b. Muhammed ile on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Kāsımî hanedanının kurucusu İmam el-Mansûr Kāsım b. Muhammed ile Osmanlı beylerbeyi Câfer Paşa arasında on yıllık bir barış anlaşması imzalandı — imamet artık Osmanlı idaresiyle resmî düzeyde pazarlık edebilecek kadar güçlenmişti.",
-  kaynak:"TDV `yemen`: '1608: İmam Kāsım b. Muhammed ile on senelik antlaşma yapıldı.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'İmam Kāsım b. Muhammed’le olan anlaşmazlık ise yapılan on senelik bir antlaşma ile çözümlendi (1608).'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1619-01-01", b:"Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"İlk antlaşmanın süresi dolunca beylerbeyi Mehmed Paşa ile Zeydî imamet arasında yeni bir on yıllık barış imzalandı; ama bu kez denge imametten yanaydı — bir sonraki imam Müeyyed döneminde barış tek taraflı bozulacaktı.",
-  kaynak:"TDV `yemen`: '1028/1619: Mehmed Paşa ve Zeydîler arasında on yıllık antlaşma imzalandı.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Nihayet barış sağlanıp Mehmed Paşa ile Zeydîler arasında on yıl sürmesi planlanan bir antlaşma imzalandı (1028/1619).'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1626-01-01", b:"İmam Müeyyed barışı bozdu, San'a kuşatıldı", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["savas","konu-askeri"],
   yer_id:"Sana",
   d:"İmam el-Müeyyed Muhammed, 1619 antlaşmasını bozarak Osmanlı garnizonlarına karşı genel bir saldırıya geçti ve San'a'yı kuşattı; bu, imametin dokuz yıl sonra Osmanlı'yı Yemen'den tamamen çıkaracak son büyük seferberliğinin başlangıcıydı.",
-  kaynak:"TDV `yemen`: '1626: İmam Müeyyed barış bozdu, San'a kuşatıldı.'" },
+  kaynak:"TDV `yemen`: '1036’da (1626) İmam Müeyyed ile barış bozulduğundan Zeydîler, San‘a’nın kuzey kesimini zaptettiler.'" },
 
 { taraflar:["yemen-zeydi"], t:"1629-01-01", b:"Taiz imametin eline geçti", tur:"toprak-kazanc",
   onem:3, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   yer_id:"Taiz",
   d:"Haydar Paşa'nın San'a'yı tutamayıp geri çekilmesiyle eş zamanlı olarak Taiz de imamet kuvvetlerinin eline geçti; Osmanlı idaresi artık yalnızca kıyı şeridine ve birkaç iç kaleye sıkışmıştı.", ic_not_d:"Tarih yerlesimler.js'teki Taiz kaydıyla (1629-01-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1629: Haydar Paşa San'a'yı bırakmak zorunda kaldı.' — data/yerlesimler.js Taiz kaydıyla çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 'Haydar Paşa 1038’de (1629) bir anlaşma ile San‘a’yı İmam Müeyyed’e bırakmak zorunda kaldı.' — data/yerlesimler.js Taiz kaydıyla çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1630-08-01", b:"Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma", tur:"antlasma",
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
@@ -180,7 +180,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["bagimsizlik","savas","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Mustafa Bey'in Muhâ (Moha) limanından ayrılışıyla, doksan yedi yıl süren birinci Osmanlı hâkimiyeti fiilen sona erdi; San'a ve Zebîd'deki son birlikler de aynı yıl Yemen'i tahliye etti. Kızıldeniz'in doğu kıyısı, 1849'daki ikinci Osmanlı dönüşüne kadar 214 yıl boyunca Zeydî imametin bağımsız denetiminde kaldı.", ic_not_d:"Tarih yerlesimler.js'teki Moha kaydıyla (1635-10-22) GÜN GÜNÜNE örtüşüyor — Osmanlı'nın kendi kaynağının (TDV) Hicri tarihi (10 Cemâziyelevvel 1045) atlasın kendi verisiyle birebir çakışıyor.",
-  kaynak:"TDV `yemen`: '10 Cemâziyelevvel 1045 (22 Ekim 1635): Mustafa Bey Muhâ'dan ayrıldı, Osmanlı çekilişi tamamlandı.' — data/yerlesimler.js Moha kaydıyla (1635-10-22) birebir doğrulandı; ayrıca bkz. data/olaylar_ek6.js aynı olayı Osmanlı tarafından anlatıyor.", yer_id:"Moha" },
+  kaynak:"TDV `yemen`: 'Mustafa Bey, 10 Cemâziyelevvel 1045’te (22 Ekim 1635) kendisiyle birlikte kalan askerlerle bütün top, tüfek ve cephaneleri alarak bir Hint kalyonuyla Süveyş’e gitmek üzere Muhâ’dan ayrıldı; Hasan b. Kāsım da Zebîd ve Muhâ’ya kendi adamlarını tayin etti.' — data/yerlesimler.js Moha kaydıyla (1635-10-22) birebir doğrulandı; ayrıca bkz. data/olaylar_ek6.js aynı olayı Osmanlı tarafından anlatıyor.", yer_id:"Moha" },
 
 { taraflar:["yemen-zeydi"], t:"1644-01-01", b:"Mütevekkil İsmâil b. Kāsım tahta çıktı — Kāsımî imametin altın çağı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
@@ -192,13 +192,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Bir dönem imamet içi bir yönetici olan Ahmed b. Hasan, Yemen'i Osmanlı padişahı adına yönettiğini ileri sürdü — Osmanlı'nın fiilen yıllardır Yemen'de bulunmadığı bir dönemde bu iddianın pratikte bir karşılığı olmadığı, sembolik/diplomatik bir jest olduğu anlaşılıyor.",
-  kaynak:"TDV `yemen`: '1681: Ahmed b. Hasan Yemen'i Osmanlı adına yönettiğini belirtti.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Ayrıca Yemen İmamı Ahmed b. Hasan’ın 1092’de (1681) muhaliflerine karşı kendisinin Yemen’i Osmanlı sultanı adına yönettiğini belirtmesi dikkat çekicidir.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1702-01-01", b:"Osmanlı, İmam Mehdî'ye elçi gönderdi", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"Basra valisi Süleyman Paşa'nın Yemen İmamı Mehdî'ye elçi göndermesi, iki taraf arasında Osmanlı'nın Yemen'den çekilmesinden altmış yedi yıl sonra bile hâlâ diplomatik temasın sürdüğünü gösteriyor.",
-  kaynak:"TDV `yemen`: '1702: Süleyman Paşa Yemen İmamı Mehdî'ye elçi yolladı.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: 'Cidde Valisi Süleyman Paşa’nın 1114’te (1702) Yemen İmamı Mehdî’ye elçi yollamasına karşılık imam da İstanbul’a hediyelerle elçi gönderdi (Defterdar Sarı Mehmed Paşa, s. 755).'", yer_id:"Sana" },
 
 // ── 1702-1849 arası: imametin kendi iç tarihi (art arda gelen imamlar,
 //    iç taht kavgaları) bu turda ARAŞTIRILMADI — TDV'nin genel `yemen`
@@ -220,19 +220,19 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"],
   yer_id:"",
   d:"Vilâyet idaresine karşı yaygın bir Zeydî ayaklanması patlak verdi; imamet hattı, doğrudan Osmanlı idaresi altında bile direniş kapasitesini korumaya devam ediyordu.",
-  kaynak:"TDV `yemen`: '1889: Zeydîler isyan etti.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Ancak bölgede görev yapan Osmanlı memurlarının yetersiz kalması ve idarî işlerde âdil davranılmaması yüzünden 1889’da Yemen’i kendi imamlarının yönetmesini isteyen Zeydîler isyan etti.'", kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1895-01-01", b:"Hüseyin Hilmi Paşa isyanı bastırdı", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"1889 isyanının uzantısı olan direniş, Hüseyin Hilmi Paşa'nın seferiyle bastırıldı; ama bastırma kalıcı olmayacak, yedi yıl sonra çok daha büyük bir ayaklanma (İmam Yahyâ'nınki) başlayacaktı.",
-  kaynak:"TDV `yemen`: '1895: Hüseyin Hilmi Paşa isyanı bastırdı.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: '1895’te başlayan ve iki yıl süren ayaklanmayı Hüseyin Hilmi Paşa bastırdı.'", kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1902-01-01", b:"İmam Yahyâ Hamîdüddin ayaklanmayı başlattı", tur:"isyan",
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","hukumdar","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Hamîdüddin hanedanının kurucusu İmam Yahyâ, Osmanlı idaresine karşı geniş çaplı bir ayaklanma başlattı — bu, imametin son ve en kalıcı önderi olacak, 1948'e kadar (site ufkunun ötesinde) Yemen'i yönetecek bir liderin ilk hamlesiydi.",
-  kaynak:"TDV `yemen`: '1902: İmam Yahyâ Hamîdüddin ayaklanmayı başlattı.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: '1902’de İmam Yahyâ Hamîdüddin’in başlattığı ayaklanma sırasında Yemen Valisi Fâik Paşa San‘a’da kuşatıldı.'", yer_id:"Sana" },
 
 { taraflar:["yemen-zeydi"], t:"1905-04-01", b:"İmam Yahyâ San'a'yı kuşatıp ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
@@ -288,7 +288,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"İmamet kuvvetleri, Basra körfezi girişindeki Culfâr'da İran birliklerine karşı başarılı bir operasyon düzenleyerek bölgedeki artan nüfuzunu bir kez daha kanıtladı.",
-  kaynak:"TDV `yarubiler`: '1633 - Culfâr'da İran birliklerine karşı başarılı operasyon düzenlendi.'", yer_kon:[25.8,55.95] },
+  kaynak:"TDV `yarubiler`: 'Nâsır’ın Culfâr’daki (Re’sülhayme) İran birliklerine karşı 1633’te Ali b. Ahmed komutasında gönderdiği ordu da başarılı oldu.'", yer_kon:[25.8,55.95] },
 
 { t:"1650-01-26", b:"Maskat, Portekiz'den geri alındı", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],
@@ -306,7 +306,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"Bel'arab'ın kardeşi Seyf b. Sultân imameti ele geçirip yönetim merkezini Rustâk'a taşıdı; bu iç taht değişimi, imametin bir sonraki yüzyılda tekrarlanacak veraset krizlerinin ilk işaretiydi.",
-  kaynak:"TDV `yarubiler`: '1692 - Bel'arab'ın kardeşi Seyf b. Sultân iktidara geçti, yönetim merkezi Rustâk'a alındı.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 'Bel‘arab’ın kardeşi Seyf b. Sultân (1692-1711) yönetim merkezini tekrar Rustâk’a aldı.'", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1711-01-01", b:"Seyf b. Sultân vefat etti, II. Sultân tahta çıktı", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
@@ -396,13 +396,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"Saîd b. Sultân, Osmanlı'nın Cidde valisi Hasib Paşa'yı ziyaret ederek Kızıldeniz'in iki yakasındaki güç merkezleri arasında nadir bir doğrudan temas daha kurdu.",
-  kaynak:"TDV `uman`: '1850: Saîd b. Sultân, Osmanlı Cidde valisi Hasib Paşa'yı ziyaret etti.'", yer_id:"Cidde" },
+  kaynak:"TDV `uman`: '1850’de tekrar hacca giden Seyyid Saîd, Osmanlı Devleti’nin Cidde Valisi Hasib Paşa’yı ziyaret etti ( BA , I.HR, 72/3488).'", yer_id:"Cidde" },
 
 { t:"1856-01-01", b:"Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü", tur:"bolunme",
   onem:5, dunya:3, kapsam:"dis", etiket:["bolunme","olum","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Elli iki yıllık hükümdarlığın ardından Saîd b. Sultân Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü ve Zengibar'a gömüldü. Mirası oğulları arasında bölündü: Mâcid Zengibar'da, Süveynî (Thuwaini) Maskat'ta kaldı — Uman ve Zengibar'ın iki ayrı devlete dönüşme sürecinin fiilî başlangıcı.",
-  kaynak:"TDV `uman`: '1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı.' · TDV `said-b-sultan`: '1856 - Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü, Zengibar'a gömüldü.'", kapsam_genis:true },
+  kaynak:"TDV `uman`: '1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı.' · TDV `said-b-sultan`: 'Uman, Hürmüz Boğazı ve Doğu Afrika tarihinde önemli bir rol oynayan Bû Saîd hânedanının en başarılı sultanı sayılan Saîd b. Sultân 1856 yılında Maskat’tan Zengibar’a gitmek için çıktığı deniz yolculuğu sırasında vefat etti ve hânedanın Zengibar’daki kabristanına gömüldü.'", kapsam_genis:true },
 
 { t:"1862-01-01", b:"Zengibar ve Uman ayrı devletler olarak tanındı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","bolunme","konu-siyasi","konu-diplomasi"],
@@ -464,7 +464,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"",
   d:"Yükselen I. Suûdî Devleti'nin hükümdarı Abdülazîz b. Muhammed b. Suûd, Lahsa'yı ele geçirerek Benî Hâlid emirliğini ilk kez ortadan kaldırdı.", ic_not_d:"TDV'nin `lahsa` maddesi bu olayı bir yıl farkla '1796' olarak veriyor (devletler.js '1795' diyor); bu ayrılık ÇÖZÜLMEDİ, iki tarih de not düşüldü.",
-  kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: '1796: Emîr Suûd tarafından bölge doğrudan Dir'iye'ye bağlandı.'", yer_id:"Lahsa" },
+  kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: 'Bunun üzerine bölge doğrudan Dir‘iye’ye bağlandı (1796).'", yer_id:"Lahsa" },
 
 { t:"1818-01-01", b:"İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],

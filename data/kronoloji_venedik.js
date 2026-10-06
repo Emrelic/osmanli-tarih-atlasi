@@ -215,7 +215,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"On altı yıl sürecek savaş, Mora'daki Venedik kalelerinin Osmanlı baskısı altına girmesiyle başladı. Cumhuriyet ilk kez bütün gücüyle Osmanlı'ya karşı savaşa girdi ve sonunda ağır bir fatura ödedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): \"1463-1479 Osmanlı-Venedik savaşı esnasında\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1470-07-12", b:"Eğriboz'un (Negroponte) kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","toprak-kayip","konu-askeri"],

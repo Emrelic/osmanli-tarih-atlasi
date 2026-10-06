@@ -57,12 +57,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1216-01-01", b:"Tâze'de Muvahhid ordusuna zafer", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Merînîler 20.000 kişilik bir Muvahhid ordusunu Tâze'de yenilgiye uğrattı; bağımsızlaşma sürecinin ilk büyük askerî başarısı.",
-  kaynak:"TDV `meriniler`: \"613/1216'da 20.000 kişilik Muvahhid ordusunu yenilgiye uğrattı\"", yer_id:"Tâze (Taza)" },
+  kaynak:"TDV `meriniler`: \"613 (1216) yılında üzerlerine gönderilen 20.000 kişilik Muvahhid ordusunu yenip Tâze’yi (Tâzâ) ele geçirdiler.\"", yer_id:"Tâze (Taza)" },
 
 { taraflar:["merini"], t:"1255-01-01", b:"Fas yakınlarında ikinci büyük Muvahhid zaferi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"80.000 kişilik bir Muvahhid ordusu Fas yakınlarında mağlûp edildi; Merînîlerin kuzey Fas'taki üstünlüğü perçinlendi.",
-  kaynak:"TDV `meriniler`: \"653/1255'te 80.000 kişilik Muvahhid ordusunu mağlûp etti\"", yer_id:"Fas (Fez)" },
+  kaynak:"TDV `meriniler`: \"653 (1255) yılında 80.000 kişilik Muvahhid ordusunu Fas yakınlarında mağlûp etti.\"", yer_id:"Fas (Fez)" },
 
 { taraflar:["merini"], t:"1258-01-01", b:"Ebû Yûsuf Ya'kūb saltanata geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-hanedan"],
@@ -87,7 +87,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1340-10-30", b:"Rio Salado'da (Tarîf) Kastilya-Portekiz ittifakına yenilgi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Ebü'l-Hasan'ın büyük Endülüs ordusu, Tarîf yakınında XI. Alfonso (Kastilya) ile IV. Alfonso'nun (Portekiz) birleşik kuvvetlerine yenildi. Yenilgi Merînîlerin Endülüs'e askerî müdahale kapasitesini kalıcı olarak kırdı ve Reconquista'nın önündeki son büyük Müslüman deniz aşırı ordusunu tasfiye etti.",
-  kaynak:"TDV `meriniler`: \"8 Cemâziyelevvel 741/30 Ekim 1340'ta Tarîf yakınında XI. Alfonso ve IV. Alfonso'nun birleşik kuvvetlerine yenildi\"", yer_kon:[36.0128,-5.6076] },
+  kaynak:"TDV `meriniler`: \"Ancak Nasrî Sultanı Ebü’l-Haccâc I. Yûsuf kumandasındaki birliklerin kendisine katılmasına rağmen Tarîf civarında Kastilya Kralı XI. Alfonso ve Portekiz Kralı IV. Alfonso’nun birleşik kuvvetleri karşısında yenildi (8 Cemâziyelevvel 741 / 30 Ekim 1340).\"", yer_kon:[36.0128,-5.6076] },
 
 { taraflar:["merini"], t:"1270-01-01", b:"Abdülvâdîler (Zeyyânîler) bağımsızlaşarak Tilimsan'ı kurdu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
@@ -112,7 +112,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1348-01-01", b:"Merînîler on yıllık Tilimsan hâkimiyetini kaybetti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Abdülvâdîler Tilimsan'ı geri alarak on yıllık Merînî hâkimiyetine son verdi.",
-  kaynak:"TDV `meriniler`: \"749/1348'de Abdülvâdîler Tilimsân'ı geri aldı; on yıllık Merînî hâkimiyeti sona erdi\"" },
+  kaynak:"TDV `meriniler`: \"Bu arada Abdülvâdîler de Tilimsân’ı geri alarak on yıl süren Merînî hâkimiyetinden kurtuldular (749/1348).\"" },
 
 { taraflar:["merini"], t:"1352-01-01", b:"Ebû İnân Tilimsan'a girdi, Abdülvâdîlerin ikinci hükümranlığı sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -122,7 +122,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1350-01-01", b:"Ebû İnân babasını tahttan feragate zorladı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","konu-isyan","konu-hanedan"],
   d:"Ebû İnân, Medgūsa'da (Ümmürrebî vadisi) babası Ebü'l-Hasan'ı tahttan feragate mecbur ederek iktidarı ele geçirdi.",
-  kaynak:"TDV `meriniler`: \"751/1350'de Ebû İnân babasını tahttan feragate mecbur etti\"" },
+  kaynak:"TDV `meriniler`: \"Ebû İnân Ümmürrebî vadisinde (Medgūsa) cereyan eden savaştan galip çıkarak Cebelülhintâte’ye sığınan babasını tahttan feragate mecbur etti (751/1350).\"" },
 
 { taraflar:["merini"], t:"1358-01-01", b:"Ebû İnân boğularak öldürüldü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
@@ -137,12 +137,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1415-01-01", b:"Portekiz Sebte'yi işgal etti", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Sebte (Ceuta)",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Portekiz Kralı I. Jean, Sebte'yi işgal ederek Fas kıyısındaki ilk Avrupa kolonizasyon hamlesini başlattı — Portekiz'in Fas sahillerini adım adım ele geçireceği bir asrın ilk halkası ve Avrupa'nın deniz aşırı yayılma çağının erken işaretlerinden biri.",
-  kaynak:"TDV `meriniler`: \"818/1415'te Portekiz Kralı I. Jean tarafından işgal edildi\"" },
+  kaynak:"TDV `meriniler`: \"818 (1415) yılında Sebte altın, köle ve baharat yolu ticaretini eline geçirmeyi hedefleyen Portekiz Kralı I. Jean tarafından işgal edildi.\"" },
 
 { taraflar:["merini"], t:"1458-01-01", b:"Kasrüssagīr Portekizlilerin eline geçti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Portekiz kıyı işgallerini sürdürerek Kasrüssagīr'i ele geçirdi.",
-  kaynak:"TDV `meriniler`: \"862/1458'de Kasrüssagīr şehri Portekizlilerin eline geçti\"", yer_kon:[35.8494,-5.5667] },
+  kaynak:"TDV `meriniler`: \"Kasrüssagīr (Kasrımasmûde) şehri (862/1458) ve Tanca (869/1465) Portekizliler’in eline geçti.\"", yer_kon:[35.8494,-5.5667] },
 
 { taraflar:["merini"], t:"1465-01-01", b:"Tanca Portekiz'e düştü, son Merînî sultanı öldürülerek hanedan sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["toprak-kayip","hanedan","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -241,7 +241,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["sadi"], t:"1591-06-01", b:"Sudan seferinden ganimet: 20.000 köle, altın, fildişi", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"Timbuktu",
   etiket:["ekonomi","konu-ekonomi"],
   d:"Tondibi zaferinin ardından Sâdî ordusu yaklaşık 20.000 köle ile büyük miktarda altın ve fildişi ganimeti Fas'a taşıdı; Sâdî hazinesi Sudan altınıyla dolduğu için Ahmed el-Mansûr'a 'ez-Zeheb' (Altınlı) lakabı yakıştırıldı.",
-  kaynak:"TDV `sadiler`: \"Sudan seferi sonrası 20.000 civarında köle, bol altın ve fildişi elde edilmesi\"" },
+  kaynak:"TDV `sadiler`: \"Sudan seferinden 20.000 civarında köle ve bol miktarda altın ve fildişi ile dönüldü.\"" },
 
 { taraflar:["sadi"], t:"1602-01-01", b:"Veliahtın isyanı bastırıldı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","konu-isyan"],
@@ -369,7 +369,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["zeyyani"], t:"1348-01-01", b:"Abdülvâdîler Tilimsan'ı geri aldı", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"On yıllık Merînî ilhakının ardından Abdülvâdîler Tilimsan'ı geri aldı. bkz. [[merini]].",
-  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"749/1348'de Abdülvâdîler Tilimsân'ı geri aldı\"" },
+  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"Bu arada Abdülvâdîler de Tilimsân’ı geri alarak on yıl süren Merînî hâkimiyetinden kurtuldular (749/1348).\"" },
 
 { taraflar:["zeyyani"], t:"1352-01-01", b:"Merînîler Tilimsan'ı ikinci kez aldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
@@ -379,7 +379,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["zeyyani"], t:"1360-01-01", b:"Merînî harekâtı başarısız kaldı, Abdülvâdîler kalıcı bağımsızlığını kazandı", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebû İnân'ın ölümünden sonra Merînîlerin Mağrib-i Evsat'taki (Orta Mağrib) yeni harekâtından sonuç alınamadı; Abdülvâdîler bu kez kalıcı olarak bağımsızlığını kazandı ve hanedan bir asır daha (1554'e kadar) sürecekti. bkz. [[merini]].",
-  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"761/1360'ta Mağrib-i Evsat'ta harekâttan sonuç alınamadı; Abdülvâdîler bağımsız oldu\"" },
+  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"Ebû Sâlim, 761 (1360) yılında Mağrib-i Evsat’ta gerçekleştirdiği harekâttan bir netice alamadı ve Abdülvâdîler’in toprakları Merînî hâkimiyetinden çıktı.\"" },
 
 { taraflar:["zeyyani"], t:"1430-01-01", b:"İç kale surları yeniden yaptırıldı", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
   etiket:["mimari","imar","konu-kultur","konu-imar"],

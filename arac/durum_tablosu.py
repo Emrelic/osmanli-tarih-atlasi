@@ -509,11 +509,46 @@ def kronoloji_satiri(k):
                k["vefat_id"]))
 
 
+def kaynak_zayif_say(Y):
+    """`kaynak_zayif` işaretli yerleşim kaydı sayısı — {"n","adlar"} ya da {"hata"}.
+
+    🔴 5 Ekim 2026 (UMIT-W7-DALGA5/6-1006, genel koordinatör hükmü): alan
+    Deyrülkamer'e (ek29) `dogrulanmadi:true` adıyla kasıtlı beyan olarak
+    yazılmıştı ama ONU OKUYAN KOD YOKTU (D265 ailesi). Ölçülünce o ad ÜÇ
+    ayrı anlam taşıyordu (kaynak yokluğu · GPS doğrulaması · sınır köşesi
+    türetimi) ⇒ yerleşimde ad `kaynak_zayif` oldu; `hukuki_sinirlar.js`in
+    daha eski `dogrulanmadi`sı (köşe türetimi) KALDI. Tanım VERI-YAPISI.md:
+    kaynak VAR ama dayanılamıyor (zayıf/çelişkili) — `bulunamadı` DEĞİL.
+    Kayıt düzeyi ya da herhangi bir `s/d/v/isg` döneminde doğruysa kayıt
+    sayılır. Satır HER ZAMAN basılır (alan yoksa 0); ölçülemezse 0 DEĞİL,
+    ÖLÇÜLEMEDİ.
+    """
+    try:
+        n, adlar = 0, []
+        for y in Y:
+            donemler = [p for kat in ("s", "d", "v", "isg")
+                        for p in (y.get(kat) or []) if isinstance(p, dict)]
+            if y.get("kaynak_zayif") or any(p.get("kaynak_zayif") for p in donemler):
+                n += 1
+                adlar.append("%s:%s" % (y.get("_kaynak", "?"), y.get("ad", "?")))
+        return {"n": n, "adlar": adlar}
+    except Exception as e:                       # ölçülemedi ≠ 0
+        return {"hata": "%s: %s" % (type(e).__name__, str(e)[:120])}
+
+
+def kaynak_zayif_eki(kz):
+    """Yerleşim hücresinin eki — HER ZAMAN basılır; ölçülemezse sayı DEĞİL."""
+    if "hata" in kz:
+        return " · kaynak_zayif işaretli kayıt: 🔴 ÖLÇÜLEMEDİ (%s)" % kz["hata"]
+    return " · kaynak_zayif işaretli kayıt: %d" % kz["n"]
+
+
 def olc():
     o = {}
     Y = girdi.yukle(sessiz=True)
     o["yerlesim"] = len(Y)
     o["girdi_dosya"] = len(girdi.GIRDI_DOSYALARI)
+    o["kaynak_zayif"] = kaynak_zayif_say(Y)
 
     # 🔴 5 Ekim 2026 — dört sayı REGEX'ten NODE'a taşındı; regex İKİ YÖNLÜ
     #    yanlıştı (yorum/blok yorum/iç içe adım FAZLA · `{` ayrı satır/JSON
@@ -671,8 +706,8 @@ def tablo(o):
     s = []
     s.append("| Katman | Ölçülen durum |")
     s.append("|---|---|")
-    s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası |"
-             % (o["yerlesim"], o["girdi_dosya"]))
+    s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası%s |"
+             % (o["yerlesim"], o["girdi_dosya"], kaynak_zayif_eki(o["kaynak_zayif"])))
     s.append("| Kronoloji | %s |" % kronoloji_satiri(o["kronoloji"]))
     s.append("| Değişmez 1 — sahipsizlik | %s |" % o["d1"])
     s.append("| Değişmez 1b — iç boşluk | %s |" % o["d1b"])
@@ -762,6 +797,9 @@ if __name__ == "__main__":
     if o["renksiz_gercek"]:
         print("🟡 GERÇEK SESSİZ BORÇ (künye var, hiçbir katmanda yok): %s"
               % ", ".join(o["renksiz_gercek"]))
+    if o["kaynak_zayif"].get("adlar"):
+        print("🟡 KAYNAK_ZAYIF İŞARETLİ (kaynak var ama dayanılamıyor, beyanlı): %s"
+              % ", ".join(o["kaynak_zayif"]["adlar"]))
     if "--yaz" in sys.argv:
         y = "CLAUDE.md"
         h = _oku(y)

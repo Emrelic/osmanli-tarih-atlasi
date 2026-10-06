@@ -177,12 +177,12 @@ window.KRONOLOJI_TIMURLU = [
 { t:"1491-01-01", b:"Ali Şîr Nevâî, ilk Türkçe şairler tezkiresini yazdı", tur:"kultur", onem:4, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["kultur","konu-sanat","konu-kultur"],
   d:"Devlet adamı ve şair Ali Şîr Nevâî, Çağatay Türkçesiyle yazılmış ilk şairler tezkiresi olan Mecâlisü'n-Nefâis'i tamamladı; eser, kendisinden önceki ve çağdaşı Türk şairlerini tanıtarak Çağatay Türkçesinin Farsça karşısında bağımsız bir edebî dil olarak kabul görmesine öncülük etti. Nevâî'nin bütün eserleri, Osmanlı şairlerince de üstat sayılıp on beşinci yüzyıldan itibaren nazire yazılan bir kaynağa dönüştü.",
-  kaynak:"TDV `ali-sir-nevai`: \"Mecâlisü'n-nefâis (1491-92)... ilk Türk şairler tezkiresi\"" },
+  kaynak:"TDV `ali-sir-nevai`: \"2. Mecâlisü’n-nefâis . 897’de (1491-92) kaleme alınan eser, Türk dilinde yazılan ilk şuarâ tezkiresi olması bakımından önemlidir.\"" },
 
 { t:"1492-01-01", b:"Molla Câmî'nin ölümü", tur:"olum", onem:3, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["din","kultur","konu-kisiler","konu-din","konu-kultur"],
   d:"Timurlu Herat'ının en etkili sûfî şairi ve düşünürü Molla Câmî, yakın dostu Ali Şîr Nevâî'yi derin bir kedere boğarak öldü; onun Farsça mesnevileri ve tasavvufî yorumları hem İran hem Osmanlı edebiyatını asırlarca etkileyecekti. Ölümü, Herat'ın kültürel altın çağının ilk büyük kaybı olarak anılır.",
-  kaynak:"TDV `ali-sir-nevai`: \"1492: dostu Câmî öldü\"" },
+  kaynak:"TDV `ali-sir-nevai`: \"Birkaç yıl sonra yakın dostu mutasavvıf-şair Câmî’nin ölümü de (898/1492) onu derinden etkileyen bir başka hadise oldu.\"" },
 
 { t:"1501-01-03", b:"Ali Şîr Nevâî'nin ölümü", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["kultur","hanedan","konu-kisiler","konu-hanedan","konu-kultur"],
