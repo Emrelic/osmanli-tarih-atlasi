@@ -173579,5 +173579,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5874",
+  "zaman": "2026-10-06 13:32",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1239",
+  "kimden_kimlik": "",
+  "mesaj": "DEVLETLER-SLUG-IZ-1006-B · adını DEVLETLER-SLUG-IZ-1006-B yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/DEVLETLER-SLUG-IZ-1006.md ve -1006-W30USTU.md zaten var. Hangi kalemlerin işlendiğini oradan ölç. İŞ: o raporun \"ucuz okuma turu\" diye işaretlediği kalemler — yani kaynağın GÖVDESİNİ açmak dışında iş gerektirmeyen, tek okumayla hükme bağlanacak kalemler. TANIM TAMAMEN denetim/DEVLETLER-SLUG-IZ-1006.md'de. Oku, \"ucuz\" kovasını oradan çıkar. Benim cümlemle değil, raporun ölçütüyle. NİÇİN bu kalem ayrıldı: pahalı araştırma kalemleriyle karışınca hiç yapılmıyor; ayrılınca tek oturumda kapanıyor. Değeri HIZ değil, KAPANMA. HER KALEM İÇİN: gövdeyi aç, aranan hükmü oku, sonucu yaz. Üç sonuç: ✓ gövde hükmü VERİYOR → birebir alıntıla, kaynağı ADIYLA yaz ✗ gövde BAŞKA şey diyor → atlas düzelir, öneriyi yaz (UYGULAMA) ⓿ gövde çekilemedi → ÖLÇÜLEMEDİ, \"yok\" DEĞİL ⚠️ TDV tuzakları: 302 = ölü slug · canlı slug yanlış madde olabilir · boş gövde ≠ madde yok · boilerplate gövde \"çekilemedi\"dir · 000 taşıma arızasıdır, ölü değil · kaynak kendiyle çelişebilir (bildir, taraf seçme). 🔴 Rakamın gövdede geçmesi o değeri desteklediği anlamına GELMEZ — rakamı taşıyan cümlenin NEYİ tarihlediği okunur. Ölçülmüş vaka: bir kalemde 90 yıllık fark \"çelişki\" sanıldı, oysa İKİ AYRI OLAYdı. 🔴 Ve bugün ölçülen ayrı bir tuzak (W49b): bir slug'ın \"ölü\" listesinde olması onun SLUG olduğunu da söylemez — o listenin en az 4 üyesi slug değil, atlas künye kimliği ya da geçit TÜR değeriydi. Kalemin SINIFINI doğrula, sonra ölç. ⚠️ TIRNAK BİR İDDİADIR: yalnız gövdeden birebir kesilmiş metne konur. Özet ve çıkarım tırnaksız yazılır. TESLİM: denetim/DEVLETLER-SLUG-IZ-1006-B.md — kalem · slug/URL · sonuç · birebir alıntı · öneri. Ucuz sanıp pahalı çıkanı ayrı kovaya yaz (o da bir ölçümdür). Tahtadan TEK mesaj + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖNCE YAZ: kaç kalem kapanacak ve NİÇİN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
